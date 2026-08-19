@@ -181,6 +181,19 @@
     "cardWidth": 800,
     "cardHeight": 485
   },
+  "File:Colosseum of Rome and Roman forum.jpg": {
+    "artist": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg",
+    "context": "Rome, Italy",
+    "hero": "images/italy/rome.webp",
+    "card": "images/italy/rome-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 473
+  },
   "File:Córdoba - Mezquita-Catedral - Interior - 10.jpg": {
     "artist": "Benjamin Smith",
     "license": "CC BY-SA 4.0",
@@ -189,6 +202,19 @@
     "context": "Córdoba, Spain",
     "hero": "images/spain/cordoba.webp",
     "card": "images/spain/cordoba-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Drei Zinnen Tre Cime di Lavaredo Dolomites.jpg": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drei_Zinnen_Tre_Cime_di_Lavaredo_Dolomites.jpg",
+    "context": "The Dolomites, Italy",
+    "hero": "images/italy/dolomites.webp",
+    "card": "images/italy/dolomites-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -233,6 +259,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Florence from the Duomo terrace (61408p).jpg": {
+    "artist": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence_from_the_Duomo_terrace_(61408p).jpg",
+    "context": "Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany.webp",
+    "card": "images/italy/florence-tuscany-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 468
+  },
   "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
     "artist": "King of Hearts",
     "license": "CC BY-SA 4.0",
@@ -245,6 +284,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 500
+  },
+  "File:Forum (Pompeii) and the Vesuvio.jpg": {
+    "artist": "Commonists",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg",
+    "context": "Naples & Pompeii, Italy",
+    "hero": "images/italy/naples-pompeii.webp",
+    "card": "images/italy/naples-pompeii-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 528
   },
   "File:Göbekli Tepe, Urfa.jpg": {
     "artist": "Teomancimit",
@@ -363,6 +415,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Manarola NW Cinque Terre Sep23 A7C 07233.jpg": {
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07233.jpg",
+    "context": "The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre.webp",
+    "card": "images/italy/cinque-terre-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Mont Blanc Massif (2022-08-16).jpg": {
     "artist": "Olgierd Rudak",
     "license": "CC BY-SA 4.0",
@@ -415,6 +480,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Panorama of Canal Grande and Ponte di Rialto, Venice - September 2017.jpg": {
+    "artist": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Canal_Grande_and_Ponte_di_Rialto,_Venice_-_September_2017.jpg",
+    "context": "Venice, Italy",
+    "hero": "images/italy/venice.webp",
+    "card": "images/italy/venice-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 711,
+    "cardWidth": 800,
+    "cardHeight": 355
+  },
   "File:Panoramic view of Oia, Santorini island (Thira), Greece.jpg": {
     "artist": "Mstyslav Chernov",
     "license": "CC BY-SA 3.0",
@@ -441,6 +519,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Piazza del Duomo, Milan panorama.jpg": {
+    "artist": "Tanweer Morshed",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo,_Milan_panorama.jpg",
+    "context": "Milan, Italy",
+    "hero": "images/italy/milan.webp",
+    "card": "images/italy/milan-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 597,
+    "cardWidth": 800,
+    "cardHeight": 298
+  },
   "File:Plaza de España (Sevilla) - 01.jpg": {
     "artist": "Carlos Delgado",
     "license": "CC BY-SA 4.0",
@@ -466,6 +557,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Positano (Italy) 04.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_(Italy)_04.jpg",
+    "context": "The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast.webp",
+    "card": "images/italy/amalfi-coast-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Prague Panorama - Oct 2010.jpg": {
     "artist": "Diliff",
@@ -623,6 +727,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Valle dei Templi – towards Temple of Concordia.jpg": {
+    "artist": "Cayambe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valle_dei_Templi_%E2%80%93_towards_Temple_of_Concordia.jpg",
+    "context": "Sicily, Italy",
+    "hero": "images/italy/sicily.webp",
+    "card": "images/italy/sicily-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 894,
+    "cardWidth": 800,
+    "cardHeight": 447
+  },
+  "File:Varenna, Lake Como 1.jpg": {
+    "artist": "Ray in Manila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Varenna,_Lake_Como_1.jpg",
+    "context": "Italy",
+    "hero": "images/italy/_country.webp",
+    "card": "images/italy/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 477
+  },
   "File:View of Puente Nuevo bridge in Ronda Spain.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -635,6 +765,19 @@
     "heroHeight": 812,
     "cardWidth": 800,
     "cardHeight": 406
+  },
+  "File:View of Sassi di Matera, Matera, Italy (PPL2-Enhanced) julesvernex2.jpg": {
+    "artist": "Jules Verne Times Two",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Sassi_di_Matera,_Matera,_Italy_(PPL2-Enhanced)_julesvernex2.jpg",
+    "context": "Puglia & Matera, Italy",
+    "hero": "images/italy/puglia-matera.webp",
+    "card": "images/italy/puglia-matera-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 781,
+    "cardWidth": 800,
+    "cardHeight": 390
   },
   "File:Village of Gordes.jpg": {
     "artist": "Einaz80",
