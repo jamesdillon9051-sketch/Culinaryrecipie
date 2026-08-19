@@ -131,6 +131,66 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/travel-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/new-york-city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/grand-canyon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/san-francisco/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/new-orleans/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/yellowstone/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/washington-dc/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/zion-southern-utah/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/chicago/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/maui/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/united-states/charleston/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/articles/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -162,6 +222,11 @@
   </url>
   <url>
     <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/articles/unesco-worth-planning-around/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/articles/us-national-parks-road-trip/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

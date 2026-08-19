@@ -25,6 +25,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2026-06-17 Lincoln Memorial Reflecting Pool post-restoration Washington DC 18-53-22.jpg": {
+    "artist": "G. Edward Johnson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-06-17_Lincoln_Memorial_Reflecting_Pool_post-restoration_Washington_DC_18-53-22.jpg",
+    "context": "Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc.webp",
+    "card": "images/united-states/washington-dc-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Alhambra in the evening.jpg": {
     "artist": "Jebulon",
     "license": "Public domain",
@@ -155,6 +168,58 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
+    "artist": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forrest_Gump_Point_Monument_Valley_November_2018_001.jpg",
+    "context": "United States",
+    "hero": "images/united-states/_country.webp",
+    "card": "images/united-states/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 500
+  },
+  "File:Going-to-the-Sun Road (Patterson).jpg": {
+    "artist": "Tom Patterson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Going-to-the-Sun_Road_(Patterson).jpg",
+    "context": "How to Plan a US National Parks Road Trip",
+    "hero": "images/articles/us-national-parks-road-trip.webp",
+    "card": "images/articles/us-national-parks-road-trip-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Golden Gate Bridge at sunset 1.jpg": {
+    "artist": "Brocken Inaglory",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg",
+    "context": "San Francisco & the California Coast, United States",
+    "hero": "images/united-states/san-francisco.webp",
+    "card": "images/united-states/san-francisco-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Grand Canyon South Rim at Sunset.jpg": {
+    "artist": "Mgimelfarb",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_at_Sunset.jpg",
+    "context": "Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon.webp",
+    "card": "images/united-states/grand-canyon-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 511,
+    "cardWidth": 800,
+    "cardHeight": 255
+  },
   "File:La Roque-Gageac Dordogne.jpg": {
     "artist": "Jebulon",
     "license": "CC0",
@@ -167,6 +232,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Lower Manhattan from Brooklyn May 2015 panorama.jpg": {
+    "artist": "King of Hearts",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Brooklyn_May_2015_panorama.jpg",
+    "context": "New York City, United States",
+    "hero": "images/united-states/new-york-city.webp",
+    "card": "images/united-states/new-york-city-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 500,
+    "cardWidth": 800,
+    "cardHeight": 250
   },
   "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG": {
     "artist": "Diego Delso",
@@ -206,6 +284,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:New Orleans, Louisiana April 2024 - French Quarter balconies and crowds.jpg": {
+    "artist": "rboed*",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Orleans,_Louisiana_April_2024_-_French_Quarter_balconies_and_crowds.jpg",
+    "context": "New Orleans, United States",
+    "hero": "images/united-states/new-orleans.webp",
+    "card": "images/united-states/new-orleans-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 529
   },
   "File:Panoramic view of Oia, Santorini island (Thira), Greece.jpg": {
     "artist": "Mstyslav Chernov",
@@ -285,6 +376,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Rainbow Row Charleston July 2024 1.jpg": {
+    "artist": "Thomson200",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston_July_2024_1.jpg",
+    "context": "Charleston, South Carolina, United States",
+    "hero": "images/united-states/charleston.webp",
+    "card": "images/united-states/charleston-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Road to hana coast Maui Hawaii (43923169680).jpg": {
+    "artist": "dronepicr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_to_hana_coast_Maui_Hawaii_(43923169680).jpg",
+    "context": "Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui.webp",
+    "card": "images/united-states/maui-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
     "artist": "Ermell",
     "license": "CC BY-SA 4.0",
@@ -337,6 +454,19 @@
     "cardWidth": 800,
     "cardHeight": 345
   },
+  "File:The Watchman, Zion National Park, Oct 16.jpg": {
+    "artist": "An Errant Knight",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Watchman,_Zion_National_Park,_Oct_16.jpg",
+    "context": "Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah.webp",
+    "card": "images/united-states/zion-southern-utah-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Toledo Skyline Panorama, Spain - Dec 2006.jpg": {
     "artist": "Diliff",
     "license": "CC BY 2.5",
@@ -375,5 +505,31 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Wendella architecture tour on Chicago River (9433676806).jpg": {
+    "artist": "Roy Luck",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wendella_architecture_tour_on_Chicago_River_(9433676806).jpg",
+    "context": "Chicago, United States",
+    "hero": "images/united-states/chicago.webp",
+    "card": "images/united-states/chicago-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Yellowstone National Park (WY, USA), Grand Prismatic Spring -- 2022 -- 2514.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Grand_Prismatic_Spring_--_2022_--_2514.jpg",
+    "context": "Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone.webp",
+    "card": "images/united-states/yellowstone-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 524
   }
 }
