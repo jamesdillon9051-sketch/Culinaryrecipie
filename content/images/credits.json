@@ -51,6 +51,19 @@
     "cardWidth": 800,
     "cardHeight": 283
   },
+  "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir,_Ankara,_Turqu%C3%ADa,_2024-10-03,_DD_27.jpg",
+    "context": "Ankara, Turkey",
+    "hero": "images/turkey/ankara.webp",
+    "card": "images/turkey/ankara-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 754,
+    "cardWidth": 800,
+    "cardHeight": 377
+  },
   "File:Annecy, France - Apr 2026.jpg": {
     "artist": "Karlheinz Klingbeil",
     "license": "CC BY 4.0",
@@ -64,6 +77,19 @@
     "cardWidth": 800,
     "cardHeight": 402
   },
+  "File:Antalya kaleiçi 2.jpg": {
+    "artist": "REHBER0770",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antalya_kalei%C3%A7i_2.jpg",
+    "context": "Antalya & the Turquoise Coast, Turkey",
+    "hero": "images/turkey/antalya-turquoise-coast.webp",
+    "card": "images/turkey/antalya-turquoise-coast-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Beach and Cliffs of Étretat, Normandy-8172.jpg": {
     "artist": "Raimond Spekking",
     "license": "CC BY-SA 4.0",
@@ -76,6 +102,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Blue Lagoon in Ölüdeniz, Turkey (49070738266).jpg": {
+    "artist": "dronepicr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon_in_%C3%96l%C3%BCdeniz,_Turkey_(49070738266).jpg",
+    "context": "Fethiye & Ölüdeniz, Turkey",
+    "hero": "images/turkey/fethiye-oludeniz.webp",
+    "card": "images/turkey/fethiye-oludeniz-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 652,
+    "cardWidth": 800,
+    "cardHeight": 326
+  },
+  "File:Bodrum Castle, Turkey.jpg": {
+    "artist": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodrum_Castle,_Turkey.jpg",
+    "context": "Bodrum, Turkey",
+    "hero": "images/turkey/bodrum.webp",
+    "card": "images/turkey/bodrum-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Bordeaux place de la bourse sunset and fog with girls.jpg": {
     "artist": "Nikopol (Phillip Maiwald)",
@@ -168,6 +220,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Ephesus Celsus Library Façade.jpg": {
+    "artist": "Benh LIEU SONG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg",
+    "context": "Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus.webp",
+    "card": "images/turkey/ephesus-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
     "artist": "King of Hearts",
     "license": "CC BY-SA 4.0",
@@ -180,6 +245,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 500
+  },
+  "File:Göbekli Tepe, Urfa.jpg": {
+    "artist": "Teomancimit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+    "context": "Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Going-to-the-Sun Road (Patterson).jpg": {
     "artist": "Tom Patterson",
@@ -219,6 +297,32 @@
     "heroHeight": 511,
     "cardWidth": 800,
     "cardHeight": 255
+  },
+  "File:Hagia Sophia Istanbul July 2022-2.jpg": {
+    "artist": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Istanbul_July_2022-2.jpg",
+    "context": "Istanbul, Turkey",
+    "hero": "images/turkey/istanbul.webp",
+    "card": "images/turkey/istanbul-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hot air balloons over valleys near Göreme, Cappadocia at dawn.JPG": {
+    "artist": "MusikAnimal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_air_balloons_over_valleys_near_G%C3%B6reme,_Cappadocia_at_dawn.JPG",
+    "context": "Cappadocia, Turkey",
+    "hero": "images/turkey/cappadocia.webp",
+    "card": "images/turkey/cappadocia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:La Roque-Gageac Dordogne.jpg": {
     "artist": "Jebulon",
@@ -297,6 +401,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 529
+  },
+  "File:Ottoman Style Houses in Safranbolu - 2014.10 - panoramio.jpg": {
+    "artist": "rheins",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ottoman_Style_Houses_in_Safranbolu_-_2014.10_-_panoramio.jpg",
+    "context": "Turkey",
+    "hero": "images/turkey/_country.webp",
+    "card": "images/turkey/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Panoramic view of Oia, Santorini island (Thira), Greece.jpg": {
     "artist": "Mstyslav Chernov",
@@ -441,6 +558,19 @@
     "cardWidth": 800,
     "cardHeight": 494
   },
+  "File:Sumela From Across Valley.JPG": {
+    "artist": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sumela_From_Across_Valley.JPG",
+    "context": "Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea.webp",
+    "card": "images/turkey/trabzon-black-sea-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 632,
+    "cardWidth": 800,
+    "cardHeight": 316
+  },
   "File:Teide Canadas.jpg": {
     "artist": "Ingo Mehling",
     "license": "CC BY-SA 4.0",
@@ -479,6 +609,19 @@
     "heroHeight": 760,
     "cardWidth": 800,
     "cardHeight": 380
+  },
+  "File:Travertine terraces - Pamukkale, Denizli Province, Turkey - October 6, 2025.jpg": {
+    "artist": "Giorgio Galeotti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Travertine_terraces_-_Pamukkale,_Denizli_Province,_Turkey_-_October_6,_2025.jpg",
+    "context": "Pamukkale & Hierapolis, Turkey",
+    "hero": "images/turkey/pamukkale.webp",
+    "card": "images/turkey/pamukkale-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:View of Puente Nuevo bridge in Ronda Spain.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
