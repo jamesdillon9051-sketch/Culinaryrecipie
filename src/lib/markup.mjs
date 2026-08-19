@@ -19,6 +19,9 @@ import { url } from './url.mjs';
 
 const TOKEN = /\[\[([acd]:)?([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g;
 
+/** Long-form guide prose also supports **bold** for lead-ins within a paragraph. */
+const BOLD = /\*\*([^*]+)\*\*/g;
+
 /** Keys whose values are identifiers or structured data, never prose. */
 const SKIP_KEYS = new Set([
   'slug',
@@ -56,10 +59,15 @@ export function createLinker({ destinations, countries, articles, strict = true 
 
   return function expand(text) {
     TOKEN.lastIndex = 0;
-    if (!TOKEN.test(text)) return null;
+    BOLD.lastIndex = 0;
+    const hasToken = TOKEN.test(text);
+    BOLD.lastIndex = 0;
+    const hasBold = BOLD.test(text);
+    if (!hasToken && !hasBold) return null;
     TOKEN.lastIndex = 0;
+    BOLD.lastIndex = 0;
 
-    return esc(text).replace(TOKEN, (match, prefix, slug, label) => {
+    return esc(text).replace(BOLD, '<strong>$1</strong>').replace(TOKEN, (match, prefix, slug, label) => {
       const kind = (prefix || 'd:').slice(0, 1);
 
       if (kind === 'c') {

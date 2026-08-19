@@ -12,6 +12,32 @@
     "cardWidth": 800,
     "cardHeight": 523
   },
+  "File:2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg": {
+    "artist": "Luis Miguel Bugallo Sánchez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-Catedral_de_Santiago_de_Compostela-Galicia_(Spain)_3.jpg",
+    "context": "Santiago de Compostela & Galicia, Spain",
+    "hero": "images/spain/santiago-galicia.webp",
+    "card": "images/spain/santiago-galicia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Alhambra in the evening.jpg": {
+    "artist": "Jebulon",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alhambra_in_the_evening.jpg",
+    "context": "Granada, Spain",
+    "hero": "images/spain/granada.webp",
+    "card": "images/spain/granada-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 566,
+    "cardWidth": 800,
+    "cardHeight": 283
+  },
   "File:Annecy, France - Apr 2026.jpg": {
     "artist": "Karlheinz Klingbeil",
     "license": "CC BY 4.0",
@@ -90,6 +116,19 @@
     "cardWidth": 800,
     "cardHeight": 485
   },
+  "File:Córdoba - Mezquita-Catedral - Interior - 10.jpg": {
+    "artist": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_10.jpg",
+    "context": "Córdoba, Spain",
+    "hero": "images/spain/cordoba.webp",
+    "card": "images/spain/cordoba-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Eiffel Tower sunset skyline (Unsplash).jpg": {
     "artist": "Pedro Kümmel pedrokummel",
     "license": "CC0",
@@ -102,6 +141,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:El Hemisférico, Ciudad de las Artes y las Ciencias, Valencia, España, 2014-06-29, DD 71.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Hemisf%C3%A9rico,_Ciudad_de_las_Artes_y_las_Ciencias,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_71.JPG",
+    "context": "Valencia, Spain",
+    "hero": "images/spain/valencia.webp",
+    "card": "images/spain/valencia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:La Roque-Gageac Dordogne.jpg": {
     "artist": "Jebulon",
@@ -168,6 +220,45 @@
     "cardWidth": 800,
     "cardHeight": 302
   },
+  "File:Park Güell - city view 01.jpg": {
+    "artist": "Joe Mabel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_-_city_view_01.jpg",
+    "context": "Barcelona, Spain",
+    "hero": "images/spain/barcelona.webp",
+    "card": "images/spain/barcelona-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plaza de España (Sevilla) - 01.jpg": {
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+    "context": "Seville, Spain",
+    "hero": "images/spain/seville.webp",
+    "card": "images/spain/seville-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plaza Mayor de Madrid - 01.jpg": {
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_-_01.jpg",
+    "context": "Madrid, Spain",
+    "hero": "images/spain/madrid.webp",
+    "card": "images/spain/madrid-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Prague Panorama - Oct 2010.jpg": {
     "artist": "Diliff",
     "license": "CC BY-SA 3.0",
@@ -194,6 +285,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
+    "artist": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Sebastian_La_Concha-20120902-RM-125922.jpg",
+    "context": "San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque.webp",
+    "card": "images/spain/san-sebastian-basque-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Serra de Tramuntana (2016.05.17).jpg": {
+    "artist": "Geir Hval (www.MacWhale.eu)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_de_Tramuntana_(2016.05.17).jpg",
+    "context": "Mallorca, Spain",
+    "hero": "images/spain/mallorca.webp",
+    "card": "images/spain/mallorca-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
     "artist": "Kabelleger / David Gubler",
     "license": "CC BY-SA 4.0",
@@ -206,6 +323,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 494
+  },
+  "File:Teide Canadas.jpg": {
+    "artist": "Ingo Mehling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teide_Canadas.jpg",
+    "context": "Tenerife & Mount Teide, Spain",
+    "hero": "images/spain/tenerife-teide.webp",
+    "card": "images/spain/tenerife-teide-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 691,
+    "cardWidth": 800,
+    "cardHeight": 345
+  },
+  "File:Toledo Skyline Panorama, Spain - Dec 2006.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toledo_Skyline_Panorama,_Spain_-_Dec_2006.jpg",
+    "context": "Spain",
+    "hero": "images/spain/_country.webp",
+    "card": "images/spain/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 760,
+    "cardWidth": 800,
+    "cardHeight": 380
   },
   "File:View of Puente Nuevo bridge in Ronda Spain.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
