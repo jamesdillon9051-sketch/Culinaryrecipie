@@ -129,6 +129,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Boqueria, Barcelona (P1170747).jpg": {
+    "artist": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boqueria,_Barcelona_(P1170747).jpg",
+    "context": "A Country-by-Country Food Primer",
+    "hero": "images/articles/food-primer.webp",
+    "card": "images/articles/food-primer-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bordeaux place de la bourse sunset and fog with girls.jpg": {
     "artist": "Nikopol (Phillip Maiwald)",
     "license": "CC BY 3.0",
@@ -141,6 +154,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 497
+  },
+  "File:Calanques vue de Cassis.jpg": {
+    "artist": "Matthieu Toc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calanques_vue_de_Cassis.jpg",
+    "context": "Choosing a Mediterranean Coast",
+    "hero": "images/articles/mediterranean-coasts.webp",
+    "card": "images/articles/mediterranean-coasts-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Canal @ Petite France @ Strasbourg (44605704925).jpg": {
     "artist": "Guilhem Vellut from Annecy, France",
@@ -661,6 +687,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 494
+  },
+  "File:Sulmona Market Vegetable Stall Abruzzo Italy 9502.jpg": {
+    "artist": "Paul Harrison",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sulmona_Market_Vegetable_Stall_Abruzzo_Italy_9502.jpg",
+    "context": "What a Week Actually Costs in Five Countries",
+    "hero": "images/articles/week-cost-five-countries.webp",
+    "card": "images/articles/week-cost-five-countries-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Sumela From Across Valley.JPG": {
     "artist": "Bjørn Christian Tørrissen",

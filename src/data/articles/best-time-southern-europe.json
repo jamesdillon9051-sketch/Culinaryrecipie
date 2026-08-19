@@ -9,7 +9,7 @@
     "file": "File:Panoramic view of Oia, Santorini island (Thira), Greece.jpg",
     "alt": "White-washed buildings and blue domes above the sea on a Mediterranean island"
   },
-  "featuredDestinations": ["nice-french-riviera", "provence-luberon"],
+  "featuredDestinations": ["nice-french-riviera", "seville", "sicily"],
   "sections": [
     {
       "id": "case-for-september",
@@ -105,5 +105,5 @@
       "a": "From about 25 June on the Valensole plateau, roughly a fortnight later at higher altitude around Sault, with harvest starting in the first half of August. The reliable window is late June to about 20 July. This is the one thing in southern Europe that genuinely cannot be seen in shoulder season."
     }
   ],
-  "readNext": ["first-trip-to-europe", "packing-by-season", "underrated-destinations"]
+  "readNext": ["mediterranean-coasts", "packing-by-season", "underrated-destinations"]
 }

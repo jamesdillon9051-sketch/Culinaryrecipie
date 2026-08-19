@@ -9,7 +9,7 @@
     "file": "File:SNCF TGV Duplex Cize-Bolozon.jpg",
     "alt": "A double-decker TGV crossing a stone viaduct in the French countryside"
   },
-  "featuredDestinations": ["paris", "strasbourg-alsace", "bordeaux"],
+  "featuredDestinations": ["paris", "milan", "madrid"],
   "sections": [
     {
       "id": "when-train-wins",
@@ -98,10 +98,10 @@
       "tone": "tint",
       "body": [
         "A handful of European rail journeys are destinations rather than transfers. The Glacier Express across Switzerland from Zermatt to St Moritz takes eight hours to cover 180 miles and is deliberately slow. The Bernina Express crosses into Italy over a UNESCO-listed alpine line. The Flåm Railway in Norway drops 866 metres in 20 kilometres.",
-        "France has a quieter example: the Train des Merveilles from [[nice-french-riviera|Nice]] up the Roya valley into the mountains, which climbs from Mediterranean palms to alpine villages in under two hours for the price of a regional ticket. Italy's coastal line through the Cinque Terre does something similar — a functional commuter service that happens to be one of the best coastal rides in Europe.",
+        "France has a quieter example: the Train des Merveilles from [[nice-french-riviera|Nice]] up the Roya valley into the mountains, which climbs from Mediterranean palms to alpine villages in under two hours for the price of a regional ticket. Italy's coastal line through [[cinque-terre|the Cinque Terre]] does something similar — a functional commuter service that happens to be one of the best coastal rides in Europe.",
         "None of these need a pass or a premium fare. They are ordinary trains on ordinary tickets, which is rather the point."
       ]
     }
   ],
-  "readNext": ["first-trip-to-europe", "best-time-southern-europe"]
+  "readNext": ["first-trip-to-europe", "week-cost-five-countries", "best-time-southern-europe"]
 }

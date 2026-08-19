@@ -13,12 +13,13 @@ plus a separate long-form travel guide that ties them into real trips.
 | Country | Destinations | Country page | Travel guide |
 | --- | --- | --- | --- |
 | France | 10 | ✅ | ✅ |
-| Spain | — | — | — |
-| United States | — | — | — |
-| Turkey | — | — | — |
-| Italy | — | — | — |
+| Spain | 10 | ✅ | ✅ |
+| United States | 10 | ✅ | ✅ |
+| Turkey | 10 | ✅ | ✅ |
+| Italy | 10 | ✅ | ✅ |
 
-Plus a growing set of cross-country travel articles.
+Version 1 is complete: 5 countries, 50 destination pages, 5 country travel guides and 10
+cross-country articles — 75 pages in total.
 
 ## How it works
 

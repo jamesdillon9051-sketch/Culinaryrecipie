@@ -9,7 +9,7 @@
     "file": "File:View of Puente Nuevo bridge in Ronda Spain.jpg",
     "alt": "A stone bridge spanning a deep gorge beneath a hilltop town"
   },
-  "featuredDestinations": ["dordogne-sarlat", "strasbourg-alsace", "normandy-d-day-beaches"],
+  "featuredDestinations": ["dordogne-sarlat", "puglia-matera", "trabzon-black-sea"],
   "sections": [
     {
       "id": "why",
@@ -120,5 +120,5 @@
       "a": "May, June, September and early October — the same shoulder seasons that work everywhere, but with an additional benefit here. Smaller destinations often have a much shorter open season than major cities, so the shoulder months are when everything is running but the domestic holiday crowds have not arrived or have already left."
     }
   ],
-  "readNext": ["first-trip-to-europe", "best-time-southern-europe", "unesco-worth-planning-around"]
+  "readNext": ["food-primer", "unesco-worth-planning-around", "week-cost-five-countries"]
 }

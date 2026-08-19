@@ -9,7 +9,7 @@
     "file": "File:-TravelTuesday with My Public Lands (24898234425).jpg",
     "alt": "A wide open landscape of hills and trail under a broad sky"
   },
-  "featuredDestinations": ["chamonix-mont-blanc", "provence-luberon", "paris"],
+  "featuredDestinations": ["chamonix-mont-blanc", "dolomites", "sicily"],
   "sections": [
     {
       "id": "one-bag",
@@ -126,5 +126,5 @@
       "a": "Warm and windproof layers regardless of the valley forecast. On a 25°C summer day in Chamonix, the terrace at the top of the Aiguille du Midi cable car at 3,842 m can be around freezing. Add sunglasses and high-factor sun cream — alpine sun burns much faster at altitude and reflects off snow — plus proper footwear if you intend to walk any distance."
     }
   ],
-  "readNext": ["first-trip-to-europe", "best-time-southern-europe", "europe-by-train"]
+  "readNext": ["first-trip-to-europe", "best-time-southern-europe", "mediterranean-coasts"]
 }

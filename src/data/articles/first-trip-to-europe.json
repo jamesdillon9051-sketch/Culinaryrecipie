@@ -9,7 +9,7 @@
     "file": "File:Prague Panorama - Oct 2010.jpg",
     "alt": "A wide panorama of a European city of red roofs, spires and a river at dusk"
   },
-  "featuredDestinations": ["paris", "loire-valley", "nice-french-riviera"],
+  "featuredDestinations": ["paris", "rome", "barcelona"],
   "sections": [
     {
       "id": "the-rule",
@@ -143,5 +143,5 @@
       "a": "Book accommodation, long-distance trains and the two or three sights that genuinely sell out. Leave everything else open. Over-scheduling is the most common way to make a good itinerary feel like work, and the unplanned afternoons are usually what people remember."
     }
   ],
-  "readNext": ["europe-by-train", "best-time-southern-europe", "packing-by-season"]
+  "readNext": ["europe-by-train", "week-cost-five-countries", "food-primer"]
 }

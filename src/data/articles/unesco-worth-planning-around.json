@@ -9,7 +9,7 @@
     "file": "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG",
     "alt": "Stone terraces and ruins of an ancient citadel on a mountain ridge"
   },
-  "featuredDestinations": ["mont-saint-michel", "dordogne-sarlat", "loire-valley"],
+  "featuredDestinations": ["mont-saint-michel", "cordoba", "sanliurfa-gobekli-tepe"],
   "sections": [
     {
       "id": "what-listing-means",
@@ -107,5 +107,5 @@
       "a": "The famous ones are, at predictable hours. Most heavy visitation is concentrated between about 10:00 and 17:00 by coach schedules and day-trip patterns, which means the first and last hours of the day are dramatically quieter almost everywhere. Staying overnight near a major site — rather than day-tripping to it — is the single most effective way to avoid the crush."
     }
   ],
-  "readNext": ["first-trip-to-europe", "underrated-destinations", "europe-by-train"]
+  "readNext": ["underrated-destinations", "mediterranean-coasts", "europe-by-train"]
 }
