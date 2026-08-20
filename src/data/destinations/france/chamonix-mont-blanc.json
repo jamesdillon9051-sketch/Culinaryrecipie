@@ -60,41 +60,73 @@
   "attractions": [
     {
       "name": "Aiguille du Midi",
+      "image": {
+        "file": "File:Aiguille-du-Midi-summer.jpg",
+        "alt": "The rock needle of the Aiguille du Midi with its summit station"
+      },
       "text": "A two-stage cable car from the town centre to a rock needle at 3,842 metres, with terraces, a tunnel through the summit rock, and a glass box called the Step into the Void cantilevered over a 1,000-metre drop. On a clear day you see the Matterhorn and the Gran Paradiso.",
       "tip": "Book the first lift of the day online. Clouds build from late morning, and the queue in August can exceed two hours without a timed ticket."
     },
     {
       "name": "Mer de Glace and the Montenvers railway",
+      "image": {
+        "file": "File:Glacier @ Montenvers Mer de Glace @ Chamonix (15234581418).jpg",
+        "alt": "The Mer de Glace glacier seen from Montenvers"
+      },
       "text": "A red cog railway from the town climbs to 1,913 m above France's largest glacier. A gondola and stairs descend to an ice cave carved fresh each year. Signs on the descent mark the glacier's level in previous decades — it has lost well over 100 metres of thickness in a century.",
       "tip": "The number of steps to the cave increases every year as the ice retreats. It is currently around 500 down and back up."
     },
     {
       "name": "Le Brévent and Planpraz",
+      "image": {
+        "file": "File:Chamonix-Mont-Blanc Brévent Vue sur le Mont-Blanc 01.jpg",
+        "alt": "The classic view of the Mont Blanc massif from Le Brévent"
+      },
       "text": "The cable car up the western side of the valley to 2,525 m, facing Mont Blanc directly. This is the classic photograph of the massif, and the paragliding launch point. It is also the start of some of the valley's best walking.",
       "tip": "Late afternoon light on Mont Blanc from Brévent is better than morning, when you are shooting into the sun."
     },
     {
       "name": "The Panoramic Mont-Blanc gondola",
+      "image": {
+        "file": "File:Cable cars crossing crevassed glacier below Aiguille du Midi, Chamonix, Haute-Savoie.jpg",
+        "alt": "Gondola cars crossing the crevassed glacier below the Aiguille du Midi"
+      },
       "text": "From the Aiguille du Midi, a small gondola crosses the Vallée Blanche glacier for five kilometres towards Pointe Helbronner on the Italian side — a thirty-minute ride suspended over crevasses with no pylons for much of the way.",
       "tip": "Runs roughly mid-May to late September only. From the Italian end you can descend to Courmayeur and return by bus through the Mont Blanc tunnel."
     },
     {
       "name": "Lac Blanc",
+      "image": {
+        "file": "File:Lac Blanc and Grandes Jorasses (12834101143).jpg",
+        "alt": "Lac Blanc reflecting the surrounding peaks"
+      },
       "text": "A high alpine lake at 2,352 m that reflects the entire Mont Blanc massif on a still morning. Reached by the Flégère lift then about 90 minutes of walking, or a longer climb from the valley. The most photographed hike in the region and deservedly so.",
       "tip": "Snow lingers on the approach into early July. Go early for the reflection — wind ruins it by mid-morning."
     },
     {
       "name": "Tramway du Mont-Blanc",
+      "image": {
+        "file": "File:La rame Marie du TMB au Nid d'Aigle (juin 2019) 1.JPG",
+        "alt": "The Tramway du Mont-Blanc arriving at the Nid d'Aigle"
+      },
       "text": "From Saint-Gervais, a rack tramway climbs to the Nid d'Aigle at 2,372 m on the normal ascent route of Mont Blanc. It is quieter than the Chamonix lifts and gives a different, more agricultural view of the massif.",
       "tip": "A good alternative on a busy August day when the Aiguille du Midi is booked out."
     },
     {
       "name": "The valley's ski areas",
+      "image": {
+        "file": "File:Les Houches (6744085489).jpg",
+        "alt": "A snowboarder among the trees on a piste at Les Houches"
+      },
       "text": "In winter, Chamonix is really several separate areas: Grands Montets for steep terrain, Le Tour for gentle cruising, Brévent-Flégère for views, and Les Houches for tree skiing in bad weather. The Vallée Blanche is a 20 km off-piste glacier descent with a guide.",
       "tip": "The valley is not one linked ski area. Free buses connect the bases, but it suits confident skiers more than beginners."
     },
     {
       "name": "Chamonix town",
+      "image": {
+        "file": "File:Village @ Chamonix (51051668937).jpg",
+        "alt": "The village of Chamonix beneath the surrounding peaks"
+      },
       "text": "The Alpine Museum, the Maison de la Montagne, the statue of Balmat and Saussure pointing at the summit, and a Saturday market. Small but genuinely characterful, and the mountaineering culture is visible everywhere.",
       "tip": "The Office de Haute Montagne in the Maison de la Montagne gives free, expert and blunt advice on trail conditions."
     }
@@ -103,16 +135,28 @@
   "thingsToDo": [
     {
       "title": "Ride to 3,842 metres",
+      "image": {
+        "file": "File:Mont Blanc du Tacul depuis l'Aiguille du Midi.jpg",
+        "alt": "Mont Blanc du Tacul seen from the Aiguille du Midi terrace"
+      },
       "text": "The Aiguille du Midi is the single thing everyone should do. Take warm clothing — it can be -10°C at the top on a summer day — and move slowly, because the altitude gain is abrupt and light-headedness is common.",
       "tip": "There is a small pressurised rest area at the top. If you feel unwell, descend rather than pushing through it."
     },
     {
       "title": "Walk the Grand Balcon Sud",
+      "image": {
+        "file": "File:View of valley from Hiking Trail near Chamonix, France - panoramio.jpg",
+        "alt": "The Chamonix valley seen from a balcony hiking trail"
+      },
       "text": "A largely level traverse at about 2,000 m along the sunny western side of the valley from Planpraz to Flégère, with Mont Blanc and the Aiguilles opposite you the entire way. Lifts at both ends mean two hours of walking and no climbing.",
       "tip": "The best introduction to alpine hiking there is. Extend it uphill to Lac Blanc if you have the legs."
     },
     {
       "title": "Do part of the Tour du Mont Blanc",
+      "image": {
+        "file": "File:Refuge du Col de Balme from col du balme.jpg",
+        "alt": "The refuge at the Col de Balme on the Tour du Mont Blanc"
+      },
       "text": "The full circuit is 170 km and ten days through France, Italy and Switzerland. Individual stages make excellent day walks — the Col de Balme on the Swiss border, or the crossing to Trient — with buses back.",
       "tip": "Refuges on the TMB book up months ahead for July and August. Day sections need no booking at all."
     },
@@ -123,11 +167,19 @@
     },
     {
       "title": "Go paragliding",
+      "image": {
+        "file": "File:Parapente @ Chamonix (51483500341).jpg",
+        "alt": "A tandem paraglider over the Chamonix valley"
+      },
       "text": "Tandem flights launch from Planpraz and Le Brévent and land in the valley floor, giving fifteen to thirty minutes over the whole massif. No experience needed, and it is the single best way to grasp the scale of the place.",
       "tip": "Morning flights are usually smoother; afternoon thermals give a longer flight but a bumpier one."
     },
     {
       "title": "Cross into Italy for lunch",
+      "image": {
+        "file": "File:Courmayeur 01.jpg",
+        "alt": "The Italian town of Courmayeur on the far side of the Mont Blanc tunnel"
+      },
       "text": "The Panoramic gondola or the road tunnel takes you to Courmayeur on the Italian side in well under an hour. The change in food, language and architecture over such a short distance is startling.",
       "tip": "The Skyway Monte Bianco on the Italian side is a rotating cable car and worth doing in its own right."
     }
@@ -136,31 +188,55 @@
   "foods": [
     {
       "name": "Fondue savoyarde",
+      "image": {
+        "file": "File:Swiss cheese fondue.JPG",
+        "alt": "A pot of melted cheese fondue"
+      },
       "text": "Melted Beaufort, Comté and Emmental with white wine and garlic, eaten with bread on long forks. Traditionally not eaten with water — the local advice is white wine or nothing, on the grounds that cold water sets the cheese.",
       "whereToTry": "Traditional restaurants throughout the valley. Usually a minimum of two people."
     },
     {
       "name": "Tartiflette",
+      "image": {
+        "file": "File:Une tartiflette sortie du four.jpg",
+        "alt": "Tartiflette fresh from the oven, its Reblochon top browned"
+      },
       "text": "Potatoes, lardons and onions baked under a whole Reblochon cheese until the top browns. It was essentially invented in the 1980s to sell more Reblochon and has become the definitive Alpine comfort dish anyway.",
       "whereToTry": "Mountain restaurants at the lift stations, ideally after a day's skiing or walking."
     },
     {
       "name": "Raclette",
+      "image": {
+        "file": "File:Raclette Au Feu De Bois (217507901).jpeg",
+        "alt": "Raclette cheese melted by the fire, scraped onto potatoes"
+      },
       "text": "A half-wheel of cheese melted under a grill and scraped onto potatoes, with cornichons, pickled onions and cured ham. Usually served as a table-top appliance so you do it yourself over an hour or two.",
       "whereToTry": "Any Savoyard restaurant. A slow, sociable meal rather than a quick one."
     },
     {
       "name": "Diots and polenta",
+      "image": {
+        "file": "File:Diots savoyards.jpg",
+        "alt": "Diots, Savoyard pork sausages simmered in white wine"
+      },
       "text": "Savoyard pork sausages simmered in white wine with onions, served with polenta or potatoes. Less famous than the cheese dishes and often what locals actually order.",
       "whereToTry": "Village restaurants and refuges away from the main street."
     },
     {
       "name": "Croûte au fromage",
+      "image": {
+        "file": "File:Croute au fromage.jpg",
+        "alt": "Croûte au fromage, bread and cheese baked together"
+      },
       "text": "Bread soaked in white wine, covered in cheese and baked, sometimes with ham and an egg on top. The mountain refuge staple, and the best-value hot meal at altitude.",
       "whereToTry": "Refuges and mountain restaurants along the hiking trails."
     },
     {
       "name": "Génépi",
+      "image": {
+        "file": "File:Bouteille de génépi noir, fabriqué en Savoie.jpeg",
+        "alt": "A bottle of génépi, the alpine herbal liqueur, made in Savoie"
+      },
       "text": "A pale green herbal liqueur distilled from a high-altitude alpine wormwood, drunk as a digestif after a heavy cheese meal. Many families still make their own, and it is offered at the end of a meal almost as a matter of course.",
       "whereToTry": "Offered in most traditional restaurants. Bottles are sold in the valley's grocers."
     }

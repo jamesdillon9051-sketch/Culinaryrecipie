@@ -142,6 +142,19 @@
     "cardWidth": 800,
     "cardHeight": 432
   },
+  "File:Aiguille-du-Midi-summer.jpg": {
+    "artist": "Martin Janner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aiguille-du-Midi-summer.jpg",
+    "context": "Aiguille du Midi — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-1.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Alexander and Bucephalus - Battle of Issus mosaic - Museo Archeologico Nazionale - Naples BW.jpg": {
     "artist": "Unknown creatorUnknown creator",
     "license": "Public domain",
@@ -467,6 +480,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bouteille de génépi noir, fabriqué en Savoie.jpeg": {
+    "artist": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouteille_de_g%C3%A9n%C3%A9pi_noir,_fabriqu%C3%A9_en_Savoie.jpeg",
+    "context": "Génépi — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-6.webp",
+    "card": "images/france/chamonix-mont-blanc--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Boxes of Baillardran canelés, Bordeaux, 2015.jpg": {
     "artist": "DimiTalen",
     "license": "CC0",
@@ -514,6 +540,19 @@
     "context": "Burrata and mozzarella — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--food-2.webp",
     "card": "images/italy/puglia-matera--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cable cars crossing crevassed glacier below Aiguille du Midi, Chamonix, Haute-Savoie.jpg": {
+    "artist": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cable_cars_crossing_crevassed_glacier_below_Aiguille_du_Midi,_Chamonix,_Haute-Savoie.jpg",
+    "context": "The Panoramic Mont-Blanc gondola — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-4.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -765,6 +804,19 @@
     "heroHeight": 642,
     "cardWidth": 800,
     "cardHeight": 321
+  },
+  "File:Chamonix-Mont-Blanc Brévent Vue sur le Mont-Blanc 01.jpg": {
+    "artist": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamonix-Mont-Blanc_Br%C3%A9vent_Vue_sur_le_Mont-Blanc_01.jpg",
+    "context": "Le Brévent and Planpraz — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-3.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Chateau Margaux Cabernet Sauvignon vines.jpg": {
     "artist": "Megan Mallen",
@@ -1026,6 +1078,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Courmayeur 01.jpg": {
+    "artist": "Daniel Ventura at Hebrew Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courmayeur_01.jpg",
+    "context": "Cross into Italy for lunch — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--thing-6.webp",
+    "card": "images/france/chamonix-mont-blanc--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Courtyard @ Louvre @ Paris (28897294980).jpg": {
     "artist": "Guilhem Vellut from Paris, France",
     "license": "CC BY 2.0",
@@ -1091,6 +1156,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Croute au fromage.jpg": {
+    "artist": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croute_au_fromage.jpg",
+    "context": "Croûte au fromage — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-5.webp",
+    "card": "images/france/chamonix-mont-blanc--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cupola di santa maria del fiore dal campanile di giotto, 01.JPG": {
     "artist": "sailko",
     "license": "CC BY 2.5",
@@ -1112,6 +1190,19 @@
     "context": "Delizia al limone — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--food-2.webp",
     "card": "images/italy/amalfi-coast--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Diots savoyards.jpg": {
+    "artist": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diots_savoyards.jpg",
+    "context": "Diots and polenta — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-4.webp",
+    "card": "images/france/chamonix-mont-blanc--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1520,6 +1611,19 @@
     "cardWidth": 800,
     "cardHeight": 370
   },
+  "File:Glacier @ Montenvers Mer de Glace @ Chamonix (15234581418).jpg": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glacier_@_Montenvers_Mer_de_Glace_@_Chamonix_(15234581418).jpg",
+    "context": "Mer de Glace and the Montenvers railway — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-2.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Glass of chianti.jpg": {
     "artist": "Rick Audet",
     "license": "CC BY 2.0",
@@ -1806,6 +1910,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:La rame Marie du TMB au Nid d'Aigle (juin 2019) 1.JPG": {
+    "artist": "Florian Pépellin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_rame_Marie_du_TMB_au_Nid_d%27Aigle_(juin_2019)_1.JPG",
+    "context": "Tramway du Mont-Blanc — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-6.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:La Roque-Gageac Dordogne.jpg": {
     "artist": "Jebulon",
     "license": "CC0",
@@ -1814,6 +1931,19 @@
     "context": "The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat.webp",
     "card": "images/france/dordogne-sarlat-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lac Blanc and Grandes Jorasses (12834101143).jpg": {
+    "artist": "Björn S...",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lac_Blanc_and_Grandes_Jorasses_(12834101143).jpg",
+    "context": "Lac Blanc — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-5.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1909,6 +2039,19 @@
     "heroHeight": 870,
     "cardWidth": 800,
     "cardHeight": 435
+  },
+  "File:Les Houches (6744085489).jpg": {
+    "artist": "eGuide Travel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Houches_(6744085489).jpg",
+    "context": "The valley's ski areas — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-7.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Les Huîtres de Trousse Chemise (27).JPG": {
     "artist": "Jean-Pierre Bazard Jpbazard",
@@ -2169,6 +2312,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Mont Blanc du Tacul depuis l'Aiguille du Midi.jpg": {
+    "artist": "Alexandre Buisse (Nattfodd)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_du_Tacul_depuis_l%27Aiguille_du_Midi.jpg",
+    "context": "Ride to 3,842 metres — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--thing-1.webp",
+    "card": "images/france/chamonix-mont-blanc--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Mont Blanc Massif (2022-08-16).jpg": {
     "artist": "Olgierd Rudak",
@@ -2503,6 +2659,19 @@
     "context": "Pansotti with walnut sauce — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--food-5.webp",
     "card": "images/italy/cinque-terre--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Parapente @ Chamonix (51483500341).jpg": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parapente_@_Chamonix_(51483500341).jpg",
+    "context": "Go paragliding — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--thing-5.webp",
+    "card": "images/france/chamonix-mont-blanc--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2872,6 +3041,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Raclette Au Feu De Bois (217507901).jpeg": {
+    "artist": "Robin Férand",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raclette_Au_Feu_De_Bois_(217507901).jpeg",
+    "context": "Raclette — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-3.webp",
+    "card": "images/france/chamonix-mont-blanc--food-3-card.webp",
+    "heroWidth": 1365,
+    "heroHeight": 768,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ragusa Ibla al crepuscolo.jpg": {
     "artist": "Daniele Napolitano",
     "license": "CC BY-SA 4.0",
@@ -2906,6 +3088,19 @@
     "context": "Ravello — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--attraction-3.webp",
     "card": "images/italy/amalfi-coast--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Refuge du Col de Balme from col du balme.jpg": {
+    "artist": "Victoria Lunyak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Refuge_du_Col_de_Balme_from_col_du_balme.jpg",
+    "context": "Do part of the Tour du Mont Blanc — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--thing-3.webp",
+    "card": "images/france/chamonix-mont-blanc--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3431,6 +3626,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Swiss cheese fondue.JPG": {
+    "artist": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_cheese_fondue.JPG",
+    "context": "Fondue savoyarde — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-1.webp",
+    "card": "images/france/chamonix-mont-blanc--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tagliatelle al ragù 02.jpg": {
     "artist": "Catia Giaccherini",
     "license": "CC BY-SA 3.0",
@@ -3691,6 +3899,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Une tartiflette sortie du four.jpg": {
+    "artist": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Une_tartiflette_sortie_du_four.jpg",
+    "context": "Tartiflette — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--food-2.webp",
+    "card": "images/france/chamonix-mont-blanc--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Valle dei Templi – Temple of Hera 2024a.jpg": {
     "artist": "Cayambe",
     "license": "CC BY-SA 4.0",
@@ -3847,6 +4068,19 @@
     "cardWidth": 800,
     "cardHeight": 390
   },
+  "File:View of valley from Hiking Trail near Chamonix, France - panoramio.jpg": {
+    "artist": "CCXKnight",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_valley_from_Hiking_Trail_near_Chamonix,_France_-_panoramio.jpg",
+    "context": "Walk the Grand Balcon Sud — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--thing-2.webp",
+    "card": "images/france/chamonix-mont-blanc--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View west along Duomo roof, Milan.jpg": {
     "artist": "Daniel Case",
     "license": "CC BY-SA 3.0",
@@ -3872,6 +4106,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Village @ Chamonix (51051668937).jpg": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Village_@_Chamonix_(51051668937).jpg",
+    "context": "Chamonix town — Chamonix & Mont Blanc, France",
+    "hero": "images/france/chamonix-mont-blanc--attraction-8.webp",
+    "card": "images/france/chamonix-mont-blanc--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Village of Gordes.jpg": {
     "artist": "Einaz80",
