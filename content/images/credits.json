@@ -12,6 +12,19 @@
     "cardWidth": 800,
     "cardHeight": 523
   },
+  "File:00 1166 Château d'Azay-le-Rideau.jpg": {
+    "artist": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_1166_Ch%C3%A2teau_d%27Azay-le-Rideau.jpg",
+    "context": "Château d'Azay-le-Rideau — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-6.webp",
+    "card": "images/france/loire-valley--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:00 3029 Dune du Pilat - Frankreich.jpg": {
     "artist": "W. Bulach",
     "license": "CC BY-SA 4.0",
@@ -128,6 +141,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Aerial image of Château de Chambord (view from the northwest).jpg": {
+    "artist": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Ch%C3%A2teau_de_Chambord_(view_from_the_northwest).jpg",
+    "context": "Château de Chambord — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-1.webp",
+    "card": "images/france/loire-valley--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Aerial image of Stromboli (view from the northeast).jpg": {
     "artist": "Carsten Steger",
@@ -857,6 +883,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Château d'Amboise. View from the east.jpg": {
+    "artist": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d%27Amboise._View_from_the_east.jpg",
+    "context": "Amboise and Clos Lucé — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-4.webp",
+    "card": "images/france/loire-valley--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 526
+  },
   "File:Château de Castelnaud-la-Chapelle - 04.jpg": {
     "artist": "Thérèse Gaigé",
     "license": "CC BY-SA 4.0",
@@ -865,6 +904,45 @@
     "context": "Château de Castelnaud — The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat--attraction-5.webp",
     "card": "images/france/dordogne-sarlat--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Château de Chambord son et lumieres.jpg": {
+    "artist": "Christophe.Finot",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chambord_son_et_lumieres.jpg",
+    "context": "See a son et lumière — The Loire Valley, France",
+    "hero": "images/france/loire-valley--thing-5.webp",
+    "card": "images/france/loire-valley--thing-5-card.webp",
+    "heroWidth": 1276,
+    "heroHeight": 673,
+    "cardWidth": 800,
+    "cardHeight": 422
+  },
+  "File:Château de Chaumont-sur-Loire, 2018.jpg": {
+    "artist": "Meria Geoian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chaumont-sur-Loire,_2018.jpg",
+    "context": "Château de Chaumont — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-5.webp",
+    "card": "images/france/loire-valley--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Château de Villandry Gardens.jpg": {
+    "artist": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Villandry_Gardens.jpg",
+    "context": "Château de Villandry — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-3.webp",
+    "card": "images/france/loire-valley--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1008,6 +1086,19 @@
     "context": "Drink your coffee standing up — Italy",
     "hero": "images/italy/_country--thing-2.webp",
     "card": "images/italy/_country--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Closeup of tarte tatin (13513714244).jpg": {
+    "artist": "Franck Chicot from Nantes, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Closeup_of_tarte_tatin_(13513714244).jpg",
+    "context": "Tarte Tatin — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-4.webp",
+    "card": "images/france/loire-valley--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1231,6 +1322,19 @@
     "card": "images/italy/florence-tuscany--attraction-2-card.webp",
     "heroWidth": 1200,
     "heroHeight": 675,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cycling holiday - The Loire Valley, France.jpg": {
+    "artist": "Cjp24",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cycling_holiday_-_The_Loire_Valley,_France.jpg",
+    "context": "Cycle a stretch of the Loire à Vélo — The Loire Valley, France",
+    "hero": "images/france/loire-valley--thing-1.webp",
+    "card": "images/france/loire-valley--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -1494,6 +1598,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Field of sunflowers.JPG": {
+    "artist": "BenAveling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Field_of_sunflowers.JPG",
+    "context": "Walk into the countryside behind the river — The Loire Valley, France",
+    "hero": "images/france/loire-valley--thing-6.webp",
+    "card": "images/france/loire-valley--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 527
+  },
   "File:Fiordo di Furore.jpg": {
     "artist": "Ugeorge",
     "license": "CC BY-SA 3.0",
@@ -1623,6 +1740,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 528
+  },
+  "File:Fouées angevines avec rillettes.JPG": {
+    "artist": "Romain Bréget",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fou%C3%A9es_angevines_avec_rillettes.JPG",
+    "context": "Fouées — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-5.webp",
+    "card": "images/france/loire-valley--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Funivia del Lagazuoi (passo Falzarego).jpg": {
     "artist": "Ale041VE",
@@ -2247,6 +2377,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Louis XII wing of the castle of Blois 01.jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_XII_wing_of_the_castle_of_Blois_01.jpg",
+    "context": "Blois and Tours — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-8.webp",
+    "card": "images/france/loire-valley--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 474
   },
   "File:Lower Manhattan from Brooklyn May 2015 panorama.jpg": {
     "artist": "King of Hearts",
@@ -3002,6 +3145,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Pike quenelles.jpg": {
+    "artist": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pike_quenelles.jpg",
+    "context": "Loire river fish — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-3.webp",
+    "card": "images/france/loire-valley--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pizza-napoletana.jpg": {
     "artist": "Fabryx98",
     "license": "CC BY-SA 4.0",
@@ -3457,6 +3613,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sainte-maure-de-touraine cheese 2.jpg": {
+    "artist": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sainte-maure-de-touraine_cheese_2.jpg",
+    "context": "Goat's cheese — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-2.webp",
+    "card": "images/france/loire-valley--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:San Gimignano skyline (6082044552).jpg": {
     "artist": "Thomas Quine",
     "license": "CC BY 2.0",
@@ -3491,6 +3660,19 @@
     "context": "San Sebastián & the Basque Country, Spain",
     "hero": "images/spain/san-sebastian-basque.webp",
     "card": "images/spain/san-sebastian-basque-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sancerre - View on vineyards - 2.jpg": {
+    "artist": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sancerre_-_View_on_vineyards_-_2.jpg",
+    "context": "Loire wine — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-6.webp",
+    "card": "images/france/loire-valley--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3543,6 +3725,32 @@
     "context": "Go to Sarlat market on Saturday — The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat--thing-2.webp",
     "card": "images/france/dordogne-sarlat--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Saumur (138) Montsoreau troglodyte.jpg": {
+    "artist": "Palamède",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saumur_(138)_Montsoreau_troglodyte.jpg",
+    "context": "Saumur and the troglodyte cellars — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-7.webp",
+    "card": "images/france/loire-valley--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:Schloss Chenonceau.JPG": {
+    "artist": "Wladyslaw (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Chenonceau.JPG",
+    "context": "Château de Chenonceau — The Loire Valley, France",
+    "hero": "images/france/loire-valley--attraction-2.webp",
+    "card": "images/france/loire-valley--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3977,6 +4185,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Tours - Halles de Tours - Avril 2019 - Rillettes de Tours.jpg": {
+    "artist": "GrandCelinien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tours_-_Halles_de_Tours_-_Avril_2019_-_Rillettes_de_Tours.jpg",
+    "context": "Rillettes de Tours — The Loire Valley, France",
+    "hero": "images/france/loire-valley--food-1.webp",
+    "card": "images/france/loire-valley--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Traghetto San Tomà Venice.JPG": {
     "artist": "Abxbay",
     "license": "CC BY-SA 3.0",
@@ -4089,6 +4310,19 @@
     "context": "Pesto genovese — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--food-1.webp",
     "card": "images/italy/cinque-terre--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Typical Gabare boat of the Loire river - panoramio.jpg": {
+    "artist": "Franck Michel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Typical_Gabare_boat_of_the_Loire_river_-_panoramio.jpg",
+    "context": "Take a traditional river boat — The Loire Valley, France",
+    "hero": "images/france/loire-valley--thing-3.webp",
+    "card": "images/france/loire-valley--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4362,6 +4596,19 @@
     "context": "The high sanctuary trails — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--attraction-7.webp",
     "card": "images/italy/cinque-terre--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vouvray wine cave.jpg": {
+    "artist": "Peter Dutton",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vouvray_wine_cave.jpg",
+    "context": "Taste in a tufa cave cellar — The Loire Valley, France",
+    "hero": "images/france/loire-valley--thing-2.webp",
+    "card": "images/france/loire-valley--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

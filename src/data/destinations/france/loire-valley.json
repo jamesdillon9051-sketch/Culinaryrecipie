@@ -61,41 +61,73 @@
   "attractions": [
     {
       "name": "Château de Chambord",
+      "image": {
+        "file": "File:Aerial image of Château de Chambord (view from the northwest).jpg",
+        "alt": "Aerial view of Château de Chambord's turreted roofline and formal gardens"
+      },
       "text": "The largest and strangest of them all — a hunting lodge with 440 rooms that François I visited for a total of about seven weeks. The famous double-helix staircase lets two people ascend without meeting, and the roof terrace is a forest of chimneys, turrets and dormers designed to be walked among.",
       "tip": "Go up to the roof terrace first and work down. Most visitors do the reverse and reach the best part exhausted."
     },
     {
       "name": "Château de Chenonceau",
+      "image": {
+        "file": "File:Schloss Chenonceau.JPG",
+        "alt": "Château de Chenonceau's arched gallery spanning the River Cher, reflected in the water"
+      },
       "text": "Built across the River Cher on five arches, with a long gallery spanning the water. It was run by a succession of women — Diane de Poitiers, Catherine de' Medici, and later a family who used the gallery as a First World War hospital. The most beautiful and the most visited château in the valley.",
       "tip": "The first hour after opening is the only quiet one. The flower garden and the maze behind the house are worth the extra half hour."
     },
     {
       "name": "Château de Villandry",
+      "image": {
+        "file": "File:Château de Villandry Gardens.jpg",
+        "alt": "The geometric Renaissance parterres of the gardens at Château de Villandry"
+      },
       "text": "Visited entirely for its gardens: six hectares of Renaissance parterres reconstructed in the early 20th century, including an ornamental vegetable garden laid out in coloured geometric blocks that is replanted twice a year. The house itself is a modest afterthought.",
       "tip": "Best from June to October when the vegetable garden is at full colour. Climb to the belvedere for the overhead view — it is the only angle that makes sense of the design."
     },
     {
       "name": "Amboise and Clos Lucé",
+      "image": {
+        "file": "File:Château d'Amboise. View from the east.jpg",
+        "alt": "The royal château at Amboise above the town on the river"
+      },
       "text": "A walkable riverside town beneath a royal château where Leonardo da Vinci is buried. Five minutes away, Clos Lucé is the manor where he spent his last three years, now filled with working models built from his notebooks — much more engaging than another set of tapestried rooms.",
       "tip": "Clos Lucé is genuinely good with children. The gardens contain full-size machines you can operate."
     },
     {
       "name": "Château de Chaumont",
+      "image": {
+        "file": "File:Château de Chaumont-sur-Loire, 2018.jpg",
+        "alt": "Château de Chaumont on its hilltop above the Loire"
+      },
       "text": "A hilltop castle above the river that hosts an international garden festival each year from April to November — thirty experimental show gardens by designers from around the world, replaced annually. It is the one château in the valley that offers something new every visit.",
       "tip": "Combine it with a stop in the village below, which has a good weekly market."
     },
     {
       "name": "Château d'Azay-le-Rideau",
+      "image": {
+        "file": "File:00 1166 Château d'Azay-le-Rideau.jpg",
+        "alt": "Château d'Azay-le-Rideau reflected in the water of the Indre"
+      },
       "text": "A small, perfectly proportioned early Renaissance house on an island in the Indre, reflected in the water on three sides. Far quieter than Chenonceau and, at close quarters, arguably as lovely.",
       "tip": "The walk around the moat and through the park is free of the interior queue and gives you the best views."
     },
     {
       "name": "Saumur and the troglodyte cellars",
+      "image": {
+        "file": "File:Saumur (138) Montsoreau troglodyte.jpg",
+        "alt": "Troglodyte dwellings cut into the tufa cliff face near Saumur"
+      },
       "text": "A white-stone town at the western end of the valley, known for sparkling wine, a cavalry school and miles of caves cut into the tufa cliffs. Several cellars offer tastings underground, and some caves are used to grow mushrooms commercially.",
       "tip": "The nearby village of Turquant has troglodyte houses converted into workshops and restaurants — an unusual hour."
     },
     {
       "name": "Blois and Tours",
+      "image": {
+        "file": "File:Louis XII wing of the castle of Blois 01.jpg",
+        "alt": "The Louis XII wing of the royal château at Blois"
+      },
       "text": "The two main towns. Blois has a royal château that shows four architectural periods stacked on one courtyard, and a compact old centre. Tours is bigger, with a lively old quarter around the Place Plumereau and the best restaurant scene in the valley.",
       "tip": "Tours has the better transport links and nightlife; Blois is closer to Chambord and more manageable."
     }
@@ -104,16 +136,28 @@
   "thingsToDo": [
     {
       "title": "Cycle a stretch of the Loire à Vélo",
+      "image": {
+        "file": "File:Cycling holiday - The Loire Valley, France.jpg",
+        "alt": "Cyclists stopped with their bikes in a Loire Valley village"
+      },
       "text": "The signposted route runs along the river on flat, largely traffic-free paths. The stretch from Blois to Chaumont, or Tours to Villandry, makes a perfect half day, and bikes can often be dropped at a different town from where you hired them.",
       "tip": "Hire outlets in Tours, Blois, Amboise and Saumur all participate in a one-way scheme. Book a day ahead in summer."
     },
     {
       "title": "Taste in a tufa cave cellar",
+      "image": {
+        "file": "File:Vouvray wine cave.jpg",
+        "alt": "Sparkling wine bottles racked inside a tufa cave cellar at Vouvray"
+      },
       "text": "The soft white limestone of the valley has been quarried for centuries, and the resulting caves hold a constant cool temperature that is ideal for wine. Vouvray, Montlouis, Bourgueil and Saumur all have cellars cut straight into the cliffs.",
       "tip": "Take a jumper — the caves sit at around 12°C year-round regardless of the weather outside."
     },
     {
       "title": "Take a traditional river boat",
+      "image": {
+        "file": "File:Typical Gabare boat of the Loire river - panoramio.jpg",
+        "alt": "A traditional wooden gabare boat moored on the bank of the Loire"
+      },
       "text": "Flat-bottomed wooden boats called toues and gabares once carried freight up the Loire. Several operators run short trips from Amboise, Blois and Saumur, and seeing the châteaux from the water is a completely different perspective.",
       "tip": "The Loire is shallow and sandbanked, so trips depend on water levels and rarely run in late summer droughts."
     },
@@ -124,11 +168,19 @@
     },
     {
       "title": "See a son et lumière",
+      "image": {
+        "file": "File:Château de Chambord son et lumieres.jpg",
+        "alt": "Coloured light projections on the facade of Château de Chambord after dark"
+      },
       "text": "Several châteaux run summer evening shows projecting light and story onto their facades. Blois and Chambord both do it well, and the buildings look extraordinary lit from outside after dark.",
       "tip": "Shows generally run from May to September and start late — often 22:00 in midsummer."
     },
     {
       "title": "Walk into the countryside behind the river",
+      "image": {
+        "file": "File:Field of sunflowers.JPG",
+        "alt": "A sunflower field on the plateau above the Loire near Vineuil"
+      },
       "text": "The valley floor gets the visitors; the plateau above it has quiet lanes, sunflower fields and small villages. An hour's walk uphill from almost any riverside town puts you somewhere completely empty.",
       "tip": "The GR3 long-distance path follows the Loire and is well marked for shorter sections."
     }
@@ -137,31 +189,55 @@
   "foods": [
     {
       "name": "Rillettes de Tours",
+      "image": {
+        "file": "File:Tours - Halles de Tours - Avril 2019 - Rillettes de Tours.jpg",
+        "alt": "Pots of rillettes de Tours for sale at the covered market in Tours"
+      },
       "text": "Pork slow-cooked in its own fat for hours until it shreds, then potted. The Tours version is darker and drier than the Le Mans style. Spread thickly on bread with a glass of Chinon and it is the region's default lunch.",
       "whereToTry": "Charcuteries and markets throughout Touraine. Buy it by the pot from a market stall."
     },
     {
       "name": "Goat's cheese",
+      "image": {
+        "file": "File:Sainte-maure-de-touraine cheese 2.jpg",
+        "alt": "A log-shaped Sainte-Maure-de-Touraine goat's cheese"
+      },
       "text": "The Loire produces five protected goat's cheeses, including the ash-covered pyramid of Valençay and the log-shaped Sainte-Maure-de-Touraine with a straw through its centre. Pair them with a dry Sancerre — the classic regional match.",
       "whereToTry": "Any market or fromagerie. Ask for a cheese at the stage of ripeness you want."
     },
     {
       "name": "Loire river fish",
+      "image": {
+        "file": "File:Pike quenelles.jpg",
+        "alt": "Pike quenelles served in sauce with bread"
+      },
       "text": "Pike, pike-perch and shad, often served as quenelles or with a beurre blanc — a butter and shallot sauce reduced in white wine that was invented in the lower Loire and is now used across France.",
       "whereToTry": "Riverside restaurants in Saumur, Amboise and around Nantes at the river's mouth."
     },
     {
       "name": "Tarte Tatin",
+      "image": {
+        "file": "File:Closeup of tarte tatin (13513714244).jpg",
+        "alt": "A close-up slice of caramelised apple tarte Tatin"
+      },
       "text": "Upside-down caramelised apple tart, created by accident by two sisters running a hotel at Lamotte-Beuvron in the Sologne, just east of the valley. Served warm, usually with crème fraîche rather than ice cream.",
       "whereToTry": "Almost every restaurant in the region, and the original hotel at Lamotte-Beuvron still serves it."
     },
     {
       "name": "Fouées",
+      "image": {
+        "file": "File:Fouées angevines avec rillettes.JPG",
+        "alt": "Fouées split open and filled with rillettes"
+      },
       "text": "Small hollow breads baked in a wood oven for a few minutes until they puff, then split open at the table and filled with rillettes, goat's cheese or white beans. Traditionally eaten in the troglodyte caves around Saumur.",
       "whereToTry": "Cave restaurants near Saumur and Doué-la-Fontaine. Usually served as an all-you-can-eat meal."
     },
     {
       "name": "Loire wine",
+      "image": {
+        "file": "File:Sancerre - View on vineyards - 2.jpg",
+        "alt": "Vineyards on the slopes around Sancerre"
+      },
       "text": "Sancerre and Pouilly-Fumé for flinty sauvignon blanc, Vouvray and Montlouis for chenin blanc from bone dry to sweet, Chinon and Bourgueil for light cabernet franc reds, and Crémant de Loire for sparkling at a fraction of Champagne prices.",
       "whereToTry": "Cellars along the river, particularly the cave cellars at Vouvray, ten minutes from Tours."
     }
