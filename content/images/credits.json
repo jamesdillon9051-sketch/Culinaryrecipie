@@ -636,6 +636,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Canard confit.jpg": {
+    "artist": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_confit.jpg",
+    "context": "Confit de canard — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-1.webp",
+    "card": "images/france/dordogne-sarlat--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cannoli tipo mignon con ripieno 02.jpg": {
     "artist": "OppidumNissenae",
     "license": "CC BY-SA 4.0",
@@ -648,6 +661,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Canoe roque gageac.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canoe_roque_gageac.jpg",
+    "context": "Canoe the Dordogne — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--thing-1.webp",
+    "card": "images/france/dordogne-sarlat--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Cantuccini.jpg": {
     "artist": "Schorle",
@@ -766,6 +792,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Castle of Marqueyssac 16.jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_Marqueyssac_16.jpg",
+    "context": "Les Jardins de Marqueyssac — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-6.webp",
+    "card": "images/france/dordogne-sarlat--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Castle of Otranto 03.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC0",
@@ -813,6 +852,19 @@
     "context": "Le Brévent and Planpraz — Chamonix & Mont Blanc, France",
     "hero": "images/france/chamonix-mont-blanc--attraction-3.webp",
     "card": "images/france/chamonix-mont-blanc--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Château de Castelnaud-la-Chapelle - 04.jpg": {
+    "artist": "Thérèse Gaigé",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Castelnaud-la-Chapelle_-_04.jpg",
+    "context": "Château de Castelnaud — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-5.webp",
+    "card": "images/france/dordogne-sarlat--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1195,6 +1247,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Diamant noir Tuber melanosporum.jpg": {
+    "artist": "sgillies",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamant_noir_Tuber_melanosporum.jpg",
+    "context": "Black truffle — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-4.webp",
+    "card": "images/france/dordogne-sarlat--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Diots savoyards.jpg": {
     "artist": "Tangopaso",
     "license": "Public domain",
@@ -1229,6 +1294,19 @@
     "context": "Ride the cable cars — The Dolomites, Italy",
     "hero": "images/italy/dolomites--thing-4.webp",
     "card": "images/italy/dolomites--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Domme - Pont du tramway.jpg": {
+    "artist": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domme_-_Pont_du_tramway.jpg",
+    "context": "Visit a market town on its day — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--thing-5.webp",
+    "card": "images/france/dordogne-sarlat--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1481,6 +1559,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Foie gras IMGP2349.jpg": {
+    "artist": "Nikodem Nijaki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foie_gras_IMGP2349.jpg",
+    "context": "Foie gras — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-3.webp",
+    "card": "images/france/dordogne-sarlat--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 481
+  },
   "File:Fondazione Prada, Milan.jpg": {
     "artist": "Jay Dixit",
     "license": "CC BY 4.0",
@@ -1493,6 +1584,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Font de Gaume entrance approach.jpg": {
+    "artist": "Ethan Doyle White",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Font_de_Gaume_entrance_approach.jpg",
+    "context": "Font-de-Gaume — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-2.webp",
+    "card": "images/france/dordogne-sarlat--attraction-2-card.webp",
+    "heroWidth": 1552,
+    "heroHeight": 873,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
     "artist": "King of Hearts",
@@ -1845,6 +1949,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Huile vierge de noix.jpg": {
+    "artist": "Pancrat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huile_vierge_de_noix.jpg",
+    "context": "Walnuts and walnut oil — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-5.webp",
+    "card": "images/france/dordogne-sarlat--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:I cipressi della Val D'Orcia.jpg": {
     "artist": "Carlo cattaneo fotografie",
     "license": "CC BY-SA 4.0",
@@ -1996,6 +2113,32 @@
     "context": "Eat lampredotto from a cart — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--thing-2.webp",
     "card": "images/italy/florence-tuscany--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lascaux, horse.JPG": {
+    "artist": "HTO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lascaux,_horse.JPG",
+    "context": "See two caves in one day — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--thing-3.webp",
+    "card": "images/france/dordogne-sarlat--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lascaux, replica 05.JPG": {
+    "artist": "HTO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lascaux,_replica_05.JPG",
+    "context": "Lascaux IV — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-1.webp",
+    "card": "images/france/dordogne-sarlat--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2963,6 +3106,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Pommes de terre sarladaises 02.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pommes_de_terre_sarladaises_02.jpg",
+    "context": "Pommes sarladaises — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-2.webp",
+    "card": "images/france/dordogne-sarlat--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Ponte di Rialto Venice 1.jpg": {
     "artist": "kallerna",
     "license": "CC BY-SA 4.0",
@@ -3197,6 +3353,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Rocamadour fromage.jpg": {
+    "artist": "Thomon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocamadour_fromage.jpg",
+    "context": "Cabécou and Rocamadour cheese — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--food-6.webp",
+    "card": "images/france/dordogne-sarlat--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Rocamadour, Lot, Midi-Pyrénées, france.jpg": {
+    "artist": "Dynamosquito from France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rocamadour,_Lot,_Midi-Pyr%C3%A9n%C3%A9es,_france.jpg",
+    "context": "Rocamadour — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-8.webp",
+    "card": "images/france/dordogne-sarlat--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Rooftop terrace @ Galeries Lafayette @ Paris (34475612193).jpg": {
     "artist": "Guilhem Vellut from Paris, France",
     "license": "CC BY 2.0",
@@ -3209,6 +3391,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Roque-Gageac Dordogne Gabares Canoës.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roque-Gageac_Dordogne_Gabares_Cano%C3%ABs.jpg",
+    "context": "La Roque-Gageac — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-7.webp",
+    "card": "images/france/dordogne-sarlat--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 528
   },
   "File:Rue Mouffetard food market, Paris 8 May 2012.jpg": {
     "artist": "edwin.11",
@@ -3339,6 +3534,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 514
+  },
+  "File:Sarlat-la-Canéda - Place de la Liberté - 2.jpg": {
+    "artist": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarlat-la-Can%C3%A9da_-_Place_de_la_Libert%C3%A9_-_2.jpg",
+    "context": "Go to Sarlat market on Saturday — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--thing-2.webp",
+    "card": "images/france/dordogne-sarlat--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Schlutzkrapfen South Tyrol (3).JPG": {
     "artist": "Benreis",
@@ -4154,6 +4362,19 @@
     "context": "The high sanctuary trails — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--attraction-7.webp",
     "card": "images/italy/cinque-terre--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vue depuis le Château de Beynac Dordogne 20.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_depuis_le_Ch%C3%A2teau_de_Beynac_Dordogne_20.jpg",
+    "context": "Château de Beynac — The Dordogne & Sarlat, France",
+    "hero": "images/france/dordogne-sarlat--attraction-4.webp",
+    "card": "images/france/dordogne-sarlat--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
