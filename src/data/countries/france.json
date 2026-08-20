@@ -32,21 +32,37 @@
   "thingsToDo": [
     {
       "title": "Shop a weekly market",
+      "image": {
+        "file": "File:Marché aux Fruits et Légumes à Aix-en-Provence.jpg",
+        "alt": "Fruit and vegetable stalls at a French weekly market"
+      },
       "text": "Almost every French town has one, on a fixed day, in the main square. This is not a tourist performance — it is where people buy food. Rotisserie chickens, cheese cut to order, regional charcuterie, and produce that was in the ground yesterday. Assembling lunch from a market is one of the cheapest and best meals you will eat in France.",
       "tip": "Ask which day the marché runs before booking a town — arriving the morning after is a genuine missed opportunity."
     },
     {
       "title": "Ride the TGV",
+      "image": {
+        "file": "File:SNCF TGV Duplex Viaduc de Cize - Bolozon.jpg",
+        "alt": "A TGV Duplex high-speed train crossing a viaduct"
+      },
       "text": "France's high-speed network reaches 320 km/h and turns the country into a series of two-hour hops. Paris to [[bordeaux]] is 2h05, to [[strasbourg-alsace|Strasbourg]] 1h50, to Marseille 3h10. Booked a month ahead it is often cheaper than flying and always less hassle.",
       "tip": "Fares are dynamic and rise sharply near departure. Book as soon as tickets open — usually four to six months ahead."
     },
     {
       "title": "Visit a working vineyard",
+      "image": {
+        "file": "File:Sancerre - View on vineyards - 2.jpg",
+        "alt": "Vineyards on the slopes around Sancerre"
+      },
       "text": "Bordeaux, Burgundy, the Rhône, Champagne, Alsace and the Loire all run tastings that welcome visitors without ceremony. A small family domaine will typically give you half an hour and four glasses for nothing or a token fee, on the reasonable assumption you will buy a bottle.",
       "tip": "Book small producers ahead by email — many are two-person operations with no tasting room staff."
     },
     {
       "title": "Walk a fortified old town",
+      "image": {
+        "file": "File:Ciudadela, Carcasona, Francia, 2023-01-07, DD 216-218 HDR.jpg",
+        "alt": "The towers and curtain walls of the fortified city of Carcassonne"
+      },
       "text": "France has an extraordinary density of intact medieval centres — [[dordogne-sarlat|Sarlat]], Carcassonne, [[strasbourg-alsace|Strasbourg]]'s Petite France, Dinan, Pérouges. These are living towns rather than museums, and the trick is to be there early or late, when the day-trip coaches are not.",
       "tip": "The best hour in any French old town is 08:00, when the bakeries are open and nothing else is."
     },
@@ -57,6 +73,10 @@
     },
     {
       "title": "Drive one great road",
+      "image": {
+        "file": "File:140608 Mont-Ventoux-04.jpg",
+        "alt": "The road climbing to the bare summit of Mont Ventoux"
+      },
       "text": "The rail network is excellent but it does not reach the lavender plateaus, the Dordogne valley or the Alpine passes. One rental car for two or three days in the right region transforms a trip — the Route des Vins in Alsace, the Luberon's hill villages, or the D-Day coast.",
       "tip": "Book automatic transmission well ahead if you need one; the French default is manual and automatics sell out."
     }
@@ -65,36 +85,64 @@
   "foods": [
     {
       "name": "Bread, cheese and butter",
+      "image": {
+        "file": "File:Assortiment de fromages, Gabie restaurant, Montpellier, France.jpg",
+        "alt": "A plate of assorted French cheeses served in a restaurant"
+      },
       "text": "Not a dish, but the foundation. France produces well over a thousand cheeses, and a proper fromagerie will ask when you intend to eat it before choosing a piece. Salted butter with visible crystals is standard in Brittany and Normandy and worth seeking out.",
       "whereToTry": "Any market or neighbourhood fromagerie, in any town, on any day except Monday."
     },
     {
       "name": "Coq au vin and boeuf bourguignon",
+      "image": {
+        "file": "File:Coq au vin, Linden.jpg",
+        "alt": "Coq au vin — chicken braised in red wine with lardons and mushrooms"
+      },
       "text": "The two great Burgundian braises — chicken and beef slow-cooked in red wine with lardons, mushrooms and onions. Served everywhere, best in the region itself, and a reliable test of whether a bistro is cooking or reheating.",
       "whereToTry": "Traditional bistros nationwide; Burgundy and Lyon for the originals."
     },
     {
       "name": "Bouillabaisse",
+      "image": {
+        "file": "File:Bouillabaisse de chez Fonfon dans un restaurant du Vieux-Port (Marseille) en novembre 2022.JPG",
+        "alt": "Bouillabaisse served in a restaurant on the Vieux-Port in Marseille"
+      },
       "text": "Marseille's fisherman's stew, made from rockfish that were once too bony to sell, served as a broth with rouille and croutons followed by the fish itself. A real one is expensive and takes a day's notice; the cheap versions along tourist ports are not the same dish.",
       "whereToTry": "Marseille and the Provençal coast near [[nice-french-riviera|Nice]]. Look for restaurants that signed the Bouillabaisse Charter."
     },
     {
       "name": "Oysters and seafood platters",
+      "image": {
+        "file": "File:Plateau de fruits de mer à la mer.jpg",
+        "alt": "A plateau de fruits de mer of oysters and shellfish"
+      },
       "text": "France is Europe's largest oyster producer, and the plateau de fruits de mer — oysters, langoustines, whelks, crab, on ice — is the Atlantic coast's signature. Cancale in Brittany, Arcachon near [[bordeaux]] and the Normandy coast are the heartlands.",
       "whereToTry": "Coastal Normandy, Brittany and Arcachon Bay. Traditionally eaten in months containing an 'r'."
     },
     {
       "name": "Choucroute and tarte flambée",
+      "image": {
+        "file": "File:Choucroute garnie à Paris.jpg",
+        "alt": "Choucroute garnie — sauerkraut with sausages and cured pork"
+      },
       "text": "Alsace's German inheritance — fermented cabbage with sausages and smoked pork, and a paper-thin flatbread of crème fraîche, onion and bacon that arrives on a wooden board. Nothing else in France tastes like this.",
       "whereToTry": "[[strasbourg-alsace|Strasbourg]] and the villages along the Alsace wine route."
     },
     {
       "name": "Duck, in every form",
+      "image": {
+        "file": "File:Magret de canard et foie gras.jpg",
+        "alt": "Magret de canard served with foie gras"
+      },
       "text": "The southwest runs on it: confit de canard, magret, and foie gras, alongside walnuts and truffles. It is the richest regional cooking in France and portions reflect that.",
       "whereToTry": "The [[dordogne-sarlat|Dordogne]] and the wider southwest around Sarlat and Toulouse."
     },
     {
       "name": "Crêpes and galettes",
+      "image": {
+        "file": "File:Crepes dsc07085.jpg",
+        "alt": "A stack of freshly made crêpes"
+      },
       "text": "Brittany's contribution: sweet crêpes of wheat flour, and savoury galettes of buckwheat filled with ham, egg and cheese. Traditionally eaten with dry cider served in a ceramic cup rather than a glass.",
       "whereToTry": "Brittany and Normandy, and crêperies in every French city."
     }
