@@ -129,6 +129,19 @@
     "cardWidth": 800,
     "cardHeight": 425
   },
+  "File:2020-02-24 Turistes en bicicleta pel carril bici del Jardí del Túria.jpg": {
+    "artist": "Pacopac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-02-24_Turistes_en_bicicleta_pel_carril_bici_del_Jard%C3%AD_del_T%C3%BAria.jpg",
+    "context": "Cycle the Turia end to end — Valencia, Spain",
+    "hero": "images/spain/valencia--thing-1.webp",
+    "card": "images/spain/valencia--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2025-01-07 Saint-Malo Fort and ramparts.jpg": {
     "artist": "rail fox (flufftech.net)",
     "license": "CC0",
@@ -440,6 +453,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Arròs Negre - Font d'En Corts.jpg": {
+    "artist": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arr%C3%B2s_Negre_-_Font_d%27En_Corts.jpg",
+    "context": "Arròs a banda and arròs negre — Valencia, Spain",
+    "hero": "images/spain/valencia--food-2.webp",
+    "card": "images/spain/valencia--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Arrozales de la Albufera 1.jpg": {
+    "artist": "Fev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arrozales_de_la_Albufera_1.jpg",
+    "context": "Albufera Natural Park — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-7.webp",
+    "card": "images/spain/valencia--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Assortiment de fromages, Gabie restaurant, Montpellier, France.jpg": {
     "artist": "Sharon Hahn Darlin",
@@ -1424,6 +1463,19 @@
     "context": "Otranto and the Salento coast — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--attraction-7.webp",
     "card": "images/italy/puglia-matera--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Catedral de Valencia, Valencia, España, 2014-06-29, DD 16.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Valencia,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_16.JPG",
+    "context": "The Cathedral and Micalet tower — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-5.webp",
+    "card": "images/spain/valencia--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2430,6 +2482,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Esgarraet valencia.jpg": {
+    "artist": "Brazeone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esgarraet_valencia.jpg",
+    "context": "Esgarraet and titaina — Valencia, Spain",
+    "hero": "images/spain/valencia--food-5.webp",
+    "card": "images/spain/valencia--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Espectáculo flamenco en Tablao Flamenco El Arenal.jpg": {
     "artist": "Noeliv",
     "license": "CC BY-SA 4.0",
@@ -2451,6 +2516,19 @@
     "context": "Take a train to a lake or a hill town — Milan, Italy",
     "hero": "images/italy/milan--thing-5.webp",
     "card": "images/italy/milan--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Exposición del Ninot de las Fallas de 2025 007.jpg": {
+    "artist": "Simon Burchell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exposici%C3%B3n_del_Ninot_de_las_Fallas_de_2025_007.jpg",
+    "context": "See Las Fallas, or deliberately avoid it — Valencia, Spain",
+    "hero": "images/spain/valencia--thing-6.webp",
+    "card": "images/spain/valencia--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2520,6 +2598,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Fartons Polo.jpg": {
+    "artist": "Marga1",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fartons_Polo.jpg",
+    "context": "Horchata and fartons — Valencia, Spain",
+    "hero": "images/spain/valencia--food-3.webp",
+    "card": "images/spain/valencia--food-3-card.webp",
+    "heroWidth": 1286,
+    "heroHeight": 723,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Fattoria Lornano (Winery), Chianti, Italy.jpg": {
     "artist": "Ray in Manila",
@@ -3236,6 +3327,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Horchata y fartons (8507237785).jpg": {
+    "artist": "Nacho Pintos from Barcelona",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horchata_y_fartons_(8507237785).jpg",
+    "context": "Drink horchata with fartons — Valencia, Spain",
+    "hero": "images/spain/valencia--thing-4.webp",
+    "card": "images/spain/valencia--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hot air balloons over valleys near Göreme, Cappadocia at dawn.JPG": {
     "artist": "MusikAnimal",
     "license": "CC BY-SA 4.0",
@@ -3313,6 +3417,19 @@
     "heroHeight": 888,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Jarra de agua de Valencia.jpg": {
+    "artist": "Frodlekis",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jarra_de_agua_de_Valencia.jpg",
+    "context": "Agua de Valencia — Valencia, Spain",
+    "hero": "images/spain/valencia--food-4.webp",
+    "card": "images/spain/valencia--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Jiebea Castello Monaci Salice Salentino 2018 09.jpg": {
     "artist": "Jiel",
@@ -3626,6 +3743,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Limones y naranjas de la huerta valenciana (España).jpg": {
+    "artist": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limones_y_naranjas_de_la_huerta_valenciana_(Espa%C3%B1a).jpg",
+    "context": "Oranges — Valencia, Spain",
+    "hero": "images/spain/valencia--food-6.webp",
+    "card": "images/spain/valencia--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Lipari. Colazione da 'Dolci Tentazioni' (01297).JPG": {
     "artist": "Francesco Tosoni",
     "license": "CC BY-SA 4.0",
@@ -3673,6 +3803,19 @@
     "context": "The Valle d'Itria — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--attraction-3.webp",
     "card": "images/italy/puglia-matera--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lonja de la Seda, Valencia, España, 2014-06-29, DD 22.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonja_de_la_Seda,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_22.JPG",
+    "context": "La Lonja de la Seda — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-4.webp",
+    "card": "images/spain/valencia--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3907,6 +4050,45 @@
     "context": "Menton — Nice & the French Riviera, France",
     "hero": "images/france/nice-french-riviera--attraction-7.webp",
     "card": "images/france/nice-french-riviera--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mercado Central, Valencia, España, 2014-06-30, DD 116.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercado_Central,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_116.JPG",
+    "context": "Mercat Central — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-3.webp",
+    "card": "images/spain/valencia--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 517
+  },
+  "File:Mercado Central, Valencia, España, 2014-06-30, DD 117.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercado_Central,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_117.JPG",
+    "context": "Do the Mercat Central properly — Valencia, Spain",
+    "hero": "images/spain/valencia--thing-3.webp",
+    "card": "images/spain/valencia--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mercat de Russafa.JPG": {
+    "artist": "Joanbanjo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercat_de_Russafa.JPG",
+    "context": "Spend an evening in Ruzafa — Valencia, Spain",
+    "hero": "images/spain/valencia--thing-5.webp",
+    "card": "images/spain/valencia--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4211,6 +4393,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Museo Príncipe Felipe, Ciudad de las Artes y las Ciencias, Valencia, España, 2014-06-29, DD 59.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_Pr%C3%ADncipe_Felipe,_Ciudad_de_las_Artes_y_las_Ciencias,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_59.JPG",
+    "context": "City of Arts and Sciences — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-2.webp",
+    "card": "images/spain/valencia--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 487
+  },
   "File:Museo Thyssen-Bornemisza (Madrid) 06b.jpg": {
     "artist": "Luis García (Zaqarbal)",
     "license": "CC BY-SA 3.0",
@@ -4432,6 +4627,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Outdoor-Gym-Jardín-del-Turia-Park-Valencia.jpg": {
+    "artist": "Acediscovery",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outdoor-Gym-Jard%C3%ADn-del-Turia-Park-Valencia.jpg",
+    "context": "The Turia Gardens — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-1.webp",
+    "card": "images/spain/valencia--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 800,
+    "cardWidth": 800,
+    "cardHeight": 400
+  },
   "File:Pa amb tomaquet - stonesoup.jpg": {
     "artist": "jules / stonesoup",
     "license": "CC BY 2.0",
@@ -4440,6 +4648,19 @@
     "context": "Pa amb tomàquet — Barcelona, Spain",
     "hero": "images/spain/barcelona--food-1.webp",
     "card": "images/spain/barcelona--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Paella valenciana 02.jpg": {
+    "artist": "Dorieo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paella_valenciana_02.jpg",
+    "context": "Paella valenciana — Valencia, Spain",
+    "hero": "images/spain/valencia--food-1.webp",
+    "card": "images/spain/valencia--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5016,6 +5237,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Playa de la Malvarrosa (Valencia) 01.jpg": {
+    "artist": "Manuel Martín Vicente from Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_la_Malvarrosa_(Valencia)_01.jpg",
+    "context": "Malvarrosa beach and El Cabanyal — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-8.webp",
+    "card": "images/spain/valencia--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Plaza de España (Sevilla) - 01.jpg": {
     "artist": "Carlos Delgado",
@@ -7001,6 +7235,19 @@
     "context": "The high sanctuary trails — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--attraction-7.webp",
     "card": "images/italy/cinque-terre--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vista desde las Torres de Serranos (413659102).jpg": {
+    "artist": "Visentico / Sento",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_desde_las_Torres_de_Serranos_(413659102).jpg",
+    "context": "Barrio del Carmen — Valencia, Spain",
+    "hero": "images/spain/valencia--attraction-6.webp",
+    "card": "images/spain/valencia--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "The Turia Gardens",
+      "image": {
+        "file": "File:Outdoor-Gym-Jardín-del-Turia-Park-Valencia.jpg",
+        "alt": "The Turia Gardens laid out along the old riverbed in Valencia"
+      },
       "text": "Nine kilometres of park in the old riverbed, running from the west of the city to the sea. Palm groves, orange trees, running tracks, football pitches, a giant Gulliver climbing sculpture for children, and eighteen historic bridges crossing overhead.",
       "tip": "Hire a bike and ride the full length. It takes about an hour each way and is the single best way to understand the city."
     },
     {
       "name": "City of Arts and Sciences",
+      "image": {
+        "file": "File:Museo Príncipe Felipe, Ciudad de las Artes y las Ciencias, Valencia, España, 2014-06-29, DD 59.JPG",
+        "alt": "Calatrava's Príncipe Felipe museum at the City of Arts and Sciences"
+      },
       "text": "Calatrava's complex at the eastern end of the Turia: the eye-shaped Hemisfèric cinema, the vertebral Príncipe Felipe science museum, the Palau de les Arts opera house, and the Oceanogràfic — Europe's largest aquarium, with 45,000 animals.",
       "tip": "The exteriors and reflecting pools are free and are most of the appeal. Pick one interior — the Oceanogràfic if you have children, the science museum otherwise."
     },
     {
       "name": "Mercat Central",
+      "image": {
+        "file": "File:Mercado Central, Valencia, España, 2014-06-30, DD 116.JPG",
+        "alt": "The iron and glass dome of Valencia's Mercat Central"
+      },
       "text": "A 1928 modernista market hall of iron, glass and tile covering 8,000 square metres, with around a thousand stalls. It is a working food market rather than a tourist attraction, and one of the largest fresh markets in Europe.",
       "tip": "Open mornings only, Monday to Saturday, closing around 15:00. Go before noon and buy lunch."
     },
     {
       "name": "La Lonja de la Seda",
+      "image": {
+        "file": "File:Lonja de la Seda, Valencia, España, 2014-06-29, DD 22.JPG",
+        "alt": "The twisted columns of the Gothic silk exchange, La Lonja de la Seda"
+      },
       "text": "The 15th-century silk exchange opposite the market, UNESCO-listed and one of the finest late Gothic civil buildings anywhere. Its trading hall has spiralling twisted columns rising into palm-frond vaulting.",
       "tip": "Cheap entry, rarely crowded, and takes twenty minutes. Easily the most underrated building in the city."
     },
     {
       "name": "The Cathedral and Micalet tower",
+      "image": {
+        "file": "File:Catedral de Valencia, Valencia, España, 2014-06-29, DD 16.JPG",
+        "alt": "Valencia Cathedral and its octagonal Micalet bell tower"
+      },
       "text": "A cathedral built over a mosque built over a Roman temple, holding a chalice that has been venerated as the Holy Grail since the 1400s, plus two Goyas. The octagonal Micalet bell tower is 207 steps to a view over the whole old town.",
       "tip": "The Grail chapel is a side room and easily missed. The tower is worth it for the rooftop panorama of the Barrio del Carmen."
     },
     {
       "name": "Barrio del Carmen",
+      "image": {
+        "file": "File:Vista desde las Torres de Serranos (413659102).jpg",
+        "alt": "The old town of Valencia seen from the Torres de Serranos"
+      },
       "text": "The old town's medieval core — narrow lanes, two surviving city gates (Torres de Serranos and Torres de Quart), street art, and the highest concentration of bars in the city. Genuinely lived-in rather than preserved.",
       "tip": "Climb the Torres de Serranos at sunset for a low, close view over the rooftops. It costs almost nothing."
     },
     {
       "name": "Albufera Natural Park",
+      "image": {
+        "file": "File:Arrozales de la Albufera 1.jpg",
+        "alt": "Rice paddies beside the Albufera lagoon south of Valencia"
+      },
       "text": "A freshwater lagoon and rice paddies ten kilometres south, where paella was invented. Flat-bottomed boats run at sunset across water that reflects the sky, and the village of El Palmar is where the dish is cooked properly.",
       "tip": "Go for a late lunch and stay for the sunset boat trip. Bus 25 runs from the city, or it is a flat 40-minute cycle."
     },
     {
       "name": "Malvarrosa beach and El Cabanyal",
+      "image": {
+        "file": "File:Playa de la Malvarrosa (Valencia) 01.jpg",
+        "alt": "The wide sands of Malvarrosa beach"
+      },
       "text": "A wide sandy beach twenty minutes from the centre, with a promenade of seafood restaurants. Behind it, El Cabanyal is the old fishermen's quarter of tile-fronted houses, slowly being restored.",
       "tip": "El Cabanyal's tiled facades are worth an hour's walk and almost nobody does it."
     }
@@ -95,6 +127,10 @@
   "thingsToDo": [
     {
       "title": "Cycle the Turia end to end",
+      "image": {
+        "file": "File:2020-02-24 Turistes en bicicleta pel carril bici del Jardí del Túria.jpg",
+        "alt": "Cyclists on the traffic-free path through the Turia Gardens"
+      },
       "text": "Flat, traffic-free and nine kilometres each way, from the Bioparc in the west to the City of Arts in the east and on to the sea. Bike hire is cheap and the city has over 150 km of lanes beyond the park.",
       "tip": "Ride out to the coast, eat at the beach, and come back along the seafront rather than retracing the park."
     },
@@ -105,21 +141,37 @@
     },
     {
       "title": "Do the Mercat Central properly",
+      "image": {
+        "file": "File:Mercado Central, Valencia, España, 2014-06-30, DD 117.JPG",
+        "alt": "Stalls under the modernista roof of the Mercat Central"
+      },
       "text": "A thousand stalls under a modernista dome: jamón, oranges, seafood on ice, and horchata. Buy breakfast, buy lunch, and watch a city do its actual shopping.",
       "tip": "The Mercat de Colón nearby is a smaller restored market now full of bars and horchata counters — a good afternoon stop."
     },
     {
       "title": "Drink horchata with fartons",
+      "image": {
+        "file": "File:Horchata y fartons (8507237785).jpg",
+        "alt": "A glass of horchata served with fartons"
+      },
       "text": "A cold, sweet drink made from tiger nuts, unrelated to the Mexican rice version, served with long sugared pastries for dipping. Entirely Valencian and available on almost every corner.",
       "tip": "The town of Alboraya just north is where the tiger nuts are grown and where the best horchaterías are."
     },
     {
       "title": "Spend an evening in Ruzafa",
+      "image": {
+        "file": "File:Mercat de Russafa.JPG",
+        "alt": "The market hall at the heart of the Ruzafa district"
+      },
       "text": "The city's most interesting neighbourhood — a grid of early 20th-century blocks south of the station, now full of independent restaurants, bars and a good covered market. Where Valencia goes out.",
       "tip": "Fifteen minutes' walk from the old town and considerably better value for dinner."
     },
     {
       "title": "See Las Fallas, or deliberately avoid it",
+      "image": {
+        "file": "File:Exposición del Ninot de las Fallas de 2025 007.jpg",
+        "alt": "Papier-mâché ninot figures made for Las Fallas"
+      },
       "text": "For five days in March the city fills with enormous satirical papier-mâché sculptures, daily street explosions at 14:00, and a final night when nearly all of them are burned. It is one of Europe's great festivals and it is overwhelming.",
       "tip": "15–19 March. Book a year ahead, or avoid the week entirely — there is no middle option."
     }
@@ -128,31 +180,55 @@
   "foods": [
     {
       "name": "Paella valenciana",
+      "image": {
+        "file": "File:Paella valenciana 02.jpg",
+        "alt": "Paella valenciana with chicken, rabbit, flat beans and garrofó"
+      },
       "text": "Rabbit, chicken, flat green beans, garrofó butter beans, tomato, saffron and short-grain rice, cooked over orange wood in a wide shallow pan. No seafood, no chorizo, no onion, no peas. Snails when in season.",
       "whereToTry": "El Palmar and the Albufera villages, at lunch. In the city, restaurants that require a 45-minute wait are the ones cooking it properly."
     },
     {
       "name": "Arròs a banda and arròs negre",
+      "image": {
+        "file": "File:Arròs Negre - Font d'En Corts.jpg",
+        "alt": "Arròs negre, rice cooked black with squid ink"
+      },
       "text": "The seafood rices, which Valencians distinguish carefully from paella. Arròs a banda is cooked in fish stock and served separately from the fish; arròs negre is blackened with squid ink.",
       "whereToTry": "The beachfront restaurants of Malvarrosa and El Cabanyal."
     },
     {
       "name": "Horchata and fartons",
+      "image": {
+        "file": "File:Fartons Polo.jpg",
+        "alt": "Fartons, the sugared buns eaten with horchata"
+      },
       "text": "A cold drink pressed from tiger nuts — chufas — grown just north of the city, served very cold with long glazed pastries for dipping. Sweet, nutty and completely unlike its Mexican namesake.",
       "whereToTry": "Horchaterías throughout the city, and Alboraya where the chufas are grown."
     },
     {
       "name": "Agua de Valencia",
+      "image": {
+        "file": "File:Jarra de agua de Valencia.jpg",
+        "alt": "A jug of agua de Valencia"
+      },
       "text": "Cava, fresh orange juice, gin and vodka, served by the jug. Invented in a Valencia bar in the 1950s and considerably stronger than it tastes.",
       "whereToTry": "Bars in the Barrio del Carmen. Ordered by the jug for a table, not by the glass."
     },
     {
       "name": "Esgarraet and titaina",
+      "image": {
+        "file": "File:Esgarraet valencia.jpg",
+        "alt": "Esgarraet — shredded salt cod with roasted red pepper"
+      },
       "text": "Two salt-cod dishes: esgarraet is shredded cod with roasted red pepper, garlic and olive oil; titaina is a fisherman's stew of tuna, pepper, tomato and pine nuts from El Cabanyal.",
       "whereToTry": "Traditional tapas bars, particularly in El Cabanyal and Ruzafa."
     },
     {
       "name": "Oranges",
+      "image": {
+        "file": "File:Limones y naranjas de la huerta valenciana (España).jpg",
+        "alt": "Oranges and lemons from the Valencian huerta"
+      },
       "text": "The surrounding province produces some of the best citrus in Europe, and the season runs roughly November to May. Street trees across the city are bitter Seville oranges, not the eating kind.",
       "whereToTry": "The Mercat Central, and freshly squeezed at any breakfast bar. Do not eat the street oranges."
     }
