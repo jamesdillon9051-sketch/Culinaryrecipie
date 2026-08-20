@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Sagrada Família",
+      "image": {
+        "file": "File:Sagrada Familia interior 1.jpg",
+        "alt": "The branching stone columns and stained glass of the Sagrada Família interior"
+      },
       "text": "Gaudí's basilica, begun in 1882 and still unfinished. The interior is the point: columns that branch like trees into a canopy, lit by stained glass graded from blues and greens on the eastern Nativity side to reds and oranges on the western Passion side. The effect changes completely through the day.",
       "tip": "Morning slots get the blue-green light, late afternoon the red-gold. Add the tower lift — a separate ticket — for the view down onto the roof."
     },
     {
       "name": "Park Güell",
+      "image": {
+        "file": "File:Mosaic bench in Park Güell.jpg",
+        "alt": "The undulating mosaic bench on the terrace at Park Güell"
+      },
       "text": "A failed housing development turned public park on a hill north of the centre, with the famous mosaic bench, the hypostyle hall and a view over the whole city to the sea. The monumental core is ticketed and timed; the surrounding parkland is free.",
       "tip": "The free area above the paid zone has arguably the better view. Go at opening or in the last hour."
     },
     {
       "name": "Casa Batlló and La Pedrera",
+      "image": {
+        "file": "File:Casa Batlló 01.jpg",
+        "alt": "The coloured glass and bone-like balconies of Gaudí's Casa Batlló"
+      },
       "text": "Two Gaudí apartment buildings on Passeig de Gràcia. Casa Batlló has a facade of coloured glass and bone-like balconies and an interior with no straight line in it; La Pedrera, also called Casa Milà, has an undulating stone front and a rooftop of sculpted chimneys.",
       "tip": "If you only do one, Casa Batlló is the more extraordinary interior and La Pedrera the better roof. Both are expensive — around €29–35."
     },
     {
       "name": "The Barri Gòtic and the cathedral",
+      "image": {
+        "file": "File:Gothic Quarter, Barcelona, Spain - panoramio (31).jpg",
+        "alt": "White geese in the cloister of Barcelona's Gothic cathedral"
+      },
       "text": "The medieval quarter around the Gothic cathedral, whose cloister keeps thirteen white geese — one for each year of Saint Eulalia's life. Roman wall fragments, hidden squares and the Plaça del Rei are all within a few hundred metres.",
       "tip": "Go at 08:00. The same lanes that are impassable at midday are silent and genuinely medieval first thing."
     },
     {
       "name": "Santa Maria del Mar and El Born",
+      "image": {
+        "file": "File:Santa Maria del Mar, Barcelona 09.jpg",
+        "alt": "The wide, plain Gothic interior of Santa Maria del Mar"
+      },
       "text": "A 14th-century church built in just 55 years by the porters and sailors of the port, which gives it an unusual unity — wide, spare and luminous, quite unlike the cathedral. El Born around it is the best browsing district in the city.",
       "tip": "The rooftop tour gives access to the towers and the roof. Book it directly with the church."
     },
     {
       "name": "The Picasso Museum",
+      "image": {
+        "file": "File:Museu Picasso Barcelona- queues.jpg",
+        "alt": "The entrance to the Picasso Museum in its medieval palace on Carrer Montcada"
+      },
       "text": "Five medieval palaces in El Born holding over 4,000 works, weighted heavily towards Picasso's early years in Barcelona — which is what makes it interesting. You see him learning, rather than the famous later work.",
       "tip": "The Las Meninas series, 58 reworkings of the Velázquez painting, is the highlight and often overlooked."
     },
     {
       "name": "Montjuïc",
+      "image": {
+        "file": "File:Palau Nacional, Barcelona.jpg",
+        "alt": "The Palau Nacional on Montjuïc, home of the National Art Museum of Catalonia"
+      },
       "text": "The hill above the port, holding the National Art Museum of Catalonia and its unmatched Romanesque frescoes, the Joan Miró Foundation, the 1992 Olympic ring, botanical gardens and a castle. A cable car runs up from the port.",
       "tip": "MNAC's Romanesque collection — church frescoes removed from Pyrenean chapels and remounted — is the best thing in Barcelona that nobody visits."
     },
     {
       "name": "La Boqueria and Sant Antoni markets",
+      "image": {
+        "file": "File:Mercat de Sant Antoni, Barcelona.jpg",
+        "alt": "The restored iron hall of the Mercat de Sant Antoni"
+      },
       "text": "La Boqueria off La Rambla is spectacular and now largely a tourist experience. The Mercat de Sant Antoni, fifteen minutes away, is a restored 1882 iron market where people actually shop, with a Sunday book market around it.",
       "tip": "Go to Boqueria before 09:00 or go to Sant Antoni instead. The stalls at the back of Boqueria still serve locals."
     }
@@ -95,21 +127,37 @@
   "thingsToDo": [
     {
       "title": "Walk the Eixample and look up",
+      "image": {
+        "file": "File:Roger de Llúria 60-detall.jpg",
+        "alt": "A painted Eixample facade above the street in Barcelona"
+      },
       "text": "The grid's chamfered corners were designed so trams could turn, and the block interiors were meant to be gardens. Passeig de Gràcia has the famous buildings, but the side streets are full of modernista facades nobody photographs.",
       "tip": "Carrer d'Enric Granados and the streets around Sant Antoni are the pleasant, low-tourist version of the Eixample."
     },
     {
       "title": "Spend an evening in Gràcia",
+      "image": {
+        "file": "File:Barcelona Gràcia 093 (8277950946).jpg",
+        "alt": "The clock tower and terrace cafés on a square in Gràcia"
+      },
       "text": "A former village absorbed by the city, with a series of small squares — Plaça del Sol, Plaça de la Virreina, Plaça de la Vila — each ringed with terraces. It is where Barcelona goes out, twenty minutes from the centre on the metro.",
       "tip": "The Festa Major de Gràcia in August sees streets compete to decorate themselves entirely. It is genuinely extraordinary."
     },
     {
       "title": "Swim, but not at Barceloneta",
+      "image": {
+        "file": "File:Platja del Bogatell (Barcelona) 03.JPG",
+        "alt": "The beach at Bogatell, northeast of Barceloneta"
+      },
       "text": "Barceloneta is the closest and the most crowded. The beaches northeast towards Bogatell and Mar Bella are cleaner and calmer, and the coastal towns on the R1 train line — Sant Pol de Mar, Caldes d'Estrac — are better again.",
       "tip": "The R1 runs along the shore from Plaça Catalunya. Forty minutes gets you a proper beach town."
     },
     {
       "title": "Take the funicular up Tibidabo",
+      "image": {
+        "file": "File:Tibidabo, Barcelona (50820252456).jpg",
+        "alt": "The church and funfair on the summit of Tibidabo above Barcelona"
+      },
       "text": "The mountain behind the city at 512 m, with a church, a century-old amusement park and the widest view over Barcelona to the sea. The old blue tram and funicular up to it are half the pleasure.",
       "tip": "Clearer in winter and after rain. On a hazy summer day the view is much less rewarding."
     },
@@ -120,6 +168,10 @@
     },
     {
       "title": "Day trip to Montserrat",
+      "image": {
+        "file": "File:Montserrat Spain 05 View from Montserrat Abbey.jpg",
+        "alt": "The serrated rock pinnacles of the Montserrat massif"
+      },
       "text": "An hour northwest, a serrated rock massif holding a Benedictine monastery and the Black Madonna. Reached by rack railway or cable car, with walking trails along the ridges above.",
       "tip": "Go early. The boys' choir sings at 13:00 most weekdays and the monastery is very busy by then."
     }
@@ -128,31 +180,55 @@
   "foods": [
     {
       "name": "Pa amb tomàquet",
+      "image": {
+        "file": "File:Pa amb tomaquet - stonesoup.jpg",
+        "alt": "Bread rubbed with tomato, olive oil and salt"
+      },
       "text": "Bread rubbed with ripe tomato, olive oil and salt. It sounds like nothing and it is the foundation of Catalan eating — served with everything, and often assembled at the table.",
       "whereToTry": "Every Catalan restaurant, usually as an automatic accompaniment to charcuterie or grilled meat."
     },
     {
       "name": "Fideuà and arròs negre",
+      "image": {
+        "file": "File:Fideua - xurde.jpg",
+        "alt": "Fideuà, made with short toasted noodles instead of rice"
+      },
       "text": "Fideuà is paella's cousin made with short toasted noodles instead of rice, served with aioli. Arròs negre is rice cooked in squid ink — black, intense and far better than it looks.",
       "whereToTry": "Barceloneta's seafood restaurants and the older places in El Born. A lunch dish."
     },
     {
       "name": "Escalivada",
+      "image": {
+        "file": "File:Escalivada, verduras asadas.jpg",
+        "alt": "Escalivada — roasted and peeled aubergine, pepper and onion"
+      },
       "text": "Aubergine, pepper and onion roasted whole over embers until the skins blacken, then peeled, torn into strips and dressed in olive oil. Often served with anchovies or on toast.",
       "whereToTry": "Traditional Catalan restaurants and most menú del día starters."
     },
     {
       "name": "Calçots",
+      "image": {
+        "file": "File:Can Sanpere Març 2022 Calçotada 06.jpg",
+        "alt": "Charred calçots grilled over vine cuttings at a calçotada"
+      },
       "text": "A winter ritual rather than a dish: long grilled spring onions charred over vine cuttings, peeled by hand and dipped in romesco sauce. Eaten wearing a bib, from late January to March.",
       "whereToTry": "Calçotada restaurants outside the city, especially around Valls. Some city restaurants run them in season."
     },
     {
       "name": "Crema catalana",
+      "image": {
+        "file": "File:Crema catalana. Postre.jpg",
+        "alt": "Crema catalana under its caramelised sugar crust"
+      },
       "text": "A custard flavoured with lemon and cinnamon under a caramelised sugar crust — set with cornflour rather than baked in a bain-marie, which makes it lighter than crème brûlée and, Catalans will tell you, the original.",
       "whereToTry": "Every traditional restaurant in the city."
     },
     {
       "name": "Vermut",
+      "image": {
+        "file": "File:Vermut de Grifo.jpg",
+        "alt": "Vermut served on ice with orange and a bowl of olives"
+      },
       "text": "Sweet red vermouth on ice with an olive and a slice of orange, drunk before Sunday lunch. The vermut hour is a Barcelona institution and has become fashionable again after decades out of favour.",
       "whereToTry": "Old bodegas in Sant Antoni, Gràcia and Poble-sec, from about noon on Sundays."
     }
