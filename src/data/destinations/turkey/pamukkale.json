@@ -58,36 +58,64 @@
     },
     {
       "name": "The Antique Pool",
+      "image": {
+        "file": "File:Cleopatra Antique pool (15688240214).jpg",
+        "alt": "Submerged marble columns in the thermal Antique Pool"
+      },
       "text": "A thermal pool over the main spring at about 36°C, with marble columns from a portico that collapsed in an earthquake lying on the bottom. Swimming here has been continuous since Roman times.",
       "tip": "A separate ticket on top of site entry. Bring a towel and swimming costume; lockers are available. Busiest 11:00–15:00."
     },
     {
       "name": "The Hierapolis Theatre",
+      "image": {
+        "file": "File:The Theatre of Hierapolis, Pamukkale.jpg",
+        "alt": "The Roman theatre cut into the hillside at Hierapolis"
+      },
       "text": "Cut into the hillside above the city and seating around 12,000, with an unusually elaborate carved stage building — reliefs of Apollo, Artemis and Dionysus survive across several storeys. One of the best-preserved theatre facades in Turkey.",
       "tip": "A ten-minute uphill walk from the main site. The climb is worth it and most day-trippers do not make it."
     },
     {
       "name": "The Necropolis",
+      "image": {
+        "file": "File:Necropolis of Hierapolis 01.jpg",
+        "alt": "Tombs stretching along the ridge in the Hierapolis necropolis"
+      },
       "text": "Over a thousand tombs stretching along the ridge north of the city — sarcophagi, tumuli and house-shaped tombs — because people came to Hierapolis to be cured and many did not leave. It is one of the largest ancient cemeteries in Anatolia.",
       "tip": "Free to walk through and almost always empty. The scale of it is the point."
     },
     {
       "name": "The Plutonium",
+      "image": {
+        "file": "File:Plutonium (Pluto's Gate) in Hierapolis 01.jpg",
+        "alt": "The Plutonium, the gas-emitting cave beside the Temple of Apollo"
+      },
       "text": "A small cave beside the Temple of Apollo emitting carbon dioxide at concentrations that killed animals led to the entrance — a phenomenon ancient priests presented as divine power and modern gas measurements have fully explained.",
       "tip": "Fenced off for obvious reasons. Birds are still occasionally found dead nearby, which makes the ancient accounts vivid."
     },
     {
       "name": "The Hierapolis Archaeology Museum",
+      "image": {
+        "file": "File:Hierapolis Archaeology Museum, Turkey (31595600163).jpg",
+        "alt": "Sarcophagi displayed in the Hierapolis Archaeology Museum"
+      },
       "text": "Housed in the restored Roman baths, holding sarcophagi, statues and reliefs from the site and the surrounding region, including finds from Laodicea and Aphrodisias.",
       "tip": "Small, cool and about 45 minutes. Included in the site ticket."
     },
     {
       "name": "Karahayıt",
+      "image": {
+        "file": "File:Kırmızı Su (Red Spring), Karahayıt, Turkey, March 2024 06.jpg",
+        "alt": "The iron-red spring water at Karahayıt"
+      },
       "text": "A village five kilometres north with red-coloured travertines, stained by iron-rich water rather than pure calcium. Less spectacular, far less visited, and the local thermal hotels use its springs.",
       "tip": "A good hour if you have a car, and the contrast with the white terraces is striking."
     },
     {
       "name": "Laodicea",
+      "image": {
+        "file": "File:Laodicea Church-T 20240929 090741.jpg",
+        "alt": "Excavated remains of the church at Laodicea"
+      },
       "text": "A large and actively excavated Roman city ten kilometres away, one of the seven churches of Revelation, with a stadium, two theatres and a long colonnaded street. Very few visitors.",
       "tip": "Free or very cheap, and increasingly impressive as excavation continues. Twenty minutes by car."
     }
@@ -96,21 +124,37 @@
   "thingsToDo": [
     {
       "title": "Walk the travertines at opening or at sunset",
+      "image": {
+        "file": "File:Pamukkale-7090.jpg",
+        "alt": "Visitors walking barefoot up the white travertine terraces"
+      },
       "text": "Barefoot up the white slope through the flowing water, which takes about 45 minutes. At 08:00 you will have long stretches to yourself; at sunset the white rock turns orange and pink.",
       "tip": "Enter from the south gate at the bottom to walk up through the terraces, rather than the north gate which drops you at the top."
     },
     {
       "title": "Swim in the Antique Pool",
+      "image": {
+        "file": "File:Travertine pools at Pamukkale, Turkey (2).jpg",
+        "alt": "Warm mineral water standing in the terrace pools"
+      },
       "text": "Thirty-six degrees, mineral-rich and fizzing slightly, with 2,000-year-old marble columns lying on the bottom. Swimming among fallen Roman architecture is not something you can do in many places.",
       "tip": "Go early or late; the pool is small and gets crowded in the middle of the day. Separate ticket, towel and costume needed."
     },
     {
       "title": "Climb to the theatre",
+      "image": {
+        "file": "File:Theatre - Hierapolis, Pamukkale, Denizli Province, Turkey - October 6, 2025 03.jpg",
+        "alt": "The stage building and seating of the Hierapolis theatre"
+      },
       "text": "Ten minutes uphill from the main site to one of the best-preserved theatre facades in Turkey, seating 12,000, with carved reliefs across the stage building and a view over the whole plain.",
       "tip": "Most visitors stop at the travertines. The upper city is quiet even at midday."
     },
     {
       "title": "Walk the necropolis",
+      "image": {
+        "file": "File:Necropolis of Hierapolis 02.jpg",
+        "alt": "Stone sarcophagi in the necropolis at Hierapolis"
+      },
       "text": "Over a thousand tombs along the ridge, from plain sarcophagi to elaborate house-shaped structures, spread over more than two kilometres. Free, unfenced and usually empty.",
       "tip": "Best in the late afternoon light. Start at the north gate and walk south into the city."
     },
@@ -121,6 +165,10 @@
     },
     {
       "title": "Add Laodicea or Aphrodisias",
+      "image": {
+        "file": "File:Aphrodisias - Temple of Aphrodite 07.jpg",
+        "alt": "Columns of the Temple of Aphrodite at Aphrodisias"
+      },
       "text": "Laodicea is ten minutes away and actively being excavated. Aphrodisias, about two hours west, is one of the best-preserved classical cities in Turkey with a near-intact stadium and almost no visitors.",
       "tip": "Aphrodisias fits naturally on the drive between Pamukkale and [[ephesus]]."
     }
@@ -134,11 +182,19 @@
     },
     {
       "name": "Tandır",
+      "image": {
+        "file": "File:Tandyr Kabob.JPG",
+        "alt": "Meat slow-cooked in a clay tandır oven"
+      },
       "text": "Meat cooked in a clay pit oven for many hours until it collapses, served plain with bread and onion. Central and western Anatolian, and the standard celebratory dish of the region.",
       "whereToTry": "Village restaurants around Denizli. Usually available at lunch and sold out by evening."
     },
     {
       "name": "Gözleme and ayran",
+      "image": {
+        "file": "File:Naneli ayran - Dara.jpg",
+        "alt": "A glass of ayran, the salted yoghurt drink"
+      },
       "text": "Hand-rolled flatbread folded around cheese, spinach or potato, cooked on a griddle, with salted yoghurt drink. The standard lunch after a morning on the travertines.",
       "whereToTry": "Village cafés in Pamukkale and the roadside stops on the way to Laodicea."
     },
@@ -149,6 +205,10 @@
     },
     {
       "name": "Pomegranate and figs",
+      "image": {
+        "file": "File:Pomegranate fruit - whole and piece with arils.jpg",
+        "alt": "Pomegranates from the Denizli plain"
+      },
       "text": "The Denizli plain grows pomegranates, figs and grapes, sold at roadside stalls and pressed into juice everywhere in season from late summer.",
       "whereToTry": "Roadside stalls between Denizli and Pamukkale, and the village market."
     },
