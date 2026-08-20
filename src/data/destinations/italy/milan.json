@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "The Duomo",
+      "image": {
+        "file": "File:DSC08144 - Milano - Sul tetto del Duomo - Foto Giovanni Dall'Orto - 18-jul-2003.jpg",
+        "alt": "Visitors on the marble roof terraces of Milan's Duomo among the spires"
+      },
       "text": "Begun in 1386 and finished in stages over six centuries, in pink-white Candoglia marble: 135 spires, more than three thousand statues, and the gilded Madonnina on the highest pinnacle. The roof terraces are open to visitors.",
       "tip": "Buy the pass that includes the rooftop and take the stairs rather than the lift — the climb passes the buttresses at close range."
     },
     {
       "name": "The Last Supper",
+      "image": {
+        "file": "File:Leonardo da Vinci - The Last Supper high res.jpg",
+        "alt": "Leonardo da Vinci's Last Supper, painted 1495–98 in the refectory of Santa Maria delle Grazie"
+      },
       "text": "Leonardo's mural in the refectory of Santa Maria delle Grazie, painted 1495–98 in an experimental dry technique that began failing within decades. Visits are fifteen minutes, in groups of about thirty, through airlocks.",
       "tip": "Tickets are released in blocks and sell out months ahead. Set a reminder for the release date or book a tour that includes entry."
     },
     {
       "name": "Galleria Vittorio Emanuele II and La Scala",
+      "image": {
+        "file": "File:The glass dome - Galleria Vittorio Emanuele II - Milan.jpg",
+        "alt": "The glass-vaulted dome of the Galleria Vittorio Emanuele II"
+      },
       "text": "An 1877 glass-vaulted arcade of cafés and luxury shops connecting the cathedral square to the opera house, which has been staging opera since 1778 and opens its season every 7 December.",
       "tip": "The theatre museum lets you see the auditorium from a box outside performance times. Spin your heel on the bull mosaic for luck, as everyone does."
     },
     {
       "name": "Sforza Castle",
+      "image": {
+        "file": "File:Castello Sforzesco (Milan) - main entrance.jpg",
+        "alt": "The Renaissance entrance to Milan's Sforza Castle"
+      },
       "text": "The Renaissance fortress of Milan's ruling dynasty, now a set of museums, holding Michelangelo's Rondanini Pietà — the sculpture he was still working on days before he died in 1564 — and a room painted by Leonardo.",
       "tip": "The courtyards and the Sempione park behind are free. The Pietà is displayed alone in a converted hospital hall and is worth the ticket by itself."
     },
     {
       "name": "Pinacoteca di Brera",
+      "image": {
+        "file": "File:The Dead Christ and Three Mourners by Andrea Mantegna. Pinacoteca di Brera in Milan.jpg",
+        "alt": "Mantegna's radically foreshortened Dead Christ, in the Pinacoteca di Brera"
+      },
       "text": "Northern Italy's finest collection: Mantegna's radically foreshortened Dead Christ, Piero della Francesca's Montefeltro Altarpiece, Raphael's Marriage of the Virgin, Caravaggio's Supper at Emmaus and Hayez's The Kiss.",
       "tip": "Two hours, and rarely busy. The Brera district around it is the most attractive quarter in the city centre."
     },
     {
       "name": "Sant'Ambrogio and San Maurizio",
+      "image": {
+        "file": "File:Milano Chiesa di San Maurizio al Monastero Maggiore Innen Halle der Nonnen Gemälde 1.jpg",
+        "alt": "Sixteenth-century frescoes covering the walls of San Maurizio al Monastero Maggiore"
+      },
       "text": "Sant'Ambrogio was founded by Milan's patron saint in the fourth century and rebuilt in a severe Lombard Romanesque. San Maurizio, nearby, is covered wall to ceiling in Bernardino Luini's sixteenth-century frescoes.",
       "tip": "San Maurizio is free, usually near-empty and astonishing. Locals call it the Sistine Chapel of Milan and they are not entirely joking."
     },
     {
       "name": "The Navigli",
+      "image": {
+        "file": "File:Sunset On Naviglio Grande (248958685).jpeg",
+        "alt": "Sunset over the Naviglio Grande, the centre of Milan's evening drinking"
+      },
       "text": "The surviving canals of a medieval network that once brought the marble for the Duomo into the city centre and whose lock gates Leonardo worked on. Now the centre of Milan's evening drinking.",
       "tip": "Best in the early evening for aperitivo along the Naviglio Grande. The antiques market on the last Sunday of the month is excellent."
     },
     {
       "name": "Fondazione Prada and the new skyline",
+      "image": {
+        "file": "File:Fondazione Prada, Milan.jpg",
+        "alt": "The Fondazione Prada complex, a former distillery converted by Rem Koolhaas"
+      },
       "text": "A former distillery converted by Rem Koolhaas with a gold-leafed tower and a Wes Anderson-designed bar; and, north of the centre, the Bosco Verticale's planted towers and the CityLife skyscrapers by Hadid, Isozaki and Libeskind.",
       "tip": "Bar Luce at Fondazione Prada is open without a gallery ticket. The CityLife and Porta Nuova walk is best at dusk."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Walk the cathedral roof",
+      "image": {
+        "file": "File:View west along Duomo roof, Milan.jpg",
+        "alt": "The marble roof terraces of the Duomo, among flying buttresses and statues"
+      },
       "text": "Up the stairs past the flying buttresses and out onto the marble terraces, among the spires and statues, with the piazza far below and the Alps visible to the north on a clear day.",
       "tip": "Late afternoon for the light, or first entry to have it quiet. Clear winter days after rain give the best Alpine views."
     },
     {
       "title": "Take the aperitivo hour seriously",
+      "image": {
+        "file": "File:Negroni on the Rocks.jpg",
+        "alt": "A Negroni, the classic Milanese aperitivo drink"
+      },
       "text": "Between six and eight, order a Negroni, a spritz or a Campari and the bar puts out food — in Milan often a substantial buffet. In Brera and along the Navigli it is the whole evening.",
       "tip": "The Negroni Sbagliato was invented at a Milanese bar by mistake. Ordering one here is not a cliché, it is a local claim."
     },
     {
       "title": "Go to the opera",
+      "image": {
+        "file": "File:Teatro alla Scala interior Milan.jpg",
+        "alt": "The auditorium of La Scala, Milan's opera house since 1778"
+      },
       "text": "La Scala's season runs from 7 December through the following autumn, and same-day gallery tickets are sold cheaply to those willing to queue for the highest seats.",
       "tip": "Restricted-view gallery seats cost a fraction of the stalls. Check the day-ticket procedure on the theatre's site — it changes."
     },
     {
       "title": "Look at design",
+      "image": {
+        "file": "File:Triennale Milano design museum.jpeg",
+        "alt": "The Triennale, Milan's design exhibition space"
+      },
       "text": "The Quadrilatero for fashion, the Triennale for design exhibitions, Fondazione Prada and 10 Corso Como, and in April the whole city during Design Week, when courtyards across Milan open as installations.",
       "tip": "Design Week is extraordinary and hotel prices treble. Decide which of those two facts matters more to you."
     },
     {
       "title": "Take a train to a lake or a hill town",
+      "image": {
+        "file": "File:Exploring Varenna on Lake Como.jpg",
+        "alt": "Varenna on Lake Como, an easy train ride from Milan"
+      },
       "text": "Como in about 40 minutes and Varenna in an hour for Lake Como; Bergamo's walled upper town in 50 minutes; Pavia's Certosa in half an hour. All easy half or full days.",
       "tip": "Varenna is the better Como stop — smaller, prettier and on the ferry network to Bellagio."
     },
     {
       "title": "Ride an old tram",
+      "image": {
+        "file": "File:ATM Class 1500 tram no. 1866 operating a Route 1 service on Via Lazzaretto in Milan, Italy.jpg",
+        "alt": "A vintage 1920s-style tram operating Route 1 through central Milan"
+      },
       "text": "Milan still runs 1920s wooden-interior trams on some central routes. Line 1 loops past the castle and the centre, and it costs the price of a standard ticket.",
       "tip": "One of the cheapest good half-hours in Italy. Some of the same carriages ended up running in San Francisco."
     }
@@ -128,31 +184,55 @@
   "foods": [
     {
       "name": "Risotto alla milanese",
+      "image": {
+        "file": "File:Risotto med safran (6977872494).jpg",
+        "alt": "Risotto alla milanese, coloured golden with saffron"
+      },
       "text": "Carnaroli rice cooked in broth with saffron and, traditionally, bone marrow, finished with butter and Parmesan until it flows across the plate. Golden, rich and served on its own.",
       "whereToTry": "Traditional trattorias in the centre and Brera. It is also the classic bed for ossobuco."
     },
     {
       "name": "Cotoletta alla milanese",
+      "image": {
+        "file": "File:Cotoletta alla milanese in milano.jpg",
+        "alt": "Cotoletta alla milanese, a bone-in veal chop breaded and fried in butter"
+      },
       "text": "A veal chop, bone in, beaten thin, breaded and fried in butter — closer to a schnitzel than to anything southern, and the subject of a long argument with Vienna about which came first.",
       "whereToTry": "Old-school Milanese restaurants. If it arrives boneless and flat as a plate, it is the modern variant, not the original."
     },
     {
       "name": "Ossobuco",
+      "image": {
+        "file": "File:Ossobuco with boiled potatoes.jpg",
+        "alt": "Ossobuco, veal shin braised until the marrow is the best part"
+      },
       "text": "Veal shin braised slowly in white wine and stock until the marrow in the bone becomes the best part, finished with gremolata — lemon zest, garlic and parsley — and served over saffron risotto.",
       "whereToTry": "Traditional restaurants, particularly in autumn and winter. Ask for the little spoon for the marrow."
     },
     {
       "name": "Cassoeula",
+      "image": {
+        "file": "File:Cassoeula.jpg",
+        "alt": "Cassoeula, a winter stew of pork ribs, sausage and cabbage"
+      },
       "text": "A winter stew of pork ribs, sausage and the cheaper cuts cooked down with cabbage until everything collapses together. Peasant food, enormously heavy and only made in the cold months.",
       "whereToTry": "Milanese trattorias from November to February. Not a summer dish and rarely offered as one."
     },
     {
       "name": "Panettone",
+      "image": {
+        "file": "File:Panettone italiano. Pan dulce de Navidad.jpg",
+        "alt": "Panettone, Milan's tall domed Christmas bread with candied peel and raisins"
+      },
       "text": "The tall, domed Christmas bread with candied peel and raisins, leavened over days with a natural starter. Milan's contribution to the world's festive table, and vastly better here than in a supermarket box.",
       "whereToTry": "Historic pasticcerie from November. Some now make versions year-round, which the traditionalists dislike."
     },
     {
       "name": "Campari and the aperitivo",
+      "image": {
+        "file": "File:Negroni (cocktail).jpg",
+        "alt": "A Negroni, made with Campari, gin and vermouth"
+      },
       "text": "The bitter red aperitif has been part of Milanese life since the nineteenth century, in a Negroni, an Americano or the Sbagliato, which replaces the gin with sparkling wine and was invented in a Milanese bar by accident.",
       "whereToTry": "The historic bar in the Galleria, Brera's cafés, or any Navigli terrace between six and eight."
     }
