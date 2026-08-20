@@ -753,6 +753,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Close-up of espresso machine with two brown coffee cups.jpg": {
+    "artist": "Chevanon Photography",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_espresso_machine_with_two_brown_coffee_cups.jpg",
+    "context": "Drink your coffee standing up — Italy",
+    "hero": "images/italy/_country--thing-2.webp",
+    "card": "images/italy/_country--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Coda alla vaccinara-01.jpg": {
     "artist": "shu tu",
     "license": "CC BY-SA 2.0",
@@ -1260,6 +1273,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Gelateria italiana.jpg": {
+    "artist": "Lasagnolo9",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gelateria_italiana.jpg",
+    "context": "Gelato, properly made — Italy",
+    "hero": "images/italy/_country--food-6.webp",
+    "card": "images/italy/_country--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Giardino degli aranci (Roma).jpg": {
     "artist": "Bex-Lemon",
     "license": "CC BY-SA 4.0",
@@ -1311,6 +1337,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 531
+  },
+  "File:God the Father, fresco, church San Giovanni Crisostomo, by Giuseppe Diamantini in Venice.jpg": {
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:God_the_Father,_fresco,_church_San_Giovanni_Crisostomo,_by_Giuseppe_Diamantini_in_Venice.jpg",
+    "context": "Walk into churches — Italy",
+    "hero": "images/italy/_country--thing-4.webp",
+    "card": "images/italy/_country--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Going-to-the-Sun Road (Patterson).jpg": {
     "artist": "Tom Patterson",
@@ -1806,6 +1845,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Mercato del pesce a Trani (BT).jpg": {
+    "artist": "Maddy16869",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercato_del_pesce_a_Trani_(BT).jpg",
+    "context": "Seafood on every coast — Italy",
+    "hero": "images/italy/_country--food-4.webp",
+    "card": "images/italy/_country--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Michelangelo's David 2015.jpg": {
     "artist": "Livioandronico2013",
     "license": "CC BY-SA 4.0",
@@ -1957,6 +2009,19 @@
     "context": "Take the aperitivo hour seriously — Milan, Italy",
     "hero": "images/italy/milan--thing-2.webp",
     "card": "images/italy/milan--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Negroni with ingredients.jpg": {
+    "artist": "Achim Schleuning (E-Mail: comander02_de@yahoo.de)",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Negroni_with_ingredients.jpg",
+    "context": "Take the aperitivo hour — Italy",
+    "hero": "images/italy/_country--thing-6.webp",
+    "card": "images/italy/_country--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2872,6 +2937,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Tagliatelle al ragù 02.jpg": {
+    "artist": "Catia Giaccherini",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_rag%C3%B9_02.jpg",
+    "context": "Pasta, regionally — Italy",
+    "hero": "images/italy/_country--food-1.webp",
+    "card": "images/italy/_country--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Taormina - the greek theater, with mount Etna in the background.jpg": {
     "artist": "Nicolas Chadeville",
     "license": "CC BY-SA 4.0",
@@ -3301,6 +3379,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Vineyards in the Chianti Classico valleys.jpg": {
+    "artist": "Tom Chance",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyards_in_the_Chianti_Classico_valleys.jpg",
+    "context": "Wine by the region — Italy",
+    "hero": "images/italy/_country--food-5.webp",
+    "card": "images/italy/_country--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Vineyards Terraces Volastra Cinque Terre Sep23 A7C 06780.jpg": {
     "artist": "Timothy A. Gonsalves",
     "license": "CC BY-SA 4.0",
@@ -3322,6 +3413,19 @@
     "context": "Chicago, United States",
     "hero": "images/united-states/chicago.webp",
     "card": "images/united-states/chicago-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Wheel of 2013 Parmigiano-Reggiano DOP.JPG": {
+    "artist": "Wittylama",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheel_of_2013_Parmigiano-Reggiano_DOP.JPG",
+    "context": "Cured meat and cheese — Italy",
+    "hero": "images/italy/_country--food-3.webp",
+    "card": "images/italy/_country--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

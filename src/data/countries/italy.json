@@ -37,6 +37,10 @@
     },
     {
       "title": "Drink your coffee standing up",
+      "image": {
+        "file": "File:Close-up of espresso machine with two brown coffee cups.jpg",
+        "alt": "Espresso cups at a bar counter"
+      },
       "text": "At the bar, in one gulp, for about a euro. Sitting at a table can cost three or four times as much for exactly the same espresso, and in some places you pay at the till first and take the receipt to the barista.",
       "tip": "Cappuccino is a morning drink. Ordering one after lunch marks you out, though nobody will actually mind."
     },
@@ -47,16 +51,28 @@
     },
     {
       "title": "Walk into churches",
+      "image": {
+        "file": "File:God the Father, fresco, church San Giovanni Crisostomo, by Giuseppe Diamantini in Venice.jpg",
+        "alt": "A fresco inside an ordinary Italian parish church"
+      },
       "text": "Ordinary parish churches routinely hold Caravaggios, Titians and Giottos, free and unattended. Some of the best paintings in Italy are not in museums at all — they are where they were painted to be.",
       "tip": "Cover shoulders and knees, carry coins for the light boxes that illuminate side chapels, and avoid Mass times."
     },
     {
       "title": "Go to the market in the morning",
+      "image": {
+        "file": "File:Sulmona Market Vegetable Stall Abruzzo Italy 9502.jpg",
+        "alt": "A vegetable stall at an Italian morning market"
+      },
       "text": "Every town has one, and by one o'clock it is over. Markets are where the regional differences are most obvious — the vegetables, the cheeses, the cuts of meat and the arguments are all local.",
       "tip": "Palermo's Ballarò, Bologna's Quadrilatero, Venice's Rialto and Florence's Sant'Ambrogio are among the best."
     },
     {
       "title": "Take the aperitivo hour",
+      "image": {
+        "file": "File:Negroni with ingredients.jpg",
+        "alt": "A Negroni and its ingredients, the classic Italian aperitivo"
+      },
       "text": "A drink between about 18:00 and 20:00 that comes with food — olives and crisps at minimum, a laid-out buffet in Milan. It is a social institution rather than a happy hour, and in the north it can replace dinner.",
       "tip": "A spritz in the Veneto, a Negroni in Tuscany, a Campari in Milan. Ask for the local one."
     }
@@ -65,36 +81,64 @@
   "foods": [
     {
       "name": "Pasta, regionally",
+      "image": {
+        "file": "File:Tagliatelle al ragù 02.jpg",
+        "alt": "Tagliatelle al ragù, Bologna's regional pasta"
+      },
       "text": "Shape and sauce are matched by region and defended fiercely: carbonara, cacio e pepe, amatriciana and gricia in Rome; trofie al pesto in Liguria; orecchiette with turnip tops in Puglia; pasta alla Norma in Sicily; ragù in Bologna.",
       "whereToTry": "Whichever region you are in. Ordering Bolognese in [[rome|Rome]] is the culinary equivalent of asking for chips."
     },
     {
       "name": "Pizza, and its two schools",
+      "image": {
+        "file": "File:Pizza-napoletana.jpg",
+        "alt": "A leopard-spotted Neapolitan pizza"
+      },
       "text": "Neapolitan pizza — soft, blistered, wet in the middle, cooked in 90 seconds — is a UNESCO-listed craft. Roman pizza is thin and crisp, and pizza al taglio is sold by weight from a tray and eaten walking.",
       "whereToTry": "[[naples-pompeii|Naples]] for the original, Rome for al taglio at any decent forno."
     },
     {
       "name": "Cured meat and cheese",
+      "image": {
+        "file": "File:Wheel of 2013 Parmigiano-Reggiano DOP.JPG",
+        "alt": "A wheel of Parmigiano Reggiano"
+      },
       "text": "Parma ham and Parmigiano Reggiano from Emilia, speck in the [[dolomites|Dolomites]], 'nduja in Calabria, burrata in Puglia, buffalo mozzarella in Campania, pecorino across the centre and south.",
       "whereToTry": "Alimentari and salumerie — buy 100 g of two or three things and a piece of bread for lunch."
     },
     {
       "name": "Seafood on every coast",
+      "image": {
+        "file": "File:Mercato del pesce a Trani (BT).jpg",
+        "alt": "A fish market on the Puglia coast at Trani"
+      },
       "text": "Anchovies in Liguria and Cetara, sarde a beccafico and swordfish in Sicily, raw prawns and octopus in Puglia, cuttlefish and soft-shell crab in the Venetian lagoon. Almost always simply cooked.",
       "whereToTry": "Ports rather than resorts, and whatever the board says is in today rather than whatever is printed on the menu."
     },
     {
       "name": "Wine by the region",
+      "image": {
+        "file": "File:Vineyards in the Chianti Classico valleys.jpg",
+        "alt": "Vineyards in the Chianti Classico valleys of Tuscany"
+      },
       "text": "Barolo and Barbaresco in Piedmont, Amarone in the Veneto, Chianti and Brunello in Tuscany, Etna reds in Sicily, Primitivo in Puglia. House wine by the carafe is usually local, cheap and perfectly good.",
       "whereToTry": "Enoteche for tasting; trattorias for a litre of the local red at a price that will surprise you."
     },
     {
       "name": "Gelato, properly made",
+      "image": {
+        "file": "File:Gelateria italiana.jpg",
+        "alt": "Tubs of gelato in an Italian gelateria"
+      },
       "text": "Real gelato is denser and less cold than ice cream, made in small batches, and stored in covered steel tubs rather than heaped into fluorescent mountains. Pistachio should be brown-green, not lurid.",
       "whereToTry": "Anywhere advertising 'produzione propria' and keeping its tubs covered. Avoid banana that is yellow."
     },
     {
       "name": "Coffee and the bar",
+      "image": {
+        "file": "File:Coffee in Italy.JPG",
+        "alt": "Espresso served in an Italian bar"
+      },
       "text": "The bar is the social unit of Italian daily life: espresso standing up in the morning, a pastry with it, a spritz in the evening. Coffee culture is a set of rules that everyone follows without discussing them.",
       "whereToTry": "Any neighbourhood bar. Naples makes the strongest and takes it the most seriously."
     }
