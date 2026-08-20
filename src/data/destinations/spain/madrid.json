@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Museo del Prado",
+      "image": {
+        "file": "File:Museo del Prado 00 Fachada 1a.jpg",
+        "alt": "The neoclassical Villanueva facade of the Museo del Prado"
+      },
       "text": "The former royal collection, and the finest single-country holding of paintings in existence. Velázquez's Las Meninas is displayed so you can approach it from the front as the painting intends. Goya's Black Paintings — made on the walls of his own house — occupy a room of their own, and Bosch's Garden of Earthly Delights is here rather than in the Netherlands.",
       "tip": "Free entry for the last two hours daily, which is genuinely busy. Better to pay and go at opening; three hours in two wings beats five hours attempting everything."
     },
     {
       "name": "Museo Reina Sofía",
+      "image": {
+        "file": "File:Museo Nacional Centro de Arte Reina Sofia - Plaza de Juan Goytisolo - Madrid 01.jpg",
+        "alt": "The Reina Sofía museum in its converted hospital building"
+      },
       "text": "Twentieth-century Spanish art in a converted hospital, built around Picasso's Guernica — displayed with the preparatory sketches and photographs that show how it was made. Strong Dalí and Miró holdings alongside it.",
       "tip": "Guernica is the reason most people come and the room is crowded. Go at opening or in the free evening window and see the sketch room first."
     },
     {
       "name": "Museo Thyssen-Bornemisza",
+      "image": {
+        "file": "File:Museo Thyssen-Bornemisza (Madrid) 06b.jpg",
+        "alt": "The Palacio de Villahermosa, home of the Thyssen-Bornemisza collection"
+      },
       "text": "A private collection of about 1,600 works assembled over two generations and bought by Spain in 1993. It fills the gaps the other two leave — early Italian, Dutch, German Expressionism, Impressionism and American painting — and is much the calmest of the three.",
       "tip": "The best of the three if you have limited appetite for museums. Chronological top floor down is the intended route."
     },
     {
       "name": "Plaza Mayor and the Habsburg quarter",
+      "image": {
+        "file": "File:Felipe III - Casa de la Panadería - Plaza Mayor de Madrid - 02.jpg",
+        "alt": "The Casa de la Panadería and the statue of Felipe III on the Plaza Mayor"
+      },
       "text": "A fully enclosed arcaded square from 1619, once used for bullfights, royal proclamations and executions. The streets around it — Calle Mayor, Cava Baja, the Mercado de San Miguel — form the oldest part of the city.",
       "tip": "The square itself is priced for visitors. Walk two streets south into Cava Baja for the bars Madrid actually uses."
     },
     {
       "name": "Retiro Park",
+      "image": {
+        "file": "File:Crystal Palace in Madrid foggy evening.jpg",
+        "alt": "The glass and iron Palacio de Cristal in the Retiro"
+      },
       "text": "125 hectares of former royal garden, opened to the public in 1868 and now UNESCO-listed. The Crystal Palace, a glass and iron pavilion built for a Philippines exhibition in 1887, hosts contemporary art installations and is free.",
       "tip": "Sunday morning is when Madrid uses it properly — drummers, tai chi, rowing boats and families. Go then, not on a quiet weekday."
     },
     {
       "name": "Royal Palace and Almudena",
+      "image": {
+        "file": "File:Palacio Real de Madrid - 05.jpg",
+        "alt": "The facade of the Royal Palace of Madrid"
+      },
       "text": "Europe's largest royal palace by floor area, with 3,418 rooms, of which you see about fifty. Built after the old Habsburg fortress burned down in 1734. The neighbouring cathedral was only finished in 1993 and is worth ten minutes at most.",
       "tip": "The Sabatini and Campo del Moro gardens beside it are free, quiet and better than the queue for the state rooms."
     },
     {
       "name": "Toledo",
+      "image": {
+        "file": "File:Tagus River Panorama - Toledo, Spain - Dec 2006.jpg",
+        "alt": "Toledo on its granite spur inside a bend of the Tagus"
+      },
       "text": "Thirty-three minutes by AVE. A walled city on a granite spur inside a bend of the Tagus, capital of Spain until 1561, where the cathedral, the synagogues and the mosque survive within a few hundred metres of one another. El Greco lived and painted here.",
       "tip": "Stay overnight if you can — the day-trippers leave at 18:00 and the town becomes extraordinary. Otherwise take the first train out."
     },
     {
       "name": "Segovia",
+      "image": {
+        "file": "File:Acueducto de Segovia 01.jpg",
+        "alt": "The Roman aqueduct at Segovia"
+      },
       "text": "Twenty-seven minutes by AVE, for a Roman aqueduct of 167 arches, 28 metres high, built without mortar around the first century and in use until 1973. The cathedral and the Alcázar castle complete the visit.",
       "tip": "Segovia is also where you eat cochinillo — suckling pig roasted whole and traditionally carved with a plate edge."
     }
@@ -100,26 +132,46 @@
     },
     {
       "title": "Go to the Rastro on Sunday",
+      "image": {
+        "file": "File:Rastro - Ribera de Curtidores - Madrid 01.jpg",
+        "alt": "Stalls filling the Ribera de Curtidores at the Rastro flea market"
+      },
       "text": "A flea market that has run since the 1740s, filling the streets below La Latina every Sunday morning with several thousand stalls. Half junk, half genuinely interesting, and entirely a Madrid institution.",
       "tip": "It winds down around 15:00 and the crowd moves straight into the surrounding bars. That transition is the point."
     },
     {
       "title": "Eat churros at an unreasonable hour",
+      "image": {
+        "file": "File:Chocolate con churros de lazo.jpg",
+        "alt": "Churros served with a cup of thick drinking chocolate"
+      },
       "text": "Madrid's churrerías have historically stayed open around the clock, and eating churros dipped in thick chocolate at 06:00 on the way home is a recognised part of a night out rather than an eccentricity.",
       "tip": "Also perfectly respectable at 09:00 for breakfast. The chocolate should be thick enough to hold a churro upright."
     },
     {
       "title": "Spend an evening in Malasaña or Lavapiés",
+      "image": {
+        "file": "File:Calle de Manuela Malasaña (4426392822).jpg",
+        "alt": "A street in the Malasaña district of Madrid"
+      },
       "text": "Malasaña was the centre of the post-Franco Movida and is still where the city's music and bar culture concentrates. Lavapiés is the most mixed neighbourhood in Madrid, with the best cheap eating in the city.",
       "tip": "Both are within twenty minutes' walk of the centre and neither is on a standard itinerary."
     },
     {
       "title": "See a flamenco tablao — knowing it is not local",
+      "image": {
+        "file": "File:Flamenco, Madrid, clapping.jpg",
+        "alt": "Flamenco performers clapping during a tablao in Madrid"
+      },
       "text": "Flamenco is Andalusian, but Madrid draws the best performers in Spain and its tablaos are consequently very good. Several have been running since the 1960s and are respected within the form.",
       "tip": "Choose a one-hour performance without dinner. The late show is usually the better one."
     },
     {
       "title": "Take the train to Toledo or Segovia",
+      "image": {
+        "file": "File:Puente de San Martín. Toledo, Spain.jpg",
+        "alt": "The medieval Puente de San Martín over the Tagus at Toledo"
+      },
       "text": "Thirty-something minutes each, and both are complete historic cities rather than single sights. Toledo for the layered religious history, Segovia for the aqueduct and the roast suckling pig.",
       "tip": "Do one properly rather than both in a day. Toledo in particular deserves from mid-afternoon into the evening."
     }
@@ -128,31 +180,55 @@
   "foods": [
     {
       "name": "Cocido madrileño",
+      "image": {
+        "file": "File:Cocido madrileño.jpg",
+        "alt": "Cocido madrileño — chickpeas, meat and vegetables from one pot"
+      },
       "text": "A chickpea, meat and vegetable stew served in three courses from one pot: first the broth as a soup, then the chickpeas and vegetables, then the meats. A winter dish, usually available only at lunch and often only on set days.",
       "whereToTry": "Traditional restaurants in the centre, mostly October to April. Several serve it on Wednesdays only."
     },
     {
       "name": "Bocadillo de calamares",
+      "image": {
+        "file": "File:Bocadillo de calamares-2009.jpg",
+        "alt": "A bread roll filled with rings of fried squid"
+      },
       "text": "A bread roll filled with rings of fried squid, and nothing else — no sauce, no salad. Improbably, in a landlocked city 350 km from the sea, this is Madrid's signature snack.",
       "whereToTry": "The bars around Plaza Mayor, which specialise in almost nothing else."
     },
     {
       "name": "Callos a la madrileña",
+      "image": {
+        "file": "File:Callos a la madrileña con garbanzos.jpg",
+        "alt": "Callos a la madrileña — tripe stewed with chorizo and paprika"
+      },
       "text": "Tripe stewed with chorizo, morcilla and paprika until thick. Divisive, deeply traditional, and one of the few dishes that is genuinely from here.",
       "whereToTry": "Old-school taverns in La Latina and Lavapiés, usually as a media ración."
     },
     {
       "name": "Churros con chocolate",
+      "image": {
+        "file": "File:Chocolate con churros en La Giralda.jpg",
+        "alt": "Churros beside a cup of thick chocolate"
+      },
       "text": "Fried dough in a cup of chocolate thick enough to be eaten with a spoon. Eaten at breakfast, at merienda, and at dawn on the way home from a night out.",
       "whereToTry": "Historic churrerías near Puerta del Sol, some of which have operated continuously for over a century."
     },
     {
       "name": "Cochinillo and cordero asado",
+      "image": {
+        "file": "File:Cochinillo, Segovia, España, 2017 01.jpg",
+        "alt": "Roast suckling pig, the Castilian speciality"
+      },
       "text": "Suckling pig and milk-fed lamb roasted in wood-fired ovens — Castilian rather than strictly Madrid, and the reason people drive to Segovia and the villages around the city for lunch.",
       "whereToTry": "Segovia, Sepúlveda and the old asador restaurants of central Madrid."
     },
     {
       "name": "Vermut de grifo",
+      "image": {
+        "file": "File:Vermut de Grifo.jpg",
+        "alt": "House vermouth on ice with an olive and orange"
+      },
       "text": "House vermouth on tap, sweet and herbal, served on ice with an olive before Sunday lunch. The vermouth hour is a Madrid ritual that has come firmly back into fashion.",
       "whereToTry": "Old taverns in La Latina, especially around Cava Baja from noon on Sundays."
     }
