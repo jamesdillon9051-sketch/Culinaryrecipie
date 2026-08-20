@@ -142,6 +142,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2024-02-25 Road between Ayder Yaylası and Ĥuser Yaylası in February 2.jpg": {
+    "artist": "Alexkom000",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-02-25_Road_between_Ayder_Yaylas%C4%B1_and_%C4%A4user_Yaylas%C4%B1_in_February_2.jpg",
+    "context": "Trek in the Kaçkars — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--thing-4.webp",
+    "card": "images/turkey/trabzon-black-sea--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:20240907 Tahinli Antalya Piyazı.jpg": {
     "artist": "Basak",
     "license": "CC0",
@@ -831,6 +844,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Ayder Yaylasi @ Rize-Turkey.JPG": {
+    "artist": "Dr. Zeynel Cebeci",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayder_Yaylasi_@_Rize-Turkey.JPG",
+    "context": "Ayder and the Kaçkar mountains — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-3.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Babà rum.jpg": {
     "artist": "Marica Massaro",
     "license": "CC BY-SA 4.0",
@@ -1442,6 +1468,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Boztepe, Trabzon - panoramio.jpg": {
+    "artist": "Murat Atasoy",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boztepe,_Trabzon_-_panoramio.jpg",
+    "context": "Boztepe and the Atatürk Pavilion — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-8.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Brettljause Speck Käse Kaminwurz Vinschgerl.JPG": {
     "artist": "Benreis",
     "license": "CC BY 3.0",
@@ -1688,6 +1727,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Çamlıhemşin -- Muhlama (5019844858).jpg": {
+    "artist": "tomislav medak",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87aml%C4%B1hem%C5%9Fin_--_Muhlama_(5019844858).jpg",
+    "context": "Muhlama — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--food-2.webp",
+    "card": "images/turkey/trabzon-black-sea--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Can Sanpere Març 2022 Calçotada 06.jpg": {
     "artist": "Dvdgmz",
@@ -4315,6 +4367,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hamsi tava, roka, lemon and red onions.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamsi_tava,_roka,_lemon_and_red_onions.jpg",
+    "context": "Hamsi — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--food-1.webp",
+    "card": "images/turkey/trabzon-black-sea--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Harran Beehive houses 192b.jpg": {
     "artist": "Dosseman",
     "license": "CC BY-SA 4.0",
@@ -5584,6 +5649,32 @@
     "context": "Papas arrugadas con mojo — Tenerife & Mount Teide, Spain",
     "hero": "images/spain/tenerife-teide--food-1.webp",
     "card": "images/spain/tenerife-teide--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:MOKM01.jpg": {
+    "artist": "Mustafa Orhon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MOKM01.jpg",
+    "context": "The Fırtına valley and Zil Kale — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-4.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:MOKM42.jpg": {
+    "artist": "Mustafa Orhon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MOKM42.jpg",
+    "context": "Drive the Fırtına valley — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--thing-3.webp",
+    "card": "images/turkey/trabzon-black-sea--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6915,6 +7006,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Pokut Yaylasi Rize.jpg": {
+    "artist": "DOGUTTR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pokut_Yaylasi_Rize.jpg",
+    "context": "Sleep on a yayla — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--thing-2.webp",
+    "card": "images/turkey/trabzon-black-sea--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Pokut Yaylası Rize.JPG": {
+    "artist": "Marenbel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pokut_Yaylas%C4%B1_Rize.JPG",
+    "context": "The yayla plateaus — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-5.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Polenta con funghi.jpg": {
     "artist": "FakirNL",
     "license": "CC BY-SA 4.0",
@@ -7266,6 +7383,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Real laz böreği (with pepper).jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Real_laz_b%C3%B6re%C4%9Fi_(with_pepper).jpg",
+    "context": "Laz böreği — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--food-5.webp",
+    "card": "images/turkey/trabzon-black-sea--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Refuge du Col de Balme from col du balme.jpg": {
     "artist": "Victoria Lunyak",
     "license": "CC BY-SA 4.0",
@@ -7382,6 +7512,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 531
+  },
+  "File:Rize Tea Plantation 2005-jk.jpg": {
+    "artist": "Photo by User:Wikimol",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rize_Tea_Plantation_2005-jk.jpg",
+    "context": "Rize and the tea terraces — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-6.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Road to hana coast Maui Hawaii (43923169680).jpg": {
     "artist": "dronepicr",
@@ -8319,6 +8462,19 @@
     "cardWidth": 800,
     "cardHeight": 316
   },
+  "File:Sümela Monastery in Altindere Valley National Park, Trabzon, Türkiye.jpg": {
+    "artist": "Kaan261",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCmela_Monastery_in_Altindere_Valley_National_Park,_Trabzon,_T%C3%BCrkiye.jpg",
+    "context": "Visit Sumela — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--thing-1.webp",
+    "card": "images/turkey/trabzon-black-sea--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Summit craters of Mount Etna seen from Piano del Lago.jpg": {
     "artist": "The Cosmonaut",
     "license": "CC BY-SA 4.0",
@@ -8878,6 +9034,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Trabzon Hagia Sophia Resurrection 4857.jpg": {
+    "artist": "Dosseman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trabzon_Hagia_Sophia_Resurrection_4857.jpg",
+    "context": "Hagia Sophia of Trabzon — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-2.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Traghetto San Tomà Venice.JPG": {
     "artist": "Abxbay",
     "license": "CC BY-SA 3.0",
@@ -9163,6 +9332,32 @@
     "heroHeight": 847,
     "cardWidth": 800,
     "cardHeight": 423
+  },
+  "File:Uzungöl lake and town.jpg": {
+    "artist": "İhsan Deniz Kılıçoğlu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uzung%C3%B6l_lake_and_town.jpg",
+    "context": "Uzungöl — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--attraction-7.webp",
+    "card": "images/turkey/trabzon-black-sea--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Uzungöl, Trabzon 2014.jpg": {
+    "artist": "Hamdigumus",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uzung%C3%B6l,_Trabzon_2014.jpg",
+    "context": "Drink tea where it grows — Trabzon & the Black Sea Coast, Turkey",
+    "hero": "images/turkey/trabzon-black-sea--thing-5.webp",
+    "card": "images/turkey/trabzon-black-sea--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Valldemossa view.jpg": {
     "artist": "Abrget47j",
