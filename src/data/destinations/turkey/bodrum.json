@@ -57,31 +57,55 @@
     },
     {
       "name": "The Museum of Underwater Archaeology",
+      "image": {
+        "file": "File:Bodrum Museum Ceramics in 2015 3644.jpg",
+        "alt": "Amphorae raised from ancient wrecks in the Bodrum underwater museum"
+      },
       "text": "Inside the castle: cargoes raised from ancient wrecks off this coast, including a Late Bronze Age ship of around 1300 BC carrying copper and tin ingots, ebony, ivory and Canaanite jars, plus a Byzantine 'Glass Wreck'.",
       "tip": "The Bronze Age cargo is the highlight — it demonstrates trade links from Egypt to the Baltic in a single hold."
     },
     {
       "name": "The Mausoleum site",
+      "image": {
+        "file": "File:Mausoleo di alicarnasso, piano con rovine 10.JPG",
+        "alt": "The excavated foundations of the Mausoleum at Halicarnassus"
+      },
       "text": "The foundations, drainage channels and a few surviving blocks of the tomb of Mausolus, one of the Seven Wonders. A small exhibition explains the reconstruction; the surviving sculpture is largely in the British Museum.",
       "tip": "Go after the castle, not before. Seeing where the marble ended up first makes the empty site far more affecting."
     },
     {
       "name": "The ancient theatre",
+      "image": {
+        "file": "File:The theatre of ancient Halicarnassus, built in the 4th century BC during the reign of King Mausolos and enlarged in the 2nd century AD, the original capacity of the theatre was 10,000, Bodrum, Turkey (16456817694).jpg",
+        "alt": "The Greek theatre cut into the hillside above Bodrum"
+      },
       "text": "A 4th-century-BC Greek theatre cut into the hillside above the town, one of the oldest in Anatolia, seating around 13,000 and still used for summer concerts, with the whole bay laid out below it.",
       "tip": "Free to enter and usually deserted. Best in the last hour of daylight."
     },
     {
       "name": "Gümüşlük",
+      "image": {
+        "file": "File:Gümüşlük, Bodrum 2.jpg",
+        "alt": "The fishing village of Gümüşlük on the Bodrum peninsula"
+      },
       "text": "A fishing village on the site of ancient Myndos, where the ruins run out into shallow water and you can wade the causeway to Rabbit Island. Fish restaurants put their tables on the sand at the water's edge.",
       "tip": "Come for a late lunch and stay for the sunset, which is the best on the peninsula. Cars are kept out of the village centre."
     },
     {
       "name": "Yalıkavak",
+      "image": {
+        "file": "File:YalıkavakMarina (1).jpg",
+        "alt": "The marina at Yalıkavak"
+      },
       "text": "The peninsula's smart end: a large marina with designer shops and restaurants, a restored old village behind it, and the windmills on the ridge above. Expensive and undeniably good-looking.",
       "tip": "The old village streets uphill from the marina are far cheaper for dinner and rather more pleasant."
     },
     {
       "name": "The Myndos Gate",
+      "image": {
+        "file": "File:Bodrum, Myndos Kapisi - zbytky antické brány.jpg",
+        "alt": "The remains of the Myndos Gate in the Halicarnassus walls"
+      },
       "text": "The surviving gateway of the Halicarnassus city walls, where Alexander the Great's siege broke through in 334 BC. Restored, with the ditch in front of it still visible.",
       "tip": "Ten minutes from the centre and almost always empty. A short stop rather than an outing."
     },
@@ -100,6 +124,10 @@
     },
     {
       "title": "Work your way round the peninsula",
+      "image": {
+        "file": "File:Gümüşlük, Bodrum.jpg",
+        "alt": "The shallow bay at Gümüşlük on the peninsula's western tip"
+      },
       "text": "Gümüşlük for lunch in the water, Yalıkavak for the marina, Türkbükü for the deck scene, Bitez for windsurfing, Akyarlar for the quietest swimming. Each is 20–40 minutes from town.",
       "tip": "Pick two per day, not five. The roads are winding and the point of each village is to sit still in it."
     },
@@ -110,16 +138,28 @@
     },
     {
       "title": "Cross to Kos for the day",
+      "image": {
+        "file": "File:Mastichari Kos 2.jpg",
+        "alt": "The harbour on Kos, a short ferry ride from Bodrum"
+      },
       "text": "A ferry of twenty to forty minutes puts you in Greece for lunch — a different island, a different alphabet and a completely different set of ruins, back the same evening.",
       "tip": "Take your passport and check the last return sailing. Visa rules differ by nationality — confirm before you board."
     },
     {
       "title": "Eat çökertme kebabı where it comes from",
+      "image": {
+        "file": "File:Çökertme kebabı.jpg",
+        "alt": "Çökertme kebabı — matchstick potatoes under meat and yoghurt"
+      },
       "text": "The dish is named after a village on this peninsula: matchstick potatoes under sliced beef, garlic yoghurt and a tomato-butter sauce. It is Muğla's contribution to Turkish cooking and it is everywhere here.",
       "tip": "Order it in a village restaurant rather than on the marina, where it costs three times as much and is usually worse."
     },
     {
       "title": "Windsurf or sail off Bitez",
+      "image": {
+        "file": "File:Windsurf - panoramio.jpg",
+        "alt": "A windsurfer on the Aegean under the summer meltem"
+      },
       "text": "The meltem, the summer northerly, blows steadily across the peninsula's south-facing bays. Bitez and Gümbet have schools, boards and dinghies for hire and reliable afternoon wind.",
       "tip": "The wind builds through the afternoon. Beginners should book mornings; anyone competent should wait until after 14:00."
     }
@@ -128,6 +168,10 @@
   "foods": [
     {
       "name": "Çökertme kebabı",
+      "image": {
+        "file": "File:Çökertme kebabı (cropped).jpg",
+        "alt": "Çökertme kebabı, named for a village on the Bodrum peninsula"
+      },
       "text": "Named after a village on the Bodrum peninsula: thin matchstick fried potatoes topped with strips of marinated beef, garlic yoghurt and a butter-and-tomato sauce poured over at the table. Rich and very good.",
       "whereToTry": "Village restaurants across the peninsula. It appears on almost every menu in Muğla province."
     },
@@ -138,11 +182,19 @@
     },
     {
       "name": "Kalamar tava with tarator",
+      "image": {
+        "file": "File:Kalamar tava and tartar sauce.jpg",
+        "alt": "Fried squid rings served with a garlic and walnut sauce"
+      },
       "text": "Squid rings in a light batter, fried crisp and served with tarator — a thick sauce of ground walnuts, bread, garlic and vinegar that is far better than the mayonnaise usually offered elsewhere.",
       "whereToTry": "Any meyhane in Bodrum town. Ask for tarator specifically if it does not arrive."
     },
     {
       "name": "Zeytinyağlı enginar",
+      "image": {
+        "file": "File:Enginar.jpg",
+        "alt": "Artichoke hearts braised in olive oil"
+      },
       "text": "Artichoke hearts braised in olive oil with carrot, potato, broad beans and dill, served cold. A defining Aegean dish and a good test of a restaurant's meze table.",
       "whereToTry": "Traditional restaurants in spring and early summer, when the artichokes are local."
     },
@@ -153,6 +205,10 @@
     },
     {
       "name": "Lokma",
+      "image": {
+        "file": "File:Bodrum lokma.jpg",
+        "alt": "Lokma — fried dough balls in syrup, a Bodrum street sweet"
+      },
       "text": "Small balls of yeasted dough deep-fried and dropped straight into cold syrup, served warm by the plate. Sold from dedicated stalls and, by tradition, given away free in memory of the dead.",
       "whereToTry": "Stalls in Bodrum's back streets and at village markets. Eat them within minutes of frying."
     }
