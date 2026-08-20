@@ -285,6 +285,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Adana Kebap.jpg": {
+    "artist": "Garrett Ziegler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adana_Kebap.jpg",
+    "context": "Kebap, southeastern style — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--food-4.webp",
+    "card": "images/turkey/istanbul--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Aerial image of Château de Chambord (view from the northwest).jpg": {
     "artist": "Carsten Steger",
     "license": "CC BY-SA 4.0",
@@ -701,6 +714,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Balik ekmek Galata Bridge.JPG": {
+    "artist": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balik_ekmek_Galata_Bridge.JPG",
+    "context": "Eat fish under the Galata Bridge — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--thing-5.webp",
+    "card": "images/turkey/istanbul--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 472
+  },
+  "File:Balık-ekmek in Ankara.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal%C4%B1k-ekmek_in_Ankara.jpg",
+    "context": "Balık ekmek — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--food-3.webp",
+    "card": "images/turkey/istanbul--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Ballarò, gente en el mercado, Palermo, Sicilia, Italia, 2015.JPG": {
     "artist": "Benjamín Núñez González",
     "license": "CC BY-SA 4.0",
@@ -1077,6 +1116,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 497
+  },
+  "File:Bosphorus, Istanbul (P1100258).jpg": {
+    "artist": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bosphorus,_Istanbul_(P1100258).jpg",
+    "context": "Cross to Asia by ferry — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--thing-1.webp",
+    "card": "images/turkey/istanbul--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Bottle & glass of red Bordeaux style blend.jpg": {
     "artist": "misbehave",
@@ -2312,6 +2364,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Courtyard of the Süleymaniye Mosque in Istanbul, Turkey 004.jpg": {
+    "artist": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_S%C3%BCleymaniye_Mosque_in_Istanbul,_Turkey_004.jpg",
+    "context": "Süleymaniye Mosque — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-6.webp",
+    "card": "images/turkey/istanbul--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 709,
+    "cardWidth": 800,
+    "cardHeight": 355
   },
   "File:Crater rim volcano Vesuvius - Campania - Italy - July 9th 2013 - 01.jpg": {
     "artist": "Norbert Nagel",
@@ -3782,6 +3847,32 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Istanbul (29).jpg": {
+    "artist": "Mostafameraji",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_(29).jpg",
+    "context": "Turkish breakfast — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--food-1.webp",
+    "card": "images/turkey/istanbul--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Istanbul Basilica Cistern 2009.JPG": {
+    "artist": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_Basilica_Cistern_2009.JPG",
+    "context": "The Basilica Cistern — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-4.webp",
+    "card": "images/turkey/istanbul--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Italian Supplì.jpg": {
     "artist": "Nicholas Gemini",
     "license": "CC BY-SA 4.0",
@@ -3829,6 +3920,19 @@
     "context": "Drink Primitivo where it grows — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--thing-6.webp",
     "card": "images/italy/puglia-matera--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kadıköy market stall, Istanbul.jpg": {
+    "artist": "Jwslubbock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kad%C4%B1k%C3%B6y_market_stall,_Istanbul.jpg",
+    "context": "Kadıköy and the Asian side — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-8.webp",
+    "card": "images/turkey/istanbul--attraction-8-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4336,6 +4440,19 @@
     "context": "Duck, in southwest style — Bordeaux, France",
     "hero": "images/france/bordeaux--food-5.webp",
     "card": "images/france/bordeaux--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mahmut Pasha Hamam DSCF1319.jpg": {
+    "artist": "R Prazeres",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahmut_Pasha_Hamam_DSCF1319.jpg",
+    "context": "Go to a historic hamam — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--thing-3.webp",
+    "card": "images/turkey/istanbul--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5077,6 +5194,19 @@
     "context": "La Mère Poulard's omelette — Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel--food-6.webp",
     "card": "images/france/mont-saint-michel--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ortaköy Mosque and Bosphorus Bridge, March 2024 01.jpg": {
+    "artist": "Calistemon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque_and_Bosphorus_Bridge,_March_2024_01.jpg",
+    "context": "See a Bosphorus mansion village — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--thing-6.webp",
+    "card": "images/turkey/istanbul--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6564,6 +6694,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sample of Tee - Grand Bazaar.JPG": {
+    "artist": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sample_of_Tee_-_Grand_Bazaar.JPG",
+    "context": "The Grand Bazaar and the Spice Bazaar — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-5.webp",
+    "card": "images/turkey/istanbul--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:San Gimignano skyline (6082044552).jpg": {
     "artist": "Thomas Quine",
     "license": "CC BY 2.0",
@@ -6889,6 +7032,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Simit-2x.JPG": {
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simit-2x.JPG",
+    "context": "Simit and street snacks — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--food-5.webp",
+    "card": "images/turkey/istanbul--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Sineu - market day - panoramio (17).jpg": {
     "artist": "King Otto",
     "license": "CC BY-SA 3.0",
@@ -7109,6 +7265,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Sultan Ahmet Mosque February 2013.jpg": {
+    "artist": "Arild Vågen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmet_Mosque_February_2013.jpg",
+    "context": "The Blue Mosque — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-3.webp",
+    "card": "images/turkey/istanbul--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sultanahmet ferry on the Bosphorus in Istanbul, Turkey 001.jpg": {
+    "artist": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sultanahmet_ferry_on_the_Bosphorus_in_Istanbul,_Turkey_001.jpg",
+    "context": "The Bosphorus ferries — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-7.webp",
+    "card": "images/turkey/istanbul--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Sumela From Across Valley.JPG": {
     "artist": "Bjørn Christian Tørrissen",
@@ -7448,6 +7630,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Topkapi Palace, Istanbul (52116771193).jpg": {
+    "artist": "Ninara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Topkapi_Palace,_Istanbul_(52116771193).jpg",
+    "context": "Topkapı Palace — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--attraction-2.webp",
+    "card": "images/turkey/istanbul--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Torcello Cathedral - Last Judgement.jpg": {
     "artist": "Gleb Simonov",
     "license": "CC0",
@@ -7664,6 +7859,19 @@
     "context": "Pesto genovese — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--food-1.webp",
     "card": "images/italy/cinque-terre--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Turkish Delight Shop, Istanbul, Turkey (9606775812).jpg": {
+    "artist": "l0da_ralta",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_Delight_Shop,_Istanbul,_Turkey_(9606775812).jpg",
+    "context": "Baklava and Turkish delight — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--food-6.webp",
+    "card": "images/turkey/istanbul--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8171,6 +8379,19 @@
     "context": "Walk in the Alpujarras — Granada, Spain",
     "hero": "images/spain/granada--thing-5.webp",
     "card": "images/spain/granada--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Wooden houses in Balat, Fatih.jpg": {
+    "artist": "Maurice Flesier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wooden_houses_in_Balat,_Fatih.jpg",
+    "context": "Walk Balat and Fener — Istanbul, Turkey",
+    "hero": "images/turkey/istanbul--thing-4.webp",
+    "card": "images/turkey/istanbul--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
