@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Tre Cime di Lavaredo",
+      "image": {
+        "file": "File:Tri Cime panorama 1.jpg",
+        "alt": "A wide panorama of the three towers of the Tre Cime di Lavaredo above their scree basin"
+      },
       "text": "Three near-vertical towers standing alone above a scree basin, with a ten-kilometre loop path around their base past two rifugi and the north faces that climbers have been failing on since the 1930s.",
       "tip": "A toll road climbs to Rifugio Auronzo, where the loop starts. Walk it anticlockwise, and arrive early — the car park fills by nine in August."
     },
     {
       "name": "Alpe di Siusi",
+      "image": {
+        "file": "File:Seiser Alm 04.jpg",
+        "alt": "Green alpine meadow at the Alpe di Siusi with jagged peaks rising behind"
+      },
       "text": "The largest high-alpine meadow in Europe, a rolling 56 square kilometres of pasture at around 1,800 metres with the Sassolungo and Sciliar rising from it and hay barns scattered across it.",
       "tip": "Daytime car access is restricted; use the cable car from Siusi. Easy, level walking with disproportionate views — ideal for a first day."
     },
     {
       "name": "Lago di Braies",
+      "image": {
+        "file": "File:Lago di Braies (Unsplash VowIFDxogG4).jpg",
+        "alt": "The deep green Lago di Braies beneath a wall of rock, with its wooden boathouse"
+      },
       "text": "A deep green lake under a wall of rock at the head of a valley, with a wooden boathouse and rowing boats. The most photographed spot in the range, and correspondingly difficult in high season.",
       "tip": "Summer access is controlled, with a booking system for cars and shuttle buses instead. Check the current rules, and go at dawn."
     },
     {
       "name": "Seceda and Val Gardena",
+      "image": {
+        "file": "File:Odles da Seceda da duman tl nibl Gherdëina.jpg",
+        "alt": "The Odle peaks seen from the tilted ridge of Seceda"
+      },
       "text": "A cable car from Ortisei lifts you to the tilted grass ridge of Seceda, which falls away in a single dramatic blade towards the Odle peaks. The valley below is the Ladin heartland and a major ski area.",
       "tip": "The classic view is a ten-minute walk from the top station. Go up for the last lift and stay for the enrosadira."
     },
     {
       "name": "Val di Funes",
+      "image": {
+        "file": "File:Santa Maddalena Funes.jpg",
+        "alt": "The small church of Santa Maddalena set in meadow against the spires of the Odle"
+      },
       "text": "The valley behind the Odle, with the small church of Santa Maddalena set in meadow against a wall of spires — the image that sells the Dolomites — and quiet walking above it.",
       "tip": "The famous viewpoints are on private farmland with parking fees and time limits. Respect them; the walk up beyond is better anyway."
     },
     {
       "name": "Cortina d'Ampezzo and the Cinque Torri",
+      "image": {
+        "file": "File:Cinque Torri 1.jpg",
+        "alt": "The five rock towers of the Cinque Torri above Cortina d'Ampezzo"
+      },
       "text": "The Italian-speaking resort on the Veneto side, an Olympic host in 1956 and again in 2026, with the five rock towers of the Cinque Torri above it and open-air First World War positions restored around them.",
       "tip": "The Cinque Torri chairlift and its trench museum make an excellent half day, with a rifugio lunch in the middle."
     },
     {
       "name": "Lagazuoi",
+      "image": {
+        "file": "File:Funivia del Lagazuoi (passo Falzarego).jpg",
+        "alt": "The cable car climbing from the Falzarego pass to the summit of Lagazuoi"
+      },
       "text": "A cable car from the Falzarego pass to 2,750 metres, with a rifugio on the summit and, below it, a tunnel the Italian army dug through the mountain in 1917 that you can descend on foot with a helmet and a head torch.",
       "tip": "The best sunset terrace in the Dolomites. Staying the night at the summit rifugio is worth arranging."
     },
     {
       "name": "The Sella passes",
+      "image": {
+        "file": "File:Passo Pordoi-bops 01.jpg",
+        "alt": "The hairpin bends of the Passo Pordoi, one of the four passes around the Sella massif"
+      },
       "text": "The Great Dolomites Road and the four passes around the Sella massif — Pordoi, Sella, Gardena and Campolongo — a circuit of hairpins, viewpoints and cable cars that is also a famous cycling loop.",
       "tip": "Drive it early or late; coaches and motorbikes fill it by mid-morning. The Pordoi cable car reaches 2,950 m in one span."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Walk the Tre Cime loop",
+      "image": {
+        "file": "File:Drei Zinnen - 1.jpg",
+        "alt": "The path around the base of the Tre Cime towers"
+      },
       "text": "Ten kilometres around the base of the three towers, mostly level, past rifugi and old gun positions, with the north faces above you for half of it. Three to four hours at an easy pace.",
       "tip": "Anticlockwise puts the best view of the faces ahead of you rather than behind. Start before nine in summer."
     },
     {
       "title": "Sleep in a rifugio",
+      "image": {
+        "file": "File:Rifugio Nuvolau Dolomiti.JPG",
+        "alt": "Rifugio Nuvolau, a mountain hut perched on a rocky Dolomites summit"
+      },
       "text": "A night at 2,000–2,700 metres with half board, shared tables and a sunset over the peaks, then the mountains to yourself before the first cable car brings anyone up.",
       "tip": "Book months ahead for July and August. Take a sleeping-bag liner, cash and earplugs for the dormitories."
     },
     {
       "title": "Try a via ferrata",
+      "image": {
+        "file": "File:Dolomites - Cortina area - Cristallo ski area - start of Via Ferrata routes (11059090256).jpg",
+        "alt": "The start of a via ferrata route with fixed cables above the Cortina area"
+      },
       "text": "Protected climbing routes with fixed steel cables, ladders and bridges, many descended from wartime supply lines. Easier routes need no climbing experience, just a harness, lanyard and helmet.",
       "tip": "Hire the kit locally and take a guide the first time. Grade and exposure vary enormously between routes."
     },
     {
       "title": "Ride the cable cars",
+      "image": {
+        "file": "File:Dolomites cablecar view 2009.JPG",
+        "alt": "A cable car climbing above the Dolomites"
+      },
       "text": "Seceda, Lagazuoi, Sass Pordoi and Alpe di Siusi all put you above 2,000 metres in minutes. A summer lift pass makes it cheap to combine several in a day.",
       "tip": "First and last lifts have the best light and the fewest people. Check closing times — being stranded on top is a long walk down."
     },
     {
       "title": "Have lunch at 2,200 metres",
+      "image": {
+        "file": "File:Speck sandwich at the Rifugio Sint Crusc.jpg",
+        "alt": "A meal served on a rifugio terrace in the Dolomites"
+      },
       "text": "Rifugio terraces serve barley soup, canederli, goulash and strudel with a view that would cost a fortune anywhere else. This is not a snack stop; it is a proper meal.",
       "tip": "Most stop serving hot food around 15:00 and many take cash only. Arrive before two."
     },
     {
       "title": "Ski, if it is winter",
+      "image": {
+        "file": "File:Crep de Mont Sella group and skitrack Boe Dolomites.jpg",
+        "alt": "A ski run beneath the Sella massif in winter"
+      },
       "text": "Twelve linked areas under one pass, the Sellaronda circuit of four passes on skis in a day, and the wartime Great War ski tour — the largest connected ski network in the world.",
       "tip": "December to early April. The Sellaronda takes a full day and is best skied clockwise if you want the easier grades."
     }
@@ -128,31 +184,55 @@
   "foods": [
     {
       "name": "Canederli",
+      "image": {
+        "file": "File:Tris 3 Knödel.JPG",
+        "alt": "A trio of canederli — bread dumplings studded with spinach, speck and cheese"
+      },
       "text": "Bread dumplings the size of a fist, bound with egg and milk and studded with speck, cheese or spinach, served either in clear broth or dry with melted butter and chives.",
       "whereToTry": "Every rifugio and valley inn. Two in broth is a light lunch; three dry is not."
     },
     {
       "name": "Speck and the Marende platter",
+      "image": {
+        "file": "File:Brettljause Speck Käse Kaminwurz Vinschgerl.JPG",
+        "alt": "A Marende board of speck, cheese and rye bread"
+      },
       "text": "South Tyrolean speck is lightly smoked, juniper-cured ham matured for months. The Marende is the afternoon board it comes on: speck, mountain cheese, pickles, horseradish and dense rye Schüttelbrot.",
       "whereToTry": "Farm inns and rifugi in the afternoon, with a glass of Vernatsch or a beer."
     },
     {
       "name": "Schlutzkrapfen and casunziei",
+      "image": {
+        "file": "File:Schlutzkrapfen South Tyrol (3).JPG",
+        "alt": "Schlutzkrapfen, half-moon pasta filled with spinach and ricotta, in butter and Parmesan"
+      },
       "text": "Two local filled pastas: Tyrolean schlutzkrapfen, half-moons of spinach and ricotta in butter and Parmesan; and Cortina's casunziei, beetroot-filled and bright pink, with poppy seeds and browned butter.",
       "whereToTry": "Schlutzkrapfen throughout South Tyrol; casunziei specifically around Cortina and the Ampezzo valley."
     },
     {
       "name": "Polenta with mushrooms or cheese",
+      "image": {
+        "file": "File:Polenta con funghi.jpg",
+        "alt": "Soft polenta served with mushrooms"
+      },
       "text": "Coarse yellow polenta, either soft with porcini and game or set and fried, served with melted local cheese. The everyday mountain staple on the Veneto side of the range.",
       "whereToTry": "Rifugi and valley restaurants, especially in September and October when the mushrooms are in."
     },
     {
       "name": "Apfelstrudel and kaiserschmarrn",
+      "image": {
+        "file": "File:Apfelstrudel mit Vanillesauce.jpg",
+        "alt": "Apfelstrudel served with a jug of vanilla sauce"
+      },
       "text": "Apple strudel in thin pastry with a jug of vanilla sauce, and kaiserschmarrn — a thick pancake torn into pieces, caramelised and served with stewed plums or apple sauce, usually as a whole meal.",
       "whereToTry": "Rifugio terraces in the afternoon. Kaiserschmarrn is enormous; order one between two."
     },
     {
       "name": "Alto Adige wines",
+      "image": {
+        "file": "File:Lagrein grape clusters at Gisborne Peak.jpg",
+        "alt": "Lagrein grapes, the variety behind Alto Adige's dark, savoury red wines"
+      },
       "text": "A small region making unusually good wine: crisp whites from Gewürztraminer, Pinot Bianco and Kerner on high slopes, and dark, savoury Lagrein reds from the valley floor around Bolzano.",
       "whereToTry": "Wine cellars along the Strada del Vino south of Bolzano, and by the glass everywhere in the valleys."
     }

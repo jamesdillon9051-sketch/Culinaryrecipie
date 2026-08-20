@@ -168,6 +168,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Apfelstrudel mit Vanillesauce.jpg": {
+    "artist": "Photo: Andreas Praefcke",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apfelstrudel_mit_Vanillesauce.jpg",
+    "context": "Apfelstrudel and kaiserschmarrn — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-5.webp",
+    "card": "images/italy/dolomites--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Appian Way, Rome (6681676803).jpg": {
     "artist": "Larry from Charlottetown, PEI, Canada",
     "license": "CC BY 2.0",
@@ -297,6 +310,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 497
+  },
+  "File:Brettljause Speck Käse Kaminwurz Vinschgerl.JPG": {
+    "artist": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brettljause_Speck_K%C3%A4se_Kaminwurz_Vinschgerl.JPG",
+    "context": "Speck and the Marende platter — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-2.webp",
+    "card": "images/italy/dolomites--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Bridge of Sighs - sea facade Aug 2020 1.jpg": {
     "artist": "Kasa Fue",
@@ -467,6 +493,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cinque Torri 1.jpg": {
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cinque_Torri_1.jpg",
+    "context": "Cortina d'Ampezzo and the Cinque Torri — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-6.webp",
+    "card": "images/italy/dolomites--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 515
+  },
   "File:Coda alla vaccinara-01.jpg": {
     "artist": "shu tu",
     "license": "CC BY-SA 2.0",
@@ -545,6 +584,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:Crep de Mont Sella group and skitrack Boe Dolomites.jpg": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crep_de_Mont_Sella_group_and_skitrack_Boe_Dolomites.jpg",
+    "context": "Ski, if it is winter — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-6.webp",
+    "card": "images/italy/dolomites--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cupola di santa maria del fiore dal campanile di giotto, 01.JPG": {
     "artist": "sailko",
     "license": "CC BY 2.5",
@@ -566,6 +618,45 @@
     "context": "Delizia al limone — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--food-2.webp",
     "card": "images/italy/amalfi-coast--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dolomites - Cortina area - Cristallo ski area - start of Via Ferrata routes (11059090256).jpg": {
+    "artist": "Murray Foubister",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolomites_-_Cortina_area_-_Cristallo_ski_area_-_start_of_Via_Ferrata_routes_(11059090256).jpg",
+    "context": "Try a via ferrata — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-3.webp",
+    "card": "images/italy/dolomites--thing-3-card.webp",
+    "heroWidth": 1414,
+    "heroHeight": 795,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
+  "File:Dolomites cablecar view 2009.JPG": {
+    "artist": "chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolomites_cablecar_view_2009.JPG",
+    "context": "Ride the cable cars — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-4.webp",
+    "card": "images/italy/dolomites--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Drei Zinnen - 1.jpg": {
+    "artist": "Steinsplitter",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drei_Zinnen_-_1.jpg",
+    "context": "Walk the Tre Cime loop — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-1.webp",
+    "card": "images/italy/dolomites--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -752,6 +843,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 528
+  },
+  "File:Funivia del Lagazuoi (passo Falzarego).jpg": {
+    "artist": "Ale041VE",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Funivia_del_Lagazuoi_(passo_Falzarego).jpg",
+    "context": "Lagazuoi — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-7.webp",
+    "card": "images/italy/dolomites--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 898,
+    "cardWidth": 800,
+    "cardHeight": 449
   },
   "File:Galleria borghese facade.jpg": {
     "artist": "Alessio Damato",
@@ -1000,6 +1104,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Lago di Braies (Unsplash VowIFDxogG4).jpg": {
+    "artist": "Luca Bravo lucabravo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_di_Braies_(Unsplash_VowIFDxogG4).jpg",
+    "context": "Lago di Braies — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-3.webp",
+    "card": "images/italy/dolomites--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lagrein grape clusters at Gisborne Peak.jpg": {
+    "artist": "Nathan Jones",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagrein_grape_clusters_at_Gisborne_Peak.jpg",
+    "context": "Alto Adige wines — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-6.webp",
+    "card": "images/italy/dolomites--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Lampredotto Sandwich.jpg": {
     "artist": "William Held",
     "license": "CC BY-SA 4.0",
@@ -1208,6 +1338,19 @@
     "cardWidth": 800,
     "cardHeight": 529
   },
+  "File:Odles da Seceda da duman tl nibl Gherdëina.jpg": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odles_da_Seceda_da_duman_tl_nibl_Gherd%C3%ABina.jpg",
+    "context": "Seceda and Val Gardena — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-4.webp",
+    "card": "images/italy/dolomites--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ottoman Style Houses in Safranbolu - 2014.10 - panoramio.jpg": {
     "artist": "rheins",
     "license": "CC BY 3.0",
@@ -1307,6 +1450,19 @@
     "context": "Barcelona, Spain",
     "hero": "images/spain/barcelona.webp",
     "card": "images/spain/barcelona-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Passo Pordoi-bops 01.jpg": {
+    "artist": "Bops92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passo_Pordoi-bops_01.jpg",
+    "context": "The Sella passes — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-8.webp",
+    "card": "images/italy/dolomites--attraction-8-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1429,6 +1585,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Polenta con funghi.jpg": {
+    "artist": "FakirNL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polenta_con_funghi.jpg",
+    "context": "Polenta with mushrooms or cheese — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-4.webp",
+    "card": "images/italy/dolomites--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Ponte di Rialto Venice 1.jpg": {
     "artist": "kallerna",
     "license": "CC BY-SA 4.0",
@@ -1546,6 +1715,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Rifugio Nuvolau Dolomiti.JPG": {
+    "artist": "gogolander",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rifugio_Nuvolau_Dolomiti.JPG",
+    "context": "Sleep in a rifugio — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-2.webp",
+    "card": "images/italy/dolomites--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Riomaggiore From Ferry Cinque Terre Italy Sep23 A7C 07414.jpg": {
     "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 4.0",
@@ -1637,6 +1819,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Santa Maddalena Funes.jpg": {
+    "artist": "Einaz80",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maddalena_Funes.jpg",
+    "context": "Val di Funes — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-5.webp",
+    "card": "images/italy/dolomites--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Santa Maria del Fiore cupola fresco central.jpg": {
     "artist": "Arnold Paul",
     "license": "CC BY-SA 3.0",
@@ -1663,6 +1858,19 @@
     "cardWidth": 800,
     "cardHeight": 514
   },
+  "File:Schlutzkrapfen South Tyrol (3).JPG": {
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlutzkrapfen_South_Tyrol_(3).JPG",
+    "context": "Schlutzkrapfen and casunziei — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-3.webp",
+    "card": "images/italy/dolomites--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Scialatielli ai frutti di mare, Capri.jpg": {
     "artist": "Coso",
     "license": "CC BY 2.0",
@@ -1671,6 +1879,19 @@
     "context": "Scialatielli ai frutti di mare — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--food-3.webp",
     "card": "images/italy/amalfi-coast--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Seiser Alm 04.jpg": {
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seiser_Alm_04.jpg",
+    "context": "Alpe di Siusi — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-2.webp",
+    "card": "images/italy/dolomites--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1736,6 +1957,19 @@
     "context": "The four Roman pastas — Rome, Italy",
     "hero": "images/italy/rome--food-1.webp",
     "card": "images/italy/rome--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Speck sandwich at the Rifugio Sint Crusc.jpg": {
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Speck_sandwich_at_the_Rifugio_Sint_Crusc.jpg",
+    "context": "Have lunch at 2,200 metres — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--thing-5.webp",
+    "card": "images/italy/dolomites--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1892,6 +2126,32 @@
     "context": "Walk the centro storico after dark — Rome, Italy",
     "hero": "images/italy/rome--thing-3.webp",
     "card": "images/italy/rome--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tri Cime panorama 1.jpg": {
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tri_Cime_panorama_1.jpg",
+    "context": "Tre Cime di Lavaredo — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--attraction-1.webp",
+    "card": "images/italy/dolomites--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 631,
+    "cardWidth": 800,
+    "cardHeight": 315
+  },
+  "File:Tris 3 Knödel.JPG": {
+    "artist": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tris_3_Kn%C3%B6del.JPG",
+    "context": "Canederli — The Dolomites, Italy",
+    "hero": "images/italy/dolomites--food-1.webp",
+    "card": "images/italy/dolomites--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
