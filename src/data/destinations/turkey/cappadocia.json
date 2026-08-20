@@ -52,36 +52,64 @@
   "attractions": [
     {
       "name": "Göreme Open Air Museum",
+      "image": {
+        "file": "File:Goreme Open Air Museum, Göreme Açık Hava Müzesi (52398956086).jpg",
+        "alt": "Rock-cut chapels at the Göreme Open Air Museum"
+      },
       "text": "A monastic complex of rock-cut churches, chapels and refectories in one valley, with frescoes from the 10th and 11th centuries. The Dark Church, a separate ticket, has the best-preserved paintings in Cappadocia because it had almost no window light.",
       "tip": "Pay the extra for the Dark Church — it is the reason to come. Go at opening; the site is small and fills quickly."
     },
     {
       "name": "The balloon flight",
+      "image": {
+        "file": "File:Flying Over Cappadocia 01.jpg",
+        "alt": "Balloons drifting over the valleys of Cappadocia"
+      },
       "text": "Launching before dawn, drifting low through the valleys where the pilot can nearly touch the rock, then climbing for the view over the whole landscape with a hundred other balloons around you. Flights last about an hour.",
       "tip": "Book for your first possible morning. Flights are cancelled for wind on a significant share of days and cancellations roll to the next morning."
     },
     {
       "name": "Derinkuyu and Kaymaklı underground cities",
+      "image": {
+        "file": "File:Derinkuyu Underground City 9831 Nevit Enhancer.jpg",
+        "alt": "A carved passage inside the Derinkuyu underground city"
+      },
       "text": "Multi-level cities dug into the tuff, with ventilation shafts, wells, stables, wine presses, chapels and circular stone doors that could be rolled shut from inside. Derinkuyu reaches at least eight levels and about 60 metres.",
       "tip": "Passages are narrow, low and genuinely confined. Not for anyone claustrophobic. Kaymaklı is wider and slightly easier."
     },
     {
       "name": "The Red and Rose valleys",
+      "image": {
+        "file": "File:Rose Valley, Cappadocia - Kızılçukur Vadisi, Kapadokya 08.jpg",
+        "alt": "The pink and orange rock of the Rose Valley"
+      },
       "text": "Two adjoining valleys of pink and orange rock, threaded by walking paths past hidden churches and dovecotes carved into the cliffs. The walk between Göreme and Çavuşin takes about three hours.",
       "tip": "Sunset Point above the Rose Valley is where everyone gathers at dusk, and it earns the crowd."
     },
     {
       "name": "Uçhisar Castle",
+      "image": {
+        "file": "File:Castle Uçhisar in Cappadocia.jpg",
+        "alt": "The honeycombed rock outcrop of Uçhisar Castle"
+      },
       "text": "The highest point in Cappadocia — a great rock outcrop honeycombed with tunnels and rooms, with a viewpoint at the top looking over the whole region to Mount Erciyes.",
       "tip": "Best in the late afternoon. The village beneath it is quieter and more attractive than Göreme."
     },
     {
       "name": "The Ihlara Valley",
+      "image": {
+        "file": "File:Ihlara Valley, Turkey.jpg",
+        "alt": "The river gorge of the Ihlara Valley"
+      },
       "text": "A 14 km gorge cut 100 metres deep by a river, with rock churches along its walls and a green shaded path following the water. Completely different in character from the open valleys and much cooler in summer.",
       "tip": "About an hour from Göreme. The section from Ihlara village to Belisırma is the best and takes about two hours."
     },
     {
       "name": "Zelve and Paşabağ",
+      "image": {
+        "file": "File:Zelve Monastery, Cappadocia.jpg",
+        "alt": "Cave dwellings at Zelve"
+      },
       "text": "Zelve is an abandoned cave village occupied until the 1950s, with three valleys of dwellings. Paşabağ nearby has the most photogenic multi-headed fairy chimneys, once inhabited by hermit monks.",
       "tip": "Zelve is the best sense of how people actually lived in the rock, and is far less visited than Göreme."
     },
@@ -95,11 +123,19 @@
   "thingsToDo": [
     {
       "title": "Take the balloon flight",
+      "image": {
+        "file": "File:Turkey-2002 - Flying High in Cappadocia (2216716680).jpg",
+        "alt": "The view from a balloon over Cappadocia at dawn"
+      },
       "text": "Pick-up around 04:30, launch at first light, an hour aloft over the valleys, and a champagne toast on landing. Around €200–300 and the single most memorable thing most visitors do in Turkey.",
       "tip": "Standard baskets hold 20–28 people; smaller premium baskets cost more and are considerably better. Book your first morning to allow for cancellations."
     },
     {
       "title": "Walk between the villages",
+      "image": {
+        "file": "File:The Roads to Cappadocia.jpg",
+        "alt": "A walking path through the fairy chimneys of Cappadocia"
+      },
       "text": "Göreme to Çavuşin through the Red and Rose valleys, or Göreme to Uçhisar through Pigeon Valley. Paths are informal but well trodden, and you pass churches and dovecotes nobody has signposted.",
       "tip": "Take water and download an offline map — the valleys branch confusingly and signage is minimal."
     },
@@ -110,16 +146,28 @@
     },
     {
       "title": "Go underground",
+      "image": {
+        "file": "File:Derinkuyu Underground City Türkiye.jpg",
+        "alt": "Steps descending between levels of an underground city"
+      },
       "text": "Derinkuyu or Kaymaklı, descending through narrow passages between levels with rolling stone doors and ventilation shafts. Genuinely confined, and genuinely remarkable engineering.",
       "tip": "Not suitable if you are claustrophobic — several passages require bending double for twenty metres."
     },
     {
       "title": "Eat a testi kebabı",
+      "image": {
+        "file": "File:TestiKebabGoreme.jpg",
+        "alt": "A testi kebabı clay pot broken open at the table"
+      },
       "text": "Lamb or beef slow-cooked with vegetables in a sealed clay pot, brought to the table and cracked open with a small hammer. A regional speciality and a genuine bit of theatre.",
       "tip": "Usually needs ordering a few hours ahead. Ask when you arrive rather than at dinner."
     },
     {
       "title": "See a whirling dervish ceremony",
+      "image": {
+        "file": "File:Turkish whirling dervishes of Mevlevi Order, bowing in unison during the Sema ceremony.jpg",
+        "alt": "Mevlevi dervishes bowing during the sema ceremony"
+      },
       "text": "The Mevlevi sema is a religious ritual rather than a performance, originating in Konya three hours south. Cappadocia hosts ceremonies in a restored caravanserai at Saruhan.",
       "tip": "Choose a venue that presents it as a ceremony with silence and no photography, not a dinner show."
     }
@@ -128,16 +176,28 @@
   "foods": [
     {
       "name": "Testi kebabı",
+      "image": {
+        "file": "File:Hatay usulü testi kebabı.jpg",
+        "alt": "Meat and vegetables slow-cooked in a sealed clay pot"
+      },
       "text": "Meat and vegetables sealed inside a clay pot with dough and slow-cooked for hours, then brought to the table and broken open with a hammer. Cappadocia's signature dish and a genuine local tradition.",
       "whereToTry": "Restaurants throughout Göreme, Ürgüp and Avanos. Order several hours ahead where possible."
     },
     {
       "name": "Mantı",
+      "image": {
+        "file": "File:Manti in a metal plate.jpg",
+        "alt": "Mantı — small lamb dumplings under garlic yoghurt"
+      },
       "text": "Tiny lamb-filled dumplings, boiled and served under garlic yoghurt with melted butter and dried mint or chilli. Kayseri, an hour away, is the acknowledged capital of it and the dumplings there are famously small.",
       "whereToTry": "Traditional restaurants across the region. Kayseri mantı is the benchmark."
     },
     {
       "name": "Gözleme",
+      "image": {
+        "file": "File:Gözleme Break (6335105588).jpg",
+        "alt": "Gözleme flatbread cooked on a griddle"
+      },
       "text": "Thin hand-rolled flatbread folded around cheese, spinach, potato or minced meat and cooked on a domed griddle. Made in front of you by women working the dough, and the standard walker's lunch.",
       "whereToTry": "Village cafés and roadside stops throughout the valleys."
     },
@@ -148,6 +208,10 @@
     },
     {
       "name": "Pumpkin seeds and dried apricots",
+      "image": {
+        "file": "File:Apricots Drying In Cappadocia.JPG",
+        "alt": "Apricots laid out to dry in Cappadocia"
+      },
       "text": "Roasted pumpkin seeds are the regional snack, sold everywhere by the bag, and the dried fruit and nuts of central Anatolia are exceptional and very cheap.",
       "whereToTry": "Village shops and markets. The Ürgüp weekly market is the best of them."
     },
