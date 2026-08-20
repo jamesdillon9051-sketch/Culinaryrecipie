@@ -116,6 +116,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Aerial image of Stromboli (view from the northeast).jpg": {
+    "artist": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Stromboli_(view_from_the_northeast).jpg",
+    "context": "Take a boat to the islands — Sicily, Italy",
+    "hero": "images/italy/sicily--thing-5.webp",
+    "card": "images/italy/sicily--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 864,
+    "cardWidth": 800,
+    "cardHeight": 432
+  },
   "File:Alexander and Bucephalus - Battle of Issus mosaic - Museo Archeologico Nazionale - Naples BW.jpg": {
     "artist": "Unknown creatorUnknown creator",
     "license": "Public domain",
@@ -254,6 +267,19 @@
     "context": "Baccalà mantecato — Venice, Italy",
     "hero": "images/italy/venice--food-3.webp",
     "card": "images/italy/venice--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ballarò, gente en el mercado, Palermo, Sicilia, Italia, 2015.JPG": {
+    "artist": "Benjamín Núñez González",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ballar%C3%B2,_gente_en_el_mercado,_Palermo,_Sicilia,_Italia,_2015.JPG",
+    "context": "Eat your way through Palermo's markets — Sicily, Italy",
+    "hero": "images/italy/sicily--thing-1.webp",
+    "card": "images/italy/sicily--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -467,6 +493,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cannoli tipo mignon con ripieno 02.jpg": {
+    "artist": "OppidumNissenae",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cannoli_tipo_mignon_con_ripieno_02.jpg",
+    "context": "Cannoli and cassata — Sicily, Italy",
+    "hero": "images/italy/sicily--food-4.webp",
+    "card": "images/italy/sicily--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cantuccini.jpg": {
     "artist": "Schorle",
     "license": "CC BY-SA 3.0",
@@ -488,6 +527,19 @@
     "context": "The Capitoline Museums — Rome, Italy",
     "hero": "images/italy/rome--attraction-7.webp",
     "card": "images/italy/rome--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Caponata nissena.jpg": {
+    "artist": "Auregann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caponata_nissena.jpg",
+    "context": "Caponata and sarde a beccafico — Sicily, Italy",
+    "hero": "images/italy/sicily--food-3.webp",
+    "card": "images/italy/sicily--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -610,6 +662,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Christ in Majesty with Peter and Paul - Capela Palatina - Palermo - Italy 2015.JPG": {
+    "artist": "José Luiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_in_Majesty_with_Peter_and_Paul_-_Capela_Palatina_-_Palermo_-_Italy_2015.JPG",
+    "context": "Palermo — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-2.webp",
+    "card": "images/italy/sicily--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cicchetti Venezia (1).jpg": {
     "artist": "Benreis",
     "license": "CC BY-SA 4.0",
@@ -661,6 +726,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 515
+  },
+  "File:Cioccolato di Modica.jpg": {
+    "artist": "Andrea Critti",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cioccolato_di_Modica.jpg",
+    "context": "Modica chocolate and Bronte pistachios — Sicily, Italy",
+    "hero": "images/italy/sicily--food-6.webp",
+    "card": "images/italy/sicily--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Cloister of the Certosa di San Martino, Naples MET DP808067.jpg": {
     "artist": "Creator:Jean Augustin Renard",
@@ -1299,6 +1377,19 @@
     "cardWidth": 800,
     "cardHeight": 255
   },
+  "File:Granita brioche cornetto.jpg": {
+    "artist": "Eli6179",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granita_brioche_cornetto.jpg",
+    "context": "Have granita and brioche for breakfast — Sicily, Italy",
+    "hero": "images/italy/sicily--thing-3.webp",
+    "card": "images/italy/sicily--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Grape plantation in Manarola, Cinque Terre, Italy 2.jpg": {
     "artist": "Vald0506",
     "license": "CC BY 4.0",
@@ -1442,6 +1533,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:KePalle Arancine d'Autore Palermo.jpg": {
+    "artist": "Claudio SFA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KePalle_Arancine_d%27Autore_Palermo.jpg",
+    "context": "Arancine and street food — Sicily, Italy",
+    "hero": "images/italy/sicily--food-1.webp",
+    "card": "images/italy/sicily--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:La Roque-Gageac Dordogne.jpg": {
     "artist": "Jebulon",
     "license": "CC0",
@@ -1541,6 +1645,19 @@
     "context": "Sfusato amalfitano and limoncello — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--food-1.webp",
     "card": "images/italy/amalfi-coast--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lipari. Colazione da 'Dolci Tentazioni' (01297).JPG": {
+    "artist": "Francesco Tosoni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lipari._Colazione_da_%27Dolci_Tentazioni%27_(01297).JPG",
+    "context": "Granita with brioche — Sicily, Italy",
+    "hero": "images/italy/sicily--food-5.webp",
+    "card": "images/italy/sicily--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1715,6 +1832,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Monreale - Kathedrale Kreuzgang 02.JPG": {
+    "artist": "Rabe!",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monreale_-_Kathedrale_Kreuzgang_02.JPG",
+    "context": "Monreale — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-3.webp",
+    "card": "images/italy/sicily--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Mont Blanc Massif (2022-08-16).jpg": {
     "artist": "Olgierd Rudak",
     "license": "CC BY-SA 4.0",
@@ -1853,6 +1983,19 @@
     "context": "Seceda and Val Gardena — The Dolomites, Italy",
     "hero": "images/italy/dolomites--attraction-4.webp",
     "card": "images/italy/dolomites--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ortigia, duomo, interno 04.JPG": {
+    "artist": "sailko",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ortigia,_duomo,_interno_04.JPG",
+    "context": "Syracuse and Ortigia — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-4.webp",
+    "card": "images/italy/sicily--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2022,6 +2165,19 @@
     "context": "The Sella passes — The Dolomites, Italy",
     "hero": "images/italy/dolomites--attraction-8.webp",
     "card": "images/italy/dolomites--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Pasta alla Norma - Wiki Loves Sicilia.jpg": {
+    "artist": "8w9d",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg",
+    "context": "Pasta alla Norma and pasta con le sarde — Sicily, Italy",
+    "hero": "images/italy/sicily--food-2.webp",
+    "card": "images/italy/sicily--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2256,6 +2412,19 @@
     "context": "Nice & the French Riviera, France",
     "hero": "images/france/nice-french-riviera.webp",
     "card": "images/france/nice-french-riviera-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ragusa Ibla al crepuscolo.jpg": {
+    "artist": "Daniele Napolitano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ragusa_Ibla_al_crepuscolo.jpg",
+    "context": "Drive the Baroque triangle — Sicily, Italy",
+    "hero": "images/italy/sicily--thing-4.webp",
+    "card": "images/italy/sicily--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2547,6 +2716,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sicilian cannolo.jpg": {
+    "artist": "Derbrauni",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sicilian_cannolo.jpg",
+    "context": "Cannoli and cassata — Sicily, Italy",
+    "hero": "images/italy/sicily--food-4.webp",
+    "card": "images/italy/sicily--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
     "artist": "Kabelleger / David Gubler",
     "license": "CC BY-SA 4.0",
@@ -2651,6 +2833,32 @@
     "cardWidth": 800,
     "cardHeight": 316
   },
+  "File:Summit craters of Mount Etna seen from Piano del Lago.jpg": {
+    "artist": "The Cosmonaut",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summit_craters_of_Mount_Etna_seen_from_Piano_del_Lago.jpg",
+    "context": "Go up Etna — Sicily, Italy",
+    "hero": "images/italy/sicily--thing-2.webp",
+    "card": "images/italy/sicily--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Summit craters of Mount Etna1.jpg": {
+    "artist": "The Cosmonaut",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summit_craters_of_Mount_Etna1.jpg",
+    "context": "Mount Etna — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-5.webp",
+    "card": "images/italy/sicily--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Sunset On Naviglio Grande (248958685).jpeg": {
     "artist": "Marco Montagna",
     "license": "CC BY-SA 3.0",
@@ -2659,6 +2867,19 @@
     "context": "The Navigli — Milan, Italy",
     "hero": "images/italy/milan--attraction-7.webp",
     "card": "images/italy/milan--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Taormina - the greek theater, with mount Etna in the background.jpg": {
+    "artist": "Nicolas Chadeville",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taormina_-_the_greek_theater,_with_mount_Etna_in_the_background.jpg",
+    "context": "Taormina — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-6.webp",
+    "card": "images/italy/sicily--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2885,6 +3106,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Valle dei Templi – Temple of Hera 2024a.jpg": {
+    "artist": "Cayambe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valle_dei_Templi_%E2%80%93_Temple_of_Hera_2024a.jpg",
+    "context": "Valley of the Temples, Agrigento — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-1.webp",
+    "card": "images/italy/sicily--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 504
+  },
   "File:Valle dei Templi – towards Temple of Concordia.jpg": {
     "artist": "Cayambe",
     "license": "CC BY-SA 4.0",
@@ -2989,6 +3223,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:View of Noto, in Sicily - Cathedral and Chiesa di San Francesco d'Assisi all'Immacolata.jpg": {
+    "artist": "Nicolas Chadeville",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Noto,_in_Sicily_-_Cathedral_and_Chiesa_di_San_Francesco_d%27Assisi_all%27Immacolata.jpg",
+    "context": "The Val di Noto — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-8.webp",
+    "card": "images/italy/sicily--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View of Puente Nuevo bridge in Ronda Spain.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -3027,6 +3274,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Villa Romana del Casale - Bikini Girls mosaic Szene.jpg": {
+    "artist": "Moleskine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Romana_del_Casale_-_Bikini_Girls_mosaic_Szene.jpg",
+    "context": "Villa Romana del Casale — Sicily, Italy",
+    "hero": "images/italy/sicily--attraction-7.webp",
+    "card": "images/italy/sicily--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Village of Gordes.jpg": {
     "artist": "Einaz80",

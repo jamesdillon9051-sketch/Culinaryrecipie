@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Valley of the Temples, Agrigento",
+      "image": {
+        "file": "File:Valle dei Templi – Temple of Hera 2024a.jpg",
+        "alt": "The Temple of Hera on its ridge in the Valley of the Temples"
+      },
       "text": "A ridge above the sea lined with Doric temples of the fifth century BC, dominated by the near-complete Temple of Concordia, plus the Temple of Juno, the ruins of a colossal Zeus temple and a fallen giant telamon.",
       "tip": "Enter at the Juno end and walk downhill. Evening opening in summer, floodlit, is the best way to see it."
     },
     {
       "name": "Palermo",
+      "image": {
+        "file": "File:Christ in Majesty with Peter and Paul - Capela Palatina - Palermo - Italy 2015.JPG",
+        "alt": "Byzantine mosaics inside the Palatine Chapel in Palermo"
+      },
       "text": "The Palatine Chapel with its Byzantine mosaics under an Islamic wooden ceiling, the cathedral, La Martorana, the red domes of San Giovanni degli Eremiti, Teatro Massimo, and three street markets that feel North African.",
       "tip": "Two full days. The Capuchin catacombs, with thousands of clothed mummified bodies, are a genuinely unsettling optional extra."
     },
     {
       "name": "Monreale",
+      "image": {
+        "file": "File:Monreale - Kathedrale Kreuzgang 02.JPG",
+        "alt": "The cloister of Monreale cathedral, with its 228 paired columns"
+      },
       "text": "Eight kilometres above Palermo, a Norman cathedral whose interior is covered in more than six thousand square metres of gold-ground mosaic, with a cloister of 228 paired columns, no two carved alike.",
       "tip": "Go in the morning when the light hits the apse Pantocrator. Buses run from Palermo in about 40 minutes."
     },
     {
       "name": "Syracuse and Ortigia",
+      "image": {
+        "file": "File:Ortigia, duomo, interno 04.JPG",
+        "alt": "The interior of Syracuse's cathedral, built inside a Doric temple with the columns still in the walls"
+      },
       "text": "The Greek city that beat Athens. Ortigia, its island core, has a cathedral built inside a Doric temple of Athena with the columns still in the walls; the Neapolis park has the rock-cut Greek theatre and the Ear of Dionysius.",
       "tip": "Stay on Ortigia. It is compact, walkable, full of good restaurants and completely different after the day visitors leave."
     },
     {
       "name": "Mount Etna",
+      "image": {
+        "file": "File:Summit craters of Mount Etna1.jpg",
+        "alt": "The summit craters of Mount Etna"
+      },
       "text": "Europe's most active volcano, over 3,300 metres and UNESCO-listed. Cable car and 4x4 from Rifugio Sapienza on the south side take you to around 2,900 m, from where guides lead walks among the summit craters.",
       "tip": "Take layers whatever the coastal temperature — it is often twenty degrees colder and windy on the upper slopes."
     },
     {
       "name": "Taormina",
+      "image": {
+        "file": "File:Taormina - the greek theater, with mount Etna in the background.jpg",
+        "alt": "Taormina's Greek theatre with Mount Etna filling the space behind the stage"
+      },
       "text": "A cliff town 200 metres above the sea with a Greek theatre of the third century BC positioned so that Etna and the coastline fill the space behind the stage. Concerts are still held in it.",
       "tip": "Extremely busy and expensive by day. Go early, or stay the night and have the theatre and the corso to yourself."
     },
     {
       "name": "Villa Romana del Casale",
+      "image": {
+        "file": "File:Villa Romana del Casale - Bikini Girls mosaic Szene.jpg",
+        "alt": "The 'bikini girls' mosaic floor at the Villa Romana del Casale"
+      },
       "text": "A late Roman country villa near Piazza Armerina with around 3,500 square metres of mosaic floors — a sixty-metre hunting corridor, and the famous group of girls in what look like bikinis.",
       "tip": "Inland and awkward without a car, and worth the detour. Two hours, on raised walkways above the floors."
     },
     {
       "name": "The Val di Noto",
+      "image": {
+        "file": "File:View of Noto, in Sicily - Cathedral and Chiesa di San Francesco d'Assisi all'Immacolata.jpg",
+        "alt": "Noto's honey-coloured Baroque cathedral and corso"
+      },
       "text": "Eight towns rebuilt after the 1693 earthquake in a unified late Baroque and listed together by UNESCO: Noto's honey-coloured corso, Ragusa Ibla on its ridge, Modica stacked up a gorge, and quiet Scicli.",
       "tip": "Base in Ragusa Ibla or Noto for two nights. They are twenty to forty minutes apart and best at either end of the day."
     }
@@ -95,26 +127,46 @@
   "thingsToDo": [
     {
       "title": "Eat your way through Palermo's markets",
+      "image": {
+        "file": "File:Ballarò, gente en el mercado, Palermo, Sicilia, Italia, 2015.JPG",
+        "alt": "Shoppers and stalls in Palermo's Ballarò market"
+      },
       "text": "Ballarò, Capo and Vucciria: panelle and crocchè in a roll, sfincione by the slice, boiled octopus, and pane ca meusa — spleen in a bun — for the brave. Shouted, chaotic and cheap.",
       "tip": "Go in the morning when they are working markets. A guided food walk is genuinely useful here for the first pass."
     },
     {
       "title": "Go up Etna",
+      "image": {
+        "file": "File:Summit craters of Mount Etna seen from Piano del Lago.jpg",
+        "alt": "Etna's summit craters seen from Piano del Lago"
+      },
       "text": "Cable car and 4x4 from Rifugio Sapienza, then a guided walk between the summit craters over black scoria and steaming vents, with the whole east coast below you.",
       "tip": "Guides are compulsory above a certain level and worth it lower down too. Access changes with volcanic activity — check on the day."
     },
     {
       "title": "Have granita and brioche for breakfast",
+      "image": {
+        "file": "File:Granita brioche cornetto.jpg",
+        "alt": "Granita served with a soft brioche for breakfast"
+      },
       "text": "Almond, coffee, mulberry or lemon granita in a glass with a soft brioche col tuppo to dip into it. It is breakfast, not dessert, and it is the best thing about a Sicilian summer morning.",
       "tip": "Catania and Messina take it most seriously. Almond and coffee together — 'mezza e mezza' — is the local order."
     },
     {
       "title": "Drive the Baroque triangle",
+      "image": {
+        "file": "File:Ragusa Ibla al crepuscolo.jpg",
+        "alt": "Ragusa Ibla at dusk, its Baroque churches and rooftops lit gold"
+      },
       "text": "Noto, Modica, Ragusa and Scicli within an hour of each other, all rebuilt in the same golden stone after 1693, all with theatrical staircases and church facades built to be seen from below.",
       "tip": "Late afternoon light on Noto's corso and Ragusa Ibla at dusk are the two moments worth planning around."
     },
     {
       "title": "Take a boat to the islands",
+      "image": {
+        "file": "File:Aerial image of Stromboli (view from the northeast).jpg",
+        "alt": "Stromboli, one of the Aeolian islands north of Milazzo"
+      },
       "text": "The Aeolians north of Milazzo — Stromboli erupting every twenty minutes, Salina's vineyards, Lipari's town — or the Egadi islands off Trapani for clear water and no crowds.",
       "tip": "Stromboli's guided evening climb to watch the explosions is limited and regulated; check what is currently permitted."
     },
@@ -128,31 +180,55 @@
   "foods": [
     {
       "name": "Arancine and street food",
+      "image": {
+        "file": "File:KePalle Arancine d'Autore Palermo.jpg",
+        "alt": "Fried arancine rice balls from a Palermo street-food stall"
+      },
       "text": "Fried rice balls with ragù or butter and ham — arancine in Palermo, arancini in Catania, and the argument is taken seriously. Alongside them, panelle chickpea fritters and sfincione, a thick oniony focaccia-pizza.",
       "whereToTry": "Friggitorie and market stalls in Palermo, and any bar in Catania at eleven in the morning."
     },
     {
       "name": "Pasta alla Norma and pasta con le sarde",
+      "image": {
+        "file": "File:Pasta alla Norma - Wiki Loves Sicilia.jpg",
+        "alt": "Pasta alla Norma, with fried aubergine, tomato and salted ricotta"
+      },
       "text": "Norma, from Catania, is fried aubergine, tomato and salted ricotta, named after Bellini's opera. Pasta con le sarde, from Palermo, mixes sardines with wild fennel, raisins, pine nuts and saffron — pure Arab influence.",
       "whereToTry": "Norma in Catania and the east, sarde in Palermo and the west. Both are everywhere in between."
     },
     {
       "name": "Caponata and sarde a beccafico",
+      "image": {
+        "file": "File:Caponata nissena.jpg",
+        "alt": "Caponata, aubergine cooked down with celery, olives and capers"
+      },
       "text": "Caponata is aubergine cooked down with celery, olives, capers and a sweet-sour vinegar finish, served at room temperature. Sarde a beccafico are sardines rolled around breadcrumbs, raisins and pine nuts and baked.",
       "whereToTry": "Antipasto tables in trattorias across the island. Caponata is better on the second day and everyone knows it."
     },
     {
       "name": "Cannoli and cassata",
+      "image": {
+        "file": "File:Cannoli tipo mignon con ripieno 02.jpg",
+        "alt": "Cannoli filled with sweetened ricotta, their pastry shells dusted with sugar"
+      },
       "text": "A fried pastry tube filled with sweetened sheep's ricotta — filled to order, never in advance, or the shell goes soft. Cassata is the sponge, ricotta, marzipan and candied fruit cake behind every Sicilian celebration.",
       "whereToTry": "Pasticcerie in Palermo, Erice and Noto. If the cannoli are pre-filled in a display, go elsewhere."
     },
     {
       "name": "Granita with brioche",
+      "image": {
+        "file": "File:Lipari. Colazione da 'Dolci Tentazioni' (01297).JPG",
+        "alt": "Granita and brioche served for breakfast in Lipari"
+      },
       "text": "Crushed flavoured ice with a texture between sorbet and slush — almond, coffee, mulberry, lemon, pistachio — eaten for breakfast with a soft brioche topped by a knob of dough called the tuppo.",
       "whereToTry": "Catania, Messina and Acireale, from about seven in the morning through the summer."
     },
     {
       "name": "Modica chocolate and Bronte pistachios",
+      "image": {
+        "file": "File:Cioccolato di Modica.jpg",
+        "alt": "Modica chocolate, worked cold so the sugar never fully dissolves"
+      },
       "text": "Modica works chocolate cold with sugar that never dissolves, a technique that arrived with the Spanish from Mesoamerica, giving a grainy, intense bar. Bronte, on Etna's slopes, grows Italy's finest pistachios.",
       "whereToTry": "Modica's historic chocolate shops; Bronte pistachio in everything from pesto to gelato across the east."
     }
