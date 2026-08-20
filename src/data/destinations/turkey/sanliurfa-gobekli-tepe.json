@@ -58,36 +58,64 @@
     },
     {
       "name": "Şanlıurfa Archaeology Museum",
+      "image": {
+        "file": "File:Urfa old museum Urfa Man Pre-Pottery Neolithic from Urfa 9169.jpg",
+        "alt": "The Urfa Man, the oldest known life-size human statue, in the Şanlıurfa museum"
+      },
       "text": "One of Turkey's largest, running from the Palaeolithic through the Neolithic to the Islamic period, with a reconstructed Göbekli Tepe enclosure at full scale and the Urfa Man statue of around 9000 BC.",
       "tip": "Two hours. The Haleplibahçe mosaic museum with its Amazon hunting scenes is next door on the same ticket area."
     },
     {
       "name": "Balıklıgöl",
+      "image": {
+        "file": "File:Balıklıgöl, Urfa 2015.jpg",
+        "alt": "The sacred carp pools at Balıklıgöl"
+      },
       "text": "Two pools of sacred carp in the Gölbaşı gardens beneath the castle rock, framed by the Halil-ür Rahman and Rızvaniye mosques, and tied to the tradition of Abraham surviving Nimrod's fire.",
       "tip": "Late afternoon, when families come out and the light is on the mosque walls. Feed the fish, and do not attempt to catch one."
     },
     {
       "name": "Urfa Castle",
+      "image": {
+        "file": "File:Urfa Castle 02.jpg",
+        "alt": "The fortress and standing columns of Urfa Castle"
+      },
       "text": "The fortress on the rock directly above the pools, reached by steps or a tunnel, with two tall Corinthian columns on the summit known locally as the Throne of Nimrod and a view over the whole old city.",
       "tip": "Climb at sunset. The steps are steep and completely exposed — not a midday activity in summer."
     },
     {
       "name": "The old bazaar",
+      "image": {
+        "file": "File:Şanlıurfa butchers 1997 058.jpg",
+        "alt": "Stalls in the covered bazaar at Şanlıurfa"
+      },
       "text": "A warren of covered markets around the Gümrük Han of 1562: coppersmiths, felt-makers, the kazzaz silk market, spice traders, and a han courtyard where old men drink tea and play backgammon all day.",
       "tip": "Closed on Sunday and quiet at Friday prayers. The tea in the Gümrük Han courtyard is the single best sit-down in the city."
     },
     {
       "name": "Karahan Tepe",
+      "image": {
+        "file": "File:Karahan Tepe overview.jpg",
+        "alt": "Excavated pillars at Karahan Tepe"
+      },
       "text": "Thirty-five kilometres east, a contemporary of Göbekli Tepe being excavated as part of the same Neolithic landscape, including a chamber of pillars carved directly out of the bedrock and a human head cut into the rock.",
       "tip": "Access and opening have changed as excavation progresses — confirm locally before driving out."
     },
     {
       "name": "Harran",
+      "image": {
+        "file": "File:Harran Beehive houses 195.jpg",
+        "alt": "The mud-brick beehive houses of Harran"
+      },
       "text": "Forty-five kilometres south on the plain: distinctive beehive mud-brick houses, the ruins of a grand mosque with a tall square minaret, a castle and city walls. Named in Genesis and long a centre of moon worship and later learning.",
       "tip": "Combine with the drive across the irrigated plain. The beehive houses maintained for visitors are hot inside — go early."
     },
     {
       "name": "Halfeti",
+      "image": {
+        "file": "File:Halfeti on the Euphrates.jpg",
+        "alt": "The half-submerged village of Halfeti on the Euphrates"
+      },
       "text": "A village on the Euphrates partly submerged when the Birecik Dam filled, with a minaret rising out of the water and boat trips along the flooded gorge. About two hours west.",
       "tip": "Boats run from the new village. Best in the last two hours of light, when the gorge walls turn."
     }
@@ -96,16 +124,28 @@
   "thingsToDo": [
     {
       "title": "See Göbekli Tepe with a guide",
+      "image": {
+        "file": "File:Göbekli Tepe Pillar.JPG",
+        "alt": "A carved T-shaped pillar at Göbekli Tepe"
+      },
       "text": "The enclosures are protected under canopies and viewed from a walkway. Without someone explaining what you are looking at, the pillars read as stones in a pit; with it, the site is extraordinary.",
       "tip": "Go at opening or in the last two hours. There is no shade on the approach and summer temperatures are severe."
     },
     {
       "title": "Do the museum on the same day",
+      "image": {
+        "file": "File:Sanliurfa June 2010 9179.jpg",
+        "alt": "Displays in the Şanlıurfa Archaeology Museum"
+      },
       "text": "The reconstructed enclosure and the Urfa Man make sense of the excavation, and the sequence from Göbekli Tepe through Harran to Edessa is laid out in one building.",
       "tip": "Museum in the heat of the middle of the day, site early or late. That ordering solves the summer problem."
     },
     {
       "title": "Spend an evening at Balıklıgöl",
+      "image": {
+        "file": "File:Balıklıgöl, Urfa 2015-21.jpg",
+        "alt": "The gardens and pools of Balıklıgöl in the evening"
+      },
       "text": "Walk the pools and gardens as the city comes out after the heat, then climb to the castle above for the view over the mosques and the old town roofs.",
       "tip": "Modest dress matters here more than almost anywhere else in Turkey — this is an active religious site."
     },
@@ -116,6 +156,10 @@
     },
     {
       "title": "Cross the plain to Harran",
+      "image": {
+        "file": "File:Harran Beehive houses 192b.jpg",
+        "alt": "Beehive houses on the plain at Harran"
+      },
       "text": "Beehive houses, a ruined mosque and minaret, and a landscape transformed by irrigation. A half-day that shows you the Mesopotamian edge of Turkey.",
       "tip": "The border with Syria is not far south. Stay on the main routes and check current travel advice before going."
     },
@@ -134,16 +178,28 @@
     },
     {
       "name": "Çiğ köfte",
+      "image": {
+        "file": "File:Tchi Kofte (cuisine arménienne) en mars 2021.jpg",
+        "alt": "Çiğ köfte — bulgur kneaded with pepper and spices"
+      },
       "text": "Fine bulgur kneaded for a long time with isot, tomato and spices — traditionally with raw lamb, though most commercial versions are meatless. Rolled in the hand, wrapped in lettuce with lemon.",
       "whereToTry": "Dedicated çiğ köfte shops. The kneading is a skill and the good places have a queue."
     },
     {
       "name": "İsot",
+      "image": {
+        "file": "File:Urfa pepper isot.jpg",
+        "alt": "İsot, the sun-dried Urfa pepper"
+      },
       "text": "Urfa's own pepper: sun-dried, then sweated under cloth until it turns a dark purple-black, with modest heat and a deep raisiny, almost smoky flavour. It goes into nearly everything cooked here.",
       "whereToTry": "Sacks of it in the bazaar. Buy a bag — it is one of the best things you can take home from Turkey."
     },
     {
       "name": "Lahmacun and tandır",
+      "image": {
+        "file": "File:Lahmacun.jpg",
+        "alt": "Lahmacun, thin bread baked with minced lamb and pepper"
+      },
       "text": "Paper-thin bread baked with minced lamb, onion and pepper, folded and eaten with lemon; and lamb cooked slowly in a pit oven until it falls apart. Both are breakfast and lunch staples here.",
       "whereToTry": "Bakeries around the bazaar in the morning, when the tandır comes out and sells until it is gone."
     },

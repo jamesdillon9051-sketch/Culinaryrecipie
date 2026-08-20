@@ -922,6 +922,32 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Balıklıgöl, Urfa 2015-21.jpg": {
+    "artist": "Hamdigumus",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal%C4%B1kl%C4%B1g%C3%B6l,_Urfa_2015-21.jpg",
+    "context": "Spend an evening at Balıklıgöl — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--thing-3.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Balıklıgöl, Urfa 2015.jpg": {
+    "artist": "Hamdigumus",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal%C4%B1kl%C4%B1g%C3%B6l,_Urfa_2015.jpg",
+    "context": "Balıklıgöl — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-3.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ballarò, gente en el mercado, Palermo, Sicilia, Italia, 2015.JPG": {
     "artist": "Benjamín Núñez González",
     "license": "CC BY-SA 4.0",
@@ -3912,6 +3938,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Göbekli Tepe Pillar.JPG": {
+    "artist": "Zhengan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe_Pillar.JPG",
+    "context": "See Göbekli Tepe with a guide — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--thing-1.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Göbekli Tepe, Urfa.jpg": {
     "artist": "Teomancimit",
     "license": "CC BY-SA 3.0",
@@ -4263,6 +4302,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Halfeti on the Euphrates.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halfeti_on_the_Euphrates.jpg",
+    "context": "Halfeti — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-8.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Harran Beehive houses 192b.jpg": {
+    "artist": "Dosseman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harran_Beehive_houses_192b.jpg",
+    "context": "Cross the plain to Harran — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--thing-5.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 509
+  },
+  "File:Harran Beehive houses 195.jpg": {
+    "artist": "Dosseman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harran_Beehive_houses_195.jpg",
+    "context": "Harran — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-7.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 512
+  },
   "File:Hatay usulü testi kebabı.jpg": {
     "artist": "Masisoz",
     "license": "CC BY-SA 4.0",
@@ -4510,6 +4588,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Karahan Tepe overview.jpg": {
+    "artist": "Frantisek Trampota",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karahan_Tepe_overview.jpg",
+    "context": "Karahan Tepe — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-6.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:KePalle Arancine d'Autore Palermo.jpg": {
     "artist": "Claudio SFA",
     "license": "CC BY-SA 4.0",
@@ -4674,6 +4765,19 @@
     "context": "Rioja Alavesa — San Sebastián & the Basque Country, Spain",
     "hero": "images/spain/san-sebastian-basque--attraction-8.webp",
     "card": "images/spain/san-sebastian-basque--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lahmacun.jpg": {
+    "artist": "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lahmacun.jpg",
+    "context": "Lahmacun and tandır — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--food-4.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7656,6 +7760,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sanliurfa June 2010 9179.jpg": {
+    "artist": "Dosseman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanliurfa_June_2010_9179.jpg",
+    "context": "Do the museum on the same day — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--thing-2.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Şanlıurfa butchers 1997 058.jpg": {
+    "artist": "Dosseman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%9Eanl%C4%B1urfa_butchers_1997_058.jpg",
+    "context": "The old bazaar — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-5.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 490
+  },
   "File:Santa Maddalena Funes.jpg": {
     "artist": "Einaz80",
     "license": "CC BY-SA 4.0",
@@ -8358,6 +8488,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Tchi Kofte (cuisine arménienne) en mars 2021.jpg": {
+    "artist": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tchi_Kofte_(cuisine_arm%C3%A9nienne)_en_mars_2021.jpg",
+    "context": "Çiğ köfte — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--food-2.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Teatro alla Scala interior Milan.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -8964,6 +9107,45 @@
     "context": "Take a boat along the cliffs — Antalya & the Turquoise Coast, Turkey",
     "hero": "images/turkey/antalya-turquoise-coast--thing-4.webp",
     "card": "images/turkey/antalya-turquoise-coast--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Urfa Castle 02.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urfa_Castle_02.jpg",
+    "context": "Urfa Castle — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-4.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Urfa old museum Urfa Man Pre-Pottery Neolithic from Urfa 9169.jpg": {
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urfa_old_museum_Urfa_Man_Pre-Pottery_Neolithic_from_Urfa_9169.jpg",
+    "context": "Şanlıurfa Archaeology Museum — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-2.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Urfa pepper isot.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urfa_pepper_isot.jpg",
+    "context": "İsot — Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe--food-3.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
