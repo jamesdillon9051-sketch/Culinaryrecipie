@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Positano",
+      "image": {
+        "file": "File:People on the beach and boats in the bay, Positano, 2010.jpg",
+        "alt": "Boats moored in the bay below Positano's stacked houses"
+      },
       "text": "The image everyone has of this coast: houses in ochre, pink and white stacked down a ravine to a grey-sand beach, with the majolica dome of Santa Maria Assunta in the middle and no flat street anywhere.",
       "tip": "It is stairs from top to bottom — well over a thousand of them. Arrive by ferry, and stay above the crowds or below them, not in between."
     },
     {
       "name": "Amalfi and its Duomo",
+      "image": {
+        "file": "File:Duomo (Amalfi) 02.jpg",
+        "alt": "The striped Norman-Arab facade of Amalfi's cathedral above its wide staircase"
+      },
       "text": "The old republic's capital, with a striped cathedral up a wide staircase, bronze doors cast in Constantinople in the eleventh century, and the Cloister of Paradise — interlaced pointed arches around a garden of palms.",
       "tip": "The paper museum up the valley behind town is a genuine curiosity — Amalfi made paper on Arab methods from the thirteenth century."
     },
     {
       "name": "Ravello",
+      "image": {
+        "file": "File:Ravello Villa-Rufolo fountain 20240505 141714.jpg",
+        "alt": "The terraced gardens of Villa Rufolo in Ravello"
+      },
       "text": "High above Amalfi: Villa Rufolo's gardens with a terrace over a 350-metre drop, Villa Cimbrone's Terrace of Infinity lined with busts, and a cathedral with an eleventh-century bronze door and a carved pulpit on twisted columns.",
       "tip": "Stay for the evening. Day visitors leave by six and the town becomes silent and extraordinary."
     },
     {
       "name": "The Path of the Gods",
+      "image": {
+        "file": "File:Sentiero degli Dei 8 Campania.jpg",
+        "alt": "The Path of the Gods ridge trail high above the Amalfi Coast"
+      },
       "text": "The Sentiero degli Dei, running about seven kilometres along the ridge from Bomerano above Agerola to Nocelle above Positano, six hundred metres above the sea with Capri on the horizon the whole way.",
       "tip": "Walk it west to east, downhill, ending with 1,500 steps into Positano — or take the bus down from Nocelle instead."
     },
     {
       "name": "Capri",
+      "image": {
+        "file": "File:Faraglioni Capri 2.jpg",
+        "alt": "The Faraglioni rock stacks rising from the sea off Capri"
+      },
       "text": "An hour by ferry: the Faraglioni rock stacks, the Blue Grotto, Villa San Michele in Anacapri, and the chairlift up Monte Solaro for the whole Bay of Naples at once.",
       "tip": "Go early or stay overnight. Between eleven and four the town is unbearable; Anacapri above it never is."
     },
     {
       "name": "Praiano and Atrani",
+      "image": {
+        "file": "File:Praiano, Amalfitan Coast.jpeg",
+        "alt": "The village of Praiano clinging to the cliffs above the sea"
+      },
       "text": "The two towns most visitors drive through. Praiano has the best sunsets and a church terrace of majolica tiles; Atrani, just round the headland from Amalfi, is the smallest town in southern Italy and almost untouched.",
       "tip": "Atrani is a five-minute walk from Amalfi through a tunnel and feels like a different century. Have lunch in its piazza."
     },
     {
       "name": "The Furore fjord and the Emerald Grotto",
+      "image": {
+        "file": "File:Fiordo di Furore.jpg",
+        "alt": "The narrow Furore fjord with the coast road bridge crossing high above it"
+      },
       "text": "A narrow inlet where a fishing hamlet clings under the bridge that carries the coast road across it, and, a little east, a sea cave lit green from below through an underwater opening.",
       "tip": "The fjord is best seen from the water. The grotto is a short, touristy, but genuinely striking boat visit."
     },
     {
       "name": "Cetara and Vietri sul Mare",
+      "image": {
+        "file": "File:Vietri sul mare (11).jpg",
+        "alt": "The ceramics town of Vietri sul Mare above the sea"
+      },
       "text": "The eastern end: Cetara is still a working anchovy port and makes colatura, a descendant of Roman fish sauce; Vietri is the ceramics town whose tiles you have been looking at all week.",
       "tip": "Far cheaper and far less visited than the west end. Worth a day if you are based near Salerno."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Walk the Path of the Gods",
+      "image": {
+        "file": "File:Sentiero degli Dei 15 Campania.jpg",
+        "alt": "The ridge path of the Sentiero degli Dei with the coast falling away below"
+      },
       "text": "Bus up to Bomerano, then a ridge path with no shade and enormous views west along the coast and out to Capri, finishing above Positano. Three to four hours at a reasonable pace.",
       "tip": "Start early, take two litres of water, and wear proper shoes — sections are narrow with a serious drop."
     },
     {
       "title": "Travel by ferry, not by bus",
+      "image": {
+        "file": "File:Costiera amalfitana -mix- 2019 by-RaBoe 134.jpg",
+        "alt": "A boat passing a coastal town on the Amalfi Coast, seen from the water"
+      },
       "text": "Boats connect Sorrento, Positano, Amalfi, Salerno and Capri through the season. They are faster than the road in summer, cost little more, and the coast only makes visual sense from the water.",
       "tip": "Services stop for rough seas and largely shut from November to Easter. Check the evening before."
     },
     {
       "title": "Get on a small boat",
+      "image": {
+        "file": "File:People on the beach and boats in the bay, Positano, 2010.jpg",
+        "alt": "Small boats moored in a cove on the Amalfi Coast"
+      },
       "text": "Hire a boat with or without a skipper for half a day and reach the coves, the Furore fjord and the grottoes that no road goes near. Swim off the back where nobody else is.",
       "tip": "A small boat needs no licence in many cases. Ask when booking, and go in the morning before the wind gets up."
     },
     {
       "title": "Walk the lemon path",
+      "image": {
+        "file": "File:Limone and Limoncello.jpg",
+        "alt": "Amalfi lemons and a bottle of limoncello made from them"
+      },
       "text": "The Sentiero dei Limoni climbs from Maiori through terraced lemon groves on pergolas to Minori — an hour of shade, stone steps and the smell of citrus, with the sea below.",
       "tip": "Minori's pasta and its cake shop at the bottom are the traditional reward. Go in the morning."
     },
     {
       "title": "Spend an evening in Ravello",
+      "image": {
+        "file": "File:Umbrella pine in the Villa Rufolo garden in Ravello.jpg",
+        "alt": "An umbrella pine framing the terrace gardens of Villa Rufolo at dusk"
+      },
       "text": "The gardens after the day-trippers have gone, dinner on a terrace, and in summer a concert from the Ravello Festival on a stage built out over the cliff at Villa Rufolo.",
       "tip": "The last bus down is early. Either stay the night or arrange a taxi in advance."
     },
     {
       "title": "Do Capri properly or not at all",
+      "image": {
+        "file": "File:Photo of the Faraglioni Rocks, Capri, Italy.jpg",
+        "alt": "The Faraglioni rock stacks off Capri seen from a boat"
+      },
       "text": "First boat over, chairlift up Monte Solaro from Anacapri, the Via Krupp and the Faraglioni from the Giardini di Augusto, and back on a late ferry once the day crowds have thinned.",
       "tip": "The Blue Grotto depends entirely on sea state and light, and involves a queue of boats. Treat it as a bonus, not a plan."
     }
@@ -128,26 +184,46 @@
   "foods": [
     {
       "name": "Sfusato amalfitano and limoncello",
+      "image": {
+        "file": "File:Limone and Limoncello.jpg",
+        "alt": "The huge sfusato amalfitano lemon beside a bottle of limoncello"
+      },
       "text": "The local lemon is huge, thick-skinned, low in acid and grown on cliff pergolas under chestnut poles. Its zest steeped in alcohol makes limoncello, drunk ice-cold in a small glass after dinner.",
       "whereToTry": "Everywhere, but the small producers around Minori and Maiori are better than the souvenir bottles."
     },
     {
       "name": "Delizia al limone",
+      "image": {
+        "file": "File:Delizia al limone.jpg",
+        "alt": "A delizia al limone dome cake soaked in lemon syrup and cream"
+      },
       "text": "A dome of sponge soaked in lemon syrup and covered in lemon cream — invented in the 1970s on this coast and now its defining dessert. Light, sharp and much better than it looks.",
       "whereToTry": "Pastry shops in Minori, Maiori and Amalfi. Minori is where it was created."
     },
     {
       "name": "Scialatielli ai frutti di mare",
+      "image": {
+        "file": "File:Scialatielli ai frutti di mare, Capri.jpg",
+        "alt": "A plate of scialatielli pasta with clams, mussels and prawns"
+      },
       "text": "A short, thick, irregular fresh pasta invented in Amalfi in the twentieth century, made with milk and herbs and served with clams, mussels and prawns in a light tomato and white wine sauce.",
       "whereToTry": "Any decent trattoria on the coast. It is the local pasta and it is genuinely local, not folklore."
     },
     {
       "name": "Colatura di alici",
+      "image": {
+        "file": "File:Colatura di alici di Cetara.jpg",
+        "alt": "A small bottle of colatura di alici, Cetara's amber anchovy sauce"
+      },
       "text": "Cetara's anchovy sauce: fish salted in barrels for months and the liquid drawn off, a direct descendant of Roman garum. A few drops over spaghetti with garlic and parsley makes one of Italy's great simple dishes.",
       "whereToTry": "Cetara at the eastern end of the coast, where it is made. Bottles travel well."
     },
     {
       "name": "Fior di latte and mozzarella di bufala",
+      "image": {
+        "file": "File:Mozzarella di bufala3.jpg",
+        "alt": "Fresh balls of mozzarella di bufala"
+      },
       "text": "Agerola on the ridge above makes fior di latte, cow's-milk mozzarella; the plain north of Salerno makes the buffalo version. Both are eaten within a day of being made and taste like a different food from the exported kind.",
       "whereToTry": "Village alimentari and the Agerola dairies, ideally in the morning."
     },

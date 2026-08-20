@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Riomaggiore",
+      "image": {
+        "file": "File:Riomaggiore's Harbour Cinque Terre.jpg",
+        "alt": "Riomaggiore's small harbour, with boats hauled up the slipway between tall coloured houses"
+      },
       "text": "The easternmost and largest, built along a steep ravine that runs down to a tiny harbour where boats are hauled up the slipway into the street. A castle above and a long climbing main street.",
       "tip": "The rocks by the harbour are the best sunset spot in the village. The station is through a long tunnel from the centre."
     },
     {
       "name": "Manarola",
+      "image": {
+        "file": "File:Manarola NW Cinque Terre Sep23 A7C 07237.jpg",
+        "alt": "Manarola's houses piled on a black rock promontory above the sea, with vineyard terraces behind"
+      },
       "text": "The most photographed of the five: houses in ochre and pink piled on a black rock promontory above a swimming inlet, with vineyard terraces climbing directly behind them.",
       "tip": "Walk out onto the Punta Bonfiglio path past the cemetery for the classic view, best in the hour before sunset."
     },
     {
       "name": "Corniglia",
+      "image": {
+        "file": "File:East Above Corniglia Cinque Terre crop Sep23 A7C 06797.jpg",
+        "alt": "Corniglia on its headland above the sea, the only one of the five villages not on the water"
+      },
       "text": "The only village not on the water, sitting on a headland a hundred metres above the sea and reached from its station by the Lardarina, a brick staircase of 382 steps, or a shuttle bus.",
       "tip": "The steps deter enough people that Corniglia is reliably the quietest of the five. Take the bus up and walk down."
     },
     {
       "name": "Vernazza",
+      "image": {
+        "file": "File:Vernazza harbour panorama, Cinque Terre, Liguria, Italy, April 2026.jpg",
+        "alt": "Vernazza's natural harbour ringed by tall houses, with the castle tower above"
+      },
       "text": "The prettiest, and it knows it: a natural harbour ringed by a semicircle of tall houses, a small church built onto the rocks and a ruined castle tower you can climb for a few euros.",
       "tip": "Climb the Doria tower for the view down onto the harbour, then swim off the rocks beyond the breakwater."
     },
     {
       "name": "Monterosso al Mare",
+      "image": {
+        "file": "File:Monterosso al Mare-panorama-Fegina1.jpg",
+        "alt": "Monterosso al Mare's Fegina beachfront, the only sandy beach in the Cinque Terre"
+      },
       "text": "The westernmost and least vertical, split into an old town and the Fegina beachfront, with the only substantial sandy beach in the Cinque Terre and a giant carved Neptune holding up a terrace.",
       "tip": "The obvious base for anyone wanting a beach or travelling with luggage — it is the flattest village by a wide margin."
     },
     {
       "name": "The Sentiero Azzurro",
+      "image": {
+        "file": "File:Cinque Terre-Via dell'Amore-2379.JPG",
+        "alt": "The Via dell'Amore, a section of the Sentiero Azzurro coast path cut into the cliff"
+      },
       "text": "The Blue Path, the low coastal route linking all five villages, of which the Vernazza–Monterosso and Corniglia–Vernazza stretches are the classics. Sections have been closed by landslides for years at a time.",
       "tip": "Check which sections are open before you plan a day around them, and buy the trekking card that funds the maintenance."
     },
     {
       "name": "The high sanctuary trails",
+      "image": {
+        "file": "File:Vineyards Terraces Volastra Cinque Terre Sep23 A7C 06780.jpg",
+        "alt": "Terraced vineyards above Volastra on the high sanctuary trail route"
+      },
       "text": "Paths above the coast route linking the hilltop sanctuaries and the vineyard hamlet of Volastra, several hundred metres up, through terraces and olive groves with almost nobody on them.",
       "tip": "Harder walking and far better than the crowded low route. The Manarola–Volastra–Corniglia way is the pick."
     },
     {
       "name": "Portovenere and Palmaria",
+      "image": {
+        "file": "File:Portovenere - Chiesa di San Pietro.jpg",
+        "alt": "The church of San Pietro on its rock spur over the sea at Portovenere"
+      },
       "text": "Part of the same UNESCO listing, at the eastern end of the gulf: a row of tall painted houses, a Genoese castle and the church of San Pietro on a rock spur over the sea, with the island of Palmaria opposite.",
       "tip": "Reached by boat from the villages or bus from La Spezia. Less visited than the five and arguably as beautiful."
     }
@@ -95,11 +127,19 @@
   "thingsToDo": [
     {
       "title": "Walk between the villages",
+      "image": {
+        "file": "File:Trail 586 Vineyards Volastra Hikers Cinque Terre Sep23 R16 07500.jpg",
+        "alt": "Walkers on a terraced vineyard path between the Cinque Terre villages"
+      },
       "text": "The coast path in whichever sections are open, or better, the high routes through the vineyards. Vernazza to Monterosso is the classic ninety minutes; Manarola to Volastra to Corniglia is the quieter alternative.",
       "tip": "Start by eight. Paths get busy, hot and single-file by ten, and passing places are narrow."
     },
     {
       "title": "Use the train like a bus",
+      "image": {
+        "file": "File:Manarola Station Ticket Counter 01.jpg",
+        "alt": "The ticket counter at Manarola's small train station"
+      },
       "text": "Local trains run between Levanto and La Spezia every fifteen to twenty minutes, stopping at all five villages, mostly through tunnels. Three minutes between stops, and it is how everyone gets around.",
       "tip": "The Cinque Terre Card's train version covers unlimited journeys plus the trails and pays for itself in a day."
     },
@@ -110,16 +150,28 @@
     },
     {
       "title": "Take the boat along the coast",
+      "image": {
+        "file": "File:Riomaggiore From Ferry Cinque Terre Italy Sep23 A7C 07414.jpg",
+        "alt": "Riomaggiore seen from a ferry passing along the coast"
+      },
       "text": "Ferries run between the villages, except Corniglia which has no harbour, and on to Portovenere and Lerici. From the water you see the terracing and the way the villages sit in their ravines.",
       "tip": "Boats stop entirely in rough seas and in winter. Do this on your first good-weather afternoon rather than saving it."
     },
     {
       "title": "Drink Sciacchetrà",
+      "image": {
+        "file": "File:Grape plantation in Manarola, Cinque Terre, Italy.jpg",
+        "alt": "Grapevines grown on dry-stone terraces above Manarola"
+      },
       "text": "The local sweet wine, made from grapes dried on racks and produced in tiny quantities from the cliff terraces. Expensive, rare and the clearest expression of why anyone farms a vertical hillside.",
       "tip": "Try it by the glass in a village enoteca before buying a bottle. The dry Cinque Terre DOC white is the everyday one."
     },
     {
       "title": "Eat anchovies in Monterosso",
+      "image": {
+        "file": "File:Acciughe sotto sale.acciughe sott'olio.jpg",
+        "alt": "Anchovies marinated in oil, prepared in the Ligurian style"
+      },
       "text": "Salted, marinated in lemon, deep-fried or baked with potatoes and tomato. Monterosso's anchovies are a recognised local speciality and the village makes a proper fuss of them.",
       "tip": "Order them marinated as an antipasto and fried as a main. It is the same fish and two entirely different dishes."
     }
@@ -128,16 +180,28 @@
   "foods": [
     {
       "name": "Pesto genovese",
+      "image": {
+        "file": "File:Trofie al pesto.jpg",
+        "alt": "Trofie pasta dressed in pesto genovese, made with basil, pine nuts and Parmesan"
+      },
       "text": "Basil from this coast pounded with pine nuts, garlic, Parmesan, pecorino and Ligurian olive oil, served on trofie or trenette with green beans and potato boiled in with the pasta.",
       "whereToTry": "Anywhere here, and best where it is made by hand — the colour should be bright green, not olive."
     },
     {
       "name": "Focaccia and farinata",
+      "image": {
+        "file": "File:Focaccia on sale in Genoa.JPG",
+        "alt": "Ligurian focaccia, thin, salty and dimpled with oil, sold by weight"
+      },
       "text": "Ligurian focaccia is thin, salty and dimpled with oil, sold by weight all morning; focaccia col formaggio comes from Recco and is a stretchy cheese layer between two sheets. Farinata is a baked chickpea-flour pancake.",
       "whereToTry": "Bakeries in every village, from opening until the trays run out. Eat it warm, standing up."
     },
     {
       "name": "Acciughe di Monterosso",
+      "image": {
+        "file": "File:Acciughe sotto sale.acciughe salate.jpg",
+        "alt": "Salted anchovies from Monterosso, a protected local speciality"
+      },
       "text": "Anchovies caught along this stretch of coast and salted in barrels, then eaten marinated with lemon, deep-fried whole, or layered with potatoes and tomatoes and baked.",
       "whereToTry": "Monterosso especially, where they are the local pride, but every village serves them."
     },
@@ -148,11 +212,19 @@
     },
     {
       "name": "Pansotti with walnut sauce",
+      "image": {
+        "file": "File:Pansotti alle noci 02.JPG",
+        "alt": "Pansotti ravioli stuffed with wild greens and ricotta, dressed with walnut sauce"
+      },
       "text": "Triangular ravioli stuffed with wild greens and ricotta, dressed with a sauce of ground walnuts, bread and cream. Ligurian to its core and a good alternative when you have had enough pesto.",
       "whereToTry": "Sit-down restaurants rather than the takeaway places along the main streets."
     },
     {
       "name": "Sciacchetrà and Cinque Terre DOC",
+      "image": {
+        "file": "File:Grape plantation in Manarola, Cinque Terre, Italy 2.jpg",
+        "alt": "Terraced vineyards near Manarola where the grapes for Sciacchetrà and Cinque Terre DOC are grown"
+      },
       "text": "The white DOC is dry, mineral and made from Bosco, Albarola and Vermentino grown on the terraces. Sciacchetrà is its sweet cousin, made from dried grapes in very small volumes.",
       "whereToTry": "Village enoteche and the co-operative cellar. Buy Sciacchetrà here or not at all — it barely leaves the region."
     }

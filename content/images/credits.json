@@ -90,6 +90,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Acciughe sotto sale.acciughe salate.jpg": {
+    "artist": "Roger469",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acciughe_sotto_sale.acciughe_salate.jpg",
+    "context": "Acciughe di Monterosso — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--food-3.webp",
+    "card": "images/italy/cinque-terre--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
+  "File:Acciughe sotto sale.acciughe sott'olio.jpg": {
+    "artist": "Roger469",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acciughe_sotto_sale.acciughe_sott%27olio.jpg",
+    "context": "Eat anchovies in Monterosso — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--thing-6.webp",
+    "card": "images/italy/cinque-terre--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Alhambra in the evening.jpg": {
     "artist": "Jebulon",
     "license": "Public domain",
@@ -428,6 +454,19 @@
     "cardWidth": 800,
     "cardHeight": 485
   },
+  "File:Cinque Terre-Via dell'Amore-2379.JPG": {
+    "artist": "Twice25 &amp; Rinina25",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cinque_Terre-Via_dell%27Amore-2379.JPG",
+    "context": "The Sentiero Azzurro — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-6.webp",
+    "card": "images/italy/cinque-terre--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Coda alla vaccinara-01.jpg": {
     "artist": "shu tu",
     "license": "CC BY-SA 2.0",
@@ -436,6 +475,19 @@
     "context": "Quinto quarto — Rome, Italy",
     "hero": "images/italy/rome--food-5.webp",
     "card": "images/italy/rome--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Colatura di alici di Cetara.jpg": {
+    "artist": "Derbrauni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colatura_di_alici_di_Cetara.jpg",
+    "context": "Colatura di alici — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--food-4.webp",
+    "card": "images/italy/amalfi-coast--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -480,6 +532,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Costiera amalfitana -mix- 2019 by-RaBoe 134.jpg": {
+    "artist": "© Ra Boe / Wikipedia",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costiera_amalfitana_-mix-_2019_by-RaBoe_134.jpg",
+    "context": "Travel by ferry, not by bus — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--thing-2.webp",
+    "card": "images/italy/amalfi-coast--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Cupola di santa maria del fiore dal campanile di giotto, 01.JPG": {
     "artist": "sailko",
     "license": "CC BY 2.5",
@@ -493,6 +558,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Delizia al limone.jpg": {
+    "artist": "dags 1974",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delizia_al_limone.jpg",
+    "context": "Delizia al limone — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--food-2.webp",
+    "card": "images/italy/amalfi-coast--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Drei Zinnen Tre Cime di Lavaredo Dolomites.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -501,6 +579,32 @@
     "context": "The Dolomites, Italy",
     "hero": "images/italy/dolomites.webp",
     "card": "images/italy/dolomites-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Duomo (Amalfi) 02.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duomo_(Amalfi)_02.jpg",
+    "context": "Amalfi and its Duomo — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-2.webp",
+    "card": "images/italy/amalfi-coast--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:East Above Corniglia Cinque Terre crop Sep23 A7C 06797.jpg": {
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Above_Corniglia_Cinque_Terre_crop_Sep23_A7C_06797.jpg",
+    "context": "Corniglia — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-3.webp",
+    "card": "images/italy/cinque-terre--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -545,6 +649,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Faraglioni Capri 2.jpg": {
+    "artist": "Amyp03",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Faraglioni_Capri_2.jpg",
+    "context": "Capri — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-5.webp",
+    "card": "images/italy/amalfi-coast--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Fattoria Lornano (Winery), Chianti, Italy.jpg": {
     "artist": "Ray in Manila",
     "license": "CC BY 2.0",
@@ -553,6 +670,19 @@
     "context": "Drive or cycle into Chianti — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--thing-3.webp",
     "card": "images/italy/florence-tuscany--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Fiordo di Furore.jpg": {
+    "artist": "Ugeorge",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiordo_di_Furore.jpg",
+    "context": "The Furore fjord and the Emerald Grotto — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-7.webp",
+    "card": "images/italy/amalfi-coast--attraction-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -583,6 +713,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 468
+  },
+  "File:Focaccia on sale in Genoa.JPG": {
+    "artist": "User:Rachel Dalby photographer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Focaccia_on_sale_in_Genoa.JPG",
+    "context": "Focaccia and farinata — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--food-2.webp",
+    "card": "images/italy/cinque-terre--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
     "artist": "King of Hearts",
@@ -753,6 +896,32 @@
     "cardWidth": 800,
     "cardHeight": 255
   },
+  "File:Grape plantation in Manarola, Cinque Terre, Italy 2.jpg": {
+    "artist": "Vald0506",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grape_plantation_in_Manarola,_Cinque_Terre,_Italy_2.jpg",
+    "context": "Sciacchetrà and Cinque Terre DOC — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--food-6.webp",
+    "card": "images/italy/cinque-terre--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:Grape plantation in Manarola, Cinque Terre, Italy.jpg": {
+    "artist": "Vald0506",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grape_plantation_in_Manarola,_Cinque_Terre,_Italy.jpg",
+    "context": "Drink Sciacchetrà — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--thing-5.webp",
+    "card": "images/italy/cinque-terre--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Hagia Sophia Istanbul July 2022-2.jpg": {
     "artist": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
@@ -844,6 +1013,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Limone and Limoncello.jpg": {
+    "artist": "Bill and Kathy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limone_and_Limoncello.jpg",
+    "context": "Sfusato amalfitano and limoncello — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--food-1.webp",
+    "card": "images/italy/amalfi-coast--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Lower Manhattan from Brooklyn May 2015 panorama.jpg": {
     "artist": "King of Hearts",
     "license": "CC BY-SA 3.0",
@@ -891,6 +1073,32 @@
     "context": "The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre.webp",
     "card": "images/italy/cinque-terre-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Manarola NW Cinque Terre Sep23 A7C 07237.jpg": {
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_NW_Cinque_Terre_Sep23_A7C_07237.jpg",
+    "context": "Manarola — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-2.webp",
+    "card": "images/italy/cinque-terre--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Manarola Station Ticket Counter 01.jpg": {
+    "artist": "Mint0ri",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarola_Station_Ticket_Counter_01.jpg",
+    "context": "Use the train like a bus — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--thing-2.webp",
+    "card": "images/italy/cinque-terre--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -956,6 +1164,32 @@
     "context": "Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel.webp",
     "card": "images/france/mont-saint-michel-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Monterosso al Mare-panorama-Fegina1.jpg": {
+    "artist": "Davide Papalini",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monterosso_al_Mare-panorama-Fegina1.jpg",
+    "context": "Monterosso al Mare — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-5.webp",
+    "card": "images/italy/cinque-terre--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mozzarella di bufala3.jpg": {
+    "artist": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mozzarella_di_bufala3.jpg",
+    "context": "Fior di latte and mozzarella di bufala — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--food-5.webp",
+    "card": "images/italy/amalfi-coast--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1052,6 +1286,19 @@
     "cardWidth": 800,
     "cardHeight": 302
   },
+  "File:Pansotti alle noci 02.JPG": {
+    "artist": "myself",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pansotti_alle_noci_02.JPG",
+    "context": "Pansotti with walnut sauce — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--food-5.webp",
+    "card": "images/italy/cinque-terre--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Park Güell - city view 01.jpg": {
     "artist": "Joe Mabel",
     "license": "CC BY-SA 4.0",
@@ -1060,6 +1307,32 @@
     "context": "Barcelona, Spain",
     "hero": "images/spain/barcelona.webp",
     "card": "images/spain/barcelona-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:People on the beach and boats in the bay, Positano, 2010.jpg": {
+    "artist": "DimiTalen",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:People_on_the_beach_and_boats_in_the_bay,_Positano,_2010.jpg",
+    "context": "Get on a small boat — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--thing-3.webp",
+    "card": "images/italy/amalfi-coast--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
+  "File:Photo of the Faraglioni Rocks, Capri, Italy.jpg": {
+    "artist": "Littleballofwiki",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_the_Faraglioni_Rocks,_Capri,_Italy.jpg",
+    "context": "Do Capri properly or not at all — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--thing-6.webp",
+    "card": "images/italy/amalfi-coast--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1169,6 +1442,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:Portovenere - Chiesa di San Pietro.jpg": {
+    "artist": "Jessyangeli90",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portovenere_-_Chiesa_di_San_Pietro.jpg",
+    "context": "Portovenere and Palmaria — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-8.webp",
+    "card": "images/italy/cinque-terre--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Positano (Italy) 04.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY 4.0",
@@ -1194,6 +1480,19 @@
     "heroHeight": 340,
     "cardWidth": 800,
     "cardHeight": 170
+  },
+  "File:Praiano, Amalfitan Coast.jpeg": {
+    "artist": "User:Barochat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praiano,_Amalfitan_Coast.jpeg",
+    "context": "Praiano and Atrani — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-6.webp",
+    "card": "images/italy/amalfi-coast--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Promenade des Anglais (Nice), France.jpg": {
     "artist": "Uhooep",
@@ -1221,6 +1520,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Ravello Villa-Rufolo fountain 20240505 141714.jpg": {
+    "artist": "Rigorius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravello_Villa-Rufolo_fountain_20240505_141714.jpg",
+    "context": "Ravello — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-3.webp",
+    "card": "images/italy/amalfi-coast--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ribollita toscana.JPG": {
     "artist": "Ithunn",
     "license": "CC BY-SA 3.0",
@@ -1233,6 +1545,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Riomaggiore From Ferry Cinque Terre Italy Sep23 A7C 07414.jpg": {
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riomaggiore_From_Ferry_Cinque_Terre_Italy_Sep23_A7C_07414.jpg",
+    "context": "Take the boat along the coast — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--thing-4.webp",
+    "card": "images/italy/cinque-terre--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Riomaggiore's Harbour Cinque Terre.jpg": {
+    "artist": "Federica Cidale",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riomaggiore%27s_Harbour_Cinque_Terre.jpg",
+    "context": "Riomaggiore — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-1.webp",
+    "card": "images/italy/cinque-terre--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 499
   },
   "File:Risotto al nero di seppia.jpg": {
     "artist": "Micaela &amp; Massimo",
@@ -1324,6 +1662,45 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 514
+  },
+  "File:Scialatielli ai frutti di mare, Capri.jpg": {
+    "artist": "Coso",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scialatielli_ai_frutti_di_mare,_Capri.jpg",
+    "context": "Scialatielli ai frutti di mare — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--food-3.webp",
+    "card": "images/italy/amalfi-coast--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sentiero degli Dei 15 Campania.jpg": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_15_Campania.jpg",
+    "context": "Walk the Path of the Gods — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--thing-1.webp",
+    "card": "images/italy/amalfi-coast--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sentiero degli Dei 8 Campania.jpg": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_8_Campania.jpg",
+    "context": "The Path of the Gods — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-4.webp",
+    "card": "images/italy/amalfi-coast--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Serra de Tramuntana (2016.05.17).jpg": {
     "artist": "Geir Hval (www.MacWhale.eu)",
@@ -1481,6 +1858,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Trail 586 Vineyards Volastra Hikers Cinque Terre Sep23 R16 07500.jpg": {
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trail_586_Vineyards_Volastra_Hikers_Cinque_Terre_Sep23_R16_07500.jpg",
+    "context": "Walk between the villages — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--thing-1.webp",
+    "card": "images/italy/cinque-terre--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Travertine terraces - Pamukkale, Denizli Province, Turkey - October 6, 2025.jpg": {
     "artist": "Giorgio Galeotti",
     "license": "CC BY-SA 4.0",
@@ -1502,6 +1892,32 @@
     "context": "Walk the centro storico after dark — Rome, Italy",
     "hero": "images/italy/rome--thing-3.webp",
     "card": "images/italy/rome--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Trofie al pesto.jpg": {
+    "artist": "Eluinie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trofie_al_pesto.jpg",
+    "context": "Pesto genovese — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--food-1.webp",
+    "card": "images/italy/cinque-terre--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Umbrella pine in the Villa Rufolo garden in Ravello.jpg": {
+    "artist": "Sally V",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Umbrella_pine_in_the_Villa_Rufolo_garden_in_Ravello.jpg",
+    "context": "Spend an evening in Ravello — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--thing-5.webp",
+    "card": "images/italy/amalfi-coast--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1545,6 +1961,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 531
+  },
+  "File:Vernazza harbour panorama, Cinque Terre, Liguria, Italy, April 2026.jpg": {
+    "artist": "Mathieu Chollet - MChollet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vernazza_harbour_panorama,_Cinque_Terre,_Liguria,_Italy,_April_2026.jpg",
+    "context": "Vernazza — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-4.webp",
+    "card": "images/italy/cinque-terre--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vietri sul mare (11).jpg": {
+    "artist": "Derbrauni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietri_sul_mare_(11).jpg",
+    "context": "Cetara and Vietri sul Mare — The Amalfi Coast, Italy",
+    "hero": "images/italy/amalfi-coast--attraction-8.webp",
+    "card": "images/italy/amalfi-coast--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:View of Florence from the Abbazia di San Miniato al Monte. Italy.jpg": {
     "artist": "Ввласенко",
@@ -1593,6 +2035,19 @@
     "context": "Provence & the Luberon, France",
     "hero": "images/france/provence-luberon.webp",
     "card": "images/france/provence-luberon-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vineyards Terraces Volastra Cinque Terre Sep23 A7C 06780.jpg": {
+    "artist": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyards_Terraces_Volastra_Cinque_Terre_Sep23_A7C_06780.jpg",
+    "context": "The high sanctuary trails — The Cinque Terre, Italy",
+    "hero": "images/italy/cinque-terre--attraction-7.webp",
+    "card": "images/italy/cinque-terre--attraction-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
