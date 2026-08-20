@@ -12,6 +12,19 @@
     "cardWidth": 800,
     "cardHeight": 523
   },
+  "File:00 3029 Dune du Pilat - Frankreich.jpg": {
+    "artist": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_3029_Dune_du_Pilat_-_Frankreich.jpg",
+    "context": "Climb the Dune du Pilat at sunset — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-4.webp",
+    "card": "images/france/bordeaux--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2002 Rome Roman Forum & Palatine 01.jpg": {
     "artist": "Nicholas Hartmann",
     "license": "CC BY-SA 4.0",
@@ -220,6 +233,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Arcachon, parcs à huîtres - btv1b53052535t.jpg": {
+    "artist": "Agence Rol. Agence photographique (commanditaire)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arcachon,_parcs_%C3%A0_hu%C3%AEtres_-_btv1b53052535t.jpg",
+    "context": "Eat oysters at a market counter — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-2.webp",
+    "card": "images/france/bordeaux--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:At Nerbone, the central market in Florence - serving bollito di manzi and tripe sandwiches (16821894141).jpg": {
     "artist": "Winniepix",
     "license": "CC BY 2.0",
@@ -324,6 +350,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bassins de Lumières Boreaux 2024 (7).jpg": {
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bassins_de_Lumi%C3%A8res_Boreaux_2024_(7).jpg",
+    "context": "Bassins des Lumières — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-8.webp",
+    "card": "images/france/bordeaux--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Beach and Cliffs of Étretat, Normandy-8172.jpg": {
     "artist": "Raimond Spekking",
     "license": "CC BY-SA 4.0",
@@ -414,6 +453,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 497
+  },
+  "File:Bottle & glass of red Bordeaux style blend.jpg": {
+    "artist": "misbehave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bottle_%26_glass_of_red_Bordeaux_style_blend.jpg",
+    "context": "The wines themselves — Bordeaux, France",
+    "hero": "images/france/bordeaux--food-6.webp",
+    "card": "images/france/bordeaux--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Boxes of Baillardran canelés, Bordeaux, 2015.jpg": {
+    "artist": "DimiTalen",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boxes_of_Baillardran_canel%C3%A9s,_Bordeaux,_2015.jpg",
+    "context": "Canelé — Bordeaux, France",
+    "hero": "images/france/bordeaux--food-3.webp",
+    "card": "images/france/bordeaux--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Brettljause Speck Käse Kaminwurz Vinschgerl.JPG": {
     "artist": "Benreis",
@@ -675,6 +740,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Chais du Château l'Evangile.jpg": {
+    "artist": "Antoine Bertier",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chais_du_Ch%C3%A2teau_l%27Evangile.jpg",
+    "context": "Take a wine tour rather than driving — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-1.webp",
+    "card": "images/france/bordeaux--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Chambord Castle Northwest facade.jpg": {
     "artist": "Benh LIEU SONG",
     "license": "CC BY-SA 3.0",
@@ -687,6 +765,19 @@
     "heroHeight": 642,
     "cardWidth": 800,
     "cardHeight": 321
+  },
+  "File:Chateau Margaux Cabernet Sauvignon vines.jpg": {
+    "artist": "Megan Mallen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Margaux_Cabernet_Sauvignon_vines.jpg",
+    "context": "The Médoc — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-4.webp",
+    "card": "images/france/bordeaux--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Chiesa rupestre San Pietro Barisano Matera luglio 2022 f01.jpg": {
     "artist": "Marcok",
@@ -774,6 +865,19 @@
     "context": "Modica chocolate and Bronte pistachios — Sicily, Italy",
     "hero": "images/italy/sicily--food-6.webp",
     "card": "images/italy/sicily--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cité du Vin Bordeaux 50.jpg": {
+    "artist": "FrDr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_du_Vin_Bordeaux_50.jpg",
+    "context": "The Cité du Vin — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-2.webp",
+    "card": "images/france/bordeaux--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1129,6 +1233,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Entrecôte at restaurant Grill it! Tapiola Garden.jpg": {
+    "artist": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrec%C3%B4te_at_restaurant_Grill_it!_Tapiola_Garden.jpg",
+    "context": "Entrecôte à la bordelaise — Bordeaux, France",
+    "hero": "images/france/bordeaux--food-1.webp",
+    "card": "images/france/bordeaux--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Ephesus Celsus Library Façade.jpg": {
     "artist": "Benh LIEU SONG",
@@ -1507,6 +1624,19 @@
     "cardWidth": 800,
     "cardHeight": 255
   },
+  "File:Grand Théâtre de Bordeaux (2).jpg": {
+    "artist": "Víctor Perea Ros",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Bordeaux_(2).jpg",
+    "context": "The Grand Théâtre and Rue Sainte-Catherine — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-7.webp",
+    "card": "images/france/bordeaux--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Granita brioche cornetto.jpg": {
     "artist": "Eli6179",
     "license": "CC BY-SA 4.0",
@@ -1780,6 +1910,19 @@
     "cardWidth": 800,
     "cardHeight": 435
   },
+  "File:Les Huîtres de Trousse Chemise (27).JPG": {
+    "artist": "Jean-Pierre Bazard Jpbazard",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Hu%C3%AEtres_de_Trousse_Chemise_(27).JPG",
+    "context": "Arcachon oysters — Bordeaux, France",
+    "hero": "images/france/bordeaux--food-2.webp",
+    "card": "images/france/bordeaux--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Limone and Limoncello.jpg": {
     "artist": "Bill and Kathy",
     "license": "CC BY 2.0",
@@ -1858,6 +2001,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Magret de canard et foie gras.jpg": {
+    "artist": "PierreSelim",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magret_de_canard_et_foie_gras.jpg",
+    "context": "Duck, in southwest style — Bordeaux, France",
+    "hero": "images/france/bordeaux--food-5.webp",
+    "card": "images/france/bordeaux--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Manarola NW Cinque Terre Sep23 A7C 07233.jpg": {
     "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 4.0",
@@ -1896,6 +2052,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Marché des Capucins 2024 (4).jpg": {
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_des_Capucins_2024_(4).jpg",
+    "context": "Marché des Capucins — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-5.webp",
+    "card": "images/france/bordeaux--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Maritozzo da Iginio Massari.jpg": {
     "artist": "Asdalol",
@@ -2547,6 +2716,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Place de la Bourse et le miroir d'eau - Bordeaux 01.jpg": {
+    "artist": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Place_de_la_Bourse_et_le_miroir_d%27eau_-_Bordeaux_01.jpg",
+    "context": "Place de la Bourse and the Miroir d'Eau — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-1.webp",
+    "card": "images/france/bordeaux--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plan d'eau - Jardin Botanique de Bordeaux.jpg": {
+    "artist": "DaveM93",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plan_d%27eau_-_Jardin_Botanique_de_Bordeaux.jpg",
+    "context": "Walk or cycle the riverfront — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-3.webp",
+    "card": "images/france/bordeaux--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Plateau de fromages aux Halles de Lyon-Paul Bocuse en mai 2017.jpg": {
     "artist": "Benoît Prieur",
     "license": "CC0",
@@ -2833,6 +3028,32 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Saint-Emilion 33 Place 2013.jpg": {
+    "artist": "JLPC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Emilion_33_Place_2013.jpg",
+    "context": "Saint-Émilion — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-3.webp",
+    "card": "images/france/bordeaux--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 754,
+    "cardWidth": 800,
+    "cardHeight": 377
+  },
+  "File:Saint-Emilion Cloître collégiale Reliefstein.jpg": {
+    "artist": "Palauenc05",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Emilion_Clo%C3%AEtre_coll%C3%A9giale_Reliefstein.jpg",
+    "context": "Visit Saint-Émilion on foot — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-5.webp",
+    "card": "images/france/bordeaux--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 882,
+    "cardWidth": 800,
+    "cardHeight": 441
+  },
   "File:Sainte Chapelle Interior Stained Glass.jpg": {
     "artist": "Oldmanisold",
     "license": "CC BY-SA 4.0",
@@ -3040,6 +3261,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 494
+  },
+  "File:Sommet de la Dune du Pilat.jpg": {
+    "artist": "Jörg Braukmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sommet_de_la_Dune_du_Pilat.jpg",
+    "context": "Dune du Pilat and Arcachon Bay — Bordeaux, France",
+    "hero": "images/france/bordeaux--attraction-6.webp",
+    "card": "images/france/bordeaux--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Spaghetti alla Carbonara (Madrid).JPG": {
     "artist": "Tamorlan",
@@ -3348,6 +3582,19 @@
     "context": "Walk between the villages — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--thing-1.webp",
     "card": "images/italy/cinque-terre--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tram sur pont de pierre bordeaux.JPG": {
+    "artist": "Abxbay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tram_sur_pont_de_pierre_bordeaux.JPG",
+    "context": "Take the tram to Bordeaux's other side — Bordeaux, France",
+    "hero": "images/france/bordeaux--thing-6.webp",
+    "card": "images/france/bordeaux--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
