@@ -116,6 +116,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:A Remaining Caisson from the Mulberry Harbour (32297781257).jpg": {
+    "artist": "David Merrett from Daventry, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Remaining_Caisson_from_the_Mulberry_Harbour_(32297781257).jpg",
+    "context": "Arromanches and the Mulberry harbour — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-4.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Accademia (Venice).jpg": {
     "artist": "Didier Descouens",
     "license": "CC BY-SA 4.0",
@@ -219,6 +232,19 @@
     "heroHeight": 566,
     "cardWidth": 800,
     "cardHeight": 283
+  },
+  "File:AndouilleDeVirePommeau.jpg": {
+    "artist": "Ikmo-ned",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AndouilleDeVirePommeau.jpg",
+    "context": "Andouille de Vire — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--food-6.webp",
+    "card": "images/france/normandy-d-day-beaches--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Angle sud de la chapelle Saint-Aubert (Le Mont-Saint-Michel, Manche, France).jpg": {
     "artist": "EdouardHue",
@@ -436,6 +462,45 @@
     "context": "Bassins des Lumières — Bordeaux, France",
     "hero": "images/france/bordeaux--attraction-8.webp",
     "card": "images/france/bordeaux--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Batterie Longues-sur-Mer bunker gun.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batterie_Longues-sur-Mer_bunker_gun.jpg",
+    "context": "Longues-sur-Mer battery — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-6.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 490
+  },
+  "File:Battle field Pointe du Hoc Calvados, France.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_field_Pointe_du_Hoc_Calvados,_France.jpg",
+    "context": "Pointe du Hoc — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-2.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
+  "File:Bayeux Tapestry scene57 Harold death.jpg": {
+    "artist": "Myrabella",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg",
+    "context": "The Bayeux Tapestry — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-3.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -687,6 +752,32 @@
     "heroHeight": 838,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Calvados Pomme d'Eve.jpg": {
+    "artist": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calvados_Pomme_d%27Eve.jpg",
+    "context": "Calvados — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--food-4.webp",
+    "card": "images/france/normandy-d-day-beaches--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Camembert de Normandie (AOP) 10.jpg": {
+    "artist": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camembert_de_Normandie_(AOP)_10.jpg",
+    "context": "Camembert de Normandie — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--food-1.webp",
+    "card": "images/france/normandy-d-day-beaches--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Canal @ Petite France @ Strasbourg (44605704925).jpg": {
     "artist": "Guilhem Vellut from Annecy, France",
@@ -1138,6 +1229,19 @@
     "context": "The Cité du Vin — Bordeaux, France",
     "hero": "images/france/bordeaux--attraction-2.webp",
     "card": "images/france/bordeaux--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cliffs of Etretat, Normandy, France, December 2022.jpg": {
+    "artist": "Mathieu Chollet - MChollet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cliffs_of_Etretat,_Normandy,_France,_December_2022.jpg",
+    "context": "Walk the cliffs at Étretat — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--thing-6.webp",
+    "card": "images/france/normandy-d-day-beaches--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2300,6 +2404,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:La Cambe German war cemetery.png": {
+    "artist": "Hayden Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Cambe_German_war_cemetery.png",
+    "context": "Visit cemeteries from more than one side — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--thing-2.webp",
+    "card": "images/france/normandy-d-day-beaches--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:La rame Marie du TMB au Nid d'Aigle (juin 2019) 1.JPG": {
     "artist": "Florian Pépellin",
     "license": "CC BY-SA 4.0",
@@ -2742,6 +2859,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Mémorial de Caen foyer October 2011.JPG": {
+    "artist": "Nick-D",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_Caen_foyer_October_2011.JPG",
+    "context": "Caen Mémorial — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-7.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Menton Old Town and Harbour.jpg": {
     "artist": "Berthold Werner",
     "license": "Public domain",
@@ -2911,6 +3041,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Moules Normandes.jpg": {
+    "artist": "brian kelly from washington, dc, US-A",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moules_Normandes.jpg",
+    "context": "Moules à la normande — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--food-2.webp",
+    "card": "images/france/normandy-d-day-beaches--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Mozzarella di bufala3.jpg": {
     "artist": "Popo le Chien",
     "license": "CC BY-SA 3.0",
@@ -3040,6 +3183,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Old port in Honfleur. France.jpg": {
+    "artist": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_port_in_Honfleur._France.jpg",
+    "context": "Honfleur and Étretat — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-8.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 509
   },
   "File:Omelette mère Poulard 06.jpg": {
     "artist": "Arnaud 25",
@@ -3509,6 +3665,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Plage d'Omaha - panoramio.jpg": {
+    "artist": "Mario Hains",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plage_d%27Omaha_-_panoramio.jpg",
+    "context": "Walk on Omaha at low tide — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--thing-3.webp",
+    "card": "images/france/normandy-d-day-beaches--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 502
+  },
   "File:Plage des Marinières.jpg": {
     "artist": "Mx. Granger",
     "license": "CC0",
@@ -3586,6 +3755,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Pommes à cidre.jpg": {
+    "artist": "Mnemosyne3",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pommes_%C3%A0_cidre.jpg",
+    "context": "Tour a cider farm or Calvados distillery — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--thing-4.webp",
+    "card": "images/france/normandy-d-day-beaches--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Pommes de terre sarladaises 02.jpg": {
     "artist": "Arnaud 25",
@@ -4523,6 +4705,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Teurgoule 2.jpg": {
+    "artist": "Raphael Labbé",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teurgoule_2.jpg",
+    "context": "Teurgoule — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--food-5.webp",
+    "card": "images/france/normandy-d-day-beaches--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
+  },
   "File:The Dead Christ and Three Mourners by Andrea Mantegna. Pinacoteca di Brera in Milan.jpg": {
     "artist": "Yair-haklai",
     "license": "CC BY-SA 4.0",
@@ -4613,6 +4808,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Tourists german bunker Pointe du Hoc Calvados, France.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tourists_german_bunker_Pointe_du_Hoc_Calvados,_France.jpg",
+    "context": "Take a guided battlefield tour — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--thing-1.webp",
+    "card": "images/france/normandy-d-day-beaches--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 469
   },
   "File:Tours - Halles de Tours - Avril 2019 - Rillettes de Tours.jpg": {
     "artist": "GrandCelinien",
@@ -4795,6 +5003,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Utah Beach towards the South.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utah_Beach_towards_the_South.jpg",
+    "context": "Omaha Beach and Utah Beach — Normandy & the D-Day Beaches, France",
+    "hero": "images/france/normandy-d-day-beaches--attraction-5.webp",
+    "card": "images/france/normandy-d-day-beaches--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 847,
+    "cardWidth": 800,
+    "cardHeight": 423
   },
   "File:Valle dei Templi – Temple of Hera 2024a.jpg": {
     "artist": "Cayambe",

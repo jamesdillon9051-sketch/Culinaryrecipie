@@ -60,41 +60,73 @@
   "attractions": [
     {
       "name": "Normandy American Cemetery, Colleville-sur-Mer",
+      "image": {
+        "file": "File:Cimetiere americain Colleville-sur-Mer.jpg",
+        "alt": "Rows of white headstones on the lawns of the Normandy American Cemetery at Colleville-sur-Mer"
+      },
       "text": "172 acres of immaculate lawn above Omaha Beach, with 9,388 headstones in Latin crosses and Stars of David, a memorial colonnade and a reflecting pool. A path descends to the beach itself. The visitor centre gives excellent context without sentimentality.",
       "tip": "Free entry. The flag ceremony at closing time is brief and worth staying for. Allow at least two hours including the centre."
     },
     {
       "name": "Pointe du Hoc",
+      "image": {
+        "file": "File:Battle field Pointe du Hoc Calvados, France.jpg",
+        "alt": "The cratered clifftop battlefield at Pointe du Hoc"
+      },
       "text": "A cliff-top battery between Utah and Omaha, assaulted by US Rangers who scaled 30-metre cliffs under fire. The site has been deliberately left in its 1944 state — a field of overlapping bomb craters with wrecked casemates you can walk into.",
       "tip": "The most physically striking site on the coast. Free, open access, and best in the first or last hour of daylight."
     },
     {
       "name": "The Bayeux Tapestry",
+      "image": {
+        "file": "File:Bayeux Tapestry scene57 Harold death.jpg",
+        "alt": "A scene from the Bayeux Tapestry showing the death of Harold"
+      },
       "text": "Displayed in a purpose-built museum in Bayeux, viewed along a curved corridor with an audio guide that keeps you moving at the pace of the narrative. It takes about 30 minutes to walk its length and is far more absorbing than it sounds.",
       "tip": "The museum is undergoing a major renovation with the tapestry due to move to a new display. Check the current arrangements before travelling."
     },
     {
       "name": "Arromanches and the Mulberry harbour",
+      "image": {
+        "file": "File:A Remaining Caisson from the Mulberry Harbour (32297781257).jpg",
+        "alt": "A surviving concrete Mulberry harbour caisson off the beach at Arromanches"
+      },
       "text": "The Allies towed a prefabricated port across the Channel and assembled it here. Concrete caissons still stand offshore, visible from the town and the cliff above it, and the scale of the improvisation is remarkable.",
       "tip": "The cliff-top viewpoint east of the town gives the best overview of the harbour remains at low tide."
     },
     {
       "name": "Omaha Beach and Utah Beach",
+      "image": {
+        "file": "File:Utah Beach towards the South.jpg",
+        "alt": "The wide flat sands and dune grass of Utah Beach today"
+      },
       "text": "Omaha, overlooked by bluffs, saw by far the heaviest American casualties. Utah, flat and further west, was the least costly of the five. Both have memorials on the sand and museums behind them, and both are working public beaches today.",
       "tip": "The Utah Beach museum is built around a preserved B-26 bomber and is one of the best on the coast."
     },
     {
       "name": "Longues-sur-Mer battery",
+      "image": {
+        "file": "File:Batterie Longues-sur-Mer bunker gun.jpg",
+        "alt": "An original German gun still in its casemate at the Longues-sur-Mer battery"
+      },
       "text": "The only German coastal battery in Normandy that still has its original guns in place, in four casemates on the cliff between Gold and Omaha. Free, open, and you can walk inside the emplacements.",
       "tip": "Quieter than the major sites and genuinely atmospheric. Ten minutes from Arromanches."
     },
     {
       "name": "Caen Mémorial",
+      "image": {
+        "file": "File:Mémorial de Caen foyer October 2011.JPG",
+        "alt": "The main foyer of the Mémorial de Caen museum"
+      },
       "text": "The region's largest museum, covering the causes of the Second World War, the occupation, the Battle of Normandy and the Cold War. The best single place to understand the campaign as a whole rather than one beach at a time.",
       "tip": "Allow at least three hours. Go here first if you want context before visiting the beaches themselves."
     },
     {
       "name": "Honfleur and Étretat",
+      "image": {
+        "file": "File:Old port in Honfleur. France.jpg",
+        "alt": "The tall slate-fronted houses around the Vieux Bassin at Honfleur"
+      },
       "text": "East of the landing beaches, two of the loveliest places on the Channel coast: Honfleur's tall slate-fronted houses around an old harbour, and Étretat's white chalk arches and needle rock, painted repeatedly by Monet.",
       "tip": "Étretat's cliff-top walks are free and take about an hour. Go at either end of the day to avoid the coach parties."
     }
@@ -103,31 +135,55 @@
   "thingsToDo": [
     {
       "title": "Take a guided battlefield tour",
+      "image": {
+        "file": "File:Tourists german bunker Pointe du Hoc Calvados, France.jpg",
+        "alt": "Visitors examining a German bunker at Pointe du Hoc"
+      },
       "text": "Half and full-day tours from Bayeux with historian guides make an enormous difference — the sites themselves are often unmarked fields and cliffs, and the interpretation is the value. Small-group tours run roughly €80–130 per person.",
       "tip": "Book several weeks ahead for June, and much further for the anniversary period around 6 June."
     },
     {
       "title": "Visit cemeteries from more than one side",
+      "image": {
+        "file": "File:La Cambe German war cemetery.png",
+        "alt": "The dark stone markers of the German war cemetery at La Cambe"
+      },
       "text": "The American cemetery at Colleville, the British at Bayeux and the German at La Cambe are within 40 minutes of each other and are laid out on completely different principles. Seeing two or three is a very different experience from seeing one.",
       "tip": "La Cambe is the least visited and, for many people, the most affecting."
     },
     {
       "title": "Walk on Omaha at low tide",
+      "image": {
+        "file": "File:Plage d'Omaha - panoramio.jpg",
+        "alt": "Omaha Beach seen from the bluffs that overlook it"
+      },
       "text": "The tide withdraws several hundred metres here, which is roughly the distance the first waves had to cross. Walking it from the water's edge to the bluff, in silence, conveys more than any museum display.",
       "tip": "Check tide times — at high water the beach almost disappears."
     },
     {
       "title": "Tour a cider farm or Calvados distillery",
+      "image": {
+        "file": "File:Pommes à cidre.jpg",
+        "alt": "A heap of cider apples at harvest"
+      },
       "text": "The Pays d'Auge inland from the coast is orchard country, and dozens of producers offer tastings of cider, poiré and Calvados along a signposted cider route.",
       "tip": "Calvados is distilled apple brandy and is stronger than it tastes. Have a designated driver."
     },
     {
       "title": "Eat oysters and mussels on the coast",
+      "image": {
+        "file": "File:Moules Normandes.jpg",
+        "alt": "Mussels cooked Normandy-style in a creamy sauce"
+      },
       "text": "The Norman coast produces enormous quantities of shellfish. Mussels cooked in cider and cream — moules à la normande — are the regional signature and appear on nearly every menu.",
       "tip": "Port-en-Bessin, between Omaha and Arromanches, is a working fishing harbour with excellent, unfussy seafood."
     },
     {
       "title": "Walk the cliffs at Étretat",
+      "image": {
+        "file": "File:Cliffs of Etretat, Normandy, France, December 2022.jpg",
+        "alt": "The chalk cliffs and natural arch at Étretat"
+      },
       "text": "A circular route takes in both arches and the needle, with the Falaise d'Aval to the west and the Falaise d'Amont to the east. About an hour each way and among the best coastal walks in northern France.",
       "tip": "Steep and exposed. The clifftops are unfenced in places — keep well back from the edge in wind."
     }
@@ -136,11 +192,19 @@
   "foods": [
     {
       "name": "Camembert de Normandie",
+      "image": {
+        "file": "File:Camembert de Normandie (AOP) 10.jpg",
+        "alt": "A Camembert de Normandie in its wooden box"
+      },
       "text": "The protected raw-milk version, made in the Pays d'Auge and sold in the familiar wooden box. It is a substantially different cheese from the industrial pasteurised version — softer, more pungent and far more interesting.",
       "whereToTry": "Any Norman market or fromagerie. Look for 'Camembert de Normandie AOP' rather than simply 'Camembert'."
     },
     {
       "name": "Moules à la normande",
+      "image": {
+        "file": "File:Moules Normandes.jpg",
+        "alt": "A pot of mussels cooked Normandy-style in a creamy sauce"
+      },
       "text": "Mussels cooked with cider, cream, shallots and sometimes apple, rather than the white wine used elsewhere. Served with frites, as everywhere in northern France.",
       "whereToTry": "Coastal restaurants from Honfleur to Cherbourg. Port-en-Bessin and Grandcamp-Maisy are good bets."
     },
@@ -151,16 +215,28 @@
     },
     {
       "name": "Calvados",
+      "image": {
+        "file": "File:Calvados Pomme d'Eve.jpg",
+        "alt": "A decanter of Calvados with a whole apple grown inside the bottle"
+      },
       "text": "Apple brandy aged in oak, drunk as a digestif or — in the old Norman habit called the trou normand — as a shot in the middle of a long meal to make room for the next course.",
       "whereToTry": "Distilleries in the Pays d'Auge, and any restaurant at the end of a meal."
     },
     {
       "name": "Teurgoule",
+      "image": {
+        "file": "File:Teurgoule 2.jpg",
+        "alt": "Teurgoule, a Norman rice pudding baked until a dark skin forms"
+      },
       "text": "Rice pudding baked with cinnamon for five or six hours until a dark skin forms on top. A genuinely local dessert, sold in earthenware dishes at markets and rarely found outside the region.",
       "whereToTry": "Norman markets, and traditional restaurants inland from the coast."
     },
     {
       "name": "Andouille de Vire",
+      "image": {
+        "file": "File:AndouilleDeVirePommeau.jpg",
+        "alt": "Sliced andouille de Vire served with a glass of pommeau"
+      },
       "text": "A smoked tripe sausage, sliced thin and eaten cold as a starter. It is strong, distinctly rustic and something of a local test — much loved in Normandy and an acquired taste for everyone else.",
       "whereToTry": "Charcuteries around Vire, and on traditional restaurant menus as a starter."
     }
