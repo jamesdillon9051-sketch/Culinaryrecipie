@@ -53,41 +53,73 @@
   "attractions": [
     {
       "name": "La Concha and Ondarreta",
+      "image": {
+        "file": "File:Playa de Ondarreta - San Sebastian 06.jpg",
+        "alt": "Ondarreta beach at the western end of San Sebastián's bay"
+      },
       "text": "The main bay, sheltered by Santa Clara island and framed by Monte Urgull and Monte Igueldo. Ondarreta continues west to the Peine del Viento, Eduardo Chillida's rusted steel sculptures anchored into the rocks where the waves break.",
       "tip": "The Peine del Viento is best in rough weather, when spouts of water shoot up through vents in the walkway."
     },
     {
       "name": "The Parte Vieja",
+      "image": {
+        "file": "File:Esterlines kalea.jpg",
+        "alt": "A narrow street in San Sebastián's old town"
+      },
       "text": "The old town behind the bay, rebuilt after the town was burned in 1813, and now the densest concentration of pintxos bars anywhere. A dozen streets, over a hundred bars, and one of the most enjoyable evenings in Europe.",
       "tip": "Do not sit down and do not order a full meal. One or two pintxos and a drink per bar, then move on."
     },
     {
       "name": "Monte Igueldo",
+      "image": {
+        "file": "File:San Sebastián (RPS 14-09-2014) Funicular de Igueldo.png",
+        "alt": "The wooden funicular climbing Monte Igueldo"
+      },
       "text": "The western headland, reached by a wooden funicular running since 1912, with a small vintage amusement park at the top and the classic view down the length of the bay.",
       "tip": "The postcard view of San Sebastián is taken from here. Go at golden hour."
     },
     {
       "name": "Monte Urgull",
+      "image": {
+        "file": "File:San Sebastian at night from Monte Urgull.jpg",
+        "alt": "San Sebastián seen at night from Monte Urgull"
+      },
       "text": "The eastern headland, crowned by a fortress and a large statue of Christ, with a free network of wooded paths climbing from the old town and a small museum in the castle.",
       "tip": "Free, uncrowded, and about 30 minutes to the top. The view back over the Parte Vieja is the best in the city."
     },
     {
       "name": "The Guggenheim, Bilbao",
+      "image": {
+        "file": "File:Museo Guggenheim -- 2021 -- Bilbao, Euskadi, España.jpg",
+        "alt": "Gehry's titanium-clad Guggenheim Museum in Bilbao"
+      },
       "text": "An hour west. Frank Gehry's titanium-clad building of 1997 is credited with reviving an entire city, and the structure remains more compelling than most of what is inside it. Jeff Koons's flower Puppy sits at the entrance.",
       "tip": "Walk the riverside and the Casco Viejo too. Bilbao is a real city, not just a museum, and it has excellent pintxos of its own."
     },
     {
       "name": "Getaria and the coastal villages",
+      "image": {
+        "file": "File:Getaria iluntzean. Euskal Herria.JPG",
+        "alt": "The fishing village of Getaria on the Basque coast"
+      },
       "text": "Half an hour west, a fishing village where whole turbot is grilled over charcoal on the street and txakoli is made on the slopes above. Zarautz next door has the region's best surf beach.",
       "tip": "Getaria's grilled fish is the single best meal in the region. Lunch, and book at weekends."
     },
     {
       "name": "San Juan de Gaztelugatxe",
+      "image": {
+        "file": "File:Gaztelugache, Bermeo, País Vasco, España, 2019-08-13, DD 14.jpg",
+        "alt": "The stone bridge and steps up to the hermitage of San Juan de Gaztelugatxe"
+      },
       "text": "A tiny hermitage on a rock island connected to the mainland by a stone bridge and 241 steps up a serpentine causeway. Dramatic, exposed and about an hour from Bilbao.",
       "tip": "Free but requires a booked time slot in advance. It gets very busy since appearing on television."
     },
     {
       "name": "Rioja Alavesa",
+      "image": {
+        "file": "File:Laguardia - Viñedo 02.jpg",
+        "alt": "Vineyards below the walled town of Laguardia in Rioja Alavesa"
+      },
       "text": "Ninety minutes south, the Basque section of the Rioja wine region, with medieval hilltop villages such as Laguardia and modernist wineries designed by Gehry and Calatrava.",
       "tip": "Laguardia's old town sits on a honeycomb of medieval wine cellars still in use beneath the houses."
     }
@@ -96,6 +128,10 @@
   "thingsToDo": [
     {
       "title": "Do a pintxos crawl",
+      "image": {
+        "file": "File:Barra de pintxos Donosti 03.JPG",
+        "alt": "Pintxos laid out along a bar counter in San Sebastián"
+      },
       "text": "Four or five bars over an evening, one or two items and a small glass of wine or cider at each. Take what you want from the counter and tell the barman what you had at the end — it works on trust.",
       "tip": "The chalked list of hot dishes cooked to order is almost always better than the cold display. Ask what the house speciality is."
     },
@@ -106,22 +142,38 @@
     },
     {
       "title": "Walk the coastal path",
+      "image": {
+        "file": "File:Flysch coast between Deba and Zumaia.jpg",
+        "alt": "The flysch cliffs on the coast between Deba and Zumaia"
+      },
       "text": "The Camino del Norte and the local coastal routes run along cliffs between fishing villages. The stretch from San Sebastián west towards Orio and Zarautz is spectacular and well marked.",
       "tip": "Trains and buses run along the coast, so you can walk one way and ride back."
     },
     {
       "title": "Swim or surf",
+      "image": {
+        "file": "File:Surf zurriola 0001.jpg",
+        "alt": "Surfers on Zurriola beach in San Sebastián"
+      },
       "text": "La Concha is sheltered and calm, Zurriola on the far side of the river faces the open Atlantic and has the surf. Zarautz, twenty minutes west, has the region's best beach break and plenty of schools.",
       "tip": "The water is Atlantic and cold — around 20–22°C at its August peak. A wetsuit is normal outside high summer."
     },
     {
       "title": "Taste txakoli",
+      "image": {
+        "file": "File:Begoñako txakolindegietako edalontzi eta pitxerra.jpg",
+        "alt": "A jug and glass of txakoli"
+      },
       "text": "A sharp, faintly fizzy, low-alcohol white made on the coastal slopes, poured from a height into a wide glass to open it up. Drunk young and cold, and the natural partner to pintxos.",
       "whereToTry": "Every bar in the region.",
       "tip": "Getaria is the main production area and several wineries above the village receive visitors."
     },
     {
       "title": "Take the day trip to Bilbao",
+      "image": {
+        "file": "File:Bilbao Guggenheim 1190444.jpg",
+        "alt": "The Guggenheim on the riverside in Bilbao"
+      },
       "text": "An hour by bus, for the Guggenheim, the riverside walk, the Casco Viejo's Seven Streets and the Mercado de la Ribera. A completely different city — industrial, larger, grittier and reinvented.",
       "tip": "The bus is faster and cheaper than the train on this route. It runs roughly every half hour."
     }
@@ -130,11 +182,19 @@
   "foods": [
     {
       "name": "Pintxos",
+      "image": {
+        "file": "File:Barra de pintxos Donosti 04.JPG",
+        "alt": "Pintxos on bread arranged along the bar"
+      },
       "text": "Small constructions on bread laid out along the bar, plus hot dishes cooked to order from a chalked list. Named for the toothpick that holds them together, which is also how the bill is counted.",
       "whereToTry": "The Parte Vieja in San Sebastián and the Casco Viejo in Bilbao. Order from the list, not just the counter."
     },
     {
       "name": "Bacalao al pil-pil",
+      "image": {
+        "file": "File:Bacalao a pil pil, Bar Lo Gueno, Malaga.jpg",
+        "alt": "Salt cod in a pil-pil sauce of oil and garlic"
+      },
       "text": "Salt cod cooked slowly in olive oil and garlic, the pan swirled continuously so the fish's own gelatine emulsifies the oil into a pale sauce. Technically demanding and entirely Basque.",
       "whereToTry": "Traditional restaurants in both cities. Also served a la vizcaína, in a red pepper sauce."
     },
@@ -150,11 +210,19 @@
     },
     {
       "name": "Txakoli and sidra",
+      "image": {
+        "file": "File:Begoñako txakolindegietako edalontzia.jpg",
+        "alt": "A glass of txakoli poured from a height"
+      },
       "text": "Txakoli is a sharp, lightly sparkling white poured from a height; sidra is flat Basque cider, also poured long, drunk in quantity in cider houses from January to April.",
       "whereToTry": "Txakoli in every bar; sidra in the sagardotegis of Astigarraga during the txotx season."
     },
     {
       "name": "Gâteau Basque and Idiazabal",
+      "image": {
+        "file": "File:Queso Idiazábal.jpg",
+        "alt": "A wedge of smoked Idiazabal sheep's cheese"
+      },
       "text": "A dense almond and pastry cake filled with cherry jam or custard, and a smoked sheep's-milk cheese from the mountain pastures that is one of Spain's best.",
       "whereToTry": "Pastelerías throughout the region; Idiazabal at any market or cheese shop."
     }

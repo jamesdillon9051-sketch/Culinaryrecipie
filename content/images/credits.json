@@ -571,6 +571,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bacalao a pil pil, Bar Lo Gueno, Malaga.jpg": {
+    "artist": "Jun",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacalao_a_pil_pil,_Bar_Lo_Gueno,_Malaga.jpg",
+    "context": "Bacalao al pil-pil — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--food-2.webp",
+    "card": "images/spain/san-sebastian-basque--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Baccalà mantecato con polenta La Nuova Perla.jpg": {
     "artist": "Benreis",
     "license": "CC BY-SA 4.0",
@@ -659,6 +672,32 @@
     "card": "images/spain/barcelona--thing-2-card.webp",
     "heroWidth": 1500,
     "heroHeight": 844,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Barra de pintxos Donosti 03.JPG": {
+    "artist": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barra_de_pintxos_Donosti_03.JPG",
+    "context": "Do a pintxos crawl — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--thing-1.webp",
+    "card": "images/spain/san-sebastian-basque--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Barra de pintxos Donosti 04.JPG": {
+    "artist": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barra_de_pintxos_Donosti_04.JPG",
+    "context": "Pintxos — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--food-1.webp",
+    "card": "images/spain/san-sebastian-basque--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -766,6 +805,32 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Begoñako txakolindegietako edalontzi eta pitxerra.jpg": {
+    "artist": "Ksarasola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bego%C3%B1ako_txakolindegietako_edalontzi_eta_pitxerra.jpg",
+    "context": "Taste txakoli — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--thing-5.webp",
+    "card": "images/spain/san-sebastian-basque--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Begoñako txakolindegietako edalontzia.jpg": {
+    "artist": "Ksarasola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bego%C3%B1ako_txakolindegietako_edalontzia.jpg",
+    "context": "Txakoli and sidra — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--food-5.webp",
+    "card": "images/spain/san-sebastian-basque--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Belltower street cordoba.jpg": {
     "artist": "PerryPlanet",
     "license": "Public domain",
@@ -791,6 +856,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Bilbao Guggenheim 1190444.jpg": {
+    "artist": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bilbao_Guggenheim_1190444.jpg",
+    "context": "Take the day trip to Bilbao — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--thing-6.webp",
+    "card": "images/spain/san-sebastian-basque--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 513
   },
   "File:Bistecca alla fiorentina (400gr).jpg": {
     "artist": "Number55",
@@ -2508,6 +2586,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Esterlines kalea.jpg": {
+    "artist": "Hpholke",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esterlines_kalea.jpg",
+    "context": "The Parte Vieja — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-2.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Exploring Varenna on Lake Como.jpg": {
     "artist": "Brad Coy",
     "license": "CC BY 2.0",
@@ -2742,6 +2833,19 @@
     "cardWidth": 800,
     "cardHeight": 468
   },
+  "File:Flysch coast between Deba and Zumaia.jpg": {
+    "artist": "Jörg Braukmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flysch_coast_between_Deba_and_Zumaia.jpg",
+    "context": "Walk the coastal path — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--thing-3.webp",
+    "card": "images/spain/san-sebastian-basque--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 841,
+    "cardWidth": 800,
+    "cardHeight": 420
+  },
   "File:Focaccia on sale in Genoa.JPG": {
     "artist": "User:Rachel Dalby photographer",
     "license": "CC BY-SA 4.0",
@@ -2963,6 +3067,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Gaztelugache, Bermeo, País Vasco, España, 2019-08-13, DD 14.jpg": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaztelugache,_Bermeo,_Pa%C3%ADs_Vasco,_Espa%C3%B1a,_2019-08-13,_DD_14.jpg",
+    "context": "San Juan de Gaztelugatxe — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-7.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 520
+  },
   "File:Gelateria italiana.jpg": {
     "artist": "Lasagnolo9",
     "license": "CC BY-SA 4.0",
@@ -2971,6 +3088,19 @@
     "context": "Gelato, properly made — Italy",
     "hero": "images/italy/_country--food-6.webp",
     "card": "images/italy/_country--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Getaria iluntzean. Euskal Herria.JPG": {
+    "artist": "Euskalduna",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Getaria_iluntzean._Euskal_Herria.JPG",
+    "context": "Getaria and the coastal villages — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-6.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3560,6 +3690,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Laguardia - Viñedo 02.jpg": {
+    "artist": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laguardia_-_Vi%C3%B1edo_02.jpg",
+    "context": "Rioja Alavesa — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-8.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Lama Monachile.jpg": {
     "artist": "Calogero77",
@@ -4379,6 +4522,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Museo Guggenheim -- 2021 -- Bilbao, Euskadi, España.jpg": {
+    "artist": "José Ligero Loarte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim_--_2021_--_Bilbao,_Euskadi,_Espa%C3%B1a.jpg",
+    "context": "The Guggenheim, Bilbao — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-5.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 500
   },
   "File:Museo Nacional Centro de Arte Reina Sofia - Plaza de Juan Goytisolo - Madrid 01.jpg": {
     "artist": "Javier Perez Montes",
@@ -5251,6 +5407,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Playa de Ondarreta - San Sebastian 06.jpg": {
+    "artist": "Javier Pérez Montes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Ondarreta_-_San_Sebastian_06.jpg",
+    "context": "La Concha and Ondarreta — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-1.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Plaza de España (Sevilla) - 01.jpg": {
     "artist": "Carlos Delgado",
     "license": "CC BY-SA 4.0",
@@ -5484,6 +5653,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Queso Idiazábal.jpg": {
+    "artist": "Xavigivax",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queso_Idiaz%C3%A1bal.jpg",
+    "context": "Gâteau Basque and Idiazabal — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--food-6.webp",
+    "card": "images/spain/san-sebastian-basque--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Rabo de toro-Estofado (01).JPG": {
     "artist": "Tamorlan",
@@ -5926,6 +6108,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:San Sebastián (RPS 14-09-2014) Funicular de Igueldo.png": {
+    "artist": "Raimundo Pastor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_(RPS_14-09-2014)_Funicular_de_Igueldo.png",
+    "context": "Monte Igueldo — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-3.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 490
+  },
+  "File:San Sebastian at night from Monte Urgull.jpg": {
+    "artist": "Phillip Maiwald (Nikopol)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Sebastian_at_night_from_Monte_Urgull.jpg",
+    "context": "Monte Urgull — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--attraction-4.webp",
+    "card": "images/spain/san-sebastian-basque--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 460
   },
   "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
     "artist": "Ermell",
@@ -6442,6 +6650,19 @@
     "context": "Walk the Seine at dusk — Paris, France",
     "hero": "images/france/paris--thing-2.webp",
     "card": "images/france/paris--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Surf zurriola 0001.jpg": {
+    "artist": "Joxemai",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surf_zurriola_0001.jpg",
+    "context": "Swim or surf — San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque--thing-4.webp",
+    "card": "images/spain/san-sebastian-basque--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
