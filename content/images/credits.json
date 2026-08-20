@@ -77,6 +77,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2010 Riesling Vieilles Vignes from Elsa Barabos, Obernai, Alsace (6711020535).jpg": {
+    "artist": "Michal Osmenda from Brussels, Belgium",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010_Riesling_Vieilles_Vignes_from_Elsa_Barabos,_Obernai,_Alsace_(6711020535).jpg",
+    "context": "Alsatian white wine — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-6.webp",
+    "card": "images/france/strasbourg-alsace--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg": {
     "artist": "Luis Miguel Bugallo Sánchez",
     "license": "CC BY-SA 3.0",
@@ -415,6 +428,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Ausflugsboote auf der Ill vor Palais Rohan, Strasbourg.jpg": {
+    "artist": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ausflugsboote_auf_der_Ill_vor_Palais_Rohan,_Strasbourg.jpg",
+    "context": "Take a boat through Strasbourg — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--thing-4.webp",
+    "card": "images/france/strasbourg-alsace--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 500
+  },
   "File:Avignon, Palais des Papes by JM Rosier.jpg": {
     "artist": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier.com)",
     "license": "CC BY-SA 3.0",
@@ -462,6 +488,19 @@
     "context": "Baccalà mantecato — Venice, Italy",
     "hero": "images/italy/venice--food-3.webp",
     "card": "images/italy/venice--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Baeckeoffe 01.JPG": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baeckeoffe_01.JPG",
+    "context": "Baeckeoffe — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-3.webp",
+    "card": "images/france/strasbourg-alsace--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -735,6 +774,19 @@
     "context": "Speck and the Marende platter — The Dolomites, Italy",
     "hero": "images/italy/dolomites--food-2.webp",
     "card": "images/italy/dolomites--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Bretzel 01.JPG": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bretzel_01.JPG",
+    "context": "Pretzels and mannele — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-4.webp",
+    "card": "images/france/strasbourg-alsace--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1091,6 +1143,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Castle of Haut-Koenigsbourg (2).jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_Haut-Koenigsbourg_(2).jpg",
+    "context": "Haut-Koenigsbourg — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-6.webp",
+    "card": "images/france/strasbourg-alsace--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 518,
+    "cardWidth": 800,
+    "cardHeight": 259
+  },
   "File:Castle of Marqueyssac 16.jpg": {
     "artist": "Krzysztof Golik",
     "license": "CC BY-SA 4.0",
@@ -1242,6 +1307,19 @@
     "context": "Walk into the rock churches — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--thing-5.webp",
     "card": "images/italy/puglia-matera--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Choucroute garnie à Paris.jpg": {
+    "artist": "User:Anvilaquarius",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choucroute_garnie_%C3%A0_Paris.jpg",
+    "context": "Choucroute garnie — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-1.webp",
+    "card": "images/france/strasbourg-alsace--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1975,6 +2053,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Flammekueche (tarte flambée).jpg": {
+    "artist": "Jane Belinda Smith from Peterborough, Cambridgeshire, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flammekueche_(tarte_flamb%C3%A9e).jpg",
+    "context": "Eat tarte flambée in a village winstub — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--thing-3.webp",
+    "card": "images/france/strasbourg-alsace--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Florence from the Duomo terrace (61408p).jpg": {
     "artist": "Rhododendrites",
     "license": "CC BY-SA 4.0",
@@ -2100,6 +2191,19 @@
     "context": "Fouées — The Loire Valley, France",
     "hero": "images/france/loire-valley--food-5.webp",
     "card": "images/france/loire-valley--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Fr Alsace Plaque bredele 2.jpg": {
+    "artist": "Pethrus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fr_Alsace_Plaque_bredele_2.jpg",
+    "context": "Do the Christmas markets properly — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--thing-6.webp",
+    "card": "images/france/strasbourg-alsace--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2820,6 +2924,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Little Venice in Colmar 01.jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Venice_in_Colmar_01.jpg",
+    "context": "Colmar — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-5.webp",
+    "card": "images/france/strasbourg-alsace--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 513
+  },
   "File:Littoral path in Saint-Jean Cap-Ferrat.jpg": {
     "artist": "Tangopaso",
     "license": "Public domain",
@@ -2958,6 +3075,19 @@
     "context": "Do a market properly — Provence & the Luberon, France",
     "hero": "images/france/provence-luberon--thing-1.webp",
     "card": "images/france/provence-luberon--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Marché de Noël (Strasbourg).jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_de_No%C3%ABl_(Strasbourg).jpg",
+    "context": "The Christmas markets — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-7.webp",
+    "card": "images/france/strasbourg-alsace--attraction-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3236,6 +3366,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Munster 01.jpg": {
+    "artist": "Pierre-Yves Beaudouin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Munster_01.jpg",
+    "context": "Munster cheese — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-5.webp",
+    "card": "images/france/strasbourg-alsace--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Naples spaccanapoli.JPG": {
     "artist": "Velvet",
     "license": "CC BY-SA 3.0",
@@ -3443,6 +3586,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Palais Rohan face au quai des Bateliers, Strasbourg.jpg": {
+    "artist": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_Rohan_face_au_quai_des_Bateliers,_Strasbourg.jpg",
+    "context": "The Grande Île — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-3.webp",
+    "card": "images/france/strasbourg-alsace--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 894,
+    "cardWidth": 800,
+    "cardHeight": 447
   },
   "File:Palazzo dello Spagnolo - Naples.jpg": {
     "artist": "alterdimaggio1957",
@@ -3686,6 +3842,19 @@
     "context": "Père-Lachaise Cemetery — Paris, France",
     "hero": "images/france/paris--attraction-8.webp",
     "card": "images/france/paris--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Petite France @ Strasbourg (30578243957).jpg": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petite_France_@_Strasbourg_(30578243957).jpg",
+    "context": "La Petite France — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-2.webp",
+    "card": "images/france/strasbourg-alsace--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4289,6 +4458,19 @@
     "cardWidth": 800,
     "cardHeight": 528
   },
+  "File:Route des Crêtes neige.jpg": {
+    "artist": "HagridLiving",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Route_des_Cr%C3%AAtes_neige.jpg",
+    "context": "The Vosges and Route des Crêtes — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-8.webp",
+    "card": "images/france/strasbourg-alsace--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Rue Mouffetard food market, Paris 8 May 2012.jpg": {
     "artist": "edwin.11",
     "license": "CC BY 2.0",
@@ -4744,6 +4926,45 @@
     "cardWidth": 800,
     "cardHeight": 518
   },
+  "File:Strasbourg - Cathedral - West Façade I.jpg": {
+    "artist": "Txllxt TxllxT",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strasbourg_-_Cathedral_-_West_Fa%C3%A7ade_I.jpg",
+    "context": "Strasbourg Cathedral — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-1.webp",
+    "card": "images/france/strasbourg-alsace--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Strasbourg Cathedral Exterior - Diliff.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+    "context": "Strasbourg Cathedral — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-1.webp",
+    "card": "images/france/strasbourg-alsace--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Strasbourg Cathedral, spire.jpg": {
+    "artist": "Tinker George Jemmott",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral,_spire.jpg",
+    "context": "Climb the cathedral spire — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--thing-5.webp",
+    "card": "images/france/strasbourg-alsace--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Street with trulli Alberobello.jpg": {
     "artist": "MPhernambucq",
     "license": "CC BY-SA 4.0",
@@ -4882,6 +5103,19 @@
     "context": "Tapenade and anchoïade — Provence & the Luberon, France",
     "hero": "images/france/provence-luberon--food-2.webp",
     "card": "images/france/provence-luberon--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tarte flambée alsacienne 514471722.jpg": {
+    "artist": "Lulu Durand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarte_flamb%C3%A9e_alsacienne_514471722.jpg",
+    "context": "Tarte flambée — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--food-2.webp",
+    "card": "images/france/strasbourg-alsace--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5081,6 +5315,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Town hall of Riquewihr (3).jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_hall_of_Riquewihr_(3).jpg",
+    "context": "Riquewihr and the wine villages — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--attraction-4.webp",
+    "card": "images/france/strasbourg-alsace--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 461
   },
   "File:Traghetto San Tomà Venice.JPG": {
     "artist": "Abxbay",
@@ -5458,6 +5705,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Vignes alsace husseren les chateaux.jpg": {
+    "artist": "Octoski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vignes_alsace_husseren_les_chateaux.jpg",
+    "context": "Drive or cycle the Route des Vins — Strasbourg & Alsace, France",
+    "hero": "images/france/strasbourg-alsace--thing-1.webp",
+    "card": "images/france/strasbourg-alsace--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 525,
+    "cardWidth": 800,
+    "cardHeight": 262
   },
   "File:Villa Romana del Casale - Bikini Girls mosaic Szene.jpg": {
     "artist": "Moleskine",
