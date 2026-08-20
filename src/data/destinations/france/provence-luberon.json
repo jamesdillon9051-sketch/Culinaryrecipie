@@ -61,41 +61,73 @@
   "attractions": [
     {
       "name": "Pont du Gard",
+      "image": {
+        "file": "File:Pont du Gard (30).jpg",
+        "alt": "The three-tier Roman aqueduct bridge of the Pont du Gard"
+      },
       "text": "A three-tier aqueduct bridge 49 metres high, built around 50 AD to carry water across the Gardon river, and assembled from precisely cut blocks weighing up to six tonnes without a drop of mortar. You can walk across the lowest tier and swim in the river below it, which puts the scale into perspective better than any viewing platform.",
       "tip": "Parking is charged per car and covers site entry. Go at opening or after 18:00 in summer, when the light is better and the crowds have gone."
     },
     {
       "name": "Gordes",
+      "image": {
+        "file": "File:Gordes view 1.jpg",
+        "alt": "The pale stone village of Gordes spiralling up its rock face"
+      },
       "text": "The most photographed village in the Luberon, spiralling up a rock face in pale stone with a castle at the top. The classic view is from the layby on the D15 as you approach from the south. Twenty minutes down the road is the Abbaye de Sénanque, a 12th-century Cistercian abbey with a lavender field in front of it.",
       "tip": "Gordes is busy from mid-morning. The village is at its best at 08:30 or at dusk, and parking below is far easier at both times."
     },
     {
       "name": "Roussillon and the ochre trail",
+      "image": {
+        "file": "File:Sentier des Ocres, Roussillon.jpg",
+        "alt": "The red and orange ochre cliffs on the trail at Roussillon"
+      },
       "text": "A village painted in every shade of the ochre that was mined beneath it, sitting on cliffs of the same material. The Sentier des Ocres is a 30 or 50-minute marked walk through the old workings, which look like a small canyon in Utah dropped into a French forest.",
       "tip": "The ochre dust stains. Do not wear anything white, and it genuinely does not come out of pale trainers."
     },
     {
       "name": "Arles",
+      "image": {
+        "file": "File:Arles - 2017-05-24 - Roman Amphitheatre - 3804.jpg",
+        "alt": "The Roman amphitheatre at Arles, still in use today"
+      },
       "text": "A working town with a Roman amphitheatre still in use, a Roman theatre, the Alyscamps necropolis and the Fondation Vincent van Gogh. Van Gogh painted the Café Terrace at Night and the Yellow House here, and marked panels around town show the paintings where he stood.",
       "tip": "Wednesday and Saturday mornings bring one of the biggest markets in Provence, spilling right along the boulevard."
     },
     {
       "name": "Avignon",
+      "image": {
+        "file": "File:Avignon, Palais des Papes by JM Rosier.jpg",
+        "alt": "The vast facade of the Palais des Papes in Avignon"
+      },
       "text": "The seat of the papacy for most of the 14th century, with the enormous Palais des Papes to show for it, a complete circuit of medieval walls, and the famous half-bridge over the Rhône. It has the region's best rail connections and works well as an arrival point.",
       "tip": "The Palais is largely empty rooms — the audio-visual tablet tour is genuinely worth the supplement to make sense of it."
     },
     {
       "name": "L'Isle-sur-la-Sorgue",
+      "image": {
+        "file": "File:Waterwheel, Isle-sur-la-Sorge.JPG",
+        "alt": "An old mossy waterwheel turning on the Sorgue"
+      },
       "text": "A small town built on branches of a startlingly clear river, with old waterwheels still turning in the streets and the largest antiques trade in France outside Paris. The Sunday market takes over the whole centre and is the busiest and best in the region.",
       "tip": "Go on Sunday for the market or on a weekday for the town. On Sunday afternoons the traffic in and out is genuinely bad."
     },
     {
       "name": "The lavender plateaus",
+      "image": {
+        "file": "File:Plateau de Valensole.jpg",
+        "alt": "Rows of lavender in flower on the Valensole plateau"
+      },
       "text": "The postcard fields are mostly on the Valensole plateau, an hour east of the Luberon, and around Sault further north. Valensole flowers earlier, from late June; Sault is higher and peaks in mid-July, giving you a second chance if you arrive late.",
       "tip": "Harvest starts in the first half of August and the fields are cut fast. Late June to the third week of July is the reliable window."
     },
     {
       "name": "Aix-en-Provence",
+      "image": {
+        "file": "File:Aix-en-Provence - La Fontaine Moussue 10.jpg",
+        "alt": "The moss-covered fountain on the Cours Mirabeau in Aix-en-Provence"
+      },
       "text": "An elegant university town of plane-tree avenues and fountains, with a daily produce market, Cézanne's studio preserved as he left it, and the Montagne Sainte-Victoire rising east of the city. It is the most urban thing in the region and a good change of pace after four days of villages.",
       "tip": "The Cours Mirabeau's cafés are for people-watching and priced accordingly. Eat in the lanes north of it instead."
     }
@@ -104,21 +136,37 @@
   "thingsToDo": [
     {
       "title": "Do a market properly",
+      "image": {
+        "file": "File:Marché aux Fruits et Légumes à Aix-en-Provence.jpg",
+        "alt": "Fruit and vegetable stalls at the market in Aix-en-Provence"
+      },
       "text": "Pick the day, arrive by 09:00, and buy lunch rather than souvenirs: a rotisserie chicken, tapenade, goat's cheese rolled in herbs, tomatoes that smell of tomato, and a bottle of Côtes du Ventoux. Then find a view and eat it.",
       "tip": "Saturday is Apt and Arles, Sunday is Isle-sur-la-Sorgue and Coustellet, Wednesday is Saint-Rémy. Plan your week around them."
     },
     {
       "title": "Drive the Luberon village loop",
+      "image": {
+        "file": "File:Bonnieux au coeur du Luberon (Vaucluse).jpg",
+        "alt": "The hillside village of Bonnieux in the heart of the Luberon"
+      },
       "text": "Gordes, Roussillon, Bonnieux, Lacoste, Ménerbes and Oppède-le-Vieux form a circuit of about 60 km on small roads through vineyards and cherry orchards. It takes a full day if you stop properly, and the driving is a large part of the point.",
       "tip": "Go anticlockwise starting at Gordes early, so you reach the quieter villages when the coaches arrive at the famous ones."
     },
     {
       "title": "Swim in the Gardon or the Sorgue",
+      "image": {
+        "file": "File:Fontaine-de-Vaucluse 20180922 09.jpg",
+        "alt": "The clear water of the Sorgue running over rocks at Fontaine-de-Vaucluse"
+      },
       "text": "The river beneath the Pont du Gard has shallow beaches and is genuinely swimmable in summer. The Sorgue emerges from a spring at Fontaine-de-Vaucluse — one of the largest in the world — and is cold and clear enough to be startling.",
       "tip": "The Gardon can run low by late August. Early summer gives you the better water."
     },
     {
       "title": "Taste in a Côtes du Rhône cellar",
+      "image": {
+        "file": "File:139 Châteauneuf-du-Pape vineyard.jpg",
+        "alt": "Vines growing over the stony ground of a Châteauneuf-du-Pape vineyard"
+      },
       "text": "Châteauneuf-du-Pape, Gigondas and Vacqueyras are within 40 minutes of Avignon, and dozens of small domaines run informal tastings. This is red wine country — grenache-based, warm and generous — with excellent rosé for the summer.",
       "tip": "Most cellars close 12:00–14:00. Ring or email small producers a day ahead."
     },
@@ -129,6 +177,10 @@
     },
     {
       "title": "Walk up a mountain in the evening",
+      "image": {
+        "file": "File:140608 Mont-Ventoux-04.jpg",
+        "alt": "The bare limestone summit of Mont Ventoux with its observatory tower"
+      },
       "text": "The Montagne Sainte-Victoire above Aix, the ridge above Bonnieux, or Mont Ventoux if you are ambitious — a bare limestone summit at 1,910 m that features regularly in the Tour de France and is drivable to the top.",
       "tip": "Ventoux's summit road usually closes from November to May because of snow."
     }
@@ -137,31 +189,55 @@
   "foods": [
     {
       "name": "Ratatouille",
+      "image": {
+        "file": "File:Ratatouille 001.jpg",
+        "alt": "A dish of ratatouille"
+      },
       "text": "Aubergine, courgette, pepper, onion and tomato cooked slowly in olive oil with herbs. Done properly the vegetables are cooked separately and combined at the end so each one keeps its character — which is exactly what the cheap versions skip.",
       "whereToTry": "Traditional restaurants across the region, usually as a side to lamb or on its own at lunch."
     },
     {
       "name": "Tapenade and anchoïade",
+      "image": {
+        "file": "File:Tapenade 01.jpg",
+        "alt": "A bowl of black olive tapenade"
+      },
       "text": "Black olive paste with capers and anchovy, and a warm anchovy-and-garlic dip for raw vegetables. Both arrive as an aperitif with bread and both are far more intense than the supermarket versions.",
       "whereToTry": "Every market in the region sells them by weight from tubs. Buy small quantities of several."
     },
     {
       "name": "Daube provençale",
+      "image": {
+        "file": "File:Daube provençale 03.jpg",
+        "alt": "Daube provençale, beef braised slowly in red wine"
+      },
       "text": "Beef braised for hours in red wine with orange peel, olives and herbs — the region's cold-weather dish, usually served with pasta or polenta rather than potatoes. Best from October through spring.",
       "whereToTry": "Village restaurants in the Luberon, particularly in the off season."
     },
     {
       "name": "Goat's cheese",
+      "image": {
+        "file": "File:Banon1.jpg",
+        "alt": "A Banon goat cheese wrapped in chestnut leaves and tied with raffia"
+      },
       "text": "Banon is the local star: a small cheese wrapped in chestnut leaves and tied with raffia, sold at every stage from fresh and chalky to strongly ripened. Ask the stallholder which stage you want and when you plan to eat it.",
       "whereToTry": "Any Provençal market. The town of Banon itself, north of Apt, has the best selection."
     },
     {
       "name": "Melon de Cavaillon",
+      "image": {
+        "file": "File:Les premiers Melon de Cavaillon IGP.jpg",
+        "alt": "Melons de Cavaillon, small and orange-fleshed"
+      },
       "text": "Small orange-fleshed melons from the town at the western end of the Luberon, in season from June to September and genuinely different from what supermarkets sell. Traditionally eaten with a splash of Beaumes-de-Venise wine.",
       "whereToTry": "Roadside stalls and every summer market. Cavaillon holds a melon festival in July."
     },
     {
       "name": "Calisson d'Aix",
+      "image": {
+        "file": "File:Calisson.jpg",
+        "alt": "Calissons d’Aix, almond sweets with a white icing top"
+      },
       "text": "A small almond-and-candied-melon sweet with a royal icing top, made in Aix-en-Provence since the 15th century. Shaped like a pointed oval and sold in boxes from specialist shops around the old town.",
       "whereToTry": "Confiseries in central Aix. Several have been making them for more than a century."
     }

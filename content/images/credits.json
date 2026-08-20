@@ -38,6 +38,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:139 Châteauneuf-du-Pape vineyard.jpg": {
+    "artist": "Jarrod Doll",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:139_Ch%C3%A2teauneuf-du-Pape_vineyard.jpg",
+    "context": "Taste in a Côtes du Rhône cellar — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--thing-4.webp",
+    "card": "images/france/provence-luberon--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:140608 Mont-Ventoux-04.jpg": {
+    "artist": "BlueBreezeWiki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:140608_Mont-Ventoux-04.jpg",
+    "context": "Walk up a mountain in the evening — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--thing-6.webp",
+    "card": "images/france/provence-luberon--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:2002 Rome Roman Forum & Palatine 01.jpg": {
     "artist": "Nicholas Hartmann",
     "license": "CC BY-SA 4.0",
@@ -207,6 +233,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Aix-en-Provence - La Fontaine Moussue 10.jpg": {
+    "artist": "René Hourdry",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aix-en-Provence_-_La_Fontaine_Moussue_10.jpg",
+    "context": "Aix-en-Provence — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-8.webp",
+    "card": "images/france/provence-luberon--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Alexander and Bucephalus - Battle of Issus mosaic - Museo Archeologico Nazionale - Naples BW.jpg": {
     "artist": "Unknown creatorUnknown creator",
     "license": "Public domain",
@@ -337,6 +376,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Arles - 2017-05-24 - Roman Amphitheatre - 3804.jpg": {
+    "artist": "PierreSelim",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arles_-_2017-05-24_-_Roman_Amphitheatre_-_3804.jpg",
+    "context": "Arles — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-4.webp",
+    "card": "images/france/provence-luberon--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:At Nerbone, the central market in Florence - serving bollito di manzi and tripe sandwiches (16821894141).jpg": {
     "artist": "Winniepix",
     "license": "CC BY 2.0",
@@ -362,6 +414,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Avignon, Palais des Papes by JM Rosier.jpg": {
+    "artist": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avignon,_Palais_des_Papes_by_JM_Rosier.jpg",
+    "context": "Avignon — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-5.webp",
+    "card": "images/france/provence-luberon--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 652,
+    "cardWidth": 800,
+    "cardHeight": 326
   },
   "File:Avranches(Manche)-Scriptorial-\"Saint Jean-Baptiste\"(Bois polychrome-XVIe).jpg": {
     "artist": "Patrick from Compiègne, France",
@@ -423,6 +488,19 @@
     "context": "Eat your way through Palermo's markets — Sicily, Italy",
     "hero": "images/italy/sicily--thing-1.webp",
     "card": "images/italy/sicily--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Banon1.jpg": {
+    "artist": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banon1.jpg",
+    "context": "Goat's cheese — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-4.webp",
+    "card": "images/france/provence-luberon--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -570,6 +648,19 @@
     "heroHeight": 720,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Bonnieux au coeur du Luberon (Vaucluse).jpg": {
+    "artist": "Mathieu BROSSAIS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonnieux_au_coeur_du_Luberon_(Vaucluse).jpg",
+    "context": "Drive the Luberon village loop — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--thing-2.webp",
+    "card": "images/france/provence-luberon--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Boqueria, Barcelona (P1170747).jpg": {
     "artist": "Matti Blume",
@@ -739,6 +830,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Calisson.jpg": {
+    "artist": "Mathsci",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calisson.jpg",
+    "context": "Calisson d'Aix — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-6.webp",
+    "card": "images/france/provence-luberon--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 455
   },
   "File:Calle dei Olivi, Castello, Laundry Day In Venice (59269042).jpg": {
     "artist": "O Palsson",
@@ -1546,6 +1650,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Daube provençale 03.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daube_proven%C3%A7ale_03.jpg",
+    "context": "Daube provençale — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-3.webp",
+    "card": "images/france/provence-luberon--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Delizia al limone.jpg": {
     "artist": "dags 1974",
     "license": "CC BY 2.0",
@@ -1936,6 +2053,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Fontaine-de-Vaucluse 20180922 09.jpg": {
+    "artist": "Georges Seguin (Okki)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fontaine-de-Vaucluse_20180922_09.jpg",
+    "context": "Swim in the Gardon or the Sorgue — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--thing-3.webp",
+    "card": "images/france/provence-luberon--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Forrest Gump Point Monument Valley November 2018 001.jpg": {
     "artist": "King of Hearts",
     "license": "CC BY-SA 4.0",
@@ -2152,6 +2282,19 @@
     "context": "San Francisco & the California Coast, United States",
     "hero": "images/united-states/san-francisco.webp",
     "card": "images/united-states/san-francisco-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Gordes view 1.jpg": {
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordes_view_1.jpg",
+    "context": "Gordes — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-2.webp",
+    "card": "images/france/provence-luberon--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2638,6 +2781,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Les premiers Melon de Cavaillon IGP.jpg": {
+    "artist": "SyndicatMelondeCavaillon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_premiers_Melon_de_Cavaillon_IGP.jpg",
+    "context": "Melon de Cavaillon — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-5.webp",
+    "card": "images/france/provence-luberon--food-5-card.webp",
+    "heroWidth": 1500,
+    "heroHeight": 844,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Limone and Limoncello.jpg": {
     "artist": "Bill and Kathy",
     "license": "CC BY 2.0",
@@ -2793,6 +2949,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Marché aux Fruits et Légumes à Aix-en-Provence.jpg": {
+    "artist": "Tmv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_aux_Fruits_et_L%C3%A9gumes_%C3%A0_Aix-en-Provence.jpg",
+    "context": "Do a market properly — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--thing-1.webp",
+    "card": "images/france/provence-luberon--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Marché des Capucins 2024 (4).jpg": {
     "artist": "Benreis",
@@ -3717,6 +3886,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Plateau de Valensole.jpg": {
+    "artist": "Ylliab Photo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateau_de_Valensole.jpg",
+    "context": "The lavender plateaus — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-7.webp",
+    "card": "images/france/provence-luberon--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Plaza de España (Sevilla) - 01.jpg": {
     "artist": "Carlos Delgado",
     "license": "CC BY-SA 4.0",
@@ -3781,6 +3963,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Pont du Gard (30).jpg": {
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_(30).jpg",
+    "context": "Pont du Gard — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-1.webp",
+    "card": "images/france/provence-luberon--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 486
   },
   "File:Ponte di Rialto Venice 1.jpg": {
     "artist": "kallerna",
@@ -3907,6 +4102,19 @@
     "context": "Charleston, South Carolina, United States",
     "hero": "images/united-states/charleston.webp",
     "card": "images/united-states/charleston-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ratatouille 001.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ratatouille_001.jpg",
+    "context": "Ratatouille — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-1.webp",
+    "card": "images/france/provence-luberon--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4341,6 +4549,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sentier des Ocres, Roussillon.jpg": {
+    "artist": "Willyman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentier_des_Ocres,_Roussillon.jpg",
+    "context": "Roussillon and the ochre trail — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-3.webp",
+    "card": "images/france/provence-luberon--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 704,
+    "cardWidth": 800,
+    "cardHeight": 352
+  },
   "File:Sentiero degli Dei 15 Campania.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -4648,6 +4869,19 @@
     "context": "Taormina — Sicily, Italy",
     "hero": "images/italy/sicily--attraction-6.webp",
     "card": "images/italy/sicily--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tapenade 01.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapenade_01.jpg",
+    "context": "Tapenade and anchoïade — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--food-2.webp",
+    "card": "images/france/provence-luberon--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5324,6 +5558,19 @@
     "context": "Château de Beynac — The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat--attraction-4.webp",
     "card": "images/france/dordogne-sarlat--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Waterwheel, Isle-sur-la-Sorge.JPG": {
+    "artist": "Gilderien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterwheel,_Isle-sur-la-Sorge.JPG",
+    "context": "L'Isle-sur-la-Sorgue — Provence & the Luberon, France",
+    "hero": "images/france/provence-luberon--attraction-6.webp",
+    "card": "images/france/provence-luberon--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
