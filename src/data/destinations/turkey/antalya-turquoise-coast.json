@@ -58,36 +58,64 @@
     },
     {
       "name": "Hadrian's Gate",
+      "image": {
+        "file": "File:Hadrian's Gate, Antalya 01.jpg",
+        "alt": "The triple marble arches of Hadrian's Gate in Antalya"
+      },
       "text": "A triple-arched marble gateway built in 130 AD for the emperor's visit, set into the old city walls, with the original Roman road surface visible beneath it — deeply rutted by cartwheels.",
       "tip": "The rutted paving is the detail most people miss. Look down as you walk through."
     },
     {
       "name": "Antalya Archaeological Museum",
+      "image": {
+        "file": "File:Antalya Archaeology Museum 09.jpg",
+        "alt": "Roman statuary in the Antalya Archaeological Museum"
+      },
       "text": "Thirteen galleries covering the region from prehistory to the Ottomans, with an outstanding hall of Roman statuary excavated at Perge — emperors, gods and dancers in near-perfect condition — plus sarcophagi and a room of Byzantine icons.",
       "tip": "Two hours minimum. Do it before visiting Perge, which makes the empty site far more legible."
     },
     {
       "name": "Aspendos",
+      "image": {
+        "file": "File:Aspendos Theatre 0611.jpg",
+        "alt": "The intact Roman theatre at Aspendos"
+      },
       "text": "Forty-five kilometres east, a Roman theatre of about 155 AD seating 12,000, with the stage building intact to its full height — vanishingly rare. It survived because the Seljuks used it as a caravanserai and maintained it.",
       "tip": "Stand at the top and have someone speak from the stage. The acoustics genuinely work. The aqueduct nearby is also substantial."
     },
     {
       "name": "Perge",
+      "image": {
+        "file": "File:Roman Gate (Perge) 02.jpg",
+        "alt": "The Roman gate and colonnaded street at Perge"
+      },
       "text": "Eighteen kilometres east, a large Roman city with a colonnaded main street complete with the water channel that ran down its centre, a stadium seating 12,000, monumental gates and extensive baths.",
       "tip": "Much of the statuary now in the Antalya Museum came from here. Very little shade — go early."
     },
     {
       "name": "Termessos",
+      "image": {
+        "file": "File:Ancient ruins at Termessos.jpg",
+        "alt": "Ruins scattered through pine forest at Termessos"
+      },
       "text": "A Pisidian city high in the Taurus mountains at about 1,000 m, which Alexander the Great declined to besiege. Ruins scattered across a forested mountainside, with a theatre on the edge of a precipice.",
       "tip": "A steep 30-minute climb from the car park. Far and away the most dramatically sited ruin in the region and the least visited."
     },
     {
       "name": "The waterfalls",
+      "image": {
+        "file": "File:Lower Duden Falls.jpg",
+        "alt": "The Lower Düden waterfall dropping into the sea"
+      },
       "text": "The Düden falls drop directly into the sea from a cliff on the city's eastern edge, and an upper section falls into a pool you can walk behind. The Kurşunlu falls sit in a wooded canyon 20 km inland.",
       "tip": "The Lower Düden falls are best seen from a boat. The upper falls and Kurşunlu are pleasant, shaded and easily reached."
     },
     {
       "name": "The beaches",
+      "image": {
+        "file": "File:Konyaaltı Beach, Antalya, Turkey, March 2022 - Cafe.jpg",
+        "alt": "Konyaaltı beach below the Taurus mountains"
+      },
       "text": "Konyaaltı west of the city is a long pebble beach beneath the mountains; Lara to the east is sand. Both are city beaches with full facilities. The better swimming is west towards Kemer and Olympos.",
       "tip": "Konyaaltı has the mountain backdrop and is a short tram ride from Kaleiçi."
     }
@@ -96,31 +124,55 @@
   "thingsToDo": [
     {
       "title": "Walk Kaleiçi and the harbour",
+      "image": {
+        "file": "File:Antalya Kaleiçi walls gate ın 2015 37.jpg",
+        "alt": "The old walls and gate of Antalya's Kaleiçi quarter"
+      },
       "text": "The walled quarter takes a couple of hours to wander, ending at the cliff-top park or down at the harbour. Hadrian's Gate, the two minarets and the Ottoman houses are all within a few hundred metres.",
       "tip": "Early morning or after 18:00. Midday in the lanes is hot and the restaurants are at their most persistent."
     },
     {
       "title": "Do the museum then the ruins",
+      "image": {
+        "file": "File:Antalya Archaeology Museum 04.jpg",
+        "alt": "A gallery of statues in the Antalya Museum"
+      },
       "text": "The Antalya Museum holds the statues taken from Perge, so seeing it first turns an empty colonnaded street into a place you can populate. Then Perge in the morning and Aspendos in the afternoon.",
       "tip": "A full day for the museum plus both sites, ideally with a car. Neither site has shade."
     },
     {
       "title": "Climb to Termessos",
+      "image": {
+        "file": "File:DJI 0203 Güllük Mountain National Park.jpg",
+        "alt": "The mountains of Güllük Dağı national park around Termessos"
+      },
       "text": "A mountain city at 1,000 metres in a national park, with ruins scattered through pine forest and a theatre perched above a drop. A steep half-hour climb, and you may have it entirely to yourself.",
       "tip": "Take water and proper shoes. Cooler than the coast, and best in spring when the wildflowers are out."
     },
     {
       "title": "Take a boat along the cliffs",
+      "image": {
+        "file": "File:Upper Duden Falls.jpg",
+        "alt": "The Düden falls on the Antalya coast"
+      },
       "text": "Boats leave the old harbour for the Lower Düden waterfall, the cliffs and the coves west towards Kemer. Half-day and full-day trips, with swimming stops.",
       "tip": "The waterfall dropping straight into the sea can only be seen properly from the water."
     },
     {
       "title": "Head west into Lycia",
+      "image": {
+        "file": "File:Çıralı Plajı.jpg",
+        "alt": "The beach at Çıralı on the Lycian coast"
+      },
       "text": "The coast road west through Kemer, Olympos and Çıralı — where the Chimaera flames burn naturally from the rock — and on to Kaş and [[fethiye-oludeniz|Fethiye]]. One of the great Mediterranean drives.",
       "tip": "The Chimaera flames are best after dark, a 30-minute walk uphill from Çıralı. Take a torch."
     },
     {
       "title": "Go up into the Taurus",
+      "image": {
+        "file": "File:Köprülü Kanyon Büğrüm Köprüsü.jpg",
+        "alt": "The Roman bridge over the Köprülü Canyon in the Taurus"
+      },
       "text": "Köprülü Canyon for rafting, the Saklıkent gorge, alpine plateaus called yayla where families move flocks in summer, and a ski resort at Saklıkent 50 km from the beach.",
       "tip": "In March you can genuinely ski in the morning and swim in the afternoon. It is a local point of pride."
     }
@@ -129,6 +181,10 @@
   "foods": [
     {
       "name": "Piyaz",
+      "image": {
+        "file": "File:20240907 Tahinli Antalya Piyazı.jpg",
+        "alt": "Antalya piyaz — white beans dressed with tahini"
+      },
       "text": "The Antalya version is quite different from elsewhere: white beans with tahini, garlic, lemon and vinegar, topped with egg, and served as a substantial dish rather than a side. Traditionally eaten with köfte.",
       "whereToTry": "Traditional restaurants in and around Kaleiçi. Ask for Antalya piyazı specifically."
     },
@@ -139,6 +195,10 @@
     },
     {
       "name": "Şiş köfte and tandır",
+      "image": {
+        "file": "File:Şiş köfte platter.jpg",
+        "alt": "Şiş köfte, grilled minced lamb on skewers"
+      },
       "text": "Grilled minced lamb on skewers and slow-cooked pit-oven meat, both staples of the mountain villages behind the coast and served throughout the city.",
       "whereToTry": "Grill houses away from the harbour, where the prices are half and the meat is better."
     },
