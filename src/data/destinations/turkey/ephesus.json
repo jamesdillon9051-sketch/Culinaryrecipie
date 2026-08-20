@@ -58,36 +58,64 @@
     },
     {
       "name": "The Terrace Houses",
+      "image": {
+        "file": "File:Ephesus - Terrace Houses.jpg",
+        "alt": "Mosaic floors and frescoed walls in the Terrace Houses at Ephesus"
+      },
       "text": "Six luxury apartments on the hillside above Curetes Street, occupied from the 1st to the 7th centuries, with mosaic floors, wall frescoes, marble panelling, underfloor heating and piped water. Excavation and conservation are ongoing and visible.",
       "tip": "A separate and slightly expensive ticket, and easily the best part of Ephesus. Most visitors walk past the entrance. Do not."
     },
     {
       "name": "Curetes Street and the Marble Road",
+      "image": {
+        "file": "File:Looking down the Street of Curetes (16314212482).jpg",
+        "alt": "Curetes Street running downhill through Ephesus"
+      },
       "text": "The main axis of the city, paved in marble and running downhill between the Hercules Gate and the library, lined with shopfronts, fountains, statue bases and a public latrine with its bench of seats intact.",
       "tip": "Walk downhill from the upper gate to the lower one. Buses drop at the top and collect at the bottom, so you never retrace."
     },
     {
       "name": "The Great Theatre",
+      "image": {
+        "file": "File:Great Theatre of Ephesus 2024.jpg",
+        "alt": "The Great Theatre carved into the hillside at Ephesus"
+      },
       "text": "Carved into Mount Pion and expanded by the Romans to hold about 24,000 people, with the paved Harbour Street running from its base towards the vanished port. The acoustics still work.",
       "tip": "Climb to the top row for the view down Harbour Street. It gives you the scale of the vanished city better than anything else."
     },
     {
       "name": "The Ephesus Archaeological Museum",
+      "image": {
+        "file": "File:Artemis of Ephesus statue Ephesus Museum 2024.jpeg",
+        "alt": "The Artemis of Ephesus statue in the museum at Selçuk"
+      },
       "text": "In Selçuk, holding the finds from the site — including the two famous statues of Artemis of Ephesus, covered in what may be breasts, eggs or bull testicles, depending on which scholar you ask.",
       "tip": "Go after the site rather than before. The objects make far more sense once you have seen where they came from."
     },
     {
       "name": "The Temple of Artemis",
+      "image": {
+        "file": "File:TR.IZ.Selcuk Ephesus 2011-10-04 Temple-of-Artemis 07 3x2-R 5K.jpg",
+        "alt": "The single re-erected column marking the Temple of Artemis"
+      },
       "text": "One of the Seven Wonders of the Ancient World, four times the size of the Parthenon, of which a single reassembled column now stands in a marshy field with a stork's nest on top. The contrast is the point.",
       "tip": "Free, takes ten minutes, and is unexpectedly affecting precisely because there is nothing there."
     },
     {
       "name": "Şirince",
+      "image": {
+        "file": "File:View of Sirince from the church.jpg",
+        "alt": "The hillside village of Şirince above its olive groves"
+      },
       "text": "A hillside village eight kilometres from Selçuk, built by Greek residents before the 1923 population exchange, with stone and timber houses, fruit wines sold from every doorway and views over olive groves.",
       "tip": "Very busy at midday with day-trippers. Go late afternoon or stay overnight, when it becomes lovely."
     },
     {
       "name": "The Basilica of St John and the House of the Virgin Mary",
+      "image": {
+        "file": "File:Basilica of St. John - Selçuk, İzmir Province, Turkey - October 7, 2025 03.jpg",
+        "alt": "The ruined Basilica of St John at Selçuk"
+      },
       "text": "A ruined 6th-century basilica in Selçuk built over what is traditionally held to be the apostle John's tomb, and a small stone house on a hillside above Ephesus revered as the Virgin Mary's final home.",
       "tip": "The basilica's castle-hill setting is worth the walk. The Mary house is a place of pilgrimage rather than an archaeological site."
     }
@@ -96,11 +124,19 @@
   "thingsToDo": [
     {
       "title": "Walk the site downhill, early",
+      "image": {
+        "file": "File:Library of Celsus, Ephesus Archaeological Site, Selcuk, Turkiye (53528093694).jpg",
+        "alt": "The Library of Celsus at the bottom of the main street"
+      },
       "text": "Enter at the upper gate and walk down through Curetes Street to the library and the theatre, leaving by the lower gate. Three to four hours, starting at opening.",
       "tip": "Cruise passengers from Kuşadası arrive between about 10:00 and 14:00. Be there at 08:00 or after 16:00."
     },
     {
       "title": "Pay for the Terrace Houses",
+      "image": {
+        "file": "File:Terrace Houses in Ephesus 2024.jpg",
+        "alt": "Excavated rooms under cover at the Terrace Houses"
+      },
       "text": "The separate ticket costs roughly as much again as the main site and gives you the interiors of six Roman apartments with mosaics, frescoes and plumbing. It is the best-preserved Roman domestic architecture outside Pompeii.",
       "tip": "Also the coolest part of the site, being under a roof — useful in summer heat."
     },
@@ -111,16 +147,28 @@
     },
     {
       "title": "Stay in Selçuk and walk up to the castle",
+      "image": {
+        "file": "File:Ayasuluk Castle, Selcuk.jpg",
+        "alt": "The Byzantine Ayasuluk Castle above Selçuk"
+      },
       "text": "A Byzantine fortress on the hill above the town, with the Basilica of St John below it and views over the plain to where the sea once reached. Storks nest on the Roman aqueduct in the town centre.",
       "tip": "Selçuk's Saturday market is one of the best in the Aegean and fills several streets."
     },
     {
       "title": "Go up to Şirince in the late afternoon",
+      "image": {
+        "file": "File:View of Sirince.jpg",
+        "alt": "Stone houses on the slopes of Şirince"
+      },
       "text": "A Greek-built hillside village of stone houses, olive groves and fruit wine, eight kilometres from Selçuk. Overwhelmed by day-trippers at midday and lovely at 17:00.",
       "tip": "The fruit wines are sweet and mostly a novelty. The village and the views are the real reason to go."
     },
     {
       "title": "Add a second classical site",
+      "image": {
+        "file": "File:Aphrodisias - Portico of Tiberius 05.jpg",
+        "alt": "The Portico of Tiberius at Aphrodisias"
+      },
       "text": "Aphrodisias, two hours east, is arguably better preserved than Ephesus and receives a fraction of the visitors, with a stadium seating 30,000 almost intact. Priene and Miletus are closer.",
       "tip": "Aphrodisias works as a stop on the drive between Ephesus and [[pamukkale|Pamukkale]]."
     }
@@ -129,11 +177,19 @@
   "foods": [
     {
       "name": "Zeytinyağlılar",
+      "image": {
+        "file": "File:Zeytinyağlı enginar.jpg",
+        "alt": "Artichokes cooked in olive oil and served cold"
+      },
       "text": "Vegetables cooked in olive oil and served cold — green beans, artichokes, stuffed vine leaves, broad beans. The defining Aegean style and quite different from the meat-heavy cooking inland.",
       "whereToTry": "Any traditional restaurant in Selçuk or along the Aegean coast, usually displayed in a counter to choose from."
     },
     {
       "name": "Çöp şiş",
+      "image": {
+        "file": "File:Çöp şiş.jpg",
+        "alt": "Çöp şiş — small cubes of lamb on wooden skewers"
+      },
       "text": "Small cubes of marinated lamb grilled on wooden skewers, a speciality of the villages around Selçuk, served with flatbread, onion and grilled peppers.",
       "whereToTry": "Grill restaurants in Selçuk and the surrounding villages. Ordered by the skewer."
     },

@@ -480,6 +480,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Aphrodisias - Portico of Tiberius 05.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Portico_of_Tiberius_05.jpg",
+    "context": "Add a second classical site — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--thing-6.webp",
+    "card": "images/turkey/ephesus--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Appian Way, Rome (6681676803).jpg": {
     "artist": "Larry from Charlottetown, PEI, Canada",
     "license": "CC BY 2.0",
@@ -566,6 +579,19 @@
     "context": "Albufera Natural Park — Valencia, Spain",
     "hero": "images/spain/valencia--attraction-7.webp",
     "card": "images/spain/valencia--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Artemis of Ephesus statue Ephesus Museum 2024.jpeg": {
+    "artist": "Furkan Akkurt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg",
+    "context": "The Ephesus Archaeological Museum — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-5.webp",
+    "card": "images/turkey/ephesus--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -661,6 +687,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Ayasuluk Castle, Selcuk.jpg": {
+    "artist": "Hugh Llewelyn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayasuluk_Castle,_Selcuk.jpg",
+    "context": "Stay in Selçuk and walk up to the castle — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--thing-4.webp",
+    "card": "images/turkey/ephesus--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Babà rum.jpg": {
     "artist": "Marica Massaro",
@@ -852,6 +891,19 @@
     "context": "Santa Croce and the Bargello — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--attraction-4.webp",
     "card": "images/italy/florence-tuscany--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Basilica of St. John - Selçuk, İzmir Province, Turkey - October 7, 2025 03.jpg": {
+    "artist": "Giorgio Galeotti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_St._John_-_Sel%C3%A7uk,_%C4%B0zmir_Province,_Turkey_-_October_7,_2025_03.jpg",
+    "context": "The Basilica of St John and the House of the Virgin Mary — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-8.webp",
+    "card": "images/turkey/ephesus--attraction-8-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2248,6 +2300,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Çöp şiş.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6p_%C5%9Fi%C5%9F.jpg",
+    "context": "Çöp şiş — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--food-2.webp",
+    "card": "images/turkey/ephesus--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Coq au vin, Linden.jpg": {
     "artist": "Gerda Arendt",
     "license": "CC0",
@@ -2854,6 +2919,19 @@
     "context": "Entrecôte à la bordelaise — Bordeaux, France",
     "hero": "images/france/bordeaux--food-1.webp",
     "card": "images/france/bordeaux--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ephesus - Terrace Houses.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ephesus_-_Terrace_Houses.jpg",
+    "context": "The Terrace Houses — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-2.webp",
+    "card": "images/turkey/ephesus--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3782,6 +3860,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:Great Theatre of Ephesus 2024.jpg": {
+    "artist": "Furkan Akkurt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Theatre_of_Ephesus_2024.jpg",
+    "context": "The Great Theatre — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-4.webp",
+    "card": "images/turkey/ephesus--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Greek Temple of Poseidon Paestum.jpg": {
     "artist": "NateBergin",
     "license": "CC BY 4.0",
@@ -4380,6 +4471,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Library of Celsus, Ephesus Archaeological Site, Selcuk, Turkiye (53528093694).jpg": {
+    "artist": "Warren LeMay from Chicago, IL, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Celsus,_Ephesus_Archaeological_Site,_Selcuk,_Turkiye_(53528093694).jpg",
+    "context": "Walk the site downhill, early — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--thing-1.webp",
+    "card": "images/turkey/ephesus--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Limone and Limoncello.jpg": {
     "artist": "Bill and Kathy",
     "license": "CC BY 2.0",
@@ -4470,6 +4574,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Looking down the Street of Curetes (16314212482).jpg": {
+    "artist": "shankar s. from Dubai, united arab emirates",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Looking_down_the_Street_of_Curetes_(16314212482).jpg",
+    "context": "Curetes Street and the Marble Road — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-3.webp",
+    "card": "images/turkey/ephesus--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Los Gigantes, Tenerife, España, 2012-12-16, DD 10.jpg": {
     "artist": "Diego Delso",
@@ -7669,6 +7786,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Terrace Houses in Ephesus 2024.jpg": {
+    "artist": "Satirdan kahraman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terrace_Houses_in_Ephesus_2024.jpg",
+    "context": "Pay for the Terrace Houses — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--thing-2.webp",
+    "card": "images/turkey/ephesus--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:TestiKebabGoreme.jpg": {
     "artist": "Niels Elgaard Larsen",
     "license": "CC BY-SA 3.0",
@@ -7902,6 +8032,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 461
+  },
+  "File:TR.IZ.Selcuk Ephesus 2011-10-04 Temple-of-Artemis 07 3x2-R 5K.jpg": {
+    "artist": "Roy Egloff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TR.IZ.Selcuk_Ephesus_2011-10-04_Temple-of-Artemis_07_3x2-R_5K.jpg",
+    "context": "The Temple of Artemis — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-6.webp",
+    "card": "images/turkey/ephesus--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Traghetto San Tomà Venice.JPG": {
     "artist": "Abxbay",
@@ -8319,6 +8462,32 @@
     "cardWidth": 800,
     "cardHeight": 390
   },
+  "File:View of Sirince from the church.jpg": {
+    "artist": "Lastradadeisogni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Sirince_from_the_church.jpg",
+    "context": "Şirince — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--attraction-7.webp",
+    "card": "images/turkey/ephesus--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:View of Sirince.jpg": {
+    "artist": "Lastradadeisogni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Sirince.jpg",
+    "context": "Go up to Şirince in the late afternoon — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--thing-5.webp",
+    "card": "images/turkey/ephesus--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View of the bridge and the mudflats from Mont Saint-Michel, 2024.jpg": {
     "artist": "DimiTalen",
     "license": "CC0",
@@ -8615,6 +8784,19 @@
     "card": "images/turkey/cappadocia--attraction-7-card.webp",
     "heroWidth": 1536,
     "heroHeight": 864,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Zeytinyağlı enginar.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_enginar.jpg",
+    "context": "Zeytinyağlılar — Ephesus & Selçuk, Turkey",
+    "hero": "images/turkey/ephesus--food-1.webp",
+    "card": "images/turkey/ephesus--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   }
