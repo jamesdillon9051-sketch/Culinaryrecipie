@@ -77,6 +77,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Accademia (Venice).jpg": {
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Accademia_(Venice).jpg",
+    "context": "Gallerie dell'Accademia — Venice, Italy",
+    "hero": "images/italy/venice--attraction-5.webp",
+    "card": "images/italy/venice--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Alhambra in the evening.jpg": {
     "artist": "Jebulon",
     "license": "Public domain",
@@ -89,6 +102,19 @@
     "heroHeight": 566,
     "cardWidth": 800,
     "cardHeight": 283
+  },
+  "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir,_Ankara,_Turqu%C3%ADa,_2024-10-03,_DD_27.jpg",
+    "context": "Ankara, Turkey",
+    "hero": "images/turkey/ankara.webp",
+    "card": "images/turkey/ankara-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 754,
+    "cardWidth": 800,
+    "cardHeight": 377
   },
   "File:Annecy, France - Apr 2026.jpg": {
     "artist": "Karlheinz Klingbeil",
@@ -116,19 +142,6 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
-  "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
-    "artist": "Diego Delso",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir,_Ankara,_Turqu%C3%ADa,_2024-10-03,_DD_27.jpg",
-    "context": "Ankara, Turkey",
-    "hero": "images/turkey/ankara.webp",
-    "card": "images/turkey/ankara-card.webp",
-    "heroWidth": 1600,
-    "heroHeight": 754,
-    "cardWidth": 800,
-    "cardHeight": 377
-  },
   "File:Appian Way, Rome (6681676803).jpg": {
     "artist": "Larry from Charlottetown, PEI, Canada",
     "license": "CC BY 2.0",
@@ -137,6 +150,45 @@
     "context": "Cycle the Appian Way — Rome, Italy",
     "hero": "images/italy/rome--thing-5.webp",
     "card": "images/italy/rome--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:At Nerbone, the central market in Florence - serving bollito di manzi and tripe sandwiches (16821894141).jpg": {
+    "artist": "Winniepix",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Nerbone,_the_central_market_in_Florence_-_serving_bollito_di_manzi_and_tripe_sandwiches_(16821894141).jpg",
+    "context": "Lampredotto and trippa — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-3.webp",
+    "card": "images/italy/florence-tuscany--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Baccalà mantecato con polenta La Nuova Perla.jpg": {
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baccal%C3%A0_mantecato_con_polenta_La_Nuova_Perla.jpg",
+    "context": "Baccalà mantecato — Venice, Italy",
+    "hero": "images/italy/venice--food-3.webp",
+    "card": "images/italy/venice--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Basilica di Santa Croce (12437).jpg": {
+    "artist": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Croce_(12437).jpg",
+    "context": "Santa Croce and the Bargello — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-4.webp",
+    "card": "images/italy/florence-tuscany--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -154,6 +206,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Bistecca alla fiorentina (400gr).jpg": {
+    "artist": "Number55",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina_(400gr).jpg",
+    "context": "Bistecca alla fiorentina — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-1.webp",
+    "card": "images/italy/florence-tuscany--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Blue Lagoon in Ölüdeniz, Turkey (49070738266).jpg": {
     "artist": "dronepicr",
@@ -207,6 +272,32 @@
     "cardWidth": 800,
     "cardHeight": 497
   },
+  "File:Bridge of Sighs - sea facade Aug 2020 1.jpg": {
+    "artist": "Kasa Fue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_of_Sighs_-_sea_facade_Aug_2020_1.jpg",
+    "context": "The Doge's Palace — Venice, Italy",
+    "hero": "images/italy/venice--attraction-2.webp",
+    "card": "images/italy/venice--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Calamari Fritti - Tavola Di Famiglia 2026-02-27.jpg": {
+    "artist": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calamari_Fritti_-_Tavola_Di_Famiglia_2026-02-27.jpg",
+    "context": "Moeche and fritto misto — Venice, Italy",
+    "hero": "images/italy/venice--food-5.webp",
+    "card": "images/italy/venice--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Calanques vue de Cassis.jpg": {
     "artist": "Matthieu Toc",
     "license": "CC BY-SA 3.0",
@@ -220,6 +311,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Calle dei Olivi, Castello, Laundry Day In Venice (59269042).jpg": {
+    "artist": "O Palsson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calle_dei_Olivi,_Castello,_Laundry_Day_In_Venice_(59269042).jpg",
+    "context": "Get deliberately lost — Venice, Italy",
+    "hero": "images/italy/venice--thing-4.webp",
+    "card": "images/italy/venice--thing-4-card.webp",
+    "heroWidth": 1489,
+    "heroHeight": 838,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Canal @ Petite France @ Strasbourg (44605704925).jpg": {
     "artist": "Guilhem Vellut from Annecy, France",
     "license": "CC BY 2.0",
@@ -228,6 +332,32 @@
     "context": "Strasbourg & Alsace, France",
     "hero": "images/france/strasbourg-alsace.webp",
     "card": "images/france/strasbourg-alsace-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Canal and colourful houses in Burano (50416720017).jpg": {
+    "artist": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_and_colourful_houses_in_Burano_(50416720017).jpg",
+    "context": "Murano, Burano and Torcello — Venice, Italy",
+    "hero": "images/italy/venice--attraction-7.webp",
+    "card": "images/italy/venice--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cantuccini.jpg": {
+    "artist": "Schorle",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantuccini.jpg",
+    "context": "Cantucci, vin santo and gelato — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-6.webp",
+    "card": "images/italy/florence-tuscany--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -271,6 +401,19 @@
     "heroHeight": 642,
     "cardWidth": 800,
     "cardHeight": 321
+  },
+  "File:Cicchetti Venezia (1).jpg": {
+    "artist": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cicchetti_Venezia_(1).jpg",
+    "context": "Cicchetti and an ombra — Venice, Italy",
+    "hero": "images/italy/venice--food-1.webp",
+    "card": "images/italy/venice--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Cimetiere americain Colleville-sur-Mer.jpg": {
     "artist": "Myrabella",
@@ -337,6 +480,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cupola di santa maria del fiore dal campanile di giotto, 01.JPG": {
+    "artist": "sailko",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cupola_di_santa_maria_del_fiore_dal_campanile_di_giotto,_01.JPG",
+    "context": "The Duomo complex — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-2.webp",
+    "card": "images/italy/florence-tuscany--attraction-2-card.webp",
+    "heroWidth": 1200,
+    "heroHeight": 675,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Drei Zinnen Tre Cime di Lavaredo Dolomites.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 3.0",
@@ -384,6 +540,32 @@
     "context": "Ephesus & Selçuk, Turkey",
     "hero": "images/turkey/ephesus.webp",
     "card": "images/turkey/ephesus-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Fattoria Lornano (Winery), Chianti, Italy.jpg": {
+    "artist": "Ray in Manila",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fattoria_Lornano_(Winery),_Chianti,_Italy.jpg",
+    "context": "Drive or cycle into Chianti — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-3.webp",
+    "card": "images/italy/florence-tuscany--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Firenze - Florence - Piazza Lorenzo Ghiberti - Il Mercato di Sant'Ambrogio 1873 by Giuseppe Mengoni - View East.jpg": {
+    "artist": "Txllxt TxllxT",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Piazza_Lorenzo_Ghiberti_-_Il_Mercato_di_Sant%27Ambrogio_1873_by_Giuseppe_Mengoni_-_View_East.jpg",
+    "context": "Do a market morning — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-5.webp",
+    "card": "images/italy/florence-tuscany--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -467,6 +649,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Giudecca from the Church of San Giorgio Maggiore 002.jpg": {
+    "artist": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giudecca_from_the_Church_of_San_Giorgio_Maggiore_002.jpg",
+    "context": "Climb San Giorgio Maggiore instead — Venice, Italy",
+    "hero": "images/italy/venice--thing-5.webp",
+    "card": "images/italy/venice--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 741,
+    "cardWidth": 800,
+    "cardHeight": 370
+  },
+  "File:Glass of chianti.jpg": {
+    "artist": "Rick Audet",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_chianti.jpg",
+    "context": "Chianti, Brunello and Vino Nobile — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-5.webp",
+    "card": "images/italy/florence-tuscany--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Göbekli Tepe, Urfa.jpg": {
+    "artist": "Teomancimit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+    "context": "Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Going-to-the-Sun Road (Patterson).jpg": {
     "artist": "Tom Patterson",
     "license": "Public domain",
@@ -493,6 +714,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Grand Canal at night - Venice, Italy - panoramio.jpg": {
+    "artist": "Sergey Ashmarin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canal_at_night_-_Venice,_Italy_-_panoramio.jpg",
+    "context": "Ride the number 1 at night — Venice, Italy",
+    "hero": "images/italy/venice--thing-2.webp",
+    "card": "images/italy/venice--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 508
+  },
+  "File:Grand Canal Ponte degli Scalzi.jpg": {
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canal_Ponte_degli_Scalzi.jpg",
+    "context": "The Grand Canal — Venice, Italy",
+    "hero": "images/italy/venice--attraction-3.webp",
+    "card": "images/italy/venice--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Grand Canyon South Rim at Sunset.jpg": {
     "artist": "Mgimelfarb",
     "license": "CC0",
@@ -505,19 +752,6 @@
     "heroHeight": 511,
     "cardWidth": 800,
     "cardHeight": 255
-  },
-  "File:Göbekli Tepe, Urfa.jpg": {
-    "artist": "Teomancimit",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
-    "context": "Şanlıurfa & Göbekli Tepe, Turkey",
-    "hero": "images/turkey/sanliurfa-gobekli-tepe.webp",
-    "card": "images/turkey/sanliurfa-gobekli-tepe-card.webp",
-    "heroWidth": 1600,
-    "heroHeight": 900,
-    "cardWidth": 800,
-    "cardHeight": 531
   },
   "File:Hagia Sophia Istanbul July 2022-2.jpg": {
     "artist": "Alvesgaspar",
@@ -544,6 +778,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:I cipressi della Val D'Orcia.jpg": {
+    "artist": "Carlo cattaneo fotografie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:I_cipressi_della_Val_D%27Orcia.jpg",
+    "context": "The Val d'Orcia — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-8.webp",
+    "card": "images/italy/florence-tuscany--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Interior oculus of the Rome Pantheon.jpg": {
     "artist": "T. Le Berre",
@@ -584,6 +831,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Lampredotto Sandwich.jpg": {
+    "artist": "William Held",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lampredotto_Sandwich.jpg",
+    "context": "Eat lampredotto from a cart — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-2.webp",
+    "card": "images/italy/florence-tuscany--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Lower Manhattan from Brooklyn May 2015 panorama.jpg": {
     "artist": "King of Hearts",
     "license": "CC BY-SA 3.0",
@@ -596,6 +856,19 @@
     "heroHeight": 500,
     "cardWidth": 800,
     "cardHeight": 250
+  },
+  "File:Lucca. Baluardo S. Colombano, ingresso alla città (01145).JPG": {
+    "artist": "Francesco Tosoni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucca._Baluardo_S._Colombano,_ingresso_alla_citt%C3%A0_(01145).JPG",
+    "context": "Cycle the walls of Lucca — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-6.webp",
+    "card": "images/italy/florence-tuscany--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG": {
     "artist": "Diego Delso",
@@ -644,6 +917,19 @@
     "context": "Eat your way through Testaccio — Rome, Italy",
     "hero": "images/italy/rome--thing-4.webp",
     "card": "images/italy/rome--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Michelangelo's David 2015.jpg": {
+    "artist": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_David_2015.jpg",
+    "context": "The Accademia — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-3.webp",
+    "card": "images/italy/florence-tuscany--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -701,6 +987,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Paintings by Tintoretto in Scuola Grande di San Rocco - The Resurrection of Christ.jpg": {
+    "artist": "Didier Descouens",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paintings_by_Tintoretto_in_Scuola_Grande_di_San_Rocco_-_The_Resurrection_of_Christ.jpg",
+    "context": "San Rocco and the Frari — Venice, Italy",
+    "hero": "images/italy/venice--attraction-6.webp",
+    "card": "images/italy/venice--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Palazzo Labia in Venice on Cannaregio canal.JPG": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_Labia_in_Venice_on_Cannaregio_canal.JPG",
+    "context": "The Ghetto and Cannaregio — Venice, Italy",
+    "hero": "images/italy/venice--attraction-8.webp",
+    "card": "images/italy/venice--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Palazzo Pitti from Boboli Gardens.jpg": {
+    "artist": "Macieklew",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_Pitti_from_Boboli_Gardens.jpg",
+    "context": "Palazzo Pitti and the Boboli Gardens — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-5.webp",
+    "card": "images/italy/florence-tuscany--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Panorama of Canal Grande and Ponte di Rialto, Venice - September 2017.jpg": {
     "artist": "Martin Falbisoner",
     "license": "CC BY-SA 4.0",
@@ -740,6 +1065,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Piazza del Campo 2014 01.jpg": {
+    "artist": "Perituss",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazza_del_Campo_2014_01.jpg",
+    "context": "Siena — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-6.webp",
+    "card": "images/italy/florence-tuscany--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Piazza del Duomo, Milan panorama.jpg": {
     "artist": "Tanweer Morshed",
     "license": "CC BY-SA 4.0",
@@ -753,6 +1091,32 @@
     "cardWidth": 800,
     "cardHeight": 298
   },
+  "File:Piazzale degli Uffizi perspective view, Florence, Italy, August 2025.jpg": {
+    "artist": "Verum3414",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazzale_degli_Uffizi_perspective_view,_Florence,_Italy,_August_2025.jpg",
+    "context": "The Uffizi — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-1.webp",
+    "card": "images/italy/florence-tuscany--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Pici all'aglione.jpg": {
+    "artist": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pici_all%27aglione.jpg",
+    "context": "Pici and pappardelle — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-4.webp",
+    "card": "images/italy/florence-tuscany--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pizze al taglio and Peroni at Alice.jpg": {
     "artist": "Ypsilon from Finland",
     "license": "CC0",
@@ -761,6 +1125,19 @@
     "context": "Pizza, thin and by the slice — Rome, Italy",
     "hero": "images/italy/rome--food-4.webp",
     "card": "images/italy/rome--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plaza de España (Sevilla) - 01.jpg": {
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+    "context": "Seville, Spain",
+    "hero": "images/spain/seville.webp",
+    "card": "images/spain/seville-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -779,18 +1156,18 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
-  "File:Plaza de España (Sevilla) - 01.jpg": {
-    "artist": "Carlos Delgado",
+  "File:Ponte di Rialto Venice 1.jpg": {
+    "artist": "kallerna",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
-    "context": "Seville, Spain",
-    "hero": "images/spain/seville.webp",
-    "card": "images/spain/seville-card.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_di_Rialto_Venice_1.jpg",
+    "context": "Rialto and its market — Venice, Italy",
+    "hero": "images/italy/venice--attraction-4.webp",
+    "card": "images/italy/venice--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
-    "cardHeight": 533
+    "cardHeight": 531
   },
   "File:Positano (Italy) 04.jpg": {
     "artist": "Bernard Gagnon",
@@ -844,6 +1221,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Ribollita toscana.JPG": {
+    "artist": "Ithunn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ribollita_toscana.JPG",
+    "context": "Ribollita and pappa al pomodoro — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--food-2.webp",
+    "card": "images/italy/florence-tuscany--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
+  "File:Risotto al nero di seppia.jpg": {
+    "artist": "Micaela &amp; Massimo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Risotto_al_nero_di_seppia.jpg",
+    "context": "Risotto, black or green — Venice, Italy",
+    "hero": "images/italy/venice--food-4.webp",
+    "card": "images/italy/venice--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 495
+  },
   "File:Road to hana coast Maui Hawaii (43923169680).jpg": {
     "artist": "dronepicr",
     "license": "CC BY 2.0",
@@ -857,27 +1260,14 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
-  "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
-    "artist": "Kabelleger / David Gubler",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_Cize-Bolozon.jpg",
-    "context": "Getting Around Europe by Train",
-    "hero": "images/articles/europe-by-train.webp",
-    "card": "images/articles/europe-by-train-card.webp",
-    "heroWidth": 1600,
-    "heroHeight": 900,
-    "cardWidth": 800,
-    "cardHeight": 494
-  },
-  "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
-    "artist": "Ermell",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Sebastian_La_Concha-20120902-RM-125922.jpg",
-    "context": "San Sebastián & the Basque Country, Spain",
-    "hero": "images/spain/san-sebastian-basque.webp",
-    "card": "images/spain/san-sebastian-basque-card.webp",
+  "File:San Gimignano skyline (6082044552).jpg": {
+    "artist": "Thomas Quine",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Gimignano_skyline_(6082044552).jpg",
+    "context": "San Gimignano and Chianti — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--attraction-7.webp",
+    "card": "images/italy/florence-tuscany--attraction-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -896,6 +1286,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
+    "artist": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Sebastian_La_Concha-20120902-RM-125922.jpg",
+    "context": "San Sebastián & the Basque Country, Spain",
+    "hero": "images/spain/san-sebastian-basque.webp",
+    "card": "images/spain/san-sebastian-basque-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Santa Maria del Fiore cupola fresco central.jpg": {
+    "artist": "Arnold Paul",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Fiore_cupola_fresco_central.jpg",
+    "context": "Climb the dome — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-1.webp",
+    "card": "images/italy/florence-tuscany--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sarde in saor dans un restaurant vénitien (décembre 2022).JPG": {
+    "artist": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarde_in_saor_dans_un_restaurant_v%C3%A9nitien_(d%C3%A9cembre_2022).JPG",
+    "context": "Sarde in saor — Venice, Italy",
+    "hero": "images/italy/venice--food-2.webp",
+    "card": "images/italy/venice--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 514
+  },
   "File:Serra de Tramuntana (2016.05.17).jpg": {
     "artist": "Geir Hval (www.MacWhale.eu)",
     "license": "CC BY-SA 4.0",
@@ -909,6 +1338,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
+    "artist": "Kabelleger / David Gubler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_Cize-Bolozon.jpg",
+    "context": "Getting Around Europe by Train",
+    "hero": "images/articles/europe-by-train.webp",
+    "card": "images/articles/europe-by-train-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 494
+  },
   "File:Spaghetti alla Carbonara (Madrid).JPG": {
     "artist": "Tamorlan",
     "license": "CC BY-SA 3.0",
@@ -917,6 +1359,19 @@
     "context": "The four Roman pastas — Rome, Italy",
     "hero": "images/italy/rome--food-1.webp",
     "card": "images/italy/rome--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Spritz (27293355498).jpg": {
+    "artist": "istolethetv",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spritz_(27293355498).jpg",
+    "context": "The spritz — Venice, Italy",
+    "hero": "images/italy/venice--food-6.webp",
+    "card": "images/italy/venice--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1000,6 +1455,32 @@
     "cardWidth": 800,
     "cardHeight": 380
   },
+  "File:Torcello Cathedral - Last Judgement.jpg": {
+    "artist": "Gleb Simonov",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torcello_Cathedral_-_Last_Judgement.jpg",
+    "context": "Spend a whole day in the lagoon — Venice, Italy",
+    "hero": "images/italy/venice--thing-3.webp",
+    "card": "images/italy/venice--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Traghetto San Tomà Venice.JPG": {
+    "artist": "Abxbay",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traghetto_San_Tom%C3%A0_Venice.JPG",
+    "context": "Cross by traghetto — Venice, Italy",
+    "hero": "images/italy/venice--thing-6.webp",
+    "card": "images/italy/venice--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Travertine terraces - Pamukkale, Denizli Province, Turkey - October 6, 2025.jpg": {
     "artist": "Giorgio Galeotti",
     "license": "CC BY-SA 4.0",
@@ -1051,6 +1532,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 477
+  },
+  "File:Venice SMarco Vault1.jpg": {
+    "artist": "Dennis G. Jarvis",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venice_SMarco_Vault1.jpg",
+    "context": "St Mark's Basilica — Venice, Italy",
+    "hero": "images/italy/venice--attraction-1.webp",
+    "card": "images/italy/venice--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:View of Florence from the Abbazia di San Miniato al Monte. Italy.jpg": {
+    "artist": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Florence_from_the_Abbazia_di_San_Miniato_al_Monte._Italy.jpg",
+    "context": "Watch the sunset from San Miniato — Florence & Tuscany, Italy",
+    "hero": "images/italy/florence-tuscany--thing-4.webp",
+    "card": "images/italy/florence-tuscany--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:View of Puente Nuevo bridge in Ronda Spain.jpg": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",

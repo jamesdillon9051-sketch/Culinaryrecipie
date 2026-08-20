@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "St Mark's Basilica",
+      "image": {
+        "file": "File:Venice SMarco Vault1.jpg",
+        "alt": "Gold-ground Byzantine mosaics covering a domed vault inside St Mark's Basilica"
+      },
       "text": "A Byzantine church in a Gothic square, its interior sheathed in gold-ground mosaics, with the jewelled Pala d'Oro altarpiece behind the altar and the original bronze horses taken from Constantinople upstairs in the museum.",
       "tip": "Book a timed slot. Go on a bright morning when the mosaics light up, and pay the small extra for the loggia and the horses."
     },
     {
       "name": "The Doge's Palace",
+      "image": {
+        "file": "File:Bridge of Sighs - sea facade Aug 2020 1.jpg",
+        "alt": "The enclosed Bridge of Sighs connecting the Doge's Palace to the old prisons"
+      },
       "text": "The seat of the Republic's government: council chambers hung with Veronese and Tintoretto, including a Paradise that is among the largest canvases ever painted, and the Bridge of Sighs leading to the prisons.",
       "tip": "The Secret Itineraries tour of the administrative rooms, torture chamber and Casanova's cell is far better than the standard route."
     },
     {
       "name": "The Grand Canal",
+      "image": {
+        "file": "File:Grand Canal Ponte degli Scalzi.jpg",
+        "alt": "Palace facades lining the Grand Canal near the Ponte degli Scalzi"
+      },
       "text": "Four kilometres of palace facades from the thirteenth to the eighteenth century, curving through the city in an S. The number 1 vaporetto runs its whole length, stopping everywhere, for the price of a standard fare.",
       "tip": "Sit outside at the back. Do it once by day and once after dark — they are entirely different journeys."
     },
     {
       "name": "Rialto and its market",
+      "image": {
+        "file": "File:Ponte di Rialto Venice 1.jpg",
+        "alt": "The Rialto Bridge arching over the Grand Canal"
+      },
       "text": "The bridge of 1591 and, on the western bank, the market that has fed the city for eight centuries: the produce stalls and the Pescheria fish hall under its Gothic arcade.",
       "tip": "The fish market is closed Sunday and Monday, and finished by early afternoon. Go at 08:00 — it is the best hour in Venice."
     },
     {
       "name": "Gallerie dell'Accademia",
+      "image": {
+        "file": "File:Accademia (Venice).jpg",
+        "alt": "The stone facade of the Gallerie dell'Accademia on its Venice square"
+      },
       "text": "The great collection of Venetian painting: Bellini, Giorgione's Tempest, Titian, Tintoretto, Veronese's enormous Feast in the House of Levi and Carpaccio's narrative cycles.",
       "tip": "Rarely as busy as it should be. Two hours, and the Peggy Guggenheim's modern collection is a ten-minute walk along the same bank."
     },
     {
       "name": "San Rocco and the Frari",
+      "image": {
+        "file": "File:Paintings by Tintoretto in Scuola Grande di San Rocco - The Resurrection of Christ.jpg",
+        "alt": "Tintoretto's Resurrection of Christ, one of dozens of his canvases painted for the Scuola Grande di San Rocco"
+      },
       "text": "The Scuola Grande di San Rocco holds around sixty Tintorettos painted for its walls and ceilings over twenty years. The Frari, two minutes away, has Titian's Assumption above the altar and Titian's own tomb.",
       "tip": "San Rocco lends mirrors so you can look at the ceilings without breaking your neck. Use one."
     },
     {
       "name": "Murano, Burano and Torcello",
+      "image": {
+        "file": "File:Canal and colourful houses in Burano (50416720017).jpg",
+        "alt": "A canal lined with brightly painted houses on the island of Burano"
+      },
       "text": "Murano has made glass since the furnaces were moved off the main islands in 1291; Burano is a fishing village of saturated painted houses and lacework; Torcello, nearly deserted, has Venice's oldest church and its Byzantine mosaics.",
       "tip": "Take line 12 from Fondamente Nove and do all three in one day, working outward and coming back through Murano."
     },
     {
       "name": "The Ghetto and Cannaregio",
+      "image": {
+        "file": "File:Palazzo Labia in Venice on Cannaregio canal.JPG",
+        "alt": "Palazzo Labia standing on the wide Cannaregio canal"
+      },
       "text": "The world's first ghetto, established in 1516 and the origin of the word, with unusually tall buildings and five synagogues; and around it, Cannaregio's long straight canals, which is where Venetians actually live.",
       "tip": "The Jewish Museum runs guided synagogue visits. Cannaregio's Fondamenta della Misericordia is the best evening street in the city."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Do a cicchetti crawl",
+      "image": {
+        "file": "File:Cicchetti Venezia (1).jpg",
+        "alt": "A counter laid with small plates of Venetian cicchetti"
+      },
       "text": "Move between three or four bacari, standing at the counter for a plate of baccalà on bread, a fried sardine or a meatball and a small glass of wine, then walking to the next one.",
       "tip": "Around Rialto's market side and along Cannaregio's Misericordia. Two euros a plate, three for the wine, and it beats any sit-down dinner in San Marco."
     },
     {
       "title": "Ride the number 1 at night",
+      "image": {
+        "file": "File:Grand Canal at night - Venice, Italy - panoramio.jpg",
+        "alt": "Palace windows lit along the Grand Canal after dark"
+      },
       "text": "The Grand Canal after dark, with the palace windows lit and the boat almost empty, is one of the best hours anyone can spend in Italy. It costs a standard vaporetto fare.",
       "tip": "Board at Piazzale Roma or San Marco for the full run and stand at the open stern."
     },
     {
       "title": "Spend a whole day in the lagoon",
+      "image": {
+        "file": "File:Torcello Cathedral - Last Judgement.jpg",
+        "alt": "The Byzantine Last Judgement mosaic covering the west wall of Torcello's cathedral"
+      },
       "text": "Torcello for the mosaics and the silence, Burano for the colours and the lace, Murano for the furnaces. The boat journeys between them are half the pleasure.",
       "tip": "Buy a day travel pass; it pays for itself by the third boat. Start early — Torcello is at its best empty."
     },
     {
       "title": "Get deliberately lost",
+      "image": {
+        "file": "File:Calle dei Olivi, Castello, Laundry Day In Venice (59269042).jpg",
+        "alt": "A narrow Venetian calle strung with laundry between old buildings"
+      },
       "text": "Put the map away in Castello or Cannaregio and follow whatever looks interesting. Venice is an island — you cannot go far wrong, and the yellow signs for San Marco and Rialto will always find you.",
       "tip": "The further you get from San Marco the cheaper and better the food becomes. That rule almost never fails here."
     },
     {
       "title": "Climb San Giorgio Maggiore instead",
+      "image": {
+        "file": "File:Giudecca from the Church of San Giorgio Maggiore 002.jpg",
+        "alt": "The view across the water to Giudecca from the top of San Giorgio Maggiore's campanile"
+      },
       "text": "The campanile on the island opposite San Marco has a lift, no real queue, and a better view than the famous one — because it looks back at the piazza rather than standing in it.",
       "tip": "Two minutes on the number 2 vaporetto from San Zaccaria. Palladio's church at its foot is worth the stop alone."
     },
     {
       "title": "Cross by traghetto",
+      "image": {
+        "file": "File:Traghetto San Tomà Venice.JPG",
+        "alt": "A gondola traghetto ferrying standing passengers across the Grand Canal at San Tomà"
+      },
       "text": "There are only four bridges over the Grand Canal, so gondola ferries shuttle across at several points for a couple of euros. Locals stand for the crossing; you may sit, at the cost of some dignity.",
       "tip": "A far more honest gondola experience than the hour-long serenaded version, and about two per cent of the price."
     }
@@ -128,31 +184,55 @@
   "foods": [
     {
       "name": "Cicchetti and an ombra",
+      "image": {
+        "file": "File:Cicchetti Venezia (1).jpg",
+        "alt": "A spread of Venetian cicchetti laid out on a bacaro counter"
+      },
       "text": "Small plates laid on the counter of a bacaro: crostini with whipped salt cod, fried sardines, meatballs, marinated vegetables, half a boiled egg with anchovy. An ombra is the small glass of wine that goes with them.",
       "whereToTry": "Bacari around the Rialto market and along Cannaregio. Standing up, one or two plates per stop."
     },
     {
       "name": "Sarde in saor",
+      "image": {
+        "file": "File:Sarde in saor dans un restaurant vénitien (décembre 2022).JPG",
+        "alt": "A plate of sarde in saor, sardines marinated with sweated onions"
+      },
       "text": "Fried sardines marinated with sweated onions, vinegar, pine nuts and raisins — a preserving technique from the days when the fleet needed food that kept. Sweet, sour and much better than it sounds.",
       "whereToTry": "Almost every bacaro. The version with raisins is the traditional one."
     },
     {
       "name": "Baccalà mantecato",
+      "image": {
+        "file": "File:Baccalà mantecato con polenta La Nuova Perla.jpg",
+        "alt": "Whipped baccalà mantecato spread over grilled white polenta"
+      },
       "text": "Salt cod poached and then beaten with olive oil until it becomes a pale, airy cream, spread on grilled white polenta. Venice's signature cicchetto and, done properly, remarkable.",
       "whereToTry": "Any decent bacaro. It should be white and fluffy, never grey or grainy."
     },
     {
       "name": "Risotto, black or green",
+      "image": {
+        "file": "File:Risotto al nero di seppia.jpg",
+        "alt": "Risotto al nero di seppia, stained black with cuttlefish ink"
+      },
       "text": "Risi e bisi with peas in spring, once served to the Doge on St Mark's day; and risotto al nero di seppia, stained with cuttlefish ink, which is far more delicate than its colour implies.",
       "whereToTry": "Sit-down trattorias in Dorsoduro and Cannaregio rather than the bars."
     },
     {
       "name": "Moeche and fritto misto",
+      "image": {
+        "file": "File:Calamari Fritti - Tavola Di Famiglia 2026-02-27.jpg",
+        "alt": "A plate of fried calamari rings, the everyday version of Venice's fritto misto"
+      },
       "text": "Moeche are lagoon crabs caught during the few weeks each spring and autumn when they moult, floured and fried whole and eaten shell and all. Fritto misto is the everyday version — squid, prawns, small fish.",
       "whereToTry": "Moeche only in season and worth seeking out. Fritto misto in a paper cone from the fried-fish shops."
     },
     {
       "name": "The spritz",
+      "image": {
+        "file": "File:Spritz (27293355498).jpg",
+        "alt": "A glass of orange Aperol spritz with ice and a slice"
+      },
       "text": "The Veneto's own aperitivo and the origin of the drink: white wine, soda and a bitter — Select in Venice proper, Aperol for something sweeter, Campari for something harder. Ordered from about six.",
       "whereToTry": "Campo Santa Margherita in Dorsoduro at aperitivo hour, where students and locals fill the square."
     }
