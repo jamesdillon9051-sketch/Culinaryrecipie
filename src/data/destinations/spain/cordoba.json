@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "The Mezquita-Catedral",
+      "image": {
+        "file": "File:Mihrab (Prayer Niche) - Mezquita - Cordoba - Spain.jpg",
+        "alt": "The gilded mihrab of the Mezquita-Catedral of Córdoba"
+      },
       "text": "Begun in 785 and extended four times, reaching 856 columns of granite, marble and jasper — many reused from Roman and Visigothic buildings — under 365 double arches. The mihrab, added in the 960s, is covered in Byzantine gold mosaic. The Renaissance cathedral inserted in the 1520s rises out of the middle of it.",
       "tip": "Free entry on weekday mornings for a limited early window, typically 08:30–09:30, with no tour groups. It is by far the best way to see it."
     },
     {
       "name": "The Judería",
+      "image": {
+        "file": "File:Belltower street cordoba.jpg",
+        "alt": "A whitewashed lane in Córdoba's old Jewish quarter"
+      },
       "text": "The old Jewish quarter west of the Mezquita — narrow whitewashed lanes, the 14th-century synagogue (one of only three medieval synagogues surviving in Spain), and the Calleja de las Flores, a dead-end alley framing the cathedral tower.",
       "tip": "Beautiful and very busy from 11:00. At 08:00 or after 20:00 you will have most of it to yourself."
     },
     {
       "name": "Roman bridge and Calahorra tower",
+      "image": {
+        "file": "File:Puente Romano of Córdoba Spain.jpg",
+        "alt": "The Roman bridge over the Guadalquivir at Córdoba"
+      },
       "text": "Sixteen arches across the Guadalquivir, originally built in the first century BC and rebuilt many times since. The pedestrianised crossing gives the classic view back at the Mezquita, and the tower at the far end holds a small museum.",
       "tip": "Cross at dusk when the bridge and the Mezquita are both lit. It is the best free thing in the city."
     },
     {
       "name": "Alcázar de los Reyes Cristianos",
+      "image": {
+        "file": "File:Gardens of the Alcázar de los Reyes Cristianos. Córdoba, Spain.jpg",
+        "alt": "The terraced gardens and pools of the Alcázar de los Reyes Cristianos"
+      },
       "text": "A 14th-century fortress-palace where Ferdinand and Isabella received Columbus, with Roman mosaics inside and formal gardens of long pools, fountains and clipped hedges descending in terraces.",
       "tip": "The gardens are the point rather than the building. Go late in the day when the low sun is on the water."
     },
     {
       "name": "Medina Azahara",
+      "image": {
+        "file": "File:Delimitación de Madinat al-Zahra 3.jpg",
+        "alt": "The excavated ruins of the caliphal city of Medina Azahara"
+      },
       "text": "A palace city built from 936 by the caliph Abd al-Rahman III as a new capital, sacked and abandoned within seventy years, and then lost until the 20th century. Only about a tenth has been excavated. The museum below the site is excellent.",
       "tip": "Eight kilometres west with a dedicated shuttle bus from the city. Allow half a day and go in the morning — there is no shade."
     },
     {
       "name": "The patios",
+      "image": {
+        "file": "File:Córdoba Spain - Fiesta De Los Patios De Córdoba - 2015 (18378583269).jpg",
+        "alt": "A Córdoba patio hung with potted flowers during the patio festival"
+      },
       "text": "Whitewashed interior courtyards hung with hundreds of potted plants, watered by hand. During the festival in the first half of May, dozens open free to the public and compete for prizes; a smaller number stay open year-round for a small fee.",
       "tip": "The San Basilio and Santa Marina districts have the highest concentration. Visit in the morning when they have just been watered."
     },
     {
       "name": "Palacio de Viana",
+      "image": {
+        "file": "File:Córdoba - Palacio de Viana - 05-PC.jpg",
+        "alt": "One of the twelve patios of the Palacio de Viana"
+      },
       "text": "An aristocratic house with twelve separate patios accumulated over five centuries, each in a different style. The best year-round way to understand Córdoba's courtyard architecture without waiting for May.",
       "tip": "The patios-only ticket is cheaper than the full house tour and is the better half of the visit."
     },
     {
       "name": "Plaza de la Corredera",
+      "image": {
+        "file": "File:Córdoba - Plaza de la Corredera.jpg",
+        "alt": "The enclosed rectangular Plaza de la Corredera"
+      },
       "text": "The only rectangular enclosed plaza in Andalusia, built in the 1680s in the Castilian style, with a daily market underneath the arcades and bars all around it.",
       "tip": "Ten minutes north of the Mezquita and almost entirely free of visitors. Good for a drink in the late afternoon."
     }
@@ -110,16 +142,28 @@
     },
     {
       "title": "Visit Medina Azahara",
+      "image": {
+        "file": "File:Delimitacion de Madinat al-Zahra 2.jpg",
+        "alt": "Ruined walls and arches at Medina Azahara"
+      },
       "text": "The ruins of a purpose-built caliphal capital, abandoned after seventy years. The scale and the ambition of it — and the speed of its collapse — put the Mezquita in a much clearer context.",
       "tip": "A dedicated shuttle runs from Paseo de la Victoria. Do the museum first, then the site."
     },
     {
       "title": "Drink Montilla-Moriles",
+      "image": {
+        "file": "File:Viñedos del Lagar de la Salud.jpg",
+        "alt": "Vineyards in the Montilla-Moriles region south of Córdoba"
+      },
       "text": "Made 40 km south using the same solera ageing as sherry, but from Pedro Ximénez grapes and usually unfortified. Fino, amontillado and oloroso styles at a fraction of Jerez prices, and rarely seen outside Andalusia.",
       "tip": "Old tabernas in the centre serve it by the glass from the barrel. Ask for fino to start."
     },
     {
       "title": "Cross the Roman bridge at dusk",
+      "image": {
+        "file": "File:Córdoba - Puente romano - 03.jpg",
+        "alt": "The arches of Córdoba's Roman bridge"
+      },
       "text": "Sixteen arches over the Guadalquivir with the Mezquita lit behind you and the Calahorra tower ahead. Ten minutes, free, and the memory most visitors keep.",
       "tip": "Continue to the far bank for the view back, which is better than the view out."
     }
@@ -128,26 +172,46 @@
   "foods": [
     {
       "name": "Salmorejo cordobés",
+      "image": {
+        "file": "File:Salmorejo cordouan.JPG",
+        "alt": "Salmorejo, thick and cold, topped with egg and ham"
+      },
       "text": "Tomato, bread, garlic and olive oil blended thick and cold, topped with chopped hard-boiled egg and jamón. Denser and more substantial than gazpacho, and eaten as a starter or a light meal all summer.",
       "whereToTry": "Every bar and restaurant in the city from spring to autumn. The version here is the reference."
     },
     {
       "name": "Rabo de toro",
+      "image": {
+        "file": "File:Rabo de toro-Estofado (01).JPG",
+        "alt": "Rabo de toro — oxtail braised in red wine"
+      },
       "text": "Oxtail braised for hours in red wine with vegetables until it falls off the bone, served with fried potatoes. Córdoba's signature hot dish and available year-round.",
       "whereToTry": "Traditional restaurants around the Judería and Plaza de la Corredera."
     },
     {
       "name": "Flamenquín",
+      "image": {
+        "file": "File:Restaurante Casa Borrasca - Flamenquín (49491993756).jpg",
+        "alt": "Flamenquín — breaded and fried rolled pork loin with ham"
+      },
       "text": "A roll of pork loin wrapped around jamón, breaded and deep-fried, then sliced. Cheap, enormous and entirely local — you will not find it elsewhere in Spain under this name.",
       "whereToTry": "Neighbourhood bars away from the cathedral. Usually served with chips and alioli."
     },
     {
       "name": "Berenjenas con miel",
+      "image": {
+        "file": "File:Berenjenas con miel de caña La Gamba de ORO.jpg",
+        "alt": "Crisp fried aubergine drizzled with cane honey"
+      },
       "text": "Aubergine sliced thin, fried until crisp and drizzled with cane honey. A direct survival of Al-Andalus cooking and one of the best tapas in Andalusia.",
       "whereToTry": "Almost every tapas bar in the city. Ask for it with miel de caña rather than bee honey."
     },
     {
       "name": "Montilla-Moriles wine",
+      "image": {
+        "file": "File:Lagar de la Salud.jpg",
+        "alt": "A traditional lagar in the Montilla-Moriles wine country"
+      },
       "text": "Solera-aged wines from just south of the city — fino, amontillado, oloroso and the intensely sweet Pedro Ximénez. Made like sherry but usually without fortification, and much cheaper.",
       "whereToTry": "Old tabernas serving from the barrel. The PX poured over ice cream is a standard local dessert."
     },
