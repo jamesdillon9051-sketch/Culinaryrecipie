@@ -272,6 +272,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Baguettes, Paris, France - panoramio.jpg": {
+    "artist": "Nick Thweatt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baguettes,_Paris,_France_-_panoramio.jpg",
+    "context": "Baguette de tradition — Paris, France",
+    "hero": "images/france/paris--food-1.webp",
+    "card": "images/france/paris--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ballarò, gente en el mercado, Palermo, Sicilia, Italia, 2015.JPG": {
     "artist": "Benjamín Núñez González",
     "license": "CC BY-SA 4.0",
@@ -293,6 +306,19 @@
     "context": "Santa Croce and the Bargello — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--attraction-4.webp",
     "card": "images/italy/florence-tuscany--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Basilique du Sacré-Cœur de Montmartre - Paris - GT-01 - 2024.jpg": {
+    "artist": "Terragio67",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_-_Paris_-_GT-01_-_2024.jpg",
+    "context": "Montmartre and Sacré-Cœur — Paris, France",
+    "hero": "images/france/paris--attraction-6.webp",
+    "card": "images/france/paris--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -427,6 +453,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg": {
+    "artist": "Celette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "context": "Sit in a café without a plan — Paris, France",
+    "hero": "images/france/paris--thing-3.webp",
+    "card": "images/france/paris--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 510
   },
   "File:Calamari Fritti - Tavola Di Famiglia 2026-02-27.jpg": {
     "artist": "Andy Li",
@@ -883,6 +922,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Courtyard @ Louvre @ Paris (28897294980).jpg": {
+    "artist": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_@_Louvre_@_Paris_(28897294980).jpg",
+    "context": "The Louvre — Paris, France",
+    "hero": "images/france/paris--attraction-1.webp",
+    "card": "images/france/paris--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Crater rim volcano Vesuvius - Campania - Italy - July 9th 2013 - 01.jpg": {
     "artist": "Norbert Nagel",
     "license": "CC BY-SA 3.0",
@@ -919,6 +971,19 @@
     "card": "images/italy/dolomites--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Croissants au beurre (18953292873).jpg": {
+    "artist": "Herry Wibisono (herryway)",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croissants_au_beurre_(18953292873).jpg",
+    "context": "Croissant au beurre — Paris, France",
+    "hero": "images/france/paris--food-3.webp",
+    "card": "images/france/paris--food-3-card.webp",
+    "heroWidth": 1200,
+    "heroHeight": 675,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -1086,6 +1151,19 @@
     "context": "Take a train to a lake or a hill town — Milan, Italy",
     "hero": "images/italy/milan--thing-5.webp",
     "card": "images/italy/milan--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Falafel in a pita.jpg": {
+    "artist": "Israel_photo_gallery",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falafel_in_a_pita.jpg",
+    "context": "Falafel in the Marais — Paris, France",
+    "hero": "images/france/paris--food-5.webp",
+    "card": "images/france/paris--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1285,6 +1363,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Giant chocolate-glazed éclairs.jpg": {
+    "artist": "Ibex73",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_chocolate-glazed_%C3%A9clairs.jpg",
+    "context": "Pastry, as a decision — Paris, France",
+    "hero": "images/france/paris--food-6.webp",
+    "card": "images/france/paris--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Giardino degli aranci (Roma).jpg": {
     "artist": "Bex-Lemon",
@@ -1650,6 +1741,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Le BarOMetre (879).jpg": {
+    "artist": "Patrick Nouhailler's…",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_BarOMetre_(879).jpg",
+    "context": "Spend an evening in a wine bar — Paris, France",
+    "hero": "images/france/paris--thing-6.webp",
+    "card": "images/france/paris--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Le orecchiette di Bari.jpg": {
     "artist": "Maddy16869",
     "license": "CC BY-SA 4.0",
@@ -1988,6 +2092,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Nef de Notre Dame de Paris en 2025.jpg": {
+    "artist": "Wozart",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nef_de_Notre_Dame_de_Paris_en_2025.jpg",
+    "context": "Notre-Dame de Paris — Paris, France",
+    "hero": "images/france/paris--attraction-5.webp",
+    "card": "images/france/paris--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Negroni (cocktail).jpg": {
     "artist": "Sudhertzen",
     "license": "CC BY-SA 4.0",
@@ -2196,6 +2313,19 @@
     "cardWidth": 800,
     "cardHeight": 302
   },
+  "File:Panoramic view of the Park of Versailles with Latona Fountain a sunny morning in France.jpg": {
+    "artist": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_the_Park_of_Versailles_with_Latona_Fountain_a_sunny_morning_in_France.jpg",
+    "context": "Take a day trip to Versailles — Paris, France",
+    "hero": "images/france/paris--thing-4.webp",
+    "card": "images/france/paris--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Pansotti alle noci 02.JPG": {
     "artist": "myself",
     "license": "Public domain",
@@ -2204,6 +2334,45 @@
     "context": "Pansotti with walnut sauce — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--food-5.webp",
     "card": "images/italy/cinque-terre--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Paris - Musée d'Orsay - big clock seen from the interior.jpg": {
+    "artist": "Roman Eisele",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Mus%C3%A9e_d%27Orsay_-_big_clock_seen_from_the_interior.jpg",
+    "context": "Musée d'Orsay — Paris, France",
+    "hero": "images/france/paris--attraction-2.webp",
+    "card": "images/france/paris--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Paris 3e Place des Vosges Arcades 896.jpg": {
+    "artist": "GFreihalter",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_3e_Place_des_Vosges_Arcades_896.jpg",
+    "context": "The Marais — Paris, France",
+    "hero": "images/france/paris--attraction-7.webp",
+    "card": "images/france/paris--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Paris Eiffel Tower second floor view upwards 20140215.jpg": {
+    "artist": "Miguel Mendez from Malahide, Ireland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Eiffel_Tower_second_floor_view_upwards_20140215.jpg",
+    "context": "The Eiffel Tower — Paris, France",
+    "hero": "images/france/paris--attraction-4.webp",
+    "card": "images/france/paris--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2273,6 +2442,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:Père Lachaise Cemetery at Golden Hour in November 2019.jpg": {
+    "artist": "Jami430",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A8re_Lachaise_Cemetery_at_Golden_Hour_in_November_2019.jpg",
+    "context": "Père-Lachaise Cemetery — Paris, France",
+    "hero": "images/france/paris--attraction-8.webp",
+    "card": "images/france/paris--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Photo of the Faraglioni Rocks, Capri, Italy.jpg": {
     "artist": "Littleballofwiki",
@@ -2360,6 +2542,19 @@
     "context": "Pizza, thin and by the slice — Rome, Italy",
     "hero": "images/italy/rome--food-4.webp",
     "card": "images/italy/rome--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plateau de fromages aux Halles de Lyon-Paul Bocuse en mai 2017.jpg": {
+    "artist": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateau_de_fromages_aux_Halles_de_Lyon-Paul_Bocuse_en_mai_2017.jpg",
+    "context": "Cheese, properly chosen — Paris, France",
+    "hero": "images/france/paris--food-4.webp",
+    "card": "images/france/paris--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2612,6 +2807,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Rooftop terrace @ Galeries Lafayette @ Paris (34475612193).jpg": {
+    "artist": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rooftop_terrace_@_Galeries_Lafayette_@_Paris_(34475612193).jpg",
+    "context": "See something above ground level — Paris, France",
+    "hero": "images/france/paris--thing-5.webp",
+    "card": "images/france/paris--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Rue Mouffetard food market, Paris 8 May 2012.jpg": {
+    "artist": "edwin.11",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rue_Mouffetard_food_market,_Paris_8_May_2012.jpg",
+    "context": "Do a market street properly — Paris, France",
+    "hero": "images/france/paris--thing-1.webp",
+    "card": "images/france/paris--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
+  "File:Sainte Chapelle Interior Stained Glass.jpg": {
+    "artist": "Oldmanisold",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_Interior_Stained_Glass.jpg",
+    "context": "Sainte-Chapelle and the Île de la Cité — Paris, France",
+    "hero": "images/france/paris--attraction-3.webp",
+    "card": "images/france/paris--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:San Gimignano skyline (6082044552).jpg": {
     "artist": "Thomas Quine",
     "license": "CC BY 2.0",
@@ -2859,6 +3093,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Steak-frites as served at Le Relais de Venise - L'Entrecote.jpg": {
+    "artist": "Dcollard",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steak-frites_as_served_at_Le_Relais_de_Venise_-_L%27Entrecote.jpg",
+    "context": "Steak frites — Paris, France",
+    "hero": "images/france/paris--food-2.webp",
+    "card": "images/france/paris--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 518
+  },
   "File:Street with trulli Alberobello.jpg": {
     "artist": "MPhernambucq",
     "license": "CC BY-SA 4.0",
@@ -2932,6 +3179,19 @@
     "context": "The Navigli — Milan, Italy",
     "hero": "images/italy/milan--attraction-7.webp",
     "card": "images/italy/milan--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Sunset over the Seine River in 2016.jpg": {
+    "artist": "Bruno Abatti brunoabatti",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Seine_River_in_2016.jpg",
+    "context": "Walk the Seine at dusk — Paris, France",
+    "hero": "images/france/paris--thing-2.webp",
+    "card": "images/france/paris--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
