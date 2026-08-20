@@ -53,41 +53,73 @@
   "attractions": [
     {
       "name": "Pompeii",
+      "image": {
+        "file": "File:Composition ruins Pompeii.jpg",
+        "alt": "The paved streets and ruined buildings of Pompeii"
+      },
       "text": "A commercial town of perhaps twelve thousand people, buried in AD 79 and about two-thirds excavated: the forum, the amphitheatre, bath complexes, painted villas, bakeries, bars with sunken jars and the plaster casts of the dead.",
       "tip": "Three hours minimum, five if you are serious. Enter at Porta Marina, take a map, and know there is almost no shade."
     },
     {
       "name": "Herculaneum",
+      "image": {
+        "file": "File:Herculaneum 001.jpg",
+        "alt": "The ruins of Herculaneum, with carbonised wood and standing upper storeys"
+      },
       "text": "A smaller, wealthier seaside town buried under twenty metres of volcanic material that carbonised rather than burned the wood. Roof beams, screens, furniture and second storeys survive, along with mosaics still in their rooms.",
       "tip": "Two hours and far less exhausting than Pompeii. If you only have time for one and hate crowds, choose this."
     },
     {
       "name": "National Archaeological Museum",
+      "image": {
+        "file": "File:Alexander and Bucephalus - Battle of Issus mosaic - Museo Archeologico Nazionale - Naples BW.jpg",
+        "alt": "The Alexander Mosaic from the House of the Faun in Pompeii, now in the National Archaeological Museum"
+      },
       "text": "The Farnese collection of colossal Roman sculpture — the Farnese Bull carved from a single block, the Hercules — plus the Alexander Mosaic from the House of the Faun and room after room of Pompeian fresco and bronze.",
       "tip": "Go before the sites, not after. Three hours, and the Secret Cabinet of erotic material from Pompeii is included."
     },
     {
       "name": "Vesuvius",
+      "image": {
+        "file": "File:Crater rim volcano Vesuvius - Campania - Italy - July 9th 2013 - 01.jpg",
+        "alt": "The crater rim of Vesuvius, with the Bay of Naples spread out below"
+      },
       "text": "Still active, still monitored, and climbable: a bus or taxi to about 1,000 metres and then a thirty-minute walk up a gravel path to the crater rim, with the whole Bay of Naples below.",
       "tip": "Timed tickets are booked in advance and the summit closes in bad weather. Wear real shoes; the path is loose scoria."
     },
     {
       "name": "Cappella Sansevero",
+      "image": {
+        "file": "File:Cappella Sansevero (15041603867).jpg",
+        "alt": "Inside the Cappella Sansevero, the Baroque chapel holding Sanmartino's Veiled Christ"
+      },
       "text": "A small Baroque chapel holding Sanmartino's Veiled Christ of 1753 — a marble figure under a marble shroud so thin it looks wet — and in the crypt two anatomical models that have unsettled visitors for two centuries.",
       "tip": "Timed entry, small rooms, sells out. Book a day or two ahead and go early."
     },
     {
       "name": "The centro storico",
+      "image": {
+        "file": "File:Naples spaccanapoli.JPG",
+        "alt": "The narrow street of Spaccanapoli running through Naples' historic centre"
+      },
       "text": "The Greek grid still visible in Spaccanapoli and Via dei Tribunali: nativity-figure workshops on Via San Gregorio Armeno, the Duomo with the vial of San Gennaro's blood, and Baroque churches every fifty metres.",
       "tip": "Walk it in the morning and again at night. It is a different city each time, and both are worth it."
     },
     {
       "name": "Underground Naples",
+      "image": {
+        "file": "File:Napoli sotterranea 06.jpg",
+        "alt": "Tunnels of Napoli Sotterranea, the quarries and aqueduct beneath the historic centre"
+      },
       "text": "Greek stone quarries that became a Roman aqueduct and then air-raid shelters in 1943, forty metres beneath the centro storico — and, in the Rione Sanità, the early Christian Catacombs of San Gennaro.",
       "tip": "The catacombs are run by a local youth cooperative that transformed the neighbourhood. It is the most worthwhile ticket in Naples."
     },
     {
       "name": "Certosa di San Martino and Capodimonte",
+      "image": {
+        "file": "File:Cloister of the Certosa di San Martino, Naples MET DP808067.jpg",
+        "alt": "The marble cloister of the Certosa di San Martino"
+      },
       "text": "A Carthusian monastery on the Vomero hill with a marble cloister, the great Neapolitan nativity collection and the best view of the bay; and, north of the centre, Capodimonte's Titians, Caravaggio and Bruegel.",
       "tip": "Take the funicular up to San Martino at the end of the day for the view over the bay to Vesuvius."
     }
@@ -96,31 +128,55 @@
   "thingsToDo": [
     {
       "title": "Do the museum before the sites",
+      "image": {
+        "file": "File:Farnese Bull MAN Napoli Inv6002 n06.jpg",
+        "alt": "The Farnese Bull, carved from a single block, in the National Archaeological Museum"
+      },
       "text": "Everything moveable from Pompeii and Herculaneum is in the National Archaeological Museum. Seeing the frescoes, the mosaics and the household bronzes first turns empty rooms into furnished houses.",
       "tip": "The single most useful piece of sequencing on this trip, and most visitors get it the wrong way round."
     },
     {
       "title": "Eat pizza where it was invented",
+      "image": {
+        "file": "File:Neapolitan pizza.jpg",
+        "alt": "A soft, blistered Neapolitan pizza fresh from a wood oven"
+      },
       "text": "A margherita or a marinara from a wood oven at 480°C in ninety seconds, soft and blistered and folded in four to eat. Six or seven euros in the historic pizzerias of the centro storico.",
       "tip": "Expect a queue and a ticket number. Order one of the two classics — the long menus are for tourists."
     },
     {
       "title": "Climb Vesuvius",
+      "image": {
+        "file": "File:Crater rim volcano Vesuvius - Campania - Italy - July 9th 2013 - 24.jpg",
+        "alt": "Walkers on the gravel path along the crater rim of Vesuvius"
+      },
       "text": "Up to the crater rim of the volcano that buried the towns you have just walked through, looking down into it and out over the bay, Capri and the whole city.",
       "tip": "Book the timed ticket in advance and go on a clear morning — cloud sits on the summit and there is nothing to see in it."
     },
     {
       "title": "Walk the Sanità",
+      "image": {
+        "file": "File:Palazzo dello Spagnolo - Naples.jpg",
+        "alt": "The theatrical double staircase of the Palazzo dello Spagnolo in the Sanità"
+      },
       "text": "The neighbourhood north of the centre, long written off and now the most interesting part of Naples: the catacombs, the Palazzo dello Spagnolo staircase, street art, and pastry shops with queues around the corner.",
       "tip": "Go on a guided walk run by the local cooperative. It is better than any tour of the centre."
     },
     {
       "title": "Ride the metro and the funiculars",
+      "image": {
+        "file": "File:Toledo Station Mezzanine 07.jpg",
+        "alt": "The mosaic light-well inside Toledo metro station"
+      },
       "text": "Naples' line 1 stations were commissioned as public art, with Toledo's mosaic light-well the most striking. Then take a funicular up to the Vomero for the view.",
       "tip": "A day travel ticket covers metro, funiculars and buses. Toledo station is worth a stop even if you are not going anywhere."
     },
     {
       "title": "Take a day out to Paestum or Procida",
+      "image": {
+        "file": "File:Greek Temple of Poseidon Paestum.jpg",
+        "alt": "One of the almost complete Greek Doric temples at Paestum"
+      },
       "text": "Paestum, an hour and a half south, has three Greek Doric temples standing almost complete. Procida, thirty-five minutes by ferry, is the smallest and least developed island in the bay.",
       "tip": "Paestum's temples predate anything at Pompeii by four hundred years and get a fraction of the visitors."
     }
@@ -129,6 +185,10 @@
   "foods": [
     {
       "name": "Pizza napoletana",
+      "image": {
+        "file": "File:Pizza-napoletana.jpg",
+        "alt": "A leopard-spotted pizza napoletana, soft and wet-centred"
+      },
       "text": "A soft, wet-centred, leopard-spotted disc cooked in ninety seconds in a wood oven. Two classics: marinara, with tomato, garlic and oregano and no cheese, and margherita, with tomato, fior di latte and basil.",
       "whereToTry": "The historic pizzerias of the centro storico. Take a number, wait, and order one of the two."
     },
@@ -139,21 +199,37 @@
     },
     {
       "name": "Sfogliatella",
+      "image": {
+        "file": "File:Sfogliatella riccia napoletana.jpg",
+        "alt": "Sfogliatella riccia, its shell of crisp pastry layers filled with semolina and ricotta"
+      },
       "text": "A shell of a hundred crisp pastry layers filled with semolina, ricotta and candied peel — riccia — or the softer shortcrust frolla version. Eaten warm, standing, at nine in the morning.",
       "whereToTry": "The pastry shops near the station and in the Sanità, where they come out of the oven all day."
     },
     {
       "name": "Babà",
+      "image": {
+        "file": "File:Babà rum.jpg",
+        "alt": "A babà, soaked in rum syrup until barely holding together"
+      },
       "text": "A yeasted cake soaked in rum syrup until it is barely holding together, sometimes filled with cream. Naples adopted it from the French court and has held onto it more firmly than anyone else.",
       "whereToTry": "Any pasticceria. A good one drips when you pick it up."
     },
     {
       "name": "Friarielli and mozzarella",
+      "image": {
+        "file": "File:Caseificio Mozzarella di Bufala Campana DOP en Métropole de Naples (2).jpg",
+        "alt": "Buffalo mozzarella made at a caseificio on the plain outside Naples"
+      },
       "text": "Friarielli are bitter broccoli tops sautéed with garlic and chilli, served with sausage or on pizza. Buffalo mozzarella comes from the plain north of Salerno and is eaten within a day of being made.",
       "whereToTry": "Trattorias for the sausage and friarielli; alimentari in the morning for mozzarella still in its whey."
     },
     {
       "name": "Neapolitan coffee",
+      "image": {
+        "file": "File:Coffee in Italy.JPG",
+        "alt": "A short, thick espresso served in an Italian bar"
+      },
       "text": "Short, thick and served already sweetened unless you ask for it amaro. The tradition of the caffè sospeso — paying for a second coffee for whoever needs one — started in these bars.",
       "whereToTry": "Any neighbourhood bar. Standing up, one euro, gone in ten seconds."
     }
