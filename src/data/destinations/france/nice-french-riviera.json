@@ -60,41 +60,73 @@
   "attractions": [
     {
       "name": "Vieux Nice and the Cours Saleya",
+      "image": {
+        "file": "File:Cours Saleya market fruit stalls Nice 2026.JPG",
+        "alt": "Fruit stalls filling the market on the Cours Saleya in Vieux Nice"
+      },
       "text": "The old town is a dense grid of narrow lanes between the castle hill and the sea, unchanged in layout since the 1700s. Its spine is the Cours Saleya, a long market square that sells flowers and produce Tuesday to Sunday, antiques on Monday, and turns into a solid run of restaurant terraces at night.",
       "tip": "The market packs up around 13:00. Go before 11:00 and eat socca from one of the stalls rather than sitting down anywhere on the square itself."
     },
     {
       "name": "Colline du Château",
+      "image": {
+        "file": "File:View from Colline du Château Nice IMG 1282.jpg",
+        "alt": "The view over Nice and the bay from the Colline du Château"
+      },
       "text": "The wooded hill at the eastern end of the bay, where the medieval castle stood until Louis XIV demolished it in 1706. What is left is a park with an artificial waterfall and the definitive view along the Baie des Anges — the whole two-mile curve of the Promenade in one frame.",
       "tip": "A free lift runs up from the eastern end of the Promenade, next to the Hôtel Suisse, saving the 200-step climb."
     },
     {
       "name": "Promenade des Anglais",
+      "image": {
+        "file": "File:Promenade des Anglais (Nice), plage.jpg",
+        "alt": "The Promenade des Anglais running along the pebble beach at Nice"
+      },
       "text": "Four miles of seafront walkway built with English money in the 1820s, lined with palms, the blue chairs that have become the city's emblem, and a run of Belle Époque hotels including the pink-domed Negresco. The beach below is pebble, not sand — bring or buy the rubber shoes everyone else has.",
       "tip": "Best at either end of the day. Sunrise from the eastern end and sunset from the west are the two good hours."
     },
     {
       "name": "Musée Matisse and Musée Chagall",
+      "image": {
+        "file": "File:Le Musée Matisse vu du jardin du monastère.JPG",
+        "alt": "The ochre villa housing the Musée Matisse, seen from the monastery garden in Cimiez"
+      },
       "text": "Both sit in the leafy Cimiez district on the hill above the city, ten minutes apart by bus. The Matisse collection spans his whole career including the late cut-outs; the Chagall museum was designed around its seventeen Biblical Message canvases and is one of the most coherent single-artist museums anywhere.",
       "tip": "Cimiez also has Roman ruins and an olive grove. Do both museums in one morning and walk between them."
     },
     {
       "name": "Villefranche-sur-Mer",
+      "image": {
+        "file": "File:Villefranche-sur-Mer.jpg",
+        "alt": "The deep-water bay of Villefranche-sur-Mer with ochre houses above the harbour"
+      },
       "text": "Six minutes by train from Nice and arguably the prettiest deep-water bay on the coast — a tumble of ochre houses down to a fishing harbour, a 14th-century covered street, and water clear enough to see the bottom from the quay. It is the easiest possible half-day trip.",
       "tip": "The beach here is sand rather than pebble, and much calmer than anything in Nice itself."
     },
     {
       "name": "Èze",
+      "image": {
+        "file": "File:Èze und Cap Ferrat-Grande Corniche.jpg",
+        "alt": "The village of Èze on its rock high above the sea, with Cap Ferrat beyond"
+      },
       "text": "A medieval village welded to a rock 427 metres above the sea, with a cactus garden at the summit and views that on a clear day reach Corsica. It is undeniably a tourist village now, but the setting is extraordinary and the walk down the Nietzsche Path to the shore is a genuine highlight.",
       "tip": "Go early or late. Between 11:00 and 16:00 the coach parties make the single main lane almost impassable."
     },
     {
       "name": "Menton",
+      "image": {
+        "file": "File:Menton Old Town and Harbour.jpg",
+        "alt": "The pastel old town of Menton stacked above its harbour"
+      },
       "text": "The last town before Italy, half an hour by train, with a pastel old town stacked above the sea, subtropical gardens and a microclimate warm enough for lemon groves. It is noticeably quieter and less expensive than the coast west of Nice.",
       "tip": "The Lemon Festival in February fills the town; outside that fortnight it is one of the calmest places on the Riviera."
     },
     {
       "name": "Monaco",
+      "image": {
+        "file": "File:Monaco 02.jpg",
+        "alt": "The dense high-rise waterfront of Monaco below the hills"
+      },
       "text": "Twenty minutes by train. A curious, vertical, extremely wealthy half-square-mile with a genuinely good oceanographic museum, the old town on its rock, and the Casino square. Worth half a day for the strangeness of it; not worth staying in.",
       "tip": "The train station is deep inside the rock with several exits — take the one marked for the Port or the Palace, not the first one you reach."
     }
@@ -103,31 +135,55 @@
   "thingsToDo": [
     {
       "title": "Ride the coastal train with no fixed plan",
+      "image": {
+        "file": "File:TER Gare de Villefranche sur Mer (06).JPG",
+        "alt": "A TER regional train at the station in Villefranche-sur-Mer"
+      },
       "text": "Buy a few single tickets and get off wherever looks good. Between Nice and Menton the line calls at Villefranche, Beaulieu, Èze-sur-Mer, Cap d'Ail, Monaco, Roquebrune and Carnolès, and almost every one of them is worth an hour.",
       "tip": "Sit on the right-hand side heading east for the sea views. Trains run every 20–30 minutes until late evening."
     },
     {
       "title": "Swim off the rocks rather than the beach",
+      "image": {
+        "file": "File:Plage des Marinières.jpg",
+        "alt": "The Plage des Marinières at Villefranche-sur-Mer"
+      },
       "text": "Nice's public beaches are crowded pebble. The better swimming is at Villefranche's Plage des Marinières, the rocky coves below Cap Ferrat, or Plage Mala at Cap d'Ail — a small sandy cove reached by a steep staircase, and worth every step.",
       "tip": "Water is warmest in September, around 24°C, and still perfectly swimmable into October."
     },
     {
       "title": "Walk a coastal path",
+      "image": {
+        "file": "File:Littoral path in Saint-Jean Cap-Ferrat.jpg",
+        "alt": "The sentier du littoral running around the rocky shore at Saint-Jean-Cap-Ferrat"
+      },
       "text": "The sentiers du littoral run around the headlands where roads cannot go. The circuit of Cap Ferrat is about two hours of easy walking past villa gardens and hidden coves; the Cap d'Ail path links Monaco to Plage Mala in forty minutes.",
       "tip": "Start early in summer — these paths have almost no shade."
     },
     {
       "title": "Eat socca standing up",
+      "image": {
+        "file": "File:Socca in Nice.jpg",
+        "alt": "A portion of socca served on paper in Nice"
+      },
       "text": "A thin pancake of chickpea flour and olive oil, baked in a wood oven on a huge copper disc, scraped off in ragged pieces and eaten hot with black pepper. It costs a couple of euros and it is the definitive Nice street food.",
       "tip": "It must be eaten immediately — it goes leathery within minutes. Buy it where you can see the oven."
     },
     {
       "title": "Visit a hillside village inland",
+      "image": {
+        "file": "File:Saint-Paul-de-Vence BW 2011-06-09 12-19-00.JPG",
+        "alt": "The ramparts and rooftops of the hill village of Saint-Paul-de-Vence"
+      },
       "text": "Saint-Paul-de-Vence and Vence are 40 minutes inland by bus and feel like a different region — ramparts, galleries and the Fondation Maeght's sculpture park, one of Europe's best modern art collections in a purpose-built setting among the pines.",
       "tip": "Matisse's Chapelle du Rosaire in Vence, which he considered his masterpiece, opens only a few days a week. Check before going."
     },
     {
       "title": "Take the Train des Merveilles",
+      "image": {
+        "file": "File:Tenda railway.jpg",
+        "alt": "An arched railway viaduct on the mountain line up towards Tende"
+      },
       "text": "A regional service that climbs from Nice up the Roya valley to Tende, crossing viaducts and spiralling through tunnels into the mountains. Two hours each way on an ordinary ticket, and one of the most dramatic rail journeys in France.",
       "tip": "The morning departure has a guide on board in summer. Sit on the left going up."
     }
@@ -136,31 +192,55 @@
   "foods": [
     {
       "name": "Socca",
+      "image": {
+        "file": "File:Socca a Nice.jpg",
+        "alt": "Socca baked on a large copper disc and scraped into ragged pieces"
+      },
       "text": "A single large pancake of chickpea flour, water and olive oil, baked at fierce heat until blistered, then cut roughly and served on paper with a heavy grind of black pepper. Crisp at the edges, soft in the middle, and gone in five minutes.",
       "whereToTry": "The stalls and hole-in-the-wall bakeries of Vieux Nice, and the Cours Saleya market in the morning."
     },
     {
       "name": "Salade niçoise",
+      "image": {
+        "file": "File:Salade niçoise (7545098258).jpg",
+        "alt": "A salade niçoise of tomatoes, egg, olives and anchovies"
+      },
       "text": "The real thing contains no cooked vegetables at all: tomatoes, raw broad beans or small artichokes, spring onion, olives, anchovy or tuna, hard-boiled egg and olive oil. No potatoes, no green beans, no vinaigrette. Locals are firm about this.",
       "whereToTry": "Traditional restaurants in the old town — the ones that advertise cuisine nissarde."
     },
     {
       "name": "Pissaladière",
+      "image": {
+        "file": "File:Pissaladière 02.jpg",
+        "alt": "Pissaladière topped with slow-cooked onions, anchovies and black olives"
+      },
       "text": "A thick flatbread base under a deep layer of onions slow-cooked to jam, latticed with anchovies and black olives. Sold by weight in bakeries and eaten warm, standing, at any time of day.",
       "whereToTry": "Bakeries throughout Vieux Nice; usually sold alongside socca."
     },
     {
       "name": "Pan bagnat",
+      "image": {
+        "file": "File:Pan-bagnat 001.jpg",
+        "alt": "A pan bagnat — salade niçoise pressed into a round loaf"
+      },
       "text": "A salade niçoise packed into a round loaf and pressed until the olive oil soaks the bread. It is designed to be made in the morning and eaten at the beach in the afternoon, and it improves in the interim.",
       "whereToTry": "Any bakery or market stall. Buy one before catching the coastal train."
     },
     {
       "name": "Petits farcis",
+      "image": {
+        "file": "File:Petits farcis niçois.jpg",
+        "alt": "Petits farcis — small vegetables hollowed out and stuffed"
+      },
       "text": "Small vegetables — courgettes, tomatoes, onions, peppers — hollowed out, stuffed with seasoned meat and breadcrumbs, and baked. A classic home dish that appears on almost every traditional menu in the old town.",
       "whereToTry": "Family-run restaurants in Vieux Nice, usually as a starter or a light main."
     },
     {
       "name": "Tourte de blettes",
+      "image": {
+        "file": "File:Tourte de blettes.jpg",
+        "alt": "A tourte de blettes dusted with icing sugar"
+      },
       "text": "A sweet chard tart with pine nuts, raisins and apple, dusted with icing sugar. Vegetables in a dessert sounds unlikely and it works completely — an entirely local speciality you will not find elsewhere in France.",
       "whereToTry": "Old-town pâtisseries. Sold in wedges by weight."
     }
