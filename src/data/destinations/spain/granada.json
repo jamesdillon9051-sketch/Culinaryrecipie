@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "The Nasrid Palaces",
+      "image": {
+        "file": "File:Fountain patio de los Leones Alhambra Granada Spain.jpg",
+        "alt": "The lion fountain in the Court of the Lions, Alhambra"
+      },
       "text": "The heart of the Alhambra and the reason to come: the Court of the Myrtles with its long reflecting pool, the Court of the Lions with its twelve stone lions and 124 columns, and the Hall of the Two Sisters under a muqarnas dome of some 5,000 individual cells. Every surface is worked and every space is organised around water.",
       "tip": "Your ticket carries a fixed half-hour entry slot for this section only. Miss it and you cannot enter, and it cannot be changed."
     },
     {
       "name": "The Generalife",
+      "image": {
+        "file": "File:Fountain Generalife gardens, Granada, Spain.jpg",
+        "alt": "Water channels and clipped hedges in the Generalife gardens"
+      },
       "text": "The summer palace and gardens on the hill above, built as a retreat from the main complex. The Patio de la Acequia — a long water channel with arcing jets between clipped hedges — is the most photographed garden in Spain.",
       "tip": "Quieter early or in the last entry slot. The walk up between the two complexes takes about fifteen minutes."
     },
     {
       "name": "The Alcazaba",
+      "image": {
+        "file": "File:Remparts Alcazaba Alhambra Grenade.jpg",
+        "alt": "The ramparts of the Alcazaba fortress at the Alhambra"
+      },
       "text": "The oldest part of the Alhambra, a military fortress with towers along the ridge. The Torre de la Vela gives the widest view — the whole city below, the Albaicín opposite, and the Sierra Nevada behind.",
       "tip": "Included in the general ticket and often skipped. Climb it first if your Nasrid slot is later in the day."
     },
     {
       "name": "The Albaicín and Mirador de San Nicolás",
+      "image": {
+        "file": "File:Grenade Albaicin Mirador san Nicolas.JPG",
+        "alt": "The Mirador de San Nicolás in the Albaicín, facing the Alhambra"
+      },
       "text": "The Moorish quarter opposite the Alhambra, a maze of white lanes climbing the hill. The Mirador de San Nicolás gives the classic view of the palace with the mountains behind, and is where everyone gathers at sunset.",
       "tip": "The mirador is crowded at sunset. The Mirador de San Cristóbal higher up is quieter with a comparable view."
     },
     {
       "name": "Sacromonte",
+      "image": {
+        "file": "File:AA A CAVE HOUSE ON THE HILLS OF SACROMONTE IN GRANADA 2016.jpg",
+        "alt": "A whitewashed cave house on the Sacromonte hillside"
+      },
       "text": "The hillside above the Albaicín where whitewashed cave houses are dug into the rock, historically home to Granada's Roma community and the birthplace of the zambra form of flamenco. Several caves operate as small performance venues.",
       "tip": "The Cuevas del Sacromonte museum explains the cave dwellings themselves and gives the best view back at the Alhambra."
     },
     {
       "name": "The Royal Chapel and Cathedral",
+      "image": {
+        "file": "File:Fachada de la catedral de Granada - Fotos granada 1122.jpg",
+        "alt": "The facade of Granada Cathedral"
+      },
       "text": "Ferdinand and Isabella are buried in the Capilla Real, in a Gothic chapel they commissioned deliberately in the city that completed the Reconquista. The adjoining cathedral is one of the first Renaissance churches in Spain.",
       "tip": "The Royal Chapel is small, moving and easily missed next to the cathedral. Allow half an hour."
     },
     {
       "name": "The Sierra Nevada and the Alpujarras",
+      "image": {
+        "file": "File:Dílar - Sierra Nevada - 10.jpg",
+        "alt": "The peaks of the Sierra Nevada above Granada"
+      },
       "text": "Mainland Spain's highest mountains, forty minutes from the city, with skiing from December to April and high-altitude walking in summer. The Alpujarra villages on the southern slopes kept Moorish building styles into the modern era.",
       "tip": "Capileira, Bubión and Pampaneira are the classic three villages, about 90 minutes away and reachable by bus."
     },
     {
       "name": "The Carrera del Darro and the Bañuelo",
+      "image": {
+        "file": "File:Carrera del Darro Granada Spain.jpg",
+        "alt": "The Carrera del Darro along the river below the Alhambra"
+      },
       "text": "The street along the river beneath the Alhambra, with Roman and Moorish bridges and the Bañuelo — 11th-century Arab baths, among the oldest and best preserved in Spain.",
       "tip": "The most beautiful street in Granada and the natural walking route from the centre up into the Albaicín."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Do a free-tapas crawl",
+      "image": {
+        "file": "File:Cerveza y tapa - Guadix.jpg",
+        "alt": "A beer served with a free tapa, the custom across Granada province"
+      },
       "text": "Order a drink and food arrives. Each round is usually a different dish, and the quality varies wildly, which is part of the fun. Three or four bars over an evening costs about €12 and constitutes dinner.",
       "tip": "Calle Elvira, Campo del Príncipe and the streets around Plaza Nueva are the classic circuits. The tapa often improves with each round at the same bar."
     },
     {
       "title": "Get lost in the Albaicín",
+      "image": {
+        "file": "File:Granada-Albaicín-Calle de Zarfa-20110920.jpg",
+        "alt": "A narrow white-walled lane in the Albaicín"
+      },
       "text": "The point is not to have a route. The lanes are too narrow and irregular to navigate deliberately, and every few turns opens onto a view, a carmen gate or a small square. Walking uphill eventually gets you somewhere with a view.",
       "tip": "Go in the morning when the light is on the Alhambra opposite, and again at sunset when it is not."
     },
     {
       "title": "See flamenco in a cave",
+      "image": {
+        "file": "File:Flamenco granada-7.jpg",
+        "alt": "A flamenco performance in a Granada cave venue"
+      },
       "text": "Sacromonte's cave venues are small, hot and considerably more intense than a theatre show. The zambra is a Granada form with its own repertoire, historically performed at weddings.",
       "tip": "Book a smaller venue directly rather than through a hotel package with dinner and coach transfer."
     },
     {
       "title": "Take an Arab bath",
+      "image": {
+        "file": "File:El Bañuelo Granada 04.jpg",
+        "alt": "The brick vaults and columns of El Bañuelo, Granada's surviving Moorish bathhouse"
+      },
       "text": "Several hammams in the centre are modelled on the Moorish baths that stood on the same sites, with hot, warm and cold pools and optional massage. It is a tourist-facing institution but a genuinely pleasant one.",
       "tip": "Book ahead and take the late evening slot, which is quieter and fits well after a day at the Alhambra."
     },
     {
       "title": "Walk in the Alpujarras",
+      "image": {
+        "file": "File:White villages alpujarras.jpg",
+        "alt": "A white village on the southern slopes of the Sierra Nevada"
+      },
       "text": "The white villages on the Sierra Nevada's southern slopes are connected by old mule paths and terraced irrigation channels built under Moorish rule. Pampaneira to Bubión to Capileira is an easy and beautiful half-day walk.",
       "tip": "Buses from Granada take about 90 minutes. Go in spring or autumn; the villages are cold in winter and hot in August."
     },
     {
       "title": "See the Alhambra from outside",
+      "image": {
+        "file": "File:Granada, La Alhambra vista desde El Sacromonte (2).jpg",
+        "alt": "The Alhambra seen across the valley from Sacromonte"
+      },
       "text": "The walk up through the Cuesta de los Chinos or along the Carrera del Darro, and the miradors in the Albaicín, give you the complex in its landscape — which the inside cannot.",
       "tip": "The Alhambra is floodlit at night and visible from most of the Albaicín. It is worth a walk after dinner."
     }
@@ -133,6 +189,10 @@
     },
     {
       "name": "Habas con jamón",
+      "image": {
+        "file": "File:Habas con jamón (528634446).jpg",
+        "alt": "Young broad beans fried with cured ham"
+      },
       "text": "Young broad beans fried with cured ham and often a poached egg. A simple, salty spring dish that appears on every tapas list in the city.",
       "whereToTry": "Traditional bars in the centre, best from March to June when the beans are fresh."
     },
@@ -143,11 +203,19 @@
     },
     {
       "name": "Plato alpujarreño",
+      "image": {
+        "file": "File:Plato alpujarreño.jpg",
+        "alt": "The plato alpujarreño — fried potatoes, morcilla, chorizo, ham and egg"
+      },
       "text": "The mountain plate: fried potatoes, morcilla, chorizo, cured ham and a fried egg. Enormous, cheap and designed for people who have been walking in the Alpujarras all day.",
       "whereToTry": "Village restaurants in the Alpujarras and traditional places in Granada itself."
     },
     {
       "name": "Piononos",
+      "image": {
+        "file": "File:Granada - Piononos de Santa Fe.jpg",
+        "alt": "Piononos, the syrup-soaked sponge pastries from Santa Fe"
+      },
       "text": "A small pastry from Santa Fe outside the city: a roll of syrup-soaked sponge topped with toasted cream, eaten in one or two bites. Named after Pope Pius IX and made to the same recipe since 1897.",
       "whereToTry": "Pastelerías in Granada and Santa Fe. Sold in boxes and best eaten the same day."
     },
