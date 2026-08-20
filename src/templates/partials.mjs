@@ -215,21 +215,38 @@ export function countryCard(country) {
 
 /* ------------------------------------------------------------------- blocks */
 
-/** Numbered detail list used for Things to Do. */
+/** Numbered detail list used for Things to Do (and, unillustrated, for culture/etiquette). */
 export function detailList(items, { numbered = true } = {}) {
   const Tag = numbered ? 'ol' : 'ul';
   return raw(`<${Tag} class="detail-list${numbered ? '' : ' detail-list--plain'}">
     ${items
       .map(
         (item) =>
-          html`<li class="detail-list__item">
-            <h3 class="detail-list__title">${item.title || item.name}</h3>
-            <p>${item.text}</p>
-            ${item.tip ? html`<p class="detail-list__tip"><span>Tip</span> ${item.tip}</p>` : ''}
+          html`<li class="detail-list__item${item.image ? ' detail-list__item--media' : ''}">
+            ${itemThumb(item, { modifier: 'detail-list' })}
+            <div class="detail-list__body">
+              <h3 class="detail-list__title">${item.title || item.name}</h3>
+              <p>${item.text}</p>
+              ${item.tip ? html`<p class="detail-list__tip"><span>Tip</span> ${item.tip}</p>` : ''}
+            </div>
           </li>`
       )
       .join('')}
   </${Tag}>`);
+}
+
+/** A small optional thumbnail for one attraction/thing-to-do/food item. Renders nothing when the item has no image, so unillustrated items keep their plain text layout. */
+function itemThumb(item, { modifier }) {
+  if (!item.image) return '';
+  return html`<div class="${modifier}__media">
+    ${picture({
+      credit: item.credit,
+      alt: item.image.alt || item.name || item.title,
+      variant: 'card',
+      className: `${modifier}__img`,
+      sizes: '(min-width: 40rem) 9rem, 28vw'
+    })}
+  </div>`;
 }
 
 /** Cards for Local Foods to Try, each with a "where to try it" line. */
@@ -237,25 +254,29 @@ export function foodList(items) {
   return html`<ul class="food-grid">
     ${join(
       items.map(
-        (item) => html`<li class="food">
-          <h3 class="food__name">${item.name}</h3>
-          <p class="food__text">${item.text}</p>
-          ${item.whereToTry
-            ? html`<p class="food__where"><span>Where to try it</span> ${item.whereToTry}</p>`
-            : ''}
+        (item) => html`<li class="food${item.image ? ' food--media' : ''}">
+          ${itemThumb(item, { modifier: 'food' })}
+          <div class="food__body">
+            <h3 class="food__name">${item.name}</h3>
+            <p class="food__text">${item.text}</p>
+            ${item.whereToTry
+              ? html`<p class="food__where"><span>Where to try it</span> ${item.whereToTry}</p>`
+              : ''}
+          </div>
         </li>`
       )
     )}
   </ul>`;
 }
 
-/** Main attractions — image-free so the page stays fast, but detailed. */
+/** Main attractions, each with an optional photo of the specific place named. */
 export function attractionList(items) {
   return html`<ol class="attractions">
     ${join(
       items.map(
-        (item, index) => html`<li class="attraction">
+        (item, index) => html`<li class="attraction${item.image ? ' attraction--media' : ''}">
           <span class="attraction__num" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>
+          ${itemThumb(item, { modifier: 'attraction' })}
           <div class="attraction__body">
             <h3 class="attraction__name">${item.name}</h3>
             <p>${item.text}</p>

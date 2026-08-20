@@ -117,23 +117,34 @@ export function renderArticlesIndex({ site, articleList }) {
 /** /image-credits/ — the attribution page every CC BY-SA image requires. */
 export function renderCredits({ site, credits, countryList, destinationList, articleList }) {
   const rows = [];
-  const push = (file, context, href) => {
+  // `anchor` is appended after url() resolves href, not before — url() always
+  // adds a trailing slash to whatever string it is given, which would land
+  // after a fragment baked into href (".../rome#attractions/") if passed in.
+  const push = (file, context, href, anchor) => {
     const credit = credits[file];
-    if (credit) rows.push({ file, credit, context, href });
+    if (credit) rows.push({ file, credit, context, href, anchor });
+  };
+
+  /** The optional per-item images on attractions/thingsToDo/foods, linked to their section. */
+  const pushItems = (items, anchor, place, href) => {
+    for (const item of items || []) {
+      if (item.image?.file) push(item.image.file, `${item.name || item.title} — ${place}`, href, anchor);
+    }
   };
 
   if (site.hero?.file) push(site.hero.file, 'Home page', '');
   for (const country of countryList) {
     if (country.image?.file) push(country.image.file, country.name, country.slug);
+    pushItems(country.thingsToDo, 'things-to-do', country.name, country.slug);
+    pushItems(country.foods, 'food', country.name, country.slug);
   }
   for (const destination of destinationList) {
-    if (destination.image?.file) {
-      push(
-        destination.image.file,
-        `${destination.name}, ${destination.countryData?.name ?? ''}`.replace(/,\s*$/, ''),
-        `${destination.country}/${destination.slug}`
-      );
-    }
+    const place = `${destination.name}, ${destination.countryData?.name ?? ''}`.replace(/,\s*$/, '');
+    const href = `${destination.country}/${destination.slug}`;
+    if (destination.image?.file) push(destination.image.file, place, href);
+    pushItems(destination.attractions, 'attractions', place, href);
+    pushItems(destination.thingsToDo, 'things-to-do', place, href);
+    pushItems(destination.foods, 'food', place, href);
   }
   for (const article of articleList) {
     if (article.image?.file) push(article.image.file, plain(article.title), `articles/${article.slug}`);
@@ -162,7 +173,7 @@ export function renderCredits({ site, credits, countryList, destinationList, art
             ${join(
               rows.map(
                 (row) => html`<tr>
-                  <td><a href="${url(row.href)}">${row.context}</a></td>
+                  <td><a href="${url(row.href)}${row.anchor ? `#${row.anchor}` : ''}">${row.context}</a></td>
                   <td>${row.credit.artist || 'Unknown'}</td>
                   <td>
                     ${row.credit.licenseUrl

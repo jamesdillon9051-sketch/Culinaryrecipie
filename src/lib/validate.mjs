@@ -5,6 +5,11 @@
  * do and foods to try, a full set of sections on every destination page, no
  * image shared between two destinations. Fifty pages is far too many to police
  * by eye, so the build fails loudly instead.
+ *
+ * Attractions/thingsToDo/foods may each optionally carry their own image, on
+ * top of the required destination/country hero — unlike the hero, these are
+ * never required and are exempt from the reuse check, since the same landmark
+ * or dish legitimately gets mentioned more than once across the site.
  */
 
 import { existsSync } from 'node:fs';
@@ -49,6 +54,11 @@ const COUNTRY_SECTIONS = [
 
 function nonEmptyArray(value) {
   return Array.isArray(value) && value.length > 0;
+}
+
+/** File names of any optional per-item images an attraction/thing-to-do/food list carries. */
+function itemImageFiles(items) {
+  return (items || []).map((item) => item.image?.file).filter(Boolean);
 }
 
 /**
@@ -166,11 +176,21 @@ export function validate(content, { root = process.cwd(), requireImages = true, 
   }
 
   // ---- images --------------------------------------------------------------
+  // Per-item images on attractions/thingsToDo/foods are optional — an item is
+  // never required to have one — but any that is present must resolve exactly
+  // like a top-level image, and the same file may legitimately appear more
+  // than once (the same landmark or dish mentioned on two pages), so these are
+  // deliberately not run through the imageOwners uniqueness check above.
   const referenced = new Set(
     [
       site.hero?.file,
       ...countryList.map((c) => c.image?.file),
+      ...countryList.flatMap((c) => itemImageFiles(c.thingsToDo)),
+      ...countryList.flatMap((c) => itemImageFiles(c.foods)),
       ...destinationList.map((d) => d.image?.file),
+      ...destinationList.flatMap((d) => itemImageFiles(d.attractions)),
+      ...destinationList.flatMap((d) => itemImageFiles(d.thingsToDo)),
+      ...destinationList.flatMap((d) => itemImageFiles(d.foods)),
       ...articleList.map((a) => a.image?.file)
     ].filter(Boolean)
   );

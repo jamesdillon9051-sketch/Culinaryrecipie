@@ -27,6 +27,13 @@ async function readJsonDir(dir) {
   return Promise.all(names.map((name) => readJson(path.join(dir, name))));
 }
 
+/** Resolves the optional per-item image on each attraction/thingsToDo/foods entry. */
+function wireItemCredits(items, credits) {
+  for (const item of items || []) {
+    if (item.image?.file) item.credit = credits[item.image.file] || null;
+  }
+}
+
 export async function loadContent(root = process.cwd(), { strictLinks = true } = {}) {
   const dir = (...parts) => path.join(root, DATA_DIR, ...parts);
 
@@ -70,10 +77,15 @@ export async function loadContent(root = process.cwd(), { strictLinks = true } =
       .map((slug) => articles.get(slug))
       .filter(Boolean);
     destination.credit = credits[destination.image?.file] || null;
+    wireItemCredits(destination.attractions, credits);
+    wireItemCredits(destination.thingsToDo, credits);
+    wireItemCredits(destination.foods, credits);
   }
 
   for (const country of countryList) {
     country.credit = credits[country.image?.file] || null;
+    wireItemCredits(country.thingsToDo, credits);
+    wireItemCredits(country.foods, credits);
   }
   for (const article of articleList) {
     article.credit = credits[article.image?.file] || null;

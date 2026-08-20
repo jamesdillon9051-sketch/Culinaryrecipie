@@ -12,6 +12,19 @@
     "cardWidth": 800,
     "cardHeight": 523
   },
+  "File:2002 Rome Roman Forum & Palatine 01.jpg": {
+    "artist": "Nicholas Hartmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2002_Rome_Roman_Forum_%26_Palatine_01.jpg",
+    "context": "The Roman Forum and Palatine Hill — Rome, Italy",
+    "hero": "images/italy/rome--attraction-2.webp",
+    "card": "images/italy/rome--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg": {
     "artist": "Luis Miguel Bugallo Sánchez",
     "license": "CC BY-SA 3.0",
@@ -24,6 +37,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:20140807 Ostia Antica 2189.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20140807_Ostia_Antica_2189.jpg",
+    "context": "Ostia Antica — Rome, Italy",
+    "hero": "images/italy/rome--attraction-8.webp",
+    "card": "images/italy/rome--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 887,
+    "cardWidth": 800,
+    "cardHeight": 443
+  },
+  "File:2017-03-23 On the Palatine Hill.jpg": {
+    "artist": "BIG ALBERT",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017-03-23_On_the_Palatine_Hill.jpg",
+    "context": "Do the ancient core on one ticket — Rome, Italy",
+    "hero": "images/italy/rome--thing-1.webp",
+    "card": "images/italy/rome--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 851,
+    "cardWidth": 800,
+    "cardHeight": 425
   },
   "File:2026-06-17 Lincoln Memorial Reflecting Pool post-restoration Washington DC 18-53-22.jpg": {
     "artist": "G. Edward Johnson",
@@ -51,19 +90,6 @@
     "cardWidth": 800,
     "cardHeight": 283
   },
-  "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
-    "artist": "Diego Delso",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir,_Ankara,_Turqu%C3%ADa,_2024-10-03,_DD_27.jpg",
-    "context": "Ankara, Turkey",
-    "hero": "images/turkey/ankara.webp",
-    "card": "images/turkey/ankara-card.webp",
-    "heroWidth": 1600,
-    "heroHeight": 754,
-    "cardWidth": 800,
-    "cardHeight": 377
-  },
   "File:Annecy, France - Apr 2026.jpg": {
     "artist": "Karlheinz Klingbeil",
     "license": "CC BY 4.0",
@@ -85,6 +111,32 @@
     "context": "Antalya & the Turquoise Coast, Turkey",
     "hero": "images/turkey/antalya-turquoise-coast.webp",
     "card": "images/turkey/antalya-turquoise-coast-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir,_Ankara,_Turqu%C3%ADa,_2024-10-03,_DD_27.jpg",
+    "context": "Ankara, Turkey",
+    "hero": "images/turkey/ankara.webp",
+    "card": "images/turkey/ankara-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 754,
+    "cardWidth": 800,
+    "cardHeight": 377
+  },
+  "File:Appian Way, Rome (6681676803).jpg": {
+    "artist": "Larry from Charlottetown, PEI, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Appian_Way,_Rome_(6681676803).jpg",
+    "context": "Cycle the Appian Way — Rome, Italy",
+    "hero": "images/italy/rome--thing-5.webp",
+    "card": "images/italy/rome--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -181,6 +233,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Capitoline Hill Museum (5986636527).jpg": {
+    "artist": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capitoline_Hill_Museum_(5986636527).jpg",
+    "context": "The Capitoline Museums — Rome, Italy",
+    "hero": "images/italy/rome--attraction-7.webp",
+    "card": "images/italy/rome--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Carciofo alla giudia.jpg": {
+    "artist": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carciofo_alla_giudia.jpg",
+    "context": "Carciofi, two ways — Rome, Italy",
+    "hero": "images/italy/rome--food-2.webp",
+    "card": "images/italy/rome--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Chambord Castle Northwest facade.jpg": {
     "artist": "Benh LIEU SONG",
     "license": "CC BY-SA 3.0",
@@ -206,6 +284,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 485
+  },
+  "File:Coda alla vaccinara-01.jpg": {
+    "artist": "shu tu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coda_alla_vaccinara-01.jpg",
+    "context": "Quinto quarto — Rome, Italy",
+    "hero": "images/italy/rome--food-5.webp",
+    "card": "images/italy/rome--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Colosseum Interior 1 (15005911295).jpg": {
+    "artist": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_Interior_1_(15005911295).jpg",
+    "context": "The Colosseum — Rome, Italy",
+    "hero": "images/italy/rome--attraction-1.webp",
+    "card": "images/italy/rome--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Colosseum of Rome and Roman forum.jpg": {
     "artist": "Wilfredor",
@@ -324,18 +428,44 @@
     "cardWidth": 800,
     "cardHeight": 528
   },
-  "File:Göbekli Tepe, Urfa.jpg": {
-    "artist": "Teomancimit",
+  "File:Galleria borghese facade.jpg": {
+    "artist": "Alessio Damato",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
-    "context": "Şanlıurfa & Göbekli Tepe, Turkey",
-    "hero": "images/turkey/sanliurfa-gobekli-tepe.webp",
-    "card": "images/turkey/sanliurfa-gobekli-tepe-card.webp",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galleria_borghese_facade.jpg",
+    "context": "The Borghese Gallery — Rome, Italy",
+    "hero": "images/italy/rome--attraction-6.webp",
+    "card": "images/italy/rome--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
-    "cardHeight": 531
+    "cardHeight": 470
+  },
+  "File:Galleria delle carte geografiche (Vatican Museums) September 2015-5.jpg": {
+    "artist": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galleria_delle_carte_geografiche_(Vatican_Museums)_September_2015-5.jpg",
+    "context": "The Vatican Museums and Sistine Chapel — Rome, Italy",
+    "hero": "images/italy/rome--attraction-4.webp",
+    "card": "images/italy/rome--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Giardino degli aranci (Roma).jpg": {
+    "artist": "Bex-Lemon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giardino_degli_aranci_(Roma).jpg",
+    "context": "Climb the Aventine — Rome, Italy",
+    "hero": "images/italy/rome--thing-6.webp",
+    "card": "images/italy/rome--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Going-to-the-Sun Road (Patterson).jpg": {
     "artist": "Tom Patterson",
@@ -376,6 +506,19 @@
     "cardWidth": 800,
     "cardHeight": 255
   },
+  "File:Göbekli Tepe, Urfa.jpg": {
+    "artist": "Teomancimit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+    "context": "Şanlıurfa & Göbekli Tepe, Turkey",
+    "hero": "images/turkey/sanliurfa-gobekli-tepe.webp",
+    "card": "images/turkey/sanliurfa-gobekli-tepe-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Hagia Sophia Istanbul July 2022-2.jpg": {
     "artist": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
@@ -397,6 +540,32 @@
     "context": "Cappadocia, Turkey",
     "hero": "images/turkey/cappadocia.webp",
     "card": "images/turkey/cappadocia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Interior oculus of the Rome Pantheon.jpg": {
+    "artist": "T. Le Berre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_oculus_of_the_Rome_Pantheon.jpg",
+    "context": "The Pantheon — Rome, Italy",
+    "hero": "images/italy/rome--attraction-3.webp",
+    "card": "images/italy/rome--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Italian Supplì.jpg": {
+    "artist": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italian_Suppl%C3%AC.jpg",
+    "context": "Supplì — Rome, Italy",
+    "hero": "images/italy/rome--food-3.webp",
+    "card": "images/italy/rome--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -453,6 +622,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Maritozzo da Iginio Massari.jpg": {
+    "artist": "Asdalol",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maritozzo_da_Iginio_Massari.jpg",
+    "context": "Maritozzo and gelato — Rome, Italy",
+    "hero": "images/italy/rome--food-6.webp",
+    "card": "images/italy/rome--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mattatoio Testaccio (Rome) 01.jpg": {
+    "artist": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mattatoio_Testaccio_(Rome)_01.jpg",
+    "context": "Eat your way through Testaccio — Rome, Italy",
+    "hero": "images/italy/rome--thing-4.webp",
+    "card": "images/italy/rome--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Mont Blanc Massif (2022-08-16).jpg": {
     "artist": "Olgierd Rudak",
@@ -558,14 +753,14 @@
     "cardWidth": 800,
     "cardHeight": 298
   },
-  "File:Plaza de España (Sevilla) - 01.jpg": {
-    "artist": "Carlos Delgado",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
-    "context": "Seville, Spain",
-    "hero": "images/spain/seville.webp",
-    "card": "images/spain/seville-card.webp",
+  "File:Pizze al taglio and Peroni at Alice.jpg": {
+    "artist": "Ypsilon from Finland",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizze_al_taglio_and_Peroni_at_Alice.jpg",
+    "context": "Pizza, thin and by the slice — Rome, Italy",
+    "hero": "images/italy/rome--food-4.webp",
+    "card": "images/italy/rome--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -579,6 +774,19 @@
     "context": "Madrid, Spain",
     "hero": "images/spain/madrid.webp",
     "card": "images/spain/madrid-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Plaza de España (Sevilla) - 01.jpg": {
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+    "context": "Seville, Spain",
+    "hero": "images/spain/seville.webp",
+    "card": "images/spain/seville-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -649,6 +857,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
+    "artist": "Kabelleger / David Gubler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_Cize-Bolozon.jpg",
+    "context": "Getting Around Europe by Train",
+    "hero": "images/articles/europe-by-train.webp",
+    "card": "images/articles/europe-by-train-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 494
+  },
   "File:San Sebastian La Concha-20120902-RM-125922.jpg": {
     "artist": "Ermell",
     "license": "CC BY-SA 4.0",
@@ -657,6 +878,19 @@
     "context": "San Sebastián & the Basque Country, Spain",
     "hero": "images/spain/san-sebastian-basque.webp",
     "card": "images/spain/san-sebastian-basque-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:San luigi dei francesi, interno, cappella contarelli 03.JPG": {
+    "artist": "sailko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_luigi_dei_francesi,_interno,_cappella_contarelli_03.JPG",
+    "context": "Hunt Caravaggio for free — Rome, Italy",
+    "hero": "images/italy/rome--thing-2.webp",
+    "card": "images/italy/rome--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -675,18 +909,31 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
-  "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
-    "artist": "Kabelleger / David Gubler",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_Cize-Bolozon.jpg",
-    "context": "Getting Around Europe by Train",
-    "hero": "images/articles/europe-by-train.webp",
-    "card": "images/articles/europe-by-train-card.webp",
+  "File:Spaghetti alla Carbonara (Madrid).JPG": {
+    "artist": "Tamorlan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_alla_Carbonara_(Madrid).JPG",
+    "context": "The four Roman pastas — Rome, Italy",
+    "hero": "images/italy/rome--food-1.webp",
+    "card": "images/italy/rome--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
-    "cardHeight": 494
+    "cardHeight": 533
+  },
+  "File:St Peter's Basilica façade.jpg": {
+    "artist": "Modussiccandi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Peter%27s_Basilica_fa%C3%A7ade.jpg",
+    "context": "St Peter's Basilica — Rome, Italy",
+    "hero": "images/italy/rome--attraction-5.webp",
+    "card": "images/italy/rome--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Sulmona Market Vegetable Stall Abruzzo Italy 9502.jpg": {
     "artist": "Paul Harrison",
@@ -761,6 +1008,19 @@
     "context": "Pamukkale & Hierapolis, Turkey",
     "hero": "images/turkey/pamukkale.webp",
     "card": "images/turkey/pamukkale-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Trevi fountain at night 05.jpg": {
+    "artist": "John Samuel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trevi_fountain_at_night_05.jpg",
+    "context": "Walk the centro storico after dark — Rome, Italy",
+    "hero": "images/italy/rome--thing-3.webp",
+    "card": "images/italy/rome--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

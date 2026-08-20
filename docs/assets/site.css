@@ -1214,6 +1214,17 @@ table {
   margin-right: 0.35rem;
 }
 
+.detail-list__item--media {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.detail-list__item--media .detail-list__body {
+  flex: 1;
+  min-width: 0;
+}
+
 /* ------------------------------------------------------------- attractions */
 
 .attractions {
@@ -1275,11 +1286,40 @@ table {
   margin-right: 0.35rem;
 }
 
+.attraction--media {
+  grid-template-columns: 3.5rem 5.5rem 1fr;
+}
+
 @media (max-width: 34rem) {
-  .attraction {
+  .attraction,
+  .attraction--media {
     grid-template-columns: 1fr;
     gap: 0.3rem;
   }
+
+  .attraction__media {
+    width: 8rem;
+  }
+}
+
+/* --------------------------------------------------- shared item thumbnail */
+
+.attraction__media,
+.detail-list__media,
+.food__media {
+  flex-shrink: 0;
+  width: 5.5rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.attraction__img,
+.detail-list__img,
+.food__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 
 /* -------------------------------------------------------------------- food */
@@ -1301,6 +1341,19 @@ table {
   border-top: 3px solid var(--warm);
   display: flex;
   flex-direction: column;
+}
+
+.food--media {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.food__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
 }
 
 .food__name {
@@ -1330,6 +1383,25 @@ table {
   font-size: 0.68rem;
   letter-spacing: 0.1em;
   margin-bottom: 0.15rem;
+}
+
+/* Below this width a fixed-width side thumbnail leaves an awkward gap next to
+   several lines of wrapped text, so things-to-do and food cards stack their
+   thumbnail above the text instead — attraction rows keep the side layout,
+   since their thumbnail sits beside a number rather than a whole card. Placed
+   after both base rules it overrides, since a media query does not win a
+   same-specificity cascade tie on its own — source order still decides. */
+@media (max-width: 34rem) {
+  .food--media,
+  .detail-list__item--media {
+    flex-direction: column;
+  }
+
+  .food--media .food__media,
+  .detail-list__item--media .detail-list__media {
+    width: 100%;
+    max-width: 12rem;
+  }
 }
 
 /* ----------------------------------------------------------------- seasons */

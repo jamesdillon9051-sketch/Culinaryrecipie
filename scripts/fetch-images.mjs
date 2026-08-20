@@ -6,6 +6,9 @@
  *   node scripts/fetch-images.mjs            # only what is missing
  *   node scripts/fetch-images.mjs --force    # re-fetch everything
  *   node scripts/fetch-images.mjs paris nice # only these slugs
+ *   node scripts/fetch-images.mjs rome       # a slug also matches its own
+ *                                             # attraction/thing/food sub-images
+ *                                             # (named "rome--attraction-1" etc.)
  *
  * Output lands in content/images/ and is committed, so nobody needs to run this
  * to build the site. Requires Python with Pillow for the WebP step; without it
@@ -55,6 +58,24 @@ async function listJson(dir) {
   return Promise.all(names.map((n) => readJson(path.join(dir, n))));
 }
 
+/**
+ * Adds a target for every item in `items` that carries an `image.file`, named
+ * `<parentName>--<label>-<n>` so re-running the script never collides across
+ * parents and doesn't churn positions when unrelated items are edited.
+ */
+function addItemImages(add, items, dir, parentName, parentContext, label) {
+  (items || []).forEach((item, index) => {
+    if (!item.image?.file) return;
+    add(
+      item.image.file,
+      item.image.alt,
+      dir,
+      `${parentName}--${label}-${index + 1}`,
+      `${item.name || item.title} — ${parentContext}`
+    );
+  });
+}
+
 /** Every image the site needs, with the output path it should be written to. */
 async function collectTargets() {
   const targets = [];
@@ -68,14 +89,15 @@ async function collectTargets() {
   const countries = await listJson(path.join(DATA, 'countries'));
   for (const country of countries) {
     add(country.image?.file, country.image?.alt, country.slug, '_country', country.name);
+    addItemImages(add, country.thingsToDo, country.slug, '_country', country.name, 'thing');
+    addItemImages(add, country.foods, country.slug, '_country', country.name, 'food');
+
     for (const destination of await listJson(path.join(DATA, 'destinations', country.slug))) {
-      add(
-        destination.image?.file,
-        destination.image?.alt,
-        country.slug,
-        destination.slug,
-        `${destination.name}, ${country.name}`
-      );
+      const context = `${destination.name}, ${country.name}`;
+      add(destination.image?.file, destination.image?.alt, country.slug, destination.slug, context);
+      addItemImages(add, destination.attractions, country.slug, destination.slug, context, 'attraction');
+      addItemImages(add, destination.thingsToDo, country.slug, destination.slug, context, 'thing');
+      addItemImages(add, destination.foods, country.slug, destination.slug, context, 'food');
     }
   }
 
@@ -83,7 +105,9 @@ async function collectTargets() {
     add(article.image?.file, article.image?.alt, 'articles', article.slug, article.title);
   }
 
-  return only.length ? targets.filter((t) => only.includes(t.name)) : targets;
+  return only.length
+    ? targets.filter((t) => only.some((o) => t.name === o || t.name.startsWith(`${o}--`)))
+    : targets;
 }
 
 /* ---------------------------------------------------------------- commons */

@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "The Colosseum",
+      "image": {
+        "file": "File:Colosseum Interior 1 (15005911295).jpg",
+        "alt": "The tiered interior of the Colosseum with the exposed hypogeum beneath the missing arena floor"
+      },
       "text": "The Flavian Amphitheatre, opened in AD 80 and holding perhaps fifty thousand people, with the underground hypogeum where animals and machinery were held now exposed beneath the missing arena floor.",
       "tip": "Timed entry, booked ahead. The separate arena-floor and underground tickets are worth the extra and sell out first."
     },
     {
       "name": "The Roman Forum and Palatine Hill",
+      "image": {
+        "file": "File:2002 Rome Roman Forum & Palatine 01.jpg",
+        "alt": "Columns and ruins of the Roman Forum with the Palatine Hill rising behind them"
+      },
       "text": "The civic centre of the Republic and Empire — the Senate house, the temple where Caesar was cremated, triumphal arches, the Vestal house — with the imperial palaces spread over the hill above it.",
       "tip": "On the same ticket as the Colosseum. Enter from the Palatine gate on Via di San Gregorio, where the queue is much shorter."
     },
     {
       "name": "The Pantheon",
+      "image": {
+        "file": "File:Interior oculus of the Rome Pantheon.jpg",
+        "alt": "Light falling through the oculus onto the coffered dome inside the Pantheon"
+      },
       "text": "Rebuilt under Hadrian around AD 126, converted to a church in 609 and never abandoned, which is why it survives intact. The coffered concrete dome is still the largest unreinforced one ever built, with a nine-metre hole open to the sky.",
       "tip": "It now charges a small entry fee. Go in rain if you get the chance — water falls through the oculus and drains through holes in the floor."
     },
     {
       "name": "The Vatican Museums and Sistine Chapel",
+      "image": {
+        "file": "File:Galleria delle carte geografiche (Vatican Museums) September 2015-5.jpg",
+        "alt": "The ornately frescoed vaulted ceiling of the Gallery of Maps inside the Vatican Museums"
+      },
       "text": "Seven kilometres of galleries ending at Michelangelo's ceiling of 1508–12 and his Last Judgment of the 1530s, by way of the Raphael Rooms, the map gallery and one of the great classical sculpture collections.",
       "tip": "Book the first slot of the day. The route is one-way and enormous — do not attempt it and St Peter's in the same morning."
     },
     {
       "name": "St Peter's Basilica",
+      "image": {
+        "file": "File:St Peter's Basilica façade.jpg",
+        "alt": "The Baroque facade and dome of St Peter's Basilica above its colonnaded square"
+      },
       "text": "The largest church in Christendom, on the traditional site of Peter's grave, with Michelangelo's dome, his Pietà behind glass just inside the door, and Bernini's bronze baldachin over the altar.",
       "tip": "Free, but security queues are long by mid-morning. The dome climb is a separate ticket and 551 steps — the lift saves only the first third."
     },
     {
       "name": "The Borghese Gallery",
+      "image": {
+        "file": "File:Galleria borghese facade.jpg",
+        "alt": "The garden facade of the Villa Borghese, home to the Galleria Borghese"
+      },
       "text": "A cardinal's private collection in his own villa: Bernini's Apollo and Daphne and Rape of Proserpina, six Caravaggios, Titian and Raphael, in rooms small enough to see them properly.",
       "tip": "Strictly timed two-hour slots, booked well in advance and never available on the door. The best two hours of art in Rome."
     },
     {
       "name": "The Capitoline Museums",
+      "image": {
+        "file": "File:Capitoline Hill Museum (5986636527).jpg",
+        "alt": "The Renaissance facade of the Capitoline Museums on Michelangelo's piazza"
+      },
       "text": "Open to the public since 1471 and therefore the oldest public museums in the world, on Michelangelo's piazza — the bronze she-wolf, the Dying Gaul, the colossal fragments of Constantine and the original equestrian Marcus Aurelius.",
       "tip": "The gallery passage under the piazza comes out on a terrace with the best free view over the Forum."
     },
     {
       "name": "Ostia Antica",
+      "image": {
+        "file": "File:20140807 Ostia Antica 2189.jpg",
+        "alt": "The excavated streets and brick ruins of the Roman port city of Ostia Antica"
+      },
       "text": "Rome's port city, abandoned rather than destroyed, with streets, warehouses, apartment blocks, a theatre and a public latrine still in place. Half an hour from the centre by train and a fraction of the crowds.",
       "tip": "The best half-day out of Rome by public transport. Take the Roma–Lido train from Porta San Paolo on a normal metro ticket."
     }
@@ -95,31 +127,55 @@
   "thingsToDo": [
     {
       "title": "Do the ancient core on one ticket",
+      "image": {
+        "file": "File:2017-03-23 On the Palatine Hill.jpg",
+        "alt": "Brick ruins of the imperial palaces scattered across the top of the Palatine Hill"
+      },
       "text": "Colosseum, Forum and Palatine are sold together and share a valid period. Start underground at the Colosseum, come up into the arena, then walk the Forum and climb the Palatine for the view back down.",
       "tip": "Start at opening or after 15:00. The Forum has no shade and is punishing between June and September."
     },
     {
       "title": "Hunt Caravaggio for free",
+      "image": {
+        "file": "File:San luigi dei francesi, interno, cappella contarelli 03.JPG",
+        "alt": "Caravaggio's Inspiration and Martyrdom of St Matthew hanging in the Contarelli Chapel"
+      },
       "text": "San Luigi dei Francesi has the St Matthew cycle, Santa Maria del Popolo the Conversion of St Paul and Crucifixion of St Peter, Sant'Agostino the Madonna of Loreto. All parish churches, all free.",
       "tip": "Carry one-euro coins for the light boxes that illuminate the chapels, and avoid Mass times."
     },
     {
       "title": "Walk the centro storico after dark",
+      "image": {
+        "file": "File:Trevi fountain at night 05.jpg",
+        "alt": "The Trevi Fountain floodlit and nearly empty at night"
+      },
       "text": "The Pantheon, Piazza Navona, the Trevi Fountain and Campo de' Fiori are ten minutes apart and completely different places at eleven at night, lit and half empty.",
       "tip": "The Trevi is impossible by day and quite manageable very late. It is floodlit all night."
     },
     {
       "title": "Eat your way through Testaccio",
+      "image": {
+        "file": "File:Mattatoio Testaccio (Rome) 01.jpg",
+        "alt": "The old Testaccio slaughterhouse building, the Mattatoio, that gave the neighbourhood its food culture"
+      },
       "text": "The neighbourhood built around the old slaughterhouse, where the quinto quarto tradition comes from. The covered market for lunch, the trattorias for coda alla vaccinara and carbonara made properly.",
       "tip": "Monte Testaccio, the hill behind, is made of an estimated 53 million broken Roman amphorae."
     },
     {
       "title": "Cycle the Appian Way",
+      "image": {
+        "file": "File:Appian Way, Rome (6681676803).jpg",
+        "alt": "The basalt paving of the Via Appia Antica running between pine trees and Roman tombs"
+      },
       "text": "The Via Appia Antica runs south from the city past catacombs, tombs and the aqueduct park, closed to most traffic on Sundays. Basalt paving laid in the fourth century BC, still there.",
       "tip": "Rent a bike at the visitor centre. The stones are rough — this is not a smooth ride, and it is better for it."
     },
     {
       "title": "Climb the Aventine",
+      "image": {
+        "file": "File:Giardino degli aranci (Roma).jpg",
+        "alt": "Orange trees and gravel paths in the Giardino degli Aranci on the Aventine Hill"
+      },
       "text": "The quietest of the seven hills: the Giardino degli Aranci with its terrace over the city, the basilica of Santa Sabina, and the keyhole in the Knights of Malta gate framing St Peter's dome.",
       "tip": "There is now usually a queue for the keyhole. Come early morning, or accept it and enjoy the orange garden instead."
     }
@@ -128,31 +184,55 @@
   "foods": [
     {
       "name": "The four Roman pastas",
+      "image": {
+        "file": "File:Spaghetti alla Carbonara (Madrid).JPG",
+        "alt": "A plate of spaghetti alla carbonara, glossy with egg, guanciale and pecorino"
+      },
       "text": "Carbonara (egg, guanciale, pecorino, pepper — no cream), cacio e pepe (pecorino and pepper emulsified with pasta water), amatriciana (guanciale, tomato, pecorino) and gricia, the ancestor of all three.",
       "whereToTry": "Testaccio and Trastevere trattorias. If a menu mentions cream in the carbonara, leave."
     },
     {
       "name": "Carciofi, two ways",
+      "image": {
+        "file": "File:Carciofo alla giudia.jpg",
+        "alt": "A whole carciofo alla giudia, deep-fried until its leaves crisp like petals"
+      },
       "text": "Alla giudia — a whole artichoke flattened and deep-fried until the leaves crisp like petals, from the Jewish Ghetto — and alla romana, braised with mint and garlic. In season roughly February to May.",
       "whereToTry": "The restaurants of the Ghetto around Via del Portico d'Ottavia for the fried version."
     },
     {
       "name": "Supplì",
+      "image": {
+        "file": "File:Italian Supplì.jpg",
+        "alt": "A fried supplì rice ball broken open to show its stretching core of mozzarella"
+      },
       "text": "A fried rice ball with ragù and a core of mozzarella that pulls into a thread when you bite it — supplì al telefono, named for the telephone cord. The Roman answer to the Sicilian arancino.",
       "whereToTry": "Pizzerias and friggitorie, eaten standing up while you wait for the pizza."
     },
     {
       "name": "Pizza, thin and by the slice",
+      "image": {
+        "file": "File:Pizze al taglio and Peroni at Alice.jpg",
+        "alt": "Rectangular trays of pizza al taglio ready to be cut and sold by weight"
+      },
       "text": "Roman pizza is thin and crisp, quite unlike Neapolitan. Pizza al taglio is baked in long trays, cut with scissors and sold by weight — the best cheap lunch in the city.",
       "whereToTry": "Any forno with a queue at 13:00. Point at what you want and say how much."
     },
     {
       "name": "Quinto quarto",
+      "image": {
+        "file": "File:Coda alla vaccinara-01.jpg",
+        "alt": "A bowl of coda alla vaccinara, oxtail braised with celery and tomato"
+      },
       "text": "The 'fifth quarter' — what the slaughterhouse workers were paid in. Coda alla vaccinara (oxtail braised with celery and cocoa), trippa alla romana, sweetbreads. Rome does offal better than anywhere in Europe.",
       "whereToTry": "Testaccio, which invented the tradition. Thursday is traditionally gnocchi day and Saturday tripe."
     },
     {
       "name": "Maritozzo and gelato",
+      "image": {
+        "file": "File:Maritozzo da Iginio Massari.jpg",
+        "alt": "A maritozzo bun split and overfilled with whipped cream"
+      },
       "text": "The maritozzo is a soft sweet bun split and filled with an absurd quantity of whipped cream, eaten for breakfast. Gelato is a separate religion, best where the tubs are covered and the pistachio is brown.",
       "whereToTry": "Bars for maritozzi in the morning; gelaterie advertising 'produzione propria' in the evening."
     }
