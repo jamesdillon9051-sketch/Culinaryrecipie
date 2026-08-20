@@ -52,36 +52,64 @@
   "attractions": [
     {
       "name": "The Real Alcázar",
+      "image": {
+        "file": "File:Sevilla - Real Alcázar - Patio de las Doncellas.jpg",
+        "alt": "The Patio de las Doncellas in the Real Alcázar of Seville"
+      },
       "text": "A palace complex begun under Muslim rule and rebuilt in the 1360s by Pedro I using craftsmen from Granada and Toledo — Islamic architecture commissioned by a Christian king. The Patio de las Doncellas, the Salón de Embajadores under its golden dome, and seven hectares of gardens beyond.",
       "tip": "Book a timed slot online. The upper royal apartments are a separate ticket bought on the day and worth the supplement."
     },
     {
       "name": "Seville Cathedral and the Giralda",
+      "image": {
+        "file": "File:Plaza Virgen de los Reyes, Seville, Spain - Sep 2009.jpg",
+        "alt": "The Giralda tower above Seville Cathedral"
+      },
       "text": "The largest Gothic cathedral in the world by volume, built on the site of the Almohad mosque, whose minaret survives as the bell tower. Columbus's tomb is carried by four figures representing the kingdoms of Spain. The Giralda is climbed by 34 ramps rather than stairs — built wide enough to ride a horse up.",
       "tip": "The rooftop tour, booked separately, gets you onto the vaults and buttresses. It is the best thing in the building."
     },
     {
       "name": "Plaza de España",
+      "image": {
+        "file": "File:Sevilla - Plaza de España - 1.jpg",
+        "alt": "The tiled semicircle and canal of the Plaza de España"
+      },
       "text": "A vast semicircular brick and tile complex built for the 1929 Ibero-American Exposition, with a canal, bridges and 48 tiled alcoves representing the provinces of Spain. Extravagant, photogenic and free.",
       "tip": "Go early morning. It is on every coach itinerary and largely empty before 09:30."
     },
     {
       "name": "Barrio Santa Cruz",
+      "image": {
+        "file": "File:Barrio Santa Cruz (Sevilla).jpg",
+        "alt": "A narrow whitewashed lane in the Barrio Santa Cruz"
+      },
       "text": "The old Jewish quarter beside the Alcázar, a maze of whitewashed lanes barely wide enough for two, with hidden patios, orange trees and small squares. Deliberately narrow to hold shade in summer.",
       "tip": "It is touristy at midday and lovely at 08:00 and after 21:00. Eat one street outside it, not inside it."
     },
     {
       "name": "Triana",
+      "image": {
+        "file": "File:Museo de la Cerámica Sevilla. Azulejos en la entrada.jpg",
+        "alt": "Painted azulejos at the ceramics museum in Triana"
+      },
       "text": "Across the river, historically the district of sailors, potters and flamenco families. It has a covered market on the site of a castle, tile workshops still in operation, and a bar-lined riverfront looking back at the city.",
       "tip": "Calle Betis at dusk, with the cathedral lit across the water, is the best free view in Seville."
     },
     {
       "name": "Metropol Parasol",
+      "image": {
+        "file": "File:Metropol Parasol 2019 (3).jpg",
+        "alt": "The timber lattice of the Metropol Parasol in Seville"
+      },
       "text": "A vast timber lattice structure over the Plaza de la Encarnación, locally called Las Setas — the mushrooms. A walkway across the top gives a 360-degree view over the old city, and Roman remains found during construction are displayed underneath.",
       "tip": "Go at sunset. The ticket is cheap and includes a drink at the top."
     },
     {
       "name": "Casa de Pilatos",
+      "image": {
+        "file": "File:Casa de Pilatos - patio.jpg",
+        "alt": "The Mudéjar central patio of the Casa de Pilatos"
+      },
       "text": "A 16th-century aristocratic palace blending Mudéjar, Gothic and Renaissance, with one of the finest tiled courtyards in the city and a Roman sculpture collection. Far quieter than the Alcázar and, for some visitors, more enjoyable.",
       "tip": "The upper floor is by guided tour only and included in the full ticket."
     },
@@ -95,26 +123,46 @@
   "thingsToDo": [
     {
       "title": "Eat tapas standing up, in several places",
+      "image": {
+        "file": "File:Bar sevilla.jpg",
+        "alt": "A traditional Seville tapas bar hung with hams and feria posters"
+      },
       "text": "Seville's tapas culture is about circulation. One or two dishes and a drink per bar, then move. Order at the bar, and expect to be shouting over other people doing the same.",
       "tip": "Unlike Granada, tapas here are ordered and paid for. Prices are chalked up and portions come in tapa, media ración and ración sizes."
     },
     {
       "title": "Cross the river to Triana in the evening",
+      "image": {
+        "file": "File:Puente de Isabel II de noche.jpg",
+        "alt": "The Puente de Isabel II lit at night over the Guadalquivir"
+      },
       "text": "The Puente de Isabel II at dusk, then Calle Betis with the old city lit across the water. Triana's bars are less polished than the centre's and better for it.",
       "tip": "The Mercado de Triana on the bridge has stalls that turn into bars in the evening."
     },
     {
       "title": "See flamenco somewhere small",
+      "image": {
+        "file": "File:Espectáculo flamenco en Tablao Flamenco El Arenal.jpg",
+        "alt": "A flamenco performance at a small tablao in Seville"
+      },
       "text": "A tablao seating forty is a completely different experience from a dinner show for three hundred. Several venues in Triana and the centre run nightly performances of an hour, without food.",
       "tip": "The Museo del Baile Flamenco runs good small shows. Casa de la Memoria is another reliable, intimate option."
     },
     {
       "title": "Cycle the river and the parks",
+      "image": {
+        "file": "File:Aparcamiento de bicicletas servicio público SEBICI.JPG",
+        "alt": "A public bike-share stand in Seville"
+      },
       "text": "Seville built over 180 km of segregated bike lanes in a decade and the city is completely flat. The riverside route and María Luisa park make an easy, shaded hour.",
       "tip": "The Sevici bike-share scheme takes foreign cards. It is far pleasanter than walking in June heat."
     },
     {
       "title": "Take a day trip to Córdoba or Jerez",
+      "image": {
+        "file": "File:Córdoba - Mezquita-Catedral - Interior - 10.jpg",
+        "alt": "The striped arches inside the Mezquita-Catedral of Córdoba"
+      },
       "text": "[[cordoba]] is 45 minutes by AVE, Jerez de la Frontera an hour by regional train for sherry bodegas and the Andalusian riding school. Both work comfortably as full days.",
       "tip": "Córdoba deserves an overnight if you can spare it, but the 45-minute train makes a day trip genuinely viable."
     },
@@ -128,31 +176,55 @@
   "foods": [
     {
       "name": "Salmorejo",
+      "image": {
+        "file": "File:Salmorejo cordouan.JPG",
+        "alt": "Salmorejo — a thick cold tomato and bread soup"
+      },
       "text": "A cold soup of tomato, bread, garlic and olive oil, thicker than gazpacho and topped with chopped egg and jamón. Originally from [[cordoba]] and eaten across Andalusia all summer.",
       "whereToTry": "Any tapas bar from May to September. It vanishes from menus in winter."
     },
     {
       "name": "Pescaíto frito",
+      "image": {
+        "file": "File:Pescaíto frito. chiclana.jpg",
+        "alt": "A plate of Andalusian fried fish"
+      },
       "text": "Small fish — anchovies, red mullet, cuttlefish, dogfish — floured and fried fast in olive oil, served in a paper cone or on a plate with lemon. The test is whether it is greasy; done properly it is not.",
       "whereToTry": "Freidurías throughout the city, many of which do takeaway only. Triana has the best of them."
     },
     {
       "name": "Espinacas con garbanzos",
+      "image": {
+        "file": "File:Potaje de vigilia.jpg",
+        "alt": "Chickpeas stewed with spinach and topped with boiled egg"
+      },
       "text": "Spinach and chickpeas stewed with cumin, paprika and garlic — a Moorish-descended dish, cheap, vegetarian and on nearly every tapas list in Seville.",
       "whereToTry": "Traditional tapas bars in the centre and Triana. Especially common during Lent."
     },
     {
       "name": "Carrillada",
+      "image": {
+        "file": "File:Carrillada Ibérica Sevilla.jpg",
+        "alt": "Braised Iberian pork cheeks"
+      },
       "text": "Pork or beef cheeks braised for hours in red wine until they collapse, served with potatoes. The most substantial thing on most tapas menus and a winter favourite.",
       "whereToTry": "Traditional bars across the city, usually as a media ración rather than a tapa."
     },
     {
       "name": "Jamón ibérico de bellota",
+      "image": {
+        "file": "File:Jamón bellota Muñana.jpeg",
+        "alt": "A leg of acorn-fed Iberian ham"
+      },
       "text": "Acorn-fed black Iberian ham from the dehesa oak pastures of western Andalusia and Extremadura, cured for three or four years and sliced by hand. Seville is one of the best places in Spain to eat it.",
       "whereToTry": "Specialist jamonerías and any decent bar. Ask for bellota rather than the cheaper cebo grade."
     },
     {
       "name": "Sherry and manzanilla",
+      "image": {
+        "file": "File:Bodega de Sanlúcar.jpg",
+        "alt": "Sherry casks stacked in a bodega at Sanlúcar"
+      },
       "text": "Fino and manzanilla from Jerez and Sanlúcar an hour away — bone dry, chilled, and drunk with food rather than after it. Manzanilla is aged by the sea and tastes faintly saline.",
       "whereToTry": "Old bodega bars in the centre. Served in a small caña glass and topped up frequently."
     }
