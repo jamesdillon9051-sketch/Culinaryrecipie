@@ -168,6 +168,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:224 Banys Àrabs de Palma, caldari.jpg": {
+    "artist": "Enric",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:224_Banys_%C3%80rabs_de_Palma,_caldari.jpg",
+    "context": "Palma's old town — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-2.webp",
+    "card": "images/spain/mallorca--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:A Remaining Caisson from the Mulberry Harbour (32297781257).jpg": {
     "artist": "David Merrett from Daventry, England",
     "license": "CC BY 2.0",
@@ -293,6 +306,19 @@
     "context": "Aix-en-Provence — Provence & the Luberon, France",
     "hero": "images/france/provence-luberon--attraction-8.webp",
     "card": "images/france/provence-luberon--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Alcudia muralla sunset.JPG": {
+    "artist": "Antonio De Lorenzo -&gt; Kufoleto",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alcudia_muralla_sunset.JPG",
+    "context": "Alcúdia and the northeast — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-8.webp",
+    "card": "images/spain/mallorca--attraction-8-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -453,6 +479,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Arroçbrut.jpg": {
+    "artist": "Chixoy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arro%C3%A7brut.jpg",
+    "context": "Arròs brut — Mallorca, Spain",
+    "hero": "images/spain/mallorca--food-5.webp",
+    "card": "images/spain/mallorca--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Arròs Negre - Font d'En Corts.jpg": {
     "artist": "Francesc Fort",
@@ -1337,6 +1376,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Cap Formentor 2015 (Zuschnitt).jpg": {
+    "artist": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cap_Formentor_2015_(Zuschnitt).jpg",
+    "context": "Cap de Formentor — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-6.webp",
+    "card": "images/spain/mallorca--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Capitoline Hill Museum (5986636527).jpg": {
     "artist": "Erik Drost",
@@ -2300,6 +2352,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Deià, 2.jpg": {
+    "artist": "Vicenç Salvador Torres Guerola",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dei%C3%A0,_2.jpg",
+    "context": "Walk a stage of the GR221 — Mallorca, Spain",
+    "hero": "images/spain/mallorca--thing-2.webp",
+    "card": "images/spain/mallorca--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Delimitacion de Madinat al-Zahra 2.jpg": {
     "artist": "Naza28",
     "license": "CC BY-SA 4.0",
@@ -2521,6 +2586,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Ensaimada DSCN0885.jpg": {
+    "artist": "Lisa Stevens from Sutton Coldfield, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensaimada_DSCN0885.jpg",
+    "context": "Ensaimada — Mallorca, Spain",
+    "hero": "images/spain/mallorca--food-3.webp",
+    "card": "images/spain/mallorca--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Entrecôte at restaurant Grill it! Tapiola Garden.jpg": {
     "artist": "JIP",
     "license": "CC BY-SA 4.0",
@@ -2542,6 +2620,19 @@
     "context": "Ephesus & Selçuk, Turkey",
     "hero": "images/turkey/ephesus.webp",
     "card": "images/turkey/ephesus-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Es Trenc, Mallorca, the beach.jpg": {
+    "artist": "Bogdan Giuşcă",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Es_Trenc,_Mallorca,_the_beach.jpg",
+    "context": "The southeast calas — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-7.webp",
+    "card": "images/spain/mallorca--attraction-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4133,6 +4224,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Markus Storck Cap Formentor, Mallorca.jpg": {
+    "artist": "RSander-Strock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Markus_Storck_Cap_Formentor,_Mallorca.jpg",
+    "context": "Cycle, seriously or otherwise — Mallorca, Spain",
+    "hero": "images/spain/mallorca--thing-4.webp",
+    "card": "images/spain/mallorca--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Masseria Amastuola Puglia 06.jpg": {
     "artist": "FrDr",
     "license": "CC BY-SA 4.0",
@@ -4796,6 +4900,19 @@
     "cardWidth": 800,
     "cardHeight": 400
   },
+  "File:Pa amb oli-rafax.JPG": {
+    "artist": "Rafael Ortega Diaz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pa_amb_oli-rafax.JPG",
+    "context": "Pa amb oli — Mallorca, Spain",
+    "hero": "images/spain/mallorca--food-1.webp",
+    "card": "images/spain/mallorca--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pa amb tomaquet - stonesoup.jpg": {
     "artist": "jules / stonesoup",
     "license": "CC BY 2.0",
@@ -4908,6 +5025,19 @@
     "context": "Palazzo Pitti and the Boboli Gardens — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--attraction-5.webp",
     "card": "images/italy/florence-tuscany--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Palma Catedral La Seu de Mallorca Portal-3964.jpg": {
+    "artist": "Isiwal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palma_Catedral_La_Seu_de_Mallorca_Portal-3964.jpg",
+    "context": "Palma Cathedral — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-1.webp",
+    "card": "images/spain/mallorca--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5888,6 +6018,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Road to sa Calobra - panoramio.jpg": {
+    "artist": "Mickey Løgitmark",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_to_sa_Calobra_-_panoramio.jpg",
+    "context": "Sa Calobra and the Torrent de Pareis — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-5.webp",
+    "card": "images/spain/mallorca--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Rocamadour fromage.jpg": {
     "artist": "Thomon",
     "license": "CC BY-SA 4.0",
@@ -6395,6 +6538,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sineu - market day - panoramio (17).jpg": {
+    "artist": "King Otto",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sineu_-_market_day_-_panoramio_(17).jpg",
+    "context": "Eat in a village on a market day — Mallorca, Spain",
+    "hero": "images/spain/mallorca--thing-6.webp",
+    "card": "images/spain/mallorca--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
     "artist": "Kabelleger / David Gubler",
     "license": "CC BY-SA 4.0",
@@ -6446,6 +6602,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Sóller Tren de Sóller-4334.jpg": {
+    "artist": "Isiwal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B3ller_Tren_de_S%C3%B3ller-4334.jpg",
+    "context": "Sóller and the Tramuntana railway — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-3.webp",
+    "card": "images/spain/mallorca--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Sommet de la Dune du Pilat.jpg": {
     "artist": "Jörg Braukmann",
@@ -7058,6 +7227,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Tripa embutida de sobrasada.jpg": {
+    "artist": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tripa_embutida_de_sobrasada.jpg",
+    "context": "Sobrasada — Mallorca, Spain",
+    "hero": "images/spain/mallorca--food-2.webp",
+    "card": "images/spain/mallorca--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tris 3 Knödel.JPG": {
     "artist": "Benreis",
     "license": "CC BY 3.0",
@@ -7135,6 +7317,19 @@
     "heroHeight": 847,
     "cardWidth": 800,
     "cardHeight": 423
+  },
+  "File:Valldemossa view.jpg": {
+    "artist": "Abrget47j",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valldemossa_view.jpg",
+    "context": "Deià and Valldemossa — Mallorca, Spain",
+    "hero": "images/spain/mallorca--attraction-4.webp",
+    "card": "images/spain/mallorca--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Valle dei Templi – Temple of Hera 2024a.jpg": {
     "artist": "Cayambe",

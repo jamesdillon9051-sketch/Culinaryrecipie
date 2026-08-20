@@ -52,41 +52,73 @@
   "attractions": [
     {
       "name": "Palma Cathedral",
+      "image": {
+        "file": "File:Palma Catedral La Seu de Mallorca Portal-3964.jpg",
+        "alt": "The Gothic portal and buttresses of La Seu, Palma Cathedral"
+      },
       "text": "La Seu, begun in 1229 and finished in 1601, with the widest Gothic nave in the world after Beauvais and a rose window seven metres across. Gaudí remodelled the interior between 1904 and 1914; a contemporary artist added a ceramic chapel in 2007.",
       "tip": "Twice a year, in early February and November, the rose window projects onto the wall beneath its twin. The cathedral opens early on those mornings and it is worth the alarm."
     },
     {
       "name": "Palma's old town",
+      "image": {
+        "file": "File:224 Banys Àrabs de Palma, caldari.jpg",
+        "alt": "The domed caldarium of the 10th-century Arab baths in Palma"
+      },
       "text": "A knot of lanes behind the cathedral holding Arab baths from the 10th century, the Almudaina palace, courtyard mansions open to the street, and Es Baluard contemporary art museum in the sea walls.",
       "tip": "The patios of the old merchant houses are visible from the street through open gates. Look in as you pass — it is expected."
     },
     {
       "name": "Sóller and the Tramuntana railway",
+      "image": {
+        "file": "File:Sóller Tren de Sóller-4334.jpg",
+        "alt": "The wooden train of the Sóller railway"
+      },
       "text": "A wooden train from 1912 runs from Palma through orange groves and a 3 km tunnel to Sóller, and a vintage tram continues to the port. Slow, beautiful and entirely impractical, which is the point.",
       "tip": "Sit on the right leaving Palma. Book ahead in summer — it sells out."
     },
     {
       "name": "Deià and Valldemossa",
+      "image": {
+        "file": "File:Valldemossa view.jpg",
+        "alt": "The honey-coloured village of Valldemossa on its terraced slope"
+      },
       "text": "Two Tramuntana villages of honey-coloured stone on terraced slopes. Valldemossa has the monastery where Chopin and George Sand spent a miserable winter in 1838; Deià was the home of Robert Graves and has a small rocky cove below it.",
       "tip": "Both fill with coaches from 11:00. Go early or after 17:00, and Deià's cove is a 30-minute walk down from the village."
     },
     {
       "name": "Sa Calobra and the Torrent de Pareis",
+      "image": {
+        "file": "File:Road to sa Calobra - panoramio.jpg",
+        "alt": "The hairpin descent of the road to Sa Calobra"
+      },
       "text": "A road descending 800 m in twelve kilometres via 26 hairpins, including one that loops under itself, to a cove where a gorge meets the sea. The gorge itself is a serious scramble in summer when the water is low.",
       "tip": "Drive it very early — coaches use the road from 10:00 and there is no room to pass. Boats from Port de Sóller are the alternative."
     },
     {
       "name": "Cap de Formentor",
+      "image": {
+        "file": "File:Cap Formentor 2015 (Zuschnitt).jpg",
+        "alt": "The cliffs of the Cap de Formentor peninsula"
+      },
       "text": "The island's northernmost point, a knife-edge peninsula of cliffs and pines with a lighthouse at the end and viewpoints along a dramatic road. Playa de Formentor at its base is a fine pine-backed beach.",
       "tip": "In summer the road is closed to private cars during the day and served by shuttle bus. Check the current restriction before driving."
     },
     {
       "name": "The southeast calas",
+      "image": {
+        "file": "File:Es Trenc, Mallorca, the beach.jpg",
+        "alt": "The undeveloped sand and shallows of Es Trenc"
+      },
       "text": "Caló des Moro, Cala s'Almunia, Cala Llombards and Es Trenc — the last a two-kilometre undeveloped white-sand beach that looks Caribbean and is protected from building.",
       "tip": "Caló des Moro is tiny, famous and often overwhelmed. Arrive before 09:00 or pick one of the dozens of near-identical coves nearby."
     },
     {
       "name": "Alcúdia and the northeast",
+      "image": {
+        "file": "File:Alcudia muralla sunset.JPG",
+        "alt": "The medieval walls of Alcúdia at sunset"
+      },
       "text": "A walled medieval town with Roman ruins beside it, a long shallow bay, and the S'Albufera wetland — the largest in the Balearics and a serious birdwatching site.",
       "tip": "Alcúdia's old town holds a good Tuesday and Sunday market inside the walls."
     }
@@ -100,6 +132,10 @@
     },
     {
       "title": "Walk a stage of the GR221",
+      "image": {
+        "file": "File:Deià, 2.jpg",
+        "alt": "Terraced slopes above Deià in the Serra de Tramuntana"
+      },
       "text": "The Dry Stone Route runs the length of the Tramuntana in eight stages on old mule paths and terracing. Individual stages make excellent day walks, with buses back from most villages.",
       "tip": "Best October to May. Summer on these slopes is too hot for a full stage."
     },
@@ -110,6 +146,10 @@
     },
     {
       "title": "Cycle, seriously or otherwise",
+      "image": {
+        "file": "File:Markus Storck Cap Formentor, Mallorca.jpg",
+        "alt": "A cyclist on the road out to Cap de Formentor"
+      },
       "text": "Professional teams train here from January to March. Sa Calobra, Puig Major and the Cap de Formentor road are the classic climbs, and the flat plain in the middle of the island is gentle enough for anyone.",
       "tip": "Hire shops in Palma, Alcúdia and Port de Pollença rent road bikes to a high standard. Book ahead in February."
     },
@@ -120,6 +160,10 @@
     },
     {
       "title": "Eat in a village on a market day",
+      "image": {
+        "file": "File:Sineu - market day - panoramio (17).jpg",
+        "alt": "Market day in the inland town of Sineu"
+      },
       "text": "Almost every inland town has a weekly market — Sineu on Wednesday is the oldest and best, Santanyí on Wednesday and Saturday, Alcúdia on Tuesday and Sunday. Produce, livestock and no resort atmosphere at all.",
       "tip": "Sineu's market has run since 1306 and still trades live animals. Go early."
     }
@@ -128,16 +172,28 @@
   "foods": [
     {
       "name": "Pa amb oli",
+      "image": {
+        "file": "File:Pa amb oli-rafax.JPG",
+        "alt": "Pa amb oli — country bread with tomato, oil and toppings"
+      },
       "text": "Dense brown country bread rubbed with tomato and olive oil, topped with cured ham, cheese or anchovy. The Mallorcan staple, served as a light meal in its own right rather than as an accompaniment.",
       "whereToTry": "Village bars and specialist pa amb oli restaurants throughout the island."
     },
     {
       "name": "Sobrasada",
+      "image": {
+        "file": "File:Tripa embutida de sobrasada.jpg",
+        "alt": "Cured sobrasada sausages hanging to age"
+      },
       "text": "A soft, spreadable cured sausage of pork and paprika, unique to the Balearics and eaten spread on bread, often with honey. Protected status and a genuine island product.",
       "whereToTry": "Any market or village charcuterie. The version from black Mallorcan pigs is the best."
     },
     {
       "name": "Ensaimada",
+      "image": {
+        "file": "File:Ensaimada DSCN0885.jpg",
+        "alt": "An ensaimada, the spiral lard pastry of Mallorca"
+      },
       "text": "A spiral of laminated pastry made with pork lard, dusted with icing sugar, sold in flat round boxes that you will see people carrying onto flights home. Plain or filled with pumpkin jam.",
       "whereToTry": "Bakeries across Palma. Eaten for breakfast with coffee."
     },
@@ -148,6 +204,10 @@
     },
     {
       "name": "Arròs brut",
+      "image": {
+        "file": "File:Arroçbrut.jpg",
+        "alt": "Arròs brut, the soupy Mallorcan rice with pork and game"
+      },
       "text": "Literally 'dirty rice' — a soupy rice with pork, rabbit, game and vegetables, dark with spices including cinnamon and saffron. A winter dish from the island's interior.",
       "whereToTry": "Inland village restaurants, particularly around Sineu and the Pla. Autumn and winter."
     },
