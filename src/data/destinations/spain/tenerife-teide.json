@@ -53,36 +53,64 @@
   "attractions": [
     {
       "name": "Teide National Park and the cable car",
+      "image": {
+        "file": "File:Teléferico del Teide 01.jpg",
+        "alt": "The cable car climbing the flank of Mount Teide"
+      },
       "text": "A caldera 16 km wide filled with lava flows, obsidian and eroded rock formations, with the volcano rising from the middle. The cable car climbs from 2,356 m to 3,555 m in eight minutes; the final 200 m to the crater rim requires a separate free permit.",
       "tip": "The summit permit is free but must be booked online weeks or months ahead — it is capped at 200 people a day. Without it you can still reach 3,555 m and walk two marked viewpoint trails."
     },
     {
       "name": "The Roques de García",
+      "image": {
+        "file": "File:Caldera Las Cañadas mit Roques de García und TF-21.jpg",
+        "alt": "The eroded rock pillars of the Roques de García on the caldera floor"
+      },
       "text": "A cluster of eroded rock pillars on the caldera floor, including the Roque Cinchado that appeared on the old 1,000-peseta note. A three-kilometre circular walk goes around and below them.",
       "tip": "The car park fills by 10:00. Go at opening or in the last two hours of light, when the rock colour is at its best."
     },
     {
       "name": "San Cristóbal de La Laguna",
+      "image": {
+        "file": "File:Plaza del Adelantado. San Cristobal de La Laguna. Tenerife. - Flickr - Miguel. (respenda).jpg",
+        "alt": "The Plaza del Adelantado in La Laguna's grid-planned old town"
+      },
       "text": "The island's former capital and a UNESCO World Heritage site — an unwalled colonial grid town from the 1490s whose street plan became the template for Spanish cities across the Americas. Coloured facades, courtyard houses and a university.",
       "tip": "Twenty minutes from Santa Cruz by tram. Frequently cloudy and cool, which is why almost nobody staying in the south bothers — go anyway."
     },
     {
       "name": "The Anaga massif",
+      "image": {
+        "file": "File:Laurisilva anaga 2009.jpg",
+        "alt": "Laurel rainforest on the ridges of the Anaga massif"
+      },
       "text": "The northeastern peninsula, a UNESCO Biosphere Reserve of laurel rainforest on knife-edge ridges, permanently misty, with tiny hamlets reached by hairpin roads and a dense network of walking trails.",
       "tip": "The Sendero de los Sentidos near Cruz del Carmen is short, easy and gives the full rainforest effect in half an hour."
     },
     {
       "name": "Masca and the Teno massif",
+      "image": {
+        "file": "File:Masca Gorge view towards north-west, sunset (Dec 2014).jpg",
+        "alt": "The Masca gorge cutting through the Teno massif"
+      },
       "text": "A hamlet in a gorge on the island's western tip, reached by an extraordinary road of hairpins. The gorge walk descends 600 m to the sea and requires a booked permit and a helmet.",
       "tip": "The gorge walk must be booked in advance and includes a boat back. The road alone is worth the drive even if you do not walk."
     },
     {
       "name": "Whale and dolphin watching",
+      "image": {
+        "file": "File:Caladeron Tropical - Globicephala macrorhynchus.jpg",
+        "alt": "A short-finned pilot whale in the strait off Tenerife"
+      },
       "text": "Boats from Los Gigantes, Puerto Colón and Los Cristianos head into the strait where pilot whales and bottlenose dolphins live year-round. Sightings are close to guaranteed and the animals are resident rather than migratory.",
       "tip": "Choose an operator with the Blue Boat certification, which enforces distance and behaviour rules. Smaller boats are better."
     },
     {
       "name": "Los Gigantes cliffs",
+      "image": {
+        "file": "File:Los Gigantes, Tenerife, España, 2012-12-16, DD 10.jpg",
+        "alt": "The sea cliffs of Los Gigantes rising from the Atlantic"
+      },
       "text": "Sea cliffs on the west coast rising up to 600 m straight out of the Atlantic. Best seen from the water on a boat trip, which usually combines with the whale watching.",
       "tip": "The light is on the cliffs in the afternoon. Morning trips see them in shadow."
     },
@@ -101,6 +129,10 @@
     },
     {
       "title": "Walk in the laurel forest",
+      "image": {
+        "file": "File:Laurisilva en Anaga.jpg",
+        "alt": "A damp trail through the laurel forest of Anaga"
+      },
       "text": "The Anaga massif's trails run along ridges through permanently damp laurisilva — a forest type that covered the Mediterranean two million years ago and now survives only on a few Atlantic islands.",
       "tip": "It is cool and wet up there even when the south is baking. Take a waterproof, not shorts."
     },
@@ -116,11 +148,19 @@
     },
     {
       "title": "Swim in a natural volcanic pool",
+      "image": {
+        "file": "File:Oleaje en el Charco Azul.jpg",
+        "alt": "Waves breaking into a natural volcanic rock pool"
+      },
       "text": "Lava flows meeting the sea have formed rock pools all along the north coast, several developed into public swimming areas. Charco del Viento and the Garachico pools are the best known.",
       "tip": "Check the sea state. These are open to the Atlantic and become dangerous in swell."
     },
     {
       "title": "Take the ferry to La Gomera",
+      "image": {
+        "file": "File:Roque Agando, Parque nacional de Garajonay, La Gomera, España, 2012-12-14, DD 01.jpg",
+        "alt": "Roque Agando in the Garajonay national park on La Gomera"
+      },
       "text": "Fifty minutes from Los Cristianos, a far smaller and wilder island with Garajonay National Park's cloud forest and a whistled language, Silbo Gomero, used to communicate across ravines.",
       "tip": "Doable as a long day trip, better as an overnight. Hire a car on arrival — the island is all ravines."
     }
@@ -129,11 +169,19 @@
   "foods": [
     {
       "name": "Papas arrugadas con mojo",
+      "image": {
+        "file": "File:Mojo rojo - Papas arrugads.JPG",
+        "alt": "Papas arrugadas with red mojo sauce"
+      },
       "text": "Small potatoes boiled in heavily salted water until the skins wrinkle and crust with salt, served with two sauces: red mojo picón of chilli and paprika, and green mojo of coriander or parsley.",
       "whereToTry": "Every restaurant on the island. The potatoes are local varieties brought from the Andes in the 16th century."
     },
     {
       "name": "Gofio",
+      "image": {
+        "file": "File:El Gofio, gofio de garbanzos, y gofio de quinoa.jpg",
+        "alt": "Gofio, the toasted flour that predates the Spanish conquest"
+      },
       "text": "Toasted maize or wheat flour, a staple that predates the Spanish conquest and was eaten by the indigenous Guanche people. Used to thicken stews, mixed into milk, or made into a dense bread-like block.",
       "whereToTry": "Traditional guachinches and rural restaurants. Gofio escaldado, thickened with fish broth, is the most common version."
     },
@@ -154,6 +202,10 @@
     },
     {
       "name": "Bananas and tropical fruit",
+      "image": {
+        "file": "File:Plátano de Canarias Cavendish.jpg",
+        "alt": "Small sweet Canarian bananas"
+      },
       "text": "The small, sweet Canarian banana has protected status and is noticeably different from the export variety. Papaya, mango and avocado all grow on the north coast.",
       "whereToTry": "Markets in La Laguna and Santa Cruz. The Mercado Nuestra Señora de África is the biggest."
     }
