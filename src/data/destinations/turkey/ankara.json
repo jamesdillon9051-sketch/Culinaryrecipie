@@ -52,6 +52,10 @@
   "attractions": [
     {
       "name": "Museum of Anatolian Civilizations",
+      "image": {
+        "file": "File:Museum of Anatolian Civilizations Lion-headed situla in 2011 05.jpg",
+        "alt": "A Hittite lion-headed vessel in the Museum of Anatolian Civilizations"
+      },
       "text": "Housed in a fifteenth-century covered bazaar and han beneath the castle. Galleries run from Palaeolithic through Neolithic Çatalhöyük — including the seated goddess and reconstructed wall paintings — to Hattian, Assyrian, Hittite, Phrygian, Urartian and classical material.",
       "tip": "Two hours minimum, and go early in your Turkish trip rather than late. Everything you see afterwards makes more sense."
     },
@@ -62,31 +66,55 @@
     },
     {
       "name": "Ankara Castle and the Hisar quarter",
+      "image": {
+        "file": "File:Gate of Ankara Castle (1).jpg",
+        "alt": "The gate into the citadel at Ankara Castle"
+      },
       "text": "A citadel on the rock above Ulus with Byzantine and Seljuk walls built from reused Roman masonry, enclosing a lane-and-courtyard neighbourhood of Ottoman houses, some restored as cafés and carpet shops.",
       "tip": "Walk the outer walls for the view over the whole plateau city. The steep lanes are cobbled and uneven — sensible shoes."
     },
     {
       "name": "Temple of Augustus and Rome",
+      "image": {
+        "file": "File:Monumento de Ancira, Ankara, Turquía, 2024-10-03, DD 48.jpg",
+        "alt": "The Temple of Augustus, whose walls carry the Res Gestae inscription"
+      },
       "text": "A Roman temple of the first century BC whose walls carry the Res Gestae Divi Augusti in Latin and Greek — the emperor's own record of his reign. It stands directly beside the Hacı Bayram mosque and tomb.",
       "tip": "Free and open to the street. The Greek text is on the outer side wall, the Latin inside the entrance."
     },
     {
       "name": "Hacı Bayram Mosque",
+      "image": {
+        "file": "File:Haci Bayram Mosque 01.jpg",
+        "alt": "The Hacı Bayram Mosque beside the Roman temple"
+      },
       "text": "The tomb of Hacı Bayram Veli, a fifteenth-century Sufi teacher, and one of the most visited pilgrimage sites in Turkey. Busy every day with worshippers, and the surrounding square is full of stalls.",
       "tip": "An active religious site immediately next to a Roman temple — dress modestly and be discreet with photographs."
     },
     {
       "name": "Rahmi M. Koç Museum",
+      "image": {
+        "file": "File:Ankara Çengelhan Rahmi Koç Museum Exhibits in 2011 06.jpg",
+        "alt": "Industrial exhibits in the Çengelhan Rahmi Koç Museum"
+      },
       "text": "An industrial and transport museum in the Çengelhan, an Ottoman caravanserai of 1522 below the castle — engines, cars, scientific instruments and a reconstructed early Ankara shopfront street.",
       "tip": "A good hour, and unexpectedly excellent for children. The courtyard café is the nicest stop on the castle hill."
     },
     {
       "name": "Gordion",
+      "image": {
+        "file": "File:Tumulus of King Midas 02.jpg",
+        "alt": "The great tumulus at Gordion, traditionally linked to Midas"
+      },
       "text": "Ninety kilometres west near Polatlı: the Phrygian capital where Alexander is said to have cut the Gordian Knot, with a great burial mound whose wooden chamber is among the oldest standing timber structures anywhere. UNESCO-listed in 2023.",
       "tip": "You can walk inside the tumulus. Do the Ankara museum first — most of the finds from here are in it."
     },
     {
       "name": "Hattusa and Yazılıkaya",
+      "image": {
+        "file": "File:Lion Gate, Hattusa 01.jpg",
+        "alt": "The Lion Gate in the walls of the Hittite capital Hattusa"
+      },
       "text": "Two hundred kilometres east, the Hittite capital: several kilometres of city walls on a hillside, the Lion Gate, a tunnel through the ramparts, and the open-air rock sanctuary at Yazılıkaya with its procession of carved gods.",
       "tip": "A long day — three hours each way — and you need a car or a tour. The site is spread out and involves real walking."
     }
@@ -95,31 +123,55 @@
   "thingsToDo": [
     {
       "title": "Give the museum a proper morning",
+      "image": {
+        "file": "File:Museum of Anatolian Civilizations Phrygian Small table fom tomb of Midas in 2014 04.jpg",
+        "alt": "Phrygian finds from the Midas tomb on display in Ankara"
+      },
       "text": "Work through the Museum of Anatolian Civilizations chronologically, from the Çatalhöyük rooms to the Hittite reliefs and the Phrygian material from Gordion. It reframes every ruin you will see elsewhere in Turkey.",
       "tip": "Go on your way into the country rather than out of it. The order genuinely matters."
     },
     {
       "title": "Visit Anıtkabir with everyone else",
+      "image": {
+        "file": "File:Ceremonial plaza of Anıtkabir 2024.jpg",
+        "alt": "The ceremonial plaza at Anıtkabir"
+      },
       "text": "Turkish school groups, families and army veterans come here in large numbers, and the atmosphere is part of the point. The scale, the ceremony and the museum beneath explain the republic better than any book.",
       "tip": "Weekday mornings are calmer; public holidays are extraordinary but extremely busy."
     },
     {
       "title": "Walk the citadel quarter",
+      "image": {
+        "file": "File:Ankara Hisar Kapı looking out in 2011 01.jpg",
+        "alt": "Looking out from the citadel walls over Ankara"
+      },
       "text": "Up through Ulus to the castle walls, round the ramparts for the view, then down through the lanes of Hisar past restored houses, spice shops and the copper bazaar on Çıkrıkçılar Yokuşu.",
       "tip": "Late afternoon. The light is better and the walls are less exposed than at midday in summer."
     },
     {
       "title": "Read the Res Gestae off the wall",
+      "image": {
+        "file": "File:Temple of Augustus and Rome.jpg",
+        "alt": "The inscribed wall of the Temple of Augustus in Ankara"
+      },
       "text": "Stand in front of a temple wall on which Augustus listed what he had built, conquered and paid for. It is the fullest surviving copy in the world, and it costs nothing to see.",
       "tip": "Combine it with the Hacı Bayram mosque next door and lunch in the square between them."
     },
     {
       "title": "Take the train somewhere",
+      "image": {
+        "file": "File:Rail travel in Turkey banner High-speed YHT at Bilecik.jpg",
+        "alt": "A YHT high-speed train on the Turkish network"
+      },
       "text": "Ankara is the centre of the high-speed network. Konya — whirling dervishes and the Mevlâna museum — is under two hours each way, which makes a genuine day trip from the capital.",
       "tip": "Book YHT tickets online in advance; popular departures sell out, especially on Friday and Sunday."
     },
     {
       "title": "Eat and drink in Kızılay and Tunalı",
+      "image": {
+        "file": "File:Kızılay AVM - panoramio.jpg",
+        "alt": "The modern centre of Ankara around Kızılay"
+      },
       "text": "The modern city south of Ulus is where Ankara actually lives — student bars around Kızılay, restaurants along Tunalı Hilmi, and the meyhane streets of Sakarya Caddesi with fish and rakı.",
       "tip": "Sakarya Caddesi from about 20:00. It is loud, cheap and entirely local."
     }
@@ -138,21 +190,37 @@
     },
     {
       "name": "Kuru fasulye and pilav",
+      "image": {
+        "file": "File:Kuru Fasulye pilav.jpg",
+        "alt": "White beans in tomato sauce served over rice"
+      },
       "text": "White beans in tomato sauce over rice, with pickles on the side — the standard civil-servant lunch, eaten standing up all over the government districts and much better than it sounds.",
       "whereToTry": "Canteen-style lokantas around Kızılay and Bakanlıklar at noon on a weekday."
     },
     {
       "name": "Beypazarı kurusu and güveç",
+      "image": {
+        "file": "File:Beypazarı kurusu.jpg",
+        "alt": "Beypazarı kurusu, the dry crisp ring biscuit"
+      },
       "text": "From the Ottoman town 100 km north-west: a dry, crisp ring biscuit eaten with tea, and a lamb-and-vegetable casserole baked in an earthenware pot. Beypazarı also turns its carrots into everything from juice to Turkish delight.",
       "whereToTry": "Beypazarı itself on a day trip, or shops in Ankara selling the biscuits by the bag."
     },
     {
       "name": "Çubuk pickles",
+      "image": {
+        "file": "File:Torshi from Turkey (Turşu).jpg",
+        "alt": "Jars of Turkish pickles"
+      },
       "text": "The district north of the city is known across Turkey for its pickles and vinegar — cucumbers, peppers, cabbage, green almonds — sold from barrels and drunk as brine as much as eaten.",
       "whereToTry": "Turşucu shops throughout the city. Ask for a glass of the brine with your kuru fasulye."
     },
     {
       "name": "Ankara simidi",
+      "image": {
+        "file": "File:Ankara simidi or simit of Ankara.jpg",
+        "alt": "Ankara simidi — thinner and crisper than the Istanbul version"
+      },
       "text": "The local version of the sesame ring is smaller, thinner and much crisper than Istanbul's chewy one, sold from carts and bakeries and eaten with tea rather than as street food on the move.",
       "whereToTry": "Any street cart in the morning. The difference from the Istanbul version is immediately obvious."
     }
