@@ -90,6 +90,19 @@
     "cardWidth": 800,
     "cardHeight": 425
   },
+  "File:2025-01-07 Saint-Malo Fort and ramparts.jpg": {
+    "artist": "rail fox (flufftech.net)",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-01-07_Saint-Malo_Fort_and_ramparts.jpg",
+    "context": "Saint-Malo and the Emerald Coast — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-7.webp",
+    "card": "images/france/mont-saint-michel--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:2026-06-17 Lincoln Memorial Reflecting Pool post-restoration Washington DC 18-53-22.jpg": {
     "artist": "G. Edward Johnson",
     "license": "CC BY 4.0",
@@ -207,6 +220,19 @@
     "cardWidth": 800,
     "cardHeight": 283
   },
+  "File:Angle sud de la chapelle Saint-Aubert (Le Mont-Saint-Michel, Manche, France).jpg": {
+    "artist": "EdouardHue",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angle_sud_de_la_chapelle_Saint-Aubert_(Le_Mont-Saint-Michel,_Manche,_France).jpg",
+    "context": "The parish church and Saint-Aubert's chapel — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-5.webp",
+    "card": "images/france/mont-saint-michel--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Anıtkabir, Ankara, Turquía, 2024-10-03, DD 27.jpg": {
     "artist": "Diego Delso",
     "license": "CC BY-SA 4.0",
@@ -306,6 +332,19 @@
     "context": "Ride an old tram — Milan, Italy",
     "hero": "images/italy/milan--thing-6.webp",
     "card": "images/italy/milan--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Avranches(Manche)-Scriptorial-\"Saint Jean-Baptiste\"(Bois polychrome-XVIe).jpg": {
+    "artist": "Patrick from Compiègne, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avranches(Manche)-Scriptorial-%22Saint_Jean-Baptiste%22(Bois_polychrome-XVIe).jpg",
+    "context": "Avranches and the Scriptorial — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-6.webp",
+    "card": "images/france/mont-saint-michel--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -558,6 +597,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bridge to Mont St Michel (2).jpg": {
+    "artist": "Lynx1211",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_to_Mont_St_Michel_(2).jpg",
+    "context": "The Passerelle and the bay approach — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-4.webp",
+    "card": "images/france/mont-saint-michel--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Burrata di Andria 2.jpg": {
     "artist": "FM433",
     "license": "CC BY-SA 4.0",
@@ -675,6 +727,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cancale (9).jpg": {
+    "artist": "Avi1111 dr. avishai teicher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cancale_(9).jpg",
+    "context": "Oysters from Cancale — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-2.webp",
+    "card": "images/france/mont-saint-michel--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cannoli tipo mignon con ripieno 02.jpg": {
     "artist": "OppidumNissenae",
     "license": "CC BY-SA 4.0",
@@ -752,6 +817,19 @@
     "heroHeight": 807,
     "cardWidth": 800,
     "cardHeight": 404
+  },
+  "File:Caramel au beurre salé 03.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caramel_au_beurre_sal%C3%A9_03.jpg",
+    "context": "Salted butter caramel — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-4.webp",
+    "card": "images/france/mont-saint-michel--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Carciofo alla giudia.jpg": {
     "artist": "Superchilum",
@@ -1077,6 +1155,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Cloître Abbaye du Mont Saint-Michel 2015-05-28.jpg": {
+    "artist": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clo%C3%AEtre_Abbaye_du_Mont_Saint-Michel_2015-05-28.jpg",
+    "context": "The Abbey — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-1.webp",
+    "card": "images/france/mont-saint-michel--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 842,
+    "cardWidth": 800,
+    "cardHeight": 421
   },
   "File:Close-up of espresso machine with two brown coffee cups.jpg": {
     "artist": "Chevanon Photography",
@@ -1767,6 +1858,19 @@
     "cardWidth": 800,
     "cardHeight": 449
   },
+  "File:Galette de sarrasin complète bretonne.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg",
+    "context": "Galettes and cider — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-3.webp",
+    "card": "images/france/mont-saint-michel--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Galleria borghese facade.jpg": {
     "artist": "Alessio Damato",
     "license": "CC BY-SA 3.0",
@@ -2157,6 +2261,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Kouign Amann at bakery in Trégastel.jpg": {
+    "artist": "Syced",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kouign_Amann_at_bakery_in_Tr%C3%A9gastel.jpg",
+    "context": "Kouign-amann — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-5.webp",
+    "card": "images/france/mont-saint-michel--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:La rame Marie du TMB au Nid d'Aigle (juin 2019) 1.JPG": {
     "artist": "Florian Pépellin",
     "license": "CC BY-SA 4.0",
@@ -2282,6 +2399,32 @@
     "context": "Spend an evening in a wine bar — Paris, France",
     "hero": "images/france/paris--thing-6.webp",
     "card": "images/france/paris--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Le Mont-Saint-Michel France Salt-Meadow-Sheeps-02.jpg": {
+    "artist": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Mont-Saint-Michel_France_Salt-Meadow-Sheeps-02.jpg",
+    "context": "Agneau de pré-salé — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-1.webp",
+    "card": "images/france/mont-saint-michel--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
+  },
+  "File:Le Mont-Saint-Michel Grande Rue 1.jpg": {
+    "artist": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Mont-Saint-Michel_Grande_Rue_1.jpg",
+    "context": "The Grande Rue and the ramparts — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-2.webp",
+    "card": "images/france/mont-saint-michel--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2625,6 +2768,45 @@
     "cardWidth": 800,
     "cardHeight": 435
   },
+  "File:Mont Saint Michel de nuit.JPG": {
+    "artist": "Nicopof",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_Saint_Michel_de_nuit.JPG",
+    "context": "Stay overnight and walk the village at 21:00 — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--thing-1.webp",
+    "card": "images/france/mont-saint-michel--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mont St Michel - Misty Sunrise.jpg": {
+    "artist": "Eric Kilby",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_-_Misty_Sunrise.jpg",
+    "context": "Watch sunrise from the mainland — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--thing-4.webp",
+    "card": "images/france/mont-saint-michel--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Mont St Michel + Jetée par Marée haute.JPG": {
+    "artist": "Mathias Neveling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_%2B_Jet%C3%A9e_par_Mar%C3%A9e_haute.JPG",
+    "context": "See a spring high tide — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--thing-3.webp",
+    "card": "images/france/mont-saint-michel--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Mont St Michel at sunrise.jpg": {
     "artist": "Lynx1211",
     "license": "CC BY-SA 4.0",
@@ -2776,6 +2958,19 @@
     "context": "Seceda and Val Gardena — The Dolomites, Italy",
     "hero": "images/italy/dolomites--attraction-4.webp",
     "card": "images/italy/dolomites--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Omelette mère Poulard 06.jpg": {
+    "artist": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Omelette_m%C3%A8re_Poulard_06.jpg",
+    "context": "La Mère Poulard's omelette — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--food-6.webp",
+    "card": "images/france/mont-saint-michel--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4172,6 +4367,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Tombelaine-mont-saint-michel-depuis-la-baie.jpg": {
+    "artist": "Nitot",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tombelaine-mont-saint-michel-depuis-la-baie.jpg",
+    "context": "Walk the bay with a guide — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--thing-2.webp",
+    "card": "images/france/mont-saint-michel--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Torcello Cathedral - Last Judgement.jpg": {
     "artist": "Gleb Simonov",
     "license": "CC0",
@@ -4509,6 +4717,19 @@
     "heroHeight": 781,
     "cardWidth": 800,
     "cardHeight": 390
+  },
+  "File:View of the bridge and the mudflats from Mont Saint-Michel, 2024.jpg": {
+    "artist": "DimiTalen",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_bridge_and_the_mudflats_from_Mont_Saint-Michel,_2024.jpg",
+    "context": "The bay at low tide — Mont-Saint-Michel, France",
+    "hero": "images/france/mont-saint-michel--attraction-3.webp",
+    "card": "images/france/mont-saint-michel--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:View of valley from Hiking Trail near Chamonix, France - panoramio.jpg": {
     "artist": "CCXKnight",

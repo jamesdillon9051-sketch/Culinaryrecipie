@@ -52,36 +52,64 @@
   "attractions": [
     {
       "name": "The Abbey",
+      "image": {
+        "file": "File:Cloître Abbaye du Mont Saint-Michel 2015-05-28.jpg",
+        "alt": "The cloister of La Merveille inside the abbey of Mont-Saint-Michel"
+      },
       "text": "A one-way route climbs through the whole complex — the west terrace with its bay panorama, the abbey church at the summit, the cloister and refectory of La Merveille, the huge treadwheel that hauled supplies up the rock, and the crypts that carry the church above. Allow 90 minutes to two hours.",
       "tip": "The last entry is an hour before closing. In summer the abbey opens some evenings with music in the rooms — the best possible way to see it."
     },
     {
       "name": "The Grande Rue and the ramparts",
+      "image": {
+        "file": "File:Le Mont-Saint-Michel Grande Rue 1.jpg",
+        "alt": "The narrow Grande Rue climbing through the village of Mont-Saint-Michel"
+      },
       "text": "The single street through the village climbs from the gate to the abbey steps, lined with restaurants and souvenir shops, and it is a crush by midday. The rampart walk above it is the alternative route up: quieter, with views over the bay at every turn.",
       "tip": "Go up by the ramparts and down by the Grande Rue, or vice versa — never both ways on the street."
     },
     {
       "name": "The bay at low tide",
+      "image": {
+        "file": "File:View of the bridge and the mudflats from Mont Saint-Michel, 2024.jpg",
+        "alt": "The mudflats of the bay stretching out below Mont-Saint-Michel at low tide"
+      },
       "text": "When the water withdraws it leaves several kilometres of sand, mudflats and winding channels in every direction. Walking out onto it — with a guide — puts the mount in its proper scale and is the memory most people keep.",
       "tip": "Never walk out unguided. The bay has quicksand, fast-moving channels and tides that outrun walkers; people die here most years."
     },
     {
       "name": "The Passerelle and the bay approach",
+      "image": {
+        "file": "File:Bridge to Mont St Michel (2).jpg",
+        "alt": "The raised bridge on piles leading across the bay to Mont-Saint-Michel"
+      },
       "text": "The 760-metre bridge from the mainland is deliberately designed to make you walk the last stretch. Shuttles run it, but going on foot — 35 minutes from the visitor centre — is much the better arrival, with the mount growing in front of you the whole way.",
       "tip": "The final section floods at the highest tides, which is worth timing deliberately if the tide tables allow."
     },
     {
       "name": "The parish church and Saint-Aubert's chapel",
+      "image": {
+        "file": "File:Angle sud de la chapelle Saint-Aubert (Le Mont-Saint-Michel, Manche, France).jpg",
+        "alt": "The small chapel of Saint-Aubert on the rocks at the foot of Mont-Saint-Michel"
+      },
       "text": "Below the abbey, the small parish church of Saint-Pierre serves the village's handful of residents, and a tiny chapel sits on the rocks at the island's northern tip, reachable at low tide around the base.",
       "tip": "The walk around the base of the rock is free, takes 20 minutes and almost nobody does it."
     },
     {
       "name": "Avranches and the Scriptorial",
+      "image": {
+        "file": "File:Avranches(Manche)-Scriptorial-\"Saint Jean-Baptiste\"(Bois polychrome-XVIe).jpg",
+        "alt": "A polychrome wooden statue on display at the Scriptorial museum in Avranches"
+      },
       "text": "Twenty minutes away on the mainland, this museum holds the abbey's medieval manuscripts — the working library of the monks who built the place, some over a thousand years old. It is the best context for what you have just walked through.",
       "tip": "Combine it with the Jardin des Plantes in Avranches, which has a long view back across the bay to the mount."
     },
     {
       "name": "Saint-Malo and the Emerald Coast",
+      "image": {
+        "file": "File:2025-01-07 Saint-Malo Fort and ramparts.jpg",
+        "alt": "The ramparts and offshore fort of the walled city of Saint-Malo"
+      },
       "text": "Fifty minutes west, a walled corsair city rebuilt after 1944, with ramparts you can circle, tidal swimming pools and some of the best seafood in Brittany. The obvious pairing with a night at the mount.",
       "tip": "Saint-Malo's tidal range is nearly as extreme. Check the tide before planning a beach afternoon."
     }
@@ -90,26 +118,46 @@
   "thingsToDo": [
     {
       "title": "Stay overnight and walk the village at 21:00",
+      "image": {
+        "file": "File:Mont Saint Michel de nuit.JPG",
+        "alt": "Mont-Saint-Michel floodlit against the night sky"
+      },
       "text": "After the last shuttle down, the island belongs to the few dozen people staying on it. The lanes are empty, the ramparts are open, the abbey is lit and the bay is completely dark. It is a genuinely different place from the one the day-trippers see.",
       "tip": "There are only a handful of hotels on the island and they book months ahead. Beauvoir and Ardevon, both minutes away, are the fallback."
     },
     {
       "title": "Walk the bay with a guide",
+      "image": {
+        "file": "File:Tombelaine-mont-saint-michel-depuis-la-baie.jpg",
+        "alt": "Mont-Saint-Michel and the island of Tombelaine seen from out on the bay's sand flats"
+      },
       "text": "Licensed guides run barefoot crossings of two to four hours out into the sands, explaining the tides, the quicksand and the ecology. Some routes cross to Tombelaine, the smaller uninhabited island two kilometres north.",
       "tip": "Book ahead, wear shorts, and expect to be muddy to the knee. Departures are dictated by tide times, not convenience."
     },
     {
       "title": "See a spring high tide",
+      "image": {
+        "file": "File:Mont St Michel + Jetée par Marée haute.JPG",
+        "alt": "Water surrounding Mont-Saint-Michel and the causeway at high tide"
+      },
       "text": "At the largest tides — around 36 to 48 hours after a new or full moon — water surrounds the mount entirely and floods the end of the bridge. Tide coefficients above 100 are published years in advance and draw a crowd.",
       "tip": "The official tide tables list coefficients. Anything over 110 is spectacular; below 90 the water does not fully surround the rock."
     },
     {
       "title": "Watch sunrise from the mainland",
+      "image": {
+        "file": "File:Mont St Michel - Misty Sunrise.jpg",
+        "alt": "Mont-Saint-Michel across the flats in misty light at sunrise"
+      },
       "text": "The classic photograph is taken not from the island but from the flats or the dam on the Couesnon river looking north. Sunrise gives you side light and no crowds, and in the right conditions mist across the bay.",
       "tip": "The barrage on the Couesnon and the path along the eastern shore are both good vantage points and a short walk from Beauvoir."
     },
     {
       "title": "Eat somewhere other than the Grande Rue",
+      "image": {
+        "file": "File:Cancale (9).jpg",
+        "alt": "An oyster grower's stall selling by the dozen on the seafront at Cancale"
+      },
       "text": "The island's street restaurants are the definition of captive-market dining. Better food, at better prices, is a few minutes away on the mainland at Beauvoir and Ardevon, or over in Saint-Malo and Cancale.",
       "tip": "Cancale, 40 minutes west, is Brittany's oyster capital and sells them by the dozen straight from stalls on the shore."
     },
@@ -123,31 +171,55 @@
   "foods": [
     {
       "name": "Agneau de pré-salé",
+      "image": {
+        "file": "File:Le Mont-Saint-Michel France Salt-Meadow-Sheeps-02.jpg",
+        "alt": "Sheep grazing the tidal salt meadows around Mont-Saint-Michel"
+      },
       "text": "Lamb raised on the salt marshes around the bay, grazing on grasses regularly flooded by the tide. The meat is subtly saline and needs almost nothing done to it. It has protected status and is the genuine local speciality.",
       "whereToTry": "Restaurants in Beauvoir, Ardevon and around the bay. In season roughly June to December."
     },
     {
       "name": "Oysters from Cancale",
+      "image": {
+        "file": "File:Cancale (9).jpg",
+        "alt": "Oysters sold by the dozen from a grower's stall on the seafront at Cancale"
+      },
       "text": "Forty minutes west, Cancale has been farming oysters since Roman times. They are sold by the dozen from stalls on the seafront, opened in front of you, eaten on the sea wall with a lemon and the shells thrown onto the beach.",
       "whereToTry": "The Pointe du Hoc stalls at Cancale, cheapest and freshest bought directly from the growers."
     },
     {
       "name": "Galettes and cider",
+      "image": {
+        "file": "File:Galette de sarrasin complète bretonne.jpg",
+        "alt": "A buckwheat galette complète with ham, egg and cheese"
+      },
       "text": "Buckwheat pancakes filled with ham, egg and cheese — the Breton savoury staple — washed down with dry cider served in a ceramic bowl rather than a glass. Cheap, filling and everywhere in the region.",
       "whereToTry": "Crêperies in Pontorson, Saint-Malo and Dol-de-Bretagne."
     },
     {
       "name": "Salted butter caramel",
+      "image": {
+        "file": "File:Caramel au beurre salé 03.jpg",
+        "alt": "Salted butter caramel"
+      },
       "text": "Brittany's most successful invention: caramel made with salted butter, sold as sweets, as a spreadable paste and folded into desserts everywhere in the region.",
       "whereToTry": "Any Breton confiserie. The spreadable version travels well and makes a genuinely good gift."
     },
     {
       "name": "Kouign-amann",
+      "image": {
+        "file": "File:Kouign Amann at bakery in Trégastel.jpg",
+        "alt": "Kouign-amann pastries on sale at a Breton bakery"
+      },
       "text": "A Breton pastry of laminated dough with sugar and salted butter folded through it and caramelised in the pan — dense, sticky and gloriously excessive. The name means 'butter cake' in Breton, which undersells it.",
       "whereToTry": "Bakeries throughout Brittany. Best eaten warm within a few hours of baking."
     },
     {
       "name": "La Mère Poulard's omelette",
+      "image": {
+        "file": "File:Omelette mère Poulard 06.jpg",
+        "alt": "A souffléd Mère Poulard omelette served on a plate"
+      },
       "text": "The island's most famous dish: eggs beaten in a copper bowl for several minutes and cooked over an open fire in a long-handled pan, producing something closer to a soufflé. It is a genuine 19th-century tradition and it is also very expensive.",
       "whereToTry": "On the Grande Rue. Worth watching them beat the eggs in the doorway; whether it is worth the price is a personal decision."
     }
