@@ -53,41 +53,73 @@
   "attractions": [
     {
       "name": "The Sassi di Matera",
+      "image": {
+        "file": "File:Matera - Sasso Barisano at blue hour.jpg",
+        "alt": "The cave dwellings of Sasso Barisano stacked above the ravine at blue hour"
+      },
       "text": "Two districts of cave dwellings, Sasso Caveoso and Sasso Barisano, stacked either side of a ravine, with rock-cut churches carrying Byzantine frescoes and a reconstructed cave house showing how families and animals shared one room.",
       "tip": "Walk the Murgia park path on the far side of the ravine for the view back. The Casa Grotta museum takes ten minutes and reframes everything."
     },
     {
       "name": "Alberobello",
+      "image": {
+        "file": "File:Street with trulli Alberobello.jpg",
+        "alt": "A street of whitewashed trulli with conical dry-stone roofs in Alberobello"
+      },
       "text": "Around 1,500 trulli in two districts — busy Rione Monti and quieter Aia Piccola — with conical dry-stone roofs, whitewashed walls and painted symbols on some of the pinnacles.",
       "tip": "Overwhelming by day and lovely at eight in the morning or after seven at night. Aia Piccola is where people still live."
     },
     {
       "name": "The Valle d'Itria",
+      "image": {
+        "file": "File:Locorotondo-panorama.jpg",
+        "alt": "Locorotondo, the circular white town on a hill in the Valle d'Itria"
+      },
       "text": "The plateau between Alberobello and Ostuni: Locorotondo, a circular white town on a hill; Cisternino, where butchers grill your meat while you wait; and Martina Franca, unexpectedly grand and Baroque.",
       "tip": "This is the best area to base in. The three towns are fifteen minutes apart and each is worth an evening."
     },
     {
       "name": "Lecce",
+      "image": {
+        "file": "File:View of Basilica di Santa Croce from a rooftop terrace in Lecce historic center.jpg",
+        "alt": "The elaborately carved golden limestone facade of Lecce's Basilica di Santa Croce"
+      },
       "text": "The Baroque capital of the south, built in a golden limestone soft enough to carve in extraordinary detail — Santa Croce's facade above all — with a Roman amphitheatre sunk into the main square.",
       "tip": "Walk it after dark when the stone is floodlit. Two nights is right; it is a city to sit in rather than tick off."
     },
     {
       "name": "Ostuni",
+      "image": {
+        "file": "File:Ostuni col drone.jpg",
+        "alt": "Ostuni's lime-washed white town on its hill above the olive plain"
+      },
       "text": "The città bianca: a hill town lime-washed brilliant white, visible for miles across the olive plain that runs down to the Adriatic, with a rose-window cathedral at the top of a maze of lanes.",
       "tip": "Park below and walk up. The best views of Ostuni are from the approach road, not from inside it."
     },
     {
       "name": "Polignano a Mare and Monopoli",
+      "image": {
+        "file": "File:Lama Monachile.jpg",
+        "alt": "Polignano a Mare built on its cliff over the Lama Monachile cove"
+      },
       "text": "Two Adriatic towns half an hour from Bari: Polignano built on a cliff over the Lama Monachile cove, and Monopoli with a working harbour, a whitewashed old town and far fewer visitors.",
       "tip": "Polignano is best early or late. Monopoli is the better dinner and the better swim."
     },
     {
       "name": "Otranto and the Salento coast",
+      "image": {
+        "file": "File:Castle of Otranto 03.jpg",
+        "alt": "The Aragonese castle at Otranto, the easternmost town in Italy"
+      },
       "text": "The easternmost town in Italy, with an Aragonese castle and a cathedral whose entire floor is a twelfth-century mosaic of the Tree of Life. South of it, cliffs run to Santa Maria di Leuca at the tip.",
       "tip": "The mosaic is extraordinary and largely overlooked. The coast road south towards Castro is one of Italy's best drives."
     },
     {
       "name": "Castel del Monte",
+      "image": {
+        "file": "File:CastelDelMontePugliaItalyEurope.jpg",
+        "alt": "Frederick II's octagonal Castel del Monte"
+      },
       "text": "Frederick II's octagonal castle of the 1240s, with eight octagonal towers, no obvious military purpose and a geometry that has kept historians arguing for centuries. It appears on the Italian one-cent coin.",
       "tip": "Inland from Trani, and reached by a shuttle from the car park. Combine with Trani's Romanesque cathedral on the sea."
     }
@@ -96,11 +128,19 @@
   "thingsToDo": [
     {
       "title": "Sleep in a cave or a masseria",
+      "image": {
+        "file": "File:Masseria Amastuola Puglia 06.jpg",
+        "alt": "A converted masseria, a fortified farmhouse, in the Puglian countryside"
+      },
       "text": "Matera's Sassi hotels are converted rock dwellings with vaulted stone ceilings. In the Valle d'Itria, fortified farmhouses have become hotels with olive groves, pools and their own oil.",
       "tip": "Both are far cheaper than the equivalent in Tuscany. Book the cave rooms with natural light unless you like total darkness."
     },
     {
       "title": "Watch orecchiette being made",
+      "image": {
+        "file": "File:Via dell'arco basso.jpg",
+        "alt": "The Arco Basso in Bari Vecchia, where women make orecchiette at tables in the street"
+      },
       "text": "In Bari Vecchia, women make orecchiette at tables in the street on the Arco Basso, dragging each piece off the board with a knife and thumb. It is a working street, not a display.",
       "tip": "Mornings. Buy a bag of fresh pasta, and be respectful about photographs — people live there."
     },
@@ -111,16 +151,28 @@
     },
     {
       "title": "Swim on both coasts",
+      "image": {
+        "file": "File:Grotta della Poesia (1).jpg",
+        "alt": "The natural sinkhole pool of the Grotta della Poesia near Roca"
+      },
       "text": "The Adriatic side of the Salento is limestone cliffs, sea caves and rock platforms; the Ionian side is long shallow sand. They are twenty to thirty minutes apart across the peninsula.",
       "tip": "Grotta della Poesia near Roca for the sinkhole, Pescoluse near the tip for the sand. Both get busy in August only."
     },
     {
       "title": "Walk into the rock churches",
+      "image": {
+        "file": "File:Chiesa rupestre San Pietro Barisano Matera luglio 2022 f01.jpg",
+        "alt": "One of the rock-cut churches around Matera, carved into the limestone"
+      },
       "text": "Around Matera and in the Murgia gorge opposite, more than a hundred churches were cut into the limestone between the eighth and thirteenth centuries, some still carrying Byzantine frescoes.",
       "tip": "The park across the ravine needs proper shoes and, in summer, an early start. A guide is worth it for the frescoed ones."
     },
     {
       "title": "Drink Primitivo where it grows",
+      "image": {
+        "file": "File:Jiebea Castello Monaci Salice Salentino 2018 09.jpg",
+        "alt": "Castello Monaci, a wine estate in Salice Salentino, one of Puglia's Primitivo and Negroamaro areas"
+      },
       "text": "Manduria and the Salento make dense, warm Primitivo and the lighter Negroamaro, at prices that make northern Italian wine look like a mistake. Many estates take visitors.",
       "tip": "Ask for Verdeca or a Salento rosato in summer — the whites and rosés here are underrated and better suited to the heat."
     }
@@ -129,26 +181,46 @@
   "foods": [
     {
       "name": "Orecchiette con cime di rapa",
+      "image": {
+        "file": "File:Le orecchiette di Bari.jpg",
+        "alt": "Orecchiette con cime di rapa, ear-shaped pasta with turnip tops"
+      },
       "text": "Little ear-shaped pasta made by hand, with turnip tops, garlic, chilli, anchovy and toasted breadcrumbs. The regional dish, bitter and savoury, and best where the pasta was made that morning.",
       "whereToTry": "Bari and the Valle d'Itria. In Bari Vecchia the pasta is made on tables in the street."
     },
     {
       "name": "Burrata and mozzarella",
+      "image": {
+        "file": "File:Burrata di Andria 2.jpg",
+        "alt": "Burrata from Andria, a mozzarella shell filled with cream and torn curd"
+      },
       "text": "Burrata was invented at Andria, north of Bari: a mozzarella shell filled with cream and torn curd, eaten within a day of being made. Alongside it, stracciatella and fresh sheep's ricotta.",
       "whereToTry": "Any caseificio in the morning, ideally in Andria itself. Eat it the same day — it does not keep."
     },
     {
       "name": "Focaccia barese and panzerotti",
+      "image": {
+        "file": "File:Focaccia Pugliese.jpg",
+        "alt": "Focaccia barese, dimpled with cherry tomatoes and olives"
+      },
       "text": "A thick, oily focaccia dimpled with cherry tomatoes and olives, sold by weight all day; and panzerotti, half-moons of dough filled with tomato and mozzarella and deep-fried.",
       "whereToTry": "Bakeries in Bari and Altamura, whose bread has protected status and keeps for a week."
     },
     {
       "name": "Bombette and fave e cicoria",
+      "image": {
+        "file": "File:Bombette deliziose.jpg",
+        "alt": "Bombette, rolled pork parcels stuffed with cheese and grilled"
+      },
       "text": "Bombette are rolled pork parcels stuffed with cheese and grilled at the butcher's; fave e cicoria is a purée of dried broad beans with wild chicory and olive oil — poor food that has become the regional signature.",
       "whereToTry": "Cisternino and Martina Franca for the bombette; any trattoria for the fave."
     },
     {
       "name": "Pasticciotto and caffè leccese",
+      "image": {
+        "file": "File:Pasticciotto crema e amarena.jpg",
+        "alt": "A pasticciotto, shortcrust pastry filled with custard and sour cherry"
+      },
       "text": "A small shortcrust pastry filled with custard, eaten warm for breakfast in the Salento; and caffè leccese, espresso poured over ice with almond milk, which is the local answer to a hot morning.",
       "whereToTry": "Lecce's bars from seven in the morning. The pasticciotto should still be warm from the oven."
     },
