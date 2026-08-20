@@ -58,36 +58,64 @@
     },
     {
       "name": "The rock tombs of Telmessos",
+      "image": {
+        "file": "File:Fethiye Rock graves 6979.jpg",
+        "alt": "Lycian rock tombs cut into the cliff above Fethiye"
+      },
       "text": "Lycian tombs cut into the cliff above Fethiye, the largest — the Tomb of Amyntas, around 350 BC — carved as a temple facade with columns and a pediment, reached by a long flight of steps from the town.",
       "tip": "Climb at sunset. The light hits the cliff face and the view over the bay is the best in town."
     },
     {
       "name": "Kayaköy",
+      "image": {
+        "file": "File:Ghost town Kayakoy IMGP8857.jpg",
+        "alt": "The roofless stone houses of the abandoned town of Kayaköy"
+      },
       "text": "The roofless remains of Levissi, a Greek town of several hundred houses and two churches abandoned after the 1923 population exchange between Greece and Turkey. Now a protected site you walk through freely.",
       "tip": "There is a beautiful two-hour walking path over the hill from Kayaköy down to Ölüdeniz. Do it downhill, and take water."
     },
     {
       "name": "Babadağ",
+      "image": {
+        "file": "File:Paragliding from Babadag Mountain over the Blue Lagoon in Ölüdeniz, Turkey (49070938897).jpg",
+        "alt": "A paraglider launching from Babadağ above Ölüdeniz"
+      },
       "text": "A 1,969-metre mountain rising straight off the beach, with paragliding ramps at 1,200, 1,700 and 1,965 metres, a cable car to the top and a viewing terrace looking down the length of the coast.",
       "tip": "You can ride the cable car up without flying. The view over the lagoon from 1,800 m is worth the ticket on its own."
     },
     {
       "name": "Butterfly Valley",
+      "image": {
+        "file": "File:Butterfly Valley, Fethiye.jpg",
+        "alt": "The steep-sided canyon and beach of Butterfly Valley"
+      },
       "text": "A steep-sided canyon opening onto a beach, reachable only by boat from Ölüdeniz or by a genuinely dangerous scramble down from Faralya. Named for the Jersey tiger moths that gather there in summer.",
       "tip": "Take the boat. The descent from the top is a rope-assisted climb and people are injured on it every year."
     },
     {
       "name": "Saklıkent Gorge",
+      "image": {
+        "file": "File:Saklıkent Kanyonu Pembe Kayalar.jpg",
+        "alt": "The towering pink rock walls inside the Saklıkent gorge"
+      },
       "text": "An eighteen-kilometre canyon with walls rising hundreds of metres, entered by wading across a fast, freezing river on a rope and then walking upstream between the rock walls.",
       "tip": "The water is snowmelt and shockingly cold whatever the air temperature. Wear shoes you can soak — grip matters more than dryness."
     },
     {
       "name": "Tlos",
+      "image": {
+        "file": "File:Arched ruins of the ancient city of Tlos.jpg",
+        "alt": "Arched ruins at the Lycian hilltop city of Tlos"
+      },
       "text": "A Lycian hilltop city with rock tombs cut into the cliff below an Ottoman fortress, a theatre, a stadium and baths with a view down the Xanthos valley. The Tomb of Bellerophon carries a relief of the hero on Pegasus.",
       "tip": "Combine it with Saklıkent — they are twenty minutes apart and make a natural half-day."
     },
     {
       "name": "Xanthos, Letoon and Patara",
+      "image": {
+        "file": "File:Ancient city of Patara, Lycia, Turkey.jpeg",
+        "alt": "The ruins of Patara on the Lycian coast"
+      },
       "text": "Xanthos was the capital of Lycia and Letoon its religious centre; together they are a UNESCO World Heritage Site. Patara nearby has the restored Lycian League assembly building and an eighteen-kilometre beach behind it.",
       "tip": "Patara's beach is a protected loggerhead turtle nesting site and closes at dusk in summer. Do the ruins first, then swim."
     }
@@ -96,6 +124,10 @@
   "thingsToDo": [
     {
       "title": "Fly from Babadağ",
+      "image": {
+        "file": "File:Paragliding over the Blue Lagoon in Ölüdeniz, Turkey (49070937152).jpg",
+        "alt": "Paragliders above the Blue Lagoon at Ölüdeniz"
+      },
       "text": "A tandem paraglide from 1,700 or 1,965 metres, spiralling down over the lagoon for twenty to forty minutes before landing on Belcekız beach. No experience needed and it is the single thing people remember from this coast.",
       "tip": "Morning flights are smoother; afternoon thermals give you longer in the air. Cancellations for wind are common and refunds are normal."
     },
@@ -111,16 +143,28 @@
     },
     {
       "title": "Walk a stage of the Lycian Way",
+      "image": {
+        "file": "File:Lycian-way-waypoint.jpg",
+        "alt": "A waymark on the Lycian Way long-distance path"
+      },
       "text": "The 540-kilometre waymarked path starts at Ovacık above Ölüdeniz and runs east along the cliffs to near Antalya. The first stages, over the hill to Faralya and Kabak, are among the best.",
       "tip": "Red-and-white waymarks. Spring and autumn only — the exposed sections are brutal in summer heat."
     },
     {
       "title": "Wade Saklıkent",
+      "image": {
+        "file": "File:Saklikent Gorge tree house - panoramio.jpg",
+        "alt": "The river running out of the Saklıkent gorge"
+      },
       "text": "Cross the river on the rope at the gorge mouth and walk upstream between walls hundreds of metres high, in water that stays cold all summer. A memorable couple of hours.",
       "tip": "Combine with Tlos and a trout lunch at one of the restaurants built on platforms over the river."
     },
     {
       "title": "Spend a day on Lycian ruins",
+      "image": {
+        "file": "File:Tlos ruins Turkey2.jpg",
+        "alt": "Lycian ruins on the hillside at Tlos"
+      },
       "text": "Tlos, Pınara, Xanthos, Letoon and Patara are strung along the valley south of Fethiye, mostly unfenced, usually empty, and none of them more than an hour away.",
       "tip": "A hire car makes this day. By dolmuş you will manage one site, not four."
     }
@@ -139,6 +183,10 @@
     },
     {
       "name": "Kabak çiçeği dolması",
+      "image": {
+        "file": "File:Kabak çiçeği dolma.jpg",
+        "alt": "Courgette flowers stuffed with rice and herbs"
+      },
       "text": "Courgette flowers stuffed with rice, herbs and pine nuts, served at room temperature in olive oil. A summer dish that appears for only a few weeks and is worth ordering the moment you see it.",
       "whereToTry": "Traditional restaurants through late spring and early summer."
     },
