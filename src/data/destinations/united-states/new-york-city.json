@@ -59,41 +59,73 @@
   "attractions": [
     {
       "name": "The Metropolitan Museum of Art",
+      "image": {
+        "file": "File:Metropolitan Museum of Art (The Met) - Central Park, NYC.jpg",
+        "alt": "The Fifth Avenue facade of the Metropolitan Museum of Art"
+      },
       "text": "Two million works spanning 5,000 years, on Fifth Avenue at the edge of Central Park. The Egyptian wing includes a complete temple moved from Nubia; the European paintings and the American Wing are exceptional; the rooftop garden opens in summer.",
       "tip": "Pick two or three departments. New York State residents pay what they wish; everyone else pays about $30, valid for the same day only."
     },
     {
       "name": "Central Park",
+      "image": {
+        "file": "File:Bethesda Terrace and 432 Park Avenue from the Lake, Central Park, Manhattan, New York.jpg",
+        "alt": "Bethesda Terrace and the Lake in Central Park"
+      },
       "text": "341 hectares of entirely constructed landscape running four kilometres up the middle of Manhattan. The Ramble is genuine woodland, Bethesda Terrace is the formal heart, and the reservoir loop is 2.5 km with the skyline all around it.",
       "tip": "Enter at 72nd Street and walk north. The park gets progressively quieter and more wooded above 90th Street."
     },
     {
       "name": "The Brooklyn Bridge and DUMBO",
+      "image": {
+        "file": "File:Manhatten Bridge - taken from Washington Street.jpg",
+        "alt": "The Manhattan Bridge framed by Washington Street in DUMBO"
+      },
       "text": "Completed in 1883 and the first steel-wire suspension bridge in the world. Walking it from the Brooklyn side towards Manhattan gives you the skyline ahead the whole way, and DUMBO beneath it has the famous view of the Manhattan Bridge framed between warehouses.",
       "tip": "Walk from Brooklyn to Manhattan, not the reverse — the view is in front of you. Go early; by noon the walkway is crowded."
     },
     {
       "name": "The 9/11 Memorial and Museum",
+      "image": {
+        "file": "File:New York - National September 11 Memorial South Pool - April 2012 - 9693C.jpg",
+        "alt": "The South Pool of the National September 11 Memorial"
+      },
       "text": "Two square voids on the footprints of the towers, with the names of the 2,983 dead inscribed around them and water falling into the centre. The museum below is unflinching and takes at least two hours.",
       "tip": "The memorial pools are free and open late. The museum is emotionally heavy — do not schedule anything demanding after it."
     },
     {
       "name": "The High Line and Chelsea",
+      "image": {
+        "file": "File:High Line New York August 2013.jpg",
+        "alt": "Planting and walkway along the High Line"
+      },
       "text": "A disused elevated freight railway turned into a 2.3 km linear park running through the West Side, planted with the self-seeded species that colonised the tracks. It passes through Chelsea's gallery district and ends at Hudson Yards.",
       "tip": "Best early morning or at dusk. Enter at Gansevoort Street and walk north to avoid the busiest section."
     },
     {
       "name": "Museum of Modern Art",
+      "image": {
+        "file": "File:WLA filmlinc MOMA 4.jpg",
+        "alt": "The 53rd Street entrance of the Museum of Modern Art"
+      },
       "text": "The most important collection of modern art anywhere: Van Gogh's Starry Night, Picasso's Les Demoiselles d'Avignon, Monet's Water Lilies triptych, and a strong photography and design collection.",
       "tip": "Smaller and more manageable than the Met — three hours does it. Free Friday evenings, which are correspondingly packed."
     },
     {
       "name": "The Staten Island Ferry",
+      "image": {
+        "file": "File:Staten Island Ferry terminal.jpg",
+        "alt": "An orange Staten Island Ferry at its terminal"
+      },
       "text": "A free, 25-minute commuter ferry that passes directly by the Statue of Liberty in both directions. It runs 24 hours a day and costs nothing, which makes it the best-value thing in New York.",
       "tip": "Stand on the right side leaving Manhattan. You must disembark and re-board at Staten Island, which takes five minutes."
     },
     {
       "name": "An observation deck",
+      "image": {
+        "file": "File:View from observation deck at Empire State Building.jpg",
+        "alt": "The Manhattan skyline from the Empire State Building observation deck"
+      },
       "text": "Three main options: the Empire State Building for the classic Art Deco experience, Top of the Rock for the view that includes the Empire State, and Edge or Summit at Hudson Yards for the modern glass-floor spectacle.",
       "tip": "Top of the Rock is the best photograph because the Empire State is in it. Sunset slots sell out weeks ahead at all three."
     }
@@ -102,26 +134,46 @@
   "thingsToDo": [
     {
       "title": "Walk a neighbourhood end to end",
+      "image": {
+        "file": "File:Big brownstone doorway 40 West 12th Street (1860), Greenwich Village, New York (50701654723).jpg",
+        "alt": "A brownstone doorway on West 12th Street in Greenwich Village"
+      },
       "text": "The West Village's pre-grid streets, the Lower East Side's tenement blocks, Harlem's brownstones along 125th Street, Williamsburg across the river. Twenty blocks on foot shows you more than any bus tour.",
       "tip": "Manhattan blocks run about 80 m north–south and 270 m east–west. Twenty north–south blocks is about a mile."
     },
     {
       "title": "Eat a slice standing up",
+      "image": {
+        "file": "File:Paulie Gee's Slice Shop (35386).jpg",
+        "alt": "A counter slice shop in New York"
+      },
       "text": "New York pizza is sold by the slice at counters for a few dollars, folded lengthwise and eaten while walking. It is a genuine institution and the neighbourhood counters are far better than anything near a tourist site.",
       "tip": "A good slice has a crust you can fold without it cracking. Avoid anywhere with a photograph of pizza in the window."
     },
     {
       "title": "See something live",
+      "image": {
+        "file": "File:Godspell @ Circle in the Square Theatre on Broadway - 6285401014.jpg",
+        "alt": "A Broadway theatre marquee in New York"
+      },
       "text": "Broadway and off-Broadway theatre, jazz at the Village Vanguard or Smalls, comedy in the Village, opera at the Met. The city has more live performance in a night than most countries manage in a week.",
       "tip": "TKTS booths sell same-day Broadway tickets at 20–50% off. Off-Broadway is cheaper and frequently better."
     },
     {
       "title": "Take the subway to the end of a line",
+      "image": {
+        "file": "File:NYC Brighton Beach 1.jpg",
+        "alt": "The boardwalk at Brighton Beach in Brooklyn"
+      },
       "text": "Brighton Beach for the Russian-speaking boardwalk, Flushing for the best Chinese food in the country, Coney Island for the beach and the 1927 wooden roller coaster. All are 45 minutes and $3 from Midtown.",
       "tip": "Flushing's Golden Shopping Mall food court is a serious destination and costs almost nothing."
     },
     {
       "title": "Go to a game",
+      "image": {
+        "file": "File:Citi Field Night Game.jpg",
+        "alt": "A night baseball game at Citi Field"
+      },
       "text": "Yankees or Mets baseball from April to September, Knicks or Nets basketball in winter, Rangers ice hockey. Baseball tickets often start under $30 and the pace suits a first-timer.",
       "tip": "Yankee Stadium is 25 minutes from Midtown on the 4 train. Go for a weekday evening game."
     },
@@ -135,31 +187,55 @@
   "foods": [
     {
       "name": "The slice",
+      "image": {
+        "file": "File:L&B Spumoni Gardens pizza (41436).jpg",
+        "alt": "New York pizza sold by the slice"
+      },
       "text": "Wide, thin, foldable pizza sold by the slice from counters across the city. Brought by Neapolitan immigrants and reshaped entirely — the New York style is its own thing now, and the by-the-slice format is the point.",
       "whereToTry": "Neighbourhood counters in any borough, not the tourist strips. A plain cheese slice is the benchmark."
     },
     {
       "name": "Bagels and lox",
+      "image": {
+        "file": "File:Lox-and-bagel-02.jpg",
+        "alt": "A bagel with cream cheese and lox"
+      },
       "text": "Boiled then baked, dense and chewy, split and filled with cream cheese and cured salmon, capers and red onion. An Eastern European Jewish import that became the New York breakfast.",
       "whereToTry": "Appetising shops on the Upper West Side and the Lower East Side. They should be made the same morning."
     },
     {
       "name": "Pastrami on rye",
+      "image": {
+        "file": "File:Carnegie pastrami sandwich.jpg",
+        "alt": "A hand-cut pastrami sandwich on rye"
+      },
       "text": "Beef navel cured, smoked, steamed for hours and hand-cut thick, piled on rye with mustard. A Romanian Jewish dish that arrived in the 1880s. The classic delis serve portions that genuinely feed two.",
       "whereToTry": "The surviving Lower East Side and Midtown delicatessens. Order it hand-cut if the option exists."
     },
     {
       "name": "Chinese food, by region",
+      "image": {
+        "file": "File:Flushing Chinatown newspaper stands 2009.jpg",
+        "alt": "Street stands in the Chinatown of Flushing, Queens"
+      },
       "text": "Manhattan's Chinatown is largely Cantonese and Fujianese; Flushing in Queens has Sichuan, Xi'an, Dongbei and Shanghainese; Sunset Park in Brooklyn is the newest and largest. These are different cuisines, not variations.",
       "whereToTry": "Flushing's food courts for the best and cheapest. Xi'an hand-pulled noodles are a good entry point."
     },
     {
       "name": "The halal cart",
+      "image": {
+        "file": "File:Shah's halal food cart 20181010 111456.jpg",
+        "alt": "A halal food cart on a New York street"
+      },
       "text": "Chicken or lamb over rice with white sauce and hot sauce, sold from street carts for around $10. Created by Egyptian and Afghan vendors in the 1990s and now one of the city's defining cheap meals.",
       "whereToTry": "Carts throughout Midtown and Downtown, busiest at lunch and after midnight."
     },
     {
       "name": "Cheesecake and the black-and-white cookie",
+      "image": {
+        "file": "File:New York cheesecake 2.jpg",
+        "alt": "A slice of dense New York cheesecake"
+      },
       "text": "New York cheesecake is dense, baked and made with cream cheese rather than curd. The black-and-white is a large soft cake-like cookie iced half vanilla, half chocolate.",
       "whereToTry": "Old delis and Jewish bakeries throughout the city."
     }
