@@ -32,21 +32,37 @@
   "thingsToDo": [
     {
       "title": "Drink tea, constantly",
+      "image": {
+        "file": "File:Glass of tea 05119.jpg",
+        "alt": "Turkish tea served in a small tulip-shaped glass"
+      },
       "text": "Çay is served in small tulip-shaped glasses at every possible occasion — in shops, at ferry terminals, while you look at carpets, before and after meals. Turkey drinks more tea per head than any other country on earth, and refusing a glass is unusual.",
       "tip": "It is served without milk, with sugar cubes on the side. Saying 'açık' gets you a weaker brew."
     },
     {
       "title": "Go to a hamam",
+      "image": {
+        "file": "File:Mahmut Pasha Hamam DSCF1319.jpg",
+        "alt": "The domed marble interior of a Turkish hamam"
+      },
       "text": "A Turkish bath is a hot marble room, a scrub with a coarse mitt that removes an alarming quantity of skin, a foam wash and a rest. The historic ones in [[istanbul]] date to the 16th century and are architectural monuments in themselves.",
       "tip": "Bring nothing; everything is provided. Historic hamams are more expensive and considerably more beautiful than neighbourhood ones."
     },
     {
       "title": "Eat a long breakfast",
+      "image": {
+        "file": "File:Istanbul (29).jpg",
+        "alt": "A Turkish breakfast spread of cheese, olives, tomato and preserves"
+      },
       "text": "Turkish kahvaltı is a spread rather than a dish — cheeses, olives, tomato, cucumber, honey with clotted cream, eggs, jams and endless bread and tea. It takes an hour and a half and it is the best meal of the day.",
       "tip": "A 'serpme kahvaltı' is the full spread for a table. Van, in the far east, is famous for the most extravagant version."
     },
     {
       "title": "Walk through a Roman city",
+      "image": {
+        "file": "File:Library of Celsus, Ephesus Archaeological Site, Selcuk, Turkiye (53528093694).jpg",
+        "alt": "The Library of Celsus at Ephesus"
+      },
       "text": "[[ephesus]], Aphrodisias, Pergamon, Hierapolis at [[pamukkale]], Perge and Aspendos near [[antalya-turquoise-coast|Antalya]]. Several have theatres seating 15,000 and streets you can walk end to end.",
       "tip": "Go at opening or in the last two hours. Shade is minimal and summer temperatures on these sites exceed 40°C."
     },
@@ -65,6 +81,10 @@
   "foods": [
     {
       "name": "Kebap, in its regional forms",
+      "image": {
+        "file": "File:Adana Kebap.jpg",
+        "alt": "Adana kebap of hand-minced lamb with red pepper"
+      },
       "text": "Not one dish. Adana kebap is hand-minced lamb with red pepper; Urfa is the milder version; İskender is döner over bread with tomato sauce and yoghurt; şiş is cubed and grilled. Each region defends its own.",
       "whereToTry": "Gaziantep and [[sanliurfa-gobekli-tepe|Şanlıurfa]] in the southeast are the heartland. Every city has good ocakbaşı grill houses."
     },
@@ -75,26 +95,46 @@
     },
     {
       "name": "Pide and lahmacun",
+      "image": {
+        "file": "File:Türk pidesi.jpg",
+        "alt": "Boat-shaped pide baked with cheese and egg"
+      },
       "text": "Pide is a boat-shaped flatbread baked with cheese, minced meat or egg. Lahmacun is a paper-thin round topped with spiced minced lamb, rolled with parsley and lemon and eaten by hand. Both are cheap and everywhere.",
       "whereToTry": "Pide salonu and lahmacun shops in any town. Lahmacun is the better street food."
     },
     {
       "name": "Baklava and Turkish sweets",
+      "image": {
+        "file": "File:Baklava and ice cream.jpg",
+        "alt": "Pistachio baklava served with ice cream"
+      },
       "text": "Layers of filo with pistachio or walnut, soaked in syrup. Gaziantep's pistachio baklava has protected status and is genuinely a cut above. Künefe — shredded pastry over melting cheese — is the other essential.",
       "whereToTry": "Gaziantep for baklava; künefe across the southeast and in Hatay."
     },
     {
       "name": "Balık ekmek and Black Sea fish",
+      "image": {
+        "file": "File:Balik ekmek Galata Bridge.JPG",
+        "alt": "Balık ekmek sold from the boats at Eminönü"
+      },
       "text": "Grilled fish in bread, sold from boats and stalls at Istanbul's Eminönü. In winter, hamsi — Black Sea anchovies — appear everywhere, fried in cornmeal or baked with rice.",
       "whereToTry": "[[istanbul|Istanbul]]'s waterfront for balık ekmek; [[trabzon-black-sea|Trabzon]] and the Black Sea coast for hamsi from November to February."
     },
     {
       "name": "Turkish coffee and rakı",
+      "image": {
+        "file": "File:İki fincan Türk kahvesi 02.jpg",
+        "alt": "Two cups of Turkish coffee"
+      },
       "text": "Coffee ground to powder and boiled in a cezve, served unfiltered with the grounds settling in the cup. Rakı is an anise spirit drunk with water and ice, which turns it white, alongside meze and fish.",
       "whereToTry": "Coffee everywhere; rakı in meyhanes, traditionally over a long evening rather than quickly."
     },
     {
       "name": "Menemen and Turkish breakfast",
+      "image": {
+        "file": "File:Menemen in pan.jpg",
+        "alt": "Menemen — eggs cooked slowly with tomato and green pepper"
+      },
       "text": "Eggs scrambled slowly with tomato, green pepper and sometimes cheese, eaten with bread. The centrepiece of a breakfast spread that also includes cheeses, olives, honey and clotted cream.",
       "whereToTry": "Breakfast salons everywhere, especially at weekends when Turkish families make a morning of it."
     }

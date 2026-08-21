@@ -961,6 +961,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Baklava and ice cream.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baklava_and_ice_cream.jpg",
+    "context": "Baklava and Turkish sweets — Turkey",
+    "hero": "images/turkey/_country--food-4.webp",
+    "card": "images/turkey/_country--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Balik ekmek Galata Bridge.JPG": {
     "artist": "Benreis",
     "license": "CC BY 3.0",
@@ -4068,6 +4081,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Glass of tea 05119.jpg": {
+    "artist": "Nevit Dilmen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_tea_05119.jpg",
+    "context": "Drink tea, constantly — Turkey",
+    "hero": "images/turkey/_country--thing-1.webp",
+    "card": "images/turkey/_country--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Göbekli Tepe Pillar.JPG": {
     "artist": "Zhengan",
     "license": "CC BY-SA 4.0",
@@ -4596,6 +4622,19 @@
     "context": "The Ihlara Valley — Cappadocia, Turkey",
     "hero": "images/turkey/cappadocia--attraction-6.webp",
     "card": "images/turkey/cappadocia--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:İki fincan Türk kahvesi 02.jpg": {
+    "artist": "Satirdan kahraman",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%B0ki_fincan_T%C3%BCrk_kahvesi_02.jpg",
+    "context": "Turkish coffee and rakı — Turkey",
+    "hero": "images/turkey/_country--food-6.webp",
+    "card": "images/turkey/_country--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5636,6 +5675,32 @@
     "context": "Caen Mémorial — Normandy & the D-Day Beaches, France",
     "hero": "images/france/normandy-d-day-beaches--attraction-7.webp",
     "card": "images/france/normandy-d-day-beaches--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Menemen in pan.jpg": {
+    "artist": "FakirNL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menemen_in_pan.jpg",
+    "context": "Menemen and Turkish breakfast — Turkey",
+    "hero": "images/turkey/_country--food-7.webp",
+    "card": "images/turkey/_country--food-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Menemen, İzmir, Turkey.jpg": {
+    "artist": "Ahmet Gürsakal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menemen,_%C4%B0zmir,_Turkey.jpg",
+    "context": "Menemen and Turkish breakfast — Turkey",
+    "hero": "images/turkey/_country--food-7.webp",
+    "card": "images/turkey/_country--food-7-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9410,6 +9475,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 530
+  },
+  "File:Türk pidesi.jpg": {
+    "artist": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BCrk_pidesi.jpg",
+    "context": "Pide and lahmacun — Turkey",
+    "hero": "images/turkey/_country--food-3.webp",
+    "card": "images/turkey/_country--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Turkey-2002 - Flying High in Cappadocia (2216716680).jpg": {
     "artist": "Dennis G. Jarvis",
