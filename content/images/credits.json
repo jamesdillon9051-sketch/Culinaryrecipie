@@ -311,6 +311,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Adams The Tetons and the Snake River.jpg": {
+    "artist": "Ansel Adams",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_The_Tetons_and_the_Snake_River.jpg",
+    "context": "Drive to Grand Teton — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--thing-4.webp",
+    "card": "images/united-states/yellowstone--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Adana Kebap.jpg": {
     "artist": "Garrett Ziegler",
     "license": "CC BY-SA 4.0",
@@ -3041,6 +3054,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Crowded boardwalk in the Lower Geyser Basin (3a57fb5c-42a3-4be0-866b-29d2cb3dd528).jpg": {
+    "artist": "Neal Herbert",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crowded_boardwalk_in_the_Lower_Geyser_Basin_(3a57fb5c-42a3-4be0-866b-29d2cb3dd528).jpg",
+    "context": "Walk the geyser basin boardwalks — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--thing-2.webp",
+    "card": "images/united-states/yellowstone--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Crystal Palace in Madrid foggy evening.jpg": {
     "artist": "Fernando",
     "license": "CC BY-SA 4.0",
@@ -4484,6 +4510,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Grand canyon of Yellowstone and Yellowstone fall nn edit1.jpg": {
+    "artist": "Brocken Inaglory",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_canyon_of_Yellowstone_and_Yellowstone_fall_nn_edit1.jpg",
+    "context": "Grand Canyon of the Yellowstone — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-4.webp",
+    "card": "images/united-states/yellowstone--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Grand Canyon South Rim at Sunset.jpg": {
     "artist": "Mgimelfarb",
     "license": "CC0",
@@ -4817,6 +4856,19 @@
     "context": "Cappadocia, Turkey",
     "hero": "images/turkey/cappadocia.webp",
     "card": "images/turkey/cappadocia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Huckleberry plant with berries (751abe8c2f994c42a71ce04ce63afe0c).JPG": {
+    "artist": "Steve Redman (MORA)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huckleberry_plant_with_berries_(751abe8c2f994c42a71ce04ce63afe0c).JPG",
+    "context": "Huckleberries — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--food-4.webp",
+    "card": "images/united-states/yellowstone--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5259,6 +5311,19 @@
     "context": "Polignano a Mare and Monopoli — Puglia & Matera, Italy",
     "hero": "images/italy/puglia-matera--attraction-6.webp",
     "card": "images/italy/puglia-matera--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lamar Valley bison YNP1.jpg": {
+    "artist": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamar_Valley_bison_YNP1.jpg",
+    "context": "The Lamar Valley — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-3.webp",
+    "card": "images/united-states/yellowstone--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6759,6 +6824,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Old Faithful Inn, lobby (9411170948).jpg": {
+    "artist": "Yellowstone National Park from Yellowstone NP, USA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Faithful_Inn,_lobby_(9411170948).jpg",
+    "context": "The park lodge dining rooms — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--food-5.webp",
+    "card": "images/united-states/yellowstone--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Old port in Honfleur. France.jpg": {
     "artist": "Ввласенко",
     "license": "CC BY-SA 3.0",
@@ -6875,6 +6953,19 @@
     "heroHeight": 800,
     "cardWidth": 800,
     "cardHeight": 400
+  },
+  "File:Oxbow Bend outlook in the Grand Teton National Park.jpg": {
+    "artist": "Michael Gäbler",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg",
+    "context": "Grand Teton National Park — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-8.webp",
+    "card": "images/united-states/yellowstone--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Pa amb oli-rafax.JPG": {
     "artist": "Rafael Ortega Diaz",
@@ -10191,6 +10282,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Upper Terraces of Mammoth Hot Springs.jpg": {
+    "artist": "Brocken Inaglory",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Upper_Terraces_of_Mammoth_Hot_Springs.jpg",
+    "context": "Mammoth Hot Springs — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-5.webp",
+    "card": "images/united-states/yellowstone--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Urfa Castle 02.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
@@ -10815,6 +10919,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Wolf on the shore of Yellowstone Lake (32955072544).jpg": {
+    "artist": "Yellowstone National Park",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolf_on_the_shore_of_Yellowstone_Lake_(32955072544).jpg",
+    "context": "Hayden Valley and Yellowstone Lake — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-7.webp",
+    "card": "images/united-states/yellowstone--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Wooden houses in Balat, Fatih.jpg": {
     "artist": "Maurice Flesier",
     "license": "CC BY-SA 4.0",
@@ -10853,6 +10970,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 524
+  },
+  "File:Yellowstone National Park (WY, USA), Norris Geyser Basin -- 2022 -- 2681.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Norris_Geyser_Basin_--_2022_--_2681.jpg",
+    "context": "Norris Geyser Basin — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-6.webp",
+    "card": "images/united-states/yellowstone--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Yellowstone National Park (WY, USA), Old Faithful Geyser -- 2022 -- 2599.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_(WY,_USA),_Old_Faithful_Geyser_--_2022_--_2599.jpg",
+    "context": "Upper Geyser Basin and Old Faithful — Yellowstone National Park, United States",
+    "hero": "images/united-states/yellowstone--attraction-2.webp",
+    "card": "images/united-states/yellowstone--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Zelve Monastery, Cappadocia.jpg": {
     "artist": "Slyronit",

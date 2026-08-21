@@ -58,36 +58,64 @@
     },
     {
       "name": "Upper Geyser Basin and Old Faithful",
+      "image": {
+        "file": "File:Yellowstone National Park (WY, USA), Old Faithful Geyser -- 2022 -- 2599.jpg",
+        "alt": "Old Faithful erupting in the Upper Geyser Basin"
+      },
       "text": "The densest concentration of geysers on earth, with about 150 in one square mile. Old Faithful erupts every 60 to 110 minutes to 30–55 metres; Grand, Riverside and Castle geysers nearby are less predictable and arguably more impressive.",
       "tip": "Predicted eruption times for several geysers are posted at the visitor centre and on the park app. Walk the boardwalk loop rather than only watching Old Faithful."
     },
     {
       "name": "The Lamar Valley",
+      "image": {
+        "file": "File:Lamar Valley bison YNP1.jpg",
+        "alt": "Bison grazing in the Lamar Valley"
+      },
       "text": "A wide glacial valley in the park's northeast, and the best wildlife viewing in the lower 48 states. Bison herds in the hundreds, plus wolves, bears, pronghorn and coyotes, most reliably seen at dawn and dusk.",
       "tip": "Be there before sunrise. Bring binoculars or a spotting scope — the wolf watchers parked along the road are usually happy to share a view."
     },
     {
       "name": "Grand Canyon of the Yellowstone",
+      "image": {
+        "file": "File:Grand canyon of Yellowstone and Yellowstone fall nn edit1.jpg",
+        "alt": "The Lower Falls in the yellow rhyolite canyon of the Yellowstone"
+      },
       "text": "A 32 km canyon of yellow rhyolite up to 370 metres deep, with the Lower Falls dropping 94 metres — twice the height of Niagara. Artist Point on the south rim is the classic view.",
       "tip": "Artist Point for the falls, Uncle Tom's and Lookout Point for different angles. Early morning gives the best light on the yellow rock."
     },
     {
       "name": "Mammoth Hot Springs",
+      "image": {
+        "file": "File:Upper Terraces of Mammoth Hot Springs.jpg",
+        "alt": "White travertine terraces at Mammoth Hot Springs"
+      },
       "text": "Terraces of white travertine built up by hot water depositing limestone, forming stepped pools that shift and dry out over years as the plumbing changes. Elk graze on the lawns of the historic fort at the base.",
       "tip": "The formations change constantly — sections that were flowing a decade ago are now dry. The upper terrace loop can be driven."
     },
     {
       "name": "Norris Geyser Basin",
+      "image": {
+        "file": "File:Yellowstone National Park (WY, USA), Norris Geyser Basin -- 2022 -- 2681.jpg",
+        "alt": "Steaming ground at the Norris Geyser Basin"
+      },
       "text": "The hottest and most changeable thermal area in the park, with acidic springs and Steamboat Geyser — the tallest active geyser in the world at up to 120 metres, though it erupts unpredictably, sometimes years apart.",
       "tip": "The Back Basin trail is quieter than Porcelain Basin and equally strange. The ground here is genuinely unstable — stay on the boardwalk."
     },
     {
       "name": "Hayden Valley and Yellowstone Lake",
+      "image": {
+        "file": "File:Wolf on the shore of Yellowstone Lake (32955072544).jpg",
+        "alt": "A wolf on the shore of Yellowstone Lake"
+      },
       "text": "The park's other great wildlife valley, in the centre, with large bison herds and frequent grizzly sightings. Yellowstone Lake beyond it is the largest high-altitude lake in North America at 2,357 m.",
       "tip": "West Thumb Geyser Basin on the lake shore has thermal features running into the water, including cones that were once fished from."
     },
     {
       "name": "Grand Teton National Park",
+      "image": {
+        "file": "File:Oxbow Bend outlook in the Grand Teton National Park.jpg",
+        "alt": "The Teton range above Oxbow Bend"
+      },
       "text": "An hour south, where the Teton range rises 2,100 metres straight out of the valley floor with no foothills. Jenny Lake, Schwabacher Landing and the Snake River overlook are the classic viewpoints.",
       "tip": "Almost always visited alongside Yellowstone, and worth two or three days of its own. The two share an entrance road."
     }
@@ -101,6 +129,10 @@
     },
     {
       "title": "Walk the geyser basin boardwalks",
+      "image": {
+        "file": "File:Crowded boardwalk in the Lower Geyser Basin (3a57fb5c-42a3-4be0-866b-29d2cb3dd528).jpg",
+        "alt": "A boardwalk crossing a Yellowstone geyser basin"
+      },
       "text": "Upper, Midway, Lower and Norris basins each have several kilometres of boardwalk over ground too hot and fragile to stand on. Doing all four across two days shows you the full range of thermal behaviour.",
       "tip": "Stay on the boardwalk without exception. The crust is thin, the water is above boiling, and people have died stepping off."
     },
@@ -111,6 +143,10 @@
     },
     {
       "title": "Drive to Grand Teton",
+      "image": {
+        "file": "File:Adams The Tetons and the Snake River.jpg",
+        "alt": "The Tetons above the Snake River"
+      },
       "text": "An hour south on the John D. Rockefeller Parkway, into a completely different landscape of sharp granite peaks rising abruptly from a flat sagebrush plain.",
       "tip": "Schwabacher Landing at dawn, with the range reflected in the Snake River, is one of the great American views."
     },
@@ -144,11 +180,19 @@
     },
     {
       "name": "Huckleberries",
+      "image": {
+        "file": "File:Huckleberry plant with berries (751abe8c2f994c42a71ce04ce63afe0c).JPG",
+        "alt": "Wild huckleberries on the plant"
+      },
       "text": "A wild mountain berry, impossible to farm commercially, harvested in late summer and turned into jam, pie, ice cream and syrup across the northern Rockies.",
       "whereToTry": "Roadside shops and cafés across Montana and Wyoming, best from late July onwards."
     },
     {
       "name": "The park lodge dining rooms",
+      "image": {
+        "file": "File:Old Faithful Inn, lobby (9411170948).jpg",
+        "alt": "The timber lobby of the Old Faithful Inn"
+      },
       "text": "Old Faithful Inn's timber dining hall and the Lake Yellowstone Hotel are the two worth eating in for the buildings alone — the Inn is a 1904 log structure with a 23-metre lobby.",
       "whereToTry": "Inside the park. Dinner reservations are required and open months ahead."
     },
