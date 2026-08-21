@@ -1273,6 +1273,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bayou Black Swamp, Louisiana.jpg": {
+    "artist": "Cpatty",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayou_Black_Swamp,_Louisiana.jpg",
+    "context": "The swamps and plantations — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-8.webp",
+    "card": "images/united-states/new-orleans--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Beach and Cliffs of Étretat, Normandy-8172.jpg": {
     "artist": "Raimond Spekking",
     "license": "CC BY-SA 4.0",
@@ -1753,6 +1766,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 510
+  },
+  "File:Cafe du Monde, French Market, New Orleans 22 November 2025 - Beignets.jpg": {
+    "artist": "Jeremy Thompson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cafe_du_Monde,_French_Market,_New_Orleans_22_November_2025_-_Beignets.jpg",
+    "context": "Beignets — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-3.webp",
+    "card": "images/united-states/new-orleans--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Caladeron Tropical - Globicephala macrorhynchus.jpg": {
     "artist": "Gustavo A. Pérez",
@@ -2430,6 +2456,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:ChickenAndouilleGumboNOLA.JPG": {
+    "artist": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChickenAndouilleGumboNOLA.JPG",
+    "context": "Gumbo — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-1.webp",
+    "card": "images/united-states/new-orleans--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Chiesa rupestre San Pietro Barisano Matera luglio 2022 f01.jpg": {
     "artist": "Marcok",
     "license": "CC BY-SA 4.0",
@@ -2833,6 +2872,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Congo Square New Orleans.jpg": {
+    "artist": "Mr. Littlehand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Congo_Square_New_Orleans.jpg",
+    "context": "Tremé and Congo Square — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-5.webp",
+    "card": "images/united-states/new-orleans--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Çöp şiş.jpg": {
     "artist": "E4024",
     "license": "CC BY-SA 4.0",
@@ -3077,6 +3129,19 @@
     "card": "images/france/paris--food-3-card.webp",
     "heroWidth": 1200,
     "heroHeight": 675,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Crossing the Mississippi on the Algiers Ferry with a band, New Orleans 01.jpg": {
+    "artist": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crossing_the_Mississippi_on_the_Algiers_Ferry_with_a_band,_New_Orleans_01.jpg",
+    "context": "The Mississippi and the Algiers ferry — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-7.webp",
+    "card": "images/united-states/new-orleans--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -4094,6 +4159,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Frenchmen Street Gentilly New Orleans 1st April 2019 11.jpg": {
+    "artist": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frenchmen_Street_Gentilly_New_Orleans_1st_April_2019_11.jpg",
+    "context": "Frenchmen Street — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-2.webp",
+    "card": "images/united-states/new-orleans--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Funivia del Lagazuoi (passo Falzarego).jpg": {
     "artist": "Ale041VE",
     "license": "CC BY-SA 4.0",
@@ -5051,6 +5129,19 @@
     "context": "Supplì — Rome, Italy",
     "hero": "images/italy/rome--food-3.webp",
     "card": "images/italy/rome--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Jambalaya (30750226186).jpg": {
+    "artist": "pelican from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jambalaya_(30750226186).jpg",
+    "context": "Jambalaya and étouffée — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-4.webp",
+    "card": "images/united-states/new-orleans--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7825,6 +7916,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Po boy sandwich at Oak Alley Restaurant in Vacherie, Louisiana.jpg": {
+    "artist": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Po_boy_sandwich_at_Oak_Alley_Restaurant_in_Vacherie,_Louisiana.jpg",
+    "context": "The po'boy — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-2.webp",
+    "card": "images/united-states/new-orleans--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pokut Yaylasi Rize.jpg": {
     "artist": "DOGUTTR",
     "license": "CC BY-SA 4.0",
@@ -8019,6 +8123,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Preservation Hall Jazz band New Orleans July 2008 trombone.jpg": {
+    "artist": "holga_new_orleans",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preservation_Hall_Jazz_band_New_Orleans_July_2008_trombone.jpg",
+    "context": "Hear live music every night — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--thing-1.webp",
+    "card": "images/united-states/new-orleans--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Prickly pears.jpg": {
     "artist": "Tomás Castelazo",
@@ -8930,6 +9047,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:SazeracRooseveltNOLA1July2009.JPG": {
+    "artist": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SazeracRooseveltNOLA1July2009.JPG",
+    "context": "The Sazerac and chicory coffee — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-6.webp",
+    "card": "images/united-states/new-orleans--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Schloss Chenonceau.JPG": {
     "artist": "Wladyslaw (talk)",
     "license": "CC BY-SA 3.0",
@@ -9068,6 +9198,19 @@
     "context": "Sfogliatella — Naples & Pompeii, Italy",
     "hero": "images/italy/naples-pompeii--food-3.webp",
     "card": "images/italy/naples-pompeii--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Shaggy's Crawfish Boil.jpg": {
+    "artist": "Robbie Mendelson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaggy%27s_Crawfish_Boil.jpg",
+    "context": "Char-grilled oysters and a crawfish boil — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--food-5.webp",
+    "card": "images/united-states/new-orleans--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9289,6 +9432,19 @@
     "context": "The spritz — Venice, Italy",
     "hero": "images/italy/venice--food-6.webp",
     "card": "images/italy/venice--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:St Charles Avenue at Foucher with streetcar, New Orleans Sept 2022.jpg": {
+    "artist": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Charles_Avenue_at_Foucher_with_streetcar,_New_Orleans_Sept_2022.jpg",
+    "context": "The Garden District and St Charles streetcar — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-3.webp",
+    "card": "images/united-states/new-orleans--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9788,6 +9944,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:The National WWII Museum New Orleans Dec 2015.jpg": {
+    "artist": "ironypoisoning",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_National_WWII_Museum_New_Orleans_Dec_2015.jpg",
+    "context": "The National WWII Museum — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-4.webp",
+    "card": "images/united-states/new-orleans--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:The Roads to Cappadocia.jpg": {
     "artist": "Emrahuygun",
     "license": "CC BY-SA 4.0",
@@ -9926,6 +10095,19 @@
     "context": "Walk the bay with a guide — Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel--thing-2.webp",
     "card": "images/france/mont-saint-michel--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tombs at Lafayette Cemetery No 1 Garden District New Orleans 16.JPG": {
+    "artist": "MusikAnimal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tombs_at_Lafayette_Cemetery_No_1_Garden_District_New_Orleans_16.JPG",
+    "context": "The cemeteries — New Orleans, United States",
+    "hero": "images/united-states/new-orleans--attraction-6.webp",
+    "card": "images/united-states/new-orleans--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

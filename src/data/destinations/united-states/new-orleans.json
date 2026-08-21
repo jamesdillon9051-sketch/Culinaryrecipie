@@ -57,36 +57,64 @@
     },
     {
       "name": "Frenchmen Street",
+      "image": {
+        "file": "File:Frenchmen Street Gentilly New Orleans 1st April 2019 11.jpg",
+        "alt": "Music bars along Frenchmen Street"
+      },
       "text": "Three blocks in the Marigny just past the Quarter, holding the city's real live music scene: jazz, brass, funk and blues in small rooms, many with no cover charge, running from early evening until very late.",
       "tip": "Start around 20:00 and move between venues. The Palace Market art market on the street runs most evenings."
     },
     {
       "name": "The Garden District and St Charles streetcar",
+      "image": {
+        "file": "File:St Charles Avenue at Foucher with streetcar, New Orleans Sept 2022.jpg",
+        "alt": "A St Charles streetcar under the live oaks"
+      },
       "text": "Antebellum mansions under live oaks hung with Spanish moss, reached on a green streetcar that has run this route since 1835 — one of the oldest continuously operating street railways in the world. Lafayette Cemetery No. 1 sits in the middle of it.",
       "tip": "Ride the whole St Charles line to Audubon Park and walk back through the district. The fare is $1.25 and the ride takes 40 minutes."
     },
     {
       "name": "The National WWII Museum",
+      "image": {
+        "file": "File:The National WWII Museum New Orleans Dec 2015.jpg",
+        "alt": "The National WWII Museum in New Orleans"
+      },
       "text": "Consistently rated among the best museums in the United States, built here because the landing craft used on D-Day were designed and manufactured in New Orleans. Immersive, extensive and genuinely excellent.",
       "tip": "Allow four hours minimum. The Road to Berlin and Road to Tokyo galleries are the strongest parts."
     },
     {
       "name": "Tremé and Congo Square",
+      "image": {
+        "file": "File:Congo Square New Orleans.jpg",
+        "alt": "Congo Square in Tremé"
+      },
       "text": "One of the oldest African American neighbourhoods in the United States, immediately north of the Quarter. Congo Square in Louis Armstrong Park is where enslaved people gathered to drum on Sundays, and is a plausible birthplace of jazz.",
       "tip": "The Backstreet Cultural Museum documents Mardi Gras Indians and jazz funerals, and is small, personal and excellent."
     },
     {
       "name": "The cemeteries",
+      "image": {
+        "file": "File:Tombs at Lafayette Cemetery No 1 Garden District New Orleans 16.JPG",
+        "alt": "Above-ground tombs at Lafayette Cemetery No. 1"
+      },
       "text": "Above-ground tombs built because the water table is too high for burial, arranged in what look like small streets. St Louis No. 1 holds Marie Laveau's tomb and requires a licensed guide; Lafayette No. 1 in the Garden District is more accessible.",
       "tip": "St Louis No. 1 can only be entered with an authorised guide. Book through the archdiocese or a licensed tour."
     },
     {
       "name": "The Mississippi and the Algiers ferry",
+      "image": {
+        "file": "File:Crossing the Mississippi on the Algiers Ferry with a band, New Orleans 01.jpg",
+        "alt": "Crossing the Mississippi on the Algiers ferry"
+      },
       "text": "The river is 700 metres wide here and the free — or near-free — ferry to Algiers Point gives you the skyline from the water and a quiet 19th-century neighbourhood on the far bank.",
       "tip": "Far better value than the paddle-steamer cruises, and Algiers Point is a genuinely pleasant hour."
     },
     {
       "name": "The swamps and plantations",
+      "image": {
+        "file": "File:Bayou Black Swamp, Louisiana.jpg",
+        "alt": "Cypress swamp in the Louisiana bayou"
+      },
       "text": "Bayou country begins 40 minutes west, with airboat and flat-boat tours through cypress swamps. On the River Road, Whitney Plantation is a museum told from the perspective of the enslaved, and is unlike any other site of its kind.",
       "tip": "Whitney is the one plantation worth visiting and is deliberately uncomfortable. It is about an hour from the city."
     }
@@ -95,6 +123,10 @@
   "thingsToDo": [
     {
       "title": "Hear live music every night",
+      "image": {
+        "file": "File:Preservation Hall Jazz band New Orleans July 2008 trombone.jpg",
+        "alt": "A jazz band playing at Preservation Hall"
+      },
       "text": "Frenchmen Street for jazz and brass, Preservation Hall for traditional jazz in a bare room with no amplification, and neighbourhood bars in the Bywater and Tremé for the local version.",
       "tip": "Preservation Hall sells timed tickets and has no drinks, no air conditioning and mostly no seats. It is 45 minutes and worth it."
     },
@@ -129,31 +161,55 @@
   "foods": [
     {
       "name": "Gumbo",
+      "image": {
+        "file": "File:ChickenAndouilleGumboNOLA.JPG",
+        "alt": "Chicken and andouille gumbo over rice"
+      },
       "text": "A stew built on a roux cooked from blond to dark chocolate, thickened with okra or filé powder, with seafood, chicken and andouille sausage, served over rice. The single most important dish in Louisiana cooking.",
       "whereToTry": "Everywhere. Seafood gumbo in the city, chicken and sausage in the country, and every family has opinions."
     },
     {
       "name": "The po'boy",
+      "image": {
+        "file": "File:Po boy sandwich at Oak Alley Restaurant in Vacherie, Louisiana.jpg",
+        "alt": "A Louisiana po'boy on French bread"
+      },
       "text": "Fried shrimp, oysters, catfish or slow-roast beef with gravy, on light, crisp Leidenheimer French bread. Named for striking streetcar workers — 'poor boys' — who were fed free in 1929.",
       "whereToTry": "Neighbourhood po'boy shops in Uptown, Mid-City and the Bywater rather than the Quarter."
     },
     {
       "name": "Beignets",
+      "image": {
+        "file": "File:Cafe du Monde, French Market, New Orleans 22 November 2025 - Beignets.jpg",
+        "alt": "Beignets buried in icing sugar at Café du Monde"
+      },
       "text": "Square doughnuts, deep fried and buried under icing sugar, served three at a time with chicory coffee. A French colonial inheritance and the city's standard breakfast or 02:00 snack.",
       "whereToTry": "Café du Monde in the French Market, open 24 hours, and its quieter branches elsewhere in the city."
     },
     {
       "name": "Jambalaya and étouffée",
+      "image": {
+        "file": "File:Jambalaya (30750226186).jpg",
+        "alt": "Jambalaya cooked with meat and rice in one pot"
+      },
       "text": "Jambalaya is rice cooked with meat and stock in one pot, a relative of paella. Étouffée is crawfish or shrimp smothered in a butter-and-roux sauce and served over rice. Both are staples rather than specialities.",
       "whereToTry": "Creole restaurants across the city. Crawfish étouffée is best in spring when crawfish are in season."
     },
     {
       "name": "Char-grilled oysters and a crawfish boil",
+      "image": {
+        "file": "File:Shaggy's Crawfish Boil.jpg",
+        "alt": "A Louisiana crawfish boil"
+      },
       "text": "Oysters grilled in the shell with garlic butter and parmesan, and — from roughly February to May — boiled crawfish with corn, potato and heavy spice, eaten by the pound off newspaper.",
       "whereToTry": "Oyster bars year-round; crawfish boils in spring at neighbourhood joints and back-yard events."
     },
     {
       "name": "The Sazerac and chicory coffee",
+      "image": {
+        "file": "File:SazeracRooseveltNOLA1July2009.JPG",
+        "alt": "A Sazerac cocktail"
+      },
       "text": "The Sazerac — rye, bitters, sugar and an absinthe rinse — is claimed as the first American cocktail and is the official drink of the city. Chicory coffee dates to Civil War shortages and stuck.",
       "whereToTry": "Old hotel bars in the Quarter for the Sazerac; Café du Monde or any café for the chicory."
     }
