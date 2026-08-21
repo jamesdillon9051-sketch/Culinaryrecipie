@@ -58,36 +58,64 @@
     },
     {
       "name": "International African American Museum",
+      "image": {
+        "file": "File:IAAM interior CharlestonSC 2023.png",
+        "alt": "Inside the International African American Museum on Gadsden's Wharf"
+      },
       "text": "Opened in 2023 on Gadsden's Wharf, where an estimated 100,000 enslaved Africans were landed. The building is raised on pillars so that the ground itself remains untouched, and the galleries cover the transatlantic trade, resistance, and the African diaspora.",
       "tip": "Allow three hours and book ahead. The African Ancestors Memorial Garden below the building is part of the experience."
     },
     {
       "name": "Fort Sumter",
+      "image": {
+        "file": "File:FortSumter2009.jpg",
+        "alt": "Fort Sumter on its island in Charleston harbour"
+      },
       "text": "The island fort in the harbour where the American Civil War began in April 1861, reached by a 30-minute ferry from Liberty Square or Patriots Point. The boat ride gives the best view of the peninsula from the water.",
       "tip": "Ferry and fort together take about two and a half hours. Book ahead in summer — sailings sell out."
     },
     {
       "name": "The single houses and the piazzas",
+      "image": {
+        "file": "File:Joseph Verree House (c.1767), 47 Church Street, Charleston, SC (25060280473).jpg",
+        "alt": "A Charleston single house with its side piazza"
+      },
       "text": "Charleston's distinctive house form: one room wide, turned side-on to the street with a long two-storey porch — a piazza — down the flank to catch the sea breeze. The front door on the street opens onto the porch, not the house.",
       "tip": "Several house museums are open, including the Nathaniel Russell and the Aiken-Rhett. The Aiken-Rhett is preserved unrestored and includes the intact slave quarters, which makes it the more important visit."
     },
     {
       "name": "McLeod Plantation",
+      "image": {
+        "file": "File:McLeod Plantation, James Island, Charleston, SC.jpg",
+        "alt": "The main house at McLeod Plantation on James Island"
+      },
       "text": "A former sea island cotton plantation on James Island, presented from the perspective of the enslaved people who worked it rather than the family who owned it, with the original cabins standing.",
       "tip": "The best of the plantation sites near Charleston for historical honesty. Middleton Place has finer gardens; McLeod has the better history."
     },
     {
       "name": "The City Market and sweetgrass baskets",
+      "image": {
+        "file": "File:Sweetgrass Basket Maker.jpg",
+        "alt": "A sweetgrass basket maker at work"
+      },
       "text": "A market building of 1804 running four blocks, now largely craft stalls — but with Gullah artisans still coiling sweetgrass baskets using techniques brought from West Africa over three centuries ago.",
       "tip": "The baskets are expensive because they take days to make. Buying from the maker directly is the point."
     },
     {
       "name": "The beaches",
+      "image": {
+        "file": "File:Sullivans-Lighthouse.jpg",
+        "alt": "The lighthouse on Sullivan's Island"
+      },
       "text": "Sullivan's Island for quiet and a lighthouse, Folly Beach for surf and a pier, the Isle of Palms for the widest sand. All between 20 and 30 minutes from downtown by car.",
       "tip": "Sullivan's Island has no commercial development on the beach itself, which is why locals prefer it."
     },
     {
       "name": "Angel Oak and the sea islands",
+      "image": {
+        "file": "File:Angel Oak Johns Island SC horz.jpg",
+        "alt": "The Angel Oak, a live oak on Johns Island"
+      },
       "text": "A live oak on Johns Island estimated at 400 to 500 years old, with a canopy spreading 500 square metres. Beyond it, the sea islands hold Gullah communities, tidal creeks and salt marsh.",
       "tip": "Free to visit and takes twenty minutes. Combine with a boat trip into the marsh, which is where the Lowcountry landscape really is."
     }
@@ -129,16 +157,28 @@
   "foods": [
     {
       "name": "Shrimp and grits",
+      "image": {
+        "file": "File:Shrimp and grits at the Green Goddess.jpg",
+        "alt": "Shrimp over stone-ground grits"
+      },
       "text": "Local creek shrimp over stone-ground grits, with a gravy of bacon, stock and sometimes tomato. Originally a fisherman's breakfast, now the signature dish of the region and served at every level from diner to tasting menu.",
       "whereToTry": "Everywhere in Charleston. The grits should be stone-ground and slow-cooked, not instant."
     },
     {
       "name": "She-crab soup",
+      "image": {
+        "file": "File:She-Crab Soup.jpg",
+        "alt": "She-crab soup, a cream soup of blue crab"
+      },
       "text": "A cream soup of blue crab meat and roe, finished with a splash of sherry. Rich, specific to the Carolina Lowcountry, and the roe is what distinguishes it from ordinary crab bisque.",
       "whereToTry": "Traditional Charleston restaurants. Best in the cooler months when crab is at its best."
     },
     {
       "name": "Hoppin' John and Carolina Gold rice",
+      "image": {
+        "file": "File:Hoppin' John peas&rice.JPG",
+        "alt": "Hoppin' John — field peas cooked with rice"
+      },
       "text": "Field peas and rice cooked together, traditionally eaten at New Year for luck. Carolina Gold was the rice variety that made Charleston rich, nearly extinct by the 1920s and now revived by a small group of growers.",
       "whereToTry": "Restaurants focused on Lowcountry cooking. The revived Carolina Gold is sold in shops to take home."
     },
@@ -149,6 +189,10 @@
     },
     {
       "name": "Carolina barbecue",
+      "image": {
+        "file": "File:Pulled pork while pulling.JPG",
+        "alt": "Whole-hog pork being pulled for Carolina barbecue"
+      },
       "text": "Whole hog, pulled and dressed with a vinegar and pepper sauce in the eastern Carolinas, or a mustard-based sauce in the South Carolina midlands — the only region in America that uses mustard.",
       "whereToTry": "Barbecue joints outside the city centre. Mustard sauce is the local signature and worth trying."
     },
