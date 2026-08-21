@@ -53,41 +53,73 @@
   "attractions": [
     {
       "name": "The Narrows",
+      "image": {
+        "file": "File:Zion Narrows Hike 93.jpg",
+        "alt": "Walkers wading the Virgin River in the Zion Narrows"
+      },
       "text": "A 26 km slot in the Virgin River, walked upstream from the end of the Riverside Walk. Most people go as far as Wall Street, about 3 km in, where the canyon closes to ten metres wide with 300-metre walls. You are in the water for most of it.",
       "tip": "Rent neoprene socks, canyoneering boots and a walking stick from Springdale. Check the flash flood forecast — the canyon closes when the risk is high, and this is not a rule to test."
     },
     {
       "name": "Angels Landing",
+      "image": {
+        "file": "File:Angels Landing - Zion Canyon.jpg",
+        "alt": "The narrow rock fin of Angels Landing above Zion Canyon"
+      },
       "text": "A 450-metre climb ending on a narrow fin of rock with chains bolted into it and drops on both sides. Spectacular and genuinely exposed — several people have died from falls. A permit lottery now controls numbers on the final section.",
       "tip": "Permits are allocated by seasonal and day-before lotteries. If you do not have one, Observation Point via East Mesa gives a higher view with no exposure."
     },
     {
       "name": "Bryce Canyon",
+      "image": {
+        "file": "File:Bryce Canyon Amphitheater Hoodoos Panorama.jpg",
+        "alt": "The hoodoo amphitheatre at Bryce Canyon"
+      },
       "text": "Not a canyon but an eroded amphitheatre on the edge of a plateau, filled with thousands of orange rock spires called hoodoos, formed by 200 freeze-thaw cycles a year. The rim sits at 2,400–2,700 m, so it is much cooler than Zion.",
       "tip": "Walk down among the hoodoos on the Navajo Loop and Queen's Garden trail — about 5 km and the only way to grasp the scale. Sunrise Point at dawn is the classic view."
     },
     {
       "name": "Arches National Park",
+      "image": {
+        "file": "File:Delicatearch.png",
+        "alt": "Delicate Arch in Arches National Park"
+      },
       "text": "Over 2,000 natural sandstone arches in a small area near Moab, including Delicate Arch — the one on the Utah number plate — reached by a 5 km round trip over slickrock.",
       "tip": "Delicate Arch at sunset is the classic and the crowded option. Timed-entry reservations apply in peak season; check the current system before arriving."
     },
     {
       "name": "Canyonlands",
+      "image": {
+        "file": "File:View Through Mesa Arch Canyonlands NP Utah 2023.jpg",
+        "alt": "The view through Mesa Arch in Canyonlands"
+      },
       "text": "The largest Utah park, split into districts by the Green and Colorado rivers. Island in the Sky is the accessible one, a mesa with viewpoints over 300 metres of layered canyon. Mesa Arch at sunrise frames the light beneath it.",
       "tip": "Mesa Arch at dawn is heavily photographed and correspondingly busy. Grand View Point at the end of the road is emptier and arguably better."
     },
     {
       "name": "Scenic Byway 12",
+      "image": {
+        "file": "File:Utah State Route 12 110814 1.jpg",
+        "alt": "Scenic Byway 12 crossing the Utah high country"
+      },
       "text": "A 200 km road between Bryce and Capitol Reef, crossing the Grand Staircase-Escalante, climbing Boulder Mountain to 2,900 m and running along the Hogback — a ridge with sheer drops on both sides and no barrier.",
       "tip": "Allow a full day with stops. Calf Creek Falls, a 10 km round trip to a 40-metre waterfall, breaks the drive well."
     },
     {
       "name": "Capitol Reef",
+      "image": {
+        "file": "File:Waterpocket Fold from above Capitol Reef Scenic Drive.jpeg",
+        "alt": "The Waterpocket Fold in Capitol Reef"
+      },
       "text": "The quietest of the five, built around the Waterpocket Fold — a 160 km wrinkle in the earth's crust. It also holds the orchards of a Mormon settlement, where you can still pick fruit in season.",
       "tip": "The scenic drive and the Hickman Bridge trail cover it in half a day. The pie at the historic Gifford Homestead is a genuine institution."
     },
     {
       "name": "Antelope Canyon and Horseshoe Bend",
+      "image": {
+        "file": "File:USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
+        "alt": "The Colorado River curving around Horseshoe Bend"
+      },
       "text": "Just over the Arizona border at Page. A slot canyon of sculpted sandstone accessible only on Navajo-guided tours, and a 300-metre-deep meander of the Colorado a short walk from the road.",
       "tip": "Antelope Canyon cannot be visited independently. Book a Navajo-operated tour weeks ahead; midday gives the light beams in the upper canyon."
     }
@@ -111,16 +143,28 @@
     },
     {
       "title": "Watch the sky at Bryce",
+      "image": {
+        "file": "File:Bryce Canyon at Night (153100 - vir 20240609 lrg).jpg",
+        "alt": "The night sky above Bryce Canyon"
+      },
       "text": "One of the darkest skies in the country at 2,400 m with no light pollution. Rangers run astronomy programmes and the annual festival brings dozens of telescopes.",
       "tip": "Take a warm layer — it can drop below freezing at night even in June."
     },
     {
       "title": "Get onto slickrock at Moab",
+      "image": {
+        "file": "File:Slickrock-Entrance.jpg",
+        "alt": "The slickrock country outside Moab"
+      },
       "text": "Arches and Canyonlands by day, and Moab in between as one of the world's great mountain-biking and four-wheel-drive towns. The Slickrock Trail is a rite of passage for cyclists.",
       "tip": "Rafting the Colorado through the canyons is the low-effort alternative and runs from spring to autumn."
     },
     {
       "title": "Photograph at the right hour",
+      "image": {
+        "file": "File:USA Antelope-Canyon.jpg",
+        "alt": "Light falling through the slot of Antelope Canyon"
+      },
       "text": "Red sandstone is flat and pale at midday and glows in the first and last hour of light. Delicate Arch at sunset, Mesa Arch at sunrise, Bryce's hoodoos at dawn, Zion's Watchman from the bridge at dusk.",
       "tip": "The middle of the day is for driving between parks, not for looking at them."
     }
@@ -134,16 +178,28 @@
     },
     {
       "name": "The Gifford Homestead pie",
+      "image": {
+        "file": "File:Gifford Ranch in Capitol Reef NP.jpeg",
+        "alt": "The preserved Gifford homestead in Capitol Reef"
+      },
       "text": "Fruit pies baked at a preserved Mormon farmstead inside Capitol Reef, from orchards planted in the 1880s that visitors can still pick in season. Sold by the pie and usually gone by mid-morning.",
       "whereToTry": "Fruita, inside Capitol Reef National Park. Arrive early."
     },
     {
       "name": "Navajo tacos",
+      "image": {
+        "file": "File:Classic Navajo Taco in Cortez.jpg",
+        "alt": "A Navajo taco built on fry bread"
+      },
       "text": "Fry bread topped with beans, meat, cheese and salad, found across the Colorado Plateau and particularly on and around Navajo Nation towards Monument Valley.",
       "whereToTry": "Roadside stands and cafés between Moab, Monument Valley and Page."
     },
     {
       "name": "Green chile everything",
+      "image": {
+        "file": "File:Roasted Hatch chile peppers.png",
+        "alt": "Roasted Hatch green chile"
+      },
       "text": "Roasted Hatch chile in burgers, breakfast burritos and stews, spreading north from New Mexico into southern Utah. The default way to add flavour to road-trip food.",
       "whereToTry": "Diners in Moab, Springdale and Kanab. Best in autumn when the chile harvest arrives."
     },

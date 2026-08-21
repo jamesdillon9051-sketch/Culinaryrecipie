@@ -493,6 +493,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Angels Landing - Zion Canyon.jpg": {
+    "artist": "Óðinn",
+    "license": "CC BY-SA 2.5 ca",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angels_Landing_-_Zion_Canyon.jpg",
+    "context": "Angels Landing — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-2.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Angle sud de la chapelle Saint-Aubert (Le Mont-Saint-Michel, Manche, France).jpg": {
     "artist": "EdouardHue",
     "license": "CC BY-SA 3.0",
@@ -1662,6 +1675,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Bryce Canyon Amphitheater Hoodoos Panorama.jpg": {
+    "artist": "“Jon Zander(digon3)”",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_Amphitheater_Hoodoos_Panorama.jpg",
+    "context": "Bryce Canyon — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-3.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 657,
+    "cardWidth": 800,
+    "cardHeight": 328
+  },
+  "File:Bryce Canyon at Night (153100 - vir 20240609 lrg).jpg": {
+    "artist": "NASA Earth Observatory images by Michala Garrison, using VIIRS day-night band data from the Suomi National Polar-orbiting Partnership. Story by Tayler Gilmore.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_at_Night_(153100_-_vir_20240609_lrg).jpg",
+    "context": "Watch the sky at Bryce — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--thing-4.webp",
+    "card": "images/united-states/zion-southern-utah--thing-4-card.webp",
+    "heroWidth": 1435,
+    "heroHeight": 807,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Burrata di Andria 2.jpg": {
     "artist": "FM433",
@@ -3132,6 +3171,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Delicatearch.png": {
+    "artist": "National Park Service Photo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delicatearch.png",
+    "context": "Arches National Park — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-4.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-4-card.webp",
+    "heroWidth": 1496,
+    "heroHeight": 842,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Delimitacion de Madinat al-Zahra 2.jpg": {
     "artist": "Naza28",
     "license": "CC BY-SA 4.0",
@@ -4210,6 +4262,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Gifford Ranch in Capitol Reef NP.jpeg": {
+    "artist": "Picture taken by Daniel Mayer",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gifford_Ranch_in_Capitol_Reef_NP.jpeg",
+    "context": "The Gifford Homestead pie — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--food-2.webp",
+    "card": "images/united-states/zion-southern-utah--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 859,
+    "cardWidth": 800,
+    "cardHeight": 430
   },
   "File:Giudecca from the Church of San Giorgio Maggiore 002.jpg": {
     "artist": "Moonik",
@@ -9073,6 +9138,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Slickrock-Entrance.jpg": {
+    "artist": "Albert Backer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slickrock-Entrance.jpg",
+    "context": "Get onto slickrock at Moab — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--thing-5.webp",
+    "card": "images/united-states/zion-southern-utah--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
     "artist": "Kabelleger / David Gubler",
     "license": "CC BY-SA 4.0",
@@ -10334,6 +10412,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg": {
+    "artist": "Luca Galuzzi (Lucag)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_10187_Horseshoe_Bend_Luca_Galuzzi_2007.jpg",
+    "context": "Antelope Canyon and Horseshoe Bend — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-8.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:USA Antelope-Canyon.jpg": {
+    "artist": "Lucas Löffler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_Antelope-Canyon.jpg",
+    "context": "Photograph at the right hour — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--thing-6.webp",
+    "card": "images/united-states/zion-southern-utah--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Utah Beach towards the South.jpg": {
     "artist": "Jebulon",
     "license": "CC0",
@@ -10346,6 +10450,19 @@
     "heroHeight": 847,
     "cardWidth": 800,
     "cardHeight": 423
+  },
+  "File:Utah State Route 12 110814 1.jpg": {
+    "artist": "DXR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utah_State_Route_12_110814_1.jpg",
+    "context": "Scenic Byway 12 — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-6.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Uzungöl lake and town.jpg": {
     "artist": "İhsan Deniz Kılıçoğlu",
@@ -10646,6 +10763,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:View Through Mesa Arch Canyonlands NP Utah 2023.jpg": {
+    "artist": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_Through_Mesa_Arch_Canyonlands_NP_Utah_2023.jpg",
+    "context": "Canyonlands — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-5.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View west along Duomo roof, Milan.jpg": {
     "artist": "Daniel Case",
     "license": "CC BY-SA 3.0",
@@ -10841,6 +10971,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Waterpocket Fold from above Capitol Reef Scenic Drive.jpeg": {
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterpocket_Fold_from_above_Capitol_Reef_Scenic_Drive.jpeg",
+    "context": "Capitol Reef — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-7.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 672,
+    "cardWidth": 800,
+    "cardHeight": 336
+  },
   "File:Waterwheel, Isle-sur-la-Sorge.JPG": {
     "artist": "Gilderien",
     "license": "CC BY-SA 3.0",
@@ -11018,6 +11161,19 @@
     "context": "Zeytinyağlılar — Ephesus & Selçuk, Turkey",
     "hero": "images/turkey/ephesus--food-1.webp",
     "card": "images/turkey/ephesus--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Zion Narrows Hike 93.jpg": {
+    "artist": "Gillfoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zion_Narrows_Hike_93.jpg",
+    "context": "The Narrows — Zion & Southern Utah, United States",
+    "hero": "images/united-states/zion-southern-utah--attraction-1.webp",
+    "card": "images/united-states/zion-southern-utah--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
