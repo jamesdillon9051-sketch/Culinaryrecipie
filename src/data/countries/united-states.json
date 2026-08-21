@@ -33,6 +33,10 @@
   "thingsToDo": [
     {
       "title": "Take a road trip",
+      "image": {
+        "file": "File:Cruise America RV Rental - South Dakota Road Trip (34866768975).jpg",
+        "alt": "An RV on a South Dakota road trip"
+      },
       "text": "The car is the country's defining travel mode and the landscape is built around it. The Southwest's canyon loop, California's Highway 1, the Blue Ridge Parkway and the roads through [[yellowstone]] are all destinations in themselves rather than ways of reaching one.",
       "tip": "Distances are enormous. Two hundred miles a day is a pleasant drive; four hundred is a chore that eats the day."
     },
@@ -48,6 +52,10 @@
     },
     {
       "title": "See live music where it started",
+      "image": {
+        "file": "File:Preservation Hall Jazz band New Orleans July 2008 trombone.jpg",
+        "alt": "A jazz band playing at Preservation Hall in New Orleans"
+      },
       "text": "Jazz in New Orleans, blues in Chicago and the Mississippi Delta, country in Nashville, and a live scene in almost every mid-sized city. Much of it happens in small bars with no cover charge.",
       "tip": "In New Orleans, Frenchmen Street rather than Bourbon Street. In Chicago, the South and West Side clubs."
     },
@@ -58,6 +66,10 @@
     },
     {
       "title": "Go to a game",
+      "image": {
+        "file": "File:Bowman Field MLB Little League Classic 2017 panorama.jpg",
+        "alt": "A baseball game at an American ballpark"
+      },
       "text": "Baseball, American football, basketball or ice hockey. The sport matters less than the experience, which is a large and specific part of American public life — and baseball in particular is cheap and pleasantly slow.",
       "tip": "Baseball runs April to September and tickets are often under $30. It is the easiest one to walk into without prior knowledge."
     }
@@ -66,36 +78,64 @@
   "foods": [
     {
       "name": "Barbecue",
+      "image": {
+        "file": "File:Smoked Brisket with smoke ring.jpg",
+        "alt": "Smoked brisket, Texas barbecue style"
+      },
       "text": "Meat smoked slowly over wood, and fiercely regional. Texas does beef brisket with salt and pepper; the Carolinas do whole hog with vinegar; Kansas City uses sweet tomato sauce; Memphis does ribs. These are not variations, they are separate traditions.",
       "whereToTry": "Texas, the Carolinas, Memphis and Kansas City. Look for a wood pile outside and a queue at 11:00."
     },
     {
       "name": "Creole and Cajun cooking",
+      "image": {
+        "file": "File:Gumbo in the Pot.jpg",
+        "alt": "A pot of Louisiana gumbo"
+      },
       "text": "Gumbo, jambalaya, étouffée and po'boys from [[new-orleans|Louisiana]] — a fusion of French, Spanish, West African and Caribbean traditions found nowhere else. Creole is the city version, Cajun the country one.",
       "whereToTry": "New Orleans and the bayou country west of it."
     },
     {
       "name": "Lowcountry food",
+      "image": {
+        "file": "File:Shrimp and grits at the Green Goddess.jpg",
+        "alt": "Shrimp and grits, the Lowcountry staple"
+      },
       "text": "The coastal South Carolina and Georgia tradition — shrimp and grits, she-crab soup, Hoppin' John, benne wafers — shaped substantially by West African cooking brought by enslaved people who grew the region's rice.",
       "whereToTry": "[[charleston|Charleston]] and Savannah."
     },
     {
       "name": "The American breakfast",
+      "image": {
+        "file": "File:American breakfast (187066827).jpg",
+        "alt": "Pancakes, eggs and hash browns on an American breakfast plate"
+      },
       "text": "Pancakes, biscuits and gravy, hash browns, eggs any of six ways, and bottomless coffee, served in diners from 06:00. Enormous, cheap, and a genuine institution.",
       "whereToTry": "Diners everywhere. The further from a tourist district, the better it usually is."
     },
     {
       "name": "Hawaiian plate lunch and poke",
+      "image": {
+        "file": "File:L&L Hawaiian BBQ beef curry meal.JPG",
+        "alt": "A Hawaiian plate lunch of rice, macaroni salad and a protein"
+      },
       "text": "Two scoops of rice, macaroni salad and a protein — a legacy of the sugar plantations' mixed workforce. Poke is raw cubed fish with soy, sesame and onion, sold at supermarket counters.",
       "whereToTry": "[[maui|Maui]] and the rest of Hawai'i. The supermarket poke counters are genuinely excellent."
     },
     {
       "name": "New York pizza and the deli",
+      "image": {
+        "file": "File:L&B Spumoni Gardens pizza (41436).jpg",
+        "alt": "A wide slice of New York pizza"
+      },
       "text": "Wide thin slices folded to eat while walking, and Jewish delicatessen food — pastrami on rye, bagels with lox, matzo ball soup — brought by Eastern European immigrants and now definitively of the city.",
       "whereToTry": "[[new-york-city|New York]]. Slices at neighbourhood counters, not the ones on Times Square."
     },
     {
       "name": "Californian cooking",
+      "image": {
+        "file": "File:Rainbow chard for sale at the Campbell farmers market 2.jpg",
+        "alt": "Produce at a California farmers market"
+      },
       "text": "Produce-led, lighter and heavily influenced by Mexican and East Asian cooking. Also the birthplace of the American food truck revival and of the burrito as most of the world now knows it.",
       "whereToTry": "[[san-francisco|San Francisco]] and the Bay Area. The Mission district for burritos, the Ferry Building for produce."
     }
