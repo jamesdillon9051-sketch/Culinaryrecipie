@@ -53,41 +53,73 @@
   "attractions": [
     {
       "name": "National Museum of African American History and Culture",
+      "image": {
+        "file": "File:Smithsonian National African American Museum (47001076801).jpg",
+        "alt": "The bronze-latticed exterior of the National Museum of African American History and Culture"
+      },
       "text": "A bronze-latticed building on the Mall, entered by descending to the history galleries at the lowest level and working upward through slavery, Reconstruction, segregation and the civil rights movement, then up again into culture, music and sport.",
       "tip": "Free but requires a timed-entry pass, released in batches 30 days and one day ahead. Allow four hours and start at the bottom."
     },
     {
       "name": "National Air and Space Museum",
+      "image": {
+        "file": "File:Smithsonian Air and Space Planes.jpg",
+        "alt": "Aircraft hanging in the National Air and Space Museum"
+      },
       "text": "The Wright brothers' 1903 Flyer, the Apollo 11 command module Columbia, Chuck Yeager's Bell X-1 and the Spirit of St Louis, in the most visited museum in the country. A major renovation has reopened it in phases.",
       "tip": "Free with a timed-entry pass. The Udvar-Hazy annexe near Dulles holds the Space Shuttle Discovery and a Concorde, and is worth the trip if you have a car."
     },
     {
       "name": "The National Mall monuments",
+      "image": {
+        "file": "File:Lincoln Memorial east side.JPG",
+        "alt": "The Lincoln Memorial at the west end of the National Mall"
+      },
       "text": "Three kilometres from the Capitol to the Lincoln Memorial, taking in the Washington Monument, the World War II Memorial, the Vietnam Veterans Memorial wall and the reflecting pool. The Jefferson and Martin Luther King memorials sit on the Tidal Basin south of it.",
       "tip": "All are free, open 24 hours and lit at night. The night walk is quieter, cooler and considerably more affecting than the daytime version."
     },
     {
       "name": "National Gallery of Art",
+      "image": {
+        "file": "File:Washington October 2016-12.jpg",
+        "alt": "The National Gallery of Art on the National Mall"
+      },
       "text": "The only Leonardo painting in the Americas, plus Vermeer, Rembrandt, Monet and one of the strongest American collections anywhere. The East Building holds modern art in a sharp-angled Pei design.",
       "tip": "Free with no ticket required. The underground concourse between the two buildings has a moving-light installation and a decent café."
     },
     {
       "name": "The Capitol and Library of Congress",
+      "image": {
+        "file": "File:US Capitol dome Jan 2006.jpg",
+        "alt": "The dome of the United States Capitol"
+      },
       "text": "The Capitol offers free guided tours of the Rotunda and Statuary Hall, booked online. Across the road, the Library of Congress's Jefferson Building has the most beautiful interior in Washington and is free to walk into.",
       "tip": "The Library of Congress reading room is visible from a gallery. It is more impressive than anything in the Capitol and takes ten minutes."
     },
     {
       "name": "Arlington National Cemetery",
+      "image": {
+        "file": "File:Arlington National Cemetery gravestones with various \"Emblems of Belief\" on government headstones and markers - 30.jpg",
+        "alt": "Rows of headstones at Arlington National Cemetery"
+      },
       "text": "Across the Potomac in Virginia, holding over 400,000 graves including John F. Kennedy's eternal flame, with the Changing of the Guard at the Tomb of the Unknown Soldier every hour or half hour.",
       "tip": "One Metro stop from the Mall. The guard change is precise and moving; the hillside view back across the river is the best in the city."
     },
     {
       "name": "Georgetown",
+      "image": {
+        "file": "File:Key Bridge Georgetown waterfront Washington DC 2023-10-28 07-53-55.jpg",
+        "alt": "The Georgetown waterfront and Key Bridge"
+      },
       "text": "The oldest neighbourhood, predating the capital itself, with 18th-century brick houses, a canal towpath, and the waterfront. Also the city's best shopping and a good stretch of restaurants.",
       "tip": "Not on the Metro. Walk from Foggy Bottom station in about 15 minutes, or take the DC Circulator bus."
     },
     {
       "name": "U Street and the Ethiopian quarter",
+      "image": {
+        "file": "File:1536 U Street, N.W..JPG",
+        "alt": "A building on U Street in Washington"
+      },
       "text": "Once called Black Broadway, where Duke Ellington grew up and Billie Holiday played, now a strip of music venues and one of the largest Ethiopian restaurant districts outside Africa.",
       "tip": "Washington has the largest Ethiopian population in the United States and the food here is genuinely excellent."
     }
@@ -106,11 +138,19 @@
     },
     {
       "title": "Eat Ethiopian on U Street",
+      "image": {
+        "file": "File:Ethiopian fasting platter.jpg",
+        "alt": "An Ethiopian platter served on injera"
+      },
       "text": "Injera bread with spiced stews, eaten with your hands from a shared platter. Washington's Ethiopian community is the largest in the country and the food is a genuine local speciality.",
       "tip": "Order a combination platter for the table. Vegetarian versions are excellent and traditionally eaten during fasting periods."
     },
     {
       "title": "See the cherry blossom, or deliberately avoid it",
+      "image": {
+        "file": "File:Washington C D.C. Tidal Basin cherry trees.jpg",
+        "alt": "Cherry trees in blossom around the Tidal Basin"
+      },
       "text": "Around 3,800 trees, a gift from Japan in 1912, ring the Tidal Basin and flower for about ten days in late March or early April. It is genuinely beautiful and it draws about 1.5 million people.",
       "tip": "Peak bloom is forecast about ten days ahead and shifts every year. Go at 06:00 or accept the crowds."
     },
@@ -129,6 +169,10 @@
   "foods": [
     {
       "name": "Maryland blue crab",
+      "image": {
+        "file": "File:Maryland blue crabs.jpg",
+        "alt": "Steamed Maryland blue crabs"
+      },
       "text": "Steamed whole with Old Bay seasoning and eaten by hand with a mallet on paper-covered tables, or picked into crab cakes that should be almost entirely crab with minimal filler. In season roughly April to November.",
       "whereToTry": "Crab houses along the Chesapeake in Maryland, and seafood restaurants across the city."
     },
@@ -139,16 +183,28 @@
     },
     {
       "name": "The half-smoke",
+      "image": {
+        "file": "File:Ben's Chili Bowl - Chili half-smoke with chili cheese fries.jpg",
+        "alt": "A chili half-smoke at Ben's Chili Bowl"
+      },
       "text": "A coarse, half-pork half-beef smoked sausage, split, grilled and served with chilli, onions and mustard. Entirely local to Washington and unavailable anywhere else under that name.",
       "whereToTry": "Long-running U Street chilli counters, several of which have been serving it since the 1950s."
     },
     {
       "name": "Chesapeake oysters",
+      "image": {
+        "file": "File:Softshell crabs from Chesapeake Bay, and Malabar oysters from Dennis, Massachusetts - Boston, MA - 20180602 142404.jpg",
+        "alt": "Oysters and softshell crab from the Chesapeake"
+      },
       "text": "The bay produces distinctive briny oysters, nearly wiped out by overfishing and pollution and now recovering through aquaculture. Best in the colder months.",
       "whereToTry": "Oyster bars across the city and the Maine Avenue Fish Market, the oldest continuously operating fish market in the country."
     },
     {
       "name": "The Salvadoran pupusa",
+      "image": {
+        "file": "File:Pupusas olocuilta el salvador 2012.jpg",
+        "alt": "Pupusas, thick stuffed corn flatbreads"
+      },
       "text": "Thick corn flatbreads stuffed with cheese, beans or pork, griddled and served with pickled cabbage. Washington has a large Salvadoran population and pupuserías across the northern neighbourhoods.",
       "whereToTry": "Columbia Heights, Mount Pleasant and Wheaton just outside the city."
     },

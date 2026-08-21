@@ -64,6 +64,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:1536 U Street, N.W..JPG": {
+    "artist": "APK",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1536_U_Street,_N.W..JPG",
+    "context": "U Street and the Ethiopian quarter — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-8.webp",
+    "card": "images/united-states/washington-dc--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2002 Rome Roman Forum & Palatine 01.jpg": {
     "artist": "Nicholas Hartmann",
     "license": "CC BY-SA 4.0",
@@ -779,6 +792,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Arlington National Cemetery gravestones with various \"Emblems of Belief\" on government headstones and markers - 30.jpg": {
+    "artist": "John C. Hamer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arlington_National_Cemetery_gravestones_with_various_%22Emblems_of_Belief%22_on_government_headstones_and_markers_-_30.jpg",
+    "context": "Arlington National Cemetery — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-6.webp",
+    "card": "images/united-states/washington-dc--attraction-6-card.webp",
+    "heroWidth": 1536,
+    "heroHeight": 864,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Arroçbrut.jpg": {
     "artist": "Chixoy",
     "license": "CC BY-SA 3.0",
@@ -1372,6 +1398,19 @@
     "context": "The Judería — Córdoba, Spain",
     "hero": "images/spain/cordoba--attraction-2.webp",
     "card": "images/spain/cordoba--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ben's Chili Bowl - Chili half-smoke with chili cheese fries.jpg": {
+    "artist": "Nathanael Burton",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ben%27s_Chili_Bowl_-_Chili_half-smoke_with_chili_cheese_fries.jpg",
+    "context": "The half-smoke — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--food-3.webp",
+    "card": "images/united-states/washington-dc--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3821,6 +3860,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Ethiopian fasting platter.jpg": {
+    "artist": "Jbinthecity",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ethiopian_fasting_platter.jpg",
+    "context": "Eat Ethiopian on U Street — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--thing-3.webp",
+    "card": "images/united-states/washington-dc--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Exploring Varenna on Lake Como.jpg": {
     "artist": "Brad Coy",
     "license": "CC BY 2.0",
@@ -5407,6 +5459,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Key Bridge Georgetown waterfront Washington DC 2023-10-28 07-53-55.jpg": {
+    "artist": "G. Edward Johnson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Key_Bridge_Georgetown_waterfront_Washington_DC_2023-10-28_07-53-55.jpg",
+    "context": "Georgetown — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-7.webp",
+    "card": "images/united-states/washington-dc--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Kırmızı Su (Red Spring), Karahayıt, Turkey, March 2024 06.jpg": {
     "artist": "Calistemon",
     "license": "CC BY-SA 4.0",
@@ -5901,6 +5966,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Lincoln Memorial east side.JPG": {
+    "artist": "Martin Falbisoner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lincoln_Memorial_east_side.JPG",
+    "context": "The National Mall monuments — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-3.webp",
+    "card": "images/united-states/washington-dc--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 692,
+    "cardWidth": 800,
+    "cardHeight": 346
+  },
   "File:Lion Gate, Hattusa 01.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
@@ -6260,6 +6338,19 @@
     "context": "Cycle, seriously or otherwise — Mallorca, Spain",
     "hero": "images/spain/mallorca--thing-4.webp",
     "card": "images/spain/mallorca--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Maryland blue crabs.jpg": {
+    "artist": "bigbirdz",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maryland_blue_crabs.jpg",
+    "context": "Maryland blue crab — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--food-1.webp",
+    "card": "images/united-states/washington-dc--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8384,6 +8475,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Pupusas olocuilta el salvador 2012.jpg": {
+    "artist": "Ll1324",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pupusas_olocuilta_el_salvador_2012.jpg",
+    "context": "The Salvadoran pupusa — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--food-5.webp",
+    "card": "images/united-states/washington-dc--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Queso Idiazábal.jpg": {
     "artist": "Xavigivax",
     "license": "CC BY-SA 3.0",
@@ -9463,6 +9567,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Smithsonian Air and Space Planes.jpg": {
+    "artist": "David Bjorgen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smithsonian_Air_and_Space_Planes.jpg",
+    "context": "National Air and Space Museum — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-2.webp",
+    "card": "images/united-states/washington-dc--attraction-2-card.webp",
+    "heroWidth": 1200,
+    "heroHeight": 675,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Smithsonian National African American Museum (47001076801).jpg": {
+    "artist": "John Brighenti from Rockville, MD, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smithsonian_National_African_American_Museum_(47001076801).jpg",
+    "context": "National Museum of African American History and Culture — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-1.webp",
+    "card": "images/united-states/washington-dc--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:SNCF TGV Duplex Cize-Bolozon.jpg": {
     "artist": "Kabelleger / David Gubler",
     "license": "CC BY-SA 4.0",
@@ -9514,6 +9644,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Softshell crabs from Chesapeake Bay, and Malabar oysters from Dennis, Massachusetts - Boston, MA - 20180602 142404.jpg": {
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Softshell_crabs_from_Chesapeake_Bay,_and_Malabar_oysters_from_Dennis,_Massachusetts_-_Boston,_MA_-_20180602_142404.jpg",
+    "context": "Chesapeake oysters — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--food-4.webp",
+    "card": "images/united-states/washington-dc--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 661,
+    "cardWidth": 800,
+    "cardHeight": 330
   },
   "File:Sóller Tren de Sóller-4334.jpg": {
     "artist": "Isiwal",
@@ -10763,6 +10906,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:US Capitol dome Jan 2006.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Capitol_dome_Jan_2006.jpg",
+    "context": "The Capitol and Library of Congress — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-5.webp",
+    "card": "images/united-states/washington-dc--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg": {
     "artist": "Luca Galuzzi (Lucag)",
     "license": "CC BY-SA 2.5",
@@ -11317,6 +11473,32 @@
     "context": "Château de Beynac — The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat--attraction-4.webp",
     "card": "images/france/dordogne-sarlat--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Washington C D.C. Tidal Basin cherry trees.jpg": {
+    "artist": "USDA photo by Scott Bauer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_C_D.C._Tidal_Basin_cherry_trees.jpg",
+    "context": "See the cherry blossom, or deliberately avoid it — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--thing-4.webp",
+    "card": "images/united-states/washington-dc--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Washington October 2016-12.jpg": {
+    "artist": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_October_2016-12.jpg",
+    "context": "National Gallery of Art — Washington, D.C., United States",
+    "hero": "images/united-states/washington-dc--attraction-4.webp",
+    "card": "images/united-states/washington-dc--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
