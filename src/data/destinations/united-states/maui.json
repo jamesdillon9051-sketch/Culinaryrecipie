@@ -53,6 +53,10 @@
   "attractions": [
     {
       "name": "Haleakalā summit",
+      "image": {
+        "file": "File:Haleakala Crater Summit and Cinder Cones - panoramio.jpg",
+        "alt": "Cinder cones on the floor of the Haleakalā crater"
+      },
       "text": "A 3,055 m dormant volcano whose summit area is a national park of cinder cones and lava in reds, browns and blacks. The sunrise from above the clouds is the famous experience; the sunset is nearly as good and much easier to arrange.",
       "tip": "Sunrise entry requires a reservation booked 60 days ahead, with a small batch released two days out. It is 0–5°C at the top and the drive from the coast takes two hours."
     },
@@ -63,31 +67,55 @@
     },
     {
       "name": "The Pools of 'Ohe'o and Kīpahulu",
+      "image": {
+        "file": "File:Pools - Ohe'o gulch.jpg",
+        "alt": "The stepped pools of 'Ohe'o Gulch"
+      },
       "text": "Beyond Hana, in the coastal section of Haleakalā National Park, a series of pools stepping down to the sea, and the Pipiwai Trail climbing through a bamboo forest to a 120-metre waterfall.",
       "tip": "The Pipiwai Trail is 6 km round trip and the best walk on the island. Swimming in the pools is frequently closed for flash flood risk."
     },
     {
       "name": "Molokini Crater",
+      "image": {
+        "file": "File:Molokini-crater-maui.jpg",
+        "alt": "The crescent rim of Molokini crater"
+      },
       "text": "A crescent of volcanic crater rim rising from the sea 4 km off the south coast, protected as a marine reserve, with visibility that regularly exceeds 30 metres and around 250 fish species.",
       "tip": "The first boats of the morning get the calmest water and the best visibility. Afternoon trips are noticeably worse."
     },
     {
       "name": "The south shore beaches",
+      "image": {
+        "file": "File:Wailea Strand Maui, Hawaii (30800152707).jpg",
+        "alt": "The sand and clear water at Wailea"
+      },
       "text": "Wailea and Mākena on the leeward south coast, with reliable sun, calm water and good snorkelling. Big Beach at Mākena is 800 metres of sand backed by a cinder cone; Wailea's beaches are more sheltered.",
       "tip": "Turtles are common on the rocky points at either end of most south shore beaches, particularly in the late afternoon."
     },
     {
       "name": "Upcountry and Makawao",
+      "image": {
+        "file": "File:Upcountry Maui Pineapple Fields.jpg",
+        "alt": "Pineapple fields on the upcountry slopes of Haleakalā"
+      },
       "text": "The green farming slopes of Haleakalā at 500–1,200 m, with lavender and protea farms, a winery, and Makawao — a former cattle town with Hawaiian cowboy history and a good main street.",
       "tip": "Considerably cooler than the coast and almost entirely free of visitors. Worth combining with a Haleakalā trip."
     },
     {
       "name": "'Īao Valley",
+      "image": {
+        "file": "File:Iao Valley State Park Maui. (11248131064).jpg",
+        "alt": "The green ridges of 'Īao Valley"
+      },
       "text": "A steep green valley in the West Maui mountains behind Wailuku, holding the 360-metre 'Īao Needle and the site of a decisive 1790 battle in Kamehameha's unification of the islands. Historically sacred ground.",
       "tip": "Requires an advance reservation for non-residents. Short paved walks, and it rains here most days."
     },
     {
       "name": "Whale watching",
+      "image": {
+        "file": "File:Humpback Whale, Breaching off Maui Coast.jpg",
+        "alt": "A humpback whale breaching off the Maui coast"
+      },
       "text": "From December to April, several thousand humpbacks fill the Auʻau Channel between Maui, Lāna'i and Moloka'i. Boat trips run from Māʻalaea and Lahaina, and whales are frequently visible from the shore.",
       "tip": "The Pacific Whale Foundation and other research-linked operators run trips with naturalists aboard. February is the peak month."
     }
@@ -106,6 +134,10 @@
     },
     {
       "title": "Snorkel at Molokini and along the south shore",
+      "image": {
+        "file": "File:Reef fish at Midway Atoll (52410730831).jpg",
+        "alt": "Reef fish over Hawaiian coral"
+      },
       "text": "Molokini for visibility and fish, the south shore rocky points for green sea turtles. Both are excellent and the turtles are free.",
       "tip": "Take the earliest boat of the day. Reef-safe sunscreen is legally required in Hawai'i — oxybenzone and octinoxate are banned."
     },
@@ -121,6 +153,10 @@
     },
     {
       "title": "Learn something about Hawai'i",
+      "image": {
+        "file": "File:Hula dancers, Poipu, Kauai, Hawaii (4829082993).jpg",
+        "alt": "Hula dancers performing in Hawai'i"
+      },
       "text": "A hula performance that is a cultural practice rather than a dinner show, a Hawaiian cultural centre, or a guided walk that explains the history and the land. It changes the trip substantially.",
       "tip": "Ask your accommodation for Native Hawaiian-led options rather than resort entertainment."
     }
@@ -129,26 +165,46 @@
   "foods": [
     {
       "name": "Poke",
+      "image": {
+        "file": "File:Ahi tuna Poke.jpeg",
+        "alt": "Ahi tuna poke with soy and sesame"
+      },
       "text": "Raw cubed fish — usually ahi tuna — with soy, sesame oil, onion and seaweed. A traditional Hawaiian preparation that has become a global export, and the version here is fresher and cheaper than any of them.",
       "whereToTry": "Supermarket poke counters, which are genuinely excellent and cost a fraction of restaurant prices."
     },
     {
       "name": "Plate lunch",
+      "image": {
+        "file": "File:L&L Hawaiian BBQ beef curry meal.JPG",
+        "alt": "A Hawaiian plate lunch with rice and macaroni salad"
+      },
       "text": "Two scoops of rice, macaroni salad and a protein — kalua pork, chicken katsu, teriyaki beef or loco moco. A direct legacy of plantation workers sharing lunches, and the island's everyday meal.",
       "whereToTry": "Plate lunch counters and food trucks across the island. Portions are large."
     },
     {
       "name": "Kalua pig and laulau",
+      "image": {
+        "file": "File:Hawaiian-dishes-01.jpg",
+        "alt": "Kalua pig and laulau on a Hawaiian plate"
+      },
       "text": "Pork slow-cooked in an underground imu oven until it shreds, and laulau — pork and fish wrapped in taro leaves and steamed. Both are traditional Hawaiian preparations rather than fusion.",
       "whereToTry": "Hawaiian food restaurants and lūʻau. Served with poi, a taro paste that is an acquired taste."
     },
     {
       "name": "Shave ice",
+      "image": {
+        "file": "File:Hilo Ice Shave.JPG",
+        "alt": "Hawaiian shave ice with syrup"
+      },
       "text": "Ice shaved to a snow-fine texture — not crushed — soaked in fruit syrups, often over ice cream with sweetened condensed milk on top. Introduced by Japanese plantation workers.",
       "whereToTry": "Stands across the island. The texture is the difference between good and bad."
     },
     {
       "name": "Malasadas",
+      "image": {
+        "file": "File:Original Style Malassadas from Madeira.jpg",
+        "alt": "Malasadas, Portuguese doughnuts rolled in sugar"
+      },
       "text": "Portuguese doughnuts without a hole, fried and rolled in sugar, brought by Azorean plantation workers in the 1880s and now a Hawaiian institution.",
       "whereToTry": "Bakeries across the island, best eaten within minutes of frying."
     },

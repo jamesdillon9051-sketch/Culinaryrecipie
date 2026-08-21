@@ -389,6 +389,19 @@
     "cardWidth": 800,
     "cardHeight": 432
   },
+  "File:Ahi tuna Poke.jpeg": {
+    "artist": "Openmalware.exe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahi_tuna_Poke.jpeg",
+    "context": "Poke — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--food-1.webp",
+    "card": "images/united-states/maui--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
+  },
   "File:Aiguille-du-Midi-summer.jpg": {
     "artist": "Martin Janner",
     "license": "CC BY-SA 3.0",
@@ -5082,6 +5095,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Haleakala Crater Summit and Cinder Cones - panoramio.jpg": {
+    "artist": "Eric Tessmer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleakala_Crater_Summit_and_Cinder_Cones_-_panoramio.jpg",
+    "context": "Haleakalā summit — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-1.webp",
+    "card": "images/united-states/maui--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 504
+  },
   "File:Halfeti on the Euphrates.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
@@ -5147,6 +5173,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hawaiian-dishes-01.jpg": {
+    "artist": "takaokun",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hawaiian-dishes-01.jpg",
+    "context": "Kalua pig and laulau — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--food-3.webp",
+    "card": "images/united-states/maui--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Herculaneum 001.jpg": {
     "artist": "Rutger van der Maar",
     "license": "CC BY 2.0",
@@ -5194,6 +5233,19 @@
     "context": "The High Line and Chelsea — New York City, United States",
     "hero": "images/united-states/new-york-city--attraction-5.webp",
     "card": "images/united-states/new-york-city--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hilo Ice Shave.JPG": {
+    "artist": "AlaskaDave",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hilo_Ice_Shave.JPG",
+    "context": "Shave ice — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--food-4.webp",
+    "card": "images/united-states/maui--food-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5264,6 +5316,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hula dancers, Poipu, Kauai, Hawaii (4829082993).jpg": {
+    "artist": "Frank Kovalchek from Anchorage, Alaska, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hula_dancers,_Poipu,_Kauai,_Hawaii_(4829082993).jpg",
+    "context": "Learn something about Hawai'i — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--thing-6.webp",
+    "card": "images/united-states/maui--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Humpback Whale, Breaching off Maui Coast.jpg": {
+    "artist": "Jkrauska",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_Whale,_Breaching_off_Maui_Coast.jpg",
+    "context": "Whale watching — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-8.webp",
+    "card": "images/united-states/maui--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:I cipressi della Val D'Orcia.jpg": {
     "artist": "Carlo cattaneo fotografie",
     "license": "CC BY-SA 4.0",
@@ -5289,6 +5367,19 @@
     "heroHeight": 752,
     "cardWidth": 800,
     "cardHeight": 376
+  },
+  "File:Iao Valley State Park Maui. (11248131064).jpg": {
+    "artist": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iao_Valley_State_Park_Maui._(11248131064).jpg",
+    "context": "'Īao Valley — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-7.webp",
+    "card": "images/united-states/maui--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 484
   },
   "File:Ihlara Valley, Turkey.jpg": {
     "artist": "Andrada Boldis",
@@ -5623,6 +5714,19 @@
     "context": "The slice — New York City, United States",
     "hero": "images/united-states/new-york-city--food-1.webp",
     "card": "images/united-states/new-york-city--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:L&L Hawaiian BBQ beef curry meal.JPG": {
+    "artist": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%26L_Hawaiian_BBQ_beef_curry_meal.JPG",
+    "context": "Plate lunch — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--food-2.webp",
+    "card": "images/united-states/maui--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6746,6 +6850,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Molokini-crater-maui.jpg": {
+    "artist": "Bossfrog",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molokini-crater-maui.jpg",
+    "context": "Molokini Crater — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-4.webp",
+    "card": "images/united-states/maui--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 498
+  },
   "File:Monaco 02.jpg": {
     "artist": "Spike",
     "license": "CC BY-SA 4.0",
@@ -7352,6 +7469,19 @@
     "context": "La Mère Poulard's omelette — Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel--food-6.webp",
     "card": "images/france/mont-saint-michel--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Original Style Malassadas from Madeira.jpg": {
+    "artist": "Msilva4444",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Original_Style_Malassadas_from_Madeira.jpg",
+    "context": "Malasadas — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--food-5.webp",
+    "card": "images/united-states/maui--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8384,6 +8514,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:Pools - Ohe'o gulch.jpg": {
+    "artist": "Didier B (Sam67fr)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pools_-_Ohe%27o_gulch.jpg",
+    "context": "The Pools of 'Ohe'o and Kīpahulu — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-3.webp",
+    "card": "images/united-states/maui--attraction-3-card.webp",
+    "heroWidth": 1280,
+    "heroHeight": 720,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Portovenere - Chiesa di San Pietro.jpg": {
     "artist": "Jessyangeli90",
     "license": "CC BY-SA 4.0",
@@ -8760,6 +8903,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Reef fish at Midway Atoll (52410730831).jpg": {
+    "artist": "USFWS Pacific",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reef_fish_at_Midway_Atoll_(52410730831).jpg",
+    "context": "Snorkel at Molokini and along the south shore — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--thing-3.webp",
+    "card": "images/united-states/maui--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Refuge du Col de Balme from col du balme.jpg": {
     "artist": "Victoria Lunyak",
@@ -10984,6 +11140,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Upcountry Maui Pineapple Fields.jpg": {
+    "artist": "Angelstreetorchids",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Upcountry_Maui_Pineapple_Fields.jpg",
+    "context": "Upcountry and Makawao — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-6.webp",
+    "card": "images/united-states/maui--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Upper Duden Falls.jpg": {
     "artist": "Saffron Blaze",
     "license": "CC BY-SA 3.0",
@@ -11616,6 +11785,19 @@
     "context": "Château de Beynac — The Dordogne & Sarlat, France",
     "hero": "images/france/dordogne-sarlat--attraction-4.webp",
     "card": "images/france/dordogne-sarlat--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Wailea Strand Maui, Hawaii (30800152707).jpg": {
+    "artist": "dronepicr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wailea_Strand_Maui,_Hawaii_(30800152707).jpg",
+    "context": "The south shore beaches — Maui, Hawai'i, United States",
+    "hero": "images/united-states/maui--attraction-5.webp",
+    "card": "images/united-states/maui--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
