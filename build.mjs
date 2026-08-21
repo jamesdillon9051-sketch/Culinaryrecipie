@@ -133,6 +133,11 @@ async function main() {
   await cp(path.join(ROOT, 'src/assets/css/site.css'), path.join(OUT, 'assets/site.css'));
   await cp(path.join(ROOT, 'src/assets/js/site.js'), path.join(OUT, 'assets/site.js'));
 
+  const FONT_SRC = path.join(ROOT, 'src/assets/fonts');
+  if (existsSync(FONT_SRC)) {
+    await cp(FONT_SRC, path.join(OUT, 'assets/fonts'), { recursive: true });
+  }
+
   if (existsSync(IMAGE_SRC)) {
     await cp(IMAGE_SRC, path.join(OUT, 'images'), { recursive: true });
     await rm(path.join(OUT, 'images', 'credits.json'), { force: true });
