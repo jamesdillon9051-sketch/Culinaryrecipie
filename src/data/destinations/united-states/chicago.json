@@ -57,36 +57,64 @@
     },
     {
       "name": "The Art Institute of Chicago",
+      "image": {
+        "file": "File:Art Institute of Chicago Building, Chicago, Illinois (11004251406).jpg",
+        "alt": "The lion-flanked entrance of the Art Institute of Chicago"
+      },
       "text": "Two million square feet of galleries holding Seurat's A Sunday on La Grande Jatte, Hopper's Nighthawks, Grant Wood's American Gothic, and one of the great Impressionist collections outside France. The Thorne Miniature Rooms are an unexpected delight.",
       "tip": "Enter through the Modern Wing on Monroe Street rather than the lion entrance — it is quieter and better organised."
     },
     {
       "name": "Millennium Park and Cloud Gate",
+      "image": {
+        "file": "File:Jay Pritzker Pavilion, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 08.jpg",
+        "alt": "Frank Gehry's Jay Pritzker Pavilion in Millennium Park"
+      },
       "text": "A park built over a railway yard, holding Anish Kapoor's mirrored Cloud Gate — universally called the Bean — Frank Gehry's Pritzker Pavilion, and the Crown Fountain's video faces that spout water at children in summer.",
       "tip": "The Bean at dawn, with the skyline reflected and nobody in the frame, is worth the early start."
     },
     {
       "name": "The Loop's skyscrapers",
+      "image": {
+        "file": "File:20090524 Buildings along Chicago River line the south border of the Near North Side and Streeterville and the north border of Chicago Loop, Lakeshore East and Illinois Center.jpg",
+        "alt": "Towers lining the Chicago River in the Loop"
+      },
       "text": "The Rookery with Frank Lloyd Wright's light court, the Monadnock's load-bearing brick walls, the Chicago Board of Trade, and Mies van der Rohe's Federal Center. Most are free to walk into the lobbies.",
       "tip": "The Chicago Architecture Center runs excellent walking tours of the Loop. The Rookery lobby alone is worth ten minutes."
     },
     {
       "name": "The lakefront trail and beaches",
+      "image": {
+        "file": "File:Chicago in 2022 Lakefront Trail by Oak Street Beach and Lake Michigan (52054928480).jpg",
+        "alt": "The lakefront trail beside Oak Street Beach"
+      },
       "text": "Forty-two kilometres of path along Lake Michigan from the far north to the far south side, passing Oak Street and North Avenue beaches, Navy Pier and the Museum Campus.",
       "tip": "The stretch from the Museum Campus north to Lincoln Park is the classic ride, with the skyline on one side and the lake on the other."
     },
     {
       "name": "The Museum Campus",
+      "image": {
+        "file": "File:Field Museum of Natural History.jpg",
+        "alt": "The Field Museum on Chicago's Museum Campus"
+      },
       "text": "The Field Museum of natural history with Sue the Tyrannosaurus, the Shedd Aquarium and the Adler Planetarium, on a lakefront peninsula south of the Loop. The view of the skyline from the Adler's point is the best in the city.",
       "tip": "Walk out to the Adler even if you skip the planetarium. The skyline view from there is the classic Chicago photograph."
     },
     {
       "name": "Oak Park and Frank Lloyd Wright",
+      "image": {
+        "file": "File:Frank Lloyd Wright Home and Studio (west side zoom).JPG",
+        "alt": "Frank Lloyd Wright's Home and Studio in Oak Park"
+      },
       "text": "Half an hour west on the Green Line, holding Wright's own home and studio plus 25 buildings from his Prairie School years, the largest concentration of his work anywhere.",
       "tip": "The home and studio tour is the essential one and sells out. The Unity Temple nearby is his masterpiece of the period."
     },
     {
       "name": "Wicker Park, Pilsen and the neighbourhoods",
+      "image": {
+        "file": "File:We-Are-A-Nation-Of-Immigrants-Mural-Pilsen-Chicago-September-2014.jpg",
+        "alt": "A mural in the Pilsen neighbourhood"
+      },
       "text": "Wicker Park and Logan Square for bars and restaurants, Pilsen for Mexican food and murals, Chinatown for one of the largest in the country, Hyde Park for the university and Obama's old neighbourhood.",
       "tip": "Pilsen's 16th Street murals and the National Museum of Mexican Art, which is free, are both underrated."
     }
@@ -115,11 +143,19 @@
     },
     {
       "title": "Ride the L around the Loop",
+      "image": {
+        "file": "File:CTA Loop Junction Detail.jpg",
+        "alt": "The elevated L tracks curving through the Loop"
+      },
       "text": "The elevated railway that gives the downtown its name runs on tracks above the street, through the middle of the buildings. The Brown or Pink line circuit costs one fare and is a genuine sightseeing ride.",
       "tip": "Sit at the front of the first carriage. The stretch around the northeast corner of the Loop is the best."
     },
     {
       "title": "Go up something tall",
+      "image": {
+        "file": "File:Willis Tower - Skydeck Chicago.jpg",
+        "alt": "A glass ledge projecting from the Willis Tower Skydeck"
+      },
       "text": "Willis Tower's Skydeck has glass boxes projecting from the 103rd floor; 360 Chicago at the John Hancock has a tilting window and, crucially, a view that includes the Willis Tower.",
       "tip": "360 Chicago has the better view because Willis is in it. The Signature Lounge one floor up charges nothing but the price of a drink."
     }
@@ -128,26 +164,46 @@
   "foods": [
     {
       "name": "Italian beef",
+      "image": {
+        "file": "File:Buona Chicago's Original Italian Beef.jpg",
+        "alt": "A Chicago Italian beef sandwich"
+      },
       "text": "Thin-sliced slow-roasted beef in seasoned gravy on a French roll, with sweet peppers or spicy pickled giardiniera. Ordered 'dipped' means the whole roll goes into the gravy. This, not deep-dish, is the genuine Chicago sandwich.",
       "whereToTry": "Beef stands across the city, most of them counter-service and unglamorous. Ask for it dipped and hot."
     },
     {
       "name": "Deep-dish and tavern-style pizza",
+      "image": {
+        "file": "File:Deep Dish Pizza PD.jpg",
+        "alt": "A slice of Chicago deep-dish pizza"
+      },
       "text": "Deep-dish is a buttery high-sided crust filled with cheese, toppings and chunky tomato on top, baked for 45 minutes. Tavern-style is thin, crisp and cut into squares — and is what Chicagoans actually order.",
       "whereToTry": "Deep-dish downtown; tavern-style at neighbourhood bars across the North and Southwest sides."
     },
     {
       "name": "The Chicago hot dog",
+      "image": {
+        "file": "File:Chicago-style hot dog 2.jpg",
+        "alt": "A Chicago hot dog in a poppy-seed bun"
+      },
       "text": "An all-beef frankfurter in a poppy-seed bun with mustard, onion, relish, tomato, a pickle spear, sport peppers and celery salt. Never ketchup — the prohibition is genuine and enforced socially.",
       "whereToTry": "Hot dog stands everywhere. Ask for it 'dragged through the garden' for all the toppings."
     },
     {
       "name": "Mexican food in Pilsen and Little Village",
+      "image": {
+        "file": "File:Al pastor tacos (34965815632).jpg",
+        "alt": "Tacos al pastor"
+      },
       "text": "Chicago has one of the largest Mexican populations in the United States, and the taquerías, bakeries and torta shops of Pilsen and Little Village are the everyday result.",
       "whereToTry": "18th Street in Pilsen and 26th Street in Little Village. Birria and al pastor are the specialities."
     },
     {
       "name": "Polish and Eastern European food",
+      "image": {
+        "file": "File:Polish pierogi in a dish.jpg",
+        "alt": "A dish of Polish pierogi"
+      },
       "text": "Chicago has the largest Polish population outside Poland, and pierogi, kielbasa and Polish bakeries are a genuine part of the city's food landscape, mostly on the northwest side.",
       "whereToTry": "Avondale, Jefferson Park and Archer Heights. Milk bars and delis rather than restaurants."
     },
