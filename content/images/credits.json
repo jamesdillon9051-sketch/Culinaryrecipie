@@ -948,6 +948,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bacon Kale Breakfast Burrito (8429773809).jpg": {
+    "artist": "Cajsa Lilliehook from Portland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacon_Kale_Breakfast_Burrito_(8429773809).jpg",
+    "context": "The road-trip breakfast burrito — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--food-4.webp",
+    "card": "images/united-states/grand-canyon--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 525
+  },
   "File:Baeckeoffe 01.JPG": {
     "artist": "Arnaud 25",
     "license": "CC BY-SA 4.0",
@@ -2547,6 +2560,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Classic Navajo Taco in Cortez.jpg": {
+    "artist": "Alan Levine",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classic_Navajo_Taco_in_Cortez.jpg",
+    "context": "Navajo tacos — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--food-2.webp",
+    "card": "images/united-states/grand-canyon--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cleopatra Antique pool (15688240214).jpg": {
     "artist": "shankar s. from Dubai, united arab emirates",
     "license": "CC BY 2.0",
@@ -3322,6 +3348,19 @@
     "context": "Corniglia — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--attraction-3.webp",
     "card": "images/italy/cinque-terre--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Editing File-El Tovar Hotel inside staircase.JPG": {
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Editing_File-El_Tovar_Hotel_inside_staircase.JPG",
+    "context": "The El Tovar dining room — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--food-1.webp",
+    "card": "images/united-states/grand-canyon--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4406,6 +4445,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Grand Canyon - North Rim Lodge 03.jpg": {
+    "artist": "P. Hughes",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_-_North_Rim_Lodge_03.jpg",
+    "context": "The North Rim — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-6.webp",
+    "card": "images/united-states/grand-canyon--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:Grand Canyon (Arizona, USA), Luftaufnahme -- 2012 -- 6009.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_(Arizona,_USA),_Luftaufnahme_--_2012_--_6009.jpg",
+    "context": "See it from the air, or from the water — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--thing-5.webp",
+    "card": "images/united-states/grand-canyon--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Grand Canyon Lodge North Rim Night Sky 9477.jpg": {
+    "artist": "ImagePerson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Lodge_North_Rim_Night_Sky_9477.jpg",
+    "context": "Watch the sky after dark — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--thing-3.webp",
+    "card": "images/united-states/grand-canyon--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Grand Canyon South Rim at Sunset.jpg": {
     "artist": "Mgimelfarb",
     "license": "CC0",
@@ -4678,6 +4756,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Hermit's Rest.jpg": {
+    "artist": "NPS Photo by Michael Quinn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hermit%27s_Rest.jpg",
+    "context": "Hermit Road viewpoints — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-5.webp",
+    "card": "images/united-states/grand-canyon--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Hierapolis Archaeology Museum, Turkey (31595600163).jpg": {
     "artist": "Carole Raddato from FRANKFURT, Germany",
@@ -5276,6 +5367,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Le Grand Canyon 2016 Desert View Watchtower (6).JPG": {
+    "artist": "© Pierre André",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Grand_Canyon_2016_Desert_View_Watchtower_(6).JPG",
+    "context": "Desert View and the Watchtower — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-4.webp",
+    "card": "images/united-states/grand-canyon--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Le Mont-Saint-Michel France Salt-Meadow-Sheeps-02.jpg": {
     "artist": "CEphoto, Uwe Aranas",
@@ -6577,6 +6681,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:New havasu falls.JPG": {
+    "artist": "Gonzo fan2007",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_havasu_falls.JPG",
+    "context": "Havasu Falls — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-8.webp",
+    "card": "images/united-states/grand-canyon--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:New Orleans, Louisiana April 2024 - French Quarter balconies and crowds.jpg": {
     "artist": "rboed*",
     "license": "CC BY 2.0",
@@ -7747,6 +7864,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Prickly pears.jpg": {
+    "artist": "Tomás Castelazo",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prickly_pears.jpg",
+    "context": "Prickly pear — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--food-6.webp",
+    "card": "images/united-states/grand-canyon--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Promenade des Anglais (Nice), France.jpg": {
     "artist": "Uhooep",
     "license": "CC BY-SA 4.0",
@@ -7861,6 +7991,19 @@
     "card": "images/france/chamonix-mont-blanc--food-3-card.webp",
     "heroWidth": 1365,
     "heroHeight": 768,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Rafting the Colorado River. Grand Canyon National Park, Arizona (26383483155).jpg": {
+    "artist": "Paxson Woelber",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rafting_the_Colorado_River._Grand_Canyon_National_Park,_Arizona_(26383483155).jpg",
+    "context": "Rafting the Colorado — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-7.webp",
+    "card": "images/united-states/grand-canyon--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -8136,6 +8279,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Roasted Hatch chile peppers.png": {
+    "artist": "Steveprutz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roasted_Hatch_chile_peppers.png",
+    "context": "Southwestern green chile — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--food-3.webp",
+    "card": "images/united-states/grand-canyon--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Rocamadour fromage.jpg": {
     "artist": "Thomon",
@@ -8912,6 +9068,19 @@
     "context": "Sourdough bread — San Francisco & the California Coast, United States",
     "hero": "images/united-states/san-francisco--food-2.webp",
     "card": "images/united-states/san-francisco--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:South Kaibab Trail October 2004.jpg": {
+    "artist": "Notary137 at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Kaibab_Trail_October_2004.jpg",
+    "context": "South Kaibab Trail — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-3.webp",
+    "card": "images/united-states/grand-canyon--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9757,6 +9926,19 @@
     "context": "Walk between the villages — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--thing-1.webp",
     "card": "images/italy/cinque-terre--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Trail Crew Working on Bright Angel Point Trail - 54551877455.jpg": {
+    "artist": "Grand Canyon Conservancy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trail_Crew_Working_on_Bright_Angel_Point_Trail_-_54551877455.jpg",
+    "context": "Bright Angel Trail — Grand Canyon National Park, United States",
+    "hero": "images/united-states/grand-canyon--attraction-2.webp",
+    "card": "images/united-states/grand-canyon--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

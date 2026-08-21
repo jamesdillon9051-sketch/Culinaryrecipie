@@ -58,36 +58,64 @@
     },
     {
       "name": "Bright Angel Trail",
+      "image": {
+        "file": "File:Trail Crew Working on Bright Angel Point Trail - 54551877455.jpg",
+        "alt": "Work on the Bright Angel trail below the rim"
+      },
       "text": "The main maintained route into the canyon, switchbacking down from the village with rest houses at 2.4 and 4.8 km and water in season. The 4.8 km rest house makes an excellent turnaround for a half-day.",
       "tip": "Descending is deceptively easy. Allow twice as long for the climb back, and turn around when you have used a third of your water."
     },
     {
       "name": "South Kaibab Trail",
+      "image": {
+        "file": "File:South Kaibab Trail October 2004.jpg",
+        "alt": "The exposed ridgeline of the South Kaibab Trail"
+      },
       "text": "Steeper and more exposed than Bright Angel, following a ridge rather than a side canyon, which gives it far better views. Ooh Aah Point at 1.4 km and Cedar Ridge at 2.4 km are the standard turnarounds.",
       "tip": "No water anywhere on this trail and almost no shade. Carry everything you need and do it early."
     },
     {
       "name": "Desert View and the Watchtower",
+      "image": {
+        "file": "File:Le Grand Canyon 2016 Desert View Watchtower (6).JPG",
+        "alt": "The Desert View Watchtower at the eastern end of the South Rim"
+      },
       "text": "At the eastern end of the South Rim, 40 km from the village, with a view of the Colorado making its great bend and the Painted Desert beyond. The 1932 Watchtower was designed by Mary Colter with Hopi mural interiors.",
       "tip": "The eastern viewpoints are reached by car, not shuttle, and are dramatically less crowded than the village area."
     },
     {
       "name": "Hermit Road viewpoints",
+      "image": {
+        "file": "File:Hermit's Rest.jpg",
+        "alt": "The stone building at Hermits Rest on the western rim drive"
+      },
       "text": "The western drive from the village to Hermits Rest, closed to private cars from March to November and served by free shuttle. Hopi, Mohave and Pima points are the standouts, and Hopi is the classic sunset viewpoint.",
       "tip": "Ride the shuttle out to Hermits Rest and walk back along the Rim Trail between two or three stops."
     },
     {
       "name": "The North Rim",
+      "image": {
+        "file": "File:Grand Canyon - North Rim Lodge 03.jpg",
+        "alt": "The Grand Canyon Lodge on the forested North Rim"
+      },
       "text": "Three hundred metres higher, forested with ponderosa and aspen, and receiving a fraction of the visitors. Bright Angel Point and Cape Royal give a completely different perspective across the canyon.",
       "tip": "Open mid-May to mid-October only, and 350 km by road from the South Rim — about 4h30. Plan it as a separate destination."
     },
     {
       "name": "Rafting the Colorado",
+      "image": {
+        "file": "File:Rafting the Colorado River. Grand Canyon National Park, Arizona (26383483155).jpg",
+        "alt": "A raft on the Colorado River in the inner canyon"
+      },
       "text": "Full trips run 3 to 18 days through the inner canyon and are the definitive way to experience it, booked a year or more ahead. Smooth-water half-day trips from Page are a much easier alternative.",
       "tip": "Commercial multi-day trips sell out roughly a year in advance. The Glen Canyon float from Page needs no whitewater experience."
     },
     {
       "name": "Havasu Falls",
+      "image": {
+        "file": "File:New havasu falls.JPG",
+        "alt": "The blue-green travertine pools of Havasu Falls"
+      },
       "text": "Blue-green travertine waterfalls on Havasupai tribal land within the wider canyon, reached by a 16 km hike. Permits are separate from the national park and sell out within minutes each February.",
       "tip": "Not part of Grand Canyon National Park and not doable as a day trip — permits require an overnight stay."
     }
@@ -106,6 +134,10 @@
     },
     {
       "title": "Watch the sky after dark",
+      "image": {
+        "file": "File:Grand Canyon Lodge North Rim Night Sky 9477.jpg",
+        "alt": "The night sky over the Grand Canyon's North Rim"
+      },
       "text": "The park is a certified International Dark Sky Park. On a moonless night the Milky Way is bright enough to cast a faint shadow, and rangers run astronomy programmes through the summer.",
       "tip": "The annual Star Party in June brings dozens of telescopes to both rims. Free to attend."
     },
@@ -116,6 +148,10 @@
     },
     {
       "title": "See it from the air, or from the water",
+      "image": {
+        "file": "File:Grand Canyon (Arizona, USA), Luftaufnahme -- 2012 -- 6009.jpg",
+        "alt": "The canyon seen from the air"
+      },
       "text": "Helicopter and small-plane flights leave from Tusayan and Las Vegas. On the water, half-day smooth float trips run from Page below the Glen Canyon Dam.",
       "tip": "Flights are noisy, expensive and restricted in where they can go. Many visitors find the rim and a hike more rewarding for the money."
     },
@@ -129,21 +165,37 @@
   "foods": [
     {
       "name": "The El Tovar dining room",
+      "image": {
+        "file": "File:Editing File-El Tovar Hotel inside staircase.JPG",
+        "alt": "The interior of the El Tovar lodge on the rim"
+      },
       "text": "The 1905 lodge on the rim has the park's only proper restaurant, in a dark timber dining room with canyon views. Reasonable American cooking in a genuinely historic setting.",
       "whereToTry": "El Tovar Hotel, South Rim. Dinner reservations are essential and open 30 days ahead."
     },
     {
       "name": "Navajo tacos",
+      "image": {
+        "file": "File:Classic Navajo Taco in Cortez.jpg",
+        "alt": "A Navajo taco built on fry bread"
+      },
       "text": "Fry bread topped with beans, ground beef, cheese, lettuce and tomato — a Native American dish found across the Southwest and served at Desert View and on Navajo Nation to the east.",
       "whereToTry": "The Desert View marketplace and roadside stands throughout Navajo Nation towards Monument Valley."
     },
     {
       "name": "Southwestern green chile",
+      "image": {
+        "file": "File:Roasted Hatch chile peppers.png",
+        "alt": "Roasted Hatch green chile"
+      },
       "text": "Roasted Hatch green chile in stews, on burgers and in breakfast burritos — the defining flavour of Arizona and New Mexico cooking, and available at almost every diner in the region.",
       "whereToTry": "Diners in Flagstaff, Williams and Tusayan. Best in autumn when the chile harvest comes in."
     },
     {
       "name": "The road-trip breakfast burrito",
+      "image": {
+        "file": "File:Bacon Kale Breakfast Burrito (8429773809).jpg",
+        "alt": "A breakfast burrito wrapped in a flour tortilla"
+      },
       "text": "Eggs, potato, cheese and green chile wrapped in a flour tortilla, sold everywhere from petrol stations to diners, and the practical fuel for a pre-dawn drive to a viewpoint.",
       "whereToTry": "Anywhere between Flagstaff and the park gate. Buy two and take one for the trail."
     },
@@ -154,6 +206,10 @@
     },
     {
       "name": "Prickly pear",
+      "image": {
+        "file": "File:Prickly pears.jpg",
+        "alt": "Magenta prickly pear fruit on the cactus"
+      },
       "text": "The fruit of the desert cactus, magenta and faintly melon-like, turned into syrup, lemonade, margaritas and ice cream throughout Arizona.",
       "whereToTry": "Gift shops and cafés across the Southwest. The lemonade is genuinely good on a hot rim walk."
     }
