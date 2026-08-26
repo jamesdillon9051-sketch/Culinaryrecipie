@@ -103,6 +103,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:120-122 Brick Lane Preem & Prithi.jpg": {
+    "artist": "Bernt Rostad",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:120-122_Brick_Lane_Preem_%26_Prithi.jpg",
+    "context": "Curry on Brick Lane — London, United Kingdom",
+    "hero": "images/united-kingdom/london--food-4.webp",
+    "card": "images/united-kingdom/london--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:139 Châteauneuf-du-Pape vineyard.jpg": {
     "artist": "Jarrod Doll",
     "license": "CC BY 2.0",
@@ -1975,6 +1988,19 @@
     "cardWidth": 800,
     "cardHeight": 497
   },
+  "File:Borough Market (4701274756).jpg": {
+    "artist": "Jeremy Keith from Brighton &amp; Hove, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borough_Market_(4701274756).jpg",
+    "context": "Eat your way through Borough Market — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-2.webp",
+    "card": "images/united-kingdom/london--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bosphorus, Istanbul (P1100258).jpg": {
     "artist": "Matti Blume",
     "license": "CC BY-SA 4.0",
@@ -2118,6 +2144,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:British Museum Great Court, London, UK - Diliff.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_Museum_Great_Court,_London,_UK_-_Diliff.jpg",
+    "context": "The British Museum — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-1.webp",
+    "card": "images/united-kingdom/london--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bryce Canyon Amphitheater Hoodoos Panorama.jpg": {
     "artist": "“Jon Zander(digon3)”",
     "license": "CC BY-SA 3.0",
@@ -2143,6 +2182,19 @@
     "heroHeight": 807,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Buckingham Palace, London - April 2009.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_London_-_April_2009.jpg",
+    "context": "Buckingham Palace — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-4.webp",
+    "card": "images/united-kingdom/london--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 524
   },
   "File:Buona Chicago's Original Italian Beef.jpg": {
     "artist": "The Buona Companies",
@@ -6135,6 +6187,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Houses of Parliament, Big Ben Clock Tower, River Thames & Westminster Bridge (8649140544).jpg": {
+    "artist": "Mikey from Wythenshawe, Manchester, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament,_Big_Ben_Clock_Tower,_River_Thames_%26_Westminster_Bridge_(8649140544).jpg",
+    "context": "London, United Kingdom",
+    "hero": "images/united-kingdom/london.webp",
+    "card": "images/united-kingdom/london-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:HSBC building in the Bund, Shanghai.jpg": {
     "artist": "Simon Wade",
     "license": "CC BY-SA 4.0",
@@ -7357,6 +7422,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:London , Camden - Camden Town Market - geograph.org.uk - 2046769.jpg": {
+    "artist": "Lewis Clarke",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_,_Camden_-_Camden_Town_Market_-_geograph.org.uk_-_2046769.jpg",
+    "context": "Explore beyond Zone 1 — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-6.webp",
+    "card": "images/united-kingdom/london--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:London Hyde Park riders-20130715-RM-130028.jpg": {
+    "artist": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Hyde_Park_riders-20130715-RM-130028.jpg",
+    "context": "Walk a royal park — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-3.webp",
+    "card": "images/united-kingdom/london--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:London Underground platforms at Whitechapel station, August 2021 01.jpg": {
+    "artist": "TheFrog001",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Underground_platforms_at_Whitechapel_station,_August_2021_01.jpg",
+    "context": "Ride the Underground like a local — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-4.webp",
+    "card": "images/united-kingdom/london--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Lonja de la Seda, Valencia, España, 2014-06-29, DD 22.JPG": {
     "artist": "Diego Delso",
     "license": "CC BY-SA 3.0",
@@ -8423,6 +8527,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:Natural History Museum HDR.jpg": {
+    "artist": "Mdbeckwith",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_HDR.jpg",
+    "context": "The Natural History Museum and Science Museum — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-7.webp",
+    "card": "images/united-kingdom/london--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Neapolitan pizza.jpg": {
     "artist": "Stevemconst61",
     "license": "Public domain",
@@ -9320,6 +9437,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Piccadilly Circus by night January 2014.JPG": {
+    "artist": "Billy Hicks",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piccadilly_Circus_by_night_January_2014.JPG",
+    "context": "See a West End show — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-1.webp",
+    "card": "images/united-kingdom/london--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pici all'aglione.jpg": {
     "artist": "Superchilum",
     "license": "CC BY-SA 4.0",
@@ -9601,6 +9731,19 @@
     "context": "Seville Cathedral and the Giralda — Seville, Spain",
     "hero": "images/spain/seville--attraction-2.webp",
     "card": "images/spain/seville--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Pleasure boats on the River Thames - geograph.org.uk - 2066197.jpg": {
+    "artist": "Jim Osley",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pleasure_boats_on_the_River_Thames_-_geograph.org.uk_-_2066197.jpg",
+    "context": "See the city from the river — London, United Kingdom",
+    "hero": "images/united-kingdom/london--thing-5.webp",
+    "card": "images/united-kingdom/london--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -11153,6 +11296,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Shakespeare's Globe Theatre, London - 2024-08-13.jpg": {
+    "artist": "Till Westermayer",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare%27s_Globe_Theatre,_London_-_2024-08-13.jpg",
+    "context": "Shakespeare's Globe — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-8.webp",
+    "card": "images/united-kingdom/london--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Shanghai hairy crab (4178989634).jpg": {
     "artist": "Kentaro Iemoto from Tokyo, Japan",
     "license": "CC BY-SA 2.0",
@@ -12570,6 +12726,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Tower of London viewed from the River Thames.jpg": {
+    "artist": "Bob Collowan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_of_London_viewed_from_the_River_Thames.jpg",
+    "context": "The Tower of London — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-2.webp",
+    "card": "images/united-kingdom/london--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 502
+  },
   "File:Town hall of Riquewihr (3).jpg": {
     "artist": "Krzysztof Golik",
     "license": "CC BY-SA 4.0",
@@ -12608,6 +12777,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 531
+  },
+  "File:Trafalgar Square, London 2 - Jun 2009.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trafalgar_Square,_London_2_-_Jun_2009.jpg",
+    "context": "The National Gallery — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-6.webp",
+    "card": "images/united-kingdom/london--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Traghetto San Tomà Venice.JPG": {
     "artist": "Abxbay",
@@ -13324,6 +13506,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:View of the Tate Modern from the South Bank ^6 - geograph.org.uk - 5515407.jpg": {
+    "artist": "Robert Lamb",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Tate_Modern_from_the_South_Bank_%5E6_-_geograph.org.uk_-_5515407.jpg",
+    "context": "The Tate Modern and the South Bank — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-5.webp",
+    "card": "images/united-kingdom/london--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View of valley from Hiking Trail near Chamonix, France - panoramio.jpg": {
     "artist": "CCXKnight",
     "license": "CC BY-SA 3.0",
@@ -13631,6 +13826,19 @@
     "context": "Chicago, United States",
     "hero": "images/united-states/chicago.webp",
     "card": "images/united-states/chicago-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Westminster Abbey - 02.jpg": {
+    "artist": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey_-_02.jpg",
+    "context": "Westminster Abbey and the Houses of Parliament — London, United Kingdom",
+    "hero": "images/united-kingdom/london--attraction-3.webp",
+    "card": "images/united-kingdom/london--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
