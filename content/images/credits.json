@@ -350,6 +350,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2013.10.01.103712 Great Wine Barrel Castle Heidelberg.jpg": {
+    "artist": "Hermann Luyken",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013.10.01.103712_Great_Wine_Barrel_Castle_Heidelberg.jpg",
+    "context": "Tour the castle and see the Great Tun — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-1.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:20140807 Ostia Antica 2189.jpg": {
     "artist": "Jakub Hałun",
     "license": "CC BY-SA 4.0",
@@ -518,6 +531,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:20230315 Heiliggeistkirche Heidelberg 01.jpg": {
+    "artist": "Flocci Nivis",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230315_Heiliggeistkirche_Heidelberg_01.jpg",
+    "context": "The Church of the Holy Spirit — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--attraction-6.webp",
+    "card": "images/germany/heidelberg-neckar-valley--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:20230410 Deutsches Museum 02.jpg": {
     "artist": "Flocci Nivis",
@@ -1662,6 +1688,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 525
+  },
+  "File:Bad Wimpfen - 027 - Panorama 4.jpg": {
+    "artist": "Roland Geider (Ogre)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bad_Wimpfen_-_027_-_Panorama_4.jpg",
+    "context": "Day trip to Bad Wimpfen or Hirschhorn — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-6.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Baden-Baden 10-2015 img52 Friedrichsbad.jpg": {
     "artist": "A.Savin",
@@ -7734,6 +7773,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hauptstraße, Heidelberg, 2014 (01).JPG": {
+    "artist": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hauptstra%C3%9Fe,_Heidelberg,_2014_(01).JPG",
+    "context": "Heidelberg's Old Town and Hauptstraße — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--attraction-4.webp",
+    "card": "images/germany/heidelberg-neckar-valley--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hawaiian-dishes-01.jpg": {
     "artist": "takaokun",
     "license": "CC BY 2.0",
@@ -7742,6 +7794,84 @@
     "context": "Kalua pig and laulau — Maui, Hawai'i, United States",
     "hero": "images/united-states/maui--food-3.webp",
     "card": "images/united-states/maui--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Heidelberg Castle - Friedrichsbau Facade - 3.jpg": {
+    "artist": "imehling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg_Castle_-_Friedrichsbau_Facade_-_3.jpg",
+    "context": "Heidelberg Castle — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--attraction-1.webp",
+    "card": "images/germany/heidelberg-neckar-valley--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Heidelberg Karzer 01.JPG": {
+    "artist": "Llez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg_Karzer_01.JPG",
+    "context": "The Student Prison — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--attraction-5.webp",
+    "card": "images/germany/heidelberg-neckar-valley--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Heidelberg-Affe.jpg": {
+    "artist": "Schlurcher",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg-Affe.jpg",
+    "context": "Rub the bridge monkey's mirror — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-4.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Heidelberg, Alte Universität v S, 5.jpeg": {
+    "artist": "Renardo la vulpo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg,_Alte_Universit%C3%A4t_v_S,_5.jpeg",
+    "context": "Explore the Old University and student traditions — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-5.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 502
+  },
+  "File:Heidelberger Schloss mit Regenbögen, Blick vom Philosophenweg.jpg": {
+    "artist": "Children.of.troy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberger_Schloss_mit_Regenb%C3%B6gen,_Blick_vom_Philosophenweg.jpg",
+    "context": "The Philosophers' Walk — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--attraction-3.webp",
+    "card": "images/germany/heidelberg-neckar-valley--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Heidelberger-Studentenkuss 01.JPG": {
+    "artist": "Immanuel Giel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberger-Studentenkuss_01.JPG",
+    "context": "Studentenkuss — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--food-1.webp",
+    "card": "images/germany/heidelberg-neckar-valley--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -10958,6 +11088,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:NeckargemündDilsberg-NeckarsteinachVierBurgen2020-09-12-13-25-04 2.jpg": {
+    "artist": "Rolf Kickuth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neckargem%C3%BCndDilsberg-NeckarsteinachVierBurgen2020-09-12-13-25-04_2.jpg",
+    "context": "Cruise or drive the Neckar Valley's castles — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-3.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Necropolis of Hierapolis 01.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
@@ -14013,6 +14156,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Saumagen (15676074685).jpg": {
+    "artist": "Martin aka Maha from Berlin, Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saumagen_(15676074685).jpg",
+    "context": "Saumagen — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--food-6.webp",
+    "card": "images/germany/heidelberg-neckar-valley--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Saumur (138) Montsoreau troglodyte.jpg": {
     "artist": "Palamède",
     "license": "CC BY-SA 4.0",
@@ -14112,6 +14268,19 @@
     "context": "Schneeball (Rothenburg's pastry) — The Romantic Road & Neuschwanstein, Germany",
     "hero": "images/germany/romantic-road-neuschwanstein--food-1.webp",
     "card": "images/germany/romantic-road-neuschwanstein--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Schwäbische Maultaschen (Ausschnitt).jpg": {
+    "artist": "Brücke-Osteuropa\nDerivative work MagentaGreen",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schw%C3%A4bische_Maultaschen_(Ausschnitt).jpg",
+    "context": "Maultaschen — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--food-3.webp",
+    "card": "images/germany/heidelberg-neckar-valley--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -14818,6 +14987,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Spargel - Asparagus.jpg": {
+    "artist": "Stephan Mosel from Gießen, Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spargel_-_Asparagus.jpg",
+    "context": "Spargel (white asparagus) — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--food-2.webp",
+    "card": "images/germany/heidelberg-neckar-valley--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Speck sandwich at the Rifugio Sint Crusc.jpg": {
     "artist": "Kritzolina",
@@ -17133,6 +17315,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:View of Heidelberg Castle and eastern Altstadt from Alte Brücke.jpg": {
+    "artist": "Eugene Alvin Villar (seav)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Heidelberg_Castle_and_eastern_Altstadt_from_Alte_Br%C3%BCcke.jpg",
+    "context": "Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley.webp",
+    "card": "images/germany/heidelberg-neckar-valley-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:View of Heidelberg Castle, Alte Brücke, and Altstadt from the northwest.jpg": {
+    "artist": "Eugene Alvin Villar (seav)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Heidelberg_Castle,_Alte_Br%C3%BCcke,_and_Altstadt_from_the_northwest.jpg",
+    "context": "Walk the full Philosophers' Walk — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--thing-2.webp",
+    "card": "images/germany/heidelberg-neckar-valley--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View of Noto, in Sicily - Cathedral and Chiesa di San Francesco d'Assisi all'Immacolata.jpg": {
     "artist": "Nicolas Chadeville",
     "license": "CC BY-SA 4.0",
@@ -17587,6 +17795,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Wein von der Limburg!.jpg": {
+    "artist": "R.kaelcke",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wein_von_der_Limburg!.jpg",
+    "context": "Neckar Valley wine — Heidelberg and the Neckar Valley, Germany",
+    "hero": "images/germany/heidelberg-neckar-valley--food-4.webp",
+    "card": "images/germany/heidelberg-neckar-valley--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Weismainer Püls Kellerbier.JPG": {
     "artist": "Benreis",
