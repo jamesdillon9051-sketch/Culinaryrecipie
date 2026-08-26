@@ -506,6 +506,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:A roast beef dinner at The Queen's Head, Boreham, Essex, England - lighter.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_roast_beef_dinner_at_The_Queen%27s_Head,_Boreham,_Essex,_England_-_lighter.jpg",
+    "context": "A traditional pub Sunday roast — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--food-1.webp",
+    "card": "images/united-kingdom/oxford-cambridge--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:A roast lamb dinner at Black Horse Inn, Nuthurst West Sussex England.jpg": {
     "artist": "Acabashi",
     "license": "CC BY-SA 4.0",
@@ -1190,6 +1203,19 @@
     "context": "Arthur's Seat — Edinburgh, United Kingdom",
     "hero": "images/united-kingdom/edinburgh--attraction-3.webp",
     "card": "images/united-kingdom/edinburgh--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ashmolean Museum Oxford 2018.jpg": {
+    "artist": "Julian Herzog (Website)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashmolean_Museum_Oxford_2018.jpg",
+    "context": "The Ashmolean Museum, Oxford — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-5.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2560,6 +2586,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cambridge University, Trinity Chapel Interior.jpg": {
+    "artist": "Photos taken for William Winfield; uploaded by Kimberlyblaker",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambridge_University,_Trinity_Chapel_Interior.jpg",
+    "context": "Visit a college chapel evensong — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-5.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Camembert de Normandie (AOP) 10.jpg": {
     "artist": "Coyau",
     "license": "CC BY-SA 3.0",
@@ -3352,6 +3391,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Christ Church Great Hall.jpg": {
+    "artist": "Tristan Surtel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_Church_Great_Hall.jpg",
+    "context": "College dining hall food — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--food-3.webp",
+    "card": "images/united-kingdom/oxford-cambridge--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Christ in Majesty with Peter and Paul - Capela Palatina - Palermo - Italy 2015.JPG": {
     "artist": "José Luiz",
@@ -5160,6 +5212,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Fish chips mushy peas Ledger Building Wetherspoons North Quay Canary Wharf London England.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_chips_mushy_peas_Ledger_Building_Wetherspoons_North_Quay_Canary_Wharf_London_England.jpg",
+    "context": "Fish and chips — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--food-4.webp",
+    "card": "images/united-kingdom/oxford-cambridge--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Fitzwilliam Museum Cambridge 2.jpg": {
+    "artist": "Oxyman",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fitzwilliam_Museum_Cambridge_2.jpg",
+    "context": "The Fitzwilliam Museum, Cambridge — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-6.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Flamenco granada-7.jpg": {
     "artist": "Yair Haklai",
     "license": "CC BY-SA 3.0",
@@ -6070,6 +6148,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Great St. Mary's Church, Cambridge 34.jpg": {
+    "artist": "Simon Burchell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_St._Mary%27s_Church,_Cambridge_34.jpg",
+    "context": "Climb a tower or spire for the view — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-2.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Great Theatre of Ephesus 2024.jpg": {
     "artist": "Furkan Akkurt",
     "license": "CC BY-SA 4.0",
@@ -6104,6 +6195,19 @@
     "context": "Take a day out to Paestum or Procida — Naples & Pompeii, Italy",
     "hero": "images/italy/naples-pompeii--thing-6.webp",
     "card": "images/italy/naples-pompeii--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Green river on the backs in Cambridge.jpg": {
+    "artist": "Alex Chan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_river_on_the_backs_in_Cambridge.jpg",
+    "context": "The Backs, Cambridge — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-4.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7135,6 +7239,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Kings College Chapel-IMG 3978.jpg": {
+    "artist": "Rama",
+    "license": "CC BY-SA 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kings_College_Chapel-IMG_3978.jpg",
+    "context": "King's College Chapel, Cambridge — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-1.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Kırmızı Su (Red Spring), Karahayıt, Turkey, March 2024 06.jpg": {
     "artist": "Calistemon",
@@ -9463,6 +9580,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Oxford - Covered Market - 0133.jpg": {
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxford_-_Covered_Market_-_0133.jpg",
+    "context": "Browse a historic market — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-4.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Oxford, bicycle city - geograph.org.uk - 8084187.jpg": {
+    "artist": "A J Paxton",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxford,_bicycle_city_-_geograph.org.uk_-_8084187.jpg",
+    "context": "Cycle like a local — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-6.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pa amb oli-rafax.JPG": {
     "artist": "Rafael Ortega Diaz",
     "license": "CC BY-SA 3.0",
@@ -10763,6 +10906,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Punting on the River Cam, Cambridge - geograph.org.uk - 1959053.jpg": {
+    "artist": "Peter Trimming",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punting_on_the_River_Cam,_Cambridge_-_geograph.org.uk_-_1959053.jpg",
+    "context": "Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge.webp",
+    "card": "images/united-kingdom/oxford-cambridge-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Punts on the River Cherwell, Oxford - geograph.org.uk - 3239104.jpg": {
+    "artist": "Peter Trimming",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punts_on_the_River_Cherwell,_Oxford_-_geograph.org.uk_-_3239104.jpg",
+    "context": "Go punting — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-1.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Pupusas olocuilta el salvador 2012.jpg": {
     "artist": "Ll1324",
     "license": "CC0",
@@ -10838,6 +11007,19 @@
     "card": "images/france/chamonix-mont-blanc--food-3-card.webp",
     "heroWidth": 1365,
     "heroHeight": 768,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Radcliffe Camera, Oxford.jpg": {
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxford.jpg",
+    "context": "The Bodleian Library, Oxford — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-3.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -13077,6 +13259,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:The Eagle pub, Cambridge - interior - geograph.org.uk - 3420968.jpg": {
+    "artist": "The Carlisle Kid",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Eagle_pub,_Cambridge_-_interior_-_geograph.org.uk_-_3420968.jpg",
+    "context": "Real ale in a historic pub — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--food-5.webp",
+    "card": "images/united-kingdom/oxford-cambridge--food-5-card.webp",
+    "heroWidth": 1250,
+    "heroHeight": 703,
+    "cardWidth": 800,
+    "cardHeight": 525
+  },
+  "File:The gardens at New College, Oxford - geograph.org.uk - 1942523.jpg": {
+    "artist": "Marathon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_gardens_at_New_College,_Oxford_-_geograph.org.uk_-_1942523.jpg",
+    "context": "Walk the college gardens — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--thing-3.webp",
+    "card": "images/united-kingdom/oxford-cambridge--thing-3-card.webp",
+    "heroWidth": 1280,
+    "heroHeight": 720,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:The glass dome - Galleria Vittorio Emanuele II - Milan.jpg": {
     "artist": "Terragio67",
     "license": "CC BY-SA 4.0",
@@ -13480,6 +13688,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Tom Quad, Christ Church 2004-01-21.jpg": {
+    "artist": "Toby Ord",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Quad,_Christ_Church_2004-01-21.jpg",
+    "context": "Christ Church, Oxford — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--attraction-2.webp",
+    "card": "images/united-kingdom/oxford-cambridge--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 889,
+    "cardWidth": 800,
+    "cardHeight": 445
+  },
   "File:Tombelaine-mont-saint-michel-depuis-la-baie.jpg": {
     "artist": "Nitot",
     "license": "CC BY-SA 3.0",
@@ -13687,6 +13908,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 531
+  },
+  "File:Traditional Cream Tea - The Trellis Café 2024-05-23.jpg": {
+    "artist": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Cream_Tea_-_The_Trellis_Caf%C3%A9_2024-05-23.jpg",
+    "context": "Cream tea — Oxford & Cambridge, United Kingdom",
+    "hero": "images/united-kingdom/oxford-cambridge--food-2.webp",
+    "card": "images/united-kingdom/oxford-cambridge--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Trafalgar Square, London 2 - Jun 2009.jpg": {
     "artist": "Diliff",
