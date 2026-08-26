@@ -1,0 +1,379 @@
+{
+  "slug": "berlin",
+  "name": "Berlin",
+  "country": "germany",
+  "region": "Berlin",
+  "categories": ["city", "historic", "culture"],
+  "tagline": "A capital that survived division and rebuilt itself twice over, now Europe's most consistently interesting big city for history, nightlife and a food scene that outgrew its stereotypes years ago.",
+  "highlight": "The Brandenburg Gate at dusk, once the literal dividing line of the city, now the backdrop to a Berlin that has spent three decades reunifying in more than just name.",
+  "shortDescription": "Germany's capital: a city that confronts its 20th-century history directly, rebuilt into one of Europe's most creative, affordable and genuinely alive capitals.",
+  "metaDescription": "A Berlin travel guide: the Brandenburg Gate, the Holocaust Memorial, Museum Island, the Wall's remains, when to go and a practical three-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Berlin Brandenburg (BER)",
+  "knownFor": "History, nightlife, museums, street art",
+  "budget": "€90–150 per day, mid-range",
+  "goodFor": "History, nightlife, culture, budget travel",
+  "coords": { "lat": 52.5200, "lng": 13.4050 },
+  "image": {
+    "file": "File:Brandenburg Gate at dusk, Berlin (2) (39469443234).jpg",
+    "alt": "The Brandenburg Gate illuminated at dusk"
+  },
+  "intro": [
+    "Berlin has been rebuilt twice in living memory — once from the rubble of the Second World War, and again after the Wall fell in 1989 and a divided city had to physically and psychologically reunite. Both histories are still visible everywhere: bullet-scarred facades sit beside glass-fronted new builds, and a line of cobblestones through the pavement traces where the Wall itself once stood.",
+    "That history is presented with a directness few capitals attempt. The Holocaust Memorial sits a five-minute walk from the Reichstag; the Topography of Terror museum occupies the actual former Gestapo headquarters site; the East Side Gallery preserves the Wall's longest surviving stretch as a permanent, painted record rather than something quietly removed.",
+    "None of this makes Berlin a heavy city to visit. It is also genuinely one of Europe's most creative and affordable capitals — a nightlife scene built on the same post-Wall spirit of reinvention, a food scene that has moved well past currywurst stereotypes, and a size and layout that rewards wandering between neighbourhoods as much as ticking off named sights."
+  ],
+  "whyVisit": {
+    "intro": "Berlin's case is that no other European capital combines this much directly confronted 20th-century history with this much genuine, current creative energy.",
+    "points": [
+      {
+        "title": "The history is presented with real honesty",
+        "text": "Memorials and museums address the Nazi era and the Cold War division directly, an essential and genuinely moving part of understanding modern Europe."
+      },
+      {
+        "title": "It is genuinely affordable for a major capital",
+        "text": "Accommodation, food and nightlife all run noticeably cheaper than London, Paris or Amsterdam, without a corresponding drop in quality."
+      },
+      {
+        "title": "The creative and nightlife scene is a real, current strength",
+        "text": "Berlin's post-Wall reinvention produced a club and arts culture that remains genuinely influential across Europe, not resting on decades-old reputation."
+      },
+      {
+        "title": "The neighbourhoods reward slow exploration",
+        "text": "Kreuzberg, Neukölln and Prenzlauer Berg each have a distinct character worth a half-day wander beyond the headline sights."
+      },
+      {
+        "title": "Museum Island alone justifies a trip",
+        "text": "Five major museums on one small island form one of the world's great concentrations of art and antiquities."
+      }
+    ]
+  },
+  "attractionsIntro": "Berlin's essential sights, best split across several days rather than rushed into one exhausting loop.",
+  "attractions": [
+    {
+      "name": "The Brandenburg Gate",
+      "image": {
+        "file": "File:Brandenburg Gate (7735851972).jpg",
+        "alt": "The Brandenburg Gate by daylight"
+      },
+      "text": "Berlin's defining monument, once standing directly in the Wall's death strip, now a symbol of reunification and the backdrop to major national events.",
+      "tip": "Visit at both day and dusk — the illuminated evening view is genuinely different from the daytime crowds."
+    },
+    {
+      "name": "The Holocaust Memorial",
+      "image": {
+        "file": "File:JEWISH MEMORIAL BERLIN GERMANY APRIL 2012 (7093263449).jpg",
+        "alt": "Rows of concrete slabs at the Holocaust Memorial in Berlin"
+      },
+      "text": "2,711 concrete slabs of varying height cover a city-block site near the Brandenburg Gate, with a genuinely moving underground information centre beneath it.",
+      "tip": "The memorial itself is free and always open; the underground exhibition has separate, also free, opening hours worth checking ahead."
+    },
+    {
+      "name": "Museum Island",
+      "image": {
+        "file": "File:Pergamon Museum Berlin colonnade.jpg",
+        "alt": "The colonnade inside Museum Island's Pergamon Museum"
+      },
+      "text": "Five major museums — the Pergamon, Neues, Altes, Bode and Alte Nationalgalerie — clustered on an island in the Spree, holding treasures from ancient Babylon to 19th-century German painting.",
+      "tip": "A Museum Island day ticket covers all five — the Pergamon and Neues Museums are the standout priorities if time is short."
+    },
+    {
+      "name": "The East Side Gallery",
+      "image": {
+        "file": "File:Berlin, East Side Gallery 2014-07 (Alexej Taranin - Mauern international).jpg",
+        "alt": "A mural painted on a surviving stretch of the Berlin Wall"
+      },
+      "text": "The longest surviving stretch of the Berlin Wall, covered in over a hundred murals painted by international artists after 1990, a genuine open-air gallery of reunification-era art.",
+      "tip": "Visit early morning for photographs without the crowds that build along this popular riverside stretch by midday."
+    },
+    {
+      "name": "The Reichstag Building",
+      "image": {
+        "file": "File:Reichstag Dome, Berlin (Ank Kumar) 08.jpg",
+        "alt": "Inside the Reichstag's modern glass dome"
+      },
+      "text": "Germany's historic parliament building, its modern glass dome offering panoramic city views and a genuine symbol of transparent postwar democracy.",
+      "tip": "Dome visits require free advance registration online, often weeks ahead in high season — book as soon as your dates are fixed."
+    },
+    {
+      "name": "Checkpoint Charlie and the Wall Museum",
+      "image": {
+        "file": "File:Checkpoint Charlie - écriteau (Berlin).jpg",
+        "alt": "The famous sign marking the former Checkpoint Charlie border crossing"
+      },
+      "text": "The most famous Cold War border crossing between East and West Berlin, now a preserved historical site with an adjacent museum documenting escape attempts and the divided city's history.",
+      "tip": "The street-level checkpoint reconstruction is free to photograph; the indoor museum requires a separate paid ticket."
+    }
+  ],
+  "thingsToDoIntro": "Berlin rewards both serious historical engagement and simple, current-day enjoyment of one of Europe's most creative cities.",
+  "thingsToDo": [
+    {
+      "title": "Explore Kreuzberg and Neukölln",
+      "image": {
+        "file": "File:! Mehringdamm in Berlin-Kreuzberg (2018).jpg",
+        "alt": "A street scene in Berlin's Kreuzberg neighbourhood"
+      },
+      "text": "Berlin's most genuinely alive neighbourhoods for food, nightlife and street art, home to a large Turkish community and the city's most creative current energy.",
+      "tip": "Maybaachstraße's Turkish market, held Tuesdays and Fridays, is a genuine local institution worth timing a visit around."
+    },
+    {
+      "title": "Experience Berlin's nightlife",
+      "image": {
+        "file": "File:Berghain Berlin Facade.jpg",
+        "alt": "The industrial facade of Berghain, one of Berlin's famous techno clubs"
+      },
+      "text": "From techno clubs with genuinely legendary door policies to relaxed neighbourhood bars, Berlin's nightlife reputation is a real, current strength rather than a fading one.",
+      "tip": "Famous clubs like Berghain have notoriously unpredictable door policies — dress simply, arrive without a large group, and don't take rejection personally."
+    },
+    {
+      "title": "Walk or cycle the former Wall route",
+      "image": {
+        "file": "File:Berlin Wall Bernauer Strasse.jpg",
+        "alt": "The preserved Wall section at the Bernauer Straße Memorial"
+      },
+      "text": "The Berlin Wall Trail traces the former border's full route through the city, with sections through genuinely interesting, changing neighbourhoods rather than just memorial sites.",
+      "tip": "The Bernauer Straße Memorial section is the single best stretch for understanding how the Wall actually divided the city physically."
+    },
+    {
+      "title": "Visit a flea market",
+      "image": {
+        "file": "File:Flea Market Mauerpark (6082251437).jpg",
+        "alt": "Stalls at the Mauerpark flea market in Berlin"
+      },
+      "text": "Weekend flea markets, Mauerpark's above all, mix genuine vintage finds with food stalls and, at Mauerpark specifically, an open-air karaoke session that has become a Sunday institution.",
+      "tip": "Mauerpark's karaoke runs Sunday afternoons in the park's amphitheatre, genuinely worth timing a visit around."
+    },
+    {
+      "title": "Take a Cold War history tour",
+      "image": {
+        "file": "File:Sede Stasi Museum.JPG",
+        "alt": "The former Stasi headquarters building, now a museum"
+      },
+      "text": "Guided tours focused specifically on the divided city — escape tunnels, former border crossings, Stasi history — add genuine depth beyond what a self-guided visit can cover.",
+      "tip": "The former Stasi headquarters, now a museum, gives an unusually direct look at East German surveillance methods."
+    },
+    {
+      "title": "Relax in the Tiergarten or by a lake",
+      "image": {
+        "file": "File:Strandbad Wannsee 09.04.2016 16-29-40.jpg",
+        "alt": "The lakeside beach at Wannsee"
+      },
+      "text": "Berlin's large central park and several accessible lakes offer a genuinely different pace from the history-heavy city centre, popular with locals for a slower day.",
+      "tip": "Wannsee, reachable by S-Bahn, is Berlin's most popular lake for a proper swim and beach day in summer."
+    }
+  ],
+  "foodIntro": "Berlin's food scene runs from genuine street food institutions to an increasingly serious modern restaurant culture, reflecting the city's diversity.",
+  "foods": [
+    {
+      "name": "Currywurst",
+      "image": {
+        "file": "File:2023-01-23 Currywurst in Berlin.jpg",
+        "alt": "A plate of Berlin currywurst"
+      },
+      "text": "Sliced sausage doused in curry-spiced ketchup, invented in postwar Berlin and still the city's most iconic fast food, eaten standing at a stall.",
+      "whereToTry": "Curry 36 and Konnopke's Imbiss, two long-running Berlin institutions."
+    },
+    {
+      "name": "Döner kebab",
+      "image": {
+        "file": "File:20240608 Döner Kebab mit Efes Bier Alibaba Bistro Berlin anagoria.jpg",
+        "alt": "A Berlin döner kebab"
+      },
+      "text": "A Berlin-Turkish invention as much as a Turkish import, the modern döner sandwich format was reportedly created by Turkish immigrants in 1970s Berlin.",
+      "whereToTry": "Mustafa's Gemüse Kebap in Kreuzberg, though genuinely good döner is found across the city."
+    },
+    {
+      "name": "Berliner Weisse",
+      "image": {
+        "file": "File:Berliner Weisse mit Schuss (14768015851).jpg",
+        "alt": "A glass of Berliner Weisse beer with fruit syrup"
+      },
+      "text": "A tart, low-alcohol wheat beer traditionally served with a shot of woodruff or raspberry syrup, a genuinely distinctive Berlin specialty best enjoyed on a warm afternoon.",
+      "whereToTry": "Traditional Berlin bars and beer gardens, particularly in summer."
+    },
+    {
+      "name": "Bratwurst and street food markets",
+      "image": {
+        "file": "File:Markthalle Neun 08.02.2015 16-33-23.JPG",
+        "alt": "Inside Berlin's Markthalle Neun food market"
+      },
+      "text": "Beyond currywurst, Berlin's food markets and stalls cover the wider spread of German sausage traditions alongside the city's genuinely international street food scene.",
+      "whereToTry": "Markthalle Neun in Kreuzberg, especially its Thursday Street Food Thursday market."
+    },
+    {
+      "name": "Berliner (jam doughnut)",
+      "image": {
+        "file": "File:Berliner Pfannkuchen 1.jpg",
+        "alt": "A sugar-dusted, jam-filled Berliner doughnut"
+      },
+      "text": "A sugar-dusted, jam-filled doughnut that gives the city its name association, a traditional treat especially popular around New Year and Carnival.",
+      "whereToTry": "Traditional bakeries across the city, year-round rather than only in season."
+    },
+    {
+      "name": "Vietnamese food in Prenzlauer Berg",
+      "image": {
+        "file": "File:2016.10.14.133502 Noodle soup beef Pho Bac Vietnamese restaurant Seattle Washington USA.jpg",
+        "alt": "A bowl of Vietnamese pho noodle soup"
+      },
+      "text": "A large Vietnamese community, dating to East German-era labour migration, has made genuinely excellent Vietnamese food a real Berlin specialty rather than an incidental import.",
+      "whereToTry": "Restaurants along Dong Xuan Center and throughout Prenzlauer Berg and Lichtenberg."
+    }
+  ],
+  "accommodation": {
+    "intro": "Berlin's neighbourhoods vary considerably in character, making the choice of base a genuine part of shaping the trip.",
+    "areas": [
+      {
+        "name": "Mitte",
+        "bestFor": "Walking to the major historic sights",
+        "text": "The most central district, putting the Brandenburg Gate, Museum Island and the Holocaust Memorial all within easy walking distance."
+      },
+      {
+        "name": "Kreuzberg",
+        "bestFor": "Nightlife and a livelier, creative atmosphere",
+        "text": "Berlin's most genuinely alive neighbourhood for food and nightlife, a short transit ride from the central sights."
+      },
+      {
+        "name": "Prenzlauer Berg",
+        "bestFor": "A quieter, more residential base",
+        "text": "Leafy streets, good cafes and a calmer atmosphere than Mitte or Kreuzberg, still well connected by transit."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "€22–38 per night" },
+      { "label": "Mid-range hotel", "value": "€85–150 per night" },
+      { "label": "Museum Island day ticket", "value": "€19" },
+      { "label": "Berlin WelcomeCard (transit + discounts)", "value": "€23–45 depending on duration" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Berlin Brandenburg Airport handles the city's international traffic, with excellent rail connections to the rest of Germany.",
+    "options": [
+      {
+        "mode": "Berlin Brandenburg Airport (BER)",
+        "text": "Connected to the city centre by direct train in about 30 minutes, with frequent services throughout the day.",
+        "detail": "The airport express and regional trains both stop centrally — no need for a taxi in normal circumstances."
+      },
+      {
+        "mode": "Rail from other German cities",
+        "text": "ICE trains connect Berlin to [[munich|Munich]] in about 4 hours, [[hamburg|Hamburg]] in under 2, and [[dresden|Dresden]] in under 2.",
+        "detail": "Book Sparpreis fares as early as possible for significant savings over walk-up tickets."
+      },
+      {
+        "mode": "Coach",
+        "text": "FlixBus connects Berlin to cities across Germany and neighbouring countries at lower cost than rail, if considerably slower.",
+        "detail": "A practical budget option for less time-sensitive journeys."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Berlin's public transport network is extensive and efficient, covering the whole city well without needing a car.",
+    "options": [
+      {
+        "mode": "U-Bahn and S-Bahn",
+        "text": "Berlin's underground and suburban rail networks together cover the city comprehensively, running frequently and reliably.",
+        "detail": "A single ticket covers both networks plus buses and trams within the same fare zone."
+      },
+      {
+        "mode": "Bicycle",
+        "text": "Berlin is a genuinely bike-friendly city, flat and with extensive cycle lanes, making bike hire a practical and pleasant way to cover ground.",
+        "detail": "Several bike-share schemes operate citywide, unlockable via smartphone app."
+      },
+      {
+        "mode": "Walking",
+        "text": "Central Mitte's major sights are comfortably walkable from each other, though the wider city benefits from transit between neighbourhoods.",
+        "detail": "Comfortable shoes matter — some of the most rewarding Berlin experiences are simply extended neighbourhood walks."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Berlin's weather is genuinely changeable across the year, but late spring and early autumn offer the best balance of daylight, mild temperatures and manageable crowds.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild and increasingly green, with beer gardens and outdoor cafe culture returning and crowds still below summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "Long daylight hours, lake swimming weather and the busiest club and festival season, though also the most crowded and expensive months."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures, thinning tourist crowds, and some of the year's best light for photographing the city's historic sites."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Short, often grey days and genuine cold, but Christmas markets from late November bring real seasonal charm, and museums make an excellent indoor refuge."
+      }
+    ],
+    "avoid": "Nothing specific rules out a Berlin visit, though major public holidays can mean reduced museum hours worth checking in advance."
+  },
+  "itinerary": {
+    "title": "Three days in Berlin",
+    "intro": "History and monuments first, then museums, then neighbourhoods and nightlife — a pace that respects both the weight and the energy of the city.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The historic centre",
+        "summary": "Berlin's defining monuments and memorials.",
+        "morning": "The Brandenburg Gate and the Reichstag, dome visit if booked.",
+        "afternoon": "The Holocaust Memorial and Topography of Terror.",
+        "evening": "Dinner in Mitte."
+      },
+      {
+        "day": 2,
+        "title": "Museum Island and the Wall",
+        "summary": "World-class collections and Cold War history.",
+        "morning": "Museum Island, prioritising the Pergamon and Neues Museums.",
+        "afternoon": "The East Side Gallery and a walk along the former Wall route.",
+        "evening": "Currywurst and a beer at a Berlin institution."
+      },
+      {
+        "day": 3,
+        "title": "Neighbourhoods and nightlife",
+        "summary": "Berlin's current, creative side.",
+        "morning": "A wander through Kreuzberg or Neukölln.",
+        "afternoon": "Markthalle Neun or a flea market, Mauerpark's on a Sunday.",
+        "evening": "Berlin's nightlife, at whatever pace suits."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on booking, cash and transit that make a real difference to a Berlin trip.",
+  "tips": [
+    "Book Reichstag dome visits online well ahead — they are free but require advance registration, often weeks out in summer.",
+    "Carry some cash — Berlin's food markets and smaller venues, especially clubs, are often cash-only.",
+    "Validate transit tickets before boarding — Berlin's honour system carries real fines for ticketless riding.",
+    "Don't overplan Berlin's nightlife — the city's best experiences are often spontaneous rather than scheduled.",
+    "Book Museum Island tickets online in advance in summer to avoid queuing.",
+    "Dress simply and avoid large groups if attempting a well-known club's door on a first visit.",
+    "Check individual museum opening hours around German public holidays, which vary and can catch visitors out."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Berlin?",
+      "a": "Three to four. Three covers the essential historic sights and Museum Island; four allows proper time for neighbourhoods, nightlife and a more relaxed pace without feeling rushed."
+    },
+    {
+      "q": "Is Berlin expensive?",
+      "a": "Genuinely affordable for a major European capital — accommodation, food and nightlife all run noticeably cheaper than London, Paris or Amsterdam without a corresponding drop in quality."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best balance of good weather, long daylight and manageable crowds. Summer brings lake-swimming weather and the busiest club scene; winter is cold but Christmas markets and museums make for an excellent city-break season."
+    },
+    {
+      "q": "Is Berlin's history too heavy for a normal trip?",
+      "a": "It's substantial but genuinely worth engaging with directly rather than avoiding — the city presents this history clearly and honestly, and it sits alongside, rather than overwhelms, Berlin's current, lighter creative energy."
+    },
+    {
+      "q": "Do I need to speak German in Berlin?",
+      "a": "No — English is widely spoken, especially in the tourism, hospitality and nightlife sectors, though basic German phrases are appreciated."
+    }
+  ],
+  "related": ["dresden", "hamburg", "nuremberg"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}

@@ -1,0 +1,387 @@
+{
+  "slug": "germany",
+  "name": "Germany",
+  "continent": "Central Europe",
+  "countryCode": "DE",
+  "tagline": "A federal country of sixteen states that never fully merged into one culture, from Bavarian beer halls to Hanseatic ports, threaded together by a rail network and a history it faces more directly than almost any other nation.",
+  "cardDescription": "Berlin's nightlife and history, Bavaria's castles and beer gardens, the Rhine's vineyard-lined valley and a genuinely serious food and craft culture beyond the stereotypes.",
+  "metaDescription": "A complete Germany travel guide: the 10 best places to visit, trains, regional food, costs, etiquette and a two-week itinerary.",
+  "destinations": [
+    "berlin",
+    "munich",
+    "romantic-road-neuschwanstein",
+    "hamburg",
+    "cologne-rhine-valley",
+    "dresden",
+    "black-forest",
+    "nuremberg",
+    "heidelberg-neckar-valley",
+    "rugen-baltic-coast"
+  ],
+  "intro": [
+    "Germany only became a single nation in 1871, and reunified only in 1990, and both facts still shape how the country feels to travel through. Bavaria's Catholic beer-hall culture, Hamburg's Protestant maritime trading history, and the former East's very different 20th century all remain genuinely distinct rather than smoothed into one national identity — this is a country of sixteen states that still think of themselves as states first.",
+    "That regional variety comes with a shared seriousness about history that visitors consistently find striking. Berlin's Holocaust memorials, the preserved sections of the Wall, and museums across the country confront the 20th century directly rather than around it — a level of public reckoning with a national past that few countries attempt this openly.",
+    "The practical spine is one of Europe's best rail networks, connecting Berlin, Munich, Hamburg and everywhere between in a few hours each, alongside a food and drink culture — regional beer styles, genuinely excellent bread, a wine industry along the Rhine and Mosel most visitors don't expect — that goes considerably deeper than the sausage-and-lager stereotype."
+  ],
+  "placesIntro": "Ordered roughly by how strongly we would recommend each for a first visit — though Dresden, the Black Forest and the Baltic coast reward a second trip just as much as a first.",
+  "thingsToDoIntro": "The experiences that recur across the country and that make a Germany trip feel like more than a checklist of cities.",
+  "thingsToDo": [
+    {
+      "title": "Take the trains, and understand the ticket system",
+      "text": "Germany's rail network reaches almost everywhere in this guide, and the Deutschland-Ticket offers genuinely excellent value for regional travel across the whole country on one monthly pass.",
+      "tip": "ICE high-speed trains need separate reservations and tickets from regional services — book directly via Deutsche Bahn's app for the clearest fare comparison."
+    },
+    {
+      "title": "Sit in a proper beer garden",
+      "text": "A genuine Bavarian and southern German institution: long communal tables, self-service or table service, and a tradition of bringing your own food to some gardens as long as you buy the beer.",
+      "tip": "Look for a 'Biergarten' sign specifically — a 'Kneipe' is a different, more bar-like drinking tradition worth trying separately."
+    },
+    {
+      "title": "Visit a Christmas market, in season",
+      "text": "From late November, Christmas markets — Weihnachtsmärkte — take over town squares across the country with mulled wine, crafts and food stalls, a genuine seasonal institution rather than a tourist add-on.",
+      "tip": "Nuremberg's and Dresden's markets are among the oldest and most famous, but even small-town versions are usually genuinely worthwhile."
+    },
+    {
+      "title": "Engage seriously with Germany's 20th-century history",
+      "text": "Memorials, museums and preserved sites across the country present the Nazi era and the divided Cold War decades with real honesty, an essential part of understanding modern Germany.",
+      "tip": "Berlin alone justifies a full day for this alone — the Holocaust Memorial, Topography of Terror and East Side Gallery are all free to visit."
+    },
+    {
+      "title": "Try a proper German bakery",
+      "text": "German bread culture is genuinely serious, with hundreds of recognised regional bread types and a bakery on nearly every corner, alongside pastries well beyond the stereotype of pretzels alone.",
+      "tip": "A Bäckerei with a queue of locals in the morning is a reliable sign of quality — breakfast pastries sell out early at the best ones."
+    },
+    {
+      "title": "Hike or cycle the wine and river valleys",
+      "text": "The Rhine, Mosel and Neckar valleys combine vineyard-covered slopes, riverside paths and hilltop castles into some of Europe's most rewarding gentle walking and cycling country.",
+      "tip": "Riverside cycle paths are generally flat and well maintained, making a multi-day valley ride achievable without serious cycling experience."
+    }
+  ],
+  "foodIntro": "German food's international reputation undersells it badly. Deep regional variety, a serious bread and beer culture and an increasingly excellent modern restaurant scene make the case on their own.",
+  "foods": [
+    {
+      "name": "Currywurst",
+      "text": "Sliced sausage doused in curry-spiced ketchup, a genuine Berlin invention and one of the country's most beloved fast foods, eaten standing up from a paper tray.",
+      "whereToTry": "Street stalls and dedicated Currywurst shops across Berlin, though the dish is found nationwide."
+    },
+    {
+      "name": "Pretzels and Bavarian beer hall food",
+      "text": "Soft pretzels, roast pork knuckle (Schweinshaxe) and white sausage (Weisswurst) alongside Bavaria's beer, the classic southern German beer-hall spread.",
+      "whereToTry": "Munich's beer halls, particularly for a proper Weisswurst breakfast before noon, traditionally."
+    },
+    {
+      "name": "Bread, seriously",
+      "text": "Germany has well over a thousand recognised bread varieties, from dense rye Vollkornbrot to Bavarian pretzel rolls, a genuine point of national culinary pride recognised by UNESCO.",
+      "whereToTry": "Any proper Bäckerei — look for a morning queue of locals rather than a tourist-facing shopfront."
+    },
+    {
+      "name": "Schnitzel",
+      "text": "A thin, breaded, pan-fried cutlet, usually pork or veal, found on menus nationwide with genuine regional variations in preparation and accompaniment.",
+      "whereToTry": "Traditional Gasthaus restaurants across the country, often served simply with potatoes and a lemon wedge."
+    },
+    {
+      "name": "German beer, regionally",
+      "text": "The 1516 Reinheitsgebot purity law still shapes brewing today, and regional styles — Kölsch in Cologne, Helles in Bavaria, Pils nationwide — are genuinely distinct rather than interchangeable lagers.",
+      "whereToTry": "Drink Kölsch only in Cologne and Altbier only in Düsseldorf, by strong local tradition — each city defends its own style fiercely."
+    },
+    {
+      "name": "Käsespätzle and regional specialities",
+      "text": "Swabian egg noodles baked with cheese and caramelised onions, a southern German comfort dish alongside countless other strong regional specialities across the country's sixteen states.",
+      "whereToTry": "Traditional restaurants in Baden-Württemberg and the Black Forest region especially."
+    },
+    {
+      "name": "Cake and coffee culture",
+      "text": "Kaffee und Kuchen — coffee and cake, typically mid-afternoon — is a genuine social institution, with Black Forest gateau (Schwarzwälder Kirschtorte) among the best-known regional specialities.",
+      "whereToTry": "Traditional Konditorei cake shops and cafes nationwide, with the Black Forest itself the natural home of its namesake cake."
+    }
+  ],
+  "practicalIntro": "The essentials, current for 2026. Germany is straightforward and well organised to travel in, with cash culture and Sunday closures the two practicalities that most often catch visitors out.",
+  "practical": {
+    "capital": "Berlin",
+    "language": "German nationally, with Sorbian recognised as a minority language in parts of the east and widespread English ability in cities and among younger Germans.",
+    "currency": "Euro (€, EUR)",
+    "money": "Card payment is now widely accepted, though Germany remains more cash-reliant than many neighbouring countries — some smaller shops, market stalls and traditional restaurants still take cash only. Carry some cash as a backup.",
+    "visa": "Visa-free entry for up to 90 days within a 180-day period for many nationalities including the US, Canada, Australia and UK, under the Schengen Area's common rules.",
+    "plugs": "Type C and F (Europlug/Schuko), 230 V, 50 Hz — standard continental European two-pin plugs.",
+    "emergency": "112 for all emergencies, nationwide, alongside 110 specifically for police.",
+    "tipping": "Modest and rounding-based rather than percentage-driven. Round up or add roughly 5–10% for good restaurant service, handed directly to the server rather than left on the table.",
+    "safety": "Very safe overall, with low rates of violent crime against visitors. Pickpocketing occurs in crowded tourist areas and on public transport in major cities — standard vigilance is enough to avoid it.",
+    "connectivity": "Excellent 4G and 5G in cities, though rural mobile coverage lags some neighbouring countries. Public WiFi is less universal than in some countries — a local SIM or eSIM is worth arranging on arrival.",
+    "timeZone": "Central European Time (UTC+1) in winter, Central European Summer Time (UTC+2) from late March to late October.",
+    "budget": [
+      { "label": "Backpacker", "value": "€55–85 per day — hostels, bakery lunches, regional trains" },
+      { "label": "Mid-range", "value": "€110–180 per day — three-star hotels, restaurant meals, ICE trains" },
+      { "label": "Comfortable", "value": "€200–350 per day — good hotels, guided tours, first-class rail" },
+      { "label": "Munich and Berlin supplement", "value": "Add roughly 15–25% to any budget band specifically in these two cities" }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Germany's weather is genuinely changeable across its size, but late spring and early autumn offer the best balance of daylight, mild temperatures and manageable crowds.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild and increasingly green, with beer gardens reopening and crowds still below summer peak. April can still be genuinely cool, especially in the north."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "good",
+        "text": "Long daylight hours, the best chance of warm weather, and Oktoberfest preparations building through August — also the most crowded and expensive months in Munich and Berlin."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures, wine harvest season along the Rhine and Mosel, and Oktoberfest itself running from mid-September into early October."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Short, often grey days and genuine cold, but Christmas markets from late November bring real seasonal charm, and December is a genuinely excellent time for city breaks."
+      }
+    ],
+    "avoid": "Oktoberfest weekends in Munich if you have not booked accommodation and beer tent reservations many months ahead — the city's capacity is genuinely stretched during the festival."
+  },
+  "tripDuration": {
+    "headline": "10–14 days for a first trip",
+    "summary": "Germany's rail network makes an ambitious multi-region itinerary genuinely workable, though the Black Forest and the Baltic coast reward more time than a rushed loop allows.",
+    "options": [
+      {
+        "length": "4–5 days",
+        "text": "Berlin alone fills five days without repeating itself, or Berlin plus a single day trip to Potsdam or Dresden.",
+        "detail": "A short Germany trip is better spent deeply in one city than spread thin across the country."
+      },
+      {
+        "length": "8–10 days",
+        "text": "Berlin, then south to Munich by train via Nuremberg — the classic first-trip route connecting the capital and Bavaria.",
+        "detail": "Add a day in the Romantic Road towns for a genuinely well-paced journey rather than a single long transfer."
+      },
+      {
+        "length": "12–16 days",
+        "text": "The itinerary on this page: Berlin, Dresden, Nuremberg, Munich, the Romantic Road, the Rhine Valley and Cologne, covering the country's east-to-west range without a car for most of it.",
+        "detail": "Enough time to add real countryside — the Black Forest or the Rhine Valley — to the classic cities route."
+      },
+      {
+        "length": "3 weeks or more",
+        "text": "Add Hamburg and the Baltic coast properly, or the Black Forest with a hire car for its smaller villages and hiking trails.",
+        "detail": "The Baltic coast and the Black Forest's back roads are where a second Germany trip belongs, and both reward a full week rather than a rushed add-on."
+      }
+    ]
+  },
+  "transport": {
+    "intro": "Germany's rail network connects every destination in this guide, and understanding ICE versus regional fares is the single biggest lever on cost.",
+    "options": [
+      {
+        "mode": "ICE high-speed trains",
+        "text": "[[berlin|Berlin]] to [[munich|Munich]] is about 4 hours, Berlin to [[hamburg|Hamburg]] under 2, [[cologne-rhine-valley|Cologne]] to Munich around 4h30. Advance Sparpreis tickets, released months ahead, are dramatically cheaper than walk-up fares.",
+        "detail": "Book via the DB Navigator app for the clearest comparison between Sparpreis and flexible fares."
+      },
+      {
+        "mode": "Regional trains and the Deutschland-Ticket",
+        "text": "A single monthly ticket covers regional and local transport nationwide, genuinely excellent value for a trip combining several nearby destinations, such as the [[romantic-road-neuschwanstein|Romantic Road]] towns.",
+        "detail": "Regional trains are slower than ICE services but the Deutschland-Ticket makes them a genuine budget option for shorter hops."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Useful for the [[black-forest|Black Forest's]] smaller villages and hiking trailheads, and for a flexible [[cologne-rhine-valley|Rhine Valley]] castle-hopping route beyond the riverside towns' rail stops.",
+        "detail": "Germany's autobahns have unrestricted sections but also frequent speed-limited stretches — do not assume open-road driving throughout."
+      },
+      {
+        "mode": "Coaches",
+        "text": "FlixBus connects most of the country more cheaply than rail, if considerably slower — a useful budget option for longer, less time-sensitive journeys.",
+        "detail": "Booking ahead secures the cheapest fares, similar to rail."
+      },
+      {
+        "mode": "Ferries",
+        "text": "To [[rugen-baltic-coast|Rügen]] and other Baltic islands, and across to Scandinavia from northern ports including Hamburg's wider region.",
+        "detail": "Book ahead in summer for popular island crossings, particularly with a car."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Two weeks in Germany",
+    "intro": "Berlin, Dresden and Nuremberg, then Bavaria and the Rhine. Covers seven of the ten destinations in this guide by train, with a short car hire for the Romantic Road leg.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive in Berlin",
+        "morning": "Land and take the train or express bus into the city.",
+        "afternoon": "A first walk around the Brandenburg Gate and Unter den Linden.",
+        "evening": "Dinner in Kreuzberg or Prenzlauer Berg."
+      },
+      {
+        "day": 2,
+        "title": "Berlin's history",
+        "morning": "The Holocaust Memorial and the Reichstag, booked ahead.",
+        "afternoon": "The East Side Gallery and Checkpoint Charlie.",
+        "evening": "A traditional beer hall dinner."
+      },
+      {
+        "day": 3,
+        "title": "Museum Island and beyond",
+        "morning": "Museum Island's collections.",
+        "afternoon": "A neighbourhood walk through Kreuzberg or Neukölln.",
+        "evening": "Berlin's nightlife, at whatever pace suits."
+      },
+      {
+        "day": 4,
+        "title": "To Dresden",
+        "morning": "Train to Dresden, under two hours.",
+        "afternoon": "The rebuilt Frauenkirche and the Zwinger Palace.",
+        "evening": "Dinner in Dresden's old town."
+      },
+      {
+        "day": 5,
+        "title": "To Nuremberg",
+        "morning": "Train to Nuremberg.",
+        "afternoon": "The old town and Nuremberg Castle.",
+        "evening": "Dinner featuring Nuremberg's famous small sausages."
+      },
+      {
+        "day": 6,
+        "title": "To Munich",
+        "morning": "Train to Munich.",
+        "afternoon": "Marienplatz and the Viktualienmarkt.",
+        "evening": "A proper Bavarian beer hall dinner."
+      },
+      {
+        "day": 7,
+        "title": "Munich's museums",
+        "morning": "The Deutsches Museum or the Pinakothek galleries.",
+        "afternoon": "The English Garden's beer gardens.",
+        "evening": "A final Munich dinner."
+      },
+      {
+        "day": 8,
+        "title": "Into the Romantic Road",
+        "morning": "Hire a car and drive to Neuschwanstein Castle.",
+        "afternoon": "Tour the castle and its surrounding scenery.",
+        "evening": "Dinner in Füssen."
+      },
+      {
+        "day": 9,
+        "title": "Rothenburg ob der Tauber",
+        "morning": "Drive north to Rothenburg's walled old town.",
+        "afternoon": "Walk the town walls and explore the medieval streets.",
+        "evening": "Dinner within the walls."
+      },
+      {
+        "day": 10,
+        "title": "To the Rhine Valley",
+        "morning": "Return the hire car and train to the Rhine Valley.",
+        "afternoon": "A river cruise past vineyard-covered slopes and castles.",
+        "evening": "Dinner in a riverside town."
+      },
+      {
+        "day": 11,
+        "title": "Rhine castles",
+        "morning": "Visit a hilltop castle, such as Marksburg.",
+        "afternoon": "Continue along the valley by train or boat.",
+        "evening": "A wine tasting in a valley village."
+      },
+      {
+        "day": 12,
+        "title": "To Cologne",
+        "morning": "Train to Cologne.",
+        "afternoon": "Cologne Cathedral and the old town.",
+        "evening": "Kölsch beer in a traditional Brauhaus."
+      },
+      {
+        "day": 13,
+        "title": "Free day",
+        "morning": "Shopping or a museum you missed.",
+        "afternoon": "Anything left on the list.",
+        "evening": "Pack and prepare for departure."
+      },
+      {
+        "day": 14,
+        "title": "Depart",
+        "morning": "Train back to Berlin, or fly directly from Cologne.",
+        "afternoon": "Transfer to the airport.",
+        "evening": "Fly home."
+      }
+    ]
+  },
+  "culture": {
+    "intro": "German culture varies genuinely by region, but a handful of broadly shared norms — punctuality, directness, and a particular relationship with rules — hold across most of it.",
+    "etiquette": [
+      {
+        "title": "Punctuality is taken seriously",
+        "text": "Arriving on time, for a business meeting or a dinner invitation alike, is a genuine expectation rather than a flexible guideline — being even five minutes late is worth a brief apology."
+      },
+      {
+        "title": "Directness is normal, not rudeness",
+        "text": "Germans generally communicate more directly than many cultures find comfortable at first — a blunt opinion or correction is not meant as hostile, just efficient."
+      },
+      {
+        "title": "Jaywalking is genuinely frowned upon",
+        "text": "Crossing against a red pedestrian light, even with no traffic present, draws real disapproval, especially with children nearby — Germans wait for the green man."
+      },
+      {
+        "title": "Sundays are for rest, by law and custom",
+        "text": "Most shops close on Sundays nationwide, and loud activities like mowing a lawn are genuinely restricted in many areas — plan grocery shopping accordingly."
+      },
+      {
+        "title": "Formal address matters on first meeting",
+        "text": "The formal 'Sie' rather than the informal 'du' is expected with strangers and in business contexts until invited to switch — a small but noticed courtesy."
+      },
+      {
+        "title": "Recycling and waste sorting are taken seriously",
+        "text": "Germany's multi-bin recycling system is genuinely comprehensive, and visitors staying in apartments or with locals are expected to sort correctly."
+      }
+    ],
+    "dos": [
+      "Arrive on time, or a few minutes early, for any appointment or reservation",
+      "Wait for pedestrian crossing lights even when no traffic is visible",
+      "Carry some cash, since not all businesses accept cards",
+      "Use formal address ('Sie') with strangers until invited to switch to 'du'",
+      "Book Oktoberfest accommodation and beer tent tables many months ahead if visiting in September",
+      "Plan grocery shopping around Sunday closures, which are close to universal"
+    ],
+    "donts": [
+      "Don't jaywalk, even on an empty street — it is noticed and disapproved of",
+      "Don't assume every business takes cards — some smaller restaurants and shops are cash-only",
+      "Don't bring up Nazi-era history casually or jokingly — it is treated with real seriousness",
+      "Don't expect shops to be open on Sundays outside of bakeries, some tourist areas and train stations",
+      "Don't be late without a brief apology, even by a few minutes",
+      "Don't assume the autobahn is entirely speed-limit-free — many stretches are restricted"
+    ]
+  },
+  "tipsIntro": "The things that most often go wrong on a Germany trip, in rough order of how much they cost people.",
+  "tips": [
+    "Book ICE Sparpreis train tickets as far ahead as possible — fares released months out can be a fraction of the walk-up price for the same journey.",
+    "Carry some cash — Germany remains more cash-reliant than many neighbouring countries, especially at smaller restaurants and market stalls.",
+    "Plan around Sunday closures — most shops close nationwide, though bakeries, restaurants and train station shops generally stay open.",
+    "Book Oktoberfest accommodation and beer tent reservations many months ahead if visiting Munich in September.",
+    "Consider the Deutschland-Ticket if combining several regional destinations — it covers regional trains and local transport nationwide for one monthly price.",
+    "Wait for pedestrian crossing lights — jaywalking is genuinely frowned upon and sometimes fined.",
+    "Pack for real regional weather variation — the Baltic coast and the Bavarian Alps can differ sharply even on the same day.",
+    "Reserve Neuschwanstein Castle tickets online well ahead in summer, when walk-up queues can mean missing the day's tour slots entirely."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Germany?",
+      "a": "Ten to fourteen for a first trip. Eight to ten covers Berlin, Nuremberg and Munich by train with reasonable pacing; twelve to sixteen lets you add real countryside like the Rhine Valley or the Romantic Road, which is the itinerary on this page. Four or five days is enough for Berlin alone, and Berlin alone genuinely justifies a trip."
+    },
+    {
+      "q": "What is the best time of year to visit Germany?",
+      "a": "May to June and September are the sweet spots — mild weather, long daylight in early summer, and the wine harvest and Oktoberfest in autumn. Summer brings the best odds of warm weather at the cost of crowds; winter is cold but the Christmas markets from late November bring real seasonal charm."
+    },
+    {
+      "q": "Do I need a car in Germany?",
+      "a": "Only for specific regions. The rail network covers Berlin, Munich, Hamburg, Cologne, Dresden and Nuremberg extremely well. A car becomes genuinely useful for the Black Forest's smaller villages and a flexible Rhine Valley castle route, and is the practical way to see several Romantic Road towns in one trip."
+    },
+    {
+      "q": "Is Germany expensive?",
+      "a": "Mid-range travel runs about €110–180 per person per day, with Munich and Berlin adding a modest premium over that figure. Booking ICE trains and Oktoberfest accommodation well ahead is the single biggest lever on cost, alongside eating at bakeries and traditional Gasthaus restaurants rather than tourist-focused ones."
+    },
+    {
+      "q": "Is Germany safe for tourists?",
+      "a": "Very. Violent crime against visitors is rare, and most cities are safe to walk in the evening. The practical risk is pickpocketing in crowded tourist areas and on public transport in major cities, manageable with ordinary vigilance around bags and phones."
+    },
+    {
+      "q": "Is it easy to get by with English in Germany?",
+      "a": "Generally yes in cities and among younger Germans, especially in tourism-facing roles, though learning a few basic German phrases is genuinely appreciated and occasionally necessary in smaller towns and rural areas."
+    }
+  ]
+}

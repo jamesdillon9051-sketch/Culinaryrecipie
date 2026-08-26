@@ -51,6 +51,19 @@
     "cardWidth": 800,
     "cardHeight": 523
   },
+  "File:! Mehringdamm in Berlin-Kreuzberg (2018).jpg": {
+    "artist": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:!_Mehringdamm_in_Berlin-Kreuzberg_(2018).jpg",
+    "context": "Explore Kreuzberg and Neukölln — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-1.webp",
+    "card": "images/germany/berlin--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:\"Face-Changing\" (4213632444).jpg": {
     "artist": "Joshua Shinavier",
     "license": "CC BY 2.0",
@@ -350,6 +363,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:2016.10.14.133502 Noodle soup beef Pho Bac Vietnamese restaurant Seattle Washington USA.jpg": {
+    "artist": "Hermann Luyken",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016.10.14.133502_Noodle_soup_beef_Pho_Bac_Vietnamese_restaurant_Seattle_Washington_USA.jpg",
+    "context": "Vietnamese food in Prenzlauer Berg — Berlin, Germany",
+    "hero": "images/germany/berlin--food-6.webp",
+    "card": "images/germany/berlin--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2017-03-23 On the Palatine Hill.jpg": {
     "artist": "BIG ALBERT",
     "license": "CC BY 2.0",
@@ -402,6 +428,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2023-01-23 Currywurst in Berlin.jpg": {
+    "artist": "Maksym Kozlenko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-01-23_Currywurst_in_Berlin.jpg",
+    "context": "Currywurst — Berlin, Germany",
+    "hero": "images/germany/berlin--food-1.webp",
+    "card": "images/germany/berlin--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2023-09-15 Bath Royal Crescent 05.jpg": {
     "artist": "Bärbel Miemietz",
     "license": "CC BY-SA 4.0",
@@ -423,6 +462,19 @@
     "context": "Trek in the Kaçkars — Trabzon & the Black Sea Coast, Turkey",
     "hero": "images/turkey/trabzon-black-sea--thing-4.webp",
     "card": "images/turkey/trabzon-black-sea--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:20240608 Döner Kebab mit Efes Bier Alibaba Bistro Berlin anagoria.jpg": {
+    "artist": "Anagoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240608_D%C3%B6ner_Kebab_mit_Efes_Bier_Alibaba_Bistro_Berlin_anagoria.jpg",
+    "context": "Döner kebab — Berlin, Germany",
+    "hero": "images/germany/berlin--food-2.webp",
+    "card": "images/germany/berlin--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -1962,6 +2014,71 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Berghain Berlin Facade.jpg": {
+    "artist": "Jane Mejdahl",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berghain_Berlin_Facade.jpg",
+    "context": "Experience Berlin's nightlife — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-2.webp",
+    "card": "images/germany/berlin--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Berlin Wall Bernauer Strasse.jpg": {
+    "artist": "Einaz80",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_Bernauer_Strasse.jpg",
+    "context": "Walk or cycle the former Wall route — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-3.webp",
+    "card": "images/germany/berlin--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Berlin, East Side Gallery 2014-07 (Alexej Taranin - Mauern international).jpg": {
+    "artist": "HerrAdams",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin,_East_Side_Gallery_2014-07_(Alexej_Taranin_-_Mauern_international).jpg",
+    "context": "The East Side Gallery — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-4.webp",
+    "card": "images/germany/berlin--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 502
+  },
+  "File:Berliner Pfannkuchen 1.jpg": {
+    "artist": "Sebastian Koppehel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berliner_Pfannkuchen_1.jpg",
+    "context": "Berliner (jam doughnut) — Berlin, Germany",
+    "hero": "images/germany/berlin--food-5.webp",
+    "card": "images/germany/berlin--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Berliner Weisse mit Schuss (14768015851).jpg": {
+    "artist": "marsupium photography",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berliner_Weisse_mit_Schuss_(14768015851).jpg",
+    "context": "Berliner Weisse — Berlin, Germany",
+    "hero": "images/germany/berlin--food-3.webp",
+    "card": "images/germany/berlin--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bethesda Terrace and 432 Park Avenue from the Lake, Central Park, Manhattan, New York.jpg": {
     "artist": "Christian David",
     "license": "CC BY-SA 4.0",
@@ -2360,6 +2477,32 @@
     "context": "Boztepe and the Atatürk Pavilion — Trabzon & the Black Sea Coast, Turkey",
     "hero": "images/turkey/trabzon-black-sea--attraction-8.webp",
     "card": "images/turkey/trabzon-black-sea--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Brandenburg Gate (7735851972).jpg": {
+    "artist": "Filip Maljković from Pancevo, Serbia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_(7735851972).jpg",
+    "context": "The Brandenburg Gate — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-1.webp",
+    "card": "images/germany/berlin--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Brandenburg Gate at dusk, Berlin (2) (39469443234).jpg": {
+    "artist": "Richard Mortel from Riyadh, Saudi Arabia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_at_dusk,_Berlin_(2)_(39469443234).jpg",
+    "context": "Berlin, Germany",
+    "hero": "images/germany/berlin.webp",
+    "card": "images/germany/berlin-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3348,6 +3491,19 @@
     "context": "The Médoc — Bordeaux, France",
     "hero": "images/france/bordeaux--attraction-4.webp",
     "card": "images/france/bordeaux--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Checkpoint Charlie - écriteau (Berlin).jpg": {
+    "artist": "Gzen92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Checkpoint_Charlie_-_%C3%A9criteau_(Berlin).jpg",
+    "context": "Checkpoint Charlie and the Wall Museum — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-6.webp",
+    "card": "images/germany/berlin--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5550,6 +5706,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Flea Market Mauerpark (6082251437).jpg": {
+    "artist": "Aleksandr Zykov from Russia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Market_Mauerpark_(6082251437).jpg",
+    "context": "Visit a flea market — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-4.webp",
+    "card": "images/germany/berlin--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Florence from the Duomo terrace (61408p).jpg": {
     "artist": "Rhododendrites",
     "license": "CC BY-SA 4.0",
@@ -7396,6 +7565,19 @@
     "cardWidth": 800,
     "cardHeight": 478
   },
+  "File:JEWISH MEMORIAL BERLIN GERMANY APRIL 2012 (7093263449).jpg": {
+    "artist": "calflier001",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEWISH_MEMORIAL_BERLIN_GERMANY_APRIL_2012_(7093263449).jpg",
+    "context": "The Holocaust Memorial — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-2.webp",
+    "card": "images/germany/berlin--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Jia san soup dumplings in Xi yang shi 1.jpg": {
     "artist": "我乃野云鹤",
     "license": "CC BY-SA 4.0",
@@ -8721,6 +8903,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Markthalle Neun 08.02.2015 16-33-23.JPG": {
+    "artist": "Dirk Ingo Franke",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Markthalle_Neun_08.02.2015_16-33-23.JPG",
+    "context": "Bratwurst and street food markets — Berlin, Germany",
+    "hero": "images/germany/berlin--food-4.webp",
+    "card": "images/germany/berlin--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Markus Storck Cap Formentor, Mallorca.jpg": {
     "artist": "RSander-Strock",
@@ -10490,6 +10685,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Pergamon Museum Berlin colonnade.jpg": {
+    "artist": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pergamon_Museum_Berlin_colonnade.jpg",
+    "context": "Museum Island — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-3.webp",
+    "card": "images/germany/berlin--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Pescaíto frito. chiclana.jpg": {
     "artist": "Xemenendura",
     "license": "CC BY-SA 4.0",
@@ -11647,6 +11855,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Reichstag Dome, Berlin (Ank Kumar) 08.jpg": {
+    "artist": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reichstag_Dome,_Berlin_(Ank_Kumar)_08.jpg",
+    "context": "The Reichstag Building — Berlin, Germany",
+    "hero": "images/germany/berlin--attraction-5.webp",
+    "card": "images/germany/berlin--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Remparts Alcazaba Alhambra Grenade.jpg": {
     "artist": "Jebulon",
     "license": "CC0",
@@ -12505,6 +12726,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sede Stasi Museum.JPG": {
+    "artist": "Prof.Quatermass",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sede_Stasi_Museum.JPG",
+    "context": "Take a Cold War history tour — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-5.webp",
+    "card": "images/germany/berlin--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Seiser Alm 04.jpg": {
     "artist": "H. Zell",
     "license": "CC BY-SA 3.0",
@@ -13206,6 +13440,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Strandbad Wannsee 09.04.2016 16-29-40.jpg": {
+    "artist": "Dirk Ingo Franke",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strandbad_Wannsee_09.04.2016_16-29-40.jpg",
+    "context": "Relax in the Tiergarten or by a lake — Berlin, Germany",
+    "hero": "images/germany/berlin--thing-6.webp",
+    "card": "images/germany/berlin--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Strasbourg - Cathedral - West Façade I.jpg": {
     "artist": "Txllxt TxllxT",
