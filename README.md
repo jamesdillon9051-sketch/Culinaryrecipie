@@ -73,6 +73,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── assets/
 │       ├── css/critical.css     # design tokens + above-the-fold (inlined)
 │       ├── css/main.css         # everything else (deferred)
+│       ├── js/theme.js          # pre-paint theme + async stylesheet promotion
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
@@ -191,7 +192,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Performance & Core Web Vitals
 
-- [x] **LCP** — critical CSS inlined, hero image `fetchpriority="high"`, Google Fonts loaded non-blocking with a system fallback stack
+- [x] **LCP** — critical CSS inlined, hero image `fetchpriority="high"`, `main.css` preloaded then applied off the critical path, Google Fonts non-blocking with a system fallback stack
 - [x] **CLS** — explicit `width`/`height` on every image, `aspect-ratio` on media containers, dominant-colour backgrounds behind lazy images, theme applied before first paint
 - [x] **INP** — all JavaScript deferred; debounced search input; `IntersectionObserver` for reveals; `requestAnimationFrame`-throttled parallax
 - [x] WebP served via `<picture>` with a JPEG fallback for every image
@@ -199,6 +200,24 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] Blur-up LQIP on recipe hero images; dominant-colour placeholders on cards
 - [x] Long-cache headers for assets, revalidate for HTML
 - [x] Zero third-party JavaScript, zero trackers
+
+### Security
+
+- [x] **Strict CSP** — `script-src 'self'` with no `'unsafe-inline'` or `'unsafe-eval'`. There are no inline scripts and no inline event handlers anywhere in the output; `check.js` fails the build if one reappears
+- [x] `object-src 'none'`, `base-uri 'self'`, `frame-ancestors 'self'`, `form-action 'self'`, `upgrade-insecure-requests`
+- [x] Identical policy on Netlify and Vercel — `check.js` fails if the two configs drift apart
+- [x] `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`
+- [x] Every value rendered into HTML client-side is escaped; slugs and image filenames are pattern-restricted, and colours must match `#rrggbb`
+- [x] The image manifest is validated at the build boundary, so a malformed entry fails the build rather than reaching a `style` or `src` attribute
+- [x] `localStorage` is treated as untrusted input: reviews and favourites are shape-checked and normalised on read
+- [x] The image pipeline follows `http(s)` URLs only, never `file://`
+- [x] Zero dependencies, so no supply chain and no install hooks
+
+`style-src` deliberately keeps `'unsafe-inline'`. Cards carry a per-recipe
+background colour, hero images carry a blur-up data URI, and star ratings carry
+a computed width — all as inline `style` attributes. Inline styles cannot
+execute script, so this is a much weaker concession than an inline `script-src`
+would be.
 
 ### Content quality
 

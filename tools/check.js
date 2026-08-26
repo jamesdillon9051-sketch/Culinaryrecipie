@@ -104,6 +104,22 @@ for (const file of htmlFiles) {
     }
   }
 
+  /* --- strict-CSP compatibility ------------------------------------------
+     The deployed Content-Security-Policy sets `script-src 'self'`, which
+     blocks inline scripts and inline event handlers. Fail the build if one
+     reappears, rather than shipping a page whose behaviour is silently
+     dropped by the browser. */
+  for (const match of html.matchAll(/<script\b([^>]*)>/g)) {
+    const attrs = match[1];
+    if (/\bsrc=/.test(attrs)) continue;
+    /* JSON-LD is a data block: the browser never executes it, so CSP allows it. */
+    if (/type="application\/ld\+json"/.test(attrs)) continue;
+    problems.push(`${rel}: inline <script> blocked by script-src 'self'`);
+  }
+  for (const match of html.matchAll(/\s(on[a-z]+)="/g)) {
+    problems.push(`${rel}: inline ${match[1]} handler blocked by script-src 'self'`);
+  }
+
   /* --- accessibility spot checks --------------------------------------- */
   if (!/class="skip-link"/.test(html)) problems.push(`${rel}: missing skip-to-content link`);
   /* Match a single button without letting the body run into the next one. */
@@ -134,6 +150,30 @@ if (index.length !== 200) problems.push(`search index has ${index.length} entrie
 for (const entry of index) {
   if (entry.i && !existing.has(`/assets/img/recipes/${entry.i}.jpg`)) {
     problems.push(`search index references a missing image: ${entry.i}`);
+  }
+}
+
+/* --- deployment headers -------------------------------------------------- */
+const netlify = fs.readFileSync(path.join(__dirname, '..', 'netlify.toml'), 'utf8');
+const vercel = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'vercel.json'), 'utf8'));
+const vercelCsp = vercel.headers
+  .flatMap(block => block.headers)
+  .filter(header => header.key === 'Content-Security-Policy')
+  .map(header => header.value)[0];
+
+if (!vercelCsp) {
+  problems.push('vercel.json is missing a Content-Security-Policy header');
+} else {
+  if (!netlify.includes(vercelCsp)) {
+    problems.push('the Netlify and Vercel CSPs have drifted apart');
+  }
+  const scriptSrc = /script-src ([^;]*)/.exec(vercelCsp);
+  if (!scriptSrc) problems.push('CSP has no script-src directive');
+  else if (/unsafe-inline|unsafe-eval/.test(scriptSrc[1])) {
+    problems.push(`CSP script-src is not strict: ${scriptSrc[1].trim()}`);
+  }
+  for (const directive of ['object-src', 'base-uri', 'frame-ancestors', 'form-action']) {
+    if (!vercelCsp.includes(directive)) problems.push(`CSP is missing ${directive}`);
   }
 }
 

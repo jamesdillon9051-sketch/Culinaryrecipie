@@ -279,7 +279,7 @@ ${breadcrumbs(trail)}
     </div>
   </header>
 
-  <form role="search" style="margin-bottom:1.5rem" onsubmit="return false">
+  <form role="search" style="margin-bottom:1.5rem" data-search-form>
     <div class="search-shell" style="max-width:none">
       ${ICONS.search}
       <label class="sr-only" for="directory-query">Search within these recipes</label>

@@ -13,6 +13,9 @@ const SITE = {
   founded: 2019
 };
 
+const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
+                 '&family=Inter:wght@400;500;600;700&display=swap';
+
 /* ------------------------------------------------------------------ icons */
 const ICONS = {
   clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
@@ -174,21 +177,26 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
 <style>${page.criticalCss}</style>
-<link rel="preload" href="${SITE.base}assets/css/main.css" as="style" onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="${SITE.base}assets/css/main.css"></noscript>
+
+<!--
+  Stylesheets load without blocking the first paint: each is parked at
+  media="print" and promoted to media="all" by theme.js once it has loaded.
+  The <noscript> copies cover visitors with JavaScript disabled.
+  No inline onload handlers, so script-src needs no 'unsafe-inline'.
+-->
+<link rel="preload" href="${SITE.base}assets/css/main.css" as="style">
+<link rel="stylesheet" href="${SITE.base}assets/css/main.css" media="print" data-async-style>
+<link rel="stylesheet" href="${FONT_CSS}" media="print" data-async-style>
+<noscript>
+  <link rel="stylesheet" href="${SITE.base}assets/css/main.css">
+  <link rel="stylesheet" href="${FONT_CSS}">
+</noscript>
 ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as="${p.as}"${p.type ? ` type="${p.type}"` : ''}${p.crossorigin ? ' crossorigin' : ''}>`).join('\n') : ''}
 
-<script>
-/* Apply the stored theme before first paint so there is no flash. */
-(function(){try{var t=JSON.parse(localStorage.getItem('cv:theme'));
-if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
-document.documentElement.setAttribute('data-theme',t);
-if(t==='dark'){var m=document.querySelector('meta[name=theme-color]');if(m)m.content='#17130f';}}catch(e){}})();
-</script>
+<!-- Applies the saved theme before paint and promotes the stylesheets above. -->
+<script src="${SITE.base}assets/js/theme.js"></script>
 ${schemaBlocks}
 </head>
 <body class="${page.bodyClass || ''}" data-base="${SITE.base}">
