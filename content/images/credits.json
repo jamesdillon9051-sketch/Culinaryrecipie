@@ -441,6 +441,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:20220430 currywurst.jpg": {
+    "artist": "Ziko van Dijk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20220430_currywurst.jpg",
+    "context": "Currywurst, Hamburg's rival version — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-5.webp",
+    "card": "images/germany/hamburg--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:2023-01-23 Currywurst in Berlin.jpg": {
     "artist": "Maksym Kozlenko",
     "license": "CC BY-SA 4.0",
@@ -908,6 +921,19 @@
     "heroHeight": 566,
     "cardWidth": 800,
     "cardHeight": 283
+  },
+  "File:Alster Lake Hamburg.jpg": {
+    "artist": "Fronl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alster_Lake_Hamburg.jpg",
+    "context": "Walk or cycle along the Alster lakes — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-5.webp",
+    "card": "images/germany/hamburg--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:American breakfast (187066827).jpg": {
     "artist": "Jessica from Hove, United Kingdom",
@@ -1909,6 +1935,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Beatles-Platz (Hamburg-St. Pauli).jpg": {
+    "artist": "Bernhard Diener",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beatles-Platz_(Hamburg-St._Pauli).jpg",
+    "context": "Experience the Reeperbahn's nightlife — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-3.webp",
+    "card": "images/germany/hamburg--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Beggar's Chicken by Hangzhou's \"Mountain Beyond Mountain\" Restaurant.jpg": {
     "artist": "Zheng Zhou",
@@ -5290,6 +5329,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Elbphilharmonie Hamburg August 2023.jpg": {
+    "artist": "Niels Johannes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie_Hamburg_August_2023.jpg",
+    "context": "Hamburg, Germany",
+    "hero": "images/germany/hamburg.webp",
+    "card": "images/germany/hamburg-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Empanada gallega-Chorizo.jpg": {
     "artist": "Tamorlan",
     "license": "CC BY 3.0",
@@ -5719,6 +5771,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Fischauktionshalle im Morgengrauen.jpg": {
+    "artist": "GZagatta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fischauktionshalle_im_Morgengrauen.jpg",
+    "context": "Explore the Fischmarkt on a Sunday morning — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-2.webp",
+    "card": "images/germany/hamburg--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Fischbrötchen Backfisch in Hamburg 2023.jpg": {
+    "artist": "Wikiolo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fischbr%C3%B6tchen_Backfisch_in_Hamburg_2023.jpg",
+    "context": "Fischbrötchen — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-1.webp",
+    "card": "images/germany/hamburg--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Fish chips mushy peas Ledger Building Wetherspoons North Quay Canary Wharf London England.jpg": {
     "artist": "Acabashi",
     "license": "CC BY-SA 4.0",
@@ -6026,6 +6104,19 @@
     "context": "Oak Park and Frank Lloyd Wright — Chicago, United States",
     "hero": "images/united-states/chicago--attraction-7.webp",
     "card": "images/united-states/chicago--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Franzbrötchen mit Capuccino in Hamburg 2023.jpg": {
+    "artist": "Wikiolo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franzbr%C3%B6tchen_mit_Capuccino_in_Hamburg_2023.jpg",
+    "context": "Franzbrötchen — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-3.webp",
+    "card": "images/germany/hamburg--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6949,6 +7040,110 @@
     "context": "Halfeti — Şanlıurfa & Göbekli Tepe, Turkey",
     "hero": "images/turkey/sanliurfa-gobekli-tepe--attraction-8.webp",
     "card": "images/turkey/sanliurfa-gobekli-tepe--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburg Hafen Containerterminal.jpg": {
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_Hafen_Containerterminal.jpg",
+    "context": "The Port of Hamburg — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-3.webp",
+    "card": "images/germany/hamburg--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburg Reeperbahn 2.jpg": {
+    "artist": "Andrzej Otrębski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_Reeperbahn_2.jpg",
+    "context": "The Reeperbahn and St. Pauli — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-4.webp",
+    "card": "images/germany/hamburg--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburg, Elbphilharmonie -- 2023 -- 6569.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg,_Elbphilharmonie_--_2023_--_6569.jpg",
+    "context": "The Elbphilharmonie — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-1.webp",
+    "card": "images/germany/hamburg--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburg, Hafen, Landungsbrücken -- 2025 -- 2811.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg,_Hafen,_Landungsbr%C3%BCcken_--_2025_--_2811.jpg",
+    "context": "Take a harbour boat tour — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-1.webp",
+    "card": "images/germany/hamburg--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:Hamburg, St. Michaelis -- 2023 -- 6615.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg,_St._Michaelis_--_2023_--_6615.jpg",
+    "context": "St. Michael's Church (Michel) — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-5.webp",
+    "card": "images/germany/hamburg--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburg’s Speicherstadt at night.jpg": {
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg%E2%80%99s_Speicherstadt_at_night.jpg",
+    "context": "The Speicherstadt — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-2.webp",
+    "card": "images/germany/hamburg--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburger Aalsuppe bei Hamburger Fischerstuben.jpg": {
+    "artist": "Zi Li",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_Aalsuppe_bei_Hamburger_Fischerstuben.jpg",
+    "context": "Aalsuppe (eel soup) — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-4.webp",
+    "card": "images/germany/hamburg--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hamburger Labskaus 1.jpg": {
+    "artist": "GeoTrinity",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_Labskaus_1.jpg",
+    "context": "Labskaus — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-2.webp",
+    "card": "images/germany/hamburg--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7976,6 +8171,19 @@
     "context": "The Summer Palace — Beijing, China",
     "hero": "images/china/beijing--attraction-5.webp",
     "card": "images/china/beijing--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kunsthalle night.jpg": {
+    "artist": "Morn the Gorn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunsthalle_night.jpg",
+    "context": "The Kunsthalle Hamburg — Hamburg, Germany",
+    "hero": "images/germany/hamburg--attraction-6.webp",
+    "card": "images/germany/hamburg--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9397,6 +9605,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Miniatur Wunderland Hamburg 2.jpg": {
+    "artist": "Steven Lek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miniatur_Wunderland_Hamburg_2.jpg",
+    "context": "Visit Miniatur Wunderland — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-4.webp",
+    "card": "images/germany/hamburg--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Mission burritos.jpg": {
     "artist": "Cristina Bejarano",
@@ -12492,6 +12713,19 @@
     "cardWidth": 800,
     "cardHeight": 518
   },
+  "File:Rote Grütze mit Vanillesoße.JPG": {
+    "artist": "Olaf Simons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rote_Gr%C3%BCtze_mit_Vanilleso%C3%9Fe.JPG",
+    "context": "Rote Grütze — Hamburg, Germany",
+    "hero": "images/germany/hamburg--food-6.webp",
+    "card": "images/germany/hamburg--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Rou jia mo in Xi yang shi.jpg": {
     "artist": "我乃野云鹤",
     "license": "CC BY-SA 4.0",
@@ -15299,6 +15533,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Treppenviertel (Hamburg-Blankenese).jpg": {
+    "artist": "Olga Ernst",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treppenviertel_(Hamburg-Blankenese).jpg",
+    "context": "Take a day trip along the Elbe — Hamburg, Germany",
+    "hero": "images/germany/hamburg--thing-6.webp",
+    "card": "images/germany/hamburg--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
   },
   "File:Trevi fountain at night 05.jpg": {
     "artist": "John Samuel",
