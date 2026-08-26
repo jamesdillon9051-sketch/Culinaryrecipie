@@ -1208,6 +1208,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Agora Modiano.jpg": {
+    "artist": "Valina Tsikalá",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agora_Modiano.jpg",
+    "context": "Eat your way through the Modiano and Kapani markets — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-4.webp",
+    "card": "images/greece/thessaloniki--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ahi tuna Poke.jpeg": {
     "artist": "Openmalware.exe",
     "license": "CC BY-SA 4.0",
@@ -3249,6 +3262,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bougatsa.jpg": {
+    "artist": "Konstantinos Stampoulis (Geraki)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bougatsa.jpg",
+    "context": "Bougatsa — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--food-1.webp",
+    "card": "images/greece/thessaloniki--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bouillabaisse de chez Fonfon dans un restaurant du Vieux-Port (Marseille) en novembre 2022.JPG": {
     "artist": "Benoît Prieur",
     "license": "CC0",
@@ -3738,6 +3764,19 @@
     "context": "Beignets — New Orleans, United States",
     "hero": "images/united-states/new-orleans--food-3.webp",
     "card": "images/united-states/new-orleans--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Cafes at Aristotelous Square, Thessaloniki.jpg": {
+    "artist": "Paul Pela",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cafes_at_Aristotelous_Square,_Thessaloniki.jpg",
+    "context": "Go café-hopping in the city centre — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-3.webp",
+    "card": "images/greece/thessaloniki--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8813,6 +8852,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hagios Demetrios, Thessaloniki 01.jpg": {
+    "artist": "DMY",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagios_Demetrios,_Thessaloniki_01.jpg",
+    "context": "The Church of Saint Demetrios — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-3.webp",
+    "card": "images/greece/thessaloniki--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hakone Open-air Museum 20211202-5.jpg": {
     "artist": "Suicasmo",
     "license": "CC BY-SA 4.0",
@@ -10160,6 +10212,19 @@
     "context": "The Holocaust Memorial — Berlin, Germany",
     "hero": "images/germany/berlin--attraction-2.webp",
     "card": "images/germany/berlin--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Jewish museum thessaloniki sign.jpg": {
+    "artist": "Sam. SALTIEL",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jewish_museum_thessaloniki_sign.jpg",
+    "context": "Learn about the city's Sephardic Jewish history — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-5.webp",
+    "card": "images/greece/thessaloniki--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -20162,6 +20227,84 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Thesaloniki - Upper Old Town.jpg": {
+    "artist": "Daniel Tellman (UED14579)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thesaloniki_-_Upper_Old_Town.jpg",
+    "context": "Ano Poli, the old town — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-4.webp",
+    "card": "images/greece/thessaloniki--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 568,
+    "cardWidth": 800,
+    "cardHeight": 284
+  },
+  "File:Thessaloniki Arch of Galerius from the west.jpg": {
+    "artist": "Ymblanter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki_Arch_of_Galerius_from_the_west.jpg",
+    "context": "The Arch of Galerius and Rotunda complex — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-5.webp",
+    "card": "images/greece/thessaloniki--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Thessaloniki Archaeological Museum Statuette of a woman.jpg": {
+    "artist": "Ymblanter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki_Archaeological_Museum_Statuette_of_a_woman.jpg",
+    "context": "The Archaeological Museum of Thessaloniki — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-6.webp",
+    "card": "images/greece/thessaloniki--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Thessaloniki beach promenade.jpg": {
+    "artist": "Johannesjom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki_beach_promenade.jpg",
+    "context": "Walk the waterfront promenade — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-1.webp",
+    "card": "images/greece/thessaloniki--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 635,
+    "cardWidth": 800,
+    "cardHeight": 318
+  },
+  "File:Thessaloniki White Tower closeup.jpg": {
+    "artist": "Ymblanter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki_White_Tower_closeup.jpg",
+    "context": "The White Tower — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-1.webp",
+    "card": "images/greece/thessaloniki--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Thessaloniki-from old town.jpg": {
+    "artist": "No machine-readable author provided. Snowdog assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki-from_old_town.jpg",
+    "context": "Explore Ano Poli's lanes — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-2.webp",
+    "card": "images/greece/thessaloniki--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tholos of Delphi 03.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 4.0",
@@ -20811,6 +20954,19 @@
     "heroHeight": 724,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Trigona Panoramatos.jpg": {
+    "artist": "Catlemur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trigona_Panoramatos.jpg",
+    "context": "Trigona Panoramatos — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--food-2.webp",
+    "card": "images/greece/thessaloniki--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Tripa embutida de sobrasada.jpg": {
     "artist": "Juan Emilio Prades Bel",
@@ -22320,6 +22476,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:White Tower in Thessaloniki.jpg": {
+    "artist": "Hermann Hammer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Tower_in_Thessaloniki.jpg",
+    "context": "Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki.webp",
+    "card": "images/greece/thessaloniki-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:White villages alpujarras.jpg": {
     "artist": "NetraaMR",
     "license": "CC BY 3.0",
@@ -22970,6 +23139,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Λαδάδικα 1942.jpg": {
+    "artist": "C messier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%9B%CE%B1%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%B1_1942.jpg",
+    "context": "Experience Thessaloniki's nightlife — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--thing-6.webp",
+    "card": "images/greece/thessaloniki--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Μελεκούνι.jpg": {
     "artist": "AnthiA",
     "license": "CC BY-SA 4.0",
@@ -23004,6 +23186,19 @@
     "context": "Pastitsada — Corfu, Greece",
     "hero": "images/greece/corfu--food-1.webp",
     "card": "images/greece/corfu--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ροτόντα 1617.jpg": {
+    "artist": "C messier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A1%CE%BF%CF%84%CF%8C%CE%BD%CF%84%CE%B1_1617.jpg",
+    "context": "The Rotunda — Thessaloniki, Greece",
+    "hero": "images/greece/thessaloniki--attraction-2.webp",
+    "card": "images/greece/thessaloniki--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
