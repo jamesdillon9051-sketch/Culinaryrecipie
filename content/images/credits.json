@@ -389,6 +389,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:20100727 Nikko 6038.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100727_Nikko_6038.jpg",
+    "context": "Walk the cedar-lined Nikko Kaido avenue — Nikko, Japan",
+    "hero": "images/japan/nikko--thing-4.webp",
+    "card": "images/japan/nikko--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:20100727 Nikko Tosho-gu Nemuri-neko 5965.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100727_Nikko_Tosho-gu_Nemuri-neko_5965.jpg",
+    "context": "Find the sleeping cat carving — Nikko, Japan",
+    "hero": "images/japan/nikko--thing-1.webp",
+    "card": "images/japan/nikko--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2013.10.01.103712 Great Wine Barrel Castle Heidelberg.jpg": {
     "artist": "Hermann Luyken",
     "license": "CC0",
@@ -1203,6 +1229,19 @@
     "context": "Walk or cycle along the Alster lakes — Hamburg, Germany",
     "hero": "images/germany/hamburg--thing-5.webp",
     "card": "images/germany/hamburg--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Amazake by emily harbour in july.jpg": {
+    "artist": "emily_harbour_in_july",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazake_by_emily_harbour_in_july.jpg",
+    "context": "Amazake — Nikko, Japan",
+    "hero": "images/japan/nikko--food-6.webp",
+    "card": "images/japan/nikko--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7071,6 +7110,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Freshly caught ayu (sweetfish) roasting on sticks, Nishiiyayama, Tokushima Prefecture, Shikoku, Japan.jpg": {
+    "artist": "OKJaguar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshly_caught_ayu_(sweetfish)_roasting_on_sticks,_Nishiiyayama,_Tokushima_Prefecture,_Shikoku,_Japan.jpg",
+    "context": "Mountain stream trout (iwana and yamame) — Nikko, Japan",
+    "hero": "images/japan/nikko--food-4.webp",
+    "card": "images/japan/nikko--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Frische, selbstgemachte Reibekuchen-8786.jpg": {
     "artist": "Raimond Spekking",
     "license": "CC BY-SA 4.0",
@@ -9333,6 +9385,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Japan, Tochigi, Nikko - lake Chuzenji 2013 1.jpg": {
+    "artist": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japan,_Tochigi,_Nikko_-_lake_Chuzenji_2013_1.jpg",
+    "context": "Lake Chuzenji — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-5.webp",
+    "card": "images/japan/nikko--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Japanese anagomeshi.jpg": {
     "artist": "User:Clapon",
     "license": "CC BY-SA 3.0",
@@ -9709,6 +9774,32 @@
     "heroHeight": 887,
     "cardWidth": 800,
     "cardHeight": 443
+  },
+  "File:Kegon no Taki 2023-08-25 (4).jpg": {
+    "artist": "Mauricio V. Genta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kegon_no_Taki_2023-08-25_(4).jpg",
+    "context": "Take the Kegon Falls viewing elevator — Nikko, Japan",
+    "hero": "images/japan/nikko--thing-3.webp",
+    "card": "images/japan/nikko--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kegon Taki.jpg": {
+    "artist": "Jordy Meow",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kegon_Taki.jpg",
+    "context": "Kegon Falls — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-4.webp",
+    "card": "images/japan/nikko--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Kendal Mint Cake.jpeg": {
     "artist": "Cnbrb",
@@ -12076,6 +12167,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Mount nantai and lake chuzenji.jpg": {
+    "artist": "Uraomote yamaneko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_nantai_and_lake_chuzenji.jpg",
+    "context": "Hike around Lake Chuzenji — Nikko, Japan",
+    "hero": "images/japan/nikko--thing-2.webp",
+    "card": "images/japan/nikko--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Mount-Hakodate Night-view.jpg": {
     "artist": "MaedaAkihiko",
     "license": "CC BY-SA 4.0",
@@ -12825,6 +12929,32 @@
     "context": "Eat fresh seafood at Sapporo's Nijo Market — Hokkaido, Japan",
     "hero": "images/japan/hokkaido--thing-4.webp",
     "card": "images/japan/hokkaido--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Nikko Rinno-ji Vorderseite 1.jpg": {
+    "artist": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikko_Rinno-ji_Vorderseite_1.jpg",
+    "context": "Rinno-ji Temple — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-6.webp",
+    "card": "images/japan/nikko--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Nikko-Yumoto Onsen, Tochigi 01.jpg": {
+    "artist": "Σ64",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikko-Yumoto_Onsen,_Tochigi_01.jpg",
+    "context": "Soak in a Yumoto Onsen hot spring — Nikko, Japan",
+    "hero": "images/japan/nikko--thing-5.webp",
+    "card": "images/japan/nikko--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -16600,6 +16730,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Shinkyo (Sacred Bridge), Nikko, Tochigi 20130812 2.jpg": {
+    "artist": "DXR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shinkyo_(Sacred_Bridge),_Nikko,_Tochigi_20130812_2.jpg",
+    "context": "Shinkyo Sacred Bridge — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-3.webp",
+    "card": "images/japan/nikko--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
+  },
   "File:Shirakawago village (12723707294).jpg": {
     "artist": "Takashi Hososhima from Tokyo, Japan",
     "license": "CC BY-SA 2.0",
@@ -18381,6 +18524,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Three Wise Monkeys of Nikko Toshogu - May 23, 2017.jpg": {
+    "artist": "foooomio",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_Wise_Monkeys_of_Nikko_Toshogu_-_May_23,_2017.jpg",
+    "context": "The Three Wise Monkeys carving — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-2.webp",
+    "card": "images/japan/nikko--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tian Tan Buddha by Beria.jpg": {
     "artist": "Béria Lima de Rodríguez",
     "license": "CC BY-SA 3.0",
@@ -18636,6 +18792,19 @@
     "context": "Tortilla española — Spain",
     "hero": "images/spain/_country--food-2.webp",
     "card": "images/spain/_country--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Toshogu shrine yomeimon gate.jpg": {
+    "artist": "Nerotaso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toshogu_shrine_yomeimon_gate.jpg",
+    "context": "Nikko, Japan",
+    "hero": "images/japan/nikko.webp",
+    "card": "images/japan/nikko-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -20547,6 +20716,19 @@
     "context": "Hongcun Village — Huangshan & the Anhui Villages, China",
     "hero": "images/china/huangshan-anhui-villages--attraction-3.webp",
     "card": "images/china/huangshan-anhui-villages--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Yomeimon Gate - Toshogu Shrine - Nikko - Japan - 03 (48042240533).jpg": {
+    "artist": "Adam Jones from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yomeimon_Gate_-_Toshogu_Shrine_-_Nikko_-_Japan_-_03_(48042240533).jpg",
+    "context": "Toshogu Shrine — Nikko, Japan",
+    "hero": "images/japan/nikko--attraction-1.webp",
+    "card": "images/japan/nikko--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
