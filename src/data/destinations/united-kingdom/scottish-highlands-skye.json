@@ -1,0 +1,400 @@
+{
+  "slug": "scottish-highlands-skye",
+  "name": "Scottish Highlands & Isle of Skye",
+  "country": "united-kingdom",
+  "region": "Scotland",
+  "categories": ["nature-wildlife", "mountains", "scenic-region"],
+  "tagline": "Single-track roads through glens that have barely changed in centuries, lochs deep enough to hide a monster, and an island at the end of it all with rock formations that look genuinely otherworldly.",
+  "highlight": "The Old Man of Storr on the Isle of Skye — a jagged basalt pinnacle rising from a landslip landscape, reached by one of Scotland's most rewarding short hikes.",
+  "shortDescription": "Scotland's wild heart: glens, lochs and single-track roads leading to an island of impossibly jagged rock formations and some of Britain's most dramatic scenery.",
+  "metaDescription": "A Scottish Highlands and Isle of Skye travel guide: Glencoe, Loch Ness, the Old Man of Storr and the Quiraing, when to go, driving tips and a five-day itinerary.",
+  "suggestedStay": "5–7 days",
+  "nearestAirport": "Inverness (INV)",
+  "knownFor": "Glencoe, Loch Ness, the Isle of Skye, single-track roads",
+  "budget": "£100–170 per day, mid-range",
+  "goodFor": "Nature, driving, hiking, photography",
+  "coords": { "lat": 57.2736, "lng": -5.5111 },
+  "image": {
+    "file": "File:Old Man Of Storr.jpg",
+    "alt": "The jagged rock pinnacle of the Old Man of Storr on the Isle of Skye"
+  },
+  "intro": [
+    "The Scottish Highlands begin, in a real sense, the moment the road narrows to a single track with passing places — a genuine shift from the rest of Britain into a landscape shaped by ice, weather and centuries of clearance that left glens with more sheep than people. Glencoe, Rannoch Moor and Loch Ness are only the most famous names in a region that is overwhelmingly, deliberately empty, and where the emptiness is the point rather than an inconvenience.",
+    "At the northwestern edge of the mainland, a bridge (or a ferry, if you prefer the more traditional approach) crosses to the Isle of Skye, and the landscape shifts again into something genuinely stranger: the Cuillin ridge's jagged black peaks, the Old Man of Storr's basalt pinnacle rising from an ancient landslip, and the Quiraing's still-shifting, otherworldly terrain, formed by a landslide that continues to move today.",
+    "This is not a region that rewards a rushed loop. Distances that look short on a map take real time on single-track roads, weather changes fast and without much warning, and the reward for slowing down — a quiet glen, an empty beach, a castle with nobody else at it — is the entire point of coming this far north."
+  ],
+  "whyVisit": {
+    "intro": "The Highlands and Skye's case is that nowhere else in Britain offers this scale of genuine wilderness, dramatic geology and single-track-road remoteness within a manageable trip.",
+    "points": [
+      {
+        "title": "The scale of emptiness is genuine",
+        "text": "Glens and moors with more deer than people, a real contrast to anywhere else in this guide and a large part of the region's appeal."
+      },
+      {
+        "title": "Skye's rock formations are genuinely otherworldly",
+        "text": "The Old Man of Storr, the Quiraing and the Cuillin ridge look like nowhere else in Britain, shaped by ancient landslips and volcanic activity."
+      },
+      {
+        "title": "The history sits heavy in the landscape",
+        "text": "Glencoe's 1692 massacre, Culloden's 1746 battlefield and the Jacobite risings all left a mark that is still legible on the ground, not just in museums."
+      },
+      {
+        "title": "Wildlife is genuinely present",
+        "text": "Red deer, golden eagles, otters and, around the coast, a real chance of dolphins and whales make this one of Britain's best wildlife-watching regions."
+      },
+      {
+        "title": "It rewards slowing down more than any other UK destination",
+        "text": "Single-track roads and changeable weather actively discourage rushing, and the region is genuinely better for it."
+      }
+    ]
+  },
+  "attractionsIntro": "The Highlands and Skye are large — these are the essential stops, best strung together over several days rather than rushed in one.",
+  "attractions": [
+    {
+      "name": "Glencoe",
+      "image": {
+        "file": "File:Buachaille Etive Mor, Glencoe - geograph.org.uk - 3674019.jpg",
+        "alt": "The pyramid peak of Buachaille Etive Mòr above Glencoe"
+      },
+      "text": "A dramatic glen of steep mountains and the site of the 1692 massacre of the MacDonald clan, its scenery — Buachaille Etive Mòr's pyramid peak above all — among the most photographed in Scotland.",
+      "tip": "The main road through the glen has several pull-offs for photographs — take them rather than trying to stop on the single-track sections."
+    },
+    {
+      "name": "Loch Ness",
+      "image": {
+        "file": "File:The Loch Ness and Urquhart castle.jpg",
+        "alt": "Loch Ness with the ruins of Urquhart Castle on its shore"
+      },
+      "text": "Scotland's largest loch by volume, deep and dark enough to have sustained centuries of monster legend, with Urquhart Castle's ruins on its shore offering the classic photograph.",
+      "tip": "The castle side of the loch is more scenic than the busier road on the opposite shore — plan your route accordingly."
+    },
+    {
+      "name": "The Old Man of Storr",
+      "image": {
+        "file": "File:The Old Man Of Storr Skye Island Scotland July30 2019.jpg",
+        "alt": "The Old Man of Storr pinnacle seen from the surrounding landslip landscape"
+      },
+      "text": "A jagged basalt pinnacle on the Isle of Skye, part of a wider landslip landscape, reached by a steep but genuinely rewarding hike with views back over the Sound of Raasay.",
+      "tip": "Start early — the car park is small and fills quickly, and the light is best in the first hours after sunrise."
+    },
+    {
+      "name": "The Quiraing",
+      "image": {
+        "file": "File:North over the Quiraing, Isle of Skye.jpg",
+        "alt": "The folded, pinnacled terrain of the Quiraing on Skye's Trotternish peninsula"
+      },
+      "text": "A still-moving landslip on Skye's Trotternish peninsula, its pinnacles, hidden plateaus and folded terrain among the strangest landscapes in Britain, walkable via a genuinely spectacular circular trail.",
+      "tip": "The full loop takes two to three hours and involves some exposed sections — check conditions before setting off in poor weather."
+    },
+    {
+      "name": "Eilean Donan Castle",
+      "image": {
+        "file": "File:Eilean Donan castle - 95mm.jpg",
+        "alt": "Eilean Donan Castle on its small tidal island, joined to the shore by a stone footbridge"
+      },
+      "text": "One of Scotland's most photographed castles, set on a small tidal island where three sea lochs meet, connected to the mainland by a stone footbridge.",
+      "tip": "Arrive early or late in the day to photograph it without crowds — it is a popular stop on the main road to Skye."
+    },
+    {
+      "name": "Culloden Battlefield",
+      "image": {
+        "file": "File:The Memorial Cairn on the Culloden Battlefield (geograph 6005809).jpg",
+        "alt": "The stone memorial cairn on the open moorland of Culloden Battlefield"
+      },
+      "text": "The site of the final Jacobite defeat in 1746, preserved as open moorland with marked clan graves, and a genuinely moving, well-presented visitor centre that gives the battle real context.",
+      "tip": "Allow at least two hours, including the visitor centre — the battlefield itself is more powerful with the historical context fresh in mind."
+    }
+  ],
+  "thingsToDoIntro": "This region rewards driving slowly, stopping often, and building genuine flexibility into any itinerary for the weather.",
+  "thingsToDo": [
+    {
+      "title": "Drive the North Coast 500 (or a section of it)",
+      "image": {
+        "file": "File:The North Coast 500 between Strathy and Melvich - geograph.org.uk - 5004446.jpg",
+        "alt": "An empty single-carriageway road across open Highland moorland"
+      },
+      "text": "A 516-mile scenic driving route looping the northern Highlands, doable in full over a week or sampled in a shorter section for a taste of the far north's coastline and emptiness.",
+      "tip": "Even a two- or three-day section of the NC500 gives a genuine sense of the route without the full week commitment."
+    },
+    {
+      "title": "Hike the Quiraing or the Old Man of Storr",
+      "image": {
+        "file": "File:Hiking trail in Broadford - Isle of Skye - Scotland.jpg",
+        "alt": "A hiking trail crossing open moorland on the Isle of Skye"
+      },
+      "text": "Skye's two signature short hikes, both genuinely spectacular and achievable in a half-day each, though both involve real elevation and exposed sections.",
+      "tip": "Check the forecast specifically for Skye, which can differ significantly from the mainland even a short distance away."
+    },
+    {
+      "title": "Take a Loch Ness cruise",
+      "image": {
+        "file": "File:Vessel on Loch Ness (geograph 7180786).jpg",
+        "alt": "A tour boat crossing the open water of Loch Ness"
+      },
+      "text": "Boat trips from Fort Augustus or Drumnadrochit give a different perspective on the loch's scale and depth, with sonar displays sometimes shown on board for the monster-curious.",
+      "tip": "Combine with Urquhart Castle, often included in the same trip or an easy add-on nearby."
+    },
+    {
+      "title": "Watch for wildlife",
+      "image": {
+        "file": "File:Caught in the morning light - Flickr - jack spellingbacon.jpg",
+        "alt": "A group of red deer stags silhouetted on a Highland moor at dawn"
+      },
+      "text": "Red deer are genuinely common across the Highlands, golden eagles soar over the glens, and boat trips from Skye's coast offer real chances of dolphins, porpoises and even minke whales.",
+      "tip": "Early morning and dusk are the best times for deer sightings, particularly around Glencoe and Glen Etive."
+    },
+    {
+      "title": "Visit a whisky distillery",
+      "image": {
+        "file": "File:Tormore Distillery GB 1990089.jpg",
+        "alt": "A Speyside whisky distillery building with its tall chimney"
+      },
+      "text": "The Highlands and Speyside are two of Scotland's great whisky regions, with distillery tours explaining the process and, usually, ending in a tasting.",
+      "tip": "Book tours in advance in summer at the more famous distilleries, which can fill up considerably ahead."
+    },
+    {
+      "title": "Learn the single-track road etiquette",
+      "image": {
+        "file": "File:Passing place on single track road - geograph.org.uk - 5442738.jpg",
+        "alt": "A single-track Highland road with a passing-place marker post"
+      },
+      "text": "Much of the Highlands' and Skye's road network is single track with passing places — pulling in to let oncoming traffic through, and letting faster local traffic overtake, is genuine driving etiquette here.",
+      "tip": "Pull into a passing place on your left, or stop opposite one on your right, whichever comes first when you see oncoming traffic."
+    }
+  ],
+  "foodIntro": "Highland food leans on game, seafood and the region's whisky, with genuinely excellent quality where the ingredients are this local.",
+  "foods": [
+    {
+      "name": "Venison",
+      "image": {
+        "file": "File:Venison Loin (3293814360).jpg",
+        "alt": "Sliced venison loin plated with roasted vegetables and gravy"
+      },
+      "text": "Wild Highland venison, leaner and more strongly flavoured than farmed alternatives, appears on menus across the region as steaks, stews and sausages.",
+      "whereToTry": "Highland restaurants and gastropubs, particularly through autumn and winter, the traditional venison season."
+    },
+    {
+      "name": "Fresh seafood and langoustines",
+      "image": {
+        "file": "File:Langoustines (Nephrops norvegicus) (Ifremer 00574-68636 - 53247).jpg",
+        "alt": "A pile of freshly caught langoustines"
+      },
+      "text": "The west coast and Skye's waters produce genuinely excellent seafood, langoustines especially, often served simply to let the quality speak for itself.",
+      "whereToTry": "Coastal restaurants and seafood shacks around Skye's ports, particularly Portree."
+    },
+    {
+      "name": "Cranachan",
+      "image": {
+        "file": "File:Cranachan (4332953688).jpg",
+        "alt": "Glasses of cranachan layered with cream, raspberries and toasted oats"
+      },
+      "text": "A traditional Scottish dessert of whipped cream, toasted oats, honey and raspberries, often with a splash of whisky, genuinely simple and genuinely good.",
+      "whereToTry": "Traditional Highland restaurants and hotel dining rooms across the region."
+    },
+    {
+      "name": "Highland and Speyside whisky",
+      "image": {
+        "file": "File:Glenmorangie The Original whisky.jpg",
+        "alt": "A bottle and dram of Highland single malt Scotch whisky"
+      },
+      "text": "Two of Scotland's great whisky regions, producing single malts with a genuinely different character from Islay's smoky style — generally lighter, fruitier and more approachable.",
+      "whereToTry": "Distillery tours across the Highlands and Speyside, many within a reasonable drive of a Highlands-based itinerary."
+    },
+    {
+      "name": "Scottish beef",
+      "image": {
+        "file": "File:Scottish Bavette - Flat Iron 2025-05-12.jpg",
+        "alt": "A cooked Scottish bavette steak served on a wooden board"
+      },
+      "text": "Highland cattle and other Scottish beef breeds, grass-fed on the region's hills, produce a genuinely well-regarded beef found on menus across the Highlands.",
+      "whereToTry": "Traditional Highland hotels and restaurants, often featured as a signature Sunday roast or steak."
+    },
+    {
+      "name": "Oatcakes and Scottish baking",
+      "image": {
+        "file": "File:Oatcakes with pepper.jpg",
+        "alt": "A batch of traditional Scottish oatcakes"
+      },
+      "text": "Traditional oatcakes, served with cheese or jam, alongside the wider Scottish baking tradition of shortbread and tablet, found in tearooms across the region.",
+      "whereToTry": "Village tearooms and bakeries throughout the Highlands and Skye."
+    }
+  ],
+  "accommodation": {
+    "intro": "The scale of the region means basing yourself in two or three places, rather than one, generally works better than a single fixed base.",
+    "areas": [
+      {
+        "name": "Fort William",
+        "bestFor": "The southern Highlands and Glencoe",
+        "text": "A practical base for Glencoe and Ben Nevis, with a reasonable range of accommodation and easy access to the road toward Skye."
+      },
+      {
+        "name": "Inverness",
+        "bestFor": "Loch Ness and Culloden",
+        "text": "The Highlands' main town, with the widest range of accommodation and easy access to Loch Ness and Culloden Battlefield."
+      },
+      {
+        "name": "Portree, Isle of Skye",
+        "bestFor": "Exploring Skye",
+        "text": "Skye's main town, a practical, colourful base for reaching the Old Man of Storr, the Quiraing and the island's other sights."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£25–45 per night" },
+      { "label": "Mid-range hotel or B&B", "value": "£90–170 per night" },
+      { "label": "Car hire", "value": "£35–65 per day" },
+      { "label": "Loch Ness cruise", "value": "£20–35" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Inverness is the Highlands' main transport hub, with Skye reached onward by road across the Skye Bridge.",
+    "options": [
+      {
+        "mode": "Inverness Airport (INV)",
+        "text": "The Highlands' main airport, with domestic connections to London and other UK cities, and some seasonal European routes.",
+        "detail": "A hire car is essential from here onward — public transport does not adequately cover the region's key sights."
+      },
+      {
+        "mode": "Rail from Edinburgh or Glasgow",
+        "text": "Trains connect [[edinburgh|Edinburgh]] to Inverness in about 3h30, and Glasgow to Fort William on the scenic West Highland Line.",
+        "detail": "The West Highland Line is considered one of the world's great scenic rail journeys in its own right, crossing the Glenfinnan Viaduct."
+      },
+      {
+        "mode": "Car hire",
+        "text": "Genuinely essential for exploring the Highlands and Skye properly — pick up in Inverness, Fort William or Glasgow.",
+        "detail": "Book well ahead in summer, and choose a smaller car for easier passing on single-track roads."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "A car is close to essential in this region — public transport exists but does not reach many of the key sights with useful frequency.",
+    "options": [
+      {
+        "mode": "Rental car",
+        "text": "The standard, near-essential way to see the Highlands and Skye, giving the flexibility single-track roads and scattered sights genuinely require.",
+        "detail": "Fill up when you see a petrol station in rural areas — they can be sparse and some close early or on Sundays."
+      },
+      {
+        "mode": "Single-track roads",
+        "text": "Common across the Highlands and much of Skye, requiring specific etiquette around passing places.",
+        "detail": "Never park in a passing place — they exist for traffic to pass, not for photo stops or parking."
+      },
+      {
+        "mode": "The Skye Bridge and ferries",
+        "text": "The bridge from the mainland to Skye is toll-free and the main route; the Mallaig to Armadale ferry offers a scenic, slower alternative in summer.",
+        "detail": "Book the ferry ahead in peak season if travelling with a car."
+      },
+      {
+        "mode": "Organised tours from Edinburgh or Inverness",
+        "text": "Multi-day bus tours cover the Highlands and Skye highlights for visitors without a car, a straightforward if less flexible option.",
+        "detail": "A useful option if driving on unfamiliar single-track roads is not appealing."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "The Highlands and Skye have genuinely changeable weather in any season, which makes daylight hours and midges, as much as temperature, worth planning around.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Increasingly long daylight, wildflowers on the machair, and — crucially — the midge season has not yet begun in earnest."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "The longest daylight hours and warmest weather, but also midge season at its worst in still, damp conditions, and the North Coast 500's busiest period."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable, midges largely gone, deer rutting season adds genuine wildlife spectacle, and the light across the glens is often spectacular."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Short days and genuine cold, with snow on the higher peaks, but dramatically quiet and, for the well-prepared, striking — Glencoe under snow is a real sight."
+      }
+    ],
+    "avoid": "Still, warm, damp days in July and August, when midges — small biting insects — are at their most numerous, particularly at dawn and dusk near water."
+  },
+  "itinerary": {
+    "title": "Five days in the Highlands and Skye",
+    "intro": "Glencoe and Loch Ness on the way north, then three days properly exploring Skye — a pace that respects the region's distances.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Into Glencoe",
+        "summary": "Arrive and see the glen at its dramatic best.",
+        "morning": "Drive from Glasgow or Edinburgh into Glencoe.",
+        "afternoon": "Walk part of the glen and photograph Buachaille Etive Mòr.",
+        "evening": "Overnight in Fort William."
+      },
+      {
+        "day": 2,
+        "title": "Loch Ness and Culloden",
+        "summary": "North to Inverness via the loch.",
+        "morning": "Loch Ness and Urquhart Castle.",
+        "afternoon": "Culloden Battlefield.",
+        "evening": "Overnight in Inverness."
+      },
+      {
+        "day": 3,
+        "title": "To Skye",
+        "summary": "Eilean Donan Castle on the way, then settle into Skye.",
+        "morning": "Drive west, stopping at Eilean Donan Castle.",
+        "afternoon": "Cross the Skye Bridge and settle into Portree.",
+        "evening": "Dinner in Portree."
+      },
+      {
+        "day": 4,
+        "title": "The Old Man of Storr and the Quiraing",
+        "summary": "Skye's two signature hikes.",
+        "morning": "The Old Man of Storr at opening.",
+        "afternoon": "The Quiraing's circular walk.",
+        "evening": "Fresh seafood in Portree."
+      },
+      {
+        "day": 5,
+        "title": "Skye's coast and departure",
+        "summary": "A final look at the island, then head back south.",
+        "morning": "A slower morning around Skye's coast or a whisky distillery visit.",
+        "afternoon": "Begin the drive south, or fly out from Inverness.",
+        "evening": "Depart."
+      }
+    ]
+  },
+  "tipsIntro": "Region-specific practicalities, mostly about driving, weather and the genuine remoteness of parts of this route.",
+  "tips": [
+    "Learn single-track road etiquette before setting off — pull into passing places to let oncoming traffic through, never park in one.",
+    "Check the specific Skye forecast, which can differ significantly from the mainland even a short distance away, before committing to a hiking day.",
+    "Fill up with petrol when you see a station in rural areas — they can be genuinely sparse, and some close early or on Sundays.",
+    "Pack for midges in summer — repellent and a head net make a real difference on still, damp evenings near water.",
+    "Book Skye accommodation well ahead in summer — the island's capacity is genuinely limited relative to demand.",
+    "Give yourself more driving time than a map suggests — single-track roads and scenic stops both slow progress considerably.",
+    "Start hikes like the Old Man of Storr and the Quiraing early — small car parks fill quickly and the light is best in the morning."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need for the Highlands and Skye?",
+      "a": "Five to seven. Two days for Glencoe, Loch Ness and Culloden on the way north, and three or more for Skye itself, which rewards unhurried exploration. A rushed three-day loop is possible but sacrifices most of what makes this region worth the distance."
+    },
+    {
+      "q": "Do I need a car?",
+      "a": "Genuinely, yes. Public transport exists but does not adequately reach the key sights — the Old Man of Storr, the Quiraing, Glencoe's best viewpoints — with useful frequency. A hire car is close to essential for this region."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September. Both offer good daylight and manageable midges. Summer brings the longest days but also the worst midges and busiest roads; autumn adds the deer rut and often spectacular light; winter is quiet and can be strikingly beautiful but comes with short days and real cold."
+    },
+    {
+      "q": "What are midges and how bad are they really?",
+      "a": "Tiny biting insects, most active in still, humid conditions from roughly June to September, worst at dawn and dusk near water or dense vegetation. They are a genuine nuisance rather than dangerous, and repellent plus avoiding peak times makes them manageable rather than trip-ruining."
+    },
+    {
+      "q": "Should I do the full North Coast 500?",
+      "a": "Only if you have a full week or more dedicated to it. A shorter two- or three-day section gives a genuine taste of the route's remote coastline without the full week's commitment, and pairs well with the Glencoe-to-Skye itinerary on this page."
+    }
+  ],
+  "related": ["edinburgh", "lake-district", "snowdonia-north-wales"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}
