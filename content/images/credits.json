@@ -1130,6 +1130,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Arthur's Seat 2023.jpg": {
+    "artist": "Kitjank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur%27s_Seat_2023.jpg",
+    "context": "Arthur's Seat — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--attraction-3.webp",
+    "card": "images/united-kingdom/edinburgh--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Aspendos Theatre 0611.jpg": {
     "artist": "Dosseman",
     "license": "CC BY-SA 4.0",
@@ -3899,6 +3912,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cullen Skink.JPG": {
+    "artist": "Metukkalihis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cullen_Skink.JPG",
+    "context": "Cullen skink — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--food-3.webp",
+    "card": "images/united-kingdom/edinburgh--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cupola di santa maria del fiore dal campanile di giotto, 01.JPG": {
     "artist": "sailko",
     "license": "CC BY 2.5",
@@ -4327,6 +4353,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Edinburgh Calton Hill.jpg": {
+    "artist": "Saffron Blaze",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edinburgh_Calton_Hill.jpg",
+    "context": "Calton Hill — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--attraction-6.webp",
+    "card": "images/united-kingdom/edinburgh--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 501
+  },
+  "File:Edinburgh Castle dec.23 (2).jpg": {
+    "artist": "Peulle",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_dec.23_(2).jpg",
+    "context": "Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh.webp",
+    "card": "images/united-kingdom/edinburgh-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 526
   },
   "File:Editing File-El Tovar Hotel inside staircase.JPG": {
     "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
@@ -4804,6 +4856,19 @@
     "context": "The Furore fjord and the Emerald Grotto — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--attraction-7.webp",
     "card": "images/italy/amalfi-coast--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Fire and Whip performer at the 2025 Edinburgh Festival Fringe 40.jpg": {
+    "artist": "Quejaytee",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire_and_Whip_performer_at_the_2025_Edinburgh_Festival_Fringe_40.jpg",
+    "context": "Experience the Fringe (in August) — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--thing-3.webp",
+    "card": "images/united-kingdom/edinburgh--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5381,6 +5446,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Glenmorangie The Original whisky.jpg": {
+    "artist": "JIP",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glenmorangie_The_Original_whisky.jpg",
+    "context": "Taste whisky properly — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--thing-4.webp",
+    "card": "images/united-kingdom/edinburgh--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Göbekli Tepe Pillar.JPG": {
     "artist": "Zhengan",
     "license": "CC BY-SA 4.0",
@@ -5875,6 +5953,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Haggis, neeps and tatties at The Cramond Inn, Edinburgh (2660769244).jpg": {
+    "artist": "Edinburgh Blog",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties_at_The_Cramond_Inn,_Edinburgh_(2660769244).jpg",
+    "context": "Haggis, neeps and tatties — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--food-1.webp",
+    "card": "images/united-kingdom/edinburgh--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hagia Sophia Istanbul July 2022-2.jpg": {
     "artist": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
@@ -6082,6 +6173,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Holyrood Palace and Abbey 20211021.jpg": {
+    "artist": "Daniel Kraft",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holyrood_Palace_and_Abbey_20211021.jpg",
+    "context": "The Palace of Holyroodhouse — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--attraction-5.webp",
+    "card": "images/united-kingdom/edinburgh--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 780,
+    "cardWidth": 800,
+    "cardHeight": 390
   },
   "File:Hong Kong Museum of History Entrance 1 2011.jpg": {
     "artist": "Wpcpey",
@@ -7578,6 +7682,19 @@
     "cardWidth": 800,
     "cardHeight": 479
   },
+  "File:Macallan Amber Scotch whisky.jpg": {
+    "artist": "JIP",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macallan_Amber_Scotch_whisky.jpg",
+    "context": "Scotch whisky — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--food-4.webp",
+    "card": "images/united-kingdom/edinburgh--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Machu Picchu, Perú, 2015-07-30, DD 47.JPG": {
     "artist": "Diego Delso",
     "license": "CC BY-SA 4.0",
@@ -7755,6 +7872,19 @@
     "context": "Cycle, seriously or otherwise — Mallorca, Spain",
     "hero": "images/spain/mallorca--thing-4.webp",
     "card": "images/spain/mallorca--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mary King's Close tour (under Edinburgh)... (Blake Patterson) - Flickr.jpg": {
+    "artist": "Blake Patterson from Alexandria, VA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_King%27s_Close_tour_(under_Edinburgh)..._(Blake_Patterson)_-_Flickr.jpg",
+    "context": "Walk the Old Town's hidden closes — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--thing-1.webp",
+    "card": "images/united-kingdom/edinburgh--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8526,6 +8656,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:National Museum of Scotland Grand Gallery.jpg": {
+    "artist": "Elshad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_Grand_Gallery.jpg",
+    "context": "The National Museum of Scotland — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--attraction-4.webp",
+    "card": "images/united-kingdom/edinburgh--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Natural History Museum HDR.jpg": {
     "artist": "Mdbeckwith",
@@ -10724,6 +10867,19 @@
     "cardWidth": 800,
     "cardHeight": 530
   },
+  "File:Royal Crescent in Edinburgh New Town - geograph.org.uk - 4054405.jpg": {
+    "artist": "M J Richardson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Crescent_in_Edinburgh_New_Town_-_geograph.org.uk_-_4054405.jpg",
+    "context": "Walk the New Town's Georgian streets — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--thing-5.webp",
+    "card": "images/united-kingdom/edinburgh--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Rue Mouffetard food market, Paris 8 May 2012.jpg": {
     "artist": "edwin.11",
     "license": "CC BY 2.0",
@@ -11148,6 +11304,32 @@
     "context": "Scialatielli ai frutti di mare — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--food-3.webp",
     "card": "images/italy/amalfi-coast--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Scottish Shortbread Biscuits.jpg": {
+    "artist": "Nizil Shah",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_Shortbread_Biscuits.jpg",
+    "context": "Shortbread and Scottish baking — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--food-5.webp",
+    "card": "images/united-kingdom/edinburgh--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Scottish smoked salmon with brown bread, lemon, caper & red onion dressing (GOC Kings Langley Xmas 2012 067) (8290085283).jpg": {
+    "artist": "Peter O'Connor aka anemoneprojectors",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_smoked_salmon_with_brown_bread,_lemon,_caper_%26_red_onion_dressing_(GOC_Kings_Langley_Xmas_2012_067)_(8290085283).jpg",
+    "context": "Scottish salmon — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--food-2.webp",
+    "card": "images/united-kingdom/edinburgh--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -12439,6 +12621,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:The Royal Mile, Edinburgh, Scotland.jpg": {
+    "artist": "rboed*",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Royal_Mile,_Edinburgh,_Scotland.jpg",
+    "context": "The Royal Mile — Edinburgh, United Kingdom",
+    "hero": "images/united-kingdom/edinburgh--attraction-2.webp",
+    "card": "images/united-kingdom/edinburgh--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 529
   },
   "File:The terracotta warriors, backed up by horses (34846849174).jpg": {
     "artist": "shankar s. from Dubai, united arab emirates",
