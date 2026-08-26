@@ -1,1 +1,283 @@
-# Culinaryrecipie
+# CulinaryVault
+
+A dependency-free static site for the world's **200 most famous recipes** — each
+one with a full ingredient list, step-by-step method, the cooking science behind
+it, pairing suggestions, storage guidance and nutrition.
+
+Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
+tooling beyond Node's standard library, no runtime dependencies.
+
+```
+200 recipes · 29 cuisines · 10 categories · 248 static pages · 0 npm dependencies
+```
+
+---
+
+## Quick start
+
+```bash
+git clone <this-repo> culinaryvault
+cd culinaryvault
+
+npm run build      # generates dist/ (takes about 300ms)
+npm run serve      # builds, then previews at http://localhost:4173
+npm run check      # audits the build: links, alt text, headings, schema, meta
+```
+
+Node 18 or newer. Nothing to install — `package.json` has no dependencies.
+
+### Deploying
+
+The site is a plain folder of static files. Both major hosts are pre-configured:
+
+| Host | Config | Build command | Publish directory |
+|---|---|---|---|
+| Netlify | `netlify.toml` | `npm run build` | `dist` |
+| Vercel | `vercel.json` | `npm run build` | `dist` |
+
+Any other static host works too — build locally and upload `dist/`.
+
+**Set your real domain before going live.** The canonical URLs, sitemap, RSS
+feed and Open Graph tags are all derived from one environment variable:
+
+```bash
+SITE_URL=https://yourdomain.com npm run build
+```
+
+Deploying under a sub-path (GitHub Pages project sites, for instance)? Set
+`BASE_PATH` as well:
+
+```bash
+SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
+```
+
+---
+
+## Project structure
+
+```
+.
+├── src/
+│   ├── build.js                 # the static site generator (entry point)
+│   ├── data/
+│   │   ├── catalog.js           # 200 recipes: slug, title, cuisine, timings, ratings
+│   │   ├── details/*.js         # ingredients, method, tips, science, nutrition
+│   │   └── images.json          # image manifest: files, licences, colours, LQIP
+│   ├── lib/
+│   │   ├── util.js              # escaping, durations, taxonomy tables
+│   │   └── ingredients.js       # ingredient parser + quantity formatter
+│   ├── templates/
+│   │   ├── layout.js            # HTML shell, head/SEO, header, footer, card
+│   │   ├── pages.js             # home, directory, taxonomy, about, contact, 404
+│   │   └── recipe-page.js       # the recipe detail page + Recipe schema
+│   └── assets/
+│       ├── css/critical.css     # design tokens + above-the-fold (inlined)
+│       ├── css/main.css         # everything else (deferred)
+│       ├── js/theme.js          # pre-paint theme + async stylesheet promotion
+│       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
+│       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
+│       ├── js/directory.js      # client-side filtering and sorting
+│       └── img/recipes/         # 580 image files (WebP + JPEG)
+├── tools/
+│   ├── fetch_images.py          # sources CC0/public-domain photography
+│   ├── retry_images.py          # second pass with alternative queries
+│   ├── fix_images.py            # targeted replacements with strict validation
+│   ├── final_images.py          # final QA pass
+│   ├── make_icons.py            # favicon, PWA icons, OG card
+│   ├── make-attribution.js      # regenerates images-attribution.md
+│   ├── check.js                 # post-build audit
+│   └── serve.js                 # local preview server
+├── dist/                        # build output — committed, deploy-ready
+├── images-attribution.md        # source + licence for every image
+├── netlify.toml / vercel.json
+└── package.json
+```
+
+### How the data fits together
+
+`catalog.js` holds one row per recipe (identity, timings, rating, badges).
+`details/*.js` holds the long-form content keyed by the same slug. The build
+merges them and **fails loudly** if a slug is missing content or a nutrition
+array has the wrong shape — so a half-written recipe can never reach `dist/`.
+
+Adding a recipe means adding one `c(...)` row to `catalog.js` and one keyed
+object to a file in `details/`, then running `npm run build`.
+
+### Ingredient parsing
+
+Ingredients are authored as natural strings:
+
+```js
+'700 g boneless chicken thighs, cut into 3 cm cubes'
+```
+
+`lib/ingredients.js` splits off the **leading** quantity and unit only, so
+measurements inside the description ("3 cm cubes") are left alone. That leading
+quantity is what the serving scaler recalculates, rounding sensibly per unit —
+grams to the nearest 5, small counts to kitchen fractions (`¾ tsp`, not
+`0.75 tsp`). A line beginning `# ` starts a new sub-group heading.
+
+---
+
+## Features
+
+**Reading and cooking**
+
+- **Adjustable servings** — every quantity recalculates live, with unit-aware rounding
+- **Cook Mode** — large type, dimmed inactive steps, screen wake-lock, arrow-key navigation
+- **Inline step timers** — durations are detected from the method text automatically
+- **Ingredient checklist** — ticks persist per recipe in `localStorage`
+- **Print stylesheet** — clean recipe card, no navigation, no images bleeding ink
+- **Dark mode** — a warm, food-friendly palette, not an inverted grey
+
+**Discovery**
+
+- Real-time search with autocomplete over titles, cuisines, keywords and every ingredient
+- Faceted filtering by category, cuisine, dietary tag, difficulty and total time
+- Filter state is reflected in the URL, so filtered views are shareable
+- Favourites, stored locally with no account
+- `/` keyboard shortcut jumps to search
+
+**Everything is client-side.** There is no back end. Favourites, checklists and
+reviews live in the visitor's browser and never reach a server.
+
+---
+
+## SEO checklist
+
+Everything below is implemented and verified by `npm run check` on every build.
+
+### Crawlability & indexing
+
+- [x] `sitemap.xml` with per-page `lastmod`, `changefreq` and `priority`, plus image entries
+- [x] `robots.txt` allowing the site, disallowing filtered query-string views and the device-local `/favourites/`
+- [x] Canonical URL on every page
+- [x] `noindex, follow` on the 404 page, search page results and favourites
+- [x] Clean, keyword-rich URLs — `/recipes/chicken-tikka-masala/`, never `?id=123`
+- [x] Trailing-slash directory structure so URLs work on every static host
+- [x] RSS feed at `/feed.xml`
+
+### Structured data (JSON-LD)
+
+- [x] **Recipe** on all 200 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **BreadcrumbList** on every page below the root
+- [x] **WebSite** with `SearchAction` (sitelinks search box)
+- [x] **Organization** with logo
+- [x] **ItemList** for the homepage editor's picks
+- [x] **CollectionPage** on category and cuisine landing pages
+- [x] **FAQPage** on the about page
+- [x] **AboutPage** / **ContactPage**
+
+### Metadata
+
+- [x] Unique `<title>` under 70 characters on every page
+- [x] Unique meta description under 160 characters on every page
+- [x] Open Graph: `type`, `site_name`, `locale`, `title`, `description`, `url`, `image`, `image:alt`, `image:width`, `image:height`
+- [x] Twitter Card: `summary_large_image` with `site`, `title`, `description`, `image`, `image:alt`
+- [x] `keywords` meta on recipe and taxonomy pages
+- [x] `theme-color`, `color-scheme`, `manifest`, favicon and Apple touch icon
+
+### Semantics & accessibility (WCAG 2.1 AA)
+
+- [x] Semantic HTML5 — `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`, `figure`
+- [x] Exactly one `<h1>` per page, no skipped heading levels (enforced by `check.js`)
+- [x] Skip-to-content link
+- [x] Descriptive, keyword-rich alt text on every image
+- [x] `aria-label` / `aria-labelledby` on every icon-only control (enforced by `check.js`)
+- [x] `role="combobox"` + `aria-activedescendant` on search, arrow-key navigable
+- [x] Focus trap and Escape handling on modals; focus restored on close
+- [x] Visible 3px focus ring on all interactive elements
+- [x] Body text meets 4.5:1 contrast in both themes
+- [x] `prefers-reduced-motion` disables parallax, reveals and smooth scrolling
+
+### Performance & Core Web Vitals
+
+- [x] **LCP** — critical CSS inlined, hero image `fetchpriority="high"`, `main.css` preloaded then applied off the critical path, Google Fonts non-blocking with a system fallback stack
+- [x] **CLS** — explicit `width`/`height` on every image, `aspect-ratio` on media containers, dominant-colour backgrounds behind lazy images, theme applied before first paint
+- [x] **INP** — all JavaScript deferred; debounced search input; `IntersectionObserver` for reveals; `requestAnimationFrame`-throttled parallax
+- [x] WebP served via `<picture>` with a JPEG fallback for every image
+- [x] Lazy loading below the fold, eager above it
+- [x] Blur-up LQIP on recipe hero images; dominant-colour placeholders on cards
+- [x] Long-cache headers for assets, revalidate for HTML
+- [x] Zero third-party JavaScript, zero trackers
+
+### Security
+
+- [x] **Strict CSP** — `script-src 'self'` with no `'unsafe-inline'` or `'unsafe-eval'`. There are no inline scripts and no inline event handlers anywhere in the output; `check.js` fails the build if one reappears
+- [x] `object-src 'none'`, `base-uri 'self'`, `frame-ancestors 'self'`, `form-action 'self'`, `upgrade-insecure-requests`
+- [x] Identical policy on Netlify and Vercel — `check.js` fails if the two configs drift apart
+- [x] `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`
+- [x] Every value rendered into HTML client-side is escaped; slugs and image filenames are pattern-restricted, and colours must match `#rrggbb`
+- [x] The image manifest is validated at the build boundary, so a malformed entry fails the build rather than reaching a `style` or `src` attribute
+- [x] `localStorage` is treated as untrusted input: reviews and favourites are shape-checked and normalised on read
+- [x] The image pipeline follows `http(s)` URLs only, never `file://`
+- [x] Zero dependencies, so no supply chain and no install hooks
+
+`style-src` deliberately keeps `'unsafe-inline'`. Cards carry a per-recipe
+background colour, hero images carry a blur-up data URI, and star ratings carry
+a computed width — all as inline `style` attributes. Inline styles cannot
+execute script, so this is a much weaker concession than an inline `script-src`
+would be.
+
+### Content quality
+
+- [x] Original 2–3 sentence description on every recipe, primary keyword used naturally
+- [x] "Why This Recipe Works" — the actual cooking science — on all 200
+- [x] Chef's tips, pairing suggestions and storage & reheating on all 200
+- [x] Nutrition per serving on all 200
+- [x] Internal linking: related recipes, cuisine pages, category pages, dietary tags
+
+### Before you launch
+
+1. Run the build with your real `SITE_URL`.
+2. Replace the placeholder Twitter handle in `src/templates/layout.js`.
+3. Wire the contact and newsletter forms to a real endpoint (Netlify Forms, Formspree, or your own). They currently validate and confirm client-side only — this is called out on the page itself.
+4. Submit `sitemap.xml` in Google Search Console.
+5. Validate a recipe page with the [Rich Results Test](https://search.google.com/test/rich-results).
+
+---
+
+## Images and licensing
+
+Every photograph is **CC0 or public domain**. Nothing on this site carries an
+attribution requirement or a share-alike clause.
+
+Images are sourced programmatically by `tools/fetch_images.py`, which queries
+Wikimedia Commons with the `haslicense:unrestricted` filter and Openverse
+restricted to `license=cc0,pdm`, then **re-validates the licence field on every
+result** rather than trusting the search filter. Candidates are scored for
+relevance against the dish name, and archival material, illustrations, packaging
+shots and portraits are rejected.
+
+199 of 200 recipes have photography. The one without falls back to a CSS gradient
+placeholder carrying the recipe name — the same fallback that catches any image
+that fails to load at runtime.
+
+Full per-image credits, with photographer, licence and source link, are in
+[`images-attribution.md`](images-attribution.md). Regenerate it with
+`npm run attribution`.
+
+Re-running the image pipeline is safe and resumable — it skips anything already
+in the manifest:
+
+```bash
+pip install Pillow
+npm run images
+```
+
+---
+
+## Browser support
+
+Modern evergreen browsers. The site degrades gracefully:
+
+- **No JavaScript** — all 200 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No WebP** — the `<picture>` element serves JPEG.
+- **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
+
+---
+
+## Licence
+
+MIT for the code. Recipe text is original work by the CulinaryVault test kitchen.
+Photography is CC0 or public domain — see `images-attribution.md`.
