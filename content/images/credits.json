@@ -792,6 +792,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:20240510 172147 Corfu RestaurantMeGusto Bourdeto anagoria.jpg": {
+    "artist": "Anagoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240510_172147_Corfu_RestaurantMeGusto_Bourdeto_anagoria.jpg",
+    "context": "Bourdeto — Corfu, Greece",
+    "hero": "images/greece/corfu--food-3.webp",
+    "card": "images/greece/corfu--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:20240608 Döner Kebab mit Efes Bier Alibaba Bistro Berlin anagoria.jpg": {
     "artist": "Anagoria",
     "license": "CC BY-SA 4.0",
@@ -1182,6 +1195,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Agion Apostolon church at Gaios of Paxos island Greece from far.jpg": {
+    "artist": "FocalPoint",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agion_Apostolon_church_at_Gaios_of_Paxos_island_Greece_from_far.jpg",
+    "context": "Take a boat trip to Paxos — Corfu, Greece",
+    "hero": "images/greece/corfu--thing-4.webp",
+    "card": "images/greece/corfu--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Ahi tuna Poke.jpeg": {
     "artist": "Openmalware.exe",
     "license": "CC BY-SA 4.0",
@@ -1467,6 +1493,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:Angelokastro (Corfu).jpg": {
+    "artist": "Dr.K.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angelokastro_(Corfu).jpg",
+    "context": "Angelokastro — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-6.webp",
+    "card": "images/greece/corfu--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Angels Landing - Zion Canyon.jpg": {
     "artist": "Óðinn",
@@ -5341,6 +5380,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Corfu Paleokastritsa Beach R01.jpg": {
+    "artist": "Marc Ryckaert (MJJR)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corfu_Paleokastritsa_Beach_R01.jpg",
+    "context": "Paleokastritsa — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-5.webp",
+    "card": "images/greece/corfu--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 525
   },
   "File:Cormorant Fisherman on the Li River.jpg": {
     "artist": "Rod Waddington from Kergunyah, Australia",
@@ -10789,6 +10841,58 @@
     "cardWidth": 800,
     "cardHeight": 530
   },
+  "File:Korfu (GR), Agii Douli, Olivenhain -- 2018 -- 1284-8.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Agii_Douli,_Olivenhain_--_2018_--_1284-8.jpg",
+    "context": "Explore Corfu's olive groves and interior villages — Corfu, Greece",
+    "hero": "images/greece/corfu--thing-5.webp",
+    "card": "images/greece/corfu--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Korfu (GR), Gastouri, Achilleion -- 2018 -- 1324.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Gastouri,_Achilleion_--_2018_--_1324.jpg",
+    "context": "Achilleion Palace — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-4.webp",
+    "card": "images/greece/corfu--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Korfu (GR), Korfu, Altstadt, Agii Apostoli -- 2018 -- 1342.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Korfu,_Altstadt,_Agii_Apostoli_--_2018_--_1342.jpg",
+    "context": "Wander the Old Town's kantounia lanes — Corfu, Greece",
+    "hero": "images/greece/corfu--thing-1.webp",
+    "card": "images/greece/corfu--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Korfu (GR), Paleokastritsa, Kloster -- 2018 -- 1250.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Paleokastritsa,_Kloster_--_2018_--_1250.jpg",
+    "context": "Swim at Paleokastritsa or a west coast beach — Corfu, Greece",
+    "hero": "images/greece/corfu--thing-3.webp",
+    "card": "images/greece/corfu--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Kotojitoro (lantern) in Kenrokuen garden, Kanazawa, Japan (2621640037).jpg": {
     "artist": "KimonBerlin",
     "license": "CC BY-SA 2.0",
@@ -10825,6 +10929,19 @@
     "card": "images/france/mont-saint-michel--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:KoumQuatLiqueur.jpg": {
+    "artist": "Edal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KoumQuatLiqueur.jpg",
+    "context": "Corfu's kumquat products — Corfu, Greece",
+    "hero": "images/greece/corfu--food-4.webp",
+    "card": "images/greece/corfu--food-4-card.webp",
+    "heroWidth": 1508,
+    "heroHeight": 848,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -13883,6 +14000,19 @@
     "cardWidth": 800,
     "cardHeight": 529
   },
+  "File:New Venetian Fortress, Corfu 02.jpg": {
+    "artist": "GualdimG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Venetian_Fortress,_Corfu_02.jpg",
+    "context": "The New Fortress — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-3.webp",
+    "card": "images/greece/corfu--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:New Year's Eve in Niseko area. (55016930110).jpg": {
     "artist": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
     "license": "CC BY 4.0",
@@ -14272,6 +14402,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Old Corfu town aerial 01.jpg": {
+    "artist": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Zelenov in the immediate vicinity of the image.\nIf you use one of my photos, please email me (account needed) or leave me a short message on my discussion page.\nIt would be greatly appreciated.\nDo not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain.\n\nIf you would like special permission to use, license, or purchase the image please contact me to negotiate terms.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Corfu_town_aerial_01.jpg",
+    "context": "Corfu, Greece",
+    "hero": "images/greece/corfu.webp",
+    "card": "images/greece/corfu-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Old Corfu town aerial 02.jpg": {
+    "artist": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Zelenov in the immediate vicinity of the image.\nIf you use one of my photos, please email me (account needed) or leave me a short message on my discussion page.\nIt would be greatly appreciated.\nDo not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain.\n\nIf you would like special permission to use, license, or purchase the image please contact me to negotiate terms.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Corfu_town_aerial_02.jpg",
+    "context": "Corfu Old Town — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-1.webp",
+    "card": "images/greece/corfu--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 511
   },
   "File:Old Faithful Inn, lobby (9411170948).jpg": {
     "artist": "Yellowstone National Park from Yellowstone NP, USA",
@@ -18524,6 +18680,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Spianada, Liston Corfú.JPG": {
+    "artist": "Joanbanjo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spianada,_Liston_Corf%C3%BA.JPG",
+    "context": "Have a coffee on the Liston — Corfu, Greece",
+    "hero": "images/greece/corfu--thing-2.webp",
+    "card": "images/greece/corfu--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Spritz (27293355498).jpg": {
     "artist": "istolethetv",
     "license": "CC BY 2.0",
@@ -19732,6 +19901,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:The Old Fortress and the Old Town of Corfu - September 2017.jpg": {
+    "artist": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Old_Fortress_and_the_Old_Town_of_Corfu_-_September_2017.jpg",
+    "context": "The Old Fortress — Corfu, Greece",
+    "hero": "images/greece/corfu--attraction-2.webp",
+    "card": "images/greece/corfu--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 841,
+    "cardWidth": 800,
+    "cardHeight": 420
   },
   "File:The Old Man Of Storr Skye Island Scotland July30 2019.jpg": {
     "artist": "Terence wiki",
@@ -22814,6 +22996,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Παστιτσάδα.jpg": {
+    "artist": "ΣΠ.Δ",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%B1%CF%83%CF%84%CE%B9%CF%84%CF%83%CE%AC%CE%B4%CE%B1.jpg",
+    "context": "Pastitsada — Corfu, Greece",
+    "hero": "images/greece/corfu--food-1.webp",
+    "card": "images/greece/corfu--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Τσικουδιά 1780.jpg": {
     "artist": "C messier",
     "license": "CC BY-SA 4.0",
@@ -22824,6 +23019,19 @@
     "card": "images/greece/crete--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Τσιτσιμπύρα.jpg": {
+    "artist": "ΣΠ.Δ",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A4%CF%83%CE%B9%CF%84%CF%83%CE%B9%CE%BC%CF%80%CF%8D%CF%81%CE%B1.jpg",
+    "context": "Tsitsibira ginger beer — Corfu, Greece",
+    "hero": "images/greece/corfu--food-6.webp",
+    "card": "images/greece/corfu--food-6-card.webp",
+    "heroWidth": 1536,
+    "heroHeight": 864,
     "cardWidth": 800,
     "cardHeight": 533
   },
