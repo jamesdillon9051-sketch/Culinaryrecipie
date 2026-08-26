@@ -1,0 +1,430 @@
+{
+  "slug": "china",
+  "name": "China",
+  "continent": "East Asia",
+  "countryCode": "CN",
+  "tagline": "A country so large that its bullet trains cover the distance of Western Europe, with three thousand years of continuous history at one end of the line and neon megacities at the other.",
+  "cardDescription": "Beijing's palaces and Xi'an's buried army are only the classic opener. Karst rivers, thousand-metre sandstone pillars and villages that predate the printing press are just as strong a case.",
+  "metaDescription": "A complete China travel guide: the 10 best places to visit, high-speed rail, visas, the Great Firewall, regional food, costs, etiquette and a two-week itinerary.",
+  "image": {
+    "file": "File:Skyline of Pudong, Shanghai, 2019-06-24.jpg",
+    "alt": "The futuristic skyline of Pudong, Shanghai, across the Huangpu River"
+  },
+  "destinations": [
+    "beijing",
+    "xi-an",
+    "shanghai",
+    "guilin-yangshuo",
+    "zhangjiajie",
+    "chengdu",
+    "hong-kong",
+    "lijiang-yunnan",
+    "huangshan-anhui-villages",
+    "suzhou-hangzhou"
+  ],
+  "intro": [
+    "China is not one trip, it is several, and the country's own scale is the first thing to plan around. Beijing to Hong Kong is further than London to Moscow; Shanghai to the karst country of Guangxi is further than Paris to Athens. What makes this manageable rather than overwhelming is the high-speed rail network, the largest in the world, which turns journeys that would once have taken a day and a night into a comfortable few hours at 300 km/h.",
+    "The historical depth is genuinely different in kind from a European trip. Xi'an was the imperial capital when Rome was still a republic. The written language on shopfronts today descends, largely unbroken, from characters carved on oracle bones three thousand years ago. And yet the same country builds cities faster than anywhere on earth — Shenzhen was a fishing town in 1980 and is now a tech capital of seventeen million people, and Shanghai's Pudong skyline, all glass towers and a rocket-shaped observation deck, did not exist before 1990.",
+    "The practical texture of travel here is also its own thing, and worth knowing before you land rather than discovering on day one. Cash has largely given way to Alipay and WeChat Pay, both now usable by foreign cards with a little setup. Google, Gmail, WhatsApp, Instagram and most Western apps and sites do not work without a VPN installed before arrival. And English drops off sharply outside Beijing, Shanghai and Hong Kong, which makes a translation app and a hotel business card in Chinese two of the most useful things you will carry."
+  ],
+  "placesIntro": "Ordered roughly by how strongly we would recommend each for a first visit — though the karst landscapes, the sandstone pillars of Zhangjiajie and the southwestern regions repay a second trip more than a fourth palace complex would.",
+  "thingsToDoIntro": "The experiences that recur across the country and that make a China trip feel like China rather than a checklist of monuments.",
+  "thingsToDo": [
+    {
+      "title": "Ride the high-speed rail network",
+      "image": {
+        "file": "File:CRH380A Hongqiao–Nanjing 20140912.jpg",
+        "alt": "A white Chinese high-speed train (CRH380) at a platform"
+      },
+      "text": "Over 45,000 km of dedicated high-speed track, more than the rest of the world combined, running at up to 350 km/h between city centres. Beijing to Shanghai in under five hours is the single best demonstration of what modern China has built.",
+      "tip": "Book through Trip.com or 12306's English site. Second-class seats are perfectly comfortable; only pay for first class on very long runs."
+    },
+    {
+      "title": "Set up a VPN before you arrive",
+      "text": "Google, Gmail, Maps, WhatsApp, Instagram, Facebook, X and most Western news sites are blocked by the Great Firewall. A VPN installed and tested before you cross the border is the only reliable fix, since VPN provider websites are themselves often blocked once you are inside.",
+      "tip": "Pick a paid VPN with a China-specific mode and install it at home. Free VPNs and last-minute downloads at the airport routinely fail."
+    },
+    {
+      "title": "Get Alipay or WeChat Pay working",
+      "image": {
+        "file": "File:Alipay and WeChat Pay accepted sign.jpg",
+        "alt": "A shopfront sign showing that Alipay and WeChat Pay are both accepted"
+      },
+      "text": "China is close to cashless. Small vendors, taxis and street food stalls increasingly cannot break a large note or may simply not want cash at all. Both apps now let foreign visitors link an international Visa or Mastercard directly.",
+      "tip": "Set this up before you arrive, with your passport and card ready — it takes ten minutes and saves constant friction for the whole trip."
+    },
+    {
+      "title": "Eat regionally, not nationally",
+      "text": "Sichuan numbs with huajiao pepper, Guangdong steams and stir-fries lightly, the northeast pickles and grills, Yunnan cooks with mushrooms and herbs found nowhere else. Ordering 'Chinese food' anywhere in China is like ordering 'European food' in Rome.",
+      "tip": "Look for restaurants full of locals with no English menu. Point at what the next table is eating if you have to."
+    },
+    {
+      "title": "Walk a city at dawn",
+      "image": {
+        "file": "File:Morning Tai Chi in a Beijing Park.jpg",
+        "alt": "People practising tai chi in a Beijing park at dawn"
+      },
+      "text": "Parks fill before seven with tai chi, ballroom dancing, sword forms, badminton played against nothing and choirs singing revolutionary songs. It is the most unguarded, least touristed hour China offers, and it happens in every city, every day.",
+      "tip": "Temple of Heaven Park in Beijing and People's Park in Chengdu are the two best-known stages for this, but any city park works."
+    },
+    {
+      "title": "Take the sleeper train at least once",
+      "text": "For journeys the high-speed line has not reached, an overnight soft-sleeper — four bunks to a compartment, a thermos of hot water for tea or instant noodles — is a genuine experience rather than just transport, and it saves a hotel night.",
+      "tip": "Book soft sleeper (软卧) over hard sleeper for real privacy and a door. Bring your own snacks and toilet paper."
+    },
+    {
+      "title": "Bargain in a market, not a mall",
+      "image": {
+        "file": "File:Panjiayuan antique market Beijing.jpg",
+        "alt": "Stalls of antiques and curios at the Panjiayuan market in Beijing"
+      },
+      "text": "Fixed-price shops need no haggling, but tourist markets expect it — start at forty to fifty percent of the asking price and meet somewhere in the middle, in good humour rather than confrontation.",
+      "tip": "Panjiayuan in Beijing and the fabric markets of Shanghai are both genuinely fun for this, purchases or not."
+    }
+  ],
+  "foodIntro": "There is no single Chinese cuisine, only eight or more major regional traditions that a lifetime of eating in China would not exhaust. These are the threads that run through the country.",
+  "foods": [
+    {
+      "name": "Peking duck",
+      "image": {
+        "file": "File:Peking Duck ready to be sliced.jpg",
+        "alt": "A whole roasted Peking duck with lacquered skin, ready to be carved"
+      },
+      "text": "Lacquered, air-dried and roasted until the skin shatters, then carved at the table and wrapped in thin pancakes with spring onion, cucumber and sweet bean sauce. Beijing's signature dish and worth booking ahead for at the well-known houses.",
+      "whereToTry": "Beijing, at Quanjude or Da Dong for the full ceremony, or a neighbourhood duck house for half the price."
+    },
+    {
+      "name": "Xiaolongbao and Shanghai snacks",
+      "image": {
+        "file": "File:Xiaolongbao at Din Tai Fung.jpg",
+        "alt": "A steamer basket of xiaolongbao soup dumplings"
+      },
+      "text": "Soup dumplings, folded by hand and holding a mouthful of scalding broth inside a thin skin, eaten with a spoon to catch the first bite. Shanghai's broader snack culture — scallion pancakes, sheng jian bao, sweet tofu pudding — is a meal in itself.",
+      "whereToTry": "Shanghai's old town and Yu Garden bazaar, or Din Tai Fung for a reliably excellent version anywhere in the country."
+    },
+    {
+      "name": "Sichuan hotpot and mala",
+      "image": {
+        "file": "File:Chongqing Hotpot.jpg",
+        "alt": "A divided hotpot with red spicy broth on one side, bubbling on a table burner"
+      },
+      "text": "A pot of chilli- and Sichuan-peppercorn-laced broth kept boiling at the table, into which you cook thin-sliced meat, tofu and vegetables. The peppercorns produce mala — a tingling numbness alongside the heat, not simple spice.",
+      "whereToTry": "Chengdu or Chongqing, at any hotpot restaurant packed with locals at 9pm."
+    },
+    {
+      "name": "Xi'an's noodles and Muslim Quarter street food",
+      "image": {
+        "file": "File:Biang biang noodles.jpg",
+        "alt": "A bowl of wide, hand-pulled biang biang noodles"
+      },
+      "text": "Biang biang noodles — hand-pulled, wide as a belt, tossed in chilli oil — and roujiamo, a flatbread stuffed with slow-braised pork often called China's answer to the hamburger, both native to Shaanxi and best eaten standing up.",
+      "whereToTry": "Xi'an's Muslim Quarter, from any stall with a queue of locals rather than tour groups."
+    },
+    {
+      "name": "Dim sum",
+      "image": {
+        "file": "File:Hong Kong dim sum assortment.jpg",
+        "alt": "An assortment of dim sum dishes in bamboo steamers"
+      },
+      "text": "Small steamed and fried plates — har gow, siu mai, char siu bao, egg tarts — ordered from a trolley or a checklist and shared over tea, traditionally a late-morning ritual rather than a quick lunch.",
+      "whereToTry": "Hong Kong or Guangzhou, ideally before 11am on a weekend, when it is still a family occasion rather than a tourist sitting."
+    },
+    {
+      "name": "Yunnan's mushrooms and crossing-the-bridge noodles",
+      "image": {
+        "file": "File:Guoqiao mixian.jpg",
+        "alt": "Crossing-the-bridge noodles served with raw ingredients around a bowl of scalding broth"
+      },
+      "text": "Wild mushrooms foraged from Yunnan's forests, cooked simply, and guoqiao mixian — a scalding broth sealed with a layer of oil, into which raw meat, egg and rice noodles are stirred tableside and cooked in seconds.",
+      "whereToTry": "Kunming or Lijiang, where both are regional specialities rather than imports."
+    },
+    {
+      "name": "Tea, properly brewed",
+      "image": {
+        "file": "File:Chinese Gongfu tea ceremony.jpg",
+        "alt": "Tea being poured in a gongfu tea ceremony over small cups"
+      },
+      "text": "Green, oolong, pu'er and white teas each with their own region, brewing temperature and ritual — gongfu-style brewing uses a small pot, repeated short infusions and cups the size of a shot glass rather than a mug of one long steep.",
+      "whereToTry": "A teahouse in Chengdu's parks, or Hangzhou, the historic home of Longjing green tea."
+    }
+  ],
+  "practicalIntro": "The essentials, current for 2026. China is safe and increasingly easy to navigate, with two exceptions that catch first-time visitors out: connectivity, and payments.",
+  "practical": {
+    "capital": "Beijing",
+    "language": "Mandarin Chinese (Putonghua) nationally, with major regional languages including Cantonese in Hong Kong and Guangdong. English is spoken in international hotels and by younger people in Beijing, Shanghai and Hong Kong; much less so elsewhere. A translation app is genuinely essential.",
+    "currency": "Renminbi / Yuan (¥, CNY)",
+    "money": "Alipay and WeChat Pay, both linkable to foreign cards, are used for almost everything, from taxis to street food. Carry some cash as a backup for small towns and older vendors, and know that foreign credit cards are not universally accepted outside hotels and larger shops.",
+    "visa": "Requirements vary by nationality and change often — China has extended unilateral visa-free entry (typically up to 30 days) to a growing list of countries including most of the EU, the UK, Australia and Canada since 2023, alongside a 240-hour visa-free transit for many more. Check your specific nationality's current requirement before booking, since the list is still expanding.",
+    "plugs": "Types A, C and I, 220 V, 50 Hz. Sockets often accept two or three plug types interchangeably, but a universal adapter removes any doubt.",
+    "emergency": "110 for police, 120 for medical emergencies, 119 for fire, nationwide.",
+    "tipping": "Not expected and can cause confusion if offered in local restaurants. High-end hotels and some tour guides catering to foreign visitors are the exception, where a modest tip is increasingly accepted.",
+    "safety": "Very safe, with low rates of violent crime and street theft. The practical risks are traffic — crossing streets requires real vigilance — and common scams around Tiananmen Square and other major sights involving overpriced 'tea ceremonies' or art students.",
+    "connectivity": "Excellent 4G and 5G nationally, including in most rural and mountain areas. A VPN set up before arrival is essential for Google, WhatsApp, Instagram and most Western apps; an eSIM or local SIM is cheap and simple to arrange.",
+    "timeZone": "China Standard Time, UTC+8, used nationwide with no daylight saving and no regional variation despite the country's width.",
+    "budget": [
+      { "label": "Backpacker", "value": "¥350–550 per day — hostels, street food and noodle shops, hard-seat trains" },
+      { "label": "Mid-range", "value": "¥700–1,200 per day — three-star hotels, sit-down restaurants, high-speed rail" },
+      { "label": "Comfortable", "value": "¥1,400–2,500 per day — four- and five-star hotels, guides, domestic flights" },
+      { "label": "Domestic flight", "value": "¥400–1,200 one-way, cheaper booked a few weeks ahead" }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–May and September–October",
+    "summary": "China spans subtropical Hainan to sub-Arctic Heilongjiang, so 'the best time' depends on which China. The two national holiday weeks are worth avoiding almost everywhere regardless of season.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild and increasingly green across the eastern and central cities, with the Guilin karst and Yunnan at their most comfortable. The main exception to avoid within this window is the first week of May, a national holiday."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "avoid",
+        "text": "Hot and often humid in the east and centre — Xi'an and Chengdu regularly exceed 35°C — and the wettest season in the south. The mountains (Zhangjiajie, the Tibetan plateau areas) and the northeast are the exceptions and are at their best."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Widely considered the finest season: clear skies, comfortable temperatures and, in the north, striking autumn colour. The first week of October is Golden Week, a national holiday and the single most crowded week of the year to avoid."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Cold and dry in the north — Beijing regularly drops below freezing — mild in the south around Hong Kong and Guangzhou, and quiet and cheap almost everywhere except during Chinese New Year, when the entire country travels at once."
+      }
+    ],
+    "avoid": "Chinese New Year (late January to mid-February, dates vary) and Golden Week (1–7 October), when up to half a billion people travel domestically, trains sell out months ahead and prices spike everywhere."
+  },
+  "tripDuration": {
+    "headline": "12–16 days for a first trip",
+    "summary": "China's distances are genuinely large, and the high-speed rail network makes an ambitious route tempting. Two or three regions beat five spread thin.",
+    "options": [
+      {
+        "length": "5–6 days",
+        "text": "Beijing alone, or Beijing and Xi'an combined by a two-hour flight or five-hour bullet train — the classic imperial-history introduction.",
+        "detail": "A short China trip is better spent deeply in the north's two great historic capitals than spread across the whole country."
+      },
+      {
+        "length": "10–12 days",
+        "text": "Beijing, Xi'an and Shanghai, connected by high-speed rail, with a day trip from Shanghai to the canal towns or gardens of Suzhou.",
+        "detail": "The standard first route: two imperial capitals and the modern showcase city, under nine hours of total train time."
+      },
+      {
+        "length": "14–18 days",
+        "text": "The itinerary on this page: Beijing and Xi'an in the north, then south to Guilin's karst country and Shanghai, or west to Chengdu and Zhangjiajie.",
+        "detail": "Enough time to add a genuinely different landscape to the historic-cities route."
+      },
+      {
+        "length": "3 weeks or more",
+        "text": "Add Yunnan (Lijiang and the southwest), Hong Kong, or a loop through the southwest's karst and mountain scenery as a second, self-contained leg.",
+        "detail": "The southwest and the far south are where a second China trip belongs, and both reward a slower pace than the historic-cities circuit."
+      }
+    ]
+  },
+  "transport": {
+    "intro": "China's high-speed rail network is the best way to move between cities and makes the classic route effortless. Flights fill the gaps it does not reach; a car is rarely useful and rarely rented by visitors.",
+    "options": [
+      {
+        "mode": "High-speed rail",
+        "text": "The G- and D-series bullet trains link every major city at up to 350 km/h. [[beijing|Beijing]]–[[xi-an|Xi'an]] is 4h30, [[beijing|Beijing]]–[[shanghai|Shanghai]] under 5h, [[shanghai|Shanghai]]–[[suzhou-hangzhou|Hangzhou]] under an hour.",
+        "detail": "Book via Trip.com or the 12306 app a few weeks ahead in peak season. You need your passport to buy and to board."
+      },
+      {
+        "mode": "Domestic flights",
+        "text": "Cheap and frequent for the routes rail does not cover well, including [[zhangjiajie|Zhangjiajie]], [[lijiang-yunnan|Lijiang]] and [[hong-kong|Hong Kong]] from the interior.",
+        "detail": "Delays are common, especially in summer thunderstorm season — build in a buffer day before an international connection."
+      },
+      {
+        "mode": "Metro systems",
+        "text": "Beijing, Shanghai, Hong Kong, Chengdu and every other major city have extensive, cheap, clearly signed (in English and Chinese) metro networks that are the easiest way to get around within a city.",
+        "detail": "Buy a rechargeable transit card on arrival, usable on metro, bus and often bike share, or pay by Alipay/WeChat QR code directly."
+      },
+      {
+        "mode": "Ride-hailing apps",
+        "text": "Didi is the local equivalent of Uber and works well with a linked foreign card; street taxis are cheap but drivers rarely speak English.",
+        "detail": "Have your destination's name and address ready in Chinese characters, not just pinyin — most drivers cannot read romanised addresses."
+      },
+      {
+        "mode": "Sleeper trains",
+        "text": "For routes off the high-speed spine or to save a hotel night, overnight soft-sleeper trains remain comfortable and reliable, if slower than flying.",
+        "detail": "Book soft sleeper for a closable four-berth compartment rather than the open hard-sleeper carriages."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Two weeks in China",
+    "intro": "Beijing and Xi'an for the imperial history, then south to Guilin's karst landscape and on to Shanghai. Covers four of the ten destinations in this guide and needs no car at all.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive in Beijing",
+        "morning": "Land and take the airport express into the city.",
+        "afternoon": "A first walk around the Drum and Bell Towers and a hutong neighbourhood.",
+        "evening": "Peking duck at a neighbourhood duck house."
+      },
+      {
+        "day": 2,
+        "title": "The Forbidden City and Tiananmen",
+        "morning": "Tiananmen Square at opening, then straight into the Forbidden City.",
+        "afternoon": "Jingshan Park's hill for the palace roofline view, then Beihai Park.",
+        "evening": "Wangfujing snack street, for the adventurous."
+      },
+      {
+        "day": 3,
+        "title": "The Great Wall",
+        "morning": "Drive or bus to Mutianyu, less crowded than Badaling.",
+        "afternoon": "Walk as much of the restored wall and its watchtowers as your legs allow.",
+        "evening": "Back to Beijing for a quiet dinner."
+      },
+      {
+        "day": 4,
+        "title": "The Temple of Heaven and the Summer Palace",
+        "morning": "The Temple of Heaven at dawn, when locals practise tai chi around it.",
+        "afternoon": "The Summer Palace, Empress Dowager Cixi's lakeside retreat.",
+        "evening": "High-speed train to Xi'an, arriving late."
+      },
+      {
+        "day": 5,
+        "title": "The Terracotta Army",
+        "morning": "The Terracotta Warriors site at opening, before the tour buses.",
+        "afternoon": "The Xi'an City Wall, cycled or walked in a loop.",
+        "evening": "The Muslim Quarter's street food, biang biang noodles first."
+      },
+      {
+        "day": 6,
+        "title": "Xi'an's other layer",
+        "morning": "The Shaanxi History Museum for context on everything you have seen.",
+        "afternoon": "The Big Wild Goose Pagoda and its square.",
+        "evening": "Fly to Guilin."
+      },
+      {
+        "day": 7,
+        "title": "The Li River",
+        "morning": "A cruise down the Li River from Guilin to Yangshuo, through the karst peaks.",
+        "afternoon": "Settle into Yangshuo and walk West Street.",
+        "evening": "The Impression Sanjie Liu light show on the river, if it is running."
+      },
+      {
+        "day": 8,
+        "title": "Yangshuo's countryside",
+        "morning": "Cycle the Yulong River valley among the rice paddies and peaks.",
+        "afternoon": "Moon Hill, climbed or simply admired from below.",
+        "evening": "Beer fish, the local speciality, by the river."
+      },
+      {
+        "day": 9,
+        "title": "To Shanghai",
+        "morning": "Fly to Shanghai.",
+        "afternoon": "The Bund at golden hour, looking across at Pudong.",
+        "evening": "Xiaolongbao in the old town, near Yu Garden."
+      },
+      {
+        "day": 10,
+        "title": "Old and new Shanghai",
+        "morning": "Yu Garden and the old city god temple area.",
+        "afternoon": "The French Concession's tree-lined streets and cafes.",
+        "evening": "Pudong's observation decks for the skyline lit up."
+      },
+      {
+        "day": 11,
+        "title": "A day in Suzhou",
+        "morning": "High-speed train to Suzhou, twenty-five minutes.",
+        "afternoon": "The Humble Administrator's Garden and the old canal streets.",
+        "evening": "Back to Shanghai for a last dinner."
+      },
+      {
+        "day": 12,
+        "title": "Depart",
+        "morning": "A last walk or some shopping, depending on your flight.",
+        "afternoon": "Transfer to Pudong International Airport.",
+        "evening": "Fly home."
+      }
+    ]
+  },
+  "culture": {
+    "intro": "China is a country where hospitality, hierarchy and 'face' shape everyday interactions more visibly than in most of Europe, and where a little awareness of the basics goes a long way.",
+    "etiquette": [
+      {
+        "title": "Face (mianzi) matters in every interaction",
+        "text": "Avoid publicly criticising, contradicting or embarrassing someone, including service staff. Disagreements are better handled quietly and indirectly than head-on."
+      },
+      {
+        "title": "Queuing is improving but not universal",
+        "text": "Major cities have made real progress on orderly queues at metros and attractions, but crowding and pushing still happen, especially around ticket gates. Stay calm rather than confrontational."
+      },
+      {
+        "title": "Gifts are given and received with both hands",
+        "text": "If you are given a small gift, business card or drink, accept it with both hands as a mark of respect, and do the same when giving one."
+      },
+      {
+        "title": "Meals are shared, not individually plated",
+        "text": "Dishes arrive in the centre of the table for everyone to share with chopsticks or serving spoons. Wait for the host to begin, and never stick chopsticks upright in a bowl of rice — it echoes a funeral ritual."
+      },
+      {
+        "title": "Tipping is not part of the culture",
+        "text": "Restaurants, taxis and most services neither expect nor always know how to handle a tip. It is not rude to tip in tourist-facing businesses, but it is unnecessary almost everywhere else."
+      },
+      {
+        "title": "Photography of people needs the same courtesy as anywhere",
+        "text": "Ask before photographing individuals, particularly older people and in rural or ethnic-minority areas, where cameras pointed without asking are a real source of friction."
+      }
+    ],
+    "dos": [
+      "Install and test a VPN before you leave home",
+      "Set up Alipay or WeChat Pay with a foreign card before arrival",
+      "Carry your passport — hotels and some train stations require it",
+      "Learn to say hello (nǐ hǎo) and thank you (xièxiè) at minimum",
+      "Book the Terracotta Army, popular Great Wall sections and high-speed rail in peak season ahead",
+      "Carry tissues or a small towel — public restrooms outside hotels often lack them"
+    ],
+    "donts": [
+      "Don't expect Google, Gmail, WhatsApp or Instagram to work without a VPN",
+      "Don't travel during Chinese New Year or Golden Week without planning many months ahead",
+      "Don't stick chopsticks upright in a bowl of rice",
+      "Don't expect much English outside Beijing, Shanghai and Hong Kong",
+      "Don't rely on foreign credit cards as your main payment method",
+      "Don't photograph military installations, border areas or police without clear permission"
+    ]
+  },
+  "tipsIntro": "The things that most often catch first-time visitors out, in rough order of how much disruption they cause.",
+  "tips": [
+    "Set up your VPN before you leave home, not after you land. VPN provider websites and app stores are themselves affected by the Great Firewall once you are inside the country, which makes a last-minute install unreliable.",
+    "Link a foreign Visa or Mastercard to Alipay or WeChat Pay before your trip. China is close to a cashless society, and struggling to pay for a taxi or a noodle stall gets old fast.",
+    "Carry your passport, or at minimum a photocopy and digital photo of it. Hotel check-in, some train stations and certain tourist sites require it, and you cannot buy a high-speed rail ticket without it.",
+    "Avoid travelling during Chinese New Year and the first week of October — both see the largest human migrations on earth, and trains, flights and hotels sell out or spike in price months ahead.",
+    "Download an offline translation app and a Chinese map app (Amap or Baidu Maps work far better than any Western alternative, VPN or not) before you arrive.",
+    "Book the Terracotta Army, the popular Great Wall sections at Mutianyu and Jinshanling, and any high-speed rail during a holiday week well in advance — all three sell out.",
+    "Public restrooms outside hotels and modern malls are frequently squat-style and often lack paper. Carry your own tissue packet everywhere.",
+    "China's domestic flights have a higher delay rate than international carriers, especially in summer. Build in a buffer day before any international connection."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in China?",
+      "a": "Twelve to sixteen for a first trip. Ten to twelve covers Beijing, Xi'an and Shanghai properly by high-speed rail; fourteen to eighteen lets you add a genuinely different landscape like Guilin's karst country or Zhangjiajie's sandstone pillars, which is the itinerary on this page. Five or six days is enough for Beijing and Xi'an alone, and that pairing alone justifies a trip."
+    },
+    {
+      "q": "Do I need a visa for China?",
+      "a": "It depends on your nationality and changes fairly often — China has extended unilateral visa-free entry, typically up to 30 days, to a growing list of countries including most of the EU, the UK, Australia and Canada since 2023, and a 240-hour visa-free transit for many more nationalities passing through certain cities. Always check the current rule for your passport before booking, since the list keeps expanding."
+    },
+    {
+      "q": "Will my phone work in China?",
+      "a": "Data and calls generally work fine, but Google, Gmail, Maps, WhatsApp, Instagram, Facebook, X and most Western news and social media sites are blocked by the Great Firewall. A VPN installed and tested before you arrive is the standard fix — download it at home, since VPN sites are themselves often inaccessible once you are inside China."
+    },
+    {
+      "q": "How do payments work in China?",
+      "a": "Alipay and WeChat Pay dominate almost every transaction, from taxis to street food, and both now let foreign visitors link an international card directly, which takes about ten minutes to set up. Carry some cash as backup for small towns, and do not assume a foreign credit card will be accepted outside hotels and larger shops."
+    },
+    {
+      "q": "Is China expensive?",
+      "a": "Mid-range travel runs about ¥700–1,200 per person per day, comparable to or slightly below Western Europe. Beijing, Shanghai and Hong Kong are where the money goes; inland cities and rural areas are markedly cheaper for similar quality. High-speed rail is excellent value relative to its speed and comfort."
+    },
+    {
+      "q": "Is China safe for tourists?",
+      "a": "Very. Violent crime and street theft against visitors are both rare, and the country's cities are among the safest in the world to walk at night. The real risks are traffic when crossing streets and a handful of well-known tourist scams — overpriced 'tea ceremony' invitations and art-student exhibitions near major sights — rather than anything more serious."
+    },
+    {
+      "q": "What is the single most useful thing to prepare before arriving?",
+      "a": "Connectivity and payments, in that order. Set up and test a VPN before you leave home, and link Alipay or WeChat Pay to a foreign card before you land. Both take ten minutes each and solve the two problems that otherwise disrupt a first-time visitor's trip daily."
+    }
+  ]
+}

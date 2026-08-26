@@ -142,6 +142,19 @@
     "cardWidth": 800,
     "cardHeight": 443
   },
+  "File:2016-12-17 Wangfujing Snack Street Beijing 08 anagoria.jpg": {
+    "artist": "Anagoria",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-12-17_Wangfujing_Snack_Street_Beijing_08_anagoria.jpg",
+    "context": "Eat your way down a snack street — Beijing, China",
+    "hero": "images/china/beijing--thing-5.webp",
+    "card": "images/china/beijing--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:2017-03-23 On the Palatine Hill.jpg": {
     "artist": "BIG ALBERT",
     "license": "CC BY 2.0",
@@ -1429,6 +1442,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Beijing 798 Art District.jpg": {
+    "artist": "Cory M. Grenier",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_798_Art_District.jpg",
+    "context": "The 798 Art District — Beijing, China",
+    "hero": "images/china/beijing--attraction-6.webp",
+    "card": "images/china/beijing--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Beijing Drum Tower and Beijing Bell Tower 20160822.jpg": {
+    "artist": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_Drum_Tower_and_Beijing_Bell_Tower_20160822.jpg",
+    "context": "Climb the Drum and Bell Towers — Beijing, China",
+    "hero": "images/china/beijing--thing-2.webp",
+    "card": "images/china/beijing--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Belltower street cordoba.jpg": {
     "artist": "PerryPlanet",
     "license": "Public domain",
@@ -2663,6 +2702,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:China (Beijing, Forbidden City) View of Meridan gate from courtyard (25928319008).jpg": {
+    "artist": "Güldem Üstün from Istanbul, TURKEY",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_(Beijing,_Forbidden_City)_View_of_Meridan_gate_from_courtyard_(25928319008).jpg",
+    "context": "The Forbidden City — Beijing, China",
+    "hero": "images/china/beijing--attraction-1.webp",
+    "card": "images/china/beijing--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 490
+  },
+  "File:China (Beijing) Aerial view of Forbidden City (38884882275).jpg": {
+    "artist": "Güldem Üstün from Istanbul, TURKEY",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_(Beijing)_Aerial_view_of_Forbidden_City_(38884882275).jpg",
+    "context": "Beijing, China",
+    "hero": "images/china/beijing.webp",
+    "card": "images/china/beijing-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 503
   },
   "File:Chocolate con churros de lazo.jpg": {
     "artist": "LWY from Pasadena, USA",
@@ -5017,6 +5082,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Great Wall at Jinshanling.JPG": {
+    "artist": "Mx. Granger",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_at_Jinshanling.JPG",
+    "context": "See the Great Wall away from the crowds — Beijing, China",
+    "hero": "images/china/beijing--thing-6.webp",
+    "card": "images/china/beijing--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Greek Temple of Poseidon Paestum.jpg": {
     "artist": "NateBergin",
     "license": "CC BY 4.0",
@@ -5186,6 +5264,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hand-cut lamb slices for hotpot.jpg": {
+    "artist": "ZhengZhou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hand-cut_lamb_slices_for_hotpot.jpg",
+    "context": "Instant-boiled mutton hotpot — Beijing, China",
+    "hero": "images/china/beijing--food-4.webp",
+    "card": "images/china/beijing--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Harran Beehive houses 192b.jpg": {
     "artist": "Dosseman",
     "license": "CC BY-SA 4.0",
@@ -5337,6 +5428,19 @@
     "context": "Cappadocia, Turkey",
     "hero": "images/turkey/cappadocia.webp",
     "card": "images/turkey/cappadocia-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Houhai Lake and Drum Tower Beijing 2015 October.jpg": {
+    "artist": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houhai_Lake_and_Drum_Tower_Beijing_2015_October.jpg",
+    "context": "Houhai and the Shichahai lakes — Beijing, China",
+    "hero": "images/china/beijing--attraction-8.webp",
+    "card": "images/china/beijing--attraction-8-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5576,6 +5680,19 @@
     "cardWidth": 800,
     "cardHeight": 478
   },
+  "File:Jianbing.jpg": {
+    "artist": "Jmps2016",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianbing.jpg",
+    "context": "Jianbing — Beijing, China",
+    "hero": "images/china/beijing--food-3.webp",
+    "card": "images/china/beijing--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Jiebea Castello Monaci Salice Salentino 2018 09.jpg": {
     "artist": "Jiel",
     "license": "CC BY-SA 4.0",
@@ -5740,6 +5857,19 @@
     "context": "Kouign-amann — Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel--food-5.webp",
     "card": "images/france/mont-saint-michel--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kunming Lake of Summer Palace (20240706140421).jpg": {
+    "artist": "HoweyYuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunming_Lake_of_Summer_Palace_(20240706140421).jpg",
+    "context": "The Summer Palace — Beijing, China",
+    "hero": "images/china/beijing--attraction-5.webp",
+    "card": "images/china/beijing--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5913,6 +6043,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Lama Temple, Beijing - DSC06715.jpg": {
+    "artist": "Andrew and Annemarie",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lama_Temple,_Beijing_-_DSC06715.jpg",
+    "context": "The Lama Temple — Beijing, China",
+    "hero": "images/china/beijing--attraction-7.webp",
+    "card": "images/china/beijing--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Lamar Valley bison YNP1.jpg": {
     "artist": "Acroterion",
@@ -6247,6 +6390,19 @@
     "context": "Walk a coastal path — Nice & the French Riviera, France",
     "hero": "images/france/nice-french-riviera--thing-3.webp",
     "card": "images/france/nice-french-riviera--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lixue Hutong (20200827131707).jpg": {
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lixue_Hutong_(20200827131707).jpg",
+    "context": "Walk a hutong without a destination — Beijing, China",
+    "hero": "images/china/beijing--thing-1.webp",
+    "card": "images/china/beijing--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7053,6 +7209,19 @@
     "context": "Temple of Augustus and Rome — Ankara, Turkey",
     "hero": "images/turkey/ankara--attraction-4.webp",
     "card": "images/turkey/ankara--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Morning routine (50571166888).jpg": {
+    "artist": "Gauthier DELECROIX - 郭天 from Qingdao, China",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morning_routine_(50571166888).jpg",
+    "context": "Watch tai chi and ballroom dancing at dawn — Beijing, China",
+    "hero": "images/china/beijing--thing-3.webp",
+    "card": "images/china/beijing--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8007,6 +8176,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Pea flour cakes (20210215172834).jpg": {
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pea_flour_cakes_(20210215172834).jpg",
+    "context": "Imperial court pastries — Beijing, China",
+    "hero": "images/china/beijing--food-6.webp",
+    "card": "images/china/beijing--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Peking duck with sugar scallion.jpg": {
+    "artist": "Mcyjerry",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peking_duck_with_sugar_scallion.jpg",
+    "context": "Peking duck — Beijing, China",
+    "hero": "images/china/beijing--food-1.webp",
+    "card": "images/china/beijing--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:People on the beach and boats in the bay, Positano, 2010.jpg": {
     "artist": "DimiTalen",
     "license": "CC0",
@@ -8587,6 +8782,19 @@
     "context": "Portovenere and Palmaria — The Cinque Terre, Italy",
     "hero": "images/italy/cinque-terre--attraction-8.webp",
     "card": "images/italy/cinque-terre--attraction-8-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Portrait of Chairman Mao on Tiananmen Gatetower.jpg": {
+    "artist": "我乃野云鹤",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Chairman_Mao_on_Tiananmen_Gatetower.jpg",
+    "context": "Tiananmen Square — Beijing, China",
+    "hero": "images/china/beijing--attraction-2.webp",
+    "card": "images/china/beijing--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -10529,6 +10737,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Temple of Heaven, Beijing - February 2024.jpg": {
+    "artist": "Lloyd Tudor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven,_Beijing_-_February_2024.jpg",
+    "context": "The Temple of Heaven — Beijing, China",
+    "hero": "images/china/beijing--attraction-4.webp",
+    "card": "images/china/beijing--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tenda railway.jpg": {
     "artist": "Tangopaso",
     "license": "Public domain",
@@ -10615,6 +10836,19 @@
     "context": "Galleria Vittorio Emanuele II and La Scala — Milan, Italy",
     "hero": "images/italy/milan--attraction-3.webp",
     "card": "images/italy/milan--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:The Mutianyu section of the Great Wall of China.jpg": {
+    "artist": "Lloyd Tudor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Mutianyu_section_of_the_Great_Wall_of_China.jpg",
+    "context": "The Great Wall at Mutianyu — Beijing, China",
+    "hero": "images/china/beijing--attraction-3.webp",
+    "card": "images/china/beijing--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -12110,6 +12344,19 @@
     "context": "Zeytinyağlılar — Ephesus & Selçuk, Turkey",
     "hero": "images/turkey/ephesus--food-1.webp",
     "card": "images/turkey/ephesus--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Zhajiangmian after stirring at Fangzhuanchang (20210115131416).jpg": {
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhajiangmian_after_stirring_at_Fangzhuanchang_(20210115131416).jpg",
+    "context": "Zhajiangmian — Beijing, China",
+    "hero": "images/china/beijing--food-2.webp",
+    "card": "images/china/beijing--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
