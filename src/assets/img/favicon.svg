@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CulinaryVault">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8492c"/>
+      <stop offset="1" stop-color="#b0862f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <path d="M20 44h24v5H20z" fill="#fbf7f0"/>
+  <path d="M22 42V32a10 10 0 0 1-2-19.7A8 8 0 0 1 32 9a8 8 0 0 1 12 3.3A10 10 0 0 1 42 32v10z"
+        fill="none" stroke="#fbf7f0" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>

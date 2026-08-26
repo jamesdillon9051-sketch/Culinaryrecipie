@@ -1,0 +1,654 @@
+/** Chinese recipe details. See ./italian.js for the field schema. */
+
+module.exports = {
+  'kung-pao-chicken': {
+    d: 'Sichuan\'s most travelled dish, done properly: velveted chicken, blistered dried chillies, the numbing buzz of Sichuan peppercorn and a sauce that clings rather than pools. Fifteen minutes at the stove once everything is prepped.',
+    meta: 'Authentic Sichuan kung pao chicken with velveted chicken, dried chillies and mouth-numbing peppercorn. Ready in 35 minutes.',
+    kw: ['kung pao chicken recipe', 'sichuan chicken', 'gong bao ji ding', 'chinese stir fry'],
+    why: 'Velveting — coating the chicken in cornflour, egg white and rice wine — forms a protective film that keeps the meat juicy in a screaming-hot wok. The sauce is pre-mixed because stir-frying gives you no time to measure; it goes in at the last moment and thickens on contact with the hot pan.',
+    ing: [
+      '# For the chicken and velvet',
+      '500 g boneless chicken thighs, cut into 2 cm cubes',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp light soy sauce',
+      '1 tbsp cornflour',
+      '1 large egg white',
+      '# For the sauce',
+      '2 tbsp Chinkiang black vinegar',
+      '2 tbsp light soy sauce',
+      '1 tbsp dark soy sauce',
+      '1 tbsp caster sugar',
+      '2 tsp cornflour',
+      '3 tbsp chicken stock',
+      '1 tsp toasted sesame oil',
+      '# For the stir-fry',
+      '3 tbsp neutral oil',
+      '12 dried Sichuan chillies, halved and deseeded',
+      '1 tbsp Sichuan peppercorns',
+      '4 garlic cloves, sliced',
+      '20 g fresh ginger, julienned',
+      '6 spring onions, cut into 2 cm lengths',
+      '80 g roasted peanuts'
+    ],
+    st: [
+      'Toss the chicken with the Shaoxing wine, soy sauce, cornflour and egg white until slick and coated. Leave 20 minutes at room temperature.',
+      'Whisk all the sauce ingredients together in a small bowl and set it within reach of the hob. Once you start cooking there is no time to measure.',
+      'Heat a wok over the highest heat until it smokes, then add 2 tablespoons of the oil and swirl.',
+      'Add the chicken in a single layer and leave it undisturbed for 60 seconds to sear, then stir-fry 2 minutes more until just cooked. Remove to a plate.',
+      'Lower the heat to medium and add the remaining oil, the dried chillies and Sichuan peppercorns. Fry for 30 to 45 seconds until the chillies darken a shade and the oil smells intensely fragrant — burnt chillies will ruin the dish.',
+      'Raise the heat again, add the garlic, ginger and the white parts of the spring onion and stir-fry 30 seconds.',
+      'Return the chicken, give the sauce a stir and pour it around the edge of the wok. Toss constantly for 45 seconds until it thickens and coats every piece.',
+      'Off the heat, fold in the peanuts and the green spring onion. Serve immediately with steamed rice.'
+    ],
+    tips: [
+      'Prep everything into bowls before you light the hob. Stir-frying is 90% preparation and 10% cooking.',
+      'Deseed the dried chillies unless you want serious heat; the seeds carry most of it.',
+      'Add the peanuts off the heat so they stay crunchy rather than going soft in the sauce.'
+    ],
+    pair: ['A cold lager or an off-dry Riesling', 'Serve with plain steamed rice and stir-fried greens', 'Finish with chilled lychees'],
+    store: 'Refrigerate 3 days. Reheat in a hot wok for 2 minutes; the microwave makes the chicken rubbery and the peanuts soggy.',
+    nut: [518, 38, 24, 30, 3, 9, 1240]
+  },
+
+  'sweet-and-sour-pork': {
+    d: 'Cantonese gu lou yuk with a genuinely crisp coating and a sauce balanced by real pineapple and rice vinegar rather than neon syrup. Double-frying is what keeps it crunchy under the sauce.',
+    meta: 'Real Cantonese sweet and sour pork with a shatter-crisp double-fried coating and a balanced pineapple-vinegar sauce.',
+    kw: ['sweet and sour pork recipe', 'cantonese pork', 'crispy pork stir fry', 'chinese takeaway recipe'],
+    why: 'The first fry cooks the pork and sets the crust; the second, at higher heat, drives out surface moisture so the coating becomes rigid and can survive contact with a wet sauce. Tossing the pork in the sauce for only fifteen seconds before serving is the other half of the trick.',
+    ing: [
+      '# For the pork',
+      '600 g pork shoulder, cut into 3 cm cubes',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp light soy sauce',
+      '0.5 tsp white pepper',
+      '1 large egg',
+      '80 g cornflour',
+      '40 g plain flour',
+      '1 l sunflower oil, for frying',
+      '# For the sauce',
+      '4 tbsp rice vinegar',
+      '3 tbsp tomato ketchup',
+      '3 tbsp caster sugar',
+      '1 tbsp light soy sauce',
+      '120 ml pineapple juice',
+      '2 tsp cornflour, mixed with 2 tbsp water',
+      '# For the stir-fry',
+      '1 tbsp neutral oil',
+      '1 green pepper, cut into 3 cm pieces',
+      '1 red pepper, cut into 3 cm pieces',
+      '1 onion, cut into wedges',
+      '200 g fresh pineapple, cubed',
+      '3 garlic cloves, sliced'
+    ],
+    st: [
+      'Marinate the pork in the Shaoxing wine, soy sauce and white pepper for 20 minutes.',
+      'Beat in the egg, then add the cornflour and plain flour and toss until each cube wears a thick, craggy coat.',
+      'Whisk the sauce ingredients except the cornflour slurry together and set aside.',
+      'Heat the oil to 165°C / 330°F. Fry the pork in two batches for 5 minutes until pale gold and cooked through. Lift out and rest on a rack for 5 minutes.',
+      'Raise the oil to 190°C / 375°F and fry the pork again, all together, for 90 seconds until deep golden and hard-crisp. Drain on a rack.',
+      'In a wok over high heat, stir-fry the onion and peppers in the tablespoon of oil for 2 minutes — they should stay crunchy.',
+      'Add the garlic and pineapple for 30 seconds, then pour in the sauce and bring to a hard bubble.',
+      'Stir in the cornflour slurry and cook 30 seconds until the sauce turns glossy and coats a spoon.',
+      'Tip in the fried pork, toss for no more than 15 seconds to coat, and serve immediately.'
+    ],
+    tips: [
+      'Fresh pineapple beats tinned for both flavour and acidity, and its bromelain slightly tenderises the pork.',
+      'Serve the moment it is tossed. Every 30 seconds in the sauce costs you crunch.',
+      'Pork shoulder has enough fat to stay juicy; loin will dry out during the double fry.'
+    ],
+    pair: ['A cold lager or a Riesling', 'Serve with egg fried rice and stir-fried greens', 'Finish with orange segments'],
+    store: 'Keeps 2 days but loses crispness. Reheat the pork separately at 200°C / 390°F for 8 minutes, then re-toss in warmed sauce.',
+    nut: [668, 36, 62, 30, 4, 28, 1080]
+  },
+
+  'mapo-tofu': {
+    d: 'Silken tofu in a fierce, oily red sauce of fermented broad bean paste, minced pork and Sichuan peppercorn. Fifteen minutes, and one of the most intensely flavoured things you can cook.',
+    meta: 'Authentic mapo tofu with doubanjiang, silken tofu and Sichuan peppercorn. Fiery, numbing and ready in 30 minutes.',
+    kw: ['mapo tofu recipe', 'sichuan tofu', 'doubanjiang recipe', 'spicy tofu dish'],
+    why: 'Doubanjiang must be fried in oil until the fat turns red — this releases its fat-soluble pigments and mellows its raw saltiness into savoury depth. Blanching the tofu in salted water first firms its surface proteins so the cubes survive being stirred without disintegrating.',
+    ing: [
+      '450 g silken or soft tofu, cut into 2.5 cm cubes',
+      '150 g minced pork',
+      '3 tbsp neutral oil',
+      '2 tbsp Sichuan doubanjiang (fermented broad bean paste)',
+      '1 tbsp fermented black beans, rinsed and chopped',
+      '1 tbsp Sichuan chilli flakes',
+      '4 garlic cloves, minced',
+      '20 g fresh ginger, minced',
+      '300 ml chicken stock',
+      '1 tbsp light soy sauce',
+      '1 tsp caster sugar',
+      '2 tbsp cornflour, mixed with 4 tbsp water',
+      '1.5 tsp Sichuan peppercorns, toasted and ground',
+      '4 spring onions, sliced',
+      '1 tbsp chilli oil'
+    ],
+    st: [
+      'Bring a pan of salted water to a bare simmer, slide in the tofu cubes and hold for 3 minutes. Drain gently. This seasons the tofu and firms it so it will not crumble.',
+      'Toast the Sichuan peppercorns in a dry pan for 45 seconds until fragrant, then grind to a powder.',
+      'Heat the oil in a wok over medium-high and fry the minced pork for 3 to 4 minutes, breaking it up, until browned and slightly crisp.',
+      'Push the pork aside, lower the heat and add the doubanjiang. Fry it in the oil for 60 to 90 seconds, stirring, until the oil turns deep red.',
+      'Add the black beans, chilli flakes, garlic and ginger and fry 30 seconds.',
+      'Pour in the stock, soy sauce and sugar and bring to a simmer.',
+      'Slide in the tofu and simmer for 4 minutes, nudging the pan rather than stirring, so the cubes stay intact.',
+      'Add the cornflour slurry in three additions, simmering 30 seconds between each, until the sauce is glossy and thick enough to hold the tofu.',
+      'Take off the heat, scatter over the ground Sichuan pepper and spring onions, and drizzle with chilli oil. Serve with plenty of rice.'
+    ],
+    tips: [
+      'Adding the slurry in stages gives you far better control than dumping it all in at once.',
+      'Use a spatula to push rather than stir, and shake the wok to move the tofu.',
+      'For a vegan version, replace the pork with finely chopped shiitake and use vegetable stock.'
+    ],
+    pair: ['A cold lager or jasmine tea', 'Steamed rice is essential; add a plain green vegetable', 'Finish with chilled melon'],
+    store: 'Refrigerate 3 days. Reheat gently in a pan — the tofu breaks down if stirred hard when cold.',
+    nut: [412, 24, 16, 30, 2, 5, 1320]
+  },
+
+  'general-tsos-chicken': {
+    d: 'The Chinese-American classic: crackling battered chicken in a sticky, tangy, faintly sweet sauce with a lick of chilli heat. Made at home it is far less sweet and far more interesting than the takeaway version.',
+    meta: "Crispy General Tso's chicken with a tangy, sticky sauce — the takeaway favourite made properly, and less sweet.",
+    kw: ["general tso's chicken recipe", 'chinese american chicken', 'crispy chicken sauce', 'takeaway recipe'],
+    why: 'A cornflour-heavy batter fries into a hard, glassy shell because cornflour contains almost no protein to soften it. Reducing the sauce until it visibly thickens on the spoon before the chicken goes in means it coats rather than soaks, keeping that shell intact.',
+    ing: [
+      '# For the chicken',
+      '700 g boneless chicken thighs, cut into 3 cm pieces',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp light soy sauce',
+      '1 large egg',
+      '100 g cornflour',
+      '30 g plain flour',
+      '0.5 tsp baking powder',
+      '1 l sunflower oil, for frying',
+      '# For the sauce',
+      '4 tbsp light soy sauce',
+      '3 tbsp rice vinegar',
+      '3 tbsp caster sugar',
+      '1 tbsp hoisin sauce',
+      '150 ml chicken stock',
+      '1 tbsp cornflour, mixed with 2 tbsp water',
+      '# For the stir-fry',
+      '2 tbsp neutral oil',
+      '8 dried red chillies',
+      '4 garlic cloves, minced',
+      '20 g fresh ginger, minced',
+      '4 spring onions, sliced',
+      '1 tsp toasted sesame seeds'
+    ],
+    st: [
+      'Toss the chicken with the Shaoxing wine and soy sauce and leave 15 minutes, then mix in the egg.',
+      'Combine the cornflour, plain flour and baking powder and toss the chicken through until thickly and unevenly coated — the craggy bits fry crispest.',
+      'Whisk the sauce ingredients except the slurry together and set aside.',
+      'Heat the oil to 175°C / 350°F and fry the chicken in three batches for 4 minutes each until golden. Rest on a rack for 5 minutes.',
+      'Raise the oil to 195°C / 385°F and fry everything together for 90 seconds until deep golden and very crisp. Drain on a rack.',
+      'Heat the 2 tablespoons of oil in a wok over medium heat and fry the dried chillies for 30 seconds until they darken slightly.',
+      'Add the garlic and ginger for 30 seconds, then pour in the sauce and bring to a boil.',
+      'Add the slurry and cook for 60 seconds until glossy and thick enough to coat a spoon heavily.',
+      'Add the chicken, toss for 20 seconds, and serve at once scattered with spring onion and sesame seeds.'
+    ],
+    tips: [
+      'Rest the chicken between fries. That five minutes lets steam escape and is why the second fry works.',
+      'The sauce should be sticky, not runny. If it pools on the plate, it needed another 30 seconds.',
+      'Broccoli florets, blanched and tossed in at the end, are the standard accompaniment.'
+    ],
+    pair: ['A cold lager or a Gewürztraminer', 'Serve with steamed rice and blanched broccoli', 'Finish with pineapple'],
+    store: 'Refrigerate 3 days. Re-crisp the chicken at 200°C / 390°F for 8 minutes before re-saucing.',
+    nut: [688, 44, 58, 30, 2, 18, 1420]
+  },
+
+  'beef-and-broccoli': {
+    d: 'The most useful stir-fry in the repertoire: velveted beef, crisp-tender broccoli and a savoury oyster sauce gravy, on the table in under half an hour. The velveting is what makes cheap beef taste expensive.',
+    meta: 'Restaurant-style beef and broccoli with velveted steak and a glossy oyster sauce. On the table in 30 minutes.',
+    kw: ['beef and broccoli recipe', 'chinese stir fry', 'velveting beef', 'quick weeknight dinner'],
+    why: 'A pinch of bicarbonate of soda raises the surface pH of the beef, which prevents its proteins from contracting tightly during high-heat cooking — the same tenderising effect Chinese restaurants rely on. Blanching the broccoli first means it needs only seconds in the wok, so it stays bright and snappy.',
+    ing: [
+      '# For the beef',
+      '500 g flank or sirloin steak, sliced 5 mm thick against the grain',
+      '0.5 tsp bicarbonate of soda',
+      '1 tbsp light soy sauce',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp cornflour',
+      '1 tbsp neutral oil',
+      '# For the sauce',
+      '3 tbsp oyster sauce',
+      '2 tbsp light soy sauce',
+      '1 tsp dark soy sauce',
+      '1 tsp caster sugar',
+      '150 ml beef or chicken stock',
+      '1 tbsp cornflour',
+      '1 tsp toasted sesame oil',
+      '# For the stir-fry',
+      '500 g broccoli, cut into florets',
+      '3 tbsp neutral oil',
+      '4 garlic cloves, sliced',
+      '20 g fresh ginger, julienned'
+    ],
+    st: [
+      'Toss the sliced beef with the bicarbonate of soda and 2 tablespoons of water and leave 20 minutes, then rinse thoroughly and pat dry.',
+      'Mix the beef with the soy sauce, Shaoxing wine and cornflour, then the tablespoon of oil, which stops it clumping in the wok. Rest 15 minutes.',
+      'Whisk the sauce ingredients together and keep beside the hob.',
+      'Blanch the broccoli in boiling salted water for 90 seconds, then drain and run under cold water. Dry thoroughly — wet broccoli will steam instead of searing.',
+      'Heat a wok over the highest heat until smoking. Add 2 tablespoons of oil and spread the beef in a single layer. Leave 45 seconds without touching it, then stir-fry 60 seconds until just browned. Remove.',
+      'Add the last tablespoon of oil, then the garlic and ginger for 20 seconds.',
+      'Add the broccoli and toss 60 seconds, then return the beef.',
+      'Stir the sauce and pour it around the edge of the wok. Toss for 60 to 90 seconds until it thickens and glazes everything.',
+      'Serve immediately over steamed rice.'
+    ],
+    tips: [
+      'Rinse the bicarbonate off properly or the beef will taste soapy.',
+      'Slice against the grain and as thin as you can. Half-freezing the steak for 20 minutes makes this far easier.',
+      'A wok that is not smoking is not hot enough. Cook in batches rather than dropping the temperature.'
+    ],
+    pair: ['A cold lager or a light Pinot Noir', 'Serve with jasmine rice', 'Finish with orange segments'],
+    store: 'Refrigerate 3 days. Reheat in a hot wok for 2 minutes; the broccoli softens on standing but the flavour holds.',
+    nut: [438, 36, 22, 24, 5, 6, 1380]
+  },
+
+  'egg-fried-rice': {
+    d: 'The test of any wok cook: separate grains, wisps of egg through every mouthful, and that faint smoky note from the pan. Cold rice and high heat are the only two rules that matter.',
+    meta: 'Perfect egg fried rice with separate grains and wok-smoky flavour. The cold-rice rule and high-heat technique explained.',
+    kw: ['egg fried rice recipe', 'chinese fried rice', 'quick rice dish', 'wok hei'],
+    why: 'Freshly cooked rice is full of surface moisture and its starches are still fully hydrated, so it steams and clumps. Refrigerating overnight lets those starches retrograde and the grains dry out, which is exactly what allows them to separate and fry rather than stick.',
+    ing: [
+      '600 g cooked long-grain rice, cold from the fridge',
+      '4 large eggs, beaten with a pinch of salt',
+      '4 tbsp neutral oil',
+      '4 spring onions, whites and greens separated',
+      '3 garlic cloves, minced',
+      '150 g frozen peas',
+      '2 tbsp light soy sauce',
+      '1 tsp dark soy sauce',
+      '1 tbsp Shaoxing wine',
+      '1 tsp toasted sesame oil',
+      '0.5 tsp white pepper',
+      '0.5 tsp fine sea salt'
+    ],
+    st: [
+      'Break the cold rice up with wet hands until there are no clumps at all. Every clump becomes a stodgy lump in the finished dish.',
+      'Heat a wok over the highest heat until it smokes. Add 2 tablespoons of oil and swirl to coat.',
+      'Pour in the beaten eggs and let them puff for 10 seconds, then scramble hard for 30 seconds until just set but still glossy. Tip onto a plate and break into pieces.',
+      'Add the remaining oil, then the spring onion whites and garlic for 20 seconds.',
+      'Add the rice and stir-fry for 3 to 4 minutes, pressing it against the wok and tossing, until the grains are hot, separate and beginning to pop.',
+      'Add the peas and toss 60 seconds.',
+      'Pour the Shaoxing wine around the hot edge of the wok, then the soy sauces, and toss hard for 60 seconds so every grain colours evenly.',
+      'Return the egg, add the white pepper, salt and sesame oil, and toss for 30 seconds.',
+      'Finish with the spring onion greens off the heat and serve immediately.'
+    ],
+    tips: [
+      'Day-old rice is best. In a hurry, spread fresh rice on a tray and freeze it for 30 minutes.',
+      'Cook no more than two portions at once in a domestic wok, or the temperature crashes and you get steamed rice.',
+      'Add the soy sauce around the edge of the wok, not into the middle — it caramelises on contact with the hot metal.'
+    ],
+    pair: ['A cold lager or jasmine tea', 'Serve alongside any Chinese main, or with a fried egg on top', 'Finish with lychees'],
+    store: 'Refrigerate 2 days and reheat in a hot wok. Cooked rice must be cooled quickly and never left at room temperature for more than an hour.',
+    nut: [468, 16, 62, 18, 4, 4, 980]
+  },
+
+  'chow-mein': {
+    d: 'Springy egg noodles tossed with chicken and vegetables in a savoury brown sauce, with a few noodles crisped against the wok. A twenty-minute takeaway staple that is genuinely better homemade.',
+    meta: 'Chicken chow mein with springy egg noodles, crisp vegetables and a savoury brown sauce. Faster than a takeaway.',
+    kw: ['chow mein recipe', 'chicken chow mein', 'chinese noodles', 'quick noodle stir fry'],
+    why: 'Rinsing and thoroughly draining the boiled noodles removes surface starch that would otherwise glue them into a single mass in the wok. Letting them sit undisturbed for a minute against the hot metal crisps a few strands, which is the textural contrast that defines a good chow mein.',
+    ing: [
+      '400 g fresh egg noodles',
+      '400 g chicken breast, thinly sliced',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp cornflour',
+      '4 tbsp neutral oil',
+      '200 g beansprouts',
+      '1 carrot, julienned',
+      '150 g white cabbage, shredded',
+      '4 spring onions, cut into 4 cm lengths',
+      '3 garlic cloves, sliced',
+      '15 g fresh ginger, julienned',
+      '# For the sauce',
+      '3 tbsp light soy sauce',
+      '1 tbsp dark soy sauce',
+      '2 tbsp oyster sauce',
+      '1 tsp caster sugar',
+      '1 tsp toasted sesame oil',
+      '0.5 tsp white pepper',
+      '3 tbsp chicken stock'
+    ],
+    st: [
+      'Toss the chicken with the Shaoxing wine and cornflour and leave 15 minutes.',
+      'Boil the noodles for 2 minutes only, then drain, rinse under cold water and shake dry thoroughly. Toss with a teaspoon of oil.',
+      'Whisk the sauce ingredients together and set aside.',
+      'Heat a wok over the highest heat, add 2 tablespoons of oil and stir-fry the chicken for 2 to 3 minutes until just cooked. Remove.',
+      'Add another tablespoon of oil and stir-fry the carrot and cabbage for 90 seconds, then the garlic, ginger and spring onion whites for 30 seconds. Remove.',
+      'Add the last tablespoon of oil and spread the noodles across the wok. Leave undisturbed for 60 seconds so some strands crisp against the metal, then toss.',
+      'Return the chicken and vegetables, add the beansprouts, and pour the sauce around the edge of the wok.',
+      'Toss hard for 90 seconds until everything is coated and glossy and the beansprouts are just wilted but still snappy.',
+      'Finish with the spring onion greens and serve immediately.'
+    ],
+    tips: [
+      'Beansprouts go in at the very end. Thirty seconds too long and they collapse.',
+      'Fresh noodles beat dried; if using dried, cook them 1 minute short of the packet time.',
+      'Do not overload the wok — cook in two batches and combine at the end.'
+    ],
+    pair: ['A cold lager or jasmine tea', 'Serve with spring rolls as a starter', 'Finish with orange segments'],
+    store: 'Refrigerate 2 days. Reheat in a very hot wok with a splash of stock to loosen the noodles.',
+    nut: [568, 34, 66, 18, 5, 8, 1520]
+  },
+
+  'dan-dan-noodles': {
+    d: 'Chengdu street noodles: a pool of chilli oil, sesame paste and black vinegar at the bottom of the bowl, topped with crisp minced pork and preserved vegetable, all stirred together at the table.',
+    meta: 'Authentic dan dan noodles with chilli oil, sesame paste and crisp pork. A Sichuan street classic in 30 minutes.',
+    kw: ['dan dan noodles recipe', 'sichuan noodles', 'chilli oil noodles', 'spicy noodle recipe'],
+    why: 'Dan dan is a sauce-in-the-bottom dish, not a tossed one: the noodles arrive hot enough to loosen the sesame paste when stirred, creating an emulsion at the table. Frying the pork until genuinely crisp gives the textural counterpoint that keeps the dish from being uniformly soft.',
+    ing: [
+      '# For the pork topping',
+      '300 g minced pork',
+      '2 tbsp neutral oil',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp dark soy sauce',
+      '1 tsp five-spice powder',
+      '60 g ya cai or preserved mustard greens, chopped',
+      '# For the sauce, per bowl',
+      '2 tbsp Chinese sesame paste',
+      '3 tbsp chilli oil with sediment',
+      '1.5 tbsp light soy sauce',
+      '1 tbsp Chinkiang black vinegar',
+      '1 tsp caster sugar',
+      '2 garlic cloves, minced',
+      '1 tsp Sichuan peppercorns, toasted and ground',
+      '4 tbsp hot chicken stock',
+      '# To serve',
+      '500 g fresh thin wheat noodles',
+      '150 g leafy greens such as choy sum',
+      '4 spring onions, sliced',
+      '2 tbsp roasted peanuts, crushed'
+    ],
+    st: [
+      'Heat the oil in a wok over medium-high and fry the pork, breaking it up and then leaving it to catch, for 6 to 8 minutes until genuinely crisp and browned.',
+      'Add the Shaoxing wine, dark soy sauce and five-spice and cook 2 minutes until dry. Stir in the ya cai and fry 2 minutes more. Set aside.',
+      'Toast the Sichuan peppercorns for 45 seconds and grind them.',
+      'In each serving bowl, whisk together the sesame paste, chilli oil, soy sauce, vinegar, sugar, garlic, ground Sichuan pepper and hot stock until smooth and loose.',
+      'Blanch the greens in boiling water for 60 seconds and lift out.',
+      'Cook the noodles in the same water for 90 seconds to 2 minutes until just tender, then drain but do not rinse — the residual heat is what loosens the sauce.',
+      'Pile the hot noodles straight onto the sauce, top with the crisp pork, greens, spring onion and peanuts.',
+      'Serve immediately and instruct everyone to stir vigorously from the bottom before eating.'
+    ],
+    tips: [
+      'Chinese sesame paste is made from toasted seeds and is much darker and nuttier than tahini. Tahini plus a teaspoon of sesame oil is an acceptable stand-in.',
+      'Use the sediment from the bottom of the chilli oil jar, not just the clear oil — that is where the flavour lives.',
+      'Ya cai is worth ordering online; it provides the salty, funky note that makes the dish distinctive.'
+    ],
+    pair: ['A cold lager or barley tea', 'Serve with smashed cucumber salad', 'Finish with chilled melon'],
+    store: 'The pork topping keeps 4 days refrigerated and freezes well. Assemble bowls to order — noodles standing in sauce turn claggy.',
+    nut: [712, 30, 72, 36, 5, 6, 1620]
+  },
+
+  'peking-duck': {
+    d: 'Lacquered, glass-crisp skin carved off a duck that has been air-dried for a full day, wrapped in thin pancakes with cucumber, spring onion and sweet bean sauce. A genuine occasion dish.',
+    meta: 'Peking duck with glass-crisp lacquered skin, served with pancakes, cucumber and hoisin. The full air-drying method.',
+    kw: ['peking duck recipe', 'crispy duck', 'chinese roast duck', 'duck pancakes'],
+    why: 'Separating the skin from the fat with air, scalding it with boiling water, and then drying it for 24 hours dehydrates the skin and shrinks its collagen — so in the oven the remaining fat renders out and leaves a thin, glassy shell. The maltose glaze browns faster than sugar and gives the classic mahogany lacquer.',
+    ing: [
+      '1 whole duck, 2.2 kg, with head and neck if possible',
+      '2 l boiling water',
+      '3 tbsp maltose or honey',
+      '2 tbsp rice vinegar',
+      '1 tbsp dark soy sauce',
+      '200 ml hot water, for the glaze',
+      '2 tsp Chinese five-spice',
+      '1 tbsp fine sea salt',
+      '4 spring onions',
+      '30 g fresh ginger, sliced',
+      '# To serve',
+      '24 thin Mandarin pancakes',
+      '1 cucumber, cut into fine batons',
+      '6 spring onions, shredded',
+      '6 tbsp hoisin or sweet bean sauce'
+    ],
+    st: [
+      'Remove any excess fat from the cavity. Using a straw or a bicycle pump at the neck opening, inflate the duck to separate the skin from the fat beneath — this is the step that makes the skin crisp.',
+      'Rub the cavity with the salt and five-spice and stuff with the whole spring onions and ginger. Skewer the neck and tail openings closed.',
+      'Hang or stand the duck on a rack over the sink and pour the boiling water evenly over the skin for 30 seconds until it tightens visibly and turns opaque.',
+      'Mix the maltose, vinegar, dark soy and hot water into a glaze and brush the duck all over, twice.',
+      'Hang the duck in front of a fan in a cool place, or set it uncovered on a rack in the fridge, for 12 to 24 hours until the skin is dry and papery to the touch.',
+      'Roast on a rack at 200°C / 390°F, breast up, for 30 minutes.',
+      'Reduce to 160°C / 320°F, turn the duck breast down and roast 30 minutes, then breast up again for a final 25 to 30 minutes, until the skin is deep mahogany and glass-hard.',
+      'Rest for 15 minutes. Carve the skin off in neat squares first and arrange it separately — traditionally it is eaten on its own with a little sugar.',
+      'Shred the meat and serve with warmed pancakes, cucumber, spring onion and sauce, letting everyone roll their own.'
+    ],
+    tips: [
+      'The drying stage cannot be shortened. A duck roasted with damp skin will never crisp properly.',
+      'Prick the skin nowhere — any hole lets fat escape onto the surface and the skin fries rather than crisps.',
+      'Use the carcass for a superb stock the next day.'
+    ],
+    pair: ['A light Pinot Noir or jasmine tea', 'Serve with pancakes and a stir-fried green', 'Finish with lychees or a citrus sorbet'],
+    store: 'Refrigerate 3 days. Reheat the meat gently; re-crisp the skin under a hot grill for 2 minutes. Use leftovers in fried rice or noodle soup.',
+    nut: [648, 42, 34, 38, 2, 12, 1180]
+  },
+
+  'char-siu': {
+    d: 'Cantonese barbecue pork with a sticky, deeply burnished glaze and rings of red at the edge. It takes forty minutes in the oven and the marinade does almost all the work.',
+    meta: 'Sticky Cantonese char siu pork with a burnished honey glaze. Simple oven method, restaurant-quality result.',
+    kw: ['char siu recipe', 'chinese bbq pork', 'cantonese roast pork', 'pork marinade'],
+    why: 'The glaze is applied in repeated thin layers during the last twenty minutes rather than all at once, because its sugars burn quickly — each coat dries and caramelises, building a lacquer. Pork shoulder is used rather than loin because its intramuscular fat keeps the meat succulent under the high heat needed for that glaze.',
+    ing: [
+      '1 kg pork shoulder, cut into 5 cm thick strips',
+      '# For the marinade',
+      '3 tbsp hoisin sauce',
+      '2 tbsp light soy sauce',
+      '1 tbsp dark soy sauce',
+      '2 tbsp Shaoxing wine',
+      '3 tbsp honey',
+      '2 tbsp caster sugar',
+      '1 tbsp red fermented bean curd, mashed, optional',
+      '4 garlic cloves, grated',
+      '20 g fresh ginger, grated',
+      '1 tsp Chinese five-spice',
+      '1 tsp white pepper',
+      '# For the glaze',
+      '3 tbsp honey',
+      '1 tbsp hot water',
+      '1 tsp light soy sauce'
+    ],
+    st: [
+      'Whisk all the marinade ingredients together. Reserve 4 tablespoons for basting and pour the rest over the pork strips.',
+      'Massage the marinade in, cover, and refrigerate for at least 8 hours, ideally 24, turning once.',
+      'Take the pork out an hour before cooking. Line a roasting tin with foil and pour in 250 ml of water — this catches drips and stops the sugars smoking out the kitchen.',
+      'Set the pork on a rack over the tin and roast at 200°C / 390°F for 25 minutes.',
+      'Turn the strips, baste with the reserved marinade, and roast a further 15 minutes.',
+      'Mix the glaze ingredients. Brush the pork generously and roast 5 minutes, then repeat twice more, turning between each, until the surface is dark, sticky and caramelised at the edges.',
+      'Finish under a hot grill for 2 to 3 minutes for extra char, watching constantly.',
+      'Rest for 10 minutes, then slice thinly across the grain and serve with rice and any glaze from the tin.'
+    ],
+    tips: [
+      'Cut the pork into strips no thicker than 5 cm so the marinade penetrates and the surface-to-meat ratio stays high.',
+      'The water in the tin is essential. Without it the dripping sugar will scorch and fill the kitchen with smoke.',
+      'Red fermented bean curd gives the traditional colour and a subtle funk; a teaspoon of beetroot powder is a natural alternative to food colouring.'
+    ],
+    pair: ['A cold lager or an off-dry Riesling', 'Serve over rice with blanched greens, or in bao buns', 'Finish with mango'],
+    store: 'Refrigerate 4 days, freeze 3 months. Slice cold for noodle soups, or reheat under a grill for 3 minutes to revive the glaze.',
+    nut: [512, 44, 34, 22, 1, 30, 1180]
+  },
+
+  'pork-dumplings': {
+    d: 'Juicy jiaozi with a hand-rolled wrapper thick at the centre and thin at the edge — the shape that stops the base bursting. Making them is a whole afternoon and worth every minute.',
+    meta: 'Homemade steamed pork dumplings (jiaozi) with hand-rolled wrappers and a juicy cabbage-pork filling.',
+    kw: ['pork dumplings recipe', 'jiaozi recipe', 'homemade dumpling wrappers', 'chinese dumplings'],
+    why: 'Beating stock into the minced pork a spoonful at a time creates an emulsion held by the meat proteins, so the filling releases juice when cooked instead of turning dry and crumbly. Rolling the wrapper thicker at the centre gives the base enough structure to hold that liquid without splitting.',
+    ing: [
+      '# For the wrappers',
+      '400 g plain flour',
+      '220 ml warm water',
+      '0.5 tsp fine sea salt',
+      '# For the filling',
+      '500 g minced pork, 20% fat',
+      '300 g Chinese cabbage, finely chopped',
+      '1.5 tsp fine sea salt',
+      '120 ml cold chicken stock',
+      '4 spring onions, finely chopped',
+      '20 g fresh ginger, grated',
+      '2 tbsp light soy sauce',
+      '1 tbsp Shaoxing wine',
+      '1 tbsp toasted sesame oil',
+      '0.5 tsp white pepper',
+      '# For the dipping sauce',
+      '4 tbsp Chinkiang black vinegar',
+      '2 tbsp light soy sauce',
+      '1 tbsp chilli oil',
+      '15 g fresh ginger, julienned'
+    ],
+    st: [
+      'Mix the flour, salt and warm water into a shaggy dough, then knead 8 minutes until smooth. Cover and rest 45 minutes — this relaxes the gluten so the wrappers roll thin without springing back.',
+      'Toss the chopped cabbage with 1 teaspoon of the salt, leave 15 minutes, then squeeze out as much water as you can.',
+      'Put the pork in a bowl with the soy sauce, Shaoxing wine, ginger, white pepper and remaining salt. Stir vigorously in one direction, adding the cold stock a tablespoon at a time, until it is absorbed and the mixture is sticky and glossy — about 4 minutes.',
+      'Fold in the cabbage, spring onions and sesame oil. Chill 30 minutes.',
+      'Roll the dough into two long ropes and cut into 10 g pieces. Press each flat and roll into an 8 cm circle, rotating as you go and keeping the centre slightly thicker than the rim.',
+      'Place a heaped teaspoon of filling in the centre. Fold in half and pinch the middle, then make four or five pleats along the front edge only, pressing each onto the flat back.',
+      'Set the finished dumplings on a floured tray with a flat base so they stand up.',
+      'To steam, line a bamboo steamer with baking paper or cabbage leaves and steam over boiling water for 10 minutes.',
+      'Mix the dipping sauce and serve the dumplings immediately, while the wrappers are still translucent and springy.'
+    ],
+    tips: [
+      'Stir the filling in one direction only. Reversing breaks the protein network and the emulsion collapses.',
+      'Keep unrolled dough and finished dumplings covered; they dry out within minutes.',
+      'Freeze on the tray until solid, then bag. Cook from frozen, adding 3 minutes.'
+    ],
+    pair: ['A cold lager or jasmine tea', 'Serve with smashed cucumber salad', 'Finish with orange segments'],
+    store: 'Uncooked dumplings freeze 3 months. Cooked ones keep 2 days; pan-fry rather than re-steam to revive them.',
+    nut: [486, 24, 52, 20, 3, 3, 1320]
+  },
+
+  'spring-rolls': {
+    d: 'Shatteringly crisp vegetable spring rolls with a filling that stays crunchy inside the wrapper. Cooling the filling completely before rolling is the difference between crisp and soggy.',
+    meta: 'Extra-crispy vegetable spring rolls with a crunchy filling and shatter-thin wrapper. Naturally vegan.',
+    kw: ['spring rolls recipe', 'crispy vegetable spring rolls', 'chinese appetizer', 'vegan spring rolls'],
+    why: 'Warm filling releases steam inside the sealed roll, which softens the wrapper from within before it ever reaches the fryer. Cooling it completely — and draining any liquid — keeps the wrapper dry, and a flour-water paste seals the seam far more reliably than water alone.',
+    ing: [
+      '# For the filling',
+      '200 g white cabbage, finely shredded',
+      '2 carrots, julienned',
+      '150 g beansprouts',
+      '100 g shiitake mushrooms, thinly sliced',
+      '80 g glass noodles, soaked and cut into 4 cm lengths',
+      '4 spring onions, sliced',
+      '3 garlic cloves, minced',
+      '15 g fresh ginger, minced',
+      '2 tbsp neutral oil',
+      '2 tbsp light soy sauce',
+      '1 tbsp oyster or vegetarian mushroom sauce',
+      '1 tsp caster sugar',
+      '0.5 tsp white pepper',
+      '1 tsp toasted sesame oil',
+      '# To roll and fry',
+      '20 spring roll wrappers, 20 cm',
+      '3 tbsp plain flour, mixed with 4 tbsp water',
+      '1 l sunflower oil, for frying'
+    ],
+    st: [
+      'Heat the oil in a wok over high heat and stir-fry the garlic, ginger and mushrooms for 2 minutes.',
+      'Add the cabbage and carrot and stir-fry 3 minutes until just wilted but still with bite.',
+      'Add the beansprouts, glass noodles, soy sauce, oyster sauce, sugar and white pepper and toss 90 seconds.',
+      'Tip into a colander set over a bowl and let it drain and cool completely, at least 30 minutes. Stir in the sesame oil and spring onions once cold.',
+      'Lay a wrapper as a diamond in front of you. Place 2 tablespoons of filling across the lower third in a neat log.',
+      'Fold the bottom corner up over the filling and roll once tightly, then fold both sides in and continue rolling firmly.',
+      'Brush the final corner with the flour paste and seal, pressing along the seam.',
+      'Heat the oil to 175°C / 350°F and fry four or five rolls at a time for 4 to 5 minutes, turning, until evenly deep golden and blistered.',
+      'Drain on a rack and serve immediately with sweet chilli sauce.'
+    ],
+    tips: [
+      'Roll tightly. Air pockets expand in the fryer and burst the wrapper.',
+      'Keep the wrappers under a damp cloth — they crack within a couple of minutes of exposure.',
+      'Fry from frozen for the crispest results: freeze the rolled spring rolls solid, then fry at 165°C for 7 minutes.'
+    ],
+    pair: ['A cold lager or jasmine tea', 'Serve with sweet chilli sauce as a starter', 'Follow with chow mein'],
+    store: 'Uncooked rolls freeze 2 months. Fried rolls keep 1 day; re-crisp at 200°C / 390°F for 8 minutes.',
+    nut: [212, 5, 26, 10, 3, 4, 480]
+  },
+
+  'wonton-soup': {
+    d: 'Silky wontons with a prawn and pork filling floating in a clear, restorative broth. The wrappers are so thin they turn translucent, and the whole thing comes together in half an hour.',
+    meta: 'Delicate wonton soup with prawn and pork parcels in a clear ginger broth. Comfort food in 45 minutes.',
+    kw: ['wonton soup recipe', 'chinese wontons', 'prawn wontons', 'clear broth soup'],
+    why: 'Wontons are cooked in a separate pan of water rather than in the soup, because the starch they shed would cloud a broth that should be crystal clear. Whole prawns chopped by hand rather than minced keep bouncy pieces in the filling, giving texture against the soft pork.',
+    ing: [
+      '# For the filling',
+      '250 g minced pork',
+      '200 g raw prawns, peeled and roughly chopped',
+      '2 spring onions, finely chopped',
+      '15 g fresh ginger, grated',
+      '1 tbsp light soy sauce',
+      '1 tbsp Shaoxing wine',
+      '1 tsp toasted sesame oil',
+      '1 tsp cornflour',
+      '0.5 tsp white pepper',
+      '0.5 tsp fine sea salt',
+      '# For the soup',
+      '1.2 l good chicken stock',
+      '20 g fresh ginger, sliced',
+      '2 spring onions, whole',
+      '1 tbsp light soy sauce',
+      '1 tsp toasted sesame oil',
+      '# To assemble',
+      '40 wonton wrappers',
+      '200 g pak choi, halved',
+      '2 spring onions, sliced'
+    ],
+    st: [
+      'Mix the pork with the soy sauce, Shaoxing wine, ginger, white pepper, salt and cornflour, stirring in one direction for 2 minutes until sticky.',
+      'Fold in the chopped prawns, spring onions and sesame oil. Chill 20 minutes.',
+      'Simmer the stock with the sliced ginger and whole spring onions for 15 minutes, then strain and season with soy sauce and sesame oil. Keep hot.',
+      'To wrap, put a teaspoon of filling in the centre of a wrapper, wet the edges, and fold into a triangle, pressing out all the air.',
+      'Bring the two long corners together around your finger and pinch to seal, so it sits like a little bundle.',
+      'Bring a separate large pan of water to a gentle boil and cook the wontons in two batches for 3 to 4 minutes, until the wrappers turn translucent and they float.',
+      'Blanch the pak choi in the same water for 60 seconds.',
+      'Divide the wontons and greens between warmed bowls and ladle the hot broth over.',
+      'Scatter with spring onion and serve immediately.'
+    ],
+    tips: [
+      'Press all the air out as you seal, or the wontons will burst in the water.',
+      'A good stock is the whole soup here. Use homemade if you possibly can.',
+      'Wontons freeze superbly — cook from frozen, adding 2 minutes.'
+    ],
+    pair: ['Jasmine tea or a light lager', 'Serve as a starter, or with noodles added for a full meal', 'Follow with orange segments'],
+    store: 'Uncooked wontons freeze 2 months. Store leftover broth and wontons separately; wontons left in liquid turn to paste.',
+    nut: [386, 28, 42, 10, 2, 3, 1480]
+  },
+
+  'hot-and-sour-soup': {
+    d: 'Sharp with black vinegar, hot with white pepper rather than chilli, and thickened to that distinctive silky body. The real thing is far more interesting than the gloopy takeaway version.',
+    meta: 'Authentic hot and sour soup with black vinegar, white pepper and silky egg ribbons. Ready in 35 minutes.',
+    kw: ['hot and sour soup recipe', 'chinese soup', 'suan la tang', 'vegetarian chinese soup'],
+    why: 'The heat in this soup comes from white pepper, whose piperine gives a warming rather than burning sensation, and the sourness from Chinkiang vinegar added off the heat so its aromatics survive. Drizzling beaten egg in a thin stream while the soup moves slowly creates fine ribbons instead of lumps.',
+    ing: [
+      '1.2 l chicken or vegetable stock',
+      '20 g dried wood ear mushrooms, soaked and shredded',
+      '6 dried shiitake mushrooms, soaked and sliced',
+      '200 g firm tofu, cut into matchsticks',
+      '100 g bamboo shoots, julienned',
+      '2 tbsp light soy sauce',
+      '1 tbsp dark soy sauce',
+      '4 tbsp Chinkiang black vinegar',
+      '2 tsp white pepper, freshly ground',
+      '1 tsp caster sugar',
+      '1 tsp fine sea salt',
+      '4 tbsp cornflour, mixed with 6 tbsp water',
+      '2 large eggs, beaten',
+      '1 tbsp toasted sesame oil',
+      '4 spring onions, sliced',
+      '1 tsp chilli oil'
+    ],
+    st: [
+      'Soak the wood ear and shiitake mushrooms in hot water for 20 minutes, then drain, reserving 200 ml of the soaking liquid and straining it through a fine sieve.',
+      'Bring the stock and the strained mushroom liquid to a simmer with both soy sauces, the sugar and salt.',
+      'Add the mushrooms, bamboo shoots and tofu and simmer gently for 8 minutes.',
+      'Stir in the cornflour slurry gradually while the soup simmers, until it thickens to a silky consistency that coats a spoon. Cook 2 minutes to remove any raw starch taste.',
+      'Reduce to the barest simmer and stir the soup in a slow circle. Pour the beaten egg in a very thin stream and stop stirring for 10 seconds, letting fine ribbons set.',
+      'Take the pan off the heat entirely, then stir in the black vinegar and white pepper. Adding them off the heat preserves their sharpness.',
+      'Taste and adjust — it should be assertively sour and peppery.',
+      'Finish with sesame oil, spring onions and a drizzle of chilli oil.'
+    ],
+    tips: [
+      'Grind the white pepper fresh. Pre-ground loses its distinctive heat within weeks.',
+      'Vinegar and pepper always go in off the heat; boiling them drives off exactly what you added them for.',
+      'Add shredded pork or chicken with the mushrooms for a heartier version.'
+    ],
+    pair: ['Jasmine tea', 'Serve as a starter before dumplings or noodles', 'Follow with a light main'],
+    store: 'Refrigerate 3 days. It thickens on standing — loosen with stock and refresh with a splash of vinegar when reheating.',
+    nut: [212, 12, 22, 9, 3, 5, 1280]
+  }
+};

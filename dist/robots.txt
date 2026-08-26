@@ -1,0 +1,31 @@
+# CulinaryVault — https://culinaryvault.example
+User-agent: *
+Allow: /
+
+# Filtered directory views duplicate the canonical listing
+Disallow: /*?q=
+Disallow: /*?sort=
+Disallow: /*?tag=
+Disallow: /*?time=
+Disallow: /*?cuisine=
+Disallow: /*?category=
+Disallow: /*?difficulty=
+
+# Personal, device-local pages have nothing to index
+Disallow: /favourites/
+
+User-agent: Googlebot
+Allow: /
+Allow: /assets/img/
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+
+# Be polite to smaller crawlers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+Sitemap: https://culinaryvault.netlify.app/sitemap.xml
