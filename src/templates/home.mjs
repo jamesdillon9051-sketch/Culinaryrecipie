@@ -49,7 +49,7 @@ export function renderHome({ site, countryList, destinations, articles }) {
     ${section({
       id: 'countries',
       eyebrow: 'Start here',
-      title: 'Five countries, ten destinations each',
+      title: `${countryList.length} countries, ten destinations each`,
       lead: home.countriesIntro,
       tone: 'section--tint',
       body: html`<div class="country-grid">

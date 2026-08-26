@@ -70,6 +70,10 @@ ${entries}
 async function main() {
   const content = await loadContent(ROOT, { strictLinks: STRICT });
   const { site, countryList, destinationList, articleList, destinations, articles, credits } = content;
+  // The footer's country list and destination count need every country, not
+  // just the ones a given page belongs to — simplest to hang it off `site`,
+  // which every template already threads through to layout().
+  site.countryList = countryList;
 
   const { errors, warnings } = validate(content, {
     root: ROOT,

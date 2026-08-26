@@ -17,8 +17,8 @@ export function renderDestinationsIndex({ site, countryList, destinationList }) 
         ${breadcrumbs([{ label: 'Home', href: '' }, { label: 'Destinations' }])}
         <h1 class="page-head__title">All ${destinationList.length} destinations</h1>
         <p class="page-head__lead">
-          Ten hand-picked places in each of five countries — major cities, historic sites,
-          coastlines, national parks and a few places most lists leave out. Filter by the
+          Ten hand-picked places in each of ${countryList.length} countries — major cities, historic
+          sites, coastlines, national parks and a few places most lists leave out. Filter by the
           kind of trip you want, or jump straight to a country.
         </p>
         <ul class="chip-row">

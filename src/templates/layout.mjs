@@ -7,11 +7,6 @@ const FAVICON =
 
 const NAV = [
   { label: 'Destinations', href: 'destinations' },
-  { label: 'France', href: 'france' },
-  { label: 'Spain', href: 'spain' },
-  { label: 'USA', href: 'united-states' },
-  { label: 'Turkey', href: 'turkey' },
-  { label: 'Italy', href: 'italy' },
   { label: 'Articles', href: 'articles' }
 ];
 
@@ -63,19 +58,17 @@ function footer(site) {
           <h2 class="site-footer__title">Countries</h2>
           <ul class="site-footer__list">
             ${join(
-              NAV.slice(1, 6).map(
-                (item) => html`<li><a href="${url(item.href)}">${item.label}</a></li>`
-              )
+              [...site.countryList]
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((country) => html`<li><a href="${url(country.slug)}">${country.name}</a></li>`)
             )}
           </ul>
         </div>
         <div>
           <h2 class="site-footer__title">Plan a trip</h2>
           <ul class="site-footer__list">
-            <li><a href="${url('destinations')}">All 50 destinations</a></li>
+            <li><a href="${url('destinations')}">All ${site.countryList.length * 10} destinations</a></li>
             <li><a href="${url('articles')}">Travel articles</a></li>
-            <li><a href="${url('france/travel-guide')}">France travel guide</a></li>
-            <li><a href="${url('italy/travel-guide')}">Italy travel guide</a></li>
           </ul>
         </div>
         <div>

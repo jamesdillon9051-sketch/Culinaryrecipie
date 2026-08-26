@@ -102,7 +102,7 @@ export function renderCountry(country, { site }) {
         ${destinationGrid(country.places, { ranked: true })}
         <p class="section__more">
           <a class="btn btn--ghost" href="${url('destinations')}">
-            Browse all 50 destinations<span aria-hidden="true"> →</span>
+            Browse all ${site.countryList.length * 10} destinations<span aria-hidden="true"> →</span>
           </a>
         </p>
       `
