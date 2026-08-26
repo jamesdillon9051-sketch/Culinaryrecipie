@@ -191,6 +191,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/greece/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/greece/travel-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/greece/athens/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jamesdillon9051-sketch.github.io/Top-travel-destinations-/italy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

@@ -298,6 +298,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2007 Greece Athens Parthenon at night.jpg": {
+    "artist": "Nicholas Hartmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007_Greece_Athens_Parthenon_at_night.jpg",
+    "context": "Athens, Greece",
+    "hero": "images/greece/athens.webp",
+    "card": "images/greece/athens-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2008-10-11 deer near a stand selling deer cookies in Nara.jpg": {
     "artist": "merec0",
     "license": "CC BY 2.0",
@@ -1000,6 +1013,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Acropolis Museum in Athens with Acropolis View.jpg": {
+    "artist": "Pinterpandai.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acropolis_Museum_in_Athens_with_Acropolis_View.jpg",
+    "context": "The Acropolis Museum — Athens, Greece",
+    "hero": "images/greece/athens--attraction-2.webp",
+    "card": "images/greece/athens--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Acueducto de Segovia 01.jpg": {
     "artist": "David Corral Gadea",
     "license": "CC BY-SA 3.0 es",
@@ -1259,6 +1285,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Anafiotika-2.jpg": {
+    "artist": "Oseko",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anafiotika-2.jpg",
+    "context": "Plaka neighbourhood — Athens, Greece",
+    "hero": "images/greece/athens--attraction-4.webp",
+    "card": "images/greece/athens--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Ancient city of Patara, Lycia, Turkey.jpeg": {
     "artist": "Roman_Zacharij",
@@ -1559,6 +1598,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Archäologisches Nationalmuseum Athen.jpg": {
+    "artist": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arch%C3%A4ologisches_Nationalmuseum_Athen.jpg",
+    "context": "The National Archaeological Museum — Athens, Greece",
+    "hero": "images/greece/athens--attraction-5.webp",
+    "card": "images/greece/athens--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 846,
+    "cardWidth": 800,
+    "cardHeight": 423
+  },
   "File:Arched ruins of the ancient city of Tlos.jpg": {
     "artist": "Buğra Kaan Ersoy",
     "license": "CC BY-SA 4.0",
@@ -1736,6 +1788,19 @@
     "context": "Lampredotto and trippa — Florence & Tuscany, Italy",
     "hero": "images/italy/florence-tuscany--food-3.webp",
     "card": "images/italy/florence-tuscany--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Athens Acropolis (28160931270).jpg": {
+    "artist": "Gary Todd from Xinzheng, China",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Athens_Acropolis_(28160931270).jpg",
+    "context": "The Acropolis and Parthenon — Athens, Greece",
+    "hero": "images/greece/athens--attraction-1.webp",
+    "card": "images/greece/athens--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2009,6 +2074,19 @@
     "context": "Baklava and Turkish sweets — Turkey",
     "hero": "images/turkey/_country--food-4.webp",
     "card": "images/turkey/_country--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Baklava greca.jpg": {
+    "artist": "Utente 8304739ABC9028",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baklava_greca.jpg",
+    "context": "Baklava and Greek sweets — Greece",
+    "hero": "images/greece/_country--food-6.webp",
+    "card": "images/greece/_country--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6252,6 +6330,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:ELA - Clear shallow water at Elafonisi Beach, Crete, Greece, 2015.jpg": {
+    "artist": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ELA_-_Clear_shallow_water_at_Elafonisi_Beach,_Crete,_Greece,_2015.jpg",
+    "context": "Swim in genuinely clear water — Greece",
+    "hero": "images/greece/_country--thing-5.webp",
+    "card": "images/greece/_country--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Elbphilharmonie Hamburg August 2023.jpg": {
     "artist": "Niels Johannes",
     "license": "CC BY-SA 4.0",
@@ -6260,6 +6351,19 @@
     "context": "Hamburg, Germany",
     "hero": "images/germany/hamburg.webp",
     "card": "images/germany/hamburg-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Embadoned neoclassical derelict building with graffiti art in Athens Greece Eipirou Street metaxourgeio.jpg": {
+    "artist": "Bendemer",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Embadoned_neoclassical_derelict_building_with_graffiti_art_in_Athens_Greece_Eipirou_Street_metaxourgeio.jpg",
+    "context": "Explore Athens' street art scene — Athens, Greece",
+    "hero": "images/greece/athens--thing-4.webp",
+    "card": "images/greece/athens--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -6473,6 +6577,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Extra Virgin Cretan Olive Oil.JPG": {
+    "artist": "Beemwej",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Extra_Virgin_Cretan_Olive_Oil.JPG",
+    "context": "Olive oil, seriously — Greece",
+    "hero": "images/greece/_country--food-7.webp",
+    "card": "images/greece/_country--food-7-card.webp",
+    "heroWidth": 1424,
+    "heroHeight": 801,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Èze und Cap Ferrat-Grande Corniche.jpg": {
     "artist": "Tobi 87",
     "license": "CC BY-SA 3.0",
@@ -6598,6 +6715,19 @@
     "context": "Stinky mandarin fish (chou guiyu) — Huangshan & the Anhui Villages, China",
     "hero": "images/china/huangshan-anhui-villages--food-1.webp",
     "card": "images/china/huangshan-anhui-villages--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Ferry in Piraeus Harbour, Greece.jpg": {
+    "artist": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferry_in_Piraeus_Harbour,_Greece.jpg",
+    "context": "Island-hop by ferry — Greece",
+    "hero": "images/greece/_country--thing-1.webp",
+    "card": "images/greece/_country--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7526,6 +7656,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Glass of wine at Manali Winery, Sikinos.jpg": {
+    "artist": "Glorious 93",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glass_of_wine_at_Manali_Winery,_Sikinos.jpg",
+    "context": "Greek wine — Greece",
+    "hero": "images/greece/_country--food-5.webp",
+    "card": "images/greece/_country--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Glenmorangie The Original whisky.jpg": {
     "artist": "JIP",
     "license": "CC BY-SA 3.0",
@@ -7937,6 +8080,45 @@
     "context": "See the Great Wall away from the crowds — Beijing, China",
     "hero": "images/china/beijing--thing-6.webp",
     "card": "images/china/beijing--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Greece Cape Sounion BW 2017-10-09 10-12-43.jpg": {
+    "artist": "Berthold Werner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greece_Cape_Sounion_BW_2017-10-09_10-12-43.jpg",
+    "context": "Take a day trip to Cape Sounion — Athens, Greece",
+    "hero": "images/greece/athens--thing-3.webp",
+    "card": "images/greece/athens--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Greece Food Horiatiki.JPG": {
+    "artist": "User:Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greece_Food_Horiatiki.JPG",
+    "context": "Greek salad (horiatiki) — Greece",
+    "hero": "images/greece/_country--food-4.webp",
+    "card": "images/greece/_country--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
+  "File:Greek frappé.jpg": {
+    "artist": "Wimmiden",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greek_frapp%C3%A9.jpg",
+    "context": "Greek coffee and frappé — Athens, Greece",
+    "hero": "images/greece/athens--food-6.webp",
+    "card": "images/greece/athens--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8435,6 +8617,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Hd-hotel-grande-bretagne-athens-gb-roof-garden-restaurant-and-bar-breakfast-1-.jpg": {
+    "artist": "Mariavazoura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hd-hotel-grande-bretagne-athens-gb-roof-garden-restaurant-and-bar-breakfast-1-.jpg",
+    "context": "Experience Athens' nightlife — Athens, Greece",
+    "hero": "images/greece/athens--thing-6.webp",
+    "card": "images/greece/athens--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Heidelberg Castle - Friedrichsbau Facade - 3.jpg": {
     "artist": "imehling",
@@ -11972,6 +12167,19 @@
     "cardWidth": 800,
     "cardHeight": 362
   },
+  "File:Monastiraki Flea Market, Athens (3341047236).jpg": {
+    "artist": "Sharon Mollerus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monastiraki_Flea_Market,_Athens_(3341047236).jpg",
+    "context": "Wander Monastiraki and Psiri — Athens, Greece",
+    "hero": "images/greece/athens--thing-1.webp",
+    "card": "images/greece/athens--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Monjayaki dish from Tsukishima, Tokyo, Japan; January 2013.jpg": {
     "artist": "t-mizo from Japan",
     "license": "CC BY 2.0",
@@ -12188,6 +12396,19 @@
     "context": "Mount Hakodate's night view — Hokkaido, Japan",
     "hero": "images/japan/hokkaido--attraction-6.webp",
     "card": "images/japan/hokkaido--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mousakas.jpg": {
+    "artist": "Fotograf: Dieter Mueller (dino1948) Kamera: de:Nikon 885",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mousakas.jpg",
+    "context": "Moussaka — Greece",
+    "hero": "images/greece/_country--food-1.webp",
+    "card": "images/greece/_country--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -13142,6 +13363,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Oia - Santorini 2019.jpg": {
+    "artist": "User:Anna.Tsolidou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oia_-_Santorini_2019.jpg",
+    "context": "Greece",
+    "hero": "images/greece/_country.webp",
+    "card": "images/greece/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Okinawa soba in Yamabare 2.jpg": {
     "artist": "Syced",
     "license": "CC0",
@@ -13440,6 +13674,19 @@
     "heroHeight": 800,
     "cardWidth": 800,
     "cardHeight": 400
+  },
+  "File:Ouzo Theiko18v.JPG": {
+    "artist": "User:Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ouzo_Theiko18v.JPG",
+    "context": "Try a Greek coffee or ouzo, properly — Greece",
+    "hero": "images/greece/_country--thing-6.webp",
+    "card": "images/greece/_country--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Ōwakudani Black Eggs with Salt.JPG": {
     "artist": "Jaspermatt",
@@ -13865,6 +14112,19 @@
     "context": "Barcelona, Spain",
     "hero": "images/spain/barcelona.webp",
     "card": "images/spain/barcelona-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Parthenon east Acropolis, Athens, Greece.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parthenon_east_Acropolis,_Athens,_Greece.jpg",
+    "context": "Visit an ancient site with real context — Greece",
+    "hero": "images/greece/_country--thing-4.webp",
+    "card": "images/greece/_country--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -16210,6 +16470,19 @@
     "cardWidth": 800,
     "cardHeight": 531
   },
+  "File:Say Souvlaki - chicken gyros wrap - 21 June 2026.jpg": {
+    "artist": "Aethonatic",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Say_Souvlaki_-_chicken_gyros_wrap_-_21_June_2026.jpg",
+    "context": "Souvlaki and gyros — Greece",
+    "hero": "images/greece/_country--food-2.webp",
+    "card": "images/greece/_country--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:SazeracRooseveltNOLA1July2009.JPG": {
     "artist": "Infrogmation of New Orleans",
     "license": "CC BY-SA 3.0",
@@ -17887,6 +18160,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Taverna Kyclades (52282787113).jpg": {
+    "artist": "Eden, Janine and Jim from New York City",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taverna_Kyclades_(52282787113).jpg",
+    "context": "Eat a proper taverna meal — Greece",
+    "hero": "images/greece/_country--thing-2.webp",
+    "card": "images/greece/_country--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Tchi Kofte (cuisine arménienne) en mars 2021.jpg": {
     "artist": "Benoît Prieur",
     "license": "CC0",
@@ -18030,6 +18316,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Temple of Hephaestus from ancient agora Athens.jpg": {
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Hephaestus_from_ancient_agora_Athens.jpg",
+    "context": "The Ancient Agora — Athens, Greece",
+    "hero": "images/greece/athens--attraction-3.webp",
+    "card": "images/greece/athens--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Tempura 001.jpg": {
     "artist": "Ocdp",
     "license": "CC0",
@@ -18172,6 +18471,19 @@
     "heroHeight": 703,
     "cardWidth": 800,
     "cardHeight": 525
+  },
+  "File:The entrance to the harbour of Mikrolimano (Munichia) in Piraeus on July 3, 2021.jpg": {
+    "artist": "George E. Koronaios",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_entrance_to_the_harbour_of_Mikrolimano_(Munichia)_in_Piraeus_on_July_3,_2021.jpg",
+    "context": "Visit Piraeus for a genuine port-city evening — Athens, Greece",
+    "hero": "images/greece/athens--thing-5.webp",
+    "card": "images/greece/athens--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:The gardens at New College, Oxford - geograph.org.uk - 1942523.jpg": {
     "artist": "Marathon",
@@ -19798,6 +20110,19 @@
     "cardWidth": 800,
     "cardHeight": 451
   },
+  "File:View of Caldera at Sunset from Imerovigli, Santorini.jpg": {
+    "artist": "Sgroey",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Caldera_at_Sunset_from_Imerovigli,_Santorini.jpg",
+    "context": "Watch the sunset from a caldera or hilltop — Greece",
+    "hero": "images/greece/_country--thing-3.webp",
+    "card": "images/greece/_country--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:View of Florence from the Abbazia di San Miniato al Monte. Italy.jpg": {
     "artist": "Ввласенко",
     "license": "CC BY-SA 3.0",
@@ -19951,6 +20276,19 @@
     "card": "images/turkey/ephesus--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:View of the Acropolis of Athens from Mount Lycabettus on 11 March 2019.jpg": {
+    "artist": "George E. Koronaios",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Acropolis_of_Athens_from_Mount_Lycabettus_on_11_March_2019.jpg",
+    "context": "Mount Lycabettus — Athens, Greece",
+    "hero": "images/greece/athens--attraction-6.webp",
+    "card": "images/greece/athens--attraction-6-card.webp",
+    "heroWidth": 1404,
+    "heroHeight": 790,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -20196,6 +20534,19 @@
     "context": "Visit an open-air folk museum — The Black Forest, Germany",
     "hero": "images/germany/black-forest--thing-6.webp",
     "card": "images/germany/black-forest--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Vorspeise mit Dolma und Tzatziki.jpg": {
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vorspeise_mit_Dolma_und_Tzatziki.jpg",
+    "context": "Mezze at a traditional taverna — Athens, Greece",
+    "hero": "images/greece/athens--food-2.webp",
+    "card": "images/greece/athens--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -21041,6 +21392,19 @@
     "context": "Zwiebelkuchen — The Black Forest, Germany",
     "hero": "images/germany/black-forest--food-5.webp",
     "card": "images/germany/black-forest--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Χταποδάκι στα κάρβουνα (4462751743).jpg": {
+    "artist": "Klearchos Kapoutsis from Santorini, Greece",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A7%CF%84%CE%B1%CF%80%CE%BF%CE%B4%CE%AC%CE%BA%CE%B9_%CF%83%CF%84%CE%B1_%CE%BA%CE%AC%CF%81%CE%B2%CE%BF%CF%85%CE%BD%CE%B1_(4462751743).jpg",
+    "context": "Fresh Greek seafood — Greece",
+    "hero": "images/greece/_country--food-3.webp",
+    "card": "images/greece/_country--food-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
