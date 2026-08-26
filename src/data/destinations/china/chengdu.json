@@ -1,0 +1,367 @@
+{
+  "slug": "chengdu",
+  "name": "Chengdu",
+  "country": "china",
+  "region": "Sichuan",
+  "categories": ["major-city", "nature-wildlife", "culture-arts"],
+  "tagline": "Pandas by the dozen, a food culture built around chilli and Sichuan peppercorn, and a pace of life the rest of China half-jokingly calls lazy — meant, and taken, as a compliment.",
+  "highlight": "The Chengdu Research Base of Giant Panda Breeding — dozens of pandas, from newborn cubs to full-grown adults, in naturalistic enclosures best seen at their most active in the early morning.",
+  "shortDescription": "Sichuan's capital, where giant pandas, the country's spiciest food and a genuinely unhurried pace of life make the case for slowing an itinerary down.",
+  "metaDescription": "A Chengdu travel guide: the panda base, hotpot, teahouses and the Sichuan Opera, when to go, how to get around and a three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Chengdu Tianfu (TFU) or Shuangliu (CTU)",
+  "knownFor": "Giant pandas, hotpot, teahouse culture, Sichuan cuisine",
+  "budget": "¥400–750 per day, mid-range",
+  "goodFor": "Food, wildlife, relaxed pace, first-time and repeat visitors",
+  "coords": { "lat": 30.5728, "lng": 104.0668 },
+  "image": {
+    "file": "File:Panda eating bamboo in Panda Base.jpg",
+    "alt": "A giant panda eating bamboo at the Chengdu panda base"
+  },
+  "intro": [
+    "Chengdu has a reputation, within China, as the country's most laid-back major city, a place where the local greeting genuinely translates as something close to 'have you eaten yet' and where an afternoon spent doing nothing in particular at a teahouse is considered a perfectly respectable use of time. For a country often associated with relentless pace and scale, Chengdu is a deliberate exception, and it wears that reputation as a point of civic pride rather than an insult.",
+    "It is also, not coincidentally, the easiest place in the world to see giant pandas. The Chengdu Research Base of Giant Panda Breeding sits within the city limits and houses dozens of pandas across naturalistic, forested enclosures — cubs tumbling over each other, adults methodically working through armfuls of bamboo, all considerably more active and visible than most people expect from an animal with a reputation for sleeping most of the day.",
+    "The food is the other reason people build a trip around Chengdu specifically. Sichuan cuisine's defining characteristic, mala — a tingling numbness from Sichuan peppercorn layered under real chilli heat — reaches its purest, most confident expression here, in a city where hotpot is closer to a civic religion than a meal option."
+  ],
+  "whyVisit": {
+    "intro": "Chengdu's case rests on two very different pleasures done better here than almost anywhere else: seeing pandas properly, and eating Sichuan food at its source.",
+    "points": [
+      {
+        "title": "The panda base is genuinely excellent",
+        "text": "Large, naturalistic enclosures and a real research and breeding mission, not a zoo exhibit — and morning visits reliably catch pandas active and visible."
+      },
+      {
+        "title": "The food is the real thing, not an export version",
+        "text": "Sichuan cuisine outside Sichuan is routinely toned down; Chengdu's hotpot and street food hold nothing back."
+      },
+      {
+        "title": "The pace is a genuine change from the rest of a China trip",
+        "text": "Teahouse culture and an unhurried civic identity make Chengdu a deliberate rest stop between more intense stops like Beijing or Xi'an."
+      },
+      {
+        "title": "It is the natural gateway to Sichuan's wider landscapes",
+        "text": "Jiuzhaigou's lakes, Mount Emei's temples and the Leshan Giant Buddha are all reachable from here for those with extra time."
+      },
+      {
+        "title": "Sichuan Opera's face-changing is a genuine spectacle",
+        "text": "A theatrical tradition unique to the region, performers changing masks faster than the eye can follow, alongside puppetry and traditional music."
+      }
+    ]
+  },
+  "attractionsIntro": "Chengdu rewards a relaxed three-day pace more than a rushed checklist — the pandas and one teahouse afternoon are non-negotiable; the rest is flexible.",
+  "attractions": [
+    {
+      "name": "Chengdu Research Base of Giant Panda Breeding",
+      "image": {
+        "file": "File:娇子 Jiaozi with her cubs - Panda Research Centre, Chengdu (1483835296).jpg",
+        "alt": "A panda and her cubs at the Chengdu panda research centre"
+      },
+      "text": "Dozens of giant pandas, from newborn cubs in the nursery to adults in large forested enclosures, alongside red pandas, in a genuine research and conservation facility rather than a conventional zoo.",
+      "tip": "Arrive at opening, 7:30am — pandas are noticeably more active in the cool morning hours and considerably sleepier by midday."
+    },
+    {
+      "name": "Wuhou Shrine and Jinli Street",
+      "image": {
+        "file": "File:ChengduJinli.jpg",
+        "alt": "The lantern-lit old-style shops of Jinli Street"
+      },
+      "text": "A temple honouring the Three Kingdoms-era statesman Zhuge Liang, attached to Jinli, a reconstructed old-style street of lantern-lit shops, snacks and teahouses that is genuinely pleasant despite being unabashedly touristy.",
+      "tip": "Evening is the best time for Jinli, when the lanterns light up and the street feels considerably more atmospheric."
+    },
+    {
+      "name": "Kuanzhai Alley (Wide and Narrow Alleys)",
+      "image": {
+        "file": "File:Wide and Narrow Alleys (53691508020).jpg",
+        "alt": "One of the restored Qing-dynasty lanes of Kuanzhai Alley"
+      },
+      "text": "Three parallel restored Qing-dynasty lanes in the city centre, now filled with teahouses, boutique shops and restaurants, and one of the best places to sit down with tea and watch the city pass by.",
+      "tip": "Come for a slow afternoon rather than a quick photo stop — the point of this street is sitting still, not walking through."
+    },
+    {
+      "name": "Jinsha Site Museum",
+      "image": {
+        "file": "File:金沙遗址博物馆 Jinsha Site Museum 5.jpg",
+        "alt": "The Jinsha Site Museum, built over a Bronze Age archaeological site"
+      },
+      "text": "An archaeological museum built directly over a Bronze Age site discovered in 2001, holding gold, jade and ivory artefacts from a civilisation that predates most of what is commonly taught about ancient China.",
+      "tip": "The excavation pits themselves, visible in situ under the museum floor, are as striking as the artefact displays."
+    },
+    {
+      "name": "People's Park and its teahouses",
+      "image": {
+        "file": "File:Teahouse in Peoples Park - Chengdu, China - DSC05348.jpg",
+        "alt": "Tables and chairs at an outdoor teahouse in People's Park"
+      },
+      "text": "A central city park that functions as Chengdu's living room — mahjong games, ear-cleaning services, matchmaking corners where parents advertise their adult children, and the famous Heming Teahouse under the trees.",
+      "tip": "Order a single cup of tea and simply sit for an hour — refills are typically included and nobody will hurry you along."
+    },
+    {
+      "name": "Leshan Giant Buddha (day trip)",
+      "image": {
+        "file": "File:Leshan Giant Buddha View from below.jpg",
+        "alt": "The 71-metre Leshan Giant Buddha carved into a cliff face"
+      },
+      "text": "A seated Buddha carved into a cliff face over the course of ninety years starting in 713 AD, at 71 metres the tallest stone Buddha statue on earth, reachable as a long but worthwhile day trip from Chengdu.",
+      "tip": "Take a boat on the river for the classic full-figure view, then walk down alongside the statue for scale."
+    }
+  ],
+  "thingsToDoIntro": "Chengdu is best enjoyed by deliberately doing less — one major sight a day, with real time given to sitting still.",
+  "thingsToDo": [
+    {
+      "title": "Watch pandas at their most active",
+      "text": "Timing a panda base visit for opening, when the animals are cool, fed and genuinely active, transforms the experience from occasional glimpses of a sleeping animal into real, sustained observation.",
+      "tip": "The base is large — allow at least three hours to see the main enclosures and nursery without rushing."
+    },
+    {
+      "title": "Sit in a teahouse and do nothing in particular",
+      "image": {
+        "file": "File:Teahouse in Peoples Park - Chengdu, China - DSC05371.jpg",
+        "alt": "Locals relaxing at an outdoor teahouse in Chengdu"
+      },
+      "text": "Chengdu's teahouse culture is not really about the tea — it is a genuine local institution for socialising, playing mahjong or cards, and passing an entire afternoon without any specific agenda.",
+      "tip": "People's Park's Heming Teahouse is the best-known, but any neighbourhood teahouse offers the same experience with fewer visitors."
+    },
+    {
+      "title": "Eat a real Sichuan hotpot",
+      "image": {
+        "file": "File:麻辣火锅汤 Sichuan Hotpot (1648194463).jpg",
+        "alt": "A bubbling pot of fiery mala Sichuan hotpot broth"
+      },
+      "text": "A divided pot — mild broth on one side, fiery mala broth on the other — into which thin-sliced meat, tofu and vegetables are cooked at the table, the definitive Chengdu communal meal.",
+      "tip": "Order the mild-spicy split pot if you are unsure of your tolerance; the full mala side is genuinely intense."
+    },
+    {
+      "title": "Watch a Sichuan Opera performance",
+      "image": {
+        "file": "File:\"Face-Changing\" (4213632444).jpg",
+        "alt": "A Sichuan Opera performer mid face-changing act"
+      },
+      "text": "An evening of face-changing (bian lian), fire-spitting, shadow puppetry and traditional music, a distinct regional theatrical tradition rarely seen with this quality outside Sichuan.",
+      "tip": "Several theatres cater specifically to visitors with English programme notes — check current listings for the best show that evening."
+    },
+    {
+      "title": "Get your ears cleaned in a park",
+      "text": "A genuinely local, slightly eccentric Chengdu tradition — practitioners with specialised tools offering ear cleaning as a public park service, watched by curious onlookers as much as it is used by clients.",
+      "tip": "People's Park is the classic spot to see this, whether or not you try it yourself."
+    },
+    {
+      "title": "Day-trip to the Leshan Giant Buddha or Mount Emei",
+      "text": "Both reachable from Chengdu in a long day, the Buddha for its sheer scale and the mountain for its Buddhist temples and, at the summit, a genuine chance of seeing monkeys along the trail.",
+      "tip": "Leshan alone works as a single day trip; Mount Emei's higher reaches are better with an overnight if you want to summit properly."
+    }
+  ],
+  "foodIntro": "Sichuan food's defining trait is mala — the combination of fiery chilli heat and the tingling numbness of Sichuan peppercorn — and Chengdu is where it is done with the most confidence.",
+  "foods": [
+    {
+      "name": "Sichuan hotpot",
+      "image": {
+        "file": "File:Chengdu double hotpot.jpg",
+        "alt": "A divided Sichuan hotpot with mild and spicy broths side by side"
+      },
+      "text": "A boiling, chilli- and peppercorn-laden broth at the centre of the table, into which thin-sliced meats, tofu and vegetables are cooked — Chengdu's defining communal meal, best eaten with a large group.",
+      "whereToTry": "Any hotpot restaurant packed with locals in the evening — Shudaxia and Xiaolongkan are well-known local chains."
+    },
+    {
+      "name": "Mapo tofu",
+      "image": {
+        "file": "File:Authentic Mapo Tofu.jpg",
+        "alt": "A bowl of mapo tofu in fiery, numbing sauce"
+      },
+      "text": "Silken tofu in a fiery, numbing sauce of fermented broad bean paste, minced pork and Sichuan peppercorn — one of the province's most famous exports, and considerably better and spicier at its source.",
+      "whereToTry": "Chen Mapo Tofu, the restaurant credited with inventing the dish over a century ago."
+    },
+    {
+      "name": "Dandan noodles",
+      "image": {
+        "file": "File:Dandan noodles (擔擔麵).jpg",
+        "alt": "A small, intense bowl of dandan noodles in chilli oil"
+      },
+      "text": "A small, intensely flavoured bowl of noodles in chilli oil, minced pork and preserved vegetables, originally sold by street vendors carrying the ingredients on a shoulder pole — a snack rather than a full meal.",
+      "whereToTry": "Street stalls and small local noodle shops throughout the city, particularly near Jinli and Kuanzhai Alley."
+    },
+    {
+      "name": "Kung Pao chicken (gongbao jiding)",
+      "image": {
+        "file": "File:Kung Pao Chicken at Yujiayan Restaurant (20230510123120).jpg",
+        "alt": "Kung Pao chicken with peanuts and dried chillies"
+      },
+      "text": "Diced chicken stir-fried with peanuts, dried chillies and Sichuan peppercorn, a dish famous worldwide in a much-milder export form and considerably spicier and more peppercorn-forward in its home city.",
+      "whereToTry": "Any proper Sichuan restaurant — a reliable order to gauge how a kitchen handles the region's signature flavours."
+    },
+    {
+      "name": "Chengdu-style skewers (chuan chuan)",
+      "text": "Small skewers of meat, tofu and vegetables cooked in a shared spicy broth similar to hotpot but ordered individually by the skewer, tallied at the end by counting empty sticks.",
+      "whereToTry": "Casual street-side chuan chuan restaurants, especially popular for a late, informal dinner."
+    },
+    {
+      "name": "Sichuan-style street snacks",
+      "image": {
+        "file": "File:Douhua - Shantou - 20170302.jpg",
+        "alt": "A bowl of savoury dou hua tofu pudding"
+      },
+      "text": "Dou hua (savoury tofu pudding), leaf-wrapped rice bundles, and a wide range of cold, chilli-oil-dressed noodle and vegetable dishes sold from small stalls throughout the old city.",
+      "whereToTry": "The lanes around Kuanzhai Alley and any street with a queue of local office workers at lunchtime."
+    }
+  ],
+  "accommodation": {
+    "intro": "Chengdu is spread out but its main visitor areas are well connected by metro, so neighbourhood choice matters less than in some cities.",
+    "areas": [
+      {
+        "name": "Chunxi Road / city centre",
+        "bestFor": "First visits",
+        "text": "Central, well connected by metro to the panda base and other sights, with the widest choice of hotels and restaurants."
+      },
+      {
+        "name": "Kuanzhai Alley area",
+        "bestFor": "Atmosphere",
+        "text": "Boutique hotels near the old lanes and teahouses, a genuinely pleasant base for soaking up Chengdu's slower pace."
+      },
+      {
+        "name": "Near the panda base",
+        "bestFor": "An early panda visit",
+        "text": "Useful if you specifically want to arrive at opening without an early cross-city transfer, though further from the old city's restaurants."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥40–80 per night" },
+      { "label": "Mid-range hotel", "value": "¥250–450 per night" },
+      { "label": "Panda base entry", "value": "¥55" },
+      { "label": "Hotpot dinner for two", "value": "¥120–250" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Chengdu has two major airports and is well connected to the rest of China's high-speed rail network, making it an easy addition to a wider trip.",
+    "options": [
+      {
+        "mode": "Chengdu Tianfu Airport (TFU)",
+        "text": "The newer of Chengdu's two airports, handling a growing share of both domestic and international flights, about an hour from the city centre.",
+        "detail": "Check which airport your flight uses — Chengdu is one of the few Chinese cities with two major active airports."
+      },
+      {
+        "mode": "Chengdu Shuangliu Airport (CTU)",
+        "text": "The older, more central airport, closer to the city and well served by metro.",
+        "detail": "Still handles a substantial share of flights, including many domestic and some international routes."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Chengdu East Station connects to the national network, with routes toward [[xi-an|Xi'an]] and other major cities.",
+        "detail": "Book via Trip.com or 12306. Journey times vary significantly by route — check current options for your specific connection."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Chengdu's metro is extensive and growing, reaching the panda base and most central sights directly.",
+    "options": [
+      {
+        "mode": "Metro",
+        "text": "A large, modern network covering the city centre, the panda base and outlying districts, cheap and simple with English signage throughout.",
+        "detail": "The panda base has its own dedicated metro stop, making it genuinely easy to reach independently."
+      },
+      {
+        "mode": "Walking within the old city",
+        "text": "Kuanzhai Alley, Jinli and the surrounding lanes are compact and best explored on foot at an unhurried pace.",
+        "detail": "This is the one part of Chengdu genuinely worth not rushing through by any faster transport."
+      },
+      {
+        "mode": "Didi (ride-hailing)",
+        "text": "Reliable and inexpensive once linked to a foreign card, useful for day trips or reaching restaurants off the metro grid.",
+        "detail": "Have your destination address ready in Chinese characters for the driver."
+      },
+      {
+        "mode": "Organised transport for day trips",
+        "text": "Leshan and Mount Emei are typically reached by bus, high-speed rail plus onward transfer, or an organised tour.",
+        "detail": "High-speed rail to Leshan or Emeishan stations, followed by a local bus or taxi, is usually the most flexible option."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "March–May and September–November",
+    "summary": "Chengdu's basin location gives it a humid, often overcast climate year-round, which makes temperature more relevant than sunshine when choosing a season.",
+    "seasons": [
+      {
+        "season": "Spring (March–May)",
+        "rating": "best",
+        "text": "Mild and comfortable, with the panda base's outdoor enclosures at their most pleasant for both pandas and visitors."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "shoulder",
+        "text": "Hot and humid, with pandas sometimes moved to cooler indoor enclosures during the worst heat, though the city's food and teahouse culture remain fully enjoyable."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "Comfortable and slightly drier than spring, a reliably good season for both the city and day trips to Leshan or Mount Emei."
+      },
+      {
+        "season": "Winter (December–February)",
+        "rating": "shoulder",
+        "text": "Cool, grey and often overcast — Chengdu sees relatively little direct sun year-round — but mild enough that panda viewing and city sightseeing both remain comfortable."
+      }
+    ],
+    "avoid": "The first week of October, when domestic tourism peaks nationwide and the panda base and old-city lanes are noticeably busier."
+  },
+  "itinerary": {
+    "title": "Three days in Chengdu",
+    "intro": "Pandas first, then the old city and food, then a day trip — a pace that leaves real room for sitting still.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Pandas",
+        "summary": "A full morning at the panda base, then the old city.",
+        "morning": "The panda base at opening, allowing at least three unhurried hours.",
+        "afternoon": "Kuanzhai Alley for tea and a slow wander.",
+        "evening": "Sichuan hotpot for dinner."
+      },
+      {
+        "day": 2,
+        "title": "Old Chengdu and culture",
+        "summary": "Temples, museums and an evening of theatre.",
+        "morning": "Wuhou Shrine and Jinli Street.",
+        "afternoon": "The Jinsha Site Museum.",
+        "evening": "A Sichuan Opera performance, face-changing included."
+      },
+      {
+        "day": 3,
+        "title": "A day trip",
+        "summary": "Leshan's Giant Buddha or Mount Emei.",
+        "morning": "High-speed train to Leshan or Emeishan.",
+        "afternoon": "The Giant Buddha by boat and on foot, or a partial ascent of Mount Emei.",
+        "evening": "Back to Chengdu for a final chuan chuan skewer dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Chengdu-specific practicalities, mostly about pandas, spice tolerance and the city's two airports.",
+  "tips": [
+    "Arrive at the panda base right at opening — pandas are noticeably more active in the cool morning hours than by midday.",
+    "Order the half-and-half hotpot broth if you are unsure of your spice tolerance — Chengdu's mala heat is genuinely intense even by Chinese standards.",
+    "Double-check which of Chengdu's two airports your flight uses when booking transport — Tianfu and Shuangliu are a significant distance apart.",
+    "Leshan and Mount Emei are both long day trips — start early and confirm the last return train or bus time before setting off.",
+    "Chengdu's weather is reliably overcast much of the year; pack layers rather than relying on forecasts for sunshine.",
+    "Book Sichuan Opera tickets a day ahead in peak season — the better-known theatres with English notes can sell out."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Chengdu?",
+      "a": "Three. A full morning at the panda base alone deserves unhurried time, a second day covers the old city's temples, alleys and museums, and a third allows a day trip to the Leshan Giant Buddha or Mount Emei. Two days is workable if you skip the day trip."
+    },
+    {
+      "q": "Is the panda base worth it?",
+      "a": "Yes, unreservedly. It is one of the best wildlife viewing experiences in the country — genuine research facility rather than a zoo, naturalistic enclosures, and, with an early-morning visit, pandas that are demonstrably active rather than asleep."
+    },
+    {
+      "q": "How spicy is Chengdu food really?",
+      "a": "Genuinely spicy, and specifically numbing as well as hot thanks to Sichuan peppercorn's mala effect. Most restaurants can adjust heat level on request, and hotpot's divided pots let you choose mild broth for some ingredients and full heat for others."
+    },
+    {
+      "q": "What is the best time of year to visit Chengdu?",
+      "a": "March to May and September to November, both mild and comfortable. Chengdu's basin location keeps it humid and often overcast year-round regardless of season, so temperature matters more than expecting reliable sunshine."
+    },
+    {
+      "q": "Can I do Leshan and Mount Emei in one day?",
+      "a": "Not properly. Both are worthwhile long day trips individually from Chengdu, but combining them in one day means rushing both. If you have time for only one, Leshan's Giant Buddha is the more compact, self-contained visit."
+    }
+  ],
+  "related": ["xi-an", "guilin-yangshuo", "zhangjiajie"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
