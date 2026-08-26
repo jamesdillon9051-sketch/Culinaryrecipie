@@ -532,6 +532,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:A roast lamb Sunday dinner at Green Man pub, Takeley Street, Essex, England.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_roast_lamb_Sunday_dinner_at_Green_Man_pub,_Takeley_Street,_Essex,_England.jpg",
+    "context": "Welsh lamb — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--food-2.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:AA A CAVE HOUSE ON THE HILLS OF SACROMONTE IN GRANADA 2016.jpg": {
     "artist": "Øyvind Holmstad",
     "license": "CC BY-SA 4.0",
@@ -1962,6 +1975,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Blaenau Ffestiniog - steam train entering station - geograph.org.uk - 6010435.jpg": {
+    "artist": "Colin Park",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blaenau_Ffestiniog_-_steam_train_entering_station_-_geograph.org.uk_-_6010435.jpg",
+    "context": "Ride a heritage railway — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--thing-6.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Blue Lagoon in Ölüdeniz, Turkey (49070738266).jpg": {
     "artist": "dronepicr",
     "license": "CC BY 2.0",
@@ -2425,6 +2451,19 @@
     "context": "The Panoramic Mont-Blanc gondola — Chamonix & Mont Blanc, France",
     "hero": "images/france/chamonix-mont-blanc--attraction-4.webp",
     "card": "images/france/chamonix-mont-blanc--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Caernarfon Castle 1994.jpg": {
+    "artist": "Herbert Ortner",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caernarfon_Castle_1994.jpg",
+    "context": "Caernarfon Castle — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-3.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3626,6 +3665,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Closeup of Welsh cakes, February 2009.jpg": {
+    "artist": "zingyyellow...wish I could bend space/time",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Closeup_of_Welsh_cakes,_February_2009.jpg",
+    "context": "Welsh cakes — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--food-4.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cochinillo, Segovia, España, 2017 01.jpg": {
     "artist": "Benjamín Núñez González",
     "license": "CC BY-SA 4.0",
@@ -3764,6 +3816,32 @@
     "context": "Tremé and Congo Square — New Orleans, United States",
     "hero": "images/united-states/new-orleans--attraction-5.webp",
     "card": "images/united-states/new-orleans--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Conwy Castle (7989).jpg": {
+    "artist": "Nilfanion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conwy_Castle_(7989).jpg",
+    "context": "Conwy Castle — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-2.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:Conwy City Walls & Gates.jpg": {
+    "artist": "Steve Knight",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conwy_City_Walls_%26_Gates.jpg",
+    "context": "Walk the Conwy or Caernarfon town walls — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--thing-3.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4418,6 +4496,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Dinorwig Slate Quarry from Llanberis - geograph.org.uk - 6263827.jpg": {
+    "artist": "Mike Pennington",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinorwig_Slate_Quarry_from_Llanberis_-_geograph.org.uk_-_6263827.jpg",
+    "context": "Llanberis and the Slate Landscape — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-4.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Diots savoyards.jpg": {
     "artist": "Tangopaso",
@@ -9138,6 +9229,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Mussel Appetizer (Unsplash).jpg": {
+    "artist": "Nick Karvounis nickkarvounis",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mussel_Appetizer_(Unsplash).jpg",
+    "context": "Conwy mussels — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--food-5.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Naneli ayran - Dara.jpg": {
     "artist": "Hamdigumus",
     "license": "CC0",
@@ -10685,6 +10789,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Porth Oer....Whistling Sands, Llyn Peninsula, Wales - geograph.org.uk - 4976829.jpg": {
+    "artist": "I Love Colour",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porth_Oer....Whistling_Sands,_Llyn_Peninsula,_Wales_-_geograph.org.uk_-_4976829.jpg",
+    "context": "Explore the Llŷn Peninsula's beaches — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--thing-5.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Portmeirion Village - geograph.org.uk - 4597922.jpg": {
+    "artist": "Dr Neil Clifton",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portmeirion_Village_-_geograph.org.uk_-_4597922.jpg",
+    "context": "Portmeirion — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-5.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Portovenere - Chiesa di San Pietro.jpg": {
     "artist": "Jessyangeli90",
     "license": "CC BY-SA 4.0",
@@ -10944,6 +11074,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Purple Moose Brewery Shop, Porthmadog - geograph.org.uk - 5511674.jpg": {
+    "artist": "Andrew Woodvine",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purple_Moose_Brewery_Shop,_Porthmadog_-_geograph.org.uk_-_5511674.jpg",
+    "context": "Welsh ale and cider — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--food-6.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 481
   },
   "File:Qin-Han branch of the Shaanxi History Museum.jpg": {
     "artist": "Baomi",
@@ -12531,6 +12674,19 @@
     "cardWidth": 800,
     "cardHeight": 500
   },
+  "File:South Stack Lighthouse on the Edge of the Cliffs – Anglesey, Wales.jpg": {
+    "artist": "TXGemGem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Stack_Lighthouse_on_the_Edge_of_the_Cliffs_%E2%80%93_Anglesey,_Wales.jpg",
+    "context": "The Llŷn Peninsula and Anglesey — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-6.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Spaghetti alla Carbonara (Madrid).JPG": {
     "artist": "Tamorlan",
     "license": "CC BY-SA 3.0",
@@ -12929,6 +13085,19 @@
     "context": "Fondue savoyarde — Chamonix & Mont Blanc, France",
     "hero": "images/france/chamonix-mont-blanc--food-1.webp",
     "card": "images/france/chamonix-mont-blanc--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:T@ Welsh Rarebit - T @ The Dials 2023-05-28.jpg": {
+    "artist": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:T@_Welsh_Rarebit_-_T_@_The_Dials_2023-05-28.jpg",
+    "context": "Welsh rarebit — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--food-1.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -13974,6 +14143,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Train on the Snowdon Mountain Railway - geograph.org.uk - 5550136.jpg": {
+    "artist": "Bill Boaden",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Train_on_the_Snowdon_Mountain_Railway_-_geograph.org.uk_-_5550136.jpg",
+    "context": "Yr Wyddfa (Snowdon) — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--attraction-1.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tram sur pont de pierre bordeaux.JPG": {
     "artist": "Abxbay",
     "license": "CC BY-SA 4.0",
@@ -14216,6 +14398,19 @@
     "context": "Spend an evening in Ravello — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--thing-5.webp",
     "card": "images/italy/amalfi-coast--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Underground at Llechwedd (7819509004).jpg": {
+    "artist": "James Petts from London, England",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Underground_at_Llechwedd_(7819509004).jpg",
+    "context": "Visit a slate cavern tour — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--thing-4.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -14962,6 +15157,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Walkers on the Pyg-Miners' Track on Snowdon - geograph.org.uk - 3449005.jpg": {
+    "artist": "Gareth James",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walkers_on_the_Pyg-Miners%27_Track_on_Snowdon_-_geograph.org.uk_-_3449005.jpg",
+    "context": "Hike or ride Yr Wyddfa — Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales--thing-1.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Washington C D.C. Tidal Basin cherry trees.jpg": {
     "artist": "USDA photo by Scott Bauer",
     "license": "Public domain",
@@ -15373,6 +15581,19 @@
     "context": "Punt or cruise the River Ouse — York, United Kingdom",
     "hero": "images/united-kingdom/york--thing-2.webp",
     "card": "images/united-kingdom/york--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Yr Wyddfa towards Llyn Llydaw Crib Goch 2019 01.jpg": {
+    "artist": "Julian Herzog (Website)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yr_Wyddfa_towards_Llyn_Llydaw_Crib_Goch_2019_01.jpg",
+    "context": "Snowdonia & North Wales, United Kingdom",
+    "hero": "images/united-kingdom/snowdonia-north-wales.webp",
+    "card": "images/united-kingdom/snowdonia-north-wales-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
