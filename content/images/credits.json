@@ -246,6 +246,19 @@
     "cardWidth": 800,
     "cardHeight": 443
   },
+  "File:2015-09-24-154450 - Bootskanäle in Souzhou.jpg": {
+    "artist": "Zossolino",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-09-24-154450_-_Bootskan%C3%A4le_in_Souzhou.jpg",
+    "context": "Take a canal boat ride in Suzhou's old town — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--thing-4.webp",
+    "card": "images/china/suzhou-hangzhou--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2016-12-17 Wangfujing Snack Street Beijing 08 anagoria.jpg": {
     "artist": "Anagoria",
     "license": "CC BY 3.0",
@@ -1572,6 +1585,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:Beggar's Chicken by Hangzhou's \"Mountain Beyond Mountain\" Restaurant.jpg": {
+    "artist": "Zheng Zhou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beggar%27s_Chicken_by_Hangzhou%27s_%22Mountain_Beyond_Mountain%22_Restaurant.jpg",
+    "context": "Beggar's chicken — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--food-1.webp",
+    "card": "images/china/suzhou-hangzhou--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Begoñako txakolindegietako edalontzi eta pitxerra.jpg": {
     "artist": "Ksarasola",
     "license": "CC BY-SA 4.0",
@@ -2347,6 +2373,19 @@
     "context": "Murano, Burano and Torcello — Venice, Italy",
     "hero": "images/italy/venice--attraction-7.webp",
     "card": "images/italy/venice--attraction-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Canal dans le centre ancien de Suzhou (16999191119).jpg": {
+    "artist": "Nicolas Vollmer from Paris [France]",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_dans_le_centre_ancien_de_Suzhou_(16999191119).jpg",
+    "context": "Suzhou's canal old town — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-3.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4002,6 +4041,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Dongpo pork (a Hangzhou dish).jpg": {
+    "artist": "Pauloleong2002",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongpo_pork_(a_Hangzhou_dish).jpg",
+    "context": "Dongpo pork — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--food-6.webp",
+    "card": "images/china/suzhou-hangzhou--food-6-card.webp",
+    "heroWidth": 1573,
+    "heroHeight": 885,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Douhua - Shantou - 20170302.jpg": {
     "artist": "DragonSamYU",
@@ -5719,6 +5771,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hangzhou Pagoda on West Lake.jpg": {
+    "artist": "Circa24",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hangzhou_Pagoda_on_West_Lake.jpg",
+    "context": "West Lake, Hangzhou — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-4.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Harran Beehive houses 192b.jpg": {
     "artist": "Dosseman",
     "license": "CC BY-SA 4.0",
@@ -6039,6 +6104,45 @@
     "context": "Learn something about Hawai'i — Maui, Hawai'i, United States",
     "hero": "images/united-states/maui--thing-6.webp",
     "card": "images/united-states/maui--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Humble Administrator's Garden Suzhou November 2017 004.jpg": {
+    "artist": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_004.jpg",
+    "context": "Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou.webp",
+    "card": "images/china/suzhou-hangzhou-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Humble Administrator's Garden Suzhou November 2017 006.jpg": {
+    "artist": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_006.jpg",
+    "context": "The Humble Administrator's Garden, Suzhou — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-1.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Humble Administrator's Garden Suzhou November 2017 008.jpg": {
+    "artist": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humble_Administrator%27s_Garden_Suzhou_November_2017_008.jpg",
+    "context": "Visit Suzhou's gardens at opening — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--thing-3.webp",
+    "card": "images/china/suzhou-hangzhou--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7031,6 +7135,32 @@
     "heroHeight": 692,
     "cardWidth": 800,
     "cardHeight": 346
+  },
+  "File:Lingering Garden, Suzhou, China (2015) - 07.jpg": {
+    "artist": "Another Believer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lingering_Garden,_Suzhou,_China_(2015)_-_07.jpg",
+    "context": "The Lingering Garden, Suzhou — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-2.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Lingyin Temple, Hangzhou 20161003.jpg": {
+    "artist": "Tyg728",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lingyin_Temple,_Hangzhou_20161003.jpg",
+    "context": "Lingyin Temple, Hangzhou — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-5.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 500
   },
   "File:Lion Gate, Hattusa 01.jpg": {
     "artist": "Bernard Gagnon",
@@ -11270,6 +11400,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Squirrel fish.jpg": {
+    "artist": "Ines Yeh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squirrel_fish.jpg",
+    "context": "Suzhou-style sweet and sour mandarin fish — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--food-3.webp",
+    "card": "images/china/suzhou-hangzhou--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:St Charles Avenue at Foucher with streetcar, New Orleans Sept 2022.jpg": {
     "artist": "Infrogmation of New Orleans",
     "license": "CC BY-SA 4.0",
@@ -11720,6 +11863,19 @@
     "context": "Çiğ köfte — Şanlıurfa & Göbekli Tepe, Turkey",
     "hero": "images/turkey/sanliurfa-gobekli-tepe--food-2.webp",
     "card": "images/turkey/sanliurfa-gobekli-tepe--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tea plantations in Longjing, Hangzhou.jpg": {
+    "artist": "Wishva de Silva",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tea_plantations_in_Longjing,_Hangzhou.jpg",
+    "context": "The Longjing tea village — Suzhou & Hangzhou, China",
+    "hero": "images/china/suzhou-hangzhou--attraction-6.webp",
+    "card": "images/china/suzhou-hangzhou--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
