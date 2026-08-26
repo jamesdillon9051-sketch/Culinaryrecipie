@@ -454,6 +454,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:20230410 Deutsches Museum 02.jpg": {
+    "artist": "Flocci Nivis",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230410_Deutsches_Museum_02.jpg",
+    "context": "The Deutsches Museum — Munich, Germany",
+    "hero": "images/germany/munich--attraction-2.webp",
+    "card": "images/germany/munich--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2024-02-25 Road between Ayder Yaylası and Ĥuser Yaylası in February 2.jpg": {
     "artist": "Alexkom000",
     "license": "CC BY 4.0",
@@ -735,6 +748,19 @@
     "context": "Château de Chambord — The Loire Valley, France",
     "hero": "images/france/loire-valley--attraction-1.webp",
     "card": "images/france/loire-valley--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Aerial image of Schloss Nymphenburg.jpg": {
+    "artist": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Schloss_Nymphenburg.jpg",
+    "context": "Nymphenburg Palace — Munich, Germany",
+    "hero": "images/germany/munich--attraction-5.webp",
+    "card": "images/germany/munich--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7097,6 +7123,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hofbrauhaus Radler Beer (5987287310).jpg": {
+    "artist": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hofbrauhaus_Radler_Beer_(5987287310).jpg",
+    "context": "Bavarian beer — Munich, Germany",
+    "hero": "images/germany/munich--food-4.webp",
+    "card": "images/germany/munich--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Holyrood Palace and Abbey 20211021.jpg": {
     "artist": "Daniel Kraft",
     "license": "CC BY-SA 3.0",
@@ -8267,6 +8306,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Leberkäse, Rüdesheim.jpg": {
+    "artist": "Gerda Arendt",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leberk%C3%A4se,_R%C3%BCdesheim.jpg",
+    "context": "Leberkäse — Munich, Germany",
+    "hero": "images/germany/munich--food-6.webp",
+    "card": "images/germany/munich--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Leonardo da Vinci - The Last Supper high res.jpg": {
     "artist": "Leonardo da Vinci",
     "license": "Public domain",
@@ -9320,6 +9372,19 @@
     "cardWidth": 800,
     "cardHeight": 362
   },
+  "File:Monopteros in the Englischer Garten, Munich (2019).jpg": {
+    "artist": "Paul Colin Hennig firstdorsal.eu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monopteros_in_the_Englischer_Garten,_Munich_(2019).jpg",
+    "context": "The English Garden — Munich, Germany",
+    "hero": "images/germany/munich--attraction-3.webp",
+    "card": "images/germany/munich--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Monreale - Kathedrale Kreuzgang 02.JPG": {
     "artist": "Rabe!",
     "license": "CC BY-SA 4.0",
@@ -9523,6 +9588,71 @@
     "context": "Get out of the city for a day — San Francisco & the California Coast, United States",
     "hero": "images/united-states/san-francisco--thing-6.webp",
     "card": "images/united-states/san-francisco--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:München, Rathaus -- 2011 -- 1262.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Rathaus_--_2011_--_1262.jpg",
+    "context": "Marienplatz and the New Town Hall — Munich, Germany",
+    "hero": "images/germany/munich--attraction-1.webp",
+    "card": "images/germany/munich--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:München, Viktualienmarkt, Ladenzeile -- 2011 -- 1.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Viktualienmarkt,_Ladenzeile_--_2011_--_1.jpg",
+    "context": "Visit the Viktualienmarkt — Munich, Germany",
+    "hero": "images/germany/munich--thing-2.webp",
+    "card": "images/germany/munich--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Münchner Christkindlmarkt 3.JPG": {
+    "artist": "X",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchner_Christkindlmarkt_3.JPG",
+    "context": "Explore Munich's Christmas markets — Munich, Germany",
+    "hero": "images/germany/munich--thing-6.webp",
+    "card": "images/germany/munich--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Munich - Hofbräuhaus am Platzl - 0778.jpg": {
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Munich_-_Hofbr%C3%A4uhaus_am_Platzl_-_0778.jpg",
+    "context": "The Hofbräuhaus — Munich, Germany",
+    "hero": "images/germany/munich--attraction-6.webp",
+    "card": "images/germany/munich--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Munich English Gardens - Chinese Tower Beer Garden - August 2006.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Munich_English_Gardens_-_Chinese_Tower_Beer_Garden_-_August_2006.jpg",
+    "context": "Spend an afternoon in a beer garden — Munich, Germany",
+    "hero": "images/germany/munich--thing-1.webp",
+    "card": "images/germany/munich--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9944,6 +10074,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:O'zapft is! Münchens 5 Jahreszeit hat begonnen - O'zapft is! Munich 5 season, the Oktoberfest has begun (9855483374).jpg": {
+    "artist": "Heribert Pohl --- Thanks for half  a million clicks! from Germering bei München, Bayern",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:O%27zapft_is!_M%C3%BCnchens_5_Jahreszeit_hat_begonnen_-_O%27zapft_is!_Munich_5_season,_the_Oktoberfest_has_begun_(9855483374).jpg",
+    "context": "Experience Oktoberfest, or its quieter cousins — Munich, Germany",
+    "hero": "images/germany/munich--thing-4.webp",
+    "card": "images/germany/munich--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Oatcakes with pepper.jpg": {
     "artist": "Fitzhenrymort",
     "license": "CC BY-SA 4.0",
@@ -9952,6 +10095,19 @@
     "context": "Oatcakes and Scottish baking — Scottish Highlands & Isle of Skye, United Kingdom",
     "hero": "images/united-kingdom/scottish-highlands-skye--food-6.webp",
     "card": "images/united-kingdom/scottish-highlands-skye--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Obatzter-1.jpg": {
+    "artist": "Rainer Z ...",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Obatzter-1.jpg",
+    "context": "Obatzda — Munich, Germany",
+    "hero": "images/germany/munich--food-5.webp",
+    "card": "images/germany/munich--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -11764,6 +11920,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Rathaus and Marienplatz from Peterskirche - August 2006.jpg": {
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
+    "context": "Munich, Germany",
+    "hero": "images/germany/munich.webp",
+    "card": "images/germany/munich-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Ravello Villa-Rufolo fountain 20240505 141714.jpg": {
     "artist": "Rigorius",
     "license": "CC BY-SA 4.0",
@@ -12648,6 +12817,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg": {
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schweinshaxe_at_Der_Landgraf,_Fangzhuang_(20211001174341).jpg",
+    "context": "Schweinshaxe — Munich, Germany",
+    "hero": "images/germany/munich--food-3.webp",
+    "card": "images/germany/munich--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Scialatielli ai frutti di mare, Capri.jpg": {
     "artist": "Coso",
     "license": "CC BY 2.0",
@@ -12994,6 +13176,19 @@
     "context": "Cannoli and cassata — Sicily, Italy",
     "hero": "images/italy/sicily--food-4.webp",
     "card": "images/italy/sicily--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Side entrance to the Alte Pinakothek in Munich.jpg": {
+    "artist": "AuHaidhausen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Side_entrance_to_the_Alte_Pinakothek_in_Munich.jpg",
+    "context": "The Pinakothek museums — Munich, Germany",
+    "hero": "images/germany/munich--attraction-4.webp",
+    "card": "images/germany/munich--attraction-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -15157,6 +15352,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Urban Surfer1.JPG": {
+    "artist": "Martin Falbisoner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urban_Surfer1.JPG",
+    "context": "Watch the Eisbach river surfers — Munich, Germany",
+    "hero": "images/germany/munich--thing-5.webp",
+    "card": "images/germany/munich--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Urfa Castle 02.jpg": {
     "artist": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
@@ -15924,6 +16132,32 @@
     "cardWidth": 800,
     "cardHeight": 520
   },
+  "File:Weidenberger Brezen.JPG": {
+    "artist": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weidenberger_Brezen.JPG",
+    "context": "Pretzels (Brezn) — Munich, Germany",
+    "hero": "images/germany/munich--food-2.webp",
+    "card": "images/germany/munich--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Weisswurst+pretzels+bavarian mustard, beergarden, Düll brewery.jpg": {
+    "artist": "Nemracc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weisswurst%2Bpretzels%2Bbavarian_mustard,_beergarden,_D%C3%BCll_brewery.jpg",
+    "context": "Weisswurst — Munich, Germany",
+    "hero": "images/germany/munich--food-1.webp",
+    "card": "images/germany/munich--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Wendella architecture tour on Chicago River (9433676806).jpg": {
     "artist": "Roy Luck",
     "license": "CC BY 2.0",
@@ -16465,6 +16699,19 @@
     "context": "The Narrows — Zion & Southern Utah, United States",
     "hero": "images/united-states/zion-southern-utah--attraction-1.webp",
     "card": "images/united-states/zion-southern-utah--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Zugspitze Overlook (52458529173).jpg": {
+    "artist": "Andrew Parlette from Elkridge,MD, US",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zugspitze_Overlook_(52458529173).jpg",
+    "context": "Take a day trip to the Bavarian Alps — Munich, Germany",
+    "hero": "images/germany/munich--thing-3.webp",
+    "card": "images/germany/munich--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
