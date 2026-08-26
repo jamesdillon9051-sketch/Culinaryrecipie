@@ -1,0 +1,379 @@
+{
+  "slug": "belfast-giants-causeway",
+  "name": "Belfast & the Giant's Causeway",
+  "country": "united-kingdom",
+  "region": "Northern Ireland",
+  "categories": ["historic", "coastal", "culture"],
+  "tagline": "A city rebuilding itself around an honest reckoning with its past, paired with a coastline of basalt columns so geometrically strange that legend was the only explanation that made sense for centuries.",
+  "highlight": "The Giant's Causeway's 40,000 interlocking basalt columns, stepping from the cliffs into the Atlantic in improbably regular hexagons.",
+  "shortDescription": "Northern Ireland's capital, honest about its Troubles-era history and increasingly vibrant, paired with the dramatic Causeway Coast an hour and a half north.",
+  "metaDescription": "A Belfast and Giant's Causeway travel guide: the Titanic Quarter, political murals, the Causeway Coastal Route, when to go and a practical multi-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Belfast International (BFS) or George Best Belfast City (BHD)",
+  "knownFor": "The Titanic Quarter, political murals, the Causeway Coast",
+  "budget": "£75–130 per day, mid-range",
+  "goodFor": "History, coastal scenery, culture, road trips",
+  "coords": { "lat": 54.5973, "lng": -5.9301 },
+  "image": {
+    "file": "File:Giant's Causeway (14).JPG",
+    "alt": "The hexagonal basalt columns of the Giant's Causeway meeting the sea"
+  },
+  "intro": [
+    "Belfast has changed faster than almost any city in Britain or Ireland over the past two decades, moving from a place defined internationally by the Troubles to one increasingly known for its Titanic-building history, its food scene, and a directness about its own past that few cities manage. The peace walls and political murals remain, but they are now presented as history to understand rather than as an ongoing story.",
+    "North of the city, the Causeway Coastal Route ranks among the world's great coastal drives, a couple of hours of clifftop road connecting Carrickfergus Castle, the vertigo-inducing Carrick-a-Rede rope bridge, Dunluce Castle's ruins, and the geological strangeness of the Giant's Causeway itself.",
+    "The Causeway's basalt columns — hexagonal, tightly packed, stepping down into the sea — formed from cooling volcanic lava around 60 million years ago, though local legend credits the giant Finn McCool, who supposedly built the causeway to reach a rival giant in Scotland, and the Scottish side of the same basalt formation, on the Isle of Staffa, lends the story a strange geological credibility."
+  ],
+  "whyVisit": {
+    "intro": "Belfast and the Causeway Coast's case is that nowhere else combines a genuinely honest urban history lesson with one of the world's most dramatic coastal drives so close together.",
+    "points": [
+      {
+        "title": "Belfast's history is presented with real honesty",
+        "text": "Black cab tours and mural walks address the Troubles directly rather than glossing over them, a genuinely valuable way to understand recent history."
+      },
+      {
+        "title": "The Titanic story is told at its source",
+        "text": "The ship was built in Belfast, and the Titanic Quarter museum sits on the actual shipyard site where it was constructed."
+      },
+      {
+        "title": "The Giant's Causeway is genuinely unlike anywhere else",
+        "text": "40,000 near-perfect hexagonal columns form a landscape that looks engineered rather than natural."
+      },
+      {
+        "title": "The Causeway Coastal Route is a world-class drive",
+        "text": "Castles, rope bridges and cliff scenery come in fast succession along a genuinely spectacular couple of hours of road."
+      },
+      {
+        "title": "Belfast's food and pub scene is a real, current strength",
+        "text": "A younger, increasingly confident food culture sits alongside the city's traditional pubs and live music tradition."
+      }
+    ]
+  },
+  "attractionsIntro": "A mix of Belfast's core sights and the coastal landmarks strung along the road north, best split across a city day and a Causeway Coast day.",
+  "attractions": [
+    {
+      "name": "Titanic Belfast",
+      "image": {
+        "file": "File:Looking towards the Titanic Belfast Museum - geograph.org.uk - 7881451.jpg",
+        "alt": "The angular exterior of the Titanic Belfast museum"
+      },
+      "text": "A striking angular museum on the site of the shipyard where the Titanic was built, telling the ship's construction and sinking story in genuine, well-presented depth.",
+      "tip": "Allow at least two to three hours — the museum is considerably larger and more detailed than a quick visit allows for."
+    },
+    {
+      "name": "The Giant's Causeway",
+      "image": {
+        "file": "File:Giant’s Causeway Shore 01.jpg",
+        "alt": "Close-up of the hexagonal basalt columns at the Giant's Causeway"
+      },
+      "text": "40,000 interlocking hexagonal basalt columns stepping from the cliffs into the Atlantic, formed by ancient volcanic activity and wrapped in local legend.",
+      "tip": "Walk down to the stones themselves rather than only viewing from the clifftop path — the close-up geometry is the real payoff."
+    },
+    {
+      "name": "Belfast's political murals",
+      "image": {
+        "file": "File:Belfast - International Wall along Falls Road (A501) - Murals - geograph.org.uk - 3977059.jpg",
+        "alt": "Large-scale political murals along Belfast's International Wall"
+      },
+      "text": "Large-scale murals along the Falls and Shankill Roads document the Troubles and its aftermath, powerful and genuinely essential context for the city's recent history.",
+      "tip": "A black cab tour with a local driver, often someone who lived through the period, gives far more context than walking alone."
+    },
+    {
+      "name": "Carrick-a-Rede Rope Bridge",
+      "image": {
+        "file": "File:Carrick-a-Rede Rope bridge-20120829.jpg",
+        "alt": "The Carrick-a-Rede rope bridge suspended above the sea"
+      },
+      "text": "A rope bridge swaying 30 metres above the sea, connecting the mainland to a small island once used by salmon fishermen, now a genuinely thrilling short crossing.",
+      "tip": "Book timed tickets in advance — the bridge has limited capacity and sells out on busy days."
+    },
+    {
+      "name": "Dunluce Castle",
+      "image": {
+        "file": "File:Dunluce Castle Northern Ireland 1.jpg",
+        "alt": "The ruins of Dunluce Castle perched on its cliff edge"
+      },
+      "text": "Dramatic ruins perched on a cliff edge above the sea, once a Scottish clan stronghold, said to have partly inspired Cair Paravel in the Narnia books.",
+      "tip": "The castle is best photographed from the small car park just west of the site, with the ruins framed against the coastline."
+    },
+    {
+      "name": "St George's Market, Belfast",
+      "image": {
+        "file": "File:Belfast - City Centre - St George's Market Interior - geograph.org.uk - 3983424.jpg",
+        "alt": "Stalls inside Belfast's Victorian St George's Market"
+      },
+      "text": "A Victorian covered market held on weekends, genuinely popular with locals, mixing food stalls, local produce and live music in a beautiful historic building.",
+      "tip": "Arrive hungry — the food stalls alone justify a visit, alongside the crafts and produce."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the headline sights, this region rewards both a serious engagement with Belfast's history and simple enjoyment of the coast.",
+  "thingsToDo": [
+    {
+      "title": "Take a black cab political tour",
+      "text": "Local drivers, often with personal experience of the Troubles, give genuinely powerful context to the murals and peace walls, a uniquely Belfast experience.",
+      "tip": "Choose a driver willing to discuss their own experience directly — it makes a real difference to the tour's depth."
+    },
+    {
+      "title": "Drive the Causeway Coastal Route",
+      "image": {
+        "file": "File:Balleygalley road A2 on the sea front - geograph.org.uk - 4016822.jpg",
+        "alt": "The Antrim Coast Road running along the sea front"
+      },
+      "text": "A genuinely world-class coastal drive linking Belfast to the Causeway via castles, cliffs and beaches, rewarding a full, unhurried day.",
+      "tip": "Start early to allow stops at Carrickfergus Castle, Carrick-a-Rede and Dunluce without feeling rushed before reaching the Causeway."
+    },
+    {
+      "title": "Visit a traditional Belfast pub",
+      "image": {
+        "file": "File:Belfast Crown Liquor.jpg",
+        "alt": "The ornate Victorian interior of the Crown Liquor Saloon"
+      },
+      "text": "The Crown Liquor Saloon and the Duke of York, among others, offer genuine Victorian and traditional atmosphere alongside live traditional music.",
+      "tip": "The Crown Liquor Saloon's ornate Victorian interior is genuinely worth a visit even for non-drinkers."
+    },
+    {
+      "title": "Walk the Peace Walls",
+      "image": {
+        "file": "File:Cupar Way peace line wall, Belfast - geograph.org.uk - 5494388.jpg",
+        "alt": "The peace line wall along Cupar Way in Belfast"
+      },
+      "text": "Still-standing barriers between Belfast's Catholic and Protestant neighbourhoods, genuinely sobering to see in person and a real marker of how recently the Troubles ended.",
+      "tip": "Best visited as part of a guided tour, which provides context a solo walk cannot."
+    },
+    {
+      "title": "Sample Northern Irish whiskey",
+      "image": {
+        "file": "File:Bushmills Whiskey Distillery 03.jpg",
+        "alt": "The Old Bushmills Distillery near the Causeway Coast"
+      },
+      "text": "The Bushmills Distillery, near the Causeway, claims to be the world's oldest licensed whiskey distillery, with tours and tastings a natural pairing with a Causeway Coast day.",
+      "tip": "Book the distillery tour alongside your Causeway visit — they sit only a few minutes apart."
+    },
+    {
+      "title": "Visit the Ulster Museum",
+      "image": {
+        "file": "File:Ulster Museum, Belfast, April 2012 (28).JPG",
+        "alt": "The Ulster Museum building in Belfast"
+      },
+      "text": "A free, genuinely strong museum covering Northern Ireland's natural history, art and Troubles-era history in one well-presented building.",
+      "tip": "The Troubles and Beyond gallery gives valuable additional context to complement a mural tour."
+    }
+  ],
+  "foodIntro": "Northern Irish food leans on hearty, honest cooking, with Belfast's food scene increasingly confident alongside long-standing traditions.",
+  "foods": [
+    {
+      "name": "Ulster fry",
+      "image": {
+        "file": "File:Ulster fry 1.jpg",
+        "alt": "A full Ulster fry breakfast"
+      },
+      "text": "A substantial breakfast of bacon, sausage, egg, soda bread, potato bread and black pudding, a genuine regional variation on the full breakfast.",
+      "whereToTry": "Cafes across Belfast and Northern Ireland, particularly popular as a weekend breakfast."
+    },
+    {
+      "name": "Soda bread and potato bread",
+      "image": {
+        "file": "File:Irish soda bread (25292114472).jpg",
+        "alt": "A loaf of traditional soda bread"
+      },
+      "text": "Traditional griddle breads, genuinely central to Northern Irish cooking, served alongside meals or simply with butter.",
+      "whereToTry": "Bakeries and cafes throughout the region, and a staple of the Ulster fry."
+    },
+    {
+      "name": "Irish stew",
+      "image": {
+        "file": "File:-2022-02-08 Cooking Irish Stew, Trimingham, Norfolk.JPG",
+        "alt": "A pot of traditional Irish stew"
+      },
+      "text": "A hearty, traditional stew of lamb or mutton with potatoes and root vegetables, genuine comfort food found on menus across Belfast.",
+      "whereToTry": "Traditional pubs throughout Belfast and Northern Ireland."
+    },
+    {
+      "name": "Fresh seafood from the Causeway Coast",
+      "image": {
+        "file": "File:Seafood Chowder Bread Guiness.JPG",
+        "alt": "A bowl of seafood chowder with bread"
+      },
+      "text": "The north coast's waters produce genuinely excellent seafood, with local mussels, oysters and fish featuring on coastal restaurant menus.",
+      "whereToTry": "Restaurants along the Causeway Coastal Route, particularly around Portrush and Ballycastle."
+    },
+    {
+      "name": "Bushmills whiskey",
+      "image": {
+        "file": "File:Old Bushmills Distillery - geograph.org.uk - 1748888.jpg",
+        "alt": "The Old Bushmills Distillery, maker of Bushmills whiskey"
+      },
+      "text": "Produced at the world's oldest licensed distillery near the Causeway, Bushmills is a genuine point of Northern Irish pride, distinct in character from Scotch.",
+      "whereToTry": "The Old Bushmills Distillery itself, and pubs throughout Northern Ireland."
+    },
+    {
+      "name": "Yellowman and Belfast dulse",
+      "text": "Traditional Ulster treats — a hard, honeycomb-textured toffee and dried, edible seaweed — genuinely distinctive local specialities with real history behind them.",
+      "whereToTry": "Traditional sweet shops and markets, particularly around the Ould Lammas Fair in Ballycastle."
+    }
+  ],
+  "accommodation": {
+    "intro": "Belfast is the practical base for most of a trip, with the Causeway Coast reachable as a long day trip or a one-night detour.",
+    "areas": [
+      {
+        "name": "Belfast city centre",
+        "bestFor": "Walking to Titanic Belfast and the main sights",
+        "text": "The most convenient base, with a wide range of accommodation and easy access to the Cathedral Quarter's restaurants and pubs."
+      },
+      {
+        "name": "The Cathedral Quarter",
+        "bestFor": "Nightlife and dining",
+        "text": "Belfast's liveliest area for bars, restaurants and live music, genuinely central and walkable."
+      },
+      {
+        "name": "Portrush or Bushmills",
+        "bestFor": "An overnight on the Causeway Coast",
+        "text": "Small coastal towns well placed for the Causeway, Carrick-a-Rede and Dunluce without needing to return to Belfast the same day."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£20–35 per night" },
+      { "label": "Mid-range hotel or B&B", "value": "£75–140 per night" },
+      { "label": "Titanic Belfast entry", "value": "£19–24" },
+      { "label": "Black cab tour", "value": "£10–15 per person" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Belfast has two airports, and the city is well connected to the rest of Ireland and Britain by rail and ferry.",
+    "options": [
+      {
+        "mode": "Belfast International or George Best City Airport",
+        "text": "Belfast International handles most international and low-cost routes; George Best City Airport is more central and convenient for UK domestic flights.",
+        "detail": "George Best City Airport sits close enough to the centre for a short taxi ride."
+      },
+      {
+        "mode": "Rail or bus from Dublin",
+        "text": "Direct trains and buses connect Dublin to Belfast in around two hours, a practical option for combining both cities.",
+        "detail": "The Enterprise train service is the most comfortable direct option."
+      },
+      {
+        "mode": "Ferry from Scotland",
+        "text": "Ferries connect Belfast and Larne to Cairnryan in Scotland, a practical option for those touring both Britain and Ireland by car.",
+        "detail": "The crossing takes around two hours and carries vehicles."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Belfast's centre is walkable, but a car is genuinely useful for the Causeway Coastal Route north of the city.",
+    "options": [
+      {
+        "mode": "On foot, in central Belfast",
+        "text": "The city centre, Titanic Quarter and Cathedral Quarter are all comfortably walkable from most central accommodation.",
+        "detail": "The murals on the Falls and Shankill Roads sit further out and are best reached by tour or taxi."
+      },
+      {
+        "mode": "Rental car",
+        "text": "The most practical way to drive the Causeway Coastal Route at your own pace, stopping freely at castles and viewpoints.",
+        "detail": "Roads are generally good throughout, though single-track sections appear near some coastal attractions."
+      },
+      {
+        "mode": "Organised Causeway Coast tours",
+        "text": "Day tours run from Belfast covering the Causeway, Carrick-a-Rede and Dunluce for those without a car.",
+        "detail": "A practical, if less flexible, alternative to driving the route independently."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "The Causeway Coast's weather is genuinely changeable in any season, making daylight hours and crowd levels the more reliable planning factors.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild weather, lengthening daylight, and crowds at the Causeway well below the summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "The busiest months, with the Causeway and Carrick-a-Rede genuinely crowded, though the longest daylight for the coastal drive."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures, thinning crowds, and often dramatic Atlantic light along the coast."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Quiet and atmospheric, with genuinely dramatic storm-watching at the Causeway, though shorter days limit driving time."
+      }
+    ],
+    "avoid": "July's Twelfth of July period, when parades and associated events can affect traffic and accommodation in parts of Belfast."
+  },
+  "itinerary": {
+    "title": "Four days in Belfast and the Causeway Coast",
+    "intro": "Belfast's history and culture first, then a full day on the Causeway Coastal Route.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Titanic Belfast and the city centre",
+        "summary": "Belfast's defining museum and central sights.",
+        "morning": "Titanic Belfast and the Titanic Quarter.",
+        "afternoon": "St George's Market or the city centre and Cathedral Quarter.",
+        "evening": "Dinner and live music in the Cathedral Quarter."
+      },
+      {
+        "day": 2,
+        "title": "Murals and Troubles history",
+        "summary": "A serious, honest look at Belfast's recent past.",
+        "morning": "A black cab political tour of the Falls and Shankill Roads.",
+        "afternoon": "The Ulster Museum.",
+        "evening": "A traditional pub, such as the Crown Liquor Saloon."
+      },
+      {
+        "day": 3,
+        "title": "The Causeway Coastal Route",
+        "summary": "Castles, a rope bridge and the Causeway itself.",
+        "morning": "Drive north via Carrickfergus Castle.",
+        "afternoon": "Carrick-a-Rede Rope Bridge, then Dunluce Castle.",
+        "evening": "The Giant's Causeway at golden hour, overnight in Portrush or Bushmills."
+      },
+      {
+        "day": 4,
+        "title": "Bushmills and return",
+        "summary": "A whiskey tour before heading back to Belfast.",
+        "morning": "The Old Bushmills Distillery tour.",
+        "afternoon": "Drive back to Belfast, or onward to your next stop.",
+        "evening": "Depart."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on tours, booking and timing that make a real difference to this trip.",
+  "tips": [
+    "Book a black cab or guided mural tour rather than walking the Falls and Shankill Roads alone, for context and for practical reasons.",
+    "Book Carrick-a-Rede tickets online in advance — the bridge has limited daily capacity and sells out on busy days.",
+    "Allow a full day for the Causeway Coastal Route rather than rushing it as a half-day trip from Belfast.",
+    "Visit the Giant's Causeway early morning or late in the day for both better light and thinner crowds.",
+    "Combine Bushmills Distillery with your Causeway visit — the two sit only minutes apart by car.",
+    "Check for parades or events around the Twelfth of July, which can affect traffic and accommodation in parts of Belfast.",
+    "Pack for genuine weather changes — the Causeway Coast is exposed and conditions shift quickly."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need for Belfast and the Causeway Coast?",
+      "a": "Three to four. Two full days cover Belfast's essential sights and history; a further day or two allows a proper, unhurried drive along the Causeway Coastal Route."
+    },
+    {
+      "q": "Is Belfast safe to visit?",
+      "a": "Yes, genuinely so — Belfast is a safe, welcoming city for visitors. The political history remains visible in murals and peace walls, but day-to-day life is calm, and most areas visitors see present no particular concern."
+    },
+    {
+      "q": "Do I need a car for the Giant's Causeway?",
+      "a": "Not strictly — organised day tours run from Belfast — but a rental car gives far more flexibility to stop at Carrickfergus, Carrick-a-Rede and Dunluce along the way rather than following a fixed tour schedule."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best balance of decent weather, long daylight and manageable crowds. Summer is busiest at the Causeway; winter is quiet but with shorter days for the coastal drive."
+    },
+    {
+      "q": "Is a black cab tour worth it?",
+      "a": "Yes, genuinely — a local driver's personal context on the murals and Troubles-era history adds far more depth than walking the same streets alone with a guidebook."
+    }
+  ],
+  "related": ["edinburgh", "london", "lake-district"],
+  "relatedArticles": ["packing-by-season", "first-trip-to-europe"]
+}
