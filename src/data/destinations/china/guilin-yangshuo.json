@@ -1,0 +1,355 @@
+{
+  "slug": "guilin-yangshuo",
+  "name": "Guilin & Yangshuo",
+  "country": "china",
+  "region": "Guangxi",
+  "categories": ["scenic-region", "nature-wildlife", "off-beaten-path"],
+  "tagline": "The limestone karst landscape printed on the twenty-yuan banknote, a river cruise between them, and a small town at the far end built around cycling through it.",
+  "highlight": "The Li River cruise from Guilin to Yangshuo — four hours drifting between thousands of forested karst peaks rising straight out of the water.",
+  "shortDescription": "China's most photographed landscape: limestone karst peaks by the thousand, a slow river cruise between two towns, and rice-paddy cycling at the quieter end.",
+  "metaDescription": "A Guilin and Yangshuo travel guide: the Li River cruise, karst cycling, caves and cormorant fishing, where to eat beer fish, when to go and a three-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Guilin Liangjiang International (KWL)",
+  "knownFor": "The Li River, karst peaks, cycling among rice paddies, beer fish",
+  "budget": "¥400–800 per day, mid-range",
+  "goodFor": "Nature, cycling, photography, slower travel",
+  "coords": { "lat": 25.2736, "lng": 110.2907 },
+  "image": {
+    "file": "File:1 li jiang guilin yangshuo 2011.jpg",
+    "alt": "Limestone karst peaks reflected in the still water of the Li River"
+  },
+  "intro": [
+    "The karst landscape around Guilin is famous well beyond China's borders without most visitors ever quite placing where they have seen it — it is printed on the back of the twenty-yuan note, it appears in the background of countless Chinese ink paintings, and it was the visual reference for the floating mountains in a well-known Hollywood fantasy film. Thousands of limestone peaks, some barely wider than the trees growing on them, rise abruptly out of flat farmland and river water across a region that took millions of years of water erosion to carve.",
+    "The classic way to see it is the Li River cruise from Guilin to Yangshuo, four unhurried hours drifting past peaks with names like Nine Horses Fresco Hill and Painted Fan Hill, fishermen working from bamboo rafts, and water buffalo grazing at the water's edge. It sounds, and looks, exactly like the paintings it inspired.",
+    "Yangshuo itself, a small town at the river's end, has built its entire identity around exploring the same landscape more slowly: renting a bicycle and riding out along the Yulong River through rice paddies and villages with the karst peaks rising on every side, rock climbing on the limestone cliffs, or simply finding a quiet spot on the water at sunset. It is the closest thing in this guide to a place built for slowing down rather than sightseeing."
+  ],
+  "whyVisit": {
+    "intro": "Guilin and Yangshuo's case is that nowhere else in China, or arguably anywhere, packs this much dramatic natural scenery into a landscape this easy to explore slowly.",
+    "points": [
+      {
+        "title": "The karst scenery has no real substitute",
+        "text": "Thousands of individually distinct limestone peaks in one river valley, visible from the water, a bicycle seat or a cave mouth — genuinely unlike anywhere else in this guide."
+      },
+      {
+        "title": "The Li River cruise delivers on its reputation",
+        "text": "Four hours of continuously changing, individually named peaks, rather than one dramatic viewpoint and a long transfer either side."
+      },
+      {
+        "title": "Yangshuo rewards slowing down",
+        "text": "Unlike most stops on a China itinerary, this one is built around cycling, swimming and sitting still rather than ticking off sights against the clock."
+      },
+      {
+        "title": "It is a genuine change of pace and place",
+        "text": "Rural, green and quiet in a way none of the historic cities in this guide are, and a useful counterweight to a Beijing-and-Xi'an-heavy itinerary."
+      },
+      {
+        "title": "The food is distinctive and excellent",
+        "text": "Guangxi's beer fish, rice noodles and river snails are a genuinely different regional cuisine from anything further north."
+      }
+    ]
+  },
+  "attractionsIntro": "The region rewards splitting time between the cruise itself, Yangshuo's countryside, and a couple of standout caves and viewpoints.",
+  "attractions": [
+    {
+      "name": "The Li River cruise",
+      "image": {
+        "file": "File:Li River and mountains in Yangshuo County, Guilin52.jpg",
+        "alt": "A cruise boat's view of karst peaks along the Li River"
+      },
+      "text": "A four-hour boat journey from Guilin to Yangshuo through the region's most concentrated stretch of karst scenery, passing named formations like Nine Horses Fresco Hill and Yellow Cloth Shoal, printed on the twenty-yuan note.",
+      "tip": "Book a morning departure — the light is best and afternoon mist can obscure the more distant peaks."
+    },
+    {
+      "name": "Yangshuo's Yulong River valley",
+      "image": {
+        "file": "File:Yulong Bridge, Yangshuo.jpg",
+        "alt": "The old stone Yulong Bridge among rice paddies and karst peaks"
+      },
+      "text": "A quieter, greener stretch of countryside south of town, rice paddies and karst peaks threaded by a slower river, best explored by rented bicycle along small farm roads and bamboo-raft-lined banks.",
+      "tip": "Rent a bike in town rather than at the valley entrance — prices are noticeably lower."
+    },
+    {
+      "name": "Moon Hill",
+      "image": {
+        "file": "File:Yangshuo, view from Moon Hill (6170279890).jpg",
+        "alt": "The karst landscape seen from Moon Hill's natural arch"
+      },
+      "text": "A karst peak with a large natural arch near its summit, framing the sky through solid rock — climbable via a steep stone stairway, or simply admired and photographed from the road below.",
+      "tip": "The climb is genuinely strenuous in heat. Go early morning and carry water."
+    },
+    {
+      "name": "Reed Flute Cave",
+      "image": {
+        "file": "File:Reed Flute Cave 89017-Guilin (44934927312).jpg",
+        "alt": "Colourfully lit stalactites and rock formations inside Reed Flute Cave"
+      },
+      "text": "A limestone cave in Guilin itself, its chambers lit in coloured light to show off stalactites, stalagmites and rock formations with names describing their fanciful shapes, a popular but genuinely impressive underground detour.",
+      "tip": "Combine with a Guilin city morning before boarding the Li River cruise, since it sits close to the pier."
+    },
+    {
+      "name": "Xingping Ancient Town",
+      "text": "A small riverside village partway down the Li River, its old street and the view from nearby hills onto the river bend is the exact scene printed on the twenty-yuan note.",
+      "tip": "Many cruises stop here; if yours does not, it is reachable independently and worth the detour for photographers."
+    },
+    {
+      "name": "West Street, Yangshuo",
+      "image": {
+        "file": "File:Yangshuo-Weststrasse-56-2012-gje.jpg",
+        "alt": "The shops and restaurants lining Yangshuo's West Street"
+      },
+      "text": "The town's main pedestrian strip, a mix of genuinely old buildings and modern bars and shops, busy and touristy but still the natural evening gathering point after a day in the countryside.",
+      "tip": "Busiest after dark. The side streets just off it are quieter for dinner."
+    }
+  ],
+  "thingsToDoIntro": "Guilin and Yangshuo work best with one day given to the river cruise itself and at least one full day given to Yangshuo's countryside at a bicycle's pace.",
+  "thingsToDo": [
+    {
+      "title": "Cycle the Yulong River valley",
+      "text": "Rent a bike in Yangshuo and ride out through rice paddies, past water buffalo and small villages, with karst peaks rising on every side — the single best way to experience the landscape at close range.",
+      "tip": "A loop of several hours is comfortable for most fitness levels. Stop often; the point is the scenery, not the distance."
+    },
+    {
+      "title": "Watch cormorant fishing at dusk",
+      "image": {
+        "file": "File:Cormorant Fisherman on the Li River.jpg",
+        "alt": "A fisherman with trained cormorants on a bamboo raft on the Li River"
+      },
+      "text": "A traditional fishing method using trained cormorants from bamboo rafts, now largely performed for visitors rather than practised commercially, but still a striking sight against the karst silhouettes at sunset.",
+      "tip": "Ask locally or through your accommodation — timing and location vary by season and demand."
+    },
+    {
+      "title": "Take a bamboo raft down the Yulong River",
+      "image": {
+        "file": "File:Yulong River Bamboo raft boatmen - panoramio.jpg",
+        "alt": "A boatman poling a bamboo raft down the Yulong River"
+      },
+      "text": "A gentler, more low-key alternative to cycling — a raft poled slowly downriver past the same rice-paddy and karst scenery, including a small rapids section that adds a moment of excitement.",
+      "tip": "Agree the price and duration before boarding. Rafts run from several points along the river."
+    },
+    {
+      "title": "Rock climb the limestone cliffs",
+      "text": "Yangshuo is one of Asia's best-known rock climbing destinations, with hundreds of bolted limestone routes for every level within a short ride of town.",
+      "tip": "Several local operators rent gear and offer beginner lessons if you have never climbed before."
+    },
+    {
+      "title": "Explore Guilin's other caves and hills",
+      "image": {
+        "file": "File:Xiangshan Scenic Area 89468-Guilin (31130832628).jpg",
+        "alt": "Elephant Trunk Hill, its arch dipping into the river like a trunk"
+      },
+      "text": "Beyond Reed Flute Cave, Elephant Trunk Hill and Seven Star Park offer further, less crowded karst scenery within Guilin city itself, useful if you have extra time before or after the river cruise.",
+      "tip": "Elephant Trunk Hill is best viewed from across the river, especially at sunrise or with a full moon behind the arch."
+    },
+    {
+      "title": "Watch the Impression Sanjie Liu light show",
+      "text": "An outdoor performance staged directly on the Li River at night, using the karst peaks themselves as a backdrop, choreographed by the director of the Beijing Olympics opening ceremony.",
+      "tip": "Check it is running before travelling — the show is seasonal and occasionally paused."
+    }
+  ],
+  "foodIntro": "Guangxi's food is built around the region's rivers and rice — sour, savoury and distinctly different from the food of northern or eastern China.",
+  "foods": [
+    {
+      "name": "Beer fish (pijiu yu)",
+      "image": {
+        "file": "File:Pijiu Yu (Beer fish) (253141965).jpg",
+        "alt": "A wok of beer fish braised with tomatoes, chillies and green onions"
+      },
+      "text": "Yangshuo's signature dish: local river fish braised with beer, tomatoes, chillies and green onions in a wok, sweet, savoury and mildly spiced — found on nearly every menu in town for good reason.",
+      "whereToTry": "Any Yangshuo restaurant advertising it, ideally one filled with locals rather than only tour groups."
+    },
+    {
+      "name": "Guilin rice noodles (mifen)",
+      "image": {
+        "file": "File:Guilin mifan.jpg",
+        "alt": "A bowl of Guilin rice noodles topped with peanuts and pickled vegetables"
+      },
+      "text": "A breakfast and any-time staple across the region: rice noodles in a savoury broth or dry-tossed, topped with peanuts, pickled vegetables and a choice of meats — cheap, fast and genuinely addictive.",
+      "whereToTry": "Small local shops in Guilin rather than tourist-facing restaurants, where it is often better and always cheaper."
+    },
+    {
+      "name": "River snails",
+      "text": "Stir-fried or simmered in a spiced broth, a Guangxi speciality eaten by sucking the meat out of the shell — an acquired technique as much as an acquired taste, and genuinely popular locally.",
+      "whereToTry": "Street stalls and local restaurants in Guilin and Yangshuo, especially in the evening."
+    },
+    {
+      "name": "Stuffed river snails and taro",
+      "text": "A regional specialty pairing the same river snails with taro, cooked together in a savoury broth — heartier and less confronting for first-timers than the plain shell version.",
+      "whereToTry": "Local Guangxi restaurants, often listed alongside the plain river snail dish."
+    },
+    {
+      "name": "Osmanthus-flavoured dishes and wine",
+      "image": {
+        "file": "File:Sweet Tea Olive Cake.jpg",
+        "alt": "A sweet cake flavoured with osmanthus (sweet tea olive) blossom"
+      },
+      "text": "Guilin is famous for its osmanthus trees, whose flowers flavour local sweets, cakes and a mildly sweet local wine — a genuinely distinctive regional touch found nowhere else on this list.",
+      "whereToTry": "Local bakeries and gift shops, especially around the autumn osmanthus blooming season."
+    },
+    {
+      "name": "Yangshuo's Western-leaning cafe food",
+      "text": "Decades of backpacker tourism have given Yangshuo an unusually good spread of Western-style cafes and bakeries alongside local food — a genuinely useful break if Chinese breakfast has worn thin.",
+      "whereToTry": "West Street and the surrounding lanes, especially for coffee and baked goods."
+    }
+  ],
+  "accommodation": {
+    "intro": "Most visitors split their stay between Guilin, mainly a transport hub, and Yangshuo, the more pleasant place to actually spend time.",
+    "areas": [
+      {
+        "name": "Yangshuo town centre",
+        "bestFor": "Most visitors",
+        "text": "Walking distance to West Street's restaurants and bars, with easy bicycle access to the surrounding countryside. The obvious base for most of a stay."
+      },
+      {
+        "name": "The Yulong River valley",
+        "bestFor": "Quiet and scenery",
+        "text": "Guesthouses scattered among the rice paddies outside town offer a genuinely quieter, more scenic stay, at the cost of needing transport into Yangshuo itself for evenings out."
+      },
+      {
+        "name": "Guilin city",
+        "bestFor": "Transport convenience",
+        "text": "Useful for one night either side of the cruise if your flight or train timing makes Yangshuo impractical, but with far less to see or do than Yangshuo itself."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥40–80 per night" },
+      { "label": "Mid-range guesthouse", "value": "¥200–450 per night" },
+      { "label": "Li River cruise", "value": "¥250–450 depending on boat class" },
+      { "label": "Bicycle rental", "value": "¥20–40 per day" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Guilin has its own airport and a high-speed rail connection, with Yangshuo an hour further by road, river or a separate high-speed rail station.",
+    "options": [
+      {
+        "mode": "Guilin Liangjiang Airport (KWL)",
+        "text": "Guilin's airport, with domestic connections to most major Chinese cities and a limited number of direct international routes.",
+        "detail": "Airport buses and taxis run into central Guilin in around 40 minutes; Yangshuo is a further hour by road."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Guilin North Station connects to the network, including [[xi-an|Xi'an]] and other cities, with a separate high-speed line reaching Yangshuo directly.",
+        "detail": "Flying into Guilin and taking the high-speed train directly to Yangshuo North is often the smoothest routing."
+      },
+      {
+        "mode": "By road from Guilin",
+        "text": "Buses and taxis cover the roughly 65 km road journey from Guilin to Yangshuo in about an hour to ninety minutes.",
+        "detail": "The scenic route roughly follows the Li River and is a pleasant alternative to taking the cruise both ways."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Yangshuo itself is compact and walkable, with a bicycle the standard way to reach the surrounding countryside.",
+    "options": [
+      {
+        "mode": "Bicycle",
+        "text": "The default way to see the Yulong River valley and surrounding villages, rented cheaply in town for a full day.",
+        "detail": "Electric bikes are widely available too, useful in summer heat or for less confident cyclists."
+      },
+      {
+        "mode": "Walking within Yangshuo",
+        "text": "The town centre and West Street are entirely walkable, with most restaurants and shops within a few minutes of any central guesthouse.",
+        "detail": "Traffic on the main roads can be heavy; the pedestrian streets are calmer."
+      },
+      {
+        "mode": "Didi and local taxis",
+        "text": "Useful for reaching Moon Hill, Xingping or other outlying sights not on a comfortable cycling route.",
+        "detail": "Agree fares with local drivers in advance where meters are not used."
+      },
+      {
+        "mode": "River cruise boats and bamboo rafts",
+        "text": "The standard way to travel the river itself, either the full Guilin–Yangshuo cruise or shorter rafting sections closer to town.",
+        "detail": "Book cruise tickets a day ahead in peak season; rafts can usually be arranged on the spot."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–June and September–November",
+    "summary": "The region has a humid subtropical climate with a distinct wet season — spring and autumn give the best balance of green scenery and manageable weather.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Lush and green, with the rice paddies at their most vivid, though this is also the wettest period and river levels can run high."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "Hot and humid, but the water levels are good for cruises and rafting, and the countryside is at its greenest — worth it if you can handle the heat."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "The most comfortable season: drier, clearer skies for photography, and the osmanthus trees bloom across Guilin in early autumn."
+      },
+      {
+        "season": "Winter (December–March)",
+        "rating": "shoulder",
+        "text": "Cool, grey and sometimes misty, with lower water levels that can occasionally affect the river cruise route, but noticeably quieter and cheaper."
+      }
+    ],
+    "avoid": "The first week of October, when the region sees a significant spike in domestic tourism during Golden Week."
+  },
+  "itinerary": {
+    "title": "Three days in Guilin and Yangshuo",
+    "intro": "One day for the river cruise itself, two for Yangshuo's countryside at a slower pace.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The Li River cruise",
+        "summary": "Guilin to Yangshuo by boat.",
+        "morning": "Board the Li River cruise in Guilin.",
+        "afternoon": "Four hours drifting past the karst peaks, arriving in Yangshuo.",
+        "evening": "Settle in and walk West Street for a first dinner."
+      },
+      {
+        "day": 2,
+        "title": "The Yulong River valley",
+        "summary": "A full day cycling the countryside.",
+        "morning": "Rent a bicycle and ride out into the Yulong valley.",
+        "afternoon": "Continue the loop, stopping at villages and viewpoints, or try a bamboo raft section instead.",
+        "evening": "Beer fish for dinner, then a quieter bar off West Street."
+      },
+      {
+        "day": 3,
+        "title": "Moon Hill and beyond",
+        "summary": "A karst climb, then a flexible afternoon.",
+        "morning": "Climb or photograph Moon Hill.",
+        "afternoon": "Rock climbing, a second cycling loop, or a return to Guilin for onward travel.",
+        "evening": "The Impression Sanjie Liu river show, if running, or a last dinner in Yangshuo."
+      }
+    ]
+  },
+  "tipsIntro": "Region-specific practicalities, mostly about weather, water levels and pacing.",
+  "tips": [
+    "Book the Li River cruise a morning departure — light and visibility are both better earlier in the day, and afternoon haze can dull the more distant peaks.",
+    "Check water levels before travelling in winter — low water occasionally shortens or reroutes the cruise, particularly December through February.",
+    "Cycling in summer heat is genuinely demanding — start early, carry more water than feels necessary, and take shade breaks.",
+    "West Street is aimed squarely at tourists; walk two streets over for better value food with the same quality.",
+    "Bargain lightly at Yangshuo's markets and with unlicensed raft or tour touts — prices are rarely fixed outside formal ticket offices.",
+    "The region's rural roads are not always well signed — download an offline map or keep your accommodation's address in Chinese characters handy."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Guilin and Yangshuo?",
+      "a": "Three to four. One day for the Li River cruise itself, at least one full day cycling Yangshuo's countryside, and ideally a third day for Moon Hill, rock climbing or a second cycling route. Two days is workable if time is tight, but rushes the region's main appeal, which is slowing down."
+    },
+    {
+      "q": "Is the Li River cruise worth it?",
+      "a": "Yes. Four hours is a real commitment, but the concentration of named, individually distinct karst peaks along this specific stretch of river is genuinely unmatched, and it delivers on the scenery seen on the twenty-yuan note and in countless paintings."
+    },
+    {
+      "q": "Should I stay in Guilin or Yangshuo?",
+      "a": "Yangshuo, for most of your stay. Guilin is mainly useful as a transport hub and for Reed Flute Cave; Yangshuo has the countryside, the cycling, the food and the atmosphere that make this region worth visiting. One night in Guilin either side is enough."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "April to June and September to November. Spring is lush and green but wetter; autumn is drier with better visibility and, in Guilin, blooming osmanthus trees. Summer is hot and humid but keeps river levels high; winter is quieter and cheaper but can affect the cruise route in low water."
+    },
+    {
+      "q": "Do I need to be fit to cycle the Yulong River valley?",
+      "a": "No — the terrain is mostly flat farm roads and the pace is entirely up to you. Electric bikes are widely available for anyone who would rather not pedal the whole distance, and most people cycle for a few hours rather than attempting the full valley in one go."
+    }
+  ],
+  "related": ["zhangjiajie", "chengdu", "cinque-terre"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
