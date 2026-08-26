@@ -1,0 +1,363 @@
+{
+  "slug": "lijiang-yunnan",
+  "name": "Lijiang & Yunnan",
+  "country": "china",
+  "region": "Yunnan",
+  "categories": ["historic", "nature-wildlife", "off-beaten-path"],
+  "tagline": "A UNESCO-listed old town of canals and cobbled lanes at the foot of the Himalayan foothills, and a province where more than two dozen ethnic minority cultures live in mountains most of China never sees.",
+  "highlight": "Lijiang's Old Town at dawn — canal-lined cobbled lanes and Naxi-style wooden houses, genuinely quiet before the day's crowds arrive.",
+  "shortDescription": "China's most ethnically diverse province, where a UNESCO-listed canal town, snow-capped mountains and terraced valleys sit far from the country's historic east-coast centres.",
+  "metaDescription": "A Lijiang and Yunnan travel guide: the Old Town, Jade Dragon Snow Mountain, Tiger Leaping Gorge and Dali, when to go, how to get around and a three-day itinerary.",
+  "suggestedStay": "4–5 days",
+  "nearestAirport": "Lijiang Sanyi (LJG)",
+  "knownFor": "Lijiang Old Town, Jade Dragon Snow Mountain, Naxi culture, Tiger Leaping Gorge",
+  "budget": "¥350–650 per day, mid-range",
+  "goodFor": "Culture, nature, hiking, slower travel",
+  "coords": { "lat": 26.8721, "lng": 100.2260 },
+  "image": {
+    "file": "File:Lijiang Yunnan Old-town-01.jpg",
+    "alt": "The canal-lined rooftops of Lijiang's Old Town seen from above"
+  },
+  "intro": [
+    "Yunnan sits at China's southwestern edge, bordering Myanmar, Laos and Vietnam, and it is home to more than two dozen officially recognised ethnic minority groups — a genuinely different demographic and cultural picture from the Han-majority cities of the east coast. The province's name translates roughly to 'south of the clouds', and its geography backs that up: a dramatic drop from Tibetan-adjacent peaks in the north to subtropical valleys in the south, all within a single province.",
+    "Lijiang's Old Town, a UNESCO World Heritage Site since 1997, is the region's best-known anchor — a maze of canals, cobbled lanes and Naxi-style wooden houses built on a network of waterways diverted from the nearby mountains, largely spared the wholesale demolition-and-rebuild that erased comparable old towns elsewhere in China. The Naxi people, one of Yunnan's most visible minority cultures, maintain their own pictographic writing system, Dongba, believed to be the world's last living pictographic script still in active use.",
+    "Beyond Lijiang, the wider region rewards more time: Jade Dragon Snow Mountain rising directly behind the old town, Tiger Leaping Gorge cutting one of the world's deepest river canyons a few hours north, and Dali's own old town and Erhai Lake offering a calmer, less-visited alternative nearby. This is a region built for slowing down rather than checking off sights."
+  ],
+  "whyVisit": {
+    "intro": "Lijiang and Yunnan's case is that it shows a genuinely different China — ethnically, geographically and culturally distinct from the historic east-coast centres most first trips focus on.",
+    "points": [
+      {
+        "title": "Lijiang's Old Town survived intact",
+        "text": "A UNESCO-listed canal town of wooden Naxi architecture, spared the demolition that erased comparable historic quarters in many other Chinese cities."
+      },
+      {
+        "title": "The ethnic diversity is genuine and visible",
+        "text": "Naxi, Bai, Yi and dozens of other minority cultures maintain distinct languages, architecture and traditions across the province, unlike the more culturally homogeneous east."
+      },
+      {
+        "title": "The landscape rivals anywhere in this guide",
+        "text": "Jade Dragon Snow Mountain and Tiger Leaping Gorge offer genuinely dramatic Himalayan-foothill scenery unlike anything in eastern or northern China."
+      },
+      {
+        "title": "It rewards slowing down",
+        "text": "Terraced rice paddies, quiet lakeside towns and mountain villages make this one of the few stops in this guide built around unhurried travel rather than sightseeing checklists."
+      },
+      {
+        "title": "It pairs well as a counterpoint to the historic-cities route",
+        "text": "A genuinely different landscape and culture from a Beijing-Xi'an-Shanghai itinerary, without requiring an entirely separate trip."
+      }
+    ]
+  },
+  "attractionsIntro": "Lijiang itself rewards a couple of unhurried days; the wider region's mountains and gorges deserve at least one more.",
+  "attractions": [
+    {
+      "name": "Lijiang Old Town",
+      "image": {
+        "file": "File:1 lijiang old town night.jpg",
+        "alt": "Lijiang Old Town's lanes and rooftops lit up at night"
+      },
+      "text": "A UNESCO-listed maze of canals, cobbled lanes and Naxi wooden architecture dating largely to the Song and Yuan dynasties, genuinely atmospheric at dawn before the day's visitors fill the lanes.",
+      "tip": "Stay inside the old town itself for at least one night to experience it after the day-trip crowds leave."
+    },
+    {
+      "name": "Jade Dragon Snow Mountain",
+      "image": {
+        "file": "File:Lijiang Yunnan China Jade-Dragon-Snow-Mountain-01.jpg",
+        "alt": "The snow-capped peaks of Jade Dragon Snow Mountain"
+      },
+      "text": "A snow-capped peak rising to over 5,500 metres directly behind Lijiang, reachable by cable car to a high viewing platform with views over glaciers and, on clear days, a genuinely alpine landscape.",
+      "tip": "Altitude affects some visitors even at the viewing platform — move slowly and carry water. Book cable car tickets in advance in peak season."
+    },
+    {
+      "name": "Black Dragon Pool Park",
+      "image": {
+        "file": "File:Lijiang Yunnan Black-Dragon-Pool-01.jpg",
+        "alt": "Black Dragon Pool with Jade Dragon Snow Mountain reflected behind it"
+      },
+      "text": "A park at the edge of Lijiang Old Town with a classical pond reflecting Jade Dragon Snow Mountain behind it on a clear day — one of the most photographed views in the region for good reason.",
+      "tip": "Early morning offers the calmest water and the best chance of a clear mountain reflection."
+    },
+    {
+      "name": "Tiger Leaping Gorge",
+      "image": {
+        "file": "File:Yunnan China Tiger-Leaping-Gorge-04.jpg",
+        "alt": "The steep walls of Tiger Leaping Gorge above the Jinsha River"
+      },
+      "text": "One of the deepest river canyons on earth, the Jinsha River roaring through a gap barely 25 metres wide at its narrowest point, with a multi-day hiking trail along the upper gorge for those with time.",
+      "tip": "The high trail is a genuine multi-day trek; a shorter lower-gorge walk from the main viewing platform suits a single day."
+    },
+    {
+      "name": "Dali Old Town and Erhai Lake",
+      "image": {
+        "file": "File:Erhai Lake Dali 04.JPG",
+        "alt": "The wide waters of Erhai Lake near Dali"
+      },
+      "text": "A second, calmer historic town a few hours from Lijiang, home to the Bai minority, with its own old city walls and the large Erhai Lake nearby, increasingly popular for cycling its shoreline.",
+      "tip": "Worth a separate overnight if time allows — Dali has its own distinct atmosphere rather than being simply a smaller Lijiang."
+    },
+    {
+      "name": "Shuhe Old Town",
+      "image": {
+        "file": "File:丽江束河古镇.JPG",
+        "alt": "The quieter canal lanes of Shuhe Old Town near Lijiang"
+      },
+      "text": "A smaller, quieter neighbour to Lijiang's Old Town, similarly built around canals and Naxi architecture but with noticeably fewer visitors, a genuine alternative base or half-day escape.",
+      "tip": "Walkable or a short taxi ride from Lijiang Old Town — worth an afternoon even if you are based in the main town."
+    }
+  ],
+  "thingsToDoIntro": "The region rewards splitting time between Lijiang's old town, the surrounding mountains, and at least a partial visit to the wider Yunnan landscape.",
+  "thingsToDo": [
+    {
+      "title": "Walk Lijiang's Old Town before sunrise",
+      "text": "The single best way to experience the canals and lanes without crowds — vendors setting up, mist over the water, and a genuine sense of the town before it becomes a day-trip destination.",
+      "tip": "Even staying just outside the old town, an early walk in is worth the alarm clock."
+    },
+    {
+      "title": "Take the Jade Dragon Snow Mountain cable car",
+      "text": "A ride up to over 4,500 metres for glacier and alpine views, among the highest cable car rides in China, with the option of a shorter, gentler section for those affected by altitude.",
+      "tip": "Layer up regardless of the season in Lijiang itself — temperatures at altitude drop sharply."
+    },
+    {
+      "title": "Hike part of Tiger Leaping Gorge",
+      "image": {
+        "file": "File:Yunnan China Tiger-Leaping-Gorge-06.jpg",
+        "alt": "A trail along the walls of Tiger Leaping Gorge"
+      },
+      "text": "Whether the full multi-day high trail or a shorter walk from the lower gorge viewpoint, the sheer scale of the canyon and the roar of the river below are genuinely dramatic even on a short visit.",
+      "tip": "The high trail requires proper preparation and ideally a local guide; the lower gorge path is manageable independently in a few hours."
+    },
+    {
+      "title": "Watch a Naxi orchestra performance",
+      "text": "Traditional Naxi music, using instruments and melodies said to preserve elements of Tang and Song dynasty court music lost elsewhere in China, performed by an orchestra whose members are mostly elderly tradition-bearers.",
+      "tip": "Performances run most evenings in Lijiang Old Town — check current listings and arrive early for a good seat."
+    },
+    {
+      "title": "Cycle around Erhai Lake near Dali",
+      "text": "A large lake near Dali Old Town with a paved path suitable for cycling much of its shoreline, passing fishing villages, temples and views back toward the Cangshan mountains.",
+      "tip": "A full loop is a serious full-day ride; most visitors cycle a shorter section rather than the entire shoreline."
+    },
+    {
+      "title": "Visit a village market in the terraced countryside",
+      "image": {
+        "file": "File:Lijiang Yunnan China-Naxi-people-carrying-baskets-01.jpg",
+        "alt": "Naxi villagers carrying baskets near Lijiang"
+      },
+      "text": "Rural markets across the region, particularly around smaller towns near Lijiang and Dali, showcase the province's ethnic diversity through dress, produce and dialect in a way city sightseeing does not.",
+      "tip": "Ask locally for market days, which typically rotate on a set schedule between nearby towns rather than running daily."
+    }
+  ],
+  "foodIntro": "Yunnan's food draws on its mountains, its ethnic diversity and its proximity to Southeast Asia, built around wild mushrooms, herbs and dairy rarely used elsewhere in China.",
+  "foods": [
+    {
+      "name": "Crossing-the-bridge noodles",
+      "image": {
+        "file": "File:Crossing the Bridge Rice Noodles at Jian Xin Yuan, Tangzixiang (20210321135908).jpg",
+        "alt": "Crossing-the-bridge noodles with raw ingredients stirred into hot broth"
+      },
+      "text": "A scalding broth sealed with a layer of oil, into which raw meat, egg and rice noodles are stirred tableside and cooked within seconds by the broth's residual heat — Yunnan's most famous dish.",
+      "whereToTry": "Kunming or Lijiang restaurants specialising in the dish, usually clearly signed."
+    },
+    {
+      "name": "Wild mushrooms",
+      "image": {
+        "file": "File:2010-08-23 Boletus sinicus 100594.jpg",
+        "alt": "A prized wild bolete mushroom foraged in Yunnan's forests"
+      },
+      "text": "Yunnan's forests produce an extraordinary range of wild mushrooms, foraged seasonally and cooked simply — stir-fried, in hotpot, or grilled — a genuine regional speciality unmatched elsewhere in China.",
+      "whereToTry": "Restaurants specialising in 'wild mushroom hotpot', most abundant and best from summer into early autumn."
+    },
+    {
+      "name": "Baba (Naxi flatbread)",
+      "text": "A Naxi speciality flatbread, savoury or sweet depending on the filling, pan-fried until crisp — a common Lijiang Old Town street snack and breakfast staple.",
+      "whereToTry": "Street stalls throughout Lijiang Old Town, sold fresh and warm."
+    },
+    {
+      "name": "Rubing and rushan (goat cheese)",
+      "text": "Fresh and dried goat's milk cheese from the Bai minority around Dali, a genuine rarity in a country where dairy plays little role in most regional cuisines, often grilled or fried until the surface crisps.",
+      "whereToTry": "Dali's old town and local markets, where it is sold both fresh and grilled on skewers."
+    },
+    {
+      "name": "Pu'er tea",
+      "image": {
+        "file": "File:Yunnan Sourcing \"Golden Pig\" Raw Pu-erh Tea Cake - opened - WikiTea 01.jpg",
+        "alt": "A pressed cake of aged Yunnan pu'er tea"
+      },
+      "text": "A fermented tea originating in southern Yunnan, aged and pressed into cakes, prized for developing complexity over years or decades — a genuine specialist interest as much as a drink.",
+      "whereToTry": "Teahouses and specialist tea shops across the region, particularly in Lijiang and Kunming."
+    },
+    {
+      "name": "Yunnan-style ham (Xuanwei ham)",
+      "text": "A cured, air-dried ham from Yunnan's Xuanwei region, similar in concept to Spanish or Italian cured hams, used to flavour soups and stir-fries as much as eaten on its own.",
+      "whereToTry": "Local restaurants across the region, often listed as an ingredient rather than a standalone dish."
+    }
+  ],
+  "accommodation": {
+    "intro": "Most visitors base themselves in or near Lijiang Old Town, with Dali as an optional second stop for those with more time.",
+    "areas": [
+      {
+        "name": "Inside Lijiang Old Town",
+        "bestFor": "Atmosphere",
+        "text": "Traditional Naxi courtyard guesthouses within the canal lanes themselves, walking distance to everything, and the only way to see the old town before the day-trip crowds arrive."
+      },
+      {
+        "name": "Shuhe Old Town",
+        "bestFor": "A quieter base",
+        "text": "A short taxi ride from Lijiang Old Town, with similar canal-and-Naxi-architecture atmosphere and noticeably fewer visitors."
+      },
+      {
+        "name": "Dali Old Town",
+        "bestFor": "A second, calmer stop",
+        "text": "Its own historic centre and easy access to Erhai Lake, worth a dedicated one or two nights if your itinerary allows it."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥40–80 per night" },
+      { "label": "Mid-range guesthouse", "value": "¥180–400 per night" },
+      { "label": "Jade Dragon Snow Mountain cable car and park entry", "value": "¥300–450" },
+      { "label": "Tiger Leaping Gorge entry", "value": "¥65" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Lijiang has its own airport with domestic connections, and the wider region is increasingly reachable by high-speed rail from Kunming, Yunnan's provincial capital.",
+    "options": [
+      {
+        "mode": "Lijiang Sanyi Airport (LJG)",
+        "text": "Domestic connections to Kunming, Chengdu and other major Chinese cities, about 25 km from Lijiang Old Town.",
+        "detail": "Most international visitors connect through Kunming or another major hub rather than flying directly."
+      },
+      {
+        "mode": "High-speed rail via Kunming",
+        "text": "Kunming connects to the wider national network, with a further high-speed line reaching Lijiang and Dali directly.",
+        "detail": "Check current routings, as this connection has expanded significantly in recent years."
+      },
+      {
+        "mode": "Domestic flights from Chengdu or Kunming",
+        "text": "A practical way to add Lijiang to a wider Sichuan or Yunnan-focused trip, cutting significant overland travel time.",
+        "detail": "Compare against rail options, which are improving but still slower for this specific route."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Lijiang Old Town itself is entirely pedestrian; the wider region needs a mix of buses, taxis and organised transport.",
+    "options": [
+      {
+        "mode": "Walking within Lijiang Old Town",
+        "text": "The old town is car-free and compact, entirely walkable, and genuinely best explored without any fixed plan.",
+        "detail": "The lanes are a genuine maze — download an offline map or accept getting pleasantly lost."
+      },
+      {
+        "mode": "Buses and shared vans to Jade Dragon Snow Mountain",
+        "text": "Regular transport connects Lijiang to the mountain's cable car base station, a straightforward half-day round trip.",
+        "detail": "Book cable car tickets in advance in peak season, as visitor numbers are capped daily."
+      },
+      {
+        "mode": "Buses to Tiger Leaping Gorge and Dali",
+        "text": "Regular bus services connect Lijiang to both, with Tiger Leaping Gorge a few hours away and Dali a similar distance in the opposite direction.",
+        "detail": "Buy tickets a day ahead in peak season from the main Lijiang bus station."
+      },
+      {
+        "mode": "Didi and local taxis",
+        "text": "Useful for reaching Shuhe Old Town, Black Dragon Pool Park's far entrance, or other short hops outside the old town's pedestrian zone.",
+        "detail": "Have your destination in Chinese characters ready for the driver."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "March–May and September–November",
+    "summary": "Yunnan's varied altitude gives it a genuinely mild climate for much of the year, but the shoulder seasons offer the clearest mountain views and driest trails.",
+    "seasons": [
+      {
+        "season": "Spring (March–May)",
+        "rating": "best",
+        "text": "Mild, increasingly green, with good visibility for Jade Dragon Snow Mountain and comfortable hiking conditions at Tiger Leaping Gorge."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "shoulder",
+        "text": "The wettest season, with afternoon rain common, but also when wild mushrooms are most abundant and the countryside is at its greenest."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "Widely considered the best season: clear skies, comfortable temperatures and excellent mountain visibility."
+      },
+      {
+        "season": "Winter (December–February)",
+        "rating": "shoulder",
+        "text": "Cold at altitude and around Jade Dragon Snow Mountain, but Lijiang itself stays relatively mild, and the crowds are thinner than any other season."
+      }
+    ],
+    "avoid": "The first week of October, when domestic tourism spikes and Lijiang Old Town's lanes become genuinely crowded."
+  },
+  "itinerary": {
+    "title": "Four days in Lijiang and Yunnan",
+    "intro": "Lijiang's old town, the mountain, the gorge and a taste of Dali — a pace that covers the region's variety without rushing any one piece.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Lijiang Old Town",
+        "summary": "Settle in and see the town at its quietest and busiest.",
+        "morning": "Arrive and walk the old town before the crowds build.",
+        "afternoon": "Black Dragon Pool Park, weather permitting for the mountain reflection.",
+        "evening": "A Naxi orchestra performance, then dinner in the lanes."
+      },
+      {
+        "day": 2,
+        "title": "Jade Dragon Snow Mountain",
+        "summary": "A full day at altitude.",
+        "morning": "Transfer to the mountain and take the cable car up.",
+        "afternoon": "The high viewing platform, moving slowly for the altitude.",
+        "evening": "Back to Lijiang for a quiet dinner."
+      },
+      {
+        "day": 3,
+        "title": "Tiger Leaping Gorge",
+        "summary": "A day trip to the gorge.",
+        "morning": "Bus to the gorge and the lower viewpoint.",
+        "afternoon": "Walk as much of the lower trail as time allows.",
+        "evening": "Back to Lijiang, or an overnight in the gorge for those hiking further."
+      },
+      {
+        "day": 4,
+        "title": "Shuhe or Dali",
+        "summary": "A quieter old town, then depart.",
+        "morning": "Shuhe Old Town for a calmer counterpoint to Lijiang.",
+        "afternoon": "Onward transport, or a further day trip to Dali if time allows.",
+        "evening": "Depart Lijiang."
+      }
+    ]
+  },
+  "tipsIntro": "Region-specific practicalities, mostly about altitude, transport timing and the sheer geographic spread of Yunnan.",
+  "tips": [
+    "Take altitude seriously at Jade Dragon Snow Mountain — move slowly, stay hydrated, and know that mild headache or breathlessness at the viewing platform is common and not usually dangerous.",
+    "Book Jade Dragon Snow Mountain cable car tickets in advance in peak season — daily visitor numbers are capped.",
+    "Stay at least one night inside Lijiang Old Town itself, even if your main hotel is elsewhere, to experience it before the day-trip crowds.",
+    "The full Tiger Leaping Gorge high trail is a genuine multi-day trek requiring preparation — do not attempt it as a casual add-on without proper planning.",
+    "Yunnan's distances are larger than they look on a map of one province — Kunming, Lijiang and Dali are each several hours apart, so plan transport time generously.",
+    "Market days in smaller towns rotate on a schedule rather than running daily — ask locally rather than assuming one will be running."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Lijiang and Yunnan?",
+      "a": "Four to five. Two days for Lijiang Old Town and Jade Dragon Snow Mountain, one for Tiger Leaping Gorge, and at least one more for Dali or Shuhe if you want a fuller picture of the region. Three days is workable if you skip Dali."
+    },
+    {
+      "q": "Is Jade Dragon Snow Mountain safe for visitors not used to altitude?",
+      "a": "Generally yes, with sensible precautions — move slowly, stay hydrated, and know that mild symptoms like headache or breathlessness are common at the viewing platform's altitude. Anyone with a serious heart or lung condition should consult a doctor before attempting it."
+    },
+    {
+      "q": "Do I need to hike the full Tiger Leaping Gorge trail?",
+      "a": "No. The full high trail is a genuine multi-day trek best done with preparation or a guide, but a shorter walk from the lower gorge viewpoint gives a real sense of the canyon's scale in just a few hours, and suits most visitors on a standard itinerary."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "March to May and September to November. Both offer mild temperatures and the clearest mountain visibility. Summer brings rain but also wild mushroom season; winter is cold at altitude but Lijiang itself stays comparatively mild and the crowds thin out considerably."
+    },
+    {
+      "q": "Should I visit Lijiang or Dali, or both?",
+      "a": "Both if time allows — they offer genuinely different atmospheres, Lijiang more elaborate and visited, Dali calmer with the added draw of Erhai Lake. If forced to choose one, Lijiang has the stronger single attraction in its Old Town and proximity to Jade Dragon Snow Mountain."
+    }
+  ],
+  "related": ["guilin-yangshuo", "chengdu", "zhangjiajie"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
