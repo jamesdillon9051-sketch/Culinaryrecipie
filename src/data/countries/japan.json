@@ -1,0 +1,391 @@
+{
+  "slug": "japan",
+  "name": "Japan",
+  "continent": "East Asia",
+  "countryCode": "JP",
+  "tagline": "A country that runs ultra-modern rail and neon-lit cities alongside centuries-old temples, imperial gardens and mountain villages, often within the same afternoon's travel.",
+  "cardDescription": "Tokyo's density and Kyoto's temples, Hiroshima's history and Hokkaido's wilderness, bullet trains that make all of it genuinely easy to combine into one trip.",
+  "metaDescription": "A complete Japan travel guide: the 10 best places to visit, the JR Pass and trains, food, costs, etiquette and a two-week itinerary.",
+  "image": {
+    "file": "",
+    "alt": "Mount Fuji rising above a traditional pagoda in autumn"
+  },
+  "destinations": [
+    "tokyo",
+    "kyoto",
+    "osaka-nara",
+    "hiroshima-miyajima",
+    "mount-fuji-hakone",
+    "hokkaido",
+    "okinawa",
+    "takayama-shirakawa-go",
+    "kanazawa",
+    "nikko"
+  ],
+  "intro": [
+    "Japan holds two identities that most visitors expect to be in tension and instead find running smoothly side by side. Tokyo and Osaka offer some of the densest, most technologically advanced urban life anywhere on earth, while Kyoto's temples, Nikko's shrines and villages like Shirakawa-go preserve centuries of tradition with genuine, working continuity rather than as museum pieces alone.",
+    "The country's geography adds real range beyond the cities: Hokkaido's northern wilderness and snow, Okinawa's subtropical islands and coral reefs, and the Japanese Alps' mountain onsen towns all sit within the same nation as Tokyo's Shibuya crossing, connected by a rail network built specifically to make that range easy to cover.",
+    "The shinkansen bullet train system is the practical genius that makes an ambitious Japan itinerary genuinely workable — Tokyo to Kyoto in about two and a quarter hours, Osaka to Hiroshima in under two — alongside a culture of politeness, precision and hospitality (omotenashi) that consistently exceeds what first-time visitors expect, even having read about it in advance."
+  ],
+  "placesIntro": "Ordered roughly by how strongly we would recommend each for a first visit — though Hokkaido, Okinawa and the Japanese Alps reward a second trip just as much as a first.",
+  "thingsToDoIntro": "The experiences that recur across the country and that make a Japan trip feel like more than a checklist of cities.",
+  "thingsToDo": [
+    {
+      "title": "Ride the shinkansen, and consider a JR Pass",
+      "text": "Japan's bullet trains are genuinely fast, frequent and precise, and a Japan Rail Pass can offer real savings on a multi-city itinerary if bought before arrival.",
+      "tip": "Run the numbers on your specific route before buying a JR Pass — for a shorter or more Tokyo-focused trip, individual tickets sometimes work out cheaper."
+    },
+    {
+      "title": "Soak in an onsen, properly",
+      "text": "Japan's volcanic hot springs culture runs from simple neighbourhood bathhouses to elaborate ryokan inn baths, a genuine and deeply relaxing national institution.",
+      "tip": "Wash thoroughly at the seated shower stations before entering the shared bath — this is a firm rule, not a suggestion."
+    },
+    {
+      "title": "Eat at a standing ramen counter or conveyor-belt sushi bar",
+      "text": "Some of Japan's best food comes from unpretentious counter restaurants, ordered by ticket machine and eaten quickly among locals rather than lingered over.",
+      "tip": "A ticket-machine menu with photos and an 'English' button makes most counter restaurants genuinely approachable without any Japanese."
+    },
+    {
+      "title": "Visit a shrine or temple properly, not just for photos",
+      "text": "Learning the basic purification and prayer steps at a Shinto shrine's entrance and a Buddhist temple's incense burner adds real depth to what can otherwise become a checklist of photo stops.",
+      "tip": "Bow once before passing through a shrine's torii gate, and try to walk along its sides rather than straight up the centre, traditionally reserved for the gods."
+    },
+    {
+      "title": "See a cherry blossom or autumn foliage season, if timing allows",
+      "text": "Sakura in spring and koyo autumn colours turn parks and mountainsides across the country into genuine national events, worth planning a trip's exact dates around.",
+      "tip": "Blossom forecasts shift year to year — check current-year predictions a few weeks out rather than relying on a fixed calendar date."
+    },
+    {
+      "title": "Take a day trip into the mountains or a smaller town",
+      "text": "Nikko, Takayama, Kanazawa and countless smaller stops reward leaving the Tokyo-Kyoto-Osaka corridor, offering a genuinely quieter, more traditional side of the country.",
+      "tip": "Coin lockers at major stations make a mountain day trip easy without hauling luggage along for the ride."
+    }
+  ],
+  "foodIntro": "Japanese food's global reputation undersells its actual range. Regional specialities, an extraordinary convenience-store baseline and a genuinely serious food culture at every price point make the case on their own.",
+  "foods": [
+    {
+      "name": "Sushi and sashimi",
+      "text": "From an elaborate omakase counter to an affordable conveyor-belt chain, Japan's sushi culture spans every budget while maintaining a genuinely serious standard of freshness.",
+      "whereToTry": "Tokyo's Toyosu Market area for the highest-end experience, conveyor-belt chains nationwide for an excellent everyday version."
+    },
+    {
+      "name": "Ramen, regionally",
+      "text": "Tonkotsu in Kyushu, miso in Hokkaido, shoyu in Tokyo — ramen varies genuinely by region, each with fiercely defended local styles and broths.",
+      "whereToTry": "Standing ramen counters everywhere, with regional specialities best tried in their home region."
+    },
+    {
+      "name": "Okonomiyaki and takoyaki",
+      "text": "A savoury grilled pancake and octopus-filled batter balls, both genuine Osaka specialities cooked fresh at streetside stalls and casual restaurants.",
+      "whereToTry": "Osaka's Dotonbori district, the genuine home of both dishes."
+    },
+    {
+      "name": "Kaiseki",
+      "text": "A multi-course traditional meal built around seasonal ingredients and careful presentation, Japan's most formal and genuinely artful dining tradition.",
+      "whereToTry": "Kyoto's traditional ryokan inns and dedicated kaiseki restaurants, the dish's historic home."
+    },
+    {
+      "name": "Wagyu and regional beef",
+      "text": "Japan's beef culture goes well beyond the internationally famous Kobe name, with genuinely distinct regional wagyu traditions across the country.",
+      "whereToTry": "Dedicated yakiniku and steak restaurants, particularly in Kobe, Hida-Takayama and Omi regions."
+    },
+    {
+      "name": "Convenience store food",
+      "text": "Japan's konbini culture is genuinely excellent, not a last resort — onigiri, sandwiches and hot food from 7-Eleven, Lawson or FamilyMart hold up as legitimately good, cheap meals.",
+      "whereToTry": "Any convenience store nationwide, open 24 hours in most cities."
+    },
+    {
+      "name": "Matcha and wagashi sweets",
+      "text": "Whisked green tea alongside delicate seasonal wagashi confections, a genuine tea-ceremony tradition that has also become an everyday café culture nationwide.",
+      "whereToTry": "Kyoto's traditional tea houses especially, alongside dedicated matcha cafés in every major city."
+    }
+  ],
+  "practicalIntro": "The essentials, current for 2026. Japan is exceptionally well organised to travel in, with cash culture and the rail booking system the two practicalities that most often catch first-time visitors out.",
+  "practical": {
+    "capital": "Tokyo",
+    "language": "Japanese nationally, with English signage common on transport and in major cities but genuinely limited spoken English away from tourist-facing businesses.",
+    "currency": "Japanese yen (¥, JPY)",
+    "money": "Japan remains more cash-reliant than its technological reputation suggests, though card and contactless payment coverage has expanded significantly. Carry cash as a backup, especially outside major cities.",
+    "visa": "Visa-free entry for up to 90 days for many nationalities including the US, Canada, Australia and UK, under short-stay tourism arrangements.",
+    "plugs": "Type A and B (the same two-flat-pin plug as North America), 100 V, 50/60 Hz — US devices generally work, others need a plug adaptor.",
+    "emergency": "110 for police, 119 for fire and ambulance, nationwide.",
+    "tipping": "Not customary and can cause genuine confusion if offered — good service is the expected standard, already reflected in the price rather than rewarded separately.",
+    "safety": "Exceptionally safe, among the safest countries in the world for visitors, with very low rates of violent crime and theft even late at night in major cities.",
+    "connectivity": "Excellent 4G and 5G nationwide. Pocket WiFi rental and tourist eSIMs are both widely available and worth arranging before or immediately on arrival.",
+    "timeZone": "Japan Standard Time (UTC+9), with no daylight saving time observed.",
+    "budget": [
+      { "label": "Backpacker", "value": "¥7,000–11,000 per day — hostels, convenience store and counter meals, local trains" },
+      { "label": "Mid-range", "value": "¥15,000–25,000 per day — three-star hotels, restaurant meals, shinkansen travel" },
+      { "label": "Comfortable", "value": "¥30,000–55,000 per day — good hotels or ryokan, kaiseki dining, first-class rail" },
+      { "label": "Tokyo supplement", "value": "Add roughly 15–20% to any budget band specifically for accommodation in Tokyo" }
+    ]
+  },
+  "bestTime": {
+    "headline": "March–May and October–November, for cherry blossoms or autumn colour",
+    "summary": "Japan's climate varies significantly by latitude, but spring and autumn offer the best balance of mild weather and the country's two signature natural seasons.",
+    "seasons": [
+      {
+        "season": "Spring (March–May)",
+        "rating": "best",
+        "text": "Cherry blossom season draws crowds for good reason, with mild temperatures across most of the country — book accommodation well ahead."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "shoulder",
+        "text": "Hot, humid and prone to a rainy season in June, though also festival season and the best time for Hokkaido's cooler, genuinely pleasant climate."
+      },
+      {
+        "season": "Autumn (October–November)",
+        "rating": "best",
+        "text": "Comfortable temperatures and spectacular koyo foliage, arguably even more photogenic than spring blossoms and slightly less crowded."
+      },
+      {
+        "season": "Winter (December–February)",
+        "rating": "good",
+        "text": "Cold but clear in most of the country, with genuinely excellent skiing in Hokkaido and the Japanese Alps, and comfortable indoor and onsen culture."
+      }
+    ],
+    "avoid": "Golden Week (late April into early May) and Obon (mid-August) without accommodation and transport booked well ahead, when domestic travel surges nationwide."
+  },
+  "tripDuration": {
+    "headline": "10–14 days for a first trip",
+    "summary": "Japan's shinkansen network makes an ambitious multi-region itinerary genuinely workable, though Hokkaido and Okinawa reward more time than a rushed loop allows.",
+    "options": [
+      {
+        "length": "5–6 days",
+        "text": "Tokyo alone fills a week without repeating itself, or Tokyo plus a single day trip to Nikko, Hakone or Kamakura.",
+        "detail": "A short Japan trip is better spent deeply in one or two cities than spread thin across the country."
+      },
+      {
+        "length": "8–10 days",
+        "text": "Tokyo, then west to Kyoto and Osaka by shinkansen — the classic first-trip Golden Route connecting the capital and the historic Kansai region.",
+        "detail": "Add Nara or Hiroshima as day trips for a genuinely well-rounded route without extending the core itinerary."
+      },
+      {
+        "length": "12–16 days",
+        "text": "The itinerary on this page: Tokyo, Nikko, Kyoto, Nara, Osaka and Hiroshima, covering the country's classic cultural spine at an unhurried pace.",
+        "detail": "Enough time to add the Japanese Alps or Mount Fuji and Hakone to the classic cities route."
+      },
+      {
+        "length": "3 weeks or more",
+        "text": "Add Hokkaido or Okinawa properly, or the Japanese Alps' Takayama and Kanazawa for their smaller towns and mountain scenery.",
+        "detail": "Hokkaido and Okinawa are where a second Japan trip belongs, and both reward a full week rather than a rushed add-on."
+      }
+    ]
+  },
+  "transport": {
+    "intro": "Japan's rail network connects nearly every destination in this guide, and understanding the shinkansen and JR Pass system is the single biggest lever on both cost and convenience.",
+    "options": [
+      {
+        "mode": "Shinkansen bullet trains",
+        "text": "[[tokyo|Tokyo]] to [[kyoto|Kyoto]] is about 2h15, [[osaka-nara|Osaka]] to [[hiroshima-miyajima|Hiroshima]] under 2 hours. A Japan Rail Pass, bought before arrival, can offer real savings on multi-city itineraries.",
+        "detail": "Reserved seats are free with most rail passes and worth booking a day or two ahead in peak season."
+      },
+      {
+        "mode": "Local and regional trains",
+        "text": "Dense, punctual urban and regional networks cover [[tokyo|Tokyo]], [[osaka-nara|Osaka]] and most cities in this guide extremely well, usually without needing a car at all.",
+        "detail": "IC cards like Suica or Pasmo cover nearly all local transport nationwide on one tap-in, tap-out card."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Genuinely useful for [[hokkaido|Hokkaido's]] wider distances and [[takayama-shirakawa-go|Shirakawa-go's]] rural villages, though unnecessary and often impractical in major cities.",
+        "detail": "An International Driving Permit is required, and Japan drives on the left."
+      },
+      {
+        "mode": "Domestic flights",
+        "text": "The practical way to reach [[hokkaido|Hokkaido]] and [[okinawa|Okinawa]] quickly from Tokyo or Osaka, both a considerable shinkansen or ferry journey otherwise.",
+        "detail": "Budget carriers like Peach and Jetstar Japan offer genuinely low fares booked a little ahead."
+      },
+      {
+        "mode": "Ferries",
+        "text": "To [[hiroshima-miyajima|Miyajima]] island and other coastal destinations, alongside longer routes connecting Okinawa's islands to the mainland.",
+        "detail": "Short island ferries run frequently and rarely need advance booking outside peak holiday periods."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Two weeks in Japan",
+    "intro": "Tokyo and Nikko first, then Kyoto, Nara, Osaka and Hiroshima. Covers six of the ten destinations in this guide entirely by rail.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive in Tokyo",
+        "morning": "Land and take the train or airport limousine bus into the city.",
+        "afternoon": "A first walk around Shinjuku or Shibuya.",
+        "evening": "Dinner at a standing ramen counter or izakaya."
+      },
+      {
+        "day": 2,
+        "title": "Central Tokyo",
+        "morning": "Senso-ji temple in Asakusa.",
+        "afternoon": "The Imperial Palace grounds and Ginza.",
+        "evening": "Shibuya crossing at night."
+      },
+      {
+        "day": 3,
+        "title": "Tokyo's neighbourhoods",
+        "morning": "Harajuku and Meiji Shrine.",
+        "afternoon": "Akihabara or a museum of your choice.",
+        "evening": "A conveyor-belt sushi dinner."
+      },
+      {
+        "day": 4,
+        "title": "Day trip to Nikko",
+        "morning": "Train to Nikko.",
+        "afternoon": "The Toshogu Shrine and surrounding forest.",
+        "evening": "Return to Tokyo."
+      },
+      {
+        "day": 5,
+        "title": "To Kyoto",
+        "morning": "Shinkansen to Kyoto, about two hours.",
+        "afternoon": "Fushimi Inari's torii gate trails.",
+        "evening": "Dinner in the Gion district."
+      },
+      {
+        "day": 6,
+        "title": "Kyoto's temples",
+        "morning": "Kinkaku-ji, the Golden Pavilion.",
+        "afternoon": "Arashiyama's bamboo grove.",
+        "evening": "A traditional kaiseki dinner."
+      },
+      {
+        "day": 7,
+        "title": "Kyoto's old streets",
+        "morning": "Kiyomizu-dera and the surrounding lanes.",
+        "afternoon": "Nishiki Market.",
+        "evening": "Free evening in Gion."
+      },
+      {
+        "day": 8,
+        "title": "Day trip to Nara",
+        "morning": "Train to Nara.",
+        "afternoon": "Todai-ji temple and the deer park.",
+        "evening": "Return to Kyoto."
+      },
+      {
+        "day": 9,
+        "title": "To Osaka",
+        "morning": "Train to Osaka.",
+        "afternoon": "Osaka Castle.",
+        "evening": "Dotonbori's street food and neon."
+      },
+      {
+        "day": 10,
+        "title": "Osaka's flavours",
+        "morning": "Kuromon Ichiba Market.",
+        "afternoon": "Free time or a day trip to Kobe.",
+        "evening": "Okonomiyaki and takoyaki dinner."
+      },
+      {
+        "day": 11,
+        "title": "To Hiroshima",
+        "morning": "Shinkansen to Hiroshima.",
+        "afternoon": "The Peace Memorial Park and Museum.",
+        "evening": "Hiroshima-style okonomiyaki."
+      },
+      {
+        "day": 12,
+        "title": "Miyajima island",
+        "morning": "Ferry to Miyajima.",
+        "afternoon": "The floating torii gate and Mount Misen.",
+        "evening": "Return to Hiroshima or on to Osaka."
+      },
+      {
+        "day": 13,
+        "title": "Free day",
+        "morning": "Shopping or a museum you missed.",
+        "afternoon": "Anything left on the list.",
+        "evening": "Pack and prepare for departure."
+      },
+      {
+        "day": 14,
+        "title": "Depart",
+        "morning": "Train back to Osaka or Tokyo for departure.",
+        "afternoon": "Transfer to the airport.",
+        "evening": "Fly home."
+      }
+    ]
+  },
+  "culture": {
+    "intro": "Japanese culture varies by region, but a handful of broadly shared norms — respect for order, indirectness, and careful attention to shared space — hold nationwide.",
+    "etiquette": [
+      {
+        "title": "Bowing is a genuine social reflex",
+        "text": "A slight nod or bow accompanies greetings, thanks and apologies constantly — visitors are not expected to master it, but a small nod back is always appreciated."
+      },
+      {
+        "title": "Shoes come off indoors, without exception",
+        "text": "Homes, many restaurants, ryokan inns and some temples require shoes removed at the entrance — watch for a raised floor or shoe rack as the signal."
+      },
+      {
+        "title": "Queuing is taken seriously",
+        "text": "Orderly lines for trains, elevators and shops are a genuine social expectation, and cutting in is noticed and disapproved of."
+      },
+      {
+        "title": "Public phone calls and loud talking on trains are avoided",
+        "text": "Trains in particular are kept genuinely quiet — phone calls are considered inconsiderate, and most passengers keep conversation low."
+      },
+      {
+        "title": "Tipping is not expected, and can cause confusion",
+        "text": "Good service is the built-in standard rather than something rewarded separately — leaving money on a table is more likely to prompt a server to chase you down than to be gratefully accepted."
+      },
+      {
+        "title": "Indirectness often carries real meaning",
+        "text": "A hesitant 'it's a little difficult' is frequently a polite no — direct refusal is avoided in favour of softer phrasing that visitors benefit from learning to read."
+      }
+    ],
+    "dos": [
+      "Remove your shoes wherever indicated, without being asked",
+      "Carry cash, since not all businesses accept cards, especially outside major cities",
+      "Stand on the correct side of escalators — this varies by city, so watch locals first",
+      "Queue in the marked positions for trains and buses",
+      "Learn a few basic Japanese phrases — the effort is genuinely appreciated",
+      "Separate your trash according to the local sorting system, even as a short-term visitor"
+    ],
+    "donts": [
+      "Don't eat or drink while walking through crowded streets — it is considered poor manners",
+      "Don't talk loudly on your phone on trains — step between cars if a call is unavoidable",
+      "Don't stick chopsticks upright in a bowl of rice — it echoes a funeral ritual",
+      "Don't tip — it is not customary and can cause genuine confusion",
+      "Don't assume every business takes cards — some smaller restaurants and shops are cash-only",
+      "Don't blow your nose loudly in public — step aside or use a restroom instead"
+    ]
+  },
+  "tipsIntro": "The things that most often go wrong on a Japan trip, in rough order of how much they cost people.",
+  "tips": [
+    "Run the numbers on a JR Pass against individual tickets for your specific route before buying — it isn't always the cheaper option.",
+    "Carry cash — Japan remains more cash-reliant than its reputation suggests, especially outside major cities.",
+    "Book accommodation and transport well ahead for cherry blossom season, Golden Week and Obon, when domestic travel surges.",
+    "Get an IC card (Suica or Pasmo) on arrival — it covers nearly all local transport and many convenience store purchases on one card.",
+    "Reserve popular restaurants and teamLab-style attractions online well ahead, especially in Tokyo.",
+    "Use station coin lockers to explore day-trip towns like Nikko or Kamakura without hauling luggage.",
+    "Pack for real regional weather variation — Hokkaido and Okinawa can differ sharply even in the same season.",
+    "Download an offline map and a translation app before arrival — connectivity is excellent, but preparation still helps in rural areas."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Japan?",
+      "a": "Ten to fourteen for a first trip. Eight to ten covers Tokyo, Kyoto and Osaka by shinkansen with reasonable pacing; twelve to sixteen lets you add Nikko and Hiroshima, which is the itinerary on this page. Five or six days is enough for Tokyo alone, and Tokyo alone genuinely justifies a trip."
+    },
+    {
+      "q": "What is the best time of year to visit Japan?",
+      "a": "March to May and October to November are the sweet spots — cherry blossoms in spring, comfortable temperatures and spectacular foliage in autumn. Summer is hot and humid with a June rainy season; winter is cold but clear, with genuinely excellent skiing in the north."
+    },
+    {
+      "q": "Do I need a car in Japan?",
+      "a": "Rarely. The rail network covers Tokyo, Kyoto, Osaka, Hiroshima and most of this guide extremely well. A car becomes genuinely useful for Hokkaido's wider distances and reaching Shirakawa-go's rural villages comfortably."
+    },
+    {
+      "q": "Is Japan expensive?",
+      "a": "Mid-range travel runs about ¥15,000–25,000 per person per day, with Tokyo accommodation adding a modest premium. Booking a JR Pass correctly for your route and eating at counter restaurants and convenience stores rather than tourist-focused ones are the biggest levers on cost."
+    },
+    {
+      "q": "Is Japan safe for tourists?",
+      "a": "Exceptionally so — among the safest countries in the world, with very low rates of violent crime and theft even late at night. Natural events like earthquakes and typhoons are the main practical risk, and both come with well-developed public warning systems."
+    },
+    {
+      "q": "Is it easy to get by with English in Japan?",
+      "a": "Increasingly yes on trains and in major city tourist areas, with clear English signage nationwide, though spoken English is genuinely limited away from tourist-facing businesses — a translation app and a few basic phrases go a long way."
+    }
+  ]
+}
