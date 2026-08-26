@@ -1,0 +1,363 @@
+{
+  "slug": "santorini",
+  "name": "Santorini",
+  "country": "greece",
+  "region": "Cyclades",
+  "categories": ["island", "romantic", "scenic-region"],
+  "tagline": "A volcanic island shaped by one of history's largest eruptions, its whitewashed villages perched along a caldera rim above water in a shade of blue that photographs never quite capture.",
+  "highlight": "Oia's blue-domed churches and cave houses at sunset, the single most photographed view in Greece, and genuinely deserving of the reputation.",
+  "shortDescription": "A volcanic caldera island, its whitewashed villages perched along the rim above brilliant blue water, Greece's most photographed island for real reason.",
+  "metaDescription": "A Santorini travel guide: Oia's sunset, Fira, Akrotiri's ruins, when to go and a practical three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Santorini (JTR), or ferry from Piraeus",
+  "knownFor": "Oia's sunset, the caldera, blue-domed churches",
+  "budget": "€110–200 per day, mid-range",
+  "goodFor": "Romance, sunsets, wine, photography",
+  "coords": { "lat": 36.3932, "lng": 25.4615 },
+  "image": {
+    "file": "File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg",
+    "alt": "Oia's whitewashed cave houses and blue-domed churches above Santorini's caldera"
+  },
+  "intro": [
+    "Santorini's dramatic crescent shape is the direct result of one of history's largest volcanic eruptions, around 1600 BC, which collapsed the island's centre into the sea and left the sheer caldera cliffs its villages now cling to. The eruption is widely believed to have contributed to the fall of the Minoan civilization and has even been proposed as an inspiration for the Atlantis legend.",
+    "The villages that developed along the caldera rim — Oia, Fira, Imerovigli and others — were built specifically to take advantage of that dramatic geology, their whitewashed cave houses and blue-domed churches genuinely as photogenic in person as in the millions of photos that have made Santorini one of the world's most recognisable islands.",
+    "That fame comes with real crowds, particularly around Oia's famous sunset viewpoints in peak season, but the island's wineries, archaeological sites and quieter villages away from the main caldera-edge path reward visitors willing to look beyond the single iconic view."
+  ],
+  "whyVisit": {
+    "intro": "Santorini's case is that no other Greek island pairs this dramatic a volcanic landscape with this much genuine architectural beauty built directly into it.",
+    "points": [
+      {
+        "title": "The caldera view is genuinely as good as the photos",
+        "text": "Rare among famous viewpoints, Oia and Fira's caldera views deliver on their reputation in person, not just in photographs."
+      },
+      {
+        "title": "The volcanic history is genuinely significant",
+        "text": "One of history's largest eruptions shaped both the island's dramatic geology and, quite possibly, the ancient Mediterranean world."
+      },
+      {
+        "title": "The wine is genuinely distinctive",
+        "text": "Volcanic soil and unique growing methods produce Assyrtiko and other wines unlike anywhere else in Greece."
+      },
+      {
+        "title": "Akrotiri offers genuine ancient depth",
+        "text": "A Bronze Age settlement preserved by volcanic ash, sometimes called Greece's Pompeii, adds real history beneath the postcard views."
+      },
+      {
+        "title": "It works well paired with other Cyclades islands",
+        "text": "Ferry and flight connections make combining Santorini with Mykonos or Crete genuinely straightforward."
+      }
+    ]
+  },
+  "attractionsIntro": "Santorini's essential sights, from its famous caldera-edge villages to its Bronze Age ruins and wineries.",
+  "attractions": [
+    {
+      "name": "Oia village",
+      "image": {
+        "file": "File:Oia Santorini Blue Domes.jpg",
+        "alt": "Blue-domed churches in Oia village"
+      },
+      "text": "The island's most photographed village, its blue-domed churches and whitewashed cave houses cascading down the caldera cliff toward the sea.",
+      "tip": "Walk the village's quieter back lanes away from the main sunset viewpoint for an equally beautiful, considerably less crowded experience."
+    },
+    {
+      "name": "Fira",
+      "image": {
+        "file": "File:Santorin (GR), Fira, Caldera -- 2017 -- 2615.jpg",
+        "alt": "Fira perched on Santorini's caldera rim"
+      },
+      "text": "Santorini's lively capital, perched directly on the caldera rim, with genuinely excellent views alongside the island's main concentration of shops and restaurants.",
+      "tip": "The cable car down to the old port offers a genuinely scenic alternative to the steep donkey path or stairs."
+    },
+    {
+      "name": "Akrotiri archaeological site",
+      "image": {
+        "file": "File:Akrotiri Archaeological Site in Santorini by Joy of Museums.jpg",
+        "alt": "The preserved Bronze Age ruins at Akrotiri"
+      },
+      "text": "A remarkably preserved Minoan Bronze Age settlement, buried and protected by the same volcanic eruption that shaped the island, sometimes called Greece's Pompeii.",
+      "tip": "A covered walkway lets you explore the site regardless of weather, genuinely well designed for visitor access."
+    },
+    {
+      "name": "Red Beach",
+      "image": {
+        "file": "File:Red Beach in Santorini.jpg",
+        "alt": "Red Beach beneath dramatic red volcanic cliffs"
+      },
+      "text": "A genuinely striking beach beneath dramatic red volcanic cliffs, one of the island's most distinctive stretches of coastline.",
+      "tip": "The short walk in from the car park involves loose volcanic rock — proper shoes make it considerably easier."
+    },
+    {
+      "name": "Ancient Thera",
+      "image": {
+        "file": "File:2012 - Ancient Thera - Santorini - Greece - 19.jpg",
+        "alt": "The clifftop ruins of Ancient Thera"
+      },
+      "text": "Ruins of an ancient Greek and later Byzantine city on a dramatic clifftop site, genuinely less visited than Akrotiri despite comparable historic significance.",
+      "tip": "The site is reached by a genuinely steep road or hiking trail from Kamari or Perissa — worth the effort for the views alone."
+    },
+    {
+      "name": "Caldera-edge wineries",
+      "image": {
+        "file": "File:View from the terrace of the Santo Wine cooperative.jpg",
+        "alt": "The caldera view from a Santorini winery terrace"
+      },
+      "text": "Santorini's volcanic soil and unique basket-trained vines produce genuinely distinctive wines, with several wineries offering caldera-view tastings.",
+      "tip": "Book a tasting at a winery with a west-facing terrace to combine the wine with a genuinely spectacular sunset."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the caldera villages, Santorini rewards its wine culture, its volcanic geology and its quieter corners.",
+  "thingsToDo": [
+    {
+      "title": "Watch the sunset in Oia",
+      "image": {
+        "file": "File:Blue Domed Church - Oia, Santorini, Greece - 20 July 2008.jpg",
+        "alt": "A blue-domed church in Oia, the classic sunset viewpoint"
+      },
+      "text": "The island's single most famous experience, genuinely spectacular when the weather cooperates, though also genuinely crowded at the main viewpoints.",
+      "tip": "Arrive at least 30 to 45 minutes ahead of sunset in peak season to secure a decent viewing spot."
+    },
+    {
+      "title": "Take a boat trip to the volcano and hot springs",
+      "image": {
+        "file": "File:Tour boats - Nea Kameni volcanic island - Santorini - Greece - 01.jpg",
+        "alt": "Tour boats at the volcanic island of Nea Kameni"
+      },
+      "text": "A genuinely worthwhile excursion to the still-active volcanic islet in the caldera's centre, often paired with a swim in naturally warmed sulphur springs.",
+      "tip": "Wear an old swimsuit for the hot springs — the sulphur-rich water genuinely can stain fabric."
+    },
+    {
+      "title": "Go wine tasting at a caldera winery",
+      "image": {
+        "file": "File:Santorini wines.jpg",
+        "alt": "A wine tasting flight at a Santorini winery"
+      },
+      "text": "Santorini's Assyrtiko and other volcanic-soil wines are genuinely distinctive, and a tasting flight offers real insight into the island's unusual basket-vine growing method.",
+      "tip": "Santo Wines and Venetsanos both combine tastings with genuinely spectacular caldera views."
+    },
+    {
+      "title": "Swim at a red or black sand beach",
+      "image": {
+        "file": "File:Kamari Black Sand Beach.jpg",
+        "alt": "Kamari's black sand beach on Santorini"
+      },
+      "text": "Santorini's volcanic geology produces genuinely distinctive beach colours, from Red Beach's dramatic cliffs to Perissa and Kamari's black sand stretches.",
+      "tip": "Black sand beaches genuinely heat up considerably in peak summer — sandals help for the walk to the water."
+    },
+    {
+      "title": "Walk the caldera-edge path from Fira to Oia",
+      "image": {
+        "file": "File:Imerovigli,Santorini,Hellas.JPG",
+        "alt": "The caldera-edge village of Imerovigli along the Fira-to-Oia walking path"
+      },
+      "text": "A genuinely rewarding coastal walk of several hours, passing through Imerovigli and Firostefani with continuous caldera views along the way.",
+      "tip": "Start early morning to avoid peak summer heat — the path offers genuinely little shade along most of its length."
+    },
+    {
+      "title": "Explore Pyrgos village",
+      "image": {
+        "file": "File:Village of Pyrgos.jpg",
+        "alt": "Pyrgos, a quiet hilltop village on Santorini"
+      },
+      "text": "A genuinely quieter hilltop village away from the main caldera crowds, its narrow medieval lanes offering real insight into pre-tourism Santorini.",
+      "tip": "The Byzantine kastro ruins above the village give a genuinely excellent 360-degree island view."
+    }
+  ],
+  "foodIntro": "Santorini's volcanic soil produces genuinely distinctive local ingredients found nowhere else in Greece.",
+  "foods": [
+    {
+      "name": "Santorini fava",
+      "text": "A smooth purée of the island's own yellow split peas, genuinely distinct from mainland fava and protected under EU geographical status.",
+      "whereToTry": "Traditional tavernas across the island, often served with capers and caramelised onion."
+    },
+    {
+      "name": "Tomatokeftedes",
+      "image": {
+        "file": "File:Tomato fritters of Santorini (Tomatokeftedes).jpg",
+        "alt": "Tomatokeftedes, Santorini's tomato fritters"
+      },
+      "text": "Tomato fritters made with the island's own small, intensely flavoured cherry tomatoes, a genuine Santorini specialty distinct from mainland versions.",
+      "whereToTry": "Traditional tavernas throughout the island, particularly good in Fira and Oia."
+    },
+    {
+      "name": "Assyrtiko wine",
+      "image": {
+        "file": "File:Asirtiko Athiri from Santorini.JPG",
+        "alt": "A bottle of Assyrtiko, Santorini's signature white wine"
+      },
+      "text": "Santorini's signature grape, grown in low basket-shaped vines that protect it from the island's strong winds, producing a genuinely distinctive mineral, citrus-driven white wine.",
+      "whereToTry": "Caldera-edge wineries across the island, several offering tastings alongside the view."
+    },
+    {
+      "name": "White aubergine",
+      "text": "A genuine Santorini variety, milder and less bitter than standard aubergine, featured in several island specialities.",
+      "whereToTry": "Traditional tavernas, particularly in dishes alongside the island's own tomatoes and fava."
+    },
+    {
+      "name": "Chloro cheese",
+      "text": "A soft, tangy local goat's and sheep's milk cheese, a genuine Santorini specialty distinct from more widely available Greek cheeses.",
+      "whereToTry": "Local producers and traditional tavernas across the island."
+    },
+    {
+      "name": "Vinsanto dessert wine",
+      "text": "A sweet, sun-dried dessert wine made from the island's own grapes, aged for years in oak, a genuine Santorini specialty with protected status.",
+      "whereToTry": "Caldera wineries offering tastings, often served alongside dessert or local cheese."
+    }
+  ],
+  "accommodation": {
+    "intro": "Santorini's caldera-edge towns command a genuine premium, with quieter, more affordable options further from the rim.",
+    "areas": [
+      {
+        "name": "Oia",
+        "bestFor": "The classic sunset view",
+        "text": "The most famous, most photographed base, at a genuine premium price, particularly for caldera-view rooms."
+      },
+      {
+        "name": "Fira and Firostefani",
+        "bestFor": "Central convenience and nightlife",
+        "text": "Central to the island's restaurants, shops and transport, with caldera views at a somewhat lower premium than Oia."
+      },
+      {
+        "name": "Kamari or Perissa",
+        "bestFor": "Value and beach access",
+        "text": "Away from the caldera rim but genuinely better value, with direct access to the island's black sand beaches."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "€30–50 per night" },
+      { "label": "Mid-range hotel", "value": "€110–220 per night" },
+      { "label": "Caldera-view room supplement", "value": "Often double a standard room's rate" },
+      { "label": "Wine tasting flight", "value": "€15–30" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Santorini is reached by short flight or ferry from Athens, both genuinely straightforward in season.",
+    "options": [
+      {
+        "mode": "Flight from Athens",
+        "text": "A short flight from [[athens|Athens]] reaches Santorini in about 45 minutes, considerably faster than the ferry alternative.",
+        "detail": "Book ahead in peak summer, when popular flight times can sell out or spike in price."
+      },
+      {
+        "mode": "Ferry from Piraeus",
+        "text": "High-speed ferries from [[athens|Athens]]' port reach Santorini in about 5 hours, with slower conventional ferries also available.",
+        "detail": "Book high-speed ferries ahead in July and August, when popular Cyclades routes can sell out."
+      },
+      {
+        "mode": "Ferry from Mykonos or Crete",
+        "text": "Direct ferries connect Santorini to [[mykonos|Mykonos]] in about 2–3 hours and to [[crete|Crete]] in around 2 hours, making island-hopping straightforward.",
+        "detail": "Routes and frequency vary by season — check current schedules before finalising an island-hopping itinerary."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Santorini's caldera towns are walkable individually, with buses and rental vehicles covering the wider island.",
+    "options": [
+      {
+        "mode": "Local buses",
+        "text": "A reasonably reliable network connects Fira to Oia, the airport and the island's main beaches.",
+        "detail": "Buses can be genuinely crowded in peak season — arrive at the station with extra time."
+      },
+      {
+        "mode": "Rental car or ATV",
+        "text": "Offers genuine flexibility for reaching wineries, Ancient Thera and quieter beaches at your own pace.",
+        "detail": "Parking in Oia and Fira is genuinely limited — expect to walk some distance from where you park."
+      },
+      {
+        "mode": "Walking, along the caldera edge",
+        "text": "The path connecting Fira, Firostefani, Imerovigli and on toward Oia is entirely walkable for those with the time and stamina.",
+        "detail": "The full Fira-to-Oia walk takes several hours — start early to avoid the midday heat."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September, for warm weather without peak crowds",
+    "summary": "Santorini's summer crowds and prices peak hard in July and August, and shoulder season offers genuinely comparable weather with real relief from both.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild, increasingly warm weather with wildflowers and noticeably thinner crowds than peak summer."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "Hot, dry and reliably sunny, but also genuinely the island's most crowded and expensive months by a wide margin."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Warm sea temperatures lingering from summer alongside comfortable air temperatures and thinning crowds."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Quiet and genuinely atmospheric, though many hotels, restaurants and the cable car reduce service or close entirely."
+      }
+    ],
+    "avoid": "Peak July and August without accommodation booked many months ahead — Santorini's limited rooms fill early and prices spike considerably."
+  },
+  "itinerary": {
+    "title": "Three days in Santorini",
+    "intro": "Fira and the caldera walk first, then Oia's sunset, then the island's history and wine.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Fira and the caldera path",
+        "summary": "Santorini's capital and its classic views.",
+        "morning": "Explore Fira's streets and viewpoints.",
+        "afternoon": "Walk the caldera-edge path toward Imerovigli.",
+        "evening": "Dinner in Fira with a caldera view."
+      },
+      {
+        "day": 2,
+        "title": "Oia and the sunset",
+        "summary": "The island's most famous village.",
+        "morning": "Explore Oia's lanes and blue-domed churches.",
+        "afternoon": "A boat trip to the volcano and hot springs.",
+        "evening": "Sunset in Oia, arriving well ahead of time."
+      },
+      {
+        "day": 3,
+        "title": "Akrotiri and wine country",
+        "summary": "Ancient history and the island's vineyards.",
+        "morning": "Akrotiri's Bronze Age ruins.",
+        "afternoon": "Red Beach and a caldera winery tasting.",
+        "evening": "A final dinner featuring Santorini fava and tomatokeftedes."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on timing, booking and etiquette that make a real difference to a Santorini trip.",
+  "tips": [
+    "Book accommodation many months ahead for summer — Santorini's limited rooms sell out and prices spike early.",
+    "Arrive at Oia's sunset viewpoints at least 30 to 45 minutes ahead of time in peak season.",
+    "Consider Fira or Imerovigli over Oia for a comparable caldera view at a somewhat lower price.",
+    "Wear proper shoes for Red Beach and Ancient Thera — both involve loose volcanic rock or steep paths.",
+    "Book wine tastings ahead at popular caldera-edge wineries, especially around sunset time.",
+    "Start the Fira-to-Oia caldera walk early morning to avoid peak summer heat, which the path offers little shade against.",
+    "Pack for genuine wind — Santorini's exposed caldera edge can be considerably breezier than the sheltered parts of the island."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Santorini?",
+      "a": "Three works well — enough for Fira, Oia's sunset, Akrotiri's ruins and at least one wine tasting without feeling rushed."
+    },
+    {
+      "q": "Is Santorini worth the hype?",
+      "a": "Genuinely, yes — the caldera views deliver on their reputation in person, though visiting outside peak July-August and exploring beyond the main viewpoints both meaningfully improve the experience."
+    },
+    {
+      "q": "Should I stay in Oia or Fira?",
+      "a": "Oia offers the single most famous view at a genuine premium price; Fira offers comparable views, more restaurants and nightlife, and generally better value."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer warm weather with meaningfully lower crowds and prices than July and August, which are genuinely the island's busiest, most expensive months."
+    },
+    {
+      "q": "Is Santorini expensive?",
+      "a": "Yes, genuinely more so than most of Greece — expect a real premium on accommodation, particularly for caldera-view rooms, though food and activities remain broadly comparable to the rest of the country."
+    }
+  ],
+  "related": ["mykonos", "crete", "athens"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
