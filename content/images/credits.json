@@ -506,6 +506,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:20181111 Machiya Street shops.jpg": {
+    "artist": "Balon Greyjoy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181111_Machiya_Street_shops.jpg",
+    "context": "Walk Miyajima's old town streets — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-6.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2019 - Nationalpark Jasmund - 03.jpg": {
     "artist": "Moahim",
     "license": "CC BY-SA 4.0",
@@ -527,6 +540,19 @@
     "context": "Wear a kimono for a day — Kyoto, Japan",
     "hero": "images/japan/kyoto--thing-1.webp",
     "card": "images/japan/kyoto--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:20190318 Miyajima deer.jpg": {
+    "artist": "Balon Greyjoy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190318_Miyajima_deer.jpg",
+    "context": "Spot Miyajima's deer — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-4.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4172,6 +4198,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Children's Peace Monument - Hiroshima - Japan - Sarah Stierch.jpg": {
+    "artist": "Sarah Stierch",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children%27s_Peace_Monument_-_Hiroshima_-_Japan_-_Sarah_Stierch.jpg",
+    "context": "Visit the Children's Peace Monument — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-5.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:China (Beijing, Forbidden City) View of Meridan gate from courtyard (25928319008).jpg": {
     "artist": "Güldem Üstün from Istanbul, TURKEY",
     "license": "CC BY 2.0",
@@ -7058,6 +7097,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Genbaku Dome04-r.JPG": {
+    "artist": "Oilstreet",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+    "context": "The Atomic Bomb Dome (Genbaku Dome) — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-2.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Germanisches-Nationalmuseum-Nuernberg-2012.jpg": {
     "artist": "Tuxyso",
     "license": "CC BY-SA 3.0",
@@ -7708,6 +7760,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Grilled oysters - Food in Miyajima - DSC02187.JPG": {
+    "artist": "Daderot",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_oysters_-_Food_in_Miyajima_-_DSC02187.JPG",
+    "context": "Hiroshima oysters — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-2.webp",
+    "card": "images/japan/hiroshima-miyajima--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Grotta della Poesia (1).jpg": {
     "artist": "Palickap",
     "license": "CC BY-SA 4.0",
@@ -8007,6 +8072,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hanahato.jpg": {
+    "artist": "ahomin",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hanahato.jpg",
+    "context": "Saijo sake — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-6.webp",
+    "card": "images/japan/hiroshima-miyajima--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hand-cut lamb slices for hotpot.jpg": {
     "artist": "ZhengZhou",
     "license": "CC BY-SA 4.0",
@@ -8301,6 +8379,32 @@
     "context": "Shave ice — Maui, Hawai'i, United States",
     "hero": "images/united-states/maui--food-4.webp",
     "card": "images/united-states/maui--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hiroshima Peace Memorial Museum 2008 01.JPG": {
+    "artist": "Taisyo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Museum_2008_01.JPG",
+    "context": "Hiroshima Peace Memorial Museum — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-3.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hiroshima Peace Memorial Park, 20240817 1032 4210.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Park,_20240817_1032_4210.jpg",
+    "context": "Peace Memorial Park — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-1.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8826,6 +8930,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Itsukushima Island, Mt Misen, Torii of Itsukushima Shrine and Ferry for Miyajima Route 001.jpg": {
+    "artist": "Naokijp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itsukushima_Island,_Mt_Misen,_Torii_of_Itsukushima_Shrine_and_Ferry_for_Miyajima_Route_001.jpg",
+    "context": "Take the ferry to Miyajima — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-1.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Itsukushima Shrine at high tide.jpg": {
+    "artist": "JohnnyOneSpeed",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_at_high_tide.jpg",
+    "context": "Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima.webp",
+    "card": "images/japan/hiroshima-miyajima-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 899,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Jambalaya (30750226186).jpg": {
     "artist": "pelican from Tokyo, Japan",
     "license": "CC BY-SA 2.0",
@@ -8864,6 +8994,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Japanese anagomeshi.jpg": {
+    "artist": "User:Clapon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_anagomeshi.jpg",
+    "context": "Anagomeshi (conger eel rice) — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-4.webp",
+    "card": "images/japan/hiroshima-miyajima--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 534
   },
   "File:Jarra de agua de Valencia.jpg": {
     "artist": "Frodlekis",
@@ -10425,6 +10568,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Main Gate of Hiroshima Castle, 20240817 1510 4303.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Gate_of_Hiroshima_Castle,_20240817_1510_4303.jpg",
+    "context": "Hiroshima Castle — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-6.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Making of schneeballs 03.jpg": {
     "artist": "Zorro2212",
     "license": "CC BY-SA 4.0",
@@ -10984,6 +11140,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Miyajima- Part III - Mount Misen - Miyajima512.jpg": {
+    "artist": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miyajima-_Part_III_-_Mount_Misen_-_Miyajima512.jpg",
+    "context": "Hike Mount Misen — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-2.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:MK58711 Rothenburg ob der Tauber.jpg": {
     "artist": "Martin Kraft",
     "license": "CC BY-SA 4.0",
@@ -11048,6 +11217,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 498
+  },
+  "File:Momiji manjū 001.jpg": {
+    "artist": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Momiji_manj%C5%AB_001.jpg",
+    "context": "Momiji manju — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-3.webp",
+    "card": "images/japan/hiroshima-miyajima--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Monaco 02.jpg": {
     "artist": "Spike",
@@ -11555,6 +11737,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:MY - View from Mount Misen on Miyajima, Japan, 2015.jpg": {
+    "artist": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MY_-_View_from_Mount_Misen_on_Miyajima,_Japan,_2015.jpg",
+    "context": "Mount Misen, Miyajima — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-5.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Naneli ayran - Dara.jpg": {
     "artist": "Hamdigumus",
@@ -12114,6 +12309,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 450
+  },
+  "File:Okonomiyaki of Hiroshima 02.jpg": {
+    "artist": "ノボホショコロトソ",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_of_Hiroshima_02.jpg",
+    "context": "Eat Hiroshima-style okonomiyaki — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--thing-3.webp",
+    "card": "images/japan/hiroshima-miyajima--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Old Bushmills Distillery - geograph.org.uk - 1748888.jpg": {
     "artist": "Dr Neil Clifton",
@@ -13618,6 +13826,19 @@
     "context": "Praiano and Atrani — The Amalfi Coast, Italy",
     "hero": "images/italy/amalfi-coast--attraction-6.webp",
     "card": "images/italy/amalfi-coast--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Prepared okonomiyaki in Hiroshima.jpg": {
+    "artist": "EllieBellie25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prepared_okonomiyaki_in_Hiroshima.jpg",
+    "context": "Hiroshima-style okonomiyaki — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-1.webp",
+    "card": "images/japan/hiroshima-miyajima--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -17042,6 +17263,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:The Torii gate of the Itsukushima shrine- it gets partially submerged during high tide (49494998183).jpg": {
+    "artist": "shankar s. from Poona (pune), India, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Torii_gate_of_the_Itsukushima_shrine-_it_gets_partially_submerged_during_high_tide_(49494998183).jpg",
+    "context": "Itsukushima Shrine's floating torii gate — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--attraction-4.webp",
+    "card": "images/japan/hiroshima-miyajima--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:The view of Derwentwater Lake from the Cat Bells Hike near Keswick.jpg": {
     "artist": "Stch2022",
     "license": "CC0",
@@ -17713,6 +17947,19 @@
     "context": "Xiaolongbao — Shanghai, China",
     "hero": "images/china/shanghai--food-1.webp",
     "card": "images/china/shanghai--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tsukemen (Dipping Ramen) - Goemon Ramen Bar 2023-06-06.jpg": {
+    "artist": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukemen_(Dipping_Ramen)_-_Goemon_Ramen_Bar_2023-06-06.jpg",
+    "context": "Hiroshima tsukemen — Hiroshima and Miyajima, Japan",
+    "hero": "images/japan/hiroshima-miyajima--food-5.webp",
+    "card": "images/japan/hiroshima-miyajima--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
