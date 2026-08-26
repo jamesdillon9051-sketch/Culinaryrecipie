@@ -636,6 +636,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:8 of 10 - Lake Titisee, Black Forest - GERMANY.jpg": {
+    "artist": "Ignaz Wiradi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:8_of_10_-_Lake_Titisee,_Black_Forest_-_GERMANY.jpg",
+    "context": "The Titisee — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-3.webp",
+    "card": "images/germany/black-forest--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:A Cornish cream tea.png": {
     "artist": "Soulv",
     "license": "CC BY-SA 4.0",
@@ -1637,6 +1650,45 @@
     "cardWidth": 800,
     "cardHeight": 525
   },
+  "File:Baden-Baden 10-2015 img52 Friedrichsbad.jpg": {
+    "artist": "A.Savin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baden-Baden_10-2015_img52_Friedrichsbad.jpg",
+    "context": "Baden-Baden's thermal baths — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-2.webp",
+    "card": "images/germany/black-forest--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Baden-Baden-Friedrichsbad innen-12-Grosse Badehalle-Kuppel-1990-gje.jpg": {
+    "artist": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baden-Baden-Friedrichsbad_innen-12-Grosse_Badehalle-Kuppel-1990-gje.jpg",
+    "context": "Take the Friedrichsbad bathing ritual in Baden-Baden — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-3.webp",
+    "card": "images/germany/black-forest--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
+  "File:Baden-Baden-Oberbeuern vom Panoramaweg-08-gje.jpg": {
+    "artist": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baden-Baden-Oberbeuern_vom_Panoramaweg-08-gje.jpg",
+    "context": "Hike a section of the Westweg or a shorter forest trail — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-1.webp",
+    "card": "images/germany/black-forest--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Baeckeoffe 01.JPG": {
     "artist": "Arnaud 25",
     "license": "CC BY-SA 4.0",
@@ -2339,6 +2391,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Black Forest gateau.jpg": {
+    "artist": "Mikelo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Forest_gateau.jpg",
+    "context": "Schwarzwälder Kirschtorte (Black Forest gateau) — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-1.webp",
+    "card": "images/germany/black-forest--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Blaenau Ffestiniog - steam train entering station - geograph.org.uk - 6010435.jpg": {
     "artist": "Colin Park",
     "license": "CC BY-SA 2.0",
@@ -2828,6 +2893,19 @@
     "context": "Italian beef — Chicago, United States",
     "hero": "images/united-states/chicago--food-1.webp",
     "card": "images/united-states/chicago--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Burg Hohenzollern.jpg": {
+    "artist": "Jörg Wendland",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Hohenzollern.jpg",
+    "context": "Hohenzollern Castle — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-5.webp",
+    "card": "images/germany/black-forest--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5004,6 +5082,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Deutsches Uhrenmuseum in Furtwangen - panoramio.jpg": {
+    "artist": "Michael Paraskevas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deutsches_Uhrenmuseum_in_Furtwangen_-_panoramio.jpg",
+    "context": "The German Clock Museum, Furtwangen — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-4.webp",
+    "card": "images/germany/black-forest--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Diamant noir Tuber melanosporum.jpg": {
     "artist": "sgillies",
     "license": "CC BY-SA 2.0",
@@ -6083,6 +6174,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Flädlessuppe.jpg": {
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fl%C3%A4dlessuppe.jpg",
+    "context": "Flädlesuppe — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-4.webp",
+    "card": "images/germany/black-forest--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Flamenco granada-7.jpg": {
     "artist": "Yair Haklai",
     "license": "CC BY-SA 3.0",
@@ -6377,6 +6481,19 @@
     "context": "Franzbrötchen — Hamburg, Germany",
     "hero": "images/germany/hamburg--food-3.webp",
     "card": "images/germany/hamburg--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Freiburg im Breisgau, Altes Rathaus -- 2025 -- 7953.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freiburg_im_Breisgau,_Altes_Rathaus_--_2025_--_7953.jpg",
+    "context": "Freiburg im Breisgau's Old Town — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-6.webp",
+    "card": "images/germany/black-forest--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7656,6 +7773,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hills Of The Black Forest - panoramio.jpg": {
+    "artist": "Dg-505",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hills_Of_The_Black_Forest_-_panoramio.jpg",
+    "context": "The Black Forest, Germany",
+    "hero": "images/germany/black-forest.webp",
+    "card": "images/germany/black-forest-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hilo Ice Shave.JPG": {
     "artist": "AlaskaDave",
     "license": "CC BY-SA 3.0",
@@ -8384,6 +8514,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Kirschwasser Bavaria.JPG": {
+    "artist": "Eric T Gunther",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirschwasser_Bavaria.JPG",
+    "context": "Kirschwasser (cherry brandy) — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-3.webp",
+    "card": "images/germany/black-forest--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Kırmızı Su (Red Spring), Karahayıt, Turkey, March 2024 06.jpg": {
     "artist": "Calistemon",
     "license": "CC BY-SA 4.0",
@@ -8418,6 +8561,19 @@
     "context": "Cycle the Rhine cycle path — Cologne & the Rhine Valley, Germany",
     "hero": "images/germany/cologne-rhine-valley--thing-3.webp",
     "card": "images/germany/cologne-rhine-valley--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kocher-Jagst-Radweg - panoramio (3).jpg": {
+    "artist": "qwesy qwesy",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kocher-Jagst-Radweg_-_panoramio_(3).jpg",
+    "context": "Cycle the Black Forest's valley routes — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-4.webp",
+    "card": "images/germany/black-forest--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -8470,6 +8626,19 @@
     "context": "Kouign-amann — Mont-Saint-Michel, France",
     "hero": "images/france/mont-saint-michel--food-5.webp",
     "card": "images/france/mont-saint-michel--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Kuckucksuhr schwarzwald.jpg": {
+    "artist": "Kmtextor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuckucksuhr_schwarzwald.jpg",
+    "context": "Visit a working cuckoo clock workshop — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-2.webp",
+    "card": "images/germany/black-forest--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -13727,6 +13896,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Schwarzwaelder Schinken-02.jpg": {
+    "artist": "Erich Ferdinand from germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwarzwaelder_Schinken-02.jpg",
+    "context": "Try a traditional Black Forest ham smokehouse — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-5.webp",
+    "card": "images/germany/black-forest--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Schwarzwälder Schinken 01.jpg": {
+    "artist": "Pohled 111",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwarzw%C3%A4lder_Schinken_01.jpg",
+    "context": "Schwarzwälder Schinken (Black Forest ham) — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-2.webp",
+    "card": "images/germany/black-forest--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg": {
     "artist": "N509FZ",
     "license": "CC BY-SA 4.0",
@@ -14216,6 +14411,19 @@
     "context": "Barbecue — United States",
     "hero": "images/united-states/_country--food-1.webp",
     "card": "images/united-states/_country--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Smoked trout, smokery Heiner's Forellenräucherei, Schüttersmühle.jpg": {
+    "artist": "Nemracc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_trout,_smokery_Heiner%27s_Forellenr%C3%A4ucherei,_Sch%C3%BCttersm%C3%BChle.jpg",
+    "context": "Black Forest trout — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-6.webp",
+    "card": "images/germany/black-forest--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -16054,6 +16262,19 @@
     "cardWidth": 800,
     "cardHeight": 315
   },
+  "File:Triberg waterfall Germany.jpg": {
+    "artist": "Mrunal Sompura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
+    "context": "Triberg Waterfalls — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--attraction-1.webp",
+    "card": "images/germany/black-forest--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Triennale Milano design museum.jpeg": {
     "artist": "Arianna Panarella",
     "license": "CC BY-SA 4.0",
@@ -16990,6 +17211,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Vogtsbauernhof Gutach.jpg": {
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vogtsbauernhof_Gutach.jpg",
+    "context": "Visit an open-air folk museum — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--thing-6.webp",
+    "card": "images/germany/black-forest--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Vouvray wine cave.jpg": {
     "artist": "Peter Dutton",
     "license": "CC BY 2.0",
@@ -17702,6 +17936,19 @@
     "card": "images/germany/cologne-rhine-valley--food-1-card.webp",
     "heroWidth": 1200,
     "heroHeight": 675,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Zwiebelkuchen 3.jpg": {
+    "artist": "Shisma",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zwiebelkuchen_3.jpg",
+    "context": "Zwiebelkuchen — The Black Forest, Germany",
+    "hero": "images/germany/black-forest--food-5.webp",
+    "card": "images/germany/black-forest--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
   },
