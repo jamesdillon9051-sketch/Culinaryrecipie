@@ -688,6 +688,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:2024-10-27 Takayama Jinya.jpg": {
+    "artist": "Alexkom000",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-27_Takayama_Jinya.jpg",
+    "context": "Takayama Jinya — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-2.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:20240608 Döner Kebab mit Efes Bier Alibaba Bistro Berlin anagoria.jpg": {
     "artist": "Anagoria",
     "license": "CC BY-SA 4.0",
@@ -3010,6 +3023,19 @@
     "context": "Berlin, Germany",
     "hero": "images/germany/berlin.webp",
     "card": "images/germany/berlin-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Brasserie de saké Takayama.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brasserie_de_sak%C3%A9_Takayama.jpg",
+    "context": "Takayama sake — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--food-5.webp",
+    "card": "images/japan/takayama-shirakawa-go--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -7123,6 +7149,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Gassho-zukuri farmhouse-01.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gassho-zukuri_farmhouse-01.jpg",
+    "context": "Shirakawa-go's gassho-zukuri farmhouses — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-3.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 495
+  },
+  "File:Gassho-zukuri farmhouse-02.jpg": {
+    "artist": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gassho-zukuri_farmhouse-02.jpg",
+    "context": "Stay overnight in a gassho-zukuri farmhouse — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-4.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Gate of Ankara Castle (1).jpg": {
     "artist": "Radosław Botev",
     "license": "CC BY 3.0 pl",
@@ -7864,6 +7916,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Grilling Hida Beef (Takayama Street Food) (35910429046).jpg": {
+    "artist": "Ankur P from Pune, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilling_Hida_Beef_(Takayama_Street_Food)_(35910429046).jpg",
+    "context": "Eat Hida beef at a local restaurant — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-5.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Grotta della Poesia (1).jpg": {
     "artist": "Palickap",
     "license": "CC BY-SA 4.0",
@@ -8409,6 +8474,71 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:Hida Beef Box Lunch.jpg": {
+    "artist": "Miyuki Meinaka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hida_Beef_Box_Lunch.jpg",
+    "context": "Hida beef (Hida-gyu) — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--food-1.webp",
+    "card": "images/japan/takayama-shirakawa-go--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hida beef with Hoba-miso.jpg": {
+    "artist": "Gofukuji",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hida_beef_with_Hoba-miso.jpg",
+    "context": "Hoba miso — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--food-3.webp",
+    "card": "images/japan/takayama-shirakawa-go--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hida Folk Village, May 2017.jpg": {
+    "artist": "Celuici",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hida_Folk_Village,_May_2017.jpg",
+    "context": "Hida Folk Village (Hida no Sato) — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-4.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hida Takayama old town streets (48519369602).jpg": {
+    "artist": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hida_Takayama_old_town_streets_(48519369602).jpg",
+    "context": "Walk Takayama's old town at your own pace — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-1.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hida-Takayama Miyagawa Morning Market (15668520238).jpg": {
+    "artist": "bryan... from Taipei, Taiwan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hida-Takayama_Miyagawa_Morning_Market_(15668520238).jpg",
+    "context": "Takayama's morning markets — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-5.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Hierapolis Archaeology Museum, Turkey (31595600163).jpg": {
     "artist": "Carole Raddato from FRANKFURT, Germany",
@@ -11438,6 +11568,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Mitarashi dango 001.jpg": {
+    "artist": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mitarashi_dango_001.jpg",
+    "context": "Mitarashi dango — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--food-4.webp",
+    "card": "images/japan/takayama-shirakawa-go--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:Mixed sausages at Bratwurst Glöckl.jpg": {
     "artist": "JIP",
@@ -14923,6 +15066,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Rice field in front of ぜん助 in Shirakawa, Gifu, Japan (219).jpg": {
+    "artist": "Savannah Rivka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_field_in_front_of_%E3%81%9C%E3%82%93%E5%8A%A9_in_Shirakawa,_Gifu,_Japan_(219).jpg",
+    "context": "Photograph Shirakawa-go's rice paddies in season — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-6.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Rifugio Nuvolau Dolomiti.JPG": {
     "artist": "gogolander",
     "license": "CC BY-SA 3.0",
@@ -16249,6 +16405,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Shirakawago village (12723707294).jpg": {
+    "artist": "Takashi Hososhima from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirakawago_village_(12723707294).jpg",
+    "context": "Shiroyama Viewpoint, Shirakawa-go — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-6.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Shiretoko Five Lakes 20140811-1.jpg": {
     "artist": "Suicasmo",
     "license": "CC BY-SA 4.0",
@@ -16491,6 +16660,19 @@
     "context": "Ride the TGV — France",
     "hero": "images/france/_country--thing-2.webp",
     "card": "images/france/_country--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Snow in Ogimachi Area, Shirakawa village, Gifu.JPG": {
+    "artist": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_in_Ogimachi_Area,_Shirakawa_village,_Gifu.JPG",
+    "context": "Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go.webp",
+    "card": "images/japan/takayama-shirakawa-go-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -16938,6 +17120,19 @@
     "cardWidth": 800,
     "cardHeight": 302
   },
+  "File:Sugidama (cedar ball) outside sake brewery, Takayama, May 2017.jpg": {
+    "artist": "Celuici",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sugidama_(cedar_ball)_outside_sake_brewery,_Takayama,_May_2017.jpg",
+    "context": "Tour a sake brewery — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-2.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Sullivans-Lighthouse.jpg": {
     "artist": "JonathanLamb",
     "license": "Public domain",
@@ -17219,6 +17414,45 @@
     "context": "Soak in an onsen with a Fuji view — Mount Fuji and Hakone, Japan",
     "hero": "images/japan/mount-fuji-hakone--thing-1.webp",
     "card": "images/japan/mount-fuji-hakone--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Takayama festival floats exhibition hall, Takayama, 2015.jpg": {
+    "artist": "大野 一将",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takayama_festival_floats_exhibition_hall,_Takayama,_2015.jpg",
+    "context": "See the Takayama Festival floats, or their museum — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--thing-3.webp",
+    "card": "images/japan/takayama-shirakawa-go--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Takayama Old Town (Sanmachi Suji) (35819349621).jpg": {
+    "artist": "Ankur P from Pune, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takayama_Old_Town_(Sanmachi_Suji)_(35819349621).jpg",
+    "context": "Takayama's Sanmachi Suji old town — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--attraction-1.webp",
+    "card": "images/japan/takayama-shirakawa-go--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Takayama ramen 001.jpg": {
+    "artist": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takayama_ramen_001.jpg",
+    "context": "Takayama ramen — Takayama and Shirakawa-go, Japan",
+    "hero": "images/japan/takayama-shirakawa-go--food-2.webp",
+    "card": "images/japan/takayama-shirakawa-go--food-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
