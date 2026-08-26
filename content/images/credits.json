@@ -1,4 +1,17 @@
 {
+  "File:-2019-11-19 Dressed Cromer crab, Garden Street, Cromer.JPG": {
+    "artist": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.\n\n\n\n This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.\nYou are free:\nto share – to copy, distribute and transmit the work\nto remix – to adapt the work\nUnder the following conditions:\nattribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nshare alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:-2019-11-19_Dressed_Cromer_crab,_Garden_Street,_Cromer.JPG",
+    "context": "Fresh seafood — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--food-3.webp",
+    "card": "images/united-kingdom/cornwall--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:-2021-05-02 Roast beef and Yorkshire pudding, Trimingham, Norfolk.JPG": {
     "artist": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.\n\n\n\n This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.\nYou are free:\nto share – to copy, distribute and transmit the work\nto remix – to adapt the work\nUnder the following conditions:\nattribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nshare alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue",
     "license": "CC BY-SA 4.0",
@@ -479,6 +492,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:A Cornish cream tea.png": {
+    "artist": "Soulv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Cornish_cream_tea.png",
+    "context": "Cornish cream tea — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--food-2.webp",
+    "card": "images/united-kingdom/cornwall--food-2-card.webp",
+    "heroWidth": 1366,
+    "heroHeight": 768,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:A Peak Tram arriving at the Peak Station (Hong Kong).jpg": {
     "artist": "Mk2010",
@@ -2165,6 +2191,19 @@
     "context": "Cross to Asia by ferry — Istanbul, Turkey",
     "hero": "images/turkey/istanbul--thing-1.webp",
     "card": "images/turkey/istanbul--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Botallack Crowns engine houses.jpg": {
+    "artist": "Nilfanion",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Botallack_Crowns_engine_houses.jpg",
+    "context": "Visit a working tin mine — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--thing-5.webp",
+    "card": "images/united-kingdom/cornwall--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -3951,6 +3990,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cornish ice cream.jpg": {
+    "artist": "Sarah Murray",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornish_ice_cream.jpg",
+    "context": "Cornish ice cream — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--food-4.webp",
+    "card": "images/united-kingdom/cornwall--food-4-card.webp",
+    "heroWidth": 1280,
+    "heroHeight": 720,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Cornish pasty.jpeg": {
     "artist": "David Johnson [1]",
     "license": "CC BY-SA 3.0",
@@ -4743,6 +4795,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Eden Project Biomes (9757315094).jpg": {
+    "artist": "Rob Young from United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eden_Project_Biomes_(9757315094).jpg",
+    "context": "The Eden Project — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-2.webp",
+    "card": "images/united-kingdom/cornwall--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Edinburgh Calton Hill.jpg": {
     "artist": "Saffron Blaze",
@@ -6199,6 +6264,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Granite cliffs at Land's End in Cornwall - geograph.org.uk - 7695015.jpg": {
+    "artist": "Roger  D Kidd",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_cliffs_at_Land%27s_End_in_Cornwall_-_geograph.org.uk_-_7695015.jpg",
+    "context": "Land's End — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-4.webp",
+    "card": "images/united-kingdom/cornwall--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Grape plantation in Manarola, Cinque Terre, Italy 2.jpg": {
     "artist": "Vald0506",
@@ -9060,6 +9138,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Mud Maid - Lost Gardens of Heligan - Cornwall, England - DSC02646.jpg": {
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mud_Maid_-_Lost_Gardens_of_Heligan_-_Cornwall,_England_-_DSC02646.jpg",
+    "context": "Visit the Lost Gardens of Heligan — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--thing-6.webp",
+    "card": "images/united-kingdom/cornwall--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Muir Woods 1 20150920.jpg": {
     "artist": "Niranjan Arminius",
     "license": "CC BY-SA 4.0",
@@ -9731,6 +9822,19 @@
     "context": "Pa amb tomàquet — Barcelona, Spain",
     "hero": "images/spain/barcelona--food-1.webp",
     "card": "images/spain/barcelona--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Padstow Harbour, Cornwall - geograph.org.uk - 2070456.jpg": {
+    "artist": "Colleen Robinson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padstow_Harbour,_Cornwall_-_geograph.org.uk_-_2070456.jpg",
+    "context": "Padstow — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-6.webp",
+    "card": "images/united-kingdom/cornwall--attraction-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -10693,6 +10797,19 @@
     "context": "Percebes — Santiago de Compostela & Galicia, Spain",
     "hero": "images/spain/santiago-galicia--food-2.webp",
     "card": "images/spain/santiago-galicia--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Polperro Harbour - geograph.org.uk - 3183964.jpg": {
+    "artist": "John Sparshatt",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polperro_Harbour_-_geograph.org.uk_-_3183964.jpg",
+    "context": "Explore a fishing harbour village — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--thing-4.webp",
+    "card": "images/united-kingdom/cornwall--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -12388,6 +12505,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sharps brewery full.jpg": {
+    "artist": "Worm That Turned",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sharps_brewery_full.jpg",
+    "context": "Cornish ale and cider — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--food-6.webp",
+    "card": "images/united-kingdom/cornwall--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:She-Crab Soup.jpg": {
     "artist": "Jo Anna Barber from Hillsborough, NC, USA",
     "license": "CC BY-SA 2.0",
@@ -12687,6 +12817,19 @@
     "cardWidth": 800,
     "cardHeight": 450
   },
+  "File:South West Coast Path on Carn Moyle Cliff (6834).jpg": {
+    "artist": "Nilfanion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_West_Coast_Path_on_Carn_Moyle_Cliff_(6834).jpg",
+    "context": "Walk a stretch of the South West Coast Path — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--thing-1.webp",
+    "card": "images/united-kingdom/cornwall--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
+  },
   "File:Spaghetti alla Carbonara (Madrid).JPG": {
     "artist": "Tamorlan",
     "license": "CC BY-SA 3.0",
@@ -12752,6 +12895,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:St Ives Habour July 2026 01.jpg": {
+    "artist": "ArildV",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Ives_Habour_July_2026_01.jpg",
+    "context": "Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall.webp",
+    "card": "images/united-kingdom/cornwall-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
+  "File:St Ives Habour July 2026 03.jpg": {
+    "artist": "ArildV",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Ives_Habour_July_2026_03.jpg",
+    "context": "St Ives — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-1.webp",
+    "card": "images/united-kingdom/cornwall--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:St Peter's Basilica façade.jpg": {
     "artist": "Modussiccandi",
     "license": "CC BY-SA 4.0",
@@ -12760,6 +12929,19 @@
     "context": "St Peter's Basilica — Rome, Italy",
     "hero": "images/italy/rome--attraction-5.webp",
     "card": "images/italy/rome--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:St. Michael's Mount, Cornwall.jpg": {
+    "artist": "Hugh Llewelyn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Michael%27s_Mount,_Cornwall.jpg",
+    "context": "St Michael's Mount — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-3.webp",
+    "card": "images/united-kingdom/cornwall--attraction-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -12777,6 +12959,19 @@
     "heroHeight": 720,
     "cardWidth": 800,
     "cardHeight": 360
+  },
+  "File:Stary gazy pie.jpg": {
+    "artist": "Kernow Skies",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stary_gazy_pie.jpg",
+    "context": "Stargazy pie — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--food-5.webp",
+    "card": "images/united-kingdom/cornwall--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Staten Island Ferry terminal.jpg": {
     "artist": "Daniel Schwen",
@@ -13048,6 +13243,19 @@
     "card": "images/spain/san-sebastian-basque--thing-4-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Surfing in Fistral Bay - geograph.org.uk - 2598038.jpg": {
+    "artist": "Steve Daniels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Fistral_Bay_-_geograph.org.uk_-_2598038.jpg",
+    "context": "Learn to surf — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--thing-2.webp",
+    "card": "images/united-kingdom/cornwall--thing-2-card.webp",
+    "heroWidth": 1500,
+    "heroHeight": 844,
     "cardWidth": 800,
     "cardHeight": 533
   },
@@ -13813,6 +14021,19 @@
     "context": "Take the funicular up Tibidabo — Barcelona, Spain",
     "hero": "images/spain/barcelona--thing-4.webp",
     "card": "images/spain/barcelona--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Tintagel Castle Footbridge by Hufton & Crow.jpg": {
+    "artist": "Hufton + Crow Photography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tintagel_Castle_Footbridge_by_Hufton_%26_Crow.jpg",
+    "context": "Tintagel Castle — Cornwall, United Kingdom",
+    "hero": "images/united-kingdom/cornwall--attraction-5.webp",
+    "card": "images/united-kingdom/cornwall--attraction-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

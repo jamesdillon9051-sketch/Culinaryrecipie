@@ -1,0 +1,391 @@
+{
+  "slug": "cornwall",
+  "name": "Cornwall",
+  "country": "united-kingdom",
+  "region": "South West England",
+  "categories": ["coastal", "scenic-region", "culture"],
+  "tagline": "England's far south-west corner: a rugged coastline of fishing harbours, surf beaches and clifftop paths, with its own language, flag and a claim to being a country apart.",
+  "highlight": "St Ives' turquoise-watered harbour and beaches, framed by whitewashed cottages and one of Britain's best small art scenes.",
+  "shortDescription": "A peninsula of dramatic coastline in England's far south-west, mixing fishing harbours, surf beaches, clifftop paths and a distinct Cornish identity.",
+  "metaDescription": "A Cornwall travel guide: St Ives, the Eden Project, the South West Coast Path, Cornish pasties, when to go and a practical multi-day itinerary.",
+  "suggestedStay": "4–6 days",
+  "nearestAirport": "Newquay Cornwall (NQY) or Exeter (EXT)",
+  "knownFor": "Coastal villages, surf beaches, the Eden Project, pasties",
+  "budget": "£85–150 per day, mid-range",
+  "goodFor": "Beaches, coastal walking, families, food",
+  "coords": { "lat": 50.4168, "lng": -4.7867 },
+  "image": {
+    "file": "File:St Ives Habour July 2026 01.jpg",
+    "alt": "St Ives harbour beach with the pier and town beyond"
+  },
+  "intro": [
+    "Cornwall occupies England's far south-western tip, a peninsula narrow enough that you're rarely more than half an hour from the sea, and shaped by that coastline more than almost anywhere else in Britain. Fishing has defined its economy and culture for centuries, tin and copper mining before that, and more recently tourism and a genuinely thriving food and arts scene.",
+    "The identity here runs deeper than scenery. Cornish is a recognised Celtic language with its own revival movement, the black-and-white St Piran's flag flies from houses and cars across the county, and many Cornish people consider Cornwall a distinct nation within the UK rather than simply another English county — worth knowing before referring to it as 'the English seaside'.",
+    "The coastline itself does the heavy lifting for visitors: the South West Coast Path runs its entire length, surf beaches line the north coast, sheltered fishing harbours dot the south, and the light — famously drawing artists to St Ives for over a century — has a genuinely different quality from the rest of England."
+  ],
+  "whyVisit": {
+    "intro": "Cornwall's case is that no other part of England combines this much dramatic coastline, distinct culture and genuinely excellent food in one accessible region.",
+    "points": [
+      {
+        "title": "The coastline is genuinely spectacular",
+        "text": "Cliffs, coves, surf beaches and fishing harbours change character constantly along a single coast path."
+      },
+      {
+        "title": "Cornish identity is real, not marketing",
+        "text": "A distinct language, flag and cultural history give Cornwall a character genuinely different from the rest of England."
+      },
+      {
+        "title": "The food scene is a genuine national leader",
+        "text": "From Rick Stein's Padstow to countless smaller producers, Cornwall punches well above its weight for British food."
+      },
+      {
+        "title": "St Ives' art history is real, not incidental",
+        "text": "The light that drew Turner, Hepworth and generations of artists here still supports a genuinely serious gallery scene, Tate St Ives included."
+      },
+      {
+        "title": "It rewards both activity and doing nothing",
+        "text": "Surfing, coastal walking and watersports sit alongside beach days and cream tea afternoons, suiting very different kinds of trip."
+      }
+    ]
+  },
+  "attractionsIntro": "Cornwall is large enough that these are best split across a north-coast and south-coast base rather than rushed as day trips from one town.",
+  "attractions": [
+    {
+      "name": "St Ives",
+      "image": {
+        "file": "File:St Ives Habour July 2026 03.jpg",
+        "alt": "St Ives harbour pier with its lighthouse at low tide"
+      },
+      "text": "A former fishing harbour turned art town, with turquoise-watered beaches, narrow cobbled streets and Tate St Ives overlooking Porthmeor Beach.",
+      "tip": "Park at the Lelant Saltings park-and-ride and take the scenic branch line train in — St Ives' own parking is genuinely difficult in summer."
+    },
+    {
+      "name": "The Eden Project",
+      "image": {
+        "file": "File:Eden Project Biomes (9757315094).jpg",
+        "alt": "The geodesic biomes of the Eden Project"
+      },
+      "text": "Two vast geodesic biomes built in a former china clay pit, recreating rainforest and Mediterranean climates, alongside extensive outdoor gardens.",
+      "tip": "Allow a full day — the site is considerably larger than it appears from photographs."
+    },
+    {
+      "name": "St Michael's Mount",
+      "image": {
+        "file": "File:St. Michael's Mount, Cornwall.jpg",
+        "alt": "The castle-topped tidal island of St Michael's Mount"
+      },
+      "text": "A tidal island crowned by a medieval castle, reachable on foot via a causeway at low tide or by boat when the tide is in.",
+      "tip": "Check tide times before visiting — the causeway is only walkable for a few hours around low tide."
+    },
+    {
+      "name": "Land's End",
+      "image": {
+        "file": "File:Granite cliffs at Land's End in Cornwall - geograph.org.uk - 7695015.jpg",
+        "alt": "The granite cliffs of Land's End meeting the Atlantic"
+      },
+      "text": "The dramatic granite cliffs marking England's most south-westerly point, with genuinely striking Atlantic views and a coast path in both directions.",
+      "tip": "Skip the commercial attractions at the visitor complex and focus on the cliff walks either side for the real experience."
+    },
+    {
+      "name": "Tintagel Castle",
+      "image": {
+        "file": "File:Tintagel Castle Footbridge by Hufton & Crow.jpg",
+        "alt": "The modern footbridge linking Tintagel Castle's headland to the mainland"
+      },
+      "text": "Ruined medieval castle ruins on a dramatic headland linked to Arthurian legend, connected to the mainland by a striking modern footbridge.",
+      "tip": "The site involves genuine steps and uneven terrain — allow more time than the map distance suggests."
+    },
+    {
+      "name": "Padstow",
+      "image": {
+        "file": "File:Padstow Harbour, Cornwall - geograph.org.uk - 2070456.jpg",
+        "alt": "Boats in Padstow's harbour"
+      },
+      "text": "A picturesque fishing harbour turned foodie destination, largely thanks to chef Rick Stein, whose restaurants and shops now line the harbourfront.",
+      "tip": "The Camel Trail cycle path runs from Padstow along a former railway line, a flat, easy ride through beautiful estuary scenery."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the headline sights, Cornwall rewards slower coastal time and a few genuinely local activities.",
+  "thingsToDo": [
+    {
+      "title": "Walk a stretch of the South West Coast Path",
+      "image": {
+        "file": "File:South West Coast Path on Carn Moyle Cliff (6834).jpg",
+        "alt": "The South West Coast Path running along a Cornish clifftop"
+      },
+      "text": "Britain's longest waymarked path runs the entire Cornish coast, with countless manageable day sections offering genuinely dramatic cliff and cove scenery.",
+      "tip": "The stretch between St Ives and Zennor is among the most scenic and manageable single-day sections."
+    },
+    {
+      "title": "Learn to surf",
+      "image": {
+        "file": "File:Surfing in Fistral Bay - geograph.org.uk - 2598038.jpg",
+        "alt": "A surfer riding a wave at Fistral Beach"
+      },
+      "text": "Cornwall's north coast, particularly around Newquay and Fistral Beach, is Britain's most established surfing region, with schools genuinely suited to complete beginners.",
+      "tip": "Book a lesson rather than going it alone — Cornish beaches have real rip currents that surf schools know how to navigate safely."
+    },
+    {
+      "title": "Visit a Cornish pasty shop",
+      "text": "A genuine local tradition worth seeking out beyond supermarket versions — small independent bakeries across Cornwall take real pride in the craft.",
+      "tip": "A proper Cornish pasty has a crimped edge along the side, not the top — a genuine point of local pride."
+    },
+    {
+      "title": "Explore a fishing harbour village",
+      "image": {
+        "file": "File:Polperro Harbour - geograph.org.uk - 3183964.jpg",
+        "alt": "Fishing boats in the small harbour at Polperro"
+      },
+      "text": "Beyond the famous names, Cornwall has dozens of smaller harbour villages — Mousehole, Polperro, Port Isaac — genuinely worth a wander without a fixed itinerary.",
+      "tip": "Port Isaac is instantly recognisable as the filming location for the Doc Martin television series."
+    },
+    {
+      "title": "Visit a working tin mine",
+      "image": {
+        "file": "File:Botallack Crowns engine houses.jpg",
+        "alt": "The historic Botallack tin mine engine houses on the cliffside"
+      },
+      "text": "Cornwall's mining heritage, a UNESCO World Heritage site, is preserved at sites like Geevor Tin Mine, with underground tours giving a genuine sense of the industry's history.",
+      "tip": "The coastal engine houses near Botallack, used in the Poldark television series, are striking even viewed from the coast path alone."
+    },
+    {
+      "title": "Visit the Lost Gardens of Heligan",
+      "image": {
+        "file": "File:Mud Maid - Lost Gardens of Heligan - Cornwall, England - DSC02646.jpg",
+        "alt": "The Mud Maid sculpture at the Lost Gardens of Heligan"
+      },
+      "text": "A genuinely atmospheric restored Victorian garden, rediscovered overgrown in the 1990s and now one of Britain's most visited gardens.",
+      "tip": "The jungle valley and the sleeping giant's head sculpture are the garden's most photographed features."
+    }
+  ],
+  "foodIntro": "Cornwall has a genuinely strong food identity, from its defining pasty to a food scene punching well above the county's size.",
+  "foods": [
+    {
+      "name": "Cornish pasty",
+      "image": {
+        "file": "File:Cornish pasty.jpeg",
+        "alt": "A traditional Cornish pasty"
+      },
+      "text": "A protected-status pastry of beef, potato, swede and onion, crimped along one edge, originally designed as a portable miners' lunch.",
+      "whereToTry": "Independent bakeries across Cornwall — genuine local favourites vary town by town."
+    },
+    {
+      "name": "Cornish cream tea",
+      "image": {
+        "file": "File:A Cornish cream tea.png",
+        "alt": "Scones with clotted cream and jam, Cornish style"
+      },
+      "text": "Scones with clotted cream and jam, served the Cornish way — jam first, then cream, a genuine and long-running rivalry with Devon's cream-first tradition.",
+      "whereToTry": "Tearooms throughout Cornwall, with the jam-first order a point of local pride."
+    },
+    {
+      "name": "Fresh seafood",
+      "image": {
+        "file": "File:-2019-11-19 Dressed Cromer crab, Garden Street, Cromer.JPG",
+        "alt": "A plate of freshly dressed crab"
+      },
+      "text": "Cornwall's fishing fleets land genuinely excellent seafood, crab and mackerel especially, served simply in harbourside restaurants across the county.",
+      "whereToTry": "Harbourside restaurants in Padstow, St Ives and Newquay, among many others."
+    },
+    {
+      "name": "Cornish ice cream",
+      "image": {
+        "file": "File:Cornish ice cream.jpg",
+        "alt": "A scoop of Cornish clotted cream ice cream"
+      },
+      "text": "Made with local clotted cream, Cornish ice cream has a genuine reputation across Britain, sold from stalls and shops throughout the county.",
+      "whereToTry": "Beachside kiosks and dedicated ice cream parlours across Cornwall."
+    },
+    {
+      "name": "Stargazy pie",
+      "image": {
+        "file": "File:Stary gazy pie.jpg",
+        "alt": "A traditional stargazy pie with fish heads poking through the crust"
+      },
+      "text": "A traditional Cornish pie with fish heads poking through the crust, said to commemorate a fisherman who saved his village from famine, more a curiosity than a daily dish.",
+      "whereToTry": "Served traditionally around Mousehole's Tom Bawcock's Eve festival in December."
+    },
+    {
+      "name": "Cornish ale and cider",
+      "image": {
+        "file": "File:Sharps brewery full.jpg",
+        "alt": "Sharp's Brewery in Rock, Cornwall"
+      },
+      "text": "A strong local brewing tradition, with Cornish ales and ciders widely available in the county's pubs, several from breweries within a short distance.",
+      "whereToTry": "Traditional pubs throughout Cornwall, particularly in harbour towns."
+    }
+  ],
+  "accommodation": {
+    "intro": "Cornwall's size means basing yourself in two areas, north and south coast, generally works better than one fixed base.",
+    "areas": [
+      {
+        "name": "St Ives",
+        "bestFor": "Art, beaches and the north coast",
+        "text": "A genuinely picturesque base with excellent beaches and galleries, though parking and summer crowds are a real consideration."
+      },
+      {
+        "name": "Padstow or Newquay",
+        "bestFor": "Food or surfing",
+        "text": "Padstow suits a food-focused trip; Newquay is the practical base for surfing and a livelier nightlife scene."
+      },
+      {
+        "name": "Falmouth",
+        "bestFor": "The south coast and Eden Project",
+        "text": "A genuine working harbour town well placed for the Eden Project, the Lost Gardens of Heligan and the calmer south coast."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£25–42 per night" },
+      { "label": "Mid-range hotel or B&B", "value": "£90–170 per night" },
+      { "label": "Eden Project entry", "value": "£25–33" },
+      { "label": "Surf lesson", "value": "£35–50" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Cornwall is genuinely far from London — around five hours by car — making rail or a regional flight worth considering.",
+    "options": [
+      {
+        "mode": "Rail from London",
+        "text": "Direct trains run from London Paddington to Penzance, around five hours, with stops throughout Cornwall including St Ives via a scenic branch line.",
+        "detail": "The Night Riviera sleeper service offers an overnight option from London to Penzance."
+      },
+      {
+        "mode": "Newquay Cornwall Airport (NQY)",
+        "text": "Cornwall's own airport, with domestic connections to London and other UK cities, cutting the journey considerably compared to driving.",
+        "detail": "A practical option for visitors short on time, avoiding the long drive from other parts of England."
+      },
+      {
+        "mode": "Car",
+        "text": "The most flexible way to explore Cornwall's scattered villages and coastline, though the drive from London takes around five hours.",
+        "detail": "Summer traffic on the A30, Cornwall's main artery, can add significant time on peak weekends."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "A car is close to essential for covering Cornwall's spread-out coastline, though branch line trains serve a few key towns well.",
+    "options": [
+      {
+        "mode": "Rental car",
+        "text": "The most practical way to reach Cornwall's scattered villages and beaches, particularly beyond the main towns.",
+        "detail": "Lanes can be genuinely narrow in rural areas — allow more time than distances suggest."
+      },
+      {
+        "mode": "Branch line trains",
+        "text": "The St Ives Bay Line and other scenic branch lines connect several key towns directly, avoiding Cornwall's summer traffic and limited parking.",
+        "detail": "The St Ives line is considered one of Britain's most scenic short rail journeys."
+      },
+      {
+        "mode": "The South West Coast Path",
+        "text": "For those with time, walking sections of the coast path is a genuinely practical way to move between coastal villages.",
+        "detail": "Baggage transfer services exist for those walking multi-day sections without wanting to carry full packs."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Cornwall's weather is genuinely milder than much of Britain, but shoulder months balance good conditions against summer's considerable crowds.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild weather, blooming coastal gardens, and crowds well below the summer peak on the main beaches and villages."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "The busiest months, with St Ives and Padstow genuinely crowded and roads congested, though the best weather and warmest sea for swimming."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures, thinning crowds, and often some of the year's best surf as autumn swells arrive."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Quiet and atmospheric, with dramatic storm-watching on the coast, though many smaller attractions and restaurants reduce hours or close."
+      }
+    ],
+    "avoid": "School summer holiday weeks in late July and August, when Cornwall's roads, car parks and beaches are at their most congested."
+  },
+  "itinerary": {
+    "title": "Five days in Cornwall",
+    "intro": "The north coast's art and surf towns first, then south to food and gardens — a loop covering Cornwall's different sides.",
+    "days": [
+      {
+        "day": 1,
+        "title": "St Ives",
+        "summary": "Settle in and explore the art town's beaches and galleries.",
+        "morning": "Arrive and explore St Ives' harbour and old town.",
+        "afternoon": "Tate St Ives and Porthmeor Beach.",
+        "evening": "Dinner in St Ives."
+      },
+      {
+        "day": 2,
+        "title": "Land's End and the far west",
+        "summary": "England's most south-westerly point and the mining coast.",
+        "morning": "Drive to Land's End via the coast road.",
+        "afternoon": "The Botallack engine houses and coast path.",
+        "evening": "Return to St Ives or overnight near Penzance."
+      },
+      {
+        "day": 3,
+        "title": "St Michael's Mount and the move south",
+        "summary": "A tidal island castle, then relocate toward the south coast.",
+        "morning": "St Michael's Mount, tide permitting.",
+        "afternoon": "Drive toward the Eden Project area.",
+        "evening": "Overnight near St Austell or Falmouth."
+      },
+      {
+        "day": 4,
+        "title": "The Eden Project and Heligan",
+        "summary": "Cornwall's two great gardens.",
+        "morning": "The Eden Project's biomes and gardens.",
+        "afternoon": "The Lost Gardens of Heligan.",
+        "evening": "Dinner in Falmouth."
+      },
+      {
+        "day": 5,
+        "title": "Padstow and Tintagel",
+        "summary": "Food and Arthurian legend on the way north.",
+        "morning": "Padstow's harbour and a pasty or seafood lunch.",
+        "afternoon": "Tintagel Castle.",
+        "evening": "Depart."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on traffic, tides and timing that make a real difference to a Cornwall trip.",
+  "tips": [
+    "Avoid driving on Saturdays in July and August if possible — changeover day brings Cornwall's worst holiday traffic.",
+    "Check tide times before visiting St Michael's Mount — the causeway is only walkable around low tide.",
+    "Book Eden Project tickets online in advance for a small discount and to guarantee entry on busy days.",
+    "Use park-and-ride or branch line trains for St Ives rather than driving into the town itself.",
+    "Order your cream tea Cornish-style — jam first, then cream — if you want to fit in locally.",
+    "Book restaurant tables well ahead in Padstow during summer, especially for Rick Stein's establishments.",
+    "Pack layers regardless of season — coastal Cornwall's weather can change quickly even in summer."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Cornwall?",
+      "a": "Four to six. Four covers the essential north-coast towns and one or two major attractions; six allows a proper loop taking in both coasts without feeling rushed."
+    },
+    {
+      "q": "Do I need a car?",
+      "a": "Largely yes, given how spread out Cornwall's villages and beaches are, though branch line trains cover St Ives and a few other key towns well without one."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best balance of decent weather, long daylight and manageable crowds. Summer is busiest and roads get genuinely congested; winter is quiet but many smaller attractions reduce hours."
+    },
+    {
+      "q": "Is Cornwall good for surfing beginners?",
+      "a": "Yes — Newquay and the wider north coast have well-established surf schools genuinely suited to complete beginners, alongside more challenging breaks for experienced surfers."
+    },
+    {
+      "q": "Is Cornwall part of England or somewhere different?",
+      "a": "Constitutionally part of England, but Cornwall has a distinct Celtic history, its own language and a strong regional identity that many locals consider culturally separate — worth being aware of and respectful toward as a visitor."
+    }
+  ],
+  "related": ["bath-cotswolds", "london", "lake-district"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}
