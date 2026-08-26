@@ -254,6 +254,26 @@
     });
   }
 
+  /* Reviews live in localStorage, which the user (or another script on the
+     origin) can edit freely. Normalise every field on read so a malformed
+     entry cannot crash the render — `'*'.repeat(-1)` and `new Date(NaN)
+     .toISOString()` both throw, which previously took out the whole list. */
+  function sanitiseReviews(raw) {
+    if (!Array.isArray(raw)) return [];
+    return raw.map(function (r) {
+      if (!r || typeof r !== 'object') return null;
+      var rating = Math.round(Number(r.rating));
+      if (!isFinite(rating)) rating = 0;
+      rating = Math.max(1, Math.min(5, rating));
+      var at = Number(r.at);
+      if (!isFinite(at) || at <= 0) at = Date.now();
+      var name = String(r.name == null ? '' : r.name).slice(0, 80).trim();
+      var body = String(r.body == null ? '' : r.body).slice(0, 4000).trim();
+      if (!name || !body) return null;
+      return { name: name, body: body, rating: rating, at: at };
+    }).filter(Boolean);
+  }
+
   function initReviews() {
     var list = $('#review-list');
     var form = $('#review-form');
@@ -261,7 +281,7 @@
     var key = 'cv:reviews:' + SLUG;
 
     function render() {
-      var reviews = read(key, []);
+      var reviews = sanitiseReviews(read(key, []));
       var summary = $('#review-summary');
       if (!reviews.length) {
         list.innerHTML = '<p class="form-note">No reader reviews yet. Cooked it? You could be the first.</p>';
@@ -274,15 +294,16 @@
           ' · average ' + avg.toFixed(1) + ' out of 5';
       }
       list.innerHTML = reviews.slice().reverse().map(function (r) {
-        var initial = escapeHtml((r.name || '?').charAt(0).toUpperCase());
+        var initial = escapeHtml(r.name.charAt(0).toUpperCase());
         var stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+        var date = new Date(r.at);
         return '<article class="review"><div class="review-head">' +
           '<span class="avatar" aria-hidden="true">' + initial + '</span>' +
           '<strong>' + escapeHtml(r.name) + '</strong>' +
           '<span class="stars" aria-label="' + r.rating + ' out of 5 stars">' +
           '<span style="color:var(--highlight)">' + stars + '</span></span>' +
-          '<time datetime="' + new Date(r.at).toISOString() + '">' +
-          new Date(r.at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) +
+          '<time datetime="' + escapeHtml(date.toISOString()) + '">' +
+          escapeHtml(date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })) +
           '</time></div><p>' + escapeHtml(r.body) + '</p></article>';
       }).join('');
     }
@@ -298,7 +319,7 @@
         if (status) { status.hidden = false; status.textContent = 'Please add a name, a rating and a few words.'; }
         return;
       }
-      var reviews = read(key, []);
+      var reviews = sanitiseReviews(read(key, []));
       reviews.push({ name: name, body: body, rating: parseInt(ratingInput.value, 10), at: Date.now() });
       write(key, reviews);
       form.reset();

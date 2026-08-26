@@ -10,6 +10,7 @@
 
   function $(s, c) { return (c || document).querySelector(s); }
   function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  var esc = window.cvEscape;   /* app.js always loads first */
 
   var grid = $('#results');
   var countEl = $('#result-count');
@@ -42,41 +43,50 @@
   if (sortSelect) sortSelect.value = state.sort;
 
   function stars(rating) {
-    var pct = (rating / 5) * 100;
+    var value = Math.max(0, Math.min(5, Number(rating) || 0));
+    var pct = (value / 5) * 100;
     return '<span class="stars"><span class="stars-glyphs" aria-hidden="true">★★★★★' +
       '<span style="width:' + pct + '%">★★★★★</span></span>' +
-      '<b>' + rating.toFixed(1) + '</b></span>';
+      '<b>' + value.toFixed(1) + '</b></span>';
   }
 
   function cardHtml(r) {
-    var href = BASE + 'recipes/' + r.g + '/';
-    var media = r.i
+    /* Slugs and colours come from our own build, but they are escaped and
+       pattern-checked all the same: a hand-edited index must not be able to
+       inject markup. */
+    var slugSafe = String(r.g).replace(/[^a-z0-9-]/gi, '');
+    var fileSafe = r.i ? String(r.i).replace(/[^a-z0-9-]/gi, '') : '';
+    var colour = /^#[0-9a-f]{6}$/i.test(r.k || '') ? r.k : '';
+    var href = BASE + 'recipes/' + slugSafe + '/';
+
+    var media = fileSafe
       ? '<picture>' +
-          '<source srcset="' + BASE + 'assets/img/recipes/' + r.i + '.webp" type="image/webp">' +
-          '<img src="' + BASE + 'assets/img/recipes/' + r.i + '.jpg" alt="' + r.a + '" ' +
+          '<source srcset="' + esc(BASE + 'assets/img/recipes/' + fileSafe + '.webp') + '" type="image/webp">' +
+          '<img src="' + esc(BASE + 'assets/img/recipes/' + fileSafe + '.jpg') + '" alt="' + esc(r.a) + '" ' +
           'loading="lazy" decoding="async" width="800" height="600" data-fade ' +
-          'data-title="' + r.t + '" data-ph-a="' + (r.k || '#c8763f') + '" data-ph-b="#8c5a3c">' +
+          'data-title="' + esc(r.t) + '" data-ph-a="' + (colour || '#c8763f') + '" data-ph-b="#8c5a3c">' +
         '</picture>'
-      : '<div class="img-fallback" role="img" aria-label="' + r.a + '"><span>' + r.t + '</span></div>';
+      : '<div class="img-fallback" role="img" aria-label="' + esc(r.a) + '"><span>' + esc(r.t) + '</span></div>';
 
     return '<article class="card reveal is-visible">' +
-      '<div class="card-media" style="background:' + (r.k || 'var(--bg-sunken)') + '">' + media +
-        '<div class="card-badges"><span class="badge badge--glass">' + r.c + '</span></div>' +
-        '<button class="fav-btn" type="button" data-slug="' + r.g + '" data-title="' + r.t + '" aria-pressed="false" aria-label="Save ' + r.t + ' to favourites">' +
+      '<div class="card-media" style="background:' + (colour || 'var(--bg-sunken)') + '">' + media +
+        '<div class="card-badges"><span class="badge badge--glass">' + esc(r.c) + '</span></div>' +
+        '<button class="fav-btn" type="button" data-slug="' + esc(slugSafe) + '" data-title="' + esc(r.t) +
+          '" aria-pressed="false" aria-label="Save ' + esc(r.t) + ' to favourites">' +
           '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>' +
         '</button>' +
-        '<span class="card-time"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' + r.m + ' min</span>' +
+        '<span class="card-time"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' + esc(r.m) + ' min</span>' +
         '<div class="quick-view"><dl>' +
-          '<div><dt>Prep</dt><dd>' + r.p + 'm</dd></div>' +
-          '<div><dt>Cook</dt><dd>' + r.o + 'm</dd></div>' +
-          '<div><dt>Serves</dt><dd>' + r.v + '</dd></div>' +
-        '</dl><a class="btn btn--light btn--sm" href="' + href + '">Quick view</a></div>' +
+          '<div><dt>Prep</dt><dd>' + esc(r.p) + 'm</dd></div>' +
+          '<div><dt>Cook</dt><dd>' + esc(r.o) + 'm</dd></div>' +
+          '<div><dt>Serves</dt><dd>' + esc(r.v) + '</dd></div>' +
+        '</dl><a class="btn btn--light btn--sm" href="' + esc(href) + '">Quick view</a></div>' +
       '</div>' +
       '<div class="card-body">' +
-        '<span class="card-kicker">' + r.n + '</span>' +
-        '<h3><a href="' + href + '">' + r.t + '</a></h3>' +
-        '<p>' + r.e + '</p>' +
-        '<div class="card-foot">' + stars(r.r) + '<span>' + r.d + '</span></div>' +
+        '<span class="card-kicker">' + esc(r.n) + '</span>' +
+        '<h3><a href="' + esc(href) + '">' + esc(r.t) + '</a></h3>' +
+        '<p>' + esc(r.e) + '</p>' +
+        '<div class="card-foot">' + stars(r.r) + '<span>' + esc(r.d) + '</span></div>' +
       '</div></article>';
   }
 
@@ -111,13 +121,13 @@
     var chips = [];
     ['category', 'cuisine', 'tag', 'difficulty'].forEach(function (k) {
       state[k].forEach(function (v) {
-        chips.push('<span class="chip is-active">' + v +
-          '<button type="button" data-remove-filter data-key="' + k + '" data-value="' + v +
-          '" aria-label="Remove filter ' + v + '">&times;</button></span>');
+        chips.push('<span class="chip is-active">' + esc(v) +
+          '<button type="button" data-remove-filter data-key="' + esc(k) + '" data-value="' + esc(v) +
+          '" aria-label="Remove filter ' + esc(v) + '">&times;</button></span>');
       });
     });
     if (state.time) {
-      chips.push('<span class="chip is-active">Under ' + state.time + ' min' +
+      chips.push('<span class="chip is-active">Under ' + esc(state.time) + ' min' +
         '<button type="button" data-remove-filter data-key="time" aria-label="Remove time filter">&times;</button></span>');
     }
     if (chips.length) {
@@ -155,7 +165,7 @@
     if (countEl) {
       countEl.innerHTML = results.length
         ? '<strong>' + results.length + '</strong> recipe' + (results.length === 1 ? '' : 's') +
-          (state.q ? ' for &ldquo;' + state.q.replace(/[<>&]/g, '') + '&rdquo;' : '')
+          (state.q ? ' for &ldquo;' + esc(state.q) + '&rdquo;' : '')
         : 'No recipes found';
     }
 

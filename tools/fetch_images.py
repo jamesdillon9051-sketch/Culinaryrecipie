@@ -45,7 +45,16 @@ def log(msg):
     print(msg, flush=True)
 
 
+def _require_http(url):
+    """urllib.request.urlopen honours file:// and ftp://. API responses decide
+    these URLs, so only http(s) is ever followed."""
+    if not isinstance(url, str) or not url.lower().startswith(("http://", "https://")):
+        raise ValueError("refusing non-http(s) URL: %r" % (url,))
+    return url
+
+
 def http_json(url, tries=4):
+    _require_http(url)
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
@@ -60,6 +69,7 @@ def http_json(url, tries=4):
 
 
 def http_bytes(url, tries=3):
+    _require_http(url)
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -166,6 +176,8 @@ def gather(query):
                   openverse_candidates(query)):
         for c in cands:
             key = c["url"]
+            if not isinstance(key, str) or not key.lower().startswith(("http://", "https://")):
+                continue
             if key and key not in seen and c["score"] >= 0.5:
                 seen.add(key)
                 pool.append(c)

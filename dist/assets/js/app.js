@@ -18,6 +18,16 @@
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
   function $$(sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); }
 
+  /* Escape before interpolating into any HTML string. Everything rendered
+     client-side goes through this — recipe titles legitimately contain "&"
+     ("Fish & Chips") and quotes, which would otherwise corrupt attributes or,
+     with markup in the data, execute. */
+  var ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  function escapeHtml(value) {
+    return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) { return ESCAPES[c]; });
+  }
+  window.cvEscape = escapeHtml;
+
   function read(key, fallback) {
     try {
       var raw = localStorage.getItem(key);
@@ -111,7 +121,12 @@
   }
 
   /* ----------------------------------------------------------- favourites */
-  function getFavs() { return read(STORE.favs, []); }
+  /* Also read from localStorage, so verify the shape before using array methods. */
+  function getFavs() {
+    var raw = read(STORE.favs, []);
+    if (!Array.isArray(raw)) return [];
+    return raw.filter(function (s) { return typeof s === 'string'; });
+  }
 
   function syncFavButtons() {
     var favs = getFavs();
@@ -179,17 +194,19 @@
         if (!matches.length) {
           panel.hidden = false;
           panel.innerHTML = '<p class="ac-empty">No recipes match &ldquo;' +
-            query.replace(/[<>&]/g, '') + '&rdquo;. Try an ingredient or cuisine.</p>';
+            escapeHtml(query) + '&rdquo;. Try an ingredient or cuisine.</p>';
           return;
         }
         panel.hidden = false;
         panel.innerHTML = matches.map(function (m, i) {
           var thumb = m.i
-            ? '<img src="' + document.body.dataset.base + 'assets/img/recipes/' + m.i + '.jpg" alt="" loading="lazy" width="44" height="44">'
+            ? '<img src="' + escapeHtml(document.body.dataset.base + 'assets/img/recipes/' + m.i + '.jpg') +
+              '" alt="" loading="lazy" width="44" height="44">'
             : '<span class="ac-ph" aria-hidden="true"></span>';
           return '<a class="ac-item" role="option" id="ac-' + i + '" aria-selected="false" href="' +
-            document.body.dataset.base + 'recipes/' + m.g + '/">' + thumb +
-            '<span><strong>' + m.t + '</strong><span>' + m.c + ' &middot; ' + m.m + ' min &middot; ' + m.d + '</span></span></a>';
+            escapeHtml(document.body.dataset.base + 'recipes/' + m.g + '/') + '">' + thumb +
+            '<span><strong>' + escapeHtml(m.t) + '</strong><span>' + escapeHtml(m.c) +
+            ' &middot; ' + escapeHtml(m.m) + ' min &middot; ' + escapeHtml(m.d) + '</span></span></a>';
         }).join('');
         active = -1;
       };
@@ -303,7 +320,9 @@
       ph.className = 'img-fallback';
       ph.setAttribute('role', 'img');
       ph.setAttribute('aria-label', title);
-      ph.innerHTML = '<span>' + title.replace(/[<>&]/g, '') + '</span>';
+      var label = document.createElement('span');
+      label.textContent = title;          /* no escaping needed, and no mangling */
+      ph.appendChild(label);
       if (img.dataset.phA) { ph.style.setProperty('--ph-a', img.dataset.phA); }
       if (img.dataset.phB) { ph.style.setProperty('--ph-b', img.dataset.phB); }
       host.replaceWith(ph);

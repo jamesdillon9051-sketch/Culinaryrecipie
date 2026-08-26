@@ -15,15 +15,32 @@ const TYPES = {
 };
 
 http.createServer((req, res) => {
-  const url = decodeURIComponent(req.url.split('?')[0]);
-  let file = path.join(ROOT, url);
-  if (!file.startsWith(ROOT)) { res.writeHead(403).end('Forbidden'); return; }
-  if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, 'index.html');
-  if (!fs.existsSync(file)) {
-    res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end(fs.readFileSync(path.join(ROOT, '404.html')));
+  let url;
+  try {
+    url = decodeURIComponent(req.url.split('?')[0]);
+  } catch (e) {
+    /* Malformed percent-encoding (e.g. "GET /%") throws URIError, which would
+       otherwise take the whole server down. */
+    res.writeHead(400, { 'Content-Type': 'text/plain' }).end('Bad request');
     return;
   }
-  res.writeHead(200, { 'Content-Type': TYPES[path.extname(file)] || 'application/octet-stream' });
-  res.end(fs.readFileSync(file));
+  if (url.indexOf('\0') !== -1) { res.writeHead(400).end('Bad request'); return; }
+
+  let file = path.join(ROOT, url);
+  if (file !== ROOT && !file.startsWith(ROOT + path.sep)) {
+    res.writeHead(403).end('Forbidden');
+    return;
+  }
+  try {
+    if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, 'index.html');
+    if (!fs.existsSync(file)) {
+      res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(fs.readFileSync(path.join(ROOT, '404.html')));
+      return;
+    }
+    res.writeHead(200, { 'Content-Type': TYPES[path.extname(file)] || 'application/octet-stream' });
+    res.end(fs.readFileSync(file));
+  } catch (e) {
+    res.writeHead(500, { 'Content-Type': 'text/plain' }).end('Server error');
+  }
 }).listen(PORT, () => console.log(`CulinaryVault preview: http://localhost:${PORT}`));
