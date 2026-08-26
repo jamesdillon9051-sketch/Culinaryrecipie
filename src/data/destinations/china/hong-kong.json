@@ -1,0 +1,392 @@
+{
+  "slug": "hong-kong",
+  "name": "Hong Kong",
+  "country": "china",
+  "region": "Hong Kong Special Administrative Region",
+  "categories": ["major-city", "coast-beaches", "culture-arts"],
+  "tagline": "A British colony until 1997, still run under its own laws, currency and border, where skyscrapers climb straight up jungle-covered mountainsides above one of the world's great natural harbours.",
+  "highlight": "The Star Ferry crossing Victoria Harbour at dusk — the cheapest, best view in the city, skyscrapers lighting up on both shores at once.",
+  "shortDescription": "A Special Administrative Region of China with its own laws, currency and border, where dense high-rise city meets green mountains, fishing villages and some of the best dim sum on earth.",
+  "metaDescription": "A Hong Kong travel guide: Victoria Peak, the Star Ferry, dim sum and the outlying islands, when to go, how to get around and a three-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Hong Kong International (HKG)",
+  "knownFor": "Victoria Harbour, dim sum, Victoria Peak, hiking trails minutes from skyscrapers",
+  "budget": "HK$900–1,800 per day, mid-range",
+  "goodFor": "Food, city views, hiking, first trips to Asia",
+  "coords": { "lat": 22.3193, "lng": 114.1694 },
+  "image": {
+    "file": "File:Hong Kong Night Skyline.jpg",
+    "alt": "Hong Kong's skyscraper skyline lit up at night around Victoria Harbour"
+  },
+  "intro": [
+    "Hong Kong was a British colony from 1842 until the 1997 handover, and it still operates as a Special Administrative Region of China under a distinct legal and economic system, with its own currency, immigration border and, for most nationalities, a separate visa arrangement from mainland China. That history and structure produced a genuinely unusual city: one of the most vertically dense skylines on earth, packed onto a narrow strip of land between a deep natural harbour and steep, jungle-covered mountains that rise directly behind the towers.",
+    "The result is a city of striking contrasts within short distances. Central's glass skyscrapers and Michelin-starred restaurants sit a short tram ride from wet markets selling live seafood; hiking trails through genuine subtropical forest start within twenty minutes of the financial district; and outlying islands with fishing villages and near-empty beaches are a ferry ride from some of the most expensive real estate on the planet.",
+    "Food is the other reason people build entire trips around Hong Kong. Cantonese cuisine reaches its most refined expression here, dim sum was essentially perfected in this city's teahouses, and the street food scene — from egg waffles to wonton noodles — operates at a level of quality and density that few other cities can match."
+  ],
+  "whyVisit": {
+    "intro": "Hong Kong's case is a genuinely unique combination: a world city with its own laws and border, mountain wilderness minutes from skyscrapers, and food that alone justifies the trip.",
+    "points": [
+      {
+        "title": "The harbour view has no real rival",
+        "text": "Victoria Harbour, framed by mountains on both sides and lit nightly by one of the world's most elaborate skyline light shows, is a genuinely singular urban view."
+      },
+      {
+        "title": "Wilderness sits minutes from the financial district",
+        "text": "Hiking trails through genuine forest and along dramatic coastline start a short taxi or bus ride from Central's towers, a juxtaposition few global cities can offer."
+      },
+      {
+        "title": "Dim sum reaches its purest form here",
+        "text": "Cantonese teahouse culture developed dim sum into its current form, and Hong Kong's version remains the benchmark against which the rest of the world's is measured."
+      },
+      {
+        "title": "It runs under its own system",
+        "text": "Separate currency, border, legal system and visa arrangement from mainland China make Hong Kong logistically distinct and, for many visitors, considerably simpler to navigate."
+      },
+      {
+        "title": "The outlying islands are a genuine escape",
+        "text": "Lantau, Cheung Chau and Lamma offer beaches, seafood villages and a completely different pace within an hour of the city centre."
+      }
+    ]
+  },
+  "attractionsIntro": "Hong Kong rewards mixing dense city sightseeing with at least one half-day given to the outlying islands or hiking trails.",
+  "attractions": [
+    {
+      "name": "Victoria Peak",
+      "image": {
+        "file": "File:A Peak Tram arriving at the Peak Station (Hong Kong).jpg",
+        "alt": "A Peak Tram arriving at the summit station on Victoria Peak"
+      },
+      "text": "The highest point on Hong Kong Island, reached by a famously steep century-old funicular tram, offering a sweeping view over the harbour, the skyline and the surrounding islands.",
+      "tip": "Go for sunset and stay through to full dark for the skyline light show — the Peak Tram queues are shortest early morning or during the light show itself."
+    },
+    {
+      "name": "The Star Ferry across Victoria Harbour",
+      "image": {
+        "file": "File:Star ferry Day star.jpg",
+        "alt": "A green-and-white Star Ferry crossing Victoria Harbour"
+      },
+      "text": "A green-and-white ferry that has crossed the harbour since 1888, still one of the cheapest and best ways to see the skyline from the water, particularly at dusk as the towers light up.",
+      "tip": "Sit on the upper deck and take the crossing at least twice — once toward Kowloon, once back."
+    },
+    {
+      "name": "Man Mo Temple",
+      "image": {
+        "file": "File:Burning incense coils in the Man Mo temple (Hong Kong).jpg",
+        "alt": "Large spiral incense coils hanging from the ceiling of Man Mo Temple"
+      },
+      "text": "A nineteenth-century Taoist temple dedicated to the gods of literature and war, thick with incense smoke from enormous spiral coils hanging from the ceiling, a genuine working temple in the middle of the modern city.",
+      "tip": "Visit on a weekday morning for the quietest, most atmospheric experience of the incense coils and worshippers."
+    },
+    {
+      "name": "Tian Tan Buddha and Po Lin Monastery",
+      "image": {
+        "file": "File:Tian Tan Buddha by Beria.jpg",
+        "alt": "The bronze Tian Tan Buddha seated on a hilltop on Lantau Island"
+      },
+      "text": "A 34-metre bronze Buddha seated on Lantau Island, reached by cable car over forested hills or a longer hike, with the working Po Lin Monastery and its vegetarian restaurant at its base.",
+      "tip": "The Ngong Ping cable car is spectacular but weather-dependent — check conditions, and consider the bus as a backup."
+    },
+    {
+      "name": "Temple Street Night Market",
+      "image": {
+        "file": "File:Mercado en Temple St., Hong Kong, 2013-08-11, DD 02.JPG",
+        "alt": "Stalls and crowds at Temple Street Night Market after dark"
+      },
+      "text": "A Kowloon street market that comes alive after dark with fortune tellers, street food stalls and cheap goods, alongside occasional impromptu Cantonese opera performances.",
+      "tip": "Come hungry — the surrounding streets have some of the best cheap seafood and noodle stalls in the city."
+    },
+    {
+      "name": "Hong Kong Museum of History",
+      "image": {
+        "file": "File:Hong Kong Museum of History Entrance 1 2011.jpg",
+        "alt": "The entrance to the Hong Kong Museum of History"
+      },
+      "text": "A genuinely excellent, free-flowing walk through the territory's story from prehistory through the colonial period to the handover, giving essential context to everything else in the city.",
+      "tip": "Budget at least two hours — the permanent exhibition is larger and more detailed than most visitors expect."
+    }
+  ],
+  "thingsToDoIntro": "Hong Kong's density means a single day can genuinely include a mountain hike, a harbour crossing and a Michelin-starred meal without feeling rushed.",
+  "thingsToDo": [
+    {
+      "title": "Hike the Dragon's Back trail",
+      "image": {
+        "file": "File:Dragons-Back-Northwards.jpg",
+        "alt": "The ridge of the Dragon's Back trail with coastline views"
+      },
+      "text": "A ridge trail on the southeastern side of Hong Kong Island offering sweeping coastal views, genuinely wild despite being reachable by public bus from the city centre in under an hour.",
+      "tip": "Combine with a swim or seafood lunch at Shek O beach, reachable by bus from the trail's end."
+    },
+    {
+      "title": "Take the outlying island ferries",
+      "image": {
+        "file": "File:Tai Wan Village, Lamma Island 07.jpg",
+        "alt": "The waterfront village of Tai Wan on Lamma Island"
+      },
+      "text": "Lamma Island for seafood restaurants and a car-free, laid-back pace, Cheung Chau for its fishing-village harbour, or Lantau for the Buddha and beaches — all a short, cheap ferry ride from Central.",
+      "tip": "Lamma's ferry from Central to Sok Kwu Wan, then a walk across the island to Yung Shue Wan, makes a satisfying half-day loop."
+    },
+    {
+      "title": "Eat dim sum properly, with tea",
+      "image": {
+        "file": "File:Dim sum collection in lunch.jpg",
+        "alt": "A table set with several dim sum dishes and pots of tea"
+      },
+      "text": "A late-morning ritual of small steamed and fried dishes ordered from a trolley or checklist, shared over pot after pot of tea — the defining Hong Kong meal, best done unhurried on a weekend.",
+      "tip": "Arrive before 11am at popular spots, or expect a genuine queue at the well-known dim sum restaurants."
+    },
+    {
+      "title": "Ride the Star Ferry and a tram in the same day",
+      "image": {
+        "file": "File:Hong Kong Tramways Double Decker Tram (Ank Kumar) 01.jpg",
+        "alt": "A double-decker Hong Kong Tramways tram on Hong Kong Island"
+      },
+      "text": "Two of the cheapest, most atmospheric ways to see the city — the harbour crossing by ferry, and Hong Kong Island's double-decker trams, still running the same route since 1904.",
+      "tip": "The tram, nicknamed the 'ding ding' for its bell, is a genuinely pleasant, slow way to see Hong Kong Island's northern shore."
+    },
+    {
+      "title": "Watch the Symphony of Lights",
+      "image": {
+        "file": "File:Hong Kong night skyline during Symphony of Lights from Tsim Sha Tsui.jpg",
+        "alt": "Skyscrapers lit up during the Symphony of Lights show"
+      },
+      "text": "A nightly light and laser show synchronised across dozens of buildings on both sides of Victoria Harbour, best viewed from the Tsim Sha Tsui waterfront looking toward Hong Kong Island.",
+      "tip": "Arrive fifteen to twenty minutes before the show for a clear spot on the promenade."
+    },
+    {
+      "title": "Explore a wet market",
+      "image": {
+        "file": "File:HK WTS 新蒲崗 San Po Kong 啟德花園 Kai Tak Garden 大成街 街市 Tai Shing Street wet Market seafood December 2020 SS2 81.jpg",
+        "alt": "Fresh seafood and produce stalls at a Hong Kong wet market"
+      },
+      "text": "Traditional markets selling live seafood, fresh produce and meat, a genuine slice of everyday Hong Kong life a world away from the glass towers a few streets over.",
+      "tip": "Graham Street Market in Central and the markets around Mong Kok are both easy to reach and genuinely photogenic."
+    }
+  ],
+  "foodIntro": "Cantonese cuisine, refined over centuries in this city's kitchens and teahouses, prizes fresh ingredients and precise technique over heavy seasoning.",
+  "foods": [
+    {
+      "name": "Dim sum",
+      "image": {
+        "file": "File:Eight selection of Dim Sum in Hong Kong.jpg",
+        "alt": "A selection of eight different dim sum dishes"
+      },
+      "text": "Small steamed and fried dishes — har gow, siu mai, char siu bao, egg tarts — ordered from a trolley or checklist and shared over tea, traditionally a late-morning weekend ritual.",
+      "whereToTry": "Lin Heung Tea House for the old-school trolley experience, or Tim Ho Wan for a Michelin-starred version at street-food prices."
+    },
+    {
+      "name": "Roast goose and char siu",
+      "image": {
+        "file": "File:Roast goose in yat lok restaurant.JPG",
+        "alt": "Glossy roast goose served over rice at Yat Lok"
+      },
+      "text": "Cantonese barbecued meats hung in shop windows across the city — glossy roast goose with crackling skin, and char siu, sweet-savoury barbecued pork, both usually served over rice.",
+      "whereToTry": "Yat Lok or Kam's Roast Goose, both long-running, well-regarded specialists."
+    },
+    {
+      "name": "Wonton noodles",
+      "image": {
+        "file": "File:The Peak Mak's Noodle Wonton noodle soup 09-11-2021.jpg",
+        "alt": "A bowl of wonton noodle soup from Mak's Noodle"
+      },
+      "text": "Thin egg noodles in a clear shrimp-based broth with delicate pork and shrimp wontons, a deceptively simple dish that separates good Cantonese cooking from great in the quality of its broth alone.",
+      "whereToTry": "Mak's Noodle or any small noodle shop with a queue at lunchtime."
+    },
+    {
+      "name": "Egg waffles (gai daan jai)",
+      "image": {
+        "file": "File:Egg waffle - sarah stierch.jpg",
+        "alt": "A bubble-shaped egg waffle, crisp outside and soft within"
+      },
+      "text": "A street snack of small, bubble-shaped waffle balls cooked in a hinged iron mould, crisp outside and soft within, eaten plain or with modern flavoured variations from newer stalls.",
+      "whereToTry": "Street stalls across Mong Kok and Causeway Bay, especially in the evening."
+    },
+    {
+      "name": "Milk tea and pineapple bun",
+      "image": {
+        "file": "File:樂香園 (蛇竇) 下午茶- 菠蘿油, 奶茶Afternoon tea- Pineapple bun and milk tea (5296598723).jpg",
+        "alt": "A pineapple bun served alongside Hong Kong-style milk tea"
+      },
+      "text": "Hong Kong-style milk tea, strong black tea strained through a cloth filter and mixed with evaporated milk, classically paired with a pineapple bun — a sweet, crumb-topped bun named for its appearance rather than its flavour.",
+      "whereToTry": "Any traditional cha chaan teng (tea restaurant), a genuine local institution across the city."
+    },
+    {
+      "name": "Claypot rice",
+      "image": {
+        "file": "File:Cured Meat Claypot Rice at The Soup Kitchen (20200718171540).jpg",
+        "alt": "Claypot rice topped with cured meats and a crisp bottom layer"
+      },
+      "text": "Rice cooked directly in a clay pot over a flame until a crisp layer forms at the bottom, topped with cured meats, sausage or chicken, a cold-weather Cantonese comfort dish.",
+      "whereToTry": "Street stalls in Sham Shui Po and other working-class districts, especially in cooler months."
+    }
+  ],
+  "accommodation": {
+    "intro": "Hong Kong's two obvious bases are Hong Kong Island's business and shopping districts, or Kowloon across the harbour, generally better value with equally good access.",
+    "areas": [
+      {
+        "name": "Central / Sheung Wan",
+        "bestFor": "First visits",
+        "text": "Hong Kong Island's business heart, walking distance to the Star Ferry, Man Mo Temple and the Peak Tram, though among the most expensive areas to stay."
+      },
+      {
+        "name": "Tsim Sha Tsui, Kowloon",
+        "bestFor": "Value and harbour views",
+        "text": "Across the water from Central, with some of the best skyline views precisely because you are looking at the other side, and generally better hotel value."
+      },
+      {
+        "name": "Causeway Bay",
+        "bestFor": "Shopping and nightlife",
+        "text": "A dense, lively shopping and dining district on Hong Kong Island, well connected by MTR to everywhere else."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "HK$150–300 per night" },
+      { "label": "Mid-range hotel", "value": "HK$900–1,800 per night" },
+      { "label": "Peak Tram return ticket", "value": "HK$122" },
+      { "label": "Dim sum lunch for two", "value": "HK$150–350" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Hong Kong has its own major international airport and its own border and visa arrangement, separate from mainland China.",
+    "options": [
+      {
+        "mode": "Hong Kong International Airport (HKG)",
+        "text": "One of Asia's major hub airports on Lantau Island, connected to the city centre by the fast Airport Express train, reaching Central in about 24 minutes.",
+        "detail": "Many nationalities can enter Hong Kong visa-free for a set period even where a mainland Chinese visa would be required — check your specific requirement, as it is genuinely separate from the mainland rule."
+      },
+      {
+        "mode": "High-speed rail from the mainland",
+        "text": "The Guangzhou–Shenzhen–Hong Kong Express Rail Link connects Hong Kong's West Kowloon Station to the mainland network, including onward connections toward other major cities.",
+        "detail": "Immigration for both mainland China and Hong Kong is processed at West Kowloon Station itself, a genuinely efficient co-location arrangement."
+      },
+      {
+        "mode": "Ferries from mainland China and Macau",
+        "text": "Direct ferries connect Hong Kong to Macau and several mainland Guangdong cities, a straightforward alternative to flying or the train for regional connections.",
+        "detail": "The Hong Kong–Macau ferry takes about an hour and is a popular day-trip option in either direction."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Hong Kong's public transport is fast, cheap and extensive — genuinely one of the best systems anywhere, built around a single rechargeable card.",
+    "options": [
+      {
+        "mode": "MTR (metro)",
+        "text": "A clean, frequent, easy-to-navigate rail network covering Hong Kong Island, Kowloon and the New Territories, with clear English signage throughout.",
+        "detail": "An Octopus card, tappable on the MTR, buses, trams, ferries and even many shops, is worth getting on arrival."
+      },
+      {
+        "mode": "The Star Ferry",
+        "text": "The classic, cheap way to cross Victoria Harbour, still faster and more atmospheric than the MTR for the Central–Tsim Sha Tsui route specifically.",
+        "detail": "Runs frequently throughout the day and evening; no booking needed."
+      },
+      {
+        "mode": "Trams (Hong Kong Island)",
+        "text": "Double-decker trams running along Hong Kong Island's northern shore since 1904, slow but cheap and a genuinely pleasant way to see the street level.",
+        "detail": "Flat fare regardless of distance, paid by Octopus card or exact change on exit."
+      },
+      {
+        "mode": "Outlying island ferries",
+        "text": "Regular ferries from Central to Lamma, Cheung Chau and other islands, essential for reaching the more laid-back parts of the territory.",
+        "detail": "Check the last return ferry time before setting off, particularly to smaller islands with less frequent evening service."
+      },
+      {
+        "mode": "Taxis",
+        "text": "Plentiful and metered, colour-coded by the area they serve (red for urban, green for New Territories, blue for Lantau).",
+        "detail": "Most taxi drivers speak limited English — having your destination written in Chinese characters helps considerably."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "October–December and March–April",
+    "summary": "Hong Kong's subtropical climate brings a hot, humid, typhoon-prone summer, which makes autumn clearly the most comfortable season.",
+    "seasons": [
+      {
+        "season": "Autumn (October–December)",
+        "rating": "best",
+        "text": "The best season: warm but not oppressive, low humidity, clear skies for harbour views, and comfortable hiking conditions on trails like Dragon's Back."
+      },
+      {
+        "season": "Winter (January–February)",
+        "rating": "good",
+        "text": "Mild and dry by most standards, though it can turn surprisingly chilly and damp for a few weeks — pack layers rather than assuming tropical warmth year-round."
+      },
+      {
+        "season": "Spring (March–April)",
+        "rating": "shoulder",
+        "text": "Warming up but often overcast and humid, with a real chance of fog that can obscure harbour and Peak views for days at a time."
+      },
+      {
+        "season": "Summer (May–September)",
+        "rating": "avoid",
+        "text": "Hot, extremely humid and the height of typhoon season, when the city occasionally shuts down entirely for a day or two under a severe typhoon signal."
+      }
+    ],
+    "avoid": "Peak typhoon season, roughly July to September, when a severe storm can genuinely disrupt flights and close attractions for a day or more with limited notice."
+  },
+  "itinerary": {
+    "title": "Three days in Hong Kong",
+    "intro": "The harbour and Peak, an island escape, and the food and markets — a pace that covers the city's contrasts without rushing any of them.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The harbour and the Peak",
+        "summary": "Central, the Star Ferry and the view from above.",
+        "morning": "Man Mo Temple and a walk through Central and Sheung Wan.",
+        "afternoon": "The Star Ferry across to Tsim Sha Tsui, then back.",
+        "evening": "The Peak Tram up for sunset and the Symphony of Lights."
+      },
+      {
+        "day": 2,
+        "title": "An outlying island",
+        "summary": "A half-day escape to Lamma or Lantau.",
+        "morning": "Ferry to Lamma Island, or the cable car to Lantau's Tian Tan Buddha.",
+        "afternoon": "A seafood lunch on Lamma, or Po Lin Monastery and a hike on Lantau.",
+        "evening": "Back to the city for dinner."
+      },
+      {
+        "day": 3,
+        "title": "Food, markets and a hike",
+        "summary": "Dim sum, Kowloon's markets and a coastal trail.",
+        "morning": "Dim sum, unhurried, with tea.",
+        "afternoon": "The Dragon's Back trail, or Temple Street and the Hong Kong Museum of History.",
+        "evening": "A final Cantonese meal, roast goose or claypot rice."
+      }
+    ]
+  },
+  "tipsIntro": "Hong Kong-specific practicalities, mostly about its separate systems from the mainland and its genuinely changeable weather.",
+  "tips": [
+    "Check your visa requirement specifically for Hong Kong — it is genuinely separate from mainland China's, and many nationalities that need a mainland visa can enter Hong Kong visa-free.",
+    "Get an Octopus card on arrival — it covers MTR, buses, trams, ferries and many shops, and saves constant single-ticket purchases.",
+    "Check typhoon signals if visiting May through September — a severe signal can close attractions and disrupt transport with only a few hours' notice.",
+    "Hong Kong dollars, not Chinese yuan, are the currency here — mainland mobile payment apps work in a more limited way than in mainland China, so carry a card or some cash.",
+    "Book well-known dim sum restaurants or arrive before 11am on weekends — the best-regarded spots have genuine queues.",
+    "Check the last return ferry time before a day trip to a smaller outlying island — evening service can be considerably less frequent than daytime."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Hong Kong?",
+      "a": "Three to four. That covers the harbour, Victoria Peak, at least one outlying island, and proper time for dim sum and the food markets. Two days is workable for a stopover, but rushes the island escape that makes Hong Kong more than just a dense city."
+    },
+    {
+      "q": "Do I need a separate visa for Hong Kong from mainland China?",
+      "a": "Yes, generally. Hong Kong operates its own immigration and visa system as a Special Administrative Region, and many nationalities that require a visa for mainland China can enter Hong Kong visa-free for a set period. Always check the current specific requirement for your passport."
+    },
+    {
+      "q": "What is the best time of year to visit Hong Kong?",
+      "a": "October to December, when the weather is warm, dry and clear — the best conditions for harbour views and hiking. Spring can be overcast and foggy, and summer (May to September) is hot, humid and typhoon season, occasionally disrupting travel with little notice."
+    },
+    {
+      "q": "Is Hong Kong expensive?",
+      "a": "Mid-range travel runs roughly HK$900–1,800 per person per day, among the pricier destinations in this guide, driven mainly by accommodation costs. Food, especially street food and local noodle shops, remains genuinely good value even in the centre of the city."
+    },
+    {
+      "q": "What should I eat in Hong Kong?",
+      "a": "Dim sum above everything, ideally on a leisurely weekend morning with tea. Wonton noodles and Cantonese roast meats for everyday eating, and a cha chaan teng visit for milk tea and a pineapple bun — a genuine Hong Kong institution."
+    },
+    {
+      "q": "Can I hike and see skyscrapers in the same day in Hong Kong?",
+      "a": "Yes, easily — this is one of the city's defining features. The Dragon's Back trail is reachable by public bus from central Hong Kong Island in under an hour, and returns you to the city in time for dinner, having walked genuine coastal wilderness in between."
+    }
+  ],
+  "related": ["shanghai", "beijing", "istanbul"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}

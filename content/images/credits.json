@@ -376,6 +376,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:A Peak Tram arriving at the Peak Station (Hong Kong).jpg": {
+    "artist": "Mk2010",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Peak_Tram_arriving_at_the_Peak_Station_(Hong_Kong).jpg",
+    "context": "Victoria Peak — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-1.webp",
+    "card": "images/china/hong-kong--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:A Remaining Caisson from the Mulberry Harbour (32297781257).jpg": {
     "artist": "David Merrett from Daventry, England",
     "license": "CC BY 2.0",
@@ -2040,6 +2053,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Burning incense coils in the Man Mo temple (Hong Kong).jpg": {
+    "artist": "Aethelfirth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burning_incense_coils_in_the_Man_Mo_temple_(Hong_Kong).jpg",
+    "context": "Man Mo Temple — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-3.webp",
+    "card": "images/china/hong-kong--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Burrata di Andria 2.jpg": {
     "artist": "FM433",
     "license": "CC BY-SA 4.0",
@@ -3678,6 +3704,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cured Meat Claypot Rice at The Soup Kitchen (20200718171540).jpg": {
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cured_Meat_Claypot_Rice_at_The_Soup_Kitchen_(20200718171540).jpg",
+    "context": "Claypot rice — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-6.webp",
+    "card": "images/china/hong-kong--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Cycling holiday - The Loire Valley, France.jpg": {
     "artist": "Cjp24",
     "license": "CC BY-SA 4.0",
@@ -3860,6 +3899,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Dim sum collection in lunch.jpg": {
+    "artist": "Geoffreyrabbit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dim_sum_collection_in_lunch.jpg",
+    "context": "Eat dim sum properly, with tea — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-3.webp",
+    "card": "images/china/hong-kong--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Diots savoyards.jpg": {
     "artist": "Tangopaso",
     "license": "Public domain",
@@ -3946,6 +3998,19 @@
     "context": "Chinatown and North Beach — San Francisco & the California Coast, United States",
     "hero": "images/united-states/san-francisco--attraction-6.webp",
     "card": "images/united-states/san-francisco--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dragons-Back-Northwards.jpg": {
+    "artist": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragons-Back-Northwards.jpg",
+    "context": "Hike the Dragon's Back trail — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-1.webp",
+    "card": "images/china/hong-kong--thing-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4055,6 +4120,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Egg waffle - sarah stierch.jpg": {
+    "artist": "User:SarahStierch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egg_waffle_-_sarah_stierch.jpg",
+    "context": "Egg waffles (gai daan jai) — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-4.webp",
+    "card": "images/china/hong-kong--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Eiffel Tower sunset skyline (Unsplash).jpg": {
     "artist": "Pedro Kümmel pedrokummel",
     "license": "CC0",
@@ -4063,6 +4141,19 @@
     "context": "Paris, France",
     "hero": "images/france/paris.webp",
     "card": "images/france/paris-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Eight selection of Dim Sum in Hong Kong.jpg": {
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eight_selection_of_Dim_Sum_in_Hong_Kong.jpg",
+    "context": "Dim sum — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-1.webp",
+    "card": "images/china/hong-kong--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5693,6 +5784,71 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:HK WTS 新蒲崗 San Po Kong 啟德花園 Kai Tak Garden 大成街 街市 Tai Shing Street wet Market seafood December 2020 SS2 81.jpg": {
+    "artist": "LoiuaJodsoen Normaw",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_WTS_%E6%96%B0%E8%92%B2%E5%B4%97_San_Po_Kong_%E5%95%9F%E5%BE%B7%E8%8A%B1%E5%9C%92_Kai_Tak_Garden_%E5%A4%A7%E6%88%90%E8%A1%97_%E8%A1%97%E5%B8%82_Tai_Shing_Street_wet_Market_seafood_December_2020_SS2_81.jpg",
+    "context": "Explore a wet market — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-6.webp",
+    "card": "images/china/hong-kong--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hong Kong Museum of History Entrance 1 2011.jpg": {
+    "artist": "Wpcpey",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Museum_of_History_Entrance_1_2011.jpg",
+    "context": "Hong Kong Museum of History — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-6.webp",
+    "card": "images/china/hong-kong--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hong Kong night skyline during Symphony of Lights from Tsim Sha Tsui.jpg": {
+    "artist": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_night_skyline_during_Symphony_of_Lights_from_Tsim_Sha_Tsui.jpg",
+    "context": "Watch the Symphony of Lights — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-5.webp",
+    "card": "images/china/hong-kong--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Hong Kong Night Skyline.jpg": {
+    "artist": "Base64, retouched by CarolSpears",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Night_Skyline.jpg",
+    "context": "Hong Kong, China",
+    "hero": "images/china/hong-kong.webp",
+    "card": "images/china/hong-kong-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 685,
+    "cardWidth": 800,
+    "cardHeight": 342
+  },
+  "File:Hong Kong Tramways Double Decker Tram (Ank Kumar) 01.jpg": {
+    "artist": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Tramways_Double_Decker_Tram_(Ank_Kumar)_01.jpg",
+    "context": "Ride the Star Ferry and a tram in the same day — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-4.webp",
+    "card": "images/china/hong-kong--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Hoppin' John peas&rice.JPG": {
     "artist": "Bubba73 (Jud McCranie)",
     "license": "CC BY-SA 4.0",
@@ -7291,6 +7447,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Mercado en Temple St., Hong Kong, 2013-08-11, DD 02.JPG": {
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercado_en_Temple_St.,_Hong_Kong,_2013-08-11,_DD_02.JPG",
+    "context": "Temple Street Night Market — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-5.webp",
+    "card": "images/china/hong-kong--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Mercat de Russafa.JPG": {
     "artist": "Joanbanjo",
@@ -9840,6 +10009,19 @@
     "cardWidth": 800,
     "cardHeight": 534
   },
+  "File:Roast goose in yat lok restaurant.JPG": {
+    "artist": "Sakaori (talk)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roast_goose_in_yat_lok_restaurant.JPG",
+    "context": "Roast goose and char siu — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-2.webp",
+    "card": "images/china/hong-kong--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Roasted Hatch chile peppers.png": {
     "artist": "Steveprutz",
     "license": "CC BY-SA 4.0",
@@ -10945,6 +11127,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Star ferry Day star.jpg": {
+    "artist": "Thehistorianisaac",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Star_ferry_Day_star.jpg",
+    "context": "The Star Ferry across Victoria Harbour — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-2.webp",
+    "card": "images/china/hong-kong--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 720,
+    "cardWidth": 800,
+    "cardHeight": 360
+  },
   "File:Staten Island Ferry terminal.jpg": {
     "artist": "Daniel Schwen",
     "license": "CC BY-SA 4.0",
@@ -11270,6 +11465,19 @@
     "cardWidth": 800,
     "cardHeight": 328
   },
+  "File:Tai Wan Village, Lamma Island 07.jpg": {
+    "artist": "Underwaterbuffalo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tai_Wan_Village,_Lamma_Island_07.jpg",
+    "context": "Take the outlying island ferries — Hong Kong, China",
+    "hero": "images/china/hong-kong--thing-2.webp",
+    "card": "images/china/hong-kong--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Tandyr Kabob.JPG": {
     "artist": "Alaexis",
     "license": "CC BY-SA 2.5",
@@ -11569,6 +11777,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:The Peak Mak's Noodle Wonton noodle soup 09-11-2021.jpg": {
+    "artist": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Peak_Mak%27s_Noodle_Wonton_noodle_soup_09-11-2021.jpg",
+    "context": "Wonton noodles — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-3.webp",
+    "card": "images/china/hong-kong--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:The real Great Glass Elevator (53963531319).jpg": {
     "artist": "Scott Edmunds",
     "license": "CC BY 2.0",
@@ -11672,6 +11893,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Tian Tan Buddha by Beria.jpg": {
+    "artist": "Béria Lima de Rodríguez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tian_Tan_Buddha_by_Beria.jpg",
+    "context": "Tian Tan Buddha and Po Lin Monastery — Hong Kong, China",
+    "hero": "images/china/hong-kong--attraction-4.webp",
+    "card": "images/china/hong-kong--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Tianmen Mountain Heaven Gate arch Zhangjiajie.jpg": {
     "artist": "Lianguanlun",
@@ -13293,6 +13527,19 @@
     "context": "Chengdu Research Base of Giant Panda Breeding — Chengdu, China",
     "hero": "images/china/chengdu--attraction-1.webp",
     "card": "images/china/chengdu--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:樂香園 (蛇竇) 下午茶- 菠蘿油, 奶茶Afternoon tea- Pineapple bun and milk tea (5296598723).jpg": {
+    "artist": "Dennis Wong from Hong Kong, Hong Kong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A8%82%E9%A6%99%E5%9C%92_(%E8%9B%87%E7%AB%87)_%E4%B8%8B%E5%8D%88%E8%8C%B6-_%E8%8F%A0%E8%98%BF%E6%B2%B9,_%E5%A5%B6%E8%8C%B6Afternoon_tea-_Pineapple_bun_and_milk_tea_(5296598723).jpg",
+    "context": "Milk tea and pineapple bun — Hong Kong, China",
+    "hero": "images/china/hong-kong--food-5.webp",
+    "card": "images/china/hong-kong--food-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
