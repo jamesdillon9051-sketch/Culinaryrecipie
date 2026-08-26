@@ -1,0 +1,375 @@
+{
+  "slug": "rugen-baltic-coast",
+  "name": "Rügen and the Baltic Coast",
+  "country": "germany",
+  "region": "Mecklenburg-Vorpommern",
+  "categories": ["coastal", "nature", "seaside-resort"],
+  "tagline": "Germany's largest island, its chalk cliffs rising white out of the Baltic above beech forest, ringed by 19th-century seaside resort towns most visitors never expect to find in Germany.",
+  "highlight": "The Königsstuhl chalk cliff dropping sheer into the Baltic's blue-green water, framed by beech forest, one of Germany's most photographed natural views.",
+  "shortDescription": "Germany's largest island, its white chalk cliffs and elegant seaside resorts forming a Baltic coastline most visitors never associate with the country.",
+  "metaDescription": "A Rügen and Baltic Coast travel guide: the Jasmund chalk cliffs, the seaside resort towns, when to go and a practical three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Rostock-Laage (RLG) or Hamburg (HAM)",
+  "knownFor": "The Jasmund chalk cliffs, Baltic seaside resorts, beech forest",
+  "budget": "€75–140 per day, mid-range",
+  "goodFor": "Coastal scenery, hiking, seaside relaxation, architecture",
+  "coords": { "lat": 54.4308, "lng": 13.4272 },
+  "image": {
+    "file": "File:Chalk cliffs of Jasmund National Park on Rügen island in autumn 16.jpg",
+    "alt": "The white chalk cliffs of Rügen's Jasmund National Park dropping into the Baltic Sea"
+  },
+  "intro": [
+    "Rügen is Germany's largest island, a genuinely different landscape from anything inland — chalk cliffs, beech forest, wide sandy beaches and a Baltic coastline that surprises most first-time visitors who don't associate Germany with seaside resorts at all. The island has drawn German holidaymakers for well over a century, and its architecture still shows it.",
+    "The island's chalk cliffs, protected within Jasmund National Park, were made famous well beyond Germany by Caspar David Friedrich's early 19th-century Romantic paintings, which turned the dramatic white cliffs and beech forest into a genuine symbol of the Romantic movement's fascination with sublime nature.",
+    "Rügen's coastal towns, along with mainland resorts like Heiligendamm further along the Baltic coast, developed a distinctive 'Bäderarchitektur' — ornate white seaside villas built for 19th-century bathing tourism — that still defines the region's genuinely elegant resort towns today, largely spared the wartime destruction that reshaped so much of urban Germany."
+  ],
+  "whyVisit": {
+    "intro": "Rügen's case is that no other part of Germany pairs this dramatic a coastline with this much genuine, well-preserved seaside resort architecture.",
+    "points": [
+      {
+        "title": "The chalk cliffs are genuinely dramatic",
+        "text": "Jasmund National Park's white cliffs above the Baltic rank among Germany's most striking natural landscapes."
+      },
+      {
+        "title": "The resort architecture is genuinely well preserved",
+        "text": "The island's Bäderarchitektur seaside towns largely escaped wartime destruction, keeping their 19th-century elegance intact."
+      },
+      {
+        "title": "It's a genuinely different side of Germany",
+        "text": "Wide beaches, island light and Baltic scenery most visitors never expect to find within the country at all."
+      },
+      {
+        "title": "The hiking is genuinely rewarding",
+        "text": "Coastal trails through beech forest and along the cliffs offer some of northern Germany's best walking."
+      },
+      {
+        "title": "It works well as a slower, restorative stop",
+        "text": "A genuine change of pace after Germany's historic cities, built around beaches, forest and open sea air."
+      }
+    ]
+  },
+  "attractionsIntro": "Rügen's essential sights, from its dramatic chalk cliffs to its elegant 19th-century seaside resort towns.",
+  "attractions": [
+    {
+      "name": "The Jasmund National Park chalk cliffs",
+      "image": {
+        "file": "File:2019 - Nationalpark Jasmund - 03.jpg",
+        "alt": "Chalk cliffs rising above the Baltic in Jasmund National Park"
+      },
+      "text": "Rügen's most famous landscape, white chalk cliffs rising directly from the Baltic above dense beech forest, protected as one of Germany's smallest but most striking national parks.",
+      "tip": "The Königsstuhl viewing platform offers the classic view, though quieter cliff-top trails nearby give a genuinely less crowded perspective."
+    },
+    {
+      "name": "The Königsstuhl (King's Chair)",
+      "image": {
+        "file": "File:Königsstuhl und Viktoria-Sicht.jpg",
+        "alt": "The Königsstuhl chalk cliff formation and Viktoria-Sicht viewpoint"
+      },
+      "text": "The most famous individual chalk cliff formation, with a modern visitor centre explaining the coastline's geology and Caspar David Friedrich's role in making it famous.",
+      "tip": "Book the shuttle bus from Sassnitz in summer, as the car park fills early on clear days."
+    },
+    {
+      "name": "Binz",
+      "image": {
+        "file": "File:Kurhaus Strand Binz 2012.jpg",
+        "alt": "The Kurhaus and beach at Binz, Rügen's grandest seaside resort"
+      },
+      "text": "Rügen's grandest seaside resort town, its long promenade lined with genuinely elegant white Bäderarchitektur villas built for 19th-century bathing tourism.",
+      "tip": "The Kurhaus and pier make a good anchor for exploring the villa-lined side streets."
+    },
+    {
+      "name": "The Rasender Roland steam railway",
+      "image": {
+        "file": "File:2014 Rügensche Kleinbahn 03.jpg",
+        "alt": "The Rasender Roland narrow-gauge steam train on Rügen"
+      },
+      "text": "A narrow-gauge steam train connecting several of Rügen's resort towns, running since 1895 and still a genuinely working piece of the island's transport history.",
+      "tip": "The Putbus to Binz stretch is the most scenic and most frequently run section."
+    },
+    {
+      "name": "Cape Arkona",
+      "image": {
+        "file": "File:Cape Arkona Lighthouses 2012.jpg",
+        "alt": "The two historic lighthouses at Cape Arkona, Rügen's northernmost point"
+      },
+      "text": "The island's northernmost point, with two historic lighthouses above dramatic cliffs, marking the spot where the Baltic and Rügen's coastline meet most directly.",
+      "tip": "The cliff-top walk from Putgarten village to the lighthouses is short but genuinely scenic."
+    },
+    {
+      "name": "Putbus",
+      "image": {
+        "file": "File:Paedagogium Putbus 2012.jpg",
+        "alt": "A neoclassical building in Putbus, Rügen's planned 19th-century town"
+      },
+      "text": "A planned neoclassical town built by a 19th-century prince, its circular market square and white buildings genuinely unlike anywhere else on the island.",
+      "tip": "The town's Orangery and English landscape park make a peaceful stop away from the coastal crowds."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the cliffs and resort architecture, Rügen rewards slow coastal walking and its own Baltic food traditions.",
+  "thingsToDo": [
+    {
+      "title": "Hike the Höhenweg cliff-top trail",
+      "image": {
+        "file": "File:Nationalpark Jasmund Stubnitz 08.jpg",
+        "alt": "The beech forest of the Stubnitz, crossed by Jasmund's cliff-top hiking trail"
+      },
+      "text": "A genuinely spectacular coastal path through Jasmund's beech forest and along the chalk cliff edge, one of northern Germany's best day hikes.",
+      "tip": "Start early from Sassnitz to have the quieter northern stretches largely to yourself."
+    },
+    {
+      "title": "Walk Binz's promenade and pier",
+      "image": {
+        "file": "File:Binz Pier.jpg",
+        "alt": "Binz's pier extending into the Baltic Sea"
+      },
+      "text": "A relaxed evening walk past the resort town's grand villas and out along its pier is a genuinely essential part of the Rügen experience.",
+      "tip": "Sunset over the Baltic from the pier is worth timing a visit around."
+    },
+    {
+      "title": "Ride the Rasender Roland steam train",
+      "image": {
+        "file": "File:Putbus Bahnhof 08.JPG",
+        "alt": "The Rasender Roland steam train at Putbus station"
+      },
+      "text": "A genuinely charming way to move between resort towns, the narrow-gauge steam railway is as much an attraction as a transport link.",
+      "tip": "Sit on the right-hand side heading from Putbus to Binz for the better coastal glimpses."
+    },
+    {
+      "title": "Swim or relax on Rügen's beaches",
+      "image": {
+        "file": "File:Ostseestrand bei Binz (Rügen) (5) (11797436693).jpg",
+        "alt": "A sandy Baltic Sea beach near Binz, Rügen"
+      },
+      "text": "Wide, genuinely sandy Baltic beaches line much of the island's eastern coast, dotted with the traditional wicker Strandkorb beach chairs.",
+      "tip": "Renting a Strandkorb for the day is a genuinely essential piece of Baltic beach culture, not just a tourist gimmick."
+    },
+    {
+      "title": "Visit the Störtebeker Festival or Prora history site",
+      "image": {
+        "file": "File:2020 07 17 entrance to Prora Documentation Centre with MACHTUrlaub exhibition.jpg",
+        "alt": "The entrance to the Prora Documentation Centre, Rügen"
+      },
+      "text": "Rügen's history runs from medieval pirate legend to a vast unfinished Nazi-era holiday complex at Prora, now partly a genuinely thoughtful museum on the site's history.",
+      "tip": "The Prora museum's exhibits on the complex's later East German military use are as interesting as its Nazi-era origins."
+    },
+    {
+      "title": "Day trip to Hiddensee island",
+      "image": {
+        "file": "File:Das Schwedenhagener Ufer auf Hiddensee (NSG N 294).jpg",
+        "alt": "The shoreline of Hiddensee, Rügen's car-free neighbouring island"
+      },
+      "text": "A genuinely car-free neighbouring island reachable by ferry, historically a retreat for German writers and artists, offering an even quieter version of Rügen's own pace.",
+      "tip": "Rent a bike on arrival — it's the easiest way to see Hiddensee's full length in a day."
+    }
+  ],
+  "foodIntro": "Rügen and the Baltic coast lean on fresh fish, smoking traditions and the region's own hearty northern German cooking.",
+  "foods": [
+    {
+      "name": "Fischbrötchen",
+      "image": {
+        "file": "File:Fischbrötchen P3040123.JPG",
+        "alt": "A Fischbrötchen, a fresh fish sandwich sold from Baltic coast harbour stands"
+      },
+      "text": "A fresh or smoked fish sandwich sold from harbourside stands all along the Baltic coast, genuinely the region's defining quick meal.",
+      "whereToTry": "Harbour fish stands in Sassnitz and Binz, sold straight off the boat in season."
+    },
+    {
+      "name": "Räucherfisch (smoked fish)",
+      "image": {
+        "file": "File:Pfefferhering Vitt (1).jpg",
+        "alt": "Pepper herring from the fishing village of Vitt on Rügen"
+      },
+      "text": "Herring, eel and sprat smoked at small harbourside smokehouses, a genuine Baltic coastal tradition going back generations.",
+      "whereToTry": "Traditional smokehouses (Räuchereien) at Sassnitz harbour and along the coast."
+    },
+    {
+      "name": "Rügener Backfisch",
+      "text": "Lightly battered and fried fish, typically caught locally, a genuinely simple and popular coastal dish served at harbourside kiosks.",
+      "whereToTry": "Harbour kiosks and seaside restaurants throughout Rügen's resort towns."
+    },
+    {
+      "name": "Mecklenburg Rippenbraten",
+      "image": {
+        "file": "File:Mecklenburger-Rippenbraten-Carsten-R.jpg",
+        "alt": "Mecklenburg Rippenbraten, roasted pork stuffed with prunes and apples"
+      },
+      "text": "A hearty roasted pork dish stuffed with prunes and apples, a genuine regional classic from the wider Mecklenburg-Vorpommern countryside.",
+      "whereToTry": "Traditional inns inland from the coast, especially in the colder months."
+    },
+    {
+      "name": "Baltic Sea sprat",
+      "image": {
+        "file": "File:Kieler Sprotten 2010.JPG",
+        "alt": "Smoked Baltic sprats, a traditional regional catch"
+      },
+      "text": "Small, oily Baltic fish, traditionally smoked or pickled, a genuinely humble but historically important regional catch.",
+      "whereToTry": "Fish markets and smokehouses at any of the island's working harbours."
+    },
+    {
+      "name": "Rote Grütze",
+      "image": {
+        "file": "File:Rote Grütze mit Vanillesoße.JPG",
+        "alt": "Rote Grütze, a tart red berry compote served with vanilla sauce"
+      },
+      "text": "A tart red berry compote served with cream or vanilla sauce, a genuinely beloved northern German dessert found the length of the Baltic coast.",
+      "whereToTry": "Cafés and restaurants throughout Rügen's resort towns."
+    }
+  ],
+  "accommodation": {
+    "intro": "Rügen's accommodation spreads across several distinct resort towns, each with a genuinely different character.",
+    "areas": [
+      {
+        "name": "Binz",
+        "bestFor": "Grand resort atmosphere and nightlife",
+        "text": "The island's largest and liveliest resort, with the widest range of hotels and the most Bäderarchitektur to walk past."
+      },
+      {
+        "name": "Sassnitz",
+        "bestFor": "The chalk cliffs and hiking",
+        "text": "The closest base to Jasmund National Park, with a working harbour and a more low-key, less resort-like feel."
+      },
+      {
+        "name": "Putbus",
+        "bestFor": "A quieter, architecturally distinct stay",
+        "text": "The island's neoclassical planned town, genuinely peaceful and central for the Rasender Roland's full network."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "€24–38 per night" },
+      { "label": "Mid-range hotel", "value": "€85–160 per night" },
+      { "label": "Königsstuhl visitor centre entry", "value": "€12" },
+      { "label": "Fischbrötchen", "value": "€5–8" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Rügen sits well off Germany's main rail network, making a longer journey or a rental car genuinely worthwhile.",
+    "options": [
+      {
+        "mode": "Rail from other German cities",
+        "text": "Direct trains connect [[berlin|Berlin]] to Binz in about 3h30, crossing the Rügen bridge from the mainland.",
+        "detail": "Book Sparpreis fares ahead, as this longer route benefits significantly from advance pricing."
+      },
+      {
+        "mode": "Rostock-Laage or Hamburg Airport",
+        "text": "Rostock-Laage is the closer regional airport, though Hamburg offers a far wider range of international connections.",
+        "detail": "A rental car or onward train from either airport covers the final stretch to the island."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Genuinely the most flexible way to reach and explore Rügen, crossing the road bridge from Stralsund on the mainland.",
+        "detail": "Summer weekend traffic across the bridge can back up significantly — an early or late crossing helps."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Rügen's resort towns are walkable individually, with the steam railway and buses linking them across the island.",
+    "options": [
+      {
+        "mode": "Rasender Roland steam railway",
+        "text": "Connects Putbus, Binz and several smaller stops, a genuinely scenic and practical way to move between towns.",
+        "detail": "Runs several times daily year-round, more frequently in summer."
+      },
+      {
+        "mode": "Rental car",
+        "text": "The most flexible option for reaching Cape Arkona, Jasmund's trailheads and the island's quieter corners.",
+        "detail": "Parking at popular trailheads fills early on clear summer days."
+      },
+      {
+        "mode": "Bicycle",
+        "text": "Rügen's relatively flat terrain and dedicated cycle paths make it a genuinely rewarding island to explore by bike.",
+        "detail": "Most resort towns and the Stralsund mainland side rent bikes by the day."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "June and September for warm weather without the peak-summer crowds",
+    "summary": "Rügen's Baltic climate means a genuinely short warm season, and its popularity as a domestic German holiday spot makes timing matter.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "good",
+        "text": "Cool but increasingly pleasant, with the island's beech forests turning a genuinely vivid fresh green."
+      },
+      {
+        "season": "Early summer (June)",
+        "rating": "best",
+        "text": "Warm, long days and the best balance of good weather against the school-holiday crowds of July and August."
+      },
+      {
+        "season": "Peak summer (July–August)",
+        "rating": "good",
+        "text": "The warmest swimming weather, though also genuinely the island's busiest and most heavily booked season."
+      },
+      {
+        "season": "Autumn (September)",
+        "rating": "best",
+        "text": "Mild, quieter, and often genuinely clear for cliff views, with the crowds of summer largely gone."
+      }
+    ],
+    "avoid": "July and August without accommodation booked well ahead, when German school holidays fill the island's resort towns."
+  },
+  "itinerary": {
+    "title": "Three days on Rügen",
+    "intro": "The chalk cliffs first, then the resort towns and coastline, then the island's quieter corners.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Jasmund and the chalk cliffs",
+        "summary": "Rügen's defining landscape.",
+        "morning": "The Königsstuhl visitor centre and viewing platform.",
+        "afternoon": "The Höhenweg cliff-top hiking trail through the beech forest.",
+        "evening": "Dinner in Sassnitz by the harbour."
+      },
+      {
+        "day": 2,
+        "title": "Binz and the resort coast",
+        "summary": "The island's grand seaside architecture.",
+        "morning": "Binz's promenade and Bäderarchitektur villas.",
+        "afternoon": "A Rasender Roland ride to Putbus and its neoclassical town centre.",
+        "evening": "Sunset from Binz's pier."
+      },
+      {
+        "day": 3,
+        "title": "Cape Arkona or Hiddensee",
+        "summary": "Choose the island's far north or its quieter neighbour.",
+        "morning": "Cape Arkona's lighthouses and cliff-top walk, or the ferry to Hiddensee.",
+        "afternoon": "Bike or walk the chosen destination at an unhurried pace.",
+        "evening": "A final Fischbrötchen and return to the mainland."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on timing, transport and the coast that make a real difference to a Rügen trip.",
+  "tips": [
+    "Book accommodation well ahead for July and August, when German school holidays fill the island.",
+    "Cross the Rügen bridge outside weekend peak times in summer to avoid significant traffic delays.",
+    "Wear proper walking shoes for the Höhenweg trail — parts run close to genuine cliff edges.",
+    "Rent a Strandkorb beach chair for at least one day — it's a real, not just touristic, piece of Baltic beach culture.",
+    "Visit the Königsstuhl visitor centre early in the day in summer, before tour groups arrive.",
+    "Consider the ferry to Hiddensee if the resort towns start to feel busy — it's a genuinely quieter contrast.",
+    "Pack layers even in summer — Baltic coastal weather can shift quickly."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need on Rügen?",
+      "a": "Three works well — one for the chalk cliffs, one for the resort towns, and one for Cape Arkona or a Hiddensee day trip."
+    },
+    {
+      "q": "Is Rügen worth visiting if I'm not going for the beaches?",
+      "a": "Yes, genuinely — the chalk cliffs, hiking trails and seaside resort architecture stand on their own beyond swimming season."
+    },
+    {
+      "q": "How do you get to Rügen without a car?",
+      "a": "Direct trains run from Berlin and other German cities to Binz, crossing the road-and-rail bridge from Stralsund on the mainland."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "June and September offer warm weather with noticeably fewer crowds than July and August, which coincide with German school holidays."
+    },
+    {
+      "q": "Is Rügen easy to combine with the rest of a Germany trip?",
+      "a": "It's a genuine detour from the country's central cities, roughly 3 hours from Berlin by train, best suited to itineraries with a dedicated coastal leg."
+    }
+  ],
+  "related": ["hamburg", "berlin", "dresden"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}
