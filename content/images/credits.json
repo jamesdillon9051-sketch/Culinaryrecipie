@@ -454,6 +454,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:20211017.Dresden Castle.-014.jpg": {
+    "artist": "Bybbisch94, Christian Gebhardt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20211017.Dresden_Castle.-014.jpg",
+    "context": "The Green Vault (Grünes Gewölbe) — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-4.webp",
+    "card": "images/germany/dresden--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:2022-09-03 Sheng Jian Bao - Shanghai Pan-Fried Pork Buns.jpg": {
     "artist": "Maksym Kozlenko",
     "license": "CC BY-SA 4.0",
@@ -1871,6 +1884,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bastei Bridge in Saxon Switzerland.jpg": {
+    "artist": "Flukes69",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastei_Bridge_in_Saxon_Switzerland.jpg",
+    "context": "Day trip to Saxon Switzerland — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-4.webp",
+    "card": "images/germany/dresden--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Batea nas Rías Baixas.jpg": {
     "artist": "Rui Ornelas",
     "license": "CC BY 2.0",
@@ -1935,6 +1961,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:Bautz'ner Senf in verschiedenen Geschmacksrichtungen.jpg": {
+    "artist": "Kartenlaser",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bautz%27ner_Senf_in_verschiedenen_Geschmacksrichtungen.jpg",
+    "context": "Bautzner Senf (mustard) — Dresden, Germany",
+    "hero": "images/germany/dresden--food-6.webp",
+    "card": "images/germany/dresden--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Bayeux Tapestry scene57 Harold death.jpg": {
     "artist": "Myrabella",
@@ -2711,6 +2750,19 @@
     "context": "The British Museum — London, United Kingdom",
     "hero": "images/united-kingdom/london--attraction-1.webp",
     "card": "images/united-kingdom/london--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Brücke Blaues Wunder Dresden im Abendlicht - Bridge \"Blue Wonder\" during sunset.jpg": {
+    "artist": "DDGT",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Br%C3%BCcke_Blaues_Wunder_Dresden_im_Abendlicht_-_Bridge_%22Blue_Wonder%22_during_sunset.jpg",
+    "context": "Walk or cycle along the Elbe meadows — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-6.webp",
+    "card": "images/germany/dresden--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -5186,6 +5238,136 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Dresden - Brühlsche Terrasse 1814 'The Balcony of Europe' - View NW on Augustusbrücke 1910 & Elbe River.jpg": {
+    "artist": "Txllxt TxllxT",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_-_Br%C3%BChlsche_Terrasse_1814_%27The_Balcony_of_Europe%27_-_View_NW_on_Augustusbr%C3%BCcke_1910_%26_Elbe_River.jpg",
+    "context": "The Brühl's Terrace — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-6.webp",
+    "card": "images/germany/dresden--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden - Kunsthofpassage Hof der Elemente.jpg": {
+    "artist": "Fred Romero from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_-_Kunsthofpassage_Hof_der_Elemente.jpg",
+    "context": "Explore the Neustadt district — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-2.webp",
+    "card": "images/germany/dresden--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden - One of the many paddle steamers on the river Elbe - 2215.jpg": {
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_-_One_of_the_many_paddle_steamers_on_the_river_Elbe_-_2215.jpg",
+    "context": "Take an Elbe river cruise — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-1.webp",
+    "card": "images/germany/dresden--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden Germany Exterior-of-Semperoper-02.jpg": {
+    "artist": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_Germany_Exterior-of-Semperoper-02.jpg",
+    "context": "The Semperoper — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-3.webp",
+    "card": "images/germany/dresden--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden Germany Fürstenzug-01.jpg": {
+    "artist": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_Germany_F%C3%BCrstenzug-01.jpg",
+    "context": "The Fürstenzug (Procession of Princes) — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-5.webp",
+    "card": "images/germany/dresden--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden Skyline 05.JPG": {
+    "artist": "Ad Meskens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden_Skyline_05.JPG",
+    "context": "Dresden, Germany",
+    "hero": "images/germany/dresden.webp",
+    "card": "images/germany/dresden-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden, Frauenkirche und Kunstakademie.jpg": {
+    "artist": "Dguendel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden,_Frauenkirche_und_Kunstakademie.jpg",
+    "context": "The Frauenkirche — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-1.webp",
+    "card": "images/germany/dresden--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresden, Striezelmarkt -- 2023 -- 9306.jpg": {
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresden,_Striezelmarkt_--_2023_--_9306.jpg",
+    "context": "Visit the Dresden Christmas market (Striezelmarkt) — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-3.webp",
+    "card": "images/germany/dresden--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresdner Eierschecke 1.jpg": {
+    "artist": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresdner_Eierschecke_1.jpg",
+    "context": "Eierschecke — Dresden, Germany",
+    "hero": "images/germany/dresden--food-3.webp",
+    "card": "images/germany/dresden--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Dresdner Stollen 2013-A.JPG": {
+    "artist": "Christoph Jackel (WMDE)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dresdner_Stollen_2013-A.JPG",
+    "context": "Dresdner Stollen — Dresden, Germany",
+    "hero": "images/germany/dresden--food-1.webp",
+    "card": "images/germany/dresden--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Drunken Chicken Roll Slices.jpg": {
     "artist": "Ceeseven",
     "license": "CC BY-SA 4.0",
@@ -6351,6 +6533,19 @@
     "context": "Gelato, properly made — Italy",
     "hero": "images/italy/_country--food-6.webp",
     "card": "images/italy/_country--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Germany-04172 - The Zwinger (30308359176).jpg": {
+    "artist": "Dennis G. Jarvis",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Germany-04172_-_The_Zwinger_(30308359176).jpg",
+    "context": "The Zwinger Palace — Dresden, Germany",
+    "hero": "images/germany/dresden--attraction-2.webp",
+    "card": "images/germany/dresden--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9788,6 +9983,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Militärhistorisches Museum in Dresden 7.jpg": {
+    "artist": "Bundeswehr-Fotos Wir.Dienen.Deutschland.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milit%C3%A4rhistorisches_Museum_in_Dresden_7.jpg",
+    "context": "Visit the Military History Museum — Dresden, Germany",
+    "hero": "images/germany/dresden--thing-5.webp",
+    "card": "images/germany/dresden--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 491
+  },
   "File:Miniatur Wunderland Hamburg 2.jpg": {
     "artist": "Steven Lek",
     "license": "CC BY-SA 4.0",
@@ -12349,6 +12557,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Quarkkäulchen mit Apfelmus.JPG": {
+    "artist": "Dr. Bernd Gross",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quarkk%C3%A4ulchen_mit_Apfelmus.JPG",
+    "context": "Quarkkeulchen — Dresden, Germany",
+    "hero": "images/germany/dresden--food-4.webp",
+    "card": "images/germany/dresden--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Queso Idiazábal.jpg": {
     "artist": "Xavigivax",
     "license": "CC BY-SA 3.0",
@@ -13402,6 +13623,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Sauerbraten with potato dumplings.jpg": {
+    "artist": "Jameres",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg",
+    "context": "Sächsischer Sauerbraten — Dresden, Germany",
+    "hero": "images/germany/dresden--food-2.webp",
+    "card": "images/germany/dresden--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Saumur (138) Montsoreau troglodyte.jpg": {
     "artist": "Palamède",
     "license": "CC BY-SA 4.0",
@@ -13661,6 +13895,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:SeußlitzWeinbergaussicht1.JPG": {
+    "artist": "Jwaller",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seu%C3%9FlitzWeinbergaussicht1.JPG",
+    "context": "Saxon wine — Dresden, Germany",
+    "hero": "images/germany/dresden--food-5.webp",
+    "card": "images/germany/dresden--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Sevilla - Plaza de España - 1.jpg": {
     "artist": "Benjamin Smith",
