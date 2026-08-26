@@ -3236,6 +3236,45 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bourtzi Castle.jpg": {
+    "artist": "Elgaard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bourtzi_Castle.jpg",
+    "context": "The Bourtzi fortress — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-2.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Bourtzi Nauplio.jpg": {
+    "artist": "Dimitra Konstantinidou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bourtzi_Nauplio.jpg",
+    "context": "Take a boat out to the Bourtzi fortress — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-2.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Bourtzi-Nafplio.jpg": {
+    "artist": "Ava Babili",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bourtzi-Nafplio.jpg",
+    "context": "Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese.webp",
+    "card": "images/greece/nafplio-peloponnese-card.webp",
+    "heroWidth": 1572,
+    "heroHeight": 884,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bouteille de génépi noir, fabriqué en Savoie.jpeg": {
     "artist": "Romainbehar",
     "license": "CC0",
@@ -7448,6 +7487,19 @@
     "cardWidth": 800,
     "cardHeight": 500
   },
+  "File:Fortress of Palamidi - Nafplio.jpg": {
+    "artist": "Camcool11",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fortress_of_Palamidi_-_Nafplio.jpg",
+    "context": "Palamidi fortress — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-3.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:FortSumter2009.jpg": {
     "artist": "Bubba73 (talk), (Jud McCranie)",
     "license": "CC BY-SA 3.0",
@@ -10360,6 +10412,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Karatona beach.jpg": {
+    "artist": "Pepnafplio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karatona_beach.jpg",
+    "context": "Explore the Argolic coastline — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-4.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Karpfen blau Zum Hirschen Bad Windsheim.JPG": {
     "artist": "Benreis",
     "license": "CC BY 3.0",
@@ -11595,6 +11660,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Lion Gate, Mycenae, 201510.jpg": {
+    "artist": "Zde",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Mycenae,_201510.jpg",
+    "context": "Ancient Mycenae — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-4.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
+  },
   "File:Lipari. Colazione da 'Dolci Tentazioni' (01297).JPG": {
     "artist": "Francesco Tosoni",
     "license": "CC BY-SA 4.0",
@@ -11828,6 +11906,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 474
+  },
+  "File:Loukoumades Greek Doughnuts with Walnuts and Honey.jpg": {
+    "artist": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loukoumades_Greek_Doughnuts_with_Walnuts_and_Honey.jpg",
+    "context": "Loukoumades — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--food-6.webp",
+    "card": "images/greece/nafplio-peloponnese--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Lower Duden Falls.jpg": {
     "artist": "Saffron Blaze",
@@ -13402,6 +13493,32 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Nafplio Palamidi Fortress.jpg": {
+    "artist": "Marek Matula",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nafplio_Palamidi_Fortress.jpg",
+    "context": "Walk up to the Palamidi fortress — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-1.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Nafplio, Greece 2022.jpg": {
+    "artist": "Nikoletta.petropoulou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nafplio,_Greece_2022.jpg",
+    "context": "Nafplio's old town — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-1.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Nagamachi samurai district.jpg": {
     "artist": "sergejf",
     "license": "CC BY 2.0",
@@ -13657,6 +13774,19 @@
     "context": "Take the aperitivo hour — Italy",
     "hero": "images/italy/_country--thing-6.webp",
     "card": "images/italy/_country--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Nemea Wine-Olives Corinthia Peloponnese.jpg": {
+    "artist": "ulrichstill",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nemea_Wine-Olives_Corinthia_Peloponnese.jpg",
+    "context": "Try the region's olive oil and wine — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-6.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -14996,6 +15126,19 @@
     "context": "Walk the last stretch of the Camino — Santiago de Compostela & Galicia, Spain",
     "hero": "images/spain/santiago-galicia--thing-1.webp",
     "card": "images/spain/santiago-galicia--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Performance in the Theatre of Epidaurus, 091075.jpg": {
+    "artist": "Zde",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Performance_in_the_Theatre_of_Epidaurus,_091075.jpg",
+    "context": "See a performance at Epidaurus, if timing allows — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-3.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-3-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -19460,6 +19603,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:The foundations of a Propylon outside the central Sanctuary of Asklepios, Epidaurus, Greece.jpg": {
+    "artist": "Carole Raddato",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_foundations_of_a_Propylon_outside_the_central_Sanctuary_of_Asklepios,_Epidaurus,_Greece.jpg",
+    "context": "The Sanctuary of Asklepios at Epidaurus — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-6.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 530
+  },
   "File:The gardens at New College, Oxford - geograph.org.uk - 1942523.jpg": {
     "artist": "Marathon",
     "license": "CC BY-SA 2.0",
@@ -19797,6 +19953,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Theatre of Epidaurus, 091172.jpg": {
+    "artist": "Zde",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theatre_of_Epidaurus,_091172.jpg",
+    "context": "The Theatre of Epidaurus — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--attraction-5.webp",
+    "card": "images/greece/nafplio-peloponnese--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:Thermae Spa from Bath Abbey Tower.jpg": {
     "artist": "NH53",
@@ -21501,6 +21670,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Village house in Manthyrea.jpg": {
+    "artist": "Timeheritage",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Village_house_in_Manthyrea.jpg",
+    "context": "Visit a Peloponnese mountain village — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--thing-5.webp",
+    "card": "images/greece/nafplio-peloponnese--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Village of Gordes.jpg": {
     "artist": "Einaz80",
     "license": "CC BY-SA 4.0",
@@ -21539,6 +21721,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:Vine tree near Archeological site of Nemea, Neme435.jpg": {
+    "artist": "Zde",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vine_tree_near_Archeological_site_of_Nemea,_Neme435.jpg",
+    "context": "Peloponnese wine — Nafplio and the Peloponnese, Greece",
+    "hero": "images/greece/nafplio-peloponnese--food-5.webp",
+    "card": "images/greece/nafplio-peloponnese--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Viñedos de albariño en la parroquia de la Santa Cruz de Castrelo (Cambados)..JPG": {
     "artist": "Re Fresh Vigo",
