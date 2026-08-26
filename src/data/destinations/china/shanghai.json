@@ -1,0 +1,385 @@
+{
+  "slug": "shanghai",
+  "name": "Shanghai",
+  "country": "china",
+  "region": "Shanghai Municipality",
+  "categories": ["major-city", "coast-beaches", "culture-arts"],
+  "tagline": "A fishing town in the nineteenth century, the most cosmopolitan city in Asia by the 1930s, and now a skyline that did not exist before 1990 facing a colonial waterfront that has barely changed since.",
+  "highlight": "The Bund at dusk — a row of 1920s European banking houses facing the futuristic towers of Pudong across the Huangpu River.",
+  "shortDescription": "China's financial capital and its most international city, where a preserved 1920s waterfront stares across the river at a skyline that is barely three decades old.",
+  "metaDescription": "A Shanghai travel guide: the Bund, Yu Garden, the French Concession and Pudong's skyline, where to eat xiaolongbao, when to go and a three-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Shanghai Pudong (PVG) or Hongqiao (SHA)",
+  "knownFor": "The Bund, Pudong's skyline, xiaolongbao, the French Concession",
+  "budget": "¥800–1,500 per day, mid-range",
+  "goodFor": "Architecture, food, nightlife, shopping",
+  "coords": { "lat": 31.2304, "lng": 121.4737 },
+  "image": {
+    "file": "File:Pudong Shanghai November 2017.jpg",
+    "alt": "The futuristic skyline of Pudong, Shanghai, seen across the Huangpu River"
+  },
+  "intro": [
+    "Shanghai was a fishing and weaving town of no particular significance until foreign powers forced it open as a treaty port in 1842. Within a century it had become the most cosmopolitan city in Asia, a genuine international metropolis of foreign concessions, jazz clubs, gangsters and the tallest buildings on the continent — a period locals still refer to simply as Shanghai's 'golden age'. Then came decades of quiet isolation under the early People's Republic, before the Pudong district across the river was designated a special economic zone in 1990 and transformed, in barely a generation, from farmland into one of the most recognisable skylines on earth.",
+    "That history left the city with two faces that face each other across the Huangpu River. The Bund is the old face: a kilometre of grand 1920s banking houses in a dozen European styles, built when Shanghai's financial district rivalled London's. Pudong is the new one: the Oriental Pearl Tower, the bottle-opener-shaped Shanghai World Financial Center and the Shanghai Tower, China's tallest building, none of which existed when many residents were born.",
+    "Between the two, and easy to overlook if you only chase the skyline, is a city that still rewards slow walking — the French Concession's plane-tree-lined streets, Yu Garden's Ming-dynasty rockeries hidden behind the old town's tourist stalls, and a food culture, all soup dumplings, scallion pancakes and sweet-savoury Shanghainese cooking, that is completely distinct from the rest of China."
+  ],
+  "whyVisit": {
+    "intro": "Shanghai's case is that no other Chinese city shows the country's last two centuries — colonial treaty port, wartime crucible, communist austerity, capitalist boom — this vividly in one river view.",
+    "points": [
+      {
+        "title": "The Bund-to-Pudong view is unmatched",
+        "text": "Nowhere else puts a century-old colonial waterfront and a skyline built almost entirely since 1990 directly opposite each other across a single river."
+      },
+      {
+        "title": "It is China's most walkable major city",
+        "text": "The French Concession's tree-lined streets, low-rise architecture and cafe culture make for genuinely pleasant, unhurried walking rare in a city this size."
+      },
+      {
+        "title": "The food culture is its own thing",
+        "text": "Xiaolongbao, sheng jian bao and a sweeter, more delicate cooking style set Shanghainese food apart from every other regional cuisine in this guide."
+      },
+      {
+        "title": "It is the most internationally fluent Chinese city",
+        "text": "More English is spoken here than almost anywhere else in mainland China, which makes it a genuinely easier first stop for a nervous first-time visitor."
+      },
+      {
+        "title": "The day trips are excellent",
+        "text": "Suzhou's gardens and Hangzhou's West Lake are both under ninety minutes away by bullet train, adding classical China to Shanghai's modern one."
+      }
+    ]
+  },
+  "attractionsIntro": "Shanghai rewards pairing its two faces deliberately — one day mostly old Shanghai, one day mostly new — rather than trying to see everything at once.",
+  "attractions": [
+    {
+      "name": "The Bund",
+      "image": {
+        "file": "File:HSBC building in the Bund, Shanghai.jpg",
+        "alt": "One of the historic early-twentieth-century banking houses on the Bund"
+      },
+      "text": "A kilometre of early-twentieth-century banking houses in Gothic, Baroque, Renaissance and Art Deco styles, built when Shanghai's financial district rivalled the world's great cities, now floodlit nightly facing Pudong's towers across the water.",
+      "tip": "Walk it twice — by day for the buildings' detail, and again at dusk when both banks light up simultaneously."
+    },
+    {
+      "name": "The Pudong skyline",
+      "image": {
+        "file": "File:Shanghai skyline waterfront pudong A235423.jpg",
+        "alt": "Pudong's cluster of skyscrapers seen from across the water"
+      },
+      "text": "The Oriental Pearl Tower, the Jin Mao Tower, the Shanghai World Financial Center and the 632-metre Shanghai Tower — China's tallest building — clustered together and viewable from multiple observation decks or, more cheaply, from the Bund itself.",
+      "tip": "The Shanghai Tower's observation deck is the highest and least crowded of the three main options, if pricier."
+    },
+    {
+      "name": "Yu Garden",
+      "image": {
+        "file": "File:Yu Garden Shanghai November 2017 002.jpg",
+        "alt": "Rockeries and pavilions inside the classical Yu Garden"
+      },
+      "text": "A Ming-dynasty classical garden hidden behind the old town's bazaar, its rockeries, ponds and pavilions a genuine escape from the surrounding tourist shopping street, dating to 1559 and one of the few surviving pieces of pre-treaty-port Shanghai.",
+      "tip": "Arrive at opening to see it before the tour groups. The surrounding bazaar is worth a wander for snacks either way."
+    },
+    {
+      "name": "The French Concession",
+      "image": {
+        "file": "File:Street View of Hengshan Rd..JPG",
+        "alt": "A tree-lined street of 1920s buildings in the French Concession"
+      },
+      "text": "Tree-lined streets of 1920s villas and lane houses, now filled with independent boutiques, cafes and restaurants — the most pleasant part of Shanghai simply to walk without a destination in mind.",
+      "tip": "Wukang Road and Anfu Road have the best concentration of interesting small shops and cafes."
+    },
+    {
+      "name": "The Shanghai Museum",
+      "image": {
+        "file": "File:2010 Shanghai Museum.jpg",
+        "alt": "The exterior of the Shanghai Museum in People's Square"
+      },
+      "text": "One of China's best museums, with bronze, ceramic, calligraphy and jade collections spanning millennia, free to enter and a genuinely world-class rainy-day option.",
+      "tip": "Free but often queued — arrive at opening or go on a weekday afternoon."
+    },
+    {
+      "name": "Zhujiajiao water town",
+      "image": {
+        "file": "File:Zhujiajiao ancient water town, Nr. Shanghai, China - 1.jpg",
+        "alt": "Stone bridges and canal houses in the water town of Zhujiajiao"
+      },
+      "text": "A well-preserved canal town on Shanghai's outskirts, with stone bridges, waterside teahouses and a slower pace than the city centre — the closest easy day trip to the water towns that made this region famous.",
+      "tip": "About an hour from central Shanghai by bus or taxi. Go on a weekday to avoid the worst of the crowds."
+    },
+    {
+      "name": "M50 Art District",
+      "image": {
+        "file": "File:201703 M50 Creative Park.jpg",
+        "alt": "Converted industrial mill buildings in Shanghai's M50 Art District"
+      },
+      "text": "A former textile mill complex converted into galleries and studios, Shanghai's answer to Beijing's 798, smaller and less polished but with a genuinely active working-artist community.",
+      "tip": "Free to wander. Many galleries close on Mondays, so check before making a special trip."
+    }
+  ],
+  "thingsToDoIntro": "Shanghai rewards both structured sightseeing and simply walking a neighbourhood — leave room in the itinerary for the second.",
+  "thingsToDo": [
+    {
+      "title": "Walk the Bund at dusk",
+      "image": {
+        "file": "File:Sunset - the Bund, Shanghai (47792991871).jpg",
+        "alt": "The Bund and Pudong's skyline lit up at dusk"
+      },
+      "text": "The single best few minutes in Shanghai: both banks of the Huangpu light up almost simultaneously as the sky darkens, colonial facades on one side, futuristic towers on the other.",
+      "tip": "Arrive thirty minutes before official sunset to get a good spot on the promenade before it fills."
+    },
+    {
+      "title": "Take a Huangpu River cruise",
+      "image": {
+        "file": "File:River Cruise, Huangpu River from Shanghai.jpg",
+        "alt": "A cruise boat on the Huangpu River with the Shanghai skyline behind"
+      },
+      "text": "A boat trip along the river gives the reverse view — the Bund from the water — and passes directly beneath Pudong's towers, best done as dusk turns to night.",
+      "tip": "Shorter, cheaper evening cruises run frequently from piers near the Bund; no need to book the longer daytime options."
+    },
+    {
+      "title": "Get lost in the French Concession",
+      "text": "No fixed itinerary works as well here as simply picking a direction and walking — plane-tree canopies, converted lane houses, small galleries and coffee roasters around every second corner.",
+      "tip": "Wukang Mansion, a curved Art Deco building at a junction of three roads, is a good anchor point to start from."
+    },
+    {
+      "title": "Eat your way through a Shanghainese breakfast",
+      "text": "Sheng jian bao (pan-fried soup dumplings), scallion pancakes and soy milk from a neighbourhood stall — a completely different, more casual food culture from the tourist restaurants of Yu Garden.",
+      "tip": "Look for a queue of commuters rather than a shopfront with an English menu."
+    },
+    {
+      "title": "Visit an observation deck at night",
+      "image": {
+        "file": "File:Pudong at Night (10274142876).jpg",
+        "alt": "Pudong's illuminated towers seen at night"
+      },
+      "text": "The Shanghai Tower, Jin Mao Tower or Oriental Pearl Tower all offer views over the lit-up skyline and the Bund beyond — a different, more comprehensive perspective than street level.",
+      "tip": "Book tickets online in advance for a discount and to skip the ticket-counter queue."
+    },
+    {
+      "title": "Day-trip to Zhujiajiao or Suzhou",
+      "text": "A canal town under an hour away, or the classical gardens of Suzhou under thirty minutes by bullet train — both add a completely different, older pace to a Shanghai-based trip.",
+      "tip": "Suzhou works as a genuine day trip; Zhujiajiao can be done in half a day if time is tight."
+    }
+  ],
+  "foodIntro": "Shanghainese cooking is sweeter and more delicate than the food of most other Chinese regions, built around soy, sugar and rich braising alongside its famous soup dumplings.",
+  "foods": [
+    {
+      "name": "Xiaolongbao",
+      "image": {
+        "file": "File:Truffle Soup Dumplings at Din Tai Fung.jpg",
+        "alt": "A steamer basket of xiaolongbao soup dumplings"
+      },
+      "text": "Soup dumplings, folded by hand to hold a mouthful of scalding broth inside a thin skin, traditionally eaten with a spoon to catch the first bite rather than risking a lap full of hot soup.",
+      "whereToTry": "Din Tai Fung for reliable excellence, or Yu Garden's bazaar stalls for a more local, less refined version."
+    },
+    {
+      "name": "Sheng jian bao",
+      "image": {
+        "file": "File:2022-09-03 Sheng Jian Bao - Shanghai Pan-Fried Pork Buns.jpg",
+        "alt": "Pan-fried sheng jian bao buns with crisp golden bottoms"
+      },
+      "text": "Pan-fried buns with a similar soup-filled interior to xiaolongbao but a thicker, chewier dough and a crisp fried base — arguably the better breakfast option and less fiddly to eat standing up.",
+      "whereToTry": "Yang's Fry Dumpling, a Shanghai chain with branches across the city and queues at breakfast time."
+    },
+    {
+      "name": "Hongshao rou (red-braised pork)",
+      "image": {
+        "file": "File:Red braised pork belly 红烧肉 hóngshāoròu 23 January 2025 Filipinas4.jpg",
+        "alt": "Glossy dark red-braised pork belly, hongshao rou"
+      },
+      "text": "Pork belly braised slowly in soy sauce, sugar and rice wine until dark, glossy and meltingly tender — the signature dish of the sweeter, richer Shanghainese style of home cooking.",
+      "whereToTry": "Old-school Shanghainese restaurants in the French Concession rather than tourist-facing ones near Yu Garden."
+    },
+    {
+      "name": "Scallion pancakes (cong you bing)",
+      "image": {
+        "file": "File:Scallion pancakes.jpg",
+        "alt": "Flaky, golden scallion pancakes cut into wedges"
+      },
+      "text": "A flaky, layered pan-fried flatbread studded with scallion, crisp outside and soft within, sold from street carts and eaten as a snack or light breakfast across the city.",
+      "whereToTry": "Any street cart with a queue, particularly around the old town and near metro stations in the morning."
+    },
+    {
+      "name": "Drunken chicken",
+      "image": {
+        "file": "File:Drunken Chicken Roll Slices.jpg",
+        "alt": "Sliced drunken chicken, poached and steeped in rice wine"
+      },
+      "text": "Poached chicken steeped in Shaoxing rice wine and served cold, a classic Shanghainese cold appetiser that showcases the region's fondness for rice wine in savoury cooking.",
+      "whereToTry": "Traditional Shanghainese restaurants, usually listed among the cold starters."
+    },
+    {
+      "name": "Hairy crab, in season",
+      "image": {
+        "file": "File:Shanghai hairy crab (4178989634).jpg",
+        "alt": "A steamed Shanghai hairy crab served with ginger vinegar"
+      },
+      "text": "Shanghai's most prized autumn delicacy — Yangcheng Lake hairy crab, steamed simply and eaten with ginger-infused vinegar, its roe considered the point of the whole dish.",
+      "whereToTry": "Seasonal, roughly October to December, at seafood restaurants across the city advertising it prominently when in season."
+    }
+  ],
+  "accommodation": {
+    "intro": "Shanghai's two obvious choices are the historic Puxi side of the river or Pudong's modern towers — most visitors are better served staying in Puxi.",
+    "areas": [
+      {
+        "name": "The Bund / People's Square",
+        "bestFor": "First visits",
+        "text": "Central, walkable to the Bund and old town, with easy metro access everywhere else. More expensive but the most convenient base for a short stay."
+      },
+      {
+        "name": "French Concession",
+        "bestFor": "Atmosphere and food",
+        "text": "Leafy streets, boutique hotels and the best independent restaurant and cafe scene in the city, a short metro ride from the main sights."
+      },
+      {
+        "name": "Pudong",
+        "bestFor": "Skyline views",
+        "text": "Modern towers with rooms looking back at the Bund itself, useful for a splurge night or two, though further from the old town's walkable streets."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥70–130 per night" },
+      { "label": "Mid-range hotel", "value": "¥500–1,000 per night" },
+      { "label": "Shanghai Tower observation deck", "value": "¥180–200" },
+      { "label": "Yu Garden entry", "value": "¥40" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Shanghai has two major airports and sits on the eastern end of China's high-speed rail network, making it a natural bookend to a Beijing-based trip.",
+    "options": [
+      {
+        "mode": "Shanghai Pudong Airport (PVG)",
+        "text": "The main international gateway, connected to the city by the Maglev train — reaching 430 km/h over its short run — or a slower, cheaper metro line.",
+        "detail": "The Maglev is a genuine novelty worth doing once, though it only reaches an outer metro station rather than the centre."
+      },
+      {
+        "mode": "Shanghai Hongqiao Airport (SHA)",
+        "text": "Closer to the centre and mainly used for domestic flights, sharing a transport hub with Hongqiao's high-speed rail station.",
+        "detail": "Convenient if your onward or prior journey is by bullet train rather than a connecting flight."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Hongqiao Station connects to the network: [[beijing|Beijing]] under 5h, [[suzhou-hangzhou|Suzhou]] under 30 min, [[suzhou-hangzhou|Hangzhou]] under 1h30.",
+        "detail": "Book via Trip.com or 12306. Hongqiao station is enormous — allow extra time to find your platform."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Shanghai's metro is extensive, cheap and among the largest networks in the world, making it by far the easiest way to cover the city's real distances.",
+    "options": [
+      {
+        "mode": "Metro",
+        "text": "Nineteen lines and counting, clean, cheap and signed in English, reaching virtually every district covered in this guide.",
+        "detail": "Buy a rechargeable transit card or use Alipay/WeChat QR codes directly at the gates."
+      },
+      {
+        "mode": "Walking within districts",
+        "text": "The Bund, old town and French Concession are all individually best explored on foot once you have reached them by metro.",
+        "detail": "The French Concession especially rewards no fixed plan — simply walk and follow whatever looks interesting."
+      },
+      {
+        "mode": "Didi (ride-hailing)",
+        "text": "Reliable and reasonably priced once linked to a foreign card, useful for late nights or crossing between distant districts.",
+        "detail": "Have your destination in Chinese characters ready for the driver."
+      },
+      {
+        "mode": "River ferries and cruises",
+        "text": "Short ferries cross the Huangpu cheaply for a quick Bund-to-Pudong hop, while longer tourist cruises run the river for a proper evening trip.",
+        "detail": "The Metro's Line 2 crosses under the river too, if you would rather stay dry."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "March–May and September–November",
+    "summary": "Shanghai has a humid subtropical climate — cold, damp winters and hot, humid summers — which makes spring and autumn clearly the most comfortable windows.",
+    "seasons": [
+      {
+        "season": "Spring (March–May)",
+        "rating": "best",
+        "text": "Mild and increasingly green, with the French Concession's plane trees at their best and comfortable walking weather throughout."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "avoid",
+        "text": "Hot and very humid, regularly above 33°C with a distinct rainy season in June and July, plus occasional typhoon risk in August and September."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "The best season: comfortable, drier, and from October the arrival of hairy crab season adds a genuine culinary reason to visit."
+      },
+      {
+        "season": "Winter (December–February)",
+        "rating": "shoulder",
+        "text": "Cold, damp and grey rather than snowy, with limited indoor heating outside hotels and malls, but noticeably cheaper and quieter than peak season."
+      }
+    ],
+    "avoid": "The first week of October, Golden Week, when the Bund and Yu Garden are at their most crowded nationwide."
+  },
+  "itinerary": {
+    "title": "Three days in Shanghai",
+    "intro": "Old Shanghai, new Shanghai, and a day trip — a structure that gives each face of the city its own unhurried time.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Old Shanghai",
+        "summary": "The Bund, the old town and Yu Garden.",
+        "morning": "Yu Garden at opening, then the surrounding bazaar.",
+        "afternoon": "Walk the Bund by daylight, taking in the architecture.",
+        "evening": "Back to the Bund at dusk for both skylines lit up, then dinner nearby."
+      },
+      {
+        "day": 2,
+        "title": "New Shanghai and the Concession",
+        "summary": "Pudong's towers in the morning, the French Concession in the afternoon.",
+        "morning": "An observation deck in Pudong, or a Huangpu River cruise instead.",
+        "afternoon": "Wander the French Concession without a fixed plan.",
+        "evening": "Dinner and drinks in the Concession's restaurant streets."
+      },
+      {
+        "day": 3,
+        "title": "A day trip",
+        "summary": "Suzhou's gardens or Zhujiajiao's canals, then a last Shanghai evening.",
+        "morning": "High-speed train to Suzhou, or a taxi to Zhujiajiao.",
+        "afternoon": "Explore the gardens or canals at an easy pace.",
+        "evening": "Back to Shanghai for a final xiaolongbao dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Shanghai-specific practicalities, most of which are about timing the skyline and getting the day trips right.",
+  "tips": [
+    "Time the Bund for dusk, not full darkness — the ten minutes as the sky turns blue and both skylines light up is the best window, and it passes quickly.",
+    "Book Suzhou or Hangzhou high-speed rail tickets a day or two ahead in peak season; same-day tickets can sell out on popular departure times.",
+    "Hongqiao and Pudong are different airports on opposite sides of the city — double-check which one your flight actually uses before booking transport.",
+    "The Maglev to Pudong Airport is a fun novelty but only reaches an outer metro station — budget extra time and a second fare to reach the city centre.",
+    "Many French Concession cafes and boutiques close on Mondays. Save that day for the Bund, Pudong or Yu Garden instead.",
+    "Hairy crab season, roughly October to December, is worth timing a visit around if you can — it is genuinely one of the best things Shanghai's food scene offers.",
+    "Book Din Tai Fung or other popular xiaolongbao restaurants ahead, or expect a wait — they are deservedly popular with locals as well as visitors."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Shanghai?",
+      "a": "Three to four. That covers the Bund and old town, Pudong's skyline, a proper wander through the French Concession, and a day trip to Suzhou or Zhujiajiao. Two days is workable if you skip the day trip, but the classical gardens under an hour away are worth the extra day."
+    },
+    {
+      "q": "What is the best time to see the Bund?",
+      "a": "Dusk, specifically the ten to fifteen minutes as the sky darkens and both the Bund's colonial facades and Pudong's towers light up together. Arrive on the promenade thirty minutes before official sunset to get a clear view before it fills with people."
+    },
+    {
+      "q": "Should I go up an observation deck or just view the skyline from the Bund?",
+      "a": "The Bund view is free and genuinely excellent, and is enough for most visitors. An observation deck — the Shanghai Tower is the best of the three main options — adds a different, comprehensive height perspective and is worth it if budget and time allow, but is not essential."
+    },
+    {
+      "q": "What is the best time of year to visit Shanghai?",
+      "a": "March to May and September to November. Both are mild and comfortable; autumn adds hairy crab season from October. Summer is hot, humid and prone to typhoons; winter is cold, damp and grey rather than snowy."
+    },
+    {
+      "q": "Is Shanghai easy for a first-time visitor to China?",
+      "a": "Yes, more so than most Chinese cities — English is more widely spoken here than almost anywhere else in mainland China, the metro is intuitive, and the city's international history makes it a comparatively gentle introduction. The same VPN and payment-app preparation still applies as everywhere else in the country."
+    },
+    {
+      "q": "What should I eat in Shanghai?",
+      "a": "Xiaolongbao soup dumplings above everything, ideally at Din Tai Fung or a good local shop. Sheng jian bao for a heartier breakfast alternative, hongshao rou for the classic sweet-savoury braised style, and hairy crab in season, roughly October to December, if you can time it."
+    }
+  ],
+  "related": ["beijing", "xi-an", "suzhou-hangzhou", "istanbul"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
