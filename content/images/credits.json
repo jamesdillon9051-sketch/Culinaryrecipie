@@ -441,6 +441,19 @@
     "cardWidth": 800,
     "cardHeight": 532
   },
+  "File:A roast lamb dinner at Black Horse Inn, Nuthurst West Sussex England.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_roast_lamb_dinner_at_Black_Horse_Inn,_Nuthurst_West_Sussex_England.jpg",
+    "context": "Sunday roast — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-2.webp",
+    "card": "images/united-kingdom/_country--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:AA A CAVE HOUSE ON THE HILLS OF SACROMONTE IN GRANADA 2016.jpg": {
     "artist": "Øyvind Holmstad",
     "license": "CC BY-SA 4.0",
@@ -557,6 +570,19 @@
     "heroHeight": 864,
     "cardWidth": 800,
     "cardHeight": 432
+  },
+  "File:AfternoonTea.JPG": {
+    "artist": "Jonathunder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AfternoonTea.JPG",
+    "context": "Tea, properly done — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-6.webp",
+    "card": "images/united-kingdom/_country--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Ahi tuna Poke.jpeg": {
     "artist": "Openmalware.exe",
@@ -1012,6 +1038,19 @@
     "heroHeight": 864,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Arlington Row Bibury.jpg": {
+    "artist": "Saffron Blaze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+    "context": "United Kingdom",
+    "hero": "images/united-kingdom/_country.webp",
+    "card": "images/united-kingdom/_country-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 501
   },
   "File:Arroçbrut.jpg": {
     "artist": "Chixoy",
@@ -1814,6 +1853,19 @@
     "context": "Sherry and manzanilla — Seville, Spain",
     "hero": "images/spain/seville--food-6.webp",
     "card": "images/spain/seville--food-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Bodiam Castle in the spring.JPG": {
+    "artist": "SDutta",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodiam_Castle_in_the_spring.JPG",
+    "context": "Visit a National Trust or Historic Scotland property — United Kingdom",
+    "hero": "images/united-kingdom/_country--thing-5.webp",
+    "card": "images/united-kingdom/_country--thing-5-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -2872,6 +2924,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Cheese board (3292995189).jpg": {
+    "artist": "Ruth Hartnup from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheese_board_(3292995189).jpg",
+    "context": "Cheese, regionally — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-5.webp",
+    "card": "images/united-kingdom/_country--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Chengdu double hotpot.jpg": {
     "artist": "Jpatokal",
     "license": "CC BY-SA 4.0",
@@ -2936,6 +3001,19 @@
     "heroHeight": 720,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Chicken Tikka Masala-01.jpg": {
+    "artist": "hellosputnik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Masala-01.jpg",
+    "context": "Curry, a genuine national dish — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-7.webp",
+    "card": "images/united-kingdom/_country--food-7-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 496
   },
   "File:ChickenAndouilleGumboNOLA.JPG": {
     "artist": "Infrogmation of New Orleans",
@@ -3508,6 +3586,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Cornish pasty.jpeg": {
+    "artist": "David Johnson [1]",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornish_pasty.jpeg",
+    "context": "Regional pies and pasties — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-4.webp",
+    "card": "images/united-kingdom/_country--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 519
   },
   "File:Costiera amalfitana -mix- 2019 by-RaBoe 134.jpg": {
     "artist": "© Ra Boe / Wikipedia",
@@ -4965,6 +5056,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Full English breakfast at the Chalet Cafe, Cowfold, West Sussex, England.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Full_English_breakfast_at_the_Chalet_Cafe,_Cowfold,_West_Sussex,_England.jpg",
+    "context": "A full English (or Scottish, or Welsh) breakfast — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-3.webp",
+    "card": "images/united-kingdom/_country--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Funivia del Lagazuoi (passo Falzarego).jpg": {
     "artist": "Ale041VE",
     "license": "CC BY-SA 4.0",
@@ -5692,6 +5796,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Haddock and chips at The Plough in Lower Beeding, West Sussex, England 01.jpg": {
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haddock_and_chips_at_The_Plough_in_Lower_Beeding,_West_Sussex,_England_01.jpg",
+    "context": "Fish and chips — United Kingdom",
+    "hero": "images/united-kingdom/_country--food-1.webp",
+    "card": "images/united-kingdom/_country--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 500
   },
   "File:Hadrian's Gate, Antalya 01.jpg": {
     "artist": "Bernard Gagnon",
@@ -9047,6 +9164,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Peak District-25 (29886904754).jpg": {
+    "artist": "Catherine Sharman from Northampton, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peak_District-25_(29886904754).jpg",
+    "context": "Walk a stretch of proper countryside — United Kingdom",
+    "hero": "images/united-kingdom/_country--thing-3.webp",
+    "card": "images/united-kingdom/_country--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Peking duck with sugar scallion.jpg": {
     "artist": "Mcyjerry",
     "license": "CC BY-SA 4.0",
@@ -12071,6 +12201,19 @@
     "context": "Galleria Vittorio Emanuele II and La Scala — Milan, Italy",
     "hero": "images/italy/milan--attraction-3.webp",
     "card": "images/italy/milan--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:The hanging sign of 'The Ship' Inn - geograph.org.uk - 5282252.jpg": {
+    "artist": "Adrian S Pye",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_hanging_sign_of_%27The_Ship%27_Inn_-_geograph.org.uk_-_5282252.jpg",
+    "context": "Do a proper pub session — United Kingdom",
+    "hero": "images/united-kingdom/_country--thing-2.webp",
+    "card": "images/united-kingdom/_country--thing-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,

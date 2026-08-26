@@ -1,0 +1,431 @@
+{
+  "slug": "united-kingdom",
+  "name": "United Kingdom",
+  "continent": "Northern Europe",
+  "countryCode": "GB",
+  "tagline": "Four nations under one crown, a rail network that reaches every one of them, and a landscape that runs from Cotswolds villages to Highland glens in the space of a single, fairly small island.",
+  "cardDescription": "London is only the opening chapter. Edinburgh's festival city, the Scottish Highlands, Snowdonia and Cornwall's coast make the rest of the book just as worth reading.",
+  "metaDescription": "A complete United Kingdom travel guide: the 10 best places to visit, trains, the NHS and travel insurance, regional food, costs, etiquette and a two-week itinerary.",
+  "image": {
+    "file": "File:Arlington Row Bibury.jpg",
+    "alt": "The golden-stone cottages of Arlington Row in the Cotswolds village of Bibury"
+  },
+  "destinations": [
+    "london",
+    "edinburgh",
+    "bath-cotswolds",
+    "scottish-highlands-skye",
+    "lake-district",
+    "york",
+    "oxford-cambridge",
+    "snowdonia-north-wales",
+    "cornwall",
+    "belfast-giants-causeway"
+  ],
+  "intro": [
+    "The United Kingdom packs four constituent nations — England, Scotland, Wales and Northern Ireland — into an island group smaller than most single American states, and the range that results is genuinely surprising to first-time visitors. London alone would justify a trip several times over, but it is also, in a real sense, the least representative place in the country: cross into the Cotswolds, the Highlands or the Welsh mountains and the pace, architecture and even the language change within a couple of hours' travel.",
+    "History sits close to the surface almost everywhere. Bath's Roman baths and Georgian crescents, York's Viking and medieval streets, Edinburgh's medieval Old Town beside its Georgian New Town, Oxford and Cambridge's eight-hundred-year-old university colleges — the country's past is not curated behind glass so much as still standing, still in use, and often still walkable at street level.",
+    "The practical spine holding it together is one of the world's oldest and, at its best, still one of its most useful rail networks, connecting London to Edinburgh in about four and a half hours and reaching deep into the Highlands, Wales and the West Country besides. A car becomes genuinely useful only once you leave the rail network's reach — the Highlands, rural Wales, parts of Cornwall — and is actively unhelpful almost everywhere else."
+  ],
+  "placesIntro": "Ordered roughly by how strongly we would recommend each for a first visit — though the Highlands, Snowdonia and Cornwall reward a second or third UK trip just as much as a first.",
+  "thingsToDoIntro": "The experiences that recur across the country and that make a UK trip feel like more than a checklist of cities.",
+  "thingsToDo": [
+    {
+      "title": "Take the rail network seriously",
+      "text": "Britain's train network reaches almost everywhere in this guide, and booking in advance — often weeks ahead for long-distance routes — can cut fares by more than half compared with a walk-up ticket.",
+      "tip": "Use Trainline or National Rail's own site, and look for split-ticketing tools that can legally reduce the fare on longer journeys."
+    },
+    {
+      "title": "Do a proper pub session",
+      "image": {
+        "file": "File:The hanging sign of 'The Ship' Inn - geograph.org.uk - 5282252.jpg",
+        "alt": "A traditional hanging pub sign outside an English inn"
+      },
+      "text": "Not a quick drink but an evening: a pint of cask ale, a pub quiz or live music if you find one, and a genuine cross-section of a British town or neighbourhood in one room.",
+      "tip": "Cask ale is served at cellar temperature, not fridge-cold — do not send it back thinking it is warm by mistake."
+    },
+    {
+      "title": "Walk a stretch of proper countryside",
+      "image": {
+        "file": "File:Peak District-25 (29886904754).jpg",
+        "alt": "A footpath crossing open countryside in the Peak District"
+      },
+      "text": "The right to roam and a dense network of public footpaths mean genuine countryside walking is accessible almost everywhere, from a gentle Cotswolds ramble to a serious Highland ascent.",
+      "tip": "Ordnance Survey maps, in paper or app form, are the gold standard for route planning and still worth the investment."
+    },
+    {
+      "title": "Eat a proper Sunday roast",
+      "text": "Roast meat, potatoes, vegetables and Yorkshire pudding, served at pubs and restaurants specifically on Sundays — a genuine weekly institution rather than a tourist performance.",
+      "tip": "Book ahead at well-regarded pubs — good Sunday roasts sell out, especially in villages with only one or two options."
+    },
+    {
+      "title": "Visit a National Trust or Historic Scotland property",
+      "image": {
+        "file": "File:Bodiam Castle in the spring.JPG",
+        "alt": "The moated medieval Bodiam Castle in spring"
+      },
+      "text": "Castles, stately homes and gardens across the country are maintained by these two heritage bodies, and a short-term membership pays for itself after just a few visits.",
+      "tip": "If visiting more than three or four properties, buy an overseas visitor pass before arrival — it is cheaper than paying single entry each time."
+    },
+    {
+      "title": "Watch the weather and pack for all of it",
+      "text": "Britain's weather changes fast and rarely commits to one forecast for a full day, in any season — a genuine part of the travel experience rather than an inconvenience to plan around.",
+      "tip": "A proper waterproof layer matters more than an umbrella, which struggles against the country's frequent wind."
+    }
+  ],
+  "foodIntro": "British food's reputation undersells it badly. Regional specialities, a strong pub-food tradition and an increasingly excellent restaurant scene make the case on their own.",
+  "foods": [
+    {
+      "name": "Fish and chips",
+      "image": {
+        "file": "File:Haddock and chips at The Plough in Lower Beeding, West Sussex, England 01.jpg",
+        "alt": "A plate of battered haddock and chips at an English pub"
+      },
+      "text": "Battered fish, chunky chips and mushy peas, wrapped in paper and eaten by the seaside or from a proper chippy — done well, it is genuinely one of the best simple meals in the country.",
+      "whereToTry": "Coastal towns generally do it best, though good chippies exist in every city — look for a queue of locals rather than a tourist-strip location."
+    },
+    {
+      "name": "Sunday roast",
+      "image": {
+        "file": "File:A roast lamb dinner at Black Horse Inn, Nuthurst West Sussex England.jpg",
+        "alt": "A Sunday roast dinner with lamb, potatoes and vegetables"
+      },
+      "text": "Roast meat — beef, lamb, chicken or pork — with roast potatoes, vegetables, gravy and Yorkshire pudding, the definitive British Sunday meal at pubs across the country.",
+      "whereToTry": "Village and gastropubs generally outdo city-centre chains — ask locally for the best roast within reach."
+    },
+    {
+      "name": "A full English (or Scottish, or Welsh) breakfast",
+      "image": {
+        "file": "File:Full English breakfast at the Chalet Cafe, Cowfold, West Sussex, England.jpg",
+        "alt": "A full English breakfast with eggs, bacon, sausage and beans"
+      },
+      "text": "Eggs, bacon, sausage, beans, grilled tomato and toast, with regional variations — black pudding features more in the north, and Scotland adds tattie scones and, if you are brave, haggis.",
+      "whereToTry": "Cafes and B&Bs across the country — a genuine daily ritual rather than a tourist novelty."
+    },
+    {
+      "name": "Regional pies and pasties",
+      "image": {
+        "file": "File:Cornish pasty.jpeg",
+        "alt": "A traditional Cornish pasty, crimped along one edge"
+      },
+      "text": "The Cornish pasty, a pastry parcel of meat and vegetables designed to be eaten by hand, alongside pork pies, steak and ale pies and countless other regional variations across England.",
+      "whereToTry": "Cornwall for a proper pasty from a bakery, ideally one with Protected Geographical Indication status."
+    },
+    {
+      "name": "Cheese, regionally",
+      "image": {
+        "file": "File:Cheese board (3292995189).jpg",
+        "alt": "A board of assorted British cheeses"
+      },
+      "text": "From Cheddar in Somerset to Stilton in the East Midlands and a strong modern artisan cheese movement across the country, British cheese is considerably more varied than its export reputation suggests.",
+      "whereToTry": "Farmers' markets and specialist cheesemongers, or the source towns themselves where geography allows."
+    },
+    {
+      "name": "Tea, properly done",
+      "image": {
+        "file": "File:AfternoonTea.JPG",
+        "alt": "A traditional afternoon tea with scones, jam and clotted cream"
+      },
+      "text": "Strong black tea with milk, taken throughout the day, and afternoon tea — sandwiches, scones with jam and clotted cream, and pastries — as a genuine occasion rather than just a drink.",
+      "whereToTry": "Traditional tearooms across the country; Bath and the Cotswolds have a particularly strong afternoon tea tradition."
+    },
+    {
+      "name": "Curry, a genuine national dish",
+      "image": {
+        "file": "File:Chicken Tikka Masala-01.jpg",
+        "alt": "A bowl of chicken tikka masala, Britain's own curry invention"
+      },
+      "text": "Britain's South Asian communities have made curry one of the most commonly eaten meals in the country, with regional variations like the Birmingham balti developed locally rather than imported unchanged.",
+      "whereToTry": "Birmingham's Balti Triangle, London's Brick Lane, or any city's established curry district."
+    }
+  ],
+  "practicalIntro": "The essentials, current for 2026. The UK is straightforward to travel in, with two practicalities that catch visitors out: rail booking, and healthcare cover.",
+  "practical": {
+    "capital": "London",
+    "language": "English nationally, with Welsh co-official and widely used in Wales, Scottish Gaelic spoken by a minority in parts of Scotland, and Irish spoken by a minority in Northern Ireland.",
+    "currency": "Pound sterling (£, GBP)",
+    "money": "Contactless card payment is close to universal, including on public transport in most cities. Carry a little cash for small rural shops and some markets, though even these increasingly accept cards.",
+    "visa": "Visa-free entry for up to six months for many nationalities including the US, Canada, Australia and the EU, though an Electronic Travel Authorisation (ETA) is required in advance for a growing list of non-visa-national countries — check your specific requirement before booking, as this has expanded significantly since 2023.",
+    "plugs": "Type G, 230 V, 50 Hz — the same three-pin plug used across the whole UK and Ireland, distinct from the rest of Europe.",
+    "emergency": "999 or 112 for all emergencies, nationwide.",
+    "tipping": "Not obligatory. Around 10% for good restaurant service if a service charge is not already included; rounding up is normal for taxis; tipping is not expected in pubs for drinks at the bar.",
+    "safety": "Very safe overall, with low rates of violent crime against visitors. Pickpocketing occurs in crowded tourist areas and on the London Underground — standard vigilance is enough to avoid it.",
+    "connectivity": "Excellent 4G and 5G in cities and most towns, patchier in remote parts of the Highlands, rural Wales and Cornwall. EU roaming does not apply post-Brexit — check your provider's UK rates or get a local SIM.",
+    "timeZone": "Greenwich Mean Time (UTC+0) in winter, British Summer Time (UTC+1) from late March to late October.",
+    "budget": [
+      { "label": "Backpacker", "value": "£55–85 per day — hostels, pub meals, off-peak trains" },
+      { "label": "Mid-range", "value": "£120–200 per day — three-star hotels, restaurant meals, advance-booked trains" },
+      { "label": "Comfortable", "value": "£220–380 per day — good hotels, guided tours, first-class rail" },
+      { "label": "London supplement", "value": "Add roughly 25–40% to any budget band specifically in London" }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "The UK's weather is famously changeable in any season, but late spring and early autumn offer the best balance of daylight, mild temperatures and manageable crowds.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild and increasingly green, with gardens and countryside at their best and crowds still below summer peak. April can still be genuinely wet and cool."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "good",
+        "text": "Long daylight hours, the best chance of warm weather, and the height of the festival season, particularly Edinburgh's August festivals — also the most crowded and expensive months."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Often the best-kept secret: comfortable temperatures, autumn colour in the countryside, and noticeably thinner crowds than summer."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Short, often grey days and genuine cold in Scotland and the north, but cheap, quiet, and atmospheric for cities — Christmas markets and log-fire pubs have their own appeal."
+      }
+    ],
+    "avoid": "Late August's UK-wide school holiday crush is largely priced in rather than avoidable, but note that Edinburgh in August is at an entirely different level of both brilliance and crowding during its festivals."
+  },
+  "tripDuration": {
+    "headline": "10–14 days for a first trip",
+    "summary": "The UK's rail network makes an ambitious multi-region itinerary genuinely workable, though the Highlands and Cornwall reward more time than a rushed loop allows.",
+    "options": [
+      {
+        "length": "4–5 days",
+        "text": "London alone fills five days without repeating itself, or London plus a single day trip to Bath, Oxford or Cambridge.",
+        "detail": "A short UK trip is better spent deeply in London than spread thin across the country."
+      },
+      {
+        "length": "8–10 days",
+        "text": "London, Bath and the Cotswolds, then north to Edinburgh by train — the classic first-trip route connecting England's south and Scotland's capital.",
+        "detail": "Add York as a stop between the two for a genuinely well-paced rail journey rather than a single long transfer."
+      },
+      {
+        "length": "12–16 days",
+        "text": "The itinerary on this page: London, the Cotswolds, Wales, the Lake District and Edinburgh, covering England, Wales and Scotland without a car for most of it.",
+        "detail": "Enough time to add real countryside — the Lake District or Snowdonia — to the classic cities route."
+      },
+      {
+        "length": "3 weeks or more",
+        "text": "Add the Scottish Highlands and Isle of Skye properly, with a hire car, or Northern Ireland and the Giant's Causeway as a self-contained extension.",
+        "detail": "The Highlands and Northern Ireland are where a second UK trip belongs, and both reward a full week rather than a rushed add-on."
+      }
+    ]
+  },
+  "transport": {
+    "intro": "Britain's rail network connects every destination in this guide bar the remotest parts of the Highlands, and advance booking is the single biggest lever on cost.",
+    "options": [
+      {
+        "mode": "Inter-city trains",
+        "text": "[[london|London]] to [[edinburgh|Edinburgh]] is about 4h30, London to [[bath-cotswolds|Bath]] 1h30, London to [[york|York]] 2h. Advance tickets, released around twelve weeks ahead, are dramatically cheaper than walk-up fares.",
+        "detail": "Book via Trainline or National Rail directly. A Railcard, if you qualify by age or status, cuts fares further."
+      },
+      {
+        "mode": "Regional and branch trains",
+        "text": "Reach smaller towns and the edges of national parks, including into the [[lake-district|Lake District]] and toward [[snowdonia-north-wales|Snowdonia]], though often requiring a bus connection for the final stretch.",
+        "detail": "Regional day-return tickets are often not worth booking far ahead — flexibility can matter more than the discount."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Essential for the [[scottish-highlands-skye|Scottish Highlands]], rural [[snowdonia-north-wales|Wales]], and reaching [[cornwall|Cornwall's]] smaller villages and coves beyond the rail line.",
+        "detail": "Driving is on the left. Single-track roads with passing places are common in the Highlands — learn the etiquette before setting off."
+      },
+      {
+        "mode": "Coaches",
+        "text": "National Express and Megabus connect most of the country more cheaply than rail, if considerably slower — a useful budget option for longer, less time-sensitive journeys.",
+        "detail": "Booking ahead secures the cheapest fares, similar to rail."
+      },
+      {
+        "mode": "Ferries",
+        "text": "To the Isle of Skye (though also reachable by bridge), other Scottish islands, and across to Northern Ireland and the Isle of Man.",
+        "detail": "Book ahead in summer for popular island crossings, particularly with a car."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Two weeks in the United Kingdom",
+    "intro": "London, the Cotswolds and Wales, then the Lake District and Edinburgh. Covers four of the ten destinations in this guide by train, with a short car hire for the Welsh and Lakeland legs.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrive in London",
+        "morning": "Land and take the Elizabeth line or Heathrow Express into the city.",
+        "afternoon": "A first walk around Westminster and the South Bank.",
+        "evening": "Dinner in Soho or Borough Market's evening stalls."
+      },
+      {
+        "day": 2,
+        "title": "Central London",
+        "morning": "The British Museum, or the Tower of London if booked ahead.",
+        "afternoon": "Covent Garden and a walk along the Thames.",
+        "evening": "A West End show, if tickets allow."
+      },
+      {
+        "day": 3,
+        "title": "Royal London",
+        "morning": "Buckingham Palace and St James's Park.",
+        "afternoon": "The National Gallery or the Tate Modern.",
+        "evening": "A pub dinner in a neighbourhood like Borough or Shoreditch."
+      },
+      {
+        "day": 4,
+        "title": "To Bath",
+        "morning": "Train to Bath, under two hours.",
+        "afternoon": "The Roman Baths and the Georgian crescents.",
+        "evening": "Dinner in Bath's old town."
+      },
+      {
+        "day": 5,
+        "title": "The Cotswolds",
+        "morning": "Hire a car and drive into the Cotswolds' villages.",
+        "afternoon": "Bourton-on-the-Water and Bibury, or Castle Combe.",
+        "evening": "A village pub dinner."
+      },
+      {
+        "day": 6,
+        "title": "Into Wales",
+        "morning": "Drive west into Snowdonia.",
+        "afternoon": "A hike or the train up Snowdon, weather permitting.",
+        "evening": "Dinner in a Welsh mountain village."
+      },
+      {
+        "day": 7,
+        "title": "Snowdonia's coast",
+        "morning": "The castles of the North Wales coast — Conwy or Caernarfon.",
+        "afternoon": "A coastal walk or beach, weather permitting.",
+        "evening": "Return the hire car and train onward."
+      },
+      {
+        "day": 8,
+        "title": "The Lake District",
+        "morning": "Train and bus to the Lake District.",
+        "afternoon": "A lake cruise on Windermere or Ullswater.",
+        "evening": "A fellside pub dinner."
+      },
+      {
+        "day": 9,
+        "title": "Lakeland walking",
+        "morning": "A proper fell walk, sized to your fitness and the weather.",
+        "afternoon": "Grasmere or Hawkshead's villages.",
+        "evening": "An early night before a long travel day."
+      },
+      {
+        "day": 10,
+        "title": "To Edinburgh",
+        "morning": "Train north to Edinburgh via a change, or direct where available.",
+        "afternoon": "The Royal Mile and Edinburgh Castle.",
+        "evening": "Dinner in the Old Town."
+      },
+      {
+        "day": 11,
+        "title": "Edinburgh properly",
+        "morning": "The National Museum of Scotland.",
+        "afternoon": "Arthur's Seat, weather permitting, or the New Town's Georgian streets.",
+        "evening": "A whisky bar or traditional folk music session."
+      },
+      {
+        "day": 12,
+        "title": "A day trip from Edinburgh",
+        "morning": "The Scottish Highlands' southern edge, or Rosslyn Chapel.",
+        "afternoon": "Return to Edinburgh.",
+        "evening": "A final dinner in the Old Town."
+      },
+      {
+        "day": 13,
+        "title": "Free day",
+        "morning": "Shopping or a museum you missed.",
+        "afternoon": "Anything left on the list.",
+        "evening": "Pack and prepare for departure."
+      },
+      {
+        "day": 14,
+        "title": "Depart",
+        "morning": "Train back to London, or fly directly from Edinburgh.",
+        "afternoon": "Transfer to the airport.",
+        "evening": "Fly home."
+      }
+    ]
+  },
+  "culture": {
+    "intro": "The UK's culture varies genuinely by nation and region, but a handful of broadly shared norms — queuing, understatement, and a particular relationship with small talk — hold across most of it.",
+    "etiquette": [
+      {
+        "title": "Queuing is close to sacred",
+        "text": "Jumping a queue, for a bus, a shop till or a pub bar, is one of the more reliable ways to draw genuine disapproval. When in doubt, ask who is last rather than guess."
+      },
+      {
+        "title": "Understatement is the norm",
+        "text": "Enthusiasm and complaint are both typically expressed more mildly than the underlying feeling — 'not bad' can mean genuinely impressed, and 'a bit of an issue' can mean a serious problem."
+      },
+      {
+        "title": "Round buying at the pub",
+        "text": "If you are in a group at the pub, it is customary to take turns buying a round for everyone rather than each person buying their own drink each time."
+      },
+      {
+        "title": "Sorry is used constantly, and not always as an apology",
+        "text": "'Sorry' functions as a filler word, an acknowledgement, and a way to get someone's attention as much as a genuine apology — do not read too much into its frequency."
+      },
+      {
+        "title": "Regional and national identity matters",
+        "text": "Scottish, Welsh and Northern Irish people generally do not appreciate being called simply 'English' or having their nation's distinctiveness flattened into a generic 'British' label."
+      },
+      {
+        "title": "Small talk about weather is a genuine social lubricant",
+        "text": "Commenting on the weather is a normal, expected way to open a conversation with a stranger, not small talk to be dismissed as meaningless."
+      }
+    ],
+    "dos": [
+      "Queue properly and wait your turn without exception",
+      "Book popular restaurants, National Trust sites and rail tickets ahead where possible",
+      "Carry a proper waterproof layer regardless of the season",
+      "Tip modestly for good restaurant service if it is not already included",
+      "Use each nation's correct name rather than defaulting to 'English' for Scottish, Welsh or Northern Irish people or places",
+      "Validate that you understand left-hand driving before hiring a car"
+    ],
+    "donts": [
+      "Don't jump a queue, ever, for any reason",
+      "Don't assume EU roaming applies to your phone plan post-Brexit",
+      "Don't expect city-centre pace or prices to be the national average — the regions differ hugely",
+      "Don't skip travel insurance — NHS emergency care has limits for visitors and is not the same as full free healthcare",
+      "Don't plan a Highlands or island trip without checking ferry or road conditions in winter",
+      "Don't assume all pubs serve food all day — many have specific kitchen hours"
+    ]
+  },
+  "tipsIntro": "The things that most often go wrong on a UK trip, in rough order of how much they cost people.",
+  "tips": [
+    "Book long-distance trains as far ahead as possible — advance fares released around twelve weeks out can be a fraction of the walk-up price for the same journey.",
+    "Buy travel insurance with medical cover. The NHS provides emergency treatment, but it is not automatically free for all visitors and does not cover repatriation or many non-emergency situations.",
+    "Check your phone plan's UK roaming rates before arrival — EU roaming agreements do not apply here post-Brexit, and rates can be steep without a local SIM or specific add-on.",
+    "Pack proper waterproofs regardless of season or forecast — British weather changes fast and rarely holds to one forecast for a full day.",
+    "Book Edinburgh accommodation many months ahead if travelling in August, when the festivals push prices and demand to their annual peak.",
+    "If hiring a car for the Highlands or rural Wales, budget extra time for single-track roads and check fuel stops on your route — rural petrol stations can be sparse and close early.",
+    "Many sites, especially National Trust and Historic Scotland properties, offer meaningful savings on a short-term membership if you plan to visit more than two or three.",
+    "England, Scotland, Wales and Northern Ireland each have their own bank holidays on slightly different dates — check before assuming something will be open."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in the United Kingdom?",
+      "a": "Ten to fourteen for a first trip. Eight to ten covers London, Bath and Edinburgh by train with reasonable pacing; twelve to sixteen lets you add real countryside like the Lake District or Snowdonia, which is the itinerary on this page. Four or five days is enough for London alone, and London alone genuinely justifies a trip."
+    },
+    {
+      "q": "What is the best time of year to visit the United Kingdom?",
+      "a": "May to June and September are the sweet spots — mild weather, long daylight in early summer, and thinner crowds than peak August. Summer brings the best odds of warm weather and the Edinburgh festivals, at the cost of crowds and higher prices. Winter is cold and grey but quiet, cheap and atmospheric in the cities."
+    },
+    {
+      "q": "Do I need a car in the UK?",
+      "a": "Only for specific regions. The rail network covers London, Edinburgh, Bath, York, Oxford, Cambridge and the edges of most national parks well. A car becomes genuinely necessary for the Scottish Highlands, rural Wales, and reaching Cornwall's smaller coastal villages — hire it only for that leg of the trip."
+    },
+    {
+      "q": "Is the United Kingdom expensive?",
+      "a": "Mid-range travel runs about £120–200 per person per day, with London adding a genuine 25–40% premium over that figure. Booking trains and popular attractions well ahead is the single biggest lever on cost, alongside eating at pubs rather than tourist-focused restaurants."
+    },
+    {
+      "q": "Is the United Kingdom safe for tourists?",
+      "a": "Very. Violent crime against visitors is rare, and most cities are safe to walk in the evening. The practical risk is pickpocketing in crowded tourist areas and on the London Underground, manageable with ordinary vigilance around bags and phones."
+    },
+    {
+      "q": "Do I need travel insurance if the UK has the NHS?",
+      "a": "Yes. The NHS provides emergency treatment to visitors, but this is not the same as comprehensive free healthcare, does not cover many non-emergency situations, and does not cover repatriation. Genuine travel insurance with medical cover remains essential."
+    }
+  ]
+}
