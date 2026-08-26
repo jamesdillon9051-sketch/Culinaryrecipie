@@ -6,6 +6,10 @@
   "tagline": "A federal country of sixteen states that never fully merged into one culture, from Bavarian beer halls to Hanseatic ports, threaded together by a rail network and a history it faces more directly than almost any other nation.",
   "cardDescription": "Berlin's nightlife and history, Bavaria's castles and beer gardens, the Rhine's vineyard-lined valley and a genuinely serious food and craft culture beyond the stereotypes.",
   "metaDescription": "A complete Germany travel guide: the 10 best places to visit, trains, regional food, costs, etiquette and a two-week itinerary.",
+  "image": {
+    "file": "File:Schloss Neuschwanstein at autumn sunlight.jpg",
+    "alt": "Neuschwanstein Castle in autumn sunlight, Bavaria"
+  },
   "destinations": [
     "berlin",
     "munich",
@@ -28,31 +32,55 @@
   "thingsToDo": [
     {
       "title": "Take the trains, and understand the ticket system",
+      "image": {
+        "file": "File:ICE Klasse 412 in Fulda-20250525-RM-154336.jpg",
+        "alt": "An ICE high-speed train at a German station"
+      },
       "text": "Germany's rail network reaches almost everywhere in this guide, and the Deutschland-Ticket offers genuinely excellent value for regional travel across the whole country on one monthly pass.",
       "tip": "ICE high-speed trains need separate reservations and tickets from regional services — book directly via Deutsche Bahn's app for the clearest fare comparison."
     },
     {
       "title": "Sit in a proper beer garden",
+      "image": {
+        "file": "File:Muffathalle Biergarten Munich.jpg",
+        "alt": "A traditional beer garden with long communal tables in Munich"
+      },
       "text": "A genuine Bavarian and southern German institution: long communal tables, self-service or table service, and a tradition of bringing your own food to some gardens as long as you buy the beer.",
       "tip": "Look for a 'Biergarten' sign specifically — a 'Kneipe' is a different, more bar-like drinking tradition worth trying separately."
     },
     {
       "title": "Visit a Christmas market, in season",
+      "image": {
+        "file": "File:(20251111) Magdeburger Weihnachtsmarkt 06.jpg",
+        "alt": "Stalls at a German Christmas market"
+      },
       "text": "From late November, Christmas markets — Weihnachtsmärkte — take over town squares across the country with mulled wine, crafts and food stalls, a genuine seasonal institution rather than a tourist add-on.",
       "tip": "Nuremberg's and Dresden's markets are among the oldest and most famous, but even small-town versions are usually genuinely worthwhile."
     },
     {
       "title": "Engage seriously with Germany's 20th-century history",
+      "image": {
+        "file": "File:East side gallery, Berlin Wall (Ank Kumar, Infosys Limited ) 07.jpg",
+        "alt": "A painted section of the East Side Gallery, a surviving stretch of the Berlin Wall"
+      },
       "text": "Memorials, museums and preserved sites across the country present the Nazi era and the divided Cold War decades with real honesty, an essential part of understanding modern Germany.",
       "tip": "Berlin alone justifies a full day for this alone — the Holocaust Memorial, Topography of Terror and East Side Gallery are all free to visit."
     },
     {
       "title": "Try a proper German bakery",
+      "image": {
+        "file": "File:Rye bread Roggenbengel 2025-02-14 11.jpg",
+        "alt": "Fresh rye bread from a German bakery"
+      },
       "text": "German bread culture is genuinely serious, with hundreds of recognised regional bread types and a bakery on nearly every corner, alongside pastries well beyond the stereotype of pretzels alone.",
       "tip": "A Bäckerei with a queue of locals in the morning is a reliable sign of quality — breakfast pastries sell out early at the best ones."
     },
     {
       "title": "Hike or cycle the wine and river valleys",
+      "image": {
+        "file": "File:Die Stadt Bernkastel-Kues an der Mosel mit den unendlich vielen Weinbergen (8290087077).jpg",
+        "alt": "Terraced vineyards above the Mosel valley near Bernkastel-Kues"
+      },
       "text": "The Rhine, Mosel and Neckar valleys combine vineyard-covered slopes, riverside paths and hilltop castles into some of Europe's most rewarding gentle walking and cycling country.",
       "tip": "Riverside cycle paths are generally flat and well maintained, making a multi-day valley ride achievable without serious cycling experience."
     }
@@ -61,36 +89,64 @@
   "foods": [
     {
       "name": "Currywurst",
+      "image": {
+        "file": "File:2023-01-23 Currywurst in Berlin.jpg",
+        "alt": "Currywurst, sliced sausage with curry-spiced ketchup, a Berlin invention"
+      },
       "text": "Sliced sausage doused in curry-spiced ketchup, a genuine Berlin invention and one of the country's most beloved fast foods, eaten standing up from a paper tray.",
       "whereToTry": "Street stalls and dedicated Currywurst shops across Berlin, though the dish is found nationwide."
     },
     {
       "name": "Pretzels and Bavarian beer hall food",
+      "image": {
+        "file": "File:Weidenberger Brezen.JPG",
+        "alt": "A basket of fresh Bavarian pretzels"
+      },
       "text": "Soft pretzels, roast pork knuckle (Schweinshaxe) and white sausage (Weisswurst) alongside Bavaria's beer, the classic southern German beer-hall spread.",
       "whereToTry": "Munich's beer halls, particularly for a proper Weisswurst breakfast before noon, traditionally."
     },
     {
       "name": "Bread, seriously",
+      "image": {
+        "file": "File:Rye bread Roggenbengel 2025-02-14 13.jpg",
+        "alt": "A dense German rye bread loaf"
+      },
       "text": "Germany has well over a thousand recognised bread varieties, from dense rye Vollkornbrot to Bavarian pretzel rolls, a genuine point of national culinary pride recognised by UNESCO.",
       "whereToTry": "Any proper Bäckerei — look for a morning queue of locals rather than a tourist-facing shopfront."
     },
     {
       "name": "Schnitzel",
+      "image": {
+        "file": "File:Wiener Schnitzel, Aachen.jpg",
+        "alt": "A breaded, pan-fried schnitzel with a lemon wedge"
+      },
       "text": "A thin, breaded, pan-fried cutlet, usually pork or veal, found on menus nationwide with genuine regional variations in preparation and accompaniment.",
       "whereToTry": "Traditional Gasthaus restaurants across the country, often served simply with potatoes and a lemon wedge."
     },
     {
       "name": "German beer, regionally",
+      "image": {
+        "file": "File:Beer steins from Wilde Rose Keller, beer garden, Oberer Stephansberg 49 in Bamberg.jpg",
+        "alt": "Regional German beer steins at a Franconian beer garden"
+      },
       "text": "The 1516 Reinheitsgebot purity law still shapes brewing today, and regional styles — Kölsch in Cologne, Helles in Bavaria, Pils nationwide — are genuinely distinct rather than interchangeable lagers.",
       "whereToTry": "Drink Kölsch only in Cologne and Altbier only in Düsseldorf, by strong local tradition — each city defends its own style fiercely."
     },
     {
       "name": "Käsespätzle and regional specialities",
+      "image": {
+        "file": "File:Käsespätzle Wurstküche Tübingen.jpg",
+        "alt": "Käsespätzle, Swabian egg noodles baked with cheese and onions"
+      },
       "text": "Swabian egg noodles baked with cheese and caramelised onions, a southern German comfort dish alongside countless other strong regional specialities across the country's sixteen states.",
       "whereToTry": "Traditional restaurants in Baden-Württemberg and the Black Forest region especially."
     },
     {
       "name": "Cake and coffee culture",
+      "image": {
+        "file": "File:Black Forest gateau.jpg",
+        "alt": "A slice of Black Forest gateau, a Kaffee und Kuchen classic"
+      },
       "text": "Kaffee und Kuchen — coffee and cake, typically mid-afternoon — is a genuine social institution, with Black Forest gateau (Schwarzwälder Kirschtorte) among the best-known regional specialities.",
       "whereToTry": "Traditional Konditorei cake shops and cafes nationwide, with the Black Forest itself the natural home of its namesake cake."
     }
