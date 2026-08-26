@@ -103,6 +103,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:02018 0271 6th ECOstyl Fair, Baldauf Käse, Allgäu.jpg": {
+    "artist": "Silar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02018_0271_6th_ECOstyl_Fair,_Baldauf_K%C3%A4se,_Allg%C3%A4u.jpg",
+    "context": "Allgäu cheese — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-5.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:1 li jiang guilin yangshuo 2011.jpg": {
     "artist": "chensiyuan",
     "license": "CC BY-SA 4.0",
@@ -2248,6 +2261,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Bocksbeutels.jpg": {
+    "artist": "User:Justinc",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bocksbeutels.jpg",
+    "context": "Franconian wine — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-2.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Bodega de Sanlúcar.jpg": {
     "artist": "PEPE GADEIRAS",
     "license": "CC BY-SA 4.0",
@@ -2529,6 +2555,19 @@
     "context": "Berlin, Germany",
     "hero": "images/germany/berlin.webp",
     "card": "images/germany/berlin-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Bratwurst mit Kartoffelsalat, Dotzheim.jpg": {
+    "artist": "Gerda Arendt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bratwurst_mit_Kartoffelsalat,_Dotzheim.jpg",
+    "context": "Kartoffelsalat and regional sides — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-6.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-6-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -4835,6 +4874,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Dinkelsbühl Marktplatz 2.JPG": {
+    "artist": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinkelsb%C3%BChl_Marktplatz_2.JPG",
+    "context": "Dinkelsbühl — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-4.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 512
+  },
   "File:Dinorwig Slate Quarry from Llanberis - geograph.org.uk - 6263827.jpg": {
     "artist": "Mike Pennington",
     "license": "CC BY-SA 2.0",
@@ -7136,6 +7188,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Hohenschwangau Castle at Alpsee in Schwangau, Germany, 20250501 1717 8475.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hohenschwangau_Castle_at_Alpsee_in_Schwangau,_Germany,_20250501_1717_8475.jpg",
+    "context": "Tour Hohenschwangau Castle — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-3.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Holyrood Palace and Abbey 20211021.jpg": {
     "artist": "Daniel Kraft",
     "license": "CC BY-SA 3.0",
@@ -7486,6 +7551,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Illuminated Marktplatz (Rothenburg ob der Tauber) 2021.jpg": {
+    "artist": "Rosty",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illuminated_Marktplatz_(Rothenburg_ob_der_Tauber)_2021.jpg",
+    "context": "Visit a Christmas market in season — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-5.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
   },
   "File:Interior oculus of the Rome Pantheon.jpg": {
     "artist": "T. Le Berre",
@@ -8839,6 +8917,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Making of schneeballs 03.jpg": {
+    "artist": "Zorro2212",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Making_of_schneeballs_03.jpg",
+    "context": "Try a Schneeball in Rothenburg — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-6.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Manarola NW Cinque Terre Sep23 A7C 07233.jpg": {
     "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
     "license": "CC BY-SA 4.0",
@@ -9073,6 +9164,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Maultaschen, Aulhausen.jpg": {
+    "artist": "Gerda Arendt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maultaschen,_Aulhausen.jpg",
+    "context": "Maultaschen — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-4.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Mausoleo di alicarnasso, piano con rovine 10.JPG": {
     "artist": "sailko",
     "license": "CC BY-SA 3.0",
@@ -9302,6 +9406,32 @@
     "context": "The Mission burrito — San Francisco & the California Coast, United States",
     "hero": "images/united-states/san-francisco--food-1.webp",
     "card": "images/united-states/san-francisco--food-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Mixed sausages at Bratwurst Glöckl.jpg": {
+    "artist": "JIP",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixed_sausages_at_Bratwurst_Gl%C3%B6ckl.jpg",
+    "context": "Nürnberger-style bratwurst — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-3.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:MK58711 Rothenburg ob der Tauber.jpg": {
+    "artist": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MK58711_Rothenburg_ob_der_Tauber.jpg",
+    "context": "Rothenburg ob der Tauber — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-2.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-2-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -9995,6 +10125,32 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 533
+  },
+  "File:Neuschwanstein Castle (532850).jpg": {
+    "artist": "cameralends",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_(532850).jpg",
+    "context": "The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein.webp",
+    "card": "images/germany/romantic-road-neuschwanstein-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Neuschwanstein from the bridge, Schwangau D.jpg": {
+    "artist": "Stefano Vigorelli",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_from_the_bridge,_Schwangau_D.jpg",
+    "context": "The Marienbrücke — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-3.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 532
   },
   "File:New havasu falls.JPG": {
     "artist": "Gonzo fan2007",
@@ -12050,6 +12206,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Residenzplatz mit Frankoniabrunnen in Würzburg.JPG": {
+    "artist": "Aarp65",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Residenzplatz_mit_Frankoniabrunnen_in_W%C3%BCrzburg.JPG",
+    "context": "Würzburg Residence — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-6.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-6-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Restaurante Casa Borrasca - Flamenquín (49491993756).jpg": {
     "artist": "Kent Wang from London, United Kingdom",
     "license": "CC BY-SA 2.0",
@@ -12387,6 +12556,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 532
+  },
+  "File:Rural Bavarian countryside sunset (Unsplash).jpg": {
+    "artist": "Kai Dörner photoversum",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rural_Bavarian_countryside_sunset_(Unsplash).jpg",
+    "context": "Drive the route's back roads slowly — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-4.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-4-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Sagrada Familia interior 1.jpg": {
     "artist": "Unknown",
@@ -12804,6 +12986,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Schloss Neuschwanstein at sunrise.jpg": {
+    "artist": "Christoph Strässler",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Neuschwanstein_at_sunrise.jpg",
+    "context": "Neuschwanstein Castle — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-1.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 450
+  },
   "File:Schlutzkrapfen South Tyrol (3).JPG": {
     "artist": "Benreis",
     "license": "CC BY-SA 4.0",
@@ -12812,6 +13007,19 @@
     "context": "Schlutzkrapfen and casunziei — The Dolomites, Italy",
     "hero": "images/italy/dolomites--food-3.webp",
     "card": "images/italy/dolomites--food-3-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
+  "File:Schneeball fresh.jpg": {
+    "artist": "Zorro2212",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schneeball_fresh.jpg",
+    "context": "Schneeball (Rothenburg's pastry) — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--food-1.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--food-1-card.webp",
     "heroWidth": 1600,
     "heroHeight": 900,
     "cardWidth": 800,
@@ -13571,6 +13779,19 @@
     "cardWidth": 800,
     "cardHeight": 533
   },
+  "File:Stadtmauer-Rothenburg-JR-E-7738-2024-08-29.jpg": {
+    "artist": "Johannes Robalotoff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stadtmauer-Rothenburg-JR-E-7738-2024-08-29.jpg",
+    "context": "Walk Rothenburg's town walls — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-1.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-1-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
+  },
   "File:Star ferry Day star.jpg": {
     "artist": "Thehistorianisaac",
     "license": "CC0",
@@ -14116,6 +14337,19 @@
     "heroHeight": 677,
     "cardWidth": 800,
     "cardHeight": 338
+  },
+  "File:Tegelbergbahn 02.jpg": {
+    "artist": "Llez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tegelbergbahn_02.jpg",
+    "context": "Hike above Neuschwanstein for the classic view — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--thing-2.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--thing-2-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 533
   },
   "File:Teide Canadas.jpg": {
     "artist": "Ingo Mehling",
@@ -15689,6 +15923,19 @@
     "heroHeight": 900,
     "cardWidth": 800,
     "cardHeight": 534
+  },
+  "File:View from the Daniel tower of St. George’s Church in Nördlingen, 20250501 1241 8352.jpg": {
+    "artist": "Jakub Hałun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_the_Daniel_tower_of_St._George%E2%80%99s_Church_in_N%C3%B6rdlingen,_20250501_1241_8352.jpg",
+    "context": "Nördlingen — The Romantic Road & Neuschwanstein, Germany",
+    "hero": "images/germany/romantic-road-neuschwanstein--attraction-5.webp",
+    "card": "images/germany/romantic-road-neuschwanstein--attraction-5-card.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "cardWidth": 800,
+    "cardHeight": 531
   },
   "File:View of Basilica di Santa Croce from a rooftop terrace in Lecce historic center.jpg": {
     "artist": "Gianni AtticoBarocco",
