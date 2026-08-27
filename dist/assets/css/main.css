@@ -7,18 +7,56 @@
 /* ------------------------------------------------------------ typography */
 .lede { font-size: 1.18rem; color: var(--text-soft); max-width: 68ch; }
 .eyebrow {
-  display: block;
-  font-size: .74rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
-  color: var(--accent); margin-bottom: .75rem;
+  display: inline-flex; align-items: center; gap: .65rem;
+  font-size: .73rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: .85rem;
+}
+.eyebrow::before {
+  content: ""; width: 26px; height: 2px;
+  background: currentColor; border-radius: 2px; flex-shrink: 0;
 }
 .section-head {
   display: flex; align-items: flex-end; justify-content: space-between;
-  gap: 1.5rem; margin-bottom: clamp(1.5rem, 3vw, 2.5rem); flex-wrap: wrap;
+  gap: 1.5rem; margin-bottom: clamp(1.75rem, 3.2vw, 2.75rem); flex-wrap: wrap;
 }
+.section-head > div { max-width: 62ch; }
 .section-head h2 { margin: 0; }
-.section-head p { margin: .4rem 0 0; color: var(--text-soft); max-width: 56ch; }
-.section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.section-head p { margin: .55rem 0 0; color: var(--text-soft); max-width: 56ch; }
+.section { padding: clamp(2.75rem, 6vw, 5rem) 0; }
 .section--sunken { background: var(--bg-sunken); }
+
+/* Dark contrast band. Breaks up a long run of warm paper and makes the
+   food photography pop; keeps its own tokens so it stays dark in both themes. */
+.section--ink {
+  background: var(--ink-bg);
+  color: var(--ink-text);
+  position: relative;
+}
+.section--ink h2, .section--ink h3 { color: var(--ink-text); }
+.section--ink p, .section--ink .section-head p { color: var(--ink-soft); }
+.section--ink .eyebrow { color: var(--highlight); }
+.section--ink .card {
+  background: rgba(255, 255, 255, .045);
+  border-color: var(--ink-line);
+}
+.section--ink .card h3 a { color: var(--ink-text); }
+.section--ink .card p { color: var(--ink-soft); }
+.section--ink .card-foot { border-top-color: var(--ink-line); color: var(--ink-soft); }
+.section--ink .card-kicker { color: var(--highlight); }
+.section--ink .stars b { color: var(--ink-text); }
+.section--ink .btn--ghost { border-color: rgba(255, 255, 255, .3); color: var(--ink-text); }
+.section--ink .btn--ghost:hover { border-color: var(--highlight); color: var(--highlight); }
+.section--ink .rail::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .22); }
+
+/* Small ornament used to close a section */
+.ornament {
+  display: flex; align-items: center; justify-content: center; gap: .9rem;
+  color: var(--line-strong); margin: clamp(2rem, 4vw, 3rem) 0 0;
+}
+.ornament::before, .ornament::after {
+  content: ""; height: 1px; width: min(28vw, 210px); background: currentColor;
+}
+.ornament span { font-size: .9rem; color: var(--accent); }
 
 .rule {
   height: 1px; border: 0; background: var(--line); margin: clamp(2rem, 5vw, 3.5rem) 0;
@@ -49,10 +87,10 @@
 
 /* ----------------------------------------------------------------- badge */
 .badge {
-  display: inline-flex; align-items: center; gap: .35rem;
-  padding: .3rem .7rem;
+  display: inline-flex; align-items: center; gap: .3rem;
+  padding: .26rem .6rem;
   border-radius: 999px;
-  font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  font-size: .655rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
   background: var(--accent-soft); color: var(--accent-hover);
   white-space: nowrap;
 }
@@ -77,21 +115,28 @@
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  transition: transform .32s var(--ease), box-shadow .32s var(--ease), border-color .32s;
+  transition: transform .38s var(--ease-out), box-shadow .38s var(--ease-out), border-color .3s;
 }
-.card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--line-strong); }
 
 .card-media {
   position: relative;
   aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--bg-sunken);
+  flex: none;
 }
 .card-media img {
   width: 100%; height: 100%; object-fit: cover;
-  transition: transform .7s var(--ease), opacity .5s;
+  transition: transform .8s var(--ease-out), opacity .5s;
 }
-.card:hover .card-media img { transform: scale(1.07); }
+.card:hover .card-media img { transform: scale(1.06); }
+/* A soft scrim so white-ish badges and the time chip stay legible on any photo */
+.card-media::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, rgba(20, 15, 11, .28) 0%, transparent 26%,
+                                       transparent 64%, rgba(20, 15, 11, .34) 100%);
+}
 
 /* Gradient placeholder shown when an image is missing or fails to load */
 .img-fallback {
@@ -116,57 +161,65 @@
 }
 
 .card-badges {
-  position: absolute; top: .8rem; left: .8rem; right: .8rem;
-  display: flex; gap: .4rem; align-items: flex-start; flex-wrap: wrap;
-  pointer-events: none;
+  position: absolute; top: .85rem; left: .85rem;
+  /* Clears the favourite button, which is pinned to the same corner. Without
+     this the second badge slides underneath it. */
+  right: calc(.85rem + 46px);
+  display: flex; gap: .35rem; align-items: flex-start; flex-wrap: wrap;
+  pointer-events: none; z-index: 2;
 }
 .card-badges .badge { pointer-events: auto; }
 
 .fav-btn {
-  position: absolute; top: .7rem; right: .7rem;
+  position: absolute; top: .8rem; right: .8rem;
   width: 38px; height: 38px;
   display: grid; place-items: center;
   border-radius: 50%;
-  border: 0;
-  background: rgba(255, 255, 255, .92);
-  color: var(--muted);
+  border: 1px solid rgba(255, 255, 255, .55);
+  background: rgba(255, 255, 255, .94);
+  color: #4a4038;                       /* readable on the white pill */
   cursor: pointer;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 8px rgba(20, 15, 11, .28);
   transition: transform .2s var(--ease), color .2s, background .2s;
-  z-index: 2;
+  z-index: 3;
 }
 .fav-btn svg { width: 19px; height: 19px; stroke: currentColor; fill: none; stroke-width: 1.8; }
 .fav-btn:hover { transform: scale(1.12); color: var(--accent); }
 .fav-btn[aria-pressed="true"] { color: var(--accent); }
 .fav-btn[aria-pressed="true"] svg { fill: currentColor; }
 
-.card-time {
-  position: absolute; bottom: .8rem; right: .8rem;
+/* Time now lives in the meta row beside rating and difficulty rather than
+   floating over the photograph, where it collided with the caption on
+   overlay cards and obscured the food on every other one. */
+.card-meta {
   display: inline-flex; align-items: center; gap: .35rem;
-  background: rgba(20, 15, 11, .68);
-  backdrop-filter: blur(6px);
-  color: #fff;
-  padding: .3rem .65rem;
-  border-radius: 999px;
-  font-size: .74rem; font-weight: 600;
+  font-size: .8rem; font-weight: 500; white-space: nowrap;
 }
-.card-time svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2; }
+.card-meta svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2; opacity: .75; }
+.card-meta i { font-style: normal; opacity: .45; }
 
-.card-body { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
+.card-body { padding: 1.15rem 1.25rem 1.25rem; display: flex; flex-direction: column; flex: 1; }
 .card-kicker {
-  font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--accent); margin-bottom: .5rem;
+  font-size: .69rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: .45rem;
 }
 .card h3 {
-  font-size: 1.22rem; margin: 0 0 .5rem; line-height: 1.25;
+  font-size: 1.24rem; margin: 0 0 .45rem; line-height: 1.22;
 }
+.card h3 a { background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0 1.5px; background-repeat: no-repeat; background-position: 0 100%;
+  transition: background-size .4s var(--ease-out); }
+.card:hover h3 a { background-size: 100% 1.5px; }
 .card h3 a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
-.card p { font-size: .92rem; color: var(--text-soft); margin: 0 0 1rem; }
+.card p {
+  font-size: .9rem; color: var(--text-soft); margin: 0 0 1rem; line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
 .card-foot {
-  margin-top: auto; padding-top: .85rem;
+  margin-top: auto; padding-top: .8rem;
   border-top: 1px solid var(--line);
   display: flex; align-items: center; justify-content: space-between; gap: .75rem;
-  font-size: .82rem; color: var(--text-soft);
+  font-size: .8rem; color: var(--text-soft);
 }
 
 /* Star rating */
@@ -212,28 +265,60 @@
 /* ------------------------------------------------------------ home: bento */
 .bento {
   display: grid;
-  gap: clamp(1rem, 2vw, 1.6rem);
+  gap: clamp(.85rem, 1.6vw, 1.35rem);
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(190px, auto);
+  /* Fixed row height. With `auto` rows the tall feature cell inherited the
+     combined height of its neighbours and cropped an 800x600 photo into an
+     extreme portrait; explicit rows keep every crop close to the source. */
+  grid-auto-rows: clamp(190px, 20vw, 248px);
 }
-.bento > * { grid-column: span 2; }
+
+/* Every cell in this block is an overlay card: the photo fills the cell and
+   the caption sits on a gradient over it. Uniform, no dead space, and it
+   reads like a magazine spread rather than a row of boxes. */
+.bento .card { position: relative; }
+.bento .card .card-media { position: absolute; inset: 0; aspect-ratio: auto; }
+.bento .card .card-body {
+  position: relative; z-index: 2;
+  margin-top: auto;
+  flex: 0 0 auto;          /* hug the caption; do not fill the cell */
+  padding: 4.5rem 1.25rem 1.15rem;
+  background: linear-gradient(180deg, transparent, rgba(16, 12, 9, .74) 40%, rgba(16, 12, 9, .96));
+  color: #fff;
+}
+.bento .card h3 a, .bento .card h3 { color: #fff; }
+.bento .card .card-kicker { color: var(--gold); }
+.bento .card p { display: none; }
+.bento .card .card-foot {
+  border-top-color: rgba(255, 255, 255, .22);
+  color: rgba(255, 255, 255, .78);
+  margin-top: .75rem;      /* not auto, or it is pushed away from the title */
+  padding-top: .7rem;
+}
+.bento .card .stars b { color: #fff; }
+.bento .card .quick-view { display: none; }
+.bento .card .card-media::after { background: none; }
+
 .bento .card:nth-child(1) { grid-column: span 2; grid-row: span 2; }
-/* The feature card is twice as tall, so its image fills the extra height
-   rather than leaving the body stretched over dead space. */
-.bento .card:nth-child(1) .card-media { aspect-ratio: auto; flex: 1 1 auto; min-height: 300px; }
-.bento .card:nth-child(1) h3 { font-size: 1.7rem; }
-.bento .card:nth-child(1) .card-body { flex: 0 0 auto; }
+.bento .card:nth-child(1) h3 { font-size: clamp(1.6rem, 2.5vw, 2.1rem); }
+.bento .card:nth-child(1) p {
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; color: rgba(255, 255, 255, .82); margin-bottom: .9rem;
+}
+.bento .card:nth-child(1) .card-body { padding: 6rem 1.6rem 1.5rem; }
+.bento .card:nth-child(2), .bento .card:nth-child(3) { grid-column: span 2; }
 .bento .card:nth-child(4) { grid-column: span 4; }
-.bento .card:nth-child(4) { flex-direction: row; }
-.bento .card:nth-child(4) .card-media { aspect-ratio: auto; flex: 0 0 42%; }
-.bento .card:nth-child(4) .card-body { justify-content: center; }
+.bento .card:nth-child(4) h3 { font-size: clamp(1.35rem, 2vw, 1.75rem); }
+
 @media (max-width: 900px) {
   .bento { grid-template-columns: repeat(2, 1fr); }
-  .bento > *, .bento .card:nth-child(1), .bento .card:nth-child(4) { grid-column: span 2; grid-row: auto; }
-  .bento .card:nth-child(4) { flex-direction: column; }
-  .bento .card:nth-child(4) .card-media { aspect-ratio: 4 / 3; flex: none; }
+  .bento .card:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+  .bento .card:nth-child(2), .bento .card:nth-child(3),
+  .bento .card:nth-child(4) { grid-column: span 2; grid-row: span 1; }
 }
-@media (max-width: 560px) { .bento { grid-template-columns: 1fr; } .bento > * { grid-column: span 1; } }
+@media (max-width: 560px) {
+  .bento { grid-auto-rows: clamp(180px, 46vw, 230px); }
+}
 
 /* Horizontal rail */
 .rail {
@@ -315,11 +400,6 @@
 }
 .gallery a:hover::after { opacity: 1; }
 
-/* Stats strip */
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1.5rem; text-align: center; }
-.stats div strong { display: block; font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.7rem); color: var(--accent); line-height: 1; }
-.stats div span { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-soft); }
-
 /* ---------------------------------------------------------- search / nav */
 .search-shell { position: relative; flex: 1; max-width: 340px; }
 .search-shell input {
@@ -336,8 +416,15 @@
   position: absolute; left: .8rem; top: 50%; transform: translateY(-50%);
   width: 16px; height: 16px; stroke: var(--text-soft); fill: none; stroke-width: 2; pointer-events: none;
 }
-.hero .search-shell { max-width: 560px; margin: 2rem auto 0; }
-.hero .search-shell input { padding: 1rem 1.2rem 1rem 3rem; font-size: 1rem; border-color: transparent; box-shadow: var(--shadow-lg); }
+.hero .search-shell { max-width: none; width: 100%; }
+.hero .search-shell input {
+  padding: .95rem 1.2rem .95rem 3rem;
+  font-size: 1rem;
+  border-color: var(--line-strong);
+  background: var(--bg-raised);
+  box-shadow: var(--shadow-sm);
+}
+.hero .search-shell > svg { left: 1.05rem; width: 18px; height: 18px; }
 
 .autocomplete {
   position: absolute; top: calc(100% + .5rem); left: 0; right: 0;
@@ -482,35 +569,57 @@
 .breadcrumbs li:last-child::after { content: none; }
 .breadcrumbs a:hover { color: var(--accent); }
 
-.recipe-head { max-width: 800px; }
-.recipe-head h1 { margin-bottom: .35em; }
+/* Two-column masthead: the dish is visible without scrolling, and the copy
+   column no longer leaves half the page empty. */
+.recipe-masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  align-items: center;
+  padding: clamp(.5rem, 2vw, 1.5rem) 0 clamp(1.5rem, 3vw, 2.5rem);
+}
+@media (max-width: 940px) {
+  .recipe-masthead { grid-template-columns: 1fr; gap: 1.75rem; }
+}
+.recipe-head { max-width: 100%; }
+.recipe-head h1 { margin-bottom: .3em; }
+.recipe-head .lede { font-size: 1.08rem; }
 .recipe-meta {
-  display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap;
-  font-size: .88rem; color: var(--text-soft);
-  padding: 1rem 0; border-block: 1px solid var(--line); margin: 1.5rem 0;
+  display: flex; align-items: center; gap: 1rem 1.35rem; flex-wrap: wrap;
+  font-size: .875rem; color: var(--text-soft);
+  padding: .95rem 0; border-block: 1px solid var(--line); margin: 1.35rem 0 1.5rem;
 }
 .recipe-meta > span { display: inline-flex; align-items: center; gap: .4rem; }
 .recipe-meta svg { width: 16px; height: 16px; stroke: var(--accent); fill: none; stroke-width: 1.8; }
 .recipe-meta strong { color: var(--text); }
 
-.action-bar { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; }
-.action-bar .fav-btn[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.action-bar { display: flex; gap: .55rem; flex-wrap: wrap; align-items: center; margin-bottom: 0; }
+.fav-btn--inline {
+  position: static;
+  width: auto; height: auto;
+  display: inline-flex; align-items: center;
+  border-radius: 999px;
+  background: transparent;
+  box-shadow: none;
+  border: 1.5px solid var(--line-strong);
+  color: var(--text);
+}
+.fav-btn--inline:hover { transform: translateY(-2px); background: transparent; }
+.fav-btn--inline[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.fav-btn--inline svg { width: 17px; height: 17px; }
 
 .recipe-hero {
   border-radius: var(--radius-xl);
   overflow: hidden;
   position: relative;
-  /* An explicit height rather than aspect-ratio: combining aspect-ratio with
-     max-height makes the browser derive the WIDTH from the height, which
-     narrows the hero. Source images are 800px wide, so the max-width keeps
-     the upscale under 1.2x. */
   width: 100%;
-  max-width: 920px;
-  margin-inline: auto;
-  height: clamp(260px, 42vw, 580px);
+  /* aspect-ratio alone, with no max-height: combining the two makes the
+     browser derive the WIDTH from the height and the hero comes out narrow. */
+  aspect-ratio: 4 / 3;
   background: var(--bg-sunken);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-lg);
 }
+@media (max-width: 940px) { .recipe-hero { aspect-ratio: 16 / 10; } }
 .recipe-hero img { width: 100%; height: 100%; object-fit: cover; }
 
 .recipe-layout {
@@ -534,6 +643,33 @@
 .panel h3 { font-size: 1.15rem; margin-bottom: .9rem; }
 .panel--accent { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 [data-theme="dark"] .panel--accent { background: var(--accent-soft); }
+
+/* The cooking-science note is the site's signature, so it gets its own
+   treatment rather than reading as another run of body copy. */
+.why-panel {
+  position: relative;
+  background: var(--second-soft);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.35rem, 2.6vw, 2rem) clamp(1.35rem, 2.6vw, 2.25rem);
+  margin: 0 0 2.5rem;
+  border-left: 4px solid var(--second);
+}
+.why-panel h2 {
+  margin: 0 0 .6rem;
+  font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  color: var(--text);
+}
+.why-panel p { margin: 0; color: var(--text); }
+.why-panel p::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.1em;
+  line-height: .82;
+  padding: .06em .12em 0 0;
+  color: var(--second);
+  font-weight: 700;
+}
+[data-theme="dark"] .why-panel p::first-letter { color: var(--second); }
 
 .prose h2 { margin-top: 2.4rem; }
 .prose h3 { margin-top: 1.8rem; }
@@ -585,25 +721,26 @@
 .steps li {
   counter-increment: step;
   position: relative;
-  padding: 1.1rem 0 1.1rem 3.4rem;
+  padding: 1.1rem 1rem 1.1rem 3.6rem;
   border-bottom: 1px solid var(--line);
   transition: background .25s, opacity .25s;
 }
 .steps li:last-child { border-bottom: 0; }
 .steps li::before {
   content: counter(step);
-  position: absolute; left: 0; top: 1.05rem;
-  width: 2.3rem; height: 2.3rem;
+  position: absolute; left: 0; top: .95rem;
+  width: 2.45rem; height: 2.45rem;
   display: grid; place-items: center;
   border-radius: 50%;
-  background: var(--accent-soft);
-  color: var(--accent-hover);
-  font-family: var(--font-display); font-weight: 700; font-size: 1rem;
-  transition: background .25s, color .25s, transform .25s;
+  background: var(--bg-raised);
+  border: 1.5px solid var(--line-strong);
+  color: var(--accent);
+  font-family: var(--font-display); font-weight: 700; font-size: 1.05rem;
+  transition: background .25s, color .25s, transform .25s, border-color .25s;
 }
-.steps li.is-done::before { background: var(--sage); color: #fff; content: "\2713"; }
-.steps li.is-active::before { background: var(--accent); color: #fff; transform: scale(1.08); }
-.steps li.is-active { background: var(--accent-soft); border-radius: var(--radius); }
+.steps li.is-done::before { background: var(--second); border-color: var(--second); color: #fff; content: "\2713"; }
+.steps li.is-active::before { background: var(--accent); border-color: var(--accent); color: #fff; transform: scale(1.06); }
+.steps li.is-active { background: var(--accent-soft); border-radius: var(--radius); border-bottom-color: transparent; }
 .steps li.is-done .step-text { opacity: .5; }
 .step-actions { display: flex; gap: .5rem; margin-top: .7rem; flex-wrap: wrap; }
 .step-btn {

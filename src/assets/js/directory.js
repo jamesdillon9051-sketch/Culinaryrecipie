@@ -75,7 +75,6 @@
           '" aria-pressed="false" aria-label="Save ' + esc(r.t) + ' to favourites">' +
           '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>' +
         '</button>' +
-        '<span class="card-time"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' + esc(r.m) + ' min</span>' +
         '<div class="quick-view"><dl>' +
           '<div><dt>Prep</dt><dd>' + esc(r.p) + 'm</dd></div>' +
           '<div><dt>Cook</dt><dd>' + esc(r.o) + 'm</dd></div>' +
@@ -86,7 +85,11 @@
         '<span class="card-kicker">' + esc(r.n) + '</span>' +
         '<h3><a href="' + esc(href) + '">' + esc(r.t) + '</a></h3>' +
         '<p>' + esc(r.e) + '</p>' +
-        '<div class="card-foot">' + stars(r.r) + '<span>' + esc(r.d) + '</span></div>' +
+        '<div class="card-foot">' + stars(r.r) +
+          '<span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true">' +
+          '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' +
+          esc(r.m) + ' min <i>&middot;</i> ' + esc(r.d) + '</span>' +
+        '</div>' +
       '</div></article>';
   }
 

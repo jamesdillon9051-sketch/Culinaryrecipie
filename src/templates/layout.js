@@ -242,7 +242,6 @@ function card(recipe, options = {}) {
     <div class="card-badges">${badges.join('')}</div>
     <button class="fav-btn" type="button" data-slug="${recipe.slug}" data-title="${esc(recipe.title)}"
             aria-pressed="false" aria-label="Save ${esc(recipe.title)} to favourites">${ICONS.heart}</button>
-    <span class="card-time">${ICONS.clock}${recipe.totalTime} min</span>
     <div class="quick-view">
       <dl>
         <div><dt>Prep</dt><dd>${recipe.prep}m</dd></div>
@@ -256,7 +255,10 @@ function card(recipe, options = {}) {
     <span class="card-kicker">${esc(recipe.category)}</span>
     <h3><a href="${href}">${esc(recipe.title)}</a></h3>
     <p>${esc(recipe.cardBlurb)}</p>
-    <div class="card-foot">${starsHtml(recipe.rating, recipe.reviews)}<span>${esc(recipe.difficulty)}</span></div>
+    <div class="card-foot">
+      ${starsHtml(recipe.rating, recipe.reviews)}
+      <span class="card-meta">${ICONS.clock}${recipe.totalTime} min <i>&middot;</i> ${esc(recipe.difficulty)}</span>
+    </div>
   </div>
 </article>`;
 }
