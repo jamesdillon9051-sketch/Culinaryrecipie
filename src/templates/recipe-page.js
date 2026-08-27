@@ -169,40 +169,40 @@ ${breadcrumbs(trail)}
            data-image="${img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : ''}"
            itemscope itemtype="https://schema.org/Recipe">
 
-    <header class="recipe-head">
-      <span class="eyebrow">${esc(recipe.cuisine)} &middot; ${esc(recipe.category)}</span>
-      <h1 itemprop="name">${esc(recipe.title)}</h1>
-      <p class="lede" itemprop="description">${esc(recipe.description)}</p>
+    <div class="recipe-masthead">
+      <header class="recipe-head">
+        <span class="eyebrow">${esc(recipe.cuisine)} &middot; ${esc(recipe.category)}</span>
+        <h1 itemprop="name">${esc(recipe.title)}</h1>
+        <p class="lede" itemprop="description">${esc(recipe.description)}</p>
 
-      <div class="recipe-meta">
-        ${starsHtml(recipe.rating, recipe.reviews)}
-        <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> total</span>
-        <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
-        <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
-        <span>${ICONS.globe}<a href="${SITE.base}cuisines/${slug(recipe.cuisine)}/">${esc(recipe.cuisine)}</a></span>
+        <div class="recipe-meta">
+          ${starsHtml(recipe.rating, recipe.reviews)}
+          <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> total</span>
+          <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
+          <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
+        </div>
+
+        <div class="action-bar">
+          <a class="btn btn--primary" href="#recipe-card">${ICONS.jump} Jump to Recipe</a>
+          <a class="btn btn--ghost" href="#method">${ICONS.jump} Method</a>
+          <button class="btn btn--ghost" type="button" data-cook-toggle aria-pressed="false">${ICONS.chef} Cook Mode</button>
+          <button class="btn btn--ghost" type="button" data-print>${ICONS.print} Print</button>
+          <button class="btn btn--ghost fav-btn fav-btn--inline" type="button" data-slug="${recipe.slug}"
+                  data-title="${esc(recipe.title)}" aria-pressed="false">${ICONS.heart} Save</button>
+        </div>
+      </header>
+
+      <div class="recipe-hero" style="background:${img ? img.color : 'var(--bg-sunken)'}${img ? `;background-image:url('${img.lqip}');background-size:cover;background-position:center` : ''}">
+        ${heroImg}
       </div>
-
-      <div class="action-bar">
-        <a class="btn btn--primary" href="#recipe-card">${ICONS.jump} Jump to Recipe</a>
-        <a class="btn btn--ghost" href="#method">${ICONS.jump} Jump to Method</a>
-        <button class="btn btn--ghost" type="button" data-cook-toggle aria-pressed="false">${ICONS.chef} Cook Mode</button>
-        <button class="btn btn--ghost" type="button" data-print>${ICONS.print} Print Recipe</button>
-        <button class="btn btn--ghost fav-btn" type="button" data-slug="${recipe.slug}"
-                data-title="${esc(recipe.title)}" aria-pressed="false"
-                style="position:static;width:auto;height:auto;border-radius:999px;box-shadow:none">
-          ${ICONS.heart} Save Recipe
-        </button>
-      </div>
-    </header>
-
-    <div class="recipe-hero" style="background:${img ? img.color : 'var(--bg-sunken)'}${img ? `;background-image:url('${img.lqip}');background-size:cover;background-position:center` : ''}">
-      ${heroImg}
     </div>
 
     <div class="recipe-layout">
       <div class="prose">
-        <h2>Why This Recipe Works</h2>
-        <p>${esc(recipe.why)}</p>
+        <aside class="why-panel" aria-labelledby="why-title">
+          <h2 id="why-title">Why This Recipe Works</h2>
+          <p>${esc(recipe.why)}</p>
+        </aside>
         ${processBlock}
 
         <h2 id="method">Method</h2>

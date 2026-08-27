@@ -79,21 +79,38 @@ function home(ctx) {
       <span><strong>${esc(name)}</strong><span>${cuisineCounts[name]} recipes</span></span>
     </a>`).join('');
 
-  const heroBg = heroRecipe.imageData
-    ? `${SITE.base}assets/img/recipes/${heroRecipe.imageData.file}.jpg`
-    : '';
+  /* Three dishes for the hero cluster: the strongest photography we have. */
+  const heroShots = pick(['tacos-al-pastor', 'chicken-tikka-masala', 'chocolate-lava-cake'])
+    .filter(r => r.imageData)
+    .concat(recipes.filter(r => r.imageData))
+    .slice(0, 3);
+
+  const shot = (r, i) => `<a class="hero-shot" href="${SITE.base}recipes/${r.slug}/"
+       style="background:${r.imageData.color}" aria-label="${esc(r.title)}">
+    <picture>
+      <source srcset="${SITE.base}assets/img/recipes/${r.imageData.file}.webp" type="image/webp">
+      <img src="${SITE.base}assets/img/recipes/${r.imageData.file}.jpg" alt="${esc(r.imageAlt)}"
+           width="800" height="600" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
+    </picture>
+    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${r.totalTime} min &middot; ${esc(r.cuisine)}</span>` : ''}
+  </a>`;
 
   const body = `
 <section class="hero" aria-labelledby="hero-title">
-  <div class="hero-bg" style="background-image:url('${heroBg}')"></div>
-  <div class="wrap hero-inner">
-    <span class="hero-eyebrow hero-line">200 recipes &middot; 29 cuisines &middot; every one tested</span>
-    <h1 id="hero-title" class="hero-line">The world&rsquo;s most famous recipes, written down properly</h1>
-    <p class="hero-line">From Neapolitan pizza to Hyderabadi biryani — with the cooking science behind every step, adjustable servings, and a cook mode built for a messy kitchen.</p>
-    <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
-    <div class="hero-line" style="margin-top:1.75rem;display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap">
-      <a class="btn btn--primary" href="${SITE.base}recipes/">Browse all 200 recipes</a>
-      <a class="btn btn--light" href="${SITE.base}cuisines/">Explore by cuisine</a>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow-rule hero-line">200 recipes &middot; 29 cuisines</span>
+      <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
+      <p class="hero-lede hero-line">The world's most famous dishes, tested until we understood them &mdash; then written down with the reason behind every step.</p>
+      <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
+      <div class="hero-line hero-stats">
+        <div><strong>200</strong><span>Tested recipes</span></div>
+        <div><strong>29</strong><span>Cuisines</span></div>
+        <div><strong>4.8</strong><span>Average rating</span></div>
+      </div>
+    </div>
+    <div class="hero-cluster" aria-label="Featured dishes">
+      ${heroShots.map(shot).join('')}
     </div>
   </div>
 </section>
@@ -112,7 +129,7 @@ function home(ctx) {
   </div>
 </section>
 
-<section class="section section--sunken" aria-labelledby="trending-title">
+<section class="section section--ink" aria-labelledby="trending-title">
   <div class="wrap">
     <div class="section-head reveal">
       <div>
@@ -182,18 +199,6 @@ function home(ctx) {
   </div>
 </section>
 
-<section class="section" aria-labelledby="stats-title">
-  <div class="wrap">
-    <h2 id="stats-title" class="sr-only">CulinaryVault in numbers</h2>
-    <div class="stats reveal">
-      <div><strong>200</strong><span>Tested recipes</span></div>
-      <div><strong>29</strong><span>Cuisines</span></div>
-      <div><strong>4.8</strong><span>Average rating</span></div>
-      <div><strong>48k</strong><span>Weekly readers</span></div>
-    </div>
-  </div>
-</section>
-
 <section class="section section--sunken" aria-labelledby="gallery-title">
   <div class="wrap">
     <div class="section-head reveal">
@@ -215,7 +220,10 @@ function home(ctx) {
   </div>
 </section>
 
-<div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter()}</div>`;
+<div class="wrap">
+  <div class="ornament" aria-hidden="true"><span>&#10022;</span></div>
+</div>
+<div class="wrap" style="padding:clamp(2.5rem,5vw,4rem) 0 clamp(3rem,7vw,5rem)">${newsletter()}</div>`;
 
   return layout({
     title: `${SITE.name} — ${SITE.tagline}`,
