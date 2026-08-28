@@ -1,0 +1,361 @@
+{
+  "slug": "xi-an",
+  "name": "Xi'an",
+  "country": "china",
+  "region": "Shaanxi",
+  "categories": ["historic", "archaeological", "unesco"],
+  "tagline": "The eastern end of the Silk Road and the capital of China for longer than any other city, buried under whose farmland an emperor's army of eight thousand life-size soldiers stood guard for two thousand years.",
+  "highlight": "The Terracotta Army — over 8,000 individually sculpted life-size warriors, discovered by farmers digging a well in 1974.",
+  "shortDescription": "China's ancient capital for eleven dynasties and over a thousand years, where an emperor's buried army meets a walled old city and the best street food in the country.",
+  "metaDescription": "A Xi'an travel guide: the Terracotta Army, the City Wall and the Muslim Quarter, where to eat biang biang noodles, how to book ahead, when to go and a two-day itinerary.",
+  "suggestedStay": "2–3 days",
+  "nearestAirport": "Xi'an Xianyang International (XIY)",
+  "knownFor": "The Terracotta Army, the City Wall, biang biang noodles, the Silk Road",
+  "budget": "¥500–900 per day, mid-range",
+  "goodFor": "History, archaeology, street food, first trips to China",
+  "coords": { "lat": 34.3416, "lng": 108.9398 },
+  "image": {
+    "file": "File:Terracotta Army, View of Pit 1.jpg",
+    "alt": "Rows of life-size terracotta soldiers standing in Pit 1 of the Terracotta Army"
+  },
+  "intro": [
+    "Xi'an was the capital of China on and off for over a thousand years, under eleven dynasties, longer than any other city in the country's history. It was here, not Beijing, that the Silk Road actually began — camel caravans left this city for Central Asia, Persia and eventually Rome, carrying silk one way and returning with glass, spices and religions that reshaped Chinese culture. Under its Tang-dynasty peak, Xi'an, then called Chang'an, was the largest city on earth, home to over a million people at a time when London had perhaps twenty thousand.",
+    "Almost none of that ancient grandeur is visible from street level today, which is exactly why the Terracotta Army matters so much. Discovered by farmers digging a well in 1974, the buried army of China's first emperor, Qin Shi Huang, turned out to be one of the largest and most significant archaeological finds of the twentieth century — over eight thousand soldiers, each with an individually sculpted face, standing in battle formation underground for over two thousand years, guarding a tomb that has still never been opened.",
+    "The city that survives above ground is smaller but still remarkable: a complete Ming-dynasty wall, fourteen kilometres around and wide enough to cycle along its top, and the Muslim Quarter, where the descendants of Silk Road traders have run the same streets for centuries and now serve some of the best street food anywhere in China."
+  ],
+  "whyVisit": {
+    "intro": "Xi'an's case rests on one extraordinary site and a city built by a thousand years as capital — a pairing that makes it, alongside Beijing, the essential stop for understanding Chinese history.",
+    "points": [
+      {
+        "title": "The Terracotta Army has no real comparison",
+        "text": "Not a handful of statues but an entire buried army, individually sculpted, arranged in genuine military formation and still being excavated today."
+      },
+      {
+        "title": "It was the actual start of the Silk Road",
+        "text": "Xi'an, as Chang'an, was where the trade routes to Central Asia and beyond genuinely began, and that legacy is still visible in the Muslim Quarter's food and architecture."
+      },
+      {
+        "title": "The City Wall is completely intact",
+        "text": "Fourteen kilometres of Ming-dynasty fortification, walkable or cyclable in full, rather than the fragments most Chinese cities retain."
+      },
+      {
+        "title": "The street food is arguably the country's best",
+        "text": "Biang biang noodles, roujiamo and a dozen other Shaanxi specialities, sold from the same Muslim Quarter stalls that have served them for generations."
+      },
+      {
+        "title": "It pairs perfectly with Beijing",
+        "text": "Four and a half hours by bullet train, Xi'an adds ancient imperial history to Beijing's more recent version of the same story, without adding real logistical complexity to a first trip."
+      }
+    ]
+  },
+  "attractionsIntro": "Xi'an rewards two unhurried days rather than a rushed one. These are the sights worth building that time around.",
+  "attractions": [
+    {
+      "name": "The Terracotta Army",
+      "image": {
+        "file": "File:Rows of terracota warriors are arranged in rows of pits (35648437816).jpg",
+        "alt": "Rows of terracotta warriors standing in formation in their excavation pit"
+      },
+      "text": "Over eight thousand life-size warriors, horses and chariots, discovered in 1974 and still being excavated, arranged in three pits of which Pit 1 — the size of an aircraft hangar — is the overwhelming centrepiece.",
+      "tip": "Go early and start at Pit 1, then work through Pits 2 and 3 and the bronze chariots hall, which most visitors rush and shouldn't."
+    },
+    {
+      "name": "The Xi'an City Wall",
+      "image": {
+        "file": "File:Bicycles Xian city wall Dagny.JPG",
+        "alt": "Bicycles parked on top of the wide, complete Xi'an City Wall"
+      },
+      "text": "A complete Ming-dynasty wall encircling the old city, fourteen kilometres around, wide enough for a golf cart, and rentable by bicycle for a full loop with views over both the old city and the modern one beyond it.",
+      "tip": "Rent a bike at the South Gate. A full loop takes about two hours at an easy pace, or exit early if your legs give out."
+    },
+    {
+      "name": "The Muslim Quarter",
+      "image": {
+        "file": "File:1 xian muslim quarter china 2011.JPG",
+        "alt": "A busy street lined with food stalls in Xi'an's Muslim Quarter"
+      },
+      "text": "The historic Hui Muslim district around the Great Mosque, its narrow streets packed with street-food stalls, spice shops and souvenir vendors, and the single best place in China to eat standing up.",
+      "tip": "Beiyuanmen is the main touristy strip; turn off it into the side alleys for the same food at better prices and less crowding."
+    },
+    {
+      "name": "The Great Mosque of Xi'an",
+      "image": {
+        "file": "File:Xian Great Mosque 07 (5458567815).jpg",
+        "alt": "The Chinese pagoda-style architecture of the Great Mosque of Xi'an"
+      },
+      "text": "A working mosque since the Tang dynasty, built in an entirely Chinese architectural style — courtyards, pagodas and tiled roofs rather than domes and minarets — a physical record of how deeply Islam integrated into Chinese culture.",
+      "tip": "Modest dress is expected. It is a quiet, garden-like escape from the Muslim Quarter's crowds just outside."
+    },
+    {
+      "name": "The Shaanxi History Museum",
+      "image": {
+        "file": "File:Qin-Han branch of the Shaanxi History Museum.jpg",
+        "alt": "The exterior of the Shaanxi History Museum"
+      },
+      "text": "One of China's best provincial museums, holding bronzes, ceramics and Tang-dynasty gold that give context to everything else in the city, including artefacts from the Terracotta Army site itself.",
+      "tip": "Free but ticketed — collect a same-day ticket in the morning, as daily numbers are capped and it fills up."
+    },
+    {
+      "name": "The Big Wild Goose Pagoda",
+      "image": {
+        "file": "File:Giant Wild Goose Pagoda, Xi'an, May, 2018-1.jpg",
+        "alt": "The seven-storey Big Wild Goose Pagoda rising above its temple complex"
+      },
+      "text": "A seven-storey Tang-dynasty pagoda built to house Buddhist scriptures brought back from India by the monk Xuanzang, whose journey inspired the classic novel Journey to the West, set in a large temple complex and square.",
+      "tip": "The evening fountain and light show in the square outside is free and popular with locals rather than only tourists."
+    },
+    {
+      "name": "The Ancient City Wall's South Gate ceremony",
+      "text": "A recreated Tang-dynasty welcoming ceremony performed most evenings at the South Gate, with costumed performers, drums and a formal 'gate-opening' — kitsch, but a genuinely enjoyable evening spectacle.",
+      "tip": "Check the schedule locally, as timing varies by season. Free to watch from the square."
+    }
+  ],
+  "thingsToDoIntro": "Xi'an is compact enough to see properly in two days if you resist trying to add a third major sight to any one of them.",
+  "thingsToDo": [
+    {
+      "title": "Cycle the full City Wall loop",
+      "text": "Fourteen kilometres of Ming-dynasty wall, wide and flat enough to cycle in full, passing watchtowers and views over both the old and new cities.",
+      "tip": "Sunset is the best light, though the wall closes at a fixed time — check before you set off on a full loop."
+    },
+    {
+      "title": "Eat a full meal standing up in the Muslim Quarter",
+      "text": "Biang biang noodles from one stall, roujiamo from another, a persimmon cake for dessert — the Muslim Quarter rewards grazing across several vendors rather than sitting down at one restaurant.",
+      "tip": "Cash and mobile payment both work; many stalls have QR codes taped to the counter."
+    },
+    {
+      "title": "See the Terracotta Army's less-famous pits",
+      "image": {
+        "file": "File:The terracotta warriors, backed up by horses (34846849174).jpg",
+        "alt": "Terracotta warriors and horses in one of the quieter excavation pits"
+      },
+      "text": "Pit 1 gets the crowds and the photographs, but Pits 2 and 3, and the separate hall of bronze chariots, are quieter and show the army's structure and command hierarchy in more detail.",
+      "tip": "Budget at least ninety minutes for the full site, not the thirty most guided tours allow."
+    },
+    {
+      "title": "Watch the Big Wild Goose Pagoda fountain show",
+      "text": "Asia's largest choreographed fountain, set to music, in the square below the pagoda — free, popular with local families, and a good early evening between sightseeing and dinner.",
+      "tip": "Shows run several times each evening. Arrive fifteen minutes early for a good spot."
+    },
+    {
+      "title": "Visit the Forest of Stone Steles Museum",
+      "text": "A museum built entirely around inscribed stone tablets, some over a thousand years old, recording calligraphy, classic texts and historical records — genuinely niche but a favourite among calligraphy enthusiasts.",
+      "tip": "Skippable on a short trip, but worth an hour if you have a third day."
+    },
+    {
+      "title": "Try Xi'an's regional teas and persimmon cakes",
+      "text": "Huoshao persimmon cakes, a Xi'an speciality made from the region's soft persimmons, alongside teahouses serving local varieties — a gentler counterpoint to the Muslim Quarter's spice and crowds.",
+      "tip": "Persimmon cakes are seasonal, best from autumn through winter when the fruit is fresh."
+    }
+  ],
+  "foodIntro": "Xi'an's food is Shaanxi's food, wheat-based, boldly seasoned and among the most distinctive regional cuisines in China — and the Muslim Quarter serves it better than almost anywhere else.",
+  "foods": [
+    {
+      "name": "Biang biang noodles",
+      "image": {
+        "file": "File:Biang biang noodles.jpg",
+        "alt": "A bowl of wide, hand-pulled biang biang noodles"
+      },
+      "text": "Hand-pulled noodles as wide as a belt, named for the sound of the dough being slapped against the counter, tossed with chilli oil, vinegar and vegetables — Shaanxi's signature dish and genuinely filling.",
+      "whereToTry": "Any Muslim Quarter stall with a queue of locals, or Wei Jia Liang Pi for a sit-down version."
+    },
+    {
+      "name": "Roujiamo",
+      "image": {
+        "file": "File:Rou jia mo in Xi yang shi.jpg",
+        "alt": "A roujiamo flatbread stuffed with slow-braised shredded pork"
+      },
+      "text": "Slow-braised pork, shredded and stuffed into a griddle-baked flatbread — often called China's hamburger, and considerably older than the American original, with roots tracing back over a thousand years.",
+      "whereToTry": "Muslim Quarter stalls, where a lamb version is also common alongside the classic pork."
+    },
+    {
+      "name": "Yangrou Paomo",
+      "text": "A bread-and-mutton soup where you tear flatbread into small pieces yourself before it is filled with rich mutton broth, noodles and meat — a Xi'an classic that is as much ritual as meal.",
+      "whereToTry": "Laosunjia or Tongshengxiang, both historic paomo restaurants in the old city."
+    },
+    {
+      "name": "Liangpi",
+      "image": {
+        "file": "File:Shanxi Liangpi 陕西 凉皮.jpg",
+        "alt": "A bowl of cold liangpi noodles tossed with chilli oil and vegetables"
+      },
+      "text": "Cold, chewy wheat or rice noodles tossed with chilli oil, garlic, vinegar and bean sprouts — a refreshing counterpoint to the city's heavier dishes, sold from carts across the old town.",
+      "whereToTry": "Street carts throughout the Muslim Quarter and old city, especially in warmer months."
+    },
+    {
+      "name": "Yangrou Chuan (lamb skewers)",
+      "image": {
+        "file": "File:Lamb kebabs on grill at Ancient City of Kashi (20230923224509).jpg",
+        "alt": "Cumin-dusted lamb skewers cooking over a charcoal grill"
+      },
+      "text": "Cumin- and chilli-dusted grilled lamb skewers, cooked over charcoal at street stalls, a Xi'an speciality with roots in the city's historic Silk Road and Central Asian connections.",
+      "whereToTry": "Any grill stall in the Muslim Quarter after dark, when the charcoal smoke fills the street."
+    },
+    {
+      "name": "Persimmon cake (shibing)",
+      "image": {
+        "file": "File:Shizibing.jpg",
+        "alt": "Golden fried persimmon cakes, a Xi'an speciality"
+      },
+      "text": "A sweet, chewy fried cake made from the region's soft persimmons, mixed into dough and pan-fried until golden — a distinctly Xi'an dessert, best in autumn and winter when persimmons are in season.",
+      "whereToTry": "Muslim Quarter dessert stalls, sold warm and often stuffed with walnuts or red bean paste."
+    }
+  ],
+  "accommodation": {
+    "intro": "Xi'an is compact enough that almost anywhere inside or just outside the City Wall works well for a short stay.",
+    "areas": [
+      {
+        "name": "Inside the City Wall, near the Bell Tower",
+        "bestFor": "First visits",
+        "text": "The historic centre, walking distance to the Muslim Quarter, the Bell and Drum Towers, and on the metro for the Terracotta Army and the pagoda."
+      },
+      {
+        "name": "Muslim Quarter edge",
+        "bestFor": "Food and atmosphere",
+        "text": "Steps from the street-food streets, lively until late, and a short walk to the Bell Tower and City Wall's North Gate."
+      },
+      {
+        "name": "Near the Big Wild Goose Pagoda",
+        "bestFor": "Quiet and value",
+        "text": "A calmer district south of the old city, close to the pagoda and its evening fountain show, with easy metro access to the rest of the city."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥50–90 per night" },
+      { "label": "Mid-range hotel", "value": "¥300–550 per night" },
+      { "label": "Terracotta Army ticket", "value": "¥120, plus transport" },
+      { "label": "City Wall entry and bike rental", "value": "¥54 entry, ¥45 bike for 100 minutes" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Xi'an sits on China's high-speed rail network and has its own international airport, making it an easy add-on to a Beijing-based first trip.",
+    "options": [
+      {
+        "mode": "Xi'an Xianyang Airport (XIY)",
+        "text": "About 40 km northwest of the city, with an airport bus and metro link into the centre taking roughly an hour.",
+        "detail": "Limited direct international routes — many visitors arrive via a connection in Beijing or Shanghai."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Xi'an North Station connects to the national network: [[beijing|Beijing]] 4h30, [[shanghai|Shanghai]] under 6h.",
+        "detail": "Book via Trip.com or 12306, and allow time to reach Xi'an North, which is well outside the old city centre."
+      },
+      {
+        "mode": "Domestic flights",
+        "text": "Frequent connections to most major Chinese cities, useful for onward travel to [[guilin-yangshuo|Guilin]] or [[chengdu|Chengdu]] without backtracking through Beijing.",
+        "detail": "Compare flight and rail total journey times — for closer cities, rail is often faster door to door."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Xi'an's old city is walkable, its metro reaches the key outer sights, and the Terracotta Army needs a bus or organised transfer.",
+    "options": [
+      {
+        "mode": "Walking within the walls",
+        "text": "The old city is compact enough to walk between the Bell Tower, Muslim Quarter and City Wall gates without transport.",
+        "detail": "Pavements can be crowded in the Muslim Quarter at peak times — patience helps more than speed."
+      },
+      {
+        "mode": "Metro",
+        "text": "A growing network reaching the Big Wild Goose Pagoda, the railway stations and most hotel districts, cheap and simple to use.",
+        "detail": "The Terracotta Army is not on the metro — combine a metro ride to the end of Line 9 with the connecting tourist bus, or take a direct bus from the city centre."
+      },
+      {
+        "mode": "Tourist bus 306 to the Terracotta Army",
+        "text": "A direct, cheap public bus from the main railway station to the Terracotta Army site, taking about an hour each way.",
+        "detail": "Look for the official numbered bus rather than unofficial touts offering 'direct' rides at the station."
+      },
+      {
+        "mode": "Didi (ride-hailing)",
+        "text": "Reliable within the city and for the Terracotta Army transfer if you would rather skip the bus queue.",
+        "detail": "Have your hotel and destination names ready in Chinese characters for the driver."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–May and September–November",
+    "summary": "Xi'an sits inland with a continental climate — cold, sometimes smoggy winters and hot summers — which makes spring and autumn clearly the best windows.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild and comfortable, with clearer air than winter and fewer crowds than the October holiday period."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "avoid",
+        "text": "Hot and often humid, regularly above 35°C, with little shade at the Terracotta Army site itself."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "The best season overall: comfortable temperatures, clear skies and, from late October, the added draw of persimmon season. The first week of October is Golden Week and very crowded."
+      },
+      {
+        "season": "Winter (December–March)",
+        "rating": "shoulder",
+        "text": "Cold and occasionally smoggy, but the thinnest crowds of the year and noticeably cheaper hotel rates outside Chinese New Year."
+      }
+    ],
+    "avoid": "The first week of October, when the Terracotta Army sees its highest crowds of the year nationwide."
+  },
+  "itinerary": {
+    "title": "Two days in Xi'an",
+    "intro": "One day for the Terracotta Army and its context, one day for the old city and its food — a workable minimum that does not feel rushed.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The Terracotta Army",
+        "summary": "A full day given to the site and its museum.",
+        "morning": "The Terracotta Army at opening, starting with Pit 1.",
+        "afternoon": "Pits 2 and 3, the bronze chariots hall, then back to the city.",
+        "evening": "The Shaanxi History Museum if it is still open, or dinner in the Muslim Quarter."
+      },
+      {
+        "day": 2,
+        "title": "The old city",
+        "summary": "The City Wall, the Muslim Quarter and the pagoda.",
+        "morning": "Cycle a loop of the City Wall from the South Gate.",
+        "afternoon": "The Great Mosque and the Muslim Quarter's food streets.",
+        "evening": "The Big Wild Goose Pagoda fountain show, then a final Shaanxi meal."
+      }
+    ]
+  },
+  "tipsIntro": "Xi'an-specific practicalities, mostly about the Terracotta Army's scale and the old city's crowds.",
+  "tips": [
+    "Give the Terracotta Army at least ninety minutes, not the thirty most tour groups allow — Pits 2 and 3 and the bronze chariots hall are genuinely worth the extra time.",
+    "Take the official tourist bus 306 from the railway station rather than touts offering direct transport, who often add unnecessary detours to souvenir shops.",
+    "The City Wall is more enjoyable early morning or near sunset — midday sun on the open stone can be genuinely uncomfortable in summer.",
+    "Bring small notes or have mobile payment set up for Muslim Quarter street food — some smaller stalls cannot break large bills.",
+    "The Shaanxi History Museum caps daily visitors — collect your free ticket in the morning even if you plan to visit in the afternoon.",
+    "Air quality can be poor in winter, similar to Beijing — check the forecast if you are sensitive.",
+    "Persimmon cakes and other seasonal Muslim Quarter specialities vary through the year — ask what is freshest rather than sticking to a fixed list."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Xi'an?",
+      "a": "Two to three. One full day for the Terracotta Army, which genuinely needs ninety minutes to two hours on site plus travel time, and one day for the City Wall, Muslim Quarter and Big Wild Goose Pagoda. A third day allows the Shaanxi History Museum and the Forest of Stone Steles without rushing."
+    },
+    {
+      "q": "Is the Terracotta Army worth the trip?",
+      "a": "Yes, without qualification. It is one of the most significant archaeological sites on earth — an entire buried army of individually sculpted, life-size soldiers, still being excavated — and photographs genuinely undersell its scale, particularly Pit 1's aircraft-hangar size."
+    },
+    {
+      "q": "How do I get from Xi'an to the Terracotta Army?",
+      "a": "The official tourist bus 306 runs directly from Xi'an railway station, taking about an hour each way and costing very little. Didi ride-hailing is a faster, pricier alternative. Avoid unofficial drivers touting 'direct' transport at the station, who often add shopping detours."
+    },
+    {
+      "q": "What is the best time of year to visit Xi'an?",
+      "a": "April to May and September to November. Spring and autumn are both mild and comfortable; autumn adds persimmon season from late October. Summer is hot with little shade at the Terracotta Army site, and the first week of October is Golden Week and extremely crowded."
+    },
+    {
+      "q": "What should I eat in Xi'an?",
+      "a": "Biang biang noodles and roujiamo above everything else, both native to Shaanxi and best found in the Muslim Quarter. Yangrou paomo, a torn-bread mutton soup, is the more involved local classic; liangpi cold noodles and lamb skewers round out a proper street-food crawl."
+    },
+    {
+      "q": "Is Xi'an walkable?",
+      "a": "The old city inside the walls is very walkable, and cycling the City Wall's full fourteen-kilometre loop is one of the best things to do here. The Terracotta Army, about an hour outside the centre, needs a bus, taxi or organised transfer."
+    }
+  ],
+  "related": ["beijing", "shanghai", "chengdu", "istanbul"],
+  "relatedArticles": ["unesco-worth-planning-around", "packing-by-season"]
+}

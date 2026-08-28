@@ -1,0 +1,379 @@
+{
+  "slug": "hamburg",
+  "name": "Hamburg",
+  "country": "germany",
+  "region": "Hamburg",
+  "categories": ["city", "coastal", "culture"],
+  "tagline": "A maritime trading city that has run its own affairs since the Hanseatic League, with a working harbour, a red-light district turned concert hall, and a confidence that owes nothing to Berlin or Munich.",
+  "highlight": "The Elbphilharmonie's glass wave-shaped crown rising above the harbour, a concert hall built on top of a century-old warehouse and now the city's defining new landmark.",
+  "shortDescription": "Germany's great port city: a Hanseatic trading history, a genuinely working harbour, and a distinct maritime identity in the north.",
+  "metaDescription": "A Hamburg travel guide: the Elbphilharmonie, the Speicherstadt warehouse district, the harbour, St. Pauli, when to go and a practical three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Hamburg Airport (HAM)",
+  "knownFor": "The harbour, Speicherstadt, maritime history, nightlife",
+  "budget": "€95–160 per day, mid-range",
+  "goodFor": "History, architecture, nightlife, day trips",
+  "coords": { "lat": 53.5511, "lng": 9.9937 },
+  "image": {
+    "file": "File:Elbphilharmonie Hamburg August 2023.jpg",
+    "alt": "The Elbphilharmonie concert hall rising above Hamburg's harbour"
+  },
+  "intro": [
+    "Hamburg has run its own affairs, in one form or another, since joining the Hanseatic League in the 13th century, and it still carries itself more like an independent trading city-state than a typical German metropolis. It remains one of Germany's sixteen federal states in its own right, a status it shares with only Berlin and Bremen, and its Protestant, mercantile, maritime culture feels genuinely distinct from Catholic Bavaria or reunified Berlin.",
+    "That trading history is still physically present everywhere. The Speicherstadt, the world's largest warehouse district built on timber piles, once stored coffee, spices and carpets from across the world; the harbour remains one of Europe's largest and busiest, with container ships still passing directly through the city centre.",
+    "Hamburg has also reinvented parts of that industrial waterfront with real success — the Elbphilharmonie concert hall, built atop a former cocoa warehouse, has become the city's new signature landmark since opening in 2017, and the HafenCity district around it is one of Europe's largest urban redevelopment projects, turning old docklands into a genuinely lived-in new neighbourhood."
+  ],
+  "whyVisit": {
+    "intro": "Hamburg's case is that no other German city combines this much genuine maritime trading history with a working modern harbour and a real independent civic identity.",
+    "points": [
+      {
+        "title": "The harbour is still genuinely working",
+        "text": "Container ships and harbour traffic remain a real, current part of the city rather than a preserved historical relic."
+      },
+      {
+        "title": "The Speicherstadt is a genuine architectural rarity",
+        "text": "The world's largest connected warehouse complex built on timber piles, a UNESCO World Heritage site still partly in commercial use."
+      },
+      {
+        "title": "The Elbphilharmonie is a real, current landmark",
+        "text": "One of the most striking pieces of contemporary architecture in Germany, not resting on historical reputation alone."
+      },
+      {
+        "title": "Hanseatic identity is genuinely distinct",
+        "text": "Hamburg's trading-city history and city-state status give it a character that feels different from the rest of Germany."
+      },
+      {
+        "title": "The nightlife on the Reeperbahn is a real institution",
+        "text": "St. Pauli's mix of music history, red-light district and genuine club culture is unlike anywhere else in the country."
+      }
+    ]
+  },
+  "attractionsIntro": "Hamburg's essential sights, mixing its historic trading district with its modern waterfront reinvention.",
+  "attractions": [
+    {
+      "name": "The Elbphilharmonie",
+      "image": {
+        "file": "File:Hamburg, Elbphilharmonie -- 2023 -- 6569.jpg",
+        "alt": "The wave-patterned glass facade of the Elbphilharmonie"
+      },
+      "text": "A glass, wave-shaped concert hall built atop a former warehouse, Hamburg's defining new landmark since opening in 2017, with a free public viewing platform offering harbour views.",
+      "tip": "The Plaza viewing platform is free but requires a timed ticket, bookable online or at the on-site ticket counter."
+    },
+    {
+      "name": "The Speicherstadt",
+      "image": {
+        "file": "File:Hamburg’s Speicherstadt at night.jpg",
+        "alt": "The Speicherstadt warehouses illuminated at night"
+      },
+      "text": "The world's largest connected warehouse district built on timber piles, a UNESCO World Heritage site of red-brick canals and bridges, still partly used for storage today.",
+      "tip": "Visit at dusk when the warehouses are illuminated — genuinely one of Hamburg's most atmospheric sights."
+    },
+    {
+      "name": "The Port of Hamburg",
+      "image": {
+        "file": "File:Hamburg Hafen Containerterminal.jpg",
+        "alt": "Container cranes at the Port of Hamburg"
+      },
+      "text": "One of Europe's largest and busiest harbours, still genuinely central to the city's economy, best seen from a harbour cruise or the St. Pauli Landungsbrücken piers.",
+      "tip": "A one-hour harbour cruise from the Landungsbrücken gives a genuine sense of the port's scale."
+    },
+    {
+      "name": "The Reeperbahn and St. Pauli",
+      "image": {
+        "file": "File:Hamburg Reeperbahn 2.jpg",
+        "alt": "The Reeperbahn, Hamburg's famous entertainment street"
+      },
+      "text": "Hamburg's famous entertainment district, part red-light district, part major nightlife and live music scene, where the Beatles played their earliest gigs.",
+      "tip": "The area is genuinely safe to walk through, though side streets off the main Reeperbahn have a different, more explicit character."
+    },
+    {
+      "name": "St. Michael's Church (Michel)",
+      "image": {
+        "file": "File:Hamburg, St. Michaelis -- 2023 -- 6615.jpg",
+        "alt": "St. Michael's Church, Hamburg's baroque landmark tower"
+      },
+      "text": "Hamburg's most iconic church tower, a Baroque landmark visible across the city, with a climbable tower offering panoramic harbour and city views.",
+      "tip": "Climb the tower late afternoon for the best light over the harbour and Speicherstadt."
+    },
+    {
+      "name": "The Kunsthalle Hamburg",
+      "image": {
+        "file": "File:Kunsthalle night.jpg",
+        "alt": "The Kunsthalle Hamburg art museum illuminated at night"
+      },
+      "text": "One of Germany's largest and most significant art museums, spanning medieval altarpieces to contemporary work across two connected buildings.",
+      "tip": "The 19th-century German Romantic collection, including Caspar David Friedrich's work, is a particular strength worth prioritising."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the headline sights, Hamburg rewards both harbour-focused exploration and its distinct nightlife culture.",
+  "thingsToDo": [
+    {
+      "title": "Take a harbour boat tour",
+      "image": {
+        "file": "File:Hamburg, Hafen, Landungsbrücken -- 2025 -- 2811.jpg",
+        "alt": "Boats departing from the Landungsbrücken piers in Hamburg's harbour"
+      },
+      "text": "Regular boat tours depart from the Landungsbrücken piers, giving a genuine working-harbour perspective the city's waterfront sights alone cannot offer.",
+      "tip": "An evening tour catches the Speicherstadt and Elbphilharmonie illuminated, a genuinely worthwhile upgrade over a daytime trip."
+    },
+    {
+      "title": "Explore the Fischmarkt on a Sunday morning",
+      "image": {
+        "file": "File:Fischauktionshalle im Morgengrauen.jpg",
+        "alt": "The Fischauktionshalle at dawn during Hamburg's Sunday fish market"
+      },
+      "text": "Hamburg's centuries-old fish market runs early Sunday mornings, a genuine local institution combining produce stalls with a distinctly Hamburg brand of chaotic early-morning entertainment.",
+      "tip": "It starts as early as 5am in summer — arrive by 7am for the full experience before the crowds and the best stalls thin out."
+    },
+    {
+      "title": "Experience the Reeperbahn's nightlife",
+      "image": {
+        "file": "File:Beatles-Platz (Hamburg-St. Pauli).jpg",
+        "alt": "Beatles-Platz, honouring the band's early Hamburg years"
+      },
+      "text": "From genuine live music venues carrying real Beatles-era history to modern clubs, St. Pauli's nightlife scene is a distinctive Hamburg institution.",
+      "tip": "The Beatles-Platz, a small square honouring the band's early Hamburg years, is a worthwhile stop before a night out."
+    },
+    {
+      "title": "Visit Miniatur Wunderland",
+      "image": {
+        "file": "File:Miniatur Wunderland Hamburg 2.jpg",
+        "alt": "The detailed miniature world inside Miniatur Wunderland"
+      },
+      "text": "The world's largest model railway, an astonishingly detailed miniature world spanning several countries, genuinely engaging for adults as much as children.",
+      "tip": "Book timed tickets online well ahead — this is genuinely one of Germany's most visited attractions and queues build fast."
+    },
+    {
+      "title": "Walk or cycle along the Alster lakes",
+      "image": {
+        "file": "File:Alster Lake Hamburg.jpg",
+        "alt": "The Alster lake in central Hamburg"
+      },
+      "text": "Two connected lakes near the city centre, ringed by parkland and grand villas, offering a genuinely relaxed contrast to the harbour's industrial energy.",
+      "tip": "A full loop of the Außenalster, the larger lake, takes about two hours on foot or considerably less by bike."
+    },
+    {
+      "title": "Take a day trip along the Elbe",
+      "image": {
+        "file": "File:Treppenviertel (Hamburg-Blankenese).jpg",
+        "alt": "The staircase-laced Treppenviertel quarter in Blankenese"
+      },
+      "text": "Blankenese's steep, staircase-laced riverside village and other Elbe-side towns offer a genuinely different, quieter side of greater Hamburg.",
+      "tip": "Blankenese is reachable by S-Bahn in about 25 minutes, an easy half-day trip from the city centre."
+    }
+  ],
+  "foodIntro": "Hamburg's food culture is genuinely maritime, built around fish, harbour traditions and its own distinct specialities.",
+  "foods": [
+    {
+      "name": "Fischbrötchen",
+      "image": {
+        "file": "File:Fischbrötchen Backfisch in Hamburg 2023.jpg",
+        "alt": "A Hamburg Fischbrötchen fish sandwich"
+      },
+      "text": "A fish sandwich, usually herring or another local catch, served cold or fried in a crusty bread roll, a genuine Hamburg harbour-side staple.",
+      "whereToTry": "Fish stalls at the Landungsbrücken and Fischmarkt, ideally eaten standing by the harbour."
+    },
+    {
+      "name": "Labskaus",
+      "image": {
+        "file": "File:Hamburger Labskaus 1.jpg",
+        "alt": "A plate of Hamburg-style Labskaus with fried egg and herring"
+      },
+      "text": "A traditional sailors' dish of corned beef, potato and beetroot mashed together, topped with a fried egg and served with herring and gherkin, genuinely divisive but a real Hamburg specialty.",
+      "whereToTry": "Traditional harbour-side restaurants, particularly around the old town."
+    },
+    {
+      "name": "Franzbrötchen",
+      "image": {
+        "file": "File:Franzbrötchen mit Capuccino in Hamburg 2023.jpg",
+        "alt": "A Franzbrötchen cinnamon pastry with a cup of coffee"
+      },
+      "text": "A cinnamon-swirled pastry unique to Hamburg, flatter and less sweet than a cinnamon roll, a genuine local breakfast staple found nowhere else in Germany quite like this.",
+      "whereToTry": "Bakeries across the city, best eaten fresh in the morning."
+    },
+    {
+      "name": "Aalsuppe (eel soup)",
+      "image": {
+        "file": "File:Hamburger Aalsuppe bei Hamburger Fischerstuben.jpg",
+        "alt": "A bowl of traditional Hamburg Aalsuppe"
+      },
+      "text": "A traditional Hamburg soup that, confusingly, does not require eel at all in its original form, a hearty sweet-and-sour mix of dried fruit, vegetables and meat.",
+      "whereToTry": "Traditional Hamburg restaurants, particularly those specialising in regional cuisine."
+    },
+    {
+      "name": "Currywurst, Hamburg's rival version",
+      "image": {
+        "file": "File:20220430 currywurst.jpg",
+        "alt": "A plate of currywurst with fries"
+      },
+      "text": "While Berlin claims the dish's invention, Hamburg has its own strong currywurst culture and genuine local rivalry over whose version is better.",
+      "whereToTry": "Street stalls across the city, particularly around St. Pauli."
+    },
+    {
+      "name": "Rote Grütze",
+      "image": {
+        "file": "File:Rote Grütze mit Vanillesoße.JPG",
+        "alt": "A bowl of Rote Grütze berry compote with vanilla sauce"
+      },
+      "text": "A traditional red berry compote dessert, served with cream or vanilla sauce, a genuinely simple, well-loved north German specialty.",
+      "whereToTry": "Traditional restaurants and cafes across Hamburg, especially in summer when berries are freshest."
+    }
+  ],
+  "accommodation": {
+    "intro": "Hamburg's centre is compact enough that most central accommodation puts you within reach of the harbour and main sights.",
+    "areas": [
+      {
+        "name": "Altstadt and Speicherstadt",
+        "bestFor": "Walking to the harbour and Elbphilharmonie",
+        "text": "The most central base, putting the historic warehouse district and harbour sights within easy reach."
+      },
+      {
+        "name": "St. Pauli",
+        "bestFor": "Nightlife and a livelier atmosphere",
+        "text": "A short walk or transit ride from the centre, with easy access to the Reeperbahn's nightlife and harbour views."
+      },
+      {
+        "name": "Near the Alster lakes",
+        "bestFor": "A quieter, more upscale base",
+        "text": "Elegant streets close to the Alster, well connected to the centre and a calmer alternative to the harbour district."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "€25–42 per night" },
+      { "label": "Mid-range hotel", "value": "€95–170 per night" },
+      { "label": "Elbphilharmonie Plaza ticket", "value": "Free, timed entry" },
+      { "label": "Harbour boat tour", "value": "€20–25" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Hamburg Airport handles the city's international traffic, with excellent rail connections across northern Germany.",
+    "options": [
+      {
+        "mode": "Hamburg Airport (HAM)",
+        "text": "Connected to the city centre by S-Bahn train in about 25 minutes, with frequent services throughout the day.",
+        "detail": "The S1 line runs directly from the airport to the central Hauptbahnhof station."
+      },
+      {
+        "mode": "Rail from other German cities",
+        "text": "ICE trains connect Hamburg to [[berlin|Berlin]] in under 2 hours, and [[cologne-rhine-valley|Cologne]] in about 4 hours.",
+        "detail": "Book Sparpreis fares as early as possible for significant savings over walk-up tickets."
+      },
+      {
+        "mode": "Ferry",
+        "text": "Ferry connections run from Hamburg's wider port region to Scandinavia, a practical option for a wider Northern European trip.",
+        "detail": "Most ferry services depart from terminals outside the immediate city centre."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Hamburg's public transport network is extensive, and the harbour itself doubles as a functioning part of the transit system via public ferries.",
+    "options": [
+      {
+        "mode": "U-Bahn and S-Bahn",
+        "text": "Hamburg's underground and suburban rail networks together cover the city comprehensively, running frequently and reliably.",
+        "detail": "A single ticket system covers both networks plus buses and public harbour ferries within the same fare zone."
+      },
+      {
+        "mode": "Public harbour ferries",
+        "text": "Regular public ferry routes cross the harbour and Elbe as part of the standard transit network, a genuinely scenic and practical way to see the port.",
+        "detail": "Line 62 is a popular, cheap alternative to a paid harbour tour, covered by a standard transit ticket."
+      },
+      {
+        "mode": "Walking and cycling",
+        "text": "The Speicherstadt, HafenCity and Altstadt are comfortably walkable from each other, and Hamburg is a genuinely bike-friendly city.",
+        "detail": "Bike-share schemes operate citywide, unlockable via smartphone app."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Hamburg's northern location means genuinely cooler, wetter weather than southern Germany in any season, making the shoulder months the most reliable window.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild and increasingly pleasant, with the Alster's parkland at its best and crowds still below summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "The warmest, driest months and the best for outdoor harbour activities, though also the busiest and most expensive."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures and thinning crowds, with good light for photographing the harbour and Speicherstadt."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Cold, grey and genuinely wet at times, but Christmas markets bring real seasonal charm, and the Elbphilharmonie's concert season is in full swing."
+      }
+    ],
+    "avoid": "Nothing rules out a Hamburg visit specifically, though winter's shorter days and wetter weather suit an indoor-heavy itinerary better than a harbour-focused one."
+  },
+  "itinerary": {
+    "title": "Three days in Hamburg",
+    "intro": "The harbour and Speicherstadt first, then museums and the Alster, then St. Pauli's nightlife — a pace that covers Hamburg's different sides.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The harbour and Speicherstadt",
+        "summary": "Hamburg's maritime trading heart.",
+        "morning": "The Speicherstadt's canals and warehouses.",
+        "afternoon": "The Elbphilharmonie's Plaza and a harbour boat tour.",
+        "evening": "Dinner near the Landungsbrücken."
+      },
+      {
+        "day": 2,
+        "title": "Museums and the Alster",
+        "summary": "Hamburg's cultural side and its green centre.",
+        "morning": "The Kunsthalle Hamburg or Miniatur Wunderland.",
+        "afternoon": "A walk or cycle around the Außenalster.",
+        "evening": "Dinner in the city centre."
+      },
+      {
+        "day": 3,
+        "title": "St. Pauli and the Reeperbahn",
+        "summary": "Hamburg's music history and nightlife.",
+        "morning": "St. Michael's Church and its tower.",
+        "afternoon": "The Beatles-Platz and a wander through St. Pauli.",
+        "evening": "Hamburg's nightlife, at whatever pace suits."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on timing, tickets and weather that make a real difference to a Hamburg trip.",
+  "tips": [
+    "Book Elbphilharmonie Plaza tickets online in advance — they're free but timed, and same-day slots often sell out.",
+    "Book Miniatur Wunderland tickets well ahead — it's genuinely one of Germany's most visited attractions.",
+    "Pack proper layers and rain protection regardless of season — Hamburg's weather is genuinely changeable and wetter than southern Germany.",
+    "Visit the Fischmarkt early — it starts before dawn in summer and thins out by mid-morning.",
+    "Use the public ferry lines, especially route 62, as a cheap, scenic alternative to a paid harbour tour.",
+    "Climb St. Michael's Church tower in late afternoon for the best light over the harbour.",
+    "Don't judge the Reeperbahn by its main strip alone — it's genuinely safe and has real musical history beyond its red-light reputation."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Hamburg?",
+      "a": "Three days covers the essential harbour sights, a major museum and a proper St. Pauli evening comfortably, without feeling rushed."
+    },
+    {
+      "q": "Is Hamburg worth visiting beyond the Reeperbahn?",
+      "a": "Absolutely — the Speicherstadt, Elbphilharmonie, harbour and Alster lakes are all genuine highlights independent of the nightlife scene, which is only one part of the city's character."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the most reliable weather and manageable crowds. Hamburg is genuinely cooler and wetter than southern Germany year-round, so pack layers regardless of season."
+    },
+    {
+      "q": "Is the Reeperbahn safe to visit?",
+      "a": "Yes, genuinely — it's a well-patrolled, tourist-frequented area. Ordinary city vigilance is enough, and the district's live music history is as much a draw as its red-light reputation."
+    },
+    {
+      "q": "Can you do a harbour cruise for free?",
+      "a": "Not entirely free, but Hamburg's public ferry line 62 crosses much of the working harbour for the cost of a standard transit ticket, a genuinely good budget alternative to a dedicated tour."
+    }
+  ],
+  "related": ["berlin", "rugen-baltic-coast", "dresden"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}

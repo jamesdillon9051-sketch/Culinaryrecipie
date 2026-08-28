@@ -1,0 +1,339 @@
+{
+  "slug": "zhangjiajie",
+  "name": "Zhangjiajie",
+  "country": "china",
+  "region": "Hunan",
+  "categories": ["national-park", "nature-wildlife", "off-beaten-path"],
+  "tagline": "Thousands of sandstone pillars rising straight out of the forest floor, the real-world landscape that inspired the floating mountains of a famous Hollywood fantasy film.",
+  "highlight": "The Avatar Hallelujah Mountain — a needle-thin sandstone pillar wreathed in cloud that directly inspired the floating mountains of Avatar.",
+  "shortDescription": "China's strangest national park: over three thousand sandstone pillars, a glass bridge slung between two cliffs, and the tallest outdoor elevator on earth.",
+  "metaDescription": "A Zhangjiajie travel guide: Tianzi Mountain, the Avatar pillars, the glass bridge and Tianmen Mountain, when to go, how to get around and a three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Zhangjiajie Hehua (DYG)",
+  "knownFor": "The Avatar pillars, the glass bridge, Tianmen Mountain, the Bailong Elevator",
+  "budget": "¥450–800 per day, mid-range",
+  "goodFor": "Nature, hiking, photography, dramatic scenery",
+  "coords": { "lat": 29.1170, "lng": 110.4794 },
+  "image": {
+    "file": "File:Zhangjiajie National Forest Park.jpg",
+    "alt": "Thousands of sandstone pillars rising through mist in Zhangjiajie National Forest Park"
+  },
+  "intro": [
+    "Zhangjiajie looks like nowhere else on earth, which is exactly why a Hollywood art department used it as the visual reference for an alien planet. Over three thousand narrow sandstone pillars, some rising more than 200 metres straight out of the forest floor, formed over hundreds of millions of years as softer surrounding rock eroded away and left only the hardest quartzite columns standing. On a misty morning, with cloud drifting between the pillars at different heights, the effect really does look like something floating.",
+    "China's first national forest park, designated in 1982, the site's international fame arrived decades later when a specific pillar, now officially renamed Avatar Hallelujah Mountain, was confirmed as a direct inspiration for the film's floating Hallelujah Mountains. That renaming turned a already-remarkable natural site into a minor pilgrimage destination, but the crowds have not diminished what is underneath: a genuinely vast park of gorges, pillars and forest that rewards more than one day.",
+    "The surrounding area has leaned hard into engineering spectacle to match the natural one — the Bailong Elevator, the tallest outdoor lift on earth, runs 326 metres up a cliff face in under two minutes, and a glass-bottomed bridge nearby is slung 300 metres above a canyon floor. Neither is subtle, and neither is really necessary to enjoy the park, but both are, in their own way, as much a part of a Zhangjiajie trip now as the pillars themselves."
+  ],
+  "whyVisit": {
+    "intro": "Zhangjiajie's case is that no other landscape in this guide, or arguably in China, looks quite so genuinely otherworldly.",
+    "points": [
+      {
+        "title": "The pillar landscape has no real comparison",
+        "text": "Three thousand-plus sandstone columns rising directly out of forest, a geological formation essentially unique to this part of Hunan."
+      },
+      {
+        "title": "It directly inspired a landmark film's landscape",
+        "text": "Avatar Hallelujah Mountain's renaming reflects a genuine, confirmed inspiration, not just marketing, and seeing it in person explains exactly why."
+      },
+      {
+        "title": "The engineering is its own spectacle",
+        "text": "The Bailong Elevator and the glass bridge are genuinely dramatic additions, not distractions, for visitors who want more than a quiet nature walk."
+      },
+      {
+        "title": "It is a complete change of landscape from the rest of a China trip",
+        "text": "Nothing else in a typical Beijing-Xi'an-Shanghai itinerary looks remotely like this, making it an excellent landscape counterpoint."
+      },
+      {
+        "title": "The hiking genuinely rewards effort",
+        "text": "Trails through the pillar forest, away from the cable cars and elevators, offer a much quieter, slower version of the same extraordinary scenery."
+      }
+    ]
+  },
+  "attractionsIntro": "The park is genuinely large — plan two full days inside it if you want to see the highlights without rushing.",
+  "attractions": [
+    {
+      "name": "Avatar Hallelujah Mountain",
+      "text": "A slender, cloud-wreathed sandstone pillar in the Yuanjiajie area, officially renamed after being confirmed as a direct visual inspiration for the film's floating mountains — the single most photographed spot in the park.",
+      "tip": "Arrive early morning for the best chance of the cloud and mist that make the pillar look genuinely otherworldly."
+    },
+    {
+      "name": "Tianzi Mountain",
+      "image": {
+        "file": "File:1 tianzishan wulingyuan zhangjiajie 2012.jpg",
+        "alt": "The pillar forest seen from a Tianzi Mountain viewing platform"
+      },
+      "text": "A cable car ride to a high viewing platform overlooking a dense forest of sandstone pillars stretching to the horizon, considered by many the single best panoramic view in the entire park.",
+      "tip": "Take the cable car up and hike partway down through the pillars for a slower, more immersive descent."
+    },
+    {
+      "name": "The Bailong Elevator",
+      "image": {
+        "file": "File:The real Great Glass Elevator (53963531319).jpg",
+        "alt": "The Bailong Elevator's glass shaft built into the cliff face"
+      },
+      "text": "The tallest outdoor elevator on earth, rising 326 metres up a sheer cliff face in under two minutes, engineered directly into the rock and offering a genuinely vertiginous view as you ascend.",
+      "tip": "Queues can be long in peak season — go early morning or be prepared to wait an hour or more."
+    },
+    {
+      "name": "The Zhangjiajie Glass Bridge",
+      "image": {
+        "file": "File:Glass Bridge in Zhangjiajie China.jpg",
+        "alt": "The glass-bottomed bridge suspended above Zhangjiajie Grand Canyon"
+      },
+      "text": "A 430-metre glass-bottomed bridge suspended 300 metres above the Zhangjiajie Grand Canyon, one of the longest and highest glass bridges in the world, with a bungee jump platform at one end for the genuinely brave.",
+      "tip": "Book tickets online in advance — daily visitor numbers are capped and it regularly sells out."
+    },
+    {
+      "name": "Tianmen Mountain and the Heaven's Gate cave",
+      "image": {
+        "file": "File:Tianmen Mountain Heaven Gate arch Zhangjiajie.jpg",
+        "alt": "The natural rock arch of Heaven's Gate on Tianmen Mountain"
+      },
+      "text": "A separate mountain reached by one of the world's longest cable cars, its summit holding a natural arch, 999 steps, and a glass skywalk clinging to the cliff face beneath it.",
+      "tip": "The cable car alone is a spectacular ride, climbing nearly 1,300 vertical metres over its full length."
+    },
+    {
+      "name": "The Golden Whip Stream",
+      "text": "A gentle, mostly flat walking trail following a stream through the base of the pillar forest, one of the easiest and most rewarding ways to experience the landscape at close range.",
+      "tip": "Genuinely suitable for all fitness levels and much quieter than the cable-car viewpoints above."
+    }
+  ],
+  "thingsToDoIntro": "Zhangjiajie rewards mixing the big engineered spectacles with quieter forest walks between them.",
+  "thingsToDo": [
+    {
+      "title": "Hike the Golden Whip Stream trail",
+      "text": "A flat, forested walk beside a stream, pillars rising on either side, that takes a few unhurried hours and needs no cable car or elevator to enjoy fully.",
+      "tip": "Start early to have the trail relatively to yourself before the tour groups arrive."
+    },
+    {
+      "title": "Ride the Bailong Elevator up and hike down",
+      "text": "Take the elevator up the cliff face for the engineering spectacle, then walk back down through the pillar forest on foot for a slower, more immersive second look at the same scenery.",
+      "tip": "The descent takes a couple of hours at an easy pace — wear proper shoes, as steps can be uneven and occasionally wet."
+    },
+    {
+      "title": "Cross the glass bridge",
+      "image": {
+        "file": "File:Zhangjiajie Grand Canyon 16.jpg",
+        "alt": "The steep, forested walls of Zhangjiajie Grand Canyon"
+      },
+      "text": "A genuinely nerve-testing walk across 430 metres of glass suspended 300 metres up, with the option to bungee jump from a dedicated platform at one end for those who want more than a walk.",
+      "tip": "Shoe covers are provided and required to protect the glass — factor a few extra minutes for this at the entrance."
+    },
+    {
+      "title": "Take the Tianmen Mountain cable car",
+      "text": "One of the longest cable car rides in the world, climbing from the city almost directly to Tianmen's summit, with the natural Heaven's Gate arch visible partway up.",
+      "tip": "Weather affects operation — check conditions before committing to a Tianmen Mountain day, as low cloud can close the cable car."
+    },
+    {
+      "title": "Walk the Tianmen Mountain skywalk",
+      "text": "A glass and metal walkway clinging to the cliff face near Tianmen's summit, offering a vertiginous view straight down the mountainside — not for anyone with a serious fear of heights.",
+      "tip": "Several sections are glass-floored; others are metal grating, which some visitors find easier."
+    },
+    {
+      "title": "Watch the sunrise or sunset over the pillar forest",
+      "image": {
+        "file": "File:Zhangjiajie Qianguqing Scenic Spot 01.jpg",
+        "alt": "Sandstone pillars at the Qianguqing scenic viewpoint"
+      },
+      "text": "Several viewing platforms across the park, particularly around Tianzi Mountain and Yuanjiajie, offer dramatic light over the pillars at the edges of the day, when the crowds thin and the mist often gathers.",
+      "tip": "Check cable car operating hours — reaching the best viewpoints for true sunrise can require staying inside the park overnight."
+    }
+  ],
+  "foodIntro": "Hunan cuisine is famous nationally for its heat, built around fresh and pickled chillies rather than the numbing peppercorns of neighbouring Sichuan.",
+  "foods": [
+    {
+      "name": "Hunan-style spicy fish head",
+      "text": "A whole fish head braised in a fiery, chilli-laden sauce, a signature Hunan dish and a genuine test of spice tolerance, meant to be shared and eaten with rice to balance the heat.",
+      "whereToTry": "Local Zhangjiajie and wider Hunan restaurants, usually a specialty rather than an everyday order."
+    },
+    {
+      "name": "Cured Hunan bacon (larou)",
+      "text": "Pork belly smoked and cured over a wood fire for weeks, then stir-fried with chillies and leeks — intensely savoury and smoky, a genuine regional signature distinct from other Chinese cured meats.",
+      "whereToTry": "Local restaurants across Zhangjiajie and the wider Hunan region."
+    },
+    {
+      "name": "Stir-fried chillies with fermented black beans",
+      "text": "A simple, fiery vegetable dish that shows off Hunan's love of fresh green and red chillies stir-fried hard and fast, often served as a side to balance richer meat dishes.",
+      "whereToTry": "Any local Hunan restaurant — a reliable, cheap side dish across the province."
+    },
+    {
+      "name": "Zhangjiajie sour fish soup (suanla yu)",
+      "text": "A sour and spicy fish soup specific to the region, built on pickled chillies and vinegar rather than the oil-heavy sauces of some other Hunan dishes, genuinely refreshing after a day of hiking.",
+      "whereToTry": "Restaurants in Zhangjiajie town and around the park entrances."
+    },
+    {
+      "name": "Tujia ethnic minority dishes",
+      "text": "The Tujia people are native to this part of Hunan, and their cooking — smoked meats, wild vegetables and rice cakes — appears on menus around the park alongside standard Hunan fare.",
+      "whereToTry": "Guesthouses and restaurants run by local Tujia families, particularly in villages near the park."
+    },
+    {
+      "name": "Hunan-style stinky tofu",
+      "image": {
+        "file": "File:2010-02-14 Frying Stinky Tofu in the Shilin Temporary Market, Taipei.jpg",
+        "alt": "Fermented tofu frying in a street-side wok"
+      },
+      "text": "Deep-fried fermented tofu, black-skinned and pungent, served with a chilli sauce — a genuinely divisive street snack that Hunan claims as its own regional variant of the wider Chinese dish.",
+      "whereToTry": "Street stalls in Zhangjiajie town, best eaten fresh and hot from the fryer."
+    }
+  ],
+  "accommodation": {
+    "intro": "Most visitors stay either in Zhangjiajie city, well outside the park, or inside the park itself near Wulingyuan for easier access.",
+    "areas": [
+      {
+        "name": "Wulingyuan, near the park entrance",
+        "bestFor": "Most visitors",
+        "text": "A small town directly outside the main park gate, with easy access for multiple park days without a long daily commute."
+      },
+      {
+        "name": "Inside the national park",
+        "bestFor": "Sunrise and sunset viewing",
+        "text": "A handful of hotels sit inside the park boundary itself, useful if you specifically want to catch dawn light over the pillars without an early transfer."
+      },
+      {
+        "name": "Zhangjiajie city centre",
+        "bestFor": "Transport convenience and value",
+        "text": "Further from the park — around 40 minutes by road — but with more hotel choice and easier onward transport connections."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥50–90 per night" },
+      { "label": "Mid-range hotel", "value": "¥250–500 per night" },
+      { "label": "Park entrance ticket (4-day validity)", "value": "¥225" },
+      { "label": "Bailong Elevator and internal transport", "value": "¥76–150 combined" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Zhangjiajie has its own small airport and a growing rail connection, making it reachable without backtracking through a major hub.",
+    "options": [
+      {
+        "mode": "Zhangjiajie Hehua Airport (DYG)",
+        "text": "A small airport with domestic connections to most major Chinese cities, about 15 minutes from Zhangjiajie city centre.",
+        "detail": "Limited international routes — most visitors connect through Beijing, Shanghai or Guangzhou."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Zhangjiajie West Station connects to the growing regional network, with links toward [[guilin-yangshuo|Guilin]] and other southern cities improving each year.",
+        "detail": "Check current routings, as this connection has expanded significantly in recent years — verify your specific route before booking."
+      },
+      {
+        "mode": "Domestic flights from Xi'an or Shanghai",
+        "text": "Direct flights connect Zhangjiajie to several major cities on this guide's itinerary, useful for adding it without extensive backtracking.",
+        "detail": "Compare total journey time against rail options, which can vary significantly depending on your starting city."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "The national park is large, hilly and not designed around independent driving — a mix of park shuttle buses, cable cars and walking is standard.",
+    "options": [
+      {
+        "mode": "Park shuttle buses",
+        "text": "Included in the park entrance ticket, these buses connect the main areas — Yuanjiajie, Tianzi Mountain, Golden Whip Stream — and are the backbone of getting around inside the park.",
+        "detail": "Buses can be crowded in peak season; allow extra time between planned stops."
+      },
+      {
+        "mode": "Cable cars and the Bailong Elevator",
+        "text": "Separate paid tickets get you up to the main viewpoints quickly, saving hours of climbing versus walking trails alone.",
+        "detail": "Combine an upward cable car or elevator ride with a walking descent for the best of both."
+      },
+      {
+        "mode": "Walking trails",
+        "text": "Extensive, well-marked trails connect much of the park on foot for those with time and stamina, including the flat Golden Whip Stream route.",
+        "detail": "Some trails involve significant stairs — pace yourself and carry water."
+      },
+      {
+        "mode": "Taxis and Didi between town and park",
+        "text": "The standard way to reach the park entrance from Zhangjiajie city or Wulingyuan accommodation.",
+        "detail": "Agree fares or confirm the meter is running, particularly for longer city-to-park transfers."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–May and September–November",
+    "summary": "Zhangjiajie's mist and cloud, part of its visual appeal, are more common in spring and after rain — the shoulder seasons balance good weather with atmospheric conditions.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild temperatures and a higher chance of the misty, cloud-wreathed conditions that make the pillars look their most dramatic."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "shoulder",
+        "text": "Hot and humid with a real chance of rain, but also lush and green, and the mist effect remains common after summer showers."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "Comfortable, clearer overall than spring, and from October the surrounding forest begins to show autumn colour against the sandstone."
+      },
+      {
+        "season": "Winter (December–March)",
+        "rating": "shoulder",
+        "text": "Cold, occasionally with light snow dusting the pillars for a genuinely striking effect, but some cable cars and the glass bridge may close in poor weather."
+      }
+    ],
+    "avoid": "The first week of October and the week around Chinese New Year, when the park sees a significant spike in domestic visitors."
+  },
+  "itinerary": {
+    "title": "Three days in Zhangjiajie",
+    "intro": "Two days inside the main national park, one day for Tianmen Mountain — a workable pace that avoids rushing either.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Yuanjiajie and Tianzi Mountain",
+        "summary": "The park's headline viewpoints.",
+        "morning": "The Bailong Elevator up, then Yuanjiajie and Avatar Hallelujah Mountain.",
+        "afternoon": "Tianzi Mountain's cable car and panoramic viewpoints.",
+        "evening": "Back to Wulingyuan for dinner."
+      },
+      {
+        "day": 2,
+        "title": "The glass bridge and Golden Whip Stream",
+        "summary": "One engineered spectacle, one quiet trail.",
+        "morning": "The Zhangjiajie Glass Bridge, booked ahead.",
+        "afternoon": "The Golden Whip Stream trail at an easy pace.",
+        "evening": "A Tujia or Hunan-style dinner in town."
+      },
+      {
+        "day": 3,
+        "title": "Tianmen Mountain",
+        "summary": "A separate mountain and cable car system.",
+        "morning": "The Tianmen Mountain cable car and Heaven's Gate cave.",
+        "afternoon": "The cliffside skywalk, weather permitting.",
+        "evening": "Depart or transfer onward."
+      }
+    ]
+  },
+  "tipsIntro": "Zhangjiajie-specific practicalities, mostly about weather, cable cars and the park's scale.",
+  "tips": [
+    "Buy a multi-day park ticket if you plan two visits — the standard entrance ticket is valid for several consecutive days, avoiding a second full fee.",
+    "Check weather before a Tianmen Mountain day specifically — its cable car and skywalk are more weather-sensitive than the main national park.",
+    "Book the glass bridge online in advance; it caps daily visitors and regularly sells out in peak season.",
+    "Wear proper walking shoes regardless of how much cable car and elevator use you plan — the park involves more walking between stops than first-time visitors expect.",
+    "Mist and cloud, part of the appeal, can also obscure views entirely on a bad day — build in a buffer day if the specific viewpoints matter to you.",
+    "The park is genuinely large; do not try to see Yuanjiajie, Tianzi Mountain and the glass bridge all in one day without a very early start."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Zhangjiajie?",
+      "a": "Three. Two full days inside the main national park cover the headline viewpoints and at least one proper trail, and a third day for Tianmen Mountain, which is a separate system entirely. Two days total is possible if you skip Tianmen Mountain, but it is a genuinely worthwhile addition."
+    },
+    {
+      "q": "Is Zhangjiajie really the inspiration for Avatar?",
+      "a": "Yes, specifically one pillar in the Yuanjiajie area, since officially renamed Avatar Hallelujah Mountain, was confirmed as a direct visual reference for the film's floating mountains. The wider park's misty pillar landscape clearly informed the broader aesthetic even beyond that one formation."
+    },
+    {
+      "q": "Is the glass bridge worth it?",
+      "a": "For most visitors, yes — it is a genuinely dramatic structure and experience, 430 metres of glass 300 metres above a canyon. It is a separate paid attraction from the main park entrance and books out in peak season, so plan ahead if you want to cross it, or add the bungee jump."
+    },
+    {
+      "q": "What is the best time of year to visit Zhangjiajie?",
+      "a": "April to May and September to November. Both are comfortable and increase the odds of the misty, atmospheric conditions that make the pillars most photogenic. Summer is hot and humid but lush; winter is cold and occasionally snow-dusted but can close weather-sensitive cable cars."
+    },
+    {
+      "q": "How physically demanding is Zhangjiajie?",
+      "a": "As demanding as you choose to make it. Cable cars and the Bailong Elevator handle most of the elevation change, and the Golden Whip Stream trail is flat and suitable for nearly anyone. Hiking the full pillar forest on foot instead of using the elevator is a genuinely strenuous full day."
+    }
+  ],
+  "related": ["guilin-yangshuo", "chengdu", "grand-canyon"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}

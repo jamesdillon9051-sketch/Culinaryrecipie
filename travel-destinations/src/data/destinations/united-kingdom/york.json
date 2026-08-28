@@ -1,0 +1,371 @@
+{
+  "slug": "york",
+  "name": "York",
+  "country": "united-kingdom",
+  "region": "North Yorkshire, England",
+  "categories": ["historic", "city", "culture"],
+  "tagline": "A complete walled medieval city where a Roman fortress, a Viking trading post and England's grandest Gothic cathedral all sit within a ten-minute walk of each other.",
+  "highlight": "York Minster's Gothic towers rising above a skyline of medieval streets still enclosed by their original city walls.",
+  "shortDescription": "A compact, walkable walled city in the north of England layering Roman, Viking, medieval and Victorian history, with one of Europe's great Gothic cathedrals at its centre.",
+  "metaDescription": "A York travel guide: York Minster, the Shambles, the city walls, the Jorvik Viking Centre, when to go and a practical two-to-three-day itinerary.",
+  "suggestedStay": "2–3 days",
+  "nearestAirport": "Leeds Bradford (LBA) or Manchester (MAN)",
+  "knownFor": "York Minster, the Shambles, city walls, Viking history",
+  "budget": "£80–140 per day, mid-range",
+  "goodFor": "History, walking, families, day trips",
+  "coords": { "lat": 53.9600, "lng": -1.0873 },
+  "image": {
+    "file": "File:York Minster from the city walls - geograph.org.uk - 7551008.jpg",
+    "alt": "York Minster's Gothic towers seen from the medieval city walls"
+  },
+  "intro": [
+    "York has been continuously important for nearly two thousand years, first as the Roman legionary fortress of Eboracum, then as the Viking trading city of Jorvik, then as medieval England's second city and seat of an archbishop who still ranks second only to Canterbury. Almost none of that history has been demolished to make way for the next layer — it has simply been built over, excavated, or left standing alongside whatever came next.",
+    "The result is a city genuinely compact enough to walk in full: a two-mile circuit of medieval walls encloses narrow streets, the Shambles' overhanging medieval shopfronts, and York Minster, whose Gothic towers are visible from almost anywhere inside the walls.",
+    "It works equally well as a focused two-day trip or as a base for the wider Yorkshire countryside, and unlike many historic English cities, its centre has stayed relatively free of large-scale postwar redevelopment, so what you see walking its streets is genuinely old rather than a reconstruction."
+  ],
+  "whyVisit": {
+    "intro": "York's case is that no other English city fits this much continuous, physically intact history into an area this walkable.",
+    "points": [
+      {
+        "title": "The city walls are the real thing",
+        "text": "Almost the entire medieval circuit survives and is walkable, an increasingly rare survival among England's historic cities."
+      },
+      {
+        "title": "York Minster is genuinely one of Europe's great cathedrals",
+        "text": "The largest Gothic cathedral in northern Europe, with medieval stained glass unmatched almost anywhere on the continent."
+      },
+      {
+        "title": "The Viking history is presented seriously",
+        "text": "The Jorvik Viking Centre sits on the actual excavated site, built from real archaeological evidence rather than a generic recreation."
+      },
+      {
+        "title": "It is genuinely compact",
+        "text": "Nearly everything worth seeing sits within the walls, walkable in a day without needing transport."
+      },
+      {
+        "title": "It works as both a destination and a base",
+        "text": "The city rewards two focused days alone, and also sits well within reach of the Yorkshire Dales and North York Moors for those with more time."
+      }
+    ]
+  },
+  "attractionsIntro": "York's compact centre means these can genuinely all be covered on foot over two or three unhurried days.",
+  "attractions": [
+    {
+      "name": "York Minster",
+      "image": {
+        "file": "File:York Minster Nave 2, Nth Yorkshire, UK - Diliff.jpg",
+        "alt": "The soaring Gothic nave inside York Minster"
+      },
+      "text": "The largest Gothic cathedral in northern Europe, with the Great East Window's medieval stained glass and a central tower offering views across the whole city.",
+      "tip": "Climbing the central tower involves 275 steps and a genuinely narrow spiral staircase — not for the claustrophobic."
+    },
+    {
+      "name": "The Shambles",
+      "image": {
+        "file": "File:The Shambles, York - geograph.org.uk - 2900904.jpg",
+        "alt": "The overhanging medieval timber-framed buildings of the Shambles"
+      },
+      "text": "A narrow medieval street of overhanging timber-framed buildings, once home to the city's butchers and among the best-preserved medieval shopping streets in Europe.",
+      "tip": "Visit early morning or evening to see it without the daytime crowds that fill this genuinely narrow street."
+    },
+    {
+      "name": "The City Walls",
+      "image": {
+        "file": "File:1259293 City Wall from Bootham Bar to Layerthorpe, east of Monk Bar York 20240520 0107 DxO.jpg",
+        "alt": "York's medieval city walls near Monk Bar"
+      },
+      "text": "Nearly the complete medieval circuit survives, walkable in about two hours, with four main gateways (bars) and views over the city and Minster throughout.",
+      "tip": "The stretch near Monk Bar to Bootham Bar gives some of the best Minster views on the whole circuit."
+    },
+    {
+      "name": "Jorvik Viking Centre",
+      "image": {
+        "file": "File:Jorvik Viking Centre - geograph.org.uk - 5635945.jpg",
+        "alt": "The entrance to the Jorvik Viking Centre in York"
+      },
+      "text": "Built on the site of a major Viking-age archaeological excavation, using real finds and reconstructions to recreate Viking-era York with genuine scholarly grounding.",
+      "tip": "Book timed tickets online in advance, particularly during school holidays when queues build quickly."
+    },
+    {
+      "name": "Clifford's Tower",
+      "image": {
+        "file": "File:Tour Clifford York 41.jpg",
+        "alt": "Clifford's Tower standing on its mound above York"
+      },
+      "text": "The surviving keep of York Castle, standing on its mound since the 13th century, with a roofless interior recently reopened with new walkways and views over the city.",
+      "tip": "The site also holds a somber history as the location of a 1190 massacre of York's Jewish community, marked by a plaque."
+    },
+    {
+      "name": "National Railway Museum",
+      "image": {
+        "file": "File:National Railway Museum, York (24th November 2023) 004.jpg",
+        "alt": "Historic locomotives inside York's National Railway Museum"
+      },
+      "text": "One of the world's great railway collections, free to enter, housing Flying Scotsman, a Japanese bullet train and royal carriages among its exhibits.",
+      "tip": "Genuinely worthwhile even for non-enthusiasts — the sheer scale of the great hall is impressive on its own."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the headline sights, York rewards slower wandering and a few specifically local experiences.",
+  "thingsToDo": [
+    {
+      "title": "Take a ghost walk",
+      "text": "York claims to be one of Europe's most haunted cities, and its evening ghost walks — genuinely atmospheric in the narrow medieval streets — are a long-running local tradition.",
+      "tip": "Several competing tours run nightly from the same starting points — reviews vary more by guide than by company."
+    },
+    {
+      "title": "Punt or cruise the River Ouse",
+      "image": {
+        "file": "File:York, The River Ouse from Ouse Bridge - geograph.org.uk - 7652949.jpg",
+        "alt": "The River Ouse flowing through York"
+      },
+      "text": "Boat trips along the river that has shaped the city since Roman times give a different, quieter perspective on York than the streets above.",
+      "tip": "Evening cruises catch the Minster and riverside buildings well lit against the dusk sky."
+    },
+    {
+      "title": "Explore York's snickelways",
+      "image": {
+        "file": "File:Pope's Head Alley - 2007-04-14.jpg",
+        "alt": "A narrow medieval snickelway alley in York"
+      },
+      "text": "A network of narrow medieval alleys connecting the main streets, genuinely atmospheric and easy to explore without any particular plan.",
+      "tip": "A dedicated snickelway guidebook or map, sold in local shops, turns aimless wandering into a proper self-guided route."
+    },
+    {
+      "title": "Visit York Castle Museum",
+      "image": {
+        "file": "File:York Castle Museum - Flickr - jacquemart.jpg",
+        "alt": "The recreated Victorian street inside York Castle Museum"
+      },
+      "text": "A genuinely engaging museum of everyday life across the centuries, including a recreated Victorian street, housed in former prison buildings.",
+      "tip": "Allow at least two hours — the reconstructed street alone rewards a slow walk through."
+    },
+    {
+      "title": "Climb the Minster's central tower",
+      "image": {
+        "file": "File:View from the Central Tower of York Minster - geograph.org.uk - 5313627.jpg",
+        "alt": "The view over York's rooftops from the top of the Minster's central tower"
+      },
+      "text": "275 steps lead to the top of York Minster's central tower, with views across the city, the Vale of York and, on a clear day, the surrounding moors.",
+      "tip": "Tickets are timed and separate from general Minster admission — book both together to guarantee a slot."
+    },
+    {
+      "title": "Take a day trip into the Yorkshire Dales or Moors",
+      "image": {
+        "file": "File:Dales Landscape (40943711170).jpg",
+        "alt": "Rolling green hills and drystone walls in the Yorkshire Dales"
+      },
+      "text": "Both national parks sit within about an hour of the city, offering a genuine contrast of open countryside to York's dense historic streets.",
+      "tip": "The Dales are better for dramatic hills and dales scenery; the Moors suit those wanting heather-covered uplands and the steam-era North Yorkshire Moors Railway."
+    }
+  ],
+  "foodIntro": "Yorkshire's food culture runs from hearty traditional dishes to a genuinely strong modern café and tearoom scene.",
+  "foods": [
+    {
+      "name": "Yorkshire pudding",
+      "image": {
+        "file": "File:-2021-05-02 Roast beef and Yorkshire pudding, Trimingham, Norfolk.JPG",
+        "alt": "A roast dinner with a large Yorkshire pudding"
+      },
+      "text": "A risen batter pudding, traditionally served with roast beef and gravy as part of a Sunday roast, with York's own claim to some of the best in the country.",
+      "whereToTry": "Traditional pubs across York, especially as part of a Sunday roast."
+    },
+    {
+      "name": "Yorkshire tea and afternoon tea",
+      "image": {
+        "file": "File:York, 6-8 St Helen's Square, Bettys Cafe Tea Rooms - geograph.org.uk - 7650321.jpg",
+        "alt": "Bettys Café Tea Rooms on St Helen's Square in York"
+      },
+      "text": "York has a genuinely serious tearoom tradition, Bettys Café Tea Rooms above all, serving proper afternoon tea in Art Deco surroundings since 1936.",
+      "whereToTry": "Bettys on St Helen's Square, though expect a queue at busy times."
+    },
+    {
+      "name": "Yorkshire curd tart",
+      "text": "A traditional regional pastry filled with sweetened curd cheese, currants and nutmeg, a genuine local speciality less known outside Yorkshire.",
+      "whereToTry": "Traditional bakeries and tearooms across the city."
+    },
+    {
+      "name": "Whitby-landed fish and chips",
+      "image": {
+        "file": "File:Trenchers fish and chips, by Whitby station and harbour - geograph.org.uk - 7897617.jpg",
+        "alt": "A traditional fish and chips restaurant near Whitby harbour"
+      },
+      "text": "York sits close enough to the Yorkshire coast that fresh fish and chips, often from Whitby's boats, appear on menus across the city at a genuinely high standard.",
+      "whereToTry": "Chip shops and pubs throughout York's centre."
+    },
+    {
+      "name": "Yorkshire cheese",
+      "image": {
+        "file": "File:Wensleydale cheese.jpg",
+        "alt": "A block of Wensleydale cheese"
+      },
+      "text": "Wensleydale, from a nearby Dales valley, is Yorkshire's best-known cheese, traditionally paired with fruitcake and sold across the city's markets and delis.",
+      "whereToTry": "York's food markets and specialist cheese shops."
+    },
+    {
+      "name": "Real ale",
+      "image": {
+        "file": "File:1256484 Ye Olde Starre Inn, 40 Stonegate York 20240521 0291 DxO.jpg",
+        "alt": "Ye Olde Starre Inne, one of York's oldest pubs, on Stonegate"
+      },
+      "text": "Yorkshire has a strong brewing tradition, and York's pubs, some of them centuries old, serve a genuinely good range of local cask ales.",
+      "whereToTry": "Historic pubs throughout the city, several dating from the medieval period."
+    }
+  ],
+  "accommodation": {
+    "intro": "Staying within or just outside the city walls puts everything within easy walking distance.",
+    "areas": [
+      {
+        "name": "Within the walls",
+        "bestFor": "Walking to everything",
+        "text": "The most central option, putting the Minster, the Shambles and the walls all within a short walk, though often at a premium price."
+      },
+      {
+        "name": "Micklegate",
+        "bestFor": "A quieter, still-central base",
+        "text": "A historic street just inside the walls with a good range of accommodation and easy access to the station and centre."
+      },
+      {
+        "name": "Near the railway station",
+        "bestFor": "Convenience and value",
+        "text": "A short walk from the walls with generally better value accommodation than the immediate centre."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£22–38 per night" },
+      { "label": "Mid-range hotel or B&B", "value": "£90–160 per night" },
+      { "label": "York Minster entry", "value": "£13–17" },
+      { "label": "Jorvik Viking Centre", "value": "£15–18" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "York's rail links are excellent, sitting directly on the East Coast Main Line between London and Edinburgh.",
+    "options": [
+      {
+        "mode": "Rail from London",
+        "text": "Direct trains from London King's Cross take around two hours, making York a genuinely easy trip from the capital.",
+        "detail": "York is also directly connected to Edinburgh, [[edinburgh|around 2h30]] north on the same line."
+      },
+      {
+        "mode": "Leeds Bradford or Manchester Airport",
+        "text": "The nearest airports, both roughly an hour from York by car or a combination of train and bus.",
+        "detail": "Manchester Airport has a wider range of international connections."
+      },
+      {
+        "mode": "Car",
+        "text": "York sits just off the A1(M), though the compact centre and limited parking make a car more of a liability than an asset once there.",
+        "detail": "Park-and-ride services on the city's edge are the practical choice for visitors arriving by car."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "York's walled centre is entirely walkable, and a car is actively unhelpful once inside it.",
+    "options": [
+      {
+        "mode": "On foot",
+        "text": "The standard and best way to see York — nearly every major sight sits within the walls, a comfortable walking distance from any central hotel.",
+        "detail": "Comfortable shoes matter — the city's medieval streets are cobbled in many places."
+      },
+      {
+        "mode": "Park and ride",
+        "text": "Several park-and-ride sites on the city's outskirts connect to the centre by frequent bus, the practical option for visitors arriving by car.",
+        "detail": "Considerably cheaper and less stressful than trying to find central parking."
+      },
+      {
+        "mode": "Bicycle",
+        "text": "York is a genuinely bike-friendly city with good cycle paths, popular with both locals and visitors for covering ground slightly faster than on foot.",
+        "detail": "Bikes are not permitted on the city walls themselves."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–June and September–October",
+    "summary": "York works in any season, but shoulder months balance good weather against the Shambles' considerable summer crowds.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild weather, blooming gardens along the city walls, and crowds well below the summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "The busiest months, with the Shambles and Minster both genuinely crowded, though long daylight hours extend the sightseeing day."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures, thinning crowds and good light for photographing the Minster and city walls."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "great",
+        "text": "York's Christmas markets are genuinely excellent, and the city takes on real atmosphere in the cold, though days are short."
+      }
+    ],
+    "avoid": "Weekends in July and August, when the Shambles and central streets become genuinely difficult to move through."
+  },
+  "itinerary": {
+    "title": "Three days in York",
+    "intro": "The Minster and old city first, then Viking and railway history, with room for a countryside day trip.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The Minster and the old city",
+        "summary": "York's cathedral and medieval streets.",
+        "morning": "York Minster, including the central tower if timed tickets allow.",
+        "afternoon": "The Shambles and the surrounding snickelways.",
+        "evening": "An evening ghost walk."
+      },
+      {
+        "day": 2,
+        "title": "Vikings, walls and railways",
+        "summary": "The city's deeper history and its industrial-age landmark.",
+        "morning": "The Jorvik Viking Centre.",
+        "afternoon": "A walk of the city walls, then the National Railway Museum.",
+        "evening": "Dinner at a historic city-centre pub."
+      },
+      {
+        "day": 3,
+        "title": "Castle Museum or a Yorkshire day trip",
+        "summary": "A flexible final day — more of the city, or the surrounding countryside.",
+        "morning": "York Castle Museum and Clifford's Tower.",
+        "afternoon": "A short trip into the Yorkshire Dales or North York Moors, or more time in the city centre.",
+        "evening": "Depart, or a final dinner in York."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on timing, tickets and getting around that make a real difference to a York visit.",
+  "tips": [
+    "Book Jorvik Viking Centre and Minster tower tickets online in advance, particularly during school holidays.",
+    "Wear comfortable shoes — much of the historic centre is cobbled, and the city walls involve steps at several points.",
+    "Visit the Shambles early morning or evening to see it without the considerable daytime crowds.",
+    "Use a park-and-ride site if arriving by car — central parking is limited and expensive.",
+    "Combine Minster admission with the tower climb when booking, since tickets are sold and timed separately.",
+    "The city walls are free to walk and offer some of the best photo viewpoints of the Minster in the whole city.",
+    "Christmas markets make York genuinely busy in late November and December — book accommodation well ahead for that period."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in York?",
+      "a": "Two full days cover the essential sights comfortably; three allows a more relaxed pace or a day trip into the Dales or Moors. It also works well as a long day trip from London by train, though an overnight stay is preferable."
+    },
+    {
+      "q": "Is York walkable?",
+      "a": "Almost entirely, yes. The walled centre is compact enough that nearly everything is reachable on foot, and a car is more hindrance than help once you arrive."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "April to June and September to October offer the best balance of good weather and manageable crowds. Summer is busiest, especially on the Shambles; winter is quieter except around the Christmas markets, which draw their own crowds."
+    },
+    {
+      "q": "Is York good for a day trip from London?",
+      "a": "Yes, with direct trains taking around two hours each way. It's a long day covering the highlights, but an overnight stay allows a far more relaxed pace and time for an evening ghost walk."
+    },
+    {
+      "q": "Is the Jorvik Viking Centre worth it?",
+      "a": "Yes — it sits on a genuine major archaeological site and is built from real evidence rather than a generic recreation, giving it more substance than its theme-park-style ride might initially suggest."
+    }
+  ],
+  "related": ["edinburgh", "lake-district", "london"],
+  "relatedArticles": ["packing-by-season", "first-trip-to-europe"]
+}

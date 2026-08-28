@@ -1,0 +1,156 @@
+{
+  "country": "germany",
+  "title": "The Complete Germany Travel Guide",
+  "subtitle": "How the sixteen states divide, why the trains reward advance booking, and what a fortnight can honestly cover.",
+  "summary": "Germany packs sixteen genuinely distinct states, one of Europe's best rail networks and a range from Berlin's nightlife to Bavarian beer halls and Baltic coastline into a country most first-time visitors underestimate. This guide covers how the regions differ, when the ICE train works and when a car is unavoidable, what the seasons really mean from Oktoberfest to the Christmas markets, and the practicalities — cash culture and Sunday closures — that catch visitors out most often.",
+  "readingTime": "15 min read",
+  "updated": "2026",
+  "sections": [
+    {
+      "id": "how-germany-divides",
+      "title": "How Germany divides",
+      "navLabel": "The regions",
+      "body": [
+        "Germany only unified in 1871 and only reunified in 1990, and treating it as a single homogeneous country is the single most common mistake first-time visitors make in planning.",
+        "**Berlin and the east.** [[berlin|Berlin]] itself, a genuine world city with a uniquely direct relationship to 20th-century history, and [[dresden|Dresden]], rebuilt from ruins into one of the country's most beautiful baroque cities.",
+        "**Bavaria and the south.** [[munich|Munich]] for beer halls and museums, [[nuremberg|Nuremberg]] for medieval streets and difficult history, and the [[romantic-road-neuschwanstein|Romantic Road]] for fairytale castles and walled medieval towns.",
+        "**The west and the Rhine.** [[cologne-rhine-valley|Cologne and the Rhine Valley]], a cathedral city and a river lined with vineyards and hilltop castles, and [[heidelberg-neckar-valley|Heidelberg]], Germany's most romanticised university town.",
+        "**The southwest.** The [[black-forest|Black Forest]], dense woodland, spa towns and Germany's most famous cake, still relatively undiscovered by international visitors beyond a few honeypot towns.",
+        "**The north.** [[hamburg|Hamburg]], a maritime trading city with its own Hanseatic identity, and [[rugen-baltic-coast|Rügen and the Baltic Coast]], chalk cliffs and seaside resorts that feel a world away from Bavaria's mountains."
+      ],
+      "note": "The practical unit for a first trip is Berlin plus two or three other regions, not an attempt at the whole country. The rail network makes the Berlin-Nuremberg-Munich corridor and the Rhine easy; the Baltic coast and the Black Forest's back roads each reward dedicated time."
+    },
+    {
+      "id": "choosing",
+      "title": "Choosing between the ten destinations",
+      "navLabel": "Choosing where",
+      "tone": "tint",
+      "list": [
+        {
+          "title": "If this is your first trip",
+          "text": "[[berlin]], [[nuremberg]] and [[munich]], connected by train. Four nights in Berlin, one or two in Nuremberg, three in Munich. It is the standard route because it works: a world capital, a medieval Bavarian city and the country's most famous beer culture, no car required."
+        },
+        {
+          "title": "If you want castles and fairytale scenery",
+          "text": "The [[romantic-road-neuschwanstein|Romantic Road]] for Neuschwanstein and walled medieval towns like Rothenburg ob der Tauber — rewards at least two days and a hire car, ideally paired with Munich."
+        },
+        {
+          "title": "If you want rivers and wine country",
+          "text": "The [[cologne-rhine-valley|Rhine Valley]], vineyard-covered slopes and hilltop castles best explored by a mix of riverboat and train, paired naturally with Cologne's cathedral."
+        },
+        {
+          "title": "If you want history without the crowds",
+          "text": "[[dresden|Dresden]] for baroque architecture rebuilt from wartime ruins, or [[nuremberg|Nuremberg]] for medieval streets and a direct reckoning with the Nazi era, both easy stops on the Berlin-Munich line."
+        },
+        {
+          "title": "If you want the coast",
+          "text": "[[hamburg|Hamburg]] for a genuine maritime trading city, or [[rugen-baltic-coast|Rügen]] for chalk cliffs and Baltic beaches, both reachable by direct train from Berlin."
+        },
+        {
+          "title": "If you want something genuinely different",
+          "text": "The [[black-forest|Black Forest]] for dense woodland, spa towns and cuckoo-clock villages most first-time Germany visitors never reach, or [[heidelberg-neckar-valley|Heidelberg]] for the country's most romanticised university town."
+        }
+      ]
+    },
+    {
+      "id": "moving",
+      "title": "Getting around: trains, cars and one expensive mistake",
+      "navLabel": "Getting around",
+      "body": [
+        "Germany's rail network is genuinely excellent, booked correctly. [[berlin|Berlin]] to [[munich|Munich]] is about 4 hours, Berlin to [[hamburg|Hamburg]] under 2, [[cologne-rhine-valley|Cologne]] to Munich around 4h30.",
+        "**Book Sparpreis advance tickets as early as possible** — released months ahead — through the DB Navigator app. The difference between an advance fare and a flexible walk-up ticket on a long-distance route can be several times the price for the identical journey and seat.",
+        "**The Deutschland-Ticket** is a genuine bargain for regional and local transport nationwide on a single monthly pass — excellent value if combining several nearby destinations such as the [[romantic-road-neuschwanstein|Romantic Road]] towns, though it does not cover ICE high-speed services.",
+        "**A car is genuinely useful** for the [[black-forest|Black Forest's]] smaller villages and hiking trailheads, and for a flexible [[cologne-rhine-valley|Rhine Valley]] castle route beyond the riverside towns' rail stops. Hire it only for that specific leg — a car in Berlin, Munich or Cologne is expensive and actively unhelpful.",
+        "**The autobahn is not entirely speed-limit-free**, despite the reputation — many stretches, especially near cities, carry standard limits and are enforced.",
+        "**Coaches** run by FlixBus connect most of the country more cheaply than rail, if considerably slower, a useful budget option for less time-sensitive journeys."
+      ],
+      "note": "Book long-distance ICE trains the moment your dates are fixed. Waiting until the week before can easily double or triple the fare for the same seat."
+    },
+    {
+      "id": "seasons",
+      "title": "When to go",
+      "navLabel": "When to go",
+      "body": [
+        "German weather varies genuinely across the country's size, which makes 'the best time' more about events and crowds than any guarantee of sunshine. Two windows generally work best: **May to June** and **September**.",
+        "**Spring** brings mild temperatures, beer gardens reopening and crowds still below the summer peak. April can still be genuinely cool, especially in the north and along the Baltic coast.",
+        "**Summer** offers the longest daylight hours and the best odds of warm weather, plus Oktoberfest preparations building through August. It is also the most crowded and expensive stretch of the year in Munich and Berlin, and accommodation should be booked months ahead.",
+        "**Autumn**, especially September, brings the wine harvest along the Rhine and Mosel and Oktoberfest itself, running from mid-September into early October — genuinely one of the best windows if the festival is part of the draw.",
+        "**Winter** brings short, often grey days and genuine cold, but Christmas markets from late November onward bring real seasonal charm to town squares across the country, and December is a genuinely excellent time for a city break."
+      ],
+      "note": "Munich during Oktoberfest operates on an entirely different level from the rest of the year — book many months ahead if the festival is the draw, or avoid the city that fortnight if crowds are not your thing."
+    },
+    {
+      "id": "money",
+      "title": "Costs, cash culture and what you must book",
+      "navLabel": "Costs",
+      "tone": "tint",
+      "body": [
+        "Mid-range travel in Germany runs roughly **€110–200 per person per day**, with [[munich|Munich]] and [[berlin|Berlin]] adding a modest 15–25% premium over that figure. Backpacking works at €55–85; comfortable travel with good hotels and first-class rail runs €200–350.",
+        "**Carry some cash.** Germany remains more cash-reliant than many neighbouring European countries — card acceptance has improved considerably, but some smaller restaurants, market stalls and traditional Gasthaus establishments are still cash-only.",
+        "**Sunday closures are close to universal.** Most shops close nationwide on Sundays, by both law and custom — plan grocery shopping and errands around it, though bakeries, restaurants and train station shops generally stay open.",
+        "**Book ahead, without exception:** ICE Sparpreis fares, [[romantic-road-neuschwanstein|Neuschwanstein Castle]] tickets in summer, and any Oktoberfest-period accommodation or beer tent table in Munich.",
+        "**Small savings that add up:** the Deutschland-Ticket if combining several regional destinations, bakery breakfasts over hotel ones, and traditional Gasthaus lunches over tourist-district restaurant dinners for the same quality at a fraction of the price."
+      ]
+    },
+    {
+      "id": "etiquette",
+      "title": "Culture, punctuality and how beer gardens work",
+      "navLabel": "Etiquette",
+      "body": [
+        "German culture varies genuinely by region, but a handful of broadly shared norms hold across most of the country.",
+        "**Punctuality is a genuine expectation.** Arriving on time for anything from a business meeting to a dinner invitation matters, and even a few minutes late is worth a brief apology.",
+        "**Directness is normal, not rudeness.** Germans generally communicate more bluntly than many cultures find comfortable at first — a direct opinion or correction is not meant as hostile, just efficient.",
+        "**Jaywalking is genuinely frowned upon.** Crossing against a red pedestrian light, even with no traffic present, draws real disapproval, especially with children nearby.",
+        "**Sundays are for rest**, by both law and custom — shops close nationwide, and loud activities are genuinely restricted in many residential areas.",
+        "**Formal address matters.** The formal 'Sie' is expected with strangers and in business settings until you are invited to switch to the informal 'du' — a small but noticed courtesy.",
+        "Finally, take **beer garden culture** seriously as a social institution rather than just a place to drink. A proper session at a long communal table, especially in Bavaria, is one of the most reliable ways to see a German town as it actually is."
+      ]
+    },
+    {
+      "id": "itineraries",
+      "title": "Four routes that work",
+      "navLabel": "Routes",
+      "numbered": true,
+      "list": [
+        {
+          "title": "Ten days: the classic north-to-south",
+          "text": "Four nights in [[berlin]], two in [[nuremberg|Nuremberg]] or [[dresden]], four in [[munich]], all by train. The most trodden route in Germany and still the right first trip — a world capital, a historic Bavarian city and the country's beer-and-mountains heartland, no car needed.",
+          "tip": "Book the Reichstag dome, any Oktoberfest beer tent table and Neuschwanstein Castle before you leave home — all three sell out or spike in price close to the date."
+        },
+        {
+          "title": "Two weeks: cities and countryside",
+          "text": "The itinerary on the [[c:germany|Germany country page]]: [[berlin]], [[dresden]], [[nuremberg]], [[munich]], the [[romantic-road-neuschwanstein|Romantic Road]] and the [[cologne-rhine-valley|Rhine Valley]]. Adds castles and vineyard scenery to the classic cities route, with a short car hire for the Romantic Road leg.",
+          "tip": "Return the hire car before entering a city centre — parking and low-emission zone rules in Munich or Cologne cost more than the convenience is worth."
+        },
+        {
+          "title": "Ten days in Bavaria",
+          "text": "[[munich]] for three nights, then a hire car through the [[romantic-road-neuschwanstein|Romantic Road]] and toward the [[black-forest|Black Forest]] for a week. Slower and far more rural than the classic north-south route.",
+          "tip": "Book Neuschwanstein tickets online well ahead in summer — walk-up availability is genuinely unreliable at peak times."
+        },
+        {
+          "title": "A week in one region",
+          "text": "[[hamburg|Hamburg]] and [[rugen-baltic-coast|Rügen]] as a self-contained northern coastal trip, or the [[cologne-rhine-valley|Rhine Valley]] with a car and a single riverside base. Both reward a full week and neither works well as a rushed two-day add-on to Berlin.",
+          "tip": "For the Baltic coast, book Rügen accommodation well ahead in July and August, when German domestic tourism peaks there."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long do I need in Germany?",
+      "a": "Ten to fourteen days for a first trip. Eight to ten covers Berlin, Nuremberg and Munich properly by train; twelve to sixteen lets you add real countryside like the Rhine Valley or the Romantic Road. Four or five days is enough for Berlin alone, and Berlin alone genuinely justifies a trip."
+    },
+    {
+      "q": "Should I hire a car in Germany?",
+      "a": "Only for the legs that need one — the Black Forest's smaller villages, a flexible Rhine Valley castle route, and the Romantic Road's string of towns. The trains between Berlin, Nuremberg, Munich and Cologne are faster, cheaper booked ahead, and land you in city centres, where a car becomes an expensive liability."
+    },
+    {
+      "q": "What is the single most expensive mistake visitors make?",
+      "a": "Not booking ICE trains in advance. Sparpreis fares, released months ahead, can be a small fraction of the walk-up price for the identical journey and seat. Waiting until the week before travel routinely doubles or triples the cost."
+    },
+    {
+      "q": "When should I avoid Germany?",
+      "a": "Nowhere is truly a bad time, but Oktoberfest weeks in Munich push prices and crowds to their annual peak, and require accommodation and beer tent bookings many months ahead unless that is exactly what you are there for."
+    }
+  ]
+}

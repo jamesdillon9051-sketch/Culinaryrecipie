@@ -1,0 +1,387 @@
+{
+  "slug": "lake-district",
+  "name": "The Lake District",
+  "country": "united-kingdom",
+  "region": "Cumbria, North West England",
+  "categories": ["nature-wildlife", "mountains", "scenic-region"],
+  "tagline": "England's grandest landscape in miniature: sixteen major lakes, genuine mountains by English standards, and two centuries of Romantic poets and hardy fellwalkers to explain why everyone keeps coming back.",
+  "highlight": "Derwentwater and the fells above Keswick — the classic Lake District view, and the easiest place to understand in an afternoon why Wordsworth never really left.",
+  "shortDescription": "A compact national park of lakes, fells and stone villages in England's north west, walkable, boatable and scenic on a scale that punches well above its actual size.",
+  "metaDescription": "A Lake District travel guide: Windermere, Keswick, Derwentwater, the best fell walks, when to go, getting around and a practical multi-day itinerary.",
+  "suggestedStay": "3–5 days",
+  "nearestAirport": "Manchester (MAN)",
+  "knownFor": "Lakes, fells, Wordsworth, Beatrix Potter, fell walking",
+  "budget": "£90–150 per day, mid-range",
+  "goodFor": "Walking, nature, literary history, families",
+  "coords": { "lat": 54.4609, "lng": -3.0886 },
+  "image": {
+    "file": "File:The view of Derwentwater Lake from the Cat Bells Hike near Keswick.jpg",
+    "alt": "Derwentwater and the fells around Keswick seen from the Cat Bells ridge"
+  },
+  "intro": [
+    "The Lake District packs sixteen major lakes and England's highest mountains into an area small enough to cross by car in under an hour, which is precisely why it has drawn walkers, poets and holidaymakers for two centuries running. William Wordsworth and the other Romantic poets did not invent the landscape's appeal, but they gave it a vocabulary — the 'sublime', the play of light on water — that still shapes how visitors see it today.",
+    "The scale is genuinely different from the rest of England. Scafell Pike, the country's highest peak, tops out at a modest 978 metres, but the fells rise so directly from lake level that they feel far bigger than the number suggests, and the weather — changeable, dramatic, often all four seasons in one day — does the rest of the work.",
+    "It rewards a slower visit than a single day trip from Manchester allows. Windermere and Keswick get the crowds, but the western and southern lakes — Wastwater, Ullswater, Coniston — are quieter and, for many longtime visitors, better."
+  ],
+  "whyVisit": {
+    "intro": "The Lake District's case is that nowhere else in England fits genuine mountain scenery, sixteen lakes and two centuries of literary history into a national park this compact and this easy to reach.",
+    "points": [
+      {
+        "title": "The scale is exactly right",
+        "text": "Small enough to explore properly in a few days, big enough that most visitors still discover a favourite corner nobody mentioned to them."
+      },
+      {
+        "title": "Walking here suits every ability",
+        "text": "From an hour's lakeside stroll to a full Scafell Pike ascent, the path network genuinely accommodates both without either feeling like an afterthought."
+      },
+      {
+        "title": "The literary history is not just a plaque",
+        "text": "Wordsworth's Dove Cottage and Beatrix Potter's Hill Top are preserved as lived-in houses, and the landscape around them is essentially unchanged from what they described."
+      },
+      {
+        "title": "The lakes add a dimension most mountain regions lack",
+        "text": "Steamers, rowing boats and swimming spots make the water as much a part of a Lake District trip as the fells above it."
+      },
+      {
+        "title": "It is genuinely beautiful in bad weather",
+        "text": "Low cloud on the fells and rain on the water are part of the region's character, not just something to wait out — a real contrast to destinations that only work in sunshine."
+      }
+    ]
+  },
+  "attractionsIntro": "Compact enough to see the highlights in a few days, but each of these rewards genuinely lingering rather than a drive-by stop.",
+  "attractions": [
+    {
+      "name": "Derwentwater and Keswick",
+      "image": {
+        "file": "File:Keswick and Derwentwater aerial.jpg",
+        "alt": "An aerial view of Keswick and Derwentwater surrounded by fells"
+      },
+      "text": "Often called the Lake District's most beautiful lake, ringed by fells and best seen from a launch that circles its shore with stops for short walks, with the market town of Keswick as an easy, lively base.",
+      "tip": "The Derwentwater launch stops at seven jetties — get off at Hawes End for the walk up Cat Bells."
+    },
+    {
+      "name": "Windermere",
+      "image": {
+        "file": "File:Lake Windermere, England - 52143262102.jpg",
+        "alt": "The open water of Lake Windermere, England's largest natural lake"
+      },
+      "text": "England's largest natural lake, ten and a half miles long, with steamers running its length and Wray Castle and Brockhole among the sights on its shores.",
+      "tip": "Bowness-on-Windermere gets very busy in summer — the quieter northern end near Ambleside is a good alternative base."
+    },
+    {
+      "name": "Scafell Pike",
+      "image": {
+        "file": "File:The summit of Scafell Pike - geograph.org.uk - 5950302.jpg",
+        "alt": "The rocky summit of Scafell Pike, England's highest mountain"
+      },
+      "text": "England's highest mountain at 978 metres, a genuine but achievable full-day hike from Wasdale or Seathwaite, with views that stretch to Scotland and Wales on a clear day.",
+      "tip": "Wasdale Head gives the shortest, steepest route; allow six to seven hours return and check the forecast carefully."
+    },
+    {
+      "name": "Dove Cottage, Grasmere",
+      "image": {
+        "file": "File:Dove Cottage, Grasmere - geograph.org.uk - 7093961.jpg",
+        "alt": "Dove Cottage, William Wordsworth's former home in Grasmere"
+      },
+      "text": "William Wordsworth's home for eight of his most productive years, preserved with much of its original furniture, alongside a museum on the wider Romantic movement.",
+      "tip": "Combine with Grasmere village, a short walk away, and its famous gingerbread shop."
+    },
+    {
+      "name": "Hill Top, Near Sawrey",
+      "image": {
+        "file": "File:Hill Top Farm.jpg",
+        "alt": "Hill Top, Beatrix Potter's farmhouse at Near Sawrey"
+      },
+      "text": "Beatrix Potter's farmhouse, bought with the proceeds of Peter Rabbit, preserved exactly as she left it and the direct inspiration for several of her books' settings.",
+      "tip": "Visitor numbers are capped and timed tickets sell out — book well ahead in summer."
+    },
+    {
+      "name": "Ullswater",
+      "image": {
+        "file": "File:The Western Belle on Ullswater.jpg",
+        "alt": "The vintage steamer Western Belle crossing Ullswater"
+      },
+      "text": "A quieter, arguably even more scenic alternative to Windermere, framed by high fells and served by vintage steamers, with the Aira Force waterfall a short walk from its shore.",
+      "tip": "The Ullswater Way is a 20-mile circular path around the lake, walkable in sections for those without a full day."
+    }
+  ],
+  "thingsToDoIntro": "The Lake District rewards a mix of walking, water and genuinely slowing down — few destinations this size have this much to do.",
+  "thingsToDo": [
+    {
+      "title": "Walk a fell, big or small",
+      "image": {
+        "file": "File:The Lone Hiker (240882459).jpeg",
+        "alt": "A hiker walking a path across snow-dusted fellside"
+      },
+      "text": "From Cat Bells' gentle hour above Derwentwater to a full Scafell Pike ascent, fell walking is the region's central activity, with paths genuinely suited to every level.",
+      "tip": "Alfred Wainwright's illustrated Pictorial Guides remain the classic reference for fell routes, decades after they were first published."
+    },
+    {
+      "title": "Take a lake steamer or launch",
+      "image": {
+        "file": "File:Windermere Steamer MV Tern - geograph.org.uk - 5161282.jpg",
+        "alt": "The vintage steamer MV Tern on Lake Windermere"
+      },
+      "text": "Windermere, Derwentwater and Ullswater all run scenic boat services, a relaxed way to see the fells from the water and reach lakeside villages without a car.",
+      "tip": "A round-the-lake ticket on Windermere or Ullswater lets you get on and off at different stops through the day."
+    },
+    {
+      "title": "Visit a Beatrix Potter or Wordsworth site",
+      "image": {
+        "file": "File:Grasmere, St. Oswald's Churchyard, The grave of William Wordsworth and his wife, Mary - geograph.org.uk - 7588380.jpg",
+        "alt": "William Wordsworth's grave in St Oswald's churchyard, Grasmere"
+      },
+      "text": "Hill Top, Dove Cottage and the Wordsworth Museum in Grasmere give real insight into the writers whose work shaped how the world sees this landscape.",
+      "tip": "Book Hill Top's timed entry well ahead — it is small and genuinely limits visitor numbers."
+    },
+    {
+      "title": "Swim or paddle in a lake",
+      "image": {
+        "file": "File:Buttermere lake - geograph.org.uk - 3012294.jpg",
+        "alt": "The still water of Buttermere framed by surrounding fells"
+      },
+      "text": "Wild swimming is genuinely popular here, with Buttermere and Rydal Water among the more forgiving, scenic spots for a first attempt.",
+      "tip": "The water is cold even in summer — a wetsuit is worth it for anything beyond a quick dip."
+    },
+    {
+      "title": "Drive or cycle a mountain pass",
+      "image": {
+        "file": "File:Hardknott Pass - geograph.org.uk - 4077005.jpg",
+        "alt": "The steep, winding road over Hardknott Pass"
+      },
+      "text": "Hardknott and Wrynose Passes are genuinely dramatic single-track mountain roads, among the steepest in England, best driven or cycled outside peak summer traffic.",
+      "tip": "Hardknott Pass has gradients over 30% in places — not a route for a first-time driver of a manual car."
+    },
+    {
+      "title": "Try the Coniston or Honister slate mines",
+      "image": {
+        "file": "File:Entrance to Honister Slate Mine - geograph.org.uk - 3094351.jpg",
+        "alt": "The entrance to Honister Slate Mine in the fells"
+      },
+      "text": "Former working slate mines now open for tours, giving a genuine sense of the industry that shaped the region's stone villages and dry-stone walls.",
+      "tip": "Honister also runs a via ferrata route on the mountainside for a more active visit."
+    }
+  ],
+  "foodIntro": "Cumbrian food leans hearty and traditional, built for walkers coming off the fells, with a few genuinely distinctive local specialities.",
+  "foods": [
+    {
+      "name": "Cumberland sausage",
+      "image": {
+        "file": "File:Cumberland sausage.jpg",
+        "alt": "A coiled Cumberland sausage"
+      },
+      "text": "A long, coiled pork sausage with a protected regional status, herby and coarsely textured, a fixture on menus across the region.",
+      "whereToTry": "Pubs and cafes throughout the Lake District, often served with mash and onion gravy."
+    },
+    {
+      "name": "Grasmere gingerbread",
+      "image": {
+        "file": "File:Sarah Nelson's gingerbread shop, Grasmere - geograph.org.uk - 7740012.jpg",
+        "alt": "Sarah Nelson's Grasmere Gingerbread Shop"
+      },
+      "text": "A unique, spicy-sweet gingerbread made to a secret 1854 recipe, sold from a single shop in Grasmere village that has made it ever since.",
+      "whereToTry": "The Grasmere Gingerbread Shop, next to the churchyard where the recipe's creator is buried."
+    },
+    {
+      "name": "Herdwick lamb",
+      "image": {
+        "file": "File:Herdwick Sheep Kirk Fell Lake District 2025 01.jpg",
+        "alt": "Herdwick sheep grazing on a Lake District fellside"
+      },
+      "text": "From the hardy, distinctive Herdwick sheep that graze the fells and shaped the region's landscape, prized for its flavour and championed by Beatrix Potter, who bred them.",
+      "whereToTry": "Traditional pubs and restaurants across the Lake District, often as a Sunday roast."
+    },
+    {
+      "name": "Kendal mint cake",
+      "image": {
+        "file": "File:Kendal Mint Cake.jpeg",
+        "alt": "Bars of Kendal mint cake"
+      },
+      "text": "A dense, intensely minty sugar block invented in Kendal and beloved by climbers and hikers for its quick energy — reportedly carried up Everest by Edmund Hillary's team.",
+      "whereToTry": "Outdoor shops and sweet shops across the region, especially in Kendal itself."
+    },
+    {
+      "name": "Sticky toffee pudding",
+      "image": {
+        "file": "File:Sticky Toffee Pudding - The Roundhill Pub 2023-09-24.jpg",
+        "alt": "A plated sticky toffee pudding with toffee sauce"
+      },
+      "text": "A rich sponge pudding soaked in toffee sauce, widely claimed by the Cumbrian village of Cartmel as its birthplace and served across the region's restaurants.",
+      "whereToTry": "Traditional pubs and restaurants throughout the Lake District, particularly around Cartmel."
+    },
+    {
+      "name": "Real ale",
+      "image": {
+        "file": "File:Victoria Hotel, Purveyors of Fine Cask Ales - geograph.org.uk - 5670988.jpg",
+        "alt": "A traditional pub sign advertising fine cask ales"
+      },
+      "text": "The Lake District has a strong brewing tradition, with local breweries producing traditional cask ales well suited to a pub after a day on the fells.",
+      "whereToTry": "Traditional pubs across the region, many serving beer from breweries within a few miles."
+    }
+  ],
+  "accommodation": {
+    "intro": "Keswick and Windermere/Bowness are the two main bases, each suited to a different part of the park.",
+    "areas": [
+      {
+        "name": "Keswick",
+        "bestFor": "The northern lakes and fells",
+        "text": "A lively market town on Derwentwater, well placed for Catbells, Skiddaw and the northern lakes, with a good range of accommodation and outdoor shops."
+      },
+      {
+        "name": "Windermere and Bowness",
+        "bestFor": "The southern lakes and transport links",
+        "text": "The most visited and best-connected part of the region, with the widest choice of accommodation and easy rail access from Manchester and beyond."
+      },
+      {
+        "name": "Ambleside and Grasmere",
+        "bestFor": "Wordsworth country and central fells",
+        "text": "Smaller, more villagey bases at the northern end of Windermere, well placed for Dove Cottage and central fell walks."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£25–40 per night" },
+      { "label": "Mid-range B&B or hotel", "value": "£85–160 per night" },
+      { "label": "Lake steamer ticket", "value": "£12–20" },
+      { "label": "Hill Top entry", "value": "£13–16" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Manchester Airport and rail links via Oxenholme are the main gateways, with a car genuinely useful once inside the park.",
+    "options": [
+      {
+        "mode": "Manchester Airport (MAN)",
+        "text": "The nearest major airport, roughly 1h30–2h by car or a combination of train and bus to the central Lake District.",
+        "detail": "Direct trains run from Manchester Airport to Oxenholme, the gateway station for Windermere."
+      },
+      {
+        "mode": "Rail to Windermere",
+        "text": "A branch line runs from Oxenholme, on the West Coast Main Line, directly into Windermere town.",
+        "detail": "This makes Windermere genuinely reachable without a car, unlike much of the rest of the park."
+      },
+      {
+        "mode": "Car",
+        "text": "The most flexible way to reach and explore the wider park, particularly the quieter western lakes.",
+        "detail": "The M6 provides quick access to the eastern side of the park; roads narrow considerably further in."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "A car is the most flexible option, though buses and lake launches cover the main tourist routes reasonably well in summer.",
+    "options": [
+      {
+        "mode": "Rental car",
+        "text": "The most practical way to reach the quieter western and southern lakes, and essential for driving passes like Hardknott.",
+        "detail": "Parking in Bowness and Keswick fills early in summer — arrive before mid-morning."
+      },
+      {
+        "mode": "Lake launches and steamers",
+        "text": "Windermere, Derwentwater and Ullswater all run frequent boat services that double as practical transport between lakeside villages.",
+        "detail": "A useful, scenic alternative to driving around a lake's edge on narrow roads."
+      },
+      {
+        "mode": "Local buses",
+        "text": "Seasonal open-top buses and year-round local services connect the main towns, including a route over the Kirkstone Pass.",
+        "detail": "Frequency drops significantly outside summer — check timetables in advance for a shoulder-season visit."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Good weather is never guaranteed here in any season, which makes crowd levels and daylight hours the more reliable planning factors.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Daffodils, lambs on the fells, lengthening daylight, and crowds well below the summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "shoulder",
+        "text": "The busiest, warmest months, with Bowness and Keswick genuinely crowded and parking difficult in peak weeks."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Bracken turning gold on the fells, thinner crowds, and often some of the year's most reliably clear, still days."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Quiet and atmospheric, occasionally snow-capped, but with short days and some higher paths genuinely unsuitable without proper equipment."
+      }
+    ],
+    "avoid": "Bank holiday weekends in July and August, when the main towns and roads become genuinely congested."
+  },
+  "itinerary": {
+    "title": "Four days in the Lake District",
+    "intro": "Keswick and the northern lakes, then south to Windermere and the literary sites — a loop that covers the highlights without excessive driving.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Keswick and Derwentwater",
+        "summary": "Settle in and see the region's most scenic lake.",
+        "morning": "Arrive and explore Keswick's market town centre.",
+        "afternoon": "A Derwentwater launch circuit, with a stop to walk Cat Bells.",
+        "evening": "Dinner in Keswick."
+      },
+      {
+        "day": 2,
+        "title": "A fell walk",
+        "summary": "A full day on the fells, scaled to ability.",
+        "morning": "An early start for a longer walk, such as Cat Bells to Maiden Moor, or Scafell Pike for the fully committed.",
+        "afternoon": "Continue the walk or return via a lakeside path.",
+        "evening": "A well-earned pub dinner and a local ale."
+      },
+      {
+        "day": 3,
+        "title": "Grasmere and Ambleside",
+        "summary": "Wordsworth country and a move south toward Windermere.",
+        "morning": "Dove Cottage and Grasmere village.",
+        "afternoon": "Drive south to Ambleside, with a stop at Rydal Water.",
+        "evening": "Overnight in Ambleside or Windermere."
+      },
+      {
+        "day": 4,
+        "title": "Windermere and Hill Top",
+        "summary": "The southern lake and Beatrix Potter's farmhouse.",
+        "morning": "A Windermere steamer to Bowness.",
+        "afternoon": "Cross to Hill Top and Near Sawrey.",
+        "evening": "Depart, or a final dinner in Bowness."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on weather, parking and timing that make a real difference to a Lake District trip.",
+  "tips": [
+    "Pack for genuine weather changes — waterproofs and layers matter even in summer, and conditions on the fells differ sharply from the valleys.",
+    "Book Hill Top and popular accommodation well ahead in summer — capacity is genuinely limited relative to demand.",
+    "Arrive at Bowness or Keswick car parks before mid-morning in peak season, or use park-and-ride where available.",
+    "Check Mountain Weather Information Service forecasts specifically before any serious fell walk, not just the general local forecast.",
+    "Consider basing yourself in two towns rather than one if staying more than three days, to cut driving time across the park.",
+    "A round-the-lake steamer ticket is often better value than single point-to-point fares if visiting several stops.",
+    "Midweek visits, even in summer, are noticeably quieter than weekends across the whole region."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in the Lake District?",
+      "a": "Three to five. Three covers Keswick, Derwentwater and one good fell walk; five allows a proper loop taking in Windermere, Grasmere and the literary sites without feeling rushed."
+    },
+    {
+      "q": "Do I need a car?",
+      "a": "Not strictly for Windermere, which has a direct rail link, but a car opens up the quieter western and southern lakes and the mountain passes. Buses and boats cover the main towns reasonably well in summer."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best balance of decent weather, long daylight and manageable crowds. Summer is busiest and can mean serious parking congestion in Bowness and Keswick; winter is quiet but some higher paths need proper equipment and experience."
+    },
+    {
+      "q": "Is Scafell Pike hard to climb?",
+      "a": "It's a genuine full-day hike — around six to seven hours return from Wasdale, the shortest route — rather than a technical climb, but the terrain is rocky and exposed and the weather changes fast. Fitness and proper gear matter more than technical skill."
+    },
+    {
+      "q": "Can you visit the Lake District as a day trip from Manchester?",
+      "a": "Just about, at around two hours' drive each way, but it only allows time for one lake and a short walk. An overnight stay is strongly preferable given the drive."
+    }
+  ],
+  "related": ["edinburgh", "scottish-highlands-skye", "snowdonia-north-wales"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}

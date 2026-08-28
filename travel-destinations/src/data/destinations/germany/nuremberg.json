@@ -1,0 +1,405 @@
+{
+  "slug": "nuremberg",
+  "name": "Nuremberg",
+  "country": "germany",
+  "region": "Bavaria",
+  "categories": [
+    "historic",
+    "city",
+    "culture"
+  ],
+  "tagline": "A medieval imperial city that the 20th century turned into both a Nazi rally ground and the site of the trials that followed, now rebuilt into one of Bavaria's most walkable and honestly self-examined cities.",
+  "highlight": "The Kaiserburg's fortified silhouette above Nuremberg's rebuilt medieval old town, a skyline that has represented imperial power, propaganda and reckoning within the same century.",
+  "shortDescription": "A medieval Franconian city, rebuilt after wartime destruction, carrying both a genuine imperial past and a direct, honestly presented Nazi-era history.",
+  "metaDescription": "A Nuremberg travel guide: the Kaiserburg, the old town, the Nazi Party Rally Grounds, when to go and a practical two-to-three-day itinerary.",
+  "suggestedStay": "2–3 days",
+  "nearestAirport": "Nuremberg (NUE)",
+  "knownFor": "The Kaiserburg, Nazi history sites, Christmas markets",
+  "budget": "€80–140 per day, mid-range",
+  "goodFor": "History, architecture, Christmas markets, day trips",
+  "coords": {
+    "lat": 49.4521,
+    "lng": 11.0767
+  },
+  "image": {
+    "file": "File:View of Nuremberg from the Nuremberg Castle. Germany.jpg",
+    "alt": "Nuremberg's old town rooftops seen from the walls of the Kaiserburg castle"
+  },
+  "intro": [
+    "Nuremberg was, for centuries, the closest thing the Holy Roman Empire had to an unofficial capital — newly elected emperors traditionally held their first Imperial Diet here, and the Kaiserburg castle above the old town still carries that imperial weight in its architecture. Albrecht Dürer, the Renaissance's great German artist, lived and worked in the city, and its medieval old town was, before 1945, considered one of the best preserved in Germany.",
+    "That old town was almost entirely destroyed in a single 1945 bombing raid, and rebuilt afterward with genuine care to recreate its medieval character, red-roofed houses and city walls largely intact in appearance if not in original stone. The reconstruction is convincing enough that first-time visitors often assume they are looking at genuinely centuries-old buildings.",
+    "Nuremberg's 20th-century history sits alongside this medieval identity with real, deliberate honesty. The city was chosen by the Nazi Party for its massive annual rallies specifically because of its historic imperial associations, and after the war, the Allied powers chose Nuremberg for the trials of Nazi leadership for the same symbolic reason. Both the rally grounds and the trial courtroom remain, preserved and interpreted rather than erased."
+  ],
+  "whyVisit": {
+    "intro": "Nuremberg's case is that no other German city holds this much genuine medieval imperial history alongside such a direct, unflinching reckoning with the 20th century.",
+    "points": [
+      {
+        "title": "The old town's reconstruction is genuinely convincing",
+        "text": "Rebuilt with real care after near-total destruction, it captures medieval Nuremberg's character more completely than expected."
+      },
+      {
+        "title": "The Nazi-era history is presented with real honesty",
+        "text": "The Rally Grounds documentation centre and the Nuremberg Trials courtroom both address this history directly rather than around it."
+      },
+      {
+        "title": "The imperial history is genuinely significant",
+        "text": "The Kaiserburg and the city's historic role in the Holy Roman Empire give Nuremberg a weight few German cities its size can match."
+      },
+      {
+        "title": "Its Christmas market is genuinely one of the world's best known",
+        "text": "The Christkindlesmarkt draws visitors from across the world and has real, centuries-old roots in the city."
+      },
+      {
+        "title": "It works well as both a destination and a base",
+        "text": "The city rewards two focused days alone, and sits well within reach of the wider Franconia region for those with more time."
+      }
+    ]
+  },
+  "attractionsIntro": "Nuremberg's essential sights, spanning its medieval imperial history and its direct, honest 20th-century reckoning.",
+  "attractions": [
+    {
+      "name": "The Kaiserburg (Imperial Castle)",
+      "image": {
+        "file": "File:Nuremberg Kaiserburg 0255.jpg",
+        "alt": "The Kaiserburg, Nuremberg's fortified imperial castle complex"
+      },
+      "text": "A fortified castle complex above the old town, used by Holy Roman Emperors for centuries, with genuinely commanding views over Nuremberg's red rooftops.",
+      "tip": "The Sinwell Tower climb offers the best panoramic view over the whole old town."
+    },
+    {
+      "name": "Nuremberg's Old Town",
+      "image": {
+        "file": "File:NUREMBERG OLD TOWN GERMANY APRIL 2012 (7106058667).jpg",
+        "alt": "Half-timbered houses along a street in Nuremberg's rebuilt old town"
+      },
+      "text": "Rebuilt after near-total wartime destruction, with the Hauptmarkt square, the Schöner Brunnen fountain and the Pegnitz river's half-timbered houses recreating medieval character convincingly.",
+      "tip": "The Schöner Brunnen fountain has a hidden golden ring in its railing, said to bring luck if spun three times."
+    },
+    {
+      "name": "The Nazi Party Rally Grounds and Documentation Centre",
+      "image": {
+        "file": "File:Kongresshalle (Congress Hall)- Nazi Party Rally Grounds (Reichsparteitagsgelande), Nuremberg, Bavaria, Germany.jpg",
+        "alt": "The unfinished Congress Hall at the former Nazi Party Rally Grounds, now home to the Documentation Centre"
+      },
+      "text": "The vast unfinished grounds where Nazi Party rallies were staged, now housing a documentation centre that presents this history with real, unflinching directness.",
+      "tip": "The audio guide is genuinely worth the extra cost, providing context the exhibits alone don't fully convey."
+    },
+    {
+      "name": "The Nuremberg Trials Courtroom (Memorium)",
+      "image": {
+        "file": "File:Interior of Courtroom 600 - Palace of Justice - Where Nuremberg Trials Were Held - Nuremberg-Nurnberg - Germany - 01.jpg",
+        "alt": "Courtroom 600 in Nuremberg's Palace of Justice, where the Nuremberg trials were held"
+      },
+      "text": "Courtroom 600, where the Nuremberg Trials of Nazi leadership took place, preserved and open to visitors alongside a museum on the trials' history and legal legacy.",
+      "tip": "The courtroom is still in occasional use for real legal proceedings — check ahead, as this can affect visitor access."
+    },
+    {
+      "name": "St. Lorenz Church",
+      "image": {
+        "file": "File:Lorenzkirche (St. Lawrence Lutheran Church) (28074887973).jpg",
+        "alt": "The Gothic facade of St. Lorenz Church in Nuremberg's old town"
+      },
+      "text": "A Gothic masterpiece and one of Nuremberg's two great medieval churches, its facade largely surviving the 1945 bombing that destroyed most of the surrounding old town.",
+      "tip": "The interior's Tabernacle and Angelic Salutation sculpture are genuine Gothic masterworks worth seeking out."
+    },
+    {
+      "name": "The Germanisches Nationalmuseum",
+      "image": {
+        "file": "File:Germanisches-Nationalmuseum-Nuernberg-2012.jpg",
+        "alt": "The Germanisches Nationalmuseum building in Nuremberg"
+      },
+      "text": "Germany's largest museum of cultural history, spanning prehistory to the present, with genuinely significant collections including works by Nuremberg's own Albrecht Dürer.",
+      "tip": "The museum's scale rewards a focused visit to specific eras rather than attempting the whole collection in one go."
+    }
+  ],
+  "thingsToDoIntro": "Beyond touring the old town and its 20th-century history sites, Nuremberg rewards its food traditions and Franconian surroundings.",
+  "thingsToDo": [
+    {
+      "title": "Eat Nuremberg's famous small bratwurst",
+      "image": {
+        "file": "File:Bratwursthäusle am Rathausplatz-237-Nürnberg 2013 MG 4493.jpg",
+        "alt": "Nürnberger bratwurst grilling over an open beechwood fire at a traditional Bratwursthäusle"
+      },
+      "text": "Nuremberg's sausages are a genuine protected regional specialty, smaller than most German bratwurst, traditionally grilled over beechwood and served three, six or a dozen at a time.",
+      "tip": "Bratwurst Röslein and Bratwursthäusle are both long-running, genuinely traditional spots near the old town."
+    },
+    {
+      "title": "Walk the old town's surviving city walls",
+      "image": {
+        "file": "File:Nürnberg - City wall & tower.jpg",
+        "alt": "A tower along Nuremberg's surviving medieval city walls"
+      },
+      "text": "Substantial sections of Nuremberg's medieval walls and towers survive, walkable for free and offering a genuine sense of the old town's original fortified scale.",
+      "tip": "The stretch near the Königstor gate is among the most complete and atmospheric."
+    },
+    {
+      "title": "Visit the Nuremberg Christmas market (Christkindlesmarkt)",
+      "image": {
+        "file": "File:Lights in Christkindlesmarkt Nuremberg.jpg",
+        "alt": "Illuminated stalls at Nuremberg's Christkindlesmarkt"
+      },
+      "text": "One of the world's most famous Christmas markets, running since the 16th century, with the Hauptmarkt filled with stalls, mulled wine and Nuremberg's own gingerbread.",
+      "tip": "The market opens with a ceremonial address from the 'Christkind' — worth timing a visit around if the opening ceremony aligns with your trip."
+    },
+    {
+      "title": "Take a Dürer house tour",
+      "image": {
+        "file": "File:Albrecht-Dürer-Haus - Tiergärtnerplatz - Nuremberg, Germany - DSC02033.jpg",
+        "alt": "The Albrecht Dürer House on Tiergärtnerplatz in Nuremberg"
+      },
+      "text": "Albrecht Dürer's preserved home and workshop, where the Renaissance master lived and worked, gives genuine insight into his life and working methods.",
+      "tip": "Living-history costumed guides run some sessions, adding real character to the standard tour."
+    },
+    {
+      "title": "Day trip into Franconian wine country or Bamberg",
+      "image": {
+        "file": "File:Bamberg Altes Rathaus 17RM1565-PSD.jpg",
+        "alt": "Bamberg's Old Town Hall, built on an island in the Regnitz river, a popular day trip from Nuremberg"
+      },
+      "text": "The wider Franconia region around Nuremberg holds its own wine country and Bamberg, a genuinely stunning, largely undamaged medieval town within easy reach.",
+      "tip": "Bamberg's own UNESCO-listed old town makes a genuinely worthwhile full-day trip from Nuremberg."
+    },
+    {
+      "title": "Visit the Nuremberg Toy Museum",
+      "image": {
+        "file": "File:Figur vor Spielzeugmuseum Nürnberg.jpg",
+        "alt": "A figure outside the Nuremberg Toy Museum in the old town"
+      },
+      "text": "A genuinely charming museum tracing Nuremberg's centuries-long toy-making history, the city having been a major European toy manufacturing centre for generations.",
+      "tip": "The historic toy collection appeals to adults with an interest in design history as much as to children."
+    }
+  ],
+  "foodIntro": "Franconian food centres on Nuremberg's famous small sausages, gingerbread and hearty regional cooking.",
+  "foods": [
+    {
+      "name": "Nürnberger Rostbratwurst",
+      "image": {
+        "file": "File:Nürnberger Rostbratwürste.JPG",
+        "alt": "A plate of grilled Nürnberger Rostbratwürste, Nuremberg's small, spiced sausages"
+      },
+      "text": "Small, finger-sized grilled sausages with a protected geographical status, traditionally grilled over beechwood charcoal and served three, six or a dozen at a time.",
+      "whereToTry": "Traditional Bratwurst restaurants throughout the old town, several centuries old."
+    },
+    {
+      "name": "Nürnberger Lebkuchen",
+      "image": {
+        "file": "File:Nürnberger Lebkuchen.jpg",
+        "alt": "Nürnberger Lebkuchen, Nuremberg's spiced gingerbread"
+      },
+      "text": "Nuremberg's famous gingerbread, a protected regional specialty made with honey, nuts and spices rather than flour-heavy dough, genuinely distinct from ordinary gingerbread.",
+      "whereToTry": "Traditional bakeries across the city, especially plentiful around the Christmas market season."
+    },
+    {
+      "name": "Schäufele",
+      "image": {
+        "file": "File:Schäufele mit Knödeln und Blaukraut.jpg",
+        "alt": "Schäufele, roasted pork shoulder, served with a bread dumpling and red cabbage"
+      },
+      "text": "A roasted pork shoulder, a genuine Franconian classic, typically served with a bread dumpling and rich gravy.",
+      "whereToTry": "Traditional Franconian Gasthaus restaurants throughout Nuremberg."
+    },
+    {
+      "name": "Franconian beer",
+      "image": {
+        "file": "File:Weismainer Püls Kellerbier.JPG",
+        "alt": "An unfiltered Franconian Kellerbier, a regional beer style"
+      },
+      "text": "Franconia has the highest density of breweries in the world relative to its population, producing genuinely distinctive, often unfiltered local beer styles.",
+      "whereToTry": "Traditional Nuremberg beer cellars and Franconian breweries, several offering their own house styles."
+    },
+    {
+      "name": "Karpfen (carp)",
+      "image": {
+        "file": "File:Karpfen blau Zum Hirschen Bad Windsheim.JPG",
+        "alt": "Karpfen blau, poached carp, a traditional Franconian preparation"
+      },
+      "text": "A traditional Franconian dish, particularly around Christmas and New Year, from the region's historic fish-pond farming tradition dating back centuries.",
+      "whereToTry": "Traditional Franconian restaurants, especially in winter when the dish is most traditionally served."
+    },
+    {
+      "name": "Nürnberger Bratwurst breakfast",
+      "image": {
+        "file": "File:Nuernberg Drei im Weckla 001.JPG",
+        "alt": "Drei im Weckla, three grilled Nürnberger bratwurst in a bread roll"
+      },
+      "text": "A genuinely local tradition: a small portion of the city's famous bratwurst eaten as a savoury breakfast, sometimes with a beer alongside.",
+      "whereToTry": "Historic Bratwurst taverns in the old town, particularly popular with locals in the morning."
+    }
+  ],
+  "accommodation": {
+    "intro": "Nuremberg's compact old town means most central accommodation puts you within walking distance of the main sights.",
+    "areas": [
+      {
+        "name": "The Altstadt (Old Town)",
+        "bestFor": "Walking to the Kaiserburg and Hauptmarkt",
+        "text": "The most central base, putting the castle, old town and main historic sights all within easy walking distance."
+      },
+      {
+        "name": "Near the Hauptbahnhof",
+        "bestFor": "Transport convenience",
+        "text": "A short walk from the old town's southern gate, with a good range of mid-range accommodation."
+      },
+      {
+        "name": "Gostenhof",
+        "bestFor": "A livelier, more local atmosphere",
+        "text": "A genuinely up-and-coming neighbourhood just west of the old town, with good restaurants and a younger crowd."
+      }
+    ],
+    "budget": [
+      {
+        "label": "Hostel dorm",
+        "value": "€22–38 per night"
+      },
+      {
+        "label": "Mid-range hotel",
+        "value": "€80–150 per night"
+      },
+      {
+        "label": "Documentation Centre entry",
+        "value": "€6"
+      },
+      {
+        "label": "Six Nürnberger sausages",
+        "value": "€8–12"
+      }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Nuremberg Airport handles a reasonable range of European routes, with excellent rail connections across Germany.",
+    "options": [
+      {
+        "mode": "Nuremberg Airport (NUE)",
+        "text": "Connected to the city centre by U-Bahn in about 12 minutes, a genuinely convenient, close airport.",
+        "detail": "A smaller range of direct international routes than Germany's largest hubs, though generally sufficient for European connections."
+      },
+      {
+        "mode": "Rail from other German cities",
+        "text": "ICE trains connect Nuremberg to [[munich|Munich]] in about 1 hour, and [[berlin|Berlin]] in about 3h15.",
+        "detail": "Book Sparpreis fares as early as possible for significant savings over walk-up tickets."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Useful for reaching Bamberg and the wider Franconia region, though not required for the city itself.",
+        "detail": "Nuremberg's old town is largely pedestrianised, making a car more useful for day trips than the city centre."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Nuremberg's old town is comfortably walkable, and an efficient U-Bahn and tram network covers the wider city.",
+    "options": [
+      {
+        "mode": "Walking",
+        "text": "The Altstadt's major sights sit within a compact, largely pedestrianised centre, easily covered on foot.",
+        "detail": "Comfortable shoes matter for cobbled streets throughout the historic core."
+      },
+      {
+        "mode": "U-Bahn and trams",
+        "text": "Nuremberg's public transport network efficiently connects the old town to the airport, station and outlying districts.",
+        "detail": "A single ticket system covers the U-Bahn, trams and buses within the same fare zone."
+      },
+      {
+        "mode": "Rental car",
+        "text": "Useful specifically for day trips to Bamberg or Franconia's wine country beyond the city.",
+        "detail": "Parking within the old town's walls is limited — park-and-ride options exist on the city's edge."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June, September, and December for the Christmas market",
+    "summary": "Nuremberg's weather is genuinely continental, and the Christmas market season is a genuine draw on its own that shapes when many visitors choose to come.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild and increasingly pleasant, with crowds well below the Christmas market's December peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "Warm weather good for exploring the old town and day trips to Bamberg, though also a busier tourist season."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable temperatures and thinning crowds, a genuinely good window before the Christmas market rush begins."
+      },
+      {
+        "season": "Winter (November–December)",
+        "rating": "great",
+        "text": "The Christkindlesmarkt runs from late November through Christmas Eve, bringing genuine world-famous atmosphere, though also the year's busiest, most expensive weeks."
+      }
+    ],
+    "avoid": "December weekends without booked accommodation, when the Christmas market draws visitors from across the world and prices and crowds both spike accordingly."
+  },
+  "itinerary": {
+    "title": "Three days in Nuremberg",
+    "intro": "The medieval old town first, then the city's direct 20th-century history, then Franconian food and a Bamberg day trip.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The old town and Kaiserburg",
+        "summary": "Nuremberg's imperial and medieval history.",
+        "morning": "The Kaiserburg and Sinwell Tower.",
+        "afternoon": "The Hauptmarkt, Schöner Brunnen and St. Lorenz Church.",
+        "evening": "Nürnberger Rostbratwurst at a historic tavern."
+      },
+      {
+        "day": 2,
+        "title": "20th-century history",
+        "summary": "A direct, honest look at the city's Nazi-era past.",
+        "morning": "The Nazi Party Rally Grounds Documentation Centre.",
+        "afternoon": "The Nuremberg Trials Memorium at Courtroom 600.",
+        "evening": "Dinner in the old town."
+      },
+      {
+        "day": 3,
+        "title": "Bamberg day trip",
+        "summary": "A day trip to Franconia's other great historic town.",
+        "morning": "Train to Bamberg.",
+        "afternoon": "Explore Bamberg's UNESCO-listed old town.",
+        "evening": "Return to Nuremberg for a final dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on booking, timing and history sites that make a real difference to a Nuremberg trip.",
+  "tips": [
+    "Book Christmas market period accommodation many months ahead if visiting in December.",
+    "Allow at least half a day for the Documentation Centre and Rally Grounds — the history deserves unhurried time.",
+    "Check Courtroom 600's visitor access ahead, since it occasionally hosts real legal proceedings.",
+    "Climb the Sinwell Tower at the Kaiserburg for the best panoramic view over the old town's red rooftops.",
+    "Try Nürnberger sausages at a historic tavern rather than a tourist-strip stall for a genuinely better version.",
+    "Consider a Bamberg day trip if staying three or more days — it's a genuinely worthwhile, easy addition.",
+    "Wear comfortable shoes — much of the old town's charm is in slow walking over cobbled streets."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Nuremberg?",
+      "a": "Two to three. Two covers the old town and the essential Nazi-era history sites; three allows a Bamberg day trip without feeling rushed."
+    },
+    {
+      "q": "Is Nuremberg's old town original or rebuilt?",
+      "a": "Almost entirely rebuilt after near-total destruction in a 1945 bombing raid, though with genuine care to recreate its medieval character — convincing enough that many visitors assume it's original."
+    },
+    {
+      "q": "Is the Nazi-era history difficult to visit?",
+      "a": "It's substantial and genuinely sobering, but presented with real honesty and educational care rather than being glossed over — most visitors find it a valuable, worthwhile part of understanding the city and the period."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best weather and manageable crowds for general sightseeing. December's Christkindlesmarkt is genuinely world-famous but also the busiest, most expensive time to visit."
+    },
+    {
+      "q": "Is Nuremberg worth visiting beyond the Christmas market?",
+      "a": "Yes, genuinely — the Kaiserburg, the rebuilt old town, the Nazi-era history sites and the Germanisches Nationalmuseum are all worthwhile independent of the market, which runs only from late November to Christmas Eve."
+    }
+  ],
+  "related": [
+    "munich",
+    "dresden",
+    "berlin"
+  ],
+  "relatedArticles": [
+    "packing-by-season",
+    "unesco-worth-planning-around"
+  ]
+}

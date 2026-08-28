@@ -1,0 +1,379 @@
+{
+  "slug": "munich",
+  "name": "Munich",
+  "country": "germany",
+  "region": "Bavaria",
+  "categories": ["city", "culture", "historic"],
+  "tagline": "Bavaria's capital, where beer halls, Alpine views and genuinely serious museums sit alongside each other, and where a suit and a pair of lederhosen can share the same wardrobe without irony.",
+  "highlight": "The Marienplatz's Glockenspiel chiming above the Gothic New Town Hall, with the Bavarian Alps visible on a clear day from the tower above.",
+  "shortDescription": "Bavaria's capital: beer halls, world-class museums, a genuine mountain backdrop and a confident regional identity distinct from the rest of Germany.",
+  "metaDescription": "A Munich travel guide: Marienplatz, the English Garden, Oktoberfest, Bavarian beer halls, when to go and a practical three-day itinerary.",
+  "suggestedStay": "3–4 days",
+  "nearestAirport": "Munich Airport (MUC)",
+  "knownFor": "Beer halls, Oktoberfest, Bavarian culture, museums",
+  "budget": "€100–170 per day, mid-range",
+  "goodFor": "Culture, beer, museums, day trips to the Alps",
+  "coords": { "lat": 48.1351, "lng": 11.5820 },
+  "image": {
+    "file": "File:Rathaus and Marienplatz from Peterskirche - August 2006.jpg",
+    "alt": "The Gothic towers of Munich's New Town Hall on Marienplatz"
+  },
+  "intro": [
+    "Munich is the capital of Bavaria first and a German city second, at least in the eyes of many of its own residents, and that regional pride shapes almost everything about visiting it. Bavaria remained a separate kingdom until German unification in 1871, and its Catholic, beer-hall culture, distinct dialect and Alpine backdrop still feel genuinely different from the north.",
+    "That identity is most visible in the city's beer culture, which is not a tourist performance but a genuine daily and seasonal institution — beer gardens fill with locals as much as visitors, and Oktoberfest, however commercialised it has become, grew out of a real 1810 royal wedding celebration that the city has marked every year since.",
+    "Munich is also, less expectedly to first-time visitors, a genuinely serious museum and design city, home to world-class art collections, the Deutsches Museum's vast science and technology holdings, and an easy reach of the Bavarian Alps for those wanting mountains within a day trip of a major city."
+  ],
+  "whyVisit": {
+    "intro": "Munich's case is that nowhere else combines Bavaria's beer-hall culture this authentically with world-class museums and genuine Alpine access within city limits.",
+    "points": [
+      {
+        "title": "The beer culture is genuinely local, not staged",
+        "text": "Beer gardens and halls are filled with Münchners as much as visitors, a real daily institution rather than a tourist performance."
+      },
+      {
+        "title": "The museums are a real, underrated strength",
+        "text": "The Deutsches Museum and the Pinakothek galleries rank among Europe's best, often overlooked by visitors focused only on beer halls."
+      },
+      {
+        "title": "The Alps are genuinely close",
+        "text": "The Bavarian Alps and castles like Neuschwanstein sit within an easy day trip, a real bonus most major cities cannot offer."
+      },
+      {
+        "title": "Bavarian identity is real and distinct",
+        "text": "The regional dialect, Catholic traditions and separate royal history give Munich a character genuinely different from Berlin or Hamburg."
+      },
+      {
+        "title": "It works well in every season",
+        "text": "Summer beer gardens, autumn's Oktoberfest, and winter's Christmas markets and nearby skiing each give Munich a different character worth returning for."
+      }
+    ]
+  },
+  "attractionsIntro": "Munich's essential sights, mixing its historic centre with its serious museum quarter.",
+  "attractions": [
+    {
+      "name": "Marienplatz and the New Town Hall",
+      "image": {
+        "file": "File:München, Rathaus -- 2011 -- 1262.jpg",
+        "alt": "Looking up at the Glockenspiel tower on Munich's New Town Hall"
+      },
+      "text": "Munich's central square, dominated by the Gothic Revival New Town Hall and its Glockenspiel, which chimes with animated figures at set times daily.",
+      "tip": "Climb the tower for panoramic views over the city and, on a clear day, the Alps in the distance."
+    },
+    {
+      "name": "The Deutsches Museum",
+      "image": {
+        "file": "File:20230410 Deutsches Museum 02.jpg",
+        "alt": "The exterior of the Deutsches Museum in Munich"
+      },
+      "text": "One of the world's largest and oldest science and technology museums, with genuinely vast collections spanning aviation, mining, physics and beyond.",
+      "tip": "Allow at least half a day — the museum is considerably larger than a quick visit allows for."
+    },
+    {
+      "name": "The English Garden",
+      "image": {
+        "file": "File:Monopteros in the Englischer Garten, Munich (2019).jpg",
+        "alt": "The Monopteros temple in Munich's English Garden"
+      },
+      "text": "One of the world's largest urban parks, larger than New York's Central Park, with beer gardens, a surfable standing wave on the Eisbach stream, and genuine open green space.",
+      "tip": "Watch the surfers at the Eisbach wave near the park's southern entrance, a genuinely surreal urban sight."
+    },
+    {
+      "name": "The Pinakothek museums",
+      "image": {
+        "file": "File:Side entrance to the Alte Pinakothek in Munich.jpg",
+        "alt": "The Alte Pinakothek art museum building"
+      },
+      "text": "Three major art museums — the Alte, Neue and Pinakothek der Moderne — together spanning old masters to contemporary art in one of Germany's most serious art quarters.",
+      "tip": "A combined ticket covers all three Pinakothek museums, worth it if visiting more than one."
+    },
+    {
+      "name": "Nymphenburg Palace",
+      "image": {
+        "file": "File:Aerial image of Schloss Nymphenburg.jpg",
+        "alt": "An aerial view of Nymphenburg Palace and its gardens"
+      },
+      "text": "The Bavarian royal family's opulent summer residence, with extensive baroque gardens, canals and follies on the city's western edge.",
+      "tip": "The gardens are free to enter and genuinely rewarding for a slow walk even without touring the palace interior."
+    },
+    {
+      "name": "The Hofbräuhaus",
+      "image": {
+        "file": "File:Munich - Hofbräuhaus am Platzl - 0778.jpg",
+        "alt": "The painted vaulted ceiling and communal tables inside the Hofbräuhaus"
+      },
+      "text": "Munich's most famous beer hall, dating to 1589, a genuinely boisterous, communal drinking hall with long tables, brass bands and litre steins.",
+      "tip": "Arrive early for a seat, or book ahead for groups — it is genuinely one of the busiest tourist draws in the city."
+    }
+  ],
+  "thingsToDoIntro": "Beyond the headline sights, Munich rewards both serious beer-hall immersion and easy access to the wider Bavarian countryside.",
+  "thingsToDo": [
+    {
+      "title": "Spend an afternoon in a beer garden",
+      "image": {
+        "file": "File:Munich English Gardens - Chinese Tower Beer Garden - August 2006.jpg",
+        "alt": "The Chinese Tower beer garden in Munich's English Garden"
+      },
+      "text": "A genuine Munich institution: long communal tables under chestnut trees, self-service or table service, and a relaxed pace that rewards a whole afternoon rather than a quick pint.",
+      "tip": "The Chinese Tower beer garden in the English Garden is among the most atmospheric, with a genuine oompah band on weekends."
+    },
+    {
+      "title": "Visit the Viktualienmarkt",
+      "image": {
+        "file": "File:München, Viktualienmarkt, Ladenzeile -- 2011 -- 1.jpg",
+        "alt": "Market stalls along the Viktualienmarkt in Munich"
+      },
+      "text": "Munich's permanent food market, a genuine daily institution selling produce, flowers, cheese and prepared food, with its own small beer garden at its centre.",
+      "tip": "Visit late morning for the freshest produce and the liveliest atmosphere before the lunch rush."
+    },
+    {
+      "title": "Take a day trip to the Bavarian Alps",
+      "image": {
+        "file": "File:Zugspitze Overlook (52458529173).jpg",
+        "alt": "A view over the Bavarian Alps from near the Zugspitze"
+      },
+      "text": "Zugspitze, Germany's highest peak, and the alpine town of Garmisch-Partenkirchen both sit within about ninety minutes of Munich by train.",
+      "tip": "Book the Zugspitze cable car or cogwheel train ahead in summer and ski season, when capacity is genuinely limited."
+    },
+    {
+      "title": "Experience Oktoberfest, or its quieter cousins",
+      "image": {
+        "file": "File:O'zapft is! Münchens 5 Jahreszeit hat begonnen - O'zapft is! Munich 5 season, the Oktoberfest has begun (9855483374).jpg",
+        "alt": "Crowds and beer tents at Munich's Oktoberfest"
+      },
+      "text": "The world's largest beer festival runs mid-September to early October, though smaller spring and autumn festivals throughout the year offer a similar atmosphere with far fewer crowds.",
+      "tip": "Book Oktoberfest accommodation and beer tent tables many months ahead — the festival's capacity is genuinely stretched every year."
+    },
+    {
+      "title": "Watch the Eisbach river surfers",
+      "image": {
+        "file": "File:Urban Surfer1.JPG",
+        "alt": "A surfer riding the standing wave on Munich's Eisbach stream"
+      },
+      "text": "A permanent standing wave on the English Garden's Eisbach stream draws surfers year-round, a genuinely unexpected urban sight worth watching even without surfing yourself.",
+      "tip": "Surfers queue in an orderly line for their turn — watch the etiquette before assuming you can simply join in."
+    },
+    {
+      "title": "Explore Munich's Christmas markets",
+      "image": {
+        "file": "File:Münchner Christkindlmarkt 3.JPG",
+        "alt": "Munich's Christmas market stalls at Marienplatz"
+      },
+      "text": "From late November, Marienplatz and other squares fill with market stalls, mulled wine and crafts, a genuinely festive Bavarian tradition.",
+      "tip": "The Medieval Christmas Market at Wittelsbacherplatz has a distinct, less commercial atmosphere than the main Marienplatz market."
+    }
+  ],
+  "foodIntro": "Bavarian food is hearty, beer-focused and genuinely distinct from the rest of Germany, with Munich as its natural showcase.",
+  "foods": [
+    {
+      "name": "Weisswurst",
+      "image": {
+        "file": "File:Weisswurst+pretzels+bavarian mustard, beergarden, Düll brewery.jpg",
+        "alt": "Weisswurst sausages with a pretzel and sweet mustard"
+      },
+      "text": "A traditional white sausage of veal and pork, eaten with sweet mustard and a pretzel, traditionally only before noon according to old Bavarian custom.",
+      "whereToTry": "Traditional beer halls, ideally as a proper mid-morning Weisswurst breakfast."
+    },
+    {
+      "name": "Pretzels (Brezn)",
+      "image": {
+        "file": "File:Weidenberger Brezen.JPG",
+        "alt": "A basket of fresh Bavarian pretzels"
+      },
+      "text": "Munich's pretzels are genuinely a step above the export version, soft, chewy and lye-crusted, a staple accompaniment to any beer hall visit.",
+      "whereToTry": "Any traditional beer hall or bakery, ideally fresh and still warm."
+    },
+    {
+      "name": "Schweinshaxe",
+      "image": {
+        "file": "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg",
+        "alt": "A plate of roast pork knuckle, Schweinshaxe"
+      },
+      "text": "Roast pork knuckle with genuinely crackling skin, a hearty Bavarian classic usually served with dumplings and sauerkraut.",
+      "whereToTry": "Traditional Bavarian restaurants and beer halls across the city."
+    },
+    {
+      "name": "Bavarian beer",
+      "image": {
+        "file": "File:Hofbrauhaus Radler Beer (5987287310).jpg",
+        "alt": "A full litre stein of Bavarian beer"
+      },
+      "text": "Munich's breweries — Augustiner, Paulaner, Löwenbräu, Hofbräu and Spaten among them — produce genuinely distinct styles, Helles above all, brewed under the same purity law since 1516.",
+      "whereToTry": "Each brewery's own beer hall or garden gives the most authentic version of its beer."
+    },
+    {
+      "name": "Obatzda",
+      "image": {
+        "file": "File:Obatzter-1.jpg",
+        "alt": "A plate of Obatzda cheese spread"
+      },
+      "text": "A soft cheese spread mixed with butter, paprika and onion, a genuine Bavarian beer garden staple served with pretzels and radishes.",
+      "whereToTry": "Traditional beer gardens across Munich, particularly as a light afternoon snack."
+    },
+    {
+      "name": "Leberkäse",
+      "image": {
+        "file": "File:Leberkäse, Rüdesheim.jpg",
+        "alt": "Sliced Leberkäse"
+      },
+      "text": "A finely ground meatloaf, despite its name containing no liver, sliced and grilled, often served in a bread roll as a genuinely popular quick lunch.",
+      "whereToTry": "Butcher shops and Viktualienmarkt stalls across the city."
+    }
+  ],
+  "accommodation": {
+    "intro": "Munich's centre is compact enough that most central accommodation puts you within walking distance of the main sights.",
+    "areas": [
+      {
+        "name": "Altstadt (Old Town)",
+        "bestFor": "Walking to Marienplatz and the main sights",
+        "text": "The most central district, putting the New Town Hall, Viktualienmarkt and major beer halls all within easy walking distance."
+      },
+      {
+        "name": "Schwabing",
+        "bestFor": "A livelier, more bohemian atmosphere",
+        "text": "Munich's traditional artists' quarter, close to the English Garden, with good cafes and a younger crowd."
+      },
+      {
+        "name": "Near the Hauptbahnhof",
+        "bestFor": "Transport convenience and value",
+        "text": "A short walk from the centre with generally better value accommodation than the Altstadt itself."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "€25–40 per night" },
+      { "label": "Mid-range hotel", "value": "€95–170 per night" },
+      { "label": "Deutsches Museum entry", "value": "€15" },
+      { "label": "Beer hall litre stein", "value": "€10–13" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Munich Airport is one of Germany's major international gateways, with excellent rail connections to the rest of the country.",
+    "options": [
+      {
+        "mode": "Munich Airport (MUC)",
+        "text": "Connected to the city centre by S-Bahn train in about 40 minutes, with frequent services throughout the day.",
+        "detail": "The S1 and S8 lines both connect the airport directly to the central Hauptbahnhof station."
+      },
+      {
+        "mode": "Rail from other German cities",
+        "text": "ICE trains connect Munich to [[berlin|Berlin]] in about 4 hours, [[nuremberg|Nuremberg]] in about 1 hour, and [[cologne-rhine-valley|Cologne]] in around 4h30.",
+        "detail": "Book Sparpreis fares as early as possible for significant savings over walk-up tickets."
+      },
+      {
+        "mode": "Coach",
+        "text": "FlixBus connects Munich to cities across Germany, Austria and neighbouring countries at lower cost than rail, if considerably slower.",
+        "detail": "A practical budget option for less time-sensitive journeys, including into the Alps."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Munich's public transport network is extensive and efficient, and the historic centre itself is comfortably walkable.",
+    "options": [
+      {
+        "mode": "U-Bahn and S-Bahn",
+        "text": "Munich's underground and suburban rail networks together cover the city and its surrounding region comprehensively.",
+        "detail": "A single ticket system covers both networks plus buses and trams within the same fare zone."
+      },
+      {
+        "mode": "Walking",
+        "text": "The Altstadt's major sights sit within a compact, walkable centre, comfortable to cover entirely on foot.",
+        "detail": "Comfortable shoes matter — much of the historic centre is pedestrianised and best explored slowly."
+      },
+      {
+        "mode": "Bicycle",
+        "text": "Munich is a genuinely bike-friendly city with extensive cycle lanes, particularly pleasant for reaching the English Garden.",
+        "detail": "Several bike-share schemes operate citywide, unlockable via smartphone app."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Munich's weather is genuinely changeable, but late spring and early autumn — including Oktoberfest itself — offer the best balance of daylight, temperature and atmosphere.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild and increasingly green, with beer gardens reopening and crowds still below summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "Long daylight hours and the best chance of warm beer-garden weather, though also the most crowded and expensive months before Oktoberfest itself."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Oktoberfest runs mid-September into early October, and the weeks either side offer comfortable, less crowded conditions."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Short, often cold days, but Christmas markets bring real seasonal charm, and the nearby Alps offer genuine skiing access."
+      }
+    ],
+    "avoid": "Oktoberfest weekends without booked accommodation and beer tent reservations — the city's capacity is genuinely stretched during the festival's full run."
+  },
+  "itinerary": {
+    "title": "Three days in Munich",
+    "intro": "The historic centre and museums first, then beer culture and a nearby Alpine day trip — a pace that balances Munich's different sides.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The historic centre",
+        "summary": "Munich's essential central sights.",
+        "morning": "Marienplatz, the New Town Hall and its tower.",
+        "afternoon": "The Viktualienmarkt and a wander through the Altstadt.",
+        "evening": "Dinner at the Hofbräuhaus."
+      },
+      {
+        "day": 2,
+        "title": "Museums and the English Garden",
+        "summary": "Munich's serious cultural side.",
+        "morning": "The Deutsches Museum or a Pinakothek gallery.",
+        "afternoon": "The English Garden, including the Eisbach surfers and a beer garden stop.",
+        "evening": "Dinner in Schwabing."
+      },
+      {
+        "day": 3,
+        "title": "A day trip to the Alps",
+        "summary": "Mountain scenery within easy reach of the city.",
+        "morning": "Train to Garmisch-Partenkirchen or toward Zugspitze.",
+        "afternoon": "The Zugspitze cable car, or a lower-altitude Alpine walk.",
+        "evening": "Return to Munich for a final dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Practical notes on beer halls, bookings and Oktoberfest that make a real difference to a Munich trip.",
+  "tips": [
+    "Book Oktoberfest accommodation and beer tent tables many months ahead if visiting in September.",
+    "Order Weisswurst before noon if you want the traditionally correct experience — old Bavarian custom holds it should not be eaten later in the day.",
+    "Book Zugspitze cable car tickets ahead in summer and ski season, when capacity is genuinely limited.",
+    "Carry cash for smaller beer gardens and market stalls, which are sometimes cash-only.",
+    "Validate transit tickets before boarding — Munich's honour system carries real fines for ticketless riding.",
+    "Bring or rent a bike for the English Garden — it is genuinely too large to see properly on foot in a single visit.",
+    "Book combined Pinakothek museum tickets if visiting more than one gallery, for meaningful savings."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Munich?",
+      "a": "Three to four. Three covers the historic centre, a major museum and a beer hall evening; four allows a proper Alpine day trip without feeling rushed."
+    },
+    {
+      "q": "Is Munich only worth visiting during Oktoberfest?",
+      "a": "No — Oktoberfest is genuinely worthwhile but also the most crowded and expensive time to visit. Munich's beer gardens, museums and Alpine access are excellent year-round, and spring or September without the festival offers a calmer, cheaper trip."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September offer the best balance of good weather, long daylight and manageable crowds, with September also covering Oktoberfest itself if that's part of the draw. Winter is cold but Christmas markets and nearby skiing have their own appeal."
+    },
+    {
+      "q": "Can you visit the Alps as a day trip from Munich?",
+      "a": "Yes — Garmisch-Partenkirchen and the Zugspitze cable car are both reachable within about ninety minutes by train, making a genuine Alpine day trip easy without a car."
+    },
+    {
+      "q": "Is Munich expensive?",
+      "a": "Somewhat more than the German average, with a modest premium over cities like Berlin, though still generally more affordable than London, Paris or Zurich for comparable quality."
+    }
+  ],
+  "related": ["romantic-road-neuschwanstein", "nuremberg", "black-forest"],
+  "relatedArticles": ["packing-by-season", "europe-by-train"]
+}

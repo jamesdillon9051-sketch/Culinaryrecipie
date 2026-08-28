@@ -1,0 +1,426 @@
+{
+  "slug": "beijing",
+  "name": "Beijing",
+  "country": "china",
+  "region": "Beijing Municipality",
+  "categories": ["capital-city", "historic", "archaeological", "unesco"],
+  "tagline": "Six centuries of imperial planning at the centre, a wall built to keep out an empire's worth of enemies an hour to the north, and hutong lanes still humming with daily life in between.",
+  "highlight": "The Forbidden City — 980 buildings and nearly 9,000 rooms, the seat of Chinese emperors for exactly five hundred years.",
+  "shortDescription": "China's capital for most of the last eight centuries, where a walled Ming palace, tai-chi parks and some of the country's best duck sit inside a modern megacity of 22 million.",
+  "metaDescription": "A Beijing travel guide: the Forbidden City, Great Wall, Temple of Heaven and hutongs, where to eat Peking duck, how to book the big sights, when to go and a four-day itinerary.",
+  "suggestedStay": "4–5 days",
+  "nearestAirport": "Beijing Capital (PEK) or Daxing (PKX)",
+  "knownFor": "The Forbidden City, the Great Wall, Tiananmen Square, Peking duck",
+  "budget": "¥700–1,300 per day, mid-range",
+  "goodFor": "History, architecture, food, first trips to China",
+  "coords": { "lat": 39.9042, "lng": 116.4074 },
+  "image": {
+    "file": "File:China (Beijing) Aerial view of Forbidden City (38884882275).jpg",
+    "alt": "An aerial view over the golden roofs of the Forbidden City with Beijing's skyline behind"
+  },
+  "intro": [
+    "Beijing has been China's capital for most of the last eight hundred years, and it plans like it. The city radiates out from the Forbidden City in concentric ring roads, a layout that dates to the Yuan and Ming dynasties and that no amount of modern expressway-building has erased. At the centre, almost a thousand buildings behind a moat and a forty-foot wall once housed an emperor considered the literal Son of Heaven; an hour north, the Great Wall runs along mountain ridges specifically chosen because they were nearly impossible to attack.",
+    "The layers here are political as much as architectural. Tiananmen Square, the largest public square in the world, sits at the Forbidden City's front door and has hosted the founding of modern China, student movements and military parades in the same few hundred metres. The hutongs — narrow lanes of grey-brick courtyard houses — are what remains of the residential fabric that once surrounded the palace on all sides, and wandering one at dusk, past mahjong games and steamed-bun stalls, is as essential to understanding Beijing as any single monument.",
+    "The modern city is enormous — 22 million people, a metro with more stations than London's Underground, and a ring-road system that expands every few years to keep up. But the historic core is compact and walkable in a way the scale of the city does not suggest: the Forbidden City, Tiananmen, Jingshan Park and the lakes of Shichahai are all within a couple of kilometres of each other, connected by hutongs that have barely changed in a century."
+  ],
+  "whyVisit": {
+    "intro": "Beijing's case is straightforward: nowhere else puts an intact imperial palace, the single most famous fortification on earth and a living, unrenovated old-city fabric within an hour of each other.",
+    "points": [
+      {
+        "title": "The Forbidden City is genuinely intact",
+        "text": "Not a ruin or a reconstruction — the largest palace complex on earth, largely as it stood under the Ming and Qing, walked through rather than viewed from behind glass."
+      },
+      {
+        "title": "The Great Wall here is the wall of the imagination",
+        "text": "The Beijing sections — Mutianyu, Jinshanling, Simatai — are the best-restored, most dramatically mountainous stretches of the entire 21,000 km structure."
+      },
+      {
+        "title": "The hutongs are still lived in",
+        "text": "Unlike many historic quarters preserved as museum pieces, Beijing's surviving hutongs are ordinary residential streets — bicycles, mahjong, laundry lines — that happen to be centuries old."
+      },
+      {
+        "title": "Imperial and revolutionary history sit side by side",
+        "text": "The Forbidden City, Tiananmen Square and Mao's mausoleum face each other across the same axis — three very different chapters of the same country's story, walkable in one afternoon."
+      },
+      {
+        "title": "The food is a capital's food",
+        "text": "Peking duck, imperial court dishes and street snacks from across the country converge here, in a city that has been cooking for emperors and their courts for six hundred years."
+      }
+    ]
+  },
+  "attractionsIntro": "Beijing rewards a slower pace than its size suggests. These eight are the ones worth building days around; the hutongs in between are free and just as memorable.",
+  "attractions": [
+    {
+      "name": "The Forbidden City",
+      "image": {
+        "file": "File:China (Beijing, Forbidden City) View of Meridan gate from courtyard (25928319008).jpg",
+        "alt": "The Meridian Gate seen across a courtyard inside the Forbidden City"
+      },
+      "text": "The imperial palace of the Ming and Qing dynasties, 1420 to 1912: 980 buildings, red walls, golden roofs and a scale that takes a full day to properly absorb, from the Meridian Gate to the Imperial Garden at the northern end.",
+      "tip": "Book timed tickets online days ahead — daily visitor numbers are capped and it regularly sells out. Enter early and exit north into Jingshan Park."
+    },
+    {
+      "name": "Tiananmen Square",
+      "image": {
+        "file": "File:Portrait of Chairman Mao on Tiananmen Gatetower.jpg",
+        "alt": "The portrait of Mao Zedong on the Tiananmen Gate tower"
+      },
+      "text": "The largest public square in the world, flanked by the Great Hall of the People, the National Museum and Mao's mausoleum, with the Gate of Heavenly Peace and its famous portrait at the northern end leading into the Forbidden City.",
+      "tip": "Security is airport-level with a passport check. The flag-raising ceremony at sunrise draws large crowds and is worth it once."
+    },
+    {
+      "name": "The Great Wall at Mutianyu",
+      "image": {
+        "file": "File:The Mutianyu section of the Great Wall of China.jpg",
+        "alt": "The restored, forested Mutianyu section of the Great Wall of China"
+      },
+      "text": "A cable car up to a beautifully restored, less-crowded section of wall than Badaling, running along a forested ridge with watchtowers roughly every few hundred metres and genuinely spectacular views in either direction.",
+      "tip": "Go on a weekday if possible, and take the toboggan back down — a legitimately fun way to finish the visit."
+    },
+    {
+      "name": "The Temple of Heaven",
+      "image": {
+        "file": "File:Temple of Heaven, Beijing - February 2024.jpg",
+        "alt": "The circular, blue-roofed Hall of Prayer for Good Harvests at the Temple of Heaven"
+      },
+      "text": "A Ming-dynasty complex where emperors performed annual rites for a good harvest, centred on the circular, triple-eaved Hall of Prayer for Good Harvests, built without a single nail, inside a park that fills with tai chi and card games at dawn.",
+      "tip": "Arrive at opening to see the park as locals use it, well before the tour groups reach the hall itself."
+    },
+    {
+      "name": "The Summer Palace",
+      "image": {
+        "file": "File:Kunming Lake of Summer Palace (20240706140421).jpg",
+        "alt": "Kunming Lake at the Summer Palace with Longevity Hill and its pagoda behind"
+      },
+      "text": "The Qing court's vast lakeside retreat, built around Kunming Lake and Longevity Hill, with the Long Corridor's painted ceiling, marble boat and the hillside pagoda all connected by paths that take a genuine half-day to cover.",
+      "tip": "Take a boat across the lake rather than only walking around it — a completely different, quieter view of the palace buildings."
+    },
+    {
+      "name": "The 798 Art District",
+      "image": {
+        "file": "File:Beijing 798 Art District.jpg",
+        "alt": "Industrial brick buildings converted into galleries in Beijing's 798 Art District"
+      },
+      "text": "A former military electronics factory complex converted into Beijing's contemporary art district, all Bauhaus-era brick and pipework hung with galleries, studios and installations — the modern counterweight to the imperial sights.",
+      "tip": "Free to wander, though individual galleries may charge. Weekday mornings are quietest."
+    },
+    {
+      "name": "The Lama Temple",
+      "image": {
+        "file": "File:Lama Temple, Beijing - DSC06715.jpg",
+        "alt": "Ornate hall roofs at Beijing's Lama Temple"
+      },
+      "text": "Beijing's most important Tibetan Buddhist temple, a former princely residence converted under the Qing, incense thick in the air and a colossal 18-metre sandalwood Buddha carved from a single tree in the final hall.",
+      "tip": "Buy incense at the entrance if you want to make an offering — it is customary and inexpensive."
+    },
+    {
+      "name": "Houhai and the Shichahai lakes",
+      "image": {
+        "file": "File:Houhai Lake and Drum Tower Beijing 2015 October.jpg",
+        "alt": "Houhai Lake with the Drum Tower visible in the distance"
+      },
+      "text": "A cluster of lakes ringed by willow trees, bars and hutong lanes, where locals swim in summer and skate in winter, and where a pedicab tour through the surrounding hutongs is the easiest way to see courtyard-house life up close.",
+      "tip": "Come at dusk for the lakeside bars lighting up, or early morning for the swimmers and joggers instead of the nightlife crowd."
+    }
+  ],
+  "thingsToDoIntro": "Beijing rewards pairing one major sight with one neighbourhood a day, and leaving room for the hutongs to happen to you rather than scheduling them.",
+  "thingsToDo": [
+    {
+      "title": "Walk a hutong without a destination",
+      "image": {
+        "file": "File:Lixue Hutong (20200827131707).jpg",
+        "alt": "A quiet Beijing hutong lane lined with grey-brick courtyard walls"
+      },
+      "text": "The lanes around Nanluoguxiang, Wudaoying and the quieter streets near the Drum Tower are where Beijing's daily life actually happens — mahjong through open doors, steamed buns sold from a window, laundry strung between courtyard walls.",
+      "tip": "Wudaoying Hutong has the better independent cafes and shops; Nanluoguxiang is more commercial but still worth a walk."
+    },
+    {
+      "title": "Climb the Drum and Bell Towers",
+      "image": {
+        "file": "File:Beijing Drum Tower and Beijing Bell Tower 20160822.jpg",
+        "alt": "Beijing's Drum Tower and Bell Tower rising above the surrounding hutong rooftops"
+      },
+      "text": "Two towers that told Beijing the time for seven centuries, the drum beaten and the bell struck in sequence each evening, with a steep climb rewarded by a rooftop view over the grey-tiled hutong rooftops below.",
+      "tip": "The drum performance runs several times a day — check the schedule and time your climb to catch it."
+    },
+    {
+      "title": "Watch tai chi and ballroom dancing at dawn",
+      "image": {
+        "file": "File:Morning routine (50571166888).jpg",
+        "alt": "A silhouetted figure practising tai chi on a plaza at sunrise"
+      },
+      "text": "Beijing's parks — the Temple of Heaven especially — fill before seven with tai chi, sword forms, ballroom dancing and choirs, the most unguarded hour the city offers and one that costs nothing to watch.",
+      "tip": "Bring a coffee and simply sit. Nobody minds being watched, and joining in is often welcomed."
+    },
+    {
+      "title": "Cycle the hutongs by rented bike",
+      "text": "Beijing is flat, increasingly cycle-friendly, and the hutong grid around the Drum Tower and Shichahai lakes is genuinely best explored on two wheels rather than on foot or by car.",
+      "tip": "Bike-share apps require a Chinese phone number or Alipay/WeChat linkage — set this up in advance."
+    },
+    {
+      "title": "Eat your way down a snack street",
+      "image": {
+        "file": "File:2016-12-17 Wangfujing Snack Street Beijing 08 anagoria.jpg",
+        "alt": "Wangfujing snack street hung with red lanterns and lined with food stalls"
+      },
+      "text": "Wangfujing's night market is the famous, more touristy option — scorpions and starfish on skewers for the adventurous — while Guijie ('Ghost Street') is where Beijingers actually go, especially for late-night crayfish and hotpot.",
+      "tip": "Guijie rewards going after 9pm, when it is loudest and most local."
+    },
+    {
+      "title": "See the Great Wall away from the crowds",
+      "image": {
+        "file": "File:Great Wall at Jinshanling.JPG",
+        "alt": "A quiet, less-restored stretch of the Great Wall at Jinshanling"
+      },
+      "text": "Jinshanling and Simatai, further from the city than Mutianyu or Badaling, are steeper, less restored and dramatically quieter — a genuinely different experience of the same wall.",
+      "tip": "Both need a full day including transport. Simatai's night-time opening is a rare and memorable option in summer."
+    }
+  ],
+  "foodIntro": "Beijing cooking mixes imperial court dishes with hearty northern staples — wheat rather than rice, and a lot of it built around duck.",
+  "foods": [
+    {
+      "name": "Peking duck",
+      "image": {
+        "file": "File:Peking duck with sugar scallion.jpg",
+        "alt": "Sliced Peking duck served with pancakes and scallion"
+      },
+      "text": "The city's signature dish: air-dried, lacquered with maltose syrup and roasted until the skin shatters, carved tableside and wrapped in thin pancakes with spring onion, cucumber and sweet bean sauce.",
+      "whereToTry": "Quanjude or Da Dong for the full ceremony; a neighbourhood duck house for a more affordable, still excellent version."
+    },
+    {
+      "name": "Zhajiangmian",
+      "image": {
+        "file": "File:Zhajiangmian after stirring at Fangzhuanchang (20210115131416).jpg",
+        "alt": "A bowl of zhajiangmian noodles stirred with fermented soybean sauce"
+      },
+      "text": "Hand-pulled wheat noodles tossed with a thick, salty fermented soybean and pork sauce, cucumber and radish on top — Beijing's everyday noodle dish, closer to a bowl of pasta than anything found further south.",
+      "whereToTry": "Old Beijing Zhajiangmian King or any neighbourhood noodle shop with a queue at lunch."
+    },
+    {
+      "name": "Jianbing",
+      "image": {
+        "file": "File:Jianbing.jpg",
+        "alt": "A folded jianbing savoury crepe with egg and crispy cracker inside"
+      },
+      "text": "A savoury crepe cooked on a griddle, folded around egg, crispy wonton cracker, coriander, chilli and sauce — the ubiquitous Beijing breakfast, sold from street carts and eaten walking to work.",
+      "whereToTry": "Any street cart with a queue in the morning, particularly near office districts and hutong entrances."
+    },
+    {
+      "name": "Instant-boiled mutton hotpot",
+      "image": {
+        "file": "File:Hand-cut lamb slices for hotpot.jpg",
+        "alt": "Paper-thin hand-cut lamb slices arranged for instant-boiled hotpot"
+      },
+      "text": "A clear, simple broth in a brass pot heated by charcoal, into which paper-thin mutton slices are dipped for seconds and eaten with sesame sauce — a Beijing winter tradition distinct from Sichuan's spicier version.",
+      "whereToTry": "Donglaishun, a Beijing institution serving this since the Qing dynasty."
+    },
+    {
+      "name": "Baodu and offal snacks",
+      "text": "Scalded tripe served with a sesame-and-fermented-tofu dipping sauce, alongside other Beijing snack-street staples like douzhir, a sour fermented mung bean drink that is genuinely an acquired taste.",
+      "whereToTry": "Guijie or the older snack stalls around Qianmen, for the adventurous."
+    },
+    {
+      "name": "Imperial court pastries",
+      "image": {
+        "file": "File:Pea flour cakes (20210215172834).jpg",
+        "alt": "Traditional Beijing pea-flour cakes, a pastry once served to the Qing court"
+      },
+      "text": "Small, elaborately shaped sweets and savoury bites developed for the Qing court — pea-flour cake, donkey rolls (no donkey involved) and sesame-crusted pastries, once served to emperors and now sold in old-city teahouses.",
+      "whereToTry": "Daoxiangcun, a historic Beijing pastry shop with branches across the old city."
+    }
+  ],
+  "accommodation": {
+    "intro": "Beijing is large enough that neighbourhood matters more than it might elsewhere. The choice is mainly between the historic core and its convenience, or the modern business districts and their value.",
+    "areas": [
+      {
+        "name": "Dongcheng (around the Forbidden City)",
+        "bestFor": "First visits",
+        "text": "Walking distance to the Forbidden City, Tiananmen and the best hutongs. More expensive, but you step out of the door into the historic city rather than commuting to it."
+      },
+      {
+        "name": "Nanluoguxiang and the Drum Tower area",
+        "bestFor": "Hutong atmosphere",
+        "text": "Courtyard-house hotels and boutique guesthouses inside the hutong grid itself — a genuinely different way to sleep in Beijing, with narrower, quieter lanes than the main tourist sights."
+      },
+      {
+        "name": "Sanlitun / Chaoyang",
+        "bestFor": "Nightlife and modern Beijing",
+        "text": "The international, embassy-adjacent district: bars, international restaurants and shopping, a metro ride from the historic core rather than inside it."
+      },
+      {
+        "name": "Around Beijing South or West Railway Station",
+        "bestFor": "Value and onward travel",
+        "text": "Cheaper modern hotels close to high-speed rail departures, useful if you are arriving late or leaving early for Xi'an or Shanghai."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥60–120 per night" },
+      { "label": "Mid-range hotel", "value": "¥450–900 per night" },
+      { "label": "Forbidden City ticket", "value": "¥60, booked online in advance" },
+      { "label": "Great Wall day trip (transport + entry)", "value": "¥150–400 depending on method and section" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Beijing has two major airports and is the northern anchor of China's high-speed rail network, making it the natural start or end of most first China trips.",
+    "options": [
+      {
+        "mode": "Beijing Capital Airport (PEK)",
+        "text": "The older, more central airport, about 25 km northeast. The Airport Express train reaches central subway lines in about 20 minutes.",
+        "detail": "Terminal 3 handles most international arrivals. Taxis are metered and reliable, though traffic can add significant time."
+      },
+      {
+        "mode": "Beijing Daxing Airport (PKX)",
+        "text": "The newer, larger airport 46 km south, opened in 2019, connected to the centre by a fast subway line reaching downtown in under 30 minutes.",
+        "detail": "Increasingly used by domestic and some international carriers — check which airport your flight actually uses."
+      },
+      {
+        "mode": "High-speed rail",
+        "text": "Beijing South and Beijing West stations connect to the whole network: [[xi-an|Xi'an]] 4h30, [[shanghai|Shanghai]] under 5h.",
+        "detail": "Book via Trip.com or 12306 a few weeks ahead in peak season, and carry your passport to purchase and board."
+      },
+      {
+        "mode": "By car",
+        "text": "Actively unhelpful. Traffic is heavy, parking is difficult and every sight in this guide is reachable by metro, taxi or organised transport.",
+        "detail": "If you are hiring a car and driver for the Great Wall, book through your hotel rather than arranging one on the street."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Beijing's metro is extensive, cheap and signed in English as well as Chinese, and is by far the easiest way to cover the city's real distances.",
+    "options": [
+      {
+        "mode": "Metro",
+        "text": "Over twenty lines covering the whole city, flat low fares by distance, and clear bilingual signage throughout — the backbone of getting around.",
+        "detail": "Buy a rechargeable transit card or pay by Alipay/WeChat QR code directly at the gates."
+      },
+      {
+        "mode": "Walking within districts",
+        "text": "The historic core — Forbidden City, Tiananmen, the hutongs, Jingshan Park — is compact and best explored on foot once you are inside it.",
+        "detail": "Distances look larger on the map than they feel; the core is walkable end to end in under an hour."
+      },
+      {
+        "mode": "Didi (ride-hailing)",
+        "text": "China's Uber equivalent, reliable once linked to a foreign card, and useful for the outer sights and late-night journeys.",
+        "detail": "Have your destination's name in Chinese characters ready — most drivers cannot read romanised pinyin."
+      },
+      {
+        "mode": "Organised transport to the Great Wall",
+        "text": "Direct buses, hotel-arranged cars or tour groups reach Mutianyu, Jinshanling and Badaling; there is no practical way to reach them by metro alone.",
+        "detail": "Book the cable car and toboggan combo at Mutianyu in advance in peak season."
+      },
+      {
+        "mode": "Pedicabs",
+        "text": "A touristy but genuinely useful way to see the hutongs around Houhai, with a driver who often knows the lanes and their history.",
+        "detail": "Agree the price and route before setting off — rates are not metered."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "April–May and September–October",
+    "summary": "Beijing has a continental climate — cold, dry winters and hot, sometimes hazy summers — which makes the two shoulder seasons clearly the best windows.",
+    "seasons": [
+      {
+        "season": "Spring (April–May)",
+        "rating": "best",
+        "text": "Mild, increasingly green after a grey winter, with the Great Wall and the Summer Palace at their most pleasant. The first week of May is a national holiday and notably busier."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "avoid",
+        "text": "Hot, humid and prone to haze, regularly above 32°C, with the Great Wall offering little shade. Thunderstorms are common but usually brief."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "The best season: clear skies, comfortable temperatures and striking colour at the Great Wall and the Summer Palace. The first week of October is Golden Week and extremely crowded."
+      },
+      {
+        "season": "Winter (November–March)",
+        "rating": "shoulder",
+        "text": "Cold and dry, regularly below freezing, but the Forbidden City under snow is genuinely striking and the crowds are the thinnest of the year outside Chinese New Year."
+      }
+    ],
+    "avoid": "The first week of May and the first week of October, both national holidays when the Forbidden City and the Great Wall are at their most crowded nationwide."
+  },
+  "itinerary": {
+    "title": "Four days in Beijing",
+    "intro": "One major sight and one neighbourhood a day, with the Great Wall given its own full day rather than squeezed into an afternoon.",
+    "days": [
+      {
+        "day": 1,
+        "title": "The imperial axis",
+        "summary": "Tiananmen Square into the Forbidden City, then up over it.",
+        "morning": "Tiananmen Square at opening, then straight into the Forbidden City.",
+        "afternoon": "The full palace complex, exiting north through the Gate of Divine Might.",
+        "evening": "Jingshan Park's hill for the sunset view back over the palace roofline, then dinner in a nearby hutong."
+      },
+      {
+        "day": 2,
+        "title": "The Great Wall",
+        "summary": "A full day out to Mutianyu.",
+        "morning": "Transfer to Mutianyu, cable car up to the wall at opening.",
+        "afternoon": "Walk as much of the restored section as your legs allow, then the toboggan back down.",
+        "evening": "Back to Beijing for a quiet dinner near your hotel."
+      },
+      {
+        "day": 3,
+        "title": "Temples and lakes",
+        "summary": "The Temple of Heaven at dawn, then Houhai by pedicab.",
+        "morning": "The Temple of Heaven park at opening, to see it as locals use it.",
+        "afternoon": "The Lama Temple, then a walk or pedicab tour through the Houhai hutongs.",
+        "evening": "Peking duck, booked ahead, near Qianmen or Sanlitun."
+      },
+      {
+        "day": 4,
+        "title": "The Summer Palace and beyond",
+        "summary": "A half-day at the Summer Palace, then a choice for the afternoon.",
+        "morning": "The Summer Palace, crossing Kunming Lake by boat.",
+        "afternoon": "The 798 Art District for contemporary China, or Wangfujing for shopping and snacks.",
+        "evening": "Guijie ('Ghost Street') for a loud, local, late dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Beijing-specific practicalities, most of which are about booking ahead, connectivity and the sheer scale of the city.",
+  "tips": [
+    "Book the Forbidden City online in advance — daily visitor numbers are capped and it regularly sells out, especially on weekends and holidays.",
+    "Set up your VPN and Alipay or WeChat Pay before you land. Beijing is otherwise straightforward, but both problems compound if left until arrival.",
+    "Give the Great Wall a full day, not an afternoon. Transport alone takes two to three hours each way to the better sections.",
+    "Carry your passport. Some subway security checks, all high-speed rail purchases and hotel check-ins require it.",
+    "Beijing's scale means cross-city journeys genuinely take time — do not schedule the Summer Palace and central hutongs on the same tight morning.",
+    "Air quality varies significantly by season and can be poor in winter. Check the forecast and consider a mask on bad-air days if you are sensitive.",
+    "Download Amap or Baidu Maps before you arrive — neither Google Maps nor Apple Maps has reliable data here, VPN or not.",
+    "Tourist scams cluster around Tiananmen and Wangfujing — overpriced 'tea ceremony' invitations and art-student exhibitions. Politely decline and walk on."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need in Beijing?",
+      "a": "Four to five. That gives a full day for the Forbidden City and Tiananmen, a full day for the Great Wall, a day for the Temple of Heaven, Lama Temple and hutongs, and a day for the Summer Palace plus something else. Three days is possible but rushed given the Great Wall alone needs most of one."
+    },
+    {
+      "q": "What do I need to book in advance in Beijing?",
+      "a": "The Forbidden City, which caps daily visitors and regularly sells out — book online days ahead. High-speed rail tickets onward to Xi'an or Shanghai in peak season. Peking duck at well-known restaurants like Da Dong on a weekend evening. The Great Wall itself does not need booking, but cable car and toboggan combos at Mutianyu are worth reserving in summer."
+    },
+    {
+      "q": "When is the best time to visit Beijing?",
+      "a": "April to May and September to October. Spring is mild and green after winter; autumn brings clear skies and the best light of the year, especially at the Great Wall. Avoid the first weeks of May and October, both national holidays and the most crowded weeks nationwide. Summer is hot and hazy; winter is cold but strikingly quiet at the Forbidden City."
+    },
+    {
+      "q": "Where should I stay in Beijing?",
+      "a": "Dongcheng, around the Forbidden City, for first visits and walking distance to the core sights. Nanluoguxiang or the Drum Tower area for a genuine hutong courtyard-house stay. Sanlitun for nightlife and modern Beijing. All are connected by an extensive metro if you end up elsewhere."
+    },
+    {
+      "q": "Is Beijing walkable?",
+      "a": "The historic core is, and rewards it — the Forbidden City, Tiananmen, Jingshan Park and the hutongs around Houhai are all within a couple of kilometres of each other. The wider city is genuinely vast, though, and the Summer Palace, 798 Art District and the Great Wall all need the metro, a taxi or organised transport."
+    },
+    {
+      "q": "Is Beijing safe?",
+      "a": "Very. Violent crime and street theft against visitors are both rare, and the city is safe to walk at night. The practical risks are traffic when crossing wide roads and a few well-known tourist scams around Tiananmen and Wangfujing involving overpriced 'tea ceremonies' — polite refusal ends them immediately."
+    },
+    {
+      "q": "What should I eat in Beijing?",
+      "a": "Peking duck above everything else, ideally booked ahead at a well-known duck house. Zhajiangmian noodles and jianbing crepes for everyday eating, instant-boiled mutton hotpot in winter, and a walk down Guijie at night for the full range of Beijing snack food."
+    }
+  ],
+  "related": ["xi-an", "shanghai", "hong-kong", "istanbul"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}

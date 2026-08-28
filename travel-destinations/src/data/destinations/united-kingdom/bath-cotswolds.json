@@ -1,0 +1,354 @@
+{
+  "slug": "bath-cotswolds",
+  "name": "Bath & the Cotswolds",
+  "country": "united-kingdom",
+  "region": "Somerset & Gloucestershire",
+  "categories": ["historic", "scenic-region", "unesco"],
+  "tagline": "A Roman spa town turned Georgian showpiece, an hour from a swathe of honey-coloured stone villages that look, deliberately, like they have not changed in three hundred years.",
+  "highlight": "The Roman Baths — a two-thousand-year-old bathing complex, its original lead-lined pool still filled by a natural hot spring.",
+  "shortDescription": "A UNESCO-listed Georgian city built around genuine Roman baths, with the golden-stone villages of the Cotswolds an easy day trip beyond it.",
+  "metaDescription": "A Bath and Cotswolds travel guide: the Roman Baths, the Royal Crescent and honey-stone villages like Bibury and Castle Combe, when to go and a three-day itinerary.",
+  "suggestedStay": "3 days",
+  "nearestAirport": "Bristol (BRS) or London Heathrow (LHR)",
+  "knownFor": "The Roman Baths, the Royal Crescent, Cotswolds villages",
+  "budget": "£110–190 per day, mid-range",
+  "goodFor": "History, architecture, countryside, easy day trips",
+  "coords": { "lat": 51.3811, "lng": -2.3590 },
+  "image": {
+    "file": "File:The Circus, Bath - geograph.org.uk - 5439209.jpg",
+    "alt": "Georgian townhouses curving around the Circus in Bath"
+  },
+  "intro": [
+    "Bath owes its existence to a natural hot spring, used by the Romans to build a genuine bathing and temple complex nearly two thousand years ago, remnants of which still stand remarkably intact beneath the modern city. The Romans named it Aquae Sulis after the local goddess Sulis, and the springs that made the site sacred to them are the same ones that, seventeen centuries later, turned Bath into Georgian England's most fashionable spa town.",
+    "That Georgian boom left the city with one of the most complete and celebrated collections of eighteenth-century architecture anywhere, all built from the same honey-coloured local limestone — the Royal Crescent's sweeping terrace, the Circus's perfect circle of townhouses, and streets that look, with good reason, like a single coherent architectural statement rather than an accumulation of individual buildings. The whole city is a UNESCO World Heritage Site.",
+    "That same honey-coloured limestone runs through the wider Cotswolds, a swathe of hills and villages an hour or so from Bath by car, where the same building material produces an entirely different effect: not Georgian grandeur but centuries of vernacular cottages, market towns and church spires, genuinely picturesque in a way that predates and outlasts any deliberate tourism effort."
+  ],
+  "whyVisit": {
+    "intro": "Bath and the Cotswolds' case is a genuinely rare pairing: a UNESCO-listed Roman-and-Georgian city, and an easy day trip into the England most people picture when they imagine the English countryside.",
+    "points": [
+      {
+        "title": "The Roman Baths are genuinely, remarkably intact",
+        "text": "Not a reconstruction or a partial ruin but a substantially preserved Roman bathing complex, still fed by the original natural hot spring."
+      },
+      {
+        "title": "The Georgian architecture is a coherent masterpiece",
+        "text": "The Royal Crescent and the Circus represent eighteenth-century urban planning at its most confident, unified by the same honey-coloured stone throughout."
+      },
+      {
+        "title": "The Cotswolds deliver on the picture-postcard promise",
+        "text": "Villages like Bibury and Castle Combe genuinely look the way English countryside villages appear in film and imagination, without needing to be dressed up for it."
+      },
+      {
+        "title": "It is an easy, low-logistics add-on to London",
+        "text": "Under two hours from London by train, making this one of the simplest, highest-reward day or overnight trips in the whole country."
+      },
+      {
+        "title": "The pace is genuinely gentler",
+        "text": "A useful, deliberate change of rhythm from London's intensity, rewarding slow walking over a checklist approach."
+      }
+    ]
+  },
+  "attractionsIntro": "Bath itself deserves a full day; the Cotswolds villages beyond it deserve at least one more with a car.",
+  "attractions": [
+    {
+      "name": "The Roman Baths",
+      "image": {
+        "file": "File:The Roman Baths.011 - Bath.jpg",
+        "alt": "The steaming Great Bath of the Roman Baths complex"
+      },
+      "text": "A remarkably intact Roman bathing and temple complex built around a natural hot spring, its original lead-lined Great Bath still filled with steaming, mineral-rich water two thousand years later.",
+      "tip": "Book a timed ticket online, and visit early or late in the day when the steam and lower light are at their most atmospheric."
+    },
+    {
+      "name": "The Royal Crescent",
+      "image": {
+        "file": "File:2023-09-15 Bath Royal Crescent 05.jpg",
+        "alt": "The sweeping Georgian terrace of the Royal Crescent"
+      },
+      "text": "Thirty terraced houses forming a perfect sweeping crescent, completed in 1774 and among the most celebrated examples of Georgian architecture anywhere in Britain.",
+      "tip": "Number 1 Royal Crescent is a museum recreating a Georgian townhouse's interior — worth the visit to see behind the famous facade."
+    },
+    {
+      "name": "The Circus",
+      "image": {
+        "file": "File:Bath - The Circus - geograph.org.uk - 5252303.jpg",
+        "alt": "The circular Georgian street known as the Circus"
+      },
+      "text": "A circular street of Georgian townhouses, its facade divided into three tiers of classical columns, designed as a deliberate architectural companion piece to the Royal Crescent nearby.",
+      "tip": "Look up at the frieze running around the ground floor — it is carved with hundreds of different decorative emblems, no two quite the same."
+    },
+    {
+      "name": "Bath Abbey",
+      "image": {
+        "file": "File:Bath Abbey Nave Fan Vaulting, Somerset, UK - Diliff.jpg",
+        "alt": "The fan-vaulted ceiling inside Bath Abbey"
+      },
+      "text": "A soaring Gothic abbey church on the site of a much older Anglo-Saxon monastery, its fan-vaulted ceiling among the finest in England, standing directly beside the Roman Baths.",
+      "tip": "The tower tour climbs above the vaulted ceiling for a genuinely different perspective and a view over the city's rooftops."
+    },
+    {
+      "name": "Bibury",
+      "image": {
+        "file": "File:Bibury 2015 04.jpg",
+        "alt": "The historic weavers' cottages of Arlington Row in Bibury"
+      },
+      "text": "A small Cotswolds village built around the River Coln, its Arlington Row cottages — originally a fourteenth-century monastic wool store, later weavers' cottages — among the most photographed scenes in England.",
+      "tip": "Arrive early morning to see Arlington Row without the crowds that build through the day, particularly in summer."
+    },
+    {
+      "name": "Castle Combe",
+      "image": {
+        "file": "File:Castle combe cotswolds.jpg",
+        "alt": "Stone cottages along the main street of Castle Combe"
+      },
+      "text": "Often cited as one of England's prettiest villages, a single main street of stone cottages around a market cross, largely untouched by modern development and a frequent film location.",
+      "tip": "There is no castle to see — the name refers to a long-vanished Norman motte. Come for the village itself, not a ruin."
+    }
+  ],
+  "thingsToDoIntro": "Bath rewards an unhurried day of Roman and Georgian history; the Cotswolds reward a slow drive between villages with no fixed itinerary.",
+  "thingsToDo": [
+    {
+      "title": "Take the waters at the Thermae Bath Spa",
+      "image": {
+        "file": "File:Thermae Spa from Bath Abbey Tower.jpg",
+        "alt": "The Thermae Bath Spa building seen from Bath Abbey's tower"
+      },
+      "text": "A modern spa using the same natural hot springs as the Romans, including a rooftop pool with views over the city — the only place in Britain where you can still bathe in naturally heated spring water.",
+      "tip": "Book the rooftop pool session in advance, and go at sunset for the best light over the city's rooftops."
+    },
+    {
+      "title": "Walk the Cotswold Way",
+      "image": {
+        "file": "File:Cotswold Way near Broadway Tower - geograph.org.uk - 3294528.jpg",
+        "alt": "The Cotswold Way footpath near Broadway Tower"
+      },
+      "text": "A long-distance footpath running through the heart of the Cotswolds, with countless shorter sections walkable as a day or half-day outing between villages.",
+      "tip": "The stretch around Broadway and its tower offers some of the route's best views without requiring the full multi-day walk."
+    },
+    {
+      "title": "Drive (or be driven) between Cotswolds villages",
+      "image": {
+        "file": "File:Bourton-on-the-Water - geograph.org.uk - 3046412.jpg",
+        "alt": "The River Windrush running through Bourton-on-the-Water"
+      },
+      "text": "Bourton-on-the-Water, Stow-on-the-Wold, Chipping Campden and Bibury each have a distinct character, best strung together on a loop drive with no fixed schedule.",
+      "tip": "A car is genuinely the best way to do this properly — public transport between the smaller villages is limited."
+    },
+    {
+      "title": "Visit a Cotswolds market town",
+      "image": {
+        "file": "File:Chipping Campden Market Hall - Sarah Stierch 04.jpg",
+        "alt": "The seventeenth-century Market Hall in Chipping Campden"
+      },
+      "text": "Stow-on-the-Wold and Chipping Campden both retain genuine market-town character, with independent shops, historic market halls and a slower pace than the more photographed villages.",
+      "tip": "Chipping Campden's Market Hall, built in 1627, is worth a specific stop for its architecture alone."
+    },
+    {
+      "title": "See Bath from above",
+      "text": "Alexandra Park and the surrounding hills give a sweeping view over Bath's Georgian rooftops and the Abbey, a genuinely different perspective from street level.",
+      "tip": "A short bus ride or a twenty-minute uphill walk from the centre — worth it for sunset."
+    },
+    {
+      "title": "Visit a National Trust Cotswolds property",
+      "text": "Properties like Chastleton House or Snowshill Manor offer a deeper look at Cotswolds estate life across several centuries, well beyond a village's main street.",
+      "tip": "Check opening days carefully — many smaller National Trust properties in the region are not open daily, especially outside summer."
+    }
+  ],
+  "foodIntro": "Bath and the Cotswolds sit in genuine English food country — game, cheese and a strong afternoon tea tradition alongside classic pub food.",
+  "foods": [
+    {
+      "name": "Bath buns and Sally Lunn buns",
+      "image": {
+        "file": "File:Sally lunns buns (1438593794).jpg",
+        "alt": "Sally Lunn buns, a Bath speciality bread"
+      },
+      "text": "Two distinct local specialities: the Bath bun, a sweet, sugar-topped enriched bun, and the Sally Lunn, a larger, plainer bread served split and toasted, both with genuine centuries-old local history.",
+      "whereToTry": "Sally Lunn's Historic Eating House, in one of the oldest buildings in Bath, for the bun that shares its name."
+    },
+    {
+      "name": "Afternoon tea",
+      "text": "Bath has a particularly strong afternoon tea tradition given its Georgian spa-town history — finger sandwiches, scones with jam and clotted cream, and pastries served over several courses.",
+      "whereToTry": "The Pump Room, adjoining the Roman Baths, for tea in a genuinely grand Georgian setting."
+    },
+    {
+      "name": "Cotswolds game and lamb",
+      "text": "The region's farming heritage shows up on menus as pheasant, venison and locally reared lamb, often featured on Cotswolds pub menus, especially through autumn and winter.",
+      "whereToTry": "Village gastropubs across the Cotswolds, particularly in game season from autumn."
+    },
+    {
+      "name": "West Country cheese",
+      "image": {
+        "file": "File:Double Gloucester cheese.jpg",
+        "alt": "A wheel of Double Gloucester cheese"
+      },
+      "text": "Somerset and Gloucestershire, either side of Bath, both have strong cheesemaking traditions — Cheddar from Somerset, and Gloucestershire's own Single and Double Gloucester.",
+      "whereToTry": "Farmers' markets and specialist cheesemongers across Bath and the Cotswolds market towns."
+    },
+    {
+      "name": "A proper Cotswolds pub lunch",
+      "text": "Stone-built village pubs, often centuries old, serving classic pub food — a ploughman's lunch, a pie, a Sunday roast — in genuinely characterful surroundings.",
+      "whereToTry": "Any village pub with a fire lit and a full car park — a reliable sign of local approval."
+    },
+    {
+      "name": "Bath's modern restaurant scene",
+      "text": "Beyond the historic teahouses, Bath has a genuinely strong contemporary dining scene, reflecting both its size as a city and its wealth as a visitor destination.",
+      "whereToTry": "The streets around Milsom Street and Queen Square hold the highest concentration of well-regarded options."
+    }
+  ],
+  "accommodation": {
+    "intro": "Bath's compact centre makes almost anywhere central workable; the Cotswolds are better explored from a village base if time allows an overnight there.",
+    "areas": [
+      {
+        "name": "Central Bath",
+        "bestFor": "First visits",
+        "text": "Walking distance to the Roman Baths, the Abbey and the Georgian streets, with easy rail access for a Cotswolds day trip or London connection."
+      },
+      {
+        "name": "A Cotswolds village",
+        "bestFor": "A slower second night",
+        "text": "Staying overnight in Bourton-on-the-Water, Stow-on-the-Wold or a smaller village lets you see the Cotswolds before and after the day-trip crowds."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "£25–45 per night" },
+      { "label": "Mid-range hotel (Bath)", "value": "£120–220 per night" },
+      { "label": "Roman Baths ticket", "value": "£28–32, cheaper booked online" },
+      { "label": "Car hire for a Cotswolds day", "value": "£40–70 per day" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Bath is under two hours from London by train, with the Cotswolds best reached onward by car.",
+    "options": [
+      {
+        "mode": "Rail from London",
+        "text": "Direct trains from [[london|London]] Paddington reach Bath Spa in about 1h30, among the easiest and most rewarding rail day trips from the capital.",
+        "detail": "Book advance tickets ahead for the cheapest fares via Trainline or National Rail."
+      },
+      {
+        "mode": "Bristol Airport (BRS)",
+        "text": "The nearest major airport, about 45 minutes from Bath by bus or taxi, with a range of European and domestic connections.",
+        "detail": "London's airports, especially Heathrow, offer far more long-haul options if flying internationally into the UK."
+      },
+      {
+        "mode": "Car hire for the Cotswolds",
+        "text": "The Cotswolds villages are poorly served by public transport between each other — a hire car, picked up in Bath or Bristol, is genuinely the best way to see more than one or two villages.",
+        "detail": "Small, narrow village lanes reward a smaller hire car over a large one."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Bath itself is compact and walkable; the Cotswolds genuinely need a car or an organised tour to see properly.",
+    "options": [
+      {
+        "mode": "Walking within Bath",
+        "text": "The Roman Baths, Abbey, Royal Crescent and Circus are all within a comfortable twenty-minute walk of each other.",
+        "detail": "Some streets are genuinely steep — comfortable shoes help more than a car within the city itself."
+      },
+      {
+        "mode": "Car hire for the Cotswolds",
+        "text": "The standard way to string together several villages in a day, with narrow country lanes connecting them.",
+        "detail": "Parking in the smaller villages can be limited in peak season — arrive early for popular spots like Bibury."
+      },
+      {
+        "mode": "Organised day tours",
+        "text": "Bus tours from Bath or London cover a curated selection of Cotswolds villages for visitors without a car, typically Bibury, Bourton-on-the-Water and one or two others.",
+        "detail": "Less flexible than driving yourself, but a straightforward option if you would rather not navigate rural roads."
+      },
+      {
+        "mode": "Local buses",
+        "text": "Limited services connect Bath to some larger Cotswolds towns, though frequency and coverage are considerably less than a car allows.",
+        "detail": "Useful for a single-town day trip, but not for stringing together multiple villages in one day."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "May–June and September",
+    "summary": "Bath and the Cotswolds are pleasant most of the year, but late spring and early autumn offer the best combination of mild weather and manageable crowds in the smaller villages.",
+    "seasons": [
+      {
+        "season": "Spring (April–June)",
+        "rating": "best",
+        "text": "Mild temperatures and the Cotswolds' gardens and countryside at their greenest, with crowds still below the summer peak."
+      },
+      {
+        "season": "Summer (July–August)",
+        "rating": "good",
+        "text": "The best odds of warm weather, but also the busiest period for the most photographed Cotswolds villages, particularly Bibury and Bourton-on-the-Water."
+      },
+      {
+        "season": "Autumn (September–October)",
+        "rating": "best",
+        "text": "Comfortable and often golden-lit given the honey-coloured stone, with noticeably thinner village crowds than summer."
+      },
+      {
+        "season": "Winter (November–February)",
+        "rating": "shoulder",
+        "text": "Quiet and atmospheric, particularly Bath's Christmas market, though some smaller Cotswolds attractions reduce their opening hours or close for the season."
+      }
+    ],
+    "avoid": "Weekend afternoons in July and August at the most famous single villages — Bibury above all — when coach tour numbers peak."
+  },
+  "itinerary": {
+    "title": "Three days in Bath and the Cotswolds",
+    "intro": "A full day for Bath's Roman and Georgian history, then two days exploring the Cotswolds by car.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Roman and Georgian Bath",
+        "summary": "The Baths, the Abbey and the Georgian crescents.",
+        "morning": "The Roman Baths at opening.",
+        "afternoon": "Bath Abbey and a walk to the Royal Crescent and the Circus.",
+        "evening": "Afternoon tea moved to evening, or dinner around Milsom Street."
+      },
+      {
+        "day": 2,
+        "title": "Into the Cotswolds",
+        "summary": "A loop of villages by car.",
+        "morning": "Hire a car and drive to Bibury for Arlington Row.",
+        "afternoon": "Bourton-on-the-Water and Stow-on-the-Wold.",
+        "evening": "Dinner and an overnight in a Cotswolds village."
+      },
+      {
+        "day": 3,
+        "title": "More villages, then back to Bath",
+        "summary": "Castle Combe and Chipping Campden, then return.",
+        "morning": "Chipping Campden's Market Hall and high street.",
+        "afternoon": "Castle Combe, then return the hire car in Bath.",
+        "evening": "A final dinner in Bath before onward travel."
+      }
+    ]
+  },
+  "tipsIntro": "Region-specific practicalities, mostly about the Cotswolds' lack of public transport and Bath's crowds.",
+  "tips": [
+    "Book the Roman Baths online in advance and visit early or late in the day for the best atmosphere and shortest queues.",
+    "Hire a car specifically for the Cotswolds days — public transport between the villages is genuinely limited, and a car transforms what is possible.",
+    "Bibury and Bourton-on-the-Water get genuinely crowded on summer weekends — visit early morning or consider a quieter alternative like Chipping Campden.",
+    "Book Thermae Bath Spa's rooftop pool session ahead, especially for a sunset slot, which is popular and limited in capacity.",
+    "Wear comfortable shoes for Bath's hills — several streets between the centre and viewpoints like Alexandra Park are genuinely steep.",
+    "Check specific Cotswolds National Trust property opening days before planning a visit — many are not open every day, especially outside summer."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need for Bath and the Cotswolds?",
+      "a": "Three. A full day for Bath's Roman and Georgian sights, and at least two more with a car to properly cover a handful of Cotswolds villages. Two days total works as a rushed version — one for Bath, one Cotswolds day trip — but a car-based overnight in the villages gives a noticeably better experience."
+    },
+    {
+      "q": "Do I need a car for the Cotswolds?",
+      "a": "Genuinely, yes, if you want to see more than one or two villages. Public transport between the smaller Cotswolds villages is limited, and a hire car — picked up in Bath or Bristol — is the standard, most flexible way to string together a day of village-hopping."
+    },
+    {
+      "q": "Is Bath worth visiting as a day trip from London?",
+      "a": "Yes — under two hours each way by direct train makes it one of the easiest, highest-reward day trips from London. An overnight lets you also fit in a Cotswolds day, which a single day trip from London genuinely cannot accommodate."
+    },
+    {
+      "q": "Which Cotswolds villages should I prioritise?",
+      "a": "Bibury for Arlington Row's famous cottages, Castle Combe for an almost impossibly picturesque single street, and either Bourton-on-the-Water or Stow-on-the-Wold for a proper market-town stop with more to do than just photograph the buildings."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "May to June and September. Both offer mild weather and, crucially, thinner crowds at the most photographed villages than the July–August peak, when Bibury and Bourton-on-the-Water in particular can feel genuinely overrun."
+    }
+  ],
+  "related": ["london", "oxford-cambridge", "cornwall", "provence-luberon"],
+  "relatedArticles": ["europe-by-train", "first-trip-to-europe"]
+}

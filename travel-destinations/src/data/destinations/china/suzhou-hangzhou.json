@@ -1,0 +1,342 @@
+{
+  "slug": "suzhou-hangzhou",
+  "name": "Suzhou & Hangzhou",
+  "country": "china",
+  "region": "Jiangsu & Zhejiang",
+  "categories": ["historic", "scenic-region", "culture-arts"],
+  "tagline": "'Above there is heaven, below there is Suzhou and Hangzhou' — a thousand-year-old saying about a canal city of classical gardens and a lake so celebrated it shaped Chinese poetry.",
+  "highlight": "The Humble Administrator's Garden in Suzhou — the largest and most celebrated classical garden in China, its pavilions, ponds and rockeries composed like a three-dimensional painting.",
+  "shortDescription": "Two canal-and-lake cities under ninety minutes from Shanghai, one built around the most celebrated classical gardens in China, the other around a lake that has shaped a thousand years of poetry.",
+  "metaDescription": "A Suzhou and Hangzhou travel guide: classical gardens, West Lake, canal towns and Longjing tea, when to go, how to get around and a two-day itinerary.",
+  "suggestedStay": "2–3 days",
+  "nearestAirport": "Shanghai Hongqiao (SHA) or Hangzhou Xiaoshan (HGH)",
+  "knownFor": "Classical gardens, West Lake, canal towns, Longjing green tea",
+  "budget": "¥450–850 per day, mid-range",
+  "goodFor": "Gardens, culture, easy day trips, first-time and repeat visitors",
+  "coords": { "lat": 31.2989, "lng": 120.5853 },
+  "image": {
+    "file": "File:Humble Administrator's Garden Suzhou November 2017 004.jpg",
+    "alt": "A pavilion and pond in Suzhou's Humble Administrator's Garden"
+  },
+  "intro": [
+    "An old Chinese saying holds that 'above there is heaven, below there is Suzhou and Hangzhou' — a thousand-year-old claim that these two cities, an hour or so apart in China's wealthy Jiangnan region, represent earthly life at its most refined. Suzhou earned its half of the saying through its canals and, above all, its classical gardens: private scholar and merchant retreats composed with the same principles as a landscape painting, using rockery, water and carefully framed views to suggest a whole world within a walled compound of a few acres.",
+    "Hangzhou's claim rests on West Lake, a body of water so thoroughly shaped by centuries of poetry, painting and landscape design that its causeways, pavilions and ten classical 'views' are less a natural feature than a collaborative work of art centuries in the making. The lake has drawn emperors, poets and pilgrims for over a thousand years, and it remains the city's undisputed centre of gravity.",
+    "Both cities sit within ninety minutes of Shanghai by high-speed rail, making them the easiest and most rewarding day trips — or, better, overnight stops — from China's showcase modern city, adding centuries of classical culture to a itinerary otherwise dominated by skyscrapers and imperial history further north."
+  ],
+  "whyVisit": {
+    "intro": "Suzhou and Hangzhou's case is that they deliver a thousand years of Chinese garden and landscape aesthetics within ninety minutes of Shanghai, with almost no logistical complexity.",
+    "points": [
+      {
+        "title": "Suzhou's gardens are the genuine article",
+        "text": "UNESCO-listed classical gardens designed by scholars and refined over centuries, the reference point for Chinese landscape design as a discipline."
+      },
+      {
+        "title": "West Lake shaped Chinese culture, not just Hangzhou",
+        "text": "Centuries of poetry, painting and landscape design have been built directly around this one lake, making it a genuine cultural touchstone rather than simply scenic water."
+      },
+      {
+        "title": "Both are effortlessly reachable from Shanghai",
+        "text": "Under ninety minutes each by high-speed rail, making this the easiest significant cultural add-on to a Shanghai-based itinerary in this entire guide."
+      },
+      {
+        "title": "The pace is genuinely gentler",
+        "text": "Gardens and lakeside walks reward slow wandering rather than sightseeing at speed, a useful counterpoint to a busier itinerary."
+      },
+      {
+        "title": "The food and tea culture are distinctive",
+        "text": "Hangzhou's Longjing tea and delicate Jiangnan cooking are genuinely different from the food further north or west in this guide."
+      }
+    ]
+  },
+  "attractionsIntro": "Suzhou's gardens and Hangzhou's lake are each worth a dedicated day; together they make a satisfying two- to three-day loop from Shanghai.",
+  "attractions": [
+    {
+      "name": "The Humble Administrator's Garden, Suzhou",
+      "image": {
+        "file": "File:Humble Administrator's Garden Suzhou November 2017 006.jpg",
+        "alt": "Pavilions and covered walkways in the Humble Administrator's Garden"
+      },
+      "text": "The largest classical garden in China, laid out around a series of interconnected ponds with pavilions, covered walkways and carefully framed views composed over five centuries since its founding in the Ming dynasty.",
+      "tip": "Arrive at opening — this is Suzhou's single most popular sight and becomes genuinely crowded by mid-morning."
+    },
+    {
+      "name": "The Lingering Garden, Suzhou",
+      "image": {
+        "file": "File:Lingering Garden, Suzhou, China (2015) - 07.jpg",
+        "alt": "Rockery and architecture inside the Lingering Garden"
+      },
+      "text": "A second UNESCO-listed classical garden, smaller than the Humble Administrator's but considered by many connoisseurs even more refined in its composition, particularly its dramatic rockery.",
+      "tip": "Less crowded than the Humble Administrator's Garden and arguably a better introduction to the principles of Chinese garden design."
+    },
+    {
+      "name": "Suzhou's canal old town",
+      "image": {
+        "file": "File:Canal dans le centre ancien de Suzhou (16999191119).jpg",
+        "alt": "A canal lined with old houses in Suzhou's historic centre"
+      },
+      "text": "Pingjiang Road and the surrounding canal lanes preserve Suzhou's historic waterway city, with stone bridges, whitewashed houses and boats still working the narrower channels.",
+      "tip": "Walk it in the early morning or evening — the middle of the day brings the heaviest tour-group traffic."
+    },
+    {
+      "name": "West Lake, Hangzhou",
+      "image": {
+        "file": "File:Hangzhou Pagoda on West Lake.jpg",
+        "alt": "A pagoda on the shore of West Lake, Hangzhou"
+      },
+      "text": "A lake shaped by over a thousand years of landscape design, its causeways, pagodas and ten classical 'views' — Autumn Moon over the Calm Lake, Breeze-ruffled Lotus at Winding Garden — a genuine collaborative work of art.",
+      "tip": "Walk or cycle the lakeside path rather than only viewing it from one point — the classical views are spread around the full shoreline."
+    },
+    {
+      "name": "Lingyin Temple, Hangzhou",
+      "image": {
+        "file": "File:Lingyin Temple, Hangzhou 20161003.jpg",
+        "alt": "The temple halls of Lingyin Temple in Hangzhou"
+      },
+      "text": "One of China's largest and wealthiest Buddhist temples, founded in 328 AD, its grounds including hundreds of Buddhist carvings cut directly into the limestone cliffs of the adjacent Feilai Feng.",
+      "tip": "The carvings at Feilai Feng, included in the same ticket, are as worthwhile as the temple halls themselves — do not skip them."
+    },
+    {
+      "name": "The Longjing tea village",
+      "image": {
+        "file": "File:Tea plantations in Longjing, Hangzhou.jpg",
+        "alt": "Terraced tea plantations in the Longjing tea village"
+      },
+      "text": "Hillside tea plantations on Hangzhou's outskirts producing Longjing (Dragon Well), China's most celebrated green tea, with informal tastings offered by growers along the village roads.",
+      "tip": "Visit in spring for the harvest season, when the terraced slopes are at their most photogenic and the freshest tea is available."
+    }
+  ],
+  "thingsToDoIntro": "Both cities reward slowing down — a garden or lakeside walk without a fixed schedule is often the best use of an afternoon.",
+  "thingsToDo": [
+    {
+      "title": "Walk (or cycle) the full West Lake loop",
+      "text": "A roughly 15 km path circles the lake, passing all ten classical views, causeways and pavilions — walkable in a long day or cycled in a few unhurried hours.",
+      "tip": "Bike-share is widely available around the lake; an electric bike makes the full loop considerably easier."
+    },
+    {
+      "title": "Take a boat on West Lake",
+      "text": "Traditional wooden boats cross the lake to Xiaoying Island and other small islets, offering the classic view back toward the shoreline pagodas that has appeared in Chinese painting for centuries.",
+      "tip": "Boats depart from several points around the lake; the crossing to Xiaoying Island is the most popular and atmospheric option."
+    },
+    {
+      "title": "Visit Suzhou's gardens at opening",
+      "image": {
+        "file": "File:Humble Administrator's Garden Suzhou November 2017 008.jpg",
+        "alt": "A quiet corner of a Suzhou classical garden in the early morning"
+      },
+      "text": "The classical gardens are genuinely transformed by an early visit — quiet enough to appreciate the carefully composed views as their designers intended, before tour groups fill the narrow pavilions.",
+      "tip": "The Humble Administrator's Garden and the Lingering Garden can both be done in one focused morning if you move directly between them."
+    },
+    {
+      "title": "Take a canal boat ride in Suzhou's old town",
+      "image": {
+        "file": "File:2015-09-24-154450 - Bootskanäle in Souzhou.jpg",
+        "alt": "A boat navigating one of Suzhou's historic canals"
+      },
+      "text": "Short boat trips along Suzhou's historic canals, particularly around Pingjiang Road, offer a waterline view of the old town's bridges and houses.",
+      "tip": "Evening rides, when the lanterns along the canal light up, are particularly atmospheric."
+    },
+    {
+      "title": "Taste Longjing tea at its source",
+      "text": "Growers around Hangzhou's Longjing village offer informal tastings, explaining the tea's grading and the pan-firing process that distinguishes it from other Chinese green teas.",
+      "tip": "Prices vary enormously by grade — ask clearly before committing to a purchase, and buy only if you are genuinely interested."
+    },
+    {
+      "title": "Watch Suzhou embroidery or silk production",
+      "text": "Suzhou has been a centre of fine silk embroidery for centuries, and several workshops and museums demonstrate the double-sided embroidery technique the city is particularly known for.",
+      "tip": "The Suzhou Silk Museum gives useful context before visiting a working embroidery workshop."
+    }
+  ],
+  "foodIntro": "Jiangnan cuisine, spanning both cities, favours delicate, slightly sweet flavours and fresh lake and river ingredients over the heat of Sichuan or Hunan.",
+  "foods": [
+    {
+      "name": "Beggar's chicken",
+      "image": {
+        "file": "File:Beggar's Chicken by Hangzhou's \"Mountain Beyond Mountain\" Restaurant.jpg",
+        "alt": "Beggar's chicken, its clay wrapping cracked open at the table"
+      },
+      "text": "A whole chicken stuffed with herbs, wrapped in lotus leaves and clay, then slow-baked until the clay is cracked open tableside — a Hangzhou specialty said to originate with a beggar who improvised the technique out of necessity.",
+      "whereToTry": "Traditional Hangzhou restaurants around West Lake, usually requiring advance order given the cooking time."
+    },
+    {
+      "name": "West Lake fish in vinegar sauce",
+      "text": "Freshwater fish from the lake itself, poached and served with a sweet-and-sour vinegar sauce, a signature Hangzhou dish that showcases the region's preference for delicate rather than heavy seasoning.",
+      "whereToTry": "Restaurants directly around West Lake, where the dish is a near-universal menu fixture."
+    },
+    {
+      "name": "Suzhou-style sweet and sour mandarin fish",
+      "image": {
+        "file": "File:Squirrel fish.jpg",
+        "alt": "Squirrel-shaped sweet and sour mandarin fish"
+      },
+      "text": "A whole fish scored, fried until the flesh curls like a squirrel's tail, then coated in a sweet-and-sour sauce — Suzhou's most famous dish and a genuine centrepiece order.",
+      "whereToTry": "Songhelou, one of Suzhou's oldest and most famous restaurants, credited with popularising the dish."
+    },
+    {
+      "name": "Longjing shrimp",
+      "text": "Freshwater river shrimp stir-fried with fresh Longjing tea leaves, a delicate, subtly fragrant Hangzhou dish that pairs the region's two most celebrated ingredients in one plate.",
+      "whereToTry": "Traditional Hangzhou restaurants, particularly in spring when the freshest tea leaves are available."
+    },
+    {
+      "name": "Suzhou mooncakes and pastries",
+      "text": "Suzhou-style mooncakes use a flaky, layered pastry quite different from the denser Cantonese style, alongside a wider tradition of delicate sweet and savoury pastries the city is known for.",
+      "whereToTry": "Traditional pastry shops along Guanqian Street and the old town's shopping lanes."
+    },
+    {
+      "name": "Dongpo pork",
+      "image": {
+        "file": "File:Dongpo pork (a Hangzhou dish).jpg",
+        "alt": "A braised square of Dongpo pork belly"
+      },
+      "text": "Pork belly braised slowly with soy sauce, sugar and Shaoxing wine until meltingly tender, named for the Song-dynasty poet Su Dongpo, who is said to have invented the dish while serving as a Hangzhou official.",
+      "whereToTry": "Traditional Hangzhou restaurants, where it remains one of the most-ordered dishes in the city."
+    }
+  ],
+  "accommodation": {
+    "intro": "Most visitors treat this as a short overnight loop from Shanghai — a night in each city, or a single well-chosen base with day trips to the other.",
+    "areas": [
+      {
+        "name": "Suzhou's old town, near Pingjiang Road",
+        "bestFor": "Canal atmosphere",
+        "text": "Walking distance to the classical gardens and the historic canal lanes, the obvious base for a Suzhou stay."
+      },
+      {
+        "name": "Hangzhou, near West Lake",
+        "bestFor": "Lake access",
+        "text": "Hotels directly around the lake put you within walking distance of the causeways and boat piers, though at a premium over more central options."
+      },
+      {
+        "name": "Hangzhou city centre",
+        "bestFor": "Value",
+        "text": "A short taxi or bus ride from West Lake with a wider range of hotel prices, still easily walkable to the lake for most central options."
+      }
+    ],
+    "budget": [
+      { "label": "Hostel dorm", "value": "¥50–90 per night" },
+      { "label": "Mid-range hotel", "value": "¥300–550 per night" },
+      { "label": "Suzuki garden entry (each)", "value": "¥55–90" },
+      { "label": "West Lake", "value": "Free — the lake itself has no entry fee" }
+    ]
+  },
+  "gettingThere": {
+    "intro": "Both cities sit on China's high-speed rail network within easy reach of Shanghai, making them straightforward without a flight.",
+    "options": [
+      {
+        "mode": "High-speed rail from Shanghai",
+        "text": "Shanghai to Suzhou takes under thirty minutes; Shanghai to Hangzhou under an hour; Suzhou to Hangzhou is also directly connected in around an hour.",
+        "detail": "Trains run frequently throughout the day — book via Trip.com or 12306, though same-day tickets are usually available outside peak periods."
+      },
+      {
+        "mode": "Hangzhou Xiaoshan Airport (HGH)",
+        "text": "Hangzhou's own airport, with domestic connections to most major Chinese cities and a growing number of international routes.",
+        "detail": "A useful alternative if flying directly into or out of Hangzhou rather than routing through Shanghai."
+      }
+    ]
+  },
+  "gettingAround": {
+    "intro": "Both cities are compact enough in their historic centres to explore mostly on foot, with the surrounding areas reachable by metro or taxi.",
+    "options": [
+      {
+        "mode": "Walking within old towns and gardens",
+        "text": "Suzhou's canal district and Hangzhou's West Lake shoreline are both best explored on foot at an unhurried pace.",
+        "detail": "Comfortable shoes matter more than speed here — both cities reward wandering."
+      },
+      {
+        "mode": "Bike-share around West Lake",
+        "text": "Widely available and the standard way to cover the lake's full circumference without a full day of walking.",
+        "detail": "Requires a linked Chinese payment app or Alipay/WeChat setup to unlock most bike-share systems."
+      },
+      {
+        "mode": "Metro",
+        "text": "Both Suzhou and Hangzhou have growing metro networks connecting the historic centres to outer districts and railway stations.",
+        "detail": "Useful for reaching Lingyin Temple or the Longjing tea village from central Hangzhou."
+      },
+      {
+        "mode": "Didi and local taxis",
+        "text": "Straightforward for reaching sights outside easy walking or metro range, including the Longjing tea village.",
+        "detail": "Have your destination in Chinese characters ready for the driver."
+      }
+    ]
+  },
+  "bestTime": {
+    "headline": "March–May and September–November",
+    "summary": "Both cities have a humid subtropical climate, and the shoulder seasons offer the most comfortable temperatures and, in spring, the tea harvest.",
+    "seasons": [
+      {
+        "season": "Spring (March–May)",
+        "rating": "best",
+        "text": "Mild and green, with the Longjing tea harvest in full swing and West Lake's lotus and other flowering plants beginning to bloom."
+      },
+      {
+        "season": "Summer (June–August)",
+        "rating": "avoid",
+        "text": "Hot, humid and often wet, with West Lake's lotus flowers at their peak in July offering some compensation for the discomfort."
+      },
+      {
+        "season": "Autumn (September–November)",
+        "rating": "best",
+        "text": "Comfortable and generally drier than spring, with the added draw of the sweet osmanthus trees blooming across Hangzhou in early autumn."
+      },
+      {
+        "season": "Winter (December–February)",
+        "rating": "shoulder",
+        "text": "Cold and often grey, but genuinely quiet, and occasional light snow on West Lake's causeways is considered one of its classical views in its own right."
+      }
+    ],
+    "avoid": "The first week of October, when both cities see a significant spike in domestic tourism given their proximity to Shanghai."
+  },
+  "itinerary": {
+    "title": "Two days in Suzhou and Hangzhou",
+    "intro": "One day in each city, both easily reached from Shanghai — a satisfying loop that adds classical gardens and a legendary lake to a Shanghai-based trip.",
+    "days": [
+      {
+        "day": 1,
+        "title": "Suzhou's gardens and canals",
+        "summary": "A day trip or overnight from Shanghai.",
+        "morning": "The Humble Administrator's Garden at opening, then the Lingering Garden.",
+        "afternoon": "Pingjiang Road and the old canal district, on foot or by boat.",
+        "evening": "Sweet-and-sour mandarin fish at Songhelou, or an evening canal ride."
+      },
+      {
+        "day": 2,
+        "title": "Hangzhou's West Lake",
+        "summary": "The lake, a temple, and a taste of tea country.",
+        "morning": "Lingyin Temple and the Feilai Feng carvings.",
+        "afternoon": "Cycle or walk a section of the West Lake loop, or take a boat to Xiaoying Island.",
+        "evening": "Beggar's chicken or Dongpo pork for a final Hangzhou dinner."
+      }
+    ]
+  },
+  "tipsIntro": "Region-specific practicalities, mostly about timing the gardens and the lake correctly.",
+  "tips": [
+    "Visit Suzhou's classical gardens right at opening — they are genuinely transformed by having the pavilions and views to yourself before tour groups arrive.",
+    "West Lake itself is free to visit — only specific attractions around it, like boat rides or Lingyin Temple, charge admission.",
+    "Book beggar's chicken or other slow-cooked specialities ahead where possible — some genuinely require advance notice given the cooking time.",
+    "Visit the Longjing tea village in spring for harvest season if tea is a specific interest — the terraced slopes and freshest leaves are both at their best.",
+    "Both cities are easy day trips from Shanghai, but an overnight in at least one lets you see the gardens or the lake in the quieter early morning and evening light.",
+    "High-speed trains between Shanghai, Suzhou and Hangzhou run frequently, but book a day ahead in peak season or around Golden Week to avoid sold-out popular departure times."
+  ],
+  "faq": [
+    {
+      "q": "How many days do you need for Suzhou and Hangzhou?",
+      "a": "Two to three. One full day for Suzhou's gardens and canal district, one for Hangzhou's West Lake and Lingyin Temple, with a third day useful if you want to add the Longjing tea village or a second Suzhou garden without rushing."
+    },
+    {
+      "q": "Can I visit both as day trips from Shanghai?",
+      "a": "Yes, each independently — Suzhou is under thirty minutes by high-speed rail and Hangzhou under an hour, both very manageable as single-day trips. Combining both in one day is possible but rushed; an overnight in one city makes for a more comfortable trip."
+    },
+    {
+      "q": "Which is better, Suzhou or Hangzhou?",
+      "a": "They offer genuinely different experiences — Suzhou for classical garden design and canal-town atmosphere, Hangzhou for the lake and its surrounding temples and tea culture. Most visitors with the time visit both rather than choosing, since they pair naturally as a single loop."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "March to May and September to November. Spring brings the Longjing tea harvest and early blooms; autumn is comfortable and adds Hangzhou's blooming osmanthus trees. Summer is hot and humid, though West Lake's lotus flowers peak in July."
+    },
+    {
+      "q": "Is West Lake worth a full day?",
+      "a": "Yes, if you walk or cycle its full circumference and stop at Lingyin Temple — the lake's classical views are spread around the entire shoreline, not concentrated in one spot, so a rushed hour or two only shows a fraction of what makes it significant."
+    }
+  ],
+  "related": ["shanghai", "huangshan-anhui-villages", "beijing"],
+  "relatedArticles": ["packing-by-season", "unesco-worth-planning-around"]
+}
