@@ -1,10 +1,11 @@
 'use strict';
 const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
+const { recipeCount } = require('../data/stats');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
   name: 'CulinaryVault',
-  tagline: 'The world\'s 200 most famous recipes, tested and explained',
+  tagline: `The world's ${recipeCount} most famous recipes, tested and explained`,
   origin: (process.env.SITE_URL || 'https://culinaryvault.netlify.app').replace(/\/$/, ''),
   base: process.env.BASE_PATH || '/',
   locale: 'en_GB',
@@ -65,7 +66,7 @@ function header(active, categories) {
       <div class="search-shell header-search">
         ${ICONS.search}
         <label class="sr-only" for="header-search">Search recipes</label>
-        <input type="search" id="header-search" placeholder="Search 200 recipes…" autocomplete="off"
+        <input type="search" id="header-search" placeholder="Search ${recipeCount} recipes…" autocomplete="off"
                role="combobox" aria-expanded="false" aria-controls="header-ac" aria-autocomplete="list" data-search>
         <div class="autocomplete" id="header-ac" role="listbox" aria-label="Search suggestions" hidden></div>
       </div>
@@ -128,7 +129,7 @@ function layout(page) {
   const url = SITE.origin + SITE.base + (page.path || '');
   const image = page.image || `${SITE.origin}${SITE.base}assets/img/og-default.jpg`;
   /* Keep titles under ~65 characters so Google does not truncate them. */
-  const title = page.path ? `${page.title} | ${SITE.name}` : `${SITE.name} — 200 Famous Recipes, Tested`;
+  const title = page.path ? `${page.title} | ${SITE.name}` : `${SITE.name} — ${recipeCount} Famous Recipes, Tested`;
 
   const schemaBlocks = (page.schema || [])
     .map(s => `<script type="application/ld+json">${jsonLd(s)}</script>`).join('\n');

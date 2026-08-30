@@ -1,7 +1,7 @@
 {
-  "name": "CulinaryVault — 200 World Recipes",
+  "name": "CulinaryVault — 400 World Recipes",
   "short_name": "CulinaryVault",
-  "description": "The world's 200 most famous recipes, tested and explained",
+  "description": "The world's 400 most famous recipes, tested and explained",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

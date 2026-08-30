@@ -21,6 +21,7 @@ const path = require('path');
 const { esc, clamp, slugify, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
 const { SITE, slug } = require('./templates/layout');
+const { recipeCount } = require('./data/stats');
 const pages = require('./templates/pages');
 const recipePage = require('./templates/recipe-page');
 
@@ -125,11 +126,24 @@ function validateImage(entry, slug) {
 }
 
 function loadRecipes() {
-  const catalog = require('./data/catalog');
-  const detailsDir = path.join(SRC, 'data', 'details');
+  /* The catalogue is split across two volumes, each with its own details
+     directory. They are merged here so the rest of the build only ever sees
+     one flat list of recipes. */
+  const catalog = [...require('./data/catalog'), ...require('./data/catalog-2')];
   const details = {};
-  for (const file of fs.readdirSync(detailsDir).filter(f => f.endsWith('.js'))) {
-    Object.assign(details, require(path.join(detailsDir, file)));
+  for (const dir of ['details', 'details2']) {
+    const detailsDir = path.join(SRC, 'data', dir);
+    for (const file of fs.readdirSync(detailsDir).filter(f => f.endsWith('.js'))) {
+      Object.assign(details, require(path.join(detailsDir, file)));
+    }
+  }
+
+  /* A slug appearing in both volumes would silently overwrite one recipe's
+     details with the other's, so it fails the build instead. */
+  const seen = new Set();
+  for (const row of catalog) {
+    if (seen.has(row.slug)) throw new Error(`Duplicate recipe slug "${row.slug}" across catalogues`);
+    seen.add(row.slug);
   }
   const images = JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'images.json'), 'utf8'));
 
@@ -355,7 +369,7 @@ Sitemap: ${SITE.origin}${SITE.base}sitemap.xml
 
 function manifest() {
   return JSON.stringify({
-    name: 'CulinaryVault — 200 World Recipes',
+    name: `CulinaryVault — ${recipeCount} World Recipes`,
     short_name: 'CulinaryVault',
     description: SITE.tagline,
     start_url: SITE.base,
@@ -423,10 +437,10 @@ function build() {
   writePage('recipes/index.html', pages.directory(ctx, {
     mode: 'all',
     title: 'All Recipes',
-    heading: 'All 200 recipes',
+    heading: `All ${recipes.length} recipes`,
     eyebrow: 'The full directory',
     intro: 'Every recipe in the Vault, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
-    description: 'Browse all 200 tested recipes on CulinaryVault. Filter by cuisine, category, dietary needs, difficulty and cooking time.',
+    description: `Browse all ${recipes.length} tested recipes on CulinaryVault. Filter by cuisine, category, dietary needs, difficulty and cooking time.`,
     keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter'],
     path: 'recipes/',
     trail: [{ name: 'Recipes' }],
@@ -439,7 +453,7 @@ function build() {
     heading: 'Search the Vault',
     eyebrow: 'Find a recipe',
     intro: 'Search by dish, ingredient, cuisine or technique. Results update as you type and can be narrowed with the filters.',
-    description: 'Search 200 tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet.',
+    description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet.`,
     keywords: ['recipe search', 'find recipes by ingredient', 'search recipes'],
     path: 'search/',
     active: 'search',

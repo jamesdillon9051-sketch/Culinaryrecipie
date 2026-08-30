@@ -155,7 +155,9 @@ for (const url of sitemapUrls) {
 if (sitemapUrls.length !== new Set(sitemapUrls).size) problems.push('sitemap contains duplicate URLs');
 
 const index = JSON.parse(fs.readFileSync(path.join(DIST, 'search-index.json'), 'utf8'));
-if (index.length !== 200) problems.push(`search index has ${index.length} entries, expected 200`);
+const expectedRecipes = require('../src/data/stats').recipeCount;
+if (index.length !== expectedRecipes)
+  problems.push(`search index has ${index.length} entries, expected ${expectedRecipes}`);
 for (const entry of index) {
   if (entry.i && !existing.has(`/assets/img/recipes/${entry.i}.jpg`)) {
     problems.push(`search index references a missing image: ${entry.i}`);

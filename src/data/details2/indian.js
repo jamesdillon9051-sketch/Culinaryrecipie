@@ -1,0 +1,653 @@
+/** Indian recipe details, volume two. See ./italian.js for the field schema. */
+
+module.exports = {
+  'paneer-tikka': {
+    d: 'Cubes of paneer marinated in spiced yoghurt, threaded with peppers and onion, and charred hard under a grill until the edges blacken. India\'s most popular vegetarian starter, and the base for a dozen curries.',
+    meta: 'Paneer tikka — paneer marinated in spiced yoghurt and charred with peppers and onion. The classic Indian vegetarian starter.',
+    kw: ['paneer tikka recipe', 'indian vegetarian starter', 'tandoori paneer', 'grilled paneer skewers'],
+    why: 'Hung yoghurt is essential: ordinary yoghurt is too wet, slides off the paneer and steams it rather than charring it. Gram flour toasted into the marinade absorbs residual moisture and helps the coating grip, which is how restaurants get that dry, blistered crust without a tandoor.',
+    ing: [
+      '# For the marinade',
+      '400 g paneer, cut into 3 cm cubes',
+      '250 g thick Greek yoghurt, hung for 1 hour',
+      '2 tbsp gram flour (besan)',
+      '2 tbsp mustard oil or neutral oil',
+      '1½ tbsp ginger-garlic paste',
+      '2 tsp Kashmiri chilli powder',
+      '1 tsp ground cumin',
+      '1 tsp garam masala',
+      '1 tsp ground coriander',
+      '½ tsp ground turmeric',
+      '1 tsp kasuri methi, crushed',
+      '1½ tsp fine sea salt',
+      '1 tbsp lemon juice',
+      '# For the skewers',
+      '1 red pepper, cut into squares',
+      '1 green pepper, cut into squares',
+      '1 red onion, cut into petals',
+      '2 tbsp melted butter, for basting',
+      '# To serve',
+      'Chaat masala, lemon wedges, mint chutney'
+    ],
+    st: [
+      'Toast the gram flour in a dry pan over low heat for 2 minutes until it smells nutty and loses its raw edge. Cool.',
+      'Whisk the hung yoghurt with the toasted gram flour, oil, ginger-garlic paste, all the ground spices, kasuri methi, salt and lemon juice. It should be thick enough to hold a ridge.',
+      'Fold in the paneer, peppers and onion, coating everything, and marinate at least 1 hour, or up to 6 in the fridge.',
+      'Thread onto skewers, alternating paneer with vegetables and leaving a small gap between pieces so the heat can circulate.',
+      'Heat the grill to its highest setting and set the skewers on a rack over a foil-lined tray.',
+      'Grill 6 to 7 minutes until the tops are blistered and blackened in patches, then turn, baste with butter, and grill 5 minutes more.',
+      'Rest 2 minutes, dust with chaat masala, squeeze lemon over, and serve with mint chutney.'
+    ],
+    tips: [
+      'Soak wooden skewers for 30 minutes or use metal ones, which also conduct heat into the paneer from inside.',
+      'Do not marinate paneer overnight. The acid firms it into something squeaky and dense.',
+      'For a smoky note, put a lit piece of charcoal in a small steel bowl in the centre of the finished dish, pour a teaspoon of ghee over it, and cover for 2 minutes.'
+    ],
+    pair: ['Mint and coriander chutney', 'Sliced onion with lemon and chaat masala', 'A cold beer or a salted lassi'],
+    store: 'Refrigerate up to 3 days. Reheat under a hot grill for 4 minutes; the microwave turns paneer rubbery.',
+    nut: [412, 24, 18, 28, 3, 8, 980]
+  },
+
+  'chicken-korma': {
+    d: 'The mildest of the great Mughlai curries and the most technically demanding: chicken in a pale, fragrant sauce built on cashews, cream and fried onions, with no chilli heat and nowhere for a heavy hand to hide.',
+    meta: 'Authentic chicken korma — a mild Mughlai curry with cashew, cream and fried onion in a pale, fragrant sauce.',
+    kw: ['chicken korma recipe', 'mughlai korma', 'creamy indian curry', 'mild chicken curry'],
+    why: 'Birista — onions fried slowly to deep gold and then blitzed — is the backbone of the sauce, providing sweetness and body without the raw allium sharpness of onions simply softened in oil. The cashew paste emulsifies the fat and thickens the sauce, which is why korma needs no tomato and stays pale.',
+    ing: [
+      '# For the base',
+      '3 large onions, thinly sliced',
+      '150 ml ghee or neutral oil',
+      '80 g cashew nuts, soaked in hot water 20 minutes',
+      '2 tbsp desiccated coconut, optional',
+      '# For the curry',
+      '900 g boneless chicken thighs, cut into large pieces',
+      '200 g thick yoghurt, whisked smooth',
+      '2 tbsp ginger-garlic paste',
+      '4 green cardamom pods, bruised',
+      '1 black cardamom pod',
+      '1 cinnamon stick',
+      '4 cloves',
+      '2 bay leaves',
+      '1 tsp ground coriander',
+      '1 tsp ground cumin',
+      '½ tsp ground white pepper',
+      '1 tsp garam masala',
+      '100 ml double cream',
+      '1½ tsp fine sea salt',
+      'A pinch of saffron soaked in 2 tbsp warm milk',
+      '1 tsp rose water, optional'
+    ],
+    st: [
+      'Fry the onions in the ghee over medium-low heat for 20 to 25 minutes, stirring often, until evenly deep gold. Do not rush this or let them blacken.',
+      'Lift two-thirds of the onions out with a slotted spoon and blend with the drained cashews, coconut and 100 ml water to a completely smooth paste.',
+      'Reheat the pan with its remaining ghee and onions. Add the whole spices and bay and fry 45 seconds until fragrant.',
+      'Add the ginger-garlic paste and cook 2 minutes until the raw smell goes.',
+      'Add the chicken and turn it in the spices for 5 minutes without browning it deeply — korma should stay pale.',
+      'Take the pan off the heat, whisk the yoghurt smooth, and stir it in a spoonful at a time to stop it splitting. Return to low heat.',
+      'Add the ground coriander, cumin, white pepper and salt, cover, and simmer very gently for 20 minutes.',
+      'Stir in the cashew-onion paste and 150 ml water and simmer, uncovered, for 12 minutes until the sauce is thick and the oil begins to separate at the edges.',
+      'Finish with the cream, garam masala, saffron milk and rose water. Warm through for 2 minutes without boiling and rest 10 minutes before serving.'
+    ],
+    tips: [
+      'Whisk the yoghurt and add it off the heat. This is the step that separates a smooth korma from a grainy one.',
+      'Rose water is powerful. A teaspoon is a fragrance; a tablespoon is soap.',
+      'Korma should taste of onion, cashew and warm spice, not chilli. Resist the urge to add heat.'
+    ],
+    pair: ['Basmati pilau or naan', 'A cucumber raita', 'A lightly off-dry Riesling or a mango lassi'],
+    store: 'Refrigerate up to 3 days; the flavour deepens overnight. Reheat gently without boiling. Freezing can split the cream.',
+    nut: [688, 44, 22, 48, 3, 9, 1120]
+  },
+
+  'malai-kofta': {
+    d: 'Paneer and potato dumplings, deep fried until golden, resting in a rich cashew and tomato gravy. The centrepiece of Indian vegetarian restaurant menus, and the dish most often ordered for a celebration.',
+    meta: 'Malai kofta — fried paneer and potato dumplings in a rich cashew, cream and tomato gravy.',
+    kw: ['malai kofta recipe', 'paneer kofta curry', 'indian vegetarian curry', 'restaurant style malai kofta'],
+    why: 'Cornflour rather than gram flour binds the koftas, because it sets into a crisp shell that keeps the dumpling from dissolving in the hot oil. The koftas go into the gravy at the table, not in the pan — sitting in sauce for even ten minutes turns them from firm to sodden.',
+    ing: [
+      '# For the koftas',
+      '250 g paneer, finely grated',
+      '2 large potatoes, boiled, cooled and grated',
+      '3 tbsp cornflour',
+      '2 tbsp chopped cashews',
+      '1 tbsp raisins, chopped',
+      '1 green chilli, finely chopped',
+      '1 tsp garam masala',
+      '1 tsp fine sea salt',
+      '2 tbsp chopped coriander',
+      '1 litre neutral oil, for frying',
+      '# For the gravy',
+      '2 onions, roughly chopped',
+      '4 tomatoes, roughly chopped',
+      '80 g cashew nuts, soaked',
+      '2 tbsp ghee',
+      '1 tbsp ginger-garlic paste',
+      '1 tsp Kashmiri chilli powder',
+      '1 tsp ground coriander',
+      '½ tsp ground turmeric',
+      '1 tsp garam masala',
+      '1 tsp kasuri methi',
+      '120 ml double cream',
+      '1 tsp caster sugar',
+      '1½ tsp fine sea salt'
+    ],
+    st: [
+      'Squeeze the grated potato in a cloth to remove as much water as possible — wet potato makes koftas that burst.',
+      'Combine the paneer, potato, cornflour, cashews, raisins, chilli, garam masala, salt and coriander and knead for 2 minutes to a smooth, pliable mixture.',
+      'Roll into 12 balls, pressing each firmly so there are no cracks. Chill 20 minutes.',
+      'Heat the oil to 170°C / 340°F and fry the koftas in batches of four for 4 minutes, turning gently, until deep gold. Drain on a rack and set aside.',
+      'For the gravy, boil the onions, tomatoes and drained cashews in 300 ml water for 12 minutes, then blend to a completely smooth purée and pass through a sieve.',
+      'Heat the ghee, add the ginger-garlic paste and fry 2 minutes, then the chilli powder, ground coriander and turmeric for 30 seconds.',
+      'Pour in the purée — carefully, it will spit — and simmer 15 minutes, stirring often, until it darkens and the ghee separates at the edges.',
+      'Stir in the cream, sugar, salt, garam masala and crushed kasuri methi and simmer 3 minutes more.',
+      'Pour the hot gravy into a serving dish, set the koftas on top just before serving, and garnish with cream and coriander.'
+    ],
+    tips: [
+      'Test one kofta first. If it breaks up in the oil, work another tablespoon of cornflour into the mixture.',
+      'Sieving the gravy is what gives the restaurant-smooth texture. It takes two minutes and is worth it.',
+      'Keep the koftas out of the sauce until the moment you serve, or they will collapse.'
+    ],
+    pair: ['Naan or laccha paratha', 'Jeera rice', 'A sweet lassi'],
+    store: 'Store koftas and gravy separately for up to 3 days. Re-crisp the koftas at 200°C / 390°F for 6 minutes and reheat the gravy gently.',
+    nut: [624, 20, 44, 43, 4, 12, 1280]
+  },
+
+  'baingan-bharta': {
+    d: 'Whole aubergines charred over an open flame until the skin blisters and the flesh collapses, then mashed into a smoky masala of onion, tomato and green chilli. Punjabi cooking at its most direct.',
+    meta: 'Baingan bharta — fire-roasted aubergine mashed into a smoky masala with onion, tomato and green chilli.',
+    kw: ['baingan bharta recipe', 'indian smoked aubergine', 'punjabi eggplant curry', 'roasted eggplant masala'],
+    why: 'Roasting over a naked flame is not optional here — it is the only way to get enough smoke into the flesh, and an oven-baked aubergine gives you a perfectly nice dish that is simply not bharta. Mashing rather than blending keeps enough texture that the dish still eats like a vegetable.',
+    ing: [
+      '2 large aubergines, about 800 g total',
+      '3 tbsp mustard oil or ghee',
+      '2 onions, finely chopped',
+      '3 tomatoes, finely chopped',
+      '1 tbsp ginger-garlic paste',
+      '3 green chillies, slit',
+      '1 tsp ground cumin',
+      '1 tsp ground coriander',
+      '½ tsp ground turmeric',
+      '1 tsp Kashmiri chilli powder',
+      '1 tsp garam masala',
+      '1½ tsp fine sea salt',
+      '1 tsp cumin seeds',
+      'A large handful coriander, chopped',
+      '1 tbsp lemon juice'
+    ],
+    st: [
+      'Rub the aubergines with a little oil and pierce them in four places. Set them directly on a gas flame on medium and turn every 3 minutes.',
+      'Roast for 12 to 15 minutes until the skin is blackened and papery all over and the aubergines have collapsed completely. Under a very hot grill this takes about 25 minutes.',
+      'Rest them in a covered bowl for 10 minutes — the trapped steam loosens the skin.',
+      'Peel away all the charred skin, discard the stems, and mash the flesh roughly with a fork. Do not blend it.',
+      'Heat the mustard oil until it just smokes, then lower the heat and add the cumin seeds. When they crackle, add the onions.',
+      'Fry the onions for 10 minutes until deep gold, then add the ginger-garlic paste and green chillies for 2 minutes.',
+      'Add the tomatoes and all the ground spices and cook 8 to 10 minutes, mashing, until the tomatoes break down and the oil separates.',
+      'Fold in the aubergine and salt and cook 8 minutes more, stirring, until thick and glossy.',
+      'Finish with garam masala, lemon juice and coriander and serve hot with roti.'
+    ],
+    tips: [
+      'Choose light aubergines for their size — they have fewer seeds and a creamier flesh.',
+      'Line the burner with foil before you start. Charring aubergines makes a spectacular mess.',
+      'If you only have an electric hob, char them under the grill and add a smidge of smoked paprika, or use the charcoal-in-a-bowl dhungar method.'
+    ],
+    pair: ['Hot roti or paratha', 'Plain yoghurt and sliced onion', 'Dal and rice for a full thali'],
+    store: 'Refrigerate up to 4 days — genuinely better on day two. Freezes 2 months. Reheat in a pan with a splash of water.',
+    nut: [248, 5, 22, 16, 8, 12, 880]
+  },
+
+  'rajma': {
+    d: 'Kidney beans simmered in a thick onion-tomato masala until the gravy is dark and the beans give under a spoon. Served with rice, it is the Sunday lunch of Punjabi and Delhi households, and the definition of comfort food.',
+    meta: 'Rajma masala — Punjabi red kidney beans simmered in a thick onion-tomato gravy. Best served with steamed rice.',
+    kw: ['rajma recipe', 'kidney bean curry', 'rajma chawal', 'punjabi bean curry'],
+    why: 'Some of the beans are mashed against the side of the pot and stirred back in, which thickens the gravy with bean starch rather than flour and gives rajma its characteristic body. Cooking the masala until the oil visibly separates is the traditional doneness test and marks the point where the raw tomato flavour has fully cooked out.',
+    ing: [
+      '250 g dried red kidney beans, soaked overnight',
+      '3 tbsp ghee or neutral oil',
+      '2 onions, very finely chopped',
+      '4 tomatoes, puréed',
+      '1½ tbsp ginger-garlic paste',
+      '2 green chillies, slit',
+      '1 tsp cumin seeds',
+      '1 bay leaf',
+      '1 black cardamom pod',
+      '1 tsp Kashmiri chilli powder',
+      '1 tsp ground coriander',
+      '1 tsp ground cumin',
+      '½ tsp ground turmeric',
+      '1 tsp garam masala',
+      '1 tsp amchur (dried mango powder)',
+      '2 tsp fine sea salt',
+      'A handful coriander, chopped',
+      '2 tbsp cream, optional'
+    ],
+    st: [
+      'Drain the soaked beans and boil them in fresh water with a teaspoon of salt for 45 to 60 minutes, or pressure cook for 20 minutes, until they crush easily between finger and thumb. Reserve the cooking liquid.',
+      'Heat the ghee, add the cumin seeds, bay and black cardamom, and fry 30 seconds until they crackle.',
+      'Add the onions and fry 12 minutes over medium heat until deep golden brown — this is where the colour of the finished dish comes from.',
+      'Add the ginger-garlic paste and green chillies and cook 2 minutes.',
+      'Add the chilli powder, coriander, cumin and turmeric, stir for 20 seconds, then pour in the tomato purée.',
+      'Cook 12 to 15 minutes, stirring regularly, until the masala darkens, thickens and the ghee pools at the edges.',
+      'Add the beans with 500 ml of their cooking liquid and the salt. Simmer, partly covered, for 25 minutes.',
+      'Mash about a quarter of the beans against the side of the pot and stir them back in to thicken the gravy.',
+      'Finish with garam masala, amchur and coriander, swirl in the cream if using, and serve over rice.'
+    ],
+    tips: [
+      'Never skip the soak, and never use the soaking water. Both matter for digestibility and flavour.',
+      'Tinned beans work in a hurry: use 2 x 400 g tins, rinsed, and simmer for 15 minutes with 400 ml water.',
+      'The beans should be soft enough to mash but still whole. Undercooked rajma is unpleasant and hard to digest.'
+    ],
+    pair: ['Plain steamed basmati rice — rajma chawal is the only correct pairing', 'Sliced onion with lemon', 'Plain yoghurt'],
+    store: 'Refrigerate up to 4 days and freeze 3 months. It thickens on standing; loosen with hot water when reheating.',
+    nut: [412, 18, 54, 14, 14, 10, 1180]
+  },
+
+  'pav-bhaji': {
+    d: 'Mumbai\'s great street dish: a mash of vegetables cooked down on a giant griddle with a distinctive spice blend, mashed with butter until glossy, and served with soft buns griddled in yet more butter.',
+    meta: 'Mumbai pav bhaji — buttery mashed vegetable curry with pav bhaji masala, served with griddled soft buns.',
+    kw: ['pav bhaji recipe', 'mumbai street food', 'bhaji masala', 'indian vegetable mash'],
+    why: 'The vegetables are boiled first and then mashed into the masala rather than cooked in it, which gives a uniform, almost purée-like texture no amount of simmering would achieve. Butter is added in stages rather than all at once, so it emulsifies into the bhaji instead of pooling on top.',
+    ing: [
+      '# For the bhaji',
+      '3 potatoes, peeled and cubed',
+      '150 g cauliflower florets',
+      '1 carrot, diced',
+      '100 g green peas',
+      '100 g unsalted butter',
+      '2 onions, very finely chopped',
+      '5 tomatoes, finely chopped',
+      '1 green pepper, finely chopped',
+      '1½ tbsp ginger-garlic paste',
+      '2½ tbsp pav bhaji masala',
+      '1 tbsp Kashmiri chilli powder',
+      '½ tsp ground turmeric',
+      '2 tsp fine sea salt',
+      '1 tbsp lemon juice',
+      'A large handful coriander, chopped',
+      '# For the pav',
+      '8 soft dinner rolls or brioche buns, split',
+      '50 g butter',
+      '1 tsp pav bhaji masala',
+      '# To serve',
+      '1 red onion, finely diced',
+      'Lemon wedges'
+    ],
+    st: [
+      'Boil the potatoes, cauliflower, carrot and peas together until very soft, about 15 minutes. Drain, reserving 300 ml of the water, and mash roughly.',
+      'Melt half the butter in a wide, heavy pan. Fry the onions for 8 minutes until soft and golden.',
+      'Add the ginger-garlic paste for 2 minutes, then the green pepper for 3 minutes.',
+      'Add the tomatoes, chilli powder, turmeric and half the pav bhaji masala and cook 12 minutes, mashing constantly, until the tomatoes collapse entirely and the mixture darkens.',
+      'Add the mashed vegetables, the remaining masala, salt and the reserved cooking water. Mash hard with a potato masher for 5 minutes over medium heat until glossy and uniform.',
+      'Add the remaining butter in three additions, mashing it in each time, and simmer 5 minutes more. Finish with lemon juice and most of the coriander.',
+      'Melt the butter for the pav in a wide frying pan with the teaspoon of masala. Press the split rolls cut side down and griddle 90 seconds until golden and buttery.',
+      'Serve the bhaji with a knob of butter on top, the hot pav alongside, and raw onion, coriander and lemon to scatter.'
+    ],
+    tips: [
+      'Pav bhaji masala is a specific blend and there is no good substitute. Buy it rather than approximating with garam masala.',
+      'Do not be shy with the butter. This is a dish defined by it, and halving it gives you a bland vegetable mash.',
+      'A potato masher, used aggressively and repeatedly, is the real technique here.'
+    ],
+    pair: ['Cold cola or a salted lassi', 'Extra lemon and raw onion', 'Kulfi afterwards'],
+    store: 'Refrigerate up to 4 days and freeze 2 months. Reheat with a splash of water and a fresh knob of butter.',
+    nut: [582, 12, 68, 30, 9, 14, 1420]
+  },
+
+  'chole-bhature': {
+    d: 'Punjab\'s great weekend breakfast: dark, tangy chickpeas served with balloon-like fried bread. The chana is blackened with tea and the bhature are leavened with yoghurt, and both details matter.',
+    meta: 'Chole bhature — spiced dark chickpea curry with puffed deep-fried bhature bread. The Punjabi weekend classic.',
+    kw: ['chole bhature recipe', 'punjabi chole', 'bhature bread', 'chana masala fried bread'],
+    why: 'Cooking the chickpeas with a tea bag and dried amla stains them the dark brown that distinguishes chole from an ordinary chana masala — it is tannin, not spice, doing the colouring. The bhature dough uses yoghurt and semolina alongside yeast, which gives enough structure to trap steam and inflate the bread instantly in hot oil.',
+    ing: [
+      '# For the chole',
+      '300 g dried chickpeas, soaked overnight',
+      '2 black tea bags',
+      '1 bay leaf, 1 cinnamon stick, 2 black cardamom pods',
+      '3 tbsp ghee',
+      '2 onions, finely chopped',
+      '4 tomatoes, puréed',
+      '1½ tbsp ginger-garlic paste',
+      '2 tbsp chana masala powder',
+      '1 tsp Kashmiri chilli powder',
+      '1 tsp ground cumin',
+      '1 tsp amchur',
+      '½ tsp ground turmeric',
+      '2 tsp fine sea salt',
+      '2 green chillies, slit',
+      '# For the bhature',
+      '400 g plain flour',
+      '60 g fine semolina',
+      '150 g thick yoghurt',
+      '1 tsp fast-action dried yeast',
+      '1 tsp caster sugar',
+      '1 tsp fine sea salt',
+      '2 tbsp neutral oil, plus 1.5 litres for frying',
+      '100 ml warm water, approximately'
+    ],
+    st: [
+      'Drain the chickpeas and pressure cook them for 25 minutes, or boil 90 minutes, with the tea bags tied in muslin, the whole spices and a teaspoon of salt. Remove the tea bags and reserve the dark cooking liquid.',
+      'For the bhature, mix the flour, semolina, yeast, sugar and salt. Add the yoghurt and oil, then enough warm water to make a soft, smooth dough. Knead 8 minutes, cover, and prove 2 hours.',
+      'Heat the ghee for the chole and fry the onions for 12 minutes until deep brown.',
+      'Add the ginger-garlic paste and green chillies for 2 minutes, then the chana masala, chilli powder, cumin and turmeric for 30 seconds.',
+      'Pour in the tomato purée and cook 12 to 15 minutes until it darkens and the ghee separates.',
+      'Add the chickpeas with 500 ml of their cooking liquid, the salt and the amchur. Simmer 25 minutes, mashing some of the chickpeas to thicken, until the gravy clings.',
+      'Divide the bhature dough into 10 pieces and roll each into a 15 cm oval, about 3 mm thick. Do not use extra flour — oil your surface instead.',
+      'Heat the frying oil to 190°C / 375°F. Slide in one bhatura and press it gently under the surface with a slotted spoon; it will balloon in 10 seconds.',
+      'Flip and fry 20 seconds more until pale gold. Drain and serve immediately with the hot chole, raw onion and pickle.'
+    ],
+    tips: [
+      'The oil must be hot enough that the bhatura floats and puffs within seconds. Cooler oil gives flat, greasy bread.',
+      'Roll the bhature evenly. A thin patch will burst and the bread will not inflate.',
+      'Tinned chickpeas can be used, but you will lose the dark colour — add half a teaspoon of strong brewed tea to compensate.'
+    ],
+    pair: ['Sliced onion with lemon and green chilli', 'A sweet or salted lassi', 'Mango pickle'],
+    store: 'Chole keeps 4 days refrigerated and improves. Bhature must be fried and eaten within minutes; the dough keeps 2 days chilled.',
+    nut: [764, 22, 98, 32, 14, 12, 1520]
+  },
+
+  'idli-sambar': {
+    d: 'Steamed rice and lentil cakes, sour from natural fermentation and light as a sponge, served with a tamarind-sharp lentil and vegetable stew. Breakfast across South India, and one of the world\'s great fermented foods.',
+    meta: 'Idli sambar — soft steamed South Indian rice and lentil cakes with tangy tamarind lentil and vegetable stew.',
+    kw: ['idli sambar recipe', 'south indian breakfast', 'idli batter fermentation', 'sambar recipe'],
+    why: 'Fermentation does two jobs: wild lactobacilli produce the carbon dioxide that leavens the idli, and the acid they generate breaks down the lentil proteins so the finished cake is soft rather than dense. Grinding the urad dal to a light, aerated paste incorporates air that gives the ferment somewhere to start.',
+    ing: [
+      '# For the idli batter',
+      '300 g idli rice or parboiled rice',
+      '100 g urad dal (split skinned black gram)',
+      '1 tsp fenugreek seeds',
+      '80 g thick poha (flattened rice), optional',
+      '1½ tsp fine sea salt',
+      'Water, for soaking and grinding',
+      '# For the sambar',
+      '150 g toor dal (split pigeon peas)',
+      '1 tbsp tamarind paste',
+      '2 tbsp sambar powder',
+      '1 onion, cut into chunks',
+      '1 carrot, sliced',
+      '1 drumstick, cut into lengths, or 100 g green beans',
+      '1 aubergine, cubed',
+      '2 tomatoes, chopped',
+      '½ tsp ground turmeric',
+      '1½ tsp fine sea salt',
+      '# For the tempering',
+      '2 tbsp coconut oil or ghee',
+      '1 tsp mustard seeds',
+      '1 tsp cumin seeds',
+      '2 dried red chillies',
+      '15 curry leaves',
+      'A pinch of asafoetida'
+    ],
+    st: [
+      'Soak the rice with the fenugreek in one bowl and the urad dal in another, both covered generously with water, for 5 hours.',
+      'Grind the urad dal first with as little cold water as possible to a very smooth, light, fluffy paste. Then grind the rice to a slightly grainy paste, like fine semolina.',
+      'Combine the two with the salt, mixing with your hand for 3 minutes — the warmth and wild yeasts on your skin genuinely help the ferment start.',
+      'Cover loosely and leave in a warm place for 8 to 14 hours until the batter has risen visibly, smells pleasantly sour and is full of bubbles.',
+      'For the sambar, cook the toor dal with the turmeric in 700 ml water until completely soft, about 30 minutes, then whisk smooth.',
+      'Boil the vegetables in 400 ml water for 12 minutes, add the tamarind, sambar powder and salt, and simmer 8 minutes.',
+      'Stir in the cooked dal and simmer 10 minutes more, loosening with hot water to a pourable consistency.',
+      'Heat the tempering oil, add the mustard seeds and wait for them to pop, then the cumin, chillies, curry leaves and asafoetida for 15 seconds. Pour the whole lot over the sambar.',
+      'Grease idli moulds, fill each three-quarters with batter, and steam over boiling water for 10 to 12 minutes until a skewer comes out clean. Rest 3 minutes before unmoulding, and serve hot with sambar and coconut chutney.'
+    ],
+    tips: [
+      'Ferment somewhere warm — an oven with only the light on works well in a cold kitchen.',
+      'Do not stir the fermented batter aggressively. Fold gently to keep the air in.',
+      'Leftover batter makes dosas after a day or two, when it has gone more sour.'
+    ],
+    pair: ['Coconut chutney and tomato chutney', 'Filter coffee', 'Podi (gunpowder) with sesame oil'],
+    store: 'Batter keeps 4 days refrigerated, becoming more sour. Steamed idlis keep 2 days and re-steam for 4 minutes. Sambar keeps 4 days.',
+    nut: [428, 18, 76, 8, 10, 6, 1240]
+  },
+
+  'keema-matar': {
+    d: 'Minced lamb browned hard and simmered with peas in a tight, dry masala. A weeknight dish across North India and Pakistan, eaten with roti, stuffed into parathas, or piled onto pav.',
+    meta: 'Keema matar — spiced minced lamb with green peas in a dry, deeply browned masala. Ready in under an hour.',
+    kw: ['keema matar recipe', 'indian minced lamb', 'lamb keema peas', 'pakistani keema'],
+    why: 'The mince must be browned in an uncrowded pan until it is genuinely dark, not merely grey — that Maillard crust supplies most of the flavour, and adding liquid before it forms gives a pallid, boiled result. The peas go in at the very end so they stay bright and pop rather than turning khaki.',
+    ing: [
+      '600 g minced lamb, 20% fat',
+      '3 tbsp ghee or neutral oil',
+      '2 onions, finely chopped',
+      '3 tomatoes, finely chopped',
+      '1½ tbsp ginger-garlic paste',
+      '2 green chillies, finely chopped',
+      '200 g frozen peas',
+      '1 tsp cumin seeds',
+      '1 cinnamon stick',
+      '3 green cardamom pods',
+      '1 bay leaf',
+      '1 tbsp ground coriander',
+      '1 tsp ground cumin',
+      '1 tsp Kashmiri chilli powder',
+      '½ tsp ground turmeric',
+      '1 tsp garam masala',
+      '1½ tsp fine sea salt',
+      '2 tbsp thick yoghurt',
+      'A handful coriander, chopped',
+      '1 tbsp lemon juice'
+    ],
+    st: [
+      'Heat the ghee in a wide pan and fry the whole spices for 30 seconds until fragrant.',
+      'Add the onions and fry 10 minutes until deep golden.',
+      'Add the ginger-garlic paste and green chillies and cook 2 minutes.',
+      'Raise the heat, add the lamb, and break it up. Fry for 10 to 12 minutes without stirring too often, letting it catch and brown properly on the base of the pan before you move it.',
+      'Add the ground spices and salt and stir for 45 seconds.',
+      'Add the tomatoes and cook 10 minutes, mashing, until they break down completely and the ghee separates.',
+      'Whisk in the yoghurt, add 150 ml water, cover, and simmer 15 minutes until the lamb is tender and the masala is thick and clinging.',
+      'Stir in the peas and cook 4 minutes, uncovered, until bright and just tender.',
+      'Finish with garam masala, lemon juice and coriander, and serve with hot roti.'
+    ],
+    tips: [
+      'Use lamb with a decent fat content. Very lean mince gives a dry, granular keema.',
+      'Resist stirring during the browning stage. Let the mince sit and crust.',
+      'Leftover keema in a paratha, with a fried egg on top, is one of the great breakfasts.'
+    ],
+    pair: ['Hot roti, paratha or pav', 'Sliced onion with lemon', 'Plain yoghurt or raita'],
+    store: 'Refrigerate up to 3 days and freeze 3 months. Reheat in a pan with a splash of water.',
+    nut: [538, 34, 20, 36, 6, 8, 1080]
+  },
+
+  'kerala-fish-curry': {
+    d: 'Meen curry from the Malabar coast: fish poached in a coconut milk gravy sharpened with kudampuli, the smoky sour fruit that gives Kerala curries their distinctive tang. Cooked in a clay pot, if you have one.',
+    meta: 'Kerala fish curry — coconut milk gravy with kudampuli, curry leaves and mustard seeds. Coastal South Indian cooking.',
+    kw: ['kerala fish curry recipe', 'meen curry', 'coconut fish curry', 'malabar fish curry'],
+    why: 'Kudampuli (Malabar tamarind) is soaked and added whole rather than as a paste, so it releases its sourness slowly and does not curdle the coconut milk the way a sharp acid hit would. The thick coconut milk goes in last, off a rolling boil, because boiling splits it into oil and solids.',
+    ing: [
+      '700 g firm white fish such as kingfish or seer, cut into steaks',
+      '4 pieces kudampuli, soaked in 150 ml warm water for 20 minutes',
+      '400 ml coconut milk, thick and thin parts separated if possible',
+      '3 tbsp coconut oil',
+      '1 tsp mustard seeds',
+      '1 tsp fenugreek seeds',
+      '20 curry leaves',
+      '2 onions, thinly sliced',
+      '1 tbsp ginger, julienned',
+      '6 garlic cloves, sliced',
+      '3 green chillies, slit',
+      '2 tbsp Kashmiri chilli powder',
+      '1 tsp ground coriander',
+      '½ tsp ground turmeric',
+      '½ tsp ground black pepper',
+      '1½ tsp fine sea salt'
+    ],
+    st: [
+      'Rub the fish with a little salt and turmeric and set aside for 15 minutes.',
+      'Heat the coconut oil in a clay pot or heavy pan. Add the mustard seeds and wait for them to pop, then the fenugreek and half the curry leaves.',
+      'Add the onions, ginger, garlic and green chillies and fry 8 minutes until the onions are soft and pale gold.',
+      'Lower the heat, add the chilli powder, coriander, turmeric and pepper, and stir 45 seconds — burnt chilli powder will ruin the curry.',
+      'Add the soaked kudampuli with its water, 200 ml of the thin coconut milk and the salt. Bring to a simmer and cook 8 minutes.',
+      'Slide in the fish in a single layer. Do not stir from here on — swirl the pan instead, or the fish will break.',
+      'Simmer gently for 8 to 10 minutes until the fish is just cooked through.',
+      'Pour in the thick coconut milk, add the remaining curry leaves, and warm through for 2 minutes without letting it boil.',
+      'Rest, ideally for several hours, before serving with rice.'
+    ],
+    tips: [
+      'Kudampuli is worth ordering online. Tamarind is the fallback but gives a rounder, less smoky sourness.',
+      'This curry is genuinely better the next day, which is unusual for a fish dish. Make it in advance if you can.',
+      'A clay pot (meen chatti) is traditional and does change the flavour, but a heavy stainless pan works fine.'
+    ],
+    pair: ['Kerala red rice or plain basmati', 'Thoran (stir-fried coconut vegetables)', 'Appam or steamed tapioca'],
+    store: 'Refrigerate up to 2 days. Reheat very gently without boiling. Not suitable for freezing.',
+    nut: [468, 38, 14, 30, 3, 6, 1140]
+  },
+
+  'chapati': {
+    d: 'The everyday Indian flatbread: wholewheat flour, water and salt, rolled thin and cooked on a dry griddle until it puffs into a sphere. Two ingredients, and a lifetime to master.',
+    meta: 'Soft chapati (roti) made with wholewheat atta flour, cooked on a dry tawa until puffed and blistered.',
+    kw: ['chapati recipe', 'indian roti', 'wholewheat flatbread', 'soft chapati'],
+    why: 'The puff is steam: water trapped between two thin layers of gluten flashes to vapour on the hot griddle and inflates the bread. That requires an even thickness, a properly rested dough with relaxed gluten, and a griddle hot enough to set the outside before the steam escapes.',
+    ing: [
+      '300 g chapati atta (fine wholewheat flour)',
+      '200 ml warm water, approximately',
+      '1 tsp fine sea salt',
+      '1 tbsp neutral oil or ghee',
+      'Extra atta, for dusting',
+      'Ghee, for brushing'
+    ],
+    st: [
+      'Mix the flour and salt, then add the water gradually, bringing the dough together with your fingers.',
+      'Knead for 8 minutes until soft, smooth and slightly tacky — softer than a bread dough. Work in the oil at the end.',
+      'Cover with a damp cloth and rest 30 minutes. This relaxes the gluten so the chapatis roll thin without springing back.',
+      'Divide into 10 pieces and roll each into a smooth ball between your palms.',
+      'Heat a tawa or heavy frying pan over medium-high heat until a drop of water skitters across it.',
+      'Dust a ball lightly and roll it into a 16 cm circle, turning a quarter turn between each pass so it stays round and even. Brush off excess flour.',
+      'Lay it on the dry tawa. After 30 seconds, when small bubbles appear, flip it. Cook 45 seconds until brown spots form.',
+      'Flip again and press the surface gently with a folded cloth, moving around the edges — the chapati should balloon completely within 10 seconds.',
+      'Brush with ghee and stack in a covered container or cloth-lined basket so the steam keeps them soft.'
+    ],
+    tips: [
+      'A soft dough makes soft chapatis. If it feels firm, it is too dry — add water a teaspoon at a time.',
+      'The griddle must be properly hot. Too cool and the bread dries out before it can puff.',
+      'Alternatively, finish the chapati directly over a gas flame for 5 seconds and it will inflate dramatically.'
+    ],
+    pair: ['Any Indian curry, dal or sabzi', 'Ghee and a little salt, eaten plain', 'Yoghurt and pickle'],
+    store: 'Best fresh. They keep 1 day wrapped in a cloth, or freeze for 1 month interleaved with paper; reheat on a dry tawa for 30 seconds a side.',
+    nut: [128, 4, 24, 2, 4, 0, 240]
+  },
+
+  'kheer': {
+    d: 'Rice slowly simmered in milk until it thickens and takes on a faint caramel colour, scented with cardamom and saffron and studded with nuts. The dessert made at every Indian festival, wedding and temple.',
+    meta: 'Rice kheer — Indian rice pudding slowly simmered in milk with cardamom, saffron, pistachios and almonds.',
+    kw: ['kheer recipe', 'indian rice pudding', 'rice kheer', 'payasam recipe'],
+    why: 'The milk is reduced by nearly half before the sugar goes in, because sugar added early interferes with the Maillard reaction between milk proteins and lactose that gives kheer its pale caramel colour and toasted flavour. Basmati broken slightly in the hand releases starch faster and thickens the pudding without needing cornflour.',
+    ing: [
+      '1.5 litres whole milk',
+      '80 g basmati rice, rinsed and soaked 20 minutes',
+      '120 g caster sugar',
+      '½ tsp ground green cardamom',
+      'A generous pinch of saffron',
+      '2 tbsp pistachios, slivered',
+      '2 tbsp almonds, slivered',
+      '1 tbsp raisins',
+      '1 tbsp ghee',
+      '2 tbsp condensed milk, optional'
+    ],
+    st: [
+      'Drain the rice and rub it between your palms to crack a few grains — this speeds thickening.',
+      'Fry the nuts and raisins in the ghee for 90 seconds until golden and the raisins swell. Set aside.',
+      'Bring the milk to the boil in a heavy-based pan, then reduce to a simmer.',
+      'Add the rice and cook, uncovered, for 45 to 55 minutes, stirring every few minutes and scraping the base and sides so nothing catches.',
+      'The milk should reduce by close to half and the mixture should coat a spoon thickly.',
+      'Warm the saffron in a tablespoon of the hot milk for 5 minutes, then stir it in.',
+      'Add the sugar, cardamom and condensed milk if using, and simmer 8 minutes more, stirring, until it thickens again.',
+      'Stir in most of the nuts and raisins, take off the heat, and rest 10 minutes.',
+      'Serve warm or chilled, scattered with the remaining nuts. It thickens considerably as it cools, so loosen with milk if needed.'
+    ],
+    tips: [
+      'Use a heavy pan and stay near it. Milk catches on the base in seconds and the burnt taste cannot be rescued.',
+      'Full-fat milk only. Semi-skimmed gives a thin kheer with none of the richness.',
+      'Add the sugar late. Early sugar slows the reduction and dulls the colour.'
+    ],
+    pair: ['Served after a rich curry meal', 'Alongside gulab jamun at a festival spread', 'Masala chai'],
+    store: 'Refrigerate up to 4 days. It sets thick; loosen with warm milk. Freezing changes the texture and is not recommended.',
+    nut: [312, 10, 44, 12, 1, 34, 120]
+  },
+
+  'jalebi': {
+    d: 'Fermented batter piped in spirals into hot ghee and dunked straight into warm saffron syrup, so the crisp coils fill with liquid sugar. Sold hot from street carts across India, and best eaten within about ninety seconds.',
+    meta: 'Crispy jalebi — fermented batter spirals fried in ghee and soaked in warm saffron syrup. India\'s favourite street sweet.',
+    kw: ['jalebi recipe', 'indian street sweet', 'crispy jalebi', 'saffron syrup dessert'],
+    why: 'The overnight ferment produces carbon dioxide that makes the batter light and gives jalebi its faint sourness, which is what stops the sugar being sickly. The syrup must be warm and at one-string consistency: hotter and it crystallises on contact, cooler and it will not penetrate the coil.',
+    ing: [
+      '# For the batter',
+      '200 g plain flour',
+      '2 tbsp cornflour',
+      '2 tbsp thick yoghurt',
+      '¼ tsp baking powder',
+      '½ tsp ground turmeric, for colour',
+      '200 ml warm water, approximately',
+      '# For the syrup',
+      '400 g caster sugar',
+      '250 ml water',
+      'A generous pinch of saffron',
+      '½ tsp ground cardamom',
+      '1 tsp lemon juice',
+      '1 tsp rose water',
+      '# For frying',
+      '500 ml ghee or neutral oil',
+      'Pistachios, slivered, to finish'
+    ],
+    st: [
+      'Whisk the flour, cornflour, turmeric and yoghurt with enough warm water to make a smooth batter the consistency of thick double cream. Beat it hard for 4 minutes.',
+      'Cover and leave in a warm place for 10 to 14 hours until slightly bubbly and faintly sour. Whisk in the baking powder just before frying.',
+      'For the syrup, boil the sugar and water for 6 to 8 minutes until it reaches one-string consistency — a drop pulled between finger and thumb forms a single thread.',
+      'Take off the heat and stir in the saffron, cardamom, lemon juice and rose water. Keep the syrup warm but not hot, around 60°C.',
+      'Heat the ghee to 175°C / 345°F in a wide, shallow pan.',
+      'Transfer the batter to a squeeze bottle or a piping bag with a small round nozzle.',
+      'Pipe concentric spirals directly into the ghee, working from the inside out, three or four at a time.',
+      'Fry 90 seconds a side until crisp and pale gold — they should not brown deeply.',
+      'Lift out, drain for 3 seconds, and drop straight into the warm syrup. Soak 45 seconds, turning once, then lift onto a tray. Scatter with pistachios and eat immediately.'
+    ],
+    tips: [
+      'Syrup at the wrong temperature is the usual failure. Warm syrup soaks in; hot syrup makes soggy jalebi and cold syrup makes dry ones.',
+      'A ketchup squeeze bottle is easier to control than a piping bag for the spirals.',
+      'They lose their crunch within an hour, which is exactly why street vendors fry them to order.'
+    ],
+    pair: ['Hot rabri or thickened milk, the classic Delhi pairing', 'Masala chai', 'Plain yoghurt, in Gujarat, as breakfast'],
+    store: 'Genuinely best within an hour. They keep 2 days in an airtight tin but go soft; refresh in a 180°C / 350°F oven for 4 minutes.',
+    nut: [268, 3, 58, 5, 1, 44, 20]
+  },
+
+  'aloo-paratha': {
+    d: 'Wholewheat flatbread stuffed with spiced mashed potato and griddled in ghee until blistered. The Punjabi breakfast, eaten with a slab of white butter melting on top and a bowl of yoghurt on the side.',
+    meta: 'Aloo paratha — wholewheat flatbread stuffed with spiced potato and griddled in ghee. The classic Punjabi breakfast.',
+    kw: ['aloo paratha recipe', 'stuffed indian flatbread', 'punjabi breakfast', 'potato paratha'],
+    why: 'The potato filling must be completely dry and cool — warm or wet filling turns to steam inside the paratha and blows a hole through the dough as it cooks. Sealing the parcel by gathering the dough into a pleated purse distributes the seam evenly so it does not create a thick lump at the centre.',
+    ing: [
+      '# For the dough',
+      '350 g chapati atta',
+      '230 ml warm water, approximately',
+      '1 tsp fine sea salt',
+      '1 tbsp ghee',
+      '# For the filling',
+      '600 g floury potatoes, boiled in their skins and cooled completely',
+      '1 onion, very finely chopped',
+      '2 green chillies, finely chopped',
+      '1 tbsp grated fresh ginger',
+      '1 tsp ground cumin',
+      '1 tsp garam masala',
+      '1 tsp amchur',
+      '1 tsp Kashmiri chilli powder',
+      '1½ tsp fine sea salt',
+      'A large handful coriander, chopped',
+      '# For cooking',
+      'Ghee, for griddling',
+      'Extra atta, for dusting'
+    ],
+    st: [
+      'Make the dough by mixing the atta and salt, adding the water gradually, and kneading 8 minutes to a soft, pliable dough. Work in the ghee, cover, and rest 30 minutes.',
+      'Peel the cold potatoes and grate them rather than mashing — grating gives an even, lump-free filling with no gluey patches.',
+      'Mix the potato with the onion, chilli, ginger, all the spices, salt and coriander. Taste and make it slightly saltier than seems right; the dough dilutes it.',
+      'Divide the dough into 8 and the filling into 8 equal portions, rolling each portion of filling into a ball.',
+      'Roll a piece of dough into a 12 cm circle, thicker at the centre. Set a ball of filling in the middle.',
+      'Gather the dough up around the filling in pleats, pinch the top firmly closed, and flatten gently with your palm, seam side down.',
+      'Dust and roll carefully into a 17 cm circle, using light, even pressure so the filling does not burst through.',
+      'Cook on a hot tawa for 45 seconds, flip, brush with ghee, and cook 90 seconds until browned in patches.',
+      'Flip again, brush the second side with ghee, and press the edges with a cloth until puffed and evenly blistered. Serve hot with butter and yoghurt.'
+    ],
+    tips: [
+      'Cold, dry, grated potato is the whole secret. Warm mash will tear every paratha you attempt.',
+      'Roll gently and evenly. If filling does break through, patch it with a scrap of dough and carry on.',
+      'A slab of white butter on top as it comes off the griddle is not optional in Punjab.'
+    ],
+    pair: ['Plain yoghurt and mango pickle', 'Masala chai', 'A green chilli on the side, if you are brave'],
+    store: 'Keeps 1 day wrapped in a cloth. Freeze cooked parathas for 1 month interleaved with paper and reheat on a dry tawa for 90 seconds a side.',
+    nut: [312, 8, 48, 10, 6, 3, 720]
+  }
+};

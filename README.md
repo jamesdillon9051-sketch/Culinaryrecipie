@@ -1,6 +1,6 @@
 # CulinaryVault
 
-A dependency-free static site for the world's **200 most famous recipes** — each
+A dependency-free static site for the world's **400 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-200 recipes · 29 cuisines · 10 categories · 248 static pages · 0 npm dependencies
+400 recipes · 39 cuisines · 10 categories · 458 static pages · 0 npm dependencies
 ```
 
 ---
@@ -73,8 +73,11 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── src/
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
-│   │   ├── catalog.js           # 200 recipes: slug, title, cuisine, timings, ratings
-│   │   ├── details/*.js         # ingredients, method, tips, science, nutrition
+│   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
+│   │   ├── catalog-2.js         # volume two, same shape; the two are merged at build
+│   │   ├── details/*.js         # volume one long-form content
+│   │   ├── details2/*.js        # volume two long-form content
+│   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
 │   ├── lib/
 │   │   ├── util.js              # escaping, durations, taxonomy tables
@@ -90,7 +93,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 580 image files (WebP + JPEG)
+│       └── img/recipes/         # 970 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -102,8 +105,8 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 580 image files
-├── recipes/                     #    200 recipe pages
+├── assets/                      #    css, js and 970 image files
+├── recipes/                     #    400 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -178,7 +181,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 200 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 400 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -248,9 +251,9 @@ would be.
 ### Content quality
 
 - [x] Original 2–3 sentence description on every recipe, primary keyword used naturally
-- [x] "Why This Recipe Works" — the actual cooking science — on all 200
-- [x] Chef's tips, pairing suggestions and storage & reheating on all 200
-- [x] Nutrition per serving on all 200
+- [x] "Why This Recipe Works" — the actual cooking science — on all 400
+- [x] Chef's tips, pairing suggestions and storage & reheating on all 400
+- [x] Nutrition per serving on all 400
 - [x] Internal linking: related recipes, cuisine pages, category pages, dietary tags
 
 ### Before you launch
@@ -275,9 +278,16 @@ result** rather than trusting the search filter. Candidates are scored for
 relevance against the dish name, and archival material, illustrations, packaging
 shots and portraits are rejected.
 
-199 of 200 recipes have photography. The one without falls back to a CSS gradient
+342 of the 400 recipes have photography. The other 58 fall back to a CSS gradient
 placeholder carrying the recipe name — the same fallback that catches any image
 that fails to load at runtime.
+
+Those 58 are a deliberate choice rather than a gap left to fill. The CC0 and
+public-domain archives simply do not hold a correct photograph of every dish, and
+a search that is loosened enough to find one starts returning things that are not
+the dish at all — a cargo ship for sangria, a toad for toad-in-the-hole. Those
+recipes are pinned with `"skip": true` in `src/data/images.json` so the pipeline
+leaves them alone. A wrong photograph is worse than an honest placeholder.
 
 Full per-image credits, with photographer, licence and source link, are in
 [`images-attribution.md`](images-attribution.md). Regenerate it with
@@ -297,7 +307,7 @@ npm run images
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 200 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 400 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

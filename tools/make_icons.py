@@ -94,11 +94,11 @@ draw = ImageDraw.Draw(og)
 
 chef_hat(draw, 110, 120, 0.9, (216, 171, 70))
 draw.text((190, 88), "CULINARYVAULT", font=font(34), fill=(216, 171, 70))
-draw.text((80, 220), "The world's 200 most", font=font(74), fill=CREAM)
+draw.text((80, 220), "The world's 400 most", font=font(74), fill=CREAM)
 draw.text((80, 310), "famous recipes", font=font(74), fill=CREAM)
 draw.text((80, 430), "Tested, explained and written down properly.", font=font(32, bold=False), fill=(214, 199, 180))
 draw.line([80, 500, 300, 500], fill=(184, 73, 44), width=6)
-draw.text((80, 528), "29 cuisines  ·  Cook mode  ·  Adjustable servings", font=font(27, bold=False), fill=(178, 162, 145))
+draw.text((80, 528), "39 cuisines  ·  Cook mode  ·  Adjustable servings", font=font(27, bold=False), fill=(178, 162, 145))
 og.save(os.path.join(OUT, "og-default.jpg"), "JPEG", quality=88, optimize=True)
 
 print("wrote:", ", ".join(sorted(f for f in os.listdir(OUT) if not os.path.isdir(os.path.join(OUT, f)))))

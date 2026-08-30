@@ -1,5 +1,6 @@
 'use strict';
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS } = require('../lib/util');
+const { recipeCount, cuisineCount } = require('../data/stats');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
 /* --------------------------------------------------------------- helpers */
@@ -99,13 +100,13 @@ function home(ctx) {
 <section class="hero" aria-labelledby="hero-title">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow-rule hero-line">200 recipes &middot; 29 cuisines</span>
+      <span class="eyebrow-rule hero-line">${recipeCount} recipes &middot; ${cuisineCount} cuisines</span>
       <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
       <p class="hero-lede hero-line">The world's most famous dishes, tested until we understood them &mdash; then written down with the reason behind every step.</p>
       <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
       <div class="hero-line hero-stats">
-        <div><strong>200</strong><span>Tested recipes</span></div>
-        <div><strong>29</strong><span>Cuisines</span></div>
+        <div><strong>${recipeCount}</strong><span>Tested recipes</span></div>
+        <div><strong>${cuisineCount}</strong><span>Cuisines</span></div>
         <div><strong>4.8</strong><span>Average rating</span></div>
       </div>
     </div>
@@ -227,7 +228,7 @@ function home(ctx) {
 
   return layout({
     title: `${SITE.name} — ${SITE.tagline}`,
-    description: 'The world\'s 200 most famous recipes, each tested and explained: ingredients, step-by-step method, cooking science, adjustable servings and cook mode.',
+    description: `The world's ${recipeCount} most famous recipes, each tested and explained: ingredients, step-by-step method, cooking science and cook mode.`,
     keywords: ['famous recipes', 'best recipes in the world', 'tested recipes', 'international recipes', 'cooking guide'],
     path: '',
     active: 'home',
@@ -357,7 +358,7 @@ ${breadcrumbs(trail)}
       <h1>${esc(options.heading)}</h1>
       <p class="lede">${esc(options.intro)}</p>
     </div>
-    <a class="btn btn--ghost" href="${SITE.base}recipes/">All 200 recipes</a>
+    <a class="btn btn--ghost" href="${SITE.base}recipes/">All ${recipeCount} recipes</a>
   </header>
 
   ${options.extra || ''}
@@ -445,7 +446,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Cuisine Explorer',
-    description: 'Browse 200 tested recipes across 29 world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more.',
+    description: `Browse ${recipeCount} tested recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more.`,
     keywords: ['world cuisines', 'international recipes', 'cuisine guide', 'global cooking'],
     path: 'cuisines/',
     active: 'cuisines',
@@ -581,7 +582,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'About CulinaryVault',
-    description: 'How we test, write and photograph the world\'s 200 most famous recipes — our standards, our team and our approach to cooking science.',
+    description: `How we test, write and photograph the world's ${recipeCount} most famous recipes — our standards, our team and our approach to cooking science.`,
     keywords: ['about culinaryvault', 'recipe testing', 'food blog team', 'recipe standards'],
     path: 'about/',
     active: 'about',
@@ -713,7 +714,7 @@ function notFound(ctx) {
   <span class="eyebrow">Error 404</span>
   <h1>That page has left the kitchen</h1>
   <p class="lede" style="margin-inline:auto">The recipe you were looking for has moved, been renamed, or never existed. Here are four we would happily cook instead.</p>
-  <div style="max-width:520px;margin:2rem auto 0">${heroSearch('nf-search', 'Search 200 recipes…')}</div>
+  <div style="max-width:520px;margin:2rem auto 0">${heroSearch('nf-search', `Search ${recipeCount} recipes…`)}</div>
   <div style="margin-top:1.5rem;display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap">
     <a class="btn btn--primary" href="${SITE.base}recipes/">Browse all recipes</a>
     <a class="btn btn--ghost" href="${SITE.base}">Back to the homepage</a>
@@ -726,7 +727,7 @@ function notFound(ctx) {
 
   return layout({
     title: 'Page not found',
-    description: 'That page could not be found. Search 200 tested recipes or browse our editor\'s picks instead.',
+    description: `That page could not be found. Search ${recipeCount} tested recipes or browse our editor's picks instead.`,
     path: '404.html',
     noindex: true,
     criticalCss: ctx.criticalCss,

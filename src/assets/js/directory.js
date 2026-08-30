@@ -178,7 +178,7 @@
         '<p>' + (state.favourites
           ? 'Tap the heart on any recipe to save it here.'
           : 'Try removing a filter, or search for an ingredient like &ldquo;chicken&rdquo; or &ldquo;chocolate&rdquo;.') +
-        '</p><a class="btn btn--primary" href="' + BASE + 'recipes/">Browse all 200 recipes</a></div>';
+        '</p><a class="btn btn--primary" href="' + BASE + 'recipes/">Browse all ' + data.length + ' recipes</a></div>';
       return;
     }
 

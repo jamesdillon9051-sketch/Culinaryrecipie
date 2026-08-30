@@ -34,7 +34,14 @@ BAD_TOKENS = re.compile(
     r"painting|illustration|coat of arms|flag of|stereograph|postcard|engraving|"
     r"lithograph|dennis collection|collection\.|archive|museum|advertisement|"
     r"cookbook|book cover|page from|title page|1[0-9]{3}|nasa|patent|"
-    r"woman|man |people|crowd|festival|parade|restaurant exterior|market stall)", re.I)
+    # Product shots, clip art and brand assets look like food in a search
+    # result and never look like a recipe photograph.
+    r"\bpng\b|sticker|clip ?art|render|mockup|frozen [a-z]+ (pie|meal|dinner)|"
+    r"mcdonald|burger king|m&m|mars\b|kfc|captain d|monster energy|subway|"
+    r"nestl|kellogg|heinz|campbell|swanson|machine|maquina|máquina|fábrica|"
+    r"factory|premiere|conference|wordcamp|ciclo|visita|embajador|ambassador|"
+    r"sunset|sunrise|burr\b|limbo|sculpture|tourist|"
+    r"woman|man |people|crowd|festival|parade|restaurant exterior|market stall|bird|tree|pine|flower|plant |leaf|insect|butterfly|garden|landscape|church|temple|station|street|bridge|castle|park |beach)", re.I)
 STOP = set("""a an and the of with in on for to from at by de la le les el il alla all
 au aux con e y style classic authentic homemade best easy quick ultimate crispy
 fluffy silky creamy warm iced fresh baked roast roasted slow one bowl skillet deep
@@ -53,28 +60,142 @@ def _require_http(url):
     return url
 
 
+# Wikimedia's API rate-limits this environment's shared egress IP, so requests
+# to it are paced rather than burst. The gap widens on every 429 and narrows
+# again after a run of clean responses, which keeps the whole catalogue
+# reachable without needing a fixed guess at the limit.
+_last_call = {}
+_gap = {}
+# The ceiling is deliberately low: a host that refuses at an 8-second pace
+# is limiting the IP rather than the rate, and every extra step of
+# escalation is time spent being refused more slowly.
+MIN_GAP, MAX_GAP = 1.0, 8.0
+BENCH_SECONDS = 600
+BENCH_AFTER = 6
+_clean_streak = {}
+_fail_streak = {}
+_benched_until = {}
+
+
+def host_of(url):
+    return urllib.parse.urlsplit(url).hostname or ""
+
+
+def throttle(host):
+    """Hold the per-host request gap, sleeping out whatever is left of it."""
+    gap = _gap.get(host, MIN_GAP)
+    waited = time.time() - _last_call.get(host, 0)
+    if waited < gap:
+        time.sleep(gap - waited)
+    _last_call[host] = time.time()
+
+
+def throttled(url):
+    host = host_of(url)
+    return benched(host) or _gap.get(host, MIN_GAP) > MIN_GAP * 4
+
+
+def slow_down(host):
+    _gap[host] = min(MAX_GAP, max(MIN_GAP, _gap.get(host, MIN_GAP)) * 1.8)
+    _clean_streak[host] = 0
+    _fail_streak[host] = _fail_streak.get(host, 0) + 1
+    # Once pacing has hit the ceiling, each further attempt costs a full gap of
+    # sleep to be refused again, so bench on the next failure rather than
+    # spending another five refusals to reach the same conclusion.
+    at_ceiling = _gap[host] >= MAX_GAP and _fail_streak[host] >= 2
+    if (_fail_streak[host] >= BENCH_AFTER or at_ceiling) and not benched(host):
+        # A short burst of 429s means the limit is on the IP, not the pace.
+        # Waiting the gap out per request just spends minutes to be refused
+        # again, so stop asking this host for a while.
+        _benched_until[host] = time.time() + BENCH_SECONDS
+        log(f"    · {host} is rate limiting this IP; benched for {BENCH_SECONDS // 60} minutes")
+    elif not benched(host):
+        log(f"    · {host} rate limited; pacing at {_gap[host]:.0f}s between calls")
+
+
+def benched(host):
+    until = _benched_until.get(host)
+    if until is None:
+        return False
+    if time.time() < until:
+        return True
+    # The bench has expired. Come back at full speed rather than at the
+    # ceiling pace that got us benched, or the first probe alone costs a
+    # 45-second sleep before it can learn anything.
+    del _benched_until[host]
+    _gap[host] = MIN_GAP
+    _fail_streak[host] = 0
+    return False
+
+
+def speed_up(host):
+    _benched_until.pop(host, None)
+    _fail_streak[host] = 0
+    _clean_streak[host] = _clean_streak.get(host, 0) + 1
+    if _clean_streak[host] >= 10 and _gap.get(host, MIN_GAP) > MIN_GAP:
+        _gap[host] = max(MIN_GAP, _gap[host] / 1.4)
+        _clean_streak[host] = 0
+
+
 def http_json(url, tries=4):
+    """A 429 widens this host's pacing gap and waits it out, rather than
+    hammering: the limit is per-IP and only time makes it go away."""
     _require_http(url)
+    host = host_of(url)
+    if benched(host):
+        return None
     for i in range(tries):
+        throttle(host)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=45) as r:
-                return json.loads(r.read().decode("utf-8"))
+                data = json.loads(r.read().decode("utf-8"))
+            speed_up(host)
+            return data
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                slow_down(host)
+                if benched(host):
+                    return None
+                time.sleep(_gap.get(host, MIN_GAP))
+                continue
+            if i == tries - 1:
+                log(f"    ! json failed: {e}")
+                return None
+            time.sleep(2 ** i)
         except Exception as e:
             if i == tries - 1:
                 log(f"    ! json failed: {e}")
                 return None
             time.sleep(2 ** i)
+    log("    ! json failed: still rate limited after retries")
     return None
+
+
+DOWNLOAD_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+               "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
 
 def http_bytes(url, tries=3):
     _require_http(url)
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={
+                "User-Agent": DOWNLOAD_UA,
+                "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+            })
             with urllib.request.urlopen(req, timeout=90) as r:
                 return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                slow_down(host_of(url))
+                if benched(host_of(url)):
+                    return None
+                time.sleep(_gap.get(host_of(url), MIN_GAP))
+            if i == tries - 1:
+                log(f"    ! download failed: {e}")
+                return None
+            time.sleep(2 ** i)
         except Exception as e:
             if i == tries - 1:
                 log(f"    ! download failed: {e}")
@@ -88,8 +209,22 @@ def strip_html(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+WEAK = set("""japanese chinese korean thai indian french italian mexican greek turkish
+spanish portuguese german swedish russian polish british american vietnamese
+malaysian indonesian brazilian nigerian ethiopian jamaican peruvian argentinian
+white black red green yellow brown golden dark light sweet sour spicy hot cold
+small large whole half fresh dried new old traditional national street home
+food dishes meal plate bowls cooking cooked recipe recipes""".split())
+
+
 def tokens(s):
     return {t for t in re.split(r"[^a-z0-9]+", (s or "").lower()) if len(t) > 2 and t not in STOP}
+
+
+def strong(s):
+    """Tokens that actually identify a dish, with nationalities, colours and
+    generic food words stripped out."""
+    return tokens(s) - WEAK
 
 
 def relevance(candidate_title, query):
@@ -104,6 +239,10 @@ def relevance(candidate_title, query):
 # --------------------------------------------------------------- providers
 
 def commons_candidates(query, extra=""):
+    # Openverse indexes most of Commons and is not rate limiting us, so a
+    # benched Commons is a slow way to learn nothing new.
+    if benched("commons.wikimedia.org"):
+        return []
     params = {
         "action": "query", "format": "json", "generator": "search",
         "gsrsearch": f'{query} {extra} filetype:bitmap haslicense:unrestricted'.strip(),
@@ -137,14 +276,16 @@ def commons_candidates(query, extra=""):
                            or "https://creativecommons.org/publicdomain/zero/1.0/",
             "source": "Wikimedia Commons",
             "score": relevance(title, query),
+            "strong": bool(strong(title) & strong(query)) or not strong(query),
         })
     return out
 
 
-def openverse_candidates(query):
-    url = ("https://api.openverse.org/v1/images/?"
-           + urllib.parse.urlencode({"q": query, "license": "cc0,pdm", "page_size": 8,
-                                     "mature": "false", "aspect_ratio": "wide"}))
+def openverse_candidates(query, wide=True):
+    params = {"q": query, "license": "cc0,pdm", "page_size": 12, "mature": "false"}
+    if wide:
+        params["aspect_ratio"] = "wide"
+    url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode(params)
     data = http_json(url, tries=2)
     out = []
     if not data:
@@ -165,26 +306,47 @@ def openverse_candidates(query):
             "licence_url": r.get("license_url") or "https://creativecommons.org/publicdomain/zero/1.0/",
             "source": (r.get("source") or "Openverse").title(),
             "score": relevance(title, query),
+            "strong": bool(strong(title) & strong(query)) or not strong(query),
         })
     return out
 
 
+def shorten(query):
+    """Openverse matches whole phrases, so a four-word dish name often returns
+    nothing while its two distinctive words return plenty."""
+    words = [w for w in re.split(r"[^A-Za-z0-9\']+", query) if len(w) > 2 and w.lower() not in STOP]
+    return " ".join(words[:2]) if len(words) > 2 else ""
+
+
 def gather(query):
     seen, pool = set(), []
-    for cands in (commons_candidates(query),
-                  commons_candidates(query, "food"),
-                  openverse_candidates(query)):
+    brief = shorten(query)
+    attempts = [openverse_candidates(query),
+                openverse_candidates(query, wide=False)]
+    if brief:
+        attempts.append(openverse_candidates(brief))
+    attempts += [commons_candidates(query), commons_candidates(query, "food")]
+    for cands in attempts:
         for c in cands:
             key = c["url"]
             if not isinstance(key, str) or not key.lower().startswith(("http://", "https://")):
                 continue
-            if key and key not in seen and c["score"] >= 0.5:
+            # A score alone is not enough: a title can hit the threshold on
+            # nationality and colour words while showing something else
+            # entirely, so at least one dish-identifying word must match too.
+            if key and key not in seen and c["score"] >= 0.5 and c.get("strong"):
                 seen.add(key)
                 pool.append(c)
-        time.sleep(0.45)
         if len(pool) >= 4:
             break
-    pool.sort(key=lambda c: -c["score"])
+    # Wikimedia serves most of Openverse's results but is rate limiting this
+    # IP, so a candidate hosted there costs a 45-second wait. Prefer an
+    # equally relevant image from a host that will answer immediately, and
+    # fall back to the throttled one only when it is the only match.
+    def rank(c):
+        return (-round(c["score"], 2), 1 if throttled(c["url"]) else 0)
+
+    pool.sort(key=rank)
     return pool
 
 
@@ -230,11 +392,23 @@ def process(raw, slug, suffix, width):
     return {"w": im.width, "h": im.height, "lqip": lqip, "color": colour}
 
 
+def alt_queries():
+    """Some dishes are only catalogued under an English description, or under a
+    romanisation the archives do not use. A slug can name fallback queries here,
+    tried in order when the catalogue's own query finds nothing."""
+    path = os.path.join(ROOT, "src", "data", "image-queries.json")
+    return json.load(open(path)) if os.path.exists(path) else {}
+
+
 def main():
     os.makedirs(IMG_DIR, exist_ok=True)
+    alts = alt_queries()
     catalog = json.loads(subprocess.check_output(
-        ["node", "-e", "process.stdout.write(JSON.stringify(require('%s')))"
-         % os.path.join(ROOT, "src", "data", "catalog.js")]).decode())
+        ["node", "-e",
+         "process.stdout.write(JSON.stringify(["
+         "...require('%s'), ...require('%s')]))"
+         % (os.path.join(ROOT, "src", "data", "catalog.js"),
+            os.path.join(ROOT, "src", "data", "catalog-2.js"))]).decode())
 
     manifest = {}
     if os.path.exists(MANIFEST):
@@ -244,11 +418,24 @@ def main():
         slug, query = rec["slug"], rec["imageQuery"]
         want_process = idx % 2 == 0          # a process shot for 50% of recipes
         entry = manifest.get(slug)
-        if entry and entry.get("hero") and (not want_process or entry.get("process")):
+        if entry and entry.get("skip"):
+            # Deliberately left on the gradient placeholder: the archives have
+            # nothing for this dish that is both correctly licensed and
+            # actually a picture of it. A wrong photo is worse than none.
+            continue
+        if entry and entry.get("hero"):
+            # Already sourced. Never re-fetch: heroes are hand-checked and a
+            # later search can return a worse match for the same dish. The
+            # optional process shot is not worth risking that.
             continue
 
-        log(f"[{idx + 1:3d}/200] {slug}  <- {query}")
+        log(f"[{idx + 1:3d}/{len(catalog)}] {slug}  <- {query}")
         pool = gather(query)
+        for fallback in alts.get(slug, []):
+            if pool:
+                break
+            log(f"    · retrying as \"{fallback}\"")
+            pool = gather(fallback)
         if not pool:
             log("    · no unrestricted image found — gradient placeholder will be used")
             manifest[slug] = {"hero": None, "process": None}
@@ -260,8 +447,10 @@ def main():
         for (suffix, width) in slots:
             for cand in list(pool):
                 pool.remove(cand)
+                if throttled(cand["url"]) and any(not throttled(c["url"]) for c in pool):
+                    continue          # a faster candidate is still waiting
                 raw = http_bytes(cand["url"])
-                time.sleep(0.3)
+                time.sleep(0.6)
                 if not raw or len(raw) < 8000:
                     continue
                 meta = process(raw, slug, suffix, width)
@@ -273,12 +462,17 @@ def main():
                 entry["hero" if suffix == "" else "process"] = meta
                 log(f"    ok {suffix or 'hero':8s} {cand['licence']:12s} {cand['title'][:52]}")
                 break
+        if not entry["hero"]:
+            # Candidates were found but none could be downloaded — usually the
+            # file host refusing. Say so, rather than leaving a silent gap: a
+            # later run will retry this slug because the hero is still missing.
+            log("    · candidates found but none downloadable — will retry on the next run")
         manifest[slug] = entry
         json.dump(manifest, open(MANIFEST, "w"), indent=1)
 
     have = sum(1 for v in manifest.values() if v.get("hero"))
     proc = sum(1 for v in manifest.values() if v.get("process"))
-    log(f"\nDONE — heroes {have}/200, process shots {proc}")
+    log(f"\nDONE — heroes {have}/{len(catalog)}, process shots {proc}")
 
 
 if __name__ == "__main__":
