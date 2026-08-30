@@ -19,7 +19,7 @@ tooling beyond Node's standard library, no runtime dependencies.
 git clone <this-repo> culinaryvault
 cd culinaryvault
 
-npm run build      # generates dist/ (takes about 300ms)
+npm run build      # generates the site into the repo root (about 300ms)
 npm run serve      # builds, then previews at http://localhost:4173
 npm run check      # audits the build: links, alt text, headings, schema, meta
 ```
@@ -32,10 +32,23 @@ The site is a plain folder of static files. Both major hosts are pre-configured:
 
 | Host | Config | Build command | Publish directory |
 |---|---|---|---|
-| Netlify | `netlify.toml` | `npm run build` | `dist` |
-| Vercel | `vercel.json` | `npm run build` | `dist` |
+| Netlify | `netlify.toml` | `npm run build` | `.` |
+| Vercel | `vercel.json` | `npm run build` | `.` |
+| GitHub Pages | — | — | `main` branch, `/ (root)` |
 
-Any other static host works too — build locally and upload `dist/`.
+The generated site lives in the **repository root**, so the repo can be served
+as-is with no build step: point GitHub Pages at the root of `main` and it
+works. `.nojekyll` stops Pages running the output through Jekyll.
+
+This repository also contains a separate project in `travel-destinations/`,
+which builds itself and is served at `/travel-destinations/`. CulinaryVault's
+build never touches it: it is on the protected list in `cleanOutput()` and is
+skipped by `npm run check`.
+
+Because the output directory is also the project directory, the build never
+wipes it wholesale. `cleanOutput()` in `src/build.js` removes only the paths
+it generated, guarded by an allow-list that refuses to touch `src/`, `tools/`,
+`.git` or any config file. Anything else in the root is left alone.
 
 **Set your real domain before going live.** The canonical URLs, sitemap, RSS
 feed and Open Graph tags are all derived from one environment variable:
@@ -87,7 +100,13 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── make-attribution.js      # regenerates images-attribution.md
 │   ├── check.js                 # post-build audit
 │   └── serve.js                 # local preview server
-├── dist/                        # build output — committed, deploy-ready
+├── index.html                   # ── generated output, committed, deploy-ready
+├── 404.html
+├── assets/                      #    css, js and 580 image files
+├── recipes/                     #    200 recipe pages
+├── categories/  cuisines/       #    taxonomy landing pages
+├── about/  contact/  search/  favourites/
+├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
 ├── images-attribution.md        # source + licence for every image
 ├── netlify.toml / vercel.json
 └── package.json
@@ -98,7 +117,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 `catalog.js` holds one row per recipe (identity, timings, rating, badges).
 `details/*.js` holds the long-form content keyed by the same slug. The build
 merges them and **fails loudly** if a slug is missing content or a nutrition
-array has the wrong shape — so a half-written recipe can never reach `dist/`.
+array has the wrong shape — so a half-written recipe can never be published.
 
 Adding a recipe means adding one `c(...)` row to `catalog.js` and one keyed
 object to a file in `details/`, then running `npm run build`.
@@ -212,6 +231,13 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] `localStorage` is treated as untrusted input: reviews and favourites are shape-checked and normalised on read
 - [x] The image pipeline follows `http(s)` URLs only, never `file://`
 - [x] Zero dependencies, so no supply chain and no install hooks
+
+Serving from the repository root means `src/` and `tools/` are published
+alongside the site and are publicly fetchable. There are no secrets in either
+— the recipe data and build scripts are the whole project — but they are
+excluded in `robots.txt` since there is nothing there to index. If you would
+rather they were not served at all, set the publish directory back to a
+subfolder and revert `OUT` in `src/build.js`.
 
 `style-src` deliberately keeps `'unsafe-inline'`. Cards carry a per-recipe
 background colour, hero images carry a blur-up data URI, and star ratings carry

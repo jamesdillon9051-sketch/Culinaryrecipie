@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * Post-build audit of dist/: broken internal links, missing alt text,
+ * Post-build audit of the generated site at the repo root: broken internal
+ * links, missing alt text,
  * heading-level skips, over-long meta descriptions, duplicate element ids and
  * malformed JSON-LD. Exits non-zero if anything fails.
  *
@@ -10,15 +11,23 @@
 const fs = require('fs');
 const path = require('path');
 
-const DIST = path.join(__dirname, '..', 'dist');
+const DIST = path.join(__dirname, '..');
+
+/* The site is generated into the repo root, so the audit must skip the
+   project's own directories rather than walking source and node_modules. */
+const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools',
+  /* A separate project living in this repository; it has its own build and
+     its own checks, so auditing its pages here would be meaningless noise. */
+  'travel-destinations']);
 const problems = [];
 const warnings = [];
 let pagesChecked = 0;
 
-function walk(dir, out = []) {
+function walk(dir, out = [], depth = 0) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (depth === 0 && SKIP.has(entry.name)) continue;
     const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) walk(full, out);
+    if (entry.isDirectory()) walk(full, out, depth + 1);
     else out.push(full);
   }
   return out;

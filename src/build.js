@@ -5,9 +5,14 @@
  *
  *   node src/build.js
  *
- * Reads src/data/*, renders every page into dist/, copies assets and emits
- * search-index.json, sitemap.xml, robots.txt, manifest.json and feed.xml.
- * No dependencies — Node 18+ only.
+ * Reads src/data/*, renders every page into the repository root, copies
+ * assets and emits search-index.json, sitemap.xml, robots.txt, manifest.json
+ * and feed.xml. No dependencies — Node 18+ only.
+ *
+ * Output goes to the root so the repository can be served as-is (GitHub Pages
+ * from the repo root, or Netlify/Vercel with publish "."). That means the
+ * output directory also contains the source, so the build NEVER wipes its
+ * output directory wholesale — see cleanOutput() below.
  */
 
 const fs = require('fs');
@@ -20,15 +25,59 @@ const pages = require('./templates/pages');
 const recipePage = require('./templates/recipe-page');
 
 const ROOT = path.join(__dirname, '..');
-const DIST = path.join(ROOT, 'dist');
+const OUT = ROOT;               /* generated site is written to the repo root */
 const SRC = __dirname;
 
+/* Everything the build creates, and nothing else. cleanOutput() removes only
+   these, because the output directory is also the project directory. */
+const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'about', 'contact', 'search', 'favourites'];
+const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
+  'manifest.json', 'feed.xml', 'search-index.json', '_redirects'];
+
+/* Never removable, whatever else changes. A typo in GENERATED_* that collided
+   with one of these would otherwise delete the project. */
+const PROTECTED = new Set(['.git', '.github', '.gitignore', '.nojekyll', 'src', 'tools',
+  'node_modules', 'package.json', 'package-lock.json', 'README.md',
+  'images-attribution.md', 'netlify.toml', 'vercel.json',
+  /* A second, self-contained project shares this repository root. It builds
+     itself and must never be touched by this build. */
+  'travel-destinations']);
+
 /* --------------------------------------------------------------- helpers */
-function rm(dir) { fs.rmSync(dir, { recursive: true, force: true }); }
 function mkdir(dir) { fs.mkdirSync(dir, { recursive: true }); }
 
+/**
+ * Remove the previous build's output without touching anything else.
+ *
+ * The old implementation deleted the whole output directory. That was safe
+ * when it was dist/; pointed at the repository root it would delete the
+ * source, the tooling and .git, so it is deliberately replaced with a
+ * targeted clean guarded by an explicit allow-list.
+ */
+function cleanOutput() {
+  const names = [...GENERATED_DIRS, ...GENERATED_FILES];
+
+  /* Validate the whole list before removing anything. Deleting as we validate
+     would leave the site half-cleaned and unbuilt if a later entry failed. */
+  const targets = names.map(name => {
+    if (PROTECTED.has(name)) {
+      throw new Error(`refusing to clean "${name}": it is a protected project path`);
+    }
+    if (name.includes('/') || name.includes('\\') || name === '.' || name === '..') {
+      throw new Error(`refusing to clean unsafe path "${name}"`);
+    }
+    const target = path.join(OUT, name);
+    if (!target.startsWith(OUT + path.sep)) {
+      throw new Error(`refusing to clean outside the output directory: ${name}`);
+    }
+    return target;
+  });
+
+  for (const target of targets) fs.rmSync(target, { recursive: true, force: true });
+}
+
 function writePage(relPath, html) {
-  const target = path.join(DIST, relPath);
+  const target = path.join(OUT, relPath);
   mkdir(path.dirname(target));
   fs.writeFileSync(target, html);
 }
@@ -281,6 +330,11 @@ Disallow: /*?difficulty=
 # Personal, device-local pages have nothing to index
 Disallow: /favourites/
 
+# The site is generated into the repository root, so the project's own
+# directories sit alongside it. Nothing there is worth crawling.
+Disallow: /src/
+Disallow: /tools/
+
 User-agent: Googlebot
 Allow: /
 Allow: /assets/img/
@@ -357,11 +411,11 @@ function build() {
   const recipes = loadRecipes();
   const ctx = buildContext(recipes);
 
-  rm(DIST);
-  mkdir(DIST);
+  cleanOutput();
+  mkdir(OUT);
 
   /* Static assets ------------------------------------------------------ */
-  copyDir(path.join(SRC, 'assets'), path.join(DIST, 'assets'));
+  copyDir(path.join(SRC, 'assets'), path.join(OUT, 'assets'));
 
   /* Pages -------------------------------------------------------------- */
   writePage('index.html', pages.home(ctx));
@@ -456,14 +510,16 @@ function build() {
   }
 
   /* Data + plumbing ----------------------------------------------------- */
-  fs.writeFileSync(path.join(DIST, 'search-index.json'), JSON.stringify(searchIndex(recipes)));
-  fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap(recipes, ctx));
-  fs.writeFileSync(path.join(DIST, 'robots.txt'), robots());
-  fs.writeFileSync(path.join(DIST, 'manifest.json'), manifest());
-  fs.writeFileSync(path.join(DIST, 'feed.xml'), feed(recipes));
-  fs.writeFileSync(path.join(DIST, '_redirects'), '/*  /404.html  404\n');
+  fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(searchIndex(recipes)));
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap(recipes, ctx));
+  fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
+  fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
+  fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
+  fs.writeFileSync(path.join(OUT, '_redirects'), '/*  /404.html  404\n');
 
   /* Report --------------------------------------------------------------- */
+  /* Walk only what we generated: at the repo root the tree also contains
+     src/, tools/ and node_modules/. */
   const files = [];
   (function walk(dir) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -471,7 +527,22 @@ function build() {
       if (entry.isDirectory()) walk(full);
       else files.push(full);
     }
-  })(DIST);
+  });
+  for (const name of GENERATED_FILES) {
+    const f = path.join(OUT, name);
+    if (fs.existsSync(f)) files.push(f);
+  }
+  for (const name of GENERATED_DIRS) {
+    const dir = path.join(OUT, name);
+    if (!fs.existsSync(dir)) continue;
+    (function collect(d) {
+      for (const entry of fs.readdirSync(d, { withFileTypes: true })) {
+        const full = path.join(d, entry.name);
+        if (entry.isDirectory()) collect(full);
+        else files.push(full);
+      }
+    })(dir);
+  }
 
   const html = files.filter(f => f.endsWith('.html'));
   const bytes = files.reduce((total, f) => total + fs.statSync(f).size, 0);

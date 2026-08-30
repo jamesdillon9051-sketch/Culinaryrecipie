@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 'use strict';
-/** Minimal static server for previewing dist/ locally: `npm run serve`. */
+/** Minimal static server for previewing the generated site: `npm run serve`. */
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(__dirname, '..', 'dist');
+const ROOT = path.join(__dirname, '..');   /* the site is generated at the repo root */
 const PORT = process.env.PORT || 4173;
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',

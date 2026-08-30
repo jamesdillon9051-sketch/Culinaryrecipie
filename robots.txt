@@ -14,6 +14,11 @@ Disallow: /*?difficulty=
 # Personal, device-local pages have nothing to index
 Disallow: /favourites/
 
+# The site is generated into the repository root, so the project's own
+# directories sit alongside it. Nothing there is worth crawling.
+Disallow: /src/
+Disallow: /tools/
+
 User-agent: Googlebot
 Allow: /
 Allow: /assets/img/
