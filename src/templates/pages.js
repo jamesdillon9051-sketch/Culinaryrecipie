@@ -237,6 +237,9 @@ function home(ctx) {
     keywords: ['famous recipes', 'best recipes in the world', 'tested recipes', 'international recipes', 'cooking guide'],
     path: '',
     active: 'home',
+    /* Slots are placed between the sections above, so the layout must not
+       add its own. */
+    ownAdSlots: true,
     image: heroRecipe.imageData ? `${SITE.origin}${SITE.base}assets/img/recipes/${heroRecipe.imageData.file}.jpg` : undefined,
     imageAlt: 'A table of dishes from around the world',
     criticalCss: ctx.criticalCss,

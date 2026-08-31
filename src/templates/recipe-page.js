@@ -344,6 +344,9 @@ ${breadcrumbs(trail)}
     imageAlt: recipe.imageAlt,
     schema: [recipeSchema(recipe), breadcrumbSchema(trail)],
     scripts: ['recipe.js'],
+    /* Slots are placed in the article itself, below the intro and below the
+       method, so the layout must not add its own. */
+    ownAdSlots: true,
     criticalCss: context.criticalCss,
     categories: context.categoryCounts,
     cuisines: context.topCuisines,

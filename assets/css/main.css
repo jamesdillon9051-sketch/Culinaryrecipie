@@ -976,11 +976,41 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 .back-to-top svg { width: 19px; height: 19px; stroke: currentColor; fill: none; stroke-width: 2.2; }
 
 /* --------------------------------------------------------------- print */
+
+/* ------------------------------------------------------------------- ads */
+.ad-slot {
+  display: block;
+  margin: clamp(1.75rem, 4vw, 2.75rem) auto;
+  padding: 0;
+  text-align: center;
+  /* Holds the space before the network paints, so the slot filling in does
+     not shove the article down and cost us a CLS penalty. */
+  min-height: 140px;
+  container-type: inline-size;
+}
+.ad-slot__label {
+  display: block;
+  margin-bottom: .5rem;
+  font-family: var(--font-body);
+  font-size: .64rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  opacity: .68;
+}
+.ad-slot > div { margin-inline: auto; max-width: 100%; }
+.ad-slot iframe, .ad-slot img { max-width: 100%; }
+/* The in-article slot sits between two full-bleed sections, so it needs the
+   same horizontal rhythm as the prose around it. */
+.recipe-layout + .ad-slot { max-width: 760px; }
+
 @media print {
   @page { margin: 15mm; }
   .site-header, .site-footer, .action-bar, .recipe-aside, .related, .reviews,
   .newsletter, .back-to-top, .fav-btn, .share-row, .breadcrumbs, .toast,
-  .step-actions, .servings-control, .cook-exit, .skip-link { display: none !important; }
+  .step-actions, .servings-control, .cook-exit, .skip-link,
+  .ad-slot { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; line-height: 1.5; }
   .recipe-layout { display: block; }
   .recipe-hero { max-height: 68mm; box-shadow: none; border-radius: 0; page-break-inside: avoid; }
