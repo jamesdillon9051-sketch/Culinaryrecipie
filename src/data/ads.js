@@ -8,11 +8,16 @@
  * useful for local work, Lighthouse runs, or pulling the ads entirely.
  *
  * A note on the native banner. Adsterra's invoke.js fills one element, found
- * by `document.getElementById('container-<key>')`. Two slots on the same page
- * therefore need two *units*, each with its own key from the Adsterra
- * dashboard — reusing one key twice would put a duplicate id in the HTML and
- * only the first slot would ever fill. Add the second unit's key to
- * `nativeBanners` below and the in-article slot lights up on the next build.
+ * by `document.getElementById('container-<key>')`, and that returns a single
+ * node — so two copies of the snippet in one document leave the second slot
+ * empty, quite apart from the duplicate id being invalid HTML.
+ *
+ * The build works around it: the first slot on a page embeds the snippet
+ * directly, and any further slot is an iframe onto a one-slot document, which
+ * has its own DOM and so fills independently. One active unit therefore
+ * covers both the top and the bottom of every page. Adding a second unit
+ * below makes the lower slot a direct embed instead, which is marginally
+ * lighter — but nothing breaks if you never do.
  */
 module.exports = {
   enabled: true,
@@ -41,6 +46,14 @@ module.exports = {
     }
     */
   ],
+
+  /**
+   * Height in pixels of a framed native banner. An iframe cannot size itself
+   * to its content across documents, so this is reserved up front. Raise it
+   * if your unit renders taller than the space allowed; the wrapper scrolls
+   * nothing, so anything past this height would be clipped.
+   */
+  frameHeight: 300,
 
   /**
    * Every host the ad scripts are allowed to load from, used to build the

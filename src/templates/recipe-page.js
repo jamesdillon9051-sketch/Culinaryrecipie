@@ -198,7 +198,7 @@ ${breadcrumbs(trail)}
       </div>
     </div>
 
-    ${ads.nativeBanner(0, 'Advertisement below the recipe introduction')}
+    ${ads.nativeBanner(0, 'Advertisement below the recipe introduction', SITE.base)}
 
     <div class="recipe-layout">
       <div class="prose">
@@ -314,7 +314,7 @@ ${breadcrumbs(trail)}
       </aside>
     </div>
 
-    ${ads.nativeBanner(1, 'Advertisement below the method and ingredients')}
+    ${ads.nativeBanner(1, 'Advertisement below the method and ingredients', SITE.base)}
 
     <section class="related section" aria-labelledby="related-title">
       <div class="section-head">

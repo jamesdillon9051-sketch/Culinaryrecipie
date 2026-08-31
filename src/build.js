@@ -22,6 +22,7 @@ const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require
 const { plainList } = require('./lib/ingredients');
 const { SITE, slug } = require('./templates/layout');
 const { recipeCount } = require('./data/stats');
+const ads = require('./templates/ads');
 const pages = require('./templates/pages');
 const recipePage = require('./templates/recipe-page');
 
@@ -532,6 +533,15 @@ function build() {
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
   fs.writeFileSync(path.join(OUT, '_redirects'), '/*  /404.html  404\n');
+
+  /* The one-slot document that repeat native banner placements are framed
+     from. Written only when there is a unit to put in it. */
+  const frameHtml = ads.frameDocument(SITE.base);
+  if (frameHtml) {
+    const framePath = path.join(OUT, ads.FRAME_PATH);
+    fs.mkdirSync(path.dirname(framePath), { recursive: true });
+    fs.writeFileSync(framePath, frameHtml);
+  }
 
   /* Report --------------------------------------------------------------- */
   /* Walk only what we generated: at the repo root the tree also contains

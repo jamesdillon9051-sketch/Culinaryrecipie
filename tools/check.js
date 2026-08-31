@@ -34,7 +34,11 @@ function walk(dir, out = [], depth = 0) {
 }
 
 const files = walk(DIST);
-const htmlFiles = files.filter(f => f.endsWith('.html'));
+/* assets/ads/* are single-purpose documents framed into a page — an ad slot
+   and nothing else. They are deliberately without an h1, a canonical or a
+   skip link, so holding them to the page rules would only produce noise. */
+const htmlFiles = files.filter(f =>
+  f.endsWith('.html') && !path.relative(DIST, f).split(path.sep).join('/').startsWith('assets/ads/'));
 const existing = new Set(files.map(f => '/' + path.relative(DIST, f).split(path.sep).join('/')));
 
 function resolveHref(href) {

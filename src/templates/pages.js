@@ -117,7 +117,7 @@ function home(ctx) {
   </div>
 </section>
 
-<div class="wrap">${ads.nativeBanner(0, 'Advertisement below the header')}</div>
+<div class="wrap">${ads.nativeBanner(0, 'Advertisement below the header', SITE.base)}</div>
 
 <section class="section" aria-labelledby="editors-title">
   <div class="wrap">
@@ -161,7 +161,7 @@ function home(ctx) {
   </div>
 </section>
 
-<div class="wrap">${ads.nativeBanner(1, 'Advertisement between recipe sections')}</div>
+<div class="wrap">${ads.nativeBanner(1, 'Advertisement between recipe sections', SITE.base)}</div>
 
 <section class="section section--sunken" aria-labelledby="quick-title">
   <div class="wrap">

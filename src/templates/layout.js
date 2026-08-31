@@ -127,10 +127,9 @@ function footer(topCuisines) {
  *  active, image, imageAlt, schema (array), bodyClass, scripts (array),
  *  categories, cuisines, noindex
  *
- * Every page gets a native banner at the end of <main>. A page that places
- * its own slots in better positions sets `ownAdSlots: true` to suppress it —
- * without that, the page would carry two elements with the same container id
- * and the ad network would only ever fill the first.
+ * Every page gets a native banner above and below its content. A page that
+ * places its own slots in better positions sets `ownAdSlots: true` to
+ * suppress both, so it does not end up with four.
  */
 function layout(page) {
   const url = SITE.origin + SITE.base + (page.path || '');
@@ -212,8 +211,9 @@ ${ads.popunder()}
 <a class="skip-link" href="#main">Skip to content</a>
 ${header(page.active, page.categories || {})}
 <main id="main">
+${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(0, 'Advertisement at the top of the page', SITE.base)}</div>`}
 ${page.body}
-${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(0, 'Advertisement')}</div>`}
+${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(1, 'Advertisement at the bottom of the page', SITE.base)}</div>`}
 </main>
 ${footer(page.cuisines || [])}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
