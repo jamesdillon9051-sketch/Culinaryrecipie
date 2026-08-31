@@ -270,9 +270,9 @@
     "stir fried noodles prawns"
   ],
   "hainanese-chicken-rice": [
-    "chicken rice",
-    "poached chicken rice",
-    "Hainan chicken"
+    "hainanese chicken rice plate",
+    "poached chicken rice ginger",
+    "chicken rice cucumber plate"
   ],
   "arepas": [
     "arepa corn cake",
@@ -608,5 +608,30 @@
     "arroz rojo",
     "mexican red rice",
     "spanish rice bowl"
+  ],
+  "mac-and-cheese": [
+    "macaroni cheese dish",
+    "baked mac and cheese",
+    "cheesy pasta bake"
+  ],
+  "chicken-noodle-soup": [
+    "chicken noodle soup bowl",
+    "noodle soup chicken broth",
+    "homemade chicken soup noodles"
+  ],
+  "japanese-cheesecake": [
+    "japanese cotton cheesecake",
+    "souffle cheesecake slice",
+    "jiggly cheesecake"
+  ],
+  "buffalo-wings": [
+    "buffalo wings plate",
+    "hot wings celery blue cheese",
+    "chicken wings sauce plate"
+  ],
+  "spanakopita": [
+    "spanakopita pie slice",
+    "spinach feta filo pie",
+    "greek spinach pie"
   ]
 }

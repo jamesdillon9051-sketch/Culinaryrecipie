@@ -93,9 +93,20 @@ function parse(lines) {
   return lines.map(parseLine);
 }
 
-/** Plain-text ingredient list for Recipe schema's recipeIngredient. */
+/**
+ * Plain-text ingredient list for Recipe schema's recipeIngredient.
+ *
+ * Quantities go through the same formatter the page uses, so the structured
+ * data reads "1 \u00bd tsp" exactly as the visible list does rather than the
+ * "1.5 tsp" the source is written in.
+ */
 function plainList(lines) {
-  return parse(lines).filter(item => !item.group).map(item => item.raw);
+  return parse(lines).filter(item => !item.group).map(item => {
+    if (item.qty == null) return item.raw;
+    const qty = formatQty(item.qty, item.unit);
+    if (!qty) return item.raw;
+    return [qty, item.unit, item.name].filter(Boolean).join(' ');
+  });
 }
 
 module.exports = { parse, parseLine, plainList, formatQty, UNITS };

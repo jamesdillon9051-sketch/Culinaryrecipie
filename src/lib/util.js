@@ -90,7 +90,17 @@ const CUISINES = {
   'Moroccan':       { flag: '\u{1F1F2}\u{1F1E6}', blurb: 'Tagines, preserved lemon and warm spice.' },
   'Egyptian':       { flag: '\u{1F1EA}\u{1F1EC}', blurb: 'Street food built on lentils, rice and crisp onions.' },
   'Turkish':        { flag: '\u{1F1F9}\u{1F1F7}', blurb: 'Breakfast spreads, flatbreads and coffee ritual.' },
-  'International':  { flag: '\u{1F310}', blurb: 'Modern classics that belong to no single kitchen.' }
+  'International':  { flag: '\u{1F310}', blurb: 'Modern classics that belong to no single kitchen.' },
+  'Portuguese':     { flag: '\u{1F1F5}\u{1F1F9}', blurb: 'Salt cod, custard tarts and the sting of piri piri.' },
+  'Indonesian':     { flag: '\u{1F1EE}\u{1F1E9}', blurb: 'Spice pastes fried until the oil runs, then coconut milk.' },
+  'Malaysian':      { flag: '\u{1F1F2}\u{1F1FE}', blurb: 'Chinese, Malay and Indian cooking in one wok.' },
+  'Singaporean':    { flag: '\u{1F1F8}\u{1F1EC}', blurb: 'Hawker centre cooking, refined to a single perfect plate.' },
+  'Filipino':       { flag: '\u{1F1F5}\u{1F1ED}', blurb: 'Vinegar, soy and garlic, with sourness worn proudly.' },
+  'Venezuelan':     { flag: '\u{1F1FB}\u{1F1EA}', blurb: 'Corn cakes split and stuffed, morning and night.' },
+  'Salvadoran':     { flag: '\u{1F1F8}\u{1F1FB}', blurb: 'Masa griddled thick, and curtido on everything.' },
+  'Nigerian':       { flag: '\u{1F1F3}\u{1F1EC}', blurb: 'Pepper bases cooked down hard, and rice worth arguing over.' },
+  'Ethiopian':      { flag: '\u{1F1EA}\u{1F1F9}', blurb: 'Berbere, spiced butter and injera as plate and cutlery.' },
+  'South African':  { flag: '\u{1F1FF}\u{1F1E6}', blurb: 'Cape Malay spicing over a braai-shaped foundation.' }
 };
 
 /** Short editorial descriptions for the ten top-level categories. */
@@ -109,4 +119,9 @@ const CATEGORIES = {
 
 const DIET_TAGS = ['Vegetarian', 'Vegan', 'Gluten-Free', 'Keto', 'Dairy-Free', 'Low-Carb'];
 
-module.exports = { esc, jsonLd, humanTime, isoDuration, slugify, clamp, starsHtml, CUISINES, CATEGORIES, DIET_TAGS };
+/** "1 recipe" but "4 recipes" — the count is often 1 on a small cuisine. */
+function plural(n, singular, pluralForm) {
+  return `${n} ${n === 1 ? singular : (pluralForm || singular + 's')}`;
+}
+
+module.exports = { esc, jsonLd, humanTime, isoDuration, slugify, clamp, starsHtml, plural, CUISINES, CATEGORIES, DIET_TAGS };

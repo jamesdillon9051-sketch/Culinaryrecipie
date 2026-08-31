@@ -93,7 +93,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 970 image files (WebP + JPEG)
+│       └── img/recipes/         # 986 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -105,7 +105,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 970 image files
+├── assets/                      #    css, js and 986 image files
 ├── recipes/                     #    400 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -278,11 +278,11 @@ result** rather than trusting the search filter. Candidates are scored for
 relevance against the dish name, and archival material, illustrations, packaging
 shots and portraits are rejected.
 
-342 of the 400 recipes have photography. The other 58 fall back to a CSS gradient
+349 of the 400 recipes have photography. The other 51 fall back to a CSS gradient
 placeholder carrying the recipe name — the same fallback that catches any image
 that fails to load at runtime.
 
-Those 58 are a deliberate choice rather than a gap left to fill. The CC0 and
+Those 51 are a deliberate choice rather than a gap left to fill. The CC0 and
 public-domain archives simply do not hold a correct photograph of every dish, and
 a search that is loosened enough to find one starts returning things that are not
 the dish at all — a cargo ship for sangria, a toad for toad-in-the-hole. Those

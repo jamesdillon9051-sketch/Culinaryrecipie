@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/">Cuisines</a>
       <a href="/search/">Search</a>
@@ -122,7 +123,7 @@
   <div class="card-media" style="background:#b09a82">
     <picture>
         <source srcset="/assets/img/recipes/classic-cheeseburger.webp" type="image/webp">
-        <img src="/assets/img/recipes/classic-cheeseburger.jpg" alt="Classic Smash Cheeseburger — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/classic-cheeseburger.jpg" alt="Classic Smash Cheeseburger — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Smash Cheeseburger"
              data-ph-a="#b09a82" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#b8a976">
     <picture>
         <source srcset="/assets/img/recipes/chicken-tikka-masala.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-tikka-masala.jpg" alt="Chicken Tikka Masala — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-tikka-masala.jpg" alt="Chicken Tikka Masala — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Tikka Masala"
              data-ph-a="#b8a976" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -182,7 +183,7 @@
   <div class="card-media" style="background:#a18774">
     <picture>
         <source srcset="/assets/img/recipes/spaghetti-carbonara.webp" type="image/webp">
-        <img src="/assets/img/recipes/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Spaghetti Carbonara"
              data-ph-a="#a18774" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -212,7 +213,7 @@
   <div class="card-media" style="background:#938a74">
     <picture>
         <source srcset="/assets/img/recipes/butter-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/butter-chicken.jpg" alt="Butter Chicken (Murgh Makhani) — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/butter-chicken.jpg" alt="Butter Chicken (Murgh Makhani) — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Butter Chicken (Murgh Makhani)"
              data-ph-a="#938a74" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -242,7 +243,7 @@
   <div class="card-media" style="background:#bca283">
     <picture>
         <source srcset="/assets/img/recipes/pad-thai.webp" type="image/webp">
-        <img src="/assets/img/recipes/pad-thai.jpg" alt="Pad Thai — thai dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pad-thai.jpg" alt="Pad Thai — Thai dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pad Thai"
              data-ph-a="#bca283" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -272,7 +273,7 @@
   <div class="card-media" style="background:#ba8674">
     <picture>
         <source srcset="/assets/img/recipes/margherita-pizza.webp" type="image/webp">
-        <img src="/assets/img/recipes/margherita-pizza.jpg" alt="Margherita Pizza — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/margherita-pizza.jpg" alt="Margherita Pizza — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Margherita Pizza"
              data-ph-a="#ba8674" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -299,12 +300,12 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="120">
-  <div class="card-media" style="background:#af9a7e">
+  <div class="card-media" style="background:#95785d">
     <picture>
         <source srcset="/assets/img/recipes/mac-and-cheese.webp" type="image/webp">
-        <img src="/assets/img/recipes/mac-and-cheese.jpg" alt="Baked Mac and Cheese — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mac-and-cheese.jpg" alt="Baked Mac and Cheese — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Baked Mac and Cheese"
-             data-ph-a="#af9a7e" data-ph-b="#8c5a3c"
+             data-ph-a="#95785d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--brass">Trending</span></div>
@@ -332,7 +333,7 @@
   <div class="card-media" style="background:#ab914f">
     <picture>
         <source srcset="/assets/img/recipes/chicken-biryani.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-biryani.jpg" alt="Hyderabadi Chicken Biryani — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-biryani.jpg" alt="Hyderabadi Chicken Biryani — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Hyderabadi Chicken Biryani"
              data-ph-a="#ab914f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -362,7 +363,7 @@
   <div class="card-media" style="background:#a18274">
     <picture>
         <source srcset="/assets/img/recipes/birria-tacos.webp" type="image/webp">
-        <img src="/assets/img/recipes/birria-tacos.jpg" alt="Birria Tacos — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/birria-tacos.jpg" alt="Birria Tacos — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Birria Tacos"
              data-ph-a="#a18274" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -392,7 +393,7 @@
   <div class="card-media" style="background:#776753">
     <picture>
         <source srcset="/assets/img/recipes/tonkotsu-ramen.webp" type="image/webp">
-        <img src="/assets/img/recipes/tonkotsu-ramen.jpg" alt="Tonkotsu Ramen — japanese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tonkotsu-ramen.jpg" alt="Tonkotsu Ramen — Japanese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tonkotsu Ramen"
              data-ph-a="#776753" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -422,7 +423,7 @@
   <div class="card-media" style="background:#676758">
     <picture>
         <source srcset="/assets/img/recipes/tacos-al-pastor.webp" type="image/webp">
-        <img src="/assets/img/recipes/tacos-al-pastor.jpg" alt="Tacos al Pastor — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tacos-al-pastor.jpg" alt="Tacos al Pastor — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tacos al Pastor"
              data-ph-a="#676758" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -452,7 +453,7 @@
   <div class="card-media" style="background:#d2b596">
     <picture>
         <source srcset="/assets/img/recipes/southern-fried-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/southern-fried-chicken.jpg" alt="Southern Fried Chicken — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/southern-fried-chicken.jpg" alt="Southern Fried Chicken — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Southern Fried Chicken"
              data-ph-a="#d2b596" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -482,7 +483,7 @@
   <div class="card-media" style="background:#81614b">
     <picture>
         <source srcset="/assets/img/recipes/korean-fried-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/korean-fried-chicken.jpg" alt="Korean Fried Chicken — korean dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/korean-fried-chicken.jpg" alt="Korean Fried Chicken — Korean dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Korean Fried Chicken"
              data-ph-a="#81614b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -512,7 +513,7 @@
   <div class="card-media" style="background:#9f958b">
     <picture>
         <source srcset="/assets/img/recipes/lasagna-bolognese.webp" type="image/webp">
-        <img src="/assets/img/recipes/lasagna-bolognese.jpg" alt="Lasagna Bolognese — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lasagna-bolognese.jpg" alt="Lasagna Bolognese — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Lasagna Bolognese"
              data-ph-a="#9f958b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -542,7 +543,7 @@
   <div class="card-media" style="background:#998375">
     <picture>
         <source srcset="/assets/img/recipes/orange-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/orange-chicken.jpg" alt="Orange Chicken — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/orange-chicken.jpg" alt="Orange Chicken — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Orange Chicken"
              data-ph-a="#998375" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -572,7 +573,7 @@
   <div class="card-media" style="background:#766754">
     <picture>
         <source srcset="/assets/img/recipes/beef-stew.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-stew.jpg" alt="Hearty Beef Stew — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-stew.jpg" alt="Hearty Beef Stew — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Hearty Beef Stew"
              data-ph-a="#766754" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -602,7 +603,7 @@
   <div class="card-media" style="background:#817266">
     <picture>
         <source srcset="/assets/img/recipes/chicken-shawarma.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-shawarma.jpg" alt="Chicken Shawarma — middle eastern dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-shawarma.jpg" alt="Chicken Shawarma — Middle Eastern dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Shawarma"
              data-ph-a="#817266" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -632,7 +633,7 @@
   <div class="card-media" style="background:#8a817a">
     <picture>
         <source srcset="/assets/img/recipes/pho-bo.webp" type="image/webp">
-        <img src="/assets/img/recipes/pho-bo.jpg" alt="Phở Bò (Beef Noodle Soup) — vietnamese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pho-bo.jpg" alt="Phở Bò (Beef Noodle Soup) — Vietnamese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Phở Bò (Beef Noodle Soup)"
              data-ph-a="#8a817a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -662,7 +663,7 @@
   <div class="card-media" style="background:#a08b6f">
     <picture>
         <source srcset="/assets/img/recipes/chicken-katsu-curry.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-katsu-curry.jpg" alt="Chicken Katsu Curry — japanese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-katsu-curry.jpg" alt="Chicken Katsu Curry — Japanese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Katsu Curry"
              data-ph-a="#a08b6f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -689,8 +690,14 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="180">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Jollof Rice — nigerian dinner recipe, served and ready to eat"><span>Jollof Rice</span></div>
+  <div class="card-media" style="background:#845f4a">
+    <picture>
+        <source srcset="/assets/img/recipes/jollof-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/jollof-rice.jpg" alt="Jollof Rice — Nigerian dinner recipe, served and ready to eat"
+             width="800" height="600" data-fade data-title="Jollof Rice"
+             data-ph-a="#845f4a" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
     <div class="card-badges"><span class="badge badge--glass">Nigerian</span><span class="badge badge--solid">Editor’s Pick</span></div>
     <button class="fav-btn" type="button" data-slug="jollof-rice" data-title="Jollof Rice"
             aria-pressed="false" aria-label="Save Jollof Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -716,7 +723,7 @@
   <div class="card-media" style="background:#7b868a">
     <picture>
         <source srcset="/assets/img/recipes/beef-bourguignon.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-bourguignon.jpg" alt="Beef Bourguignon — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-bourguignon.jpg" alt="Beef Bourguignon — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Bourguignon"
              data-ph-a="#7b868a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -746,7 +753,7 @@
   <div class="card-media" style="background:#bca181">
     <picture>
         <source srcset="/assets/img/recipes/kung-pao-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/kung-pao-chicken.jpg" alt="Kung Pao Chicken — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/kung-pao-chicken.jpg" alt="Kung Pao Chicken — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Kung Pao Chicken"
              data-ph-a="#bca181" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -776,7 +783,7 @@
   <div class="card-media" style="background:#8e7c6c">
     <picture>
         <source srcset="/assets/img/recipes/paella-valenciana.webp" type="image/webp">
-        <img src="/assets/img/recipes/paella-valenciana.jpg" alt="Paella Valenciana — spanish dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/paella-valenciana.jpg" alt="Paella Valenciana — Spanish dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Paella Valenciana"
              data-ph-a="#8e7c6c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -806,7 +813,7 @@
   <div class="card-media" style="background:#a5936c">
     <picture>
         <source srcset="/assets/img/recipes/chicken-parmigiana.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-parmigiana.jpg" alt="Chicken Parmigiana — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-parmigiana.jpg" alt="Chicken Parmigiana — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Parmigiana"
              data-ph-a="#a5936c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -836,7 +843,7 @@
   <div class="card-media" style="background:#604f44">
     <picture>
         <source srcset="/assets/img/recipes/bbq-baby-back-ribs.webp" type="image/webp">
-        <img src="/assets/img/recipes/bbq-baby-back-ribs.jpg" alt="BBQ Baby Back Ribs — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bbq-baby-back-ribs.jpg" alt="BBQ Baby Back Ribs — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="BBQ Baby Back Ribs"
              data-ph-a="#604f44" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -866,7 +873,7 @@
   <div class="card-media" style="background:#70593c">
     <picture>
         <source srcset="/assets/img/recipes/thai-green-curry.webp" type="image/webp">
-        <img src="/assets/img/recipes/thai-green-curry.jpg" alt="Thai Green Curry — thai dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/thai-green-curry.jpg" alt="Thai Green Curry — Thai dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Thai Green Curry"
              data-ph-a="#70593c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -896,7 +903,7 @@
   <div class="card-media" style="background:#8f7866">
     <picture>
         <source srcset="/assets/img/recipes/fish-and-chips.webp" type="image/webp">
-        <img src="/assets/img/recipes/fish-and-chips.jpg" alt="Beer-Battered Fish and Chips — british dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/fish-and-chips.jpg" alt="Beer-Battered Fish and Chips — British dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beer-Battered Fish and Chips"
              data-ph-a="#8f7866" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -924,7 +931,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chicken Pot Pie — american dinner recipe, served and ready to eat"><span>Chicken Pot Pie</span></div>
+    <div class="img-fallback" role="img" aria-label="Chicken Pot Pie — American dinner recipe, served and ready to eat"><span>Chicken Pot Pie</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--solid">Editor’s Pick</span></div>
     <button class="fav-btn" type="button" data-slug="chicken-pot-pie" data-title="Chicken Pot Pie"
             aria-pressed="false" aria-label="Save Chicken Pot Pie to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -950,7 +957,7 @@
   <div class="card-media" style="background:#a58664">
     <picture>
         <source srcset="/assets/img/recipes/chicken-enchiladas.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-enchiladas.jpg" alt="Chicken Enchiladas Rojas — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-enchiladas.jpg" alt="Chicken Enchiladas Rojas — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Enchiladas Rojas"
              data-ph-a="#a58664" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -980,7 +987,7 @@
   <div class="card-media" style="background:#8e7965">
     <picture>
         <source srcset="/assets/img/recipes/bibimbap.webp" type="image/webp">
-        <img src="/assets/img/recipes/bibimbap.jpg" alt="Bibimbap — korean dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bibimbap.jpg" alt="Bibimbap — Korean dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Bibimbap"
              data-ph-a="#8e7965" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1010,7 +1017,7 @@
   <div class="card-media" style="background:#8d7e69">
     <picture>
         <source srcset="/assets/img/recipes/chicken-korma.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-korma.jpg" alt="Chicken Korma — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-korma.jpg" alt="Chicken Korma — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Korma"
              data-ph-a="#8d7e69" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1040,7 +1047,7 @@
   <div class="card-media" style="background:#9f8a75">
     <picture>
         <source srcset="/assets/img/recipes/beef-stroganoff.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-stroganoff.jpg" alt="Beef Stroganoff — russian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-stroganoff.jpg" alt="Beef Stroganoff — Russian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Stroganoff"
              data-ph-a="#9f8a75" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1070,7 +1077,7 @@
   <div class="card-media" style="background:#88755a">
     <picture>
         <source srcset="/assets/img/recipes/bulgogi.webp" type="image/webp">
-        <img src="/assets/img/recipes/bulgogi.jpg" alt="Beef Bulgogi — korean dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bulgogi.jpg" alt="Beef Bulgogi — Korean dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Bulgogi"
              data-ph-a="#88755a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1100,7 +1107,7 @@
   <div class="card-media" style="background:#907c67">
     <picture>
         <source srcset="/assets/img/recipes/shepherds-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/shepherds-pie.jpg" alt="Shepherd&#39;s Pie — british dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/shepherds-pie.jpg" alt="Shepherd&#39;s Pie — British dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Shepherd&#39;s Pie"
              data-ph-a="#907c67" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1130,7 +1137,7 @@
   <div class="card-media" style="background:#77455d">
     <picture>
         <source srcset="/assets/img/recipes/french-onion-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/french-onion-soup.jpg" alt="French Onion Soup — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/french-onion-soup.jpg" alt="French Onion Soup — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="French Onion Soup"
              data-ph-a="#77455d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1160,7 +1167,7 @@
   <div class="card-media" style="background:#9e7d61">
     <picture>
         <source srcset="/assets/img/recipes/general-tsos-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/general-tsos-chicken.jpg" alt="General Tso&#39;s Chicken — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/general-tsos-chicken.jpg" alt="General Tso&#39;s Chicken — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="General Tso&#39;s Chicken"
              data-ph-a="#9e7d61" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1190,7 +1197,7 @@
   <div class="card-media" style="background:#6e5646">
     <picture>
         <source srcset="/assets/img/recipes/chili-con-carne.webp" type="image/webp">
-        <img src="/assets/img/recipes/chili-con-carne.jpg" alt="Chili con Carne — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chili-con-carne.jpg" alt="Chili con Carne — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chili con Carne"
              data-ph-a="#6e5646" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1220,7 +1227,7 @@
   <div class="card-media" style="background:#e0cfab">
     <picture>
         <source srcset="/assets/img/recipes/fettuccine-alfredo.webp" type="image/webp">
-        <img src="/assets/img/recipes/fettuccine-alfredo.jpg" alt="Fettuccine Alfredo — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/fettuccine-alfredo.jpg" alt="Fettuccine Alfredo — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Fettuccine Alfredo"
              data-ph-a="#e0cfab" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1250,7 +1257,7 @@
   <div class="card-media" style="background:#aa9e7e">
     <picture>
         <source srcset="/assets/img/recipes/carnitas.webp" type="image/webp">
-        <img src="/assets/img/recipes/carnitas.jpg" alt="Slow-Braised Carnitas — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/carnitas.jpg" alt="Slow-Braised Carnitas — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Slow-Braised Carnitas"
              data-ph-a="#aa9e7e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1280,7 +1287,7 @@
   <div class="card-media" style="background:#a69a8a">
     <picture>
         <source srcset="/assets/img/recipes/beef-rendang.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-rendang.jpg" alt="Beef Rendang — indonesian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-rendang.jpg" alt="Beef Rendang — Indonesian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Rendang"
              data-ph-a="#a69a8a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1310,7 +1317,7 @@
   <div class="card-media" style="background:#8a755a">
     <picture>
         <source srcset="/assets/img/recipes/palak-paneer.webp" type="image/webp">
-        <img src="/assets/img/recipes/palak-paneer.jpg" alt="Palak Paneer — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/palak-paneer.jpg" alt="Palak Paneer — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Palak Paneer"
              data-ph-a="#8a755a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1340,7 +1347,7 @@
   <div class="card-media" style="background:#95836a">
     <picture>
         <source srcset="/assets/img/recipes/swedish-meatballs.webp" type="image/webp">
-        <img src="/assets/img/recipes/swedish-meatballs.jpg" alt="Swedish Meatballs — swedish dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/swedish-meatballs.jpg" alt="Swedish Meatballs — Swedish dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Swedish Meatballs"
              data-ph-a="#95836a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1370,7 +1377,7 @@
   <div class="card-media" style="background:#776155">
     <picture>
         <source srcset="/assets/img/recipes/thai-red-curry.webp" type="image/webp">
-        <img src="/assets/img/recipes/thai-red-curry.jpg" alt="Thai Red Curry — thai dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/thai-red-curry.jpg" alt="Thai Red Curry — Thai dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Thai Red Curry"
              data-ph-a="#776155" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1398,7 +1405,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chimichurri Steak — argentinian dinner recipe, served and ready to eat"><span>Chimichurri Steak</span></div>
+    <div class="img-fallback" role="img" aria-label="Chimichurri Steak — Argentinian dinner recipe, served and ready to eat"><span>Chimichurri Steak</span></div>
     <div class="card-badges"><span class="badge badge--glass">Argentinian</span><span class="badge badge--brass">Trending</span></div>
     <button class="fav-btn" type="button" data-slug="chimichurri-steak" data-title="Chimichurri Steak"
             aria-pressed="false" aria-label="Save Chimichurri Steak to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1424,7 +1431,7 @@
   <div class="card-media" style="background:#545458">
     <picture>
         <source srcset="/assets/img/recipes/chicken-souvlaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-souvlaki.jpg" alt="Chicken Souvlaki — greek dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-souvlaki.jpg" alt="Chicken Souvlaki — Greek dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Souvlaki"
              data-ph-a="#545458" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1454,7 +1461,7 @@
   <div class="card-media" style="background:#8d8637">
     <picture>
         <source srcset="/assets/img/recipes/chicken-adobo.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-adobo.jpg" alt="Chicken Adobo — filipino dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-adobo.jpg" alt="Chicken Adobo — Filipino dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Adobo"
              data-ph-a="#8d8637" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1484,7 +1491,7 @@
   <div class="card-media" style="background:#937a68">
     <picture>
         <source srcset="/assets/img/recipes/sweet-and-sour-pork.webp" type="image/webp">
-        <img src="/assets/img/recipes/sweet-and-sour-pork.jpg" alt="Sweet and Sour Pork — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sweet-and-sour-pork.jpg" alt="Sweet and Sour Pork — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sweet and Sour Pork"
              data-ph-a="#937a68" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1514,7 +1521,7 @@
   <div class="card-media" style="background:#988682">
     <picture>
         <source srcset="/assets/img/recipes/sesame-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/sesame-chicken.jpg" alt="Sesame Chicken — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sesame-chicken.jpg" alt="Sesame Chicken — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sesame Chicken"
              data-ph-a="#988682" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1544,7 +1551,7 @@
   <div class="card-media" style="background:#b69769">
     <picture>
         <source srcset="/assets/img/recipes/tandoori-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/tandoori-chicken.jpg" alt="Tandoori Chicken — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tandoori-chicken.jpg" alt="Tandoori Chicken — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tandoori Chicken"
              data-ph-a="#b69769" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1574,7 +1581,7 @@
   <div class="card-media" style="background:#a29890">
     <picture>
         <source srcset="/assets/img/recipes/jerk-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/jerk-chicken.jpg" alt="Jamaican Jerk Chicken — jamaican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/jerk-chicken.jpg" alt="Jamaican Jerk Chicken — Jamaican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Jamaican Jerk Chicken"
              data-ph-a="#a29890" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1604,7 +1611,7 @@
   <div class="card-media" style="background:#967364">
     <picture>
         <source srcset="/assets/img/recipes/jambalaya.webp" type="image/webp">
-        <img src="/assets/img/recipes/jambalaya.jpg" alt="Louisiana Jambalaya — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/jambalaya.jpg" alt="Louisiana Jambalaya — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Louisiana Jambalaya"
              data-ph-a="#967364" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1632,7 +1639,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Piri Piri Chicken — portuguese dinner recipe, served and ready to eat"><span>Piri Piri Chicken</span></div>
+    <div class="img-fallback" role="img" aria-label="Piri Piri Chicken — Portuguese dinner recipe, served and ready to eat"><span>Piri Piri Chicken</span></div>
     <div class="card-badges"><span class="badge badge--glass">Portuguese</span><span class="badge badge--brass">Trending</span></div>
     <button class="fav-btn" type="button" data-slug="piri-piri-chicken" data-title="Piri Piri Chicken"
             aria-pressed="false" aria-label="Save Piri Piri Chicken to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1658,7 +1665,7 @@
   <div class="card-media" style="background:#9b8368">
     <picture>
         <source srcset="/assets/img/recipes/pork-schnitzel.webp" type="image/webp">
-        <img src="/assets/img/recipes/pork-schnitzel.jpg" alt="Pork Schnitzel — german dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pork-schnitzel.jpg" alt="Pork Schnitzel — German dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pork Schnitzel"
              data-ph-a="#9b8368" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1688,7 +1695,7 @@
   <div class="card-media" style="background:#8b8380">
     <picture>
         <source srcset="/assets/img/recipes/moroccan-chicken-tagine.webp" type="image/webp">
-        <img src="/assets/img/recipes/moroccan-chicken-tagine.jpg" alt="Moroccan Chicken Tagine — moroccan dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/moroccan-chicken-tagine.jpg" alt="Moroccan Chicken Tagine — Moroccan dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Moroccan Chicken Tagine"
              data-ph-a="#8b8380" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1718,7 +1725,7 @@
   <div class="card-media" style="background:#a47556">
     <picture>
         <source srcset="/assets/img/recipes/gratin-dauphinois.webp" type="image/webp">
-        <img src="/assets/img/recipes/gratin-dauphinois.jpg" alt="Gratin Dauphinois — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gratin-dauphinois.jpg" alt="Gratin Dauphinois — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gratin Dauphinois"
              data-ph-a="#a47556" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1748,7 +1755,7 @@
   <div class="card-media" style="background:#8f8a56">
     <picture>
         <source srcset="/assets/img/recipes/shrimp-and-grits.webp" type="image/webp">
-        <img src="/assets/img/recipes/shrimp-and-grits.jpg" alt="Shrimp and Grits — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/shrimp-and-grits.jpg" alt="Shrimp and Grits — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Shrimp and Grits"
              data-ph-a="#8f8a56" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1778,7 +1785,7 @@
   <div class="card-media" style="background:#8a785f">
     <picture>
         <source srcset="/assets/img/recipes/cottage-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/cottage-pie.jpg" alt="Cottage Pie — british dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cottage-pie.jpg" alt="Cottage Pie — British dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cottage Pie"
              data-ph-a="#8a785f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1805,8 +1812,14 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="60">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Hainanese Chicken Rice — singaporean dinner recipe, served and ready to eat"><span>Hainanese Chicken Rice</span></div>
+  <div class="card-media" style="background:#88837b">
+    <picture>
+        <source srcset="/assets/img/recipes/hainanese-chicken-rice.webp" type="image/webp">
+        <img src="/assets/img/recipes/hainanese-chicken-rice.jpg" alt="Hainanese Chicken Rice — Singaporean dinner recipe, served and ready to eat"
+             width="800" height="600" data-fade data-title="Hainanese Chicken Rice"
+             data-ph-a="#88837b" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
     <div class="card-badges"><span class="badge badge--glass">Singaporean</span><span class="badge badge--solid">Editor’s Pick</span></div>
     <button class="fav-btn" type="button" data-slug="hainanese-chicken-rice" data-title="Hainanese Chicken Rice"
             aria-pressed="false" aria-label="Save Hainanese Chicken Rice to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1832,7 +1845,7 @@
   <div class="card-media" style="background:#af998c">
     <picture>
         <source srcset="/assets/img/recipes/steak-frites.webp" type="image/webp">
-        <img src="/assets/img/recipes/steak-frites.jpg" alt="Steak Frites — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/steak-frites.jpg" alt="Steak Frites — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Steak Frites"
              data-ph-a="#af998c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1862,7 +1875,7 @@
   <div class="card-media" style="background:#a28b7c">
     <picture>
         <source srcset="/assets/img/recipes/melanzane-alla-parmigiana.webp" type="image/webp">
-        <img src="/assets/img/recipes/melanzane-alla-parmigiana.jpg" alt="Melanzane alla Parmigiana — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/melanzane-alla-parmigiana.jpg" alt="Melanzane alla Parmigiana — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Melanzane alla Parmigiana"
              data-ph-a="#a28b7c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1892,7 +1905,7 @@
   <div class="card-media" style="background:#9b8171">
     <picture>
         <source srcset="/assets/img/recipes/gumbo.webp" type="image/webp">
-        <img src="/assets/img/recipes/gumbo.jpg" alt="Chicken and Sausage Gumbo — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gumbo.jpg" alt="Chicken and Sausage Gumbo — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken and Sausage Gumbo"
              data-ph-a="#9b8171" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1922,7 +1935,7 @@
   <div class="card-media" style="background:#938058">
     <picture>
         <source srcset="/assets/img/recipes/laksa.webp" type="image/webp">
-        <img src="/assets/img/recipes/laksa.jpg" alt="Curry Laksa — malaysian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/laksa.jpg" alt="Curry Laksa — Malaysian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Curry Laksa"
              data-ph-a="#938058" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1952,7 +1965,7 @@
   <div class="card-media" style="background:#a59793">
     <picture>
         <source srcset="/assets/img/recipes/meatloaf.webp" type="image/webp">
-        <img src="/assets/img/recipes/meatloaf.jpg" alt="Classic Meatloaf — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/meatloaf.jpg" alt="Classic Meatloaf — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Meatloaf"
              data-ph-a="#a59793" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1982,7 +1995,7 @@
   <div class="card-media" style="background:#b4665a">
     <picture>
         <source srcset="/assets/img/recipes/mapo-tofu.webp" type="image/webp">
-        <img src="/assets/img/recipes/mapo-tofu.jpg" alt="Mapo Tofu — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mapo-tofu.jpg" alt="Mapo Tofu — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Mapo Tofu"
              data-ph-a="#b4665a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2012,7 +2025,7 @@
   <div class="card-media" style="background:#ae855e">
     <picture>
         <source srcset="/assets/img/recipes/hungarian-goulash.webp" type="image/webp">
-        <img src="/assets/img/recipes/hungarian-goulash.jpg" alt="Hungarian Goulash — hungarian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/hungarian-goulash.jpg" alt="Hungarian Goulash — Hungarian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Hungarian Goulash"
              data-ph-a="#ae855e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2040,7 +2053,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Galbi (Korean Short Ribs) — korean dinner recipe, served and ready to eat"><span>Galbi (Korean Short Ribs)</span></div>
+    <div class="img-fallback" role="img" aria-label="Galbi (Korean Short Ribs) — Korean dinner recipe, served and ready to eat"><span>Galbi (Korean Short Ribs)</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="galbi" data-title="Galbi (Korean Short Ribs)"
             aria-pressed="false" aria-label="Save Galbi (Korean Short Ribs) to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2064,7 +2077,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chicken Kiev — ukrainian dinner recipe, served and ready to eat"><span>Chicken Kiev</span></div>
+    <div class="img-fallback" role="img" aria-label="Chicken Kiev — Ukrainian dinner recipe, served and ready to eat"><span>Chicken Kiev</span></div>
     <div class="card-badges"><span class="badge badge--glass">Ukrainian</span></div>
     <button class="fav-btn" type="button" data-slug="chicken-kiev" data-title="Chicken Kiev"
             aria-pressed="false" aria-label="Save Chicken Kiev to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2090,7 +2103,7 @@
   <div class="card-media" style="background:#a28a6f">
     <picture>
         <source srcset="/assets/img/recipes/lamb-kofta-kebabs.webp" type="image/webp">
-        <img src="/assets/img/recipes/lamb-kofta-kebabs.jpg" alt="Lamb Kofta Kebabs — middle eastern dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lamb-kofta-kebabs.jpg" alt="Lamb Kofta Kebabs — Middle Eastern dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Lamb Kofta Kebabs"
              data-ph-a="#a28a6f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2120,7 +2133,7 @@
   <div class="card-media" style="background:#a98b77">
     <picture>
         <source srcset="/assets/img/recipes/bucatini-all-amatriciana.webp" type="image/webp">
-        <img src="/assets/img/recipes/bucatini-all-amatriciana.jpg" alt="Bucatini all&#39;Amatriciana — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bucatini-all-amatriciana.jpg" alt="Bucatini all&#39;Amatriciana — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Bucatini all&#39;Amatriciana"
              data-ph-a="#a98b77" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2150,7 +2163,7 @@
   <div class="card-media" style="background:#7d7467">
     <picture>
         <source srcset="/assets/img/recipes/moules-marinieres.webp" type="image/webp">
-        <img src="/assets/img/recipes/moules-marinieres.jpg" alt="Moules Marinières — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/moules-marinieres.jpg" alt="Moules Marinières — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Moules Marinières"
              data-ph-a="#7d7467" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2180,7 +2193,7 @@
   <div class="card-media" style="background:#9b856c">
     <picture>
         <source srcset="/assets/img/recipes/lomo-saltado.webp" type="image/webp">
-        <img src="/assets/img/recipes/lomo-saltado.jpg" alt="Lomo Saltado — peruvian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lomo-saltado.jpg" alt="Lomo Saltado — Peruvian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Lomo Saltado"
              data-ph-a="#9b856c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2210,7 +2223,7 @@
   <div class="card-media" style="background:#97836e">
     <picture>
         <source srcset="/assets/img/recipes/moussaka.webp" type="image/webp">
-        <img src="/assets/img/recipes/moussaka.jpg" alt="Moussaka — greek dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/moussaka.jpg" alt="Moussaka — Greek dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Moussaka"
              data-ph-a="#97836e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2240,7 +2253,7 @@
   <div class="card-media" style="background:#907d69">
     <picture>
         <source srcset="/assets/img/recipes/pierogi.webp" type="image/webp">
-        <img src="/assets/img/recipes/pierogi.jpg" alt="Potato and Cheese Pierogi — polish dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pierogi.jpg" alt="Potato and Cheese Pierogi — Polish dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Potato and Cheese Pierogi"
              data-ph-a="#907d69" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2270,7 +2283,7 @@
   <div class="card-media" style="background:#6f6551">
     <picture>
         <source srcset="/assets/img/recipes/spaghetti-alle-vongole.webp" type="image/webp">
-        <img src="/assets/img/recipes/spaghetti-alle-vongole.jpg" alt="Spaghetti alle Vongole — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/spaghetti-alle-vongole.jpg" alt="Spaghetti alle Vongole — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Spaghetti alle Vongole"
              data-ph-a="#6f6551" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2300,7 +2313,7 @@
   <div class="card-media" style="background:#81593e">
     <picture>
         <source srcset="/assets/img/recipes/hong-shao-rou.webp" type="image/webp">
-        <img src="/assets/img/recipes/hong-shao-rou.jpg" alt="Red-Braised Pork Belly — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/hong-shao-rou.jpg" alt="Red-Braised Pork Belly — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Red-Braised Pork Belly"
              data-ph-a="#81593e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2330,7 +2343,7 @@
   <div class="card-media" style="background:#a99476">
     <picture>
         <source srcset="/assets/img/recipes/khao-soi.webp" type="image/webp">
-        <img src="/assets/img/recipes/khao-soi.jpg" alt="Khao Soi — thai dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/khao-soi.jpg" alt="Khao Soi — Thai dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Khao Soi"
              data-ph-a="#a99476" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2358,7 +2371,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Sundubu Jjigae — korean dinner recipe, served and ready to eat"><span>Sundubu Jjigae</span></div>
+    <div class="img-fallback" role="img" aria-label="Sundubu Jjigae — Korean dinner recipe, served and ready to eat"><span>Sundubu Jjigae</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="sundubu-jjigae" data-title="Sundubu Jjigae"
             aria-pressed="false" aria-label="Save Sundubu Jjigae to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2382,7 +2395,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Jamaican Curry Goat — jamaican dinner recipe, served and ready to eat"><span>Jamaican Curry Goat</span></div>
+    <div class="img-fallback" role="img" aria-label="Jamaican Curry Goat — Jamaican dinner recipe, served and ready to eat"><span>Jamaican Curry Goat</span></div>
     <div class="card-badges"><span class="badge badge--glass">Jamaican</span></div>
     <button class="fav-btn" type="button" data-slug="jamaican-curry-goat" data-title="Jamaican Curry Goat"
             aria-pressed="false" aria-label="Save Jamaican Curry Goat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2408,7 +2421,7 @@
   <div class="card-media" style="background:#aa7550">
     <picture>
         <source srcset="/assets/img/recipes/char-siu.webp" type="image/webp">
-        <img src="/assets/img/recipes/char-siu.jpg" alt="Char Siu Pork — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/char-siu.jpg" alt="Char Siu Pork — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Char Siu Pork"
              data-ph-a="#aa7550" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2438,7 +2451,7 @@
   <div class="card-media" style="background:#b39f6e">
     <picture>
         <source srcset="/assets/img/recipes/chicken-fried-steak.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-fried-steak.jpg" alt="Chicken Fried Steak — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-fried-steak.jpg" alt="Chicken Fried Steak — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Fried Steak"
              data-ph-a="#b39f6e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2468,7 +2481,7 @@
   <div class="card-media" style="background:#7a6359">
     <picture>
         <source srcset="/assets/img/recipes/coq-au-vin.webp" type="image/webp">
-        <img src="/assets/img/recipes/coq-au-vin.jpg" alt="Coq au Vin — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/coq-au-vin.jpg" alt="Coq au Vin — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Coq au Vin"
              data-ph-a="#7a6359" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2498,7 +2511,7 @@
   <div class="card-media" style="background:#a28563">
     <picture>
         <source srcset="/assets/img/recipes/dan-dan-noodles.webp" type="image/webp">
-        <img src="/assets/img/recipes/dan-dan-noodles.jpg" alt="Dan Dan Noodles — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/dan-dan-noodles.jpg" alt="Dan Dan Noodles — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Dan Dan Noodles"
              data-ph-a="#a28563" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2528,7 +2541,7 @@
   <div class="card-media" style="background:#9b7141">
     <picture>
         <source srcset="/assets/img/recipes/massaman-curry.webp" type="image/webp">
-        <img src="/assets/img/recipes/massaman-curry.jpg" alt="Massaman Beef Curry — thai dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/massaman-curry.jpg" alt="Massaman Beef Curry — Thai dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Massaman Beef Curry"
              data-ph-a="#9b7141" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2558,7 +2571,7 @@
   <div class="card-media" style="background:#8c8172">
     <picture>
         <source srcset="/assets/img/recipes/tartiflette.webp" type="image/webp">
-        <img src="/assets/img/recipes/tartiflette.jpg" alt="Tartiflette — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tartiflette.jpg" alt="Tartiflette — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tartiflette"
              data-ph-a="#8c8172" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2588,7 +2601,7 @@
   <div class="card-media" style="background:#85796a">
     <picture>
         <source srcset="/assets/img/recipes/japchae.webp" type="image/webp">
-        <img src="/assets/img/recipes/japchae.jpg" alt="Japchae — korean dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/japchae.jpg" alt="Japchae — Korean dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Japchae"
              data-ph-a="#85796a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2615,8 +2628,14 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="60">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Malai Kofta — indian dinner recipe, served and ready to eat"><span>Malai Kofta</span></div>
+  <div class="card-media" style="background:#935835">
+    <picture>
+        <source srcset="/assets/img/recipes/malai-kofta.webp" type="image/webp">
+        <img src="/assets/img/recipes/malai-kofta.jpg" alt="Malai Kofta — Indian dinner recipe, served and ready to eat"
+             width="800" height="600" data-fade data-title="Malai Kofta"
+             data-ph-a="#935835" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
     <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
     <button class="fav-btn" type="button" data-slug="malai-kofta" data-title="Malai Kofta"
             aria-pressed="false" aria-label="Save Malai Kofta to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2640,7 +2659,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Toad in the Hole — british dinner recipe, served and ready to eat"><span>Toad in the Hole</span></div>
+    <div class="img-fallback" role="img" aria-label="Toad in the Hole — British dinner recipe, served and ready to eat"><span>Toad in the Hole</span></div>
     <div class="card-badges"><span class="badge badge--glass">British</span></div>
     <button class="fav-btn" type="button" data-slug="toad-in-the-hole" data-title="Toad in the Hole"
             aria-pressed="false" aria-label="Save Toad in the Hole to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2666,7 +2685,7 @@
   <div class="card-media" style="background:#8e8276">
     <picture>
         <source srcset="/assets/img/recipes/potato-gnocchi.webp" type="image/webp">
-        <img src="/assets/img/recipes/potato-gnocchi.jpg" alt="Potato Gnocchi with Sage Butter — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/potato-gnocchi.jpg" alt="Potato Gnocchi with Sage Butter — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Potato Gnocchi with Sage Butter"
              data-ph-a="#8e8276" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2696,7 +2715,7 @@
   <div class="card-media" style="background:#93887d">
     <picture>
         <source srcset="/assets/img/recipes/pasta-alla-norma.webp" type="image/webp">
-        <img src="/assets/img/recipes/pasta-alla-norma.jpg" alt="Pasta alla Norma — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pasta-alla-norma.jpg" alt="Pasta alla Norma — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pasta alla Norma"
              data-ph-a="#93887d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2724,7 +2743,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Käsespätzle — german dinner recipe, served and ready to eat"><span>Käsespätzle</span></div>
+    <div class="img-fallback" role="img" aria-label="Käsespätzle — German dinner recipe, served and ready to eat"><span>Käsespätzle</span></div>
     <div class="card-badges"><span class="badge badge--glass">German</span></div>
     <button class="fav-btn" type="button" data-slug="spaetzle" data-title="Käsespätzle"
             aria-pressed="false" aria-label="Save Käsespätzle to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2750,7 +2769,7 @@
   <div class="card-media" style="background:#c0b2a6">
     <picture>
         <source srcset="/assets/img/recipes/sukiyaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/sukiyaki.jpg" alt="Sukiyaki — japanese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sukiyaki.jpg" alt="Sukiyaki — Japanese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sukiyaki"
              data-ph-a="#c0b2a6" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2780,7 +2799,7 @@
   <div class="card-media" style="background:#86746f">
     <picture>
         <source srcset="/assets/img/recipes/cochinita-pibil.webp" type="image/webp">
-        <img src="/assets/img/recipes/cochinita-pibil.jpg" alt="Cochinita Pibil — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cochinita-pibil.jpg" alt="Cochinita Pibil — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cochinita Pibil"
              data-ph-a="#86746f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2808,7 +2827,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Moqueca Baiana — brazilian dinner recipe, served and ready to eat"><span>Moqueca Baiana</span></div>
+    <div class="img-fallback" role="img" aria-label="Moqueca Baiana — Brazilian dinner recipe, served and ready to eat"><span>Moqueca Baiana</span></div>
     <div class="card-badges"><span class="badge badge--glass">Brazilian</span></div>
     <button class="fav-btn" type="button" data-slug="moqueca" data-title="Moqueca Baiana"
             aria-pressed="false" aria-label="Save Moqueca Baiana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2834,7 +2853,7 @@
   <div class="card-media" style="background:#8c745e">
     <picture>
         <source srcset="/assets/img/recipes/bangers-and-mash.webp" type="image/webp">
-        <img src="/assets/img/recipes/bangers-and-mash.jpg" alt="Bangers and Mash with Onion Gravy — british dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bangers-and-mash.jpg" alt="Bangers and Mash with Onion Gravy — British dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Bangers and Mash with Onion Gravy"
              data-ph-a="#8c745e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2862,7 +2881,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Dakgalbi — korean dinner recipe, served and ready to eat"><span>Dakgalbi</span></div>
+    <div class="img-fallback" role="img" aria-label="Dakgalbi — Korean dinner recipe, served and ready to eat"><span>Dakgalbi</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="dakgalbi" data-title="Dakgalbi"
             aria-pressed="false" aria-label="Save Dakgalbi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2886,7 +2905,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Egusi Soup — nigerian dinner recipe, served and ready to eat"><span>Egusi Soup</span></div>
+    <div class="img-fallback" role="img" aria-label="Egusi Soup — Nigerian dinner recipe, served and ready to eat"><span>Egusi Soup</span></div>
     <div class="card-badges"><span class="badge badge--glass">Nigerian</span></div>
     <button class="fav-btn" type="button" data-slug="egusi-soup" data-title="Egusi Soup"
             aria-pressed="false" aria-label="Save Egusi Soup to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -2912,7 +2931,7 @@
   <div class="card-media" style="background:#a7998e">
     <picture>
         <source srcset="/assets/img/recipes/risotto-alla-milanese.webp" type="image/webp">
-        <img src="/assets/img/recipes/risotto-alla-milanese.jpg" alt="Risotto alla Milanese — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/risotto-alla-milanese.jpg" alt="Risotto alla Milanese — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Risotto alla Milanese"
              data-ph-a="#a7998e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2942,7 +2961,7 @@
   <div class="card-media" style="background:#968a7b">
     <picture>
         <source srcset="/assets/img/recipes/bun-cha.webp" type="image/webp">
-        <img src="/assets/img/recipes/bun-cha.jpg" alt="Bún Chả — vietnamese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bun-cha.jpg" alt="Bún Chả — Vietnamese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Bún Chả"
              data-ph-a="#968a7b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -2972,7 +2991,7 @@
   <div class="card-media" style="background:#9a7869">
     <picture>
         <source srcset="/assets/img/recipes/cumin-lamb.webp" type="image/webp">
-        <img src="/assets/img/recipes/cumin-lamb.jpg" alt="Xinjiang Cumin Lamb — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cumin-lamb.jpg" alt="Xinjiang Cumin Lamb — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Xinjiang Cumin Lamb"
              data-ph-a="#9a7869" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3000,7 +3019,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Doro Wat — ethiopian dinner recipe, served and ready to eat"><span>Doro Wat</span></div>
+    <div class="img-fallback" role="img" aria-label="Doro Wat — Ethiopian dinner recipe, served and ready to eat"><span>Doro Wat</span></div>
     <div class="card-badges"><span class="badge badge--glass">Ethiopian</span></div>
     <button class="fav-btn" type="button" data-slug="doro-wat" data-title="Doro Wat"
             aria-pressed="false" aria-label="Save Doro Wat to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3026,7 +3045,7 @@
   <div class="card-media" style="background:#7e684f">
     <picture>
         <source srcset="/assets/img/recipes/pastitsio.webp" type="image/webp">
-        <img src="/assets/img/recipes/pastitsio.jpg" alt="Pastitsio — greek dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pastitsio.jpg" alt="Pastitsio — Greek dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pastitsio"
              data-ph-a="#7e684f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3056,7 +3075,7 @@
   <div class="card-media" style="background:#b8764a">
     <picture>
         <source srcset="/assets/img/recipes/rogan-josh.webp" type="image/webp">
-        <img src="/assets/img/recipes/rogan-josh.jpg" alt="Kashmiri Rogan Josh — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/rogan-josh.jpg" alt="Kashmiri Rogan Josh — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Kashmiri Rogan Josh"
              data-ph-a="#b8764a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3084,7 +3103,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Bún Bò Huế — vietnamese dinner recipe, served and ready to eat"><span>Bún Bò Huế</span></div>
+    <div class="img-fallback" role="img" aria-label="Bún Bò Huế — Vietnamese dinner recipe, served and ready to eat"><span>Bún Bò Huế</span></div>
     <div class="card-badges"><span class="badge badge--glass">Vietnamese</span></div>
     <button class="fav-btn" type="button" data-slug="bun-bo-hue" data-title="Bún Bò Huế"
             aria-pressed="false" aria-label="Save Bún Bò Huế to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3110,7 +3129,7 @@
   <div class="card-media" style="background:#a59a89">
     <picture>
         <source srcset="/assets/img/recipes/twice-cooked-pork.webp" type="image/webp">
-        <img src="/assets/img/recipes/twice-cooked-pork.jpg" alt="Twice-Cooked Pork — chinese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/twice-cooked-pork.jpg" alt="Twice-Cooked Pork — Chinese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Twice-Cooked Pork"
              data-ph-a="#a59a89" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3138,7 +3157,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Keema Matar — indian dinner recipe, served and ready to eat"><span>Keema Matar</span></div>
+    <div class="img-fallback" role="img" aria-label="Keema Matar — Indian dinner recipe, served and ready to eat"><span>Keema Matar</span></div>
     <div class="card-badges"><span class="badge badge--glass">Indian</span></div>
     <button class="fav-btn" type="button" data-slug="keema-matar" data-title="Keema Matar"
             aria-pressed="false" aria-label="Save Keema Matar to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3164,7 +3183,7 @@
   <div class="card-media" style="background:#aa988c">
     <picture>
         <source srcset="/assets/img/recipes/sole-meuniere.webp" type="image/webp">
-        <img src="/assets/img/recipes/sole-meuniere.jpg" alt="Sole Meunière — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sole-meuniere.jpg" alt="Sole Meunière — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sole Meunière"
              data-ph-a="#aa988c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3192,7 +3211,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Maqluba — middle eastern dinner recipe, served and ready to eat"><span>Maqluba</span></div>
+    <div class="img-fallback" role="img" aria-label="Maqluba — Middle Eastern dinner recipe, served and ready to eat"><span>Maqluba</span></div>
     <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
     <button class="fav-btn" type="button" data-slug="maqluba" data-title="Maqluba"
             aria-pressed="false" aria-label="Save Maqluba to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3218,7 +3237,7 @@
   <div class="card-media" style="background:#988065">
     <picture>
         <source srcset="/assets/img/recipes/com-tam.webp" type="image/webp">
-        <img src="/assets/img/recipes/com-tam.jpg" alt="Cơm Tấm — vietnamese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/com-tam.jpg" alt="Cơm Tấm — Vietnamese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cơm Tấm"
              data-ph-a="#988065" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3248,7 +3267,7 @@
   <div class="card-media" style="background:#a17e59">
     <picture>
         <source srcset="/assets/img/recipes/lamb-vindaloo.webp" type="image/webp">
-        <img src="/assets/img/recipes/lamb-vindaloo.jpg" alt="Goan Lamb Vindaloo — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lamb-vindaloo.jpg" alt="Goan Lamb Vindaloo — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Goan Lamb Vindaloo"
              data-ph-a="#a17e59" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3278,7 +3297,7 @@
   <div class="card-media" style="background:#d4b88f">
     <picture>
         <source srcset="/assets/img/recipes/creamy-polenta.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-polenta.jpg" alt="Creamy Parmesan Polenta — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creamy-polenta.jpg" alt="Creamy Parmesan Polenta — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Creamy Parmesan Polenta"
              data-ph-a="#d4b88f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3308,7 +3327,7 @@
   <div class="card-media" style="background:#938a7d">
     <picture>
         <source srcset="/assets/img/recipes/saltimbocca-alla-romana.webp" type="image/webp">
-        <img src="/assets/img/recipes/saltimbocca-alla-romana.jpg" alt="Saltimbocca alla Romana — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/saltimbocca-alla-romana.jpg" alt="Saltimbocca alla Romana — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Saltimbocca alla Romana"
              data-ph-a="#938a7d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3338,7 +3357,7 @@
   <div class="card-media" style="background:#897862">
     <picture>
         <source srcset="/assets/img/recipes/blanquette-de-veau.webp" type="image/webp">
-        <img src="/assets/img/recipes/blanquette-de-veau.jpg" alt="Blanquette de Veau — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/blanquette-de-veau.jpg" alt="Blanquette de Veau — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Blanquette de Veau"
              data-ph-a="#897862" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3368,7 +3387,7 @@
   <div class="card-media" style="background:#84795a">
     <picture>
         <source srcset="/assets/img/recipes/kerala-fish-curry.webp" type="image/webp">
-        <img src="/assets/img/recipes/kerala-fish-curry.jpg" alt="Kerala Fish Curry — indian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/kerala-fish-curry.jpg" alt="Kerala Fish Curry — Indian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Kerala Fish Curry"
              data-ph-a="#84795a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3398,7 +3417,7 @@
   <div class="card-media" style="background:#6a7351">
     <picture>
         <source srcset="/assets/img/recipes/aji-de-gallina.webp" type="image/webp">
-        <img src="/assets/img/recipes/aji-de-gallina.jpg" alt="Ají de Gallina — peruvian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/aji-de-gallina.jpg" alt="Ají de Gallina — Peruvian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Ají de Gallina"
              data-ph-a="#6a7351" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3428,7 +3447,7 @@
   <div class="card-media" style="background:#97936a">
     <picture>
         <source srcset="/assets/img/recipes/golabki.webp" type="image/webp">
-        <img src="/assets/img/recipes/golabki.jpg" alt="Gołąbki — polish dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/golabki.jpg" alt="Gołąbki — Polish dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gołąbki"
              data-ph-a="#97936a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3458,7 +3477,7 @@
   <div class="card-media" style="background:#524f46">
     <picture>
         <source srcset="/assets/img/recipes/okonomiyaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/okonomiyaki.jpg" alt="Osaka Okonomiyaki — japanese dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/okonomiyaki.jpg" alt="Osaka Okonomiyaki — Japanese dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Osaka Okonomiyaki"
              data-ph-a="#524f46" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3488,7 +3507,7 @@
   <div class="card-media" style="background:#807263">
     <picture>
         <source srcset="/assets/img/recipes/osso-buco.webp" type="image/webp">
-        <img src="/assets/img/recipes/osso-buco.jpg" alt="Osso Buco alla Milanese — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/osso-buco.jpg" alt="Osso Buco alla Milanese — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Osso Buco alla Milanese"
              data-ph-a="#807263" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3516,7 +3535,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Bacalhau à Brás — portuguese dinner recipe, served and ready to eat"><span>Bacalhau à Brás</span></div>
+    <div class="img-fallback" role="img" aria-label="Bacalhau à Brás — Portuguese dinner recipe, served and ready to eat"><span>Bacalhau à Brás</span></div>
     <div class="card-badges"><span class="badge badge--glass">Portuguese</span></div>
     <button class="fav-btn" type="button" data-slug="bacalhau-a-bras" data-title="Bacalhau à Brás"
             aria-pressed="false" aria-label="Save Bacalhau à Brás to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3540,7 +3559,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Bobotie — south african dinner recipe, served and ready to eat"><span>Bobotie</span></div>
+    <div class="img-fallback" role="img" aria-label="Bobotie — South African dinner recipe, served and ready to eat"><span>Bobotie</span></div>
     <div class="card-badges"><span class="badge badge--glass">South African</span></div>
     <button class="fav-btn" type="button" data-slug="bobotie" data-title="Bobotie"
             aria-pressed="false" aria-label="Save Bobotie to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3566,7 +3585,7 @@
   <div class="card-media" style="background:#a59376">
     <picture>
         <source srcset="/assets/img/recipes/orecchiette-cime-di-rapa.webp" type="image/webp">
-        <img src="/assets/img/recipes/orecchiette-cime-di-rapa.jpg" alt="Orecchiette con Cime di Rapa — italian dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/orecchiette-cime-di-rapa.jpg" alt="Orecchiette con Cime di Rapa — Italian dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Orecchiette con Cime di Rapa"
              data-ph-a="#a59376" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3596,7 +3615,7 @@
   <div class="card-media" style="background:#887462">
     <picture>
         <source srcset="/assets/img/recipes/pozole-rojo.webp" type="image/webp">
-        <img src="/assets/img/recipes/pozole-rojo.jpg" alt="Pozole Rojo — mexican dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pozole-rojo.jpg" alt="Pozole Rojo — Mexican dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pozole Rojo"
              data-ph-a="#887462" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3624,7 +3643,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Pot-au-Feu — french dinner recipe, served and ready to eat"><span>Pot-au-Feu</span></div>
+    <div class="img-fallback" role="img" aria-label="Pot-au-Feu — French dinner recipe, served and ready to eat"><span>Pot-au-Feu</span></div>
     <div class="card-badges"><span class="badge badge--glass">French</span></div>
     <button class="fav-btn" type="button" data-slug="pot-au-feu" data-title="Pot-au-Feu"
             aria-pressed="false" aria-label="Save Pot-au-Feu to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3648,7 +3667,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Baked Kibbeh — middle eastern dinner recipe, served and ready to eat"><span>Baked Kibbeh</span></div>
+    <div class="img-fallback" role="img" aria-label="Baked Kibbeh — Middle Eastern dinner recipe, served and ready to eat"><span>Baked Kibbeh</span></div>
     <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
     <button class="fav-btn" type="button" data-slug="kibbeh" data-title="Baked Kibbeh"
             aria-pressed="false" aria-label="Save Baked Kibbeh to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3672,7 +3691,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Fabada Asturiana — spanish dinner recipe, served and ready to eat"><span>Fabada Asturiana</span></div>
+    <div class="img-fallback" role="img" aria-label="Fabada Asturiana — Spanish dinner recipe, served and ready to eat"><span>Fabada Asturiana</span></div>
     <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
     <button class="fav-btn" type="button" data-slug="fabada-asturiana" data-title="Fabada Asturiana"
             aria-pressed="false" aria-label="Save Fabada Asturiana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -3698,7 +3717,7 @@
   <div class="card-media" style="background:#ae875f">
     <picture>
         <source srcset="/assets/img/recipes/bouillabaisse.webp" type="image/webp">
-        <img src="/assets/img/recipes/bouillabaisse.jpg" alt="Marseille Bouillabaisse — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bouillabaisse.jpg" alt="Marseille Bouillabaisse — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Marseille Bouillabaisse"
              data-ph-a="#ae875f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -3728,7 +3747,7 @@
   <div class="card-media" style="background:#9f7158">
     <picture>
         <source srcset="/assets/img/recipes/cassoulet.webp" type="image/webp">
-        <img src="/assets/img/recipes/cassoulet.jpg" alt="Cassoulet de Toulouse — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cassoulet.jpg" alt="Cassoulet de Toulouse — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cassoulet de Toulouse"
              data-ph-a="#9f7158" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">

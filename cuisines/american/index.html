@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/" aria-current="page">Cuisines</a>
       <a href="/search/">Search</a>
@@ -122,7 +123,7 @@
   <div class="card-media" style="background:#d3b393">
     <picture>
         <source srcset="/assets/img/recipes/chocolate-chip-cookies.webp" type="image/webp">
-        <img src="/assets/img/recipes/chocolate-chip-cookies.jpg" alt="Brown Butter Chocolate Chip Cookies — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chocolate-chip-cookies.jpg" alt="Brown Butter Chocolate Chip Cookies — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Brown Butter Chocolate Chip Cookies"
              data-ph-a="#d3b393" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#a57d6a">
     <picture>
         <source srcset="/assets/img/recipes/buttermilk-pancakes.webp" type="image/webp">
-        <img src="/assets/img/recipes/buttermilk-pancakes.jpg" alt="Fluffy Buttermilk Pancakes — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/buttermilk-pancakes.jpg" alt="Fluffy Buttermilk Pancakes — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Fluffy Buttermilk Pancakes"
              data-ph-a="#a57d6a" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -182,7 +183,7 @@
   <div class="card-media" style="background:#b09a82">
     <picture>
         <source srcset="/assets/img/recipes/classic-cheeseburger.webp" type="image/webp">
-        <img src="/assets/img/recipes/classic-cheeseburger.jpg" alt="Classic Smash Cheeseburger — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/classic-cheeseburger.jpg" alt="Classic Smash Cheeseburger — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Smash Cheeseburger"
              data-ph-a="#b09a82" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -212,7 +213,7 @@
   <div class="card-media" style="background:#ae9883">
     <picture>
         <source srcset="/assets/img/recipes/fudgy-brownies.webp" type="image/webp">
-        <img src="/assets/img/recipes/fudgy-brownies.jpg" alt="Fudgy Cocoa Brownies — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/fudgy-brownies.jpg" alt="Fudgy Cocoa Brownies — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Fudgy Cocoa Brownies"
              data-ph-a="#ae9883" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -242,7 +243,7 @@
   <div class="card-media" style="background:#796f67">
     <picture>
         <source srcset="/assets/img/recipes/banana-bread.webp" type="image/webp">
-        <img src="/assets/img/recipes/banana-bread.jpg" alt="One-Bowl Banana Bread — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/banana-bread.jpg" alt="One-Bowl Banana Bread — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="One-Bowl Banana Bread"
              data-ph-a="#796f67" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -272,7 +273,7 @@
   <div class="card-media" style="background:#aa8077">
     <picture>
         <source srcset="/assets/img/recipes/new-york-cheesecake.webp" type="image/webp">
-        <img src="/assets/img/recipes/new-york-cheesecake.jpg" alt="New York Cheesecake — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/new-york-cheesecake.jpg" alt="New York Cheesecake — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="New York Cheesecake"
              data-ph-a="#aa8077" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -299,12 +300,12 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="120">
-  <div class="card-media" style="background:#af9a7e">
+  <div class="card-media" style="background:#95785d">
     <picture>
         <source srcset="/assets/img/recipes/mac-and-cheese.webp" type="image/webp">
-        <img src="/assets/img/recipes/mac-and-cheese.jpg" alt="Baked Mac and Cheese — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mac-and-cheese.jpg" alt="Baked Mac and Cheese — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Baked Mac and Cheese"
-             data-ph-a="#af9a7e" data-ph-b="#8c5a3c"
+             data-ph-a="#95785d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--brass">Trending</span></div>
@@ -332,7 +333,7 @@
   <div class="card-media" style="background:#9f866f">
     <picture>
         <source srcset="/assets/img/recipes/cinnamon-rolls.webp" type="image/webp">
-        <img src="/assets/img/recipes/cinnamon-rolls.jpg" alt="Overnight Cinnamon Rolls — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cinnamon-rolls.jpg" alt="Overnight Cinnamon Rolls — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Overnight Cinnamon Rolls"
              data-ph-a="#9f866f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -362,7 +363,7 @@
   <div class="card-media" style="background:#d3cab0">
     <picture>
         <source srcset="/assets/img/recipes/apple-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/apple-pie.jpg" alt="Deep-Dish Apple Pie — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/apple-pie.jpg" alt="Deep-Dish Apple Pie — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Deep-Dish Apple Pie"
              data-ph-a="#d3cab0" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -389,12 +390,12 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="60">
-  <div class="card-media" style="background:#8f8f89">
+  <div class="card-media" style="background:#a58872">
     <picture>
         <source srcset="/assets/img/recipes/buffalo-wings.webp" type="image/webp">
-        <img src="/assets/img/recipes/buffalo-wings.jpg" alt="Buffalo Wings — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/buffalo-wings.jpg" alt="Buffalo Wings — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Buffalo Wings"
-             data-ph-a="#8f8f89" data-ph-b="#8c5a3c"
+             data-ph-a="#a58872" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--brass">Trending</span></div>
@@ -422,7 +423,7 @@
   <div class="card-media" style="background:#d2b596">
     <picture>
         <source srcset="/assets/img/recipes/southern-fried-chicken.webp" type="image/webp">
-        <img src="/assets/img/recipes/southern-fried-chicken.jpg" alt="Southern Fried Chicken — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/southern-fried-chicken.jpg" alt="Southern Fried Chicken — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Southern Fried Chicken"
              data-ph-a="#d2b596" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -452,7 +453,7 @@
   <div class="card-media" style="background:#988f87">
     <picture>
         <source srcset="/assets/img/recipes/chocolate-lava-cake.webp" type="image/webp">
-        <img src="/assets/img/recipes/chocolate-lava-cake.jpg" alt="Molten Chocolate Lava Cake — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chocolate-lava-cake.jpg" alt="Molten Chocolate Lava Cake — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Molten Chocolate Lava Cake"
              data-ph-a="#988f87" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -482,7 +483,7 @@
   <div class="card-media" style="background:#9e7854">
     <picture>
         <source srcset="/assets/img/recipes/sourdough-bread.webp" type="image/webp">
-        <img src="/assets/img/recipes/sourdough-bread.jpg" alt="Artisan Sourdough Bread — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sourdough-bread.jpg" alt="Artisan Sourdough Bread — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Artisan Sourdough Bread"
              data-ph-a="#9e7854" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -512,7 +513,7 @@
   <div class="card-media" style="background:#766754">
     <picture>
         <source srcset="/assets/img/recipes/beef-stew.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-stew.jpg" alt="Hearty Beef Stew — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-stew.jpg" alt="Hearty Beef Stew — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Hearty Beef Stew"
              data-ph-a="#766754" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -542,7 +543,7 @@
   <div class="card-media" style="background:#978975">
     <picture>
         <source srcset="/assets/img/recipes/caesar-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/caesar-salad.jpg" alt="Caesar Salad — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/caesar-salad.jpg" alt="Caesar Salad — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Caesar Salad"
              data-ph-a="#978975" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -572,7 +573,7 @@
   <div class="card-media" style="background:#9b8e80">
     <picture>
         <source srcset="/assets/img/recipes/french-toast.webp" type="image/webp">
-        <img src="/assets/img/recipes/french-toast.jpg" alt="Brioche French Toast — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/french-toast.jpg" alt="Brioche French Toast — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Brioche French Toast"
              data-ph-a="#9b8e80" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -599,12 +600,12 @@
     </div>
   </div>
 </article><article class="card reveal">
-  <div class="card-media" style="background:#84784d">
+  <div class="card-media" style="background:#816e5d">
     <picture>
         <source srcset="/assets/img/recipes/chicken-noodle-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Noodle Soup"
-             data-ph-a="#84784d" data-ph-b="#8c5a3c"
+             data-ph-a="#816e5d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
@@ -632,7 +633,7 @@
   <div class="card-media" style="background:#938777">
     <picture>
         <source srcset="/assets/img/recipes/classic-omelette.webp" type="image/webp">
-        <img src="/assets/img/recipes/classic-omelette.jpg" alt="Three-Egg Omelette — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/classic-omelette.jpg" alt="Three-Egg Omelette — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Three-Egg Omelette"
              data-ph-a="#938777" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -662,7 +663,7 @@
   <div class="card-media" style="background:#604f44">
     <picture>
         <source srcset="/assets/img/recipes/bbq-baby-back-ribs.webp" type="image/webp">
-        <img src="/assets/img/recipes/bbq-baby-back-ribs.jpg" alt="BBQ Baby Back Ribs — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bbq-baby-back-ribs.jpg" alt="BBQ Baby Back Ribs — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="BBQ Baby Back Ribs"
              data-ph-a="#604f44" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -690,7 +691,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chicken Pot Pie — american dinner recipe, served and ready to eat"><span>Chicken Pot Pie</span></div>
+    <div class="img-fallback" role="img" aria-label="Chicken Pot Pie — American dinner recipe, served and ready to eat"><span>Chicken Pot Pie</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--solid">Editor’s Pick</span></div>
     <button class="fav-btn" type="button" data-slug="chicken-pot-pie" data-title="Chicken Pot Pie"
             aria-pressed="false" aria-label="Save Chicken Pot Pie to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -716,7 +717,7 @@
   <div class="card-media" style="background:#aa7b59">
     <picture>
         <source srcset="/assets/img/recipes/blueberry-muffins.webp" type="image/webp">
-        <img src="/assets/img/recipes/blueberry-muffins.jpg" alt="Bakery-Style Blueberry Muffins — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/blueberry-muffins.jpg" alt="Bakery-Style Blueberry Muffins — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Bakery-Style Blueberry Muffins"
              data-ph-a="#aa7b59" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -746,7 +747,7 @@
   <div class="card-media" style="background:#96705b">
     <picture>
         <source srcset="/assets/img/recipes/buffalo-chicken-dip.webp" type="image/webp">
-        <img src="/assets/img/recipes/buffalo-chicken-dip.jpg" alt="Buffalo Chicken Dip — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/buffalo-chicken-dip.jpg" alt="Buffalo Chicken Dip — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Buffalo Chicken Dip"
              data-ph-a="#96705b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -776,7 +777,7 @@
   <div class="card-media" style="background:#989281">
     <picture>
         <source srcset="/assets/img/recipes/grilled-cheese-sandwich.webp" type="image/webp">
-        <img src="/assets/img/recipes/grilled-cheese-sandwich.jpg" alt="Skillet Grilled Cheese — american quick meals recipe, served and ready to eat"
+        <img src="/assets/img/recipes/grilled-cheese-sandwich.jpg" alt="Skillet Grilled Cheese — American quick meals recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Skillet Grilled Cheese"
              data-ph-a="#989281" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -806,7 +807,7 @@
   <div class="card-media" style="background:#9b796a">
     <picture>
         <source srcset="/assets/img/recipes/vanilla-cupcakes.webp" type="image/webp">
-        <img src="/assets/img/recipes/vanilla-cupcakes.jpg" alt="Vanilla Cupcakes — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/vanilla-cupcakes.jpg" alt="Vanilla Cupcakes — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Vanilla Cupcakes"
              data-ph-a="#9b796a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -836,7 +837,7 @@
   <div class="card-media" style="background:#ab9a8c">
     <picture>
         <source srcset="/assets/img/recipes/philly-cheesesteak.webp" type="image/webp">
-        <img src="/assets/img/recipes/philly-cheesesteak.jpg" alt="Philly Cheesesteak — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/philly-cheesesteak.jpg" alt="Philly Cheesesteak — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Philly Cheesesteak"
              data-ph-a="#ab9a8c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -866,7 +867,7 @@
   <div class="card-media" style="background:#8a7a5d">
     <picture>
         <source srcset="/assets/img/recipes/eggs-benedict.webp" type="image/webp">
-        <img src="/assets/img/recipes/eggs-benedict.jpg" alt="Eggs Benedict — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/eggs-benedict.jpg" alt="Eggs Benedict — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Eggs Benedict"
              data-ph-a="#8a7a5d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -894,7 +895,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Crispy Hash Browns — american breakfast recipe, served and ready to eat"><span>Crispy Hash Browns</span></div>
+    <div class="img-fallback" role="img" aria-label="Crispy Hash Browns — American breakfast recipe, served and ready to eat"><span>Crispy Hash Browns</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
     <button class="fav-btn" type="button" data-slug="hash-browns" data-title="Crispy Hash Browns"
             aria-pressed="false" aria-label="Save Crispy Hash Browns to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -920,7 +921,7 @@
   <div class="card-media" style="background:#a3736c">
     <picture>
         <source srcset="/assets/img/recipes/red-velvet-cake.webp" type="image/webp">
-        <img src="/assets/img/recipes/red-velvet-cake.jpg" alt="Red Velvet Cake — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/red-velvet-cake.jpg" alt="Red Velvet Cake — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Red Velvet Cake"
              data-ph-a="#a3736c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -950,7 +951,7 @@
   <div class="card-media" style="background:#b88d5a">
     <picture>
         <source srcset="/assets/img/recipes/classic-waffles.webp" type="image/webp">
-        <img src="/assets/img/recipes/classic-waffles.jpg" alt="Crisp Belgian-Style Waffles — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/classic-waffles.jpg" alt="Crisp Belgian-Style Waffles — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Crisp Belgian-Style Waffles"
              data-ph-a="#b88d5a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -980,7 +981,7 @@
   <div class="card-media" style="background:#937861">
     <picture>
         <source srcset="/assets/img/recipes/cinnamon-sugar-donuts.webp" type="image/webp">
-        <img src="/assets/img/recipes/cinnamon-sugar-donuts.jpg" alt="Cinnamon Sugar Doughnuts — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cinnamon-sugar-donuts.jpg" alt="Cinnamon Sugar Doughnuts — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cinnamon Sugar Doughnuts"
              data-ph-a="#937861" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1010,7 +1011,7 @@
   <div class="card-media" style="background:#95938d">
     <picture>
         <source srcset="/assets/img/recipes/carrot-cake.webp" type="image/webp">
-        <img src="/assets/img/recipes/carrot-cake.jpg" alt="Spiced Carrot Cake — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/carrot-cake.jpg" alt="Spiced Carrot Cake — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Spiced Carrot Cake"
              data-ph-a="#95938d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1040,7 +1041,7 @@
   <div class="card-media" style="background:#e1d8c6">
     <picture>
         <source srcset="/assets/img/recipes/pumpkin-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/pumpkin-pie.jpg" alt="Classic Pumpkin Pie — american holiday specials recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pumpkin-pie.jpg" alt="Classic Pumpkin Pie — American holiday specials recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Pumpkin Pie"
              data-ph-a="#e1d8c6" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1070,7 +1071,7 @@
   <div class="card-media" style="background:#9b7c66">
     <picture>
         <source srcset="/assets/img/recipes/snickerdoodles.webp" type="image/webp">
-        <img src="/assets/img/recipes/snickerdoodles.jpg" alt="Snickerdoodles — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/snickerdoodles.jpg" alt="Snickerdoodles — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Snickerdoodles"
              data-ph-a="#9b7c66" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1100,7 +1101,7 @@
   <div class="card-media" style="background:#897861">
     <picture>
         <source srcset="/assets/img/recipes/deviled-eggs.webp" type="image/webp">
-        <img src="/assets/img/recipes/deviled-eggs.jpg" alt="Deviled Eggs — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/deviled-eggs.jpg" alt="Deviled Eggs — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Deviled Eggs"
              data-ph-a="#897861" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1130,7 +1131,7 @@
   <div class="card-media" style="background:#787275">
     <picture>
         <source srcset="/assets/img/recipes/pulled-pork-sandwich.webp" type="image/webp">
-        <img src="/assets/img/recipes/pulled-pork-sandwich.jpg" alt="Pulled Pork Sandwiches — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pulled-pork-sandwich.jpg" alt="Pulled Pork Sandwiches — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pulled Pork Sandwiches"
              data-ph-a="#787275" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1160,7 +1161,7 @@
   <div class="card-media" style="background:#a69478">
     <picture>
         <source srcset="/assets/img/recipes/biscuits-and-gravy.webp" type="image/webp">
-        <img src="/assets/img/recipes/biscuits-and-gravy.jpg" alt="Biscuits and Sausage Gravy — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/biscuits-and-gravy.jpg" alt="Biscuits and Sausage Gravy — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Biscuits and Sausage Gravy"
              data-ph-a="#a69478" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1190,7 +1191,7 @@
   <div class="card-media" style="background:#a99f94">
     <picture>
         <source srcset="/assets/img/recipes/peanut-butter-cookies.webp" type="image/webp">
-        <img src="/assets/img/recipes/peanut-butter-cookies.jpg" alt="Peanut Butter Cookies — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/peanut-butter-cookies.jpg" alt="Peanut Butter Cookies — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Peanut Butter Cookies"
              data-ph-a="#a99f94" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1220,7 +1221,7 @@
   <div class="card-media" style="background:#bdb59f">
     <picture>
         <source srcset="/assets/img/recipes/roast-turkey.webp" type="image/webp">
-        <img src="/assets/img/recipes/roast-turkey.jpg" alt="Herb-Butter Roast Turkey — american holiday specials recipe, served and ready to eat"
+        <img src="/assets/img/recipes/roast-turkey.jpg" alt="Herb-Butter Roast Turkey — American holiday specials recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Herb-Butter Roast Turkey"
              data-ph-a="#bdb59f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1250,7 +1251,7 @@
   <div class="card-media" style="background:#967364">
     <picture>
         <source srcset="/assets/img/recipes/jambalaya.webp" type="image/webp">
-        <img src="/assets/img/recipes/jambalaya.jpg" alt="Louisiana Jambalaya — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/jambalaya.jpg" alt="Louisiana Jambalaya — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Louisiana Jambalaya"
              data-ph-a="#967364" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1280,7 +1281,7 @@
   <div class="card-media" style="background:#908275">
     <picture>
         <source srcset="/assets/img/recipes/bagels.webp" type="image/webp">
-        <img src="/assets/img/recipes/bagels.jpg" alt="New York Bagels — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bagels.jpg" alt="New York Bagels — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="New York Bagels"
              data-ph-a="#908275" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1310,7 +1311,7 @@
   <div class="card-media" style="background:#9f7551">
     <picture>
         <source srcset="/assets/img/recipes/pecan-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/pecan-pie.jpg" alt="Pecan Pie — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pecan-pie.jpg" alt="Pecan Pie — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pecan Pie"
              data-ph-a="#9f7551" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1340,7 +1341,7 @@
   <div class="card-media" style="background:#af8e7a">
     <picture>
         <source srcset="/assets/img/recipes/blt-sandwich.webp" type="image/webp">
-        <img src="/assets/img/recipes/blt-sandwich.jpg" alt="The Perfect BLT — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/blt-sandwich.jpg" alt="The Perfect BLT — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="The Perfect BLT"
              data-ph-a="#af8e7a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1370,7 +1371,7 @@
   <div class="card-media" style="background:#8f8a56">
     <picture>
         <source srcset="/assets/img/recipes/shrimp-and-grits.webp" type="image/webp">
-        <img src="/assets/img/recipes/shrimp-and-grits.jpg" alt="Shrimp and Grits — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/shrimp-and-grits.jpg" alt="Shrimp and Grits — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Shrimp and Grits"
              data-ph-a="#8f8a56" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1400,7 +1401,7 @@
   <div class="card-media" style="background:#756a60">
     <picture>
         <source srcset="/assets/img/recipes/creamy-tomato-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-tomato-soup.jpg" alt="Creamy Tomato Soup — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creamy-tomato-soup.jpg" alt="Creamy Tomato Soup — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Creamy Tomato Soup"
              data-ph-a="#756a60" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1430,7 +1431,7 @@
   <div class="card-media" style="background:#aa8556">
     <picture>
         <source srcset="/assets/img/recipes/cornbread.webp" type="image/webp">
-        <img src="/assets/img/recipes/cornbread.jpg" alt="Skillet Cornbread — american baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cornbread.jpg" alt="Skillet Cornbread — American baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Skillet Cornbread"
              data-ph-a="#aa8556" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1460,7 +1461,7 @@
   <div class="card-media" style="background:#846b49">
     <picture>
         <source srcset="/assets/img/recipes/key-lime-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/key-lime-pie.jpg" alt="Key Lime Pie — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/key-lime-pie.jpg" alt="Key Lime Pie — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Key Lime Pie"
              data-ph-a="#846b49" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1490,7 +1491,7 @@
   <div class="card-media" style="background:#c6bbac">
     <picture>
         <source srcset="/assets/img/recipes/gingerbread-cookies.webp" type="image/webp">
-        <img src="/assets/img/recipes/gingerbread-cookies.jpg" alt="Gingerbread Cookies — american holiday specials recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gingerbread-cookies.jpg" alt="Gingerbread Cookies — American holiday specials recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gingerbread Cookies"
              data-ph-a="#c6bbac" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1520,7 +1521,7 @@
   <div class="card-media" style="background:#9b8171">
     <picture>
         <source srcset="/assets/img/recipes/gumbo.webp" type="image/webp">
-        <img src="/assets/img/recipes/gumbo.jpg" alt="Chicken and Sausage Gumbo — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gumbo.jpg" alt="Chicken and Sausage Gumbo — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken and Sausage Gumbo"
              data-ph-a="#9b8171" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1550,7 +1551,7 @@
   <div class="card-media" style="background:#b29d79">
     <picture>
         <source srcset="/assets/img/recipes/mozzarella-sticks.webp" type="image/webp">
-        <img src="/assets/img/recipes/mozzarella-sticks.jpg" alt="Mozzarella Sticks — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mozzarella-sticks.jpg" alt="Mozzarella Sticks — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Mozzarella Sticks"
              data-ph-a="#b29d79" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1580,7 +1581,7 @@
   <div class="card-media" style="background:#b29b76">
     <picture>
         <source srcset="/assets/img/recipes/lemon-meringue-pie.webp" type="image/webp">
-        <img src="/assets/img/recipes/lemon-meringue-pie.jpg" alt="Lemon Meringue Pie — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lemon-meringue-pie.jpg" alt="Lemon Meringue Pie — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Lemon Meringue Pie"
              data-ph-a="#b29b76" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1610,7 +1611,7 @@
   <div class="card-media" style="background:#a59793">
     <picture>
         <source srcset="/assets/img/recipes/meatloaf.webp" type="image/webp">
-        <img src="/assets/img/recipes/meatloaf.jpg" alt="Classic Meatloaf — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/meatloaf.jpg" alt="Classic Meatloaf — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Meatloaf"
              data-ph-a="#a59793" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1640,7 +1641,7 @@
   <div class="card-media" style="background:#968474">
     <picture>
         <source srcset="/assets/img/recipes/reuben-sandwich.webp" type="image/webp">
-        <img src="/assets/img/recipes/reuben-sandwich.jpg" alt="Reuben Sandwich — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/reuben-sandwich.jpg" alt="Reuben Sandwich — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Reuben Sandwich"
              data-ph-a="#968474" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1670,7 +1671,7 @@
   <div class="card-media" style="background:#70685e">
     <picture>
         <source srcset="/assets/img/recipes/breakfast-burrito.webp" type="image/webp">
-        <img src="/assets/img/recipes/breakfast-burrito.jpg" alt="Loaded Breakfast Burrito — american breakfast recipe, served and ready to eat"
+        <img src="/assets/img/recipes/breakfast-burrito.jpg" alt="Loaded Breakfast Burrito — American breakfast recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Loaded Breakfast Burrito"
              data-ph-a="#70685e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1700,7 +1701,7 @@
   <div class="card-media" style="background:#a69175">
     <picture>
         <source srcset="/assets/img/recipes/classic-potato-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/classic-potato-salad.jpg" alt="Classic Potato Salad — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/classic-potato-salad.jpg" alt="Classic Potato Salad — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Classic Potato Salad"
              data-ph-a="#a69175" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1730,7 +1731,7 @@
   <div class="card-media" style="background:#af9f93">
     <picture>
         <source srcset="/assets/img/recipes/lobster-roll.webp" type="image/webp">
-        <img src="/assets/img/recipes/lobster-roll.jpg" alt="Maine Lobster Roll — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lobster-roll.jpg" alt="Maine Lobster Roll — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Maine Lobster Roll"
              data-ph-a="#af9f93" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1758,7 +1759,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chocolate Milkshake — american drinks recipe, served and ready to eat"><span>Chocolate Milkshake</span></div>
+    <div class="img-fallback" role="img" aria-label="Chocolate Milkshake — American drinks recipe, served and ready to eat"><span>Chocolate Milkshake</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
     <button class="fav-btn" type="button" data-slug="chocolate-milkshake" data-title="Chocolate Milkshake"
             aria-pressed="false" aria-label="Save Chocolate Milkshake to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1782,7 +1783,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Beer-Battered Onion Rings — american appetizers recipe, served and ready to eat"><span>Beer-Battered Onion Rings</span></div>
+    <div class="img-fallback" role="img" aria-label="Beer-Battered Onion Rings — American appetizers recipe, served and ready to eat"><span>Beer-Battered Onion Rings</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
     <button class="fav-btn" type="button" data-slug="onion-rings" data-title="Beer-Battered Onion Rings"
             aria-pressed="false" aria-label="Save Beer-Battered Onion Rings to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1808,7 +1809,7 @@
   <div class="card-media" style="background:#4a4f54">
     <picture>
         <source srcset="/assets/img/recipes/smores.webp" type="image/webp">
-        <img src="/assets/img/recipes/smores.jpg" alt="S&#39;mores — american desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/smores.jpg" alt="S&#39;mores — American desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="S&#39;mores"
              data-ph-a="#4a4f54" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1838,7 +1839,7 @@
   <div class="card-media" style="background:#958a7f">
     <picture>
         <source srcset="/assets/img/recipes/cobb-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cobb Salad"
              data-ph-a="#958a7f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1868,7 +1869,7 @@
   <div class="card-media" style="background:#b39f6e">
     <picture>
         <source srcset="/assets/img/recipes/chicken-fried-steak.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-fried-steak.jpg" alt="Chicken Fried Steak — american dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-fried-steak.jpg" alt="Chicken Fried Steak — American dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Fried Steak"
              data-ph-a="#b39f6e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1898,7 +1899,7 @@
   <div class="card-media" style="background:#9d846d">
     <picture>
         <source srcset="/assets/img/recipes/creamy-coleslaw.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Creamy Coleslaw"
              data-ph-a="#9d846d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1928,7 +1929,7 @@
   <div class="card-media" style="background:#e3e3e3">
     <picture>
         <source srcset="/assets/img/recipes/new-england-clam-chowder.webp" type="image/webp">
-        <img src="/assets/img/recipes/new-england-clam-chowder.jpg" alt="New England Clam Chowder — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/new-england-clam-chowder.jpg" alt="New England Clam Chowder — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="New England Clam Chowder"
              data-ph-a="#e3e3e3" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1955,8 +1956,14 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="120">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Tuna Melt — american quick meals recipe, served and ready to eat"><span>Tuna Melt</span></div>
+  <div class="card-media" style="background:#c5a175">
+    <picture>
+        <source srcset="/assets/img/recipes/tuna-melt.webp" type="image/webp">
+        <img src="/assets/img/recipes/tuna-melt.jpg" alt="Tuna Melt — American quick meals recipe, served and ready to eat"
+             width="800" height="600" data-fade data-title="Tuna Melt"
+             data-ph-a="#c5a175" data-ph-b="#8c5a3c"
+             loading="lazy" decoding="async">
+       </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
     <button class="fav-btn" type="button" data-slug="tuna-melt" data-title="Tuna Melt"
             aria-pressed="false" aria-label="Save Tuna Melt to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1982,7 +1989,7 @@
   <div class="card-media" style="background:#8e9a9b">
     <picture>
         <source srcset="/assets/img/recipes/boston-baked-beans.webp" type="image/webp">
-        <img src="/assets/img/recipes/boston-baked-beans.jpg" alt="Boston Baked Beans — american lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/boston-baked-beans.jpg" alt="Boston Baked Beans — American lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Boston Baked Beans"
              data-ph-a="#8e9a9b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">

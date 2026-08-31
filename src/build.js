@@ -18,7 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { esc, clamp, slugify, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
+const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
 const { SITE, slug } = require('./templates/layout');
 const { recipeCount } = require('./data/stats');
@@ -181,7 +181,9 @@ function loadRecipes() {
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
       processData: image.process || null,
-      imageAlt: `${row.title} — ${row.cuisine.toLowerCase()} ${row.category.toLowerCase()} recipe, served and ready to eat`,
+      /* The cuisine is a proper noun and stays capitalised; the category is
+         a common noun and reads better lower case. */
+      imageAlt: `${row.title} — ${row.cuisine} ${row.category.toLowerCase()} recipe, served and ready to eat`,
       processAlt: `Ingredients and preparation for ${row.title.toLowerCase()}`,
       published,
       datePublished: new Date(published).toISOString().slice(0, 10),
@@ -328,7 +330,7 @@ ${urls.join('\n')}
 }
 
 function robots() {
-  return `# CulinaryVault — https://culinaryvault.example
+  return `# CulinaryVault — ${SITE.origin}${SITE.base}
 User-agent: *
 Allow: /
 
@@ -489,8 +491,8 @@ function build() {
       title: `${name} Recipes`,
       heading: `${name} recipes`,
       eyebrow: 'Category',
-      intro: `${CATEGORIES[name]} ${list.length} tested recipes, ranked by what readers cook most.`,
-      description: clamp(`${name} recipes from CulinaryVault: ${list.length} tested dishes. ${CATEGORIES[name]}`, 158),
+      intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, ranked by what readers cook most.`,
+      description: clamp(`${name} recipes from CulinaryVault: ${plural(list.length, 'tested dish', 'tested dishes')}. ${CATEGORIES[name]}`, 158),
       keywords: [`${name.toLowerCase()} recipes`, `best ${name.toLowerCase()} recipes`, `easy ${name.toLowerCase()} ideas`],
       path: `categories/${slug(name)}/`,
       active: 'categories',
@@ -508,8 +510,8 @@ function build() {
       title: `${name} Recipes`,
       heading: `${name} recipes`,
       eyebrow: `${meta.flag} Cuisine`,
-      intro: `${meta.blurb} ${list.length} tested ${name} recipes, from the everyday to the ambitious.`,
-      description: clamp(`${list.length} tested ${name} recipes on CulinaryVault. ${meta.blurb}`, 158),
+      intro: `${meta.blurb} ${plural(list.length, 'tested ' + name + ' recipe')}, from the everyday to the ambitious.`,
+      description: clamp(`${plural(list.length, 'tested ' + name + ' recipe')} on CulinaryVault. ${meta.blurb}`, 158),
       keywords: [`${name.toLowerCase()} recipes`, `authentic ${name.toLowerCase()} food`, `${name.toLowerCase()} cooking`],
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',

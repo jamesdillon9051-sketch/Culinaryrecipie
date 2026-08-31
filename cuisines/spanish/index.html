@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/" aria-current="page">Cuisines</a>
       <a href="/search/">Search</a>
@@ -122,7 +123,7 @@
   <div class="card-media" style="background:#8e7c6c">
     <picture>
         <source srcset="/assets/img/recipes/paella-valenciana.webp" type="image/webp">
-        <img src="/assets/img/recipes/paella-valenciana.jpg" alt="Paella Valenciana — spanish dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/paella-valenciana.jpg" alt="Paella Valenciana — Spanish dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Paella Valenciana"
              data-ph-a="#8e7c6c" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#afa28b">
     <picture>
         <source srcset="/assets/img/recipes/tortilla-espanola.webp" type="image/webp">
-        <img src="/assets/img/recipes/tortilla-espanola.jpg" alt="Tortilla Española — spanish lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tortilla-espanola.jpg" alt="Tortilla Española — Spanish lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tortilla Española"
              data-ph-a="#afa28b" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -182,7 +183,7 @@
   <div class="card-media" style="background:#a35540">
     <picture>
         <source srcset="/assets/img/recipes/sangria.webp" type="image/webp">
-        <img src="/assets/img/recipes/sangria.jpg" alt="Red Wine Sangria — spanish drinks recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sangria.jpg" alt="Red Wine Sangria — Spanish drinks recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Red Wine Sangria"
              data-ph-a="#a35540" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -212,7 +213,7 @@
   <div class="card-media" style="background:#b6886b">
     <picture>
         <source srcset="/assets/img/recipes/patatas-bravas.webp" type="image/webp">
-        <img src="/assets/img/recipes/patatas-bravas.jpg" alt="Patatas Bravas — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/patatas-bravas.jpg" alt="Patatas Bravas — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Patatas Bravas"
              data-ph-a="#b6886b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -242,7 +243,7 @@
   <div class="card-media" style="background:#a07d74">
     <picture>
         <source srcset="/assets/img/recipes/gazpacho.webp" type="image/webp">
-        <img src="/assets/img/recipes/gazpacho.jpg" alt="Andalusian Gazpacho — spanish healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gazpacho.jpg" alt="Andalusian Gazpacho — Spanish healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Andalusian Gazpacho"
              data-ph-a="#a07d74" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -272,7 +273,7 @@
   <div class="card-media" style="background:#7d746f">
     <picture>
         <source srcset="/assets/img/recipes/gambas-al-ajillo.webp" type="image/webp">
-        <img src="/assets/img/recipes/gambas-al-ajillo.jpg" alt="Gambas al Ajillo — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gambas-al-ajillo.jpg" alt="Gambas al Ajillo — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gambas al Ajillo"
              data-ph-a="#7d746f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -302,7 +303,7 @@
   <div class="card-media" style="background:#a67b58">
     <picture>
         <source srcset="/assets/img/recipes/pan-con-tomate.webp" type="image/webp">
-        <img src="/assets/img/recipes/pan-con-tomate.jpg" alt="Pan con Tomate — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pan-con-tomate.jpg" alt="Pan con Tomate — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pan con Tomate"
              data-ph-a="#a67b58" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -332,7 +333,7 @@
   <div class="card-media" style="background:#937d67">
     <picture>
         <source srcset="/assets/img/recipes/salmorejo.webp" type="image/webp">
-        <img src="/assets/img/recipes/salmorejo.jpg" alt="Salmorejo — spanish healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/salmorejo.jpg" alt="Salmorejo — Spanish healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Salmorejo"
              data-ph-a="#937d67" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -362,7 +363,7 @@
   <div class="card-media" style="background:#9c6f5c">
     <picture>
         <source srcset="/assets/img/recipes/pulpo-a-la-gallega.webp" type="image/webp">
-        <img src="/assets/img/recipes/pulpo-a-la-gallega.jpg" alt="Pulpo a la Gallega — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pulpo-a-la-gallega.jpg" alt="Pulpo a la Gallega — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pulpo a la Gallega"
              data-ph-a="#9c6f5c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -390,7 +391,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Fabada Asturiana — spanish dinner recipe, served and ready to eat"><span>Fabada Asturiana</span></div>
+    <div class="img-fallback" role="img" aria-label="Fabada Asturiana — Spanish dinner recipe, served and ready to eat"><span>Fabada Asturiana</span></div>
     <div class="card-badges"><span class="badge badge--glass">Spanish</span></div>
     <button class="fav-btn" type="button" data-slug="fabada-asturiana" data-title="Fabada Asturiana"
             aria-pressed="false" aria-label="Save Fabada Asturiana to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>

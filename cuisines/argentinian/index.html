@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/" aria-current="page">Cuisines</a>
       <a href="/search/">Search</a>
@@ -120,7 +121,7 @@
     <div class="card-grid" style="margin-top:2rem">
       <article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Chimichurri Steak — argentinian dinner recipe, served and ready to eat"><span>Chimichurri Steak</span></div>
+    <div class="img-fallback" role="img" aria-label="Chimichurri Steak — Argentinian dinner recipe, served and ready to eat"><span>Chimichurri Steak</span></div>
     <div class="card-badges"><span class="badge badge--glass">Argentinian</span><span class="badge badge--brass">Trending</span></div>
     <button class="fav-btn" type="button" data-slug="chimichurri-steak" data-title="Chimichurri Steak"
             aria-pressed="false" aria-label="Save Chimichurri Steak to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -146,7 +147,7 @@
   <div class="card-media" style="background:#a8937a">
     <picture>
         <source srcset="/assets/img/recipes/beef-empanadas.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-empanadas.jpg" alt="Beef Empanadas — argentinian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-empanadas.jpg" alt="Beef Empanadas — Argentinian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Empanadas"
              data-ph-a="#a8937a" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -173,8 +174,14 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="120">
-  <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Alfajores — argentinian desserts recipe, served and ready to eat"><span>Alfajores</span></div>
+  <div class="card-media" style="background:#8f7d6a">
+    <picture>
+        <source srcset="/assets/img/recipes/alfajores.webp" type="image/webp">
+        <img src="/assets/img/recipes/alfajores.jpg" alt="Alfajores — Argentinian desserts recipe, served and ready to eat"
+             width="800" height="600" data-fade data-title="Alfajores"
+             data-ph-a="#8f7d6a" data-ph-b="#8c5a3c"
+             loading="eager" fetchpriority="high" decoding="async">
+       </picture>
     <div class="card-badges"><span class="badge badge--glass">Argentinian</span></div>
     <button class="fav-btn" type="button" data-slug="alfajores" data-title="Alfajores"
             aria-pressed="false" aria-label="Save Alfajores to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>

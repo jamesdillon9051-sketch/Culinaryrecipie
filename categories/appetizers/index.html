@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/">Cuisines</a>
       <a href="/search/">Search</a>
@@ -122,7 +123,7 @@
   <div class="card-media" style="background:#856c58">
     <picture>
         <source srcset="/assets/img/recipes/hummus.webp" type="image/webp">
-        <img src="/assets/img/recipes/hummus.jpg" alt="Silky Hummus — middle eastern appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/hummus.jpg" alt="Silky Hummus — Middle Eastern appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Silky Hummus"
              data-ph-a="#856c58" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#aa906f">
     <picture>
         <source srcset="/assets/img/recipes/guacamole.webp" type="image/webp">
-        <img src="/assets/img/recipes/guacamole.jpg" alt="Authentic Guacamole — mexican appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/guacamole.jpg" alt="Authentic Guacamole — Mexican appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Authentic Guacamole"
              data-ph-a="#aa906f" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -179,12 +180,12 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="120">
-  <div class="card-media" style="background:#8f8f89">
+  <div class="card-media" style="background:#a58872">
     <picture>
         <source srcset="/assets/img/recipes/buffalo-wings.webp" type="image/webp">
-        <img src="/assets/img/recipes/buffalo-wings.jpg" alt="Buffalo Wings — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/buffalo-wings.jpg" alt="Buffalo Wings — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Buffalo Wings"
-             data-ph-a="#8f8f89" data-ph-b="#8c5a3c"
+             data-ph-a="#a58872" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span><span class="badge badge--brass">Trending</span></div>
@@ -212,7 +213,7 @@
   <div class="card-media" style="background:#968e84">
     <picture>
         <source srcset="/assets/img/recipes/chicken-karaage.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-karaage.jpg" alt="Chicken Karaage — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-karaage.jpg" alt="Chicken Karaage — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Karaage"
              data-ph-a="#968e84" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -242,7 +243,7 @@
   <div class="card-media" style="background:#ab813b">
     <picture>
         <source srcset="/assets/img/recipes/pork-dumplings.webp" type="image/webp">
-        <img src="/assets/img/recipes/pork-dumplings.jpg" alt="Steamed Pork Dumplings — chinese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pork-dumplings.jpg" alt="Steamed Pork Dumplings — Chinese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Steamed Pork Dumplings"
              data-ph-a="#ab813b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -272,7 +273,7 @@
   <div class="card-media" style="background:#b8815b">
     <picture>
         <source srcset="/assets/img/recipes/samosas.webp" type="image/webp">
-        <img src="/assets/img/recipes/samosas.jpg" alt="Punjabi Samosas — indian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/samosas.jpg" alt="Punjabi Samosas — Indian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Punjabi Samosas"
              data-ph-a="#b8815b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -302,7 +303,7 @@
   <div class="card-media" style="background:#96705b">
     <picture>
         <source srcset="/assets/img/recipes/buffalo-chicken-dip.webp" type="image/webp">
-        <img src="/assets/img/recipes/buffalo-chicken-dip.jpg" alt="Buffalo Chicken Dip — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/buffalo-chicken-dip.jpg" alt="Buffalo Chicken Dip — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Buffalo Chicken Dip"
              data-ph-a="#96705b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -332,7 +333,7 @@
   <div class="card-media" style="background:#676858">
     <picture>
         <source srcset="/assets/img/recipes/nachos.webp" type="image/webp">
-        <img src="/assets/img/recipes/nachos.jpg" alt="Loaded Nachos — mexican appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/nachos.jpg" alt="Loaded Nachos — Mexican appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Loaded Nachos"
              data-ph-a="#676858" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -362,7 +363,7 @@
   <div class="card-media" style="background:#857259">
     <picture>
         <source srcset="/assets/img/recipes/paneer-tikka.webp" type="image/webp">
-        <img src="/assets/img/recipes/paneer-tikka.jpg" alt="Paneer Tikka — indian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/paneer-tikka.jpg" alt="Paneer Tikka — Indian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Paneer Tikka"
              data-ph-a="#857259" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -392,7 +393,7 @@
   <div class="card-media" style="background:#72716f">
     <picture>
         <source srcset="/assets/img/recipes/chicken-satay.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-satay.jpg" alt="Chicken Satay — indonesian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-satay.jpg" alt="Chicken Satay — Indonesian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Satay"
              data-ph-a="#72716f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -422,7 +423,7 @@
   <div class="card-media" style="background:#897861">
     <picture>
         <source srcset="/assets/img/recipes/deviled-eggs.webp" type="image/webp">
-        <img src="/assets/img/recipes/deviled-eggs.jpg" alt="Deviled Eggs — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/deviled-eggs.jpg" alt="Deviled Eggs — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Deviled Eggs"
              data-ph-a="#897861" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -452,7 +453,7 @@
   <div class="card-media" style="background:#907f6c">
     <picture>
         <source srcset="/assets/img/recipes/gyoza.webp" type="image/webp">
-        <img src="/assets/img/recipes/gyoza.jpg" alt="Pork Gyoza — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gyoza.jpg" alt="Pork Gyoza — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pork Gyoza"
              data-ph-a="#907f6c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -482,7 +483,7 @@
   <div class="card-media" style="background:#979082">
     <picture>
         <source srcset="/assets/img/recipes/tzatziki.webp" type="image/webp">
-        <img src="/assets/img/recipes/tzatziki.jpg" alt="Tzatziki — greek appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tzatziki.jpg" alt="Tzatziki — Greek appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tzatziki"
              data-ph-a="#979082" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -512,7 +513,7 @@
   <div class="card-media" style="background:#856a5b">
     <picture>
         <source srcset="/assets/img/recipes/kimchi.webp" type="image/webp">
-        <img src="/assets/img/recipes/kimchi.jpg" alt="Napa Cabbage Kimchi — korean appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/kimchi.jpg" alt="Napa Cabbage Kimchi — Korean appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Napa Cabbage Kimchi"
              data-ph-a="#856a5b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -542,7 +543,7 @@
   <div class="card-media" style="background:#74716d">
     <picture>
         <source srcset="/assets/img/recipes/goi-cuon.webp" type="image/webp">
-        <img src="/assets/img/recipes/goi-cuon.jpg" alt="Gỏi Cuốn (Fresh Spring Rolls) — vietnamese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/goi-cuon.jpg" alt="Gỏi Cuốn (Fresh Spring Rolls) — Vietnamese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gỏi Cuốn (Fresh Spring Rolls)"
              data-ph-a="#74716d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -572,7 +573,7 @@
   <div class="card-media" style="background:#858172">
     <picture>
         <source srcset="/assets/img/recipes/spring-rolls.webp" type="image/webp">
-        <img src="/assets/img/recipes/spring-rolls.jpg" alt="Crispy Spring Rolls — chinese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/spring-rolls.jpg" alt="Crispy Spring Rolls — Chinese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Crispy Spring Rolls"
              data-ph-a="#858172" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -602,7 +603,7 @@
   <div class="card-media" style="background:#a8937a">
     <picture>
         <source srcset="/assets/img/recipes/beef-empanadas.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-empanadas.jpg" alt="Beef Empanadas — argentinian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-empanadas.jpg" alt="Beef Empanadas — Argentinian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Empanadas"
              data-ph-a="#a8937a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -632,7 +633,7 @@
   <div class="card-media" style="background:#b6b4a1">
     <picture>
         <source srcset="/assets/img/recipes/xiao-long-bao.webp" type="image/webp">
-        <img src="/assets/img/recipes/xiao-long-bao.jpg" alt="Xiao Long Bao — chinese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/xiao-long-bao.jpg" alt="Xiao Long Bao — Chinese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Xiao Long Bao"
              data-ph-a="#b6b4a1" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -662,7 +663,7 @@
   <div class="card-media" style="background:#b29d79">
     <picture>
         <source srcset="/assets/img/recipes/mozzarella-sticks.webp" type="image/webp">
-        <img src="/assets/img/recipes/mozzarella-sticks.jpg" alt="Mozzarella Sticks — american appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mozzarella-sticks.jpg" alt="Mozzarella Sticks — American appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Mozzarella Sticks"
              data-ph-a="#b29d79" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -692,7 +693,7 @@
   <div class="card-media" style="background:#af8571">
     <picture>
         <source srcset="/assets/img/recipes/bruschetta.webp" type="image/webp">
-        <img src="/assets/img/recipes/bruschetta.jpg" alt="Tomato Bruschetta — italian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bruschetta.jpg" alt="Tomato Bruschetta — Italian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tomato Bruschetta"
              data-ph-a="#af8571" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -722,7 +723,7 @@
   <div class="card-media" style="background:#b6886b">
     <picture>
         <source srcset="/assets/img/recipes/patatas-bravas.webp" type="image/webp">
-        <img src="/assets/img/recipes/patatas-bravas.jpg" alt="Patatas Bravas — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/patatas-bravas.jpg" alt="Patatas Bravas — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Patatas Bravas"
              data-ph-a="#b6886b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -752,7 +753,7 @@
   <div class="card-media" style="background:#9e8c76">
     <picture>
         <source srcset="/assets/img/recipes/ceviche.webp" type="image/webp">
-        <img src="/assets/img/recipes/ceviche.jpg" alt="Peruvian Ceviche — peruvian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/ceviche.jpg" alt="Peruvian Ceviche — Peruvian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Peruvian Ceviche"
              data-ph-a="#9e8c76" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -782,7 +783,7 @@
   <div class="card-media" style="background:#beaf9c">
     <picture>
         <source srcset="/assets/img/recipes/elote.webp" type="image/webp">
-        <img src="/assets/img/recipes/elote.jpg" alt="Elote — Mexican Street Corn — mexican appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/elote.jpg" alt="Elote — Mexican Street Corn — Mexican appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Elote — Mexican Street Corn"
              data-ph-a="#beaf9c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -810,7 +811,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Beer-Battered Onion Rings — american appetizers recipe, served and ready to eat"><span>Beer-Battered Onion Rings</span></div>
+    <div class="img-fallback" role="img" aria-label="Beer-Battered Onion Rings — American appetizers recipe, served and ready to eat"><span>Beer-Battered Onion Rings</span></div>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
     <button class="fav-btn" type="button" data-slug="onion-rings" data-title="Beer-Battered Onion Rings"
             aria-pressed="false" aria-label="Save Beer-Battered Onion Rings to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -836,7 +837,7 @@
   <div class="card-media" style="background:#6e6152">
     <picture>
         <source srcset="/assets/img/recipes/caprese-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/caprese-salad.jpg" alt="Caprese Salad — italian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/caprese-salad.jpg" alt="Caprese Salad — Italian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Caprese Salad"
              data-ph-a="#6e6152" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -866,7 +867,7 @@
   <div class="card-media" style="background:#7d746f">
     <picture>
         <source srcset="/assets/img/recipes/gambas-al-ajillo.webp" type="image/webp">
-        <img src="/assets/img/recipes/gambas-al-ajillo.jpg" alt="Gambas al Ajillo — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gambas-al-ajillo.jpg" alt="Gambas al Ajillo — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gambas al Ajillo"
              data-ph-a="#7d746f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -896,7 +897,7 @@
   <div class="card-media" style="background:#9e7057">
     <picture>
         <source srcset="/assets/img/recipes/suya.webp" type="image/webp">
-        <img src="/assets/img/recipes/suya.jpg" alt="Beef Suya — nigerian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/suya.jpg" alt="Beef Suya — Nigerian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Suya"
              data-ph-a="#9e7057" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -926,7 +927,7 @@
   <div class="card-media" style="background:#8b7453">
     <picture>
         <source srcset="/assets/img/recipes/char-siu-bao.webp" type="image/webp">
-        <img src="/assets/img/recipes/char-siu-bao.jpg" alt="Char Siu Bao — chinese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/char-siu-bao.jpg" alt="Char Siu Bao — Chinese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Char Siu Bao"
              data-ph-a="#8b7453" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -954,7 +955,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Queso Fundido — mexican appetizers recipe, served and ready to eat"><span>Queso Fundido</span></div>
+    <div class="img-fallback" role="img" aria-label="Queso Fundido — Mexican appetizers recipe, served and ready to eat"><span>Queso Fundido</span></div>
     <div class="card-badges"><span class="badge badge--glass">Mexican</span></div>
     <button class="fav-btn" type="button" data-slug="queso-fundido" data-title="Queso Fundido"
             aria-pressed="false" aria-label="Save Queso Fundido to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -980,7 +981,7 @@
   <div class="card-media" style="background:#685d51">
     <picture>
         <source srcset="/assets/img/recipes/baba-ganoush.webp" type="image/webp">
-        <img src="/assets/img/recipes/baba-ganoush.jpg" alt="Baba Ganoush — middle eastern appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/baba-ganoush.jpg" alt="Baba Ganoush — Middle Eastern appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Baba Ganoush"
              data-ph-a="#685d51" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1010,7 +1011,7 @@
   <div class="card-media" style="background:#ac9b86">
     <picture>
         <source srcset="/assets/img/recipes/salt-and-pepper-squid.webp" type="image/webp">
-        <img src="/assets/img/recipes/salt-and-pepper-squid.jpg" alt="Salt and Pepper Squid — chinese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/salt-and-pepper-squid.jpg" alt="Salt and Pepper Squid — Chinese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Salt and Pepper Squid"
              data-ph-a="#ac9b86" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1040,7 +1041,7 @@
   <div class="card-media" style="background:#a67b58">
     <picture>
         <source srcset="/assets/img/recipes/pan-con-tomate.webp" type="image/webp">
-        <img src="/assets/img/recipes/pan-con-tomate.jpg" alt="Pan con Tomate — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pan-con-tomate.jpg" alt="Pan con Tomate — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pan con Tomate"
              data-ph-a="#a67b58" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1070,7 +1071,7 @@
   <div class="card-media" style="background:#988161">
     <picture>
         <source srcset="/assets/img/recipes/cha-gio.webp" type="image/webp">
-        <img src="/assets/img/recipes/cha-gio.jpg" alt="Chả Giò — vietnamese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cha-gio.jpg" alt="Chả Giò — Vietnamese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chả Giò"
              data-ph-a="#988161" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1097,12 +1098,12 @@
     </div>
   </div>
 </article><article class="card reveal" data-delay="60">
-  <div class="card-media" style="background:#816d5d">
+  <div class="card-media" style="background:#9f7146">
     <picture>
         <source srcset="/assets/img/recipes/spanakopita.webp" type="image/webp">
-        <img src="/assets/img/recipes/spanakopita.jpg" alt="Spanakopita — greek appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/spanakopita.jpg" alt="Spanakopita — Greek appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Spanakopita"
-             data-ph-a="#816d5d" data-ph-b="#8c5a3c"
+             data-ph-a="#9f7146" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
@@ -1128,7 +1129,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Labneh with Za&#39;atar — middle eastern appetizers recipe, served and ready to eat"><span>Labneh with Za&#39;atar</span></div>
+    <div class="img-fallback" role="img" aria-label="Labneh with Za&#39;atar — Middle Eastern appetizers recipe, served and ready to eat"><span>Labneh with Za&#39;atar</span></div>
     <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
     <button class="fav-btn" type="button" data-slug="labneh" data-title="Labneh with Za&#39;atar"
             aria-pressed="false" aria-label="Save Labneh with Za&#39;atar to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1154,7 +1155,7 @@
   <div class="card-media" style="background:#cfc193">
     <picture>
         <source srcset="/assets/img/recipes/tempura.webp" type="image/webp">
-        <img src="/assets/img/recipes/tempura.jpg" alt="Crispy Vegetable Tempura — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tempura.jpg" alt="Crispy Vegetable Tempura — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Crispy Vegetable Tempura"
              data-ph-a="#cfc193" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1184,7 +1185,7 @@
   <div class="card-media" style="background:#745843">
     <picture>
         <source srcset="/assets/img/recipes/yakitori.webp" type="image/webp">
-        <img src="/assets/img/recipes/yakitori.jpg" alt="Yakitori Chicken Skewers — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/yakitori.jpg" alt="Yakitori Chicken Skewers — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Yakitori Chicken Skewers"
              data-ph-a="#745843" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1212,7 +1213,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Haemul Pajeon — korean appetizers recipe, served and ready to eat"><span>Haemul Pajeon</span></div>
+    <div class="img-fallback" role="img" aria-label="Haemul Pajeon — Korean appetizers recipe, served and ready to eat"><span>Haemul Pajeon</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="haemul-pajeon" data-title="Haemul Pajeon"
             aria-pressed="false" aria-label="Save Haemul Pajeon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1236,7 +1237,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Cheese Börek — turkish appetizers recipe, served and ready to eat"><span>Cheese Börek</span></div>
+    <div class="img-fallback" role="img" aria-label="Cheese Börek — Turkish appetizers recipe, served and ready to eat"><span>Cheese Börek</span></div>
     <div class="card-badges"><span class="badge badge--glass">Turkish</span></div>
     <button class="fav-btn" type="button" data-slug="borek" data-title="Cheese Börek"
             aria-pressed="false" aria-label="Save Cheese Börek to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1262,7 +1263,7 @@
   <div class="card-media" style="background:#9b7445">
     <picture>
         <source srcset="/assets/img/recipes/vegetable-pakoras.webp" type="image/webp">
-        <img src="/assets/img/recipes/vegetable-pakoras.jpg" alt="Vegetable Pakoras — indian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/vegetable-pakoras.jpg" alt="Vegetable Pakoras — Indian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Vegetable Pakoras"
              data-ph-a="#9b7445" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1292,7 +1293,7 @@
   <div class="card-media" style="background:#b8916d">
     <picture>
         <source srcset="/assets/img/recipes/takoyaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/takoyaki.jpg" alt="Takoyaki — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/takoyaki.jpg" alt="Takoyaki — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Takoyaki"
              data-ph-a="#b8916d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1320,7 +1321,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Greek Keftedes — greek appetizers recipe, served and ready to eat"><span>Greek Keftedes</span></div>
+    <div class="img-fallback" role="img" aria-label="Greek Keftedes — Greek appetizers recipe, served and ready to eat"><span>Greek Keftedes</span></div>
     <div class="card-badges"><span class="badge badge--glass">Greek</span></div>
     <button class="fav-btn" type="button" data-slug="keftedes" data-title="Greek Keftedes"
             aria-pressed="false" aria-label="Save Greek Keftedes to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1346,7 +1347,7 @@
   <div class="card-media" style="background:#b48966">
     <picture>
         <source srcset="/assets/img/recipes/gravlax.webp" type="image/webp">
-        <img src="/assets/img/recipes/gravlax.jpg" alt="Gravlax — swedish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gravlax.jpg" alt="Gravlax — Swedish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gravlax"
              data-ph-a="#b48966" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1376,7 +1377,7 @@
   <div class="card-media" style="background:#746e67">
     <picture>
         <source srcset="/assets/img/recipes/saganaki.webp" type="image/webp">
-        <img src="/assets/img/recipes/saganaki.jpg" alt="Saganaki — greek appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/saganaki.jpg" alt="Saganaki — Greek appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Saganaki"
              data-ph-a="#746e67" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1406,7 +1407,7 @@
   <div class="card-media" style="background:#9c6f5c">
     <picture>
         <source srcset="/assets/img/recipes/pulpo-a-la-gallega.webp" type="image/webp">
-        <img src="/assets/img/recipes/pulpo-a-la-gallega.jpg" alt="Pulpo a la Gallega — spanish appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pulpo-a-la-gallega.jpg" alt="Pulpo a la Gallega — Spanish appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pulpo a la Gallega"
              data-ph-a="#9c6f5c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1436,7 +1437,7 @@
   <div class="card-media" style="background:#92745b">
     <picture>
         <source srcset="/assets/img/recipes/agedashi-tofu.webp" type="image/webp">
-        <img src="/assets/img/recipes/agedashi-tofu.jpg" alt="Agedashi Tofu — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/agedashi-tofu.jpg" alt="Agedashi Tofu — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Agedashi Tofu"
              data-ph-a="#92745b" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1466,7 +1467,7 @@
   <div class="card-media" style="background:#898666">
     <picture>
         <source srcset="/assets/img/recipes/sopes.webp" type="image/webp">
-        <img src="/assets/img/recipes/sopes.jpg" alt="Sopes — mexican appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sopes.jpg" alt="Sopes — Mexican appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sopes"
              data-ph-a="#898666" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1496,7 +1497,7 @@
   <div class="card-media" style="background:#aa907a">
     <picture>
         <source srcset="/assets/img/recipes/arancini.webp" type="image/webp">
-        <img src="/assets/img/recipes/arancini.jpg" alt="Sicilian Arancini — italian appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/arancini.jpg" alt="Sicilian Arancini — Italian appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sicilian Arancini"
              data-ph-a="#aa907a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1526,7 +1527,7 @@
   <div class="card-media" style="background:#747467">
     <picture>
         <source srcset="/assets/img/recipes/pissaladiere.webp" type="image/webp">
-        <img src="/assets/img/recipes/pissaladiere.jpg" alt="Pissaladière — french appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pissaladiere.jpg" alt="Pissaladière — French appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pissaladière"
              data-ph-a="#747467" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1556,7 +1557,7 @@
   <div class="card-media" style="background:#766c60">
     <picture>
         <source srcset="/assets/img/recipes/chawanmushi.webp" type="image/webp">
-        <img src="/assets/img/recipes/chawanmushi.jpg" alt="Chawanmushi — japanese appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chawanmushi.jpg" alt="Chawanmushi — Japanese appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chawanmushi"
              data-ph-a="#766c60" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">

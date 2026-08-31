@@ -29,19 +29,32 @@ WEBP_Q, JPEG_Q = 68, 70
 # Licences we accept. Anything else is rejected outright.
 OK_LICENCE = re.compile(r"^(cc0|public domain|pdm|no restrictions)", re.I)
 BAD_TOKENS = re.compile(
-    r"(logo|map|diagram|chart|sign|poster|stamp|coin|packaging|label|box|menu|"
+    # Things that are not a photograph of the dish. Terms that also occur
+    # inside ordinary food words are anchored: "flower" must not match
+    # "cauliflower", and a four-digit archival year must not match the
+    # middle of a camera timestamp like 20220503_122449.
+    r"(logo|map|diagram|chart|\bsign\b|poster|stamp|coin|packaging|label|\bbox\b|menu|"
     r"portrait|statue|monument|building|shop ?front|storefront|cartoon|drawing|"
     r"painting|illustration|coat of arms|flag of|stereograph|postcard|engraving|"
     r"lithograph|dennis collection|collection\.|archive|museum|advertisement|"
-    r"cookbook|book cover|page from|title page|1[0-9]{3}|nasa|patent|"
+    r"cookbook|book cover|page from|title page|nasa|patent|"
+    # An archival date, standalone and old enough to mean a historical scan.
+    r"\b1[0-8][0-9]{2}\b|\b19[0-5][0-9]\b|"
     # Product shots, clip art and brand assets look like food in a search
     # result and never look like a recipe photograph.
-    r"\bpng\b|sticker|clip ?art|render|mockup|frozen [a-z]+ (pie|meal|dinner)|"
-    r"mcdonald|burger king|m&m|mars\b|kfc|captain d|monster energy|subway|"
-    r"nestl|kellogg|heinz|campbell|swanson|machine|maquina|máquina|fábrica|"
-    r"factory|premiere|conference|wordcamp|ciclo|visita|embajador|ambassador|"
-    r"sunset|sunrise|burr\b|limbo|sculpture|tourist|"
-    r"woman|man |people|crowd|festival|parade|restaurant exterior|market stall|bird|tree|pine|flower|plant |leaf|insect|butterfly|garden|landscape|church|temple|station|street|bridge|castle|park |beach)", re.I)
+    r"\bpng\b|sticker|clip ?art|\brender\b|mockup|frozen [a-z]+ (pie|meal|dinner)|"
+    r"mcdonald|burger king|m&m|\bkfc\b|captain d|monster energy|\bsubway\b|"
+    r"nestl|kellogg|heinz|campbell|swanson|chees[e]?cake factory|"
+    r"machine|maquina|m\u00e1quina|f\u00e1brica|premiere|conference|wordcamp|"
+    r"ciclo|visita|embajador|ambassador|recalled|"
+    # Places and living things, anchored so they cannot match inside a
+    # longer food word.
+    r"sunset|sunrise|\bburr\b|\blimbo\b|sculpture|tourist|"
+    r"\bwoman\b|\bman\b|\bpeople\b|crowd|festival|parade|restaurant exterior|"
+    r"market stall|\bbird\b|\btree\b|\bpine\b|\bflower\b|\bplant\b|\bleaf\b|"
+    r"insect|butterfly|worm|larva|caterpillar|\bgarden\b|landscape|church|"
+    r"temple|\bstation\b|"
+    r"\bstreet\b|\bbridge\b|castle|\bpark\b|\bmall\b|shopping|airport|hotel lobby)", re.I)
 STOP = set("""a an and the of with in on for to from at by de la le les el il alla all
 au aux con e y style classic authentic homemade best easy quick ultimate crispy
 fluffy silky creamy warm iced fresh baked roast roasted slow one bowl skillet deep

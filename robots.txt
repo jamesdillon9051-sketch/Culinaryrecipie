@@ -1,4 +1,4 @@
-# CulinaryVault — https://culinaryvault.example
+# CulinaryVault — https://culinaryvault.netlify.app/
 User-agent: *
 Allow: /
 

@@ -3,337 +3,337 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://culinaryvault.netlify.app/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/search/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/about/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/contact/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/breakfast/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/lunch/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/dinner/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/desserts/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/appetizers/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/drinks/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/baking/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/healthy/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/quick-meals/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/categories/holiday-specials/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/american/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/italian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/french/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/indian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/chinese/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/mexican/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/japanese/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/british/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/middle-eastern/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/international/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/greek/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/korean/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/thai/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/spanish/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/vietnamese/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/turkish/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/german/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/indonesian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/jamaican/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/portuguese/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/argentinian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/brazilian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/nigerian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/peruvian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/russian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/swedish/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/cuban/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/malaysian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/moroccan/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/polish/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/ukrainian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/egyptian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/ethiopian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/filipino/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/hungarian/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/salvadoran/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/singaporean/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/south-african/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/venezuelan/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -345,7 +345,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/margherita-pizza.jpg</image:loc>
       <image:title>Margherita Pizza</image:title>
-      <image:caption>Margherita Pizza — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Margherita Pizza — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -356,7 +356,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spaghetti-carbonara.jpg</image:loc>
       <image:title>Spaghetti Carbonara</image:title>
-      <image:caption>Spaghetti Carbonara — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Spaghetti Carbonara — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -367,7 +367,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lasagna-bolognese.jpg</image:loc>
       <image:title>Lasagna Bolognese</image:title>
-      <image:caption>Lasagna Bolognese — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Lasagna Bolognese — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -378,7 +378,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fettuccine-alfredo.jpg</image:loc>
       <image:title>Fettuccine Alfredo</image:title>
-      <image:caption>Fettuccine Alfredo — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Fettuccine Alfredo — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -389,7 +389,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cacio-e-pepe.jpg</image:loc>
       <image:title>Cacio e Pepe</image:title>
-      <image:caption>Cacio e Pepe — italian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Cacio e Pepe — Italian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -400,7 +400,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/penne-all-arrabbiata.jpg</image:loc>
       <image:title>Penne all&#39;Arrabbiata</image:title>
-      <image:caption>Penne all&#39;Arrabbiata — italian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Penne all&#39;Arrabbiata — Italian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -411,7 +411,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/risotto-alla-milanese.jpg</image:loc>
       <image:title>Risotto alla Milanese</image:title>
-      <image:caption>Risotto alla Milanese — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Risotto alla Milanese — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -422,7 +422,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/osso-buco.jpg</image:loc>
       <image:title>Osso Buco alla Milanese</image:title>
-      <image:caption>Osso Buco alla Milanese — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Osso Buco alla Milanese — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -433,7 +433,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-parmigiana.jpg</image:loc>
       <image:title>Chicken Parmigiana</image:title>
-      <image:caption>Chicken Parmigiana — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Parmigiana — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -444,7 +444,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/potato-gnocchi.jpg</image:loc>
       <image:title>Potato Gnocchi with Sage Butter</image:title>
-      <image:caption>Potato Gnocchi with Sage Butter — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Potato Gnocchi with Sage Butter — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -455,7 +455,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pesto-genovese.jpg</image:loc>
       <image:title>Pesto alla Genovese</image:title>
-      <image:caption>Pesto alla Genovese — italian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Pesto alla Genovese — Italian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -466,7 +466,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/minestrone-soup.jpg</image:loc>
       <image:title>Minestrone Soup</image:title>
-      <image:caption>Minestrone Soup — italian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Minestrone Soup — Italian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -477,7 +477,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/caprese-salad.jpg</image:loc>
       <image:title>Caprese Salad</image:title>
-      <image:caption>Caprese Salad — italian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Caprese Salad — Italian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -488,7 +488,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bruschetta.jpg</image:loc>
       <image:title>Tomato Bruschetta</image:title>
-      <image:caption>Tomato Bruschetta — italian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Tomato Bruschetta — Italian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -499,7 +499,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/arancini.jpg</image:loc>
       <image:title>Sicilian Arancini</image:title>
-      <image:caption>Sicilian Arancini — italian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Sicilian Arancini — Italian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -510,7 +510,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/focaccia.jpg</image:loc>
       <image:title>Rosemary Focaccia</image:title>
-      <image:caption>Rosemary Focaccia — italian baking recipe, served and ready to eat</image:caption>
+      <image:caption>Rosemary Focaccia — Italian baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -521,7 +521,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tiramisu.jpg</image:loc>
       <image:title>Classic Tiramisu</image:title>
-      <image:caption>Classic Tiramisu — italian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Tiramisu — Italian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -532,7 +532,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/panna-cotta.jpg</image:loc>
       <image:title>Vanilla Panna Cotta</image:title>
-      <image:caption>Vanilla Panna Cotta — italian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Vanilla Panna Cotta — Italian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -543,7 +543,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-bourguignon.jpg</image:loc>
       <image:title>Beef Bourguignon</image:title>
-      <image:caption>Beef Bourguignon — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Bourguignon — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -554,7 +554,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/coq-au-vin.jpg</image:loc>
       <image:title>Coq au Vin</image:title>
-      <image:caption>Coq au Vin — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Coq au Vin — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -565,7 +565,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/french-onion-soup.jpg</image:loc>
       <image:title>French Onion Soup</image:title>
-      <image:caption>French Onion Soup — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>French Onion Soup — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -576,7 +576,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/ratatouille.jpg</image:loc>
       <image:title>Provençal Ratatouille</image:title>
-      <image:caption>Provençal Ratatouille — french healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Provençal Ratatouille — French healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -587,7 +587,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bouillabaisse.jpg</image:loc>
       <image:title>Marseille Bouillabaisse</image:title>
-      <image:caption>Marseille Bouillabaisse — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Marseille Bouillabaisse — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -598,7 +598,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cassoulet.jpg</image:loc>
       <image:title>Cassoulet de Toulouse</image:title>
-      <image:caption>Cassoulet de Toulouse — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Cassoulet de Toulouse — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -609,7 +609,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/steak-frites.jpg</image:loc>
       <image:title>Steak Frites</image:title>
-      <image:caption>Steak Frites — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Steak Frites — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -620,7 +620,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/quiche-lorraine.jpg</image:loc>
       <image:title>Quiche Lorraine</image:title>
-      <image:caption>Quiche Lorraine — french lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Quiche Lorraine — French lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -631,7 +631,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/salade-nicoise.jpg</image:loc>
       <image:title>Salade Niçoise</image:title>
-      <image:caption>Salade Niçoise — french lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Salade Niçoise — French lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -642,7 +642,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/croissants.jpg</image:loc>
       <image:title>Butter Croissants</image:title>
-      <image:caption>Butter Croissants — french baking recipe, served and ready to eat</image:caption>
+      <image:caption>Butter Croissants — French baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -653,7 +653,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/baguette.jpg</image:loc>
       <image:title>French Baguette</image:title>
-      <image:caption>French Baguette — french baking recipe, served and ready to eat</image:caption>
+      <image:caption>French Baguette — French baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -664,7 +664,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/eclairs.jpg</image:loc>
       <image:title>Chocolate Éclairs</image:title>
-      <image:caption>Chocolate Éclairs — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Chocolate Éclairs — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -675,7 +675,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/macarons.jpg</image:loc>
       <image:title>French Macarons</image:title>
-      <image:caption>French Macarons — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>French Macarons — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -686,7 +686,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/creme-brulee.jpg</image:loc>
       <image:title>Crème Brûlée</image:title>
-      <image:caption>Crème Brûlée — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Crème Brûlée — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -697,7 +697,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chocolate-souffle.jpg</image:loc>
       <image:title>Chocolate Soufflé</image:title>
-      <image:caption>Chocolate Soufflé — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Chocolate Soufflé — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -708,7 +708,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tarte-tatin.jpg</image:loc>
       <image:title>Apple Tarte Tatin</image:title>
-      <image:caption>Apple Tarte Tatin — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Apple Tarte Tatin — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -719,7 +719,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tonkotsu-ramen.jpg</image:loc>
       <image:title>Tonkotsu Ramen</image:title>
-      <image:caption>Tonkotsu Ramen — japanese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Tonkotsu Ramen — Japanese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -730,7 +730,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-katsu-curry.jpg</image:loc>
       <image:title>Chicken Katsu Curry</image:title>
-      <image:caption>Chicken Katsu Curry — japanese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Katsu Curry — Japanese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -741,7 +741,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-teriyaki.jpg</image:loc>
       <image:title>Chicken Teriyaki</image:title>
-      <image:caption>Chicken Teriyaki — japanese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Teriyaki — Japanese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -752,7 +752,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gyoza.jpg</image:loc>
       <image:title>Pork Gyoza</image:title>
-      <image:caption>Pork Gyoza — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Pork Gyoza — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -763,7 +763,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tempura.jpg</image:loc>
       <image:title>Crispy Vegetable Tempura</image:title>
-      <image:caption>Crispy Vegetable Tempura — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Crispy Vegetable Tempura — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -774,7 +774,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/yakitori.jpg</image:loc>
       <image:title>Yakitori Chicken Skewers</image:title>
-      <image:caption>Yakitori Chicken Skewers — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Yakitori Chicken Skewers — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -785,7 +785,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/okonomiyaki.jpg</image:loc>
       <image:title>Osaka Okonomiyaki</image:title>
-      <image:caption>Osaka Okonomiyaki — japanese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Osaka Okonomiyaki — Japanese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -796,7 +796,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/miso-soup.jpg</image:loc>
       <image:title>Miso Soup</image:title>
-      <image:caption>Miso Soup — japanese healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Miso Soup — Japanese healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -807,7 +807,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/udon-noodle-soup.jpg</image:loc>
       <image:title>Kake Udon Noodle Soup</image:title>
-      <image:caption>Kake Udon Noodle Soup — japanese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Kake Udon Noodle Soup — Japanese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -818,7 +818,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/california-roll.jpg</image:loc>
       <image:title>California Roll</image:title>
-      <image:caption>California Roll — japanese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>California Roll — Japanese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -829,7 +829,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/japanese-cheesecake.jpg</image:loc>
       <image:title>Japanese Cotton Cheesecake</image:title>
-      <image:caption>Japanese Cotton Cheesecake — japanese desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Japanese Cotton Cheesecake — Japanese desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -840,7 +840,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/matcha-latte.jpg</image:loc>
       <image:title>Iced Matcha Latte</image:title>
-      <image:caption>Iced Matcha Latte — japanese drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Iced Matcha Latte — Japanese drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -851,7 +851,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tacos-al-pastor.jpg</image:loc>
       <image:title>Tacos al Pastor</image:title>
-      <image:caption>Tacos al Pastor — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Tacos al Pastor — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -862,7 +862,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-enchiladas.jpg</image:loc>
       <image:title>Chicken Enchiladas Rojas</image:title>
-      <image:caption>Chicken Enchiladas Rojas — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Enchiladas Rojas — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -873,7 +873,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/carnitas.jpg</image:loc>
       <image:title>Slow-Braised Carnitas</image:title>
-      <image:caption>Slow-Braised Carnitas — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Slow-Braised Carnitas — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -884,7 +884,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fish-tacos.jpg</image:loc>
       <image:title>Baja Fish Tacos</image:title>
-      <image:caption>Baja Fish Tacos — mexican quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Baja Fish Tacos — Mexican quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -895,7 +895,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/quesadillas.jpg</image:loc>
       <image:title>Cheese Quesadillas</image:title>
-      <image:caption>Cheese Quesadillas — mexican quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Cheese Quesadillas — Mexican quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -906,7 +906,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/huevos-rancheros.jpg</image:loc>
       <image:title>Huevos Rancheros</image:title>
-      <image:caption>Huevos Rancheros — mexican breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Huevos Rancheros — Mexican breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -917,7 +917,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chili-con-carne.jpg</image:loc>
       <image:title>Chili con Carne</image:title>
-      <image:caption>Chili con Carne — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chili con Carne — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -928,7 +928,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pozole-rojo.jpg</image:loc>
       <image:title>Pozole Rojo</image:title>
-      <image:caption>Pozole Rojo — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Pozole Rojo — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -939,7 +939,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mole-poblano.jpg</image:loc>
       <image:title>Mole Poblano</image:title>
-      <image:caption>Mole Poblano — mexican holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Mole Poblano — Mexican holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -950,7 +950,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tamales.jpg</image:loc>
       <image:title>Pork Tamales</image:title>
-      <image:caption>Pork Tamales — mexican holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Pork Tamales — Mexican holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -961,7 +961,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/guacamole.jpg</image:loc>
       <image:title>Authentic Guacamole</image:title>
-      <image:caption>Authentic Guacamole — mexican appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Authentic Guacamole — Mexican appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -972,7 +972,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/elote.jpg</image:loc>
       <image:title>Elote — Mexican Street Corn</image:title>
-      <image:caption>Elote — Mexican Street Corn — mexican appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Elote — Mexican Street Corn — Mexican appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -983,7 +983,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/churros.jpg</image:loc>
       <image:title>Cinnamon Churros</image:title>
-      <image:caption>Cinnamon Churros — mexican desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Cinnamon Churros — Mexican desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -994,7 +994,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/classic-margarita.jpg</image:loc>
       <image:title>Classic Margarita</image:title>
-      <image:caption>Classic Margarita — mexican drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Margarita — Mexican drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1005,7 +1005,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-tikka-masala.jpg</image:loc>
       <image:title>Chicken Tikka Masala</image:title>
-      <image:caption>Chicken Tikka Masala — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Tikka Masala — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1016,7 +1016,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/butter-chicken.jpg</image:loc>
       <image:title>Butter Chicken (Murgh Makhani)</image:title>
-      <image:caption>Butter Chicken (Murgh Makhani) — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Butter Chicken (Murgh Makhani) — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1027,7 +1027,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/rogan-josh.jpg</image:loc>
       <image:title>Kashmiri Rogan Josh</image:title>
-      <image:caption>Kashmiri Rogan Josh — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Kashmiri Rogan Josh — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1038,7 +1038,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lamb-vindaloo.jpg</image:loc>
       <image:title>Goan Lamb Vindaloo</image:title>
-      <image:caption>Goan Lamb Vindaloo — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Goan Lamb Vindaloo — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1049,7 +1049,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-biryani.jpg</image:loc>
       <image:title>Hyderabadi Chicken Biryani</image:title>
-      <image:caption>Hyderabadi Chicken Biryani — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Hyderabadi Chicken Biryani — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1060,7 +1060,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/palak-paneer.jpg</image:loc>
       <image:title>Palak Paneer</image:title>
-      <image:caption>Palak Paneer — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Palak Paneer — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1071,7 +1071,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chana-masala.jpg</image:loc>
       <image:title>Chana Masala</image:title>
-      <image:caption>Chana Masala — indian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Chana Masala — Indian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1082,7 +1082,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/dal-tadka.jpg</image:loc>
       <image:title>Dal Tadka</image:title>
-      <image:caption>Dal Tadka — indian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Dal Tadka — Indian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1093,7 +1093,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/aloo-gobi.jpg</image:loc>
       <image:title>Aloo Gobi</image:title>
-      <image:caption>Aloo Gobi — indian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Aloo Gobi — Indian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1104,7 +1104,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/masala-dosa.jpg</image:loc>
       <image:title>Masala Dosa</image:title>
-      <image:caption>Masala Dosa — indian breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Masala Dosa — Indian breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1115,7 +1115,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/samosas.jpg</image:loc>
       <image:title>Punjabi Samosas</image:title>
-      <image:caption>Punjabi Samosas — indian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Punjabi Samosas — Indian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1126,7 +1126,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vegetable-pakoras.jpg</image:loc>
       <image:title>Vegetable Pakoras</image:title>
-      <image:caption>Vegetable Pakoras — indian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Vegetable Pakoras — Indian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1137,7 +1137,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tandoori-chicken.jpg</image:loc>
       <image:title>Tandoori Chicken</image:title>
-      <image:caption>Tandoori Chicken — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Tandoori Chicken — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1148,7 +1148,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/garlic-naan.jpg</image:loc>
       <image:title>Garlic Butter Naan</image:title>
-      <image:caption>Garlic Butter Naan — indian baking recipe, served and ready to eat</image:caption>
+      <image:caption>Garlic Butter Naan — Indian baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1159,7 +1159,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gulab-jamun.jpg</image:loc>
       <image:title>Gulab Jamun</image:title>
-      <image:caption>Gulab Jamun — indian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Gulab Jamun — Indian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1170,7 +1170,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mango-lassi.jpg</image:loc>
       <image:title>Mango Lassi</image:title>
-      <image:caption>Mango Lassi — indian drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Mango Lassi — Indian drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1181,7 +1181,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kung-pao-chicken.jpg</image:loc>
       <image:title>Kung Pao Chicken</image:title>
-      <image:caption>Kung Pao Chicken — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Kung Pao Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1192,7 +1192,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sweet-and-sour-pork.jpg</image:loc>
       <image:title>Sweet and Sour Pork</image:title>
-      <image:caption>Sweet and Sour Pork — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Sweet and Sour Pork — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1203,7 +1203,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mapo-tofu.jpg</image:loc>
       <image:title>Mapo Tofu</image:title>
-      <image:caption>Mapo Tofu — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Mapo Tofu — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1214,7 +1214,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/general-tsos-chicken.jpg</image:loc>
       <image:title>General Tso&#39;s Chicken</image:title>
-      <image:caption>General Tso&#39;s Chicken — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>General Tso&#39;s Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1225,7 +1225,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-and-broccoli.jpg</image:loc>
       <image:title>Beef and Broccoli</image:title>
-      <image:caption>Beef and Broccoli — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Beef and Broccoli — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1236,7 +1236,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/egg-fried-rice.jpg</image:loc>
       <image:title>Egg Fried Rice</image:title>
-      <image:caption>Egg Fried Rice — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Egg Fried Rice — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1247,7 +1247,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chow-mein.jpg</image:loc>
       <image:title>Chicken Chow Mein</image:title>
-      <image:caption>Chicken Chow Mein — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Chow Mein — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1258,7 +1258,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/dan-dan-noodles.jpg</image:loc>
       <image:title>Dan Dan Noodles</image:title>
-      <image:caption>Dan Dan Noodles — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Dan Dan Noodles — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1269,7 +1269,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/peking-duck.jpg</image:loc>
       <image:title>Peking Duck</image:title>
-      <image:caption>Peking Duck — chinese holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Peking Duck — Chinese holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1280,7 +1280,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/char-siu.jpg</image:loc>
       <image:title>Char Siu Pork</image:title>
-      <image:caption>Char Siu Pork — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Char Siu Pork — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1291,7 +1291,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pork-dumplings.jpg</image:loc>
       <image:title>Steamed Pork Dumplings</image:title>
-      <image:caption>Steamed Pork Dumplings — chinese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Steamed Pork Dumplings — Chinese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1302,7 +1302,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spring-rolls.jpg</image:loc>
       <image:title>Crispy Spring Rolls</image:title>
-      <image:caption>Crispy Spring Rolls — chinese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Crispy Spring Rolls — Chinese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1313,7 +1313,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/wonton-soup.jpg</image:loc>
       <image:title>Wonton Soup</image:title>
-      <image:caption>Wonton Soup — chinese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Wonton Soup — Chinese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1324,7 +1324,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hot-and-sour-soup.jpg</image:loc>
       <image:title>Hot and Sour Soup</image:title>
-      <image:caption>Hot and Sour Soup — chinese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Hot and Sour Soup — Chinese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1335,7 +1335,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/classic-cheeseburger.jpg</image:loc>
       <image:title>Classic Smash Cheeseburger</image:title>
-      <image:caption>Classic Smash Cheeseburger — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Smash Cheeseburger — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1346,7 +1346,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bbq-baby-back-ribs.jpg</image:loc>
       <image:title>BBQ Baby Back Ribs</image:title>
-      <image:caption>BBQ Baby Back Ribs — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>BBQ Baby Back Ribs — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1357,7 +1357,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/buffalo-wings.jpg</image:loc>
       <image:title>Buffalo Wings</image:title>
-      <image:caption>Buffalo Wings — american appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Buffalo Wings — American appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1368,7 +1368,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/southern-fried-chicken.jpg</image:loc>
       <image:title>Southern Fried Chicken</image:title>
-      <image:caption>Southern Fried Chicken — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Southern Fried Chicken — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1379,7 +1379,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mac-and-cheese.jpg</image:loc>
       <image:title>Baked Mac and Cheese</image:title>
-      <image:caption>Baked Mac and Cheese — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Baked Mac and Cheese — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1390,7 +1390,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/meatloaf.jpg</image:loc>
       <image:title>Classic Meatloaf</image:title>
-      <image:caption>Classic Meatloaf — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Meatloaf — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1401,7 +1401,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/philly-cheesesteak.jpg</image:loc>
       <image:title>Philly Cheesesteak</image:title>
-      <image:caption>Philly Cheesesteak — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Philly Cheesesteak — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1412,7 +1412,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pulled-pork-sandwich.jpg</image:loc>
       <image:title>Pulled Pork Sandwiches</image:title>
-      <image:caption>Pulled Pork Sandwiches — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Pulled Pork Sandwiches — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1423,7 +1423,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/grilled-cheese-sandwich.jpg</image:loc>
       <image:title>Skillet Grilled Cheese</image:title>
-      <image:caption>Skillet Grilled Cheese — american quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Skillet Grilled Cheese — American quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1434,7 +1434,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/new-england-clam-chowder.jpg</image:loc>
       <image:title>New England Clam Chowder</image:title>
-      <image:caption>New England Clam Chowder — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>New England Clam Chowder — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1445,7 +1445,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-noodle-soup.jpg</image:loc>
       <image:title>Chicken Noodle Soup</image:title>
-      <image:caption>Chicken Noodle Soup — american healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Noodle Soup — American healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1456,7 +1456,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/creamy-tomato-soup.jpg</image:loc>
       <image:title>Creamy Tomato Soup</image:title>
-      <image:caption>Creamy Tomato Soup — american healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Creamy Tomato Soup — American healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1467,7 +1467,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/caesar-salad.jpg</image:loc>
       <image:title>Caesar Salad</image:title>
-      <image:caption>Caesar Salad — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Caesar Salad — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1478,7 +1478,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cobb-salad.jpg</image:loc>
       <image:title>Cobb Salad</image:title>
-      <image:caption>Cobb Salad — american healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Cobb Salad — American healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1489,7 +1489,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/buttermilk-pancakes.jpg</image:loc>
       <image:title>Fluffy Buttermilk Pancakes</image:title>
-      <image:caption>Fluffy Buttermilk Pancakes — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Fluffy Buttermilk Pancakes — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1500,7 +1500,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/eggs-benedict.jpg</image:loc>
       <image:title>Eggs Benedict</image:title>
-      <image:caption>Eggs Benedict — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Eggs Benedict — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1511,7 +1511,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/french-toast.jpg</image:loc>
       <image:title>Brioche French Toast</image:title>
-      <image:caption>Brioche French Toast — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Brioche French Toast — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1522,7 +1522,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/classic-waffles.jpg</image:loc>
       <image:title>Crisp Belgian-Style Waffles</image:title>
-      <image:caption>Crisp Belgian-Style Waffles — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Crisp Belgian-Style Waffles — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1533,7 +1533,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/breakfast-burrito.jpg</image:loc>
       <image:title>Loaded Breakfast Burrito</image:title>
-      <image:caption>Loaded Breakfast Burrito — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Loaded Breakfast Burrito — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1544,7 +1544,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/banana-bread.jpg</image:loc>
       <image:title>One-Bowl Banana Bread</image:title>
-      <image:caption>One-Bowl Banana Bread — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>One-Bowl Banana Bread — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1555,7 +1555,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/blueberry-muffins.jpg</image:loc>
       <image:title>Bakery-Style Blueberry Muffins</image:title>
-      <image:caption>Bakery-Style Blueberry Muffins — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Bakery-Style Blueberry Muffins — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1566,7 +1566,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chocolate-chip-cookies.jpg</image:loc>
       <image:title>Brown Butter Chocolate Chip Cookies</image:title>
-      <image:caption>Brown Butter Chocolate Chip Cookies — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Brown Butter Chocolate Chip Cookies — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1577,7 +1577,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cinnamon-rolls.jpg</image:loc>
       <image:title>Overnight Cinnamon Rolls</image:title>
-      <image:caption>Overnight Cinnamon Rolls — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Overnight Cinnamon Rolls — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1588,7 +1588,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sourdough-bread.jpg</image:loc>
       <image:title>Artisan Sourdough Bread</image:title>
-      <image:caption>Artisan Sourdough Bread — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Artisan Sourdough Bread — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1599,7 +1599,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fudgy-brownies.jpg</image:loc>
       <image:title>Fudgy Cocoa Brownies</image:title>
-      <image:caption>Fudgy Cocoa Brownies — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Fudgy Cocoa Brownies — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1610,7 +1610,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/new-york-cheesecake.jpg</image:loc>
       <image:title>New York Cheesecake</image:title>
-      <image:caption>New York Cheesecake — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>New York Cheesecake — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1621,7 +1621,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/apple-pie.jpg</image:loc>
       <image:title>Deep-Dish Apple Pie</image:title>
-      <image:caption>Deep-Dish Apple Pie — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Deep-Dish Apple Pie — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1632,7 +1632,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/key-lime-pie.jpg</image:loc>
       <image:title>Key Lime Pie</image:title>
-      <image:caption>Key Lime Pie — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Key Lime Pie — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1643,7 +1643,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/red-velvet-cake.jpg</image:loc>
       <image:title>Red Velvet Cake</image:title>
-      <image:caption>Red Velvet Cake — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Red Velvet Cake — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1654,7 +1654,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/carrot-cake.jpg</image:loc>
       <image:title>Spiced Carrot Cake</image:title>
-      <image:caption>Spiced Carrot Cake — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Spiced Carrot Cake — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1665,7 +1665,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chocolate-lava-cake.jpg</image:loc>
       <image:title>Molten Chocolate Lava Cake</image:title>
-      <image:caption>Molten Chocolate Lava Cake — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Molten Chocolate Lava Cake — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1676,7 +1676,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/roast-turkey.jpg</image:loc>
       <image:title>Herb-Butter Roast Turkey</image:title>
-      <image:caption>Herb-Butter Roast Turkey — american holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Herb-Butter Roast Turkey — American holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1687,7 +1687,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pumpkin-pie.jpg</image:loc>
       <image:title>Classic Pumpkin Pie</image:title>
-      <image:caption>Classic Pumpkin Pie — american holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Pumpkin Pie — American holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1698,7 +1698,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gingerbread-cookies.jpg</image:loc>
       <image:title>Gingerbread Cookies</image:title>
-      <image:caption>Gingerbread Cookies — american holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Gingerbread Cookies — American holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1709,7 +1709,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/greek-salad.jpg</image:loc>
       <image:title>Horiatiki Greek Salad</image:title>
-      <image:caption>Horiatiki Greek Salad — greek healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Horiatiki Greek Salad — Greek healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1720,7 +1720,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/moussaka.jpg</image:loc>
       <image:title>Moussaka</image:title>
-      <image:caption>Moussaka — greek dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Moussaka — Greek dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1731,7 +1731,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-souvlaki.jpg</image:loc>
       <image:title>Chicken Souvlaki</image:title>
-      <image:caption>Chicken Souvlaki — greek dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Souvlaki — Greek dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1742,7 +1742,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gyros.jpg</image:loc>
       <image:title>Pork Gyros</image:title>
-      <image:caption>Pork Gyros — greek lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Pork Gyros — Greek lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1753,7 +1753,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spanakopita.jpg</image:loc>
       <image:title>Spanakopita</image:title>
-      <image:caption>Spanakopita — greek appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Spanakopita — Greek appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1764,7 +1764,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tzatziki.jpg</image:loc>
       <image:title>Tzatziki</image:title>
-      <image:caption>Tzatziki — greek appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Tzatziki — Greek appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1775,7 +1775,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/avgolemono-soup.jpg</image:loc>
       <image:title>Avgolemono Soup</image:title>
-      <image:caption>Avgolemono Soup — greek healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Avgolemono Soup — Greek healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1786,7 +1786,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/baklava.jpg</image:loc>
       <image:title>Pistachio Baklava</image:title>
-      <image:caption>Pistachio Baklava — greek desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Pistachio Baklava — Greek desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1797,7 +1797,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pad-thai.jpg</image:loc>
       <image:title>Pad Thai</image:title>
-      <image:caption>Pad Thai — thai dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Pad Thai — Thai dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1808,7 +1808,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/thai-green-curry.jpg</image:loc>
       <image:title>Thai Green Curry</image:title>
-      <image:caption>Thai Green Curry — thai dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Thai Green Curry — Thai dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1819,7 +1819,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/massaman-curry.jpg</image:loc>
       <image:title>Massaman Beef Curry</image:title>
-      <image:caption>Massaman Beef Curry — thai dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Massaman Beef Curry — Thai dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1830,7 +1830,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pad-kra-pao.jpg</image:loc>
       <image:title>Pad Kra Pao (Thai Basil Chicken)</image:title>
-      <image:caption>Pad Kra Pao (Thai Basil Chicken) — thai quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Pad Kra Pao (Thai Basil Chicken) — Thai quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1841,7 +1841,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tom-yum-goong.jpg</image:loc>
       <image:title>Tom Yum Goong</image:title>
-      <image:caption>Tom Yum Goong — thai healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Tom Yum Goong — Thai healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1852,7 +1852,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tom-kha-gai.jpg</image:loc>
       <image:title>Tom Kha Gai</image:title>
-      <image:caption>Tom Kha Gai — thai healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Tom Kha Gai — Thai healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1863,7 +1863,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/som-tam.jpg</image:loc>
       <image:title>Som Tam (Green Papaya Salad)</image:title>
-      <image:caption>Som Tam (Green Papaya Salad) — thai healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Som Tam (Green Papaya Salad) — Thai healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1874,7 +1874,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/thai-fried-rice.jpg</image:loc>
       <image:title>Thai Pineapple Fried Rice</image:title>
-      <image:caption>Thai Pineapple Fried Rice — thai quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Thai Pineapple Fried Rice — Thai quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1885,7 +1885,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mango-sticky-rice.jpg</image:loc>
       <image:title>Mango Sticky Rice</image:title>
-      <image:caption>Mango Sticky Rice — thai desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Mango Sticky Rice — Thai desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1896,7 +1896,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hummus.jpg</image:loc>
       <image:title>Silky Hummus</image:title>
-      <image:caption>Silky Hummus — middle eastern appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Silky Hummus — Middle Eastern appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1907,7 +1907,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/falafel.jpg</image:loc>
       <image:title>Crispy Falafel</image:title>
-      <image:caption>Crispy Falafel — middle eastern lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Crispy Falafel — Middle Eastern lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1918,7 +1918,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-shawarma.jpg</image:loc>
       <image:title>Chicken Shawarma</image:title>
-      <image:caption>Chicken Shawarma — middle eastern dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Shawarma — Middle Eastern dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1929,7 +1929,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/baba-ganoush.jpg</image:loc>
       <image:title>Baba Ganoush</image:title>
-      <image:caption>Baba Ganoush — middle eastern appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Baba Ganoush — Middle Eastern appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1940,7 +1940,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tabbouleh.jpg</image:loc>
       <image:title>Tabbouleh</image:title>
-      <image:caption>Tabbouleh — middle eastern healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Tabbouleh — Middle Eastern healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1951,7 +1951,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fattoush.jpg</image:loc>
       <image:title>Fattoush Salad</image:title>
-      <image:caption>Fattoush Salad — middle eastern healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Fattoush Salad — Middle Eastern healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1962,7 +1962,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lamb-kofta-kebabs.jpg</image:loc>
       <image:title>Lamb Kofta Kebabs</image:title>
-      <image:caption>Lamb Kofta Kebabs — middle eastern dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Lamb Kofta Kebabs — Middle Eastern dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1973,7 +1973,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/shakshuka.jpg</image:loc>
       <image:title>Shakshuka</image:title>
-      <image:caption>Shakshuka — middle eastern breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Shakshuka — Middle Eastern breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1984,7 +1984,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/knafeh.jpg</image:loc>
       <image:title>Knafeh</image:title>
-      <image:caption>Knafeh — middle eastern desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Knafeh — Middle Eastern desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -1995,7 +1995,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/paella-valenciana.jpg</image:loc>
       <image:title>Paella Valenciana</image:title>
-      <image:caption>Paella Valenciana — spanish dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Paella Valenciana — Spanish dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2006,7 +2006,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gazpacho.jpg</image:loc>
       <image:title>Andalusian Gazpacho</image:title>
-      <image:caption>Andalusian Gazpacho — spanish healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Andalusian Gazpacho — Spanish healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2017,7 +2017,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/patatas-bravas.jpg</image:loc>
       <image:title>Patatas Bravas</image:title>
-      <image:caption>Patatas Bravas — spanish appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Patatas Bravas — Spanish appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2028,7 +2028,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tortilla-espanola.jpg</image:loc>
       <image:title>Tortilla Española</image:title>
-      <image:caption>Tortilla Española — spanish lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Tortilla Española — Spanish lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2039,7 +2039,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gambas-al-ajillo.jpg</image:loc>
       <image:title>Gambas al Ajillo</image:title>
-      <image:caption>Gambas al Ajillo — spanish appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Gambas al Ajillo — Spanish appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2050,7 +2050,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sangria.jpg</image:loc>
       <image:title>Red Wine Sangria</image:title>
-      <image:caption>Red Wine Sangria — spanish drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Red Wine Sangria — Spanish drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2061,7 +2061,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bibimbap.jpg</image:loc>
       <image:title>Bibimbap</image:title>
-      <image:caption>Bibimbap — korean dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Bibimbap — Korean dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2072,7 +2072,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/korean-fried-chicken.jpg</image:loc>
       <image:title>Korean Fried Chicken</image:title>
-      <image:caption>Korean Fried Chicken — korean dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Korean Fried Chicken — Korean dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2083,7 +2083,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bulgogi.jpg</image:loc>
       <image:title>Beef Bulgogi</image:title>
-      <image:caption>Beef Bulgogi — korean dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Bulgogi — Korean dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2094,7 +2094,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/japchae.jpg</image:loc>
       <image:title>Japchae</image:title>
-      <image:caption>Japchae — korean dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Japchae — Korean dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2105,7 +2105,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tteokbokki.jpg</image:loc>
       <image:title>Tteokbokki</image:title>
-      <image:caption>Tteokbokki — korean quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Tteokbokki — Korean quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2116,7 +2116,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kimchi.jpg</image:loc>
       <image:title>Napa Cabbage Kimchi</image:title>
-      <image:caption>Napa Cabbage Kimchi — korean appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Napa Cabbage Kimchi — Korean appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2127,7 +2127,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kimchi-jjigae.jpg</image:loc>
       <image:title>Kimchi Jjigae</image:title>
-      <image:caption>Kimchi Jjigae — korean healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Kimchi Jjigae — Korean healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2138,7 +2138,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pho-bo.jpg</image:loc>
       <image:title>Phở Bò (Beef Noodle Soup)</image:title>
-      <image:caption>Phở Bò (Beef Noodle Soup) — vietnamese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Phở Bò (Beef Noodle Soup) — Vietnamese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2149,7 +2149,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/banh-mi.jpg</image:loc>
       <image:title>Bánh Mì</image:title>
-      <image:caption>Bánh Mì — vietnamese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Bánh Mì — Vietnamese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2160,7 +2160,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/goi-cuon.jpg</image:loc>
       <image:title>Gỏi Cuốn (Fresh Spring Rolls)</image:title>
-      <image:caption>Gỏi Cuốn (Fresh Spring Rolls) — vietnamese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Gỏi Cuốn (Fresh Spring Rolls) — Vietnamese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2171,7 +2171,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bun-cha.jpg</image:loc>
       <image:title>Bún Chả</image:title>
-      <image:caption>Bún Chả — vietnamese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Bún Chả — Vietnamese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2182,7 +2182,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vietnamese-iced-coffee.jpg</image:loc>
       <image:title>Cà Phê Sữa Đá</image:title>
-      <image:caption>Cà Phê Sữa Đá — vietnamese drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Cà Phê Sữa Đá — Vietnamese drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2193,7 +2193,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fish-and-chips.jpg</image:loc>
       <image:title>Beer-Battered Fish and Chips</image:title>
-      <image:caption>Beer-Battered Fish and Chips — british dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Beer-Battered Fish and Chips — British dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2204,7 +2204,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/shepherds-pie.jpg</image:loc>
       <image:title>Shepherd&#39;s Pie</image:title>
-      <image:caption>Shepherd&#39;s Pie — british dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Shepherd&#39;s Pie — British dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2215,7 +2215,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-wellington.jpg</image:loc>
       <image:title>Beef Wellington</image:title>
-      <image:caption>Beef Wellington — british holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Wellington — British holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2226,7 +2226,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/full-english-breakfast.jpg</image:loc>
       <image:title>Full English Breakfast</image:title>
-      <image:caption>Full English Breakfast — british breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Full English Breakfast — British breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2237,7 +2237,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bangers-and-mash.jpg</image:loc>
       <image:title>Bangers and Mash with Onion Gravy</image:title>
-      <image:caption>Bangers and Mash with Onion Gravy — british dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Bangers and Mash with Onion Gravy — British dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2248,7 +2248,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/english-scones.jpg</image:loc>
       <image:title>English Scones</image:title>
-      <image:caption>English Scones — british baking recipe, served and ready to eat</image:caption>
+      <image:caption>English Scones — British baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2259,7 +2259,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sticky-toffee-pudding.jpg</image:loc>
       <image:title>Sticky Toffee Pudding</image:title>
-      <image:caption>Sticky Toffee Pudding — british desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Sticky Toffee Pudding — British desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2270,7 +2270,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pork-schnitzel.jpg</image:loc>
       <image:title>Pork Schnitzel</image:title>
-      <image:caption>Pork Schnitzel — german dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Pork Schnitzel — German dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2281,7 +2281,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/soft-pretzels.jpg</image:loc>
       <image:title>Bavarian Soft Pretzels</image:title>
-      <image:caption>Bavarian Soft Pretzels — german baking recipe, served and ready to eat</image:caption>
+      <image:caption>Bavarian Soft Pretzels — German baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2292,7 +2292,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/black-forest-cake.jpg</image:loc>
       <image:title>Black Forest Cake</image:title>
-      <image:caption>Black Forest Cake — german desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Black Forest Cake — German desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2303,7 +2303,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/german-potato-salad.jpg</image:loc>
       <image:title>Warm German Potato Salad</image:title>
-      <image:caption>Warm German Potato Salad — german lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Warm German Potato Salad — German lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2314,7 +2314,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/borscht.jpg</image:loc>
       <image:title>Ukrainian Borscht</image:title>
-      <image:caption>Ukrainian Borscht — ukrainian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Ukrainian Borscht — Ukrainian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2325,7 +2325,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-stroganoff.jpg</image:loc>
       <image:title>Beef Stroganoff</image:title>
-      <image:caption>Beef Stroganoff — russian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Stroganoff — Russian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2336,7 +2336,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pierogi.jpg</image:loc>
       <image:title>Potato and Cheese Pierogi</image:title>
-      <image:caption>Potato and Cheese Pierogi — polish dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Potato and Cheese Pierogi — Polish dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2347,7 +2347,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hungarian-goulash.jpg</image:loc>
       <image:title>Hungarian Goulash</image:title>
-      <image:caption>Hungarian Goulash — hungarian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Hungarian Goulash — Hungarian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2358,7 +2358,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/swedish-meatballs.jpg</image:loc>
       <image:title>Swedish Meatballs</image:title>
-      <image:caption>Swedish Meatballs — swedish dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Swedish Meatballs — Swedish dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2369,7 +2369,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/feijoada.jpg</image:loc>
       <image:title>Feijoada Brasileira</image:title>
-      <image:caption>Feijoada Brasileira — brazilian holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Feijoada Brasileira — Brazilian holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2380,7 +2380,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/ceviche.jpg</image:loc>
       <image:title>Peruvian Ceviche</image:title>
-      <image:caption>Peruvian Ceviche — peruvian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Peruvian Ceviche — Peruvian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2391,7 +2391,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-empanadas.jpg</image:loc>
       <image:title>Beef Empanadas</image:title>
-      <image:caption>Beef Empanadas — argentinian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Empanadas — Argentinian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2402,7 +2402,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jerk-chicken.jpg</image:loc>
       <image:title>Jamaican Jerk Chicken</image:title>
-      <image:caption>Jamaican Jerk Chicken — jamaican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Jamaican Jerk Chicken — Jamaican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2413,7 +2413,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cuban-sandwich.jpg</image:loc>
       <image:title>Cuban Sandwich</image:title>
-      <image:caption>Cuban Sandwich — cuban lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Cuban Sandwich — Cuban lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2424,7 +2424,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/moroccan-chicken-tagine.jpg</image:loc>
       <image:title>Moroccan Chicken Tagine</image:title>
-      <image:caption>Moroccan Chicken Tagine — moroccan dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Moroccan Chicken Tagine — Moroccan dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2435,7 +2435,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/harira.jpg</image:loc>
       <image:title>Harira Soup</image:title>
-      <image:caption>Harira Soup — moroccan healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Harira Soup — Moroccan healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2446,7 +2446,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/koshari.jpg</image:loc>
       <image:title>Egyptian Koshari</image:title>
-      <image:caption>Egyptian Koshari — egyptian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Egyptian Koshari — Egyptian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2457,7 +2457,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/menemen.jpg</image:loc>
       <image:title>Menemen</image:title>
-      <image:caption>Menemen — turkish breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Menemen — Turkish breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2468,7 +2468,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lahmacun.jpg</image:loc>
       <image:title>Lahmacun</image:title>
-      <image:caption>Lahmacun — turkish baking recipe, served and ready to eat</image:caption>
+      <image:caption>Lahmacun — Turkish baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2479,7 +2479,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/turkish-coffee.jpg</image:loc>
       <image:title>Turkish Coffee</image:title>
-      <image:caption>Turkish Coffee — turkish drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Turkish Coffee — Turkish drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2490,7 +2490,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mojito.jpg</image:loc>
       <image:title>Classic Mojito</image:title>
-      <image:caption>Classic Mojito — cuban drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Mojito — Cuban drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2501,7 +2501,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/espresso-martini.jpg</image:loc>
       <image:title>Espresso Martini</image:title>
-      <image:caption>Espresso Martini — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Espresso Martini — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2512,7 +2512,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hot-chocolate.jpg</image:loc>
       <image:title>French-Style Hot Chocolate</image:title>
-      <image:caption>French-Style Hot Chocolate — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>French-Style Hot Chocolate — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2523,7 +2523,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/avocado-toast.jpg</image:loc>
       <image:title>Ultimate Avocado Toast</image:title>
-      <image:caption>Ultimate Avocado Toast — international breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Ultimate Avocado Toast — International breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2534,7 +2534,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/overnight-oats.jpg</image:loc>
       <image:title>Overnight Oats</image:title>
-      <image:caption>Overnight Oats — international healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Overnight Oats — International healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2545,7 +2545,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spaghetti-aglio-e-olio.jpg</image:loc>
       <image:title>Spaghetti Aglio e Olio</image:title>
-      <image:caption>Spaghetti Aglio e Olio — italian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Spaghetti Aglio e Olio — Italian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2556,7 +2556,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bucatini-all-amatriciana.jpg</image:loc>
       <image:title>Bucatini all&#39;Amatriciana</image:title>
-      <image:caption>Bucatini all&#39;Amatriciana — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Bucatini all&#39;Amatriciana — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2567,7 +2567,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pasta-alla-norma.jpg</image:loc>
       <image:title>Pasta alla Norma</image:title>
-      <image:caption>Pasta alla Norma — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Pasta alla Norma — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2578,7 +2578,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/melanzane-alla-parmigiana.jpg</image:loc>
       <image:title>Melanzane alla Parmigiana</image:title>
-      <image:caption>Melanzane alla Parmigiana — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Melanzane alla Parmigiana — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2589,7 +2589,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/saltimbocca-alla-romana.jpg</image:loc>
       <image:title>Saltimbocca alla Romana</image:title>
-      <image:caption>Saltimbocca alla Romana — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Saltimbocca alla Romana — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2600,7 +2600,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spaghetti-alle-vongole.jpg</image:loc>
       <image:title>Spaghetti alle Vongole</image:title>
-      <image:caption>Spaghetti alle Vongole — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Spaghetti alle Vongole — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2611,7 +2611,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/orecchiette-cime-di-rapa.jpg</image:loc>
       <image:title>Orecchiette con Cime di Rapa</image:title>
-      <image:caption>Orecchiette con Cime di Rapa — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Orecchiette con Cime di Rapa — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2622,7 +2622,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/panzanella.jpg</image:loc>
       <image:title>Tuscan Panzanella</image:title>
-      <image:caption>Tuscan Panzanella — italian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Tuscan Panzanella — Italian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2633,7 +2633,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/creamy-polenta.jpg</image:loc>
       <image:title>Creamy Parmesan Polenta</image:title>
-      <image:caption>Creamy Parmesan Polenta — italian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Creamy Parmesan Polenta — Italian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2644,7 +2644,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cannoli.jpg</image:loc>
       <image:title>Sicilian Cannoli</image:title>
-      <image:caption>Sicilian Cannoli — italian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Sicilian Cannoli — Italian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2655,7 +2655,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tiramisu-gelato.jpg</image:loc>
       <image:title>Vanilla Gelato</image:title>
-      <image:caption>Vanilla Gelato — italian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Vanilla Gelato — Italian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2666,7 +2666,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/biscotti.jpg</image:loc>
       <image:title>Almond Biscotti</image:title>
-      <image:caption>Almond Biscotti — italian baking recipe, served and ready to eat</image:caption>
+      <image:caption>Almond Biscotti — Italian baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2677,7 +2677,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/torta-caprese.jpg</image:loc>
       <image:title>Torta Caprese</image:title>
-      <image:caption>Torta Caprese — italian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Torta Caprese — Italian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2688,7 +2688,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/croque-monsieur.jpg</image:loc>
       <image:title>Croque Monsieur</image:title>
-      <image:caption>Croque Monsieur — french lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Croque Monsieur — French lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2699,7 +2699,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gratin-dauphinois.jpg</image:loc>
       <image:title>Gratin Dauphinois</image:title>
-      <image:caption>Gratin Dauphinois — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Gratin Dauphinois — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2710,7 +2710,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/blanquette-de-veau.jpg</image:loc>
       <image:title>Blanquette de Veau</image:title>
-      <image:caption>Blanquette de Veau — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Blanquette de Veau — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2721,7 +2721,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/moules-marinieres.jpg</image:loc>
       <image:title>Moules Marinières</image:title>
-      <image:caption>Moules Marinières — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Moules Marinières — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2732,7 +2732,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tartiflette.jpg</image:loc>
       <image:title>Tartiflette</image:title>
-      <image:caption>Tartiflette — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Tartiflette — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2743,7 +2743,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pissaladiere.jpg</image:loc>
       <image:title>Pissaladière</image:title>
-      <image:caption>Pissaladière — french appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Pissaladière — French appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2760,7 +2760,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sole-meuniere.jpg</image:loc>
       <image:title>Sole Meunière</image:title>
-      <image:caption>Sole Meunière — french dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Sole Meunière — French dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2771,7 +2771,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/crepes-suzette.jpg</image:loc>
       <image:title>Crêpes Suzette</image:title>
-      <image:caption>Crêpes Suzette — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Crêpes Suzette — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2782,7 +2782,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/profiteroles.jpg</image:loc>
       <image:title>Profiteroles</image:title>
-      <image:caption>Profiteroles — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Profiteroles — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2793,7 +2793,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mille-feuille.jpg</image:loc>
       <image:title>Mille-Feuille</image:title>
-      <image:caption>Mille-Feuille — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Mille-Feuille — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2804,7 +2804,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/clafoutis.jpg</image:loc>
       <image:title>Cherry Clafoutis</image:title>
-      <image:caption>Cherry Clafoutis — french desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Cherry Clafoutis — French desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2821,7 +2821,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/madeleines.jpg</image:loc>
       <image:title>Madeleines</image:title>
-      <image:caption>Madeleines — french baking recipe, served and ready to eat</image:caption>
+      <image:caption>Madeleines — French baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2832,7 +2832,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-karaage.jpg</image:loc>
       <image:title>Chicken Karaage</image:title>
-      <image:caption>Chicken Karaage — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Karaage — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2843,7 +2843,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/oyakodon.jpg</image:loc>
       <image:title>Oyakodon</image:title>
-      <image:caption>Oyakodon — japanese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Oyakodon — Japanese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2854,7 +2854,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/omurice.jpg</image:loc>
       <image:title>Omurice</image:title>
-      <image:caption>Omurice — japanese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Omurice — Japanese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2865,7 +2865,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/takoyaki.jpg</image:loc>
       <image:title>Takoyaki</image:title>
-      <image:caption>Takoyaki — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Takoyaki — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2876,7 +2876,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/zaru-soba.jpg</image:loc>
       <image:title>Zaru Soba</image:title>
-      <image:caption>Zaru Soba — japanese lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Zaru Soba — Japanese lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2887,7 +2887,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sukiyaki.jpg</image:loc>
       <image:title>Sukiyaki</image:title>
-      <image:caption>Sukiyaki — japanese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Sukiyaki — Japanese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2898,7 +2898,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/agedashi-tofu.jpg</image:loc>
       <image:title>Agedashi Tofu</image:title>
-      <image:caption>Agedashi Tofu — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Agedashi Tofu — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2909,7 +2909,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chawanmushi.jpg</image:loc>
       <image:title>Chawanmushi</image:title>
-      <image:caption>Chawanmushi — japanese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Chawanmushi — Japanese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2920,7 +2920,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tamagoyaki.jpg</image:loc>
       <image:title>Tamagoyaki</image:title>
-      <image:caption>Tamagoyaki — japanese breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Tamagoyaki — Japanese breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2931,7 +2931,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/dorayaki.jpg</image:loc>
       <image:title>Dorayaki</image:title>
-      <image:caption>Dorayaki — japanese desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Dorayaki — Japanese desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2942,7 +2942,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mochi.jpg</image:loc>
       <image:title>Strawberry Daifuku Mochi</image:title>
-      <image:caption>Strawberry Daifuku Mochi — japanese desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Strawberry Daifuku Mochi — Japanese desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2953,7 +2953,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/japanese-milk-bread.jpg</image:loc>
       <image:title>Japanese Milk Bread (Shokupan)</image:title>
-      <image:caption>Japanese Milk Bread (Shokupan) — japanese baking recipe, served and ready to eat</image:caption>
+      <image:caption>Japanese Milk Bread (Shokupan) — Japanese baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2964,7 +2964,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/orange-chicken.jpg</image:loc>
       <image:title>Orange Chicken</image:title>
-      <image:caption>Orange Chicken — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Orange Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2975,7 +2975,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sesame-chicken.jpg</image:loc>
       <image:title>Sesame Chicken</image:title>
-      <image:caption>Sesame Chicken — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Sesame Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2986,7 +2986,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hong-shao-rou.jpg</image:loc>
       <image:title>Red-Braised Pork Belly</image:title>
-      <image:caption>Red-Braised Pork Belly — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Red-Braised Pork Belly — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -2997,7 +2997,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/twice-cooked-pork.jpg</image:loc>
       <image:title>Twice-Cooked Pork</image:title>
-      <image:caption>Twice-Cooked Pork — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Twice-Cooked Pork — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3008,7 +3008,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/xiao-long-bao.jpg</image:loc>
       <image:title>Xiao Long Bao</image:title>
-      <image:caption>Xiao Long Bao — chinese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Xiao Long Bao — Chinese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3019,7 +3019,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/char-siu-bao.jpg</image:loc>
       <image:title>Char Siu Bao</image:title>
-      <image:caption>Char Siu Bao — chinese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Char Siu Bao — Chinese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3030,7 +3030,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lo-mein.jpg</image:loc>
       <image:title>Chicken Lo Mein</image:title>
-      <image:caption>Chicken Lo Mein — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Lo Mein — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3041,7 +3041,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/singapore-noodles.jpg</image:loc>
       <image:title>Singapore Noodles</image:title>
-      <image:caption>Singapore Noodles — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Singapore Noodles — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3052,7 +3052,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cumin-lamb.jpg</image:loc>
       <image:title>Xinjiang Cumin Lamb</image:title>
-      <image:caption>Xinjiang Cumin Lamb — chinese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Xinjiang Cumin Lamb — Chinese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3063,7 +3063,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tomato-egg-stir-fry.jpg</image:loc>
       <image:title>Tomato and Egg Stir-Fry</image:title>
-      <image:caption>Tomato and Egg Stir-Fry — chinese quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Tomato and Egg Stir-Fry — Chinese quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3074,7 +3074,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/salt-and-pepper-squid.jpg</image:loc>
       <image:title>Salt and Pepper Squid</image:title>
-      <image:caption>Salt and Pepper Squid — chinese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Salt and Pepper Squid — Chinese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3085,7 +3085,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/congee.jpg</image:loc>
       <image:title>Century Egg Congee</image:title>
-      <image:caption>Century Egg Congee — chinese breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Century Egg Congee — Chinese breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3096,7 +3096,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/paneer-tikka.jpg</image:loc>
       <image:title>Paneer Tikka</image:title>
-      <image:caption>Paneer Tikka — indian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Paneer Tikka — Indian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3107,7 +3107,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-korma.jpg</image:loc>
       <image:title>Chicken Korma</image:title>
-      <image:caption>Chicken Korma — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Korma — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3115,6 +3115,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/malai-kofta.jpg</image:loc>
+      <image:title>Malai Kofta</image:title>
+      <image:caption>Malai Kofta — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/baingan-bharta/</loc>
@@ -3124,7 +3129,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/baingan-bharta.jpg</image:loc>
       <image:title>Baingan Bharta</image:title>
-      <image:caption>Baingan Bharta — indian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Baingan Bharta — Indian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3135,7 +3140,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/rajma.jpg</image:loc>
       <image:title>Rajma Masala</image:title>
-      <image:caption>Rajma Masala — indian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Rajma Masala — Indian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3146,7 +3151,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pav-bhaji.jpg</image:loc>
       <image:title>Pav Bhaji</image:title>
-      <image:caption>Pav Bhaji — indian lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Pav Bhaji — Indian lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3157,7 +3162,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chole-bhature.jpg</image:loc>
       <image:title>Chole Bhature</image:title>
-      <image:caption>Chole Bhature — indian lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Chole Bhature — Indian lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3168,7 +3173,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/idli-sambar.jpg</image:loc>
       <image:title>Idli Sambar</image:title>
-      <image:caption>Idli Sambar — indian breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Idli Sambar — Indian breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3185,7 +3190,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kerala-fish-curry.jpg</image:loc>
       <image:title>Kerala Fish Curry</image:title>
-      <image:caption>Kerala Fish Curry — indian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Kerala Fish Curry — Indian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3196,7 +3201,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chapati.jpg</image:loc>
       <image:title>Chapati (Roti)</image:title>
-      <image:caption>Chapati (Roti) — indian baking recipe, served and ready to eat</image:caption>
+      <image:caption>Chapati (Roti) — Indian baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3207,7 +3212,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kheer.jpg</image:loc>
       <image:title>Rice Kheer</image:title>
-      <image:caption>Rice Kheer — indian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Rice Kheer — Indian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3218,7 +3223,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jalebi.jpg</image:loc>
       <image:title>Jalebi</image:title>
-      <image:caption>Jalebi — indian desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Jalebi — Indian desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3229,7 +3234,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/aloo-paratha.jpg</image:loc>
       <image:title>Aloo Paratha</image:title>
-      <image:caption>Aloo Paratha — indian breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Aloo Paratha — Indian breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3240,7 +3245,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/birria-tacos.jpg</image:loc>
       <image:title>Birria Tacos</image:title>
-      <image:caption>Birria Tacos — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Birria Tacos — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3251,7 +3256,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chilaquiles.jpg</image:loc>
       <image:title>Chilaquiles Verdes</image:title>
-      <image:caption>Chilaquiles Verdes — mexican breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Chilaquiles Verdes — Mexican breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3262,7 +3267,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mission-burrito.jpg</image:loc>
       <image:title>Mission-Style Burrito</image:title>
-      <image:caption>Mission-Style Burrito — mexican lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Mission-Style Burrito — Mexican lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3273,7 +3278,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/nachos.jpg</image:loc>
       <image:title>Loaded Nachos</image:title>
-      <image:caption>Loaded Nachos — mexican appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Loaded Nachos — Mexican appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3284,7 +3289,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cochinita-pibil.jpg</image:loc>
       <image:title>Cochinita Pibil</image:title>
-      <image:caption>Cochinita Pibil — mexican dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Cochinita Pibil — Mexican dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3301,7 +3306,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sopes.jpg</image:loc>
       <image:title>Sopes</image:title>
-      <image:caption>Sopes — mexican appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Sopes — Mexican appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3318,7 +3323,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/refried-beans.jpg</image:loc>
       <image:title>Refried Beans</image:title>
-      <image:caption>Refried Beans — mexican quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Refried Beans — Mexican quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3329,7 +3334,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/flan-napolitano.jpg</image:loc>
       <image:title>Flan Napolitano</image:title>
-      <image:caption>Flan Napolitano — mexican desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Flan Napolitano — Mexican desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3340,7 +3345,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tres-leches-cake.jpg</image:loc>
       <image:title>Tres Leches Cake</image:title>
-      <image:caption>Tres Leches Cake — mexican desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Tres Leches Cake — Mexican desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3351,7 +3356,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/michelada.jpg</image:loc>
       <image:title>Michelada</image:title>
-      <image:caption>Michelada — mexican drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Michelada — Mexican drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3368,7 +3373,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-stew.jpg</image:loc>
       <image:title>Hearty Beef Stew</image:title>
-      <image:caption>Hearty Beef Stew — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Hearty Beef Stew — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3379,7 +3384,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jambalaya.jpg</image:loc>
       <image:title>Louisiana Jambalaya</image:title>
-      <image:caption>Louisiana Jambalaya — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Louisiana Jambalaya — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3390,7 +3395,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gumbo.jpg</image:loc>
       <image:title>Chicken and Sausage Gumbo</image:title>
-      <image:caption>Chicken and Sausage Gumbo — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken and Sausage Gumbo — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3401,7 +3406,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/shrimp-and-grits.jpg</image:loc>
       <image:title>Shrimp and Grits</image:title>
-      <image:caption>Shrimp and Grits — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Shrimp and Grits — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3412,7 +3417,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-fried-steak.jpg</image:loc>
       <image:title>Chicken Fried Steak</image:title>
-      <image:caption>Chicken Fried Steak — american dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Fried Steak — American dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3423,7 +3428,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lobster-roll.jpg</image:loc>
       <image:title>Maine Lobster Roll</image:title>
-      <image:caption>Maine Lobster Roll — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Maine Lobster Roll — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3434,7 +3439,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/reuben-sandwich.jpg</image:loc>
       <image:title>Reuben Sandwich</image:title>
-      <image:caption>Reuben Sandwich — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Reuben Sandwich — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3445,7 +3450,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/blt-sandwich.jpg</image:loc>
       <image:title>The Perfect BLT</image:title>
-      <image:caption>The Perfect BLT — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>The Perfect BLT — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3453,6 +3458,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tuna-melt.jpg</image:loc>
+      <image:title>Tuna Melt</image:title>
+      <image:caption>Tuna Melt — American quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/deviled-eggs/</loc>
@@ -3462,7 +3472,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/deviled-eggs.jpg</image:loc>
       <image:title>Deviled Eggs</image:title>
-      <image:caption>Deviled Eggs — american appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Deviled Eggs — American appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3473,7 +3483,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/buffalo-chicken-dip.jpg</image:loc>
       <image:title>Buffalo Chicken Dip</image:title>
-      <image:caption>Buffalo Chicken Dip — american appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Buffalo Chicken Dip — American appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3490,7 +3500,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mozzarella-sticks.jpg</image:loc>
       <image:title>Mozzarella Sticks</image:title>
-      <image:caption>Mozzarella Sticks — american appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Mozzarella Sticks — American appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3501,7 +3511,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/creamy-coleslaw.jpg</image:loc>
       <image:title>Creamy Coleslaw</image:title>
-      <image:caption>Creamy Coleslaw — american healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Creamy Coleslaw — American healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3512,7 +3522,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/classic-potato-salad.jpg</image:loc>
       <image:title>Classic Potato Salad</image:title>
-      <image:caption>Classic Potato Salad — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Classic Potato Salad — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3523,7 +3533,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/boston-baked-beans.jpg</image:loc>
       <image:title>Boston Baked Beans</image:title>
-      <image:caption>Boston Baked Beans — american lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Boston Baked Beans — American lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3534,7 +3544,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/classic-omelette.jpg</image:loc>
       <image:title>Three-Egg Omelette</image:title>
-      <image:caption>Three-Egg Omelette — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Three-Egg Omelette — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3551,7 +3561,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/biscuits-and-gravy.jpg</image:loc>
       <image:title>Biscuits and Sausage Gravy</image:title>
-      <image:caption>Biscuits and Sausage Gravy — american breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Biscuits and Sausage Gravy — American breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3562,7 +3572,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cinnamon-sugar-donuts.jpg</image:loc>
       <image:title>Cinnamon Sugar Doughnuts</image:title>
-      <image:caption>Cinnamon Sugar Doughnuts — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Cinnamon Sugar Doughnuts — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3573,7 +3583,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bagels.jpg</image:loc>
       <image:title>New York Bagels</image:title>
-      <image:caption>New York Bagels — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>New York Bagels — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3584,7 +3594,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cornbread.jpg</image:loc>
       <image:title>Skillet Cornbread</image:title>
-      <image:caption>Skillet Cornbread — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Skillet Cornbread — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3595,7 +3605,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/snickerdoodles.jpg</image:loc>
       <image:title>Snickerdoodles</image:title>
-      <image:caption>Snickerdoodles — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Snickerdoodles — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3606,7 +3616,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/peanut-butter-cookies.jpg</image:loc>
       <image:title>Peanut Butter Cookies</image:title>
-      <image:caption>Peanut Butter Cookies — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Peanut Butter Cookies — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3617,7 +3627,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pecan-pie.jpg</image:loc>
       <image:title>Pecan Pie</image:title>
-      <image:caption>Pecan Pie — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Pecan Pie — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3628,7 +3638,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lemon-meringue-pie.jpg</image:loc>
       <image:title>Lemon Meringue Pie</image:title>
-      <image:caption>Lemon Meringue Pie — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Lemon Meringue Pie — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3639,7 +3649,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/smores.jpg</image:loc>
       <image:title>S&#39;mores</image:title>
-      <image:caption>S&#39;mores — american desserts recipe, served and ready to eat</image:caption>
+      <image:caption>S&#39;mores — American desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3650,7 +3660,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vanilla-cupcakes.jpg</image:loc>
       <image:title>Vanilla Cupcakes</image:title>
-      <image:caption>Vanilla Cupcakes — american baking recipe, served and ready to eat</image:caption>
+      <image:caption>Vanilla Cupcakes — American baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3673,7 +3683,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cottage-pie.jpg</image:loc>
       <image:title>Cottage Pie</image:title>
-      <image:caption>Cottage Pie — british dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Cottage Pie — British dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3690,7 +3700,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/roast-beef-yorkshire.jpg</image:loc>
       <image:title>Roast Beef and Yorkshire Puddings</image:title>
-      <image:caption>Roast Beef and Yorkshire Puddings — british holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Roast Beef and Yorkshire Puddings — British holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3698,6 +3708,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/welsh-rarebit.jpg</image:loc>
+      <image:title>Welsh Rarebit</image:title>
+      <image:caption>Welsh Rarebit — British quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/eton-mess/</loc>
@@ -3707,7 +3722,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/eton-mess.jpg</image:loc>
       <image:title>Eton Mess</image:title>
-      <image:caption>Eton Mess — british desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Eton Mess — British desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3736,7 +3751,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/shortbread.jpg</image:loc>
       <image:title>Scottish Shortbread</image:title>
-      <image:caption>Scottish Shortbread — british baking recipe, served and ready to eat</image:caption>
+      <image:caption>Scottish Shortbread — British baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3747,7 +3762,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pastitsio.jpg</image:loc>
       <image:title>Pastitsio</image:title>
-      <image:caption>Pastitsio — greek dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Pastitsio — Greek dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3764,7 +3779,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/saganaki.jpg</image:loc>
       <image:title>Saganaki</image:title>
-      <image:caption>Saganaki — greek appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Saganaki — Greek appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3775,7 +3790,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fasolada.jpg</image:loc>
       <image:title>Fasolada</image:title>
-      <image:caption>Fasolada — greek healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Fasolada — Greek healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3792,7 +3807,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/loukoumades.jpg</image:loc>
       <image:title>Loukoumades</image:title>
-      <image:caption>Loukoumades — greek desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Loukoumades — Greek desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3863,7 +3878,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/turkish-delight.jpg</image:loc>
       <image:title>Turkish Delight</image:title>
-      <image:caption>Turkish Delight — turkish desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Turkish Delight — Turkish desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3874,7 +3889,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/salmorejo.jpg</image:loc>
       <image:title>Salmorejo</image:title>
-      <image:caption>Salmorejo — spanish healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Salmorejo — Spanish healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3885,7 +3900,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pan-con-tomate.jpg</image:loc>
       <image:title>Pan con Tomate</image:title>
-      <image:caption>Pan con Tomate — spanish appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Pan con Tomate — Spanish appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3896,7 +3911,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pulpo-a-la-gallega.jpg</image:loc>
       <image:title>Pulpo a la Gallega</image:title>
-      <image:caption>Pulpo a la Gallega — spanish appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Pulpo a la Gallega — Spanish appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3913,7 +3928,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pastel-de-nata.jpg</image:loc>
       <image:title>Pastéis de Nata</image:title>
-      <image:caption>Pastéis de Nata — portuguese desserts recipe, served and ready to eat</image:caption>
+      <image:caption>Pastéis de Nata — Portuguese desserts recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3942,7 +3957,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/khao-soi.jpg</image:loc>
       <image:title>Khao Soi</image:title>
-      <image:caption>Khao Soi — thai dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Khao Soi — Thai dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3953,7 +3968,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/larb-gai.jpg</image:loc>
       <image:title>Larb Gai</image:title>
-      <image:caption>Larb Gai — thai healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Larb Gai — Thai healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3964,7 +3979,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/thai-red-curry.jpg</image:loc>
       <image:title>Thai Red Curry</image:title>
-      <image:caption>Thai Red Curry — thai dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Thai Red Curry — Thai dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3981,7 +3996,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/thai-iced-tea.jpg</image:loc>
       <image:title>Thai Iced Tea</image:title>
-      <image:caption>Thai Iced Tea — thai drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Thai Iced Tea — Thai drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -3998,7 +4013,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/com-tam.jpg</image:loc>
       <image:title>Cơm Tấm</image:title>
-      <image:caption>Cơm Tấm — vietnamese dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Cơm Tấm — Vietnamese dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4009,7 +4024,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cha-gio.jpg</image:loc>
       <image:title>Chả Giò</image:title>
-      <image:caption>Chả Giò — vietnamese appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Chả Giò — Vietnamese appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4020,7 +4035,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kimbap.jpg</image:loc>
       <image:title>Kimbap</image:title>
-      <image:caption>Kimbap — korean lunch recipe, served and ready to eat</image:caption>
+      <image:caption>Kimbap — Korean lunch recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4067,7 +4082,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/nasi-goreng.jpg</image:loc>
       <image:title>Nasi Goreng</image:title>
-      <image:caption>Nasi Goreng — indonesian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Nasi Goreng — Indonesian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4078,7 +4093,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/beef-rendang.jpg</image:loc>
       <image:title>Beef Rendang</image:title>
-      <image:caption>Beef Rendang — indonesian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Rendang — Indonesian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4089,7 +4104,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-satay.jpg</image:loc>
       <image:title>Chicken Satay</image:title>
-      <image:caption>Chicken Satay — indonesian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Satay — Indonesian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4100,7 +4115,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gado-gado.jpg</image:loc>
       <image:title>Gado-Gado</image:title>
-      <image:caption>Gado-Gado — indonesian healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Gado-Gado — Indonesian healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4111,7 +4126,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/laksa.jpg</image:loc>
       <image:title>Curry Laksa</image:title>
-      <image:caption>Curry Laksa — malaysian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Curry Laksa — Malaysian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4122,7 +4137,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/char-kway-teow.jpg</image:loc>
       <image:title>Char Kway Teow</image:title>
-      <image:caption>Char Kway Teow — malaysian quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Char Kway Teow — Malaysian quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4130,6 +4145,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/hainanese-chicken-rice.jpg</image:loc>
+      <image:title>Hainanese Chicken Rice</image:title>
+      <image:caption>Hainanese Chicken Rice — Singaporean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/chicken-adobo/</loc>
@@ -4139,7 +4159,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-adobo.jpg</image:loc>
       <image:title>Chicken Adobo</image:title>
-      <image:caption>Chicken Adobo — filipino dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Chicken Adobo — Filipino dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4150,7 +4170,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/arepas.jpg</image:loc>
       <image:title>Arepas</image:title>
-      <image:caption>Arepas — venezuelan breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Arepas — Venezuelan breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4173,7 +4193,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lomo-saltado.jpg</image:loc>
       <image:title>Lomo Saltado</image:title>
-      <image:caption>Lomo Saltado — peruvian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Lomo Saltado — Peruvian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4184,7 +4204,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/aji-de-gallina.jpg</image:loc>
       <image:title>Ají de Gallina</image:title>
-      <image:caption>Ají de Gallina — peruvian dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Ají de Gallina — Peruvian dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4204,6 +4224,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/alfajores.jpg</image:loc>
+      <image:title>Alfajores</image:title>
+      <image:caption>Alfajores — Argentinian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/chicken-kiev/</loc>
@@ -4225,7 +4250,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/olivier-salad.jpg</image:loc>
       <image:title>Olivier Salad</image:title>
-      <image:caption>Olivier Salad — russian holiday specials recipe, served and ready to eat</image:caption>
+      <image:caption>Olivier Salad — Russian holiday specials recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4236,7 +4261,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/golabki.jpg</image:loc>
       <image:title>Gołąbki</image:title>
-      <image:caption>Gołąbki — polish dinner recipe, served and ready to eat</image:caption>
+      <image:caption>Gołąbki — Polish dinner recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4250,6 +4275,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sauerbraten.jpg</image:loc>
+      <image:title>Sauerbraten</image:title>
+      <image:caption>Sauerbraten — German holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/gravlax/</loc>
@@ -4259,7 +4289,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/gravlax.jpg</image:loc>
       <image:title>Gravlax</image:title>
-      <image:caption>Gravlax — swedish appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Gravlax — Swedish appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4270,7 +4300,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kanelbullar.jpg</image:loc>
       <image:title>Kanelbullar</image:title>
-      <image:caption>Kanelbullar — swedish baking recipe, served and ready to eat</image:caption>
+      <image:caption>Kanelbullar — Swedish baking recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4278,6 +4308,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jollof-rice.jpg</image:loc>
+      <image:title>Jollof Rice</image:title>
+      <image:caption>Jollof Rice — Nigerian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/egusi-soup/</loc>
@@ -4293,7 +4328,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/suya.jpg</image:loc>
       <image:title>Beef Suya</image:title>
-      <image:caption>Beef Suya — nigerian appetizers recipe, served and ready to eat</image:caption>
+      <image:caption>Beef Suya — Nigerian appetizers recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4328,7 +4363,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/fried-plantain.jpg</image:loc>
       <image:title>Fried Sweet Plantain</image:title>
-      <image:caption>Fried Sweet Plantain — jamaican quick meals recipe, served and ready to eat</image:caption>
+      <image:caption>Fried Sweet Plantain — Jamaican quick meals recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4345,7 +4380,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/acai-bowl.jpg</image:loc>
       <image:title>Açaí Bowl</image:title>
-      <image:caption>Açaí Bowl — international breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Açaí Bowl — International breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4356,7 +4391,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chia-pudding.jpg</image:loc>
       <image:title>Chia Pudding</image:title>
-      <image:caption>Chia Pudding — international healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Chia Pudding — International healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4367,7 +4402,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/granola.jpg</image:loc>
       <image:title>Maple Pecan Granola</image:title>
-      <image:caption>Maple Pecan Granola — international breakfast recipe, served and ready to eat</image:caption>
+      <image:caption>Maple Pecan Granola — International breakfast recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4378,7 +4413,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/quinoa-salad.jpg</image:loc>
       <image:title>Lemon Herb Quinoa Salad</image:title>
-      <image:caption>Lemon Herb Quinoa Salad — international healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Lemon Herb Quinoa Salad — International healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4389,7 +4424,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lentil-soup.jpg</image:loc>
       <image:title>Spiced Red Lentil Soup</image:title>
-      <image:caption>Spiced Red Lentil Soup — international healthy recipe, served and ready to eat</image:caption>
+      <image:caption>Spiced Red Lentil Soup — International healthy recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4400,7 +4435,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/negroni.jpg</image:loc>
       <image:title>Negroni</image:title>
-      <image:caption>Negroni — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Negroni — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4411,7 +4446,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pina-colada.jpg</image:loc>
       <image:title>Piña Colada</image:title>
-      <image:caption>Piña Colada — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Piña Colada — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4422,7 +4457,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bloody-mary.jpg</image:loc>
       <image:title>Bloody Mary</image:title>
-      <image:caption>Bloody Mary — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Bloody Mary — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4433,7 +4468,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bubble-tea.jpg</image:loc>
       <image:title>Brown Sugar Bubble Tea</image:title>
-      <image:caption>Brown Sugar Bubble Tea — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Brown Sugar Bubble Tea — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
   <url>
@@ -4444,7 +4479,7 @@
     <image:image>
       <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mulled-wine.jpg</image:loc>
       <image:title>Mulled Wine</image:title>
-      <image:caption>Mulled Wine — international drinks recipe, served and ready to eat</image:caption>
+      <image:caption>Mulled Wine — International drinks recipe, served and ready to eat</image:caption>
     </image:image>
   </url>
 </urlset>

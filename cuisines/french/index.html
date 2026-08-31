@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/" aria-current="page">Cuisines</a>
       <a href="/search/">Search</a>
@@ -122,7 +123,7 @@
   <div class="card-media" style="background:#a87b58">
     <picture>
         <source srcset="/assets/img/recipes/creme-brulee.webp" type="image/webp">
-        <img src="/assets/img/recipes/creme-brulee.jpg" alt="Crème Brûlée — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creme-brulee.jpg" alt="Crème Brûlée — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Crème Brûlée"
              data-ph-a="#a87b58" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#7b868a">
     <picture>
         <source srcset="/assets/img/recipes/beef-bourguignon.webp" type="image/webp">
-        <img src="/assets/img/recipes/beef-bourguignon.jpg" alt="Beef Bourguignon — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/beef-bourguignon.jpg" alt="Beef Bourguignon — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Beef Bourguignon"
              data-ph-a="#7b868a" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -182,7 +183,7 @@
   <div class="card-media" style="background:#ac9885">
     <picture>
         <source srcset="/assets/img/recipes/croissants.webp" type="image/webp">
-        <img src="/assets/img/recipes/croissants.jpg" alt="Butter Croissants — french baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/croissants.jpg" alt="Butter Croissants — French baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Butter Croissants"
              data-ph-a="#ac9885" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -212,7 +213,7 @@
   <div class="card-media" style="background:#77455d">
     <picture>
         <source srcset="/assets/img/recipes/french-onion-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/french-onion-soup.jpg" alt="French Onion Soup — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/french-onion-soup.jpg" alt="French Onion Soup — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="French Onion Soup"
              data-ph-a="#77455d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -242,7 +243,7 @@
   <div class="card-media" style="background:#ac988d">
     <picture>
         <source srcset="/assets/img/recipes/macarons.webp" type="image/webp">
-        <img src="/assets/img/recipes/macarons.jpg" alt="French Macarons — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/macarons.jpg" alt="French Macarons — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="French Macarons"
              data-ph-a="#ac988d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -272,7 +273,7 @@
   <div class="card-media" style="background:#ba9e74">
     <picture>
         <source srcset="/assets/img/recipes/croque-monsieur.webp" type="image/webp">
-        <img src="/assets/img/recipes/croque-monsieur.jpg" alt="Croque Monsieur — french lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/croque-monsieur.jpg" alt="Croque Monsieur — French lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Croque Monsieur"
              data-ph-a="#ba9e74" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -302,7 +303,7 @@
   <div class="card-media" style="background:#a79273">
     <picture>
         <source srcset="/assets/img/recipes/quiche-lorraine.webp" type="image/webp">
-        <img src="/assets/img/recipes/quiche-lorraine.jpg" alt="Quiche Lorraine — french lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/quiche-lorraine.jpg" alt="Quiche Lorraine — French lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Quiche Lorraine"
              data-ph-a="#a79273" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -332,7 +333,7 @@
   <div class="card-media" style="background:#a47556">
     <picture>
         <source srcset="/assets/img/recipes/gratin-dauphinois.webp" type="image/webp">
-        <img src="/assets/img/recipes/gratin-dauphinois.jpg" alt="Gratin Dauphinois — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gratin-dauphinois.jpg" alt="Gratin Dauphinois — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gratin Dauphinois"
              data-ph-a="#a47556" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -362,7 +363,7 @@
   <div class="card-media" style="background:#a48a60">
     <picture>
         <source srcset="/assets/img/recipes/ratatouille.webp" type="image/webp">
-        <img src="/assets/img/recipes/ratatouille.jpg" alt="Provençal Ratatouille — french healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/ratatouille.jpg" alt="Provençal Ratatouille — French healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Provençal Ratatouille"
              data-ph-a="#a48a60" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -392,7 +393,7 @@
   <div class="card-media" style="background:#af998c">
     <picture>
         <source srcset="/assets/img/recipes/steak-frites.webp" type="image/webp">
-        <img src="/assets/img/recipes/steak-frites.jpg" alt="Steak Frites — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/steak-frites.jpg" alt="Steak Frites — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Steak Frites"
              data-ph-a="#af998c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -420,7 +421,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Brioche Loaf — french baking recipe, served and ready to eat"><span>Brioche Loaf</span></div>
+    <div class="img-fallback" role="img" aria-label="Brioche Loaf — French baking recipe, served and ready to eat"><span>Brioche Loaf</span></div>
     <div class="card-badges"><span class="badge badge--glass">French</span></div>
     <button class="fav-btn" type="button" data-slug="brioche" data-title="Brioche Loaf"
             aria-pressed="false" aria-label="Save Brioche Loaf to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -446,7 +447,7 @@
   <div class="card-media" style="background:#988261">
     <picture>
         <source srcset="/assets/img/recipes/profiteroles.webp" type="image/webp">
-        <img src="/assets/img/recipes/profiteroles.jpg" alt="Profiteroles — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/profiteroles.jpg" alt="Profiteroles — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Profiteroles"
              data-ph-a="#988261" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -476,7 +477,7 @@
   <div class="card-media" style="background:#7d7467">
     <picture>
         <source srcset="/assets/img/recipes/moules-marinieres.webp" type="image/webp">
-        <img src="/assets/img/recipes/moules-marinieres.jpg" alt="Moules Marinières — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/moules-marinieres.jpg" alt="Moules Marinières — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Moules Marinières"
              data-ph-a="#7d7467" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -506,7 +507,7 @@
   <div class="card-media" style="background:#bc9991">
     <picture>
         <source srcset="/assets/img/recipes/baguette.webp" type="image/webp">
-        <img src="/assets/img/recipes/baguette.jpg" alt="French Baguette — french baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/baguette.jpg" alt="French Baguette — French baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="French Baguette"
              data-ph-a="#bc9991" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -536,7 +537,7 @@
   <div class="card-media" style="background:#a89888">
     <picture>
         <source srcset="/assets/img/recipes/madeleines.webp" type="image/webp">
-        <img src="/assets/img/recipes/madeleines.jpg" alt="Madeleines — french baking recipe, served and ready to eat"
+        <img src="/assets/img/recipes/madeleines.jpg" alt="Madeleines — French baking recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Madeleines"
              data-ph-a="#a89888" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -566,7 +567,7 @@
   <div class="card-media" style="background:#7a6359">
     <picture>
         <source srcset="/assets/img/recipes/coq-au-vin.webp" type="image/webp">
-        <img src="/assets/img/recipes/coq-au-vin.jpg" alt="Coq au Vin — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/coq-au-vin.jpg" alt="Coq au Vin — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Coq au Vin"
              data-ph-a="#7a6359" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -596,7 +597,7 @@
   <div class="card-media" style="background:#b99872">
     <picture>
         <source srcset="/assets/img/recipes/crepes-suzette.webp" type="image/webp">
-        <img src="/assets/img/recipes/crepes-suzette.jpg" alt="Crêpes Suzette — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/crepes-suzette.jpg" alt="Crêpes Suzette — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Crêpes Suzette"
              data-ph-a="#b99872" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -626,7 +627,7 @@
   <div class="card-media" style="background:#8c8172">
     <picture>
         <source srcset="/assets/img/recipes/tartiflette.webp" type="image/webp">
-        <img src="/assets/img/recipes/tartiflette.jpg" alt="Tartiflette — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tartiflette.jpg" alt="Tartiflette — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tartiflette"
              data-ph-a="#8c8172" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -656,7 +657,7 @@
   <div class="card-media" style="background:#6f5f54">
     <picture>
         <source srcset="/assets/img/recipes/tarte-tatin.webp" type="image/webp">
-        <img src="/assets/img/recipes/tarte-tatin.jpg" alt="Apple Tarte Tatin — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tarte-tatin.jpg" alt="Apple Tarte Tatin — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Apple Tarte Tatin"
              data-ph-a="#6f5f54" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -686,7 +687,7 @@
   <div class="card-media" style="background:#987b77">
     <picture>
         <source srcset="/assets/img/recipes/clafoutis.webp" type="image/webp">
-        <img src="/assets/img/recipes/clafoutis.jpg" alt="Cherry Clafoutis — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/clafoutis.jpg" alt="Cherry Clafoutis — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cherry Clafoutis"
              data-ph-a="#987b77" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -716,7 +717,7 @@
   <div class="card-media" style="background:#9f7b62">
     <picture>
         <source srcset="/assets/img/recipes/eclairs.webp" type="image/webp">
-        <img src="/assets/img/recipes/eclairs.jpg" alt="Chocolate Éclairs — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/eclairs.jpg" alt="Chocolate Éclairs — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chocolate Éclairs"
              data-ph-a="#9f7b62" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -746,7 +747,7 @@
   <div class="card-media" style="background:#aa7e5e">
     <picture>
         <source srcset="/assets/img/recipes/mille-feuille.webp" type="image/webp">
-        <img src="/assets/img/recipes/mille-feuille.jpg" alt="Mille-Feuille — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/mille-feuille.jpg" alt="Mille-Feuille — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Mille-Feuille"
              data-ph-a="#aa7e5e" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -776,7 +777,7 @@
   <div class="card-media" style="background:#695a52">
     <picture>
         <source srcset="/assets/img/recipes/chocolate-souffle.webp" type="image/webp">
-        <img src="/assets/img/recipes/chocolate-souffle.jpg" alt="Chocolate Soufflé — french desserts recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chocolate-souffle.jpg" alt="Chocolate Soufflé — French desserts recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chocolate Soufflé"
              data-ph-a="#695a52" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -806,7 +807,7 @@
   <div class="card-media" style="background:#676563">
     <picture>
         <source srcset="/assets/img/recipes/salade-nicoise.webp" type="image/webp">
-        <img src="/assets/img/recipes/salade-nicoise.jpg" alt="Salade Niçoise — french lunch recipe, served and ready to eat"
+        <img src="/assets/img/recipes/salade-nicoise.jpg" alt="Salade Niçoise — French lunch recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Salade Niçoise"
              data-ph-a="#676563" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -836,7 +837,7 @@
   <div class="card-media" style="background:#aa988c">
     <picture>
         <source srcset="/assets/img/recipes/sole-meuniere.webp" type="image/webp">
-        <img src="/assets/img/recipes/sole-meuniere.jpg" alt="Sole Meunière — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/sole-meuniere.jpg" alt="Sole Meunière — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Sole Meunière"
              data-ph-a="#aa988c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -866,7 +867,7 @@
   <div class="card-media" style="background:#897862">
     <picture>
         <source srcset="/assets/img/recipes/blanquette-de-veau.webp" type="image/webp">
-        <img src="/assets/img/recipes/blanquette-de-veau.jpg" alt="Blanquette de Veau — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/blanquette-de-veau.jpg" alt="Blanquette de Veau — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Blanquette de Veau"
              data-ph-a="#897862" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -894,7 +895,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Pot-au-Feu — french dinner recipe, served and ready to eat"><span>Pot-au-Feu</span></div>
+    <div class="img-fallback" role="img" aria-label="Pot-au-Feu — French dinner recipe, served and ready to eat"><span>Pot-au-Feu</span></div>
     <div class="card-badges"><span class="badge badge--glass">French</span></div>
     <button class="fav-btn" type="button" data-slug="pot-au-feu" data-title="Pot-au-Feu"
             aria-pressed="false" aria-label="Save Pot-au-Feu to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -920,7 +921,7 @@
   <div class="card-media" style="background:#747467">
     <picture>
         <source srcset="/assets/img/recipes/pissaladiere.webp" type="image/webp">
-        <img src="/assets/img/recipes/pissaladiere.jpg" alt="Pissaladière — french appetizers recipe, served and ready to eat"
+        <img src="/assets/img/recipes/pissaladiere.jpg" alt="Pissaladière — French appetizers recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Pissaladière"
              data-ph-a="#747467" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -950,7 +951,7 @@
   <div class="card-media" style="background:#ae875f">
     <picture>
         <source srcset="/assets/img/recipes/bouillabaisse.webp" type="image/webp">
-        <img src="/assets/img/recipes/bouillabaisse.jpg" alt="Marseille Bouillabaisse — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/bouillabaisse.jpg" alt="Marseille Bouillabaisse — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Marseille Bouillabaisse"
              data-ph-a="#ae875f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -980,7 +981,7 @@
   <div class="card-media" style="background:#9f7158">
     <picture>
         <source srcset="/assets/img/recipes/cassoulet.webp" type="image/webp">
-        <img src="/assets/img/recipes/cassoulet.jpg" alt="Cassoulet de Toulouse — french dinner recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cassoulet.jpg" alt="Cassoulet de Toulouse — French dinner recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cassoulet de Toulouse"
              data-ph-a="#9f7158" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">

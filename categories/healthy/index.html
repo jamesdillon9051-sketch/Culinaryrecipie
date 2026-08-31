@@ -76,8 +76,9 @@
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="/recipes/">All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories"><a href="/categories/breakfast/">Breakfast<span>25 recipes</span></a><a href="/categories/lunch/">Lunch<span>30 recipes</span></a><a href="/categories/dinner/">Dinner<span>126 recipes</span></a><a href="/categories/desserts/">Desserts<span>45 recipes</span></a><a href="/categories/appetizers/">Appetizers<span>50 recipes</span></a><a href="/categories/drinks/">Drinks<span>17 recipes</span></a><a href="/categories/baking/">Baking<span>30 recipes</span></a><a href="/categories/healthy/">Healthy<span>39 recipes</span></a><a href="/categories/quick-meals/">Quick Meals<span>26 recipes</span></a><a href="/categories/holiday-specials/">Holiday Specials<span>12 recipes</span></a></div>
       </div>
       <a href="/cuisines/">Cuisines</a>
       <a href="/search/">Search</a>
@@ -119,12 +120,12 @@
     <h2 id="tax-list-title" class="sr-only">Healthy recipes — all 39 recipes</h2>
     <div class="card-grid" style="margin-top:2rem">
       <article class="card reveal">
-  <div class="card-media" style="background:#84784d">
+  <div class="card-media" style="background:#816e5d">
     <picture>
         <source srcset="/assets/img/recipes/chicken-noodle-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chicken-noodle-soup.jpg" alt="Chicken Noodle Soup — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chicken Noodle Soup"
-             data-ph-a="#84784d" data-ph-b="#8c5a3c"
+             data-ph-a="#816e5d" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
        </picture>
     <div class="card-badges"><span class="badge badge--glass">American</span></div>
@@ -152,7 +153,7 @@
   <div class="card-media" style="background:#87754f">
     <picture>
         <source srcset="/assets/img/recipes/greek-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/greek-salad.jpg" alt="Horiatiki Greek Salad — greek healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/greek-salad.jpg" alt="Horiatiki Greek Salad — Greek healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Horiatiki Greek Salad"
              data-ph-a="#87754f" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -182,7 +183,7 @@
   <div class="card-media" style="background:#aa9274">
     <picture>
         <source srcset="/assets/img/recipes/overnight-oats.webp" type="image/webp">
-        <img src="/assets/img/recipes/overnight-oats.jpg" alt="Overnight Oats — international healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/overnight-oats.jpg" alt="Overnight Oats — International healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Overnight Oats"
              data-ph-a="#aa9274" data-ph-b="#8c5a3c"
              loading="eager" fetchpriority="high" decoding="async">
@@ -210,7 +211,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Ahi Poke Bowl — international healthy recipe, served and ready to eat"><span>Ahi Poke Bowl</span></div>
+    <div class="img-fallback" role="img" aria-label="Ahi Poke Bowl — International healthy recipe, served and ready to eat"><span>Ahi Poke Bowl</span></div>
     <div class="card-badges"><span class="badge badge--glass">International</span><span class="badge badge--brass">Trending</span></div>
     <button class="fav-btn" type="button" data-slug="poke-bowl" data-title="Ahi Poke Bowl"
             aria-pressed="false" aria-label="Save Ahi Poke Bowl to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -236,7 +237,7 @@
   <div class="card-media" style="background:#b1936c">
     <picture>
         <source srcset="/assets/img/recipes/lentil-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/lentil-soup.jpg" alt="Spiced Red Lentil Soup — international healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/lentil-soup.jpg" alt="Spiced Red Lentil Soup — International healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Spiced Red Lentil Soup"
              data-ph-a="#b1936c" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -266,7 +267,7 @@
   <div class="card-media" style="background:#a48a60">
     <picture>
         <source srcset="/assets/img/recipes/ratatouille.webp" type="image/webp">
-        <img src="/assets/img/recipes/ratatouille.jpg" alt="Provençal Ratatouille — french healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/ratatouille.jpg" alt="Provençal Ratatouille — French healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Provençal Ratatouille"
              data-ph-a="#a48a60" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -296,7 +297,7 @@
   <div class="card-media" style="background:#756a60">
     <picture>
         <source srcset="/assets/img/recipes/creamy-tomato-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-tomato-soup.jpg" alt="Creamy Tomato Soup — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creamy-tomato-soup.jpg" alt="Creamy Tomato Soup — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Creamy Tomato Soup"
              data-ph-a="#756a60" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -326,7 +327,7 @@
   <div class="card-media" style="background:#8f6e59">
     <picture>
         <source srcset="/assets/img/recipes/tom-yum-goong.webp" type="image/webp">
-        <img src="/assets/img/recipes/tom-yum-goong.jpg" alt="Tom Yum Goong — thai healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tom-yum-goong.jpg" alt="Tom Yum Goong — Thai healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tom Yum Goong"
              data-ph-a="#8f6e59" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -356,7 +357,7 @@
   <div class="card-media" style="background:#9d9790">
     <picture>
         <source srcset="/assets/img/recipes/chana-masala.webp" type="image/webp">
-        <img src="/assets/img/recipes/chana-masala.jpg" alt="Chana Masala — indian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chana-masala.jpg" alt="Chana Masala — Indian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chana Masala"
              data-ph-a="#9d9790" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -386,7 +387,7 @@
   <div class="card-media" style="background:#92746a">
     <picture>
         <source srcset="/assets/img/recipes/dal-tadka.webp" type="image/webp">
-        <img src="/assets/img/recipes/dal-tadka.jpg" alt="Dal Tadka — indian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/dal-tadka.jpg" alt="Dal Tadka — Indian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Dal Tadka"
              data-ph-a="#92746a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -416,7 +417,7 @@
   <div class="card-media" style="background:#a07d74">
     <picture>
         <source srcset="/assets/img/recipes/gazpacho.webp" type="image/webp">
-        <img src="/assets/img/recipes/gazpacho.jpg" alt="Andalusian Gazpacho — spanish healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gazpacho.jpg" alt="Andalusian Gazpacho — Spanish healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Andalusian Gazpacho"
              data-ph-a="#a07d74" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -446,7 +447,7 @@
   <div class="card-media" style="background:#9f8967">
     <picture>
         <source srcset="/assets/img/recipes/quinoa-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/quinoa-salad.jpg" alt="Lemon Herb Quinoa Salad — international healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/quinoa-salad.jpg" alt="Lemon Herb Quinoa Salad — International healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Lemon Herb Quinoa Salad"
              data-ph-a="#9f8967" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -476,7 +477,7 @@
   <div class="card-media" style="background:#958a7f">
     <picture>
         <source srcset="/assets/img/recipes/cobb-salad.webp" type="image/webp">
-        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/cobb-salad.jpg" alt="Cobb Salad — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Cobb Salad"
              data-ph-a="#958a7f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -506,7 +507,7 @@
   <div class="card-media" style="background:#a6814a">
     <picture>
         <source srcset="/assets/img/recipes/tom-kha-gai.webp" type="image/webp">
-        <img src="/assets/img/recipes/tom-kha-gai.jpg" alt="Tom Kha Gai — thai healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tom-kha-gai.jpg" alt="Tom Kha Gai — Thai healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tom Kha Gai"
              data-ph-a="#a6814a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -536,7 +537,7 @@
   <div class="card-media" style="background:#aba08f">
     <picture>
         <source srcset="/assets/img/recipes/miso-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/miso-soup.jpg" alt="Miso Soup — japanese healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/miso-soup.jpg" alt="Miso Soup — Japanese healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Miso Soup"
              data-ph-a="#aba08f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -566,7 +567,7 @@
   <div class="card-media" style="background:#9d846d">
     <picture>
         <source srcset="/assets/img/recipes/creamy-coleslaw.webp" type="image/webp">
-        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw — american healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/creamy-coleslaw.jpg" alt="Creamy Coleslaw — American healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Creamy Coleslaw"
              data-ph-a="#9d846d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -596,7 +597,7 @@
   <div class="card-media" style="background:#908b81">
     <picture>
         <source srcset="/assets/img/recipes/tabbouleh.webp" type="image/webp">
-        <img src="/assets/img/recipes/tabbouleh.jpg" alt="Tabbouleh — middle eastern healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/tabbouleh.jpg" alt="Tabbouleh — Middle Eastern healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tabbouleh"
              data-ph-a="#908b81" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -626,7 +627,7 @@
   <div class="card-media" style="background:#889192">
     <picture>
         <source srcset="/assets/img/recipes/chia-pudding.webp" type="image/webp">
-        <img src="/assets/img/recipes/chia-pudding.jpg" alt="Chia Pudding — international healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/chia-pudding.jpg" alt="Chia Pudding — International healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Chia Pudding"
              data-ph-a="#889192" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -656,7 +657,7 @@
   <div class="card-media" style="background:#817987">
     <picture>
         <source srcset="/assets/img/recipes/borscht.webp" type="image/webp">
-        <img src="/assets/img/recipes/borscht.jpg" alt="Ukrainian Borscht — ukrainian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/borscht.jpg" alt="Ukrainian Borscht — Ukrainian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Ukrainian Borscht"
              data-ph-a="#817987" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -686,7 +687,7 @@
   <div class="card-media" style="background:#9c8a7a">
     <picture>
         <source srcset="/assets/img/recipes/kimchi-jjigae.webp" type="image/webp">
-        <img src="/assets/img/recipes/kimchi-jjigae.jpg" alt="Kimchi Jjigae — korean healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/kimchi-jjigae.jpg" alt="Kimchi Jjigae — Korean healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Kimchi Jjigae"
              data-ph-a="#9c8a7a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -716,7 +717,7 @@
   <div class="card-media" style="background:#976640">
     <picture>
         <source srcset="/assets/img/recipes/rajma.webp" type="image/webp">
-        <img src="/assets/img/recipes/rajma.jpg" alt="Rajma Masala — indian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/rajma.jpg" alt="Rajma Masala — Indian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Rajma Masala"
              data-ph-a="#976640" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -746,7 +747,7 @@
   <div class="card-media" style="background:#827459">
     <picture>
         <source srcset="/assets/img/recipes/larb-gai.webp" type="image/webp">
-        <img src="/assets/img/recipes/larb-gai.jpg" alt="Larb Gai — thai healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/larb-gai.jpg" alt="Larb Gai — Thai healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Larb Gai"
              data-ph-a="#827459" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -776,7 +777,7 @@
   <div class="card-media" style="background:#a19180">
     <picture>
         <source srcset="/assets/img/recipes/aloo-gobi.webp" type="image/webp">
-        <img src="/assets/img/recipes/aloo-gobi.jpg" alt="Aloo Gobi — indian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/aloo-gobi.jpg" alt="Aloo Gobi — Indian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Aloo Gobi"
              data-ph-a="#a19180" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -806,7 +807,7 @@
   <div class="card-media" style="background:#8e706a">
     <picture>
         <source srcset="/assets/img/recipes/som-tam.webp" type="image/webp">
-        <img src="/assets/img/recipes/som-tam.jpg" alt="Som Tam (Green Papaya Salad) — thai healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/som-tam.jpg" alt="Som Tam (Green Papaya Salad) — Thai healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Som Tam (Green Papaya Salad)"
              data-ph-a="#8e706a" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -836,7 +837,7 @@
   <div class="card-media" style="background:#b59b85">
     <picture>
         <source srcset="/assets/img/recipes/baingan-bharta.webp" type="image/webp">
-        <img src="/assets/img/recipes/baingan-bharta.jpg" alt="Baingan Bharta — indian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/baingan-bharta.jpg" alt="Baingan Bharta — Indian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Baingan Bharta"
              data-ph-a="#b59b85" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -864,7 +865,7 @@
   </div>
 </article><article class="card reveal" data-delay="60">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Mujadara — middle eastern healthy recipe, served and ready to eat"><span>Mujadara</span></div>
+    <div class="img-fallback" role="img" aria-label="Mujadara — Middle Eastern healthy recipe, served and ready to eat"><span>Mujadara</span></div>
     <div class="card-badges"><span class="badge badge--glass">Middle Eastern</span></div>
     <button class="fav-btn" type="button" data-slug="mujadara" data-title="Mujadara"
             aria-pressed="false" aria-label="Save Mujadara to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -890,7 +891,7 @@
   <div class="card-media" style="background:#b78f58">
     <picture>
         <source srcset="/assets/img/recipes/minestrone-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/minestrone-soup.jpg" alt="Minestrone Soup — italian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/minestrone-soup.jpg" alt="Minestrone Soup — Italian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Minestrone Soup"
              data-ph-a="#b78f58" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -920,7 +921,7 @@
   <div class="card-media" style="background:#9f8260">
     <picture>
         <source srcset="/assets/img/recipes/panzanella.webp" type="image/webp">
-        <img src="/assets/img/recipes/panzanella.jpg" alt="Tuscan Panzanella — italian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/panzanella.jpg" alt="Tuscan Panzanella — Italian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Tuscan Panzanella"
              data-ph-a="#9f8260" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -950,7 +951,7 @@
   <div class="card-media" style="background:#8f6c56">
     <picture>
         <source srcset="/assets/img/recipes/fattoush.webp" type="image/webp">
-        <img src="/assets/img/recipes/fattoush.jpg" alt="Fattoush Salad — middle eastern healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/fattoush.jpg" alt="Fattoush Salad — Middle Eastern healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Fattoush Salad"
              data-ph-a="#8f6c56" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -980,7 +981,7 @@
   <div class="card-media" style="background:#a3a3a1">
     <picture>
         <source srcset="/assets/img/recipes/avgolemono-soup.webp" type="image/webp">
-        <img src="/assets/img/recipes/avgolemono-soup.jpg" alt="Avgolemono Soup — greek healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/avgolemono-soup.jpg" alt="Avgolemono Soup — Greek healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Avgolemono Soup"
              data-ph-a="#a3a3a1" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1010,7 +1011,7 @@
   <div class="card-media" style="background:#72634d">
     <picture>
         <source srcset="/assets/img/recipes/koshari.webp" type="image/webp">
-        <img src="/assets/img/recipes/koshari.jpg" alt="Egyptian Koshari — egyptian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/koshari.jpg" alt="Egyptian Koshari — Egyptian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Egyptian Koshari"
              data-ph-a="#72634d" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1040,7 +1041,7 @@
   <div class="card-media" style="background:#937d67">
     <picture>
         <source srcset="/assets/img/recipes/salmorejo.webp" type="image/webp">
-        <img src="/assets/img/recipes/salmorejo.jpg" alt="Salmorejo — spanish healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/salmorejo.jpg" alt="Salmorejo — Spanish healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Salmorejo"
              data-ph-a="#937d67" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1068,7 +1069,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Caldo Verde — portuguese healthy recipe, served and ready to eat"><span>Caldo Verde</span></div>
+    <div class="img-fallback" role="img" aria-label="Caldo Verde — Portuguese healthy recipe, served and ready to eat"><span>Caldo Verde</span></div>
     <div class="card-badges"><span class="badge badge--glass">Portuguese</span></div>
     <button class="fav-btn" type="button" data-slug="caldo-verde" data-title="Caldo Verde"
             aria-pressed="false" aria-label="Save Caldo Verde to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1094,7 +1095,7 @@
   <div class="card-media" style="background:#807b6f">
     <picture>
         <source srcset="/assets/img/recipes/gado-gado.webp" type="image/webp">
-        <img src="/assets/img/recipes/gado-gado.jpg" alt="Gado-Gado — indonesian healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/gado-gado.jpg" alt="Gado-Gado — Indonesian healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Gado-Gado"
              data-ph-a="#807b6f" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1122,7 +1123,7 @@
   </div>
 </article><article class="card reveal" data-delay="120">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Mul Naengmyeon — korean healthy recipe, served and ready to eat"><span>Mul Naengmyeon</span></div>
+    <div class="img-fallback" role="img" aria-label="Mul Naengmyeon — Korean healthy recipe, served and ready to eat"><span>Mul Naengmyeon</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="naengmyeon" data-title="Mul Naengmyeon"
             aria-pressed="false" aria-label="Save Mul Naengmyeon to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1146,7 +1147,7 @@
   </div>
 </article><article class="card reveal" data-delay="180">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Imam Bayildi — turkish healthy recipe, served and ready to eat"><span>Imam Bayildi</span></div>
+    <div class="img-fallback" role="img" aria-label="Imam Bayildi — Turkish healthy recipe, served and ready to eat"><span>Imam Bayildi</span></div>
     <div class="card-badges"><span class="badge badge--glass">Turkish</span></div>
     <button class="fav-btn" type="button" data-slug="imam-bayildi" data-title="Imam Bayildi"
             aria-pressed="false" aria-label="Save Imam Bayildi to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1170,7 +1171,7 @@
   </div>
 </article><article class="card reveal">
   <div class="card-media" style="background:var(--bg-sunken)">
-    <div class="img-fallback" role="img" aria-label="Samgyetang — korean healthy recipe, served and ready to eat"><span>Samgyetang</span></div>
+    <div class="img-fallback" role="img" aria-label="Samgyetang — Korean healthy recipe, served and ready to eat"><span>Samgyetang</span></div>
     <div class="card-badges"><span class="badge badge--glass">Korean</span></div>
     <button class="fav-btn" type="button" data-slug="samgyetang" data-title="Samgyetang"
             aria-pressed="false" aria-label="Save Samgyetang to favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
@@ -1196,7 +1197,7 @@
   <div class="card-media" style="background:#cdb793">
     <picture>
         <source srcset="/assets/img/recipes/harira.webp" type="image/webp">
-        <img src="/assets/img/recipes/harira.jpg" alt="Harira Soup — moroccan healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/harira.jpg" alt="Harira Soup — Moroccan healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Harira Soup"
              data-ph-a="#cdb793" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">
@@ -1226,7 +1227,7 @@
   <div class="card-media" style="background:#7c7340">
     <picture>
         <source srcset="/assets/img/recipes/fasolada.webp" type="image/webp">
-        <img src="/assets/img/recipes/fasolada.jpg" alt="Fasolada — greek healthy recipe, served and ready to eat"
+        <img src="/assets/img/recipes/fasolada.jpg" alt="Fasolada — Greek healthy recipe, served and ready to eat"
              width="800" height="600" data-fade data-title="Fasolada"
              data-ph-a="#7c7340" data-ph-b="#8c5a3c"
              loading="lazy" decoding="async">

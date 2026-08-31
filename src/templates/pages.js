@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS } = require('../lib/util');
+const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { recipeCount, cuisineCount } = require('../data/stats');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
@@ -70,14 +70,14 @@ function home(ctx) {
       : '';
     return `<a class="tile reveal" href="${SITE.base}categories/${slug(name)}/">
       ${media}
-      <span class="tile-label"><strong>${esc(name)}</strong><span>${categoryCounts[name]} recipes</span></span>
+      <span class="tile-label"><strong>${esc(name)}</strong><span>${plural(categoryCounts[name], 'recipe')}</span></span>
     </a>`;
   }).join('');
 
   const cuisineChips = topCuisines.slice(0, 12).map(name => `
     <a class="cuisine-chip reveal" href="${SITE.base}cuisines/${slug(name)}/">
       <span class="cuisine-flag" aria-hidden="true">${CUISINES[name] ? CUISINES[name].flag : '\u{1F37D}'}</span>
-      <span><strong>${esc(name)}</strong><span>${cuisineCounts[name]} recipes</span></span>
+      <span><strong>${esc(name)}</strong><span>${plural(cuisineCounts[name], 'recipe')}</span></span>
     </a>`).join('');
 
   /* Three dishes for the hero cluster: the strongest photography we have. */
@@ -320,7 +320,7 @@ ${breadcrumbs(trail)}
   ${options.index === false ? '' : `<section class="faq" style="margin-top:clamp(2.5rem,6vw,4rem)" aria-labelledby="az-title">
     <h2 id="az-title">Full A&ndash;Z index</h2>
     <details>
-      <summary>All ${ctx.recipes.length} recipes, alphabetically</summary>
+      <summary>All ${plural(ctx.recipes.length, 'recipe')}, alphabetically</summary>
       <ul style="columns:3;column-gap:2rem;margin:1rem 0 0;padding-left:1.1rem;font-size:.92rem">
         ${ctx.recipes.slice().sort((a, b) => a.title.localeCompare(b.title))
           .map(r => `<li style="break-inside:avoid;margin-bottom:.35rem"><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}
@@ -364,7 +364,7 @@ ${breadcrumbs(trail)}
   ${options.extra || ''}
 
   <section aria-labelledby="tax-list-title">
-    <h2 id="tax-list-title" class="sr-only">${esc(options.heading)} — all ${options.recipes.length} recipes</h2>
+    <h2 id="tax-list-title" class="sr-only">${esc(options.heading)} — all ${plural(options.recipes.length, 'recipe')}</h2>
     <div class="card-grid" style="margin-top:2rem">
       ${options.recipes.map((r, i) => card(r, { eager: i < 3, delay: (i % 4) * 60 })).join('')}
     </div>
@@ -418,7 +418,7 @@ function cuisinesIndex(ctx) {
           <img src="${SITE.base}assets/img/recipes/${sample.imageData.file}.jpg" alt="${esc(name)} cooking"
                width="800" height="600" loading="lazy" decoding="async" data-fade>
         </picture>` : `<div class="img-fallback" role="img" aria-label="${esc(name)}"><span>${esc(name)}</span></div>`}
-        <div class="card-badges"><span class="badge badge--glass">${ctx.cuisineCounts[name]} recipes</span></div>
+        <div class="card-badges"><span class="badge badge--glass">${plural(ctx.cuisineCounts[name], 'recipe')}</span></div>
       </div>
       <div class="card-body">
         <h3><span style="font-size:1.4rem;margin-right:.4rem" aria-hidden="true">${meta.flag}</span>${esc(name)}</h3>

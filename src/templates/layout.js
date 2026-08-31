@@ -52,8 +52,9 @@ function header(active, categories) {
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <a href="${SITE.base}recipes/"${active === 'recipes' ? ' aria-current="page"' : ''}>All Recipes</a>
       <div class="nav-item">
-        <button class="nav-trigger" type="button" aria-expanded="false">Categories</button>
-        <div class="nav-panel">${catLinks}</div>
+        <button class="nav-trigger" type="button" aria-expanded="false"
+                aria-controls="nav-categories">Categories</button>
+        <div class="nav-panel" id="nav-categories">${catLinks}</div>
       </div>
       <a href="${SITE.base}cuisines/"${active === 'cuisines' ? ' aria-current="page"' : ''}>Cuisines</a>
       <a href="${SITE.base}search/"${active === 'search' ? ' aria-current="page"' : ''}>Search</a>
