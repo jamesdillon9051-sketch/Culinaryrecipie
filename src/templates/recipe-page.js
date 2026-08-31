@@ -2,6 +2,7 @@
 const { esc, humanTime, isoDuration, starsHtml, clamp } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
+const ads = require('./ads');
 
 /**
  * Pull the first usable duration out of a step so we can offer an inline timer.
@@ -197,6 +198,8 @@ ${breadcrumbs(trail)}
       </div>
     </div>
 
+    ${ads.nativeBanner(0, 'Advertisement below the recipe introduction')}
+
     <div class="recipe-layout">
       <div class="prose">
         <aside class="why-panel" aria-labelledby="why-title">
@@ -310,6 +313,8 @@ ${breadcrumbs(trail)}
         </div>
       </aside>
     </div>
+
+    ${ads.nativeBanner(1, 'Advertisement below the method and ingredients')}
 
     <section class="related section" aria-labelledby="related-title">
       <div class="section-head">

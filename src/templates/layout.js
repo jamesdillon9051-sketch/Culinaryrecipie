@@ -1,6 +1,7 @@
 'use strict';
 const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
 const { recipeCount } = require('../data/stats');
+const ads = require('./ads');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
@@ -200,6 +201,7 @@ ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as=
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
 <script src="${SITE.base}assets/js/theme.js"></script>
 ${schemaBlocks}
+${ads.popunder()}
 </head>
 <body class="${page.bodyClass || ''}" data-base="${SITE.base}">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -211,6 +213,7 @@ ${footer(page.cuisines || [])}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">${ICONS.arrowUp}</button>
 ${scripts}
+${ads.socialBar()}
 </body>
 </html>`;
 }

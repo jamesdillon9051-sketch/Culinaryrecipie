@@ -1,6 +1,7 @@
 'use strict';
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { recipeCount, cuisineCount } = require('../data/stats');
+const ads = require('./ads');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
 /* --------------------------------------------------------------- helpers */
@@ -116,6 +117,8 @@ function home(ctx) {
   </div>
 </section>
 
+<div class="wrap">${ads.nativeBanner(0, 'Advertisement below the header')}</div>
+
 <section class="section" aria-labelledby="editors-title">
   <div class="wrap">
     <div class="section-head reveal">
@@ -157,6 +160,8 @@ function home(ctx) {
     <div class="tile-grid">${categoryTiles}</div>
   </div>
 </section>
+
+<div class="wrap">${ads.nativeBanner(1, 'Advertisement between recipe sections')}</div>
 
 <section class="section section--sunken" aria-labelledby="quick-title">
   <div class="wrap">

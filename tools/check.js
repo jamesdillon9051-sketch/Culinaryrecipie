@@ -113,20 +113,20 @@ for (const file of htmlFiles) {
     }
   }
 
-  /* --- strict-CSP compatibility ------------------------------------------
-     The deployed Content-Security-Policy sets `script-src 'self'`, which
-     blocks inline scripts and inline event handlers. Fail the build if one
-     reappears, rather than shipping a page whose behaviour is silently
-     dropped by the browser. */
+  /* --- no inline script of our own ---------------------------------------
+     The CSP now allows 'unsafe-inline' so the ad network can do its work, but
+     nothing the generator writes should depend on that. Keeping our own output
+     free of inline script and inline handlers means the site would run
+     unchanged if the ads came out and the strict policy went back. */
   for (const match of html.matchAll(/<script\b([^>]*)>/g)) {
     const attrs = match[1];
     if (/\bsrc=/.test(attrs)) continue;
-    /* JSON-LD is a data block: the browser never executes it, so CSP allows it. */
+    /* JSON-LD is a data block: the browser never executes it. */
     if (/type="application\/ld\+json"/.test(attrs)) continue;
-    problems.push(`${rel}: inline <script> blocked by script-src 'self'`);
+    problems.push(`${rel}: inline <script> written by the generator`);
   }
   for (const match of html.matchAll(/\s(on[a-z]+)="/g)) {
-    problems.push(`${rel}: inline ${match[1]} handler blocked by script-src 'self'`);
+    problems.push(`${rel}: inline ${match[1]} handler written by the generator`);
   }
 
   /* --- accessibility spot checks --------------------------------------- */
@@ -180,11 +180,21 @@ if (!vercelCsp) {
   }
   const scriptSrc = /script-src ([^;]*)/.exec(vercelCsp);
   if (!scriptSrc) problems.push('CSP has no script-src directive');
-  else if (/unsafe-inline|unsafe-eval/.test(scriptSrc[1])) {
-    problems.push(`CSP script-src is not strict: ${scriptSrc[1].trim()}`);
+  /* 'unsafe-eval' is a different matter from 'unsafe-inline': the ad scripts
+     do not need it, and it is the one that turns a string into code. */
+  else if (/unsafe-eval/.test(scriptSrc[1])) {
+    problems.push(`CSP script-src allows unsafe-eval: ${scriptSrc[1].trim()}`);
   }
-  for (const directive of ['object-src', 'base-uri', 'frame-ancestors', 'form-action']) {
-    if (!vercelCsp.includes(directive)) problems.push(`CSP is missing ${directive}`);
+  /* Serving ads costs us script-src as an XSS mitigation. These four cost
+     nothing — no ad needs them — so a regression that drops one is a bug. */
+  for (const directive of ["object-src 'none'", "base-uri 'self'",
+                           "frame-ancestors 'self'", "form-action 'self'"]) {
+    if (!vercelCsp.includes(directive)) problems.push(`CSP no longer sets ${directive}`);
+  }
+  /* Ads are third-party by nature, but the site's own scripts must stay
+     first-party: a same-origin bundle is the one thing we fully control. */
+  if (!/script-src [^;]*'self'/.test(vercelCsp)) {
+    problems.push("CSP script-src no longer allows 'self'");
   }
 }
 
