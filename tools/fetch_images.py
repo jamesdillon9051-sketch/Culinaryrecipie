@@ -62,6 +62,22 @@ BAD_TOKENS = re.compile(
     # The people, not the plate. "Vendedoras de horchata" is a 19th-century oil
     # painting of women selling it.
     r"vendedor|vendeur|vendedora|seller|vendor|hawker|selling|"
+    # A band named after the dish. "Psychedelic Porn Crumpets" is a real group
+    # and the photograph is of a guitarist mid-solo.
+    # Acts named after food. There is no general signal for these — the title
+    # is just the band's name — so they are listed as they are found. The
+    # photograph that reached Crumpets was a guitarist mid-solo.
+    r"psychedelic porn crumpets|hot chip\b|red hot chili peppers|"
+    r"\bband\b|concert|\bgig\b|on stage|guitar|drummer|bassist|singer|"
+    r"musician|\blive at\b|\btour\b|setlist|"
+    # A museum accession number: Met prints carry "MET DP818368", and what came
+    # back for Irish stew was a nineteenth-century political cartoon.
+    r"\bmet dp\d|\bdp\d{6}\b|accession|\bplate \d+\b|"
+    # The appliance rather than the meal — "appareil à raclette" is the grill.
+    r"appareil|appliance|tefal|moulinex|kenwood|\bhob\b|"
+    # A single layer or a plan view is a detail, not the dish: the trifle that
+    # came back was a bowl of cream photographed from directly above.
+    r"cream[- ]layer|[- ]plan\b|plan view|cross[- ]section|"
     r"uncooked|before cooking|raw ingredients|"
     # An archival date, standalone and old enough to mean a historical scan.
     r"\b1[0-8][0-9]{2}\b|\b19[0-5][0-9]\b|"
@@ -370,6 +386,32 @@ OTHER_FORM = re.compile(
 DIFFERENT_DISH = re.compile(r"\b(pastrami|corned beef|bresaola|prosciutto|jerky)\b", re.I)
 
 
+# What a vegetarian or vegan recipe must not be illustrated with. The Belgian
+# waffle recipe is tagged Vegetarian and came back as a waffle under fried eggs
+# and bacon, which contradicts the page it would sit on.
+MEAT = re.compile(
+    r"\b(bacon|ham|jamon|prosciutto|salami|chorizo|pepperoni|sausages?|"
+    r"chicken|beef|pork|lamb|mutton|veal|duck|turkey|steak|meat|mince|"
+    r"anchov(?:y|ies)|tuna|salmon|prawns?|shrimps?|crab|lobster|squid|"
+    r"fish|seafood|oysters?|clams?|mussels?)\b", re.I)
+ANIMAL_PRODUCE = re.compile(
+    r"\b(cheese|butter|cream|milk|yogh?urt|egg|eggs|honey|mayonnaise)\b", re.I)
+
+
+def contradicts_diet(title, query, tags=()):
+    """True when the title names something the recipe's own dietary tags rule
+    out. A word the recipe itself asks for is never a contradiction — a cheese
+    fondue is allowed to say cheese."""
+    tags = {t.lower() for t in (tags or ())}
+    if not tags & {"vegetarian", "vegan"}:
+        return False
+    for pattern in ([MEAT] + ([ANIMAL_PRODUCE] if "vegan" in tags else [])):
+        found = pattern.search(title or "")
+        if found and not pattern.search(query or ""):
+            return True
+    return False
+
+
 def names_a_different_dish(title, query):
     return bool(DIFFERENT_DISH.search(title or "")) and not DIFFERENT_DISH.search(query or "")
 
@@ -516,7 +558,7 @@ def names_the_venue_not_the_dish(title, query):
 LICENCE_FILTERS = ("haslicense:unrestricted", "haslicense:attribution")
 
 
-def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0]):
+def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0], tags=()):
     # Openverse indexes most of Commons and is not rate limiting us, so a
     # benched Commons is a slow way to learn nothing new.
     if benched(host_of("https://commons.wikimedia.org/")):
@@ -549,6 +591,8 @@ def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0]):
         if not dish_words_cohere(title, query):
             continue
         if names_a_different_dish(title, query):
+            continue
+        if contradicts_diet(title, query, tags):
             continue
         if info.get("width", 0) < 500 or info.get("height", 0) < 380:
             continue
@@ -625,7 +669,7 @@ def shorten(query):
     return " ".join(words[:2]) if len(words) > 2 else ""
 
 
-def gather(query):
+def gather(query, tags=()):
     seen, pool = set(), []
     brief = shorten(query)
     # Held as callables, not results. Built eagerly, every query ran before the
@@ -639,8 +683,8 @@ def gather(query):
     # the archives cover well never reaches the attribution tier, so the site
     # only takes on a crediting obligation where the alternative is nothing.
     for licence in LICENCE_FILTERS:
-        attempts.append(lambda lic=licence: commons_candidates(query, "", lic))
-        attempts.append(lambda lic=licence: commons_candidates(query, "food", lic))
+        attempts.append(lambda lic=licence: commons_candidates(query, "", lic, tags))
+        attempts.append(lambda lic=licence: commons_candidates(query, "food", lic, tags))
     for attempt in attempts:
         for c in attempt():
             key = c["url"]
@@ -748,12 +792,13 @@ def main():
             continue
 
         log(f"[{idx + 1:3d}/{len(catalog)}] {slug}  <- {query}")
-        pool = gather(query)
+        tags = rec.get("tags") or ()
+        pool = gather(query, tags)
         for fallback in alts.get(slug, []):
             if pool:
                 break
             log(f"    · retrying as \"{fallback}\"")
-            pool = gather(fallback)
+            pool = gather(fallback, tags)
         if not pool:
             log("    · no unrestricted image found — gradient placeholder will be used")
             manifest[slug] = {"hero": None, "process": None}

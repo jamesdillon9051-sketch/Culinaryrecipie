@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 555
-images, **544** are CC0 or public domain and carry no conditions at all, and
-**11** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 585
+images, **566** are CC0 or public domain and carry no conditions at all, and
+**19** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,20 +36,20 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 395 |
-| Secondary "process" images | 160 |
-| Total image files | 1110 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 205 |
+| Hero images | 415 |
+| Secondary "process" images | 170 |
+| Total image files | 1170 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 185 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 284 | No rights reserved — no attribution legally required |
+| CC0 | 300 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
-| Public domain | 39 | No rights reserved — no attribution legally required |
+| Public domain | 45 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -113,35 +113,15 @@ CC BY image of sufficient quality and relevance could be found:
 - Jamaican Curry Goat (`jamaican-curry-goat`)
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
-- Ragù Napoletano (`ragu-napoletano`)
 - Sloppy Joes (`sloppy-joes`)
-- Corn Dogs (`corn-dogs`)
-- Boston Cream Pie (`boston-cream-pie`)
-- Steak and Ale Pie (`steak-and-ale-pie`)
 - English Trifle (`trifle`)
 - Crumpets (`crumpets`)
-- Ploughman's Lunch (`ploughmans-lunch`)
 - Irish Stew (`irish-stew`)
-- Irish Soda Bread (`soda-bread`)
-- Colcannon (`colcannon`)
-- Boxty (`boxty`)
-- Cullen Skink (`cullen-skink`)
-- Haggis, Neeps and Tatties (`haggis-neeps-tatties`)
 - Cranachan (`cranachan`)
 - Welsh Cawl (`cawl`)
-- Bara Brith (`bara-brith`)
-- German Pork Schnitzel (`schnitzel`)
-- Bratwurst with Sauerkraut (`bratwurst`)
-- Bavarian Brezel (`pretzel-brezel`)
-- Apple Strudel (`apple-strudel`)
-- Sachertorte (`sachertorte`)
-- Kaiserschmarrn (`kaiserschmarrn`)
 - Cheese Fondue (`cheese-fondue`)
-- Rösti (`rosti`)
 - Raclette (`raclette`)
 - Belgian Waffles (`belgian-waffles`)
-- Carbonnade Flamande (`carbonnade-flamande`)
-- Belgian Frites (`belgian-frites`)
 - Stroopwafels (`stroopwafel`)
 - Bitterballen (`bitterballen`)
 - Poffertjes (`poffertjes`)
@@ -782,6 +762,7 @@ licence as the rest of this project.
 | `bubble-tea.webp` / `.jpg` | Brown Sugar Bubble Tea | Hero | bubble tea in the morning | cclogg | CC0 1.0 | [Flickr](https://www.flickr.com/photos/46244586@N02/9735657636) |
 | `bubble-tea-process.webp` / `.jpg` | Brown Sugar Bubble Tea | Process | Mon01Sep2004:Driving Home - Gastown to Bubble Tea on Burrard | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/320177) |
 | `mulled-wine.webp` / `.jpg` | Mulled Wine | Hero | Free mulled wine image | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5917422/image-christmas-public-domain-free) |
+| `ragu-napoletano.webp` / `.jpg` | Ragù Napoletano | Hero | Short rib ragu on homemade pappardelle | Jeremy Keith | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Short_rib_ragu_on_homemade_pappardelle.jpg) |
 | `pasta-e-fagioli.webp` / `.jpg` | Pasta e Fagioli | Hero | Pasta e fagioli - minestra | valtercirillo | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_-_minestra.jpg) |
 | `vitello-tonnato.webp` / `.jpg` | Vitello Tonnato | Hero | Vitello tonnato | jules | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vitello_tonnato.jpg) |
 | `focaccia-genovese.webp` / `.jpg` | Focaccia Genovese | Hero | Focaccia salata e prosciutto | Osteria delle Taverne | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/135949150@N02/22980680231) |
@@ -837,7 +818,36 @@ licence as the rest of this project.
 | `brisket.webp` / `.jpg` | Texas Smoked Brisket | Hero | Smoked brisket, white bread, horseradish, slaw, (15452301364) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15452301364).jpg) |
 | `brisket-process.webp` / `.jpg` | Texas Smoked Brisket | Process | Smoked brisket, white bread, horseradish, slaw, (15888843867) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15888843867).jpg) |
 | `cioppino.webp` / `.jpg` | Cioppino | Hero | Cioppino from Della Terra (Los Angeles), July 2022 (1) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(1).jpg) |
+| `corn-dogs.webp` / `.jpg` | Corn Dogs | Hero | Corn dog | Tasy Hong | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corn_dog.jpg) |
+| `corn-dogs-process.webp` / `.jpg` | Corn Dogs | Process | Corn dog 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corn_dog_001.jpg) |
 | `philly-soft-pretzel.webp` / `.jpg` | Philadelphia Soft Pretzels | Hero | Auntie Anne's Classic Soft Frozen Pretzels - Sarah Stierch | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Auntie_Anne%27s_Classic_Soft_Frozen_Pretzels_-_Sarah_Stierch.jpg) |
+| `boston-cream-pie.webp` / `.jpg` | Boston Cream Pie | Hero | Boston cream pie with chocolate drizzle | Francisco Seoane Perez | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boston_cream_pie_with_chocolate_drizzle.jpg) |
+| `steak-and-ale-pie.webp` / `.jpg` | Steak and Ale Pie | Hero | Steak and Pepper Pie @ Mount Pleasant Bakery & Cafe 20250111-130728 | RegionVisitor90 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steak_and_Pepper_Pie_@_Mount_Pleasant_Bakery_%26_Cafe_20250111-130728.jpg) |
+| `steak-and-ale-pie-process.webp` / `.jpg` | Steak and Ale Pie | Process | Steak and Wine Pie by Jarrod Baniqued | Jarrod Baniqued | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steak_and_Wine_Pie_by_Jarrod_Baniqued.jpg) |
+| `ploughmans-lunch.webp` / `.jpg` | Ploughman's Lunch | Hero | Ploughmans lunch | Clothahump (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ploughmans_lunch.jpg) |
+| `soda-bread.webp` / `.jpg` | Irish Soda Bread | Hero | Irish soda bread (21 of 68) | Wheeler Cowperthwaite | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irish_soda_bread_(21_of_68).jpg) |
+| `colcannon.webp` / `.jpg` | Colcannon | Hero | Colcannon | Alison Cassidy | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Colcannon.JPG) |
+| `colcannon-process.webp` / `.jpg` | Colcannon | Process | Colcannon 4215w | Sarah777 at en.wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Colcannon_4215w.jpg) |
+| `boxty.webp` / `.jpg` | Boxty | Hero | Ansolas boxty 2 | さえぼー | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ansolas_boxty_2.jpg) |
+| `cullen-skink.webp` / `.jpg` | Cullen Skink | Hero | Cullen Skink - Depot Cinema and Restaurant 2025-03-06 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cullen_Skink_-_Depot_Cinema_and_Restaurant_2025-03-06.jpg) |
+| `cullen-skink-process.webp` / `.jpg` | Cullen Skink | Process | Cullen Skink 01 - Feb 27, 2015 | Iain Cameron | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cullen_Skink_01_-_Feb_27,_2015.jpg) |
+| `haggis-neeps-tatties.webp` / `.jpg` | Haggis, Neeps and Tatties | Hero | Haggis, neeps and tatties at The Cramond Inn, Edinburgh (2660769244) | Edinburgh Blog | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties_at_The_Cramond_Inn,_Edinburgh_(2660769244).jpg) |
+| `bara-brith.webp` / `.jpg` | Bara Brith | Hero | Bara Brith | Matthew R Dunn | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bara_Brith.jpg) |
+| `bara-brith-process.webp` / `.jpg` | Bara Brith | Process | Bara Brith (3320696816) | zingyyellow...! from Wales Cymru UK | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bara_Brith_(3320696816).jpg) |
+| `schnitzel.webp` / `.jpg` | German Pork Schnitzel | Hero | Wiener Schnitzel, Aachen | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wiener_Schnitzel,_Aachen.jpg) |
+| `bratwurst.webp` / `.jpg` | Bratwurst with Sauerkraut | Hero | Sauerkraut and mustard on grilled bratwurst - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sauerkraut_and_mustard_on_grilled_bratwurst_-_Massachusetts.jpg) |
+| `bratwurst-process.webp` / `.jpg` | Bratwurst with Sauerkraut | Process | WV German banner Beer bratwurst sauerkraut | Ypsilon from Finland | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WV_German_banner_Beer_bratwurst_sauerkraut.jpg) |
+| `pretzel-brezel.webp` / `.jpg` | Bavarian Brezel | Hero | Bavarian pretzels🥨 | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bavarian_pretzels%F0%9F%A5%A8.jpg) |
+| `apple-strudel.webp` / `.jpg` | Apple Strudel | Hero | Apfelstrudel et glace vanille | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apfelstrudel_et_glace_vanille.jpg) |
+| `apple-strudel-process.webp` / `.jpg` | Apple Strudel | Process | Apfelstrudel im Collegium in Tübingen | Dktue | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apfelstrudel_im_Collegium_in_T%C3%BCbingen.jpg) |
+| `sachertorte.webp` / `.jpg` | Sachertorte | Hero | 01 Sachertorte | Jennifer Woodard Maderazo | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:01_Sachertorte.jpg) |
+| `kaiserschmarrn.webp` / `.jpg` | Kaiserschmarrn | Hero | Kaiserschmarrn, Munich | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaiserschmarrn,_Munich.jpg) |
+| `kaiserschmarrn-process.webp` / `.jpg` | Kaiserschmarrn | Process | Kaiserschmarrn-mitPreiselbeeren | Hans-Werner Roth | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaiserschmarrn-mitPreiselbeeren.jpg) |
+| `rosti.webp` / `.jpg` | Rösti | Hero | GV Fribourg BR Rösti | Stefan Gall | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GV_Fribourg_BR_R%C3%B6sti.jpg) |
+| `rosti-process.webp` / `.jpg` | Rösti | Process | Sweet potato rosti - Malt Cafe 2026-01-14 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sweet_potato_rosti_-_Malt_Cafe_2026-01-14.jpg) |
+| `carbonnade-flamande.webp` / `.jpg` | Carbonnade Flamande | Hero | Carbonnade flamande à la bière | Francisco Antunes | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carbonnade_flamande_%C3%A0_la_bi%C3%A8re.jpg) |
+| `belgian-frites.webp` / `.jpg` | Belgian Frites | Hero | Belgian fries with sauce andalouse in Brussels | CCPictureHunters WikipediaShare | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Belgian_fries_with_sauce_andalouse_in_Brussels.jpg) |
+| `belgian-frites-process.webp` / `.jpg` | Belgian Frites | Process | HK SKD TKO South 將軍澳南海濱 Tseung Kwan O South Promenade 澳南海岸 O'South Coast restaurants February 2024 R12S 20 Frites | Hongang PettyHtan Loong01 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_South_%E5%B0%87%E8%BB%8D%E6%BE%B3%E5%8D%97%E6%B5%B7%E6%BF%B1_Tseung_Kwan_O_South_Promenade_%E6%BE%B3%E5%8D%97%E6%B5%B7%E5%B2%B8_O%27South_Coast_restaurants_February_2024_R12S_20_Frites.jpg) |
 
 ---
 

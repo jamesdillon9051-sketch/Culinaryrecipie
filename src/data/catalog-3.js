@@ -77,7 +77,7 @@ module.exports = [
   c('pulled-pork', 'Carolina Pulled Pork', 'American', 'Dinner', 'Medium', 25, 360, 10, 4.9, 4122, ['Gluten-Free'], ['editors'], 'Pulled pork'),
   c('brisket', 'Texas Smoked Brisket', 'American', 'Dinner', 'Hard', 30, 600, 12, 4.9, 3644, ['Gluten-Free'], [], 'Smoked brisket'),
   c('cioppino', 'Cioppino', 'American', 'Dinner', 'Medium', 25, 40, 6, 4.8, 1866, ['Dairy-Free'], [], 'Cioppino'),
-  c('sloppy-joes', 'Sloppy Joes', 'American', 'Quick Meals', 'Easy', 10, 25, 6, 4.6, 1866, [], [], 'Sloppy joe'),
+  c('sloppy-joes', 'Sloppy Joes', 'American', 'Quick Meals', 'Easy', 10, 25, 6, 4.6, 1866, [], [], 'Sloppy joe sandwich'),
   c('corn-dogs', 'Corn Dogs', 'American', 'Quick Meals', 'Easy', 15, 15, 8, 4.6, 1544, [], [], 'Corn dog'),
   c('philly-soft-pretzel', 'Philadelphia Soft Pretzels', 'American', 'Baking', 'Medium', 90, 15, 8, 4.7, 1322, ['Vegetarian'], [], 'Soft pretzel'),
   c('boston-cream-pie', 'Boston Cream Pie', 'American', 'Desserts', 'Medium', 40, 30, 10, 4.7, 1644, ['Vegetarian'], [], 'Boston cream pie'),
