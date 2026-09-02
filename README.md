@@ -295,9 +295,24 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-Anything still without a photograph falls back to a CSS gradient carrying the
-recipe name, the same fallback that catches any image that fails to load at
-runtime.
+418 of the 600 recipes have a photograph. Of the 590 images on the site, 562
+are CC0 or public domain and 28 are CC BY. Anything still without one falls back
+to a CSS gradient carrying the recipe name, the same fallback that catches any
+image that fails to load at runtime.
+
+Every candidate is opened and looked at before it ships. That is not belt and
+braces — it is the only check that has ever worked. Every wrong photograph found
+in this project scored a perfect 1.00 on relevance: a hot chocolate photographed
+inside a shop called Cornish Pasty, a doughnut flavoured with horchata, a rock
+band called Psychedelic Porn Crumpets, a Karelian Bear Dog, and a Rijksmuseum
+drawing of a lion for lion's head meatballs. The filters in
+`tools/fetch_images.py` each encode one of those mistakes and stop it recurring;
+none of them would have caught the next one.
+
+Where a dish is named after a place, a band or an animal, the durable fix is the
+query rather than a filter. Sloppy joes asks for the sandwich, because the bare
+name returns a bar in Key West; lion's head meatballs asks for shizitou, because
+the English name returns lions.
 
 The rest of the gaps are dishes where a search loose enough to find something
 starts returning things that are not the dish at all — a cargo ship for sangria,
