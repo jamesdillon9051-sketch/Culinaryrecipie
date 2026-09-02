@@ -601,11 +601,12 @@ def names_the_venue_not_the_dish(title, query):
 # between them, so they are two searches. "unrestricted" is CC0 and public
 # domain; "attribution" is CC BY. Unrestricted is asked first everywhere,
 # because an image with no conditions is worth preferring to one with them.
-# CirrusSearch has a bucket for CC0/public domain and one for CC BY, and none
-# for ShareAlike — every spelling of haslicense:...sharealike returns nothing.
-# The third tier drops the filter and leans on the licence re-validation every
-# result goes through anyway, which is the authority here in any case.
-LICENCE_FILTERS = ("haslicense:unrestricted", "haslicense:attribution", "")
+# Two tiers, not three. CirrusSearch has no ShareAlike bucket, so the second
+# tier has to be an unfiltered search re-validated by licence — and that search
+# already returns everything the CC BY bucket would have, which made the middle
+# tier pure cost: six searches a query where four will do. Preference for an
+# unencumbered image is kept in rank() below rather than in the query.
+LICENCE_FILTERS = ("haslicense:unrestricted", "")
 
 
 def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0], tags=()):
@@ -755,7 +756,13 @@ def gather(query, tags=()):
         # original behind it can be 20 MB and comes with a ten-minute
         # Retry-After. Same picture, so never pick the expensive copy first.
         original = 0 if "/thumb/" in c["url"] else 1
-        return (-round(c["score"], 2), original, 1 if throttled(c["url"]) else 0)
+        # An image with no conditions beats one needing a credit, which beats
+        # one whose conditions reach our own copy. Equal relevance only — this
+        # never promotes a worse photograph of the dish.
+        licence = 0 if not NEEDS_CREDIT.match(c["licence"] or "") else (
+            2 if SHARE_ALIKE.search(c["licence"] or "") else 1)
+        return (-round(c["score"], 2), licence, original,
+                1 if throttled(c["url"]) else 0)
 
     pool.sort(key=rank)
     return pool
