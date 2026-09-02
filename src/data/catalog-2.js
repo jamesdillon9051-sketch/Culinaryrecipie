@@ -124,7 +124,7 @@ module.exports = [
   c('onion-rings', 'Beer-Battered Onion Rings', 'American', 'Appetizers', 'Easy', 15, 15, 4, 4.7, 1877, ['Vegetarian'], [], 'Onion rings'),
   c('mozzarella-sticks', 'Mozzarella Sticks', 'American', 'Appetizers', 'Easy', 25, 10, 6, 4.7, 2133, ['Vegetarian'], [], 'Mozzarella sticks'),
   c('creamy-coleslaw', 'Creamy Coleslaw', 'American', 'Healthy', 'Easy', 15, 0, 8, 4.6, 1755, ['Vegetarian', 'Gluten-Free'], [], 'Coleslaw'),
-  c('classic-potato-salad', 'Classic Potato Salad', 'American', 'Lunch', 'Easy', 20, 20, 8, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Potato salad'),
+  c('classic-potato-salad', 'Classic Potato Salad', 'American', 'Lunch', 'Easy', 20, 20, 8, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Potato salad bowl mayonnaise'),
   c('boston-baked-beans', 'Boston Baked Beans', 'American', 'Lunch', 'Easy', 15, 240, 8, 4.6, 1122, ['Dairy-Free'], [], 'Baked beans'),
   c('classic-omelette', 'Three-Egg Omelette', 'American', 'Breakfast', 'Medium', 5, 5, 1, 4.8, 3411, ['Vegetarian', 'Gluten-Free', 'Low-Carb', 'Keto'], [], 'Omelette'),
   c('hash-browns', 'Crispy Hash Browns', 'American', 'Breakfast', 'Easy', 15, 15, 4, 4.8, 2955, ['Vegetarian', 'Gluten-Free'], [], 'Hash browns'),
@@ -137,7 +137,7 @@ module.exports = [
   c('pecan-pie', 'Pecan Pie', 'American', 'Desserts', 'Medium', 25, 55, 8, 4.8, 2411, ['Vegetarian'], [], 'Pecan pie'),
   c('lemon-meringue-pie', 'Lemon Meringue Pie', 'American', 'Desserts', 'Hard', 35, 45, 8, 4.7, 2133, ['Vegetarian'], [], 'Lemon meringue pie'),
   c('smores', "S'mores", 'American', 'Desserts', 'Easy', 5, 5, 4, 4.7, 1877, ['Vegetarian'], [], 'Smores'),
-  c('vanilla-cupcakes', 'Vanilla Cupcakes', 'American', 'Baking', 'Easy', 20, 20, 12, 4.8, 3044, ['Vegetarian'], [], 'Cupcakes'),
+  c('vanilla-cupcakes', 'Vanilla Cupcakes', 'American', 'Baking', 'Easy', 20, 20, 12, 4.8, 3044, ['Vegetarian'], [], 'Vanilla cupcake buttercream frosting'),
   c('chocolate-milkshake', 'Chocolate Milkshake', 'American', 'Drinks', 'Easy', 5, 0, 2, 4.7, 1966, ['Vegetarian', 'Gluten-Free'], [], 'Milkshake'),
 
   /* ---------------------------------------------------------- British (10) */
@@ -247,7 +247,7 @@ module.exports = [
   c('fried-plantain', 'Fried Sweet Plantain', 'Jamaican', 'Quick Meals', 'Easy', 5, 10, 4, 4.7, 1755, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Fried plantain'),
 
   /* ------------------------------------------ International & drinks (11) */
-  c('poke-bowl', 'Ahi Poke Bowl', 'International', 'Healthy', 'Easy', 20, 0, 2, 4.8, 2544, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Poke bowl'),
+  c('poke-bowl', 'Ahi Poke Bowl', 'International', 'Healthy', 'Easy', 20, 0, 2, 4.8, 2544, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Ahi tuna poke bowl'),
   c('acai-bowl', 'Açaí Bowl', 'International', 'Breakfast', 'Easy', 10, 0, 2, 4.7, 2133, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Acai bowl'),
   c('chia-pudding', 'Chia Pudding', 'International', 'Healthy', 'Easy', 8, 0, 2, 4.6, 1622, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Chia pudding'),
   c('granola', 'Maple Pecan Granola', 'International', 'Breakfast', 'Easy', 10, 35, 12, 4.8, 2277, ['Vegan', 'Dairy-Free'], [], 'Granola'),

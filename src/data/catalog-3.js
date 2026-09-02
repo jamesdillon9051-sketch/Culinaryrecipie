@@ -100,7 +100,7 @@ module.exports = [
   c('cranachan', 'Cranachan', 'Scottish', 'Desserts', 'Easy', 20, 5, 4, 4.7, 944, ['Vegetarian', 'Gluten-Free'], [], 'Cranachan'),
 
   /* ------------------------------------------------------------ Welsh (2) */
-  c('cawl', 'Welsh Cawl', 'Welsh', 'Dinner', 'Easy', 25, 120, 6, 4.6, 622, ['Gluten-Free'], [], 'Welsh cawl'),
+  c('cawl', 'Welsh Cawl', 'Welsh', 'Dinner', 'Easy', 25, 120, 6, 4.6, 622, ['Gluten-Free'], [], 'Cawl cymreig lamb broth'),
   c('bara-brith', 'Bara Brith', 'Welsh', 'Baking', 'Easy', 20, 75, 10, 4.6, 588, ['Vegetarian'], [], 'Bara brith'),
 
   /* ----------------------------------------------------------- German (4) */
@@ -162,7 +162,7 @@ module.exports = [
 
   /* --------------------------------------------------------- Romanian (2) */
   c('sarmale', 'Sarmale', 'Romanian', 'Dinner', 'Medium', 45, 150, 8, 4.7, 744, [], [], 'Sarmale'),
-  c('mici', 'Mici', 'Romanian', 'Dinner', 'Easy', 30, 15, 6, 4.6, 588, ['Gluten-Free', 'Dairy-Free'], [], 'Mici romanian'),
+  c('mici', 'Mici', 'Romanian', 'Dinner', 'Easy', 30, 15, 6, 4.6, 588, ['Gluten-Free', 'Dairy-Free'], [], 'Mititei grill romanian'),
 
   /* --------------------------------------------------------- Georgian (3) */
   c('khachapuri', 'Adjaruli Khachapuri', 'Georgian', 'Baking', 'Medium', 90, 20, 4, 4.9, 2644, ['Vegetarian'], ['trending'], 'Khachapuri'),

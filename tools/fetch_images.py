@@ -81,6 +81,9 @@ BAD_TOKENS = re.compile(
     # The people, not the plate. "Vendedoras de horchata" is a 19th-century oil
     # painting of women selling it.
     r"vendedor|vendeur|vendedora|seller|vendor|hawker|selling|"
+    # A grave, not a plate. Romanian "mici" also means "small ones", and what
+    # came back was a composer's headstone banked with small begonias.
+    r"\bgrave\b|cemeter|\btomb\b|headstone|mormant|mormânt|compozitor|memorial|"
     # A band named after the dish. "Psychedelic Porn Crumpets" is a real group
     # and the photograph is of a guitarist mid-solo.
     # Acts named after food. There is no general signal for these — the title

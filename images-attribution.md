@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 643
-images, **586** are CC0 or public domain and carry no conditions at all, and
-**57** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 672
+images, **601** are CC0 or public domain and carry no conditions at all, and
+**71** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,26 +42,26 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 457 |
-| Secondary "process" images | 186 |
-| Total image files | 1286 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 143 |
+| Hero images | 478 |
+| Secondary "process" images | 194 |
+| Total image files | 1344 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 122 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 321 | No rights reserved — no attribution legally required |
+| CC0 | 332 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
-| Public domain | 54 | No rights reserved — no attribution legally required |
+| Public domain | 58 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 31 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 32 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 4.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 | 7 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 4.0 | 7 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 4.0 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.5 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 3.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 2.5 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 4.0 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 3.0 nl | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
 
@@ -93,39 +93,18 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Toad in the Hole (`toad-in-the-hole`)
 - Greek Keftedes (`keftedes`)
 - Mujadara (`mujadara`)
-- Maqluba (`maqluba`)
 - Cheese Börek (`borek`)
 - Fabada Asturiana (`fabada-asturiana`)
 - Bacalhau à Brás (`bacalhau-a-bras`)
 - Samgyetang (`samgyetang`)
 - Pão de Queijo (`pao-de-queijo`)
-- Olivier Salad (`olivier-salad`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Lion's Head Meatballs (`lion-head-meatballs`)
 - Welsh Cawl (`cawl`)
-- Karelian Pies (`karelian-pies`)
-- Lohikeitto (`salmon-soup-lohikeitto`)
-- Toast Skagen (`toast-skagen`)
-- Bigos (`bigos`)
-- Żurek (`zurek`)
-- Svíčková (`svickova`)
-- Trdelník (`trdelnik`)
-- Pelmeni (`pelmeni`)
-- Chicken Paprikash (`chicken-paprikash`)
-- Lángos (`langos`)
-- Sarmale (`sarmale`)
 - Mici (`mici`)
-- Adjaruli Khachapuri (`khachapuri`)
-- Khinkali (`khinkali`)
 - Lobio (`lobio`)
 - Greek Lemon Potatoes (`greek-lemon-potatoes`)
-- Dolmades (`dolmades`)
 - Greek Yoghurt with Honey and Walnuts (`greek-yogurt-honey`)
-- İskender Kebab (`iskender-kebab`)
-- Turkish Lentil Soup (`turkish-lentil-soup`)
-- Künefe (`kunefe`)
-- Shish Taouk (`shish-taouk`)
-- Moutabal (`moutabal`)
 - Maamoul (`maamoul`)
 - Ghormeh Sabzi (`ghormeh-sabzi`)
 - Fesenjan (`fesenjan`)
@@ -679,6 +658,8 @@ licence as the rest of this project.
 | `fasolada-process.webp` / `.jpg` | Fasolada | Process | Yummy bean and noodle soup at Sciue | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/60973633) |
 | `galaktoboureko.webp` / `.jpg` | Galaktoboureko | Hero | Galaktoboureko | Badseed | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Galaktoboureko.jpg) |
 | `loukoumades.webp` / `.jpg` | Loukoumades | Hero | honey coated fritter-Gala Seafood Restaurant 26nov05 - 8 | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/68218950) |
+| `maqluba.webp` / `.jpg` | Maqluba | Hero | Modern Iraqi maqluba with two different rice colors | Ghazwan Mattoka | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Modern_Iraqi_maqluba_with_two_different_rice_colors.jpg) |
+| `maqluba-process.webp` / `.jpg` | Maqluba | Process | طبخة المقلوبة Maqluba | Ramadan9044 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B7%D8%A8%D8%AE%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D9%84%D9%88%D8%A8%D8%A9_Maqluba.jpg) |
 | `kibbeh.webp` / `.jpg` | Baked Kibbeh | Hero | Fried lamb kibbeh 1 | Dr. Bernd Gross | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fried_lamb_kibbeh_1.JPG) |
 | `labneh.webp` / `.jpg` | Labneh with Za'atar | Hero | Labneh (5196911587) | Leslie Seaton from Seattle, WA, USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Labneh_(5196911587).jpg) |
 | `labneh-process.webp` / `.jpg` | Labneh with Za'atar | Process | Labneh (9328907408) | Karen and Brad Emerson | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Labneh_(9328907408).jpg) |
@@ -738,6 +719,7 @@ licence as the rest of this project.
 | `chicken-kiev.webp` / `.jpg` | Chicken Kiev | Hero | Chicken kiev | Jon Sullivan | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_kiev.jpg) |
 | `blini.webp` / `.jpg` | Blini with Soured Cream | Hero | Blini Tanya | The original uploader was Hugo.arg at Lithuanian Wikipedia. | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blini_Tanya.jpg) |
 | `blini-process.webp` / `.jpg` | Blini with Soured Cream | Process | Slicing Pancakes with Fork 374819 | Shared Food | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Slicing_Pancakes_with_Fork_374819.jpg) |
+| `olivier-salad.webp` / `.jpg` | Olivier Salad | Hero | Russian Olivier salad | AlMare | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Russian_Olivier_salad.jpg) |
 | `golabki.webp` / `.jpg` | Gołąbki | Hero | Cabbage rolls in oven pan | Kotivalo | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cabbage_rolls_in_oven_pan.jpg) |
 | `spaetzle.webp` / `.jpg` | Käsespätzle | Hero | Käsespätzle Wurstküche Tübingen | Dktue | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:K%C3%A4sesp%C3%A4tzle_Wurstk%C3%BCche_T%C3%BCbingen.jpg) |
 | `sauerbraten.webp` / `.jpg` | Sauerbraten | Hero | Sauerbraten with potato dumplings | Jameres | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg) |
@@ -877,7 +859,33 @@ licence as the rest of this project.
 | `frikadeller-process.webp` / `.jpg` | Frikadeller | Process | Frikadeller og stuvet hvidkål | Nillerdk | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frikadeller_og_stuvet_hvidk%C3%A5l.jpg) |
 | `norwegian-fish-soup.webp` / `.jpg` | Norwegian Fish Soup | Hero | Fish soup in Bergen | Flickr user: Tu Grand Forks, ND, USA https://www.flickr.com/people/tuey/ | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fish_soup_in_Bergen.jpg) |
 | `krumkake.webp` / `.jpg` | Krumkake | Hero | Krumkake panorama | NorskPower | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Krumkake_panorama.jpg) |
+| `karelian-pies.webp` / `.jpg` | Karelian Pies | Hero | Karjalanpiirakka (Karelian pies) | Armineaghayan | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Karjalanpiirakka_(Karelian_pies).jpg) |
+| `salmon-soup-lohikeitto.webp` / `.jpg` | Lohikeitto | Hero | Finnish salmon soup | JIP | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Finnish_salmon_soup.jpg) |
 | `prinsesstarta.webp` / `.jpg` | Prinsesstårta | Hero | Princess Cake 2025-Oct-02 | MarcellusW | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Princess_Cake_2025-Oct-02.jpg) |
+| `toast-skagen.webp` / `.jpg` | Toast Skagen | Hero | Toast Skagen on a plate | Apinanaivot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toast_Skagen_on_a_plate.jpg) |
+| `bigos.webp` / `.jpg` | Bigos | Hero | Bigos-445017 | bykst | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bigos-445017.jpg) |
+| `bigos-process.webp` / `.jpg` | Bigos | Process | Bigos hultajski | Szczeniowski, Tytus (1808-1880) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bigos_hultajski.png) |
+| `zurek.webp` / `.jpg` | Żurek | Hero | Food of Poland - żurek soup served in bread | Chris Olszewski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_of_Poland_-_%C5%BCurek_soup_served_in_bread.jpg) |
+| `svickova.webp` / `.jpg` | Svíčková | Hero | Svíčková a Perner 🍺 v Pardubickém Momentu | Ladabohac | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sv%C3%AD%C4%8Dkov%C3%A1_a_Perner_%F0%9F%8D%BA_v_Pardubick%C3%A9m_Momentu.jpg) |
+| `svickova-process.webp` / `.jpg` | Svíčková | Process | Svíčková omáčka 20240810 120242 | IMG 4512 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sv%C3%AD%C4%8Dkov%C3%A1_om%C3%A1%C4%8Dka_20240810_120242.jpg) |
+| `trdelnik.webp` / `.jpg` | Trdelník | Hero | Trdelnik Praha | MOs810 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trdelnik_Praha.JPG) |
+| `pelmeni.webp` / `.jpg` | Pelmeni | Hero | Mini-Pelmeni | Brücke-Osteuropa | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mini-Pelmeni.JPG) |
+| `pelmeni-process.webp` / `.jpg` | Pelmeni | Process | Moscow, TC Gagarinsky Feb.2025 - Auchan - Pelmeni 01 | Retired electrician | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moscow,_TC_Gagarinsky_Feb.2025_-_Auchan_-_Pelmeni_01.jpg) |
+| `chicken-paprikash.webp` / `.jpg` | Chicken Paprikash | Hero | Bratislava - Chicken Paprikash | Hemant Bedekar | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bratislava_-_Chicken_Paprikash.jpg) |
+| `langos.webp` / `.jpg` | Lángos | Hero | Budapest, Békásmegyer, piac, bolognai lángos | Random photos 1989 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Budapest,_B%C3%A9k%C3%A1smegyer,_piac,_bolognai_l%C3%A1ngos.jpg) |
+| `langos-process.webp` / `.jpg` | Lángos | Process | Budapest, Békásmegyer, piac, sajtos-tejfölös lángos | Random photos 1989 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Budapest,_B%C3%A9k%C3%A1smegyer,_piac,_sajtos-tejf%C3%B6l%C3%B6s_l%C3%A1ngos.jpg) |
+| `sarmale.webp` / `.jpg` | Sarmale | Hero | Sarmale | No machine-readable author provided. Zserghei assumed (based on copyright claims). | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sarmale.jpg) |
+| `khachapuri.webp` / `.jpg` | Adjaruli Khachapuri | Hero | Adjarian Khachapuri. Saint Petersburg, 2024-07-24 | Bestalex | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri._Saint_Petersburg,_2024-07-24.jpg) |
+| `khinkali.webp` / `.jpg` | Khinkali | Hero | Kazbegi, Khinkali, Georgia | Vyacheslav Argenberg | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kazbegi,_Khinkali,_Georgia.jpg) |
+| `khinkali-process.webp` / `.jpg` | Khinkali | Process | Tbilisi, Khachapuri and khinkali, Georgian traditional food, Georgia | Vyacheslav Argenberg | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tbilisi,_Khachapuri_and_khinkali,_Georgian_traditional_food,_Georgia.jpg) |
+| `dolmades.webp` / `.jpg` | Dolmades | Hero | Dolmades with Tomato Wedges (5045976611) | Geoff Peters from Vancouver, BC, Canada | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dolmades_with_Tomato_Wedges_(5045976611).jpg) |
+| `iskender-kebab.webp` / `.jpg` | İskender Kebab | Hero | Iskender kebap | Lakerda at English Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iskender_kebap.jpg) |
+| `turkish-lentil-soup.webp` / `.jpg` | Turkish Lentil Soup | Hero | Kapellenstraße München — mercimek çorbası — afiyet olsun 20201210 215041 | no bias — קיין אומוויסנדיקע פּרעפֿערענצן — keyn umvisndike | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kapellenstra%C3%9Fe_M%C3%BCnchen_%E2%80%94_mercimek_%C3%A7orbas%C4%B1_%E2%80%94_afiyet_olsun_20201210_215041.jpg) |
+| `turkish-lentil-soup-process.webp` / `.jpg` | Turkish Lentil Soup | Process | Mercimek çorbasi | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg) |
+| `kunefe.webp` / `.jpg` | Künefe | Hero | 20250206 Künefe in Tarsus | Basak | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20250206_K%C3%BCnefe_in_Tarsus.jpg) |
+| `shish-taouk.webp` / `.jpg` | Shish Taouk | Hero | Armenian Shish taouk (Carousel Restaurant Hollywood) July 2023 | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Armenian_Shish_taouk_(Carousel_Restaurant_Hollywood)_July_2023.JPG) |
+| `shish-taouk-process.webp` / `.jpg` | Shish Taouk | Process | Raw Shish Taouk | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Raw_Shish_Taouk.JPG) |
+| `moutabal.webp` / `.jpg` | Moutabal | Hero | متبل Mutabbal (Las Siete Orillas project) | El Mono Español | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%85%D8%AA%D8%A8%D9%84_Mutabbal_(Las_Siete_Orillas_project).jpg) |
 
 ---
 

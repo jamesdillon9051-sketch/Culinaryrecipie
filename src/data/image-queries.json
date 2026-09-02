@@ -232,7 +232,8 @@
     "causa rellena"
   ],
   "cawl": [
-    "cawl cymreig"
+    "cawl cymreig",
+    "welsh lamb and leek broth"
   ],
   "cha-gio": [
     "fried spring rolls plate",
@@ -311,9 +312,8 @@
     "cioppino seafood stew"
   ],
   "classic-potato-salad": [
-    "potato salad bowl",
-    "creamy potato salad",
-    "potato salad dill"
+    "kartoffelsalat",
+    "potato salad with dill and mayonnaise"
   ],
   "classic-waffles": [
     "waffles plate",
@@ -816,8 +816,8 @@
     "spanish rice bowl"
   ],
   "mici": [
-    "mititei",
-    "mici românești"
+    "mititei mici gratar",
+    "romanian grilled minced rolls"
   ],
   "milanesa": [
     "milanesa a la napolitana"
@@ -990,9 +990,8 @@
     "poffertjes met poedersuiker"
   ],
   "poke-bowl": [
-    "poke bowl tuna",
     "ahi poke",
-    "raw tuna rice bowl"
+    "tuna poke bowl rice"
   ],
   "popcorn-chicken-taiwanese": [
     "鹹酥雞",
@@ -1286,6 +1285,10 @@
   "vada-pav": [
     "वडा पाव",
     "wada pav"
+  ],
+  "vanilla-cupcakes": [
+    "vanilla cupcakes frosted",
+    "cupcakes with buttercream swirl"
   ],
   "victoria-sponge": [
     "sponge cake jam cream",
