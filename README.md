@@ -280,19 +280,29 @@ result** rather than trusting the search filter. Candidates are scored for
 relevance against the dish name, and archival material, illustrations, packaging
 shots and portraits are rejected.
 
-349 of the 400 recipes in volumes one and two have photography. Volume three is
-still being worked through: Wikimedia has been rate limiting this network hard
-enough that the pipeline runs at roughly one recipe a minute, so most of those
-200 are on the placeholder for now. Anything without a photograph falls back to a
-CSS gradient carrying the recipe name — the same fallback that catches any image
-that fails to load at runtime.
+385 of the 600 recipes have photography — 354 of volumes one and two, 31 of
+volume three, which is still being worked through. Anything without one falls
+back to a CSS gradient carrying the recipe name, the same fallback that catches
+any image that fails to load at runtime.
 
-Some of the gaps are permanent rather than pending. The CC0 and public-domain
-archives simply do not hold a correct photograph of every dish, and a search that
-is loosened enough to find one starts returning things that are not the dish at
-all — a cargo ship for sangria, a toad for toad-in-the-hole. Those recipes are
-pinned with `"skip": true` in `src/data/images.json` so the pipeline leaves them
-alone. A wrong photograph is worse than an honest placeholder.
+Some of the 215 gaps are permanent rather than pending, and for a reason worth
+stating plainly: **the constraint is the licence, not the search.** Commons holds
+plenty of photographs of khinkali, tahdig and ash reshteh — every one of them
+CC BY or CC BY-SA. Filtering to CC0 and public domain leaves nothing, and no
+amount of retrying changes that. Widening the licence would raise coverage a
+long way, at the cost of the attribution-free promise at the top of this
+section; that is a trade this project has not made.
+
+The rest of the gaps are dishes where a search loose enough to find something
+starts returning things that are not the dish at all — a cargo ship for sangria,
+a toad for toad-in-the-hole. Those are pinned with `"skip": true` in
+`src/data/images.json` so the pipeline leaves them alone. A wrong photograph is
+worse than an honest placeholder.
+
+Dishes whose own name differs from the English one carry fallback queries in
+`src/data/image-queries.json` — a native-script spelling, another
+romanisation, or the name the dish goes by elsewhere. Those are alternate names
+only, never categories: "Georgian dumplings" would match any dumpling.
 
 To fill in the rest, re-run `npm run images`. It is resumable and it only ever
 looks at recipes whose hero is still missing, so it can be run as often as the
