@@ -4779,6 +4779,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/soupe-au-pistou.jpg</image:loc>
+      <image:title>Soupe au Pistou</image:title>
+      <image:caption>Soupe au Pistou — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/coquilles-saint-jacques/</loc>
@@ -5049,6 +5054,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/enchiladas-verdes.jpg</image:loc>
+      <image:title>Enchiladas Verdes</image:title>
+      <image:caption>Enchiladas Verdes — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/aguachile/</loc>
@@ -5112,6 +5122,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/philly-soft-pretzel.jpg</image:loc>
+      <image:title>Philadelphia Soft Pretzels</image:title>
+      <image:caption>Philadelphia Soft Pretzels — American baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/boston-cream-pie/</loc>

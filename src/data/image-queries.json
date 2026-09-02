@@ -177,6 +177,11 @@
     "brioche a tete",
     "sweet enriched bread loaf"
   ],
+  "brisket": [
+    "texas brisket sliced",
+    "smoked beef brisket bark",
+    "barbecue brisket plate"
+  ],
   "bubble-tea": [
     "boba tea cup",
     "bubble tea tapioca pearls",
@@ -1037,6 +1042,7 @@
   ],
   "reuben-sandwich": [
     "reuben sandwich",
+    "pastrami on rye reuben",
     "corned beef sauerkraut sandwich",
     "grilled rye sandwich"
   ],

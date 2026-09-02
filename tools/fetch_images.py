@@ -59,6 +59,9 @@ BAD_TOKENS = re.compile(
     # soupe de pistou" scores 1.00 against "Soupe au pistou" and is a basket of
     # vegetables in a garden with a chicken walking past.
     r"ingr[ée]dient|ingredienti|ingredientes|zutaten|mise en place|"
+    # The people, not the plate. "Vendedoras de horchata" is a 19th-century oil
+    # painting of women selling it.
+    r"vendedor|vendeur|vendedora|seller|vendor|hawker|selling|"
     r"uncooked|before cooking|raw ingredients|"
     # An archival date, standalone and old enough to mean a historical scan.
     r"\b1[0-8][0-9]{2}\b|\b19[0-5][0-9]\b|"
@@ -359,12 +362,67 @@ OTHER_FORM = re.compile(
     r"cocktails?|liqueur|syrup|powder|mix|kit|flavou?r(?:ed|ing)?)\b", re.I)
 
 
+# Preparations that are made from the same cut and are not the same dish.
+# Pastrami is brisket — cured, spiced and steamed rather than smoked — so "Pit
+# smoked pastrami brisket" matches "smoked brisket" perfectly and shows pink
+# deli meat on rye. A recipe that really wants one of these names it in its own
+# queries, which exempts it.
+DIFFERENT_DISH = re.compile(r"\b(pastrami|corned beef|bresaola|prosciutto|jerky)\b", re.I)
+
+
+def names_a_different_dish(title, query):
+    return bool(DIFFERENT_DISH.search(title or "")) and not DIFFERENT_DISH.search(query or "")
+
+
 def is_a_flavour_of_something_else(title, query):
     """True when the title names a different form of food — a doughnut, an ice cream —
     that the query never asked for. The dish is then the flavour, not the
     subject."""
     match = OTHER_FORM.search(title or "")
     return bool(match) and not OTHER_FORM.search(query or "")
+
+
+# Narrower than SEGMENTS: a full stop does not separate two foods. "Enchiladas
+# de carnitas de pato. Salsa de pipián verde." is one dish described in two
+# sentences, where "Corn, chicago dog and Mac and cheese" is three dishes in a
+# list. The comma is the signal, not the stop.
+COHERE_SPLIT = re.compile(r"[,;|/]+|\s[-\u2013\u2014]\s")
+
+
+def _same_word(a, b):
+    """Word equality that tolerates a plural but not a coincidence: "dog" is
+    "dogs", "pie" is not "pierogi". Scripts written without word breaks fall
+    back to containment, since the whole title is one token there."""
+    if a == b:
+        return True
+    if not a.isascii() or not b.isascii():
+        return a in b or b in a
+    short, long = sorted((a, b), key=len)
+    return long.startswith(short) and len(long) - len(short) <= 2
+
+
+def dish_words_cohere(title, query):
+    """For a dish whose name is more than one word, those words have to appear
+    together in one clause of the title.
+
+    "Corn, chicago dog and Mac and cheese" matches every word of "corn dogs"
+    and is a photograph of a Chicago hot dog next to corn on the cob. The words
+    are there; the dish is not. Requiring them inside a single comma-delimited
+    clause separates the two cases."""
+    wanted = strong(query)
+    if len(wanted) < 2:
+        return True
+    present = {t for t in wanted for w in tokens(title or "") if _same_word(t, w)}
+    if len(present) < 2:
+        # Only one of the dish's words is here at all, so nothing is scattered
+        # — "Almond bakewell" is a partial name, not a coincidence of two
+        # different foods. The relevance score already grades that case.
+        return True
+    for segment in COHERE_SPLIT.split(title or ""):
+        seen = {t for t in wanted for w in tokens(segment) if _same_word(t, w)}
+        if len(seen) >= 2:
+            return True
+    return False
 
 
 def shares_dish_word(title, query):
@@ -409,8 +467,11 @@ VENUE = re.compile(
 # "Bowl of ramen" is not, and the venue-adjacency rule below already catches the
 # first without throwing away the second.
 LOCATION = {"in", "at", "inside", "outside", "near", "from", "by"}
-# Titles are written as clauses: "<what it shows> - <where it was taken>".
-SEGMENTS = re.compile(r"[,\-\u2013\u2014:;()/|]+")
+# Titles are written as clauses: "<what it shows> - <where it was taken>". Only
+# a *spaced* dash separates clauses — Commons uses bare hyphens as word
+# separators in filenames, and splitting on those turned "Sloppy-Joes-Bar-01"
+# into four one-word clauses, so "Joes" was never seen next to "Bar".
+SEGMENTS = re.compile(r"[,:;()\[\]|/]+|\s[-\u2013\u2014]\s|\.\s")
 
 
 def names_the_venue_not_the_dish(title, query):
@@ -481,6 +542,10 @@ def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0]):
         if names_the_venue_not_the_dish(title, query):
             continue
         if is_a_flavour_of_something_else(title, query):
+            continue
+        if not dish_words_cohere(title, query):
+            continue
+        if names_a_different_dish(title, query):
             continue
         if info.get("width", 0) < 500 or info.get("height", 0) < 380:
             continue

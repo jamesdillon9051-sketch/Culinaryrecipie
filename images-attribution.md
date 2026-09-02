@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 548
-images, **543** are CC0 or public domain and carry no conditions at all, and
-**5** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 552
+images, **544** are CC0 or public domain and carry no conditions at all, and
+**8** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,22 +36,23 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 390 |
-| Secondary "process" images | 158 |
-| Total image files | 1096 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 210 |
+| Hero images | 393 |
+| Secondary "process" images | 159 |
+| Total image files | 1104 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 207 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 283 | No rights reserved — no attribution legally required |
+| CC0 | 284 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
 | Public domain | 39 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
+| CC BY 4.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
 
 Licence texts:
 
@@ -113,13 +114,10 @@ CC BY image of sufficient quality and relevance could be found:
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Ragù Napoletano (`ragu-napoletano`)
-- Soupe au Pistou (`soupe-au-pistou`)
-- Enchiladas Verdes (`enchiladas-verdes`)
 - Horchata (`horchata`)
 - Texas Smoked Brisket (`brisket`)
 - Sloppy Joes (`sloppy-joes`)
 - Corn Dogs (`corn-dogs`)
-- Philadelphia Soft Pretzels (`philly-soft-pretzel`)
 - Boston Cream Pie (`boston-cream-pie`)
 - Steak and Ale Pie (`steak-and-ale-pie`)
 - English Trifle (`trifle`)
@@ -799,6 +797,7 @@ licence as the rest of this project.
 | `panettone.webp` / `.jpg` | Panettone | Hero | Panettone Coffee Cream-Mascarpone - Milos 2025-11-16 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panettone_Coffee_Cream-Mascarpone_-_Milos_2025-11-16.jpg) |
 | `panettone-process.webp` / `.jpg` | Panettone | Process | Panettone Glassato con Mandorle* | DinaBenedettoFerrandina | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panettone_Glassato_con_Mandorle*.jpg) |
 | `duck-confit.webp` / `.jpg` | Duck Confit | Hero | Manchons de canard confit et haricots blancs (mars 2022) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manchons_de_canard_confit_et_haricots_blancs_(mars_2022).JPG) |
+| `soupe-au-pistou.webp` / `.jpg` | Soupe au Pistou | Hero | 01 Soupe au pistou dans les Alpes provençales | ADT 04 | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:01_Soupe_au_pistou_dans_les_Alpes_proven%C3%A7ales.jpg) |
 | `coquilles-saint-jacques.webp` / `.jpg` | Coquilles Saint-Jacques | Hero | Coquille Saint-Jacques (petite) de pélerin, de la rue de la Collégiale, AY991 | Unknown authorUnknown author | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coquille_Saint-Jacques_(petite)_de_p%C3%A9lerin,_de_la_rue_de_la_Coll%C3%A9giale,_AY991.jpg) |
 | `salade-lyonnaise.webp` / `.jpg` | Salade Lyonnaise | Hero | Lyon 4e - Café du Gros Caillou - Salade lyonnaise | Romainbehar | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lyon_4e_-_Caf%C3%A9_du_Gros_Caillou_-_Salade_lyonnaise.jpeg) |
 | `salade-lyonnaise-process.webp` / `.jpg` | Salade Lyonnaise | Process | Salade lyonnaise Bistrot Bonnel (Lyon) en février 2023 | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salade_lyonnaise_Bistrot_Bonnel_(Lyon)_en_f%C3%A9vrier_2023.jpg) |
@@ -832,9 +831,12 @@ licence as the rest of this project.
 | `samosa.webp` / `.jpg` | Punjabi Samosa | Hero | Aloo matar with samosa and green chili pickle - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_matar_with_samosa_and_green_chili_pickle_-_Massachusetts.jpg) |
 | `samosa-process.webp` / `.jpg` | Punjabi Samosa | Process | Meat pie samosa and spring roll | Aisha Yahuza | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Meat_pie_samosa_and_spring_roll.jpg) |
 | `naan.webp` / `.jpg` | Garlic Naan | Hero | Bánh mì Naan tỏi ở Tân Phú (1) | Phương Huy (thảo luận) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_Naan_t%E1%BB%8Fi_%E1%BB%9F_T%C3%A2n_Ph%C3%BA_(1).jpg) |
+| `enchiladas-verdes.webp` / `.jpg` | Enchiladas Verdes | Hero | Enchiladas de carnitas de pato. Salsa de pipián verde. (Puebla, Puebla) | Joselu Blanco | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_de_carnitas_de_pato._Salsa_de_pipi%C3%A1n_verde._(Puebla,_Puebla).jpg) |
+| `enchiladas-verdes-process.webp` / `.jpg` | Enchiladas Verdes | Process | Enchiladas verdes en Tonatico | Wotancito | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_verdes_en_Tonatico.jpg) |
 | `aguachile.webp` / `.jpg` | Aguachile | Hero | Aguachile contemporáneo, Mazatlán, 3 de julio de 2023 | El Nuevo Doge | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aguachile_contempor%C3%A1neo,_Mazatl%C3%A1n,_3_de_julio_de_2023.jpg) |
 | `pulled-pork.webp` / `.jpg` | Carolina Pulled Pork | Hero | Easter dinner of pulled pork with Kansas City barbecue sauce, potato pancake with scallions and onion, bell peppers, celery, and carrots - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easter_dinner_of_pulled_pork_with_Kansas_City_barbecue_sauce,_potato_pancake_with_scallions_and_onion,_bell_peppers,_celery,_and_carrots_-_Massachusetts.jpg) |
 | `cioppino.webp` / `.jpg` | Cioppino | Hero | Cioppino from Della Terra (Los Angeles), July 2022 (1) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(1).jpg) |
+| `philly-soft-pretzel.webp` / `.jpg` | Philadelphia Soft Pretzels | Hero | Auntie Anne's Classic Soft Frozen Pretzels - Sarah Stierch | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Auntie_Anne%27s_Classic_Soft_Frozen_Pretzels_-_Sarah_Stierch.jpg) |
 
 ---
 
