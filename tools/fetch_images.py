@@ -27,7 +27,24 @@ HERO_W, PROCESS_W = 800, 640
 WEBP_Q, JPEG_Q = 68, 70
 
 # Licences we accept. Anything else is rejected outright.
-OK_LICENCE = re.compile(r"^(cc0|public domain|pdm|no restrictions)", re.I)
+#
+# CC BY is in, because the free-licence archives hold very little CC0 food
+# photography and a great deal of CC BY — excluding it left most of the world's
+# dishes on a placeholder. Its one condition is credit, which the site now gives
+# on the page next to every photograph.
+#
+# ShareAlike, NonCommercial and NoDerivatives stay out. The site resizes every
+# image and re-encodes it to WebP, which is at least arguably an adaptation, and
+# a ShareAlike adaptation would drag the licence onto work that is not ours to
+# license. NonCommercial is incompatible with running ads.
+OK_LICENCE = re.compile(
+    r"^(cc0|public domain|pdm|no restrictions"
+    r"|cc[-\s]?by(?![-\s]?(?:sa|nc|nd))"
+    r"|attribution(?![-\s]?(?:share|non|no)))", re.I)
+
+# CC0 and public domain need no credit; CC BY does. The templates use this to
+# decide whether a credit line is a courtesy or a condition.
+NEEDS_CREDIT = re.compile(r"^(cc[-\s]?by|attribution)", re.I)
 BAD_TOKENS = re.compile(
     # Things that are not a photograph of the dish. Terms that also occur
     # inside ordinary food words are anchored: "flower" must not match
@@ -423,14 +440,21 @@ def names_the_venue_not_the_dish(title, query):
 
 # --------------------------------------------------------------- providers
 
-def commons_candidates(query, extra=""):
+# CirrusSearch splits free licences into two buckets and will not accept an OR
+# between them, so they are two searches. "unrestricted" is CC0 and public
+# domain; "attribution" is CC BY. Unrestricted is asked first everywhere,
+# because an image with no conditions is worth preferring to one with them.
+LICENCE_FILTERS = ("haslicense:unrestricted", "haslicense:attribution")
+
+
+def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0]):
     # Openverse indexes most of Commons and is not rate limiting us, so a
     # benched Commons is a slow way to learn nothing new.
     if benched(host_of("https://commons.wikimedia.org/")):
         return []
     params = {
         "action": "query", "format": "json", "generator": "search",
-        "gsrsearch": f'{query} {extra} filetype:bitmap haslicense:unrestricted'.strip(),
+        "gsrsearch": f'{query} {extra} filetype:bitmap {licence_filter}'.strip(),
         "gsrnamespace": "6", "gsrlimit": "10",
         "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": str(HERO_W),
     }
@@ -538,8 +562,12 @@ def gather(query):
                 lambda: openverse_candidates(query, wide=False)]
     if brief:
         attempts.append(lambda: openverse_candidates(brief))
-    attempts += [lambda: commons_candidates(query),
-                 lambda: commons_candidates(query, "food")]
+    # CC0 first, both query shapes, before CC BY is asked for at all. A dish
+    # the archives cover well never reaches the attribution tier, so the site
+    # only takes on a crediting obligation where the alternative is nothing.
+    for licence in LICENCE_FILTERS:
+        attempts.append(lambda lic=licence: commons_candidates(query, "", lic))
+        attempts.append(lambda lic=licence: commons_candidates(query, "food", lic))
     for attempt in attempts:
         for c in attempt():
             key = c["url"]

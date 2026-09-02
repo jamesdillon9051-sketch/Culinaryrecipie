@@ -270,28 +270,34 @@ would be.
 
 ## Images and licensing
 
-Every photograph is **CC0 or public domain**. Nothing on this site carries an
-attribution requirement or a share-alike clause.
+Every photograph is **CC0, public domain, or CC BY**. Nothing here is
+ShareAlike, NonCommercial or NoDerivatives.
 
-Images are sourced programmatically by `tools/fetch_images.py`, which queries
-Wikimedia Commons with the `haslicense:unrestricted` filter and Openverse
-restricted to `license=cc0,pdm`, then **re-validates the licence field on every
-result** rather than trusting the search filter. Candidates are scored for
-relevance against the dish name, and archival material, illustrations, packaging
-shots and portraits are rejected.
+CC BY asks one thing: credit the photographer. The site does that underneath the
+photograph on the recipe page itself — title, photographer, licence and a link
+to the original — as well as in
+[`images-attribution.md`](images-attribution.md). Because that credit line *is*
+the licence, it is not hidden behind a hover, not collapsed into a modal, and it
+prints with the page.
 
-385 of the 600 recipes have photography — 354 of volumes one and two, 31 of
-volume three, which is still being worked through. Anything without one falls
-back to a CSS gradient carrying the recipe name, the same fallback that catches
-any image that fails to load at runtime.
+ShareAlike is deliberately excluded even though it would raise coverage further.
+Every image is resized and re-encoded to WebP, which is at least arguably an
+adaptation, and a ShareAlike condition would then reach into work that is not
+ours to license. NonCommercial is incompatible with running ads.
 
-Some of the 215 gaps are permanent rather than pending, and for a reason worth
-stating plainly: **the constraint is the licence, not the search.** Commons holds
-plenty of photographs of khinkali, tahdig and ash reshteh — every one of them
-CC BY or CC BY-SA. Filtering to CC0 and public domain leaves nothing, and no
-amount of retrying changes that. Widening the licence would raise coverage a
-long way, at the cost of the attribution-free promise at the top of this
-section; that is a trade this project has not made.
+Images are sourced programmatically by `tools/fetch_images.py`, which searches
+Wikimedia Commons in two tiers — `haslicense:unrestricted` (CC0 and public
+domain) first, and only then `haslicense:attribution` (CC BY) — so a dish the
+free archives cover well never takes on a crediting obligation at all. Every
+result has its `LicenseShortName` **re-validated** rather than the search filter
+being trusted, which is what rejects the compound forms like CC BY-NC-SA.
+Candidates are scored for relevance against the dish name, and archival
+material, illustrations, packaging shots, venue photographs and images where the
+dish is only a flavour are rejected.
+
+Anything still without a photograph falls back to a CSS gradient carrying the
+recipe name, the same fallback that catches any image that fails to load at
+runtime.
 
 The rest of the gaps are dishes where a search loose enough to find something
 starts returning things that are not the dish at all — a cargo ship for sangria,

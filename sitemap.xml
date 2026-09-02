@@ -4896,6 +4896,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/mapo-eggplant.jpg</image:loc>
+      <image:title>Mapo Eggplant</image:title>
+      <image:caption>Mapo Eggplant — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/scallion-pancakes/</loc>
@@ -4924,6 +4929,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lion-head-meatballs.jpg</image:loc>
+      <image:title>Lion&#39;s Head Meatballs</image:title>
+      <image:caption>Lion&#39;s Head Meatballs — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/egg-tarts/</loc>

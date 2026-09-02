@@ -4,9 +4,31 @@
    headline numbers on the site can never drift from the actual data. */
 const catalog = [...require('./catalog'), ...require('./catalog-2'),
                  ...require('./catalog-3')];
+const images = require('./images.json');
+
+/* The same principle applied to licensing, which matters more: a page that
+   says "no photograph here needs crediting" has to stop saying it the moment
+   one does. Derived, so it cannot be left stale. */
+const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
+const shots = [];
+for (const entry of Object.values(images)) {
+  if (!entry) continue;
+  for (const shot of [entry.hero, entry.process]) if (shot && shot.licence) shots.push(shot);
+}
+const withPhoto = catalog.filter(r => images[r.slug] && images[r.slug].hero).length;
+const credited = shots.filter(s => NEEDS_CREDIT.test(s.licence)).length;
 
 module.exports = {
   recipeCount: catalog.length,
   cuisineCount: new Set(catalog.map(r => r.cuisine)).size,
-  categoryCount: new Set(catalog.map(r => r.category)).size
+  categoryCount: new Set(catalog.map(r => r.category)).size,
+  photoCount: withPhoto,
+  placeholderCount: catalog.length - withPhoto,
+  imageCount: shots.length,
+  creditedImageCount: credited,
+  publicDomainImageCount: shots.length - credited,
+  /* True while every photograph is CC0 or public domain, false as soon as one
+     carries an attribution condition. The about page reads this rather than
+     asserting either. */
+  allPublicDomain: credited === 0
 };

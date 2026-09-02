@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, isoDuration, starsHtml, clamp } = require('../lib/util');
+const { esc, humanTime, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
@@ -155,6 +155,7 @@ function render(recipe, context) {
       </picture>
       <figcaption style="font-size:.84rem;color:var(--text-soft);margin-top:.6rem;text-align:center">
         ${esc(recipe.processAlt)}
+        ${photoCredit(process, { compact: true })}
       </figcaption>
     </figure>` : '';
 
@@ -196,6 +197,7 @@ ${breadcrumbs(trail)}
       <div class="recipe-hero" style="background:${img ? img.color : 'var(--bg-sunken)'}${img ? `;background-image:url('${img.lqip}');background-size:cover;background-position:center` : ''}">
         ${heroImg}
       </div>
+      ${photoCredit(img)}
     </div>
 
     ${ads.nativeBanner(0, 'Advertisement below the recipe introduction', SITE.base)}

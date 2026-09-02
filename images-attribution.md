@@ -1,23 +1,28 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is **CC0 1.0 Universal** or **public domain**. No
-image on this site carries an attribution requirement, a share-alike clause, or
-any other restriction — we filtered these out at source rather than relying on
-after-the-fact review.
+Every photograph on CulinaryVault is freely licensed. Of 543
+images, **543** are CC0 or public domain and carry no conditions at all, and
+**0** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+and use commercially, on the single condition that the photographer is credited.
 
-We credit each photographer anyway. It costs nothing and it is the right thing
-to do.
+That condition is met in two places: underneath the photograph on the recipe
+page itself, and in the table below. Both name the title, the photographer, the
+licence and the source, which is what Creative Commons asks for.
+
+No image here is ShareAlike, NonCommercial or NoDerivatives. Every photograph is
+resized and re-encoded, which is arguably an adaptation, and a ShareAlike
+condition would reach into work that is not ours to license. These are filtered
+out at source rather than caught in review.
 
 ## How the images were sourced
 
 Images were collected programmatically by `tools/fetch_images.py`, which:
 
-1. Queries **Wikimedia Commons** with `haslicense:unrestricted`, a CirrusSearch
-   filter that returns only CC0 and public-domain files, then re-checks the
-   `LicenseShortName` field on every result and discards anything that is not
-   CC0 or public domain.
-2. Falls back to the **Openverse** API restricted to `license=cc0,pdm`, again
-   re-validating the licence on each result.
+1. Queries **Wikimedia Commons**, then re-checks the `LicenseShortName` field on
+   every result and discards anything that is not CC0, public domain or CC BY.
+   The search filter is treated as a hint; the licence field is the authority.
+2. Rejects ShareAlike, NonCommercial and NoDerivatives outright, including the
+   compound forms such as CC BY-NC-SA.
 3. Scores each candidate for relevance against the dish name and rejects
    archival material, illustrations, packaging shots and portraits.
 4. Downloads, centre-crops to 4:3, resizes, and writes both WebP and JPEG.
@@ -31,30 +36,33 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 385 |
+| Hero images | 387 |
 | Secondary "process" images | 156 |
-| Total image files | 1082 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 215 |
+| Total image files | 1086 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 213 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 281 | No rights reserved — no attribution legally required |
+| CC0 | 283 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
-| Public domain | 39 | Public domain — no rights reserved |
-| Public Domain Mark 1.0 | 36 | Public domain — no rights reserved |
-| Public Domain | 1 | Public domain — no rights reserved |
+| Public domain | 39 | No rights reserved — no attribution legally required |
+| Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
+| Public Domain | 1 | No rights reserved — no attribution legally required |
 
 Licence texts:
 
 - **CC0 1.0 Universal** — <https://creativecommons.org/publicdomain/zero/1.0/>
 - **Public Domain Mark 1.0** — <https://creativecommons.org/publicdomain/mark/1.0/>
+- **CC BY 4.0** — <https://creativecommons.org/licenses/by/4.0/>
+- **CC BY 3.0** — <https://creativecommons.org/licenses/by/3.0/>
+- **CC BY 2.0** — <https://creativecommons.org/licenses/by/2.0/>
 
 ### Recipes without a photograph
 
-These use the built-in gradient placeholder because no CC0 or public-domain
-image of sufficient quality and relevance could be found:
+These use the built-in gradient placeholder because no CC0, public-domain or
+CC BY image of sufficient quality and relevance could be found:
 
 - Brioche Loaf (`brioche`)
 - Keema Matar (`keema-matar`)
@@ -106,8 +114,6 @@ image of sufficient quality and relevance could be found:
 - Vitello Tonnato (`vitello-tonnato`)
 - Pasta alla Gricia (`pasta-alla-gricia`)
 - Soupe au Pistou (`soupe-au-pistou`)
-- Mapo Eggplant (`mapo-eggplant`)
-- Lion's Head Meatballs (`lion-head-meatballs`)
 - Vada Pav (`vada-pav`)
 - Enchiladas Verdes (`enchiladas-verdes`)
 - Horchata (`horchata`)
@@ -806,9 +812,11 @@ licence as the rest of this project.
 | `yakisoba.webp` / `.jpg` | Yakisoba | Hero | Chicken yakisoba - Korpan | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_yakisoba_-_Korpan.jpg) |
 | `yakisoba-process.webp` / `.jpg` | Yakisoba | Process | Fukaya Negi Curry Yakisoba by Kaede | M yanagisawa | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fukaya_Negi_Curry_Yakisoba_by_Kaede.jpg) |
 | `castella.webp` / `.jpg` | Castella Cake | Hero | Castella 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Castella_001.jpg) |
+| `mapo-eggplant.webp` / `.jpg` | Mapo Eggplant | Hero | 東京の中華料理店で麻婆茄子 | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%81%AE%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%E5%BA%97%E3%81%A7%E9%BA%BB%E5%A9%86%E8%8C%84%E5%AD%90.jpg) |
 | `scallion-pancakes.webp` / `.jpg` | Scallion Pancakes | Hero | 20251106 214906 Shengli scallion pancake | Saimmx | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20251106_214906_Shengli_scallion_pancake.jpg) |
 | `scallion-pancakes-process.webp` / `.jpg` | Scallion Pancakes | Process | Duck and kimchi pancake, with soy scallion sauce - Cambridge, MA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duck_and_kimchi_pancake,_with_soy_scallion_sauce_-_Cambridge,_MA.jpg) |
 | `beef-chow-fun.webp` / `.jpg` | Beef Chow Fun | Hero | Dry Fried Beef Ho Fun - Ho Chiak 2023-12-08 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dry_Fried_Beef_Ho_Fun_-_Ho_Chiak_2023-12-08.jpg) |
+| `lion-head-meatballs.webp` / `.jpg` | Lion's Head Meatballs | Hero | 三重の獅子舞で使う「獅子頭」です。 | 末博 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E9%87%8D%E3%81%AE%E7%8D%85%E5%AD%90%E8%88%9E%E3%81%A7%E4%BD%BF%E3%81%86%E3%80%8C%E7%8D%85%E5%AD%90%E9%A0%AD%E3%80%8D%E3%81%A7%E3%81%99%E3%80%82.jpg) |
 | `egg-tarts.webp` / `.jpg` | Hong Kong Egg Tarts | Hero | HK WC 灣仔 Wan Chai 利東街 Lee Tung Avenue shop 蛋撻王 King Bakery egg tarts April 2024 R12S | YUEO YRUAIN LUKAM | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E5%88%A9%E6%9D%B1%E8%A1%97_Lee_Tung_Avenue_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_egg_tarts_April_2024_R12S.jpg) |
 | `wonton-noodle-soup.webp` / `.jpg` | Wonton Noodle Soup | Hero | Gfp-noodle-soup-with-shrimp-dumplings | Yinan Chen | Public Domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gfp-noodle-soup-with-shrimp-dumplings.jpg) |
 | `wonton-noodle-soup-process.webp` / `.jpg` | Wonton Noodle Soup | Process | SZ 深圳 Shenzhen 福田 Futian 水圍村 Shui Wai Cun 沙縣小吃 ShaXian Snacks Noodle Shop night 云吞 wunton soup February 2025 R12S 02 | LAAePSts Lusnsaz WHA | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D%E6%9D%91_Shui_Wai_Cun_%E6%B2%99%E7%B8%A3%E5%B0%8F%E5%90%83_ShaXian_Snacks_Noodle_Shop_night_%E4%BA%91%E5%90%9E_wunton_soup_February_2025_R12S_02.jpg) |

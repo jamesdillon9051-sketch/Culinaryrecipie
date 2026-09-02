@@ -151,4 +151,35 @@ function plural(n, singular, pluralForm) {
   return `${n} ${n === 1 ? singular : (pluralForm || singular + 's')}`;
 }
 
-module.exports = { esc, jsonLd, humanTime, isoDuration, slugify, clamp, starsHtml, plural, CUISINES, CATEGORIES, DIET_TAGS };
+/* Licences whose only condition is credit. CC0 and public-domain images carry
+   no condition at all, but we credit those too — it costs a line and the
+   photographer did the work either way. */
+const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
+
+/**
+ * The photographer credit shown under an image.
+ *
+ * For a CC BY photograph this is not decoration, it is the licence condition,
+ * so it renders next to the picture rather than only in a file in the repo.
+ * Creative Commons asks for title, author, source and licence; all four are in
+ * the manifest, and all four go out here.
+ */
+function photoCredit(img, { compact = false } = {}) {
+  if (!img || !img.author) return '';
+  const author = esc(img.author);
+  const name = img.page
+    ? `<a href="${esc(img.page)}" rel="nofollow noopener">${esc(img.title || 'Photograph')}</a>`
+    : esc(img.title || 'Photograph');
+  const licence = img.licence_url
+    ? `<a href="${esc(img.licence_url)}" rel="license nofollow noopener">${esc(img.licence)}</a>`
+    : esc(img.licence || '');
+  return `<p class="photo-credit${compact ? ' photo-credit--compact' : ''}">`
+    + `<span class="visually-hidden">Photograph credit: </span>`
+    + `${name} by ${author}`
+    + (licence ? ` &middot; ${licence}` : '')
+    + (img.source ? ` &middot; ${esc(img.source)}` : '')
+    + `</p>`;
+}
+
+module.exports = { esc, jsonLd, humanTime, isoDuration, slugify, clamp, starsHtml, plural,
+  photoCredit, NEEDS_CREDIT, CUISINES, CATEGORIES, DIET_TAGS };

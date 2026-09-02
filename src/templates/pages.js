@@ -1,6 +1,7 @@
 'use strict';
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
-const { recipeCount, cuisineCount } = require('../data/stats');
+const { recipeCount, cuisineCount, imageCount, creditedImageCount,
+        publicDomainImageCount } = require('../data/stats');
 const ads = require('./ads');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
@@ -211,7 +212,7 @@ function home(ctx) {
       <div>
         <span class="eyebrow">From the kitchen</span>
         <h2 id="gallery-title">What we have been cooking</h2>
-        <p>A scroll through the Vault. Every photograph is public domain or CC0 — sources are credited in full.</p>
+        <p>A scroll through the Vault. Every photograph is freely licensed, and every photographer is credited on the recipe.</p>
       </div>
     </div>
     <div class="gallery">
@@ -545,7 +546,8 @@ ${breadcrumbs(trail)}
     </ul>
 
     <h2>Where our photographs come from</h2>
-    <p>Every image on this site is public domain or CC0 licensed, sourced from Wikimedia Commons and Openverse and credited individually in our <a href="${SITE.base}about/#attribution">attribution file</a>. Where we could not find a properly licensed photograph of a dish, you will see a warm gradient card with the recipe name instead — we would rather show you nothing than show you someone else's photograph without permission.</p>
+    <p>Every photograph here is freely licensed and sourced from Wikimedia Commons. Of the ${imageCount} images on the site, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, and ${creditedImageCount} are Creative Commons Attribution &mdash; free to use provided the photographer is credited, which we do underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
+    <p>We do not use ShareAlike, NonCommercial or NoDerivatives images. Every photograph is resized and re-encoded for the web, which is arguably an adaptation, and a ShareAlike condition would reach into work that is not ours to license. Where no properly licensed photograph of a dish exists, you will see a warm gradient card with the recipe name instead &mdash; we would rather show you nothing than show you someone else's photograph without permission.</p>
 
     <h2>How to use the site</h2>
     <ul>
@@ -557,7 +559,7 @@ ${breadcrumbs(trail)}
     </ul>
 
     <h2 id="attribution">Attribution and licensing</h2>
-    <p>The full list of image sources, photographers and licences lives in <code>images-attribution.md</code> in the project repository. Recipe text is our own. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
+    <p>Each photograph is credited underneath itself on the recipe page, with the photographer, the licence and a link back to the original file. The complete list in one place is <a href="${SITE.base}images-attribution.md">images-attribution.md</a>. Recipe text is our own. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
   </div>
 
   <section class="section" aria-labelledby="team-title">

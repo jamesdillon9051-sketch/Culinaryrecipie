@@ -2,8 +2,9 @@
 'use strict';
 /**
  * Regenerates images-attribution.md from src/data/images.json.
- * Every image on the site is CC0 or public domain; this records the source,
- * photographer and licence for each one.
+ * Images are CC0, public domain, or CC BY — the last of which is only usable
+ * because the photographer is credited, so this file and the credit line on
+ * each recipe page are part of meeting the licence, not a courtesy.
  */
 const fs = require('fs');
 const path = require('path');
@@ -39,31 +40,46 @@ for (const recipe of catalog) {
   }
 }
 
+const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
+const terms = name => NEEDS_CREDIT.test(name)
+  ? 'Free to use, adapt and use commercially **provided the photographer is credited**'
+  : 'No rights reserved — no attribution legally required';
+
 const licenceRows = Object.entries(counts)
   .sort((a, b) => b[1] - a[1])
-  .map(([name, n]) => `| ${name} | ${n} | ${name.toLowerCase().startsWith('cc0') ? 'No rights reserved — no attribution legally required' : 'Public domain — no rights reserved'} |`)
+  .map(([name, n]) => `| ${name} | ${n} | ${terms(name)} |`)
   .join('\n');
+
+const credited = Object.entries(counts)
+  .filter(([name]) => NEEDS_CREDIT.test(name))
+  .reduce((sum, [, n]) => sum + n, 0);
+const free = (heroes + process_) - credited;
 
 const doc = `# Image Attribution
 
-Every photograph on CulinaryVault is **CC0 1.0 Universal** or **public domain**. No
-image on this site carries an attribution requirement, a share-alike clause, or
-any other restriction — we filtered these out at source rather than relying on
-after-the-fact review.
+Every photograph on CulinaryVault is freely licensed. Of ${heroes + process_}
+images, **${free}** are CC0 or public domain and carry no conditions at all, and
+**${credited}** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+and use commercially, on the single condition that the photographer is credited.
 
-We credit each photographer anyway. It costs nothing and it is the right thing
-to do.
+That condition is met in two places: underneath the photograph on the recipe
+page itself, and in the table below. Both name the title, the photographer, the
+licence and the source, which is what Creative Commons asks for.
+
+No image here is ShareAlike, NonCommercial or NoDerivatives. Every photograph is
+resized and re-encoded, which is arguably an adaptation, and a ShareAlike
+condition would reach into work that is not ours to license. These are filtered
+out at source rather than caught in review.
 
 ## How the images were sourced
 
 Images were collected programmatically by \`tools/fetch_images.py\`, which:
 
-1. Queries **Wikimedia Commons** with \`haslicense:unrestricted\`, a CirrusSearch
-   filter that returns only CC0 and public-domain files, then re-checks the
-   \`LicenseShortName\` field on every result and discards anything that is not
-   CC0 or public domain.
-2. Falls back to the **Openverse** API restricted to \`license=cc0,pdm\`, again
-   re-validating the licence on each result.
+1. Queries **Wikimedia Commons**, then re-checks the \`LicenseShortName\` field on
+   every result and discards anything that is not CC0, public domain or CC BY.
+   The search filter is treated as a hint; the licence field is the authority.
+2. Rejects ShareAlike, NonCommercial and NoDerivatives outright, including the
+   compound forms such as CC BY-NC-SA.
 3. Scores each candidate for relevance against the dish name and rejects
    archival material, illustrations, packaging shots and portraits.
 4. Downloads, centre-crops to 4:3, resizes, and writes both WebP and JPEG.
@@ -92,11 +108,14 @@ Licence texts:
 
 - **CC0 1.0 Universal** — <https://creativecommons.org/publicdomain/zero/1.0/>
 - **Public Domain Mark 1.0** — <https://creativecommons.org/publicdomain/mark/1.0/>
+- **CC BY 4.0** — <https://creativecommons.org/licenses/by/4.0/>
+- **CC BY 3.0** — <https://creativecommons.org/licenses/by/3.0/>
+- **CC BY 2.0** — <https://creativecommons.org/licenses/by/2.0/>
 
 ${missing.length ? `### Recipes without a photograph
 
-These use the built-in gradient placeholder because no CC0 or public-domain
-image of sufficient quality and relevance could be found:
+These use the built-in gradient placeholder because no CC0, public-domain or
+CC BY image of sufficient quality and relevance could be found:
 
 ${missing.map(r => `- ${r.title} (\`${r.slug}\`)`).join('\n')}
 ` : ''}

@@ -1000,6 +1000,32 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   opacity: .68;
 }
 .ad-slot > div { margin-inline: auto; max-width: 100%; }
+
+/* --- photograph credit -------------------------------------------------- */
+/* For a CC BY image this line is the licence condition, not a nicety, so it
+   is quiet but never hidden: it stays in the flow, keeps a readable contrast
+   and survives printing. */
+.photo-credit {
+  margin: .55rem 0 0;
+  font-family: var(--font-body);
+  font-size: .74rem;
+  line-height: 1.45;
+  color: var(--text-soft);
+  text-align: right;
+}
+.photo-credit--compact { margin-top: .3rem; text-align: center; }
+.photo-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.photo-credit a:hover, .photo-credit a:focus-visible { color: var(--text); }
+
+/* Available to screen readers, out of the way for everyone else. */
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
 .ad-slot iframe, .ad-slot img { max-width: 100%; }
 /* The in-article slot sits between two full-bleed sections, so it needs the
    same horizontal rhythm as the prose around it. */
@@ -1011,6 +1037,8 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   .newsletter, .back-to-top, .fav-btn, .share-row, .breadcrumbs, .toast,
   .step-actions, .servings-control, .cook-exit, .skip-link,
   .ad-slot { display: none !important; }
+  /* The credit is a licence condition, so it prints with the picture. */
+  .photo-credit { display: block !important; color: #444; font-size: 8pt; }
   body { background: #fff; color: #000; font-size: 11pt; line-height: 1.5; }
   .recipe-layout { display: block; }
   .recipe-hero { max-height: 68mm; box-shadow: none; border-radius: 0; page-break-inside: avoid; }
