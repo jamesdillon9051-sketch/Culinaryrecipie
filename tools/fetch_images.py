@@ -439,7 +439,12 @@ OTHER_FORM = re.compile(
 # smoked pastrami brisket" matches "smoked brisket" perfectly and shows pink
 # deli meat on rye. A recipe that really wants one of these names it in its own
 # queries, which exempts it.
-DIFFERENT_DISH = re.compile(r"\b(pastrami|corned beef|bresaola|prosciutto|jerky)\b", re.I)
+DIFFERENT_DISH = re.compile(
+    r"\b(pastrami|corned beef|bresaola|prosciutto|jerky|"
+    # Espresso drinks are not interchangeable. A cold brew is brewed cold and
+    # served black; "Iced White Mocha in a Glass Jug" is a different drink that
+    # shares every word the relevance test looks at.
+    r"mocha|latte|cappuccino|macchiato|frappe|frappuccino)\b", re.I)
 
 
 # What a vegetarian or vegan recipe must not be illustrated with. The Belgian
@@ -477,6 +482,10 @@ LIVING_THING = re.compile(
 # The tool rather than the food: "Krumkake gear" is the iron and its box.
 EQUIPMENT = re.compile(
     r"\b(gear|maker|moulds?|molds?|bakeware|utensils?|press|"
+    # Preparing the ingredient is not the dish. "Grinding of beans for moi moi"
+    # is a photograph of a mill, and it satisfied every relevance test because
+    # the dish is named in the caption.
+    r"grinder|grinding|mill|mortar|pestle|blender|"
     r"(?:waffle|krumkake|pizzelle|sandwich) iron)\b", re.I)
 
 

@@ -277,7 +277,7 @@ module.exports = [
   /* ------------------------------------------------------ Argentinian (3) */
   c('provoleta', 'Provoleta', 'Argentinian', 'Appetizers', 'Easy', 10, 10, 4, 4.7, 1188, ['Vegetarian', 'Gluten-Free'], [], 'Provoleta'),
   c('milanesa', 'Milanesa Napolitana', 'Argentinian', 'Dinner', 'Easy', 20, 20, 4, 4.8, 1866, [], [], 'Milanesa napolitana'),
-  c('dulce-de-leche', 'Dulce de Leche', 'Argentinian', 'Desserts', 'Easy', 5, 180, 12, 4.8, 2388, ['Vegetarian', 'Gluten-Free'], [], 'Dulce de leche caramel jar spoon'),
+  c('dulce-de-leche', 'Dulce de Leche', 'Argentinian', 'Desserts', 'Easy', 5, 180, 12, 4.8, 2388, ['Vegetarian', 'Gluten-Free'], [], 'Dulce de leche condensed milk caramel'),
 
   /* --------------------------------------------------------- Chilean (2) */
   c('pastel-de-choclo', 'Pastel de Choclo', 'Chilean', 'Dinner', 'Medium', 35, 60, 6, 4.6, 622, ['Gluten-Free'], [], 'Pastel de choclo'),
@@ -292,11 +292,11 @@ module.exports = [
   c('jamaican-patty', 'Jamaican Beef Patty', 'Jamaican', 'Quick Meals', 'Medium', 45, 30, 8, 4.8, 1544, ['Dairy-Free'], [], 'Jamaican beef patty pastry'),
 
   /* --------------------------------------------------- Trinidadian (2) */
-  c('doubles', 'Trinidadian Doubles', 'Trinidadian', 'Breakfast', 'Medium', 90, 20, 8, 4.7, 866, ['Vegan'], [], 'Doubles bara channa curry Trinidad'),
+  c('doubles', 'Trinidadian Doubles', 'Trinidadian', 'Breakfast', 'Medium', 90, 20, 8, 4.7, 866, ['Vegan'], [], 'Doubles trinidad street food plate'),
   c('callaloo', 'Callaloo', 'Trinidadian', 'Lunch', 'Easy', 20, 35, 6, 4.6, 588, ['Vegan', 'Gluten-Free'], [], 'Callaloo'),
 
   /* ---------------------------------------------------------- Nigerian (2) */
-  c('moin-moin', 'Moin Moin', 'Nigerian', 'Lunch', 'Medium', 30, 45, 6, 4.6, 744, ['Vegan', 'Gluten-Free'], [], 'Moi moi bean pudding Nigerian'),
+  c('moin-moin', 'Moin Moin', 'Nigerian', 'Lunch', 'Medium', 30, 45, 6, 4.6, 744, ['Vegan', 'Gluten-Free'], [], 'Moi moi bean pudding wrapped leaves'),
   c('pepper-soup', 'Nigerian Pepper Soup', 'Nigerian', 'Dinner', 'Easy', 20, 45, 6, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Nigerian goat pepper soup bowl'),
 
   /* ---------------------------------------------------------- Ghanaian (2) */
@@ -321,12 +321,12 @@ module.exports = [
   c('loco-moco', 'Loco Moco', 'Hawaiian', 'Breakfast', 'Easy', 15, 20, 4, 4.7, 1188, [], [], 'Loco moco'),
 
   /* --------------------------------------------------- International (10) */
-  c('breakfast-hash', 'Breakfast Hash', 'International', 'Breakfast', 'Easy', 15, 30, 4, 4.7, 2288, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Corned beef hash skillet eggs'),
+  c('breakfast-hash', 'Breakfast Hash', 'International', 'Breakfast', 'Easy', 15, 30, 4, 4.7, 2288, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Corned beef hash skillet potatoes eggs'),
   c('ribollita', 'Ribollita', 'Italian', 'Lunch', 'Easy', 25, 60, 6, 4.7, 1422, ['Vegan'], [], 'Ribollita'),
   c('buddha-bowl', 'Roasted Vegetable Buddha Bowl', 'International', 'Healthy', 'Easy', 20, 30, 2, 4.7, 1866, ['Vegan', 'Gluten-Free'], [], 'Roasted vegetable grain bowl'),
   c('affogato', 'Affogato', 'International', 'Desserts', 'Easy', 5, 0, 2, 4.8, 1644, ['Vegetarian', 'Gluten-Free'], [], 'Affogato'),
   c('smoothie-bowl', 'Berry Smoothie Bowl', 'International', 'Breakfast', 'Easy', 10, 0, 2, 4.6, 1322, ['Vegan', 'Gluten-Free'], [], 'Smoothie bowl granola berries'),
-  c('cold-brew-coffee', 'Cold Brew Coffee', 'International', 'Drinks', 'Easy', 10, 0, 4, 4.7, 1866, ['Vegan', 'Gluten-Free'], [], 'Cold brew iced coffee glass'),
+  c('cold-brew-coffee', 'Cold Brew Coffee', 'International', 'Drinks', 'Easy', 10, 0, 4, 4.7, 1866, ['Vegan', 'Gluten-Free'], [], 'Cold brew coffee black glass ice'),
 
   /* ------------------------------------- filling out the thinner sections */
   c('chicken-milanese', 'Chicken Milanese', 'Italian', 'Dinner', 'Easy', 15, 15, 4, 4.7, 1644, [], [], 'Chicken milanese'),
