@@ -65,7 +65,7 @@ module.exports = [
   c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 60, 8, 4.9, 4122, ['Gluten-Free'], [], 'Hyderabadi biryani'),
   c('vada-pav', 'Vada Pav', 'Indian', 'Quick Meals', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
   c('masala-chai', 'Masala Chai', 'Indian', 'Drinks', 'Easy', 5, 10, 4, 4.8, 3122, ['Vegetarian', 'Gluten-Free'], [], 'Masala chai'),
-  c('samosa', 'Punjabi Samosa', 'Indian', 'Appetizers', 'Medium', 40, 25, 12, 4.8, 3411, ['Vegetarian', 'Vegan'], ['trending'], 'Samosa'),
+  c('misal-pav', 'Misal Pav', 'Indian', 'Appetizers', 'Medium', 30, 45, 6, 4.7, 1866, ['Vegetarian', 'Vegan'], ['trending'], 'Misal pav'),
   c('naan', 'Garlic Naan', 'Indian', 'Baking', 'Easy', 90, 10, 8, 4.8, 3011, ['Vegetarian'], [], 'Naan bread'),
 
   /* ---------------------------------------------------------- Mexican (8) */

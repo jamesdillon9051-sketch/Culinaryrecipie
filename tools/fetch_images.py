@@ -337,11 +337,20 @@ small large whole half fresh dried new old traditional national street home
 food dishes meal plate bowls cooking cooked recipe recipes""".split())
 
 
+# Letters that are not a base letter plus a combining mark, so NFKD leaves them
+# exactly as they are. Without these, "smorrebrod" cannot match "smørrebrød"
+# and the Danish open sandwich scores zero against its own name.
+TRANSLITERATE = str.maketrans({
+    "\u00f8": "o", "\u00e6": "ae", "\u00df": "ss", "\u0142": "l", "\u0111": "d",
+    "\u0131": "i", "\u00f0": "d", "\u00fe": "th", "\u0153": "oe", "\u017f": "s",
+})
+
+
 def fold(s):
     """Lower-case and strip diacritics, so "Rosti" matches "Rösti" and
     "Caneles" matches "Canelés". Scripts without a Latin decomposition —
     Georgian, Persian, Japanese — pass through untouched."""
-    lowered = unicodedata.normalize("NFKD", (s or "").lower())
+    lowered = unicodedata.normalize("NFKD", (s or "").lower()).translate(TRANSLITERATE)
     return "".join(c for c in lowered if not unicodedata.combining(c))
 
 
@@ -412,8 +421,23 @@ def contradicts_diet(title, query, tags=()):
     return False
 
 
+# An animal, not a meal. "Karjalankarhukoira, Karelian Bear Dog" is a perfect
+# match for "Karelian pie" and a photograph of a dog. Judged against the query
+# so that corn dogs and hot dogs are unaffected.
+LIVING_THING = re.compile(
+    r"\b(dogs?|cats?|kittens?|puppy|puppies|bears?|horses?|ponies|pony|"
+    r"cows?|sheep|goats?|pigs?|hens?|birds?|breed)\b", re.I)
+# The tool rather than the food: "Krumkake gear" is the iron and its box.
+EQUIPMENT = re.compile(
+    r"\b(gear|maker|moulds?|molds?|bakeware|utensils?|press|"
+    r"(?:waffle|krumkake|pizzelle|sandwich) iron)\b", re.I)
+
+
 def names_a_different_dish(title, query):
-    return bool(DIFFERENT_DISH.search(title or "")) and not DIFFERENT_DISH.search(query or "")
+    for pattern in (DIFFERENT_DISH, LIVING_THING, EQUIPMENT):
+        if pattern.search(title or "") and not pattern.search(query or ""):
+            return True
+    return False
 
 
 def is_a_flavour_of_something_else(title, query):

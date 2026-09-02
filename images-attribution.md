@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 591
-images, **568** are CC0 or public domain and carry no conditions at all, and
-**23** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 589
+images, **561** are CC0 or public domain and carry no conditions at all, and
+**28** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,23 +36,25 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 419 |
+| Hero images | 417 |
 | Secondary "process" images | 172 |
-| Total image files | 1182 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 181 |
+| Total image files | 1178 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 183 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 300 | No rights reserved — no attribution legally required |
-| CC0 1.0 | 184 | No rights reserved — no attribution legally required |
-| Public domain | 47 | No rights reserved — no attribution legally required |
-| Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 20 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 1.0 | 176 | No rights reserved — no attribution legally required |
+| Public domain | 50 | No rights reserved — no attribution legally required |
+| Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 23 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 nl | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
 
 Licence texts:
 
@@ -67,12 +69,20 @@ Licence texts:
 These use the built-in gradient placeholder because no CC0, public-domain or
 CC BY image of sufficient quality and relevance could be found:
 
+- Osaka Okonomiyaki (`okonomiyaki`)
+- Dal Tadka (`dal-tadka`)
+- Avgolemono Soup (`avgolemono-soup`)
+- Jamaican Jerk Chicken (`jerk-chicken`)
+- Croque Monsieur (`croque-monsieur`)
 - Brioche Loaf (`brioche`)
+- Tamagoyaki (`tamagoyaki`)
 - Keema Matar (`keema-matar`)
 - Queso Fundido (`queso-fundido`)
 - Mexican Red Rice (`mexican-rice`)
 - Chicken Pot Pie (`chicken-pot-pie`)
 - Beer-Battered Onion Rings (`onion-rings`)
+- Classic Potato Salad (`classic-potato-salad`)
+- Vanilla Cupcakes (`vanilla-cupcakes`)
 - Chocolate Milkshake (`chocolate-milkshake`)
 - Toad in the Hole (`toad-in-the-hole`)
 - Cornish Pasty (`cornish-pasty`)
@@ -94,6 +104,7 @@ CC BY image of sufficient quality and relevance could be found:
 - Piri Piri Chicken (`piri-piri-chicken`)
 - Pad See Ew (`pad-see-ew`)
 - Bún Bò Huế (`bun-bo-hue`)
+- Cơm Tấm (`com-tam`)
 - Sundubu Jjigae (`sundubu-jjigae`)
 - Galbi (Korean Short Ribs) (`galbi`)
 - Haemul Pajeon (`haemul-pajeon`)
@@ -106,6 +117,8 @@ CC BY image of sufficient quality and relevance could be found:
 - Pão de Queijo (`pao-de-queijo`)
 - Chicken Kiev (`chicken-kiev`)
 - Blini with Soured Cream (`blini`)
+- Olivier Salad (`olivier-salad`)
+- Gołąbki (`golabki`)
 - Käsespätzle (`spaetzle`)
 - Egusi Soup (`egusi-soup`)
 - Doro Wat (`doro-wat`)
@@ -113,22 +126,13 @@ CC BY image of sufficient quality and relevance could be found:
 - Jamaican Curry Goat (`jamaican-curry-goat`)
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
+- Lion's Head Meatballs (`lion-head-meatballs`)
+- Misal Pav (`misal-pav`)
 - Cranachan (`cranachan`)
 - Welsh Cawl (`cawl`)
-- Cheese Fondue (`cheese-fondue`)
-- Raclette (`raclette`)
-- Belgian Waffles (`belgian-waffles`)
-- Stroopwafels (`stroopwafel`)
-- Bitterballen (`bitterballen`)
-- Poffertjes (`poffertjes`)
-- Smørrebrød (`smorrebrod`)
-- Danish Pastries (`danish-pastry`)
-- Frikadeller (`frikadeller`)
-- Norwegian Fish Soup (`norwegian-fish-soup`)
 - Krumkake (`krumkake`)
 - Karelian Pies (`karelian-pies`)
 - Lohikeitto (`salmon-soup-lohikeitto`)
-- Prinsesstårta (`prinsesstarta`)
 - Toast Skagen (`toast-skagen`)
 - Bigos (`bigos`)
 - Żurek (`zurek`)
@@ -315,8 +319,6 @@ licence as the rest of this project.
 | `tempura.webp` / `.jpg` | Crispy Vegetable Tempura | Hero | KISU no TEMPURA or Sillaginidae Sand Borer Tempura 2021 | ウィキ太郎(WikiTaro) | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KISU_no_TEMPURA_or_Sillaginidae_Sand_Borer_Tempura_2021.jpg) |
 | `tempura-process.webp` / `.jpg` | Crispy Vegetable Tempura | Process | Maitake Mushroom Tempura 2021 Grifola frondosa 舞茸の天ぷら | ウィキ太郎(WikiTaro) | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maitake_Mushroom_Tempura_2021_Grifola_frondosa_%E8%88%9E%E8%8C%B8%E3%81%AE%E5%A4%A9%E3%81%B7%E3%82%89.jpg) |
 | `yakitori.webp` / `.jpg` | Yakitori Chicken Skewers | Hero | Typical yakitori 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Typical_yakitori_001.jpg) |
-| `okonomiyaki.webp` / `.jpg` | Osaka Okonomiyaki | Hero | Okonomiyaki restaurant in Takadanobaba -17262 | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okonomiyaki_restaurant_in_Takadanobaba_-17262.jpeg) |
-| `okonomiyaki-process.webp` / `.jpg` | Osaka Okonomiyaki | Process | Okonomiyaki restaurant in Takadanobaba -21581 | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okonomiyaki_restaurant_in_Takadanobaba_-21581.jpeg) |
 | `miso-soup.webp` / `.jpg` | Miso Soup | Hero | Littleneck clam miso soup 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Littleneck_clam_miso_soup_001.jpg) |
 | `udon-noodle-soup.webp` / `.jpg` | Kake Udon Noodle Soup | Hero | Mixed Vegetables with Singapore Laksa Noodles Soup with Japanese Udon Noodles - Noodles Street 2025-10-15 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mixed_Vegetables_with_Singapore_Laksa_Noodles_Soup_with_Japanese_Udon_Noodles_-_Noodles_Street_2025-10-15.jpg) |
 | `udon-noodle-soup-process.webp` / `.jpg` | Kake Udon Noodle Soup | Process | Mixed Vegetables with Singapore Laksa Noodles Soup with Japanese Udon Noodles - Noodles Street 2025-10-15 | Andy Li | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=176829169) |
@@ -353,7 +355,6 @@ licence as the rest of this project.
 | `chicken-biryani-process.webp` / `.jpg` | Hyderabadi Chicken Biryani | Process | Chicken Biryani 3 | Apurv013 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Biryani_3.jpg) |
 | `palak-paneer.webp` / `.jpg` | Palak Paneer | Hero | Palak Paneer | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Palak_Paneer.JPG) |
 | `chana-masala.webp` / `.jpg` | Chana Masala | Hero | Chana Masala - Mohammed - Spice Of Life 2024-05-27 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chana_Masala_-_Mohammed_-_Spice_Of_Life_2024-05-27.jpg) |
-| `dal-tadka.webp` / `.jpg` | Dal Tadka | Hero | Dal Makhani. | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG) |
 | `aloo-gobi.webp` / `.jpg` | Aloo Gobi | Hero | Aloo gobi paratha - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_gobi_paratha_-_Massachusetts.jpg) |
 | `aloo-gobi-process.webp` / `.jpg` | Aloo Gobi | Process | Anchovies with chili, garlic, carrots, olive oil, and black pepper on rotini, plus aloo gobi paratha and hot Indian pickled lime - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Anchovies_with_chili,_garlic,_carrots,_olive_oil,_and_black_pepper_on_rotini,_plus_aloo_gobi_paratha_and_hot_Indian_pickled_lime_-_Massachusetts.jpg) |
 | `masala-dosa.webp` / `.jpg` | Masala Dosa | Hero | Chicken masala dosa - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_masala_dosa_-_Massachusetts.jpg) |
@@ -445,7 +446,6 @@ licence as the rest of this project.
 | `spanakopita.webp` / `.jpg` | Spanakopita | Hero | spanakopita | terri_bateman | CC0 1.0 | [Flickr](https://www.flickr.com/photos/134468672@N06/20265738272) |
 | `spanakopita-process.webp` / `.jpg` | Spanakopita | Process | Day 190 spanakopita factory | terri_bateman | CC0 1.0 | [Flickr](https://www.flickr.com/photos/134468672@N06/43285247322) |
 | `tzatziki.webp` / `.jpg` | Tzatziki | Hero | Préparation d'un tzatzíki maison en mars 2020 (003) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_d%27un_tzatz%C3%ADki_maison_en_mars_2020_(003).jpg) |
-| `avgolemono-soup.webp` / `.jpg` | Avgolemono Soup | Hero | Centaur & Lemon | pantelispan | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/162706130@N02/49575624038) |
 | `baklava.webp` / `.jpg` | Pistachio Baklava | Hero | Baklava | Leonid Yaitskiy | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/40369546@N00/35861810165) |
 | `pad-thai.webp` / `.jpg` | Pad Thai | Hero | Pad Thai 2017-12-17 (2) | Index Librorum Permissorum | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pad_Thai_2017-12-17_(2).jpg) |
 | `pad-thai-process.webp` / `.jpg` | Pad Thai | Process | Pad Thai 2018-01-07 (1) | Index Librorum Permissorum | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pad_Thai_2018-01-07_(1).jpg) |
@@ -528,7 +528,6 @@ licence as the rest of this project.
 | `ceviche.webp` / `.jpg` | Peruvian Ceviche | Hero | Ceviche at Peru | ProjectManhattan | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ceviche_at_Peru.jpg) |
 | `beef-empanadas.webp` / `.jpg` | Beef Empanadas | Hero | Beef Empanada - Malo Argentinian Empanadas, Brighton 2023-11-25 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Beef_Empanada_-_Malo_Argentinian_Empanadas,_Brighton_2023-11-25.jpg) |
 | `beef-empanadas-process.webp` / `.jpg` | Beef Empanadas | Process | Beef soup with hard-boiled egg, empanadas,Barreirinhas | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Beef_soup_with_hard-boiled_egg,_empanadas,Barreirinhas.jpg) |
-| `jerk-chicken.webp` / `.jpg` | Jamaican Jerk Chicken | Hero | Big Jerk Chicken stall | Rathfelder | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Big_Jerk_Chicken_stall.jpg) |
 | `cuban-sandwich.webp` / `.jpg` | Cuban Sandwich | Hero | Ham, Cheese, Pickle Sandwich | TheHolyCessna553 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ham,_Cheese,_Pickle_Sandwich.jpg) |
 | `cuban-sandwich-process.webp` / `.jpg` | Cuban Sandwich | Process | Ham & cheese toasted sandwich - Potatoast 2026-05-02 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ham_%26_cheese_toasted_sandwich_-_Potatoast_2026-05-02.jpg) |
 | `moroccan-chicken-tagine.webp` / `.jpg` | Moroccan Chicken Tagine | Hero | Traditional Moroccan Tagine Pot with Blue Patterns | Vineyi826 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Traditional_Moroccan_Tagine_Pot_with_Blue_Patterns.jpg) |
@@ -566,7 +565,6 @@ licence as the rest of this project.
 | `biscotti.webp` / `.jpg` | Almond Biscotti | Hero | Affogato with Amarretti Biscotti - Tavola Di Famiglia 2026-02-27 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Affogato_with_Amarretti_Biscotti_-_Tavola_Di_Famiglia_2026-02-27.jpg) |
 | `torta-caprese.webp` / `.jpg` | Torta Caprese | Hero | Tortacaprese10quat | Mgdongarra | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tortacaprese10quat.jpeg) |
 | `torta-caprese-process.webp` / `.jpg` | Torta Caprese | Process | Tortacapresespot | Mgdongarra | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tortacapresespot.jpeg) |
-| `croque-monsieur.webp` / `.jpg` | Croque Monsieur | Hero | Croque-monsieur of Mister Donut in Japan | 毒島みるく | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Croque-monsieur_of_Mister_Donut_in_Japan.jpg) |
 | `gratin-dauphinois.webp` / `.jpg` | Gratin Dauphinois | Hero | A gratin d auphinois on april 2025 | GinoOnassis | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_gratin_d_auphinois_on_april_2025.jpg) |
 | `gratin-dauphinois-process.webp` / `.jpg` | Gratin Dauphinois | Process | Gratin Dauphinois à l'Auberge Rouge (Saint-Maurice-de-Beynost) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gratin_Dauphinois_%C3%A0_l%27Auberge_Rouge_(Saint-Maurice-de-Beynost).JPG) |
 | `blanquette-de-veau.webp` / `.jpg` | Blanquette de Veau | Hero | Blanquette de veau, Julien, Paris | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blanquette_de_veau,_Julien,_Paris.jpg) |
@@ -597,7 +595,6 @@ licence as the rest of this project.
 | `agedashi-tofu.webp` / `.jpg` | Agedashi Tofu | Hero | Agedashi Tofu | LingLass | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=140935024) |
 | `chawanmushi.webp` / `.jpg` | Chawanmushi | Hero | Chawanmushi | yanayrosen | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/187878392@N04/53047158750) |
 | `chawanmushi-process.webp` / `.jpg` | Chawanmushi | Process | Le homard Breton,Chawanmushi, huile de fenouil. L'Anthocyane, Lannion | Syced | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=176885471) |
-| `tamagoyaki.webp` / `.jpg` | Tamagoyaki | Hero | Cooking crepe in square tamagoyaki frying pan | Syced | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=150646979) |
 | `dorayaki.webp` / `.jpg` | Dorayaki | Hero | Dorayaki 004 | Ocdp | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=119280668) |
 | `dorayaki-process.webp` / `.jpg` | Dorayaki | Process | An-dorayaki roll | Syced | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=175244921) |
 | `mochi.webp` / `.jpg` | Strawberry Daifuku Mochi | Hero | Daifuku 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daifuku_001.jpg) |
@@ -667,8 +664,6 @@ licence as the rest of this project.
 | `mozzarella-sticks.webp` / `.jpg` | Mozzarella Sticks | Hero | Mozzarella sticks | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54076133872) |
 | `mozzarella-sticks-process.webp` / `.jpg` | Mozzarella Sticks | Process | Mozzarella sticks | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/53953060106) |
 | `creamy-coleslaw.webp` / `.jpg` | Creamy Coleslaw | Hero | Coleslaw | Red Lobster Lover Joe twitter:RLLoverJoe | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/164188154@N05/55348353519) |
-| `classic-potato-salad.webp` / `.jpg` | Classic Potato Salad | Hero | Potato Salad at Transylvania Flavour | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/280142720) |
-| `classic-potato-salad-process.webp` / `.jpg` | Classic Potato Salad | Process | Potato Salad and Beans | US Embassy Canada | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/38144472@N04/5912882937) |
 | `boston-baked-beans.webp` / `.jpg` | Boston Baked Beans | Hero | Baked beans with molasses | U.S. Fish and Wildlife Service - Midwest Region | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/49208525@N08/4974247795) |
 | `classic-omelette.webp` / `.jpg` | Three-Egg Omelette | Hero | Prawns & Feta Omelette | o.tacke | CC0 1.0 | [Flickr](https://www.flickr.com/photos/89882948@N05/22723171948) |
 | `classic-omelette-process.webp` / `.jpg` | Three-Egg Omelette | Process | Japaness Omelette (5) | 林彌猴 | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=154065265) |
@@ -687,7 +682,6 @@ licence as the rest of this project.
 | `lemon-meringue-pie.webp` / `.jpg` | Lemon Meringue Pie | Hero | Made lemon meringue pie today. | Kim Siever | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/57873306@N00/24482268722) |
 | `smores.webp` / `.jpg` | S'mores | Hero | smores | WPAUMC | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/125163985@N05/36067643652) |
 | `smores-process.webp` / `.jpg` | S'mores | Process | Smores dessert served sundae cup | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/11524477/photo-image-woman-public-domain-wedding) |
-| `vanilla-cupcakes.webp` / `.jpg` | Vanilla Cupcakes | Hero | strawberry cupcake | ani! | CC0 1.0 | [Flickr](https://www.flickr.com/photos/53018729@N00/14375924764) |
 | `cottage-pie.webp` / `.jpg` | Cottage Pie | Hero | Cottage pie | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54327261307) |
 | `roast-beef-yorkshire.webp` / `.jpg` | Roast Beef and Yorkshire Puddings | Hero | Roast Topside of Beef - Sheppy's 2025-07-27 | Andy Li | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=171283080) |
 | `welsh-rarebit.webp` / `.jpg` | Welsh Rarebit | Hero | Welsh Rarebit - Hoogly Tea Lodge 2024-03-24 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Welsh_Rarebit_-_Hoogly_Tea_Lodge_2024-03-24.jpg) |
@@ -714,8 +708,6 @@ licence as the rest of this project.
 | `larb-gai.webp` / `.jpg` | Larb Gai | Hero | Duck larb | ernie_nh7l | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/37789131@N08/48849223896) |
 | `thai-red-curry.webp` / `.jpg` | Thai Red Curry | Hero | Red curry | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/3282967/free-photo-image-thai-food-photography-spicy) |
 | `thai-iced-tea.webp` / `.jpg` | Thai Iced Tea | Hero | Cannon Beach Thai Cuisine Thai Iced Tea | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/79456295) |
-| `com-tam.webp` / `.jpg` | Cơm Tấm | Hero | Grilled pork | clvs7 | CC0 1.0 | [Flickr](https://www.flickr.com/photos/182866455@N04/48753052901) |
-| `com-tam-process.webp` / `.jpg` | Cơm Tấm | Process | Grilled pork | clvs7 | CC0 1.0 | [Flickr](https://www.flickr.com/photos/182866455@N04/48752721213) |
 | `cha-gio.webp` / `.jpg` | Chả Giò | Hero | Golden-brown spring rolls on paper, resting on a patterned plate. The rolls appear crisp and freshly fried, conveying a warm and appetizing tone. | Tawhid Sadman | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/38769d3a75/) |
 | `kimbap.webp` / `.jpg` | Kimbap | Hero | Kimbap | yanayrosen | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/187878392@N04/52201736125) |
 | `kimbap-process.webp` / `.jpg` | Kimbap | Process | Kimbap | yanayrosen | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/187878392@N04/52200237802) |
@@ -733,9 +725,6 @@ licence as the rest of this project.
 | `lomo-saltado.webp` / `.jpg` | Lomo Saltado | Hero | Lomo Saltado. Cocina Peruana | MI PERÚ | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/134894678@N07/25528534673) |
 | `aji-de-gallina.webp` / `.jpg` | Ají de Gallina | Hero | aji de gallina, cayenne pepper, paprika, pimiento | 葉子 | CC0 1.0 | [Inaturalist](https://www.inaturalist.org/photos/56579632) |
 | `alfajores.webp` / `.jpg` | Alfajores | Hero | Alfajores de quinoa dinkenesh | Nicoviveros | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Alfajores_de_quinoa_dinkenesh.jpg) |
-| `olivier-salad.webp` / `.jpg` | Olivier Salad | Hero | Potato Salad at Transylvania Flavour | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/280142720) |
-| `golabki.webp` / `.jpg` | Gołąbki | Hero | Stuffing cabbage leaves for kimchi 2 | Nutrition, Food Safety & Health | CC0 1.0 | [Flickr](https://www.flickr.com/photos/93936679@N05/48407483856) |
-| `golabki-process.webp` / `.jpg` | Gołąbki | Process | Stuffing cabbage leaves for kimchi 3 | Nutrition, Food Safety & Health | CC0 1.0 | [Flickr](https://www.flickr.com/photos/93936679@N05/48407634607) |
 | `sauerbraten.webp` / `.jpg` | Sauerbraten | Hero | Sauerbraten with potato dumplings | Jameres | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg) |
 | `gravlax.webp` / `.jpg` | Gravlax | Hero | Gravlax 02 | Arnaud 25 | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=184749869) |
 | `kanelbullar.webp` / `.jpg` | Kanelbullar | Hero | cinnamon bun | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/6066158/free-public-domain-cc0-photo) |
@@ -792,7 +781,6 @@ licence as the rest of this project.
 | `scallion-pancakes.webp` / `.jpg` | Scallion Pancakes | Hero | 20251106 214906 Shengli scallion pancake | Saimmx | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20251106_214906_Shengli_scallion_pancake.jpg) |
 | `scallion-pancakes-process.webp` / `.jpg` | Scallion Pancakes | Process | Duck and kimchi pancake, with soy scallion sauce - Cambridge, MA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duck_and_kimchi_pancake,_with_soy_scallion_sauce_-_Cambridge,_MA.jpg) |
 | `beef-chow-fun.webp` / `.jpg` | Beef Chow Fun | Hero | Dry Fried Beef Ho Fun - Ho Chiak 2023-12-08 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dry_Fried_Beef_Ho_Fun_-_Ho_Chiak_2023-12-08.jpg) |
-| `lion-head-meatballs.webp` / `.jpg` | Lion's Head Meatballs | Hero | 三重の獅子舞で使う「獅子頭」です。 | 末博 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E4%B8%89%E9%87%8D%E3%81%AE%E7%8D%85%E5%AD%90%E8%88%9E%E3%81%A7%E4%BD%BF%E3%81%86%E3%80%8C%E7%8D%85%E5%AD%90%E9%A0%AD%E3%80%8D%E3%81%A7%E3%81%99%E3%80%82.jpg) |
 | `egg-tarts.webp` / `.jpg` | Hong Kong Egg Tarts | Hero | HK WC 灣仔 Wan Chai 利東街 Lee Tung Avenue shop 蛋撻王 King Bakery egg tarts April 2024 R12S | YUEO YRUAIN LUKAM | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E5%88%A9%E6%9D%B1%E8%A1%97_Lee_Tung_Avenue_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_egg_tarts_April_2024_R12S.jpg) |
 | `wonton-noodle-soup.webp` / `.jpg` | Wonton Noodle Soup | Hero | Gfp-noodle-soup-with-shrimp-dumplings | Yinan Chen | Public Domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gfp-noodle-soup-with-shrimp-dumplings.jpg) |
 | `wonton-noodle-soup-process.webp` / `.jpg` | Wonton Noodle Soup | Process | SZ 深圳 Shenzhen 福田 Futian 水圍村 Shui Wai Cun 沙縣小吃 ShaXian Snacks Noodle Shop night 云吞 wunton soup February 2025 R12S 02 | LAAePSts Lusnsaz WHA | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D%E6%9D%91_Shui_Wai_Cun_%E6%B2%99%E7%B8%A3%E5%B0%8F%E5%90%83_ShaXian_Snacks_Noodle_Shop_night_%E4%BA%91%E5%90%9E_wunton_soup_February_2025_R12S_02.jpg) |
@@ -803,8 +791,6 @@ licence as the rest of this project.
 | `vada-pav.webp` / `.jpg` | Vada Pav | Hero | Jumbo Vada Pav | Mayur.thakare at English Wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav.jpg) |
 | `vada-pav-process.webp` / `.jpg` | Vada Pav | Process | Jumbo Vada Pav (dodged) | Uploader of original version was Mayur.thakare at en.wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav_(dodged).jpg) |
 | `masala-chai.webp` / `.jpg` | Masala Chai | Hero | Masala Chai | Miansari66 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG) |
-| `samosa.webp` / `.jpg` | Punjabi Samosa | Hero | Aloo matar with samosa and green chili pickle - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_matar_with_samosa_and_green_chili_pickle_-_Massachusetts.jpg) |
-| `samosa-process.webp` / `.jpg` | Punjabi Samosa | Process | Meat pie samosa and spring roll | Aisha Yahuza | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Meat_pie_samosa_and_spring_roll.jpg) |
 | `naan.webp` / `.jpg` | Garlic Naan | Hero | Bánh mì Naan tỏi ở Tân Phú (1) | Phương Huy (thảo luận) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_Naan_t%E1%BB%8Fi_%E1%BB%9F_T%C3%A2n_Ph%C3%BA_(1).jpg) |
 | `enchiladas-verdes.webp` / `.jpg` | Enchiladas Verdes | Hero | Enchiladas de carnitas de pato. Salsa de pipián verde. (Puebla, Puebla) | Joselu Blanco | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_de_carnitas_de_pato._Salsa_de_pipi%C3%A1n_verde._(Puebla,_Puebla).jpg) |
 | `enchiladas-verdes-process.webp` / `.jpg` | Enchiladas Verdes | Process | Enchiladas verdes en Tonatico | Wotancito | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_verdes_en_Tonatico.jpg) |
@@ -845,11 +831,27 @@ licence as the rest of this project.
 | `sachertorte.webp` / `.jpg` | Sachertorte | Hero | 01 Sachertorte | Jennifer Woodard Maderazo | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:01_Sachertorte.jpg) |
 | `kaiserschmarrn.webp` / `.jpg` | Kaiserschmarrn | Hero | Kaiserschmarrn, Munich | Gerda Arendt | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaiserschmarrn,_Munich.jpg) |
 | `kaiserschmarrn-process.webp` / `.jpg` | Kaiserschmarrn | Process | Kaiserschmarrn-mitPreiselbeeren | Hans-Werner Roth | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaiserschmarrn-mitPreiselbeeren.jpg) |
+| `cheese-fondue.webp` / `.jpg` | Cheese Fondue | Hero | Swiss cheese fondue | Brücke-Osteuropa | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Swiss_cheese_fondue.JPG) |
+| `cheese-fondue-process.webp` / `.jpg` | Cheese Fondue | Process | Fondue au fromage | BiiJii | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fondue_au_fromage.jpg) |
 | `rosti.webp` / `.jpg` | Rösti | Hero | GV Fribourg BR Rösti | Stefan Gall | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GV_Fribourg_BR_R%C3%B6sti.jpg) |
 | `rosti-process.webp` / `.jpg` | Rösti | Process | Sweet potato rosti - Malt Cafe 2026-01-14 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sweet_potato_rosti_-_Malt_Cafe_2026-01-14.jpg) |
+| `raclette.webp` / `.jpg` | Raclette | Hero | Raclette - 001 | Martin Steiger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Raclette_-_001.jpg) |
+| `belgian-waffles.webp` / `.jpg` | Belgian Waffles | Hero | Belgian Waffles - Flickr - Jackie L Chan | J c | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Belgian_Waffles_-_Flickr_-_Jackie_L_Chan.jpg) |
+| `belgian-waffles-process.webp` / `.jpg` | Belgian Waffles | Process | Belgian waffles - Brussels, Belgium, 2011 (2011-05-22 11.55.35 by Thomas Quine) | Thomas Quine | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Belgian_waffles_-_Brussels,_Belgium,_2011_(2011-05-22_11.55.35_by_Thomas_Quine).jpg) |
 | `carbonnade-flamande.webp` / `.jpg` | Carbonnade Flamande | Hero | Carbonnade flamande à la bière | Francisco Antunes | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carbonnade_flamande_%C3%A0_la_bi%C3%A8re.jpg) |
 | `belgian-frites.webp` / `.jpg` | Belgian Frites | Hero | Belgian fries with sauce andalouse in Brussels | CCPictureHunters WikipediaShare | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Belgian_fries_with_sauce_andalouse_in_Brussels.jpg) |
 | `belgian-frites-process.webp` / `.jpg` | Belgian Frites | Process | HK SKD TKO South 將軍澳南海濱 Tseung Kwan O South Promenade 澳南海岸 O'South Coast restaurants February 2024 R12S 20 Frites | Hongang PettyHtan Loong01 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_South_%E5%B0%87%E8%BB%8D%E6%BE%B3%E5%8D%97%E6%B5%B7%E6%BF%B1_Tseung_Kwan_O_South_Promenade_%E6%BE%B3%E5%8D%97%E6%B5%B7%E5%B2%B8_O%27South_Coast_restaurants_February_2024_R12S_20_Frites.jpg) |
+| `stroopwafel.webp` / `.jpg` | Stroopwafels | Hero | Mr Stroopwafel - April 2025 - Sarah Stierch 02 | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mr_Stroopwafel_-_April_2025_-_Sarah_Stierch_02.jpg) |
+| `bitterballen.webp` / `.jpg` | Bitterballen | Hero | Bitterballen | Globered13 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bitterballen.JPG) |
+| `bitterballen-process.webp` / `.jpg` | Bitterballen | Process | Bitterballen with Dijon mustard - Taproom ‘t Blauwe Theehuis 2024-11-26 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bitterballen_with_Dijon_mustard_-_Taproom_%E2%80%98t_Blauwe_Theehuis_2024-11-26.jpg) |
+| `poffertjes.webp` / `.jpg` | Poffertjes | Hero | Brouwer van de poffertjeskraam deelt ter gelegenheid van zijn 76ste verjaardag poffertjes uit | Olaf Kraak (UP de Boer) | CC BY 3.0 nl | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brouwer_van_de_poffertjeskraam_deelt_ter_gelegenheid_van_zijn_76ste_verjaardag_poffertjes_uit.jpg) |
+| `smorrebrod.webp` / `.jpg` | Smørrebrød | Hero | Smørrebrød. Rejemad på franskbrød fra Hallernes Smørrebrød. Torvehallerne i København. Foto Hans Christian Hansen | XYZA-2400 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d._Rejemad_p%C3%A5_franskbr%C3%B8d_fra_Hallernes_Sm%C3%B8rrebr%C3%B8d._Torvehallerne_i_K%C3%B8benhavn._Foto_Hans_Christian_Hansen.jpg) |
+| `smorrebrod-process.webp` / `.jpg` | Smørrebrød | Process | Smørrebrød (Vester Voldgade) | Orf3us | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_(Vester_Voldgade).JPG) |
+| `danish-pastry.webp` / `.jpg` | Danish Pastries | Hero | Cherry pistachio pinwheel Danish pastry | Funknendai | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cherry_pistachio_pinwheel_Danish_pastry.png) |
+| `frikadeller.webp` / `.jpg` | Frikadeller | Hero | Frikadeller - Hallwylska museet - 86897 | Unknown authorUnknown author | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frikadeller_-_Hallwylska_museet_-_86897.tif) |
+| `frikadeller-process.webp` / `.jpg` | Frikadeller | Process | Frikadeller og stuvet hvidkål | Nillerdk | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frikadeller_og_stuvet_hvidk%C3%A5l.jpg) |
+| `norwegian-fish-soup.webp` / `.jpg` | Norwegian Fish Soup | Hero | Fish soup in Bergen | Flickr user: Tu Grand Forks, ND, USA https://www.flickr.com/people/tuey/ | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fish_soup_in_Bergen.jpg) |
+| `prinsesstarta.webp` / `.jpg` | Prinsesstårta | Hero | Princess Cake 2025-Oct-02 | MarcellusW | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Princess_Cake_2025-Oct-02.jpg) |
 
 ---
 
