@@ -735,7 +735,9 @@ def gather(query, tags=()):
     # only takes on a crediting obligation where the alternative is nothing.
     for licence in LICENCE_FILTERS:
         attempts.append(lambda lic=licence: commons_candidates(query, "", lic, tags))
-        attempts.append(lambda lic=licence: commons_candidates(query, "food", lic, tags))
+    # The "food" variant is a second full search for a marginal gain, so it is
+    # the last thing tried rather than doubling the cost of every recipe.
+    attempts.append(lambda: commons_candidates(query, "food", LICENCE_FILTERS[-1], tags))
     for attempt in attempts:
         for c in attempt():
             key = c["url"]
@@ -747,7 +749,7 @@ def gather(query, tags=()):
             if key and key not in seen and c["score"] >= 0.5 and c.get("strong"):
                 seen.add(key)
                 pool.append(c)
-        if len(pool) >= 4:
+        if len(pool) >= 2:
             break
     # Prefer an equally relevant image from a host that will answer immediately,
     # and fall back to a throttled one only when it is the only match.
@@ -851,7 +853,7 @@ def main():
         log(f"[{idx + 1:3d}/{len(catalog)}] {slug}  <- {query}")
         tags = rec.get("tags") or ()
         pool = gather(query, tags)
-        for fallback in alts.get(slug, []):
+        for fallback in (alts.get(slug) or [])[:2]:
             if pool:
                 break
             log(f"    · retrying as \"{fallback}\"")
