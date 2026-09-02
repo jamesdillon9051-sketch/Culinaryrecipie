@@ -55,6 +55,11 @@ BAD_TOKENS = re.compile(
     r"painting|illustration|coat of arms|flag of|stereograph|postcard|engraving|"
     r"lithograph|dennis collection|collection\.|archive|museum|advertisement|"
     r"cookbook|book cover|page from|title page|nasa|patent|"
+    # The raw components laid out, not the cooked dish. "01 Ingrédients de la
+    # soupe de pistou" scores 1.00 against "Soupe au pistou" and is a basket of
+    # vegetables in a garden with a chicken walking past.
+    r"ingr[ée]dient|ingredienti|ingredientes|zutaten|mise en place|"
+    r"uncooked|before cooking|raw ingredients|"
     # An archival date, standalone and old enough to mean a historical scan.
     r"\b1[0-8][0-9]{2}\b|\b19[0-5][0-9]\b|"
     # Product shots, clip art and brand assets look like food in a search

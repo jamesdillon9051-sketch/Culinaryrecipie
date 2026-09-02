@@ -4691,6 +4691,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vitello-tonnato.jpg</image:loc>
+      <image:title>Vitello Tonnato</image:title>
+      <image:caption>Vitello Tonnato — Italian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/focaccia-genovese/</loc>
@@ -4719,6 +4724,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pasta-alla-gricia.jpg</image:loc>
+      <image:title>Pasta alla Gricia</image:title>
+      <image:caption>Pasta alla Gricia — Italian quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/caponata/</loc>
@@ -4995,6 +5005,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vada-pav.jpg</image:loc>
+      <image:title>Vada Pav</image:title>
+      <image:caption>Vada Pav — Indian quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/masala-chai/</loc>

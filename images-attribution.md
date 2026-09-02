@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 543
+Every photograph on CulinaryVault is freely licensed. Of 548
 images, **543** are CC0 or public domain and carry no conditions at all, and
-**0** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**5** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,10 +36,10 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 387 |
-| Secondary "process" images | 156 |
-| Total image files | 1086 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 213 |
+| Hero images | 390 |
+| Secondary "process" images | 158 |
+| Total image files | 1096 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 210 |
 
 ### Licences used
 
@@ -49,6 +49,8 @@ nothing than use an image we do not have clear rights to.
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
 | Public domain | 39 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 
 Licence texts:
@@ -111,10 +113,7 @@ CC BY image of sufficient quality and relevance could be found:
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Ragù Napoletano (`ragu-napoletano`)
-- Vitello Tonnato (`vitello-tonnato`)
-- Pasta alla Gricia (`pasta-alla-gricia`)
 - Soupe au Pistou (`soupe-au-pistou`)
-- Vada Pav (`vada-pav`)
 - Enchiladas Verdes (`enchiladas-verdes`)
 - Horchata (`horchata`)
 - Texas Smoked Brisket (`brisket`)
@@ -788,9 +787,12 @@ licence as the rest of this project.
 | `bubble-tea-process.webp` / `.jpg` | Brown Sugar Bubble Tea | Process | Mon01Sep2004:Driving Home - Gastown to Bubble Tea on Burrard | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/320177) |
 | `mulled-wine.webp` / `.jpg` | Mulled Wine | Hero | Free mulled wine image | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5917422/image-christmas-public-domain-free) |
 | `pasta-e-fagioli.webp` / `.jpg` | Pasta e Fagioli | Hero | Pasta e fagioli - minestra | valtercirillo | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_-_minestra.jpg) |
+| `vitello-tonnato.webp` / `.jpg` | Vitello Tonnato | Hero | Vitello tonnato | jules | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vitello_tonnato.jpg) |
 | `focaccia-genovese.webp` / `.jpg` | Focaccia Genovese | Hero | Focaccia salata e prosciutto | Osteria delle Taverne | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/135949150@N02/22980680231) |
 | `gnocchi-alla-sorrentina.webp` / `.jpg` | Gnocchi alla Sorrentina | Hero | Gluten free Gnocchi (Unsplash) | Toa Heftiba heftiba | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gluten_free_Gnocchi_(Unsplash).jpg) |
 | `gnocchi-alla-sorrentina-process.webp` / `.jpg` | Gnocchi alla Sorrentina | Process | Gnocchi Carbonara - Moontone | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gnocchi_Carbonara_-_Moontone.jpg) |
+| `pasta-alla-gricia.webp` / `.jpg` | Pasta alla Gricia | Hero | Pasta alla Gricia | Luca Nebuloni from Milan, Italy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_alla_Gricia.jpg) |
+| `pasta-alla-gricia-process.webp` / `.jpg` | Pasta alla Gricia | Process | Gricia (7378890110) | Luca Nebuloni from Milan, Italy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gricia_(7378890110).jpg) |
 | `caponata.webp` / `.jpg` | Sicilian Caponata | Hero | Pizzeria Bella Italia (Crépieux-la-Pape) - caponata (1) (février 2020) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_caponata_(1)_(f%C3%A9vrier_2020).jpg) |
 | `caponata-process.webp` / `.jpg` | Sicilian Caponata | Process | Pizzeria Bella Italia (Crépieux-la-Pape) - caponata (2) (février 2020) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_caponata_(2)_(f%C3%A9vrier_2020).jpg) |
 | `zeppole.webp` / `.jpg` | Zeppole | Hero | Zeppole | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5953133/free-public-domain-cc0-photo) |
@@ -824,6 +826,8 @@ licence as the rest of this project.
 | `dal-makhani.webp` / `.jpg` | Dal Makhani | Hero | Dal Makhani. | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG) |
 | `dal-makhani-process.webp` / `.jpg` | Dal Makhani | Process | Dal Makhani (1) | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_Makhani_(1).JPG) |
 | `hyderabadi-biryani.webp` / `.jpg` | Hyderabadi Biryani | Hero | Chicken Dum Biryani from Hyderabadi Zaiqa | Nycexploring | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Dum_Biryani_from_Hyderabadi_Zaiqa.jpg) |
+| `vada-pav.webp` / `.jpg` | Vada Pav | Hero | Jumbo Vada Pav | Mayur.thakare at English Wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav.jpg) |
+| `vada-pav-process.webp` / `.jpg` | Vada Pav | Process | Jumbo Vada Pav (dodged) | Uploader of original version was Mayur.thakare at en.wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav_(dodged).jpg) |
 | `masala-chai.webp` / `.jpg` | Masala Chai | Hero | Masala Chai | Miansari66 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG) |
 | `samosa.webp` / `.jpg` | Punjabi Samosa | Hero | Aloo matar with samosa and green chili pickle - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aloo_matar_with_samosa_and_green_chili_pickle_-_Massachusetts.jpg) |
 | `samosa-process.webp` / `.jpg` | Punjabi Samosa | Process | Meat pie samosa and spring roll | Aisha Yahuza | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Meat_pie_samosa_and_spring_roll.jpg) |
