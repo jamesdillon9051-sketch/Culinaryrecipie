@@ -84,6 +84,10 @@ BAD_TOKENS = re.compile(
     # A grave, not a plate. Romanian "mici" also means "small ones", and what
     # came back was a composer's headstone banked with small begonias.
     r"\bgrave\b|cemeter|\btomb\b|headstone|mormant|mormânt|compozitor|memorial|"
+    # The product on a shelf, not the dish on a plate. Molokhia came back as a
+    # 400g packet of frozen leaves held up in a Cairo hypermarket.
+    r"supermarket|hypermarket|grocer|\bpacket\b|\bpouch\b|\bsachet\b|"
+    r"shelf|aisle|\bfrozen\b(?! yog)|"
     # A band named after the dish. "Psychedelic Porn Crumpets" is a real group
     # and the photograph is of a guitarist mid-solo.
     # Acts named after food. There is no general signal for these — the title
@@ -357,6 +361,18 @@ def strip_html(s):
 WEAK = set("""japanese chinese korean thai indian french italian mexican greek turkish
 spanish portuguese german swedish russian polish british american vietnamese
 malaysian indonesian brazilian nigerian ethiopian jamaican peruvian argentinian
+taiwanese pakistani lankan filipino cuban colombian chilean trinidadian
+ghanaian kenyan australian hawaiian irish scottish welsh austrian swiss
+belgian dutch danish norwegian finnish czech romanian georgian lebanese
+persian israeli tunisian egyptian moroccan hungarian bulgarian croatian
+serbian maltese icelandic
+japan china korea thailand india france italy mexico greece turkey spain
+portugal germany sweden russia poland britain england america vietnam
+malaysia indonesia brazil nigeria ethiopia jamaica peru argentina taiwan
+pakistan lanka philippines cuba colombia chile trinidad ghana kenya
+australia hawaii ireland scotland wales austria switzerland belgium
+netherlands denmark norway finland czechia romania georgia lebanon
+iran israel tunisia egypt morocco hungary
 white black red green yellow brown golden dark light sweet sour spicy hot cold
 small large whole half fresh dried new old traditional national street home
 food dishes meal plate bowls cooking cooked recipe recipes

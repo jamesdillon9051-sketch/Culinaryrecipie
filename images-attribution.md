@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 672
-images, **601** are CC0 or public domain and carry no conditions at all, and
-**71** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 721
+images, **621** are CC0 or public domain and carry no conditions at all, and
+**100** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,28 +42,29 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 478 |
-| Secondary "process" images | 194 |
-| Total image files | 1344 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 122 |
+| Hero images | 513 |
+| Secondary "process" images | 208 |
+| Total image files | 1442 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 87 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 332 | No rights reserved — no attribution legally required |
+| CC0 | 351 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
-| Public domain | 58 | No rights reserved — no attribution legally required |
+| Public domain | 59 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 40 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 32 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 4.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 7 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 4.0 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 4.0 | 29 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 4.0 | 6 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 3.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 3.0 nl | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 2.5 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 
 Licence texts:
 
@@ -87,8 +88,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Mexican Red Rice (`mexican-rice`)
 - Chicken Pot Pie (`chicken-pot-pie`)
 - Beer-Battered Onion Rings (`onion-rings`)
-- Classic Potato Salad (`classic-potato-salad`)
-- Vanilla Cupcakes (`vanilla-cupcakes`)
 - Chocolate Milkshake (`chocolate-milkshake`)
 - Toad in the Hole (`toad-in-the-hole`)
 - Greek Keftedes (`keftedes`)
@@ -101,46 +100,13 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Ahi Poke Bowl (`poke-bowl`)
 - Lion's Head Meatballs (`lion-head-meatballs`)
 - Welsh Cawl (`cawl`)
-- Mici (`mici`)
 - Lobio (`lobio`)
 - Greek Lemon Potatoes (`greek-lemon-potatoes`)
 - Greek Yoghurt with Honey and Walnuts (`greek-yogurt-honey`)
-- Maamoul (`maamoul`)
-- Ghormeh Sabzi (`ghormeh-sabzi`)
-- Fesenjan (`fesenjan`)
-- Tahdig (`tahdig`)
-- Joojeh Kabab (`joojeh-kabab`)
-- Ash Reshteh (`ash-reshteh`)
-- Sabich (`sabich`)
-- Malabi (`malabi`)
 - Israeli Couscous Salad (`israeli-couscous-salad`)
-- Musakhan (`musakhan`)
-- Harees (`harees`)
-- Knafeh Nabulsi (`knafeh-nabulsi`)
-- Chicken Tagine with Olives (`chicken-tagine-olives`)
-- Msemen (`msemen`)
-- Moroccan Mint Tea (`moroccan-mint-tea`)
 - Molokhia (`molokhia`)
-- Tunisian Brik (`brik`)
-- Merguez Shakshuka (`shakshuka-tunisian`)
-- Jamón Croquetas (`croquetas`)
-- Crema Catalana (`crema-catalana`)
-- Francesinha (`francesinha`)
-- Arroz de Marisco (`arroz-de-marisco`)
-- Bifana (`bifana`)
 - Cá Kho Tộ (`ca-kho-to`)
-- Taiwanese Beef Noodle Soup (`beef-noodle-soup`)
-- Lu Rou Fan (`lu-rou-fan`)
 - Taiwanese Popcorn Chicken (`popcorn-chicken-taiwanese`)
-- Pineapple Cake (`pineapple-cake`)
-- Nihari (`nihari`)
-- Haleem (`haleem`)
-- Seekh Kebab (`seekh-kebab`)
-- Chapli Kebab (`chapli-kebab`)
-- Sri Lankan Fish Curry (`sri-lankan-fish-curry`)
-- Egg Hoppers (`hoppers`)
-- Kottu Roti (`kottu-roti`)
-- Soto Ayam (`soto-ayam`)
 - Martabak Manis (`martabak`)
 - Sambal Goreng Tempeh (`sambal-goreng`)
 - Nasi Lemak (`nasi-lemak`)
@@ -623,6 +589,8 @@ licence as the rest of this project.
 | `mozzarella-sticks.webp` / `.jpg` | Mozzarella Sticks | Hero | Mozzarella sticks | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54076133872) |
 | `mozzarella-sticks-process.webp` / `.jpg` | Mozzarella Sticks | Process | Mozzarella sticks | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/53953060106) |
 | `creamy-coleslaw.webp` / `.jpg` | Creamy Coleslaw | Hero | Coleslaw | Red Lobster Lover Joe twitter:RLLoverJoe | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/164188154@N05/55348353519) |
+| `classic-potato-salad.webp` / `.jpg` | Classic Potato Salad | Hero | Kartoffelsalat mit Borretsch | Schnobby | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kartoffelsalat_mit_Borretsch.jpg) |
+| `classic-potato-salad-process.webp` / `.jpg` | Classic Potato Salad | Process | Schwäbischer Kartoffelsalat mit Maultaschen | Brücke-Osteuropa | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schw%C3%A4bischer_Kartoffelsalat_mit_Maultaschen.JPG) |
 | `boston-baked-beans.webp` / `.jpg` | Boston Baked Beans | Hero | Baked beans with molasses | U.S. Fish and Wildlife Service - Midwest Region | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/49208525@N08/4974247795) |
 | `classic-omelette.webp` / `.jpg` | Three-Egg Omelette | Hero | Prawns & Feta Omelette | o.tacke | CC0 1.0 | [Flickr](https://www.flickr.com/photos/89882948@N05/22723171948) |
 | `classic-omelette-process.webp` / `.jpg` | Three-Egg Omelette | Process | Japaness Omelette (5) | 林彌猴 | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=154065265) |
@@ -641,6 +609,7 @@ licence as the rest of this project.
 | `lemon-meringue-pie.webp` / `.jpg` | Lemon Meringue Pie | Hero | Made lemon meringue pie today. | Kim Siever | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/57873306@N00/24482268722) |
 | `smores.webp` / `.jpg` | S'mores | Hero | smores | WPAUMC | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/125163985@N05/36067643652) |
 | `smores-process.webp` / `.jpg` | S'mores | Process | Smores dessert served sundae cup | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/11524477/photo-image-woman-public-domain-wedding) |
+| `vanilla-cupcakes.webp` / `.jpg` | Vanilla Cupcakes | Hero | Engagement cupcakes with chocolate frosting and pink decorations | Kristin Ausk | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Engagement_cupcakes_with_chocolate_frosting_and_pink_decorations.jpg) |
 | `cottage-pie.webp` / `.jpg` | Cottage Pie | Hero | Cottage pie | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54327261307) |
 | `cornish-pasty.webp` / `.jpg` | Cornish Pasty | Hero | Cornish pasties at Cornish Pasty Shop, Brighton 2023-06-19 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cornish_pasties_at_Cornish_Pasty_Shop,_Brighton_2023-06-19.jpg) |
 | `roast-beef-yorkshire.webp` / `.jpg` | Roast Beef and Yorkshire Puddings | Hero | Roast Topside of Beef - Sheppy's 2025-07-27 | Andy Li | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=171283080) |
@@ -875,6 +844,7 @@ licence as the rest of this project.
 | `langos.webp` / `.jpg` | Lángos | Hero | Budapest, Békásmegyer, piac, bolognai lángos | Random photos 1989 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Budapest,_B%C3%A9k%C3%A1smegyer,_piac,_bolognai_l%C3%A1ngos.jpg) |
 | `langos-process.webp` / `.jpg` | Lángos | Process | Budapest, Békásmegyer, piac, sajtos-tejfölös lángos | Random photos 1989 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Budapest,_B%C3%A9k%C3%A1smegyer,_piac,_sajtos-tejf%C3%B6l%C3%B6s_l%C3%A1ngos.jpg) |
 | `sarmale.webp` / `.jpg` | Sarmale | Hero | Sarmale | No machine-readable author provided. Zserghei assumed (based on copyright claims). | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sarmale.jpg) |
+| `mici.webp` / `.jpg` | Mici | Hero | Rumänischer Mixed-Grill mit Mici und Beilagen | Sacha47 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rum%C3%A4nischer_Mixed-Grill_mit_Mici_und_Beilagen.jpg) |
 | `khachapuri.webp` / `.jpg` | Adjaruli Khachapuri | Hero | Adjarian Khachapuri. Saint Petersburg, 2024-07-24 | Bestalex | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri._Saint_Petersburg,_2024-07-24.jpg) |
 | `khinkali.webp` / `.jpg` | Khinkali | Hero | Kazbegi, Khinkali, Georgia | Vyacheslav Argenberg | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kazbegi,_Khinkali,_Georgia.jpg) |
 | `khinkali-process.webp` / `.jpg` | Khinkali | Process | Tbilisi, Khachapuri and khinkali, Georgian traditional food, Georgia | Vyacheslav Argenberg | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tbilisi,_Khachapuri_and_khinkali,_Georgian_traditional_food,_Georgia.jpg) |
@@ -886,6 +856,51 @@ licence as the rest of this project.
 | `shish-taouk.webp` / `.jpg` | Shish Taouk | Hero | Armenian Shish taouk (Carousel Restaurant Hollywood) July 2023 | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Armenian_Shish_taouk_(Carousel_Restaurant_Hollywood)_July_2023.JPG) |
 | `shish-taouk-process.webp` / `.jpg` | Shish Taouk | Process | Raw Shish Taouk | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Raw_Shish_Taouk.JPG) |
 | `moutabal.webp` / `.jpg` | Moutabal | Hero | متبل Mutabbal (Las Siete Orillas project) | El Mono Español | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%85%D8%AA%D8%A8%D9%84_Mutabbal_(Las_Siete_Orillas_project).jpg) |
+| `maamoul.webp` / `.jpg` | Maamoul | Hero | Maamoul (241884747) | Father.Jack from Coventry, UK | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maamoul_(241884747).jpg) |
+| `ghormeh-sabzi.webp` / `.jpg` | Ghormeh Sabzi | Hero | Ghormeh Sabzi | Amin Majidi | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ghormeh_Sabzi.JPG) |
+| `fesenjan.webp` / `.jpg` | Fesenjan | Hero | Khoresht-e fesenjan | stringparts | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khoresht-e_fesenjan.jpg) |
+| `tahdig.webp` / `.jpg` | Tahdig | Hero | Tahdig rice with B2 picture | Nizzan Cohen | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tahdig_rice_with_B2_picture.jpg) |
+| `joojeh-kabab.webp` / `.jpg` | Joojeh Kabab | Hero | Joojeh-kabab | Nasser-sadeghi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joojeh-kabab.JPG) |
+| `ash-reshteh.webp` / `.jpg` | Ash Reshteh | Hero | Ash Reshteh | AilinParsa | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ash_Reshteh.JPG) |
+| `sabich.webp` / `.jpg` | Sabich | Hero | Liat Portal for Foodie Disorder - Open sabich (personal variation) | HaJunkiyada | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Open_sabich_(personal_variation).jpg) |
+| `sabich-process.webp` / `.jpg` | Sabich | Process | Ovad's Sabich place | Laliv g | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ovad%27s_Sabich_place.jpg) |
+| `malabi.webp` / `.jpg` | Malabi | Hero | Baklava and Malabi desserts | Cabeza2000 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baklava_and_Malabi_desserts.jpg) |
+| `musakhan.webp` / `.jpg` | Musakhan | Hero | Musakhan | Amaiursancho5 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Musakhan.jpg) |
+| `harees.webp` / `.jpg` | Harees | Hero | Harees | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Harees.JPG) |
+| `harees-process.webp` / `.jpg` | Harees | Process | Al fanar harees (7797136886) | Krista | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Al_fanar_harees_(7797136886).jpg) |
+| `knafeh-nabulsi.webp` / `.jpg` | Knafeh Nabulsi | Hero | Knafeh From Yaffa Knafeh | Theipu | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Knafeh_From_Yaffa_Knafeh.jpg) |
+| `chicken-tagine-olives.webp` / `.jpg` | Chicken Tagine with Olives | Hero | Moroccan food-Chicken tagine with preserved lemons and olives-01 | Foodista | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg) |
+| `chicken-tagine-olives-process.webp` / `.jpg` | Chicken Tagine with Olives | Process | Moroccan food-Chicken tagine with preserved lemons and olives-02 | Foodista | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg) |
+| `msemen.webp` / `.jpg` | Msemen | Hero | Rghaif (detalle) | Tamorlan | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rghaif_(detalle).jpg) |
+| `moroccan-mint-tea.webp` / `.jpg` | Moroccan Mint Tea | Hero | Moroccan mint tea-01 | Dan4th Nicholas | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moroccan_mint_tea-01.jpg) |
+| `moroccan-mint-tea-process.webp` / `.jpg` | Moroccan Mint Tea | Process | Moroccan Mint Tea | Tola Akindipe | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea.jpg) |
+| `brik.webp` / `.jpg` | Tunisian Brik | Hero | Tunisian brik or birik | Rusty Clark ~ 100K Photos | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tunisian_brik_or_birik.jpg) |
+| `brik-process.webp` / `.jpg` | Tunisian Brik | Process | Tunisian Briks | Souad Anane Lesina | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tunisian_Briks.JPG) |
+| `shakshuka-tunisian.webp` / `.jpg` | Merguez Shakshuka | Hero | Merguez Shakshouka | ABSzar | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Merguez_Shakshouka.jpg) |
+| `croquetas.webp` / `.jpg` | Jamón Croquetas | Hero | Croquetas 3 | Popo le Chien | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Croquetas_3.JPG) |
+| `croquetas-process.webp` / `.jpg` | Jamón Croquetas | Process | Plantains, guacamole, and croquetas - Cambridge, MA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plantains,_guacamole,_and_croquetas_-_Cambridge,_MA.jpg) |
+| `crema-catalana.webp` / `.jpg` | Crema Catalana | Hero | Cazuelita con crema catalana. Postre | Juan Emilio Prades Bel | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cazuelita_con_crema_catalana._Postre.jpg) |
+| `francesinha.webp` / `.jpg` | Francesinha | Hero | Francesinha Poveira | Inclusion et Aequalitate | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Francesinha_Poveira.jpg) |
+| `francesinha-process.webp` / `.jpg` | Francesinha | Process | Francesinha encaixados porto portugal | Ih8connecticut | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg) |
+| `arroz-de-marisco.webp` / `.jpg` | Arroz de Marisco | Hero | Arroz con mariscos 002 | Wilfredor | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arroz_con_mariscos_002.jpg) |
+| `bifana.webp` / `.jpg` | Bifana | Hero | Delicious Bifana Sandwich, As Bifana do Afonso (49652989992) | Sonse | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delicious_Bifana_Sandwich,_As_Bifana_do_Afonso_(49652989992).jpg) |
+| `bifana-process.webp` / `.jpg` | Bifana | Process | Bifana | Schokifaktor | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bifana.jpg) |
+| `beef-noodle-soup.webp` / `.jpg` | Taiwanese Beef Noodle Soup | Hero | TW 台湾 Taiwan 台北 Taipei shop 林东芳牛肉麵 Lin Dong Fang Beef Noodles March 2024 R12S 01 | Ounfs Robmmy 238 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TW_%E5%8F%B0%E6%B9%BE_Taiwan_%E5%8F%B0%E5%8C%97_Taipei_shop_%E6%9E%97%E4%B8%9C%E8%8A%B3%E7%89%9B%E8%82%89%E9%BA%B5_Lin_Dong_Fang_Beef_Noodles_March_2024_R12S_01.jpg) |
+| `beef-noodle-soup-process.webp` / `.jpg` | Taiwanese Beef Noodle Soup | Process | TW 台湾 Taiwan 台北 Taipei shop 林东芳牛肉麵 Lin Dong Fang Beef Noodles March 2024 R12S 11 | Ounfs Robmmy 238 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TW_%E5%8F%B0%E6%B9%BE_Taiwan_%E5%8F%B0%E5%8C%97_Taipei_shop_%E6%9E%97%E4%B8%9C%E8%8A%B3%E7%89%9B%E8%82%89%E9%BA%B5_Lin_Dong_Fang_Beef_Noodles_March_2024_R12S_11.jpg) |
+| `lu-rou-fan.webp` / `.jpg` | Lu Rou Fan | Hero | Lurou fan(Taiwanese cuisine) | Jzest | CC BY-SA 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lurou_fan(Taiwanese_cuisine).jpg) |
+| `pineapple-cake.webp` / `.jpg` | Pineapple Cake | Hero | Taiwanese Pineapple Cake 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwanese_Pineapple_Cake_001.jpg) |
+| `nihari.webp` / `.jpg` | Nihari | Hero | Beef Nihari | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Beef_Nihari.JPG) |
+| `nihari-process.webp` / `.jpg` | Nihari | Process | Beef Nihari Meat | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Beef_Nihari_Meat.JPG) |
+| `haleem.webp` / `.jpg` | Haleem | Hero | Haleem | Miansari66 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Haleem.JPG) |
+| `seekh-kebab.webp` / `.jpg` | Seekh Kebab | Hero | Seekh kebab | Vivid mongoose | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seekh_kebab.jpg) |
+| `seekh-kebab-process.webp` / `.jpg` | Seekh Kebab | Process | Kebab roll - chaiiwala 2024-02-10 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kebab_roll_-_chaiiwala_2024-02-10.jpg) |
+| `chapli-kebab.webp` / `.jpg` | Chapli Kebab | Hero | Chapli Kebab | Murcotipton | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chapli_Kebab.jpg) |
+| `sri-lankan-fish-curry.webp` / `.jpg` | Sri Lankan Fish Curry | Hero | J D Wetherspoon Sri Lankan prawn and fish curry, The Tanners Hall, Skinnergate, Darlington (20th November 2025) | Mtaylor848 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J_D_Wetherspoon_Sri_Lankan_prawn_and_fish_curry,_The_Tanners_Hall,_Skinnergate,_Darlington_(20th_November_2025).jpg) |
+| `sri-lankan-fish-curry-process.webp` / `.jpg` | Sri Lankan Fish Curry | Process | Srilankan fish curry | Jkwinter | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Srilankan_fish_curry.JPG) |
+| `hoppers.webp` / `.jpg` | Egg Hoppers | Hero | Egg Hopper - The Coconut Island 2025-10-05 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egg_Hopper_-_The_Coconut_Island_2025-10-05.jpg) |
+| `kottu-roti.webp` / `.jpg` | Kottu Roti | Hero | Kottu Roti | Chamal N | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kottu_Roti.jpg) |
+| `kottu-roti-process.webp` / `.jpg` | Kottu Roti | Process | Kottu Roti (mit Meeresfrüchten) | Dankesie | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kottu_Roti_(mit_Meeresfr%C3%BCchten).jpg) |
+| `soto-ayam.webp` / `.jpg` | Soto Ayam | Hero | Kuliner Mang Gito Soto Ayam Bubur Ayam Bubur Sop Ayam (1) | LintasGiat | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kuliner_Mang_Gito_Soto_Ayam_Bubur_Ayam_Bubur_Sop_Ayam_(1).jpg) |
 
 ---
 
