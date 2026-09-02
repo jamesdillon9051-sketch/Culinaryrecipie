@@ -356,7 +356,10 @@ spanish portuguese german swedish russian polish british american vietnamese
 malaysian indonesian brazilian nigerian ethiopian jamaican peruvian argentinian
 white black red green yellow brown golden dark light sweet sour spicy hot cold
 small large whole half fresh dried new old traditional national street home
-food dishes meal plate bowls cooking cooked recipe recipes""".split())
+food dishes meal plate bowls cooking cooked recipe recipes
+salad soup stew curry cake pie bread rice noodle noodles sauce roll rolls
+sandwich toast pudding pancake pancakes tart drink tea coffee juice
+cupcake cupcakes muffin muffins cookie cookies biscuit biscuits""".split())
 
 
 # Letters that are not a base letter plus a combining mark, so NFKD leaves them
@@ -406,7 +409,10 @@ OTHER_FORM = re.compile(
     r"\b(donuts?|doughnuts?|cupcakes?|muffins?|cookies?|biscuits?|brownies?|"
     r"ice ?creams?|gelato|sorbet|milkshakes?|smoothies?|lattes?|frappe|"
     r"cheesecakes?|popsicles?|lollipops?|candy|marshmallows?|"
-    r"cocktails?|liqueur|syrup|powder|mix|kit|flavou?r(?:ed|ing)?)\b", re.I)
+    # "-flavoured" and "-flavouring" mark a different food carrying the dish's
+    # taste. The bare noun does not: "Potato Salad at Transylvania Flavour" is a
+    # restaurant, and rejecting it threw away a correct photograph.
+    r"cocktails?|liqueur|syrup|powder|mix|kit|flavou?r(?:ed|ing))\b", re.I)
 
 
 # Preparations that are made from the same cut and are not the same dish.
@@ -453,6 +459,23 @@ LIVING_THING = re.compile(
 EQUIPMENT = re.compile(
     r"\b(gear|maker|moulds?|molds?|bakeware|utensils?|press|"
     r"(?:waffle|krumkake|pizzelle|sandwich) iron)\b", re.I)
+
+
+# Wikimedia files a geotagged photograph as "Country - Town - Site", so a title
+# that opens with a country name is a picture of a place. Maqluba is a Palestinian
+# rice dish and also a sinkhole in Malta, and the sinkhole has no venue noun to
+# catch it on.
+COUNTRY_FIRST = re.compile(
+    r"^\s*(malta|italy|spain|france|germany|greece|turkey|india|japan|china|"
+    r"mexico|brazil|portugal|poland|hungary|romania|georgia|israel|egypt|"
+    r"morocco|tunisia|kenya|nigeria|ghana|peru|chile|cuba|jamaica|norway|"
+    r"sweden|denmark|finland|iceland|ireland|scotland|wales|england|"
+    r"netherlands|belgium|austria|switzerland|croatia|serbia|bulgaria)"
+    r"\s*[-\u2013\u2014:,]", re.I)
+
+
+def is_a_place(title, query):
+    return bool(COUNTRY_FIRST.match(title or "")) and not COUNTRY_FIRST.match(query or "")
 
 
 def names_a_different_dish(title, query):
@@ -642,6 +665,8 @@ def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0], tags=
         if not dish_words_cohere(title, query):
             continue
         if names_a_different_dish(title, query):
+            continue
+        if is_a_place(title, query):
             continue
         if contradicts_diet(title, query, tags):
             continue

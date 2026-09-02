@@ -944,6 +944,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/okonomiyaki.jpg</image:loc>
+      <image:title>Osaka Okonomiyaki</image:title>
+      <image:caption>Osaka Okonomiyaki — Japanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/miso-soup/</loc>
@@ -1236,6 +1241,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/dal-tadka.jpg</image:loc>
+      <image:title>Dal Tadka</image:title>
+      <image:caption>Dal Tadka — Indian healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/aloo-gobi/</loc>
@@ -1924,6 +1934,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/avgolemono-soup.jpg</image:loc>
+      <image:title>Avgolemono Soup</image:title>
+      <image:caption>Avgolemono Soup — Greek healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/baklava/</loc>
@@ -2546,6 +2561,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jerk-chicken.jpg</image:loc>
+      <image:title>Jamaican Jerk Chicken</image:title>
+      <image:caption>Jamaican Jerk Chicken — Jamaican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cuban-sandwich/</loc>
@@ -2827,6 +2847,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/croque-monsieur.jpg</image:loc>
+      <image:title>Croque Monsieur</image:title>
+      <image:caption>Croque Monsieur — French lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/gratin-dauphinois/</loc>
@@ -3059,6 +3084,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tamagoyaki.jpg</image:loc>
+      <image:title>Tamagoyaki</image:title>
+      <image:caption>Tamagoyaki — Japanese breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/dorayaki/</loc>
@@ -3823,6 +3853,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cornish-pasty.jpg</image:loc>
+      <image:title>Cornish Pasty</image:title>
+      <image:caption>Cornish Pasty — British lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/roast-beef-yorkshire/</loc>
@@ -3945,6 +3980,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/galaktoboureko.jpg</image:loc>
+      <image:title>Galaktoboureko</image:title>
+      <image:caption>Galaktoboureko — Greek desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/loukoumades/</loc>
@@ -3974,42 +4014,77 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kibbeh.jpg</image:loc>
+      <image:title>Baked Kibbeh</image:title>
+      <image:caption>Baked Kibbeh — Middle Eastern dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/labneh/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/labneh.jpg</image:loc>
+      <image:title>Labneh with Za&#39;atar</image:title>
+      <image:caption>Labneh with Za&#39;atar — Middle Eastern appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/manakish-zaatar/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/manakish-zaatar.jpg</image:loc>
+      <image:title>Manakish Za&#39;atar</image:title>
+      <image:caption>Manakish Za&#39;atar — Middle Eastern breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/basbousa/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/basbousa.jpg</image:loc>
+      <image:title>Basbousa</image:title>
+      <image:caption>Basbousa — Middle Eastern desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/lamb-mandi/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/lamb-mandi.jpg</image:loc>
+      <image:title>Lamb Mandi</image:title>
+      <image:caption>Lamb Mandi — Middle Eastern holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/imam-bayildi/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/imam-bayildi.jpg</image:loc>
+      <image:title>Imam Bayildi</image:title>
+      <image:caption>Imam Bayildi — Turkish healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/turkish-pide/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/turkish-pide.jpg</image:loc>
+      <image:title>Turkish Pide</image:title>
+      <image:caption>Turkish Pide — Turkish baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/borek/</loc>
@@ -4083,6 +4158,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/caldo-verde.jpg</image:loc>
+      <image:title>Caldo Verde</image:title>
+      <image:caption>Caldo Verde — Portuguese healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/bacalhau-a-bras/</loc>
@@ -4095,6 +4175,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/piri-piri-chicken.jpg</image:loc>
+      <image:title>Piri Piri Chicken</image:title>
+      <image:caption>Piri Piri Chicken — Portuguese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/khao-soi/</loc>
@@ -4134,6 +4219,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pad-see-ew.jpg</image:loc>
+      <image:title>Pad See Ew</image:title>
+      <image:caption>Pad See Ew — Thai quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/thai-iced-tea/</loc>
@@ -4151,12 +4241,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bun-bo-hue.jpg</image:loc>
+      <image:title>Bún Bò Huế</image:title>
+      <image:caption>Bún Bò Huế — Vietnamese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/com-tam/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/com-tam.jpg</image:loc>
+      <image:title>Cơm Tấm</image:title>
+      <image:caption>Cơm Tấm — Vietnamese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cha-gio/</loc>
@@ -4185,18 +4285,33 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sundubu-jjigae.jpg</image:loc>
+      <image:title>Sundubu Jjigae</image:title>
+      <image:caption>Sundubu Jjigae — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/galbi/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/galbi.jpg</image:loc>
+      <image:title>Galbi (Korean Short Ribs)</image:title>
+      <image:caption>Galbi (Korean Short Ribs) — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/haemul-pajeon/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/haemul-pajeon.jpg</image:loc>
+      <image:title>Haemul Pajeon</image:title>
+      <image:caption>Haemul Pajeon — Korean appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/samgyetang/</loc>
@@ -4209,12 +4324,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/dakgalbi.jpg</image:loc>
+      <image:title>Dakgalbi</image:title>
+      <image:caption>Dakgalbi — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/naengmyeon/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/naengmyeon.jpg</image:loc>
+      <image:title>Mul Naengmyeon</image:title>
+      <image:caption>Mul Naengmyeon — Korean healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/nasi-goreng/</loc>
@@ -4320,12 +4445,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pupusas.jpg</image:loc>
+      <image:title>Pupusas</image:title>
+      <image:caption>Pupusas — Salvadoran lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/chimichurri-steak/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chimichurri-steak.jpg</image:loc>
+      <image:title>Chimichurri Steak</image:title>
+      <image:caption>Chimichurri Steak — Argentinian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/lomo-saltado/</loc>
@@ -4354,6 +4489,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/moqueca.jpg</image:loc>
+      <image:title>Moqueca Baiana</image:title>
+      <image:caption>Moqueca Baiana — Brazilian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/pao-de-queijo/</loc>
@@ -4377,12 +4517,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-kiev.jpg</image:loc>
+      <image:title>Chicken Kiev</image:title>
+      <image:caption>Chicken Kiev — Ukrainian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/blini/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/blini.jpg</image:loc>
+      <image:title>Blini with Soured Cream</image:title>
+      <image:caption>Blini with Soured Cream — Russian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/olivier-salad/</loc>
@@ -4395,12 +4545,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/golabki.jpg</image:loc>
+      <image:title>Gołąbki</image:title>
+      <image:caption>Gołąbki — Polish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/spaetzle/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spaetzle.jpg</image:loc>
+      <image:title>Käsespätzle</image:title>
+      <image:caption>Käsespätzle — German dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/sauerbraten/</loc>
@@ -4451,6 +4611,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/egusi-soup.jpg</image:loc>
+      <image:title>Egusi Soup</image:title>
+      <image:caption>Egusi Soup — Nigerian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/suya/</loc>
@@ -4468,24 +4633,44 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/doro-wat.jpg</image:loc>
+      <image:title>Doro Wat</image:title>
+      <image:caption>Doro Wat — Ethiopian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/bobotie/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bobotie.jpg</image:loc>
+      <image:title>Bobotie</image:title>
+      <image:caption>Bobotie — South African dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/jamaican-curry-goat/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/jamaican-curry-goat.jpg</image:loc>
+      <image:title>Jamaican Curry Goat</image:title>
+      <image:caption>Jamaican Curry Goat — Jamaican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/ackee-and-saltfish/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/ackee-and-saltfish.jpg</image:loc>
+      <image:title>Ackee and Saltfish</image:title>
+      <image:caption>Ackee and Saltfish — Jamaican breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/fried-plantain/</loc>
@@ -5219,6 +5404,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cranachan.jpg</image:loc>
+      <image:title>Cranachan</image:title>
+      <image:caption>Cranachan — Scottish desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cawl/</loc>
@@ -5451,6 +5641,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/krumkake.jpg</image:loc>
+      <image:title>Krumkake</image:title>
+      <image:caption>Krumkake — Norwegian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/karelian-pies/</loc>
