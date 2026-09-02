@@ -47,7 +47,7 @@ module.exports = [
   c('profiteroles', 'Profiteroles', 'French', 'Desserts', 'Medium', 35, 30, 8, 4.8, 2044, ['Vegetarian'], [], 'Profiteroles'),
   c('mille-feuille', 'Mille-Feuille', 'French', 'Desserts', 'Hard', 50, 35, 8, 4.7, 1344, ['Vegetarian'], [], 'Mille feuille'),
   c('clafoutis', 'Cherry Clafoutis', 'French', 'Desserts', 'Easy', 15, 40, 6, 4.7, 1466, ['Vegetarian'], [], 'Clafoutis'),
-  c('brioche', 'Brioche Loaf', 'French', 'Baking', 'Medium', 40, 35, 10, 4.8, 2166, ['Vegetarian'], [], 'Brioche'),
+  c('brioche', 'Brioche Loaf', 'French', 'Baking', 'Medium', 40, 35, 10, 4.8, 2166, ['Vegetarian'], [], 'Brioche loaf bread sliced'),
   c('madeleines', 'Madeleines', 'French', 'Baking', 'Easy', 20, 12, 24, 4.7, 1877, ['Vegetarian'], [], 'Madeleine cakes'),
 
   /* --------------------------------------------------------- Japanese (12) */
@@ -87,7 +87,7 @@ module.exports = [
   c('pav-bhaji', 'Pav Bhaji', 'Indian', 'Lunch', 'Easy', 20, 35, 4, 4.8, 2411, ['Vegetarian'], [], 'Pav bhaji'),
   c('chole-bhature', 'Chole Bhature', 'Indian', 'Lunch', 'Medium', 30, 40, 4, 4.8, 2044, ['Vegetarian'], [], 'Chole bhature'),
   c('idli-sambar', 'Idli Sambar', 'Indian', 'Breakfast', 'Medium', 25, 40, 6, 4.7, 1866, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Idli sambar'),
-  c('keema-matar', 'Keema Matar', 'Indian', 'Dinner', 'Easy', 15, 35, 4, 4.7, 1188, ['Gluten-Free', 'Dairy-Free'], [], 'Keema matar'),
+  c('keema-matar', 'Keema Matar', 'Indian', 'Dinner', 'Easy', 15, 35, 4, 4.7, 1188, ['Gluten-Free', 'Dairy-Free'], [], 'Keema matar mince peas curry'),
   c('kerala-fish-curry', 'Kerala Fish Curry', 'Indian', 'Dinner', 'Easy', 20, 25, 4, 4.7, 1044, ['Gluten-Free', 'Dairy-Free'], [], 'Kerala fish curry'),
   c('chapati', 'Chapati (Roti)', 'Indian', 'Baking', 'Easy', 20, 15, 8, 4.7, 2277, ['Vegan', 'Dairy-Free'], [], 'Chapati roti flatbread'),
   c('kheer', 'Rice Kheer', 'Indian', 'Desserts', 'Easy', 10, 45, 6, 4.7, 1533, ['Vegetarian', 'Gluten-Free'], [], 'Kheer rice pudding'),
@@ -100,16 +100,16 @@ module.exports = [
   c('mission-burrito', 'Mission-Style Burrito', 'Mexican', 'Lunch', 'Easy', 25, 20, 4, 4.7, 2411, [], [], 'Burrito'),
   c('nachos', 'Loaded Nachos', 'Mexican', 'Appetizers', 'Easy', 15, 15, 6, 4.7, 3044, ['Vegetarian'], [], 'Nachos'),
   c('cochinita-pibil', 'Cochinita Pibil', 'Mexican', 'Dinner', 'Medium', 25, 210, 8, 4.8, 1466, ['Gluten-Free', 'Dairy-Free'], [], 'Cochinita pibil'),
-  c('queso-fundido', 'Queso Fundido', 'Mexican', 'Appetizers', 'Easy', 10, 15, 6, 4.7, 1622, ['Vegetarian', 'Gluten-Free'], [], 'Queso fundido'),
+  c('queso-fundido', 'Queso Fundido', 'Mexican', 'Appetizers', 'Easy', 10, 15, 6, 4.7, 1622, ['Vegetarian', 'Gluten-Free'], [], 'Queso fundido melted cheese skillet'),
   c('sopes', 'Sopes', 'Mexican', 'Appetizers', 'Medium', 30, 20, 8, 4.6, 966, ['Vegetarian'], [], 'Sopes mexican'),
-  c('mexican-rice', 'Mexican Red Rice', 'Mexican', 'Quick Meals', 'Easy', 10, 25, 6, 4.7, 2133, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Mexican rice'),
+  c('mexican-rice', 'Mexican Red Rice', 'Mexican', 'Quick Meals', 'Easy', 10, 25, 6, 4.7, 2133, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Arroz rojo mexican red rice'),
   c('refried-beans', 'Refried Beans', 'Mexican', 'Quick Meals', 'Easy', 10, 25, 6, 4.7, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Refried beans'),
   c('flan-napolitano', 'Flan Napolitano', 'Mexican', 'Desserts', 'Medium', 20, 60, 8, 4.8, 2544, ['Vegetarian', 'Gluten-Free'], [], 'Flan caramel custard'),
   c('tres-leches-cake', 'Tres Leches Cake', 'Mexican', 'Desserts', 'Easy', 25, 35, 12, 4.9, 3411, ['Vegetarian'], ['trending'], 'Tres leches cake'),
   c('michelada', 'Michelada', 'Mexican', 'Drinks', 'Easy', 5, 0, 1, 4.6, 1244, ['Vegan', 'Dairy-Free'], [], 'Michelada'),
 
   /* --------------------------------------------------------- American (30) */
-  c('chicken-pot-pie', 'Chicken Pot Pie', 'American', 'Dinner', 'Medium', 30, 45, 6, 4.8, 3244, [], ['editors'], 'Chicken pot pie'),
+  c('chicken-pot-pie', 'Chicken Pot Pie', 'American', 'Dinner', 'Medium', 30, 45, 6, 4.8, 3244, [], ['editors'], 'Chicken pot pie pastry crust'),
   c('beef-stew', 'Hearty Beef Stew', 'American', 'Dinner', 'Easy', 25, 150, 6, 4.8, 3866, ['Dairy-Free'], [], 'Beef stew'),
   c('jambalaya', 'Louisiana Jambalaya', 'American', 'Dinner', 'Easy', 20, 45, 6, 4.8, 2411, ['Gluten-Free', 'Dairy-Free'], [], 'Jambalaya'),
   c('gumbo', 'Chicken and Sausage Gumbo', 'American', 'Dinner', 'Medium', 25, 90, 8, 4.8, 2133, ['Dairy-Free'], ['editors'], 'Gumbo'),
@@ -121,7 +121,7 @@ module.exports = [
   c('tuna-melt', 'Tuna Melt', 'American', 'Quick Meals', 'Easy', 10, 8, 2, 4.6, 1622, [], [], 'Tuna melt sandwich'),
   c('deviled-eggs', 'Deviled Eggs', 'American', 'Appetizers', 'Easy', 20, 10, 12, 4.7, 2688, ['Gluten-Free', 'Low-Carb', 'Keto'], [], 'Deviled eggs'),
   c('buffalo-chicken-dip', 'Buffalo Chicken Dip', 'American', 'Appetizers', 'Easy', 10, 25, 8, 4.8, 3122, ['Gluten-Free'], ['trending'], 'Buffalo chicken dip'),
-  c('onion-rings', 'Beer-Battered Onion Rings', 'American', 'Appetizers', 'Easy', 15, 15, 4, 4.7, 1877, ['Vegetarian'], [], 'Onion rings'),
+  c('onion-rings', 'Beer-Battered Onion Rings', 'American', 'Appetizers', 'Easy', 15, 15, 4, 4.7, 1877, ['Vegetarian'], [], 'Onion rings fried basket'),
   c('mozzarella-sticks', 'Mozzarella Sticks', 'American', 'Appetizers', 'Easy', 25, 10, 6, 4.7, 2133, ['Vegetarian'], [], 'Mozzarella sticks'),
   c('creamy-coleslaw', 'Creamy Coleslaw', 'American', 'Healthy', 'Easy', 15, 0, 8, 4.6, 1755, ['Vegetarian', 'Gluten-Free'], [], 'Coleslaw'),
   c('classic-potato-salad', 'Classic Potato Salad', 'American', 'Lunch', 'Easy', 20, 20, 8, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Potato salad bowl mayonnaise'),
@@ -138,10 +138,10 @@ module.exports = [
   c('lemon-meringue-pie', 'Lemon Meringue Pie', 'American', 'Desserts', 'Hard', 35, 45, 8, 4.7, 2133, ['Vegetarian'], [], 'Lemon meringue pie'),
   c('smores', "S'mores", 'American', 'Desserts', 'Easy', 5, 5, 4, 4.7, 1877, ['Vegetarian'], [], 'Smores'),
   c('vanilla-cupcakes', 'Vanilla Cupcakes', 'American', 'Baking', 'Easy', 20, 20, 12, 4.8, 3044, ['Vegetarian'], [], 'Vanilla cupcake buttercream frosting'),
-  c('chocolate-milkshake', 'Chocolate Milkshake', 'American', 'Drinks', 'Easy', 5, 0, 2, 4.7, 1966, ['Vegetarian', 'Gluten-Free'], [], 'Milkshake'),
+  c('chocolate-milkshake', 'Chocolate Milkshake', 'American', 'Drinks', 'Easy', 5, 0, 2, 4.7, 1966, ['Vegetarian', 'Gluten-Free'], [], 'Chocolate milkshake glass'),
 
   /* ---------------------------------------------------------- British (10) */
-  c('toad-in-the-hole', 'Toad in the Hole', 'British', 'Dinner', 'Easy', 15, 40, 4, 4.7, 1622, [], [], 'Toad in the hole'),
+  c('toad-in-the-hole', 'Toad in the Hole', 'British', 'Dinner', 'Easy', 15, 40, 4, 4.7, 1622, [], [], 'Sausage batter pudding toad in the hole'),
   c('cottage-pie', 'Cottage Pie', 'British', 'Dinner', 'Easy', 25, 50, 6, 4.8, 2277, [], [], 'Cottage pie'),
   c('cornish-pasty', 'Cornish Pasty', 'British', 'Lunch', 'Medium', 35, 50, 6, 4.7, 1466, [], [], 'Cornish pasty'),
   c('roast-beef-yorkshire', 'Roast Beef and Yorkshire Puddings', 'British', 'Holiday Specials', 'Medium', 25, 90, 6, 4.9, 2688, [], ['editors'], 'Roast beef yorkshire pudding'),
@@ -154,14 +154,14 @@ module.exports = [
 
   /* ------------------------------------------------------------ Greek (6) */
   c('pastitsio', 'Pastitsio', 'Greek', 'Dinner', 'Medium', 35, 60, 8, 4.7, 1344, [], [], 'Pastitsio'),
-  c('keftedes', 'Greek Keftedes', 'Greek', 'Appetizers', 'Easy', 20, 15, 4, 4.7, 1122, [], [], 'Keftedes meatballs'),
+  c('keftedes', 'Greek Keftedes', 'Greek', 'Appetizers', 'Easy', 20, 15, 4, 4.7, 1122, [], [], 'Keftedes greek meatballs plate'),
   c('saganaki', 'Saganaki', 'Greek', 'Appetizers', 'Easy', 5, 8, 2, 4.7, 966, ['Vegetarian'], [], 'Saganaki fried cheese'),
   c('fasolada', 'Fasolada', 'Greek', 'Healthy', 'Easy', 15, 75, 6, 4.6, 744, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Fasolada bean soup'),
   c('galaktoboureko', 'Galaktoboureko', 'Greek', 'Desserts', 'Medium', 30, 50, 12, 4.7, 1044, ['Vegetarian'], [], 'Galaktoboureko'),
   c('loukoumades', 'Loukoumades', 'Greek', 'Desserts', 'Medium', 25, 20, 6, 4.7, 1188, ['Vegetarian'], [], 'Loukoumades honey doughnuts'),
 
   /* --------------------------------------------------- Middle Eastern (8) */
-  c('mujadara', 'Mujadara', 'Middle Eastern', 'Healthy', 'Easy', 15, 45, 4, 4.7, 1344, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Mujadara lentils rice'),
+  c('mujadara', 'Mujadara', 'Middle Eastern', 'Healthy', 'Easy', 15, 45, 4, 4.7, 1344, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Mujadara lentils rice fried onion'),
   c('maqluba', 'Maqluba', 'Middle Eastern', 'Dinner', 'Medium', 30, 60, 6, 4.7, 1122, ['Dairy-Free'], [], 'Maqluba'),
   c('kibbeh', 'Baked Kibbeh', 'Middle Eastern', 'Dinner', 'Medium', 35, 45, 6, 4.6, 866, ['Dairy-Free'], [], 'Kibbeh'),
   c('labneh', "Labneh with Za'atar", 'Middle Eastern', 'Appetizers', 'Easy', 10, 0, 6, 4.7, 1466, ['Vegetarian', 'Gluten-Free', 'Low-Carb'], [], 'Labneh'),
@@ -172,17 +172,17 @@ module.exports = [
   /* --------------------------------------------------------- Turkish (4) */
   c('imam-bayildi', 'Imam Bayildi', 'Turkish', 'Healthy', 'Easy', 25, 50, 4, 4.7, 966, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Imam bayildi'),
   c('turkish-pide', 'Turkish Pide', 'Turkish', 'Baking', 'Medium', 40, 15, 4, 4.7, 1122, [], [], 'Pide turkish'),
-  c('borek', 'Cheese Börek', 'Turkish', 'Appetizers', 'Medium', 30, 40, 8, 4.7, 1244, ['Vegetarian'], [], 'Borek'),
+  c('borek', 'Cheese Börek', 'Turkish', 'Appetizers', 'Medium', 30, 40, 8, 4.7, 1244, ['Vegetarian'], [], 'Borek filo pastry cheese'),
   c('turkish-delight', 'Turkish Delight', 'Turkish', 'Desserts', 'Medium', 25, 60, 24, 4.6, 1466, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Turkish delight lokum'),
 
   /* ------------------------------------------- Spanish & Portuguese (8) */
   c('salmorejo', 'Salmorejo', 'Spanish', 'Healthy', 'Easy', 15, 0, 4, 4.7, 1122, ['Vegetarian'], [], 'Salmorejo'),
   c('pan-con-tomate', 'Pan con Tomate', 'Spanish', 'Appetizers', 'Easy', 8, 4, 4, 4.7, 1533, ['Vegan', 'Dairy-Free'], [], 'Pan con tomate'),
   c('pulpo-a-la-gallega', 'Pulpo a la Gallega', 'Spanish', 'Appetizers', 'Medium', 15, 60, 4, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Pulpo a la gallega'),
-  c('fabada-asturiana', 'Fabada Asturiana', 'Spanish', 'Dinner', 'Easy', 20, 150, 6, 4.7, 844, ['Gluten-Free', 'Dairy-Free'], [], 'Fabada asturiana'),
+  c('fabada-asturiana', 'Fabada Asturiana', 'Spanish', 'Dinner', 'Easy', 20, 150, 6, 4.7, 844, ['Gluten-Free', 'Dairy-Free'], [], 'Fabada asturiana bean stew bowl'),
   c('pastel-de-nata', 'Pastéis de Nata', 'Portuguese', 'Desserts', 'Medium', 30, 25, 12, 4.9, 3244, ['Vegetarian'], ['editors', 'trending'], 'Pastel de nata'),
   c('caldo-verde', 'Caldo Verde', 'Portuguese', 'Healthy', 'Easy', 15, 35, 6, 4.7, 1122, ['Gluten-Free', 'Dairy-Free'], [], 'Caldo verde'),
-  c('bacalhau-a-bras', 'Bacalhau à Brás', 'Portuguese', 'Dinner', 'Easy', 20, 25, 4, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Bacalhau a bras'),
+  c('bacalhau-a-bras', 'Bacalhau à Brás', 'Portuguese', 'Dinner', 'Easy', 20, 25, 4, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Bacalhau a bras salt cod potato egg'),
   c('piri-piri-chicken', 'Piri Piri Chicken', 'Portuguese', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Piri piri chicken'),
 
   /* ------------------------------------------------------------- Thai (6) */
@@ -223,7 +223,7 @@ module.exports = [
   c('lomo-saltado', 'Lomo Saltado', 'Peruvian', 'Dinner', 'Easy', 20, 20, 4, 4.8, 1966, ['Dairy-Free'], [], 'Lomo saltado'),
   c('aji-de-gallina', 'Ají de Gallina', 'Peruvian', 'Dinner', 'Medium', 20, 35, 4, 4.7, 1044, ['Gluten-Free'], [], 'Aji de gallina'),
   c('moqueca', 'Moqueca Baiana', 'Brazilian', 'Dinner', 'Easy', 20, 30, 4, 4.8, 1466, ['Gluten-Free', 'Dairy-Free'], [], 'Moqueca'),
-  c('pao-de-queijo', 'Pão de Queijo', 'Brazilian', 'Baking', 'Easy', 15, 25, 16, 4.8, 2277, ['Vegetarian', 'Gluten-Free'], [], 'Pao de queijo'),
+  c('pao-de-queijo', 'Pão de Queijo', 'Brazilian', 'Baking', 'Easy', 15, 25, 16, 4.8, 2277, ['Vegetarian', 'Gluten-Free'], [], 'Pao de queijo cheese bread rolls'),
   c('alfajores', 'Alfajores', 'Argentinian', 'Desserts', 'Medium', 30, 12, 16, 4.8, 1877, ['Vegetarian'], [], 'Alfajores'),
 
   /* ------------------------------------- Central, Eastern Europe & Nordic (8) */

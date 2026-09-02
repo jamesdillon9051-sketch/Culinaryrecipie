@@ -50,6 +50,8 @@
     "ayam masak merah malaysia"
   ],
   "bacalhau-a-bras": [
+    "bacalhau à brás",
+    "salt cod with straw potatoes",
     "bacalhau a bras",
     "cod potato scrambled egg dish",
     "portuguese cod dish"
@@ -145,6 +147,9 @@
     "mince custard bake"
   ],
   "borek": [
+    "börek",
+    "su böreği",
+    "spinach borek pastry",
     "borek slices",
     "cheese borek pastry",
     "burek tray"
@@ -164,6 +169,8 @@
     "bread and butter pudding"
   ],
   "breakfast-hash": [
+    "corned beef hash",
+    "potato hash eggs skillet",
     "potato hash with eggs",
     "skillet breakfast hash"
   ],
@@ -173,6 +180,8 @@
     "brik tunisien"
   ],
   "brioche": [
+    "brioche bread loaf",
+    "brioche à tête",
     "brioche loaf sliced",
     "brioche a tete",
     "sweet enriched bread loaf"
@@ -188,7 +197,8 @@
     "milk tea pearls"
   ],
   "buddha-bowl": [
-    "grain bowl roasted vegetables"
+    "grain bowl roasted vegetables",
+    "vegetarian bowl chickpeas quinoa"
   ],
   "buffalo-wings": [
     "buffalo wings plate",
@@ -281,8 +291,9 @@
     "csirkepaprikás"
   ],
   "chicken-pot-pie": [
-    "chicken pot pie",
     "chicken pie golden crust",
+    "pot pie slice",
+    "chicken pot pie",
     "pot pie ramekin"
   ],
   "chicken-tagine-olives": [
@@ -300,6 +311,8 @@
     "chimichurri"
   ],
   "chocolate-milkshake": [
+    "chocolate shake glass whipped cream",
+    "milkshake chocolate",
     "chocolate milkshake",
     "chocolate shake glass",
     "chocolate malt shake"
@@ -322,6 +335,8 @@
     "waffle breakfast syrup"
   ],
   "cold-brew-coffee": [
+    "iced coffee glass",
+    "cold brew coffee ice",
     "cold brew coffee glass"
   ],
   "com-tam": [
@@ -418,6 +433,8 @@
     "cuisse de canard confite"
   ],
   "dulce-de-leche": [
+    "confiture de lait",
+    "doce de leite pote",
     "dulce de leche argentino",
     "doce de leite"
   ],
@@ -445,6 +462,8 @@
     "strawberries and cream dessert"
   ],
   "fabada-asturiana": [
+    "fabada bean stew asturias",
+    "faba beans chorizo stew",
     "fabada",
     "fabes con almejas beans",
     "spanish white bean stew chorizo"
@@ -598,6 +617,8 @@
     "caribbean goat curry"
   ],
   "jamaican-patty": [
+    "beef patty jamaican pastry",
+    "jamaican patties baked",
     "jamaican beef patty"
   ],
   "japanese-cheesecake": [
@@ -628,6 +649,8 @@
     "kakuni pork belly"
   ],
   "kalua-pork": [
+    "kalua pig shredded",
+    "hawaiian pulled pork imu",
     "kalua pig",
     "kalua pork imu"
   ],
@@ -645,11 +668,15 @@
     "katsu kare"
   ],
   "keema-matar": [
+    "कीमा मटर",
+    "mutton keema peas",
     "keema matar bowl",
     "mince peas curry bowl",
     "lamb mince peas"
   ],
   "keftedes": [
+    "κεφτέδες",
+    "greek fried meatballs",
     "keftedes greek",
     "greek fried meatballs plate",
     "meatballs mint greek"
@@ -813,6 +840,7 @@
   ],
   "mexican-rice": [
     "arroz rojo",
+    "spanish rice mexican side",
     "mexican red rice",
     "spanish rice bowl"
   ],
@@ -828,10 +856,14 @@
     "miso ramen bowl"
   ],
   "moin-moin": [
-    "moimoi",
+    "moi moi steamed bean pudding",
+    "ewa moin moin",
     "moi moi bean pudding"
   ],
   "molokhia": [
+    "ملوخية بالدجاج",
+    "mulukhiyah egyptian soup",
+    "molokhia stew chicken",
     "ملوخية",
     "mulukhiyah soup bowl",
     "egyptian jute leaf soup"
@@ -856,6 +888,8 @@
     "msemmen"
   ],
   "mujadara": [
+    "مجدرة",
+    "lentils and rice with crispy onions",
     "mujadara rice lentils",
     "mejadra",
     "lentils rice crispy onions"
@@ -884,6 +918,8 @@
     "bergensk fiskesuppe"
   ],
   "nyama-choma": [
+    "grilled goat ribs kenya",
+    "choma meat plate",
     "nyama choma kenya",
     "choma goat ribs"
   ],
@@ -893,6 +929,8 @@
     "salad olivier"
   ],
   "onion-rings": [
+    "fried onion rings plate",
+    "battered onion rings",
     "onion rings",
     "fried onion rings",
     "crispy onion rings"
@@ -921,6 +959,8 @@
     "set cream dessert"
   ],
   "pao-de-queijo": [
+    "pão de queijo",
+    "brazilian cheese bread balls",
     "pao de queijo bread",
     "cheese bread brazilian basket",
     "queijo bread rolls"
@@ -949,6 +989,10 @@
     "patatas bravas plate",
     "fried potatoes spicy sauce",
     "bravas potatoes tapas"
+  ],
+  "pavlova": [
+    "pavlova dessert cream fruit",
+    "meringue pavlova berries"
   ],
   "pecan-pie": [
     "pecan pie slice",
@@ -996,7 +1040,9 @@
     "tuna poke bowl rice"
   ],
   "popcorn-chicken-taiwanese": [
+    "鹽酥雞",
     "鹹酥雞",
+    "taiwanese fried chicken basil",
     "salt and pepper fried chicken basil"
   ],
   "pot-au-feu": [
@@ -1029,6 +1075,8 @@
     "stuffed corn cakes griddle"
   ],
   "queso-fundido": [
+    "queso fundido chorizo",
+    "melted cheese dip mexican",
     "queso fundido",
     "melted cheese dish mexican",
     "cheese chorizo skillet"
@@ -1053,6 +1101,8 @@
     "zuppa di pane toscana"
   ],
   "rice-and-peas": [
+    "rice and peas coconut jamaican",
+    "gungo peas rice",
     "jamaican rice and peas"
   ],
   "roast-turkey": [
@@ -1068,8 +1118,9 @@
     "rösti mit spiegelei"
   ],
   "roti-canai": [
-    "roti prata",
-    "roti canai mamak"
+    "roti canai mamak",
+    "roti prata plate",
+    "roti prata"
   ],
   "sabich": [
     "סביח",
@@ -1093,8 +1144,9 @@
     "sambal goreng tempe"
   ],
   "samgyetang": [
-    "samgyetang soup",
+    "삼계탕",
     "ginseng chicken soup korean",
+    "samgyetang soup",
     "chicken ginseng stone pot"
   ],
   "sangria": [
@@ -1127,8 +1179,9 @@
     "seekh kabab"
   ],
   "shahi-paneer": [
-    "शाही पनीर",
-    "shahi paneer curry"
+    "shahi paneer curry",
+    "paneer makhani bowl",
+    "शाही पनीर"
   ],
   "shakshuka-tunisian": [
     "shakshuka merguez",
@@ -1149,10 +1202,15 @@
     "butter biscuits plate"
   ],
   "shui-zhu-fish": [
+    "水煮鱼片",
+    "sichuan poached fish chilli oil",
+    "shuizhu yu",
     "水煮魚",
     "shuizhuyu"
   ],
   "sinigang": [
+    "sinigang na hipon",
+    "sinigang soup pork",
     "sinigang na baboy"
   ],
   "sloppy-joes": [
@@ -1161,6 +1219,8 @@
     "manwich ground beef bun"
   ],
   "smoothie-bowl": [
+    "acai bowl granola",
+    "smoothie bowl fruit",
     "berry smoothie bowl"
   ],
   "smores": [
@@ -1230,6 +1290,8 @@
     "tahdig rice crust"
   ],
   "toad-in-the-hole": [
+    "sausages in yorkshire pudding batter",
+    "toad in hole dish",
     "toad in the hole sausages",
     "yorkshire pudding sausages",
     "sausage batter pudding"

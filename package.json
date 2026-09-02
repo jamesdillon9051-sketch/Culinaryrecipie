@@ -2,16 +2,25 @@
   "name": "culinaryvault",
   "version": "1.0.0",
   "private": true,
-  "description": "CulinaryVault — a dependency-free static site for the world's 400 most famous recipes.",
+  "description": "CulinaryVault \u2014 a dependency-free static site for the world's 400 most famous recipes.",
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "node src/build.js",
     "images": "python3 tools/fetch_images.py",
     "icons": "python3 tools/make_icons.py",
     "attribution": "node tools/make-attribution.js",
     "serve": "npm run build && node tools/serve.js",
-    "check": "node tools/check.js"
+    "check": "node tools/check.js",
+    "readme": "node tools/sync-readme.js"
   },
-  "keywords": ["recipes", "static-site", "food", "seo", "vanilla-js"]
+  "keywords": [
+    "recipes",
+    "static-site",
+    "food",
+    "seo",
+    "vanilla-js"
+  ]
 }

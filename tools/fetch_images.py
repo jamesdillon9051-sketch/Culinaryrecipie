@@ -592,7 +592,13 @@ VENUE = re.compile(
     r"\b(shops?|stores?|caf[e\u00e9]s?|coffee ?house|restaurants?|bakery|bakeries|"
     r"baker|pub|inn|tavern|bars?|bistro|brasserie|diner|deli|takeaway|kiosk|"
     r"stalls?|van|truck|factory|works|company|co|ltd|inc|festival|fair|museum|"
-    r"street|road|lane|square|station|hotel|house|market)\b", re.I)
+    r"street|road|lane|square|station|hotel|house|market|"
+    # The second half of this list is one wrong photograph each. A trader's
+    # sign reads "<owner>'s <dish> <what it is>", and the last word is as often
+    # plaza, booth or spot as it is shop — "Darren's Doubles Xtra Plaza" and
+    # "Kwa Morombo Nyama Choma Spot" both shipped a storefront as the dish.
+    r"plaza|mall|arcade|centre|center|court|corner|spot|joint|eatery|canteen|"
+    r"buffet|booth|grocery|supermarket|hall|club|lounge|bakeshop|foodcourt)\b", re.I)
 # "of" is deliberately absent: "Interior of the Waffle House" is a location but
 # "Bowl of ramen" is not, and the venue-adjacency rule below already catches the
 # first without throwing away the second.
@@ -619,11 +625,18 @@ def names_the_venue_not_the_dish(title, query):
         # Single letters are apostrophe debris — "Joe's" splits into "joe" and
         # "s" — and counting them pushed "Bar" out of the lookahead window, so
         # "Sloppy Joe's Bar" read as a dish rather than a pub.
-        words = [w for w in re.split(r"[^A-Za-z0-9\u00c0-\u024f]+", segment) if len(w) > 1]
+        # \W is Unicode-aware, which matters: the old Latin-only class deleted
+        # every CJK character before the loop could see it, so a Chinese dish
+        # name was never found in the title and the venue test always came back
+        # False. That is how a Shenzhen shopfront shipped as 水煮魚. Non-Latin
+        # words are kept at any length; Latin ones still need two letters, so
+        # apostrophe debris ("Joe's" -> "joe", "s") stays out.
+        words = [w for w in re.split(r"\W+", segment, flags=re.UNICODE)
+                 if len(w) > 1 or (w and not w.isascii())]
         lower = [w.lower() for w in words]
         location_at = next((i for i, w in enumerate(lower) if w in LOCATION), None)
         for i, w in enumerate(lower):
-            if len(w) <= 2 or not any(d in w or w in d for d in dish):
+            if (len(w) <= 2 and w.isascii()) or not any(d in w or w in d for d in dish):
                 continue
             found = True
             # "Cornish Pasty Shop" — the dish word is part of the venue's name,

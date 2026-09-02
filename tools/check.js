@@ -202,6 +202,16 @@ if (!vercelCsp) {
   }
 }
 
+/* --- README counts ------------------------------------------------------- */
+/* The README repeats numbers that live in the data. Verifying them here means a
+   stale README fails the check rather than shipping. */
+try {
+  require('child_process').execFileSync(process.execPath,
+    [require('path').join(__dirname, 'sync-readme.js'), '--check'], { stdio: 'pipe' });
+} catch (err) {
+  problems.push(String(err.stderr || err.message).trim().split('\n')[0]);
+}
+
 /* --- report -------------------------------------------------------------- */
 const dedupe = list => {
   const counted = new Map();
