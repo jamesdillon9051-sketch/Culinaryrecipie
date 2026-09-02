@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 552
+Every photograph on CulinaryVault is freely licensed. Of 555
 images, **544** are CC0 or public domain and carry no conditions at all, and
-**8** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**11** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,10 +36,10 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 393 |
-| Secondary "process" images | 159 |
-| Total image files | 1104 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 207 |
+| Hero images | 395 |
+| Secondary "process" images | 160 |
+| Total image files | 1110 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 205 |
 
 ### Licences used
 
@@ -49,7 +49,7 @@ nothing than use an image we do not have clear rights to.
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
 | Public domain | 39 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -114,8 +114,6 @@ CC BY image of sufficient quality and relevance could be found:
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Ragù Napoletano (`ragu-napoletano`)
-- Horchata (`horchata`)
-- Texas Smoked Brisket (`brisket`)
 - Sloppy Joes (`sloppy-joes`)
 - Corn Dogs (`corn-dogs`)
 - Boston Cream Pie (`boston-cream-pie`)
@@ -834,7 +832,10 @@ licence as the rest of this project.
 | `enchiladas-verdes.webp` / `.jpg` | Enchiladas Verdes | Hero | Enchiladas de carnitas de pato. Salsa de pipián verde. (Puebla, Puebla) | Joselu Blanco | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_de_carnitas_de_pato._Salsa_de_pipi%C3%A1n_verde._(Puebla,_Puebla).jpg) |
 | `enchiladas-verdes-process.webp` / `.jpg` | Enchiladas Verdes | Process | Enchiladas verdes en Tonatico | Wotancito | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_verdes_en_Tonatico.jpg) |
 | `aguachile.webp` / `.jpg` | Aguachile | Hero | Aguachile contemporáneo, Mazatlán, 3 de julio de 2023 | El Nuevo Doge | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aguachile_contempor%C3%A1neo,_Mazatl%C3%A1n,_3_de_julio_de_2023.jpg) |
+| `horchata.webp` / `.jpg` | Horchata | Hero | Horchata, my drink of choice in Mexico - Merida Yucatan 21 March 2021 | Sharon Hahn Darlin | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Horchata,_my_drink_of_choice_in_Mexico_-_Merida_Yucatan_21_March_2021.jpg) |
 | `pulled-pork.webp` / `.jpg` | Carolina Pulled Pork | Hero | Easter dinner of pulled pork with Kansas City barbecue sauce, potato pancake with scallions and onion, bell peppers, celery, and carrots - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easter_dinner_of_pulled_pork_with_Kansas_City_barbecue_sauce,_potato_pancake_with_scallions_and_onion,_bell_peppers,_celery,_and_carrots_-_Massachusetts.jpg) |
+| `brisket.webp` / `.jpg` | Texas Smoked Brisket | Hero | Smoked brisket, white bread, horseradish, slaw, (15452301364) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15452301364).jpg) |
+| `brisket-process.webp` / `.jpg` | Texas Smoked Brisket | Process | Smoked brisket, white bread, horseradish, slaw, (15888843867) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15888843867).jpg) |
 | `cioppino.webp` / `.jpg` | Cioppino | Hero | Cioppino from Della Terra (Los Angeles), July 2022 (1) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(1).jpg) |
 | `philly-soft-pretzel.webp` / `.jpg` | Philadelphia Soft Pretzels | Hero | Auntie Anne's Classic Soft Frozen Pretzels - Sarah Stierch | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Auntie_Anne%27s_Classic_Soft_Frozen_Pretzels_-_Sarah_Stierch.jpg) |
 

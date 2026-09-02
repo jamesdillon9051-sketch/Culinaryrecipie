@@ -5076,6 +5076,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/horchata.jpg</image:loc>
+      <image:title>Horchata</image:title>
+      <image:caption>Horchata — Mexican drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/pulled-pork/</loc>
@@ -5093,6 +5098,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/brisket.jpg</image:loc>
+      <image:title>Texas Smoked Brisket</image:title>
+      <image:caption>Texas Smoked Brisket — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cioppino/</loc>

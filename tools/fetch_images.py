@@ -486,7 +486,10 @@ def names_the_venue_not_the_dish(title, query):
         return False
     found = False
     for segment in SEGMENTS.split(title):
-        words = [w for w in re.split(r"[^A-Za-z0-9\u00c0-\u024f]+", segment) if w]
+        # Single letters are apostrophe debris — "Joe's" splits into "joe" and
+        # "s" — and counting them pushed "Bar" out of the lookahead window, so
+        # "Sloppy Joe's Bar" read as a dish rather than a pub.
+        words = [w for w in re.split(r"[^A-Za-z0-9\u00c0-\u024f]+", segment) if len(w) > 1]
         lower = [w.lower() for w in words]
         location_at = next((i for i, w in enumerate(lower) if w in LOCATION), None)
         for i, w in enumerate(lower):
