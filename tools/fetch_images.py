@@ -84,14 +84,54 @@ _gap = {}
 # escalation is time spent being refused more slowly.
 MIN_GAP, MAX_GAP = 1.0, 8.0
 BENCH_SECONDS = 600
-BENCH_AFTER = 6
+# Wikimedia answers a 429 in about 0.2s and tells us exactly how long to wait,
+# so a refusal is cheap and waiting it out is productive. Bench only after a
+# long run of them, which means the limit has stopped being about pace.
+BENCH_AFTER = 25
+RETRY_AFTER_CAP = 90
 _clean_streak = {}
 _fail_streak = {}
 _benched_until = {}
+# Hosts that answered with a server error or a timeout rather than a refusal.
+# Openverse currently 504s on any filtered query after a full minute, and
+# three of those per recipe is most of the run's wall clock spent on nothing.
+_dead = {}
+DEAD_AFTER = 2
+HOST_TIMEOUT = {"api.openverse.org": 12}
+
+
+def retry_after(headers):
+    """Wikimedia sends a countdown on a 429. Waiting exactly that long is
+    both the polite thing and the fast one — the next call then succeeds."""
+    raw = (headers or {}).get("Retry-After") if headers else None
+    try:
+        return max(1.0, min(RETRY_AFTER_CAP, float(raw)))
+    except (TypeError, ValueError):
+        return None
+
+
+def timeout_for(host, default):
+    return HOST_TIMEOUT.get(host, default)
+
+
+def mark_dead(host, why):
+    _dead[host] = _dead.get(host, 0) + 1
+    if _dead[host] == DEAD_AFTER:
+        log(f"    · {host} is not answering ({why}); skipping it for this run")
+
+
+def is_dead(host):
+    return _dead.get(host, 0) >= DEAD_AFTER
 
 
 def host_of(url):
-    return urllib.parse.urlsplit(url).hostname or ""
+    host = urllib.parse.urlsplit(url).hostname or ""
+    # Commons, the thumbnailer and the file store are separate names in front
+    # of one rate-limit budget, so pacing them separately just means each
+    # rediscovers the same limit on its own. Pace them as one.
+    if host.endswith("wikimedia.org") or host.endswith("wikipedia.org"):
+        return "wikimedia.org"
+    return host
 
 
 def throttle(host):
@@ -108,21 +148,19 @@ def throttled(url):
     return benched(host) or _gap.get(host, MIN_GAP) > MIN_GAP * 4
 
 
-def slow_down(host):
-    _gap[host] = min(MAX_GAP, max(MIN_GAP, _gap.get(host, MIN_GAP)) * 1.8)
+def slow_down(host, quiet=False):
+    """`quiet` means the host told us how long to wait. That is a normal part
+    of a paced conversation with Wikimedia, not a sign anything is wrong, so
+    it neither widens the gap nor gets logged — we simply wait and continue."""
     _clean_streak[host] = 0
     _fail_streak[host] = _fail_streak.get(host, 0) + 1
-    # Once pacing has hit the ceiling, each further attempt costs a full gap of
-    # sleep to be refused again, so bench on the next failure rather than
-    # spending another five refusals to reach the same conclusion.
-    at_ceiling = _gap[host] >= MAX_GAP and _fail_streak[host] >= 2
-    if (_fail_streak[host] >= BENCH_AFTER or at_ceiling) and not benched(host):
-        # A short burst of 429s means the limit is on the IP, not the pace.
-        # Waiting the gap out per request just spends minutes to be refused
-        # again, so stop asking this host for a while.
+    if not quiet:
+        _gap[host] = min(MAX_GAP, max(MIN_GAP, _gap.get(host, MIN_GAP)) * 1.8)
+    if _fail_streak[host] >= BENCH_AFTER and not benched(host):
+        # A long run of refusals means the limit has stopped being about pace.
         _benched_until[host] = time.time() + BENCH_SECONDS
         log(f"    · {host} is rate limiting this IP; benched for {BENCH_SECONDS // 60} minutes")
-    elif not benched(host):
+    elif not quiet and not benched(host):
         log(f"    · {host} rate limited; pacing at {_gap[host]:.0f}s between calls")
 
 
@@ -150,43 +188,60 @@ def speed_up(host):
         _clean_streak[host] = 0
 
 
-def http_json(url, tries=4):
-    """A 429 widens this host's pacing gap and waits it out, rather than
-    hammering: the limit is per-IP and only time makes it go away."""
+def http_json(url, tries=10):
+    """A 429 is answered with a Retry-After countdown, so the useful response
+    is to wait exactly that long and ask again — the call then goes through.
+    A 5xx or a timeout is a different problem: the host is not refusing us, it
+    is broken, and retrying it costs a minute each time for nothing."""
     _require_http(url)
     host = host_of(url)
-    if benched(host):
+    if benched(host) or is_dead(host):
         return None
     for i in range(tries):
         throttle(host)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with urllib.request.urlopen(req, timeout=timeout_for(host, 45)) as r:
                 data = json.loads(r.read().decode("utf-8"))
             speed_up(host)
             return data
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                slow_down(host)
+                wait = retry_after(e.headers)
+                slow_down(host, quiet=wait is not None)
                 if benched(host):
                     return None
-                time.sleep(_gap.get(host, MIN_GAP))
+                time.sleep(wait if wait is not None else _gap.get(host, MIN_GAP))
                 continue
+            if e.code >= 500:
+                mark_dead(host, f"HTTP {e.code}")
+                if is_dead(host):
+                    return None
             if i == tries - 1:
                 log(f"    ! json failed: {e}")
                 return None
-            time.sleep(2 ** i)
+            time.sleep(2 ** min(i, 3))
         except Exception as e:
+            mark_dead(host, type(e).__name__)
+            if is_dead(host):
+                return None
             if i == tries - 1:
                 log(f"    ! json failed: {e}")
                 return None
-            time.sleep(2 ** i)
+            time.sleep(2 ** min(i, 3))
     log("    ! json failed: still rate limited after retries")
     return None
 
 
 DOWNLOAD_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
+
+# Every candidate for a dish sits on the same file server, so "try the next
+# one" is not an escape from a rate limit — it is the same refusal again.
+# Waiting the countdown out is the only thing that actually gets the file.
+# Only an implausible countdown means something other than pacing is wrong.
+DOWNLOAD_RETRY_CAP = 75
 
 
 def http_bytes(url, tries=3):
@@ -198,13 +253,24 @@ def http_bytes(url, tries=3):
                 "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
             })
             with urllib.request.urlopen(req, timeout=90) as r:
-                return r.read()
+                data = r.read()
+            # A download that goes through says as much about the budget as a
+            # search that does. Without this the failure streak only ever grew
+            # and the shared Wikimedia pace benched itself mid-run.
+            speed_up(host_of(url))
+            return data
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                slow_down(host_of(url))
+                wait = retry_after(e.headers)
+                slow_down(host_of(url), quiet=wait is not None)
                 if benched(host_of(url)):
                     return None
-                time.sleep(_gap.get(host_of(url), MIN_GAP))
+                if wait is not None and wait > DOWNLOAD_RETRY_CAP:
+                    return None          # not pacing; let the caller move on
+                if wait is not None and wait > 20:
+                    log(f"    · file host asked for {wait:.0f}s; waiting it out")
+                time.sleep(wait if wait is not None else _gap.get(host_of(url), MIN_GAP))
+                continue
             if i == tries - 1:
                 log(f"    ! download failed: {e}")
                 return None
@@ -249,12 +315,60 @@ def relevance(candidate_title, query):
     return hits / len(q)
 
 
+# A dish name is not always the subject of the picture. "Coffees in Cornish
+# Pasty Shop, Brighton" scores a perfect 1.00 against "Cornish pasty" and shows
+# two hot chocolates: the dish is naming the venue, and what the photograph is
+# actually of was named before the preposition. Same for a place, a festival or
+# a company called after a food.
+VENUE = re.compile(
+    r"\b(shops?|stores?|caf[e\u00e9]s?|coffee ?house|restaurants?|bakery|bakeries|"
+    r"baker|pub|inn|tavern|bars?|bistro|brasserie|diner|deli|takeaway|kiosk|"
+    r"stalls?|van|truck|factory|works|company|co|ltd|inc|festival|fair|museum|"
+    r"street|road|lane|square|station|hotel|house|market)\b", re.I)
+# "of" is deliberately absent: "Interior of the Waffle House" is a location but
+# "Bowl of ramen" is not, and the venue-adjacency rule below already catches the
+# first without throwing away the second.
+LOCATION = {"in", "at", "inside", "outside", "near", "from", "by"}
+# Titles are written as clauses: "<what it shows> - <where it was taken>".
+SEGMENTS = re.compile(r"[,\-\u2013\u2014:;()/|]+")
+
+
+def names_the_venue_not_the_dish(title, query):
+    """True when every mention of the dish in the title is part of a venue's
+    name or sits inside a "taken at ..." clause — which means the dish is where
+    the photograph happened, not what it is of."""
+    title = title or ""
+    if not VENUE.search(title):
+        return False               # nothing venue-shaped; the usual case
+    dish = strong(query)
+    if not dish:
+        return False
+    found = False
+    for segment in SEGMENTS.split(title):
+        words = [w for w in re.split(r"[^A-Za-z0-9\u00c0-\u024f]+", segment) if w]
+        lower = [w.lower() for w in words]
+        location_at = next((i for i, w in enumerate(lower) if w in LOCATION), None)
+        for i, w in enumerate(lower):
+            if len(w) <= 2 or not any(d in w or w in d for d in dish):
+                continue
+            found = True
+            # "Cornish Pasty Shop" — the dish word is part of the venue's name,
+            # which shows up as a venue noun within the next word or two.
+            if any(VENUE.fullmatch(w) for w in lower[i + 1:i + 3]):
+                continue
+            # "Coffees in Cornish Pasty ..." — it is in the location clause.
+            if location_at is not None and i > location_at:
+                continue
+            return False           # a mention that really is the subject
+    return found
+
+
 # --------------------------------------------------------------- providers
 
 def commons_candidates(query, extra=""):
     # Openverse indexes most of Commons and is not rate limiting us, so a
     # benched Commons is a slow way to learn nothing new.
-    if benched("commons.wikimedia.org"):
+    if benched(host_of("https://commons.wikimedia.org/")):
         return []
     params = {
         "action": "query", "format": "json", "generator": "search",
@@ -277,11 +391,23 @@ def commons_candidates(query, extra=""):
         title = re.sub(r"^File:|\.\w+$", "", page.get("title", ""))
         if BAD_TOKENS.search(title):
             continue
+        if names_the_venue_not_the_dish(title, query):
+            continue
         if info.get("width", 0) < 500 or info.get("height", 0) < 380:
             continue
+        # The thumbnail is the whole point of iiurlwidth: it is ~200 KB where
+        # the original can be 20 MB, and the file host answers a big request
+        # with a minute-long Retry-After. Fall back to the original only when
+        # MediaWiki produced no thumbnail and the file is small enough to be
+        # worth the wait.
+        src = info.get("thumburl")
+        if not src:
+            if info.get("size", 0) > 4_000_000:
+                continue
+            src = info.get("url", "")
         out.append({
             "title": title,
-            "url": (info.get("thumburl") or info.get("url", "")).split("?")[0],
+            "url": src.split("?")[0],
             "page": info.get("descriptionurl", ""),
             "author": strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown",
             "licence": lic,
@@ -294,7 +420,18 @@ def commons_candidates(query, extra=""):
     return out
 
 
+# Openverse has been answering every licence-filtered query with a 504 after a
+# full minute, and the results it does return point at the original file on
+# upload.wikimedia.org — which replies to an unauthenticated request with a
+# ten-minute Retry-After, where the thumbnail host answers in 0.2s. So it costs
+# a minute per recipe to produce candidates that cannot be downloaded. Flip
+# this back to True to try it again; nothing else needs to change.
+OPENVERSE_ENABLED = False
+
+
 def openverse_candidates(query, wide=True):
+    if not OPENVERSE_ENABLED:
+        return []
     params = {"q": query, "license": "cc0,pdm", "page_size": 12, "mature": "false"}
     if wide:
         params["aspect_ratio"] = "wide"
@@ -334,13 +471,17 @@ def shorten(query):
 def gather(query):
     seen, pool = set(), []
     brief = shorten(query)
-    attempts = [openverse_candidates(query),
-                openverse_candidates(query, wide=False)]
+    # Held as callables, not results. Built eagerly, every query ran before the
+    # "we have enough" check below could stop anything — which on a rate-limited
+    # archive is the difference between two calls a recipe and five.
+    attempts = [lambda: openverse_candidates(query),
+                lambda: openverse_candidates(query, wide=False)]
     if brief:
-        attempts.append(openverse_candidates(brief))
-    attempts += [commons_candidates(query), commons_candidates(query, "food")]
-    for cands in attempts:
-        for c in cands:
+        attempts.append(lambda: openverse_candidates(brief))
+    attempts += [lambda: commons_candidates(query),
+                 lambda: commons_candidates(query, "food")]
+    for attempt in attempts:
+        for c in attempt():
             key = c["url"]
             if not isinstance(key, str) or not key.lower().startswith(("http://", "https://")):
                 continue
@@ -352,12 +493,14 @@ def gather(query):
                 pool.append(c)
         if len(pool) >= 4:
             break
-    # Wikimedia serves most of Openverse's results but is rate limiting this
-    # IP, so a candidate hosted there costs a 45-second wait. Prefer an
-    # equally relevant image from a host that will answer immediately, and
-    # fall back to the throttled one only when it is the only match.
+    # Prefer an equally relevant image from a host that will answer immediately,
+    # and fall back to a throttled one only when it is the only match.
     def rank(c):
-        return (-round(c["score"], 2), 1 if throttled(c["url"]) else 0)
+        # A scaled thumbnail is ~200 KB and served without argument; the
+        # original behind it can be 20 MB and comes with a ten-minute
+        # Retry-After. Same picture, so never pick the expensive copy first.
+        original = 0 if "/thumb/" in c["url"] else 1
+        return (-round(c["score"], 2), original, 1 if throttled(c["url"]) else 0)
 
     pool.sort(key=rank)
     return pool
