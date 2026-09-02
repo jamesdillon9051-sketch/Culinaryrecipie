@@ -607,7 +607,11 @@ VENUE = re.compile(
     # plaza, booth or spot as it is shop — "Darren's Doubles Xtra Plaza" and
     # "Kwa Morombo Nyama Choma Spot" both shipped a storefront as the dish.
     r"plaza|mall|arcade|centre|center|court|corner|spot|joint|eatery|canteen|"
-    r"buffet|booth|grocery|supermarket|hall|club|lounge|bakeshop|foodcourt)\b", re.I)
+    r"buffet|booth|grocery|supermarket|hall|club|lounge|bakeshop|foodcourt|"
+    # A trader's sign is a boast as often as a noun. Three separate runs
+    # brought back the same Trinidad storefront, billed in turn as an empire,
+    # a boss and a plaza.
+    r"empire|boss|king|palace|paradise|world|express|depot)\b", re.I)
 # "of" is deliberately absent: "Interior of the Waffle House" is a location but
 # "Bowl of ramen" is not, and the venue-adjacency rule below already catches the
 # first without throwing away the second.
