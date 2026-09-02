@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 585
-images, **566** are CC0 or public domain and carry no conditions at all, and
-**19** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 591
+images, **568** are CC0 or public domain and carry no conditions at all, and
+**23** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -36,10 +36,10 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 415 |
-| Secondary "process" images | 170 |
-| Total image files | 1170 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 185 |
+| Hero images | 419 |
+| Secondary "process" images | 172 |
+| Total image files | 1182 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 181 |
 
 ### Licences used
 
@@ -47,9 +47,9 @@ nothing than use an image we do not have clear rights to.
 |---|---:|---|
 | CC0 | 300 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 184 | No rights reserved — no attribution legally required |
-| Public domain | 45 | No rights reserved — no attribution legally required |
+| Public domain | 47 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 36 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 20 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -113,10 +113,6 @@ CC BY image of sufficient quality and relevance could be found:
 - Jamaican Curry Goat (`jamaican-curry-goat`)
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
-- Sloppy Joes (`sloppy-joes`)
-- English Trifle (`trifle`)
-- Crumpets (`crumpets`)
-- Irish Stew (`irish-stew`)
 - Cranachan (`cranachan`)
 - Welsh Cawl (`cawl`)
 - Cheese Fondue (`cheese-fondue`)
@@ -818,13 +814,19 @@ licence as the rest of this project.
 | `brisket.webp` / `.jpg` | Texas Smoked Brisket | Hero | Smoked brisket, white bread, horseradish, slaw, (15452301364) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15452301364).jpg) |
 | `brisket-process.webp` / `.jpg` | Texas Smoked Brisket | Process | Smoked brisket, white bread, horseradish, slaw, (15888843867) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smoked_brisket,_white_bread,_horseradish,_slaw,_(15888843867).jpg) |
 | `cioppino.webp` / `.jpg` | Cioppino | Hero | Cioppino from Della Terra (Los Angeles), July 2022 (1) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(1).jpg) |
+| `sloppy-joes.webp` / `.jpg` | Sloppy Joes | Hero | Sloppy joe sandwich with French fries | jeffreyw | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sloppy_joe_sandwich_with_French_fries.jpg) |
+| `sloppy-joes-process.webp` / `.jpg` | Sloppy Joes | Process | Sloppy joe sandwiches | jeffreyw | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sloppy_joe_sandwiches.jpg) |
 | `corn-dogs.webp` / `.jpg` | Corn Dogs | Hero | Corn dog | Tasy Hong | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corn_dog.jpg) |
 | `corn-dogs-process.webp` / `.jpg` | Corn Dogs | Process | Corn dog 001 | Ocdp | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corn_dog_001.jpg) |
 | `philly-soft-pretzel.webp` / `.jpg` | Philadelphia Soft Pretzels | Hero | Auntie Anne's Classic Soft Frozen Pretzels - Sarah Stierch | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Auntie_Anne%27s_Classic_Soft_Frozen_Pretzels_-_Sarah_Stierch.jpg) |
 | `boston-cream-pie.webp` / `.jpg` | Boston Cream Pie | Hero | Boston cream pie with chocolate drizzle | Francisco Seoane Perez | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boston_cream_pie_with_chocolate_drizzle.jpg) |
 | `steak-and-ale-pie.webp` / `.jpg` | Steak and Ale Pie | Hero | Steak and Pepper Pie @ Mount Pleasant Bakery & Cafe 20250111-130728 | RegionVisitor90 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steak_and_Pepper_Pie_@_Mount_Pleasant_Bakery_%26_Cafe_20250111-130728.jpg) |
 | `steak-and-ale-pie-process.webp` / `.jpg` | Steak and Ale Pie | Process | Steak and Wine Pie by Jarrod Baniqued | Jarrod Baniqued | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steak_and_Wine_Pie_by_Jarrod_Baniqued.jpg) |
+| `trifle.webp` / `.jpg` | English Trifle | Hero | Trifle-(custard-layer)-profile | Benjah-bmm27 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Trifle-(custard-layer)-profile.jpg) |
+| `crumpets.webp` / `.jpg` | Crumpets | Hero | Two crumpets copy | Joe Nixon from Leeds, United Kingdom | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Two_crumpets_copy.jpg) |
+| `crumpets-process.webp` / `.jpg` | Crumpets | Process | Crumpets & Scones - English Tea Room, Covington, Louisiana | Infrogmation of New Orleans | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crumpets_%26_Scones_-_English_Tea_Room,_Covington,_Louisiana.jpg) |
 | `ploughmans-lunch.webp` / `.jpg` | Ploughman's Lunch | Hero | Ploughmans lunch | Clothahump (talk) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ploughmans_lunch.jpg) |
+| `irish-stew.webp` / `.jpg` | Irish Stew | Hero | Irish stew 2007 | me | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irish_stew_2007.jpg) |
 | `soda-bread.webp` / `.jpg` | Irish Soda Bread | Hero | Irish soda bread (21 of 68) | Wheeler Cowperthwaite | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irish_soda_bread_(21_of_68).jpg) |
 | `colcannon.webp` / `.jpg` | Colcannon | Hero | Colcannon | Alison Cassidy | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Colcannon.JPG) |
 | `colcannon-process.webp` / `.jpg` | Colcannon | Process | Colcannon 4215w | Sarah777 at en.wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Colcannon_4215w.jpg) |

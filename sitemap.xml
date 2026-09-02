@@ -5125,6 +5125,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sloppy-joes.jpg</image:loc>
+      <image:title>Sloppy Joes</image:title>
+      <image:caption>Sloppy Joes — American quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/corn-dogs/</loc>
@@ -5175,12 +5180,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/trifle.jpg</image:loc>
+      <image:title>English Trifle</image:title>
+      <image:caption>English Trifle — British desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/crumpets/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/crumpets.jpg</image:loc>
+      <image:title>Crumpets</image:title>
+      <image:caption>Crumpets — British baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/ploughmans-lunch/</loc>
@@ -5198,6 +5213,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/irish-stew.jpg</image:loc>
+      <image:title>Irish Stew</image:title>
+      <image:caption>Irish Stew — Irish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/soda-bread/</loc>
