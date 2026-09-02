@@ -270,27 +270,34 @@ would be.
 
 ## Images and licensing
 
-Every photograph is **CC0, public domain, or CC BY**. Nothing here is
-ShareAlike, NonCommercial or NoDerivatives.
+Every photograph is **CC0, public domain, CC BY, or CC BY-SA** — everything that
+asks only for a credit.
 
-CC BY asks one thing: credit the photographer. The site does that underneath the
-photograph on the recipe page itself — title, photographer, licence and a link
-to the original — as well as in
+The site gives that credit underneath the photograph on the recipe page itself:
+title, photographer, licence and a link to the original, plus
 [`images-attribution.md`](images-attribution.md). Because that credit line *is*
 the licence, it is not hidden behind a hover, not collapsed into a modal, and it
 prints with the page.
 
-ShareAlike is deliberately excluded even though it would raise coverage further.
-Every image is resized and re-encoded to WebP, which is at least arguably an
-adaptation, and a ShareAlike condition would then reach into work that is not
-ours to license. NonCommercial is incompatible with running ads.
+Every image is resized and re-encoded to WebP, which makes what this site
+publishes an adaptation. For a **ShareAlike** photograph that means our resized
+copy carries the same licence as the original, and the credit beside it says so
+in as many words.
+
+**NonCommercial and NoDerivatives are excluded**, and not out of caution. This
+site carries advertising, which NonCommercial forbids outright; and resizing is
+precisely what NoDerivatives prohibits distributing. Neither can be satisfied by
+crediting harder.
 
 Images are sourced programmatically by `tools/fetch_images.py`, which searches
-Wikimedia Commons in two tiers — `haslicense:unrestricted` (CC0 and public
-domain) first, and only then `haslicense:attribution` (CC BY) — so a dish the
-free archives cover well never takes on a crediting obligation at all. Every
-result has its `LicenseShortName` **re-validated** rather than the search filter
-being trusted, which is what rejects the compound forms like CC BY-NC-SA.
+Wikimedia Commons in three tiers: `haslicense:unrestricted` (CC0 and public
+domain) first, then `haslicense:attribution` (CC BY), and only then an
+unfiltered search that leans on licence re-validation — CirrusSearch has no
+bucket for ShareAlike at all. Asking in that order means a dish the free
+archives cover well never takes on a crediting obligation. Every result has its
+`LicenseShortName` **re-validated** rather than the search filter being trusted,
+and the NonCommercial/NoDerivatives check reads the whole licence string rather
+than a fixed position, so an odd ordering like `CC BY-SA-NC` cannot slip past.
 Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.

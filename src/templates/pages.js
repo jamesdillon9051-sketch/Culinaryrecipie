@@ -1,7 +1,8 @@
 'use strict';
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
-        publicDomainImageCount } = require('../data/stats');
+        publicDomainImageCount, shareAlikeImageCount,
+        attributionOnlyImageCount } = require('../data/stats');
 const ads = require('./ads');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 
@@ -546,8 +547,8 @@ ${breadcrumbs(trail)}
     </ul>
 
     <h2>Where our photographs come from</h2>
-    <p>Every photograph here is freely licensed and sourced from Wikimedia Commons. Of the ${imageCount} images on the site, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, and ${creditedImageCount} are Creative Commons Attribution &mdash; free to use provided the photographer is credited, which we do underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
-    <p>We do not use ShareAlike, NonCommercial or NoDerivatives images. Every photograph is resized and re-encoded for the web, which is arguably an adaptation, and a ShareAlike condition would reach into work that is not ours to license. Where no properly licensed photograph of a dish exists, you will see a warm gradient card with the recipe name instead &mdash; we would rather show you nothing than show you someone else's photograph without permission.</p>
+    <p>Every photograph here is freely licensed and sourced from Wikimedia Commons. Of the ${imageCount} images on the site, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. Everything that asks for a credit gets one, underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
+    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means our resized copy carries the same licence as the original, and the credit line beside each one says so. We do not use NonCommercial images, because this site carries advertising, or NoDerivatives images, because resizing is exactly what that licence forbids. Where no photograph of a dish exists under any of these terms, you will see a warm gradient card with the recipe name instead &mdash; we would rather show you nothing than show you someone else's photograph without permission.</p>
 
     <h2>How to use the site</h2>
     <ul>

@@ -155,6 +155,10 @@ function plural(n, singular, pluralForm) {
    no condition at all, but we credit those too — it costs a line and the
    photographer did the work either way. */
 const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
+/* ShareAlike binds what we publish, not just what we took: these images are
+   resized and re-encoded, and that adaptation carries the same licence. Saying
+   so beside the picture is part of meeting the terms. */
+const SHARE_ALIKE = /(\bsa\b|share[-\s]?alike)/i;
 
 /**
  * The photographer credit shown under an image.
@@ -173,11 +177,15 @@ function photoCredit(img, { compact = false } = {}) {
   const licence = img.licence_url
     ? `<a href="${esc(img.licence_url)}" rel="license nofollow noopener">${esc(img.licence)}</a>`
     : esc(img.licence || '');
+  const shared = SHARE_ALIKE.test(img.licence || '')
+    ? ' &middot; <span class="photo-credit__sa">this resized copy is shared under the same licence</span>'
+    : '';
   return `<p class="photo-credit${compact ? ' photo-credit--compact' : ''}">`
     + `<span class="visually-hidden">Photograph credit: </span>`
     + `${name} by ${author}`
     + (licence ? ` &middot; ${licence}` : '')
     + (img.source ? ` &middot; ${esc(img.source)}` : '')
+    + shared
     + `</p>`;
 }
 

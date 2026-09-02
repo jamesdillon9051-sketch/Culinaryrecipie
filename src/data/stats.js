@@ -10,6 +10,7 @@ const images = require('./images.json');
    says "no photograph here needs crediting" has to stop saying it the moment
    one does. Derived, so it cannot be left stale. */
 const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
+const SHARE_ALIKE = /(\bsa\b|share[-\s]?alike)/i;
 const shots = [];
 for (const entry of Object.values(images)) {
   if (!entry) continue;
@@ -17,6 +18,7 @@ for (const entry of Object.values(images)) {
 }
 const withPhoto = catalog.filter(r => images[r.slug] && images[r.slug].hero).length;
 const credited = shots.filter(s => NEEDS_CREDIT.test(s.licence)).length;
+const shareAlike = shots.filter(s => SHARE_ALIKE.test(s.licence)).length;
 
 module.exports = {
   recipeCount: catalog.length,
@@ -26,6 +28,8 @@ module.exports = {
   placeholderCount: catalog.length - withPhoto,
   imageCount: shots.length,
   creditedImageCount: credited,
+  shareAlikeImageCount: shareAlike,
+  attributionOnlyImageCount: credited - shareAlike,
   publicDomainImageCount: shots.length - credited,
   /* True while every photograph is CC0 or public domain, false as soon as one
      carries an attribution condition. The about page reads this rather than

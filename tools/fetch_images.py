@@ -28,23 +28,42 @@ WEBP_Q, JPEG_Q = 68, 70
 
 # Licences we accept. Anything else is rejected outright.
 #
-# CC BY is in, because the free-licence archives hold very little CC0 food
-# photography and a great deal of CC BY — excluding it left most of the world's
-# dishes on a placeholder. Its one condition is credit, which the site now gives
-# on the page next to every photograph.
+# Everything here is usable on one condition — credit the photographer — which
+# the site gives on the page beside every photograph. ShareAlike is included:
+# each image is resized and re-encoded to WebP, which is an adaptation, so the
+# adaptation goes out under the same licence as the original. The credit line
+# and images-attribution.md both say so.
 #
-# ShareAlike, NonCommercial and NoDerivatives stay out. The site resizes every
-# image and re-encodes it to WebP, which is at least arguably an adaptation, and
-# a ShareAlike adaptation would drag the licence onto work that is not ours to
-# license. NonCommercial is incompatible with running ads.
-OK_LICENCE = re.compile(
+# NonCommercial and NoDerivatives stay out, and not out of caution. This site
+# carries advertising, which NonCommercial forbids; and every image is resized,
+# which is the one thing NoDerivatives prohibits distributing. Neither can be
+# satisfied by crediting harder.
+_ALLOWED = re.compile(
     r"^(cc0|public domain|pdm|no restrictions"
-    r"|cc[-\s]?by(?![-\s]?(?:sa|nc|nd))"
-    r"|attribution(?![-\s]?(?:share|non|no)))", re.I)
+    r"|cc[-\s]?by(?:[-\s]?sa)?\b"
+    r"|attribution(?:[-\s]?share[-\s]?alike)?\b)", re.I)
+# Checked separately rather than as a lookahead: "CC BY-SA-NC" backtracks past a
+# lookahead placed after the optional SA and comes out accepted. A clause that
+# may appear anywhere in the string is safer read anywhere in the string.
+_FORBIDDEN = re.compile(r"(\bnc\b|non[-\s]?commercial|\bnd\b|no[-\s]?deriv)", re.I)
 
-# CC0 and public domain need no credit; CC BY does. The templates use this to
-# decide whether a credit line is a courtesy or a condition.
+
+class _LicenceGate:
+    """Kept callable as OK_LICENCE.match(...) so the call sites do not change."""
+
+    @staticmethod
+    def match(licence):
+        licence = licence or ""
+        return _ALLOWED.match(licence) if not _FORBIDDEN.search(licence) else None
+
+
+OK_LICENCE = _LicenceGate
+
+# CC0 and public domain need no credit; every CC BY variant does. The templates
+# use this to decide whether a credit line is a courtesy or a condition.
 NEEDS_CREDIT = re.compile(r"^(cc[-\s]?by|attribution)", re.I)
+# ShareAlike binds the adaptation we publish as well, so the credit says so.
+SHARE_ALIKE = re.compile(r"(\bsa\b|share[-\s]?alike)", re.I)
 BAD_TOKENS = re.compile(
     # Things that are not a photograph of the dish. Terms that also occur
     # inside ordinary food words are anchored: "flower" must not match
@@ -582,7 +601,11 @@ def names_the_venue_not_the_dish(title, query):
 # between them, so they are two searches. "unrestricted" is CC0 and public
 # domain; "attribution" is CC BY. Unrestricted is asked first everywhere,
 # because an image with no conditions is worth preferring to one with them.
-LICENCE_FILTERS = ("haslicense:unrestricted", "haslicense:attribution")
+# CirrusSearch has a bucket for CC0/public domain and one for CC BY, and none
+# for ShareAlike — every spelling of haslicense:...sharealike returns nothing.
+# The third tier drops the filter and leans on the licence re-validation every
+# result goes through anyway, which is the authority here in any case.
+LICENCE_FILTERS = ("haslicense:unrestricted", "haslicense:attribution", "")
 
 
 def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0], tags=()):

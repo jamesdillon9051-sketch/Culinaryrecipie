@@ -9,10 +9,14 @@ That condition is met in two places: underneath the photograph on the recipe
 page itself, and in the table below. Both name the title, the photographer, the
 licence and the source, which is what Creative Commons asks for.
 
-No image here is ShareAlike, NonCommercial or NoDerivatives. Every photograph is
-resized and re-encoded, which is arguably an adaptation, and a ShareAlike
-condition would reach into work that is not ours to license. These are filtered
-out at source rather than caught in review.
+Every image is resized and re-encoded to WebP and JPEG, which makes what this
+site publishes an adaptation of the original. Where the licence is
+Attribution-ShareAlike, that adaptation carries **the same licence as the
+original**, and the credit beside the photograph on the recipe page says so.
+
+No image here is NonCommercial — this site carries advertising — or
+NoDerivatives, since resizing is precisely what that licence forbids
+distributing. Both are filtered out at source rather than caught in review.
 
 ## How the images were sourced
 
@@ -21,8 +25,10 @@ Images were collected programmatically by `tools/fetch_images.py`, which:
 1. Queries **Wikimedia Commons**, then re-checks the `LicenseShortName` field on
    every result and discards anything that is not CC0, public domain or CC BY.
    The search filter is treated as a hint; the licence field is the authority.
-2. Rejects ShareAlike, NonCommercial and NoDerivatives outright, including the
-   compound forms such as CC BY-NC-SA.
+2. Rejects NonCommercial and NoDerivatives outright, including compound forms
+   such as CC BY-NC-SA. The forbidden clause is looked for anywhere in the
+   licence string rather than in a fixed position, so an unusual ordering like
+   "CC BY-SA-NC" cannot slip past.
 3. Scores each candidate for relevance against the dish name and rejects
    archival material, illustrations, packaging shots and portraits.
 4. Downloads, centre-crops to 4:3, resizes, and writes both WebP and JPEG.
@@ -63,11 +69,14 @@ Licence texts:
 - **CC BY 4.0** — <https://creativecommons.org/licenses/by/4.0/>
 - **CC BY 3.0** — <https://creativecommons.org/licenses/by/3.0/>
 - **CC BY 2.0** — <https://creativecommons.org/licenses/by/2.0/>
+- **CC BY-SA 4.0** — <https://creativecommons.org/licenses/by-sa/4.0/>
+- **CC BY-SA 3.0** — <https://creativecommons.org/licenses/by-sa/3.0/>
+- **CC BY-SA 2.0** — <https://creativecommons.org/licenses/by-sa/2.0/>
 
 ### Recipes without a photograph
 
-These use the built-in gradient placeholder because no CC0, public-domain or
-CC BY image of sufficient quality and relevance could be found:
+These use the built-in gradient placeholder because no CC0, public-domain,
+CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 
 - Osaka Okonomiyaki (`okonomiyaki`)
 - Dal Tadka (`dal-tadka`)
