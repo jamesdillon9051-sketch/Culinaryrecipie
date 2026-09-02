@@ -55,7 +55,7 @@ module.exports = [
   c('mapo-eggplant', 'Mapo Eggplant', 'Chinese', 'Dinner', 'Easy', 15, 20, 4, 4.7, 1322, ['Vegan'], [], 'Mapo eggplant'),
   c('scallion-pancakes', 'Scallion Pancakes', 'Chinese', 'Appetizers', 'Medium', 40, 20, 6, 4.8, 2211, ['Vegan'], [], 'Scallion pancake'),
   c('beef-chow-fun', 'Beef Chow Fun', 'Chinese', 'Dinner', 'Medium', 20, 12, 4, 4.7, 1644, ['Dairy-Free'], [], 'Beef chow fun'),
-  c('lion-head-meatballs', "Lion's Head Meatballs", 'Chinese', 'Dinner', 'Medium', 25, 60, 6, 4.6, 788, ['Dairy-Free'], [], 'Lion head meatballs'),
+  c('lion-head-meatballs', "Lion's Head Meatballs", 'Chinese', 'Dinner', 'Medium', 25, 60, 6, 4.6, 788, ['Dairy-Free'], [], 'Shizitou pork meatballs'),
   c('egg-tarts', 'Hong Kong Egg Tarts', 'Chinese', 'Desserts', 'Medium', 40, 25, 12, 4.8, 2044, ['Vegetarian'], [], 'Hong kong egg tart'),
   c('wonton-noodle-soup', 'Wonton Noodle Soup', 'Chinese', 'Lunch', 'Medium', 35, 20, 4, 4.8, 2311, ['Dairy-Free'], [], 'Wonton noodle soup'),
 

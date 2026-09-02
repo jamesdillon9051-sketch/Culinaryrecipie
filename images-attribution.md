@@ -1,7 +1,7 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 589
-images, **561** are CC0 or public domain and carry no conditions at all, and
+Every photograph on CulinaryVault is freely licensed. Of 590
+images, **562** are CC0 or public domain and carry no conditions at all, and
 **28** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
@@ -36,16 +36,16 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 600 |
-| Hero images | 417 |
+| Hero images | 418 |
 | Secondary "process" images | 172 |
-| Total image files | 1178 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 183 |
+| Total image files | 1180 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 182 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 300 | No rights reserved — no attribution legally required |
+| CC0 | 301 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
 | Public domain | 50 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
@@ -127,7 +127,6 @@ CC BY image of sufficient quality and relevance could be found:
 - Ackee and Saltfish (`ackee-and-saltfish`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Lion's Head Meatballs (`lion-head-meatballs`)
-- Misal Pav (`misal-pav`)
 - Cranachan (`cranachan`)
 - Welsh Cawl (`cawl`)
 - Krumkake (`krumkake`)
@@ -791,6 +790,7 @@ licence as the rest of this project.
 | `vada-pav.webp` / `.jpg` | Vada Pav | Hero | Jumbo Vada Pav | Mayur.thakare at English Wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav.jpg) |
 | `vada-pav-process.webp` / `.jpg` | Vada Pav | Process | Jumbo Vada Pav (dodged) | Uploader of original version was Mayur.thakare at en.wikipedia | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav_(dodged).jpg) |
 | `masala-chai.webp` / `.jpg` | Masala Chai | Hero | Masala Chai | Miansari66 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG) |
+| `misal-pav.webp` / `.jpg` | Misal Pav | Hero | Misal Pav Vishwanand 2026-01-28 | Sakurakat | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Misal_Pav_Vishwanand_2026-01-28.jpg) |
 | `naan.webp` / `.jpg` | Garlic Naan | Hero | Bánh mì Naan tỏi ở Tân Phú (1) | Phương Huy (thảo luận) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_Naan_t%E1%BB%8Fi_%E1%BB%9F_T%C3%A2n_Ph%C3%BA_(1).jpg) |
 | `enchiladas-verdes.webp` / `.jpg` | Enchiladas Verdes | Hero | Enchiladas de carnitas de pato. Salsa de pipián verde. (Puebla, Puebla) | Joselu Blanco | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_de_carnitas_de_pato._Salsa_de_pipi%C3%A1n_verde._(Puebla,_Puebla).jpg) |
 | `enchiladas-verdes-process.webp` / `.jpg` | Enchiladas Verdes | Process | Enchiladas verdes en Tonatico | Wotancito | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Enchiladas_verdes_en_Tonatico.jpg) |

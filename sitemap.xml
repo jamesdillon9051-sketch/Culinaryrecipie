@@ -4977,6 +4977,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/misal-pav.jpg</image:loc>
+      <image:title>Misal Pav</image:title>
+      <image:caption>Misal Pav — Indian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/naan/</loc>

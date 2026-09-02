@@ -73,6 +73,9 @@ BAD_TOKENS = re.compile(
     # A museum accession number: Met prints carry "MET DP818368", and what came
     # back for Irish stew was a nineteenth-century political cartoon.
     r"\bmet dp\d|\bdp\d{6}\b|accession|\bplate \d+\b|"
+    # Museum inventory numbers in the general shape: the Rijksmuseum files a
+    # drawing of a lion as "PK-1984-T-5", which reached the meatball recipe.
+    r"\b[a-z]{2,4}-\d{4}-[a-z]-\d+\b|\b[a-z]{2,3}-[a-z]-\d{3,}\b|"
     # The appliance rather than the meal — "appareil à raclette" is the grill.
     r"appareil|appliance|tefal|moulinex|kenwood|\bhob\b|"
     # A single layer or a plan view is a detail, not the dish: the trifle that
