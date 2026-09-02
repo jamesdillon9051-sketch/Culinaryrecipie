@@ -46,6 +46,18 @@ function pageCount(root) {
   return n;
 }
 
+/** Re-wrap to the width the rest of the file is written at. */
+function wrap(text, width = 79) {
+  const out = [];
+  let line = '';
+  for (const word of text.split(/\s+/)) {
+    if (line && (line + ' ' + word).length > width) { out.push(line); line = word; }
+    else line = line ? line + ' ' + word : word;
+  }
+  if (line) out.push(line);
+  return out.join('\n');
+}
+
 /* One entry per claim: a pattern that matches the sentence as it stands and the
    text it should read now. Anchored on the surrounding words rather than on the
    old digits, so it keeps working after the first rewrite. */
@@ -59,9 +71,15 @@ function replacements(root) {
     [/^\d[\d,]* recipes · \d+ cuisines · \d+ categories · [\d,]+ static pages/m,
      `${s.recipeCount} recipes · ${s.cuisineCount} cuisines · ${s.categoryCount} categories · ${pages} static pages`],
 
-    [/\d+ of the \d+ recipes have a photograph\. Of the \d+ images on the site, \d+\s+are CC0 or public domain, \d+ (?:is|are) CC BY and \d+ (?:is|are) CC BY-SA\./,
-     `${s.photoCount} of the ${s.recipeCount} recipes have a photograph. Of the ${s.imageCount} images on the site, ${pd} `
-     + `are CC0 or public domain, ${by} ${by === 1 ? 'is' : 'are'} CC BY and ${sa} ${sa === 1 ? 'is' : 'are'} CC BY-SA.`],
+    /* The whole paragraph, so the prose after the figures re-wraps with them
+       instead of keeping the line breaks the old numbers happened to fall on. */
+    [/\d+ of the \d+ recipes have a photograph\.[\s\S]*?fails to load at runtime\./,
+     wrap(`${s.photoCount} of the ${s.recipeCount} recipes have a photograph. `
+       + `Of the ${s.imageCount} images on the site, ${pd} are CC0 or public domain, `
+       + `${by} ${by === 1 ? 'is' : 'are'} CC BY and ${sa} ${sa === 1 ? 'is' : 'are'} CC BY-SA. `
+       + `Anything still without one falls back to a CSS gradient carrying the `
+       + `recipe name, the same fallback that catches any image that fails to `
+       + `load at runtime.`)],
 
     [/all \d+ recipes, navigation and taxonomy pages render fully/,
      `all ${s.recipeCount} recipes, navigation and taxonomy pages render fully`],

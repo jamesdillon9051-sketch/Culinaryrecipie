@@ -302,10 +302,10 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-513 of the 600 recipes have a photograph. Of the 721 images on the site, 621
-are CC0 or public domain, 54 are CC BY and 46 are CC BY-SA. Anything still without one falls back
-to a CSS gradient carrying the recipe name, the same fallback that catches any
-image that fails to load at runtime.
+578 of the 600 recipes have a photograph. Of the 819 images on the site, 663
+are CC0 or public domain, 79 are CC BY and 77 are CC BY-SA. Anything still
+without one falls back to a CSS gradient carrying the recipe name, the same
+fallback that catches any image that fails to load at runtime.
 
 Every candidate is opened and looked at before it ships. That is not belt and
 braces — it is the only check that has ever worked. Every wrong photograph found
@@ -322,10 +322,14 @@ name returns a bar in Key West; lion's head meatballs asks for shizitou, because
 the English name returns lions.
 
 The rest of the gaps are dishes where a search loose enough to find something
-starts returning things that are not the dish at all — a cargo ship for sangria,
-a toad for toad-in-the-hole. Those are pinned with `"skip": true` in
-`src/data/images.json` so the pipeline leaves them alone. A wrong photograph is
-worse than an honest placeholder.
+starts returning things that are not the dish at all. Bořek is a village in
+Czechia, and the archive holds it from the air. Toad-in-the-hole is a Gillray
+cartoon of Napoleon from 1808. Cawl is a Somali surname. Doubles is a row of
+storefronts in Trinidad, each billing itself an empire or a boss. Those are
+pinned with `"skip": true` in `src/data/images.json`, alongside a `skipReason`
+saying what the search returns instead, so the pipeline leaves them alone and
+the next person does not have to rediscover why. A wrong photograph is worse
+than an honest placeholder.
 
 Dishes whose own name differs from the English one carry fallback queries in
 `src/data/image-queries.json` — a native-script spelling, another
