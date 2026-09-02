@@ -130,9 +130,10 @@ function loadRecipes() {
   /* The catalogue is split across two volumes, each with its own details
      directory. They are merged here so the rest of the build only ever sees
      one flat list of recipes. */
-  const catalog = [...require('./data/catalog'), ...require('./data/catalog-2')];
+  const catalog = [...require('./data/catalog'), ...require('./data/catalog-2'),
+                   ...require('./data/catalog-3')];
   const details = {};
-  for (const dir of ['details', 'details2']) {
+  for (const dir of ['details', 'details2', 'details3']) {
     const detailsDir = path.join(SRC, 'data', dir);
     for (const file of fs.readdirSync(detailsDir).filter(f => f.endsWith('.js'))) {
       Object.assign(details, require(path.join(detailsDir, file)));

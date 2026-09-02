@@ -1,0 +1,348 @@
+/** Pakistani and Sri Lankan recipe details, volume three.
+    See ../details2/italian.js for the schema. */
+
+module.exports = {
+  'nihari': {
+    d: 'Beef shank stewed overnight in a spice-heavy gravy thickened with wheat flour, finished with ginger, chilli and lime. Breakfast in Old Delhi and Karachi.',
+    meta: 'Nihari — beef shank stewed for hours in a spiced gravy thickened with wheat flour, with ginger and lime.',
+    kw: ['nihari recipe', 'beef nihari', 'pakistani nihari', 'slow cooked beef stew'],
+    why: 'Nihari is one of very few curries thickened with a flour slurry, and it has to be whisked into hot liquid off the boil or it sets into lumps that never disperse. The marrow bones are not garnish: the marrow melting into the gravy is what gives nihari its particular richness, and it is scooped out and stirred in at the end.',
+    ing: [
+      '1.5 kg beef shank, in thick pieces, plus 3 marrow bones',
+      '150 ml ghee or neutral oil',
+      '2 onions, sliced',
+      '2 tbsp ginger-garlic paste',
+      '# For the nihari masala',
+      '2 tbsp fennel seeds',
+      '1 tbsp coriander seeds',
+      '1 tsp cumin seeds',
+      '1 tsp black peppercorns',
+      '1 tsp dried ginger powder',
+      '6 cloves',
+      '4 green cardamom pods',
+      '2 black cardamom pods',
+      '1 star anise',
+      '1 cinnamon stick',
+      '1/2 nutmeg, grated',
+      '1 tsp mace',
+      '# For the gravy',
+      '2 tbsp Kashmiri chilli powder',
+      '1 tsp ground turmeric',
+      '2 tsp fine sea salt',
+      '2.5 litres hot water',
+      '5 tbsp wheat flour, whisked with 300 ml cold water',
+      '# To finish',
+      'Fresh ginger, in fine matchsticks',
+      'Green chillies, sliced',
+      'Coriander, lime wedges, naan'
+    ],
+    st: [
+      'Toast all the whole masala spices in a dry pan for 90 seconds until fragrant, then grind to a powder with the dried ginger, nutmeg and mace.',
+      'Heat the ghee in a very heavy pot and fry the onions for 12 minutes until deep golden. Lift half out for the garnish.',
+      'Add the ginger-garlic paste and cook 2 minutes.',
+      'Add the beef and marrow bones and brown for 10 minutes.',
+      'Add the chilli powder, turmeric, salt and two-thirds of the ground masala, and fry 3 minutes.',
+      'Pour in the hot water, bring to a simmer, cover, and cook on the lowest possible heat for 4 to 5 hours, or overnight in a very low oven at 120C. The beef should be falling apart.',
+      'Lift the meat and bones out. Bring the gravy to a bare simmer and take it off the boil.',
+      'Whisk the flour and cold water slurry until completely smooth, then pour it into the pot in a thin stream while whisking hard.',
+      'Return to low heat and cook 15 to 20 minutes, stirring, until the gravy thickens and turns glossy and a slick of ghee rises.',
+      'Return the beef, scoop the marrow out of the bones and stir it in, and add the rest of the masala.',
+      'Serve topped with the reserved fried onions, ginger matchsticks, green chilli, coriander and lime, with naan.'
+    ],
+    tips: [
+      'Whisk the flour slurry into gravy that is off the boil. Lumps are permanent.',
+      'The overnight cook is traditional and it does show. Four hours is the minimum.',
+      'Stir the marrow in. It is where a lot of the richness comes from.'
+    ],
+    pair: ['Naan or khameeri roti', 'Lime and green chilli', 'Sweet lassi'],
+    store: 'Refrigerate up to 4 days, better on day two, and freeze 3 months.',
+    nut: [812, 52, 22, 62, 3, 4, 1420]
+  },
+
+  'haleem': {
+    d: 'Wheat, barley, lentils and meat cooked for hours and then pounded together until the whole pot becomes one smooth, stringy mass.',
+    meta: 'Haleem — wheat, lentils and meat cooked for hours and pounded to a smooth, stringy porridge.',
+    kw: ['haleem recipe', 'pakistani haleem', 'wheat and meat stew', 'ramadan haleem'],
+    why: 'Haleem is judged on whether the meat has disappeared into the grain — you should not be able to find a piece of it, only strands. That only happens with sustained pounding while the pot is hot, which develops the wheat starch and shreds the meat at the same time. Cooking the pulses and the meat separately first means neither is overdone by the time the other is ready.',
+    ing: [
+      '200 g cracked wheat, soaked overnight',
+      '100 g pearl barley, soaked overnight',
+      '100 g chana dal',
+      '80 g masoor dal',
+      '80 g moong dal',
+      '80 g urad dal',
+      '800 g beef or lamb shank, in chunks',
+      '150 ml ghee',
+      '3 onions, sliced',
+      '2 tbsp ginger-garlic paste',
+      '2 tbsp Kashmiri chilli powder',
+      '1 tsp ground turmeric',
+      '2 tbsp garam masala',
+      '1 tbsp ground cumin',
+      '1 tbsp ground coriander',
+      '2 1/2 tsp fine sea salt',
+      '2.5 litres water',
+      '# To finish',
+      'Fried onions',
+      'Fresh ginger matchsticks, green chillies, coriander',
+      'Lemon wedges and chaat masala'
+    ],
+    st: [
+      'Drain the soaked wheat and barley, add all the dals, cover with 1.5 litres of water and simmer 90 minutes until everything has completely collapsed. Top up with hot water as needed.',
+      'Meanwhile, heat the ghee in a separate heavy pot and fry the onions for 15 minutes until deep brown. Lift half out for garnish.',
+      'Add the ginger-garlic paste and cook 2 minutes, then the chilli, turmeric, cumin and coriander, and fry 2 minutes.',
+      'Add the meat and brown it well, then add 1 litre of water and the salt. Simmer covered for 2 hours until it falls apart.',
+      'Blend the grain and lentil mixture with a stick blender until smooth.',
+      'Shred the meat in its own pot with two forks, then combine everything into the larger pot.',
+      'Now pound and beat the mixture with a wooden masher or the flat of a heavy spoon for 20 to 30 minutes over very low heat, until it becomes uniform, thick and slightly stringy. Add hot water if it gets too stiff.',
+      'Stir in the garam masala and taste for salt.',
+      'Serve topped with fried onions, ginger, chilli and coriander, with lemon and chaat masala on the side.'
+    ],
+    tips: [
+      'Pound it for at least twenty minutes. That is the entire dish.',
+      'Cook the grains and the meat separately, then combine.',
+      'Keep hot water to hand — haleem thickens fast and catches easily.'
+    ],
+    pair: ['Naan', 'Lemon, ginger and chaat masala', 'Sweet lassi'],
+    store: 'Refrigerate up to 4 days and freeze 3 months. Reheat with water, beating as it warms.',
+    nut: [686, 32, 62, 42, 12, 5, 1320]
+  },
+
+  'seekh-kebab': {
+    d: 'Spiced minced lamb moulded onto skewers and cooked over coals, kept juicy by fat, papaya paste and a rest in the fridge before grilling.',
+    meta: 'Seekh kebab — spiced minced lamb moulded on skewers and grilled over coals until charred and juicy.',
+    kw: ['seekh kebab recipe', 'lamb mince kebab', 'pakistani kebab', 'grilled minced lamb'],
+    why: 'Minced lamb slides off a skewer unless the mixture is worked until the proteins bind, so it is kneaded rather than stirred and then chilled hard. Raw papaya paste is the traditional tenderiser; it contains papain, which is powerful enough that thirty minutes is plenty and two hours turns the meat to mush.',
+    ing: [
+      '800 g lamb mince, 20 percent fat',
+      '100 g lamb fat, finely chopped, or extra fatty mince',
+      '1 onion, grated and squeezed dry',
+      '2 tbsp ginger-garlic paste',
+      '2 green chillies, minced',
+      '1 tsp raw papaya paste, optional',
+      '3 tbsp gram flour, dry roasted',
+      '2 tbsp chopped coriander',
+      '2 tbsp chopped mint',
+      '2 tsp ground cumin',
+      '2 tsp ground coriander',
+      '1 tsp garam masala',
+      '1 tsp Kashmiri chilli powder',
+      '1/2 tsp ground cinnamon',
+      '2 tsp fine sea salt',
+      '1 tsp black pepper',
+      'Oil, for the skewers',
+      '# To serve',
+      'Naan, mint chutney, sliced onion and lemon'
+    ],
+    st: [
+      'Squeeze the grated onion in a cloth until it is genuinely dry — its water is the main reason kebabs fall apart.',
+      'Put the mince, chopped fat, onion, ginger-garlic paste, chillies, papaya paste, gram flour, herbs, spices, salt and pepper in a bowl.',
+      'Knead hard with your hands for 6 to 8 minutes, pressing and folding, until the mixture is smooth, sticky and holds together in a single mass.',
+      'Cover and refrigerate at least 1 hour, or up to 4.',
+      'Oil your hands and flat metal skewers. Take a handful of mixture and press it around a skewer, working from the middle outwards into a sausage about 20 cm long and 3 cm thick.',
+      'Squeeze gently along its length to create shallow ridges, which help it grip the skewer.',
+      'Chill the loaded skewers 20 minutes.',
+      'Cook over hot coals or under a very hot grill for 4 minutes, then turn and cook 4 minutes more, basting once with oil or butter, until charred outside and just cooked through.',
+      'Rest 3 minutes, slide off the skewers, and serve with naan, chutney, onion and lemon.'
+    ],
+    tips: [
+      'Knead until it is one sticky mass. Stirring will not do it.',
+      'Squeeze the onion completely dry.',
+      'Flat skewers and cold mixture. Round skewers let it spin and drop.'
+    ],
+    pair: ['Mint and coriander chutney', 'Naan and sliced onion', 'A cold lassi'],
+    store: 'The raw mixture keeps 2 days refrigerated. Shaped skewers freeze 2 months.',
+    nut: [486, 36, 8, 34, 2, 2, 1080]
+  },
+
+  'chapli-kebab': {
+    d: 'Flat Peshawari patties of coarse beef with tomato, pomegranate seed and coriander seed, shallow fried in beef fat until dark and crusted.',
+    meta: 'Chapli kebab — flat Peshawari beef patties with tomato, coriander seed and pomegranate, fried crisp.',
+    kw: ['chapli kebab recipe', 'peshawari kebab', 'beef patties pakistani', 'anardana kebab'],
+    why: 'Coarsely crushed coriander seed and dried pomegranate seed are the two flavours that define chapli kebab, and both must be crushed rather than ground so you meet them in bites. The patties are pressed very thin and fried in a shallow pool of fat, which is what makes the outside crusted while the inside is still soft.',
+    ing: [
+      '800 g beef mince, coarse and fatty',
+      '100 g beef suet or lamb fat, finely chopped',
+      '2 onions, finely chopped',
+      '3 tomatoes, deseeded and chopped, plus slices to press on top',
+      '3 green chillies, chopped',
+      '1 large handful of coriander, chopped',
+      '3 tbsp coriander seeds, coarsely crushed',
+      '2 tbsp dried pomegranate seeds (anardana), crushed',
+      '1 tbsp cumin seeds, crushed',
+      '1 tsp red chilli flakes',
+      '2 tbsp cornflour or maize flour',
+      '1 egg',
+      '2 tsp fine sea salt',
+      '1 tsp black pepper',
+      '200 ml beef dripping or neutral oil, for frying',
+      'Naan, onion rings and lemon, to serve'
+    ],
+    st: [
+      'Crush the coriander seeds, pomegranate seeds and cumin coarsely in a mortar. Do not grind them to powder.',
+      'Mix the mince, chopped fat, onion, tomato, green chilli, fresh coriander, crushed spices, chilli flakes, cornflour, egg, salt and pepper.',
+      'Knead for 4 minutes only — chapli kebabs should stay coarse, not become a paste.',
+      'Cover and refrigerate 1 hour.',
+      'Wet your hands and shape into 6 flat patties, about 12 cm across and only 1 cm thick. They should look too thin.',
+      'Press a tomato slice onto the top of each.',
+      'Heat the dripping in a wide frying pan to about 1 cm deep, over medium-high heat.',
+      'Fry three at a time for 4 minutes on the first side without moving them, spooning hot fat over the top.',
+      'Turn carefully with a wide spatula and fry 3 to 4 minutes more, until dark brown and crusted.',
+      'Drain briefly and serve hot with naan, raw onion rings and lemon.'
+    ],
+    tips: [
+      'Crush the seeds coarsely. Powder loses the whole character.',
+      'Very thin patties. Thick ones steam rather than crust.',
+      'Shallow fry in fat, not a dry pan. That is where the crust comes from.'
+    ],
+    pair: ['Naan and raw onion', 'Mint raita', 'Kahwa or sweet tea'],
+    store: 'Refrigerate the raw mixture 2 days. Cooked kebabs keep 3 days and recrisp in a pan.',
+    nut: [612, 44, 14, 38, 3, 4, 1180]
+  },
+
+  'sri-lankan-fish-curry': {
+    d: 'Fish simmered in coconut milk with roasted curry powder, goraka and curry leaves — dark, sour and considerably hotter than most Indian fish curries.',
+    meta: 'Sri Lankan fish curry — fish in coconut milk with roasted curry powder, goraka and curry leaves.',
+    kw: ['sri lankan fish curry recipe', 'ambul thiyal', 'coconut fish curry', 'goraka curry'],
+    why: 'Sri Lankan roasted curry powder is toasted far darker than Indian garam masala, almost to the edge of burning, and that is where the colour and the smoky depth come from. Goraka — dried garcinia — gives a sourness quite unlike tamarind, and it needs soaking before it will release it.',
+    ing: [
+      '700 g firm fish steaks, such as tuna, kingfish or cod',
+      '3 pieces goraka, soaked in 100 ml hot water, or 2 tbsp tamarind paste',
+      '# For the roasted curry powder',
+      '3 tbsp coriander seeds',
+      '1 tbsp cumin seeds',
+      '1 tbsp fennel seeds',
+      '1 tsp fenugreek seeds',
+      '10 curry leaves',
+      '1 cinnamon stick',
+      '5 cloves',
+      '3 cardamom pods',
+      '2 dried chillies',
+      '# For the curry',
+      '3 tbsp coconut oil',
+      '1 onion, sliced',
+      '4 garlic cloves, sliced',
+      '1 thumb ginger, minced',
+      '2 sprigs curry leaves',
+      '1 stalk lemongrass, bruised',
+      '1 pandan leaf, optional',
+      '2 tsp Kashmiri chilli powder',
+      '1 tsp ground turmeric',
+      '1 tsp fenugreek seeds',
+      '400 ml coconut milk',
+      '150 ml water',
+      '1 1/2 tsp fine sea salt',
+      '2 green chillies, split'
+    ],
+    st: [
+      'Toast all the curry powder spices in a dry pan over medium heat for 6 to 8 minutes, stirring, until they are dark brown and smell smoky. Take them further than feels right, but stop before black. Cool and grind.',
+      'Soak the goraka in hot water for 20 minutes, then squeeze and keep both the pieces and the liquid.',
+      'Cut the fish into large chunks and toss with a little salt and turmeric.',
+      'Heat the coconut oil and fry the onion, garlic, ginger, curry leaves, lemongrass and pandan for 8 minutes until soft and fragrant.',
+      'Add the chilli powder, turmeric, fenugreek seeds and 2 tablespoons of the roasted curry powder, and fry 2 minutes.',
+      'Add the water, the goraka and its soaking liquid, and the salt. Simmer 5 minutes.',
+      'Pour in the coconut milk and bring to a bare simmer — do not boil, or it will split.',
+      'Slide the fish in in a single layer with the green chillies. Do not stir; shake the pan instead.',
+      'Cook 8 to 10 minutes, spooning sauce over, until the fish is just done and the gravy has thickened.',
+      'Rest 10 minutes off the heat before serving with rice.'
+    ],
+    tips: [
+      'Roast the spices dark. This is the single difference from an Indian curry.',
+      'Never boil once the coconut milk is in.',
+      'Shake the pan rather than stirring, or the fish breaks up.'
+    ],
+    pair: ['Red rice or basmati', 'Coconut sambol', 'Papadums'],
+    store: 'Refrigerate up to 2 days and reheat below a simmer. Do not freeze.',
+    nut: [486, 30, 14, 42, 3, 5, 1080]
+  },
+
+  'hoppers': {
+    d: 'Fermented rice and coconut batter swirled up the sides of a small bowl-shaped pan, with an egg cracked into the middle as it cooks.',
+    meta: 'Egg hoppers — fermented rice and coconut batter cooked in a bowl pan with an egg in the centre.',
+    kw: ['egg hoppers recipe', 'appa', 'sri lankan hoppers', 'fermented rice pancake'],
+    why: 'The overnight ferment does two things: it produces the sourness that defines a hopper and the gas that gives the lacy, holey edge. The batter must be thin — closer to single cream than pancake batter — because a thick batter cannot be swirled up the sides of the pan into that translucent rim.',
+    ing: [
+      '300 g rice flour',
+      '3 tbsp cooked rice',
+      '1 tsp instant yeast',
+      '1 tbsp caster sugar',
+      '250 ml warm water',
+      '400 ml coconut milk',
+      '1 tsp fine sea salt',
+      '1/4 tsp bicarbonate of soda',
+      '6 eggs',
+      'Coconut oil, for the pan',
+      '# To serve',
+      'Coconut sambol (pol sambol)',
+      'Seeni sambol or lunu miris',
+      'Dhal curry'
+    ],
+    st: [
+      'Blend the cooked rice with 100 ml of the warm water until smooth — this helps the ferment and the texture.',
+      'Mix the rice flour, yeast and sugar in a large bowl, then whisk in the rice paste and the rest of the warm water to a thick batter.',
+      'Cover and leave at room temperature for 8 hours or overnight, until bubbly and smelling faintly sour.',
+      'The next morning, whisk in the coconut milk, salt and bicarbonate of soda. The batter should be thin — like single cream. Add water if it is thicker.',
+      'Heat a small bowl-shaped hopper pan or a small wok over medium heat and wipe it with coconut oil.',
+      'Pour in a small ladleful, then immediately lift the pan and swirl it so the batter coats the sides in a thin film, leaving a thicker pool in the base.',
+      'Crack an egg into the pool, cover, and cook 3 to 4 minutes, until the edges are lacy, crisp and lifting away and the egg white is set.',
+      'Loosen the rim with a thin spatula and lift the whole hopper out in one piece.',
+      'Repeat, wiping the pan with oil between each.',
+      'Serve immediately with pol sambol and dhal.'
+    ],
+    tips: [
+      'Thin batter, or you cannot swirl it up the sides.',
+      'Cover the pan for the egg. It sets the white while the rim crisps.',
+      'Eat them as they come out. Hoppers go soft within minutes.'
+    ],
+    pair: ['Pol sambol and lunu miris', 'Dhal curry', 'Strong milky tea'],
+    store: 'The batter keeps 2 days refrigerated and improves. Cook the hoppers to order.',
+    nut: [286, 14, 32, 8, 2, 4, 480]
+  },
+
+  'kottu-roti': {
+    d: 'Godamba roti chopped on a hot griddle with vegetables, egg and curry, in a rhythm of metal blades that you can hear from the street.',
+    meta: 'Kottu roti — chopped Sri Lankan flatbread griddled with vegetables, egg and curry gravy.',
+    kw: ['kottu roti recipe', 'sri lankan street food', 'chopped roti', 'kothu roti'],
+    why: 'Kottu is a texture dish: the roti has to be chopped on the hot surface, not before, so the pieces sear as they are cut and stay separate. A ladle of thin curry gravy poured in at the end is what stops the whole thing being dry, and it must be added last so it does not steam the roti soft.',
+    ing: [
+      '6 godamba or paratha roti, day old',
+      '3 tbsp coconut oil',
+      '1 onion, sliced',
+      '3 garlic cloves, minced',
+      '1 thumb ginger, minced',
+      '2 green chillies, sliced',
+      '1 sprig curry leaves',
+      '1 leek, sliced thin',
+      '2 carrots, in matchsticks',
+      '1 red pepper, sliced',
+      '300 g cooked chicken, shredded, or leave out for vegetable kottu',
+      '3 eggs, beaten',
+      '2 tsp Sri Lankan curry powder',
+      '1 tsp chilli powder',
+      '1 tsp fine sea salt',
+      '2 tbsp soy sauce',
+      '200 ml thin chicken or vegetable curry gravy',
+      'Coriander and lime, to serve'
+    ],
+    st: [
+      'Cut the roti into strips with scissors and set them aside. Day-old roti is better than fresh — it holds its shape.',
+      'Heat a large flat griddle or the widest pan you own over high heat with the coconut oil.',
+      'Fry the onion, garlic, ginger, chillies and curry leaves for 2 minutes.',
+      'Add the leek, carrot and pepper and stir fry 3 minutes — they should stay crisp.',
+      'Push everything to one side, pour the beaten eggs onto the clear space and scramble them roughly.',
+      'Add the chicken, curry powder, chilli powder and salt, and toss for 1 minute.',
+      'Add the roti strips and the soy sauce.',
+      'Now chop everything together on the griddle with two flat metal spatulas or a pair of heavy knives, in a steady rhythm, for 2 to 3 minutes, until the roti is in small pieces and everything is combined and searing.',
+      'Pour the curry gravy around the edges of the pile and toss it through for 30 seconds only.',
+      'Serve immediately with coriander and lime.'
+    ],
+    tips: [
+      'Chop it on the heat, not on a board. The searing as you cut is the point.',
+      'Gravy last, and only a splash. Too much and it turns to porridge.',
+      'Day-old roti. Fresh roti tears into mush.'
+    ],
+    pair: ['Extra curry gravy on the side', 'A cold beer', 'Lime wedges'],
+    store: 'Best immediately. Refrigerate up to 2 days and refry hard in a dry pan.',
+    nut: [686, 32, 68, 32, 6, 8, 1620]
+  }
+};

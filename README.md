@@ -1,6 +1,6 @@
 # CulinaryVault
 
-A dependency-free static site for the world's **400 most famous recipes** — each
+A dependency-free static site for the world's **600 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-400 recipes · 39 cuisines · 10 categories · 458 static pages · 0 npm dependencies
+600 recipes · 66 cuisines · 10 categories · 686 static pages · 0 npm dependencies
 ```
 
 ---
@@ -74,9 +74,11 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js         # volume two, same shape; the two are merged at build
+│   │   ├── catalog-2.js         # volume two, same shape; all three are merged at build
+│   │   ├── catalog-3.js         # volume three, same shape
 │   │   ├── details/*.js         # volume one long-form content
 │   │   ├── details2/*.js        # volume two long-form content
+│   │   ├── details3/*.js        # volume three long-form content
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
 │   ├── lib/
@@ -106,7 +108,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 986 image files
-├── recipes/                     #    400 recipe pages
+├── recipes/                     #    600 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -181,7 +183,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 400 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 600 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -251,9 +253,9 @@ would be.
 ### Content quality
 
 - [x] Original 2–3 sentence description on every recipe, primary keyword used naturally
-- [x] "Why This Recipe Works" — the actual cooking science — on all 400
-- [x] Chef's tips, pairing suggestions and storage & reheating on all 400
-- [x] Nutrition per serving on all 400
+- [x] "Why This Recipe Works" — the actual cooking science — on all 600
+- [x] Chef's tips, pairing suggestions and storage & reheating on all 600
+- [x] Nutrition per serving on all 600
 - [x] Internal linking: related recipes, cuisine pages, category pages, dietary tags
 
 ### Before you launch
@@ -278,16 +280,23 @@ result** rather than trusting the search filter. Candidates are scored for
 relevance against the dish name, and archival material, illustrations, packaging
 shots and portraits are rejected.
 
-349 of the 400 recipes have photography. The other 51 fall back to a CSS gradient
-placeholder carrying the recipe name — the same fallback that catches any image
+349 of the 400 recipes in volumes one and two have photography. Volume three is
+still being worked through: Wikimedia has been rate limiting this network hard
+enough that the pipeline runs at roughly one recipe a minute, so most of those
+200 are on the placeholder for now. Anything without a photograph falls back to a
+CSS gradient carrying the recipe name — the same fallback that catches any image
 that fails to load at runtime.
 
-Those 51 are a deliberate choice rather than a gap left to fill. The CC0 and
-public-domain archives simply do not hold a correct photograph of every dish, and
-a search that is loosened enough to find one starts returning things that are not
-the dish at all — a cargo ship for sangria, a toad for toad-in-the-hole. Those
-recipes are pinned with `"skip": true` in `src/data/images.json` so the pipeline
-leaves them alone. A wrong photograph is worse than an honest placeholder.
+Some of the gaps are permanent rather than pending. The CC0 and public-domain
+archives simply do not hold a correct photograph of every dish, and a search that
+is loosened enough to find one starts returning things that are not the dish at
+all — a cargo ship for sangria, a toad for toad-in-the-hole. Those recipes are
+pinned with `"skip": true` in `src/data/images.json` so the pipeline leaves them
+alone. A wrong photograph is worse than an honest placeholder.
+
+To fill in the rest, re-run `npm run images`. It is resumable and it only ever
+looks at recipes whose hero is still missing, so it can be run as often as the
+archives will tolerate.
 
 Full per-image credits, with photographer, licence and source link, are in
 [`images-attribution.md`](images-attribution.md). Regenerate it with
@@ -307,7 +316,7 @@ npm run images
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 400 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 600 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
