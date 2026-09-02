@@ -15,7 +15,7 @@ Output:
 Safe to re-run: work already on disk and recorded in the manifest is skipped.
 """
 
-import io, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
+import io, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 from PIL import Image, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -296,14 +296,72 @@ small large whole half fresh dried new old traditional national street home
 food dishes meal plate bowls cooking cooked recipe recipes""".split())
 
 
+def fold(s):
+    """Lower-case and strip diacritics, so "Rosti" matches "Rösti" and
+    "Caneles" matches "Canelés". Scripts without a Latin decomposition —
+    Georgian, Persian, Japanese — pass through untouched."""
+    lowered = unicodedata.normalize("NFKD", (s or "").lower())
+    return "".join(c for c in lowered if not unicodedata.combining(c))
+
+
 def tokens(s):
-    return {t for t in re.split(r"[^a-z0-9]+", (s or "").lower()) if len(t) > 2 and t not in STOP}
+    """Words worth matching on. Splitting on non-word characters rather than
+    on [^a-z0-9] is what lets a native-script file title be compared at all:
+    the old pattern reduced "Rösti" to "sti" and "ხინკალი" to nothing, so a
+    fallback query written in the dish's own alphabet could never score."""
+    out = set()
+    for t in re.split(r"[^\w]+", fold(s), flags=re.UNICODE):
+        if not t or t in STOP or t.isdigit():
+            continue
+        # Two Han or kana characters are a whole dish name — 牛丼 is gyudon —
+        # where two Latin letters are almost always noise.
+        if len(t) > 2 or (len(t) >= 1 and not t.isascii()):
+            out.add(t)
+    return out
 
 
 def strong(s):
     """Tokens that actually identify a dish, with nationalities, colours and
     generic food words stripped out."""
     return tokens(s) - WEAK
+
+
+# A dish name is also used as a flavour: "Dough-Donut-Horchata" scores 1.00
+# against "Horchata" and is a photograph of a doughnut. When a title names one
+# of these distinct forms and the query does not, the picture is of that form,
+# flavoured with the dish — which is not the dish.
+OTHER_FORM = re.compile(
+    r"\b(donuts?|doughnuts?|cupcakes?|muffins?|cookies?|biscuits?|brownies?|"
+    r"ice ?creams?|gelato|sorbet|milkshakes?|smoothies?|lattes?|frappe|"
+    r"cheesecakes?|popsicles?|lollipops?|candy|marshmallows?|"
+    r"cocktails?|liqueur|syrup|powder|mix|kit|flavou?r(?:ed|ing)?)\b", re.I)
+
+
+def is_a_flavour_of_something_else(title, query):
+    """True when the title names a different form of food — a doughnut, an ice cream —
+    that the query never asked for. The dish is then the flavour, not the
+    subject."""
+    match = OTHER_FORM.search(title or "")
+    return bool(match) and not OTHER_FORM.search(query or "")
+
+
+def shares_dish_word(title, query):
+    """Whether the title carries a word that actually identifies the dish.
+
+    Exact set intersection is the right test for languages written with spaces.
+    It cannot work for those written without them: Commons titles the CC0
+    photograph of mapo eggplant "\u6771\u4eac\u306e\u4e2d\u83ef\u6599\u7406\u5e97\u3067\u9ebb\u5a46\u8302\u5b50", which tokenises as one word,
+    so "\u9ebb\u5a46\u8302\u5b50" can never equal it. Containment is allowed only between two
+    non-ASCII tokens, so Latin queries keep the stricter test — "pie" must not
+    start matching "pierogi"."""
+    q = strong(query)
+    if not q:
+        return True
+    c = strong(title)
+    if q & c:
+        return True
+    return any(t in w for t in q if not t.isascii()
+               for w in c if not w.isascii())
 
 
 def relevance(candidate_title, query):
@@ -393,6 +451,8 @@ def commons_candidates(query, extra=""):
             continue
         if names_the_venue_not_the_dish(title, query):
             continue
+        if is_a_flavour_of_something_else(title, query):
+            continue
         if info.get("width", 0) < 500 or info.get("height", 0) < 380:
             continue
         # The thumbnail is the whole point of iiurlwidth: it is ~200 KB where
@@ -415,7 +475,7 @@ def commons_candidates(query, extra=""):
                            or "https://creativecommons.org/publicdomain/zero/1.0/",
             "source": "Wikimedia Commons",
             "score": relevance(title, query),
-            "strong": bool(strong(title) & strong(query)) or not strong(query),
+            "strong": shares_dish_word(title, query),
         })
     return out
 
@@ -456,7 +516,7 @@ def openverse_candidates(query, wide=True):
             "licence_url": r.get("license_url") or "https://creativecommons.org/publicdomain/zero/1.0/",
             "source": (r.get("source") or "Openverse").title(),
             "score": relevance(title, query),
-            "strong": bool(strong(title) & strong(query)) or not strong(query),
+            "strong": shares_dish_word(title, query),
         })
     return out
 

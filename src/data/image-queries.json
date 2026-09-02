@@ -1,637 +1,1321 @@
 {
-  "avgolemono-soup": [
-    "Greek lemon chicken soup",
-    "egg lemon soup",
-    "chicken rice lemon soup"
+  "ackee-and-saltfish": [
+    "ackee saltfish",
+    "Jamaican ackee",
+    "saltfish breakfast"
   ],
-  "japanese-milk-bread": [
-    "shokupan loaf",
-    "milk bread sliced",
-    "white sandwich loaf"
+  "affogato": [
+    "affogato al caffè",
+    "affogato ice cream espresso",
+    "gelato affogato"
   ],
-  "hong-shao-rou": [
-    "braised pork belly",
-    "pork belly bowl rice",
-    "soy braised pork belly"
+  "aguachile": [
+    "aguachile verde",
+    "aguachile de camarón"
   ],
-  "keema-matar": [
-    "keema matar bowl",
-    "mince peas curry bowl",
-    "lamb mince peas"
-  ],
-  "kheer": [
-    "rice pudding kheer",
-    "Indian rice pudding",
-    "payasam"
-  ],
-  "queso-fundido": [
-    "queso fundido",
-    "melted cheese dish mexican",
-    "cheese chorizo skillet"
-  ],
-  "gumbo": [
-    "gumbo",
-    "chicken sausage gumbo",
-    "gumbo bowl white rice"
-  ],
-  "reuben-sandwich": [
-    "reuben sandwich",
-    "corned beef sauerkraut sandwich",
-    "grilled rye sandwich"
-  ],
-  "tuna-melt": [
-    "tuna sandwich melted cheese",
-    "grilled cheese sandwich",
-    "toasted cheese sandwich"
-  ],
-  "hash-browns": [
-    "hash brown potatoes",
-    "fried grated potato",
-    "potato rosti"
-  ],
-  "cinnamon-sugar-donuts": [
-    "sugar doughnuts",
-    "cinnamon doughnut",
-    "doughnuts sugar"
-  ],
-  "cottage-pie": [
-    "shepherds pie",
-    "minced beef mashed potato pie",
-    "cottage pie dish"
-  ],
-  "cornish-pasty": [
-    "pasty",
-    "Cornish pasties",
-    "baked pasty pastry"
-  ],
-  "welsh-rarebit": [
-    "cheese on toast",
-    "rarebit toast",
-    "melted cheese toast"
-  ],
-  "eton-mess": [
-    "strawberry meringue cream dessert",
-    "meringue cream strawberries",
-    "strawberries and cream dessert"
-  ],
-  "victoria-sponge": [
-    "sponge cake jam cream",
-    "Victoria sandwich cake",
-    "layer sponge cake"
-  ],
-  "bakewell-tart": [
-    "almond frangipane tart",
-    "cherry bakewell",
-    "almond tart"
-  ],
-  "lemon-drizzle-cake": [
-    "lemon loaf cake",
-    "lemon cake slice",
-    "citrus loaf cake"
-  ],
-  "keftedes": [
-    "keftedes greek",
-    "greek fried meatballs plate",
-    "meatballs mint greek"
-  ],
-  "saganaki": [
-    "fried cheese saganaki",
-    "pan fried cheese lemon",
-    "grilled cheese slab"
-  ],
-  "fasolada": [
-    "bean soup bowl",
-    "white bean tomato soup",
-    "greek bean soup"
-  ],
-  "galaktoboureko": [
-    "Greek custard filo pastry",
-    "semolina custard pastry",
-    "filo custard dessert"
-  ],
-  "loukoumades": [
-    "Greek honey doughnuts",
-    "honey fritters",
-    "fried dough balls honey"
-  ],
-  "mujadara": [
-    "mujadara rice lentils",
-    "mejadra",
-    "lentils rice crispy onions"
-  ],
-  "maqluba": [
-    "maqluba rice",
-    "maklouba dish",
-    "rice aubergine platter"
-  ],
-  "kibbeh": [
-    "kibbeh tray",
-    "bulgur meat pie",
-    "kibbe pieces"
-  ],
-  "labneh": [
-    "labneh yoghurt olive oil",
-    "strained yoghurt dip",
-    "yoghurt dip zaatar"
-  ],
-  "manakish-zaatar": [
-    "manakish",
-    "zaatar flatbread",
-    "Lebanese flatbread thyme"
-  ],
-  "basbousa": [
-    "semolina cake syrup",
-    "revani cake",
-    "almond semolina cake"
-  ],
-  "lamb-mandi": [
-    "mandi rice lamb",
-    "Yemeni rice lamb",
-    "spiced rice lamb platter"
-  ],
-  "imam-bayildi": [
-    "stuffed aubergine olive oil",
-    "Turkish stuffed eggplant",
-    "baked stuffed aubergine"
-  ],
-  "turkish-pide": [
-    "pide bread",
-    "Turkish flatbread boat",
-    "pide minced meat"
-  ],
-  "borek": [
-    "borek slices",
-    "cheese borek pastry",
-    "burek tray"
-  ],
-  "pan-con-tomate": [
-    "tomato bread",
-    "pa amb tomaquet",
-    "toasted bread tomato"
-  ],
-  "pulpo-a-la-gallega": [
-    "octopus paprika potatoes",
-    "Galician octopus",
-    "boiled octopus paprika"
-  ],
-  "fabada-asturiana": [
-    "fabada",
-    "fabes con almejas beans",
-    "spanish white bean stew chorizo"
-  ],
-  "pastel-de-nata": [
-    "Portuguese custard tart",
-    "pastel de nata tart",
-    "custard tarts"
-  ],
-  "caldo-verde": [
-    "Portuguese kale soup",
-    "potato kale soup chorizo",
-    "green soup"
-  ],
-  "bacalhau-a-bras": [
-    "bacalhau a bras",
-    "cod potato scrambled egg dish",
-    "portuguese cod dish"
-  ],
-  "piri-piri-chicken": [
-    "peri peri grilled chicken",
-    "grilled chicken halves",
-    "spicy roast chicken"
-  ],
-  "larb-gai": [
-    "larb salad",
-    "minced chicken salad thai",
-    "laab gai plate"
-  ],
-  "pad-see-ew": [
-    "Thai wide rice noodles",
-    "stir fried flat noodles",
-    "soy sauce noodles"
-  ],
-  "bun-bo-hue": [
-    "Vietnamese spicy beef noodle soup",
-    "bun bo",
-    "beef noodle soup Vietnam"
-  ],
-  "com-tam": [
-    "Vietnamese broken rice pork",
-    "grilled pork rice plate",
-    "com tam"
-  ],
-  "cha-gio": [
-    "fried spring rolls plate",
-    "vietnamese spring rolls",
-    "crispy spring rolls"
-  ],
-  "kimbap": [
-    "gimbap",
-    "seaweed rice roll",
-    "kimbap slices"
-  ],
-  "sundubu-jjigae": [
-    "Korean soft tofu stew",
-    "spicy tofu stew",
-    "tofu jjigae"
-  ],
-  "haemul-pajeon": [
-    "seafood pancake korean",
-    "pajeon pancake",
-    "spring onion pancake"
-  ],
-  "samgyetang": [
-    "samgyetang soup",
-    "ginseng chicken soup korean",
-    "chicken ginseng stone pot"
-  ],
-  "dakgalbi": [
-    "Korean spicy stir fried chicken",
-    "dak galbi",
-    "spicy chicken cabbage"
-  ],
-  "naengmyeon": [
-    "Korean cold noodles",
-    "cold buckwheat noodles",
-    "naengmyun"
-  ],
-  "gado-gado": [
-    "Indonesian salad peanut sauce",
-    "vegetable peanut sauce salad",
-    "gado gado"
-  ],
-  "laksa": [
-    "laksa noodle soup",
-    "curry noodle soup",
-    "coconut noodle soup"
-  ],
-  "char-kway-teow": [
-    "fried flat rice noodles",
-    "kway teow",
-    "stir fried noodles prawns"
-  ],
-  "hainanese-chicken-rice": [
-    "hainanese chicken rice plate",
-    "poached chicken rice ginger",
-    "chicken rice cucumber plate"
-  ],
-  "arepas": [
-    "arepa corn cake",
-    "Venezuelan arepa",
-    "corn cakes filled"
-  ],
-  "chimichurri-steak": [
-    "steak chimichurri sauce",
-    "grilled steak herb sauce",
-    "chimichurri"
-  ],
-  "moqueca": [
-    "Brazilian fish stew",
-    "fish coconut stew",
-    "moqueca fish"
-  ],
-  "pao-de-queijo": [
-    "pao de queijo bread",
-    "cheese bread brazilian basket",
-    "queijo bread rolls"
+  "ajiaco": [
+    "ajiaco santafereño",
+    "ajiaco bogotano"
   ],
   "alfajores": [
     "alfajores cookies",
     "dulce de leche sandwich cookies",
     "alfajor coconut"
   ],
-  "chicken-kiev": [
-    "chicken kyiv",
-    "breaded chicken butter",
-    "chicken cutlet breaded"
+  "anzac-biscuits": [
+    "anzac biscuit"
   ],
-  "blini": [
-    "blini pancakes",
-    "blinis caviar",
-    "buckwheat pancakes"
+  "apple-strudel": [
+    "apfelstrudel",
+    "apfelstrudel mit vanillesauce"
   ],
-  "olivier-salad": [
-    "olivier salad",
-    "potato salad peas mayonnaise",
-    "salad olivier"
+  "arepas": [
+    "arepa corn cake",
+    "Venezuelan arepa",
+    "corn cakes filled"
   ],
-  "golabki": [
-    "stuffed cabbage rolls",
-    "cabbage rolls tomato sauce",
-    "golabki"
+  "arroz-de-marisco": [
+    "arroz de marisco português"
   ],
-  "spaetzle": [
-    "spaetzle cheese onions",
-    "German egg noodles",
-    "kasespatzle"
+  "ash-reshteh": [
+    "آش رشته",
+    "aash reshteh"
   ],
-  "sauerbraten": [
-    "German pot roast beef",
-    "braised beef gravy dumplings",
-    "sauerbraten"
+  "avgolemono-soup": [
+    "Greek lemon chicken soup",
+    "egg lemon soup",
+    "chicken rice lemon soup"
   ],
-  "kanelbullar": [
-    "Swedish cinnamon buns",
-    "cinnamon bun pearl sugar",
-    "kanelbulle"
+  "ayam-masak-merah": [
+    "ayam masak merah malaysia"
   ],
-  "jollof-rice": [
-    "jollof",
-    "West African rice tomato",
-    "party jollof rice"
-  ],
-  "egusi-soup": [
-    "egusi",
-    "melon seed soup",
-    "Nigerian soup"
-  ],
-  "doro-wat": [
-    "Ethiopian chicken stew",
-    "doro wot injera",
-    "berbere chicken stew"
-  ],
-  "bobotie": [
-    "bobotie dish",
-    "curried mince bake",
-    "mince custard bake"
-  ],
-  "ackee-and-saltfish": [
-    "ackee saltfish",
-    "Jamaican ackee",
-    "saltfish breakfast"
-  ],
-  "poke-bowl": [
-    "poke bowl tuna",
-    "ahi poke",
-    "raw tuna rice bowl"
-  ],
-  "bouillabaisse": [
-    "fish stew saffron",
-    "Provencal fish soup",
-    "seafood stew bowl"
-  ],
-  "panna-cotta": [
-    "panna cotta dessert",
-    "vanilla cream dessert berries",
-    "set cream dessert"
-  ],
-  "beef-bourguignon": [
-    "boeuf bourguignon",
-    "beef stew red wine",
-    "burgundy beef stew"
-  ],
-  "fish-tacos": [
-    "fish taco",
-    "battered fish tacos slaw",
-    "baja fish taco"
-  ],
-  "chili-con-carne": [
-    "chili con carne bowl",
-    "beef chilli beans",
-    "chili beans bowl"
-  ],
-  "dan-dan-noodles": [
-    "dandan noodles",
-    "Sichuan noodles chilli oil",
-    "sesame noodles minced pork"
-  ],
-  "peking-duck": [
-    "roast duck pancakes",
-    "crispy duck sliced",
-    "Peking roast duck"
-  ],
-  "spring-rolls": [
-    "spring roll",
-    "fried spring rolls plate",
-    "vegetable spring rolls"
-  ],
-  "wonton-soup": [
-    "wonton soup bowl",
-    "dumpling soup broth",
-    "wontons in broth"
-  ],
-  "philly-cheesesteak": [
-    "cheesesteak sandwich",
-    "steak sandwich roll",
-    "cheese steak sub"
-  ],
-  "creamy-tomato-soup": [
-    "tomato soup bowl",
-    "cream of tomato soup",
-    "tomato soup basil"
-  ],
-  "classic-waffles": [
-    "waffles plate",
-    "belgian waffle",
-    "waffle breakfast syrup"
-  ],
-  "fudgy-brownies": [
-    "chocolate brownies",
-    "brownie squares",
-    "brownie tray bake"
-  ],
-  "roast-turkey": [
-    "roast turkey whole",
-    "roasted turkey platter",
-    "thanksgiving turkey"
-  ],
-  "greek-salad": [
-    "horiatiki salad",
-    "Greek salad feta olives",
-    "tomato cucumber feta salad"
-  ],
-  "baklava": [
-    "baklava pastry tray",
-    "baklava pistachio",
-    "filo nut pastry syrup"
-  ],
-  "massaman-curry": [
-    "massaman curry bowl",
-    "Thai peanut curry beef",
-    "curry potatoes peanuts"
-  ],
-  "paella-valenciana": [
-    "paella pan rice",
-    "paella seafood",
-    "valencian paella rice"
-  ],
-  "patatas-bravas": [
-    "patatas bravas plate",
-    "fried potatoes spicy sauce",
-    "bravas potatoes tapas"
-  ],
-  "sangria": [
-    "sangria jug",
-    "sangria glass fruit wine",
-    "wine punch fruit"
-  ],
-  "soft-pretzels": [
-    "soft pretzel",
-    "brezel bread",
-    "pretzels salt"
-  ],
-  "hungarian-goulash": [
-    "goulash bowl",
-    "beef paprika stew",
-    "gulyas soup"
-  ],
-  "char-siu-bao": [
-    "steamed bao buns",
-    "barbecue pork bun",
-    "char siu bao steamed"
-  ],
-  "tomato-egg-stir-fry": [
-    "tomato and egg dish",
-    "scrambled egg tomato plate",
-    "egg tomato stir fry"
+  "bacalhau-a-bras": [
+    "bacalhau a bras",
+    "cod potato scrambled egg dish",
+    "portuguese cod dish"
   ],
   "bagels": [
     "bagel bread rings",
     "bagels basket",
     "sesame bagel"
   ],
-  "pupusas": [
-    "pupusa curtido",
-    "Salvadoran pupusas",
-    "stuffed corn cakes griddle"
+  "bakewell-tart": [
+    "almond frangipane tart",
+    "cherry bakewell",
+    "almond tart"
   ],
-  "bubble-tea": [
-    "boba tea cup",
-    "bubble tea tapioca pearls",
-    "milk tea pearls"
+  "baklava": [
+    "baklava pastry tray",
+    "baklava pistachio",
+    "filo nut pastry syrup"
   ],
-  "brioche": [
-    "brioche loaf sliced",
-    "brioche a tete",
-    "sweet enriched bread loaf"
+  "bandeja-paisa": [
+    "bandeja paisa antioqueña"
   ],
-  "creamy-polenta": [
-    "polenta bowl",
-    "creamy polenta parmesan",
-    "soft polenta dish"
+  "bara-brith": [
+    "bara brith welsh tea loaf"
   ],
-  "pot-au-feu": [
-    "pot au feu dish",
-    "boiled beef vegetables broth",
-    "beef broth vegetables plate"
+  "barbacoa": [
+    "barbacoa de res",
+    "barbacoa tacos"
   ],
-  "sukiyaki": [
-    "sukiyaki pot beef",
-    "beef hot pot japanese",
-    "sukiyaki nabe"
+  "basbousa": [
+    "semolina cake syrup",
+    "revani cake",
+    "almond semolina cake"
   ],
-  "xiao-long-bao": [
-    "soup dumplings steamer",
-    "xiaolongbao dumplings",
-    "steamed pork dumplings"
+  "beef-bourguignon": [
+    "boeuf bourguignon",
+    "beef stew red wine",
+    "burgundy beef stew"
   ],
-  "malai-kofta": [
-    "malai kofta curry",
-    "paneer kofta gravy",
-    "kofta curry cream"
+  "beef-chow-fun": [
+    "乾炒牛河",
+    "gon chow ngau ho",
+    "beef ho fun"
   ],
-  "chicken-pot-pie": [
-    "chicken pot pie",
-    "chicken pie golden crust",
-    "pot pie ramekin"
+  "beef-noodle-soup": [
+    "牛肉麵",
+    "niu rou mian"
   ],
   "beef-stew": [
     "beef stew pot",
     "stewed beef carrots potatoes",
     "beef casserole bowl"
   ],
-  "onion-rings": [
-    "onion rings",
-    "fried onion rings",
-    "crispy onion rings"
+  "belgian-frites": [
+    "frites belges",
+    "friet met mayonaise"
   ],
-  "creamy-coleslaw": [
-    "coleslaw bowl",
-    "cabbage slaw mayonnaise",
-    "creamy slaw"
+  "belgian-waffles": [
+    "gaufre de bruxelles",
+    "brusselse wafel"
   ],
-  "classic-potato-salad": [
-    "potato salad bowl",
-    "creamy potato salad",
-    "potato salad dill"
+  "bhindi-masala": [
+    "भिंडी मसाला",
+    "bhindi sabzi"
   ],
-  "pecan-pie": [
-    "pecan pie slice",
-    "pecan tart",
-    "pie with pecans"
+  "bifana": [
+    "bifana no pão",
+    "bifanas"
   ],
-  "lemon-meringue-pie": [
-    "lemon meringue pie slice",
-    "meringue pie",
-    "lemon pie meringue topping"
+  "bigos": [
+    "bigos staropolski"
   ],
-  "chocolate-milkshake": [
-    "chocolate milkshake",
-    "chocolate shake glass",
-    "chocolate malt shake"
+  "biscuits-buttermilk": [
+    "buttermilk biscuit",
+    "southern biscuits"
   ],
-  "toad-in-the-hole": [
-    "toad in the hole sausages",
-    "yorkshire pudding sausages",
-    "sausage batter pudding"
+  "bitterballen": [
+    "bitterbal"
   ],
-  "shortbread": [
-    "shortbread biscuits",
-    "shortbread fingers",
-    "butter biscuits plate"
-  ],
-  "turkish-delight": [
-    "lokum sweets",
-    "turkish delight cubes",
-    "rose lokum"
-  ],
-  "jamaican-curry-goat": [
-    "curry goat plate",
-    "goat curry rice",
-    "caribbean goat curry"
+  "blini": [
+    "blini pancakes",
+    "blinis caviar",
+    "buckwheat pancakes"
   ],
   "bloody-mary": [
     "bloody mary glass celery",
     "tomato cocktail celery",
     "bloody mary drink"
   ],
-  "galbi": [
-    "galbi ribs grilled",
-    "korean short ribs",
-    "marinated beef ribs grill"
+  "bobotie": [
+    "bobotie dish",
+    "curried mince bake",
+    "mince custard bake"
   ],
-  "smores": [
-    "smores marshmallow chocolate",
-    "smore graham cracker",
-    "toasted marshmallow sandwich"
+  "borek": [
+    "borek slices",
+    "cheese borek pastry",
+    "burek tray"
   ],
-  "mexican-rice": [
-    "arroz rojo",
-    "mexican red rice",
-    "spanish rice bowl"
+  "boston-cream-pie": [
+    "boston cream pie slice"
   ],
-  "mac-and-cheese": [
-    "macaroni cheese dish",
-    "baked mac and cheese",
-    "cheesy pasta bake"
+  "bouillabaisse": [
+    "fish stew saffron",
+    "Provencal fish soup",
+    "seafood stew bowl"
   ],
-  "chicken-noodle-soup": [
-    "chicken noodle soup bowl",
-    "noodle soup chicken broth",
-    "homemade chicken soup noodles"
+  "boxty": [
+    "boxty pancake"
   ],
-  "japanese-cheesecake": [
-    "japanese cotton cheesecake",
-    "souffle cheesecake slice",
-    "jiggly cheesecake"
+  "bread-pudding": [
+    "bread and butter pudding"
+  ],
+  "breakfast-hash": [
+    "potato hash with eggs",
+    "skillet breakfast hash"
+  ],
+  "brik": [
+    "بريك",
+    "brik à l'oeuf",
+    "brik tunisien"
+  ],
+  "brioche": [
+    "brioche loaf sliced",
+    "brioche a tete",
+    "sweet enriched bread loaf"
+  ],
+  "bubble-tea": [
+    "boba tea cup",
+    "bubble tea tapioca pearls",
+    "milk tea pearls"
+  ],
+  "buddha-bowl": [
+    "grain bowl roasted vegetables"
   ],
   "buffalo-wings": [
     "buffalo wings plate",
     "hot wings celery blue cheese",
     "chicken wings sauce plate"
   ],
+  "bun-bo-hue": [
+    "Vietnamese spicy beef noodle soup",
+    "bun bo",
+    "beef noodle soup Vietnam"
+  ],
+  "bunny-chow": [
+    "bunny chow durban"
+  ],
+  "ca-kho-to": [
+    "cá kho tộ",
+    "ca kho to clay pot"
+  ],
+  "caldo-verde": [
+    "Portuguese kale soup",
+    "potato kale soup chorizo",
+    "green soup"
+  ],
+  "callaloo": [
+    "callaloo soup trinidad"
+  ],
+  "canele": [
+    "cannelé",
+    "canelé bordelais"
+  ],
+  "carbonnade-flamande": [
+    "stoofvlees",
+    "carbonade flamande"
+  ],
+  "castella": [
+    "カステラ",
+    "kasutera"
+  ],
+  "causa-limena": [
+    "causa limeña",
+    "causa rellena"
+  ],
+  "cawl": [
+    "cawl cymreig"
+  ],
+  "cha-gio": [
+    "fried spring rolls plate",
+    "vietnamese spring rolls",
+    "crispy spring rolls"
+  ],
+  "chapli-kebab": [
+    "چپلی کباب",
+    "chapli kabab peshawari"
+  ],
+  "char-kway-teow": [
+    "fried flat rice noodles",
+    "kway teow",
+    "stir fried noodles prawns"
+  ],
+  "char-siu-bao": [
+    "steamed bao buns",
+    "barbecue pork bun",
+    "char siu bao steamed"
+  ],
+  "cheese-fondue": [
+    "fondue moitié-moitié",
+    "käsefondue"
+  ],
+  "chicken-and-waffles": [
+    "chicken and waffles plate"
+  ],
+  "chicken-kiev": [
+    "chicken kyiv",
+    "breaded chicken butter",
+    "chicken cutlet breaded"
+  ],
+  "chicken-milanese": [
+    "cotoletta alla milanese",
+    "cotoletta di pollo"
+  ],
+  "chicken-noodle-soup": [
+    "chicken noodle soup bowl",
+    "noodle soup chicken broth",
+    "homemade chicken soup noodles"
+  ],
+  "chicken-paprikash": [
+    "paprikás csirke",
+    "csirkepaprikás"
+  ],
+  "chicken-pot-pie": [
+    "chicken pot pie",
+    "chicken pie golden crust",
+    "pot pie ramekin"
+  ],
+  "chicken-tagine-olives": [
+    "tajine zitoune",
+    "djaj mqualli"
+  ],
+  "chili-con-carne": [
+    "chili con carne bowl",
+    "beef chilli beans",
+    "chili beans bowl"
+  ],
+  "chimichurri-steak": [
+    "steak chimichurri sauce",
+    "grilled steak herb sauce",
+    "chimichurri"
+  ],
+  "chocolate-milkshake": [
+    "chocolate milkshake",
+    "chocolate shake glass",
+    "chocolate malt shake"
+  ],
+  "cinnamon-sugar-donuts": [
+    "sugar doughnuts",
+    "cinnamon doughnut",
+    "doughnuts sugar"
+  ],
+  "cioppino": [
+    "cioppino seafood stew"
+  ],
+  "classic-potato-salad": [
+    "potato salad bowl",
+    "creamy potato salad",
+    "potato salad dill"
+  ],
+  "classic-waffles": [
+    "waffles plate",
+    "belgian waffle",
+    "waffle breakfast syrup"
+  ],
+  "cold-brew-coffee": [
+    "cold brew coffee glass"
+  ],
+  "com-tam": [
+    "Vietnamese broken rice pork",
+    "grilled pork rice plate",
+    "com tam"
+  ],
+  "completo": [
+    "completo italiano",
+    "completo chileno"
+  ],
+  "coquilles-saint-jacques": [
+    "coquille saint-jacques",
+    "noix de saint-jacques"
+  ],
+  "cornish-pasty": [
+    "pasty",
+    "Cornish pasties",
+    "baked pasty pastry"
+  ],
+  "cottage-pie": [
+    "shepherds pie",
+    "minced beef mashed potato pie",
+    "cottage pie dish"
+  ],
+  "coxinha": [
+    "coxinha de frango",
+    "coxinhas"
+  ],
+  "crab-cakes": [
+    "maryland crab cake"
+  ],
+  "cranachan": [
+    "cranachan raspberry"
+  ],
+  "creamy-coleslaw": [
+    "coleslaw bowl",
+    "cabbage slaw mayonnaise",
+    "creamy slaw"
+  ],
+  "creamy-polenta": [
+    "polenta bowl",
+    "creamy polenta parmesan",
+    "soft polenta dish"
+  ],
+  "creamy-tomato-soup": [
+    "tomato soup bowl",
+    "cream of tomato soup",
+    "tomato soup basil"
+  ],
+  "crema-catalana": [
+    "crema catalana cremada"
+  ],
+  "croquetas": [
+    "croquetas de jamón",
+    "croqueta jamón ibérico"
+  ],
+  "cullen-skink": [
+    "cullen skink soup"
+  ],
+  "dakgalbi": [
+    "Korean spicy stir fried chicken",
+    "dak galbi",
+    "spicy chicken cabbage"
+  ],
+  "dal-makhani": [
+    "दाल मखनी",
+    "kali dal"
+  ],
+  "dan-dan-noodles": [
+    "dandan noodles",
+    "Sichuan noodles chilli oil",
+    "sesame noodles minced pork"
+  ],
+  "danish-pastry": [
+    "wienerbrød",
+    "spandauer"
+  ],
+  "dolmades": [
+    "ντολμάδες",
+    "dolmadakia"
+  ],
+  "doro-wat": [
+    "Ethiopian chicken stew",
+    "doro wot injera",
+    "berbere chicken stew"
+  ],
+  "doubles": [
+    "trinidad doubles",
+    "bara and channa"
+  ],
+  "duck-confit": [
+    "confit de canard",
+    "cuisse de canard confite"
+  ],
+  "dulce-de-leche": [
+    "dulce de leche argentino",
+    "doce de leite"
+  ],
+  "egg-tarts": [
+    "蛋撻",
+    "dan tat",
+    "pastel de nata macau"
+  ],
+  "egusi-soup": [
+    "egusi",
+    "melon seed soup",
+    "Nigerian soup"
+  ],
+  "empanadas-colombianas": [
+    "empanadas colombianas",
+    "empanada de carne colombiana"
+  ],
+  "enchiladas-verdes": [
+    "enchiladas verdes mexicanas",
+    "enchiladas salsa verde"
+  ],
+  "eton-mess": [
+    "strawberry meringue cream dessert",
+    "meringue cream strawberries",
+    "strawberries and cream dessert"
+  ],
+  "fabada-asturiana": [
+    "fabada",
+    "fabes con almejas beans",
+    "spanish white bean stew chorizo"
+  ],
+  "fasolada": [
+    "bean soup bowl",
+    "white bean tomato soup",
+    "greek bean soup"
+  ],
+  "fesenjan": [
+    "فسنجان",
+    "khoresh fesenjan"
+  ],
+  "fish-tacos": [
+    "fish taco",
+    "battered fish tacos slaw",
+    "baja fish taco"
+  ],
+  "focaccia-genovese": [
+    "focaccia genovese",
+    "fugassa"
+  ],
+  "francesinha": [
+    "francesinha do porto"
+  ],
+  "frikadeller": [
+    "frikadeller danske"
+  ],
+  "fudgy-brownies": [
+    "chocolate brownies",
+    "brownie squares",
+    "brownie tray bake"
+  ],
+  "gado-gado": [
+    "Indonesian salad peanut sauce",
+    "vegetable peanut sauce salad",
+    "gado gado"
+  ],
+  "galaktoboureko": [
+    "Greek custard filo pastry",
+    "semolina custard pastry",
+    "filo custard dessert"
+  ],
+  "galbi": [
+    "galbi ribs grilled",
+    "korean short ribs",
+    "marinated beef ribs grill"
+  ],
+  "gateau-basque": [
+    "gâteau basque",
+    "etxeko biskotxa"
+  ],
+  "ghormeh-sabzi": [
+    "قورمه سبزی",
+    "gheimeh sabzi khoresh"
+  ],
+  "gnocchi-alla-sorrentina": [
+    "gnocchi alla sorrentina",
+    "gnocchi sorrentini"
+  ],
+  "golabki": [
+    "stuffed cabbage rolls",
+    "cabbage rolls tomato sauce",
+    "golabki"
+  ],
+  "greek-lemon-potatoes": [
+    "πατάτες λεμονάτες",
+    "patates lemonates"
+  ],
+  "greek-salad": [
+    "horiatiki salad",
+    "Greek salad feta olives",
+    "tomato cucumber feta salad"
+  ],
+  "gumbo": [
+    "gumbo",
+    "chicken sausage gumbo",
+    "gumbo bowl white rice"
+  ],
+  "gyudon": [
+    "牛丼",
+    "gyudon bowl"
+  ],
+  "haemul-pajeon": [
+    "seafood pancake korean",
+    "pajeon pancake",
+    "spring onion pancake"
+  ],
+  "haggis-neeps-tatties": [
+    "haggis neeps and tatties"
+  ],
+  "hainanese-chicken-rice": [
+    "hainanese chicken rice plate",
+    "poached chicken rice ginger",
+    "chicken rice cucumber plate"
+  ],
+  "haleem": [
+    "حلیم",
+    "hyderabadi haleem"
+  ],
+  "halo-halo": [
+    "haluhalo",
+    "halo halo dessert"
+  ],
+  "harees": [
+    "هريس",
+    "jareesh",
+    "harees emirati"
+  ],
+  "hash-browns": [
+    "hash brown potatoes",
+    "fried grated potato",
+    "potato rosti"
+  ],
+  "hong-shao-rou": [
+    "braised pork belly",
+    "pork belly bowl rice",
+    "soy braised pork belly"
+  ],
+  "hoppers": [
+    "appa hopper",
+    "egg appam",
+    "බිත්තර ආප්ප"
+  ],
+  "horchata": [
+    "horchata de arroz",
+    "agua de horchata",
+    "horchata en vaso"
+  ],
+  "hungarian-goulash": [
+    "goulash bowl",
+    "beef paprika stew",
+    "gulyas soup"
+  ],
+  "hyderabadi-biryani": [
+    "हैदराबादी बिरयानी",
+    "hyderabadi dum biryani"
+  ],
+  "imam-bayildi": [
+    "stuffed aubergine olive oil",
+    "Turkish stuffed eggplant",
+    "baked stuffed aubergine"
+  ],
+  "iskender-kebab": [
+    "İskender kebap",
+    "iskender kebap bursa"
+  ],
+  "jamaican-curry-goat": [
+    "curry goat plate",
+    "goat curry rice",
+    "caribbean goat curry"
+  ],
+  "jamaican-patty": [
+    "jamaican beef patty"
+  ],
+  "japanese-cheesecake": [
+    "japanese cotton cheesecake",
+    "souffle cheesecake slice",
+    "jiggly cheesecake"
+  ],
+  "japanese-milk-bread": [
+    "shokupan loaf",
+    "milk bread sliced",
+    "white sandwich loaf"
+  ],
+  "jollof-rice": [
+    "jollof",
+    "West African rice tomato",
+    "party jollof rice"
+  ],
+  "joojeh-kabab": [
+    "جوجه کباب",
+    "jujeh kabab"
+  ],
+  "kaiserschmarrn": [
+    "kaiserschmarren"
+  ],
+  "kakuni": [
+    "角煮",
+    "buta no kakuni",
+    "kakuni pork belly"
+  ],
+  "kalua-pork": [
+    "kalua pig",
+    "kalua pork imu"
+  ],
+  "kanelbullar": [
+    "Swedish cinnamon buns",
+    "cinnamon bun pearl sugar",
+    "kanelbulle"
+  ],
+  "karelian-pies": [
+    "karjalanpiirakka",
+    "karjalanpiirakat"
+  ],
+  "katsu-curry": [
+    "カツカレー",
+    "katsu kare"
+  ],
+  "keema-matar": [
+    "keema matar bowl",
+    "mince peas curry bowl",
+    "lamb mince peas"
+  ],
+  "keftedes": [
+    "keftedes greek",
+    "greek fried meatballs plate",
+    "meatballs mint greek"
+  ],
+  "kelewele": [
+    "kelewele spiced plantain"
+  ],
+  "khachapuri": [
+    "ხაჭაპური",
+    "хачапури",
+    "adjaruli khachapuri"
+  ],
+  "kheer": [
+    "rice pudding kheer",
+    "Indian rice pudding",
+    "payasam"
+  ],
+  "khinkali": [
+    "ხინკალი",
+    "хинкали"
+  ],
+  "kibbeh": [
+    "kibbeh tray",
+    "bulgur meat pie",
+    "kibbe pieces"
+  ],
+  "kimbap": [
+    "gimbap",
+    "seaweed rice roll",
+    "kimbap slices"
+  ],
+  "knafeh-nabulsi": [
+    "كنافة نابلسية",
+    "kanafeh nabulsieh",
+    "knafeh cheese"
+  ],
+  "kottu-roti": [
+    "kothu roti",
+    "කොත්තු රොටී"
+  ],
+  "krumkake": [
+    "krumkaker"
+  ],
+  "kunefe": [
+    "künefe",
+    "kunafa hatay"
+  ],
+  "labneh": [
+    "labneh yoghurt olive oil",
+    "strained yoghurt dip",
+    "yoghurt dip zaatar"
+  ],
+  "laksa": [
+    "laksa noodle soup",
+    "curry noodle soup",
+    "coconut noodle soup"
+  ],
+  "lamb-mandi": [
+    "mandi rice lamb",
+    "Yemeni rice lamb",
+    "spiced rice lamb platter"
+  ],
+  "lamb-rogan-josh": [
+    "रोगन जोश",
+    "roghan josh"
+  ],
+  "lamingtons": [
+    "lamington sponge"
+  ],
+  "langos": [
+    "lángos"
+  ],
+  "larb-gai": [
+    "larb salad",
+    "minced chicken salad thai",
+    "laab gai plate"
+  ],
+  "lechon-kawali": [
+    "lechon kawali crispy pork"
+  ],
+  "lemon-drizzle-cake": [
+    "lemon loaf cake",
+    "lemon cake slice",
+    "citrus loaf cake"
+  ],
+  "lemon-meringue-pie": [
+    "lemon meringue pie slice",
+    "meringue pie",
+    "lemon pie meringue topping"
+  ],
+  "lion-head-meatballs": [
+    "獅子頭",
+    "shizitou",
+    "sizi tou meatball"
+  ],
+  "lobio": [
+    "ლობიო",
+    "лобио"
+  ],
+  "loco-moco": [
+    "loco moco hawaii"
+  ],
+  "loukoumades": [
+    "Greek honey doughnuts",
+    "honey fritters",
+    "fried dough balls honey"
+  ],
+  "lu-rou-fan": [
+    "滷肉飯",
+    "lo bah png",
+    "minced pork rice taiwan"
+  ],
+  "maamoul": [
+    "معمول",
+    "mamoul cookies"
+  ],
+  "mac-and-cheese": [
+    "macaroni cheese dish",
+    "baked mac and cheese",
+    "cheesy pasta bake"
+  ],
+  "malabi": [
+    "מלבי",
+    "muhallebi"
+  ],
+  "malai-kofta": [
+    "malai kofta curry",
+    "paneer kofta gravy",
+    "kofta curry cream"
+  ],
+  "malva-pudding": [
+    "malva poeding"
+  ],
+  "manakish-zaatar": [
+    "manakish",
+    "zaatar flatbread",
+    "Lebanese flatbread thyme"
+  ],
+  "mapo-eggplant": [
+    "麻婆茄子",
+    "mapo qiezi"
+  ],
+  "maqluba": [
+    "maqluba rice",
+    "maklouba dish",
+    "rice aubergine platter"
+  ],
+  "martabak": [
+    "martabak manis",
+    "terang bulan"
+  ],
+  "masala-chai": [
+    "मसाला चाय",
+    "masala tea cutting chai"
+  ],
+  "massaman-curry": [
+    "massaman curry bowl",
+    "Thai peanut curry beef",
+    "curry potatoes peanuts"
+  ],
+  "mexican-rice": [
+    "arroz rojo",
+    "mexican red rice",
+    "spanish rice bowl"
+  ],
+  "mici": [
+    "mititei",
+    "mici românești"
+  ],
+  "milanesa": [
+    "milanesa a la napolitana"
+  ],
+  "miso-ramen": [
+    "味噌ラーメン",
+    "miso ramen bowl"
+  ],
+  "moin-moin": [
+    "moimoi",
+    "moi moi bean pudding"
+  ],
+  "molokhia": [
+    "ملوخية",
+    "mulukhiyah"
+  ],
+  "moqueca": [
+    "Brazilian fish stew",
+    "fish coconut stew",
+    "moqueca fish"
+  ],
+  "moroccan-mint-tea": [
+    "atay bi na'na",
+    "thé à la menthe marocain"
+  ],
+  "moutabal": [
+    "متبل",
+    "mutabbal",
+    "baba ghanoush"
+  ],
+  "msemen": [
+    "مسمن",
+    "rghaif",
+    "msemmen"
+  ],
+  "mujadara": [
+    "mujadara rice lentils",
+    "mejadra",
+    "lentils rice crispy onions"
+  ],
+  "musakhan": [
+    "مسخن",
+    "musakhan rolls"
+  ],
+  "naengmyeon": [
+    "Korean cold noodles",
+    "cold buckwheat noodles",
+    "naengmyun"
+  ],
+  "nasi-lemak": [
+    "nasi lemak bungkus"
+  ],
+  "nihari": [
+    "نہاری",
+    "beef nihari"
+  ],
+  "nikujaga": [
+    "肉じゃが"
+  ],
+  "norwegian-fish-soup": [
+    "fiskesuppe",
+    "bergensk fiskesuppe"
+  ],
+  "nyama-choma": [
+    "nyama choma kenya",
+    "choma goat ribs"
+  ],
+  "olivier-salad": [
+    "olivier salad",
+    "potato salad peas mayonnaise",
+    "salad olivier"
+  ],
+  "onion-rings": [
+    "onion rings",
+    "fried onion rings",
+    "crispy onion rings"
+  ],
+  "pad-see-ew": [
+    "Thai wide rice noodles",
+    "stir fried flat noodles",
+    "soy sauce noodles"
+  ],
+  "paella-valenciana": [
+    "paella pan rice",
+    "paella seafood",
+    "valencian paella rice"
+  ],
+  "pan-con-tomate": [
+    "tomato bread",
+    "pa amb tomaquet",
+    "toasted bread tomato"
+  ],
+  "pancit-canton": [
+    "pancit canton guisado"
+  ],
+  "panna-cotta": [
+    "panna cotta dessert",
+    "vanilla cream dessert berries",
+    "set cream dessert"
+  ],
+  "pao-de-queijo": [
+    "pao de queijo bread",
+    "cheese bread brazilian basket",
+    "queijo bread rolls"
+  ],
+  "pasta-alla-gricia": [
+    "gricia",
+    "rigatoni alla gricia"
+  ],
+  "pasta-e-fagioli": [
+    "pasta e fagioli",
+    "pasta fasul"
+  ],
+  "pasta-puttanesca": [
+    "spaghetti alla puttanesca",
+    "puttanesca"
+  ],
+  "pastel-de-choclo": [
+    "pastel de choclo chileno"
+  ],
+  "pastel-de-nata": [
+    "Portuguese custard tart",
+    "pastel de nata tart",
+    "custard tarts"
+  ],
+  "patatas-bravas": [
+    "patatas bravas plate",
+    "fried potatoes spicy sauce",
+    "bravas potatoes tapas"
+  ],
+  "pecan-pie": [
+    "pecan pie slice",
+    "pecan tart",
+    "pie with pecans"
+  ],
+  "peking-duck": [
+    "roast duck pancakes",
+    "crispy duck sliced",
+    "Peking roast duck"
+  ],
+  "pelmeni": [
+    "пельмени"
+  ],
+  "pepper-soup": [
+    "nigerian goat pepper soup",
+    "point and kill pepper soup"
+  ],
+  "philly-cheesesteak": [
+    "cheesesteak sandwich",
+    "steak sandwich roll",
+    "cheese steak sub"
+  ],
+  "philly-soft-pretzel": [
+    "philadelphia soft pretzel"
+  ],
+  "pineapple-cake": [
+    "鳳梨酥",
+    "fenglisu"
+  ],
+  "piri-piri-chicken": [
+    "peri peri grilled chicken",
+    "grilled chicken halves",
+    "spicy roast chicken"
+  ],
+  "ploughmans-lunch": [
+    "ploughman's lunch",
+    "ploughmans platter"
+  ],
+  "poffertjes": [
+    "poffertjes met poedersuiker"
+  ],
+  "poke-bowl": [
+    "poke bowl tuna",
+    "ahi poke",
+    "raw tuna rice bowl"
+  ],
+  "popcorn-chicken-taiwanese": [
+    "鹹酥雞",
+    "yan su ji"
+  ],
+  "pot-au-feu": [
+    "pot au feu dish",
+    "boiled beef vegetables broth",
+    "beef broth vegetables plate"
+  ],
+  "pots-de-creme": [
+    "petit pot de crème",
+    "pot de crème chocolat"
+  ],
+  "pretzel-brezel": [
+    "brezel",
+    "breze laugenbrezel"
+  ],
+  "prinsesstarta": [
+    "prinsesstårta"
+  ],
+  "provoleta": [
+    "provoleta a la parrilla"
+  ],
+  "pulpo-a-la-gallega": [
+    "octopus paprika potatoes",
+    "Galician octopus",
+    "boiled octopus paprika"
+  ],
+  "pupusas": [
+    "pupusa curtido",
+    "Salvadoran pupusas",
+    "stuffed corn cakes griddle"
+  ],
+  "queso-fundido": [
+    "queso fundido",
+    "melted cheese dish mexican",
+    "cheese chorizo skillet"
+  ],
+  "raclette": [
+    "raclette käse",
+    "raclette valaisanne"
+  ],
+  "ragu-napoletano": [
+    "ragù napoletano",
+    "ragu alla napoletana",
+    "carne al ragù"
+  ],
+  "reuben-sandwich": [
+    "reuben sandwich",
+    "corned beef sauerkraut sandwich",
+    "grilled rye sandwich"
+  ],
+  "ribollita": [
+    "ribollita toscana",
+    "zuppa di pane toscana"
+  ],
+  "rice-and-peas": [
+    "jamaican rice and peas"
+  ],
+  "roast-turkey": [
+    "roast turkey whole",
+    "roasted turkey platter",
+    "thanksgiving turkey"
+  ],
+  "ropa-vieja": [
+    "ropa vieja cubana"
+  ],
+  "rosti": [
+    "rösti",
+    "rösti mit spiegelei"
+  ],
+  "roti-canai": [
+    "roti prata",
+    "roti canai mamak"
+  ],
+  "sabich": [
+    "סביח",
+    "sabich pita"
+  ],
+  "saganaki": [
+    "fried cheese saganaki",
+    "pan fried cheese lemon",
+    "grilled cheese slab"
+  ],
+  "salade-de-chevre-chaud": [
+    "salade de chèvre chaud",
+    "crottin de chavignol salade"
+  ],
+  "salmon-soup-lohikeitto": [
+    "lohikeitto",
+    "laxsoppa"
+  ],
+  "sambal-goreng": [
+    "kering tempe",
+    "sambal goreng tempe"
+  ],
+  "samgyetang": [
+    "samgyetang soup",
+    "ginseng chicken soup korean",
+    "chicken ginseng stone pot"
+  ],
+  "sangria": [
+    "sangria jug",
+    "sangria glass fruit wine",
+    "wine punch fruit"
+  ],
+  "sarmale": [
+    "sarmale cu mămăligă",
+    "sarmale românești"
+  ],
+  "sauerbraten": [
+    "German pot roast beef",
+    "braised beef gravy dumplings",
+    "sauerbraten"
+  ],
+  "scallion-pancakes": [
+    "蔥油餅",
+    "cong you bing"
+  ],
+  "schnitzel": [
+    "schweineschnitzel",
+    "wiener schnitzel"
+  ],
+  "scotch-eggs": [
+    "scotch egg halved"
+  ],
+  "seekh-kebab": [
+    "سیخ کباب",
+    "seekh kabab"
+  ],
+  "shahi-paneer": [
+    "शाही पनीर",
+    "shahi paneer curry"
+  ],
+  "shakshuka-tunisian": [
+    "shakshuka merguez",
+    "chakchouka"
+  ],
+  "shish-taouk": [
+    "شيش طاووق",
+    "shish tawook"
+  ],
+  "shogayaki": [
+    "生姜焼き",
+    "buta no shogayaki",
+    "ginger pork shougayaki"
+  ],
+  "shortbread": [
+    "shortbread biscuits",
+    "shortbread fingers",
+    "butter biscuits plate"
+  ],
+  "shui-zhu-fish": [
+    "水煮魚",
+    "shuizhuyu"
+  ],
+  "sinigang": [
+    "sinigang na baboy"
+  ],
+  "smoothie-bowl": [
+    "berry smoothie bowl"
+  ],
+  "smores": [
+    "smores marshmallow chocolate",
+    "smore graham cracker",
+    "toasted marshmallow sandwich"
+  ],
+  "smorrebrod": [
+    "smørrebrød",
+    "smorrebrod rugbrød"
+  ],
+  "soft-pretzels": [
+    "soft pretzel",
+    "brezel bread",
+    "pretzels salt"
+  ],
+  "soto-ayam": [
+    "soto ayam lamongan"
+  ],
+  "soupe-au-pistou": [
+    "soupe au pistou",
+    "pistou provençal"
+  ],
+  "spaetzle": [
+    "spaetzle cheese onions",
+    "German egg noodles",
+    "kasespatzle"
+  ],
   "spanakopita": [
     "spanakopita pie slice",
     "spinach feta filo pie",
     "greek spinach pie"
+  ],
+  "spring-rolls": [
+    "spring roll",
+    "fried spring rolls plate",
+    "vegetable spring rolls"
+  ],
+  "sri-lankan-fish-curry": [
+    "ambul thiyal",
+    "malu mirisata"
+  ],
+  "steak-and-ale-pie": [
+    "steak and ale pie slice",
+    "beef and ale pie"
+  ],
+  "stroopwafel": [
+    "stroopwafels",
+    "siroopwafel"
+  ],
+  "sukiyaki": [
+    "sukiyaki pot beef",
+    "beef hot pot japanese",
+    "sukiyaki nabe"
+  ],
+  "sundubu-jjigae": [
+    "Korean soft tofu stew",
+    "spicy tofu stew",
+    "tofu jjigae"
+  ],
+  "svickova": [
+    "svíčková na smetaně",
+    "svíčková"
+  ],
+  "tahdig": [
+    "ته دیگ",
+    "tahdig rice crust"
+  ],
+  "toad-in-the-hole": [
+    "toad in the hole sausages",
+    "yorkshire pudding sausages",
+    "sausage batter pudding"
+  ],
+  "toast-skagen": [
+    "skagenröra",
+    "toast skagen räkor"
+  ],
+  "tomato-egg-stir-fry": [
+    "tomato and egg dish",
+    "scrambled egg tomato plate",
+    "egg tomato stir fry"
+  ],
+  "tostadas": [
+    "tostada de tinga",
+    "tinga de pollo tostada"
+  ],
+  "trdelnik": [
+    "trdelník",
+    "trdlo kürtőskalács"
+  ],
+  "tuna-melt": [
+    "tuna sandwich melted cheese",
+    "grilled cheese sandwich",
+    "toasted cheese sandwich"
+  ],
+  "turkish-delight": [
+    "lokum sweets",
+    "turkish delight cubes",
+    "rose lokum"
+  ],
+  "turkish-lentil-soup": [
+    "mercimek çorbası",
+    "kırmızı mercimek çorbası"
+  ],
+  "turkish-pide": [
+    "pide bread",
+    "Turkish flatbread boat",
+    "pide minced meat"
+  ],
+  "turnip-cake": [
+    "蘿蔔糕",
+    "lo bak go",
+    "chai tow kway"
+  ],
+  "ugali-sukuma": [
+    "ugali na sukuma wiki",
+    "sukuma wiki"
+  ],
+  "unagi-don": [
+    "うな丼",
+    "unadon",
+    "unagi donburi"
+  ],
+  "vada-pav": [
+    "वडा पाव",
+    "wada pav"
+  ],
+  "victoria-sponge": [
+    "sponge cake jam cream",
+    "Victoria sandwich cake",
+    "layer sponge cake"
+  ],
+  "vitello-tonnato": [
+    "vitel tonè",
+    "vitello tonnato piemontese"
+  ],
+  "waakye": [
+    "waakye rice and beans"
+  ],
+  "welsh-rarebit": [
+    "cheese on toast",
+    "rarebit toast",
+    "melted cheese toast"
+  ],
+  "wonton-noodle-soup": [
+    "雲吞麵",
+    "wanton mee",
+    "wonton mein"
+  ],
+  "wonton-soup": [
+    "wonton soup bowl",
+    "dumpling soup broth",
+    "wontons in broth"
+  ],
+  "xiao-long-bao": [
+    "soup dumplings steamer",
+    "xiaolongbao dumplings",
+    "steamed pork dumplings"
+  ],
+  "yakisoba": [
+    "焼きそば"
+  ],
+  "zeppole": [
+    "zeppole di san giuseppe",
+    "zeppola"
+  ],
+  "zurek": [
+    "żurek",
+    "żur staropolski"
   ]
 }
