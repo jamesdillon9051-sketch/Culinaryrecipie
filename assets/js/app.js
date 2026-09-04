@@ -348,9 +348,13 @@
         form.reset();
         if (status) {
           status.hidden = false;
-          status.textContent = 'You are on the list. Look out for Friday\'s recipe letter.';
+          /* Truthful, because nothing is sent anywhere: the address goes into
+             this browser's own storage and no further. Saying "you are on the
+             list" when there is no list is a promise the site cannot keep, and
+             the privacy page says as much. */
+          status.textContent = 'Saved in this browser. The letter is not running yet, so nothing was sent anywhere.';
         }
-        toast('Subscribed. Welcome to Weekly Delight.');
+        toast('Saved on this device.');
       });
     });
 
@@ -395,7 +399,11 @@
         contact.reset();
         if (status) {
           status.hidden = false;
-          status.textContent = 'Thank you. Your message is with the editorial team and we reply within two working days.';
+          /* The form validates and stops. There is no server to post to, so a
+             promise of a reply within two working days was untrue, and from
+             somebody who might be writing about a recipe that made them ill. */
+          status.textContent = 'This form is not connected to email yet, so your message was not sent. '
+            + 'Please leave a comment on the recipe instead — I read those.';
           status.focus();
         }
       });

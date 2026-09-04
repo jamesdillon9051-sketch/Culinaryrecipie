@@ -617,6 +617,104 @@ const ABOUT_FAQ = [
      + 'storage. Clearing your browser data clears them, and they never reach a server.' }
 ];
 
+/**
+ * The privacy policy.
+ *
+ * Written from the code rather than from a template. Every claim below was
+ * checked against what the site actually does: the four localStorage keys in
+ * assets/js/app.js, the one fetch() call it makes, the analytics tag in
+ * data/analytics.js and the ad units in data/ads.js. A policy that describes a
+ * server this site does not have, or a mailing list it does not run, is worse
+ * than none — it is a promise nobody is keeping.
+ *
+ * It is not legal advice, and it says so. Kazakhstan-based operator, worldwide
+ * readers, advertising and analytics both running: worth having somebody
+ * qualified read it.
+ */
+function privacy(ctx) {
+  const trail = [{ name: 'Home', url: SITE.base }, { name: 'Privacy' }];
+  const updated = new Date().toISOString().slice(0, 10);
+
+  const body = `
+${breadcrumbs(trail)}
+<div class="wrap section" style="padding-top:1rem">
+  <header class="recipe-head">
+    <span class="eyebrow">Privacy</span>
+    <h1>Privacy &amp; cookies</h1>
+    <p class="lede">What this site stores, what it sends elsewhere, and how to stop it. Written in plain language, and short because there is not much to say.</p>
+  </header>
+
+  <div class="prose" style="max-width:72ch">
+    <p class="form-note">Last updated ${updated}. ${esc(SITE.name)} is run by one person, Turab, from Kazakhstan.</p>
+
+    <h2>The short version</h2>
+    <ul>
+      <li>There is no account, no login and no database. This is a static site.</li>
+      <li>What you save — favourites, your theme, your reviews — stays in your own browser and never reaches me.</li>
+      <li>Two third parties do see you: Google Analytics and the advertising network. They set cookies and can identify a returning device.</li>
+      <li>You can block both with any content blocker, and nothing on the site breaks.</li>
+    </ul>
+
+    <h2>What stays on your device</h2>
+    <p>The site keeps four things in your browser's local storage. They never leave the machine you are reading on, are not sent anywhere, and I cannot see them.</p>
+    <ul>
+      <li><strong>Your saved recipes</strong> — the hearts you tap, kept under <code>cv:favourites</code>.</li>
+      <li><strong>Your theme</strong> — light or dark, under <code>cv:theme</code>.</li>
+      <li><strong>Reviews you write</strong> — under <code>cv:reviews:</code> and the recipe name. Reviews on this site are private notes to yourself. Nobody else sees them, including me.</li>
+      <li><strong>An old newsletter entry</strong> — under <code>cv:newsletter</code>, if you used the signup box before it was removed. Nothing was ever sent anywhere; you can clear it with your browser data.</li>
+    </ul>
+    <p>Clearing your browser data clears all four, and you will lose your saved recipes. There is no copy anywhere else.</p>
+
+    <h2>The contact form, and the newsletter that is not</h2>
+    <p><strong>The contact form does not currently send anything to me.</strong> The site has no server behind it and no email service is connected yet, so what you type is validated in your browser and then goes nowhere. It says so on the form itself. Until it is wired up, a comment on the recipe is the route that works.</p>
+    <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
+
+    <h2>Analytics</h2>
+    <p>This site uses Google Analytics 4 to count visitors and see which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader — only totals.</p>
+    <p>Google is the data controller for what it collects. Its own explanation is in <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how Google uses data from sites that use its services</a>, and you can opt out everywhere at once with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
+
+    <h2>Advertising</h2>
+    <p>The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.</p>
+    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker stops it, and you can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
+
+    <h2>What else the site loads</h2>
+    <ul>
+      <li><strong>Fonts</strong> come from Google Fonts, which means your browser contacts <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code> and they see your IP address.</li>
+      <li><strong>Photographs</strong> are served from this site itself, not from anywhere else.</li>
+      <li><strong>The search index</strong> is a file downloaded from this site when you first use the search box. Your search terms are handled entirely in your browser and are never sent anywhere.</li>
+      <li><strong>Hosting.</strong> The site is served by Netlify, whose servers log requests, including IP addresses, as any web server does.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>This is a recipe site with no account system and nothing aimed at children. I do not knowingly collect anything from anyone, of any age.</p>
+
+    <h2>Your rights</h2>
+    <p>Because I hold no data about you, there is nothing for me to show you, correct or delete — everything the site stores is already in your hands, and clearing your browser data removes it. For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.</p>
+
+    <h2>Changes</h2>
+    <p>If what the site does changes — a real newsletter, a working contact form, a different ad network — this page changes with it, and the date at the top moves. There is no archive of previous versions; the site is small enough that the current one is the only one that matters.</p>
+
+    <h2>Getting in touch</h2>
+    <p>Until the contact form is connected, leave a comment on the recipe in question and I will see it. If something here is wrong or unclear, I would like to know.</p>
+
+    <p class="form-note" style="margin-top:2rem">This page describes what the site does, honestly and in plain language. It is not legal advice, and it has not been reviewed by a lawyer. If you are reading it as a template for your own site, do not — write yours from your own code, as this one was.</p>
+  </div>
+</div>
+<div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter('privacy-news')}</div>`;
+
+  return layout({
+    title: 'Privacy & Cookies',
+    description: `What ${SITE.name} stores, what it sends to Google Analytics and the ad network, and how to stop it. No accounts, no database, nothing on a server.`,
+    keywords: ['privacy policy', 'cookie policy', 'weekly delight privacy',
+               'what data does this site collect', 'analytics and advertising cookies'],
+    path: 'privacy/',
+    active: 'privacy',
+    body,
+    cuisines: ctx.topCuisines.slice(0, 8),
+    schema: [breadcrumbSchema(trail)]
+  });
+}
+
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
 
@@ -848,4 +946,4 @@ function notFound(ctx) {
   });
 }
 
-module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, categoriesIndex, about, contact, notFound };
+module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, categoriesIndex, about, contact, notFound };

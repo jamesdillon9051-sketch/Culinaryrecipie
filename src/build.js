@@ -39,7 +39,7 @@ const SRC = __dirname;
 /* Everything the build creates, and nothing else. cleanOutput() removes only
    these, because the output directory is also the project directory. */
 const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
-  'about', 'contact', 'search', 'favourites'];
+  'about', 'contact', 'privacy', 'search', 'favourites'];
 const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
   'manifest.json', 'feed.xml', 'search-index.json', '_redirects'];
 
@@ -326,6 +326,7 @@ function sitemap(recipes, ctx) {
     entry('search/', today, 'monthly', '0.4'),
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
     entry('about/', today, 'monthly', '0.5'),
+    entry('privacy/', today, 'yearly', '0.3'),
     entry('contact/', today, 'monthly', '0.4')
   ];
 
@@ -544,6 +545,7 @@ function build() {
 
   writePage('cuisines/index.html', pages.cuisinesIndex(ctx));
   writePage('about/index.html', pages.about(ctx));
+  writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
   writePage('404.html', pages.notFound(ctx));
 

@@ -162,7 +162,7 @@ function footer(topCuisines) {
     </div>
     <div class="footer-bottom">
       <span>&copy; ${year} ${esc(SITE.name)}. Recipes tested in our own kitchen.</span>
-      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}sitemap.xml">Sitemap</a></span>
+      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a> &middot; <a href="${SITE.base}sitemap.xml">Sitemap</a></span>
     </div>
   </div>
 </footer>`;
@@ -324,16 +324,25 @@ function card(recipe, options = {}) {
 }
 
 /* ------------------------------------------------------- shared partials */
+/**
+ * The newsletter block.
+ *
+ * This said "One great recipe, every Friday" and "Join 48,000 home cooks",
+ * on all 794 pages, for a letter that does not exist and a subscriber count
+ * that was invented. The form has no server behind it: an address typed into it
+ * goes into the reader's own browser storage, where it is of no use to anybody,
+ * and is never sent.
+ *
+ * A made-up number used to persuade somebody to hand over their email address
+ * is the worst of the fabrications this site carried, so the copy now says what
+ * is true and the form is gone until there is somewhere for it to post to.
+ * Wiring it up — Netlify Forms needs one attribute, since the site is already
+ * hosted there — is what turns this back into a signup box.
+ */
 function newsletter(id = 'newsletter') {
   return `<section class="newsletter reveal" id="${id}" aria-labelledby="${id}-title">
-  <h2 id="${id}-title">One great recipe, every Friday</h2>
-  <p>Join 48,000 home cooks. Each week we send one thoroughly tested recipe, the science behind why it works, and what to drink with it. No spam, unsubscribe in one click.</p>
-  <form data-newsletter novalidate>
-    <label class="sr-only" for="${id}-email">Email address</label>
-    <input type="email" id="${id}-email" name="email" placeholder="you@example.com" required autocomplete="email">
-    <button class="btn btn--light" type="submit">Subscribe free</button>
-  </form>
-  <p class="form-status" role="status" hidden></p>
+  <h2 id="${id}-title">There is no newsletter yet</h2>
+  <p>One day there may be a weekly letter — one tested recipe, why it works, and what to drink with it. It is not running today, and I would rather tell you that than collect addresses for a list nobody is on. New recipes go up on the site; the <a href="${SITE.base}recipes/">recipe index</a> is sorted newest first.</p>
 </section>`;
 }
 
