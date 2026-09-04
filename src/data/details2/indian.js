@@ -498,7 +498,7 @@ module.exports = {
       '1 tsp fine sea salt',
       '1 tbsp neutral oil or ghee',
       'Extra atta, for dusting',
-      'Ghee, for brushing'
+      'Ghee or neutral oil, for brushing'
     ],
     st: [
       'Mix the flour and salt, then add the water gradually, bringing the dough together with your fingers.',
@@ -509,14 +509,14 @@ module.exports = {
       'Dust a ball lightly and roll it into a 16 cm circle, turning a quarter turn between each pass so it stays round and even. Brush off excess flour.',
       'Lay it on the dry tawa. After 30 seconds, when small bubbles appear, flip it. Cook 45 seconds until brown spots form.',
       'Flip again and press the surface gently with a folded cloth, moving around the edges — the chapati should balloon completely within 10 seconds.',
-      'Brush with ghee and stack in a covered container or cloth-lined basket so the steam keeps them soft.'
+      'Brush with ghee or oil and stack in a covered container or cloth-lined basket so the steam keeps them soft.'
     ],
     tips: [
       'A soft dough makes soft chapatis. If it feels firm, it is too dry — add water a teaspoon at a time.',
       'The griddle must be properly hot. Too cool and the bread dries out before it can puff.',
       'Alternatively, finish the chapati directly over a gas flame for 5 seconds and it will inflate dramatically.'
     ],
-    pair: ['Any Indian curry, dal or sabzi', 'Ghee and a little salt, eaten plain', 'Yoghurt and pickle'],
+    pair: ['Any Indian curry, dal or sabzi', 'Ghee or oil and a little salt, eaten plain', 'Yoghurt and pickle'],
     store: 'Best fresh. They keep 1 day wrapped in a cloth, or freeze for 1 month interleaved with paper; reheat on a dry tawa for 30 seconds a side.',
     nut: [128, 4, 24, 2, 4, 0, 240]
   },

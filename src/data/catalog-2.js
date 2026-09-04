@@ -89,7 +89,7 @@ module.exports = [
   c('idli-sambar', 'Idli Sambar', 'Indian', 'Breakfast', 'Medium', 25, 40, 6, 4.7, 1866, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Idli sambar'),
   c('keema-matar', 'Keema Matar', 'Indian', 'Dinner', 'Easy', 15, 35, 4, 4.7, 1188, ['Gluten-Free'], [], 'Keema matar mince peas curry'),
   c('kerala-fish-curry', 'Kerala Fish Curry', 'Indian', 'Dinner', 'Easy', 20, 25, 4, 4.7, 1044, ['Gluten-Free', 'Dairy-Free'], [], 'Kerala fish curry'),
-  c('chapati', 'Chapati (Roti)', 'Indian', 'Baking', 'Easy', 20, 15, 8, 4.7, 2277, ['Vegetarian'], [], 'Chapati roti flatbread'),
+  c('chapati', 'Chapati (Roti)', 'Indian', 'Baking', 'Easy', 20, 15, 8, 4.7, 2277, ['Vegan', 'Vegetarian', 'Dairy-Free'], [], 'Chapati roti flatbread'),
   c('kheer', 'Rice Kheer', 'Indian', 'Desserts', 'Easy', 10, 45, 6, 4.7, 1533, ['Vegetarian', 'Gluten-Free'], [], 'Kheer rice pudding'),
   c('jalebi', 'Jalebi', 'Indian', 'Desserts', 'Medium', 20, 25, 8, 4.7, 1622, ['Vegetarian'], [], 'Jalebi'),
   c('aloo-paratha', 'Aloo Paratha', 'Indian', 'Breakfast', 'Medium', 30, 20, 6, 4.8, 2544, ['Vegetarian'], ['trending'], 'Aloo paratha'),

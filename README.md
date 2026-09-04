@@ -399,9 +399,16 @@ paste, carnitas called Dairy-Free and simmered in milk, four dishes cooked in
 ghee and called Dairy-Free.
 
 A false tag was always removed, never argued with. It was replaced only where
-the ingredients verify the weaker claim — samosas and chapati use ghee but no
-meat, so they are Vegetarian rather than Vegan. Nothing was added on the strength
-of a dish's reputation.
+the ingredients verify the weaker claim — samosas use ghee but no meat, so they
+are Vegetarian rather than Vegan. Nothing was added on the strength of a dish's
+reputation.
+
+Chapati is the exception, and it went the other way. Its dough already read
+"neutral oil or ghee"; only a separate "Ghee, for brushing" line kept it off the
+vegan list. Offering the same choice on that line — and in the step that uses it
+— makes the recipe say what it already meant, and the tag is honest again. That
+is a change to the recipe rather than to the label, so it was made deliberately
+and not as a way of keeping a tag.
 
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
