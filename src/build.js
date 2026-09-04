@@ -547,6 +547,7 @@ function build() {
   writePage('about/index.html', pages.about(ctx));
   writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
+  writePage('contact/success/index.html', pages.contactSuccess(ctx));
   writePage('404.html', pages.notFound(ctx));
 
   /* Category landing pages --------------------------------------------- */

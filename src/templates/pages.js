@@ -631,6 +631,45 @@ const ABOUT_FAQ = [
  * readers, advertising and analytics both running: worth having somebody
  * qualified read it.
  */
+/**
+ * Where the contact form lands after a successful post.
+ *
+ * A real page rather than Netlify's generic confirmation, so the reader stays
+ * on the site and knows what happens next. noindex, because a bare thank-you
+ * page in search results helps nobody.
+ */
+function contactSuccess(ctx) {
+  const trail = [{ name: 'Home', url: SITE.base },
+                 { name: 'Contact', url: `${SITE.base}contact/` },
+                 { name: 'Message sent' }];
+  const body = `
+${breadcrumbs(trail)}
+<div class="wrap section" style="padding-top:1rem">
+  <header class="recipe-head">
+    <span class="eyebrow">Contact</span>
+    <h1>Message sent</h1>
+    <p class="lede">Thank you &mdash; it has reached me. I read everything, and I answer most things, though not always quickly: I am a student and this site is a hobby.</p>
+  </header>
+  <div class="prose" style="max-width:64ch">
+    <h2>What happens now</h2>
+    <p>Your message goes to the inbox for this site and I read it there. If you wrote about a recipe that did not work, that is the most useful kind of message I get, and it usually ends with the recipe being changed.</p>
+    <p>Nothing was added to any list. Your address is used to reply to you and for nothing else &mdash; the <a href="${SITE.base}privacy/">privacy page</a> sets out what is kept and by whom.</p>
+    <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>
+  </div>
+</div>`;
+
+  return layout({
+    title: 'Message sent',
+    description: 'Your message has been sent to Weekly Delight. I read everything and answer most things, though not always quickly.',
+    path: 'contact/success/',
+    active: 'contact',
+    noindex: true,
+    body,
+    cuisines: ctx.topCuisines.slice(0, 8),
+    schema: [breadcrumbSchema(trail)]
+  });
+}
+
 function privacy(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'Privacy' }];
   const updated = new Date().toISOString().slice(0, 10);
@@ -652,6 +691,7 @@ ${breadcrumbs(trail)}
       <li>There is no account, no login and no database. This is a static site.</li>
       <li>What you save — favourites, your theme, your reviews — stays in your own browser and never reaches me.</li>
       <li>Two third parties do see you: Google Analytics and the advertising network. They set cookies and can identify a returning device.</li>
+      <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
       <li>You can block both with any content blocker, and nothing on the site breaks.</li>
     </ul>
 
@@ -665,8 +705,10 @@ ${breadcrumbs(trail)}
     </ul>
     <p>Clearing your browser data clears all four, and you will lose your saved recipes. There is no copy anywhere else.</p>
 
-    <h2>The contact form, and the newsletter that is not</h2>
-    <p><strong>The contact form does not currently send anything to me.</strong> The site has no server behind it and no email service is connected yet, so what you type is validated in your browser and then goes nowhere. It says so on the form itself. Until it is wired up, a comment on the recipe is the route that works.</p>
+    <h2>The contact form</h2>
+    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to Netlify Forms &mdash; Netlify hosts this site &mdash; and I read them from the dashboard there. Netlify also records the time and the IP address the message came from, as a spam measure.</p>
+    <p>I use your address to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Submissions sit in the Netlify dashboard until I delete them; if you would like a message of yours removed, say so in a reply and I will delete it there. Netlify's own <a href="https://www.netlify.com/privacy/" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is discarded. It collects nothing about you.</p>
     <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
 
     <h2>Analytics</h2>
@@ -689,13 +731,14 @@ ${breadcrumbs(trail)}
     <p>This is a recipe site with no account system and nothing aimed at children. I do not knowingly collect anything from anyone, of any age.</p>
 
     <h2>Your rights</h2>
-    <p>Because I hold no data about you, there is nothing for me to show you, correct or delete — everything the site stores is already in your hands, and clearing your browser data removes it. For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.</p>
+    <p>Unless you have sent me a message, I hold nothing about you at all: everything the site stores is already in your hands, and clearing your browser data removes it. If you have used the contact form, what I hold is that message, and you can ask me to delete it &mdash; reply to my email, or send a new message saying so, and it goes.</p>
+    <p>For the data Google and Adsterra collect, their policies above set out how to make a request to them, since they are the ones holding it.</p>
 
     <h2>Changes</h2>
     <p>If what the site does changes — a real newsletter, a working contact form, a different ad network — this page changes with it, and the date at the top moves. There is no archive of previous versions; the site is small enough that the current one is the only one that matters.</p>
 
     <h2>Getting in touch</h2>
-    <p>Until the contact form is connected, leave a comment on the recipe in question and I will see it. If something here is wrong or unclear, I would like to know.</p>
+    <p>Use the <a href="${SITE.base}contact/">contact form</a>. If something on this page is wrong or unclear, that is exactly the sort of thing I would like to be told.</p>
 
     <p class="form-note" style="margin-top:2rem">This page describes what the site does, honestly and in plain language. It is not legal advice, and it has not been reviewed by a lawyer. If you are reading it as a template for your own site, do not — write yours from your own code, as this one was.</p>
   </div>
@@ -855,7 +898,27 @@ ${breadcrumbs(trail)}
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
-      <form data-contact novalidate>
+      <!-- Netlify Forms.
+           Netlify's build bot scans the deployed HTML for a form carrying
+           data-netlify and a name, and registers it at deploy time — which is
+           why this has to be in the pre-rendered markup rather than added by
+           script. The hidden form-name field is what identifies the submission
+           when the browser posts it.
+           The action is a real page in this site rather than Netlify's default,
+           because _redirects sends every unmatched path to 404.html and a
+           success URL that is not a file would be caught by it. -->
+      <form name="contact" method="POST" action="${SITE.base}contact/success/"
+            data-netlify="true" data-netlify-honeypot="bot-field"
+            data-contact novalidate>
+        <input type="hidden" name="form-name" value="contact">
+
+        <!-- The honeypot. Bots fill in every field they find; people never see
+             this one, so anything that arrives with it filled is discarded by
+             Netlify before it reaches the inbox. Hidden from assistive
+             technology as well as from sight, because it is not a real question. -->
+        <p class="sr-only" aria-hidden="true">
+          <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
         <div class="field">
           <label for="contact-name">Your name</label>
           <input type="text" id="contact-name" name="name" autocomplete="name" required aria-describedby="name-error">
@@ -880,8 +943,9 @@ ${breadcrumbs(trail)}
         <button class="btn btn--primary btn--block" type="submit">Send message</button>
         <p class="form-status" id="contact-status" role="status" tabindex="-1" hidden></p>
         <p class="form-note" style="margin-top:.9rem">
-          This is a static site with no back end, so the form validates and confirms in your browser rather than emailing us.
-          Connect it to Netlify Forms, Formspree or your own endpoint before going live.
+          Your name, email address, subject and message are sent to Netlify, which hosts this site,
+          and I read them from there. Nothing else is collected &mdash; see the
+          <a href="${SITE.base}privacy/">privacy page</a>.
         </p>
       </form>
     </div>
@@ -946,4 +1010,4 @@ function notFound(ctx) {
   });
 }
 
-module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, categoriesIndex, about, contact, notFound };
+module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, about, contact, notFound };

@@ -141,7 +141,27 @@
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
-      <form data-contact novalidate>
+      <!-- Netlify Forms.
+           Netlify's build bot scans the deployed HTML for a form carrying
+           data-netlify and a name, and registers it at deploy time — which is
+           why this has to be in the pre-rendered markup rather than added by
+           script. The hidden form-name field is what identifies the submission
+           when the browser posts it.
+           The action is a real page in this site rather than Netlify's default,
+           because _redirects sends every unmatched path to 404.html and a
+           success URL that is not a file would be caught by it. -->
+      <form name="contact" method="POST" action="/contact/success/"
+            data-netlify="true" data-netlify-honeypot="bot-field"
+            data-contact novalidate>
+        <input type="hidden" name="form-name" value="contact">
+
+        <!-- The honeypot. Bots fill in every field they find; people never see
+             this one, so anything that arrives with it filled is discarded by
+             Netlify before it reaches the inbox. Hidden from assistive
+             technology as well as from sight, because it is not a real question. -->
+        <p class="sr-only" aria-hidden="true">
+          <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
         <div class="field">
           <label for="contact-name">Your name</label>
           <input type="text" id="contact-name" name="name" autocomplete="name" required aria-describedby="name-error">
@@ -166,8 +186,9 @@
         <button class="btn btn--primary btn--block" type="submit">Send message</button>
         <p class="form-status" id="contact-status" role="status" tabindex="-1" hidden></p>
         <p class="form-note" style="margin-top:.9rem">
-          This is a static site with no back end, so the form validates and confirms in your browser rather than emailing us.
-          Connect it to Netlify Forms, Formspree or your own endpoint before going live.
+          Your name, email address, subject and message are sent to Netlify, which hosts this site,
+          and I read them from there. Nothing else is collected &mdash; see the
+          <a href="/privacy/">privacy page</a>.
         </p>
       </form>
     </div>

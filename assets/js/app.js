@@ -389,23 +389,56 @@
         });
       });
 
+      /* The form is a real Netlify Forms post. Without JavaScript the browser
+         submits it natively and lands on /contact/success/, which is why the
+         action and method are in the markup rather than added here.
+
+         With JavaScript, this posts the same body in the background so the
+         reader keeps their place — and if that fails for any reason, it hands
+         the form back to the browser rather than swallowing the message. A
+         contact form that silently loses what somebody wrote is worse than one
+         that reloads the page. */
+      var sendingNatively = false;
       contact.addEventListener('submit', function (e) {
-        e.preventDefault();
+        if (sendingNatively) return;          /* the retry below; let it through */
         var fields = $$('input[name], textarea[name]', contact);
         var firstBad = null;
         fields.forEach(function (f) { if (!validateField(f) && !firstBad) firstBad = f; });
-        if (firstBad) { firstBad.focus(); return; }
+        if (firstBad) { e.preventDefault(); firstBad.focus(); return; }
+
+        if (!window.fetch || !window.FormData || !window.URLSearchParams) return;  /* native submit */
+        e.preventDefault();
+
         var status = $('#contact-status');
-        contact.reset();
-        if (status) {
+        var button = $('button[type="submit"]', contact);
+        var say = function (text) {
+          if (!status) return;
           status.hidden = false;
-          /* The form validates and stops. There is no server to post to, so a
-             promise of a reply within two working days was untrue, and from
-             somebody who might be writing about a recipe that made them ill. */
-          status.textContent = 'This form is not connected to email yet, so your message was not sent. '
-            + 'Please leave a comment on the recipe instead — I read those.';
+          status.textContent = text;
           status.focus();
-        }
+        };
+
+        if (button) { button.disabled = true; button.textContent = 'Sending…'; }
+        say('Sending…');
+
+        fetch(contact.getAttribute('action') || location.pathname, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(new FormData(contact)).toString()
+        }).then(function (res) {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          contact.reset();
+          say('Thank you — your message has been sent. I read everything, and I answer most things, '
+            + 'though not always quickly.');
+        }).catch(function () {
+          /* Do not clear the form. Let the browser post it the ordinary way so
+             the words the reader typed are not lost. */
+          say('Something went wrong sending that. Trying again the normal way…');
+          sendingNatively = true;
+          contact.submit();
+        }).then(function () {
+          if (button) { button.disabled = false; button.textContent = 'Send message'; }
+        });
       });
     }
   }
