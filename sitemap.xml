@@ -140,13 +140,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/japanese/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/mexican/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/mexican/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/japanese/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -188,13 +188,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/spanish/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/turkish/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/turkish/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/spanish/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -230,6 +230,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/filipino/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/jamaican/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -237,12 +243,6 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/brazilian/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/filipino/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -320,6 +320,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/ukrainian/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/australian/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -350,6 +356,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/czech/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/danish/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -362,7 +374,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/finnish/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/georgian/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/ghanaian/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -375,6 +399,18 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/israeli/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/norwegian/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/romanian/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -404,31 +440,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/trinidadian/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/chilean/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/czech/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/egyptian/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/finnish/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/ghanaian/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -446,31 +470,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/norwegian/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/romanian/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/trinidadian/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/tunisian/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/ukrainian/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/venezuelan/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -495,12 +501,6 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/singaporean/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/venezuelan/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -608,13 +608,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/carrots/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/lime/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/lime/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/carrots/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -644,6 +644,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/ingredients/honey/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/ingredients/prawns/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -656,25 +662,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/lamb/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://culinaryvault.netlify.app/ingredients/chocolate/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/honey/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/mushrooms/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/lamb/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -686,13 +680,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/fish/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/mushrooms/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/ingredients/almonds/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/ingredients/fish/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -782,13 +782,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/oats/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/coffee/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/coffee/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/oats/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -7494,5 +7494,178 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/kutia/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kutia.jpg</image:loc>
+      <image:title>Kutia</image:title>
+      <image:caption>Kutia — Ukrainian holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/vanocka/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/vanocka.jpg</image:loc>
+      <image:title>Vánočka</image:title>
+      <image:caption>Vánočka — Czech holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/julekake/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/julekake.jpg</image:loc>
+      <image:title>Julekake</image:title>
+      <image:caption>Julekake — Norwegian holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/joulutorttu/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/joulutorttu.jpg</image:loc>
+      <image:title>Joulutorttu</image:title>
+      <image:caption>Joulutorttu — Finnish holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/cozonac/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cozonac.jpg</image:loc>
+      <image:title>Cozonac</image:title>
+      <image:caption>Cozonac — Romanian holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/pan-de-jamon/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/pan-de-jamon.jpg</image:loc>
+      <image:title>Pan de Jamón</image:title>
+      <image:caption>Pan de Jamón — Venezuelan holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/bibingka/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bibingka.jpg</image:loc>
+      <image:title>Bibingka</image:title>
+      <image:caption>Bibingka — Filipino holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/stollen/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/stollen.jpg</image:loc>
+      <image:title>Christstollen</image:title>
+      <image:caption>Christstollen — German holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/salep/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/ayran/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/ayran.jpg</image:loc>
+      <image:title>Ayran</image:title>
+      <image:caption>Ayran — Turkish drinks recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/sujeonggwa/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/sujeonggwa.jpg</image:loc>
+      <image:title>Sujeonggwa</image:title>
+      <image:caption>Sujeonggwa — Korean drinks recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/agua-de-jamaica/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/cafe-de-olla/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cafe-de-olla.jpg</image:loc>
+      <image:title>Café de Olla</image:title>
+      <image:caption>Café de Olla — Mexican drinks recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/tepache/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/sorrel-drink/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/sobolo/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/kvass/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/kvass.jpg</image:loc>
+      <image:title>Bread Kvass</image:title>
+      <image:caption>Bread Kvass — Ukrainian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/bandrek/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/bandrek.jpg</image:loc>
+      <image:title>Bandrek</image:title>
+      <image:caption>Bandrek — Indonesian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
 </urlset>

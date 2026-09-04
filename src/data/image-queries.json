@@ -9,6 +9,11 @@
     "affogato ice cream espresso",
     "gelato affogato"
   ],
+  "agua-de-jamaica": [
+    "agua de jamaica vaso",
+    "hibiscus iced tea glass",
+    "jamaica drink glass ice"
+  ],
   "aguachile": [
     "aguachile verde",
     "aguachile de camarón"
@@ -48,6 +53,11 @@
   ],
   "ayam-masak-merah": [
     "ayam masak merah malaysia"
+  ],
+  "ayran": [
+    "ayran bardak",
+    "ayran in a glass",
+    "yogurt drink glass foam"
   ],
   "bacalhau-a-bras": [
     "bacalhau à brás",
@@ -91,6 +101,11 @@
   "bandeja-paisa": [
     "bandeja paisa antioqueña"
   ],
+  "bandrek": [
+    "bandrek",
+    "wedang jahe",
+    "indonesian ginger drink"
+  ],
   "bara-brith": [
     "bara brith welsh tea loaf"
   ],
@@ -133,6 +148,11 @@
   "bhindi-masala": [
     "भिंडी मसाला",
     "bhindi sabzi"
+  ],
+  "bibingka": [
+    "bibingka",
+    "bibingka banana leaf",
+    "filipino rice cake"
   ],
   "bifana": [
     "bifana no pão",
@@ -234,6 +254,11 @@
     "cá kho tộ",
     "vietnamese caramelised fish clay pot",
     "ca kho to niêu"
+  ],
+  "cafe-de-olla": [
+    "café de olla",
+    "cafe de olla",
+    "mexican pot coffee"
   ],
   "caldo-verde": [
     "Portuguese kale soup",
@@ -410,6 +435,11 @@
   "coxinha": [
     "coxinha de frango",
     "coxinhas"
+  ],
+  "cozonac": [
+    "cozonac",
+    "cozonac cu nuca",
+    "romanian sweet bread"
   ],
   "crab-cakes": [
     "maryland crab cake"
@@ -704,6 +734,16 @@
     "جوجه کباب",
     "jujeh kabab"
   ],
+  "joulutorttu": [
+    "joulutorttu",
+    "joulutortut",
+    "finnish christmas pastry"
+  ],
+  "julekake": [
+    "julekake",
+    "julekaka",
+    "norwegian christmas bread"
+  ],
   "kaiserschmarrn": [
     "kaiserschmarren"
   ],
@@ -787,6 +827,16 @@
   "kunefe": [
     "künefe",
     "kunafa hatay"
+  ],
+  "kutia": [
+    "кутя",
+    "kutia christmas",
+    "kutya wheat"
+  ],
+  "kvass": [
+    "квас в стакане",
+    "kvass in a glass",
+    "kvas glass drink"
   ],
   "labneh": [
     "labneh yoghurt olive oil",
@@ -1021,6 +1071,11 @@
     "pa amb tomaquet",
     "toasted bread tomato"
   ],
+  "pan-de-jamon": [
+    "pan de jamón",
+    "pan de jamon venezolano",
+    "venezuelan ham bread"
+  ],
   "pancit-canton": [
     "pancit canton guisado"
   ],
@@ -1213,6 +1268,11 @@
     "salade de chèvre chaud",
     "crottin de chavignol salade"
   ],
+  "salep": [
+    "salep bardağı",
+    "salep in a cup cinnamon",
+    "sahlab cup"
+  ],
   "salmon-quinoa-bowl": [
     "baked salmon fillet plate",
     "salmon with quinoa",
@@ -1337,10 +1397,20 @@
     "smørrebrød",
     "smorrebrod rugbrød"
   ],
+  "sobolo": [
+    "bissap verre",
+    "hibiscus juice glass",
+    "zobo drink glass"
+  ],
   "soft-pretzels": [
     "soft pretzel",
     "brezel bread",
     "pretzels salt"
+  ],
+  "sorrel-drink": [
+    "sorrel drink glass caribbean",
+    "hibiscus drink jamaica glass",
+    "sorrel punch glass"
   ],
   "soto-ayam": [
     "soto ayam lamongan"
@@ -1379,9 +1449,19 @@
     "steak and ale pie slice",
     "beef and ale pie"
   ],
+  "stollen": [
+    "christstollen",
+    "dresdner stollen",
+    "stollen weihnachten"
+  ],
   "stroopwafel": [
     "stroopwafels",
     "siroopwafel"
+  ],
+  "sujeonggwa": [
+    "수정과",
+    "sujeonggwa",
+    "korean cinnamon punch"
   ],
   "sukiyaki": [
     "sukiyaki pot beef",
@@ -1400,6 +1480,11 @@
   "tahdig": [
     "ته دیگ",
     "tahdig rice crust"
+  ],
+  "tepache": [
+    "tepache vaso",
+    "tepache in a glass",
+    "fermented pineapple drink glass"
   ],
   "toad-in-the-hole": [
     "sausages in yorkshire pudding batter",
@@ -1477,6 +1562,11 @@
   "vanilla-cupcakes": [
     "vanilla cupcakes frosted",
     "cupcakes with buttercream swirl"
+  ],
+  "vanocka": [
+    "vánočka",
+    "vanocka bread",
+    "czech christmas bread"
   ],
   "victoria-sponge": [
     "sponge cake jam cream",

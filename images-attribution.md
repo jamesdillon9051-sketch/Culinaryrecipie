@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 840
-images, **671** are CC0 or public domain and carry no conditions at all, and
-**169** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 859
+images, **673** are CC0 or public domain and carry no conditions at all, and
+**186** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -41,27 +41,27 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 622 |
-| Hero images | 594 |
-| Secondary "process" images | 246 |
-| Total image files | 1680 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 28 |
+| Recipes | 640 |
+| Hero images | 607 |
+| Secondary "process" images | 252 |
+| Total image files | 1718 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 33 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 392 | No rights reserved — no attribution legally required |
+| CC0 | 393 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
-| Public domain | 68 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 62 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 4.0 | 59 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 69 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 65 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 4.0 | 64 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
+| CC BY-SA 3.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 | 14 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 12 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 4.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 6 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 2.5 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 4.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 3.0 nl | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -111,6 +111,11 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Smoked Mackerel Pâté (`smoked-mackerel-pate`)
 - Garlic Prawns with Courgette Noodles (`garlic-prawn-courgette-noodles`)
 - Baked Eggs with Spinach and Feta (`baked-eggs-spinach-feta`)
+- Salep (`salep`)
+- Agua de Jamaica (`agua-de-jamaica`)
+- Tepache (`tepache`)
+- Sorrel Drink (`sorrel-drink`)
+- Sobolo (`sobolo`)
 
 ## Brand assets
 
@@ -962,6 +967,25 @@ licence as the rest of this project.
 | `cauliflower-chicken-fried-rice.webp` / `.jpg` | Chicken Cauliflower Fried Rice | Hero | Easy Fried Cauliflower Rice-1 (31717741910) | Sharon Chen from Austin, United States | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easy_Fried_Cauliflower_Rice-1_(31717741910).jpg) |
 | `cauliflower-chicken-fried-rice-process.webp` / `.jpg` | Chicken Cauliflower Fried Rice | Process | Easy Fried Cauliflower Rice-2 (31251754744) | Sharon Chen from Austin, United States | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easy_Fried_Cauliflower_Rice-2_(31251754744).jpg) |
 | `baked-eggs-spinach-feta-process.webp` / `.jpg` | Baked Eggs with Spinach and Feta | Process | Eggs Benedict Florentine - Pasadena, CA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eggs_Benedict_Florentine_-_Pasadena,_CA.jpg) |
+| `kutia.webp` / `.jpg` | Kutia | Hero | Кутя за родинним рецептом | Olga Loboda 0806 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D1%82%D1%8F_%D0%B7%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%BD%D0%B8%D0%BC_%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%BE%D0%BC.jpg) |
+| `kutia-process.webp` / `.jpg` | Kutia | Process | Кутя | Оля Гренюх | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D1%82%D1%8F.jpg) |
+| `vanocka.webp` / `.jpg` | Vánočka | Hero | Vanocka | Ludek | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vanocka.jpg) |
+| `julekake.webp` / `.jpg` | Julekake | Hero | Julekake - panoramio | Art Anderson | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Julekake_-_panoramio.jpg) |
+| `joulutorttu.webp` / `.jpg` | Joulutorttu | Hero | Joulutorttu and cheese at Factory Kamppi in December 2025 | JIP | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joulutorttu_and_cheese_at_Factory_Kamppi_in_December_2025.jpg) |
+| `joulutorttu-process.webp` / `.jpg` | Joulutorttu | Process | Joulutorttu at Antell Martintalo | JIP | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joulutorttu_at_Antell_Martintalo.jpg) |
+| `cozonac.webp` / `.jpg` | Cozonac | Hero | Cozonac.IMG 9803 | Ave Maria Mõistlik | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cozonac.IMG_9803.JPG) |
+| `pan-de-jamon.webp` / `.jpg` | Pan de Jamón | Hero | Hallacas con pan de jamon, plato Venezuelano | Wilfredor | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hallacas_con_pan_de_jamon,_plato_Venezuelano.jpg) |
+| `pan-de-jamon-process.webp` / `.jpg` | Pan de Jamón | Process | Pan de jamon, Venezuelan food | Wilfredor | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pan_de_jamon,_Venezuelan_food.jpg) |
+| `bibingka.webp` / `.jpg` | Bibingka | Hero | BIBINGKA rice cakes | whologwhy | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BIBINGKA_rice_cakes.jpg) |
+| `stollen.webp` / `.jpg` | Christstollen | Hero | Stollen-Dresdner Christstollen | Gürgi | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stollen-Dresdner_Christstollen.jpg) |
+| `stollen-process.webp` / `.jpg` | Christstollen | Process | Christstollen - 2013 | Tamorlan | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christstollen_-_2013.JPG) |
+| `ayran.webp` / `.jpg` | Ayran | Hero | Ayran in a beer glass | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ayran_in_a_beer_glass.jpg) |
+| `sujeonggwa.webp` / `.jpg` | Sujeonggwa | Hero | Sujeonggwa | lazy fri13th | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sujeonggwa.jpg) |
+| `cafe-de-olla.webp` / `.jpg` | Café de Olla | Hero | Café de olla - Restaurante Don Chon, Mexico | Mover el Bigote | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_olla_-_Restaurante_Don_Chon,_Mexico.jpg) |
+| `cafe-de-olla-process.webp` / `.jpg` | Café de Olla | Process | Café de olla | Luisalvaz | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_olla.jpg) |
+| `kvass.webp` / `.jpg` | Bread Kvass | Hero | Glass-of-kvass | Liftarn | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glass-of-kvass.jpg) |
+| `bandrek.webp` / `.jpg` | Bandrek | Hero | Bandrek Bandung | Midori | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandrek_Bandung.JPG) |
+| `bandrek-process.webp` / `.jpg` | Bandrek | Process | Stasiun Warung Bandrek 2025 | Sammi578 | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stasiun_Warung_Bandrek_2025.jpg) |
 
 ---
 
