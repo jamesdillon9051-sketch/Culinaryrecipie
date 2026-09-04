@@ -158,9 +158,10 @@ grams to the nearest 5, small counts to kitchen fractions (`¾ tsp`, not
 
 - Real-time search with autocomplete over titles, cuisines, keywords and every ingredient.
   The derived keywords go into the index too, so plain-language queries work — "can you
-  freeze" reaches 309 recipes, "gluten free" 237, "for beginners" 335. The dish name is
-  stripped from each phrase before indexing, since substring search only needs it once;
-  that keeps the index at 168 KB gzipped instead of 207 KB with the repeats left in
+  freeze" reaches 496 recipes, "meal prep" 454, "high protein" 239, "low calorie" 187,
+  "for beginners" 335. The dish name is stripped from each phrase before indexing, since
+  substring search only needs it once; that keeps the index at 173 KB gzipped rather than
+  the 245 KB it would be with every repeat left in
 - Faceted filtering by category, cuisine, dietary tag, difficulty and total time
 - Filter state is reflected in the URL, so filtered views are shareable
 - Favourites, stored locally with no account
@@ -203,11 +204,18 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] Open Graph: `type`, `site_name`, `locale`, `title`, `description`, `url`, `image`, `image:alt`, `image:width`, `image:height`
 - [x] Twitter Card: `summary_large_image` with `site`, `title`, `description`, `image`, `image:alt`
 - [x] `keywords` meta on recipe and taxonomy pages — 4 curated phrases per recipe,
-      widened to ~33 by `src/lib/keywords.js` from the row's own cuisine, category,
-      times, diet tags, ingredients and storage note (15,766 distinct phrases across
-      the site). Derived rather than written, so a phrase is only emitted where the
-      data backs it: "gluten free X" needs the tag, "30 minute X" needs the times,
-      "can you freeze X" needs the storage note to say so
+      widened to ~46 by `src/lib/keywords.js` from the row's own cuisine, category,
+      times, difficulty, diet tags, servings, ingredients, per-serving nutrition and
+      storage note (27,467 in total, 23,499 of them distinct). Derived rather than
+      written, so a phrase is only emitted where the data backs it: "gluten free X"
+      needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
+      400 kcal a serving, "can you freeze X" needs the storage note to say so. A
+      script checks all 600 recipes against those conditions and currently reports
+      no unsupported claim
+- [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
+      guidance asks `keywords` for "other terms for your recipe", and forty-six
+      phrases in that field is the shape of a manual action — the meta tag and the
+      site's own search index carry the full list instead
 - [x] `theme-color`, `color-scheme`, `manifest`, favicon and Apple touch icon
 
 ### Semantics & accessibility (WCAG 2.1 AA)

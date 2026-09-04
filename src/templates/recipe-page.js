@@ -1,6 +1,7 @@
 'use strict';
 const { esc, humanTime, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
+const { forSchema } = require('../lib/keywords');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -83,7 +84,7 @@ function recipeSchema(recipe) {
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
-    keywords: recipe.keywords.join(', '),
+    keywords: forSchema(recipe.keywords).join(', '),
     suitableForDiet: recipe.tags.map(t => ({
       'Vegetarian': 'https://schema.org/VegetarianDiet',
       'Vegan': 'https://schema.org/VeganDiet',

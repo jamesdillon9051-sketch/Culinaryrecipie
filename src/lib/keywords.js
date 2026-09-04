@@ -131,7 +131,7 @@ function headlineIngredients(lines, limit = 3) {
  * @param {number} limit   hard cap, so a long ingredient list cannot run away
  * @returns {string[]}     curated keywords first, then derived, deduplicated
  */
-function expand(recipe, limit = 40) {
+function expand(recipe, limit = 60) {
   const title = lower(recipe.title);
   const cuisine = lower(recipe.cuisine);
   const category = recipe.category;
@@ -222,11 +222,68 @@ function expand(recipe, limit = 40) {
   add(`how to store ${title}`);
   if (/freez/.test(storage)) add(`can you freeze ${title}`);
   if (/reheat/.test(storage)) add(`how to reheat ${title}`);
+  if (/refrigerat|keeps|chill/.test(storage)) {
+    add(`make ahead ${title}`);
+    add(`leftover ${title}`);
+    if (recipe.servings >= 4) add(`${title} for meal prep`);
+  }
+
+  /* What the page demonstrably contains. Every recipe page carries numbered
+     steps, an ingredient list, a nutrition table and a print stylesheet, so
+     these are statements about the page rather than claims about the food. */
+  add(`${title} step by step`);
+  add(`${title} ingredients list`);
+  add(`${title} nutrition`);
+  add(`${title} calories`);
+  add(`printable ${title} recipe`);
+  add(`how long to cook ${title}`);
+  add(`what is ${title}`);
+  if (recipe.imageData) add(`${title} recipe with photos`);
+
+  /* Nutrition claims come off the per-serving figures the page prints, so a
+     dish is only called low-calorie or high-protein when its own numbers say
+     so. The thresholds are the ordinary ones a reader would assume. */
+  const [kcal, protein, , , fibre] = recipe.nutrition || recipe.nut || [];
+  if (kcal) {
+    add(`${title} calories per serving`);
+    if (kcal < 400) add(`low calorie ${title}`);
+    if (kcal < 400) add(`light ${title}`);
+  }
+  if (protein >= 30) add(`high protein ${title}`);
+  if (fibre >= 8) add(`high fibre ${title}`);
+  /* No carbohydrate rule here on purpose. "Low carb" already has an
+     authoritative source in the Low-Carb tag, which is an editorial judgement
+     about the dish; a second rule reading the grams disagreed with it (ceviche
+     is tagged Low-Carb and lists 24 g) and two sources for one claim means one
+     of them is wrong on the page. The tag wins. */
+
+  /* Two-word intent stacks, only where both halves are already true. */
+  if (recipe.difficulty === 'Easy' && total && total <= 30) {
+    add(`quick and easy ${title}`);
+    add(`easy ${cuisine} recipes for beginners`);
+  }
+  if (recipe.badges && recipe.badges.includes('editors')) {
+    add(`${title} tried and tested`);
+  }
 
   return out.slice(0, limit);
 }
 
-module.exports = { expand, headlineIngredients, CATEGORY_NOUN, DIET_WORD };
+/**
+ * The shorter list that goes into the Recipe JSON-LD.
+ *
+ * Google reads `keywords` on a recipe and its guidance asks for "other terms
+ * for your recipe" — a handful of descriptors, not an index. Sixty phrases in
+ * a structured-data field is the shape of a manual action, and the field is
+ * not where the reach comes from anyway. The meta tag and the site's own
+ * search index take the full list; this takes the front of it, which is the
+ * curated phrases plus the strongest derived ones.
+ */
+function forSchema(keywords, limit = 12) {
+  return (keywords || []).slice(0, limit);
+}
+
+module.exports = { expand, forSchema, headlineIngredients, CATEGORY_NOUN, DIET_WORD };
 
 /**
  * Keywords for a category landing page.
