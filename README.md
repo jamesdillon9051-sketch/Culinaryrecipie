@@ -373,8 +373,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-620 of the 658 recipes have a photograph. Of the 875 images on the site, 680
-are CC0 or public domain, 91 are CC BY and 104 are CC BY-SA. Anything still
+617 of the 658 recipes have a photograph. Of the 872 images on the site, 674
+are CC0 or public domain, 92 are CC BY and 106 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -422,6 +422,41 @@ in the manifest:
 pip install Pillow
 npm run images
 ```
+
+---
+
+### Photographs of the wrong dish
+
+The fetcher scores a candidate on how well its title matches the query, which
+lets a near-miss through: every one of these shares the dish word with the
+recipe it was illustrating.
+
+| recipe | photograph it carried |
+| --- | --- |
+| Rosemary Focaccia | Almond & jam focaccia |
+| Pork Gyros | Cheese burger — Archipelagos Gyros |
+| Goan Lamb Vindaloo | Chicken Vindaloo |
+| Larb Gai (minced chicken) | Duck larb |
+| Hyderabadi Biryani (lamb) | Chicken Dum Biryani |
+| Baked Kibbeh | Fried lamb kibbeh |
+| Pecan Pie | Apple pecan pie |
+| Snickerdoodles | Snickerdoodles with gochujang inside |
+| Fasolada (white bean soup) | green bean soup |
+
+`tools/replace_images.py` takes the obvious next step: each target names not
+only what a candidate's title must contain but what it must not — the wrong
+protein, the wrong flavour, the wrong preparation — so a candidate is rejected
+however well it scores. Nineteen heroes were replaced this way.
+
+Titles are not enough on their own, and every replacement was looked at before
+it was kept. The first pass produced a chaffinch photographed in Spandauer
+Forst for the Danish pastries, an airline meal tray for beef and broccoli, and
+a shop packet of plantain crisps; those were reverted, not shipped.
+
+Three recipes ended with no photograph rather than the wrong one — beef and
+broccoli, the three-egg omelette and fried sweet plantain. Commons has nothing
+of those dishes under a licence the site can use, and a gradient carrying the
+recipe name is honest where a picture of something else is not.
 
 ---
 
