@@ -2,6 +2,7 @@
 const { esc, humanTime, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
+const { questions, faqSchema } = require('../lib/faq');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -126,6 +127,10 @@ function recipeSchema(recipe) {
 
 function render(recipe, context) {
   const img = recipe.imageData;
+  /* Built once. The block below renders this list and the schema at the bottom
+     serialises the same objects, so the markup cannot drift from what a reader
+     sees — which is the condition Google puts on FAQ markup. */
+  const faq = questions(recipe);
   const process = recipe.processData;
   const url = `${SITE.origin}${SITE.base}recipes/${recipe.slug}/`;
 
@@ -225,6 +230,10 @@ ${breadcrumbs(trail)}
 
         <h2>Storage &amp; Reheating</h2>
         <p>${esc(recipe.storage)}</p>
+
+        <h2 id="faq">Common questions</h2>
+        <div class="faq">${faq.map(({ q, a }) =>
+          `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>
 
         <h2>Nutritional Highlights</h2>
         <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
@@ -345,7 +354,7 @@ ${breadcrumbs(trail)}
     ogType: 'article',
     image: img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : undefined,
     imageAlt: recipe.imageAlt,
-    schema: [recipeSchema(recipe), breadcrumbSchema(trail)],
+    schema: [recipeSchema(recipe), breadcrumbSchema(trail), faqSchema(faq)].filter(Boolean),
     scripts: ['recipe.js'],
     /* Slots are placed in the article itself, below the intro and below the
        method, so the layout must not add its own. */

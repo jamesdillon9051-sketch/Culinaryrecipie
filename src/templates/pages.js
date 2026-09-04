@@ -1,5 +1,6 @@
 'use strict';
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
+const { faqSchema } = require('../lib/faq');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
         publicDomainImageCount, shareAlikeImageCount,
         attributionOnlyImageCount } = require('../data/stats');
@@ -590,6 +591,32 @@ ${breadcrumbs(trail)}
 }
 
 /* ------------------------------------------------------------ about page */
+/**
+ * The about page's questions, in one place.
+ *
+ * They used to be written twice — once as markup and once inside the FAQPage
+ * schema — and the two copies had drifted: the schema answered "no account
+ * required" where the page said "no account", and both still said the site held
+ * two hundred recipes long after it held six hundred. A reader saw one text and
+ * a crawler was handed another.
+ */
+const ABOUT_FAQ = [
+  { q: 'Are these recipes free?',
+    a: `Yes, all ${recipeCount} of them, with no paywall and no account. The site runs on a `
+     + 'static host and costs us very little.' },
+  { q: 'Why metric weights rather than cups?',
+    a: 'Because a cup of flour can vary by 20% depending on how you scoop it, and that is the '
+     + 'difference between a good cake and a dense one. We give volume measures for liquids and '
+     + 'small quantities where precision matters less.' },
+  { q: 'Can I suggest a recipe?',
+    a: 'Please do — use the contact form. We add recipes when we can test them properly, which '
+     + 'takes a fortnight per dish.',
+    link: { text: 'contact form', href: `${SITE.base}contact/` } },
+  { q: 'Do you store my saved recipes or reviews?',
+    a: "No. Favourites, ingredient checkboxes and reviews all live in your browser's local "
+     + 'storage. Clearing your browser data clears them, and they never reach a server.' }
+];
+
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
   const team = [
@@ -658,10 +685,13 @@ ${breadcrumbs(trail)}
 
   <section class="section faq" aria-labelledby="faq-title">
     <h2 id="faq-title">Common questions</h2>
-    <details><summary>Are these recipes free?</summary><p>Yes, all two hundred, with no paywall and no account. The site runs on a static host and costs us very little.</p></details>
-    <details><summary>Why metric weights rather than cups?</summary><p>Because a cup of flour can vary by 20% depending on how you scoop it, and that is the difference between a good cake and a dense one. We give volume measures for liquids and small quantities where precision matters less.</p></details>
-    <details><summary>Can I suggest a recipe?</summary><p>Please do — use the <a href="${SITE.base}contact/">contact form</a>. We add recipes when we can test them properly, which takes a fortnight per dish.</p></details>
-    <details><summary>Do you store my saved recipes or reviews?</summary><p>No. Favourites, ingredient checkboxes and reviews all live in your browser's local storage. Clearing your browser data clears them, and they never reach a server.</p></details>
+    ${ABOUT_FAQ.map(({ q, a, link }) => {
+      /* The link is spliced into the rendered answer only. The schema keeps the
+         plain sentence, and check.js compares text rather than markup, so the
+         two still agree. */
+      const shown = link ? esc(a).replace(esc(link.text), `<a href="${link.href}">${esc(link.text)}</a>`) : esc(a);
+      return `<details><summary>${esc(q)}</summary><p>${shown}</p></details>`;
+    }).join('\n    ')}
   </section>
 </div>
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter('about-news')}</div>`;
@@ -687,19 +717,7 @@ ${breadcrumbs(trail)}
         url: `${SITE.origin}${SITE.base}about/`,
         publisher: { '@type': 'Organization', name: SITE.name, url: SITE.origin + SITE.base }
       },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: [
-          ['Are these recipes free?', 'Yes, all two hundred, with no paywall and no account required.'],
-          ['Why metric weights rather than cups?', 'A cup of flour can vary by 20% depending on how you scoop it. Weights remove that variable.'],
-          ['Can I suggest a recipe?', 'Yes — use the contact form. We add recipes once we can test them properly, which takes about a fortnight per dish.'],
-          ['Do you store my saved recipes or reviews?', 'No. Favourites, checkboxes and reviews are stored in your browser only and never reach a server.']
-        ].map(([q, a]) => ({
-          '@type': 'Question', name: q,
-          acceptedAnswer: { '@type': 'Answer', text: a }
-        }))
-      }
+      faqSchema(ABOUT_FAQ)
     ],
     body
   });

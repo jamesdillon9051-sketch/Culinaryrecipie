@@ -203,6 +203,19 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] Unique meta description under 160 characters on every page
 - [x] Open Graph: `type`, `site_name`, `locale`, `title`, `description`, `url`, `image`, `image:alt`, `image:width`, `image:height`
 - [x] Twitter Card: `summary_large_image` with `site`, `title`, `description`, `image`, `image:alt`
+- [x] **FAQPage** on all 600 recipe pages and the about page — 3,447 questions,
+      about 5.7 a recipe, built by `src/lib/faq.js` from fields the page already
+      prints: the times, the tips, the pairings, the storage note, the diet tags
+      and the nutrition figures. A question whose source field is missing is not
+      asked. `npm run check` reads every answer out of the schema and looks for
+      it in the rendered text, so markup cannot describe Q&A a reader cannot see
+      — which is the condition Google puts on FAQ markup, and the one that earns
+      a manual action when it is broken.
+
+      Worth knowing: since August 2023 Google shows FAQ rich results only for
+      well-known, authoritative government and health sites. This markup is
+      correct and it will not put an accordion under the search result. The gain
+      is a page that answers what people actually ask
 - [x] `keywords` meta on recipe and taxonomy pages — 4 curated phrases per recipe,
       widened to ~46 by `src/lib/keywords.js` from the row's own cuisine, category,
       times, difficulty, diet tags, servings, ingredients, per-serving nutrition and

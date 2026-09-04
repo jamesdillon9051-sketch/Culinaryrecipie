@@ -48,10 +48,46 @@ function resolveHref(href) {
   return clean;
 }
 
+/* Schema strings, flattened the same way, so the two are comparable. */
+const flatten = s => String(s).replace(/\s+/g, ' ').trim();
+
 for (const file of htmlFiles) {
   const rel = '/' + path.relative(DIST, file).split(path.sep).join('/');
   const html = fs.readFileSync(file, 'utf8');
   pagesChecked++;
+
+  /* --- FAQ markup matches the page ------------------------------------ */
+  /* Google's condition on FAQ markup is that the Q&A be visible to the reader.
+     Generated schema and generated markup can drift apart in a way nobody
+     notices, so this checks the text itself rather than trusting that they came
+     from the same variable. */
+  /* The page as a reader sees it: scripts gone, tags gone, entities decoded,
+     whitespace flattened. Searching the raw HTML found the schema inside its own
+     ld+json block, so the check passed for text that appeared nowhere visible —
+     exactly the failure it exists to catch. Comparing text rather than markup
+     also lets an answer contain a link without breaking the match. */
+  const visible = html
+    .replace(/<script[\s\S]*?<\/script>/g, ' ')
+    .replace(/<style[\s\S]*?<\/style>/g, ' ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ');
+  for (const block of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    let parsed;
+    try { parsed = JSON.parse(block[1]); } catch { problems.push(`${rel}: unparseable ld+json`); continue; }
+    for (const node of [].concat(parsed)) {
+      if (!node || node['@type'] !== 'FAQPage') continue;
+      for (const entry of node.mainEntity || []) {
+        const answer = entry.acceptedAnswer && entry.acceptedAnswer.text;
+        if (!visible.includes(flatten(entry.name))) {
+          problems.push(`${rel}: FAQ question is in the schema but not on the page`);
+        } else if (!visible.includes(flatten(answer || ''))) {
+          problems.push(`${rel}: FAQ answer is in the schema but not on the page`);
+        }
+      }
+    }
+  }
 
   /* --- internal links ------------------------------------------------- */
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
