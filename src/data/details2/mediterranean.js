@@ -178,6 +178,7 @@ module.exports = {
   },
 
   'galaktoboureko': {
+    rest: [240, 'cooling'],
     d: 'Semolina custard baked between layers of filo and drenched in cold syrup the moment it leaves the oven. The temperature contrast between hot pastry and cold syrup is what keeps the top crisp.',
     meta: 'Galaktoboureko — Greek semolina custard baked in filo and soaked in cold lemon syrup for a crisp top.',
     kw: ['galaktoboureko recipe', 'greek custard pie', 'filo custard dessert', 'semolina custard'],

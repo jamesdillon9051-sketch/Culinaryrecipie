@@ -22,6 +22,7 @@ const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const publishedReviews = require('./data/reviews.json');
+const volumes = require('./data/volumes');
 const { derivedTags } = require('./lib/diet-derived');
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
@@ -134,19 +135,11 @@ function validateImage(entry, slug) {
 }
 
 function loadRecipes() {
-  /* The catalogue is split across two volumes, each with its own details
-     directory. They are merged here so the rest of the build only ever sees
-     one flat list of recipes. */
-  const catalog = [...require('./data/catalog'), ...require('./data/catalog-2'),
-                   ...require('./data/catalog-3'), ...require('./data/catalog-4'),
-                   ...require('./data/catalog-5'), ...require('./data/catalog-6'), ...require('./data/catalog-7')];
-  const details = {};
-  for (const dir of ['details', 'details2', 'details3', 'details4', 'details5', 'details6', 'details7']) {
-    const detailsDir = path.join(SRC, 'data', dir);
-    for (const file of fs.readdirSync(detailsDir).filter(f => f.endsWith('.js'))) {
-      Object.assign(details, require(path.join(detailsDir, file)));
-    }
-  }
+  /* The catalogue is split across volumes, each with its own details
+     directory. src/data/volumes.js discovers and merges them, so the rest of
+     the build only ever sees one flat list of recipes. */
+  const catalog = volumes.catalog();
+  const details = volumes.details();
 
   /* A slug appearing in both volumes would silently overwrite one recipe's
      details with the other's, so it fails the build instead. */

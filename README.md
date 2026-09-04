@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **658 most famous recipes** — each
+A dependency-free static site for the world's **680 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-658 recipes · 66 cuisines · 10 categories · 795 static pages · 0 npm dependencies
+680 recipes · 66 cuisines · 10 categories · 817 static pages · 0 npm dependencies
 ```
 
 ---
@@ -74,11 +74,10 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js         # volume two, same shape; all three are merged at build
-│   │   ├── catalog-3.js         # volume three, same shape
+│   │   ├── catalog-2.js …-8.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/*.js        # volume two long-form content
-│   │   ├── details3/*.js        # volume three long-form content
+│   │   ├── details2/ …details8/ # long-form content for the matching volume
+│   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
 │   ├── lib/
@@ -108,7 +107,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 986 image files
-├── recipes/                     #    658 recipe pages
+├── recipes/                     #    680 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -124,8 +123,15 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 merges them and **fails loudly** if a slug is missing content or a nutrition
 array has the wrong shape — so a half-written recipe can never be published.
 
-Adding a recipe means adding one `c(...)` row to `catalog.js` and one keyed
-object to a file in `details/`, then running `npm run build`.
+Adding a recipe means adding one `c(...)` row to a `catalog*.js` volume and one
+keyed object to a file in the matching `details*/` directory, then running
+`npm run build`.
+
+Adding a whole volume means creating the two and nothing else. `volumes.js`
+finds them by name and orders them numerically, because five separate files
+used to list the volumes by hand — the build, the stats, the diet audit, the
+attribution table and the image fetcher — and adding an eighth to four of them
+would have left the fifth quietly working from a stale list.
 
 ### Ingredient parsing
 
@@ -188,7 +194,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 658 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 680 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -220,7 +226,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       in `src/templates/layout.js` turns this off; it is left on because doing so
       removes the stars from search results, which is a trade to make deliberately.
       Real reviews override it automatically
-- [x] **FAQPage** on all 658 recipe pages and the about page — 3,880 questions,
+- [x] **FAQPage** on all 680 recipe pages and the about page — 4,011 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -240,7 +246,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       written, so a phrase is only emitted where the data backs it: "gluten free X"
       needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
       400 kcal a serving, "can you freeze X" needs the storage note to say so. A
-      script checks all 658 recipes against those conditions and currently reports
+      script checks all 680 recipes against those conditions and currently reports
       no unsupported claim
 - [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
       guidance asks `keywords` for "other terms for your recipe", and forty-six
@@ -373,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-617 of the 658 recipes have a photograph. Of the 872 images on the site, 674
-are CC0 or public domain, 92 are CC BY and 106 are CC BY-SA. Anything still
+639 of the 680 recipes have a photograph. Of the 897 images on the site, 683
+are CC0 or public domain, 99 are CC BY and 115 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -521,7 +527,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 658 recipes now passes, and `npm run check` runs the
+Every one of the site's 680 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -552,6 +558,48 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## The fifty-recipe baking brief
+
+A request for fifty specific baking recipes turned out to be a request for
+twenty-two: the site already held twenty-eight of them, several under names
+that did not match the ask. Brown Butter Chocolate Chip Cookies is the classic
+chocolate chip cookie. Fudgy Cocoa Brownies is the fudgy chocolate brownie.
+Deep-Dish Apple Pie, Artisan Sourdough Bread, Butter Croissants, French
+Macarons, Overnight Cinnamon Rolls and Bakery-Style Blueberry Muffins were all
+already there. Adding them again would have produced twenty-eight duplicate
+pages competing with their own originals in search results, which is the
+opposite of what more recipes are for.
+
+So `src/data/catalog-8.js` holds the twenty-two that were genuinely missing.
+Three of them look like duplicates and are not:
+
+- **Garlic Confit Focaccia** joins a rosemary focaccia and a focaccia genovese,
+  because the garlic is slow-cooked in oil and folded through the dough rather
+  than scattered on top — a different dough, and the answer to why most garlic
+  focaccia tastes burnt.
+- **Pound Cake**, **Marble Cake** and **Sour Cream Bundt Cake** share a family
+  and diverge on ratio, method and tin: equal weights creamed for ten minutes
+  with no raising agent; two batters swirled once; and a sour cream batter in a
+  fluted tin, where the interesting problem is getting it out whole.
+- **Vanilla Sponge Cake** is the plain reverse-creamed layer the Victoria
+  Sponge is built from, which the site had only ever published with jam in it.
+
+Every one passes the same checks as the other 658. The nutrition figures were
+written to match their own macros under the Atwater factors before the audit
+ever ran; the diet tags hold; and the seven with long unattended waits declare
+them, so the garlic focaccia's fourteen and a half hours of cold proving are on
+the page rather than hidden behind a 100-minute header.
+
+Nineteen of the twenty-two have a photograph. Three do not: Commons has no
+usable picture of a finished angel food cake, of magic cookie bars, or of a
+focaccia that is not either sweet or a pizza, and the fetcher's near-misses —
+an empty tube tin, raw batter, a Scottish mountain called The Cobbler — went
+back rather than onto the page.
+
+They are unrated, for the reason given in `catalog-4.js`.
+
+---
+
 ## Times and nutrition
 
 Two more numbers a reader plans around and cannot check before committing: how
@@ -564,7 +612,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **202 of the 658 recipes** declare unattended
+The larger problem was waiting. **215 of the 680 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -574,6 +622,13 @@ table gains a row, cards carry a `+ rest` marker, the FAQ answer spells out both
 halves, and the `totalTime` in the Recipe schema is start to finish. Sorting,
 filtering and the Quick Meals category still use hands-on time, because a
 twelve-hour prove costs the cook no attention.
+
+Cooling counts as waiting, which is not obvious until you look at what it
+costs: a pecan pie needs four hours before it can be sliced, so a header of
+"1 hr 20 min" was describing the work rather than the wait. Eleven recipes
+gained or corrected a figure when the audit started reading it that way, and
+two aspirational overnights — "cool completely, ideally overnight" — came back
+down to what the recipe actually requires.
 
 The audit re-derives the waiting time from the method text on every run and
 fails if it disagrees with the field — which means editing a step from "chill 2
@@ -597,7 +652,7 @@ Both audits run inside `npm run check`.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 658 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 680 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

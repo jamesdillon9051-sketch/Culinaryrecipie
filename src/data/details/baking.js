@@ -2,6 +2,7 @@
 
 module.exports = {
   'banana-bread': {
+    rest: [60, 'cooling'],
     d: 'One bowl, one whisk, and the darkest bananas you can find. Browning the butter first adds a nutty depth that turns an everyday loaf into something people ask you about.',
     meta: 'One-bowl banana bread with brown butter and very ripe bananas. Moist, deeply flavoured, and impossible to get wrong.',
     kw: ['banana bread recipe', 'easy banana bread', 'brown butter banana bread', 'one bowl baking'],
@@ -175,7 +176,7 @@ module.exports = {
   },
 
   'sourdough-bread': {
-    rest: [1110, 'chilling'],
+    rest: [1230, 'chilling'],
     d: 'An open-crumb country loaf with a blistered, mahogany crust and a genuine tang. Long autolyse, gentle handling and a Dutch oven are the three things that matter.',
     meta: 'Artisan sourdough with an open crumb and blistered crust, baked in a Dutch oven. Full schedule and timings included.',
     kw: ['sourdough bread recipe', 'artisan sourdough', 'open crumb sourdough', 'dutch oven bread'],
@@ -211,6 +212,7 @@ module.exports = {
   },
 
   'fudgy-brownies': {
+    rest: [180, 'cooling'],
     d: 'Cocoa-based brownies with a paper-thin crackly top and a dense, fudgy middle. No chocolate to melt, no mixer needed, and they are better than most bakery versions.',
     meta: 'Fudgy cocoa brownies with a shiny crackle top and dense centre. One bowl, no melted chocolate, ready in 40 minutes.',
     kw: ['brownie recipe', 'fudgy brownies', 'cocoa brownies', 'easy chocolate dessert'],
@@ -296,7 +298,7 @@ module.exports = {
   },
 
   'apple-pie': {
-    rest: [180, 'chilling'],
+    rest: [360, 'chilling'],
     d: 'A deep-dish pie with a properly crisp bottom crust and apples that hold their shape. Pre-cooking the filling is the unglamorous step that solves every apple pie problem at once.',
     meta: 'Deep-dish apple pie with a crisp bottom crust and apples that keep their shape. The pre-cooked filling method.',
     kw: ['apple pie recipe', 'homemade apple pie', 'flaky pie crust', 'classic american dessert'],
@@ -391,6 +393,7 @@ module.exports = {
   },
 
   'red-velvet-cake': {
+    rest: [150, 'cooling'],
     d: 'A tender buttermilk cake with a whisper of cocoa, a tang from vinegar and buttermilk, and a proper cream cheese frosting. The colour is the least interesting thing about it.',
     meta: 'Classic red velvet cake with a tender buttermilk crumb, subtle cocoa tang and cream cheese frosting.',
     kw: ['red velvet cake recipe', 'cream cheese frosting', 'layer cake recipe', 'classic american cake'],

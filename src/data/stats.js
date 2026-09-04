@@ -2,9 +2,7 @@
 
 /* Counts derived from the catalogues rather than written into copy, so the
    headline numbers on the site can never drift from the actual data. */
-const catalog = [...require('./catalog'), ...require('./catalog-2'),
-                 ...require('./catalog-3'), ...require('./catalog-4'),
-                 ...require('./catalog-5'), ...require('./catalog-6'), ...require('./catalog-7')];
+const catalog = require('./volumes').catalog();
 const images = require('./images.json');
 
 /* The same principle applied to licensing, which matters more: a page that

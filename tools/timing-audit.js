@@ -9,8 +9,10 @@
  *
  *   1. A method that bakes, fries or boils cannot have a cook time of zero.
  *   2. Unattended waiting of an hour or more — proving, chilling, marinating,
- *      fermenting — must be declared in the detail record's `rest` field, and
- *      declared as the method actually describes it.
+ *      fermenting, cooling — must be declared in the detail record's `rest`
+ *      field, and declared as the method actually describes it. Cooling counts:
+ *      a pecan pie that needs four hours before it can be sliced is four hours
+ *      away from the table, whatever the header says.
  *
  *   node tools/timing-audit.js
  */
@@ -20,7 +22,7 @@ const { loadRecipes } = require('../src/build');
 const COOKS = /\b(bake|bakes|baking|roast|roasts|roasting|fry|fries|frying|deep-fry|boil|boils|boiling|simmer|simmers|simmering|saut[eé]|saut[eé]s|grill|grills|grilling|griddle|toast|toasts|toasting|steam|steams|steaming|poach|poaches|poaching|sear|sears|searing|braise|braises|braising|heat the oven|preheat|blanch|blanches|blanching)\b/i;
 
 /* Waiting the recipe requires, as opposed to working. */
-const WAIT = /\b(chill|chilled|rest|rested|resting|refrigerate|refrigerated|marinate|marinating|prove|proof|rise|risen|ferment|fermenting|soak|soaking|steep|brine|cure|curing|macerate|freeze|frozen|leave|infuse|hang|sprout|drain)\b/i;
+const WAIT = /\b(chill|chilled|rest|rested|resting|refrigerate|refrigerated|marinate|marinating|prove|proof|rise|risen|ferment|fermenting|soak|soaking|steep|brine|cure|curing|macerate|freeze|frozen|leave|infuse|hang|sprout|drain|cool|cooled|cooling)\b/i;
 /* Shelf life, optional extras and make-ahead notes are not part of making it. */
 const STORAGE = /\b(keeps?|will keep|store[ds]?|storing|lasts?|up to|freezer|leftovers?|at this point|if you (?:can|have|want|like|prefer)|can (?:also|be)|no more than|within|serve|reheat)\b/i;
 const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook|grill|steam|poach|braise|toast|sear|smoke)\w*\b/i;
@@ -47,6 +49,10 @@ function waitIn(raw) {
   while ((match = UNITS.exec(sentence))) {
     const before = sentence.slice(0, match.index);
     if (COOKED.test(before)) continue;
+    /* "Remove the brisket after 90 minutes" is time already spent. */
+    if (/\bafter\s+$/i.test(before)) continue;
+    /* "Cool completely, ideally overnight" promises the cooling, not the night. */
+    if (/\bideally\s+$/i.test(before)) continue;
     /* "Prove 45 minutes, then bake for 50" — a cooking verb standing between
        the waiting verb and the number means the number belongs to the cooking. */
     const lastWait = Math.max(...[...before.matchAll(new RegExp(WAIT.source, 'gi'))].map(m => m.index), -1);
@@ -55,7 +61,7 @@ function waitIn(raw) {
     if (n === null) continue;
     best = Math.max(best, toMinutes(n, match[2]));
   }
-  if (/\bovernight\b/i.test(sentence) && best < 480) best = 480;
+  if (/(?<!ideally )\bovernight\b/i.test(sentence) && best < 480) best = 480;
   return best;
 }
 
@@ -75,6 +81,8 @@ function detectRest(recipe) {
        part of the timing, so the clause after "or" is dropped. */
     const sentence = raw.split(/,\s*or\s+/i)[0];
     if (!WAIT.test(sentence) || STORAGE.test(sentence)) continue;
+    /* A whole instruction offered as an ideal is an improvement, not a step. */
+    if (/^\s*ideally\b/i.test(sentence)) continue;
     const mins = waitIn(sentence);
     /* Under half an hour is a pause, not a plan. */
     if (mins >= 30) total += mins;

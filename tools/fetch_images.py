@@ -922,18 +922,12 @@ def alt_queries():
 def main():
     os.makedirs(IMG_DIR, exist_ok=True)
     alts = alt_queries()
+    # src/data/volumes.js discovers the catalogue volumes, so a new one does not
+    # need adding here as well — which it silently did not, for a while.
     catalog = json.loads(subprocess.check_output(
         ["node", "-e",
-         "process.stdout.write(JSON.stringify(["
-         "...require('%s'), ...require('%s'), ...require('%s'), ...require('%s'),"
-         "...require('%s'), ...require('%s'), ...require('%s')]))"
-         % (os.path.join(ROOT, "src", "data", "catalog.js"),
-            os.path.join(ROOT, "src", "data", "catalog-2.js"),
-            os.path.join(ROOT, "src", "data", "catalog-3.js"),
-            os.path.join(ROOT, "src", "data", "catalog-4.js"),
-            os.path.join(ROOT, "src", "data", "catalog-5.js"),
-            os.path.join(ROOT, "src", "data", "catalog-6.js"),
-            os.path.join(ROOT, "src", "data", "catalog-7.js"))]).decode())
+         "process.stdout.write(JSON.stringify(require('%s').catalog()))"
+         % os.path.join(ROOT, "src", "data", "volumes.js")]).decode())
 
     manifest = {}
     if os.path.exists(MANIFEST):

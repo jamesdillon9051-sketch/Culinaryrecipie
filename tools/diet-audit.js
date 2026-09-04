@@ -20,18 +20,9 @@
  */
 const { parse } = require('../src/lib/ingredients');
 
-const catalog = [...require('../src/data/catalog'), ...require('../src/data/catalog-2'),
-                 ...require('../src/data/catalog-3'),
-                 ...require('../src/data/catalog-4'),
-                 ...require('../src/data/catalog-5'),
-                 ...require('../src/data/catalog-6'),
-                 ...require('../src/data/catalog-7')];
-const details = {};
-for (const dir of ['details', 'details2', 'details3', 'details4', 'details5', 'details6', 'details7']) {
-  for (const file of require('fs').readdirSync(`${__dirname}/../src/data/${dir}`)) {
-    if (file.endsWith('.js')) Object.assign(details, require(`../src/data/${dir}/${file}`));
-  }
-}
+const volumes = require('../src/data/volumes');
+const catalog = volumes.catalog();
+const details = volumes.details();
 
 /* What each tag forbids. Stock, lard and gelatin are in here precisely because
    they are the ones that get missed — nobody forgets that a vegan dish cannot

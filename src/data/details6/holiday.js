@@ -85,7 +85,7 @@ module.exports = {
   },
 
   'julekake': {
-    rest: [135, 'proving'],
+    rest: [195, 'proving'],
     d: 'Norwegian Christmas bread scented heavily with cardamom and full of candied peel and raisins — softer and less sweet than its German cousins, and eaten with butter and brown cheese.',
     meta: 'Julekake — Norwegian cardamom Christmas bread with candied peel and raisins.',
     kw: ['julekake recipe', 'norwegian christmas bread', 'cardamom bread', 'julekaka'],

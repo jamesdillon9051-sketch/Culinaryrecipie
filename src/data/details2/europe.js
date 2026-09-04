@@ -95,7 +95,7 @@ module.exports = {
   },
 
   'olivier-salad': {
-    rest: [660, 'draining'],
+    rest: [180, 'chilling'],
     d: 'Diced potato, carrot, egg, pickle and ham bound in mayonnaise. Known as Russian salad almost everywhere else, and the fixed centre of every Soviet-era New Year table.',
     meta: 'Olivier salad — Russian potato salad with carrot, egg, peas, pickles and ham in mayonnaise.',
     kw: ['olivier salad recipe', 'russian salad', 'new year salad', 'potato salad russian'],
