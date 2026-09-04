@@ -32,6 +32,20 @@ const NOT_ADDED_SUGAR = /\b(sugar[- ]snap|sugar[- ]free|no[- ]added[- ]sugar|sug
 const HIGH_PROTEIN_GRAMS = 30;
 
 /**
+ * Carbohydrate per serving at or below which a recipe is called Low-Carb.
+ *
+ * Twenty grams is a common line and, more to the point, it is a line: the tag
+ * was applied by hand to sixteen recipes while a hundred and four sit under the
+ * threshold, and one of the sixteen — ceviche, at 24 g — sat above it. A number
+ * anyone can check against the nutrition table beats a judgement nobody
+ * recorded.
+ *
+ * The figure itself is the useful part and it is printed on every page. Someone
+ * counting carbohydrate works from the grams, not from a label.
+ */
+const LOW_CARB_GRAMS = 20;
+
+/**
  * @param {string[]} lines  the ingredient list, group headings and all
  * @returns {boolean}
  */
@@ -51,10 +65,12 @@ function hasAddedSugar(lines) {
  */
 function derivedTags(detail) {
   const tags = [];
-  const protein = (detail.nut || [])[1];
+  const [, protein, carbs] = detail.nut || [];
   if (protein >= HIGH_PROTEIN_GRAMS) tags.push('High-Protein');
+  if (carbs !== undefined && carbs <= LOW_CARB_GRAMS) tags.push('Low-Carb');
   if (!hasAddedSugar(detail.ing)) tags.push('No Added Sugar');
   return tags;
 }
 
-module.exports = { derivedTags, hasAddedSugar, ADDED_SUGAR, NOT_ADDED_SUGAR, HIGH_PROTEIN_GRAMS };
+module.exports = { derivedTags, hasAddedSugar, ADDED_SUGAR, NOT_ADDED_SUGAR,
+  HIGH_PROTEIN_GRAMS, LOW_CARB_GRAMS };

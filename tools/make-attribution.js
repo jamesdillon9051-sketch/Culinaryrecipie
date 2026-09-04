@@ -15,7 +15,8 @@ const images = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/images.json'
 const catalog = [...require(path.join(ROOT, 'src/data/catalog.js')),
                  ...require(path.join(ROOT, 'src/data/catalog-2.js')),
                  ...require(path.join(ROOT, 'src/data/catalog-3.js')),
-                 ...require(path.join(ROOT, 'src/data/catalog-4.js'))];
+                 ...require(path.join(ROOT, 'src/data/catalog-4.js')),
+                 ...require(path.join(ROOT, 'src/data/catalog-5.js'))];
 
 const rows = [];
 const counts = {};

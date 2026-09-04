@@ -896,11 +896,13 @@ def main():
     catalog = json.loads(subprocess.check_output(
         ["node", "-e",
          "process.stdout.write(JSON.stringify(["
-         "...require('%s'), ...require('%s'), ...require('%s'), ...require('%s')]))"
+         "...require('%s'), ...require('%s'), ...require('%s'), ...require('%s'),"
+         "...require('%s')]))"
          % (os.path.join(ROOT, "src", "data", "catalog.js"),
             os.path.join(ROOT, "src", "data", "catalog-2.js"),
             os.path.join(ROOT, "src", "data", "catalog-3.js"),
-            os.path.join(ROOT, "src", "data", "catalog-4.js"))]).decode())
+            os.path.join(ROOT, "src", "data", "catalog-4.js"),
+            os.path.join(ROOT, "src", "data", "catalog-5.js"))]).decode())
 
     manifest = {}
     if os.path.exists(MANIFEST):

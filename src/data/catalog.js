@@ -33,7 +33,7 @@ module.exports = [
   c('potato-gnocchi', 'Potato Gnocchi with Sage Butter', 'Italian', 'Dinner', 'Medium', 45, 15, 4, 4.7, 1544, ['Vegetarian'], [], 'Potato gnocchi'),
   c('pesto-genovese', 'Pesto alla Genovese', 'Italian', 'Quick Meals', 'Easy', 15, 10, 4, 4.8, 2277, ['Vegetarian'], [], 'Pesto alla genovese basil'),
   c('minestrone-soup', 'Minestrone Soup', 'Italian', 'Healthy', 'Easy', 20, 40, 6, 4.6, 1290, ['Vegan', 'Dairy-Free'], [], 'Minestrone soup'),
-  c('caprese-salad', 'Caprese Salad', 'Italian', 'Appetizers', 'Easy', 10, 0, 4, 4.7, 1855, ['Vegetarian', 'Gluten-Free', 'Low-Carb'], [], 'Insalata caprese'),
+  c('caprese-salad', 'Caprese Salad', 'Italian', 'Appetizers', 'Easy', 10, 0, 4, 4.7, 1855, ['Vegetarian', 'Gluten-Free'], [], 'Insalata caprese'),
   c('bruschetta', 'Tomato Bruschetta', 'Italian', 'Appetizers', 'Easy', 15, 5, 6, 4.7, 2044, ['Vegan', 'Dairy-Free'], [], 'Bruschetta tomato'),
   c('arancini', 'Sicilian Arancini', 'Italian', 'Appetizers', 'Hard', 40, 25, 6, 4.6, 878, [], [], 'Arancini rice balls'),
   c('focaccia', 'Rosemary Focaccia', 'Italian', 'Baking', 'Medium', 25, 25, 8, 4.8, 2530, ['Vegan', 'Dairy-Free'], ['new'], 'Focaccia bread rosemary'),
@@ -66,7 +66,7 @@ module.exports = [
   c('tempura', 'Crispy Vegetable Tempura', 'Japanese', 'Appetizers', 'Medium', 20, 20, 4, 4.6, 1477, ['Dairy-Free'], [], 'Tempura'),
   c('yakitori', 'Yakitori Chicken Skewers', 'Japanese', 'Appetizers', 'Easy', 20, 15, 4, 4.7, 1355, ['Dairy-Free'], [], 'Yakitori'),
   c('okonomiyaki', 'Osaka Okonomiyaki', 'Japanese', 'Dinner', 'Medium', 20, 20, 4, 4.6, 1042, ['Dairy-Free'], [], 'Okonomiyaki'),
-  c('miso-soup', 'Miso Soup', 'Japanese', 'Healthy', 'Easy', 5, 10, 4, 4.6, 1780, ['Vegan', 'Dairy-Free', 'Low-Carb'], [], 'Miso soup'),
+  c('miso-soup', 'Miso Soup', 'Japanese', 'Healthy', 'Easy', 5, 10, 4, 4.6, 1780, ['Vegan', 'Dairy-Free'], [], 'Miso soup'),
   c('udon-noodle-soup', 'Kake Udon Noodle Soup', 'Japanese', 'Lunch', 'Easy', 10, 15, 2, 4.6, 1128, ['Dairy-Free'], [], 'Udon noodle soup'),
   c('california-roll', 'California Roll', 'Japanese', 'Lunch', 'Medium', 40, 20, 4, 4.6, 2033, ['Dairy-Free'], [], 'California roll sushi'),
   c('japanese-cheesecake', 'Japanese Cotton Cheesecake', 'Japanese', 'Desserts', 'Hard', 30, 70, 8, 4.7, 2570, ['Vegetarian'], ['new'], 'Japanese cheesecake'),
@@ -101,7 +101,7 @@ module.exports = [
   c('masala-dosa', 'Masala Dosa', 'Indian', 'Breakfast', 'Hard', 30, 30, 6, 4.7, 1833, ['Vegetarian', 'Gluten-Free'], [], 'Masala dosa'),
   c('samosas', 'Punjabi Samosas', 'Indian', 'Appetizers', 'Medium', 40, 25, 8, 4.8, 3122, ['Vegetarian'], [], 'Samosa'),
   c('vegetable-pakoras', 'Vegetable Pakoras', 'Indian', 'Appetizers', 'Easy', 15, 15, 4, 4.6, 1244, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Pakora'),
-  c('tandoori-chicken', 'Tandoori Chicken', 'Indian', 'Dinner', 'Easy', 20, 35, 4, 4.8, 2411, ['Gluten-Free', 'Low-Carb'], [], 'Tandoori chicken'),
+  c('tandoori-chicken', 'Tandoori Chicken', 'Indian', 'Dinner', 'Easy', 20, 35, 4, 4.8, 2411, ['Gluten-Free'], [], 'Tandoori chicken'),
   c('garlic-naan', 'Garlic Butter Naan', 'Indian', 'Baking', 'Medium', 90, 10, 8, 4.8, 3055, ['Vegetarian'], [], 'Naan bread'),
   c('gulab-jamun', 'Gulab Jamun', 'Indian', 'Desserts', 'Medium', 20, 25, 8, 4.7, 1688, ['Vegetarian'], [], 'Gulab jamun'),
   c('mango-lassi', 'Mango Lassi', 'Indian', 'Drinks', 'Easy', 5, 0, 2, 4.8, 2277, ['Vegetarian', 'Gluten-Free'], [], 'Mango lassi'),
@@ -136,7 +136,7 @@ module.exports = [
   c('chicken-noodle-soup', 'Chicken Noodle Soup', 'American', 'Healthy', 'Easy', 15, 40, 6, 4.8, 3411, ['Dairy-Free'], [], 'Chicken noodle soup'),
   c('creamy-tomato-soup', 'Creamy Tomato Soup', 'American', 'Healthy', 'Easy', 10, 30, 4, 4.7, 2288, ['Vegetarian', 'Gluten-Free'], [], 'Tomato soup'),
   c('caesar-salad', 'Caesar Salad', 'American', 'Lunch', 'Easy', 20, 10, 4, 4.8, 3755, [], [], 'Caesar salad'),
-  c('cobb-salad', 'Cobb Salad', 'American', 'Healthy', 'Easy', 25, 15, 4, 4.7, 1866, ['Gluten-Free', 'Low-Carb', 'Keto'], [], 'Cobb salad'),
+  c('cobb-salad', 'Cobb Salad', 'American', 'Healthy', 'Easy', 25, 15, 4, 4.7, 1866, ['Gluten-Free', 'Keto'], [], 'Cobb salad'),
   c('buttermilk-pancakes', 'Fluffy Buttermilk Pancakes', 'American', 'Breakfast', 'Easy', 10, 15, 4, 4.9, 6244, ['Vegetarian'], ['editors', 'trending'], 'Pancakes'),
   c('eggs-benedict', 'Eggs Benedict', 'American', 'Breakfast', 'Hard', 20, 15, 2, 4.8, 2955, [], [], 'Eggs benedict'),
   c('french-toast', 'Brioche French Toast', 'American', 'Breakfast', 'Easy', 10, 15, 4, 4.8, 3477, ['Vegetarian'], [], 'French toast'),
@@ -159,12 +159,12 @@ module.exports = [
   c('gingerbread-cookies', 'Gingerbread Cookies', 'American', 'Holiday Specials', 'Easy', 30, 12, 24, 4.7, 2199, ['Vegetarian'], [], 'Gingerbread cookies'),
 
   /* ------------------------------------------------------------ Greek (8) */
-  c('greek-salad', 'Horiatiki Greek Salad', 'Greek', 'Healthy', 'Easy', 15, 0, 4, 4.8, 2966, ['Vegetarian', 'Gluten-Free', 'Low-Carb'], [], 'Greek salad'),
+  c('greek-salad', 'Horiatiki Greek Salad', 'Greek', 'Healthy', 'Easy', 15, 0, 4, 4.8, 2966, ['Vegetarian', 'Gluten-Free'], [], 'Greek salad'),
   c('moussaka', 'Moussaka', 'Greek', 'Dinner', 'Hard', 40, 75, 8, 4.8, 1877, [], ['editors'], 'Moussaka'),
   c('chicken-souvlaki', 'Chicken Souvlaki', 'Greek', 'Dinner', 'Easy', 20, 15, 4, 4.8, 2544, ['Gluten-Free', 'Dairy-Free'], [], 'Souvlaki'),
   c('gyros', 'Pork Gyros', 'Greek', 'Lunch', 'Medium', 25, 30, 4, 4.7, 2133, [], [], 'Gyros'),
   c('spanakopita', 'Spanakopita', 'Greek', 'Appetizers', 'Medium', 30, 45, 8, 4.7, 1466, ['Vegetarian'], [], 'Spanakopita'),
-  c('tzatziki', 'Tzatziki', 'Greek', 'Appetizers', 'Easy', 15, 0, 6, 4.8, 2277, ['Vegetarian', 'Gluten-Free', 'Low-Carb'], [], 'Tzatziki'),
+  c('tzatziki', 'Tzatziki', 'Greek', 'Appetizers', 'Easy', 15, 0, 6, 4.8, 2277, ['Vegetarian', 'Gluten-Free'], [], 'Tzatziki'),
   c('avgolemono-soup', 'Avgolemono Soup', 'Greek', 'Healthy', 'Easy', 10, 25, 4, 4.7, 1122, ['Gluten-Free', 'Dairy-Free'], [], 'Avgolemono soup'),
   c('baklava', 'Pistachio Baklava', 'Greek', 'Desserts', 'Medium', 40, 50, 24, 4.8, 2811, ['Vegetarian'], [], 'Baklava'),
 
@@ -173,7 +173,7 @@ module.exports = [
   c('thai-green-curry', 'Thai Green Curry', 'Thai', 'Dinner', 'Easy', 15, 25, 4, 4.8, 3244, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Thai green curry'),
   c('massaman-curry', 'Massaman Beef Curry', 'Thai', 'Dinner', 'Medium', 20, 90, 6, 4.8, 1622, ['Gluten-Free', 'Dairy-Free'], [], 'Massaman curry'),
   c('pad-kra-pao', 'Pad Kra Pao (Thai Basil Chicken)', 'Thai', 'Quick Meals', 'Easy', 10, 10, 2, 4.8, 2411, ['Dairy-Free'], [], 'Pad kra pao thai basil'),
-  c('tom-yum-goong', 'Tom Yum Goong', 'Thai', 'Healthy', 'Easy', 15, 20, 4, 4.8, 2166, ['Gluten-Free', 'Dairy-Free', 'Low-Carb'], [], 'Tom yum goong soup'),
+  c('tom-yum-goong', 'Tom Yum Goong', 'Thai', 'Healthy', 'Easy', 15, 20, 4, 4.8, 2166, ['Gluten-Free', 'Dairy-Free'], [], 'Tom yum goong soup'),
   c('tom-kha-gai', 'Tom Kha Gai', 'Thai', 'Healthy', 'Easy', 15, 20, 4, 4.7, 1755, ['Gluten-Free', 'Dairy-Free'], [], 'Tom kha gai'),
   c('som-tam', 'Som Tam (Green Papaya Salad)', 'Thai', 'Healthy', 'Easy', 20, 0, 4, 4.7, 1344, ['Gluten-Free', 'Dairy-Free'], [], 'Som tam papaya salad'),
   c('thai-fried-rice', 'Thai Pineapple Fried Rice', 'Thai', 'Quick Meals', 'Easy', 15, 12, 4, 4.6, 1588, ['Vegetarian', 'Dairy-Free'], [], 'Thai fried rice'),
@@ -186,7 +186,7 @@ module.exports = [
   c('baba-ganoush', 'Baba Ganoush', 'Middle Eastern', 'Appetizers', 'Easy', 15, 45, 6, 4.7, 1533, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Baba ganoush'),
   c('tabbouleh', 'Tabbouleh', 'Middle Eastern', 'Healthy', 'Easy', 25, 0, 6, 4.7, 1688, ['Vegan', 'Dairy-Free'], [], 'Tabbouleh salad'),
   c('fattoush', 'Fattoush Salad', 'Middle Eastern', 'Healthy', 'Easy', 20, 10, 4, 4.6, 1188, ['Vegan', 'Dairy-Free'], [], 'Fattoush'),
-  c('lamb-kofta-kebabs', 'Lamb Kofta Kebabs', 'Middle Eastern', 'Dinner', 'Easy', 20, 15, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free', 'Low-Carb'], [], 'Kofta kebab'),
+  c('lamb-kofta-kebabs', 'Lamb Kofta Kebabs', 'Middle Eastern', 'Dinner', 'Easy', 20, 15, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free'], [], 'Kofta kebab'),
   c('shakshuka', 'Shakshuka', 'Middle Eastern', 'Breakfast', 'Easy', 10, 25, 4, 4.9, 4188, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Shakshuka'),
   c('knafeh', 'Knafeh', 'Middle Eastern', 'Desserts', 'Medium', 25, 40, 12, 4.7, 1244, ['Vegetarian'], [], 'Knafeh dessert'),
 
@@ -238,7 +238,7 @@ module.exports = [
 
   /* -------------------------------------- Latin America & Caribbean (5) */
   c('feijoada', 'Feijoada Brasileira', 'Brazilian', 'Holiday Specials', 'Medium', 30, 150, 8, 4.7, 1244, ['Gluten-Free', 'Dairy-Free'], [], 'Feijoada'),
-  c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free', 'Low-Carb', 'Keto'], ['trending'], 'Ceviche'),
+  c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free', 'Keto'], ['trending'], 'Ceviche'),
   c('beef-empanadas', 'Beef Empanadas', 'Argentinian', 'Appetizers', 'Medium', 40, 25, 12, 4.8, 2133, [], [], 'Empanadas'),
   c('jerk-chicken', 'Jamaican Jerk Chicken', 'Jamaican', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Dairy-Free'], ['trending'], 'Jerk chicken'),
   c('cuban-sandwich', 'Cuban Sandwich', 'Cuban', 'Lunch', 'Easy', 15, 10, 4, 4.7, 1622, [], [], 'Cuban sandwich'),
@@ -249,7 +249,7 @@ module.exports = [
   c('koshari', 'Egyptian Koshari', 'Egyptian', 'Healthy', 'Medium', 25, 45, 6, 4.7, 1122, ['Vegan', 'Dairy-Free'], [], 'Koshari'),
 
   /* --------------------------------------------------------- Turkish (3) */
-  c('menemen', 'Menemen', 'Turkish', 'Breakfast', 'Easy', 10, 15, 2, 4.7, 1466, ['Vegetarian', 'Gluten-Free', 'Low-Carb'], [], 'Menemen turkish eggs'),
+  c('menemen', 'Menemen', 'Turkish', 'Breakfast', 'Easy', 10, 15, 2, 4.7, 1466, ['Vegetarian', 'Gluten-Free'], [], 'Menemen turkish eggs'),
   c('lahmacun', 'Lahmacun', 'Turkish', 'Baking', 'Medium', 40, 10, 6, 4.7, 1188, ['Dairy-Free'], [], 'Lahmacun'),
   c('turkish-coffee', 'Turkish Coffee', 'Turkish', 'Drinks', 'Easy', 5, 5, 2, 4.7, 1044, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Turkish coffee'),
 

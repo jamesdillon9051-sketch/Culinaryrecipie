@@ -164,13 +164,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/middle-eastern/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/greek/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/greek/</loc>
+    <loc>https://culinaryvault.netlify.app/cuisines/middle-eastern/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -290,6 +290,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/cuisines/lebanese/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/cuisines/pakistani/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -369,12 +375,6 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/cuisines/israeli/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/cuisines/lebanese/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -644,25 +644,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/beans/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://culinaryvault.netlify.app/ingredients/prawns/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/chocolate/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/beans/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/ingredients/lamb/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/ingredients/chocolate/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -686,13 +686,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/almonds/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/fish/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/fish/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/almonds/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -722,13 +722,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/aubergine/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/spinach/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/spinach/</loc>
+    <loc>https://culinaryvault.netlify.app/ingredients/aubergine/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -7356,6 +7356,66 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/savoury-cottage-cheese-bowl/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/egg-cottage-cheese-muffins/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/grilled-halloumi-salad/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/smoked-mackerel-pate/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/spiced-lamb-lettuce-cups/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/chicken-caesar-lettuce-cups/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/garlic-prawn-courgette-noodles/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/smoked-salmon-scrambled-eggs/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/seared-tuna-nicoise/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/cauliflower-chicken-fried-rice/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://culinaryvault.netlify.app/recipes/baked-eggs-spinach-feta/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

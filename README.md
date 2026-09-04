@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-612 recipes · 66 cuisines · 10 categories · 747 static pages · 0 npm dependencies
+622 recipes · 66 cuisines · 10 categories · 757 static pages · 0 npm dependencies
 ```
 
 ---
@@ -349,7 +349,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-579 of the 612 recipes have a photograph. Of the 820 images on the site, 663
+579 of the 622 recipes have a photograph. Of the 820 images on the site, 663
 are CC0 or public domain, 79 are CC BY and 78 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -409,9 +409,14 @@ reads each recipe's own protein figure and ingredient list and applies:
 - **High-Protein** at 30 g a serving or more — 245 recipes. The threshold is the
   one `src/lib/keywords.js` was already using for its "high protein X" keyword,
   because one number used twice beats two that disagree.
+- **Low-Carb** at 20 g of carbohydrate a serving or less — 114 recipes. This tag
+  used to be applied by hand to sixteen, one of which (ceviche, at 24 g) sat above
+  any reasonable line while a hundred others sat below it unmarked.
 - **No Added Sugar** when nothing in the ingredient list is sugar, honey, syrup,
-  jaggery or condensed milk — 314 recipes. `sugar snap peas` and `caramelised
+  jaggery or condensed milk — 324 recipes. `sugar snap peas` and `caramelised
   onions` are excluded by name; neither sweetens anything.
+
+43 recipes carry all three.
 
 The tag is deliberately **not** called Sugar-Free. Milk contains lactose, an
 onion contains sugar, and a pancake made with a banana is not sugar-free by any
@@ -428,6 +433,22 @@ also the first recipes on the site with **no rating**: the other 600 carry seede
 figures, and adding twelve more invented ones would have been a poor answer to
 having just documented that. They show "Not yet rated" and publish no
 `aggregateRating` until somebody rates them.
+
+### On diabetes
+
+There is no tag for it and there will not be one. Whether a meal suits someone
+managing diabetes depends on their medication, their carbohydrate ratios, the
+portion they eat and the rest of that day — it is a property of a person's
+circumstances, not of a recipe, and Diabetes UK is explicit that there is no such
+thing as a diabetic food. A site that labelled recipes "diabetes-safe" would be
+making a clinical judgement it is in no position to make, about a reader it has
+never met.
+
+What the site can honestly provide is the number carbohydrate counting actually
+uses. Every recipe prints carbohydrate per serving in its nutrition table and in
+its FAQ, `src/data/catalog-5.js` adds ten recipes at 14 g a serving or less, and
+the Low-Carb filter now covers 114 recipes instead of 16. The grams are the
+useful part; the label was never going to be.
 
 ## Diet tags
 
@@ -476,7 +497,7 @@ gazpacho or gets handed round with the prawns.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 612 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 622 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

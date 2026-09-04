@@ -41,11 +41,11 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 612 |
+| Recipes | 622 |
 | Hero images | 579 |
 | Secondary "process" images | 241 |
 | Total image files | 1640 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 33 |
+| Recipes using a gradient placeholder | 43 |
 
 ### Licences used
 
@@ -116,6 +116,16 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Chickpea Socca (`chickpea-socca`)
 - Lentil and Walnut Ragù (`lentil-walnut-ragu`)
 - Savoury Cottage Cheese Bowl (`savoury-cottage-cheese-bowl`)
+- Egg and Cottage Cheese Muffins (`egg-cottage-cheese-muffins`)
+- Grilled Halloumi and Herb Salad (`grilled-halloumi-salad`)
+- Smoked Mackerel Pâté (`smoked-mackerel-pate`)
+- Spiced Lamb Lettuce Cups (`spiced-lamb-lettuce-cups`)
+- Chicken Caesar Lettuce Cups (`chicken-caesar-lettuce-cups`)
+- Garlic Prawns with Courgette Noodles (`garlic-prawn-courgette-noodles`)
+- Smoked Salmon Scrambled Eggs (`smoked-salmon-scrambled-eggs`)
+- Seared Tuna Niçoise (`seared-tuna-nicoise`)
+- Chicken Cauliflower Fried Rice (`cauliflower-chicken-fried-rice`)
+- Baked Eggs with Spinach and Feta (`baked-eggs-spinach-feta`)
 
 ## Brand assets
 
