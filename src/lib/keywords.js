@@ -64,7 +64,9 @@ const DIET_WORD = {
   'Dairy-Free': 'dairy free',
   'Gluten-Free': 'gluten free',
   'Low-Carb': 'low carb',
-  'Keto': 'keto'
+  'Keto': 'keto',
+  'High-Protein': 'high protein',
+  'No Added Sugar': 'no added sugar'
 };
 
 /* Ingredients too common to identify anything. "Chicken thighs" is worth a

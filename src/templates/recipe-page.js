@@ -159,7 +159,7 @@ function recipeSchema(recipe) {
        is what SITE.unverifiedRatings governs — see the note on it in ./layout.js. */
     ...(published.aggregate
       ? { aggregateRating: published.aggregate, review: published.reviews }
-      : SITE.unverifiedRatings
+      : SITE.unverifiedRatings && recipe.reviews
         ? {
             aggregateRating: {
               '@type': 'AggregateRating',

@@ -1051,3 +1051,11 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   .print-only { display: block !important; }
 }
 .print-only { display: none; }
+
+/* A recipe with no ratings yet. No glyphs, because empty stars read as a bad
+   score rather than an absent one. */
+.stars--unrated b {
+  font-weight: 500;
+  font-size: .85em;
+  color: var(--text-soft, #6b7280);
+}

@@ -22,6 +22,7 @@ const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const publishedReviews = require('./data/reviews.json');
+const { derivedTags } = require('./lib/diet-derived');
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
         searchTerms } = require('./lib/keywords');
@@ -137,9 +138,9 @@ function loadRecipes() {
      directory. They are merged here so the rest of the build only ever sees
      one flat list of recipes. */
   const catalog = [...require('./data/catalog'), ...require('./data/catalog-2'),
-                   ...require('./data/catalog-3')];
+                   ...require('./data/catalog-3'), ...require('./data/catalog-4')];
   const details = {};
-  for (const dir of ['details', 'details2', 'details3']) {
+  for (const dir of ['details', 'details2', 'details3', 'details4']) {
     const detailsDir = path.join(SRC, 'data', dir);
     for (const file of fs.readdirSync(detailsDir).filter(f => f.endsWith('.js'))) {
       Object.assign(details, require(path.join(detailsDir, file)));
@@ -173,8 +174,14 @@ function loadRecipes() {
     const recency = row.badges.includes('new') ? index * 2 : 40 + index * 5;
     const published = EPOCH - recency * DAY;
 
+    /* Derived tags join the hand-written ones. They are computed from the
+       nutrition figures and ingredient list, so they cannot fall out of step
+       with the recipe the way the typed ones did. */
+    const tags = [...row.tags, ...derivedTags(detail).filter(tag => !row.tags.includes(tag))];
+
     const built = {
       ...row,
+      tags,
       totalTime: row.prep + row.cook,
       description: detail.d,
       meta: clamp(detail.meta, 158),

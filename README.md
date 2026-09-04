@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-600 recipes · 66 cuisines · 10 categories · 734 static pages · 0 npm dependencies
+612 recipes · 66 cuisines · 10 categories · 747 static pages · 0 npm dependencies
 ```
 
 ---
@@ -349,8 +349,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-578 of the 600 recipes have a photograph. Of the 819 images on the site, 663
-are CC0 or public domain, 79 are CC BY and 77 are CC BY-SA. Anything still
+579 of the 612 recipes have a photograph. Of the 820 images on the site, 663
+are CC0 or public domain, 79 are CC BY and 78 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -401,6 +401,34 @@ npm run images
 
 ---
 
+## High-protein and no-added-sugar
+
+Two of the diet tags are computed rather than typed. `src/lib/diet-derived.js`
+reads each recipe's own protein figure and ingredient list and applies:
+
+- **High-Protein** at 30 g a serving or more — 245 recipes. The threshold is the
+  one `src/lib/keywords.js` was already using for its "high protein X" keyword,
+  because one number used twice beats two that disagree.
+- **No Added Sugar** when nothing in the ingredient list is sugar, honey, syrup,
+  jaggery or condensed milk — 314 recipes. `sugar snap peas` and `caramelised
+  onions` are excluded by name; neither sweetens anything.
+
+The tag is deliberately **not** called Sugar-Free. Milk contains lactose, an
+onion contains sugar, and a pancake made with a banana is not sugar-free by any
+reading — the banana pancakes here list 14 g of sugar a serving and say where it
+came from. What a reader avoiding sugar can act on is whether the cook adds any,
+so that is what the tag reports.
+
+Being derived is the point. The six hand-written tags took three passes to bring
+into line with their ingredients; these two are recomputed from the data on every
+build and cannot drift.
+
+`src/data/catalog-4.js` adds twelve recipes written to those two briefs. They are
+also the first recipes on the site with **no rating**: the other 600 carry seeded
+figures, and adding twelve more invented ones would have been a poor answer to
+having just documented that. They show "Not yet rated" and publish no
+`aggregateRating` until somebody rates them.
+
 ## Diet tags
 
 `npm run diet` checks every recipe's diet tags against its own ingredient list —
@@ -448,7 +476,7 @@ gazpacho or gets handed round with the prawns.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 600 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 612 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

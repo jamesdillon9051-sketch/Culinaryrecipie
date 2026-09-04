@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 819
+Every photograph on CulinaryVault is freely licensed. Of 820
 images, **663** are CC0 or public domain and carry no conditions at all, and
-**156** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**157** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -41,11 +41,11 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 600 |
-| Hero images | 578 |
+| Recipes | 612 |
+| Hero images | 579 |
 | Secondary "process" images | 241 |
-| Total image files | 1638 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 22 |
+| Total image files | 1640 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 33 |
 
 ### Licences used
 
@@ -55,7 +55,7 @@ nothing than use an image we do not have clear rights to.
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
 | Public domain | 68 | No rights reserved — no attribution legally required |
 | CC BY 2.0 | 59 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 4.0 | 53 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 54 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 12 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 3.0 | 10 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -96,7 +96,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Greek Lemon Potatoes (`greek-lemon-potatoes`)
 - Greek Yoghurt with Honey and Walnuts (`greek-yogurt-honey`)
 - Israeli Couscous Salad (`israeli-couscous-salad`)
-- Halo-Halo (`halo-halo`)
 - Dulce de Leche (`dulce-de-leche`)
 - Jamaican Beef Patty (`jamaican-patty`)
 - Trinidadian Doubles (`doubles`)
@@ -105,6 +104,18 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Roasted Vegetable Buddha Bowl (`buddha-bowl`)
 - Cold Brew Coffee (`cold-brew-coffee`)
 - Shui Zhu Fish (`shui-zhu-fish`)
+- Chicken and Rice Protein Bowl (`chicken-rice-protein-bowl`)
+- Baked Salmon and Quinoa Bowl (`salmon-quinoa-bowl`)
+- Cottage Cheese Protein Pancakes (`cottage-cheese-pancakes`)
+- Tuna and White Bean Salad (`tuna-white-bean-salad`)
+- Tofu and Edamame Stir-Fry (`tofu-edamame-stir-fry`)
+- Yoghurt-Marinated Chicken Skewers (`yogurt-marinated-chicken-skewers`)
+- Banana Oat Pancakes (`banana-oat-pancakes`)
+- Roasted Tomato and Basil Soup (`roasted-tomato-basil-soup`)
+- Baked Cinnamon Apples (`baked-cinnamon-apples`)
+- Chickpea Socca (`chickpea-socca`)
+- Lentil and Walnut Ragù (`lentil-walnut-ragu`)
+- Savoury Cottage Cheese Bowl (`savoury-cottage-cheese-bowl`)
 
 ## Brand assets
 
@@ -867,6 +878,7 @@ licence as the rest of this project.
 | `lechon-kawali.webp` / `.jpg` | Lechon Kawali | Hero | Lechon Kawali - BRUHA 2024-05-23 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lechon_Kawali_-_BRUHA_2024-05-23.jpg) |
 | `lechon-kawali-process.webp` / `.jpg` | Lechon Kawali | Process | Kare-kareng lechon kawali | YaelSolis | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kare-kareng_lechon_kawali.jpg) |
 | `pancit-canton.webp` / `.jpg` | Pancit Canton | Hero | 6365Ginisang Suwáhe, Manok at Pancit Canton 01 | JFVelasquez Floro | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:6365Ginisang_Suw%C3%A1he,_Manok_at_Pancit_Canton_01.jpg) |
+| `halo-halo.webp` / `.jpg` | Halo-Halo | Hero | A glass of Halo-Halo (shaved or crushed ice dessert in the Philippines) | Asecretfanfare | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_glass_of_Halo-Halo_(shaved_or_crushed_ice_dessert_in_the_Philippines).jpg) |
 | `ropa-vieja.webp` / `.jpg` | Ropa Vieja | Hero | Ropa viecha 2 | Sarang | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ropa_viecha_2.jpg) |
 | `bandeja-paisa.webp` / `.jpg` | Bandeja Paisa | Hero | Bandeja paisa, plato Colombiano | Wilfredor | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandeja_paisa,_plato_Colombiano.jpg) |
 | `bandeja-paisa-process.webp` / `.jpg` | Bandeja Paisa | Process | Bandeja Paisa (Bogotá) | Edgar Zuniga Jr. | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandeja_Paisa_(Bogot%C3%A1).jpg) |

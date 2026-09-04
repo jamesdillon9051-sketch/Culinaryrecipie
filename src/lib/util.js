@@ -52,6 +52,13 @@ function clamp(text, max) {
 
 /** Star rating markup used on cards and recipe headers. */
 function starsHtml(rating, reviews) {
+  /* A recipe nobody has rated is not a recipe rated zero. Printing "0.0" beside
+     five empty stars says the readers hated it; this says what is true, which is
+     that no one has said anything yet. */
+  if (!rating) {
+    return '<span class="stars stars--unrated"><b>Not yet rated</b>'
+      + '<span class="sr-only">This recipe has no ratings yet</span></span>';
+  }
   const pct = (rating / 5) * 100;
   return `<span class="stars">` +
     `<span class="stars-glyphs" aria-hidden="true">★★★★★<span style="width:${pct.toFixed(1)}%">★★★★★</span></span>` +
@@ -144,7 +151,12 @@ const CATEGORIES = {
   'Holiday Specials': 'Centrepieces and celebration dishes for the days that matter.'
 };
 
-const DIET_TAGS = ['Vegetarian', 'Vegan', 'Gluten-Free', 'Keto', 'Dairy-Free', 'Low-Carb'];
+const DIET_TAGS = ['Vegetarian', 'Vegan', 'Gluten-Free', 'Keto', 'Dairy-Free', 'Low-Carb',
+  /* Derived at build time from the nutrition and ingredients — see
+     ./diet-derived.js. "No Added Sugar" rather than "Sugar-Free", because a
+     recipe with milk or fruit in it is not sugar-free and saying so would be
+     the kind of claim this site has spent a while removing. */
+  'High-Protein', 'No Added Sugar'];
 
 /** "1 recipe" but "4 recipes" — the count is often 1 on a small cuisine. */
 function plural(n, singular, pluralForm) {
