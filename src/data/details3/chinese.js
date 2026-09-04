@@ -326,6 +326,7 @@ module.exports = {
   },
 
   'turnip-cake': {
+    rest: [480, 'chilling'],
     d: 'Grated daikon bound with rice flour and studded with dried shrimp, Chinese sausage and mushroom, steamed into a loaf and then pan-fried in slices until crisp. A dim sum trolley regular and a Lunar New Year staple.',
     meta: 'Lo bak go — steamed daikon and rice flour cake with dried shrimp and lap cheong, pan-fried crisp in slices.',
     kw: ['turnip cake recipe', 'lo bak go', 'daikon cake', 'dim sum radish cake'],

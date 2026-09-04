@@ -343,7 +343,7 @@ function card(recipe, options = {}) {
     <p>${esc(recipe.cardBlurb)}</p>
     <div class="card-foot">
       ${starsHtml(recipe.rating, recipe.reviews)}
-      <span class="card-meta">${ICONS.clock}${recipe.totalTime} min <i>&middot;</i> ${esc(recipe.difficulty)}</span>
+      <span class="card-meta">${ICONS.clock}${recipe.totalTime} min${recipe.restTime ? ' + rest' : ''} <i>&middot;</i> ${esc(recipe.difficulty)}</span>
     </div>
   </div>
 </article>`;

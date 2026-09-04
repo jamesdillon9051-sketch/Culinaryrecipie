@@ -325,6 +325,7 @@ module.exports = {
   },
 
   'cannoli': {
+    rest: [540, 'draining'],
     d: 'Blistered fried shells filled to order with sweetened sheep\'s-milk ricotta and candied peel. Filling them any earlier than the moment they are eaten is the one thing Sicilians will not forgive.',
     meta: 'Sicilian cannoli with blistered fried shells and sweet ricotta filling. Fill to order — here is why it matters.',
     kw: ['cannoli recipe', 'sicilian cannoli', 'ricotta dessert', 'italian pastry'],
@@ -370,6 +371,7 @@ module.exports = {
   },
 
   'tiramisu-gelato': {
+    rest: [540, 'chilling'],
     d: 'Proper Italian gelato: less fat, less air and served warmer than ice cream, which is why it tastes so much more intensely of what is in it. This vanilla base takes any flavour you like.',
     meta: 'Authentic Italian vanilla gelato — denser and more intensely flavoured than ice cream. Full custard method.',
     kw: ['gelato recipe', 'italian gelato', 'vanilla gelato', 'homemade ice cream'],

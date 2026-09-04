@@ -84,6 +84,7 @@ module.exports = {
   },
 
   'pretzel-brezel': {
+    rest: [90, 'proving'],
     d: 'The Bavarian shape: fat belly, thin crossed arms, split along the base as it bakes, with coarse salt on the dark lye crust.',
     meta: 'Bavarian brezel — lye-dipped pretzels with a fat belly, thin arms and a dark, salted crust.',
     kw: ['bavarian pretzel recipe', 'brezel', 'lye pretzel', 'german soft pretzel'],
@@ -119,10 +120,11 @@ module.exports = {
     ],
     pair: ['Obatzda or butter', 'Weisswurst and sweet mustard', 'A wheat beer'],
     store: 'Best within hours. Refresh at 180C fan for 4 minutes, or freeze baked for 1 month.',
-    nut: [242, 4, 46, 7, 2, 1, 1180]
+    nut: [263, 4, 46, 7, 2, 1, 1180]
   },
 
   'apple-strudel': {
+    rest: [60, 'resting'],
     d: 'Pastry stretched until a newspaper can be read through it, rolled around spiced apples, breadcrumbs and raisins, and baked until the layers shatter.',
     meta: 'Apple strudel — hand-stretched pastry rolled around spiced apples, raisins and buttered breadcrumbs.',
     kw: ['apple strudel recipe', 'apfelstrudel', 'austrian strudel', 'stretched strudel dough'],
@@ -169,6 +171,7 @@ module.exports = {
   },
 
   'sachertorte': {
+    rest: [180, 'resting'],
     d: 'Dense chocolate sponge split and layered with apricot jam, then coated in a poured chocolate glaze that sets to a hard, glossy shell.',
     meta: 'Sachertorte — dense chocolate sponge with apricot jam under a poured chocolate glaze that sets hard.',
     kw: ['sachertorte recipe', 'austrian chocolate cake', 'apricot chocolate cake', 'viennese torte'],
@@ -213,7 +216,7 @@ module.exports = {
     ],
     pair: ['Unsweetened whipped cream', 'A Viennese melange', 'A glass of dessert wine'],
     store: 'Keeps 5 days at room temperature under a dome. Do not refrigerate.',
-    nut: [486, 26, 62, 6, 3, 48, 120]
+    nut: [406, 26, 62, 6, 3, 48, 120]
   },
 
   'kaiserschmarrn': {
@@ -301,6 +304,7 @@ module.exports = {
   },
 
   'rosti': {
+    rest: [360, 'draining'],
     d: 'Grated potato pressed into a pan and fried slowly in butter until a deep golden crust forms on both sides and the middle stays soft.',
     meta: 'Rösti — grated potato fried slowly in butter until a deep golden crust forms on both sides.',
     kw: ['rosti recipe', 'swiss potato cake', 'crispy grated potato', 'rosti breakfast'],
@@ -333,7 +337,7 @@ module.exports = {
     ],
     pair: ['A fried egg and bacon', 'Smoked salmon and soured cream', 'Zürcher Geschnetzeltes'],
     store: 'Refrigerate 2 days and recrisp in a dry pan. Freezes 1 month, cooked.',
-    nut: [386, 22, 42, 8, 4, 3, 880]
+    nut: [328, 22, 42, 8, 4, 3, 880]
   },
 
   'raclette': {
@@ -374,6 +378,7 @@ module.exports = {
   },
 
   'belgian-waffles': {
+    rest: [90, 'resting'],
     d: 'Yeast-raised Brussels waffles: tall, rectangular, crisp on the outside and hollow-light inside, dusted with icing sugar.',
     meta: 'Belgian waffles — yeast-raised Brussels waffles, crisp outside and light inside, dusted with icing sugar.',
     kw: ['belgian waffle recipe', 'brussels waffles', 'yeast waffles', 'crispy waffles'],
@@ -410,7 +415,7 @@ module.exports = {
     ],
     pair: ['Whipped cream and strawberries', 'Melted dark chocolate', 'Strong coffee'],
     store: 'Cool completely and freeze 2 months. Reheat from frozen in a toaster.',
-    nut: [412, 22, 44, 9, 2, 12, 320]
+    nut: [345, 22, 44, 9, 2, 12, 320]
   },
 
   'carbonnade-flamande': {
@@ -454,10 +459,11 @@ module.exports = {
     ],
     pair: ['Belgian frites with mayonnaise', 'The same brown ale', 'Buttered noodles'],
     store: 'Refrigerate up to 4 days, better on day two, and freeze 3 months.',
-    nut: [686, 32, 42, 48, 4, 14, 1240]
+    nut: [728, 32, 42, 48, 4, 14, 1240]
   },
 
   'belgian-frites': {
+    rest: [60, 'soaking'],
     d: 'Fried twice in beef dripping — once low to cook, once hot to crisp — and served in a paper cone with mayonnaise.',
     meta: 'Belgian frites — potatoes fried twice, low then hot, for a crisp shell and a fluffy middle.',
     kw: ['belgian frites recipe', 'double fried chips', 'best french fries', 'frites with mayonnaise'],
@@ -490,7 +496,7 @@ module.exports = {
     ],
     pair: ['Homemade mayonnaise or andalouse sauce', 'Carbonnade flamande', 'A Belgian blonde beer'],
     store: 'Eat immediately. The blanched chips can be refrigerated 24 hours or frozen before the second fry.',
-    nut: [486, 28, 52, 6, 5, 2, 620]
+    nut: [374, 28, 52, 6, 5, 2, 620]
   },
 
   'stroopwafel': {
@@ -534,10 +540,11 @@ module.exports = {
     ],
     pair: ['A mug of strong coffee', 'Hot chocolate', 'Vanilla ice cream'],
     store: 'Airtight at room temperature for 1 week. Do not refrigerate — the syrup sets hard.',
-    nut: [286, 14, 38, 3, 1, 22, 180]
+    nut: [235, 14, 38, 3, 1, 22, 180]
   },
 
   'bitterballen': {
+    rest: [270, 'chilling'],
     d: 'A stiff beef ragout chilled solid, rolled into balls, breadcrumbed and deep fried until the outside is crisp and the inside is molten.',
     meta: 'Bitterballen — Dutch beef ragout croquettes, crisp outside and molten inside, with mustard.',
     kw: ['bitterballen recipe', 'dutch croquettes', 'beef ragout balls', 'dutch bar snack'],
@@ -579,10 +586,11 @@ module.exports = {
     ],
     pair: ['Grainy Dutch mustard', 'A cold pilsner', 'A jenever'],
     store: 'Freeze coated and uncooked for 2 months; fry from frozen at 170C for 6 minutes.',
-    nut: [148, 9, 11, 6, 1, 1, 320]
+    nut: [134, 9, 11, 6, 1, 1, 320]
   },
 
   'poffertjes': {
+    rest: [60, 'proving'],
     d: 'Tiny yeasted buckwheat pancakes cooked in a dimpled pan, served in a heap with a lump of butter melting over them and a snowfall of icing sugar.',
     meta: 'Poffertjes — tiny Dutch yeasted buckwheat pancakes with melting butter and icing sugar.',
     kw: ['poffertjes recipe', 'dutch mini pancakes', 'buckwheat pancakes', 'poffertjes pan'],

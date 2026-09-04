@@ -3,6 +3,7 @@
 
 module.exports = {
   'chicken-tagine-olives': {
+    rest: [60, 'resting'],
     d: 'Chicken cooked slowly with preserved lemon, green olives, ginger and saffron until the sauce reduces to a thick, salty-sour glaze.',
     meta: 'Chicken tagine with olives — slow cooked with preserved lemon, green olives, ginger and saffron.',
     kw: ['chicken tagine recipe', 'moroccan chicken with olives', 'preserved lemon tagine', 'djaj mqualli'],
@@ -44,7 +45,7 @@ module.exports = {
     ],
     pair: ['Warm flatbread or couscous', 'A tomato and pepper salad', 'Mint tea'],
     store: 'Refrigerate up to 3 days and freeze 2 months. Reheat gently in the sauce.',
-    nut: [548, 34, 12, 44, 3, 4, 1320]
+    nut: [580, 34, 12, 44, 3, 4, 1320]
   },
 
   'msemen': {
@@ -85,7 +86,7 @@ module.exports = {
     ],
     pair: ['Honey and butter', 'Amlou almond spread', 'Mint tea'],
     store: 'Best hot. Freeze between sheets of paper for 2 months and reheat in a dry pan.',
-    nut: [386, 18, 48, 8, 3, 3, 320]
+    nut: [336, 18, 48, 8, 3, 3, 320]
   },
 
   'moroccan-mint-tea': {
@@ -165,7 +166,7 @@ module.exports = {
     ],
     pair: ['Egyptian rice', 'Roast or grilled chicken', 'Lemon and vinegared onion'],
     store: 'Refrigerate up to 2 days. Reheat below a simmer only; boiling ruins it permanently.',
-    nut: [486, 26, 32, 34, 6, 3, 1420]
+    nut: [538, 26, 32, 34, 6, 3, 1420]
   },
 
   'brik': {

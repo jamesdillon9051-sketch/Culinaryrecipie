@@ -2,6 +2,7 @@
 
 module.exports = {
   'chicken-pot-pie': {
+    rest: [60, 'chilling'],
     d: 'Chicken and vegetables in a velvety sauce under an all-butter pastry lid that shatters when you break through it. The American comfort dish, and a masterclass in how to keep pastry crisp over a wet filling.',
     meta: 'Classic chicken pot pie with a creamy chicken and vegetable filling under a crisp all-butter pastry lid.',
     kw: ['chicken pot pie recipe', 'homemade pot pie', 'american comfort food', 'chicken pie with pastry'],
@@ -285,6 +286,7 @@ module.exports = {
   },
 
   'lobster-roll': {
+    rest: [60, 'chilling'],
     d: 'Maine lobster, barely dressed with mayonnaise, lemon and celery, piled into a split-top bun griddled in butter on both flat sides. Restraint is the recipe: anything that hides the lobster is a mistake.',
     meta: 'Maine lobster roll — lightly dressed lobster in a butter-griddled split-top bun. Minimal, cold, perfect.',
     kw: ['lobster roll recipe', 'maine lobster roll', 'new england lobster', 'split top bun'],

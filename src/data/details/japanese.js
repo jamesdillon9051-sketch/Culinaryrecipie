@@ -2,6 +2,7 @@
 
 module.exports = {
   'tonkotsu-ramen': {
+    rest: [240, 'marinating'],
     d: 'The milky, collagen-heavy pork broth that made Hakata famous, boiled hard for eight hours until the fat and gelatine emulsify into something that coats the lips. Paired with chashu pork, a jammy ajitama egg and thin, straight noodles.',
     meta: 'Authentic tonkotsu ramen with an 8-hour emulsified pork broth, chashu, ajitama egg and thin Hakata-style noodles.',
     kw: ['tonkotsu ramen recipe', 'japanese pork broth', 'homemade ramen', 'chashu pork'],
@@ -416,6 +417,7 @@ module.exports = {
   },
 
   'japanese-cheesecake': {
+    rest: [150, 'chilling'],
     d: 'The jiggly cotton cheesecake — somewhere between a soufflé and a sponge, barely sweet, and impossibly light. It rises like a soufflé but, thanks to the water bath, it does not collapse.',
     meta: 'Jiggly Japanese cotton cheesecake — light as a soufflé, barely sweet, baked in a water bath so it never cracks.',
     kw: ['japanese cheesecake recipe', 'cotton cheesecake', 'jiggly cheesecake', 'souffle cheesecake'],

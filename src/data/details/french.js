@@ -48,6 +48,7 @@ module.exports = {
   },
 
   'coq-au-vin': {
+    rest: [480, 'marinating'],
     d: 'Chicken braised in red wine with lardons, mushrooms and pearl onions — the rustic cousin of bourguignon, and faster. Marinating the bird overnight in wine gives the sauce its dark, glossy depth.',
     meta: 'Traditional coq au vin with wine-marinated chicken, lardons and pearl onions in a glossy, reduced red wine sauce.',
     kw: ['coq au vin recipe', 'french chicken in wine', 'braised chicken recipe', 'classic french dinner'],
@@ -304,6 +305,7 @@ module.exports = {
   },
 
   'quiche-lorraine': {
+    rest: [90, 'chilling'],
     d: 'The original quiche has no cheese in it, and once you taste this custard — barely set, heavy on cream, studded with smoky lardons — you will understand why. The blind-baked pastry shell is the difference between a quiche and a sad, wet tart.',
     meta: 'Authentic quiche Lorraine with a crisp blind-baked shell and a barely set cream custard studded with smoky lardons.',
     kw: ['quiche lorraine recipe', 'french quiche', 'bacon quiche', 'blind bake pastry'],
@@ -391,6 +393,7 @@ module.exports = {
   },
 
   'croissants': {
+    rest: [645, 'chilling'],
     d: 'Genuinely laminated croissants with a honeycomb interior and a shattering shell — 27 layers of butter folded into dough over two days. It is a project, but the technique is entirely learnable and the result is unbuyable outside France.',
     meta: 'Laminated butter croissants with a honeycomb crumb and shattering crust. The full two-day method, explained step by step.',
     kw: ['croissant recipe', 'homemade croissants', 'laminated dough', 'french pastry'],
@@ -430,6 +433,7 @@ module.exports = {
   },
 
   'baguette': {
+    rest: [885, 'resting'],
     d: 'A true baguette de tradition: four ingredients, a long cold ferment, and a crust that crackles audibly as it cools. Steam in the first minutes of baking is the secret nobody tells you about.',
     meta: 'Crackling French baguettes from four ingredients and an overnight ferment, with the home-oven steam trick that makes the crust.',
     kw: ['baguette recipe', 'french bread', 'homemade baguette', 'crusty bread recipe'],
@@ -467,6 +471,7 @@ module.exports = {
   },
 
   'eclairs': {
+    rest: [180, 'chilling'],
     d: 'Crisp choux shells, split and piped full of vanilla crème pâtissière, capped with a dark chocolate glaze that sets to a shine. Choux is far easier than its reputation suggests once you understand what the eggs are actually doing.',
     meta: 'Classic chocolate éclairs with crisp choux shells, vanilla crème pâtissière and a glossy dark chocolate glaze.',
     kw: ['eclair recipe', 'chocolate eclairs', 'choux pastry', 'creme patissiere'],
@@ -554,6 +559,7 @@ module.exports = {
   },
 
   'creme-brulee': {
+    rest: [240, 'chilling'],
     d: 'A vanilla custard so smooth it barely holds a spoon, under a sheet of caramel thin enough to crack with a tap. The water bath and a low oven are what separate silk from scrambled egg.',
     meta: 'Silky vanilla crème brûlée with a glass-thin caramel top. The water-bath method that guarantees a flawless custard.',
     kw: ['creme brulee recipe', 'vanilla custard dessert', 'french dessert', 'gluten free dessert'],

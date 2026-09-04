@@ -52,6 +52,7 @@ module.exports = {
   },
 
   'zurek': {
+    rest: [7200, 'fermenting'],
     d: 'Sour rye soup made from a fermented starter, with white sausage, potatoes, marjoram and a halved boiled egg, sometimes served in a bread bowl.',
     meta: 'Żurek — Polish sour rye soup with white sausage, potato, marjoram and boiled egg.',
     kw: ['zurek recipe', 'polish sour rye soup', 'zakwas starter', 'white borscht'],
@@ -149,6 +150,7 @@ module.exports = {
   },
 
   'trdelnik': {
+    rest: [60, 'proving'],
     d: 'Sweet dough wound around a wooden spit, rolled in sugar and nuts and turned over coals until the outside caramelises into a crisp shell.',
     meta: 'Trdelník — Czech spit cake of sweet dough rolled in sugar and walnuts and turned until caramelised.',
     kw: ['trdelnik recipe', 'czech chimney cake', 'spit cake', 'sugar and walnut pastry'],
@@ -186,7 +188,7 @@ module.exports = {
     ],
     pair: ['Hot mulled wine', 'A scoop of ice cream inside', 'Strong coffee'],
     store: 'Eat within an hour of cooking. The dough can be made a day ahead and refrigerated.',
-    nut: [486, 20, 68, 9, 3, 32, 320]
+    nut: [433, 20, 68, 9, 3, 32, 320]
   },
 
   'pelmeni': {
@@ -281,6 +283,7 @@ module.exports = {
   },
 
   'langos': {
+    rest: [60, 'proving'],
     d: 'Deep-fried yeasted flatbread, stretched thin in the middle, rubbed with raw garlic and covered with soured cream and grated cheese.',
     meta: 'Lángos — Hungarian deep-fried flatbread rubbed with garlic and topped with soured cream and cheese.',
     kw: ['langos recipe', 'hungarian fried bread', 'garlic fried dough', 'street food flatbread'],
@@ -317,10 +320,11 @@ module.exports = {
     ],
     pair: ['Soured cream and grated cheese', 'A cold beer', 'Pickled peppers'],
     store: 'Eat immediately. The dough can be proved in the fridge overnight.',
-    nut: [648, 38, 58, 18, 3, 5, 1180]
+    nut: [546, 38, 58, 18, 3, 5, 1180]
   },
 
   'sarmale': {
+    rest: [60, 'resting'],
     d: 'Pickled cabbage leaves rolled around pork, rice and dill, layered in a pot with smoked meat and cooked slowly for hours.',
     meta: 'Sarmale — Romanian cabbage rolls of pork, rice and dill cooked slowly with smoked meat.',
     kw: ['sarmale recipe', 'romanian cabbage rolls', 'stuffed cabbage', 'pork and rice rolls'],
@@ -371,6 +375,7 @@ module.exports = {
   },
 
   'mici': {
+    rest: [480, 'chilling'],
     d: 'Skinless grilled sausages of beef and lamb, worked with garlic, bicarbonate of soda and stock until springy, and grilled hard over coals.',
     meta: 'Mici — Romanian skinless grilled sausages of beef and lamb with garlic and a springy texture.',
     kw: ['mici recipe', 'mititei', 'romanian grilled sausages', 'skinless sausage'],
@@ -412,6 +417,7 @@ module.exports = {
   },
 
   'khachapuri': {
+    rest: [60, 'proving'],
     d: 'A boat of bread filled with molten cheese, with an egg yolk and a knob of butter dropped in at the end and stirred through at the table.',
     meta: 'Adjaruli khachapuri — a Georgian bread boat of molten cheese finished with an egg yolk and butter.',
     kw: ['khachapuri recipe', 'adjaruli khachapuri', 'georgian cheese bread', 'cheese boat bread'],
@@ -458,6 +464,7 @@ module.exports = {
   },
 
   'khinkali': {
+    rest: [70, 'resting'],
     d: 'Large pleated Georgian dumplings with a soupy meat filling, held by the twisted knot and eaten in one go, with the knot left on the plate.',
     meta: 'Khinkali — large pleated Georgian dumplings with a soupy meat filling and a thick twisted knot.',
     kw: ['khinkali recipe', 'georgian dumplings', 'soup dumplings', 'pleated dumpling'],
@@ -500,7 +507,7 @@ module.exports = {
     ],
     pair: ['A Georgian red such as Saperavi', 'Coarse black pepper', 'Pickled vegetables'],
     store: 'Freeze raw on trays for 3 months and boil from frozen, adding 3 minutes.',
-    nut: [586, 24, 62, 32, 3, 3, 1240]
+    nut: [632, 24, 62, 32, 3, 3, 1240]
   },
 
   'lobio': {

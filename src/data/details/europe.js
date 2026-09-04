@@ -45,6 +45,7 @@ module.exports = {
   },
 
   'gazpacho': {
+    rest: [210, 'chilling'],
     d: 'A cold Andalusian soup of raw tomatoes, cucumber, pepper and bread blitzed with sherry vinegar and olive oil until it emulsifies into something silky and coral pink. Ripe tomatoes are non-negotiable.',
     meta: 'Silky Andalusian gazpacho blended with bread and olive oil for a proper emulsion. Vegan, raw and deeply refreshing.',
     kw: ['gazpacho recipe', 'cold tomato soup', 'spanish summer soup', 'vegan soup'],
@@ -204,6 +205,7 @@ module.exports = {
   },
 
   'sangria': {
+    rest: [240, 'chilling'],
     d: 'Spanish red wine steeped overnight with brandy, citrus and stone fruit, topped with soda only at the moment of serving. The overnight rest is what turns it from wine with fruit in it into sangria.',
     meta: 'Classic Spanish red sangria with brandy, citrus and stone fruit, rested overnight for proper depth of flavour.',
     kw: ['sangria recipe', 'spanish red sangria', 'summer punch', 'wine cocktail'],
@@ -340,6 +342,7 @@ module.exports = {
   },
 
   'beef-wellington': {
+    rest: [90, 'resting'],
     d: 'Fillet of beef wrapped in mushroom duxelles and prosciutto, encased in puff pastry and baked until the pastry is bronzed and the beef is a perfect blushing pink. The dish for the occasion that matters.',
     meta: 'Beef Wellington with mushroom duxelles, prosciutto and puff pastry, cooked to a perfect blushing pink centre.',
     kw: ['beef wellington recipe', 'christmas dinner recipe', 'mushroom duxelles', 'special occasion beef'],
@@ -603,6 +606,7 @@ module.exports = {
   },
 
   'soft-pretzels': {
+    rest: [90, 'proving'],
     d: 'Chewy, deep-mahogany Bavarian pretzels with a distinct alkaline tang, from a food-grade lye or baking soda bath. Best eaten warm within the hour, with mustard and butter.',
     meta: 'Bavarian soft pretzels with a chewy crust and true alkaline tang. Both the lye and baking-soda methods explained.',
     kw: ['soft pretzel recipe', 'bavarian pretzel', 'lye bath pretzels', 'german baking'],
@@ -645,6 +649,7 @@ module.exports = {
   },
 
   'black-forest-cake': {
+    rest: [240, 'chilling'],
     d: 'Chocolate sponge soaked in kirsch, layered with sour cherries and unsweetened whipped cream, finished with chocolate curls. The kirsch is not optional in Germany — it is legally part of the definition.',
     meta: 'Authentic Schwarzwälder Kirschtorte with kirsch-soaked chocolate sponge, sour cherries and whipped cream.',
     kw: ['black forest cake recipe', 'schwarzwalder kirschtorte', 'cherry chocolate cake', 'german dessert'],

@@ -2,6 +2,7 @@
 
 module.exports = {
   'salmorejo': {
+    rest: [180, 'chilling'],
     d: 'Córdoba\'s thicker, richer answer to gazpacho: tomatoes, bread, garlic and a great deal of olive oil blended into a smooth orange cream, served cold under chopped egg and jamón.',
     meta: 'Salmorejo cordobés — thick chilled tomato and bread cream with olive oil, topped with egg and jamón.',
     kw: ['salmorejo recipe', 'spanish cold soup', 'cordoba tomato soup', 'thick gazpacho'],
@@ -273,6 +274,7 @@ module.exports = {
   },
 
   'piri-piri-chicken': {
+    rest: [240, 'chilling'],
     d: 'Spatchcocked chicken marinated in a fiery bird\'s eye chilli, garlic and vinegar sauce, grilled hard and basted throughout. Portuguese-Angolan in origin, and the reason a certain restaurant chain exists.',
     meta: 'Piri piri chicken — spatchcocked and marinated in bird\'s eye chilli, garlic and lemon, then grilled and basted.',
     kw: ['piri piri chicken recipe', 'peri peri chicken', 'portuguese grilled chicken', 'nandos copycat'],

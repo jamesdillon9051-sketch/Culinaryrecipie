@@ -99,6 +99,7 @@ module.exports = {
   },
 
   'cornish-pasty': {
+    rest: [120, 'chilling'],
     d: 'Beef skirt, potato, swede and onion, all raw, sealed in shortcrust and baked for nearly an hour so everything cooks in its own steam. The crimp goes on the side, and that is protected by law.',
     meta: 'Traditional Cornish pasty with raw beef skirt, potato, swede and onion in shortcrust, crimped on the side.',
     kw: ['cornish pasty recipe', 'traditional pasty', 'beef pasty', 'how to crimp a pasty'],
@@ -321,6 +322,7 @@ module.exports = {
   },
 
   'bakewell-tart': {
+    rest: [90, 'chilling'],
     d: 'Shortcrust filled with raspberry jam and frangipane, baked until the almond filling is set and golden, and finished with flaked almonds or a feathered icing. Derbyshire\'s gift to the tea table.',
     meta: 'Bakewell tart — shortcrust with raspberry jam and almond frangipane, baked golden and topped with flaked almonds.',
     kw: ['bakewell tart recipe', 'frangipane tart', 'almond tart', 'british baking classic'],

@@ -3,6 +3,7 @@
 
 module.exports = {
   'ribollita': {
+    rest: [60, 'resting'],
     d: 'Tuscan bread soup: cannellini beans, cavolo nero and soffritto cooked down, thickened with stale bread and then reboiled the next day.',
     meta: 'Ribollita — Tuscan bean and cavolo nero soup thickened with stale bread and reboiled the next day.',
     kw: ['ribollita recipe', 'tuscan bread soup', 'cavolo nero soup', 'vegan italian soup'],
@@ -150,7 +151,7 @@ module.exports = {
     ],
     pair: ['A wedge of lemon', 'Flatbread', 'Iced green tea'],
     store: 'Components keep 4 days refrigerated. The dressing thickens; loosen with water.',
-    nut: [742, 42, 72, 22, 16, 12, 1080]
+    nut: [654, 42, 72, 22, 16, 12, 1080]
   },
 
   'affogato': {
@@ -231,6 +232,7 @@ module.exports = {
   },
 
   'cold-brew-coffee': {
+    rest: [960, 'steeping'],
     d: 'Coarse coffee steeped in cold water for eighteen hours and filtered, giving a concentrate that is smooth, low in acid and keeps for a fortnight.',
     meta: 'Cold brew coffee — coarse coffee steeped in cold water for 18 hours to a smooth, low acid concentrate.',
     kw: ['cold brew coffee recipe', 'cold brew concentrate', 'iced coffee', 'how to make cold brew'],
@@ -263,6 +265,6 @@ module.exports = {
     ],
     pair: ['A splash of oat milk', 'Buttered toast', 'A pastry'],
     store: 'The concentrate keeps 2 weeks refrigerated in a sealed bottle. Dilute to order.',
-    nut: [8, 0, 1, 1, 0, 0, 10]
+    nut: [13, 0, 1, 1, 0, 0, 10]
   }
 };

@@ -44,7 +44,7 @@ module.exports = {
     ],
     pair: ['Steamed jasmine rice', 'Sliced cucumber', 'A clear soup'],
     store: 'Refrigerate up to 3 days, better on day two. Reheat gently with a splash of water.',
-    nut: [386, 12, 22, 42, 1, 18, 1680]
+    nut: [514, 12, 22, 42, 1, 18, 1680]
   },
 
   'beef-noodle-soup': {
@@ -98,7 +98,7 @@ module.exports = {
     ],
     pair: ['Pickled mustard greens', 'A cold Taiwan beer', 'Smashed cucumber salad'],
     store: 'Refrigerate up to 4 days, freeze 3 months. Cook fresh noodles each time.',
-    nut: [742, 28, 68, 54, 4, 12, 2180]
+    nut: [870, 28, 68, 54, 4, 12, 2180]
   },
 
   'lu-rou-fan': {
@@ -147,6 +147,7 @@ module.exports = {
   },
 
   'popcorn-chicken-taiwanese': {
+    rest: [120, 'chilling'],
     d: 'Marinated chicken chunks coated in sweet potato starch, fried twice, and tossed with salt, white pepper and fried basil leaves.',
     meta: 'Taiwanese popcorn chicken — sweet potato starch coated chicken fried twice with basil and white pepper.',
     kw: ['taiwanese popcorn chicken recipe', 'yan su ji', 'sweet potato starch chicken', 'night market chicken'],
@@ -231,7 +232,7 @@ module.exports = {
     ],
     pair: ['Oolong tea', 'Jasmine tea', 'Strong black coffee'],
     store: 'Airtight at room temperature for 2 weeks. They improve after a day.',
-    nut: [286, 12, 42, 3, 2, 22, 120]
+    nut: [243, 12, 42, 3, 2, 22, 120]
   },
 
   'soto-ayam': {
@@ -285,10 +286,11 @@ module.exports = {
     ],
     pair: ['Sambal and lime', 'Prawn crackers', 'Iced tea'],
     store: 'Broth keeps 3 days refrigerated and freezes 3 months. Assemble bowls to order.',
-    nut: [486, 22, 38, 34, 3, 5, 1420]
+    nut: [546, 22, 38, 34, 3, 5, 1420]
   },
 
   'martabak': {
+    rest: [60, 'proving'],
     d: 'A thick, spongy pancake with a honeycomb surface, cooked in a heavy pan, then split and filled with butter, condensed milk, chocolate and peanuts.',
     meta: 'Martabak manis — thick Indonesian pancake with a honeycomb crumb, filled with butter and condensed milk.',
     kw: ['martabak manis recipe', 'terang bulan', 'indonesian sweet pancake', 'honeycomb pancake'],
@@ -328,7 +330,7 @@ module.exports = {
     ],
     pair: ['Hot sweet tea', 'Kopi tubruk', 'Sliced banana'],
     store: 'Best warm. Keeps 2 days wrapped; reheat in a dry pan.',
-    nut: [612, 32, 68, 14, 3, 42, 380]
+    nut: [526, 32, 68, 14, 3, 42, 380]
   },
 
   'sambal-goreng': {
@@ -461,7 +463,7 @@ module.exports = {
     ],
     pair: ['Dhal or fish curry', 'Teh tarik', 'A sprinkle of sugar, for the sweet version'],
     store: 'Freeze the coiled, uncooked discs between sheets of paper for 2 months. Cook from frozen.',
-    nut: [386, 18, 48, 8, 2, 4, 480]
+    nut: [336, 18, 48, 8, 2, 4, 480]
   },
 
   'ayam-masak-merah': {
@@ -562,6 +564,7 @@ module.exports = {
   },
 
   'lechon-kawali': {
+    rest: [720, 'chilling'],
     d: 'Pork belly simmered until tender, dried overnight in the fridge and then deep fried so the skin blisters into crackling.',
     meta: 'Lechon kawali — Filipino pork belly simmered, dried overnight and deep fried until the skin blisters.',
     kw: ['lechon kawali recipe', 'filipino crispy pork belly', 'deep fried pork belly', 'crackling pork'],
@@ -604,7 +607,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Soy and vinegar dipping sauce', 'A cold beer'],
     store: 'Refrigerate up to 3 days. Recrisp at 220C fan for 10 minutes; never microwave.',
-    nut: [886, 72, 3, 52, 0, 2, 1620]
+    nut: [768, 72, 3, 52, 0, 2, 1620]
   },
 
   'pancit-canton': {
@@ -654,7 +657,7 @@ module.exports = {
     ],
     pair: ['Lumpia spring rolls', 'Calamansi wedges', 'A cold beer'],
     store: 'Refrigerate up to 3 days. Reheat in a pan with a splash of stock; the noodles keep absorbing.',
-    nut: [586, 20, 68, 34, 5, 8, 1820]
+    nut: [658, 20, 68, 34, 5, 8, 1820]
   },
 
   'halo-halo': {

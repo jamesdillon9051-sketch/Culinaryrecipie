@@ -42,7 +42,7 @@ module.exports = {
     ],
     pair: ['Refried black beans', 'Mexican rice', 'A cold lager or horchata'],
     store: 'Refrigerate up to 3 days. The salsa freezes 3 months on its own; assembled enchiladas do not freeze well.',
-    nut: [612, 32, 38, 42, 5, 8, 1090]
+    nut: [658, 32, 38, 42, 5, 8, 1090]
   },
 
   'aguachile': {
@@ -77,10 +77,11 @@ module.exports = {
     ],
     pair: ['Cold Mexican lager with lime', 'Tostadas', 'A michelada'],
     store: 'Eat within the hour. This dish does not keep.',
-    nut: [214, 8, 12, 26, 4, 4, 780]
+    nut: [314, 8, 12, 26, 4, 4, 780]
   },
 
   'horchata': {
+    rest: [480, 'soaking'],
     d: 'Rice and cinnamon soaked overnight, blended and strained into a sweet, milky drink served over ice. The standard partner to anything fried or chilli-hot.',
     meta: 'Horchata — Mexican rice and cinnamon drink soaked overnight, blended and strained, served over ice.',
     kw: ['horchata recipe', 'mexican rice drink', 'agua fresca', 'cinnamon rice milk'],
@@ -152,7 +153,7 @@ module.exports = {
     ],
     pair: ['Warm corn tortillas', 'Pickled red onion', 'A dark Mexican beer'],
     store: 'Refrigerate up to 4 days in its juices, freeze 3 months. Reheat in the sauce, not dry.',
-    nut: [486, 28, 9, 48, 2, 3, 940]
+    nut: [580, 28, 9, 48, 2, 3, 940]
   },
 
   'tostadas': {

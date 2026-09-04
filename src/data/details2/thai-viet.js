@@ -181,6 +181,7 @@ module.exports = {
   },
 
   'thai-iced-tea': {
+    rest: [120, 'chilling'],
     d: 'Strongly brewed spiced black tea, sweetened with condensed milk and poured over ice with a float of evaporated milk. The orange colour is from food colouring in the tea blend, and it is part of the tradition.',
     meta: 'Thai iced tea (cha yen) — strong spiced black tea with condensed milk over ice and an evaporated milk float.',
     kw: ['thai iced tea recipe', 'cha yen', 'thai tea', 'condensed milk tea'],
@@ -273,6 +274,7 @@ module.exports = {
   },
 
   'com-tam': {
+    rest: [240, 'marinating'],
     d: 'Broken rice with a marinated grilled pork chop, shredded pork skin, a steamed egg meatloaf and a fried egg, all doused in nước chấm. Saigon\'s breakfast, and its most complete plate.',
     meta: 'Cơm tấm — Saigon broken rice with lemongrass grilled pork chop, shredded pork skin and nước chấm.',
     kw: ['com tam recipe', 'vietnamese broken rice', 'grilled pork chop rice', 'saigon breakfast'],

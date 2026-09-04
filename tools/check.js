@@ -274,6 +274,21 @@ try {
   }
 }
 
+/* --- times and nutrition ------------------------------------------------- */
+/* Both are numbers a reader plans around and cannot verify before committing:
+   whether dinner is an hour away or a day away, and what a serving costs them.
+   Neither survives being quietly wrong, so both fail the check. */
+for (const audit of ['timing-audit.js', 'nutrition-audit.js']) {
+  try {
+    require('child_process').execFileSync(process.execPath,
+      [require('path').join(__dirname, audit)], { stdio: 'pipe' });
+  } catch (err) {
+    for (const line of String(err.stdout || '').split('\n')) {
+      if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
+    }
+  }
+}
+
 /* --- README counts ------------------------------------------------------- */
 /* The README repeats numbers that live in the data. Verifying them here means a
    stale README fails the check rather than shipping. */

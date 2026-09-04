@@ -122,6 +122,7 @@ module.exports = {
   },
 
   'cinnamon-rolls': {
+    rest: [540, 'chilling'],
     d: 'Soft, tall rolls made with a tangzhong starter that keeps them pillowy for days, filled with cinnamon-butter and finished with cream cheese frosting. Shape them the night before and bake in the morning.',
     meta: 'Overnight cinnamon rolls with a tangzhong starter for lasting softness, plus tangy cream cheese frosting.',
     kw: ['cinnamon rolls recipe', 'overnight cinnamon rolls', 'tangzhong dough', 'cream cheese frosting'],
@@ -174,6 +175,7 @@ module.exports = {
   },
 
   'sourdough-bread': {
+    rest: [1110, 'chilling'],
     d: 'An open-crumb country loaf with a blistered, mahogany crust and a genuine tang. Long autolyse, gentle handling and a Dutch oven are the three things that matter.',
     meta: 'Artisan sourdough with an open crumb and blistered crust, baked in a Dutch oven. Full schedule and timings included.',
     kw: ['sourdough bread recipe', 'artisan sourdough', 'open crumb sourdough', 'dutch oven bread'],
@@ -247,6 +249,7 @@ module.exports = {
   },
 
   'new-york-cheesecake': {
+    rest: [540, 'chilling'],
     d: 'Dense, tall and creamy with a faint tang, on a buttery biscuit base. The water bath and a slow cool in the switched-off oven are what stop it cracking.',
     meta: 'Classic New York cheesecake — dense, tall and crack-free thanks to a water bath and slow cooling. Worth the wait.',
     kw: ['new york cheesecake recipe', 'baked cheesecake', 'crack free cheesecake', 'classic dessert'],
@@ -293,6 +296,7 @@ module.exports = {
   },
 
   'apple-pie': {
+    rest: [180, 'chilling'],
     d: 'A deep-dish pie with a properly crisp bottom crust and apples that hold their shape. Pre-cooking the filling is the unglamorous step that solves every apple pie problem at once.',
     meta: 'Deep-dish apple pie with a crisp bottom crust and apples that keep their shape. The pre-cooked filling method.',
     kw: ['apple pie recipe', 'homemade apple pie', 'flaky pie crust', 'classic american dessert'],
@@ -342,6 +346,7 @@ module.exports = {
   },
 
   'key-lime-pie': {
+    rest: [240, 'chilling'],
     d: 'Sharp, silky lime custard in a buttery graham crust, set by nothing but the chemical reaction between lime juice and condensed milk. Twenty minutes of work and no fuss.',
     meta: 'Tangy key lime pie with a silky set filling and buttery graham crust. Four filling ingredients, 35 minutes of work.',
     kw: ['key lime pie recipe', 'lime dessert', 'condensed milk pie', 'easy summer dessert'],
@@ -523,6 +528,7 @@ module.exports = {
   },
 
   'pumpkin-pie': {
+    rest: [270, 'chilling'],
     d: 'A silky custard pie with proper spice and a blind-baked base that stays crisp. Cooking the purée down first concentrates it and eliminates the watery edge that spoils most versions.',
     meta: 'Classic pumpkin pie with a silky spiced custard and crisp blind-baked crust. The purée-reduction trick for deeper flavour.',
     kw: ['pumpkin pie recipe', 'thanksgiving pie', 'spiced custard pie', 'holiday dessert'],
@@ -570,6 +576,7 @@ module.exports = {
   },
 
   'gingerbread-cookies': {
+    rest: [120, 'chilling'],
     d: 'Cut-out gingerbread that holds a sharp edge, tastes strongly of spice and molasses, and stays chewy rather than turning to rubble. The dough rolls between paper so it never needs extra flour.',
     meta: 'Chewy cut-out gingerbread cookies that hold sharp edges and taste properly of spice and molasses. Ideal for decorating.',
     kw: ['gingerbread cookies recipe', 'christmas cookies', 'cut out cookies', 'holiday baking'],

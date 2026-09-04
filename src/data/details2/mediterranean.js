@@ -55,6 +55,7 @@ module.exports = {
   },
 
   'keftedes': {
+    rest: [60, 'chilling'],
     d: 'Greek meatballs bound with bread soaked in wine, scented with mint and oregano, and fried until dark. Eaten hot with lemon or cold from the fridge, which is arguably better.',
     meta: 'Greek keftedes — herb-heavy fried meatballs bound with wine-soaked bread, with mint, oregano and lemon.',
     kw: ['keftedes recipe', 'greek meatballs', 'fried meatballs', 'greek meze'],
@@ -224,6 +225,7 @@ module.exports = {
   },
 
   'loukoumades': {
+    rest: [90, 'proving'],
     d: 'Yeasted dough balls fried until hollow and crisp, soaked in honey syrup and dusted with cinnamon and walnuts. Recorded as a prize for victors in the ancient Olympic games, and still sold on Greek street corners.',
     meta: 'Loukoumades — crisp Greek honey doughnut balls in cinnamon syrup with walnuts. Ancient street food.',
     kw: ['loukoumades recipe', 'greek honey donuts', 'fried dough balls', 'greek street dessert'],
@@ -312,6 +314,7 @@ module.exports = {
   },
 
   'turkish-pide': {
+    rest: [90, 'proving'],
     d: 'Boat-shaped flatbreads with the edges rolled and pinched around a filling of spiced lamb or cheese and egg, baked hot until the base blisters. Turkey\'s answer to pizza, and older than most of the competition.',
     meta: 'Turkish pide — boat-shaped flatbread with spiced lamb or cheese and egg filling, baked until blistered.',
     kw: ['turkish pide recipe', 'turkish pizza', 'kiymali pide', 'pide dough'],
@@ -408,6 +411,7 @@ module.exports = {
   },
 
   'turkish-delight': {
+    rest: [480, 'setting'],
     d: 'Lokum: a cornflour and sugar jelly cooked for over an hour until it is translucent and elastic, scented with rose and studded with pistachios. Patience is the only technique involved, and there is a lot of it.',
     meta: 'Turkish delight (lokum) — rosewater and pistachio cornflour jelly cooked slowly until translucent and elastic.',
     kw: ['turkish delight recipe', 'lokum recipe', 'rose turkish delight', 'homemade candy'],
@@ -447,6 +451,6 @@ module.exports = {
     ],
     pair: ['Turkish coffee, which is the classic pairing', 'Mint tea', 'A bowl of pistachios'],
     store: 'Keeps 1 month in an airtight tin between layers of coating powder. Do not refrigerate — it weeps.',
-    nut: [98, 1, 24, 1, 0, 22, 5]
+    nut: [109, 1, 24, 1, 0, 22, 5]
   }
 };

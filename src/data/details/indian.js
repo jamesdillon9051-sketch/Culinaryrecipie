@@ -2,6 +2,7 @@
 
 module.exports = {
   'chicken-tikka-masala': {
+    rest: [120, 'chilling'],
     d: 'Charred yogurt-marinated chicken folded into a silky, gently spiced tomato-cream sauce — the most ordered curry in Britain and one of the great crossover dishes. Grilling the chicken separately is what gives it that smoky edge.',
     meta: 'Restaurant-style chicken tikka masala with charred yogurt-marinated chicken in a silky tomato cream sauce. Ready in an hour.',
     kw: ['chicken tikka masala recipe', 'indian curry recipe', 'tikka masala sauce', 'restaurant style curry'],
@@ -57,6 +58,7 @@ module.exports = {
   },
 
   'butter-chicken': {
+    rest: [240, 'marinating'],
     d: 'Delhi\'s murgh makhani: tandoori chicken finished in a sauce of tomatoes, butter and cream, balanced with a whisper of fenugreek and honey. Milder and rounder than tikka masala, and arguably more addictive.',
     meta: 'Silky butter chicken (murgh makhani) with tandoori-charred chicken in a buttery tomato and cream sauce. The Delhi original.',
     kw: ['butter chicken recipe', 'murgh makhani', 'indian butter chicken', 'creamy chicken curry'],
@@ -152,6 +154,7 @@ module.exports = {
   },
 
   'lamb-vindaloo': {
+    rest: [360, 'marinating'],
     d: 'The Goan original, descended from a Portuguese pork dish preserved in wine and garlic. Vinegar, not just chilli, is the defining note — sharp, garlicky and deeply savoury rather than gratuitously hot.',
     meta: 'Authentic Goan lamb vindaloo with a vinegar and garlic marinade — sharp, garlicky and deep, not just fiercely hot.',
     kw: ['vindaloo recipe', 'goan curry', 'lamb vindaloo', 'spicy indian curry'],
@@ -201,6 +204,7 @@ module.exports = {
   },
 
   'chicken-biryani': {
+    rest: [150, 'marinating'],
     d: 'Hyderabadi dum biryani, where marinated chicken and part-cooked rice are layered raw and sealed to steam in their own aromatics. When you break the seal, the whole kitchen changes.',
     meta: 'Hyderabadi chicken dum biryani with saffron, fried onions and layered basmati sealed and steamed in its own aromatics.',
     kw: ['chicken biryani recipe', 'hyderabadi biryani', 'dum biryani', 'indian rice dish'],
@@ -441,6 +445,7 @@ module.exports = {
   },
 
   'masala-dosa': {
+    rest: [840, 'proving'],
     d: 'A paper-thin, tangy fermented crêpe wrapped around spiced potato, with coconut chutney and sambar alongside. South India\'s greatest breakfast, and worth the two-day ferment.',
     meta: 'Crisp masala dosa with a fermented rice and lentil batter, spiced potato filling and coconut chutney. Gluten-free.',
     kw: ['masala dosa recipe', 'south indian dosa', 'fermented dosa batter', 'gluten free breakfast'],
@@ -584,6 +589,7 @@ module.exports = {
   },
 
   'tandoori-chicken': {
+    rest: [390, 'chilling'],
     d: 'A double marinade — first in lemon and salt, then in spiced yogurt — gets flavour deep into the meat before it hits the fiercest heat your oven can produce. Naturally low-carb and dramatic to serve.',
     meta: 'Fiery tandoori chicken with a double marinade and a scorching oven finish. Charred outside, juicy inside, no tandoor needed.',
     kw: ['tandoori chicken recipe', 'indian grilled chicken', 'yogurt marinade', 'low carb indian'],
@@ -632,6 +638,7 @@ module.exports = {
   },
 
   'garlic-naan': {
+    rest: [60, 'proving'],
     d: 'Blistered, chewy naan cooked in a screaming-hot cast-iron pan and brushed with garlic butter. Yogurt in the dough is what gives it the characteristic soft chew and slight tang.',
     meta: 'Soft, blistered garlic naan made in a hot skillet — no tandoor required. Yogurt dough for authentic chew and tang.',
     kw: ['naan recipe', 'garlic naan', 'indian flatbread', 'homemade naan without tandoor'],
@@ -675,6 +682,7 @@ module.exports = {
   },
 
   'gulab-jamun': {
+    rest: [120, 'soaking'],
     d: 'Milk-solid dumplings fried to a deep bronze and steeped in cardamom-rose syrup until they double in size and turn to sponge. The definitive Indian celebration sweet.',
     meta: 'Soft, syrup-soaked gulab jamun with cardamom and rose. The low-temperature frying method that keeps the centres light.',
     kw: ['gulab jamun recipe', 'indian dessert', 'milk dumplings in syrup', 'diwali sweet'],

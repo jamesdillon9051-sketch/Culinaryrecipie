@@ -11,10 +11,15 @@
  *  pair  — pairing suggestions (wine, sides, dessert)
  *  store — storage & reheating guidance
  *  nut   — [calories, protein g, carbs g, fat g, fibre g, sugar g, sodium mg] per serving
+ *  rest  — optional [minutes, label] for unattended waiting the method requires
+ *          (proving, chilling, marinating). Kept out of prep and cook, which
+ *          are hands-on time, but added to what the page and schema promise.
+ *          tools/timing-audit.js checks it against the method text.
  */
 
 module.exports = {
   'margherita-pizza': {
+    rest: [1560, 'chilling'],
     d: 'The Neapolitan original: a blistered, cloud-edged crust under nothing more than San Marzano tomatoes, milky fior di latte and torn basil. This Margherita pizza recipe coaxes pizzeria char out of a standard home oven using a screaming-hot steel and a slow, cold-fermented dough.',
     meta: 'Authentic Margherita pizza with a blistered 24-hour dough, San Marzano sauce and fior di latte — pizzeria results from a home oven.',
     kw: ['margherita pizza recipe', 'neapolitan pizza dough', 'homemade pizza', 'san marzano pizza sauce'],
@@ -524,6 +529,7 @@ module.exports = {
   },
 
   'arancini': {
+    rest: [270, 'chilling'],
     d: 'Sicilian rice balls with a molten mozzarella and ragù heart, breadcrumbed and fried until they shatter. Traditionally made from leftover risotto, they are the finest argument for cooking too much rice on purpose.',
     meta: 'Crispy Sicilian arancini with a molten mozzarella and ragù centre — the classic street-food rice balls, made from scratch.',
     kw: ['arancini recipe', 'sicilian rice balls', 'fried risotto balls', 'italian street food'],
@@ -568,6 +574,7 @@ module.exports = {
   },
 
   'focaccia': {
+    rest: [750, 'chilling'],
     d: 'A high-hydration focaccia with a crackling, olive-oil-fried base and a crumb full of irregular holes, dimpled with rosemary and flaky salt. The overnight fridge rise does all the work while you sleep.',
     meta: 'No-knead rosemary focaccia with a crisp olive-oil base and open, airy crumb. An overnight cold rise does the work for you.',
     kw: ['focaccia recipe', 'no knead focaccia', 'italian bread', 'rosemary focaccia'],
@@ -603,6 +610,7 @@ module.exports = {
   },
 
   'tiramisu': {
+    rest: [360, 'chilling'],
     d: 'The Venetian classic, built on a properly cooked zabaglione so it sets firm without gelatine and carries no raw-egg worry. Espresso-soaked savoiardi, mascarpone cream and a heavy dusting of cocoa — no baking required.',
     meta: 'Authentic tiramisu with cooked zabaglione, espresso-soaked savoiardi and mascarpone cream. No gelatine, no raw eggs.',
     kw: ['tiramisu recipe', 'authentic italian tiramisu', 'no bake dessert', 'mascarpone dessert'],
@@ -640,6 +648,7 @@ module.exports = {
   },
 
   'panna-cotta': {
+    rest: [240, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
     meta: 'Silky vanilla panna cotta with the perfect wobble — a five-ingredient Italian dessert that takes 15 minutes to make.',
     kw: ['panna cotta recipe', 'vanilla panna cotta', 'italian dessert', 'gluten free dessert'],

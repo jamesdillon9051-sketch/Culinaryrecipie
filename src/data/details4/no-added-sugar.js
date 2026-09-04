@@ -115,7 +115,7 @@ module.exports = {
     ],
     pair: ['Thick Greek yoghurt', 'Cold custard, if you are not avoiding sugar', 'A cup of strong tea'],
     store: 'Refrigerate up to 4 days. Good cold from the fridge for breakfast with yoghurt, or reheated at 160C for 10 minutes. Freezes 3 months, though the eating apples soften on thawing.',
-    nut: [168, 2, 34, 4, 6, 26, 60]
+    nut: [180, 2, 34, 4, 6, 26, 60]
   },
 
   'chickpea-socca': {

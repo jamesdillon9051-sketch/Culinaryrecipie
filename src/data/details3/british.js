@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'trifle': {
+    rest: [360, 'chilling'],
     d: 'Sponge soaked in sherry, a layer of fruit, proper custard set over the top and a thick raft of whipped cream. Built in a glass bowl so the layers show.',
     meta: 'English trifle — sherry-soaked sponge, fruit, set custard and whipped cream, layered in a glass bowl.',
     kw: ['english trifle recipe', 'classic trifle', 'sherry trifle', 'custard trifle'],
@@ -94,6 +95,7 @@ module.exports = {
   },
 
   'crumpets': {
+    rest: [60, 'resting'],
     d: 'Yeasted batter cooked in rings on a griddle until the tops are riddled with holes. Toasted, buttered, and eaten while the butter is still disappearing.',
     meta: 'Crumpets — yeasted batter cooked in rings on a griddle until the tops are full of holes.',
     kw: ['crumpet recipe', 'homemade crumpets', 'yeasted batter', 'british teatime'],
@@ -128,7 +130,7 @@ module.exports = {
     ],
     pair: ['Salted butter', 'Marmite or honey', 'A pot of strong tea'],
     store: 'Keep 3 days in a bag at room temperature, or freeze 2 months and toast from frozen.',
-    nut: [148, 2, 28, 5, 1, 2, 320]
+    nut: [165, 2, 28, 5, 1, 2, 320]
   },
 
   'ploughmans-lunch': {
@@ -245,6 +247,6 @@ module.exports = {
     ],
     pair: ['English mustard', 'Piccalilli', 'A pint of bitter'],
     store: 'Best warm. Refrigerate up to 2 days and eat cold, or reheat at 180C fan for 8 minutes.',
-    nut: [486, 34, 22, 24, 1, 2, 940]
+    nut: [440, 34, 22, 24, 1, 2, 940]
   }
 };

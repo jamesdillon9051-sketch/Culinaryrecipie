@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
+const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { questions, faqSchema } = require('../lib/faq');
@@ -126,7 +126,7 @@ function recipeSchema(recipe) {
     description: recipe.description,
     prepTime: isoDuration(recipe.prep),
     cookTime: isoDuration(recipe.cook),
-    totalTime: isoDuration(recipe.totalTime),
+    totalTime: isoDuration(recipe.elapsedTime),
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
@@ -238,7 +238,8 @@ ${breadcrumbs(trail)}
 
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}
-          <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> total</span>
+          <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'hands on' : 'total'}</span>
+          ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWait(recipe.restTime)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
@@ -349,7 +350,8 @@ ${breadcrumbs(trail)}
           <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
             <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
             <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
-            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.totalTime)}</dd>
+            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.restTime)}</dd>` : ''}
+            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.elapsedTime)}</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
           </dl>

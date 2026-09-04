@@ -90,6 +90,7 @@ module.exports = {
   },
 
   'galbi': {
+    rest: [390, 'marinating'],
     d: 'Beef short ribs butterflied thin, marinated in soy, pear and sesame, and grilled over fire until the sugars char. Korean barbecue\'s headline act, and the pear in the marinade is doing real work.',
     meta: 'Galbi — Korean marinated beef short ribs with soy, Asian pear and sesame, grilled until charred at the edges.',
     kw: ['galbi recipe', 'korean short ribs', 'kalbi marinade', 'korean bbq beef'],
@@ -226,6 +227,7 @@ module.exports = {
   },
 
   'dakgalbi': {
+    rest: [240, 'chilling'],
     d: 'Chicken and cabbage stir-fried at the table in a gochujang marinade on a huge flat pan, with rice cakes and sweet potato. When the chicken is gone, rice is fried in what remains, which is the best part.',
     meta: 'Dakgalbi — Chuncheon-style spicy stir-fried chicken with cabbage, rice cakes and a gochujang marinade.',
     kw: ['dakgalbi recipe', 'korean spicy chicken', 'chuncheon dakgalbi', 'gochujang chicken stir fry'],
@@ -281,6 +283,7 @@ module.exports = {
   },
 
   'naengmyeon': {
+    rest: [60, 'soaking'],
     d: 'Chewy buckwheat noodles in an icy beef and radish broth, with pear, cucumber, sliced beef and half a boiled egg. The broth is served slushy with ice crystals, and it is one of the great hot-weather dishes.',
     meta: 'Mul naengmyeon — Korean cold buckwheat noodles in icy beef and radish broth with pear, cucumber and egg.',
     kw: ['naengmyeon recipe', 'korean cold noodles', 'mul naengmyeon', 'cold buckwheat noodles'],

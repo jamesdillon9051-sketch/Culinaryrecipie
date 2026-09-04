@@ -53,7 +53,7 @@ module.exports = {
     ],
     pair: ['White rice and black beans', 'Fried sweet plantain', 'A mojito'],
     store: 'Refrigerate up to 4 days, better on day two, and freeze 3 months.',
-    nut: [512, 24, 20, 48, 4, 8, 1320]
+    nut: [608, 24, 20, 48, 4, 8, 1320]
   },
 
   'bandeja-paisa': {
@@ -151,7 +151,7 @@ module.exports = {
     ],
     pair: ['White rice', 'Avocado and capers', 'A cold beer'],
     store: 'Refrigerate up to 3 days; it thickens considerably. Loosen with broth when reheating.',
-    nut: [686, 28, 72, 42, 8, 8, 1320]
+    nut: [778, 28, 72, 42, 8, 8, 1320]
   },
 
   'empanadas-colombianas': {
@@ -204,6 +204,7 @@ module.exports = {
   },
 
   'causa-limena': {
+    rest: [180, 'chilling'],
     d: 'Cold layers of yellow potato mashed with lime and ají amarillo, packed around a chicken or crab filling and turned out like a terrine.',
     meta: 'Causa limeña — cold layered Peruvian potato terrine with ají amarillo, lime and a chicken filling.',
     kw: ['causa limena recipe', 'peruvian potato terrine', 'aji amarillo potato', 'cold layered potato dish'],
@@ -445,7 +446,7 @@ module.exports = {
     ],
     pair: ['A tomato and onion salad', 'A Chilean Carmenère', 'Pebre on the side'],
     store: 'Refrigerate up to 3 days and reheat at 190C fan. It freezes 2 months, assembled and unbaked.',
-    nut: [742, 34, 78, 42, 8, 24, 1420]
+    nut: [826, 34, 78, 42, 8, 24, 1420]
   },
 
   'completo': {
@@ -488,7 +489,7 @@ module.exports = {
     ],
     pair: ['A cold Chilean lager', 'Ají chileno', 'Fanschop'],
     store: 'Assemble to order. The avocado and tomato keep a few hours only.',
-    nut: [812, 62, 48, 18, 8, 8, 1620]
+    nut: [602, 62, 48, 18, 8, 8, 1620]
   },
 
   'coxinha': {

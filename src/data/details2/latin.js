@@ -47,6 +47,7 @@ module.exports = {
   },
 
   'pupusas': {
+    rest: [180, 'chilling'],
     d: 'El Salvador\'s thick stuffed corn cakes, filled with cheese, beans or chicharrón and griddled until blistered, served with curtido and a thin tomato salsa. Cheap, filling and completely addictive.',
     meta: 'Salvadoran pupusas — thick stuffed corn cakes with cheese and beans, griddled and served with curtido.',
     kw: ['pupusas recipe', 'salvadoran pupusas', 'stuffed corn cakes', 'curtido recipe'],
@@ -143,6 +144,7 @@ module.exports = {
   },
 
   'alfajores': {
+    rest: [60, 'chilling'],
     d: 'Two cornflour-heavy shortbread biscuits sandwiching dulce de leche and rolled in desiccated coconut. Argentinian and Peruvian in equal measure, and they dissolve on the tongue rather than crumbling.',
     meta: 'Alfajores — melt-in-the-mouth cornflour biscuits sandwiched with dulce de leche and rolled in coconut.',
     kw: ['alfajores recipe', 'dulce de leche cookies', 'argentinian biscuits', 'maizena alfajores'],

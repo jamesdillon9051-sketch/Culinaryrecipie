@@ -2,6 +2,7 @@
 
 module.exports = {
   'duck-confit': {
+    rest: [1080, 'chilling'],
     d: 'Duck legs cured in salt overnight, then cooked submerged in their own fat until the meat gives at a touch. A preservation method from before refrigeration that survives because nothing else tastes like it.',
     meta: 'Duck confit — legs salt-cured overnight then poached in duck fat until meltingly tender, crisped to serve.',
     kw: ['duck confit recipe', 'confit de canard', 'french duck legs', 'duck in duck fat'],
@@ -177,6 +178,7 @@ module.exports = {
   },
 
   'canele': {
+    rest: [2880, 'chilling'],
     d: 'A Bordeaux pastry with a black, almost burnt caramel shell and a soft, custardy centre shot through with rum and vanilla. The batter rests two days and the moulds must be scorching.',
     meta: 'Canelés de Bordeaux — dark caramelised shells with soft rum and vanilla custard centres. Batter rests two days.',
     kw: ['caneles recipe', 'canele de bordeaux', 'french pastry', 'rum vanilla custard cake'],
@@ -216,6 +218,7 @@ module.exports = {
   },
 
   'gateau-basque': {
+    rest: [150, 'chilling'],
     d: 'A thick shortcrust shell around a layer of vanilla pastry cream or black cherry jam, scored across the top before baking. From the French Basque country, and closer to a giant biscuit than a cake.',
     meta: 'Gâteau Basque — thick almond shortcrust around vanilla pastry cream, scored and baked golden.',
     kw: ['gateau basque recipe', 'basque cake', 'french pastry cream cake', 'cherry gateau basque'],
@@ -264,6 +267,7 @@ module.exports = {
   },
 
   'pots-de-creme': {
+    rest: [240, 'chilling'],
     d: 'Small pots of dark chocolate custard, baked in a bain-marie until barely set and eaten cold with a spoon. Three ingredients doing all the work, so the chocolate has nowhere to hide.',
     meta: 'Pots de crème au chocolat — dark chocolate baked custards, set in a bain-marie and served chilled.',
     kw: ['pots de creme recipe', 'chocolate pots de creme', 'french chocolate custard', 'baked chocolate pots'],

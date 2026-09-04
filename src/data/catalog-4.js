@@ -40,5 +40,5 @@ module.exports = [
   c('baked-cinnamon-apples', 'Baked Cinnamon Apples', 'British', 'Desserts', 'Easy', 10, 35, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Baked cinnamon apples dish'),
   c('chickpea-socca', 'Chickpea Socca', 'French', 'Appetizers', 'Easy', 10, 15, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Socca chickpea pancake nicoise'),
   c('lentil-walnut-ragu', 'Lentil and Walnut Ragù', 'Italian', 'Dinner', 'Medium', 15, 45, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Lentil walnut ragu pasta'),
-  c('savoury-cottage-cheese-bowl', 'Savoury Cottage Cheese Bowl', 'American', 'Breakfast', 'Easy', 8, 0, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Cottage cheese bowl tomato cucumber')
+  c('savoury-cottage-cheese-bowl', 'Savoury Cottage Cheese Bowl', 'American', 'Breakfast', 'Easy', 8, 3, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Cottage cheese bowl tomato cucumber')
 ];

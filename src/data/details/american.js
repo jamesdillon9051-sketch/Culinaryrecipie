@@ -89,6 +89,7 @@ module.exports = {
   },
 
   'buffalo-wings': {
+    rest: [240, 'chilling'],
     d: 'The Anchor Bar original, baked rather than fried using a baking powder trick that makes the skin crackle like it came out of a fryer, then tossed in a butter-emulsified hot sauce.',
     meta: 'Crispy baked buffalo wings with the baking powder trick — fried-level crunch, no deep fryer, plus a real butter hot sauce.',
     kw: ['buffalo wings recipe', 'crispy baked wings', 'hot wing sauce', 'gluten free appetizer'],
@@ -132,6 +133,7 @@ module.exports = {
   },
 
   'southern-fried-chicken': {
+    rest: [240, 'chilling'],
     d: 'Buttermilk-brined chicken in a craggy, well-seasoned crust, fried in a cast-iron skillet. The double dredge and a rest before frying are what give it those shattering ridges.',
     meta: 'Southern fried chicken with a buttermilk brine and craggy double-dredged crust. Cast-iron method, properly seasoned.',
     kw: ['fried chicken recipe', 'southern fried chicken', 'buttermilk fried chicken', 'crispy chicken'],
@@ -813,6 +815,7 @@ module.exports = {
   },
 
   'roast-turkey': {
+    rest: [1480, 'chilling'],
     d: 'A dry-brined, herb-buttered turkey that comes out with crisp skin and breast meat that is actually juicy. Spatchcocking is optional but it cuts the cooking time nearly in half.',
     meta: 'Herb-butter roast turkey with a 24-hour dry brine for juicy breast meat and crisp skin. The reliable holiday method.',
     kw: ['roast turkey recipe', 'thanksgiving turkey', 'dry brine turkey', 'christmas dinner'],

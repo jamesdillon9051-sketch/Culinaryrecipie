@@ -422,6 +422,7 @@ module.exports = {
   },
 
   'char-siu': {
+    rest: [480, 'chilling'],
     d: 'Cantonese barbecue pork with a sticky, deeply burnished glaze and rings of red at the edge. It takes forty minutes in the oven and the marinade does almost all the work.',
     meta: 'Sticky Cantonese char siu pork with a burnished honey glaze. Simple oven method, restaurant-quality result.',
     kw: ['char siu recipe', 'chinese bbq pork', 'cantonese roast pork', 'pork marinade'],
@@ -466,6 +467,7 @@ module.exports = {
   },
 
   'pork-dumplings': {
+    rest: [75, 'resting'],
     d: 'Juicy jiaozi with a hand-rolled wrapper thick at the centre and thin at the edge — the shape that stops the base bursting. Making them is a whole afternoon and worth every minute.',
     meta: 'Homemade steamed pork dumplings (jiaozi) with hand-rolled wrappers and a juicy cabbage-pork filling.',
     kw: ['pork dumplings recipe', 'jiaozi recipe', 'homemade dumpling wrappers', 'chinese dumplings'],

@@ -123,6 +123,7 @@ module.exports = {
   },
 
   'mozzarella-sticks': {
+    rest: [120, 'freezing'],
     d: 'Batons of low-moisture mozzarella double-breaded and frozen solid before frying, so the crust sets before the cheese escapes. Every failed mozzarella stick is a timing problem, and freezing solves it.',
     meta: 'Crispy mozzarella sticks — double-breaded, frozen solid then fried so the cheese pulls without leaking.',
     kw: ['mozzarella sticks recipe', 'fried cheese sticks', 'homemade mozzarella sticks', 'cheese appetizer'],
@@ -161,6 +162,7 @@ module.exports = {
   },
 
   'creamy-coleslaw': {
+    rest: [180, 'chilling'],
     d: 'Cabbage and carrot in a dressing balanced between mayonnaise, vinegar and sugar. The technique that matters is salting the cabbage first, which is what stops the bowl filling with water an hour later.',
     meta: 'Creamy coleslaw with salted-and-drained cabbage so the dressing stays thick and the slaw stays crunchy.',
     kw: ['coleslaw recipe', 'creamy coleslaw', 'american slaw', 'kfc coleslaw copycat'],
@@ -202,6 +204,7 @@ module.exports = {
   },
 
   'classic-potato-salad': {
+    rest: [120, 'chilling'],
     d: 'Waxy potatoes dressed while still warm so they drink in the vinegar, then finished cold with mayonnaise, celery, egg and pickle. Every American family has a version, and this is the one that gets the seasoning right.',
     meta: 'Classic American potato salad with waxy potatoes dressed warm in vinegar, then mayonnaise, egg and pickle.',
     kw: ['potato salad recipe', 'american potato salad', 'picnic salad', 'creamy potato salad'],

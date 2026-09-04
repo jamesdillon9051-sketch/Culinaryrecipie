@@ -193,6 +193,7 @@ module.exports = {
   },
 
   'pissaladiere': {
+    rest: [60, 'proving'],
     d: 'Nice\'s answer to pizza: a bread base under a thick layer of onions cooked down for an hour until they are sweet and jammy, latticed with anchovies and studded with black olives. No tomato, no cheese.',
     meta: 'Pissaladière from Nice — a bread base under slow-cooked sweet onions, anchovies and black olives. No cheese, no tomato.',
     kw: ['pissaladiere recipe', 'french onion tart', 'nice onion anchovy tart', 'provencal onion pizza'],
@@ -313,6 +314,7 @@ module.exports = {
   },
 
   'crepes-suzette': {
+    rest: [60, 'resting'],
     d: 'Paper-thin crêpes folded into an orange-caramel butter sauce and flambéed at the table with Grand Marnier. A piece of theatre invented by accident in Monte Carlo, and still the best trick in the dessert repertoire.',
     meta: 'Crêpes Suzette: thin crêpes in an orange caramel butter sauce, flambéed with Grand Marnier at the table.',
     kw: ['crepes suzette recipe', 'flambe crepes', 'orange crepes dessert', 'french crepe recipe'],
@@ -398,6 +400,7 @@ module.exports = {
   },
 
   'mille-feuille': {
+    rest: [240, 'chilling'],
     d: 'Three sheets of caramelised puff pastry alternating with crème pâtissière, topped with the marbled feathered icing that gives it its other name, the Napoleon. The most technically demanding thing in a French pâtisserie window.',
     meta: 'Mille-feuille with caramelised puff pastry, vanilla crème pâtissière and feathered fondant icing.',
     kw: ['mille feuille recipe', 'napoleon pastry', 'french puff pastry dessert', 'creme patissiere layers'],
@@ -477,6 +480,7 @@ module.exports = {
   },
 
   'brioche': {
+    rest: [120, 'proving'],
     d: 'The richest bread in the French repertoire: a dough carrying half its weight in butter, worked until it is silky, chilled overnight, and baked into something with the crumb of bread and the flavour of pastry.',
     meta: 'Classic French brioche with a rich buttery crumb, overnight cold prove and a glossy egg-washed crust.',
     kw: ['brioche recipe', 'french butter bread', 'brioche nanterre', 'enriched bread dough'],
@@ -513,6 +517,7 @@ module.exports = {
   },
 
   'madeleines': {
+    rest: [120, 'chilling'],
     d: 'Proust\'s shell-shaped tea cakes, with the crisp browned edge and the hump on the back that tells you the batter was properly cold. They are at their peak for about ten minutes after leaving the oven.',
     meta: 'Classic French madeleines with browned butter, a crisp shell edge and the signature hump. Best eaten warm.',
     kw: ['madeleine recipe', 'french shell cakes', 'brown butter madeleines', 'proust madeleines'],

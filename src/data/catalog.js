@@ -37,7 +37,7 @@ module.exports = [
   c('bruschetta', 'Tomato Bruschetta', 'Italian', 'Appetizers', 'Easy', 15, 5, 6, 4.7, 2044, ['Vegan', 'Dairy-Free'], [], 'Bruschetta tomato'),
   c('arancini', 'Sicilian Arancini', 'Italian', 'Appetizers', 'Hard', 40, 25, 6, 4.6, 878, [], [], 'Arancini rice balls'),
   c('focaccia', 'Rosemary Focaccia', 'Italian', 'Baking', 'Medium', 25, 25, 8, 4.8, 2530, ['Vegan', 'Dairy-Free'], ['new'], 'Focaccia bread rosemary'),
-  c('tiramisu', 'Classic Tiramisu', 'Italian', 'Desserts', 'Medium', 30, 0, 8, 4.9, 6120, ['Vegetarian'], ['editors', 'trending'], 'Tiramisu'),
+  c('tiramisu', 'Classic Tiramisu', 'Italian', 'Desserts', 'Medium', 30, 12, 8, 4.9, 6120, ['Vegetarian'], ['editors', 'trending'], 'Tiramisu'),
   c('panna-cotta', 'Vanilla Panna Cotta', 'Italian', 'Desserts', 'Easy', 15, 5, 6, 4.7, 1466, ['Gluten-Free'], [], 'Panna cotta'),
 
   /* ----------------------------------------------------------- French (16) */

@@ -138,6 +138,7 @@ module.exports = {
   },
 
   'twice-cooked-pork': {
+    rest: [120, 'chilling'],
     d: 'Sichuan\'s huiguorou: pork belly simmered whole, cooled, sliced paper-thin and returned to a searing wok with doubanjiang and leeks until the edges curl into little cups. The definitive Sichuan home dish.',
     meta: 'Sichuan twice-cooked pork (huiguorou) — simmered then stir-fried belly with fermented bean paste and leeks.',
     kw: ['twice cooked pork recipe', 'huiguorou', 'sichuan pork belly', 'doubanjiang stir fry'],
@@ -178,6 +179,7 @@ module.exports = {
   },
 
   'xiao-long-bao': {
+    rest: [300, 'chilling'],
     d: 'Shanghai soup dumplings: pleated parcels holding pork and a mouthful of hot broth, created by folding chilled aspic into the filling so it melts as they steam. Eighteen pleats is the traditional standard.',
     meta: 'Xiao long bao — Shanghai soup dumplings with pork and gelled broth in a thin pleated wrapper, steamed 8 minutes.',
     kw: ['xiao long bao recipe', 'soup dumplings', 'shanghai dumplings', 'pork soup dumpling'],
@@ -227,6 +229,7 @@ module.exports = {
   },
 
   'char-siu-bao': {
+    rest: [210, 'chilling'],
     d: 'Cantonese steamed barbecue pork buns: a snow-white, faintly sweet dough that bursts open at the top to reveal sticky char siu inside. The single most recognisable item on any dim sum trolley.',
     meta: 'Char siu bao — fluffy Cantonese steamed buns filled with sticky barbecue pork, split open at the top.',
     kw: ['char siu bao recipe', 'steamed pork buns', 'dim sum bao', 'chinese bbq pork bun'],
@@ -491,6 +494,7 @@ module.exports = {
   },
 
   'congee': {
+    rest: [120, 'freezing'],
     d: 'Rice cooked in eight times its volume of stock until the grains collapse into a silken porridge, served with century egg and pork. Breakfast across southern China, and the first thing anyone eats when recovering from illness.',
     meta: 'Century egg and pork congee — silken Cantonese rice porridge simmered until the grains collapse, with classic toppings.',
     kw: ['congee recipe', 'century egg congee', 'chinese rice porridge', 'jook recipe'],

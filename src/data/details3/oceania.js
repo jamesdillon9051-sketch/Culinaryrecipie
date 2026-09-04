@@ -3,6 +3,7 @@
 
 module.exports = {
   'lamingtons': {
+    rest: [540, 'chilling'],
     d: 'Squares of day-old butter sponge dipped in thin chocolate icing and rolled in desiccated coconut, sometimes split and filled with jam and cream.',
     meta: 'Lamingtons — squares of butter sponge dipped in chocolate icing and rolled in desiccated coconut.',
     kw: ['lamington recipe', 'australian lamingtons', 'chocolate coconut cake', 'sponge squares'],
@@ -49,10 +50,11 @@ module.exports = {
     ],
     pair: ['A pot of tea', 'Whipped cream', 'Strong coffee'],
     store: 'Airtight at room temperature for 4 days. Unfilled lamingtons freeze 2 months.',
-    nut: [412, 18, 58, 5, 3, 44, 220]
+    nut: [349, 18, 58, 5, 3, 44, 220]
   },
 
   'pavlova': {
+    rest: [240, 'cooling'],
     d: 'A meringue with a crisp shell and a soft marshmallow middle, baked low, cooled slowly in the oven, and topped with cream and fruit.',
     meta: 'Pavlova — crisp-shelled meringue with a marshmallow centre, topped with cream and fresh fruit.',
     kw: ['pavlova recipe', 'meringue dessert', 'marshmallow meringue', 'summer dessert with cream'],
@@ -89,7 +91,7 @@ module.exports = {
     ],
     pair: ['Passion fruit and berries', 'A glass of dessert wine', 'Strong coffee'],
     store: 'The bare meringue keeps 2 days in an airtight box. Top it no more than an hour before serving.',
-    nut: [486, 26, 58, 5, 2, 54, 90]
+    nut: [381, 26, 58, 5, 2, 54, 90]
   },
 
   'anzac-biscuits': {
@@ -126,7 +128,7 @@ module.exports = {
     ],
     pair: ['A pot of tea', 'A glass of cold milk', 'Strong coffee'],
     store: 'Airtight at room temperature for 2 weeks. The dough freezes 3 months as balls.',
-    nut: [186, 10, 22, 2, 2, 12, 90]
+    nut: [146, 10, 22, 2, 2, 12, 90]
   },
 
   'kalua-pork': {
@@ -165,7 +167,7 @@ module.exports = {
     ],
     pair: ['Steamed rice and macaroni salad', 'Lomi lomi salmon', 'A cold lager'],
     store: 'Refrigerate up to 4 days in its juices and freeze 3 months.',
-    nut: [512, 34, 2, 48, 0, 0, 1420]
+    nut: [576, 34, 2, 48, 0, 0, 1420]
   },
 
   'loco-moco': {

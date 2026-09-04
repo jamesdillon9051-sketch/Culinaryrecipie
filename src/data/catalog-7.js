@@ -43,11 +43,11 @@ module.exports = [
   /* --- Healthy ---------------------------------------------------------- */
   c('atakilt-wat', 'Atakilt Wat', 'Ethiopian', 'Healthy', 'Easy', 15, 30, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Atakilt wat ethiopian cabbage carrot'),
   c('kachumbari', 'Kachumbari', 'Kenyan', 'Healthy', 'Easy', 15, 0, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Kachumbari kenyan tomato onion salad'),
-  c('curtido', 'Curtido', 'Salvadoran', 'Healthy', 'Easy', 20, 0, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Curtido salvadoran cabbage slaw'),
+  c('curtido', 'Curtido', 'Salvadoran', 'Healthy', 'Easy', 20, 5, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Curtido salvadoran cabbage slaw'),
   c('mechouia-salad', 'Salade Méchouia', 'Tunisian', 'Healthy', 'Medium', 20, 25, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Salade mechouia tunisienne grilled peppers'),
   c('porotos-granados', 'Porotos Granados', 'Chilean', 'Healthy', 'Medium', 20, 45, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Porotos granados chilean bean stew'),
   c('zaalouk', 'Zaalouk', 'Moroccan', 'Healthy', 'Easy', 15, 30, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Zaalouk moroccan aubergine salad'),
-  c('kisir', 'Kısır', 'Turkish', 'Healthy', 'Easy', 25, 0, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Kisir turkish bulgur salad'),
+  c('kisir', 'Kısır', 'Turkish', 'Healthy', 'Easy', 25, 3, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Kisir turkish bulgur salad'),
   c('gomae', 'Gomae', 'Japanese', 'Healthy', 'Easy', 10, 5, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Gomae spinach sesame japanese'),
   c('oi-muchim', 'Oi Muchim', 'Korean', 'Healthy', 'Easy', 15, 0, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Oi muchim korean cucumber salad')
 ];

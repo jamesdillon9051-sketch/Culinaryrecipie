@@ -2,6 +2,7 @@
 
 module.exports = {
   'croquetas': {
+    rest: [510, 'chilling'],
     d: 'A very thick béchamel studded with jamón, chilled overnight, rolled, crumbed and fried so the outside is crisp and the inside is almost liquid.',
     meta: 'Jamón croquetas — a thick béchamel with cured ham, chilled overnight, crumbed and fried until molten.',
     kw: ['croquetas recipe', 'jamon croquetas', 'spanish tapas', 'ham croquettes'],
@@ -41,10 +42,11 @@ module.exports = {
     ],
     pair: ['A glass of fino sherry', 'Pan con tomate', 'A cold beer'],
     store: 'Freeze crumbed and uncooked for 2 months; fry from frozen at 180C for 4 minutes.',
-    nut: [148, 9, 11, 5, 1, 1, 380]
+    nut: [125, 9, 11, 5, 1, 1, 380]
   },
 
   'crema-catalana': {
+    rest: [270, 'chilling'],
     d: 'A cornflour-set custard flavoured with lemon and cinnamon, chilled in shallow dishes and burnt under a hot iron just before it is eaten.',
     meta: 'Crema catalana — lemon and cinnamon custard set with cornflour and burnt under a hot iron.',
     kw: ['crema catalana recipe', 'catalan cream', 'spanish custard dessert', 'burnt cream'],
@@ -186,10 +188,11 @@ module.exports = {
     ],
     pair: ['A crisp vinho verde', 'Crusty bread', 'A green salad'],
     store: 'Best immediately. Leftovers keep 1 day refrigerated but the rice absorbs everything.',
-    nut: [612, 18, 62, 48, 4, 8, 1620]
+    nut: [752, 18, 62, 48, 4, 8, 1620]
   },
 
   'bifana': {
+    rest: [240, 'chilling'],
     d: 'Thin pork steaks marinated in white wine, garlic and paprika, cooked fast in the marinade and piled into a crusty roll with mustard.',
     meta: 'Bifana — Portuguese pork sandwich with white wine, garlic and paprika marinade in a crusty roll.',
     kw: ['bifana recipe', 'portuguese pork sandwich', 'pork in white wine', 'lisbon street food'],
@@ -228,6 +231,6 @@ module.exports = {
     ],
     pair: ['A cold Sagres or Super Bock', 'Yellow mustard and piri-piri', 'Chips'],
     store: 'The marinated pork keeps 2 days raw. Cooked bifanas are best eaten immediately.',
-    nut: [486, 18, 38, 38, 2, 3, 1080]
+    nut: [566, 18, 38, 38, 2, 3, 1080]
   }
 };

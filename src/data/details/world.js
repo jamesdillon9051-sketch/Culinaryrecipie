@@ -91,6 +91,7 @@ module.exports = {
   },
 
   'beef-empanadas': {
+    rest: [540, 'chilling'],
     d: 'Argentinian empanadas with a juicy, gently spiced beef filling, olives and egg, baked in a short pastry that stays crisp. Chilling the filling overnight is the trick to a juicy centre without a leaking crust.',
     meta: 'Argentinian beef empanadas with olives, egg and a juicy spiced filling in crisp baked pastry.',
     kw: ['empanadas recipe', 'argentinian beef empanadas', 'baked empanadas', 'empanada dough'],
@@ -189,6 +190,7 @@ module.exports = {
   },
 
   'cuban-sandwich': {
+    rest: [480, 'marinating'],
     d: 'Roast pork, ham, Swiss cheese, pickles and mustard pressed in Cuban bread until the cheese melts and the crust flattens and crisps. No lettuce, no tomato, no mayonnaise, no argument.',
     meta: 'The classic Cuban sandwich — roast pork, ham, Swiss, pickles and mustard, pressed until crisp. No mayo, no lettuce.',
     kw: ['cuban sandwich recipe', 'cubano sandwich', 'pressed sandwich', 'roast pork sandwich'],
@@ -421,6 +423,7 @@ module.exports = {
   },
 
   'lahmacun': {
+    rest: [90, 'proving'],
     d: 'Paper-thin Turkish flatbread spread with spiced minced lamb and baked in a fierce oven for four minutes. Rolled up with parsley, onion and a hard squeeze of lemon.',
     meta: 'Turkish lahmacun with paper-thin dough and spiced lamb topping, baked in minutes. Rolled with parsley and lemon.',
     kw: ['lahmacun recipe', 'turkish pizza', 'spiced lamb flatbread', 'turkish street food'],
@@ -642,6 +645,7 @@ module.exports = {
   },
 
   'overnight-oats': {
+    rest: [360, 'chilling'],
     d: 'Oats, milk, yogurt and chia soaked overnight into something thick and creamy, ready to eat straight from the jar. Five minutes of work for a week of breakfasts.',
     meta: 'Creamy overnight oats with chia and yogurt, ready in the morning. Five minutes of prep for a week of breakfasts.',
     kw: ['overnight oats recipe', 'meal prep breakfast', 'healthy breakfast', 'chia oats'],

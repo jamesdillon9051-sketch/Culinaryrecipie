@@ -342,6 +342,7 @@ module.exports = {
   },
 
   'mango-sticky-rice': {
+    rest: [240, 'soaking'],
     d: 'Warm coconut-soaked glutinous rice with cold ripe mango and a salty coconut sauce poured over. Naturally vegan, and one of the best desserts in the world.',
     meta: 'Thai mango sticky rice with coconut-soaked glutinous rice and salted coconut cream. Naturally vegan and gluten-free.',
     kw: ['mango sticky rice recipe', 'khao niaow ma muang', 'thai dessert', 'vegan dessert'],
@@ -487,6 +488,7 @@ module.exports = {
   },
 
   'bulgogi': {
+    rest: [75, 'freezing'],
     d: 'Thinly sliced beef marinated in soy, pear and sesame, then seared fast so it caramelises without stewing. Twenty minutes of marinating is enough, though longer is better.',
     meta: 'Korean beef bulgogi with a soy, pear and sesame marinade, seared hard for caramelised edges. Ready in 30 minutes.',
     kw: ['bulgogi recipe', 'korean bbq beef', 'beef marinade', 'korean dinner'],
@@ -617,6 +619,7 @@ module.exports = {
   },
 
   'kimchi': {
+    rest: [1590, 'proving'],
     d: 'Napa cabbage salted, coated in a chilli and fermented seafood paste, and left to ferment until it fizzes. Two days on the counter, then months of improvement in the fridge.',
     meta: 'Traditional napa cabbage kimchi with gochugaru and a rice-flour paste. Ferments in 2 days, improves for months.',
     kw: ['kimchi recipe', 'napa cabbage kimchi', 'fermented vegetables', 'korean side dish'],
@@ -756,6 +759,7 @@ module.exports = {
   },
 
   'banh-mi': {
+    rest: [90, 'pickling'],
     d: 'A crackling baguette filled with pâté, mayonnaise, cold cuts or grilled pork, pickled carrot and daikon, cucumber, coriander and chilli. The finest sandwich colonialism ever accidentally produced.',
     meta: 'Vietnamese bánh mì with quick-pickled carrot and daikon, pâté and grilled pork in a crackling baguette.',
     kw: ['banh mi recipe', 'vietnamese sandwich', 'pickled carrot daikon', 'do chua'],
@@ -852,6 +856,7 @@ module.exports = {
   },
 
   'bun-cha': {
+    rest: [90, 'marinating'],
     d: 'Hanoi\'s great lunch: charred pork patties and belly slices floating in a warm sweet-sour dipping broth, with cold rice noodles and a mountain of herbs to dunk.',
     meta: 'Hanoi bún chả with charred pork patties in a warm nuoc cham broth, served with cold noodles and herbs.',
     kw: ['bun cha recipe', 'vietnamese grilled pork', 'nuoc cham', 'hanoi noodles'],

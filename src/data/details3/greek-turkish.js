@@ -36,7 +36,7 @@ module.exports = {
     ],
     pair: ['Roast chicken or lamb', 'Tzatziki', 'A Greek white such as Assyrtiko'],
     store: 'Refrigerate up to 3 days. Reheat at 200C fan for 12 minutes to bring back the edges.',
-    nut: [342, 18, 42, 5, 4, 3, 780]
+    nut: [285, 18, 42, 5, 4, 3, 780]
   },
 
   'dolmades': {
@@ -80,7 +80,7 @@ module.exports = {
     ],
     pair: ['Thick Greek yoghurt', 'A meze spread', 'An ouzo or a crisp white'],
     store: 'Refrigerate up to 5 days and serve at room temperature. They freeze 2 months.',
-    nut: [186, 9, 24, 3, 2, 3, 420]
+    nut: [159, 9, 24, 3, 2, 3, 420]
   },
 
   'greek-yogurt-honey': {
@@ -112,10 +112,11 @@ module.exports = {
     ],
     pair: ['Strong Greek coffee', 'Fresh figs', 'A slice of orange cake'],
     store: 'Strained yoghurt keeps 4 days refrigerated. Assemble each bowl to order.',
-    nut: [486, 32, 34, 18, 2, 30, 120]
+    nut: [426, 32, 34, 18, 2, 30, 120]
   },
 
   'iskender-kebab': {
+    rest: [120, 'marinating'],
     d: 'Sliced döner laid over cubes of pide bread, drenched in a light tomato sauce, with browned butter poured over at the table and yoghurt on the side.',
     meta: 'İskender kebab — sliced lamb over pide bread with tomato sauce, browned butter and yoghurt.',
     kw: ['iskender kebab recipe', 'turkish doner', 'bursa kebab', 'lamb with tomato and butter'],
@@ -211,6 +212,7 @@ module.exports = {
   },
 
   'kunefe': {
+    rest: [60, 'soaking'],
     d: 'Shredded kadayif pastry packed around a layer of stretchy unsalted cheese, fried in butter on both sides and soaked in cold syrup while still hot.',
     meta: 'Künefe — shredded kadayif pastry around melting cheese, fried in butter and soaked in cold syrup.',
     kw: ['kunefe recipe', 'kunafa with cheese', 'turkish cheese dessert', 'kadayif pastry'],
@@ -248,6 +250,6 @@ module.exports = {
     ],
     pair: ['Turkish coffee', 'Kaymak clotted cream', 'A glass of cold water'],
     store: 'Eat immediately. It can be reheated in a pan but never regains the same texture.',
-    nut: [686, 38, 78, 16, 2, 54, 420]
+    nut: [608, 38, 78, 16, 2, 54, 420]
   }
 };

@@ -170,6 +170,11 @@ function loadRecipes() {
       if (!detail[field]) throw new Error(`"${row.slug}" is missing the "${field}" field`);
     }
     if (detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
+    /* Unattended waiting — proving, chilling, marinating. Optional, because most
+       recipes have none, but half-filled is always a mistake. */
+    if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
+      throw new Error(`"${row.slug}" rest must be [minutes, label]`);
+    }
 
     const image = validateImage(images[row.slug] || {}, row.slug);
     const recency = row.badges.includes('new') ? index * 2 : 40 + index * 5;
@@ -183,7 +188,13 @@ function loadRecipes() {
     const built = {
       ...row,
       tags,
+      /* Hands-on time. Everything that sorts, filters or advertises a recipe as
+         quick uses this, because a 12-hour prove costs the cook no attention. */
       totalTime: row.prep + row.cook,
+      restTime: detail.rest ? detail.rest[0] : 0,
+      restLabel: detail.rest ? detail.rest[1] : '',
+      /* Start to finish, waiting included — what the schema and the page promise. */
+      elapsedTime: row.prep + row.cook + (detail.rest ? detail.rest[0] : 0),
       description: detail.d,
       meta: clamp(detail.meta, 158),
       keywords: detail.kw,

@@ -44,6 +44,6 @@ module.exports = [
   c('tepache', 'Tepache', 'Mexican', 'Drinks', 'Easy', 15, 0, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Tepache fermented pineapple drink'),
   c('sorrel-drink', 'Sorrel Drink', 'Trinidadian', 'Drinks', 'Easy', 15, 15, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Sorrel drink hibiscus caribbean'),
   c('sobolo', 'Sobolo', 'Ghanaian', 'Drinks', 'Easy', 15, 20, 8, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Sobolo hibiscus drink ghana'),
-  c('kvass', 'Bread Kvass', 'Ukrainian', 'Drinks', 'Medium', 20, 0, 8, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Kvass bread drink glass'),
+  c('kvass', 'Bread Kvass', 'Ukrainian', 'Drinks', 'Medium', 20, 20, 8, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Kvass bread drink glass'),
   c('bandrek', 'Bandrek', 'Indonesian', 'Drinks', 'Easy', 10, 20, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'Bandrek indonesian ginger drink')
 ];

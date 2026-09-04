@@ -52,6 +52,7 @@ module.exports = {
   },
 
   'danish-pastry': {
+    rest: [165, 'chilling'],
     d: 'Laminated yeast dough folded around cold butter three times, shaped into spandauer and cooked until the layers separate and the custard sets.',
     meta: 'Danish pastries — laminated yeast dough folded three times, filled with custard and baked golden.',
     kw: ['danish pastry recipe', 'wienerbrod', 'laminated dough', 'spandauer pastry'],
@@ -98,10 +99,11 @@ module.exports = {
     ],
     pair: ['Strong black coffee', 'A glass of cold milk', 'Fresh berries'],
     store: 'Best on the day. Freeze baked for 1 month and refresh at 170C fan for 6 minutes.',
-    nut: [438, 24, 48, 7, 2, 18, 280]
+    nut: [351, 24, 48, 7, 2, 18, 280]
   },
 
   'frikadeller': {
+    rest: [90, 'resting'],
     d: 'Danish pork and veal meatballs, flattened into ovals and fried in butter until brown on both sides, served with potatoes and pickled cucumber.',
     meta: 'Frikadeller — Danish pork and veal meatballs fried in butter, with potatoes and pickled cucumber.',
     kw: ['frikadeller recipe', 'danish meatballs', 'pork meatballs', 'scandinavian dinner'],
@@ -225,7 +227,7 @@ module.exports = {
     ],
     pair: ['Whipped cream and cloudberry jam', 'Strong coffee', 'A glass of gløgg'],
     store: 'Airtight at room temperature for 2 weeks, unfilled. Do not refrigerate.',
-    nut: [96, 6, 10, 1, 0, 6, 30]
+    nut: [73, 6, 10, 1, 0, 6, 30]
   },
 
   'karelian-pies': {
@@ -271,7 +273,7 @@ module.exports = {
     ],
     pair: ['Egg butter', 'A bowl of soup', 'Strong coffee'],
     store: 'Refrigerate 3 days or freeze 3 months. Reheat at 180C fan for 8 minutes and re-butter.',
-    nut: [212, 12, 22, 5, 2, 2, 420]
+    nut: [181, 12, 22, 5, 2, 2, 420]
   },
 
   'salmon-soup-lohikeitto': {
@@ -315,6 +317,7 @@ module.exports = {
   },
 
   'prinsesstarta': {
+    rest: [120, 'chilling'],
     d: 'Sponge, raspberry jam, pastry cream and a great dome of whipped cream, all wrapped in a sheet of green marzipan with a pink rose on top.',
     meta: 'Prinsesstårta — Swedish sponge with jam, pastry cream and a cream dome under green marzipan.',
     kw: ['prinsesstarta recipe', 'swedish princess cake', 'green marzipan cake', 'cream dome cake'],
@@ -360,7 +363,7 @@ module.exports = {
     ],
     pair: ['Strong coffee', 'A glass of sparkling wine', 'Fresh raspberries'],
     store: 'Refrigerate up to 3 days. Do not freeze — the marzipan sweats.',
-    nut: [612, 34, 68, 8, 2, 52, 140]
+    nut: [480, 34, 68, 8, 2, 52, 140]
   },
 
   'toast-skagen': {
@@ -401,6 +404,6 @@ module.exports = {
     ],
     pair: ['A crisp white wine or champagne', 'A shot of aquavit', 'Lemon wedges'],
     store: 'The prawn mixture keeps 24 hours refrigerated. Fry the bread to order.',
-    nut: [486, 34, 24, 22, 2, 3, 1080]
+    nut: [430, 34, 24, 22, 2, 3, 1080]
   }
 };

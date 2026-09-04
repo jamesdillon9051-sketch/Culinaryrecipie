@@ -2,6 +2,7 @@
 
 module.exports = {
   'chicken-kiev': {
+    rest: [210, 'freezing'],
     d: 'A chicken breast wrapped around a core of garlic and herb butter, breadcrumbed and fried so the butter is still molten and floods out when cut. The moment of cutting is the entire point of the dish.',
     meta: 'Chicken Kiev — breadcrumbed chicken breast filled with garlic herb butter that floods out when cut.',
     kw: ['chicken kiev recipe', 'chicken kyiv', 'garlic butter chicken', 'breaded stuffed chicken'],
@@ -49,6 +50,7 @@ module.exports = {
   },
 
   'blini': {
+    rest: [90, 'proving'],
     d: 'Small yeasted buckwheat pancakes, thicker and more savoury than a crêpe, served warm with soured cream and whatever you can afford on top. Traditionally eaten by the dozen during Maslenitsa.',
     meta: 'Russian blini — small yeasted buckwheat pancakes served warm with soured cream, dill and smoked fish.',
     kw: ['blini recipe', 'russian pancakes', 'buckwheat blini', 'yeasted pancakes'],
@@ -93,6 +95,7 @@ module.exports = {
   },
 
   'olivier-salad': {
+    rest: [660, 'draining'],
     d: 'Diced potato, carrot, egg, pickle and ham bound in mayonnaise. Known as Russian salad almost everywhere else, and the fixed centre of every Soviet-era New Year table.',
     meta: 'Olivier salad — Russian potato salad with carrot, egg, peas, pickles and ham in mayonnaise.',
     kw: ['olivier salad recipe', 'russian salad', 'new year salad', 'potato salad russian'],
@@ -137,6 +140,7 @@ module.exports = {
   },
 
   'golabki': {
+    rest: [1440, 'freezing'],
     d: 'Cabbage leaves rolled around pork, beef and rice, then braised in tomato until the leaves are soft enough to cut with a fork. Polish home cooking, and the name means "little pigeons".',
     meta: 'Gołąbki — Polish cabbage rolls stuffed with pork, beef and rice, braised in a tomato sauce.',
     kw: ['golabki recipe', 'polish cabbage rolls', 'stuffed cabbage', 'cabbage rolls tomato'],
@@ -231,6 +235,7 @@ module.exports = {
   },
 
   'sauerbraten': {
+    rest: [4320, 'chilling'],
     d: 'Beef marinated in vinegar and wine for three days, then braised and served with a sweet-sour gravy thickened with crushed gingerbread. Germany\'s national dish, and one that requires planning.',
     meta: 'German sauerbraten — beef marinated three days in vinegar and wine, braised with a gingerbread gravy.',
     kw: ['sauerbraten recipe', 'german pot roast', 'marinated beef', 'lebkuchen gravy'],
@@ -280,6 +285,7 @@ module.exports = {
   },
 
   'gravlax': {
+    rest: [2880, 'curing'],
     d: 'Salmon cured for two days under salt, sugar and a great deal of dill, then sliced paper-thin and served with a sweet mustard sauce. No heat, no smoke, and almost no effort.',
     meta: 'Gravlax — Nordic dill-cured salmon with salt and sugar, sliced thin and served with mustard sauce.',
     kw: ['gravlax recipe', 'cured salmon', 'dill cured salmon', 'hovmastarsas'],
@@ -326,6 +332,7 @@ module.exports = {
   },
 
   'kanelbullar': {
+    rest: [105, 'proving'],
     d: 'Swedish cinnamon buns scented with cardamom, twisted into knots rather than rolled into spirals, and finished with pearl sugar instead of icing. Less sweet than the American kind, and better for it.',
     meta: 'Kanelbullar — Swedish cardamom and cinnamon buns twisted into knots and topped with pearl sugar.',
     kw: ['kanelbullar recipe', 'swedish cinnamon buns', 'cardamom buns', 'fika buns'],

@@ -277,6 +277,7 @@ module.exports = {
   },
 
   'castella': {
+    rest: [480, 'resting'],
     d: 'A honey sponge with an astonishingly fine, moist crumb and a dark top, baked in a wooden frame. Portuguese missionaries brought it to Nagasaki in the sixteenth century and Japan has been refining it since.',
     meta: 'Castella — Japanese honey sponge with a fine, moist crumb and dark top. Rests overnight before slicing.',
     kw: ['castella recipe', 'kasutera', 'japanese honey cake', 'nagasaki castella'],
@@ -356,6 +357,7 @@ module.exports = {
   },
 
   'kakuni': {
+    rest: [480, 'chilling'],
     d: 'Pork belly simmered for two and a half hours in dashi, soy and sake until a chopstick passes through it without resistance and the fat has turned translucent. Nagasaki\'s contribution to the braise.',
     meta: 'Buta no kakuni — Japanese braised pork belly, simmered until a chopstick passes through, with egg and mustard.',
     kw: ['kakuni recipe', 'japanese braised pork belly', 'buta no kakuni', 'braised pork belly soy'],

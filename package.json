@@ -15,7 +15,9 @@
     "serve": "npm run build && node tools/serve.js",
     "check": "node tools/check.js",
     "readme": "node tools/sync-readme.js",
-    "diet": "node tools/diet-audit.js"
+    "diet": "node tools/diet-audit.js",
+    "timing": "node tools/timing-audit.js",
+    "nutrition": "node tools/nutrition-audit.js"
   },
   "keywords": [
     "recipes",

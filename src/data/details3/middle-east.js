@@ -3,6 +3,7 @@
 
 module.exports = {
   'shish-taouk': {
+    rest: [480, 'chilling'],
     d: 'Chicken cubes marinated in yoghurt, garlic and lemon with a little tomato purée, grilled hard and served with toum and flatbread.',
     meta: 'Shish taouk — Lebanese chicken skewers marinated in yoghurt, garlic and lemon, grilled and served with toum.',
     kw: ['shish taouk recipe', 'lebanese chicken skewers', 'yoghurt marinated chicken', 'toum garlic sauce'],
@@ -48,7 +49,7 @@ module.exports = {
     ],
     pair: ['Toum and pickled turnips', 'Flatbread and fattoush', 'An arak with ice and water'],
     store: 'Marinated chicken keeps 2 days raw. Toum keeps 3 weeks refrigerated in a sealed jar.',
-    nut: [548, 34, 12, 46, 1, 4, 1180]
+    nut: [598, 34, 12, 46, 1, 4, 1180]
   },
 
   'moutabal': {
@@ -88,10 +89,11 @@ module.exports = {
     ],
     pair: ['Warm flatbread', 'A meze spread', 'An arak'],
     store: 'Refrigerate up to 4 days under a film of olive oil. Do not freeze.',
-    nut: [186, 14, 12, 4, 6, 6, 420]
+    nut: [140, 14, 12, 4, 6, 6, 420]
   },
 
   'maamoul': {
+    rest: [540, 'resting'],
     d: 'Semolina shortbread moulded around dates, walnuts or pistachios, pressed in a carved wooden mould and baked pale, then dusted with icing sugar.',
     meta: 'Maamoul — semolina shortbread filled with dates or nuts, pressed in carved moulds and baked pale.',
     kw: ['maamoul recipe', 'date filled cookies', 'semolina shortbread', 'eid and easter cookies'],
@@ -138,7 +140,7 @@ module.exports = {
     ],
     pair: ['Arabic coffee with cardamom', 'Mint tea', 'Fresh dates'],
     store: 'Airtight at room temperature for 3 weeks. Freezes 3 months.',
-    nut: [212, 12, 24, 3, 2, 10, 40]
+    nut: [171, 12, 24, 3, 2, 10, 40]
   },
 
   'ghormeh-sabzi': {
@@ -230,6 +232,7 @@ module.exports = {
   },
 
   'tahdig': {
+    rest: [120, 'soaking'],
     d: 'The golden crust at the bottom of the rice pot, made deliberately: parboiled basmati steamed over a layer of yoghurt rice, potato or flatbread until it forms a solid disc.',
     meta: 'Tahdig — the golden Persian rice crust, made by steaming parboiled basmati over yoghurt rice or potato.',
     kw: ['tahdig recipe', 'persian crispy rice', 'chelo tahdig', 'rice crust'],
@@ -267,10 +270,11 @@ module.exports = {
     ],
     pair: ['Ghormeh sabzi or fesenjan', 'Shirazi salad', 'Doogh'],
     store: 'Best fresh. Refrigerate 3 days; the crust softens but reheats reasonably in a dry pan.',
-    nut: [486, 18, 72, 8, 2, 2, 780]
+    nut: [432, 18, 72, 8, 2, 2, 780]
   },
 
   'joojeh-kabab': {
+    rest: [480, 'chilling'],
     d: 'Chicken marinated overnight in saffron, lemon and grated onion, grilled over coals and basted with saffron butter as it cooks.',
     meta: 'Joojeh kabab — Persian saffron chicken skewers marinated overnight and basted with saffron butter.',
     kw: ['joojeh kabab recipe', 'persian saffron chicken', 'chicken kabob', 'saffron marinade'],
@@ -313,7 +317,7 @@ module.exports = {
     ],
     pair: ['Steamed basmati with tahdig', 'Grilled tomatoes and sumac onions', 'Doogh'],
     store: 'Marinate up to 24 hours. Cooked chicken keeps 3 days and is good cold in flatbread.',
-    nut: [512, 32, 8, 46, 1, 3, 1180]
+    nut: [574, 32, 8, 46, 1, 3, 1180]
   },
 
   'ash-reshteh': {
@@ -406,10 +410,11 @@ module.exports = {
     ],
     pair: ['Pickled cucumbers and zhoug', 'A cold beer', 'Mint lemonade'],
     store: 'Fry the aubergine up to 2 days ahead and keep refrigerated. Assemble to order.',
-    nut: [742, 42, 68, 22, 12, 10, 1420]
+    nut: [638, 42, 68, 22, 12, 10, 1420]
   },
 
   'malabi': {
+    rest: [180, 'chilling'],
     d: 'A set milk pudding perfumed with rose water, poured into glasses and topped with red syrup, coconut and crushed pistachios.',
     meta: 'Malabi — rose-scented set milk pudding with red syrup, coconut and crushed pistachios.',
     kw: ['malabi recipe', 'rose milk pudding', 'israeli dessert', 'muhallebi'],
@@ -499,10 +504,11 @@ module.exports = {
     ],
     pair: ['Grilled chicken or halloumi', 'Labneh', 'A crisp white wine'],
     store: 'Refrigerate up to 3 days. Bring back to room temperature and refresh with lemon before serving.',
-    nut: [486, 24, 56, 12, 7, 8, 720]
+    nut: [428, 24, 56, 12, 7, 8, 720]
   },
 
   'musakhan': {
+    rest: [60, 'resting'],
     d: 'Palestinian roast chicken on flatbread soaked in olive oil, with a great quantity of sumac-stained onions and toasted pine nuts.',
     meta: 'Musakhan — Palestinian roast chicken on olive oil soaked flatbread with sumac onions and pine nuts.',
     kw: ['musakhan recipe', 'palestinian chicken', 'sumac onion chicken', 'taboon bread chicken'],
@@ -583,10 +589,11 @@ module.exports = {
     ],
     pair: ['Dates and Arabic coffee', 'A simple salad', 'Laban'],
     store: 'Refrigerate up to 3 days and freeze 2 months. Reheat with water, beating again as it warms.',
-    nut: [612, 28, 58, 34, 8, 2, 880]
+    nut: [650, 28, 58, 34, 8, 2, 880]
   },
 
   'knafeh-nabulsi': {
+    rest: [120, 'soaking'],
     d: 'Semolina-orange dough over a layer of fresh white cheese, baked until the base is crisp and the top is orange, then flooded with syrup.',
     meta: 'Knafeh nabulsi — orange semolina dough over fresh white cheese, baked and flooded with syrup.',
     kw: ['knafeh nabulsi recipe', 'palestinian knafeh', 'cheese knafeh', 'kunafa with semolina'],

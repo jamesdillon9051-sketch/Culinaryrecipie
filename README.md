@@ -108,7 +108,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 986 image files
-├── recipes/                     #    600 recipe pages
+├── recipes/                     #    658 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -188,7 +188,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 600 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 658 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -220,8 +220,8 @@ Everything below is implemented and verified by `npm run check` on every build.
       in `src/templates/layout.js` turns this off; it is left on because doing so
       removes the stars from search results, which is a trade to make deliberately.
       Real reviews override it automatically
-- [x] **FAQPage** on all 600 recipe pages and the about page — 3,447 questions,
-      about 5.7 a recipe, built by `src/lib/faq.js` from fields the page already
+- [x] **FAQPage** on all 658 recipe pages and the about page — 3,880 questions,
+      about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
       asked. `npm run check` reads every answer out of the schema and looks for
@@ -240,7 +240,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       written, so a phrase is only emitted where the data backs it: "gluten free X"
       needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
       400 kcal a serving, "can you freeze X" needs the storage note to say so. A
-      script checks all 600 recipes against those conditions and currently reports
+      script checks all 658 recipes against those conditions and currently reports
       no unsupported claim
 - [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
       guidance asks `keywords` for "other terms for your recipe", and forty-six
@@ -486,7 +486,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 600 recipes now passes, and `npm run check` runs the
+Every one of the site's 658 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -516,6 +516,47 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## Times and nutrition
+
+Two more numbers a reader plans around and cannot check before committing: how
+long the dish takes, and what a serving costs them.
+
+`npm run timing` reads each recipe's own method and holds the header to it.
+Ten recipes claimed **no cooking time at all** while their methods cooked —
+Eton mess baked meringues for 75 minutes under a header that said 15; tiramisu
+whisked zabaglione over simmering water for ten; kvass toasted its bread in a
+200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
+there.
+
+The larger problem was waiting. **202 of the 658 recipes** declare unattended
+waiting the header never mentioned — a pizza dough that cold-ferments for a day,
+a gravlax that cures for two, a stollen that matures for a fortnight. Rather
+than inflate prep and cook, which are hands-on time and are what "quick" is
+measured on, detail records now take an optional `rest: [minutes, label]`. The
+recipe page shows "50 min hands on, plus 12 hr 30 min chilling", the At a glance
+table gains a row, cards carry a `+ rest` marker, the FAQ answer spells out both
+halves, and the `totalTime` in the Recipe schema is start to finish. Sorting,
+filtering and the Quick Meals category still use hands-on time, because a
+twelve-hour prove costs the cook no attention.
+
+The audit re-derives the waiting time from the method text on every run and
+fails if it disagrees with the field — which means editing a step from "chill 2
+hours" to "chill 4 hours" and forgetting the record is a failed build, not a
+shipped lie.
+
+`npm run nutrition` checks each calorie figure against its own macronutrients
+using the Atwater factors — 4 kcal a gram for protein and carbohydrate, 9 for
+fat — plus the arithmetic that has to hold whatever the dish is: sugar and fibre
+cannot exceed carbohydrate, and nothing can be negative. Ninety-three recipes
+were wrong, tabbouleh understating by 14 kcal and a Jamaican patty overstating
+by 52. Spirits are exempt from the upper bound only, because ethanol carries 7
+kcal a gram and appears in none of the three macros — which is why a negroni
+legitimately states four times what its macros account for. Wine, cider and
+sherry vinegars are not spirits, and reading them as such was hiding three real
+errors.
+
+Both audits run inside `npm run check`.
 
 ## Browser support
 

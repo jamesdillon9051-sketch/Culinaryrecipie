@@ -26,6 +26,23 @@ function humanTime(minutes) {
   return `${h} hr ${m} min`;
 }
 
+/**
+ * Unattended waiting, written the way a cook thinks about it: 4320 -> "3 days",
+ * not "72 hr". Anything under a day falls through to humanTime.
+ */
+function humanWait(minutes) {
+  if (!minutes) return '';
+  if (minutes < 1440) return humanTime(minutes);
+  const days = Math.floor(minutes / 1440);
+  const hours = Math.round((minutes % 1440) / 60);
+  if (days >= 7) {
+    const weeks = Math.round(days / 7);
+    return weeks === 1 ? '1 week' : `${weeks} weeks`;
+  }
+  const dayPart = days === 1 ? '1 day' : `${days} days`;
+  return hours ? `${dayPart} ${hours} hr` : dayPart;
+}
+
 /** 95 -> "PT1H35M" (ISO 8601 duration for Recipe schema) */
 function isoDuration(minutes) {
   if (!minutes) return 'PT0M';
@@ -201,5 +218,5 @@ function photoCredit(img, { compact = false } = {}) {
     + `</p>`;
 }
 
-module.exports = { esc, jsonLd, humanTime, isoDuration, slugify, clamp, starsHtml, plural,
+module.exports = { esc, jsonLd, humanTime, humanWait, isoDuration, slugify, clamp, starsHtml, plural,
   photoCredit, NEEDS_CREDIT, CUISINES, CATEGORIES, DIET_TAGS };

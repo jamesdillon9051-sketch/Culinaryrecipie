@@ -19,6 +19,11 @@
 const fs = require('fs');
 const path = require('path');
 const stats = require('../src/data/stats');
+/* stats.js reads only the catalogues, because the site imports it on every
+   page. The counts below need the merged detail records, which is affordable
+   here: this runs after a build, not during one. */
+const { loadRecipes } = require('../src/build');
+const { questions } = require('../src/lib/faq');
 
 const README = path.join(__dirname, '..', 'README.md');
 
@@ -64,6 +69,11 @@ function wrap(text, width = 79) {
 function replacements(root) {
   const s = stats;
   const pages = pageCount(root);
+  const recipes = loadRecipes();
+  const faqCount = recipes.reduce((n, r) => n + questions(r).length, 0);
+  const perRecipe = (faqCount / recipes.length).toFixed(1);
+  const withRest = recipes.filter(r => r.restTime).length;
+  const rated = recipes.filter(r => r.rating).length;
   const pd = s.publicDomainImageCount;
   const by = s.attributionOnlyImageCount;
   const sa = s.shareAlikeImageCount;
@@ -88,6 +98,30 @@ function replacements(root) {
        of drift this file exists to stop. */
     [/world's \*\*[\d,]+ most famous recipes\*\*/,
      `world's **${s.recipeCount} most famous recipes**`],
+
+    /* Every other place the recipe count is spelled out in prose. Each one had
+       gone stale at 600 by the time the site held 658. */
+    [/#\s+\d[\d,]* recipe pages/,
+     `#    ${s.recipeCount} recipe pages`],
+
+    [/\*\*Recipe\*\* on all \d[\d,]* recipe pages/,
+     `**Recipe** on all ${s.recipeCount} recipe pages`],
+
+    [/\*\*FAQPage\*\* on all \d[\d,]* recipe pages and the about page — [\d,]+ questions,\n\s*about [\d.]+ a recipe/,
+     `**FAQPage** on all ${s.recipeCount} recipe pages and the about page — `
+       + `${faqCount.toLocaleString('en-GB')} questions,\n      about ${perRecipe} a recipe`],
+
+    [/script checks all \d[\d,]* recipes against those conditions/,
+     `script checks all ${s.recipeCount} recipes against those conditions`],
+
+    [/the other \d[\d,]* carry seeded/,
+     `the other ${rated} carry seeded`],
+
+    [/Every one of the site's \d[\d,]* recipes now passes/,
+     `Every one of the site's ${s.recipeCount} recipes now passes`],
+
+    [/\*\*[\d,]+ of the [\d,]+ recipes\*\* declare unattended/,
+     `**${withRest} of the ${s.recipeCount} recipes** declare unattended`],
   ];
 }
 

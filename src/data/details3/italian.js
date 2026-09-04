@@ -91,6 +91,7 @@ module.exports = {
   },
 
   'vitello-tonnato': {
+    rest: [540, 'chilling'],
     d: 'Cold poached veal under a sauce of tuna, anchovy and capers blended into mayonnaise. It sounds wrong on paper and is one of the great Piedmontese dishes.',
     meta: 'Vitello tonnato — cold poached veal sliced thin under a tuna, anchovy and caper sauce. Piedmontese classic.',
     kw: ['vitello tonnato recipe', 'veal with tuna sauce', 'piedmontese antipasto', 'italian cold veal'],
@@ -137,6 +138,7 @@ module.exports = {
   },
 
   'focaccia-genovese': {
+    rest: [900, 'chilling'],
     d: 'A high-hydration dough dimpled hard, flooded with olive oil and brine, and baked until the top is blistered gold and the crumb inside is full of holes. The brine is what makes it Genoese.',
     meta: 'Focaccia Genovese — high-hydration dough dimpled and flooded with olive oil and brine, baked blistered and golden.',
     kw: ['focaccia genovese recipe', 'italian focaccia', 'no knead focaccia', 'olive oil bread'],
@@ -257,6 +259,7 @@ module.exports = {
   },
 
   'caponata': {
+    rest: [120, 'resting'],
     d: 'Sicilian sweet-and-sour aubergine with celery, olives and capers, finished with vinegar and sugar. Served at room temperature, and better on the second day than the first.',
     meta: 'Sicilian caponata — sweet-and-sour aubergine with celery, olives and capers. Served at room temperature.',
     kw: ['caponata recipe', 'sicilian caponata', 'sweet and sour aubergine', 'italian antipasto'],
@@ -344,6 +347,7 @@ module.exports = {
   },
 
   'panettone': {
+    rest: [1200, 'proving'],
     d: 'The Milanese Christmas bread: a sweet, heavily enriched dough proved three times over two days, studded with candied peel and raisins, and hung upside down to cool so it does not collapse under its own weight.',
     meta: 'Panettone — the Milanese Christmas bread, proved over two days and cooled upside down to keep its height.',
     kw: ['panettone recipe', 'italian christmas bread', 'panettone from scratch', 'enriched sweet bread'],

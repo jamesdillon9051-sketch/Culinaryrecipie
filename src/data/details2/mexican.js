@@ -98,6 +98,7 @@ module.exports = {
   },
 
   'mission-burrito': {
+    rest: [120, 'marinating'],
     d: 'San Francisco\'s contribution to world food: a steamed flour tortilla wrapped around rice, beans, meat, cheese, salsa and guacamole, folded tight into a foil-wrapped cylinder heavy enough to require two hands.',
     meta: 'Mission-style burrito with cilantro-lime rice, pinto beans, carne asada, cheese, salsa and guacamole in a steamed tortilla.',
     kw: ['mission burrito recipe', 'san francisco burrito', 'carne asada burrito', 'how to fold a burrito'],
@@ -193,6 +194,7 @@ module.exports = {
   },
 
   'cochinita-pibil': {
+    rest: [480, 'chilling'],
     d: 'Yucatán pork marinated in achiote and bitter orange, wrapped in banana leaves and cooked slowly until it falls into strands. Traditionally buried in a pit oven, and remarkably forgiving in a domestic one.',
     meta: 'Cochinita pibil — Yucatán pork slow-cooked in achiote and bitter orange, wrapped in banana leaves.',
     kw: ['cochinita pibil recipe', 'yucatan pork', 'achiote pork', 'banana leaf pork'],
@@ -399,6 +401,7 @@ module.exports = {
   },
 
   'flan-napolitano': {
+    rest: [360, 'chilling'],
     d: 'A dense, cream-cheese-enriched custard baked over caramel and turned out so the syrup floods down the sides. Denser and richer than a French crème caramel, and the celebration dessert across Mexico.',
     meta: 'Flan napolitano — dense Mexican cream cheese custard baked over caramel and turned out in its own syrup.',
     kw: ['flan napolitano recipe', 'mexican flan', 'cream cheese flan', 'caramel custard'],
@@ -437,6 +440,7 @@ module.exports = {
   },
 
   'tres-leches-cake': {
+    rest: [240, 'chilling'],
     d: 'A light sponge soaked in three milks until it is completely saturated yet somehow not soggy, topped with softly whipped cream and cinnamon. The birthday cake of Latin America.',
     meta: 'Tres leches cake — airy sponge soaked in evaporated, condensed and whole milk, topped with whipped cream.',
     kw: ['tres leches cake recipe', 'three milk cake', 'latin american cake', 'milk soaked sponge'],

@@ -2,6 +2,7 @@
 
 module.exports = {
   'cinnamon-sugar-donuts': {
+    rest: [135, 'proving'],
     d: 'Yeasted doughnuts fried until they wear a pale band around the middle, then rolled straight into cinnamon sugar while still hot enough to make it cling. The white band is the sign of a properly proved ring.',
     meta: 'Yeasted cinnamon sugar doughnuts, fried golden with a pale proving band and rolled hot in spiced sugar.',
     kw: ['cinnamon sugar donuts recipe', 'yeast doughnuts', 'homemade donuts', 'fried doughnut recipe'],
@@ -44,6 +45,7 @@ module.exports = {
   },
 
   'bagels': {
+    rest: [780, 'chilling'],
     d: 'Boiled then baked, with a chewy interior and a glossy, blistered crust. The malt in the boiling water and the high-protein flour are what separate a real bagel from a bread roll with a hole in it.',
     meta: 'New York bagels — high-gluten dough, cold-proved overnight, boiled in malted water and baked until blistered.',
     kw: ['bagel recipe', 'new york bagels', 'homemade bagels', 'boiled bagels'],
@@ -169,6 +171,7 @@ module.exports = {
   },
 
   'peanut-butter-cookies': {
+    rest: [60, 'chilling'],
     d: 'Dense, sandy peanut butter cookies with the fork-crosshatch pressed into the top. That pattern is not decoration — the dough is too stiff to spread on its own and needs flattening.',
     meta: 'Classic peanut butter cookies with the fork crosshatch, soft centres and crisp sandy edges.',
     kw: ['peanut butter cookies recipe', 'fork crosshatch cookies', 'easy cookies', 'classic american cookies'],
@@ -208,6 +211,7 @@ module.exports = {
   },
 
   'pecan-pie': {
+    rest: [90, 'chilling'],
     d: 'A dense, chewy custard of eggs, syrup and butter under a layer of toasted pecans, in a blind-baked shell. Thanksgiving\'s richest dessert, and the one most often ruined by an underbaked base.',
     meta: 'Classic pecan pie with a chewy syrup custard, toasted pecans and a properly blind-baked pastry base.',
     kw: ['pecan pie recipe', 'thanksgiving pie', 'corn syrup pie', 'southern pecan pie'],
@@ -252,6 +256,7 @@ module.exports = {
   },
 
   'lemon-meringue-pie': {
+    rest: [180, 'chilling'],
     d: 'Sharp lemon curd in a crisp shell under a cloud of meringue browned at the tips. Three components, three ways to go wrong, and a very specific trick for stopping the meringue weeping.',
     meta: 'Lemon meringue pie with sharp cornflour lemon curd and a stable Swiss-style meringue that will not weep.',
     kw: ['lemon meringue pie recipe', 'lemon pie', 'meringue pie', 'no weep meringue'],

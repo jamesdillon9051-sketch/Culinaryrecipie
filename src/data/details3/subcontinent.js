@@ -105,10 +105,11 @@ module.exports = {
     ],
     pair: ['Naan', 'Lemon, ginger and chaat masala', 'Sweet lassi'],
     store: 'Refrigerate up to 4 days and freeze 3 months. Reheat with water, beating as it warms.',
-    nut: [686, 32, 62, 42, 12, 5, 1320]
+    nut: [754, 32, 62, 42, 12, 5, 1320]
   },
 
   'seekh-kebab': {
+    rest: [60, 'chilling'],
     d: 'Spiced minced lamb moulded onto skewers and cooked over coals, kept juicy by fat, papaya paste and a rest in the fridge before grilling.',
     meta: 'Seekh kebab — spiced minced lamb moulded on skewers and grilled over coals until charred and juicy.',
     kw: ['seekh kebab recipe', 'lamb mince kebab', 'pakistani kebab', 'grilled minced lamb'],
@@ -156,6 +157,7 @@ module.exports = {
   },
 
   'chapli-kebab': {
+    rest: [60, 'chilling'],
     d: 'Flat Peshawari patties of coarse beef with tomato, pomegranate seed and coriander seed, shallow fried in beef fat until dark and crusted.',
     meta: 'Chapli kebab — flat Peshawari beef patties with tomato, coriander seed and pomegranate, fried crisp.',
     kw: ['chapli kebab recipe', 'peshawari kebab', 'beef patties pakistani', 'anardana kebab'],
@@ -253,10 +255,11 @@ module.exports = {
     ],
     pair: ['Red rice or basmati', 'Coconut sambol', 'Papadums'],
     store: 'Refrigerate up to 2 days and reheat below a simmer. Do not freeze.',
-    nut: [486, 30, 14, 42, 3, 5, 1080]
+    nut: [554, 30, 14, 42, 3, 5, 1080]
   },
 
   'hoppers': {
+    rest: [480, 'resting'],
     d: 'Fermented rice and coconut batter swirled up the sides of a small bowl-shaped pan, with an egg cracked into the middle as it cooks.',
     meta: 'Egg hoppers — fermented rice and coconut batter cooked in a bowl pan with an egg in the centre.',
     kw: ['egg hoppers recipe', 'appa', 'sri lankan hoppers', 'fermented rice pancake'],
@@ -296,7 +299,7 @@ module.exports = {
     ],
     pair: ['Pol sambol and lunu miris', 'Dhal curry', 'Strong milky tea'],
     store: 'The batter keeps 2 days refrigerated and improves. Cook the hoppers to order.',
-    nut: [286, 14, 32, 8, 2, 4, 480]
+    nut: [256, 14, 32, 8, 2, 4, 480]
   },
 
   'kottu-roti': {

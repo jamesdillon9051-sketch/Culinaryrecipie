@@ -150,6 +150,7 @@ module.exports = {
   },
 
   'labneh': {
+    rest: [720, 'chilling'],
     d: 'Yoghurt strained through cloth for a day until it is thick enough to hold a spoon upright, spread on a plate, pooled with olive oil and dusted with za\'atar. The simplest thing in the Levantine repertoire and one of the best.',
     meta: 'Labneh — yoghurt strained overnight into a thick, tangy cheese, served with olive oil and za\'atar.',
     kw: ['labneh recipe', 'strained yoghurt cheese', 'zaatar labneh', 'middle eastern dip'],
@@ -186,10 +187,11 @@ module.exports = {
     ],
     pair: ['Warm flatbread and raw vegetables', 'A wider mezze spread', 'Mint tea'],
     store: 'Refrigerate up to 1 week, covered. Balls under olive oil keep 1 month. It does not freeze.',
-    nut: [186, 12, 8, 13, 0, 6, 420]
+    nut: [197, 12, 8, 13, 0, 6, 420]
   },
 
   'manakish-zaatar': {
+    rest: [90, 'proving'],
     d: 'Flatbread spread with za\'atar mixed into olive oil and baked until the edges crisp. Bought hot from the bakery for breakfast across Lebanon, Syria and Jordan, and eaten folded in half on the walk home.',
     meta: 'Manakish za\'atar — Levantine flatbread topped with za\'atar and olive oil, baked hot until the edges crisp.',
     kw: ['manakish recipe', 'zaatar flatbread', 'lebanese breakfast bread', 'manaeesh'],
@@ -232,6 +234,7 @@ module.exports = {
   },
 
   'basbousa': {
+    rest: [210, 'resting'],
     d: 'A semolina cake soaked in syrup and cut into diamonds with an almond pressed into each. Found from Egypt to Turkey under half a dozen names, always dense, always sweet, always soaked.',
     meta: 'Basbousa — Middle Eastern semolina and yoghurt cake soaked in lemon syrup and cut into almond-topped diamonds.',
     kw: ['basbousa recipe', 'semolina cake', 'revani', 'syrup soaked cake'],
@@ -280,6 +283,7 @@ module.exports = {
   },
 
   'lamb-mandi': {
+    rest: [240, 'marinating'],
     d: 'Yemeni lamb steamed over spiced rice until it falls off the bone, then finished with a piece of burning charcoal covered in the pot so the smoke goes into the meat. That last step is the whole dish.',
     meta: 'Yemeni lamb mandi — lamb slow-cooked over spiced rice and smoked with charcoal in the pot.',
     kw: ['lamb mandi recipe', 'yemeni rice', 'smoked lamb rice', 'mandi spice'],

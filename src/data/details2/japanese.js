@@ -441,6 +441,7 @@ module.exports = {
   },
 
   'japanese-milk-bread': {
+    rest: [110, 'proving'],
     d: 'Shokupan: the pillowy square loaf found in every Japanese bakery, built on a cooked flour paste that lets the dough carry far more water than usual. It tears in feathery sheets and stays soft for days.',
     meta: 'Japanese milk bread (shokupan) made with a tangzhong roux for an exceptionally soft, feathery, long-keeping crumb.',
     kw: ['japanese milk bread recipe', 'shokupan', 'tangzhong bread', 'hokkaido milk bread'],

@@ -2,6 +2,7 @@
 
 module.exports = {
   'tacos-al-pastor': {
+    rest: [240, 'chilling'],
     d: 'Chilli-and-achiote-marinated pork, shaved off a vertical spit and served with pineapple, onion and coriander. This home version stacks the marinated pork on a skewer and roasts it, giving you the same charred edges without the trompo.',
     meta: 'Tacos al pastor with achiote-marinated pork, charred pineapple and salsa — the home-oven method for real spit-roast flavour.',
     kw: ['tacos al pastor recipe', 'mexican pork tacos', 'achiote marinade', 'authentic tacos'],
@@ -268,6 +269,7 @@ module.exports = {
   },
 
   'chili-con-carne': {
+    rest: [480, 'chilling'],
     d: 'A long-simmered chilli built on toasted whole spices and a hit of dark chocolate, with the beef cut into cubes rather than minced so it keeps its texture. Better on the second day, as all chillies are.',
     meta: 'Deep, smoky chili con carne with cubed beef, toasted spices and dark chocolate. Even better the day after you make it.',
     kw: ['chili con carne recipe', 'beef chili', 'best chilli recipe', 'slow cooked chili'],
@@ -491,7 +493,7 @@ module.exports = {
     ],
     pair: ['A margarita or an ice-cold lager', 'Serve with totopos, tacos, or grilled meat', 'Excellent alongside huevos rancheros'],
     store: 'Best within an hour. Keeps 1 day with cling film pressed onto the surface and an extra squeeze of lime.',
-    nut: [218, 3, 12, 19, 8, 2, 420]
+    nut: [231, 3, 12, 19, 8, 2, 420]
   },
 
   'elote': {

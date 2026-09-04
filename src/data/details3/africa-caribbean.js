@@ -43,6 +43,7 @@ module.exports = {
   },
 
   'jamaican-patty': {
+    rest: [90, 'chilling'],
     d: 'A flaky turmeric-yellow pastry folded around spiced beef filling, crimped and baked until the edges are crisp and the filling is still saucy.',
     meta: 'Jamaican beef patty — turmeric pastry folded around spiced beef and baked until flaky.',
     kw: ['jamaican patty recipe', 'beef patty', 'jamaican pastry', 'caribbean beef turnover'],
@@ -92,10 +93,11 @@ module.exports = {
     ],
     pair: ['Coco bread', 'A cold Ting or Red Stripe', 'Scotch bonnet sauce'],
     store: 'Freeze baked or unbaked for 2 months. Reheat baked patties at 190C fan for 12 minutes.',
-    nut: [512, 32, 38, 20, 2, 3, 880]
+    nut: [460, 32, 38, 20, 2, 3, 880]
   },
 
   'doubles': {
+    rest: [90, 'proving'],
     d: 'Two pieces of soft fried bara sandwiching curried chickpeas, with tamarind, cucumber chutney and pepper sauce spooned over the top.',
     meta: 'Trinidadian doubles — soft fried bara filled with curried chickpeas, tamarind and pepper sauce.',
     kw: ['doubles recipe', 'trinidadian street food', 'channa and bara', 'curried chickpea sandwich'],
@@ -188,10 +190,11 @@ module.exports = {
     ],
     pair: ['Rice and stewed chicken', 'Fried plantain', 'Macaroni pie'],
     store: 'Refrigerate up to 3 days and freeze 3 months. Reheat gently.',
-    nut: [286, 22, 16, 9, 6, 5, 880]
+    nut: [233, 22, 16, 9, 6, 5, 880]
   },
 
   'moin-moin': {
+    rest: [120, 'soaking'],
     d: 'Peeled black-eyed beans blended with peppers and onion, seasoned and steamed in leaves or tins until it sets into a soft, savoury cake.',
     meta: 'Moin moin — Nigerian steamed bean pudding of peeled black-eyed beans, peppers and onion.',
     kw: ['moin moin recipe', 'nigerian bean pudding', 'steamed bean cake', 'ewa moimoi'],
@@ -280,7 +283,7 @@ module.exports = {
     ],
     pair: ['Boiled yam or agidi', 'A cold beer', 'Lime wedges'],
     store: 'Refrigerate up to 3 days and freeze 2 months. Add fresh scent leaves on reheating.',
-    nut: [386, 18, 8, 46, 2, 2, 1420]
+    nut: [518, 18, 8, 46, 2, 2, 1420]
   },
 
   'waakye': {
@@ -322,7 +325,7 @@ module.exports = {
     ],
     pair: ['Shito and gari', 'Fried plantain', 'A cold malt drink'],
     store: 'Refrigerate up to 3 days. Reheat covered with a splash of water.',
-    nut: [512, 6, 98, 18, 9, 3, 820]
+    nut: [578, 6, 98, 18, 9, 3, 820]
   },
 
   'kelewele': {
@@ -365,10 +368,11 @@ module.exports = {
     ],
     pair: ['Roasted peanuts', 'Waakye or rice and beans', 'A cold malt drink'],
     store: 'Best immediately. Recrisp leftovers at 200C fan for 6 minutes.',
-    nut: [386, 16, 62, 3, 5, 30, 620]
+    nut: [339, 16, 62, 3, 5, 30, 620]
   },
 
   'nyama-choma': {
+    rest: [60, 'resting'],
     d: 'Goat or beef rubbed with salt and grilled slowly over low coals for an hour or more, then chopped on a board and eaten with kachumbari and ugali.',
     meta: 'Nyama choma — Kenyan goat or beef grilled slowly over coals and served with kachumbari and ugali.',
     kw: ['nyama choma recipe', 'kenyan grilled meat', 'goat barbecue', 'african bbq'],
@@ -407,7 +411,7 @@ module.exports = {
     ],
     pair: ['Kachumbari and ugali', 'A cold Tusker', 'Pili pili sauce'],
     store: 'Refrigerate up to 3 days. Reheat wrapped in foil at 180C fan.',
-    nut: [612, 38, 6, 62, 1, 3, 1620]
+    nut: [734, 38, 6, 62, 1, 3, 1620]
   },
 
   'ugali-sukuma': {
@@ -500,7 +504,7 @@ module.exports = {
     ],
     pair: ['Carrot and chilli sambal', 'A cold beer', 'Sliced raw onion'],
     store: 'The curry keeps 4 days refrigerated and freezes 3 months. Hollow the bread to order.',
-    nut: [886, 38, 92, 48, 7, 10, 1820]
+    nut: [952, 38, 92, 48, 7, 10, 1820]
   },
 
   'malva-pudding': {
@@ -545,6 +549,6 @@ module.exports = {
     ],
     pair: ['Pouring cream or custard', 'Vanilla ice cream', 'Strong coffee'],
     store: 'Refrigerate up to 4 days and reheat covered at 160C fan. Freezes 2 months.',
-    nut: [686, 34, 92, 7, 2, 68, 420]
+    nut: [567, 34, 92, 7, 2, 68, 420]
   }
 };

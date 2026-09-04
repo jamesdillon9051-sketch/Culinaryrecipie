@@ -40,6 +40,7 @@ module.exports = {
   },
 
   'moussaka': {
+    rest: [60, 'resting'],
     d: 'Layers of roasted aubergine, spiced lamb ragù and a thick béchamel enriched with egg yolks and kefalotyri, baked until the top puffs and browns. Greece\'s great Sunday dish.',
     meta: 'Traditional Greek moussaka with roasted aubergine, cinnamon-spiced lamb and a thick, golden egg-enriched béchamel.',
     kw: ['moussaka recipe', 'greek moussaka', 'aubergine lamb bake', 'greek comfort food'],
@@ -95,6 +96,7 @@ module.exports = {
   },
 
   'chicken-souvlaki': {
+    rest: [120, 'marinating'],
     d: 'Lemon, oregano and olive oil is all a good souvlaki marinade needs. Grill it hard so the edges char, then pile into warm pita with tzatziki, tomato and red onion.',
     meta: 'Greek chicken souvlaki with a lemon-oregano marinade and hard-charred edges. Served in pita with tzatziki.',
     kw: ['souvlaki recipe', 'greek chicken skewers', 'lemon oregano marinade', 'greek street food'],
@@ -137,6 +139,7 @@ module.exports = {
   },
 
   'gyros': {
+    rest: [360, 'marinating'],
     d: 'Marinated pork shaved off a home-built stack, wrapped in pita with tzatziki, tomato, onion and — this is not optional in Greece — a handful of chips inside the wrap.',
     meta: 'Greek pork gyros with a home-built vertical stack, wrapped in pita with tzatziki, tomato and chips.',
     kw: ['gyros recipe', 'greek pork gyros', 'homemade gyros', 'greek wrap'],
@@ -227,6 +230,7 @@ module.exports = {
   },
 
   'tzatziki': {
+    rest: [60, 'chilling'],
     d: 'Thick strained yogurt, grated cucumber squeezed dry, garlic, dill and good olive oil. Made properly it is dense enough to stand a spoon in rather than the watery stuff sold in tubs.',
     meta: 'Thick, garlicky tzatziki with strained yogurt and squeezed cucumber. The dip that never goes watery.',
     kw: ['tzatziki recipe', 'greek yogurt dip', 'cucumber garlic dip', 'low carb dip'],
@@ -301,6 +305,7 @@ module.exports = {
   },
 
   'baklava': {
+    rest: [360, 'resting'],
     d: 'Thirty layers of filo, three layers of spiced pistachio and walnut, and a citrus syrup poured over at exactly the right temperature. Cutting it before baking is the step everyone forgets.',
     meta: 'Crisp pistachio baklava with layered filo and a citrus honey syrup. The hot-pastry, cool-syrup rule that keeps it crunchy.',
     kw: ['baklava recipe', 'pistachio baklava', 'greek dessert', 'filo pastry dessert'],
@@ -387,6 +392,7 @@ module.exports = {
   },
 
   'falafel': {
+    rest: [60, 'chilling'],
     d: 'Made only from soaked dried chickpeas — never tinned, never cooked — so the outside shatters and the inside stays green and fluffy. This is the single most important rule in falafel.',
     meta: 'Crispy falafel from soaked dried chickpeas with a fluffy green centre. Never use tinned chickpeas — here is why.',
     kw: ['falafel recipe', 'homemade falafel', 'chickpea fritters', 'vegan street food'],
@@ -433,6 +439,7 @@ module.exports = {
   },
 
   'chicken-shawarma': {
+    rest: [240, 'marinating'],
     d: 'All the flavour of a shawarma spit from an oven tray: thighs marinated in warm spices and yogurt, roasted hard, then crisped under the grill and shaved into flatbreads.',
     meta: 'Oven-roasted chicken shawarma with warm spices and crisp edges, served in flatbread with garlic sauce and pickles.',
     kw: ['chicken shawarma recipe', 'oven shawarma', 'middle eastern chicken', 'shawarma marinade'],
@@ -554,7 +561,7 @@ module.exports = {
     ],
     pair: ['Arak, or a cold Lebanese white', 'Serve as part of a mezze with hummus and kibbeh', 'Excellent alongside grilled meat'],
     store: 'Best within an hour. Undressed components keep 1 day refrigerated separately.',
-    nut: [212, 5, 20, 14, 5, 4, 480]
+    nut: [226, 5, 20, 14, 5, 4, 480]
   },
 
   'fattoush': {
@@ -603,6 +610,7 @@ module.exports = {
   },
 
   'lamb-kofta-kebabs': {
+    rest: [60, 'chilling'],
     d: 'Spiced lamb worked until it turns sticky, moulded around skewers and grilled hard so the outside chars while the centre stays juicy. The kneading is what stops them falling off.',
     meta: 'Juicy lamb kofta kebabs with warm spices and charred edges. The kneading technique that keeps them on the skewer.',
     kw: ['lamb kofta recipe', 'kofta kebabs', 'middle eastern lamb skewers', 'grilled lamb'],
@@ -695,6 +703,7 @@ module.exports = {
   },
 
   'knafeh': {
+    rest: [120, 'soaking'],
     d: 'Shredded pastry over a layer of stretchy cheese, baked until the top is crisp and orange, then soaked in orange-blossom syrup. Served hot, so the cheese pulls when you cut it.',
     meta: 'Knafeh with crisp shredded pastry, molten stretchy cheese and orange-blossom syrup. Serve hot for the cheese pull.',
     kw: ['knafeh recipe', 'kunafa dessert', 'middle eastern cheese dessert', 'orange blossom syrup'],

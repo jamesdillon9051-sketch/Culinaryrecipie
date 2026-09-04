@@ -93,6 +93,7 @@ module.exports = {
   },
 
   'suya': {
+    rest: [90, 'marinating'],
     d: 'Thin beef skewers coated in yaji, a spice mix built on ground peanuts, chilli and ginger, grilled over coals and dusted with more spice as they come off. Northern Nigerian street food, sold from dusk.',
     meta: 'Beef suya — thin skewers rubbed in peanut and chilli yaji spice, grilled over coals and dusted again.',
     kw: ['suya recipe', 'nigerian beef skewers', 'yaji spice', 'african grilled beef'],
@@ -242,6 +243,7 @@ module.exports = {
   },
 
   'jamaican-curry-goat': {
+    rest: [240, 'marinating'],
     d: 'Goat browned and stewed for hours with Jamaican curry powder, thyme and scotch bonnet until it falls off the bone. The curry powder is toasted in oil first, and the meat is marinated overnight.',
     meta: 'Jamaican curry goat — slow-stewed goat with Jamaican curry powder, thyme, allspice and scotch bonnet.',
     kw: ['jamaican curry goat recipe', 'curry goat', 'caribbean curry', 'goat stew'],

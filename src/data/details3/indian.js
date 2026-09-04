@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'dal-makhani': {
+    rest: [480, 'soaking'],
     d: 'Black urad lentils and kidney beans simmered overnight, then finished with butter and cream until the dal is almost black and thick enough to stand a spoon in. Punjabi restaurant cooking at its richest.',
     meta: 'Dal makhani — black urad lentils simmered for hours and finished with butter and cream until thick and dark.',
     kw: ['dal makhani recipe', 'black dal', 'punjabi dal', 'creamy lentil curry'],
@@ -92,6 +93,7 @@ module.exports = {
   },
 
   'hyderabadi-biryani': {
+    rest: [240, 'marinating'],
     d: 'Marinated raw lamb layered under half-cooked rice and sealed with dough, so the meat and rice cook together in trapped steam. The kachchi method, and the seal is what makes it work.',
     meta: 'Hyderabadi kachchi biryani — raw marinated lamb layered under par-cooked rice and sealed for dum cooking.',
     kw: ['hyderabadi biryani recipe', 'kachchi biryani', 'lamb biryani', 'dum biryani'],
@@ -240,6 +242,7 @@ module.exports = {
   },
 
   'misal-pav': {
+    rest: [720, 'fermenting'],
     d: 'Sprouted moth beans in a thin, fiery gravy, topped with farsan, raw onion and coriander, with a slick of red rassa oil floating on top and soft pav to mop it up.',
     meta: 'Misal pav — Maharashtrian sprouted bean curry with crunchy farsan, raw onion and soft pav rolls.',
     kw: ['misal pav recipe', 'maharashtrian misal', 'sprouted moth bean curry', 'kolhapuri misal'],
@@ -295,6 +298,7 @@ module.exports = {
   },
 
   'naan': {
+    rest: [90, 'proving'],
     d: 'A yoghurt-enriched flatbread slapped onto the wall of a tandoor, or in a home kitchen onto the underside of the hottest pan you own. Charred, blistered and brushed with garlic butter.',
     meta: 'Garlic naan — yoghurt-enriched flatbread cooked in a screaming pan until charred and blistered, with garlic butter.',
     kw: ['naan recipe', 'garlic naan', 'homemade naan bread', 'tandoori bread'],

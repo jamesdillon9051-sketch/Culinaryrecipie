@@ -69,10 +69,11 @@ module.exports = {
     ],
     pair: ['Nyama choma', 'Ugali and sukuma wiki', 'Grilled tilapia'],
     store: 'Best within 2 hours. It refrigerates a day but softens; refresh with a squeeze more lime and fresh coriander.',
-    nut: [128, 3, 14, 8, 5, 8, 520]
+    nut: [140, 3, 14, 8, 5, 8, 520]
   },
 
   'curtido': {
+    rest: [1440, 'fermenting'],
     d: 'Salvadoran lightly fermented cabbage slaw with carrot, onion and oregano — the sharp, crunchy thing served with every pupusa.',
     meta: 'Curtido — Salvadoran lightly fermented cabbage slaw with carrot, oregano and vinegar.',
     kw: ['curtido recipe', 'salvadoran slaw', 'pupusa slaw', 'fermented cabbage salad'],
@@ -222,7 +223,7 @@ module.exports = {
     ],
     pair: ['Khobz or any flatbread', 'Other Moroccan salads, as part of a spread', 'Mint tea'],
     store: 'Refrigerate up to 5 days; it is better on days two and three. Bring to room temperature before serving. Freezes 3 months.',
-    nut: [218, 4, 18, 16, 7, 10, 620]
+    nut: [232, 4, 18, 16, 7, 10, 620]
   },
 
   'kisir': {
@@ -301,7 +302,7 @@ module.exports = {
     ],
     pair: ['Grilled fish and rice', 'Miso soup', 'As one of several small dishes'],
     store: 'Refrigerate up to 2 days. The dressing dulls, so hold back a spoonful of the ground sesame and stir it through before serving.',
-    nut: [128, 6, 8, 9, 4, 4, 480]
+    nut: [137, 6, 8, 9, 4, 4, 480]
   },
 
   'oi-muchim': {
@@ -337,6 +338,6 @@ module.exports = {
     ],
     pair: ['Korean barbecue', 'Bibimbap', 'Rice and a fried egg'],
     store: 'Refrigerate up to 2 days; it softens and the liquid separates, though the flavour holds. Drain before serving on the second day.',
-    nut: [86, 2, 10, 5, 2, 6, 720]
+    nut: [93, 2, 10, 5, 2, 6, 720]
   }
 };

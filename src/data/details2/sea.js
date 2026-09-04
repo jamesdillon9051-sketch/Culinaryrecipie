@@ -104,6 +104,7 @@ module.exports = {
   },
 
   'chicken-satay': {
+    rest: [510, 'marinating'],
     d: 'Chicken marinated in turmeric and lemongrass, threaded onto skewers, grilled over charcoal, and served with a peanut sauce that is as important as the meat. Sold from carts across Indonesia and Malaysia.',
     meta: 'Chicken satay — turmeric and lemongrass marinated skewers grilled over charcoal with rich peanut sauce.',
     kw: ['chicken satay recipe', 'satay peanut sauce', 'indonesian skewers', 'sate ayam'],
@@ -370,6 +371,7 @@ module.exports = {
   },
 
   'chicken-adobo': {
+    rest: [60, 'marinating'],
     d: 'Chicken braised in vinegar, soy sauce, garlic and bay until the sauce reduces to a dark glaze. The Philippines\' national dish, and one whose acidity was originally a preservation technique.',
     meta: 'Filipino chicken adobo — braised in vinegar, soy, garlic and bay until the sauce reduces to a dark glaze.',
     kw: ['chicken adobo recipe', 'filipino adobo', 'vinegar braised chicken', 'philippine national dish'],

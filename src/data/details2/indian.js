@@ -2,6 +2,7 @@
 
 module.exports = {
   'paneer-tikka': {
+    rest: [60, 'marinating'],
     d: 'Cubes of paneer marinated in spiced yoghurt, threaded with peppers and onion, and charred hard under a grill until the edges blacken. India\'s most popular vegetarian starter, and the base for a dozen curries.',
     meta: 'Paneer tikka — paneer marinated in spiced yoghurt and charred with peppers and onion. The classic Indian vegetarian starter.',
     kw: ['paneer tikka recipe', 'indian vegetarian starter', 'tandoori paneer', 'grilled paneer skewers'],
@@ -291,6 +292,7 @@ module.exports = {
   },
 
   'chole-bhature': {
+    rest: [120, 'proving'],
     d: 'Punjab\'s great weekend breakfast: dark, tangy chickpeas served with balloon-like fried bread. The chana is blackened with tea and the bhature are leavened with yoghurt, and both details matter.',
     meta: 'Chole bhature — spiced dark chickpea curry with puffed deep-fried bhature bread. The Punjabi weekend classic.',
     kw: ['chole bhature recipe', 'punjabi chole', 'bhature bread', 'chana masala fried bread'],
@@ -343,6 +345,7 @@ module.exports = {
   },
 
   'idli-sambar': {
+    rest: [780, 'proving'],
     d: 'Steamed rice and lentil cakes, sour from natural fermentation and light as a sponge, served with a tamarind-sharp lentil and vegetable stew. Breakfast across South India, and one of the world\'s great fermented foods.',
     meta: 'Idli sambar — soft steamed South Indian rice and lentil cakes with tangy tamarind lentil and vegetable stew.',
     kw: ['idli sambar recipe', 'south indian breakfast', 'idli batter fermentation', 'sambar recipe'],
@@ -560,6 +563,7 @@ module.exports = {
   },
 
   'jalebi': {
+    rest: [600, 'resting'],
     d: 'Fermented batter piped in spirals into hot ghee and dunked straight into warm saffron syrup, so the crisp coils fill with liquid sugar. Sold hot from street carts across India, and best eaten within about ninety seconds.',
     meta: 'Crispy jalebi — fermented batter spirals fried in ghee and soaked in warm saffron syrup. India\'s favourite street sweet.',
     kw: ['jalebi recipe', 'indian street sweet', 'crispy jalebi', 'saffron syrup dessert'],
@@ -601,7 +605,7 @@ module.exports = {
     ],
     pair: ['Hot rabri or thickened milk, the classic Delhi pairing', 'Masala chai', 'Plain yoghurt, in Gujarat, as breakfast'],
     store: 'Genuinely best within an hour. They keep 2 days in an airtight tin but go soft; refresh in a 180°C / 350°F oven for 4 minutes.',
-    nut: [268, 3, 58, 5, 1, 44, 20]
+    nut: [289, 3, 58, 5, 1, 44, 20]
   },
 
   'aloo-paratha': {

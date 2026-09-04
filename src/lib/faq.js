@@ -35,6 +35,20 @@ function humanMinutes(total) {
   return `${h === 1 ? '1 hour' : `${h} hours`} ${m} minutes`;
 }
 
+/** The same, but for waiting: 4320 -> "3 days" rather than "72 hours". */
+function humanWaitWords(total) {
+  if (!total) return '';
+  if (total < 1440) return humanMinutes(total);
+  const days = Math.floor(total / 1440);
+  const hours = Math.round((total % 1440) / 60);
+  if (days >= 7) {
+    const weeks = Math.round(days / 7);
+    return weeks === 1 ? '1 week' : `${weeks} weeks`;
+  }
+  const dayPart = days === 1 ? '1 day' : `${days} days`;
+  return hours ? `${dayPart} ${hours === 1 ? '1 hour' : `${hours} hours`}` : dayPart;
+}
+
 /**
  * Join short fragments into prose: "a, b and c".
  *
@@ -68,9 +82,16 @@ function questions(recipe) {
   const ask = (q, a) => { if (a && String(a).trim()) out.push({ q, a: String(a).trim() }); };
 
   const total = recipe.totalTime || (recipe.prep + recipe.cook);
+  const rest = recipe.restTime || 0;
+  const work = `${humanMinutes(recipe.prep)} of preparation and ${humanMinutes(recipe.cook)} of cooking`;
+  /* A recipe that proves overnight does not take fifty minutes, and saying so
+     is the whole point of publishing the resting time. */
   ask(`How long does ${name} take to make?`,
-    total && `About ${humanMinutes(total)} in total — ${humanMinutes(recipe.prep)} of preparation `
-      + `and ${humanMinutes(recipe.cook)} of cooking. The recipe serves ${recipe.servings}.`);
+    total && (rest
+      ? `About ${humanMinutes(total)} of hands-on work — ${work} — plus `
+        + `${humanWaitWords(rest)} of ${recipe.restLabel}, so allow `
+        + `${humanWaitWords(total + rest)} from start to finish. The recipe serves ${recipe.servings}.`
+      : `About ${humanMinutes(total)} in total — ${work}. The recipe serves ${recipe.servings}.`));
 
   /* The tips, as the answer to the question they are the answer to. Three
      pieces of advice under a heading called "Chef's Tips" is already a reply to

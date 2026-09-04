@@ -84,7 +84,7 @@ module.exports = [
 
   /* ---------------------------------------------------------- British (6) */
   c('steak-and-ale-pie', 'Steak and Ale Pie', 'British', 'Dinner', 'Medium', 35, 150, 6, 4.8, 2144, [], [], 'Steak and ale pie'),
-  c('trifle', 'English Trifle', 'British', 'Desserts', 'Easy', 40, 0, 10, 4.7, 1544, ['Vegetarian'], [], 'Trifle'),
+  c('trifle', 'English Trifle', 'British', 'Desserts', 'Easy', 40, 15, 10, 4.7, 1544, ['Vegetarian'], [], 'Trifle'),
   c('crumpets', 'Crumpets', 'British', 'Baking', 'Medium', 90, 15, 10, 4.7, 1322, ['Vegetarian'], [], 'Crumpets'),
   c('ploughmans-lunch', "Ploughman's Lunch", 'British', 'Lunch', 'Easy', 15, 0, 2, 4.5, 644, ['Vegetarian'], [], 'Ploughmans lunch'),
 
@@ -129,7 +129,7 @@ module.exports = [
   c('poffertjes', 'Poffertjes', 'Dutch', 'Desserts', 'Easy', 60, 15, 6, 4.6, 866, ['Vegetarian'], [], 'Poffertjes'),
 
   /* ----------------------------------------------------------- Danish (3) */
-  c('smorrebrod', 'Smørrebrød', 'Danish', 'Lunch', 'Easy', 25, 0, 4, 4.7, 1188, [], [], 'Smorrebrod'),
+  c('smorrebrod', 'Smørrebrød', 'Danish', 'Lunch', 'Easy', 25, 10, 4, 4.7, 1188, [], [], 'Smorrebrod'),
   c('danish-pastry', 'Danish Pastries', 'Danish', 'Baking', 'Hard', 120, 25, 12, 4.8, 2011, ['Vegetarian'], [], 'Danish pastry'),
   c('frikadeller', 'Frikadeller', 'Danish', 'Dinner', 'Easy', 20, 20, 4, 4.6, 788, [], [], 'Frikadeller'),
 
@@ -172,7 +172,7 @@ module.exports = [
   /* ----------------------------------------------------------- Greek (4) */
   c('greek-lemon-potatoes', 'Greek Lemon Potatoes', 'Greek', 'Dinner', 'Easy', 15, 70, 6, 4.8, 2144, ['Vegan', 'Gluten-Free'], [], 'Greek lemon potatoes'),
   c('dolmades', 'Dolmades', 'Greek', 'Appetizers', 'Medium', 45, 45, 8, 4.6, 1044, ['Vegan', 'Gluten-Free'], [], 'Dolmades'),
-  c('greek-yogurt-honey', 'Greek Yoghurt with Honey and Walnuts', 'Greek', 'Breakfast', 'Easy', 5, 0, 2, 4.7, 1422, ['Vegetarian', 'Gluten-Free'], [], 'Greek yogurt honey walnuts'),
+  c('greek-yogurt-honey', 'Greek Yoghurt with Honey and Walnuts', 'Greek', 'Breakfast', 'Easy', 5, 5, 2, 4.7, 1422, ['Vegetarian', 'Gluten-Free'], [], 'Greek yogurt honey walnuts'),
 
   /* --------------------------------------------------------- Turkish (4) */
   c('iskender-kebab', 'İskender Kebab', 'Turkish', 'Dinner', 'Medium', 30, 25, 4, 4.8, 1644, [], [], 'Iskender kebab'),

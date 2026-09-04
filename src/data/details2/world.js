@@ -94,6 +94,7 @@ module.exports = {
   },
 
   'chia-pudding': {
+    rest: [240, 'chilling'],
     d: 'Chia seeds left in milk overnight until they swell into a set, tapioca-like pudding. Two ingredients, five minutes of work, and it does the rest of the job while you sleep.',
     meta: 'Overnight chia pudding — chia seeds set in milk with vanilla and maple, topped with fruit and nuts.',
     kw: ['chia pudding recipe', 'overnight chia', 'healthy breakfast pudding', 'chia seed dessert'],
@@ -138,6 +139,7 @@ module.exports = {
   },
 
   'granola': {
+    rest: [90, 'cooling'],
     d: 'Oats, nuts and seeds baked slowly in maple and oil until golden, then left completely undisturbed to cool so it sets into clusters. The clusters are the entire craft.',
     meta: 'Maple pecan granola baked into proper clusters — oats, nuts and seeds with maple syrup and cinnamon.',
     kw: ['granola recipe', 'homemade granola', 'granola clusters', 'maple pecan granola'],

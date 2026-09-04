@@ -64,6 +64,7 @@ module.exports = {
   },
 
   'sujeonggwa': {
+    rest: [360, 'steeping'],
     d: 'Korean cinnamon and ginger punch, simmered dark and served ice cold with soft dried persimmon and pine nuts floating on top.',
     meta: 'Sujeonggwa — Korean cinnamon and ginger punch served cold with dried persimmon.',
     kw: ['sujeonggwa recipe', 'korean cinnamon punch', 'persimmon punch', 'korean dessert drink'],
@@ -93,7 +94,7 @@ module.exports = {
     ],
     pair: ['After a heavy Korean meal, which is when it is drunk', 'Yakgwa or other Korean sweets', 'Served at Lunar New Year'],
     store: 'Refrigerate up to 1 week and it improves for the first two days. Keep the persimmons in the liquid; they get better as they soak.',
-    nut: [148, 1, 38, 2, 3, 32, 60]
+    nut: [174, 1, 38, 2, 3, 32, 60]
   },
 
   'agua-de-jamaica': {
@@ -233,6 +234,7 @@ module.exports = {
   },
 
   'sobolo': {
+    rest: [180, 'steeping'],
     d: 'The Ghanaian hibiscus drink, steeped with pineapple skin, ginger and cloves and drunk cold from a bottle on any hot afternoon.',
     meta: 'Sobolo — the Ghanaian hibiscus drink with pineapple, ginger and cloves, served cold.',
     kw: ['sobolo recipe', 'ghana hibiscus drink', 'bissap', 'zobo drink'],
@@ -268,6 +270,7 @@ module.exports = {
   },
 
   'kvass': {
+    rest: [2640, 'fermenting'],
     d: 'Rye bread, water, sugar and yeast left to work for two days into a dark, faintly sour, barely alcoholic drink that Ukrainians have made from stale loaves for centuries.',
     meta: 'Bread kvass — the Ukrainian fermented rye drink, dark, faintly sour and lightly fizzy.',
     kw: ['kvass recipe', 'bread kvass', 'ukrainian fermented drink', 'rye drink'],

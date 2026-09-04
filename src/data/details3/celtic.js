@@ -39,7 +39,7 @@ module.exports = {
     ],
     pair: ['Irish soda bread', 'A pint of stout', 'Buttered cabbage'],
     store: 'Refrigerate up to 4 days — better on day two — and freeze 3 months.',
-    nut: [612, 32, 46, 38, 5, 8, 1180]
+    nut: [654, 32, 46, 38, 5, 8, 1180]
   },
 
   'soda-bread': {
@@ -72,7 +72,7 @@ module.exports = {
     ],
     pair: ['Salted butter', 'Irish stew', 'Smoked salmon'],
     store: 'Best on the day. Keeps 2 days wrapped, toasts well after that, and freezes 2 months.',
-    nut: [212, 2, 42, 8, 3, 4, 480]
+    nut: [248, 2, 42, 8, 3, 4, 480]
   },
 
   'colcannon': {
@@ -109,7 +109,7 @@ module.exports = {
     ],
     pair: ['Bacon or ham', 'Irish stew', 'A pint of stout'],
     store: 'Refrigerate up to 3 days. Reheat with a splash of milk over low heat, stirring.',
-    nut: [386, 22, 42, 7, 5, 4, 720]
+    nut: [319, 22, 42, 7, 5, 4, 720]
   },
 
   'boxty': {
@@ -147,7 +147,7 @@ module.exports = {
     ],
     pair: ['Streaky bacon and a fried egg', 'Smoked salmon and soured cream', 'A pot of tea'],
     store: 'Refrigerate cooked boxty 2 days and recrisp in a dry pan. Freezes 2 months between sheets of paper.',
-    nut: [342, 16, 42, 8, 3, 3, 720]
+    nut: [304, 16, 42, 8, 3, 3, 720]
   },
 
   'cullen-skink': {
@@ -187,7 +187,7 @@ module.exports = {
     ],
     pair: ['Oatcakes or crusty bread', 'A dry white wine', 'A dram of Speyside whisky'],
     store: 'Refrigerate up to 2 days and reheat gently. Do not freeze — the potato goes grainy.',
-    nut: [412, 22, 34, 26, 3, 8, 1240]
+    nut: [458, 22, 34, 26, 3, 8, 1240]
   },
 
   'haggis-neeps-tatties': {
@@ -309,10 +309,11 @@ module.exports = {
     ],
     pair: ['Caerphilly cheese and bread', 'A pint of Welsh ale', 'Bara brith afterwards'],
     store: 'Refrigerate up to 4 days, better each day, and freeze 3 months.',
-    nut: [548, 24, 48, 36, 8, 12, 1420]
+    nut: [612, 24, 48, 36, 8, 12, 1420]
   },
 
   'bara-brith': {
+    rest: [480, 'soaking'],
     d: 'Dried fruit soaked overnight in strong tea, then folded into a spiced batter and baked into a dense, dark loaf eaten in thick buttered slices.',
     meta: 'Bara brith — Welsh tea loaf with dried fruit soaked overnight in tea, spiced and baked dark.',
     kw: ['bara brith recipe', 'welsh tea loaf', 'fruit tea bread', 'traditional welsh cake'],
@@ -349,6 +350,6 @@ module.exports = {
     ],
     pair: ['Salted Welsh butter', 'A pot of strong tea', 'A slice of Caerphilly'],
     store: 'Wrapped, it keeps a week and improves after two days. Freezes 3 months, sliced.',
-    nut: [312, 2, 72, 5, 3, 42, 260]
+    nut: [341, 2, 72, 5, 3, 42, 260]
   }
 };

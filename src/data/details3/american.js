@@ -2,6 +2,7 @@
 
 module.exports = {
   'pulled-pork': {
+    rest: [270, 'chilling'],
     d: 'Pork shoulder rubbed and cooked low for six hours until it pulls apart in strands, dressed the Carolina way with a thin vinegar sauce rather than a sweet one.',
     meta: 'Carolina pulled pork — pork shoulder rubbed and cooked low for six hours, dressed with a thin vinegar sauce.',
     kw: ['pulled pork recipe', 'carolina pulled pork', 'slow cooked pork shoulder', 'vinegar barbecue sauce'],
@@ -46,10 +47,11 @@ module.exports = {
     ],
     pair: ['Cider vinegar slaw', 'Cornbread', 'An amber ale or sweet tea'],
     store: 'Refrigerate up to 4 days in its juices, freeze 3 months. Reheat covered with a splash of stock.',
-    nut: [586, 34, 26, 42, 1, 18, 1240]
+    nut: [618, 34, 26, 42, 1, 18, 1240]
   },
 
   'brisket': {
+    rest: [120, 'resting'],
     d: 'Salt, pepper and twelve hours of smoke. Central Texas brisket asks for almost no ingredients and almost total patience, and repays both.',
     meta: 'Texas smoked brisket — salt, pepper and ten hours of smoke, rested until the bark sets and the flat stays moist.',
     kw: ['texas brisket recipe', 'smoked brisket', 'bbq brisket', 'central texas barbecue'],
@@ -81,7 +83,7 @@ module.exports = {
     ],
     pair: ['White bread, pickles and raw onion', 'Pinto beans', 'A cold lager'],
     store: 'Refrigerate sliced up to 4 days, freeze 3 months. Reheat in a covered tray with a little beef stock.',
-    nut: [642, 44, 2, 58, 0, 0, 1420]
+    nut: [706, 44, 2, 58, 0, 0, 1420]
   },
 
   'cioppino': {
@@ -132,7 +134,7 @@ module.exports = {
     ],
     pair: ['Grilled sourdough rubbed with garlic', 'A crisp Italian white', 'A simple green salad'],
     store: 'Best the day it is made. Keep leftover broth up to 3 days and poach fresh seafood in it.',
-    nut: [446, 16, 18, 52, 4, 8, 1420]
+    nut: [604, 16, 18, 52, 4, 8, 1420]
   },
 
   'sloppy-joes': {
@@ -214,10 +216,11 @@ module.exports = {
     ],
     pair: ['Yellow mustard', 'Fries', 'Lemonade'],
     store: 'Best eaten within minutes. Reheat leftovers at 190C fan for 8 minutes; never the microwave.',
-    nut: [428, 26, 34, 13, 2, 9, 1020]
+    nut: [357, 26, 34, 13, 2, 9, 1020]
   },
 
   'philly-soft-pretzel': {
+    rest: [60, 'proving'],
     d: 'Philadelphia pretzels are oblong rather than fat, chewy rather than fluffy, sold in rows stuck together and eaten with a stripe of mustard.',
     meta: 'Philadelphia soft pretzels — oblong, chewy pretzels dipped in a soda bath and baked with coarse salt.',
     kw: ['soft pretzel recipe', 'philly pretzel', 'baking soda bath pretzel', 'homemade pretzels'],
@@ -259,6 +262,7 @@ module.exports = {
   },
 
   'boston-cream-pie': {
+    rest: [210, 'chilling'],
     d: 'Not a pie at all — two layers of sponge with vanilla pastry cream between them and a chocolate glaze poured over the top so it runs down the sides.',
     meta: 'Boston cream pie — vanilla sponge layered with pastry cream and finished with a poured chocolate glaze.',
     kw: ['boston cream pie recipe', 'vanilla pastry cream cake', 'chocolate glaze cake', 'classic american dessert'],
@@ -306,7 +310,7 @@ module.exports = {
     ],
     pair: ['Strong black coffee', 'A glass of cold milk', 'Fresh raspberries'],
     store: 'Refrigerate up to 3 days in a covered container. It does not freeze well once assembled.',
-    nut: [524, 28, 62, 8, 2, 42, 340]
+    nut: [432, 28, 62, 8, 2, 42, 340]
   },
 
   'biscuits-buttermilk': {
@@ -340,10 +344,11 @@ module.exports = {
     ],
     pair: ['Sausage gravy', 'Honey and butter', 'Fried chicken'],
     store: 'Best within hours. Freeze unbaked cut rounds and bake from frozen, adding 3 minutes.',
-    nut: [284, 16, 30, 5, 1, 2, 520]
+    nut: [229, 16, 30, 5, 1, 2, 520]
   },
 
   'chicken-and-waffles': {
+    rest: [960, 'chilling'],
     d: 'Buttermilk-brined fried chicken on a yeasted waffle, with hot sauce and maple syrup poured over both. Sweet, salt, fat and heat in one plate.',
     meta: 'Chicken and waffles — buttermilk-brined fried chicken on yeasted waffles with hot sauce and maple syrup.',
     kw: ['chicken and waffles recipe', 'fried chicken waffles', 'southern brunch', 'buttermilk fried chicken'],
@@ -393,6 +398,7 @@ module.exports = {
   },
 
   'crab-cakes': {
+    rest: [60, 'chilling'],
     d: 'Maryland crab cakes are mostly crab: just enough binder to hold them, Old Bay for seasoning, and a grill rather than a deep fryer.',
     meta: 'Maryland crab cakes — jumbo lump crab with minimal binder, Old Bay, and a hot grill.',
     kw: ['maryland crab cakes recipe', 'crab cakes', 'jumbo lump crab', 'old bay seafood'],
@@ -425,6 +431,6 @@ module.exports = {
     ],
     pair: ['Lemon and tartare sauce', 'A simple green salad', 'A crisp white wine'],
     store: 'Shape and refrigerate up to 24 hours before cooking. Cooked cakes keep 2 days; do not freeze.',
-    nut: [318, 20, 9, 26, 1, 2, 1080]
+    nut: [350, 20, 9, 26, 1, 2, 1080]
   }
 };
