@@ -2,6 +2,7 @@
 const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
 const { recipeCount } = require('../data/stats');
 const ads = require('./ads');
+const ANALYTICS = require('../data/analytics');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
@@ -37,6 +38,22 @@ const SITE = {
    */
   unverifiedRatings: true
 };
+
+/**
+ * The Google Analytics tag, or nothing at all.
+ *
+ * Two tags, both external. Google supplies the second as an inline block, but
+ * this site's own output carries no inline script — see the rule in
+ * tools/check.js — so the bootstrap lives in assets/js/analytics.js and takes
+ * the measurement ID from a data attribute here.
+ */
+function analyticsTag() {
+  if (!ANALYTICS.enabled || !ANALYTICS.measurementId) return '';
+  const id = ANALYTICS.measurementId;
+  return `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
+<script src="${SITE.base}assets/js/analytics.js" data-ga-id="${id}"></script>`;
+}
 
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
                  '&family=Inter:wght@400;500;600;700&display=swap';
@@ -230,6 +247,7 @@ ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as=
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
 <script src="${SITE.base}assets/js/theme.js"></script>
 ${schemaBlocks}
+${analyticsTag()}
 ${ads.popunder()}
 </head>
 <body class="${page.bodyClass || ''}" data-base="${SITE.base}">

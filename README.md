@@ -246,6 +246,13 @@ Everything below is implemented and verified by `npm run check` on every build.
       guidance asks `keywords` for "other terms for your recipe", and forty-six
       phrases in that field is the shape of a manual action — the meta tag and the
       site's own search index carry the full list instead
+- [x] Google Analytics 4 on all 792 pages, configured in `src/data/analytics.js`
+      — set `enabled: false` and the next build strips it, which is what you want
+      before a Lighthouse run. Google supplies the tag as an inline `<script>`;
+      the bootstrap lives in `assets/js/analytics.js` instead, because the
+      generator's own output carries no inline script and `npm run check`
+      enforces that. The measurement ID reaches it on a `data-ga-id` attribute,
+      so it stays configured in one place
 - [x] `theme-color`, `color-scheme`, `manifest`, favicon and Apple touch icon
 
 ### Semantics & accessibility (WCAG 2.1 AA)
