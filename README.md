@@ -386,11 +386,20 @@ photograph.
 Eleven recipes were corrected when the ingredient hubs first ran: arancini was
 tagged Vegetarian and filled with beef ragù, Belgian frites was tagged Vegan and
 its mayonnaise takes egg yolks, jollof rice was tagged Dairy-Free and starts with
-butter. **The audit still reports 34 more**, most of them Gluten-Free recipes
-calling for plain flour, wheat bread or soy sauce. Those have not been changed:
-some are plain errors and some are accompaniments a coeliac would simply leave
-out, and telling the two apart is a decision about the recipe rather than about
-the data.
+butter.
+
+**Gluten-Free is now clean, and `npm run check` keeps it that way.** Twenty
+recipes claimed it and could not support it. Seventeen lost the tag, because the
+method needs the gluten: sole meunière is named for the flouring, chicken
+paprikash comes with flour dumplings, gazpacho is thickened with stale bread, and
+seven dishes are built on soy sauce, which is made with wheat. Three kept it —
+gambas al ajillo, borscht and menemen are gluten-free dishes served *with* bread,
+which their methods already said ("with bread for scooping") and their ingredient
+lists now say too.
+
+Fourteen contradictions remain, in Vegan, Vegetarian and Dairy-Free. `npm run
+diet` lists them. They are not enforced yet, because a check that always fails is
+a check nobody reads.
 
 ## Browser support
 

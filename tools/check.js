@@ -202,6 +202,19 @@ if (!vercelCsp) {
   }
 }
 
+/* --- diet claims --------------------------------------------------------- */
+/* Gluten-Free only, for now. It is the claim with the worst failure mode — a
+   coeliac cannot check it from the photograph — and it is the one that has been
+   brought to zero, so it is the one worth holding there. */
+try {
+  require('child_process').execFileSync(process.execPath,
+    [require('path').join(__dirname, 'diet-audit.js'), '--only', 'Gluten-Free'], { stdio: 'pipe' });
+} catch (err) {
+  for (const line of String(err.stdout || '').split('\n')) {
+    if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
+  }
+}
+
 /* --- README counts ------------------------------------------------------- */
 /* The README repeats numbers that live in the data. Verifying them here means a
    stale README fails the check rather than shipping. */

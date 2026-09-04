@@ -37,7 +37,7 @@ module.exports = [
   /* ----------------------------------------------------------- French (9) */
   c('duck-confit', 'Duck Confit', 'French', 'Dinner', 'Medium', 30, 150, 4, 4.8, 1788, ['Gluten-Free'], [], 'Confit de canard'),
   c('soupe-au-pistou', 'Soupe au Pistou', 'French', 'Dinner', 'Easy', 25, 45, 6, 4.7, 1188, ['Vegetarian'], [], 'Soupe au pistou'),
-  c('coquilles-saint-jacques', 'Coquilles Saint-Jacques', 'French', 'Appetizers', 'Medium', 25, 20, 4, 4.7, 922, ['Gluten-Free'], [], 'Coquilles saint jacques'),
+  c('coquilles-saint-jacques', 'Coquilles Saint-Jacques', 'French', 'Appetizers', 'Medium', 25, 20, 4, 4.7, 922, [], [], 'Coquilles saint jacques'),
   c('salade-lyonnaise', 'Salade Lyonnaise', 'French', 'Lunch', 'Easy', 15, 10, 4, 4.6, 788, [], [], 'Salade lyonnaise'),
   c('canele', 'Canelés de Bordeaux', 'French', 'Baking', 'Hard', 30, 60, 12, 4.7, 1322, ['Vegetarian'], [], 'Caneles bordeaux'),
   c('gateau-basque', 'Gâteau Basque', 'French', 'Desserts', 'Medium', 35, 45, 10, 4.6, 744, ['Vegetarian'], [], 'Gateau basque'),
@@ -157,7 +157,7 @@ module.exports = [
   c('pelmeni', 'Pelmeni', 'Russian', 'Dinner', 'Medium', 60, 15, 6, 4.7, 1188, [], [], 'Pelmeni'),
 
   /* -------------------------------------------------------- Hungarian (2) */
-  c('chicken-paprikash', 'Chicken Paprikash', 'Hungarian', 'Dinner', 'Easy', 15, 45, 4, 4.8, 1866, ['Gluten-Free'], [], 'Chicken paprikash'),
+  c('chicken-paprikash', 'Chicken Paprikash', 'Hungarian', 'Dinner', 'Easy', 15, 45, 4, 4.8, 1866, [], [], 'Chicken paprikash'),
   c('langos', 'Lángos', 'Hungarian', 'Quick Meals', 'Easy', 75, 15, 6, 4.7, 1144, ['Vegetarian'], [], 'Langos'),
 
   /* --------------------------------------------------------- Romanian (2) */
@@ -258,7 +258,7 @@ module.exports = [
 
   /* --------------------------------------------------------- Filipino (4) */
   c('sinigang', 'Sinigang na Baboy', 'Filipino', 'Dinner', 'Easy', 20, 60, 6, 4.8, 1644, ['Gluten-Free', 'Dairy-Free'], [], 'Sinigang soup bowl tamarind'),
-  c('lechon-kawali', 'Lechon Kawali', 'Filipino', 'Dinner', 'Medium', 20, 90, 6, 4.8, 1322, ['Gluten-Free', 'Dairy-Free'], [], 'Lechon kawali'),
+  c('lechon-kawali', 'Lechon Kawali', 'Filipino', 'Dinner', 'Medium', 20, 90, 6, 4.8, 1322, ['Dairy-Free'], [], 'Lechon kawali'),
   c('pancit-canton', 'Pancit Canton', 'Filipino', 'Dinner', 'Easy', 25, 20, 6, 4.7, 1188, ['Dairy-Free'], [], 'Pancit canton'),
   c('halo-halo', 'Halo-Halo', 'Filipino', 'Desserts', 'Easy', 25, 0, 4, 4.7, 1544, ['Vegetarian', 'Gluten-Free'], [], 'Halo halo shaved ice dessert glass'),
 
@@ -280,7 +280,7 @@ module.exports = [
   c('dulce-de-leche', 'Dulce de Leche', 'Argentinian', 'Desserts', 'Easy', 5, 180, 12, 4.8, 2388, ['Vegetarian', 'Gluten-Free'], [], 'Dulce de leche spoon jar caramel'),
 
   /* --------------------------------------------------------- Chilean (2) */
-  c('pastel-de-choclo', 'Pastel de Choclo', 'Chilean', 'Dinner', 'Medium', 35, 60, 6, 4.6, 622, ['Gluten-Free'], [], 'Pastel de choclo'),
+  c('pastel-de-choclo', 'Pastel de Choclo', 'Chilean', 'Dinner', 'Medium', 35, 60, 6, 4.6, 622, [], [], 'Pastel de choclo'),
   c('completo', 'Completo Italiano', 'Chilean', 'Quick Meals', 'Easy', 15, 10, 4, 4.6, 744, [], [], 'Completo chileno'),
 
   /* -------------------------------------------------------- Brazilian (3) */

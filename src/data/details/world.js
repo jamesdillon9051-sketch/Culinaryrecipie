@@ -399,7 +399,7 @@ module.exports = {
       '0.25 tsp black pepper',
       '80 g beyaz peynir or feta, crumbled',
       '1 small bunch flat-leaf parsley, chopped',
-      '4 slices crusty bread'
+      '4 slices crusty bread, to serve'
     ],
     st: [
       'Heat the olive oil in a wide, shallow pan over medium heat and cook the chopped peppers for 8 to 10 minutes until completely soft and beginning to colour.',

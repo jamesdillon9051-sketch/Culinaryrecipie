@@ -182,7 +182,7 @@ module.exports = {
       '1 tsp flaky sea salt',
       '1 small bunch flat-leaf parsley, chopped',
       '1 lemon, in wedges',
-      '4 thick slices crusty bread'
+      '4 thick slices crusty bread, to serve'
     ],
     st: [
       'Pat the prawns completely dry and season them with half the salt.',
@@ -755,7 +755,7 @@ module.exports = {
       '2 tsp fine sea salt',
       '1 large bunch dill, chopped',
       '200 ml smetana or soured cream',
-      '4 slices rye bread'
+      '4 slices rye bread, to serve'
     ],
     st: [
       'Heat the oil in a large pot and cook the onion for 8 minutes until soft.',

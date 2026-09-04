@@ -28,7 +28,7 @@ module.exports = [
   c('cacio-e-pepe', 'Cacio e Pepe', 'Italian', 'Quick Meals', 'Medium', 5, 15, 2, 4.8, 2110, ['Vegetarian'], ['trending'], 'Cacio e pepe pasta'),
   c('penne-all-arrabbiata', "Penne all'Arrabbiata", 'Italian', 'Quick Meals', 'Easy', 10, 20, 4, 4.7, 1682, ['Vegan', 'Dairy-Free'], [], 'Penne all arrabbiata'),
   c('risotto-alla-milanese', 'Risotto alla Milanese', 'Italian', 'Dinner', 'Medium', 10, 30, 4, 4.7, 1408, ['Vegetarian', 'Gluten-Free'], [], 'Risotto alla milanese saffron'),
-  c('osso-buco', 'Osso Buco alla Milanese', 'Italian', 'Dinner', 'Hard', 25, 120, 4, 4.8, 962, ['Gluten-Free'], [], 'Ossobuco veal'),
+  c('osso-buco', 'Osso Buco alla Milanese', 'Italian', 'Dinner', 'Hard', 25, 120, 4, 4.8, 962, [], [], 'Ossobuco veal'),
   c('chicken-parmigiana', 'Chicken Parmigiana', 'Italian', 'Dinner', 'Medium', 20, 35, 4, 4.8, 3315, [], ['trending'], 'Chicken parmigiana'),
   c('potato-gnocchi', 'Potato Gnocchi with Sage Butter', 'Italian', 'Dinner', 'Medium', 45, 15, 4, 4.7, 1544, ['Vegetarian'], [], 'Potato gnocchi'),
   c('pesto-genovese', 'Pesto alla Genovese', 'Italian', 'Quick Meals', 'Easy', 15, 10, 4, 4.8, 2277, ['Vegetarian'], [], 'Pesto alla genovese basil'),
@@ -192,8 +192,8 @@ module.exports = [
 
   /* ---------------------------------------------------------- Spanish (6) */
   c('paella-valenciana', 'Paella Valenciana', 'Spanish', 'Dinner', 'Medium', 25, 45, 6, 4.8, 3411, ['Gluten-Free', 'Dairy-Free'], ['editors'], 'Paella'),
-  c('gazpacho', 'Andalusian Gazpacho', 'Spanish', 'Healthy', 'Easy', 20, 0, 4, 4.7, 1877, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Gazpacho'),
-  c('patatas-bravas', 'Patatas Bravas', 'Spanish', 'Appetizers', 'Easy', 15, 30, 4, 4.7, 2044, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Patatas bravas'),
+  c('gazpacho', 'Andalusian Gazpacho', 'Spanish', 'Healthy', 'Easy', 20, 0, 4, 4.7, 1877, ['Vegan', 'Dairy-Free'], [], 'Gazpacho'),
+  c('patatas-bravas', 'Patatas Bravas', 'Spanish', 'Appetizers', 'Easy', 15, 30, 4, 4.7, 2044, ['Vegan', 'Dairy-Free'], [], 'Patatas bravas'),
   c('tortilla-espanola', 'Tortilla Española', 'Spanish', 'Lunch', 'Medium', 15, 35, 6, 4.8, 2311, ['Vegetarian', 'Gluten-Free'], [], 'Tortilla espanola'),
   c('gambas-al-ajillo', 'Gambas al Ajillo', 'Spanish', 'Appetizers', 'Easy', 10, 10, 4, 4.8, 1755, ['Gluten-Free', 'Dairy-Free', 'Keto'], [], 'Gambas al ajillo'),
   c('sangria', 'Red Wine Sangria', 'Spanish', 'Drinks', 'Easy', 15, 0, 6, 4.7, 2133, ['Vegan', 'Gluten-Free'], [], 'Sangria'),
@@ -202,7 +202,7 @@ module.exports = [
   c('bibimbap', 'Bibimbap', 'Korean', 'Dinner', 'Medium', 35, 20, 4, 4.8, 3122, ['Dairy-Free'], ['trending'], 'Bibimbap'),
   c('korean-fried-chicken', 'Korean Fried Chicken', 'Korean', 'Dinner', 'Medium', 25, 25, 4, 4.9, 3866, ['Dairy-Free'], ['editors'], 'Korean fried chicken'),
   c('bulgogi', 'Beef Bulgogi', 'Korean', 'Dinner', 'Easy', 20, 10, 4, 4.8, 2966, ['Dairy-Free'], [], 'Bulgogi'),
-  c('japchae', 'Japchae', 'Korean', 'Dinner', 'Medium', 25, 15, 6, 4.7, 1622, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Japchae'),
+  c('japchae', 'Japchae', 'Korean', 'Dinner', 'Medium', 25, 15, 6, 4.7, 1622, ['Vegan', 'Dairy-Free'], [], 'Japchae'),
   c('tteokbokki', 'Tteokbokki', 'Korean', 'Quick Meals', 'Easy', 10, 15, 2, 4.7, 2044, ['Vegetarian', 'Dairy-Free'], ['trending'], 'Tteokbokki'),
   c('kimchi', 'Napa Cabbage Kimchi', 'Korean', 'Appetizers', 'Medium', 60, 0, 12, 4.8, 2277, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Kimchi'),
   c('kimchi-jjigae', 'Kimchi Jjigae', 'Korean', 'Healthy', 'Easy', 10, 25, 4, 4.7, 1466, ['Dairy-Free'], [], 'Kimchi jjigae stew'),
@@ -218,7 +218,7 @@ module.exports = [
   c('fish-and-chips', 'Beer-Battered Fish and Chips', 'British', 'Dinner', 'Medium', 25, 25, 4, 4.8, 3244, ['Dairy-Free'], ['trending'], 'Fish and chips'),
   c('shepherds-pie', "Shepherd's Pie", 'British', 'Dinner', 'Easy', 25, 50, 6, 4.8, 2955, [], [], 'Shepherds pie'),
   c('beef-wellington', 'Beef Wellington', 'British', 'Holiday Specials', 'Hard', 60, 45, 6, 4.8, 1622, [], ['editors'], 'Beef wellington'),
-  c('full-english-breakfast', 'Full English Breakfast', 'British', 'Breakfast', 'Easy', 15, 25, 2, 4.7, 2133, ['Gluten-Free'], [], 'Full english breakfast'),
+  c('full-english-breakfast', 'Full English Breakfast', 'British', 'Breakfast', 'Easy', 15, 25, 2, 4.7, 2133, [], [], 'Full english breakfast'),
   c('bangers-and-mash', 'Bangers and Mash with Onion Gravy', 'British', 'Dinner', 'Easy', 15, 35, 4, 4.7, 1466, [], [], 'Bangers and mash'),
   c('english-scones', 'English Scones', 'British', 'Baking', 'Easy', 15, 15, 8, 4.8, 2588, ['Vegetarian'], [], 'Scones cream tea'),
   c('sticky-toffee-pudding', 'Sticky Toffee Pudding', 'British', 'Desserts', 'Easy', 20, 35, 8, 4.9, 2411, ['Vegetarian'], ['editors'], 'Sticky toffee pudding'),
@@ -240,7 +240,7 @@ module.exports = [
   c('feijoada', 'Feijoada Brasileira', 'Brazilian', 'Holiday Specials', 'Medium', 30, 150, 8, 4.7, 1244, ['Gluten-Free', 'Dairy-Free'], [], 'Feijoada'),
   c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free', 'Low-Carb', 'Keto'], ['trending'], 'Ceviche'),
   c('beef-empanadas', 'Beef Empanadas', 'Argentinian', 'Appetizers', 'Medium', 40, 25, 12, 4.8, 2133, [], [], 'Empanadas'),
-  c('jerk-chicken', 'Jamaican Jerk Chicken', 'Jamaican', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Jerk chicken'),
+  c('jerk-chicken', 'Jamaican Jerk Chicken', 'Jamaican', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Dairy-Free'], ['trending'], 'Jerk chicken'),
   c('cuban-sandwich', 'Cuban Sandwich', 'Cuban', 'Lunch', 'Easy', 15, 10, 4, 4.7, 1622, [], [], 'Cuban sandwich'),
 
   /* ----------------------------------------------------- North Africa (3) */
