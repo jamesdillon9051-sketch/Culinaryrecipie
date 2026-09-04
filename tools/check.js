@@ -77,13 +77,36 @@ for (const file of htmlFiles) {
     let parsed;
     try { parsed = JSON.parse(block[1]); } catch { problems.push(`${rel}: unparseable ld+json`); continue; }
     for (const node of [].concat(parsed)) {
-      if (!node || node['@type'] !== 'FAQPage') continue;
-      for (const entry of node.mainEntity || []) {
-        const answer = entry.acceptedAnswer && entry.acceptedAnswer.text;
-        if (!visible.includes(flatten(entry.name))) {
-          problems.push(`${rel}: FAQ question is in the schema but not on the page`);
-        } else if (!visible.includes(flatten(answer || ''))) {
-          problems.push(`${rel}: FAQ answer is in the schema but not on the page`);
+      if (!node) continue;
+
+      if (node['@type'] === 'FAQPage') {
+        for (const entry of node.mainEntity || []) {
+          const answer = entry.acceptedAnswer && entry.acceptedAnswer.text;
+          if (!visible.includes(flatten(entry.name))) {
+            problems.push(`${rel}: FAQ question is in the schema but not on the page`);
+          } else if (!visible.includes(flatten(answer || ''))) {
+            problems.push(`${rel}: FAQ answer is in the schema but not on the page`);
+          }
+        }
+      }
+
+      /* Reviews carry the same rule as the FAQ and a sharper reason for it: a
+         review is a claim that a named person said something. */
+      for (const review of [].concat(node.review || [])) {
+        const body = review && review.reviewBody;
+        const author = review && review.author && review.author.name;
+        if (body && !visible.includes(flatten(body))) {
+          problems.push(`${rel}: a review body is in the schema but not on the page`);
+        } else if (author && !visible.includes(flatten(author))) {
+          problems.push(`${rel}: a review author is in the schema but not on the page`);
+        }
+      }
+
+      /* A VideoObject asserts a video the page can play. Nothing else here can
+         tell the difference between that and a page that merely says so. */
+      if (node['@type'] === 'VideoObject') {
+        if (!/<video[\s>]|<iframe[\s>]/.test(html)) {
+          problems.push(`${rel}: VideoObject in the schema but no video or iframe on the page`);
         }
       }
     }

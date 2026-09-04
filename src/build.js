@@ -21,6 +21,7 @@ const path = require('path');
 const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
+const publishedReviews = require('./data/reviews.json');
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
         searchTerms } = require('./lib/keywords');
@@ -178,6 +179,10 @@ function loadRecipes() {
       description: detail.d,
       meta: clamp(detail.meta, 158),
       keywords: detail.kw,
+      /* Optional, and absent on every recipe today. Both exist so the schema
+         appears the moment a real asset does — see src/lib/media.js. */
+      video: detail.video || null,
+      publishedReviews: publishedReviews[row.slug] || [],
       why: detail.why,
       ingredients: detail.ing,
       steps: detail.st,

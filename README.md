@@ -203,6 +203,23 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] Unique meta description under 160 characters on every page
 - [x] Open Graph: `type`, `site_name`, `locale`, `title`, `description`, `url`, `image`, `image:alt`, `image:width`, `image:height`
 - [x] Twitter Card: `summary_large_image` with `site`, `title`, `description`, `image`, `image:alt`
+- [x] **VideoObject** and **Review**, wired but silent — `src/lib/media.js` emits
+      them only from real assets. Add a `video` block to a recipe's detail record
+      and the VideoObject appears alongside a rendered player; put reviews in
+      `src/data/reviews.json` and the Review objects appear alongside the rendered
+      reviews, with `aggregateRating` recomputed as their actual average. Neither
+      is present today, because the site has no videos and reader reviews live in
+      the reader's own browser and never reach a server. `npm run check` verifies
+      review text is on the page and that a VideoObject is accompanied by an
+      actual player
+- [ ] **`aggregateRating` currently publishes seeded figures.** Every rating in
+      the catalogue falls between 4.5 and 4.9, none lower — not a distribution
+      real ratings produce. They were written with the catalogue to give the cards
+      something to show, and emitting them as structured data tells a search
+      engine a stated number of people rated the dish. `SITE.unverifiedRatings`
+      in `src/templates/layout.js` turns this off; it is left on because doing so
+      removes the stars from search results, which is a trade to make deliberately.
+      Real reviews override it automatically
 - [x] **FAQPage** on all 600 recipe pages and the about page — 3,447 questions,
       about 5.7 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags

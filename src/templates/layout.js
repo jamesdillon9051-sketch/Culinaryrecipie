@@ -12,7 +12,25 @@ const SITE = {
   locale: 'en_GB',
   twitter: '@culinaryvault',
   author: 'The CulinaryVault Test Kitchen',
-  founded: 2019
+  founded: 2019,
+
+  /**
+   * Whether to publish the catalogue's own rating figures as aggregateRating
+   * when a recipe has no reviews behind it.
+   *
+   * They are seeded numbers. Every one of the 600 falls between 4.5 and 4.9,
+   * none lower, which is not a distribution real ratings produce — they were
+   * written with the catalogue to give the cards something to show. Emitting
+   * them as structured data tells a search engine that a stated number of people
+   * rated the dish, which nobody counted.
+   *
+   * It is left on because turning it off removes the stars from search results
+   * and that is a visible trade to make deliberately rather than by side effect.
+   * Set it to false, or put real reviews in ../data/reviews.json — those take
+   * precedence automatically and the aggregate is then the average of reviews a
+   * reader can see.
+   */
+  unverifiedRatings: true
 };
 
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +

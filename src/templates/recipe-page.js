@@ -3,6 +3,7 @@ const { esc, humanTime, isoDuration, starsHtml, clamp, photoCredit } = require('
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { questions, faqSchema } = require('../lib/faq');
+const { videoSchema, reviewSchema } = require('../lib/media');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -59,7 +60,48 @@ function nutritionHtml(n) {
     `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
 }
 
+/**
+ * Reviews collected and published by the site, rendered server-side.
+ *
+ * These are the only reviews that reach the schema, and they reach it because
+ * they are here — review markup has to describe reviews on the page. The
+ * browser-stored ones rendered below this block are private to the reader's own
+ * device: a crawler cannot see them, and neither can anyone else.
+ */
+function publishedReviewsHtml(reviews) {
+  if (!reviews || !reviews.length) return '';
+  return `<ol class="review-list review-list--published">${reviews.map(review => `
+    <li class="review">
+      <p class="review__stars" aria-label="${review.rating} out of 5">${starsHtml(review.rating)}</p>
+      <p class="review__body">${esc(review.body)}</p>
+      <p class="review__meta">${esc(review.author)} &middot;
+        <time datetime="${esc(review.date)}">${esc(review.date)}</time></p>
+    </li>`).join('')}</ol>`;
+}
+
+/**
+ * The video, when there is one.
+ *
+ * Rendered before the schema claims it, for the same reason as the reviews: a
+ * VideoObject on a page with no video is a promise the page does not keep.
+ */
+function videoHtml(video) {
+  if (!video) return '';
+  const frame = video.embedUrl
+    ? `<iframe src="${esc(video.embedUrl)}" title="${esc(video.name)}" loading="lazy"
+        allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen
+        width="960" height="540" style="width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius)"></iframe>`
+    : `<video controls preload="none" poster="${esc([].concat(video.thumbnailUrl)[0])}"
+        width="960" height="540" style="width:100%;height:auto;border-radius:var(--radius)">
+        <source src="${esc(video.contentUrl)}">
+      </video>`;
+  return `<figure class="recipe-video">${frame}
+    <figcaption>${esc(video.name)} &mdash; ${esc(video.description)}</figcaption>
+  </figure>`;
+}
+
 function recipeSchema(recipe) {
+  const published = reviewSchema(recipe.publishedReviews, recipe.slug);
   const url = `${SITE.origin}${SITE.base}recipes/${recipe.slug}/`;
   const image = recipe.imageData
     ? [`${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg`]
@@ -113,13 +155,21 @@ function recipeSchema(recipe) {
       text,
       url: `${url}#step-${i + 1}`
     })),
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: recipe.rating.toFixed(1),
-      reviewCount: recipe.reviews,
-      bestRating: '5',
-      worstRating: '1'
-    },
+    /* Real reviews win. With none, the catalogue's seeded figure is used, which
+       is what SITE.unverifiedRatings governs — see the note on it in ./layout.js. */
+    ...(published.aggregate
+      ? { aggregateRating: published.aggregate, review: published.reviews }
+      : SITE.unverifiedRatings
+        ? {
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: recipe.rating.toFixed(1),
+              reviewCount: recipe.reviews,
+              bestRating: '5',
+              worstRating: '1'
+            }
+          }
+        : {}),
     tool: [],
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   };
@@ -215,6 +265,7 @@ ${breadcrumbs(trail)}
           <p>${esc(recipe.why)}</p>
         </aside>
         ${processBlock}
+        ${videoHtml(recipe.video)}
 
         <h2 id="method">Method</h2>
         <p class="form-note" style="margin-bottom:1rem">
@@ -243,6 +294,7 @@ ${breadcrumbs(trail)}
         <section class="reviews" aria-labelledby="reviews-title" style="margin-top:3rem">
           <h2 id="reviews-title">Reader Reviews</h2>
           <p class="form-note" id="review-summary"></p>
+          ${publishedReviewsHtml(recipe.publishedReviews)}
           <div id="review-list"></div>
 
           <div class="panel" style="margin-top:1.5rem">
@@ -354,7 +406,8 @@ ${breadcrumbs(trail)}
     ogType: 'article',
     image: img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : undefined,
     imageAlt: recipe.imageAlt,
-    schema: [recipeSchema(recipe), breadcrumbSchema(trail), faqSchema(faq)].filter(Boolean),
+    schema: [recipeSchema(recipe), breadcrumbSchema(trail), faqSchema(faq),
+             videoSchema(recipe, SITE.origin)].filter(Boolean),
     scripts: ['recipe.js'],
     /* Slots are placed in the article itself, below the intro and below the
        method, so the layout must not add its own. */
