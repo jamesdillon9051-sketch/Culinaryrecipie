@@ -20,7 +20,12 @@
  * EU or anywhere else with an equivalent rule.
  */
 module.exports = {
-  enabled: true,
+  /* Off by the site owner's decision: the tags load for everyone, as they did
+     before, and ad revenue is unaffected. Setting this back to true restores
+     the gating — nothing else has to change, and the banner, the loader and the
+     privacy wording all come back with it. See the note in the README about
+     what turning it off means for readers in the UK and the EU. */
+  enabled: false,
 
   /* Bumped when the categories change: a stored choice from an older version
      is treated as unanswered, because it was consent to a different question. */

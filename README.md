@@ -246,14 +246,23 @@ Everything below is implemented and verified by `npm run check` on every build.
       guidance asks `keywords` for "other terms for your recipe", and forty-six
       phrases in that field is the shape of a manual action — the meta tag and the
       site's own search index carry the full list instead
-- [x] **Cookie consent that actually gates.** `src/data/consent.js` switches it on;
-      `assets/js/consent.js` holds the banner and, more to the point, the loader.
-      Google Analytics and all three Adsterra units are absent from the markup
-      entirely — their URLs travel inertly on data attributes — and are injected
-      only after somebody accepts. Reject and Accept are the same size, the choice
-      is kept for six months, and a "Cookie settings" link in the footer withdraws
-      it in one click. Verified in Chromium: zero requests to Google or the ad
-      network before a choice, zero after refusing, and on a reload after refusing
+- [ ] **Cookie consent — built, and currently switched off.** `src/data/consent.js`
+      has `enabled: false`, so analytics and advertising load with the page as they
+      always did and ad revenue is unaffected. Setting it to `true` restores real
+      gating: `assets/js/consent.js` holds the banner and the loader, Google
+      Analytics and all three Adsterra units leave the markup entirely (their URLs
+      travel inertly on data attributes) and are injected only after somebody
+      accepts, Reject and Accept carry equal weight, and a "Cookie settings" link
+      appears in the footer. It was verified in Chromium at the time: zero requests
+      to Google or the ad network before a choice, zero after refusing, zero on a
+      reload after refusing. The privacy page follows the flag in both directions,
+      so it never describes a banner that is not there.
+
+      Off is a decision with consequences, not a default: loading analytics and
+      advertising cookies without asking is not lawful for readers in the UK or the
+      EU under GDPR and the ePrivacy rules. The middle path, if the revenue matters
+      more than the simplicity, is to show the banner only where it is required —
+      Netlify Edge Functions can make that call from the request's country
 - [x] Google Analytics 4 on all 792 pages, configured in `src/data/analytics.js`
       — set `enabled: false` and the next build strips it, which is what you want
       before a Lighthouse run. Google supplies the tag as an inline `<script>`;
