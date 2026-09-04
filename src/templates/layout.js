@@ -7,7 +7,12 @@ const ads = require('./ads');
 const SITE = {
   name: 'CulinaryVault',
   tagline: `The world's ${recipeCount} most famous recipes, tested and explained`,
-  origin: (process.env.SITE_URL || 'https://culinaryvault.netlify.app').replace(/\/$/, ''),
+  /* The live domain. Every canonical link, Open Graph URL, sitemap entry and
+     JSON-LD @id on the site is built from this, so it has to be the address
+     people actually reach — it pointed at a Netlify subdomain that returns 404,
+     which told search engines the canonical version of every page was a URL
+     that does not exist. */
+  origin: (process.env.SITE_URL || 'https://weeklydelight.com').replace(/\/$/, ''),
   base: process.env.BASE_PATH || '/',
   locale: 'en_GB',
   twitter: '@culinaryvault',

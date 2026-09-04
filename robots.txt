@@ -1,4 +1,4 @@
-# CulinaryVault — https://culinaryvault.netlify.app/
+# CulinaryVault — https://weeklydelight.com/
 User-agent: *
 Allow: /
 
@@ -33,4 +33,4 @@ Crawl-delay: 10
 User-agent: SemrushBot
 Crawl-delay: 10
 
-Sitemap: https://culinaryvault.netlify.app/sitemap.xml
+Sitemap: https://weeklydelight.com/sitemap.xml
