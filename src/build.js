@@ -20,6 +20,8 @@ const path = require('path');
 
 const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
+const { expand: expandKeywords, forCategory: keywordsForCategory,
+        forCuisine: keywordsForCuisine, searchTerms } = require('./lib/keywords');
 const { SITE, slug } = require('./templates/layout');
 const { recipeCount } = require('./data/stats');
 const ads = require('./templates/ads');
@@ -167,7 +169,7 @@ function loadRecipes() {
     const recency = row.badges.includes('new') ? index * 2 : 40 + index * 5;
     const published = EPOCH - recency * DAY;
 
-    return {
+    const built = {
       ...row,
       totalTime: row.prep + row.cook,
       description: detail.d,
@@ -192,6 +194,12 @@ function loadRecipes() {
       dateModified: new Date(EPOCH).toISOString().slice(0, 10),
       popularity: row.reviews * row.rating
     };
+
+    /* Widen the four curated keywords into the long-tail phrases the row
+       already supports. This runs after the object is assembled because it
+       reads the ingredients and storage note as well as the catalogue row. */
+    built.keywords = expandKeywords(built);
+    return built;
   });
 
   /* Related recipes: same cuisine first, then same category, never itself. */
@@ -278,7 +286,7 @@ function searchIndex(recipes) {
        keywords and every ingredient name. */
     s: [
       r.title, r.cuisine, r.category, r.difficulty,
-      r.tags.join(' '), r.keywords.join(' '),
+      r.tags.join(' '), searchTerms(r.title, r.keywords).join(' '),
       plainList(r.ingredients).join(' ')
     ].join(' ').toLowerCase()
   }));
@@ -445,7 +453,12 @@ function build() {
     eyebrow: 'The full directory',
     intro: 'Every recipe in the Vault, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
     description: `Browse all ${recipes.length} tested recipes on CulinaryVault. Filter by cuisine, category, dietary needs, difficulty and cooking time.`,
-    keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter'],
+    keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter',
+               'recipe index', 'full recipe list', 'browse by cuisine', 'browse by category',
+               'filter recipes by diet', 'vegetarian recipes', 'vegan recipes',
+               'gluten free recipes', 'quick recipes', 'easy recipes', 'dinner ideas',
+               'what to cook tonight', 'tested recipes', 'recipes with photos',
+               'sort recipes by rating', 'find a recipe'],
     path: 'recipes/',
     trail: [{ name: 'Recipes' }],
     seed: recipes.slice().sort((a, b) => b.popularity - a.popularity).slice(0, 24)
@@ -458,7 +471,10 @@ function build() {
     eyebrow: 'Find a recipe',
     intro: 'Search by dish, ingredient, cuisine or technique. Results update as you type and can be narrowed with the filters.',
     description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet.`,
-    keywords: ['recipe search', 'find recipes by ingredient', 'search recipes'],
+    keywords: ['recipe search', 'find recipes by ingredient', 'search recipes',
+               'search by ingredient', 'what can i cook with', 'recipe finder',
+               'ingredient search', 'leftover ingredient recipes', 'cook with what i have',
+               'find recipes by name', 'search recipes by cuisine', 'recipe lookup'],
     path: 'search/',
     active: 'search',
     index: false,
@@ -495,7 +511,7 @@ function build() {
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, ranked by what readers cook most.`,
       description: clamp(`${name} recipes from CulinaryVault: ${plural(list.length, 'tested dish', 'tested dishes')}. ${CATEGORIES[name]}`, 158),
-      keywords: [`${name.toLowerCase()} recipes`, `best ${name.toLowerCase()} recipes`, `easy ${name.toLowerCase()} ideas`],
+      keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
       active: 'categories',
       newsId: `cat-${slug(name)}-news`,
@@ -514,7 +530,7 @@ function build() {
       eyebrow: `${meta.flag} Cuisine`,
       intro: `${meta.blurb} ${plural(list.length, 'tested ' + name + ' recipe')}, from the everyday to the ambitious.`,
       description: clamp(`${plural(list.length, 'tested ' + name + ' recipe')} on CulinaryVault. ${meta.blurb}`, 158),
-      keywords: [`${name.toLowerCase()} recipes`, `authentic ${name.toLowerCase()} food`, `${name.toLowerCase()} cooking`],
+      keywords: keywordsForCuisine(name, list),
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',
       newsId: `cui-${slug(name)}-news`,

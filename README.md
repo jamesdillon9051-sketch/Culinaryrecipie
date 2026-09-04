@@ -156,7 +156,11 @@ grams to the nearest 5, small counts to kitchen fractions (`¾ tsp`, not
 
 **Discovery**
 
-- Real-time search with autocomplete over titles, cuisines, keywords and every ingredient
+- Real-time search with autocomplete over titles, cuisines, keywords and every ingredient.
+  The derived keywords go into the index too, so plain-language queries work — "can you
+  freeze" reaches 309 recipes, "gluten free" 237, "for beginners" 335. The dish name is
+  stripped from each phrase before indexing, since substring search only needs it once;
+  that keeps the index at 168 KB gzipped instead of 207 KB with the repeats left in
 - Faceted filtering by category, cuisine, dietary tag, difficulty and total time
 - Filter state is reflected in the URL, so filtered views are shareable
 - Favourites, stored locally with no account
@@ -198,7 +202,12 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] Unique meta description under 160 characters on every page
 - [x] Open Graph: `type`, `site_name`, `locale`, `title`, `description`, `url`, `image`, `image:alt`, `image:width`, `image:height`
 - [x] Twitter Card: `summary_large_image` with `site`, `title`, `description`, `image`, `image:alt`
-- [x] `keywords` meta on recipe and taxonomy pages
+- [x] `keywords` meta on recipe and taxonomy pages — 4 curated phrases per recipe,
+      widened to ~33 by `src/lib/keywords.js` from the row's own cuisine, category,
+      times, diet tags, ingredients and storage note (15,766 distinct phrases across
+      the site). Derived rather than written, so a phrase is only emitted where the
+      data backs it: "gluten free X" needs the tag, "30 minute X" needs the times,
+      "can you freeze X" needs the storage note to say so
 - [x] `theme-color`, `color-scheme`, `manifest`, favicon and Apple touch icon
 
 ### Semantics & accessibility (WCAG 2.1 AA)
