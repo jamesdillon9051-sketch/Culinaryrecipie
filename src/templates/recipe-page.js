@@ -112,7 +112,10 @@ function recipeSchema(recipe) {
     '@type': 'Recipe',
     name: recipe.title,
     image,
-    author: { '@type': 'Organization', name: SITE.author, url: SITE.origin + SITE.base },
+    /* A Person, because one is. Google reads author on a recipe, and typing a
+       named individual as an Organization is both wrong and a weaker signal
+       than the truth. */
+    author: { '@type': 'Person', name: SITE.author, url: SITE.origin + SITE.base + 'about/' },
     publisher: {
       '@type': 'Organization',
       name: SITE.name,

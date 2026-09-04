@@ -609,8 +609,8 @@ const ABOUT_FAQ = [
      + 'difference between a good cake and a dense one. We give volume measures for liquids and '
      + 'small quantities where precision matters less.' },
   { q: 'Can I suggest a recipe?',
-    a: 'Please do — use the contact form. We add recipes when we can test them properly, which '
-     + 'takes a fortnight per dish.',
+    a: 'Please do — use the contact form. I add recipes once I have cooked them enough times to '
+     + 'be sure the method holds, which takes as long as it takes.',
     link: { text: 'contact form', href: `${SITE.base}contact/` } },
   { q: 'Do you store my saved recipes or reviews?',
     a: "No. Favourites, ingredient checkboxes and reviews all live in your browser's local "
@@ -619,38 +619,38 @@ const ABOUT_FAQ = [
 
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
-  const team = [
-    ['Marta Oyelaran', 'Editor-in-Chief', 'Fifteen years in restaurant kitchens across Lagos, Lyon and London. Marta decides what earns a place on the site and rewrites anything that reads like a shopping list.'],
-    ['Dan Kovač', 'Head of Test Kitchen', 'Runs every recipe through at least three rounds, and has strong opinions about resting meat. If a step is in here, Dan could not find a way to remove it.'],
-    ['Priya Raghunathan', 'Food Science Editor', 'Writes the Why This Recipe Works sections. Former food chemist, now professionally curious about why yogurt tenderises chicken.'],
-    ['Tomas Lindqvist', 'Photography & Design', 'Shoots, sources and sequences everything you see. Believes a recipe photograph should show what your version will actually look like.']
-  ];
 
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
   <header class="recipe-head">
-    <span class="eyebrow">Our story</span>
-    <h1>We got tired of recipes that did not work</h1>
-    <p class="lede">Weekly Delight started in ${SITE.founded} with a spreadsheet and a grievance: the most famous dishes in the world were also the worst documented. Everybody had a version. Almost nobody explained why theirs was right.</p>
+    <span class="eyebrow">About</span>
+    <h1>I cook the way I fly: by checklist</h1>
+    <p class="lede">I am Turab, 21, studying aviation in Kazakhstan. I am not a chef. I am the person who had to learn to cook properly in a small kitchen, on a student schedule, with nobody to fix it if I got it wrong.</p>
   </header>
 
   <div class="prose" style="max-width:72ch">
-    <p>So we picked the two hundred dishes people search for most — the pizza, the carbonara, the tikka masala, the pad thai — and cooked each one until we understood it. Not until it worked once. Until we could say exactly which step was load-bearing and which was inherited habit.</p>
+    <p>It started badly. In my first year of flight training I was living on whatever could be reheated between an early ground school and a late night of study. I did not have time to cook, and the little I made was bad enough that I stopped trying.</p>
 
-    <h2>What makes a recipe good enough to publish</h2>
-    <p>Every recipe here has been through the same process, and it takes about a fortnight per dish.</p>
+    <p>What changed was not passion. It was a habit I had already been taught somewhere else. In aviation nothing important is left to memory or to mood — you work from a checklist, you set everything out before you need it, and you trust the instrument over the feeling. I started cooking the same way. Everything measured and laid out before the pan got hot. Every step written down. Every failure noted, so it did not happen twice.</p>
+
+    <p>Those notes are this site: <strong>${recipeCount} recipes</strong>, every one of them cooked in an ordinary kitchen by somebody with an exam the next morning.</p>
+
+    <h2>Why a student's kitchen makes better recipes</h2>
+    <p>Not being a chef is the most useful thing about this site. A professional kitchen hides the parts that go wrong for you at home: the one hob that runs hotter than the rest, the oven that lies by twenty degrees, the fact that finely dicing an onion takes a normal person four minutes and not forty seconds.</p>
+    <p>Nothing goes up here until it clears the same checks.</p>
     <ul>
-      <li><strong>Research first.</strong> We read the canonical versions, the regional arguments and the primary sources. For Roman carbonara that means Italian cookbooks, not American blogs.</li>
-      <li><strong>Three rounds minimum.</strong> One to establish a baseline, one to break it deliberately, one to fix what broke. If a step survives round two, it stays.</li>
-      <li><strong>Explain the mechanism.</strong> Every recipe carries a Why This Recipe Works section. If we cannot say what a step does chemically or physically, we look harder — or we cut it.</li>
-      <li><strong>Written for a real kitchen.</strong> Domestic ovens, one pan, no blast chiller. Where professional equipment genuinely helps, we say so and give the workaround.</li>
-      <li><strong>Weights, not cups.</strong> Baking especially. Volume measures are the leading cause of a recipe failing for reasons nobody can diagnose.</li>
+      <li><strong>Cooked in a real kitchen.</strong> One domestic hob, one unreliable oven, ordinary pans. If it only works with equipment I do not own, it does not go up.</li>
+      <li><strong>Timed honestly.</strong> The times here are how long it actually takes, chopping included. I have never met a fifteen-minute recipe that took fifteen minutes and I am not going to publish another one.</li>
+      <li><strong>Weights, not cups.</strong> Grams and millilitres, because a cup of flour changes by a fifth depending on how you scoop it — and that is the difference between a good cake and a brick.</li>
+      <li><strong>The failure written down.</strong> Every recipe says where it goes wrong and how to tell before it is too late. That is the part I needed most when I was starting, and the part almost nobody writes.</li>
+      <li><strong>Built around a student's week.</strong> What can be made ahead, what reheats, and what genuinely takes twenty minutes on a night when you have nothing left.</li>
     </ul>
+    <p>I am still learning, both things in fact. But everything here has been through my own kitchen first, and I will tell you plainly when something is hard, when it is worth it, and when it is not.</p>
 
-    <h2>Where our photographs come from</h2>
+    <h2>Where the photographs come from</h2>
     <p>Every photograph here is freely licensed and sourced from Wikimedia Commons. Of the ${imageCount} images on the site, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. Everything that asks for a credit gets one, underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
-    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means our resized copy carries the same licence as the original, and the credit line beside each one says so. We do not use NonCommercial images, because this site carries advertising, or NoDerivatives images, because resizing is exactly what that licence forbids. Where no photograph of a dish exists under any of these terms, you will see a warm gradient card with the recipe name instead &mdash; we would rather show you nothing than show you someone else's photograph without permission.</p>
+    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. I do not use NonCommercial images, because this site carries advertising, or NoDerivatives images, because resizing is exactly what that licence forbids. Where no photograph of a dish exists under any of these terms, you will see a warm gradient card with the recipe name instead &mdash; I would rather show you nothing than show you someone else's photograph without permission.</p>
 
     <h2>How to use the site</h2>
     <ul>
@@ -662,24 +662,24 @@ ${breadcrumbs(trail)}
     </ul>
 
     <h2 id="attribution">Attribution and licensing</h2>
-    <p>Each photograph is credited underneath itself on the recipe page, with the photographer, the licence and a link back to the original file. The complete list in one place is <a href="${SITE.base}images-attribution.md">images-attribution.md</a>. Recipe text is our own. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
+    <p>Each photograph is credited underneath itself on the recipe page, with the photographer, the licence and a link back to the original file. The complete list in one place is <a href="${SITE.base}images-attribution.md">images-attribution.md</a>. The recipe text is mine. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
   </div>
 
   <section class="section" aria-labelledby="team-title">
     <div class="section-head">
       <div>
-        <span class="eyebrow">Who we are</span>
-        <h2 id="team-title">The test kitchen</h2>
-        <p>Four people, one very small kitchen, and an unreasonable number of failed soufflés.</p>
+        <span class="eyebrow">Who writes this</span>
+        <h2 id="team-title">One person, one kitchen</h2>
+        <p>There is no test kitchen and no team. There is me, a small hob and a notebook.</p>
       </div>
     </div>
     <div class="team-grid">
-      ${team.map(([name, role, bio]) => `<div class="team-card reveal">
-        <span class="avatar" aria-hidden="true">${esc(name.split(' ').map(p => p[0]).join(''))}</span>
-        <strong>${esc(name)}</strong>
-        <em>${esc(role)}</em>
-        <p>${esc(bio)}</p>
-      </div>`).join('')}
+      <div class="team-card reveal">
+        <span class="avatar" aria-hidden="true">T</span>
+        <strong>Turab</strong>
+        <em>Aviation student &middot; Kazakhstan</em>
+        <p>Writes, cooks, photographs and breaks everything on this site. Twenty-one, mid-way through flight training, and a hobbyist cook rather than a professional one — which is the whole point of the place.</p>
+      </div>
     </div>
   </section>
 
@@ -700,10 +700,10 @@ ${breadcrumbs(trail)}
     /* The layout appends the site name, so naming it here too gave
        'About Weekly Delight | Weekly Delight'. */
     title: 'About',
-    description: `How we test, write and photograph the world's ${recipeCount} most famous recipes — our standards, our team and our approach to cooking science.`,
+    description: `Turab, 21, an aviation student in Kazakhstan who cooks by checklist — how the ${recipeCount} recipes here are tested, timed and photographed.`,
     keywords: ['about culinaryvault', 'recipe testing', 'food blog team', 'recipe standards',
-               'how we test recipes', 'recipe development', 'trusted recipe site',
-               'about our kitchen', 'recipe accuracy', 'who writes these recipes',
+               'how recipes are tested', 'aviation student cook', 'hobbyist cook blog',
+               'recipe accuracy', 'who writes these recipes',
                'editorial policy', 'photo licensing'],
     path: 'about/',
     active: 'about',

@@ -17,7 +17,13 @@ const SITE = {
   base: process.env.BASE_PATH || '/',
   locale: 'en_GB',
   twitter: '@weeklydelight',
-  author: 'The Weekly Delight Test Kitchen',
+  /* One person writes this site. The name here is the byline on every recipe's
+     JSON-LD and the <meta name="author"> on every page, so it has to be true —
+     it said "The Weekly Delight Test Kitchen", which described a team that does
+     not exist. */
+  author: 'Turab',
+  /* Kept for the Organization schema. Set it to the year the site actually
+     started; it is published as foundingDate, so a guess is a claim. */
   founded: 2019,
 
   /**
