@@ -842,6 +842,31 @@ def gather(query, tags=()):
 
 # ------------------------------------------------------------- processing
 
+def is_monochrome(im, threshold=14):
+    """True when an image has almost no colour in it.
+
+    Every title-based filter needs the title to admit what the picture is, and
+    archival material rarely does: "Nice marchande de socca" is a postcard from
+    about 1900 of a woman selling socca from a cart, and nothing in those four
+    words says so. What does say so is that it is grey.
+
+    Cooked food is not grey. A plate of anything has sauce, browning, a green
+    herb or a coloured dish under it, and a genuine food photograph that reads
+    as monochrome is rare enough to be worth losing. Portraits of people named
+    after dishes — a John William Kalua, a Farax Cawl — are caught by the same
+    test for the same reason.
+
+    Measured as the mean distance between the RGB channels, on a thumbnail so it
+    costs nothing.
+    """
+    small = im.resize((64, 48), Image.BILINEAR)
+    pixels = list(small.getdata())
+    if not pixels:
+        return False
+    spread = sum(max(p[:3]) - min(p[:3]) for p in pixels) / len(pixels)
+    return spread < threshold
+
+
 def process(raw, slug, suffix, width):
     """Write webp + jpg, return metadata (dimensions, average colour, LQIP)."""
     try:
@@ -852,6 +877,10 @@ def process(raw, slug, suffix, width):
         log(f"    ! decode failed: {e}")
         return None
     if im.width < 400:
+        return None
+
+    if is_monochrome(im):
+        log("    · monochrome — archival rather than a photograph of the food")
         return None
 
     # Crop to a 4:3 editorial frame, then resize.

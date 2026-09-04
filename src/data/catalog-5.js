@@ -37,6 +37,6 @@ module.exports = [
   c('garlic-prawn-courgette-noodles', 'Garlic Prawns with Courgette Noodles', 'Italian', 'Dinner', 'Easy', 15, 10, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Garlic prawns courgette noodles'),
   c('smoked-salmon-scrambled-eggs', 'Smoked Salmon Scrambled Eggs', 'British', 'Breakfast', 'Easy', 5, 8, 2, 0, 0, ['Gluten-Free'], ['new'], 'Smoked salmon scrambled eggs'),
   c('seared-tuna-nicoise', 'Seared Tuna Niçoise', 'French', 'Lunch', 'Medium', 20, 10, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Seared tuna nicoise salad'),
-  c('cauliflower-chicken-fried-rice', 'Chicken Cauliflower Fried Rice', 'Chinese', 'Dinner', 'Easy', 15, 12, 2, 0, 0, ['Dairy-Free'], ['new'], 'Cauliflower fried rice chicken'),
+  c('cauliflower-chicken-fried-rice', 'Chicken Cauliflower Fried Rice', 'Chinese', 'Dinner', 'Easy', 15, 12, 2, 0, 0, ['Dairy-Free'], ['new'], 'Cauliflower rice low carb'),
   c('baked-eggs-spinach-feta', 'Baked Eggs with Spinach and Feta', 'Turkish', 'Breakfast', 'Easy', 10, 18, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Baked eggs spinach feta skillet')
 ];

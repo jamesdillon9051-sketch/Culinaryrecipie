@@ -7299,18 +7299,33 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/salmon-quinoa-bowl.jpg</image:loc>
+      <image:title>Baked Salmon and Quinoa Bowl</image:title>
+      <image:caption>Baked Salmon and Quinoa Bowl — American healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cottage-cheese-pancakes/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cottage-cheese-pancakes.jpg</image:loc>
+      <image:title>Cottage Cheese Protein Pancakes</image:title>
+      <image:caption>Cottage Cheese Protein Pancakes — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/tuna-white-bean-salad/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/tuna-white-bean-salad.jpg</image:loc>
+      <image:title>Tuna and White Bean Salad</image:title>
+      <image:caption>Tuna and White Bean Salad — Italian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/tofu-edamame-stir-fry/</loc>
@@ -7323,12 +7338,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/yogurt-marinated-chicken-skewers.jpg</image:loc>
+      <image:title>Yoghurt-Marinated Chicken Skewers</image:title>
+      <image:caption>Yoghurt-Marinated Chicken Skewers — Greek dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/banana-oat-pancakes/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/banana-oat-pancakes.jpg</image:loc>
+      <image:title>Banana Oat Pancakes</image:title>
+      <image:caption>Banana Oat Pancakes — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/roasted-tomato-basil-soup/</loc>
@@ -7341,12 +7366,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/baked-cinnamon-apples.jpg</image:loc>
+      <image:title>Baked Cinnamon Apples</image:title>
+      <image:caption>Baked Cinnamon Apples — British desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/chickpea-socca/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chickpea-socca.jpg</image:loc>
+      <image:title>Chickpea Socca</image:title>
+      <image:caption>Chickpea Socca — French appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/lentil-walnut-ragu/</loc>
@@ -7359,6 +7394,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/savoury-cottage-cheese-bowl.jpg</image:loc>
+      <image:title>Savoury Cottage Cheese Bowl</image:title>
+      <image:caption>Savoury Cottage Cheese Bowl — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/egg-cottage-cheese-muffins/</loc>
@@ -7371,6 +7411,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/grilled-halloumi-salad.jpg</image:loc>
+      <image:title>Grilled Halloumi and Herb Salad</image:title>
+      <image:caption>Grilled Halloumi and Herb Salad — Greek lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/smoked-mackerel-pate/</loc>
@@ -7389,6 +7434,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/chicken-caesar-lettuce-cups.jpg</image:loc>
+      <image:title>Chicken Caesar Lettuce Cups</image:title>
+      <image:caption>Chicken Caesar Lettuce Cups — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/garlic-prawn-courgette-noodles/</loc>
@@ -7401,18 +7451,33 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/smoked-salmon-scrambled-eggs.jpg</image:loc>
+      <image:title>Smoked Salmon Scrambled Eggs</image:title>
+      <image:caption>Smoked Salmon Scrambled Eggs — British breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/seared-tuna-nicoise/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/seared-tuna-nicoise.jpg</image:loc>
+      <image:title>Seared Tuna Niçoise</image:title>
+      <image:caption>Seared Tuna Niçoise — French lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/cauliflower-chicken-fried-rice/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/cauliflower-chicken-fried-rice.jpg</image:loc>
+      <image:title>Chicken Cauliflower Fried Rice</image:title>
+      <image:caption>Chicken Cauliflower Fried Rice — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/baked-eggs-spinach-feta/</loc>

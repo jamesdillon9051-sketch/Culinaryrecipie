@@ -61,6 +61,16 @@
     "bagels basket",
     "sesame bagel"
   ],
+  "baked-cinnamon-apples": [
+    "bratapfel",
+    "baked apple dessert",
+    "pommes au four"
+  ],
+  "baked-eggs-spinach-feta": [
+    "eggs baked in tomato skillet",
+    "shakshuka eggs pan",
+    "oeufs au plat epinards"
+  ],
   "bakewell-tart": [
     "almond frangipane tart",
     "cherry bakewell",
@@ -70,6 +80,11 @@
     "baklava pastry tray",
     "baklava pistachio",
     "filo nut pastry syrup"
+  ],
+  "banana-oat-pancakes": [
+    "banana pancakes",
+    "oat pancakes stack",
+    "pfannkuchen mit banane"
   ],
   "bandeja-paisa": [
     "bandeja paisa antioqueña"
@@ -238,6 +253,11 @@
     "カステラ",
     "kasutera"
   ],
+  "cauliflower-chicken-fried-rice": [
+    "cauliflower rice",
+    "riced cauliflower dish",
+    "low carb fried rice"
+  ],
   "causa-limena": [
     "causa limeña",
     "causa rellena"
@@ -272,6 +292,11 @@
   "chicken-and-waffles": [
     "chicken and waffles plate"
   ],
+  "chicken-caesar-lettuce-cups": [
+    "caesar salad with chicken",
+    "chicken caesar salad",
+    "romaine chicken salad"
+  ],
   "chicken-kiev": [
     "chicken kyiv",
     "breaded chicken butter",
@@ -296,9 +321,19 @@
     "chicken pot pie",
     "pot pie ramekin"
   ],
+  "chicken-rice-protein-bowl": [
+    "sliced grilled chicken breast plate",
+    "chicken breast salad rice",
+    "poulet grille riz"
+  ],
   "chicken-tagine-olives": [
     "tajine zitoune",
     "djaj mqualli"
+  ],
+  "chickpea-socca": [
+    "socca slice plate",
+    "farinata slice",
+    "cecina toscana"
   ],
   "chili-con-carne": [
     "chili con carne bowl",
@@ -356,6 +391,12 @@
     "pasty",
     "Cornish pasties",
     "baked pasty pastry"
+  ],
+  "cottage-cheese-pancakes": [
+    "сырники",
+    "syrniki",
+    "quark pancakes",
+    "cottage cheese fritters"
   ],
   "cottage-pie": [
     "shepherds pie",
@@ -438,6 +479,11 @@
     "dulce de leche argentino",
     "doce de leite"
   ],
+  "egg-cottage-cheese-muffins": [
+    "baked egg muffins",
+    "mini frittata muffins",
+    "egg muffin cups"
+  ],
   "egg-tarts": [
     "蛋撻",
     "dan tat",
@@ -512,6 +558,11 @@
     "korean short ribs",
     "marinated beef ribs grill"
   ],
+  "garlic-prawn-courgette-noodles": [
+    "prawns with courgette",
+    "shrimp zucchini pasta",
+    "gambas courgette"
+  ],
   "gateau-basque": [
     "gâteau basque",
     "etxeko biskotxa"
@@ -537,6 +588,11 @@
     "horiatiki salad",
     "Greek salad feta olives",
     "tomato cucumber feta salad"
+  ],
+  "grilled-halloumi-salad": [
+    "grilled halloumi",
+    "halloumi salad",
+    "χαλούμι ψητό"
   ],
   "gumbo": [
     "gumbo",
@@ -766,6 +822,11 @@
     "lemon meringue pie slice",
     "meringue pie",
     "lemon pie meringue topping"
+  ],
+  "lentil-walnut-ragu": [
+    "lentil bolognese",
+    "linsenbolognese",
+    "lentil ragu pasta"
   ],
   "lion-head-meatballs": [
     "红烧狮子头",
@@ -1110,6 +1171,11 @@
     "roasted turkey platter",
     "thanksgiving turkey"
   ],
+  "roasted-tomato-basil-soup": [
+    "cream of tomato soup bowl",
+    "tomatensuppe schuessel",
+    "tomato soup basil garnish"
+  ],
   "ropa-vieja": [
     "ropa vieja cubana"
   ],
@@ -1134,6 +1200,11 @@
   "salade-de-chevre-chaud": [
     "salade de chèvre chaud",
     "crottin de chavignol salade"
+  ],
+  "salmon-quinoa-bowl": [
+    "baked salmon fillet plate",
+    "salmon with quinoa",
+    "roasted salmon vegetables"
   ],
   "salmon-soup-lohikeitto": [
     "lohikeitto",
@@ -1163,6 +1234,11 @@
     "braised beef gravy dumplings",
     "sauerbraten"
   ],
+  "savoury-cottage-cheese-bowl": [
+    "cottage cheese with vegetables",
+    "quark mit gemuese",
+    "cottage cheese plate herbs"
+  ],
   "scallion-pancakes": [
     "蔥油餅",
     "cong you bing"
@@ -1173,6 +1249,11 @@
   ],
   "scotch-eggs": [
     "scotch egg halved"
+  ],
+  "seared-tuna-nicoise": [
+    "salade niçoise",
+    "nicoise salad",
+    "salade nicoise thon"
   ],
   "seekh-kebab": [
     "سیخ کباب",
@@ -1218,6 +1299,16 @@
     "loose meat sandwich bun",
     "manwich ground beef bun"
   ],
+  "smoked-mackerel-pate": [
+    "smoked mackerel pate",
+    "makrelencreme",
+    "fish pate bowl"
+  ],
+  "smoked-salmon-scrambled-eggs": [
+    "scrambled eggs with smoked salmon",
+    "rührei mit lachs",
+    "scrambled eggs plate"
+  ],
   "smoothie-bowl": [
     "acai bowl granola",
     "smoothie bowl fruit",
@@ -1253,6 +1344,11 @@
     "spanakopita pie slice",
     "spinach feta filo pie",
     "greek spinach pie"
+  ],
+  "spiced-lamb-lettuce-cups": [
+    "lettuce wraps minced meat",
+    "spiced lamb mince dish",
+    "lamb lettuce wrap"
   ],
   "spring-rolls": [
     "spring roll",
@@ -1300,6 +1396,11 @@
     "skagenröra",
     "toast skagen räkor"
   ],
+  "tofu-edamame-stir-fry": [
+    "fried tofu cubes plate",
+    "crispy tofu vegan",
+    "tofu broccoli stir fry"
+  ],
   "tomato-egg-stir-fry": [
     "tomato and egg dish",
     "scrambled egg tomato plate",
@@ -1317,6 +1418,11 @@
     "tuna sandwich melted cheese",
     "grilled cheese sandwich",
     "toasted cheese sandwich"
+  ],
+  "tuna-white-bean-salad": [
+    "tonno e fagioli",
+    "insalata di tonno e fagioli",
+    "tuna and bean salad"
   ],
   "turkish-delight": [
     "lokum sweets",
@@ -1388,6 +1494,11 @@
   ],
   "yakisoba": [
     "焼きそば"
+  ],
+  "yogurt-marinated-chicken-skewers": [
+    "chicken souvlaki",
+    "grilled chicken skewers",
+    "shish taouk"
   ],
   "zeppole": [
     "zeppole di san giuseppe",
