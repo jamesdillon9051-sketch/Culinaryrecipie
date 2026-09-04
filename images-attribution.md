@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 837
-images, **670** are CC0 or public domain and carry no conditions at all, and
-**167** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 840
+images, **671** are CC0 or public domain and carry no conditions at all, and
+**169** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,25 +42,25 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 622 |
-| Hero images | 592 |
-| Secondary "process" images | 245 |
-| Total image files | 1674 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 30 |
+| Hero images | 594 |
+| Secondary "process" images | 246 |
+| Total image files | 1680 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 28 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 391 | No rights reserved — no attribution legally required |
+| CC0 | 392 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
 | Public domain | 68 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 61 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 4.0 | 58 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 62 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 4.0 | 59 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 13 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 14 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 3.0 | 12 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY 4.0 | 8 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 7 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 6 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 4 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
@@ -106,11 +106,9 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Shui Zhu Fish (`shui-zhu-fish`)
 - Chicken and Rice Protein Bowl (`chicken-rice-protein-bowl`)
 - Tofu and Edamame Stir-Fry (`tofu-edamame-stir-fry`)
-- Roasted Tomato and Basil Soup (`roasted-tomato-basil-soup`)
 - Lentil and Walnut Ragù (`lentil-walnut-ragu`)
 - Egg and Cottage Cheese Muffins (`egg-cottage-cheese-muffins`)
 - Smoked Mackerel Pâté (`smoked-mackerel-pate`)
-- Spiced Lamb Lettuce Cups (`spiced-lamb-lettuce-cups`)
 - Garlic Prawns with Courgette Noodles (`garlic-prawn-courgette-noodles`)
 - Baked Eggs with Spinach and Feta (`baked-eggs-spinach-feta`)
 
@@ -948,19 +946,22 @@ licence as the rest of this project.
 | `cottage-cheese-pancakes.webp` / `.jpg` | Cottage Cheese Protein Pancakes | Hero | Syrniki with feijoa | Off-shell | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Syrniki_with_feijoa.jpg) |
 | `cottage-cheese-pancakes-process.webp` / `.jpg` | Cottage Cheese Protein Pancakes | Process | Syrniki with fruits | Off-shell | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Syrniki_with_fruits.jpg) |
 | `tuna-white-bean-salad.webp` / `.jpg` | Tuna and White Bean Salad | Hero | Insalata di Fagioli e Tonno – Bohnensalat mit Thunfisch (7327273414) | Katrin Gilger | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Insalata_di_Fagioli_e_Tonno_%E2%80%93_Bohnensalat_mit_Thunfisch_(7327273414).jpg) |
-| `tofu-edamame-stir-fry-process.webp` / `.jpg` | Tofu and Edamame Stir-Fry | Process | Smokey Millet Super Grain Bowl With Crispy Tofu | Simmer + Sauce | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smokey_Millet_Super_Grain_Bowl_With_Crispy_Tofu.jpg) |
+| `tofu-edamame-stir-fry-process.webp` / `.jpg` | Tofu and Edamame Stir-Fry | Process | Stir-fry spinach with tofu - Golden white jade and Green Parrot (菠菜炒豆腐 - 金鑲白玉板，紅嘴綠鸚哥)(2) | NeoBatfreak | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_(%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5)(2).jpg) |
 | `yogurt-marinated-chicken-skewers.webp` / `.jpg` | Yoghurt-Marinated Chicken Skewers | Hero | Chicken souvlaki at Hellenic 2 | Orderinchaos | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_souvlaki_at_Hellenic_2.jpg) |
 | `banana-oat-pancakes.webp` / `.jpg` | Banana Oat Pancakes | Hero | American Pancakes with banana and blueberries - Jonny's Goring Bar & Kitchen 2026-01-29 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:American_Pancakes_with_banana_and_blueberries_-_Jonny%27s_Goring_Bar_%26_Kitchen_2026-01-29.jpg) |
+| `roasted-tomato-basil-soup.webp` / `.jpg` | Roasted Tomato and Basil Soup | Hero | Tomatensuppe-quarkkloesse | abnehmen.net | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tomatensuppe-quarkkloesse.jpg) |
 | `baked-cinnamon-apples.webp` / `.jpg` | Baked Cinnamon Apples | Hero | Bratäpfel 1 | Brücke-Osteuropa | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brat%C3%A4pfel_1.JPG) |
 | `chickpea-socca.webp` / `.jpg` | Chickpea Socca | Hero | Farinata di zucca di Sestri Ponente 01 | Alessio Sbarbaro User_talk:Yoggysot | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Farinata_di_zucca_di_Sestri_Ponente_01.jpg) |
 | `savoury-cottage-cheese-bowl.webp` / `.jpg` | Savoury Cottage Cheese Bowl | Hero | Liat Portal for Foodie Disorder - Cottage cheese and vegetables on rice cakes | HaJunkiyada | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Cottage_cheese_and_vegetables_on_rice_cakes.jpg) |
 | `grilled-halloumi-salad.webp` / `.jpg` | Grilled Halloumi and Herb Salad | Hero | Grilled Halloumi Bagel - Wai Kika Moo Kau | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grilled_Halloumi_Bagel_-_Wai_Kika_Moo_Kau.jpg) |
 | `grilled-halloumi-salad-process.webp` / `.jpg` | Grilled Halloumi and Herb Salad | Process | Halloumi breakfast - The Bystander Cafe 2024-01-01 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Halloumi_breakfast_-_The_Bystander_Cafe_2024-01-01.jpg) |
+| `spiced-lamb-lettuce-cups.webp` / `.jpg` | Spiced Lamb Lettuce Cups | Hero | Lettuce Wraps (4104199873) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lettuce_Wraps_(4104199873).jpg) |
 | `chicken-caesar-lettuce-cups.webp` / `.jpg` | Chicken Caesar Lettuce Cups | Hero | Caesar salad with chicken, homemade - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caesar_salad_with_chicken,_homemade_-_Massachusetts.jpg) |
 | `smoked-salmon-scrambled-eggs.webp` / `.jpg` | Smoked Salmon Scrambled Eggs | Hero | Hot smoked Salmon scrambled eggs & dill on sourdough - Malt Cafe 2026-03-23 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hot_smoked_Salmon_scrambled_eggs_%26_dill_on_sourdough_-_Malt_Cafe_2026-03-23.jpg) |
 | `seared-tuna-nicoise.webp` / `.jpg` | Seared Tuna Niçoise | Hero | Seared tuna nicoise with white anchovies, potato, haricots verts, etc - Boston, MA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seared_tuna_nicoise_with_white_anchovies,_potato,_haricots_verts,_etc_-_Boston,_MA.jpg) |
 | `cauliflower-chicken-fried-rice.webp` / `.jpg` | Chicken Cauliflower Fried Rice | Hero | Easy Fried Cauliflower Rice-1 (31717741910) | Sharon Chen from Austin, United States | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easy_Fried_Cauliflower_Rice-1_(31717741910).jpg) |
 | `cauliflower-chicken-fried-rice-process.webp` / `.jpg` | Chicken Cauliflower Fried Rice | Process | Easy Fried Cauliflower Rice-2 (31251754744) | Sharon Chen from Austin, United States | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Easy_Fried_Cauliflower_Rice-2_(31251754744).jpg) |
+| `baked-eggs-spinach-feta-process.webp` / `.jpg` | Baked Eggs with Spinach and Feta | Process | Eggs Benedict Florentine - Pasadena, CA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eggs_Benedict_Florentine_-_Pasadena,_CA.jpg) |
 
 ---
 

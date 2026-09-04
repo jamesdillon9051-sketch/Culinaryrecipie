@@ -7360,6 +7360,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/roasted-tomato-basil-soup.jpg</image:loc>
+      <image:title>Roasted Tomato and Basil Soup</image:title>
+      <image:caption>Roasted Tomato and Basil Soup — Italian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/baked-cinnamon-apples/</loc>
@@ -7428,6 +7433,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://culinaryvault.netlify.app/assets/img/recipes/spiced-lamb-lettuce-cups.jpg</image:loc>
+      <image:title>Spiced Lamb Lettuce Cups</image:title>
+      <image:caption>Spiced Lamb Lettuce Cups — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/recipes/chicken-caesar-lettuce-cups/</loc>

@@ -620,7 +620,21 @@
     "process": null
   },
   "baked-eggs-spinach-feta": {
-    "process": null
+    "process": {
+      "author": "Daderot",
+      "color": "#ba9956",
+      "file": "baked-eggs-spinach-feta-process",
+      "h": 480,
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSupVLGMMM9x6VXjzFMH8w4J5HrUWqQIZw/IJ54qtYu0t6kcjFlXoDXC6T9pzJnRGdo8tj/9k=",
+      "page": "https://commons.wikimedia.org/wiki/File:Eggs_Benedict_Florentine_-_Pasadena,_CA.jpg",
+      "source": "Wikimedia Commons",
+      "title": "Eggs Benedict Florentine - Pasadena, CA",
+      "w": 640
+    },
+    "skip": true,
+    "skipReason": "returns eggs Florentine on toast, a risotto, and tomato shakshuka, never baked eggs in spinach"
   },
   "bakewell-tart": {
     "hero": {
@@ -2869,7 +2883,9 @@
     }
   },
   "chicken-rice-protein-bowl": {
-    "process": null
+    "process": null,
+    "skip": true,
+    "skipReason": "returns named regional rice dishes and canteen trays, not grilled chicken over rice"
   },
   "chicken-satay": {
     "hero": {
@@ -3492,8 +3508,9 @@
     }
   },
   "cold-brew-coffee": {
-    "hero": null,
-    "process": null
+    "process": null,
+    "skip": true,
+    "skipReason": "returns iced white coffee and iced mochas \u2014 different drinks made with milk"
   },
   "com-tam": {
     "hero": {
@@ -9808,7 +9825,19 @@
     "process": null
   },
   "roasted-tomato-basil-soup": {
-    "hero": null,
+    "hero": {
+      "author": "abnehmen.net",
+      "color": "#847b81",
+      "file": "roasted-tomato-basil-soup",
+      "h": 600,
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCO8RtT1ZoJ32xKdqg9PrUdtEdL1eOGByUkba69j71Y1wfZbiK5h+WTGfbIqPQSdS1GW5ujvkRcr2Aqtb36DurH/9k=",
+      "page": "https://commons.wikimedia.org/wiki/File:Tomatensuppe-quarkkloesse.jpg",
+      "source": "Wikimedia Commons",
+      "title": "Tomatensuppe-quarkkloesse",
+      "w": 800
+    },
     "process": null
   },
   "rogan-josh": {
@@ -10656,8 +10685,9 @@
     }
   },
   "smoked-mackerel-pate": {
-    "hero": null,
-    "process": null
+    "process": null,
+    "skip": true,
+    "skipReason": "returns Vietnamese crab pate, and whole mackerel rather than the pate"
   },
   "smoked-salmon-scrambled-eggs": {
     "hero": {
@@ -11072,7 +11102,19 @@
     }
   },
   "spiced-lamb-lettuce-cups": {
-    "hero": null,
+    "hero": {
+      "author": "Vegan Feast Catering",
+      "color": "#98a474",
+      "file": "spiced-lamb-lettuce-cups",
+      "h": 600,
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0",
+      "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCMatNxlwSfWtqyeTy1acKC/Ix6Vm6PbQlEkZAzEZ+bnBq9eMUyV6jpXK9WTOyP/9k=",
+      "page": "https://commons.wikimedia.org/wiki/File:Lettuce_Wraps_(4104199873).jpg",
+      "source": "Wikimedia Commons",
+      "title": "Lettuce Wraps (4104199873)",
+      "w": 800
+    },
     "process": null
   },
   "spring-rolls": {
@@ -11690,18 +11732,20 @@
   },
   "tofu-edamame-stir-fry": {
     "process": {
-      "author": "Simmer + Sauce",
-      "color": "#a08f76",
+      "author": "NeoBatfreak",
+      "color": "#90978b",
       "file": "tofu-edamame-stir-fry-process",
       "h": 480,
-      "licence": "CC BY 3.0",
-      "licence_url": "https://creativecommons.org/licenses/by/3.0",
-      "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB9jb4iSRXwWzz6UtwUlhaTIBU4JHU1DpsrMxhONmMj1FRalIYZvKjACnk+9Yu/MaXVj//Z",
-      "page": "https://commons.wikimedia.org/wiki/File:Smokey_Millet_Super_Grain_Bowl_With_Crispy_Tofu.jpg",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBdT1edrvajNCIzgqDyat6PrDMfKnGRnqTyK0bvT7eaTznT94B1FV7TSrVJDLtLNnuanqI//9k=",
+      "page": "https://commons.wikimedia.org/wiki/File:Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_(%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5)(2).jpg",
       "source": "Wikimedia Commons",
-      "title": "Smokey Millet Super Grain Bowl With Crispy Tofu",
+      "title": "Stir-fry spinach with tofu - Golden white jade and Green Parrot (\u83e0\u83dc\u7092\u8c46\u8150 - \u91d1\u9472\u767d\u7389\u677f\uff0c\u7d05\u5634\u7da0\u9e1a\u54e5)(2)",
       "w": 640
-    }
+    },
+    "skip": true,
+    "skipReason": "the one tofu stir-fry the archives hold has pork mince through it, and this recipe is vegan"
   },
   "tom-kha-gai": {
     "hero": {
