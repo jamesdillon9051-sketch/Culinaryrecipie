@@ -385,7 +385,7 @@ ${breadcrumbs(trail)}
         <div>
           <span class="eyebrow">Keep going</span>
           <h2 id="related-title">Related Recipes</h2>
-          <p>More ${esc(recipe.cuisine)} cooking and ${esc(recipe.category.toLowerCase())} ideas from the Vault.</p>
+          <p>More ${esc(recipe.cuisine)} cooking and ${esc(recipe.category.toLowerCase())} ideas from Weekly Delight.</p>
         </div>
         <a class="btn btn--ghost" href="${SITE.base}cuisines/${slug(recipe.cuisine)}/">All ${esc(recipe.cuisine)} recipes</a>
       </div>

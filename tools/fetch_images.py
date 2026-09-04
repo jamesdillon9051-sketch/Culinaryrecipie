@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CulinaryVault image pipeline.
+Weekly Delight image pipeline.
 
 Sources one hero image (and, for every other recipe, a second "process shot")
 per recipe from Wikimedia Commons and Openverse, restricted to *unrestricted*
@@ -21,7 +21,7 @@ from PIL import Image, ImageFilter
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG_DIR = os.path.join(ROOT, "src", "assets", "img", "recipes")
 MANIFEST = os.path.join(ROOT, "src", "data", "images.json")
-UA = "CulinaryVaultBot/1.0 (static recipe site build; contact: hello@culinaryvault.example)"
+UA = "Weekly DelightBot/1.0 (static recipe site build; contact: hello@culinaryvault.example)"
 
 HERO_W, PROCESS_W = 800, 640
 WEBP_Q, JPEG_Q = 68, 70

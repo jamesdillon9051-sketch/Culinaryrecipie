@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — recipe catalog, volume two.
+ * Weekly Delight — recipe catalog, volume two.
  *
  * The next 200 most-searched dishes worldwide, with no overlap against
  * ./catalog.js. Same row shape; the build concatenates both files and

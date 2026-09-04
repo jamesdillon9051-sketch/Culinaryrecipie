@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CulinaryVault — recipe page behaviour
+   Weekly Delight — recipe page behaviour
    Serving scaler, cook mode, step tracking with timers, reviews and sharing.
    ========================================================================== */
 (function () {

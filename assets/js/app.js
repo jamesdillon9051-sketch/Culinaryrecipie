@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CulinaryVault — global behaviour
+   Weekly Delight — global behaviour
    Vanilla JS, no dependencies, loaded with `defer`.
    Handles: theme, navigation, search + autocomplete, favourites, scroll
    reveal, image fallbacks, newsletter, toasts and back-to-top.
@@ -350,7 +350,7 @@
           status.hidden = false;
           status.textContent = 'You are on the list. Look out for Friday\'s recipe letter.';
         }
-        toast('Subscribed. Welcome to the Vault.');
+        toast('Subscribed. Welcome to Weekly Delight.');
       });
     });
 

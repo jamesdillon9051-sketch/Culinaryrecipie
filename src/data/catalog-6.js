@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — recipe catalog, volume six.
+ * Weekly Delight — recipe catalog, volume six.
  *
  * Eighteen recipes chosen to fill the two thinnest parts of the site rather
  * than to follow a theme. Holiday Specials held 12 recipes against 215 dinners,

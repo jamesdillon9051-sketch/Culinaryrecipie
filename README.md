@@ -1,6 +1,6 @@
-# CulinaryVault
+# Weekly Delight
 
-A dependency-free static site for the world's **600 most famous recipes** — each
+A dependency-free static site for the world's **658 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -41,7 +41,7 @@ as-is with no build step: point GitHub Pages at the root of `main` and it
 works. `.nojekyll` stops Pages running the output through Jekyll.
 
 This repository also contains a separate project in `travel-destinations/`,
-which builds itself and is served at `/travel-destinations/`. CulinaryVault's
+which builds itself and is served at `/travel-destinations/`. Weekly Delight's
 build never touches it: it is on the protected list in `cleanOutput()` and is
 skipped by `npm run check`.
 
@@ -512,5 +512,5 @@ Modern evergreen browsers. The site degrades gracefully:
 
 ## Licence
 
-MIT for the code. Recipe text is original work by the CulinaryVault test kitchen.
+MIT for the code. Recipe text is original work by the Weekly Delight test kitchen.
 Photography is CC0 or public domain — see `images-attribution.md`.

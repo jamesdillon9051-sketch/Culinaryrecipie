@@ -6,7 +6,7 @@ const ANALYTICS = require('../data/analytics');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
-  name: 'CulinaryVault',
+  name: 'Weekly Delight',
   tagline: `The world's ${recipeCount} most famous recipes, tested and explained`,
   /* The live domain. Every canonical link, Open Graph URL, sitemap entry and
      JSON-LD @id on the site is built from this, so it has to be the address
@@ -16,8 +16,8 @@ const SITE = {
   origin: (process.env.SITE_URL || 'https://weeklydelight.com').replace(/\/$/, ''),
   base: process.env.BASE_PATH || '/',
   locale: 'en_GB',
-  twitter: '@culinaryvault',
-  author: 'The CulinaryVault Test Kitchen',
+  twitter: '@weeklydelight',
+  author: 'The Weekly Delight Test Kitchen',
   founded: 2019,
 
   /**
@@ -84,7 +84,7 @@ function header(active, categories) {
   return `<header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="${SITE.base}" aria-label="${esc(SITE.name)} home">
-      <span class="brand-mark" aria-hidden="true">CV</span>Culinary<em>Vault</em>
+      <span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em>
     </a>
 
     <button class="icon-btn nav-toggle" id="nav-toggle" type="button"
@@ -137,7 +137,7 @@ function footer(topCuisines) {
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <a class="brand" href="${SITE.base}"><span class="brand-mark" aria-hidden="true">CV</span>Culinary<em>Vault</em></a>
+        <a class="brand" href="${SITE.base}"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
         <p style="margin-top:1rem;max-width:34ch">Two hundred of the world's most-cooked dishes, tested in our kitchen and written down properly — with the reasons behind every step.</p>
       </div>
       <div>

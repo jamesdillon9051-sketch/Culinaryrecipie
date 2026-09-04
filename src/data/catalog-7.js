@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — recipe catalog, volume seven.
+ * Weekly Delight — recipe catalog, volume seven.
  *
  * Eighteen recipes for the two categories volume six left thinnest: Quick Meals
  * held 39 and Healthy 42, against 215 dinners.

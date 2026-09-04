@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CulinaryVault — recipe directory and search results
+   Weekly Delight — recipe directory and search results
    Client-side filtering, sorting and rendering from search-index.json.
    ========================================================================== */
 (function () {

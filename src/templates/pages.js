@@ -185,7 +185,7 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Around the world</span>
-        <h2 id="cuisines-title">Twenty-nine kitchens, one vault</h2>
+        <h2 id="cuisines-title">Twenty-nine kitchens, one kitchen table</h2>
         <p>Each cuisine has its own logic. We explain the technique that makes it work, not just the ingredient list.</p>
       </div>
       <a class="btn btn--ghost" href="${SITE.base}cuisines/">All cuisines</a>
@@ -199,7 +199,7 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Latest Additions</span>
-        <h2 id="latest-title">New in the Vault</h2>
+        <h2 id="latest-title">New this week</h2>
         <p>The most recent recipes to come out of testing.</p>
       </div>
       <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=newest">See what&rsquo;s new</a>
@@ -214,7 +214,7 @@ function home(ctx) {
       <div>
         <span class="eyebrow">From the kitchen</span>
         <h2 id="gallery-title">What we have been cooking</h2>
-        <p>A scroll through the Vault. Every photograph is freely licensed, and every photographer is credited on the recipe.</p>
+        <p>A scroll through the collection. Every photograph is freely licensed, and every photographer is credited on the recipe.</p>
       </div>
     </div>
     <div class="gallery">
@@ -512,7 +512,7 @@ ${breadcrumbs(trail)}
     <div>
       <span class="eyebrow">Cuisine explorer</span>
       <h1>Twenty-nine cuisines, mapped</h1>
-      <p class="lede">Every cuisine in the Vault, with the number of tested recipes and what makes each one tick. Start anywhere.</p>
+      <p class="lede">Every cuisine on the site, with the number of tested recipes and what makes each one tick. Start anywhere.</p>
     </div>
   </header>
   <section aria-labelledby="cuisine-list-title">
@@ -564,7 +564,7 @@ ${breadcrumbs(trail)}
   <header class="section-head">
     <div>
       <span class="eyebrow">Browse by category</span>
-      <h1>Ten ways into the Vault</h1>
+      <h1>Ten ways in</h1>
       <p class="lede">Breakfast through to holiday centrepieces. Each category is filtered further by cuisine, dietary needs, difficulty and time.</p>
     </div>
   </header>
@@ -574,7 +574,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Recipe Categories',
-    description: 'Browse CulinaryVault by category: breakfast, lunch, dinner, desserts, appetizers, drinks, baking, healthy, quick meals and holiday specials.',
+    description: 'Browse Weekly Delight by category: breakfast, lunch, dinner, desserts, appetizers, drinks, baking, healthy, quick meals and holiday specials.',
     keywords: ['recipe categories', 'dinner recipes', 'dessert recipes', 'quick meals',
                'healthy recipes', 'breakfast recipes', 'lunch recipes', 'appetizer recipes',
                'baking recipes', 'drink recipes', 'holiday recipes',
@@ -620,7 +620,7 @@ const ABOUT_FAQ = [
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
   const team = [
-    ['Marta Oyelaran', 'Editor-in-Chief', 'Fifteen years in restaurant kitchens across Lagos, Lyon and London. Marta decides what earns a place in the Vault and rewrites anything that reads like a shopping list.'],
+    ['Marta Oyelaran', 'Editor-in-Chief', 'Fifteen years in restaurant kitchens across Lagos, Lyon and London. Marta decides what earns a place on the site and rewrites anything that reads like a shopping list.'],
     ['Dan Kovač', 'Head of Test Kitchen', 'Runs every recipe through at least three rounds, and has strong opinions about resting meat. If a step is in here, Dan could not find a way to remove it.'],
     ['Priya Raghunathan', 'Food Science Editor', 'Writes the Why This Recipe Works sections. Former food chemist, now professionally curious about why yogurt tenderises chicken.'],
     ['Tomas Lindqvist', 'Photography & Design', 'Shoots, sources and sequences everything you see. Believes a recipe photograph should show what your version will actually look like.']
@@ -632,13 +632,13 @@ ${breadcrumbs(trail)}
   <header class="recipe-head">
     <span class="eyebrow">Our story</span>
     <h1>We got tired of recipes that did not work</h1>
-    <p class="lede">CulinaryVault started in ${SITE.founded} with a spreadsheet and a grievance: the most famous dishes in the world were also the worst documented. Everybody had a version. Almost nobody explained why theirs was right.</p>
+    <p class="lede">Weekly Delight started in ${SITE.founded} with a spreadsheet and a grievance: the most famous dishes in the world were also the worst documented. Everybody had a version. Almost nobody explained why theirs was right.</p>
   </header>
 
   <div class="prose" style="max-width:72ch">
     <p>So we picked the two hundred dishes people search for most — the pizza, the carbonara, the tikka masala, the pad thai — and cooked each one until we understood it. Not until it worked once. Until we could say exactly which step was load-bearing and which was inherited habit.</p>
 
-    <h2>What makes a recipe good enough for the Vault</h2>
+    <h2>What makes a recipe good enough to publish</h2>
     <p>Every recipe here has been through the same process, and it takes about a fortnight per dish.</p>
     <ul>
       <li><strong>Research first.</strong> We read the canonical versions, the regional arguments and the primary sources. For Roman carbonara that means Italian cookbooks, not American blogs.</li>
@@ -697,7 +697,9 @@ ${breadcrumbs(trail)}
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter('about-news')}</div>`;
 
   return layout({
-    title: 'About CulinaryVault',
+    /* The layout appends the site name, so naming it here too gave
+       'About Weekly Delight | Weekly Delight'. */
+    title: 'About',
     description: `How we test, write and photograph the world's ${recipeCount} most famous recipes — our standards, our team and our approach to cooking science.`,
     keywords: ['about culinaryvault', 'recipe testing', 'food blog team', 'recipe standards',
                'how we test recipes', 'recipe development', 'trusted recipe site',
@@ -713,7 +715,7 @@ ${breadcrumbs(trail)}
       {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
-        name: 'About CulinaryVault',
+        name: 'About Weekly Delight',
         url: `${SITE.origin}${SITE.base}about/`,
         publisher: { '@type': 'Organization', name: SITE.name, url: SITE.origin + SITE.base }
       },
@@ -789,8 +791,8 @@ ${breadcrumbs(trail)}
 </div>`;
 
   return layout({
-    title: 'Contact CulinaryVault',
-    description: 'Send the CulinaryVault test kitchen a recipe suggestion, a correction, or a question about a step that did not work in your kitchen.',
+    title: 'Contact',
+    description: 'Send the Weekly Delight test kitchen a recipe suggestion, a correction, or a question about a step that did not work in your kitchen.',
     keywords: ['contact culinaryvault', 'recipe suggestions', 'food blog contact',
                'submit a recipe', 'report a recipe error', 'recipe request',
                'work with us', 'press enquiries', 'get in touch'],
@@ -804,7 +806,7 @@ ${breadcrumbs(trail)}
       {
         '@context': 'https://schema.org',
         '@type': 'ContactPage',
-        name: 'Contact CulinaryVault',
+        name: 'Contact Weekly Delight',
         url: `${SITE.origin}${SITE.base}contact/`
       }
     ],

@@ -1,5 +1,5 @@
 'use strict';
-/** Shared helpers for the CulinaryVault static site generator. */
+/** Shared helpers for the Weekly Delight static site generator. */
 
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 

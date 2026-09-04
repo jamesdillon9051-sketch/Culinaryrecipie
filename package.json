@@ -1,8 +1,8 @@
 {
-  "name": "culinaryvault",
+  "name": "weekly-delight",
   "version": "1.0.0",
   "private": true,
-  "description": "CulinaryVault \u2014 a dependency-free static site for the world's 400 most famous recipes.",
+  "description": "Weekly Delight \u2014 a dependency-free static site for the world's most famous recipes.",
   "license": "MIT",
   "engines": {
     "node": ">=18"

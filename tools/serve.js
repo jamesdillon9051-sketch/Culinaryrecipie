@@ -43,4 +43,4 @@ http.createServer((req, res) => {
   } catch (e) {
     res.writeHead(500, { 'Content-Type': 'text/plain' }).end('Server error');
   }
-}).listen(PORT, () => console.log(`CulinaryVault preview: http://localhost:${PORT}`));
+}).listen(PORT, () => console.log(`Weekly Delight preview: http://localhost:${PORT}`));

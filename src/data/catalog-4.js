@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — recipe catalog, volume four.
+ * Weekly Delight — recipe catalog, volume four.
  *
  * Twelve recipes written to two briefs: enough protein in a serving to be worth
  * cooking for it, and nothing sweetened by the cook. Both briefs are checked

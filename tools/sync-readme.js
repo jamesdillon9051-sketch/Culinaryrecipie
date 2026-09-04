@@ -26,7 +26,7 @@ const README = path.join(__dirname, '..', 'README.md');
  * Count the HTML the build emits.
  *
  * `travel-destinations/` is a separate site that happens to share this
- * repository — it is not built from src/ and carries none of CulinaryVault's
+ * repository — it is not built from src/ and carries none of Weekly Delight's
  * layout, so counting its pages here would inflate the site's own figure by a
  * third. The single page under assets/ is the native-banner frame, which is
  * emitted by the build and is counted.
@@ -83,6 +83,11 @@ function replacements(root) {
 
     [/all \d+ recipes, navigation and taxonomy pages render fully/,
      `all ${s.recipeCount} recipes, navigation and taxonomy pages render fully`],
+
+    /* The opening line. It said 600 while the site held 658, which is the kind
+       of drift this file exists to stop. */
+    [/world's \*\*[\d,]+ most famous recipes\*\*/,
+     `world's **${s.recipeCount} most famous recipes**`],
   ];
 }
 

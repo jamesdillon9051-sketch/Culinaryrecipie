@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CulinaryVault — pre-paint bootstrap
+   Weekly Delight — pre-paint bootstrap
    Loaded synchronously in <head>, after the stylesheet links.
 
    This exists as a separate file rather than an inline <script> so the

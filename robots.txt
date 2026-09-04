@@ -1,4 +1,4 @@
-# CulinaryVault — https://weeklydelight.com/
+# Weekly Delight — https://weeklydelight.com/
 User-agent: *
 Allow: /
 

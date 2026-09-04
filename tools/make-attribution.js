@@ -64,7 +64,7 @@ const free = (heroes + process_) - credited;
 
 const doc = `# Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of ${heroes + process_}
+Every photograph on Weekly Delight is freely licensed. Of ${heroes + process_}
 images, **${free}** are CC0 or public domain and carry no conditions at all, and
 **${credited}** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.

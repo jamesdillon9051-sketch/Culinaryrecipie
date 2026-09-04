@@ -1,6 +1,6 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 875
+Every photograph on Weekly Delight is freely licensed. Of 875
 images, **680** are CC0 or public domain and carry no conditions at all, and
 **195** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.

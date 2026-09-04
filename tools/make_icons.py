@@ -13,7 +13,7 @@ BRASS = (176, 134, 47)
 CREAM = (251, 247, 240)
 CHARCOAL = (36, 31, 27)
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CulinaryVault">
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Weekly Delight">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#b8492c"/>

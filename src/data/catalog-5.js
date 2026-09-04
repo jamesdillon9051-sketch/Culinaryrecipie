@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — recipe catalog, volume five.
+ * Weekly Delight — recipe catalog, volume five.
  *
  * Ten recipes that are high in protein, low in carbohydrate and contain no
  * sugar the cook added. All three of those are computed from the recipe by

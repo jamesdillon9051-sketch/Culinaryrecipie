@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * CulinaryVault static site generator.
+ * Weekly Delight static site generator.
  *
  *   node src/build.js
  *
@@ -360,7 +360,7 @@ ${urls.join('\n')}
 }
 
 function robots() {
-  return `# CulinaryVault — ${SITE.origin}${SITE.base}
+  return `# Weekly Delight — ${SITE.origin}${SITE.base}
 User-agent: *
 Allow: /
 
@@ -401,8 +401,8 @@ Sitemap: ${SITE.origin}${SITE.base}sitemap.xml
 
 function manifest() {
   return JSON.stringify({
-    name: `CulinaryVault — ${recipeCount} World Recipes`,
-    short_name: 'CulinaryVault',
+    name: `Weekly Delight — ${recipeCount} World Recipes`,
+    short_name: 'Weekly Delight',
     description: SITE.tagline,
     start_url: SITE.base,
     scope: SITE.base,
@@ -471,8 +471,8 @@ function build() {
     title: 'All Recipes',
     heading: `All ${recipes.length} recipes`,
     eyebrow: 'The full directory',
-    intro: 'Every recipe in the Vault, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
-    description: `Browse all ${recipes.length} tested recipes on CulinaryVault. Filter by cuisine, category, dietary needs, difficulty and cooking time.`,
+    intro: 'Every recipe on Weekly Delight, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
+    description: `Browse all ${recipes.length} tested recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and cooking time.`,
     keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter',
                'recipe index', 'full recipe list', 'browse by cuisine', 'browse by category',
                'filter recipes by diet', 'vegetarian recipes', 'vegan recipes',
@@ -487,7 +487,7 @@ function build() {
   writePage('search/index.html', pages.directory(ctx, {
     mode: 'search',
     title: 'Search Recipes',
-    heading: 'Search the Vault',
+    heading: 'Search Weekly Delight',
     eyebrow: 'Find a recipe',
     intro: 'Search by dish, ingredient, cuisine or technique. Results update as you type and can be narrowed with the filters.',
     description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet.`,
@@ -507,7 +507,7 @@ function build() {
     heading: 'Your saved recipes',
     eyebrow: 'Favourites',
     intro: 'Everything you have hearted, stored in this browser only. No account, no sync, no tracking.',
-    description: 'Your saved CulinaryVault recipes, stored locally in your browser.',
+    description: 'Your saved Weekly Delight recipes, stored locally in your browser.',
     path: 'favourites/',
     active: 'favourites',
     noindex: true,
@@ -533,7 +533,7 @@ function build() {
       heading: `${hub.name} recipes`,
       eyebrow: 'Ingredient',
       intro: `${hub.blurb} ${plural(hub.recipes.length, 'recipe')} on the site call for ${hub.name.toLowerCase()}.`,
-      description: clamp(`${plural(hub.recipes.length, hub.name.toLowerCase() + ' recipe')} on CulinaryVault. ${hub.blurb}`, 158),
+      description: clamp(`${plural(hub.recipes.length, hub.name.toLowerCase() + ' recipe')} on Weekly Delight. ${hub.blurb}`, 158),
       keywords: keywordsForIngredient(hub),
       path: `ingredients/${hub.slug}/`,
       active: 'ingredients',
@@ -556,7 +556,7 @@ function build() {
       heading: `${name} recipes`,
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, ranked by what readers cook most.`,
-      description: clamp(`${name} recipes from CulinaryVault: ${plural(list.length, 'tested dish', 'tested dishes')}. ${CATEGORIES[name]}`, 158),
+      description: clamp(`${name} recipes from Weekly Delight: ${plural(list.length, 'tested dish', 'tested dishes')}. ${CATEGORIES[name]}`, 158),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
       active: 'categories',
@@ -575,7 +575,7 @@ function build() {
       heading: `${name} recipes`,
       eyebrow: `${meta.flag} Cuisine`,
       intro: `${meta.blurb} ${plural(list.length, 'tested ' + name + ' recipe')}, from the everyday to the ambitious.`,
-      description: clamp(`${plural(list.length, 'tested ' + name + ' recipe')} on CulinaryVault. ${meta.blurb}`, 158),
+      description: clamp(`${plural(list.length, 'tested ' + name + ' recipe')} on Weekly Delight. ${meta.blurb}`, 158),
       keywords: keywordsForCuisine(name, list),
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',
@@ -637,7 +637,7 @@ function build() {
   const bytes = files.reduce((total, f) => total + fs.statSync(f).size, 0);
   const withImages = recipes.filter(r => r.imageData).length;
 
-  console.log(`CulinaryVault build complete in ${Date.now() - started}ms`);
+  console.log(`Weekly Delight build complete in ${Date.now() - started}ms`);
   console.log(`  recipes      ${recipes.length} (${withImages} with photography, ${recipes.length - withImages} using gradient placeholders)`);
   console.log(`  html pages   ${html.length}`);
   console.log(`  total files  ${files.length}`);

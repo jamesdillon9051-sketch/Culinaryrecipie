@@ -1,5 +1,5 @@
 /**
- * CulinaryVault — master recipe catalog.
+ * Weekly Delight — master recipe catalog.
  *
  * One row per recipe. Rich content (ingredients, method, tips, nutrition) lives
  * in ./details/*.js, keyed by slug, and is merged at build time by src/build.js.
