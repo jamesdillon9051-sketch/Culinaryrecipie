@@ -237,7 +237,7 @@ module.exports = [
 
   /* ------------------------------------------------------- Pakistani (4) */
   c('nihari', 'Nihari', 'Pakistani', 'Dinner', 'Medium', 30, 240, 8, 4.8, 1644, ['Dairy-Free'], [], 'Nihari'),
-  c('haleem', 'Haleem', 'Pakistani', 'Dinner', 'Hard', 45, 210, 8, 4.7, 1188, ['Dairy-Free'], [], 'Haleem'),
+  c('haleem', 'Haleem', 'Pakistani', 'Dinner', 'Hard', 45, 210, 8, 4.7, 1188, [], [], 'Haleem'),
   c('seekh-kebab', 'Seekh Kebab', 'Pakistani', 'Appetizers', 'Easy', 25, 15, 6, 4.8, 2011, ['Gluten-Free', 'Dairy-Free'], [], 'Seekh kebab'),
   c('chapli-kebab', 'Chapli Kebab', 'Pakistani', 'Dinner', 'Easy', 25, 15, 6, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Chapli kebab'),
 

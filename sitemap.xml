@@ -644,6 +644,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://culinaryvault.netlify.app/ingredients/prawns/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://culinaryvault.netlify.app/ingredients/beans/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -657,12 +663,6 @@
   </url>
   <url>
     <loc>https://culinaryvault.netlify.app/ingredients/lamb/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://culinaryvault.netlify.app/ingredients/prawns/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -383,23 +383,29 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Eleven recipes were corrected when the ingredient hubs first ran: arancini was
-tagged Vegetarian and filled with beef ragù, Belgian frites was tagged Vegan and
-its mayonnaise takes egg yolks, jollof rice was tagged Dairy-Free and starts with
-butter.
+Every one of the site's 600 recipes now passes, and `npm run check` runs the
+audit, so a contradicted tag fails the build rather than shipping.
 
-**Gluten-Free is now clean, and `npm run check` keeps it that way.** Twenty
-recipes claimed it and could not support it. Seventeen lost the tag, because the
-method needs the gluten: sole meunière is named for the flouring, chicken
-paprikash comes with flour dumplings, gazpacho is thickened with stale bread, and
-seven dishes are built on soy sauce, which is made with wheat. Three kept it —
-gambas al ajillo, borscht and menemen are gluten-free dishes served *with* bread,
-which their methods already said ("with bread for scooping") and their ingredient
-lists now say too.
+Getting there took 43 corrections in three passes. Eleven came out of the
+ingredient hubs — arancini was tagged Vegetarian and filled with beef ragù,
+Belgian frites was tagged Vegan and its mayonnaise takes egg yolks. Twenty were
+Gluten-Free: seventeen lost the tag, because sole meunière is named for the
+flouring and seven dishes are built on soy sauce, which is made with wheat.
+Three kept it — gambas al ajillo, borscht and menemen are gluten-free dishes
+served *with* bread, which their methods already said and their ingredient lists
+now say too. The last twelve were the rest: panna cotta set with gelatine and
+called Vegetarian, kimchi called Vegan with fish sauce and salted shrimp in the
+paste, carnitas called Dairy-Free and simmered in milk, four dishes cooked in
+ghee and called Dairy-Free.
 
-Fourteen contradictions remain, in Vegan, Vegetarian and Dairy-Free. `npm run
-diet` lists them. They are not enforced yet, because a check that always fails is
-a check nobody reads.
+A false tag was always removed, never argued with. It was replaced only where
+the ingredients verify the weaker claim — samosas and chapati use ghee but no
+meat, so they are Vegetarian rather than Vegan. Nothing was added on the strength
+of a dish's reputation.
+
+The rule that decided the hard cases: read the method, not the ingredient list.
+Bread reads the same either way, and only the steps say whether it thickens the
+gazpacho or gets handed round with the prawns.
 
 ## Browser support
 

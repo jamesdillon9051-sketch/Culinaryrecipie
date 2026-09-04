@@ -38,12 +38,12 @@ module.exports = [
   c('arancini', 'Sicilian Arancini', 'Italian', 'Appetizers', 'Hard', 40, 25, 6, 4.6, 878, [], [], 'Arancini rice balls'),
   c('focaccia', 'Rosemary Focaccia', 'Italian', 'Baking', 'Medium', 25, 25, 8, 4.8, 2530, ['Vegan', 'Dairy-Free'], ['new'], 'Focaccia bread rosemary'),
   c('tiramisu', 'Classic Tiramisu', 'Italian', 'Desserts', 'Medium', 30, 0, 8, 4.9, 6120, ['Vegetarian'], ['editors', 'trending'], 'Tiramisu'),
-  c('panna-cotta', 'Vanilla Panna Cotta', 'Italian', 'Desserts', 'Easy', 15, 5, 6, 4.7, 1466, ['Vegetarian', 'Gluten-Free'], [], 'Panna cotta'),
+  c('panna-cotta', 'Vanilla Panna Cotta', 'Italian', 'Desserts', 'Easy', 15, 5, 6, 4.7, 1466, ['Gluten-Free'], [], 'Panna cotta'),
 
   /* ----------------------------------------------------------- French (16) */
   c('beef-bourguignon', 'Beef Bourguignon', 'French', 'Dinner', 'Hard', 30, 180, 6, 4.9, 3402, [], ['editors'], 'Beef bourguignon'),
   c('coq-au-vin', 'Coq au Vin', 'French', 'Dinner', 'Hard', 30, 90, 6, 4.8, 1733, [], [], 'Coq au vin'),
-  c('french-onion-soup', 'French Onion Soup', 'French', 'Dinner', 'Medium', 15, 75, 4, 4.8, 2941, ['Vegetarian'], ['trending'], 'French onion soup gratinee'),
+  c('french-onion-soup', 'French Onion Soup', 'French', 'Dinner', 'Medium', 15, 75, 4, 4.8, 2941, [], ['trending'], 'French onion soup gratinee'),
   c('ratatouille', 'Provençal Ratatouille', 'French', 'Healthy', 'Easy', 25, 45, 6, 4.7, 2288, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Ratatouille'),
   c('bouillabaisse', 'Marseille Bouillabaisse', 'French', 'Dinner', 'Hard', 30, 60, 6, 4.6, 741, ['Dairy-Free'], [], 'Bouillabaisse'),
   c('cassoulet', 'Cassoulet de Toulouse', 'French', 'Dinner', 'Hard', 40, 180, 8, 4.6, 612, [], [], 'Cassoulet'),
@@ -75,7 +75,7 @@ module.exports = [
   /* ---------------------------------------------------------- Mexican (14) */
   c('tacos-al-pastor', 'Tacos al Pastor', 'Mexican', 'Dinner', 'Medium', 30, 40, 6, 4.9, 3877, ['Dairy-Free'], ['editors', 'trending'], 'Tacos al pastor'),
   c('chicken-enchiladas', 'Chicken Enchiladas Rojas', 'Mexican', 'Dinner', 'Medium', 25, 35, 6, 4.8, 3204, ['Gluten-Free'], [], 'Enchiladas'),
-  c('carnitas', 'Slow-Braised Carnitas', 'Mexican', 'Dinner', 'Easy', 20, 180, 8, 4.9, 2688, ['Gluten-Free', 'Dairy-Free'], [], 'Carnitas pork'),
+  c('carnitas', 'Slow-Braised Carnitas', 'Mexican', 'Dinner', 'Easy', 20, 180, 8, 4.9, 2688, ['Gluten-Free'], [], 'Carnitas pork'),
   c('fish-tacos', 'Baja Fish Tacos', 'Mexican', 'Quick Meals', 'Easy', 20, 15, 4, 4.7, 2140, [], [], 'Fish tacos'),
   c('quesadillas', 'Cheese Quesadillas', 'Mexican', 'Quick Meals', 'Easy', 10, 10, 2, 4.5, 1622, ['Vegetarian'], [], 'Quesadilla'),
   c('huevos-rancheros', 'Huevos Rancheros', 'Mexican', 'Breakfast', 'Easy', 10, 20, 2, 4.7, 1493, ['Vegetarian', 'Gluten-Free'], [], 'Huevos rancheros'),
@@ -99,7 +99,7 @@ module.exports = [
   c('dal-tadka', 'Dal Tadka', 'Indian', 'Healthy', 'Easy', 10, 35, 4, 4.8, 1955, ['Vegetarian', 'Gluten-Free'], [], 'Dal tadka lentils'),
   c('aloo-gobi', 'Aloo Gobi', 'Indian', 'Healthy', 'Easy', 15, 30, 4, 4.6, 1477, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Aloo gobi'),
   c('masala-dosa', 'Masala Dosa', 'Indian', 'Breakfast', 'Hard', 30, 30, 6, 4.7, 1833, ['Vegetarian', 'Gluten-Free'], [], 'Masala dosa'),
-  c('samosas', 'Punjabi Samosas', 'Indian', 'Appetizers', 'Medium', 40, 25, 8, 4.8, 3122, ['Vegan', 'Dairy-Free'], [], 'Samosa'),
+  c('samosas', 'Punjabi Samosas', 'Indian', 'Appetizers', 'Medium', 40, 25, 8, 4.8, 3122, ['Vegetarian'], [], 'Samosa'),
   c('vegetable-pakoras', 'Vegetable Pakoras', 'Indian', 'Appetizers', 'Easy', 15, 15, 4, 4.6, 1244, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Pakora'),
   c('tandoori-chicken', 'Tandoori Chicken', 'Indian', 'Dinner', 'Easy', 20, 35, 4, 4.8, 2411, ['Gluten-Free', 'Low-Carb'], [], 'Tandoori chicken'),
   c('garlic-naan', 'Garlic Butter Naan', 'Indian', 'Baking', 'Medium', 90, 10, 8, 4.8, 3055, ['Vegetarian'], [], 'Naan bread'),
@@ -204,7 +204,7 @@ module.exports = [
   c('bulgogi', 'Beef Bulgogi', 'Korean', 'Dinner', 'Easy', 20, 10, 4, 4.8, 2966, ['Dairy-Free'], [], 'Bulgogi'),
   c('japchae', 'Japchae', 'Korean', 'Dinner', 'Medium', 25, 15, 6, 4.7, 1622, ['Vegan', 'Dairy-Free'], [], 'Japchae'),
   c('tteokbokki', 'Tteokbokki', 'Korean', 'Quick Meals', 'Easy', 10, 15, 2, 4.7, 2044, ['Vegetarian', 'Dairy-Free'], ['trending'], 'Tteokbokki'),
-  c('kimchi', 'Napa Cabbage Kimchi', 'Korean', 'Appetizers', 'Medium', 60, 0, 12, 4.8, 2277, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Kimchi'),
+  c('kimchi', 'Napa Cabbage Kimchi', 'Korean', 'Appetizers', 'Medium', 60, 0, 12, 4.8, 2277, ['Gluten-Free', 'Dairy-Free'], [], 'Kimchi'),
   c('kimchi-jjigae', 'Kimchi Jjigae', 'Korean', 'Healthy', 'Easy', 10, 25, 4, 4.7, 1466, ['Dairy-Free'], [], 'Kimchi jjigae stew'),
 
   /* ------------------------------------------------------- Vietnamese (5) */

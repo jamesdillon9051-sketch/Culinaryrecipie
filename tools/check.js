@@ -203,12 +203,12 @@ if (!vercelCsp) {
 }
 
 /* --- diet claims --------------------------------------------------------- */
-/* Gluten-Free only, for now. It is the claim with the worst failure mode — a
-   coeliac cannot check it from the photograph — and it is the one that has been
-   brought to zero, so it is the one worth holding there. */
+/* Every tag now, not just Gluten-Free. These are the claims a reader cannot
+   check for themselves — someone coeliac or vegan is trusting the label over the
+   photograph — and all four are at zero, so all four are held there. */
 try {
   require('child_process').execFileSync(process.execPath,
-    [require('path').join(__dirname, 'diet-audit.js'), '--only', 'Gluten-Free'], { stdio: 'pipe' });
+    [require('path').join(__dirname, 'diet-audit.js')], { stdio: 'pipe' });
 } catch (err) {
   for (const line of String(err.stdout || '').split('\n')) {
     if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
