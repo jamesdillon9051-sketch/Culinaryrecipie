@@ -3,6 +3,8 @@ const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../
 const { recipeCount } = require('../data/stats');
 const ads = require('./ads');
 const ANALYTICS = require('../data/analytics');
+const CONSENT = require('../data/consent');
+const ADS_CONFIG = require('../data/ads');
 
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
@@ -56,9 +58,32 @@ const SITE = {
 function analyticsTag() {
   if (!ANALYTICS.enabled || !ANALYTICS.measurementId) return '';
   const id = ANALYTICS.measurementId;
+  /* With consent gating on, nothing analytics-related is written into the page.
+     The measurement ID is handed to consent.js instead, which loads gtag only
+     after somebody agrees. */
+  if (CONSENT.enabled) return '';
   return `<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
 <script src="${SITE.base}assets/js/analytics.js" data-ga-id="${id}"></script>`;
+}
+
+/**
+ * The consent script, which is also the loader for everything it gates.
+ *
+ * It carries the analytics ID and the two ad-script URLs on data attributes:
+ * they are inert there, and this is the only place on the page they appear
+ * until a reader agrees.
+ */
+function consentTag() {
+  if (!CONSENT.enabled) return '';
+  const ga = ANALYTICS.enabled ? ANALYTICS.measurementId : '';
+  const ads = ADS_CONFIG.enabled ? ADS_CONFIG : { popunder: '', socialBar: '' };
+  return `<script src="${SITE.base}assets/js/consent.js"
+        data-version="${CONSENT.version}" data-days="${CONSENT.rememberDays}"
+        data-base="${SITE.base}"
+        data-ga="${esc(ga || '')}"
+        data-ad-popunder="${esc(ads.popunder || '')}"
+        data-ad-social="${esc(ads.socialBar || '')}" defer></script>`;
 }
 
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
@@ -162,7 +187,7 @@ function footer(topCuisines) {
     </div>
     <div class="footer-bottom">
       <span>&copy; ${year} ${esc(SITE.name)}. Recipes tested in our own kitchen.</span>
-      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a> &middot; <a href="${SITE.base}sitemap.xml">Sitemap</a></span>
+      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a> &middot; <a href="#" data-consent-reopen>Cookie settings</a> &middot; <a href="${SITE.base}sitemap.xml">Sitemap</a></span>
     </div>
   </div>
 </footer>`;
@@ -269,6 +294,7 @@ ${footer(page.cuisines || [])}
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">${ICONS.arrowUp}</button>
 ${scripts}
 ${ads.socialBar()}
+${consentTag()}
 </body>
 </html>`;
 }

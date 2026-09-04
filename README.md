@@ -246,6 +246,14 @@ Everything below is implemented and verified by `npm run check` on every build.
       guidance asks `keywords` for "other terms for your recipe", and forty-six
       phrases in that field is the shape of a manual action — the meta tag and the
       site's own search index carry the full list instead
+- [x] **Cookie consent that actually gates.** `src/data/consent.js` switches it on;
+      `assets/js/consent.js` holds the banner and, more to the point, the loader.
+      Google Analytics and all three Adsterra units are absent from the markup
+      entirely — their URLs travel inertly on data attributes — and are injected
+      only after somebody accepts. Reject and Accept are the same size, the choice
+      is kept for six months, and a "Cookie settings" link in the footer withdraws
+      it in one click. Verified in Chromium: zero requests to Google or the ad
+      network before a choice, zero after refusing, and on a reload after refusing
 - [x] Google Analytics 4 on all 792 pages, configured in `src/data/analytics.js`
       — set `enabled: false` and the next build strips it, which is what you want
       before a Lighthouse run. Google supplies the tag as an inline `<script>`;

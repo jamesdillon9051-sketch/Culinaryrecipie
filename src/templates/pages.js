@@ -690,10 +690,16 @@ ${breadcrumbs(trail)}
     <ul>
       <li>There is no account, no login and no database. This is a static site.</li>
       <li>What you save — favourites, your theme, your reviews — stays in your own browser and never reaches me.</li>
-      <li>Two third parties do see you: Google Analytics and the advertising network. They set cookies and can identify a returning device.</li>
+      <li>Nothing is loaded until you choose. Google Analytics and the advertising scripts are not in the page at all until you accept them, and if you refuse or ignore the banner they are never fetched.</li>
+      <li>You can change your mind at any time with <a href="#" data-consent-reopen>Cookie settings</a>, at the foot of every page.</li>
       <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
       <li>You can block both with any content blocker, and nothing on the site breaks.</li>
     </ul>
+
+    <h2>Consent, and what it controls</h2>
+    <p>The first time you visit, a banner asks whether analytics and advertising cookies are all right. Until you answer, neither is loaded &mdash; the scripts are genuinely absent from the page rather than loaded and told to behave, so refusing is not a request that something stops, it is the reason it never starts. Refusing costs you nothing: every recipe, the search, saved recipes, cook mode and the timers work exactly the same.</p>
+    <p>Your answer is kept in your own browser for six months, after which the banner asks again. Change it whenever you like with the <a href="#" data-consent-reopen>Cookie settings</a> link at the foot of every page; withdrawing is one click, the same as giving it. Because a script already loaded cannot be unloaded, the page reloads when you do.</p>
+    <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are not covered by that choice. They never leave your device, they exist only because you asked for them, and the site would not work as you left it without them.</p>
 
     <h2>What stays on your device</h2>
     <p>The site keeps four things in your browser's local storage. They never leave the machine you are reading on, are not sent anywhere, and I cannot see them.</p>
@@ -712,11 +718,11 @@ ${breadcrumbs(trail)}
     <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
 
     <h2>Analytics</h2>
-    <p>This site uses Google Analytics 4 to count visitors and see which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader — only totals.</p>
+    <p><strong>Only if you accepted.</strong> Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
     <p>Google is the data controller for what it collects. Its own explanation is in <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how Google uses data from sites that use its services</a>, and you can opt out everywhere at once with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
 
     <h2>Advertising</h2>
-    <p>The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.</p>
+    <p><strong>Only if you accepted.</strong> The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what. If you refuse, no ad script is fetched and the ad slots stay empty.</p>
     <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker stops it, and you can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
 
     <h2>What else the site loads</h2>

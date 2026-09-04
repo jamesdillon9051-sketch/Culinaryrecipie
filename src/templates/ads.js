@@ -6,16 +6,22 @@
  * there is exactly one place to look when a unit changes.
  */
 const ADS = require('../data/ads');
+const CONSENT = require('../data/consent');
 
-/** The popunder loader, for <head>. */
+/* With consent gating on, the popunder and social bar are not written into the
+   page at all. Their URLs travel on data attributes for assets/js/consent.js to
+   inject once somebody has agreed — see ../data/consent.js for why. These two
+   remain so the ads can still be emitted directly when gating is off. */
+
+/** The popunder loader, for <head>. Empty while consent gating is on. */
 function popunder() {
-  if (!ADS.enabled || !ADS.popunder) return '';
+  if (!ADS.enabled || !ADS.popunder || CONSENT.enabled) return '';
   return `<script src="${ADS.popunder}"></script>`;
 }
 
-/** The social bar loader, for the end of <body>. */
+/** The social bar loader, for the end of <body>. Empty while gating is on. */
 function socialBar() {
-  if (!ADS.enabled || !ADS.socialBar) return '';
+  if (!ADS.enabled || !ADS.socialBar || CONSENT.enabled) return '';
   return `<script src="${ADS.socialBar}"></script>`;
 }
 
@@ -74,14 +80,22 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
   const own = units[index];
 
   if (own && own.invoke && own.key) {
-    return wrap(label, `<script async="async" data-cfasync="false" src="${own.invoke}"></script>
+    /* Gated: an empty div holding the invoke URL and the container id, which
+       consent.js turns into the real slot. Ungated: the snippet as Adsterra
+       supplies it. */
+    return wrap(label, CONSENT.enabled
+      ? `<div data-ad-invoke="${own.invoke}" data-ad-key="${own.key}"></div>`
+      : `<script async="async" data-cfasync="false" src="${own.invoke}"></script>
   <div id="container-${own.key}"></div>`);
   }
 
   if (!units[0]) return '';
   const height = ADS.frameHeight || 300;
-  return wrap(label, `<iframe src="${base}${FRAME_PATH}" title="${label}" loading="lazy"
-          scrolling="no" frameborder="0"
+  const src = `${base}${FRAME_PATH}`;
+  /* data-ad-src rather than src, so the frame document — and the ad inside it —
+     is never fetched until consent. */
+  return wrap(label, `<iframe ${CONSENT.enabled ? `data-ad-src="${src}"` : `src="${src}"`}
+          title="${label}" loading="lazy" scrolling="no" frameborder="0"
           style="width:100%;height:${height}px;border:0;display:block"></iframe>`);
 }
 
