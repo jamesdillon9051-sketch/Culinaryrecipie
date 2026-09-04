@@ -406,3 +406,36 @@ function searchTerms(title, keywords) {
 }
 
 module.exports.searchTerms = searchTerms;
+
+/**
+ * Keywords for an ingredient hub.
+ *
+ * The queries this page can honestly answer are the "what do I do with ..."
+ * ones, so the phrasing leans that way rather than repeating the ingredient
+ * with adjectives. The cuisines and categories named are the ones actually
+ * represented in the hub.
+ */
+function forIngredient(hub) {
+  const n = lower(hub.name);
+  const out = [
+    `${n} recipes`, `easy ${n} recipes`, `what to make with ${n}`,
+    `${n} recipe ideas`, `best ${n} recipes`, `quick ${n} recipes`,
+    `dinner with ${n}`, `${n} dishes`, `cooking with ${n}`,
+    `leftover ${n} recipes`, `how to cook ${n}`, `healthy ${n} recipes`,
+    `${n} recipes for dinner`, `simple ${n} recipes`, `${n} meal ideas`
+  ];
+  const list = hub.recipes || [];
+  for (const recipe of list.slice(0, 10)) out.push(`${lower(recipe.title)} recipe`);
+  for (const cuisine of [...new Set(list.map(r => r.cuisine))].slice(0, 6)) {
+    out.push(`${lower(cuisine)} ${n} recipes`);
+  }
+  for (const category of [...new Set(list.map(r => r.category))].slice(0, 5)) {
+    out.push(`${n} ${lower(CATEGORY_ADJECTIVE[category] || category)} recipes`);
+  }
+  /* Only the diets that some recipe in the hub actually carries. */
+  const diets = new Set(list.flatMap(r => (r.tags || []).map(tag => DIET_WORD[tag]).filter(Boolean)));
+  for (const diet of [...diets].slice(0, 4)) out.push(`${diet} ${n} recipes`);
+  return dedupe(out, 44);
+}
+
+module.exports.forIngredient = forIngredient;

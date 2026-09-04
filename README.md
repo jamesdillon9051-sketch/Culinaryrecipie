@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-600 recipes · 66 cuisines · 10 categories · 686 static pages · 0 npm dependencies
+600 recipes · 66 cuisines · 10 categories · 734 static pages · 0 npm dependencies
 ```
 
 ---
@@ -370,6 +370,27 @@ npm run images
 ```
 
 ---
+
+## Diet tags
+
+`npm run diet` checks every recipe's diet tags against its own ingredient list —
+a stricter test than the ingredient hubs apply, because a risotto made with
+chicken stock is not a chicken *recipe* but is emphatically not vegetarian. A
+line that offers a way out ("chicken or vegetable stock", "parmesan, to serve")
+passes; a line that does not is a false claim.
+
+This matters more than anything else the site asserts. Someone coeliac cooking
+from a Gluten-Free page is trusting a claim they cannot check from the
+photograph.
+
+Eleven recipes were corrected when the ingredient hubs first ran: arancini was
+tagged Vegetarian and filled with beef ragù, Belgian frites was tagged Vegan and
+its mayonnaise takes egg yolks, jollof rice was tagged Dairy-Free and starts with
+butter. **The audit still reports 34 more**, most of them Gluten-Free recipes
+calling for plain flour, wheat bread or soy sauce. Those have not been changed:
+some are plain errors and some are accompaniments a coeliac would simply leave
+out, and telling the two apart is a decision about the recipe rather than about
+the data.
 
 ## Browser support
 

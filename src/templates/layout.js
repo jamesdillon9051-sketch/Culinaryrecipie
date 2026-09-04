@@ -58,6 +58,7 @@ function header(active, categories) {
         <div class="nav-panel" id="nav-categories">${catLinks}</div>
       </div>
       <a href="${SITE.base}cuisines/"${active === 'cuisines' ? ' aria-current="page"' : ''}>Cuisines</a>
+      <a href="${SITE.base}ingredients/"${active === 'ingredients' ? ' aria-current="page"' : ''}>Ingredients</a>
       <a href="${SITE.base}search/"${active === 'search' ? ' aria-current="page"' : ''}>Search</a>
       <a href="${SITE.base}favourites/"${active === 'favourites' ? ' aria-current="page"' : ''}>Saved <span data-fav-count></span></a>
       <a href="${SITE.base}about/"${active === 'about' ? ' aria-current="page"' : ''}>About</a>
@@ -105,6 +106,7 @@ function footer(topCuisines) {
           <li><a href="${SITE.base}recipes/">All recipes</a></li>
           <li><a href="${SITE.base}categories/">Categories</a></li>
           <li><a href="${SITE.base}cuisines/">Cuisines</a></li>
+          <li><a href="${SITE.base}ingredients/">Ingredients</a></li>
           <li><a href="${SITE.base}search/">Search</a></li>
           <li><a href="${SITE.base}favourites/">Saved recipes</a></li>
         </ul>

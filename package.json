@@ -14,7 +14,8 @@
     "attribution": "node tools/make-attribution.js",
     "serve": "npm run build && node tools/serve.js",
     "check": "node tools/check.js",
-    "readme": "node tools/sync-readme.js"
+    "readme": "node tools/sync-readme.js",
+    "diet": "node tools/diet-audit.js"
   },
   "keywords": [
     "recipes",

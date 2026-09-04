@@ -121,7 +121,7 @@ module.exports = [
   /* ----------------------------------------------------------- Belgian (3) */
   c('belgian-waffles', 'Belgian Waffles', 'Belgian', 'Breakfast', 'Easy', 20, 20, 6, 4.8, 3288, ['Vegetarian'], [], 'Belgian waffles'),
   c('carbonnade-flamande', 'Carbonnade Flamande', 'Belgian', 'Dinner', 'Medium', 25, 150, 6, 4.8, 1422, [], [], 'Carbonnade flamande'),
-  c('belgian-frites', 'Belgian Frites', 'Belgian', 'Appetizers', 'Medium', 20, 25, 4, 4.8, 2144, ['Vegan', 'Gluten-Free'], [], 'Belgian frites'),
+  c('belgian-frites', 'Belgian Frites', 'Belgian', 'Appetizers', 'Medium', 20, 25, 4, 4.8, 2144, ['Gluten-Free', 'Vegetarian'], [], 'Belgian frites'),
 
   /* ------------------------------------------------------------ Dutch (3) */
   c('stroopwafel', 'Stroopwafels', 'Dutch', 'Desserts', 'Hard', 45, 25, 12, 4.7, 1644, ['Vegetarian'], [], 'Stroopwafel'),
@@ -203,7 +203,7 @@ module.exports = [
 
   /* -------------------------------------------------------- Moroccan (4) */
   c('chicken-tagine-olives', 'Chicken Tagine with Olives', 'Moroccan', 'Dinner', 'Medium', 25, 75, 6, 4.8, 2144, ['Gluten-Free'], ['editors'], 'Chicken tagine olives'),
-  c('msemen', 'Msemen', 'Moroccan', 'Breakfast', 'Medium', 60, 20, 8, 4.7, 866, ['Vegan'], [], 'Msemen'),
+  c('msemen', 'Msemen', 'Moroccan', 'Breakfast', 'Medium', 60, 20, 8, 4.7, 866, ['Vegetarian'], [], 'Msemen'),
   c('moroccan-mint-tea', 'Moroccan Mint Tea', 'Moroccan', 'Drinks', 'Easy', 5, 10, 4, 4.8, 1866, ['Vegan', 'Gluten-Free'], [], 'Moroccan mint tea'),
 
   /* -------------------------------------------------------- Egyptian (2) */

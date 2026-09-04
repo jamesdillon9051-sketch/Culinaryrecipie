@@ -422,6 +422,67 @@ ${breadcrumbs(trail)}
 }
 
 /* ------------------------------------------------------- cuisines index */
+/**
+ * The ingredient index.
+ *
+ * Built like the cuisine index, with each card borrowing a photograph from the
+ * most popular recipe in the hub — a page of named links with no pictures is a
+ * sitemap, not a landing page.
+ */
+function ingredientsIndex(ctx) {
+  const trail = [{ name: 'Home', url: SITE.base }, { name: 'Ingredients' }];
+  const cards = ctx.hubs.map(hub => {
+    const sample = hub.recipes.find(r => r.imageData);
+    return `<a class="card reveal" href="${SITE.base}ingredients/${hub.slug}/" style="text-decoration:none">
+      <div class="card-media" style="background:${sample && sample.imageData ? sample.imageData.color : 'var(--bg-sunken)'}">
+        ${sample ? `<picture>
+          <source srcset="${SITE.base}assets/img/recipes/${sample.imageData.file}.webp" type="image/webp">
+          <img src="${SITE.base}assets/img/recipes/${sample.imageData.file}.jpg" alt="${esc(hub.name)} recipes"
+               width="800" height="600" loading="lazy" decoding="async" data-fade>
+        </picture>` : `<div class="img-fallback" role="img" aria-label="${esc(hub.name)}"><span>${esc(hub.name)}</span></div>`}
+        <div class="card-badges"><span class="badge badge--glass">${plural(hub.recipes.length, 'recipe')}</span></div>
+      </div>
+      <div class="card-body">
+        <h3>${esc(hub.name)}</h3>
+        <p>${esc(hub.blurb)}</p>
+      </div>
+    </a>`;
+  }).join('');
+
+  const body = `
+${breadcrumbs(trail)}
+<div class="wrap section" style="padding-top:1rem">
+  <header class="section-head">
+    <div>
+      <span class="eyebrow">Ingredients</span>
+      <h1>Recipes by ingredient</h1>
+      <p class="lede">Start from what is in the fridge. ${plural(ctx.hubs.length, 'ingredient')}, each
+        one listing every recipe on the site that genuinely calls for it.</p>
+    </div>
+    <a class="btn btn--ghost" href="${SITE.base}recipes/">All ${recipeCount} recipes</a>
+  </header>
+  <section aria-labelledby="ing-list-title">
+    <h2 id="ing-list-title" class="sr-only">All ${ctx.hubs.length} ingredients</h2>
+    <div class="card-grid" style="margin-top:2rem">${cards}</div>
+  </section>
+</div>
+<div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter('ing-news')}</div>`;
+
+  return layout({
+    title: 'Recipes by Ingredient',
+    description: `Browse ${recipeCount} recipes by their main ingredient — chicken, `
+      + `aubergine, chocolate and ${ctx.hubs.length - 3} more, each list checked against the recipe itself.`,
+    keywords: ['recipes by ingredient', 'what can i make with', 'cook with what i have',
+               'ingredient index', 'leftover ingredient recipes', 'chicken recipes',
+               'vegetarian ingredient recipes', 'browse by ingredient', 'recipe ideas by ingredient'],
+    path: 'ingredients/',
+    active: 'ingredients',
+    body,
+    cuisines: ctx.topCuisines.slice(0, 8),
+    schema: [breadcrumbSchema(trail)]
+  });
+}
+
 function cuisinesIndex(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'Cuisines' }];
   const cards = ctx.topCuisines.map(name => {
@@ -767,4 +828,4 @@ function notFound(ctx) {
   });
 }
 
-module.exports = { home, directory, taxonomyPage, cuisinesIndex, categoriesIndex, about, contact, notFound };
+module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, categoriesIndex, about, contact, notFound };

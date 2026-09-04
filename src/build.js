@@ -20,8 +20,10 @@ const path = require('path');
 
 const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
+const { build: buildHubs } = require('./lib/ingredient-hubs');
 const { expand: expandKeywords, forCategory: keywordsForCategory,
-        forCuisine: keywordsForCuisine, searchTerms } = require('./lib/keywords');
+        forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
+        searchTerms } = require('./lib/keywords');
 const { SITE, slug } = require('./templates/layout');
 const { recipeCount } = require('./data/stats');
 const ads = require('./templates/ads');
@@ -34,7 +36,8 @@ const SRC = __dirname;
 
 /* Everything the build creates, and nothing else. cleanOutput() removes only
    these, because the output directory is also the project directory. */
-const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'about', 'contact', 'search', 'favourites'];
+const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
+  'about', 'contact', 'search', 'favourites'];
 const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
   'manifest.json', 'feed.xml', 'search-index.json', '_redirects'];
 
@@ -306,6 +309,7 @@ function sitemap(recipes, ctx) {
     entry('recipes/', today, 'daily', '0.9'),
     entry('categories/', today, 'weekly', '0.8'),
     entry('cuisines/', today, 'weekly', '0.8'),
+    entry('ingredients/', today, 'weekly', '0.8'),
     entry('search/', today, 'monthly', '0.4'),
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
     entry('about/', today, 'monthly', '0.5'),
@@ -317,6 +321,9 @@ function sitemap(recipes, ctx) {
   }
   for (const name of ctx.topCuisines) {
     urls.push(entry(`cuisines/${slug(name)}/`, today, 'weekly', '0.7'));
+  }
+  for (const hub of ctx.hubs || []) {
+    urls.push(entry(`ingredients/${hub.slug}/`, today, 'weekly', '0.7'));
   }
   for (const recipe of recipes) {
     const image = recipe.imageData
@@ -496,6 +503,32 @@ function build() {
   }));
 
   writePage('categories/index.html', pages.categoriesIndex(ctx));
+  /* Ingredient hubs ---------------------------------------------------- */
+  /* Built here rather than in buildContext so the failure is loud: a hub whose
+     contents contradict a recipe's own diet tag is a data bug, and shipping the
+     page would put a vegan dish under Chicken. */
+  const { hubs, conflicts } = buildHubs(recipes);
+  if (conflicts.length) {
+    throw new Error(`Ingredient hub conflicts:\n  ${conflicts.join('\n  ')}`);
+  }
+  ctx.hubs = hubs;
+  writePage('ingredients/index.html', pages.ingredientsIndex(ctx));
+  for (const hub of hubs) {
+    writePage(`ingredients/${hub.slug}/index.html`, pages.taxonomyPage(ctx, {
+      recipes: hub.recipes,
+      title: `${hub.name} Recipes`,
+      heading: `${hub.name} recipes`,
+      eyebrow: 'Ingredient',
+      intro: `${hub.blurb} ${plural(hub.recipes.length, 'recipe')} on the site call for ${hub.name.toLowerCase()}.`,
+      description: clamp(`${plural(hub.recipes.length, hub.name.toLowerCase() + ' recipe')} on CulinaryVault. ${hub.blurb}`, 158),
+      keywords: keywordsForIngredient(hub),
+      path: `ingredients/${hub.slug}/`,
+      active: 'ingredients',
+      newsId: `ing-${hub.slug}-news`,
+      trail: [{ name: 'Ingredients', url: `${SITE.base}ingredients/` }, { name: hub.name }]
+    }));
+  }
+
   writePage('cuisines/index.html', pages.cuisinesIndex(ctx));
   writePage('about/index.html', pages.about(ctx));
   writePage('contact/index.html', pages.contact(ctx));
