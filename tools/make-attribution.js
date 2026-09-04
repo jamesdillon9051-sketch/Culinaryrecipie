@@ -17,7 +17,8 @@ const catalog = [...require(path.join(ROOT, 'src/data/catalog.js')),
                  ...require(path.join(ROOT, 'src/data/catalog-3.js')),
                  ...require(path.join(ROOT, 'src/data/catalog-4.js')),
                  ...require(path.join(ROOT, 'src/data/catalog-5.js')),
-                 ...require(path.join(ROOT, 'src/data/catalog-6.js'))];
+                 ...require(path.join(ROOT, 'src/data/catalog-6.js')),
+                 ...require(path.join(ROOT, 'src/data/catalog-7.js'))];
 
 const rows = [];
 const counts = {};

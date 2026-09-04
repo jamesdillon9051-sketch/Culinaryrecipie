@@ -4,6 +4,11 @@
     "Jamaican ackee",
     "saltfish breakfast"
   ],
+  "aeggekage": [
+    "æggekage",
+    "aeggekage",
+    "danish egg cake"
+  ],
   "affogato": [
     "affogato al caffè",
     "affogato ice cream espresso",
@@ -45,6 +50,11 @@
   "ash-reshteh": [
     "آش رشته",
     "aash reshteh"
+  ],
+  "atakilt-wat": [
+    "atakilt wat",
+    "tikil gomen",
+    "ethiopian cabbage dish"
   ],
   "avgolemono-soup": [
     "Greek lemon chicken soup",
@@ -298,6 +308,11 @@
     "vietnamese spring rolls",
     "crispy spring rolls"
   ],
+  "chakalaka": [
+    "chakalaka",
+    "chakalaka relish",
+    "south african chakalaka"
+  ],
   "chapli-kebab": [
     "چپلی کباب",
     "chapli kabab peshawari"
@@ -465,12 +480,22 @@
   "crema-catalana": [
     "crema catalana cremada"
   ],
+  "croque-madame": [
+    "croque-madame",
+    "croque madame assiette",
+    "croque madame egg"
+  ],
   "croquetas": [
     "croquetas de jamón",
     "croqueta jamón ibérico"
   ],
   "cullen-skink": [
     "cullen skink soup"
+  ],
+  "curtido": [
+    "curtido de repollo",
+    "cabbage slaw pupusas",
+    "salvadoran cabbage relish"
   ],
   "dakgalbi": [
     "Korean spicy stir fried chicken",
@@ -564,6 +589,11 @@
     "battered fish tacos slaw",
     "baja fish taco"
   ],
+  "flammkuchen": [
+    "flammkuchen",
+    "tarte flambée",
+    "flammekueche"
+  ],
   "focaccia-genovese": [
     "focaccia genovese",
     "fugassa"
@@ -578,6 +608,11 @@
     "chocolate brownies",
     "brownie squares",
     "brownie tray bake"
+  ],
+  "ful-medames": [
+    "ful medames bowl",
+    "فول بالطحينة",
+    "fava beans breakfast bowl egypt"
   ],
   "gado-gado": [
     "Indonesian salad peanut sauce",
@@ -617,6 +652,11 @@
     "stuffed cabbage rolls",
     "cabbage rolls tomato sauce",
     "golabki"
+  ],
+  "gomae": [
+    "ほうれん草の胡麻和え",
+    "gomaae",
+    "spinach sesame salad japanese"
   ],
   "greek-lemon-potatoes": [
     "πατάτες λεμονάτες",
@@ -744,6 +784,11 @@
     "julekaka",
     "norwegian christmas bread"
   ],
+  "kachumbari": [
+    "kachumbari",
+    "kenyan tomato salad",
+    "kachumbari salad"
+  ],
   "kaiserschmarrn": [
     "kaiserschmarren"
   ],
@@ -770,6 +815,11 @@
   "katsu-curry": [
     "カツカレー",
     "katsu kare"
+  ],
+  "kaya-toast": [
+    "kaya toast",
+    "kaya toast singapore",
+    "kopitiam toast eggs"
   ],
   "keema-matar": [
     "कीमा मटर",
@@ -811,6 +861,11 @@
     "gimbap",
     "seaweed rice roll",
     "kimbap slices"
+  ],
+  "kisir": [
+    "kısır",
+    "kisir salata",
+    "turkish bulgur salad"
   ],
   "knafeh-nabulsi": [
     "كنافة نابلسية",
@@ -929,6 +984,11 @@
     "paneer kofta gravy",
     "kofta curry cream"
   ],
+  "malawach": [
+    "מלאווח",
+    "malawach",
+    "malawah yemenite bread"
+  ],
   "malva-pudding": [
     "malva poeding"
   ],
@@ -958,6 +1018,11 @@
     "massaman curry bowl",
     "Thai peanut curry beef",
     "curry potatoes peanuts"
+  ],
+  "mechouia-salad": [
+    "salade mechouia assiette",
+    "mechouia salad plate tuna",
+    "slata mechouia servie"
   ],
   "mexican-rice": [
     "arroz rojo",
@@ -1043,6 +1108,11 @@
     "choma meat plate",
     "nyama choma kenya",
     "choma goat ribs"
+  ],
+  "oi-muchim": [
+    "오이무침",
+    "oi muchim",
+    "korean cucumber side dish"
   ],
   "olivier-salad": [
     "olivier salad",
@@ -1170,6 +1240,11 @@
     "鹹酥雞",
     "taiwanese fried chicken basil",
     "salt and pepper fried chicken basil"
+  ],
+  "porotos-granados": [
+    "porotos granados",
+    "porotos con mazamorra",
+    "chilean bean stew"
   ],
   "pot-au-feu": [
     "pot au feu dish",
@@ -1550,6 +1625,11 @@
     "ugali na sukuma wiki",
     "sukuma wiki"
   ],
+  "uitsmijter": [
+    "uitsmijter",
+    "uitsmijter ham kaas",
+    "dutch fried egg bread"
+  ],
   "unagi-don": [
     "うな丼",
     "unadon",
@@ -1607,6 +1687,16 @@
     "chicken souvlaki",
     "grilled chicken skewers",
     "shish taouk"
+  ],
+  "zaalouk": [
+    "zaalouk",
+    "زعلوك",
+    "moroccan aubergine salad"
+  ],
+  "zapiekanka": [
+    "zapiekanka",
+    "zapiekanki",
+    "polish baguette snack"
   ],
   "zeppole": [
     "zeppole di san giuseppe",

@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-640 recipes · 66 cuisines · 10 categories · 775 static pages · 0 npm dependencies
+658 recipes · 66 cuisines · 10 categories · 793 static pages · 0 npm dependencies
 ```
 
 ---
@@ -349,8 +349,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-607 of the 640 recipes have a photograph. Of the 859 images on the site, 673
-are CC0 or public domain, 90 are CC BY and 96 are CC BY-SA. Anything still
+620 of the 658 recipes have a photograph. Of the 875 images on the site, 680
+are CC0 or public domain, 91 are CC BY and 104 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -497,7 +497,7 @@ gazpacho or gets handed round with the prawns.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 640 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 658 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

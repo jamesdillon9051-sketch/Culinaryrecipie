@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on CulinaryVault is freely licensed. Of 859
-images, **673** are CC0 or public domain and carry no conditions at all, and
-**186** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on CulinaryVault is freely licensed. Of 875
+images, **680** are CC0 or public domain and carry no conditions at all, and
+**195** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -41,24 +41,24 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 640 |
-| Hero images | 607 |
-| Secondary "process" images | 252 |
-| Total image files | 1718 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 33 |
+| Recipes | 658 |
+| Hero images | 620 |
+| Secondary "process" images | 255 |
+| Total image files | 1750 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 38 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 393 | No rights reserved — no attribution legally required |
+| CC0 | 399 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 176 | No rights reserved — no attribution legally required |
-| Public domain | 69 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 65 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY-SA 4.0 | 64 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 70 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 70 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 66 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 14 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 15 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY 4.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -116,6 +116,11 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Tepache (`tepache`)
 - Sorrel Drink (`sorrel-drink`)
 - Sobolo (`sobolo`)
+- Æggekage (`aeggekage`)
+- Malawach (`malawach`)
+- Curtido (`curtido`)
+- Salade Méchouia (`mechouia-salad`)
+- Gomae (`gomae`)
 
 ## Brand assets
 
@@ -986,6 +991,22 @@ licence as the rest of this project.
 | `kvass.webp` / `.jpg` | Bread Kvass | Hero | Glass-of-kvass | Liftarn | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glass-of-kvass.jpg) |
 | `bandrek.webp` / `.jpg` | Bandrek | Hero | Bandrek Bandung | Midori | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bandrek_Bandung.JPG) |
 | `bandrek-process.webp` / `.jpg` | Bandrek | Process | Stasiun Warung Bandrek 2025 | Sammi578 | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stasiun_Warung_Bandrek_2025.jpg) |
+| `kaya-toast.webp` / `.jpg` | Kaya Toast | Hero | Kaya toast dip into soft boiled egg | Pinklily08 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaya_toast_dip_into_soft_boiled_egg.jpg) |
+| `uitsmijter.webp` / `.jpg` | Uitsmijter | Hero | Uitsmijter Belgium-2 | Uitsmijter_Belgium.jpg: Varech derivative work: Bff | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Uitsmijter_Belgium-2.jpg) |
+| `ful-medames.webp` / `.jpg` | Ful Medames | Hero | فول مصرى بالطحينة | Melaad2009 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%81%D9%88%D9%84_%D9%85%D8%B5%D8%B1%D9%89_%D8%A8%D8%A7%D9%84%D8%B7%D8%AD%D9%8A%D9%86%D8%A9.jpg) |
+| `chakalaka.webp` / `.jpg` | Chakalaka | Hero | South African food | Kai Hendry | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:South_African_food.jpg) |
+| `croque-madame.webp` / `.jpg` | Croque Madame | Hero | Croque Madame - Milfey Patisserie 2026-03-02 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Croque_Madame_-_Milfey_Patisserie_2026-03-02.jpg) |
+| `flammkuchen.webp` / `.jpg` | Flammkuchen | Hero | Dargett Craft Beer - tarte flambée | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dargett_Craft_Beer_-_tarte_flamb%C3%A9e.JPG) |
+| `zapiekanka.webp` / `.jpg` | Zapiekanka | Hero | Zapiekanka Warszawa | Аимаина хикари | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zapiekanka_Warszawa.jpg) |
+| `atakilt-wat.webp` / `.jpg` | Atakilt Wat | Hero | KIK ALICHA, MISIR, GOMEN and TIKIL GOMEN | stu_spivack | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KIK_ALICHA,_MISIR,_GOMEN_and_TIKIL_GOMEN.jpg) |
+| `kachumbari.webp` / `.jpg` | Kachumbari | Hero | East African Garnish Kachumbari | safaritravelplus | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:East_African_Garnish_Kachumbari.jpg) |
+| `kachumbari-process.webp` / `.jpg` | Kachumbari | Process | Fried Tilapia, Ugali, Sukuma Wiki and Kachumbari (From Kisumu) | Napendakukula | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fried_Tilapia,_Ugali,_Sukuma_Wiki_and_Kachumbari_(From_Kisumu).JPG) |
+| `porotos-granados.webp` / `.jpg` | Porotos Granados | Hero | Porotos granados (Chilean bean stew) | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porotos_granados_(Chilean_bean_stew).jpg) |
+| `zaalouk.webp` / `.jpg` | Zaalouk | Hero | Zaalouk 01 | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zaalouk_01.jpg) |
+| `zaalouk-process.webp` / `.jpg` | Zaalouk | Process | Zaalouk 03 | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zaalouk_03.jpg) |
+| `kisir.webp` / `.jpg` | Kısır | Hero | Kisir | Noumenon | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kisir.jpg) |
+| `kisir-process.webp` / `.jpg` | Kısır | Process | Kisir (small portion) | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kisir_(small_portion).jpg) |
+| `oi-muchim.webp` / `.jpg` | Oi Muchim | Hero | Oi Muchim 오이무침1 | Unknown | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oi_Muchim_%EC%98%A4%EC%9D%B4%EB%AC%B4%EC%B9%A81.jpg) |
 
 ---
 
