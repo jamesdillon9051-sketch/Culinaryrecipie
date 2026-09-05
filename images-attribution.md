@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 872
-images, **674** are CC0 or public domain and carry no conditions at all, and
-**198** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 900
+images, **683** are CC0 or public domain and carry no conditions at all, and
+**217** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -41,26 +41,26 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 658 |
-| Hero images | 617 |
-| Secondary "process" images | 255 |
-| Total image files | 1744 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 41 |
+| Recipes | 680 |
+| Hero images | 642 |
+| Secondary "process" images | 258 |
+| Total image files | 1800 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 38 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 401 | No rights reserved — no attribution legally required |
-| CC0 1.0 | 169 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 72 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 70 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 67 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 411 | No rights reserved — no attribution legally required |
+| CC0 1.0 | 167 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 78 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 72 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| Public domain | 71 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 33 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 15 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 4.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 9 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 3.0 | 21 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 4.0 | 10 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 10 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
@@ -83,15 +83,12 @@ Licence texts:
 These use the built-in gradient placeholder because no CC0, public-domain,
 CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 
-- Beef and Broccoli (`beef-and-broccoli`)
 - Queso Fundido (`queso-fundido`)
 - Mexican Red Rice (`mexican-rice`)
-- Three-Egg Omelette (`classic-omelette`)
 - Toad in the Hole (`toad-in-the-hole`)
 - Mujadara (`mujadara`)
 - Cheese Börek (`borek`)
 - Fabada Asturiana (`fabada-asturiana`)
-- Fried Sweet Plantain (`fried-plantain`)
 - Ahi Poke Bowl (`poke-bowl`)
 - Lion's Head Meatballs (`lion-head-meatballs`)
 - Welsh Cawl (`cawl`)
@@ -248,7 +245,8 @@ licence as the rest of this project.
 | `mapo-tofu.webp` / `.jpg` | Mapo Tofu | Hero | Sichuan pickled tofu | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sichuan_pickled_tofu.jpg) |
 | `mapo-tofu-process.webp` / `.jpg` | Mapo Tofu | Process | Salt & Pepper Tofu Rice Bowl - Tiger Bites Pig 2025-11-20 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salt_%26_Pepper_Tofu_Rice_Bowl_-_Tiger_Bites_Pig_2025-11-20.jpg) |
 | `general-tsos-chicken.webp` / `.jpg` | General Tso's Chicken | Hero | General Tso's Chicken (packaged) - Arlington, MA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:General_Tso%27s_Chicken_(packaged)_-_Arlington,_MA.jpg) |
-| `beef-and-broccoli-process.webp` / `.jpg` | Beef and Broccoli | Process | Ground beef on sticky rice with broccoli, pickled garlic, guacamole habanero sauce, and soy sauce - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ground_beef_on_sticky_rice_with_broccoli,_pickled_garlic,_guacamole_habanero_sauce,_and_soy_sauce_-_Massachusetts.jpg) |
+| `beef-and-broccoli.webp` / `.jpg` | Beef and Broccoli | Hero | Ground beef on sticky rice with broccoli, pickled garlic, guacamole habanero sauce, and soy sauce - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ground_beef_on_sticky_rice_with_broccoli,_pickled_garlic,_guacamole_habanero_sauce,_and_soy_sauce_-_Massachusetts.jpg) |
+| `beef-and-broccoli-process.webp` / `.jpg` | Beef and Broccoli | Process | Ground beef with blue cheese and roasted broccoli on mixed greens with mustard vinaigrette dressing, with bell pepper, carrots, and beets - Massachusetts | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ground_beef_with_blue_cheese_and_roasted_broccoli_on_mixed_greens_with_mustard_vinaigrette_dressing,_with_bell_pepper,_carrots,_and_beets_-_Massachusetts.jpg) |
 | `egg-fried-rice.webp` / `.jpg` | Egg Fried Rice | Hero | Chinese egg fried rice | Euniceyeoh07 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chinese_egg_fried_rice.jpg) |
 | `chow-mein.webp` / `.jpg` | Chicken Chow Mein | Hero | Chicken Chow Mein | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Chow_Mein.JPG) |
 | `chow-mein-process.webp` / `.jpg` | Chicken Chow Mein | Process | Chinese Chicken Chow Mein | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chinese_Chicken_Chow_Mein.JPG) |
@@ -551,7 +549,8 @@ licence as the rest of this project.
 | `classic-potato-salad.webp` / `.jpg` | Classic Potato Salad | Hero | Kartoffelsalat mit Borretsch | Schnobby | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kartoffelsalat_mit_Borretsch.jpg) |
 | `classic-potato-salad-process.webp` / `.jpg` | Classic Potato Salad | Process | Schwäbischer Kartoffelsalat mit Maultaschen | Brücke-Osteuropa | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schw%C3%A4bischer_Kartoffelsalat_mit_Maultaschen.JPG) |
 | `boston-baked-beans.webp` / `.jpg` | Boston Baked Beans | Hero | Baked beans with molasses | U.S. Fish and Wildlife Service - Midwest Region | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/49208525@N08/4974247795) |
-| `classic-omelette-process.webp` / `.jpg` | Three-Egg Omelette | Process | Japaness Omelette (5) | 林彌猴 | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=154065265) |
+| `classic-omelette.webp` / `.jpg` | Three-Egg Omelette | Hero | Chickpea Omelette Batter | Back ache | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chickpea_Omelette_Batter.jpg) |
+| `classic-omelette-process.webp` / `.jpg` | Three-Egg Omelette | Process | Chickpea Omelette in a Pan | Back ache | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chickpea_Omelette_in_a_Pan.jpg) |
 | `hash-browns.webp` / `.jpg` | Crispy Hash Browns | Hero | Marketside hash browns | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marketside_hash_browns.jpg) |
 | `biscuits-and-gravy.webp` / `.jpg` | Biscuits and Sausage Gravy | Hero | Biscuits and gravy | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/53959838431) |
 | `biscuits-and-gravy-process.webp` / `.jpg` | Biscuits and Sausage Gravy | Process | Closeup of American biscuits and gravy in a cast iron pan. Cinnamon swirl toast and breakfast casserole in the background. | Topher | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/73967f7c30/) |
@@ -671,7 +670,8 @@ licence as the rest of this project.
 | `jamaican-curry-goat.webp` / `.jpg` | Jamaican Curry Goat | Hero | Curry Goat and Rice | Leon Brocard from London, UK | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Curry_Goat_and_Rice.jpg) |
 | `jamaican-curry-goat-process.webp` / `.jpg` | Jamaican Curry Goat | Process | Curry Goat | MaxMahem | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Curry_Goat.jpg) |
 | `ackee-and-saltfish.webp` / `.jpg` | Ackee and Saltfish | Hero | Ackee-saltfish | Dug Song from Ann Arbor, MI, USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ackee-saltfish.jpg) |
-| `fried-plantain-process.webp` / `.jpg` | Fried Sweet Plantain | Process | Fried plantain | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5961254/free-public-domain-cc0-photo) |
+| `fried-plantain.webp` / `.jpg` | Fried Sweet Plantain | Hero | Fried Crisps of Plantain | Namwanje Sauyah | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fried_Crisps_of_Plantain.jpg) |
+| `fried-plantain-process.webp` / `.jpg` | Fried Sweet Plantain | Process | Dodo fried | Setor33 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dodo_fried.jpg) |
 | `poke-bowl-process.webp` / `.jpg` | Ahi Poke Bowl | Process | Festibowl - Island Poké 2023-10-08 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Festibowl_-_Island_Pok%C3%A9_2023-10-08.jpg) |
 | `acai-bowl.webp` / `.jpg` | Açaí Bowl | Hero | Healthy smoothie acai bowl berries | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/3282999/free-photo-image-organic-food-healthy-breakfast-bowl) |
 | `acai-bowl-process.webp` / `.jpg` | Açaí Bowl | Process | Free photo Acai bowl filled | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5925657/photo-image-public-domain-plant-wood) |
@@ -1007,6 +1007,31 @@ licence as the rest of this project.
 | `kisir.webp` / `.jpg` | Kısır | Hero | Kisir | Noumenon | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kisir.jpg) |
 | `kisir-process.webp` / `.jpg` | Kısır | Process | Kisir (small portion) | E4024 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kisir_(small_portion).jpg) |
 | `oi-muchim.webp` / `.jpg` | Oi Muchim | Hero | Oi Muchim 오이무침1 | Unknown | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oi_Muchim_%EC%98%A4%EC%9D%B4%EB%AC%B4%EC%B9%A81.jpg) |
+| `oatmeal-raisin-cookies.webp` / `.jpg` | Oatmeal Raisin Cookies | Hero | Oatmeal cookies on a plate | Evan Prodromou | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oatmeal_cookies_on_a_plate.jpg) |
+| `oatmeal-raisin-cookies-process.webp` / `.jpg` | Oatmeal Raisin Cookies | Process | Voortman Cookies Oatmeal Cookie, March 2020 | Thomson200 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Voortman_Cookies_Oatmeal_Cookie,_March_2020.jpg) |
+| `sugar-cookies.webp` / `.jpg` | Cut-Out Sugar Cookies | Hero | Decorated sugar cookies, December 2009 | Selena N. B. H. | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Decorated_sugar_cookies,_December_2009.jpg) |
+| `blondies.webp` / `.jpg` | Brown Butter Blondies | Hero | Carob Chunk Caramel Blondies (3794551134) | Janet Hudson | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carob_Chunk_Caramel_Blondies_(3794551134).jpg) |
+| `lemon-bars.webp` / `.jpg` | Lemon Bars | Hero | Lemon bars | Dracunculus | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lemon_bars.jpg) |
+| `magic-cookie-bars.webp` / `.jpg` | Magic Cookie Bars | Hero | Layered bar | ChildofMidnight at English Wikipedia | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Layered_bar.jpg) |
+| `chocolate-cake.webp` / `.jpg` | Classic Chocolate Layer Cake | Hero | 2025-01-26 16 53 04 A slice of chocolate raspberry 3-layer cake in the Mountainview section of Ewing Township, Mercer County, New Jersey | Famartin | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2025-01-26_16_53_04_A_slice_of_chocolate_raspberry_3-layer_cake_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg) |
+| `vanilla-sponge-cake.webp` / `.jpg` | Vanilla Sponge Cake | Hero | Making sponge cake at home 16 | Peacearth | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Making_sponge_cake_at_home_16.jpg) |
+| `angel-food-cake.webp` / `.jpg` | Angel Food Cake | Hero | Angel food cake texture | boviate from Buffalo, NY, USA | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Angel_food_cake_texture.jpg) |
+| `chocolate-cupcakes.webp` / `.jpg` | Chocolate Cupcakes | Hero | Chocolate Cupcakes with Raspberry Buttercream | Whitney | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chocolate_Cupcakes_with_Raspberry_Buttercream.jpg) |
+| `chocolate-cupcakes-process.webp` / `.jpg` | Chocolate Cupcakes | Process | Chocolate Cupcakes with Raspberry Buttercream detail | Whitney | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chocolate_Cupcakes_with_Raspberry_Buttercream_detail.jpg) |
+| `marble-cake.webp` / `.jpg` | Marble Cake | Hero | Slice of marble cake | ProjectManhattan | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Slice_of_marble_cake.jpg) |
+| `pound-cake.webp` / `.jpg` | Pound Cake | Hero | Black tea pound cake (1) | Roozitaa | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Black_tea_pound_cake_(1).jpg) |
+| `bundt-cake.webp` / `.jpg` | Sour Cream Bundt Cake | Hero | Glazed Lemon Bundt Cake | Jumping cheese | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glazed_Lemon_Bundt_Cake.jpg) |
+| `basque-cheesecake.webp` / `.jpg` | Burnt Basque Cheesecake | Hero | Blueberry Basque cake | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blueberry_Basque_cake.jpg) |
+| `basque-cheesecake-process.webp` / `.jpg` | Burnt Basque Cheesecake | Process | Chestnut Basque Cheesecake - MOGUMOGU 2024-11-02 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chestnut_Basque_Cheesecake_-_MOGUMOGU_2024-11-02.jpg) |
+| `chocolate-chip-muffins.webp` / `.jpg` | Chocolate Chip Muffins | Hero | Chocolate Muffin - GAIL's 2025-06-11 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chocolate_Muffin_-_GAIL%27s_2025-06-11.jpg) |
+| `zucchini-bread.webp` / `.jpg` | Courgette Bread | Hero | Costata Romanesco zucchini and zucchini bread | Temaciejewski | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Costata_Romanesco_zucchini_and_zucchini_bread.jpg) |
+| `pumpkin-bread.webp` / `.jpg` | Pumpkin Bread | Hero | Pumpkin Walnut Bread | Cphackm | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pumpkin_Walnut_Bread.jpg) |
+| `coffee-cake.webp` / `.jpg` | Cinnamon Streusel Coffee Cake | Hero | Tea and Walnut cinnamon coffee cake | Melissa Doroquez | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tea_and_Walnut_cinnamon_coffee_cake.jpg) |
+| `apple-crisp.webp` / `.jpg` | Apple Crisp | Hero | Apple Crisp | Douglas Perkins | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Crisp.jpg) |
+| `peach-cobbler.webp` / `.jpg` | Peach Cobbler | Hero | 01 Peach Cobbler | Ralph Daily | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:01_Peach_Cobbler.jpg) |
+| `fruit-tart.webp` / `.jpg` | French Fruit Tart | Hero | Blueberry Strawberry Fruit Tart 1 2016-05-23 | FASTILY | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blueberry_Strawberry_Fruit_Tart_1_2016-05-23.jpg) |
+| `garlic-focaccia.webp` / `.jpg` | Garlic Confit Focaccia | Hero | A homemade rosemary focaccia baked in the United States | Gatorfan252525 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_homemade_rosemary_focaccia_baked_in_the_United_States.jpg) |
+| `challah.webp` / `.jpg` | Challah | Hero | Challah Bread Six Braid 1 | Aviv Hod | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Challah_Bread_Six_Braid_1.JPG) |
 
 ---
 

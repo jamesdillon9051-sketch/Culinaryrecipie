@@ -379,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-639 of the 680 recipes have a photograph. Of the 897 images on the site, 683
-are CC0 or public domain, 99 are CC BY and 115 are CC BY-SA. Anything still
+642 of the 680 recipes have a photograph. Of the 900 images on the site, 683
+are CC0 or public domain, 99 are CC BY and 118 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -590,11 +590,12 @@ ever ran; the diet tags hold; and the seven with long unattended waits declare
 them, so the garlic focaccia's fourteen and a half hours of cold proving are on
 the page rather than hidden behind a 100-minute header.
 
-Nineteen of the twenty-two have a photograph. Three do not: Commons has no
-usable picture of a finished angel food cake, of magic cookie bars, or of a
-focaccia that is not either sweet or a pizza, and the fetcher's near-misses —
-an empty tube tin, raw batter, a Scottish mountain called The Cobbler — went
-back rather than onto the page.
+All twenty-two have a photograph, and the last three took a different method
+to find. The fetcher's near-misses for them were an empty tube tin, raw
+batter, a small pizza and a Scottish mountain called The Cobbler — all with
+plausible titles — so the search was rerun with the licence gate but no title
+heuristics at all, and the candidates were laid out as a contact sheet and
+picked by eye. Titles are a filter, not a verdict.
 
 They are unrated, for the reason given in `catalog-4.js`.
 
