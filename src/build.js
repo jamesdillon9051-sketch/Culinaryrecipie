@@ -551,6 +551,13 @@ function manifest() {
 
 function feed(recipes) {
   const latest = recipes.slice().sort((a, b) => b.published - a.published).slice(0, 25);
+  /* The newest content date among the items, not the moment of the build.
+     Stamping the clock here rewrote feed.xml on every run and showed up as an
+     uncommitted change after a build that had altered nothing — the same fault
+     the sitemap's lastmod had, and the same fix: see ./lib/content-dates.js. */
+  const lastChanged = latest.reduce(
+    (newest, r) => (r.dateModified > newest ? r.dateModified : newest),
+    latest[0].dateModified);
   const items = latest.map(r => `    <item>
       <title>${esc(r.title)}</title>
       <link>${SITE.origin}${SITE.base}recipes/${r.slug}/</link>
@@ -567,7 +574,7 @@ function feed(recipes) {
     <link>${SITE.origin}${SITE.base}</link>
     <description>${esc(SITE.tagline)}</description>
     <language>en-gb</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <lastBuildDate>${new Date(lastChanged).toUTCString()}</lastBuildDate>
     <atom:link href="${SITE.origin}${SITE.base}feed.xml" rel="self" type="application/rss+xml"/>
 ${items}
   </channel>
