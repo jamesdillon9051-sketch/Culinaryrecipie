@@ -379,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-642 of the 729 recipes have a photograph. Of the 900 images on the site, 683
-are CC0 or public domain, 99 are CC BY and 118 are CC BY-SA. Anything still
+690 of the 729 recipes have a photograph. Of the 960 images on the site, 709
+are CC0 or public domain, 112 are CC BY and 139 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -587,6 +587,15 @@ Three of the four build guards caught something on the first run, which is the
 argument for having them: prime rib was tagged Dairy-Free with butter in its
 jus, Salisbury steak was tagged Dairy-Free with milk in its panade, and the
 quick pickles claimed four more calories than their macronutrients allowed.
+
+Forty-seven of the forty-nine have a photograph, and finding them took the
+contact-sheet method rather than the fetcher. Its automatic picks put a
+breaded schnitzel on the roast potatoes and a bowl of linguine on the creamed
+spinach — both with titles that named the right dish — so every candidate was
+downloaded, laid out as a strip and judged by eye instead. Sweet potato
+casserole and cranberry sauce ended on gradient placeholders: Commons offers a
+1915 archival photograph for one and a museum's collection of empty glass
+sauce dishes for the other.
 
 ---
 

@@ -7729,6 +7729,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/malawach.jpg</image:loc>
+      <image:title>Malawach</image:title>
+      <image:caption>Malawach — Israeli quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/croque-madame/</loc>
@@ -8094,138 +8099,253 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-alfredo.jpg</image:loc>
+      <image:title>Chicken Alfredo</image:title>
+      <image:caption>Chicken Alfredo — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-chicken-breast/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-chicken-breast.jpg</image:loc>
+      <image:title>Juicy Baked Chicken Breast</image:title>
+      <image:caption>Juicy Baked Chicken Breast — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-chicken-wings/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-chicken-wings.jpg</image:loc>
+      <image:title>Air Fryer Chicken Wings</image:title>
+      <image:caption>Air Fryer Chicken Wings — American appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-chicken/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-garlic-chicken.jpg</image:loc>
+      <image:title>Honey Garlic Chicken</image:title>
+      <image:caption>Honey Garlic Chicken — American quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-marsala/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-marsala.jpg</image:loc>
+      <image:title>Chicken Marsala</image:title>
+      <image:caption>Chicken Marsala — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-piccata/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-piccata.jpg</image:loc>
+      <image:title>Chicken Piccata</image:title>
+      <image:caption>Chicken Piccata — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-quesadilla/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-quesadilla.jpg</image:loc>
+      <image:title>Chicken Quesadilla</image:title>
+      <image:caption>Chicken Quesadilla — Mexican quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-pepper-chicken/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pepper-chicken.jpg</image:loc>
+      <image:title>Lemon Pepper Chicken</image:title>
+      <image:caption>Lemon Pepper Chicken — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prime-rib/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prime-rib.jpg</image:loc>
+      <image:title>Prime Rib Roast</image:title>
+      <image:caption>Prime Rib Roast — American holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salisbury-steak/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salisbury-steak.jpg</image:loc>
+      <image:title>Salisbury Steak</image:title>
+      <image:caption>Salisbury Steak — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corned-beef-and-cabbage/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/corned-beef-and-cabbage.jpg</image:loc>
+      <image:title>Corned Beef and Cabbage</image:title>
+      <image:caption>Corned Beef and Cabbage — Irish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-bolognese/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-bolognese.jpg</image:loc>
+      <image:title>Spaghetti Bolognese</image:title>
+      <image:caption>Spaghetti Bolognese — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-ziti/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-ziti.jpg</image:loc>
+      <image:title>Baked Ziti</image:title>
+      <image:caption>Baked Ziti — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/penne-alla-vodka/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/penne-alla-vodka.jpg</image:loc>
+      <image:title>Penne alla Vodka</image:title>
+      <image:caption>Penne alla Vodka — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-cheddar-soup/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/broccoli-cheddar-soup.jpg</image:loc>
+      <image:title>Broccoli Cheddar Soup</image:title>
+      <image:caption>Broccoli Cheddar Soup — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/split-pea-soup/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/split-pea-soup.jpg</image:loc>
+      <image:title>Split Pea and Ham Soup</image:title>
+      <image:caption>Split Pea and Ham Soup — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-tortilla-soup/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-tortilla-soup.jpg</image:loc>
+      <image:title>Chicken Tortilla Soup</image:title>
+      <image:caption>Chicken Tortilla Soup — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lobster-bisque/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lobster-bisque.jpg</image:loc>
+      <image:title>Lobster Bisque</image:title>
+      <image:caption>Lobster Bisque — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frittata/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frittata.jpg</image:loc>
+      <image:title>Vegetable Frittata</image:title>
+      <image:caption>Vegetable Frittata — Italian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mashed-potatoes/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mashed-potatoes.jpg</image:loc>
+      <image:title>Creamy Mashed Potatoes</image:title>
+      <image:caption>Creamy Mashed Potatoes — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-potatoes/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-potatoes.jpg</image:loc>
+      <image:title>Crispy Roast Potatoes</image:title>
+      <image:caption>Crispy Roast Potatoes — British dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-potato/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-potato.jpg</image:loc>
+      <image:title>Baked Potato</image:title>
+      <image:caption>Baked Potato — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/green-bean-casserole/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/green-bean-casserole.jpg</image:loc>
+      <image:title>Green Bean Casserole</image:title>
+      <image:caption>Green Bean Casserole — American holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-casserole/</loc>
@@ -8238,6 +8358,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffing.jpg</image:loc>
+      <image:title>Sage and Onion Stuffing</image:title>
+      <image:caption>Sage and Onion Stuffing — British holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-sauce/</loc>
@@ -8250,137 +8375,252 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-artichoke-dip.jpg</image:loc>
+      <image:title>Spinach and Artichoke Dip</image:title>
+      <image:caption>Spinach and Artichoke Dip — American appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ranch-dressing/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ranch-dressing.jpg</image:loc>
+      <image:title>Buttermilk Ranch Dressing</image:title>
+      <image:caption>Buttermilk Ranch Dressing — American appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/quick-pickles/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/quick-pickles.jpg</image:loc>
+      <image:title>Quick Refrigerator Pickles</image:title>
+      <image:caption>Quick Refrigerator Pickles — American appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corn-on-the-cob/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/corn-on-the-cob.jpg</image:loc>
+      <image:title>Corn on the Cob</image:title>
+      <image:caption>Corn on the Cob — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/creamed-spinach/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/creamed-spinach.jpg</image:loc>
+      <image:title>Creamed Spinach</image:title>
+      <image:caption>Creamed Spinach — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/club-sandwich/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/club-sandwich.jpg</image:loc>
+      <image:title>Club Sandwich</image:title>
+      <image:caption>Club Sandwich — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-salad-sandwich/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-salad-sandwich.jpg</image:loc>
+      <image:title>Tuna Salad Sandwich</image:title>
+      <image:caption>Tuna Salad Sandwich — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-salad-sandwich/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-salad-sandwich.jpg</image:loc>
+      <image:title>Egg Salad Sandwich</image:title>
+      <image:caption>Egg Salad Sandwich — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/meatball-sub/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/meatball-sub.jpg</image:loc>
+      <image:title>Meatball Sub</image:title>
+      <image:caption>Meatball Sub — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pigs-in-blankets/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pigs-in-blankets.jpg</image:loc>
+      <image:title>Pigs in Blankets</image:title>
+      <image:caption>Pigs in Blankets — British holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shrimp-scampi/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shrimp-scampi.jpg</image:loc>
+      <image:title>Shrimp Scampi</image:title>
+      <image:caption>Shrimp Scampi — Italian quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-casserole/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-casserole.jpg</image:loc>
+      <image:title>Tuna Noodle Casserole</image:title>
+      <image:caption>Tuna Noodle Casserole — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-shrimp/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-butter-shrimp.jpg</image:loc>
+      <image:title>Garlic Butter Shrimp</image:title>
+      <image:caption>Garlic Butter Shrimp — American quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-mousse/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-mousse.jpg</image:loc>
+      <image:title>Chocolate Mousse</image:title>
+      <image:caption>Chocolate Mousse — French desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fudge/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fudge.jpg</image:loc>
+      <image:title>Chocolate Fudge</image:title>
+      <image:caption>Chocolate Fudge — American desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rice-krispie-treats/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rice-krispie-treats.jpg</image:loc>
+      <image:title>Marshmallow Crispy Treats</image:title>
+      <image:caption>Marshmallow Crispy Treats — American desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-pudding/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-pudding.jpg</image:loc>
+      <image:title>Banana Pudding</image:title>
+      <image:caption>Banana Pudding — American desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/strawberry-shortcake/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-shortcake.jpg</image:loc>
+      <image:title>Strawberry Shortcake</image:title>
+      <image:caption>Strawberry Shortcake — American desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/millionaire-shortbread/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/millionaire-shortbread.jpg</image:loc>
+      <image:title>Millionaire&#39;s Shortbread</image:title>
+      <image:caption>Millionaire&#39;s Shortbread — Scottish baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemonade/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemonade.jpg</image:loc>
+      <image:title>Fresh Lemonade</image:title>
+      <image:caption>Fresh Lemonade — American drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/old-fashioned/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/old-fashioned.jpg</image:loc>
+      <image:title>Old Fashioned</image:title>
+      <image:caption>Old Fashioned — American drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aperol-spritz/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aperol-spritz.jpg</image:loc>
+      <image:title>Aperol Spritz</image:title>
+      <image:caption>Aperol Spritz — Italian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chai-latte/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chai-latte.jpg</image:loc>
+      <image:title>Masala Chai Latte</image:title>
+      <image:caption>Masala Chai Latte — Indian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
 </urlset>
