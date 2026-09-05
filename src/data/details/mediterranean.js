@@ -351,6 +351,7 @@ module.exports = {
   },
 
   'hummus': {
+    rest: [480, 'soaking'],
     d: 'Silky, pourable hummus with far more tahini than most recipes dare, whipped for five minutes with ice water. Peeling the chickpeas sounds fussy; it takes ten minutes and changes everything.',
     meta: 'Ultra-silky hummus with a high tahini ratio and ice-water whipping. The peeling step that makes it restaurant-smooth.',
     kw: ['hummus recipe', 'creamy hummus', 'tahini dip', 'vegan appetizer'],
@@ -392,7 +393,7 @@ module.exports = {
   },
 
   'falafel': {
-    rest: [60, 'chilling'],
+    rest: [1140, 'soaking and chilling'],
     d: 'Made only from soaked dried chickpeas — never tinned, never cooked — so the outside shatters and the inside stays green and fluffy. This is the single most important rule in falafel.',
     meta: 'Crispy falafel from soaked dried chickpeas with a fluffy green centre. Never use tinned chickpeas — here is why.',
     kw: ['falafel recipe', 'homemade falafel', 'chickpea fritters', 'vegan street food'],

@@ -47,6 +47,7 @@ module.exports = {
   },
 
   'pasta-e-fagioli': {
+    rest: [480, 'soaking'],
     d: 'Pasta and beans, cooked together so the pasta starch thickens the broth into something between a soup and a stew. Cucina povera at its best, and the rosemary and Parmesan rind are doing most of the work.',
     meta: 'Pasta e fagioli — pasta and borlotti beans cooked together into a thick soup with rosemary and Parmesan rind.',
     kw: ['pasta e fagioli recipe', 'pasta fagioli', 'italian bean soup', 'pasta and beans'],

@@ -74,6 +74,10 @@ function replacements(root) {
   const perRecipe = (faqCount / recipes.length).toFixed(1);
   const withRest = recipes.filter(r => r.restTime).length;
   const rated = recipes.filter(r => r.rating).length;
+  const { catalogFiles, detailDirs } = require('../src/data/volumes');
+  const catalogs = catalogFiles();
+  const dirs = detailDirs();
+  const imageFiles = fs.readdirSync(path.join(root, 'src', 'assets', 'img', 'recipes')).length;
   const pd = s.publicDomainImageCount;
   const by = s.attributionOnlyImageCount;
   const sa = s.shareAlikeImageCount;
@@ -122,6 +126,27 @@ function replacements(root) {
 
     [/\*\*[\d,]+ of the [\d,]+ recipes\*\* declare unattended/,
      `**${withRest} of the ${s.recipeCount} recipes** declare unattended`],
+
+    /* The volume list in the file tree. It read "-8.js" while the data held
+       eleven volumes, which is the same drift as a stale recipe count. */
+    [/catalog-2\.js …-\d+\.js( +)# further volumes/,
+     (_, pad) => `catalog-2.js …-${catalogs.length}.js${pad}# further volumes`],
+
+    [/details2\/ …details\d+\/( +)# long-form content/,
+     (_, pad) => `details2/ …details${dirs.length}/${pad}# long-form content`],
+
+    /* Both places the image-file count is spelled out. */
+    [/# \d[\d,]* image files \(WebP \+ JPEG\)/,
+     `# ${imageFiles} image files (WebP + JPEG)`],
+
+    [/css, js and \d[\d,]* image files/,
+     `css, js and ${imageFiles} image files`],
+
+    /* The licence footer claimed CC0 or public domain for everything while a
+       third of the photographs are CC BY or CC BY-SA. */
+    [/Photography is [^.]*\. See `images-attribution\.md`\.|Photography is [^.]*— see `images-attribution\.md`\./,
+     `Photography is CC0, public domain, CC BY or CC BY-SA — see `
+       + '`images-attribution.md`.'],
   ];
 }
 

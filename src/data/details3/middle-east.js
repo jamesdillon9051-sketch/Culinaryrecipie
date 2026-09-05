@@ -321,6 +321,7 @@ module.exports = {
   },
 
   'ash-reshteh': {
+    rest: [480, 'soaking'],
     d: 'A thick Persian soup of beans, lentils, greens and noodles, finished with fried mint oil, crisp onions and kashk.',
     meta: 'Ash reshteh — thick Persian noodle soup with beans, lentils and greens, topped with mint oil and kashk.',
     kw: ['ash reshteh recipe', 'persian noodle soup', 'bean and herb soup', 'nowruz soup'],
@@ -552,6 +553,7 @@ module.exports = {
   },
 
   'harees': {
+    rest: [480, 'soaking'],
     d: 'Wheat and meat cooked together for hours and then beaten into a smooth, savoury porridge, finished with ghee and cinnamon.',
     meta: 'Harees — wheat and meat cooked for hours and beaten smooth, finished with ghee and cinnamon.',
     kw: ['harees recipe', 'jareesh', 'ramadan porridge', 'wheat and meat dish'],

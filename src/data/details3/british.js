@@ -134,6 +134,7 @@ module.exports = {
   },
 
   'ploughmans-lunch': {
+    rest: [60, 'tempering the cheese'],
     d: 'Not cooking so much as assembly: a wedge of sharp cheddar, good bread, pickled onions, chutney, apple and butter, arranged on a board.',
     meta: "Ploughman's lunch — sharp cheddar, crusty bread, pickled onions, chutney and apple on a board.",
     kw: ["ploughman's lunch recipe", 'british cheese board', 'pub lunch', 'cheddar and pickle'],

@@ -60,6 +60,7 @@ module.exports = {
   },
 
   'haleem': {
+    rest: [480, 'soaking'],
     d: 'Wheat, barley, lentils and meat cooked for hours and then pounded together until the whole pot becomes one smooth, stringy mass.',
     meta: 'Haleem — wheat, lentils and meat cooked for hours and pounded to a smooth, stringy porridge.',
     kw: ['haleem recipe', 'pakistani haleem', 'wheat and meat stew', 'ramadan haleem'],

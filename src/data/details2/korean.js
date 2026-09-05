@@ -188,6 +188,7 @@ module.exports = {
   },
 
   'samgyetang': {
+    rest: [120, 'soaking'],
     d: 'A whole small chicken stuffed with glutinous rice, ginseng, jujube and garlic, simmered until the broth turns milky. Eaten in the hottest days of summer on the principle of fighting heat with heat.',
     meta: 'Samgyetang — Korean ginseng chicken soup with a whole stuffed bird, glutinous rice and jujubes in milky broth.',
     kw: ['samgyetang recipe', 'korean ginseng chicken soup', 'stuffed chicken soup', 'summer korean soup'],

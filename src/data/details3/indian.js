@@ -93,7 +93,7 @@ module.exports = {
   },
 
   'hyderabadi-biryani': {
-    rest: [240, 'marinating'],
+    rest: [270, 'marinating and soaking'],
     d: 'Marinated raw lamb layered under half-cooked rice and sealed with dough, so the meat and rice cook together in trapped steam. The kachchi method, and the seal is what makes it work.',
     meta: 'Hyderabadi kachchi biryani — raw marinated lamb layered under par-cooked rice and sealed for dum cooking.',
     kw: ['hyderabadi biryani recipe', 'kachchi biryani', 'lamb biryani', 'dum biryani'],

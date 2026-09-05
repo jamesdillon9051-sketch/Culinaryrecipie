@@ -3,6 +3,7 @@
 
 module.exports = {
   'rice-and-peas': {
+    rest: [480, 'soaking'],
     d: 'Rice cooked in coconut milk with kidney beans, thyme, spring onion and a whole scotch bonnet left in and lifted out before it bursts.',
     meta: 'Jamaican rice and peas — rice cooked in coconut milk with kidney beans, thyme and scotch bonnet.',
     kw: ['rice and peas recipe', 'jamaican rice and peas', 'coconut rice and beans', 'sunday rice'],
@@ -97,7 +98,7 @@ module.exports = {
   },
 
   'doubles': {
-    rest: [90, 'proving'],
+    rest: [570, 'soaking and proving'],
     d: 'Two pieces of soft fried bara sandwiching curried chickpeas, with tamarind, cucumber chutney and pepper sauce spooned over the top.',
     meta: 'Trinidadian doubles — soft fried bara filled with curried chickpeas, tamarind and pepper sauce.',
     kw: ['doubles recipe', 'trinidadian street food', 'channa and bara', 'curried chickpea sandwich'],
@@ -287,6 +288,7 @@ module.exports = {
   },
 
   'waakye': {
+    rest: [480, 'soaking'],
     d: 'Rice and beans cooked together with dried sorghum leaves, which turn the whole pot a deep reddish brown, served with shito and a spread of sides.',
     meta: 'Waakye — Ghanaian rice and beans coloured with sorghum leaves, served with shito and sides.',
     kw: ['waakye recipe', 'ghanaian rice and beans', 'sorghum leaf rice', 'waakye leaves'],

@@ -225,6 +225,7 @@ module.exports = {
   },
 
   'cassoulet': {
+    rest: [480, 'soaking'],
     d: 'The great slow-cooked bean casserole of southwest France: white beans, confit duck, sausage and pork built into layers and baked until a crust forms on top, broken and re-formed several times as tradition demands.',
     meta: 'Traditional cassoulet de Toulouse with white beans, duck confit and sausage, baked slowly until a golden crust forms.',
     kw: ['cassoulet recipe', 'french bean casserole', 'duck confit cassoulet', 'toulouse cassoulet'],

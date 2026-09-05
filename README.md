@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **769 most famous recipes** — each
+A dependency-free static site for the world's **809 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-769 recipes · 66 cuisines · 10 categories · 907 static pages · 0 npm dependencies
+809 recipes · 66 cuisines · 10 categories · 947 static pages · 0 npm dependencies
 ```
 
 ---
@@ -74,9 +74,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-8.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-11.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details8/ # long-form content for the matching volume
+│   │   ├── details2/ …details11/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -94,7 +94,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 986 image files (WebP + JPEG)
+│       └── img/recipes/         # 2126 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -106,8 +106,8 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 986 image files
-├── recipes/                     #    769 recipe pages
+├── assets/                      #    css, js and 2126 image files
+├── recipes/                     #    809 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -194,7 +194,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 769 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 809 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -226,7 +226,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       in `src/templates/layout.js` turns this off; it is left on because doing so
       removes the stars from search results, which is a trade to make deliberately.
       Real reviews override it automatically
-- [x] **FAQPage** on all 769 recipe pages and the about page — 4,534 questions,
+- [x] **FAQPage** on all 809 recipe pages and the about page — 4,774 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -246,7 +246,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       written, so a phrase is only emitted where the data backs it: "gluten free X"
       needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
       400 kcal a serving, "can you freeze X" needs the storage note to say so. A
-      script checks all 769 recipes against those conditions and currently reports
+      script checks all 809 recipes against those conditions and currently reports
       no unsupported claim
 - [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
       guidance asks `keywords` for "other terms for your recipe", and forty-six
@@ -379,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-760 of the 769 recipes have a photograph. Of the 1035 images on the site, 735
-are CC0 or public domain, 128 are CC BY and 172 are CC BY-SA. Anything still
+786 of the 809 recipes have a photograph. Of the 1063 images on the site, 747
+are CC0 or public domain, 137 are CC BY and 179 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -527,7 +527,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 769 recipes now passes, and `npm run check` runs the
+Every one of the site's 809 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -557,6 +557,65 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## The soak nobody declared
+
+`src/data/catalog-11.js` adds forty recipes to the parts of the site still thin
+at 769: Healthy and Quick Meals sat at 51 and 53 against 238 dinners, and
+twenty-four cuisines had exactly three recipes each. Twelve Healthy, ten Quick
+Meals, fourteen dinners and four odds, and one more apiece for Cuba, Hungary,
+Finland, Romania, Norway, Venezuela, Hawaii, Georgia, Belgium and Sri Lanka.
+Twenty-one of the forty are vegan.
+
+The volume was ordinary. What it turned up was not.
+
+The timing audit reads a method and checks the waiting it describes against the
+`rest` the record declares. It had never read the ingredient list — and the
+ingredient list is where a recipe puts its longest wait. "500 g dried black
+beans, soaked overnight" is eight hours the cook has to find before step one,
+and the header said nothing. Twenty-nine recipes were understating themselves
+that way, bacalhau à brás worst of all: its salt cod wants twenty-four hours in
+four changes of water before the recipe begins, and the page offered no warning
+at all.
+
+Reading the ingredients exposed two faults in the detector at the same time.
+Cannoli declares the ricotta drained overnight in both the method and the
+ingredient line, and the audit counted it twice; the same restatement inflated
+moin-moin from two hours to four. And haleem soaks cracked wheat and pearl
+barley overnight in two bowls, which the audit added into a sixteen-hour wait
+nobody has ever had. So the two lists are now read differently. Waits in the
+method happen one after another and add up. Waits stated against an ingredient
+are prep the cook sets going before starting, all of it at once, so the longest
+one governs — and an ingredient that repeats a wait the method already
+describes is restating it, not asking for a second one.
+
+Two smaller things came out of the same pass. The build refused a duplicate
+slug: this volume's tomato and egg stir-fry already existed in volume two. And
+the diet audit was right about prawn tacos, which carried Dairy-Free over a
+crema made of soured cream — against two false positives it was wrong about,
+unsweetened plant milk and the word "oyster" in a list of mushroom varieties,
+both of which it now knows to ignore.
+
+One recipe arrived under a cuisine of its own. Stuffed peppers were filed as
+Mediterranean, which is a region rather than a kitchen, and which left a
+one-recipe cuisine page in a volume written to remove exactly that. The
+ingredients — feta, dill, cinnamon, pine nuts, raisins — name the dish as Greek
+gemista, so that is what it is now called and where it now sits.
+
+Twenty-five of the forty found a photograph. The fifteen that did not are the
+salads and sandwiches the internet is full of and Commons is not: a kale
+Caesar, a chopped green goddess, a halloumi wrap. Searching for one of those
+returns a British fire engine, because "Green Goddess" is also the Bedford
+appliance the Army drove through firefighters’ strikes — the same lesson the
+contact-sheet method was built for, arriving from a new direction. They carry
+the gradient instead, which says what the dish is and does not pretend to be a
+picture of it.
+
+Cleaning up afterwards found thirty-two image files on disk that nothing points
+at, the leftovers of sixteen process shots rejected at some point over the
+project's life and copied into every build since. `npm run check` now compares
+the two image directories against `images.json` and fails on anything the
+manifest does not claim.
 
 ## Filling the thin parts
 
@@ -705,7 +764,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **240 of the 769 recipes** declare unattended
+The larger problem was waiting. **266 of the 809 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -763,7 +822,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 769 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 809 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
@@ -772,4 +831,4 @@ Modern evergreen browsers. The site degrades gracefully:
 ## Licence
 
 MIT for the code. Recipe text is original work by the Weekly Delight test kitchen.
-Photography is CC0 or public domain — see `images-attribution.md`.
+Photography is CC0, public domain, CC BY or CC BY-SA — see `images-attribution.md`.

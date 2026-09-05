@@ -113,6 +113,7 @@ module.exports = {
   },
 
   'fabada-asturiana': {
+    rest: [480, 'soaking'],
     d: 'Enormous creamy fabes beans stewed with chorizo, morcilla and pork shoulder until the broth turns orange with paprika fat. Asturias in a pot, and a dish designed for cold, wet Atlantic weather.',
     meta: 'Fabada asturiana — Asturian bean stew with fabes, chorizo, morcilla and pork in a rich paprika broth.',
     kw: ['fabada asturiana recipe', 'spanish bean stew', 'asturian fabada', 'chorizo morcilla beans'],
@@ -234,6 +235,7 @@ module.exports = {
   },
 
   'bacalhau-a-bras': {
+    rest: [1440, 'soaking'],
     d: 'Salt cod shredded and folded through straw-thin fried potatoes and softly scrambled egg. Named after a Lisbon tavern owner, and the most beloved of Portugal\'s several hundred cod recipes.',
     meta: 'Bacalhau à Brás — salt cod with straw potatoes and softly scrambled egg, finished with olives and parsley.',
     kw: ['bacalhau a bras recipe', 'portuguese salt cod', 'salt cod scrambled egg', 'batata palha'],

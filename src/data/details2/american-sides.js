@@ -250,6 +250,7 @@ module.exports = {
   },
 
   'boston-baked-beans': {
+    rest: [480, 'soaking'],
     d: 'Navy beans baked for six hours with molasses, salt pork and mustard until the sauce is dark and thick and the beans hold their shape. The dish that gave Boston its nickname, Beantown.',
     meta: 'Boston baked beans slow-baked with molasses, salt pork and mustard for six hours until dark and rich.',
     kw: ['boston baked beans recipe', 'molasses baked beans', 'new england beans', 'slow baked beans'],

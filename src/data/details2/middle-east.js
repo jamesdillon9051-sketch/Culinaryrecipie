@@ -283,7 +283,7 @@ module.exports = {
   },
 
   'lamb-mandi': {
-    rest: [240, 'marinating'],
+    rest: [270, 'marinating and soaking'],
     d: 'Yemeni lamb steamed over spiced rice until it falls off the bone, then finished with a piece of burning charcoal covered in the pot so the smoke goes into the meat. That last step is the whole dish.',
     meta: 'Yemeni lamb mandi — lamb slow-cooked over spiced rice and smoked with charcoal in the pot.',
     kw: ['lamb mandi recipe', 'yemeni rice', 'smoked lamb rice', 'mandi spice'],

@@ -14,7 +14,7 @@ module.exports = {
       '1 tsp terasi (shrimp paste), toasted',
       '1 tsp ground coriander',
       '# For the rice',
-      '700 g cooked long-grain rice, refrigerated overnight',
+      '700 g cooked long-grain rice, cold from the fridge, ideally day old',
       '250 g chicken thigh, diced',
       '150 g raw prawns, peeled',
       '4 tbsp neutral oil',

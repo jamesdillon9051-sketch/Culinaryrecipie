@@ -135,6 +135,7 @@ module.exports = {
   },
 
   'fasolada': {
+    rest: [480, 'soaking'],
     d: 'White beans simmered with carrot, celery and tomato in a great deal of olive oil. Often called the national dish of Greece, and proof that the simplest cooking depends most on the quality of what goes in.',
     meta: 'Fasolada — the Greek national bean soup with white beans, carrot, celery, tomato and generous olive oil.',
     kw: ['fasolada recipe', 'greek bean soup', 'white bean soup', 'greek national dish'],

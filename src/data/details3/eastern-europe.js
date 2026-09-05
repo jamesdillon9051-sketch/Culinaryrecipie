@@ -511,6 +511,7 @@ module.exports = {
   },
 
   'lobio': {
+    rest: [480, 'soaking'],
     d: 'Red kidney beans stewed with onion, coriander, walnuts and blue fenugreek, mashed slightly and eaten hot from a clay pot with cornbread.',
     meta: 'Lobio — Georgian kidney bean stew with walnuts, coriander and blue fenugreek, served with cornbread.',
     kw: ['lobio recipe', 'georgian bean stew', 'kidney beans with walnuts', 'vegan georgian food'],

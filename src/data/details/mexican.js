@@ -419,6 +419,7 @@ module.exports = {
   },
 
   'tamales': {
+    rest: [60, 'soaking'],
     d: 'Masa whipped with lard until it floats, wrapped around chilli-braised pork in corn husks and steamed until it sets into something tender and fragrant. Making them is traditionally a group activity, and it should be.',
     meta: 'Pork tamales with light, whipped masa and chilli-braised filling, steamed in corn husks. The holiday classic, explained.',
     kw: ['tamales recipe', 'pork tamales', 'masa dough', 'mexican holiday food'],

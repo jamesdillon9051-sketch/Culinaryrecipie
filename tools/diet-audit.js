@@ -43,7 +43,10 @@ const NOT_REALLY = [
   [/\bbuttern\w*\b/i, 'butter'],
   [/\bpeanut butter\b|\balmond butter\b|\bnut butter\b/i, 'butter'],
   [/\bcoconut (?:milk|cream)\b/i, 'milk'],
-  [/\balmond milk\b|\boat milk\b|\bsoy milk\b|\bsoya milk\b/i, 'milk'],
+  [/\balmond milk\b|\boat milk\b|\bsoy milk\b|\bsoya milk\b|\bplant[- ]?(?:based )?milk\b|\bcashew milk\b|\brice milk\b/i, 'milk'],
+  /* "chestnut, portobello, oyster" is a list of mushroom varieties. No
+     ingredient line names both a mushroom and a shellfish. */
+  [/\boysters?\b(?=.*\bmushrooms?\b)|(?<=\bmushrooms?\b.*)\boysters?\b/i, 'oyster'],
   [/\bcream of tartar\b/i, 'cream'],
   [/\bgluten[- ]free \w+/i, 'flour'],
   [/\b(?:coconut|rice|gram|chickpea|maize|corn|almond|buckwheat|tapioca|potato|cassava|teff|sorghum|millet|quinoa)\s+flour\b|\bbesan\b|\bcornflour\b|\bmasarepa\b|\bmasa harina\b/i, 'flour'],

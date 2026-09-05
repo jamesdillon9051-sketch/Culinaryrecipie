@@ -3,7 +3,7 @@
 
 module.exports = {
   'ribollita': {
-    rest: [60, 'resting'],
+    rest: [540, 'soaking and standing'],
     d: 'Tuscan bread soup: cannellini beans, cavolo nero and soffritto cooked down, thickened with stale bread and then reboiled the next day.',
     meta: 'Ribollita — Tuscan bean and cavolo nero soup thickened with stale bread and reboiled the next day.',
     kw: ['ribollita recipe', 'tuscan bread soup', 'cavolo nero soup', 'vegan italian soup'],

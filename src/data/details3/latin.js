@@ -57,6 +57,7 @@ module.exports = {
   },
 
   'bandeja-paisa': {
+    rest: [480, 'soaking'],
     d: 'The Antioquian platter: beans, rice, chicharrón, chorizo, minced beef, a fried egg, plantain, avocado and an arepa, all on one plate.',
     meta: 'Bandeja paisa — Colombian platter of beans, rice, chicharrón, chorizo, beef, egg, plantain and arepa.',
     kw: ['bandeja paisa recipe', 'colombian platter', 'frijoles paisas', 'chicharron and beans'],

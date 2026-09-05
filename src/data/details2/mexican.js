@@ -362,6 +362,7 @@ module.exports = {
   },
 
   'refried-beans': {
+    rest: [480, 'soaking'],
     d: 'Pinto beans simmered with onion and then mashed into their own broth in hot lard until they are creamy, glossy and dense. Nothing is fried twice, despite the name — "refritos" means well fried.',
     meta: 'Authentic refried beans (frijoles refritos) — pinto beans mashed in lard with onion until creamy and glossy.',
     kw: ['refried beans recipe', 'frijoles refritos', 'mexican beans', 'homemade refried beans'],

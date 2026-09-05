@@ -196,6 +196,7 @@ module.exports = {
   },
 
   'rajma': {
+    rest: [480, 'soaking'],
     d: 'Kidney beans simmered in a thick onion-tomato masala until the gravy is dark and the beans give under a spoon. Served with rice, it is the Sunday lunch of Punjabi and Delhi households, and the definition of comfort food.',
     meta: 'Rajma masala — Punjabi red kidney beans simmered in a thick onion-tomato gravy. Best served with steamed rice.',
     kw: ['rajma recipe', 'kidney bean curry', 'rajma chawal', 'punjabi bean curry'],
@@ -292,7 +293,7 @@ module.exports = {
   },
 
   'chole-bhature': {
-    rest: [120, 'proving'],
+    rest: [600, 'soaking and proving'],
     d: 'Punjab\'s great weekend breakfast: dark, tangy chickpeas served with balloon-like fried bread. The chana is blackened with tea and the bhature are leavened with yoghurt, and both details matter.',
     meta: 'Chole bhature — spiced dark chickpea curry with puffed deep-fried bhature bread. The Punjabi weekend classic.',
     kw: ['chole bhature recipe', 'punjabi chole', 'bhature bread', 'chana masala fried bread'],

@@ -2,6 +2,7 @@
 
 module.exports = {
   'feijoada': {
+    rest: [720, 'soaking'],
     d: 'Brazil\'s national dish: black beans slow-cooked with an armoury of smoked and salted pork, served with rice, collard greens, orange and toasted cassava flour. A whole-afternoon, whole-table affair.',
     meta: 'Brazilian feijoada with black beans and smoked pork, served with rice, collards, orange and farofa. A weekend feast.',
     kw: ['feijoada recipe', 'brazilian black bean stew', 'pork and beans', 'brazilian food'],

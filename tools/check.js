@@ -227,6 +227,25 @@ for (const entry of index) {
   }
 }
 
+/* Image files nothing points at. A rejected process shot leaves its jpg and
+   webp behind, and they are then copied into the build and committed for the
+   life of the repository — sixteen recipes had one before this check existed.
+   The manifest is the only thing that decides which files are wanted. */
+const manifest = require('../src/data/images.json');
+const wanted = new Set();
+for (const entry of Object.values(manifest)) {
+  for (const kind of ['hero', 'process']) if (entry[kind]) wanted.add(entry[kind].file);
+}
+for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes'),
+                   path.join(DIST, 'assets', 'img', 'recipes')]) {
+  if (!fs.existsSync(dir)) continue;
+  for (const file of fs.readdirSync(dir)) {
+    if (!wanted.has(file.replace(/\.(jpg|webp)$/, ''))) {
+      problems.push(`image file no entry in images.json points at — ${dir.split('/').slice(-4)[0]}/${file}`);
+    }
+  }
+}
+
 /* --- deployment headers -------------------------------------------------- */
 const netlify = fs.readFileSync(path.join(__dirname, '..', 'netlify.toml'), 'utf8');
 const vercel = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'vercel.json'), 'utf8'));
