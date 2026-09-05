@@ -46,6 +46,21 @@ const HIGH_PROTEIN_GRAMS = 30;
 const LOW_CARB_GRAMS = 20;
 
 /**
+ * Net carbohydrate per serving — total carbohydrate less fibre — at or below
+ * which a recipe is called Keto.
+ *
+ * Ten grams is the working line for a ketogenic day split across meals. Net
+ * rather than total because fibre is not absorbed, which is the whole reason a
+ * bowl of guacamole belongs on the list and a bowl of rice does not.
+ *
+ * This was the last diet tag still applied by hand, and it was applied to seven
+ * recipes. One of them was ceviche, at 20 g of net carbohydrate — the same
+ * mistake, on the same recipe, that Low-Carb was derived to fix. Deriving it
+ * removes the tag from ceviche and gives it to the eighty recipes that qualify.
+ */
+const KETO_NET_CARB_GRAMS = 10;
+
+/**
  * @param {string[]} lines  the ingredient list, group headings and all
  * @returns {boolean}
  */
@@ -65,12 +80,13 @@ function hasAddedSugar(lines) {
  */
 function derivedTags(detail) {
   const tags = [];
-  const [, protein, carbs] = detail.nut || [];
+  const [, protein, carbs, , fibre] = detail.nut || [];
   if (protein >= HIGH_PROTEIN_GRAMS) tags.push('High-Protein');
   if (carbs !== undefined && carbs <= LOW_CARB_GRAMS) tags.push('Low-Carb');
+  if (carbs !== undefined && carbs - (fibre || 0) <= KETO_NET_CARB_GRAMS) tags.push('Keto');
   if (!hasAddedSugar(detail.ing)) tags.push('No Added Sugar');
   return tags;
 }
 
 module.exports = { derivedTags, hasAddedSugar, ADDED_SUGAR, NOT_ADDED_SUGAR,
-  HIGH_PROTEIN_GRAMS, LOW_CARB_GRAMS };
+  HIGH_PROTEIN_GRAMS, LOW_CARB_GRAMS, KETO_NET_CARB_GRAMS };

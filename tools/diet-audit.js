@@ -46,7 +46,7 @@ const NOT_REALLY = [
   [/\balmond milk\b|\boat milk\b|\bsoy milk\b|\bsoya milk\b/i, 'milk'],
   [/\bcream of tartar\b/i, 'cream'],
   [/\bgluten[- ]free \w+/i, 'flour'],
-  [/\b(?:coconut|rice|gram|chickpea|maize|corn|almond|buckwheat|tapioca|potato|cassava)\s+flour\b|\bbesan\b|\bcornflour\b|\bmasarepa\b|\bmasa harina\b/i, 'flour'],
+  [/\b(?:coconut|rice|gram|chickpea|maize|corn|almond|buckwheat|tapioca|potato|cassava|teff|sorghum|millet|quinoa)\s+flour\b|\bbesan\b|\bcornflour\b|\bmasarepa\b|\bmasa harina\b/i, 'flour'],
   [/\brice noodles?\b|\bglass noodles?\b|\bsweet potato noodles?\b/i, 'noodle'],
   [/\btamari\b/i, 'soy sauce']
 ];

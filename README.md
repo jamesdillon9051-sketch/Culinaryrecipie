@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **729 most famous recipes** — each
+A dependency-free static site for the world's **769 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-729 recipes · 66 cuisines · 10 categories · 866 static pages · 0 npm dependencies
+769 recipes · 66 cuisines · 10 categories · 907 static pages · 0 npm dependencies
 ```
 
 ---
@@ -107,7 +107,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 986 image files
-├── recipes/                     #    729 recipe pages
+├── recipes/                     #    769 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -194,7 +194,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 729 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 769 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -226,7 +226,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       in `src/templates/layout.js` turns this off; it is left on because doing so
       removes the stars from search results, which is a trade to make deliberately.
       Real reviews override it automatically
-- [x] **FAQPage** on all 729 recipe pages and the about page — 4,303 questions,
+- [x] **FAQPage** on all 769 recipe pages and the about page — 4,534 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -246,7 +246,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       written, so a phrase is only emitted where the data backs it: "gluten free X"
       needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
       400 kcal a serving, "can you freeze X" needs the storage note to say so. A
-      script checks all 729 recipes against those conditions and currently reports
+      script checks all 769 recipes against those conditions and currently reports
       no unsupported claim
 - [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
       guidance asks `keywords` for "other terms for your recipe", and forty-six
@@ -379,7 +379,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-724 of the 729 recipes have a photograph. Of the 994 images on the site, 719
+724 of the 769 recipes have a photograph. Of the 994 images on the site, 719
 are CC0 or public domain, 120 are CC BY and 155 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -527,7 +527,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 729 recipes now passes, and `npm run check` runs the
+Every one of the site's 769 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -557,6 +557,34 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## Filling the thin parts
+
+By 729 recipes the site was lopsided: 233 dinners against 26 Holiday Specials,
+37 Drinks and 48 Breakfasts, and six cuisines with exactly two recipes each
+sitting on the cuisine map like placeholders. `src/data/catalog-10.js` adds
+forty recipes aimed at those gaps rather than at more of what was already
+there — Holiday Specials to 37, Drinks to 45, Breakfast to 56, and Singaporean,
+Venezuelan, Ethiopian, Welsh, Hawaiian and Salvadoran to three apiece.
+
+The Keto tag came out of the same audit. It was the last diet label still
+applied by hand, it covered seven recipes, and one of those was ceviche at 20 g
+of net carbohydrate — the same recipe, and the same mistake, that Low-Carb was
+derived to fix. It is now computed from the nutrition figures like the others:
+total carbohydrate less fibre, at or under 10 g a serving. That removes it from
+ceviche and gives it to the ninety-two recipes that actually qualify.
+
+The build guards had less to say this time than on volume nine — the diet tags
+and the calorie figures were right on the first run — but the timing audit
+corrected nine resting times and caught the two minutes of toasting the cumin
+in a glass of nimbu pani.
+
+One audit gap closed on the way: teff, sorghum, millet and quinoa flours are
+now recognised as gluten-free by `npm run diet`, which had been reading
+"teff flour" on the injera as an ordinary flour and would have refused a true
+claim.
+
+---
 
 ## The most-searched dishes
 
@@ -668,7 +696,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **223 of the 729 recipes** declare unattended
+The larger problem was waiting. **240 of the 769 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -708,7 +736,7 @@ Both audits run inside `npm run check`.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 729 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 769 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

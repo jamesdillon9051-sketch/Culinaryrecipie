@@ -83,7 +83,7 @@ module.exports = [
   c('pozole-rojo', 'Pozole Rojo', 'Mexican', 'Dinner', 'Medium', 30, 150, 8, 4.7, 934, ['Gluten-Free', 'Dairy-Free'], [], 'Pozole rojo'),
   c('mole-poblano', 'Mole Poblano', 'Mexican', 'Holiday Specials', 'Hard', 45, 120, 8, 4.7, 726, ['Dairy-Free'], [], 'Mole poblano'),
   c('tamales', 'Pork Tamales', 'Mexican', 'Holiday Specials', 'Hard', 60, 90, 12, 4.7, 1188, ['Gluten-Free'], [], 'Tamales'),
-  c('guacamole', 'Authentic Guacamole', 'Mexican', 'Appetizers', 'Easy', 10, 0, 6, 4.9, 4301, ['Vegan', 'Gluten-Free', 'Dairy-Free', 'Keto'], ['trending'], 'Guacamole'),
+  c('guacamole', 'Authentic Guacamole', 'Mexican', 'Appetizers', 'Easy', 10, 0, 6, 4.9, 4301, ['Vegan', 'Gluten-Free', 'Dairy-Free'], ['trending'], 'Guacamole'),
   c('elote', 'Elote — Mexican Street Corn', 'Mexican', 'Appetizers', 'Easy', 10, 15, 4, 4.8, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Elote mexican street corn'),
   c('churros', 'Cinnamon Churros', 'Mexican', 'Desserts', 'Medium', 20, 20, 6, 4.8, 3066, ['Vegetarian'], [], 'Churros'),
   c('classic-margarita', 'Classic Margarita', 'Mexican', 'Drinks', 'Easy', 5, 0, 1, 4.8, 2455, ['Vegan', 'Gluten-Free'], [], 'Margarita cocktail'),
@@ -136,7 +136,7 @@ module.exports = [
   c('chicken-noodle-soup', 'Chicken Noodle Soup', 'American', 'Healthy', 'Easy', 15, 40, 6, 4.8, 3411, ['Dairy-Free'], [], 'Chicken noodle soup'),
   c('creamy-tomato-soup', 'Creamy Tomato Soup', 'American', 'Healthy', 'Easy', 10, 30, 4, 4.7, 2288, ['Vegetarian', 'Gluten-Free'], [], 'Tomato soup'),
   c('caesar-salad', 'Caesar Salad', 'American', 'Lunch', 'Easy', 20, 10, 4, 4.8, 3755, [], [], 'Caesar salad'),
-  c('cobb-salad', 'Cobb Salad', 'American', 'Healthy', 'Easy', 25, 15, 4, 4.7, 1866, ['Gluten-Free', 'Keto'], [], 'Cobb salad'),
+  c('cobb-salad', 'Cobb Salad', 'American', 'Healthy', 'Easy', 25, 15, 4, 4.7, 1866, ['Gluten-Free'], [], 'Cobb salad'),
   c('buttermilk-pancakes', 'Fluffy Buttermilk Pancakes', 'American', 'Breakfast', 'Easy', 10, 15, 4, 4.9, 6244, ['Vegetarian'], ['editors', 'trending'], 'Pancakes'),
   c('eggs-benedict', 'Eggs Benedict', 'American', 'Breakfast', 'Hard', 20, 15, 2, 4.8, 2955, [], [], 'Eggs benedict'),
   c('french-toast', 'Brioche French Toast', 'American', 'Breakfast', 'Easy', 10, 15, 4, 4.8, 3477, ['Vegetarian'], [], 'French toast'),
@@ -195,7 +195,7 @@ module.exports = [
   c('gazpacho', 'Andalusian Gazpacho', 'Spanish', 'Healthy', 'Easy', 20, 0, 4, 4.7, 1877, ['Vegan', 'Dairy-Free'], [], 'Gazpacho'),
   c('patatas-bravas', 'Patatas Bravas', 'Spanish', 'Appetizers', 'Easy', 15, 30, 4, 4.7, 2044, ['Vegan', 'Dairy-Free'], [], 'Patatas bravas'),
   c('tortilla-espanola', 'Tortilla Española', 'Spanish', 'Lunch', 'Medium', 15, 35, 6, 4.8, 2311, ['Vegetarian', 'Gluten-Free'], [], 'Tortilla espanola'),
-  c('gambas-al-ajillo', 'Gambas al Ajillo', 'Spanish', 'Appetizers', 'Easy', 10, 10, 4, 4.8, 1755, ['Gluten-Free', 'Dairy-Free', 'Keto'], [], 'Gambas al ajillo'),
+  c('gambas-al-ajillo', 'Gambas al Ajillo', 'Spanish', 'Appetizers', 'Easy', 10, 10, 4, 4.8, 1755, ['Gluten-Free', 'Dairy-Free'], [], 'Gambas al ajillo'),
   c('sangria', 'Red Wine Sangria', 'Spanish', 'Drinks', 'Easy', 15, 0, 6, 4.7, 2133, ['Vegan', 'Gluten-Free'], [], 'Sangria'),
 
   /* ----------------------------------------------------------- Korean (7) */
@@ -238,7 +238,7 @@ module.exports = [
 
   /* -------------------------------------- Latin America & Caribbean (5) */
   c('feijoada', 'Feijoada Brasileira', 'Brazilian', 'Holiday Specials', 'Medium', 30, 150, 8, 4.7, 1244, ['Gluten-Free', 'Dairy-Free'], [], 'Feijoada'),
-  c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free', 'Keto'], ['trending'], 'Ceviche'),
+  c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Ceviche'),
   c('beef-empanadas', 'Beef Empanadas', 'Argentinian', 'Appetizers', 'Medium', 40, 25, 12, 4.8, 2133, [], [], 'Empanadas'),
   c('jerk-chicken', 'Jamaican Jerk Chicken', 'Jamaican', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Dairy-Free'], ['trending'], 'Jerk chicken'),
   c('cuban-sandwich', 'Cuban Sandwich', 'Cuban', 'Lunch', 'Easy', 15, 10, 4, 4.7, 1622, [], [], 'Cuban sandwich'),
