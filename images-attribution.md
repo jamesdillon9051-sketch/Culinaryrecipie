@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 994
-images, **719** are CC0 or public domain and carry no conditions at all, and
-**275** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1035
+images, **735** are CC0 or public domain and carry no conditions at all, and
+**300** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -41,31 +41,33 @@ nothing than use an image we do not have clear rights to.
 
 | | |
 |---|---|
-| Recipes | 729 |
-| Hero images | 724 |
-| Secondary "process" images | 270 |
-| Total image files | 1988 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 5 |
+| Recipes | 769 |
+| Hero images | 760 |
+| Secondary "process" images | 275 |
+| Total image files | 2070 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 9 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 436 | No rights reserved — no attribution legally required |
+| CC0 | 445 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 167 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 100 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 2.0 | 87 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| Public domain | 82 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 107 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 94 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| Public domain | 89 | No rights reserved — no attribution legally required |
 | Public Domain Mark 1.0 | 33 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 27 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 26 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY 4.0 | 14 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 2.0 | 33 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 27 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 4.0 | 15 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 12 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 de | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain | 1 | No rights reserved — no attribution legally required |
 | CC BY 3.0 nl | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 br | 1 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY-SA 3.0 de | 1 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 
 Licence texts:
 
@@ -88,6 +90,10 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Smoked Mackerel Pâté (`smoked-mackerel-pate`)
 - Sweet Potato Casserole (`sweet-potato-casserole`)
 - Cranberry Sauce (`cranberry-sauce`)
+- Bread Sauce (`bread-sauce`)
+- Hot Toddy (`hot-toddy`)
+- Bacon and Cheddar Egg Bites (`egg-bites`)
+- Pan con Pollo (`pan-con-pollo`)
 
 ## Brand assets
 
@@ -1093,6 +1099,47 @@ licence as the rest of this project.
 | `old-fashioned-process.webp` / `.jpg` | Old Fashioned | Process | Rum, Manhattan, Tequila Old Fashioned (1) | File:Rum, Manhattan, Tequila Old Fashioned.jpg: Cocktailmarler derivative work: Jocian | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rum,_Manhattan,_Tequila_Old_Fashioned_(1).jpg) |
 | `aperol-spritz.webp` / `.jpg` | Aperol Spritz | Hero | Aperol Spritz - July 2024 - Sarah Stierch | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aperol_Spritz_-_July_2024_-_Sarah_Stierch.jpg) |
 | `chai-latte.webp` / `.jpg` | Masala Chai Latte | Hero | Chai Latte - T @ The Dials 2024-02-26 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chai_Latte_-_T_@_The_Dials_2024-02-26.jpg) |
+| `honey-glazed-ham.webp` / `.jpg` | Honey Glazed Ham | Hero | Julskinka | Niklas Nordblad | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Julskinka.JPG) |
+| `roast-goose.webp` / `.jpg` | Roast Goose | Hero | Christmas-goose-(Weihnachtsgans) 1 | Jürgen Howaldt | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas-goose-(Weihnachtsgans)_1.jpg) |
+| `roast-goose-process.webp` / `.jpg` | Roast Goose | Process | Christmas goose (Weihnachtsgans) | Jürgen Howaldt | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_goose_(Weihnachtsgans).jpg) |
+| `mince-pies.webp` / `.jpg` | Mince Pies | Hero | Mince Pies (15443417714) | oatsy40 | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mince_Pies_(15443417714).jpg) |
+| `christmas-pudding.webp` / `.jpg` | Christmas Pudding | Hero | Christmas pudding (Heston from Waitrose) flaming | Ed g2s | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_pudding_(Heston_from_Waitrose)_flaming.jpg) |
+| `latkes.webp` / `.jpg` | Potato Latkes | Hero | Kedainiai pancakes with traditional crackling and sour cream sauce | Bdx | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kedainiai_pancakes_with_traditional_crackling_and_sour_cream_sauce.jpg) |
+| `sufganiyot.webp` / `.jpg` | Sufganiyot | Hero | Classic Hanukkah sufganiyot | Noam Furer | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Classic_Hanukkah_sufganiyot.JPG) |
+| `galette-des-rois.webp` / `.jpg` | Galette des Rois | Hero | Galette des rois, made by French people in Tokyo | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Galette_des_rois,_made_by_French_people_in_Tokyo.jpg) |
+| `buche-de-noel.webp` / `.jpg` | Bûche de Noël | Hero | Buche de Noel (Yule Log) | Mitantig | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Buche_de_Noel_(Yule_Log).jpg) |
+| `panforte.webp` / `.jpg` | Panforte di Siena | Hero | Panforte in profile | jules | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panforte_in_profile.jpg) |
+| `hot-cross-buns.webp` / `.jpg` | Hot Cross Buns | Hero | Freshly baked hot cross buns | OKJaguar | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Freshly_baked_hot_cross_buns.jpg) |
+| `simnel-cake.webp` / `.jpg` | Simnel Cake | Hero | Simnel cake with marzipan chicks, March 2008 | Eljay | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Simnel_cake_with_marzipan_chicks,_March_2008.jpg) |
+| `simnel-cake-process.webp` / `.jpg` | Simnel Cake | Process | Simnel cake 1 | No machine-readable author provided. Edward assumed (based on copyright claims). | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Simnel_cake_1.jpg) |
+| `eggnog.webp` / `.jpg` | Eggnog | Hero | Glass of eggnog with cinnamon 04 | Wheeler Cowperthwaite | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glass_of_eggnog_with_cinnamon_04.jpg) |
+| `glogg.webp` / `.jpg` | Glögg | Hero | Non-alcoholic mulled wine | Ірина Бучнєва | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Non-alcoholic_mulled_wine.jpg) |
+| `irish-coffee.webp` / `.jpg` | Irish Coffee | Hero | Irish coffee (Nice) | Tangopaso | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Irish_coffee_(Nice).jpg) |
+| `mulled-cider.webp` / `.jpg` | Mulled Cider | Hero | Wassail (4221293123) | Jeremy Tarling from London, United Kingdom | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wassail_(4221293123).jpg) |
+| `vietnamese-egg-coffee.webp` / `.jpg` | Vietnamese Egg Coffee | Hero | Cà phê trứng Giảng Cơ sở 2 ở Yên Phụ | Phương Huy (thảo luận) | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_C%C6%A1_s%E1%BB%9F_2_%E1%BB%9F_Y%C3%AAn_Ph%E1%BB%A5.jpg) |
+| `vietnamese-egg-coffee-process.webp` / `.jpg` | Vietnamese Egg Coffee | Process | Egg Coffee at Cafe Giảng, Hà Nội, Vietnam | travel oriented from Manila, Philippines | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egg_Coffee_at_Cafe_Gi%E1%BA%A3ng,_H%C3%A0_N%E1%BB%99i,_Vietnam.jpg) |
+| `nimbu-pani.webp` / `.jpg` | Nimbu Pani | Hero | Fresh Lime | Siddhantsahni28 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fresh_Lime.JPG) |
+| `kombucha.webp` / `.jpg` | Kombucha | Hero | Kombucha jar | Romarin | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kombucha_jar.jpg) |
+| `dutch-baby.webp` / `.jpg` | Dutch Baby Pancake | Hero | Cast iron dutch baby on oven mitts | Taylorderek | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cast_iron_dutch_baby_on_oven_mitts.jpg) |
+| `kedgeree.webp` / `.jpg` | Kedgeree | Hero | Kedgeree | User:Justinc | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kedgeree.jpg) |
+| `migas.webp` / `.jpg` | Migas Extremeñas | Hero | Migas de sémola | Schumi4ever | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Migas_de_s%C3%A9mola.jpg) |
+| `eggs-florentine.webp` / `.jpg` | Eggs Florentine | Hero | Eggs Benedict Florentine - Pasadena, CA | Daderot | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eggs_Benedict_Florentine_-_Pasadena,_CA.jpg) |
+| `eggs-florentine-process.webp` / `.jpg` | Eggs Florentine | Process | Eggs Florentine - Ala's Cafe 2024-01-21 | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eggs_Florentine_-_Ala%27s_Cafe_2024-01-21.jpg) |
+| `bircher-muesli.webp` / `.jpg` | Bircher Muesli | Hero | Fresh-muesli | Markus Kuhn at en.wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fresh-muesli.jpg) |
+| `shakshuka-verde.webp` / `.jpg` | Green Shakshuka | Hero | Liat Portal for Foodie Disorder - Green shakshuka with spinach and egg | HaJunkiyada | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Green_shakshuka_with_spinach_and_egg.jpg) |
+| `cauliflower-mash.webp` / `.jpg` | Cauliflower Mash | Hero | Cauliflower puree | Alpha | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cauliflower_puree.jpg) |
+| `zucchini-lasagna.webp` / `.jpg` | Courgette Lasagne | Hero | Child Care Recipes (Team Nutiriton) (20212203-FNS-UNC-8847) | USDAgov | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Child_Care_Recipes_(Team_Nutiriton)_(20212203-FNS-UNC-8847).jpg) |
+| `cloud-bread.webp` / `.jpg` | Cloud Bread | Hero | Cloud-bread-3529136 | bluebudgie | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cloud-bread-3529136.jpg) |
+| `bacon-wrapped-asparagus.webp` / `.jpg` | Bacon-Wrapped Asparagus | Hero | Schinkenroellchen mit Spargel | Schwäbin | CC BY-SA 3.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schinkenroellchen_mit_Spargel.jpg) |
+| `garlic-butter-steak-bites.webp` / `.jpg` | Garlic Butter Steak Bites | Hero | Derby Tenderloin Tips at Dartmouth Steak & Stein (48381868826) | Paulo O from Halifax, Canada | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Derby_Tenderloin_Tips_at_Dartmouth_Steak_%26_Stein_(48381868826).jpg) |
+| `baked-avocado-eggs.webp` / `.jpg` | Baked Avocado Eggs | Hero | Печено авокадо со јајце | Gordana Adzieva | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%87%D0%B5%D0%BD%D0%BE_%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE_%D1%81%D0%BE_%D1%98%D0%B0%D1%98%D1%86%D0%B5.jpg) |
+| `cauliflower-cheese.webp` / `.jpg` | Cauliflower Cheese | Hero | Cauliflower Au Gratin (4527747147) | Vegan Feast Catering | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cauliflower_Au_Gratin_(4527747147).jpg) |
+| `chilli-crab.webp` / `.jpg` | Singapore Chilli Crab | Hero | Chilli crab-01 | Dekcuf | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chilli_crab-01.jpg) |
+| `pabellon-criollo.webp` / `.jpg` | Pabellón Criollo | Hero | Pabellón criollo venezolano | Ajsm712 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pabell%C3%B3n_criollo_venezolano.jpg) |
+| `injera.webp` / `.jpg` | Injera | Hero | Injera from ivory teff | Edsel Little | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Injera_from_ivory_teff.jpg) |
+| `glamorgan-sausages.webp` / `.jpg` | Glamorgan Sausages | Hero | Glamorgan sausages | Vouliagmeni | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glamorgan_sausages.jpg) |
+| `glamorgan-sausages-process.webp` / `.jpg` | Glamorgan Sausages | Process | Glamorgan Sausages with Tomato Chutney | Medievalist | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glamorgan_Sausages_with_Tomato_Chutney.jpg) |
+| `haupia.webp` / `.jpg` | Haupia | Hero | Haupia | Arnold Gatilao from Fremont, CA, USA | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Haupia.jpg) |
 
 ---
 

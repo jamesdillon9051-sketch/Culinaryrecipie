@@ -379,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-724 of the 769 recipes have a photograph. Of the 994 images on the site, 719
-are CC0 or public domain, 120 are CC BY and 155 are CC BY-SA. Anything still
+760 of the 769 recipes have a photograph. Of the 1035 images on the site, 735
+are CC0 or public domain, 128 are CC BY and 172 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -583,6 +583,15 @@ One audit gap closed on the way: teff, sorghum, millet and quinoa flours are
 now recognised as gluten-free by `npm run diet`, which had been reading
 "teff flour" on the injera as an ordinary flour and would have refused a true
 claim.
+
+Thirty-six of the forty have a photograph. The automatic fetcher found
+fourteen and six of those were wrong in its usual way — a seventeenth-century
+Dutch still life for the mince pies, a plate of chocolate Easter eggs for the
+hot cross buns, an unfrosted process shot for the yule log — so the rest went
+through the contact sheet. Four ended on gradient placeholders: Commons has
+nothing usable for bread sauce, a hot toddy, egg bites or pan con pollo, and
+the searches returned the Rumford Cook Book, the Thomas Butler Gunn diaries, a
+row of McMuffins and a plate of Moroccan food respectively.
 
 ---
 
