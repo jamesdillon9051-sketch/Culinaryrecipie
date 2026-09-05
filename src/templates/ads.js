@@ -106,9 +106,4 @@ function wrap(label, inner) {
 </aside>`;
 }
 
-/** Hosts the ad scripts may load from, for the CSP in netlify.toml/vercel.json. */
-function cspHosts() {
-  return ADS.enabled ? (ADS.cspHosts || []) : [];
-}
-
-module.exports = { popunder, socialBar, nativeBanner, frameDocument, cspHosts, FRAME_PATH, ADS };
+module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH, ADS };

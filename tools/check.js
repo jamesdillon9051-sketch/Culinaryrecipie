@@ -261,6 +261,59 @@ if (!vercelCsp) {
   }
 }
 
+/* --- ad coverage --------------------------------------------------------- */
+/* The part of the site that earns money, and the only claim here with no other
+   witness: a template edit that dropped an ad call would ship silently across
+   every page and cost a day of impressions before anyone noticed.
+   Skipped entirely when ads are switched off in src/data/ads.js, and when
+   consent gating is on, since that deliberately withholds two of the three. */
+{
+  const ads = require('../src/data/ads');
+  const consent = require('../src/data/consent');
+  const unit = (ads.nativeBanners || [])[0];
+
+  if (ads.enabled && !consent.enabled && unit) {
+    const missing = { popunder: [], socialBar: [], slots: [] };
+    for (const file of htmlFiles) {
+      const html = fs.readFileSync(file, 'utf8');
+      const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
+      if (ads.popunder && !html.includes(ads.popunder)) missing.popunder.push(where);
+      if (ads.socialBar && !html.includes(ads.socialBar)) missing.socialBar.push(where);
+      /* Two slots on every page: the first embeds the snippet, the second is an
+         iframe onto the one-slot document. One of either is a broken layout. */
+      const slots = (html.match(/container-|native-banner\.html/g) || []).length;
+      if (slots !== 2) missing.slots.push(`${where} (${slots})`);
+    }
+    for (const [what, list] of [['the popunder', missing.popunder],
+                                ['the social bar', missing.socialBar]]) {
+      if (list.length) {
+        problems.push(`${what} is missing from ${list.length} page${list.length === 1 ? '' : 's'}`
+          + `, starting with ${list[0]}`);
+      }
+    }
+    if (missing.slots.length) {
+      problems.push(`${missing.slots.length} page(s) do not carry exactly 2 native banner slots`
+        + `, starting with ${missing.slots[0]}`);
+    }
+
+    /* The framed document is the exception and has to stay one: the popunder
+       and social bar inside it would fire a second time on every page. */
+    const framePath = path.join(DIST, 'assets', 'ads', 'native-banner.html');
+    if (!fs.existsSync(framePath)) {
+      problems.push('assets/ads/native-banner.html is missing, so every second ad slot is empty');
+    } else {
+      const frame = fs.readFileSync(framePath, 'utf8');
+      if (!frame.includes(unit.key)) problems.push('the framed ad document holds no banner');
+      if (ads.popunder && frame.includes(ads.popunder)) {
+        problems.push('the framed ad document carries the popunder, which would fire it twice');
+      }
+      if (ads.socialBar && frame.includes(ads.socialBar)) {
+        problems.push('the framed ad document carries the social bar, which would fire it twice');
+      }
+    }
+  }
+}
+
 /* --- diet claims --------------------------------------------------------- */
 /* Every tag now, not just Gluten-Free. These are the claims a reader cannot
    check for themselves — someone coeliac or vegan is trusting the label over the

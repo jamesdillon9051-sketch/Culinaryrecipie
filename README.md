@@ -732,6 +732,24 @@ errors.
 
 Both audits run inside `npm run check`.
 
+## Ads
+
+`npm run check` also verifies that every page carries all three ad units: the
+popunder in the head, the social bar before the closing body tag, and exactly
+two native banner slots. Two, not one or three — the first embeds Adsterra's
+snippet and the second is an iframe onto a one-slot document, because
+`getElementById` returns a single node and two copies of the snippet in one
+page leave the second slot empty forever.
+
+The framed document is checked in the opposite direction: it must hold the
+banner and must *not* hold the popunder or the social bar, which would fire
+them a second time on every page of the site.
+
+This was the last claim on the site with no witness. Everything else here —
+times, calories, diet tags, README counts — already failed the build when it
+drifted, while the part that earns the money could have been dropped by one
+template edit and shipped silently across nine hundred pages.
+
 ## Browser support
 
 Modern evergreen browsers. The site degrades gracefully:

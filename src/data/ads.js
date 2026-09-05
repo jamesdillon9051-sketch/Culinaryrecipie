@@ -4,8 +4,10 @@
  * Adsterra ad units.
  *
  * Everything about the site's advertising lives here. Set `enabled` to false
- * and the next build strips every ad script and slot from all 458 pages —
- * useful for local work, Lighthouse runs, or pulling the ads entirely.
+ * and the next build strips every ad script and slot from every page — useful
+ * for local work, Lighthouse runs, or pulling the ads entirely. tools/check.js
+ * verifies the coverage on every build, so a template edit cannot quietly drop
+ * a unit from the whole site.
  *
  * A note on the native banner. Adsterra's invoke.js fills one element, found
  * by `document.getElementById('container-<key>')`, and that returns a single
@@ -56,14 +58,21 @@ module.exports = {
   frameHeight: 300,
 
   /**
-   * Every host the ad scripts are allowed to load from, used to build the
-   * Content-Security-Policy. Ad networks resolve creatives across a lot of
-   * hosts, so the delivery domain is wildcarded.
+   * There is deliberately no host allow-list here.
+   *
+   * There used to be one, naming four wildcarded ad domains and feeding the
+   * Content-Security-Policy — but the policy in netlify.toml and vercel.json
+   * has long since moved to a blanket `https:` for script-src, frame-src,
+   * connect-src and img-src, and the list was left behind, exported and never
+   * called. A config field nobody reads is worse than none, because the next
+   * person to edit it believes it does something.
+   *
+   * The blanket policy is the honest position while these ads run: an ad
+   * network resolves creatives across hosts it does not publish and changes
+   * them without notice, so a four-entry allow-list would break delivery the
+   * first time one moved. What the CSP does still hold, and what check.js
+   * enforces, is everything that costs the ads nothing — object-src 'none',
+   * base-uri, frame-ancestors, form-action, no unsafe-eval, and 'self' on
+   * script-src.
    */
-  cspHosts: [
-    'https://*.profitableratecpmnetwork.com',
-    'https://*.highperformanceformat.com',
-    'https://*.effectivecpmrate.com',
-    'https://*.adsterra.com'
-  ]
 };
