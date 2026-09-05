@@ -2,6 +2,7 @@
 const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
+const { enrichDescription, recipeTitleHooks, recipeDescriptionClauses } = require('../lib/seo');
 const { questions, faqSchema } = require('../lib/faq');
 const { videoSchema, reviewSchema } = require('../lib/media');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
@@ -410,8 +411,11 @@ ${breadcrumbs(trail)}
 <button class="btn btn--primary cook-exit" type="button" data-cook-exit>Exit Cook Mode</button>`;
 
   return layout({
-    title: recipe.title,
-    description: recipe.meta,
+    /* "Recipe" is in the dominant query for every dish on the site and was in
+       none of the titles. */
+    title: `${recipe.title} Recipe`,
+    titleHooks: recipeTitleHooks(recipe),
+    description: enrichDescription(recipe.meta, recipeDescriptionClauses(recipe)),
     keywords: recipe.keywords,
     path: `recipes/${recipe.slug}/`,
     active: 'recipes',

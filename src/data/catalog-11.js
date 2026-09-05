@@ -77,7 +77,7 @@ module.exports = [
   /* Vegan mains, where the tag was thinnest */
   c('vegan-shepherds-pie', "Lentil Shepherd's Pie", 'British', 'Dinner', 'Medium', 30, 60, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Lentil shepherds pie dish'),
   c('mushroom-stroganoff', 'Mushroom Stroganoff', 'Russian', 'Dinner', 'Easy', 15, 25, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Mushroom stroganoff pasta'),
-  c('aubergine-parmigiana', 'Melanzane alla Parmigiana', 'Italian', 'Dinner', 'Medium', 35, 60, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Melanzane parmigiana baked'),
+  c('aubergine-parmigiana', 'Griddled Aubergine Parmigiana', 'Italian', 'Dinner', 'Medium', 35, 60, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Melanzane parmigiana baked'),
   c('coconut-dal', 'Coconut Dal', 'Sri Lankan', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Coconut dal parippu'),
   c('jackfruit-tacos', 'Pulled Jackfruit Tacos', 'Mexican', 'Dinner', 'Easy', 20, 30, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Jackfruit tacos pulled'),
   c('vegan-mac', 'Butternut Mac and Cheese', 'American', 'Dinner', 'Easy', 20, 35, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Vegan mac and cheese butternut'),

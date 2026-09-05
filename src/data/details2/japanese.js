@@ -45,7 +45,7 @@ module.exports = {
 
   'oyakodon': {
     d: 'Chicken and egg over rice — the name means "parent and child" — simmered together in a sweet-savoury dashi until the egg is barely set and slides over the bowl in soft curds. A fifteen-minute dinner with the comfort of a two-hour one.',
-    meta: 'Oyakodon: chicken and softly set egg simmered in sweet dashi and served over rice. A classic Japanese donburi in 15 minutes.',
+    meta: 'Oyakodon: chicken and softly set egg simmered in sweet dashi and served over rice. A classic Japanese donburi in 25 minutes.',
     kw: ['oyakodon recipe', 'japanese chicken egg rice bowl', 'donburi recipe', 'chicken and egg rice'],
     why: 'The egg is added in two stages and taken off the heat while still visibly loose, because residual heat from the pan and the rice finishes it — a fully set oyakodon is a rubbery one. Cooking it in a small pan means the liquid stays deep enough to poach the egg rather than fry it.',
     ing: [

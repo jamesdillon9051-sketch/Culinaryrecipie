@@ -297,7 +297,7 @@ module.exports = {
 
   'thai-fried-rice': {
     d: 'Fried rice with pineapple, cashews and a curry-scented edge, served in the hollowed shell if you are feeling theatrical. Fifteen minutes and a great use for yesterday\'s rice.',
-    meta: 'Thai pineapple fried rice with cashews, curry powder and fresh pineapple. A 25-minute vegetarian weeknight dish.',
+    meta: 'Thai pineapple fried rice with cashews, curry powder and fresh pineapple. A 30-minute vegetarian weeknight dish.',
     kw: ['thai fried rice recipe', 'pineapple fried rice', 'vegetarian fried rice', 'quick rice dish'],
     why: 'Fresh pineapple contains bromelain and a great deal of water, so it is added at the very end — cooked longer, it breaks down and makes the rice wet. Cold, day-old rice has retrograded starch that keeps the grains separate under the heat and constant tossing of a wok.',
     ing: [

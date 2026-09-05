@@ -279,7 +279,7 @@ module.exports = {
 
   'lo-mein': {
     d: 'Soft egg noodles tossed rather than fried, coated in a glossy soy and oyster sauce with chicken and crisp vegetables. The gentler cousin of chow mein, and a twenty-minute weeknight dinner.',
-    meta: 'Chicken lo mein with soft egg noodles tossed in soy and oyster sauce with crisp vegetables. Ready in 20 minutes.',
+    meta: 'Chicken lo mein with soft egg noodles tossed in soy and oyster sauce with crisp vegetables. Ready in 30 minutes.',
     kw: ['lo mein recipe', 'chicken lo mein', 'chinese egg noodles', 'easy noodle stir fry'],
     why: 'Lo mein means "tossed noodles" — the noodles are boiled and then folded through the sauce off high heat, unlike chow mein where they are fried until crisp. Rinsing and oiling them after boiling stops the starch gluing them into a single mass while you cook everything else.',
     ing: [
@@ -324,7 +324,7 @@ module.exports = {
 
   'singapore-noodles': {
     d: 'Thin rice vermicelli stained yellow with curry powder, tossed with prawns, char siu and egg. Despite the name it is a Hong Kong invention, and it appears on almost no menu in Singapore.',
-    meta: 'Singapore noodles — curried rice vermicelli with prawns, char siu, egg and crunchy vegetables. A 25-minute wok dish.',
+    meta: 'Singapore noodles — curried rice vermicelli with prawns, char siu, egg and crunchy vegetables. A 35-minute wok dish.',
     kw: ['singapore noodles recipe', 'curry rice vermicelli', 'singapore mei fun', 'hong kong curry noodles'],
     why: 'The curry powder is bloomed in hot oil before the noodles go in, which dissolves its fat-soluble aromatics and spreads the colour evenly instead of leaving raw yellow patches. Soaking rather than boiling the vermicelli leaves it firm enough to survive the tossing without disintegrating.',
     ing: [
@@ -413,7 +413,7 @@ module.exports = {
 
   'tomato-egg-stir-fry': {
     d: 'The dish every Chinese household cooks and no restaurant bothers to: eggs scrambled soft, tomatoes cooked down to a light sauce, the two folded together over rice. Ten minutes, four ingredients, endlessly comforting.',
-    meta: 'Chinese tomato and egg stir-fry — soft scrambled eggs folded through a light tomato sauce. A 10-minute classic.',
+    meta: 'Chinese tomato and egg stir-fry — soft scrambled eggs folded through a light tomato sauce. An 18-minute classic.',
     kw: ['tomato egg stir fry', 'chinese tomato and egg', 'xihongshi chao jidan', 'easy chinese egg recipe'],
     why: 'The eggs are cooked first and removed while still underdone, then folded back at the very end — cooking them alongside the tomatoes would make them watery and rubbery. A pinch of sugar is not for sweetness but to counter the acidity of the tomatoes, which reads harsh without it.',
     ing: [

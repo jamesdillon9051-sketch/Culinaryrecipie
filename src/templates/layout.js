@@ -1,6 +1,7 @@
 'use strict';
 const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
 const { forMeta } = require('../lib/keywords');
+const { pageTitle } = require('../lib/seo');
 const { recipeCount } = require('../data/stats');
 const ads = require('./ads');
 const ANALYTICS = require('../data/analytics');
@@ -208,8 +209,11 @@ function footer(topCuisines) {
 function layout(page) {
   const url = SITE.origin + SITE.base + (page.path || '');
   const image = page.image || `${SITE.origin}${SITE.base}assets/img/og-default.jpg`;
-  /* Keep titles under ~65 characters so Google does not truncate them. */
-  const title = page.path ? `${page.title} | ${SITE.name}` : `${SITE.name} — ${recipeCount} Famous Recipes, Tested`;
+  /* Sized to the sixty characters a result shows, with at most one hook and
+     the brand dropped before the page's own name is. See ../lib/seo.js. */
+  const title = page.path
+    ? pageTitle(page.title, SITE.name, page.titleHooks)
+    : `${SITE.name} — ${recipeCount} Famous Recipes, Tested`;
 
   const schemaBlocks = (page.schema || [])
     .map(s => `<script type="application/ld+json">${jsonLd(s)}</script>`).join('\n');

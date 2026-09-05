@@ -247,7 +247,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 71,555 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 71,556 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -563,6 +563,90 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## The snippet nobody was using
+
+Every title on the site was correct, under the limit, and the bare name of the
+dish. Every one of the 809 recipe descriptions was correct, under the limit,
+and short — a median of 106 characters against a snippet Google prints to about
+160. Nothing was broken. A fifth of the only pitch each page gets to make was
+simply going unspent, and the word "recipe", which is in the dominant query for
+every dish here, was in none of the titles.
+
+`src/lib/seo.js` fits what the record already holds into the space available.
+Titles take the dish name, the word Recipe, and at most one hook, offered
+best-first and only where the row backs it — "Pad Thai Recipe", "Beef
+Bourguignon Recipe — Slow-Cooked", "Lecsó Recipe — Easy". Descriptions take the
+written sentence and append derived clauses, whole ones only, until they reach
+140: the time, the yield, the calories, whether it freezes, and what the page
+holds. Both stop rather than truncate, because an ellipsis mid-phrase spends
+the snippet on nothing.
+
+All 943 indexable pages now land inside the band: titles 22 to 60 characters,
+descriptions 140 to 160, none duplicated.
+
+Two things fell out of doing it. `tools/check.js` had been measuring
+description length on the escaped markup, where an apostrophe is `&#39;` and
+counts five, so it called a 156-character description 161 and would have failed
+a page that was inside the limit; it decodes first now, and enforces the 140
+floor as well as the 160 ceiling. And two pages were sharing a title — this
+volume's griddled aubergine parmigiana and the existing fried one, the same
+dish by two methods, splitting one query between them. The griddled one says so
+in its name now.
+
+## Descriptions that promised a time the recipe could not keep
+
+Adding "Ready in 30 minutes." to a description that already said "on the table
+in 20 minutes" put the contradiction in one sentence, which is how it was
+found. Sixteen recipes were advertising a cooking time their own row disagreed
+with — carbonara offering 20 minutes against 30, yakitori 15 against 35 — and
+they had been doing it in the search result, where it is read before anyone
+sees the page.
+
+The generator now skips its own time clause when the written sentence already
+names one, and `tools/seo-audit.js` fails the build when the number a
+description advertises is one the row cannot meet. It reads ceilings the way a
+reader does: "on the table in 25 minutes" is kept by a 22-minute recipe and
+broken by a 32-minute one, and a step time — "steamed 8 minutes", "a 15-minute
+brine" — is not a promise about the dish at all.
+
+## A sitemap that meant something
+
+`lastmod` was two constants. All 809 recipes carried the same date, which tells
+a crawler nothing about which of them moved; every taxonomy page carried the
+date of the build, which moved on every deploy whether or not a word had
+changed. The second is worse than the first: Google ignores the field on sites
+where it proves unreliable, so a build-stamped date spends the only signal a
+sitemap carries.
+
+`src/lib/content-dates.js` fingerprints each route from the source it is
+rendered out of — the catalogue row and detail record for a recipe, the list of
+slugs for a taxonomy page — and the date moves only when the fingerprint does.
+The fingerprints live in `src/data/content-dates.json` and are committed, which
+is what makes the answer the same on any machine and across rebuilds. Hashing
+the source rather than the rendered HTML is deliberate: the output carries the
+site-wide recipe count and a footer that changes whenever any other page is
+added, and neither is a change to this page.
+
+Rebuilding now changes nothing. Editing one step of one recipe moves one date.
+
+## What the audit checks between pages
+
+`tools/check.js` reads every page for a canonical, a title and a description of
+the right length, but it reads them one at a time, and the interesting failures
+are the ones that only exist across the set. `tools/seo-audit.js` holds those:
+
+- No two indexable pages share a title or a description. - Every indexable page
+has an inbound link from inside another page's content. Header and footer links
+are excluded on purpose — they link everything to everything, which hides an
+orphan rather than fixing one. - Every recipe links out to at least three other
+pages. They carry eight. - The sitemap holds every indexable route and nothing
+else, and no noindex page. - `robots.txt` names the sitemap and blocks nothing
+indexable. - No description advertises a time the recipe cannot keep.
+
+It found one orphan: `/search/` was reachable only from the header, so nothing
+in any page's content pointed at it. The recipe directory now links to it, and
+to the three taxonomy indexes, in a line under the filter box.
 
 ## Keywords, and the script that was supposed to be checking them
 

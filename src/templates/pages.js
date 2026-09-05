@@ -237,7 +237,7 @@ function home(ctx) {
 
   return layout({
     title: `${SITE.name} — ${SITE.tagline}`,
-    description: `The world's ${recipeCount} most famous recipes, each tested and explained: ingredients, step-by-step method, cooking science and cook mode.`,
+    description: `The world's ${recipeCount} most famous recipes, each tested and explained: ingredients, step-by-step method, cooking science and cook mode. Free, no sign-up.`,
     keywords: ['famous recipes', 'best recipes in the world', 'tested recipes',
                'international recipes', 'cooking guide', 'recipes from around the world',
                'world food recipes', 'authentic recipes', 'home cooking',
@@ -306,13 +306,20 @@ ${breadcrumbs(trail)}
     </div>
   </header>
 
-  <form role="search" style="margin-bottom:1.5rem" data-search-form>
+  <form role="search" style="margin-bottom:.6rem" data-search-form>
     <div class="search-shell" style="max-width:none">
       ${ICONS.search}
       <label class="sr-only" for="directory-query">Search within these recipes</label>
       <input type="search" id="directory-query" placeholder="Search by dish, ingredient or cuisine…" autocomplete="off">
     </div>
   </form>
+  <p style="margin:0 0 1.5rem;font-size:.9rem;color:var(--text-soft)">
+    Looking for something specific? Try
+    <a href="${SITE.base}search/">full-site recipe search</a>, or browse by
+    <a href="${SITE.base}cuisines/">world cuisine</a>,
+    <a href="${SITE.base}categories/">meal type</a> or
+    <a href="${SITE.base}ingredients/">main ingredient</a>.
+  </p>
 
   <div class="directory">
     ${filterSidebar(ctx.facets)}
@@ -350,6 +357,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: options.title,
+    titleHooks: options.titleHooks,
     description: options.description,
     keywords: options.keywords,
     path: options.path,
@@ -392,6 +400,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: options.title,
+    titleHooks: options.titleHooks,
     description: options.description,
     keywords: options.keywords,
     path: options.path,
@@ -473,7 +482,7 @@ ${breadcrumbs(trail)}
   return layout({
     title: 'Recipes by Ingredient',
     description: `Browse ${recipeCount} recipes by their main ingredient — chicken, `
-      + `aubergine, chocolate and ${ctx.hubs.length - 3} more, each list checked against the recipe itself.`,
+      + `aubergine, chocolate and ${ctx.hubs.length - 3} more, each list checked against the recipe itself. Free to browse.`,
     keywords: ['recipes by ingredient', 'what can i make with', 'cook with what i have',
                'ingredient index', 'leftover ingredient recipes', 'chicken recipes',
                'vegetarian ingredient recipes', 'browse by ingredient', 'recipe ideas by ingredient'],
@@ -525,7 +534,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Cuisine Explorer',
-    description: `Browse ${recipeCount} tested recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more.`,
+    description: `Browse ${recipeCount} tested recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with nutrition and method.`,
     keywords: ['world cuisines', 'international recipes', 'cuisine guide', 'global cooking',
                'cuisines of the world', 'food by country', 'national dishes',
                'regional cooking', 'authentic world food', 'browse recipes by cuisine',
@@ -855,7 +864,7 @@ ${breadcrumbs(trail)}
     /* The layout appends the site name, so naming it here too gave
        'About Weekly Delight | Weekly Delight'. */
     title: 'About',
-    description: `Turab, 21, an aviation student in Kazakhstan who cooks by checklist — how the ${recipeCount} recipes here are tested, timed and photographed.`,
+    description: `Turab, 21, an aviation student in Kazakhstan who cooks by checklist — how the ${recipeCount} recipes here are tested, timed and photographed, and what it will not do.`,
     keywords: ['about culinaryvault', 'recipe testing', 'food blog team', 'recipe standards',
                'how recipes are tested', 'aviation student cook', 'hobbyist cook blog',
                'recipe accuracy', 'who writes these recipes',
@@ -968,7 +977,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Contact',
-    description: 'Send the Weekly Delight test kitchen a recipe suggestion, a correction, or a question about a step that did not work in your kitchen.',
+    description: 'Send the Weekly Delight test kitchen a recipe suggestion, a correction, or a question about a step that did not work in your kitchen. Every message is read.',
     keywords: ['contact culinaryvault', 'recipe suggestions', 'food blog contact',
                'submit a recipe', 'report a recipe error', 'recipe request',
                'work with us', 'press enquiries', 'get in touch'],

@@ -493,7 +493,7 @@ module.exports = {
 
   'chocolate-lava-cake': {
     d: 'Individual chocolate cakes with a liquid centre, from oven to table in twenty minutes. The whole trick is pulling them out while the middle is still raw batter.',
-    meta: 'Molten chocolate lava cakes with a liquid centre in 25 minutes. Make-ahead friendly and reliably dramatic.',
+    meta: 'Molten chocolate lava cakes with a liquid centre in 30 minutes. Make-ahead friendly and reliably dramatic.',
     kw: ['chocolate lava cake recipe', 'molten chocolate cake', 'easy dessert', 'dinner party dessert'],
     why: 'There is no trick filling — the molten centre is simply under-baked batter. The cake sets from the outside in, so pulling it at the point where the edges are firm and the middle still wobbles leaves a liquid core. Ramekins buttered and dusted with cocoa rather than flour release cleanly without leaving a pale coating.',
     ing: [

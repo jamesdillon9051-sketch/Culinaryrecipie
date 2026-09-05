@@ -18,7 +18,8 @@
     "diet": "node tools/diet-audit.js",
     "timing": "node tools/timing-audit.js",
     "nutrition": "node tools/nutrition-audit.js",
-    "keywords": "node tools/keyword-audit.js"
+    "keywords": "node tools/keyword-audit.js",
+    "seo": "node tools/seo-audit.js"
   },
   "keywords": [
     "recipes",

@@ -61,7 +61,7 @@ module.exports = {
 
   'spaghetti-carbonara': {
     d: 'Real Roman carbonara has no cream in it — just eggs, Pecorino, guanciale and black pepper emulsified into a glossy sauce by the pasta water. Master the off-heat technique here and you will never scramble it again.',
-    meta: 'Authentic Roman spaghetti carbonara with guanciale, Pecorino and egg yolks. No cream, no scrambling — a silky sauce in 20 minutes.',
+    meta: 'Authentic Roman spaghetti carbonara with guanciale, Pecorino and egg yolks. No cream, no scrambling — a silky sauce in 30 minutes.',
     kw: ['spaghetti carbonara recipe', 'authentic carbonara', 'carbonara without cream', 'roman pasta'],
     why: 'Egg yolk proteins set at around 70°C, so the pan must come off the heat before the eggs go in. Starchy pasta water is the insurance policy: its suspended starch molecules physically block the proteins from linking into curds, holding the sauce in a stable emulsion.',
     ing: [
@@ -146,7 +146,7 @@ module.exports = {
 
   'fettuccine-alfredo': {
     d: 'Before the cream and the garlic crept in, Alfredo was three ingredients: pasta, butter and Parmigiano, whipped together into a sauce by nothing but starch and vigorous tossing. It takes fifteen minutes and tastes like a restaurant dish.',
-    meta: 'Authentic fettuccine Alfredo made with only butter, Parmigiano and pasta water — no cream, no flour, ready in 15 minutes.',
+    meta: 'Authentic fettuccine Alfredo made with only butter, Parmigiano and pasta water — no cream, no flour, ready in 25 minutes.',
     kw: ['fettuccine alfredo recipe', 'alfredo without cream', 'butter parmesan pasta', 'easy italian pasta'],
     why: 'Parmigiano-Reggiano is roughly 30% fat and 30% protein; melted into starchy water below 65°C it forms a natural emulsion that behaves exactly like cream. Push it hotter and the proteins tighten and the fat splits out, which is why the pan comes off the heat first.',
     ing: [
@@ -176,7 +176,7 @@ module.exports = {
 
   'cacio-e-pepe': {
     d: 'Two ingredients, one technique, endless opportunity to get it wrong. This cacio e pepe recipe uses a Pecorino slurry made off the heat, the trick Roman trattorias rely on to guarantee a creamy sauce instead of a stringy clump.',
-    meta: 'Foolproof cacio e pepe with a Pecorino slurry technique that guarantees a creamy, clump-free Roman sauce in 15 minutes.',
+    meta: 'Foolproof cacio e pepe with a Pecorino slurry technique that guarantees a creamy, clump-free Roman sauce in 20 minutes.',
     kw: ['cacio e pepe recipe', 'roman pasta', 'pecorino pasta', 'two ingredient pasta'],
     why: 'Pecorino Romano is high in casein, which clumps aggressively above 70°C. Making a cool paste with a little pasta water first coats each cheese particle in starch, so it disperses instead of seizing when it meets the hot pasta.',
     ing: [
@@ -205,7 +205,7 @@ module.exports = {
 
   "penne-all-arrabbiata": {
     d: 'Angry pasta, and rightly so: garlic bloomed slowly in olive oil, dried chilli, and tomatoes cooked hard enough to concentrate. This arrabbiata recipe is naturally vegan, takes twenty minutes, and tastes like considerably more effort.',
-    meta: 'Fiery penne all\'arrabbiata with slow-bloomed garlic and dried chilli. Naturally vegan, on the table in 20 minutes.',
+    meta: 'Fiery penne all\'arrabbiata with slow-bloomed garlic and dried chilli. Naturally vegan, on the table in 30 minutes.',
     kw: ['penne arrabbiata recipe', 'spicy tomato pasta', 'vegan italian pasta', 'quick pasta recipe'],
     why: 'Capsaicin and the aromatics in garlic are fat-soluble, not water-soluble, so blooming both in cool oil before the tomatoes go in extracts far more flavour than adding them to a simmering sauce. Cooking the tomatoes at a hard simmer drives off water and concentrates glutamates, which is why a 20-minute sauce can taste long-cooked.',
     ing: [
@@ -650,7 +650,7 @@ module.exports = {
   'panna-cotta': {
     rest: [240, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
-    meta: 'Silky vanilla panna cotta with the perfect wobble — a five-ingredient Italian dessert that takes 15 minutes to make.',
+    meta: 'Silky vanilla panna cotta with the perfect wobble — a five-ingredient Italian dessert that takes 20 minutes to make.',
     kw: ['panna cotta recipe', 'vanilla panna cotta', 'italian dessert', 'gluten free dessert'],
     why: 'The ratio of gelatine to cream is everything: 2 g of gelatine per 250 ml sets a cream that just holds its shape and dissolves instantly on the tongue, while the usual 4 g makes a firm, rubbery pudding. Blooming the gelatine in cold water first fully hydrates the strands so they dissolve evenly without leaving a grainy set.',
     ing: [

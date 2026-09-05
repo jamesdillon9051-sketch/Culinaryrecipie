@@ -199,7 +199,7 @@ module.exports = {
 
   'caldo-verde': {
     d: 'Potato and onion blended into a smooth base, with finely shredded couve and a slice of chouriço added at the last moment. Portugal\'s national soup, and its greenness comes late.',
-    meta: 'Caldo verde — Portuguese potato soup with finely shredded greens and chouriço, ready in 40 minutes.',
+    meta: 'Caldo verde — Portuguese potato soup with finely shredded greens and chouriço, ready in 50 minutes.',
     kw: ['caldo verde recipe', 'portuguese green soup', 'kale potato soup', 'chourico soup'],
     why: 'The greens go in for only two or three minutes at the very end, which keeps them bright green and slightly firm — cooked into the soup they turn khaki and bitter. Blending the potato base rather than adding cream gives body from starch alone.',
     ing: [

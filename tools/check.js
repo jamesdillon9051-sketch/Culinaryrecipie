@@ -19,6 +19,24 @@ const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools',
   /* A separate project living in this repository; it has its own build and
      its own checks, so auditing its pages here would be meaningless noise. */
   'travel-destinations']);
+const { MAX_TITLE, MIN_DESCRIPTION, MAX_DESCRIPTION } = require('../src/lib/seo');
+
+/**
+ * The rendered text of an attribute value.
+ *
+ * Search engines lay out the decoded string, so length has to be measured on
+ * that and not on the escaped markup.
+ */
+function decodeEntities(value) {
+  return value
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
+
+const isNoindex = html => /<meta name="robots" content="[^"]*noindex/.test(html);
+
 const problems = [];
 const warnings = [];
 let pagesChecked = 0;
@@ -144,10 +162,27 @@ for (const file of htmlFiles) {
   }
 
   /* --- head essentials -------------------------------------------------- */
+  /* Measured decoded, because a search engine renders the text rather than the
+     markup: an apostrophe is one character on the results page and five in the
+     source as &#39;, and counting the markup called a 156-character
+     description 161 and failed a page that was inside the limit. */
   const desc = /<meta name="description" content="([^"]*)"/.exec(html);
   if (!desc) problems.push(`${rel}: missing meta description`);
-  else if (desc[1].length > 160) problems.push(`${rel}: meta description ${desc[1].length} chars (max 160)`);
-  else if (desc[1].length < 50) warnings.push(`${rel}: meta description only ${desc[1].length} chars`);
+  else {
+    const text = decodeEntities(desc[1]);
+    if (text.length > MAX_DESCRIPTION) {
+      problems.push(`${rel}: meta description ${text.length} chars (max ${MAX_DESCRIPTION})`);
+    } else if (!isNoindex(html) && text.length < MIN_DESCRIPTION) {
+      /* Short is not broken, but it hands back snippet the page could have
+         used, and every one of the 809 recipes was doing it. */
+      problems.push(`${rel}: meta description ${text.length} chars, under the ${MIN_DESCRIPTION} a snippet will show`);
+    }
+  }
+
+  const titleTag = /<title>([^<]*)<\/title>/.exec(html);
+  if (titleTag && decodeEntities(titleTag[1]).length > MAX_TITLE) {
+    problems.push(`${rel}: title ${decodeEntities(titleTag[1]).length} chars (max ${MAX_TITLE})`);
+  }
 
   if (!/<link rel="canonical"/.test(html)) problems.push(`${rel}: missing canonical link`);
   if (!/<title>/.test(html)) problems.push(`${rel}: missing <title>`);
@@ -376,7 +411,10 @@ try {
    before they open the page — "gluten free", "30 minute", "can you freeze
    this" — and it is the one kind of claim nobody re-reads after editing a
    recipe, so it fails the check like the rest. */
-for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js']) {
+/* seo-audit reads the built pages as a set rather than one at a time: two
+   pages sharing a title, a page nothing links to, a sitemap that has drifted
+   from the routes. None of those is visible from inside a single file. */
+for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js']) {
   try {
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, audit)], { stdio: 'pipe' });

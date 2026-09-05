@@ -21,6 +21,9 @@ const path = require('path');
 const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
+const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
+const contentDates = require('./lib/content-dates');
+const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
 const { derivedTags } = require('./lib/diet-derived');
@@ -54,6 +57,20 @@ function hubDescription(hub) {
   }
   fit('Each with nutrition, method and the reasoning behind it.');
   return text;
+}
+
+/**
+ * A category's name in the middle of a phrase.
+ *
+ * The category names are plural — "Appetizers", "Desserts" — and were being
+ * dropped straight in front of the word Recipes, which produced titles like
+ * "Appetizers Recipes". src/lib/keywords.js already keeps the adjective form
+ * for exactly this reason, so it is reused rather than duplicated.
+ */
+function categoryNoun(name) {
+  const adjective = CATEGORY_ADJECTIVE[name];
+  if (!adjective) return name;
+  return adjective.replace(/\b\w/g, c => c.toUpperCase());
 }
 
 /* What the Quick Meals category page promises its readers. */
@@ -253,7 +270,9 @@ function loadRecipes() {
       processAlt: `Ingredients and preparation for ${row.title.toLowerCase()}`,
       published,
       datePublished: new Date(published).toISOString().slice(0, 10),
-      dateModified: new Date(EPOCH).toISOString().slice(0, 10),
+      /* Filled in below, once the register exists — a recipe's modified date
+         is the day its own content last changed, not a build constant. */
+      dateModified: null,
       popularity: row.reviews * row.rating
     };
 
@@ -279,6 +298,26 @@ function loadRecipes() {
     }
     recipe.related = related;
   }
+
+  /* When each recipe's own content last changed. The register is attached to
+     the array rather than saved here: the audit tools call loadRecipes too,
+     and reading the catalogue should never write to it. Only build() saves. */
+  const dates = contentDates.register();
+  for (const recipe of recipes) {
+    recipe.dateModified = dates.dateFor(`/recipes/${recipe.slug}/`, {
+      title: recipe.title, cuisine: recipe.cuisine, category: recipe.category,
+      difficulty: recipe.difficulty, prep: recipe.prep, cook: recipe.cook,
+      servings: recipe.servings, rest: [recipe.restTime, recipe.restLabel],
+      tags: recipe.tags, description: recipe.description, meta: recipe.meta,
+      why: recipe.why, ingredients: plainList(recipe.ingredients),
+      steps: recipe.steps, tips: recipe.tips, pairings: recipe.pairings,
+      storage: recipe.storage, nutrition: recipe.nutrition,
+      image: recipe.imageData ? recipe.imageData.file : null
+    });
+    /* A page cannot have been modified before it was published. */
+    if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;
+  }
+  recipes.dates = dates;
 
   return recipes;
 }
@@ -309,6 +348,7 @@ function buildContext(recipes) {
 
   return {
     recipes,
+    dates: recipes.dates,
     criticalCss,
     categoryCounts,
     cuisineCounts,
@@ -379,34 +419,47 @@ function distinctWords(text) {
 
 /* --------------------------------------------------------- site plumbing */
 function sitemap(recipes, ctx) {
-  const today = new Date().toISOString().slice(0, 10);
+  const dates = ctx.dates;
+  /* Hub pages list recipes, so their content changes when the set they list
+     does. Fingerprinting that list is what stops the date moving on a rebuild
+     that changed nothing. */
+  const allSlugs = recipes.map(r => r.slug).sort();
+  const hubDate = (route, payload) => dates.dateFor(route, payload);
   const entry = (loc, lastmod, changefreq, priority) =>
     `  <url>\n    <loc>${SITE.origin}${SITE.base}${loc}</loc>\n` +
     `    <lastmod>${lastmod}</lastmod>\n` +
     `    <changefreq>${changefreq}</changefreq>\n` +
     `    <priority>${priority}</priority>\n  </url>`;
 
+  /* The four pages that list or count the whole catalogue move together, so
+     they share its fingerprint. About and privacy are prose: their date comes
+     from the text itself, not from the recipes around them. */
   const urls = [
-    entry('', today, 'daily', '1.0'),
-    entry('recipes/', today, 'daily', '0.9'),
-    entry('categories/', today, 'weekly', '0.8'),
-    entry('cuisines/', today, 'weekly', '0.8'),
-    entry('ingredients/', today, 'weekly', '0.8'),
-    entry('search/', today, 'monthly', '0.4'),
+    entry('', hubDate('/', allSlugs), 'daily', '1.0'),
+    entry('recipes/', hubDate('/recipes/', allSlugs), 'daily', '0.9'),
+    entry('categories/', hubDate('/categories/', Object.keys(CATEGORIES)), 'weekly', '0.8'),
+    entry('cuisines/', hubDate('/cuisines/', ctx.topCuisines), 'weekly', '0.8'),
+    entry('ingredients/', hubDate('/ingredients/', (ctx.hubs || []).map(h => h.slug)), 'weekly', '0.8'),
+    entry('search/', hubDate('/search/', allSlugs), 'monthly', '0.4'),
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
-    entry('about/', today, 'monthly', '0.5'),
-    entry('privacy/', today, 'yearly', '0.3'),
-    entry('contact/', today, 'monthly', '0.4')
+    entry('about/', hubDate('/about/', SITE.author), 'monthly', '0.5'),
+    entry('privacy/', hubDate('/privacy/', 'privacy-policy-v1'), 'yearly', '0.3'),
+    entry('contact/', hubDate('/contact/', 'contact-v1'), 'monthly', '0.4')
   ];
 
   for (const name of Object.keys(CATEGORIES)) {
-    urls.push(entry(`categories/${slug(name)}/`, today, 'weekly', '0.7'));
+    const list = recipes.filter(r => r.category === name).map(r => r.slug).sort();
+    urls.push(entry(`categories/${slug(name)}/`,
+      hubDate(`/categories/${slug(name)}/`, list), 'weekly', '0.7'));
   }
   for (const name of ctx.topCuisines) {
-    urls.push(entry(`cuisines/${slug(name)}/`, today, 'weekly', '0.7'));
+    const list = recipes.filter(r => r.cuisine === name).map(r => r.slug).sort();
+    urls.push(entry(`cuisines/${slug(name)}/`,
+      hubDate(`/cuisines/${slug(name)}/`, list), 'weekly', '0.7'));
   }
   for (const hub of ctx.hubs || []) {
-    urls.push(entry(`ingredients/${hub.slug}/`, today, 'weekly', '0.7'));
+    urls.push(entry(`ingredients/${hub.slug}/`,
+      hubDate(`/ingredients/${hub.slug}/`, hub.recipes.map(r => r.slug).sort()), 'weekly', '0.7'));
   }
   for (const recipe of recipes) {
     const image = recipe.imageData
@@ -542,7 +595,7 @@ function build() {
     heading: `All ${recipes.length} recipes`,
     eyebrow: 'The full directory',
     intro: 'Every recipe on Weekly Delight, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
-    description: `Browse all ${recipes.length} tested recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and cooking time.`,
+    description: `Browse all ${recipes.length} tested recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and cooking time. Free and no sign-up.`,
     keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter',
                'recipe index', 'full recipe list', 'browse by cuisine', 'browse by category',
                'filter recipes by diet', 'vegetarian recipes', 'vegan recipes',
@@ -560,7 +613,7 @@ function build() {
     heading: 'Search Weekly Delight',
     eyebrow: 'Find a recipe',
     intro: 'Search by dish, ingredient, cuisine or technique. Results update as you type and can be narrowed with the filters.',
-    description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet.`,
+    description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet. No sign-up needed.`,
     keywords: ['recipe search', 'find recipes by ingredient', 'search recipes',
                'search by ingredient', 'what can i cook with', 'recipe finder',
                'ingredient search', 'leftover ingredient recipes', 'cook with what i have',
@@ -600,10 +653,11 @@ function build() {
     writePage(`ingredients/${hub.slug}/index.html`, pages.taxonomyPage(ctx, {
       recipes: hub.recipes,
       title: `${hub.name} Recipes`,
+      titleHooks: [`— ${hub.recipes.length} Ways`],
       heading: `${hub.name} recipes`,
       eyebrow: 'Ingredient',
       intro: `${hub.blurb} ${plural(hub.recipes.length, 'recipe')} on the site call for ${hub.name.toLowerCase()}.`,
-      description: clamp(hubDescription(hub), 158),
+      description: enrichDescription(hubDescription(hub), TAIL_CLAUSES),
       keywords: keywordsForIngredient(hub),
       path: `ingredients/${hub.slug}/`,
       active: 'ingredients',
@@ -624,11 +678,14 @@ function build() {
     const list = recipes.filter(r => r.category === name).sort((a, b) => b.popularity - a.popularity);
     writePage(`categories/${slug(name)}/index.html`, pages.taxonomyPage(ctx, {
       recipes: list,
-      title: `${name} Recipes`,
+      title: `${categoryNoun(name)} Recipes`,
+      titleHooks: [`— ${list.length} Tested`],
       heading: `${name} recipes`,
       eyebrow: 'Category',
       intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, ranked by what readers cook most.`,
-      description: clamp(`${name} recipes from Weekly Delight: ${plural(list.length, 'tested dish', 'tested dishes')}. ${CATEGORIES[name]}`, 158),
+      description: enrichDescription(
+        `${plural(list.length, 'tested ' + categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
+        ['Filter by cuisine, diet, difficulty and time.', ...TAIL_CLAUSES]),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
       active: 'categories',
@@ -644,10 +701,14 @@ function build() {
     writePage(`cuisines/${slug(name)}/index.html`, pages.taxonomyPage(ctx, {
       recipes: list,
       title: `${name} Recipes`,
+      titleHooks: [`— ${list.length} Tested Dishes`, `— ${list.length} Tested`],
       heading: `${name} recipes`,
       eyebrow: `${meta.flag} Cuisine`,
       intro: `${meta.blurb} ${plural(list.length, 'tested ' + name + ' recipe')}, from the everyday to the ambitious.`,
-      description: clamp(`${plural(list.length, 'tested ' + name + ' recipe')} on Weekly Delight. ${meta.blurb}`, 158),
+      description: enrichDescription(
+        `${plural(list.length, 'tested ' + name + ' recipe')} on Weekly Delight. ${meta.blurb}`,
+        [`Authentic ${name} cooking explained step by step.`,
+         'With nutrition, timings and make-ahead notes.', ...TAIL_CLAUSES]),
       keywords: keywordsForCuisine(name, list),
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',
@@ -668,6 +729,10 @@ function build() {
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
   fs.writeFileSync(path.join(OUT, '_redirects'), '/*  /404.html  404\n');
+
+  /* Written after the sitemap, which is what asks for the dates. Committed, so
+     the next build on any machine agrees about what changed and when. */
+  const dateChanges = ctx.dates.save();
 
   /* The one-slot document that repeat native banner placements are framed
      from. Written only when there is a unit to put in it. */
@@ -715,6 +780,10 @@ function build() {
   console.log(`  total files  ${files.length}`);
   console.log(`  output size  ${(bytes / 1024 / 1024).toFixed(1)} MB`);
   console.log(`  origin       ${SITE.origin}${SITE.base}`);
+  if (dateChanges.added || dateChanges.changed || dateChanges.removed) {
+    console.log(`  lastmod      ${dateChanges.added} new, ${dateChanges.changed} changed, `
+      + `${dateChanges.removed} removed`);
+  }
 }
 
 if (require.main === module) {
