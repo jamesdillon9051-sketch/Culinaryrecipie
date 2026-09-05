@@ -786,7 +786,7 @@ module.exports = {
   'beef-stroganoff': {
     d: 'Strips of seared beef in a mustard and soured cream sauce with mushrooms, done in twenty-five minutes. It is a fast dish pretending to be a slow one, and it only fails if you boil the cream.',
     meta: 'Classic beef stroganoff with seared steak, mushrooms and a mustard soured cream sauce. Ready in 40 minutes.',
-    kw: ['beef stroganoff recipe', 'russian beef', 'soured cream sauce', 'quick beef dinner'],
+    kw: ['beef stroganoff recipe', 'russian beef', 'soured cream sauce', 'easy beef dinner'],
     why: 'Soured cream splits above about 80°C because its acidified proteins coagulate, so it goes in off the heat at the very end. Searing the beef in batches and removing it means the meat never simmers in liquid — it stays pink and tender while the sauce is built from its fond.',
     ing: [
       '700 g beef sirloin or fillet, cut into 1 cm strips',

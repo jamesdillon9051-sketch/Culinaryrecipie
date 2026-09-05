@@ -78,8 +78,13 @@ function hasAddedSugar(lines) {
  * @param {object} detail  the detail record, for `ing` and `nut`
  * @returns {string[]}
  */
-function derivedTags(detail) {
+function derivedTags(detail, tags_ = []) {
   const tags = [];
+  /* Every vegan dish is a vegetarian one. Eighty recipes carried Vegan without
+     Vegetarian, which left them out of the Vegetarian filter, off the
+     vegetarian keyword phrases and invisible to a reader who searches the
+     broader word — for no reason but that the second tag was typed by hand. */
+  if (tags_.includes('Vegan') && !tags_.includes('Vegetarian')) tags.push('Vegetarian');
   const [, protein, carbs, , fibre] = detail.nut || [];
   if (protein >= HIGH_PROTEIN_GRAMS) tags.push('High-Protein');
   if (carbs !== undefined && carbs <= LOW_CARB_GRAMS) tags.push('Low-Carb');

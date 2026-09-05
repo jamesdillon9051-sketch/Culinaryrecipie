@@ -162,7 +162,7 @@ module.exports = {
   'gado-gado': {
     d: 'Blanched and raw vegetables, tofu, tempeh and boiled egg under a warm peanut sauce, with prawn crackers on top. Indonesia\'s national salad, and a complete meal in a bowl.',
     meta: 'Gado-gado — Indonesian vegetable salad with tofu, tempeh and egg under a warm peanut and tamarind sauce.',
-    kw: ['gado gado recipe', 'indonesian salad', 'peanut sauce salad', 'vegetarian indonesian'],
+    kw: ['gado gado recipe', 'indonesian salad', 'peanut sauce salad', 'indonesian salad'],
     why: 'Each vegetable is blanched for its own precise time and refreshed in cold water, which keeps colours bright and textures distinct rather than uniformly soft. The sauce is served warm and slightly loose so it coats rather than clings, which is how it reaches every component.',
     ing: [
       '# For the salad',

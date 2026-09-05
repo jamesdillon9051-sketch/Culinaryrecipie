@@ -239,19 +239,25 @@ Everything below is implemented and verified by `npm run check` on every build.
       well-known, authoritative government and health sites. This markup is
       correct and it will not put an accordion under the search result. The gain
       is a page that answers what people actually ask
-- [x] `keywords` meta on recipe and taxonomy pages — 4 curated phrases per recipe,
-      widened to ~46 by `src/lib/keywords.js` from the row's own cuisine, category,
-      times, difficulty, diet tags, servings, ingredients, per-serving nutrition and
-      storage note (27,467 in total, 23,499 of them distinct). Derived rather than
-      written, so a phrase is only emitted where the data backs it: "gluten free X"
-      needs the tag, "30 minute X" needs the times, "low calorie X" needs fewer than
-      400 kcal a serving, "can you freeze X" needs the storage note to say so. A
-      script checks all 809 recipes against those conditions and currently reports
-      no unsupported claim
-- [x] The Recipe JSON-LD takes only the first 12 of them. Google's structured-data
-      guidance asks `keywords` for "other terms for your recipe", and forty-six
-      phrases in that field is the shape of a manual action — the meta tag and the
-      site's own search index carry the full list instead
+- [x] Keywords — 4 curated phrases per recipe, widened to a median of 87 by
+      `src/lib/keywords.js` from the row's own cuisine, category, times,
+      difficulty, diet tags, servings, ingredients, cooking method, pairings,
+      per-serving nutrition and storage note. Derived rather than written, so a
+      phrase is only emitted where the data backs it: "gluten free X" needs the
+      tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
+      kcal a serving, "can you freeze X" needs the storage note to say so,
+      "baked X" needs the method to use an oven
+- [x] `node tools/keyword-audit.js` checks all 71,555 of them back against the
+      records, one rule per claim a phrase can make. It fails the build, and
+      `npm run check` runs it
+- [x] The three places the list goes are sized separately, because the safe
+      length is different in each. The Recipe JSON-LD takes 12: Google's
+      guidance asks `keywords` for "other terms for your recipe", and ninety
+      phrases there is the shape of a manual action. The `keywords` meta tag
+      takes 25 — Google has ignored it since 2009 so length buys no ranking,
+      and Bing has said a stuffed one reads as spam, which makes a
+      four-kilobyte tag all downside. The site's own search index takes
+      everything, because that is the one consumer that gains from volume
 - [ ] **Cookie consent — built, and currently switched off.** `src/data/consent.js`
       has `enabled: false`, so analytics and advertising load with the page as they
       always did and ad revenue is unaffected. Setting it to `true` restores real
@@ -557,6 +563,118 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## Keywords, and the script that was supposed to be checking them
+
+The README said, for three volumes running, that "a script checks all 809
+recipes against those conditions and currently reports no unsupported claim".
+There was no such script. The conditions were real and they were enforced where
+the phrases were generated, but nothing read the finished list back, and four
+curated keywords a recipe come from a person rather than a rule.
+
+`tools/keyword-audit.js` is that script now. It carries one rule per claim a
+phrase can make — the diet words against the tags, "quick" and "30 minute"
+against prep plus cook, "baked" and "deep fried" against the method, "low
+calorie" and "high protein" against the per-serving figures, "can you freeze
+this" against the storage note — and a keyword making a claim its own record
+cannot support fails the build. It found 1,067 on the first run.
+
+Most were a gate I had just written too loosely, but thirty were phrases
+somebody typed. Ceviche was still selling itself as a keto seafood recipe on
+twenty grams of net carbohydrate, which is the third time that one dish has
+turned up in an audit for the same reason. Samosas were vegan with ghee in the
+pastry. Gado-gado was vegetarian with shrimp paste in the sauce. Egg bites were
+a high-protein breakfast at eleven grams. Shakshuka verde was baked eggs cooked
+entirely on the hob.
+
+Five phrases were true and unprovable — shakshuka really is one pan, an
+uitsmijter really is fried eggs — and those sit in a named `ALLOW` table with a
+line each saying why, the same escape hatch the timing audit keeps.
+
+With the gates trustworthy the list could safely get much longer. It now reads
+the cooking method out of the steps, the pairings, the rest time, the servings
+and three more nutrition thresholds, which took the median from 46 phrases a
+recipe to 88 and the total to 71,555.
+
+Then the three consumers were sized separately, because the safe length is
+different for each. The Recipe JSON-LD keeps 12, which is what Google's
+guidance asks for. The `keywords` meta tag keeps 25: Google has ignored it
+since 2009 so length there buys nothing, and Bing has said a stuffed one reads
+as spam, which makes a four-kilobyte tag pure downside. The site's own search
+index takes all of them, and that is the one place volume genuinely pays.
+
+## The index that got smaller by doubling
+
+Feeding ninety keywords a recipe into `search-index.json` took it from 1.28 MB
+to 1.84 MB — half a megabyte more before the search box answers anything.
+
+But `assets/js/app.js` splits a query on whitespace and requires each term to
+appear as a substring. Matching is per word, and a word present ten times
+matches no better than a word present once. Ninety phrases about one dish are
+mostly the same forty words over and over. Keeping one copy of each takes the
+file to 970 KB — a quarter smaller than before the keywords doubled.
+
+Checked against the old index across thirty queries, that costs three results
+and gains 887. The three are dakgalbi, shogayaki and chia pudding leaving
+"stir fry" and "overnight", which is the audit's doing and correct: the first
+two are cooked in a pan without much stirring, and the third chills for four
+hours.
+
+One thing the same comparison caught: the anti-stuffing rule that rejects
+"spaghetti carbonara with spaghetti" was also rejecting every phrase for Dan
+Dan Noodles, Piri Piri Chicken and Moin Moin, which are simply called that.
+They had a third of the keywords of every other recipe. A word the dish's own
+name says twice is not the generator stuttering, and is now exempt.
+
+## Ten quick meals that were not
+
+The Quick Meals page prints "Thirty minutes or less, start to plate" above
+whatever is filed under it. Ten recipes were over it, lángos at ninety minutes.
+The keyword audit found them, because a category called Quick Meals puts
+"quick" into a dozen phrases on every page beneath it.
+
+They have moved to Lunch and Dinner, and the build now refuses a Quick Meals
+recipe over thirty minutes of hands-on work. A category description is a
+promise, and this one had no witness.
+
+## Vegan but not vegetarian
+
+Eighty recipes carried the Vegan tag without the Vegetarian one. Every vegan
+dish is a vegetarian dish, so all eighty were missing from the Vegetarian
+filter, from the vegetarian keyword phrases and from any search for the broader
+word — for no reason except that the second tag was typed by hand and typing is
+where tags go wrong. Vegetarian is now derived from Vegan the way Keto and
+Low-Carb are derived from the nutrition figures, which took the count from 353
+to 433.
+
+## Smaller SEO repairs
+
+The hero image is the largest thing above the fold on a recipe page, which
+makes it what Largest Contentful Paint measures, and nothing preloaded it — the
+`preload` hook in `src/templates/layout.js` had been written and never passed
+an argument. It now carries the WebP hero on all 809 recipe pages.
+
+Six of those heroes are 640x480 and every page declared them 800x600, which is
+a hardcoded number where a real one was available in `images.json`. A wrong
+intrinsic size reserves the wrong box and the page jumps when the file lands,
+which is the layout shift a reader feels. Both image tags now read the
+manifest, `og:image:width` follows, and `npm run check` compares every declared
+size against the file.
+
+The Recipe JSON-LD was publishing `suitableForDiet: LowCalorieDiet` for
+anything tagged Low-Carb or Keto. Schema.org has no value for either, and
+LowCalorieDiet is a different claim — keto cooking is frequently the opposite.
+Those two mappings are gone; LowCalorieDiet, LowFatDiet and LowSaltDiet are now
+emitted from the calorie, fat and sodium figures, where the number is the
+evidence. An empty `tool: []` went with them.
+
+Recipe pages also gained `article:published_time`, `article:modified_time` and
+`article:section`, the two labelled facts Twitter renders under a card, and a
+self-referencing `hreflang` pair. Fourteen ingredient hubs were describing
+themselves in under seventy characters and handing back half the snippet Google
+was willing to print; they now name the cuisines they actually hold and the
+quickest recipe on the page, and stop on a whole sentence rather than an
+ellipsis.
 
 ## The soak nobody declared
 

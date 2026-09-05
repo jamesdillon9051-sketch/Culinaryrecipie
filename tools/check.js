@@ -246,6 +246,28 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
   }
 }
 
+/* Declared image sizes have to be the real ones. A wrong width and height
+   reserves the wrong box before the file arrives, and the page jumps when it
+   does — the Cumulative Layout Shift a reader feels and Core Web Vitals
+   measures. Six recipe heroes were 640x480 under a hardcoded 800x600. */
+for (const [slug, entry] of Object.entries(manifest)) {
+  const file = path.join(DIST, 'recipes', slug, 'index.html');
+  if (!fs.existsSync(file)) continue;
+  const html = fs.readFileSync(file, 'utf8');
+  for (const kind of ['hero', 'process']) {
+    const image = entry[kind];
+    if (!image) continue;
+    const tag = new RegExp(`<img[^>]*${image.file}\\.jpg"[^>]*>`).exec(html);
+    if (!tag) continue;
+    const w = /width="(\d+)"/.exec(tag[0]);
+    const h = /height="(\d+)"/.exec(tag[0]);
+    if (!w || !h) { problems.push(`${slug} ${kind} image has no width or height`); continue; }
+    if (Number(w[1]) !== image.w || Number(h[1]) !== image.h) {
+      problems.push(`${slug} ${kind} image declares ${w[1]}x${h[1]} but the file is ${image.w}x${image.h}`);
+    }
+  }
+}
+
 /* --- deployment headers -------------------------------------------------- */
 const netlify = fs.readFileSync(path.join(__dirname, '..', 'netlify.toml'), 'utf8');
 const vercel = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'vercel.json'), 'utf8'));
@@ -350,7 +372,11 @@ try {
 /* Both are numbers a reader plans around and cannot verify before committing:
    whether dinner is an hour away or a day away, and what a serving costs them.
    Neither survives being quietly wrong, so both fail the check. */
-for (const audit of ['timing-audit.js', 'nutrition-audit.js']) {
+/* Keywords go in the same list. A keyword is a promise made to somebody
+   before they open the page — "gluten free", "30 minute", "can you freeze
+   this" — and it is the one kind of claim nobody re-reads after editing a
+   recipe, so it fails the check like the rest. */
+for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js']) {
   try {
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, audit)], { stdio: 'pipe' });

@@ -214,7 +214,7 @@ module.exports = {
   'shakshuka-verde': {
     d: 'The green version: eggs baked into a pan of wilted greens, leek and herbs rather than tomato, with feta and a lemony crunch on top. Faster than the red one and lighter.',
     meta: 'Green shakshuka — eggs baked into wilted greens, leek and herbs with feta, in twenty minutes and one pan.',
-    kw: ['green shakshuka', 'shakshuka verde', 'baked eggs greens', 'spinach eggs skillet'],
+    kw: ['green shakshuka', 'shakshuka verde', 'green shakshuka eggs', 'spinach eggs skillet'],
     why: 'Greens hold a great deal of water and the eggs will not set in a wet pan, so the leeks and greens are cooked until the base is genuinely dry before the wells are made. Cooking the eggs covered is the other half: the lid traps steam that sets the tops of the whites at the same time as the base cooks, so you are not choosing between a raw white and a hard yolk. Take it off when the whites are just opaque, because the pan carries on cooking them for a minute afterwards.',
     ing: [
       '3 tbsp olive oil',
@@ -347,7 +347,7 @@ module.exports = {
   'egg-bites': {
     d: 'Cooked in a bain-marie so they set like custard rather than scrambling into rubber. Twelve of them, and they reheat properly, which is the whole reason to bother.',
     meta: 'Bacon and Cheddar egg bites baked in a bain-marie so they set like custard — soft, silky and good reheated.',
-    kw: ['egg bites', 'sous vide egg bites', 'egg muffins bacon', 'high protein breakfast'],
+    kw: ['egg bites', 'sous vide egg bites', 'egg muffins bacon', 'low carb breakfast'],
     why: 'Egg protein sets somewhere around 65 to 70°C, and above that it contracts and squeezes out water — the reason a baked egg muffin turns spongy and weeps. A water bath keeps the surrounding temperature at 100°C but the mixture climbs slowly and evenly, so it reaches setting point and stops. The cottage cheese is doing the same work as cream in a custard: its fat and protein get between the egg proteins and stop them binding too tightly.',
     ing: [
       '8 rashers streaky bacon',

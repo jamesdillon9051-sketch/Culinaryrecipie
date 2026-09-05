@@ -76,7 +76,7 @@ module.exports = [
   c('tacos-al-pastor', 'Tacos al Pastor', 'Mexican', 'Dinner', 'Medium', 30, 40, 6, 4.9, 3877, ['Dairy-Free'], ['editors', 'trending'], 'Tacos al pastor'),
   c('chicken-enchiladas', 'Chicken Enchiladas Rojas', 'Mexican', 'Dinner', 'Medium', 25, 35, 6, 4.8, 3204, ['Gluten-Free'], [], 'Enchiladas'),
   c('carnitas', 'Slow-Braised Carnitas', 'Mexican', 'Dinner', 'Easy', 20, 180, 8, 4.9, 2688, ['Gluten-Free'], [], 'Carnitas pork'),
-  c('fish-tacos', 'Baja Fish Tacos', 'Mexican', 'Quick Meals', 'Easy', 20, 15, 4, 4.7, 2140, [], [], 'Fish tacos'),
+  c('fish-tacos', 'Baja Fish Tacos', 'Mexican', 'Dinner', 'Easy', 20, 15, 4, 4.7, 2140, [], [], 'Fish tacos'),
   c('quesadillas', 'Cheese Quesadillas', 'Mexican', 'Quick Meals', 'Easy', 10, 10, 2, 4.5, 1622, ['Vegetarian'], [], 'Quesadilla'),
   c('huevos-rancheros', 'Huevos Rancheros', 'Mexican', 'Breakfast', 'Easy', 10, 20, 2, 4.7, 1493, ['Vegetarian', 'Gluten-Free'], [], 'Huevos rancheros'),
   c('chili-con-carne', 'Chili con Carne', 'Mexican', 'Dinner', 'Easy', 20, 90, 6, 4.7, 2911, ['Gluten-Free', 'Dairy-Free'], [], 'Chili con carne'),

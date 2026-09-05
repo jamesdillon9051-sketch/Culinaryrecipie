@@ -537,7 +537,7 @@ module.exports = {
   'japchae': {
     d: 'Chewy sweet potato noodles tossed with individually stir-fried vegetables and a sesame-soy dressing. Naturally gluten-free, good hot or at room temperature, and a fixture of every Korean celebration.',
     meta: 'Korean japchae with chewy sweet potato noodles and sesame-dressed vegetables. Naturally gluten-free and vegan.',
-    kw: ['japchae recipe', 'korean glass noodles', 'sweet potato noodles', 'gluten free noodles'],
+    kw: ['japchae recipe', 'korean glass noodles', 'sweet potato noodles', 'sweet potato noodles'],
     why: 'Sweet potato starch noodles have no gluten and a very high amylopectin content, giving them their springy chew — but they turn gummy if overcooked, so they are boiled briefly and rinsed. Cooking each vegetable separately keeps colours distinct and prevents the wetter ones from steaming the rest.',
     ing: [
       '250 g dangmyeon (sweet potato glass noodles)',

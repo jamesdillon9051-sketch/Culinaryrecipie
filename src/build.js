@@ -24,6 +24,41 @@ const { build: buildHubs } = require('./lib/ingredient-hubs');
 const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
 const { derivedTags } = require('./lib/diet-derived');
+/**
+ * The meta description for an ingredient hub.
+ *
+ * The blurbs are a short phrase each — "Silken, firm and fried" — which left
+ * fourteen of these pages describing themselves in under seventy characters
+ * and handing back half the snippet Google was willing to print. The rest is
+ * derived from the hub itself, so it stays true as recipes come and go: the
+ * cuisines actually represented, and the quickest hands-on time on the page.
+ */
+function hubDescription(hub) {
+  const list = hub.recipes || [];
+  const cuisines = [...new Set(list.map(r => r.cuisine))].slice(0, 3);
+  const quickest = Math.min(...list.map(r => r.prep + r.cook));
+  const name = hub.name.toLowerCase();
+
+  /* Sentences are added only while the whole one fits. Clamping mid-phrase
+     spends the snippet on an ellipsis, which reads worse than stopping early. */
+  let text = `${plural(list.length, name + ' recipe')} on Weekly Delight.`;
+  const fit = sentence => {
+    if (text.length + sentence.length + 1 <= 158) text += ` ${sentence}`;
+  };
+  fit(hub.blurb);
+  if (cuisines.length > 1) {
+    fit(`${cuisines.slice(0, -1).join(', ')} and ${cuisines[cuisines.length - 1]} dishes`
+      + (Number.isFinite(quickest) ? `, from ${quickest} minutes.` : '.'));
+  } else if (Number.isFinite(quickest)) {
+    fit(`From ${quickest} minutes.`);
+  }
+  fit('Each with nutrition, method and the reasoning behind it.');
+  return text;
+}
+
+/* What the Quick Meals category page promises its readers. */
+const QUICK_MEAL_MINUTES = 30;
+
 const { expand: expandKeywords, forCategory: keywordsForCategory,
         forCuisine: keywordsForCuisine, forIngredient: keywordsForIngredient,
         searchTerms } = require('./lib/keywords');
@@ -168,6 +203,13 @@ function loadRecipes() {
     if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
       throw new Error(`"${row.slug}" rest must be [minutes, label]`);
     }
+    /* The Quick Meals page prints "Thirty minutes or less, start to plate" over
+       whatever is filed under it, so the category is a promise and not a shelf.
+       Ten recipes had drifted past it, one of them at ninety minutes. */
+    if (row.category === 'Quick Meals' && row.prep + row.cook > QUICK_MEAL_MINUTES) {
+      throw new Error(`"${row.slug}" is filed under Quick Meals but needs `
+        + `${row.prep + row.cook} minutes of hands-on work, over the ${QUICK_MEAL_MINUTES} the category promises`);
+    }
 
     const image = validateImage(images[row.slug] || {}, row.slug);
     const recency = row.badges.includes('new') ? index * 2 : 40 + index * 5;
@@ -176,7 +218,7 @@ function loadRecipes() {
     /* Derived tags join the hand-written ones. They are computed from the
        nutrition figures and ingredient list, so they cannot fall out of step
        with the recipe the way the typed ones did. */
-    const tags = [...row.tags, ...derivedTags(detail).filter(tag => !row.tags.includes(tag))];
+    const tags = [...row.tags, ...derivedTags(detail, row.tags).filter(tag => !row.tags.includes(tag))];
 
     const built = {
       ...row,
@@ -303,13 +345,36 @@ function searchIndex(recipes) {
     i: r.imageData ? r.imageData.file : null,
     k: r.imageData ? r.imageData.color : null,
     /* Pre-lowered searchable blob: title, cuisine, category, tags,
-       keywords and every ingredient name. */
-    s: [
+       keywords and every ingredient name, reduced to its distinct words.
+       assets/js/app.js splits a query on whitespace and requires every term
+       to appear as a substring, so matching is per word and a word present
+       twice matches no better than a word present once. Ninety keyword
+       phrases repeat the same forty words; keeping one copy of each leaves
+       every query that worked working and takes a third off the file every
+       visitor downloads before the search box responds. */
+    s: distinctWords([
       r.title, r.cuisine, r.category, r.difficulty,
       r.tags.join(' '), searchTerms(r.title, r.keywords).join(' '),
       plainList(r.ingredients).join(' ')
-    ].join(' ').toLowerCase()
+    ].join(' '))
   }));
+}
+
+/**
+ * The distinct words of a blob, lowered, in first-seen order.
+ *
+ * Order is kept so the title's own words come first, which costs nothing and
+ * makes the file readable when something needs debugging.
+ */
+function distinctWords(text) {
+  const seen = new Set();
+  const out = [];
+  for (const word of text.toLowerCase().split(/\s+/)) {
+    if (!word || seen.has(word)) continue;
+    seen.add(word);
+    out.push(word);
+  }
+  return out.join(' ');
 }
 
 /* --------------------------------------------------------- site plumbing */
@@ -538,7 +603,7 @@ function build() {
       heading: `${hub.name} recipes`,
       eyebrow: 'Ingredient',
       intro: `${hub.blurb} ${plural(hub.recipes.length, 'recipe')} on the site call for ${hub.name.toLowerCase()}.`,
-      description: clamp(`${plural(hub.recipes.length, hub.name.toLowerCase() + ' recipe')} on Weekly Delight. ${hub.blurb}`, 158),
+      description: clamp(hubDescription(hub), 158),
       keywords: keywordsForIngredient(hub),
       path: `ingredients/${hub.slug}/`,
       active: 'ingredients',

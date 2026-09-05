@@ -73,6 +73,9 @@ function replacements(root) {
   const faqCount = recipes.reduce((n, r) => n + questions(r).length, 0);
   const perRecipe = (faqCount / recipes.length).toFixed(1);
   const withRest = recipes.filter(r => r.restTime).length;
+  const keywordCounts = recipes.map(r => r.keywords.length).sort((a, b) => a - b);
+  const medianKeywords = keywordCounts[keywordCounts.length >> 1];
+  const totalKeywords = keywordCounts.reduce((n, c) => n + c, 0);
   const rated = recipes.filter(r => r.rating).length;
   const { catalogFiles, detailDirs } = require('../src/data/volumes');
   const catalogs = catalogFiles();
@@ -115,8 +118,14 @@ function replacements(root) {
      `**FAQPage** on all ${s.recipeCount} recipe pages and the about page — `
        + `${faqCount.toLocaleString('en-GB')} questions,\n      about ${perRecipe} a recipe`],
 
-    [/script checks all \d[\d,]* recipes against those conditions/,
-     `script checks all ${s.recipeCount} recipes against those conditions`],
+    /* Both keyword figures. They moved every time the generator gained a
+       pattern, and the sentence claiming a script checked them was in the
+       README for three volumes before tools/keyword-audit.js existed. */
+    [/widened to a median of \d+ by/,
+     `widened to a median of ${medianKeywords} by`],
+
+    [/checks all [\d,]+ of them back against/,
+     `checks all ${totalKeywords.toLocaleString('en-GB')} of them back against`],
 
     [/the other \d[\d,]* carry seeded/,
      `the other ${rated} carry seeded`],

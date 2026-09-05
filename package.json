@@ -17,7 +17,8 @@
     "readme": "node tools/sync-readme.js",
     "diet": "node tools/diet-audit.js",
     "timing": "node tools/timing-audit.js",
-    "nutrition": "node tools/nutrition-audit.js"
+    "nutrition": "node tools/nutrition-audit.js",
+    "keywords": "node tools/keyword-audit.js"
   },
   "keywords": [
     "recipes",

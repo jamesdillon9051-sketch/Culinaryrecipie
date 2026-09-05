@@ -498,7 +498,7 @@ module.exports = {
   'samosas': {
     d: 'Properly made samosas have a blistered, flaky shell that stays crisp for hours — the result of a stiff dough enriched with ghee and a low, slow fry. The spiced potato and pea filling is the easy part.',
     meta: 'Crisp Punjabi samosas with a blistered flaky shell and spiced potato-pea filling. The low-and-slow frying method.',
-    kw: ['samosa recipe', 'punjabi samosa', 'indian snack', 'vegan appetizer'],
+    kw: ['samosa recipe', 'punjabi samosa', 'indian snack', 'vegetarian appetizer'],
     why: 'Rubbing ghee thoroughly into the flour before adding water coats the starch and physically blocks gluten development, which is what produces a short, flaky shell rather than a chewy one. Frying at a low 140°C for the first several minutes cooks the pastry through and blisters it; a hot fry would brown the outside while leaving raw dough beneath.',
     ing: [
       '# For the pastry',

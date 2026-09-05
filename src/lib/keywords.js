@@ -80,6 +80,16 @@ const PANTRY = new Set([
   'plain flour', 'all-purpose flour', 'flour'
 ]);
 
+/**
+ * Cooking time at or above which a dish may be called slow-cooked.
+ *
+ * Ninety minutes rather than two hours: a chilli that simmers for an hour and a
+ * half is slow-cooked by any ordinary reading, and the figure is exported so
+ * that tools/keyword-audit.js tests the phrase against the same line the
+ * generator emits it on.
+ */
+const SLOW_COOK_MINUTES = 90;
+
 const clean = s => String(s || '').trim().replace(/\s+/g, ' ');
 const lower = s => clean(s).toLowerCase();
 
@@ -126,30 +136,95 @@ function headlineIngredients(lines, limit = 3) {
   return out;
 }
 
+/* Fixed phrases whose repeated word is idiom rather than stuffing. */
+const IDIOM = /\bstep by step\b|\bside by side\b|\bday by day\b/;
+
+/**
+ * Whether a phrase says the same word twice.
+ *
+ * "spaghetti carbonara with spaghetti" and "beef bourguignon with beef chuck"
+ * are what you get when a dish is named after its own main ingredient, and they
+ * are the shape a search engine reads as stuffing. Short words are ignored so
+ * that "in", "a" and "to" may repeat; "step by step" is idiom, not a repeat.
+ */
+function repeatsAWord(value, allowed) {
+  if (IDIOM.test(value)) return false;
+  const words = value.split(' ').filter(w => w.length > 2 && !(allowed && allowed.has(w)));
+  return new Set(words).size !== words.length;
+}
+
+/**
+ * Words a dish's own name says twice.
+ *
+ * Dan Dan Noodles, Piri Piri Chicken and Moin Moin are called that. Reading
+ * their repeat as stuffing cut them to a third of the keywords every other
+ * recipe gets, and took them out of results they used to reach.
+ */
+function ownRepeats(title) {
+  const counts = new Map();
+  for (const word of title.split(/[^a-z0-9]+/)) {
+    if (word.length > 2) counts.set(word, (counts.get(word) || 0) + 1);
+  }
+  return new Set([...counts].filter(([, n]) => n > 1).map(([w]) => w));
+}
+
+/**
+ * What the method actually does, read from the steps.
+ *
+ * Every phrase built from this describes the recipe on the page rather than
+ * guessing from the dish name: a "grilled cheese" is fried in a pan, and a
+ * keyword calling it grilled would send a reader somewhere the page does not go.
+ */
+function methods(recipe) {
+  const steps = lower((recipe.steps || recipe.st || []).join(' '));
+  const has = re => re.test(steps);
+  return {
+    oven: has(/\b(?:bake|bakes|baked|baking|roast|roasts|roasted|roasting)\b|\boven\b/),
+    grill: has(/\b(?:grill|grills|grilled|grilling|griddle|griddled|barbecue|barbecued)\b/),
+    fry: has(/\b(?:fry|fries|fried|frying|saut[eé]|saut[eé]s|saut[eé]ed)\b/),
+    deepFry: has(/\bdeep[- ]fr(?:y|ies|ied|ying)\b|\bdeep fat\b|\boil to 1[7-9]\d\s*°?c\b|\bdeep(?: heavy)? (?:pan|pot|saucepan|fryer)\b/),
+    wok: has(/\bwok\b/),
+    stirFry: has(/\bstir[- ]fr(?:y|ies|ied|ying)\b|\bwok\b/),
+    slowCooker: has(/\bslow cooker\b|\bcrock ?pot\b/),
+    pressure: has(/\bpressure cooker\b|\binstant pot\b/),
+    steam: has(/\bsteam(?:s|ed|ing|er)?\b/),
+    blend: has(/\b(?:blend|blends|blended|blender|food processor|liquidise|liquidiser)\b/),
+    onePan: has(/\bone[- ](?:pan|pot|tray)\b|\btraybake\b/),
+    boil: has(/\b(?:boil|boils|boiled|boiling|simmer|simmers|simmered|simmering|poach|poaches|poached)\b/)
+  };
+}
+
 /**
  * Expand one recipe's keywords.
+ *
+ * Every phrase below is gated on something the record actually holds, because
+ * the list is checked back against the data by tools/keyword-audit.js. A phrase
+ * with no evidence behind it fails the build rather than shipping.
  *
  * @param {object} recipe  catalog row plus its detail fields
  * @param {number} limit   hard cap, so a long ingredient list cannot run away
  * @returns {string[]}     curated keywords first, then derived, deduplicated
  */
-function expand(recipe, limit = 60) {
+function expand(recipe, limit = 160) {
   const title = lower(recipe.title);
   const cuisine = lower(recipe.cuisine);
   const category = recipe.category;
   const total = (recipe.prep || 0) + (recipe.cook || 0);
   const tags = recipe.tags || [];
   const storage = lower(recipe.storage || recipe.store || '');
+  const titleWords = new Set(title.split(/[^a-z0-9]+/).filter(w => w.length > 2));
 
   const out = [];
   const seen = new Set();
+  const repeated = ownRepeats(title);
   const add = phrase => {
     const value = lower(phrase);
-    /* Two guards. A phrase that repeats a word it already contains reads as
-       stuffing ("authentic italian italian ragu"), and near-duplicates waste
-       the cap without widening what the search box can find. */
+    /* Three guards. A phrase that repeats a word it already contains reads as
+       stuffing, an over-long one is not a query anybody types, and duplicates
+       waste the cap without widening what the search box can find. */
     if (!value || seen.has(value)) return;
     if (value.split(' ').length > 9) return;
+    if (repeatsAWord(value, repeated)) return;
     seen.add(value);
     out.push(value);
   };
@@ -163,6 +238,7 @@ function expand(recipe, limit = 60) {
   add(`homemade ${title}`);
   add(`best ${title} recipe`);
   add(`${title} recipe from scratch`);
+  add(`${title} at home`);
 
   /* Accented titles get an unaccented twin of every phrase built so far. It is
      the same recipe under the spelling a keyboard produces. */
@@ -177,18 +253,28 @@ function expand(recipe, limit = 60) {
     add(`${cuisine} ${title}`);
     add(`authentic ${cuisine} ${title}`);
     add(`traditional ${cuisine} recipe`);
+    add(`${cuisine} recipes`);
   }
   if (cuisine) {
     add(`${cuisine} food`);
     add(`${cuisine} cooking`);
+    add(`${cuisine} food at home`);
     const noun = CATEGORY_NOUN[category];
     if (noun) add(`${cuisine} ${noun}`);
   }
 
   const noun = CATEGORY_NOUN[category];
+  const adjective = CATEGORY_ADJECTIVE[category];
+  /* "easy dinner recipe" is a claim about this dish, not a label for the
+     category it sits in, so it waits for the difficulty check below. */
   if (noun) {
     add(`${title} ${noun}`);
-    add(`easy ${noun}`);
+    add(`best ${noun}`);
+  }
+  if (adjective) {
+    add(`${adjective} recipes`);
+    add(`${adjective} ideas`);
+    if (cuisine) add(`${cuisine} ${adjective} recipes`);
   }
 
   /* Time, difficulty and diet are only asserted where the row backs them. */
@@ -196,33 +282,104 @@ function expand(recipe, limit = 60) {
     add(`quick ${title}`);
     add(`${total} minute ${title}`);
     add(`${title} in under 30 minutes`);
+    add(`${title} in ${total} minutes`);
+    if (cuisine) add(`quick ${cuisine} recipes`);
+    if (adjective) add(`quick ${adjective} recipes`);
   } else if (total && total <= 60) {
     add(`${title} in an hour`);
+    add(`${title} in ${total} minutes`);
   }
-  if (recipe.cook >= 120) add(`slow cooked ${title}`);
+  if (recipe.cook >= SLOW_COOK_MINUTES) {
+    add(`slow cooked ${title}`);
+    add(`slow ${title}`);
+  }
+  /* Rest is unattended time the record declares, so a dish that proves or
+     marinates overnight can honestly be searched for as one. */
+  if (recipe.restTime >= 480) {
+    add(`overnight ${title}`);
+    add(`${title} the day before`);
+  }
   /* "Easy" is a claim about this recipe, not a phrase to attach to all of them:
      a reader who searches it and lands on a three-hour braise has been misled,
      and the difficulty is right there in the row. */
   if (recipe.difficulty === 'Easy') {
+    add(`easy ${title}`);
     add(`easy ${title} recipe`);
     add(`${title} for beginners`);
     add(`simple ${title}`);
+    add(`beginner ${title}`);
+    if (noun) add(`easy ${noun}`);
+    if (adjective) add(`easy ${adjective} recipes`);
   }
   for (const tag of tags) {
     const word = DIET_WORD[tag];
-    if (word) { add(`${word} ${title}`); add(`${word} ${cuisine} recipe`); }
+    if (!word) continue;
+    add(`${word} ${title}`);
+    add(`${word} ${cuisine} recipe`);
+    if (noun) add(`${word} ${noun}`);
+    add(`is ${title} ${word}`);
+    add(`${word} recipes`);
   }
-  if (recipe.servings) add(`${title} for ${recipe.servings}`);
+  if (recipe.servings) {
+    add(`${title} for ${recipe.servings}`);
+    if (recipe.servings <= 2) add(`${title} for two`);
+    if (recipe.servings >= 6) {
+      add(`${title} for a crowd`);
+      add(`${title} for a party`);
+      add(`big batch ${title}`);
+    }
+  }
 
   /* What the dish is made of, and the two questions every recipe page is
      asked. Both are answered on the page, so both are fair to index. */
-  for (const ing of headlineIngredients(recipe.ingredients || recipe.ing)) {
+  const headline = headlineIngredients(recipe.ingredients || recipe.ing);
+  for (const ing of headline) {
     add(`${title} with ${ing}`);
     add(`${ing} ${noun || 'recipe'}`);
+    add(`recipes with ${ing}`);
+    add(`what to make with ${ing}`);
   }
+  if (headline.length >= 2) add(`${headline[0]} and ${headline[1]} recipe`);
+
+  /* How the food is actually cooked, read from the method rather than the name. */
+  const how = methods(recipe);
+  if (how.oven) { add(`baked ${title}`); add(`oven baked ${title}`); add(`${title} in the oven`); }
+  if (how.grill) add(`grilled ${title}`);
+  if (how.fry) add(`fried ${title}`);
+  if (how.deepFry) add(`deep fried ${title}`);
+  if (how.stirFry) add(`${title} stir fry`);
+  if (how.wok) add(`${title} in a wok`);
+  if (how.slowCooker) add(`slow cooker ${title}`);
+  if (how.pressure) add(`pressure cooker ${title}`);
+  if (how.steam) add(`steamed ${title}`);
+  if (how.blend) add(`blended ${title}`);
+  if (how.onePan) { add(`one pan ${title}`); add(`one pot ${title}`); }
+  if (how.boil) add(`boiled ${title}`);
+  /* A cook time of zero means the method never applies heat — the timing audit
+     fails the build otherwise — so "no cook" is a fact about this recipe. */
+  if (recipe.cook === 0) {
+    add(`no cook ${title}`);
+    add(`${title} without cooking`);
+  }
+  if (!how.oven && (category === 'Baking' || category === 'Desserts')) {
+    add(`no bake ${title}`);
+  }
+
   add(`what to serve with ${title}`);
   add(`how to store ${title}`);
-  if (/freez/.test(storage)) add(`can you freeze ${title}`);
+  if (recipe.pairings && recipe.pairings.length) {
+    add(`${title} side dishes`);
+    add(`what goes with ${title}`);
+  }
+  if (recipe.tips && recipe.tips.length) {
+    add(`${title} tips`);
+    add(`how to make perfect ${title}`);
+  }
+  if (storage) add(`how long does ${title} last`);
+  if (/freez/.test(storage)) {
+    add(`can you freeze ${title}`);
+    add(`freezing ${title}`);
+  }
   if (/reheat/.test(storage)) add(`how to reheat ${title}`);
   if (/refrigerat|keeps|chill/.test(storage)) {
     add(`make ahead ${title}`);
@@ -239,20 +396,28 @@ function expand(recipe, limit = 60) {
   add(`${title} calories`);
   add(`printable ${title} recipe`);
   add(`how long to cook ${title}`);
+  add(`how long does ${title} take`);
   add(`what is ${title}`);
+  add(`${title} prep time`);
+  add(`${title} method`);
+  add(`${title} instructions`);
   if (recipe.imageData) add(`${title} recipe with photos`);
 
   /* Nutrition claims come off the per-serving figures the page prints, so a
      dish is only called low-calorie or high-protein when its own numbers say
      so. The thresholds are the ordinary ones a reader would assume. */
-  const [kcal, protein, , , fibre] = recipe.nutrition || recipe.nut || [];
+  const [kcal, protein, , fat, fibre, sugar, sodium] = recipe.nutrition || recipe.nut || [];
   if (kcal) {
     add(`${title} calories per serving`);
-    if (kcal < 400) add(`low calorie ${title}`);
-    if (kcal < 400) add(`light ${title}`);
+    add(`how many calories in ${title}`);
+    if (kcal < 400) { add(`low calorie ${title}`); add(`light ${title}`); }
+    if (kcal < 300) add(`${title} under 300 calories`);
   }
   if (protein >= 30) add(`high protein ${title}`);
   if (fibre >= 8) add(`high fibre ${title}`);
+  if (fat !== undefined && fat <= 10) add(`low fat ${title}`);
+  if (sugar !== undefined && sugar <= 5) add(`low sugar ${title}`);
+  if (sodium !== undefined && sodium <= 400) add(`low sodium ${title}`);
   /* No carbohydrate rule here on purpose. "Low carb" already has an
      authoritative source in the Low-Carb tag, which is an editorial judgement
      about the dish; a second rule reading the grams disagreed with it (ceviche
@@ -272,6 +437,23 @@ function expand(recipe, limit = 60) {
 }
 
 /**
+ * The slice that goes into the <meta name="keywords"> tag.
+ *
+ * The full list runs to about ninety phrases and is worth having: it is what
+ * the site's own search box matches against, and that index costs nothing but
+ * a JSON file the page was downloading anyway.
+ *
+ * The meta tag is a different matter. Google has ignored it since 2009, so
+ * length there buys no ranking; Bing has said it reads a stuffed one as a spam
+ * signal. That makes a four-kilobyte tag all downside — the honest maximum is
+ * a normal-looking handful, and everything past it goes to the places that
+ * actually use it.
+ */
+function forMeta(keywords, limit = 25) {
+  return (keywords || []).slice(0, limit);
+}
+
+/**
  * The shorter list that goes into the Recipe JSON-LD.
  *
  * Google reads `keywords` on a recipe and its guidance asks for "other terms
@@ -285,7 +467,8 @@ function forSchema(keywords, limit = 12) {
   return (keywords || []).slice(0, limit);
 }
 
-module.exports = { expand, forSchema, headlineIngredients, CATEGORY_NOUN, DIET_WORD };
+module.exports = { expand, forSchema, forMeta, headlineIngredients, CATEGORY_NOUN,
+  DIET_WORD, SLOW_COOK_MINUTES };
 
 /**
  * Keywords for a category landing page.

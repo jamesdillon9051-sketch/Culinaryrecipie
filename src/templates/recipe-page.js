@@ -131,14 +131,22 @@ function recipeSchema(recipe) {
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
     keywords: forSchema(recipe.keywords).join(', '),
-    suitableForDiet: recipe.tags.map(t => ({
-      'Vegetarian': 'https://schema.org/VegetarianDiet',
-      'Vegan': 'https://schema.org/VeganDiet',
-      'Gluten-Free': 'https://schema.org/GlutenFreeDiet',
-      'Low-Carb': 'https://schema.org/LowCalorieDiet',
-      'Keto': 'https://schema.org/LowCalorieDiet',
-      'Dairy-Free': 'https://schema.org/LowLactoseDiet'
-    }[t])).filter(Boolean),
+    /* schema.org's RestrictedDiet has no value for low-carb or ketogenic, and
+       both used to be published as LowCalorieDiet — which is a different claim
+       and a false one: keto cooking is frequently high in calories. The three
+       calorie, fat and salt values below are emitted from the nutrition figures
+       instead, where the number itself is the evidence. */
+    suitableForDiet: [
+      ...recipe.tags.map(t => ({
+        'Vegetarian': 'https://schema.org/VegetarianDiet',
+        'Vegan': 'https://schema.org/VeganDiet',
+        'Gluten-Free': 'https://schema.org/GlutenFreeDiet',
+        'Dairy-Free': 'https://schema.org/LowLactoseDiet'
+      }[t])),
+      recipe.nutrition[0] < 400 ? 'https://schema.org/LowCalorieDiet' : null,
+      recipe.nutrition[3] <= 10 ? 'https://schema.org/LowFatDiet' : null,
+      recipe.nutrition[6] <= 400 ? 'https://schema.org/LowSaltDiet' : null
+    ].filter(Boolean),
     nutrition: {
       '@type': 'NutritionInformation',
       servingSize: '1 serving',
@@ -173,7 +181,6 @@ function recipeSchema(recipe) {
             }
           }
         : {}),
-    tool: [],
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   };
 }
@@ -198,7 +205,7 @@ function render(recipe, context) {
     ? `<picture>
         <source srcset="${SITE.base}assets/img/recipes/${img.file}.webp" type="image/webp">
         <img src="${SITE.base}assets/img/recipes/${img.file}.jpg" alt="${esc(recipe.imageAlt)}"
-             width="800" height="600" fetchpriority="high" decoding="async"
+             width="${img.w}" height="${img.h}" fetchpriority="high" decoding="async"
              data-fade data-title="${esc(recipe.title)}" data-ph-a="${img.color}" data-ph-b="#8c5a3c">
        </picture>`
     : `<div class="img-fallback" role="img" aria-label="${esc(recipe.imageAlt)}"><span>${esc(recipe.title)}</span></div>`;
@@ -208,7 +215,7 @@ function render(recipe, context) {
       <picture>
         <source srcset="${SITE.base}assets/img/recipes/${process.file}.webp" type="image/webp">
         <img src="${SITE.base}assets/img/recipes/${process.file}.jpg"
-             alt="${esc(recipe.processAlt)}" width="640" height="480" loading="lazy" decoding="async"
+             alt="${esc(recipe.processAlt)}" width="${process.w}" height="${process.h}" loading="lazy" decoding="async"
              data-fade data-title="${esc(recipe.title)}" data-ph-a="${process.color}" data-ph-b="#8c5a3c"
              style="border-radius:var(--radius-lg);width:100%">
       </picture>
@@ -409,8 +416,26 @@ ${breadcrumbs(trail)}
     path: `recipes/${recipe.slug}/`,
     active: 'recipes',
     ogType: 'article',
+    published: recipe.datePublished,
+    modified: recipe.dateModified,
+    section: recipe.category,
+    /* Twitter renders two labelled facts under the card. Time and yield are
+       what somebody deciding whether to open a recipe wants to know. */
+    cardFacts: [
+      ['Time', humanTime(recipe.elapsedTime)],
+      ['Serves', String(recipe.servings)]
+    ],
     image: img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : undefined,
+    imageWidth: img && img.w,
+    imageHeight: img && img.h,
     imageAlt: recipe.imageAlt,
+    /* The hero is the largest element above the fold on every recipe page, so
+       it is what Largest Contentful Paint measures. Preloading it starts the
+       download with the HTML instead of waiting for the parser to reach the
+       <picture>. The type is set so only the format the browser will actually
+       pick gets fetched. */
+    preload: img ? [{ href: `${SITE.base}assets/img/recipes/${img.file}.webp`,
+                      as: 'image', type: 'image/webp', fetchpriority: 'high' }] : undefined,
     schema: [recipeSchema(recipe), breadcrumbSchema(trail), faqSchema(faq),
              videoSchema(recipe, SITE.origin)].filter(Boolean),
     scripts: ['recipe.js'],

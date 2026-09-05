@@ -316,7 +316,7 @@ module.exports = {
   'shogayaki': {
     d: 'Thin pork loin fried fast and finished in a ginger, soy and mirin sauce that reduces to a glaze in under a minute. The most common weeknight pork dish in Japan.',
     meta: 'Pork shogayaki — thin pork loin in a ginger, soy and mirin glaze, with shredded cabbage. Ready in 15 minutes.',
-    kw: ['shogayaki recipe', 'ginger pork japanese', 'buta no shogayaki', 'japanese pork stir fry'],
+    kw: ['shogayaki recipe', 'ginger pork japanese', 'buta no shogayaki', 'japanese ginger pork'],
     why: 'Grated ginger is added twice — some in the marinade for penetration, the rest at the end for aroma, since gingerol degrades quickly over heat and a single early addition tastes flat. Dusting the pork in a little flour gives the glaze something to cling to instead of pooling in the pan.',
     ing: [
       '500 g pork loin, sliced 5 mm thick',

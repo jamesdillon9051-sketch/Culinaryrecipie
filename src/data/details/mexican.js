@@ -144,7 +144,7 @@ module.exports = {
   'fish-tacos': {
     d: 'Baja-style tacos with beer-battered white fish, a lime crema and shredded cabbage for crunch. Twenty minutes from fridge to table, and infinitely better than they have any right to be.',
     meta: 'Baja fish tacos with crisp beer-battered cod, lime crema and shredded cabbage. A 35-minute weeknight favourite.',
-    kw: ['fish tacos recipe', 'baja fish tacos', 'beer battered fish', 'quick mexican dinner'],
+    kw: ['fish tacos recipe', 'baja fish tacos', 'beer battered fish', 'easy mexican dinner'],
     why: 'Carbon dioxide in cold beer expands in hot oil, aerating the batter into a light shell, while the alcohol evaporates faster than water and dries the crust more quickly. Cabbage rather than lettuce is the traditional choice because its rigid cell walls stay crunchy under a hot filling.',
     ing: [
       '# For the fish',

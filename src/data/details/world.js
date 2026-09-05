@@ -53,7 +53,7 @@ module.exports = {
   'ceviche': {
     d: 'Firm white fish cured for ten minutes in lime juice with chilli, red onion and coriander, served immediately with the leche de tigre pooled underneath. Freshness is the entire recipe.',
     meta: 'Peruvian ceviche with fish cured briefly in lime, ají chilli and leche de tigre. Ten minutes, and keto-friendly.',
-    kw: ['ceviche recipe', 'peruvian ceviche', 'leche de tigre', 'keto seafood recipe'],
+    kw: ['ceviche recipe', 'peruvian ceviche', 'leche de tigre', 'fresh seafood recipe'],
     why: 'Lime juice denatures fish proteins in much the same way heat does, but it works from the outside inward — so ten to fifteen minutes gives a firm, opaque exterior with a tender centre, while thirty minutes gives you dry, chalky fish throughout. This is the opposite of most marinades: the shorter the better.',
     ing: [
       '600 g very fresh firm white fish, such as sea bass or bream, skinned',

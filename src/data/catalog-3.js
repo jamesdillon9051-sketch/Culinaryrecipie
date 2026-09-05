@@ -63,7 +63,7 @@ module.exports = [
   c('lamb-rogan-josh', 'Lamb Rogan Josh', 'Indian', 'Dinner', 'Medium', 25, 90, 6, 4.8, 2866, ['Gluten-Free'], ['editors'], 'Rogan josh'),
   c('dal-makhani', 'Dal Makhani', 'Indian', 'Dinner', 'Medium', 20, 120, 6, 4.9, 3644, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Dal makhani'),
   c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 60, 8, 4.9, 4122, ['Gluten-Free'], [], 'Hyderabadi biryani'),
-  c('vada-pav', 'Vada Pav', 'Indian', 'Quick Meals', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
+  c('vada-pav', 'Vada Pav', 'Indian', 'Lunch', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
   c('masala-chai', 'Masala Chai', 'Indian', 'Drinks', 'Easy', 5, 10, 4, 4.8, 3122, ['Vegetarian', 'Gluten-Free'], [], 'Masala chai'),
   c('misal-pav', 'Misal Pav', 'Indian', 'Appetizers', 'Medium', 30, 45, 6, 4.7, 1866, ['Vegetarian', 'Vegan'], ['trending'], 'Misal pav'),
   c('naan', 'Garlic Naan', 'Indian', 'Baking', 'Easy', 90, 10, 8, 4.8, 3011, ['Vegetarian'], [], 'Naan bread'),
@@ -77,7 +77,7 @@ module.exports = [
   c('pulled-pork', 'Carolina Pulled Pork', 'American', 'Dinner', 'Medium', 25, 360, 10, 4.9, 4122, ['Gluten-Free'], ['editors'], 'Pulled pork'),
   c('brisket', 'Texas Smoked Brisket', 'American', 'Dinner', 'Hard', 30, 600, 12, 4.9, 3644, ['Gluten-Free'], [], 'Smoked brisket'),
   c('cioppino', 'Cioppino', 'American', 'Dinner', 'Medium', 25, 40, 6, 4.8, 1866, ['Dairy-Free'], [], 'Cioppino'),
-  c('sloppy-joes', 'Sloppy Joes', 'American', 'Quick Meals', 'Easy', 10, 25, 6, 4.6, 1866, [], [], 'Sloppy joe sandwich'),
+  c('sloppy-joes', 'Sloppy Joes', 'American', 'Dinner', 'Easy', 10, 25, 6, 4.6, 1866, [], [], 'Sloppy joe sandwich'),
   c('corn-dogs', 'Corn Dogs', 'American', 'Quick Meals', 'Easy', 15, 15, 8, 4.6, 1544, [], [], 'Corn dog'),
   c('philly-soft-pretzel', 'Philadelphia Soft Pretzels', 'American', 'Baking', 'Medium', 90, 15, 8, 4.7, 1322, ['Vegetarian'], [], 'Soft pretzel'),
   c('boston-cream-pie', 'Boston Cream Pie', 'American', 'Desserts', 'Medium', 40, 30, 10, 4.7, 1644, ['Vegetarian'], [], 'Boston cream pie'),
@@ -158,7 +158,7 @@ module.exports = [
 
   /* -------------------------------------------------------- Hungarian (2) */
   c('chicken-paprikash', 'Chicken Paprikash', 'Hungarian', 'Dinner', 'Easy', 15, 45, 4, 4.8, 1866, [], [], 'Chicken paprikash'),
-  c('langos', 'Lángos', 'Hungarian', 'Quick Meals', 'Easy', 75, 15, 6, 4.7, 1144, ['Vegetarian'], [], 'Langos'),
+  c('langos', 'Lángos', 'Hungarian', 'Lunch', 'Easy', 75, 15, 6, 4.7, 1144, ['Vegetarian'], [], 'Langos'),
 
   /* --------------------------------------------------------- Romanian (2) */
   c('sarmale', 'Sarmale', 'Romanian', 'Dinner', 'Medium', 45, 150, 8, 4.7, 744, [], [], 'Sarmale'),
@@ -289,7 +289,7 @@ module.exports = [
 
   /* ------------------------------------------------------- Jamaican (3) */
   c('rice-and-peas', 'Rice and Peas', 'Jamaican', 'Dinner', 'Easy', 15, 45, 6, 4.8, 1866, ['Vegan', 'Gluten-Free'], [], 'Jamaican rice and peas kidney beans'),
-  c('jamaican-patty', 'Jamaican Beef Patty', 'Jamaican', 'Quick Meals', 'Medium', 45, 30, 8, 4.8, 1544, ['Dairy-Free'], [], 'Jamaican beef patty pastry'),
+  c('jamaican-patty', 'Jamaican Beef Patty', 'Jamaican', 'Lunch', 'Medium', 45, 30, 8, 4.8, 1544, ['Dairy-Free'], [], 'Jamaican beef patty pastry'),
 
   /* --------------------------------------------------- Trinidadian (2) */
   c('doubles', 'Trinidadian Doubles', 'Trinidadian', 'Breakfast', 'Medium', 90, 20, 8, 4.7, 866, ['Vegan'], [], 'Bara and channa doubles plate'),
@@ -340,7 +340,7 @@ module.exports = [
   c('bhindi-masala', 'Bhindi Masala', 'Indian', 'Dinner', 'Easy', 15, 25, 4, 4.7, 1322, ['Vegan', 'Gluten-Free'], [], 'Bhindi masala okra curry bowl'),
   c('shahi-paneer', 'Shahi Paneer', 'Indian', 'Dinner', 'Medium', 20, 30, 4, 4.7, 1544, ['Vegetarian', 'Gluten-Free'], [], 'Shahi paneer curry cubes'),
   c('barbacoa', 'Beef Barbacoa', 'Mexican', 'Dinner', 'Medium', 25, 210, 8, 4.8, 2011, ['Gluten-Free', 'Dairy-Free'], [], 'Barbacoa'),
-  c('tostadas', 'Tinga Tostadas', 'Mexican', 'Quick Meals', 'Easy', 20, 25, 4, 4.7, 1188, ['Gluten-Free'], [], 'Tinga tostadas'),
+  c('tostadas', 'Tinga Tostadas', 'Mexican', 'Lunch', 'Easy', 20, 25, 4, 4.7, 1188, ['Gluten-Free'], [], 'Tinga tostadas'),
   c('biscuits-buttermilk', 'Buttermilk Biscuits', 'American', 'Baking', 'Easy', 20, 15, 10, 4.8, 2644, ['Vegetarian'], [], 'Buttermilk biscuits'),
   c('chicken-and-waffles', 'Chicken and Waffles', 'American', 'Breakfast', 'Medium', 30, 25, 4, 4.8, 2144, [], [], 'Chicken and waffles'),
   c('crab-cakes', 'Maryland Crab Cakes', 'American', 'Appetizers', 'Easy', 20, 12, 4, 4.8, 1866, [], [], 'Crab cakes'),

@@ -97,7 +97,7 @@ module.exports = {
     rest: [240, 'chilling'],
     d: 'Chia seeds left in milk overnight until they swell into a set, tapioca-like pudding. Two ingredients, five minutes of work, and it does the rest of the job while you sleep.',
     meta: 'Overnight chia pudding — chia seeds set in milk with vanilla and maple, topped with fruit and nuts.',
-    kw: ['chia pudding recipe', 'overnight chia', 'healthy breakfast pudding', 'chia seed dessert'],
+    kw: ['chia pudding recipe', 'make ahead chia', 'healthy breakfast pudding', 'chia seed dessert'],
     why: 'Chia seeds absorb roughly ten times their weight in liquid, forming a gel around each seed — the ratio of about one part seed to five parts liquid is what gives a spoonable set rather than a soup or a solid block. Stirring twice in the first half hour prevents the seeds clumping into lumps that never hydrate.',
     ing: [
       '# For the pudding',

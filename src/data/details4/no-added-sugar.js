@@ -201,7 +201,7 @@ module.exports = {
   'savoury-cottage-cheese-bowl': {
     d: 'Cottage cheese with tomato, cucumber, olive oil and plenty of black pepper — eight minutes, no cooking, and 26 g of protein a serving.',
     meta: 'Savoury cottage cheese bowl with tomato, cucumber and olive oil — 26 g of protein, eight minutes, no cooking.',
-    kw: ['savoury cottage cheese bowl', 'high protein no cook breakfast', 'cottage cheese recipe', 'no added sugar breakfast'],
+    kw: ['savoury cottage cheese bowl', 'quick cottage cheese breakfast', 'cottage cheese recipe', 'no added sugar breakfast'],
     why: 'Cottage cheese is usually treated as something to endure with fruit on top. Handled as a savoury base — salted properly, dressed with good oil, given acid and crunch — it behaves like a soft cheese rather than a diet food. The trick is seasoning it as you would a burrata, which nobody does and which changes it entirely.',
     ing: [
       '400 g cottage cheese',

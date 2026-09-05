@@ -1,5 +1,6 @@
 'use strict';
 const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
+const { forMeta } = require('../lib/keywords');
 const { recipeCount } = require('../data/stats');
 const ads = require('./ads');
 const ANALYTICS = require('../data/analytics');
@@ -223,8 +224,10 @@ function layout(page) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(page.description)}">
-${page.keywords ? `<meta name="keywords" content="${esc(page.keywords.join(', '))}">` : ''}
+${page.keywords ? `<meta name="keywords" content="${esc(forMeta(page.keywords).join(', '))}">` : ''}
 <link rel="canonical" href="${esc(url)}">
+<link rel="alternate" hreflang="en-GB" href="${esc(url)}">
+<link rel="alternate" hreflang="x-default" href="${esc(url)}">
 ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'}
 <meta name="author" content="${esc(SITE.author)}">
 <meta name="theme-color" content="#fbf7f0">
@@ -239,8 +242,11 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
 <meta property="og:url" content="${esc(url)}">
 <meta property="og:image" content="${esc(image)}">
 <meta property="og:image:alt" content="${esc(page.imageAlt || page.title)}">
-<meta property="og:image:width" content="800">
-<meta property="og:image:height" content="600">
+${page.published ? `<meta property="article:published_time" content="${esc(page.published)}">` : ''}
+${page.modified ? `<meta property="article:modified_time" content="${esc(page.modified)}">` : ''}
+${page.section ? `<meta property="article:section" content="${esc(page.section)}">` : ''}
+<meta property="og:image:width" content="${page.imageWidth || 800}">
+<meta property="og:image:height" content="${page.imageHeight || 600}">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
@@ -249,6 +255,9 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
 <meta name="twitter:description" content="${esc(page.description)}">
 <meta name="twitter:image" content="${esc(image)}">
 <meta name="twitter:image:alt" content="${esc(page.imageAlt || page.title)}">
+${(page.cardFacts || []).map(([label, data], i) =>
+  `<meta name="twitter:label${i + 1}" content="${esc(label)}">\n` +
+  `<meta name="twitter:data${i + 1}" content="${esc(data)}">`).join('\n')}
 
 <link rel="manifest" href="${SITE.base}manifest.json">
 <link rel="icon" href="${SITE.base}assets/img/favicon.svg" type="image/svg+xml">
@@ -273,7 +282,7 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
   <link rel="stylesheet" href="${SITE.base}assets/css/main.css">
   <link rel="stylesheet" href="${FONT_CSS}">
 </noscript>
-${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as="${p.as}"${p.type ? ` type="${p.type}"` : ''}${p.crossorigin ? ' crossorigin' : ''}>`).join('\n') : ''}
+${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as="${p.as}"${p.type ? ` type="${p.type}"` : ''}${p.fetchpriority ? ` fetchpriority="${p.fetchpriority}"` : ''}${p.crossorigin ? ' crossorigin' : ''}>`).join('\n') : ''}
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
 <script src="${SITE.base}assets/js/theme.js"></script>

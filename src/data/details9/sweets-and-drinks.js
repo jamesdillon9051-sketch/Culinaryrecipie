@@ -8,7 +8,7 @@ module.exports = {
     rest: [240, 'chilling'],
     d: 'Four ingredients and no gelatine: melted chocolate, egg yolks, whipped whites and a little cream. The air is all beaten in by hand and the set comes from the cocoa butter alone.',
     meta: 'Classic French chocolate mousse — no gelatine, set by cocoa butter alone, with the whites folded in three additions.',
-    kw: ['chocolate mousse', 'french chocolate mousse', 'easy chocolate mousse', 'mousse au chocolat'],
+    kw: ['chocolate mousse', 'french chocolate mousse', 'classic chocolate mousse', 'mousse au chocolat'],
     why: 'This mousse sets because cocoa butter is solid at fridge temperature; nothing else is doing the work, which is why the chocolate percentage matters and why substituting milk chocolate gives a mousse that never firms. The structure is egg white foam, and it collapses on contact with fat — so the first third of the whites is sacrificed, stirred in properly to loosen the heavy chocolate base, and only then are the remaining two-thirds folded in with the air intact. Warm chocolate would melt the foam, so it must come down to barely-warm first.',
     ing: [
       '200 g dark chocolate, 70% cocoa solids, finely chopped',

@@ -231,7 +231,7 @@ module.exports = {
     rest: [240, 'chilling'],
     d: 'Chicken and cabbage stir-fried at the table in a gochujang marinade on a huge flat pan, with rice cakes and sweet potato. When the chicken is gone, rice is fried in what remains, which is the best part.',
     meta: 'Dakgalbi — Chuncheon-style spicy stir-fried chicken with cabbage, rice cakes and a gochujang marinade.',
-    kw: ['dakgalbi recipe', 'korean spicy chicken', 'chuncheon dakgalbi', 'gochujang chicken stir fry'],
+    kw: ['dakgalbi recipe', 'korean spicy chicken', 'chuncheon dakgalbi', 'gochujang chicken'],
     why: 'Marinating for at least four hours lets the gochujang\'s salt and sugar penetrate the meat rather than sitting on the surface as a sauce. Cooking everything in one wide pan without a lid drives off moisture so the sauce reduces and clings, rather than braising the chicken in its own liquid.',
     ing: [
       '# For the chicken',
