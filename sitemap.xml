@@ -3774,6 +3774,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/queso-fundido.jpg</image:loc>
+      <image:title>Queso Fundido</image:title>
+      <image:caption>Queso Fundido — Mexican appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sopes/</loc>
@@ -3791,6 +3796,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mexican-rice.jpg</image:loc>
+      <image:title>Mexican Red Rice</image:title>
+      <image:caption>Mexican Red Rice — Mexican quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/refried-beans/</loc>
@@ -4171,6 +4181,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/toad-in-the-hole.jpg</image:loc>
+      <image:title>Toad in the Hole</image:title>
+      <image:caption>Toad in the Hole — British dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cottage-pie/</loc>
@@ -4342,6 +4357,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mujadara.jpg</image:loc>
+      <image:title>Mujadara</image:title>
+      <image:caption>Mujadara — Middle Eastern healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maqluba/</loc>
@@ -4436,6 +4456,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/borek.jpg</image:loc>
+      <image:title>Cheese Börek</image:title>
+      <image:caption>Cheese Börek — Turkish appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-delight/</loc>
@@ -4486,6 +4511,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fabada-asturiana.jpg</image:loc>
+      <image:title>Fabada Asturiana</image:title>
+      <image:caption>Fabada Asturiana — Spanish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pastel-de-nata/</loc>
@@ -5053,6 +5083,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poke-bowl.jpg</image:loc>
+      <image:title>Ahi Poke Bowl</image:title>
+      <image:caption>Ahi Poke Bowl — International healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/acai-bowl/</loc>
@@ -5444,6 +5479,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lion-head-meatballs.jpg</image:loc>
+      <image:title>Lion&#39;s Head Meatballs</image:title>
+      <image:caption>Lion&#39;s Head Meatballs — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-tarts/</loc>
@@ -5780,6 +5820,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cawl.jpg</image:loc>
+      <image:title>Welsh Cawl</image:title>
+      <image:caption>Welsh Cawl — Welsh dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bara-brith/</loc>
@@ -6182,12 +6227,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lobio.jpg</image:loc>
+      <image:title>Lobio</image:title>
+      <image:caption>Lobio — Georgian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-lemon-potatoes/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-lemon-potatoes.jpg</image:loc>
+      <image:title>Greek Lemon Potatoes</image:title>
+      <image:caption>Greek Lemon Potatoes — Greek dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dolmades/</loc>
@@ -6205,6 +6260,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-yogurt-honey.jpg</image:loc>
+      <image:title>Greek Yoghurt with Honey and Walnuts</image:title>
+      <image:caption>Greek Yoghurt with Honey and Walnuts — Greek breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/iskender-kebab/</loc>
@@ -6354,6 +6414,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/israeli-couscous-salad.jpg</image:loc>
+      <image:title>Israeli Couscous Salad</image:title>
+      <image:caption>Israeli Couscous Salad — Israeli healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/musakhan/</loc>
@@ -6844,6 +6909,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dulce-de-leche.jpg</image:loc>
+      <image:title>Dulce de Leche</image:title>
+      <image:caption>Dulce de Leche — Argentinian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pastel-de-choclo/</loc>
@@ -6905,12 +6975,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jamaican-patty.jpg</image:loc>
+      <image:title>Jamaican Beef Patty</image:title>
+      <image:caption>Jamaican Beef Patty — Jamaican quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/doubles/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/doubles.jpg</image:loc>
+      <image:title>Trinidadian Doubles</image:title>
+      <image:caption>Trinidadian Doubles — Trinidadian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/callaloo/</loc>
@@ -7049,6 +7129,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kalua-pork.jpg</image:loc>
+      <image:title>Kalua Pork</image:title>
+      <image:caption>Kalua Pork — Hawaiian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/loco-moco/</loc>
@@ -7066,6 +7151,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/breakfast-hash.jpg</image:loc>
+      <image:title>Breakfast Hash</image:title>
+      <image:caption>Breakfast Hash — International breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ribollita/</loc>
@@ -7083,6 +7173,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/buddha-bowl.jpg</image:loc>
+      <image:title>Roasted Vegetable Buddha Bowl</image:title>
+      <image:caption>Roasted Vegetable Buddha Bowl — International healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/affogato/</loc>
@@ -7111,6 +7206,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cold-brew-coffee.jpg</image:loc>
+      <image:title>Cold Brew Coffee</image:title>
+      <image:caption>Cold Brew Coffee — International drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-milanese/</loc>
@@ -7183,6 +7283,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shui-zhu-fish.jpg</image:loc>
+      <image:title>Shui Zhu Fish</image:title>
+      <image:caption>Shui Zhu Fish — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turnip-cake/</loc>
@@ -7299,6 +7404,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-rice-protein-bowl.jpg</image:loc>
+      <image:title>Chicken and Rice Protein Bowl</image:title>
+      <image:caption>Chicken and Rice Protein Bowl — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-quinoa-bowl/</loc>
@@ -7416,6 +7526,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-cottage-cheese-muffins.jpg</image:loc>
+      <image:title>Egg and Cottage Cheese Muffins</image:title>
+      <image:caption>Egg and Cottage Cheese Muffins — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-halloumi-salad/</loc>
@@ -7461,6 +7576,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-prawn-courgette-noodles.jpg</image:loc>
+      <image:title>Garlic Prawns with Courgette Noodles</image:title>
+      <image:caption>Garlic Prawns with Courgette Noodles — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smoked-salmon-scrambled-eggs/</loc>
@@ -7500,6 +7620,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-eggs-spinach-feta.jpg</image:loc>
+      <image:title>Baked Eggs with Spinach and Feta</image:title>
+      <image:caption>Baked Eggs with Spinach and Feta — Turkish breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kutia/</loc>
@@ -7594,6 +7719,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salep.jpg</image:loc>
+      <image:title>Salep</image:title>
+      <image:caption>Salep — Turkish drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ayran/</loc>
@@ -7622,6 +7752,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/agua-de-jamaica.jpg</image:loc>
+      <image:title>Agua de Jamaica</image:title>
+      <image:caption>Agua de Jamaica — Mexican drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cafe-de-olla/</loc>
@@ -7639,18 +7774,33 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tepache.jpg</image:loc>
+      <image:title>Tepache</image:title>
+      <image:caption>Tepache — Mexican drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sorrel-drink/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sorrel-drink.jpg</image:loc>
+      <image:title>Sorrel Drink</image:title>
+      <image:caption>Sorrel Drink — Trinidadian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sobolo/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sobolo.jpg</image:loc>
+      <image:title>Sobolo</image:title>
+      <image:caption>Sobolo — Ghanaian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kvass/</loc>
@@ -7701,6 +7851,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aeggekage.jpg</image:loc>
+      <image:title>Æggekage</image:title>
+      <image:caption>Æggekage — Danish quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ful-medames/</loc>
@@ -7795,12 +7950,22 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/curtido.jpg</image:loc>
+      <image:title>Curtido</image:title>
+      <image:caption>Curtido — Salvadoran healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mechouia-salad/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mechouia-salad.jpg</image:loc>
+      <image:title>Salade Méchouia</image:title>
+      <image:caption>Salade Méchouia — Tunisian healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/porotos-granados/</loc>
@@ -7840,6 +8005,11 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gomae.jpg</image:loc>
+      <image:title>Gomae</image:title>
+      <image:caption>Gomae — Japanese healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oi-muchim/</loc>

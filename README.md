@@ -379,8 +379,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-690 of the 729 recipes have a photograph. Of the 960 images on the site, 709
-are CC0 or public domain, 112 are CC BY and 139 are CC BY-SA. Anything still
+724 of the 729 recipes have a photograph. Of the 994 images on the site, 719
+are CC0 or public domain, 120 are CC BY and 155 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -596,6 +596,20 @@ downloaded, laid out as a strip and judged by eye instead. Sweet potato
 casserole and cranberry sauce ended on gradient placeholders: Commons offers a
 1915 archival photograph for one and a museum's collection of empty glass
 sauce dishes for the other.
+
+The same method then went back over the 37 recipes that had never found a
+photograph at all — the ones the fetcher had failed on across several runs.
+Thirty-four of them turned out to be there: toad in the hole under a risen
+batter, a pot of fabada with its morcilla, lobio in the clay pots it is served
+in, a bowl of shui zhu fish under chilli oil, sahlep dusted with cinnamon.
+What the fetcher lacked was not access but judgement — its filters had
+discarded them, or scored a landscape called Toads Hole Valley above the dish.
+
+Five are still without one, and they have now had five rounds each. Commons has
+no photograph of a lentil ragù, a smoked mackerel pâté, a tofu and edamame
+stir-fry, a sweet potato casserole or a bowl of cranberry sauce under a licence
+the site can use, and the nearest offers were a plate of plain penne, a jar of
+sprats and a museum's glass sauce dishes.
 
 ---
 
