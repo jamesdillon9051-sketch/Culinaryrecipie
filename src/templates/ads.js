@@ -16,13 +16,19 @@ const CONSENT = require('../data/consent');
 /** The popunder loader, for <head>. Empty while consent gating is on. */
 function popunder() {
   if (!ADS.enabled || !ADS.popunder || CONSENT.enabled) return '';
-  return `<script src="${ADS.popunder}"></script>`;
+  /* async: a third-party script in <head> with no loading attribute blocks the
+     parser, and this one sits above the fold on all 946 pages. The popunder
+     hooks the first click rather than anything during parse, so nothing about
+     it needs to run before the document does. */
+  return `<script src="${ADS.popunder}" async></script>`;
 }
 
 /** The social bar loader, for the end of <body>. Empty while gating is on. */
 function socialBar() {
   if (!ADS.enabled || !ADS.socialBar || CONSENT.enabled) return '';
-  return `<script src="${ADS.socialBar}"></script>`;
+  /* Last thing before </body>, so it blocks less than the popunder did, but a
+     blocking script still delays the load event and anything after it. */
+  return `<script src="${ADS.socialBar}" async></script>`;
 }
 
 /** Path to the single-slot document that repeat placements are framed from. */

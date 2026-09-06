@@ -211,6 +211,21 @@ for (const file of htmlFiles) {
     }
   }
 
+  /* --- nothing on the critical path that need not be there ----------------
+     A <script src> with neither async nor defer stops the parser until it has
+     downloaded and run. theme.js is the one that has to: it applies the saved
+     theme before the first paint and promotes the stylesheets parked at
+     media="print", and deferring it would show a flash of the wrong theme on
+     every page. Everything else — analytics and all three ad units — was
+     blocking for no reason. */
+  for (const match of html.matchAll(/<script\b([^>]*)\bsrc="([^"]*)"([^>]*)>/g)) {
+    const attrs = match[1] + match[3];
+    const src = match[2];
+    if (/\basync\b|\bdefer\b/.test(attrs)) continue;
+    if (src.endsWith('/assets/js/theme.js')) continue;
+    problems.push(`${rel}: <script src="${src}"> blocks rendering — add async or defer`);
+  }
+
   /* --- no inline script of our own ---------------------------------------
      The CSP now allows 'unsafe-inline' so the ad network can do its work, but
      nothing the generator writes should depend on that. Keeping our own output

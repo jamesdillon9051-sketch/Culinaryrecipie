@@ -23,6 +23,7 @@ const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
 const contentDates = require('./lib/content-dates');
+const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
@@ -150,7 +151,9 @@ function copyDir(from, to) {
     const src = path.join(from, entry.name);
     const dst = path.join(to, entry.name);
     if (entry.isDirectory()) copyDir(src, dst);
-    else fs.copyFileSync(src, dst);
+    else if (entry.name.endsWith('.css')) {
+      fs.writeFileSync(dst, minify.css(fs.readFileSync(src, 'utf8')));
+    } else fs.copyFileSync(src, dst);
   }
 }
 
@@ -324,12 +327,13 @@ function loadRecipes() {
 
 /* ------------------------------------------------------------- context */
 function buildContext(recipes) {
-  const criticalCss = fs.readFileSync(path.join(SRC, 'assets', 'css', 'critical.css'), 'utf8')
-    .replace(/\/\*[\s\S]*?\*\//g, '')      // strip comments
-    .replace(/\s+/g, ' ')                   // collapse whitespace
-    .replace(/\s*([{}:;,>])\s*/g, '$1')
-    .replace(/;}/g, '}')
-    .trim();
+  /* Inlined into the <head> of all 946 pages, so its size is paid on every
+     one of them rather than once from a cache. Minified by ./lib/minify.js,
+     which was written to replace the four regexes that used to sit here: one
+     of them stripped the space on both sides of a colon, and the space before
+     a colon is the only thing separating `.card :hover` from `.card:hover`. */
+  const criticalCss = minify.css(
+    fs.readFileSync(path.join(SRC, 'assets', 'css', 'critical.css'), 'utf8'));
 
   const count = (list, key) => list.reduce((acc, r) => {
     acc[r[key]] = (acc[r[key]] || 0) + 1;

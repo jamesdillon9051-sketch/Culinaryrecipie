@@ -367,7 +367,30 @@ ${breadcrumbs(trail)}
     categories: ctx.categoryCounts,
     cuisines: ctx.topCuisines,
     scripts: ['directory.js'],
-    schema: [breadcrumbSchema(trail)],
+    /* The directory is the site's biggest list and carried only a breadcrumb,
+       while every taxonomy page beneath it declared a CollectionPage. The
+       A-Z index below the grid names every recipe, so the list is on the page
+       whether or not the schema says so — this tells a crawler what it is
+       looking at. Capped at 30 for the same reason the taxonomy pages are:
+       ListItem entries are a summary, not a second copy of the sitemap. */
+    schema: options.noindex ? [breadcrumbSchema(trail)] : [
+      breadcrumbSchema(trail),
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: options.heading,
+        description: options.description,
+        url: SITE.origin + SITE.base + options.path,
+        mainEntity: {
+          '@type': 'ItemList',
+          numberOfItems: ctx.recipes.length,
+          itemListElement: (options.seed || ctx.recipes).slice(0, 30).map((r, i) => ({
+            '@type': 'ListItem', position: i + 1, name: r.title,
+            url: `${SITE.origin}${SITE.base}recipes/${r.slug}/`
+          }))
+        }
+      }
+    ],
     body
   });
 }

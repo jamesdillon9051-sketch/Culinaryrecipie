@@ -66,7 +66,7 @@ function analyticsTag() {
   if (CONSENT.enabled) return '';
   return `<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
-<script src="${SITE.base}assets/js/analytics.js" data-ga-id="${id}"></script>`;
+<script src="${SITE.base}assets/js/analytics.js" data-ga-id="${id}" defer></script>`;
 }
 
 /**

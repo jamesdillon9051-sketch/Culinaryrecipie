@@ -564,6 +564,70 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## Things that were already blocking the render
+
+Three scripts on every page had no loading attribute, which means the parser
+stopped at each of them until it had fetched and run the file. Two were third
+party and one was ours:
+
+- The Adsterra popunder, in `<head>`, on all 946 pages. A third-party script
+  with no `async` on the critical path is the most expensive thing a page can
+  carry, because the delay is however long somebody else's server takes.
+- The Adsterra social bar, before `</body>`. It blocks less there, but it still
+  holds up the load event.
+- `assets/js/analytics.js`, the gtag bootstrap. Google's own `gtag.js` was
+  already `async`; the four lines that configure it were not.
+
+All three are `async` now, and `analytics.js` is `defer` — safe because it
+reads `document.currentScript`, which is set for deferred classic scripts and
+null only for modules and callbacks.
+
+`theme.js` stays blocking and should. It applies the saved theme before the
+first paint and promotes the stylesheets parked at `media="print"`, so
+deferring it trades a render-blocking request for a flash of the wrong theme on
+every page. `npm run check` now fails on any other `<script src>` without
+`async` or `defer`, with that one file named as the exception.
+
+## A minifier small enough to be sure about
+
+`critical.css` is inlined into the `<head>` of all 946 pages, so its size is
+paid on every one of them rather than once from a cache. It was already being
+minified — by four regexes inline in `build.js`, one of which stripped the
+whitespace on both sides of a colon.
+
+The space *after* a colon is never meaningful. The space *before* one is the
+entire difference between `.card:hover` and `.card :hover`, which select
+different elements. Neither stylesheet happened to contain that pattern, so
+nothing was broken; it was a trap rather than a bug, and the day somebody wrote
+one it would have failed silently and visually.
+
+`src/lib/minify.js` replaces it and does only what can be shown safe by
+inspection: strip comments without walking into a string, collapse whitespace
+runs to one space rather than none so `calc(100% - 2rem)` survives, close up
+the space after a colon but never before one, and drop the last semicolon in a
+block. It checks its own work by comparing brace counts and returns the
+original if they disagree. Nine edge cases are exercised by hand, including a
+comment inside a `content` string.
+
+`main.css` was being copied out unminified. It now goes through the same
+function on the way: 47,100 bytes to 36,514, which is 10,940 to 8,178 after the
+CDN's brotli. The recipe pages themselves barely moved, because the inlined
+critical CSS was already the same size — the honest gain here is one stylesheet
+on the first visit, not a site-wide transformation.
+
+## What the numbers said about AVIF
+
+Measured rather than assumed, across twelve images against the WebP already
+shipping: AVIF at quality 65 is 13% *larger*, at 55 it is 13% smaller, and at
+45 it is 39% smaller and visibly softer on food photography, which is all
+texture.
+
+Thirteen per cent of an image set that is already lazy-loaded, for 1,063 more
+files in a repository that is already 173 MB, and a third `<source>` in every
+`<picture>`. The one image that matters for Largest Contentful Paint is the
+preloaded hero, and 13% of it is about 8 KB. Not taken. The numbers are here so
+the decision can be revisited rather than re-argued.
+
 ## The snippet nobody was using
 
 Every title on the site was correct, under the limit, and the bare name of the
