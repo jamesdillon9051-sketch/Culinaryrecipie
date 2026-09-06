@@ -20,9 +20,36 @@ const UNITS = new Set([
   'rack', 'racks', 'glass', 'glasses', 'drop', 'drops'
 ]);
 
-const LEADING = /^(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:\.\d+)?)\s+(.*)$/;
+const VULGAR = {
+  0.125: '⅛', 0.25: '¼', 0.3333: '⅓', 0.375: '⅜',
+  0.5: '½', 0.625: '⅝', 0.6667: '⅔', 0.75: '¾', 0.875: '⅞'
+};
+
+/* The glyphs formatQty writes, so the parser can read back what the site
+   prints. Built from VULGAR rather than typed out again: the two were allowed
+   to drift and 136 ingredient lines were written "¼ tsp" in the source, which
+   the parser could not see as a measure. Those lines showed up in the name
+   column and, worse, sat still when a reader changed the servings while every
+   other quantity on the page doubled. */
+const VULGAR_GLYPHS = Object.values(VULGAR).join('');
+const VULGAR_VALUE = Object.fromEntries(
+  Object.entries(VULGAR).map(([value, glyph]) => [glyph, Number(value)]));
+
+const LEADING = new RegExp(
+  '^(' +
+    '\\d+\\s+\\d+/\\d+' +                 // 1 1/2
+    '|\\d+/\\d+' +                            // 1/2
+    `|\\d+\\s*[${VULGAR_GLYPHS}]` +           // 1½ or 1 ½
+    `|[${VULGAR_GLYPHS}]` +                       // ½
+    '|\\d+(?:\\.\\d+)?' +                   // 1 or 1.5
+  ')\\s+(.*)$');
 
 function toNumber(raw) {
+  const glyph = raw.trim().slice(-1);
+  if (VULGAR_VALUE[glyph] !== undefined) {
+    const whole = raw.trim().slice(0, -1).trim();
+    return (whole ? Number(whole) : 0) + VULGAR_VALUE[glyph];
+  }
   if (raw.includes('/')) {
     const parts = raw.trim().split(/\s+/);
     if (parts.length === 2) {
@@ -35,10 +62,6 @@ function toNumber(raw) {
   return Number(raw);
 }
 
-const VULGAR = {
-  0.125: '⅛', 0.25: '¼', 0.3333: '⅓', 0.375: '⅜',
-  0.5: '½', 0.625: '⅝', 0.6667: '⅔', 0.75: '¾', 0.875: '⅞'
-};
 
 /** Mirror of the client-side formatter so server-rendered HTML matches. */
 function formatQty(value, unit) {

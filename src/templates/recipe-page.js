@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit } = require('../lib/util');
+const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit, plural } = require('../lib/util');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { enrichDescription, recipeTitleHooks, recipeDescriptionClauses } = require('../lib/seo');
@@ -26,17 +26,26 @@ function detectTimer(text) {
   return { seconds, label: unit === 'second' ? `${value} sec` : unit === 'hour' ? `${value} hr` : `${value} min` };
 }
 
+/* Quantity and name are siblings rather than the measure sitting inside the
+   text, so the card can put them in their own columns and the numbers line up
+   down the list. assets/js/recipe.js addresses the measure by [data-qty] and
+   only rewrites its text, so it does not mind where it sits. */
 function ingredientsHtml(lines) {
   return parse(lines).map((item, index) => {
     if (item.group) return `<li class="ing-group">${esc(item.group)}</li>`;
     const qty = item.qty
-      ? `<span class="ing-qty" data-qty="${item.qty}" data-unit="${esc(item.unit)}">${esc(formatQty(item.qty, item.unit))}${item.unit ? ' ' + esc(item.unit) : ''}</span> `
+      ? `<span class="ing-qty" data-qty="${item.qty}" data-unit="${esc(item.unit)}">${esc(formatQty(item.qty, item.unit))}${item.unit ? ' ' + esc(item.unit) : ''}</span>`
       : '';
     return `<li><label class="ing-check">
       <input type="checkbox" data-ing="${index}">
-      <span class="ing-text">${qty}${esc(item.name)}</span>
+      ${qty}<span class="ing-text">${esc(item.name)}</span>
     </label></li>`;
   }).join('\n');
+}
+
+/** How many things a cook actually has to gather, ignoring the group labels. */
+function ingredientCount(lines) {
+  return parse(lines).filter(item => !item.group).length;
 }
 
 function stepsHtml(steps) {
@@ -264,7 +273,67 @@ ${breadcrumbs(trail)}
 
     ${ads.nativeBanner(0, 'Advertisement below the recipe introduction', SITE.base)}
 
+    <!-- The ingredients card comes first in the document, not just first on a
+         narrow screen. Reordering with CSS alone would move it visually and
+         leave a keyboard or screen-reader user still travelling through the
+         whole method to reach it. Desktop puts it back on the right with
+         explicit grid placement. -->
     <div class="recipe-layout">
+      <aside class="recipe-aside" id="recipe-card" aria-label="Recipe card">
+        <div class="panel panel--accent">
+          <div class="ingredients-head">
+            <h2>Ingredients</h2>
+            <span class="ingredients-count">${plural(ingredientCount(recipe.ingredients), 'item')}</span>
+          </div>
+          <div class="servings-control" data-scaler>
+            <span>Servings</span>
+            <button type="button" data-servings-dec aria-label="Fewer servings">&minus;</button>
+            <output data-servings-out aria-live="polite">${recipe.servings}</output>
+            <button type="button" data-servings-inc aria-label="More servings">+</button>
+          </div>
+          <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
+                  style="margin-bottom:1rem">Reset to ${recipe.servings} servings</button>
+          <ul class="ingredients">${ingredientsHtml(recipe.ingredients)}</ul>
+          <button class="ingredients-clear" type="button" data-clear-ingredients>Clear checklist</button>
+        </div>
+
+        <div class="panel">
+          <h2>At a glance</h2>
+          <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
+            <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
+            <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
+            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.restTime)}</dd>` : ''}
+            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.elapsedTime)}</dd>
+            <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
+            <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
+          </dl>
+        </div>
+
+        <div class="panel panel--share">
+          <h2>Share this recipe</h2>
+          <div class="share-row">
+            <button class="share-btn share-btn--pin" type="button" data-share="pinterest" aria-label="Pin this recipe on Pinterest" title="Pin it">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.6 19.3c-.1-.8-.2-2 0-2.9l1.3-5.4s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 .9-.6 2.3-.9 3.6-.3 1 .6 1.9 1.6 1.9 1.9 0 3.2-2.4 3.2-5.3 0-2.2-1.5-3.8-4.2-3.8a4.8 4.8 0 0 0-5 4.8c0 .9.3 1.5.7 2 .2.2.2.3.1.6l-.2.9c-.1.3-.3.4-.6.2-1.2-.5-1.8-1.9-1.8-3.5 0-2.6 2.2-5.7 6.5-5.7 3.5 0 5.8 2.5 5.8 5.2 0 3.6-2 6.2-4.9 6.2-1 0-1.9-.5-2.2-1.1l-.6 2.4c-.2.8-.7 1.7-1.1 2.3A10 10 0 1 0 12 2z"/></svg>
+            </button>
+            <button class="share-btn" type="button" data-share="facebook" aria-label="Share on Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2 0-3.5 1.6-3.5 3.6V12H8v3h2.5v7h3v-7H16l.5-3h-3V9.6c0-.3.2-.6.5-.6z"/></svg>
+            </button>
+            <button class="share-btn" type="button" data-share="x" aria-label="Share on X" title="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 3h3l-6.6 7.6L21.6 21h-6l-4.7-6.1L5.5 21h-3l7-8.1L2.2 3h6.1l4.3 5.6L17.5 3zm-1 16h1.7L7.6 4.7H5.8L16.5 19z"/></svg>
+            </button>
+            <button class="share-btn" type="button" data-share="whatsapp" aria-label="Share on WhatsApp" title="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.4 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.6-.1a12 12 0 0 1-5.6-4.9c-.4-.7-.9-1.6-.9-2.5s.5-1.4.7-1.6c.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a8 8 0 0 0 3.6 3.1c.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 .9c.2.1.4.2.4.3v.9z"/></svg>
+            </button>
+            <button class="share-btn" type="button" data-share="email" aria-label="Share by email" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <button class="share-btn" type="button" data-share="copy" aria-label="Copy link" title="Copy link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h10v10H9z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15H4V4h11v1" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+          </div>
+        </div>
+      </aside>
+
       <div class="prose">
         <aside class="why-panel" aria-labelledby="why-title">
           <h2 id="why-title">Why This Recipe Works</h2>
@@ -331,58 +400,6 @@ ${breadcrumbs(trail)}
         </section>
       </div>
 
-      <aside class="recipe-aside" id="recipe-card" aria-label="Recipe card">
-        <div class="panel panel--accent">
-          <h3>Ingredients</h3>
-          <div class="servings-control" data-scaler>
-            <span>Servings</span>
-            <button type="button" data-servings-dec aria-label="Fewer servings">&minus;</button>
-            <output data-servings-out aria-live="polite">${recipe.servings}</output>
-            <button type="button" data-servings-inc aria-label="More servings">+</button>
-          </div>
-          <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
-                  style="margin-bottom:1rem">Reset to ${recipe.servings} servings</button>
-          <ul class="ingredients">${ingredientsHtml(recipe.ingredients)}</ul>
-          <button class="btn btn--ghost btn--sm btn--block" type="button" data-clear-ingredients
-                  style="margin-top:1rem">Clear checklist</button>
-        </div>
-
-        <div class="panel">
-          <h3>At a glance</h3>
-          <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
-            <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
-            <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
-            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.restTime)}</dd>` : ''}
-            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.elapsedTime)}</dd>
-            <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
-            <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
-          </dl>
-        </div>
-
-        <div class="panel">
-          <h3>Share this recipe</h3>
-          <div class="share-row">
-            <button class="share-btn share-btn--pin" type="button" data-share="pinterest" aria-label="Pin this recipe on Pinterest" title="Pin it">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.6 19.3c-.1-.8-.2-2 0-2.9l1.3-5.4s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 .9-.6 2.3-.9 3.6-.3 1 .6 1.9 1.6 1.9 1.9 0 3.2-2.4 3.2-5.3 0-2.2-1.5-3.8-4.2-3.8a4.8 4.8 0 0 0-5 4.8c0 .9.3 1.5.7 2 .2.2.2.3.1.6l-.2.9c-.1.3-.3.4-.6.2-1.2-.5-1.8-1.9-1.8-3.5 0-2.6 2.2-5.7 6.5-5.7 3.5 0 5.8 2.5 5.8 5.2 0 3.6-2 6.2-4.9 6.2-1 0-1.9-.5-2.2-1.1l-.6 2.4c-.2.8-.7 1.7-1.1 2.3A10 10 0 1 0 12 2z"/></svg>
-            </button>
-            <button class="share-btn" type="button" data-share="facebook" aria-label="Share on Facebook" title="Facebook">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2 0-3.5 1.6-3.5 3.6V12H8v3h2.5v7h3v-7H16l.5-3h-3V9.6c0-.3.2-.6.5-.6z"/></svg>
-            </button>
-            <button class="share-btn" type="button" data-share="x" aria-label="Share on X" title="X">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 3h3l-6.6 7.6L21.6 21h-6l-4.7-6.1L5.5 21h-3l7-8.1L2.2 3h6.1l4.3 5.6L17.5 3zm-1 16h1.7L7.6 4.7H5.8L16.5 19z"/></svg>
-            </button>
-            <button class="share-btn" type="button" data-share="whatsapp" aria-label="Share on WhatsApp" title="WhatsApp">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.4 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.6-.1a12 12 0 0 1-5.6-4.9c-.4-.7-.9-1.6-.9-2.5s.5-1.4.7-1.6c.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a8 8 0 0 0 3.6 3.1c.3.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 .9c.2.1.4.2.4.3v.9z"/></svg>
-            </button>
-            <button class="share-btn" type="button" data-share="email" aria-label="Share by email" title="Email">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-            </button>
-            <button class="share-btn" type="button" data-share="copy" aria-label="Copy link" title="Copy link">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h10v10H9z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15H4V4h11v1" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-            </button>
-          </div>
-        </div>
-      </aside>
     </div>
 
     ${ads.nativeBanner(1, 'Advertisement below the method and ingredients', SITE.base)}

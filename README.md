@@ -563,6 +563,73 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## The ingredients came after the method
+
+On a wide screen the ingredients card sits beside the method and everything is
+fine. On a narrow one the two columns stack in document order, and the card was
+second — so a reader on a phone met the method, the tips, the pairings, the
+storage note, the FAQ, the nutrition table and the review form before reaching
+the list of things to buy. Measured on a 390px viewport: the method at 2,054px
+and the ingredients at 6,870px.
+
+The card is now first in the document rather than reordered with CSS. `order`
+moves a box on screen and leaves the reading order alone, so a keyboard or a
+screen reader would still have travelled the whole method to reach it. On a
+wide screen the two are placed into their columns explicitly, which puts the
+card back on the right without depending on which comes first in the source.
+Ingredients now sit at 1,233px on a phone, directly under the photo.
+
+Two things fell out of the move. The panel headings were `h3`, so the document
+went from the recipe title straight to a level three — `npm run check` caught
+it. They are `h2` now, which is what they should have been: the ingredients are
+a section of the page level with the method, not a subsection of it.
+
+And the print stylesheet hid `.recipe-aside`, which is where the ingredients
+lived. Printing any recipe produced a method with nothing to cook, on a site
+with a Print button in the header. It had been doing that for as long as the
+button has existed. The card prints now, first, with an empty box beside each
+line to tick in a shop, and only the share buttons come out.
+
+## Eighteen dashed rules and a browser checkbox
+
+The card itself looked like a dot-matrix printout: a dashed rule under all
+eighteen rows, the browser's default checkboxes, and the measure set in the
+same accent red and the same weight as the group headings, so the two things a
+cook scans for were competing instead of separating.
+
+The rules are gone — spacing separates the rows and a hover tint picks one out.
+The accent is spent on the measures alone, which is what somebody shopping runs
+their eye down; the group headings step back to a quiet letterspaced label with
+a hairline over it. The checkbox is drawn rather than restyled, so it fills
+with the accent and draws its own tick at any size and in both themes. The list
+sits on its own white surface inside the tinted card: the tint marks the panel
+out, the white underneath makes eighteen rows of small type legible.
+
+The measures line up in a column, which took three attempts. Each row was its
+own grid, so a row's measure column sized to that row and the names came out
+ragged — 139px on one line and 165px on the next. Subgrid gives every row the
+same tracks. The first attempt pushed the names to 305px on a 390px screen and
+wrapped "pain de mie" over seven lines, because the group headings were
+subgrids too and their text landed in the checkbox column, sizing it to the
+heading. Only the rows with a measure take the shared tracks now.
+
+## A hundred and thirty-six quantities that would not scale
+
+Lining the measures up made it obvious that some were missing: "¼ tsp freshly
+grated nutmeg" was sitting in the name column with nothing in the measure
+column. `formatQty` writes nine vulgar fractions — ¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ — and the
+parser could not read a single one of them back, so any ingredient written that
+way in the source was not a quantity as far as the site was concerned.
+
+That was cosmetic in the card and a bug everywhere else. The servings control
+rewrites every `[data-qty]` on the page, and these were not one, so doubling a
+recipe doubled the flour and the milk and left the nutmeg at a quarter
+teaspoon. 136 ingredient lines across the site behaved that way.
+
+The parser reads the glyphs now, and reads them from the same map the formatter
+writes them with, so the two cannot drift apart again. Doubling croque-monsieur
+takes the nutmeg from ¼ tsp to ½ and the salt from ½ tsp to 1.
+
 ## Ratings come from readers or from nowhere
 
 Six hundred recipes published an `aggregateRating`. Every value fell between

@@ -622,6 +622,10 @@
 @media (max-width: 940px) { .recipe-hero { aspect-ratio: 16 / 10; } }
 .recipe-hero img { width: 100%; height: 100%; object-fit: cover; }
 
+/* The ingredients card is first in the document so that a reader working down
+   the page — with a keyboard, a screen reader, or a thumb — meets it before the
+   method. On a wide screen it belongs beside the method rather than above it,
+   so the two are placed explicitly rather than left to source order. */
 .recipe-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
@@ -629,7 +633,15 @@
   align-items: start;
   margin-top: clamp(2rem, 5vw, 3.5rem);
 }
-@media (max-width: 1000px) { .recipe-layout { grid-template-columns: 1fr; } }
+.recipe-layout > .prose { grid-column: 1; grid-row: 1; }
+.recipe-layout > .recipe-aside { grid-column: 2; grid-row: 1; }
+
+/* One column, and the document order is already the order a cook wants. */
+@media (max-width: 1000px) {
+  .recipe-layout { grid-template-columns: 1fr; }
+  .recipe-layout > .prose,
+  .recipe-layout > .recipe-aside { grid-column: 1; grid-row: auto; }
+}
 
 .recipe-aside { position: sticky; top: calc(var(--header-h) + 1.5rem); display: grid; gap: 1.25rem; }
 @media (max-width: 1000px) { .recipe-aside { position: static; } }
@@ -640,7 +652,12 @@
   border-radius: var(--radius-lg);
   padding: 1.4rem;
 }
-.panel h3 { font-size: 1.15rem; margin-bottom: .9rem; }
+/* The cards in the recipe column are top-level sections of the page, level
+   with Method — they are h2 rather than h3 so that the document does not jump
+   from the recipe title straight to a level three now that the ingredients
+   come first. The size is set here because an h2 in a card should not be as
+   loud as an h2 in the prose. */
+.panel h2, .panel h3 { font-size: 1.15rem; margin-bottom: .9rem; line-height: 1.25; }
 .panel--accent { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 [data-theme="dark"] .panel--accent { background: var(--accent-soft); }
 
@@ -678,43 +695,157 @@
 .prose li { margin-bottom: .55rem; }
 
 /* Ingredients */
+/* ------------------------------------------------- the ingredients card
+
+   Rebuilt because the old one read as a printout: a dashed rule under all
+   eighteen rows, the browser's default checkboxes, and the quantity set in
+   the same accent red and the same weight as the group headings, so the two
+   things a cook scans for were competing rather than separating.
+
+   The rules are gone — spacing separates the rows and a hover tint picks one
+   out. The accent is spent on the quantities alone, which is what somebody
+   shopping runs their eye down; the group headings step back to a quiet
+   letterspaced label with a hairline over it. */
+
+.ingredients-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: .75rem; margin-bottom: .9rem;
+}
+.ingredients-head h3 { margin: 0; }
+.ingredients-count {
+  font-size: .78rem; color: var(--text-soft); white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
 .servings-control {
   display: flex; align-items: center; gap: .75rem;
-  background: var(--bg-sunken);
+  background: var(--bg-raised);
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: .35rem .4rem .35rem 1rem;
-  margin-bottom: 1.2rem;
+  padding: .3rem .35rem .3rem 1rem;
+  margin-bottom: 1.1rem;
   font-size: .86rem;
 }
-.servings-control span { margin-right: auto; color: var(--text-soft); }
+.servings-control span { margin-right: auto; color: var(--text); font-weight: 600; }
 .servings-control button {
-  width: 30px; height: 30px; border-radius: 50%;
+  width: 32px; height: 32px; border-radius: 50%;
   border: 1px solid var(--line-strong); background: var(--bg-raised);
-  cursor: pointer; font-size: 1.05rem; line-height: 1; display: grid; place-items: center;
+  color: var(--text);
+  cursor: pointer; font-size: 1.1rem; line-height: 1; display: grid; place-items: center;
   transition: background .18s, color .18s, border-color .18s;
 }
 .servings-control button:hover:not(:disabled) { background: var(--accent); color: #fff; border-color: var(--accent); }
 .servings-control button:disabled { opacity: .4; cursor: not-allowed; }
 .servings-control output { font-weight: 700; min-width: 1.6ch; text-align: center; font-variant-numeric: tabular-nums; }
 
-.ingredients { list-style: none; margin: 0; padding: 0; }
-.ingredients li { border-bottom: 1px dashed var(--line); }
-.ingredients li:last-child { border-bottom: 0; }
+/* The list sits on its own surface inside the tinted card. The tint is what
+   marks this out as the panel a cook comes back to; the white underneath it is
+   what makes eighteen rows of small type and checkboxes legible. */
+.ingredients {
+  list-style: none; margin: 0; padding: .5rem .55rem;
+  background: var(--bg-raised);
+  border: 1px solid color-mix(in srgb, var(--accent) 14%, transparent);
+  border-radius: var(--radius);
+}
+
+/* A quiet label with a hairline over it, so a group reads as a division of
+   the list rather than another line in it. */
 .ingredients .ing-group {
-  font-family: var(--font-body); font-size: .74rem; font-weight: 700;
-  letter-spacing: .12em; text-transform: uppercase; color: var(--accent);
-  padding: 1.1rem 0 .45rem; border: 0;
+  font-family: var(--font-body); font-size: .7rem; font-weight: 700;
+  letter-spacing: .13em; text-transform: uppercase; color: var(--text-soft);
+  padding: 1.15rem .2rem .5rem;
+  margin-top: .5rem;
+  border-top: 1px solid var(--line);
 }
-.ingredients .ing-group:first-child { padding-top: 0; }
+.ingredients .ing-group:first-child { padding-top: .35rem; margin-top: 0; border-top: 0; }
+
 .ing-check {
-  display: flex; gap: .7rem; align-items: flex-start;
-  padding: .6rem .3rem; cursor: pointer; font-size: .95rem;
-  transition: opacity .2s;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: .25rem .7rem;
+  align-items: baseline;
+  padding: .5rem .55rem;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: .95rem;
+  line-height: 1.45;
+  transition: background .15s;
 }
-.ing-check input { accent-color: var(--accent); width: 17px; height: 17px; margin-top: .25rem; flex-shrink: 0; cursor: pointer; }
-.ing-check input:checked ~ .ing-text { opacity: .42; text-decoration: line-through; }
-.ing-qty { font-weight: 700; color: var(--accent); white-space: nowrap; }
+.ing-check:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+
+/* The native control is replaced rather than restyled: a box that fills with
+   the accent and draws its own tick, so it matches the rest of the card at
+   any size and in both themes. */
+.ing-check input {
+  appearance: none; -webkit-appearance: none;
+  width: 19px; height: 19px; flex-shrink: 0;
+  margin: 0; align-self: start; transform: translateY(.18em);
+  border: 1.5px solid var(--line-strong);
+  border-radius: 5px;
+  background: var(--bg-raised);
+  cursor: pointer;
+  display: grid; place-content: center;
+  transition: background .15s, border-color .15s;
+}
+.ing-check input::after {
+  content: ""; width: 10px; height: 6px;
+  border-left: 2px solid #fff; border-bottom: 2px solid #fff;
+  transform: rotate(-45deg) translate(1px, -1px) scale(0);
+  transition: transform .15s ease-out;
+}
+.ing-check input:checked { background: var(--accent); border-color: var(--accent); }
+.ing-check input:checked::after { transform: rotate(-45deg) translate(1px, -1px) scale(1); }
+.ing-check input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.ing-qty {
+  font-weight: 600; color: var(--accent); white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Every row shares one set of column tracks, so the measures form a column and
+   the names start at the same place down the whole list. Without this each row
+   is its own grid and sizes its measure to itself, which left the names with a
+   ragged edge — 139px on one row and 165px on the next.
+
+   The measures are right-aligned against the names for the same reason a
+   recipe book sets them that way: "250 g" and "3" then end together instead of
+   starting together. Browsers without subgrid keep the per-row grid above,
+   which is ragged but correct. */
+@supports (grid-template-columns: subgrid) {
+  .ingredients { display: grid; grid-template-columns: auto auto minmax(0, 1fr); }
+  /* Only the rows that hold a measure take the shared tracks. A group heading
+     is bare text inside its <li>, and making that <li> a subgrid too put the
+     heading in the checkbox column, which sized the column to the heading —
+     172px of empty space in front of every tick box. */
+  .ingredients > li:not(.ing-group) {
+    grid-column: 1 / -1; display: grid; grid-template-columns: subgrid;
+  }
+  .ing-check { grid-column: 1 / -1; grid-template-columns: subgrid; }
+  .ingredients .ing-group { grid-column: 1 / -1; display: block; }
+  .ing-qty { text-align: right; }
+}
+
+/* Struck through together: a quantity left bright beside faded text reads as
+   the one part of the line still to buy. */
+.ing-check input:checked ~ .ing-text,
+.ing-check input:checked ~ .ing-qty { opacity: .38; text-decoration: line-through; }
+
+/* Every name sits in the third column whether or not the line has a measure,
+   so "Black pepper" starts where "250 g plain flour" does. Letting an
+   unmeasured line span the measure column instead made its whole sentence
+   count towards that column's width, which pushed the names to 305px on a
+   390px screen and wrapped "pain de mie" over seven lines. */
+.ing-check > .ing-text { grid-column: 3; }
+
+.ingredients-clear {
+  display: block; width: 100%; margin-top: .9rem;
+  background: none; border: 0;
+  padding: .2rem 0 0;
+  font: inherit; font-size: .82rem; color: var(--text-soft);
+  cursor: pointer; text-align: center;
+  transition: color .15s;
+}
+.ingredients-clear:hover { color: var(--accent); }
 
 /* Method */
 .steps { list-style: none; counter-reset: step; margin: 0; padding: 0; }
@@ -1033,10 +1164,16 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 
 @media print {
   @page { margin: 15mm; }
-  .site-header, .site-footer, .action-bar, .recipe-aside, .related, .reviews,
-  .newsletter, .back-to-top, .fav-btn, .share-row, .breadcrumbs, .toast,
-  .step-actions, .servings-control, .cook-exit, .skip-link,
+  /* .recipe-aside used to be on this list, and the ingredients live inside it,
+     so printing a recipe produced a method with nothing to cook. The card is
+     the first thing in the document now, which is also the right place for it
+     on paper: title, picture, ingredients, method. Only the parts of the
+     column that mean nothing on paper come out. */
+  .site-header, .site-footer, .action-bar, .related, .reviews,
+  .newsletter, .back-to-top, .fav-btn, .share-row, .panel--share, .breadcrumbs, .toast,
+  .step-actions, .servings-control, .ingredients-clear, .cook-exit, .skip-link,
   .ad-slot { display: none !important; }
+  .recipe-aside { position: static; display: block; }
   /* The credit is a licence condition, so it prints with the picture. */
   .photo-credit { display: block !important; color: #444; font-size: 8pt; }
   body { background: #fff; color: #000; font-size: 11pt; line-height: 1.5; }
@@ -1046,7 +1183,13 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   h1 { font-size: 22pt; } h2 { font-size: 14pt; } h3 { font-size: 12pt; }
   .steps li { padding-left: 26pt; page-break-inside: avoid; border-bottom: 1px solid #ddd; }
   .steps li::before { background: #eee !important; color: #000 !important; width: 18pt; height: 18pt; font-size: 9pt; }
+  .ingredients { border: 0; padding: 0; background: none; }
   .ingredients li { page-break-inside: avoid; }
+  /* An empty box to tick with a pen while shopping. Backgrounds are commonly
+     dropped by a printer, so the box is drawn with a border. */
+  .ing-check input { border: 1px solid #666 !important; background: #fff !important; }
+  .ing-check input::after { border-color: #000 !important; }
+  .ing-qty { color: #000; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #555; }
   .print-only { display: block !important; }
 }
