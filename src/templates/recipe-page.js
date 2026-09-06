@@ -167,21 +167,15 @@ function recipeSchema(recipe) {
       text,
       url: `${url}#step-${i + 1}`
     })),
-    /* Real reviews win. With none, the catalogue's seeded figure is used, which
-       is what SITE.unverifiedRatings governs — see the note on it in ./layout.js. */
+    /* Reviews from readers or no reviews at all. There used to be a fallback
+       here that published the catalogue's seeded figures when a recipe had no
+       real ones, which told Google that 4,966 people had rated a dish nobody
+       had rated. Google asks that rating markup come from genuine reviews, and
+       the usual price for markup that does not is every rich result on the
+       domain. src/data/reviews.json is the only source now. */
     ...(published.aggregate
       ? { aggregateRating: published.aggregate, review: published.reviews }
-      : SITE.unverifiedRatings && recipe.reviews
-        ? {
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: recipe.rating.toFixed(1),
-              reviewCount: recipe.reviews,
-              bestRating: '5',
-              worstRating: '1'
-            }
-          }
-        : {}),
+      : {}),
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   };
 }

@@ -276,7 +276,27 @@ function loadRecipes() {
       /* Filled in below, once the register exists — a recipe's modified date
          is the day its own content last changed, not a build constant. */
       dateModified: null,
-      popularity: row.reviews * row.rating
+
+      /* Ratings come from readers or from nowhere.
+         --------------------------------------------------------------
+         The catalogue's own rating and review columns were seeded when it
+         was written, to give the cards something to show. Six hundred
+         recipes carried them, every value between 4.5 and 4.9, and the
+         highest claimed 4,966 reviews that nobody had left. They were
+         printed on the page and published as aggregateRating, which is a
+         statement to a reader and to Google that a stated number of people
+         had rated the dish.
+
+         The two columns are now an editorial ordering weight and nothing
+         else — they order the taxonomy pages and the related lists, which
+         is a presentation choice rather than a claim. What the page shows
+         and the schema publishes comes from src/data/reviews.json, which is
+         empty, so every recipe reads "Not yet rated" until somebody rates
+         one. src/lib/util.js already renders exactly that, because 209
+         recipes never had a seeded figure to begin with. */
+      popularity: row.reviews * row.rating,
+      rating: reviewAverage(publishedReviews[row.slug]),
+      reviews: (publishedReviews[row.slug] || []).length
     };
 
     /* Widen the four curated keywords into the long-tail phrases the row
@@ -323,6 +343,18 @@ function loadRecipes() {
   recipes.dates = dates;
 
   return recipes;
+}
+
+/**
+ * The mean of a recipe's published reviews, or 0 when there are none.
+ *
+ * Zero is what src/lib/util.js reads as "not yet rated", which is the honest
+ * thing to print for a dish nobody has scored.
+ */
+function reviewAverage(reviews) {
+  const list = (reviews || []).filter(Boolean);
+  if (!list.length) return 0;
+  return Number((list.reduce((sum, r) => sum + Number(r.rating), 0) / list.length).toFixed(1));
 }
 
 /* ------------------------------------------------------------- context */

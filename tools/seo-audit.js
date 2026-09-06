@@ -20,7 +20,8 @@
  *      to everything and hide an orphan rather than fixing it.
  *   3. Every recipe links out to at least three other pages on the site.
  *   4. The sitemap holds every indexable route and nothing else.
- *   5. A description that advertises a time is not contradicted by the row.
+ *   5. No page publishes an aggregateRating without real reviews behind it.
+ *   6. A description that advertises a time is not contradicted by the row.
  *
  *   node tools/seo-audit.js
  */
@@ -157,7 +158,28 @@ for (const rule of robots.match(/^Disallow:\s*(\S+)\s*$/gm) || []) {
   }
 }
 
-/* 5. A snippet promising a time the page cannot keep. */
+/* 5. Rating markup with nobody behind it.
+   Google asks that review and rating markup come from genuine reviews, and the
+   price for markup that does not is every rich result on the domain. Six
+   hundred recipes used to publish the catalogue's seeded figures, one of them
+   claiming 4,966 reviews. src/data/reviews.json is the only source now, and
+   this holds it there. */
+const published = require('../src/data/reviews.json');
+for (const [route, html] of all) {
+  if (!/"aggregateRating"/.test(html)) continue;
+  const slug = /^\/recipes\/([^/]+)\/$/.exec(route);
+  const real = slug ? (published[slug[1]] || []).length : 0;
+  if (!real) {
+    problems.push(`${route} publishes an aggregateRating with no reviews behind it in reviews.json`);
+    continue;
+  }
+  const count = /"reviewCount"\s*:\s*(\d+)/.exec(html);
+  if (count && Number(count[1]) !== real) {
+    problems.push(`${route} claims ${count[1]} reviews but reviews.json holds ${real}`);
+  }
+}
+
+/* 6. A snippet promising a time the page cannot keep. */
 for (const recipe of loadRecipes()) {
   const html = all.get(`/recipes/${recipe.slug}/`);
   if (!html) continue;
@@ -176,5 +198,6 @@ if (problems.length > show) console.log(`  … and ${problems.length - show} mor
 console.log(problems.length
   ? `\n${problems.length} SEO problem${problems.length === 1 ? '' : 's'} across ${indexable.length} indexable pages.`
   : `All ${indexable.length} indexable pages carry a distinct title and description, `
-    + 'an inbound link, a sitemap entry and a description the recipe can keep.');
+    + 'an inbound link, a sitemap entry, a description the recipe can keep and '
+    + 'no rating without a reader behind it.');
 process.exit(problems.length ? 1 : 0);

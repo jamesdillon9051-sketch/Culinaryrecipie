@@ -59,7 +59,11 @@ function home(ctx) {
   const editors = recipes.filter(r => r.badges.includes('editors')).slice(0, 4);
   const trending = recipes.filter(r => r.badges.includes('trending')).slice(0, 8);
   const latest = recipes.slice().sort((a, b) => b.published - a.published).slice(0, 4);
-  const quick = recipes.filter(r => r.totalTime <= 30).sort((a, b) => b.rating - a.rating).slice(0, 4);
+  /* Ordered by the editorial weight, not by rating: nothing carries a rating
+     until a reader leaves one, so sorting by it put these four in catalogue
+     order and called it a ranking. */
+  const quick = recipes.filter(r => r.totalTime <= 30)
+    .slice().sort((a, b) => b.popularity - a.popularity).slice(0, 4);
   const heroRecipe = recipes.find(r => r.slug === 'tacos-al-pastor') || recipes[0];
 
   const galleryPicks = recipes.filter(r => r.imageData).slice(0, 12);
@@ -331,7 +335,7 @@ ${breadcrumbs(trail)}
           <label class="sr-only" for="sort">Sort recipes</label>
           <select id="sort">
             <option value="popular">Most popular</option>
-            <option value="rating">Highest rated</option>
+            ${ctx.recipes.some(r => r.rating) ? '<option value="rating">Highest rated</option>' : ''}
             <option value="quickest">Quickest first</option>
             <option value="newest">Newest first</option>
             <option value="az">A to Z</option>

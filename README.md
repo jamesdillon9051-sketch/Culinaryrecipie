@@ -194,7 +194,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 809 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `aggregateRating`, `suitableForDiet`
+- [x] **Recipe** on all 809 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -218,14 +218,14 @@ Everything below is implemented and verified by `npm run check` on every build.
       the reader's own browser and never reach a server. `npm run check` verifies
       review text is on the page and that a VideoObject is accompanied by an
       actual player
-- [ ] **`aggregateRating` currently publishes seeded figures.** Every rating in
-      the catalogue falls between 4.5 and 4.9, none lower — not a distribution
-      real ratings produce. They were written with the catalogue to give the cards
-      something to show, and emitting them as structured data tells a search
-      engine a stated number of people rated the dish. `SITE.unverifiedRatings`
-      in `src/templates/layout.js` turns this off; it is left on because doing so
-      removes the stars from search results, which is a trade to make deliberately.
-      Real reviews override it automatically
+- [x] **`aggregateRating` comes from readers or from nowhere.** It used to
+      publish the catalogue's seeded figures: every value between 4.5 and 4.9,
+      the highest claiming 4,966 reviews, on 600 recipes nobody had rated. That
+      is a statement to a reader and to Google that a stated number of people
+      scored the dish, and Google's price for rating markup that is not from
+      genuine reviews is every rich result on the domain. The fallback is gone
+      and `src/data/reviews.json` is the only source, so all 809 read "Not yet
+      rated" until somebody rates one
 - [x] **FAQPage** on all 809 recipe pages and the about page — 4,774 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
@@ -499,11 +499,10 @@ Being derived is the point. The six hand-written tags took three passes to bring
 into line with their ingredients; these two are recomputed from the data on every
 build and cannot drift.
 
-`src/data/catalog-4.js` adds twelve recipes written to those two briefs. They are
-also the first recipes on the site with **no rating**: the other 600 carry seeded
-figures, and adding twelve more invented ones would have been a poor answer to
-having just documented that. They show "Not yet rated" and publish no
-`aggregateRating` until somebody rates them.
+`src/data/catalog-4.js` adds twelve recipes written to those two briefs. They
+were also the first recipes on the site with **no rating**, because adding
+twelve more invented figures would have been a poor answer to having just
+documented the problem. Every recipe reads that way now — see below.
 
 ### On diabetes
 
@@ -563,6 +562,43 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## Ratings come from readers or from nowhere
+
+Six hundred recipes published an `aggregateRating`. Every value fell between
+4.5 and 4.9, there were six distinct numbers across all six hundred, and the
+highest claimed 4,966 reviews. Nobody had left any of them. They were written
+with the catalogue to give the cards something to show, and they were printed
+on the page and published as structured data, which says to a reader and to
+Google that a stated number of people scored the dish.
+
+Google asks that rating markup come from genuine reviews. The usual price for
+markup that does not is every rich result on the domain, which for a site
+trying to reach page one is the wrong thing to be gambling.
+
+The fallback is gone. `src/data/reviews.json` is the only source of a rating
+now, it is empty, and all 809 recipes read "Not yet rated" — markup that
+`src/lib/util.js` has always rendered, because 209 recipes never carried a
+seeded figure to begin with. Put one real review in that file and everything
+comes back for that recipe alone: the stars, the review text, an
+`aggregateRating` recomputed as the actual average, the `Review` object beside
+it, and the "Highest rated" sort option, which is hidden while nothing on the
+site has a rating rather than sitting there sorting by zero.
+
+The two catalogue columns stay, as an editorial ordering weight and nothing
+else. They order the taxonomy pages, the related lists and the home page's
+picks, which is a presentation choice rather than a claim about what anyone
+thinks. Nothing reads them as a rating any more, because the built record no
+longer carries one unless a reader supplied it.
+
+`tools/seo-audit.js` holds the line: a page publishing an `aggregateRating`
+with no entry in `reviews.json`, or a `reviewCount` that disagrees with the
+number of reviews actually there, fails the build. Restoring the old fallback
+produces 809 failures.
+
+This costs the stars in search results, which is a real loss and was the reason
+the fallback survived three audits that all identified it. It is the right
+trade for a site with no ranking to defend and everything to establish.
 
 ## Things that were already blocking the render
 

@@ -127,9 +127,6 @@ function replacements(root) {
     [/checks all [\d,]+ of them back against/,
      `checks all ${totalKeywords.toLocaleString('en-GB')} of them back against`],
 
-    [/the other \d[\d,]* carry seeded/,
-     `the other ${rated} carry seeded`],
-
     [/Every one of the site's \d[\d,]* recipes now passes/,
      `Every one of the site's ${s.recipeCount} recipes now passes`],
 
