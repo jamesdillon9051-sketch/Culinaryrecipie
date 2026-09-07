@@ -588,10 +588,8 @@ file is where every ad on the site is configured and where the off switch
 lives: emptying `monetag.src` takes the tag off all 946 pages at the next
 build, and `enabled: false` still takes everything off at once.
 
-Placement follows the rule the rest of them follow — immediately before
-`</body>`, never the head. That is not a preference: `npm run check` fails any
-third-party script found in `<head>`, so putting it there would have broken the
-build rather than shipped quietly.
+Placement is the one exception to the rule the rest of them follow — see
+"Monetag went back to the head" below.
 
 It is wired through the consent path as well. Gating is switched off today, but
 if it is ever switched on, the tag has to leave the markup with the others and
@@ -656,8 +654,10 @@ meets. Nothing either Adsterra unit does needs to happen before the content
 exists, so both now load immediately before `</body>`, alongside the native
 banner that was already there.
 
-`npm run check` fails on any third-party script in the head, with Google's own
-gtag named as the exception because its measurement is time-sensitive.
+`npm run check` fails on any third-party script in the head. Two are exempt:
+Google's own gtag, because its measurement is time-sensitive, and Monetag,
+which went back up there deliberately — the section below says why, and how
+the exemption is kept narrow.
 
 The same pass found a real layout shift waiting to happen. Each page carries
 two banner slots. The framed one has always reserved its full height on the
@@ -666,6 +666,44 @@ holding only the stylesheet's 140px against a unit that paints nearer three
 hundred — so the article below it would move once the ad arrived. Both reserve
 the same height now, from the one number in `src/data/ads.js`, and the check
 fails if they disagree. Measured in Chromium at 390px: CLS 0, no shift events.
+
+## Monetag went back to the head
+
+The section above moved every third-party script out of `<head>`, and Monetag
+is now back in it, first thing in the document. That is a reversal, so it is
+worth writing down why rather than leaving the two sections to contradict each
+other.
+
+The general rule still holds: a script in the head is fetched and run while the
+document a crawler came for is being assembled, and nothing the Adsterra units
+do needs to happen before the content exists. What is different about this one
+is that its own network documents it as a head placement and asks for it as the
+first script on the page — and a tag run outside the placement its network
+supports is a tag whose behaviour nobody can predict or support. The cost is
+bounded and measured: it is `async`, so the parser never waits on it, and
+Chromium at 390px still reports CLS 0 with no shift events.
+
+Two things make the exception narrow rather than a hole in the rule:
+
+- The allow-list in `tools/check.js` is read out of `src/data/ads.js`, not
+  written down as a hostname. It exempts the URL that is configured and no
+  other, so changing the unit moves the exemption with it and adding a second
+  network inherits nothing.
+- Being in the head is not enough. The check also fails if the tag is not the
+  *first* script in the document, if it drifts back into the body, or if it
+  appears twice — because "first script on the page" is the whole content of
+  the placement, and counting the tag on the page would not notice it moving.
+
+One thing had to be checked rather than assumed. The HTML parser only honours
+`<meta charset>` if the whole element is serialized inside the first 1024
+bytes; past that it sniffs, and a page that names UTF-8 too late renders its
+accented ingredients as mojibake. Nothing had ever sat above the declaration
+before, so the budget had never been spent. It ends at byte 277 now, and
+`npm run check` fails the build if it ever ends past 1024.
+
+All five failures were confirmed by causing them: another third-party script in
+the head, the charset pushed past the budget, the tag moved to the body, the
+tag emitted twice, and an exempt gtag placed ahead of it.
 
 ## The ingredients came after the method
 

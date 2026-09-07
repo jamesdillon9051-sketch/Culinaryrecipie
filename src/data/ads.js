@@ -52,6 +52,12 @@ module.exports = {
    * Loader to leave the tag alone — it rewrites script execution order and
    * breaks tags that expect to run as written.
    *
+   * The one script on the site that sits in <head> rather than after the
+   * content, and first in it: that is the placement Monetag's own integration
+   * notes ask for. tools/check.js reads the exemption from this field, so a
+   * change here moves it, and fails the build if the tag is not first, drifts
+   * into the body, or appears twice.
+   *
    * Set `src` to '' to take it off every page at the next build.
    */
   monetag: {

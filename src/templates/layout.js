@@ -208,6 +208,8 @@ function layout(page) {
   return `<!doctype html>
 <html lang="en-GB" data-theme="light">
 <head>
+<!-- Monetag: a head placement, per the network's own notes. See src/templates/ads.js. -->
+${ads.monetag()}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
@@ -290,15 +292,15 @@ ${footer(page.cuisines || [])}
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">${ICONS.arrowUp}</button>
 ${scripts}
 <!--
-  Both ad units load at the end of the body rather than in the head. They were
-  async already, so they were not blocking the parser, but a third-party script
-  in the head is still fetched and executed while the document Googlebot needs
-  is being assembled, and it is the first thing a crawler meets on the page.
-  Nothing either unit does needs to happen before the content exists.
+  The Adsterra units load at the end of the body rather than in the head. They
+  were async already, so they were not blocking the parser, but a third-party
+  script in the head is still fetched and executed while the document
+  Googlebot needs is being assembled. Nothing either unit does needs to happen
+  before the content exists, so neither is worth putting in front of it.
+  Monetag is the exception, and sits at the top of the head above.
 -->
 ${ads.popunder()}
 ${ads.socialBar()}
-${ads.monetag()}
 ${consentTag()}
 </body>
 </html>`;

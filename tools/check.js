@@ -37,6 +37,15 @@ function decodeEntities(value) {
 
 const isNoindex = html => /<meta name="robots" content="[^"]*noindex/.test(html);
 
+/* The third-party scripts allowed in <head>, and nothing else — see the guard
+   in the page loop below. Read out of the ad config rather than written down
+   here, so changing a unit's URL moves its exemption with it and adding a
+   second network does not silently inherit one. */
+const HEAD_SCRIPTS_ALLOWED = (() => {
+  const monetag = require('../src/data/ads').monetag;
+  return [monetag && monetag.src].filter(Boolean);
+})();
+
 const problems = [];
 const warnings = [];
 let pagesChecked = 0;
@@ -226,16 +235,40 @@ for (const file of htmlFiles) {
     problems.push(`${rel}: <script src="${src}"> blocks rendering — add async or defer`);
   }
 
-  /* --- nothing third-party in the head -------------------------------------
+  /* --- the encoding declaration is still early enough ----------------------
+     The HTML parser only honours <meta charset> if the whole element is
+     serialized inside the first 1024 bytes; past that it sniffs, and a page
+     that names UTF-8 too late renders its accented ingredients as mojibake.
+     This mattered the moment a script moved above it — everything ahead of
+     the declaration now spends part of that budget, so the budget is checked
+     rather than assumed. */
+  {
+    const at = html.indexOf('<meta charset');
+    if (at === -1) {
+      problems.push(`${rel}: no <meta charset> declaration`);
+    } else {
+      const end = Buffer.byteLength(html.slice(0, html.indexOf('>', at) + 1));
+      if (end > 1024) {
+        problems.push(`${rel}: <meta charset> ends at byte ${end}, past the 1024 the parser reads`);
+      }
+    }
+  }
+
+  /* --- nothing third-party in the head, bar two ----------------------------
      The head is what a crawler parses before it reaches any content, and a
      third-party script there is fetched and run while that is happening. The
-     ad units carry no work that has to precede the document, so they load at
-     the end of the body. Google's own gtag is the exception: it is async and
-     the measurement it does is time-sensitive. */
+     Adsterra units carry no work that has to precede the document, so they
+     load at the end of the body, and this catches any that drift back up.
+
+     Two exceptions, both async and both there on purpose: Google's own gtag,
+     whose measurement is time-sensitive, and the Monetag tag, which the
+     network documents as a head placement. The second is read out of
+     src/data/ads.js, so it covers the configured unit and no other. */
   {
     const head = html.slice(0, html.indexOf('</head>'));
     for (const [, src] of head.matchAll(/<script\b[^>]*\bsrc="(https?:\/\/[^"]+)"/g)) {
       if (src.includes('googletagmanager.com')) continue;
+      if (HEAD_SCRIPTS_ALLOWED.includes(src)) continue;
       problems.push(`${rel}: third-party script in <head> — ${src.slice(0, 60)}`);
     }
   }
@@ -381,12 +414,28 @@ if (!vercelCsp) {
 
   if (ads.enabled && !consent.enabled && unit) {
     const missing = { popunder: [], socialBar: [], monetag: [], slots: [] };
+    /* Where each unit is meant to sit. The two Adsterra loaders go after the
+       content; the Monetag tag goes first in the head, which is the placement
+       its own integration notes ask for. Counting the unit on the page is not
+       enough on its own — a template edit can move a call without dropping it,
+       and "first script in the document" is the whole point of this one. */
+    const misplaced = { head: [], body: [] };
     for (const file of htmlFiles) {
       const html = fs.readFileSync(file, 'utf8');
       const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
       if (ads.popunder && !html.includes(ads.popunder)) missing.popunder.push(where);
       if (ads.socialBar && !html.includes(ads.socialBar)) missing.socialBar.push(where);
       if (monetag && monetag.src && !html.includes(monetag.src)) missing.monetag.push(where);
+      if (monetag && monetag.src && html.includes(monetag.src)) {
+        const headEnd = html.indexOf('</head>');
+        const at = html.indexOf(monetag.src);
+        if (at > headEnd) misplaced.head.push(where);
+        else if (html.indexOf(monetag.src, at + 1) !== -1) misplaced.body.push(where);
+        /* Nothing third-party may precede it, or it is not the first script. */
+        else if (/<script\b[^>]*\bsrc="https?:\/\//.test(html.slice(0, at))) {
+          misplaced.head.push(where);
+        }
+      }
       /* Two slots on every page: the first embeds the snippet, the second is an
          iframe onto the one-slot document. One of either is a broken layout. */
       const slots = (html.match(/container-|native-banner\.html/g) || []).length;
@@ -403,6 +452,14 @@ if (!vercelCsp) {
     if (missing.slots.length) {
       problems.push(`${missing.slots.length} page(s) do not carry exactly 2 native banner slots`
         + `, starting with ${missing.slots[0]}`);
+    }
+    if (misplaced.head.length) {
+      problems.push(`the Monetag tag is not the first script in <head> on ${misplaced.head.length} `
+        + `page(s), starting with ${misplaced.head[0]}`);
+    }
+    if (misplaced.body.length) {
+      problems.push(`the Monetag tag appears twice on ${misplaced.body.length} page(s), `
+        + `which would load it twice, starting with ${misplaced.body[0]}`);
     }
 
     /* Both slots have to hold the same space before the network paints. The

@@ -32,11 +32,18 @@ function socialBar() {
 }
 
 /**
- * The Monetag tag, for the end of <body>. Empty while gating is on.
+ * The Monetag tag, first thing in <head>. Empty while gating is on.
  *
- * Same placement and the same gate as the two Adsterra loaders: nothing it
- * does needs to happen before the document exists, and tools/check.js fails
- * any third-party script that appears in <head>.
+ * The only third-party script on the site that is not at the end of the body,
+ * and the placement is deliberate: Monetag documents this tag as a head
+ * placement and asks for it as the first script in the document. It is async,
+ * so it does not block the parser, and data-cfasync="false" keeps Cloudflare's
+ * Rocket Loader from rewriting its execution order.
+ *
+ * tools/check.js still fails any other third-party script in <head>, and reads
+ * the exemption out of ../data/ads.js rather than naming a host — so changing
+ * the src here moves the exemption with it, and adding a second network does
+ * not quietly inherit it.
  */
 function monetag() {
   const unit = ADS.monetag;
