@@ -274,7 +274,6 @@ ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as=
 <script src="${SITE.base}assets/js/theme.js"></script>
 ${schemaBlocks}
 ${analyticsTag()}
-${ads.popunder()}
 </head>
 <body class="${page.bodyClass || ''}" data-base="${SITE.base}">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -288,6 +287,14 @@ ${footer(page.cuisines || [])}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">${ICONS.arrowUp}</button>
 ${scripts}
+<!--
+  Both ad units load at the end of the body rather than in the head. They were
+  async already, so they were not blocking the parser, but a third-party script
+  in the head is still fetched and executed while the document Googlebot needs
+  is being assembled, and it is the first thing a crawler meets on the page.
+  Nothing either unit does needs to happen before the content exists.
+-->
+${ads.popunder()}
 ${ads.socialBar()}
 ${consentTag()}
 </body>

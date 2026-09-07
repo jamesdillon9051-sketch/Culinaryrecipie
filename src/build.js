@@ -101,7 +101,7 @@ const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
    with one of these would otherwise delete the project. */
 const PROTECTED = new Set(['.git', '.github', '.gitignore', '.nojekyll', 'src', 'tools',
   'node_modules', 'package.json', 'package-lock.json', 'README.md',
-  'images-attribution.md', 'netlify.toml', 'vercel.json',
+  'images-attribution.md', 'netlify.toml', 'vercel.json', '.htaccess',
   /* A second, self-contained project shares this repository root. It builds
      itself and must never be touched by this build. */
   'travel-destinations']);
@@ -771,7 +771,13 @@ function build() {
   fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
-  fs.writeFileSync(path.join(OUT, '_redirects'), '/*  /404.html  404\n');
+  /* Netlify's file format. The host rules live in .htaccess (the live host),
+     netlify.toml and vercel.json as well, so that a move between them cannot
+     drop the one rule that stops every page existing at two URLs. Order
+     matters here: the catch-all has to come last or nothing after it fires. */
+  fs.writeFileSync(path.join(OUT, '_redirects'),
+    `https://www.weeklydelight.com/*  https://weeklydelight.com/:splat  301!\n`
+    + '/*  /404.html  404\n');
 
   /* Written after the sitemap, which is what asks for the dates. Committed, so
      the next build on any machine agrees about what changed and when. */

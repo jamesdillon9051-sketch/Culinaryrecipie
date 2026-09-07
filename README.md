@@ -563,6 +563,66 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## Two hostnames, one site
+
+Search Console was reporting "Page with redirect" and "Alternate page with
+proper canonical tag". Neither turned out to be a fault in what this repository
+generates, and the second is worth spelling out because the markup was already
+right.
+
+Probed against the live site:
+
+| URL | Result |
+| --- | --- |
+| `https://weeklydelight.com/recipes/pad-thai/` | 200 |
+| `https://weeklydelight.com/recipes/pad-thai` | 301 to the slash form |
+| `http://weeklydelight.com/recipes/pad-thai/` | 301 to https |
+| `https://www.weeklydelight.com/recipes/pad-thai/` | **200** |
+
+The first three are correct, and the two redirects are what "Page with
+redirect" is reporting — Search Console describing a 301 it followed, not an
+error to fix.
+
+The fourth is the problem. Every page answered on both hostnames with the same
+content, and the www copy carried a canonical pointing at the apex. Google
+honoured it and filed all 943 as alternates, which is the second flag: a
+duplicate it resolved correctly, at the cost of spending half of what it
+fetched on a second copy of a page it already had.
+
+The fix is a host rule, not a template change. The live site runs on Hostinger,
+which reads `.htaccess`; `netlify.toml` and `vercel.json` in this repository
+are for two hosts it is not on, and neither had a rule for this. All three
+carry the www-to-apex 301 now, and so does the generated `_redirects`, so
+moving between hosts cannot drop the one rule that stops every page existing
+twice.
+
+What the repository itself controls is checked by `tools/seo-audit.js`: every
+canonical absolute, self-referencing and trailing-slash; every internal link
+and every sitemap entry in the same form. Nothing the site publishes sends a
+crawler through a redirect of its own making. All three checks were confirmed
+by breaking them — a relative canonical, a sitemap entry with the slash
+removed, and one internal link shortened.
+
+## The ad scripts left the head
+
+They were already `async`, so they were not blocking the parser. But a
+third-party script in `<head>` is still fetched and run while the document a
+crawler came for is being assembled, and it is the first thing that crawler
+meets. Nothing either Adsterra unit does needs to happen before the content
+exists, so both now load immediately before `</body>`, alongside the native
+banner that was already there.
+
+`npm run check` fails on any third-party script in the head, with Google's own
+gtag named as the exception because its measurement is time-sensitive.
+
+The same pass found a real layout shift waiting to happen. Each page carries
+two banner slots. The framed one has always reserved its full height on the
+iframe; the direct embed is a bare div that the network fills, and it was
+holding only the stylesheet's 140px against a unit that paints nearer three
+hundred — so the article below it would move once the ad arrived. Both reserve
+the same height now, from the one number in `src/data/ads.js`, and the check
+fails if they disagree. Measured in Chromium at 390px: CLS 0, no shift events.
+
 ## The ingredients came after the method
 
 On a wide screen the ingredients card sits beside the method and everything is

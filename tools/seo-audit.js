@@ -20,8 +20,11 @@
  *      to everything and hide an orphan rather than fixing it.
  *   3. Every recipe links out to at least three other pages on the site.
  *   4. The sitemap holds every indexable route and nothing else.
- *   5. No page publishes an aggregateRating without real reviews behind it.
- *   6. A description that advertises a time is not contradicted by the row.
+ *   5. Every canonical, internal link and sitemap entry names the same
+ *      absolute trailing-slash URL, so nothing the site publishes sends a
+ *      crawler through a redirect.
+ *   6. No page publishes an aggregateRating without real reviews behind it.
+ *   7. A description that advertises a time is not contradicted by the row.
  *
  *   node tools/seo-audit.js
  */
@@ -158,7 +161,50 @@ for (const rule of robots.match(/^Disallow:\s*(\S+)\s*$/gm) || []) {
   }
 }
 
-/* 5. Rating markup with nobody behind it.
+/* 5. One URL per page, in one shape.
+   Search Console reports "Page with redirect" when it fetches a URL and gets a
+   3xx, and "Alternate page with proper canonical tag" when it fetches a second
+   copy of a page it already has. Both are produced by a site that is reachable
+   at more than one address for the same content. The live host answers on the
+   apex and on www; that is fixed in .htaccess. What is checked here is the
+   part this repository controls: that every canonical, every internal link and
+   every sitemap entry names the same absolute, trailing-slash form, so nothing
+   the site itself publishes sends a crawler through a redirect. */
+const ORIGIN = 'https://weeklydelight.com';
+for (const [route, html] of indexable) {
+  const canonical = attr(html, /<link rel="canonical" href="([^"]*)"/);
+  if (!canonical) { problems.push(`${route} has no canonical link`); continue; }
+  if (!canonical.startsWith('https://')) {
+    problems.push(`${route} has a relative canonical — ${canonical}`);
+  }
+  if (canonical !== ORIGIN + route) {
+    problems.push(`${route} points its canonical at ${canonical}, not at itself`);
+  }
+  if (!canonical.endsWith('/') && !canonical.endsWith('.html')) {
+    problems.push(`${route} has a canonical with no trailing slash — ${canonical}`);
+  }
+  if (!/<meta name="robots" content="index, follow/.test(html)) {
+    problems.push(`${route} is indexable but carries no "index, follow" robots tag`);
+  }
+}
+
+/* An internal link without the trailing slash is a redirect the site inflicts
+   on its own crawler. */
+for (const [route, html] of all) {
+  const main = /<main id="main">([\s\S]*)<\/main>/.exec(html);
+  for (const [, href] of (main ? main[1] : html).matchAll(/<a [^>]*href="(\/[^"#?]*)"/g)) {
+    if (href.endsWith('/') || /\.[a-z0-9]{2,4}$/.test(href)) continue;
+    problems.push(`${route} links to ${href}, which has no trailing slash and will redirect`);
+  }
+}
+
+for (const url of listed) {
+  if (!url.endsWith('/') && !url.endsWith('.html')) {
+    problems.push(`sitemap.xml lists ${url} without a trailing slash, which redirects`);
+  }
+}
+
+/* 6. Rating markup with nobody behind it.
    Google asks that review and rating markup come from genuine reviews, and the
    price for markup that does not is every rich result on the domain. Six
    hundred recipes used to publish the catalogue's seeded figures, one of them
@@ -179,7 +225,7 @@ for (const [route, html] of all) {
   }
 }
 
-/* 6. A snippet promising a time the page cannot keep. */
+/* 7. A snippet promising a time the page cannot keep. */
 for (const recipe of loadRecipes()) {
   const html = all.get(`/recipes/${recipe.slug}/`);
   if (!html) continue;

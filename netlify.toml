@@ -6,6 +6,14 @@
   NODE_VERSION = "20"
 
 # Clean URLs: /recipes/pad-thai resolves to /recipes/pad-thai/index.html
+# One hostname. Both used to answer 200 with the same page, which put every
+# URL in Search Console twice — see .htaccess for the full note.
+[[redirects]]
+  from = "https://www.weeklydelight.com/*"
+  to = "https://weeklydelight.com/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/404.html"

@@ -86,13 +86,20 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
   const own = units[index];
 
   if (own && own.invoke && own.key) {
+    /* The same height the framed slot reserves. This one is a bare div that
+       the network fills, and it was holding only the stylesheet's 140px while
+       the unit paints nearer three hundred — so the article below it moved
+       once the ad arrived, which is the shift Core Web Vitals measures. The
+       framed slot has always reserved its full height; now both do, from the
+       one number in src/data/ads.js. */
+    const reserved = ADS.frameHeight || 300;
     /* Gated: an empty div holding the invoke URL and the container id, which
        consent.js turns into the real slot. Ungated: the snippet as Adsterra
        supplies it. */
     return wrap(label, CONSENT.enabled
-      ? `<div data-ad-invoke="${own.invoke}" data-ad-key="${own.key}"></div>`
+      ? `<div data-ad-invoke="${own.invoke}" data-ad-key="${own.key}" style="min-height:${reserved}px"></div>`
       : `<script async="async" data-cfasync="false" src="${own.invoke}"></script>
-  <div id="container-${own.key}"></div>`);
+  <div id="container-${own.key}" style="min-height:${reserved}px"></div>`);
   }
 
   if (!units[0]) return '';

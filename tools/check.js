@@ -226,6 +226,20 @@ for (const file of htmlFiles) {
     problems.push(`${rel}: <script src="${src}"> blocks rendering — add async or defer`);
   }
 
+  /* --- nothing third-party in the head -------------------------------------
+     The head is what a crawler parses before it reaches any content, and a
+     third-party script there is fetched and run while that is happening. The
+     ad units carry no work that has to precede the document, so they load at
+     the end of the body. Google's own gtag is the exception: it is async and
+     the measurement it does is time-sensitive. */
+  {
+    const head = html.slice(0, html.indexOf('</head>'));
+    for (const [, src] of head.matchAll(/<script\b[^>]*\bsrc="(https?:\/\/[^"]+)"/g)) {
+      if (src.includes('googletagmanager.com')) continue;
+      problems.push(`${rel}: third-party script in <head> — ${src.slice(0, 60)}`);
+    }
+  }
+
   /* --- no inline script of our own ---------------------------------------
      The CSP now allows 'unsafe-inline' so the ad network can do its work, but
      nothing the generator writes should depend on that. Keeping our own output
@@ -362,6 +376,7 @@ if (!vercelCsp) {
   const ads = require('../src/data/ads');
   const consent = require('../src/data/consent');
   const unit = (ads.nativeBanners || [])[0];
+  const ADS_HEIGHT = ads.frameHeight || 300;
 
   if (ads.enabled && !consent.enabled && unit) {
     const missing = { popunder: [], socialBar: [], slots: [] };
@@ -385,6 +400,23 @@ if (!vercelCsp) {
     if (missing.slots.length) {
       problems.push(`${missing.slots.length} page(s) do not carry exactly 2 native banner slots`
         + `, starting with ${missing.slots[0]}`);
+    }
+
+    /* Both slots have to hold the same space before the network paints. The
+       framed one reserves its height on the iframe; the direct embed is a bare
+       div and was holding only the stylesheet's 140px against a unit that
+       paints nearer three hundred, so the article moved when the ad arrived. */
+    const reserved = ADS_HEIGHT;
+    for (const file of htmlFiles) {
+      const html = fs.readFileSync(file, 'utf8');
+      const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
+      if (where.startsWith('/assets/')) continue;
+      const container = new RegExp(`id="container-${unit.key}"[^>]*style="min-height:(\\d+)px"`).exec(html);
+      if (!container) {
+        problems.push(`${where}: the embedded ad slot reserves no height, so the page moves when it paints`);
+      } else if (Number(container[1]) !== reserved) {
+        problems.push(`${where}: ad slots reserve ${container[1]}px and ${reserved}px — they should match`);
+      }
     }
 
     /* The framed document is the exception and has to stay one: the popunder

@@ -1,0 +1,36 @@
+# Weekly Delight — host rules for the live site.
+#
+# The site is served by Hostinger, which reads this file; netlify.toml and
+# vercel.json in this repository are for the two hosts it is not on, and
+# neither of them was doing anything about the problem below.
+#
+# Every page was reachable on two hostnames. https://weeklydelight.com/ and
+# https://www.weeklydelight.com/ both returned 200 with the same content, and
+# both carried a canonical pointing at the apex. Google honoured the canonical
+# and filed all 943 www copies as "Alternate page with proper canonical tag",
+# which is Search Console reporting a duplicate it resolved rather than an
+# error — but it means half of what the crawler fetched was a second copy of a
+# page it already had.
+#
+# One host, one URL. The redirect is 301 so the resolution is permanent and
+# any link equity on a www URL moves to the apex.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # www -> apex, preserving scheme, path and query.
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+  # http -> https. Already in place upstream, kept here so the rule set is
+  # complete if the host in front of this ever changes.
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# The build writes directory-style pages, so /recipes/pad-thai/ is served by
+# /recipes/pad-thai/index.html. The trailing slash is the canonical form and
+# every canonical tag, internal link and sitemap entry uses it.
+DirectoryIndex index.html
+
+ErrorDocument 404 /404.html
