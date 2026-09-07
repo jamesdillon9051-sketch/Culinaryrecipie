@@ -24,8 +24,22 @@
 module.exports = {
   enabled: true,
 
-  /* Loaded in <head>. Opens a background tab on the visitor's first click. */
-  popunder: 'https://pl31083097.profitableratecpmnetwork.com/c9/51/15/c95115ef478957b26e6e3b38d22f9853.js',
+  /**
+   * Off.
+   *
+   * Adsterra's popunder and Monetag's tag both open a background window on a
+   * click, so with both running one click could produce two. That reads as a
+   * broken site rather than an advert, and two networks competing for the same
+   * moment tends to cost more in sessions than either makes.
+   *
+   * Monetag owns that slot now. Adsterra keeps the social bar and the native
+   * banners, which do not conflict with it. Put the URL back to switch this on
+   * again — nothing else has to change, and check.js starts counting it on
+   * every page the moment it is non-empty.
+   *
+   * Was: https://pl31083097.profitableratecpmnetwork.com/c9/51/15/c95115ef478957b26e6e3b38d22f9853.js
+   */
+  popunder: '',
 
   /* Loaded last, before </body>, so it never delays first paint. */
   socialBar: 'https://pl31083098.profitableratecpmnetwork.com/bf/a6/76/bfa676ffa93febb261c12a1f71055429.js',

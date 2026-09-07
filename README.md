@@ -563,6 +563,23 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## One pop, not two
+
+The Adsterra popunder is off. Monetag's tag opens a background window on a
+click and so did that one, so with both running a single click could produce
+two — which reads as a broken site rather than an advert, and two networks
+competing for the same moment tends to cost more in sessions than either makes.
+
+Monetag owns that slot now. Adsterra keeps the social bar and the two native
+banners, which do not conflict with it. The switch is `popunder: ''` in
+`src/data/ads.js`, with the URL kept in the comment above it: putting it back
+is one edit, and `npm run check` starts counting it on every page again the
+moment it is non-empty.
+
+Confirmed in Chromium — the external hosts a page now requests are the social
+bar, the banner, Monetag, Google's tag manager and the font CDN. The popunder's
+host is not among them.
+
 ## A second ad network
 
 Monetag's multi-format tag now runs alongside the three Adsterra units. It went
@@ -762,7 +779,8 @@ party and one was ours:
 
 - The Adsterra popunder, in `<head>`, on all 946 pages. A third-party script
   with no `async` on the critical path is the most expensive thing a page can
-  carry, because the delay is however long somebody else's server takes.
+  carry, because the delay is however long somebody else's server takes. (That
+  unit has since been switched off entirely — see below.)
 - The Adsterra social bar, before `</body>`. It blocks less there, but it still
   holds up the load event.
 - `assets/js/analytics.js`, the gtag bootstrap. Google's own `gtag.js` was
@@ -1258,15 +1276,19 @@ Both audits run inside `npm run check`.
 
 ## Ads
 
-`npm run check` also verifies that every page carries all three ad units: the
-popunder in the head, the social bar before the closing body tag, and exactly
-two native banner slots. Two, not one or three — the first embeds Adsterra's
-snippet and the second is an iframe onto a one-slot document, because
-`getElementById` returns a single node and two copies of the snippet in one
-page leave the second slot empty forever.
+`npm run check` verifies that every page carries every unit that is switched
+on in `src/data/ads.js`: today the Adsterra social bar, the Monetag tag, and
+exactly two native banner slots. Two, not one or three — the first embeds
+Adsterra's snippet and the second is an iframe onto a one-slot document,
+because `getElementById` returns a single node and two copies of the snippet
+in one page leave the second slot empty forever. All of them load before the
+closing body tag; a third-party script in `<head>` fails the check.
+
+The count follows the config rather than a fixed list, so switching a unit off
+is a one-line edit and switching it back on restores the check with it.
 
 The framed document is checked in the opposite direction: it must hold the
-banner and must *not* hold the popunder or the social bar, which would fire
+banner and must *not* hold any of the page-level loaders, which would fire
 them a second time on every page of the site.
 
 This was the last claim on the site with no witness. Everything else here —
