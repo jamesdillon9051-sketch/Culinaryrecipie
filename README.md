@@ -563,6 +563,33 @@ The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
 
+## A second ad network
+
+Monetag's multi-format tag now runs alongside the three Adsterra units. It went
+into `src/data/ads.js` beside them rather than into the template, because that
+file is where every ad on the site is configured and where the off switch
+lives: emptying `monetag.src` takes the tag off all 946 pages at the next
+build, and `enabled: false` still takes everything off at once.
+
+Placement follows the rule the rest of them follow — immediately before
+`</body>`, never the head. That is not a preference: `npm run check` fails any
+third-party script found in `<head>`, so putting it there would have broken the
+build rather than shipped quietly.
+
+It is wired through the consent path as well. Gating is switched off today, but
+if it is ever switched on, the tag has to leave the markup with the others and
+come back only after somebody agrees — so its URL and zone travel inertly on
+data attributes and `assets/js/consent.js` injects it with the rest. A unit
+that only half-respects the banner is worse than no banner.
+
+`npm run check` counts it on every page the way it counts the other three, and
+verifies it is absent from the framed one-slot document, where a second copy
+would fire it twice per page. Removing it from the layout produces 946
+failures.
+
+Measured in Chromium: the tag is requested, CLS stays at 0, and the page's own
+JavaScript still works — the servings scaler still steps.
+
 ## Two hostnames, one site
 
 Search Console was reporting "Page with redirect" and "Alternate page with

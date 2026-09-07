@@ -24,7 +24,9 @@
   var GA = root.getAttribute('data-ga') || '';
   var ADS = {
     popunder: root.getAttribute('data-ad-popunder') || '',
-    social: root.getAttribute('data-ad-social') || ''
+    social: root.getAttribute('data-ad-social') || '',
+    monetag: root.getAttribute('data-ad-monetag') || '',
+    monetagZone: root.getAttribute('data-ad-monetag-zone') || ''
   };
 
   /* ------------------------------------------------------------ storage */
@@ -73,6 +75,11 @@
     window.__wdAds = true;
     addScript(ADS.popunder);
     addScript(ADS.social);
+    /* Monetag reads its zone off the tag, so it has to travel as an attribute
+       rather than a query string. */
+    if (ADS.monetag) {
+      addScript(ADS.monetag, { 'data-zone': ADS.monetagZone, 'data-cfasync': 'false' });
+    }
 
     /* The native banner slots. Each carries its own invoke URL and container id
        on the placeholder, so the markup can sit in the page inertly. */

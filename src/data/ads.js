@@ -31,6 +31,21 @@ module.exports = {
   socialBar: 'https://pl31083098.profitableratecpmnetwork.com/bf/a6/76/bfa676ffa93febb261c12a1f71055429.js',
 
   /**
+   * Monetag's multi-format tag, a second network running alongside Adsterra.
+   *
+   * The zone travels on a data attribute rather than in the URL, which is how
+   * Monetag supplies it, and data-cfasync="false" tells Cloudflare's Rocket
+   * Loader to leave the tag alone — it rewrites script execution order and
+   * breaks tags that expect to run as written.
+   *
+   * Set `src` to '' to take it off every page at the next build.
+   */
+  monetag: {
+    src: 'https://quge5.com/88/tag.min.js',
+    zone: '277423'
+  },
+
+  /**
    * Native banner units, in placement order. The first is used for the slot
    * below a recipe's intro and the first slot on the home page; the second,
    * once you add one, for the slot below the method and the second home-page

@@ -377,21 +377,24 @@ if (!vercelCsp) {
   const consent = require('../src/data/consent');
   const unit = (ads.nativeBanners || [])[0];
   const ADS_HEIGHT = ads.frameHeight || 300;
+  const monetag = ads.monetag;
 
   if (ads.enabled && !consent.enabled && unit) {
-    const missing = { popunder: [], socialBar: [], slots: [] };
+    const missing = { popunder: [], socialBar: [], monetag: [], slots: [] };
     for (const file of htmlFiles) {
       const html = fs.readFileSync(file, 'utf8');
       const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
       if (ads.popunder && !html.includes(ads.popunder)) missing.popunder.push(where);
       if (ads.socialBar && !html.includes(ads.socialBar)) missing.socialBar.push(where);
+      if (monetag && monetag.src && !html.includes(monetag.src)) missing.monetag.push(where);
       /* Two slots on every page: the first embeds the snippet, the second is an
          iframe onto the one-slot document. One of either is a broken layout. */
       const slots = (html.match(/container-|native-banner\.html/g) || []).length;
       if (slots !== 2) missing.slots.push(`${where} (${slots})`);
     }
     for (const [what, list] of [['the popunder', missing.popunder],
-                                ['the social bar', missing.socialBar]]) {
+                                ['the social bar', missing.socialBar],
+                                ['the Monetag tag', missing.monetag]]) {
       if (list.length) {
         problems.push(`${what} is missing from ${list.length} page${list.length === 1 ? '' : 's'}`
           + `, starting with ${list[0]}`);
@@ -432,6 +435,9 @@ if (!vercelCsp) {
       }
       if (ads.socialBar && frame.includes(ads.socialBar)) {
         problems.push('the framed ad document carries the social bar, which would fire it twice');
+      }
+      if (monetag && monetag.src && frame.includes(monetag.src)) {
+        problems.push('the framed ad document carries the Monetag tag, which would fire it twice');
       }
     }
   }

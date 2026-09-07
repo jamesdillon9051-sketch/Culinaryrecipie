@@ -31,6 +31,19 @@ function socialBar() {
   return `<script src="${ADS.socialBar}" async></script>`;
 }
 
+/**
+ * The Monetag tag, for the end of <body>. Empty while gating is on.
+ *
+ * Same placement and the same gate as the two Adsterra loaders: nothing it
+ * does needs to happen before the document exists, and tools/check.js fails
+ * any third-party script that appears in <head>.
+ */
+function monetag() {
+  const unit = ADS.monetag;
+  if (!ADS.enabled || !unit || !unit.src || CONSENT.enabled) return '';
+  return `<script src="${unit.src}" data-zone="${unit.zone}" async data-cfasync="false"></script>`;
+}
+
 /** Path to the single-slot document that repeat placements are framed from. */
 const FRAME_PATH = 'assets/ads/native-banner.html';
 
@@ -119,4 +132,4 @@ function wrap(label, inner) {
 </aside>`;
 }
 
-module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH, ADS };
+module.exports = { popunder, socialBar, monetag, nativeBanner, frameDocument, FRAME_PATH, ADS };

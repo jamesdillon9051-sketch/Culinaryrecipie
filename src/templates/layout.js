@@ -67,7 +67,9 @@ function consentTag() {
         data-base="${SITE.base}"
         data-ga="${esc(ga || '')}"
         data-ad-popunder="${esc(ads.popunder || '')}"
-        data-ad-social="${esc(ads.socialBar || '')}" defer></script>`;
+        data-ad-social="${esc(ads.socialBar || '')}"
+        data-ad-monetag="${esc((ads.monetag && ads.monetag.src) || '')}"
+        data-ad-monetag-zone="${esc((ads.monetag && ads.monetag.zone) || '')}" defer></script>`;
 }
 
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
@@ -296,6 +298,7 @@ ${scripts}
 -->
 ${ads.popunder()}
 ${ads.socialBar()}
+${ads.monetag()}
 ${consentTag()}
 </body>
 </html>`;
