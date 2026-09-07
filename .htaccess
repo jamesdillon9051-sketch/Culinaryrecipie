@@ -18,6 +18,34 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # /path/index.html -> /path/
+  #
+  # The same duplicate as www, from the other direction. DirectoryIndex serves
+  # /recipes/pad-thai/ out of /recipes/pad-thai/index.html, and Apache will
+  # also serve that file to anyone who asks for it by name — so every one of
+  # the 946 pages answered 200 at two URLs with identical content, and the
+  # canonical tag was the only thing telling Google which to keep. That is
+  # exactly what "Alternate page with proper canonical tag" reports: a
+  # duplicate found and resolved. Resolved still costs the crawl.
+  #
+  # Nothing on the site links this way — every internal link, canonical and
+  # sitemap entry uses the trailing slash, and tools/seo-audit.js fails the
+  # build if one does not — so this only ever catches a URL guessed or
+  # remembered from outside.
+  #
+  # The condition is on THE_REQUEST, not the rewritten path, and that is what
+  # stops it looping: THE_REQUEST holds the original request line and is not
+  # touched by internal redirects, so when mod_dir maps /foo/ onto
+  # /foo/index.html the rule sees "GET /foo/" and does not fire. It fires only
+  # when the client asked for index.html by name, and the redirect it sends
+  # cannot match it a second time.
+  #
+  # First, and to an absolute apex URL, so a www or http request for an
+  # index.html arrives at its final address in one hop rather than being
+  # handed on to the two rules below.
+  RewriteCond %{THE_REQUEST} \s/+(?:[^?\s]*/)?index\.html[\s?] [NC]
+  RewriteRule ^(.*?)index\.html$ https://weeklydelight.com/$1 [R=301,L,NE]
+
   # www -> apex, preserving scheme, path and query.
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
