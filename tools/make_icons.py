@@ -1,12 +1,54 @@
 #!/usr/bin/env python3
 """Generate the brand marks: SVG favicon, PWA icons and the default OG card.
 Run once; the output is committed as source under src/assets/img/."""
+import json
 import os
+import subprocess
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src", "assets", "img")
 os.makedirs(OUT, exist_ok=True)
+
+
+def site_facts():
+    """The brand and the two counts the OG card puts in writing.
+
+    Read out of the same modules the site renders from rather than typed in
+    here. The card is the one asset nothing regenerates on a build, so a number
+    hardcoded in it goes stale silently — this one said "CULINARYVAULT" and
+    "the world's 400 most famous recipes" on a site called Weekly Delight with
+    809 of them, and it was the social preview for 34 pages.
+    """
+    expr = (
+        "const {SITE}=require('./src/templates/layout');"
+        "const {recipeCount}=require('./src/data/stats');"
+        "const {CUISINES}=require('./src/lib/util');"
+        "process.stdout.write(JSON.stringify({"
+        "name:SITE.name,recipes:recipeCount,cuisines:Object.keys(CUISINES).length}))"
+    )
+    return json.loads(subprocess.check_output(["node", "-e", expr], cwd=ROOT).decode())
+
+
+_facts = site_facts()
+BRAND = _facts["name"]
+RECIPE_COUNT = _facts["recipes"]
+CUISINE_COUNT = _facts["cuisines"]
+
+
+def wrap(text, fnt, max_width):
+    """Greedy word wrap measured in the font the line is drawn in."""
+    lines, line = [], ""
+    for word in text.split():
+        trial = f"{line} {word}".strip()
+        if line and fnt.getbbox(trial)[2] > max_width:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    return lines
 
 TERRACOTTA = (184, 73, 44)
 BRASS = (176, 134, 47)
@@ -93,12 +135,31 @@ og = Image.blend(og, glow, 0.42)
 draw = ImageDraw.Draw(og)
 
 chef_hat(draw, 110, 120, 0.9, (216, 171, 70))
-draw.text((190, 88), "CULINARYVAULT", font=font(34), fill=(216, 171, 70))
-draw.text((80, 220), "The world's 400 most", font=font(74), fill=CREAM)
-draw.text((80, 310), "famous recipes", font=font(74), fill=CREAM)
+draw.text((190, 88), BRAND.upper(), font=font(34), fill=(216, 171, 70))
+
+# The headline is wrapped rather than split by hand. It used to be two literal
+# lines, which is how it came to read "The world's 400 most famous recipes" on
+# a site that had grown to 809 — the number could not change without someone
+# also re-deciding where the line broke. Measuring it means the count can grow
+# a digit and the card still lays out.
+HEADLINE_W = 1040
+y = 220
+for line in wrap(f"The world's {RECIPE_COUNT} most famous recipes", font(74), HEADLINE_W):
+    draw.text((80, y), line, font=font(74), fill=CREAM)
+    y += 90
+
 draw.text((80, 430), "Tested, explained and written down properly.", font=font(32, bold=False), fill=(214, 199, 180))
 draw.line([80, 500, 300, 500], fill=(184, 73, 44), width=6)
-draw.text((80, 528), "39 cuisines  ·  Cook mode  ·  Adjustable servings", font=font(27, bold=False), fill=(178, 162, 145))
+draw.text((80, 528), f"{CUISINE_COUNT} cuisines  ·  Cook mode  ·  Adjustable servings",
+          font=font(27, bold=False), fill=(178, 162, 145))
 og.save(os.path.join(OUT, "og-default.jpg"), "JPEG", quality=88, optimize=True)
+
+# What the card says, in a form something can check. The image itself is the
+# only place these numbers appear, and nothing can read them back out of a
+# JPEG — so they are written down beside it and tools/check.js compares them
+# against the live values. That is what turns "the card is stale" from
+# something a person has to notice into a failing build.
+json.dump({"brand": BRAND, "recipes": RECIPE_COUNT, "cuisines": CUISINE_COUNT},
+          open(os.path.join(ROOT, "src", "data", "og-default.json"), "w"), indent=1)
 
 print("wrote:", ", ".join(sorted(f for f in os.listdir(OUT) if not os.path.isdir(os.path.join(OUT, f)))))

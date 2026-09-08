@@ -513,6 +513,33 @@ if (!vercelCsp) {
   }
 }
 
+/* --- the social card still says what is true ------------------------------
+   assets/img/og-default.jpg is the share preview for every page without a
+   picture of its own, and it puts the brand and two counts in writing. It is
+   also the one asset no build regenerates, so it went stale invisibly: it read
+   "CULINARYVAULT — the world's 400 most famous recipes" long after the site
+   was Weekly Delight with 809 of them, and it was the preview for 34 pages.
+   Nothing can read text back out of a JPEG, so make_icons.py records what it
+   stamped and that record is compared here. Re-run `npm run icons` to fix. */
+{
+  const stampPath = path.join(__dirname, '..', 'src', 'data', 'og-default.json');
+  if (!fs.existsSync(stampPath)) {
+    problems.push('src/data/og-default.json is missing, so nothing knows what the social card says');
+  } else {
+    const stamped = JSON.parse(fs.readFileSync(stampPath, 'utf8'));
+    const { SITE } = require('../src/templates/layout');
+    const { recipeCount } = require('../src/data/stats');
+    const { CUISINES } = require('../src/lib/util');
+    const live = { brand: SITE.name, recipes: recipeCount, cuisines: Object.keys(CUISINES).length };
+    for (const key of ['brand', 'recipes', 'cuisines']) {
+      if (String(stamped[key]) !== String(live[key])) {
+        problems.push(`the social card says ${key} is ${stamped[key]} but the site says ${live[key]}`
+          + ' — re-run npm run icons');
+      }
+    }
+  }
+}
+
 /* --- diet claims --------------------------------------------------------- */
 /* Every tag now, not just Gluten-Free. These are the claims a reader cannot
    check for themselves — someone coeliac or vegan is trusting the label over the
