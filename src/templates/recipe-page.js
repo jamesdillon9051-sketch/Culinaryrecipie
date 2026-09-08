@@ -113,15 +113,28 @@ function videoHtml(video) {
 function recipeSchema(recipe) {
   const published = reviewSchema(recipe.publishedReviews, recipe.slug);
   const url = `${SITE.origin}${SITE.base}recipes/${recipe.slug}/`;
+  /* Only a real photograph of the dish.
+     Twenty-three recipes have no photo — the archives hold nothing for them
+     that is both correctly licensed and actually a picture of the dish — and
+     they used to fall back to assets/img/og-default.jpg here. That file is the
+     site's social card: a brown gradient with a chef's hat and the words "The
+     world's 400 most famous recipes". Putting it in Recipe.image tells Google
+     it is a photograph of bread sauce, which it is not, and the same card was
+     answering for all twenty-three at once.
+     Google requires image for the recipe rich result, so leaving it out costs
+     those pages their eligibility. That is the honest price: the alternative
+     is qualifying for a photo-led result with a picture of no food at all.
+     The fallback still applies to og:image and twitter:image in layout.js,
+     which is what a social card fallback is for. */
   const image = recipe.imageData
     ? [`${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg`]
-    : [`${SITE.origin}${SITE.base}assets/img/og-default.jpg`];
+    : null;
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
     name: recipe.title,
-    image,
+    ...(image ? { image } : {}),
     /* A Person, because one is. Google reads author on a recipe, and typing a
        named individual as an Organization is both wrong and a weaker signal
        than the truth. */

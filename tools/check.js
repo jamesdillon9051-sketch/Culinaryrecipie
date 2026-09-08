@@ -129,6 +129,19 @@ for (const file of htmlFiles) {
         }
       }
 
+      /* Recipe.image has to be a photograph of the dish, and og-default.jpg is
+         the site's social card — a gradient with the site name on it. Twenty
+         three recipes with no photo used to fall back to it here, so one
+         marketing card was answering "what does this dish look like?" for all
+         of them. The fallback is right for og:image and wrong for this. */
+      if (node['@type'] === 'Recipe') {
+        for (const src of [].concat(node.image || [])) {
+          if (/og-default/.test(String(src))) {
+            problems.push(`${rel}: Recipe.image is the site's social card, not a photo of the dish`);
+          }
+        }
+      }
+
       /* A VideoObject asserts a video the page can play. Nothing else here can
          tell the difference between that and a page that merely says so. */
       if (node['@type'] === 'VideoObject') {
