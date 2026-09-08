@@ -3,9 +3,17 @@
 Weekly Delight image pipeline.
 
 Sources one hero image (and, for every other recipe, a second "process shot")
-per recipe from Wikimedia Commons and Openverse, restricted to *unrestricted*
-licences only: CC0 and public domain. Nothing under a share-alike or
-attribution-required licence is ever downloaded.
+per recipe from Wikimedia Commons and Openverse.
+
+Licensing, which the gate below enforces rather than this paragraph: CC0 and
+public domain are preferred and asked for first from both sources; CC BY and
+CC BY-SA are accepted after that, and the credit they require is given on the
+page and in images-attribution.md. NonCommercial and NoDerivatives are refused
+outright — this site carries advertising, and every image is resized.
+
+(This docstring used to claim CC0 and public domain only, which the code below
+has not done for a long time. A comment that contradicts its own module is
+worse than none: it was read as policy while the pipeline did something else.)
 
 Output:
   src/assets/img/recipes/<slug>.webp / .jpg          hero
@@ -742,19 +750,65 @@ def commons_candidates(query, extra="", licence_filter=LICENCE_FILTERS[0], tags=
     return out
 
 
-# Openverse has been answering every licence-filtered query with a 504 after a
-# full minute, and the results it does return point at the original file on
-# upload.wikimedia.org — which replies to an unauthenticated request with a
-# ten-minute Retry-After, where the thumbnail host answers in 0.2s. So it costs
-# a minute per recipe to produce candidates that cannot be downloaded. Flip
-# this back to True to try it again; nothing else needs to change.
-OPENVERSE_ENABLED = False
+# Back on, and the reason it was ever off is worth keeping.
+#
+# It was switched off because licence-filtered queries answered with a 504
+# after a full minute, and what did come back pointed at the original file on
+# upload.wikimedia.org, which refuses an unauthenticated request. Both were
+# true. What was not noticed is that they were true *of the CC0 tier*, which
+# was the only tier this source was ever asked for — openverse_candidates
+# hardcoded "cc0,pdm". CC0 food photography is thin and skews to Commons
+# mirrors, so the sample was both slow and undownloadable, and the source got
+# blamed for it.
+#
+# Re-measured: queries answer in under a second, and a CC BY page comes back
+# eleven-twelfths live.staticflickr.com, which serves a full-size JPEG in
+# 0.7s. upload.wikimedia.org still answers 429, so it is still the wrong host
+# to fetch from — that part of the note stands, and the throttled() ranking in
+# main() already pushes those candidates behind the others.
+OPENVERSE_ENABLED = True
 
 
-def openverse_candidates(query, wide=True):
+# The licence tiers asked of Openverse, in order. CC0 and public domain need no
+# credit; CC BY and CC BY-SA do, and the site gives it — so the attribution tier
+# is only ever reached for a dish the free tier could not fill.
+#
+# Asking for the second tier at all is the fix to a real gap. This request used
+# to hardcode "cc0,pdm", so Openverse was permanently locked to the free tier
+# however the rest of the pipeline was configured. Openverse is mostly Flickr,
+# which is almost entirely CC BY, so it contributed close to nothing and
+# twenty-one dishes were recorded as having no image available when the
+# archives cover them perfectly well. Commons already reached the attribution
+# tier through LICENCE_FILTERS; only this source was shut out of it.
+OPENVERSE_TIERS = ("cc0,pdm", "by,by-sa")
+
+
+def openverse_licence(record):
+    """Openverse's licence code and version as (name, url).
+
+    The name is what OK_LICENCE, NEEDS_CREDIT and SHARE_ALIKE all read, so it
+    has to come out in the same shape as a Commons licence string: "CC BY-SA
+    2.0", not "by-sa".
+    """
+    code = (record.get("license") or "").lower()
+    version = (record.get("license_version") or "").strip()
+    url = record.get("license_url") or ""
+    if code == "cc0":
+        return "CC0 1.0", url or "https://creativecommons.org/publicdomain/zero/1.0/"
+    if code == "pdm":
+        return "Public Domain Mark 1.0", url or "https://creativecommons.org/publicdomain/mark/1.0/"
+    if not code:
+        return "", ""
+    name = "CC " + code.upper() + (" " + version if version else "")
+    if not url and version:
+        url = f"https://creativecommons.org/licenses/{code}/{version}/"
+    return name, url
+
+
+def openverse_candidates(query, wide=True, licences=OPENVERSE_TIERS[0]):
     if not OPENVERSE_ENABLED:
         return []
-    params = {"q": query, "license": "cc0,pdm", "page_size": 12, "mature": "false"}
+    params = {"q": query, "license": licences, "page_size": 12, "mature": "false"}
     if wide:
         params["aspect_ratio"] = "wide"
     url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode(params)
@@ -766,16 +820,19 @@ def openverse_candidates(query, wide=True):
         title = r.get("title") or query
         if BAD_TOKENS.search(title):
             continue
-        lic = (r.get("license") or "").upper()
-        if lic not in ("CC0", "PDM"):
+        lic, lic_url = openverse_licence(r)
+        # The gate decides, rather than a second hardcoded tuple here. It
+        # already knows NonCommercial and NoDerivatives are out whatever the
+        # request asked for, so the two cannot drift apart.
+        if not lic or not OK_LICENCE.match(lic):
             continue
         out.append({
             "title": title,
             "url": r.get("url", ""),
             "page": r.get("foreign_landing_url", ""),
             "author": r.get("creator") or "Unknown",
-            "licence": "CC0 1.0" if lic == "CC0" else "Public Domain Mark 1.0",
-            "licence_url": r.get("license_url") or "https://creativecommons.org/publicdomain/zero/1.0/",
+            "licence": lic,
+            "licence_url": lic_url,
             "source": (r.get("source") or "Openverse").title(),
             "score": relevance(title, query),
             "strong": shares_dish_word(title, query),
@@ -785,9 +842,20 @@ def openverse_candidates(query, wide=True):
 
 def shorten(query):
     """Openverse matches whole phrases, so a four-word dish name often returns
-    nothing while its two distinctive words return plenty."""
+    nothing while its two distinctive words return plenty.
+
+    The count used to be taken after the stop words had already been dropped,
+    which meant a query could be too long to match and still fail the test for
+    being shortened. "Cranberry sauce bowl" reduced to ["Cranberry", "sauce"],
+    two words, no fallback offered — for a dish Openverse has two hundred
+    pictures of. What matters is whether the short form differs from what was
+    already asked, so that is what is checked.
+    """
     words = [w for w in re.split(r"[^A-Za-z0-9\']+", query) if len(w) > 2 and w.lower() not in STOP]
-    return " ".join(words[:2]) if len(words) > 2 else ""
+    if not words:
+        return ""
+    brief = " ".join(words[:2])
+    return brief if brief.lower() != query.strip().lower() else ""
 
 
 def gather(query, tags=()):
@@ -805,6 +873,13 @@ def gather(query, tags=()):
     # only takes on a crediting obligation where the alternative is nothing.
     for licence in LICENCE_FILTERS:
         attempts.append(lambda lic=licence: commons_candidates(query, "", lic, tags))
+    # Openverse's attribution tier, reached only now that both sources have been
+    # asked for something free first. Commons has always got here through the
+    # unfiltered pass in LICENCE_FILTERS; Openverse never could.
+    attempts.append(lambda: openverse_candidates(query, licences=OPENVERSE_TIERS[1]))
+    attempts.append(lambda: openverse_candidates(query, wide=False, licences=OPENVERSE_TIERS[1]))
+    if brief:
+        attempts.append(lambda: openverse_candidates(brief, licences=OPENVERSE_TIERS[1]))
     # The "food" variant is a second full search for a marginal gain, so it is
     # the last thing tried rather than doubling the cost of every recipe.
     attempts.append(lambda: commons_candidates(query, "food", LICENCE_FILTERS[-1], tags))
