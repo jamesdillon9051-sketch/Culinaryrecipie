@@ -4,7 +4,7 @@
     "Keyed by slug; each entry names the archive page so the fetcher can refuse",
     "that exact file and go on to the next candidate. Without this a rejected",
     "image is simply re-fetched on the next run, because the search that found",
-    "it the first time is deterministic — which is how warak-enab acquired the",
+    "it the first time is deterministic \u2014 which is how warak-enab acquired the",
     "same photograph of grape vines twice.",
     "Reasons are kept because they are the only record of why an image is not",
     "on the site, and the alternative is rejecting it again in six months."
@@ -19,6 +19,18 @@
     {
       "page": "https://www.inaturalist.org/photos/163497339",
       "why": "a ladyfish; 'balila' is one of its names in the file's species list"
+    }
+  ],
+  "jazar-bi-tahini": [
+    {
+      "page": "https://wordpress.org/photos/photo/84469f2012/",
+      "why": "a divided takeaway container of three unrelated dishes; no carrot, no tahini"
+    }
+  ],
+  "fatayer-sabanekh": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fatayer.jpg",
+      "why": "a fatayer, but filled with minced meat; this recipe is the spinach one"
     }
   ]
 }

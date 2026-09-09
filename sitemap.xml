@@ -9726,11 +9726,6 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/fatayer-sabanekh.jpg</image:loc>
-      <image:title>Spinach Fatayer</image:title>
-      <image:caption>Spinach Fatayer — Lebanese appetizers recipe, served and ready to eat</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rakakat-jibneh/</loc>
@@ -9766,6 +9761,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hummus-beiruti.jpg</image:loc>
+      <image:title>Hummus Beiruti</image:title>
+      <image:caption>Hummus Beiruti — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kibbeh-mekliyeh/</loc>
@@ -9819,6 +9819,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sayadieh.jpg</image:loc>
+      <image:title>Sayadieh</image:title>
+      <image:caption>Sayadieh — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samke-harra/</loc>
