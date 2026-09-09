@@ -23,6 +23,10 @@
     "aguachile verde",
     "aguachile de camarón"
   ],
+  "aish-baladi": [
+    "عيش بلدي",
+    "egyptian baladi bread loaves"
+  ],
   "ajiaco": [
     "ajiaco santafereño",
     "ajiaco bogotano"
@@ -47,14 +51,27 @@
   "arroz-de-marisco": [
     "arroz de marisco português"
   ],
+  "asab": [
+    "عصير قصب",
+    "sugarcane juice glass"
+  ],
   "ash-reshteh": [
     "آش رشته",
     "aash reshteh"
+  ],
+  "assidat-zgougou": [
+    "assidat zgougou",
+    "عصيدة الزقوقو"
   ],
   "atakilt-wat": [
     "atakilt wat",
     "tikil gomen",
     "ethiopian cabbage dish"
+  ],
+  "atayef-asafiri": [
+    "atayef asafiri",
+    "قطايف عصافيري",
+    "small cream filled qatayef"
   ],
   "avgolemono-soup": [
     "Greek lemon chicken soup",
@@ -68,6 +85,11 @@
     "ayran bardak",
     "ayran in a glass",
     "yogurt drink glass foam"
+  ],
+  "baba-ghanoug-masri": [
+    "baba ghanoush",
+    "بابا غنوج",
+    "smoky aubergine dip"
   ],
   "bacalhau-a-bras": [
     "bacalhau à brás",
@@ -103,6 +125,23 @@
     "baklava pistachio",
     "filo nut pastry syrup"
   ],
+  "balah-el-sham": [
+    "بلح الشام",
+    "fried choux fingers in syrup"
+  ],
+  "balila": [
+    "balila chickpeas",
+    "بليلة حمص"
+  ],
+  "bamia-bi-lahme": [
+    "bamia bi lahme",
+    "okra and lamb stew",
+    "بامية بلحمة"
+  ],
+  "bamia-masreya": [
+    "bamia okra stew",
+    "بامية"
+  ],
   "banana-oat-pancakes": [
     "banana pancakes",
     "oat pancakes stack",
@@ -127,6 +166,14 @@
     "semolina cake syrup",
     "revani cake",
     "almond semolina cake"
+  ],
+  "batarekh": [
+    "بطارخ",
+    "bottarga salted mullet roe"
+  ],
+  "batates-mohammara": [
+    "batates mohammara",
+    "بطاطس محمرة"
   ],
   "beef-bourguignon": [
     "boeuf bourguignon",
@@ -154,6 +201,16 @@
   "belgian-waffles": [
     "gaufre de bruxelles",
     "brusselse wafel"
+  ],
+  "besara": [
+    "bessara",
+    "bissara",
+    "بصارة",
+    "fava bean puree"
+  ],
+  "betengan-mekhalel": [
+    "pickled aubergine",
+    "باذنجان مخلل"
   ],
   "bhindi-masala": [
     "भिंडी मसाला",
@@ -237,6 +294,10 @@
     "texas brisket sliced",
     "smoked beef brisket bark",
     "barbecue brisket plate"
+  ],
+  "bsissa": [
+    "بسيسة",
+    "tunisian roasted barley flour"
   ],
   "bubble-tea": [
     "boba tea cup",
@@ -396,6 +457,10 @@
     "chocolate shake glass",
     "chocolate malt shake"
   ],
+  "chorba-frik": [
+    "chorba frik",
+    "شربة فريك"
+  ],
   "cinnamon-sugar-donuts": [
     "sugar doughnuts",
     "cinnamon doughnut",
@@ -446,6 +511,10 @@
     "shepherds pie",
     "minced beef mashed potato pie",
     "cottage pie dish"
+  ],
+  "couscous-tunisien": [
+    "couscous tunisien poisson",
+    "كسكسي تونسي"
   ],
   "coxinha": [
     "coxinha de frango",
@@ -515,6 +584,15 @@
     "wienerbrød",
     "spandauer"
   ],
+  "djaj-mhammar": [
+    "farrouj mhammar",
+    "دجاج محمر"
+  ],
+  "doigts-de-fatma": [
+    "doigts de fatma",
+    "أصابع فاطمة",
+    "tunisian brik fingers"
+  ],
   "dolmades": [
     "ντολμάδες",
     "dolmadakia"
@@ -531,6 +609,11 @@
   "duck-confit": [
     "confit de canard",
     "cuisse de canard confite"
+  ],
+  "dukkah": [
+    "duqqa",
+    "دقة",
+    "egyptian nut and spice blend"
   ],
   "dulce-de-leche": [
     "confiture de lait",
@@ -554,6 +637,10 @@
     "egusi",
     "melon seed soup",
     "Nigerian soup"
+  ],
+  "eish-merahrah": [
+    "عيش مرحرح",
+    "fenugreek flatbread egyptian"
   ],
   "empanadas-colombianas": [
     "empanadas colombianas",
@@ -580,9 +667,36 @@
     "white bean tomato soup",
     "greek bean soup"
   ],
+  "fasolia-bi-lahme": [
+    "fasolya bi lahme",
+    "white bean and lamb stew"
+  ],
+  "fatayer-sabanekh": [
+    "fatayer bi sabanekh",
+    "spinach fatayer pies",
+    "فطاير سبانخ"
+  ],
+  "fattah": [
+    "fatteh",
+    "فتة",
+    "egyptian rice bread and meat with garlic vinegar"
+  ],
+  "felfel-mahchi": [
+    "felfel mahchi",
+    "فلفل محشي",
+    "tunisian stuffed peppers"
+  ],
+  "ferakh-mashwi": [
+    "فراخ مشوية",
+    "egyptian grilled chicken"
+  ],
   "fesenjan": [
     "فسنجان",
     "khoresh fesenjan"
+  ],
+  "feteer-meshaltet": [
+    "فطير مشلتت",
+    "egyptian layered flaky pastry"
   ],
   "fish-tacos": [
     "fish taco",
@@ -601,8 +715,17 @@
   "francesinha": [
     "francesinha do porto"
   ],
+  "freekeh-djaj": [
+    "freekeh pilaf",
+    "فريكة",
+    "frikeh with chicken"
+  ],
   "frikadeller": [
     "frikadeller danske"
+  ],
+  "ftair": [
+    "ftair tunisien",
+    "فطاير تونسية"
   ],
   "fudgy-brownies": [
     "chocolate brownies",
@@ -640,6 +763,10 @@
     "gâteau basque",
     "etxeko biskotxa"
   ],
+  "gebna-domiati": [
+    "جبنة دمياطي",
+    "domiati white cheese"
+  ],
   "ghormeh-sabzi": [
     "قورمه سبزی",
     "gheimeh sabzi khoresh"
@@ -657,6 +784,10 @@
     "ほうれん草の胡麻和え",
     "gomaae",
     "spinach sesame salad japanese"
+  ],
+  "goulash-masri": [
+    "جلاش",
+    "egyptian goulash filo pie"
   ],
   "greek-lemon-potatoes": [
     "πατάτες λεμονάτες",
@@ -694,6 +825,10 @@
     "poached chicken rice ginger",
     "chicken rice cucumber plate"
   ],
+  "halawet-el-jibn": [
+    "halawet el jebn",
+    "حلاوة الجبن"
+  ],
   "haleem": [
     "حلیم",
     "hyderabadi haleem"
@@ -701,6 +836,11 @@
   "halo-halo": [
     "haluhalo",
     "halo halo dessert"
+  ],
+  "hamam-mahshi": [
+    "hamam mahshi",
+    "حمام محشي",
+    "stuffed pigeon egyptian"
   ],
   "harees": [
     "هريس",
@@ -711,6 +851,15 @@
     "hash brown potatoes",
     "fried grated potato",
     "potato rosti"
+  ],
+  "hawawshi": [
+    "حواوشي",
+    "egyptian meat stuffed flatbread"
+  ],
+  "hlelem": [
+    "hlelem",
+    "هلاليم",
+    "tunisian thin noodle soup"
   ],
   "hong-shao-rou": [
     "braised pork belly",
@@ -726,6 +875,11 @@
     "horchata de arroz",
     "agua de horchata",
     "horchata en vaso"
+  ],
+  "hout-mechoui": [
+    "hout mechoui",
+    "حوت مشوي",
+    "tunisian grilled fish"
   ],
   "hungarian-goulash": [
     "goulash bowl",
@@ -784,10 +938,20 @@
     "julekaka",
     "norwegian christmas bread"
   ],
+  "kaak-bil-simsim": [
+    "kaak bread",
+    "كعك بالسمسم",
+    "sesame bread ring beirut"
+  ],
   "kachumbari": [
     "kachumbari",
     "kenyan tomato salad",
     "kachumbari salad"
+  ],
+  "kafta-bil-sanieh": [
+    "kafta bil sayniyeh",
+    "كفتة بالصينية",
+    "kafta potato tray bake"
   ],
   "kaiserschmarrn": [
     "kaiserschmarren"
@@ -803,6 +967,10 @@
     "kalua pig",
     "kalua pork imu"
   ],
+  "kamounia": [
+    "kamounia",
+    "كمونية"
+  ],
   "kanelbullar": [
     "Swedish cinnamon buns",
     "cinnamon bun pearl sugar",
@@ -811,6 +979,10 @@
   "karelian-pies": [
     "karjalanpiirakka",
     "karjalanpiirakat"
+  ],
+  "karkade": [
+    "كركديه",
+    "hibiscus tea egyptian"
   ],
   "katsu-curry": [
     "カツカレー",
@@ -852,15 +1024,37 @@
     "ხინკალი",
     "хинкали"
   ],
+  "khobz-tabouna": [
+    "tabouna bread",
+    "خبز طابونة"
+  ],
+  "khubz-arabi": [
+    "khubz arabi",
+    "خبز عربي",
+    "arabic pita flatbread"
+  ],
   "kibbeh": [
     "kibbeh tray",
     "bulgur meat pie",
     "kibbe pieces"
   ],
+  "kibbeh-bil-sanieh": [
+    "kibbeh bi sayniyeh",
+    "baked kibbeh tray",
+    "كبة بالصينية"
+  ],
+  "kibbeh-labaniyeh": [
+    "kibbeh bi laban",
+    "kibbeh in yoghurt sauce"
+  ],
   "kimbap": [
     "gimbap",
     "seaweed rice roll",
     "kimbap slices"
+  ],
+  "kishk-masri": [
+    "kishk soup",
+    "كشك"
   ],
   "kisir": [
     "kısır",
@@ -876,8 +1070,21 @@
     "kothu roti",
     "කොත්තු රොටී"
   ],
+  "kousa-bil-laban": [
+    "kousa bi laban",
+    "كوسا باللبن"
+  ],
+  "koussa-mahshi": [
+    "kousa mahshi",
+    "كوسا محشي",
+    "stuffed courgettes levantine"
+  ],
   "krumkake": [
     "krumkaker"
+  ],
+  "kunafa-bil-manga": [
+    "kunafa mango",
+    "كنافة بالمانجو"
   ],
   "kunefe": [
     "künefe",
@@ -956,6 +1163,10 @@
   "loco-moco": [
     "loco moco hawaii"
   ],
+  "loubieh-bzeit": [
+    "lubyeh bi zeit",
+    "green beans in olive oil tomato"
+  ],
   "loukoumades": [
     "Greek honey doughnuts",
     "honey fritters",
@@ -975,6 +1186,15 @@
     "baked mac and cheese",
     "cheesy pasta bake"
   ],
+  "madfouna": [
+    "madfouna tunisienne",
+    "مدفونة"
+  ],
+  "mahshi-cromb": [
+    "mahshi koronb",
+    "محشي كرنب",
+    "stuffed cabbage egyptian"
+  ],
   "malabi": [
     "מלבי",
     "muhallebi"
@@ -988,6 +1208,11 @@
     "מלאווח",
     "malawach",
     "malawah yemenite bread"
+  ],
+  "malfouf-mahshi": [
+    "malfouf mahshi",
+    "ملفوف محشي",
+    "stuffed cabbage rolls levantine"
   ],
   "malva-pudding": [
     "malva poeding"
@@ -1005,6 +1230,10 @@
     "maqluba rice",
     "maklouba dish",
     "rice aubergine platter"
+  ],
+  "marqa-hlouwa": [
+    "marqa hlouwa",
+    "مرقة حلوة"
   ],
   "martabak": [
     "martabak manis",
@@ -1029,6 +1258,10 @@
     "spanish rice mexican side",
     "mexican red rice",
     "spanish rice bowl"
+  ],
+  "mhalbiya": [
+    "mhalbiya tunisienne",
+    "محلبية"
   ],
   "mici": [
     "mititei mici gratar",
@@ -1062,6 +1295,11 @@
   "moroccan-mint-tea": [
     "atay bi na'na",
     "thé à la menthe marocain"
+  ],
+  "mouhalabieh": [
+    "muhallabia",
+    "mahalabia",
+    "مهلبية"
   ],
   "moutabal": [
     "متبل",
@@ -1114,10 +1352,19 @@
     "oi muchim",
     "korean cucumber side dish"
   ],
+  "ojja": [
+    "ojja merguez",
+    "عجة"
+  ],
   "olivier-salad": [
     "olivier salad",
     "potato salad peas mayonnaise",
     "salad olivier"
+  ],
+  "om-ali": [
+    "umm ali",
+    "أم علي",
+    "egyptian bread and milk pudding"
   ],
   "onion-rings": [
     "fried onion rings plate",
@@ -1275,6 +1522,11 @@
     "Salvadoran pupusas",
     "stuffed corn cakes griddle"
   ],
+  "qatayef": [
+    "katayef",
+    "قطايف",
+    "stuffed folded pancakes syrup"
+  ],
   "queso-fundido": [
     "queso fundido chorizo",
     "melted cheese dip mexican",
@@ -1291,6 +1543,14 @@
     "ragu alla napoletana",
     "carne al ragù"
   ],
+  "rakakat-jibneh": [
+    "rakakat jebne",
+    "fried cheese rolls lebanese"
+  ],
+  "renga": [
+    "رنجة",
+    "smoked herring egyptian sham el nessim"
+  ],
   "reuben-sandwich": [
     "reuben sandwich",
     "pastrami on rye reuben",
@@ -1305,6 +1565,11 @@
     "rice and peas coconut jamaican",
     "gungo peas rice",
     "jamaican rice and peas"
+  ],
+  "riz-a-djaj": [
+    "riz bi djej",
+    "رز بالدجاج",
+    "rice with chicken and nuts lebanese"
   ],
   "roast-turkey": [
     "roast turkey whole",
@@ -1330,6 +1595,18 @@
     "roti prata plate",
     "roti prata"
   ],
+  "rouz-jerbi": [
+    "riz jerbien",
+    "رز جربي"
+  ],
+  "roz-bel-laban": [
+    "رز بلبن",
+    "egyptian rice pudding"
+  ],
+  "roz-mermah": [
+    "egyptian vermicelli rice",
+    "رز بالشعرية"
+  ],
   "sabich": [
     "סביח",
     "sabich pita"
@@ -1342,6 +1619,23 @@
   "salade-de-chevre-chaud": [
     "salade de chèvre chaud",
     "crottin de chavignol salade"
+  ],
+  "salade-omek-houria": [
+    "ommek houria",
+    "عمك حورية",
+    "tunisian carrot harissa salad"
+  ],
+  "salata-baladi": [
+    "سلطة بلدي",
+    "egyptian tomato cucumber salad"
+  ],
+  "salata-blankit": [
+    "salade blankit",
+    "tunisian potato salad"
+  ],
+  "salatet-raheb": [
+    "salatet el raheb",
+    "grilled aubergine salad lebanese"
   ],
   "salep": [
     "salep bardağı",
@@ -1367,6 +1661,15 @@
     "samgyetang soup",
     "chicken ginseng stone pot"
   ],
+  "samke-harra": [
+    "samkeh harra",
+    "سمكة حرة",
+    "spicy fish tahini lebanese"
+  ],
+  "samsa-tunisienne": [
+    "samsa tunisienne",
+    "سمسة"
+  ],
   "sangria": [
     "sangria jug",
     "sangria glass fruit wine",
@@ -1385,6 +1688,10 @@
     "cottage cheese with vegetables",
     "quark mit gemuese",
     "cottage cheese plate herbs"
+  ],
+  "sayadeya-masreya": [
+    "sayadeya fish rice",
+    "صيادية"
   ],
   "scallion-pancakes": [
     "蔥油餅",
@@ -1406,6 +1713,15 @@
     "سیخ کباب",
     "seekh kabab"
   ],
+  "sfiha-baalbakieh": [
+    "sfiha baalbek",
+    "lahm bi ajin",
+    "صفيحة بعلبكية"
+  ],
+  "sfouf": [
+    "sfouf cake turmeric",
+    "صفوف"
+  ],
   "shahi-paneer": [
     "shahi paneer curry",
     "paneer makhani bowl",
@@ -1415,6 +1731,16 @@
     "shakshuka merguez",
     "chakchouka"
   ],
+  "sheikh-el-mahshi": [
+    "sheikh al mahshi",
+    "شيخ المحشي",
+    "stuffed aubergine in yoghurt"
+  ],
+  "shish-barak": [
+    "shishbarak",
+    "شيش برك",
+    "dumplings in yoghurt levantine"
+  ],
   "shish-taouk": [
     "شيش طاووق",
     "shish tawook"
@@ -1423,6 +1749,11 @@
     "生姜焼き",
     "buta no shogayaki",
     "ginger pork shougayaki"
+  ],
+  "shorbet-ads": [
+    "shorbat adas",
+    "شوربة عدس",
+    "egyptian lentil soup"
   ],
   "shortbread": [
     "shortbread biscuits",
@@ -1440,6 +1771,10 @@
     "sinigang na hipon",
     "sinigang soup pork",
     "sinigang na baboy"
+  ],
+  "slata-tounsia": [
+    "salade tunisienne",
+    "سلطة تونسية"
   ],
   "sloppy-joes": [
     "sloppy joe sandwich",
@@ -1471,6 +1806,10 @@
   "smorrebrod": [
     "smørrebrød",
     "smorrebrod rugbrød"
+  ],
+  "sobia": [
+    "سوبيا",
+    "egyptian coconut milk drink"
   ],
   "sobolo": [
     "bissap verre",
@@ -1552,14 +1891,31 @@
     "svíčková na smetaně",
     "svíčková"
   ],
+  "taameya": [
+    "ta'meya",
+    "طعمية",
+    "egyptian falafel fava bean"
+  ],
   "tahdig": [
     "ته دیگ",
     "tahdig rice crust"
+  ],
+  "tahina-salad": [
+    "tahina sauce egyptian",
+    "طحينة"
+  ],
+  "talami": [
+    "talami bread",
+    "خبز طلامي"
   ],
   "tepache": [
     "tepache vaso",
     "tepache in a glass",
     "fermented pineapple drink glass"
+  ],
+  "the-aux-pignons": [
+    "the aux pignons",
+    "شاي بالصنوبر"
   ],
   "toad-in-the-hole": [
     "sausages in yorkshire pudding batter",
@@ -1583,6 +1939,16 @@
     "tomato and egg dish",
     "scrambled egg tomato plate",
     "egg tomato stir fry"
+  ],
+  "torly": [
+    "tourlou vegetables",
+    "طاجن خضار",
+    "egyptian mixed vegetable bake"
+  ],
+  "torshi": [
+    "torshi pickles",
+    "مخلل",
+    "middle eastern pickled vegetables jar"
   ],
   "tostadas": [
     "tostada de tinga",
@@ -1660,6 +2026,11 @@
   "waakye": [
     "waakye rice and beans"
   ],
+  "warak-enab": [
+    "waraq enab",
+    "stuffed grape leaves",
+    "ورق عنب"
+  ],
   "welsh-rarebit": [
     "cheese on toast",
     "rarebit toast",
@@ -1679,6 +2050,10 @@
     "soup dumplings steamer",
     "xiaolongbao dumplings",
     "steamed pork dumplings"
+  ],
+  "yakhnet-batata": [
+    "yakhnet batata",
+    "يخنة بطاطا"
   ],
   "yakisoba": [
     "焼きそば"
@@ -1701,6 +2076,10 @@
   "zeppole": [
     "zeppole di san giuseppe",
     "zeppola"
+  ],
+  "znoud-el-sit": [
+    "znoud el sitt",
+    "زنود الست"
   ],
   "zurek": [
     "żurek",
