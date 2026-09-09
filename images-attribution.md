@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1087
+Every photograph on Weekly Delight is freely licensed. Of 1088
 images, **749** are CC0 or public domain and carry no conditions at all, and
-**338** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**339** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,10 +42,10 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 806 |
+| Hero images | 807 |
 | Secondary "process" images | 281 |
-| Total image files | 2174 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 403 |
+| Total image files | 2176 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 402 |
 
 ### Licences used
 
@@ -53,7 +53,7 @@ nothing than use an image we do not have clear rights to.
 |---|---:|---|
 | CC0 | 455 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 168 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 115 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 116 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 4.0 | 112 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 92 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 43 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -97,7 +97,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Karelian Hot Pot (`karjalanpaisti`)
 - Coconut Dal (`coconut-dal`)
 - Warak Enab (`warak-enab`)
-- Spinach Fatayer (`fatayer-sabanekh`)
 - Cheese Rakakat (`rakakat-jibneh`)
 - Balila (`balila`)
 - Loubieh bi Zeit (`loubieh-bzeit`)
@@ -1583,6 +1582,7 @@ licence as the rest of this project.
 | `toum.webp` / `.jpg` | Toum | Hero | Toum | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/3186674271) |
 | `toum-process.webp` / `.jpg` | Toum | Process | Toum | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/4010057036) |
 | `sambousek.webp` / `.jpg` | Sambousek | Hero | Sambousek (4009290205) | Charles Haynes from Hobart, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sambousek_(4009290205).jpg) |
+| `fatayer-sabanekh.webp` / `.jpg` | Spinach Fatayer | Hero | Fatayer | Joe Foodie | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fatayer.jpg) |
 | `maghmour.webp` / `.jpg` | Maghmour | Hero | Maghmour | seelensturm | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/61404197@N00/4080607648) |
 | `kibbeh-mekliyeh.webp` / `.jpg` | Fried Kibbeh | Hero | Fried kibbeh | TheHungryDudes | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/47854142@N04/5380196080) |
 | `kibbeh-mekliyeh-process.webp` / `.jpg` | Fried Kibbeh | Process | Kibbeh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14792591375) |
