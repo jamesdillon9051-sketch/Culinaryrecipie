@@ -88,9 +88,12 @@ def main():
     ap.add_argument("--volumes")
     ap.add_argument("--slugs")
     ap.add_argument("--out", default=os.path.join(ROOT, "tools", "_sheets"))
+    # Images awaiting review live in a staging manifest, so they can be looked
+    # at before anything publishes them.
+    ap.add_argument("--manifest", default=MANIFEST)
     args = ap.parse_args()
 
-    manifest = json.load(open(MANIFEST))
+    manifest = json.load(open(args.manifest))
     titles = {r["slug"]: r["title"] for r in catalog()}
 
     if args.slugs:

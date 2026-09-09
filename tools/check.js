@@ -346,6 +346,19 @@ const wanted = new Set();
 for (const entry of Object.values(manifest)) {
   for (const kind of ['hero', 'process']) if (entry[kind]) wanted.add(entry[kind].file);
 }
+/* Photographs that have been fetched but not yet checked by eye. A quarter of
+   what the archives return is the wrong dish — the right name on the wrong
+   filling, the right grain in the wrong preparation — and no scoring catches
+   that, so images wait in images-pending.json until someone has looked at them.
+   They are accounted for, which is what this guard is about, but nothing on the
+   site points at them and the recipe keeps its gradient placeholder until an
+   entry moves across into images.json. */
+const pendingPath = path.join(__dirname, '..', 'src', 'data', 'images-pending.json');
+if (fs.existsSync(pendingPath)) {
+  for (const entry of Object.values(JSON.parse(fs.readFileSync(pendingPath, 'utf8')))) {
+    for (const kind of ['hero', 'process']) if (entry[kind]) wanted.add(entry[kind].file);
+  }
+}
 for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes'),
                    path.join(DIST, 'assets', 'img', 'recipes')]) {
   if (!fs.existsSync(dir)) continue;
