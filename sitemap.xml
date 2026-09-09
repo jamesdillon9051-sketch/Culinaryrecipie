@@ -8547,9 +8547,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-sauce/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cranberry-sauce.jpg</image:loc>
+      <image:title>Cranberry Sauce</image:title>
+      <image:caption>Cranberry Sauce — American holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-artichoke-dip/</loc>
@@ -8955,9 +8960,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-toddy/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-toddy.jpg</image:loc>
+      <image:title>Hot Toddy</image:title>
+      <image:caption>Hot Toddy — Scottish drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-coffee/</loc>
@@ -9104,9 +9114,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-bites/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-bites.jpg</image:loc>
+      <image:title>Bacon and Cheddar Egg Bites</image:title>
+      <image:caption>Bacon and Cheddar Egg Bites — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cloud-bread/</loc>
@@ -9226,15 +9241,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-steaks/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cauliflower-steaks.jpg</image:loc>
+      <image:title>Roasted Cauliflower Steaks</image:title>
+      <image:caption>Roasted Cauliflower Steaks — American healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kale-caesar/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kale-caesar.jpg</image:loc>
+      <image:title>Kale Caesar Salad</image:title>
+      <image:caption>Kale Caesar Salad — American healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/farro-salad/</loc>
@@ -9299,9 +9324,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moroccan-carrot-salad/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moroccan-carrot-salad.jpg</image:loc>
+      <image:title>Moroccan Carrot Salad</image:title>
+      <image:caption>Moroccan Carrot Salad — Moroccan healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/green-goddess-salad/</loc>
@@ -9322,9 +9352,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/italian-chopped-salad/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/italian-chopped-salad.jpg</image:loc>
+      <image:title>Italian Chopped Salad</image:title>
+      <image:caption>Italian Chopped Salad — Italian healthy recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-caper-pasta/</loc>
@@ -9361,9 +9396,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halloumi-wrap/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halloumi-wrap.jpg</image:loc>
+      <image:title>Grilled Halloumi Wrap</image:title>
+      <image:caption>Grilled Halloumi Wrap — Greek quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sardines-on-toast/</loc>
@@ -9534,9 +9574,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushroom-stroganoff/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mushroom-stroganoff.jpg</image:loc>
+      <image:title>Mushroom Stroganoff</image:title>
+      <image:caption>Mushroom Stroganoff — Russian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aubergine-parmigiana/</loc>
@@ -9585,8 +9630,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-bean-stew/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/white-bean-stew.jpg</image:loc>
+      <image:title>Tuscan White Bean Stew</image:title>
+      <image:caption>Tuscan White Bean Stew — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
 </urlset>
