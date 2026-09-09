@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "3a89385f19d8",
+  "hash": "2eb980a8bc9c",
   "lastmod": "2026-09-09"
  },
  "/about/": {
@@ -12,27 +12,27 @@
   "lastmod": "2026-09-05"
  },
  "/categories/appetizers/": {
-  "hash": "e8dfb1b393b2",
+  "hash": "8f4aed26608e",
   "lastmod": "2026-09-09"
  },
  "/categories/baking/": {
-  "hash": "9fc6df67fe61",
+  "hash": "c9121b31be1a",
   "lastmod": "2026-09-09"
  },
  "/categories/breakfast/": {
-  "hash": "9a5b7346db91",
-  "lastmod": "2026-09-05"
+  "hash": "7a631bda08fa",
+  "lastmod": "2026-09-09"
  },
  "/categories/desserts/": {
-  "hash": "ffc548e9d136",
+  "hash": "2a048c579c39",
   "lastmod": "2026-09-09"
  },
  "/categories/dinner/": {
-  "hash": "cc48295169a2",
+  "hash": "76de88e3c79c",
   "lastmod": "2026-09-09"
  },
  "/categories/drinks/": {
-  "hash": "1f938f26cf46",
+  "hash": "b2278acb29cb",
   "lastmod": "2026-09-09"
  },
  "/categories/healthy/": {
@@ -44,11 +44,11 @@
   "lastmod": "2026-09-05"
  },
  "/categories/lunch/": {
-  "hash": "c165ae83bec1",
+  "hash": "4a4db6fe3c35",
   "lastmod": "2026-09-09"
  },
  "/categories/quick-meals/": {
-  "hash": "4f24b3d3697c",
+  "hash": "0d1843233a3c",
   "lastmod": "2026-09-09"
  },
  "/contact/": {
@@ -56,7 +56,7 @@
   "lastmod": "2026-09-05"
  },
  "/cuisines/": {
-  "hash": "5bc5590b58f8",
+  "hash": "fb03c56307da",
   "lastmod": "2026-09-09"
  },
  "/cuisines/american/": {
@@ -300,8 +300,8 @@
   "lastmod": "2026-09-05"
  },
  "/cuisines/tunisian/": {
-  "hash": "1c96d80a9cbe",
-  "lastmod": "2026-09-05"
+  "hash": "a56dd7cdffae",
+  "lastmod": "2026-09-09"
  },
  "/cuisines/turkish/": {
   "hash": "87646b72fbed",
@@ -324,11 +324,11 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/": {
-  "hash": "9f584a388447",
+  "hash": "f3d45f712ab8",
   "lastmod": "2026-09-09"
  },
  "/ingredients/almonds/": {
-  "hash": "230a42c7b2c5",
+  "hash": "d6c68211dee5",
   "lastmod": "2026-09-09"
  },
  "/ingredients/apples/": {
@@ -352,11 +352,11 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/beans/": {
-  "hash": "ba58ff13cdce",
+  "hash": "4fbea53b6042",
   "lastmod": "2026-09-09"
  },
  "/ingredients/beef/": {
-  "hash": "5af43c2fdb8d",
+  "hash": "7bf97238d72c",
   "lastmod": "2026-09-09"
  },
  "/ingredients/butter/": {
@@ -368,7 +368,7 @@
   "lastmod": "2026-09-09"
  },
  "/ingredients/carrots/": {
-  "hash": "5445778566f8",
+  "hash": "95dfbb06cff8",
   "lastmod": "2026-09-09"
  },
  "/ingredients/cauliflower/": {
@@ -376,19 +376,19 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/cheese/": {
-  "hash": "33d0659aec25",
+  "hash": "77de7f035239",
   "lastmod": "2026-09-09"
  },
  "/ingredients/chicken/": {
-  "hash": "4a1017d98edf",
+  "hash": "d942da5bad81",
   "lastmod": "2026-09-09"
  },
  "/ingredients/chickpeas/": {
-  "hash": "a6e14d6ec795",
+  "hash": "463096af1edc",
   "lastmod": "2026-09-09"
  },
  "/ingredients/chillies/": {
-  "hash": "6724f95eccca",
+  "hash": "e07ff91455fb",
   "lastmod": "2026-09-09"
  },
  "/ingredients/chocolate/": {
@@ -404,7 +404,7 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/courgette/": {
-  "hash": "72a7f41cad09",
+  "hash": "9e955f3b0eb3",
   "lastmod": "2026-09-09"
  },
  "/ingredients/cream/": {
@@ -412,31 +412,31 @@
   "lastmod": "2026-09-09"
  },
  "/ingredients/eggs/": {
-  "hash": "687f0b67a841",
+  "hash": "6cff3cef5d5b",
   "lastmod": "2026-09-09"
  },
  "/ingredients/fish/": {
-  "hash": "0df817e10770",
+  "hash": "11815bd3dbb8",
   "lastmod": "2026-09-09"
  },
  "/ingredients/garlic/": {
-  "hash": "12167cf82c47",
+  "hash": "605d9d2f4c33",
   "lastmod": "2026-09-09"
  },
  "/ingredients/ginger/": {
-  "hash": "710134a7ea18",
-  "lastmod": "2026-09-05"
+  "hash": "e664748c028c",
+  "lastmod": "2026-09-09"
  },
  "/ingredients/honey/": {
-  "hash": "b9ffe5a2e95a",
+  "hash": "2c10f3c70ad4",
   "lastmod": "2026-09-09"
  },
  "/ingredients/lamb/": {
-  "hash": "5d3cc3cf8e0a",
+  "hash": "e55a7ad034fc",
   "lastmod": "2026-09-09"
  },
  "/ingredients/lemon/": {
-  "hash": "235f255fde81",
+  "hash": "45dcf62e9122",
   "lastmod": "2026-09-09"
  },
  "/ingredients/lentils/": {
@@ -456,19 +456,19 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/noodles/": {
-  "hash": "e2ee8d01cb42",
-  "lastmod": "2026-09-05"
+  "hash": "194dca154d6b",
+  "lastmod": "2026-09-09"
  },
  "/ingredients/oats/": {
   "hash": "97e6adf83cb1",
   "lastmod": "2026-09-05"
  },
  "/ingredients/onions/": {
-  "hash": "a8dc5a65dc60",
+  "hash": "41ce7a4c9cb9",
   "lastmod": "2026-09-09"
  },
  "/ingredients/pasta/": {
-  "hash": "c69af5e6b6d7",
+  "hash": "7fbdee1d19d7",
   "lastmod": "2026-09-09"
  },
  "/ingredients/peas/": {
@@ -476,7 +476,7 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/peppers/": {
-  "hash": "229d78c93291",
+  "hash": "e1fb1da07ffb",
   "lastmod": "2026-09-09"
  },
  "/ingredients/pork/": {
@@ -484,7 +484,7 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/potatoes/": {
-  "hash": "68088fe9c939",
+  "hash": "e9ba770afa84",
   "lastmod": "2026-09-09"
  },
  "/ingredients/prawns/": {
@@ -492,7 +492,7 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/rice/": {
-  "hash": "79da12c83b6b",
+  "hash": "efe441e51f59",
   "lastmod": "2026-09-09"
  },
  "/ingredients/soy-sauce/": {
@@ -500,7 +500,7 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/spinach/": {
-  "hash": "2d59bcdea540",
+  "hash": "10b4bf8825fc",
   "lastmod": "2026-09-09"
  },
  "/ingredients/strawberries/": {
@@ -512,11 +512,11 @@
   "lastmod": "2026-09-05"
  },
  "/ingredients/tomatoes/": {
-  "hash": "da2c412ce576",
+  "hash": "282d569bbc49",
   "lastmod": "2026-09-09"
  },
  "/ingredients/vanilla/": {
-  "hash": "a9d5c006c632",
+  "hash": "72764d5a303e",
   "lastmod": "2026-09-09"
  },
  "/ingredients/yoghurt/": {
@@ -528,7 +528,7 @@
   "lastmod": "2026-09-05"
  },
  "/recipes/": {
-  "hash": "3a89385f19d8",
+  "hash": "2eb980a8bc9c",
   "lastmod": "2026-09-09"
  },
  "/recipes/acai-bowl/": {
@@ -635,6 +635,10 @@
   "hash": "ec20015e0b9a",
   "lastmod": "2026-09-05"
  },
+ "/recipes/assidat-zgougou/": {
+  "hash": "8ff96e8175a1",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/atakilt-wat/": {
   "hash": "70fd9c116f43",
   "lastmod": "2026-09-05"
@@ -733,6 +737,10 @@
  },
  "/recipes/balila/": {
   "hash": "24fe483b76b7",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/bambalouni/": {
+  "hash": "4bda99d4e918",
   "lastmod": "2026-09-09"
  },
  "/recipes/bamia-bi-lahme/": {
@@ -850,6 +858,10 @@
  "/recipes/belgian-waffles/": {
   "hash": "a456409cd01f",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/berkoukes/": {
+  "hash": "8753e8335e32",
+  "lastmod": "2026-09-09"
  },
  "/recipes/besara/": {
   "hash": "fac6097da6f3",
@@ -1006,6 +1018,10 @@
  "/recipes/bruschetta/": {
   "hash": "7f01e720ca65",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/bsissa/": {
+  "hash": "38f30f59cd75",
+  "lastmod": "2026-09-09"
  },
  "/recipes/bubble-tea/": {
   "hash": "70f50a658ddf",
@@ -1383,6 +1399,10 @@
   "hash": "c2cce3df0f82",
   "lastmod": "2026-09-06"
  },
+ "/recipes/chorba-frik/": {
+  "hash": "f52f43a5b1a2",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/chow-mein/": {
   "hash": "3a05f68e2a37",
   "lastmod": "2026-09-05"
@@ -1467,6 +1487,10 @@
   "hash": "69b55ef86529",
   "lastmod": "2026-09-05"
  },
+ "/recipes/complet-poisson/": {
+  "hash": "7589dc04eb9b",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/completo/": {
   "hash": "8e53e524809a",
   "lastmod": "2026-09-05"
@@ -1510,6 +1534,10 @@
  "/recipes/cottage-pie/": {
   "hash": "a3a0de14a229",
   "lastmod": "2026-09-06"
+ },
+ "/recipes/couscous-tunisien/": {
+  "hash": "59fff876cb7d",
+  "lastmod": "2026-09-09"
  },
  "/recipes/coxinha/": {
   "hash": "c64ba9f2f3aa",
@@ -1621,6 +1649,10 @@
  },
  "/recipes/djaj-mhammar/": {
   "hash": "693cbb992ca4",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/doigts-de-fatma/": {
+  "hash": "d675de5e541f",
   "lastmod": "2026-09-09"
  },
  "/recipes/dolmades/": {
@@ -1759,6 +1791,10 @@
   "hash": "c64e94605b0c",
   "lastmod": "2026-09-05"
  },
+ "/recipes/felfel-mahchi/": {
+  "hash": "675ad17c7c69",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/ferakh-mashwi/": {
   "hash": "de8cd2a87301",
   "lastmod": "2026-09-09"
@@ -1815,6 +1851,10 @@
   "hash": "9e49d46b6d02",
   "lastmod": "2026-09-05"
  },
+ "/recipes/fricasse/": {
+  "hash": "b974f380f809",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/fried-plantain/": {
   "hash": "39f2d60ea749",
   "lastmod": "2026-09-05"
@@ -1830,6 +1870,10 @@
  "/recipes/fruit-tart/": {
   "hash": "8aa1cf74628c",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/ftair/": {
+  "hash": "121757a1b7e5",
+  "lastmod": "2026-09-09"
  },
  "/recipes/fudge/": {
   "hash": "0c56807e5c5b",
@@ -2051,6 +2095,10 @@
   "hash": "031b98c03c3f",
   "lastmod": "2026-09-05"
  },
+ "/recipes/harissa/": {
+  "hash": "be6d5f1d751d",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/hash-browns/": {
   "hash": "0a7e97a8c881",
   "lastmod": "2026-09-06"
@@ -2061,6 +2109,10 @@
  },
  "/recipes/hawawshi/": {
   "hash": "eb4592613d33",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/hlelem/": {
+  "hash": "386bdc053566",
   "lastmod": "2026-09-09"
  },
  "/recipes/honey-garlic-chicken/": {
@@ -2097,6 +2149,10 @@
  },
  "/recipes/hot-toddy/": {
   "hash": "bfa5a5a37023",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/hout-mechoui/": {
+  "hash": "d458ce852c04",
   "lastmod": "2026-09-09"
  },
  "/recipes/huevos-rancheros/": {
@@ -2215,12 +2271,20 @@
   "hash": "e1595a322ab1",
   "lastmod": "2026-09-09"
  },
+ "/recipes/kabkabou/": {
+  "hash": "b1b436c2830f",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/kachumbari/": {
   "hash": "9f894e599796",
   "lastmod": "2026-09-05"
  },
  "/recipes/kafta-bil-sanieh/": {
   "hash": "d28f2d2a2360",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/kafteji/": {
+  "hash": "bf48ca929d69",
   "lastmod": "2026-09-09"
  },
  "/recipes/kaiserschmarrn/": {
@@ -2238,6 +2302,10 @@
  "/recipes/kalua-pork/": {
   "hash": "e59eb9fb816d",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/kamounia/": {
+  "hash": "354db7b0f8eb",
+  "lastmod": "2026-09-09"
  },
  "/recipes/kanelbullar/": {
   "hash": "d592a4b37866",
@@ -2306,6 +2374,10 @@
  "/recipes/khinkali/": {
   "hash": "2b4a69ae61fa",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/khobz-tabouna/": {
+  "hash": "e1f8fd32f2de",
+  "lastmod": "2026-09-09"
  },
  "/recipes/khubz-arabi/": {
   "hash": "3ee44952f2be",
@@ -2410,6 +2482,10 @@
  "/recipes/kvass/": {
   "hash": "644d463b28bb",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/lablabi/": {
+  "hash": "4374b7d8bf43",
+  "lastmod": "2026-09-09"
  },
  "/recipes/labneh/": {
   "hash": "b7c4054760b7",
@@ -2559,6 +2635,10 @@
   "hash": "12bd438cd591",
   "lastmod": "2026-09-05"
  },
+ "/recipes/madfouna/": {
+  "hash": "b63e96f644db",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/maghmour/": {
   "hash": "9ddeea283594",
   "lastmod": "2026-09-09"
@@ -2573,6 +2653,10 @@
  },
  "/recipes/makdous/": {
   "hash": "426fe8c873a1",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/makroudh/": {
+  "hash": "db983b7e6cb0",
   "lastmod": "2026-09-09"
  },
  "/recipes/malabi/": {
@@ -2631,6 +2715,10 @@
   "hash": "202d59d98995",
   "lastmod": "2026-09-05"
  },
+ "/recipes/marqa-hlouwa/": {
+  "hash": "5cd4ba128310",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/martabak/": {
   "hash": "ca097f0688f4",
   "lastmod": "2026-09-05"
@@ -2642,6 +2730,10 @@
  "/recipes/masala-dosa/": {
   "hash": "e970b1b118fe",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/masfouf/": {
+  "hash": "cc011881a8a1",
+  "lastmod": "2026-09-09"
  },
  "/recipes/mashed-potatoes/": {
   "hash": "125726055563",
@@ -2679,9 +2771,17 @@
   "hash": "4e6cc6375b2f",
   "lastmod": "2026-09-05"
  },
+ "/recipes/mermez/": {
+  "hash": "1d4753aa4461",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/mexican-rice/": {
   "hash": "bb7af291e5a4",
   "lastmod": "2026-09-06"
+ },
+ "/recipes/mhalbiya/": {
+  "hash": "d0e924ca8bf6",
+  "lastmod": "2026-09-09"
  },
  "/recipes/michelada/": {
   "hash": "003b9252bf43",
@@ -2730,6 +2830,10 @@
  "/recipes/mission-burrito/": {
   "hash": "839ece6bdbfd",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/mlawi/": {
+  "hash": "6eeddc451a34",
+  "lastmod": "2026-09-09"
  },
  "/recipes/mochi/": {
   "hash": "56a2c593a236",
@@ -2883,6 +2987,10 @@
   "hash": "d255abf5e77d",
   "lastmod": "2026-09-05"
  },
+ "/recipes/ojja/": {
+  "hash": "9e0a191e9a08",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/okonomiyaki/": {
   "hash": "e05297064d98",
   "lastmod": "2026-09-05"
@@ -2914,6 +3022,10 @@
  "/recipes/orecchiette-cime-di-rapa/": {
   "hash": "84b6b024c728",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/osbane/": {
+  "hash": "12342a3ddc55",
+  "lastmod": "2026-09-09"
  },
  "/recipes/osso-buco/": {
   "hash": "fd833010d1b2",
@@ -3327,6 +3439,10 @@
   "hash": "63ecca0fd229",
   "lastmod": "2026-09-05"
  },
+ "/recipes/rouz-jerbi/": {
+  "hash": "be1587f43897",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/roz-bel-laban/": {
   "hash": "4c0f1e32c168",
   "lastmod": "2026-09-09"
@@ -3359,8 +3475,16 @@
   "hash": "ce3cc23064e2",
   "lastmod": "2026-09-05"
  },
+ "/recipes/salade-omek-houria/": {
+  "hash": "68bc149f07b6",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/salata-baladi/": {
   "hash": "3e6546ab0e31",
+  "lastmod": "2026-09-09"
+ },
+ "/recipes/salata-blankit/": {
+  "hash": "8f851576d7a4",
   "lastmod": "2026-09-09"
  },
  "/recipes/salatet-raheb/": {
@@ -3414,6 +3538,10 @@
  "/recipes/samosas/": {
   "hash": "6ee2ebdb099e",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/samsa-tunisienne/": {
+  "hash": "6e5530da7b0f",
+  "lastmod": "2026-09-09"
  },
  "/recipes/sangria/": {
   "hash": "3c42e0f30cac",
@@ -3554,6 +3682,10 @@
  "/recipes/sinigang/": {
   "hash": "5a5f96eb7e0c",
   "lastmod": "2026-09-05"
+ },
+ "/recipes/slata-tounsia/": {
+  "hash": "ed6d4a8ae19a",
+  "lastmod": "2026-09-09"
  },
  "/recipes/sloppy-joes/": {
   "hash": "17625bee6257",
@@ -3787,6 +3919,10 @@
   "hash": "0756a061acc3",
   "lastmod": "2026-09-09"
  },
+ "/recipes/tajine-tunisien/": {
+  "hash": "b7453f308239",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/takoyaki/": {
   "hash": "323f19f3e482",
   "lastmod": "2026-09-05"
@@ -3838,6 +3974,10 @@
  "/recipes/thai-red-curry/": {
   "hash": "97b05cffee06",
   "lastmod": "2026-09-06"
+ },
+ "/recipes/the-aux-pignons/": {
+  "hash": "222514adbea3",
+  "lastmod": "2026-09-09"
  },
  "/recipes/tiramisu-gelato/": {
   "hash": "937cf5522e0a",
@@ -4091,6 +4231,10 @@
   "hash": "3a443798743b",
   "lastmod": "2026-09-05"
  },
+ "/recipes/zlabia/": {
+  "hash": "ecf18f43386b",
+  "lastmod": "2026-09-09"
+ },
  "/recipes/znoud-el-sit/": {
   "hash": "54d5c15fb02e",
   "lastmod": "2026-09-09"
@@ -4108,7 +4252,7 @@
   "lastmod": "2026-09-05"
  },
  "/search/": {
-  "hash": "3a89385f19d8",
+  "hash": "2eb980a8bc9c",
   "lastmod": "2026-09-09"
  }
 }
