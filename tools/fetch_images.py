@@ -72,6 +72,11 @@ OK_LICENCE = _LicenceGate
 NEEDS_CREDIT = re.compile(r"^(cc[-\s]?by|attribution)", re.I)
 # ShareAlike binds the adaptation we publish as well, so the credit says so.
 SHARE_ALIKE = re.compile(r"(\bsa\b|share[-\s]?alike)", re.I)
+# Openverse providers that never hold a photograph of a prepared dish, so a
+# title match from one is a homonym rather than a picture of dinner.
+EXCLUDED_SOURCES = {"inaturalist", "biodiversity_heritage_library", "sciencemuseum",
+                    "spacex", "nasa", "geographorguk"}
+
 BAD_TOKENS = re.compile(
     # Things that are not a photograph of the dish. Terms that also occur
     # inside ordinary food words are anchored: "flower" must not match
@@ -820,6 +825,13 @@ def openverse_candidates(query, wide=True, licences=OPENVERSE_TIERS[0]):
         title = r.get("title") or query
         if BAD_TOKENS.search(title):
             continue
+        # A species-observation archive holds photographs of organisms, not of
+        # cooked food, and its files are titled with the creature's name in
+        # every language it has one. That is a lot of words to score against:
+        # "당멸치, カライワシ, alho, awa, balila, balusu, banana fish" matched
+        # balila, the Lebanese chickpea dish, and put a ladyfish on the page.
+        if (r.get("source") or "").lower() in EXCLUDED_SOURCES:
+            continue
         lic, lic_url = openverse_licence(r)
         # The gate decides, rather than a second hardcoded tuple here. It
         # already knows NonCommercial and NoDerivatives are out whatever the
@@ -858,7 +870,22 @@ def shorten(query):
     return brief if brief.lower() != query.strip().lower() else ""
 
 
-def gather(query, tags=()):
+def rejected_pages():
+    """Archive pages already looked at and found not to show the dish.
+
+    A search is deterministic, so a rejected photograph is simply found again
+    on the next run: warak-enab was given the same picture of grape vines twice
+    because nulling its manifest entry only told the fetcher to look again, not
+    what not to accept. This is the record that makes a rejection stick."""
+    path = os.path.join(ROOT, "src", "data", "image-rejects.json")
+    if not os.path.exists(path):
+        return {}
+    raw = json.load(open(path))
+    return {slug: {e["page"] for e in entries if e.get("page")}
+            for slug, entries in raw.items() if not slug.startswith("_")}
+
+
+def gather(query, tags=(), reject=()):
     seen, pool = set(), []
     brief = shorten(query)
     # Held as callables, not results. Built eagerly, every query ran before the
@@ -891,6 +918,12 @@ def gather(query, tags=()):
             # A score alone is not enough: a title can hit the threshold on
             # nationality and colour words while showing something else
             # entirely, so at least one dish-identifying word must match too.
+            # Checked here rather than on the finished pool: gather() stops as
+            # soon as it holds two candidates, so filtering afterwards can empty
+            # it while further attempts that would have found a good image were
+            # never run.
+            if c.get("page") in reject:
+                continue
             if key and key not in seen and c["score"] >= 0.5 and c.get("strong"):
                 seen.add(key)
                 pool.append(c)
@@ -997,6 +1030,7 @@ def alt_queries():
 def main():
     os.makedirs(IMG_DIR, exist_ok=True)
     alts = alt_queries()
+    rejects = rejected_pages()
     # src/data/volumes.js discovers the catalogue volumes, so a new one does not
     # need adding here as well — which it silently did not, for a while.
     catalog = json.loads(subprocess.check_output(
@@ -1025,7 +1059,8 @@ def main():
 
         log(f"[{idx + 1:3d}/{len(catalog)}] {slug}  <- {query}")
         tags = rec.get("tags") or ()
-        pool = gather(query, tags)
+        refuse = rejects.get(slug, ())
+        pool = gather(query, tags, refuse)
         # The catalogue's imageQuery is a description — "Muhammara red pepper
         # walnut dip" — which is the right thing to ask first, because when it
         # matches it matches the dish precisely. When it does not, the archives
@@ -1046,7 +1081,7 @@ def main():
             if pool:
                 break
             log(f"    · retrying as \"{fallback}\"")
-            pool = gather(fallback, tags)
+            pool = gather(fallback, tags, refuse)
         if not pool:
             log("    · no unrestricted image found — gradient placeholder will be used")
             manifest[slug] = {"hero": None, "process": None}

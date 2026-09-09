@@ -1,0 +1,24 @@
+{
+  "_readme": [
+    "Photographs that were fetched, looked at, and found not to show the dish.",
+    "Keyed by slug; each entry names the archive page so the fetcher can refuse",
+    "that exact file and go on to the next candidate. Without this a rejected",
+    "image is simply re-fetched on the next run, because the search that found",
+    "it the first time is deterministic — which is how warak-enab acquired the",
+    "same photograph of grape vines twice.",
+    "Reasons are kept because they are the only record of why an image is not",
+    "on the site, and the alternative is rejecting it again in six months."
+  ],
+  "warak-enab": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Warak_enab.jpg",
+      "why": "grape vines growing in a garden, not the stuffed leaves"
+    }
+  ],
+  "balila": [
+    {
+      "page": "https://www.inaturalist.org/photos/163497339",
+      "why": "a ladyfish; 'balila' is one of its names in the file's species list"
+    }
+  ]
+}
