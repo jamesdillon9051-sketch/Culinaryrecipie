@@ -32,6 +32,9 @@ MANIFEST = os.path.join(ROOT, "src", "data", "images.json")
 UA = "Weekly DelightBot/1.0 (static recipe site build; contact: hello@culinaryvault.example)"
 
 HERO_W, PROCESS_W = 800, 640
+# Seconds a single recipe may spend searching before the remaining attempts are
+# abandoned. Raise it to trade run time for a few more of the obscure dishes.
+SEARCH_BUDGET = 60
 WEBP_Q, JPEG_Q = 68, 70
 
 # Licences we accept. Anything else is rejected outright.
@@ -910,7 +913,23 @@ def gather(query, tags=(), reject=()):
     # The "food" variant is a second full search for a marginal gain, so it is
     # the last thing tried rather than doubling the cost of every recipe.
     attempts.append(lambda: commons_candidates(query, "food", LICENCE_FILTERS[-1], tags))
-    for attempt in attempts:
+    # A dish the archives hold nothing for costs the whole chain — eight
+    # searches, each paced against a rate limit, each fetching metadata per
+    # result — and that was measured at five to thirteen minutes a recipe.
+    # Across the volumes added here, which are deliberately weighted towards
+    # dishes that are thinly covered, that is most of the run spent on the
+    # recipes least likely to yield anything.
+    #
+    # So the chain is time-boxed rather than shortened. The first two attempts
+    # always run, because they are the ones that find the well-covered dishes;
+    # after that a recipe stops once it has had its budget. An attempt that was
+    # going to succeed almost always does so early, and the tail is where the
+    # hours went.
+    started = time.time()
+    for position, attempt in enumerate(attempts):
+        if position >= 2 and time.time() - started > SEARCH_BUDGET:
+            log(f"    · gave up after {SEARCH_BUDGET}s of searching")
+            break
         for c in attempt():
             key = c["url"]
             if not isinstance(key, str) or not key.lower().startswith(("http://", "https://")):
@@ -1028,6 +1047,22 @@ def alt_queries():
 
 
 def main():
+    # Sharding, so several workers can run at once against a job whose cost is
+    # almost entirely waiting for two rate-limited archives to answer. Each
+    # worker takes every nth recipe and writes its own manifest; merging them
+    # afterwards is what keeps the shared file from being lost-update clobbered,
+    # since the manifest is rewritten whole after every recipe.
+    #
+    #   --shard 0/3   this worker takes recipes 0, 3, 6 ...
+    #   --manifest P  write to P instead of src/data/images.json
+    global MANIFEST
+    shard, shards = 0, 1
+    argv = sys.argv[1:]
+    if "--shard" in argv:
+        shard, shards = (int(x) for x in argv[argv.index("--shard") + 1].split("/"))
+    if "--manifest" in argv:
+        MANIFEST = os.path.abspath(argv[argv.index("--manifest") + 1])
+
     os.makedirs(IMG_DIR, exist_ok=True)
     alts = alt_queries()
     rejects = rejected_pages()
@@ -1043,6 +1078,8 @@ def main():
         manifest = json.load(open(MANIFEST))
 
     for idx, rec in enumerate(catalog):
+        if shards > 1 and idx % shards != shard:
+            continue
         slug, query = rec["slug"], rec["imageQuery"]
         want_process = idx % 2 == 0          # a process shot for 50% of recipes
         entry = manifest.get(slug)

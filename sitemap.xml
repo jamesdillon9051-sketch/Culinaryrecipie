@@ -9789,6 +9789,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jazar-bi-tahini.jpg</image:loc>
+      <image:title>Carrot and Tahini Salad</image:title>
+      <image:caption>Carrot and Tahini Salad — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kafta-bil-sanieh/</loc>
@@ -9842,6 +9847,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arayes.jpg</image:loc>
+      <image:title>Arayes</image:title>
+      <image:caption>Arayes — Lebanese quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/riz-a-djaj/</loc>

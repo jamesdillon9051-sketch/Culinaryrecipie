@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1089
+Every photograph on Weekly Delight is freely licensed. Of 1093
 images, **749** are CC0 or public domain and carry no conditions at all, and
-**340** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**344** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,10 +42,10 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 808 |
-| Secondary "process" images | 281 |
-| Total image files | 2178 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 401 |
+| Hero images | 810 |
+| Secondary "process" images | 283 |
+| Total image files | 2186 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 399 |
 
 ### Licences used
 
@@ -53,14 +53,14 @@ nothing than use an image we do not have clear rights to.
 |---|---:|---|
 | CC0 | 455 | No rights reserved — no attribution legally required |
 | CC0 1.0 | 168 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 117 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 119 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 4.0 | 112 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 92 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 43 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 33 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 28 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY 4.0 | 15 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 13 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 15 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 de | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -102,14 +102,12 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Balila (`balila`)
 - Loubieh bi Zeit (`loubieh-bzeit`)
 - Salatet Raheb (`salatet-raheb`)
-- Carrot and Tahini Salad (`jazar-bi-tahini`)
 - Kafta bil Sanieh (`kafta-bil-sanieh`)
 - Kibbeh bil Sanieh (`kibbeh-bil-sanieh`)
 - Kibbeh Labaniyeh (`kibbeh-labaniyeh`)
 - Shish Barak (`shish-barak`)
 - Samke Harra (`samke-harra`)
 - Sfiha Baalbakieh (`sfiha-baalbakieh`)
-- Arayes (`arayes`)
 - Riz a Djaj (`riz-a-djaj`)
 - Djaj Mhammar (`djaj-mhammar`)
 - Bamia bi Lahme (`bamia-bi-lahme`)
@@ -1585,7 +1583,11 @@ licence as the rest of this project.
 | `hummus-beiruti.webp` / `.jpg` | Hummus Beiruti | Hero | You can never go wrong with mezzes •Hummus Beiruti and Mouttabal with Pomegranate and Walnuts• | debbietingzon | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/32031278@N03/19190073771) |
 | `kibbeh-mekliyeh.webp` / `.jpg` | Fried Kibbeh | Hero | Fried kibbeh | TheHungryDudes | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/47854142@N04/5380196080) |
 | `kibbeh-mekliyeh-process.webp` / `.jpg` | Fried Kibbeh | Process | Kibbeh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14792591375) |
+| `jazar-bi-tahini.webp` / `.jpg` | Carrot and Tahini Salad | Hero | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17350973460) |
+| `jazar-bi-tahini-process.webp` / `.jpg` | Carrot and Tahini Salad | Process | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17538444221) |
 | `sayadieh.webp` / `.jpg` | Sayadieh | Hero | Fish Sayadieh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14748816609) |
+| `arayes.webp` / `.jpg` | Arayes | Hero | Ain Arayes عين العرايس - panoramio | habib kaki | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ain_Arayes_%D8%B9%D9%8A%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%8A%D8%B3_-_panoramio.jpg) |
+| `arayes-process.webp` / `.jpg` | Arayes | Process | Mosquée El Feth - Ain Arayes - panoramio | habib kaki | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_El_Feth_-_Ain_Arayes_-_panoramio.jpg) |
 
 ---
 
