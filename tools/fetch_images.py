@@ -1026,7 +1026,23 @@ def main():
         log(f"[{idx + 1:3d}/{len(catalog)}] {slug}  <- {query}")
         tags = rec.get("tags") or ()
         pool = gather(query, tags)
-        for fallback in (alts.get(slug) or [])[:2]:
+        # The catalogue's imageQuery is a description — "Muhammara red pepper
+        # walnut dip" — which is the right thing to ask first, because when it
+        # matches it matches the dish precisely. When it does not, the archives
+        # very often hold the dish under its bare name and nothing else: all of
+        # muhammara, warak enab and makdous returned zero for the description
+        # and a correctly licensed photograph for the one-word title.
+        #
+        # shorten() does not reach that. It keeps the first two content words,
+        # so the description above becomes "Muhammara red" — still not the name.
+        # The title is the name, it is already in the catalogue, and every
+        # recipe has one, so it is tried before the hand-written alternatives
+        # that only 368 slugs have.
+        title = (rec.get("title") or "").strip()
+        fallbacks = list(alts.get(slug) or [])
+        if title and title.lower() != query.strip().lower():
+            fallbacks.append(title)
+        for fallback in fallbacks[:3]:
             if pool:
                 break
             log(f"    · retrying as \"{fallback}\"")
