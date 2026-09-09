@@ -9546,9 +9546,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stoemp/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stoemp.jpg</image:loc>
+      <image:title>Stoemp</image:title>
+      <image:caption>Stoemp — Belgian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chana-chaat/</loc>
@@ -9602,9 +9607,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jackfruit-tacos/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jackfruit-tacos.jpg</image:loc>
+      <image:title>Pulled Jackfruit Tacos</image:title>
+      <image:caption>Pulled Jackfruit Tacos — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-mac/</loc>
@@ -9644,12 +9654,22 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/muhammara.jpg</image:loc>
+      <image:title>Muhammara</image:title>
+      <image:caption>Muhammara — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/batata-harra/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/batata-harra.jpg</image:loc>
+      <image:title>Batata Harra</image:title>
+      <image:caption>Batata Harra — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/warak-enab/</loc>
@@ -9662,24 +9682,44 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/makdous.jpg</image:loc>
+      <image:title>Makdous</image:title>
+      <image:caption>Makdous — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shanklish-salad/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shanklish-salad.jpg</image:loc>
+      <image:title>Shanklish Salad</image:title>
+      <image:caption>Shanklish Salad — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/toum/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/toum.jpg</image:loc>
+      <image:title>Toum</image:title>
+      <image:caption>Toum — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sambousek/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sambousek.jpg</image:loc>
+      <image:title>Sambousek</image:title>
+      <image:caption>Sambousek — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fatayer-sabanekh/</loc>
@@ -9704,6 +9744,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maghmour.jpg</image:loc>
+      <image:title>Maghmour</image:title>
+      <image:caption>Maghmour — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/loubieh-bzeit/</loc>
@@ -9722,6 +9767,11 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kibbeh-mekliyeh.jpg</image:loc>
+      <image:title>Fried Kibbeh</image:title>
+      <image:caption>Fried Kibbeh — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salatet-raheb/</loc>
