@@ -8891,6 +8891,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bread-sauce.jpg</image:loc>
+      <image:title>Bread Sauce</image:title>
+      <image:caption>Bread Sauce — British holiday specials recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/latkes/</loc>
@@ -9881,9 +9886,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kibbeh-bil-sanieh/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kibbeh-bil-sanieh.jpg</image:loc>
+      <image:title>Kibbeh bil Sanieh</image:title>
+      <image:caption>Kibbeh bil Sanieh — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kibbeh-labaniyeh/</loc>

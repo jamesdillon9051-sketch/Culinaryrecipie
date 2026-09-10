@@ -2426,6 +2426,10 @@
       "model": "sana",
       "prompt": "Everything chopped to the size of a pea and bound in a herb dressing thick enough to cling, eaten with a spoon or a chip, made with ripe avocado, basil leaves, chives, flat-leaf parsley, cashews, a American dish called Green Goddess Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "undressed leaves, and the dressing is what the salad is named for"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Watergate_salad_new.jpg",
+      "why": "Watergate salad, a bowl of marshmallow fluff, which Wikidata carries under the alias green goddess"
     }
   ],
   "karjalanpaisti": [
@@ -2528,6 +2532,10 @@
       "model": "sana",
       "prompt": "Shanghai\u2019s cong you ban mian: spring onions fried slowly in oil until they are dark and brittle, the oil they leave behind stirred with soy and sugar, and noodles tossed through it, Four ingredients, thirty minutes, and one of the best bowls of noodles there is, made with dried thin wheat noodles, spring onions, light soy sauce, dark soy sauce, a Chinese dish called Scallion Oil Noodles, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "noodles in broth for the third time, and the dish is tossed dry"
+    },
+    {
+      "page": "https://www.flickr.com/photos/68147320@N02/8371912337",
+      "why": "a fine dining plate of foie gras and kohlrabi with no noodles on it"
     }
   ],
   "smashed-chickpea-sandwich": [
@@ -2542,6 +2550,14 @@
       "model": "sana",
       "prompt": "Chickpeas crushed with tahini, lemon and capers into something with the texture of a tuna mayo but none of the fish, Twelve minutes, no cooking, and it holds up in a lunchbox, made with x 400 g tins chickpeas, tahini, lemon juice, Dijon mustard, capers, a American dish called Smashed Chickpea Sandwich, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a tray of toast and sweetcorn, still not a sandwich"
+    },
+    {
+      "page": "https://www.flickr.com/photos/43296902@N00/4784294128",
+      "why": "the filling in a mixing bowl, not the sandwich"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35903175@N02/3572088848",
+      "why": "the filling in a mixing bowl, not the sandwich"
     }
   ],
   "sweet-potato-casserole": [

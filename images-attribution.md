@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1395
-photographs, **799** are CC0 or public domain and carry no conditions at all, and
-**596** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1398
+photographs, **800** are CC0 or public domain and carry no conditions at all, and
+**598** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -257,11 +257,11 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 1409 |
-| Hero photographs | 1035 |
-| Secondary "process" photographs | 360 |
+| Hero photographs | 1037 |
+| Secondary "process" photographs | 361 |
 | Generated illustrations | 191 |
-| Total image files | 3172 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 183 |
+| Total image files | 3178 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 181 |
 
 ### Licences used
 
@@ -270,10 +270,10 @@ wrong dish were deleted rather than kept.
 | CC0 | 462 | No rights reserved — no attribution legally required |
 | CC BY 2.0 | 248 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 193 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 170 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 103 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 171 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 104 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 88 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 44 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 45 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 40 | No rights reserved — no attribution legally required |
 | CC BY 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 4.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -303,13 +303,11 @@ These use the built-in gradient placeholder because no CC0, public-domain,
 CC BY or CC BY-SA image of sufficient quality and relevance could be found,
 and no usable illustration of them could be drawn either:
 
-- Bread Sauce (`bread-sauce`)
 - Green Goddess Salad (`green-goddess-salad`)
 - Smashed Chickpea Sandwich (`smashed-chickpea-sandwich`)
 - Scallion Oil Noodles (`scallion-oil-noodles`)
 - Spinach Fatayer (`fatayer-sabanekh`)
 - Cheese Rakakat (`rakakat-jibneh`)
-- Kibbeh bil Sanieh (`kibbeh-bil-sanieh`)
 - Kibbeh Labaniyeh (`kibbeh-labaniyeh`)
 - Malfouf Mahshi (`malfouf-mahshi`)
 - Kousa bil Laban (`kousa-bil-laban`)
@@ -1498,6 +1496,8 @@ licence as the rest of this project.
 | `roast-goose-process.webp` / `.jpg` | Roast Goose | Process | Christmas goose (Weihnachtsgans) | Jürgen Howaldt | CC BY-SA 2.0 de | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_goose_(Weihnachtsgans).jpg) |
 | `mince-pies.webp` / `.jpg` | Mince Pies | Hero | Mince Pies (15443417714) | oatsy40 | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mince_Pies_(15443417714).jpg) |
 | `christmas-pudding.webp` / `.jpg` | Christmas Pudding | Hero | Christmas pudding (Heston from Waitrose) flaming | Ed g2s | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christmas_pudding_(Heston_from_Waitrose)_flaming.jpg) |
+| `bread-sauce.webp` / `.jpg` | Bread Sauce | Hero | Bread sauce (image of bread sauce on Wikidata Q4383705) | ElinorD | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bread_sauce.jpg) |
+| `bread-sauce-process.webp` / `.jpg` | Bread Sauce | Process | ChristmasDinnerScotland | Qualit-E at English Wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ChristmasDinnerScotland.jpg) |
 | `latkes.webp` / `.jpg` | Potato Latkes | Hero | Kedainiai pancakes with traditional crackling and sour cream sauce | Bdx | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kedainiai_pancakes_with_traditional_crackling_and_sour_cream_sauce.jpg) |
 | `sufganiyot.webp` / `.jpg` | Sufganiyot | Hero | Classic Hanukkah sufganiyot | Noam Furer | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Classic_Hanukkah_sufganiyot.JPG) |
 | `galette-des-rois.webp` / `.jpg` | Galette des Rois | Hero | Galette des rois, made by French people in Tokyo | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Galette_des_rois,_made_by_French_people_in_Tokyo.jpg) |
@@ -1589,6 +1589,7 @@ licence as the rest of this project.
 | `salatet-raheb.webp` / `.jpg` | Salatet Raheb | Hero | grilled aubergine | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5946776/free-public-domain-cc0-photo) |
 | `jazar-bi-tahini.webp` / `.jpg` | Carrot and Tahini Salad | Hero | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17350973460) |
 | `jazar-bi-tahini-process.webp` / `.jpg` | Carrot and Tahini Salad | Process | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17538444221) |
+| `kibbeh-bil-sanieh.webp` / `.jpg` | Kibbeh bil Sanieh | Hero | Kibbeh Bil Sanieh (image of kibbeh bil siniyeh on Wikidata Q118956765) | Amaiursancho5 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kibbeh_Bil_Sanieh.jpg) |
 | `sayadieh.webp` / `.jpg` | Sayadieh | Hero | Fish Sayadieh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14748816609) |
 | `sfiha-baalbakieh.webp` / `.jpg` | Sfiha Baalbakieh | Hero | Safeha, a Lebanese dish of Baalbek, 2017 | Bdx | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Safeha,_a_Lebanese_dish_of_Baalbek,_2017.jpg) |
 | `arayes.webp` / `.jpg` | Arayes | Hero | Ain Arayes عين العرايس - panoramio | habib kaki | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ain_Arayes_%D8%B9%D9%8A%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%8A%D8%B3_-_panoramio.jpg) |
