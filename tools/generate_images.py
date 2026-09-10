@@ -150,7 +150,10 @@ def prompt_for(rec):
     ing = key_ingredients(rec.get("ing") or [])
     if ing:
         bits.append("made with " + ", ".join(ing))
-    bits.append(f"a {rec['cuisine']} dish called {rec['title']}")
+    # "Ukrainian" starts with a vowel and takes "a", so U is left out
+    # rather than special-cased; no cuisine here needs "an" before one.
+    article = "an" if rec["cuisine"][:1].upper() in "AEIO" else "a"
+    bits.append(f"{article} {rec['cuisine']} dish called {rec['title']}")
     bits.append(STYLE)
     return ", ".join(bits)
 
