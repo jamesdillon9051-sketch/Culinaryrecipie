@@ -64,12 +64,39 @@ def main():
             continue
         for kind in ("hero", "process"):
             data = entry.get(kind)
-            if data and data.get("page"):
+            if not data:
+                continue
+            if data.get("page"):
                 rejects.setdefault(slug, []).append({"page": data["page"], "why": why})
-        # The recipe goes back to a gradient placeholder, and stays retryable:
-        # one refused candidate is not evidence the archives hold nothing.
-        manifest[slug] = {"hero": None, "process": None}
-        for suffix in ("", "-process"):
+            elif data.get("prompt"):
+                # A drawing has no source page, so this was recording nothing
+                # for one — and a refused drawing came straight back, because
+                # generate_images.py picks up any recipe without a hero and the
+                # same prompt and seed produce the same file. Forty-two of one
+                # run's forty-six were byte-identical redraws of images already
+                # refused. Recording the prompt gives the generator something
+                # to check, and says what was asked for as well as what was
+                # wrong with the answer.
+                rejects.setdefault(slug, []).append(
+                    {"illustration": True, "model": data.get("model", ""),
+                     "prompt": data["prompt"], "why": why})
+        # Refuse only what was actually being reviewed.
+        #
+        # This used to clear both kinds and delete both files whatever the
+        # pending entry held, which is destructive whenever a recipe has one
+        # published shot and another under review: refusing a hero candidate
+        # for tofu-edamame-stir-fry deleted the CC BY-SA process photograph
+        # that had been on the site for months, manifest record and files
+        # alike, and nothing said so. Rare enough to survive several runs —
+        # it needs a slug with a published process shot and no hero — and
+        # silent when it happens, because a missing image looks exactly like
+        # a recipe that never had one.
+        published = manifest.get(slug) or {}
+        kinds = [k for k in ("hero", "process") if entry.get(k)]
+        manifest[slug] = {k: (None if k in kinds else published.get(k))
+                          for k in ("hero", "process")}
+        for kind in kinds:
+            suffix = "" if kind == "hero" else "-process"
             for ext in ("jpg", "webp"):
                 path = os.path.join(IMG_DIR, f"{slug}{suffix}.{ext}")
                 if os.path.exists(path):

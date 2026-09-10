@@ -4,10 +4,11 @@
     "Keyed by slug; each entry names the archive page so the fetcher can refuse",
     "that exact file and go on to the next candidate. Without this a rejected",
     "image is simply re-fetched on the next run, because the search that found",
-    "it the first time is deterministic \u2014 which is how warak-enab acquired the",
+    "it the first time is deterministic — which is how warak-enab acquired the",
     "same photograph of grape vines twice.",
     "Reasons are kept because they are the only record of why an image is not",
-    "on the site, and the alternative is rejecting it again in six months."
+    "on the site, and the alternative is rejecting it again in six months.",
+    "Entries with \"illustration\": true are generated pictures that were drawn, looked at and refused. They carry the prompt rather than a source page, because there is no archive file behind them — and they exist so tools/generate_images.py does not draw them again: the same prompt and seed return the same picture, and without this record a refused drawing came straight back on the next run."
   ],
   "warak-enab": [
     {
@@ -31,6 +32,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Fatayer.jpg",
       "why": "a fatayer, but filled with minced meat; this recipe is the spinach one"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Triangular spinach pies, sharp with sumac and lemon, sealed so they hold their shape, The filling is never cooked first — it wilts inside the pastry, made with fast-action dried yeast, spinach, onion, sumac, lemon juice, a Lebanese dish called Spinach Fatayer, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "freekeh-djaj": [
@@ -51,6 +58,12 @@
     {
       "page": "https://www.flickr.com/photos/53556079@N05/23532091320",
       "why": "people standing under a shelter"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A soft flat village loaf, dimpled with the fingers and baked with olive oil and a scatter of sesame, Larger and thicker than khubz, and it does not puff, made with fast-action dried yeast, sesame seeds, a Lebanese dish called Talami, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "sfouf": [
@@ -139,18 +152,36 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Ginza_Restaurant_Renga_tei_(02).jpg",
       "why": "the Rengatei restaurant in Ginza, matched on its name"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Smoked herring flaked and dressed with lemon, oil and raw onion, eaten at Sham el-Nessim with spring onions and bread, Powerfully strong and completely uncompromising, made with smoked herring fillets, onion, lemon juice, ground cumin, chilli flakes, a Egyptian dish called Renga, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "aish-baladi": [
     {
       "page": "https://www.flickr.com/photos/75062596@N00/52708814729",
       "why": "a bread delivery seen from a bicycle, no bread visible"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "The wholemeal country loaf, baked on a bed of bran at a ferocious heat so it puffs into a hollow disc, The bread the word aish — life — actually refers to, made with fast-action dried yeast, coarse bran, a Egyptian dish called Aish Baladi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "eish-merahrah": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Eish_baladi.jpg",
       "why": "titled Eish baladi and is that bread, which is a separate recipe here"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A flat wholemeal loaf enriched with ground fenugreek and maize, from the villages of Upper Egypt, Bitter, nutty and quite unlike any other bread here, made with ground fenugreek, fast-action dried yeast, a Egyptian dish called Eish Merahrah, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "om-ali": [
@@ -169,12 +200,24 @@
     {
       "page": "https://www.flickr.com/photos/8721758@N06/14613586998",
       "why": "the central dome of the Mosque of Muhammad Ali"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Torn pastry baked in sweetened milk with nuts and coconut until the top blisters and the bottom turns to custard, made with puff pastry, litre whole milk, double cream, vanilla extract, flaked almonds, a Egyptian dish called Om Ali, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "qatayef": [
     {
       "page": "https://www.flickr.com/photos/79707490@N00/2875204562",
       "why": "an open oven with foil in it, the qatayef not visible"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "One-sided pancakes stuffed with nuts and cinnamon, pinched shut and fried, then dropped into syrup, The Ramadan sweet, sold by the kilo from stalls after sunset, made with fine semolina, baking powder, fast-action dried yeast, walnuts, ground cinnamon, a Egyptian dish called Qatayef Mahshi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "sobia": [
@@ -227,6 +270,12 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=136271435",
       "why": "a hedge in a field"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Green lentils dressed hot with mustard vinaigrette and shallot, Puy lentils if you can, because they hold their shape and most others do not, made with Puy lentils, onion, bay leaves, carrot, Dijon mustard, a French dish called Salade de Lentilles, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "tapenade": [
@@ -241,6 +290,12 @@
     {
       "page": "https://www.flickr.com/photos/25977089@N00/20077593219",
       "why": "titled California olive tapenade but shows tomato and basil toasts"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Black olives, capers, anchovy and garlic pounded to a rough paste, made with black olives, capers, garlic cloves, Dijon mustard, lemon juice, a French dish called Tapenade, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "anchoiade": [
@@ -293,6 +348,12 @@
     {
       "page": "https://www.rawpixel.com/image/7459137/image-person-art-public-domain",
       "why": "an engraving of Louis XIV bestowing the Cordon Bleu, the order of knighthood"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chicken breast wrapped around ham and cheese, breaded and fried, Swiss in origin, French in execution, and the seal is the only difficult part, made with chicken breasts, slices cooked ham, Gruyère, Dijon mustard, eggs, a French dish called Cordon Bleu, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "bar-en-croute-de-sel": [
@@ -327,6 +388,12 @@
     {
       "page": "https://www.flickr.com/photos/187878392@N04/51480654241",
       "why": "a plated fillet on beurre blanc, not a whole sea bass baked in a salt crust"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A whole fish buried in salt bound with egg white and baked, The crust sets hard, seals completely, and the fish steams in its own moisture, made with sea bass, egg whites, fennel seeds, lemon, thyme sprigs, a French dish called Bar en Croûte de Sel, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bare fillet on a plate with no salt crust anywhere"
     }
   ],
   "fondue-savoyarde": [
@@ -401,6 +468,12 @@
     {
       "page": "https://www.flickr.com/photos/61672163@N00/48811051818",
       "why": "cyclists on a road, the bicycle race rather than the pastry named after it"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A ring of choux split and filled with praline mousseline, made for a bicycle race and shaped like a wheel, The praline is the whole dish, made with whole milk, eggs, egg, flaked almonds, hazelnuts, a French dish called Paris-Brest, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth yellow stack, not a ring of choux split and filled with praline cream"
     }
   ],
   "saint-honore": [
@@ -435,6 +508,12 @@
     {
       "page": "https://www.flickr.com/photos/98899298@N00/1449216482",
       "why": "a row of high-rise towers"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Puff pastry base, choux buns dipped in caramel, and piped crème chiboust between them, made with puff pastry, eggs, whole milk, egg yolks, cornflour, a French dish called Saint-Honoré, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "opera": [
@@ -475,6 +554,12 @@
     {
       "page": "https://www.flickr.com/photos/85825630@N00/5994942899",
       "why": "a photograph of the mountain rather than the chestnut dessert named after it"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chestnut purée pushed through a ricer into vermicelli over meringue and cream, made to look like the mountain, Piped last, and eaten quickly, made with egg whites, white wine vinegar, cornflour, sweetened chestnut purée, chestnut spread, a French dish called Mont-Blanc, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a white ridged cone with no chestnut vermicelli on it at all"
     }
   ],
   "pithiviers": [
@@ -513,6 +598,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pithiviers_de_faisan.jpg",
       "why": "a savoury meat pie in jus, while this recipe is the sweet almond frangipane pithiviers"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Almond cream sealed between two discs of puff pastry, the top scored in curves from the centre, made with ground almonds, eggs, dark rum, vanilla extract, egg, a French dish called Pithiviers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a small plain round, where the pie is large and scored across the top"
     }
   ],
   "financiers": [
@@ -535,6 +626,12 @@
     {
       "page": "https://www.flickr.com/photos/28531775@N06/4419960933",
       "why": "the wrapper of an almond and coconut chocolate bar"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Small almond cakes made with brown butter and egg whites, baked hot so the edges crisp, Named for the gold-bar shape and the district that ate them, made with ground almonds, egg whites, vanilla extract, a French dish called Financiers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "round biscuits, and the little almond cakes are rectangular"
     }
   ],
   "palmiers": [
@@ -545,6 +642,12 @@
     {
       "page": "https://www.flickr.com/photos/34409164@N06/8539704393",
       "why": "a silhouetted figure in front of a domed building"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Puff pastry rolled in sugar, folded into a heart and baked until the sugar caramelises on both faces, Three ingredients, one of which is optional, made with ground cinnamon, a French dish called Palmiers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "one small plain pastry, and palmiers are heart-shaped"
     }
   ],
   "bagna-cauda": [
@@ -571,6 +674,12 @@
     {
       "page": "https://www.flickr.com/photos/68147320@N02/14216614213",
       "why": "a modernist plated dish with sauce dots, not the warm anchovy and garlic dip served with raw vegetables"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A hot bath of anchovy, garlic and oil kept warm at the table for dipping raw vegetables into, made with garlic cloves, whole milk, Raw cardoon, Boiled new potatoes, Grissini, a Italian dish called Bagna Cauda, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pan of vegetable soup, not the warm anchovy dip with raw vegetables round it"
     }
   ],
   "sarde-in-saor": [
@@ -613,6 +722,12 @@
     {
       "page": "https://www.flickr.com/photos/22118036@N00/109760988",
       "why": "raw courgette flowers on a cloth, the ingredient rather than the stuffed and fried dish"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Courgette flowers filled with ricotta and mozzarella, dipped in a thin batter and fried, made with courgette flowers, ricotta, mozzarella, Parmigiano Reggiano, basil leaves, a Italian dish called Fiori di Zucca Fritti, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a potted plant on a windowsill"
     }
   ],
   "suppli": [
@@ -645,6 +760,12 @@
     {
       "page": "https://www.flickr.com/photos/54549113@N00/36166362821",
       "why": "a tart"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hard vegetables blanched and packed under vinegar and oil, Every Italian household has a jar and no two agree on what goes in it, made with white wine vinegar, carrots, cauliflower, celery sticks, red peppers, a Italian dish called Giardiniera, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "whole tomatoes on a windowsill, not vegetables cut and pickled"
     }
   ],
   "pici-cacio-e-pepe": [
@@ -673,6 +794,12 @@
     {
       "page": "https://www.flickr.com/photos/63962238@N08/17939726423",
       "why": "a painted coat of arms, Farinata degli Uberti rather than the chickpea pancake"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A chickpea flour pancake baked screaming hot in a copper pan until the top blisters, Genoa eats it standing up, with pepper, out of paper, made with sprig rosemary, a Italian dish called Farinata, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a stack of thick pancakes, where farinata is one thin chickpea flatbread"
     }
   ],
   "pandoro": [
@@ -739,6 +866,12 @@
     {
       "page": "https://www.flickr.com/photos/187878392@N04/51479878767",
       "why": "a plated fish course"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Four ingredients, twenty minutes on the stove, and better than almost anything more complicated, The soup to know by heart, made with leeks, floury potatoes, litre vegetable stock, double cream, chives, a British dish called Leek and Potato Soup, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a potted plant, with the soup a smudge behind it"
     }
   ],
   "oxtail-soup": [
@@ -761,6 +894,12 @@
     {
       "page": "https://www.flickr.com/photos/77324941@N00/6887704874",
       "why": "a pale Chinese soup with vegetables, not the dark brown broth with oxtail segments"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Four hours of oxtail reduced to something almost black, thickened by nothing but its own gelatine, The best use of the cheapest cut there is, made with oxtail, onions, carrots, celery sticks, tomato purée, a British dish called Oxtail Soup, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a glossy red lump, not a dark brown broth"
     }
   ],
   "sausage-rolls": [
@@ -819,6 +958,12 @@
     {
       "page": "https://www.flickr.com/photos/7927684@N03/4880300393",
       "why": "a hot dog in a bun with yellow relish"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Small onions in spiced malt vinegar, sharp enough to make your eyes water, Six weeks in the jar and they will keep for a year, made with litres malt vinegar, black peppercorns, yellow mustard seeds, coriander seeds, allspice berries, a British dish called Pickled Onions, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a jar of orange pulp rather than small whole onions in dark vinegar"
     }
   ],
   "cumberland-sauce": [
@@ -867,6 +1012,12 @@
     {
       "page": "https://www.flickr.com/photos/53499099@N00/46779063185",
       "why": "a puff pastry pie with a pie funnel, which is the pie and not the steamed suet-crust pudding"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Suet pastry lining a basin, filled with beef and kidney and steamed for four hours until the crust is translucent, Nothing else in British cooking is quite like it, made with shredded beef suet, beef chuck, ox or lamb kidney, onion, Worcestershire sauce, a British dish called Steak and Kidney Pudding, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a red dome in a bowl, not a suet crust turned out"
     }
   ],
   "devilled-kidneys": [
@@ -927,6 +1078,12 @@
     {
       "page": "https://www.flickr.com/photos/78835633@N00/15739034931",
       "why": "a gammon tagine with pomegranate and parsley couscous"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A gammon joint boiled in cider with a white sauce full of parsley, Old-fashioned in the best way and the source of a week of sandwiches, made with unsmoked gammon joint, dry cider, onion, carrots, bay leaves, a British dish called Gammon with Parsley Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an orange gourd, and neither gammon nor parsley sauce"
     }
   ],
   "mushy-peas": [
@@ -1025,6 +1182,12 @@
     {
       "page": "https://www.flickr.com/photos/10559879@N00/3241989257",
       "why": "a radicchio and nut salad"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hard cheese beaten with butter, mace and port and sealed under more butter, Eighteenth-century, requires no cooking, and outclasses every shop-bought cheese spread ever made, made with mature cheddar, ruby port or dry sherry, English mustard, ground mace, a British dish called Potted Cheese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a wedge of hard cheese, not cheese beaten to a paste and potted"
     }
   ],
   "cucumber-sandwiches": [
@@ -1063,6 +1226,12 @@
     {
       "page": "https://www.flickr.com/photos/10559879@N00/2478451116",
       "why": "a lemon tart from a bakery called Queen of Tarts"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A custard set over breadcrumbs, spread with warm jam and finished with meringue, Three separate puddings stacked on top of each other, from the eighteenth century, made with whole milk, Zest of 2 lemons, fresh white breadcrumbs, egg yolks, raspberry jam, a British dish called Queen of Puddings, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "served in a sundae glass, without the baked custard and jam beneath"
     }
   ],
   "dundee-cake": [
@@ -1081,6 +1250,12 @@
     {
       "page": "https://www.flickr.com/photos/72604641@N00/10729564165",
       "why": "ramekins of something on a baking tray, not a round fruit cake ringed with almonds"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A light fruit cake with almonds arranged in rings on top, and no cherries in it at all, Made with Seville orange peel, which is what makes it Dundee, made with Zest of 1 orange, Zest of 1 lemon, eggs, baking powder, ground almonds, a Scottish dish called Dundee Cake, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain round cake with no ring of almonds on top"
     }
   ],
   "jianbing": [
@@ -1119,6 +1294,12 @@
     {
       "page": "https://www.flickr.com/photos/97844767@N00/4702512619",
       "why": "breaded fried pieces with rice, not the rolled cheese-filled pastry cigars"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cigarettes of filo around salty white cheese, fried until they blister, The cheese has to be one that softens without running, or they burst, made with akkawi cheese, sheets filo pastry, mint leaves, egg, a Lebanese dish called Cheese Rakakat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "loubieh-bzeit": [
@@ -1155,6 +1336,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:%D8%B4%D9%8A%D8%B4_%D8%A8%D8%B1%D9%83_%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A.jpg",
       "why": "titled shish barak, which is a different dumpling dish and a separate recipe here"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Kibbeh balls poached in a stabilised yogurt sauce with garlic and dried mint, made with fine bulgur wheat, lean lamb, onion, ground allspice, full-fat plain yogurt, a Lebanese dish called Kibbeh Labaniyeh, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "samke-harra": [
@@ -1273,6 +1460,12 @@
     {
       "page": "https://www.flickr.com/photos/41894154569@N01/3337312355",
       "why": "a large Eastern European cabbage roll with pierogi in cream sauce, not the tight Levantine rolls packed in layers"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cabbage leaves rolled tight around rice and lamb, packed in layers with garlic and dried mint, The winter cousin of stuffed vine leaves and, made properly, better, made with white cabbage, short-grain rice, lamb mince, ground allspice, ground cinnamon, a Lebanese dish called Malfouf Mahshi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "kaak-bil-simsim": [
@@ -1319,12 +1512,24 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Ugali_(stiff_porridge),Anchovy_(dagaa,_Cooked_beans_(maharagwe)_and_bamia_(okra).jpg",
       "why": "a Tanzanian plate of ugali, dagaa and beans"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "made with lamb shoulder, small okra, onions, tin chopped tomatoes, tomato purée, a Egyptian dish called Bamia Masreya, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "mahshi-cromb": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B4%D9%8A_%D9%83%D8%B1%D9%86%D8%A8.jpg",
       "why": "filed under the right Arabic name but shows a woman at a cooking pot"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cabbage leaves rolled thin around a herb-heavy rice filling with no meat in it, packed flat and cooked in tomato, made with white cabbage, short-grain rice, onions, tomatoes, dill, a Egyptian dish called Mahshi Cromb, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "batarekh": [
@@ -1373,6 +1578,12 @@
     {
       "page": "https://www.flickr.com/photos/75921150@N00/4537346253",
       "why": "chicken chilli served with the carrot salad as a side"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Carrots boiled soft, crushed with harissa, garlic and caraway, and eaten cold with bread, made with carrots, garlic cloves, harissa, ground caraway, ground coriander, a Tunisian dish called Omek Houria, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
     }
   ],
   "bang-bang-chicken": [
@@ -1409,6 +1620,12 @@
     {
       "page": "https://www.flickr.com/photos/88123769@N02/9065303620",
       "why": "the Hong Kong skyline"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Pork wontons under a slick of red chilli oil, black vinegar and garlic, made with minced pork, ginger, spring onions, light soy sauce, Shaoxing wine, a Chinese dish called Red Oil Wontons, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "bare dumplings with none of the chilli oil the dish is named for"
     }
   ],
   "white-cut-chicken": [
@@ -1835,6 +2052,366 @@
     {
       "page": "https://www.flickr.com/photos/150938310@N02/35171818264",
       "why": "a family photographed outside a green-gabled house"
+    }
+  ],
+  "aioli": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Garlic pounded to a cream and emulsified with olive oil, sometimes with a yolk to help it, Provence eats it with boiled vegetables, salt cod and eggs, made with garlic cloves, egg yolks, lemon juice, Boiled new potatoes, Green beans, a French dish called Aïoli, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "assidat-zgougou": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A dark pudding made from Aleppo pine seed, layered with cream and nuts, Made for the Prophet’s birthday, tastes of nothing else, and takes real work to get right, made with zgougou, cornflour, whole milk, vanilla extract, pistachios, a Tunisian dish called Assidat Zgougou, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "beetroot-feta-salad": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Beetroot roasted in foil so it steams in its own juice, dressed while warm, and served against orange, feta and dill, The colours are absurd and the sweetness is real rather than added, made with raw beetroot, red wine vinegar, runny honey, Dijon mustard, oranges, a Australian dish called Beetroot, Orange and Feta Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "betengan-mekhalel": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Small aubergines boiled, stuffed with garlic, chilli and pepper, and kept under oil and vinegar, Sharper and hotter than the Levantine makdous, and made without walnuts, made with small aubergines, garlic cloves, red chillies, ground coriander, white wine vinegar, a Egyptian dish called Betengan Mekhalel, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "brandade-de-morue": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Salt cod beaten with potato, garlic, oil and milk into a warm purée, made with floury potatoes, garlic cloves, whole milk, lemon juice, ground nutmeg, a French dish called Brandade de Morue, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "bread-sauce": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Milk infused with onion, clove and bay, then thickened with nothing but breadcrumbs, Older than gravy, better than it sounds, and the thing that makes a plate of roast turkey worth eating, made with whole milk, onion, cloves, bay leaves, black peppercorns, a British dish called Bread Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "chicken-and-leek-pie": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Poached chicken and slow-cooked leeks under a proper pastry lid, in a sauce made from the poaching liquid, A pie whose filling was designed rather than assembled, made with chicken thighs and 2 breasts, onion, bay leaves, peppercorns, leeks, a British dish called Chicken and Leek Pie, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a yellow custard tart with onions on it, not a pastry pie of chicken and leek"
+    }
+  ],
+  "choucroute": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Sauerkraut cooked in riesling with a collection of pork and sausages piled on top, made with jarred sauerkraut, goose fat or lard, onions, dry riesling, chicken stock, a French dish called Choucroute Garnie, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "couscous-tunisien": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Lamb and vegetables in a red harissa broth, with the couscous steamed over the pot so it takes the vapour, The Friday dish, and the one that repays doing properly, made with lamb shoulder, onions, tomato purée, harissa, ground coriander, a Tunisian dish called Couscous Tunisien, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "daube-provencale": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Beef marinated in red wine with orange peel and cooked for three and a half hours, Provence rather than Burgundy — olives, orange and no bacon, made with beef shin or cheek, red wine, onions, carrots, garlic cloves, a French dish called Daube Provençale, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "dukkah": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Toasted nuts, seeds and spices pounded to a dry rubble, eaten by dipping bread in oil and then in the dukkah, Every family has its proportions and considers the others wrong, made with hazelnuts, sesame seeds, coriander seeds, cumin seeds, fennel seeds, a Egyptian dish called Dukkah, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "ftair": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Rings of yeasted dough fried until they blister and puffed hollow, then dusted with sugar, Breakfast, and best eaten within about four minutes of leaving the oil, made with fine semolina, fast-action dried yeast, a Tunisian dish called Ftair, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "green-goddess-salad": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Everything chopped to the size of a pea and bound in a herb dressing thick enough to cling, eaten with a spoon or a chip, made with ripe avocado, basil leaves, chives, flat-leaf parsley, cashews, a American dish called Green Goddess Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "karjalanpaisti": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Three meats, an onion, some peppercorns and water, in a low oven for three and a half hours, made with pork shoulder, beef chuck, lamb shoulder, onions, carrots, a Finnish dish called Karelian Hot Pot, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "kibbeh-bil-sanieh": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Two layers of bulgur and lamb around a middle of spiced mince and pine nuts, scored into diamonds and baked, made with fine bulgur wheat, lean lamb, onion, ground allspice, ground cinnamon, a Lebanese dish called Kibbeh bil Sanieh, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "kousa-bil-laban": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Stuffed courgettes finished in the garlic and mint yogurt rather than tomato, made with pale courgettes, short-grain rice, lamb mince, ground allspice, full-fat plain yogurt, a Lebanese dish called Kousa bil Laban, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "madfouna": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Lamb and chard buried under a lid of dough and baked, so the meat steams in its own juices, Madfouna means buried, and that is precisely the method, made with lamb shoulder, chard, onions, tomato purée, harissa, a Tunisian dish called Madfouna, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "pain-au-chocolat": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Laminated dough rolled around two batons of chocolate, The same dough as a croissant, and the same single problem: keeping the butter cold, made with fast-action dried yeast, cold whole milk, chocolate batons, egg, a French dish called Pain au Chocolat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "pain-aux-noix": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A dense walnut loaf that turns faintly purple where the nuts touch the crumb, Made for cheese and very little else, made with fast-action dried yeast, honey, walnut halves, a French dish called Pain aux Noix, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "quenelles-de-brochet": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Pike beaten with choux paste into weightless dumplings, poached and baked in a crayfish sauce, Lyon, and one of the last genuinely difficult things in the French repertoire, made with whole milk, eggs, egg whites, double cream, ground nutmeg, a French dish called Quenelles de Brochet, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "sayadeya-masreya": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "The Egyptian fisherman’s rice: fish fried rather than poached, rice cooked in the frying oil and stock, and the whole thing heavy with cumin, made with firm white fish fillets, ground cumin, onions, short-grain rice, ground turmeric, a Egyptian dish called Sayadeya Masreya, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "scallion-oil-noodles": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Shanghai’s cong you ban mian: spring onions fried slowly in oil until they are dark and brittle, the oil they leave behind stirred with soy and sugar, and noodles tossed through it, Four ingredients, thirty minutes, and one of the best bowls of noodles there is, made with dried thin wheat noodles, spring onions, light soy sauce, dark soy sauce, a Chinese dish called Scallion Oil Noodles, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "smashed-chickpea-sandwich": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chickpeas crushed with tahini, lemon and capers into something with the texture of a tuna mayo but none of the fish, Twelve minutes, no cooking, and it holds up in a lunchbox, made with x 400 g tins chickpeas, tahini, lemon juice, Dijon mustard, capers, a American dish called Smashed Chickpea Sandwich, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "sweet-potato-casserole": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Roasted rather than boiled sweet potatoes, so the sugars concentrate instead of leaching into the water, under a pecan streusel rather than marshmallows, Sweet, but not a pudding pretending to be a side, made with sweet potatoes, eggs, whole milk, vanilla extract, ground cinnamon, a American dish called Sweet Potato Casserole, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "taameya": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Egypt's falafel, and a genuinely different thing from the Levantine one: split broad beans rather than chickpeas, a third more herbs, and a green interior that startles people who slice one open, made with dried split broad beans, onion, garlic cloves, coriander leaves and stems, flat-leaf parsley, a Egyptian dish called Ta'ameya, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "tofu-edamame-stir-fry": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Firm tofu pressed, cornflour-crusted and fried hard, then tossed with edamame and greens in a garlic-ginger sauce, Vegan, and 42 g of protein a serving, made with extra-firm tofu, cornflour, frozen edamame, tenderstem broccoli, spring onions, a Chinese dish called Tofu and Edamame Stir-Fry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an identical redraw of the picture already refused for this dish"
+    }
+  ],
+  "anelletti-al-forno": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Little pasta rings baked with ragù, peas and cheese into something you can cut in slices, Palermo eats it at room temperature on the beach, made with anelletti, beef mince, onion, red wine, tomato purée, a Italian dish called Anelletti al Forno, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain looped pasta with none of the ragu it is baked in"
+    }
+  ],
+  "angels-on-horseback": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Oysters in bacon, grilled hot and eaten on toast, The other half of the Victorian savoury pair, and much older than its devilish twin, made with oysters, rashers streaky bacon, slices bread, lemon, flat-leaf parsley, a British dish called Angels on Horseback, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a stack of pancakes, not oysters wrapped in bacon on toast"
+    }
+  ],
+  "baba-au-rhum": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A yeasted sponge soaked until it is saturated with rum syrup, made with fast-action dried yeast, eggs, warm milk, vanilla pod, strips orange peel, a French dish called Baba au Rhum, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale dome, where the cake is dark and soaked in syrup"
+    }
+  ],
+  "baba-napoletano": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A yeasted mushroom-shaped cake soaked in rum syrup until it is heavy in the hand, Naples took it from Poland by way of France and refused to give it back, made with fast-action yeast, eggs, whole milk, strip lemon peel, strip orange peel, a Italian dish called Babà Napoletano, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a slice of plain yellow cake rather than the tall mushroom-shaped baba"
+    }
+  ],
+  "bubble-and-squeak": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cold mash and cold greens pressed into a pan and fried until a crust forms on both sides, Named for the noise it makes doing it, made with cold mashed potato, cooked cabbage, onion, grated nutmeg, a British dish called Bubble and Squeak, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain mashed potato, neither fried brown nor mixed with cabbage"
+    }
+  ],
+  "cacciucco": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Livorno's fish stew, with five kinds of fish for the five Cs in its name, over garlic-rubbed bread, Poor food that became expensive, made with octopus or squid, red mullet fillets, mussels, raw prawns, Fish heads and bones, a Italian dish called Cacciucco, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale broth, where the Tuscan fish stew is deep red with tomato"
+    }
+  ],
+  "colomba": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "The Easter dove: the same enriched dough as panettone, shaped into wings and armoured in almond crust and pearl sugar, Two days of work, made with fast-action yeast, egg yolks, whole milk, vanilla extract, Zest of 2 oranges, a Italian dish called Colomba Pasquale, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain dome, not the dove shape with almonds and sugar crust"
+    }
+  ],
+  "creme-caramel": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Baked custard turned out so the caramel runs down it, The caramel goes into the moulds first and dissolves into a sauce while it chills, made with whole milk, double cream, vanilla pod, eggs, egg yolks, a French dish called Crème Caramel, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "loose custard in a bowl rather than a set custard turned out under its caramel"
+    }
+  ],
+  "fregola": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Toasted Sardinian pasta pearls cooked like a risotto with clams, The toasting is what separates fregola from couscous, made with fregola sarda, clams, garlic cloves, dried chilli, dry white wine, a Italian dish called Fregola con Arselle, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain grains with no clams and no tomato"
+    }
+  ],
+  "involtini-di-manzo": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thin beef rolled around cheese, parsley and garlic, then braised in tomato until it can be cut with a spoon, made with breadcrumbs, Pecorino Romano, flat-leaf parsley, garlic cloves, pine nuts, a Italian dish called Involtini di Manzo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a yellow tart, not beef rolled round a filling"
+    }
+  ],
+  "london-particular": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A ham hock, a bag of split peas and almost nothing else, made with green split peas, smoked ham hock, onions, carrots, celery sticks, a British dish called London Particular, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pink and lumpy, where the split pea and ham soup is thick and green"
+    }
+  ],
+  "lotte-a-l-armoricaine": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Monkfish in a sauce of tomato, brandy and shellfish stock, Armoricaine after Brittany, though half of France still calls it américaine and argues about it, made with monkfish tail, onions, carrots, garlic cloves, brandy, a French dish called Lotte à l'Armoricaine, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale swirl with one prawn, not monkfish in tomato and brandy"
+    }
+  ],
+  "moules-frites": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Mussels steamed open in white wine with shallots, and chips fried twice, The mussel liquor is the sauce and should not be thickened, made with floury potatoes, mussels, shallots, garlic cloves, celery sticks, a French dish called Moules Frites, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "the chips arrived and the mussels did not"
+    }
+  ],
+  "mulligatawny": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Two hundred years of drift later, this is where it landed, made with chicken thighs, onions, garlic cloves, ginger, mild curry powder, a British dish called Mulligatawny Soup, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "reads as a pot of beans rather than a curried soup"
+    }
+  ],
+  "parmigiana-bianca": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Aubergine parmigiana with no tomato at all — just béchamel, basil and two cheeses, Lighter than it sounds and much harder to stop eating, made with aubergines, whole milk, grated nutmeg, mozzarella, Parmigiano Reggiano, a Italian dish called Parmigiana Bianca, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth baked disc with none of the layering visible"
+    }
+  ],
+  "risotto-ai-funghi": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Rice cooked in mushroom stock made from the soaking water of dried porcini, That water is the flavour and pouring it away is the common mistake, made with dried porcini, arborio or carnaroli rice, fresh mushrooms, onion, dry white wine, a Italian dish called Risotto ai Funghi Porcini, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a moulded disc of rice with no mushrooms in it"
+    }
+  ],
+  "saucisson-brioche": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A poaching sausage baked inside brioche, Lyon, and the trick is that the sausage is cooked and cooled before it is wrapped, made with fast-action dried yeast, eggs, whole milk, bay leaves, onion, a French dish called Saucisson en Brioche, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain loaf with no sausage through the middle"
+    }
+  ],
+  "sbrisolona": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A cake you break rather than cut, sandy with cornmeal and almonds, Mantua has made it since the Gonzagas and it has never needed changing, made with coarse cornmeal or polenta, whole almonds, egg yolks, Zest of 1 lemon, vanilla extract, a Italian dish called Torta Sbrisolona, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "smooth and sliceable, where the cake is meant to be too crumbly to cut"
+    }
+  ],
+  "strozzapreti": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hand-rolled twists in a boscaiola of mushrooms, sausage and cream, made with mixed mushrooms, Italian pork sausage, shallots, garlic cloves, dry white wine, a Italian dish called Strozzapreti alla Boscaiola, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "choux buns rather than hand-rolled pasta"
     }
   ]
 }

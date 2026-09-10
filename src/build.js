@@ -821,10 +821,18 @@ function build() {
 
   const html = files.filter(f => f.endsWith('.html'));
   const bytes = files.reduce((total, f) => total + fs.statSync(f).size, 0);
-  const withImages = recipes.filter(r => r.imageData).length;
+  /* Counted apart, because they are not the same thing and this line is the
+     first number anyone reads after a build. Folding the drawings in would
+     have reported "1,069 with photography" on 1,035 photographs. */
+  const { isIllustration } = require('./lib/util');
+  const withPhotos = recipes.filter(r => r.imageData && !isIllustration(r.imageData)).length;
+  const withDrawings = recipes.filter(r => r.imageData && isIllustration(r.imageData)).length;
+  const withImages = withPhotos + withDrawings;
 
   console.log(`Weekly Delight build complete in ${Date.now() - started}ms`);
-  console.log(`  recipes      ${recipes.length} (${withImages} with photography, ${recipes.length - withImages} using gradient placeholders)`);
+  console.log(`  recipes      ${recipes.length} (${withPhotos} photographed`
+    + `${withDrawings ? `, ${withDrawings} illustrated` : ''}`
+    + `, ${recipes.length - withImages} using gradient placeholders)`);
   console.log(`  html pages   ${html.length}`);
   console.log(`  total files  ${files.length}`);
   console.log(`  output size  ${(bytes / 1024 / 1024).toFixed(1)} MB`);

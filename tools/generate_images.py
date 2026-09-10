@@ -30,7 +30,7 @@ drift from what the page says the dish is. Changing the recipe changes the
 prompt.
 """
 
-import argparse, json, os, re, sys, time, urllib.parse, urllib.request, subprocess
+import argparse, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, subprocess
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch_images as F
@@ -155,6 +155,28 @@ def prompt_for(rec):
     return ", ".join(bits)
 
 
+def refused_illustrations():
+    """Slugs whose drawing has already been looked at and refused.
+
+    Without this the generator redraws them: it selects any recipe without a
+    hero, a refusal puts the recipe back to exactly that, and the same prompt
+    and seed return the same picture. One run spent forty-two of its
+    forty-six drawings reproducing images that had already been rejected.
+
+    A refusal is not permanent — the dish is still undrawn, and a different
+    seed is a real second attempt — so --retry ignores this, and moves the
+    seed on so that the attempt is actually different.
+    """
+    path = os.path.join(ROOT, "src", "data", "image-rejects.json")
+    if not os.path.exists(path):
+        return {}
+    raw = json.load(open(path))
+    return {slug: [e for e in entries if e.get("illustration")]
+            for slug, entries in raw.items()
+            if not slug.startswith("_")
+            and any(e.get("illustration") for e in entries)}
+
+
 def fetch(prompt, seed):
     url = (ENDPOINT + urllib.parse.quote(prompt, safe="")
            + f"?width={GEN_W}&height={GEN_H}&nologo=true&model={MODEL}&seed={seed}")
@@ -172,10 +194,17 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--pending", default=PENDING)
     ap.add_argument("--seed", type=int, default=11)
+    ap.add_argument("--retry", action="store_true",
+                    help="redraw dishes whose drawing was refused, with a moved-on seed")
+    ap.add_argument("--pace", type=float, default=3.0,
+                    help="seconds to wait between drawings, to stay under the rate limit")
     args = ap.parse_args()
 
     manifest = json.load(open(MANIFEST)) if os.path.exists(MANIFEST) else {}
     rows = recipes()
+    if args.retry:
+        # Otherwise a retry is the same request and returns the same file.
+        args.seed += 100
 
     if args.slugs:
         want = {s.strip() for s in args.slugs.split(",") if s.strip()}
@@ -186,10 +215,12 @@ def main():
         # which on a rate-limited endpoint is an hour of work thrown away.
         staged = json.load(open(args.pending)) if os.path.exists(args.pending) else {}
         everywhere = json.load(open(PENDING)) if os.path.exists(PENDING) else {}
+        refused = refused_illustrations()
         rows = [r for r in rows
                 if not (manifest.get(r["slug"]) or {}).get("hero")
                 and not (staged.get(r["slug"]) or {}).get("hero")
-                and not (everywhere.get(r["slug"]) or {}).get("hero")]
+                and not (everywhere.get(r["slug"]) or {}).get("hero")
+                and (args.retry or r["slug"] not in refused)]
 
     if args.shard:
         k, n = (int(x) for x in args.shard.split("/"))
@@ -209,20 +240,37 @@ def main():
         slug = rec["slug"]
         prompt = prompt_for(rec)
         log(f"[{i}/{len(rows)}] {slug}")
+        # The endpoint rate-limits hard and then drops the connection. Three
+        # quick tries were not enough: the first run lost all three workers
+        # to a 429 followed by a RemoteDisconnected. Back off properly, treat
+        # a refusal as something to wait out rather than retry into, and let
+        # nothing thrown here end the run — a slug that cannot be drawn is a
+        # slug to skip, not a reason to stop.
         raw = None
-        for attempt in range(3):
+        for attempt in range(5):
             try:
                 raw = fetch(prompt, args.seed + attempt)
                 if raw:
                     break
+                wait = 0
+            except urllib.error.HTTPError as e:
+                log(f"    ! HTTP {e.code}")
+                wait = 60 if e.code == 429 else 5 * (attempt + 1)
             except Exception as e:
                 log(f"    ! {type(e).__name__}: {e}")
-                time.sleep(4 * (attempt + 1))
+                wait = 10 * (attempt + 1)
+            if attempt < 4:
+                time.sleep(wait or 5)
         if not raw:
+            log("    · gave up")
             failed.append(slug)
             continue
 
-        meta = F.process(raw, slug, "", F.HERO_W)
+        try:
+            meta = F.process(raw, slug, "", F.HERO_W)
+        except Exception as e:
+            log(f"    ! could not process: {type(e).__name__}: {e}")
+            meta = None
         if not meta:
             log("    ! unusable once processed")
             failed.append(slug)
@@ -243,6 +291,7 @@ def main():
         pending[slug] = {"hero": meta, "process": None}
         json.dump(pending, open(args.pending, "w"), indent=1, sort_keys=True)
         done += 1
+        time.sleep(args.pace)
 
     log(f"\nillustrated {done}, failed {len(failed)}")
     if failed:

@@ -1441,9 +1441,7 @@
  },
  "beetroot-feta-salad": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the search returns a butter parfait with beetroot, not a beetroot and feta salad"
+  "process": null
  },
  "belgian-frites": {
   "hero": {
@@ -2101,9 +2099,7 @@
  },
  "bread-sauce": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the search returns injera, an Ethiopian flatbread, not British bread sauce"
+  "process": null
  },
  "breakfast-burrito": {
   "hero": {
@@ -4463,10 +4459,22 @@
   "process": null
  },
  "coconut-dal": {
-  "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the only match is a mixed Indian dinner spread in which the dal cannot be made out"
+  "hero": {
+   "author": "",
+   "color": "#9e8566",
+   "file": "coconut-dal",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBsVlBbW6vIQ5fIGaZHbvayie2+YLztBqNbl0mNuQrxZyAw6H2qc3TrvRFVFTkADrXPqnfobXTXmf/Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Sri Lankan parippu: red lentils cooked soft in coconut milk with turmeric, finished with a tempering of mustard seeds, curry leaves and dried chilli poured over at the table, made with red lentils, ground turmeric, onion, garlic cloves, cm fresh ginger, a Sri Lankan dish called Coconut Dal, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Coconut Dal",
+   "w": 800
+  },
+  "process": null
  },
  "coffee-cake": {
   "hero": {
@@ -6936,9 +6944,7 @@
  },
  "green-goddess-salad": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "\"green goddess\" matches costumed avatars and light art, not the salad"
+  "process": null
  },
  "grilled-cheese-sandwich": {
   "hero": {
@@ -11055,10 +11061,22 @@
   "process": null
  },
  "pan-con-pollo": {
-  "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the matches are breaded cutlets and chicken cacciatore, not the Salvadoran sandwich"
+  "hero": {
+   "author": "",
+   "color": "#b38055",
+   "file": "pan-con-pollo",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBtrf8A2eQrcSySN0POTVv+0JI282337B95WOawUkPmfMqt9RWss7LbcKoB4Ix1rile52q1j//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "The Salvadoran chicken sandwich: chicken braised in a relajo of toasted spices, pulled, and piled into a crusty roll with pickled vegetables, radish and watercress, A meal, not a snack, made with dried guajillo chillies, dried pasilla chillies, sesame seeds, pumpkin seeds, cumin seeds, a Salvadoran dish called Pan con Pollo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Pan con Pollo",
+   "w": 800
+  },
+  "process": null
  },
  "pan-con-tomate": {
   "hero": {
@@ -13233,9 +13251,7 @@
  },
  "scallion-oil-noodles": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the match is a foie gras plate garnished with scallion oil, not the noodles"
+  "process": null
  },
  "scallion-pancakes": {
   "hero": {
@@ -13699,14 +13715,25 @@
  },
  "smashed-chickpea-sandwich": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the match is a bowl of mashed chickpeas with no sandwich in it"
+  "process": null
  },
  "smoked-mackerel-pate": {
-  "process": null,
-  "skip": true,
-  "skipReason": "returns Vietnamese crab pate, and whole mackerel rather than the pate"
+  "hero": {
+   "author": "",
+   "color": "#af9f86",
+   "file": "smoked-mackerel-pate",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5bCILGWBO9cg0txEYm3LynUeorNju5IWEIw0Z5ww6fSpGupHZk4Cg9BWNuvQ18j//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Smoked mackerel beaten with cottage cheese, lemon and horseradish into a coarse p\u00e2t\u00e9 \u2014 twelve minutes, no cooking, 37 g of protein and 4 g of carbohydrate, made with smoked mackerel fillets, cottage cheese, full-fat cream cheese, lemon juice, creamed horseradish, a British dish called Smoked Mackerel P\u00e2t\u00e9, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Smoked Mackerel P\u00e2t\u00e9",
+   "w": 800
+  },
+  "process": null
  },
  "smoked-salmon-scrambled-eggs": {
   "hero": {
@@ -14694,9 +14721,7 @@
  },
  "sweet-potato-casserole": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "the match is a stuffed baked sweet potato, not a casserole"
+  "process": null
  },
  "tabbouleh": {
   "hero": {
@@ -15077,6 +15102,7 @@
   "process": null
  },
  "tofu-edamame-stir-fry": {
+  "hero": null,
   "process": {
    "author": "NeoBatfreak",
    "color": "#90978b",
@@ -15089,9 +15115,7 @@
    "source": "Wikimedia Commons",
    "title": "Stir-fry spinach with tofu - Golden white jade and Green Parrot (\u83e0\u83dc\u7092\u8c46\u8150 - \u91d1\u9472\u767d\u7389\u677f\uff0c\u7d05\u5634\u7da0\u9e1a\u54e5)(2)",
    "w": 640
-  },
-  "skip": true,
-  "skipReason": "the one tofu stir-fry the archives hold has pork mince through it, and this recipe is vegan"
+  }
  },
  "tofu-katsu-curry": {
   "hero": {
@@ -16334,7 +16358,21 @@
   "process": null
  },
  "balila": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#92815c",
+   "file": "balila",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAglmsA8KMoSQ4JI4NMtrk6RMjlRJGckMhrGtbiW5mSOZ2dc9zXRyEQW21VBUdmGa5ryUtzZRVj/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Warm chickpeas in their own liquor with cumin, garlic and lemon, made with x 400 g tins chickpeas, garlic cloves, ground cumin, lemon juice, flat-leaf parsley, a Lebanese dish called Balila, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Balila",
+   "w": 800
+  },
   "process": null
  },
  "maghmour": {
@@ -16354,7 +16392,21 @@
   "process": null
  },
  "loubieh-bzeit": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#6f6650",
+   "file": "loubieh-bzeit",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChMraURboxQbQWYcFj9aigvpTOoWaQqTyC2at3f+kaVDcygNIwwfQ0ujWsLq8rIMpyB2rKzuWf/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Green beans braised soft in tomato and olive oil, Not blanched, not crisp \u2014 cooked until they give completely, which is the whole point and the thing people get wrong, made with green beans, onions, garlic cloves, tin chopped tomatoes, tomato pur\u00e9e, a Lebanese dish called Loubieh bi Zeit, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Loubieh bi Zeit",
+   "w": 800
+  },
   "process": null
  },
  "hummus-beiruti": {
@@ -16446,7 +16498,21 @@
   }
  },
  "kafta-bil-sanieh": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#8a6c50",
+   "file": "kafta-bil-sanieh",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCihFnyZNxbIHHboal06OMTK4Z2GcAMfunt9RTbxVW4EW0Mh5APb6VH57QZEQVAjcYH61zvc6Fqj//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Spiced lamb pressed flat into a tray, layered with potato and tomato and baked in one dish, The weeknight answer to a family of six, and the reason every Lebanese kitchen owns a round tray, made with lamb mince, onion, flat-leaf parsley, ground allspice, ground cinnamon, a Lebanese dish called Kafta bil Sanieh, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Kafta bil Sanieh",
+   "w": 800
+  },
   "process": null
  },
  "kibbeh-bil-sanieh": {
@@ -16458,7 +16524,21 @@
   "process": null
  },
  "shish-barak": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#9a8f6e",
+   "file": "shish-barak",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwByW32C22tccyDkgZNNtYH02dZVXzlPQjgg/Ss6yv5pH+zy7ZEX7pYcj8a2La5eQshC7V6CufVM0tc//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Tiny meat dumplings pinched into rings and cooked in the same garlic-and-mint yogurt, Fiddly enough that it is a dish for a day when several people are in the kitchen, made with lamb mince, onion, ground allspice, pine nuts, full-fat plain yogurt, a Lebanese dish called Shish Barak, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Shish Barak",
+   "w": 800
+  },
   "process": null
  },
  "sayadieh": {
@@ -16478,7 +16558,21 @@
   "process": null
  },
  "samke-harra": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#9e845d",
+   "file": "samke-harra",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBkUVvbyeTu+6Pmf39qs53S/KTsAyM1jWt2/mCJ1RwBwWHI/GlnvZdzxrtRR/dHWuVpp3WxutT/2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Whole fish under a tahini, chilli and coriander sauce, from Tripoli, The sauce is loosened with the fish stock and goes on at the very end so it never splits, made with whole sea bass or bream, lemon, tahini, lemon juice, garlic cloves, a Lebanese dish called Samke Harra, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Samke Harra",
+   "w": 800
+  },
   "process": null
  },
  "sfiha-baalbakieh": {
@@ -16526,7 +16620,21 @@
   }
  },
  "riz-a-djaj": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#896f4e",
+   "file": "riz-a-djaj",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCpZl7WNkVgpmG3GM0lss2jzq5HmJgsGTrzWXDdymQBiG29CetatvfzPlDtwo44rmbkmbpRaP/Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Chicken poached with whole spices, its broth used for the rice, the meat pulled and piled back on top with toasted nuts, made with whole chicken, cinnamon sticks, cardamom pods, bay leaves, onion, a Lebanese dish called Riz a Djaj, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Riz a Djaj",
+   "w": 800
+  },
   "process": null
  },
  "freekeh-djaj": {
@@ -16798,7 +16906,21 @@
   "process": null
  },
  "sfouf": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#867b61",
+   "file": "sfouf",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB66p5Vv5Mau25cYH0rO0y+NhOzmNs8jHSqUVzLO6iRyQDwOlak+pyiERmOJl6fMuawvqacuh//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "A yellow semolina cake coloured and flavoured with turmeric, made with oil rather than butter and no eggs at all, Cut into diamonds and eaten with tea, made with fine semolina, ground turmeric, baking powder, tahini, pine nuts, a Lebanese dish called Sfouf, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Sfouf",
+   "w": 800
+  },
   "process": null
  },
  "besara": {
@@ -16862,7 +16984,21 @@
   }
  },
  "roz-mermah": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#8d784f",
+   "file": "roz-mermah",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCC1tYrVdrTFNwxlVyaYbFdMkS6gYzj+HsQaz4buTzDG2GVemeoq5b3cryFTjagyBiublkpXvobXvof/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Egyptian rice, which is short-grain and cooked with broken vermicelli browned in butter first, The default starch under everything else in this volume, made with short-grain rice, vermicelli, a Egyptian dish called Roz Mermah, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Roz Mermah",
+   "w": 800
+  },
   "process": null
  },
  "hawawshi": {
@@ -16882,7 +17018,21 @@
   "process": null
  },
  "fattah": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#846d57",
+   "file": "fattah",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBj6pOtpH5zrH5q9AMnFVrA/Zi0tufMCckd/rWfbXLyAW8qrJGv3dw5H40+a6eINBEqxoeu0cmsdbmulj//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Layers of fried bread, rice and slow-cooked lamb under a sharp garlic and vinegar tomato sauce, The dish of Eid and of every celebration that involves a whole animal, made with lamb on the bone, onions, bay leaves, black peppercorns, cardamom pods, a Egyptian dish called Fattah, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Fattah",
+   "w": 800
+  },
   "process": null
  },
  "renga": {
@@ -17526,7 +17676,21 @@
   "process": null
  },
  "poule-au-pot": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#746654",
+   "file": "poule-au-pot",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCvYa6Utfs8UbklcdvSqOm3b6PeM8iMGIPGKqfa5ZpAz7cjgYGK0Le+ldfLcIyj+8uaybszSysf/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "A whole chicken stuffed and poached with vegetables, the broth served first and the meat after, Henri IV wanted every peasant to have one on a Sunday, made with chicken, stale breadcrumbs, whole milk, bayonne ham or gammon, The chicken liver, a French dish called Poule au Pot, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Poule au Pot",
+   "w": 800
+  },
   "process": null
  },
  "poulet-roti": {
@@ -17934,7 +18098,21 @@
   }
  },
  "epaule-d-agneau-confite": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#766e61",
+   "file": "epaule-d-agneau-confite",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB8Otww2vlIWJK4wF9qx9M1BbG781kfhjxjmqTzvcMvmBTt4GBitKK8f7OcpGdnTK5rO+pfLof/2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Lamb shoulder cooked for seven hours until it can be served with a spoon, No knife on the table, which is the traditional test, made with lamb shoulder on the bone, onions, carrots, head garlic, white wine, a French dish called \u00c9paule d'Agneau de 7 Heures, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "\u00c9paule d'Agneau de 7 Heures",
+   "w": 800
+  },
   "process": null
  },
  "cordon-bleu": {
@@ -17990,11 +18168,39 @@
   }
  },
  "pain-de-campagne": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#888075",
+   "file": "pain-de-campagne",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5Fq1tBG1oS5d8j5R0yKybScaXqO+VSRncMelZNnNJPeCSRiXznNbtxO9vAZBh/wDZcZFRd3LsrH//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "A country loaf of white and wholemeal flour raised with a levain, baked dark, made with active sourdough starter, a French dish called Pain de Campagne, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Pain de Campagne",
+   "w": 800
+  },
   "process": null
  },
  "pan-bagnat": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#9d8362",
+   "file": "pan-bagnat",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBdPvHaSSGFlRGOCSM5qUKmikSINwQFuD1Brl0vJxMXD4Y+grbtJmmhaWbEpC42sMiuduSlc3smj//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "A salade ni\u00e7oise pressed into a round loaf until the bread soaks up the dressing, Bagnat means bathed, and the pressing is not optional, made with round country loaf, garlic cloves, tomato, red wine vinegar, ripe tomatoes, a French dish called Pan Bagnat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Pan Bagnat",
+   "w": 800
+  },
   "process": null
  },
  "paris-brest": {
@@ -18498,7 +18704,21 @@
   "process": null
  },
  "suppli": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#938775",
+   "file": "suppli",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDRkvFtbJ85wwxwPWsW3m/s25R2G7neO3Wsy0vp5nWKVvMTPQ1oanfSxxCJFQKPVc1nZ3L0sf/Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Roman rice croquettes with a piece of mozzarella at the centre that pulls into a thread when you bite it, Suppl\u00ec al telefono, after the phone cord, made with arborio rice, litres chicken stock, onion, beef mince, tomato pur\u00e9e, a Italian dish called Suppl\u00ec, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Suppl\u00ec",
+   "w": 800
+  },
   "process": null
  },
  "giardiniera": {
@@ -19078,7 +19298,21 @@
   }
  },
  "bellini": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#988b77",
+   "file": "bellini",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCxY6vCsfkDzMvxnHHSs6zuE0/UmkYswUnkCl028kF1IxCNu7EcD6Vb1K6eKWN1VOn3SvBrLW5pZH//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "White peach pur\u00e9e and prosecco, in that order and in that proportion, made with ripe white peaches, lemon juice, bottle prosecco, peach schnapps, a Italian dish called Bellini, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Bellini",
+   "w": 800
+  },
   "process": null
  },
  "devils-on-horseback": {
@@ -19362,7 +19596,21 @@
   "process": null
  },
  "sausage-rolls": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#968166",
+   "file": "sausage-rolls",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCXSdSjNkIUYjK4PHSs63nTRLyM7/NHJBUdjUdgvn3bMxI9l4roo4o1hC7FIH94Zrn5mpG3IuU//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Good sausagemeat in butter puff, glazed and seeded, Everything wrong with a shop sausage roll is the pastry, and everything right with a homemade one is the same, made with good pork sausagemeat, apple, onion, dried sage, breadcrumbs, a British dish called Sausage Rolls, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Sausage Rolls",
+   "w": 800
+  },
   "process": null
  },
  "piccalilli": {
@@ -19374,7 +19622,21 @@
   "process": null
  },
  "cumberland-sauce": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#7e6149",
+   "file": "cumberland-sauce",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCFNaItvJWOUlk24A9qoaTefY52kiikcjIO0VUt7iR7lnY5Yc5q3b3Dw27yR4U56Doa57W0N7Kx/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Redcurrant jelly loosened with port and sharpened with orange, mustard and ginger, Cold, clear, and the correct thing with any cold meat, made with oranges, lemon, redcurrant jelly, ruby port, English mustard powder, a British dish called Cumberland Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Cumberland Sauce",
+   "w": 800
+  },
   "process": null
  },
  "cockles-and-laverbread": {
@@ -19446,7 +19708,21 @@
   "process": null
  },
  "roast-pork-crackling": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#8f7056",
+   "file": "roast-pork-crackling",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCpFLNGptzIsZcbcKuTz9adY2k+l3KSxr9oQZPy9RWdDdSzzmSU7nHc1pQajOtvKVKqE6ADg/WuduSZ0Wi0f//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Loin of pork with crackling that shatters, and an apple sauce made sharp rather than sweet, The crackling is not luck; it is dryness and two temperatures, made with pork loin, fennel seeds, onions, dry cider, chicken stock, a British dish called Roast Pork with Crackling, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Roast Pork with Crackling",
+   "w": 800
+  },
   "process": null
  },
  "gammon-parsley-sauce": {
@@ -19490,7 +19766,21 @@
   "process": null
  },
  "pease-pudding": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#9c8759",
+   "file": "pease-pudding",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCTT2SHfBGxHmD58ioYZF0O+wyl4xlgw9DWDHqVysu7eCfcVsJfzTWTyShHIGMFeK5kqindvQ1fK1of/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Yellow split peas boiled to a pur\u00e9e in ham stock and set firm enough to slice, Tyneside eats it cold in a stottie with ham, and is right to, made with yellow split peas, litres ham stock, onion, bay leaf, egg, a British dish called Pease Pudding, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Pease Pudding",
+   "w": 800
+  },
   "process": null
  },
  "laverbread-and-bacon": {
@@ -20162,7 +20452,21 @@
   "process": null
  },
  "fasolia-bi-lahme": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#937852",
+   "file": "fasolia-bi-lahme",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCO6na3PlLJtGME4zmm2lzPaSoUfdGxx0xioYiZ7qeKTkIeD3q3AixzxADPPeuX3lOxvZONz//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "White beans and lamb stewed with tomato and a great deal of garlic and coriander, The everyday winter pot, eaten over rice, made with lamb shoulder, x 400 g tins white beans, onions, garlic cloves, coriander leaves and stems, a Lebanese dish called Fasolia bi Lahme, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Fasolia bi Lahme",
+   "w": 800
+  },
   "process": null
  },
  "malfouf-mahshi": {
@@ -20170,7 +20474,21 @@
   "process": null
  },
  "kaak-bil-simsim": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#6a5f52",
+   "file": "kaak-bil-simsim",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCjpmopbJJGsm0SjGNuc0mnXcekXZkJ3q68Faw7cb5AGJrUvJmtoo1jClem1hkVFtS7n//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "The handbag-shaped sesame bread sold from glass carts on Beirut pavements, split and filled with za\u2019atar or cheese, Crisp outside, hollow, and almost impossible to buy anywhere else, made with fast-action dried yeast, sesame seeds, a Lebanese dish called Ka'ak bil Simsim, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Ka'ak bil Simsim",
+   "w": 800
+  },
   "process": null
  },
  "shorbet-ads": {
@@ -20382,11 +20700,39 @@
   "process": null
  },
  "roz-bel-laban": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#8f897f",
+   "file": "roz-bel-laban",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCz5kS2m0sBnjPpWZBKNCvkMuJUbLhkOMg1Dpcsl4zQzSMUHYcVq3txstxGYonVRgb1zWfPqXyaH//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Rice pudding cooked on the hob until it thickens by itself, with no eggs and no oven, Served cold in glasses with cinnamon and nuts, made with short-grain rice, litre whole milk, cornflour, vanilla extract, ground cinnamon, a Egyptian dish called Roz bel Laban, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Roz bel Laban",
+   "w": 800
+  },
   "process": null
  },
  "slata-tounsia": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#988e73",
+   "file": "slata-tounsia",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCQyPp0AQSkbxk470+xvXMbmLOFywVhgg1mQ3bySfZ5VWSNfu7hyv0NNudQmiYwxBEQDoB1+prGzvc08j//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Tomato, cucumber, pepper and onion cut very small and dressed with olive oil and lemon, The Tunisian cut is finer than anywhere else in the region \u2014 almost a mince, made with firm ripe tomatoes, cucumbers, onion, lemon juice, dried mint, a Tunisian dish called Slata Tounsia, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Slata Tounsia",
+   "w": 800
+  },
   "process": null
  },
  "salade-omek-houria": {
@@ -21266,11 +21612,39 @@
   "process": null
  },
  "kamounia": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#82614c",
+   "file": "kamounia",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDLNlDBGnnS/f8AujHUetS2ULWUxnsn80jgqfQ1X84tP9mkVZI1OV3dV+hp63Twu8cKoiKN2AOp96x1N7qx/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Liver or beef stewed slowly with an aggressive quantity of cumin \u2014 kamoun \u2014 until the sauce is dark and thick, One spice, used at a volume that would be a mistake anywhere else, made with beef shin, onions, garlic cloves, tomato pur\u00e9e, harissa, a Tunisian dish called Kamounia, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Kamounia",
+   "w": 800
+  },
   "process": null
  },
  "the-aux-pignons": {
-  "hero": null,
+  "hero": {
+   "author": "",
+   "color": "#72715d",
+   "file": "the-aux-pignons",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCEz3NoshaYIsowcLmq+lSGwuRIoMvBOF61mW15PJtgkctGT0NaVzdywRsIyAE+UcVnqM//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Green tea boiled hard with mint and sugar and poured over a spoonful of pine nuts sitting in the glass, The nuts soften as you drink and are eaten at the end, made with Chinese gunpowder green tea, bunch fresh mint, pine nuts, a Tunisian dish called Th\u00e9 aux Pignons, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Th\u00e9 aux Pignons",
+   "w": 800
+  },
   "process": null
  },
  "sesame-balls": {
@@ -21303,6 +21677,690 @@
    "source": "Wikimedia Commons",
    "file": "tahina-salad"
   },
+  "process": null
+ },
+ "chorba-frik": {
+  "hero": {
+   "author": "",
+   "color": "#807363",
+   "file": "chorba-frik",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCtZG8srMxvFtWQEjJ6VJdXE08RkADnbtKjqBUF9NI9puLH6dqz7Mt8z7jkds8Vnrcs/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Lamb and freekeh soup thickened by the grain itself, sharpened with harissa and finished with a great deal of parsley, The Ramadan soup across the whole Maghreb, made with lamb shoulder, cracked freekeh, onion, celery sticks, tomato pur\u00e9e, a Tunisian dish called Chorba Frik, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Chorba Frik",
+   "w": 800
+  },
+  "process": null
+ },
+ "doigts-de-fatma": {
+  "hero": {
+   "author": "",
+   "color": "#997f5f",
+   "file": "doigts-de-fatma",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCK2UafG0McjbnHznj8qmsHksAHQeYikttxgjNZokZpvmOSO9W5LySKAbQuOmCM1ze9e5vZWP/Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Fatma's fingers: malsouka pastry rolled around cheese, parsley and meat and fried into crisp cigars, The same pastry as brik, put to a simpler use, made with sheets malsouka pastry, beef mince, onion, ground caraway, ground coriander, a Tunisian dish called Doigts de Fatma, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Doigts de Fatma",
+   "w": 800
+  },
+  "process": null
+ },
+ "endives-au-jambon": {
+  "hero": {
+   "author": "",
+   "color": "#aa967f",
+   "file": "endives-au-jambon",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCxZWQtLcbxtwOc8moZ57adpI5EztXOVFX7pibQSnk45B6Vl27eaJGKqBH8wVRgE+/rWajLnvfQu8eW1tT/2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Chicory braised, wrapped in ham, covered in b\u00e9chamel and baked, The bitterness of the chicory is the point and is usually mishandled, made with heads chicory, lemon juice, slices cooked ham, whole milk, ground nutmeg, a French dish called Endives au Jambon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Endives au Jambon",
+   "w": 800
+  },
+  "process": null
+ },
+ "feteer-meshaltet": {
+  "hero": {
+   "author": "",
+   "color": "#8f7b63",
+   "file": "feteer-meshaltet",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBLfUREjwI23zFweM1Fa3J0e6XeofOWBBx1rGiuJDcKXO45710UVw0lsfMVHUcBWXIrFc3MatKx/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Layered pastry stretched paper-thin, folded with ghee over and over, and baked into something between a pancake and a croissant, Called Egyptian pizza, which undersells it, made with ghee, a Egyptian dish called Feteer Meshaltet, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Feteer Meshaltet",
+   "w": 800
+  },
+  "process": null
+ },
+ "gigot-d-agneau": {
+  "hero": {
+   "author": "",
+   "color": "#887a69",
+   "file": "gigot-d-agneau",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCW21cW8EcTEgsu0AqRk1mWk0ml3vmSxn7xbI96qi4a5lLTKrN64xWlFfSCEptQqB0Izn86xvY05VY//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Leg of lamb studded with garlic and anchovy and roasted pink over potatoes that catch the juices, The anchovy is not detectable as anchovy, made with leg of lamb, garlic cloves, anchovy fillets, rosemary sprigs, waxy potatoes, a French dish called Gigot d'Agneau, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Gigot d'Agneau",
+   "w": 800
+  },
+  "process": null
+ },
+ "gratin-de-courgettes": {
+  "hero": {
+   "author": "",
+   "color": "#93886c",
+   "file": "gratin-de-courgettes",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB81yLcm2WRyMYJUUlu72DrJCvnIOTjgisOK9lMu19r47sOfzq8+qXCoEUIFHtWNnzXvoXfQ//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Courgettes cooked down with rice and bound with egg and cheese, from Provence, The rice is cooked in the courgette liquid, which is the trick, made with courgettes, onions, garlic cloves, long-grain rice, thyme leaves, a French dish called Gratin de Courgettes, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Gratin de Courgettes",
+   "w": 800
+  },
+  "process": null
+ },
+ "hlelem": {
+  "hero": {
+   "author": "",
+   "color": "#796b5a",
+   "file": "hlelem",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCH7Yq2x2gc8D3qjYTy2Fz57xEru3ZFZ8F5LH8nyuvowzW3Y3jyW8iMkezGCu3rWTbRokmf/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "A thick soup of hand-broken noodles, three kinds of bean and a lot of greens, red with harissa, Winter food from the north, and a meal rather than a starter, made with tin chickpeas, tin white beans, dried broad beans, onion, tomato pur\u00e9e, a Tunisian dish called Hlelem, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Hlelem",
+   "w": 800
+  },
+  "process": null
+ },
+ "marqa-hlouwa": {
+  "hero": {
+   "author": "",
+   "color": "#866854",
+   "file": "marqa-hlouwa",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCJ7iTS4njM65kG1gq5/nVbS5fsM6zxgypnPTB6Vlm7kmbE2JPdhzWhY3kg+QBAo5xisG2jdKLP/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Lamb stewed with quince, prunes and cinnamon into something sweet against the harissa, Made for Eid, and the sweetness is meant to be startling, made with lamb shoulder, onions, tomato pur\u00e9e, harissa, cinnamon sticks, a Tunisian dish called Marqa Hlouwa, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Marqa Hlouwa",
+   "w": 800
+  },
+  "process": null
+ },
+ "navarin-printanier": {
+  "hero": {
+   "author": "",
+   "color": "#6d6053",
+   "file": "navarin-printanier",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCF9Sk02Mwoy5kHzAjpVOx1M6fKpCBuSR+NZM9xJLJukbcferulSfvNzKrYHAYcVmXZH//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Lamb braised with the first vegetables of spring, each added at its own moment, The vegetables are the point, not a garnish, made with lamb shoulder, tomato pur\u00e9e, garlic cloves, lamb or chicken stock, bay leaves, a French dish called Navarin d'Agneau, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Navarin d'Agneau",
+   "w": 800
+  },
+  "process": null
+ },
+ "ojja": {
+  "hero": {
+   "author": "",
+   "color": "#8c745d",
+   "file": "ojja",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCpZ295BbhZHCADONuSB7025t5CwKzeb5i9hV65ZnsIrjcQ7j5gOhqouGtJZmALQr8o7flWNpX8jW6sf//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Eggs broken into a fierce harissa and tomato sauce with merguez and left barely set, made with merguez sausages, onion, green peppers, garlic cloves, tomato pur\u00e9e, a Tunisian dish called Ojja, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Ojja",
+   "w": 800
+  },
+  "process": null
+ },
+ "salata-baladi": {
+  "hero": {
+   "author": "",
+   "color": "#8d8466",
+   "file": "salata-baladi",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCwNWW1j8kZ3EYwag0+5Fq7SgFhznHasKe7llc79pz7VcsLhlgkJVW4xhhmsNb3NOU//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "The chopped country salad that arrives with everything: tomato, cucumber, onion and pepper cut small, dressed with lemon and cumin, No lettuce, no oil-heavy dressing, made with ripe tomatoes, cucumbers, onion, flat-leaf parsley, lemon juice, a Egyptian dish called Salata Baladi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Salata Baladi",
+   "w": 800
+  },
+  "process": null
+ },
+ "samsa-tunisienne": {
+  "hero": {
+   "author": "",
+   "color": "#9a876f",
+   "file": "samsa-tunisienne",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwByC4CMjXaxl1xtQckfjUdnbzaaVlhPnIhJKkYYVnxXT+b5TBXCH5SRz+dacN/NJFIp2hUHAA6/WsdU7muh/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Triangles of pastry filled with ground almonds and sesame, fried and soaked in a lemon syrup, Not the Central Asian samsa \u2014 a different dish that shares a name, made with lemon juice, blanched almonds, sesame seeds, ground cinnamon, a Tunisian dish called Samsa, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Samsa",
+   "w": 800
+  },
+  "process": null
+ },
+ "sheikh-el-mahshi": {
+  "hero": {
+   "author": "",
+   "color": "#75624e",
+   "file": "sheikh-el-mahshi",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCpBfyWsTKuMt1H4YqvpEzwXyyRqJHGcL0P61RWVp5d8mC3rWhFcvjaFUbBxgc1i9DWyZ//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Aubergines split, stuffed with lamb and pine nuts, and baked in tomato, The name means \"the chief of stuffed things\", which tells you where it sits at the table, made with aubergines, lamb mince, onions, pine nuts, ground allspice, a Lebanese dish called Sheikh el Mahshi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Sheikh el Mahshi",
+   "w": 800
+  },
+  "process": null
+ },
+ "sole-normande": {
+  "hero": {
+   "author": "",
+   "color": "#8a7d66",
+   "file": "sole-normande",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBtjqX2eFokSQl+w+lVbG7Njcb5I5FYEnpjrVN9WuiwRmQqp4+UCtKy1KafAkWNgvTKVjd3NOVH/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Sole poached in cider and cream with mussels and prawns, Normandy, so cider and cream rather than wine and butter, made with sole fillets, dry cider, shallots, bay leaves, mussels, a French dish called Sole Normande, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Sole Normande",
+   "w": 800
+  },
+  "process": null
+ },
+ "torshi": {
+  "hero": {
+   "author": "",
+   "color": "#a08077",
+   "file": "torshi",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCS5ku3VopWKZ4KL3/E1U01cXoW0Dl0O7bIMVPqbmS9MT/Mq9CetS6fOxmaMAKqLnjqfqayubtR5fM//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "The pink pickled turnips that come free with every plate of ta'ameya in Egypt, Beetroot does the colouring; the turnip does everything else, made with turnips, raw beetroot, garlic cloves, white wine vinegar, coriander seeds, a Egyptian dish called Torshi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Torshi",
+   "w": 800
+  },
+  "process": null
+ },
+ "yakhnet-batata": {
+  "hero": {
+   "author": "",
+   "color": "#76664e",
+   "file": "yakhnet-batata",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwClpd9PaWxjMLgHnPSnXuoyztIzQsQ0YXIwe9VNRkd7dMseKp2rsVZScr1xWK7mtkf/2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Potato and lamb stewed in tomato with coriander and garlic until the potatoes start to break and thicken the pot themselves, The plainest yakhne and the most eaten, made with lamb shoulder, floury potatoes, onions, garlic cloves, coriander, a Lebanese dish called Yakhnet Batata, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Yakhnet Batata",
+   "w": 800
+  },
+  "process": null
+ },
+ "aioli": {
+  "hero": null,
+  "process": null
+ },
+ "assidat-zgougou": {
+  "hero": null,
+  "process": null
+ },
+ "betengan-mekhalel": {
+  "hero": null,
+  "process": null
+ },
+ "brandade-de-morue": {
+  "hero": null,
+  "process": null
+ },
+ "choucroute": {
+  "hero": null,
+  "process": null
+ },
+ "couscous-tunisien": {
+  "hero": null,
+  "process": null
+ },
+ "daube-provencale": {
+  "hero": null,
+  "process": null
+ },
+ "dukkah": {
+  "hero": null,
+  "process": null
+ },
+ "ftair": {
+  "hero": null,
+  "process": null
+ },
+ "kousa-bil-laban": {
+  "hero": null,
+  "process": null
+ },
+ "madfouna": {
+  "hero": null,
+  "process": null
+ },
+ "pain-au-chocolat": {
+  "hero": null,
+  "process": null
+ },
+ "pain-aux-noix": {
+  "hero": null,
+  "process": null
+ },
+ "quenelles-de-brochet": {
+  "hero": null,
+  "process": null
+ },
+ "sayadeya-masreya": {
+  "hero": null,
+  "process": null
+ },
+ "taameya": {
+  "hero": null,
+  "process": null
+ },
+ "amaretti": {
+  "hero": {
+   "author": "",
+   "color": "#928978",
+   "file": "amaretti",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC0NUjtYGG18N1wPaqNheLZSq5Gc8jHvWVbXk1zIIZ23pnvW/dSfZLQNGiNgYAcZArPqXZH/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Soft almond biscuits, cracked across the top and chewy in the middle, Four ingredients, no flour, and better after a day in the tin, made with ground almonds, egg whites, bitter almond extract, amaretto, a Italian dish called Amaretti Morbidi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Amaretti Morbidi",
+   "w": 800
+  },
+  "process": null
+ },
+ "bagnun": {
+  "hero": {
+   "author": "",
+   "color": "#a27c59",
+   "file": "bagnun",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBqWqraJvmbMg6LUcFtc6dIJrNixI4B5zWbY3syyeQSHQHI3dRWtBdyeaUAUAD0rmtJS8jp91x8z//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "A thin anchovy and tomato soup from the Ligurian coast, eaten by fishermen out of the pot with hard biscuit, Half an hour, start to finish, made with fresh anchovies, onion, garlic cloves, dry white wine, ripe tomatoes, a Italian dish called Bagn\u00f9n di Acciughe, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Bagn\u00f9n di Acciughe",
+   "w": 800
+  },
+  "process": null
+ },
+ "entrecote-marchand-de-vin": {
+  "hero": {
+   "author": "",
+   "color": "#70574e",
+   "file": "entrecote-marchand-de-vin",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCnpupizgkT5sSDHAqvpOrR6deF5EZlySMdazWuJGYhiDT4pjGwbYjEf3hms76m1lY//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Sirloin with a red wine and shallot sauce built in the pan the steak came out of, Marchand de vin means wine merchant, who presumably had the wine to spare, made with sirloin steaks, shallots, red wine, beef stock, red wine vinegar, a French dish called Entrec\u00f4te Marchand de Vin, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Entrec\u00f4te Marchand de Vin",
+   "w": 800
+  },
+  "process": null
+ },
+ "grilled-kippers": {
+  "hero": {
+   "author": "",
+   "color": "#a28865",
+   "file": "grilled-kippers",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBtvZKimPzHLHjC1IumtYP51lIxlUE7D1ArFtr2eG5KrISM961oNRna3lcbF2DgAdfrXOlJO9zZ2aP/2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "A split smoked herring under the grill with butter and lemon, Fifteen minutes including the toast, and better than almost any breakfast that takes longer, made with kippers, slices brown bread, lemon, flat-leaf parsley, a British dish called Grilled Kippers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Grilled Kippers",
+   "w": 800
+  },
+  "process": null
+ },
+ "karkade": {
+  "hero": {
+   "author": "",
+   "color": "#6f5a4b",
+   "file": "karkade",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCGHxEJQlvEWXcNpLdOlZltPHpGo+ZuaRSp5XiofMIl4VAAP7oqBrhmflU/75rPW9zRKPK+5//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Dried hibiscus steeped into a drink the colour of ink and served either scalding or over ice, Sour, tannic and the national soft drink by some distance, made with dried hibiscus flowers, cinnamon stick, lemon juice, Ice, Mint sprigs, a Egyptian dish called Karkade, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Karkade",
+   "w": 800
+  },
+  "process": null
+ },
+ "malloreddus": {
+  "hero": {
+   "author": "",
+   "color": "#7d6954",
+   "file": "malloreddus",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAt9VW0sDFnIZcYHqRWVY3f9n3KybSzA7vTtVRbqSfHmYOOmBirjXDJDjYjf7wzWOtzVJWP/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Ridged saffron gnocchetti with a sausage and tomato sauce, Sardinia's everyday pasta, and the ridges exist to hold the sauce, made with malloreddus, Italian pork sausage, onion, pinch saffron threads, dry white wine, a Italian dish called Malloreddus alla Campidanese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Malloreddus alla Campidanese",
+   "w": 800
+  },
+  "process": null
+ },
+ "maritozzo": {
+  "hero": {
+   "author": "",
+   "color": "#968a6f",
+   "file": "maritozzo",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCbSL1YoDGucOoGffFVLeY6PfuZASSMgr3BrMj1CeRxu2cei4rat72SSHLpGSvTK5rC75rdDTlVj//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "A soft sweet bun split almost in half and packed with an absurd quantity of whipped cream, then cut flush with a knife, Roman breakfast, made with fast-action yeast, eggs, whole milk, Zest of 1 orange, honey, a Italian dish called Maritozzo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Maritozzo",
+   "w": 800
+  },
+  "process": null
+ },
+ "omelette-aux-fines-herbes": {
+  "hero": {
+   "author": "",
+   "color": "#96926c",
+   "file": "omelette-aux-fines-herbes",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBLRbmzke2jdjn5X2rxT2EunT5Hz7RuyB0rMt76Z3JbaTnrWvaahNeb1m2bUXAAXr9awXNfV6F8p//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "A French omelette: pale, rolled, and barely set inside, Two minutes of cooking and about a decade of getting it right, made with eggs, chervil, chives, flat-leaf parsley, tarragon, a French dish called Omelette aux Fines Herbes, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Omelette aux Fines Herbes",
+   "w": 800
+  },
+  "process": null
+ },
+ "polpette-al-sugo": {
+  "hero": {
+   "author": "",
+   "color": "#8f745a",
+   "file": "polpette-al-sugo",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB8epTQ24jjidty4wBWTZ3LWNyHaNwytu+70onupZbyUu3KnAxxir1teyllDYYZx8wzXNzNSsdKppo//9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Meatballs cooked in the sauce rather than before it, so the sauce takes on the meat and the meat stays soft, The Sunday dish of half of Italy, made with minced beef, minced pork, stale white bread, whole milk, eggs, a Italian dish called Polpette al Sugo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Polpette al Sugo",
+   "w": 800
+  },
+  "process": null
+ },
+ "potted-shrimps": {
+  "hero": {
+   "author": "",
+   "color": "#a1825f",
+   "file": "potted-shrimps",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB81nHaQCCW5k2nkqpwOaghgGnSi5tMyBOShHNZ63s8wzK28g4+YVet72ZYZJAVyowBjiub3k73Oj3bH//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "Tiny brown shrimps set in spiced butter and turned out on toast, Morecambe Bay has sent them south since the eighteenth century and nothing has improved on them, made with cooked peeled brown shrimps, ground mace, grated nutmeg, lemon juice, a British dish called Potted Shrimps, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Potted Shrimps",
+   "w": 800
+  },
+  "process": null
+ },
+ "rognons-a-la-moutarde": {
+  "hero": {
+   "author": "",
+   "color": "#776451",
+   "file": "rognons-a-la-moutarde",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCpcySRReUJVBbjjpVTTpJNMvEkkiLgZI21RhuHdzHJhxnPNdPpxEentdBVMqfKu7kCseZp2NbK1z//2Q==",
+   "model": "sana",
+   "page": "",
+   "prompt": "Lamb kidneys seared hard and finished in a mustard cream sauce, Fifteen minutes, and the kidneys must leave the pan while still pink, made with lamb kidneys, whole milk, shallots, button mushrooms, brandy, a French dish called Rognons \u00e0 la Moutarde, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Rognons \u00e0 la Moutarde",
+   "w": 800
+  },
+  "process": null
+ },
+ "scaloppine-al-limone": {
+  "hero": {
+   "author": "",
+   "color": "#9d906e",
+   "file": "scaloppine-al-limone",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCzNuhhERuBGXHRRk4NVreC401xPHidQM4xg1mRXcnneS4WRU4Ut1A+taH9pzxQyeWEAQcDGa57y5vI0srH/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "Veal in a lemon and butter sauce that comes together in the pan in about ninety seconds, Fifteen minutes from cold pan to table, made with veal escalopes, dry white wine, chicken stock, Juice of 1.5 lemons, flat-leaf parsley, a Italian dish called Scaloppine al Limone, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Scaloppine al Limone",
+   "w": 800
+  },
+  "process": null
+ },
+ "sfogliatella": {
+  "hero": {
+   "author": "",
+   "color": "#a09175",
+   "file": "sfogliatella",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC7aXqW0IhYEF1x09qpQZ0a6V2UyIwLBlHrWHHqNw8o3sG28DIrYj1a5eHaQmFHHy1jeXN5Glo2P//Z",
+   "model": "sana",
+   "page": "",
+   "prompt": "A shell of a hundred paper-thin leaves around a semolina and ricotta filling, The hardest pastry in Naples and worth every hour of it, made with honey, whole milk, fine semolina, ricotta, egg yolks, a Italian dish called Sfogliatella Riccia, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Sfogliatella Riccia",
+   "w": 800
+  },
+  "process": null
+ },
+ "tarte-au-citron": {
+  "hero": {
+   "author": "",
+   "color": "#b9aa8d",
+   "file": "tarte-au-citron",
+   "h": 600,
+   "licence": "AI illustration",
+   "licence_url": "",
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSjspLeP8AeyKN1Jc2rzDerrjpms25vp5EAdgVJziiC9m8vZkbR0Fc0ptamyij/9k=",
+   "model": "sana",
+   "page": "",
+   "prompt": "A thin pastry case filled with lemon curd set with butter and eggs, Sharp enough to make you blink, which is the whole point of it, made with egg yolk, egg, eggs, lemon juice, Zest of 3 lemons, a French dish called Tarte au Citron, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+   "source": "AI illustration",
+   "title": "Tarte au Citron",
+   "w": 800
+  },
+  "process": null
+ },
+ "anelletti-al-forno": {
+  "hero": null,
+  "process": null
+ },
+ "angels-on-horseback": {
+  "hero": null,
+  "process": null
+ },
+ "baba-au-rhum": {
+  "hero": null,
+  "process": null
+ },
+ "baba-napoletano": {
+  "hero": null,
+  "process": null
+ },
+ "bubble-and-squeak": {
+  "hero": null,
+  "process": null
+ },
+ "cacciucco": {
+  "hero": null,
+  "process": null
+ },
+ "colomba": {
+  "hero": null,
+  "process": null
+ },
+ "creme-caramel": {
+  "hero": null,
+  "process": null
+ },
+ "fregola": {
+  "hero": null,
+  "process": null
+ },
+ "involtini-di-manzo": {
+  "hero": null,
+  "process": null
+ },
+ "london-particular": {
+  "hero": null,
+  "process": null
+ },
+ "lotte-a-l-armoricaine": {
+  "hero": null,
+  "process": null
+ },
+ "moules-frites": {
+  "hero": null,
+  "process": null
+ },
+ "mulligatawny": {
+  "hero": null,
+  "process": null
+ },
+ "parmigiana-bianca": {
+  "hero": null,
+  "process": null
+ },
+ "risotto-ai-funghi": {
+  "hero": null,
+  "process": null
+ },
+ "saucisson-brioche": {
+  "hero": null,
+  "process": null
+ },
+ "sbrisolona": {
+  "hero": null,
+  "process": null
+ },
+ "strozzapreti": {
+  "hero": null,
+  "process": null
+ },
+ "chicken-and-leek-pie": {
+  "hero": null,
   "process": null
  }
 }

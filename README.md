@@ -94,7 +94,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 2942 image files (WebP + JPEG)
+│       └── img/recipes/         # 2906 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -106,7 +106,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 2942 image files
+├── assets/                      #    css, js and 2906 image files
 ├── recipes/                     #    1209 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -247,7 +247,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 107,242 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 107,299 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -784,7 +784,9 @@ exists to stop that.
   the file, because nothing about a JPEG says how it was made.
 - **The counts keep them apart.** `src/data/stats.js` returns `photoCount` and
   `illustrationCount` separately, and the licence figures are computed over
-  photographs only. Left alone, 174 generated pictures would have walked into
+  photographs only. So does the build's own summary line, which is the first
+  number anyone reads after a build and which reported "1,069 with photography"
+  on 1,035 photographs until it was split. Left alone, 174 generated pictures would have walked into
   those figures as "CC0 or public domain, no conditions at all" — true of the
   files and a lie about the site.
 - **The attribution file lists them apart.** `images-attribution.md` has its
@@ -807,6 +809,56 @@ the leaked row — which can never match, because an illustration that leaks int
 the index carries its own licence string, "AI illustration". The guard passed on
 precisely the file it was written to catch. It asks which section the filename
 appears in now.
+
+### The refusal that deleted a photograph
+
+Refusing 42 of the first 76 drawings destroyed a published photograph, and
+nothing said so.
+
+`tools/review_images.py` cleared the whole manifest entry on a refusal and
+deleted both `<slug>.jpg/.webp` and `<slug>-process.jpg/.webp`, whatever the
+entry under review actually held. Almost always that is right, because a
+refused candidate is the only thing the recipe has. `tofu-edamame-stir-fry` was
+the exception: it had a CC BY-SA process photograph on the site and no hero, so
+a drawn hero went to review, was refused for having no tofu in it, and took the
+photograph and its two files with it.
+
+It needs a recipe with a published shot of one kind and a candidate of the
+other, which is why it survived six fetch runs. What made it invisible is that
+a missing image looks exactly like a recipe that never had one — the site
+renders a gradient card either way, and nothing counts what should be there.
+The only reason it surfaced at all is that the photograph total moved by one in
+the wrong direction between two runs of `npm run attribution`.
+
+The refusal now clears only the kinds present in the entry being reviewed and
+deletes only their files. The photograph and its record are restored from the
+commit before the run. Confirmed by staging a hero candidate against that same
+recipe and refusing it: the hero record clears, the hero file goes, the process
+record and both process files stay.
+
+### The run that redrew its own rejects
+
+A third pass drew 46 pictures and 42 of them were byte-identical to ones
+already refused.
+
+Three things lined up. `generate_images.py` selects any recipe without a hero.
+Refusing a candidate sets the recipe back to exactly that. And `review_images.py`
+recorded a refusal only when the entry carried a source page — which a drawing
+never does — so nothing remembered that the dish had been drawn and rejected.
+The same prompt and the same seed then returned the same file, and the pipeline
+went round.
+
+The refusal record now takes a drawing too, keyed by the prompt rather than a
+page, and the generator skips a dish whose drawing has already been refused.
+`--retry` overrides that and moves the seed on, because a refusal is not
+permanent — the dish is still undrawn, and a different seed is a real second
+attempt rather than the same request asked twice. The 77 refusals from the two
+reviews that ran before the record existed were backfilled: `prompt_for` is a
+pure function of the recipe, so each prompt could be recovered exactly.
+
+Confirmed by asking the generator what it would draw. With 116 recipes still
+without a picture it offers 35, which is the 116 less the 81 refusals now on
+record; with `--retry` it offers all 116.
 
 ### The one judgement rather than fact
 

@@ -38,6 +38,87 @@ either a generated illustration, described in the next section, or a CSS
 gradient placeholder carrying the recipe name. We would rather show nothing
 than use an image we do not have clear rights to.
 
+## The illustrations
+
+**58** of the pictures on this site are not photographs. They were drawn by
+an AI image model because six passes through the archives found no photograph
+of those dishes that this site could publish, and a drawing of the dish seemed
+more use to a cook than a blank card.
+
+They are treated as a separate thing everywhere, deliberately:
+
+- the caption under each one says it is an illustration and not a photograph
+  of the dish;
+- they are excluded from every photograph and licence count above;
+- they are listed in their own table below rather than in the image index,
+  because they have no photographer, no source archive and no licence to meet.
+
+Each prompt was written out of the recipe's own description and ingredient
+list, so it cannot describe a dish different from the one on the page. Each
+result was then checked by eye against the recipe, and the ones showing the
+wrong dish were deleted rather than kept.
+
+| File | Recipe | Role | Model |
+|---|---|---|---|
+| `smoked-mackerel-pate.webp` / `.jpg` | Smoked Mackerel Pâté | Hero | sana |
+| `pan-con-pollo.webp` / `.jpg` | Pan con Pollo | Hero | sana |
+| `coconut-dal.webp` / `.jpg` | Coconut Dal | Hero | sana |
+| `balila.webp` / `.jpg` | Balila | Hero | sana |
+| `loubieh-bzeit.webp` / `.jpg` | Loubieh bi Zeit | Hero | sana |
+| `kafta-bil-sanieh.webp` / `.jpg` | Kafta bil Sanieh | Hero | sana |
+| `shish-barak.webp` / `.jpg` | Shish Barak | Hero | sana |
+| `samke-harra.webp` / `.jpg` | Samke Harra | Hero | sana |
+| `riz-a-djaj.webp` / `.jpg` | Riz a Djaj | Hero | sana |
+| `fasolia-bi-lahme.webp` / `.jpg` | Fasolia bi Lahme | Hero | sana |
+| `sheikh-el-mahshi.webp` / `.jpg` | Sheikh el Mahshi | Hero | sana |
+| `yakhnet-batata.webp` / `.jpg` | Yakhnet Batata | Hero | sana |
+| `kaak-bil-simsim.webp` / `.jpg` | Ka'ak bil Simsim | Hero | sana |
+| `sfouf.webp` / `.jpg` | Sfouf | Hero | sana |
+| `salata-baladi.webp` / `.jpg` | Salata Baladi | Hero | sana |
+| `torshi.webp` / `.jpg` | Torshi | Hero | sana |
+| `roz-mermah.webp` / `.jpg` | Roz Mermah | Hero | sana |
+| `fattah.webp` / `.jpg` | Fattah | Hero | sana |
+| `feteer-meshaltet.webp` / `.jpg` | Feteer Meshaltet | Hero | sana |
+| `roz-bel-laban.webp` / `.jpg` | Roz bel Laban | Hero | sana |
+| `karkade.webp` / `.jpg` | Karkade | Hero | sana |
+| `slata-tounsia.webp` / `.jpg` | Slata Tounsia | Hero | sana |
+| `doigts-de-fatma.webp` / `.jpg` | Doigts de Fatma | Hero | sana |
+| `chorba-frik.webp` / `.jpg` | Chorba Frik | Hero | sana |
+| `hlelem.webp` / `.jpg` | Hlelem | Hero | sana |
+| `ojja.webp` / `.jpg` | Ojja | Hero | sana |
+| `marqa-hlouwa.webp` / `.jpg` | Marqa Hlouwa | Hero | sana |
+| `kamounia.webp` / `.jpg` | Kamounia | Hero | sana |
+| `samsa-tunisienne.webp` / `.jpg` | Samsa | Hero | sana |
+| `the-aux-pignons.webp` / `.jpg` | Thé aux Pignons | Hero | sana |
+| `poule-au-pot.webp` / `.jpg` | Poule au Pot | Hero | sana |
+| `navarin-printanier.webp` / `.jpg` | Navarin d'Agneau | Hero | sana |
+| `gigot-d-agneau.webp` / `.jpg` | Gigot d'Agneau | Hero | sana |
+| `epaule-d-agneau-confite.webp` / `.jpg` | Épaule d'Agneau de 7 Heures | Hero | sana |
+| `entrecote-marchand-de-vin.webp` / `.jpg` | Entrecôte Marchand de Vin | Hero | sana |
+| `rognons-a-la-moutarde.webp` / `.jpg` | Rognons à la Moutarde | Hero | sana |
+| `endives-au-jambon.webp` / `.jpg` | Endives au Jambon | Hero | sana |
+| `sole-normande.webp` / `.jpg` | Sole Normande | Hero | sana |
+| `gratin-de-courgettes.webp` / `.jpg` | Gratin de Courgettes | Hero | sana |
+| `omelette-aux-fines-herbes.webp` / `.jpg` | Omelette aux Fines Herbes | Hero | sana |
+| `pain-de-campagne.webp` / `.jpg` | Pain de Campagne | Hero | sana |
+| `pan-bagnat.webp` / `.jpg` | Pan Bagnat | Hero | sana |
+| `tarte-au-citron.webp` / `.jpg` | Tarte au Citron | Hero | sana |
+| `suppli.webp` / `.jpg` | Supplì | Hero | sana |
+| `malloreddus.webp` / `.jpg` | Malloreddus alla Campidanese | Hero | sana |
+| `polpette-al-sugo.webp` / `.jpg` | Polpette al Sugo | Hero | sana |
+| `scaloppine-al-limone.webp` / `.jpg` | Scaloppine al Limone | Hero | sana |
+| `bagnun.webp` / `.jpg` | Bagnùn di Acciughe | Hero | sana |
+| `sfogliatella.webp` / `.jpg` | Sfogliatella Riccia | Hero | sana |
+| `amaretti.webp` / `.jpg` | Amaretti Morbidi | Hero | sana |
+| `maritozzo.webp` / `.jpg` | Maritozzo | Hero | sana |
+| `bellini.webp` / `.jpg` | Bellini | Hero | sana |
+| `potted-shrimps.webp` / `.jpg` | Potted Shrimps | Hero | sana |
+| `sausage-rolls.webp` / `.jpg` | Sausage Rolls | Hero | sana |
+| `cumberland-sauce.webp` / `.jpg` | Cumberland Sauce | Hero | sana |
+| `roast-pork-crackling.webp` / `.jpg` | Roast Pork with Crackling | Hero | sana |
+| `grilled-kippers.webp` / `.jpg` | Grilled Kippers | Hero | sana |
+| `pease-pudding.webp` / `.jpg` | Pease Pudding | Hero | sana |
+
 ## Summary
 
 | | |
@@ -45,9 +126,9 @@ than use an image we do not have clear rights to.
 | Recipes | 1209 |
 | Hero photographs | 1035 |
 | Secondary "process" photographs | 360 |
-| Generated illustrations | 0 |
-| Total image files | 2790 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 174 |
+| Generated illustrations | 58 |
+| Total image files | 2906 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 116 |
 
 ### Licences used
 
@@ -90,93 +171,50 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found,
 and no usable illustration of them could be drawn either:
 
 - Tofu and Edamame Stir-Fry (`tofu-edamame-stir-fry`)
-- Smoked Mackerel Pâté (`smoked-mackerel-pate`)
 - Sweet Potato Casserole (`sweet-potato-casserole`)
 - Bread Sauce (`bread-sauce`)
-- Pan con Pollo (`pan-con-pollo`)
 - Beetroot, Orange and Feta Salad (`beetroot-feta-salad`)
 - Green Goddess Salad (`green-goddess-salad`)
 - Smashed Chickpea Sandwich (`smashed-chickpea-sandwich`)
 - Scallion Oil Noodles (`scallion-oil-noodles`)
 - Karelian Hot Pot (`karjalanpaisti`)
-- Coconut Dal (`coconut-dal`)
 - Spinach Fatayer (`fatayer-sabanekh`)
 - Cheese Rakakat (`rakakat-jibneh`)
-- Balila (`balila`)
-- Loubieh bi Zeit (`loubieh-bzeit`)
-- Kafta bil Sanieh (`kafta-bil-sanieh`)
 - Kibbeh bil Sanieh (`kibbeh-bil-sanieh`)
 - Kibbeh Labaniyeh (`kibbeh-labaniyeh`)
-- Shish Barak (`shish-barak`)
-- Samke Harra (`samke-harra`)
-- Riz a Djaj (`riz-a-djaj`)
-- Fasolia bi Lahme (`fasolia-bi-lahme`)
-- Sheikh el Mahshi (`sheikh-el-mahshi`)
 - Malfouf Mahshi (`malfouf-mahshi`)
-- Yakhnet Batata (`yakhnet-batata`)
 - Kousa bil Laban (`kousa-bil-laban`)
-- Ka'ak bil Simsim (`kaak-bil-simsim`)
 - Talami (`talami`)
-- Sfouf (`sfouf`)
 - Ta'ameya (`taameya`)
-- Salata Baladi (`salata-baladi`)
-- Torshi (`torshi`)
 - Betengan Mekhalel (`betengan-mekhalel`)
 - Dukkah (`dukkah`)
 - Bamia Masreya (`bamia-masreya`)
-- Roz Mermah (`roz-mermah`)
-- Fattah (`fattah`)
 - Mahshi Cromb (`mahshi-cromb`)
 - Sayadeya Masreya (`sayadeya-masreya`)
 - Renga (`renga`)
 - Aish Baladi (`aish-baladi`)
 - Eish Merahrah (`eish-merahrah`)
-- Feteer Meshaltet (`feteer-meshaltet`)
 - Om Ali (`om-ali`)
-- Roz bel Laban (`roz-bel-laban`)
 - Qatayef Mahshi (`qatayef`)
-- Karkade (`karkade`)
-- Slata Tounsia (`slata-tounsia`)
 - Omek Houria (`salade-omek-houria`)
-- Doigts de Fatma (`doigts-de-fatma`)
-- Chorba Frik (`chorba-frik`)
-- Hlelem (`hlelem`)
 - Couscous Tunisien (`couscous-tunisien`)
-- Ojja (`ojja`)
-- Marqa Hlouwa (`marqa-hlouwa`)
-- Kamounia (`kamounia`)
 - Ftair (`ftair`)
 - Madfouna (`madfouna`)
-- Samsa (`samsa-tunisienne`)
 - Assidat Zgougou (`assidat-zgougou`)
-- Thé aux Pignons (`the-aux-pignons`)
 - Salade de Lentilles (`salade-de-lentilles`)
 - Tapenade (`tapenade`)
 - Aïoli (`aioli`)
 - Brandade de Morue (`brandade-de-morue`)
-- Poule au Pot (`poule-au-pot`)
-- Navarin d'Agneau (`navarin-printanier`)
 - Daube Provençale (`daube-provencale`)
 - Choucroute Garnie (`choucroute`)
-- Gigot d'Agneau (`gigot-d-agneau`)
-- Épaule d'Agneau de 7 Heures (`epaule-d-agneau-confite`)
-- Entrecôte Marchand de Vin (`entrecote-marchand-de-vin`)
 - Cordon Bleu (`cordon-bleu`)
-- Rognons à la Moutarde (`rognons-a-la-moutarde`)
-- Endives au Jambon (`endives-au-jambon`)
 - Quenelles de Brochet (`quenelles-de-brochet`)
 - Moules Frites (`moules-frites`)
-- Sole Normande (`sole-normande`)
 - Lotte à l'Armoricaine (`lotte-a-l-armoricaine`)
 - Bar en Croûte de Sel (`bar-en-croute-de-sel`)
-- Gratin de Courgettes (`gratin-de-courgettes`)
-- Omelette aux Fines Herbes (`omelette-aux-fines-herbes`)
-- Pain de Campagne (`pain-de-campagne`)
 - Pain aux Noix (`pain-aux-noix`)
-- Pan Bagnat (`pan-bagnat`)
 - Saucisson en Brioche (`saucisson-brioche`)
 - Pain au Chocolat (`pain-au-chocolat`)
-- Tarte au Citron (`tarte-au-citron`)
 - Paris-Brest (`paris-brest`)
 - Saint-Honoré (`saint-honore`)
 - Mont-Blanc (`mont-blanc`)
@@ -187,49 +225,34 @@ and no usable illustration of them could be drawn either:
 - Palmiers (`palmiers`)
 - Bagna Cauda (`bagna-cauda`)
 - Fiori di Zucca Fritti (`fiori-di-zucca`)
-- Supplì (`suppli`)
 - Giardiniera (`giardiniera`)
-- Malloreddus alla Campidanese (`malloreddus`)
 - Strozzapreti alla Boscaiola (`strozzapreti`)
 - Anelletti al Forno (`anelletti-al-forno`)
 - Fregola con Arselle (`fregola`)
 - Risotto ai Funghi Porcini (`risotto-ai-funghi`)
-- Polpette al Sugo (`polpette-al-sugo`)
 - Involtini di Manzo (`involtini-di-manzo`)
-- Scaloppine al Limone (`scaloppine-al-limone`)
 - Cacciucco (`cacciucco`)
-- Bagnùn di Acciughe (`bagnun`)
 - Parmigiana Bianca (`parmigiana-bianca`)
 - Farinata (`farinata`)
-- Sfogliatella Riccia (`sfogliatella`)
 - Babà Napoletano (`baba-napoletano`)
 - Torta Sbrisolona (`sbrisolona`)
 - Colomba Pasquale (`colomba`)
-- Amaretti Morbidi (`amaretti`)
-- Maritozzo (`maritozzo`)
-- Bellini (`bellini`)
-- Potted Shrimps (`potted-shrimps`)
 - Angels on Horseback (`angels-on-horseback`)
 - London Particular (`london-particular`)
 - Leek and Potato Soup (`leek-and-potato-soup`)
 - Mulligatawny Soup (`mulligatawny`)
 - Oxtail Soup (`oxtail-soup`)
-- Sausage Rolls (`sausage-rolls`)
 - Piccalilli (`piccalilli`)
 - Pickled Onions (`pickled-onions`)
-- Cumberland Sauce (`cumberland-sauce`)
 - Steak and Kidney Pudding (`steak-and-kidney-pudding`)
 - Beef Stew and Dumplings (`beef-stew-and-dumplings`)
-- Roast Pork with Crackling (`roast-pork-crackling`)
 - Gammon with Parsley Sauce (`gammon-parsley-sauce`)
 - Fish Pie (`fish-pie`)
-- Grilled Kippers (`grilled-kippers`)
 - Chicken and Leek Pie (`chicken-and-leek-pie`)
 - Stovies (`stovies`)
 - Bubble and Squeak (`bubble-and-squeak`)
 - Mushy Peas (`mushy-peas`)
 - Honey Roast Parsnips (`honey-roast-parsnips`)
-- Pease Pudding (`pease-pudding`)
 - Rumbledethumps (`rumbledethumps`)
 - Pan Haggerty (`pan-haggerty`)
 - Potted Cheese (`potted-cheese`)
