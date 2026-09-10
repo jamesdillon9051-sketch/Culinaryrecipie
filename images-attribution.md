@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1377
-images, **798** are CC0 or public domain and carry no conditions at all, and
-**579** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1386
+images, **799** are CC0 or public domain and carry no conditions at all, and
+**587** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,21 +42,21 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 1021 |
-| Secondary "process" images | 356 |
-| Total image files | 2754 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 188 |
+| Hero images | 1029 |
+| Secondary "process" images | 357 |
+| Total image files | 2772 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 180 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 462 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 244 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 245 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 193 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 102 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 81 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 169 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 103 | No rights reserved — no attribution legally required |
+| CC BY-SA 2.0 | 86 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 40 | No rights reserved — no attribution legally required |
 | CC BY 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -124,11 +124,9 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Dukkah (`dukkah`)
 - Bamia Masreya (`bamia-masreya`)
 - Roz Mermah (`roz-mermah`)
-- Hawawshi (`hawawshi`)
 - Fattah (`fattah`)
 - Mahshi Cromb (`mahshi-cromb`)
 - Sayadeya Masreya (`sayadeya-masreya`)
-- Hamam Mahshi (`hamam-mahshi`)
 - Renga (`renga`)
 - Aish Baladi (`aish-baladi`)
 - Eish Merahrah (`eish-merahrah`)
@@ -159,7 +157,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Poule au Pot (`poule-au-pot`)
 - Navarin d'Agneau (`navarin-printanier`)
 - Daube Provençale (`daube-provencale`)
-- Carbonade Flamande (`carbonade-flamande`)
 - Choucroute Garnie (`choucroute`)
 - Gigot d'Agneau (`gigot-d-agneau`)
 - Épaule d'Agneau de 7 Heures (`epaule-d-agneau-confite`)
@@ -197,7 +194,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Anelletti al Forno (`anelletti-al-forno`)
 - Fregola con Arselle (`fregola`)
 - Risotto ai Funghi Porcini (`risotto-ai-funghi`)
-- Coda alla Vaccinara (`coda-alla-vaccinara`)
 - Polpette al Sugo (`polpette-al-sugo`)
 - Involtini di Manzo (`involtini-di-manzo`)
 - Scaloppine al Limone (`scaloppine-al-limone`)
@@ -250,7 +246,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Red Oil Wontons (`spicy-wontons`)
 - Yuxiang Rousi (`yuxiang-rousi`)
 - Three Cup Chicken (`three-cup-chicken`)
-- Salt Baked Chicken (`salt-baked-chicken`)
 - Da Pan Ji (`da-pan-ji`)
 - Braised Beef Brisket (`braised-beef-brisket`)
 - Sweet and Sour Spare Ribs (`sweet-sour-spare-ribs`)
@@ -261,7 +256,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Choy Sum in Oyster Sauce (`choy-sum-oyster-sauce`)
 - Home-Style Tofu (`home-style-tofu`)
 - Hot Dry Noodles (`hot-dry-noodles`)
-- Claypot Rice (`claypot-rice`)
 - Vinegar Cabbage (`vinegar-cabbage`)
 - Stir-Fried Lotus Root (`lotus-root-stir-fry`)
 - Wood Ear Salad (`wood-ear-salad`)
@@ -271,8 +265,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Shao Bing (`shao-bing`)
 - XO Sauce (`xo-sauce`)
 - Tangyuan (`tangyuan`)
-- Red Bean Soup (`red-bean-soup`)
-- Sesame Balls (`sesame-balls`)
 - Almond Tofu (`almond-tofu`)
 
 ## Brand assets
@@ -1402,9 +1394,11 @@ licence as the rest of this project.
 | `torly.webp` / `.jpg` | Torly | Hero | Τουρλού λαχανικά στο φούρνο - Tourlou vegetables in the oven | topsyntages.gr | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/47943919@N07/6789829369) |
 | `torly-process.webp` / `.jpg` | Torly | Process | Τουρλού λαχανικά στο φούρνο - Tourlou vegetables in the oven | topsyntages.gr | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/47943919@N07/6789812845) |
 | `kishk-masri.webp` / `.jpg` | Kishk Masri | Hero | Kishk | Cairocamels B. Simpson | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kishk.JPG) |
+| `hawawshi.webp` / `.jpg` | Hawawshi | Hero | Hawawshi Main 1 Mohamed Moheyeldin | Mohamed Moheyeldin | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hawawshi_Main_1_Mohamed_Moheyeldin.jpg) |
 | `macarona-bechamel.webp` / `.jpg` | Macarona Bechamel | Hero | Macarona bechamel | Zebi2424 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Macarona_bechamel.jpg) |
 | `kofta-masreya.webp` / `.jpg` | Kofta Masreya | Hero | Egyptian kofta | Mkevy | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=36026980) |
 | `kebda-eskandarani.webp` / `.jpg` | Kebda Eskandarani | Hero | Alexandria delight Liver sandwiches | Bastique | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Alexandria_delight_Liver_sandwiches.jpg) |
+| `hamam-mahshi.webp` / `.jpg` | Hamam Mahshi | Hero | Hamam mahshi | medea_material | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hamam_mahshi.jpg) |
 | `ferakh-mashwi.webp` / `.jpg` | Ferakh Mashwi | Hero | Arabic grilled chicken with Egyptian pickle | Mohamod Fasil | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arabic_grilled_chicken_with_Egyptian_pickle.jpg) |
 | `ferakh-mashwi-process.webp` / `.jpg` | Ferakh Mashwi | Process | Flickr - schmuela - chicken in the grill, rice in the pots | Karen Green | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flickr_-_schmuela_-_chicken_in_the_grill,_rice_in_the_pots.jpg) |
 | `mombar.webp` / `.jpg` | Mombar | Hero | Egyptian food (mombar) | Ahmed Elsayed45 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egyptian_food_(mombar).jpg) |
@@ -1468,6 +1462,7 @@ licence as the rest of this project.
 | `soupe-de-poisson-process.webp` / `.jpg` | Soupe de Poisson | Process | Soupe de Poisson Gratinée | stu_spivack | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/35034346243@N01/283221657) |
 | `hachis-parmentier.webp` / `.jpg` | Hachis Parmentier | Hero | PLAT HACHIS PARMENTIER | fonteynethekitchen | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/124368215@N08/29160671831) |
 | `poulet-basquaise.webp` / `.jpg` | Poulet Basquaise | Hero | Poulet Basquaise | wlayton | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/34917178@N08/4552198396) |
+| `carbonade-flamande.webp` / `.jpg` | Carbonade Flamande | Hero | Carbonade flamande 2 | Arnaud 25 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=88060039) |
 | `magret-de-canard.webp` / `.jpg` | Magret de Canard | Hero | Magret de canard au poivre vert, pommes de terre sautées | fred_v | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/8514720@N04/4429028606) |
 | `magret-de-canard-process.webp` / `.jpg` | Magret de Canard | Process | spring: magret de canard avec pêche jaune, pousses d'épinards, et girolles plus *magic cracklin' | mu foo | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/22774386@N08/2189689536) |
 | `poulet-roti.webp` / `.jpg` | Poulet Rôti | Hero | Poulet Roti Grand-Mere | arnold / inuyaki | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/58819758@N00/4142363735) |
@@ -1544,6 +1539,7 @@ licence as the rest of this project.
 | `testaroli.webp` / `.jpg` | Testaroli al Pesto | Hero | Testaroli-Pesto-Pontremoli-2800 | J.P.Lon | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Testaroli-Pesto-Pontremoli-2800.jpg) |
 | `brasato-al-barolo.webp` / `.jpg` | Brasato al Barolo | Hero | Brasato al barolo 2 | Lasagnolo9 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brasato_al_barolo_2.jpg) |
 | `bollito-misto.webp` / `.jpg` | Bollito Misto | Hero | bollito misto (ox meat) | kwistent | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/82922074@N02/8368873766) |
+| `coda-alla-vaccinara.webp` / `.jpg` | Coda alla Vaccinara | Hero | Coda alla vaccinara-01 | shu tu | CC BY-SA 2.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=19392705) |
 | `trippa-alla-romana.webp` / `.jpg` | Trippa alla Romana | Hero | Trippa alla Romana alla Sagra degli Antichi Sapori | Albarubescens | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=145069078) |
 | `porchetta.webp` / `.jpg` | Porchetta | Hero | porchetta - rolled pork belly, aromatic herbs, red onion, carrots, fennel, celery | T.Tseng | CC BY 2.0 | [Flickr](http://www.flickr.com/photos/68147320@N02/18566095248) |
 | `porchetta-process.webp` / `.jpg` | Porchetta | Process | Porchetta - rolled pork belly, aromatic herbs, red onions, carrots, fennel, celery | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/26247851382) |
@@ -1644,6 +1640,7 @@ licence as the rest of this project.
 | `white-cut-chicken.webp` / `.jpg` | White Cut Chicken | Hero | 农家菜之白切鸡 | Liuxingy | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%86%9C%E5%AE%B6%E8%8F%9C%E4%B9%8B%E7%99%BD%E5%88%87%E9%B8%A1.jpg) |
 | `white-cut-chicken-process.webp` / `.jpg` | White Cut Chicken | Process | 水晶白切鸡饭套餐（2026年2月27日） | 茅野ふたば | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E6%99%B6%E7%99%BD%E5%88%87%E9%B8%A1%E9%A5%AD%E5%A5%97%E9%A4%90%EF%BC%882026%E5%B9%B42%E6%9C%8827%E6%97%A5%EF%BC%89.jpg) |
 | `soy-sauce-chicken.webp` / `.jpg` | Soy Sauce Chicken | Hero | 豉油鸡饭套餐（2026年3月2日） | 茅野ふたば | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%B1%89%E6%B2%B9%E9%B8%A1%E9%A5%AD%E5%A5%97%E9%A4%90%EF%BC%882026%E5%B9%B43%E6%9C%882%E6%97%A5%EF%BC%89.jpg) |
+| `salt-baked-chicken.webp` / `.jpg` | Salt Baked Chicken | Hero | Salt-Baked Chicken Rice - Hakka Teahouse, Glen Waverley AUD9 lunch special | avlxyz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/3335204456) |
 | `steamed-ribs-black-bean.webp` / `.jpg` | Steamed Ribs with Black Bean | Hero | Steamed Pork Ribs | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/55384245416) |
 | `siu-yuk.webp` / `.jpg` | Siu Yuk | Hero | Siu yuk (燒肉) - Roasted pork | logatfer | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/69287554@N02/8378089663) |
 | `mei-cai-kou-rou.webp` / `.jpg` | Mei Cai Kou Rou | Hero | 梅菜扣肉 Pork Belly with Mei Cai Preserved Vegetable - Easy East | avlxyz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/3225211598) |
@@ -1651,6 +1648,7 @@ licence as the rest of this project.
 | `yong-tau-foo.webp` / `.jpg` | Yong Tau Foo | Hero | Hakka Yong Tau Foo at Yong Tau Foo Bagus, Changi Road | shootoh | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/92659880@N08/8416706502) |
 | `biang-biang-noodles.webp` / `.jpg` | Biang Biang Noodles | Hero | Biang Biang Mian at Xi'an Famous Eats | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/2448171507) |
 | `yangzhou-fried-rice.webp` / `.jpg` | Yangzhou Fried Rice | Hero | Yangzhou fried rice and drinks 25-09-2019 | LN9267 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=124898166) |
+| `claypot-rice.webp` / `.jpg` | Claypot Rice | Hero | 鱼柳酸菜煲仔饭 Fish Fillet and Preserved Mustard Green Claypot Rice - First Taste (2617879522) | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%B1%BC%E6%9F%B3%E9%85%B8%E8%8F%9C%E7%85%B2%E4%BB%94%E9%A5%AD_Fish_Fillet_and_Preserved_Mustard_Green_Claypot_Rice_-_First_Taste_(2617879522).jpg) |
 | `zongzi.webp` / `.jpg` | Zongzi | Hero | zongzi | valkyrieh116 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/54357435@N00/2836403485) |
 | `egg-drop-soup.webp` / `.jpg` | Egg Drop Soup | Hero | Monday Lunch Egg Drop Soup with Tomatoes & Vegetables | Gary Lee Todd, Ph.D. | CC0 1.0 | [Flickr](https://www.flickr.com/photos/101561334@N08/34380907495) |
 | `egg-drop-soup-process.webp` / `.jpg` | Egg Drop Soup | Process | Easter Egg Drop | Greenville, SC Daily Photo | CC0 1.0 | [Flickr](https://www.flickr.com/photos/120143184@N05/47942342283) |
@@ -1658,9 +1656,12 @@ licence as the rest of this project.
 | `lotus-root-rib-soup.webp` / `.jpg` | Lotus Root and Pork Rib Soup | Hero | Lotus Root Soup | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/54804995387) |
 | `lotus-root-rib-soup-process.webp` / `.jpg` | Lotus Root and Pork Rib Soup | Process | Lotus Root Soup | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/54973037228) |
 | `chilli-oil.webp` / `.jpg` | Sichuan Chilli Oil | Hero | Last night's dinner, with Leo: sichuan chilli fish. Yes, that's a layer of roasted chilli pieces on top. | gemsling | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/23876767@N00/28147877746) |
+| `red-bean-soup.webp` / `.jpg` | Red Bean Soup | Hero | 红豆汤配油条，绝配！ | liewcf | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/34353636@N00/5671801572) |
+| `red-bean-soup-process.webp` / `.jpg` | Red Bean Soup | Process | 110315煮的红豆汤 | Raymin. | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/60628502@N07/5529883254) |
 | `mango-pomelo-sago.webp` / `.jpg` | Mango Pomelo Sago | Hero | Chilled mango pudding with sago and pomelo | City Foodsters | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/89060048@N03/16345283532) |
 | `eight-treasure-rice.webp` / `.jpg` | Eight Treasure Rice | Hero | Ba Bao Fan (store bought) | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/5412041847) |
 | `eight-treasure-rice-process.webp` / `.jpg` | Eight Treasure Rice | Process | Eight treaure rice (ba bao fan) | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/6752928045) |
+| `sesame-balls.webp` / `.jpg` | Sesame Balls | Hero | CNY Tea prep at W Hotel | Dave Grunebaum/VOA | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CNY_Tea_prep_at_W_Hotel.jpg) |
 | `hong-kong-egg-waffle.webp` / `.jpg` | Hong Kong Egg Waffle | Hero | File:HK Gai-Daan-Jai.jpg | :ja:User:(WT-ja) Tatata | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=22946494) |
 
 ---

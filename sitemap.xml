@@ -10165,9 +10165,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawawshi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hawawshi.jpg</image:loc>
+      <image:title>Hawawshi</image:title>
+      <image:caption>Hawawshi — Egyptian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/macarona-bechamel/</loc>
@@ -10222,9 +10227,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hamam-mahshi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hamam-mahshi.jpg</image:loc>
+      <image:title>Hamam Mahshi</image:title>
+      <image:caption>Hamam Mahshi — Egyptian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ferakh-mashwi/</loc>
@@ -10936,9 +10946,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carbonade-flamande/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carbonade-flamande.jpg</image:loc>
+      <image:title>Carbonade Flamande</image:title>
+      <image:caption>Carbonade Flamande — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/choucroute/</loc>
@@ -11758,9 +11773,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coda-alla-vaccinara/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coda-alla-vaccinara.jpg</image:loc>
+      <image:title>Coda alla Vaccinara</image:title>
+      <image:caption>Coda alla Vaccinara — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trippa-alla-romana/</loc>
@@ -12857,9 +12877,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salt-baked-chicken/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salt-baked-chicken.jpg</image:loc>
+      <image:title>Salt Baked Chicken</image:title>
+      <image:caption>Salt Baked Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/da-pan-ji/</loc>
@@ -13000,9 +13025,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/claypot-rice/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/claypot-rice.jpg</image:loc>
+      <image:title>Claypot Rice</image:title>
+      <image:caption>Claypot Rice — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zongzi/</loc>
@@ -13115,9 +13145,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-bean-soup/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-bean-soup.jpg</image:loc>
+      <image:title>Red Bean Soup</image:title>
+      <image:caption>Red Bean Soup — Chinese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-pomelo-sago/</loc>
@@ -13143,9 +13178,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sesame-balls/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sesame-balls.jpg</image:loc>
+      <image:title>Sesame Balls</image:title>
+      <image:caption>Sesame Balls — Chinese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/almond-tofu/</loc>
