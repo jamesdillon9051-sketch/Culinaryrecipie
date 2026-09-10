@@ -15,10 +15,7 @@ const DIST = path.join(__dirname, '..');
 
 /* The site is generated into the repo root, so the audit must skip the
    project's own directories rather than walking source and node_modules. */
-const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools',
-  /* A separate project living in this repository; it has its own build and
-     its own checks, so auditing its pages here would be meaningless noise. */
-  'travel-destinations']);
+const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools']);
 const { MAX_TITLE, MIN_DESCRIPTION, MAX_DESCRIPTION } = require('../src/lib/seo');
 
 /**

@@ -40,11 +40,6 @@ The generated site lives in the **repository root**, so the repo can be served
 as-is with no build step: point GitHub Pages at the root of `main` and it
 works. `.nojekyll` stops Pages running the output through Jekyll.
 
-This repository also contains a separate project in `travel-destinations/`,
-which builds itself and is served at `/travel-destinations/`. Weekly Delight's
-build never touches it: it is on the protected list in `cleanOutput()` and is
-skipped by `npm run check`.
-
 Because the output directory is also the project directory, the build never
 wipes it wholesale. `cleanOutput()` in `src/build.js` removes only the paths
 it generated, guarded by an allow-list that refuses to touch `src/`, `tools/`,

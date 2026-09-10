@@ -30,15 +30,15 @@ const README = path.join(__dirname, '..', 'README.md');
 /**
  * Count the HTML the build emits.
  *
- * `travel-destinations/` is a separate site that happens to share this
- * repository — it is not built from src/ and carries none of Weekly Delight's
- * layout, so counting its pages here would inflate the site's own figure by a
- * third. The single page under assets/ is the native-banner frame, which is
- * emitted by the build and is counted.
+ * A second site used to share this repository root and had to be excluded here
+ * or it inflated Weekly Delight's own figure by a third; it has since been
+ * removed, so everything outside src/ and tools/ is this site's. The single
+ * page under assets/ is the native-banner frame, which the build emits and
+ * which is counted.
  */
 function pageCount(root) {
   let n = 0;
-  const skip = new Set(['node_modules', '.git', 'src', 'tools', 'travel-destinations']);
+  const skip = new Set(['node_modules', '.git', 'src', 'tools']);
   (function walk(dir) {
     for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
       if (e.isDirectory()) {

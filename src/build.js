@@ -101,10 +101,7 @@ const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
    with one of these would otherwise delete the project. */
 const PROTECTED = new Set(['.git', '.github', '.gitignore', '.nojekyll', 'src', 'tools',
   'node_modules', 'package.json', 'package-lock.json', 'README.md',
-  'images-attribution.md', 'netlify.toml', 'vercel.json', '.htaccess',
-  /* A second, self-contained project shares this repository root. It builds
-     itself and must never be touched by this build. */
-  'travel-destinations']);
+  'images-attribution.md', 'netlify.toml', 'vercel.json', '.htaccess']);
 
 /* --------------------------------------------------------------- helpers */
 function mkdir(dir) { fs.mkdirSync(dir, { recursive: true }); }
