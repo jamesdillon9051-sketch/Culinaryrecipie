@@ -49,10 +49,18 @@ WEBP_Q, JPEG_Q = 68, 70
 # carries advertising, which NonCommercial forbids; and every image is resized,
 # which is the one thing NoDerivatives prohibits distributing. Neither can be
 # satisfied by crediting harder.
+#
+# The two stock licences are named in full rather than pattern-matched. They
+# are not Creative Commons and the test cannot be loosened to admit "licence"
+# generally: each was read and each permits the two things this site does —
+# commercial use beside advertising, and resizing — while requiring no credit
+# at all. They are listed by exact name so that a third stock library cannot
+# arrive through the same clause without someone reading its terms first.
 _ALLOWED = re.compile(
     r"^(cc0|public domain|pdm|no restrictions"
     r"|cc[-\s]?by(?:[-\s]?sa)?\b"
-    r"|attribution(?:[-\s]?share[-\s]?alike)?\b)", re.I)
+    r"|attribution(?:[-\s]?share[-\s]?alike)?\b"
+    r"|pexels licen[cs]e$|unsplash licen[cs]e$)", re.I)
 # Checked separately rather than as a lookahead: "CC BY-SA-NC" backtracks past a
 # lookahead placed after the optional SA and comes out accepted. A clause that
 # may appear anywhere in the string is safer read anywhere in the string.
@@ -274,7 +282,7 @@ def speed_up(host):
         _clean_streak[host] = 0
 
 
-def http_json(url, tries=10):
+def http_json(url, tries=10, headers=None):
     """A 429 is answered with a Retry-After countdown, so the useful response
     is to wait exactly that long and ask again — the call then goes through.
     A 5xx or a timeout is a different problem: the host is not refusing us, it
@@ -286,7 +294,8 @@ def http_json(url, tries=10):
     for i in range(tries):
         throttle(host)
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+            req = urllib.request.Request(
+                url, headers={"User-Agent": UA, "Accept": "application/json", **(headers or {})})
             with urllib.request.urlopen(req, timeout=timeout_for(host, 45)) as r:
                 data = json.loads(r.read().decode("utf-8"))
             speed_up(host)
@@ -932,6 +941,275 @@ def wikipedia_lead_candidates(title, tags=()):
     return out
 
 
+# The two stock libraries, which are the only sources here that need a key.
+#
+# Both licences permit the two things this site does — commercial use beside
+# advertising, and resizing — and neither requires credit. The site credits the
+# photographer anyway, because a credit line costs nothing and a photograph
+# nobody is named for looks like one nobody had the right to use.
+#
+# Without a key these return nothing at all rather than failing: a contributor
+# with no key gets the archive sources and the same pipeline, one source short.
+PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
+UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
+
+
+def _stock_candidate(title, url, page, author, licence, licence_url, source,
+                     width, height, query, tags):
+    """Shared shape-and-gate for a stock photograph."""
+    if not url or not title:
+        return None
+    if BAD_TOKENS.search(title) or contradicts_diet(title, query, tags):
+        return None
+    if width < 500 or height < 380:
+        return None
+    if not OK_LICENCE.match(licence):
+        return None
+    return {
+        "title": title,
+        "url": url.split("?")[0] if source == "Pexels" else url,
+        "page": page,
+        "author": author or "Unknown",
+        "licence": licence,
+        "licence_url": licence_url,
+        "source": source,
+        "score": relevance(title, query),
+        "strong": shares_dish_word(title, query),
+    }
+
+
+def pexels_candidates(query, tags=()):
+    if not PEXELS_KEY:
+        return []
+    data = http_json(
+        "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
+            {"query": query, "per_page": 12, "orientation": "landscape"}),
+        tries=3, headers={"Authorization": PEXELS_KEY})
+    out = []
+    for photo in (data or {}).get("photos", []):
+        src = photo.get("src") or {}
+        candidate = _stock_candidate(
+            photo.get("alt") or "", src.get("large2x") or src.get("large") or "",
+            photo.get("url", ""), photo.get("photographer", ""),
+            "Pexels License", "https://www.pexels.com/license/", "Pexels",
+            photo.get("width", 0), photo.get("height", 0), query, tags)
+        if candidate:
+            out.append(candidate)
+    return out
+
+
+def unsplash_candidates(query, tags=()):
+    if not UNSPLASH_KEY:
+        return []
+    data = http_json(
+        "https://api.unsplash.com/search/photos?" + urllib.parse.urlencode(
+            {"query": query, "per_page": 12, "orientation": "landscape"}),
+        tries=3, headers={"Authorization": f"Client-ID {UNSPLASH_KEY}"})
+    out = []
+    for photo in (data or {}).get("results", []):
+        urls = photo.get("urls") or {}
+        user = photo.get("user") or {}
+        candidate = _stock_candidate(
+            photo.get("alt_description") or photo.get("description") or "",
+            urls.get("regular") or urls.get("full") or "",
+            (photo.get("links") or {}).get("html", ""), user.get("name", ""),
+            "Unsplash License", "https://unsplash.com/license", "Unsplash",
+            photo.get("width", 0), photo.get("height", 0), query, tags)
+        if candidate:
+            out.append(candidate)
+    return out
+
+
+# Wikidata knows the dish as a concept rather than as a string, which is the
+# thing every other source here is missing.
+#
+# Six passes over Commons and Openverse left 183 recipes without a photograph,
+# and the reason is not that the archives hold nothing. It is that they were
+# only ever asked in English. A Commons text search for "kibbeh labaniyeh"
+# cannot reach a file called "كبة لبنية.jpg", and no amount of retrying the
+# same search in the same language will find it.
+#
+# An entity search does reach it: Wikidata matches a label or an alias in any
+# language, and the item then carries P18, an image an editor chose to
+# represent the concept. That is the same kind of evidence as a Wikipedia lead
+# image — a person deciding "this picture is that dish" — and it arrives
+# through a name the site never had to know.
+#
+# The item's sitelinks are worth as much again. A dish with no P18 often has an
+# article on its own language's Wikipedia with a photograph at the top of it,
+# and that article is reachable from here and from nowhere else in this file.
+
+# An entity search on a dish name will happily return a village, a surname or a
+# song. The description is checked rather than the P31 chain because it is one
+# field, always present, and written to disambiguate exactly this.
+FOOD_DESC = re.compile(
+    r"\b(dish|food|cuisine|dessert|sweet|snack|bread|soup|stew|salad|beverage|"
+    r"drink|pastry|cake|biscuit|cookie|sauce|condiment|spice|noodle|dumpling|"
+    r"curry|meal|recipe|confection|cheese|pickle|preparation|delicacy|pud+ing)\b",
+    re.I)
+
+# Enough to reach the dish's own language without walking every wiki it has.
+MAX_FOREIGN_WIKIS = 3
+
+
+def commons_file_candidate(filename, note, score, query, tags=()):
+    """One Commons file, licence-checked, as a candidate — or nothing.
+
+    Factored out of wikipedia_lead_candidates so that a filename arriving from
+    Wikidata or from a non-English article goes through exactly the same gate:
+    the licence is read from the file's own metadata, never assumed from where
+    the filename came from.
+    """
+    if not filename or BAD_TOKENS.search(filename):
+        return []
+    params = {"action": "query", "format": "json", "titles": "File:" + filename,
+              "prop": "imageinfo", "iiprop": "url|extmetadata|size",
+              "iiurlwidth": str(HERO_W)}
+    data = http_json("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params))
+    if not data:
+        return []
+    out = []
+    for page in (data.get("query", {}).get("pages", {}) or {}).values():
+        if "missing" in page:      # hosted locally under fair use, not on Commons
+            continue
+        info = (page.get("imageinfo") or [None])[0]
+        if not info:
+            continue
+        meta = info.get("extmetadata", {}) or {}
+        lic = strip_html(meta.get("LicenseShortName", {}).get("value", ""))
+        if not OK_LICENCE.match(lic):
+            continue
+        clean = re.sub(r"^File:|\.\w+$", "", page.get("title", ""))
+        if contradicts_diet(clean, query, tags):
+            continue
+        if info.get("width", 0) < 500 or info.get("height", 0) < 380:
+            continue
+        src = info.get("thumburl") or info.get("url", "")
+        if not src:
+            continue
+        out.append({
+            "title": f"{clean} ({note})",
+            "url": src.split("?")[0],
+            "page": info.get("descriptionurl", ""),
+            "author": strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown",
+            "licence": lic,
+            "licence_url": strip_html(meta.get("LicenseUrl", {}).get("value", ""))
+                           or "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "Wikimedia Commons",
+            "score": score,
+            "strong": True,
+            "curated": True,
+        })
+    return out
+
+
+_WIKIDATA_CACHE = {}
+
+
+def wikidata_item(query):
+    """The first Wikidata item for this query that is described as food.
+
+    Returns (qid, label, P18 filename or None, sitelinks dict).
+
+    The catalogue's imageQuery is a description — "Bread sauce onion clove
+    milk" — which is the right thing to hand a caption search and the wrong
+    thing to hand an entity search: no item is labelled that, so the first
+    version of this found nothing for any recipe while the item it wanted sat
+    one field away. The dish name is tried first and the full string second.
+
+    Cached because the two sources built on it ask the same question, and an
+    entity lookup is two requests against a host that rate-limits.
+    """
+    if query in _WIKIDATA_CACHE:
+        return _WIKIDATA_CACHE[query]
+    result = (None, None, None, {})
+    terms = []
+    for term in (shorten(query), query):
+        if term and term not in terms:
+            terms.append(term)
+    for term in terms:
+        result = _wikidata_lookup(term)
+        if result[0]:
+            break
+    _WIKIDATA_CACHE[query] = result
+    return result
+
+
+def _wikidata_lookup(query):
+    if benched(host_of("https://www.wikidata.org/")):
+        return None, None, None, {}
+    found = http_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+        "action": "wbsearchentities", "search": query, "language": "en",
+        "uselang": "en", "type": "item", "format": "json", "limit": 5}), tries=3)
+    for hit in (found or {}).get("search", []):
+        qid = hit.get("id")
+        if not qid:
+            continue
+        # The search result's own description is enough to drop a village or a
+        # surname before spending a second request on it.
+        if not FOOD_DESC.search(hit.get("description") or ""):
+            continue
+        data = http_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+            "action": "wbgetentities", "ids": qid, "format": "json",
+            "props": "claims|sitelinks|labels"}), tries=3)
+        item = ((data or {}).get("entities") or {}).get(qid) or {}
+        claims = (item.get("claims") or {}).get("P18") or []
+        filename = None
+        for claim in claims:
+            value = ((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+            if isinstance(value, str):
+                filename = value
+                break
+        label = ((item.get("labels") or {}).get("en") or {}).get("value") or hit.get("label")
+        return qid, label, filename, (item.get("sitelinks") or {})
+    return None, None, None, {}
+
+
+def wikidata_candidates(query, tags=()):
+    """The image an editor attached to the dish's Wikidata item."""
+    qid, label, filename, _ = wikidata_item(query)
+    if not filename:
+        return []
+    return commons_file_candidate(
+        filename, f"image of {label or query} on Wikidata {qid}", 0.86, query, tags)
+
+
+def foreign_lead_candidates(query, tags=()):
+    """Lead images from the dish's article on Wikipedias other than English.
+
+    Talami has no English article. Plenty of these dishes are written up where
+    they are eaten and nowhere else, and the photograph at the top of that
+    article is on Commons like any other.
+    """
+    _, label, _, sitelinks = wikidata_item(query)
+    out = []
+    for key, link in list(sitelinks.items()):
+        if len(out) >= 1:
+            break
+        if not key.endswith("wiki") or key in ("enwiki", "commonswiki", "specieswiki"):
+            continue
+        lang = key[:-4].replace("_", "-")
+        host = f"https://{lang}.wikipedia.org"
+        if benched(host_of(host + "/")):
+            continue
+        data = http_json(host + "/w/api.php?" + urllib.parse.urlencode({
+            "action": "query", "format": "json", "redirects": "1",
+            "prop": "pageimages", "piprop": "original",
+            "titles": link.get("title", "")}), tries=2)
+        for page in ((data or {}).get("query", {}).get("pages", {}) or {}).values():
+            original = page.get("original") or {}
+            filename = urllib.parse.unquote(
+                original.get("source", "").split("?")[0].rsplit("/", 1)[-1])
+            if not filename:
+                continue
+            out += commons_file_candidate(
+                filename, f"lead image of the {lang}.wikipedia article on {label or query}",
+                0.84, query, tags)
+        if len(out) >= MAX_FOREIGN_WIKIS:
+            break
+    return out
+
+
 def commons_category_candidates(name, tags=()):
     """Files a person filed under Category:<dish> on Commons.
 
@@ -1056,7 +1334,22 @@ def gather(query, tags=(), reject=()):
     # Held as callables, not results. Built eagerly, every query ran before the
     # "we have enough" check below could stop anything — which on a rate-limited
     # archive is the difference between two calls a recipe and five.
-    attempts = [lambda: openverse_candidates(query),
+    #
+    # Wikidata first, ahead of every text search, and this is a change of mind
+    # rather than a new preference. The chain used to open with two Openverse
+    # searches and stop the moment it held two candidates, which meant that on
+    # a dish the archives caption loosely the curated sources were never asked
+    # at all: bread sauce came back as a photograph of injera, matched on the
+    # word "bread", while Bread sauce.jpg sat on the dish's own Wikidata item
+    # unread. Scallion oil noodles came back as a plate of foie gras.
+    #
+    # A text search says a caption contains these words. P18 says a person
+    # decided this picture represents this dish. The second is better evidence
+    # and it costs two requests, so it goes first and the rest of the chain is
+    # left exactly as it was for everything Wikidata does not know.
+    attempts = [lambda: wikidata_candidates(query, tags),
+                lambda: foreign_lead_candidates(query, tags),
+                lambda: openverse_candidates(query),
                 lambda: openverse_candidates(query, wide=False)]
     if brief:
         attempts.append(lambda: openverse_candidates(brief))
@@ -1085,6 +1378,12 @@ def gather(query, tags=(), reject=()):
     attempts.append(lambda: wikipedia_lead_candidates(query, tags))
     for cat_name in category_names(query):
         attempts.append(lambda n=cat_name: commons_category_candidates(n, tags))
+    # Last, and only if a key is configured. Stock libraries are strong on
+    # photogenic generic food and weak on exactly the regional dishes that
+    # reach the end of this chain, so they are asked after everything that
+    # indexes dishes by name has been asked and failed.
+    attempts.append(lambda: pexels_candidates(query, tags))
+    attempts.append(lambda: unsplash_candidates(query, tags))
     # A dish the archives hold nothing for costs the whole chain — eight
     # searches, each paced against a rate limit, each fetching metadata per
     # result — and that was measured at five to thirteen minutes a recipe.
@@ -1099,7 +1398,10 @@ def gather(query, tags=(), reject=()):
     # hours went.
     started = time.time()
     for position, attempt in enumerate(attempts):
-        if position >= 2 and time.time() - started > SEARCH_BUDGET:
+        # The first four always run: two curated lookups and the two broad
+        # searches that find the well-covered dishes. Everything after that
+        # is the long tail the budget exists to cut off.
+        if position >= 4 and time.time() - started > SEARCH_BUDGET:
             log(f"    · gave up after {SEARCH_BUDGET}s of searching")
             break
         for c in attempt():
@@ -1132,7 +1434,13 @@ def gather(query, tags=(), reject=()):
         # never promotes a worse photograph of the dish.
         licence = 0 if not NEEDS_CREDIT.match(c["licence"] or "") else (
             2 if SHARE_ALIKE.search(c["licence"] or "") else 1)
-        return (-round(c["score"], 2), licence, original,
+        # Ahead of the score, because the score cannot tell the two apart: a
+        # caption reading "injera bread" scores well against "bread sauce" and
+        # a curated claim cannot score higher than a good string match. Someone
+        # deciding a picture represents a dish is different in kind from a
+        # caption sharing words with it, so it is ranked as a different kind.
+        curated = 0 if c.get("curated") else 1
+        return (curated, -round(c["score"], 2), licence, original,
                 1 if throttled(c["url"]) else 0)
 
     pool.sort(key=rank)

@@ -435,6 +435,27 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
         + `holds ${drawn.length} of them — run npm run attribution`);
     }
   }
+
+  /* The gallery page says "Every photograph is freely licensed", which was
+     true of every source this site had: Wikimedia Commons and Openverse hand
+     back Creative Commons and public domain and nothing else.
+
+     tools/fetch_images.py can now also be given a Pexels or Unsplash key.
+     Both licences permit commercial use and resizing, which is why the gate
+     accepts them — but neither is a free licence, and the first stock
+     photograph to publish would make that sentence false with nothing saying
+     so. The claim is checked against what is actually published rather than
+     against what the fetcher was configured to ask for. */
+  const FREE = /^(cc0|public domain|pdm|no restrictions|cc[-\s]?by|attribution)/i;
+  const unfree = Object.values(manifest)
+    .flatMap(e => [e && e.hero, e && e.process])
+    .filter(shot => shot && !isIllustration(shot) && !FREE.test(shot.licence || ''));
+  if (unfree.length) {
+    const kinds = [...new Set(unfree.map(s => s.licence))].join(', ');
+    problems.push(`${unfree.length} published photograph(s) carry a licence that is not a free `
+      + `one (${kinds}), starting with ${unfree[0].file} — the gallery page says every `
+      + `photograph is freely licensed, so that sentence needs rewriting before these ship`);
+  }
 }
 
 /* Declared image sizes have to be the real ones. A wrong width and height

@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 3172 image files (WebP + JPEG)
+│       └── img/recipes/         # 3184 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 3172 image files
+├── assets/                      #    css, js and 3184 image files
 ├── recipes/                     #    1409 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -1203,6 +1203,72 @@ did not, reading the same file: a slug with an illustration refusal recorded
 against it is not a candidate. Worth writing down because the tool had solved
 this exact problem once already, in the selection step, and the lesson did not
 travel to the second place that needed it.
+
+## Asking the archives in a language other than English
+
+183 recipes were still on gradient cards after six passes, and the reading of
+that had been "the archives hold nothing for these dishes". It was wrong. The
+archives were only ever asked in English.
+
+Every source in `fetch_images.py` matched strings: a Commons text search, an
+Openverse caption search, an English Wikipedia article title. None of them can
+reach a file called `كبة لبنية.jpg`, which is the photograph of kibbeh
+labaniyeh, and no number of retries of the same search in the same language
+will find it.
+
+Wikidata can, because it matches the dish as a concept rather than as a string.
+An entity search hits a label or an alias in any language, and the item then
+carries P18 — an image an editor chose to represent that concept. Sampled
+across 30 of the 183, **12 had one**. Two sources are built on it: the P18
+image itself, and the lead image of the dish's article on its own language's
+Wikipedia, reached through the item's sitelinks, for dishes written up where
+they are eaten and nowhere else.
+
+Both hand their filename to one `commons_file_candidate()` that reads the
+licence from the file's own metadata. Where the filename came from never
+implies anything about what may be published.
+
+### The source was not the whole problem
+
+The first run with Wikidata wired in produced a photograph of injera for bread
+sauce. The word "bread" matched, and `Bread sauce.jpg` sat unread on the dish's
+own Wikidata item. Scallion oil noodles came back as a plate of foie gras.
+
+Two mistakes, and neither was the new source:
+
+- **`gather()` stops as soon as it holds two candidates**, and the chain opened
+  with two Openverse searches. On any dish the archives caption loosely, those
+  two filled the pool and every curated source after them was never called at
+  all. The new source had been added third and was reached for almost nothing.
+- **Score cannot separate the two kinds of evidence.** "injera bread" scores a
+  clean 1.00 against "bread sauce". A curated claim cannot beat a good string
+  match on relevance, because relevance is measuring the wrong thing: a caption
+  sharing words with a dish and a person deciding a picture *is* that dish are
+  different in kind, not different in degree.
+
+So the curated lookups now run first, and `rank()` sorts them into their own
+tier ahead of the score rather than competing inside it. A third fix was needed
+before either worked: the lookup was being handed the catalogue's `imageQuery`,
+which is a description — "Bread sauce onion clove milk" — and no item is
+labelled that. It tries the dish name first now.
+
+### A gate loosened, and the sentence that gate was holding up
+
+`fetch_images.py` can also be given a Pexels or Unsplash key. Both licences
+permit the two things this site does, commercial use beside advertising and
+resizing, and neither asks for credit; both are named in the licence gate in
+full rather than by pattern, so a third stock library cannot arrive through the
+same clause without someone reading its terms first. Without a key the two
+sources return nothing and the pipeline runs one source short.
+
+That loosening created a trap. The gallery page says "Every photograph is
+freely licensed", which was true of every source this site had, because
+Commons and Openverse hand back Creative Commons and public domain and nothing
+else. Neither stock licence is a free licence, and the first stock photograph
+to publish would have made that sentence false with nothing anywhere saying so.
+`tools/check.js` now fails the build on any published photograph whose licence
+is not a free one, naming the licence and the file. It was proved by injecting
+`Pexels License` onto a published photograph and watching the build refuse it.
 
 ## The ingredients came after the method
 
