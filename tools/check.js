@@ -37,15 +37,6 @@ function decodeEntities(value) {
 
 const isNoindex = html => /<meta name="robots" content="[^"]*noindex/.test(html);
 
-/* The third-party scripts allowed in <head>, and nothing else — see the guard
-   in the page loop below. Read out of the ad config rather than written down
-   here, so changing a unit's URL moves its exemption with it and adding a
-   second network does not silently inherit one. */
-const HEAD_SCRIPTS_ALLOWED = (() => {
-  const monetag = require('../src/data/ads').monetag;
-  return [monetag && monetag.src].filter(Boolean);
-})();
-
 const problems = [];
 const warnings = [];
 let pagesChecked = 0;
@@ -252,9 +243,11 @@ for (const file of htmlFiles) {
      The HTML parser only honours <meta charset> if the whole element is
      serialized inside the first 1024 bytes; past that it sniffs, and a page
      that names UTF-8 too late renders its accented ingredients as mojibake.
-     This mattered the moment a script moved above it — everything ahead of
-     the declaration now spends part of that budget, so the budget is checked
-     rather than assumed. */
+     This mattered while an ad tag sat above it: everything ahead of the
+     declaration spends part of that budget. That tag is gone and the
+     charset is the first thing in the head again, so the budget is no longer
+     being spent; the check stays because the next thing put above it would
+     spend it again silently. */
   {
     const at = html.indexOf('<meta charset');
     if (at === -1) {
@@ -267,21 +260,22 @@ for (const file of htmlFiles) {
     }
   }
 
-  /* --- nothing third-party in the head, bar two ----------------------------
+  /* --- nothing third-party in the head, bar one ----------------------------
      The head is what a crawler parses before it reaches any content, and a
      third-party script there is fetched and run while that is happening. The
-     Adsterra units carry no work that has to precede the document, so they
-     load at the end of the body, and this catches any that drift back up.
+     ad units carry no work that has to precede the document, so they load at
+     the end of the body, and this catches any that drift back up.
 
-     Two exceptions, both async and both there on purpose: Google's own gtag,
-     whose measurement is time-sensitive, and the Monetag tag, which the
-     network documents as a head placement. The second is read out of
-     src/data/ads.js, so it covers the configured unit and no other. */
+     One exception, async and there on purpose: Google's own gtag, whose
+     measurement is time-sensitive. There was a second — an ad tag whose
+     network documented a head placement — and removing that network removed
+     the exemption with it, which is why this is a hostname test again rather
+     than a list read out of src/data/ads.js. A network added later gets
+     nothing here by default. */
   {
     const head = html.slice(0, html.indexOf('</head>'));
     for (const [, src] of head.matchAll(/<script\b[^>]*\bsrc="(https?:\/\/[^"]+)"/g)) {
       if (src.includes('googletagmanager.com')) continue;
-      if (HEAD_SCRIPTS_ALLOWED.includes(src)) continue;
       problems.push(`${rel}: third-party script in <head> — ${src.slice(0, 60)}`);
     }
   }
@@ -433,46 +427,28 @@ if (!vercelCsp) {
    witness: a template edit that dropped an ad call would ship silently across
    every page and cost a day of impressions before anyone noticed.
    Skipped entirely when ads are switched off in src/data/ads.js, and when
-   consent gating is on, since that deliberately withholds two of the three. */
+   consent gating is on, since that deliberately withholds the loaders until a
+   reader agrees. */
 {
   const ads = require('../src/data/ads');
   const consent = require('../src/data/consent');
   const unit = (ads.nativeBanners || [])[0];
   const ADS_HEIGHT = ads.frameHeight || 300;
-  const monetag = ads.monetag;
 
   if (ads.enabled && !consent.enabled && unit) {
-    const missing = { popunder: [], socialBar: [], monetag: [], slots: [] };
-    /* Where each unit is meant to sit. The two Adsterra loaders go after the
-       content; the Monetag tag goes first in the head, which is the placement
-       its own integration notes ask for. Counting the unit on the page is not
-       enough on its own — a template edit can move a call without dropping it,
-       and "first script in the document" is the whole point of this one. */
-    const misplaced = { head: [], body: [] };
+    const missing = { popunder: [], socialBar: [], slots: [] };
     for (const file of htmlFiles) {
       const html = fs.readFileSync(file, 'utf8');
       const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
       if (ads.popunder && !html.includes(ads.popunder)) missing.popunder.push(where);
       if (ads.socialBar && !html.includes(ads.socialBar)) missing.socialBar.push(where);
-      if (monetag && monetag.src && !html.includes(monetag.src)) missing.monetag.push(where);
-      if (monetag && monetag.src && html.includes(monetag.src)) {
-        const headEnd = html.indexOf('</head>');
-        const at = html.indexOf(monetag.src);
-        if (at > headEnd) misplaced.head.push(where);
-        else if (html.indexOf(monetag.src, at + 1) !== -1) misplaced.body.push(where);
-        /* Nothing third-party may precede it, or it is not the first script. */
-        else if (/<script\b[^>]*\bsrc="https?:\/\//.test(html.slice(0, at))) {
-          misplaced.head.push(where);
-        }
-      }
       /* Two slots on every page: the first embeds the snippet, the second is an
          iframe onto the one-slot document. One of either is a broken layout. */
       const slots = (html.match(/container-|native-banner\.html/g) || []).length;
       if (slots !== 2) missing.slots.push(`${where} (${slots})`);
     }
     for (const [what, list] of [['the popunder', missing.popunder],
-                                ['the social bar', missing.socialBar],
-                                ['the Monetag tag', missing.monetag]]) {
+                                ['the social bar', missing.socialBar]]) {
       if (list.length) {
         problems.push(`${what} is missing from ${list.length} page${list.length === 1 ? '' : 's'}`
           + `, starting with ${list[0]}`);
@@ -482,15 +458,6 @@ if (!vercelCsp) {
       problems.push(`${missing.slots.length} page(s) do not carry exactly 2 native banner slots`
         + `, starting with ${missing.slots[0]}`);
     }
-    if (misplaced.head.length) {
-      problems.push(`the Monetag tag is not the first script in <head> on ${misplaced.head.length} `
-        + `page(s), starting with ${misplaced.head[0]}`);
-    }
-    if (misplaced.body.length) {
-      problems.push(`the Monetag tag appears twice on ${misplaced.body.length} page(s), `
-        + `which would load it twice, starting with ${misplaced.body[0]}`);
-    }
-
     /* Both slots have to hold the same space before the network paints. The
        framed one reserves its height on the iframe; the direct embed is a bare
        div and was holding only the stylesheet's 140px against a unit that
@@ -521,9 +488,6 @@ if (!vercelCsp) {
       }
       if (ads.socialBar && frame.includes(ads.socialBar)) {
         problems.push('the framed ad document carries the social bar, which would fire it twice');
-      }
-      if (monetag && monetag.src && frame.includes(monetag.src)) {
-        problems.push('the framed ad document carries the Monetag tag, which would fire it twice');
       }
     }
   }

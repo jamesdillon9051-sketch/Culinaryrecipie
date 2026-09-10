@@ -3,6 +3,14 @@
 /**
  * Adsterra ad units.
  *
+ * Adsterra is the only ad network on the site. A second one ran here for a
+ * while — a Monetag tag in <head>, plus two push service workers at the site
+ * root — and it is gone: the tag, its consent wiring, its exemption from the
+ * no-third-party-scripts-in-head rule, and sw.js and sw_2.js with it. If a
+ * second network is ever added again, it gets its own field here and its own
+ * emitter in ../templates/ads.js, and it does not inherit the head exemption,
+ * because there is no longer one to inherit.
+ *
  * Everything about the site's advertising lives here. Set `enabled` to false
  * and the next build strips every ad script and slot from every page — useful
  * for local work, Lighthouse runs, or pulling the ads entirely. tools/check.js
@@ -27,15 +35,16 @@ module.exports = {
   /**
    * Off.
    *
-   * Adsterra's popunder and Monetag's tag both open a background window on a
-   * click, so with both running one click could produce two. That reads as a
-   * broken site rather than an advert, and two networks competing for the same
-   * moment tends to cost more in sessions than either makes.
+   * It was switched off while a second network ran a tag that also opened a
+   * background window on a click, because between them one click could produce
+   * two — which reads as a broken site rather than an advert. That network has
+   * since been removed, so the conflict is gone and this is now simply a
+   * judgement about the format: a popunder is the most intrusive unit Adsterra
+   * offers, and on a site people arrive at from search it tends to cost more
+   * in sessions than it makes.
    *
-   * Monetag owns that slot now. Adsterra keeps the social bar and the native
-   * banners, which do not conflict with it. Put the URL back to switch this on
-   * again — nothing else has to change, and check.js starts counting it on
-   * every page the moment it is non-empty.
+   * Put the URL back to switch it on again — nothing else has to change, and
+   * check.js starts counting it on every page the moment it is non-empty.
    *
    * Was: https://pl31083097.profitableratecpmnetwork.com/c9/51/15/c95115ef478957b26e6e3b38d22f9853.js
    */
@@ -43,27 +52,6 @@ module.exports = {
 
   /* Loaded last, before </body>, so it never delays first paint. */
   socialBar: 'https://pl31083098.profitableratecpmnetwork.com/bf/a6/76/bfa676ffa93febb261c12a1f71055429.js',
-
-  /**
-   * Monetag's multi-format tag, a second network running alongside Adsterra.
-   *
-   * The zone travels on a data attribute rather than in the URL, which is how
-   * Monetag supplies it, and data-cfasync="false" tells Cloudflare's Rocket
-   * Loader to leave the tag alone — it rewrites script execution order and
-   * breaks tags that expect to run as written.
-   *
-   * The one script on the site that sits in <head> rather than after the
-   * content, and first in it: that is the placement Monetag's own integration
-   * notes ask for. tools/check.js reads the exemption from this field, so a
-   * change here moves it, and fails the build if the tag is not first, drifts
-   * into the body, or appears twice.
-   *
-   * Set `src` to '' to take it off every page at the next build.
-   */
-  monetag: {
-    src: 'https://quge5.com/88/tag.min.js',
-    zone: '277423'
-  },
 
   /**
    * Native banner units, in placement order. The first is used for the slot

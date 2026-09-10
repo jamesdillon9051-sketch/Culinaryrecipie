@@ -31,26 +31,6 @@ function socialBar() {
   return `<script src="${ADS.socialBar}" async></script>`;
 }
 
-/**
- * The Monetag tag, first thing in <head>. Empty while gating is on.
- *
- * The only third-party script on the site that is not at the end of the body,
- * and the placement is deliberate: Monetag documents this tag as a head
- * placement and asks for it as the first script in the document. It is async,
- * so it does not block the parser, and data-cfasync="false" keeps Cloudflare's
- * Rocket Loader from rewriting its execution order.
- *
- * tools/check.js still fails any other third-party script in <head>, and reads
- * the exemption out of ../data/ads.js rather than naming a host — so changing
- * the src here moves the exemption with it, and adding a second network does
- * not quietly inherit it.
- */
-function monetag() {
-  const unit = ADS.monetag;
-  if (!ADS.enabled || !unit || !unit.src || CONSENT.enabled) return '';
-  return `<script src="${unit.src}" data-zone="${unit.zone}" async data-cfasync="false"></script>`;
-}
-
 /** Path to the single-slot document that repeat placements are framed from. */
 const FRAME_PATH = 'assets/ads/native-banner.html';
 
@@ -139,4 +119,4 @@ function wrap(label, inner) {
 </aside>`;
 }
 
-module.exports = { popunder, socialBar, monetag, nativeBanner, frameDocument, FRAME_PATH, ADS };
+module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH, ADS };

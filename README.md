@@ -106,7 +106,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 2772 image files
+├── assets/                      #    css, js and 2894 image files
 ├── recipes/                     #    1209 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -565,45 +565,49 @@ gazpacho or gets handed round with the prawns.
 
 ## One pop, not two
 
-The Adsterra popunder is off. Monetag's tag opens a background window on a
-click and so did that one, so with both running a single click could produce
-two — which reads as a broken site rather than an advert, and two networks
-competing for the same moment tends to cost more in sessions than either makes.
+The Adsterra popunder is off. It was switched off while a second network ran a
+tag that also opened a background window on a click, so between them a single
+click could produce two — which reads as a broken site rather than an advert.
 
-Monetag owns that slot now. Adsterra keeps the social bar and the two native
-banners, which do not conflict with it. The switch is `popunder: ''` in
-`src/data/ads.js`, with the URL kept in the comment above it: putting it back
-is one edit, and `npm run check` starts counting it on every page again the
-moment it is non-empty.
+That network has since come out (see "The second ad network came out" below),
+so the conflict is gone and the switch stays off on its own merits: a popunder
+is the most intrusive format on offer, and on a site people reach from search
+it tends to cost more in sessions than it makes. The switch is `popunder: ''`
+in `src/data/ads.js`, with the URL kept in the comment above it: putting it
+back is one edit, and `npm run check` starts counting it on every page again
+the moment it is non-empty.
 
 Confirmed in Chromium — the external hosts a page now requests are the social
-bar, the banner, Monetag, Google's tag manager and the font CDN. The popunder's
-host is not among them.
+bar, the banner, Google's tag manager and the font CDN. The popunder's host is
+not among them.
 
 ## A second ad network
 
-Monetag's multi-format tag now runs alongside the three Adsterra units. It went
-into `src/data/ads.js` beside them rather than into the template, because that
-file is where every ad on the site is configured and where the off switch
-lives: emptying `monetag.src` takes the tag off all 946 pages at the next
-build, and `enabled: false` still takes everything off at once.
+*Superseded — this network was removed. See "The second ad network came out"
+below. Kept because the next two sections were written around it.*
 
-Placement is the one exception to the rule the rest of them follow — see
+Monetag's multi-format tag ran alongside the Adsterra units for a while. It
+went into `src/data/ads.js` beside them rather than into the template, because
+that file is where every ad on the site is configured and where the off switch
+lives: emptying `monetag.src` took the tag off all 946 pages at the next build,
+and `enabled: false` still takes everything off at once.
+
+Placement was the one exception to the rule the rest of them follow — see
 "Monetag went back to the head" below.
 
-It is wired through the consent path as well. Gating is switched off today, but
-if it is ever switched on, the tag has to leave the markup with the others and
-come back only after somebody agrees — so its URL and zone travel inertly on
-data attributes and `assets/js/consent.js` injects it with the rest. A unit
-that only half-respects the banner is worse than no banner.
+It was wired through the consent path as well. Gating is switched off today,
+but if it were ever switched on, the tag had to leave the markup with the
+others and come back only after somebody agreed — so its URL and zone travelled
+inertly on data attributes and `assets/js/consent.js` injected it with the
+rest. A unit that only half-respects the banner is worse than no banner.
 
-`npm run check` counts it on every page the way it counts the other three, and
-verifies it is absent from the framed one-slot document, where a second copy
-would fire it twice per page. Removing it from the layout produces 946
+`npm run check` counted it on every page the way it counts the others, and
+verified it was absent from the framed one-slot document, where a second copy
+would have fired it twice per page. Removing it from the layout produced 946
 failures.
 
-Measured in Chromium: the tag is requested, CLS stays at 0, and the page's own
-JavaScript still works — the servings scaler still steps.
+Measured in Chromium at the time: the tag was requested, CLS stayed at 0, and
+the page's own JavaScript still worked — the servings scaler still stepped.
 
 ## Two hostnames, one site
 
@@ -654,10 +658,10 @@ meets. Nothing either Adsterra unit does needs to happen before the content
 exists, so both now load immediately before `</body>`, alongside the native
 banner that was already there.
 
-`npm run check` fails on any third-party script in the head. Two are exempt:
-Google's own gtag, because its measurement is time-sensitive, and Monetag,
-which went back up there deliberately — the section below says why, and how
-the exemption is kept narrow.
+`npm run check` fails on any third-party script in the head. One is exempt:
+Google's own gtag, because its measurement is time-sensitive. A second
+exemption existed for a while and is gone with the network that had it — the
+two sections below say why it was granted and why it was withdrawn.
 
 The same pass found a real layout shift waiting to happen. Each page carries
 two banner slots. The framed one has always reserved its full height on the
@@ -669,8 +673,10 @@ fails if they disagree. Measured in Chromium at 390px: CLS 0, no shift events.
 
 ## Monetag went back to the head
 
+*Superseded — the tag has since been removed altogether. See the next section.*
+
 The section above moved every third-party script out of `<head>`, and Monetag
-is now back in it, first thing in the document. That is a reversal, so it is
+went back into it, first thing in the document. That was a reversal, so it is
 worth writing down why rather than leaving the two sections to contradict each
 other.
 
@@ -698,12 +704,57 @@ One thing had to be checked rather than assumed. The HTML parser only honours
 `<meta charset>` if the whole element is serialized inside the first 1024
 bytes; past that it sniffs, and a page that names UTF-8 too late renders its
 accented ingredients as mojibake. Nothing had ever sat above the declaration
-before, so the budget had never been spent. It ends at byte 277 now, and
-`npm run check` fails the build if it ever ends past 1024.
+before, so the budget had never been spent. It ended at byte 277 with the tag
+in place, and `npm run check` still fails the build if it ever ends past 1024.
 
 All five failures were confirmed by causing them: another third-party script in
 the head, the charset pushed past the budget, the tag moved to the body, the
 tag emitted twice, and an exempt gtag placed ahead of it.
+
+## The second ad network came out
+
+Adsterra is the only network on the site again. Monetag is gone: the tag, the
+head placement it was granted, its consent wiring, its exemption in
+`tools/check.js`, and the two push service workers it had left at the site
+root. Adsterra's social bar and its two native-banner slots are untouched and
+still on every page.
+
+It came out of five places, which is the useful part of the note — a tag
+removed from the template alone would have left four of them behind:
+
+| File | What went |
+| --- | --- |
+| `src/data/ads.js` | the `monetag` block |
+| `src/templates/ads.js` | the `monetag()` emitter and its export |
+| `src/templates/layout.js` | the call at the top of `<head>`, and the two `data-ad-monetag*` attributes on the consent tag |
+| `src/assets/js/consent.js` | the branch that injected the tag with its zone |
+| `sw.js`, `sw_2.js` | the push service workers, deleted from the repository root |
+
+The service workers are worth a line of their own, because deleting a file is
+not usually how you remove code that is already running on other people's
+machines. A registered service worker outlives the page that registered it and
+keeps its own update schedule; what ends it is the browser's update check
+receiving a 404 for the script, which unregisters the registration. So removing
+the two files from the server is not merely tidying the repository — it is the
+mechanism that retires them from the browsers that already have them.
+
+The check tightened rather than loosened. `HEAD_SCRIPTS_ALLOWED` read its
+exemption out of `src/data/ads.js`, and with nothing left to read it is gone:
+`npm run check` now fails **any** third-party script in `<head>` except
+Google's gtag, which is a hostname test again. The three placement guards that
+existed only for this tag — first script in the document, never in the body,
+never twice — went with it, and so did the assertion that the framed one-slot
+document does not carry it. The ad-coverage check still counts the social bar
+and exactly two banner slots on every page, and the charset-budget check stays
+even though nothing sits above the declaration any more, because the next thing
+put there would spend that budget silently.
+
+Verified on the built output rather than the templates: across all 1,347 HTML
+pages, zero carry the tag, the zone attribute, or either service-worker host;
+1,346 carry the social bar and 1,346 carry exactly two banner slots. The odd
+one out of those two counts is `assets/ads/native-banner.html`, the framed
+one-slot document, which is *required* not to carry the social bar and holds a
+single slot by design. The only third-party script left in any head is gtag.
 
 ## The ingredients came after the method
 
@@ -1315,8 +1366,8 @@ Both audits run inside `npm run check`.
 ## Ads
 
 `npm run check` verifies that every page carries every unit that is switched
-on in `src/data/ads.js`: today the Adsterra social bar, the Monetag tag, and
-exactly two native banner slots. Two, not one or three — the first embeds
+on in `src/data/ads.js`: today the Adsterra social bar and exactly two native
+banner slots. Two, not one or three — the first embeds
 Adsterra's snippet and the second is an iframe onto a one-slot document,
 because `getElementById` returns a single node and two copies of the snippet
 in one page leave the second slot empty forever. All of them load before the

@@ -67,9 +67,7 @@ function consentTag() {
         data-base="${SITE.base}"
         data-ga="${esc(ga || '')}"
         data-ad-popunder="${esc(ads.popunder || '')}"
-        data-ad-social="${esc(ads.socialBar || '')}"
-        data-ad-monetag="${esc((ads.monetag && ads.monetag.src) || '')}"
-        data-ad-monetag-zone="${esc((ads.monetag && ads.monetag.zone) || '')}" defer></script>`;
+        data-ad-social="${esc(ads.socialBar || '')}" defer></script>`;
 }
 
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
@@ -208,8 +206,6 @@ function layout(page) {
   return `<!doctype html>
 <html lang="en-GB" data-theme="light">
 <head>
-<!-- Monetag: a head placement, per the network's own notes. See src/templates/ads.js. -->
-${ads.monetag()}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
@@ -292,12 +288,15 @@ ${footer(page.cuisines || [])}
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">${ICONS.arrowUp}</button>
 ${scripts}
 <!--
-  The Adsterra units load at the end of the body rather than in the head. They
-  were async already, so they were not blocking the parser, but a third-party
-  script in the head is still fetched and executed while the document
-  Googlebot needs is being assembled. Nothing either unit does needs to happen
-  before the content exists, so neither is worth putting in front of it.
-  Monetag is the exception, and sits at the top of the head above.
+  The ad units load at the end of the body rather than in the head. They were
+  async already, so they were not blocking the parser, but a third-party script
+  in the head is still fetched and executed while the document Googlebot needs
+  is being assembled. Nothing either unit does needs to happen before the
+  content exists, so neither is worth putting in front of it.
+
+  There is no exception any more. One tag used to sit at the top of the head,
+  because its network asked for that placement; it has been removed, and
+  tools/check.js now fails any third-party script in <head> bar Google's gtag.
 -->
 ${ads.popunder()}
 ${ads.socialBar()}
