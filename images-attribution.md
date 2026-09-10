@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1307
-images, **784** are CC0 or public domain and carry no conditions at all, and
-**523** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1314
+images, **786** are CC0 or public domain and carry no conditions at all, and
+**528** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,20 +42,20 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 971 |
-| Secondary "process" images | 336 |
-| Total image files | 2614 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 238 |
+| Hero images | 976 |
+| Secondary "process" images | 338 |
+| Total image files | 2628 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 233 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 462 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 209 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 212 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 187 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 158 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 100 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 160 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 102 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 69 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
@@ -114,10 +114,8 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Kousa bil Laban (`kousa-bil-laban`)
 - Ka'ak bil Simsim (`kaak-bil-simsim`)
 - Talami (`talami`)
-- Halawet el Jibn (`halawet-el-jibn`)
 - Sfouf (`sfouf`)
 - Ta'ameya (`taameya`)
-- Shorbet Ads (`shorbet-ads`)
 - Salata Baladi (`salata-baladi`)
 - Egyptian Tahina (`tahina-salad`)
 - Baba Ghanoug Masri (`baba-ghanoug-masri`)
@@ -175,7 +173,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Sole Normande (`sole-normande`)
 - Lotte à l'Armoricaine (`lotte-a-l-armoricaine`)
 - Bar en Croûte de Sel (`bar-en-croute-de-sel`)
-- Aligot (`aligot`)
 - Gratin de Courgettes (`gratin-de-courgettes`)
 - Omelette aux Fines Herbes (`omelette-aux-fines-herbes`)
 - Pain de Campagne (`pain-de-campagne`)
@@ -194,13 +191,11 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Financiers (`financiers`)
 - Palmiers (`palmiers`)
 - Bagna Cauda (`bagna-cauda`)
-- Sarde in Saor (`sarde-in-saor`)
 - Fiori di Zucca Fritti (`fiori-di-zucca`)
 - Supplì (`suppli`)
 - Giardiniera (`giardiniera`)
 - Malloreddus alla Campidanese (`malloreddus`)
 - Strozzapreti alla Boscaiola (`strozzapreti`)
-- Pici all'Aglione (`pici-cacio-e-pepe`)
 - Anelletti al Forno (`anelletti-al-forno`)
 - Fregola con Arselle (`fregola`)
 - Risotto ai Funghi Porcini (`risotto-ai-funghi`)
@@ -1441,11 +1436,13 @@ licence as the rest of this project.
 | `layali-lubnan.webp` / `.jpg` | Layali Lubnan | Hero | Layali Laban (yaourt libanais) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Layali_Laban_(yaourt_libanais).jpg) |
 | `atayef-asafiri.webp` / `.jpg` | Atayef Asafiri | Hero | قطايف عصافيري1 | عباد ديرانية | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_%D8%B9%D8%B5%D8%A7%D9%81%D9%8A%D8%B1%D9%8A1.jpg) |
 | `atayef-asafiri-process.webp` / `.jpg` | Atayef Asafiri | Process | قطايف عصافيري2 | عباد ديرانية | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_%D8%B9%D8%B5%D8%A7%D9%81%D9%8A%D8%B1%D9%8A2.jpg) |
+| `halawet-el-jibn.webp` / `.jpg` | Halawet el Jibn | Hero | Halawet el Jibn with attar | 白と赤茶 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=163899631) |
 | `znoud-el-sit.webp` / `.jpg` | Znoud el Sit | Hero | زنود الست (1) | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B2%D9%86%D9%88%D8%AF_%D8%A7%D9%84%D8%B3%D8%AA_(1).jpg) |
 | `znoud-el-sit-process.webp` / `.jpg` | Znoud el Sit | Process | زنود الست (2) | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B2%D9%86%D9%88%D8%AF_%D8%A7%D9%84%D8%B3%D8%AA_(2).jpg) |
 | `meghli.webp` / `.jpg` | Meghli | Hero | meghli | celinecelines | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/13072070@N00/6789408434) |
 | `jallab.webp` / `.jpg` | Jallab | Hero | Jallab | AdamBomb_23 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/15592760@N00/6088510557) |
 | `besara.webp` / `.jpg` | Besara | Hero | Bissara (Moroccan Dip) | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bissara_(Moroccan_Dip).JPG) |
+| `shorbet-ads.webp` / `.jpg` | Shorbet Ads | Hero | شوربة عدس من سيسيليا | Emna Mizouni | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B4%D9%88%D8%B1%D8%A8%D8%A9_%D8%B9%D8%AF%D8%B3_%D9%85%D9%86_%D8%B3%D9%8A%D8%B3%D9%8A%D9%84%D9%8A%D8%A7.jpg) |
 | `batates-mohammara.webp` / `.jpg` | Batates Mohammara | Hero | بطاطس محمرة | Melaad2009 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3_%D9%85%D8%AD%D9%85%D8%B1%D8%A9.jpg) |
 | `kishk-masri.webp` / `.jpg` | Kishk Masri | Hero | Kishk | Cairocamels B. Simpson | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kishk.JPG) |
 | `macarona-bechamel.webp` / `.jpg` | Macarona Bechamel | Hero | Macarona bechamel | Zebi2424 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Macarona_bechamel.jpg) |
@@ -1525,6 +1522,8 @@ licence as the rest of this project.
 | `bouchee-a-la-reine.webp` / `.jpg` | Bouchée à la Reine | Hero | Bouchée à la Reine, nouilles fraiches (Au Dauphin, Strasbourg) | Tangopaso | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_Reine,_nouilles_fraiches_(Au_Dauphin,_Strasbourg).jpg) |
 | `bouchee-a-la-reine-process.webp` / `.jpg` | Bouchée à la Reine | Process | Bouchée à la reine | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_reine.jpg) |
 | `fondue-savoyarde.webp` / `.jpg` | Fondue Savoyarde | Hero | Fondue enchaînée | gadl | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/24183489@N00/275479322) |
+| `aligot.webp` / `.jpg` | Aligot | Hero | Bol d'aligot | Slastic | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bol_d%27aligot.jpg) |
+| `aligot-process.webp` / `.jpg` | Aligot | Process | Bol de aligot. | Slastic | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bol_de_aligot..jpg) |
 | `truffade.webp` / `.jpg` | Truffade | Hero | Truffade from Auvergne | djetlp | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/43461291@N00/4468893287) |
 | `piperade.webp` / `.jpg` | Pipérade | Hero | Basque Piperade | elliotharmon | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/59327140@N00/5417591904) |
 | `gratin-de-macaronis.webp` / `.jpg` | Gratin de Macaronis | Hero | macaroni gratin | yoppy | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/44124362019@N01/2151965876) |
@@ -1553,6 +1552,8 @@ licence as the rest of this project.
 | `carpaccio.webp` / `.jpg` | Carpaccio di Manzo | Hero | Appetizer : Beef Carpaccio | Thank You (23 Millions+) views | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/34128007@N04/52485583693) |
 | `carpaccio-process.webp` / `.jpg` | Carpaccio di Manzo | Process | Beef carpaccio at Hapa Izakaya | Ruth and Dave | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/95142644@N00/2309298246) |
 | `baccala-mantecato.webp` / `.jpg` | Baccalà Mantecato | Hero | Baccalà mantecato con polenta La Nuova Perla | Benreis | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baccal%C3%A0_mantecato_con_polenta_La_Nuova_Perla.jpg) |
+| `sarde-in-saor.webp` / `.jpg` | Sarde in Saor | Hero | sarde in saor (con cipolle rosse) | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/6916082975) |
+| `sarde-in-saor-process.webp` / `.jpg` | Sarde in Saor | Process | sarde in saor (con cipolle rosse) | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/6910394941) |
 | `insalata-di-mare.webp` / `.jpg` | Insalata di Mare | Hero | insalata frutta di mare | Ozchin | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/95268887@N00/869447158) |
 | `fritto-misto.webp` / `.jpg` | Fritto Misto | Hero | Fritto misto | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54835286701) |
 | `fritto-misto-process.webp` / `.jpg` | Fritto Misto | Process | fritto misto | clurr | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68474627@N00/2498313457) |
@@ -1566,6 +1567,7 @@ licence as the rest of this project.
 | `agnolotti.webp` / `.jpg` | Agnolotti del Plin | Hero | Agnolotti del plin in brodo | magnetbox | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35034345533@N01/3155749976) |
 | `culurgiones.webp` / `.jpg` | Culurgiones | Hero | Culurgiones | --IlSignoreDeiPC (talk) usando una fotocamera iPhone. | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Culurgiones.jpg) |
 | `culurgiones-process.webp` / `.jpg` | Culurgiones | Process | Culurgiones Ogliastra | Marica Massaro | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Culurgiones_Ogliastra.jpg) |
+| `pici-cacio-e-pepe.webp` / `.jpg` | Pici all'Aglione | Hero | Pici all'aglione | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/48213415106) |
 | `pappardelle-al-cinghiale.webp` / `.jpg` | Pappardelle al Cinghiale | Hero | Delicious Pappardelle al Cinghiale 042920116179 | roland | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/5670750879) |
 | `pappardelle-al-cinghiale-process.webp` / `.jpg` | Pappardelle al Cinghiale | Process | Pappardelle Funghi Freschi e Prosciutto di Cinghiale | marco.ziero | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/83762376@N00/2721314643) |
 | `trofie-al-pesto.webp` / `.jpg` | Trofie al Pesto | Hero | Trofie with pesto | pelican | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/85936780@N00/9828569174) |

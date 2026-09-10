@@ -10006,9 +10006,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halawet-el-jibn/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halawet-el-jibn.jpg</image:loc>
+      <image:title>Halawet el Jibn</image:title>
+      <image:caption>Halawet el Jibn — Lebanese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/znoud-el-sit/</loc>
@@ -10068,9 +10073,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shorbet-ads/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shorbet-ads.jpg</image:loc>
+      <image:title>Shorbet Ads</image:title>
+      <image:caption>Shorbet Ads — Egyptian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salata-baladi/</loc>
@@ -11076,9 +11086,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aligot/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aligot.jpg</image:loc>
+      <image:title>Aligot</image:title>
+      <image:caption>Aligot — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/truffade/</loc>
@@ -11421,9 +11436,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sarde-in-saor/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sarde-in-saor.jpg</image:loc>
+      <image:title>Sarde in Saor</image:title>
+      <image:caption>Sarde in Saor — Italian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/insalata-di-mare/</loc>
@@ -11556,9 +11576,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pici-cacio-e-pepe/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pici-cacio-e-pepe.jpg</image:loc>
+      <image:title>Pici all&#39;Aglione</image:title>
+      <image:caption>Pici all&#39;Aglione — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pappardelle-al-cinghiale/</loc>

@@ -364,7 +364,10 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
   if (!fs.existsSync(dir)) continue;
   for (const file of fs.readdirSync(dir)) {
     if (!wanted.has(file.replace(/\.(jpg|webp)$/, ''))) {
-      problems.push(`image file no entry in images.json points at — ${dir.split('/').slice(-4)[0]}/${file}`);
+      /* The whole path, because "src/liangpi.jpg" sent one reader looking
+         for a file at the repository root that was never there. */
+      problems.push(`image file no entry in images.json points at — `
+        + `${path.relative(path.join(__dirname, '..'), path.join(dir, file))}`);
     }
   }
 }

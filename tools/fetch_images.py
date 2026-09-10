@@ -1063,6 +1063,20 @@ def main():
     if "--manifest" in argv:
         MANIFEST = os.path.abspath(argv[argv.index("--manifest") + 1])
 
+    # The catalogue is walked in order, so a volume at the end is reached only
+    # after every gap before it has been retried. The Chinese volume sits last
+    # and was never once reached across three full runs, because the 138 harder
+    # recipes ahead of it consumed each run first. --only names the slugs to
+    # work on and skips the rest.
+    only = set()
+    if "--only" in argv:
+        arg = argv[argv.index("--only") + 1]
+        if os.path.exists(arg):
+            only = {ln.strip() for ln in open(arg) if ln.strip()
+                    and not ln.startswith("#")}
+        else:
+            only = {x.strip() for x in arg.split(",") if x.strip()}
+
     os.makedirs(IMG_DIR, exist_ok=True)
     alts = alt_queries()
     rejects = rejected_pages()
@@ -1077,6 +1091,9 @@ def main():
     if os.path.exists(MANIFEST):
         manifest = json.load(open(MANIFEST))
 
+    if only:
+        catalog = [r for r in catalog if r["slug"] in only]
+        log(f"restricted to {len(catalog)} named recipes")
     for idx, rec in enumerate(catalog):
         if shards > 1 and idx % shards != shard:
             continue
