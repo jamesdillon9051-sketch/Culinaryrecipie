@@ -442,6 +442,10 @@
       "model": "sana",
       "prompt": "A whole fish buried in salt bound with egg white and baked, The crust sets hard, seals completely, and the fish steams in its own moisture, made with sea bass, egg whites, fennel seeds, lemon, thyme sprigs, a French dish called Bar en Cro\u00fbte de Sel, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a bare fish on a plate, and the salt crust is the whole method"
+    },
+    {
+      "page": "https://www.flickr.com/photos/187878392@N04/51479878767",
+      "why": "a plated fillet with no salt crust, which is the dish"
     }
   ],
   "fondue-savoyarde": [
@@ -568,6 +572,10 @@
       "model": "sana",
       "prompt": "Puff pastry base, choux buns dipped in caramel, and piped cr\u00e8me chiboust between them, made with puff pastry, eggs, whole milk, egg yolks, cornflour, a French dish called Saint-Honor\u00e9, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "plain rounds on a windowsill"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=6773761",
+      "why": "a rolled sponge, not choux and cream with caramelised profiteroles"
     }
   ],
   "opera": [
@@ -670,6 +678,10 @@
       "model": "sana",
       "prompt": "Almond cream sealed between two discs of puff pastry, the top scored in curves from the centre, made with ground almonds, eggs, dark rum, vanilla extract, egg, a French dish called Pithiviers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "two small plain rounds instead of one large scored pie"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sermaises-du-Loiret_-_D%C3%A9p%C3%B4t_de_la_Sucrerie_de_Pithiviers.jpg",
+      "why": "a sepia postcard of a railway depot"
     }
   ],
   "financiers": [
@@ -704,6 +716,10 @@
       "model": "sana",
       "prompt": "Small almond cakes made with brown butter and egg whites, baked hot so the edges crisp, Named for the gold-bar shape and the district that ate them, made with ground almonds, egg whites, vanilla extract, a French dish called Financiers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a stack of rounds, and financiers are small rectangles"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58819758@N00/3911540182",
+      "why": "small round cakes, not the rectangular ingot that names them"
     }
   ],
   "palmiers": [
@@ -818,6 +834,14 @@
       "model": "sana",
       "prompt": "Courgette flowers filled with ricotta and mozzarella, dipped in a thin batter and fried, made with courgette flowers, ricotta, mozzarella, Parmigiano Reggiano, basil leaves, a Italian dish called Fiori di Zucca Fritti, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a vase of white flowers, not courgette flowers stuffed and fried"
+    },
+    {
+      "page": "https://www.flickr.com/photos/13193075@N00/4023439559",
+      "why": "raw courgette flowers, the ingredient rather than the fried dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/69841633@N08/12160286293",
+      "why": "raw courgette flowers, the ingredient rather than the fried dish"
     }
   ],
   "suppli": [
@@ -1066,6 +1090,10 @@
       "model": "sana",
       "prompt": "Small onions in spiced malt vinegar, sharp enough to make your eyes water, Six weeks in the jar and they will keep for a year, made with litres malt vinegar, black peppercorns, yellow mustard seeds, coriander seeds, allspice berries, a British dish called Pickled Onions, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a jar of dark liquid and seeds with no onions in it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7927684@N03/4962328262",
+      "why": "a plate of meat and tomato salad with no pickles in it"
     }
   ],
   "cumberland-sauce": [
@@ -1126,6 +1154,14 @@
       "model": "sana",
       "prompt": "Suet pastry lining a basin, filled with beef and kidney and steamed for four hours until the crust is translucent, Nothing else in British cooking is quite like it, made with shredded beef suet, beef chuck, ox or lamb kidney, onion, Worcestershire sauce, a British dish called Steak and Kidney Pudding, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "filling in a bowl with no suet crust around it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10413717@N08/4219756657",
+      "why": "a browned pastry pie, not a pale suet-crusted pudding"
+    },
+    {
+      "page": "https://www.flickr.com/photos/51048785@N00/2658407029",
+      "why": "a browned pastry pie, not a pale suet-crusted pudding"
     }
   ],
   "devilled-kidneys": [
@@ -1270,6 +1306,10 @@
       "model": "sana",
       "prompt": "Parsnips parboiled, roughed up and roasted in honey until the edges go almost black, made with parsnips, sprigs thyme, runny honey, English mustard, a British dish called Honey Roast Parsnips, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "pale and raw looking, with no roast colour on them"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Honey_roasted_parsnip_soup_with_chive_cr%C3%A8me_fra%C3%AEche_(GOC_Kings_Langley_Xmas_2012_064)_(8290021751).jpg",
+      "why": "a bowl of pale soup with bread and butter"
     }
   ],
   "pease-pudding": [
@@ -1326,6 +1366,10 @@
       "model": "sana",
       "prompt": "Hard cheese beaten with butter, mace and port and sealed under more butter, Eighteenth-century, requires no cooking, and outclasses every shop-bought cheese spread ever made, made with mature cheddar, ruby port or dry sherry, English mustard, ground mace, a British dish called Potted Cheese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a wedge of hard cheese, not cheese beaten to a paste and potted"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/3242824038",
+      "why": "a dish of rice and ham, not a pot of cheese paste"
     }
   ],
   "cucumber-sandwiches": [
@@ -1412,6 +1456,10 @@
       "model": "sana",
       "prompt": "A light fruit cake with almonds arranged in rings on top, and no cherries in it at all, Made with Seville orange peel, which is what makes it Dundee, made with Zest of 1 orange, Zest of 1 lemon, eggs, baking powder, ground almonds, a Scottish dish called Dundee Cake, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "an orange spiky mass with no fruit cake under it"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Dundee_cake.jpg",
+      "why": "an iced cake with lit birthday candles, not an almond-topped fruit cake"
     }
   ],
   "jianbing": [
@@ -1462,6 +1510,10 @@
       "model": "sana",
       "prompt": "Cigarettes of filo around salty white cheese, fried until they blister, The cheese has to be one that softens without running, or they burst, made with akkawi cheese, sheets filo pastry, mint leaves, egg, a Lebanese dish called Cheese Rakakat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a swirl of melted cheese rather than pastry rolled round it and fried"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_Cheese_Curds_Green_Bay_Wisconsin.JPG",
+      "why": "round fried nuggets, not cheese-filled rolls"
     }
   ],
   "loubieh-bzeit": [
@@ -1698,6 +1750,14 @@
       "model": "sana",
       "prompt": "made with lamb shoulder, small okra, onions, tin chopped tomatoes, tomato pur\u00e9e, a Egyptian dish called Bamia Masreya, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a dark room with a small plate somewhere in it"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gumbo_and_Old_News.jpg",
+      "why": "a brown stew on newsprint with no okra and no red sauce"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gumbo_rolls_bowls.jpg",
+      "why": "a brown stew on newsprint with no okra and no red sauce"
     }
   ],
   "mahshi-cromb": [
@@ -2116,6 +2176,10 @@
       "model": "sana",
       "prompt": "Lotus root sliced thin, rinsed of its starch and fried for barely two minutes, so it stays as crisp as an apple, made with lotus root, rice vinegar, garlic cloves, ginger, dried red chillies, a Chinese dish called Stir-Fried Lotus Root, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "pale chunks with none of the holes that make lotus root recognisable"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_noodles_-_Chiang_Rai_-_2017-07-01_(001).jpg",
+      "why": "a banana leaf platter of meat and soup with no lotus root"
     }
   ],
   "hot-and-sour-potato": [
@@ -2290,6 +2354,14 @@
       "model": "sana",
       "prompt": "A dark pudding made from Aleppo pine seed, layered with cream and nuts, Made for the Prophet\u2019s birthday, tastes of nothing else, and takes real work to get right, made with zgougou, cornflour, whole milk, vanilla extract, pistachios, a Tunisian dish called Assidat Zgougou, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a person at a window, for the second time"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Assidat_zgougou,_Tunisie_2013.JPG",
+      "why": "bright yellow, where zgougou is dark grey-brown from Aleppo pine"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Assida_Zgougou_avec_fruits_secs_-_1.JPG",
+      "why": "bright yellow, where zgougou is dark grey-brown from Aleppo pine"
     }
   ],
   "beetroot-feta-salad": [
@@ -2948,6 +3020,10 @@
       "model": "sana",
       "prompt": "Small pieces of chicken in a red, curry-leaf-scented coating, fried hard and tossed with yoghurt and chilli, A Chennai hotel dish from 1965, made with boneless chicken thigh, thick natural yoghurt, ginger and garlic paste, Kashmiri chilli powder, ground turmeric, an Indian dish called Chicken 65, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a soupy plate, not dry red fried chicken pieces"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/3456937096/",
+      "why": "a slice of pizza"
     }
   ],
   "chicken-lollipop": [
@@ -2964,6 +3040,10 @@
       "model": "sana",
       "prompt": "Boiled eggs halved into a spiced onion and tomato gravy, The cheapest good curry there is, and on the table in forty-five minutes, made with eggs, ground turmeric, Kashmiri chilli powder, onions, ginger and garlic paste, an Indian dish called Egg Curry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "reads as raw yolks floating in sauce"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7914713@N05/32768509204",
+      "why": "a bowl of brown mince with no egg in it"
     }
   ],
   "fish-tikka": [
@@ -2972,6 +3052,14 @@
       "model": "sana",
       "prompt": "Firm white fish in a yoghurt and carom seed marinade, charred at the edges, Thirty-five minutes and no tandoor required, made with thick Greek yoghurt, ginger and garlic paste, carom seeds, Kashmiri chilli powder, ground turmeric, an Indian dish called Fish Tikka, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a block in yellow broth, not grilled marinated chunks"
+    },
+    {
+      "page": "https://www.flickr.com/photos/15441925@N00/2674502183",
+      "why": "an ambiguous plated item that does not read as marinated fish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/15441925@N00/4503061537",
+      "why": "an ambiguous plated item that does not read as marinated fish"
     }
   ],
   "veg-biryani": [
@@ -3004,6 +3092,14 @@
       "model": "sana",
       "prompt": "A yeasted pancake stuffed with brown sugar and nuts, pressed flat on a griddle so the filling melts to syrup, Korean winter street food, made with fast-action yeast, warm milk, ground cinnamon, peanuts, walnuts, a Korean dish called Hotteok, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a tall stack of thin pancakes, not one filled griddled bun"
+    },
+    {
+      "page": "https://www.flickr.com/photos/94805433@N00/3195262023",
+      "why": "the interior of a food stall"
+    },
+    {
+      "page": "https://www.flickr.com/photos/42438955@N05/4436867103",
+      "why": "the interior of a food stall"
     }
   ],
   "korean-corn-cheese": [
@@ -3012,6 +3108,10 @@
       "model": "sana",
       "prompt": "Sweetcorn bound with mayonnaise under a lid of grilled mozzarella, A side dish that arrives bubbling and never comes back to the kitchen, made with tinned sweetcorn, mayonnaise, spring onions, low-moisture mozzarella, a Korean dish called Korean Corn Cheese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "plain corn kernels with no melted cheese"
+    },
+    {
+      "page": "https://www.flickr.com/photos/34517103@N00/2322925862",
+      "why": "packets of snacks on a shop shelf"
     }
   ],
   "shoyu-ramen": [
@@ -3044,6 +3144,10 @@
       "model": "sana",
       "prompt": "The mildest of the Thai curries, yellow with turmeric and thick with potato, The one to cook for people who say they do not like heat, made with chicken thigh, tin coconut milk, yellow curry paste, potatoes, onion, a Thai dish called Thai Yellow Curry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a murky bowl of yellow lumps"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54055148397",
+      "why": "a photograph of a Thai restaurant storefront"
     }
   ],
   "pad-woon-sen": [
@@ -3052,6 +3156,10 @@
       "model": "sana",
       "prompt": "Glass noodles tossed with egg, prawns and vegetables in a light soy dressing, Twenty-seven minutes and lighter than pad thai, made with mung bean glass noodles, raw prawns, eggs, garlic cloves, onion, a Thai dish called Pad Woon Sen, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "yellow wheat noodles where the dish is glass noodles"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/4871152061",
+      "why": "a cabbage stir-fry with no glass noodles visible"
     }
   ],
   "chicken-fajitas": [
@@ -3060,6 +3168,10 @@
       "model": "sana",
       "prompt": "Marinated chicken and peppers cooked hard in a dry pan and brought to the table still spitting, The sizzle is the point, made with chicken thigh, lime juice, ground cumin, smoked paprika, dried oregano, a Mexican dish called Chicken Fajitas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "chicken and peppers over what reads as pasta, no tortillas"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/448421/free-photo-image-mexican-food-fajita",
+      "why": "a tray of tostadas and dips, not strips with peppers"
     }
   ],
   "pico-de-gallo": [
@@ -3068,6 +3180,14 @@
       "model": "sana",
       "prompt": "Tomato, onion, chilli, coriander and lime, chopped small and salted, Fifteen minutes, no cooking, and it improves everything it touches, made with ripe tomatoes, white onion, jalape\u00f1os, coriander leaves, lime juice, a Mexican dish called Pico de Gallo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "dominated by sweetcorn, not the tomato and onion dice"
+    },
+    {
+      "page": "https://www.flickr.com/photos/157959231@N05/26986601777",
+      "why": "a mountain landscape, which is the other Pico de Gallo"
+    },
+    {
+      "page": "https://www.flickr.com/photos/71401718@N00/2975811164",
+      "why": "a mountain landscape, which is the other Pico de Gallo"
     }
   ],
   "salsa-verde-mexican": [
@@ -3108,6 +3228,10 @@
       "model": "sana",
       "prompt": "Hard-boiled eggs chopped rough with mayonnaise, mustard and chives, Twenty minutes, and the texture depends entirely on the knife, made with eggs, mayonnaise, Dijon mustard, celery stick, chopped chives, an American dish called Egg Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a yellow ball with a bite taken out of it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/101561334@N08/33723369243",
+      "why": "reads as spaetzle, with no egg white or yolk visible"
     }
   ],
   "pesto-pasta": [
@@ -3156,6 +3280,10 @@
       "model": "sana",
       "prompt": "Dumplings the size of a fingernail under garlic yoghurt and paprika butter, Eighty minutes, most of it folding, made with egg, minced lamb, onion, thick natural yoghurt, garlic cloves, a Turkish dish called Manti, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a smooth yellow dome with no dumplings in it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/27656017@N02/35813834800",
+      "why": "a praying mantis on a leaf"
     }
   ],
   "flapjacks": [
@@ -3164,6 +3292,10 @@
       "model": "sana",
       "prompt": "Oats bound with butter, golden syrup and sugar, baked in a tray and cut while warm, Thirty-five minutes and impossible to get wrong except in one way, made with rolled oats, golden syrup, vanilla extract, a British dish called Flapjacks, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a stack of round biscuits, not squares cut from an oat tray"
+    },
+    {
+      "page": "https://www.flickr.com/photos/127635274@N05/15607786140",
+      "why": "two glasses of liqueur beside a slab of cake and prunes"
     }
   ],
   "vegetable-stir-fry": [
@@ -3276,6 +3408,14 @@
       "model": "sana",
       "prompt": "Chicken thighs, potatoes, lemon and oregano in one tin for forty-five minutes, The tin does the work, made with chicken thighs, waxy potatoes, lemons, garlic cloves, dried oregano, a Greek dish called Greek Chicken Traybake, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a tray of pale balls with no chicken in it"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5940088/free-public-domain-cc0-photo",
+      "why": "a chicken and crouton salad, not a tray of roast chicken and potatoes"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6031681/photo-image-public-domain-food-free",
+      "why": "a chicken and crouton salad, not a tray of roast chicken and potatoes"
     }
   ],
   "aloo-keema": [
@@ -3356,6 +3496,14 @@
       "model": "sana",
       "prompt": "Mushrooms, mustard and soured cream reduced into a sauce for beef or anything else, Forty minutes and no beef required, made with chestnut mushrooms, onions, garlic cloves, sweet paprika, Dijon mustard, a Russian dish called Stroganoff Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "what read as bread rolls in a dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25128194@N02/3612329429",
+      "why": "a loaded jacket potato rather than the sauce"
+    },
+    {
+      "page": "https://www.flickr.com/photos/33990010@N02/4784227049",
+      "why": "a loaded jacket potato rather than the sauce"
     }
   ],
   "papa-a-la-huancaina": [
@@ -3380,6 +3528,10 @@
       "model": "sana",
       "prompt": "Toasted chickpea flour whisked into a spiced stew that thickens as you stir, On the table in half an hour, made with shiro powder, onion, garlic cloves, cm piece root ginger, berbere, an Ethiopian dish called Shiro Wat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "whole chickpeas in sauce where shiro is a smooth chickpea flour stew"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Amakusa_Shiro_Battle_Flag_in_Shimabara_Rebellion.png",
+      "why": "an illuminated manuscript showing a chalice"
     }
   ],
   "misir-wat": [
@@ -3388,6 +3540,10 @@
       "model": "sana",
       "prompt": "Red lentils cooked down with berbere until they go dark and glossy and the oil separates out, The dry onion start does it, made with split red lentils, onions, garlic cloves, cm piece root ginger, berbere, an Ethiopian dish called Misir Wat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a small pastry tart, not a red lentil stew"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Misir_Wot_and_Gomen_Besiga_-_Abyssinia,_Brighton.jpg",
+      "why": "a green stew on injera, not the red lentil one"
     }
   ],
   "mandazi": [
@@ -3396,6 +3552,14 @@
       "model": "sana",
       "prompt": "Cardamom and coconut milk in a soft fried triangle, sweet enough for morning and not much more, Kenya's doughnut, made with baking powder, ground cardamom, egg, coconut milk, a Kenyan dish called Mandazi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "pale round discs, not golden triangles"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kenyan_breakfast_2.jpg",
+      "why": "an overhead table of many small bowls"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kenyan_breakfast.jpg",
+      "why": "an overhead table of many small bowls"
     }
   ],
   "baleadas": [
@@ -3404,6 +3568,10 @@
       "model": "sana",
       "prompt": "A thick flour tortilla folded over refried beans, cream and crumbled cheese, Honduras's breakfast, and thirty minutes, made with baking powder, lard or vegetable shortening, onion, garlic cloves, ground cumin, an International dish called Baleadas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "an open tortilla with no beans on it"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baleada.jpg",
+      "why": "a plain folded tortilla with no beans or cream in it"
     }
   ],
   "stamppot": [
@@ -3460,6 +3628,14 @@
       "model": "sana",
       "prompt": "Bread dumplings steamed in a cloth roll and cut into rounds with thread, What Czech gravy is served over, made with fast-action yeast, warm milk, egg, slices stale white bread, a Czech dish called Czech Dumplings, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a filled bread roll, not sliced steamed dumplings"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5918752/image-public-domain-wood-table",
+      "why": "a crusty rye loaf, where knedliky are crustless steamed dumplings"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5975300/traditional-czech-bread-with-lard",
+      "why": "a crusty rye loaf, where knedliky are crustless steamed dumplings"
     }
   ],
   "stoofvlees": [
@@ -3476,6 +3652,10 @@
       "model": "sana",
       "prompt": "Thin potato pancakes fried in butter, with bacon and lingonberry, Sweden's Thursday, and forty minutes, made with floury potatoes, whole milk, egg, streaky bacon, lingonberry jam, a Swedish dish called Raggmunk, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a distant table with the food barely in frame"
+    },
+    {
+      "page": "https://www.flickr.com/photos/14514578@N08/54320664370",
+      "why": "a plain pale tortilla in a dish, with no bacon or lingonberry"
     }
   ],
   "fattet-hummus": [
@@ -3500,6 +3680,10 @@
       "model": "sana",
       "prompt": "Green beans and pork stir-fried in red curry paste with no coconut milk at all, A dry curry, and thirty minutes, made with green beans, pork loin or chicken thigh, red curry paste, fish sauce, kaffir lime leaves, a Thai dish called Pad Prik King, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a green sauce where the dish is a dry red curry paste"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mu_phat_phrik_khing.jpg",
+      "why": "a street cook at a wok rather than the finished dish"
     }
   ],
   "bun-rieu": [
@@ -3540,6 +3724,10 @@
       "model": "sana",
       "prompt": "Balls of fresh cheese boiled in thin syrup until they double and turn spongy, Bengal's sweet, and the texture is everything, made with litres whole milk, fine semolina, green cardamom pods, an Indian dish called Rasgulla, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "white balls on a dry plate with no syrup"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/76669faaaa/",
+      "why": "balls in creamy milk, which is ras malai, not syrup"
     }
   ],
   "mysore-pak": [
@@ -3548,6 +3736,14 @@
       "model": "sana",
       "prompt": "Gram flour cooked with ghee and sugar until it sets porous and melts on contact, Forty-five minutes, and the pour is a race, made with ghee, ground cardamom, an Indian dish called Mysore Pak, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a bowl of loose paste, not cut squares of set fudge"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mysore_pak.jpg",
+      "why": "a white slab, not the porous golden fudge"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:A_view_of_Mysore_pa.jpg",
+      "why": "a white slab, not the porous golden fudge"
     }
   ],
   "aam-panna": [
@@ -3588,6 +3784,10 @@
       "model": "sana",
       "prompt": "Poached chicken torn into shreds with cabbage, herbs and a sharp fish sauce dressing, Forty minutes, mostly cooling, made with chicken breasts, cm ginger, spring onions, white cabbage, carrot, a Vietnamese dish called G\u1ecfi G\u00e0, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "shredded slaw with no chicken in a chicken salad"
+    },
+    {
+      "page": "https://www.flickr.com/photos/91188380@N05/16665897461",
+      "why": "rice paper rolls, not a shredded chicken salad"
     }
   ],
   "kaju-katli": [
@@ -3604,6 +3804,10 @@
       "model": "sana",
       "prompt": "Cumin, mint, tamarind and black salt in cold water, Fifteen minutes, no cooking, and it tastes like nothing else, made with cumin seeds, mint leaves, coriander leaves, tamarind paste, green chillies, an Indian dish called Jaljeera, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a bowl of soup with peas, not a thin green cumin drink"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Two_Indian_Drinks.jpg",
+      "why": "a cafe table of assorted drinks"
     }
   ],
   "chaas": [
@@ -3628,6 +3832,10 @@
       "model": "sana",
       "prompt": "Chips under beef chilli and melted cheese, eaten with a fork before the bottom layer surrenders, Forty-five minutes, made with Maris Piper potatoes, minced beef, onion, garlic cloves, tomato pur\u00e9e, an American dish called Chili Cheese Fries, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "an orange gloop with no fries visible at all"
+    },
+    {
+      "page": "https://stocksnap.io/photo/chili-bowl-TOPPXSZHAV",
+      "why": "a pot of chili with no fries anywhere"
     }
   ],
   "french-dip": [
@@ -3644,6 +3852,10 @@
       "model": "sana",
       "prompt": "Corned beef and potato pressed into a hot pan and left alone until a crust forms, Forty minutes and one flip, made with waxy potatoes, corned beef, beef dripping, onion, smoked paprika, an American dish called Corned Beef Hash, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a wet orange mass with none of the browned crust the recipe is about"
+    },
+    {
+      "page": "https://www.flickr.com/photos/57873306@N00/4645631892",
+      "why": "a plate of sandwiches and salad"
     }
   ],
   "monkey-bread": [
@@ -3668,6 +3880,10 @@
       "model": "sana",
       "prompt": "Thin beef rolled around bacon, onion and pickle, browned and braised two hours into its own gravy, made with German or Dijon mustard, rashers streaky bacon, onions, gherkins, carrots, a German dish called Rouladen, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "an orange wrap, not a beef roll in dark gravy"
+    },
+    {
+      "page": "https://www.flickr.com/photos/9294749@N03/4432789817",
+      "why": "raw beef rolls on a board, before any cooking"
     }
   ],
   "kartoffelsalat": [
@@ -3684,6 +3900,14 @@
       "model": "sana",
       "prompt": "Chocolate sponge soaked in kirsch, layered with cherries and cream, The kirsch is not optional and never was, made with eggs, cocoa powder, baking powder, jarred morello cherries, kirsch, a German dish called Black Forest Gateau, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a window and a cup of coffee with no cake in frame"
+    },
+    {
+      "page": "https://www.flickr.com/photos/149556095@N03/34736756530",
+      "why": "a photograph of a Black Forest village, the region rather than the cake"
+    },
+    {
+      "page": "https://www.flickr.com/photos/14922165@N00/21013184359",
+      "why": "a photograph of a Black Forest village, the region rather than the cake"
     }
   ],
   "obatzda": [
@@ -3708,6 +3932,10 @@
       "model": "sana",
       "prompt": "Ukrainian dumplings filled with sour cherries, boiled and served with soured cream and sugar, Sweet, and a main course, made with egg, pitted sour cherries, fine semolina, soured cream, an Ukrainian dish called Varenyky, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "blurred round balls, not half-moon dumplings"
+    },
+    {
+      "page": "https://www.flickr.com/photos/91946264@N00/3733819336",
+      "why": "raw dumplings on a tray mid-assembly, not a finished plate"
     }
   ],
   "pkhali": [
@@ -3740,6 +3968,10 @@
       "model": "sana",
       "prompt": "Fresh fruit blended with a little sugar and lime and frozen in moulds, Fifteen minutes of work and no cooking, made with ripe mango flesh, lime juice, Taj\u00edn or chilli powder, wooden lolly sticks, a Mexican dish called Paletas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "fruit in a cup with a stick, not a moulded ice lolly"
+    },
+    {
+      "page": "https://www.flickr.com/photos/38689115@N08/15602870533",
+      "why": "an advertising flyer for a paleta company, with text across it"
     }
   ],
   "conchas": [
@@ -3748,6 +3980,10 @@
       "model": "sana",
       "prompt": "Sweet enriched rolls under a crisp sugar paste scored into a shell, Mexico's pan dulce, and the pattern is the name, made with fast-action yeast, warm whole milk, eggs, vanilla extract, cocoa powder, a Mexican dish called Conchas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "plain buns with none of the scored shell topping that names them"
+    },
+    {
+      "page": "https://www.flickr.com/photos/40978417@N02/18406635210",
+      "why": "a beach covered in seashells"
     }
   ]
 }

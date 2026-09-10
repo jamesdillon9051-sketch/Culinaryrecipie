@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 3178 image files (WebP + JPEG)
+│       └── img/recipes/         # 3414 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 3178 image files
+├── assets/                      #    css, js and 3414 image files
 ├── recipes/                     #    1409 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 124,951 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 125,028 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,8 +380,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1037 of the 1409 recipes have a photograph. Of the 1398 images on the site, 800
-are CC0 or public domain, 289 are CC BY and 309 are CC BY-SA. Anything still
+1114 of the 1409 recipes have a photograph. Of the 1516 images on the site, 843
+are CC0 or public domain, 325 are CC BY and 348 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -1251,6 +1251,36 @@ tier ahead of the score rather than competing inside it. A third fix was needed
 before either worked: the lookup was being handed the catalogue's `imageQuery`,
 which is a description — "Bread sauce onion clove milk" — and no item is
 labelled that. It tries the dish name first now.
+
+### What asking in another language actually recovered
+
+The full run over the 183: 128 heroes found, 123 reviewed on contact sheets
+(five had been decided in an earlier batch), **77 published and 46 refused**.
+Photographed goes from 1,035 to 1,114 and gradient cards from 183 to 104.
+
+Fifty-four of the 128 came from the dish's Wikidata item, a source that did not
+exist in this file that morning. The rest came from the text searches that had
+already failed six times — they succeeded now because the retry queries reach
+further than they used to, not because anything about them changed.
+
+The refusals are the same homonym failures this file has always produced, and
+they are worth listing because they are so consistent: `manti` returned a
+praying mantis, `conchas` a beach covered in seashells, `pico-de-gallo` a
+mountain, `black-forest-gateau` a photograph of a Black Forest village,
+`pithiviers` a sepia postcard of a railway depot. A caption search cannot tell
+a dish from the thing it is named after, and no scoring change fixes that,
+because in each case the caption is a perfectly accurate description of the
+wrong subject.
+
+Two refusals were subtler and are the ones worth guarding against later. The
+photograph offered for `rasgulla` was balls in creamy milk, which is ras malai;
+the one for `knedliky` was a crusty rye loaf, where the dumpling has no crust.
+Both are the right cuisine, the right family, and the wrong dish.
+
+At 63 per cent kept this is a much better hit rate than the illustrations
+managed at 47, which is the expected direction: a photograph that exists is a
+photograph of something real, and the failure mode is misidentification rather
+than invention.
 
 ### A gate loosened, and the sentence that gate was holding up
 
