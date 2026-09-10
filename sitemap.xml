@@ -9897,9 +9897,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kibbeh-labaniyeh/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kibbeh-labaniyeh.jpg</image:loc>
+      <image:title>Kibbeh Labaniyeh</image:title>
+      <image:caption>Kibbeh Labaniyeh — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shish-barak/</loc>
@@ -10179,9 +10184,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/taameya/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/taameya.jpg</image:loc>
+      <image:title>Ta&#39;ameya</image:title>
+      <image:caption>Ta&#39;ameya — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/besara/</loc>
@@ -10268,9 +10278,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dukkah/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dukkah.jpg</image:loc>
+      <image:title>Dukkah</image:title>
+      <image:caption>Dukkah — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bamia-masreya/</loc>
@@ -11762,9 +11777,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/financiers/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/financiers.jpg</image:loc>
+      <image:title>Financiers</image:title>
+      <image:caption>Financiers — French baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/palmiers/</loc>
@@ -12626,9 +12646,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pickled-onions/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pickled-onions.jpg</image:loc>
+      <image:title>Pickled Onions</image:title>
+      <image:caption>Pickled Onions — British appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cumberland-sauce/</loc>
@@ -13959,6 +13984,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-curry.jpg</image:loc>
+      <image:title>Egg Curry</image:title>
+      <image:caption>Egg Curry — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-bhurji/</loc>
@@ -14292,6 +14322,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-fajitas.jpg</image:loc>
+      <image:title>Chicken Fajitas</image:title>
+      <image:caption>Chicken Fajitas — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carne-asada/</loc>
@@ -15451,6 +15486,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rasgulla.jpg</image:loc>
+      <image:title>Rasgulla</image:title>
+      <image:caption>Rasgulla — Indian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mysore-pak/</loc>
