@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1268
-images, **776** are CC0 or public domain and carry no conditions at all, and
-**492** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1307
+images, **784** are CC0 or public domain and carry no conditions at all, and
+**523** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,25 +42,25 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 939 |
-| Secondary "process" images | 329 |
-| Total image files | 2536 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 270 |
+| Hero images | 971 |
+| Secondary "process" images | 336 |
+| Total image files | 2614 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 238 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC0 | 459 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 205 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 1.0 | 185 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 137 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 97 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 66 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 39 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 | 462 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 209 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 1.0 | 187 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 158 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 100 | No rights reserved — no attribution legally required |
+| CC BY-SA 2.0 | 69 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
+| CC BY 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 4.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 de | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -97,87 +97,59 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Scallion Oil Noodles (`scallion-oil-noodles`)
 - Karelian Hot Pot (`karjalanpaisti`)
 - Coconut Dal (`coconut-dal`)
-- Warak Enab (`warak-enab`)
 - Spinach Fatayer (`fatayer-sabanekh`)
 - Cheese Rakakat (`rakakat-jibneh`)
 - Balila (`balila`)
 - Loubieh bi Zeit (`loubieh-bzeit`)
-- Salatet Raheb (`salatet-raheb`)
 - Kafta bil Sanieh (`kafta-bil-sanieh`)
 - Kibbeh bil Sanieh (`kibbeh-bil-sanieh`)
 - Kibbeh Labaniyeh (`kibbeh-labaniyeh`)
 - Shish Barak (`shish-barak`)
 - Samke Harra (`samke-harra`)
-- Sfiha Baalbakieh (`sfiha-baalbakieh`)
 - Riz a Djaj (`riz-a-djaj`)
-- Djaj Mhammar (`djaj-mhammar`)
-- Bamia bi Lahme (`bamia-bi-lahme`)
 - Fasolia bi Lahme (`fasolia-bi-lahme`)
 - Sheikh el Mahshi (`sheikh-el-mahshi`)
-- Koussa Mahshi (`koussa-mahshi`)
 - Malfouf Mahshi (`malfouf-mahshi`)
 - Yakhnet Batata (`yakhnet-batata`)
-- Freekeh with Chicken (`freekeh-djaj`)
 - Kousa bil Laban (`kousa-bil-laban`)
-- Khubz Arabi (`khubz-arabi`)
 - Ka'ak bil Simsim (`kaak-bil-simsim`)
 - Talami (`talami`)
-- Mouhalabieh (`mouhalabieh`)
-- Atayef Asafiri (`atayef-asafiri`)
 - Halawet el Jibn (`halawet-el-jibn`)
-- Znoud el Sit (`znoud-el-sit`)
 - Sfouf (`sfouf`)
 - Ta'ameya (`taameya`)
-- Besara (`besara`)
 - Shorbet Ads (`shorbet-ads`)
 - Salata Baladi (`salata-baladi`)
 - Egyptian Tahina (`tahina-salad`)
 - Baba Ghanoug Masri (`baba-ghanoug-masri`)
 - Torshi (`torshi`)
 - Betengan Mekhalel (`betengan-mekhalel`)
-- Batates Mohammara (`batates-mohammara`)
 - Dukkah (`dukkah`)
 - Bamia Masreya (`bamia-masreya`)
 - Torly (`torly`)
 - Roz Mermah (`roz-mermah`)
-- Kishk Masri (`kishk-masri`)
 - Hawawshi (`hawawshi`)
 - Fattah (`fattah`)
 - Mahshi Cromb (`mahshi-cromb`)
 - Sayadeya Masreya (`sayadeya-masreya`)
 - Hamam Mahshi (`hamam-mahshi`)
-- Ferakh Mashwi (`ferakh-mashwi`)
 - Renga (`renga`)
-- Goulash Masri (`goulash-masri`)
 - Aish Baladi (`aish-baladi`)
 - Eish Merahrah (`eish-merahrah`)
 - Feteer Meshaltet (`feteer-meshaltet`)
-- Gebna Domiati Salad (`gebna-domiati`)
 - Batarekh (`batarekh`)
-- Balah el Sham (`balah-el-sham`)
 - Om Ali (`om-ali`)
 - Roz bel Laban (`roz-bel-laban`)
 - Qatayef Mahshi (`qatayef`)
-- Kunafa bil Manga (`kunafa-bil-manga`)
 - Karkade (`karkade`)
-- Sobia (`sobia`)
-- Asab (`asab`)
 - Slata Tounsia (`slata-tounsia`)
 - Omek Houria (`salade-omek-houria`)
-- Salata Blankit (`salata-blankit`)
 - Doigts de Fatma (`doigts-de-fatma`)
 - Chorba Frik (`chorba-frik`)
 - Hlelem (`hlelem`)
-- Bsissa (`bsissa`)
-- Mhalbiya (`mhalbiya`)
 - Couscous Tunisien (`couscous-tunisien`)
 - Ojja (`ojja`)
 - Marqa Hlouwa (`marqa-hlouwa`)
 - Kamounia (`kamounia`)
-- Felfel Mahchi (`felfel-mahchi`)
-- Hout Mechoui (`hout-mechoui`)
-- Rouz Jerbi (`rouz-jerbi`)
-- Khobz Tabouna (`khobz-tabouna`)
 - Ftair (`ftair`)
 - Madfouna (`madfouna`)
 - Samsa (`samsa-tunisienne`)
@@ -185,7 +157,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Thé aux Pignons (`the-aux-pignons`)
 - Salade de Lentilles (`salade-de-lentilles`)
 - Tapenade (`tapenade`)
-- Anchoïade (`anchoiade`)
 - Aïoli (`aioli`)
 - Brandade de Morue (`brandade-de-morue`)
 - Poule au Pot (`poule-au-pot`)
@@ -204,7 +175,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Sole Normande (`sole-normande`)
 - Lotte à l'Armoricaine (`lotte-a-l-armoricaine`)
 - Bar en Croûte de Sel (`bar-en-croute-de-sel`)
-- Fondue Savoyarde (`fondue-savoyarde`)
 - Aligot (`aligot`)
 - Gratin de Courgettes (`gratin-de-courgettes`)
 - Omelette aux Fines Herbes (`omelette-aux-fines-herbes`)
@@ -225,14 +195,12 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Palmiers (`palmiers`)
 - Bagna Cauda (`bagna-cauda`)
 - Sarde in Saor (`sarde-in-saor`)
-- Insalata di Mare (`insalata-di-mare`)
 - Fiori di Zucca Fritti (`fiori-di-zucca`)
 - Supplì (`suppli`)
 - Giardiniera (`giardiniera`)
 - Malloreddus alla Campidanese (`malloreddus`)
 - Strozzapreti alla Boscaiola (`strozzapreti`)
 - Pici all'Aglione (`pici-cacio-e-pepe`)
-- Pasta alla Genovese (`pasta-alla-genovese`)
 - Anelletti al Forno (`anelletti-al-forno`)
 - Fregola con Arselle (`fregola`)
 - Risotto ai Funghi Porcini (`risotto-ai-funghi`)
@@ -1446,6 +1414,7 @@ licence as the rest of this project.
 | `white-bean-stew.webp` / `.jpg` | Tuscan White Bean Stew | Hero | Tuscan White Beans vegan / Judías blancas con calabacín | Lablascovegmenu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35022955@N06/4678668512) |
 | `muhammara.webp` / `.jpg` | Muhammara | Hero | Muhammara | Bazel | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Muhammara.jpg) |
 | `batata-harra.webp` / `.jpg` | Batata Harra | Hero | batara harra | secretlondon123 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/25834786@N03/4408507291) |
+| `warak-enab.webp` / `.jpg` | Warak Enab | Hero | Waraq Enab JO 1 | Freedom's Falcon | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Waraq_Enab_JO_1.jpg) |
 | `makdous.webp` / `.jpg` | Makdous | Hero | Makdous | QuasarFr | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Makdous.jpg) |
 | `shanklish-salad.webp` / `.jpg` | Shanklish Salad | Hero | Shanklish | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/4012832668) |
 | `toum.webp` / `.jpg` | Toum | Hero | Toum | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/3186674271) |
@@ -1455,34 +1424,68 @@ licence as the rest of this project.
 | `hummus-beiruti.webp` / `.jpg` | Hummus Beiruti | Hero | You can never go wrong with mezzes •Hummus Beiruti and Mouttabal with Pomegranate and Walnuts• | debbietingzon | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/32031278@N03/19190073771) |
 | `kibbeh-mekliyeh.webp` / `.jpg` | Fried Kibbeh | Hero | Fried kibbeh | TheHungryDudes | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/47854142@N04/5380196080) |
 | `kibbeh-mekliyeh-process.webp` / `.jpg` | Fried Kibbeh | Process | Kibbeh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14792591375) |
+| `salatet-raheb.webp` / `.jpg` | Salatet Raheb | Hero | grilled aubergine | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5946776/free-public-domain-cc0-photo) |
 | `jazar-bi-tahini.webp` / `.jpg` | Carrot and Tahini Salad | Hero | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17350973460) |
 | `jazar-bi-tahini-process.webp` / `.jpg` | Carrot and Tahini Salad | Process | 'Red' falafel, tomato, cabbage, tahini, pickles, basil / carrot salad, orange, walnut, dill | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/17538444221) |
 | `sayadieh.webp` / `.jpg` | Sayadieh | Hero | Fish Sayadieh. | young shanahan | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/14759783@N04/14748816609) |
+| `sfiha-baalbakieh.webp` / `.jpg` | Sfiha Baalbakieh | Hero | Safeha, a Lebanese dish of Baalbek, 2017 | Bdx | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Safeha,_a_Lebanese_dish_of_Baalbek,_2017.jpg) |
 | `arayes.webp` / `.jpg` | Arayes | Hero | Ain Arayes عين العرايس - panoramio | habib kaki | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ain_Arayes_%D8%B9%D9%8A%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%8A%D8%B3_-_panoramio.jpg) |
 | `arayes-process.webp` / `.jpg` | Arayes | Process | Mosquée El Feth - Ain Arayes - panoramio | habib kaki | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_El_Feth_-_Ain_Arayes_-_panoramio.jpg) |
+| `djaj-mhammar.webp` / `.jpg` | Djaj Mhammar | Hero | دجاج محمر بالطريقة المغربية | Masilinya | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%AF%D8%AC%D8%A7%D8%AC_%D9%85%D8%AD%D9%85%D8%B1_%D8%A8%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9.jpg) |
+| `djaj-mhammar-process.webp` / `.jpg` | Djaj Mhammar | Process | دجاج محمر بطريقة مغربية | هشام أبورجاء | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%AF%D8%AC%D8%A7%D8%AC_%D9%85%D8%AD%D9%85%D8%B1_%D8%A8%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9.jpg) |
+| `bamia-bi-lahme.webp` / `.jpg` | Bamia bi Lahme | Hero | Barb's Okra and Lamb Burgers | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/444695) |
+| `koussa-mahshi.webp` / `.jpg` | Koussa Mahshi | Hero | Kousa Mahshi | Bazel | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kousa_Mahshi.jpg) |
+| `freekeh-djaj.webp` / `.jpg` | Freekeh with Chicken | Hero | فريكة | Saraabdallat | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%81%D8%B1%D9%8A%D9%83%D8%A9.jpg) |
+| `khubz-arabi.webp` / `.jpg` | Khubz Arabi | Hero | خبز-عربي | Mustafa Al-Elq | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%AE%D8%A8%D8%B2-%D8%B9%D8%B1%D8%A8%D9%8A.jpg) |
+| `mouhalabieh.webp` / `.jpg` | Mouhalabieh | Hero | Mahalabia | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mahalabia.JPG) |
 | `layali-lubnan.webp` / `.jpg` | Layali Lubnan | Hero | Layali Laban (yaourt libanais) | Benoît Prieur | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Layali_Laban_(yaourt_libanais).jpg) |
+| `atayef-asafiri.webp` / `.jpg` | Atayef Asafiri | Hero | قطايف عصافيري1 | عباد ديرانية | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_%D8%B9%D8%B5%D8%A7%D9%81%D9%8A%D8%B1%D9%8A1.jpg) |
+| `atayef-asafiri-process.webp` / `.jpg` | Atayef Asafiri | Process | قطايف عصافيري2 | عباد ديرانية | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%82%D8%B7%D8%A7%D9%8A%D9%81_%D8%B9%D8%B5%D8%A7%D9%81%D9%8A%D8%B1%D9%8A2.jpg) |
+| `znoud-el-sit.webp` / `.jpg` | Znoud el Sit | Hero | زنود الست (1) | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B2%D9%86%D9%88%D8%AF_%D8%A7%D9%84%D8%B3%D8%AA_(1).jpg) |
+| `znoud-el-sit-process.webp` / `.jpg` | Znoud el Sit | Process | زنود الست (2) | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B2%D9%86%D9%88%D8%AF_%D8%A7%D9%84%D8%B3%D8%AA_(2).jpg) |
 | `meghli.webp` / `.jpg` | Meghli | Hero | meghli | celinecelines | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/13072070@N00/6789408434) |
 | `jallab.webp` / `.jpg` | Jallab | Hero | Jallab | AdamBomb_23 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/15592760@N00/6088510557) |
+| `besara.webp` / `.jpg` | Besara | Hero | Bissara (Moroccan Dip) | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bissara_(Moroccan_Dip).JPG) |
+| `batates-mohammara.webp` / `.jpg` | Batates Mohammara | Hero | بطاطس محمرة | Melaad2009 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3_%D9%85%D8%AD%D9%85%D8%B1%D8%A9.jpg) |
+| `kishk-masri.webp` / `.jpg` | Kishk Masri | Hero | Kishk | Cairocamels B. Simpson | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kishk.JPG) |
 | `macarona-bechamel.webp` / `.jpg` | Macarona Bechamel | Hero | Macarona bechamel | Zebi2424 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Macarona_bechamel.jpg) |
 | `kofta-masreya.webp` / `.jpg` | Kofta Masreya | Hero | Egyptian kofta | Mkevy | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=36026980) |
 | `kebda-eskandarani.webp` / `.jpg` | Kebda Eskandarani | Hero | Alexandria delight Liver sandwiches | Bastique | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Alexandria_delight_Liver_sandwiches.jpg) |
+| `ferakh-mashwi.webp` / `.jpg` | Ferakh Mashwi | Hero | Arabic grilled chicken with Egyptian pickle | Mohamod Fasil | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arabic_grilled_chicken_with_Egyptian_pickle.jpg) |
+| `ferakh-mashwi-process.webp` / `.jpg` | Ferakh Mashwi | Process | Flickr - schmuela - chicken in the grill, rice in the pots | Karen Green | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flickr_-_schmuela_-_chicken_in_the_grill,_rice_in_the_pots.jpg) |
 | `mombar.webp` / `.jpg` | Mombar | Hero | Egyptian food (mombar) | Ahmed Elsayed45 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egyptian_food_(mombar).jpg) |
+| `goulash-masri.webp` / `.jpg` | Goulash Masri | Hero | جُلاش باللحمة المفرومة | Smilebocy | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%AC%D9%8F%D9%84%D8%A7%D8%B4_%D8%A8%D8%A7%D9%84%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9.jpg) |
+| `gebna-domiati.webp` / `.jpg` | Gebna Domiati Salad | Hero | Domiati cheese | MartinKassemJ120 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Domiati_cheese.jpg) |
+| `balah-el-sham.webp` / `.jpg` | Balah el Sham | Hero | بلح الشام | Mohammad Ali Huzam | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%A8%D9%84%D8%AD_%D8%A7%D9%84%D8%B4%D8%A7%D9%85.jpg) |
 | `zalabya.webp` / `.jpg` | Zalabya | Hero | Cooking Zalabya & Bamiyeh, Qom - 22 May 2018 07 | Mohsen Karam-Ali | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cooking_Zalabya_%26_Bamiyeh,_Qom_-_22_May_2018_07.jpg) |
+| `kunafa-bil-manga.webp` / `.jpg` | Kunafa bil Manga | Hero | كنافة بالمانجو | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D8%A7%D9%81%D8%A9_%D8%A8%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88.jpg) |
+| `sobia.webp` / `.jpg` | Sobia | Hero | سوبيا مأكولة مضافا إليها قرفة | Mo Hany.Afife | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B3%D9%88%D8%A8%D9%8A%D8%A7_%D9%85%D8%A3%D9%83%D9%88%D9%84%D8%A9_%D9%85%D8%B6%D8%A7%D9%81%D8%A7_%D8%A5%D9%84%D9%8A%D9%87%D8%A7_%D9%82%D8%B1%D9%81%D8%A9.jpg) |
+| `sobia-process.webp` / `.jpg` | Sobia | Process | عم كامل، صاحب سوبيا كامل بشارع الخيامية بالقاهرة | Mo Hany.Afife | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B9%D9%85_%D9%83%D8%A7%D9%85%D9%84%D8%8C_%D8%B5%D8%A7%D8%AD%D8%A8_%D8%B3%D9%88%D8%A8%D9%8A%D8%A7_%D9%83%D8%A7%D9%85%D9%84_%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9_%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%85%D9%8A%D8%A9_%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9.jpg) |
+| `asab.webp` / `.jpg` | Asab | Hero | Glass of sugarcane juice | Fgnievinski | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glass_of_sugarcane_juice.jpg) |
 | `harissa.webp` / `.jpg` | Harissa | Hero | making tunisian harissa | Rusty Clark ~ 100K Photos | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/23206546@N04/7631337770) |
 | `harissa-process.webp` / `.jpg` | Harissa | Process | Tunisian cuisine at my house: Fish with onions, olives, and tomatoes, harissa with tuna, and Mechouia Salad | michaelseangallagher | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/13518023@N03/4508692600) |
 | `lablabi.webp` / `.jpg` | Lablabi | Hero | Lablabi 1 | Touzrimounir | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lablabi_1.JPG) |
 | `kafteji.webp` / `.jpg` | Kafteji | Hero | Kafteji | Romdhani-Issam | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kafteji.jpg) |
 | `kafteji-process.webp` / `.jpg` | Kafteji | Process | Kafteji 1 | Touzrimounir | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kafteji_1.jpg) |
+| `salata-blankit.webp` / `.jpg` | Salata Blankit | Hero | Salade blankit | Afek91 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salade_blankit.jpg) |
+| `bsissa.webp` / `.jpg` | Bsissa | Hero | Bsissa بسيسة | Nasreddine Nas'h | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bsissa_%D8%A8%D8%B3%D9%8A%D8%B3%D8%A9.jpg) |
+| `mhalbiya.webp` / `.jpg` | Mhalbiya | Hero | محلبية ليبية | بالقاسم 11 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D9%84%D8%A8%D9%8A%D8%A9_%D9%84%D9%8A%D8%A8%D9%8A%D8%A9.jpg) |
 | `mermez.webp` / `.jpg` | Mermez | Hero | Mermez | Madbmd | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mermez.jpg) |
 | `tajine-tunisien.webp` / `.jpg` | Tajine Tunisien | Hero | Tajine tunisien | Marie N Guérin (M N Guérin) | CC BY-SA 3.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=3452254) |
+| `felfel-mahchi.webp` / `.jpg` | Felfel Mahchi | Hero | فلفل محشي | Ovva olfa | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%81%D9%84%D9%81%D9%84_%D9%85%D8%AD%D8%B4%D9%8A.JPG) |
 | `kabkabou.webp` / `.jpg` | Kabkabou | Hero | Kabkabou | Emna Mizouni | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kabkabou.jpg) |
 | `complet-poisson.webp` / `.jpg` | Complet Poisson | Hero | Attiéké, poisson frit et condiment, l’incontournable ivoirien | KAREN KOUADIO | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Atti%C3%A9k%C3%A9,_poisson_frit_et_condiment,_l%E2%80%99incontournable_ivoirien.jpg) |
+| `hout-mechoui.webp` / `.jpg` | Hout Mechoui | Hero | Poisson trilia ou Rouget grillé photo 1 حوت تريليا مشوي | Sami Mlouhi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Poisson_trilia_ou_Rouget_grill%C3%A9_photo_1_%D8%AD%D9%88%D8%AA_%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D8%A7_%D9%85%D8%B4%D9%88%D9%8A.jpg) |
+| `hout-mechoui-process.webp` / `.jpg` | Hout Mechoui | Process | Poisson trilia ou Rouget grillé photo 2 حوت تريليا مشوي | Sami Mlouhi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Poisson_trilia_ou_Rouget_grill%C3%A9_photo_2_%D8%AD%D9%88%D8%AA_%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D8%A7_%D9%85%D8%B4%D9%88%D9%8A.jpg) |
+| `rouz-jerbi.webp` / `.jpg` | Rouz Jerbi | Hero | رز جربي | Ovva olfa | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B1%D8%B2_%D8%AC%D8%B1%D8%A8%D9%8A.JPG) |
 | `osbane.webp` / `.jpg` | Osbane | Hero | Tunis Osbane Djerba | Rais67 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tunis_Osbane_Djerba.JPG) |
 | `osbane-process.webp` / `.jpg` | Osbane | Process | Tunis Osbane Sahel | Rais67 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tunis_Osbane_Sahel.JPG) |
 | `berkoukes.webp` / `.jpg` | Berkoukes | Hero | Berkoukes | Indif | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berkoukes.jpg) |
 | `fricasse.webp` / `.jpg` | Fricassé | Hero | Fricassé, Tunisie, 19 mars 2020 | Habib M'henni | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fricass%C3%A9,_Tunisie,_19_mars_2020.jpg) |
 | `fricasse-process.webp` / `.jpg` | Fricassé | Process | Fricassé, Wikimania 2022, Monastir | Habib M'henni | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fricass%C3%A9,_Wikimania_2022,_Monastir.jpg) |
 | `mlawi.webp` / `.jpg` | Mlawi | Hero | Mlawi 1 | Touzrimounir | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mlawi_1.JPG) |
+| `khobz-tabouna.webp` / `.jpg` | Khobz Tabouna | Hero | Tabouna bread Kairouan | Nafaa | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tabouna_bread_Kairouan.jpg) |
+| `khobz-tabouna-process.webp` / `.jpg` | Khobz Tabouna | Process | Four tabouna Kairouan | Nafaa | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Four_tabouna_Kairouan.jpg) |
 | `makroudh.webp` / `.jpg` | Makroudh | Hero | Makroudh - مقروض - Makroud photo1 | Sami Mlouhi | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Makroudh_-_%D9%85%D9%82%D8%B1%D9%88%D8%B6_-_Makroud_photo1.jpg) |
 | `bambalouni.webp` / `.jpg` | Bambalouni | Hero | Bambalouni - بمبلوني | Ali bannour | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bambalouni_-_%D8%A8%D9%85%D8%A8%D9%84%D9%88%D9%86%D9%8A.jpg) |
 | `bambalouni-process.webp` / `.jpg` | Bambalouni | Process | Bambalouni 01 | Yamen | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bambalouni_01.JPG) |
@@ -1501,6 +1504,7 @@ licence as the rest of this project.
 | `jambon-persille.webp` / `.jpg` | Jambon Persillé | Hero | Jambon persillé | Arnaud 25 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jambon_persill%C3%A9.JPG) |
 | `jambon-persille-process.webp` / `.jpg` | Jambon Persillé | Process | Jambon persillé 02 | Arnaud 25 | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jambon_persill%C3%A9_02.JPG) |
 | `escargots.webp` / `.jpg` | Escargots à la Bourguignonne | Hero | Escargots a la bourguignonne - garlic parsley butter, pernod, mushroom duxelles, panko | loustejskal.com | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/63311602@N08/20569656556) |
+| `anchoiade.webp` / `.jpg` | Anchoïade | Hero | Anchoïade | Arnaud 25 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ancho%C3%AFade.jpg) |
 | `oeufs-en-meurette.webp` / `.jpg` | Œufs en Meurette | Hero | OEUFS MEURETTE | marsupilami92 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/41538865@N06/29595443127) |
 | `oeufs-en-meurette-process.webp` / `.jpg` | Œufs en Meurette | Process | oeufs Meurette | orangemania | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/9304567@N08/4125305605) |
 | `vichyssoise.webp` / `.jpg` | Vichyssoise | Hero | Vichyssoise potato and leek cold soup Vikings Luxury Dinner Buffet 26 January 2025 Philippines2 | Unknown | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vichyssoise_potato_and_leek_cold_soup_Vikings_Luxury_Dinner_Buffet_26_January_2025_Philippines2.jpg) |
@@ -1520,6 +1524,7 @@ licence as the rest of this project.
 | `boudin-noir-pommes.webp` / `.jpg` | Boudin Noir aux Pommes | Hero | DNA Boudin Noir | snowpea&bokchoi | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/28531775@N06/4602223282) |
 | `bouchee-a-la-reine.webp` / `.jpg` | Bouchée à la Reine | Hero | Bouchée à la Reine, nouilles fraiches (Au Dauphin, Strasbourg) | Tangopaso | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_Reine,_nouilles_fraiches_(Au_Dauphin,_Strasbourg).jpg) |
 | `bouchee-a-la-reine-process.webp` / `.jpg` | Bouchée à la Reine | Process | Bouchée à la reine | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_reine.jpg) |
+| `fondue-savoyarde.webp` / `.jpg` | Fondue Savoyarde | Hero | Fondue enchaînée | gadl | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/24183489@N00/275479322) |
 | `truffade.webp` / `.jpg` | Truffade | Hero | Truffade from Auvergne | djetlp | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/43461291@N00/4468893287) |
 | `piperade.webp` / `.jpg` | Pipérade | Hero | Basque Piperade | elliotharmon | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/59327140@N00/5417591904) |
 | `gratin-de-macaronis.webp` / `.jpg` | Gratin de Macaronis | Hero | macaroni gratin | yoppy | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/44124362019@N01/2151965876) |
@@ -1548,6 +1553,7 @@ licence as the rest of this project.
 | `carpaccio.webp` / `.jpg` | Carpaccio di Manzo | Hero | Appetizer : Beef Carpaccio | Thank You (23 Millions+) views | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/34128007@N04/52485583693) |
 | `carpaccio-process.webp` / `.jpg` | Carpaccio di Manzo | Process | Beef carpaccio at Hapa Izakaya | Ruth and Dave | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/95142644@N00/2309298246) |
 | `baccala-mantecato.webp` / `.jpg` | Baccalà Mantecato | Hero | Baccalà mantecato con polenta La Nuova Perla | Benreis | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baccal%C3%A0_mantecato_con_polenta_La_Nuova_Perla.jpg) |
+| `insalata-di-mare.webp` / `.jpg` | Insalata di Mare | Hero | insalata frutta di mare | Ozchin | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/95268887@N00/869447158) |
 | `fritto-misto.webp` / `.jpg` | Fritto Misto | Hero | Fritto misto | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54835286701) |
 | `fritto-misto-process.webp` / `.jpg` | Fritto Misto | Process | fritto misto | clurr | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68474627@N00/2498313457) |
 | `carciofi-alla-romana.webp` / `.jpg` | Carciofi alla Romana | Hero | Carciofi alla Romana | jaycross | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66151780@N00/3261847916) |
@@ -1564,6 +1570,7 @@ licence as the rest of this project.
 | `pappardelle-al-cinghiale-process.webp` / `.jpg` | Pappardelle al Cinghiale | Process | Pappardelle Funghi Freschi e Prosciutto di Cinghiale | marco.ziero | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/83762376@N00/2721314643) |
 | `trofie-al-pesto.webp` / `.jpg` | Trofie al Pesto | Hero | Trofie with pesto | pelican | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/85936780@N00/9828569174) |
 | `pizzoccheri.webp` / `.jpg` | Pizzoccheri della Valtellina | Hero | Teglia di pizzoccheri della Valtellina | Aplasia | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Teglia_di_pizzoccheri_della_Valtellina.jpg) |
+| `pasta-alla-genovese.webp` / `.jpg` | Pasta alla Genovese | Hero | Genovese | Ottobrerosso83 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/29768027@N07/4345640219) |
 | `pasta-e-ceci.webp` / `.jpg` | Pasta e Ceci | Hero | Pasta & Ceci | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/4392352304) |
 | `pasta-e-ceci-process.webp` / `.jpg` | Pasta e Ceci | Process | Pasta e ceci | spurekar | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/63324741@N04/49671162847) |
 | `pasta-con-le-sarde.webp` / `.jpg` | Pasta con le Sarde | Hero | Pasta alle sarde della Troticoltura Armanini | Michela Simoncini | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/59422190@N00/16701090462) |

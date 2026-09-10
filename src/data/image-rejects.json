@@ -43,6 +43,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Talami_2016.jpg",
       "why": "a religious street procession, not the bread"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Talami_York_2014.jpg",
+      "why": "a procession at Talami York"
     }
   ],
   "sfouf": [
@@ -67,6 +71,10 @@
     {
       "page": "https://www.flickr.com/photos/141115191@N03/43096798942",
       "why": "Torly Linden, a Second Life avatar"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Carte_de_la_coste_de_Cartagene_depuis_la_pointe_de_Canoa_jusques_a_la_baye_de_Tourlou_-_btv1b53123225z_(1_of_2).jpg",
+      "why": "an antique chart of the coast of Cartagena"
     }
   ],
   "roz-mermah": [
@@ -83,6 +91,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Hawawshi_2_Mohamed_Moheyeldin.jpg",
       "why": "workers assembling trays of raw meat and dough, not the dish as eaten"
+    },
+    {
+      "page": "https://www.flickr.com/photos/101561334@N08/36560932796",
+      "why": "an Egyptian wooden funerary model of butchers"
     }
   ],
   "fattah": [
@@ -92,6 +104,10 @@
     },
     {
       "page": "https://www.flickr.com/photos/59952459@N08/52497587883",
+      "why": "a Free Alaa Abd El-Fattah campaign photograph"
+    },
+    {
+      "page": "https://www.flickr.com/photos/59952459@N08/52461250755",
       "why": "a Free Alaa Abd El-Fattah campaign photograph"
     }
   ],
@@ -125,6 +141,14 @@
     {
       "page": "https://www.flickr.com/photos/136041510@N05/21996741056",
       "why": "a portrait of a man named Ali"
+    },
+    {
+      "page": "https://www.flickr.com/photos/8721758@N06/14799781132",
+      "why": "the central dome of the Mosque of Muhammad Ali"
+    },
+    {
+      "page": "https://www.flickr.com/photos/8721758@N06/14613586998",
+      "why": "the central dome of the Mosque of Muhammad Ali"
     }
   ],
   "qatayef": [
@@ -163,6 +187,14 @@
     {
       "page": "https://www.flickr.com/photos/88123769@N02/17219615561",
       "why": "a green turtle photographed in Hawaii, matched on the word green"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10710442@N08/4032109497",
+      "why": "a French green bean slicer, a kitchen tool"
+    },
+    {
+      "page": "https://www.flickr.com/photos/26667277@N00/3317615583",
+      "why": "a French green bean slicer, a kitchen tool"
     }
   ],
   "tapenade": [
@@ -173,6 +205,10 @@
     {
       "page": "https://www.flickr.com/photos/33598632@N00/4051318298",
       "why": "basil and olive tapenade spread on a salmon fillet, so the photograph is of the salmon"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25977089@N00/20077593219",
+      "why": "titled California olive tapenade but shows tomato and basil toasts"
     }
   ],
   "anchoiade": [
@@ -191,6 +227,10 @@
     {
       "page": "https://www.flickr.com/photos/42899700@N05/5758436765",
       "why": "a laptop installing Fedora, titled after seven hours of download"
+    },
+    {
+      "page": "https://www.flickr.com/photos/78428166@N00/7323823578",
+      "why": "a photograph of a dog titled It Has Only Been Seven Hours"
     }
   ],
   "cordon-bleu": [
@@ -231,6 +271,10 @@
     {
       "page": "https://www.flickr.com/photos/96064256@N04/34926514245",
       "why": "a street in Montreuil-Bellay with no food visible"
+    },
+    {
+      "page": "https://www.flickr.com/photos/54712044@N03/14038065580",
+      "why": "a beach snack kiosk trading under the name"
     }
   ],
   "paris-brest": [
@@ -573,6 +617,118 @@
     {
       "page": "https://www.flickr.com/photos/87117631@N00/3450679003",
       "why": "a four-panel collage of the people who make them"
+    }
+  ],
+  "rakakat-jibneh": [
+    {
+      "page": "https://www.rawpixel.com/image/447889/free-photo-image-sampling-food-platter-cc0",
+      "why": "a fried cheese platter that is not the rolled rakakat"
+    }
+  ],
+  "loubieh-bzeit": [
+    {
+      "page": "https://www.flickr.com/photos/132795455@N08/18214213538",
+      "why": "a bushel of raw green beans"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/73713102",
+      "why": "a bushel of raw green beans"
+    }
+  ],
+  "kibbeh-labaniyeh": [
+    {
+      "page": "https://www.flickr.com/photos/8286199@N08/3567288514",
+      "why": "kibbeh nayeh, the raw dish, not kibbeh in yoghurt"
+    }
+  ],
+  "samke-harra": [
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/275614781",
+      "why": "spicy fish at an Indonesian restaurant in Rotterdam"
+    },
+    {
+      "page": "https://www.flickr.com/photos/190270151@N02/51374606606",
+      "why": "spicy fish at an Indonesian restaurant in Rotterdam"
+    }
+  ],
+  "fasolia-bi-lahme": [
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50595046142",
+      "why": "Southwestern chicken and white bean soup"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50595046092",
+      "why": "Southwestern chicken and white bean soup"
+    }
+  ],
+  "malfouf-mahshi": [
+    {
+      "page": "https://www.flickr.com/photos/93936679@N05/48407483856",
+      "why": "cabbage leaves being stuffed for kimchi"
+    }
+  ],
+  "kaak-bil-simsim": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Anatomische_studie_van_de_mond_en_de_kaak,_RP-P-OB-70.631.jpg",
+      "why": "a Dutch anatomical study of the mouth and jaw, kaak being Dutch for jaw"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Anatomische_studie_van_een_schedel_en_de_kaak,_RP-P-OB-70.708.jpg",
+      "why": "a Dutch anatomical study of the mouth and jaw, kaak being Dutch for jaw"
+    }
+  ],
+  "shorbet-ads": [
+    {
+      "page": "https://www.flickr.com/photos/25977089@N00/35365452502",
+      "why": "a spinach salad with the lentil soup as a side"
+    },
+    {
+      "page": "https://www.flickr.com/photos/49215102@N00/7797136356",
+      "why": "a spinach salad with the lentil soup as a side"
+    }
+  ],
+  "bamia-masreya": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ugali_(stiff_porridge),Anchovy_(dagaa,_Cooked_beans_(maharagwe)_and_bamia_(okra).jpg",
+      "why": "a Tanzanian plate of ugali, dagaa and beans"
+    }
+  ],
+  "mahshi-cromb": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B4%D9%8A_%D9%83%D8%B1%D9%86%D8%A8.jpg",
+      "why": "filed under the right Arabic name but shows a woman at a cooking pot"
+    }
+  ],
+  "batarekh": [
+    {
+      "page": "https://www.flickr.com/photos/68147320@N02/35807978575",
+      "why": "a restaurant plate of radishes and smoked trout butter in which bottarga is one element"
+    },
+    {
+      "page": "https://www.flickr.com/photos/68147320@N02/34967749174",
+      "why": "a restaurant plate of radishes and smoked trout butter in which bottarga is one element"
+    }
+  ],
+  "roz-bel-laban": [
+    {
+      "page": "https://www.flickr.com/photos/148158860@N03/36180496320",
+      "why": "sheep grazing Egyptian clover"
+    }
+  ],
+  "slata-tounsia": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_de_la_salade_mechouia_sur_feu,_Tunisie_2025_(01).jpg",
+      "why": "salade mechouia being charred on a fire, a different Tunisian salad and still raw"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_de_la_salade_mechouia_sur_feu,_Tunisie_2025_(02).jpg",
+      "why": "salade mechouia being charred on a fire, a different Tunisian salad and still raw"
+    }
+  ],
+  "salade-omek-houria": [
+    {
+      "page": "https://www.flickr.com/photos/75921150@N00/4537346253",
+      "why": "chicken chilli served with the carrot salad as a side"
     }
   ]
 }

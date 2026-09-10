@@ -9673,9 +9673,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/warak-enab/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/warak-enab.jpg</image:loc>
+      <image:title>Warak Enab</image:title>
+      <image:caption>Warak Enab — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/makdous/</loc>
@@ -9780,9 +9785,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salatet-raheb/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salatet-raheb.jpg</image:loc>
+      <image:title>Salatet Raheb</image:title>
+      <image:caption>Salatet Raheb — Lebanese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jazar-bi-tahini/</loc>
@@ -9838,9 +9848,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sfiha-baalbakieh/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sfiha-baalbakieh.jpg</image:loc>
+      <image:title>Sfiha Baalbakieh</image:title>
+      <image:caption>Sfiha Baalbakieh — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/arayes/</loc>
@@ -9861,15 +9876,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/djaj-mhammar/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/djaj-mhammar.jpg</image:loc>
+      <image:title>Djaj Mhammar</image:title>
+      <image:caption>Djaj Mhammar — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bamia-bi-lahme/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bamia-bi-lahme.jpg</image:loc>
+      <image:title>Bamia bi Lahme</image:title>
+      <image:caption>Bamia bi Lahme — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fasolia-bi-lahme/</loc>
@@ -9885,9 +9910,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/koussa-mahshi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/koussa-mahshi.jpg</image:loc>
+      <image:title>Koussa Mahshi</image:title>
+      <image:caption>Koussa Mahshi — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/malfouf-mahshi/</loc>
@@ -9903,9 +9933,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freekeh-djaj/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freekeh-djaj.jpg</image:loc>
+      <image:title>Freekeh with Chicken</image:title>
+      <image:caption>Freekeh with Chicken — Lebanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kousa-bil-laban/</loc>
@@ -9915,9 +9950,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/khubz-arabi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/khubz-arabi.jpg</image:loc>
+      <image:title>Khubz Arabi</image:title>
+      <image:caption>Khubz Arabi — Lebanese baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kaak-bil-simsim/</loc>
@@ -9933,9 +9973,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mouhalabieh/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mouhalabieh.jpg</image:loc>
+      <image:title>Mouhalabieh</image:title>
+      <image:caption>Mouhalabieh — Lebanese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/layali-lubnan/</loc>
@@ -9950,9 +9995,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/atayef-asafiri/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/atayef-asafiri.jpg</image:loc>
+      <image:title>Atayef Asafiri</image:title>
+      <image:caption>Atayef Asafiri — Lebanese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halawet-el-jibn/</loc>
@@ -9962,9 +10012,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/znoud-el-sit/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/znoud-el-sit.jpg</image:loc>
+      <image:title>Znoud el Sit</image:title>
+      <image:caption>Znoud el Sit — Lebanese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sfouf/</loc>
@@ -10002,9 +10057,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/besara/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/besara.jpg</image:loc>
+      <image:title>Besara</image:title>
+      <image:caption>Besara — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shorbet-ads/</loc>
@@ -10044,9 +10104,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/batates-mohammara/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/batates-mohammara.jpg</image:loc>
+      <image:title>Batates Mohammara</image:title>
+      <image:caption>Batates Mohammara — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dukkah/</loc>
@@ -10074,9 +10139,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kishk-masri/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kishk-masri.jpg</image:loc>
+      <image:title>Kishk Masri</image:title>
+      <image:caption>Kishk Masri — Egyptian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawawshi/</loc>
@@ -10143,9 +10213,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ferakh-mashwi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ferakh-mashwi.jpg</image:loc>
+      <image:title>Ferakh Mashwi</image:title>
+      <image:caption>Ferakh Mashwi — Egyptian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mombar/</loc>
@@ -10166,9 +10241,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/goulash-masri/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/goulash-masri.jpg</image:loc>
+      <image:title>Goulash Masri</image:title>
+      <image:caption>Goulash Masri — Egyptian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aish-baladi/</loc>
@@ -10190,9 +10270,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gebna-domiati/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gebna-domiati.jpg</image:loc>
+      <image:title>Gebna Domiati Salad</image:title>
+      <image:caption>Gebna Domiati Salad — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/batarekh/</loc>
@@ -10202,9 +10287,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/balah-el-sham/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/balah-el-sham.jpg</image:loc>
+      <image:title>Balah el Sham</image:title>
+      <image:caption>Balah el Sham — Egyptian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/om-ali/</loc>
@@ -10237,9 +10327,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kunafa-bil-manga/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kunafa-bil-manga.jpg</image:loc>
+      <image:title>Kunafa bil Manga</image:title>
+      <image:caption>Kunafa bil Manga — Egyptian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/karkade/</loc>
@@ -10249,15 +10344,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sobia/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sobia.jpg</image:loc>
+      <image:title>Sobia</image:title>
+      <image:caption>Sobia — Egyptian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/asab/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/asab.jpg</image:loc>
+      <image:title>Asab</image:title>
+      <image:caption>Asab — Egyptian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/harissa/</loc>
@@ -10306,9 +10411,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salata-blankit/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salata-blankit.jpg</image:loc>
+      <image:title>Salata Blankit</image:title>
+      <image:caption>Salata Blankit — Tunisian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/doigts-de-fatma/</loc>
@@ -10330,15 +10440,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bsissa/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bsissa.jpg</image:loc>
+      <image:title>Bsissa</image:title>
+      <image:caption>Bsissa — Tunisian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mhalbiya/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mhalbiya.jpg</image:loc>
+      <image:title>Mhalbiya</image:title>
+      <image:caption>Mhalbiya — Tunisian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/couscous-tunisien/</loc>
@@ -10388,9 +10508,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/felfel-mahchi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/felfel-mahchi.jpg</image:loc>
+      <image:title>Felfel Mahchi</image:title>
+      <image:caption>Felfel Mahchi — Tunisian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kabkabou/</loc>
@@ -10416,15 +10541,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hout-mechoui/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hout-mechoui.jpg</image:loc>
+      <image:title>Hout Mechoui</image:title>
+      <image:caption>Hout Mechoui — Tunisian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rouz-jerbi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rouz-jerbi.jpg</image:loc>
+      <image:title>Rouz Jerbi</image:title>
+      <image:caption>Rouz Jerbi — Tunisian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/osbane/</loc>
@@ -10472,9 +10607,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/khobz-tabouna/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/khobz-tabouna.jpg</image:loc>
+      <image:title>Khobz Tabouna</image:title>
+      <image:caption>Khobz Tabouna — Tunisian baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ftair/</loc>
@@ -10663,9 +10803,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/anchoiade/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/anchoiade.jpg</image:loc>
+      <image:title>Anchoïade</image:title>
+      <image:caption>Anchoïade — French appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aioli/</loc>
@@ -10920,9 +11065,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fondue-savoyarde/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fondue-savoyarde.jpg</image:loc>
+      <image:title>Fondue Savoyarde</image:title>
+      <image:caption>Fondue Savoyarde — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aligot/</loc>
@@ -11277,9 +11427,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/insalata-di-mare/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/insalata-di-mare.jpg</image:loc>
+      <image:title>Insalata di Mare</image:title>
+      <image:caption>Insalata di Mare — Italian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fritto-misto/</loc>
@@ -11440,9 +11595,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-alla-genovese/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-alla-genovese.jpg</image:loc>
+      <image:title>Pasta alla Genovese</image:title>
+      <image:caption>Pasta alla Genovese — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-e-ceci/</loc>
