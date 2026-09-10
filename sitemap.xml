@@ -12536,9 +12536,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/har-gow/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/har-gow.jpg</image:loc>
+      <image:title>Har Gow</image:title>
+      <image:caption>Har Gow — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/siu-mai/</loc>
@@ -12564,9 +12569,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lo-mai-gai/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lo-mai-gai.jpg</image:loc>
+      <image:title>Lo Mai Gai</image:title>
+      <image:caption>Lo Mai Gai — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-feet-black-bean/</loc>
@@ -12587,33 +12597,58 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheng-jian-bao/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sheng-jian-bao.jpg</image:loc>
+      <image:title>Sheng Jian Bao</image:title>
+      <image:caption>Sheng Jian Bao — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jianbing/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jianbing.jpg</image:loc>
+      <image:title>Jianbing</image:title>
+      <image:caption>Jianbing — Chinese breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rou-jia-mo/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rou-jia-mo.jpg</image:loc>
+      <image:title>Rou Jia Mo</image:title>
+      <image:caption>Rou Jia Mo — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/liangpi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/liangpi.jpg</image:loc>
+      <image:title>Liangpi</image:title>
+      <image:caption>Liangpi — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smashed-cucumber/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/smashed-cucumber.jpg</image:loc>
+      <image:title>Smashed Cucumber Salad</image:title>
+      <image:caption>Smashed Cucumber Salad — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bang-bang-chicken/</loc>
@@ -12623,15 +12658,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pidan-tofu/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pidan-tofu.jpg</image:loc>
+      <image:title>Century Egg with Cold Tofu</image:title>
+      <image:caption>Century Egg with Cold Tofu — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/drunken-chicken/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/drunken-chicken.jpg</image:loc>
+      <image:title>Drunken Chicken</image:title>
+      <image:caption>Drunken Chicken — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spicy-wontons/</loc>
@@ -12641,21 +12686,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tea-eggs/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tea-eggs.jpg</image:loc>
+      <image:title>Marbled Tea Eggs</image:title>
+      <image:caption>Marbled Tea Eggs — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/youtiao/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/youtiao.jpg</image:loc>
+      <image:title>Youtiao</image:title>
+      <image:caption>Youtiao — Chinese breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dongpo-rou/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dongpo-rou.jpg</image:loc>
+      <image:title>Dongpo Rou</image:title>
+      <image:caption>Dongpo Rou — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yuxiang-rousi/</loc>
@@ -12665,27 +12725,47 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zhajiangmian/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zhajiangmian.jpg</image:loc>
+      <image:title>Zhajiangmian</image:title>
+      <image:caption>Zhajiangmian — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/la-zi-ji/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/la-zi-ji.jpg</image:loc>
+      <image:title>La Zi Ji</image:title>
+      <image:caption>La Zi Ji — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/duo-jiao-yu-tou/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/duo-jiao-yu-tou.jpg</image:loc>
+      <image:title>Duo Jiao Yu Tou</image:title>
+      <image:caption>Duo Jiao Yu Tou — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beggars-chicken/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beggars-chicken.jpg</image:loc>
+      <image:title>Beggar&#39;s Chicken</image:title>
+      <image:caption>Beggar&#39;s Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-cut-chicken/</loc>
@@ -12731,9 +12811,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steamed-ribs-black-bean/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steamed-ribs-black-bean.jpg</image:loc>
+      <image:title>Steamed Ribs with Black Bean</image:title>
+      <image:caption>Steamed Ribs with Black Bean — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/siu-yuk/</loc>
@@ -12743,9 +12828,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mei-cai-kou-rou/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mei-cai-kou-rou.jpg</image:loc>
+      <image:title>Mei Cai Kou Rou</image:title>
+      <image:caption>Mei Cai Kou Rou — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crab-ginger-scallion/</loc>
@@ -12761,9 +12851,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dry-fried-green-beans/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dry-fried-green-beans.jpg</image:loc>
+      <image:title>Dry-Fried Green Beans</image:title>
+      <image:caption>Dry-Fried Green Beans — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/di-san-xian/</loc>
@@ -12791,9 +12886,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yong-tau-foo/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/yong-tau-foo.jpg</image:loc>
+      <image:title>Yong Tau Foo</image:title>
+      <image:caption>Yong Tau Foo — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-dry-noodles/</loc>
@@ -12803,15 +12903,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/biang-biang-noodles/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/biang-biang-noodles.jpg</image:loc>
+      <image:title>Biang Biang Noodles</image:title>
+      <image:caption>Biang Biang Noodles — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/yangzhou-fried-rice/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/yangzhou-fried-rice.jpg</image:loc>
+      <image:title>Yangzhou Fried Rice</image:title>
+      <image:caption>Yangzhou Fried Rice — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/claypot-rice/</loc>
@@ -12821,9 +12931,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zongzi/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zongzi.jpg</image:loc>
+      <image:title>Zongzi</image:title>
+      <image:caption>Zongzi — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vinegar-cabbage/</loc>
@@ -12857,21 +12972,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-drop-soup/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-drop-soup.jpg</image:loc>
+      <image:title>Egg Drop Soup</image:title>
+      <image:caption>Egg Drop Soup — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/winter-melon-soup/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/winter-melon-soup.jpg</image:loc>
+      <image:title>Winter Melon Soup</image:title>
+      <image:caption>Winter Melon Soup — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lotus-root-rib-soup/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lotus-root-rib-soup.jpg</image:loc>
+      <image:title>Lotus Root and Pork Rib Soup</image:title>
+      <image:caption>Lotus Root and Pork Rib Soup — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mantou/</loc>
@@ -12887,9 +13017,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chilli-oil/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chilli-oil.jpg</image:loc>
+      <image:title>Sichuan Chilli Oil</image:title>
+      <image:caption>Sichuan Chilli Oil — Chinese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/xo-sauce/</loc>
@@ -12917,9 +13052,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eight-treasure-rice/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eight-treasure-rice.jpg</image:loc>
+      <image:title>Eight Treasure Rice</image:title>
+      <image:caption>Eight Treasure Rice — Chinese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sesame-balls/</loc>
@@ -12935,8 +13075,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hong-kong-egg-waffle/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hong-kong-egg-waffle.jpg</image:loc>
+      <image:title>Hong Kong Egg Waffle</image:title>
+      <image:caption>Hong Kong Egg Waffle — Chinese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
 </urlset>

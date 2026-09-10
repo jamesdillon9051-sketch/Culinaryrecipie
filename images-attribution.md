@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1314
-images, **786** are CC0 or public domain and carry no conditions at all, and
-**528** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1353
+images, **797** are CC0 or public domain and carry no conditions at all, and
+**556** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,23 +42,23 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 976 |
-| Secondary "process" images | 338 |
-| Total image files | 2628 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 233 |
+| Hero images | 1005 |
+| Secondary "process" images | 348 |
+| Total image files | 2706 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 204 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 462 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 212 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 1.0 | 187 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 160 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 233 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 1.0 | 192 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 163 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 102 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 69 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 73 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public Domain Mark 1.0 | 34 | No rights reserved — no attribution legally required |
+| Public Domain Mark 1.0 | 40 | No rights reserved — no attribution legally required |
 | CC BY 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 4.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -257,26 +257,10 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Welsh Cakes (`welsh-cakes`)
 - Eccles Cakes (`eccles-cakes`)
 - Dundee Cake (`dundee-cake`)
-- Har Gow (`har-gow`)
-- Lo Mai Gai (`lo-mai-gai`)
 - Nai Wong Bao (`nai-wong-bao`)
-- Sheng Jian Bao (`sheng-jian-bao`)
-- Jianbing (`jianbing`)
-- Rou Jia Mo (`rou-jia-mo`)
-- Liangpi (`liangpi`)
-- Smashed Cucumber Salad (`smashed-cucumber`)
 - Bang Bang Chicken (`bang-bang-chicken`)
-- Century Egg with Cold Tofu (`pidan-tofu`)
-- Drunken Chicken (`drunken-chicken`)
 - Red Oil Wontons (`spicy-wontons`)
-- Marbled Tea Eggs (`tea-eggs`)
-- Youtiao (`youtiao`)
-- Dongpo Rou (`dongpo-rou`)
 - Yuxiang Rousi (`yuxiang-rousi`)
-- Zhajiangmian (`zhajiangmian`)
-- La Zi Ji (`la-zi-ji`)
-- Duo Jiao Yu Tou (`duo-jiao-yu-tou`)
-- Beggar's Chicken (`beggars-chicken`)
 - White Cut Chicken (`white-cut-chicken`)
 - Soy Sauce Chicken (`soy-sauce-chicken`)
 - Three Cup Chicken (`three-cup-chicken`)
@@ -284,41 +268,28 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Da Pan Ji (`da-pan-ji`)
 - Braised Beef Brisket (`braised-beef-brisket`)
 - Sweet and Sour Spare Ribs (`sweet-sour-spare-ribs`)
-- Steamed Ribs with Black Bean (`steamed-ribs-black-bean`)
 - Siu Yuk (`siu-yuk`)
-- Mei Cai Kou Rou (`mei-cai-kou-rou`)
 - Ginger and Scallion Crab (`crab-ginger-scallion`)
 - Steamed Whole Fish (`steamed-whole-fish`)
-- Dry-Fried Green Beans (`dry-fried-green-beans`)
 - Di San Xian (`di-san-xian`)
 - Stir-Fried Water Spinach (`stir-fried-water-spinach`)
 - Choy Sum in Oyster Sauce (`choy-sum-oyster-sauce`)
 - Home-Style Tofu (`home-style-tofu`)
-- Yong Tau Foo (`yong-tau-foo`)
 - Hot Dry Noodles (`hot-dry-noodles`)
-- Biang Biang Noodles (`biang-biang-noodles`)
-- Yangzhou Fried Rice (`yangzhou-fried-rice`)
 - Claypot Rice (`claypot-rice`)
-- Zongzi (`zongzi`)
 - Vinegar Cabbage (`vinegar-cabbage`)
 - Stir-Fried Lotus Root (`lotus-root-stir-fry`)
 - Wood Ear Salad (`wood-ear-salad`)
 - Hot and Sour Potato Slivers (`hot-and-sour-potato`)
 - West Lake Beef Soup (`west-lake-beef-soup`)
-- Egg Drop Soup (`egg-drop-soup`)
-- Winter Melon Soup (`winter-melon-soup`)
-- Lotus Root and Pork Rib Soup (`lotus-root-rib-soup`)
 - Mantou (`mantou`)
 - Shao Bing (`shao-bing`)
-- Sichuan Chilli Oil (`chilli-oil`)
 - XO Sauce (`xo-sauce`)
 - Tangyuan (`tangyuan`)
 - Red Bean Soup (`red-bean-soup`)
 - Mango Pomelo Sago (`mango-pomelo-sago`)
-- Eight Treasure Rice (`eight-treasure-rice`)
 - Sesame Balls (`sesame-balls`)
 - Almond Tofu (`almond-tofu`)
-- Hong Kong Egg Waffle (`hong-kong-egg-waffle`)
 
 ## Brand assets
 
@@ -1639,11 +1610,50 @@ licence as the rest of this project.
 | `lemon-posset.webp` / `.jpg` | Lemon Posset | Hero | lemon posset-3 | jules:stonesoup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/58367355@N00/15538942375) |
 | `parkin.webp` / `.jpg` | Yorkshire Parkin | Hero | Yorkshire Ginger Parkin | amandabhslater | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/15181848@N02/53963440690) |
 | `parkin-process.webp` / `.jpg` | Yorkshire Parkin | Process | Yorkshire Ginger Parkin | amandabhslater | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/15181848@N02/53963440675) |
+| `har-gow.webp` / `.jpg` | Har Gow | Hero | Funky Har Gow - Some cool dim sum at Sun Sui Wah - 1 | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/10167337) |
+| `har-gow-process.webp` / `.jpg` | Har Gow | Process | homemade-har-gow | Andrea_Nguyen | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/41993463@N08/7250338122) |
 | `siu-mai.webp` / `.jpg` | Siu Mai | Hero | Siu Mai - Roland in Vancouver (225) | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/258296801) |
 | `cheung-fun.webp` / `.jpg` | Cheung Fun | Hero | Hong Kong style Chee Cheung Fun | cattan2011 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68166820@N08/49931066872) |
 | `cheung-fun-process.webp` / `.jpg` | Cheung Fun | Process | White Truffle: Duck egg yolk, 'cheung fun', yak milk cheese | City Foodsters | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/89060048@N03/15718918293) |
+| `lo-mai-gai.webp` / `.jpg` | Lo Mai Gai | Hero | Lo mai gai 糯米雞 | koishikawagirl | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/56116120@N00/3156086386) |
 | `chicken-feet-black-bean.webp` / `.jpg` | Chicken Feet in Black Bean Sauce | Hero | Phoenix Claws | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/27360474354) |
 | `chicken-feet-black-bean-process.webp` / `.jpg` | Chicken Feet in Black Bean Sauce | Process | Phoenix Claws, Pork Ribs, Beef Balls - Plume | avlxyz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/4982059519) |
+| `sheng-jian-bao.webp` / `.jpg` | Sheng Jian Bao | Hero | Sheng jian bao, Shanghai Restaurant, Oakland CA | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/351360891) |
+| `jianbing.webp` / `.jpg` | Jianbing | Hero | JianBing | bagnaramatt | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/156324531@N04/27244336868) |
+| `jianbing-process.webp` / `.jpg` | Jianbing | Process | JianBing | bagnaramatt | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/156324531@N04/27244337148) |
+| `rou-jia-mo.webp` / `.jpg` | Rou Jia Mo | Hero | Rou Jia Mou (肉夹馍) | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/8161878535) |
+| `liangpi.webp` / `.jpg` | Liangpi | Hero | Liangpi Noodles in Spicy Sauce @ La Taverne de Zhao @ Paris | *_* | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/22539273@N00/29707822356) |
+| `liangpi-process.webp` / `.jpg` | Liangpi | Process | Liangpi Noodles in Spicy Sauce @ La Taverne de Zhao @ Paris | *_* | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/22539273@N00/29631569812) |
+| `smashed-cucumber.webp` / `.jpg` | Smashed Cucumber Salad | Hero | Pai huang gua | John | CC BY 2.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=124109820) |
+| `pidan-tofu.webp` / `.jpg` | Century Egg with Cold Tofu | Hero | Pidan Tofu @ Goku / ピータン豆腐 | jetalone | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/92203585@N00/365647150) |
+| `drunken-chicken.webp` / `.jpg` | Drunken Chicken | Hero | Drunken Chicken and fixins | digitalprimate | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/11558320@N00/565708142) |
+| `drunken-chicken-process.webp` / `.jpg` | Drunken Chicken | Process | Drunken Chicken | fra-NCIS | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/94837166@N00/5820822229) |
+| `tea-eggs.webp` / `.jpg` | Marbled Tea Eggs | Hero | Chinese marbled tea egg | WordRidden | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/97844767@N00/8493882246) |
+| `tea-eggs-process.webp` / `.jpg` | Marbled Tea Eggs | Process | Chinese marbled tea eggs | WordRidden | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/97844767@N00/8492779309) |
+| `youtiao.webp` / `.jpg` | Youtiao | Hero | Youtiao | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/55040438730) |
+| `dongpo-rou.webp` / `.jpg` | Dongpo Rou | Hero | Dongpo pork by superturtle | superturtle | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dongpo_pork_by_superturtle.jpg) |
+| `dongpo-rou-process.webp` / `.jpg` | Dongpo Rou | Process | Dongpo pork (a Hangzhou dish) | Pauloleong2002 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dongpo_pork_(a_Hangzhou_dish).jpg) |
+| `zhajiangmian.webp` / `.jpg` | Zhajiangmian | Hero | beijing style fried sauce noodle, Zhajiangmian | whatapar | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/54377877@N02/10033816344) |
+| `zhajiangmian-process.webp` / `.jpg` | Zhajiangmian | Process | Dao xiao mian @ Zhajiangmian Noodles @ Fresh Noodles @ Rue Saint-Denis @ Paris | *_* | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/22539273@N00/28802224344) |
+| `la-zi-ji.webp` / `.jpg` | La Zi Ji | Hero | Chongqing chicken wings, explosive chili, crispy beef tripe | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/8368937231) |
+| `duo-jiao-yu-tou.webp` / `.jpg` | Duo Jiao Yu Tou | Hero | Duo Jiao Yu Tou (Spicy Fish Dish) | drs2biz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/53477785@N00/5360168440) |
+| `beggars-chicken.webp` / `.jpg` | Beggar's Chicken | Hero | Beggar's Chicken | goosmurf | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/19349404@N00/1349831499) |
+| `steamed-ribs-black-bean.webp` / `.jpg` | Steamed Ribs with Black Bean | Hero | Steamed Pork Ribs | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/55384245416) |
+| `mei-cai-kou-rou.webp` / `.jpg` | Mei Cai Kou Rou | Hero | 梅菜扣肉 Pork Belly with Mei Cai Preserved Vegetable - Easy East | avlxyz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/3225211598) |
+| `dry-fried-green-beans.webp` / `.jpg` | Dry-Fried Green Beans | Hero | An open buffet warmer is filled with a large serving of dry-fried chicken pieces coated in a rich, reddish-brown spice mix. | Faisal Ahammad | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/45868c907d/) |
+| `yong-tau-foo.webp` / `.jpg` | Yong Tau Foo | Hero | Hakka Yong Tau Foo at Yong Tau Foo Bagus, Changi Road | shootoh | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/92659880@N08/8416706502) |
+| `biang-biang-noodles.webp` / `.jpg` | Biang Biang Noodles | Hero | Biang Biang Mian at Xi'an Famous Eats | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/2448171507) |
+| `yangzhou-fried-rice.webp` / `.jpg` | Yangzhou Fried Rice | Hero | Yangzhou fried rice and drinks 25-09-2019 | LN9267 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=124898166) |
+| `zongzi.webp` / `.jpg` | Zongzi | Hero | zongzi | valkyrieh116 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/54357435@N00/2836403485) |
+| `egg-drop-soup.webp` / `.jpg` | Egg Drop Soup | Hero | Monday Lunch Egg Drop Soup with Tomatoes & Vegetables | Gary Lee Todd, Ph.D. | CC0 1.0 | [Flickr](https://www.flickr.com/photos/101561334@N08/34380907495) |
+| `egg-drop-soup-process.webp` / `.jpg` | Egg Drop Soup | Process | Easter Egg Drop | Greenville, SC Daily Photo | CC0 1.0 | [Flickr](https://www.flickr.com/photos/120143184@N05/47942342283) |
+| `winter-melon-soup.webp` / `.jpg` | Winter Melon Soup | Hero | Winter melon soup with chicken, duck and mushroom | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/44513407) |
+| `lotus-root-rib-soup.webp` / `.jpg` | Lotus Root and Pork Rib Soup | Hero | Lotus Root Soup | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/54804995387) |
+| `lotus-root-rib-soup-process.webp` / `.jpg` | Lotus Root and Pork Rib Soup | Process | Lotus Root Soup | chooyutshing | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/25802865@N08/54973037228) |
+| `chilli-oil.webp` / `.jpg` | Sichuan Chilli Oil | Hero | Last night's dinner, with Leo: sichuan chilli fish. Yes, that's a layer of roasted chilli pieces on top. | gemsling | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/23876767@N00/28147877746) |
+| `eight-treasure-rice.webp` / `.jpg` | Eight Treasure Rice | Hero | Ba Bao Fan (store bought) | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/5412041847) |
+| `eight-treasure-rice-process.webp` / `.jpg` | Eight Treasure Rice | Process | Eight treaure rice (ba bao fan) | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/6752928045) |
+| `hong-kong-egg-waffle.webp` / `.jpg` | Hong Kong Egg Waffle | Hero | File:HK Gai-Daan-Jai.jpg | :ja:User:(WT-ja) Tatata | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=22946494) |
 
 ---
 
