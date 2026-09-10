@@ -1,5 +1,7 @@
 'use strict';
-const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit, plural } = require('../lib/util');
+const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit, plural,
+        isIllustration } = require('../lib/util');
+const ILLUSTRATIONS = require('../data/illustrations');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { enrichDescription, recipeTitleHooks, recipeDescriptionClauses } = require('../lib/seo');
@@ -125,8 +127,15 @@ function recipeSchema(recipe) {
      those pages their eligibility. That is the honest price: the alternative
      is qualifying for a photo-led result with a picture of no food at all.
      The fallback still applies to og:image and twitter:image in layout.js,
-     which is what a social card fallback is for. */
-  const image = recipe.imageData
+     which is what a social card fallback is for.
+
+     Generated illustrations are the case this rule did not anticipate: a
+     picture of the dish that is not a photograph of it. Whether one belongs
+     here is a judgement rather than a fact, so it is a switch in
+     src/data/illustrations.js, which sets out both sides. */
+  const usable = recipe.imageData &&
+    (ILLUSTRATIONS.inRecipeSchema || !isIllustration(recipe.imageData));
+  const image = usable
     ? [`${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg`]
     : null;
 
@@ -453,7 +462,8 @@ ${breadcrumbs(trail)}
       ['Time', humanTime(recipe.elapsedTime)],
       ['Serves', String(recipe.servings)]
     ],
-    image: img ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : undefined,
+    image: img && (ILLUSTRATIONS.inRecipeSchema || !isIllustration(img))
+      ? `${SITE.origin}${SITE.base}assets/img/recipes/${img.file}.jpg` : undefined,
     imageWidth: img && img.w,
     imageHeight: img && img.h,
     imageAlt: recipe.imageAlt,
