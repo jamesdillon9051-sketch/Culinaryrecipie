@@ -36,6 +36,10 @@
     "dulce de leche sandwich cookies",
     "alfajor coconut"
   ],
+  "almond-tofu": [
+    "杏仁豆腐",
+    "almond jelly cubes syrup"
+  ],
   "anzac-biscuits": [
     "anzac biscuit"
   ],
@@ -155,6 +159,11 @@
     "wedang jahe",
     "indonesian ginger drink"
   ],
+  "bang-bang-chicken": [
+    "棒棒鸡",
+    "bon bon chicken sichuan",
+    "shredded chicken sesame sauce sichuan"
+  ],
   "bara-brith": [
     "bara brith welsh tea loaf"
   ],
@@ -268,6 +277,11 @@
   ],
   "boxty": [
     "boxty pancake"
+  ],
+  "braised-beef-brisket": [
+    "柱侯牛腩",
+    "牛腩",
+    "cantonese beef brisket brisket stew daikon"
   ],
   "bread-pudding": [
     "bread and butter pudding"
@@ -461,6 +475,10 @@
     "chorba frik",
     "شربة فريك"
   ],
+  "choy-sum-oyster-sauce": [
+    "蚝油菜心",
+    "blanched choy sum oyster sauce"
+  ],
   "cinnamon-sugar-donuts": [
     "sugar doughnuts",
     "cinnamon doughnut",
@@ -477,6 +495,10 @@
     "waffles plate",
     "belgian waffle",
     "waffle breakfast syrup"
+  ],
+  "claypot-rice": [
+    "煲仔饭",
+    "bo zai fan cantonese claypot rice sausage"
   ],
   "cold-brew-coffee": [
     "iced coffee glass",
@@ -528,6 +550,10 @@
   "crab-cakes": [
     "maryland crab cake"
   ],
+  "crab-ginger-scallion": [
+    "姜葱蟹",
+    "ginger and scallion crab wok cantonese"
+  ],
   "cranachan": [
     "cranachan raspberry"
   ],
@@ -566,6 +592,10 @@
     "cabbage slaw pupusas",
     "salvadoran cabbage relish"
   ],
+  "da-pan-ji": [
+    "大盘鸡",
+    "xinjiang big plate chicken potato"
+  ],
   "dakgalbi": [
     "Korean spicy stir fried chicken",
     "dak galbi",
@@ -583,6 +613,10 @@
   "danish-pastry": [
     "wienerbrød",
     "spandauer"
+  ],
+  "di-san-xian": [
+    "地三鲜",
+    "dongbei potato aubergine pepper dish"
   ],
   "djaj-mhammar": [
     "farrouj mhammar",
@@ -861,6 +895,10 @@
     "هلاليم",
     "tunisian thin noodle soup"
   ],
+  "home-style-tofu": [
+    "家常豆腐",
+    "sichuan home style braised tofu"
+  ],
   "hong-shao-rou": [
     "braised pork belly",
     "pork belly bowl rice",
@@ -875,6 +913,14 @@
     "horchata de arroz",
     "agua de horchata",
     "horchata en vaso"
+  ],
+  "hot-and-sour-potato": [
+    "酸辣土豆丝",
+    "shredded potato hot and sour sichuan"
+  ],
+  "hot-dry-noodles": [
+    "热干面",
+    "wuhan re gan mian sesame paste noodles"
   ],
   "hout-mechoui": [
     "hout mechoui",
@@ -1163,6 +1209,10 @@
   "loco-moco": [
     "loco moco hawaii"
   ],
+  "lotus-root-stir-fry": [
+    "炒藕片",
+    "stir fried lotus root slices"
+  ],
   "loubieh-bzeit": [
     "lubyeh bi zeit",
     "green beans in olive oil tomato"
@@ -1221,6 +1271,14 @@
     "manakish",
     "zaatar flatbread",
     "Lebanese flatbread thyme"
+  ],
+  "mango-pomelo-sago": [
+    "杨枝甘露",
+    "mango pomelo sago hong kong dessert"
+  ],
+  "mantou": [
+    "馒头",
+    "chinese steamed bread buns basket"
   ],
   "mapo-eggplant": [
     "麻婆茄子",
@@ -1326,6 +1384,11 @@
     "Korean cold noodles",
     "cold buckwheat noodles",
     "naengmyun"
+  ],
+  "nai-wong-bao": [
+    "奶黄包",
+    "custard bun dim sum",
+    "naai wong bao"
   ],
   "nasi-lemak": [
     "nasi lemak bungkus"
@@ -1547,6 +1610,11 @@
     "rakakat jebne",
     "fried cheese rolls lebanese"
   ],
+  "red-bean-soup": [
+    "红豆汤",
+    "红豆沙",
+    "adzuki bean sweet soup"
+  ],
   "renga": [
     "رنجة",
     "smoked herring egyptian sham el nessim"
@@ -1651,6 +1719,11 @@
     "lohikeitto",
     "laxsoppa"
   ],
+  "salt-baked-chicken": [
+    "盐焗鸡",
+    "yan guk gai",
+    "hakka salt baked chicken"
+  ],
   "sambal-goreng": [
     "kering tempe",
     "sambal goreng tempe"
@@ -1713,6 +1786,10 @@
     "سیخ کباب",
     "seekh kabab"
   ],
+  "sesame-balls": [
+    "煎堆",
+    "jian dui sesame balls red bean"
+  ],
   "sfiha-baalbakieh": [
     "sfiha baalbek",
     "lahm bi ajin",
@@ -1730,6 +1807,10 @@
   "shakshuka-tunisian": [
     "shakshuka merguez",
     "chakchouka"
+  ],
+  "shao-bing": [
+    "烧饼",
+    "chinese sesame layered flatbread"
   ],
   "sheikh-el-mahshi": [
     "sheikh al mahshi",
@@ -1771,6 +1852,11 @@
     "sinigang na hipon",
     "sinigang soup pork",
     "sinigang na baboy"
+  ],
+  "siu-yuk": [
+    "烧肉",
+    "siu yuk crispy pork belly",
+    "cantonese roast pork crisp skin"
   ],
   "slata-tounsia": [
     "salade tunisienne",
@@ -1833,6 +1919,11 @@
     "soupe au pistou",
     "pistou provençal"
   ],
+  "soy-sauce-chicken": [
+    "豉油鸡",
+    "see yau gai",
+    "cantonese soy braised chicken glossy"
+  ],
   "spaetzle": [
     "spaetzle cheese onions",
     "German egg noodles",
@@ -1850,6 +1941,11 @@
     "salatblätter gefüllt hackfleisch",
     "lamb mince dish"
   ],
+  "spicy-wontons": [
+    "红油抄手",
+    "hong you chao shou",
+    "wontons in chilli oil sichuan"
+  ],
   "spring-rolls": [
     "spring roll",
     "fried spring rolls plate",
@@ -1862,6 +1958,14 @@
   "steak-and-ale-pie": [
     "steak and ale pie slice",
     "beef and ale pie"
+  ],
+  "steamed-whole-fish": [
+    "清蒸鱼",
+    "cantonese steamed fish ginger scallion"
+  ],
+  "stir-fried-water-spinach": [
+    "空心菜",
+    "ong choy stir fry fermented bean curd"
   ],
   "stollen": [
     "christstollen",
@@ -1891,6 +1995,10 @@
     "svíčková na smetaně",
     "svíčková"
   ],
+  "sweet-sour-spare-ribs": [
+    "糖醋排骨",
+    "shanghai sweet and sour ribs glossy"
+  ],
   "taameya": [
     "ta'meya",
     "طعمية",
@@ -1908,6 +2016,10 @@
     "talami bread",
     "خبز طلامي"
   ],
+  "tangyuan": [
+    "汤圆",
+    "glutinous rice balls sesame filling bowl"
+  ],
   "tepache": [
     "tepache vaso",
     "tepache in a glass",
@@ -1916,6 +2028,11 @@
   "the-aux-pignons": [
     "the aux pignons",
     "شاي بالصنوبر"
+  ],
+  "three-cup-chicken": [
+    "三杯鸡",
+    "san bei ji",
+    "taiwanese basil chicken clay pot"
   ],
   "toad-in-the-hole": [
     "sausages in yorkshire pudding batter",
@@ -2019,6 +2136,10 @@
     "Victoria sandwich cake",
     "layer sponge cake"
   ],
+  "vinegar-cabbage": [
+    "醋溜白菜",
+    "hand torn cabbage vinegar wok"
+  ],
   "vitello-tonnato": [
     "vitel tonè",
     "vitello tonnato piemontese"
@@ -2036,6 +2157,15 @@
     "rarebit toast",
     "melted cheese toast"
   ],
+  "west-lake-beef-soup": [
+    "西湖牛肉羹",
+    "west lake beef soup egg white coriander"
+  ],
+  "white-cut-chicken": [
+    "白切鸡",
+    "bai qie ji",
+    "poached chicken ginger scallion cantonese"
+  ],
   "wonton-noodle-soup": [
     "雲吞麵",
     "wanton mee",
@@ -2046,10 +2176,18 @@
     "dumpling soup broth",
     "wontons in broth"
   ],
+  "wood-ear-salad": [
+    "凉拌木耳",
+    "wood ear mushroom cold salad vinegar"
+  ],
   "xiao-long-bao": [
     "soup dumplings steamer",
     "xiaolongbao dumplings",
     "steamed pork dumplings"
+  ],
+  "xo-sauce": [
+    "XO酱",
+    "xo sauce dried scallop chilli jar"
   ],
   "yakhnet-batata": [
     "yakhnet batata",
@@ -2062,6 +2200,10 @@
     "chicken souvlaki",
     "grilled chicken skewers",
     "shish taouk"
+  ],
+  "yuxiang-rousi": [
+    "鱼香肉丝",
+    "fish fragrant shredded pork sichuan"
   ],
   "zaalouk": [
     "zaalouk",
