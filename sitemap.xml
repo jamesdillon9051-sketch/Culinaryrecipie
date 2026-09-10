@@ -10137,9 +10137,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torly/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torly.jpg</image:loc>
+      <image:title>Torly</image:title>
+      <image:caption>Torly — Egyptian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roz-mermah/</loc>
@@ -11300,9 +11305,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/opera/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/opera.jpg</image:loc>
+      <image:title>Opéra</image:title>
+      <image:caption>Opéra — French desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fraisier/</loc>
@@ -11794,9 +11804,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cotoletta-alla-milanese/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cotoletta-alla-milanese.jpg</image:loc>
+      <image:title>Cotoletta alla Milanese</image:title>
+      <image:caption>Cotoletta alla Milanese — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cacciucco/</loc>
@@ -11998,9 +12013,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/granita-di-caffe/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/granita-di-caffe.jpg</image:loc>
+      <image:title>Granita di Caffè</image:title>
+      <image:caption>Granita di Caffè — Italian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bellini/</loc>
@@ -12016,9 +12036,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/devils-on-horseback/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/devils-on-horseback.jpg</image:loc>
+      <image:title>Devils on Horseback</image:title>
+      <image:caption>Devils on Horseback — British appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/angels-on-horseback/</loc>
@@ -12120,15 +12145,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cockles-and-laverbread/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cockles-and-laverbread.jpg</image:loc>
+      <image:title>Cockles and Laverbread</image:title>
+      <image:caption>Cockles and Laverbread — Welsh breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lancashire-hotpot/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lancashire-hotpot.jpg</image:loc>
+      <image:title>Lancashire Hotpot</image:title>
+      <image:caption>Lancashire Hotpot — British dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-and-kidney-pudding/</loc>
@@ -12160,9 +12195,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/devilled-kidneys/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/devilled-kidneys.jpg</image:loc>
+      <image:title>Devilled Kidneys</image:title>
+      <image:caption>Devilled Kidneys — British breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-stew-and-dumplings/</loc>
@@ -12327,9 +12367,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/laverbread-and-bacon/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/laverbread-and-bacon.jpg</image:loc>
+      <image:title>Laverbread with Bacon</image:title>
+      <image:caption>Laverbread with Bacon — Welsh breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-marrow/</loc>
@@ -12344,9 +12389,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/watercress-soup/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/watercress-soup.jpg</image:loc>
+      <image:title>Watercress Soup</image:title>
+      <image:caption>Watercress Soup — British lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potted-cheese/</loc>
@@ -12362,9 +12412,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cucumber-sandwiches/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-sandwiches.jpg</image:loc>
+      <image:title>Cucumber Sandwiches</image:title>
+      <image:caption>Cucumber Sandwiches — British lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spotted-dick/</loc>
@@ -12513,9 +12568,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eccles-cakes/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eccles-cakes.jpg</image:loc>
+      <image:title>Eccles Cakes</image:title>
+      <image:caption>Eccles Cakes — British baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/parkin/</loc>
@@ -12769,15 +12829,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/white-cut-chicken/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/white-cut-chicken.jpg</image:loc>
+      <image:title>White Cut Chicken</image:title>
+      <image:caption>White Cut Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soy-sauce-chicken/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soy-sauce-chicken.jpg</image:loc>
+      <image:title>Soy Sauce Chicken</image:title>
+      <image:caption>Soy Sauce Chicken — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/three-cup-chicken/</loc>
@@ -12822,9 +12892,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/siu-yuk/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/siu-yuk.jpg</image:loc>
+      <image:title>Siu Yuk</image:title>
+      <image:caption>Siu Yuk — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mei-cai-kou-rou/</loc>
@@ -13046,9 +13121,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-pomelo-sago/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-pomelo-sago.jpg</image:loc>
+      <image:title>Mango Pomelo Sago</image:title>
+      <image:caption>Mango Pomelo Sago — Chinese desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eight-treasure-rice/</loc>
