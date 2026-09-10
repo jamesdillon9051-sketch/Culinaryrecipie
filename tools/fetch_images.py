@@ -34,7 +34,12 @@ UA = "Weekly DelightBot/1.0 (static recipe site build; contact: hello@culinaryva
 HERO_W, PROCESS_W = 800, 640
 # Seconds a single recipe may spend searching before the remaining attempts are
 # abandoned. Raise it to trade run time for a few more of the obscure dishes.
-SEARCH_BUDGET = 60
+# Overridable, because the right value differs by job. A full run over the
+# catalogue wants it low: most of the cost is dishes that will never be found,
+# and the tail is where the hours went. A targeted re-run over the hundred-odd
+# the archives have already refused once wants it high, because those are
+# exactly the recipes the time-box was cutting off mid-chain.
+SEARCH_BUDGET = int(os.environ.get("SEARCH_BUDGET", "60"))
 WEBP_Q, JPEG_Q = 68, 70
 
 # Licences we accept. Anything else is rejected outright.
