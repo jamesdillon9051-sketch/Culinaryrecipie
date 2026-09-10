@@ -13759,12 +13759,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kadai-paneer.jpg</image:loc>
+      <image:title>Kadai Paneer</image:title>
+      <image:caption>Kadai Paneer — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paneer-bhurji/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-bhurji.jpg</image:loc>
+      <image:title>Paneer Bhurji</image:title>
+      <image:caption>Paneer Bhurji — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chilli-paneer/</loc>
@@ -13789,6 +13799,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/schezwan-fried-rice.jpg</image:loc>
+      <image:title>Schezwan Fried Rice</image:title>
+      <image:caption>Schezwan Fried Rice — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-65/</loc>
@@ -13807,12 +13822,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-chettinad.jpg</image:loc>
+      <image:title>Chicken Chettinad</image:title>
+      <image:caption>Chicken Chettinad — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mutton-curry/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mutton-curry.jpg</image:loc>
+      <image:title>Mutton Curry</image:title>
+      <image:caption>Mutton Curry — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-curry/</loc>
@@ -13825,6 +13850,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-bhurji.jpg</image:loc>
+      <image:title>Egg Bhurji</image:title>
+      <image:caption>Egg Bhurji — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-tikka/</loc>
@@ -13837,12 +13867,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-masala.jpg</image:loc>
+      <image:title>Prawn Masala</image:title>
+      <image:caption>Prawn Masala — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/khichdi/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/khichdi.jpg</image:loc>
+      <image:title>Khichdi</image:title>
+      <image:caption>Khichdi — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veg-biryani/</loc>
@@ -13855,12 +13895,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poha.jpg</image:loc>
+      <image:title>Poha</image:title>
+      <image:caption>Poha — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/upma/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/upma.jpg</image:loc>
+      <image:title>Upma</image:title>
+      <image:caption>Upma — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/medu-vada/</loc>
@@ -13873,24 +13923,44 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/uttapam.jpg</image:loc>
+      <image:title>Uttapam</image:title>
+      <image:caption>Uttapam — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veg-momos/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/veg-momos.jpg</image:loc>
+      <image:title>Vegetable Momos</image:title>
+      <image:caption>Vegetable Momos — Nepalese appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jjajangmyeon/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jjajangmyeon.jpg</image:loc>
+      <image:title>Jjajangmyeon</image:title>
+      <image:caption>Jjajangmyeon — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kimchi-fried-rice/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kimchi-fried-rice.jpg</image:loc>
+      <image:title>Kimchi Fried Rice</image:title>
+      <image:caption>Kimchi Fried Rice — Korean quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/budae-jjigae/</loc>
@@ -13903,18 +13973,33 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/doenjang-jjigae.jpg</image:loc>
+      <image:title>Doenjang Jjigae</image:title>
+      <image:caption>Doenjang Jjigae — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gyeranjjim/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gyeranjjim.jpg</image:loc>
+      <image:title>Gyeranjjim</image:title>
+      <image:caption>Gyeranjjim — Korean appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bossam/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bossam.jpg</image:loc>
+      <image:title>Bossam</image:title>
+      <image:caption>Bossam — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hotteok/</loc>
@@ -13933,12 +14018,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tonkatsu.jpg</image:loc>
+      <image:title>Tonkatsu</image:title>
+      <image:caption>Tonkatsu — Japanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/onigiri/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/onigiri.jpg</image:loc>
+      <image:title>Onigiri</image:title>
+      <image:caption>Onigiri — Japanese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shoyu-ramen/</loc>
@@ -13963,6 +14058,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/panang-curry.jpg</image:loc>
+      <image:title>Panang Curry</image:title>
+      <image:caption>Panang Curry — Thai dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/thai-yellow-curry/</loc>
@@ -13975,6 +14075,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moo-ping.jpg</image:loc>
+      <image:title>Moo Ping</image:title>
+      <image:caption>Moo Ping — Thai appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pad-woon-sen/</loc>
@@ -13987,30 +14092,55 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crying-tiger.jpg</image:loc>
+      <image:title>Crying Tiger Beef</image:title>
+      <image:caption>Crying Tiger Beef — Thai dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banh-xeo/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banh-xeo.jpg</image:loc>
+      <image:title>Bánh Xèo</image:title>
+      <image:caption>Bánh Xèo — Vietnamese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pho-ga/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pho-ga.jpg</image:loc>
+      <image:title>Phở Gà</image:title>
+      <image:caption>Phở Gà — Vietnamese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bun-thit-nuong/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bun-thit-nuong.jpg</image:loc>
+      <image:title>Bún Thịt Nướng</image:title>
+      <image:caption>Bún Thịt Nướng — Vietnamese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bo-kho/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bo-kho.jpg</image:loc>
+      <image:title>Bò Kho</image:title>
+      <image:caption>Bò Kho — Vietnamese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-fajitas/</loc>
@@ -14023,6 +14153,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carne-asada.jpg</image:loc>
+      <image:title>Carne Asada</image:title>
+      <image:caption>Carne Asada — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pico-de-gallo/</loc>
@@ -14047,18 +14182,33 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sopa-de-fideo.jpg</image:loc>
+      <image:title>Sopa de Fideo</image:title>
+      <image:caption>Sopa de Fideo — Mexican lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/arroz-con-leche/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arroz-con-leche.jpg</image:loc>
+      <image:title>Arroz con Leche</image:title>
+      <image:caption>Arroz con Leche — Mexican desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/menudo/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/menudo.jpg</image:loc>
+      <image:title>Menudo</image:title>
+      <image:caption>Menudo — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pot-roast/</loc>
@@ -14071,6 +14221,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sloppy-joe-mix.jpg</image:loc>
+      <image:title>Sloppy Joe Skillet</image:title>
+      <image:caption>Sloppy Joe Skillet — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-salad/</loc>
@@ -14083,6 +14238,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coleslaw.jpg</image:loc>
+      <image:title>Coleslaw</image:title>
+      <image:caption>Coleslaw — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-salad/</loc>
@@ -14095,30 +14255,55 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-salad.jpg</image:loc>
+      <image:title>Tuna Salad</image:title>
+      <image:caption>Tuna Salad — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-salad/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-salad.jpg</image:loc>
+      <image:title>Chicken Salad</image:title>
+      <image:caption>Chicken Salad — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fudge-brownies/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fudge-brownies.jpg</image:loc>
+      <image:title>Fudge Brownies</image:title>
+      <image:caption>Fudge Brownies — American desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fluffy-pancakes/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fluffy-pancakes.jpg</image:loc>
+      <image:title>Fluffy Pancakes</image:title>
+      <image:caption>Fluffy Pancakes — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-bread/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-bread.jpg</image:loc>
+      <image:title>Garlic Bread</image:title>
+      <image:caption>Garlic Bread — Italian baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pesto-pasta/</loc>
@@ -14137,6 +14322,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/puttanesca.jpg</image:loc>
+      <image:title>Spaghetti alla Puttanesca</image:title>
+      <image:caption>Spaghetti alla Puttanesca — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ragu-bolognese/</loc>
@@ -14149,6 +14339,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kleftiko.jpg</image:loc>
+      <image:title>Lamb Kleftiko</image:title>
+      <image:caption>Lamb Kleftiko — Greek dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tiropita/</loc>
@@ -14161,6 +14356,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/youvetsi.jpg</image:loc>
+      <image:title>Youvetsi</image:title>
+      <image:caption>Youvetsi — Greek dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/adana-kebab/</loc>
@@ -14179,36 +14379,66 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/karniyarik.jpg</image:loc>
+      <image:title>Karnıyarık</image:title>
+      <image:caption>Karnıyarık — Turkish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sakshuka-turkish/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sakshuka-turkish.jpg</image:loc>
+      <image:title>Şakşuka</image:title>
+      <image:caption>Şakşuka — Turkish appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-pilav/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkish-pilav.jpg</image:loc>
+      <image:title>Turkish Pilav</image:title>
+      <image:caption>Turkish Pilav — Turkish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/albondigas/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/albondigas.jpg</image:loc>
+      <image:title>Albóndigas</image:title>
+      <image:caption>Albóndigas — Spanish appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-al-ajillo/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-al-ajillo.jpg</image:loc>
+      <image:title>Pollo al Ajillo</image:title>
+      <image:caption>Pollo al Ajillo — Spanish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarta-de-santiago/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarta-de-santiago.jpg</image:loc>
+      <image:title>Tarta de Santiago</image:title>
+      <image:caption>Tarta de Santiago — Spanish desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/flapjacks/</loc>
@@ -14239,6 +14469,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gajar-ka-halwa.jpg</image:loc>
+      <image:title>Gajar ka Halwa</image:title>
+      <image:caption>Gajar ka Halwa — Indian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/falooda/</loc>
@@ -14257,6 +14492,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rasam.jpg</image:loc>
+      <image:title>Rasam</image:title>
+      <image:caption>Rasam — Indian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coconut-chutney/</loc>
@@ -14281,6 +14521,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dhokla.jpg</image:loc>
+      <image:title>Dhokla</image:title>
+      <image:caption>Dhokla — Indian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bhel-puri/</loc>
@@ -14293,18 +14538,33 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-cheese.jpg</image:loc>
+      <image:title>Grilled Cheese Sandwich</image:title>
+      <image:caption>Grilled Cheese Sandwich — American quick meals recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/scrambled-eggs/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/scrambled-eggs.jpg</image:loc>
+      <image:title>Perfect Scrambled Eggs</image:title>
+      <image:caption>Perfect Scrambled Eggs — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-pancakes/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-pancakes.jpg</image:loc>
+      <image:title>Banana Pancakes</image:title>
+      <image:caption>Banana Pancakes — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corn-chowder/</loc>
@@ -14335,6 +14595,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-meatballs.jpg</image:loc>
+      <image:title>Spaghetti and Meatballs</image:title>
+      <image:caption>Spaghetti and Meatballs — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-chicken-traybake/</loc>
@@ -14347,6 +14612,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-karahi.jpg</image:loc>
+      <image:title>Chicken Karahi</image:title>
+      <image:caption>Chicken Karahi — Pakistani dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aloo-keema/</loc>
@@ -14359,18 +14629,33 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pol-sambol.jpg</image:loc>
+      <image:title>Pol Sambol</image:title>
+      <image:caption>Pol Sambol — Sri Lankan appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dhal-curry/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dhal-curry.jpg</image:loc>
+      <image:title>Sri Lankan Dhal Curry</image:title>
+      <image:caption>Sri Lankan Dhal Curry — Sri Lankan dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kare-kare/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kare-kare.jpg</image:loc>
+      <image:title>Kare-Kare</image:title>
+      <image:caption>Kare-Kare — Filipino dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lumpia/</loc>
@@ -14383,12 +14668,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-inasal.jpg</image:loc>
+      <image:title>Chicken Inasal</image:title>
+      <image:caption>Chicken Inasal — Filipino dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sisig/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sisig.jpg</image:loc>
+      <image:title>Sisig</image:title>
+      <image:caption>Sisig — Filipino appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ayam-goreng/</loc>
@@ -14443,12 +14738,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/syrniki.jpg</image:loc>
+      <image:title>Syrniki</image:title>
+      <image:caption>Syrniki — Russian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brigadeiro/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brigadeiro.jpg</image:loc>
+      <image:title>Brigadeiro</image:title>
+      <image:caption>Brigadeiro — Brazilian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/papa-a-la-huancaina/</loc>
@@ -14467,6 +14772,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jerk-pork.jpg</image:loc>
+      <image:title>Jerk Pork</image:title>
+      <image:caption>Jerk Pork — Jamaican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jamaican-patties/</loc>
@@ -14521,12 +14831,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tafelspitz.jpg</image:loc>
+      <image:title>Tafelspitz</image:title>
+      <image:caption>Tafelspitz — Austrian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moules-mariniere/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moules-mariniere.jpg</image:loc>
+      <image:title>Moules Marinière</image:title>
+      <image:caption>Moules Marinière — Belgian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stoofvlees/</loc>
@@ -14551,6 +14871,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mansaf.jpg</image:loc>
+      <image:title>Mansaf</image:title>
+      <image:caption>Mansaf — Middle Eastern dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sfiha/</loc>
@@ -14569,30 +14894,55 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shorbat-adas.jpg</image:loc>
+      <image:title>Shorbat Adas</image:title>
+      <image:caption>Shorbat Adas — Egyptian lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tteok-galbi/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tteok-galbi.jpg</image:loc>
+      <image:title>Tteok Galbi</image:title>
+      <image:caption>Tteok Galbi — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dubu-jorim/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dubu-jorim.jpg</image:loc>
+      <image:title>Dubu Jorim</image:title>
+      <image:caption>Dubu Jorim — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ojingeo-bokkeum/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ojingeo-bokkeum.jpg</image:loc>
+      <image:title>Ojingeo Bokkeum</image:title>
+      <image:caption>Ojingeo Bokkeum — Korean dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zosui/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zosui.jpg</image:loc>
+      <image:title>Zosui</image:title>
+      <image:caption>Zosui — Japanese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/katsudon/</loc>
@@ -14647,6 +14997,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paneer-tikka-masala.jpg</image:loc>
+      <image:title>Paneer Tikka Masala</image:title>
+      <image:caption>Paneer Tikka Masala — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dal-palak/</loc>
@@ -14659,12 +15014,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/veg-kolhapuri.jpg</image:loc>
+      <image:title>Veg Kolhapuri</image:title>
+      <image:caption>Veg Kolhapuri — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tawa-pulao/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tawa-pulao.jpg</image:loc>
+      <image:title>Tawa Pulao</image:title>
+      <image:caption>Tawa Pulao — Indian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/masala-pav/</loc>
@@ -14677,6 +15042,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dabeli.jpg</image:loc>
+      <image:title>Dabeli</image:title>
+      <image:caption>Dabeli — Indian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/samosa-chaat/</loc>
@@ -14689,12 +15059,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-chaat.jpg</image:loc>
+      <image:title>Aloo Chaat</image:title>
+      <image:caption>Aloo Chaat — Indian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dahi-vada/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dahi-vada.jpg</image:loc>
+      <image:title>Dahi Vada</image:title>
+      <image:caption>Dahi Vada — Indian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rasgulla/</loc>
@@ -14719,18 +15099,33 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/besan-ladoo.jpg</image:loc>
+      <image:title>Besan Ladoo</image:title>
+      <image:caption>Besan Ladoo — Indian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/malpua/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/malpua.jpg</image:loc>
+      <image:title>Malpua</image:title>
+      <image:caption>Malpua — Indian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/thandai/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thandai.jpg</image:loc>
+      <image:title>Thandai</image:title>
+      <image:caption>Thandai — Indian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aam-panna/</loc>
@@ -14755,12 +15150,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/filter-coffee.jpg</image:loc>
+      <image:title>South Indian Filter Coffee</image:title>
+      <image:caption>South Indian Filter Coffee — Indian drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bombay-sandwich/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bombay-sandwich.jpg</image:loc>
+      <image:title>Bombay Sandwich</image:title>
+      <image:caption>Bombay Sandwich — Indian breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lanzhou-beef-noodles/</loc>
@@ -14779,6 +15184,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hong-kong-milk-tea.jpg</image:loc>
+      <image:title>Hong Kong Milk Tea</image:title>
+      <image:caption>Hong Kong Milk Tea — Chinese drinks recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chili-cheese-fries/</loc>
@@ -14791,6 +15201,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/po-boy.jpg</image:loc>
+      <image:title>Shrimp Po Boy</image:title>
+      <image:caption>Shrimp Po Boy — American lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/french-dip/</loc>
@@ -14803,12 +15218,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/patty-melt.jpg</image:loc>
+      <image:title>Patty Melt</image:title>
+      <image:caption>Patty Melt — American dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grits/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grits.jpg</image:loc>
+      <image:title>Cheesy Grits</image:title>
+      <image:caption>Cheesy Grits — American breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/corned-beef-hash/</loc>
@@ -14833,12 +15258,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/barmbrack.jpg</image:loc>
+      <image:title>Barmbrack</image:title>
+      <image:caption>Barmbrack — Irish baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dublin-coddle/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dublin-coddle.jpg</image:loc>
+      <image:title>Dublin Coddle</image:title>
+      <image:caption>Dublin Coddle — Irish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rouladen/</loc>
@@ -14875,12 +15310,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sernik.jpg</image:loc>
+      <image:title>Sernik</image:title>
+      <image:caption>Sernik — Polish desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/medovik/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/medovik.jpg</image:loc>
+      <image:title>Medovik</image:title>
+      <image:caption>Medovik — Russian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/varenyky/</loc>
@@ -14893,6 +15338,11 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dobos-torte.jpg</image:loc>
+      <image:title>Dobos Torte</image:title>
+      <image:caption>Dobos Torte — Hungarian desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pkhali/</loc>
@@ -14917,12 +15367,22 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/camarones-a-la-diabla.jpg</image:loc>
+      <image:title>Camarones a la Diabla</image:title>
+      <image:caption>Camarones a la Diabla — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/esquites/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/esquites.jpg</image:loc>
+      <image:title>Esquites</image:title>
+      <image:caption>Esquites — Mexican appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/paletas/</loc>
@@ -14941,5 +15401,10 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gorditas.jpg</image:loc>
+      <image:title>Gorditas</image:title>
+      <image:caption>Gorditas — Mexican dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
 </urlset>

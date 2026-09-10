@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 2986 image files (WebP + JPEG)
+│       └── img/recipes/         # 3172 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 2986 image files
+├── assets/                      #    css, js and 3172 image files
 ├── recipes/                     #    1409 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 124,856 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 124,949 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -1150,6 +1150,59 @@ That is still a large fraction wrong, so every illustration goes through
 `tools/review_images.py` and the same contact-sheet check as an archive
 photograph. A generator draws a confident picture of the wrong dish as readily
 as a right one, and nothing in the file says which it did.
+
+### Two hundred more drawings, and what half of them got wrong
+
+Volumes nineteen and twenty left 276 recipes on gradient cards. 200 of those had
+never been drawn — the rest carried a refusal already — and a three-worker run
+produced 199, losing only `anticuchos` to the rate limit. Reviewed by eye on
+contact sheets, **93 were published and 106 refused**: forty-seven per cent, near
+enough exactly the one-in-two the earlier measurement predicted.
+
+The refusals sort into four kinds, and only the first is the one people expect:
+
+- **A different object altogether.** `pkhali` drew a houseplant in a pot.
+  `salsa-verde-mexican` drew a bowl of green peas. `chicken-lollipop` drew a jar
+  with sticks in it. `black-forest-gateau` drew a window and a cup of coffee with
+  no cake in the frame. Nothing recovers these; a second seed draws a different
+  wrong thing.
+- **The right food in the wrong form**, which is subtler and more common. Satay
+  with no skewer. A medu vada with no hole. Flapjacks as round biscuits rather
+  than squares cut from a tray. Conchas without the scored shell that gives them
+  the name. Mysore pak as loose paste instead of set fudge. The form is what
+  names these dishes and the generator has no grip on it at all.
+- **A picture that contradicts the recipe's own sentence.** `hakka-noodles` came
+  back bare when the description it was built from says "tossed with shredded
+  vegetables". `hokkien-mee` came back pale where the recipe says dark thick
+  noodles. `veg-biryani` had no vegetables in it, `goi-ga` no chicken,
+  `shiro-wat` whole chickpeas where shiro is a flour. This class is the
+  interesting one, because the contradiction is between the picture and a
+  sentence the prompt already contained — which is the same shape as every
+  audit in this repository, and nothing checks it.
+- **One tic, five times.** Whole raw egg yolks floating in broth, on
+  `shoyu-ramen`, `katsudon`, `bun-rieu`, `pad-woon-sen` and `egg-curry`. Five
+  unrelated dishes, one wrong answer, which is a property of the model rather
+  than of any prompt.
+
+Illustrations on the site go from 98 to 191 and gradient cards from 276 to 183.
+Every refusal is recorded in `image-rejects.json` with its prompt and the reason,
+so the next run declines to redraw it rather than reproducing it byte for byte.
+
+### The merge that restaged its own rejects
+
+Reviewing in batches while the workers were still running meant merging their
+staging files into `images-pending.json` more than once, and the second merge
+skipped anything already published and nothing else. It restaged all 83 slugs
+refused in the first batch — whose image files `review_images.py` had just
+deleted — so the staging manifest pointed at eighty-three files that were not
+there.
+
+It was caught by counting: the merge reported 123 new entries where 40 were
+expected. The fix is the guard `generate_images.py` already has and the merge
+did not, reading the same file: a slug with an illustration refusal recorded
+against it is not a candidate. Worth writing down because the tool had solved
+this exact problem once already, in the selection step, and the lesson did not
+travel to the second place that needed it.
 
 ## The ingredients came after the method
 

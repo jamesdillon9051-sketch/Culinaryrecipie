@@ -40,7 +40,7 @@ than use an image we do not have clear rights to.
 
 ## The illustrations
 
-**98** of the pictures on this site are not photographs. They were drawn by
+**191** of the pictures on this site are not photographs. They were drawn by
 an AI image model because six passes through the archives found no photograph
 of those dishes that this site could publish, and a drawing of the dish seemed
 more use to a cook than a blank card.
@@ -158,6 +158,99 @@ wrong dish were deleted rather than kept.
 | `mantou.webp` / `.jpg` | Mantou | Hero | sana |
 | `shao-bing.webp` / `.jpg` | Shao Bing | Hero | sana |
 | `xo-sauce.webp` / `.jpg` | XO Sauce | Hero | sana |
+| `kadai-paneer.webp` / `.jpg` | Kadai Paneer | Hero | sana |
+| `paneer-bhurji.webp` / `.jpg` | Paneer Bhurji | Hero | sana |
+| `schezwan-fried-rice.webp` / `.jpg` | Schezwan Fried Rice | Hero | sana |
+| `chicken-chettinad.webp` / `.jpg` | Chicken Chettinad | Hero | sana |
+| `mutton-curry.webp` / `.jpg` | Mutton Curry | Hero | sana |
+| `egg-bhurji.webp` / `.jpg` | Egg Bhurji | Hero | sana |
+| `prawn-masala.webp` / `.jpg` | Prawn Masala | Hero | sana |
+| `khichdi.webp` / `.jpg` | Khichdi | Hero | sana |
+| `poha.webp` / `.jpg` | Poha | Hero | sana |
+| `upma.webp` / `.jpg` | Upma | Hero | sana |
+| `uttapam.webp` / `.jpg` | Uttapam | Hero | sana |
+| `veg-momos.webp` / `.jpg` | Vegetable Momos | Hero | sana |
+| `jjajangmyeon.webp` / `.jpg` | Jjajangmyeon | Hero | sana |
+| `kimchi-fried-rice.webp` / `.jpg` | Kimchi Fried Rice | Hero | sana |
+| `doenjang-jjigae.webp` / `.jpg` | Doenjang Jjigae | Hero | sana |
+| `gyeranjjim.webp` / `.jpg` | Gyeranjjim | Hero | sana |
+| `bossam.webp` / `.jpg` | Bossam | Hero | sana |
+| `tonkatsu.webp` / `.jpg` | Tonkatsu | Hero | sana |
+| `onigiri.webp` / `.jpg` | Onigiri | Hero | sana |
+| `panang-curry.webp` / `.jpg` | Panang Curry | Hero | sana |
+| `moo-ping.webp` / `.jpg` | Moo Ping | Hero | sana |
+| `crying-tiger.webp` / `.jpg` | Crying Tiger Beef | Hero | sana |
+| `banh-xeo.webp` / `.jpg` | Bánh Xèo | Hero | sana |
+| `pho-ga.webp` / `.jpg` | Phở Gà | Hero | sana |
+| `bun-thit-nuong.webp` / `.jpg` | Bún Thịt Nướng | Hero | sana |
+| `bo-kho.webp` / `.jpg` | Bò Kho | Hero | sana |
+| `carne-asada.webp` / `.jpg` | Carne Asada | Hero | sana |
+| `sopa-de-fideo.webp` / `.jpg` | Sopa de Fideo | Hero | sana |
+| `arroz-con-leche.webp` / `.jpg` | Arroz con Leche | Hero | sana |
+| `menudo.webp` / `.jpg` | Menudo | Hero | sana |
+| `sloppy-joe-mix.webp` / `.jpg` | Sloppy Joe Skillet | Hero | sana |
+| `coleslaw.webp` / `.jpg` | Coleslaw | Hero | sana |
+| `tuna-salad.webp` / `.jpg` | Tuna Salad | Hero | sana |
+| `chicken-salad.webp` / `.jpg` | Chicken Salad | Hero | sana |
+| `fudge-brownies.webp` / `.jpg` | Fudge Brownies | Hero | sana |
+| `fluffy-pancakes.webp` / `.jpg` | Fluffy Pancakes | Hero | sana |
+| `garlic-bread.webp` / `.jpg` | Garlic Bread | Hero | sana |
+| `puttanesca.webp` / `.jpg` | Spaghetti alla Puttanesca | Hero | sana |
+| `kleftiko.webp` / `.jpg` | Lamb Kleftiko | Hero | sana |
+| `youvetsi.webp` / `.jpg` | Youvetsi | Hero | sana |
+| `karniyarik.webp` / `.jpg` | Karnıyarık | Hero | sana |
+| `sakshuka-turkish.webp` / `.jpg` | Şakşuka | Hero | sana |
+| `turkish-pilav.webp` / `.jpg` | Turkish Pilav | Hero | sana |
+| `albondigas.webp` / `.jpg` | Albóndigas | Hero | sana |
+| `pollo-al-ajillo.webp` / `.jpg` | Pollo al Ajillo | Hero | sana |
+| `tarta-de-santiago.webp` / `.jpg` | Tarta de Santiago | Hero | sana |
+| `gajar-ka-halwa.webp` / `.jpg` | Gajar ka Halwa | Hero | sana |
+| `rasam.webp` / `.jpg` | Rasam | Hero | sana |
+| `dhokla.webp` / `.jpg` | Dhokla | Hero | sana |
+| `grilled-cheese.webp` / `.jpg` | Grilled Cheese Sandwich | Hero | sana |
+| `scrambled-eggs.webp` / `.jpg` | Perfect Scrambled Eggs | Hero | sana |
+| `banana-pancakes.webp` / `.jpg` | Banana Pancakes | Hero | sana |
+| `spaghetti-meatballs.webp` / `.jpg` | Spaghetti and Meatballs | Hero | sana |
+| `chicken-karahi.webp` / `.jpg` | Chicken Karahi | Hero | sana |
+| `pol-sambol.webp` / `.jpg` | Pol Sambol | Hero | sana |
+| `dhal-curry.webp` / `.jpg` | Sri Lankan Dhal Curry | Hero | sana |
+| `kare-kare.webp` / `.jpg` | Kare-Kare | Hero | sana |
+| `chicken-inasal.webp` / `.jpg` | Chicken Inasal | Hero | sana |
+| `sisig.webp` / `.jpg` | Sisig | Hero | sana |
+| `syrniki.webp` / `.jpg` | Syrniki | Hero | sana |
+| `brigadeiro.webp` / `.jpg` | Brigadeiro | Hero | sana |
+| `jerk-pork.webp` / `.jpg` | Jerk Pork | Hero | sana |
+| `tafelspitz.webp` / `.jpg` | Tafelspitz | Hero | sana |
+| `moules-mariniere.webp` / `.jpg` | Moules Marinière | Hero | sana |
+| `mansaf.webp` / `.jpg` | Mansaf | Hero | sana |
+| `shorbat-adas.webp` / `.jpg` | Shorbat Adas | Hero | sana |
+| `tteok-galbi.webp` / `.jpg` | Tteok Galbi | Hero | sana |
+| `dubu-jorim.webp` / `.jpg` | Dubu Jorim | Hero | sana |
+| `ojingeo-bokkeum.webp` / `.jpg` | Ojingeo Bokkeum | Hero | sana |
+| `zosui.webp` / `.jpg` | Zosui | Hero | sana |
+| `paneer-tikka-masala.webp` / `.jpg` | Paneer Tikka Masala | Hero | sana |
+| `veg-kolhapuri.webp` / `.jpg` | Veg Kolhapuri | Hero | sana |
+| `tawa-pulao.webp` / `.jpg` | Tawa Pulao | Hero | sana |
+| `dabeli.webp` / `.jpg` | Dabeli | Hero | sana |
+| `aloo-chaat.webp` / `.jpg` | Aloo Chaat | Hero | sana |
+| `dahi-vada.webp` / `.jpg` | Dahi Vada | Hero | sana |
+| `besan-ladoo.webp` / `.jpg` | Besan Ladoo | Hero | sana |
+| `malpua.webp` / `.jpg` | Malpua | Hero | sana |
+| `thandai.webp` / `.jpg` | Thandai | Hero | sana |
+| `filter-coffee.webp` / `.jpg` | South Indian Filter Coffee | Hero | sana |
+| `bombay-sandwich.webp` / `.jpg` | Bombay Sandwich | Hero | sana |
+| `hong-kong-milk-tea.webp` / `.jpg` | Hong Kong Milk Tea | Hero | sana |
+| `po-boy.webp` / `.jpg` | Shrimp Po Boy | Hero | sana |
+| `patty-melt.webp` / `.jpg` | Patty Melt | Hero | sana |
+| `grits.webp` / `.jpg` | Cheesy Grits | Hero | sana |
+| `barmbrack.webp` / `.jpg` | Barmbrack | Hero | sana |
+| `dublin-coddle.webp` / `.jpg` | Dublin Coddle | Hero | sana |
+| `sernik.webp` / `.jpg` | Sernik | Hero | sana |
+| `medovik.webp` / `.jpg` | Medovik | Hero | sana |
+| `dobos-torte.webp` / `.jpg` | Dobos Torte | Hero | sana |
+| `camarones-a-la-diabla.webp` / `.jpg` | Camarones a la Diabla | Hero | sana |
+| `esquites.webp` / `.jpg` | Esquites | Hero | sana |
+| `gorditas.webp` / `.jpg` | Gorditas | Hero | sana |
 
 ## Summary
 
@@ -166,9 +259,9 @@ wrong dish were deleted rather than kept.
 | Recipes | 1409 |
 | Hero photographs | 1035 |
 | Secondary "process" photographs | 360 |
-| Generated illustrations | 98 |
-| Total image files | 2986 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 276 |
+| Generated illustrations | 191 |
+| Total image files | 3172 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 183 |
 
 ### Licences used
 
@@ -288,112 +381,53 @@ and no usable illustration of them could be drawn either:
 - Almond Tofu (`almond-tofu`)
 - Paneer Butter Masala (`paneer-butter-masala`)
 - Matar Paneer (`matar-paneer`)
-- Kadai Paneer (`kadai-paneer`)
-- Paneer Bhurji (`paneer-bhurji`)
 - Chilli Paneer (`chilli-paneer`)
 - Gobi Manchurian (`gobi-manchurian`)
 - Hakka Noodles (`hakka-noodles`)
-- Schezwan Fried Rice (`schezwan-fried-rice`)
 - Chicken 65 (`chicken-65`)
 - Chicken Lollipop (`chicken-lollipop`)
-- Chicken Chettinad (`chicken-chettinad`)
-- Mutton Curry (`mutton-curry`)
 - Egg Curry (`egg-curry`)
-- Egg Bhurji (`egg-bhurji`)
 - Fish Tikka (`fish-tikka`)
-- Prawn Masala (`prawn-masala`)
-- Khichdi (`khichdi`)
 - Vegetable Biryani (`veg-biryani`)
-- Poha (`poha`)
-- Upma (`upma`)
 - Medu Vada (`medu-vada`)
-- Uttapam (`uttapam`)
-- Vegetable Momos (`veg-momos`)
-- Jjajangmyeon (`jjajangmyeon`)
-- Kimchi Fried Rice (`kimchi-fried-rice`)
 - Budae Jjigae (`budae-jjigae`)
-- Doenjang Jjigae (`doenjang-jjigae`)
-- Gyeranjjim (`gyeranjjim`)
-- Bossam (`bossam`)
 - Hotteok (`hotteok`)
 - Korean Corn Cheese (`korean-corn-cheese`)
-- Tonkatsu (`tonkatsu`)
-- Onigiri (`onigiri`)
 - Shoyu Ramen (`shoyu-ramen`)
 - Ebi Fry (`ebi-fry`)
 - Japanese Curry Roux (`japanese-curry-roux`)
-- Panang Curry (`panang-curry`)
 - Thai Yellow Curry (`thai-yellow-curry`)
-- Moo Ping (`moo-ping`)
 - Pad Woon Sen (`pad-woon-sen`)
-- Crying Tiger Beef (`crying-tiger`)
-- Bánh Xèo (`banh-xeo`)
-- Phở Gà (`pho-ga`)
-- Bún Thịt Nướng (`bun-thit-nuong`)
-- Bò Kho (`bo-kho`)
 - Chicken Fajitas (`chicken-fajitas`)
-- Carne Asada (`carne-asada`)
 - Pico de Gallo (`pico-de-gallo`)
 - Salsa Verde (`salsa-verde-mexican`)
 - Chile Relleno (`chile-relleno`)
-- Sopa de Fideo (`sopa-de-fideo`)
-- Arroz con Leche (`arroz-con-leche`)
-- Menudo (`menudo`)
 - Pot Roast (`pot-roast`)
-- Sloppy Joe Skillet (`sloppy-joe-mix`)
 - Potato Salad (`potato-salad`)
-- Coleslaw (`coleslaw`)
 - Egg Salad (`egg-salad`)
-- Tuna Salad (`tuna-salad`)
-- Chicken Salad (`chicken-salad`)
-- Fudge Brownies (`fudge-brownies`)
-- Fluffy Pancakes (`fluffy-pancakes`)
-- Garlic Bread (`garlic-bread`)
 - Pesto Pasta (`pesto-pasta`)
 - Minestrone (`minestrone`)
-- Spaghetti alla Puttanesca (`puttanesca`)
 - Ragù alla Bolognese (`ragu-bolognese`)
-- Lamb Kleftiko (`kleftiko`)
 - Tiropita (`tiropita`)
-- Youvetsi (`youvetsi`)
 - Adana Kebab (`adana-kebab`)
 - Manti (`manti`)
-- Karnıyarık (`karniyarik`)
-- Şakşuka (`sakshuka-turkish`)
-- Turkish Pilav (`turkish-pilav`)
-- Albóndigas (`albondigas`)
-- Pollo al Ajillo (`pollo-al-ajillo`)
-- Tarta de Santiago (`tarta-de-santiago`)
 - Flapjacks (`flapjacks`)
 - Vegetable Stir-Fry (`vegetable-stir-fry`)
 - Ras Malai (`ras-malai`)
 - Kulfi (`kulfi`)
-- Gajar ka Halwa (`gajar-ka-halwa`)
 - Falooda (`falooda`)
 - Shrikhand (`shrikhand`)
-- Rasam (`rasam`)
 - Coconut Chutney (`coconut-chutney`)
 - Tandoori Roti (`tandoori-roti`)
 - Pani Puri (`pani-puri`)
-- Dhokla (`dhokla`)
 - Bhel Puri (`bhel-puri`)
-- Grilled Cheese Sandwich (`grilled-cheese`)
-- Perfect Scrambled Eggs (`scrambled-eggs`)
-- Banana Pancakes (`banana-pancakes`)
 - Corn Chowder (`corn-chowder`)
 - Loaded Baked Potato (`loaded-baked-potato`)
 - Chicken Caesar Wrap (`chicken-caesar-wrap`)
 - Ground Beef Tacos (`beef-tacos`)
-- Spaghetti and Meatballs (`spaghetti-meatballs`)
 - Greek Chicken Traybake (`greek-chicken-traybake`)
-- Chicken Karahi (`chicken-karahi`)
 - Aloo Keema (`aloo-keema`)
-- Pol Sambol (`pol-sambol`)
-- Sri Lankan Dhal Curry (`dhal-curry`)
-- Kare-Kare (`kare-kare`)
 - Lumpiang Shanghai (`lumpia`)
-- Chicken Inasal (`chicken-inasal`)
-- Sisig (`sisig`)
 - Ayam Goreng (`ayam-goreng`)
 - Beef Satay (`beef-satay`)
 - Hokkien Mee (`hokkien-mee`)
@@ -402,11 +436,8 @@ and no usable illustration of them could be drawn either:
 - Placki Ziemniaczane (`placki-ziemniaczane`)
 - Makowiec (`makowiec`)
 - Stroganoff Sauce (`stroganoff-sauce`)
-- Syrniki (`syrniki`)
-- Brigadeiro (`brigadeiro`)
 - Papa a la Huancaína (`papa-a-la-huancaina`)
 - Anticuchos (`anticuchos`)
-- Jerk Pork (`jerk-pork`)
 - Jamaican Beef Patties (`jamaican-patties`)
 - Puff Puff (`puff-puff`)
 - Shiro Wat (`shiro-wat`)
@@ -415,19 +446,11 @@ and no usable illustration of them could be drawn either:
 - Mandazi (`mandazi`)
 - Baleadas (`baleadas`)
 - Czech Dumplings (`knedliky`)
-- Tafelspitz (`tafelspitz`)
-- Moules Marinière (`moules-mariniere`)
 - Stoofvlees (`stoofvlees`)
 - Stamppot (`stamppot`)
 - Raggmunk (`raggmunk`)
-- Mansaf (`mansaf`)
 - Sfiha (`sfiha`)
 - Fattet Hummus (`fattet-hummus`)
-- Shorbat Adas (`shorbat-adas`)
-- Tteok Galbi (`tteok-galbi`)
-- Dubu Jorim (`dubu-jorim`)
-- Ojingeo Bokkeum (`ojingeo-bokkeum`)
-- Zosui (`zosui`)
 - Katsudon (`katsudon`)
 - Hiyayakko (`hiyayakko`)
 - Khai Jiao (`khai-jiao`)
@@ -436,56 +459,33 @@ and no usable illustration of them could be drawn either:
 - Bánh Cuốn (`banh-cuon`)
 - Bún Riêu (`bun-rieu`)
 - Gỏi Gà (`goi-ga`)
-- Paneer Tikka Masala (`paneer-tikka-masala`)
 - Dal Palak (`dal-palak`)
-- Veg Kolhapuri (`veg-kolhapuri`)
-- Tawa Pulao (`tawa-pulao`)
 - Masala Pav (`masala-pav`)
-- Dabeli (`dabeli`)
 - Samosa Chaat (`samosa-chaat`)
-- Aloo Chaat (`aloo-chaat`)
-- Dahi Vada (`dahi-vada`)
 - Rasgulla (`rasgulla`)
 - Mysore Pak (`mysore-pak`)
 - Kaju Katli (`kaju-katli`)
-- Besan Ladoo (`besan-ladoo`)
-- Malpua (`malpua`)
-- Thandai (`thandai`)
 - Aam Panna (`aam-panna`)
 - Jaljeera (`jaljeera`)
 - Chaas (`chaas`)
-- South Indian Filter Coffee (`filter-coffee`)
-- Bombay Sandwich (`bombay-sandwich`)
 - Lanzhou Beef Noodle Soup (`lanzhou-beef-noodles`)
 - Pineapple Bun (`pineapple-bun`)
-- Hong Kong Milk Tea (`hong-kong-milk-tea`)
 - Chili Cheese Fries (`chili-cheese-fries`)
-- Shrimp Po Boy (`po-boy`)
 - French Dip (`french-dip`)
-- Patty Melt (`patty-melt`)
-- Cheesy Grits (`grits`)
 - Corned Beef Hash (`corned-beef-hash`)
 - Monkey Bread (`monkey-bread`)
 - Tattie Scones (`tattie-scones`)
-- Barmbrack (`barmbrack`)
-- Dublin Coddle (`dublin-coddle`)
 - Rouladen (`rouladen`)
 - German Potato Salad (`kartoffelsalat`)
 - Black Forest Gateau (`black-forest-gateau`)
 - Obatzda (`obatzda`)
 - Pierogi Ruskie (`pierogi-ruskie`)
-- Sernik (`sernik`)
-- Medovik (`medovik`)
 - Varenyky (`varenyky`)
-- Dobos Torte (`dobos-torte`)
 - Pkhali (`pkhali`)
 - Jachnun (`jachnun`)
 - Sopa de Tortilla (`sopa-de-tortilla`)
-- Camarones a la Diabla (`camarones-a-la-diabla`)
-- Esquites (`esquites`)
 - Paletas (`paletas`)
 - Conchas (`conchas`)
-- Gorditas (`gorditas`)
 
 ## Brand assets
 

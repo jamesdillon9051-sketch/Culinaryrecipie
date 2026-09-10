@@ -2885,5 +2885,853 @@
       "prompt": "Glutinous rice balls with a molten black sesame centre, floated in ginger syrup, Eaten at the lantern festival and at the winter solstice, made with black sesame seeds, ginger, a Chinese dish called Tangyuan, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "dark solid balls, and tangyuan are white and served in liquid"
     }
+  ],
+  "paneer-butter-masala": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Paneer in a glossy tomato and cashew gravy, finished with butter and cream, The restaurant dish people try to reproduce at home more than any other, made with paneer, ripe tomatoes, cashew nuts, onion, garlic cloves, an Indian dish called Paneer Butter Masala, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth beige dome, not cubes of paneer in gravy"
+    }
+  ],
+  "matar-paneer": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "made with paneer, frozen peas, onions, tinned chopped tomatoes, garlic cloves, an Indian dish called Matar Paneer, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a beige dome with no peas and no paneer"
+    }
+  ],
+  "chilli-paneer": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Battered paneer tossed with peppers and onion in a dark, glossy soy and chilli sauce, Indo-Chinese, and the one everybody orders, made with paneer, cornflour, Kashmiri chilli powder, onion, garlic cloves, an Indian dish called Chilli Paneer, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale cubes with none of the dark sauce or peppers the recipe describes"
+    }
+  ],
+  "gobi-manchurian": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cauliflower fried in a spiced batter and tossed in a dark garlic and soy sauce, made with cauliflower, cornflour, Kashmiri chilli powder, garlic cloves, cm ginger, an Indian dish called Gobi Manchurian, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pyramid of yellow spheres, not battered cauliflower"
+    }
+  ],
+  "hakka-noodles": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Egg noodles tossed with shredded vegetables over a high flame, The Indian Chinese restaurant staple, and fifteen minutes start to finish, made with dried egg noodles, garlic cloves, cm ginger, onion, white cabbage, an Indian dish called Hakka Noodles, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "bare noodles, none of the shredded vegetables the recipe is tossed with"
+    }
+  ],
+  "chicken-65": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Small pieces of chicken in a red, curry-leaf-scented coating, fried hard and tossed with yoghurt and chilli, A Chennai hotel dish from 1965, made with boneless chicken thigh, thick natural yoghurt, ginger and garlic paste, Kashmiri chilli powder, ground turmeric, an Indian dish called Chicken 65, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a soupy plate, not dry red fried chicken pieces"
+    }
+  ],
+  "chicken-lollipop": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chicken wings frenched into a lollipop, battered red and fried, Bar food across India, and the reason wing drumettes sell out, made with chicken wing drumettes, ginger and garlic paste, Kashmiri chilli powder, light soy sauce, rice vinegar, an Indian dish called Chicken Lollipop, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a jar on a table with sticks in it"
+    }
+  ],
+  "egg-curry": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Boiled eggs halved into a spiced onion and tomato gravy, The cheapest good curry there is, and on the table in forty-five minutes, made with eggs, ground turmeric, Kashmiri chilli powder, onions, ginger and garlic paste, an Indian dish called Egg Curry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "reads as raw yolks floating in sauce"
+    }
+  ],
+  "fish-tikka": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Firm white fish in a yoghurt and carom seed marinade, charred at the edges, Thirty-five minutes and no tandoor required, made with thick Greek yoghurt, ginger and garlic paste, carom seeds, Kashmiri chilli powder, ground turmeric, an Indian dish called Fish Tikka, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a block in yellow broth, not grilled marinated chunks"
+    }
+  ],
+  "veg-biryani": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Vegetables and part-cooked rice layered with saffron milk and fried onion, then sealed and steamed, The dum method, done properly, made with basmati rice, onions, mixed carrot, frozen peas, thick natural yoghurt, an Indian dish called Vegetable Biryani, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain yellow rice with no vegetables in it"
+    }
+  ],
+  "medu-vada": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Doughnut-shaped urad dal fritters, crisp outside and airy in, The hardest simple thing in a south Indian kitchen, made with split urad dal, cm ginger, green chillies, curry leaves, whole black peppercorns, an Indian dish called Medu Vada, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "flat discs with no hole, closer to shortbread than vada"
+    }
+  ],
+  "budae-jjigae": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Army base stew: kimchi, gochujang, sausage, tinned meat and instant noodles in one bubbling pan, made with well-fermented kimchi, tinned luncheon meat, frankfurters, firm tofu, onion, a Korean dish called Budae Jjigae, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "generic small bowls, none of the sausage, noodles or spam that define it"
+    }
+  ],
+  "hotteok": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A yeasted pancake stuffed with brown sugar and nuts, pressed flat on a griddle so the filling melts to syrup, Korean winter street food, made with fast-action yeast, warm milk, ground cinnamon, peanuts, walnuts, a Korean dish called Hotteok, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a tall stack of thin pancakes, not one filled griddled bun"
+    }
+  ],
+  "korean-corn-cheese": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Sweetcorn bound with mayonnaise under a lid of grilled mozzarella, A side dish that arrives bubbling and never comes back to the kitchen, made with tinned sweetcorn, mayonnaise, spring onions, low-moisture mozzarella, a Korean dish called Korean Corn Cheese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain corn kernels with no melted cheese"
+    }
+  ],
+  "shoyu-ramen": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A clear chicken broth seasoned with a soy tare, with chashu pork, a marinated egg and thin curled noodles, The oldest ramen there is, made with chicken wings and carcass, piece dried kombu, dried shiitake mushrooms, onion, cm ginger, a Japanese dish called Shoyu Ramen, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "two whole raw yolks floating in the broth"
+    }
+  ],
+  "ebi-fry": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Panko prawns fried straight rather than curled, served with tartare, A Japanese diner classic and the reason for the cuts along the belly, made with raw king prawns, eggs, panko breadcrumbs, Japanese mayonnaise, hard-boiled egg, a Japanese dish called Ebi Fry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "round discs, not breaded prawns"
+    }
+  ],
+  "japanese-curry-roux": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Flour and butter cooked slowly to a nutty brown and spiced, Make it once and the shop-bought blocks stop being necessary, made with mild curry powder, garam masala, ground turmeric, tomato pur\u00e9e, honey, a Japanese dish called Japanese Curry Roux, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a dark room and an almost empty frame"
+    }
+  ],
+  "thai-yellow-curry": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "The mildest of the Thai curries, yellow with turmeric and thick with potato, The one to cook for people who say they do not like heat, made with chicken thigh, tin coconut milk, yellow curry paste, potatoes, onion, a Thai dish called Thai Yellow Curry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a murky bowl of yellow lumps"
+    }
+  ],
+  "pad-woon-sen": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Glass noodles tossed with egg, prawns and vegetables in a light soy dressing, Twenty-seven minutes and lighter than pad thai, made with mung bean glass noodles, raw prawns, eggs, garlic cloves, onion, a Thai dish called Pad Woon Sen, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "yellow wheat noodles where the dish is glass noodles"
+    }
+  ],
+  "chicken-fajitas": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Marinated chicken and peppers cooked hard in a dry pan and brought to the table still spitting, The sizzle is the point, made with chicken thigh, lime juice, ground cumin, smoked paprika, dried oregano, a Mexican dish called Chicken Fajitas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "chicken and peppers over what reads as pasta, no tortillas"
+    }
+  ],
+  "pico-de-gallo": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Tomato, onion, chilli, coriander and lime, chopped small and salted, Fifteen minutes, no cooking, and it improves everything it touches, made with ripe tomatoes, white onion, jalape\u00f1os, coriander leaves, lime juice, a Mexican dish called Pico de Gallo, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "dominated by sweetcorn, not the tomato and onion dice"
+    }
+  ],
+  "salsa-verde-mexican": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Tomatillos and green chilli charred under a grill and blitzed with coriander and lime, Twenty-five minutes and sharper than any red salsa, made with tomatillos, white onion, garlic cloves, coriander leaves and stalks, lime juice, a Mexican dish called Salsa Verde, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bowl of green peas"
+    }
+  ],
+  "chile-relleno": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A poblano stuffed with cheese, dipped in whipped egg and fried, then sat in a thin tomato broth, The hardest easy dish in Mexican cooking, made with poblano chillies, cornflour, eggs, tinned chopped tomatoes, onion, a Mexican dish called Chile Relleno, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a yellow blob on green sauce with no pepper visible"
+    }
+  ],
+  "pot-roast": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A whole chuck joint browned and cooked three and a half hours with carrots and potatoes until it falls into pieces under a fork, made with beef chuck, onions, garlic cloves, tomato pur\u00e9e, red wine, an American dish called Pot Roast, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale untouched piece of meat, not a browned braise"
+    }
+  ],
+  "potato-salad": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Waxy potatoes dressed while still warm with mayonnaise, mustard and egg, Forty minutes, and it wants an hour in the fridge afterwards, made with cider vinegar, eggs, mayonnaise, yellow mustard, celery sticks, an American dish called Potato Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth yellow sphere"
+    }
+  ],
+  "egg-salad": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hard-boiled eggs chopped rough with mayonnaise, mustard and chives, Twenty minutes, and the texture depends entirely on the knife, made with eggs, mayonnaise, Dijon mustard, celery stick, chopped chives, an American dish called Egg Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a yellow ball with a bite taken out of it"
+    }
+  ],
+  "pesto-pasta": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Basil pounded with pine nuts and cheese, loosened with pasta water and tossed off the heat, Twenty-two minutes, made with trofie or fusilli, basil leaves, pine nuts, garlic cloves, vegetarian hard cheese, an Italian dish called Pesto Pasta, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain pale macaroni with a basil sprig laid on top, no pesto"
+    }
+  ],
+  "minestrone": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Whatever vegetables are about, cooked long and slow with beans and a little pasta, Under an hour, and it improves overnight, made with onion, carrots, celery sticks, garlic cloves, tomato pur\u00e9e, an Italian dish called Minestrone, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a small mound of pasta in sauce, not a chunky vegetable soup"
+    }
+  ],
+  "ragu-bolognese": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Minced beef and pork cooked three hours in milk, wine and a little tomato, Not the red mince sauce, and worth the afternoon, made with minced beef, minced pork, pancetta, onion, carrot, an Italian dish called Rag\u00f9 alla Bolognese, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "blurred mince in what reads as a pastry case"
+    }
+  ],
+  "tiropita": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Feta and egg between layers of filo, baked until the top shatters, Cut it before it goes in the oven, not after, made with feta, ricotta, eggs, chopped dill, chopped mint, a Greek dish called Tiropita, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a fried egg on a plate, not a filo cheese pie"
+    }
+  ],
+  "adana-kebab": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hand-minced lamb with tail fat and red pepper, pressed onto flat skewers and grilled over charcoal, Named for the city, and protected there, made with minced lamb, onion, garlic cloves, ground cumin, chopped flat-leaf parsley, a Turkish dish called Adana Kebab, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "round patties on macaroni, not a long minced lamb skewer"
+    }
+  ],
+  "manti": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Dumplings the size of a fingernail under garlic yoghurt and paprika butter, Eighty minutes, most of it folding, made with egg, minced lamb, onion, thick natural yoghurt, garlic cloves, a Turkish dish called Manti, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth yellow dome with no dumplings in it"
+    }
+  ],
+  "flapjacks": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Oats bound with butter, golden syrup and sugar, baked in a tray and cut while warm, Thirty-five minutes and impossible to get wrong except in one way, made with rolled oats, golden syrup, vanilla extract, a British dish called Flapjacks, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a stack of round biscuits, not squares cut from an oat tray"
+    }
+  ],
+  "vegetable-stir-fry": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Whatever is in the fridge, cut evenly and cooked hard for four minutes in a sauce that clings, Twenty-five minutes and the noodles are optional, made with broccoli, carrots, mangetout, baby corn, spring onions, a Chinese dish called Vegetable Stir-Fry, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "vegetable sticks standing upright in a bowl like a plant"
+    }
+  ],
+  "ras-malai": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Discs of fresh cheese poached, squeezed and soaked in cardamom and saffron milk, The dessert Bengali sweet shops are judged on, made with litres whole milk, lemon juice, semolina, litre whole milk, green cardamom pods, an Indian dish called Ras Malai, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "yellow domes on a dry plate, not pale discs in milk"
+    }
+  ],
+  "kulfi": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Milk boiled down by half and frozen hard in moulds, Denser than ice cream because it is never churned, made with litres whole milk, green cardamom pods, saffron threads, pistachios, almonds, an Indian dish called Kulfi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "soft serve in a glass, not a dense moulded ice"
+    }
+  ],
+  "falooda": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Rose syrup, soaked basil seeds, vermicelli, milk and ice cream layered in a tall glass, Half drink and half pudding, made with basil seeds, rose syrup, whole milk, pistachios, almonds, an Indian dish called Falooda, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain white glass with none of the layers or rose syrup"
+    }
+  ],
+  "shrikhand": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Yoghurt hung until it is thick as cream cheese, then beaten with sugar, saffron and cardamom, Fifteen minutes of work and a night of waiting, made with whole milk natural yoghurt, saffron threads, warm milk, green cardamom pods, pistachios, an Indian dish called Shrikhand, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a nearly empty bowl with a small white dollop"
+    }
+  ],
+  "coconut-chutney": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Fresh coconut ground with green chilli and roasted gram, finished with a mustard seed tempering, The thing every south Indian breakfast comes with, made with roasted gram dal, green chillies, cm ginger, mustard seeds, dried red chilli, an Indian dish called Coconut Chutney, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "yellow, where coconut chutney is white"
+    }
+  ],
+  "tandoori-roti": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Wholemeal flatbread slapped onto the side of a very hot oven and blistered, No tandoor: a cast-iron pan upside down does it, an Indian dish called Tandoori Roti, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a dark room with the bread barely visible"
+    }
+  ],
+  "pani-puri": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hollow crisp spheres filled with spiced water, potato and chickpea, eaten whole in one go, India's most-loved street snack, made with fine semolina, mint leaves, coriander leaves, green chillies, cm ginger, an Indian dish called Pani Puri, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a green mound with no puri anywhere in it"
+    }
+  ],
+  "bhel-puri": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Puffed rice tossed at the last second with chutneys, onion, potato and sev, made with puffed rice, sev, papdi crackers, potato, red onion, an Indian dish called Bhel Puri, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a uniform yellow mound with none of the chutneys, onion or sev"
+    }
+  ],
+  "corn-chowder": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Sweetcorn simmered in a thin broth with potato and finished with cream, Forty-five minutes, and the cobs go in the pot, made with corn cobs, litres vegetable stock, onion, celery sticks, garlic cloves, an American dish called Corn Chowder, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "dry corn kernels in a bowl, not a creamy soup"
+    }
+  ],
+  "loaded-baked-potato": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A potato baked until the skin is crisp and the inside floury, split and filled with butter, cheese, bacon and soured cream, made with baking potatoes, mature Cheddar, soured cream, spring onions, chopped chives, an American dish called Loaded Baked Potato, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain bun with no topping at all"
+    }
+  ],
+  "chicken-caesar-wrap": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Griddled chicken, cos lettuce and parmesan rolled in a warm tortilla with a proper anchovy dressing, Under half an hour, made with chicken breasts, garlic cloves, mayonnaise, lemon juice, Dijon mustard, an American dish called Chicken Caesar Wrap, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "yellow parcels that read as empanadas, not a rolled wrap"
+    }
+  ],
+  "beef-tacos": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Minced beef cooked with real spices rather than a sachet, in corn tortillas with whatever you have, Twenty-five minutes, made with minced beef, onion, garlic cloves, ground cumin, smoked paprika, a Mexican dish called Ground Beef Tacos, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "flat tortilla with a fan of cheese standing upright"
+    }
+  ],
+  "greek-chicken-traybake": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chicken thighs, potatoes, lemon and oregano in one tin for forty-five minutes, The tin does the work, made with chicken thighs, waxy potatoes, lemons, garlic cloves, dried oregano, a Greek dish called Greek Chicken Traybake, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a tray of pale balls with no chicken in it"
+    }
+  ],
+  "aloo-keema": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Minced lamb and potato cooked down together until the mince is dry and catching, A Pakistani weeknight standard, made with minced lamb, onions, ginger and garlic paste, tomatoes, potatoes, a Pakistani dish called Aloo Keema, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale yellow mound, not mince with potato"
+    }
+  ],
+  "lumpia": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thin pork and vegetable spring rolls, rolled pencil-thin and fried hard, Filipino parties are counted in these, made with minced pork, carrot, onion, garlic cloves, spring onions, a Filipino dish called Lumpiang Shanghai, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale uncooked-looking rolls where lumpia are deep golden and crisp"
+    }
+  ],
+  "ayam-goreng": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chicken simmered in turmeric and lemongrass, then fried, with the spiced poaching liquid fried alongside into crisp golden crumbs, made with chicken pieces, shallots, garlic cloves, cm fresh turmeric, cm galangal, an Indonesian dish called Ayam Goreng, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "fried chicken sitting in a pool of sauce"
+    }
+  ],
+  "beef-satay": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Beef marinated in lemongrass and turmeric, threaded thin and grilled fast over charcoal, with a peanut sauce made from scratch, made with beef rump, lemongrass stalks, shallots, garlic cloves, cm galangal, a Malaysian dish called Beef Satay, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "sliced beef on greens with no skewer anywhere"
+    }
+  ],
+  "hokkien-mee": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thick yellow noodles braised in dark soy with prawns, pork and cabbage until the sauce coats every strand, made with pork back fat, thick fresh yellow noodles, pork loin, raw prawns, white cabbage, a Malaysian dish called Hokkien Mee, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale yellow noodles where the recipe calls for dark thick ones"
+    }
+  ],
+  "ghoriba": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Almond biscuits rolled thickly in icing sugar so they crack open white as they bake, Chill the dough or they spread, made with ground almonds, eggs, baking powder, blanched almonds, a Moroccan dish called Ghoriba, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "smooth pale ovals with none of the cracked icing sugar crust"
+    }
+  ],
+  "kookoo-sabzi": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "More herb than egg, dark green all the way through, studded with walnut and sour barberry, Cook it low or it turns bitter, made with flat-leaf parsley, coriander, dill, chives, eggs, a Persian dish called Kookoo Sabzi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "fried eggs on chopped herbs, not a set herb frittata"
+    }
+  ],
+  "placki-ziemniaczane": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Grated potato pancakes fried crisp at the edges and soft in the middle, made with floury potatoes, onion, eggs, soured cream, chopped chives, a Polish dish called Placki Ziemniaczane, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a tall stack of thin crepes, not lacy fried potato pancakes"
+    }
+  ],
+  "makowiec": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A yeasted roll wound around a thick poppy seed filling, sliced to show the spiral, Poland's Christmas cake, made with fast-action yeast, warm milk, egg yolks, poppy seeds, whole milk, a Polish dish called Makowiec, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale spiral with none of the black poppy seed filling"
+    }
+  ],
+  "stroganoff-sauce": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Mushrooms, mustard and soured cream reduced into a sauce for beef or anything else, Forty minutes and no beef required, made with chestnut mushrooms, onions, garlic cloves, sweet paprika, Dijon mustard, a Russian dish called Stroganoff Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "what read as bread rolls in a dish"
+    }
+  ],
+  "papa-a-la-huancaina": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Boiled potatoes under a yellow chilli and cheese sauce, cold, with olives and egg, Thirty-five minutes, made with waxy potatoes, aj\u00ed amarillo paste, queso fresco or feta, cream crackers, evaporated milk, a Peruvian dish called Papa a la Huanca\u00edna, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "two plain yellow discs that read as cheese slices"
+    }
+  ],
+  "jamaican-patties": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Turmeric pastry folded round spiced minced beef and baked, The colour comes from the pastry, not the filling, made with ground turmeric, curry powder, cold vegetable shortening, minced beef, onion, a Jamaican dish called Jamaican Beef Patties, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a rolled tube, not a crimped half-moon turnover"
+    }
+  ],
+  "shiro-wat": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Toasted chickpea flour whisked into a spiced stew that thickens as you stir, On the table in half an hour, made with shiro powder, onion, garlic cloves, cm piece root ginger, berbere, an Ethiopian dish called Shiro Wat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "whole chickpeas in sauce where shiro is a smooth chickpea flour stew"
+    }
+  ],
+  "misir-wat": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Red lentils cooked down with berbere until they go dark and glossy and the oil separates out, The dry onion start does it, made with split red lentils, onions, garlic cloves, cm piece root ginger, berbere, an Ethiopian dish called Misir Wat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a small pastry tart, not a red lentil stew"
+    }
+  ],
+  "mandazi": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cardamom and coconut milk in a soft fried triangle, sweet enough for morning and not much more, Kenya's doughnut, made with baking powder, ground cardamom, egg, coconut milk, a Kenyan dish called Mandazi, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale round discs, not golden triangles"
+    }
+  ],
+  "baleadas": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A thick flour tortilla folded over refried beans, cream and crumbled cheese, Honduras's breakfast, and thirty minutes, made with baking powder, lard or vegetable shortening, onion, garlic cloves, ground cumin, an International dish called Baleadas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an open tortilla with no beans on it"
+    }
+  ],
+  "stamppot": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Potatoes mashed with kale or endive and a well of gravy in the middle, with sausage laid across, Fifty minutes, made with floury potatoes, curly kale, whole milk, grated nutmeg, smoked sausages, a Dutch dish called Stamppot, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a live herb bush standing in a bowl of mash"
+    }
+  ],
+  "sfiha": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Open lamb pies the size of a saucer, tart with pomegranate molasses, Baalbek makes them flat and thin, made with fast-action dried yeast, minced lamb, onion, tomatoes, pomegranate molasses, a Lebanese dish called Sfiha, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "reads as a cranberry fruit pie, not an open lamb pie"
+    }
+  ],
+  "khai-jiao": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A Thai omelette dropped into deep hot oil so it puffs and crisps at the edges, Thirteen minutes, and it goes on rice, made with eggs, fish sauce, lime juice, cooked jasmine rice, spring onion, a Thai dish called Khai Jiao, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "round yellow shapes on rice that read as boiled egg, not a puffed omelette"
+    }
+  ],
+  "banh-cuon": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Rice batter steamed into sheets thinner than paper, rolled around pork and wood ear, with fried shallots over, made with tapioca starch, minced pork, dried wood ear mushrooms, onion, garlic cloves, a Vietnamese dish called B\u00e1nh Cu\u1ed1n, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pile of pasta curls, not thin steamed rice rolls"
+    }
+  ],
+  "puff-puff": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Yeasted batter dropped straight into hot oil, where it puffs into rough golden spheres, Sweet, chewy, gone in minutes, made with fast-action dried yeast, grated nutmeg, a Nigerian dish called Puff Puff, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a single bread roll, not a plate of round fried dough balls"
+    }
+  ],
+  "milk-tart": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A pale set custard in a thin crust under a heavy dusting of cinnamon, South Africa's tea-time tart, and not a baked one, made with egg yolk, litre whole milk, cinnamon sticks, cornflour, eggs, a South African dish called Milk Tart, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a piped yellow dome with none of the flat cinnamon-dusted custard"
+    }
+  ],
+  "knedliky": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Bread dumplings steamed in a cloth roll and cut into rounds with thread, What Czech gravy is served over, made with fast-action yeast, warm milk, egg, slices stale white bread, a Czech dish called Czech Dumplings, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a filled bread roll, not sliced steamed dumplings"
+    }
+  ],
+  "stoofvlees": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Beef braised in dark Belgian ale with a slice of mustard-spread bread stirred in to thicken it, Three hours, made with braising beef, onions, dark Belgian abbey ale, beef stock, cider vinegar, a Belgian dish called Stoofvlees, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a stack of pastry on a board, not a dark beef and beer stew"
+    }
+  ],
+  "raggmunk": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thin potato pancakes fried in butter, with bacon and lingonberry, Sweden's Thursday, and forty minutes, made with floury potatoes, whole milk, egg, streaky bacon, lingonberry jam, a Swedish dish called Raggmunk, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a distant table with the food barely in frame"
+    }
+  ],
+  "fattet-hummus": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Crisp torn bread under warm chickpeas under garlicky yoghurt, finished with browned butter and pine nuts, Assembled, not cooked, made with pitta breads, tinned chickpeas, ground cumin, thick Greek yoghurt, tahini, a Lebanese dish called Fattet Hummus, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a tower of fried nuggets, not layered bread, chickpeas and yoghurt"
+    }
+  ],
+  "katsudon": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A pork cutlet simmered for ninety seconds in dashi and onion with egg poured over, slid onto rice, Forty minutes, made with tonkatsu, onion, dashi, light soy sauce, mirin, a Japanese dish called Katsudon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "two raw yolks and no breaded cutlet anywhere"
+    }
+  ],
+  "pad-prik-king": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Green beans and pork stir-fried in red curry paste with no coconut milk at all, A dry curry, and thirty minutes, made with green beans, pork loin or chicken thigh, red curry paste, fish sauce, kaffir lime leaves, a Thai dish called Pad Prik King, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a green sauce where the dish is a dry red curry paste"
+    }
+  ],
+  "bun-rieu": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A tomato and crab broth with floating clouds of crab and egg, over rice vermicelli, Sharper and lighter than ph\u1edf, made with crab meat, eggs, minced pork, fish sauce, litres chicken or pork stock, a Vietnamese dish called B\u00fan Ri\u00eau, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "raw yolks in yellow broth, not the red crab and tomato soup"
+    }
+  ],
+  "dal-palak": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Yellow lentils cooked soft and finished with spinach and a garlic tempering, made with toor dal or yellow moong dal, ground turmeric, spinach, cumin seeds, pinch asafoetida, an Indian dish called Dal Palak, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a yellow mound sitting on raw spinach leaves instead of cooked through it"
+    }
+  ],
+  "masala-pav": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Soft rolls split and griddled in butter with a spiced onion and tomato mixture pressed into them, Twenty-five minutes, made with soft white rolls, onions, tomatoes, ginger and garlic paste, pav bhaji masala, an Indian dish called Masala Pav, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain pale roll with no masala on it"
+    }
+  ],
+  "samosa-chaat": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A samosa crushed under chickpea curry, yoghurt and three chutneys, Twenty-five minutes if the samosas are bought, made with samosas, tinned chickpeas, onion, ginger and garlic paste, tomatoes, an Indian dish called Samosa Chaat, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plain yellow crumple with none of the chickpeas, yoghurt or chutney"
+    }
+  ],
+  "rasgulla": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Balls of fresh cheese boiled in thin syrup until they double and turn spongy, Bengal's sweet, and the texture is everything, made with litres whole milk, fine semolina, green cardamom pods, an Indian dish called Rasgulla, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "white balls on a dry plate with no syrup"
+    }
+  ],
+  "mysore-pak": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Gram flour cooked with ghee and sugar until it sets porous and melts on contact, Forty-five minutes, and the pour is a race, made with ghee, ground cardamom, an Indian dish called Mysore Pak, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bowl of loose paste, not cut squares of set fudge"
+    }
+  ],
+  "aam-panna": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Green mangoes boiled, pulped and mixed with cumin, mint and black salt, Sour, savoury and the colour of a lawn, made with raw green mangoes, roasted cumin powder, mint leaves, ice, an Indian dish called Aam Panna, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "whole raw mangoes on a table, not the drink"
+    }
+  ],
+  "pineapple-bun": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A soft milk bun under a crackled sweet crust that splits into a pattern in the oven, No pineapple in it anywhere, made with fast-action yeast, warm whole milk, egg, egg yolk, custard powder, a Chinese dish called Pineapple Bun, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a smooth bun with none of the crackled sugar crust that names it"
+    }
+  ],
+  "hiyayakko": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cold tofu with ginger, spring onion and soy, Ten minutes, four ingredients, and it depends entirely on the tofu, made with silken tofu, cm ginger, spring onions, light soy sauce, bonito flakes, a Japanese dish called Hiyayakko, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "tofu sitting in a pool of bright green liquid"
+    }
+  ],
+  "khanom-krok": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Coconut pancakes cooked in a dimpled pan, crisp underneath and molten in the middle, served two stuck together, made with cooked jasmine rice, coconut milk, coconut cream, spring onions, sweetcorn kernels, a Thai dish called Khanom Krok, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bowl of yellow porridge, not small half-sphere coconut pancakes"
+    }
+  ],
+  "goi-ga": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Poached chicken torn into shreds with cabbage, herbs and a sharp fish sauce dressing, Forty minutes, mostly cooling, made with chicken breasts, cm ginger, spring onions, white cabbage, carrot, a Vietnamese dish called G\u1ecfi G\u00e0, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "shredded slaw with no chicken in a chicken salad"
+    }
+  ],
+  "kaju-katli": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cashews ground to a paste, cooked with sugar and rolled into diamonds, Four ingredients and no room for error, made with cashew nuts, ghee, ground cardamom, sheet edible silver leaf, an Indian dish called Kaju Katli, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a plate of split lentils, nothing like silver-leafed cashew fudge"
+    }
+  ],
+  "jaljeera": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cumin, mint, tamarind and black salt in cold water, Fifteen minutes, no cooking, and it tastes like nothing else, made with cumin seeds, mint leaves, coriander leaves, tamarind paste, green chillies, an Indian dish called Jaljeera, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bowl of soup with peas, not a thin green cumin drink"
+    }
+  ],
+  "chaas": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Yoghurt thinned with water and seasoned with cumin, ginger and curry leaf, made with natural yoghurt, roasted cumin powder, cm ginger, green chilli, curry leaves, an Indian dish called Chaas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a bowl of thick curd where chaas is a thin buttermilk drink"
+    }
+  ],
+  "lanzhou-beef-noodles": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A clear beef broth over hand-pulled noodles with white radish, coriander and a spoonful of chilli oil, Two and a half hours, made with beef shin, beef bones, cm ginger, spring onions, star anise, a Chinese dish called Lanzhou Beef Noodle Soup, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a clear noodle soup with no beef and no chilli oil"
+    }
+  ],
+  "chili-cheese-fries": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chips under beef chilli and melted cheese, eaten with a fork before the bottom layer surrenders, Forty-five minutes, made with Maris Piper potatoes, minced beef, onion, garlic cloves, tomato pur\u00e9e, an American dish called Chili Cheese Fries, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an orange gloop with no fries visible at all"
+    }
+  ],
+  "french-dip": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thin roast beef in a roll with a cup of the roasting juices to dip it in, made with sirloin or rump, onion, garlic cloves, sprigs thyme, red wine, an American dish called French Dip, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a roll holding what reads as raw beef"
+    }
+  ],
+  "corned-beef-hash": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Corned beef and potato pressed into a hot pan and left alone until a crust forms, Forty minutes and one flip, made with waxy potatoes, corned beef, beef dripping, onion, smoked paprika, an American dish called Corned Beef Hash, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a wet orange mass with none of the browned crust the recipe is about"
+    }
+  ],
+  "monkey-bread": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Balls of enriched dough rolled in cinnamon sugar, stacked in a ring tin and baked so they pull apart in a caramel, made with fast-action yeast, warm whole milk, egg, ground cinnamon, double cream, an American dish called Monkey Bread, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "separate rolls, not a pull-apart ring in caramel"
+    }
+  ],
+  "tattie-scones": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Mashed potato and flour rolled thin, cut into triangles and cooked on a dry griddle, Part of a Scottish fry-up, made with floury potatoes, a Scottish dish called Tattie Scones, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "smooth pale ovals that read as raw dough"
+    }
+  ],
+  "rouladen": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Thin beef rolled around bacon, onion and pickle, browned and braised two hours into its own gravy, made with German or Dijon mustard, rashers streaky bacon, onions, gherkins, carrots, a German dish called Rouladen, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "an orange wrap, not a beef roll in dark gravy"
+    }
+  ],
+  "kartoffelsalat": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Warm potato slices in a bacon, vinegar and stock dressing, with no mayonnaise anywhere near it, made with waxy potatoes, cider vinegar, German or Dijon mustard, streaky bacon, onion, a German dish called German Potato Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a neat stack of potato discs, not a dressed salad"
+    }
+  ],
+  "black-forest-gateau": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Chocolate sponge soaked in kirsch, layered with cherries and cream, The kirsch is not optional and never was, made with eggs, cocoa powder, baking powder, jarred morello cherries, kirsch, a German dish called Black Forest Gateau, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a window and a cup of coffee with no cake in frame"
+    }
+  ],
+  "obatzda": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Ripe Camembert mashed with butter, paprika and beer into a spread for pretzels, Fifteen minutes and no cooking, made with very ripe Camembert, cream cheese, onion, sweet paprika, caraway seeds, a German dish called Obatzda, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a pale scone where obatzda is an orange cheese spread"
+    }
+  ],
+  "pierogi-ruskie": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Dumplings filled with potato and curd cheese, boiled and then fried in butter with onions, Poland's most-made dish, made with floury potatoes, twar\u00f3g or dry curd cheese, onions, soured cream, chopped chives, a Polish dish called Pierogi Ruskie, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "one amorphous white blob, not half-moon dumplings"
+    }
+  ],
+  "varenyky": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Ukrainian dumplings filled with sour cherries, boiled and served with soured cream and sugar, Sweet, and a main course, made with egg, pitted sour cherries, fine semolina, soured cream, an Ukrainian dish called Varenyky, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "blurred round balls, not half-moon dumplings"
+    }
+  ],
+  "pkhali": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Vegetables blanched, squeezed and pounded with walnut, garlic and coriander into small mounds, Georgia's table starts with these, made with spinach, cooked beetroot, green beans, walnuts, garlic cloves, a Georgian dish called Pkhali, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a houseplant in a pot on a table"
+    }
+  ],
+  "jachnun": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Buttered dough stretched thin, rolled up and baked overnight until it turns dark and sweet, Yemenite Jewish Saturday breakfast, made with baking powder, honey, eggs, tomatoes, zhug or harissa, an Israeli dish called Jachnun, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "pale raw-looking dough logs, not pastry baked dark overnight"
+    }
+  ],
+  "sopa-de-tortilla": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "A chilli and tomato broth with crisp tortilla strips added at the table so they keep their crunch, Forty-five minutes, made with corn tortillas, pasilla chillies, guajillo chillies, ripe tomatoes, onion, a Mexican dish called Sopa de Tortilla, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "flat tortillas beside salsa, with no soup anywhere"
+    }
+  ],
+  "paletas": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Fresh fruit blended with a little sugar and lime and frozen in moulds, Fifteen minutes of work and no cooking, made with ripe mango flesh, lime juice, Taj\u00edn or chilli powder, wooden lolly sticks, a Mexican dish called Paletas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "fruit in a cup with a stick, not a moulded ice lolly"
+    }
+  ],
+  "conchas": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Sweet enriched rolls under a crisp sugar paste scored into a shell, Mexico's pan dulce, and the pattern is the name, made with fast-action yeast, warm whole milk, eggs, vanilla extract, cocoa powder, a Mexican dish called Conchas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "plain buns with none of the scored shell topping that names them"
+    }
   ]
 }
