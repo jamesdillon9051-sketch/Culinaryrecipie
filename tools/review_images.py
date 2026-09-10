@@ -40,12 +40,34 @@ def main():
 
     kept, refused, missing = [], [], []
 
+    # What was published before this run, so the tool can prove it did not
+    # quietly drop any of it. Twice now a review has deleted a photograph it
+    # was not reviewing — once through the refusal branch and once through the
+    # publish branch — and both times nothing said so, because a recipe with a
+    # missing image renders exactly like one that never had it. Reasoning about
+    # each branch is what failed; checking the outcome does not depend on
+    # having thought of the branch.
+    before = {(slug, kind)
+              for slug, entry in manifest.items() if entry
+              for kind in ("hero", "process") if entry.get(kind)}
+
     for slug in [s.strip() for s in args.keep.split(",") if s.strip()]:
         entry = pending.pop(slug, None)
         if not entry:
             missing.append(slug)
             continue
-        manifest[slug] = entry
+        # Merge, never replace.
+        #
+        # A pending record always carries both keys, and the one it was not
+        # reviewing is None — so assigning it wholesale deleted whatever was
+        # published under the other key. It cost tofu-edamame-stir-fry its
+        # CC BY-SA process photograph twice: once through the refusal path,
+        # which was fixed on its own, and then again through this one, which
+        # is the same mistake in the other branch. Publishing a hero says
+        # nothing about a process shot, so it must leave it alone.
+        published = manifest.get(slug) or {}
+        manifest[slug] = {k: (entry.get(k) or published.get(k))
+                          for k in ("hero", "process")}
         kept.append(slug)
 
     # Clauses split on ";" and pairs on "=", so a reason containing either
@@ -102,6 +124,18 @@ def main():
                 if os.path.exists(path):
                     os.remove(path)
         refused.append(slug)
+
+    # Nothing published may vanish except what was explicitly refused.
+    after = {(slug, kind)
+             for slug, entry in manifest.items() if entry
+             for kind in ("hero", "process") if entry.get(kind)}
+    intended = {(slug, kind) for slug in refused for kind in ("hero", "process")}
+    lost = sorted(before - after - intended)
+    if lost:
+        sys.exit("refusing to write: this review would drop published images "
+                 "nobody refused —\n  "
+                 + "\n  ".join(f"{slug} ({kind})" for slug, kind in lost)
+                 + "\nNothing has been written. The manifest on disk is unchanged.")
 
     json.dump(manifest, open(MANIFEST, "w"), indent=1)
     json.dump(pending, open(PENDING, "w"), indent=1, sort_keys=True)

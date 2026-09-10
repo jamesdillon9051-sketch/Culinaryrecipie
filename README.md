@@ -94,7 +94,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 2914 image files (WebP + JPEG)
+│       └── img/recipes/         # 2986 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -106,7 +106,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 2914 image files
+├── assets/                      #    css, js and 2986 image files
 ├── recipes/                     #    1209 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -247,7 +247,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 107,299 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 107,339 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -810,6 +810,24 @@ the index carries its own licence string, "AI illustration". The guard passed on
 precisely the file it was written to catch. It asks which section the filename
 appears in now.
 
+### The retry, and what it recovered
+
+Running every remaining dish again with a moved-on seed drew 116 and kept 40.
+21 of those were dishes whose earlier drawing had been refused; the other 19
+had never been drawn at all.
+
+So retrying recovered about a quarter of the rejects, and the pattern in which
+ones is the useful part. Dishes refused because the generator produced
+something unrelated came back usable — `mantou` went from a kiln to a plain
+steamed bun, `moules-frites` finally arrived with the mussels, `di-san-xian`
+from a rock formation to peppers, potato and aubergine on a plate,
+`strozzapreti` from choux buns to twisted pasta. Dishes refused because the
+model has the wrong idea of what the food looks like came back wrong in the
+same way: `mont-blanc` drew a white dome for the third time, `malfouf-mahshi`
+laid its cabbage leaves out flat again, `scallion-oil-noodles` sat in broth
+again, `dukkah` and `assidat-zgougou` produced people at a table again. A new
+seed reshuffles the roll; it does not change what the model thinks the dish is.
+
 ### The refusal that deleted a photograph
 
 Refusing 42 of the first 76 drawings destroyed a published photograph, and
@@ -831,10 +849,22 @@ The only reason it surfaced at all is that the photograph total moved by one in
 the wrong direction between two runs of `npm run attribution`.
 
 The refusal now clears only the kinds present in the entry being reviewed and
-deletes only their files. The photograph and its record are restored from the
-commit before the run. Confirmed by staging a hero candidate against that same
-recipe and refusing it: the hero record clears, the hero file goes, the process
-record and both process files stay.
+deletes only their files. Confirmed by staging a hero candidate against that
+same recipe and refusing it: the hero record clears, the hero file goes, the
+process record and both process files stay.
+
+And then it happened again, on the other branch. Publishing did
+`manifest[slug] = entry`, and a pending record always carries both keys with
+the one it is not reviewing set to None — so publishing a hero deleted the same
+photograph a second time, for the same reason in the branch the first fix had
+not touched. It publishes by merge now: a candidate can only ever overwrite the
+kind it actually carries.
+
+Reasoning branch by branch is what failed twice, so the tool no longer relies on
+it. It records what was published before the review, and refuses to write
+anything at all if the result would drop a published image that nobody refused —
+naming what would have gone. Proved by putting the publish bug back: the guard
+stops the write and the manifest on disk is untouched.
 
 ### The run that redrew its own rejects
 
