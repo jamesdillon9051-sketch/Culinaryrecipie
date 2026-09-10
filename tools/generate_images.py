@@ -202,9 +202,7 @@ def main():
 
     manifest = json.load(open(MANIFEST)) if os.path.exists(MANIFEST) else {}
     rows = recipes()
-    if args.retry:
-        # Otherwise a retry is the same request and returns the same file.
-        args.seed += 100
+    refusals = refused_illustrations()
 
     if args.slugs:
         want = {s.strip() for s in args.slugs.split(",") if s.strip()}
@@ -215,7 +213,7 @@ def main():
         # which on a rate-limited endpoint is an hour of work thrown away.
         staged = json.load(open(args.pending)) if os.path.exists(args.pending) else {}
         everywhere = json.load(open(PENDING)) if os.path.exists(PENDING) else {}
-        refused = refused_illustrations()
+        refused = refusals
         rows = [r for r in rows
                 if not (manifest.get(r["slug"]) or {}).get("hero")
                 and not (staged.get(r["slug"]) or {}).get("hero")
@@ -246,10 +244,16 @@ def main():
         # a refusal as something to wait out rather than retry into, and let
         # nothing thrown here end the run — a slug that cannot be drawn is a
         # slug to skip, not a reason to stop.
+        # A retry has to be a different request, or it returns the file it
+        # returned last time — which is how one run spent 42 of its 46
+        # drawings reproducing rejects. The shift counts this dish's own
+        # refusals, so a second retry differs from the first as well as from
+        # the original, rather than every retry landing on one spare seed.
+        seed = args.seed + 100 * len(refusals.get(slug) or ())
         raw = None
         for attempt in range(5):
             try:
-                raw = fetch(prompt, args.seed + attempt)
+                raw = fetch(prompt, seed + attempt)
                 if raw:
                     break
                 wait = 0
