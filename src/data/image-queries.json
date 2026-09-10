@@ -107,6 +107,10 @@
     "bagels basket",
     "sesame bagel"
   ],
+  "bagna-cauda": [
+    "Bagna càuda",
+    "bagna cauda anchovy garlic dip pot"
+  ],
   "baked-cinnamon-apples": [
     "bratapfel",
     "baked apple dessert",
@@ -160,6 +164,7 @@
     "indonesian ginger drink"
   ],
   "bang-bang-chicken": [
+    "Bang bang chicken",
     "棒棒鸡",
     "bon bon chicken sichuan",
     "shredded chicken sesame sauce sichuan"
@@ -210,6 +215,10 @@
   "belgian-waffles": [
     "gaufre de bruxelles",
     "brusselse wafel"
+  ],
+  "bellini": [
+    "Bellini (cocktail)",
+    "white peach prosecco flute"
   ],
   "besara": [
     "bessara",
@@ -518,6 +527,10 @@
     "coquille saint-jacques",
     "noix de saint-jacques"
   ],
+  "cordon-bleu": [
+    "Cordon bleu (dish)",
+    "breaded veal ham cheese escalope"
+  ],
   "cornish-pasty": [
     "pasty",
     "Cornish pasties",
@@ -615,6 +628,7 @@
     "spandauer"
   ],
   "di-san-xian": [
+    "Disanxian",
     "地三鲜",
     "dongbei potato aubergine pepper dish"
   ],
@@ -732,6 +746,14 @@
     "فطير مشلتت",
     "egyptian layered flaky pastry"
   ],
+  "financiers": [
+    "Financier (cake)",
+    "almond brown butter cakes rectangular"
+  ],
+  "fiori-di-zucca": [
+    "Stuffed squash blossoms",
+    "fried courgette flowers batter"
+  ],
   "fish-tacos": [
     "fish taco",
     "battered fish tacos slaw",
@@ -804,6 +826,10 @@
   "ghormeh-sabzi": [
     "قورمه سبزی",
     "gheimeh sabzi khoresh"
+  ],
+  "giardiniera": [
+    "Giardiniera",
+    "italian pickled vegetables jar"
   ],
   "gnocchi-alla-sorrentina": [
     "gnocchi alla sorrentina",
@@ -1277,6 +1303,8 @@
     "mango pomelo sago hong kong dessert"
   ],
   "mantou": [
+    "Mantou",
+    "馒头 steamed bun",
     "馒头",
     "chinese steamed bread buns basket"
   ],
@@ -1344,6 +1372,10 @@
     "ملوخية",
     "mulukhiyah soup bowl",
     "egyptian jute leaf soup"
+  ],
+  "mont-blanc": [
+    "Mont Blanc (dessert)",
+    "chestnut cream vermicelli dessert"
   ],
   "moqueca": [
     "Brazilian fish stew",
@@ -1436,6 +1468,10 @@
     "fried onion rings",
     "crispy onion rings"
   ],
+  "opera": [
+    "Opera cake",
+    "opera gateau coffee chocolate layers"
+  ],
   "pad-see-ew": [
     "Thai wide rice noodles",
     "stir fried flat noodles",
@@ -1445,6 +1481,10 @@
     "paella pan rice",
     "paella seafood",
     "valencian paella rice"
+  ],
+  "palmiers": [
+    "Palmier",
+    "palmier puff pastry hearts"
   ],
   "pan-con-tomate": [
     "tomato bread",
@@ -1470,6 +1510,10 @@
     "pao de queijo bread",
     "cheese bread brazilian basket",
     "queijo bread rolls"
+  ],
+  "paris-brest": [
+    "Paris-Brest (dessert)",
+    "praline choux ring pastry"
   ],
   "pasta-alla-gricia": [
     "gricia",
@@ -1533,6 +1577,10 @@
     "peri peri grilled chicken",
     "grilled chicken halves",
     "spicy roast chicken"
+  ],
+  "pithiviers": [
+    "Pithiviers (cake)",
+    "puff pastry almond cream pie"
   ],
   "ploughmans-lunch": [
     "ploughman's lunch",
@@ -1611,6 +1659,7 @@
     "fried cheese rolls lebanese"
   ],
   "red-bean-soup": [
+    "Hong dou tang",
     "红豆汤",
     "红豆沙",
     "adzuki bean sweet soup"
@@ -1683,6 +1732,10 @@
     "fried cheese saganaki",
     "pan fried cheese lemon",
     "grilled cheese slab"
+  ],
+  "saint-honore": [
+    "Gâteau St. Honoré",
+    "saint honore choux cream gateau"
   ],
   "salade-de-chevre-chaud": [
     "salade de chèvre chaud",
@@ -1787,6 +1840,8 @@
     "seekh kabab"
   ],
   "sesame-balls": [
+    "Jian dui",
+    "fried sesame ball red bean",
     "煎堆",
     "jian dui sesame balls red bean"
   ],
@@ -1818,8 +1873,9 @@
     "stuffed aubergine in yoghurt"
   ],
   "shish-barak": [
-    "shishbarak",
+    "Shish barak",
     "شيش برك",
+    "shishbarak",
     "dumplings in yoghurt levantine"
   ],
   "shish-taouk": [
@@ -1946,6 +2002,10 @@
     "hong you chao shou",
     "wontons in chilli oil sichuan"
   ],
+  "spotted-dick": [
+    "Spotted dick",
+    "suet currant steamed pudding custard"
+  ],
   "spring-rolls": [
     "spring roll",
     "fried spring rolls plate",
@@ -1990,6 +2050,10 @@
     "Korean soft tofu stew",
     "spicy tofu stew",
     "tofu jjigae"
+  ],
+  "suppli": [
+    "Supplì",
+    "suppli al telefono rice croquette"
   ],
   "svickova": [
     "svíčková na smetaně",
@@ -2158,6 +2222,7 @@
     "melted cheese toast"
   ],
   "west-lake-beef-soup": [
+    "West lake beef soup",
     "西湖牛肉羹",
     "west lake beef soup egg white coriander"
   ],

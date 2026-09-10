@@ -855,6 +855,83 @@ def openverse_candidates(query, wide=True, licences=OPENVERSE_TIERS[0]):
     return out
 
 
+def wikipedia_lead_candidates(title, tags=()):
+    """The lead image of the English Wikipedia article for a dish.
+
+    Someone wrote an article about mantou and chose a photograph to head it.
+    That is a stronger statement about the subject than any caption match, and
+    it is the one source here where a human decided "this picture represents
+    this dish" rather than "this picture is captioned with these words".
+
+    Two things make it safe to trust. The article title is resolved through
+    redirects and reported back, so a query that lands somewhere unexpected can
+    be seen. And the file is looked up on Commons: en.wikipedia also hosts
+    non-free files locally under fair use, which this site cannot publish, and
+    those are simply absent from Commons — so a file that is not there is
+    dropped rather than guessed at.
+    """
+    if benched(host_of("https://en.wikipedia.org/")):
+        return []
+    params = {"action": "query", "format": "json", "redirects": "1",
+              "prop": "pageimages", "piprop": "original", "titles": title}
+    data = http_json("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params))
+    if not data:
+        return []
+    article, filename = None, None
+    for page in (data.get("query", {}).get("pages", {}) or {}).values():
+        original = page.get("original")
+        if not original:
+            continue
+        article = page.get("title", "")
+        filename = urllib.parse.unquote(
+            original.get("source", "").split("?")[0].rsplit("/", 1)[-1])
+    if not filename:
+        return []
+    if BAD_TOKENS.search(filename) or BAD_TOKENS.search(article or ""):
+        return []
+
+    info_params = {
+        "action": "query", "format": "json", "titles": "File:" + filename,
+        "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": str(HERO_W),
+    }
+    info_data = http_json("https://commons.wikimedia.org/w/api.php?"
+                          + urllib.parse.urlencode(info_params))
+    if not info_data:
+        return []
+    out = []
+    for page in (info_data.get("query", {}).get("pages", {}) or {}).values():
+        if "missing" in page:          # a local non-free upload, not on Commons
+            continue
+        info = (page.get("imageinfo") or [None])[0]
+        if not info:
+            continue
+        meta = info.get("extmetadata", {}) or {}
+        lic = strip_html(meta.get("LicenseShortName", {}).get("value", ""))
+        if not OK_LICENCE.match(lic):
+            continue
+        clean = re.sub(r"^File:|\.\w+$", "", page.get("title", ""))
+        if contradicts_diet(clean, title, tags):
+            continue
+        if info.get("width", 0) < 500 or info.get("height", 0) < 380:
+            continue
+        src = info.get("thumburl") or info.get("url", "")
+        if not src:
+            continue
+        out.append({
+            "title": f"{clean} (lead image of the {article} article)",
+            "url": src.split("?")[0],
+            "page": info.get("descriptionurl", ""),
+            "author": strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown",
+            "licence": lic,
+            "licence_url": strip_html(meta.get("LicenseUrl", {}).get("value", ""))
+                           or "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "Wikimedia Commons",
+            "score": 0.85,
+            "strong": True,
+        })
+    return out
+
+
 def commons_category_candidates(name, tags=()):
     """Files a person filed under Category:<dish> on Commons.
 
@@ -1002,6 +1079,10 @@ def gather(query, tags=(), reject=()):
     # agrees with the dish and that is worth preferring. When every text search
     # has failed, a curated category is the better evidence and the only thing
     # here that does not depend on the caption being accurate.
+    # The article's own lead image, before categories: an editor choosing a
+    # photograph to head an article is a narrower and better-considered claim
+    # than a category that anyone may add to.
+    attempts.append(lambda: wikipedia_lead_candidates(query, tags))
     for cat_name in category_names(query):
         attempts.append(lambda n=cat_name: commons_category_candidates(n, tags))
     # A dish the archives hold nothing for costs the whole chain — eight
