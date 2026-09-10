@@ -855,6 +855,91 @@ def openverse_candidates(query, wide=True, licences=OPENVERSE_TIERS[0]):
     return out
 
 
+def commons_category_candidates(name, tags=()):
+    """Files a person filed under Category:<dish> on Commons.
+
+    Every other retrieval here matches words in a title, which is why mantou
+    reached a mantou-shaped kiln, di san xian reached a rock formation on the
+    Taitung coast and bang bang chicken reached a car. A category is curated by
+    someone who looked at the photograph and decided what it was of, so
+    membership is evidence about the subject rather than about the caption.
+
+    That is also why these candidates are not put through shares_dish_word.
+    "10 Steamed Bread - Congee Village House.jpg" holds no word from "Mantou"
+    and is a photograph of mantou; requiring the title to agree would discard
+    exactly the images this exists to find. BAD_TOKENS still applies, and a
+    category can still be loose — Category:Mushy peas contains a steak and
+    kidney pie — so the eye is still the last check, as it is for everything.
+    """
+    if benched(host_of("https://commons.wikimedia.org/")):
+        return []
+    params = {
+        "action": "query", "format": "json", "generator": "categorymembers",
+        "gcmtitle": "Category:" + name, "gcmtype": "file", "gcmlimit": "24",
+        "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": str(HERO_W),
+    }
+    data = http_json("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params))
+    out = []
+    if not data:
+        return out
+    for page in (data.get("query", {}).get("pages", {}) or {}).values():
+        info = (page.get("imageinfo") or [None])[0]
+        if not info:
+            continue
+        meta = info.get("extmetadata", {}) or {}
+        lic = strip_html(meta.get("LicenseShortName", {}).get("value", ""))
+        if not OK_LICENCE.match(lic):
+            continue
+        title = re.sub(r"^File:|\.\w+$", "", page.get("title", ""))
+        if BAD_TOKENS.search(title):
+            continue
+        if contradicts_diet(title, name, tags):
+            continue
+        if info.get("width", 0) < 500 or info.get("height", 0) < 380:
+            continue
+        src = info.get("thumburl")
+        if not src:
+            if info.get("size", 0) > 4_000_000:
+                continue
+            src = info.get("url", "")
+        out.append({
+            "title": title,
+            "url": src.split("?")[0],
+            "page": info.get("descriptionurl", ""),
+            "author": strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown",
+            "licence": lic,
+            "licence_url": strip_html(meta.get("LicenseUrl", {}).get("value", ""))
+                           or "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": "Wikimedia Commons",
+            # Membership is the evidence, so these enter at the threshold rather
+            # than being scored on a title that was never meant to describe them.
+            "score": 0.75,
+            "strong": True,
+        })
+    return out
+
+
+def category_names(query):
+    """Category titles worth trying for a query, most specific first."""
+    q = query.strip()
+    if not q:
+        return []
+    words = q.split()
+    names = [q, q.capitalize(), q.title()]
+    # Commons pluralises some food categories and not others.
+    if not q.lower().endswith("s"):
+        names.append(q.capitalize() + "s")
+    # "Har Gow" also lives under "Har gow"; two words is the common shape.
+    if len(words) > 2:
+        names.append(" ".join(words[:2]).capitalize())
+    seen, out = set(), []
+    for n in names:
+        if n.lower() not in seen:
+            seen.add(n.lower())
+            out.append(n)
+    return out[:4]
+
+
 def shorten(query):
     """Openverse matches whole phrases, so a four-word dish name often returns
     nothing while its two distinctive words return plenty.
@@ -913,6 +998,12 @@ def gather(query, tags=(), reject=()):
     # The "food" variant is a second full search for a marginal gain, so it is
     # the last thing tried rather than doubling the cost of every recipe.
     attempts.append(lambda: commons_candidates(query, "food", LICENCE_FILTERS[-1], tags))
+    # Categories last, because a text search that succeeds gives a title that
+    # agrees with the dish and that is worth preferring. When every text search
+    # has failed, a curated category is the better evidence and the only thing
+    # here that does not depend on the caption being accurate.
+    for cat_name in category_names(query):
+        attempts.append(lambda n=cat_name: commons_category_candidates(n, tags))
     # A dish the archives hold nothing for costs the whole chain — eight
     # searches, each paced against a rate limit, each fetching metadata per
     # result — and that was measured at five to thirteen minutes a recipe.
