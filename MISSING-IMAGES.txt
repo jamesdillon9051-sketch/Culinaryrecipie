@@ -1,0 +1,227 @@
+RECIPES STILL WITHOUT A PHOTOGRAPH
+
+Save each as BOTH files in  src/assets/img/recipes/
+    <slug>.jpg    800 px wide, quality ~70
+    <slug>.webp   800 px wide, quality ~68
+Then run:  python3 tools/adopt_images.py   (see note at the end)
+
+== Chinese (61) =======================================
+  har-gow                            Har Gow
+  lo-mai-gai                         Lo Mai Gai
+  nai-wong-bao                       Nai Wong Bao
+  sheng-jian-bao                     Sheng Jian Bao
+  jianbing                           Jianbing   [1 rejected already]
+  rou-jia-mo                         Rou Jia Mo   [2 rejected already]
+  liangpi                            Liangpi
+  smashed-cucumber                   Smashed Cucumber Salad
+  bang-bang-chicken                  Bang Bang Chicken
+  pidan-tofu                         Century Egg with Cold Tofu
+  drunken-chicken                    Drunken Chicken
+  spicy-wontons                      Red Oil Wontons
+  tea-eggs                           Marbled Tea Eggs
+  youtiao                            Youtiao
+  dongpo-rou                         Dongpo Rou
+  yuxiang-rousi                      Yuxiang Rousi
+  zhajiangmian                       Zhajiangmian
+  la-zi-ji                           La Zi Ji
+  duo-jiao-yu-tou                    Duo Jiao Yu Tou
+  beggars-chicken                    Beggar's Chicken
+  white-cut-chicken                  White Cut Chicken
+  soy-sauce-chicken                  Soy Sauce Chicken
+  salt-baked-chicken                 Salt Baked Chicken
+  da-pan-ji                          Da Pan Ji
+  braised-beef-brisket               Braised Beef Brisket
+  sweet-sour-spare-ribs              Sweet and Sour Spare Ribs
+  steamed-ribs-black-bean            Steamed Ribs with Black Bean
+  siu-yuk                            Siu Yuk
+  mei-cai-kou-rou                    Mei Cai Kou Rou
+  crab-ginger-scallion               Ginger and Scallion Crab
+  steamed-whole-fish                 Steamed Whole Fish
+  dry-fried-green-beans              Dry-Fried Green Beans
+  di-san-xian                        Di San Xian
+  stir-fried-water-spinach           Stir-Fried Water Spinach
+  choy-sum-oyster-sauce              Choy Sum in Oyster Sauce
+  home-style-tofu                    Home-Style Tofu
+  yong-tau-foo                       Yong Tau Foo
+  hot-dry-noodles                    Hot Dry Noodles
+  biang-biang-noodles                Biang Biang Noodles
+  yangzhou-fried-rice                Yangzhou Fried Rice
+  claypot-rice                       Claypot Rice
+  zongzi                             Zongzi
+  vinegar-cabbage                    Vinegar Cabbage
+  lotus-root-stir-fry                Stir-Fried Lotus Root
+  wood-ear-salad                     Wood Ear Salad
+  hot-and-sour-potato                Hot and Sour Potato Slivers
+  west-lake-beef-soup                West Lake Beef Soup
+  egg-drop-soup                      Egg Drop Soup
+  winter-melon-soup                  Winter Melon Soup
+  lotus-root-rib-soup                Lotus Root and Pork Rib Soup
+  mantou                             Mantou
+  shao-bing                          Shao Bing
+  chilli-oil                         Sichuan Chilli Oil
+  xo-sauce                           XO Sauce
+  tangyuan                           Tangyuan
+  red-bean-soup                      Red Bean Soup
+  mango-pomelo-sago                  Mango Pomelo Sago
+  eight-treasure-rice                Eight Treasure Rice
+  sesame-balls                       Sesame Balls
+  almond-tofu                        Almond Tofu
+  hong-kong-egg-waffle               Hong Kong Egg Waffle
+
+== British (34) =======================================
+  potted-shrimps                     Potted Shrimps
+  devils-on-horseback                Devils on Horseback   [1 rejected already]
+  angels-on-horseback                Angels on Horseback
+  london-particular                  London Particular
+  leek-and-potato-soup               Leek and Potato Soup   [1 rejected already]
+  mulligatawny                       Mulligatawny Soup
+  oxtail-soup                        Oxtail Soup   [1 rejected already]
+  sausage-rolls                      Sausage Rolls   [1 rejected already]
+  piccalilli                         Piccalilli   [2 rejected already]
+  pickled-onions                     Pickled Onions   [1 rejected already]
+  cumberland-sauce                   Cumberland Sauce   [1 rejected already]
+  lancashire-hotpot                  Lancashire Hotpot   [2 rejected already]
+  steak-and-kidney-pudding           Steak and Kidney Pudding   [1 rejected already]
+  devilled-kidneys                   Devilled Kidneys   [2 rejected already]
+  beef-stew-and-dumplings            Beef Stew and Dumplings   [1 rejected already]
+  roast-pork-crackling               Roast Pork with Crackling   [1 rejected already]
+  gammon-parsley-sauce               Gammon with Parsley Sauce   [2 rejected already]
+  fish-pie                           Fish Pie
+  grilled-kippers                    Grilled Kippers
+  chicken-and-leek-pie               Chicken and Leek Pie
+  bubble-and-squeak                  Bubble and Squeak
+  mushy-peas                         Mushy Peas   [1 rejected already]
+  braised-red-cabbage                Braised Red Cabbage   [2 rejected already]
+  honey-roast-parsnips               Honey Roast Parsnips   [1 rejected already]
+  pease-pudding                      Pease Pudding   [1 rejected already]
+  pan-haggerty                       Pan Haggerty
+  watercress-soup                    Watercress Soup   [2 rejected already]
+  potted-cheese                      Potted Cheese   [1 rejected already]
+  coronation-chicken                 Coronation Chicken
+  cucumber-sandwiches                Cucumber Sandwiches   [1 rejected already]
+  spotted-dick                       Spotted Dick   [2 rejected already]
+  queen-of-puddings                  Queen of Puddings   [1 rejected already]
+  custard-tart                       Custard Tart
+  eccles-cakes                       Eccles Cakes
+
+== French (28) ========================================
+  tapenade                           Tapenade   [3 rejected already]
+  aioli                              Aïoli
+  brandade-de-morue                  Brandade de Morue
+  poule-au-pot                       Poule au Pot   [1 rejected already]
+  navarin-printanier                 Navarin d'Agneau
+  daube-provencale                   Daube Provençale
+  carbonade-flamande                 Carbonade Flamande
+  choucroute                         Choucroute Garnie
+  gigot-d-agneau                     Gigot d'Agneau
+  entrecote-marchand-de-vin          Entrecôte Marchand de Vin
+  cordon-bleu                        Cordon Bleu   [1 rejected already]
+  rognons-a-la-moutarde              Rognons à la Moutarde
+  endives-au-jambon                  Endives au Jambon
+  quenelles-de-brochet               Quenelles de Brochet
+  moules-frites                      Moules Frites
+  sole-normande                      Sole Normande
+  lotte-a-l-armoricaine              Lotte à l'Armoricaine
+  gratin-de-courgettes               Gratin de Courgettes
+  omelette-aux-fines-herbes          Omelette aux Fines Herbes
+  pain-aux-noix                      Pain aux Noix
+  pan-bagnat                         Pan Bagnat   [2 rejected already]
+  saucisson-brioche                  Saucisson en Brioche
+  pain-au-chocolat                   Pain au Chocolat
+  tarte-au-citron                    Tarte au Citron
+  baba-au-rhum                       Baba au Rhum
+  creme-caramel                      Crème Caramel
+  financiers                         Financiers   [1 rejected already]
+  palmiers                           Palmiers   [1 rejected already]
+
+== Italian (25) =======================================
+  fiori-di-zucca                     Fiori di Zucca Fritti   [1 rejected already]
+  giardiniera                        Giardiniera   [2 rejected already]
+  malloreddus                        Malloreddus alla Campidanese
+  strozzapreti                       Strozzapreti alla Boscaiola
+  anelletti-al-forno                 Anelletti al Forno
+  fregola                            Fregola con Arselle
+  risotto-ai-funghi                  Risotto ai Funghi Porcini
+  coda-alla-vaccinara                Coda alla Vaccinara
+  polpette-al-sugo                   Polpette al Sugo
+  involtini-di-manzo                 Involtini di Manzo
+  scaloppine-al-limone               Scaloppine al Limone
+  cotoletta-alla-milanese            Cotoletta alla Milanese   [2 rejected already]
+  cacciucco                          Cacciucco
+  bagnun                             Bagnùn di Acciughe
+  parmigiana-bianca                  Parmigiana Bianca
+  farinata                           Farinata   [1 rejected already]
+  sfogliatella                       Sfogliatella Riccia
+  baba-napoletano                    Babà Napoletano
+  sbrisolona                         Torta Sbrisolona
+  colomba                            Colomba Pasquale
+  pandoro                            Pandoro   [1 rejected already]
+  amaretti                           Amaretti Morbidi
+  maritozzo                          Maritozzo
+  granita-di-caffe                   Granita di Caffè   [1 rejected already]
+  bellini                            Bellini   [1 rejected already]
+
+== Egyptian (21) ======================================
+  taameya                            Ta'ameya
+  salata-baladi                      Salata Baladi
+  tahina-salad                       Egyptian Tahina
+  baba-ghanoug-masri                 Baba Ghanoug Masri   [1 rejected already]
+  torshi                             Torshi
+  betengan-mekhalel                  Betengan Mekhalel
+  dukkah                             Dukkah
+  bamia-masreya                      Bamia Masreya   [1 rejected already]
+  roz-mermah                         Roz Mermah   [1 rejected already]
+  fattah                             Fattah   [3 rejected already]
+  mahshi-cromb                       Mahshi Cromb   [1 rejected already]
+  sayadeya-masreya                   Sayadeya Masreya
+  hamam-mahshi                       Hamam Mahshi
+  renga                              Renga   [2 rejected already]
+  aish-baladi                        Aish Baladi   [1 rejected already]
+  eish-merahrah                      Eish Merahrah   [1 rejected already]
+  feteer-meshaltet                   Feteer Meshaltet
+  batarekh                           Batarekh   [2 rejected already]
+  om-ali                             Om Ali   [4 rejected already]
+  qatayef                            Qatayef Mahshi   [1 rejected already]
+  karkade                            Karkade
+
+== Tunisian (13) ======================================
+  salade-omek-houria                 Omek Houria   [1 rejected already]
+  doigts-de-fatma                    Doigts de Fatma
+  chorba-frik                        Chorba Frik
+  hlelem                             Hlelem
+  couscous-tunisien                  Couscous Tunisien
+  ojja                               Ojja
+  marqa-hlouwa                       Marqa Hlouwa
+  kamounia                           Kamounia
+  ftair                              Ftair
+  madfouna                           Madfouna
+  samsa-tunisienne                   Samsa
+  assidat-zgougou                    Assidat Zgougou
+  the-aux-pignons                    Thé aux Pignons
+
+== Lebanese (10) ======================================
+  fatayer-sabanekh                   Spinach Fatayer   [1 rejected already]
+  balila                             Balila   [1 rejected already]
+  kafta-bil-sanieh                   Kafta bil Sanieh
+  kibbeh-bil-sanieh                  Kibbeh bil Sanieh
+  shish-barak                        Shish Barak
+  riz-a-djaj                         Riz a Djaj
+  sheikh-el-mahshi                   Sheikh el Mahshi
+  yakhnet-batata                     Yakhnet Batata
+  kousa-bil-laban                    Kousa bil Laban
+  sfouf                              Sfouf   [1 rejected already]
+
+== Welsh (3) =========================================
+  cockles-and-laverbread             Cockles and Laverbread   [1 rejected already]
+  laverbread-and-bacon               Laverbread with Bacon   [2 rejected already]
+  welsh-cakes                        Welsh Cakes
+
+== Scottish (3) ======================================
+  stovies                            Stovies
+  rumbledethumps                     Rumbledethumps
+  dundee-cake                        Dundee Cake   [1 rejected already]
+
+== Taiwanese (1) =====================================
+  three-cup-chicken                  Three Cup Chicken
+
+TOTAL 199 of 400
