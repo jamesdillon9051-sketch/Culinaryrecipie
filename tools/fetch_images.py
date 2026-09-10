@@ -1122,14 +1122,14 @@ def wikidata_item(query):
     """
     if query in _WIKIDATA_CACHE:
         return _WIKIDATA_CACHE[query]
-    result = (None, None, None, {})
+    result = {}
     terms = []
     for term in (shorten(query), query):
         if term and term not in terms:
             terms.append(term)
     for term in terms:
         result = _wikidata_lookup(term)
-        if result[0]:
+        if result.get("qid"):
             break
     _WIKIDATA_CACHE[query] = result
     return result
@@ -1137,7 +1137,7 @@ def wikidata_item(query):
 
 def _wikidata_lookup(query):
     if benched(host_of("https://www.wikidata.org/")):
-        return None, None, None, {}
+        return {}
     found = http_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
         "action": "wbsearchentities", "search": query, "language": "en",
         "uselang": "en", "type": "item", "format": "json", "limit": 5}), tries=3)
@@ -1149,29 +1149,105 @@ def _wikidata_lookup(query):
         # surname before spending a second request on it.
         if not FOOD_DESC.search(hit.get("description") or ""):
             continue
+        # Being food is not enough: it has to be *this* food. wbsearchentities
+        # matches loosely, and every one of these got through the description
+        # test on its way to the wrong dish — green goddess salad reached
+        # Watergate salad, rakakat jibneh reached Wisconsin fried cheese
+        # curds, bamia masreya reached gumbo, malfouf mahshi reached a generic
+        # cabbage roll. Each is food, and none is the recipe.
+        #
+        # The label and whatever the search actually matched on are checked
+        # with the same test the caption sources use, so a transliteration is
+        # still allowed to differ — om ali matches Umm Ali, taameya matches
+        # falafel through its alias — while a different dish is not. The
+        # fields come back with the search result, so this costs no request.
+        names = [hit.get("label") or "", (hit.get("match") or {}).get("text") or ""]
+        names += list(hit.get("aliases") or ())
+        if not any(shares_dish_word(n, query) for n in names if n):
+            continue
         data = http_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
             "action": "wbgetentities", "ids": qid, "format": "json",
-            "props": "claims|sitelinks|labels"}), tries=3)
+            "props": "claims|sitelinks|labels|aliases"}), tries=3)
         item = ((data or {}).get("entities") or {}).get(qid) or {}
-        claims = (item.get("claims") or {}).get("P18") or []
-        filename = None
-        for claim in claims:
-            value = ((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value")
-            if isinstance(value, str):
-                filename = value
-                break
-        label = ((item.get("labels") or {}).get("en") or {}).get("value") or hit.get("label")
-        return qid, label, filename, (item.get("sitelinks") or {})
-    return None, None, None, {}
+        claims = item.get("claims") or {}
+
+        def first_string(prop):
+            for claim in claims.get(prop) or []:
+                value = ((claim.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+                if isinstance(value, str):
+                    return value
+            return None
+
+        labels = item.get("labels") or {}
+        # The dish's own name, in the languages it is actually eaten in. This
+        # is what a Commons text search has never had: it can only be handed a
+        # string, and every string it was handed came from an English
+        # catalogue. Latin-script names are dropped because the English search
+        # has already been run and a near-identical spelling adds nothing.
+        native = []
+        for lang, entry in labels.items():
+            value = (entry or {}).get("value") or ""
+            if value and lang != "en" and not re.fullmatch(r"[\x00-\x7f]+", value):
+                if value not in native:
+                    native.append(value)
+        return {
+            "qid": qid,
+            "label": (labels.get("en") or {}).get("value") or hit.get("label"),
+            "image": first_string("P18"),
+            # P373 is the Commons category an editor filed the dish under. The
+            # category walk here has always guessed the name from the English
+            # title instead, which works for "Ratatouille" and never once for
+            # a dish whose category is named in Arabic.
+            "commons_category": first_string("P373"),
+            "sitelinks": item.get("sitelinks") or {},
+            "native": native[:4],
+        }
+    return {}
 
 
 def wikidata_candidates(query, tags=()):
     """The image an editor attached to the dish's Wikidata item."""
-    qid, label, filename, _ = wikidata_item(query)
-    if not filename:
+    item = wikidata_item(query)
+    if not item.get("image"):
         return []
     return commons_file_candidate(
-        filename, f"image of {label or query} on Wikidata {qid}", 0.86, query, tags)
+        item["image"], f"image of {item.get('label') or query} on Wikidata {item['qid']}",
+        0.86, query, tags)
+
+
+def wikidata_category_candidates(query, tags=()):
+    """Files in the Commons category the dish's Wikidata item names (P373).
+
+    The difference from the category walk at the end of gather() is that this
+    one is not a guess. That one builds candidate category titles out of the
+    English query and tries them; this reads the category an editor recorded,
+    which is how a dish whose category is titled in Arabic is reachable at all.
+    """
+    item = wikidata_item(query)
+    name = item.get("commons_category")
+    if not name:
+        return []
+    out = commons_category_candidates(name, tags)
+    for candidate in out:
+        candidate["curated"] = True
+    return out
+
+
+def native_name_candidates(query, tags=()):
+    """Commons, searched for the dish's name in its own script.
+
+    Every text search in this file has been handed an English string, so a
+    file titled كبة لبنية was unreachable however many times the search was
+    repeated. The names come off the Wikidata item, so the site never has to
+    know them.
+    """
+    item = wikidata_item(query)
+    out = []
+    for name in item.get("native") or ():
+        out += commons_candidates(name, "", LICENCE_FILTERS[-1], tags)
+        if out:
+            break
+    return out
 
 
 def foreign_lead_candidates(query, tags=()):
@@ -1181,7 +1257,8 @@ def foreign_lead_candidates(query, tags=()):
     they are eaten and nowhere else, and the photograph at the top of that
     article is on Commons like any other.
     """
-    _, label, _, sitelinks = wikidata_item(query)
+    item = wikidata_item(query)
+    label, sitelinks = item.get("label"), item.get("sitelinks") or {}
     out = []
     for key, link in list(sitelinks.items()):
         if len(out) >= 1:
@@ -1348,7 +1425,9 @@ def gather(query, tags=(), reject=()):
     # and it costs two requests, so it goes first and the rest of the chain is
     # left exactly as it was for everything Wikidata does not know.
     attempts = [lambda: wikidata_candidates(query, tags),
+                lambda: wikidata_category_candidates(query, tags),
                 lambda: foreign_lead_candidates(query, tags),
+                lambda: native_name_candidates(query, tags),
                 lambda: openverse_candidates(query),
                 lambda: openverse_candidates(query, wide=False)]
     if brief:
@@ -1398,10 +1477,12 @@ def gather(query, tags=(), reject=()):
     # hours went.
     started = time.time()
     for position, attempt in enumerate(attempts):
-        # The first four always run: two curated lookups and the two broad
-        # searches that find the well-covered dishes. Everything after that
-        # is the long tail the budget exists to cut off.
-        if position >= 4 and time.time() - started > SEARCH_BUDGET:
+        # The first six always run: four lookups that go through the dish's
+        # own Wikidata item, and the two broad searches that find the
+        # well-covered dishes. Everything after that is the long tail the
+        # budget exists to cut off. All four curated lookups share one cached
+        # item, so they cost two requests between them, not eight.
+        if position >= 6 and time.time() - started > SEARCH_BUDGET:
             log(f"    · gave up after {SEARCH_BUDGET}s of searching")
             break
         for c in attempt():
