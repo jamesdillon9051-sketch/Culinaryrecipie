@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1386
+Every photograph on Weekly Delight is freely licensed. Of 1395
 images, **799** are CC0 or public domain and carry no conditions at all, and
-**587** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**596** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,22 +42,22 @@ nothing than use an image we do not have clear rights to.
 | | |
 |---|---|
 | Recipes | 1209 |
-| Hero images | 1029 |
-| Secondary "process" images | 357 |
-| Total image files | 2772 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 180 |
+| Hero images | 1035 |
+| Secondary "process" images | 360 |
+| Total image files | 2790 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 174 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 462 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 245 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 248 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 193 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 169 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 170 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 103 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 86 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 88 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 44 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 40 | No rights reserved — no attribution legally required |
 | CC BY 3.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 4.0 | 16 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -117,8 +117,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Sfouf (`sfouf`)
 - Ta'ameya (`taameya`)
 - Salata Baladi (`salata-baladi`)
-- Egyptian Tahina (`tahina-salad`)
-- Baba Ghanoug Masri (`baba-ghanoug-masri`)
 - Torshi (`torshi`)
 - Betengan Mekhalel (`betengan-mekhalel`)
 - Dukkah (`dukkah`)
@@ -131,7 +129,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Aish Baladi (`aish-baladi`)
 - Eish Merahrah (`eish-merahrah`)
 - Feteer Meshaltet (`feteer-meshaltet`)
-- Batarekh (`batarekh`)
 - Om Ali (`om-ali`)
 - Roz bel Laban (`roz-bel-laban`)
 - Qatayef Mahshi (`qatayef`)
@@ -205,7 +202,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Babà Napoletano (`baba-napoletano`)
 - Torta Sbrisolona (`sbrisolona`)
 - Colomba Pasquale (`colomba`)
-- Pandoro (`pandoro`)
 - Amaretti Morbidi (`amaretti`)
 - Maritozzo (`maritozzo`)
 - Bellini (`bellini`)
@@ -229,7 +225,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Stovies (`stovies`)
 - Bubble and Squeak (`bubble-and-squeak`)
 - Mushy Peas (`mushy-peas`)
-- Braised Red Cabbage (`braised-red-cabbage`)
 - Honey Roast Parsnips (`honey-roast-parsnips`)
 - Pease Pudding (`pease-pudding`)
 - Rumbledethumps (`rumbledethumps`)
@@ -259,7 +254,6 @@ CC BY or CC BY-SA image of sufficient quality and relevance could be found:
 - Vinegar Cabbage (`vinegar-cabbage`)
 - Stir-Fried Lotus Root (`lotus-root-stir-fry`)
 - Wood Ear Salad (`wood-ear-salad`)
-- Hot and Sour Potato Slivers (`hot-and-sour-potato`)
 - West Lake Beef Soup (`west-lake-beef-soup`)
 - Mantou (`mantou`)
 - Shao Bing (`shao-bing`)
@@ -1390,6 +1384,8 @@ licence as the rest of this project.
 | `jallab.webp` / `.jpg` | Jallab | Hero | Jallab | AdamBomb_23 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/15592760@N00/6088510557) |
 | `besara.webp` / `.jpg` | Besara | Hero | Bissara (Moroccan Dip) | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bissara_(Moroccan_Dip).JPG) |
 | `shorbet-ads.webp` / `.jpg` | Shorbet Ads | Hero | شوربة عدس من سيسيليا | Emna Mizouni | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%B4%D9%88%D8%B1%D8%A8%D8%A9_%D8%B9%D8%AF%D8%B3_%D9%85%D9%86_%D8%B3%D9%8A%D8%B3%D9%8A%D9%84%D9%8A%D8%A7.jpg) |
+| `tahina-salad.webp` / `.jpg` | Egyptian Tahina | Hero | Tahina (lead image of the Tahini article) | Gilabrand | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tahina.JPG) |
+| `baba-ghanoug-masri.webp` / `.jpg` | Baba Ghanoug Masri | Hero | Egyptian baba ghanoush | Unknown | CC BY-SA 2.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=867067) |
 | `batates-mohammara.webp` / `.jpg` | Batates Mohammara | Hero | بطاطس محمرة | Melaad2009 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B7%D8%A7%D8%B7%D8%B3_%D9%85%D8%AD%D9%85%D8%B1%D8%A9.jpg) |
 | `torly.webp` / `.jpg` | Torly | Hero | Τουρλού λαχανικά στο φούρνο - Tourlou vegetables in the oven | topsyntages.gr | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/47943919@N07/6789829369) |
 | `torly-process.webp` / `.jpg` | Torly | Process | Τουρλού λαχανικά στο φούρνο - Tourlou vegetables in the oven | topsyntages.gr | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/47943919@N07/6789812845) |
@@ -1404,6 +1400,7 @@ licence as the rest of this project.
 | `mombar.webp` / `.jpg` | Mombar | Hero | Egyptian food (mombar) | Ahmed Elsayed45 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Egyptian_food_(mombar).jpg) |
 | `goulash-masri.webp` / `.jpg` | Goulash Masri | Hero | جُلاش باللحمة المفرومة | Smilebocy | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%AC%D9%8F%D9%84%D8%A7%D8%B4_%D8%A8%D8%A7%D9%84%D9%84%D8%AD%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D9%81%D8%B1%D9%88%D9%85%D8%A9.jpg) |
 | `gebna-domiati.webp` / `.jpg` | Gebna Domiati Salad | Hero | Domiati cheese | MartinKassemJ120 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Domiati_cheese.jpg) |
+| `batarekh.webp` / `.jpg` | Batarekh | Hero | Bottarga from Preveza Greece (lead image of the Bottarga article) | Φωτογραφία: Χαράλαμπος Γκούβας (Harry Gouvas) el:User:Harrygouvas | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bottarga_from_Preveza_Greece.jpg) |
 | `balah-el-sham.webp` / `.jpg` | Balah el Sham | Hero | بلح الشام | Mohammad Ali Huzam | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D8%A8%D9%84%D8%AD_%D8%A7%D9%84%D8%B4%D8%A7%D9%85.jpg) |
 | `zalabya.webp` / `.jpg` | Zalabya | Hero | Cooking Zalabya & Bamiyeh, Qom - 22 May 2018 07 | Mohsen Karam-Ali | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cooking_Zalabya_%26_Bamiyeh,_Qom_-_22_May_2018_07.jpg) |
 | `kunafa-bil-manga.webp` / `.jpg` | Kunafa bil Manga | Hero | كنافة بالمانجو | Mohammed Qays Kazem | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D8%A7%D9%81%D8%A9_%D8%A8%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%AC%D9%88.jpg) |
@@ -1559,6 +1556,8 @@ licence as the rest of this project.
 | `zuppa-inglese.webp` / `.jpg` | Zuppa Inglese | Hero | zuppa inglese | fugzu | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70253321@N00/4934171635) |
 | `crostata-di-marmellata.webp` / `.jpg` | Crostata di Marmellata | Hero | Crostata con marmellata amaretti savoiardi e cioccolato | DinaBenedettoFerrandina | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=145648934) |
 | `ciambellone.webp` / `.jpg` | Ciambellone | Hero | Ciambellone Brioche all'arancia e frutta secca | DinaBenedettoFerrandina | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ciambellone_Brioche_all%27arancia_e_frutta_secca.jpg) |
+| `pandoro.webp` / `.jpg` | Pandoro | Hero | Pandoro 3 | Ramagliolo9 at Italian Wikipedia | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pandoro_3.jpg) |
+| `pandoro-process.webp` / `.jpg` | Pandoro | Process | Pandoro cut 01 | Kuebi = Armin Kübelbeck | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pandoro_cut_01.jpg) |
 | `pizzelle.webp` / `.jpg` | Pizzelle | Hero | Banana Loquat Custard Pizzelle (2) | Janet Hudson | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Banana_Loquat_Custard_Pizzelle_(2).jpg) |
 | `pizzelle-process.webp` / `.jpg` | Pizzelle | Process | Banana Loquat Custard Pizzelle (3) | Janet Hudson | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Banana_Loquat_Custard_Pizzelle_(3).jpg) |
 | `granita-di-caffe.webp` / `.jpg` | Granita di Caffè | Hero | Granita Caffè e Panna. | Rosario Messina | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Granita_Caff%C3%A8_e_Panna..jpg) |
@@ -1584,6 +1583,8 @@ licence as the rest of this project.
 | `devilled-whitebait.webp` / `.jpg` | Devilled Whitebait | Hero | Devilled whitebait & Calamari | Bernt Rostad | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/67975030@N00/5818529287) |
 | `rabbit-pie.webp` / `.jpg` | Rabbit Pie | Hero | Rabbit Pie | Tom Head | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66081878@N00/8343001706) |
 | `rabbit-pie-process.webp` / `.jpg` | Rabbit Pie | Process | Rabbit pie | whatleydude | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/85318305@N00/8457764047) |
+| `braised-red-cabbage.webp` / `.jpg` | Braised Red Cabbage | Hero | Dehlia Smith's Braised Red Cabbage with Apples | omaniblog | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/80816405@N00/4215614424) |
+| `braised-red-cabbage-process.webp` / `.jpg` | Braised Red Cabbage | Process | Braised red snapper, conch, ocean trout + uni + gingko | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/15125195744) |
 | `champ.webp` / `.jpg` | Champ | Hero | File:Champ (food).JPG | Glane23 | CC BY-SA 3.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=11094009) |
 | `laverbread-and-bacon.webp` / `.jpg` | Laverbread with Bacon | Hero | Bacon, cockles and laverbread with a poached egg, sausage and black pudding - Milkwood | Haydn Blackey | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/54549113@N00/52630713906) |
 | `stuffed-marrow.webp` / `.jpg` | Stuffed Marrow | Hero | Baked stuffed marrow | WordRidden | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/97844767@N00/5014567162) |
@@ -1650,6 +1651,8 @@ licence as the rest of this project.
 | `yangzhou-fried-rice.webp` / `.jpg` | Yangzhou Fried Rice | Hero | Yangzhou fried rice and drinks 25-09-2019 | LN9267 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=124898166) |
 | `claypot-rice.webp` / `.jpg` | Claypot Rice | Hero | 鱼柳酸菜煲仔饭 Fish Fillet and Preserved Mustard Green Claypot Rice - First Taste (2617879522) | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%B1%BC%E6%9F%B3%E9%85%B8%E8%8F%9C%E7%85%B2%E4%BB%94%E9%A5%AD_Fish_Fillet_and_Preserved_Mustard_Green_Claypot_Rice_-_First_Taste_(2617879522).jpg) |
 | `zongzi.webp` / `.jpg` | Zongzi | Hero | zongzi | valkyrieh116 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/54357435@N00/2836403485) |
+| `hot-and-sour-potato.webp` / `.jpg` | Hot and Sour Potato Slivers | Hero | Spicy Shredded Potatoes at Xi An Gourmet | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/14454403392) |
+| `hot-and-sour-potato-process.webp` / `.jpg` | Hot and Sour Potato Slivers | Process | Fried shredded potato | Gavin Anderson | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/48292998@N00/8675923087) |
 | `egg-drop-soup.webp` / `.jpg` | Egg Drop Soup | Hero | Monday Lunch Egg Drop Soup with Tomatoes & Vegetables | Gary Lee Todd, Ph.D. | CC0 1.0 | [Flickr](https://www.flickr.com/photos/101561334@N08/34380907495) |
 | `egg-drop-soup-process.webp` / `.jpg` | Egg Drop Soup | Process | Easter Egg Drop | Greenville, SC Daily Photo | CC0 1.0 | [Flickr](https://www.flickr.com/photos/120143184@N05/47942342283) |
 | `winter-melon-soup.webp` / `.jpg` | Winter Melon Soup | Hero | Winter melon soup with chicken, duck and mushroom | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/44513407) |

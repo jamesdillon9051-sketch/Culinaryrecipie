@@ -10090,15 +10090,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tahina-salad/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tahina-salad.jpg</image:loc>
+      <image:title>Egyptian Tahina</image:title>
+      <image:caption>Egyptian Tahina — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baba-ghanoug-masri/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baba-ghanoug-masri.jpg</image:loc>
+      <image:title>Baba Ghanoug Masri</image:title>
+      <image:caption>Baba Ghanoug Masri — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torshi/</loc>
@@ -10306,9 +10316,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/batarekh/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/batarekh.jpg</image:loc>
+      <image:title>Batarekh</image:title>
+      <image:caption>Batarekh — Egyptian appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/balah-el-sham/</loc>
@@ -12004,9 +12019,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pandoro/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pandoro.jpg</image:loc>
+      <image:title>Pandoro</image:title>
+      <image:caption>Pandoro — Italian baking recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/amaretti/</loc>
@@ -12346,9 +12366,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/braised-red-cabbage/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/braised-red-cabbage.jpg</image:loc>
+      <image:title>Braised Red Cabbage</image:title>
+      <image:caption>Braised Red Cabbage — British dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-roast-parsnips/</loc>
@@ -13065,9 +13090,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-and-sour-potato/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-and-sour-potato.jpg</image:loc>
+      <image:title>Hot and Sour Potato Slivers</image:title>
+      <image:caption>Hot and Sour Potato Slivers — Chinese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/west-lake-beef-soup/</loc>
