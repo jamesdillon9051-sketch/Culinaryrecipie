@@ -103,6 +103,13 @@ const lower = s => clean(s).toLowerCase();
  */
 function fold(s) {
   return s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+    /* Letters NFKD leaves alone, because they are letters in their own right
+       rather than a base plus an accent. Turkish dotless i is the one that
+       mattered: "Kısır" folded to "kısır", which splits into k, s and r and
+       reads as a title with no words in it. */
+    .replace(/ı/g, 'i').replace(/İ/g, 'I')
+    .replace(/đ/g, 'd').replace(/Đ/g, 'D')
+    .replace(/ð/g, 'd').replace(/þ/g, 'th').replace(/œ/g, 'oe')
     .replace(/ø/g, 'o').replace(/æ/g, 'ae').replace(/ß/g, 'ss').replace(/ł/g, 'l');
 }
 
@@ -449,22 +456,99 @@ function expand(recipe, limit = 160) {
  * a normal-looking handful, and everything past it goes to the places that
  * actually use it.
  */
-function forMeta(keywords, limit = 25) {
+function forMeta(keywords, limit = 30) {
   return (keywords || []).slice(0, limit);
 }
 
+/* Words that carry no information about which dish this is. The cuisine and
+   the category are added per recipe by the caller rather than listed here,
+   because this file deliberately imports nothing — it is loaded on every page
+   — and because "italian" is boilerplate on an Italian recipe and a real
+   distinction on a page about something else. */
+const FILLER_WORD = new Set([
+  'recipe', 'recipes', 'food', 'cooking', 'dish', 'dishes', 'ideas', 'meal',
+  'meals', 'at', 'home', 'best', 'easy', 'simple', 'traditional', 'authentic',
+  'classic', 'homemade', 'how', 'to', 'make', 'the', 'a', 'an', 'and', 'with',
+  'for', 'from', 'scratch', 'what', 'is', 'in', 'of', 'my', 'quick', 'good'
+]);
+
 /**
- * The shorter list that goes into the Recipe JSON-LD.
+ * How much a phrase says about *this* dish rather than its shelf.
+ *
+ * "margherita pizza at home" names the dish; "italian food" names 130 of them.
+ * Both are true and both belong in the site's own search index, but only the
+ * first is worth a slot in structured data — the second is a phrase every
+ * Italian recipe on the site would publish identically.
+ */
+/* Compare words with the accents stripped, using the same fold() the search
+   index uses so both agree on what a word is.
+ *
+ * Splitting on /[^a-z0-9']+/ treats every accented letter as a separator, so
+ * "Crème Brûlée" became ["cr","me","br","l","e"] and, once fragments under
+ * three letters were dropped, no title words at all — which silently turned
+ * the ranking below off for every French, Vietnamese, Turkish, Czech and
+ * Nordic title on the site, with the empty-set fallback quietly restoring the
+ * unranked order. Folding first also matches how a reader types the query. */
+const wordsOf = value => fold(String(value).toLowerCase())
+  .split(/[^a-z0-9']+/).filter(Boolean);
+
+function specificity(phrase, titleWords, shelfWords) {
+  const words = wordsOf(phrase);
+  if (!words.length) return 0;
+  const names = words.filter(w => titleWords.has(w)).length;
+  const own = words.filter(w =>
+    !FILLER_WORD.has(w) && !shelfWords.has(w) && !titleWords.has(w)).length;
+  /* Naming the dish counts most; a qualifier the dish actually has — a diet, a
+     technique, a headline ingredient — counts next; nothing else counts. */
+  return names * 2 + Math.min(own, 2);
+}
+
+/**
+ * The list that goes into the Recipe JSON-LD.
  *
  * Google reads `keywords` on a recipe and its guidance asks for "other terms
- * for your recipe" — a handful of descriptors, not an index. Sixty phrases in
- * a structured-data field is the shape of a manual action, and the field is
- * not where the reach comes from anyway. The meta tag and the site's own
- * search index take the full list; this takes the front of it, which is the
- * curated phrases plus the strongest derived ones.
+ * for your recipe" — descriptors, not an index. So the risk here is not length
+ * on its own, it is publishing the same phrases on hundreds of pages: twenty
+ * slots filled with "italian recipes, italian food, italian cooking" is the
+ * shape of a manual action, and it is what taking the first twenty used to do,
+ * because expand() orders by how it builds phrases rather than by how much
+ * they say.
+ *
+ * This takes the most specific phrases instead of the first ones, so a bigger
+ * cap buys terms that name the dish rather than more of the shelf it sits on.
+ * Ties keep expand()'s order, which puts the hand-picked phrases first.
+ *
+ * tools/keyword-audit.js fails the build if what lands here is mostly generic.
  */
-function forSchema(keywords, limit = 12) {
-  return (keywords || []).slice(0, limit);
+function forSchema(keywords, limit = 20, recipe = null) {
+  const list = keywords || [];
+  if (!recipe || !recipe.title) return list.slice(0, limit);
+  /* Two letters, not three. A three-letter floor drops every word of "La Zi
+     Ji" and "Pho", leaving those dishes with no title to match against; the
+     filler list already removes the short English words worth removing. */
+  const words = value => wordsOf(value || '').filter(w => w.length > 1);
+  const titleWords = new Set(words(recipe.title));
+  /* The shelf this dish sits on: every other recipe of the same cuisine and
+     category publishes these words too, so they distinguish nothing here. */
+  const shelfWords = new Set([...words(recipe.cuisine), ...words(recipe.category)]);
+  if (!titleWords.size) return list.slice(0, limit);
+
+  /* The hand-picked phrases go in first and keep their order. Specificity
+     alone would drop them: "cold skin noodles" is what the dish is called in
+     English and shares no word with "Liangpi", so it scores below a generated
+     "dairy free liangpi". A person chose those, and no ranking here should
+     overrule that. */
+  const curated = (recipe.curatedKeywords || [])
+    .map(k => String(k).toLowerCase())
+    .filter(k => list.includes(k));
+  const taken = new Set(curated);
+  const rest = list
+    .filter(phrase => !taken.has(phrase))
+    .map((phrase, i) => ({ phrase, i, score: specificity(phrase, titleWords, shelfWords) }))
+    .sort((a, b) => b.score - a.score || a.i - b.i)
+    .map(x => x.phrase);
+
+  return curated.concat(rest).slice(0, limit);
 }
 
 module.exports = { expand, forSchema, forMeta, headlineIngredients, CATEGORY_NOUN,

@@ -247,7 +247,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 107,339 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 107,356 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -755,6 +755,80 @@ pages, zero carry the tag, the zone attribute, or either service-worker host;
 one out of those two counts is `assets/ads/native-banner.html`, the framed
 one-slot document, which is *required* not to carry the social bar and holds a
 single slot by design. The only third-party script left in any head is gtag.
+
+## The keywords that named the shelf, not the dish
+
+The structured-data keyword list was capped at twelve and taken off the front
+of the expanded list. Raising that cap looked like a one-line change and was
+not, because `expand()` orders phrases by how it builds them rather than by how
+much they say. Positions thirteen to twenty are the generic tier: "italian
+recipes", "italian food", "italian cooking", "italian food at home". True of
+the dish, and identical on all 130 Italian recipes.
+
+Twenty slots of that on 1,209 pages is the shape a manual action looks for, so
+the fix was the ordering rather than the number. `forSchema` now scores each
+phrase for how much it says about *this* dish — words from the title count
+most, a qualifier the dish actually has counts next, and filler and the words
+of its own cuisine and category count nothing — then takes the most specific.
+The hand-picked phrases are placed first and keep their order, because
+specificity alone drops them: "cold skin noodles" is what liangpi is called in
+English and shares no word with its title, so it scored below a generated
+"dairy free liangpi".
+
+The cap is twenty now and every one of them names the dish. `npm run keywords`
+fails a recipe whose shipped keywords are less than two thirds dish-specific.
+Confirmed by putting the old first-twenty behaviour back: **726 of 1,209
+recipes** fail it, which is what raising the cap without reordering would have
+shipped.
+
+### A word split that erased the accents
+
+Writing that guard found a bug in the code it was guarding. Splitting a title
+on `/[^a-z0-9']+/` treats every accented letter as a separator, so "Crème
+Brûlée" became `cr, me, br, l, e`, all of it dropped by the three-letter floor,
+leaving a title with no words in it — and the empty-set fallback quietly handed
+back the unranked order. The ranking was silently off for every French,
+Vietnamese, Turkish, Czech and Nordic title on the site.
+
+Folding first fixes it, using the same `fold()` the search index already uses so
+both agree on what a word is. Two smaller holes came out with it: Turkish
+dotless ı is a letter in its own right and NFKD leaves it alone, so "Kısır"
+folded to `k, s, r`; and a three-letter floor drops every word of "La Zi Ji".
+`fold()` now maps ı, İ, đ, Đ, ð, þ and œ alongside the ø, æ, ß and ł it already
+had, and title words are kept from two letters up.
+
+## Every page carries its own keywords
+
+The `<meta name="keywords">` tag is capped at thirty rather than twenty-five,
+which is worth stating plainly: Google has ignored that tag since 2009, so the
+extra five buy no ranking anywhere. The reach comes from the schema list and
+from the site's own search index, which has always taken the full ninety.
+
+What did matter was the floor. Five pages carried fewer than fifteen keywords —
+privacy had five — and those are now between twenty-two and twenty-four
+apiece, written for what each page is actually about. No page carries fewer
+than fifteen; the average is 29.6.
+
+Two of them were also still selling the old name. The about and contact pages
+had `about culinaryvault` and `contact culinaryvault` in their keyword lists,
+which the site stopped being some time ago. Those were the last two occurrences
+of the old brand anywhere in the output.
+
+## What a browser found that the audits could not
+
+The checks in this repository read the HTML the build writes. They cannot see a
+script that throws once it runs, so every page type was opened in Chromium and
+watched: seventeen routes covering the home page, a listing, four recipes, the
+cuisine, category and ingredient hubs, search, about, contact, privacy,
+favourites and the 404. No console errors, no uncaught exceptions, and no
+failed request for a file the site serves itself.
+
+Then the four things a reader actually presses. The servings scaler steps
+500 g to 625 g to 750 g across four, five and six servings and back again;
+search returns results as you type; the heart writes to `localStorage`; the
+theme toggle moves the document from light to dark. The scaler failed the first
+run against a selector I had guessed rather than read, which is worth writing
+down: the tool was wrong, not the site.
 
 ## Where the photographs ran out
 

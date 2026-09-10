@@ -240,6 +240,46 @@ for (const word of Object.values(DIET_WORD)) {
   }
 }
 
+/* --- what actually reaches the structured data -------------------------
+   The meta tag is ignored by Google and the site's own search index takes
+   everything, so the only keyword field with consequences is the one on the
+   Recipe node. Its risk is not length, it is sameness: twenty slots reading
+   "italian recipes, italian food, italian cooking" is a phrase every Italian
+   recipe would publish identically, and that is the shape a manual action
+   looks for. Taking the first twenty of the expanded list did exactly that,
+   because expand() orders by how it builds phrases, not by how much they say.
+
+   So this checks the slice that ships. A phrase counts as naming the dish if
+   it shares a word with the title or was hand-picked for this recipe. */
+{
+  const { forSchema } = require('../src/lib/keywords');
+  const thin = [];
+  for (const recipe of recipes) {
+    const shipped = forSchema(recipe.keywords, 20, recipe);
+    if (!shipped.length) continue;
+    /* Folded the same way src/lib/keywords.js folds them, or every accented
+       title reads as having no words and this guard measures nothing. */
+    const { fold } = require('../src/lib/keywords');
+    const norm = v => fold(String(v).toLowerCase());
+    const titleWords = new Set(norm(recipe.title)
+      .split(/[^a-z0-9']+/).filter(w => w.length > 1));
+    const curated = new Set((recipe.curatedKeywords || []).map(k => k.toLowerCase()));
+    const named = shipped.filter(phrase =>
+      curated.has(phrase) ||
+      norm(phrase).split(/[^a-z0-9']+/).some(w => titleWords.has(w))).length;
+    /* Two thirds is a floor, not a target: a dish whose English name shares no
+       word with its title still passes on its curated phrases. */
+    if (named / shipped.length < 0.67) {
+      thin.push(`${recipe.slug} — only ${named} of ${shipped.length} schema keywords name the dish`);
+    }
+  }
+  if (thin.length) {
+    console.log(`\n${thin.length} recipe(s) publish structured-data keywords that mostly do not name the dish:`);
+    for (const line of thin.slice(0, 10)) console.log(`  ✗ ${line}`);
+    failures.push(...thin);
+  }
+}
+
 const show = process.argv.includes('--all') ? failures.length : 40;
 for (const line of failures.slice(0, show)) console.log(`  ✗ ${line}`);
 if (failures.length > show) console.log(`  … and ${failures.length - show} more`);

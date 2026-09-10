@@ -302,6 +302,12 @@ function loadRecipes() {
     /* Widen the four curated keywords into the long-tail phrases the row
        already supports. This runs after the object is assembled because it
        reads the ingredients and storage note as well as the catalogue row. */
+    /* Kept alongside the expanded list, because the structured data reserves
+       slots for them: these are the phrases somebody chose for this dish, and
+       ranking the expanded list by specificity alone drops them — "cold skin
+       noodles" names the dish without repeating its title, so it scores below
+       a generated "dairy free liangpi". */
+    built.curatedKeywords = (detail.kw || []).map(k => String(k).toLowerCase());
     built.keywords = expandKeywords(built);
     return built;
   });
@@ -660,7 +666,11 @@ function build() {
     keywords: ['recipe search', 'find recipes by ingredient', 'search recipes',
                'search by ingredient', 'what can i cook with', 'recipe finder',
                'ingredient search', 'leftover ingredient recipes', 'cook with what i have',
-               'find recipes by name', 'search recipes by cuisine', 'recipe lookup'],
+               'find recipes by name', 'search recipes by cuisine', 'recipe lookup',
+               'search by cuisine', 'search by category', 'search by cooking time',
+               'quick recipe search', 'filter recipes by diet', 'vegetarian recipe search',
+               'vegan recipe search', 'gluten free recipe search', 'find a dish by name',
+               'recipe database', 'browse all recipes', 'instant recipe search'],
     path: 'search/',
     active: 'search',
     index: false,

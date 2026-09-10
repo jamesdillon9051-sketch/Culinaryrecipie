@@ -162,7 +162,7 @@ function recipeSchema(recipe) {
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
-    keywords: forSchema(recipe.keywords).join(', '),
+    keywords: forSchema(recipe.keywords, 20, recipe).join(', '),
     /* schema.org's RestrictedDiet has no value for low-carb or ketogenic, and
        both used to be published as LowCalorieDiet — which is a different claim
        and a false one: keto cooking is frequently high in calories. The three
