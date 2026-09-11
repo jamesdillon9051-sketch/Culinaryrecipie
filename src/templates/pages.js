@@ -716,7 +716,17 @@ ${breadcrumbs(trail)}
 
 function privacy(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'Privacy' }];
-  const updated = new Date().toISOString().slice(0, 10);
+  /* The date the policy text last changed, not the date the site was last
+     built. new Date() here meant every rebuild republished the page claiming
+     the policy had been updated that day — on 2026-09-11 an image run with no
+     bearing on privacy at all moved it, which is how this was noticed. A
+     reader checking whether the terms they agreed to have changed is asking a
+     question only this line answers, so it has to answer truthfully.
+
+     It is a constant because the honest value cannot be derived from the
+     build: nothing in the repository records when the policy was last
+     rewritten. Bump it by hand when the text below changes. */
+  const updated = '2026-09-04';
 
   const body = `
 ${breadcrumbs(trail)}
