@@ -562,6 +562,21 @@
 </div>
 <button class="btn btn--primary cook-exit" type="button" data-cook-exit>Exit Cook Mode</button>
 
+<!--
+  The 300x250 banner, emitted here rather than in each page template, because
+  "every page" is a claim only the layout can actually keep: a per-template
+  placement is one forgotten call away from a whole section of the site
+  carrying no unit, which is exactly the failure tools/check.js was written
+  for. Outside the ownAdSlots test on purpose — the recipe and home templates
+  place their own native banners, and this is meant to reach them too.
+-->
+<div class="wrap"><aside class="ad-slot ad-slot--banner" aria-label="Advertisement">
+  <span class="ad-slot__label">Advertisement</span>
+  <iframe src="/assets/ads/banner.html"
+          title="Advertisement" loading="lazy" scrolling="no" frameborder="0"
+          width="300" height="250"
+          style="width:300px;height:250px;max-width:100%;border:0;display:block;margin-inline:auto"></iframe>
+</aside></div>
 </main>
 <footer class="site-footer">
   <div class="wrap">

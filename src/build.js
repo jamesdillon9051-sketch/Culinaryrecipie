@@ -799,6 +799,15 @@ function build() {
     fs.writeFileSync(framePath, frameHtml);
   }
 
+  /* The one-slot document the 300x250 banner is framed from, for the same
+     reason and written the same way. */
+  const bannerHtml = ads.bannerDocument();
+  if (bannerHtml) {
+    const bannerPath = path.join(OUT, ads.BANNER_PATH);
+    fs.mkdirSync(path.dirname(bannerPath), { recursive: true });
+    fs.writeFileSync(bannerPath, bannerHtml);
+  }
+
   /* Report --------------------------------------------------------------- */
   /* Walk only what we generated: at the repo root the tree also contains
      src/, tools/ and node_modules/. */

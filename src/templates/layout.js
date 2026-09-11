@@ -282,6 +282,15 @@ ${header(page.active, page.categories || {})}
 ${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(0, 'Advertisement at the top of the page', SITE.base)}</div>`}
 ${page.body}
 ${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(1, 'Advertisement at the bottom of the page', SITE.base)}</div>`}
+<!--
+  The 300x250 banner, emitted here rather than in each page template, because
+  "every page" is a claim only the layout can actually keep: a per-template
+  placement is one forgotten call away from a whole section of the site
+  carrying no unit, which is exactly the failure tools/check.js was written
+  for. Outside the ownAdSlots test on purpose — the recipe and home templates
+  place their own native banners, and this is meant to reach them too.
+-->
+<div class="wrap">${ads.banner('Advertisement', SITE.base)}</div>
 </main>
 ${footer(page.cuisines || [])}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>

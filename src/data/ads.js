@@ -73,6 +73,33 @@ module.exports = {
   ],
 
   /**
+   * The 300x250 iframe banner, on every page.
+   *
+   * A different format from the native banners above and it is wired
+   * differently for two reasons, both of which would bite in the page itself.
+   *
+   * Adsterra's iframe loader reads a global, `atOptions`, that the snippet
+   * assigns immediately before the script tag. One global, so two placements
+   * in a document race for it and the second gets whatever the first left.
+   * And the loader calls document.write, which after the parser has finished
+   * replaces the entire document rather than appending to it.
+   *
+   * So this is served from its own one-slot document and framed, which is the
+   * same answer the repeat native banner needed for the same reason: a
+   * separate DOM, a separate global, and a document.write that can only reach
+   * its own page. The iframe is given the unit's exact dimensions, so the
+   * space is reserved before the network paints and nothing moves.
+   *
+   * Set `invoke` to '' to remove it from every page.
+   */
+  banner: {
+    invoke: 'https://disembroildisembroildissipatespots.com/9d56f2e7fa2cedc46e1b5eba01eb7bc2/invoke.js',
+    key: '9d56f2e7fa2cedc46e1b5eba01eb7bc2',
+    width: 300,
+    height: 250
+  },
+
+  /**
    * Height in pixels of a framed native banner. An iframe cannot size itself
    * to its content across documents, so this is reserved up front. Raise it
    * if your unit renders taller than the space allowed; the wrapper scrolls

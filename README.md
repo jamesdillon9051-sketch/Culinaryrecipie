@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1409 recipes · 67 cuisines · 10 categories · 1550 static pages · 0 npm dependencies
+1409 recipes · 67 cuisines · 10 categories · 1551 static pages · 0 npm dependencies
 ```
 
 ---
@@ -1952,12 +1952,38 @@ Both audits run inside `npm run check`.
 ## Ads
 
 `npm run check` verifies that every page carries every unit that is switched
-on in `src/data/ads.js`: today the Adsterra social bar and exactly two native
-banner slots. Two, not one or three — the first embeds
-Adsterra's snippet and the second is an iframe onto a one-slot document,
+on in `src/data/ads.js`: today the Adsterra social bar, exactly two native
+banner slots, and one 300x250 banner. Two native, not one or three — the first
+embeds Adsterra's snippet and the second is an iframe onto a one-slot document,
 because `getElementById` returns a single node and two copies of the snippet
 in one page leave the second slot empty forever. All of them load before the
 closing body tag; a third-party script in `<head>` fails the check.
+
+### The 300x250 banner is framed too, for two different reasons
+
+It is a different format from the native banners and it cannot be pasted
+straight into a page, which is worth writing down because the snippet looks
+like it can.
+
+Adsterra's iframe loader reads its settings from `atOptions`, a global the
+snippet assigns immediately above the script tag. One global per document, so
+a second placement overwrites the first's settings rather than getting its
+own. And the loader finishes by calling `document.write` — which, once the
+parser has closed, does not append to the page but replaces it, advert
+instead of recipe.
+
+Its own document solves both at once: one unit, one global, and a
+`document.write` that can only reach the page it is on. The iframe is given
+the unit's own 300 by 250, so the space is held before the network answers and
+nothing moves when it fills — the same CLS discipline the native slots follow
+from `frameHeight`.
+
+`check.js` counts it on every page and reads the document itself, including
+that `atOptions` is still assigned *before* the loader. Reversed, the unit
+serves nothing and the page looks fine, which is the kind of silence this
+repository writes guards for. All four branches were proved by breaking them:
+stripping the slot from one page, swapping the two script tags, and deleting
+the document each produce the failure they should.
 
 The count follows the config rather than a fixed list, so switching a unit off
 is a one-line edit and switching it back on restores the check with it.

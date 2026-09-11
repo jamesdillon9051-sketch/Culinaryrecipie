@@ -112,11 +112,80 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
           style="width:100%;height:${height}px;border:0;display:block"></iframe>`);
 }
 
-function wrap(label, inner) {
-  return `<aside class="ad-slot ad-slot--native" aria-label="${label}">
+/** Path to the single-slot document the 300x250 banner is framed from. */
+const BANNER_PATH = 'assets/ads/banner.html';
+
+/**
+ * A complete HTML document holding the 300x250 banner and nothing else.
+ *
+ * The snippet is Adsterra's, unaltered, because it has to be: `atOptions` is
+ * read by invoke.js off the window at the moment the script runs, so the
+ * assignment must sit immediately above the tag and must not be deferred.
+ * That is also why this cannot go straight into a page — one global for one
+ * document means a second placement overwrites the first's settings, and
+ * invoke.js finishes by calling document.write, which after the parser has
+ * closed replaces the whole page with the advert.
+ *
+ * In here neither matters: the document holds one unit, writes to itself, and
+ * the iframe around it is sized to the unit so the page reserves the space
+ * before the network answers.
+ */
+function bannerDocument() {
+  const unit = ADS.banner;
+  if (!ADS.enabled || !unit || !unit.invoke || !unit.key) return '';
+  return `<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Advertisement</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; }
+  body { display: flex; justify-content: center; align-items: flex-start; }
+  img, iframe { max-width: 100%; border: 0; }
+</style>
+</head>
+<body>
+<script type="text/javascript">
+\tatOptions = {
+\t\t'key' : '${unit.key}',
+\t\t'format' : 'iframe',
+\t\t'height' : ${unit.height},
+\t\t'width' : ${unit.width},
+\t\t'params' : {}
+\t};
+</script>
+<script type="text/javascript" src="${unit.invoke}"></script>
+</body>
+</html>`;
+}
+
+/**
+ * The 300x250 banner slot, framed. Empty when the unit is not configured.
+ *
+ * @param {string} label  screen-reader wording for the region
+ * @param {string} base   site base path, for the iframe src
+ */
+function banner(label = 'Advertisement', base = '/') {
+  const unit = ADS.banner;
+  if (!ADS.enabled || !unit || !unit.invoke || !unit.key) return '';
+  const src = `${base}${BANNER_PATH}`;
+  /* Exactly the unit's own dimensions, so the slot is the right size before
+     anything loads and the page does not move when it fills. */
+  return wrap(label, `<iframe ${CONSENT.enabled ? `data-ad-src="${src}"` : `src="${src}"`}
+          title="${label}" loading="lazy" scrolling="no" frameborder="0"
+          width="${unit.width}" height="${unit.height}"
+          style="width:${unit.width}px;height:${unit.height}px;max-width:100%;border:0;display:block;margin-inline:auto"></iframe>`,
+    'banner');
+}
+
+function wrap(label, inner, modifier = 'native') {
+  return `<aside class="ad-slot ad-slot--${modifier}" aria-label="${label}">
   <span class="ad-slot__label">Advertisement</span>
   ${inner}
 </aside>`;
 }
 
-module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH, ADS };
+module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH,
+                   banner, bannerDocument, BANNER_PATH, ADS };

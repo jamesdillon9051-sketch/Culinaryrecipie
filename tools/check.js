@@ -567,6 +567,48 @@ if (!vercelCsp) {
       }
     }
 
+    /* The 300x250 banner, which the layout promises is on every page. Counted
+       the same way and for the same reason as the rest: the claim has no other
+       witness, and a template edit that dropped it would cost a day of
+       impressions across 1,500 pages before anyone noticed it was gone. */
+    if (ads.banner && ads.banner.invoke && ads.banner.key) {
+      const missingBanner = [];
+      for (const file of htmlFiles) {
+        const html = fs.readFileSync(file, 'utf8');
+        const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
+        const frames = (html.match(/ads\/banner\.html/g) || []).length;
+        if (frames !== 1) missingBanner.push(`${where} (${frames})`);
+      }
+      if (missingBanner.length) {
+        problems.push(`${missingBanner.length} page(s) do not carry exactly one 300x250 banner`
+          + `, starting with ${missingBanner[0]}`);
+      }
+
+      /* Its own document, and the same rules as the other framed one: the unit
+         has to be in it, and the page-level loaders must not be, or every page
+         would fire them twice. */
+      const bannerPath = path.join(DIST, 'assets', 'ads', 'banner.html');
+      if (!fs.existsSync(bannerPath)) {
+        problems.push('assets/ads/banner.html is missing, so the 300x250 slot is empty on every page');
+      } else {
+        const doc = fs.readFileSync(bannerPath, 'utf8');
+        if (!doc.includes(ads.banner.invoke)) {
+          problems.push('assets/ads/banner.html does not load the banner unit');
+        }
+        /* atOptions is read off the window when invoke.js runs, so the
+           assignment has to precede the tag. Reordered, the unit silently
+           serves nothing. */
+        if (doc.indexOf('atOptions') > doc.indexOf(ads.banner.invoke)) {
+          problems.push('assets/ads/banner.html sets atOptions after the loader, so the unit gets no settings');
+        }
+        for (const [what, url] of [['the popunder', ads.popunder], ['the social bar', ads.socialBar]]) {
+          if (url && doc.includes(url)) {
+            problems.push(`the 300x250 banner document carries ${what}, which would fire it twice`);
+          }
+        }
+      }
+    }
+
     /* The framed document is the exception and has to stay one: the popunder
        and social bar inside it would fire a second time on every page. */
     const framePath = path.join(DIST, 'assets', 'ads', 'native-banner.html');
