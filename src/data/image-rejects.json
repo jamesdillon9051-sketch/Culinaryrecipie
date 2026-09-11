@@ -3080,6 +3080,10 @@
       "model": "sana",
       "prompt": "Snow-white steamed buns filled with a set custard of egg yolk, butter and milk powder, The filling is made and chilled before it goes anywhere near the dough, made with hard-boiled egg yolks, egg yolks, milk powder, cornflour, whole milk, a Chinese dish called Nai Wong Bao, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "yellow blobs, where the bun is white and steamed with the custard inside"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=146032679",
+      "why": "a Hong Kong street scene, Wong Nai Chung Road"
     }
   ],
   "rumbledethumps": [
@@ -3272,6 +3276,10 @@
     {
       "page": "https://www.flickr.com/photos/48524258@N00/54330160125",
       "why": "a corn dog with ketchup"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=196102667",
+      "why": "a Korean Corn Dogs fairground booth"
     }
   ],
   "shoyu-ramen": [
@@ -3776,6 +3784,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Misir_Wot_and_Gomen_Besiga_-_Abyssinia,_Brighton.jpg",
       "why": "a green stew on injera, not the red lentil one"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Misir_Wat_in_Pot.jpg",
+      "why": "a pan of pale brown mush with none of the berbere red"
     }
   ],
   "mandazi": [
@@ -4036,6 +4048,10 @@
       "model": "sana",
       "prompt": "Coconut pancakes cooked in a dimpled pan, crisp underneath and molten in the middle, served two stuck together, made with cooked jasmine rice, coconut milk, coconut cream, spring onions, sweetcorn kernels, a Thai dish called Khanom Krok, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a bowl of yellow porridge, not small half-sphere coconut pancakes"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=64045545",
+      "why": "vivid blue and green cakes that misstate what the recipe produces"
     }
   ],
   "goi-ga": [
@@ -4172,6 +4188,10 @@
       "model": "sana",
       "prompt": "Warm potato slices in a bacon, vinegar and stock dressing, with no mayonnaise anywhere near it, made with waxy potatoes, cider vinegar, German or Dijon mustard, streaky bacon, onion, a German dish called German Potato Salad, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a neat stack of potato discs, not a dressed salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=164016868",
+      "why": "filled potato dumplings in cream sauce, not a potato salad"
     }
   ],
   "black-forest-gateau": [

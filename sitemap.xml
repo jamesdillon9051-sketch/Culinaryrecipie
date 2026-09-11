@@ -11587,9 +11587,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/saucisson-brioche/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/saucisson-brioche.jpg</image:loc>
+      <image:title>Saucisson en Brioche</image:title>
+      <image:caption>Saucisson en Brioche — French appetizers recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pain-au-chocolat/</loc>
@@ -12102,9 +12107,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/anelletti-al-forno/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/anelletti-al-forno.jpg</image:loc>
+      <image:title>Anelletti al Forno</image:title>
+      <image:caption>Anelletti al Forno — Italian dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fregola/</loc>
@@ -12851,15 +12861,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stovies/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stovies.jpg</image:loc>
+      <image:title>Stovies</image:title>
+      <image:caption>Stovies — Scottish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bubble-and-squeak/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bubble-and-squeak.jpg</image:loc>
+      <image:title>Bubble and Squeak</image:title>
+      <image:caption>Bubble and Squeak — British breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushy-peas/</loc>
@@ -13615,9 +13635,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-dry-noodles/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-dry-noodles.jpg</image:loc>
+      <image:title>Hot Dry Noodles</image:title>
+      <image:caption>Hot Dry Noodles — Chinese lunch recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/biang-biang-noodles/</loc>
@@ -14213,9 +14238,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ebi-fry/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ebi-fry.jpg</image:loc>
+      <image:title>Ebi Fry</image:title>
+      <image:caption>Ebi Fry — Japanese dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/japanese-curry-roux/</loc>
@@ -15343,9 +15373,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/khai-jiao/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/khai-jiao.jpg</image:loc>
+      <image:title>Khai Jiao</image:title>
+      <image:caption>Khai Jiao — Thai breakfast recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pad-prik-king/</loc>
@@ -15771,9 +15806,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pierogi-ruskie/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pierogi-ruskie.jpg</image:loc>
+      <image:title>Pierogi Ruskie</image:title>
+      <image:caption>Pierogi Ruskie — Polish dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sernik/</loc>

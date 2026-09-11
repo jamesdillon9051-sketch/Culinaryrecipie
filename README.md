@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 3470 image files (WebP + JPEG)
+│       └── img/recipes/         # 3486 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 3470 image files
+├── assets/                      #    css, js and 3486 image files
 ├── recipes/                     #    1409 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 125,047 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 125,055 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,8 +380,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1133 of the 1409 recipes have a photograph. Of the 1544 images on the site, 845
-are CC0 or public domain, 334 are CC BY and 365 are CC BY-SA. Anything still
+1141 of the 1409 recipes have a photograph. Of the 1552 images on the site, 847
+are CC0 or public domain, 336 are CC BY and 369 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -1281,6 +1281,48 @@ At 63 per cent kept this is a much better hit rate than the illustrations
 managed at 47, which is the expected direction: a photograph that exists is a
 photograph of something real, and the failure mode is misidentification rather
 than invention.
+
+### Where it stopped, and what stopped it
+
+Four passes over the recipes on gradient cards, each reviewed by eye:
+
+| pass | tried | found | kept | rate |
+|---|---|---|---|---|
+| 1 | 183 | 128 | 77 | 42% |
+| 2 | 104 | 42 | 11 | 11% |
+| 3 | 93 | 32 | 8 | 9% |
+| 4 | 53 | 13 | 8 | 15% |
+
+Photographed goes from 1,035 to 1,141 and gradient cards from 276 to 77.
+
+The fourth pass rose against the trend because of one change: the search budget
+was made overridable and set to 400 seconds instead of 60. Anelletti al forno,
+saucisson en brioche, stovies, bubble and squeak and hot dry noodles had all
+returned *nothing at all* in three previous passes, not even a wrong candidate.
+They were not absent from the archives. The chain was being cut off before it
+reached them.
+
+Thirty-three recipes are now marked `skip` in images.json with a reason, which
+means the fetcher will not spend time on them again. They divide cleanly:
+
+- **The archive answers the name.** `manti` returns a praying mantis and a
+  mantis shrimp. `conchas` returns seashells. `mont-blanc` returns the
+  mountain, `black-forest-gateau` the forest, `pithiviers` the town,
+  `green-goddess-salad` a steam locomotive and two films. These are not close
+  calls and no further pass will change them.
+- **The archive holds the neighbouring dish.** Steak and kidney *pie* for the
+  pudding, ten times. Chicken tikka for fish tikka. Gumbo for bamia masreya.
+  Boeuf stroganoff plated for the sauce alone. Avgolemono for a Greek chicken
+  traybake. In each case the photograph is real, correctly licensed and of
+  something a cook would recognise — just not this recipe.
+
+`bar-en-croute-de-sel` is the clearest case of the second kind: twelve refusals,
+every one a plated sea bass fillet. The salt crust is the entire dish and no
+archive photographs it.
+
+The reason is written into each entry rather than left implicit, because the
+next person to look at a gradient card will otherwise ask the question this
+already answered.
 
 ### A gate loosened, and the sentence that gate was holding up
 
