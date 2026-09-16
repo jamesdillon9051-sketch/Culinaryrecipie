@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li class="ing-group">For the rolls</li>
 <li><label class="ing-check">
       <input type="checkbox" data-ing="1">
@@ -367,6 +371,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Two seconds in the water, not ten. The wrapper softens fully while you fill it.</li><li>Work on a damp surface; rice paper welds itself to anything dry.</li><li>Do not let finished rolls touch each other — they fuse together permanently.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>Out of spring onions? A small regular onion, finely sliced, or a few chives stirred in at the end both cover the job.</li><li>A pinch of dried chilli flakes works in place of fresh chilli — start with about a third of the quantity the chilli in the list implies, since dried chilli is more concentrated, and add more to taste.</li><li>An eighth of a teaspoon of garlic powder per clove is the usual stand-in when you are out of fresh garlic — it will not caramelise the same way, but it carries the flavour.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>A cold lager or jasmine tea</li><li>Serve with nuoc cham as a second dipping sauce</li><li>Follow with bún chả</li></ul>
 
@@ -423,6 +430,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

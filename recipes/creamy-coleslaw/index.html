@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li class="ing-group">For the slaw</li>
 <li><label class="ing-check">
       <input type="checkbox" data-ing="1">
@@ -344,6 +348,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Rinse well after salting or the slaw will be inedibly salty. Then dry it thoroughly.</li><li>Shred the cabbage as finely as you can — a mandoline or a food processor slicing disc is worth using.</li><li>This is one of the few salads genuinely better made a few hours ahead.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>Out of buttermilk? Stir a tablespoon of lemon juice or vinegar into the same amount of ordinary milk and let it sit five minutes before using.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Pulled pork or fried chicken</li><li>Burgers and hot dogs</li><li>Barbecue of any kind</li></ul>
 
@@ -400,6 +407,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

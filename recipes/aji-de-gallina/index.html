@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li class="ing-group">For the chicken</li>
 <li><label class="ing-check">
       <input type="checkbox" data-ing="1">
@@ -387,6 +391,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Ají amarillo paste is essential and widely sold frozen or jarred. There is no close substitute.</li><li>Fry the paste properly before adding liquid — four minutes, until the oil colours.</li><li>Shred the chicken by hand rather than chopping it; the texture matters.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>An eighth of a teaspoon of garlic powder per clove is the usual stand-in when you are out of fresh garlic — it will not caramelise the same way, but it carries the flavour.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Steamed white rice and boiled potato, both traditional</li><li>A cold Inca Kola or a crisp white</li><li>Black olives</li></ul>
 
@@ -443,6 +450,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

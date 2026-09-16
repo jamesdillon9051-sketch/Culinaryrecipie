@@ -49,39 +49,103 @@
     return String(Math.round(value * 4) / 4);
   }
 
-  function applyServings(servings) {
-    var ratio = servings / BASE_SERVINGS;
+  /* -------------------------------------------------- metric / US toggle
+     Mirror of src/lib/units.js — see that file for why this only ever
+     converts mass to mass (g/kg to oz/lb) or volume to volume (ml/l to cup,
+     tbsp, tsp), never mass to volume. A build-time module cannot run in a
+     browser with no bundler, so the same short table is kept here, the same
+     way src/lib/ingredients.js's formatQty is mirrored in this file already. */
+  var G_PER_OZ = 28.3495, G_PER_LB = 453.592;
+  var ML_PER_TSP = 4.92892, ML_PER_TBSP = 14.7868, ML_PER_CUP = 236.588;
+
+  function isConvertible(unit) { return unit === 'g' || unit === 'kg' || unit === 'ml' || unit === 'l'; }
+
+  function toUS(qty, unit) {
+    if (unit === 'g' || unit === 'kg') {
+      var grams = unit === 'kg' ? qty * 1000 : qty;
+      if (grams >= G_PER_LB * 0.75) return { qty: grams / G_PER_LB, unit: 'lb' };
+      return { qty: grams / G_PER_OZ, unit: 'oz' };
+    }
+    var ml = unit === 'l' ? qty * 1000 : qty;
+    if (ml >= ML_PER_CUP * 0.4) return { qty: ml / ML_PER_CUP, unit: 'cup' };
+    if (ml >= ML_PER_TBSP * 0.75) return { qty: ml / ML_PER_TBSP, unit: 'tbsp' };
+    return { qty: ml / ML_PER_TSP, unit: 'tsp' };
+  }
+
+  /* Servings and unit system both change the same numbers, so one render
+     pass reads both rather than the two features stepping on each other's
+     output — toggling units used to discard whatever serving size was set,
+     because applyServings and a first draft of this both wrote data-qty's
+     base value straight to the page instead of going through one function. */
+  var currentServings = BASE_SERVINGS;
+  var currentUnits = /^(metric|us)$/.test(read('cv:units', 'metric')) ? read('cv:units', 'metric') : 'metric';
+
+  function renderQuantities() {
+    var ratio = currentServings / BASE_SERVINGS;
     $$('[data-qty]').forEach(function (el) {
       var base = parseFloat(el.dataset.qty);
       var unit = el.dataset.unit || '';
-      var text = formatQty(base * ratio, unit);
-      el.textContent = text + (unit ? ' ' + unit : '');
+      var qty = base * ratio;
+      if (currentUnits === 'us' && isConvertible(unit)) {
+        var converted = toUS(qty, unit);
+        qty = converted.qty;
+        unit = converted.unit;
+      }
+      el.textContent = formatQty(qty, unit) + (unit ? ' ' + unit : '');
     });
-    $$('[data-servings-out]').forEach(function (el) { el.textContent = servings; });
+    $$('[data-servings-out]').forEach(function (el) { el.textContent = currentServings; });
     var yieldEl = $('[data-yield]');
-    if (yieldEl) yieldEl.textContent = servings + (servings === 1 ? ' serving' : ' servings');
+    if (yieldEl) yieldEl.textContent = currentServings + (currentServings === 1 ? ' serving' : ' servings');
+  }
+
+  function applyServings(servings) {
+    currentServings = servings;
+    renderQuantities();
   }
 
   function initScaler() {
     var wrap = $('[data-scaler]');
     if (!wrap) return;
-    var current = BASE_SERVINGS;
     var dec = $('[data-servings-dec]', wrap);
     var inc = $('[data-servings-inc]', wrap);
     var reset = $('[data-servings-reset]');
 
     function update(next) {
-      current = Math.max(1, Math.min(48, next));
-      dec.disabled = current <= 1;
-      inc.disabled = current >= 48;
-      applyServings(current);
-      if (reset) reset.hidden = current === BASE_SERVINGS;
+      currentServings = Math.max(1, Math.min(48, next));
+      dec.disabled = currentServings <= 1;
+      inc.disabled = currentServings >= 48;
+      renderQuantities();
+      if (reset) reset.hidden = currentServings === BASE_SERVINGS;
     }
 
-    dec.addEventListener('click', function () { update(current - 1); });
-    inc.addEventListener('click', function () { update(current + 1); });
+    dec.addEventListener('click', function () { update(currentServings - 1); });
+    inc.addEventListener('click', function () { update(currentServings + 1); });
     if (reset) reset.addEventListener('click', function () { update(BASE_SERVINGS); });
     update(BASE_SERVINGS);
+  }
+
+  function initUnitToggle() {
+    var toggle = $('[data-unit-toggle]');
+    if (!toggle) return;
+    var buttons = $$('button', toggle);
+
+    function paint() {
+      buttons.forEach(function (btn) {
+        var active = btn.dataset.units === currentUnits;
+        btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (btn.dataset.units === currentUnits) return;
+        currentUnits = btn.dataset.units;
+        write('cv:units', currentUnits);
+        paint();
+        renderQuantities();
+      });
+    });
+    paint();
   }
 
   /* -------------------------------------------------- ingredient ticking */
@@ -347,6 +411,7 @@
   }
 
   initScaler();
+  initUnitToggle();
   initIngredients();
   initSteps();
   initShare();

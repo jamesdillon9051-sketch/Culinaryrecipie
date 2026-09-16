@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="600" data-unit="g">600 g</span><span class="ing-text">cooked jasmine rice, cold from the fridge</span>
@@ -376,6 +380,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Fresh pineapple, added last. Tinned pineapple is too sweet and too soft for this.</li><li>Cook in two batches if your wok is small — crowding steams the rice instead of frying it.</li><li>A pinch of white pepper at the end lifts the whole dish.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>No fish sauce, or keeping it vegetarian? A mix of soy sauce and a squeeze of lime gets close to the same salt-and-savoury lift the fish sauce gives.</li><li>Tamari is the direct swap for light soy sauce if you need the dish gluten-free — it is brewed the same way, just without the wheat.</li><li>Out of spring onions? A small regular onion, finely sliced, or a few chives stirred in at the end both cover the job.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>A cold lager or an off-dry Riesling</li><li>Serve alongside a green curry or on its own</li><li>Finish with coconut ice cream</li></ul>
 
@@ -432,6 +439,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

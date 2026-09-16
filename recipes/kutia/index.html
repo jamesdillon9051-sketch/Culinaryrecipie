@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 8 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="250" data-unit="g">250 g</span><span class="ing-text">whole wheat berries</span>
@@ -346,6 +350,8 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Scald and drain the poppy seeds before grinding. Dry seeds will not give up their milk.</li><li>Cool the wheat before the honey goes in. Hot honey darkens and turns sharp.</li><li>It is served at room temperature, not hot, and is better made the day before.</li></ul>
 
+        
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Uzvar, the dried fruit compote served alongside</li><li>Dark rye bread</li><li>Followed by the other eleven dishes</li></ul>
 
@@ -402,6 +408,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

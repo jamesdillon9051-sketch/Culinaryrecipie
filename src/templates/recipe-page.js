@@ -6,6 +6,8 @@ const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { enrichDescription, recipeTitleHooks, recipeDescriptionClauses } = require('../lib/seo');
 const { questions, faqSchema } = require('../lib/faq');
+const { substitutionsFor } = require('../lib/substitutions');
+const { isConvertible } = require('../lib/units');
 const { videoSchema, reviewSchema } = require('../lib/media');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
@@ -217,6 +219,16 @@ function render(recipe, context) {
      serialises the same objects, so the markup cannot drift from what a reader
      sees — which is the condition Google puts on FAQ markup. */
   const faq = questions(recipe);
+  /* Grounded in this recipe's own ingredient list — see src/lib/substitutions.js.
+     Empty on roughly two in five recipes, which is correct: not every dish has
+     a rule-matched ingredient in it, and an empty result means no section
+     rather than a forced one. */
+  const substitutions = substitutionsFor(recipe);
+  /* Only shown when it would do something. A recipe written entirely in
+     spoons and counts — no gram or millilitre line in it — has nothing for
+     the toggle to convert, and a control that visibly does nothing on click
+     is worse than no control. */
+  const hasConvertibleUnits = parse(recipe.ingredients).some(item => isConvertible(item.unit));
   const process = recipe.processData;
   const url = `${SITE.origin}${SITE.base}recipes/${recipe.slug}/`;
 
@@ -315,6 +327,10 @@ ${breadcrumbs(trail)}
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to ${recipe.servings} servings</button>
+          ${hasConvertibleUnits ? `<div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>` : ''}
           <ul class="ingredients">${ingredientsHtml(recipe.ingredients)}</ul>
           <button class="ingredients-clear" type="button" data-clear-ingredients>Clear checklist</button>
         </div>
@@ -373,6 +389,9 @@ ${breadcrumbs(trail)}
         <h2>Chef&rsquo;s Tips</h2>
         <ul>${recipe.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
 
+        ${substitutions.length ? `<h2>Common Substitutions &amp; Variations</h2>
+        <ul>${substitutions.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
+
         <h2>Pairing Suggestions</h2>
         <ul>${recipe.pairings.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
 
@@ -422,6 +441,20 @@ ${breadcrumbs(trail)}
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">${SITE.author[0]}</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="${SITE.base}about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     ${ads.nativeBanner(1, 'Advertisement below the method and ingredients', SITE.base)}

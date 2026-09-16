@@ -185,6 +185,7 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
+          
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="3" data-unit="tins">3 tins</span><span class="ing-text">tuna in spring water, about 400 g drained</span>
@@ -334,6 +335,8 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Press the tin lid down hard. Every drop matters.</li><li>Leave some flakes large.</li><li>Capers do the same job as pickle, with more edge.</li></ul>
 
+        
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Sourdough toast</li><li>Little gem lettuce</li><li>Sliced tomato</li></ul>
 
@@ -390,6 +393,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

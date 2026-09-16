@@ -627,6 +627,34 @@ if (!vercelCsp) {
   }
 }
 
+/* --- the unit toggle appears exactly where it can do something ------------
+   A control that is present but converts nothing when clicked is worse than
+   no control, so the reverse matters just as much: a recipe with a gram or
+   millilitre line in it should always offer the toggle. Checked against the
+   same computation the template uses, so a future edit to either side that
+   drifts from the other fails here rather than shipping a silently dead
+   button on some recipes and a missing feature on others. */
+{
+  const { loadRecipes } = require('../src/build');
+  const { parse } = require('../src/lib/ingredients');
+  const { isConvertible } = require('../src/lib/units');
+  const wrong = [];
+  for (const recipe of loadRecipes()) {
+    const shouldHaveToggle = parse(recipe.ingredients).some(item => isConvertible(item.unit));
+    const file = path.join(DIST, 'recipes', recipe.slug, 'index.html');
+    if (!fs.existsSync(file)) continue;
+    const html = fs.readFileSync(file, 'utf8');
+    const hasToggle = html.includes('data-unit-toggle');
+    if (shouldHaveToggle !== hasToggle) {
+      wrong.push(`${recipe.slug} — ${shouldHaveToggle ? 'has convertible units but no toggle' : 'has a toggle but nothing to convert'}`);
+    }
+  }
+  if (wrong.length) {
+    problems.push(`${wrong.length} recipe(s) disagree with their own ingredients about the unit toggle, `
+      + `starting with ${wrong[0]}`);
+  }
+}
+
 /* --- the social card still says what is true ------------------------------
    assets/img/og-default.jpg is the share preview for every page without a
    picture of its own, and it puts the brand and two counts in writing. It is
@@ -678,7 +706,8 @@ try {
 /* seo-audit reads the built pages as a set rather than one at a time: two
    pages sharing a title, a page nothing links to, a sitemap that has drifted
    from the routes. None of those is visible from inside a single file. */
-for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js']) {
+for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+                     'substitutions-audit.js']) {
   try {
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, audit)], { stdio: 'pipe' });

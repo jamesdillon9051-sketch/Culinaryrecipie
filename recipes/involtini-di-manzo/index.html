@@ -180,6 +180,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 4 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="8" data-unit="">8</span><span class="ing-text">thin slices beef topside or flank, about 700 g total</span>
@@ -354,6 +358,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Beat the beef to 3 mm. Thick slices will not roll or cook evenly.</li><li>Seam side down first, and do not move them for the first 2 minutes.</li><li>The leftover sauce dresses pasta the next day.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>An eighth of a teaspoon of garlic powder per clove is the usual stand-in when you are out of fresh garlic — it will not caramelise the same way, but it carries the flavour.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Soft polenta</li><li>Bread</li><li>Nero d&#39;Avola</li></ul>
 
@@ -410,6 +417,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

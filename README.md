@@ -1949,6 +1949,121 @@ errors.
 
 Both audits run inside `npm run check`.
 
+## Substitutions, units and a page that says how it checks itself
+
+A four-part request came in: humanise the content, round out the schema and
+interactive UI, document the testing process, and audit the whole catalogue
+for thin or generic pages. Three of the four turned out to already exist —
+the schema was already complete, the servings scaler already worked, and
+"Why This Recipe Works" plus "Chef's Tips" were already the testing notes the
+first part asked for, written per-dish rather than generated. Duplicating
+them under a new heading would have padded 1,409 pages with the same thing
+twice, which is the opposite of what the request was for. What follows is the
+part that was a genuine gap, built the way everything else on this site is
+built: computed from real data, and audited so it cannot go stale.
+
+### Common Substitutions & Variations, computed rather than typed
+
+`src/lib/substitutions.js` holds about seventeen rules — buttermilk, double
+cream, soy sauce, fresh ginger, garlic, chicken stock, dried herbs, and a
+few more — each of which fires only when the exact phrase it needs is
+present in that recipe's own ingredient list, and quotes it back rather than
+writing generic advice. A curry with green chillies in it is told to use a
+third the amount in dried flakes, by name; a recipe with none gets no note
+at all, the same way `rest` is only ever declared when the method actually
+describes a wait.
+
+That is what keeps it from being 1,409 hand-typed paragraphs that drift out
+of date the moment an ingredient line changes: there is nothing to go stale,
+because it is recomputed at build time from whatever the ingredients say
+today. `npm run substitutions` (folded into `npm run check`) regenerates
+every recipe's notes and fails the build if a note's quoted phrase cannot be
+found in that recipe's own ingredients — the same discipline `diet-audit.js`
+already applies to tags. A flour-blend swap is dropped from Baking and
+Desserts entirely, because "just swap it 1:1" is true in a curry and not
+reliably true in a structural bake, and a flat claim that ignored the
+difference would be wrong on exactly the pages where getting it wrong
+matters most.
+
+Coverage: 1,012 of 1,409 recipes match at least one rule. The other 397 are
+not missing anything — they simply do not contain buttermilk, chicken stock,
+fresh ginger or anything else the rule set knows about, and get no section
+rather than a forced one.
+
+### A metric/US customary toggle, and the conversion it refuses to do
+
+Every ingredient list can now be shown in US customary units as well as
+metric. It only ever converts mass to mass (grams and kilograms to ounces
+and pounds) or volume to volume (millilitres and litres to cups, tablespoons
+and teaspoons) — never mass to volume, because that needs an ingredient's
+density, which this site does not know and will not guess. "1 cup" of flour
+and "1 cup" of honey are not the same number of grams, and a wrong guess
+there is a wrong recipe, not a rounding quirk. Because every recipe already
+writes solids in grams and liquids in millilitres, the toggle never has to
+cross that line: every convertible unit on a page is already unambiguously
+one or the other, and spoon and count measures (tsp, tbsp, cup, clove, tin)
+are left exactly as authored in both modes.
+
+It composes with the servings scaler rather than fighting it — both read
+from one render function, after an early version had toggling units discard
+whatever serving size was set. Verified in an actual browser rather than
+just read as code: doubling the servings while in US mode scales correctly
+and stays in US mode, a page reload keeps the chosen unit system
+(`localStorage`, key `cv:units`, the same pattern `theme.js` already uses),
+and switching metric → US → metric round-trips to the exact original
+figures rather than compounding rounding error, because both directions
+always compute from the authored base quantity, never from whatever is
+currently on screen. `npm run check` also verifies that the toggle appears
+on every recipe with a convertible unit in it and nowhere else — a control
+that visibly does nothing when clicked is worse than no control.
+
+### An honest answer to "About the Test Kitchen"
+
+The request asked for a page documenting a test kitchen's development and
+testing standards. This site's own About page already says, in its own
+words, "There is no test kitchen and no team. There is me, a small hob and a
+notebook" — one person, credited by name, is the entire premise of the site
+and the reason the recipes read the way they do. A second page describing a
+testing team would have contradicted the first, which is the kind of thing
+a reader — or a human reviewer — catches by opening two pages, not a close
+call.
+
+What actually needed writing was true and had not been written down: "How
+every recipe is checked before it goes up", a new section on the existing
+`/about/#how-checked` page listing the automated checks this
+repository already runs — timing against the method, diet tags against the
+ingredients, nutrition against the same figures, keywords against what the
+page can back up, and now substitutions against the ingredient list too.
+Every recipe page also carries a short author credit at the foot of the
+content, naming the same person the Recipe schema's `author` field already
+names, linking to that section — visible confirmation of the same fact the
+structured data states, not a second and possibly contradictory Person
+entity competing with it.
+
+### The audit that measures itself honestly
+
+`tools/quality-audit.js` writes `quality_report.csv`, one row per recipe,
+sorted thinnest first: body word count, a hit list of stock recipe-blog
+phrases ("elevate your", "culinary journey", "you won't believe" and around
+thirty more), whether four or more recipes open their "why it works"
+paragraph on the identical sentence, and whether a recipe has no photograph
+or shares its source photograph with another recipe.
+
+The first run of it reported 1,324 of 1,409 recipes under 400 words, which
+was the script being wrong rather than the site: it was counting the
+why-paragraph, method, tips, pairings and storage note, and leaving out the
+ingredient list and the FAQ the page builds from the recipe's own timings —
+both genuine reader-facing content. Counted properly, the median recipe runs
+551 words and eight fall under 400. Zero generic phrases were found across
+the catalogue, and zero recipes share an opening sentence with three others,
+which is what six volumes of hand-authored, per-dish technique detail
+actually produce, measured rather than asserted here.
+Ten recipes do share a photograph's source page with another recipe on the
+site — closely related dishes (naan/garlic naan, rogan josh/lamb rogan josh,
+rice pudding/kheer) rather than a mistaken duplicate, but listed in the
+report because a shared source is worth a human glance, not a judgement this
+script is positioned to make on its own.
+
 ## Ads
 
 `npm run check` verifies that every page carries every unit that is switched

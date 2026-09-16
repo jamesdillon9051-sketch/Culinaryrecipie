@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 1 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="2" data-unit="tsp">2 tsp</span><span class="ing-text">ceremonial-grade matcha powder</span>
@@ -300,6 +304,8 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Buy ceremonial grade for drinking; culinary grade is designed to stand up to sugar in baking and tastes bitter on its own.</li><li>Store matcha in an airtight tin in the fridge and use within two months — it oxidises quickly and turns from jade to olive.</li><li>For a hot latte, use 200 ml of steamed milk and skip the ice.</li></ul>
 
+        
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Serve alongside a mochi or a slice of Japanese cheesecake</li><li>A good mid-afternoon alternative to coffee</li><li>Pairs well with almond biscuits</li></ul>
 
@@ -356,6 +362,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

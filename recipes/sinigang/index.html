@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="1" data-unit="kg">1 kg</span><span class="ing-text">pork belly or pork ribs, in 4 cm pieces</span>
@@ -363,6 +367,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>It should be too sour when you taste it. The rice balances it out.</li><li>Vegetables in order, hardest first. Everything should finish together.</li><li>Greens off the heat for two minutes. Boiling them ruins the bowl.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>No fish sauce, or keeping it vegetarian? A mix of soy sauce and a squeeze of lime gets close to the same salt-and-savoury lift the fish sauce gives.</li><li>A pinch of dried chilli flakes works in place of fresh chilli — start with about a third of the quantity the green chillies in the list implies, since dried chilli is more concentrated, and add more to taste.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Steamed rice</li><li>Fish sauce with chilli</li><li>A cold San Miguel</li></ul>
 
@@ -419,6 +426,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">

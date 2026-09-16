@@ -185,6 +185,10 @@
           </div>
           <button class="btn btn--ghost btn--sm btn--block" type="button" data-servings-reset hidden
                   style="margin-bottom:1rem">Reset to 6 servings</button>
+          <div class="chip-row" data-unit-toggle role="group" aria-label="Measurement units" style="margin-bottom:1rem">
+            <button class="chip" type="button" data-units="metric" aria-pressed="true">Metric</button>
+            <button class="chip" type="button" data-units="us" aria-pressed="false">US customary</button>
+          </div>
           <ul class="ingredients"><li><label class="ing-check">
       <input type="checkbox" data-ing="0">
       <span class="ing-qty" data-qty="250" data-unit="g">250 g</span><span class="ing-text">dangmyeon (sweet potato glass noodles)</span>
@@ -363,6 +367,9 @@
         <h2>Chef&rsquo;s Tips</h2>
         <ul><li>Dress the noodles while warm so they drink up the sauce rather than sitting in it.</li><li>Toss with your hands. It is the only way to coat glass noodles evenly.</li><li>Japchae is traditionally served at room temperature, which makes it excellent for taking places.</li></ul>
 
+        <h2>Common Substitutions &amp; Variations</h2>
+        <ul><li>Tamari is the direct swap for soy sauce if you need the dish gluten-free — it is brewed the same way, just without the wheat.</li><li>Out of spring onions? A small regular onion, finely sliced, or a few chives stirred in at the end both cover the job.</li><li>An eighth of a teaspoon of garlic powder per clove is the usual stand-in when you are out of fresh garlic — it will not caramelise the same way, but it carries the flavour.</li></ul>
+
         <h2>Pairing Suggestions</h2>
         <ul><li>Soju or a cold lager</li><li>Serve as part of a spread with bulgogi and kimchi</li><li>Finish with fresh fruit</li></ul>
 
@@ -419,6 +426,20 @@
         </section>
       </div>
 
+    </div>
+
+    <!-- The Recipe JSON-LD above already carries author (Person) and
+         publisher (Organization), so this is the same one real person made
+         visible on the page rather than a second, competing schema node —
+         two Person entries for the same byline would be a claim of its own. -->
+    <div class="wrap">
+      <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
+        <span class="avatar" aria-hidden="true">T</span>
+        <div>
+          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="/about/">Turab</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="/about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+        </div>
+      </div>
     </div>
 
     <aside class="ad-slot ad-slot--native" aria-label="Advertisement below the method and ingredients">
