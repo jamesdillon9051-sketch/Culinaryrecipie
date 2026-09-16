@@ -45,6 +45,7 @@ placki-ziemniaczane,Placki Ziemniaczane,449,,,0,,,,,Polish,Breakfast
 angels-on-horseback,Angels on Horseback,451,,,0,,yes,,,British,Appetizers
 dublin-coddle,Dublin Coddle,451,,,0,,,yes,,Irish,Dinner
 gorditas,Gorditas,451,,,0,,,yes,,Mexican,Dinner
+hiyayakko,Hiyayakko,451,,,0,,,,,Japanese,Appetizers
 batarekh,Batarekh,452,,,0,,,,,Egyptian,Appetizers
 hot-toddy,Hot Toddy,452,,,0,,,,,Scottish,Drinks
 mysore-pak,Mysore Pak,452,,,0,,,,,Indian,Desserts
@@ -112,7 +113,6 @@ mango-lassi,Mango Lassi,476,,,0,,,,,Indian,Drinks
 palmiers,Palmiers,476,,,0,,,,,French,Baking
 salade-de-lentilles,Salade de Lentilles,476,,,0,,,yes,,French,Appetizers
 espresso-martini,Espresso Martini,477,,,0,,,,,International,Drinks
-hiyayakko,Hiyayakko,477,,,0,,,,,Japanese,Appetizers
 mantou,Mantou,477,,,0,,,yes,,Chinese,Baking
 ftair,Ftair,478,,,0,,yes,,,Tunisian,Breakfast
 granita-di-caffe,Granita di Caffè,478,,,0,,,,,Italian,Desserts
@@ -159,7 +159,6 @@ medovik,Medovik,489,,,0,,,yes,,Russian,Desserts
 honey-roast-parsnips,Honey Roast Parsnips,490,,,0,,yes,,,British,Dinner
 irish-coffee,Irish Coffee,490,,,0,,,,,Irish,Drinks
 pan-haggerty,Pan Haggerty,490,,,0,,,yes,,British,Dinner
-ojingeo-bokkeum,Ojingeo Bokkeum,491,,,0,,,yes,,Korean,Dinner
 onigiri,Onigiri,491,,,0,,,yes,,Japanese,Lunch
 cordon-bleu,Cordon Bleu,492,,,0,,,,,French,Dinner
 rouz-jerbi,Rouz Jerbi,492,,,0,,,,,Tunisian,Dinner
@@ -240,7 +239,6 @@ paneer-bhurji,Paneer Bhurji,509,,,0,,,yes,,Indian,Breakfast
 poffertjes,Poffertjes,509,,,0,,,,,Dutch,Desserts
 sausage-rolls,Sausage Rolls,509,,,0,,,yes,,British,Baking
 tonkatsu,Tonkatsu,509,,,0,,,yes,,Japanese,Dinner
-hakka-noodles,Hakka Noodles,510,,,0,,,,,Indian,Dinner
 kabkabou,Kabkabou,510,,,0,,,,,Tunisian,Dinner
 pollo-al-ajillo,Pollo al Ajillo,510,,,0,,,yes,,Spanish,Dinner
 chorba-frik,Chorba Frik,511,,,0,,,yes,,Tunisian,Lunch
@@ -248,7 +246,6 @@ karniyarik,Karnıyarık,511,,,0,,,yes,,Turkish,Dinner
 pesto-pasta,Pesto Pasta,511,,,0,,,,,Italian,Quick Meals
 piperade,Pipérade,511,,,0,,,,,French,Lunch
 ras-malai,Ras Malai,511,,,0,,,,,Indian,Desserts
-vegetable-stir-fry,Vegetable Stir-Fry,511,,,0,,,,,Chinese,Quick Meals
 london-particular,London Particular,512,,,0,,yes,,,British,Lunch
 oeufs-mayonnaise,Œufs Mayonnaise,512,,,0,,,,,French,Appetizers
 pease-pudding,Pease Pudding,512,,,0,,,yes,,British,Dinner
@@ -257,7 +254,6 @@ brik,Tunisian Brik,514,,,0,,,,,Tunisian,Appetizers
 esquites,Esquites,514,,,0,,,yes,,Mexican,Appetizers
 fish-tikka,Fish Tikka,514,,,0,,yes,,,Indian,Appetizers
 goulash-masri,Goulash Masri,514,,,0,,,,,Egyptian,Dinner
-khai-jiao,Khai Jiao,514,,,0,,,,,Thai,Breakfast
 pasta-con-le-sarde,Pasta con le Sarde,514,,,0,,,,,Italian,Dinner
 peperonata,Peperonata,514,,,0,,,,,Italian,Dinner
 shiro-wat,Shiro Wat,514,,,0,,yes,,,Ethiopian,Dinner
@@ -267,16 +263,12 @@ cotoletta-alla-milanese,Cotoletta alla Milanese,515,,,0,,,,,Italian,Dinner
 entrecote-marchand-de-vin,Entrecôte Marchand de Vin,515,,,0,,,yes,,French,Dinner
 kunafa-bil-manga,Kunafa bil Manga,515,,,0,,,,,Egyptian,Desserts
 dulce-de-leche,Dulce de Leche,516,,,0,,,,,Argentinian,Desserts
-pidan-tofu,Century Egg with Cold Tofu,516,,,0,,,,,Chinese,Appetizers
 puttanesca,Spaghetti alla Puttanesca,516,,,0,,,yes,,Italian,Dinner
 rumbledethumps,Rumbledethumps,516,,,0,,yes,,,Scottish,Dinner
-cacio-e-pepe,Cacio e Pepe,517,,,0,,,,,Italian,Quick Meals
 kachumbari,Kachumbari,517,,,0,,,,,Kenyan,Healthy
 saucisson-brioche,Saucisson en Brioche,517,,,0,,,,,French,Appetizers
 stroopwafel,Stroopwafels,517,,,0,,,,,Dutch,Desserts
-thai-yellow-curry,Thai Yellow Curry,517,,,0,,yes,,,Thai,Dinner
 baleadas,Baleadas,518,,,0,,,,,International,Breakfast
-chicken-lollipop,Chicken Lollipop,518,,,0,,,,,Indian,Appetizers
 corn-chowder,Corn Chowder,518,,,0,,,,,American,Lunch
 eccles-cakes,Eccles Cakes,518,,,0,,,,,British,Baking
 malabi,Malabi,518,,,0,,,,,Israeli,Desserts
@@ -317,6 +309,7 @@ zapiekanka,Zapiekanka,524,,,0,,,,,Polish,Quick Meals
 cucumber-sandwiches,Cucumber Sandwiches,525,,,0,,,,,British,Lunch
 insalata-di-mare,Insalata di Mare,525,,,0,,,,,Italian,Appetizers
 lemonade,Fresh Lemonade,525,,,0,,,,,American,Drinks
+ojingeo-bokkeum,Ojingeo Bokkeum,525,,,0,,,yes,,Korean,Dinner
 po-boy,Shrimp Po Boy,525,,,0,,,yes,,American,Lunch
 sujeonggwa,Sujeonggwa,525,,,0,,,,,Korean,Drinks
 biscotti,Almond Biscotti,526,,,0,,,,,Italian,Baking
@@ -344,6 +337,7 @@ saganaki,Saganaki,530,,,0,,,,,Greek,Appetizers
 smorrebrod,Smørrebrød,530,,,0,,,,,Danish,Lunch
 chicken-caesar-wrap,Chicken Caesar Wrap,531,,,0,,,,,American,Lunch
 egg-drop-soup,Egg Drop Soup,531,,,0,,,,,Chinese,Lunch
+parmigiana-bianca,Parmigiana Bianca,531,,,0,,yes,,,Italian,Dinner
 sheikh-el-mahshi,Sheikh el Mahshi,531,,,0,,,yes,,Lebanese,Dinner
 smashed-chickpea-sandwich,Smashed Chickpea Sandwich,531,,,0,,yes,,,American,Quick Meals
 soused-herring,Soused Herring,531,,,0,,,,,British,Appetizers
@@ -359,6 +353,7 @@ sayadeya-masreya,Sayadeya Masreya,532,,,0,,,yes,,Egyptian,Dinner
 aish-baladi,Aish Baladi,533,,,0,,yes,,,Egyptian,Baking
 carbonade-flamande,Carbonade Flamande,533,,,0,,,,,French,Dinner
 baccala-mantecato,Baccalà Mantecato,534,,,0,,,,,Italian,Appetizers
+bloody-mary,Bloody Mary,534,,,0,,,,,International,Drinks
 budae-jjigae,Budae Jjigae,534,,,0,,,,,Korean,Dinner
 cold-brew-coffee,Cold Brew Coffee,534,,,0,,,,,International,Drinks
 dacquoise,Dacquoise,534,,,0,,,,,French,Desserts
@@ -388,6 +383,7 @@ joojeh-kabab,Joojeh Kabab,538,,,0,,,,,Persian,Dinner
 kare-kare,Kare-Kare,538,,,0,,,yes,,Filipino,Dinner
 shao-bing,Shao Bing,538,,,0,,,yes,,Chinese,Baking
 testaroli,Testaroli al Pesto,538,,,0,,,,,Italian,Dinner
+thai-yellow-curry,Thai Yellow Curry,538,,,0,,yes,,,Thai,Dinner
 winter-melon-soup,Winter Melon Soup,538,,,0,,,,,Chinese,Lunch
 black-forest-gateau,Black Forest Gateau,539,,,0,,yes,,,German,Desserts
 hamam-mahshi,Hamam Mahshi,539,,,0,,,,,Egyptian,Dinner
@@ -398,8 +394,8 @@ misir-wat,Misir Wat,539,,,0,,yes,,,Ethiopian,Dinner
 sabich,Sabich,539,,,0,,,,,Israeli,Lunch
 snickerdoodles,Snickerdoodles,539,,,0,,,,,American,Baking
 carciofi-alla-romana,Carciofi alla Romana,540,,,0,,,,,Italian,Appetizers
+khai-jiao,Khai Jiao,540,,,0,,,,,Thai,Breakfast
 trofie-al-pesto,Trofie al Pesto,540,,,0,,,,,Italian,Dinner
-vinegar-cabbage,Vinegar Cabbage,540,,,0,,yes,,,Chinese,Dinner
 adana-kebab,Adana Kebab,541,,,0,,,,,Turkish,Dinner
 bandrek,Bandrek,541,,,0,,,,,Indonesian,Drinks
 cranberry-sauce,Cranberry Sauce,541,,,0,,,,,American,Holiday Specials
@@ -414,6 +410,7 @@ salade-de-chevre-chaud,Salade de Chèvre Chaud,543,,,0,,,,,French,Lunch
 sangria,Red Wine Sangria,543,,,0,,,,,Spanish,Drinks
 chocolate-milkshake,Chocolate Milkshake,544,,,0,,,,,American,Drinks
 classic-margarita,Classic Margarita,544,,,0,,,,,Mexican,Drinks
+hakka-noodles,Hakka Noodles,544,,,0,,,,,Indian,Dinner
 masala-chai,Masala Chai,544,,,0,,,,,Indian,Drinks
 oi-muchim,Oi Muchim,544,,,0,,,,,Korean,Healthy
 pigs-in-blankets,Pigs in Blankets,544,,,0,,,,,British,Holiday Specials
@@ -424,9 +421,9 @@ caponata,Sicilian Caponata,545,,,0,,,,,Italian,Appetizers
 corn-dogs,Corn Dogs,545,,,0,,,,,American,Quick Meals
 dhokla,Dhokla,545,,,0,,,yes,,Indian,Appetizers
 flammkuchen,Flammkuchen,545,,,0,,,,,German,Quick Meals
-lotus-root-stir-fry,Stir-Fried Lotus Root,545,,,0,,yes,,,Chinese,Dinner
 nimbu-pani,Nimbu Pani,545,,,0,,,,,Indian,Drinks
 rakakat-jibneh,Cheese Rakakat,545,,,0,,yes,,,Lebanese,Appetizers
+vegetable-stir-fry,Vegetable Stir-Fry,545,,,0,,,,,Chinese,Quick Meals
 assidat-zgougou,Assidat Zgougou,546,,,0,,,,,Tunisian,Desserts
 bigos,Bigos,546,,,0,,,,,Polish,Dinner
 cheung-fun,Cheung Fun,546,,,0,,,,,Chinese,Appetizers
@@ -451,15 +448,14 @@ zuppa-inglese,Zuppa Inglese,548,,,0,,,,,Italian,Desserts
 baba-au-rhum,Baba au Rhum,549,,,0,,yes,,,French,Desserts
 bagnun,Bagnùn di Acciughe,549,,,0,,,yes,,Italian,Lunch
 cauliflower-mash,Cauliflower Mash,549,,,0,,,,,American,Dinner
-gobi-manchurian,Gobi Manchurian,549,,,0,,,,,Indian,Appetizers
 julekake,Julekake,549,,,0,,,,,Norwegian,Holiday Specials
 milk-tart,Milk Tart,549,,,0,,yes,,,South African,Desserts
-pad-woon-sen,Pad Woon Sen,549,,,0,,yes,,,Thai,Quick Meals
 bamia-masreya,Bamia Masreya,550,,,0,,yes,,,Egyptian,Dinner
 choy-sum-oyster-sauce,Choy Sum in Oyster Sauce,550,,,0,,yes,,,Chinese,Dinner
 dundee-cake,Dundee Cake,550,,,0,,yes,,,Scottish,Baking
 endives-au-jambon,Endives au Jambon,550,,,0,,,yes,,French,Dinner
 mont-blanc,Mont-Blanc,550,,,0,,yes,,,French,Desserts
+pidan-tofu,Century Egg with Cold Tofu,550,,,0,,,,,Chinese,Appetizers
 red-bean-soup,Red Bean Soup,550,,,0,,,,,Chinese,Desserts
 tangyuan,Tangyuan,550,,,0,,yes,,,Chinese,Desserts
 uttapam,Uttapam,550,,,0,,,yes,,Indian,Breakfast
@@ -476,7 +472,6 @@ sobolo,Sobolo,552,,,0,,,,,Ghanaian,Drinks
 tzatziki,Tzatziki,552,,,0,,,,,Greek,Appetizers
 fondue-savoyarde,Fondue Savoyarde,553,,,0,,,,,French,Dinner
 makroudh,Makroudh,553,,,0,,,,,Tunisian,Desserts
-schezwan-fried-rice,Schezwan Fried Rice,553,,,0,,,yes,,Indian,Dinner
 tteok-galbi,Tteok Galbi,553,,,0,,,yes,,Korean,Dinner
 aeggekage,Æggekage,554,,,0,,,,,Danish,Quick Meals
 crab-cakes,Maryland Crab Cakes,554,,,0,,,,,American,Appetizers
@@ -489,7 +484,6 @@ ayam-goreng,Ayam Goreng,555,,,0,,,,,Indonesian,Dinner
 bun-rieu,Bún Riêu,555,,,0,,,,,Vietnamese,Lunch
 crying-tiger,Crying Tiger Beef,555,,,0,,,yes,,Thai,Dinner
 kvass,Bread Kvass,555,,,0,,,,,Ukrainian,Drinks
-lumpia,Lumpiang Shanghai,555,,,0,,,,,Filipino,Appetizers
 prawn-masala,Prawn Masala,555,,,0,,,yes,,Indian,Dinner
 crema-catalana,Crema Catalana,556,,,0,,,,,Spanish,Desserts
 devilled-kidneys,Devilled Kidneys,556,,,0,,,,,British,Breakfast
@@ -499,9 +493,7 @@ pasta-alla-genovese,Pasta alla Genovese,556,,,0,,,,,Italian,Dinner
 pizzoccheri,Pizzoccheri della Valtellina,556,,,0,,,,,Italian,Dinner
 atayef-asafiri,Atayef Asafiri,557,,,0,,,,,Lebanese,Desserts
 choucroute,Choucroute Garnie,557,,,0,,,,,French,Dinner
-goi-ga,Gỏi Gà,557,,,0,,yes,,,Vietnamese,Lunch
 kafta-bil-sanieh,Kafta bil Sanieh,557,,,0,,,yes,,Lebanese,Dinner
-parmigiana-bianca,Parmigiana Bianca,557,,,0,,yes,,,Italian,Dinner
 peanut-butter-cookies,Peanut Butter Cookies,557,,,0,,,,,American,Baking
 savoury-cottage-cheese-bowl,Savoury Cottage Cheese Bowl,557,,,0,,,,,American,Breakfast
 soda-bread,Irish Soda Bread,557,,,0,,,,,Irish,Baking
@@ -520,7 +512,6 @@ carne-asada,Carne Asada,560,,,0,,,yes,,Mexican,Dinner
 chai-latte,Masala Chai Latte,560,,,0,,,,,Indian,Drinks
 ferakh-mashwi,Ferakh Mashwi,560,,,0,,,,,Egyptian,Dinner
 japanese-curry-roux,Japanese Curry Roux,560,,,0,,,,,Japanese,Dinner
-moo-ping,Moo Ping,560,,,0,,,yes,,Thai,Appetizers
 moutabal,Moutabal,560,,,0,,,,,Lebanese,Appetizers
 blt-sandwich,The Perfect BLT,561,,,0,,,,,American,Lunch
 hash-browns,Crispy Hash Browns,561,,,0,,,,,American,Breakfast
@@ -534,7 +525,6 @@ cullen-skink,Cullen Skink,562,,,0,,,,,Scottish,Lunch
 doenjang-jjigae,Doenjang Jjigae,562,,,0,,,yes,,Korean,Dinner
 siu-yuk,Siu Yuk,562,,,0,,,,,Chinese,Dinner
 torshi,Torshi,562,,,0,,,yes,,Egyptian,Appetizers
-bloody-mary,Bloody Mary,563,,,0,,,,,International,Drinks
 buffalo-chicken-dip,Buffalo Chicken Dip,563,,,0,,,,,American,Appetizers
 coronation-chicken,Coronation Chicken,563,,,0,,,,,British,Lunch
 ful-medames,Ful Medames,563,,,0,,,,,Egyptian,Quick Meals
@@ -546,25 +536,21 @@ salmon-soup-lohikeitto,Lohikeitto,563,,,0,,,,,Finnish,Dinner
 tea-eggs,Marbled Tea Eggs,563,,,0,,,,,Chinese,Appetizers
 vietnamese-iced-coffee,Cà Phê Sữa Đá,563,,,0,,,,,Vietnamese,Drinks
 corn-on-the-cob,Corn on the Cob,564,,,0,,,,,American,Dinner
-pad-prik-king,Pad Prik King,564,,,0,,,,,Thai,Dinner
 poulet-basquaise,Poulet Basquaise,564,,,0,,,,,French,Dinner
 bar-en-croute-de-sel,Bar en Croûte de Sel,565,,,0,,yes,,,French,Dinner
 brandade-de-morue,Brandade de Morue,565,,,0,,,yes,,French,Appetizers
 canele,Canelés de Bordeaux,565,,,0,,,,,French,Baking
-chilli-paneer,Chilli Paneer,565,,,0,,,,,Indian,Appetizers
 cuccidati,Cuccidati,565,,,0,,,,,Italian,Baking
 kaya-toast,Kaya Toast,565,,,0,,,,,Singaporean,Quick Meals
 maritozzo,Maritozzo,565,,,0,,,yes,,Italian,Baking
 unagi-don,Unagi Don,565,,,0,,,,,Japanese,Dinner
 haupia,Haupia,566,,,0,,,,,Hawaiian,Desserts
-hot-and-sour-potato,Hot and Sour Potato Slivers,566,,,0,,,,,Chinese,Dinner
 onion-rings,Beer-Battered Onion Rings,566,,,0,,,,,American,Appetizers
 sambousek,Sambousek,566,,,0,,,,,Lebanese,Appetizers
 dahi-vada,Dahi Vada,567,,,0,,,yes,,Indian,Appetizers
 garbure,Garbure,567,,,0,,,,,French,Lunch
 kheer,Rice Kheer,567,,,0,,,,rice-pudding,Indian,Desserts
 panzanella,Tuscan Panzanella,567,,,0,,,,,Italian,Healthy
-wood-ear-salad,Wood Ear Salad,567,,,0,,,yes,,Chinese,Appetizers
 brodetto,Brodetto all'Anconetana,568,,,0,,,,,Italian,Dinner
 jellied-eels,Jellied Eels,568,,,0,,,,,British,Appetizers
 langos,Lángos,568,,,0,,,,,Hungarian,Lunch
@@ -581,15 +567,13 @@ harees,Harees,570,,,0,,,,,Middle Eastern,Dinner
 kibbeh-mekliyeh,Fried Kibbeh,570,,,0,,,,,Lebanese,Appetizers
 lablabi,Lablabi,570,,,0,,,,,Tunisian,Breakfast
 pain-au-chocolat,Pain au Chocolat,570,,,0,,yes,,,French,Baking
-panang-curry,Panang Curry,570,,,0,,,yes,,Thai,Dinner
 raclette,Raclette,570,,,0,,,,,Swiss,Dinner
 har-gow,Har Gow,571,,,0,,,,,Chinese,Appetizers
 lotus-root-rib-soup,Lotus Root and Pork Rib Soup,571,,,0,,,,,Chinese,Lunch
+lotus-root-stir-fry,Stir-Fried Lotus Root,571,,,0,,yes,,,Chinese,Dinner
 mamaliga,Mămăligă,571,,,0,,,,,Romanian,Dinner
-sisig,Sisig,571,,,0,,,yes,,Filipino,Appetizers
 tabbouleh,Tabbouleh,571,,,0,,,,,Middle Eastern,Healthy
 znoud-el-sit,Znoud el Sit,571,,,0,,,,,Lebanese,Desserts
-bo-kho,Bò Kho,572,,,0,,,yes,,Vietnamese,Dinner
 deviled-eggs,Deviled Eggs,572,,,0,,,,,American,Appetizers
 kebda-eskandarani,Kebda Eskandarani,572,,,0,,,,,Egyptian,Quick Meals
 khachapuri,Adjaruli Khachapuri,572,,,0,,,,,Georgian,Baking
@@ -610,7 +594,7 @@ veg-kolhapuri,Veg Kolhapuri,573,,,0,,,yes,,Indian,Dinner
 cornbread,Skillet Cornbread,574,,,0,,,,,American,Baking
 egg-salad-sandwich,Egg Salad Sandwich,574,,,0,,,,,American,Lunch
 greek-lemon-potatoes,Greek Lemon Potatoes,574,,,0,,,,,Greek,Dinner
-veg-momos,Vegetable Momos,574,,,0,,,yes,,Nepalese,Appetizers
+vinegar-cabbage,Vinegar Cabbage,574,,,0,,yes,,,Chinese,Dinner
 alfajores,Alfajores,575,,,0,,,,,Argentinian,Desserts
 crumpets,Crumpets,575,,,0,,,,,British,Baking
 lobio,Lobio,575,,,0,,,,,Georgian,Dinner
@@ -637,7 +621,7 @@ pasta-alla-gricia,Pasta alla Gricia,577,,,0,,,,,Italian,Quick Meals
 ragu-bolognese,Ragù alla Bolognese,577,,,0,,,,,Italian,Dinner
 treacle-tart,Treacle Tart,577,,,0,,,,,British,Baking
 banana-oat-pancakes,Banana Oat Pancakes,578,,,0,,,,,American,Breakfast
-chicken-inasal,Chicken Inasal,578,,,0,,,yes,,Filipino,Dinner
+chicken-lollipop,Chicken Lollipop,578,,,0,,,,,Indian,Appetizers
 dutch-baby,Dutch Baby Pancake,578,,,0,,,,,American,Breakfast
 moin-moin,Moin Moin,578,,,0,,,,,Nigerian,Lunch
 polpette-al-sugo,Polpette al Sugo,578,,,0,,,yes,,Italian,Dinner
@@ -659,7 +643,6 @@ gammon-parsley-sauce,Gammon with Parsley Sauce,580,,,0,,yes,,,British,Dinner
 pici-cacio-e-pepe,Pici all'Aglione,580,,,0,,,,,Italian,Dinner
 salmorejo,Salmorejo,580,,,0,,,,,Spanish,Healthy
 sarmale,Sarmale,580,,,0,,,,,Romanian,Dinner
-steamed-ribs-black-bean,Steamed Ribs with Black Bean,580,,,0,,,,,Chinese,Dinner
 beef-satay,Beef Satay,581,,,0,,,,,Malaysian,Appetizers
 freekeh-djaj,Freekeh with Chicken,581,,,0,,,,,Lebanese,Dinner
 hokkien-mee,Hokkien Mee,581,,,0,,,,,Malaysian,Dinner
@@ -676,7 +659,9 @@ daube-provencale,Daube Provençale,582,,,0,,,,,French,Dinner
 glamorgan-sausages,Glamorgan Sausages,582,,,0,,,,,Welsh,Lunch
 menemen,Menemen,582,,,0,,,,,Turkish,Breakfast
 baked-cinnamon-apples,Baked Cinnamon Apples,583,,,0,,,,,British,Desserts
+goi-ga,Gỏi Gà,583,,,0,,yes,,,Vietnamese,Lunch
 gratin-de-courgettes,Gratin de Courgettes,583,,,0,,,yes,,French,Dinner
+pad-woon-sen,Pad Woon Sen,583,,,0,,yes,,,Thai,Quick Meals
 smoked-salmon-scrambled-eggs,Smoked Salmon Scrambled Eggs,583,,,0,,,,,British,Breakfast
 fregola,Fregola con Arselle,584,,,0,,yes,,,Italian,Dinner
 lecso,Lecsó,584,,,0,,,,,Hungarian,Dinner
@@ -686,13 +671,15 @@ garlic-butter-steak-bites,Garlic Butter Steak Bites,585,,,0,,,,,American,Quick M
 karelian-pies,Karelian Pies,585,,,0,,,,,Finnish,Baking
 koussa-mahshi,Koussa Mahshi,585,,,0,,,,,Lebanese,Dinner
 oxtail-soup,Oxtail Soup,585,,,0,,,yes,,British,Dinner
+chicken-inasal,Chicken Inasal,586,,,0,,,yes,,Filipino,Dinner
 chicken-milanese,Chicken Milanese,586,,,0,,,,,Italian,Dinner
 pelmeni,Pelmeni,586,,,0,,,,,Russian,Dinner
 sarde-in-saor,Sarde in Saor,586,,,0,,,,,Italian,Appetizers
 zeppole,Zeppole,586,,,0,,,,,Italian,Desserts
+cacio-e-pepe,Cacio e Pepe,587,,,0,,,,,Italian,Quick Meals
 egg-curry,Egg Curry,587,,,0,,,,,Indian,Dinner
-fettuccine-alfredo,Fettuccine Alfredo,587,,,0,,,,,Italian,Dinner
 guacamole,Authentic Guacamole,587,,,0,,,,,Mexican,Appetizers
+schezwan-fried-rice,Schezwan Fried Rice,587,,,0,,,yes,,Indian,Dinner
 air-fryer-chicken-wings,Air Fryer Chicken Wings,588,,,0,,,,,American,Appetizers
 baked-potato,Baked Potato,588,,,0,,,,,American,Dinner
 bruschetta,Tomato Bruschetta,588,,,0,,,,,Italian,Appetizers
@@ -703,7 +690,6 @@ udon-noodle-soup,Kake Udon Noodle Soup,588,,,0,,,,,Japanese,Lunch
 bread-sauce,Bread Sauce,589,,,0,,,,,British,Holiday Specials
 smoked-mackerel-pate,Smoked Mackerel Pâté,589,,,0,,,yes,,British,Appetizers
 tuna-white-bean-salad,Tuna and White Bean Salad,589,,,0,,,,,Italian,Lunch
-bang-bang-chicken,Bang Bang Chicken,590,,,0,,,yes,,Chinese,Appetizers
 eggnog,Eggnog,590,,,0,,,,,American,Drinks
 karjalanpaisti,Karelian Hot Pot,590,,,0,,,yes,,Finnish,Dinner
 manakish-zaatar,Manakish Za'atar,590,,,0,,,,,Middle Eastern,Breakfast
@@ -719,7 +705,7 @@ scaloppine-al-limone,Scaloppine al Limone,591,,,0,,,yes,,Italian,Quick Meals
 tiramisu-gelato,Vanilla Gelato,591,,,0,,,,,Italian,Desserts
 apple-crisp,Apple Crisp,592,,,0,,,,,American,Desserts
 chicken-chettinad,Chicken Chettinad,592,,,0,,,yes,,Indian,Dinner
-dry-fried-green-beans,Dry-Fried Green Beans,592,,,0,,,,,Chinese,Dinner
+hot-and-sour-potato,Hot and Sour Potato Slivers,592,,,0,,,,,Chinese,Dinner
 kutia,Kutia,592,,,0,,,,,Ukrainian,Holiday Specials
 lo-mai-gai,Lo Mai Gai,592,,,0,,,,,Chinese,Lunch
 miso-soup,Miso Soup,592,,,0,,,,,Japanese,Healthy
@@ -732,6 +718,7 @@ dhal-curry,Sri Lankan Dhal Curry,593,,,0,,,yes,,Sri Lankan,Dinner
 sole-meuniere,Sole Meunière,593,,,0,,,,,French,Dinner
 couscous-tunisien,Couscous Tunisien,594,,,0,,yes,,,Tunisian,Dinner
 magic-cookie-bars,Magic Cookie Bars,594,,,0,,,,,American,Baking
+moo-ping,Moo Ping,594,,,0,,,yes,,Thai,Appetizers
 pastiera,Pastiera Napoletana,594,,,0,,,,,Italian,Desserts
 pecan-pie,Pecan Pie,594,,,0,,,,,American,Desserts
 schnitzel,German Pork Schnitzel,594,,,0,,,,,German,Dinner
@@ -743,6 +730,7 @@ pulpo-a-la-gallega,Pulpo a la Gallega,595,,,0,,,,,Spanish,Appetizers
 spinach-artichoke-dip,Spinach and Artichoke Dip,595,,,0,,,,,American,Appetizers
 liver-and-bacon,Liver and Bacon with Onion Gravy,596,,,0,,,,,British,Dinner
 opera,Opéra,596,,,0,,,,,French,Desserts
+panang-curry,Panang Curry,596,,,0,,,yes,,Thai,Dinner
 reuben-sandwich,Reuben Sandwich,596,,,0,,,,,American,Lunch
 thai-iced-tea,Thai Iced Tea,596,,,0,,,,,Thai,Drinks
 bucatini-all-amatriciana,Bucatini all'Amatriciana,597,,,0,,,,,Italian,Dinner
@@ -754,6 +742,7 @@ chawanmushi,Chawanmushi,598,,,0,,,,,Japanese,Appetizers
 chicken-souvlaki,Chicken Souvlaki,598,,,0,,,,,Greek,Dinner
 french-toast,Brioche French Toast,598,,,0,,,,,American,Breakfast
 full-english-breakfast,Full English Breakfast,598,,,0,,,,,British,Breakfast
+pad-prik-king,Pad Prik King,598,,,0,,,,,Thai,Dinner
 paneer-tikka-masala,Paneer Tikka Masala,598,,,0,,,yes,,Indian,Dinner
 dolmades,Dolmades,599,,,0,,,,,Greek,Appetizers
 zongzi,Zongzi,599,,,0,,,,,Chinese,Lunch
@@ -763,11 +752,13 @@ dorayaki,Dorayaki,600,,,0,,,,,Japanese,Desserts
 faggots-and-peas,Faggots and Peas,600,,,0,,,,,British,Dinner
 michelada,Michelada,600,,,0,,,,,Mexican,Drinks
 saltimbocca-alla-romana,Saltimbocca alla Romana,600,,,0,,,,,Italian,Dinner
+welsh-rarebit,Welsh Rarebit,600,,,0,,,,,British,Quick Meals
 batata-harra,Batata Harra,601,,,0,,,,,Lebanese,Appetizers
 chile-relleno,Chile Relleno,601,,,0,,,,,Mexican,Dinner
+gobi-manchurian,Gobi Manchurian,601,,,0,,,,,Indian,Appetizers
 italian-chopped-salad,Italian Chopped Salad,601,,,0,,,,,Italian,Healthy
 svickova,Svíčková,601,,,0,,,,,Czech,Dinner
-tom-kha-gai,Tom Kha Gai,601,,,0,,,,,Thai,Healthy
+wood-ear-salad,Wood Ear Salad,601,,,0,,,yes,,Chinese,Appetizers
 zurek,Żurek,601,,,0,,,,,Polish,Lunch
 classic-waffles,Crisp Belgian-Style Waffles,602,,,0,,,,,American,Breakfast
 gambas-al-ajillo,Gambas al Ajillo,602,,,0,,,,,Spanish,Appetizers
@@ -776,9 +767,7 @@ lanzhou-beef-noodles,Lanzhou Beef Noodle Soup,602,,,0,,,,,Chinese,Dinner
 sardines-on-toast,Sardines on Toast,602,,,0,,,,,British,Quick Meals
 scotch-eggs,Scotch Eggs,602,,,0,,,,,British,Appetizers
 toum,Toum,602,,,0,,,,,Lebanese,Appetizers
-yuxiang-rousi,Yuxiang Rousi,602,,,0,,,yes,,Chinese,Dinner
 bitterballen,Bitterballen,603,,,0,,,,,Dutch,Appetizers
-hot-dry-noodles,Hot Dry Noodles,603,,,0,,,,,Chinese,Lunch
 macarona-bechamel,Macarona Bechamel,603,,,0,,,,,Egyptian,Dinner
 molokhia,Molokhia,603,,,0,,,,,Egyptian,Dinner
 nachos,Loaded Nachos,603,,,0,,,,,Mexican,Appetizers
@@ -791,7 +780,6 @@ egg-cottage-cheese-muffins,Egg and Cottage Cheese Muffins,604,,,0,,,,,American,B
 home-style-tofu,Home-Style Tofu,604,,,0,,,yes,,Chinese,Dinner
 hoppers,Egg Hoppers,604,,,0,,,,,Sri Lankan,Breakfast
 jamaican-patties,Jamaican Beef Patties,604,,,0,,,,,Jamaican,Lunch
-pancit-canton,Pancit Canton,604,,,0,,,,,Filipino,Dinner
 porotos-granados,Porotos Granados,604,,,0,,,,,Chilean,Healthy
 gateau-basque,Gâteau Basque,605,,,0,,,,,French,Desserts
 hawawshi,Hawawshi,605,,,0,,,,,Egyptian,Dinner
@@ -801,6 +789,8 @@ oyakodon,Oyakodon,605,,,0,,,,,Japanese,Quick Meals
 pandoro,Pandoro,605,,,0,,,,,Italian,Baking
 risotto-al-nero,Risotto al Nero di Seppia,605,,,0,,,,,Italian,Dinner
 samke-harra,Samke Harra,605,,,0,,,yes,,Lebanese,Dinner
+sisig,Sisig,605,,,0,,,yes,,Filipino,Appetizers
+bo-kho,Bò Kho,606,,,0,,,yes,,Vietnamese,Dinner
 borek,Cheese Börek,606,,,0,,,,,Turkish,Appetizers
 chapli-kebab,Chapli Kebab,606,,,0,,,,,Pakistani,Dinner
 cinnamon-sugar-donuts,Cinnamon Sugar Doughnuts,606,,,0,,,,,American,Baking
@@ -809,13 +799,13 @@ manti,Manti,606,,,0,,yes,,,Turkish,Dinner
 menudo,Menudo,606,,,0,,,yes,,Mexican,Dinner
 salade-nicoise,Salade Niçoise,606,,,0,,,,,French,Lunch
 shoyu-ramen,Shoyu Ramen,606,,,0,,,,,Japanese,Dinner
+steamed-ribs-black-bean,Steamed Ribs with Black Bean,606,,,0,,,,,Chinese,Dinner
 tteokbokki,Tteokbokki,606,,,0,,,,,Korean,Quick Meals
 boston-baked-beans,Boston Baked Beans,607,,,0,,,,,American,Lunch
 dongpo-rou,Dongpo Rou,607,,,0,,,,,Chinese,Dinner
 mechouia-salad,Salade Méchouia,607,,,0,,,,,Tunisian,Healthy
 norwegian-fish-soup,Norwegian Fish Soup,607,,,0,,,,,Norwegian,Dinner
 vanilla-cupcakes,Vanilla Cupcakes,607,,,0,,,,,American,Baking
-west-lake-beef-soup,West Lake Beef Soup,607,,,0,,,yes,,Chinese,Lunch
 cacciucco,Cacciucco,608,,,0,,,yes,,Italian,Dinner
 lemon-pepper-chicken,Lemon Pepper Chicken,608,,,0,,,,,American,Dinner
 moules-frites,Moules Frites,608,,,0,,,yes,,French,Dinner
@@ -831,7 +821,6 @@ shakshuka-tunisian,Merguez Shakshuka,610,,,0,,,,,Tunisian,Breakfast
 stuffed-marrow,Stuffed Marrow,610,,,0,,,,,British,Dinner
 cobb-salad,Cobb Salad,611,,,0,,,,,American,Healthy
 grilled-halloumi-salad,Grilled Halloumi and Herb Salad,611,,,0,,,,,Greek,Lunch
-spicy-wontons,Red Oil Wontons,611,,,0,,,yes,,Chinese,Appetizers
 gyudon,Gyudon,612,,,0,,,,,Japanese,Quick Meals
 riz-a-djaj,Riz a Djaj,612,,,0,,,yes,,Lebanese,Dinner
 baba-ganoush,Baba Ganoush,613,,,0,,,,,Middle Eastern,Appetizers
@@ -840,13 +829,14 @@ haggis-neeps-tatties,"Haggis, Neeps and Tatties",613,,,0,,,,,Scottish,Dinner
 lemon-drizzle-cake,Lemon Drizzle Cake,613,,,0,,,,,British,Baking
 rice-and-peas,Rice and Peas,613,,,0,,,,,Jamaican,Dinner
 lamingtons,Lamingtons,614,,,0,,,,,Australian,Baking
-mapo-eggplant,Mapo Eggplant,614,,,0,,,,,Chinese,Dinner
 philly-cheesesteak,Philly Cheesesteak,614,,,0,,,,,American,Lunch
 poulet-roti,Poulet Rôti,614,,,0,,,,,French,Dinner
 danish-pastry,Danish Pastries,615,,,0,,,,,Danish,Baking
+lumpia,Lumpiang Shanghai,615,,,0,,,,,Filipino,Appetizers
+bang-bang-chicken,Bang Bang Chicken,616,,,0,,,yes,,Chinese,Appetizers
 chicken-karahi,Chicken Karahi,616,,,0,,,yes,,Pakistani,Dinner
 apple-strudel,Apple Strudel,617,,,0,,,,,Austrian,Desserts
-braised-beef-brisket,Braised Beef Brisket,617,,,0,,,yes,,Chinese,Dinner
+chilli-paneer,Chilli Paneer,617,,,0,,,,,Indian,Appetizers
 kibbeh-labaniyeh,Kibbeh Labaniyeh,617,,,0,,,,,Lebanese,Dinner
 mici,Mici,617,,,0,,,,,Romanian,Dinner
 mulligatawny,Mulligatawny Soup,617,,,0,,,,,British,Lunch
@@ -855,6 +845,7 @@ vanocka,Vánočka,617,,,0,,,,,Czech,Holiday Specials
 vitello-tonnato,Vitello Tonnato,617,,,0,,,,,Italian,Appetizers
 chakalaka,Chakalaka,618,,,0,,,,,South African,Quick Meals
 custard-tart,Custard Tart,618,,,0,,,,,British,Baking
+dry-fried-green-beans,Dry-Fried Green Beans,618,,,0,,,,,Chinese,Dinner
 soy-sauce-chicken,Soy Sauce Chicken,618,,,0,,,,,Chinese,Dinner
 turkish-delight,Turkish Delight,618,,,0,,,,,Turkish,Desserts
 turkish-pide,Turkish Pide,618,,,0,,,,,Turkish,Baking
@@ -907,23 +898,21 @@ sufganiyot,Sufganiyot,627,,,0,,,,,Israeli,Holiday Specials
 english-scones,English Scones,628,,,0,,,,,British,Baking
 lu-rou-fan,Lu Rou Fan,628,,,0,,,,,Taiwanese,Dinner
 melanzane-alla-parmigiana,Melanzane alla Parmigiana,628,,,0,,,,,Italian,Dinner
+west-lake-beef-soup,West Lake Beef Soup,628,,,0,,,yes,,Chinese,Lunch
+yuxiang-rousi,Yuxiang Rousi,628,,,0,,,yes,,Chinese,Dinner
 gulab-jamun,Gulab Jamun,629,,,0,,,,,Indian,Desserts
 kadai-paneer,Kadai Paneer,629,,,0,,,yes,,Indian,Dinner
 malawach,Malawach,629,,,0,,,,,Israeli,Quick Meals
 spaetzle,Käsespätzle,629,,,0,,,,,German,Dinner
-welsh-rarebit,Welsh Rarebit,629,,,0,,,,,British,Quick Meals
 baklava,Pistachio Baklava,630,,,0,,,,,Greek,Desserts
-bouchee-a-la-reine,Bouchée à la Reine,630,,,0,,,,,French,Dinner
 chana-chaat,Chana Chaat,630,,,0,,,,,Indian,Appetizers
 chicken-shawarma,Chicken Shawarma,630,,,0,,,,,Middle Eastern,Dinner
-duo-jiao-yu-tou,Duo Jiao Yu Tou,630,,,0,,,,,Chinese,Dinner
 farro-salad,Farro and Roasted Vegetable Salad,630,,,0,,,,,Italian,Healthy
 pesto-genovese,Pesto alla Genovese,630,,,0,,,,,Italian,Quick Meals
 buttermilk-pancakes,Fluffy Buttermilk Pancakes,631,,,0,,,,,American,Breakfast
 egusi-soup,Egusi Soup,631,,,0,,,,,Nigerian,Dinner
 fabada-asturiana,Fabada Asturiana,631,,,0,,,,,Spanish,Dinner
 milanesa,Milanesa Napolitana,631,,,0,,,,,Argentinian,Dinner
-pho-ga,Phở Gà,631,,,0,,,yes,,Vietnamese,Dinner
 castella,Castella Cake,632,,,0,,,,,Japanese,Baking
 lomo-saltado,Lomo Saltado,632,,,0,,,,,Peruvian,Dinner
 nyama-choma,Nyama Choma,632,,,0,,,,,Kenyan,Dinner
@@ -933,25 +922,24 @@ sfogliatella,Sfogliatella Riccia,632,,,0,,,yes,,Italian,Desserts
 duck-confit,Duck Confit,633,,,0,,,,,French,Dinner
 porchetta,Porchetta,633,,,0,,,,,Italian,Dinner
 shish-taouk,Shish Taouk,633,,,0,,,,,Lebanese,Dinner
-three-cup-chicken,Three Cup Chicken,633,,,0,,,yes,,Taiwanese,Dinner
 bagels,New York Bagels,634,,,0,,,,,American,Baking
 brisket,Texas Smoked Brisket,634,,,0,,,,,American,Dinner
 pastel-de-nata,Pastéis de Nata,634,,,0,,,,,Portuguese,Desserts
 quinoa-salad,Lemon Herb Quinoa Salad,634,,,0,,,,,International,Healthy
 sambal-goreng,Sambal Goreng Tempeh,634,,,0,,,,,Indonesian,Dinner
 tahdig,Tahdig,634,,,0,,,,,Persian,Dinner
+veg-momos,Vegetable Momos,634,,,0,,,yes,,Nepalese,Appetizers
 chocolate-cupcakes,Chocolate Cupcakes,635,,,0,,,,,American,Baking
-xo-sauce,XO Sauce,635,,,0,,,yes,,Chinese,Appetizers
 kedgeree,Kedgeree,636,,,0,,,,,British,Breakfast
 pork-schnitzel,Pork Schnitzel,636,,,0,,,,,German,Dinner
 shahi-paneer,Shahi Paneer,636,,,0,,,,,Indian,Dinner
 beef-chow-fun,Beef Chow Fun,637,,,0,,,,,Chinese,Dinner
 german-potato-salad,Warm German Potato Salad,637,,,0,,,,,German,Lunch
+hot-dry-noodles,Hot Dry Noodles,637,,,0,,,,,Chinese,Lunch
 joulutorttu,Joulutorttu,637,,,0,,,,,Finnish,Holiday Specials
-korean-fried-chicken,Korean Fried Chicken,637,,,0,,,,,Korean,Dinner
-la-zi-ji,La Zi Ji,637,,,0,,,,,Chinese,Dinner
 roast-pork-crackling,Roast Pork with Crackling,637,,,0,,,yes,,British,Dinner
 spaghetti-aglio-e-olio,Spaghetti Aglio e Olio,637,,,0,,,,,Italian,Quick Meals
+spicy-wontons,Red Oil Wontons,637,,,0,,,yes,,Chinese,Appetizers
 strozzapreti,Strozzapreti alla Boscaiola,637,,,0,,,yes,,Italian,Dinner
 bhindi-masala,Bhindi Masala,638,,,0,,,,,Indian,Dinner
 chelsea-buns,Chelsea Buns,638,,,0,,,,,British,Baking
@@ -962,8 +950,7 @@ panettone,Panettone,638,,,0,,,,,Italian,Baking
 yangzhou-fried-rice,Yangzhou Fried Rice,638,,,0,,,,,Chinese,Dinner
 bacalhau-a-bras,Bacalhau à Brás,639,,,0,,,,,Portuguese,Dinner
 flan-napolitano,Flan Napolitano,639,,,0,,,,,Mexican,Desserts
-steamed-whole-fish,Steamed Whole Fish,639,,,0,,,yes,,Chinese,Dinner
-yakitori,Yakitori Chicken Skewers,639,,,0,,,,,Japanese,Appetizers
+tom-kha-gai,Tom Kha Gai,639,,,0,,,,,Thai,Healthy
 betengan-mekhalel,Betengan Mekhalel,640,,,0,,yes,,,Egyptian,Appetizers
 caldo-verde,Caldo Verde,640,,,0,,,,,Portuguese,Healthy
 lamb-kofta-kebabs,Lamb Kofta Kebabs,640,,,0,,,,,Middle Eastern,Dinner
@@ -982,7 +969,6 @@ quenelles-de-brochet,Quenelles de Brochet,642,,,0,,,yes,,French,Dinner
 seared-tuna-nicoise,Seared Tuna Niçoise,642,,,0,,,,,French,Lunch
 sinigang,Sinigang na Baboy,642,,,0,,,,,Filipino,Dinner
 classic-cheeseburger,Classic Smash Cheeseburger,643,,,0,,,,,American,Dinner
-crab-ginger-scallion,Ginger and Scallion Crab,643,,,0,,,yes,,Chinese,Dinner
 gazpacho,Andalusian Gazpacho,643,,,0,,,,,Spanish,Healthy
 key-lime-pie,Key Lime Pie,643,,,0,,,,,American,Desserts
 pasta-e-fagioli,Pasta e Fagioli,643,,,0,,,,,Italian,Dinner
@@ -1002,14 +988,11 @@ cheese-fondue,Cheese Fondue,646,,,0,,,,,Swiss,Dinner
 harira,Harira Soup,646,,,0,,,,,Moroccan,Healthy
 moroccan-carrot-salad,Moroccan Carrot Salad,646,,,0,,,,,Moroccan,Healthy
 agedashi-tofu,Agedashi Tofu,647,,,0,,,,,Japanese,Appetizers
-da-pan-ji,Da Pan Ji,647,,,0,,,yes,,Chinese,Dinner
 fish-tacos,Baja Fish Tacos,647,,,0,,,,,Mexican,Dinner
-haemul-pajeon,Haemul Pajeon,647,,,0,,,,,Korean,Appetizers
 massaman-curry,Massaman Beef Curry,647,,,0,,,,,Thai,Dinner
 muhammara,Muhammara,647,,,0,,,,,Lebanese,Appetizers
-takoyaki,Takoyaki,647,,,0,,,,,Japanese,Appetizers
 cannoli,Sicilian Cannoli,648,,,0,,,,,Italian,Desserts
-singapore-noodles,Singapore Noodles,648,,,0,,,,,Chinese,Dinner
+mapo-eggplant,Mapo Eggplant,648,,,0,,,,,Chinese,Dinner
 soft-pretzels,Bavarian Soft Pretzels,648,,,0,,,,,German,Baking
 turnip-cake,Lo Bak Go,648,,,0,,,,,Chinese,Appetizers
 biscuits-and-gravy,Biscuits and Sausage Gravy,649,,,0,,,,,American,Breakfast
@@ -1025,7 +1008,7 @@ red-velvet-cake,Red Velvet Cake,650,,,0,,,,,American,Desserts
 salt-baked-chicken,Salt Baked Chicken,650,,,0,,,,,Chinese,Dinner
 soupe-au-pistou,Soupe au Pistou,650,,,0,,,,,French,Dinner
 zaru-soba,Zaru Soba,650,,,0,,,,,Japanese,Lunch
-francesinha,Francesinha,651,,,0,,,,,Portuguese,Dinner
+braised-beef-brisket,Braised Beef Brisket,651,,,0,,,yes,,Chinese,Dinner
 keftedes,Greek Keftedes,651,,,0,,,,,Greek,Appetizers
 khinkali,Khinkali,651,,,0,,,,,Georgian,Dinner
 pavlova,Pavlova,651,,,0,,,,,Australian,Desserts
@@ -1039,11 +1022,8 @@ soto-ayam,Soto Ayam,652,,,0,,,,,Indonesian,Lunch
 tarte-tatin,Apple Tarte Tatin,652,,,0,,,,,French,Desserts
 vegan-mac,Butternut Mac and Cheese,652,,,0,,,,,American,Dinner
 yakisoba,Yakisoba,652,,,0,,,,,Japanese,Quick Meals
-beggars-chicken,Beggar's Chicken,653,,,0,,,,,Chinese,Dinner
 blondies,Brown Butter Blondies,653,,,0,,,,,American,Baking
-bulgogi,Beef Bulgogi,653,,,0,,,,,Korean,Dinner
 cauliflower-cheese,Cauliflower Cheese,653,,,0,,,,,British,Dinner
-yong-tau-foo,Yong Tau Foo,653,,,0,,,,,Chinese,Dinner
 coquilles-saint-jacques,Coquilles Saint-Jacques,654,,,0,,,,,French,Appetizers
 creamy-tomato-soup,Creamy Tomato Soup,654,,,0,,,,,American,Healthy
 huevos-rancheros,Huevos Rancheros,654,,,0,,,,,Mexican,Breakfast
@@ -1056,7 +1036,9 @@ ribollita,Ribollita,655,,,0,,,,,Italian,Lunch
 aubergine-parmigiana,Griddled Aubergine Parmigiana,656,,,0,,,,,Italian,Dinner
 banana-bread,One-Bowl Banana Bread,656,,,0,,,,,American,Baking
 banana-pudding,Banana Pudding,656,,,0,,,,,American,Desserts
-kottu-roti,Kottu Roti,656,,,0,,,,,Sri Lankan,Dinner
+bouchee-a-la-reine,Bouchée à la Reine,656,,,0,,,,,French,Dinner
+duo-jiao-yu-tou,Duo Jiao Yu Tou,656,,,0,,,,,Chinese,Dinner
+fettuccine-alfredo,Fettuccine Alfredo,656,,,0,,,,,Italian,Dinner
 mashed-potatoes,Creamy Mashed Potatoes,656,,,0,,,,,American,Dinner
 pastel-de-choclo,Pastel de Choclo,656,,,0,,,,,Chilean,Dinner
 penne-alla-vodka,Penne alla Vodka,656,,,0,,,,,Italian,Dinner
@@ -1067,13 +1049,14 @@ chilaquiles,Chilaquiles Verdes,657,,,0,,,,,Mexican,Breakfast
 green-goddess-salad,Green Goddess Salad,657,,,0,,yes,,,American,Healthy
 maqluba,Maqluba,657,,,0,,,,,Middle Eastern,Dinner
 mochi,Strawberry Daifuku Mochi,657,,,0,,,,,Japanese,Desserts
+pho-ga,Phở Gà,657,,,0,,,yes,,Vietnamese,Dinner
 steak-and-kidney-pudding,Steak and Kidney Pudding,657,,,0,,yes,,,British,Dinner
 torta-pasqualina,Torta Pasqualina,657,,,0,,,,,Italian,Dinner
-chow-mein,Chicken Chow Mein,658,,,0,,,,,Chinese,Quick Meals
 gravlax,Gravlax,658,,,0,,,,,Swedish,Appetizers
 rabbit-pie,Rabbit Pie,658,,,0,,,,,British,Dinner
 stuffing,Sage and Onion Stuffing,658,,,0,,,,,British,Holiday Specials
 creamed-spinach,Creamed Spinach,659,,,0,,,,,American,Dinner
+three-cup-chicken,Three Cup Chicken,659,,,0,,,yes,,Taiwanese,Dinner
 barbacoa,Beef Barbacoa,660,,,0,,,,,Mexican,Dinner
 roast-potatoes,Crispy Roast Potatoes,660,,,0,,,,,British,Dinner
 rogan-josh,Kashmiri Rogan Josh,660,,,0,,,,lamb-rogan-josh,Indian,Dinner
@@ -1085,18 +1068,17 @@ mango-sticky-rice,Mango Sticky Rice,661,,,0,,,,,Thai,Desserts
 profiteroles,Profiteroles,661,,,0,,,,,French,Desserts
 brasato-al-barolo,Brasato al Barolo,662,,,0,,,,,Italian,Dinner
 bunny-chow,Bunny Chow,662,,,0,,,,,South African,Lunch
-shui-zhu-fish,Shui Zhu Fish,662,,,0,,,,,Chinese,Dinner
 stollen,Christstollen,662,,,0,,,,,German,Holiday Specials
 borscht,Ukrainian Borscht,663,,,0,,,,,Ukrainian,Healthy
 gyros,Pork Gyros,663,,,0,,,,,Greek,Lunch
-sundubu-jjigae,Sundubu Jjigae,663,,,0,,,,,Korean,Dinner
+la-zi-ji,La Zi Ji,663,,,0,,,,,Chinese,Dinner
 chicken-caesar-lettuce-cups,Chicken Caesar Lettuce Cups,664,,,0,,,,,American,Lunch
 enchiladas-verdes,Enchiladas Verdes,664,,,0,,,,,Mexican,Dinner
-sesame-peanut-noodles,Sesame Peanut Noodles,664,,,0,,,,,Chinese,Quick Meals
+pancit-canton,Pancit Canton,664,,,0,,,,,Filipino,Dinner
 white-bean-stew,Tuscan White Bean Stew,664,,,0,,,,,Italian,Dinner
 chimichurri-steak,Chimichurri Steak,665,,,0,,,,,Argentinian,Dinner
 cornish-pasty,Cornish Pasty,665,,,0,,,,,British,Lunch
-som-tam,Som Tam (Green Papaya Salad),665,,,0,,,,,Thai,Healthy
+steamed-whole-fish,Steamed Whole Fish,665,,,0,,,yes,,Chinese,Dinner
 samgyetang,Samgyetang,666,,,0,,,,,Korean,Healthy
 bbq-baby-back-ribs,BBQ Baby Back Ribs,667,,,0,,,,,American,Dinner
 bobotie,Bobotie,667,,,0,,,,,South African,Dinner
@@ -1107,15 +1089,15 @@ chicken-and-leek-pie,Chicken and Leek Pie,668,,,0,,,yes,,British,Dinner
 chili-con-carne,Chili con Carne,668,,,0,,,,,Mexican,Dinner
 gnocchi-alla-sorrentina,Gnocchi alla Sorrentina,668,,,0,,,,,Italian,Dinner
 baked-eggs-spinach-feta,Baked Eggs with Spinach and Feta,669,,,0,,,,,Turkish,Breakfast
+crab-ginger-scallion,Ginger and Scallion Crab,669,,,0,,,yes,,Chinese,Dinner
 hot-cross-buns,Hot Cross Buns,669,,,0,,,,,British,Baking
-lion-head-meatballs,Lion's Head Meatballs,669,,,0,,,,,Chinese,Dinner
 pepper-soup,Nigerian Pepper Soup,669,,,0,,,,,Nigerian,Dinner
+xo-sauce,XO Sauce,669,,,0,,,yes,,Chinese,Appetizers
 bibimbap,Bibimbap,670,,,0,,,,,Korean,Dinner
 breakfast-burrito,Loaded Breakfast Burrito,670,,,0,,,,,American,Breakfast
 claypot-rice,Claypot Rice,670,,,0,,,,,Chinese,Dinner
 croque-monsieur,Croque Monsieur,670,,,0,,,,,French,Lunch
 lechon-kawali,Lechon Kawali,670,,,0,,,,,Filipino,Dinner
-wonton-soup,Wonton Soup,670,,,0,,,,,Chinese,Lunch
 arepas,Arepas,671,,,0,,,,,Venezuelan,Breakfast
 fudge,Chocolate Fudge,671,,,0,,,,,American,Desserts
 garlic-naan,Garlic Butter Naan,671,,,0,,,,naan,Indian,Baking
@@ -1124,57 +1106,53 @@ ropa-vieja,Ropa Vieja,671,,,0,,,,,Cuban,Dinner
 seekh-kebab,Seekh Kebab,671,,,0,,,,,Pakistani,Appetizers
 empanadas-colombianas,Colombian Empanadas,672,,,0,,,,,Colombian,Appetizers
 honey-garlic-chicken,Honey Garlic Chicken,672,,,0,,,,,American,Quick Meals
-thai-fried-rice,Thai Pineapple Fried Rice,672,,,0,,,,,Thai,Quick Meals
 chakhokhbili,Chakhokhbili,673,,,0,,,,,Georgian,Dinner
-chicken-piccata,Chicken Piccata,673,,,0,,,,,Italian,Dinner
+da-pan-ji,Da Pan Ji,673,,,0,,,yes,,Chinese,Dinner
+haemul-pajeon,Haemul Pajeon,673,,,0,,,,,Korean,Appetizers
 hungarian-goulash,Hungarian Goulash,673,,,0,,,,,Hungarian,Dinner
 nasi-lemak,Nasi Lemak,673,,,0,,,,,Malaysian,Breakfast
+takoyaki,Takoyaki,673,,,0,,,,,Japanese,Appetizers
 veg-biryani,Vegetable Biryani,673,,,0,,,,,Indian,Dinner
+yakitori,Yakitori Chicken Skewers,673,,,0,,,,,Japanese,Appetizers
 kakuni,Buta no Kakuni,674,,,0,,,,,Japanese,Dinner
-char-kway-teow,Char Kway Teow,675,,,0,,,,,Malaysian,Dinner
 crepes-suzette,Crêpes Suzette,675,,,0,,,,,French,Desserts
 golabki,Gołąbki,675,,,0,,,,,Polish,Dinner
 mac-and-cheese,Baked Mac and Cheese,675,,,0,,,,,American,Dinner
 refried-beans,Refried Beans,675,,,0,,,,,Mexican,Dinner
 japchae,Japchae,676,,,0,,,,,Korean,Dinner
-rou-jia-mo,Rou Jia Mo,676,,,0,,,,,Chinese,Lunch
 gado-gado,Gado-Gado,677,,,0,,,,,Indonesian,Healthy
 halloumi-wrap,Grilled Halloumi Wrap,677,,,0,,,,,Greek,Quick Meals
 lentil-walnut-ragu,Lentil and Walnut Ragù,677,,,0,,,,,Italian,Dinner
 pork-pie,Melton Mowbray Pork Pie,677,,,0,,,,,British,Baking
 swedish-meatballs,Swedish Meatballs,677,,,0,,,,,Swedish,Dinner
-cauliflower-chicken-fried-rice,Chicken Cauliflower Fried Rice,678,,,0,,,,,Chinese,Dinner
 tom-yum-goong,Tom Yum Goong,678,,,0,,,,,Thai,Healthy
 yogurt-marinated-chicken-skewers,Yoghurt-Marinated Chicken Skewers,678,,,0,,,,,Greek,Dinner
 ayam-masak-merah,Ayam Masak Merah,679,,,0,,,,,Malaysian,Dinner
+beggars-chicken,Beggar's Chicken,679,,,0,,,,,Chinese,Dinner
 coxinha,Coxinha,679,,,0,,,,,Brazilian,Appetizers
-jamaican-patty,Jamaican Beef Patty,679,,,0,,,,,Jamaican,Lunch
 jambalaya,Louisiana Jambalaya,679,,,0,,,,,American,Dinner
+yong-tau-foo,Yong Tau Foo,679,,,0,,,,,Chinese,Dinner
 chicken-adobo,Chicken Adobo,680,,,0,,,,,Filipino,Dinner
-cumin-lamb,Xinjiang Cumin Lamb,680,,,0,,,,,Chinese,Dinner
+francesinha,Francesinha,680,,,0,,,,,Portuguese,Dinner
 kale-caesar,Kale Caesar Salad,680,,,0,,,,,American,Healthy
 simnel-cake,Simnel Cake,680,,,0,,,,,British,Holiday Specials
-chicken-karaage,Chicken Karaage,681,,,0,,,,,Japanese,Appetizers
 falafel,Crispy Falafel,681,,,0,,,,,Middle Eastern,Lunch
 fasolada,Fasolada,681,,,0,,,,,Greek,Healthy
 iskender-kebab,İskender Kebab,681,,,0,,,,,Turkish,Dinner
-lo-mein,Chicken Lo Mein,681,,,0,,,,,Chinese,Quick Meals
 ranch-dressing,Buttermilk Ranch Dressing,681,,,0,,,,,American,Appetizers
+kottu-roti,Kottu Roti,682,,,0,,,,,Sri Lankan,Dinner
 lahmacun,Lahmacun,682,,,0,,,,,Turkish,Baking
 pupusas,Pupusas,682,,,0,,,,,Salvadoran,Lunch
-shogayaki,Pork Shogayaki,682,,,0,,,,,Japanese,Quick Meals
+singapore-noodles,Singapore Noodles,682,,,0,,,,,Chinese,Dinner
 bandeja-paisa,Bandeja Paisa,683,,,0,,,,,Colombian,Dinner
-beef-noodle-soup,Taiwanese Beef Noodle Soup,683,,,0,,,,,Taiwanese,Dinner
 challah,Challah,683,,,0,,,,,Israeli,Baking
 lemon-bars,Lemon Bars,683,,,0,,,,,American,Baking
 hot-and-sour-soup,Hot and Sour Soup,684,,,0,,,,,Chinese,Lunch
-miso-ramen,Miso Ramen,684,,,0,,,,,Japanese,Dinner
 shrimp-and-grits,Shrimp and Grits,684,,,0,,,,,American,Dinner
 tiramisu,Classic Tiramisu,684,,,0,,,,,Italian,Desserts
 vada-pav,Vada Pav,684,,,0,,,,,Indian,Lunch
-chicken-feet-black-bean,Chicken Feet in Black Bean Sauce,685,,,0,,,,,Chinese,Appetizers
 salmon-quinoa-bowl,Baked Salmon and Quinoa Bowl,686,,,0,,,,,American,Healthy
-wonton-noodle-soup,Wonton Noodle Soup,686,,,0,,,,,Chinese,Lunch
+bulgogi,Beef Bulgogi,687,,,0,,,,,Korean,Dinner
 eggs-benedict,Eggs Benedict,687,,,0,,,,,American,Breakfast
 meatloaf,Classic Meatloaf,687,,,0,,,,,American,Dinner
 mince-pies,Mince Pies,687,,,0,,,,,British,Holiday Specials
@@ -1191,17 +1169,17 @@ migas,Migas Extremeñas,689,,,0,,,,,Spanish,Breakfast
 beef-stroganoff,Beef Stroganoff,690,,,0,,,,,Russian,Dinner
 cinnamon-rolls,Overnight Cinnamon Rolls,690,,,0,,,,,American,Baking
 garlic-prawn-courgette-noodles,Garlic Prawns with Courgette Noodles,690,,,0,,,,,Italian,Dinner
-katsu-curry,Katsu Curry,690,,,0,,,,chicken-katsu-curry,Japanese,Dinner
+lion-head-meatballs,Lion's Head Meatballs,690,,,0,,,,,Chinese,Dinner
 salisbury-steak,Salisbury Steak,690,,,0,,,,,American,Dinner
+sesame-peanut-noodles,Sesame Peanut Noodles,690,,,0,,,,,Chinese,Quick Meals
 brioche,Brioche Loaf,691,,,0,,,,,French,Baking
 cuban-sandwich,Cuban Sandwich,691,,,0,,,,,Cuban,Lunch
-tuna-casserole,Tuna Noodle Casserole,691,,,0,,,,,American,Dinner
+wonton-soup,Wonton Soup,691,,,0,,,,,Chinese,Lunch
+chow-mein,Chicken Chow Mein,692,,,0,,,,,Chinese,Quick Meals
 queso-fundido,Queso Fundido,692,,,0,,,,,Mexican,Appetizers
 shrimp-scampi,Shrimp Scampi,692,,,0,,,,,Italian,Quick Meals
 focaccia,Rosemary Focaccia,693,,,0,,,,,Italian,Baking
 pissaladiere,Pissaladière,693,,,0,,,,,French,Appetizers
-scallion-pancakes,Scallion Pancakes,693,,,0,,,,,Chinese,Appetizers
-spring-rolls,Crispy Spring Rolls,693,,,0,,,,,Chinese,Appetizers
 sri-lankan-fish-curry,Sri Lankan Fish Curry,693,,,0,,,,,Sri Lankan,Dinner
 japanese-cheesecake,Japanese Cotton Cheesecake,694,,,0,,,,,Japanese,Desserts
 koshari,Egyptian Koshari,694,,,0,,,,,Egyptian,Healthy
@@ -1212,24 +1190,26 @@ doro-wat,Doro Wat,695,,,0,,,,,Ethiopian,Dinner
 strawberry-shortcake,Strawberry Shortcake,695,,,0,,,,,American,Desserts
 haleem,Haleem,696,,,0,,,,,Pakistani,Dinner
 japanese-milk-bread,Japanese Milk Bread (Shokupan),696,,,0,,,,,Japanese,Baking
+shui-zhu-fish,Shui Zhu Fish,696,,,0,,,,,Chinese,Dinner
 arroz-de-marisco,Arroz de Marisco,697,,,0,,,,,Portuguese,Dinner
 california-roll,California Roll,697,,,0,,,,,Japanese,Lunch
+korean-fried-chicken,Korean Fried Chicken,697,,,0,,,,,Korean,Dinner
 palak-paneer,Palak Paneer,697,,,0,,,,,Indian,Dinner
 roast-lamb-mint-sauce,Roast Lamb with Mint Sauce,697,,,0,,,,,British,Dinner
 roasted-tomato-basil-soup,Roasted Tomato and Basil Soup,697,,,0,,,,,Italian,Lunch
+sundubu-jjigae,Sundubu Jjigae,697,,,0,,,,,Korean,Dinner
 broccoli-cheddar-soup,Broccoli Cheddar Soup,698,,,0,,,,,American,Lunch
 caesar-salad,Caesar Salad,698,,,0,,,,,American,Lunch
 tomato-egg-stir-fry,Tomato and Egg Stir-Fry,698,,,0,,,,,Chinese,Quick Meals
 ash-reshteh,Ash Reshteh,699,,,0,,,,,Persian,Lunch
 char-siu-bao,Char Siu Bao,699,,,0,,,,,Chinese,Appetizers
+chicken-piccata,Chicken Piccata,699,,,0,,,,,Italian,Dinner
 coffee-cake,Cinnamon Streusel Coffee Cake,699,,,0,,,,,American,Breakfast
-orange-chicken,Orange Chicken,699,,,0,,,,,Chinese,Dinner
+som-tam,Som Tam (Green Papaya Salad),699,,,0,,,,,Thai,Healthy
 chicken-parmigiana,Chicken Parmigiana,700,,,0,,,,,Italian,Dinner
 cioppino,Cioppino,700,,,0,,,,,American,Dinner
 eggs-florentine,Eggs Florentine,700,,,0,,,,,French,Breakfast
 gratin-dauphinois,Gratin Dauphinois,700,,,0,,,,,French,Dinner
-dakgalbi,Dakgalbi,701,,,0,,,,,Korean,Dinner
-general-tsos-chicken,General Tso's Chicken,701,,,0,,,,,Chinese,Dinner
 larb-gai,Larb Gai,701,,,0,,,,,Thai,Healthy
 moroccan-chicken-tagine,Moroccan Chicken Tagine,701,,,0,,,,,Moroccan,Dinner
 chicken-tagine-olives,Chicken Tagine with Olives,702,,,0,,,,,Moroccan,Dinner
@@ -1237,36 +1217,36 @@ kombucha,Kombucha,702,,,0,,,,,International,Drinks
 quick-chickpea-curry,Quick Chickpea Curry,702,,,0,,,,,Indian,Quick Meals
 apple-pie,Deep-Dish Apple Pie,703,,,0,,,,,American,Desserts
 baguette,French Baguette,703,,,0,,,,,French,Baking
-beef-and-broccoli,Beef and Broccoli,703,,,0,,,,,Chinese,Quick Meals
 black-forest-cake,Black Forest Cake,703,,,0,,,,,German,Desserts
-mei-cai-kou-rou,Mei Cai Kou Rou,703,,,0,,,,,Chinese,Dinner
 oatmeal-raisin-cookies,Oatmeal Raisin Cookies,703,,,0,,,,,American,Baking
 okonomiyaki,Osaka Okonomiyaki,703,,,0,,,,,Japanese,Dinner
-ca-kho-to,Cá Kho Tộ,704,,,0,,,,,Vietnamese,Dinner
 sticky-toffee-pudding,Sticky Toffee Pudding,704,,,0,,,,,British,Desserts
-thai-red-curry,Thai Red Curry,704,,,0,,,,,Thai,Dinner
+thai-fried-rice,Thai Pineapple Fried Rice,704,,,0,,,,,Thai,Quick Meals
 coconut-dal,Coconut Dal,705,,,0,,,yes,,Sri Lankan,Dinner
+jamaican-patty,Jamaican Beef Patty,705,,,0,,,,,Jamaican,Lunch
 millionaire-shortbread,Millionaire's Shortbread,705,,,0,,,,,Scottish,Baking
 shakshuka-verde,Green Shakshuka,705,,,0,,,,,Israeli,Breakfast
-sheng-jian-bao,Sheng Jian Bao,705,,,0,,,,,Chinese,Appetizers
-thai-green-curry,Thai Green Curry,705,,,0,,,,,Thai,Dinner
+cumin-lamb,Xinjiang Cumin Lamb,706,,,0,,,,,Chinese,Dinner
 baked-chicken-breast,Juicy Baked Chicken Breast,707,,,0,,,,,American,Dinner
-mapo-tofu,Mapo Tofu,707,,,0,,,,,Chinese,Dinner
+chicken-karaage,Chicken Karaage,707,,,0,,,,,Japanese,Appetizers
 pav-bhaji,Pav Bhaji,707,,,0,,,,,Indian,Lunch
 pozole-rojo,Pozole Rojo,707,,,0,,,,,Mexican,Dinner
 pumpkin-pie,Classic Pumpkin Pie,707,,,0,,,,,American,Holiday Specials
-sesame-chicken,Sesame Chicken,707,,,0,,,,,Chinese,Dinner
+wonton-noodle-soup,Wonton Noodle Soup,707,,,0,,,,,Chinese,Lunch
+shogayaki,Pork Shogayaki,708,,,0,,,,,Japanese,Quick Meals
+char-kway-teow,Char Kway Teow,709,,,0,,,,,Malaysian,Dinner
 chicken-kiev,Chicken Kiev,709,,,0,,,,,Ukrainian,Dinner
 dal-makhani,Dal Makhani,709,,,0,,,,,Indian,Dinner
-jackfruit-tacos,Pulled Jackfruit Tacos,709,,,0,,,,,Mexican,Dinner
 risotto-alla-milanese,Risotto alla Milanese,709,,,0,,,,,Italian,Dinner
 split-pea-soup,Split Pea and Ham Soup,709,,,0,,,,,American,Lunch
 sweet-potato-black-bean-tacos,Sweet Potato and Black Bean Tacos,709,,,0,,,,,Mexican,Healthy
 beef-empanadas,Beef Empanadas,710,,,0,,,,,Argentinian,Appetizers
-galbi,Galbi (Korean Short Ribs),710,,,0,,,,,Korean,Dinner
+miso-ramen,Miso Ramen,710,,,0,,,,,Japanese,Dinner
 bundt-cake,Sour Cream Bundt Cake,711,,,0,,,,,American,Baking
+chicken-feet-black-bean,Chicken Feet in Black Bean Sauce,711,,,0,,,,,Chinese,Appetizers
 moqueca,Moqueca Baiana,711,,,0,,,,,Brazilian,Dinner
 tartiflette,Tartiflette,711,,,0,,,,,French,Dinner
+cauliflower-chicken-fried-rice,Chicken Cauliflower Fried Rice,712,,,0,,,,,Chinese,Dinner
 honey-glazed-ham,Honey Glazed Ham,712,,,0,,,,,American,Holiday Specials
 carnitas,Slow-Braised Carnitas,713,,,0,,,,,Mexican,Dinner
 scallion-oil-noodles,Scallion Oil Noodles,713,,,0,,yes,,,Chinese,Quick Meals
@@ -1278,133 +1258,153 @@ blanquette-de-veau,Blanquette de Veau,715,,,0,,,,,French,Dinner
 cassoulet,Cassoulet de Toulouse,715,,,0,,,,,French,Dinner
 chocolate-mousse,Chocolate Mousse,715,,,0,,,,,French,Desserts
 jollof-rice,Jollof Rice,715,,,0,,,,,Nigerian,Dinner
+lo-mein,Chicken Lo Mein,715,,,0,,,,,Chinese,Quick Meals
 stuffed-peppers,Greek Stuffed Peppers,715,,,0,,,,,Greek,Healthy
 cha-gio,Chả Giò,716,,,0,,,,,Vietnamese,Appetizers
-naengmyeon,Mul Naengmyeon,716,,,0,,,,,Korean,Healthy
-banh-mi,Bánh Mì,717,,,0,,,,,Vietnamese,Lunch
+katsu-curry,Katsu Curry,716,,,0,,,,chicken-katsu-curry,Japanese,Dinner
+beef-noodle-soup,Taiwanese Beef Noodle Soup,717,,,0,,,,,Taiwanese,Dinner
+tuna-casserole,Tuna Noodle Casserole,717,,,0,,,,,American,Dinner
 goi-cuon,Gỏi Cuốn (Fresh Spring Rolls),718,,,0,,,,,Vietnamese,Appetizers
 pastitsio,Pastitsio,718,,,0,,,,,Greek,Dinner
 coq-au-vin,Coq au Vin,719,,,0,,,,,French,Dinner
 corned-beef-and-cabbage,Corned Beef and Cabbage,719,,,0,,,,,Irish,Dinner
+scallion-pancakes,Scallion Pancakes,719,,,0,,,,,Chinese,Appetizers
 baked-ziti,Baked Ziti,720,,,0,,,,,American,Dinner
 sourdough-bread,Artisan Sourdough Bread,720,,,0,,,,,American,Baking
 tandoori-chicken,Tandoori Chicken,720,,,0,,,,,Indian,Dinner
-tofu-katsu-curry,Tofu Katsu Curry,720,,,0,,,,,Japanese,Dinner
-jerk-chicken,Jamaican Jerk Chicken,721,,,0,,,,,Jamaican,Dinner
 angel-food-cake,Angel Food Cake,722,,,0,,,,,American,Desserts
-laksa,Curry Laksa,723,,,0,,,,,Malaysian,Dinner
 pabellon-criollo,Pabellón Criollo,723,,,0,,,,,Venezuelan,Dinner
+beef-and-broccoli,Beef and Broccoli,724,,,0,,,,,Chinese,Quick Meals
 liangpi,Liangpi,724,,,0,,,,,Chinese,Lunch
 piri-piri-chicken,Piri Piri Chicken,724,,,0,,,,,Portuguese,Dinner
-salt-and-pepper-squid,Salt and Pepper Squid,725,,,0,,,,,Chinese,Appetizers
 steak-and-ale-pie,Steak and Ale Pie,725,,,0,,,,,British,Dinner
-twice-cooked-pork,Twice-Cooked Pork,725,,,0,,,,,Chinese,Dinner
 boston-cream-pie,Boston Cream Pie,726,,,0,,,,,American,Desserts
-kimchi,Napa Cabbage Kimchi,726,,,0,,,,,Korean,Appetizers
 macarons,French Macarons,727,,,0,,,,,French,Desserts
-chicken-alfredo,Chicken Alfredo,728,,,0,,,,,Italian,Dinner
+rou-jia-mo,Rou Jia Mo,728,,,0,,,,,Chinese,Lunch
 arancini,Sicilian Arancini,729,,,0,,,,,Italian,Appetizers
-mushroom-stroganoff,Mushroom Stroganoff,729,,,0,,,,,Russian,Dinner
-black-pepper-beef,Black Pepper Beef,730,,,0,,,,,Chinese,Quick Meals
-green-bean-casserole,Green Bean Casserole,730,,,0,,,,,American,Holiday Specials
-nasi-goreng,Nasi Goreng,730,,,0,,,,,Indonesian,Quick Meals
-pad-kra-pao,Pad Kra Pao (Thai Basil Chicken),730,,,0,,,,,Thai,Quick Meals
+ca-kho-to,Cá Kho Tộ,730,,,0,,,,,Vietnamese,Dinner
+thai-red-curry,Thai Red Curry,730,,,0,,,,,Thai,Dinner
 baingan-bharta,Baingan Bharta,731,,,0,,,,,Indian,Healthy
 chicken-marsala,Chicken Marsala,731,,,0,,,,,Italian,Dinner
-congee,Century Egg Congee,731,,,0,,,,,Chinese,Breakfast
 egg-fried-rice,Egg Fried Rice,731,,,0,,,,,Chinese,Quick Meals
 tempura,Crispy Vegetable Tempura,731,,,0,,,,,Japanese,Appetizers
+thai-green-curry,Thai Green Curry,731,,,0,,,,,Thai,Dinner
 patatas-bravas,Patatas Bravas,732,,,0,,,,,Spanish,Appetizers
+mapo-tofu,Mapo Tofu,733,,,0,,,,,Chinese,Dinner
 quiche-lorraine,Quiche Lorraine,733,,,0,,,,,French,Lunch
 samosas,Punjabi Samosas,733,,,0,,,,,Indian,Appetizers
 sweet-and-sour-pork,Sweet and Sour Pork,733,,,0,,,,,Chinese,Dinner
 kerala-fish-curry,Kerala Fish Curry,734,,,0,,,,,Indian,Dinner
 nihari,Nihari,734,,,0,,,,,Pakistani,Dinner
 cottage-pie,Cottage Pie,735,,,0,,,,,British,Dinner
+dakgalbi,Dakgalbi,735,,,0,,,,,Korean,Dinner
 black-bean-soup,Cuban Black Bean Soup,736,,,0,,,,,Cuban,Healthy
 chicken-satay,Chicken Satay,736,,,0,,,,,Indonesian,Appetizers
 french-onion-soup,French Onion Soup,736,,,0,,,,,French,Dinner
+galbi,Galbi (Korean Short Ribs),736,,,0,,,,,Korean,Dinner
+jackfruit-tacos,Pulled Jackfruit Tacos,736,,,0,,,,,Mexican,Dinner
 malai-kofta,Malai Kofta,736,,,0,,,,,Indian,Dinner
-dan-dan-noodles,Dan Dan Noodles,737,,,0,,,,,Chinese,Dinner
+mei-cai-kou-rou,Mei Cai Kou Rou,737,,,0,,,,,Chinese,Dinner
 ceviche,Peruvian Ceviche,738,,,0,,,,,Peruvian,Appetizers
-chicken-katsu-curry,Chicken Katsu Curry,738,,,0,,,,katsu-curry,Japanese,Dinner
 moules-marinieres,Moules Marinières,738,,,0,,,,,French,Dinner
 paella-valenciana,Paella Valenciana,738,,,0,,,,,Spanish,Dinner
 roast-turkey,Herb-Butter Roast Turkey,738,,,0,,,,,American,Holiday Specials
-spaghetti-carbonara,Spaghetti Carbonara,738,,,0,,,,,Italian,Dinner
 frittata,Vegetable Frittata,739,,,0,,,,,Italian,Breakfast
-gyoza,Pork Gyoza,739,,,0,,,,,Japanese,Appetizers
-hong-shao-rou,Red-Braised Pork Belly,739,,,0,,,,,Chinese,Dinner
-tofu-edamame-stir-fry,Tofu and Edamame Stir-Fry,739,,,0,,,yes,,Chinese,Dinner
 spaghetti-bolognese,Spaghetti Bolognese,740,,,0,,,,,Italian,Dinner
 christmas-pudding,Christmas Pudding,741,,,0,,,,,British,Holiday Specials
-com-tam,Cơm Tấm,741,,,0,,,,,Vietnamese,Dinner
 aloo-paratha,Aloo Paratha,742,,,0,,,,,Indian,Breakfast
 char-siu,Char Siu Pork,742,,,0,,,,,Chinese,Dinner
 dal-tadka,Dal Tadka,744,,,0,,,,,Indian,Healthy
 jamaican-curry-goat,Jamaican Curry Goat,744,,,0,,,,,Jamaican,Dinner
 southern-fried-chicken,Southern Fried Chicken,744,,,0,,,,,American,Dinner
 basque-cheesecake,Burnt Basque Cheesecake,745,,,0,,,,,Spanish,Desserts
-pad-thai,Pad Thai,747,,,0,,,,,Thai,Dinner
+jerk-chicken,Jamaican Jerk Chicken,747,,,0,,,,,Jamaican,Dinner
 squash-soup,Roasted Butternut Squash Soup,748,,,0,,,,,American,Healthy
-bun-cha,Bún Chả,749,,,0,,,,,Vietnamese,Dinner
+laksa,Curry Laksa,749,,,0,,,,,Malaysian,Dinner
 lamb-mandi,Lamb Mandi,749,,,0,,,,,Middle Eastern,Holiday Specials
 feijoada,Feijoada Brasileira,750,,,0,,,,,Brazilian,Holiday Specials
-kung-pao-chicken,Kung Pao Chicken,750,,,0,,,,,Chinese,Dinner
+naengmyeon,Mul Naengmyeon,750,,,0,,,,,Korean,Healthy
+banh-mi,Bánh Mì,751,,,0,,,,,Vietnamese,Lunch
+salt-and-pepper-squid,Salt and Pepper Squid,751,,,0,,,,,Chinese,Appetizers
 sugar-cookies,Cut-Out Sugar Cookies,751,,,0,,,,,American,Baking
+twice-cooked-pork,Twice-Cooked Pork,751,,,0,,,,,Chinese,Dinner
 idli-sambar,Idli Sambar,752,,,0,,,,,Indian,Breakfast
-khao-soi,Khao Soi,752,,,0,,,,,Thai,Dinner
 roast-beef-yorkshire,Roast Beef and Yorkshire Puddings,752,,,0,,,,,British,Holiday Specials
+sheng-jian-bao,Sheng Jian Bao,752,,,0,,,,,Chinese,Appetizers
 butter-chicken,Butter Chicken (Murgh Makhani),753,,,0,,,,,Indian,Dinner
 chicken-korma,Chicken Korma,753,,,0,,,,,Indian,Dinner
+general-tsos-chicken,General Tso's Chicken,753,,,0,,,,,Chinese,Dinner
+spring-rolls,Crispy Spring Rolls,753,,,0,,,,,Chinese,Appetizers
 new-england-clam-chowder,New England Clam Chowder,754,,,0,,,,,American,Lunch
 steak-frites,Steak Frites,754,,,0,,,,,French,Dinner
-gumbo,Chicken and Sausage Gumbo,757,,,0,,,,,American,Dinner
+mushroom-stroganoff,Mushroom Stroganoff,755,,,0,,,,,Russian,Dinner
+green-bean-casserole,Green Bean Casserole,756,,,0,,,,,American,Holiday Specials
+congee,Century Egg Congee,757,,,0,,,,,Chinese,Breakfast
 shepherds-pie,Shepherd's Pie,757,,,0,,,,,British,Dinner
 chicken-enchiladas,Chicken Enchiladas Rojas,758,,,0,,,,,Mexican,Dinner
 cochinita-pibil,Cochinita Pibil,759,,,0,,,,,Mexican,Dinner
-pan-con-pollo,Pan con Pollo,760,,,0,,,yes,,Salvadoran,Lunch
-bun-bo-hue,Bún Bò Huế,761,,,0,,,,,Vietnamese,Dinner
+orange-chicken,Orange Chicken,759,,,0,,,,,Chinese,Dinner
+kimchi,Napa Cabbage Kimchi,760,,,0,,,,,Korean,Appetizers
 croissants,Butter Croissants,762,,,0,,,,,French,Baking
 peking-duck,Peking Duck,762,,,0,,,,,Chinese,Holiday Specials
-xiao-long-bao,Xiao Long Bao,762,,,0,,,,,Chinese,Appetizers
-pork-dumplings,Steamed Pork Dumplings,763,,,0,,,,,Chinese,Appetizers
 beef-rendang,Beef Rendang,764,,,0,,,,,Indonesian,Dinner
 beef-wellington,Beef Wellington,764,,,0,,,,,British,Holiday Specials
+black-pepper-beef,Black Pepper Beef,764,,,0,,,,,Chinese,Quick Meals
+nasi-goreng,Nasi Goreng,764,,,0,,,,,Indonesian,Quick Meals
+gyoza,Pork Gyoza,765,,,0,,,,,Japanese,Appetizers
+hong-shao-rou,Red-Braised Pork Belly,765,,,0,,,,,Chinese,Dinner
 rajma,Rajma Masala,765,,,0,,,,,Indian,Healthy
+tofu-edamame-stir-fry,Tofu and Edamame Stir-Fry,765,,,0,,,yes,,Chinese,Dinner
+sesame-chicken,Sesame Chicken,767,,,0,,,,,Chinese,Dinner
 chicken-pot-pie,Chicken Pot Pie,769,,,0,,,,,American,Dinner
 chilli-crab,Singapore Chilli Crab,769,,,0,,,,,Singaporean,Dinner
+dan-dan-noodles,Dan Dan Noodles,771,,,0,,,,,Chinese,Dinner
 zucchini-lasagna,Courgette Lasagne,771,,,0,,,,,Italian,Dinner
 hyderabadi-biryani,Hyderabadi Biryani,772,,,0,,,,,Indian,Dinner
+tofu-katsu-curry,Tofu Katsu Curry,772,,,0,,,,,Japanese,Dinner
 buche-de-noel,Bûche de Noël,773,,,0,,,,,French,Holiday Specials
 bouillabaisse,Marseille Bouillabaisse,775,,,0,,,,,French,Dinner
-pho-bo,Phở Bò (Beef Noodle Soup),777,,,0,,,,,Vietnamese,Dinner
+kung-pao-chicken,Kung Pao Chicken,776,,,0,,,,,Chinese,Dinner
 chicken-tikka-masala,Chicken Tikka Masala,778,,,0,,,,,Indian,Dinner
+khao-soi,Khao Soi,778,,,0,,,,,Thai,Dinner
 prime-rib,Prime Rib Roast,779,,,0,,,,,American,Holiday Specials
 fruit-tart,French Fruit Tart,781,,,0,,,,,French,Desserts
 misal-pav,Misal Pav,781,,,0,,,,,Indian,Appetizers
+pad-thai,Pad Thai,781,,,0,,,,,Thai,Dinner
+bun-cha,Bún Chả,783,,,0,,,,,Vietnamese,Dinner
 eclairs,Chocolate Éclairs,783,,,0,,,,,French,Desserts
+gumbo,Chicken and Sausage Gumbo,783,,,0,,,,,American,Dinner
 masala-dosa,Masala Dosa,784,,,0,,,,,Indian,Breakfast
 lamb-vindaloo,Goan Lamb Vindaloo,785,,,0,,,,,Indian,Dinner
 lobster-bisque,Lobster Bisque,786,,,0,,,,,French,Dinner
 aussie-meat-pie,Australian Meat Pie,787,,,0,,,,,Australian,Lunch
+bun-bo-hue,Bún Bò Huế,787,,,0,,,,,Vietnamese,Dinner
 chicken-rice-protein-bowl,Chicken and Rice Protein Bowl,788,,,0,,,,,American,Dinner
 mission-burrito,Mission-Style Burrito,788,,,0,,,,,Mexican,Lunch
+xiao-long-bao,Xiao Long Bao,788,,,0,,,,,Chinese,Appetizers
+pan-con-pollo,Pan con Pollo,789,,,0,,,yes,,Salvadoran,Lunch
+pad-kra-pao,Pad Kra Pao (Thai Basil Chicken),790,,,0,,,,,Thai,Quick Meals
 moussaka,Moussaka,791,,,0,,,,,Greek,Dinner
 tacos-al-pastor,Tacos al Pastor,794,,,0,,,,,Mexican,Dinner
 beef-bourguignon,Beef Bourguignon,795,,,0,,,,,French,Dinner
+chicken-alfredo,Chicken Alfredo,797,,,0,,,,,Italian,Dinner
+chicken-katsu-curry,Chicken Katsu Curry,798,,,0,,,,katsu-curry,Japanese,Dinner
 chocolate-cake,Classic Chocolate Layer Cake,800,,,0,,,,,American,Desserts
-osso-buco,Osso Buco alla Milanese,800,,,0,,,,,Italian,Dinner
 vegan-shepherds-pie,Lentil Shepherd's Pie,800,,,0,,,,,British,Dinner
 hainanese-chicken-rice,Hainanese Chicken Rice,801,,,0,,,,,Singaporean,Dinner
+pho-bo,Phở Bò (Beef Noodle Soup),803,,,0,,,,,Vietnamese,Dinner
+com-tam,Cơm Tấm,806,,,0,,,,,Vietnamese,Dinner
 mole-poblano,Mole Poblano,806,,,0,,,,,Mexican,Holiday Specials
 birria-tacos,Birria Tacos,807,,,0,,,,,Mexican,Dinner
 chicken-tortilla-soup,Chicken Tortilla Soup,814,,,0,,,,,Mexican,Dinner
 chicken-biryani,Hyderabadi Chicken Biryani,815,,,0,,,,,Indian,Dinner
+pork-dumplings,Steamed Pork Dumplings,815,,,0,,,,,Chinese,Appetizers
 tamales,Pork Tamales,815,,,0,,,,,Mexican,Holiday Specials
-tonkotsu-ramen,Tonkotsu Ramen,815,,,0,,,,,Japanese,Dinner
-chole-bhature,Chole Bhature,816,,,0,,,,,Indian,Lunch
 roast-goose,Roast Goose,821,,,0,,,,,German,Holiday Specials
 margherita-pizza,Margherita Pizza,824,,,0,,,,,Italian,Dinner
+osso-buco,Osso Buco alla Milanese,826,,,0,,,,,Italian,Dinner
+spaghetti-carbonara,Spaghetti Carbonara,827,,,0,,,,,Italian,Dinner
+chole-bhature,Chole Bhature,842,,,0,,,,,Indian,Lunch
+tonkotsu-ramen,Tonkotsu Ramen,849,,,0,,,,,Japanese,Dinner
 garlic-focaccia,Garlic Confit Focaccia,866,,,0,,,,,Italian,Baking
 lasagna-bolognese,Lasagna Bolognese,877,,,0,,,,,Italian,Dinner

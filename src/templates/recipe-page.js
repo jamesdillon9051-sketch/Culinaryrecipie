@@ -6,8 +6,9 @@ const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
 const { enrichDescription, recipeTitleHooks, recipeDescriptionClauses } = require('../lib/seo');
 const { questions, faqSchema } = require('../lib/faq');
-const { substitutionsFor } = require('../lib/substitutions');
+const { substitutionsFor, dietaryTipsFor } = require('../lib/substitutions');
 const { isConvertible } = require('../lib/units');
+const { addFahrenheit } = require('../lib/oven-temp');
 const { videoSchema, reviewSchema } = require('../lib/media');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
@@ -52,11 +53,43 @@ function ingredientCount(lines) {
   return parse(lines).filter(item => !item.group).length;
 }
 
+/* Verbs a method step plausibly opens on. Checked against the first word
+   only, so "Season" in "Season the flour before dredging" is bolded and
+   "Seasoned home cooks will recognise this" — not a shape any step here
+   takes, but the check is cheap insurance — would not be, since it is not
+   the first word of a step in the first place. */
+const LEAD_VERBS = new Set([
+  'add', 'arrange', 'baste', 'bake', 'beat', 'blanch', 'blend', 'blitz', 'boil',
+  'braise', 'brown', 'brush', 'butter', 'char', 'check', 'chill', 'chop', 'coat',
+  'combine', 'continue', 'cook', 'cool', 'core', 'cover', 'crack', 'crush', 'cut',
+  'deseed', 'dice', 'divide', 'dot', 'drain', 'dredge', 'dress', 'drizzle', 'dust',
+  'fill', 'flip', 'flour', 'fold', 'form', 'fry', 'garnish', 'glaze', 'grate',
+  'grease', 'griddle', 'grill', 'halve', 'heat', 'keep', 'knead', 'layer', 'leave',
+  'let', 'lift', 'line', 'marinate', 'measure', 'melt', 'mince', 'mix', 'oil',
+  'pat', 'peel', 'pinch', 'place', 'poach', 'pour', 'preheat', 'press', 'process',
+  'pulse', 'purée', 'puree', 'put', 'quarter', 'reduce', 'remove', 'repeat', 'rest',
+  'rinse', 'roast', 'roll', 'rub', 'sauté', 'saute', 'scatter', 'scrape',
+  'sear', 'season', 'serve', 'set', 'shape', 'sift', 'skin', 'slice', 'spread',
+  'squeeze', 'stack', 'steam', 'stir', 'strain', 'stuff', 'take', 'taste', 'tie',
+  'tip', 'toast', 'toss', 'transfer', 'trim', 'turn', 'uncover', 'warm', 'wash',
+  'weigh', 'whip', 'whisk', 'work', 'wrap'
+]);
+
+/** Bolds the leading action verb, if the step opens on one it recognises,
+    and escapes both halves separately so the bolding cannot be spoofed by
+    a step's own text. Steps that open on something other than a bare verb —
+    "Meanwhile, ...", "Once cooled, ..." — are left exactly as written. */
+function boldLeadVerb(text) {
+  const m = /^([A-Za-zé]+)\b/.exec(text);
+  if (!m || !LEAD_VERBS.has(m[1].toLowerCase())) return esc(text);
+  return `<strong>${esc(text.slice(0, m[0].length))}</strong>${esc(text.slice(m[0].length))}`;
+}
+
 function stepsHtml(steps) {
   return steps.map((text, i) => {
     const timer = detectTimer(text);
     return `<li>
-      <p class="step-text">${esc(text)}</p>
+      <p class="step-text">${boldLeadVerb(text)}</p>
       <div class="step-actions">
         <button class="step-btn" type="button" data-step-done>Mark done</button>
         ${timer ? `<button class="step-btn" type="button" data-timer="${timer.seconds}">Start ${timer.label} timer</button>` : ''}
@@ -214,6 +247,12 @@ function recipeSchema(recipe) {
 }
 
 function render(recipe, context) {
+  /* Applied once, here, rather than separately inside stepsHtml() and
+     recipeSchema() — both read recipe.steps below, and faq.js's own rule is
+     the one to keep: "the visible text and the schema text are the same
+     string, not two strings that are meant to agree." A shadow copy, not a
+     mutation, so the object callers passed in is untouched. */
+  recipe = { ...recipe, steps: recipe.steps.map(addFahrenheit) };
   const img = recipe.imageData;
   /* Built once. The block below renders this list and the schema at the bottom
      serialises the same objects, so the markup cannot drift from what a reader
@@ -224,6 +263,10 @@ function render(recipe, context) {
      a rule-matched ingredient in it, and an empty result means no section
      rather than a forced one. */
   const substitutions = substitutionsFor(recipe);
+  /* Diet-framed subset of the same engine, in their own box — see
+     dietaryTipsFor in src/lib/substitutions.js for why Keto and Low-Carb are
+     not offered here. */
+  const dietaryTips = dietaryTipsFor(recipe);
   /* Only shown when it would do something. A recipe written entirely in
      spoons and counts — no gram or millilitre line in it — has nothing for
      the toggle to convert, and a control that visibly does nothing on click
@@ -391,6 +434,11 @@ ${breadcrumbs(trail)}
 
         ${substitutions.length ? `<h2>Common Substitutions &amp; Variations</h2>
         <ul>${substitutions.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
+
+        ${dietaryTips.length ? `<aside class="panel panel--accent" style="margin:1.75rem 0" aria-labelledby="diet-tips-title">
+          <h2 id="diet-tips-title" style="margin-bottom:.6rem">Quick Tips &amp; Variations</h2>
+          <ul style="margin:0">${dietaryTips.map(t => `<li>${esc(t.note)}</li>`).join('')}</ul>
+        </aside>` : ''}
 
         <h2>Pairing Suggestions</h2>
         <ul>${recipe.pairings.map(p => `<li>${esc(p)}</li>`).join('')}</ul>

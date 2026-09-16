@@ -20,10 +20,15 @@
  *      appears on a Baking or Desserts recipe, where it would not reliably
  *      hold.
  *
+ * The "Quick Tips & Variations" dietary box gets the same three checks
+ * against dietaryTipsFor, plus a fourth of its own: a tip is only useful if
+ * the recipe does not already carry the diet it claims to reach, so a tip
+ * naming a tag the recipe is already tagged with is a bug, not a courtesy.
+ *
  *   node tools/substitutions-audit.js
  */
 const { loadRecipes } = require('../src/build');
-const { substitutionsFor, RULES, MAX_NOTES } = require('../src/lib/substitutions');
+const { substitutionsFor, dietaryTipsFor, RULES, MAX_NOTES, MAX_DIET_TIPS } = require('../src/lib/substitutions');
 const { parse } = require('../src/lib/ingredients');
 
 const recipes = loadRecipes();
@@ -60,6 +65,33 @@ for (const recipe of recipes) {
       problems.push(`${recipe.slug} — offers a flat gluten-free flour swap on a `
         + `${recipe.category} recipe, where it is not reliably true`);
     }
+  }
+
+  /* The dietary box: same grounding checks, plus the "not already that diet"
+     gate a tip is worthless without. */
+  const dietTips = dietaryTipsFor(recipe);
+  if (dietTips.length > MAX_DIET_TIPS) {
+    problems.push(`${recipe.slug} — ${dietTips.length} dietary tips, over the cap of ${MAX_DIET_TIPS}`);
+  }
+  for (const tip of dietTips) {
+    if ((recipe.tags || []).includes(tip.diet)) {
+      problems.push(`${recipe.slug} — offers a tip for reaching ${tip.diet}, but the recipe `
+        + `is already tagged ${tip.diet}`);
+    }
+  }
+  let dietMatchedCount = 0;
+  for (const rule of RULES) {
+    if (!rule.diet || (recipe.tags || []).includes(rule.diet)) continue;
+    if (rule.skip && rule.skip(recipe.category)) continue;
+    const hit = names.find(name => {
+      const m = rule.find.exec(name);
+      return m && !(rule.excludeIfAlso && rule.excludeIfAlso.test(name));
+    });
+    if (hit) dietMatchedCount++;
+  }
+  if (dietTips.length > dietMatchedCount) {
+    problems.push(`${recipe.slug} — produced ${dietTips.length} dietary tip(s) but only `
+      + `${dietMatchedCount} rule(s) matched; a tip is not grounded in the recipe`);
   }
 }
 

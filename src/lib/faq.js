@@ -121,6 +121,36 @@ function questions(recipe) {
       + `marked when nothing in it contradicts the claim.`);
   }
 
+  /* "Why did my sauce split?" is worth asking on exactly the dishes where it
+     is the single most common way to ruin them — and nowhere else. Tried
+     first against ingredient co-occurrence (butter or cream alongside egg,
+     wine or lemon) and then against emulsifying language in the method
+     ("whisk in", "off the heat", "do not let it boil"): both matched
+     hundreds of recipes with no splittable sauce in them at all — a salad
+     dressed in shop-bought mayonnaise, a stew that merely says not to boil
+     it. Gated on the dish's own name instead, against the handful where an
+     egg-and-starch or cheese-and-fat emulsion actually is the recipe. The
+     two failure mechanisms are different — carbonara's is the egg
+     scrambling from too much heat, alfredo and cacio e pepe's is the cheese
+     seizing rather than melting smooth — so they get different answers
+     rather than one generic one that would be half wrong either way. */
+  if (/\bcarbonara\b/i.test(recipe.title)) {
+    ask(`Why did my ${name} scramble instead of turning into a sauce?`,
+      'The pan was too hot when the egg mixture went in. Off the heat completely, '
+      + 'or over the lowest possible heat, stirring constantly — the pasta’s own '
+      + 'residual warmth is what cooks the egg into a sauce rather than curds. If it '
+      + 'has already started to scramble, take it off the heat at once and stir in a '
+      + 'splash of the reserved, starchy pasta water; it will not fully smooth out, '
+      + 'but it stops it going further.');
+  } else if (/\balfredo\b|\bcacio e pepe\b/i.test(recipe.title)) {
+    ask(`Why did my ${name} turn oily or grainy instead of creamy?`,
+      'The cheese seized rather than melted, almost always from too much heat or too '
+      + 'little starchy pasta water. Take the pan off the heat before adding the '
+      + 'cheese, add it gradually while tossing, and loosen with more of the reserved '
+      + 'pasta water rather than trying to fix it with more cheese, which makes a '
+      + 'seized sauce worse.');
+  }
+
   const [kcal, protein, carbs, fat] = recipe.nutrition || [];
   ask(`How many calories are in ${name}?`,
     kcal && `About ${kcal} kcal per serving, with ${protein} g protein, ${carbs} g `

@@ -31,7 +31,7 @@ const path = require('path');
 const { loadRecipes } = require('../src/build');
 const { questions } = require('../src/lib/faq');
 const { parse } = require('../src/lib/ingredients');
-const { substitutionsFor } = require('../src/lib/substitutions');
+const { substitutionsFor, dietaryTipsFor } = require('../src/lib/substitutions');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'quality_report.csv');
@@ -76,11 +76,12 @@ function bodyWordCount(r) {
     (n, item) => n + wordsIn(item.group || item.name), 0);
   const faqWords = questions(r).reduce((n, { q, a }) => n + wordsIn(q) + wordsIn(a), 0);
   const subWords = substitutionsFor(r).reduce((n, note) => n + wordsIn(note), 0);
+  const dietWords = dietaryTipsFor(r).reduce((n, t) => n + wordsIn(t.note), 0);
   const parts = [
     r.description, r.why,
     ...(r.steps || []), ...(r.tips || []), ...(r.pairings || []), r.storage
   ];
-  return parts.reduce((n, part) => n + wordsIn(part), 0) + ingredientWords + faqWords + subWords;
+  return parts.reduce((n, part) => n + wordsIn(part), 0) + ingredientWords + faqWords + subWords + dietWords;
 }
 
 function genericHits(r) {

@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1409 recipe pages and the about page — 8,284 questions,
+- [x] **FAQPage** on all 1409 recipe pages and the about page — 8,288 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -2063,6 +2063,117 @@ site — closely related dishes (naan/garlic naan, rogan josh/lamb rogan josh,
 rice pudding/kheer) rather than a mistaken duplicate, but listed in the
 report because a shared source is worth a human glance, not a judgement this
 script is positioned to make on its own.
+
+## A content auditor, and what it found when it was allowed to look properly
+
+A follow-up request asked for a CLI that audits and improves every recipe
+against three goals — does the page answer what a searcher wants, is it
+scannable, does it hold a reader with related links and dietary tips — and
+several of its individual asks repeated what the two sections above already
+cover: three-to-four related recipes already exist on every page, storage
+and reheating already has its own section, the method is already one action
+per numbered step rather than a wall of text. `tools/content-auditor.js`
+covers what was left, and its own first draft made the same kind of mistake
+the quality auditor's did, worth setting out again because it happened twice
+running.
+
+### The 1,111 recipes that did not have a long intro
+
+The first version flagged any recipe whose description and why-panel
+together ran past 80 words as "a long intro" — 1,111 of 1,409 recipes.
+Sampled first: chicken-karahi's 97 words, which read as three sentences
+explaining why the dish has no onion in it, not padding. Length was the
+wrong thing to measure. A separate check for the actual complaint — sentence
+that reads "I remember when...", "growing up...", "my grandmother's..." and
+a dozen more stock recipe-blog openers — found zero across the catalogue,
+which is the true answer, and word count was reported only as background
+after that: median 90 words, unscored.
+
+Two structural facts made the length check the wrong one from the start
+rather than merely miscalibrated. The ingredients card renders before any of
+this prose in the page's own markup — not just on a narrow screen, the
+template comment already says so — so there is no intro standing between a
+reader and the recipe to begin with. And the why-panel is supposed to be
+substantive: it is this site's answer to "why does this work", and a real
+answer to that takes more than one short sentence.
+
+### Two safe, mechanical fixes
+
+**The leading action verb in every method step is now bold** — Heat, Add,
+Whisk, Simmer — read straight off the step's own first word against a list
+of about seventy cooking verbs, so nothing is invented and a step that opens
+on something else ("Meanwhile, ...") is left alone.
+
+**Oven and frying temperatures written only in Celsius now show their
+Fahrenheit pairing too** — `src/lib/oven-temp.js`, mined from the 377 pairs
+the site already publishes rather than computed independently, since the
+established figures round to the nearest 5°F rather than the rounder
+textbook numbers a conversion chart would give (160°C prints 320°F here, not
+325°F). Scoped to oven and frying-oil mentions only: a thermometer or
+proving-temperature reading — "the custard reaches 75°C", "prove at 24°C" —
+keeps its precise figure rather than being rounded to an oven dial's
+nearest-5 the way a bake setting is, because the precision is doing real
+work on exactly those readings. 41 bare mentions found this way, all now
+paired; the 80 more precise ones were left as they were.
+
+### "Why did my sauce split?", narrowed from 370 recipes to 4
+
+The most literal item in the request — a troubleshooting FAQ for a broken
+sauce — went through three trigger designs before shipping, each measured
+against real recipes rather than trusted on the regex alone:
+
+- Ingredient co-occurrence (butter or cream alongside egg, wine or lemon):
+  370 recipes, including arancini — fried rice balls with no sauce in them.
+- Emulsifying language in the method ("whisk in", "off the heat", "do not
+  let it boil"): 261 recipes, including salade niçoise and ratatouille,
+  neither of which has an emulsion to break.
+- The dish's own name, against a handful of classics where a broken sauce is
+  the single most common way to ruin them: 4 recipes.
+
+Carbonara, Fettuccine Alfredo, Cacio e Pepe and Chicken Alfredo now carry the
+question, each with a mechanism-correct answer rather than one generic
+answer stretched over both — carbonara's failure is the egg scrambling from
+too much heat, alfredo and cacio e pepe's is the cheese seizing rather than
+melting, and the fix for each is different.
+
+### Quick Tips & Variations, and the two diets it does not cover
+
+The dietary-adaptation box reuses the ingredient-grounded substitution
+engine from the previous section rather than a new one: the several rules
+already framed as reaching a diet — swap fish sauce for a vegetarian
+version, soy sauce for tamari if it needs to be gluten-free — now render in
+their own labelled box, only on a recipe that does not already carry that
+tag, checked by the same `substitutions-audit.js` that already checks the
+general list. 381 recipes carry one.
+
+Keto and Low-Carb are deliberately not offered here. Whether a dish
+qualifies for either is a question about the whole recipe's carbohydrate
+total — checked, on this site, against the actual nutrition figures before
+either tag is ever applied — not about any single ingredient, and naming one
+swap as a keto tip on a dish whose sauce alone carries forty grams of sugar
+would be false on exactly the claim someone managing a medical diet is
+trusting the page for. A quick tip that is sometimes wrong is not a quick
+tip.
+
+### What the doneness-cue check could not be made certain of
+
+One check remains a list for a human to read rather than a verified count.
+Whether a step describing frying, baking or simmering also tells the cook
+what "done" looks like went through several rounds of measurement — 559
+flagged steps fell to 196 once ingredient names ("baking powder" is not an
+instruction to bake anything) and negated instructions ("never let it boil")
+stopped being counted as live cooking steps, then to 81 once a step that
+only preheats the oven stopped being expected to describe doneness in the
+same sentence, then to 54 once "roast" and "toast" used as a noun — "the
+roast chicken", "served on toast" — stopped being read as a verb. Each round
+found a real class of false positive, and each fix was a genuine narrowing
+rather than a cosmetic one, which is exactly why the last round still found
+some: a regex cannot reliably tell a live instruction from a reference to
+something already cooked in every case, the way it can check whether a
+keyword's claim is true or a substitution's ingredient is really there. The
+54 remaining are listed in `content_audit.csv` as candidates for a read,
+the same way a sourced photograph that might show the wrong dish is looked
+at rather than asserted.
 
 ## Ads
 

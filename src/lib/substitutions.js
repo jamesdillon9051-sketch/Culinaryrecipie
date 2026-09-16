@@ -42,6 +42,7 @@ const BAKING_SENSITIVE = new Set(['Baking', 'Desserts']);
 const RULES = [
   {
     find: /\bfish sauce\b/,
+    diet: 'Vegetarian',
     note: m => `No fish sauce, or keeping it vegetarian? A mix of soy sauce and a squeeze of lime gets close to the same salt-and-savoury lift the ${m} gives.`
   },
   {
@@ -67,6 +68,7 @@ const RULES = [
   },
   {
     find: /\blight soy sauce\b|\bsoy sauce\b/,
+    diet: 'Gluten-Free',
     note: m => `Tamari is the direct swap for ${m} if you need the dish gluten-free — it is brewed the same way, just without the wheat.`
   },
   {
@@ -109,10 +111,12 @@ const RULES = [
   {
     find: /\bplain flour\b|\ball-purpose flour\b/,
     skip: cat => BAKING_SENSITIVE.has(cat),
+    diet: 'Gluten-Free',
     note: m => `A measure-for-measure gluten-free flour blend can generally replace the ${m} here without changing the method, since this is savoury cooking rather than a structural bake.`
   },
   {
     find: /\bworcestershire sauce\b/,
+    diet: 'Vegetarian',
     note: m => `For a vegetarian version, look for a plant-based Worcestershire sauce — the anchovies in the standard bottle are what makes ordinary ${m} unsuitable, not anything else in it.`
   }
 ];
@@ -134,6 +138,12 @@ function substitutionsFor(recipe) {
 
   for (const rule of RULES) {
     if (out.length >= MAX_NOTES) break;
+    /* Diet-framed rules (fish sauce, soy sauce, plain flour, Worcestershire
+       sauce) are handled by dietaryTipsFor below, in their own box, rather
+       than appearing here as well — the same rule firing twice under two
+       headings is not two pieces of advice, it is one piece of advice that
+       looks like a checklist. */
+    if (rule.diet) continue;
     if (rule.skip && rule.skip(recipe.category)) continue;
     for (const name of names) {
       const lower = name.toLowerCase();
@@ -150,4 +160,51 @@ function substitutionsFor(recipe) {
   return out;
 }
 
-module.exports = { substitutionsFor, RULES, MAX_NOTES };
+/* Cap for the dietary box, kept separate from and smaller than the general
+   cap: two genuine adaptation tips read as help, four reads as a wall. */
+const MAX_DIET_TIPS = 2;
+
+/**
+ * "Quick Tips & Variations" — the subset of substitution rules that are
+ * framed as reaching a specific diet, surfaced in their own box rather than
+ * mixed into the general list.
+ *
+ * Deliberately covers only Vegetarian and Gluten-Free, the two diets a
+ * single named ingredient can reliably unlock. Keto and Low-Carb are not
+ * here on purpose: whether a dish qualifies is a question about the whole
+ * recipe's carbohydrate total, not about any one ingredient, and this site's
+ * own Keto and Low-Carb tags are only ever applied after that whole-dish sum
+ * is checked (see nutrition-audit.js). Naming a single swap — "leave out the
+ * rice" — as a keto tip on a dish whose sauce alone carries forty grams of
+ * sugar would be false, and false on exactly the claim someone managing a
+ * medical diet is trusting the page for.
+ *
+ * A rule is only offered when the recipe does not already carry that tag —
+ * telling a reader how to make an already-vegetarian dish vegetarian is not
+ * a tip — and only when it is grounded in an ingredient the recipe actually
+ * contains, checked by the same tools/substitutions-audit.js that checks
+ * the general list.
+ */
+function dietaryTipsFor(recipe) {
+  const items = parse(recipe.ingredients || []).filter(item => !item.group);
+  const names = items.map(item => item.name);
+  const tags = recipe.tags || [];
+  const out = [];
+
+  for (const rule of RULES) {
+    if (out.length >= MAX_DIET_TIPS) break;
+    if (!rule.diet || tags.includes(rule.diet)) continue;
+    if (rule.skip && rule.skip(recipe.category)) continue;
+    for (const name of names) {
+      const lower = name.toLowerCase();
+      const match = rule.find.exec(lower);
+      if (!match) continue;
+      if (rule.excludeIfAlso && rule.excludeIfAlso.test(lower)) continue;
+      out.push({ diet: rule.diet, note: rule.note(match[0]) });
+      break;
+    }
+  }
+  return out;
+}
+
+module.exports = { substitutionsFor, dietaryTipsFor, RULES, MAX_NOTES, MAX_DIET_TIPS };
