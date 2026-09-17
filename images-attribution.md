@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1552
+Every photograph on Weekly Delight is freely licensed. Of 1555
 photographs, **846** are CC0 or public domain and carry no conditions at all, and
-**706** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**709** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -257,23 +257,23 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 1409 |
-| Hero photographs | 1141 |
-| Secondary "process" photographs | 411 |
+| Hero photographs | 1143 |
+| Secondary "process" photographs | 412 |
 | Generated illustrations | 191 |
-| Total image files | 3486 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 77 |
+| Total image files | 3492 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 75 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
 | CC0 | 487 | No rights reserved — no attribution legally required |
-| CC BY 2.0 | 289 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 291 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 205 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 205 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 110 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 100 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 57 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 58 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 43 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 19 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 19 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -321,7 +321,6 @@ and no usable illustration of them could be drawn either:
 - Tapenade (`tapenade`)
 - Aïoli (`aioli`)
 - Lotte à l'Armoricaine (`lotte-a-l-armoricaine`)
-- Bar en Croûte de Sel (`bar-en-croute-de-sel`)
 - Pain au Chocolat (`pain-au-chocolat`)
 - Saint-Honoré (`saint-honore`)
 - Mont-Blanc (`mont-blanc`)
@@ -367,7 +366,6 @@ and no usable illustration of them could be drawn either:
 - Shiro Wat (`shiro-wat`)
 - Misir Wat (`misir-wat`)
 - Milk Tart (`milk-tart`)
-- Mandazi (`mandazi`)
 - Czech Dumplings (`knedliky`)
 - Katsudon (`katsudon`)
 - Khanom Krok (`khanom-krok`)
@@ -1606,6 +1604,7 @@ licence as the rest of this project.
 | `boudin-noir-pommes.webp` / `.jpg` | Boudin Noir aux Pommes | Hero | DNA Boudin Noir | snowpea&bokchoi | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/28531775@N06/4602223282) |
 | `bouchee-a-la-reine.webp` / `.jpg` | Bouchée à la Reine | Hero | Bouchée à la Reine, nouilles fraiches (Au Dauphin, Strasbourg) | Tangopaso | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_Reine,_nouilles_fraiches_(Au_Dauphin,_Strasbourg).jpg) |
 | `bouchee-a-la-reine-process.webp` / `.jpg` | Bouchée à la Reine | Process | Bouchée à la reine | Arnaud 25 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bouch%C3%A9e_%C3%A0_la_reine.jpg) |
+| `bar-en-croute-de-sel.webp` / `.jpg` | Bar en Croûte de Sel | Hero | Sea Bass In Egg White Salt Crust | AVID Vines | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/75921150@N00/5946972308) |
 | `fondue-savoyarde.webp` / `.jpg` | Fondue Savoyarde | Hero | Fondue enchaînée | gadl | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/24183489@N00/275479322) |
 | `aligot.webp` / `.jpg` | Aligot | Hero | Bol d'aligot | Slastic | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bol_d%27aligot.jpg) |
 | `aligot-process.webp` / `.jpg` | Aligot | Process | Bol de aligot. | Slastic | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bol_de_aligot..jpg) |
@@ -1901,6 +1900,8 @@ licence as the rest of this project.
 | `jamaican-patties.webp` / `.jpg` | Jamaican Beef Patties | Hero | 06 Inside Jamaican Beef Patty - Sybil's Bakery | jasonlam | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/93512023@N00/4349823013) |
 | `puff-puff.webp` / `.jpg` | Puff Puff | Hero | Nigerian-puff-puff-recipe cropped (image of puff puff on Wikidata Q7258860) | Afrolems ; cropped by Off-shell | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nigerian-puff-puff-recipe_cropped.jpg) |
 | `puff-puff-process.webp` / `.jpg` | Puff Puff | Process | Poff poff 2 | Wejike7 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Poff_poff_2.jpg) |
+| `mandazi.webp` / `.jpg` | Mandazi | Hero | Bowl of mandazi (image of Mandazi on Wikidata Q9027344) | The original uploader was ChildofMidnight at English Wikipedia. | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bowl_of_mandazi.jpg) |
+| `mandazi-process.webp` / `.jpg` | Mandazi | Process | Andazi | Orrling | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Andazi.jpg) |
 | `baleadas.webp` / `.jpg` | Baleadas | Hero | Baleada en Copán | Los viajes del Cangrejo | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baleada_en_Cop%C3%A1n.jpg) |
 | `baleadas-process.webp` / `.jpg` | Baleadas | Process | Food 宏都拉斯豆泥起司餅, Super Baleada, 拉丁美洲小吃, Fiesta Cafeteria, 台北 (15803858497) | bryan... from Taipei, Taiwan | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Food_%E5%AE%8F%E9%83%BD%E6%8B%89%E6%96%AF%E8%B1%86%E6%B3%A5%E8%B5%B7%E5%8F%B8%E9%A4%85,_Super_Baleada,_%E6%8B%89%E4%B8%81%E7%BE%8E%E6%B4%B2%E5%B0%8F%E5%90%83,_Fiesta_Cafeteria,_%E5%8F%B0%E5%8C%97_(15803858497).jpg) |
 | `stoofvlees.webp` / `.jpg` | Stoofvlees | Hero | Jielbeaumadier carbonade flamande 2010 (image of carbonade flamande on Wikidata Q138553) | Jiel Beaumadier | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jielbeaumadier_carbonade_flamande_2010.jpg) |

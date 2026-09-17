@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 3486 image files (WebP + JPEG)
+│       └── img/recipes/         # 3492 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 3486 image files
+├── assets/                      #    css, js and 3492 image files
 ├── recipes/                     #    1409 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 125,055 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 125,057 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,8 +380,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1141 of the 1409 recipes have a photograph. Of the 1552 images on the site, 846
-are CC0 or public domain, 336 are CC BY and 370 are CC BY-SA. Anything still
+1143 of the 1409 recipes have a photograph. Of the 1555 images on the site, 846
+are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -398,6 +398,30 @@ Where a dish is named after a place, a band or an animal, the durable fix is the
 query rather than a filter. Sloppy joes asks for the sandwich, because the bare
 name returns a bar in Key West; lion's head meatballs asks for shizitou, because
 the English name returns lions.
+
+A later pass re-ran the pipeline — by then carrying the curated Wikidata
+sources, the `shares_dish_word` gate and the native-script fallbacks this
+README describes elsewhere — against all 77 recipes still on the gradient,
+including the 33 already marked `skip: true`, on the reasoning that a verdict
+reached before those sources existed deserved a second look rather than a
+permanent one. It found 21 candidates that passed the relevance filters.
+Opened and checked against the recipe each was for, 19 were wrong: a fire
+engine for green goddess salad, a Japanese tatami room for shiro wat, a pile of
+cut firewood for Black Forest gateau, a shell-decorated church for conchas
+(conchas means shells), a watermarked advertising flyer for paletas, chicken
+for a recipe that specifically calls for prawns in pad woon sen, beef for an
+explicitly meatless mushroom sauce in stroganoff sauce, and — the exact mistake
+its own `skipReason` already named — gumbo again for bamia masreya. Two were
+right: a whole sea bass in its salt crust for bar-en-croûte-de-sel, the dish
+twelve earlier passes had only ever returned filleted and sauced; and mandazi,
+found through its own Wikidata item. The 19 wrong pages are now recorded in
+`src/data/image-rejects.json` so the same search cannot return them twice.
+Seventeen of the original 33 skip verdicts stand re-confirmed rather than
+merely assumed; ten more recipes, never previously marked, turned up nothing
+usable under native-script and transliterated queries and are marked
+`skip: true` for the first time. The remaining 48 found a candidate that
+failed to download rather than a wrong one — read as "try again", not as a
+verdict, and left for the next run to pick up on its own.
 
 The rest of the gaps are dishes where a search loose enough to find something
 starts returning things that are not the dish at all. Bořek is a village in

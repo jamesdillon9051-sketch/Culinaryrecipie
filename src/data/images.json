@@ -1083,7 +1083,9 @@
  },
  "baba-napoletano": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried the accented Italian name (Bab\u00e0) as well as the transliterated one; nothing came back at all"
  },
  "bacalhau-a-bras": {
   "hero": {
@@ -1539,7 +1541,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "five passes returned gumbo and prawn creole; the okra stew is catalogued as neither"
+  "skipReason": "five passes returned gumbo and prawn creole; the okra stew is catalogued as neither; retried after this session's pipeline improvements and returned Cajun seafood gumbo \u2014 shrimp and sausage in a dark roux, so still nothing usable"
  },
  "banana-bread": {
   "hero": {
@@ -1788,10 +1790,20 @@
   "process": null
  },
  "bar-en-croute-de-sel": {
-  "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "twelve passes returned plated sea bass fillets; the salt crust, which is the dish, never appeared"
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCvpscdxFNIw3FBgBh2qXUraIWSz+WCY3/h4OM1V0mVlR1GME9Kn1WRjZyrnAzniuX7RfS5/9k=",
+   "color": "#8d875e",
+   "title": "Sea Bass In Egg White Salt Crust",
+   "author": "AVID Vines",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/75921150@N00/5946972308",
+   "source": "Flickr",
+   "file": "bar-en-croute-de-sel"
+  },
+  "process": null
  },
  "bara-brith": {
   "hero": {
@@ -2705,7 +2717,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned the Black Forest itself \u2014 a village, a water mill, a waterfall"
+  "skipReason": "four passes returned the Black Forest itself \u2014 a village, a water mill, a waterfall; retried after this session's pipeline improvements and returned a pile of cut firewood logs \u2014 the Black Forest itself, so still nothing usable"
  },
  "black-pepper-beef": {
   "hero": {
@@ -4928,7 +4940,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "three passes returned a pizza slice, a clear soup and a takeaway container"
+  "skipReason": "three passes returned a pizza slice, a clear soup and a takeaway container; retried after this session's pipeline improvements and returned a creamy plated curry with rice, so still nothing usable"
  },
  "chicken-adobo": {
   "hero": {
@@ -6722,7 +6734,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned seashells and coral; Commons holds shells under this name, not the sweet bread"
+  "skipReason": "four passes returned seashells and coral; Commons holds shells under this name, not the sweet bread; retried after this session's pipeline improvements and returned a shell-decorated church building in Galicia \u2014 conchas means shells, so still nothing usable"
  },
  "congee": {
   "hero": {
@@ -6906,9 +6918,7 @@
  },
  "corned-beef-hash": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "three passes returned tinned corned beef with no potato and no crust"
+  "process": null
  },
  "cornish-pasty": {
   "hero": {
@@ -8308,9 +8318,7 @@
  },
  "dundee-cake": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "eight passes returned oat slab and iced birthday cake, not the almond-ringed fruit cake"
+  "process": null
  },
  "duo-jiao-yu-tou": {
   "hero": {
@@ -8530,7 +8538,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned leafy spinach salads and avocado toast, not the mayonnaise-bound kind"
+  "skipReason": "four passes returned leafy spinach salads and avocado toast, not the mayonnaise-bound kind; retried after this session's pipeline improvements and returned a Malaysian rice plate with chicken leg and half a boiled egg, so still nothing usable"
  },
  "egg-salad-sandwich": {
   "hero": {
@@ -8682,7 +8690,9 @@
  },
  "eish-merahrah": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried native-script (\u0639\u064a\u0634 \u0645\u0631\u062d\u0631\u062d) and a descriptive English query as well as the transliterated name; nothing came back at all"
  },
  "elote": {
   "hero": {
@@ -9338,7 +9348,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "eleven passes returned raw courgette flowers and stuffed courgettes, not the fried dish"
+  "skipReason": "eleven passes returned raw courgette flowers and stuffed courgettes, not the fried dish; retried after this session's pipeline improvements and returned courgette halves stuffed with cheese and pepper, so still nothing usable"
  },
  "fish-and-chips": {
   "hero": {
@@ -9390,9 +9400,7 @@
  },
  "fish-tikka": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "five passes returned chicken tikka, which the captions do not distinguish"
+  "process": null
  },
  "flammkuchen": {
   "hero": {
@@ -9642,7 +9650,9 @@
  },
  "fregola": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried the dish's full Italian name as well as the English description; nothing came back at all"
  },
  "french-dip": {
   "hero": {
@@ -9874,7 +9884,9 @@
  },
  "ftair": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried native-script (\u0641\u0637\u0627\u064a\u0631 \u062a\u0648\u0646\u0633\u064a\u0629) and transliterated queries as well as the English name; nothing came back at all"
  },
  "fudge": {
   "hero": {
@@ -10110,7 +10122,9 @@
  },
  "gammon-parsley-sauce": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried the recipe's own title as well as the catalogue description; nothing came back at all"
  },
  "garbure": {
   "hero": {
@@ -10590,7 +10604,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned goi cuon summer rolls, which is the neighbouring dish and not this one"
+  "skipReason": "four passes returned goi cuon summer rolls, which is the neighbouring dish and not this one; retried after this session's pipeline improvements and returned goi cuon \u2014 Vietnamese fresh spring rolls, so still nothing usable"
  },
  "golabki": {
   "hero": {
@@ -10824,7 +10838,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "six passes returned avgolemono soup and a chicken salad"
+  "skipReason": "six passes returned avgolemono soup and a chicken salad; retried after this session's pipeline improvements and returned a chicken thigh over what reads as a rice dish, so still nothing usable"
  },
  "greek-lemon-potatoes": {
   "hero": {
@@ -10918,7 +10932,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "five passes returned a steam locomotive, two films, a fire engine and a dictionary"
+  "skipReason": "five passes returned a steam locomotive, two films, a fire engine and a dictionary; retried after this session's pipeline improvements and returned a fire engine, so still nothing usable"
  },
  "grilled-cheese": {
   "hero": {
@@ -11614,9 +11628,7 @@
  },
  "honey-roast-parsnips": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "six passes returned whole roast dinners with no parsnip identifiable"
+  "process": null
  },
  "hong-kong-egg-waffle": {
   "hero": {
@@ -12050,7 +12062,9 @@
  },
  "involtini-di-manzo": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried the Italian name as well as the English description; nothing came back at all"
  },
  "irish-coffee": {
   "hero": {
@@ -13022,7 +13036,9 @@
  },
  "kartoffelsalat": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried fresh with the improved pipeline (curated Wikidata/Commons sources, native-name lookups): returned a plate of BBQ ribs and baked beans; the potato salad is a minor side item, not the photographed subject"
  },
  "katsu-curry": {
   "hero": {
@@ -13634,7 +13650,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "five passes returned rye loaves and an engraving of Saint Adalbert"
+  "skipReason": "five passes returned rye loaves and an engraving of Saint Adalbert; retried after this session's pipeline improvements and returned a whole crusty artisan loaf on a board, so still nothing usable"
  },
  "kofta-masreya": {
   "hero": {
@@ -13686,9 +13702,7 @@
  },
  "korean-corn-cheese": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "three passes returned Korean corn dog stalls and shop shelves"
+  "process": null
  },
  "korean-fried-chicken": {
   "hero": {
@@ -13780,7 +13794,9 @@
  },
  "kousa-bil-laban": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried native-script and transliterated queries (\u0643\u0648\u0633\u0627 \u0628\u0627\u0644\u0644\u0628\u0646, kousa bi laban) as well as the English name; nothing came back at all"
  },
  "koussa-mahshi": {
   "hero": {
@@ -14328,9 +14344,7 @@
  },
  "leek-and-potato-soup": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "four passes returned soups the captions cannot separate from vichyssoise"
+  "process": null
  },
  "lemon-bars": {
   "hero": {
@@ -14678,7 +14692,9 @@
  },
  "lotte-a-l-armoricaine": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried the accented French name as well as the transliterated one; nothing came back at all"
  },
  "lotus-root-rib-soup": {
   "hero": {
@@ -14712,7 +14728,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "ten passes returned Thai noodle platters with no lotus root in them"
+  "skipReason": "ten passes returned Thai noodle platters with no lotus root in them; retried after this session's pipeline improvements and returned a plate of stir-fried noodles with no lotus root visible, so still nothing usable"
  },
  "loubieh-bzeit": {
   "hero": {
@@ -15161,10 +15177,32 @@
   "process": null
  },
  "mandazi": {
-  "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "four passes returned pale dough in a pan and a bread crumb close-up, not the fried triangles"
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBDEShIBLZwBilVlMKqoywzlsYq0nPFDoqKFUYFJwl7a99AUo+ytbU//9k=",
+   "color": "#998e7e",
+   "title": "Bowl of mandazi (image of Mandazi on Wikidata Q9027344)",
+   "author": "The original uploader was ChildofMidnight at English Wikipedia.",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_mandazi.jpg",
+   "source": "Wikimedia Commons",
+   "file": "mandazi"
+  },
+  "process": {
+   "w": 640,
+   "h": 480,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC1r9/5N3HBG5U9woqrbyJev5cy707MeCD7Vcu4ku7dJ5VHmbeoqpYQpEjFQSVORmstVI2VnE//2Q==",
+   "color": "#a38775",
+   "title": "Andazi",
+   "author": "Orrling",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Andazi.jpg",
+   "source": "Wikimedia Commons",
+   "file": "mandazi-process"
+  }
  },
  "mango-lassi": {
   "hero": {
@@ -15246,9 +15284,7 @@
  },
  "manti": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "four passes returned a praying mantis and a mantis shrimp; the archives index the insect, not the dumpling"
+  "process": null
  },
  "mantou": {
   "hero": {
@@ -16220,9 +16256,7 @@
  },
  "mont-blanc": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "five passes returned the mountain; the chestnut dessert is buried under it in every archive"
+  "process": null
  },
  "moo-ping": {
   "hero": {
@@ -17522,7 +17556,9 @@
  },
  "pad-woon-sen": {
   "hero": null,
-  "process": null
+  "process": null,
+  "skip": true,
+  "skipReason": "tried fresh with the improved pipeline (curated Wikidata/Commons sources, native-name lookups): returned glass noodles with chicken (the source titles it \"chicken\"); this recipe's protein is prawns, a visibly different ingredient"
  },
  "paella-valenciana": {
   "hero": {
@@ -17612,7 +17648,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned advertising graphics for a paleta distributor, twice the same delivery van"
+  "skipReason": "four passes returned advertising graphics for a paleta distributor, twice the same delivery van; retried after this session's pipeline improvements and returned a watermarked advertising flyer for a paleta distributor, so still nothing usable"
  },
  "palmiers": {
   "hero": {
@@ -19037,9 +19073,7 @@
  },
  "pithiviers": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "ten passes returned the town of Pithiviers, including a railway postcard"
+  "process": null
  },
  "pizzelle": {
   "hero": {
@@ -19565,7 +19599,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "five passes returned rice dishes and cheeseboards, not the potted paste"
+  "skipReason": "five passes returned rice dishes and cheeseboards, not the potted paste; retried after this session's pipeline improvements and returned a cheese board with whole wedges of brie and blue cheese, so still nothing usable"
  },
  "potted-shrimps": {
   "hero": {
@@ -20245,7 +20279,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "ten passes returned Wisconsin cheese curds and fried halloumi, never the rolled pastry"
+  "skipReason": "ten passes returned Wisconsin cheese curds and fried halloumi, never the rolled pastry; retried after this session's pipeline improvements and returned round breaded fried-cheese discs, so still nothing usable"
  },
  "ranch-dressing": {
   "hero": {
@@ -21099,9 +21133,7 @@
  },
  "saint-honore": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "nine passes returned rolled sponges and unrelated gateaux"
+  "process": null
  },
  "sakshuka-turkish": {
   "hero": {
@@ -21825,9 +21857,7 @@
  },
  "scallion-oil-noodles": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "five passes returned foie gras and smoked hamachi garnished with scallion oil"
+  "process": null
  },
  "scallion-pancakes": {
   "hero": {
@@ -22353,7 +22383,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "five passes returned Japanese castles and an illuminated manuscript; shiro names too many things"
+  "skipReason": "five passes returned Japanese castles and an illuminated manuscript; shiro names too many things; retried after this session's pipeline improvements and returned a Japanese tatami-mat room interior \u2014 not food at all, so still nothing usable"
  },
  "shish-barak": {
   "hero": {
@@ -22749,7 +22779,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned poached eggs on toast and chickpea bakes, never the sandwich"
+  "skipReason": "four passes returned poached eggs on toast and chickpea bakes, never the sandwich; retried after this session's pipeline improvements and returned a poached-egg breakfast plate with a chickpea bake as a side bowl, so still nothing usable"
  },
  "smashed-cucumber": {
   "hero": {
@@ -23659,9 +23689,7 @@
  },
  "steak-and-kidney-pudding": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "ten passes returned steak and kidney pie; the suet pudding is not photographed under its own name"
+  "process": null
  },
  "steak-frites": {
   "hero": {
@@ -23895,7 +23923,7 @@
   "hero": null,
   "process": null,
   "skip": true,
-  "skipReason": "four passes returned boeuf stroganoff plated and a loaded jacket potato, never the sauce alone"
+  "skipReason": "four passes returned boeuf stroganoff plated and a loaded jacket potato, never the sauce alone; retried after this session's pipeline improvements and returned beef strips over rice, so still nothing usable"
  },
  "stroopwafel": {
   "hero": {
@@ -24491,9 +24519,7 @@
  },
  "talami": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "three passes returned nothing that is the Lebanese bread; the name collides with a village"
+  "process": null
  },
  "tamagoyaki": {
   "hero": {
@@ -24577,9 +24603,7 @@
  },
  "tapenade": {
   "hero": null,
-  "process": null,
-  "skip": true,
-  "skipReason": "three passes returned olive bowls and unrelated dips"
+  "process": null
  },
  "tarta-de-santiago": {
   "hero": {

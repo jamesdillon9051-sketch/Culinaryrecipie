@@ -11427,9 +11427,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bar-en-croute-de-sel/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bar-en-croute-de-sel.jpg</image:loc>
+      <image:title>Bar en Croûte de Sel</image:title>
+      <image:caption>Bar en Croûte de Sel — French dinner recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fondue-savoyarde/</loc>
@@ -15190,9 +15195,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mandazi/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mandazi.jpg</image:loc>
+      <image:title>Mandazi</image:title>
+      <image:caption>Mandazi — Kenyan desserts recipe, served and ready to eat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baleadas/</loc>

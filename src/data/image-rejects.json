@@ -458,6 +458,10 @@
     {
       "page": "https://www.flickr.com/photos/34128007@N04/8695069823",
       "why": "fillet steak and a grilled sea bass fillet, no salt crust"
+    },
+    {
+      "page": "https://www.flickr.com/photos/91873384@N04/8551892910",
+      "why": "\"Sea bass at Troquet\" \u2014 an unrelated restaurant fillet plate with fennel and a composed sauce, none of which are in this recipe; the hero (the actual salt crust) stays"
     }
   ],
   "fondue-savoyarde": [
@@ -870,6 +874,14 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Kousa_Mahshi.jpg",
       "why": "stuffed courgettes, not the flowers"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Zucchini_stuffed_with_vegetables.jpg",
+      "why": "courgette halves stuffed with cheese and pepper, not fried courgette blossoms"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kusa_Mahshi_a_la_Toledano.jpg",
+      "why": "kusa mahshi \u2014 stuffed whole courgettes, a different Levantine dish, not the fried Italian blossoms"
     }
   ],
   "suppli": [
@@ -1414,6 +1426,14 @@
     {
       "page": "https://www.flickr.com/photos/10559879@N00/3242824038",
       "why": "a dish of rice and ham, not a pot of cheese paste"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5962796/free-public-domain-cc0-photo",
+      "why": "a cheese board with whole wedges of brie and blue cheese; potted cheese is beaten smooth and sealed under butter, the opposite presentation"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5946064/free-public-domain-cc0-photo",
+      "why": "same cheeseboard mismatch as the hero candidate"
     }
   ],
   "cucumber-sandwiches": [
@@ -1586,6 +1606,14 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:FDP14.jpg",
       "why": "an ambiguous plated dish, not cheese rolls"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_Camembert_Meal.jpg",
+      "why": "round breaded fried-cheese discs; rakakat are rolled cylinders, a different shape entirely"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bruntal._Fried_cheese.jpg",
+      "why": "same dish as the hero candidate: breaded fried cheese, not rolled"
     }
   ],
   "loubieh-bzeit": [
@@ -1838,6 +1866,14 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Gumbo_(31507690443).jpg",
       "why": "prawns in sauce with rice, catalogued as gumbo"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cajun_seafood_gumbo.jpg",
+      "why": "Cajun seafood gumbo \u2014 shrimp and sausage in a dark roux, not an okra stew"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gumbo_-_2134805350.jpg",
+      "why": "gumbo again, same source confusion as the hero candidate"
     }
   ],
   "mahshi-cromb": [
@@ -2272,6 +2308,14 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Bamihap.jpg",
       "why": "a nest of yellow noodles with no lotus root"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chinese_Chow_mein_noodles_in_Po_Toi.jpg",
+      "why": "a plate of stir-fried noodles with no lotus root visible"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:EggNoodles.jpg",
+      "why": "dried noodle nests on a cardboard box, not lotus root"
     }
   ],
   "hot-and-sour-potato": [
@@ -2610,6 +2654,14 @@
     {
       "page": "https://www.flickr.com/photos/136359789@N02/24943876719",
       "why": "a steam locomotive"
+    },
+    {
+      "page": "https://www.flickr.com/photos/136359789@N02/25218429581",
+      "why": "a fire engine, not a salad"
+    },
+    {
+      "page": "https://www.flickr.com/photos/189834667@N07/50530929527",
+      "why": "an illuminated manuscript page, not a salad"
     }
   ],
   "karjalanpaisti": [
@@ -2762,6 +2814,10 @@
     {
       "page": "https://www.flickr.com/photos/10559879@N00/4258135647",
       "why": "avocado toast with a poached egg beside a bowl of stew"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/4258136053",
+      "why": "a poached-egg breakfast plate with a chickpea bake as a side bowl, not a sandwich"
     }
   ],
   "sweet-potato-casserole": [
@@ -3168,6 +3224,10 @@
     {
       "page": "https://www.flickr.com/photos/49215102@N00/4154310562",
       "why": "a plastic takeaway container with a fork in it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/22539273@N00/32579477243",
+      "why": "a creamy plated curry with rice; Chicken 65 is dry-fried with curry leaf and red chilli, no sauce or rice"
     }
   ],
   "chicken-lollipop": [
@@ -3420,6 +3480,14 @@
     {
       "page": "https://www.rawpixel.com/image/11524452/photo-image-plant-mushroom-public-domain",
       "why": "a leafy spinach and tomato salad, not the mayonnaise-bound kind"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/72667979b2/",
+      "why": "a Malaysian rice plate with chicken leg and half a boiled egg, not a mayonnaise-bound egg salad"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5907591/photo-image-public-domain-kitchen-red",
+      "why": "boiled egg wedges scattered over a green salad \u2014 no mayonnaise, not the bound sandwich filling this recipe makes"
     }
   ],
   "pesto-pasta": [
@@ -3632,6 +3700,10 @@
     {
       "page": "https://www.flickr.com/photos/60756254@N07/51862681314",
       "why": "a bowl of avgolemono soup"
+    },
+    {
+      "page": "https://www.flickr.com/photos/60756254@N07/51862348616",
+      "why": "a chicken thigh over what reads as a rice dish; this recipe roasts chicken with potato wedges, olives and onion, no rice"
     }
   ],
   "aloo-keema": [
@@ -3772,6 +3844,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Shiro-Ozaki-3.jpg",
       "why": "a Japanese building"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Shiro-Ozaki-4.jpg",
+      "why": "a Japanese tatami-mat room interior \u2014 not food at all"
     }
   ],
   "misir-wat": [
@@ -3900,6 +3976,10 @@
     {
       "page": "https://www.rawpixel.com/image/448410/free-photo-image-cookies-food-assortment",
       "why": "an engraving of a saint"
+    },
+    {
+      "page": "https://www.flickr.com/photos/94267067@N06/14916482649",
+      "why": "a whole crusty artisan loaf on a board; kned\u00edlky are boiled, sliced bread dumplings, a different preparation"
     }
   ],
   "stoofvlees": [
@@ -4076,6 +4156,14 @@
     {
       "page": "https://www.flickr.com/photos/20957859@N07/2897212791",
       "why": "goi cuon summer rolls, a different dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034346243@N01/1332453577",
+      "why": "goi cuon \u2014 Vietnamese fresh spring rolls, the neighbouring dish, not the chicken salad this recipe makes"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034346243@N01/301630333",
+      "why": "same wrong dish as the hero candidate, a different photo of the same spring rolls"
     }
   ],
   "kaju-katli": [
@@ -4192,6 +4280,10 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=164016868",
       "why": "filled potato dumplings in cream sauce, not a potato salad"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7927684@N03/7381913076",
+      "why": "a plate of BBQ ribs and baked beans; the potato salad is a minor side item, not the photographed subject"
     }
   ],
   "black-forest-gateau": [
@@ -4216,6 +4308,14 @@
     {
       "page": "https://www.flickr.com/photos/23717997@N02/26345811555",
       "why": "a waterfall in the Black Forest"
+    },
+    {
+      "page": "https://www.flickr.com/photos/49092996@N05/7131832041",
+      "why": "a pile of cut firewood logs \u2014 the Black Forest itself, not the cake"
+    },
+    {
+      "page": "https://www.flickr.com/photos/51986662@N05/49730643561",
+      "why": "a creek at the US Air Force Academy \u2014 also the place, not the cake"
     }
   ],
   "obatzda": [
@@ -4292,6 +4392,10 @@
     {
       "page": "https://www.flickr.com/photos/38689115@N08/15663634671",
       "why": "a delivery van advertisement, the third such file for this slug"
+    },
+    {
+      "page": "https://www.flickr.com/photos/38689115@N08/15480360767",
+      "why": "a watermarked advertising flyer for a paleta distributor, with people posing at Teotihuacan and phone numbers overlaid \u2014 not a usable photograph"
     }
   ],
   "conchas": [
@@ -4316,6 +4420,10 @@
     {
       "page": "https://www.flickr.com/photos/83265757@N00/118085189",
       "why": "a single shell on sand, the third shell for this slug"
+    },
+    {
+      "page": "https://www.flickr.com/photos/96937621@N00/4561476044",
+      "why": "a shell-decorated church building in Galicia \u2014 conchas means shells, not the Mexican sweet bread"
     }
   ]
 }
