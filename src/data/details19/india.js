@@ -1419,7 +1419,7 @@ module.exports = {
     d: 'Puffed rice tossed at the last second with chutneys, onion, potato and sev. Bombay beach food, and it must be eaten inside two minutes.',
     meta: 'Puffed rice tossed with tamarind and mint chutneys, onion, potato, tomato and sev, assembled immediately before eating.',
     kw: ['bhel puri', 'bhel puri recipe', 'mumbai bhel', 'puffed rice chaat', 'indian street snack'],
-    why: 'Everything is prepared separately and combined in the last thirty seconds. Puffed rice is hygroscopic to a degree that has to be seen: chutney-dressed bhel is crisp when you toss it and soggy by the time it reaches the table if you dawdle. Toss, plate, hand it over, eat.',
+    why: 'Everything is prepared separately and combined in the last thirty seconds. Half the sev is folded in for flavour in every bite; the other half is saved for on top, so at least some of it is still crisp by the time it is eaten. Puffed rice is hygroscopic to a degree that has to be seen: chutney-dressed bhel is crisp when you toss it and soggy by the time it reaches the table if you dawdle. Toss, plate, hand it over, eat.',
     ing: [
       '120 g puffed rice (murmura)',
       '60 g sev',

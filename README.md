@@ -380,8 +380,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1141 of the 1409 recipes have a photograph. Of the 1552 images on the site, 847
-are CC0 or public domain, 336 are CC BY and 369 are CC BY-SA. Anything still
+1141 of the 1409 recipes have a photograph. Of the 1552 images on the site, 846
+are CC0 or public domain, 336 are CC BY and 370 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -2053,16 +2053,36 @@ The first run of it reported 1,324 of 1,409 recipes under 400 words, which
 was the script being wrong rather than the site: it was counting the
 why-paragraph, method, tips, pairings and storage note, and leaving out the
 ingredient list and the FAQ the page builds from the recipe's own timings —
-both genuine reader-facing content. Counted properly, the median recipe runs
-551 words and eight fall under 400. Zero generic phrases were found across
-the catalogue, and zero recipes share an opening sentence with three others,
+both genuine reader-facing content. Counted properly the median recipe runs 592 words; two — tuna-salad and
+bhel-puri, at 385 and 398 — ran under 400. (This paragraph had already
+drifted from the CSV before it was ever committed: an earlier draft put the
+count at 551 words and eight recipes, and nobody re-read the file against
+the sentence before pushing. Fixed here by rereading the file rather than
+trusting the prose.) Both recipes got one real sentence added rather than
+padding: tuna-salad's `why` now notes that oil-packed tuna gives a richer
+result than the spring-water tin the recipe actually calls for; bhel-puri's
+explains why only half the sev is folded in before serving, with the rest
+kept back for the top. Both clear 400 with room to spare — 418 and 432 —
+rather than landing on the line. Zero generic phrases were found across the
+catalogue, and zero recipes share an opening sentence with three others,
 which is what six volumes of hand-authored, per-dish technique detail
 actually produce, measured rather than asserted here.
-Ten recipes do share a photograph's source page with another recipe on the
-site — closely related dishes (naan/garlic naan, rogan josh/lamb rogan josh,
-rice pudding/kheer) rather than a mistaken duplicate, but listed in the
-report because a shared source is worth a human glance, not a judgement this
-script is positioned to make on its own.
+
+Ten recipes shared a photograph's source page with another recipe when this
+was first measured — closely related dishes (naan/garlic naan, rogan
+josh/lamb rogan josh, katsu curry/chicken katsu curry, knafeh/knafeh
+nabulsi) rather than a mistaken duplicate, listed because a shared source is
+worth a human glance, not a judgement this script is positioned to make on
+its own. Rice pudding and kheer were the fifth pair, and the one actually
+worth fixing: both had inherited the same Wordpress photo of a plain bowl of
+rice pudding, which said nothing about kheer specifically — no saffron, no
+nuts, none of the raisins the recipe itself calls for. Kheer now has its own
+photograph: a Commons image actually titled for the dish, by Swayampurna
+under CC BY-SA 4.0, chosen by hand against half a dozen other candidates (a
+street-vendor's sample cup, a food blog's watermarked shot, a plain bowl
+under almond slices) because it's the one that actually shows the saffron,
+raisins and nuts this recipe puts in the pan. Eight recipes across four
+pairs still share a source.
 
 ## A content auditor, and what it found when it was allowed to look properly
 

@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 1544
-photographs, **845** are CC0 or public domain and carry no conditions at all, and
-**699** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 1552
+photographs, **846** are CC0 or public domain and carry no conditions at all, and
+**706** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -257,11 +257,11 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 1409 |
-| Hero photographs | 1133 |
+| Hero photographs | 1141 |
 | Secondary "process" photographs | 411 |
 | Generated illustrations | 191 |
-| Total image files | 3470 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 85 |
+| Total image files | 3486 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 77 |
 
 ### Licences used
 
@@ -269,14 +269,14 @@ wrong dish were deleted rather than kept.
 |---|---:|---|
 | CC0 | 487 | No rights reserved — no attribution legally required |
 | CC BY 2.0 | 289 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 1.0 | 204 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 201 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 205 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 205 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 110 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 100 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 3.0 | 56 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 57 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 43 | No rights reserved — no attribution legally required |
+| CC BY 4.0 | 19 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 19 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 4.0 | 17 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 6 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 5 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 2.0 de | 2 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -322,14 +322,12 @@ and no usable illustration of them could be drawn either:
 - Aïoli (`aioli`)
 - Lotte à l'Armoricaine (`lotte-a-l-armoricaine`)
 - Bar en Croûte de Sel (`bar-en-croute-de-sel`)
-- Saucisson en Brioche (`saucisson-brioche`)
 - Pain au Chocolat (`pain-au-chocolat`)
 - Saint-Honoré (`saint-honore`)
 - Mont-Blanc (`mont-blanc`)
 - Pithiviers (`pithiviers`)
 - Baba au Rhum (`baba-au-rhum`)
 - Fiori di Zucca Fritti (`fiori-di-zucca`)
-- Anelletti al Forno (`anelletti-al-forno`)
 - Fregola con Arselle (`fregola`)
 - Risotto ai Funghi Porcini (`risotto-ai-funghi`)
 - Involtini di Manzo (`involtini-di-manzo`)
@@ -342,8 +340,6 @@ and no usable illustration of them could be drawn either:
 - Steak and Kidney Pudding (`steak-and-kidney-pudding`)
 - Gammon with Parsley Sauce (`gammon-parsley-sauce`)
 - Fish Pie (`fish-pie`)
-- Stovies (`stovies`)
-- Bubble and Squeak (`bubble-and-squeak`)
 - Mushy Peas (`mushy-peas`)
 - Honey Roast Parsnips (`honey-roast-parsnips`)
 - Rumbledethumps (`rumbledethumps`)
@@ -352,7 +348,6 @@ and no usable illustration of them could be drawn either:
 - Dundee Cake (`dundee-cake`)
 - Nai Wong Bao (`nai-wong-bao`)
 - Choy Sum in Oyster Sauce (`choy-sum-oyster-sauce`)
-- Hot Dry Noodles (`hot-dry-noodles`)
 - Vinegar Cabbage (`vinegar-cabbage`)
 - Stir-Fried Lotus Root (`lotus-root-stir-fry`)
 - Tangyuan (`tangyuan`)
@@ -360,7 +355,6 @@ and no usable illustration of them could be drawn either:
 - Chicken 65 (`chicken-65`)
 - Fish Tikka (`fish-tikka`)
 - Korean Corn Cheese (`korean-corn-cheese`)
-- Ebi Fry (`ebi-fry`)
 - Thai Yellow Curry (`thai-yellow-curry`)
 - Pad Woon Sen (`pad-woon-sen`)
 - Egg Salad (`egg-salad`)
@@ -376,7 +370,6 @@ and no usable illustration of them could be drawn either:
 - Mandazi (`mandazi`)
 - Czech Dumplings (`knedliky`)
 - Katsudon (`katsudon`)
-- Khai Jiao (`khai-jiao`)
 - Khanom Krok (`khanom-krok`)
 - Gỏi Gà (`goi-ga`)
 - Dal Palak (`dal-palak`)
@@ -385,7 +378,6 @@ and no usable illustration of them could be drawn either:
 - Corned Beef Hash (`corned-beef-hash`)
 - German Potato Salad (`kartoffelsalat`)
 - Black Forest Gateau (`black-forest-gateau`)
-- Pierogi Ruskie (`pierogi-ruskie`)
 - Paletas (`paletas`)
 - Conchas (`conchas`)
 
@@ -778,7 +770,7 @@ licence as the rest of this project.
 | `kerala-fish-curry.webp` / `.jpg` | Kerala Fish Curry | Hero | A traditional Kerala fish curry with tomatoes, and coconut milk, served in a black pot with a spoon, on a kitchen counter. | Ajith R N | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/7016637de7/) |
 | `kerala-fish-curry-process.webp` / `.jpg` | Kerala Fish Curry | Process | Kerala Style Kappa Puzhukku (Mashed Tapioca) and Fish Curry. | Ajith R N | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/71765729d9/) |
 | `chapati.webp` / `.jpg` | Chapati (Roti) | Hero | A golden-brown flatbread (roti/chapati) freshly cooked in a small black pan, held up against a lush green meadow. | appealdahal | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/7876a26595/) |
-| `kheer.webp` / `.jpg` | Rice Kheer | Hero | Creamy rice pudding topped with raisins. A simple, homemade comfort food to brighten the day! | Sohail Anwar | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/5106a88d4b/) |
+| `kheer.webp` / `.jpg` | Rice Kheer | Hero | Kheer aka,rice pudding | Swayampurna | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kheer_aka,rice_pudding.jpg) |
 | `kheer-process.webp` / `.jpg` | Rice Kheer | Process | A long buffet table is laden with an assortment of breakfast pastries, including croissants, muffins, sliced cakes, and a bowl of rice pudding. | Faisal Ahammad | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/72768c90e4/) |
 | `jalebi.webp` / `.jpg` | Jalebi | Hero | A close-up of bright orange jalebis piled on a metal tray, with syrup glistening to create a warm, indulgent feel. | Tawhid Sadman | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/5686967b2a/) |
 | `aloo-paratha.webp` / `.jpg` | Aloo Paratha | Hero | A aloo paratha with visible pieces of onions and spices is being cooked on a black pan. | Milan Hamal | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/33167fd10c/) |
@@ -1626,6 +1618,7 @@ licence as the rest of this project.
 | `tarte-flambee.webp` / `.jpg` | Tarte Flambée | Hero | Free pumpkin tarte flambee image | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5918705/image-public-domain-plant-food) |
 | `tarte-flambee-process.webp` / `.jpg` | Tarte Flambée | Process | Flammekueche (tarte flambée) | Jane Belinda Smith from Peterborough, Cambridgeshire, England | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flammekueche_(tarte_flamb%C3%A9e).jpg) |
 | `galettes-bretonnes.webp` / `.jpg` | Galettes Bretonnes | Hero | Almost done. Just adding a little bit of butter. à la bretonne! | -Jérôme- | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/76474448@N00/8454387436) |
+| `saucisson-brioche.webp` / `.jpg` | Saucisson en Brioche | Hero | Saucisson pistaché en brioche | Arnaud 25 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=79508467) |
 | `tarte-aux-pommes.webp` / `.jpg` | Tarte aux Pommes | Hero | Tarte aux pommes | Nutrition, Food Safety & Health | CC0 1.0 | [Flickr](https://www.flickr.com/photos/93936679@N05/38146844145) |
 | `tarte-normande.webp` / `.jpg` | Tarte Normande | Hero | Tarte normande | zigazou76 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/38712296@N07/6250861978) |
 | `flan-parisien.webp` / `.jpg` | Flan Parisien | Hero | Flan parisien au chocolat | Arnaud Dessein | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/80942428@N05/8653217006) |
@@ -1679,6 +1672,7 @@ licence as the rest of this project.
 | `pasta-e-ceci-process.webp` / `.jpg` | Pasta e Ceci | Process | Pasta e ceci | spurekar | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/63324741@N04/49671162847) |
 | `pasta-con-le-sarde.webp` / `.jpg` | Pasta con le Sarde | Hero | Pasta alle sarde della Troticoltura Armanini | Michela Simoncini | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/59422190@N00/16701090462) |
 | `busiate-trapanese.webp` / `.jpg` | Busiate al Pesto Trapanese | Hero | Busiate trapanesi con pesto alla trapanese | Andrea Critti | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/148068814@N04/49694563437) |
+| `anelletti-al-forno.webp` / `.jpg` | Anelletti al Forno | Hero | File:Anelletti al forno.jpg | Dedda71 | CC BY-SA 3.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=4588738) |
 | `risotto-al-nero.webp` / `.jpg` | Risotto al Nero di Seppia | Hero | Risotto Nero #yamnamnam | @N3T1O | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/70596205@N00/8294595311) |
 | `risotto-al-nero-process.webp` / `.jpg` | Risotto al Nero di Seppia | Process | Risotto al nero di seppia con brunoise di zucchine croccanti | Micaiena | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/49281152@N03/4520625134) |
 | `risi-e-bisi.webp` / `.jpg` | Risi e Bisi | Hero | Risi e Bisi | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/4959578587) |
@@ -1741,6 +1735,8 @@ licence as the rest of this project.
 | `devilled-whitebait.webp` / `.jpg` | Devilled Whitebait | Hero | Devilled whitebait & Calamari | Bernt Rostad | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/67975030@N00/5818529287) |
 | `rabbit-pie.webp` / `.jpg` | Rabbit Pie | Hero | Rabbit Pie | Tom Head | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66081878@N00/8343001706) |
 | `rabbit-pie-process.webp` / `.jpg` | Rabbit Pie | Process | Rabbit pie | whatleydude | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/85318305@N00/8457764047) |
+| `stovies.webp` / `.jpg` | Stovies | Hero | Stovies with beef leftovers & oatcakes | Mutt Lunker | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=97509805) |
+| `bubble-and-squeak.webp` / `.jpg` | Bubble and Squeak | Hero | Bubble & Squeak Special and hot chocolate - Monty's 2025-12-05 | Andy Li | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=179433977) |
 | `braised-red-cabbage.webp` / `.jpg` | Braised Red Cabbage | Hero | Dehlia Smith's Braised Red Cabbage with Apples | omaniblog | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/80816405@N00/4215614424) |
 | `braised-red-cabbage-process.webp` / `.jpg` | Braised Red Cabbage | Process | Braised red snapper, conch, ocean trout + uni + gingko | T.Tseng | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/68147320@N02/15125195744) |
 | `champ.webp` / `.jpg` | Champ | Hero | File:Champ (food).JPG | Glane23 | CC BY-SA 3.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=11094009) |
@@ -1809,6 +1805,7 @@ licence as the rest of this project.
 | `mei-cai-kou-rou.webp` / `.jpg` | Mei Cai Kou Rou | Hero | 梅菜扣肉 Pork Belly with Mei Cai Preserved Vegetable - Easy East | avlxyz | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/10559879@N00/3225211598) |
 | `dry-fried-green-beans.webp` / `.jpg` | Dry-Fried Green Beans | Hero | An open buffet warmer is filled with a large serving of dry-fried chicken pieces coated in a rich, reddish-brown spice mix. | Faisal Ahammad | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/45868c907d/) |
 | `yong-tau-foo.webp` / `.jpg` | Yong Tau Foo | Hero | Hakka Yong Tau Foo at Yong Tau Foo Bagus, Changi Road | shootoh | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/92659880@N08/8416706502) |
+| `hot-dry-noodles.webp` / `.jpg` | Hot Dry Noodles | Hero | SZ 深圳 Shenzhen 龍萃 Longhua 慶員外熱干麵 Qing Yuenwei Re Gan Mian Noodle Shop lunch June 2023 Px3 06 | Choiguo Kammiez | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=133084666) |
 | `biang-biang-noodles.webp` / `.jpg` | Biang Biang Noodles | Hero | Biang Biang Mian at Xi'an Famous Eats | Gary Soup | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87117631@N00/2448171507) |
 | `yangzhou-fried-rice.webp` / `.jpg` | Yangzhou Fried Rice | Hero | Yangzhou fried rice and drinks 25-09-2019 | LN9267 | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=124898166) |
 | `claypot-rice.webp` / `.jpg` | Claypot Rice | Hero | 鱼柳酸菜煲仔饭 Fish Fillet and Preserved Mustard Green Claypot Rice - First Taste (2617879522) | Alpha from Melbourne, Australia | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E9%B1%BC%E6%9F%B3%E9%85%B8%E8%8F%9C%E7%85%B2%E4%BB%94%E9%A5%AD_Fish_Fillet_and_Preserved_Mustard_Green_Claypot_Rice_-_First_Taste_(2617879522).jpg) |
@@ -1847,6 +1844,7 @@ licence as the rest of this project.
 | `hotteok.webp` / `.jpg` | Hotteok | Hero | Korean snack-Hotteok-01 | by yearofeats | CC BY 2.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=3750901) |
 | `shoyu-ramen.webp` / `.jpg` | Shoyu Ramen | Hero | Shoyu Ramen (image of shoyu ramen on Wikidata Q11252514) | Guilhem Vellut | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shoyu_Ramen.jpg) |
 | `shoyu-ramen-process.webp` / `.jpg` | Shoyu Ramen | Process | Agodashi Ramen Ikitsuki Nagasaki 2008 | ja:User:Sanjo | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Agodashi_Ramen_Ikitsuki_Nagasaki_2008.jpg) |
+| `ebi-fry.webp` / `.jpg` | Ebi Fry | Hero | Ebi Fry 003 | Ocdp | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=89034238) |
 | `japanese-curry-roux.webp` / `.jpg` | Japanese Curry Roux | Hero | Bangera's Curry & Lassi | 電車(新幹線)でゴー！ | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bangera%27s_Curry_%26_Lassi.jpg) |
 | `japanese-curry-roux-process.webp` / `.jpg` | Japanese Curry Roux | Process | ラーメン屋でチャーシューカレー | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%B1%8B%E3%81%A7%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%AB%E3%83%AC%E3%83%BC.jpg) |
 | `chicken-fajitas.webp` / `.jpg` | Chicken Fajitas | Hero | Chicken Fajitas | Denis Dervisevic | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/23979265@N07/4589449172) |
@@ -1914,6 +1912,7 @@ licence as the rest of this project.
 | `sfiha-process.webp` / `.jpg` | Sfiha | Process | Empanadas argentinas llamadas árabes, similares a las Sfiha cerradas | Carlosdisogra | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Empanadas_argentinas_llamadas_%C3%A1rabes,_similares_a_las_Sfiha_cerradas.JPG) |
 | `fattet-hummus.webp` / `.jpg` | Fattet Hummus | Hero | Fatethomos | Deed89 at English Wikipedia | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fatethomos.JPG) |
 | `hiyayakko.webp` / `.jpg` | Hiyayakko | Hero | Hiyayakko with bonito flakes and welsh onion 2 | Dllu | CC BY-SA 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=49814625) |
+| `khai-jiao.webp` / `.jpg` | Khai Jiao | Hero | Khai Jiao | Vee Satayamas | CC BY 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=157359364) |
 | `pad-prik-king.webp` / `.jpg` | Pad Prik King | Hero | Phrik khing fried crispy pork with rice - Chiang Mai - 2017-07-09 | Iudexvivorum | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phrik_khing_fried_crispy_pork_with_rice_-_Chiang_Mai_-_2017-07-09.jpg) |
 | `banh-cuon.webp` / `.jpg` | Bánh Cuốn | Hero | Bánh cuốn Thanh Trì (image of bánh cuốn on Wikidata Q50622) | Casablanca1911 at vi.wikipedia | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_cu%E1%BB%91n_Thanh_Tr%C3%AC.jpg) |
 | `bun-rieu.webp` / `.jpg` | Bún Riêu | Hero | Bún riêu đặc biệt (image of bun rieu on Wikidata Q4997403) | TarnishedPath | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%BAn_ri%C3%AAu_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg) |
@@ -1938,6 +1937,7 @@ licence as the rest of this project.
 | `tattie-scones.webp` / `.jpg` | Tattie Scones | Hero | Can't beat a bit of haggis and tattie scones for breakfast | Tony Peters | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/7538452@N03/40994185764) |
 | `rouladen.webp` / `.jpg` | Rouladen | Hero | SpanelskyPtacek (image of Rinderroulade on Wikidata Q9293083) | Pastorius | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SpanelskyPtacek.jpg) |
 | `obatzda.webp` / `.jpg` | Obatzda | Hero | Obatzter-1 (image of Obatzda on Wikidata Q707630) | Rainer Z ... | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Obatzter-1.jpg) |
+| `pierogi-ruskie.webp` / `.jpg` | Pierogi Ruskie | Hero | Pierogi ruskie ze skwarkami 10 IV 2026 | Aw58 | CC BY 4.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=191568410) |
 | `varenyky.webp` / `.jpg` | Varenyky | Hero | A plate of cherry dumplings with sour cream | Vi Ko | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_plate_of_cherry_dumplings_with_sour_cream.jpg) |
 | `pkhali.webp` / `.jpg` | Pkhali | Hero | Pkhali 3 | Krista | CC BY 2.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=35887716) |
 | `jachnun.webp` / `.jpg` | Jachnun | Hero | Jachnun (cropped) (image of Jachnun on Wikidata Q1960279) | Joshua Herzig-Marx | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jachnun_(cropped).jpg) |

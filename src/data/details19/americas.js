@@ -550,7 +550,7 @@ module.exports = {
     d: 'Tinned tuna with celery, red onion and mayonnaise. Ten minutes, and the celery is not optional.',
     meta: 'Tinned tuna flaked and mixed with mayonnaise, celery, red onion, lemon and dill for sandwiches or salad.',
     kw: ['tuna salad', 'tuna salad recipe', 'tuna mayo', 'tuna sandwich filling', 'canned tuna recipe'],
-    why: 'Drain the tuna thoroughly and press it in the tin lid — every spoonful of oil or brine left in makes the finished salad looser and blander, and you cannot correct it by adding more mayonnaise. Celery diced small is what stops the whole thing being one soft texture, and it is the difference between a good tuna salad and a paste.',
+    why: 'Drain the tuna thoroughly and press it in the tin lid — every spoonful of oil or brine left in makes the finished salad looser and blander, and you cannot correct it by adding more mayonnaise. Celery diced small is what stops the whole thing being one soft texture, and it is the difference between a good tuna salad and a paste. Tuna tinned in oil gives a richer result than the spring water used here, if you would rather use it — just drain it even more thoroughly, since oil clings harder than brine.',
     ing: [
       '3 tins tuna in spring water, about 400 g drained',
       '5 tbsp mayonnaise',

@@ -1,12 +1,11 @@
 slug,title,word_count,under_400_words,generic_phrases,generic_phrase_count,templated_opening_shared_with_n,missing_image,is_illustration_not_photo,duplicate_image_with,cuisine,category
-tuna-salad,Tuna Salad,385,yes,,0,,,yes,,American,Lunch
-bhel-puri,Bhel Puri,398,yes,,0,,,,,Indian,Appetizers
 grilled-cheese,Grilled Cheese Sandwich,402,,,0,,,yes,,American,Quick Meals
 bombay-sandwich,Bombay Sandwich,406,,,0,,,yes,,Indian,Breakfast
 coleslaw,Coleslaw,408,,,0,,,yes,,American,Lunch
 egg-salad,Egg Salad,409,,,0,,yes,,,American,Lunch
 shrikhand,Shrikhand,411,,,0,,,,,Indian,Desserts
 carottes-rapees,Carottes Râpées,417,,,0,,,,,French,Appetizers
+tuna-salad,Tuna Salad,418,,,0,,,yes,,American,Lunch
 chicken-salad,Chicken Salad,419,,,0,,,yes,,American,Lunch
 grilled-kippers,Grilled Kippers,419,,,0,,,yes,,British,Breakfast
 aperol-spritz,Aperol Spritz,422,,,0,,,,,Italian,Drinks
@@ -16,6 +15,7 @@ malpua,Malpua,427,,,0,,,yes,,Indian,Desserts
 tiropita,Tiropita,427,,,0,,,,,Greek,Appetizers
 pico-de-gallo,Pico de Gallo,428,,,0,,,,,Mexican,Appetizers
 karkade,Karkade,430,,,0,,,yes,,Egyptian,Drinks
+bhel-puri,Bhel Puri,432,,,0,,,,,Indian,Appetizers
 brigadeiro,Brigadeiro,433,,,0,,,yes,,Brazilian,Desserts
 laverbread-and-bacon,Laverbread with Bacon,433,,,0,,,,,Welsh,Breakfast
 chouquettes,Chouquettes,434,,,0,,,,,French,Baking
@@ -186,7 +186,7 @@ religieuse,Religieuse,497,,,0,,,,,French,Desserts
 devils-on-horseback,Devils on Horseback,498,,,0,,,,,British,Appetizers
 meghli,Meghli,498,,,0,,,,,Lebanese,Desserts
 canederli,Canederli,499,,,0,,,,,Italian,Dinner
-rice-pudding,Baked Rice Pudding,499,,,0,,,,kheer,British,Desserts
+rice-pudding,Baked Rice Pudding,499,,,0,,,,,British,Desserts
 ayran,Ayran,500,,,0,,,,,Turkish,Drinks
 farinata,Farinata,500,,,0,,,yes,,Italian,Appetizers
 osbane,Osbane,500,,,0,,,,,Tunisian,Dinner
@@ -549,7 +549,7 @@ onion-rings,Beer-Battered Onion Rings,566,,,0,,,,,American,Appetizers
 sambousek,Sambousek,566,,,0,,,,,Lebanese,Appetizers
 dahi-vada,Dahi Vada,567,,,0,,,yes,,Indian,Appetizers
 garbure,Garbure,567,,,0,,,,,French,Lunch
-kheer,Rice Kheer,567,,,0,,,,rice-pudding,Indian,Desserts
+kheer,Rice Kheer,567,,,0,,,,,Indian,Desserts
 panzanella,Tuscan Panzanella,567,,,0,,,,,Italian,Healthy
 brodetto,Brodetto all'Anconetana,568,,,0,,,,,Italian,Dinner
 jellied-eels,Jellied Eels,568,,,0,,,,,British,Appetizers
