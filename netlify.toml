@@ -61,3 +61,12 @@
   for = "/search-index.json"
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
+
+# Netlify serves .xml as application/xml by default, but Pinterest's crawler
+# is the one consumer here that matters enough not to leave to a default —
+# an explicit charset is what was asked for, so it is set explicitly.
+[[headers]]
+  for = "/pinterest-feed.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"

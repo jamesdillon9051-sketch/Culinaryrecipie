@@ -305,7 +305,7 @@ for (const file of htmlFiles) {
 }
 
 /* --- site plumbing ------------------------------------------------------ */
-for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml']) {
+for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
 }
 
@@ -317,6 +317,51 @@ for (const url of sitemapUrls) {
   if (!existing.has(target)) problems.push(`sitemap points at a missing page: ${url}`);
 }
 if (sitemapUrls.length !== new Set(sitemapUrls).size) problems.push('sitemap contains duplicate URLs');
+
+/* --- the Pinterest feed carries what it claims to -------------------------
+   A namespace declared but not used, or an <item> missing the media:content
+   Pinterest actually reads, would build clean and still not do the one thing
+   this file exists for. Checked against the same recipe count the feed was
+   built from, not a fixed number, so a future recipe with no photograph
+   changes this total along with it rather than tripping a stale check. */
+{
+  const pinPath = path.join(DIST, 'pinterest-feed.xml');
+  if (fs.existsSync(pinPath)) {
+    const pin = fs.readFileSync(pinPath, 'utf8');
+    for (const ns of ['xmlns:content="http://purl.org/rss/1.0/modules/content/"',
+                       'xmlns:media="http://search.yahoo.com/mrss/"']) {
+      if (!pin.includes(ns)) problems.push(`pinterest-feed.xml is missing the ${ns} namespace declaration`);
+    }
+    const items = [...pin.matchAll(/<item>[\s\S]*?<\/item>/g)].map(m => m[0]);
+    const { loadRecipes } = require('../src/build');
+    const withImage = loadRecipes().filter(r => r.imageData).length;
+    if (items.length !== withImage) {
+      problems.push(`pinterest-feed.xml has ${items.length} items but ${withImage} recipes carry a `
+        + `real photograph or illustration — one of the two is wrong`);
+    }
+    const missingMedia = items.filter(i => !/<media:content /.test(i));
+    if (missingMedia.length) {
+      problems.push(`${missingMedia.length} pinterest-feed.xml item(s) carry no media:content, `
+        + `which is the one thing Pinterest reads this feed for`);
+    }
+    const missingEncoded = items.filter(i => !/<content:encoded><!\[CDATA\[/.test(i));
+    if (missingEncoded.length) {
+      problems.push(`${missingEncoded.length} pinterest-feed.xml item(s) carry no CDATA-wrapped content:encoded`);
+    }
+    /* Every image URL an <item> points at has to be a file this build
+       actually wrote, or Pinterest fetches a 404 for every pin. */
+    for (const item of items) {
+      const m = /<media:content url="([^"]+)"/.exec(item);
+      if (!m) continue;
+      const rel = m[1].replace(origin, '').replace(/^\//, '');
+      if (!existing.has('/' + rel)) {
+        problems.push(`pinterest-feed.xml points at an image that was not built: ${m[1]}`);
+      }
+    }
+  } else {
+    problems.push('pinterest-feed.xml is missing');
+  }
+}
 
 const index = JSON.parse(fs.readFileSync(path.join(DIST, 'search-index.json'), 'utf8'));
 const expectedRecipes = require('../src/data/stats').recipeCount;

@@ -2175,6 +2175,43 @@ keyword's claim is true or a substitution's ingredient is really there. The
 the same way a sourced photograph that might show the wrong dish is looked
 at rather than asserted.
 
+## A second feed, for Pinterest
+
+`pinterest-feed.xml` was asked for as `feed.php`, pulling from a database
+with `ORDER BY created_at DESC`. Neither exists here: there is no PHP
+runtime anywhere in this deployment (see the file header on `src/build.js` —
+"No dependencies — Node 18+ only" is not a stale comment) and no database,
+just the recipe objects `src/data/*` already builds into. A `.php` file
+would not have run; the request's own last requirement — match the existing
+code structure — pointed at building this the way `feed.xml`, `sitemap.xml`
+and `search-index.json` already are, at build time, in JavaScript.
+
+It is a second file rather than a change to `feed.xml`, because the two are
+for different jobs. `feed.xml` is a subscription feed and stays capped at
+the 25 most recent recipes, the normal shape for something a reader follows.
+Pinterest's RSS auto-publish walks a backlog and pins whatever it has not
+seen before, and the brief was explicit that it should cover every published
+recipe rather than only what is new, so `pinterest-feed.xml` carries the
+whole catalogue, oldest and newest alike, with the `content` and `media`
+namespaces Pinterest's importer reads: `<media:content>` for the image a pin
+is actually built from, `<content:encoded>` carrying the why-it-works
+paragraph and the chef's tips as simple HTML in a CDATA block, built from
+fields the recipe page already publishes rather than written fresh for this
+file.
+
+One filter: a recipe with no real photograph or illustration is left out of
+it entirely. Pinterest pins an image — there is no version of this feed
+where that is optional — and a `<media:content>` pointing at a file that was
+never built would not quietly do nothing, it would be a broken pin. 77 of
+1,409 recipes have no photograph yet ("Where the photographs ran out",
+above), so the feed carries 1,332 items. `npm run check` verifies the count
+against the same recipes the feed was generated from rather than a fixed
+number, checks both namespaces are declared, and checks every item actually
+carries a `media:content` and a CDATA-wrapped `content:encoded` — and that
+the image URL each one names is a file the build actually wrote, not merely
+a URL that is shaped correctly. Fault-injected by stripping one item's
+`media:content` and confirming the build failed before restoring it.
+
 ## Ads
 
 `npm run check` verifies that every page carries every unit that is switched

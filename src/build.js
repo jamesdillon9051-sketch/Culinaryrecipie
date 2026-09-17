@@ -95,7 +95,7 @@ const SRC = __dirname;
 const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
   'about', 'contact', 'privacy', 'search', 'favourites'];
 const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
-  'manifest.json', 'feed.xml', 'search-index.json', '_redirects'];
+  'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects'];
 
 /* Never removable, whatever else changes. A typo in GENERATED_* that collided
    with one of these would otherwise delete the project. */
@@ -620,6 +620,91 @@ ${items}
 </rss>\n`;
 }
 
+/**
+ * pinterest-feed.xml — every recipe with a real photograph or illustration,
+ * as RSS 2.0 with the content and media namespace extensions Pinterest's
+ * RSS auto-publish feature reads.
+ *
+ * This was asked for as a PHP script pulling from a database on
+ * `ORDER BY created_at DESC`. Neither exists here — the site is a
+ * dependency-free static generator (see the file header above) and every
+ * recipe lives in src/data/*, not a table with a created_at column — and
+ * PHP would not execute on this deployment at all, so a feed.php would ship
+ * as either a 404 or, worse, the raw source served as plain text. Built
+ * instead the way every other machine-readable file on this site is: at
+ * build time, from the same recipe objects feed() above already uses, which
+ * is also what "match the existing code structure" was asked for.
+ *
+ * Kept separate from feed.xml rather than replacing it. feed.xml is a
+ * general subscription feed and stays capped at the 25 most recent recipes,
+ * which is the normal shape for something a reader subscribes to. Pinterest
+ * auto-publish is a different job — walking a backlog and pinning what it
+ * has not seen yet — and the request was explicit that it should cover all
+ * published recipes, not just what is new, so this is every recipe rather
+ * than a recent slice.
+ *
+ * One filter: a recipe with no real photograph or illustration is left out.
+ * Pinterest pins an image — that is the entire product — and a <media:content>
+ * pointing at a file that does not exist would not quietly do nothing, it
+ * would be a broken pin. recipeSchema() above already declines to publish
+ * Recipe.image for exactly this reason; this is the same rule for the same
+ * reason. 77 of 1,409 recipes have no photograph yet (see README, "Where the
+ * photographs ran out"), so this feed carries 1,332 items, not 1,409 — a
+ * true count rather than the one asked for.
+ */
+function pinterestFeed(recipes) {
+  const withImage = recipes
+    .filter(r => r.imageData)
+    .slice()
+    .sort((a, b) => b.published - a.published);
+
+  const lastChanged = withImage.reduce(
+    (newest, r) => (r.dateModified > newest ? r.dateModified : newest),
+    withImage[0].dateModified);
+
+  /* content:encoded is meant to be the fuller version of the item — the
+     description above is the short summary already used elsewhere, this is
+     the why-it-works paragraph and the chef's tips as simple HTML, built
+     from fields the recipe already carries rather than written new for this
+     feed. Nothing here is content the page does not already publish. */
+  const encoded = r => {
+    const tips = (r.tips || []).length
+      ? `<ul>${r.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : '';
+    return `<p>${esc(r.why)}</p>${tips}`;
+  };
+
+  const items = withImage.map(r => {
+    const url = `${SITE.origin}${SITE.base}recipes/${r.slug}/`;
+    const imageUrl = `${SITE.origin}${SITE.base}assets/img/recipes/${r.imageData.file}.jpg`;
+    return `    <item>
+      <title>${esc(r.title)}</title>
+      <link>${url}</link>
+      <guid isPermaLink="true">${url}</guid>
+      <pubDate>${new Date(r.published).toUTCString()}</pubDate>
+      <category>${esc(r.category)}</category>
+      <description>${esc(r.meta)}</description>
+      <media:content url="${esc(imageUrl)}" medium="image" type="image/jpeg" width="${r.imageData.w}" height="${r.imageData.h}"/>
+      <content:encoded><![CDATA[${encoded(r)}]]></content:encoded>
+    </item>`;
+  }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>${esc(SITE.name)}</title>
+    <link>${SITE.origin}${SITE.base}</link>
+    <description>${esc(SITE.tagline)} — every recipe with a photograph, for Pinterest.</description>
+    <language>en-gb</language>
+    <lastBuildDate>${new Date(lastChanged).toUTCString()}</lastBuildDate>
+    <atom:link href="${SITE.origin}${SITE.base}pinterest-feed.xml" rel="self" type="application/rss+xml"/>
+${items}
+  </channel>
+</rss>\n`;
+}
+
 /* ------------------------------------------------------------------ main */
 function build() {
   const started = Date.now();
@@ -778,6 +863,7 @@ function build() {
   fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
+  fs.writeFileSync(path.join(OUT, 'pinterest-feed.xml'), pinterestFeed(recipes));
   /* Netlify's file format. The host rules live in .htaccess (the live host),
      netlify.toml and vercel.json as well, so that a move between them cannot
      drop the one rule that stops every page existing at two URLs. Order
