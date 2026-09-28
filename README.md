@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1509 most famous recipes** — each
+A dependency-free static site for the world's **1609 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1509 recipes · 69 cuisines · 10 categories · 1653 static pages · 0 npm dependencies
+1609 recipes · 69 cuisines · 10 categories · 1753 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-21.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-22.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details21/ # long-form content for the matching volume
+│   │   ├── details2/ …details22/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1509 recipe pages
+├── recipes/                     #    1609 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1509 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1609 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1509 recipe pages and the about page — 8,886 questions,
+- [x] **FAQPage** on all 1609 recipe pages and the about page — 9,476 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -234,7 +234,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       well-known, authoritative government and health sites. This markup is
       correct and it will not put an accordion under the search result. The gain
       is a page that answers what people actually ask
-- [x] Keywords — 4 curated phrases per recipe, widened to a median of 88 by
+- [x] Keywords — 4 curated phrases per recipe, widened to a median of 87 by
       `src/lib/keywords.js` from the row's own cuisine, category, times,
       difficulty, diet tags, servings, ingredients, cooking method, pairings,
       per-serving nutrition and storage note. Derived rather than written, so a
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 134,056 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 142,802 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1509 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1609 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1509 recipes now passes, and `npm run check` runs the
+Every one of the site's 1609 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1133,6 +1133,65 @@ Photographs. None of the hundred has one yet, so they carry the same gradient
 card as the other seventy-five, and they will go through the image pipeline
 under the licensing rules below as every volume has. The recipes are
 published; the pictures are not.
+
+## Volume twenty-two, the British Isles
+
+A hundred more, taking the site to 1,609, from the same process as volume
+twenty-one and with the check that came out of it already in the build.
+
+331 British, Irish, Scottish and Welsh dishes were tried against the catalogue
+before anything was written: the Sunday roast and the pub menu, the curry house,
+the tea table, the biscuit tin, and the drinks. 78 were published already,
+nearly a quarter of the list — Beef Wellington, treacle tart, spotted dick,
+mulligatawny, Cornish pasty, piccalilli. Of the 253 that were not, the hundred
+here are the most searched for and the clearest about what they are.
+
+The word rules leave a number of near-repeats that only reading catches, and
+those were left out: potato farls are the tattie scones already here, wassail
+is mulled cider, a Bakewell slice is the Bakewell tart, Empire biscuits are
+Jammie Dodgers with icing, Scottish tiffin is the chocolate biscuit cake in this
+volume, and a roast chicken dinner is a roast chicken. The bacon and cabbage
+went too, being gammon with parsley sauce, which the site has.
+
+What is in it: the curry-house menu that the catalogue skipped after its tikka
+masala and korma (jalfrezi, madras, balti, dhansak, bhuna, pathia, saag aloo,
+Bombay potatoes, onion bhajis, peshwari naan, chip shop curry sauce, pilau rice),
+the roasts and pub plates (lamb shoulder, roast duck, turkey crown, gammon egg
+and chips, scampi, pie and mash), the puddings and the custard they go with,
+the biscuit tin, the sweets, Scotland's bakery (Scotch pie, Forfar bridie, Lorne
+sausage, black bun, clootie dumpling, Selkirk bannock), the Ulster fry, and the
+sauces, preserves and drinks that sit beside the roast. The curry-house dishes
+carry the Indian cuisine label, to match the chicken tikka masala and korma
+already published under it.
+
+Spread: British 75, Indian 11, Scottish 10, Irish 3, American 1.
+
+### What the audits caught
+
+Fewer than usual again, and one of them a repeat:
+
+- `lemon-barley-water` declared two hours of chilling and the audit found none.
+  The sentence read *chill for at least 2 hours and serve over ice*, and the
+  audit reads the word *serve* as a serving note and drops the whole sentence.
+  Same mechanism as `keep` in the hokey pokey last volume; the wait and the
+  serving are separate sentences now.
+- Two drinks came in under the 400-word floor, a shandy at 353 and a Pimm's cup
+  at 384. Drinks with three ingredients have less to say than a pie, and they
+  were lengthened with what is true and useful about them — why the lager goes
+  in first, what the ratio does — and not with filler. An unverifiable figure
+  about Wimbledon that I wrote into the Pimm's page came out on the reread.
+- One meta description ran to 165 characters against the 158 the site allows.
+
+And one thing no guard found: `knickerbocker-glory` was tagged Vegetarian over
+a packet of raspberry jelly, which is set with gelatin. The diet audit forbids
+the word *gelatin* and the ingredient line says *jelly*, so it passed. It lost
+the tag on the reread, as `stamppot` did in volume twenty. A guard that reads a
+list of words is a floor, not a ceiling.
+
+### What is still missing
+
+Photographs, again. The hundred are published and carry the gradient card until
+the image pipeline has been through them; there are now 275 recipes on it.
 
 ## Where the photographs ran out
 
@@ -2060,7 +2119,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **449 of the 1509 recipes** declare unattended
+The larger problem was waiting. **472 of the 1609 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2431,7 +2490,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1509 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1609 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
