@@ -5,6 +5,3 @@ __pycache__/
 .env
 .netlify/
 .vercel/
-
-# Written at the review gate; only meaningful until it is re-run with --use-draft
-recipes_data/draft_batch.json

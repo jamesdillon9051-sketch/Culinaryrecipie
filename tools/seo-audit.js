@@ -137,10 +137,8 @@ for (const [route, html] of indexable) {
 }
 
 /* 4. The sitemap against the set of pages that exists. */
-const sitemapRead = require('./sitemap-urls').read(ROOT);
-problems.push(...sitemapRead.problems);
-const sitemap = sitemapRead.xml;
-const listed = new Set(sitemapRead.urls.map(u => u.replace(/^https?:\/\/[^/]+/, '')));
+const sitemap = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+const listed = new Set([...sitemap.matchAll(/<loc>https?:\/\/[^/]+(\/[^<]*)<\/loc>/g)].map(m => m[1]));
 for (const [route] of indexable) {
   if (!listed.has(route)) problems.push(`${route} is indexable but missing from sitemap.xml`);
 }

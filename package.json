@@ -19,9 +19,7 @@
     "timing": "node tools/timing-audit.js",
     "nutrition": "node tools/nutrition-audit.js",
     "keywords": "node tools/keyword-audit.js",
-    "seo": "node tools/seo-audit.js",
-    "recipes:batch": "node scripts/build_recipe_batch.js",
-    "country": "node tools/country-recipes-audit.js"
+    "seo": "node tools/seo-audit.js"
   },
   "keywords": [
     "recipes",
