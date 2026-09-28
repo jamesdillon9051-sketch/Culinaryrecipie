@@ -309,8 +309,9 @@ for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/searc
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
 }
 
-const sitemap = fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8');
-const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+const sitemapRead = require('./sitemap-urls').read(DIST);
+problems.push(...sitemapRead.problems);
+const sitemapUrls = sitemapRead.urls;
 const origin = sitemapUrls[0] ? sitemapUrls[0].replace(/\/$/, '') : '';
 for (const url of sitemapUrls) {
   const target = resolveHref(url.replace(origin, '') || '/');
@@ -752,7 +753,7 @@ try {
    pages sharing a title, a page nothing links to, a sitemap that has drifted
    from the routes. None of those is visible from inside a single file. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
-                     'substitutions-audit.js']) {
+                     'substitutions-audit.js', 'country-recipes-audit.js']) {
   try {
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, audit)], { stdio: 'pipe' });

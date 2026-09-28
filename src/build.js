@@ -85,6 +85,7 @@ const { recipeCount } = require('./data/stats');
 const ads = require('./templates/ads');
 const pages = require('./templates/pages');
 const recipePage = require('./templates/recipe-page');
+const countryRecipes = require('./lib/country-recipes');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = ROOT;               /* generated site is written to the repo root */
@@ -95,7 +96,13 @@ const SRC = __dirname;
 const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
   'about', 'contact', 'privacy', 'search', 'favourites'];
 const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
-  'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects'];
+  'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects',
+  /* Written only once a country batch is published. sitemap.xml then becomes an
+     index over sitemap-core.xml (everything the site had before) and one
+     sitemap per country. search_index.json is the metadata index for country
+     pages, kept apart from search-index.json — see lib/country-recipes.js. */
+  'sitemap-core.xml', 'sitemap-us.xml', 'sitemap-uk.xml', 'sitemap-ca.xml', 'sitemap-au.xml',
+  'sitemap-nz.xml', 'search_index.json'];
 
 /* Never removable, whatever else changes. A typo in GENERATED_* that collided
    with one of these would otherwise delete the project. */
@@ -457,7 +464,7 @@ function distinctWords(text) {
 }
 
 /* --------------------------------------------------------- site plumbing */
-function sitemap(recipes, ctx) {
+function sitemap(recipes, ctx, extraEntries = []) {
   const dates = ctx.dates;
   /* Hub pages list recipes, so their content changes when the set they list
      does. Fingerprinting that list is what stops the date moving on a rebuild
@@ -500,6 +507,7 @@ function sitemap(recipes, ctx) {
     urls.push(entry(`ingredients/${hub.slug}/`,
       hubDate(`/ingredients/${hub.slug}/`, hub.recipes.map(r => r.slug).sort()), 'weekly', '0.7'));
   }
+  urls.push(...extraEntries);
   for (const recipe of recipes) {
     const image = recipe.imageData
       ? `\n    <image:image>\n      <image:loc>${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg</image:loc>\n` +
@@ -542,6 +550,11 @@ Disallow: /favourites/
 # directories sit alongside it. Nothing there is worth crawling.
 Disallow: /src/
 Disallow: /tools/
+
+# The country recipe batches are source data, and batches not yet published
+# are content that should not be fetchable before its page exists.
+Disallow: /scripts/
+Disallow: /recipes_data/
 
 User-agent: Googlebot
 Allow: /
@@ -710,6 +723,9 @@ function build() {
   const started = Date.now();
   const recipes = loadRecipes();
   const ctx = buildContext(recipes);
+  /* Validated before anything is cleaned: a broken country record must fail
+     the build with the site still whole, not after recipes/ has been removed. */
+  const live = countryRecipes.loadLive(ROOT, recipes);
 
   cleanOutput();
   mkdir(OUT);
@@ -857,9 +873,38 @@ function build() {
     writePage(`recipes/${recipe.slug}/index.html`, recipePage.render(recipe, ctx));
   }
 
+  /* Country recipe pages ------------------------------------------------ */
+  /* Every published batch is re-rendered from recipes_data/ on every build,
+     because the clean above removed recipes/ and the pages in it with it. */
+  let country = null;
+  if (live.records.length) {
+    country = countryRecipes.compile(live.records,
+      { ctx, dates: ctx.dates, publishedAt: live.publishedAt });
+    if (country.problems.length) {
+      throw new Error(`Country recipe pages failed verification:\n  ${country.problems.join('\n  ')}`);
+    }
+    for (const page of country.pages) {
+      const target = countryRecipes.assertWritable(OUT, page.file);
+      mkdir(path.dirname(target));
+      fs.writeFileSync(target, page.html);
+    }
+  }
+
   /* Data + plumbing ----------------------------------------------------- */
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(searchIndex(recipes)));
-  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap(recipes, ctx));
+  const coreSitemap = sitemap(recipes, ctx, country ? country.coreEntries : []);
+  if (country) {
+    fs.writeFileSync(path.join(OUT, 'sitemap-core.xml'), coreSitemap);
+    for (const [file, content] of Object.entries(country.files)) {
+      fs.writeFileSync(path.join(OUT, file), content);
+    }
+    const coreModified = countryRecipes.maxDate(
+      [...coreSitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map(m => m[1]));
+    fs.writeFileSync(path.join(OUT, 'sitemap.xml'), countryRecipes.sitemapIndex(
+      [{ file: 'sitemap-core.xml', lastmod: coreModified }, ...country.regional]));
+  } else {
+    fs.writeFileSync(path.join(OUT, 'sitemap.xml'), coreSitemap);
+  }
   fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
@@ -936,6 +981,8 @@ function build() {
     + `${withDrawings ? `, ${withDrawings} illustrated` : ''}`
     + `, ${recipes.length - withImages} using gradient placeholders)`);
   console.log(`  html pages   ${html.length}`);
+  if (country) console.log(`  country      ${live.records.length} recipes in ${country.byCountry.size} `
+    + `${country.byCountry.size === 1 ? 'country' : 'countries'}, ${country.pages.length} pages`);
   console.log(`  total files  ${files.length}`);
   console.log(`  output size  ${(bytes / 1024 / 1024).toFixed(1)} MB`);
   console.log(`  origin       ${SITE.origin}${SITE.base}`);

@@ -1,0 +1,8 @@
+{
+  "_readme": "Batches that are live. build.js renders exactly these, from the country files beside this one, on every build. Written by scripts/build_recipe_batch.js when a batch is approved; a dry run never touches it.",
+  "us": [],
+  "uk": [],
+  "ca": [],
+  "au": [],
+  "nz": []
+}

@@ -19,6 +19,11 @@ Disallow: /favourites/
 Disallow: /src/
 Disallow: /tools/
 
+# The country recipe batches are source data, and batches not yet published
+# are content that should not be fetchable before its page exists.
+Disallow: /scripts/
+Disallow: /recipes_data/
+
 User-agent: Googlebot
 Allow: /
 Allow: /assets/img/
