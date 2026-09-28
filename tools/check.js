@@ -752,7 +752,7 @@ try {
    pages sharing a title, a page nothing links to, a sitemap that has drifted
    from the routes. None of those is visible from inside a single file. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
-                     'substitutions-audit.js']) {
+                     'substitutions-audit.js', 'duplicates-audit.js']) {
   try {
     require('child_process').execFileSync(process.execPath,
       [require('path').join(__dirname, audit)], { stdio: 'pipe' });

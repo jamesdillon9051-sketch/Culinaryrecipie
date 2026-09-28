@@ -19,7 +19,9 @@
     "timing": "node tools/timing-audit.js",
     "nutrition": "node tools/nutrition-audit.js",
     "keywords": "node tools/keyword-audit.js",
-    "seo": "node tools/seo-audit.js"
+    "seo": "node tools/seo-audit.js",
+    "duplicates": "node tools/duplicates-audit.js",
+    "dedupe": "node tools/dedupe-candidates.js"
   },
   "keywords": [
     "recipes",
