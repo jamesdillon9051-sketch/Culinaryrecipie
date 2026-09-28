@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1409 most famous recipes** — each
+A dependency-free static site for the world's **1509 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1409 recipes · 67 cuisines · 10 categories · 1551 static pages · 0 npm dependencies
+1509 recipes · 69 cuisines · 10 categories · 1653 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-20.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-21.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details20/ # long-form content for the matching volume
+│   │   ├── details2/ …details21/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1409 recipe pages
+├── recipes/                     #    1509 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1409 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1509 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1409 recipe pages and the about page — 8,288 questions,
+- [x] **FAQPage** on all 1509 recipe pages and the about page — 8,886 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -234,7 +234,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       well-known, authoritative government and health sites. This markup is
       correct and it will not put an accordion under the search result. The gain
       is a page that answers what people actually ask
-- [x] Keywords — 4 curated phrases per recipe, widened to a median of 87 by
+- [x] Keywords — 4 curated phrases per recipe, widened to a median of 88 by
       `src/lib/keywords.js` from the row's own cuisine, category, times,
       difficulty, diet tags, servings, ingredients, cooking method, pairings,
       per-serving nutrition and storage note. Derived rather than written, so a
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 125,057 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 134,056 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1409 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1509 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1409 recipes now passes, and `npm run check` runs the
+Every one of the site's 1509 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1010,6 +1010,129 @@ always be a floor rather than a ceiling.
 Every one of the hundred pages carries thirty meta keywords, twenty
 dish-specific schema keywords, a title inside sixty characters, a description
 between 140 and 160, a self-referencing canonical and a sitemap entry.
+
+## Volume twenty-one, and a check that runs on every build
+
+A hundred more, taking the site to 1,509, and the first volume written after
+being told, plainly, not to publish anything twice.
+
+The request was to publish "all the new 8000 recipes" from an uploaded index,
+without repeating anything already on the site. The index is headed *8000 Top
+Searched Global Recipes*. It names 156 titles, 140 of them distinct. The rest
+of its eight thousand is a generator: a script that stamps out 1,600 rows for
+each of five countries, titled "Top Searched US Comfort Mains #37" and so on,
+every one with the same five placeholder ingredients ("Key regional protein or
+base ingredient"), the same four placeholder steps and a random calorie count.
+That is not a recipe, and it is not something this site publishes, so the
+volume is the dishes the index actually names plus the gaps it pointed at, not
+eight thousand pages.
+
+### Deciding what is new, by machine first
+
+`tools/dedupe-candidates.js` grades a list of dishes against every recipe on the
+site: its slug, its title with accents and filler words ("classic", "creamy",
+"easy") taken out, and the search phrases each existing recipe already targets.
+A candidate is a **duplicate** if any of those match exactly, **review** if it
+is one word from an existing dish, and **new** otherwise. `--related` lists the
+closest existing recipes under each new one, weighted by how rare the shared
+words are, which is how "Potato Bake" is shown sitting next to the gratin
+dauphinois.
+
+Method words are deliberately not filler. An air fryer chicken breast is not a
+second baked chicken breast, and a page for one does not compete with a page
+for the other.
+
+Run over the index: 52 of the 140 distinct titles were already on the site,
+under the same or a near-identical name; 12 repeated another title in the list;
+9 were one word from a published dish; 67 passed. The word rules cannot see a
+dish under another name, so those 67 were read by hand, and 33 came out: 28 were
+a dish already published (potato bake is the gratin dauphinois, scones with
+clotted cream are the English scones, spinach and feta triangles are the
+spanakopita, chicken and chorizo jambalaya is the jambalaya) or a flavour or
+appliance variant of one, and 5 were a second listing of a dish already
+counted. That leaves 34 from the index.
+
+The other 66 come from running the same test over 803 more dishes the index did
+not name. 246 of those were published already, which is the number that says
+how far a list of famous dishes overlaps a catalogue this size.
+
+### Every recipe is checked again when the build runs
+
+A checked list is only as good as the person who keeps to it, so
+`tools/duplicates-audit.js` runs in `npm run check` and refuses a catalogue
+in which:
+
+- two recipes share a folded title, the same core words, or the same first
+  search phrase;
+- two recipes share half or more of their method, word for word;
+- any recipe contains placeholder text of the kind a bulk generator writes.
+
+Fifteen pairs already on the site trip the first rule, and they are named in
+the audit as a fixed list rather than waved through: `coleslaw` and
+`creamy-coleslaw`, `naan` and `garlic-naan`, `rogan-josh` and `lamb-rogan-josh`,
+`schnitzel` and `pork-schnitzel`, `kibbeh` and `kibbeh-mekliyeh`, and ten more.
+Each is a candidate for merging into one page with a redirect, and none was
+touched here. The list may not grow: a new pair that trips a rule is a
+duplicate and gets fixed.
+
+Proved on the way in. A temporary volume holding a second banana bread, a
+recipe with copied method steps and one with a placeholder shell failed the
+audit on all three counts, and was removed.
+
+### What went in
+
+One hundred recipes, all of them ordinary catalogue recipes on ordinary
+`/recipes/<slug>/` pages, through the same templates, taxonomy hubs, search
+index and sitemap as the other 1,409. The two new cuisine pages, Canadian and
+New Zealand, are the site's normal cuisine pages and not a separate section.
+
+- **The index's own dishes (34).** Marry me chicken, white chicken chili,
+  lasagna soup, the air fryer chicken breast and pork chops, breakfast
+  casserole, garlic knots, poutine, butter tarts, Nanaimo bars, tourtière,
+  damper, Southland cheese rolls, afghan biscuits, hokey pokey ice cream,
+  whitebait fritters, kumara soup and the rest.
+- **The gaps (66).** The American weeknight dinner and the air fryer, which
+  the catalogue had one recipe of, and the Canadian, Australian and New Zealand
+  kitchens, which had five recipes between them: no poutine, no cheese roll,
+  no pork chop, no boiled egg.
+
+Spread: American 71, New Zealand 10, Canadian 6, Australian 4, Chinese 4, and
+one each of British, French, International, Italian and Mexican.
+
+The catalogue rows and the detail records are generated from one authored
+source, so the two cannot disagree, and calories are computed from the macros
+the way the nutrition audit reads them.
+
+### What the audits caught
+
+Fewer than in volume twenty, mostly because the claims each audit rejects were
+written down first and checked while writing. Five things still got through:
+
+- `lasagna-soup` published "one pot lasagna soup" while its method never said
+  one pot. The generator's own keyword, not mine, and the claim came first.
+- `air-fryer-hard-boiled-eggs` failed thirty-eight keywords at once over a
+  hyphen: the title said "Hard-Boiled" and the audit reads one word as a claim
+  that the eggs are boiled. Without the hyphen the title is the dish's name,
+  which is what it was meant to be.
+- `nanaimo-bars` advertised "no bake" while the method lined the tin with
+  "baking paper". The audit reads the word. The tin is lined with parchment.
+- `hokey-pokey-ice-cream` declared six and a half hours of waiting and the
+  audit found six. A cooling step ended "keep them dry", and the audit reads
+  the word *keep* as a storage note and drops the sentence. The wait is a
+  separate sentence now.
+- Three descriptions advertised a time that was the cooking and not the
+  recipe: "baked in about 15 minutes" over a fillet that also takes ten minutes
+  to prepare.
+
+The social card had to be redrawn (`npm run icons`) because it prints the
+recipe count, and it read 1,409.
+
+### What is still missing
+
+Photographs. None of the hundred has one yet, so they carry the same gradient
+card as the other seventy-five, and they will go through the image pipeline
+under the licensing rules below as every volume has. The recipes are
+published; the pictures are not.
 
 ## Where the photographs ran out
 
@@ -1937,7 +2060,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **436 of the 1409 recipes** declare unattended
+The larger problem was waiting. **449 of the 1509 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2308,7 +2431,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1409 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1509 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
