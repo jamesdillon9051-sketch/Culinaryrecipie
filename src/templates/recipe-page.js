@@ -170,9 +170,26 @@ function recipeSchema(recipe) {
      src/data/illustrations.js, which sets out both sides. */
   const usable = recipe.imageData &&
     (ILLUSTRATIONS.inRecipeSchema || !isIllustration(recipe.imageData));
-  const image = usable
-    ? [`${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg`]
-    : null;
+  /* An ImageObject rather than a bare URL, so the caption (the alt text, which
+     carries the dish's search phrase), the size and — for a photograph — the
+     photographer, licence and source travel with the picture into Google's
+     image results. A generated illustration gets the caption and size only:
+     it has no photographer and no licence to declare. */
+  const imgFile = usable ? `${SITE.origin}${SITE.base}assets/img/recipes/${recipe.imageData.file}.jpg` : null;
+  const image = usable ? [Object.assign({
+    '@type': 'ImageObject',
+    url: imgFile,
+    contentUrl: imgFile,
+    width: recipe.imageData.w,
+    height: recipe.imageData.h,
+    caption: recipe.imageAlt,
+    name: `${recipe.title} recipe`
+  }, isIllustration(recipe.imageData) || !recipe.imageData.author ? {} : Object.assign({
+    creator: { '@type': 'Person', name: recipe.imageData.author },
+    creditText: [recipe.imageData.author, recipe.imageData.licence].filter(Boolean).join(', ') +
+      (recipe.imageData.source ? ' via ' + recipe.imageData.source : '')
+  }, recipe.imageData.licence_url ? { license: recipe.imageData.licence_url } : {},
+     recipe.imageData.page ? { acquireLicensePage: recipe.imageData.page } : {}))] : null;
 
   return {
     '@context': 'https://schema.org',
@@ -359,7 +376,7 @@ ${breadcrumbs(trail)}
       <aside class="recipe-aside" id="recipe-card" aria-label="Recipe card">
         <div class="panel panel--accent">
           <div class="ingredients-head">
-            <h2>Ingredients</h2>
+            <h2>${esc(recipe.title)} Ingredients</h2>
             <span class="ingredients-count">${plural(ingredientCount(recipe.ingredients), 'item')}</span>
           </div>
           <div class="servings-control" data-scaler>
@@ -417,19 +434,19 @@ ${breadcrumbs(trail)}
 
       <div class="prose">
         <aside class="why-panel" aria-labelledby="why-title">
-          <h2 id="why-title">Why This Recipe Works</h2>
+          <h2 id="why-title">Why This ${esc(recipe.title)} Recipe Works</h2>
           <p>${esc(recipe.why)}</p>
         </aside>
         ${processBlock}
         ${videoHtml(recipe.video)}
 
-        <h2 id="method">Method</h2>
+        <h2 id="method">How to Make ${esc(recipe.title)}</h2>
         <p class="form-note" style="margin-bottom:1rem">
           Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
         </p>
         <ol class="steps">${stepsHtml(recipe.steps)}</ol>
 
-        <h2>Chef&rsquo;s Tips</h2>
+        <h2>Tips for Making ${esc(recipe.title)}</h2>
         <ul>${recipe.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
 
         ${substitutions.length ? `<h2>Common Substitutions &amp; Variations</h2>
@@ -440,17 +457,17 @@ ${breadcrumbs(trail)}
           <ul style="margin:0">${dietaryTips.map(t => `<li>${esc(t.note)}</li>`).join('')}</ul>
         </aside>` : ''}
 
-        <h2>Pairing Suggestions</h2>
+        <h2>What to Serve with ${esc(recipe.title)}</h2>
         <ul>${recipe.pairings.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
 
-        <h2>Storage &amp; Reheating</h2>
+        <h2>Storing &amp; Reheating ${esc(recipe.title)}</h2>
         <p>${esc(recipe.storage)}</p>
 
-        <h2 id="faq">Common questions</h2>
+        <h2 id="faq">${esc(recipe.title)} FAQ: Common Questions</h2>
         <div class="faq">${faq.map(({ q, a }) =>
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>
 
-        <h2>Nutritional Highlights</h2>
+        <h2>${esc(recipe.title)} Nutrition</h2>
         <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
         ${nutritionHtml(recipe.nutrition)}
         ${dietTags}

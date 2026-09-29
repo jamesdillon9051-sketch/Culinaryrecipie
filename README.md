@@ -89,7 +89,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 3492 image files (WebP + JPEG)
+│       └── img/recipes/         # 4798 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -101,7 +101,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 3492 image files
+├── assets/                      #    css, js and 4798 image files
 ├── recipes/                     #    1915 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 168,328 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 168,902 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,8 +380,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1915 recipes have a photograph. Of the 1555 images on the site, 846
-are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
+1409 of the 1915 recipes have a photograph. Of the 1894 images on the site, 956
+are CC0 or public domain, 453 are CC BY and 485 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
 
@@ -2119,6 +2119,207 @@ to publish would have made that sentence false with nothing anywhere saying so.
 `tools/check.js` now fails the build on any published photograph whose licence
 is not a free one, naming the licence and the file. It was proved by injecting
 `Pexels License` onto a published photograph and watching the build refuse it.
+
+## Five hundred and eighty-one gradient cards
+
+Volume twenty-six left the site with 581 recipes on a gradient card: the 549
+that were already there and its own 32. The owner asked for a picture for every
+one of them, and for the pages around the pictures to carry proper keywords and
+headings. What follows is what that took, in the order it happened, including a
+fault older than the request.
+
+The result: 1,409 recipes have a photograph, up from 1,143. 505 have an AI
+illustration, up from 191, and each says so under the picture. One recipe, the
+Mont-Blanc, is still on a gradient card.
+
+### A query that could never have matched
+
+The fetcher asks the archives for each recipe's `imageQuery`. From volume
+twenty-one onwards that field is a string of descriptive words, "Montreal smoked
+meat sandwich hand sliced brisket rye bread yellow mustard dill pickle deli",
+and from volume twenty-four it is a whole sentence written as alt text: "Golden
+chicken flautas on a plate, long crisp rolled corn tortillas topped with
+shredded lettuce, crema, crumbled queso fresco...". No caption on Wikimedia
+Commons reads like either, so the first search returned nothing and used most of
+a 45 to 60 second budget finding out. Only then did the fetcher fall back to the
+dish's title. Tried by hand on six of volume twenty-six's dishes before the
+change, five were found, every one of them after that dead first search.
+
+`fetch_images.py` now asks for the title first when the query runs past eight
+words, and keeps the sentence as the last fallback. That is a guess at a fix and
+not a measured one: there is no run of the old query against the same 554 dishes
+to compare with, and the search was not re-run the old way to make one.
+
+### What the archives returned, and what was refused
+
+554 recipes were searched. The other 27 carried a `skip: true` from earlier
+passes and went straight to the drawings. 435 turned up a candidate, and every
+candidate was looked at on a contact sheet before it was published: 266 were
+kept and 169 refused, which is 39 per cent. Each of the 169 had matched its
+query. They sort into the usual kinds:
+
+- **A place, a person or a plant with the dish's name.** `manti` returned a
+  Forest Service photograph from the Manti-La Sal National Forest,
+  `three-sisters-stew` returned three mountains, `garlic-fingers` returned okra,
+  which is called lady's fingers, and `akara` returned a herbarium sheet of a
+  tropical shrub.
+- **A product, a brand or a joke.** `peanut-brittle` returned a picture titled
+  "Peanut Brittle Discovered On Jupiter", `peanut-brownies` a Snickers wrapper,
+  and `aioli` a supermarket tub.
+- **A drink named for something else.** `manhattan` returned the skyline,
+  `cosmopolitan` a fashion advertisement, and `martini` a news photograph from a
+  hospital ward.
+- **The right words on the wrong thing.** `sheet-pan-chicken-and-vegetables`
+  returned tilapia with asparagus, `egg-rolls` the White House Easter Egg Roll,
+  `sweet-potato-fries` an emoji, and `double-chocolate-muffins` a red rose
+  called Hot Chocolate. `banana-muffins` returned a good photograph with the
+  recipe's title printed across it.
+
+The pictures that passed are mostly a home cook's or a restaurant's, credited on
+the page under the same rules as before. Photographs on the site went from 1,143
+to 1,409, and the licence split across the 1,894 photographs on it (1,409 heroes
+and 485 second shots) is now 956 CC0 or public domain, 453 CC BY and 485 CC
+BY-SA.
+
+The second shot has a quirk worth writing down. `fetch_images.py` wants one for
+every recipe at an even position in the catalogue, and the sharding gave one
+worker the even positions and the other the odd, so one worker fetched second
+shots and the other never wanted one. About half the new heroes have no second
+image. Nothing is broken by that, since the page shows one only if it exists.
+
+### The stamp on every drawing
+
+The drawings were the next problem, and looking at them turned up something
+nobody had checked. The endpoint had begun answering some requests with HTTP 402
+and 500, and to see whether that was the service or the tool, two test images
+were fetched by hand and opened. Both carried the service's own logo,
+"pollinations.ai", stamped in the bottom-right corner. `generate_images.py` has
+always asked for `nologo=true`; the endpoint does not honour it.
+
+That meant the 191 illustrations already on the site carried it too. One of
+them, `albondigas`, was pulled out of the last commit and looked at, and the
+logo is there, in the corner over the wooden table. It survived because the
+picture is 800 pixels wide and the stamp is under 20 pixels tall, and because
+every check that exists asks whether a picture is of the right dish and none
+asks whether something has been written on it.
+
+The fix is `strip_logo` in `generate_images.py`, which crops the bottom 7.5 per
+cent off every drawing before it is framed. The 191 published drawings and the
+27 then waiting for review were cut in place. They had already been through JPEG
+once, so those 218 are re-encoded and enlarged by about 8 per cent to refill the
+frame and are a little softer than the newer ones, which were cropped from the
+full 1,024 pixel original. One old and one new file were opened afterwards and
+are clean.
+
+### Drawing the rest, and what took how many tries
+
+581 recipes less the 266 photographs left 315. The 27 that earlier passes had
+marked as having nothing in the archives were drawn first, and 13 were kept,
+which left 302. The rounds, in the order they ran, with the drawings staged and
+looked at each time:
+
+| round | drawn | kept | refused |
+| --- | --- | --- | --- |
+| the 27 the archives had been marked empty for | 27 | 13 | 14 |
+| everything still without a picture | 294 | 172 | 122 |
+| again, with the seed moved on | 129 | 45 | 84 |
+| again | 83 | 44 | 39 |
+| hand-written descriptions of the plate | 40 | 26 | 14 |
+| the same, reworded | 15 | 6 | 9 |
+| the same, reworded | 8 | 6 | 2 |
+| the same, for the last three | 3 | 2 | 1 |
+
+That is 314 kept, and 505 in all with the 191 already there. Eight drawings in
+the second row failed with a server error and came back in the next round.
+
+Two things in the table are not what the earlier section of this README
+predicted. It said a new seed only reshuffles the roll and recovered about a
+quarter. Here a moved-on seed kept 35 per cent the first time and 52 per cent
+the second, so the roll was worth taking twice. Some of that rise is probably
+me. By the third look at the same dishes I was passing drawings I would have
+refused on the first: a bastilla with a basket handle of pastry, a gammon with
+parsley sauce that shows no sauce, a bowl of chips for the chicken salt that is
+meant to season them. They are on the list of judgement calls below.
+
+### The descriptions that stood in for the recipe
+
+`prompt_for` builds a prompt from the recipe's own description and ingredients,
+so that it cannot draw a dish other than the one on the page. For 41 dishes it
+kept drawing something else. The Mont-Blanc came back as a cupcake and as a bowl
+of whipped cream, and never once with chestnut vermicelli on it. Courgette
+flowers came back as a vase of tulips. Lotus root came back as cubes of orange.
+
+For those, `src/data/image-prompts.json` now holds a hand-written description of
+what the finished plate looks like, taken from the recipe's own description and
+ingredients and containing nothing else. `prompt_for` uses one in place of the
+derived prompt when the slug has an entry. It is a departure from the rule that
+the prompt comes from the recipe, though only in who wrote it, and the file is
+the record of every case where that rule was not enough. It kept 26 of the first
+40, then 6 of 15 on the reworded versions, and it did not save the Mont-Blanc,
+which stays on its gradient card. That card is honest and a wrong picture is
+not.
+
+### Alt text, headings and structured data
+
+The alt text on every recipe image read "Title, a Cuisine category recipe,
+served and ready to eat" and said the same thing on all 1,915 pages. It now
+names the dish and its cuisine and category, with the article right ("an
+American breakfast recipe", "an Ethiopian dinner recipe"), and adds the first of
+the recipe's own search phrases that the title does not already contain, so that
+the alt text of the Chilaquiles Rojos ends "chilaquiles with red salsa". A
+generated picture begins "Illustration of", because alt text is what a screen
+reader announces and a listener should not be told a drawing is the dish. The
+second shot reads "Preparing Chilaquiles Rojos: ingredients and method" and the
+same phrase.
+
+The section headings on a recipe page now carry the dish's name: "Chilaquiles
+Rojos Ingredients", "Why This Chilaquiles Rojos Recipe Works", "How to Make
+Chilaquiles Rojos", "Tips for Making", "What to Serve with", "Storing &
+Reheating", "Chilaquiles Rojos FAQ: Common Questions" and "Chilaquiles Rojos
+Nutrition". They were "Ingredients", "Method", "Chef's Tips" and so on, which
+said nothing about which dish the page was. No script reads those headings, and
+the check and the SEO audit still pass.
+
+`Recipe.image` in the structured data was a bare URL. It is now an `ImageObject`
+with the URL, size and caption, and for a photograph its creator, the credit
+line, the licence URL and the page the file came from, which is what Google
+reads for the licensable badge in image results. A drawing gets the caption and
+size only, since it has no photographer or licence to declare.
+`src/data/illustrations.js` still decides whether a drawing goes into the recipe
+schema at all. The page's `og:image:alt` and `twitter:image:alt` already used
+the alt text, so they carry the new wording too.
+
+Keywords were not added to. Every recipe already carried between four and six of
+its own, checked against the record by `tools/keyword-audit.js`, and the change
+here is that one of them now appears in the alt text of each image.
+
+### What has not been done
+
+Most of the 505 drawings, and every one of the 266 new photographs, were judged
+on a contact sheet whose thumbnails are 320 pixels wide. That is enough to tell
+a cupcake from a mountain of chestnut cream and not enough to see everything.
+The likeliest faults are ones a thumbnail hides: a garnish that is wrong, a
+photograph of a slightly different regional version, a drawing whose dish is
+right and whose details are not. The drawings I passed on a later look are the
+ones to check first, and the marginal accepts were `bastilla`,
+`gammon-parsley-sauce`, `chicken-salt`, `chip-shop-curry-sauce`,
+`lotus-root-stir-fry`, `kartoffelsalat`, `chocolate-crackles`, `hangi` and
+`roast-duck`. Among the photographs, `chicken-flautas` is a close-up of a
+taquito from a shop, which is the flauta's near relation and not the same thing.
+Any of them can be refused with `tools/review_images.py`, which puts the recipe
+back on its gradient card.
+
+About a quarter of the pictures on the site are now drawings, and a page's
+caption is the only thing that says which is which. Whether that ratio is the
+one the owner wants is a decision the tooling cannot make.
+`src/data/illustrations.js` holds the schema switch, and removing the drawings
+from the pages altogether is a change nobody has asked for.
+
+The Mont-Blanc is still without a picture. Six more drawings of it were refused
+in this pass, on top of the white domes of the earlier ones: a white dome, a
+swirl of cream, three cupcakes and a bowl of whipped cream. A photograph of the
+dish, from anyone who has one under a licence the site can use, is the way out,
+and `tools/adopt_images.py` takes it.
 
 ## The ingredients came after the method
 

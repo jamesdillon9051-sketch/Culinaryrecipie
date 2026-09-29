@@ -1664,6 +1664,14 @@ def main():
         if shards > 1 and idx % shards != shard:
             continue
         slug, query = rec["slug"], rec["imageQuery"]
+        # A catalogue imageQuery of more than eight words, a string of
+        # descriptive words from volume 21 on or an alt-text sentence from
+        # volume 24, never matches a caption in the archives and spends the
+        # whole search budget failing. Ask for the dish's title first; the long
+        # query is kept as the last fallback.
+        long_query = len(query.split()) > 8 and (rec.get("title") or "").strip()
+        if long_query:
+            query, sentence = rec["title"].strip(), query
         want_process = idx % 2 == 0          # a process shot for 50% of recipes
         entry = manifest.get(slug)
         if entry and entry.get("skip"):
@@ -1697,6 +1705,8 @@ def main():
         fallbacks = list(alts.get(slug) or [])
         if title and title.lower() != query.strip().lower():
             fallbacks.append(title)
+        if long_query:
+            fallbacks.append(" ".join(sentence.split()[:6]))
         for fallback in fallbacks[:3]:
             if pool:
                 break

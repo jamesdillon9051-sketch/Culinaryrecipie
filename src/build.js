@@ -18,7 +18,37 @@
 const fs = require('fs');
 const path = require('path');
 
-const { esc, clamp, slugify, plural, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
+const { esc, clamp, slugify, plural, isIllustration: isDrawing, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
+
+/* The first of a recipe's own search phrases that is not just its title again:
+   three words or more, and neither containing the title nor contained by it. */
+function altKeyword(row, detail) {
+  const low = row.title.toLowerCase();
+  return (detail.kw || []).find(k => k && k.split(' ').length >= 3 &&
+    !low.includes(k.toLowerCase()) && !k.toLowerCase().includes(low)) || '';
+}
+
+/* Alt text names the dish, its cuisine and category and that search phrase, in
+   one plain sentence. A generated picture says so, because it is not a
+   photograph of the dish and the alt text is what a screen reader announces. */
+function altText(row, detail, hero) {
+  const title = row.title;
+  const kw = altKeyword(row, detail);
+  /* "an American", "an Indian", "an Ethiopian" — and "a Ukrainian", which
+     starts with a vowel letter and not a vowel sound. No cuisine here takes
+     "an" before a U. */
+  const article = /^[AEIO]/i.test(row.cuisine) ? 'an' : 'a';
+  const kind = {
+    Healthy: `a healthy ${row.cuisine} recipe`,
+    'Quick Meals': `a quick ${row.cuisine} meal recipe`,
+    'Holiday Specials': `${article} ${row.cuisine} holiday recipe`,
+    Desserts: `${article} ${row.cuisine} dessert recipe`,
+    Appetizers: `${article} ${row.cuisine} appetizer recipe`,
+    Drinks: `${article} ${row.cuisine} drink recipe`
+  }[row.category] || `${article} ${row.cuisine} ${row.category.toLowerCase()} recipe`;
+  const base = `${title}, ${kind}` + (kw ? ` — ${kw}` : '');
+  return clamp(hero && isDrawing(hero) ? `Illustration of ${base}` : base, 160);
+}
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
@@ -266,8 +296,9 @@ function loadRecipes() {
       processData: image.process || null,
       /* The cuisine is a proper noun and stays capitalised; the category is
          a common noun and reads better lower case. */
-      imageAlt: `${row.title} — ${row.cuisine} ${row.category.toLowerCase()} recipe, served and ready to eat`,
-      processAlt: `Ingredients and preparation for ${row.title.toLowerCase()}`,
+      imageAlt: altText(row, detail, image.hero),
+      processAlt: `Preparing ${row.title}: ingredients and method` +
+        (altKeyword(row, detail) ? ` — ${altKeyword(row, detail)}` : ''),
       published,
       datePublished: new Date(published).toISOString().slice(0, 10),
       /* Filled in below, once the register exists — a recipe's modified date

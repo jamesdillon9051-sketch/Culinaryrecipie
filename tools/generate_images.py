@@ -30,7 +30,8 @@ drift from what the page says the dish is. Changing the recipe changes the
 prompt.
 """
 
-import argparse, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, subprocess
+import argparse, io, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, subprocess
+from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch_images as F
@@ -131,6 +132,13 @@ def key_ingredients(items, limit=5):
     return out
 
 
+def prompt_overrides():
+    path = os.path.join(ROOT, "src", "data", "image-prompts.json")
+    if not os.path.exists(path):
+        return {}
+    return {k: v for k, v in json.load(open(path)).items() if not k.startswith("_")}
+
+
 def prompt_for(rec):
     """Describe the plate first and name the dish afterwards.
 
@@ -143,6 +151,12 @@ def prompt_for(rec):
     So the description the recipe already carries goes first, then the
     ingredients that decide the colour and shape, and the title last.
     """
+    # A few dishes are read as something else whatever the recipe text says.
+    # A hand-written description of the finished plate, kept in
+    # src/data/image-prompts.json, stands in for the derived one.
+    override = prompt_overrides().get(rec.get("slug"))
+    if override:
+        return f"{override}, {STYLE}"
     bits = []
     clause = visual_clause(rec.get("d"))
     if clause:
@@ -187,7 +201,21 @@ def fetch(prompt, seed):
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
         if r.status != 200:
             return None
-        return r.read()
+        return strip_logo(r.read())
+
+
+LOGO_STRIP = 0.075     # the service stamps its logo in the bottom-right corner
+
+
+def strip_logo(raw):
+    """The endpoint stamps a "pollinations.ai" logo across the bottom-right
+    corner whatever nologo says, and it was being published on the drawings.
+    Cut the strip it sits in before the picture is framed."""
+    im = Image.open(io.BytesIO(raw)).convert("RGB")
+    im = im.crop((0, 0, im.width, int(im.height * (1 - LOGO_STRIP))))
+    buf = io.BytesIO()
+    im.save(buf, "PNG")
+    return buf.getvalue()
 
 
 def main():
