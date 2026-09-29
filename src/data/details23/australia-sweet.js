@@ -72,7 +72,7 @@ module.exports = {
       'Heat the oven to 180°C / 350°F and line two baking trays with baking paper.',
       'Beat the butter and sugar together for 3 minutes, until pale and creamy. Beat in the egg and vanilla.',
       'Sift in the flour, baking powder and custard powder and stir to a soft dough. If it is sticky, chill it for 20 minutes.',
-      'Roll the dough into 24 balls, each about 25 g, and set them on the trays 4 cm apart.',
+      'Roll the dough into 24 balls, each about 20 g, and set them on the trays 4 cm apart.',
       'Press a floured thumb or the handle of a wooden spoon into the centre of each ball to make a well, and spoon in half a teaspoon of jam.',
       'Bake for 12 to 15 minutes, until pale golden at the edges.',
       'Cool on the trays for 5 minutes, then move to a wire rack.'
@@ -88,7 +88,7 @@ module.exports = {
   },
 
   'golden-syrup-dumplings': {
-    d: 'Soft dumplings simmered in a pan of golden syrup, butter and brown sugar. A stove-top pudding that is finished in a quarter of an hour.',
+    d: 'Soft dumplings simmered in a pan of golden syrup, butter and brown sugar. A stove-top pudding made in one pan, with no oven.',
     meta: 'Golden syrup dumplings: soft dumplings simmered under a lid in a sauce of golden syrup, brown sugar and butter, served hot with cream or ice cream.',
     kw: ['golden syrup dumplings', 'golden syrup dumplings recipe', 'australian golden syrup dumplings', 'dumplings in caramel syrup', 'how to make golden syrup dumplings'],
     why: 'Golden syrup dumplings are the pudding of a cold night when the oven is not on: a soft dough dropped by the spoonful into a pan of simmering golden syrup, brown sugar and butter, and cooked under a lid until they puff and the sauce turns into caramel. Everything happens in one pan. The dumplings steam on top of the sauce, and their bottoms soak it up, so each has a tender crumb with a syrupy underside. The rule is not to lift the lid, because the steam is what cooks them through, and to keep the heat low, so that the syrup does not catch and burn.',
@@ -355,7 +355,7 @@ module.exports = {
     d: 'Cornflakes coated in melted butter, sugar and honey and baked in paper cases until crisp. A children\'s party standby.',
     meta: 'Honey joys: cornflakes tossed in a melted butter, sugar and honey syrup, spooned into paper cases and baked until crisp and golden. Makes twelve.',
     kw: ['honey joys', 'honey joys recipe', 'australian honey joys', 'cornflake honey joys', 'honey joys in patty cases'],
-    why: 'Honey joys are cornflakes coated in a syrup of melted butter, sugar and honey and baked in paper cases, and they are on every Australian children\'s party plate next to fairy bread and chocolate crackles. The syrup is boiled for a minute, which sets it: it coats the flakes thinly, and as it bakes it turns to a crisp, glassy coating that holds each little cluster together. The flakes should be turned carefully, not stirred hard, or they break to dust. The whole batch is made in about a quarter of an hour, and the joys set completely as they cool in the tin.',
+    why: 'Honey joys are cornflakes coated in a syrup of melted butter, sugar and honey and baked in paper cases, and they are on every Australian children\'s party plate next to fairy bread and chocolate crackles. The syrup is boiled for a minute, which sets it: it coats the flakes thinly, and as it bakes it turns to a crisp, glassy coating that holds each little cluster together. The flakes should be turned carefully, not stirred hard, or they break to dust. The whole batch is made in about 25 minutes, and the joys set completely as they cool in the tin.',
     ing: [
       '100 g cornflakes',
       '80 g unsalted butter',
@@ -430,7 +430,7 @@ module.exports = {
       'Heat the oven to 180°C / 350°F and line two baking trays with baking paper.',
       'Beat the butter and both sugars for 3 minutes, until pale and fluffy. Beat in the egg and vanilla.',
       'Sift in the flour, bicarbonate of soda and salt and stir until just combined. Fold in the macadamias and white chocolate.',
-      'Scoop 20 mounds of about 40 g onto the trays, spaced 5 cm apart.',
+      'Scoop 20 mounds of about 35 g onto the trays, spaced 5 cm apart.',
       'Bake one tray at a time for 11 to 12 minutes, until the edges are golden and the centres still look soft.',
       'Cool on the tray for 5 minutes, then move to a wire rack.'
     ],
@@ -526,7 +526,7 @@ module.exports = {
     d: 'A plain butter cake, brushed with melted butter and rolled in cinnamon sugar while it is still hot. Best eaten warm, the day it is baked.',
     meta: 'Australian cinnamon teacake: a light, plain butter cake, brushed with melted butter and coated in cinnamon sugar while still hot, and eaten warm with tea.',
     kw: ['cinnamon teacake', 'cinnamon teacake recipe', 'australian cinnamon tea cake', 'hot cinnamon teacake', 'butter cake with cinnamon sugar'],
-    why: 'A cinnamon teacake is a plain, light butter cake that owes everything to its topping: as soon as it comes out of the oven it is brushed with melted butter, which soaks in, and covered with cinnamon sugar, which sticks to the butter and forms a sweet, spiced crust. It was a staple of Australian tearooms and country kitchens, made when someone dropped in, and it comes together in fifteen minutes from a handful of ingredients. The cake itself is quiet on purpose, a vanilla butter cake with a soft crumb, so the cinnamon crust is the point. It is best warm.',
+    why: 'A cinnamon teacake is a plain, light butter cake that owes everything to its topping: as soon as it comes out of the oven it is brushed with melted butter, which soaks in, and covered with cinnamon sugar, which sticks to the butter and forms a sweet, spiced crust. It was a staple of Australian tearooms and country kitchens, made when someone dropped in, and the batter comes together in fifteen minutes from a handful of ingredients. The cake itself is quiet on purpose, a vanilla butter cake with a soft crumb, so the cinnamon crust is the point. It is best warm.',
     ing: [
       '# For the cake',
       '125 g unsalted butter, softened',
@@ -574,7 +574,7 @@ module.exports = {
     st: [
       'Whip the cream with the icing sugar and vanilla to firm peaks, so it holds its shape.',
       'Spread a dab of cream on a long serving plate to hold the log in place.',
-      'Spread a heaped teaspoon of cream on each biscuit and stack them on their sides, biscuit on cream on biscuit, into a long log of about 24 cm, using around 20 biscuits.',
+      'Spread a heaped teaspoon of cream on each biscuit and stack them on their sides, biscuit on cream on biscuit, into a long log of about 25 cm, using about 30 biscuits.',
       'Cover the whole log with the remaining cream, smoothing it with a palette knife and swirling the top.',
       'Sprinkle with the grated chocolate, cover loosely and refrigerate overnight.',
       'Cut into slices at an angle across the log so that each has stripes.'
@@ -594,7 +594,7 @@ module.exports = {
     d: 'Very short, tender butter and cornflour biscuits sandwiched in pairs with passionfruit buttercream. They dissolve in the mouth.',
     meta: 'Melting moments: tender, crumbly butter and cornflour biscuits sandwiched in pairs with a passionfruit buttercream. Makes twelve sandwiched biscuits.',
     kw: ['melting moments', 'melting moments recipe', 'melting moments biscuits', 'passionfruit melting moments', 'cornflour butter biscuits'],
-    why: 'Melting moments are butter biscuits so short that they dissolve on the tongue, and the name is exact. Cornflour replaces part of the plain flour in the dough, which lowers the gluten and makes the crumb fine, sandy and tender, and the high proportion of butter makes them rich. They came from Britain, and in Australia they are filled with passionfruit buttercream, whose sharp, fragrant tang balances all that butter. The dough is soft, and it is piped or dropped and pressed with a fork, and the biscuits are baked at a low temperature, just until set, since they must stay pale.',
+    why: 'Melting moments are butter biscuits so short that they dissolve on the tongue, and the name is exact. Cornflour replaces part of the plain flour in the dough, which lowers the gluten and makes the crumb fine, sandy and tender, and the high proportion of butter makes them rich. They are made in Britain, Australia and New Zealand alike, and in Australia they are often filled with passionfruit buttercream, whose sharp, fragrant tang balances all that butter. The dough is soft, and it is piped or dropped and pressed with a fork, and the biscuits are baked at a low temperature, just until set, since they must stay pale.',
     ing: [
       '# For the biscuits',
       '180 g unsalted butter, softened',

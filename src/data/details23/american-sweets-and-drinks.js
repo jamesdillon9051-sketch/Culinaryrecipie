@@ -29,7 +29,7 @@ module.exports = {
     st: [
       'Mix the flour, yeast, sugar and salt in a large bowl. Add the egg, milk and melted butter and mix to a soft dough. Knead on a lightly floured surface for 6 minutes, until smooth and slightly sticky.',
       'Put the dough in an oiled bowl, cover, and leave in a warm place for 1 hour, until doubled in size.',
-      'Roll the dough out on a floured surface to 6 mm thick and cut it into 24 squares of about 5 cm. Cover loosely.',
+      'Roll the dough out on a floured surface to 6 mm thick and cut it into about 24 squares of 6 cm. Cover loosely.',
       'Heat the oil in a deep, heavy pan to 180°C / 350°F.',
       'Fry the squares 4 or 5 at a time for 1 to 2 minutes per side, until puffed and golden brown. Drain on paper towels.',
       'Dust generously with icing sugar through a sieve and eat immediately, while hot.'

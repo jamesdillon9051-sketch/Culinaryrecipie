@@ -252,7 +252,7 @@ module.exports = {
     d: 'Corn chips piled in a bowl and covered with beef and bean chili, grated cheese and raw onion. The Texas and New Mexico fair, football-game and kitchen-table dish.',
     meta: 'Frito pie: corn chips piled in a bowl, covered with hot beef and bean chili and topped with cheddar and raw onion. A Texas and New Mexico classic.',
     kw: ['frito pie', 'frito pie recipe', 'frito pie casserole with chili', 'texas frito pie', 'how to make frito pie'],
-    why: 'Frito pie is a bowl of corn chips covered in chili, and it comes from Texas and New Mexico, where it is sold at football games and county fairs, often in the bag of chips itself, split open along the side. The reason it works is texture. The chips soften slightly under the hot chili, so that some are crunchy and some are tender, while the cheese melts and the raw onion adds a sharp crunch. The chili should be a thick one, with little liquid, or the chips will turn to paste. It is made in one pot in less than an hour and it is better with cheap, thick corn chips than with delicate ones.',
+    why: 'Frito pie is a bowl of corn chips covered in chili, and it comes from Texas and New Mexico, where it is sold at football games and county fairs, often in the bag of chips itself, split open along the side. The reason it works is texture. The chips soften slightly under the hot chili, so that some are crunchy and some are tender, while the cheese melts and the raw onion adds a sharp crunch. The chili should be a thick one, with little liquid, or the chips will turn to paste. It is made in one pot in about an hour and it is better with cheap, thick corn chips than with delicate ones.',
     ing: [
       '# For the chili',
       '500 g lean minced beef (10% fat)',
@@ -402,7 +402,7 @@ module.exports = {
       'Cover the beans with 2 litres of cold water and soak overnight. Drain.',
       'Heat the oil in a large heavy pot over medium-high heat and brown the sausage for 5 minutes. Lift it out and set aside.',
       'Cook the onion, pepper and celery in the same pot for 8 minutes, until soft. Add the garlic, thyme, paprika and cayenne and cook for 1 minute.',
-      'Add the beans, ham hock, stock and bay leaves. Bring to a full boil and boil hard for 10 minutes, then reduce the heat, cover partly and simmer for 2 hours, stirring now and then, until the beans are very tender.',
+      'Add the beans, ham hock, stock and bay leaves. Bring to a full boil and boil hard for 10 minutes, then reduce the heat, cover partly and simmer for 2 hours, stirring now and then and adding hot water if the pot looks dry, until the beans are very tender.',
       'Lift out the hock, pull the meat from the bone and return it to the pot with the sausage. Discard the bay leaves.',
       'Mash about a quarter of the beans against the side of the pot with a spoon and simmer for 15 minutes more, until creamy. Season with the salt and pepper.',
       'Cook the rice according to the packet. Serve the beans over the rice with spring onions and hot sauce.'

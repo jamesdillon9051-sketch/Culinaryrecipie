@@ -197,7 +197,7 @@ module.exports = {
       'Tomato sauce or barbecue sauce, to serve'
     ],
     st: [
-      'Mix the beef with the salt and pepper and shape into 4 patties about 10 cm across and 1.5 cm thick. Press a shallow dent in the centre of each so they stay flat as they cook.',
+      'Mix the beef with the salt and pepper and shape into 4 patties about 11 cm across and 1.5 cm thick. Press a shallow dent in the centre of each so they stay flat as they cook.',
       'Heat a large frying pan or griddle over medium-high heat. Fry the bacon for 4 minutes, until crisp, and set aside.',
       'In the same pan, cook the pineapple rings for 1 minute per side, until browned at the edges. Set aside.',
       'Add the oil and cook the patties for 4 minutes on the first side. Turn, top with the cheese and cook for 3 to 4 minutes more, until cooked through.',
@@ -500,7 +500,7 @@ module.exports = {
     d: 'Self-raising flour, cream and lemonade, mixed and baked. Three ingredients and a light, tall scone, served with jam and cream.',
     meta: 'Lemonade scones: self-raising flour, cream and fizzy lemonade make light, tall scones with no butter to rub in. Serve warm with jam and whipped cream.',
     kw: ['lemonade scones', 'lemonade scones recipe', 'three ingredient lemonade scones', 'lemonade and cream scones', 'how to make lemonade scones'],
-    why: 'Lemonade scones have three ingredients and no butter to rub in: self-raising flour, cream and lemonade. The lemonade in question is the clear fizzy soft drink sold as lemonade in Australia and Britain (lemon-lime soda, such as Sprite or 7-Up in North America), and it does two jobs: its bubbles give lift on top of the raising agent in the flour, and its sugar sweetens the scone lightly. The cream provides the fat that butter would. The dough is soft and sticky, and it is patted rather than rolled, then cut with a straight-down press. It goes together in five minutes, and is out of the oven in twenty.',
+    why: 'Lemonade scones have three ingredients and no butter to rub in: self-raising flour, cream and lemonade. The lemonade in question is the clear fizzy soft drink sold as lemonade in Australia and Britain (lemon-lime soda, such as Sprite or 7-Up in North America), and it does two jobs: its bubbles give lift on top of the raising agent in the flour, and its sugar sweetens the scone lightly. The cream provides the fat that butter would. The dough is soft and sticky, and it is patted rather than rolled, then cut with a straight-down press. It goes together in ten minutes and is out of the oven 15 minutes later.',
     ing: [
       '300 g self-raising flour, plus extra for dusting',
       '150 ml double cream',

@@ -332,7 +332,7 @@ module.exports = {
   },
 
   'stuffed-mushrooms': {
-    d: 'Mushroom caps filled with cream cheese, parmesan, garlic and herbs and baked until golden. A party appetiser in half an hour.',
+    d: 'Mushroom caps filled with cream cheese, parmesan, garlic and herbs and baked until golden. A party appetiser in 45 minutes.',
     meta: 'Stuffed mushrooms: mushroom caps filled with a garlicky mixture of cream cheese, parmesan, breadcrumbs and parsley, and baked until golden and tender.',
     kw: ['stuffed mushrooms', 'stuffed mushrooms recipe', 'cream cheese stuffed mushrooms', 'baked stuffed mushrooms', 'how to make stuffed mushrooms'],
     why: 'Stuffed mushrooms are an appetiser to make for a party: mushroom caps filled with a mixture of cream cheese, parmesan, garlic and herbs, and baked until the filling is golden and the mushrooms are tender. The stems are chopped and cooked with garlic first, until they are dry, and stirred into the filling, so nothing is wasted and the mushroom flavour is doubled. Cooking the stems until the moisture has gone is the key step, because they are mostly water, and water makes a soggy filling. Breadcrumbs soak up any extra liquid the mushrooms release as they cook. They can be filled ahead and baked when guests arrive.',

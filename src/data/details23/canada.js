@@ -87,9 +87,9 @@ module.exports = {
       'Refrigerate for 3 days, turning the pork over once a day.',
       'Lift the pork out, rinse it under cold water and pat it very dry.',
       'Spread the cornmeal on a tray and roll the pork in it, pressing so a thick, even coat sticks to every side.',
-      'Cut the loin across into 12 slices about 1 cm thick. Only the outer edge of each slice is coated, as in the shops.',
-      'Heat 1 tablespoon of the oil in a large frying pan over medium-high heat and fry the slices in two batches, 3 to 4 minutes per side, until browned at the edges and cooked through. Use the rest of the oil for the second batch.',
-      'Pile 2 slices on each roll with mustard and serve at once.'
+      'Cut the loin across into about 18 slices, each 1 cm thick. Only the outer edge of each slice is coated, as in the shops.',
+      'Heat 1 tablespoon of the oil in a large frying pan over medium-high heat and fry the slices in three batches, 3 to 4 minutes per side, until browned at the edges and cooked through. Add the rest of the oil between batches.',
+      'Pile 3 slices on each roll with mustard and serve at once.'
     ],
     tips: [
       'Pat the loin very dry after rinsing. Cornmeal will not stick to a wet surface.',
@@ -196,7 +196,7 @@ module.exports = {
       '190 g plain flour',
       '2 tsp baking powder',
       '0.25 tsp fine sea salt',
-      '250 ml whole milk',
+      '180 ml whole milk',
       '# For the maple sauce',
       '250 ml maple syrup',
       '250 ml double cream',
@@ -220,7 +220,7 @@ module.exports = {
     ],
     pair: ['Vanilla ice cream', 'Whipped cream', 'Fresh raspberries'],
     store: 'Keep covered in the fridge up to 3 days and reheat portions in the microwave for 1 minute. Freezes well for 2 months.',
-    nut: [665, 5, 96, 29, 1, 70, 320]
+    nut: [661, 5, 95, 29, 1, 69, 310]
   },
 
   'sugar-pie': {
@@ -281,7 +281,7 @@ module.exports = {
     st: [
       'Mix the flour, yeast, sugar and salt in a bowl. Add the water and 2 tablespoons of oil and mix to a soft dough. Knead on a lightly floured surface for 8 minutes, until smooth and springy.',
       'Put the dough in an oiled bowl, cover, and leave in a warm place for 1 hour, until doubled in size.',
-      'Knock the air out of the dough and divide it into 12 pieces. Flatten each into a disc about 10 cm across and 1 cm thick.',
+      'Knock the air out of the dough and divide it into 12 pieces. Flatten each into a disc about 8 cm across and 1 cm thick.',
       'Heat 2 tablespoons of oil in a large frying pan over medium heat. Fry the toutons in batches for 3 to 4 minutes per side, until deep golden and puffed, adding more oil as the pan dries.',
       'Split them open while hot and pour over the molasses. Eat at once.'
     ],
@@ -744,10 +744,10 @@ module.exports = {
   },
 
   'maple-glazed-carrots': {
-    d: 'Carrots simmered in butter and a little water, then glazed with maple syrup and thyme. A side dish in about a quarter of an hour.',
+    d: 'Carrots simmered in butter and a little water, then glazed with maple syrup and thyme. A side dish in 25 minutes.',
     meta: 'Maple glazed carrots: carrot coins simmered in butter until tender, then reduced with maple syrup and thyme to a shiny glaze. A fast side dish.',
     kw: ['maple glazed carrots', 'maple glazed carrots recipe', 'glazed carrots with maple syrup', 'canadian maple carrots', 'how to make glazed carrots'],
-    why: 'The method is the same as for any glazed vegetable: cook the carrots in a covered pan with butter and a little water, so they steam tender, then uncover the pan and let the liquid boil down with the sweetener until it turns to a glaze. Maple syrup is the sweetener, and it gives caramel with a faint woodiness that brown sugar lacks. The carrots go in a single layer in a wide pan, so the glaze coats them evenly, and a squeeze of lemon at the end keeps the dish from tasting flat and sweet. It is the easiest vegetable at the Christmas or Thanksgiving table, and it takes 15 minutes.',
+    why: 'The method is the same as for any glazed vegetable: cook the carrots in a covered pan with butter and a little water, so they steam tender, then uncover the pan and let the liquid boil down with the sweetener until it turns to a glaze. Maple syrup is the sweetener, and it gives caramel with a faint woodiness that brown sugar lacks. The carrots go in a single layer in a wide pan, so the glaze coats them evenly, and a squeeze of lemon at the end keeps the dish from tasting flat and sweet. It is the easiest vegetable at the Christmas or Thanksgiving table, and it takes 25 minutes from start to finish.',
     ing: [
       '700 g carrots, peeled and cut into 5 mm coins',
       '2 tbsp unsalted butter',
