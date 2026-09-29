@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1883 most famous recipes** — each
+A dependency-free static site for the world's **1915 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1883 recipes · 78 cuisines · 10 categories · 2036 static pages · 0 npm dependencies
+1915 recipes · 78 cuisines · 10 categories · 2068 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-25.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-26.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details25/ # long-form content for the matching volume
+│   │   ├── details2/ …details26/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1883 recipe pages
+├── recipes/                     #    1915 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1883 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1915 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1883 recipe pages and the about page — 10,967 questions,
+- [x] **FAQPage** on all 1915 recipe pages and the about page — 11,148 questions,
       about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 165,350 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 168,328 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1883 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1915 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1883 recipes now passes, and `npm run check` runs the
+Every one of the site's 1915 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1578,6 +1578,193 @@ in a volume of its own.
 Photographs, again: the seventy-four carry the gradient card until the image
 pipeline has been through them, and 549 recipes are now on it.
 
+## Volume twenty-six, the most searched names
+
+Thirty-two more, taking the site to 1,915. The owner sent a list of 252 names,
+the most searched recipe names, and asked for them to be compared with the
+recipes already published: skip the ones that match, keep the previous recipes
+as they are, and add only the new ones. The list was tried against the 1,883
+already on the site with the same tool as volumes twenty-one to twenty-five.
+
+Where the 252 went. 182 were already recipes on the site, under the same name or
+another: chocolate chip cookies, mac and cheese, banana bread, meatloaf,
+lasagna, beef stew, pot roast, brownies and the rest of the obvious ones. Five
+names appear twice in the list (huevos rancheros, clam chowder, churros,
+cornbread and pancakes). The other 65 were read by hand, because the word rules
+cannot tell a new dish from a published one with a word added or a letter
+dropped. 44 of them had passed the word rules and 21 shared one word with a
+published recipe, and 30 were new.
+
+The other 35 were the same dish or a variant of one. Chicken Karage and
+Emptanadas are typing slips for the karaage and the three empanada recipes. Pork
+carnitas is the slow-braised carnitas, birria de res is the birria tacos,
+shortbread cookies are the Scottish shortbread, brisket is the Texas smoked
+brisket and the braised brisket, lamb chops are the lamb cutlets, pita bread is
+the khubz arabi, and cold brew, chia seed pudding, tres leches, Victoria sponge
+cake, stuffed pasta shells, flan, quiche, General Tso chicken, tikka masala,
+butter naan and fried rice are on the site under a name with a word more or
+less. Oatmeal is the porridge, tostadas are the tinga tostadas and flank steak
+marinade is the flank steak. Others are a cut, a sauce or an appliance away from
+a page that exists: slow-cooker baby back ribs, pork ribs, chicken breast,
+chicken stir fry, enchiladas suizas next to the enchiladas verdes, and turkey
+breast next to the roast turkey and the roast turkey crown. Pork loin is the
+roast pork with crackling, whose page already targets "roast pork loin".
+
+The word rules had passed 18 of these as new, and reading caught them.
+Cheesecake is one of five cheesecakes already here, and carnitas, birria,
+karaage, empanadas, shortbread, brisket and lamb chops each had a page under a
+longer or differently spelt name. A dish with an extra word in its name is not
+always a new dish, and neither is a dish with one letter wrong.
+
+The tool went wrong in the other direction twice. Chicken curry was matched to
+the butter chicken, which is a creamy tomato curry and not the everyday onion
+and tomato curry of an Indian home, and chocolate muffins to the chocolate chip
+muffins, which are a vanilla batter with chips in it. Both were added, under the
+more specific names of an Indian chicken curry and double chocolate muffins,
+which brings the total to 32.
+
+What is in it. Mexico and Latin America: chilaquiles rojos, to go with the
+chilaquiles verdes, pozole verde, to go with the pozole rojo, pork chile verde,
+chicken flautas, chimichangas, beef fajitas, caldo de res and an arroz con
+pollo. American mains: Mississippi pot roast, cheeseburger macaroni, crispy
+baked chicken thighs, braised beef short ribs, roast beef tenderloin and a
+hashbrown casserole; honey garlic glazed salmon, pan-seared tilapia and a shrimp
+stir-fry; and an Indian chicken curry. Sides and bakes: garlic mashed potatoes,
+sweet potato fries, a fruit salad and double chocolate muffins. Drinks: fruit,
+green and protein smoothies, iced tea, and the whiskey sour, Moscow mule,
+cosmopolitan, daiquiri, manhattan and martini.
+
+Spread: American 17, Mexican 7, International 4, Cuban 2, and one each Chinese
+and Indian. No cuisine is new to the site, so no new hub pages.
+
+### What the audits caught
+
+Little. Six meta descriptions ran over the 158 characters the site allows: the
+chilaquiles rojos, the chicken flautas, the caldo de res, the Indian chicken
+curry, the garlic mashed potatoes, and the fruit smoothie, when its wording was
+changed. The timing audit refused the hashbrown casserole once, when an
+ingredient line said the potatoes should be thawed "overnight in the fridge": it
+counted 480 minutes of waiting that the record did not declare. The line went
+back to saying only "thawed", and the thawing is not in the recipe's times,
+which is noted below. The social card still said 1,883 recipes and the README
+counts were out of step until the icons were regenerated and the README synced.
+The timing, nutrition, diet, keyword, substitution and duplicate audits then
+passed on all four source files, which is not the same as the recipes being
+right.
+
+### What reading caught that the audits could not
+
+25 of the 32 were corrected after being read with the ingredients, the method
+and the numbers side by side:
+
+- Quantities that did not fit the method. The chilaquiles gave 300 ml of oil for
+  a frying depth of 1 cm, which takes about 550 ml in a 26 cm pan, and it now
+  says 5 mm and fries 6 batches of about 12. Its salsa, from 500 g of tomatoes
+  and 250 ml of stock, was given 200 ml more water and 8 minutes to reach a
+  coating consistency, and now has 100 ml and 10 minutes. The short ribs had the
+  liquid two thirds of the way up the meat, which 875 ml of wine and stock will
+  not reach around 1.6 kg of ribs, and it now says halfway. The roast beef
+  tenderloin was a centre cut in the ingredients and had a thin tail to fold
+  under in the method, and a centre cut has no tail; it is now a tenderloin with
+  any tail folded under, seared in a roasting tin over two burners, because a
+  1.5 kg roast does not fit in many frying pans. The chimichangas put 165 g of
+  filling in each parcel from a filling that weighs about 1,050 g for six, and
+  now say 175 g. The flautas asked for 500 g of cooked chicken without saying
+  how much chicken that is, and now say about 700 g of raw breast; the method
+  also fried them without the seam side down that the tip insists on.
+
+- Times shorter than the method. The pan-seared tilapia said 10 minutes and
+  cooks its fillets in two batches of 4 to 5 minutes before the sauce, and is
+  now 14. The sweet potato fries soaked for 30 minutes and gave a prep time of
+  15; they now soak for 20 minutes while the oven heats, and give 35. The white
+  sauce of the hashbrown casserole said 5 minutes and takes 8. The chilaquiles
+  said 45 minutes in total and are now 50.
+
+- Claims stated as fact that were not supported. Sweet potatoes were said to
+  have more moisture than white potatoes, which the composition tables do not
+  show. The whiskey sour was said to appear first in print in 1862 and now says
+  only that a recipe was printed then; the iced tea's "printed recipes go back
+  to the 1870s" no longer says when; the martini's history of vermouth ratios
+  now says "roughly", and the "most common reason" a martini tastes wrong is "a
+  common reason". The daiquiri was compared with a margarita for sharpness,
+  which nothing supports. The fruit smoothie said "no added sugar" and has an
+  optional spoonful of honey. The hashbrown casserole was said not to freeze,
+  which was a guess, and many cooks do freeze it. Chicken thighs were said to
+  "taste better" at 80°C, which is an opinion, and are now "more tender".
+
+- Small mistakes. The short ribs were described as "the ends of the rib bones",
+  and they are a short length of bone from the lower rib cage under a thick
+  layer of meat. The shrimp stir-fry listed its steamed rice under the sauce.
+  The double chocolate muffins said the cases are filled "to the top" in one
+  place, "almost to the top" in another and "right to the top" in a third. The
+  arroz con pollo was labelled Mexican and is now Cuban: the pot of chicken,
+  rice, sofrito, olives, peas and peppers written here is the Caribbean version,
+  and the site has a Cuban hub and no Latin American one.
+
+One correction was for safety and not accuracy. The Moscow mule is served in a
+copper mug, and lime juice and ginger beer are acidic enough to pull copper from
+an unlined one, so the page now says to choose a mug lined with stainless steel
+or nickel.
+
+### Judgement calls
+
+The beef fajitas sit next to the chicken fajitas and the carne asada. Skirt
+steak marinated in lime and seared hard is the carne asada with peppers and
+onions and a tortilla, and the page is a different dish only by that much; it is
+the first of these to remove if the site should have only one. The honey garlic
+glazed salmon spoons a glaze over the same skin-on sear as the pan-seared
+salmon, and sits next to a maple glazed salmon that is baked. The shrimp
+stir-fry is on the site beside the garlic butter shrimp and the scampi, and is
+not on it as a stir-fry. The cheeseburger macaroni, the boxed dinner made at
+home, sits next to the one-pot chili mac, and has a ketchup, mustard and cheddar
+sauce and no beans or chilli. The list called it Hamburger Helper, which is a
+brand's name; the page is titled Cheeseburger Macaroni and uses the brand in its
+meta description, its search phrases and its first sentence, to say what it is a
+homemade version of.
+
+The Mississippi pot roast is a different dish from the pot roast: it has no
+vegetables and no added water or stock, it goes in the slow cooker for 8 hours,
+and it is finished with butter and pepperoncini, where the pot roast is a braise
+in the oven with carrots and potatoes. The garlic mashed potatoes cook the
+garlic in the potato water and are mashed by hand, and the creamy mashed
+potatoes use a ricer and butter before milk. The crispy baked chicken thighs and
+the sweet potato fries are the oven versions of dishes that the site had only as
+air-fryer pages, and the methods differ: a dry brine with baking powder on a
+rack, and trays heated before the fries go on.
+
+Left out, and arguable: the loaded baked potato soup, because the slow-cooker
+potato soup already targets "loaded potato soup"; the roasted Brussels sprouts,
+because the ones with bacon are oven-roasted at 220°C; the carrot and lentil
+soup, because of the spiced red lentil soup; corn muffins, which are the skillet
+cornbread and the savoury corn muffins; and the Tuscan chicken pasta next to the
+creamy Tuscan pasta. Any of them can be a page of its own if it is wanted.
+
+### What has not been done
+
+No recipe here has been cooked, as in every volume, and the audits are not a
+stove. The ones to try first are those where a number is arithmetic and not
+experience: the tenderloin's time in the oven, which a thermometer should
+overrule; the chilaquiles salsa, reduced by the clock and not by sight; the
+sweet potato fries, whose crisp depends on a very hot tray; the muffin batter,
+which is thinner than most once the coffee is in; and the 8 hours of the pot
+roast.
+
+The nutrition was worked out this time from a weight for each ingredient and a
+table of values per 100 g, and not estimated by hand as most earlier volumes
+were, which is why so many figures were changed when they were checked. It is
+still an estimate. The table was written from memory of standard composition
+data and not taken from a database, the yields are guesses, such as how much
+frying oil stays on the chips or how much fat runs off a rack, and the script
+that did the sums is not in the repository. The thawing of the hash browns is
+also not in the recipe's times.
+
+The variants left out are not lost. Any of them, a slow-cooker rib, an air-fryer
+version or a protein swap, can be a page of its own if it is wanted, in a volume
+of its own.
+
+Photographs, again: the thirty-two carry the gradient card until the image
+pipeline has been through them, and 581 recipes are now on it.
+
 ## Where the photographs ran out
 
 Six passes through the archives left 174 recipes without a picture. That number
@@ -2504,7 +2691,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **554 of the 1883 recipes** declare unattended
+The larger problem was waiting. **555 of the 1915 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2875,7 +3062,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1883 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1915 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
