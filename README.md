@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1709 most famous recipes** — each
+A dependency-free static site for the world's **1809 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1709 recipes · 69 cuisines · 10 categories · 1853 static pages · 0 npm dependencies
+1809 recipes · 78 cuisines · 10 categories · 1962 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-23.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-24.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details23/ # long-form content for the matching volume
+│   │   ├── details2/ …details24/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1709 recipe pages
+├── recipes/                     #    1809 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1709 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1809 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,8 +221,8 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1709 recipe pages and the about page — 10,017 questions,
-      about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
+- [x] **FAQPage** on all 1809 recipe pages and the about page — 10,550 questions,
+      about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
       asked. `npm run check` reads every answer out of the schema and looks for
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 150,896 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 159,105 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1709 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1809 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1709 recipes now passes, and `npm run check` runs the
+Every one of the site's 1809 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1283,6 +1283,142 @@ says.
 
 Photographs, again: the hundred carry the gradient card until the image
 pipeline has been through them, and 375 recipes are now on it.
+
+## Volume twenty-four, the parts of the world the catalogue reached least
+
+A hundred more, taking the site to 1,809, from the same process as volumes
+twenty-one to twenty-three and with the duplicate check already in the build.
+It is the last volume of this run. The rest of the 8,000-title upload is for
+the owner to take later, a volume at a time, with the same tool.
+
+The English-speaking kitchens were largely used up by volume twenty-three, so
+this one went the other way. 613 dishes were listed by region and tried against
+the 1,709 already published, and only 10 were there already: leche de tigre is
+in the ceviche, niter kibbeh is in the doro wat, payasam is the kheer, nước
+chấm is in the bún chả, and vol-au-vent is the bouchée à la reine. In volume
+twenty-three it was nearly a fifth. Eleven more were one word from a published
+recipe and were read by hand; arepa de choclo, a sweet-corn griddle cake, is
+not the arepas already here and is in. Of the 592 that were new, the hundred in
+this volume are the ones searched for most and clearest about what they are.
+
+One dish was written up and then dropped. Chai tow kway, Singapore's fried
+radish cake, is the steamed, chilled and fried cake the site already has as lo
+bak go, made the same way and finished with egg and sweet soy sauce. The word
+rules did not see it, and reading the published page did. Bak kut teh took its
+place.
+
+What is in it. South America: Peru's pollo a la brasa, tallarines verdes, tacu
+tacu and chicha morada, Brazil's picanha, farofa, bolo de cenoura and quindim,
+Argentina's choripán and medialunas, Colombia's arepa de choclo and sancocho,
+and Chile's empanadas de pino. The Caribbean and Mexico: Cuban picadillo and
+moros y cristianos, Puerto Rico's pernil, mofongo, arroz con gandules, tostones
+and coquito, Jamaican oxtail stew and escovitch fish, chiles en nogada and pan
+de muerto. Africa: Nigeria's akara, efo riro, chin chin and meat pie, Ghana's
+red red and shito, Ethiopian tibs, South Africa's sosaties and koeksisters,
+Morocco's bastilla and baghrir, Senegal's thieboudienne, poulet yassa and mafé,
+and Kenya's githeri. Persia, the Caucasus and Central Asia: zereshk polo,
+khoresh gheimeh, Persian love cake and faloodeh, Georgian satsivi and
+badrijani, Turkish simit and çılbır, and Afghanistan's kabuli pulao, bolani and
+borani banjan. South Asia: the kathi roll, dum aloo, sarson da saag, dal baati
+churma, kadhi pakora, lemon rice and mishti doi, Pakistan's halwa puri,
+Bangladesh's shorshe ilish, chotpoti and bhapa pitha, Nepal's dal bhat, sel
+roti and thukpa, and Sri Lanka's watalappan. Southeast Asia: mie goreng, bakso,
+opor ayam, teh tarik, assam laksa, bak kut teh, tinola, kaldereta, bistek
+Tagalog, gai yang, bò lúc lắc, Myanmar's mohinga, laphet thoke and ohn no khao
+swè, and Cambodia's fish amok, kuy teav and nom banh chok. East Asia: jeyuk
+bokkeum, yukgaejang, oden, chicken nanban and the Taiwanese oyster omelette.
+And Europe: rosół, kapuśniak, rakott krumpli, bacalhau com natas, ajvar,
+štrukli, prebranac, kjötsúpa, plokkfiskur, kleinur, cepelinai, šaltibarščiai
+and kugelis.
+
+Nine cuisines are new to the site and have their own pages, none with fewer
+than three recipes: Afghan, Balkan, Bangladeshi, Burmese, Cambodian, Icelandic,
+Lithuanian, Puerto Rican and Senegalese. Ajvar, štrukli and prebranac sit under
+one Balkan label and not three cuisine pages of a single dish each.
+
+Spread: Indian 7, Puerto Rican 5, Brazilian, Nigerian, Persian and Peruvian 4
+each, eleven cuisines with three, fourteen with two and eleven with one.
+
+### What the audits caught
+
+Almost nothing. Six meta descriptions ran over the 158 characters the site
+allows: arroz con gandules, bastilla, kabuli pulao, fish amok, nom banh chok
+and chicken nanban. The social card still said 1,709 recipes until the icons
+were regenerated. The timing, nutrition, diet, keyword, substitution and
+duplicate audits passed on all ten source files without a single failure, which
+is not the same as the recipes being right.
+
+### What reading caught that the audits could not
+
+The audits check a page against itself. These were wrong in ways that only show
+when the ingredients, the method and the numbers are read side by side, and 21
+of the hundred were corrected before the build:
+
+- Quantities that did not fit the method. Moros y cristianos had roughly 700 ml
+  of liquid for 300 g of rice, and now has roughly 570. The Nigerian meat pie
+  made more filling than eight pies could hold, so the beef, potato, carrot and
+  water were cut and each pie takes four tablespoons in a 16 cm round. The
+  empanadas de pino made more pino than three tablespoons a piece could use.
+  The koeksister strips were 2 cm wide, which gives about a dozen plaits from
+  the dough while the recipe claimed twenty servings, and they are now 1 cm,
+  for about two dozen.
+
+- Cooking times shorter than the method. Efo riro, mafé and kabuli pulao each
+  described 10 to 15 minutes more cooking than they declared.
+
+- Ingredients the method never used. Chotpoti listed "boiled" potatoes and no
+  step boiled them, and the assam laksa listed toasted shrimp paste with no
+  step for toasting it.
+
+- Claims stated as fact that are legend or wrong. The origin of the name tacu
+  tacu, the convent origin of quindim, the desert warriors who are said to have
+  invented dal baati and the "nearly twice as much onion" in prebranac are now
+  hedged or corrected. Shito said it was made without black pepper, and the
+  recipe has a teaspoon of it, so the description now says only that the name
+  is the Ga word for pepper. It also said a jar keeps for months in the
+  cupboard, and a low-acid sauce of onion, tomato and dried shrimp belongs in
+  the fridge under its oil, for four weeks at most. Its tip that oil is "the
+  preservative" is gone.
+
+- Small mistakes. Baghrir told the cook to lay the pancakes "cooked side up",
+  and the holes are on the side the pan did not touch. Githeri promised "less
+  than an hour" and its times add up to 65 minutes.
+
+- Diet and safety notes. The asafoetida in kadhi pakora is often cut with wheat
+  flour, so the recipe now asks for a gluten-free one. Shorshe ilish uses raw
+  mustard oil, which some countries sell only for external use, and the
+  ingredient line now says what to use where it is not sold as food. Tallarines
+  verdes offers a vegetarian hard cheese in place of the Parmesan, which is
+  made with animal rennet.
+
+### Judgement calls
+
+Ohn no khao swè shares a word with the khao soi already published, and the two
+are related, but one is a mild Burmese soup thickened with chickpea flour and
+the other a Thai curry soup built on a curry paste. Mie goreng is fried noodles
+and not a second nasi goreng, and the assam laksa is a sour fish soup, nothing
+like the coconut curry laksa. Persian love cake is a modern dish, not an old
+Iranian one, and its page says so. The bak kut teh is the clear, peppery
+Singapore version and not the darker Malaysian one.
+
+Some of the ingredients cannot be had at a supermarket, and the pages say so
+and, where there is one, give what to use: purple corn for chicha morada,
+candlenuts, calamansi, hilsa and salt cod among them. The one with no
+substitute is laphet, the fermented tea leaves in the Burmese tea leaf salad,
+and the page says that too.
+
+### What has not been done
+
+No recipe here has been cooked, as in every volume, and the audits are not a
+stove. Where a number is arithmetic and not experience, the recipe is the one
+to try first: the bakso meatball paste, whose ice and starch are measured by
+weight; the cepelinai, whose dough has to hold together in the water; the
+koeksister plaits, whose count comes from the dough weight; and the štrukli,
+whose dough is stretched by hand. Nutrition figures are estimates, as the
+section on times and nutrition says.
+
+Photographs, again: the hundred carry the gradient card until the image
+pipeline has been through them, and 475 recipes are now on it.
 
 ## Where the photographs ran out
 
@@ -2210,7 +2346,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **504 of the 1709 recipes** declare unattended
+The larger problem was waiting. **534 of the 1809 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2581,7 +2717,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1709 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1809 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
