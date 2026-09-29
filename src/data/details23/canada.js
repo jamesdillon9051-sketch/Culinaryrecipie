@@ -51,7 +51,7 @@ module.exports = {
       'Pile the meat onto slices of rye spread with mustard and serve with dill pickles.'
     ],
     tips: [
-      'Use exactly the amount of curing salt given, and the type given. It makes the meat safe over a five-day cure and gives it its pink colour.',
+      'Weigh the curing salt and use pink curing salt no. 1, not pink Himalayan salt. It makes a five-day cure safe and turns the meat pink.',
       'Slice against the grain. Brisket cut along the grain is stringy however well it is cooked.',
       'No smoker? Skip the smoking, add 1 teaspoon of smoked paprika to the crust and cook the wrapped brisket at 150°C for 5 hours. It will be less smoky but as tender.'
     ],
@@ -62,10 +62,10 @@ module.exports = {
   },
 
   'peameal-bacon-sandwich': {
-    d: 'Lean pork loin brined for three days, rolled in cornmeal, sliced thick and fried until golden. Piled on a Kaiser roll with mustard, the way it is sold in Toronto.',
-    meta: 'Homemade peameal bacon sandwich: pork loin brined three days, rolled in cornmeal, sliced thick, fried golden and piled on a Kaiser roll with mustard.',
+    d: 'Lean pork loin brined for four days, rolled in cornmeal, sliced thick and fried until golden. Piled on a Kaiser roll with mustard, the way it is sold in Toronto.',
+    meta: 'Homemade peameal bacon sandwich: pork loin brined four days, rolled in cornmeal, sliced thick, fried golden and piled on a Kaiser roll with mustard.',
     kw: ['peameal bacon sandwich', 'peameal bacon', 'homemade peameal bacon', 'how to make peameal bacon', 'toronto peameal bacon sandwich'],
-    why: 'Peameal bacon is not the bacon of an English breakfast. It is a lean, boneless pork loin, brined until it is pink and seasoned through, and rolled in cornmeal, which fries to a fine golden crust. The name comes from the ground dried yellow peas it was once rolled in. The loin is so lean that the salt-and-sugar cure is what keeps it juicy in a hot pan, and the three days in the brine are the only real work in the recipe. In Toronto it is sliced thick, fried, and served on a soft Kaiser roll with nothing but mustard, which is the version here.',
+    why: 'Peameal bacon is not the bacon of an English breakfast. It is a lean, boneless pork loin, brined until it is pink and seasoned through, and rolled in cornmeal, which fries to a fine golden crust. The name comes from the ground dried yellow peas it was once rolled in. The loin is so lean that the salt-and-sugar cure is what keeps it juicy in a hot pan, and the four days in the brine are the only real work in the recipe. In Toronto it is sliced thick, fried, and served on a soft Kaiser roll with nothing but mustard, which is the version here.',
     ing: [
       '# For the cure',
       '1 kg boneless pork loin, trimmed of most of its fat',
@@ -84,7 +84,7 @@ module.exports = {
     st: [
       'Simmer 400 ml of the water with the salt, sugar, curing salt, bay leaves and peppercorns, stirring until dissolved. Add the remaining 800 ml of cold water. The brine must be completely cold before the pork goes in.',
       'Put the pork in a non-reactive container or a food-safe bag, pour over the cold brine and weigh it down so the meat stays under the surface.',
-      'Refrigerate for 3 days, turning the pork over once a day.',
+      'Refrigerate for 4 days, turning the pork over once a day.',
       'Lift the pork out, rinse it under cold water and pat it very dry.',
       'Spread the cornmeal on a tray and roll the pork in it, pressing so a thick, even coat sticks to every side.',
       'Cut the loin across into about 18 slices, each 1 cm thick. Only the outer edge of each slice is coated, as in the shops.',
@@ -94,12 +94,12 @@ module.exports = {
     tips: [
       'Pat the loin very dry after rinsing. Cornmeal will not stick to a wet surface.',
       'Slice it thick, 1 cm. Thin slices of lean pork dry out before they brown.',
-      'Do not skip the curing salt. Without it the pork turns grey and tastes of plain brined pork, not bacon.'
+      'Weigh the curing salt and use pink curing salt no. 1, not pink Himalayan salt. It turns the pork pink and makes the cure safe. For a loin thicker than 8 cm, cure it for a day longer.'
     ],
     pair: ['A fried egg', 'Home fries', 'Fresh-squeezed orange juice'],
     store: 'Keep the cured, coated loin in the fridge up to 5 days and slice it as you cook. Cooked slices keep 3 days. Freeze the uncooked loin for 2 months.',
     nut: [489, 38, 46, 17, 2, 4, 1550],
-    rest: [4320, 'Curing']
+    rest: [5760, 'Curing']
   },
 
   'beavertails': {
