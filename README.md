@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1609 most famous recipes** — each
+A dependency-free static site for the world's **1709 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1609 recipes · 69 cuisines · 10 categories · 1753 static pages · 0 npm dependencies
+1709 recipes · 69 cuisines · 10 categories · 1853 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-22.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-23.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details22/ # long-form content for the matching volume
+│   │   ├── details2/ …details23/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1609 recipe pages
+├── recipes/                     #    1709 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1609 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1709 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1609 recipe pages and the about page — 9,476 questions,
+- [x] **FAQPage** on all 1709 recipe pages and the about page — 10,017 questions,
       about 5.9 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 142,802 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 150,896 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1609 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1709 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1609 recipes now passes, and `npm run check` runs the
+Every one of the site's 1709 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1192,6 +1192,97 @@ list of words is a floor, not a ceiling.
 
 Photographs, again. The hundred are published and carry the gradient card until
 the image pipeline has been through them; there are now 275 recipes on it.
+
+## Volume twenty-three, Canada, Australia, New Zealand and the American regions
+
+A hundred more, taking the site to 1,709, from the same process as the last two
+volumes and with the duplicate check already in the build.
+
+437 dishes were tried against the 1,609 already published: the delicatessen and
+sugar shack of Canada, the Australian and New Zealand biscuit tin and pie shop,
+and the dishes that belong to a single American city or state. 78 were published
+already — Boston cream pie, poutine, lamingtons, key lime pie, the Reuben, the
+tuna melt, chicken fried steak, shrimp and grits, eggs Benedict. The familiar
+American list was the thinnest: of 42 diner and supper favourites tried in one
+go, 19 were here already. Of the 359 titles that were not, the hundred in this
+volume are the most searched for and the clearest about what they are.
+
+The word rules leave near-repeats that only reading catches, and these were
+left out: vanilla slice is the custard slice already here, caramel slice is
+millionaire's shortbread, pikelets are drop scones, kūmara chips are sweet
+potato fries, an apple slice is an apple crumble bar, and sugar cream pie and
+buttermilk pie are cousins of the sugar pie and chess pie that are in. Rainbow
+cake is not Australian, and a lamb shank in New Zealand is still a lamb shank.
+A draft that had the Kiwi onion dip as the French onion dip already published
+was wrong on the facts, because the site has no French onion dip at all; both
+are still to do.
+
+What is in it: Canada's delicatessen (Montreal smoked meat, peameal bacon), the
+sugar shack (pouding chômeur, tarte au sucre, maple taffy), Newfoundland's
+toutons, the Halifax donair, the Prairie table (flapper pie, Ukrainian cabbage
+rolls, bannock, wild rice soup) and the Caesar, the Hawaiian pizza and Calgary
+ginger beef, which are Canadian inventions that other countries assume are their
+own. Australia's fairy bread, Vegemite toast and cheesymite scrolls, the sausage
+sizzle, the steak sandwich and the burger with the lot, tuna mornay, zucchini
+slice, rissoles, dim sims, potato scallops, the pie floater, and the sweet
+table: Tim Tam cheesecake, jam drops, golden syrup dumplings, hedgehog and lemon
+slice, neenish tarts, lemon delicious and the self-saucing chocolate pudding,
+honey joys, chocolate crackles, the ripple cake and melting moments. New
+Zealand's lolly cake, Louise cake, ginger crunch, boil-up, mussel fritters and
+feijoa cake. And the American regions: Cincinnati chili, Chicago deep dish and
+the Chicago hot dog, Detroit pizza, the Juicy Lucy, the Hot Brown, Frito pie,
+the muffuletta, red beans and rice, the shrimp boil, Hoppin' John, spoonbread,
+pimento cheese, toasted ravioli, Oysters Rockefeller, beignets, Indian pudding,
+shoofly pie, sweet potato pie, chess pie, hummingbird cake, Bananas Foster,
+gooey butter cake, pralines, the banana split, the root beer float and the
+mint julep. Peach Melba carries the French label, since a French chef made it,
+and only the name is Australian.
+
+Spread: American 35, Australian 34, Canadian 20, New Zealand 10, French 1.
+
+### What the audits caught
+
+Very little, and all of it minor:
+
+- Ten meta descriptions ran over the 158 characters the site allows, by one to
+  four characters each.
+- `bananas-foster` advertised "in 8 minutes" and the recipe needs 18: ten to
+  prepare and eight to cook. It is the same mistake the description check has
+  been catching since volume twenty, a time taken from the cooking alone.
+- The social card still said 1,609 recipes until the icons were regenerated.
+
+Timing, nutrition, diet, keyword, substitution and duplicate audits passed on
+all seven source files the first time they were run.
+
+### Judgement calls
+
+Some pairs are neighbours and were kept because they differ in method and not
+just in flavour. Louise cake and coconut slice both have jam and coconut, but
+one is a whisked coconut meringue over a cake base and the other a baked
+coconut topping over shortbread with pink icing. Lemon delicious, the
+self-saucing chocolate pudding and pouding chômeur all make their own sauce, by
+three different mechanisms: whisked whites floating the sponge, boiling water
+poured over sugar and cocoa, and hot maple sauce under a stiff batter. The
+hedgehog slice is bound with a cooked egg and cocoa mixture and the lemon slice
+with condensed milk. If the site is thought to have too many of any of these,
+they are the ones to merge.
+
+### What has not been done
+
+No recipe here has been cooked. The audits check a page against itself — its
+times against its method, its calories against its macros, its tags against its
+ingredients, its keywords against its record — and against the rest of the
+catalogue, and none of that is a stove. The two to test first are the Montreal
+smoked meat and the peameal bacon, the only recipes on the site that use curing
+salt. Both brines work out at about 150 mg of nitrite per litre, from the 6.25%
+strength printed on Prague powder no. 1, which is in the range that curing
+guides give, but that is arithmetic and not an experiment, and it should be
+checked against a curing source you trust before anyone cooks from it. Nutrition
+figures are estimates in every volume, as the section on times and nutrition
+says.
+
+Photographs, again: the hundred carry the gradient card until the image
+pipeline has been through them, and 375 recipes are now on it.
 
 ## Where the photographs ran out
 
@@ -2119,7 +2210,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **472 of the 1609 recipes** declare unattended
+The larger problem was waiting. **504 of the 1709 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2490,7 +2581,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1609 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1709 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
