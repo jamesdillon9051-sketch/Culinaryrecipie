@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **1809 most famous recipes** — each
+A dependency-free static site for the world's **1883 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-1809 recipes · 78 cuisines · 10 categories · 1962 static pages · 0 npm dependencies
+1883 recipes · 78 cuisines · 10 categories · 2036 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-24.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-25.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details24/ # long-form content for the matching volume
+│   │   ├── details2/ …details25/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 3492 image files
-├── recipes/                     #    1809 recipe pages
+├── recipes/                     #    1883 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 1809 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 1883 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 1809 recipe pages and the about page — 10,550 questions,
+- [x] **FAQPage** on all 1883 recipe pages and the about page — 10,967 questions,
       about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 159,105 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 165,350 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1143 of the 1809 recipes have a photograph. Of the 1555 images on the site, 846
+1143 of the 1883 recipes have a photograph. Of the 1555 images on the site, 846
 are CC0 or public domain, 338 are CC BY and 371 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 1809 recipes now passes, and `npm run check` runs the
+Every one of the site's 1883 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -1419,6 +1419,164 @@ section on times and nutrition says.
 
 Photographs, again: the hundred carry the gradient card until the image
 pipeline has been through them, and 475 recipes are now on it.
+
+## Volume twenty-five, a list of 394 names
+
+Seventy-four more, taking the site to 1,883. The owner sent a list of 394 dish
+names, mostly the most searched dishes in the United States, Britain, Canada,
+Australia and New Zealand, and asked for all of them to be added, skipping the
+ones that match a recipe already published. The list was tried against the
+1,809 already on the site with the same tool as volumes twenty-one to twenty-four.
+
+Where the 394 went. 208 were already recipes on the site, under the same name
+or another: banana bread, meatloaf, chili, lasagna, beef stew, chicken parmesan,
+butter chicken, poutine, Nanaimo bars, pavlova, lamingtons, Anzac biscuits and
+the rest of the obvious ones. Seven names appear twice in the list. The other
+179 were read by hand, because the word rules cannot tell a new dish from a
+published one with a word added, and 74 were new.
+
+The other 105 were the same dish or a variant of one. Roasted turkey is the
+roast turkey, fried fish tacos are the fish tacos, Southern baked macaroni and
+cheese is the mac and cheese, French Canadian pea soup is the split pea soup,
+peameal bacon strata is the breakfast casserole, sticky date pudding is the
+sticky toffee pudding, damper bread is the damper, louise cake, ginger crunch
+and boil up are on the site under their own names, and Yo-Yo biscuits are the
+melting moments. Others are a protein or an appliance away from a page that
+exists: slow-cooker beef stew, slow-roasted leg of lamb, garlic butter prawn
+skewers next to the new grilled shrimp skewers, and a run of salmon, lamb and
+pork dishes. Teriyaki sauce, beef gravy, Yorkshire puddings and donair sauce are
+already the target of pages that carry them.
+
+The word rules missed four of these and reading caught them: beef and broccoli
+stir-fry is the beef and broccoli, damper bread (bush bread) is the damper,
+louise cake with its raspberry jam and coconut meringue is the louise cake, and
+boil up with its pork, potatoes and doughboys is the boil-up. A dish with an
+extra word in its name is not always a new dish.
+
+What is in it. Sauces and American cooking: Alfredo sauce, marinara, buffalo
+wing sauce, chimichurri and turkey gravy; ribeye, pork chops, bacon-wrapped
+pork tenderloin, chicken tenders, chicken casserole, seared ahi tuna and grilled
+shrimp skewers; chicken tetrazzini, manicotti, stuffed peppers, queso dip and
+chicken enchilada soup; bagel and lox, sourdough and ricotta pancakes and a hash
+brown bake; apple fritters, Brussels sprouts with bacon, cornbread dressing and
+Parker House rolls. Canada: saskatoon berry pie, bullet soup, three sisters
+stew, Maritime blueberry grunt, garlic fingers, Newfoundland snowballs, cod
+cakes, pâté chinois, salmon chowder, puffed wheat squares, schmoo torte, maple
+walnut cake, maple fudge, maple glazed donuts and butter tart bars. Britain and
+Australia: chicken and chorizo pasta, cheese and onion quiche, one-pot lasagna,
+three honey soy chicken dishes, san choy bow, Moreton Bay bugs, the Tim Tam
+cake, honeycomb, a blueberry loaf, raspberry and white chocolate muffins and a
+banana cake. New Zealand: an oven hāngī, pāua fritters, smoked eel pâté, garlic
+butter crayfish, lamb shanks in red wine, crispy pork belly on kūmara mash,
+venison stew and creamed mushrooms on toast; the potato top pie, the mince and
+cheese pie and the lamb and rosemary pie; Marmite and cheese pinwheels and
+savoury corn muffins; and rēwena parāoa, tan square, peppermint slice, squiggle
+slice, condensed milk biscuits, the Boston bun, date scones and peanut brownies.
+
+Spread: American 22, New Zealand 20, Canadian 15, Australian 9, Italian 3,
+British 2, and one each Argentinian, Chinese and Mexican. No cuisine is new to
+the site, so no new hub pages.
+
+### What the audits caught
+
+Little. Three meta descriptions ran over the 158 characters the site allows: the
+honey soy chicken stir-fry, the chicken enchilada soup and the squiggle slice.
+The chimichurri, which has a cook time of zero, mentioned "roast chicken" in one
+step and a roasted pepper in a tip, and the timing audit would not let a
+recipe that does no cooking use the word. The social card still said 1,809
+recipes until the icons were regenerated. The timing, nutrition, diet,
+keyword, substitution and duplicate audits then passed on all seven source
+files, which is not the same as the recipes being right.
+
+### What reading caught that the audits could not
+
+The audits check a page against itself. These were wrong in ways that only show
+when the ingredients, the method and the numbers are read side by side, and
+36 of the 74 were corrected before the build:
+
+- Quantities that did not fit the method. The shrimp skewers said to soak 8
+  skewers and then threaded shrimp onto 4. The apple fritters gave a litre of
+  oil for a frying depth of 6 cm, which needs a pot only 15 cm across, and the
+  maple donuts 1.5 litres for the same depth in a pot 18 cm across, too small
+  for either; they now say 1.5 litres at 5 cm in a 20 cm pot and 2 litres at
+  5 cm in a wide one. A 2 cm meatball weighs about 4 g, so the bullet soup's
+  500 g of mince made well over the 40 it promised, and the balls are now 2.5 cm
+  for about 60. The Parker House rolls, cut with a 7 cm cutter, made nearly two
+  dozen and not the 18 they claimed, and use an 8 cm cutter. The mince and
+  cheese pies were filled with 100 g each and left a quarter of the filling
+  over.
+
+- Times shorter than the method. The stuffed peppers said 55 minutes and their
+  steps add to 65. The chicken tenders fried for 3 to 4 minutes a side, which
+  would dry 2 cm strips, and now fry for 2 to 3. The maple donuts said they
+  fried in two minutes when the method takes three. The honey soy baked chicken
+  said it cooked in an hour and takes 45 minutes.
+
+- Nutrition figures that did not survive adding the ingredient list up again.
+  Nineteen were changed, most by 10 to 30 per cent. The sourdough pancakes had
+  42 g of carbohydrate a serving and the ingredients give 55. The maple donuts
+  had 42 g, and with the glaze it is 54. The stuffed peppers had 20 g of fat and
+  the mince, cheese and sauce give 28. The buffalo sauce gave 330 mg of sodium
+  from a hot sauce that carries about 190 mg a teaspoon, and now gives 600. The
+  maple fudge had 10 g of carbohydrate a piece, and 500 ml of maple syrup, which
+  is two thirds sugar, gives 12.
+
+- Claims stated as fact that were superlative, borrowed or not supported. The
+  saskatoon was said to belong to the apple family and to set its own filling
+  with pectin, and now it is only related to apples and pears. The Tim Tam was
+  Australia's favourite biscuit and is now one of its best known. Raspberry and
+  white chocolate was a pairing "the Australian cafe has made its own", honey
+  soy chicken was "one of the most cooked chicken dishes in Australian homes",
+  the puffed wheat squares turned up at "every potluck" and the corn muffins in
+  "every New Zealand café". A tip that shell-on shrimp are less likely to be
+  soaked in preservative had no source and is gone, and so is the claim that
+  condensed milk biscuits are sold as Kiwi crunch. Maple syrup was said to foam
+  up "to three times its volume", and the fudge now asks for a 3 litre pan. The
+  maple walnut cake described the grades of maple syrup wrongly.
+
+- Small mistakes. The chicken and chorizo pasta was described as one-pan and
+  boils its pasta in a second. San choy bow does not mean "vegetable wrap"; it
+  means lettuce wrap. The Alfredo sauce makes 400 ml and not 350, and the gravy
+  800 ml and not 900.
+
+### Judgement calls
+
+The Marmite and cheese pinwheels sit next to the Cheesymite scrolls already
+published. They share a flavour and nothing else: one is a yeast dough that
+proves for an hour, the other is puff pastry that goes from packet to oven in
+20 minutes. They are kept, and are the first to remove if the site should have
+only one. The peanut brownies are a flavour variant of the two brownie recipes
+on the site, and are in because the peanut butter swirl and the peanuts folded
+through are a different batter and not a topping; they are labelled American,
+because that is where brownies are from, and not New Zealand, where the list
+had them.
+
+The hāngī is an oven method and says so. A real hāngī is cooked in the ground
+on heated stones, and its page says the flavour of the earth oven cannot be
+copied in a kitchen. The rēwena parāoa uses a potato starter and no commercial
+yeast, does not salt the potato water and takes three days, and its page says
+that the bug depends on a warm kitchen. The Boston bun has two kinds: a
+cake-like bun raised with baking powder, and a yeast bun, and this is the
+yeast one with mashed potato, which is what the list's "coconut brioche"
+described. The squiggle slice is named for a New Zealand biscuit, and the page
+says which one.
+
+### What has not been done
+
+No recipe here has been cooked, as in every volume, and the audits are not a
+stove. The ones to try first are those where a number is arithmetic and not
+experience: the pie pastry sizes, the Boston bun and rēwena doughs, whose water
+was worked out and not tested, the maple fudge temperature, the crispy pork
+belly's time in the oven, and the oven hāngī, which has more in one tin than
+most kitchens have tried. Nutrition figures are estimates, as the section on
+times and nutrition says.
+
+The variants left out are not lost. Any of them, a slow-cooker beef stew, an
+air-fryer version or a protein swap, can be a page of its own if it is wanted,
+in a volume of its own.
+
+Photographs, again: the seventy-four carry the gradient card until the image
+pipeline has been through them, and 549 recipes are now on it.
 
 ## Where the photographs ran out
 
@@ -2346,7 +2504,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **534 of the 1809 recipes** declare unattended
+The larger problem was waiting. **554 of the 1883 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -2717,7 +2875,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 1809 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 1883 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
