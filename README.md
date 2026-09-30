@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **2315 most famous recipes** — each
+A dependency-free static site for the world's **2415 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-2315 recipes · 78 cuisines · 10 categories · 2468 static pages · 0 npm dependencies
+2415 recipes · 78 cuisines · 10 categories · 2568 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-30.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-31.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details30/ # long-form content for the matching volume
+│   │   ├── details2/ …details31/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
@@ -102,7 +102,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
 ├── assets/                      #    css, js and 4798 image files
-├── recipes/                     #    2315 recipe pages
+├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -189,7 +189,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 2315 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 2415 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +221,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 2315 recipe pages and the about page — 13,462 questions,
+- [x] **FAQPage** on all 2415 recipe pages and the about page — 14,031 questions,
       about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -242,7 +242,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 204,065 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 213,342 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,7 +380,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1409 of the 2315 recipes have a photograph. Of the 1894 images on the site, 956
+1409 of the 2415 recipes have a photograph. Of the 1894 images on the site, 956
 are CC0 or public domain, 453 are CC BY and 485 are CC BY-SA. Anything still
 without one falls back to a CSS gradient carrying the recipe name, the same
 fallback that catches any image that fails to load at runtime.
@@ -551,7 +551,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 2315 recipes now passes, and `npm run check` runs the
+Every one of the site's 2415 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -2321,6 +2321,237 @@ swirl of cream, three cupcakes and a bowl of whipped cream. A photograph of the
 dish, from anyone who has one under a licence the site can use, is the way out,
 and `tools/adopt_images.py` takes it.
 
+## Volumes twenty-seven to thirty-one, five hundred famous names
+
+Five hundred more, in five volumes of a hundred, taking the site from 1,915 to
+2,415. The owner asked for "500 more most famous search recipes in the UK,
+Canada, USA, New Zealand and Australia", under the standing rules: a new dish is
+added as an ordinary recipe page, the same dish is never published twice, and
+everything already on the site stays as it is. About 3,300 candidate names were
+brainstormed for the five markets and graded against the catalogue with
+`tools/dedupe-candidates.js`, which says whether a name is new, worth a second
+look or already published. Roughly a third of those 3,300 were already on the
+site under the same or a near-identical name, and the later brainstorms did
+worse: by the fourth and fifth volumes most of the mainstream names that came to
+mind were dishes the site had.
+
+### Where the five hundred went
+
+American 261, British 65, Canadian 32, Australian 21, Italian 16, Chinese 15,
+French 14, International 13, New Zealand 10 and Mexican 9. Irish, Ukrainian,
+Indian and Greek have 4 each, Scottish and Thai 3, Korean, Turkish, Japanese,
+Hawaiian, German, Welsh and Austrian 2, and Singaporean, Moroccan, Swedish,
+Finnish, Cuban, Norwegian, Middle Eastern and Spanish one each. No cuisine is
+new to the site, so there are no new hub pages. By category: dinner 117, baking
+97, drinks 61, appetizers 52, lunch 50, desserts 48, quick meals 24, holiday
+specials 21, healthy 16 and breakfast 14.
+
+That is not an even spread, and it is not what was asked for. The United States
+is where most of the searching is, and the United Kingdom, Canada, Australia and
+New Zealand were already the best covered of the site's markets, because volumes
+twenty-two and twenty-three were written for them. What was left that was famous
+and not yet published was mostly American: the regional suppers that have a city
+or a state attached to them, the church-supper and potluck dishes, the things
+people make from scratch that are also sold in a bottle or a jar (the dressings,
+ketchup, gravy, spice blends, jams, jellies and pickles of volume thirty-one),
+the dishes that spread on video, and the classic cocktails. New Zealand has ten
+of the five hundred because nearly every New Zealand dish in a top-fifty list was
+already here. The British, Canadian and Australian dishes that are in are the
+ones that had been missed.
+
+### What is in it
+
+Volume twenty-seven, 2,015: 43 American, 12 British, 10 Canadian, 5 Australian
+and 3 New Zealand dishes, and a few from other kitchens that are searched for in
+these markets: Chinese takeaway soups and crispy seaweed, a doner kebab,
+Mongolian lamb, Ukrainian nalysnyky and pyrizhky, Hawaiian malasadas.
+
+Volume twenty-eight, 2,115: beef and noodles, blackened salmon, shrimp
+étouffée, steak Diane, Swiss steak, crispy aromatic duck, scouse, boiled lobster
+and Dungeness crab, honey prawns, apricot chicken, the Chiko Roll, the Monte
+Cristo, coney dogs, Texas sheet cake, pineapple upside-down cake, fondant
+fancies, Aberdeen butteries, paska, Beaver Tails, gypsy tart, mango cheesecake,
+and cocktails from the amaretto sour to the painkiller.
+
+Volume twenty-nine, 2,215: chicken à la king, chicken divan, Cornish game hens,
+prawn cutlets, pheasant casserole, herb-crusted rack of lamb, the Newfoundland
+fish and brewis, Manhattan clam chowder, cheeseburger soup, the peanut butter
+and jelly sandwich, kolaches, Bath buns, cream horns, funnel cake, chocolate
+babka, black and white cookies, banana cream pie, pumpkin cheesecake, Sussex pond
+pudding, baked Brie, and cocktails from the mimosa to the Mai Tai.
+
+Volume thirty, 2,315: Brunswick stew, carne guisada, seafood gumbo, Santa Maria
+tri-tip, steak Oscar, chicken Marbella, lobster thermidor, salmon en croûte, the
+Acadian chicken fricot, Nova Scotia hodge podge, stifado, New Zealand devilled
+sausages and savoury mince, baked feta pasta, Italian beef and beef on weck,
+tartar sauce and cocktail sauce, all-butter pie crust, flour tortillas, rugelach,
+Boston brown bread, pampushky, zwieback, brandy snaps, apple dumplings, baked
+Alaska, clotted cream, and cocktails from the sidecar to the pornstar martini.
+
+Volume thirty-one, 2,415: American regional suppers (stromboli, oyster stew,
+carne adovada, country captain, chicken riggies, the Rochester garbage plate,
+the Nebraska runza, charro beans, pineapple casserole), the Québec ragoût de
+boulettes, chicken scarpariello, a Hawaiian lomi lomi salmon and mushroom barley
+and matzo ball soups; the things people make from a bottle or a packet (French
+and Italian dressing, béarnaise, peppercorn sauce, sweet chilli sauce, ketchup,
+brown gravy, royal icing and the Italian, Cajun and ranch blends); kūmara and
+zucchini fritters, ramen eggs, a charcuterie board, cowboy caviar, cauliflower
+wings, corn ribs and a blooming onion; baking from pizza dough and moon pies to
+Linzer cookies, a Linzer torte, fortune cookies, Devon splits, a Jamaican ginger
+cake, peach pie, blueberry buckle, Kentucky butter cake, Coca-Cola cake, caramel
+cake, lefse and ladyfingers; strawberry pretzel salad, dirt cake, White
+Christmas, peppermint patties, pecan turtles, sopapilla cheesecake, the Dubai
+chocolate bar and tanghulu; jams, apple butter, pepper jelly and pickles; pub and
+fair snacks (fried cheese curds, boudin balls, pizza rolls, pork scratchings);
+and nineteen drinks from the egg cream, flat white and dalgona coffee to the
+Aviation, the Last Word, the Paper Plane, the Penicillin and the mudslide.
+
+### How a name was vetted
+
+The tool's word rules cannot tell a new dish from a published one with a
+different name, a different spelling or a synonym, so each shortlist was read by
+hand as well. The names that were dropped are recorded in the commit message of
+each volume and, for the last two, in the header of its catalogue file: nineteen
+in volume twenty-eight, twenty-nine in volume twenty-nine and more than fifty in
+volume thirty. They are mostly the same dish under another name (the kiwi burger
+is the Aussie burger, pikelets are drop scones, tea buns are scones, mee goreng
+is the mie goreng, sweet tea is iced tea, a chicken parma is the chicken
+parmigiana) or a cut, a cooking method or a flavour of a dish that is already
+here (prawn tempura, lobster mac and cheese, salmon cakes, teriyaki salmon,
+bourbon balls).
+
+Volume thirty-one showed that one reading by hand is not enough. Four of its
+names were dishes the site had. Two were caught just before they were written,
+when a search for a word of the title turned up the page: a cowboy casserole is
+the tater tot casserole with beans, and baked oats are the baked oatmeal. Two
+were caught after the recipes had been written and had passed every audit, by a
+pass that listed, for each of the hundred titles, every published title that
+shares a word with it: a seafood boil is the site's shrimp boil with crab and a
+garlic butter, with the same pot, the same order of ingredients and the same
+sausage and corn, and wassail is hot spiced cider with apple, orange, cloves,
+cinnamon and brandy, which is the mulled cider under an older name. They were
+replaced by an oyster stew, Buck's fizz, a country captain and a Kentucky butter
+cake. A fifth was close. The caribou, the Québec carnival drink, had been
+written as red wine, port and vodka heated with orange peel and cinnamon, which
+is a mulled wine with spirit in it, and the drink itself is served cold; it was
+rewritten as that. That pass is the one to run first.
+
+### What the audits caught
+
+Across the five volumes the audits refused little, and what they refused was
+narrow:
+
+- In volume thirty the keyword audit refused "slow cooked green beans", because
+  the method is not slow cooking, and the title became "old-fashioned Southern
+  green beans"; the generator refused a record with `rest: null`; and the
+  nutrition script put the steak Oscar at 1,044 kcal a serving, which cut its
+  hollandaise to two yolks and 80 g of butter and brought it to 878.
+- In volume thirty-one the keyword audit refused "no bake White Christmas",
+  because the method lined the tin with "baking parchment" for a slice that never
+  sees an oven, and the lining is now greaseproof paper.
+- The same volume's homemade ketchup passed all six audits and failed
+  `npm run check`: its description said "20 minutes" and its prep and cook make
+  25. The six audits read the keywords and the method, and none reads the
+  description against the clock. The check does.
+- The volume's own lint, which is stricter than the site's, flagged seven meta
+  descriptions a character or two over 150 (French dressing, sweet chilli sauce,
+  creamed chipped beef, the Linzer torte, caramel cake, White Christmas and boudin
+  balls), thirteen recipes that were shorter than the minimum prose, mostly
+  drinks, dressings and spice blends, and a flat white with two ingredient lines
+  where three are the minimum. The garbage plate came out at 1,164 kcal a serving
+  and was cut to 953 with less potato, macaroni and mayonnaise.
+
+### What reading caught that the audits could not
+
+- Volume twenty-seven, after the audits: the pecan sandies now toast the nuts in
+  the method, the empire biscuits use a cutter that matches the quantity of dough,
+  the marshmallow hot chocolate lost its vegetarian tag because marshmallows
+  contain gelatine, and the kettle corn headline states prep plus cook.
+- Volume thirty: the tri-tip tip had a broken sentence, a claim about poutines à
+  trou that nothing supported was removed, the clotted cream's fan temperature
+  was worded wrongly, the sidecar's origin was corrected and the history of fried
+  green tomatoes was softened.
+- Volume thirty-one. The charcuterie board told the cook to slice the baguette
+  half an hour before serving while its own tip warned that bread sliced early
+  dries out. The jello shots' text described "half vodka and half hot water" for a
+  recipe of two parts hot water to one of vodka, and called each shot "a third of
+  a standard drink"; it now says about 10 ml of vodka, roughly a third of a single
+  measure. The sea breeze had a sentence about crushed ice attached to the tip
+  about pouring, and a tip that said plenty of ice dilutes a drink more slowly
+  than a few large cubes, which is the wrong way round. The flat white gave the
+  steam wand and the hand frother as one instruction. The mudslide's tip said to
+  chill the glass after the syrup went in and the method never did.
+- Claims stated further than the evidence: steak and eggs as the launch-day meal
+  "for astronauts ever since" is now "for decades afterwards"; the sea breeze's
+  first appearance "in the 1920s" is "by 1930"; the caribou's place in the
+  carnival "since the nineteenth century" is "long".
+
+### Judgement calls
+
+The Black Russian sits beside the White Russian, which is the same drink with
+cream; the Black Russian has its own name and its own searches, and is the first
+of these to remove if the site should have only one. The mudslide sits beside the
+White Russian and the Irish cream for the same reason, and the boulevardier beside
+the Negroni, with bourbon for the gin.
+
+The sopapilla cheesecake is one word from the sopapillas, and the duplicate tool
+says so; they share a name and not a dish, one a fried pastry and the other a
+cream cheese bar in crescent dough. The blueberry buckle sits beside the
+streusel coffee cake, the blueberry grunt and the blueberry bread, and is a cake
+with the fruit on top and a crumb over it. The Linzer cookies and the Linzer
+torte are the same flavours as a biscuit and as a tart. The tanghulu is a hard
+sugar shell on fruit, like the toffee apples, on small fruit and a skewer. The
+bread and butter pickles sit beside the quick refrigerator pickles and are a
+sweet, salted, cooked brine; the pickled red cabbage sits beside the braised red
+cabbage and is cold and raw. The Kentucky butter cake sits beside the gooey
+butter cake, the peach pie beside the peach cobbler, the carne adovada beside
+the pork chile verde, the stromboli beside the calzone, and the runza beside the
+pasties and empanadas. The zucchini fritters are grated raw and squeezed, and the
+kūmara fritters are boiled and mashed, which is why both are here.
+
+Left out, and arguable: a burgoo, because it is the Brunswick stew of volume
+thirty with beef and cabbage; a steak and cheese pie, next to the steak and ale
+pie and the Australian meat pie; a Kiwi onion dip, next to the French onion dip;
+a Vegemite scroll, which is the Cheesymite scrolls; and a potatoes au gratin
+next to the gratin dauphinois. Any of them can be a page of its own if it is
+wanted.
+
+### What has not been done
+
+No recipe here has been cooked, as in every volume, and the audits are not a
+stove. The ones to try first are those where the method depends on a number and
+not on experience: the fortune cookies, which must be shaped in seconds and whose
+batter is a tuile batter with water in it; the tanghulu and the pecan turtles,
+which are a thermometer's work; the pork scratchings, which dry for three hours
+at 100°C and then puff in oil at 200°C; the pepper jelly, whose set depends on
+the pectin; the matzo balls, whose lightness depends on the hour in the fridge;
+and the apple butter, which is ready when a spoon leaves a line and not when the
+clock says.
+
+The nutrition was worked out from a weight for each ingredient and a table of
+values per 100 g, as in volume twenty-six, and it is an estimate. The table was
+written from memory of standard composition data, the yields are guesses, such as
+how much frying oil the blooming onion keeps or how much fat a braise leaves
+behind, and the script that did the sums is not in the repository. The drinks
+carry the calories of the alcohol that is in the glass, worked out from the
+volume and the strength of each spirit, wine and liqueur, which is also an
+estimate; the cooked dishes that use wine, cider or brandy carry none. The times do not
+include thawing the kataifi or the frozen berries, sterilising the jars that the
+jam, apple butter, pepper jelly and pickles go into, or folding the paper
+fortunes.
+
+The preserves have not been tested for shelf life. The jam, the apple butter and
+the pepper jelly are potted hot into sterilised jars and given a storage time for
+a cool cupboard, and the pickles are kept in the fridge. None goes through a
+boiling-water bath, and a cook who wants a long shelf life should follow a tested
+preserving method. A few recipes carry a safety warning, for raw salmon, raw egg
+white in icing, raw flour in the edible cookie dough, boiling sugar and hot oil,
+and a recipe is not a food-safety course.
+
+Photographs: the five hundred carry the gradient card until the image pass has
+been through them, which makes 501 recipes on it. An image pass, as in volume
+twenty-six, would fetch photographs from the archives and draw the rest.
+
 ## The ingredients came after the method
 
 On a wide screen the ingredients card sits beside the method and everything is
@@ -2892,7 +3123,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **649 of the 2315 recipes** declare unattended
+The larger problem was waiting. **678 of the 2415 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -3263,7 +3494,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 2315 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 2415 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 
