@@ -117,7 +117,7 @@ module.exports = {
     d: 'Paneer and peppers tossed in a coarse, freshly pounded coriander-and-chilli masala. Drier and sharper than the creamy paneer gravies.',
     meta: 'Paneer and peppers cooked in a kadai with a coarsely ground coriander seed and dried chilli masala, finished with ginger julienne.',
     kw: ['kadai paneer', 'kadai paneer recipe', 'paneer capsicum', 'dry paneer curry', 'kadai masala'],
-    why: 'The masala is pounded, not powdered. Coriander seeds and dried chillies crushed coarsely in a mortar give bursts of flavour you bite into; the same spices bought ready-ground disappear into the sauce and taste flat. Grind them yourself and stop while the pieces are still visible. The peppers want high heat and about four minutes — they should still snap.',
+    why: 'The masala is pounded, not powdered. Coriander seeds and dried chillies crushed coarsely in a mortar give pockets of flavour you bite into; the same spices bought ready-ground disappear into the sauce and taste flat. Grind them yourself and stop while the pieces are still visible. The peppers want high heat and about four minutes — they should still snap.',
     ing: [
       '350 g paneer, cut into 2.5 cm batons',
       '1 red pepper, cut into 2.5 cm squares',

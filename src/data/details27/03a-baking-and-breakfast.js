@@ -266,7 +266,7 @@ module.exports = {
   },
 
   'pecan-sandies': {
-    d: 'Crumbly, melt-in-the-mouth butter cookies studded with toasted chopped pecans and rolled in icing sugar while still warm. A shortbread with nuts in it.',
+    d: 'Crumbly, tender butter cookies studded with toasted chopped pecans and rolled in icing sugar while still warm. A shortbread with nuts in it.',
     meta: 'Pecan sandies: crumbly butter cookies studded with toasted chopped pecans and rolled in icing sugar while still warm. Shortbread with nuts.',
     kw: ['pecan sandies', 'pecan sandies cookies', 'buttery pecan sandies', 'pecan shortbread cookies', 'how to make pecan sandies'],
     why: 'Pecan sandies are a shortbread-style cookie with chopped pecans, named for their sandy, crumbly, melting texture. They are made with a very high ratio of butter to flour and very little sugar, and with no egg, and that is what produces the texture: without egg there is no structure to bind the dough, and without much sugar and liquid there is little gluten, so the cookie bakes into something short, tender and fragile. The pecans are toasted first, for a deeper, more buttery flavour that stands up to the butter. The dough is chilled before it is shaped, so that the butter firms up and the cookies keep their round shape in the oven, instead of spreading into thin, greasy discs. Once baked, the cookies are cooled just for a few minutes and rolled in icing sugar while still warm, which makes it stick to them and give the powdery snow coating.',

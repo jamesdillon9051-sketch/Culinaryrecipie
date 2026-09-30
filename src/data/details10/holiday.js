@@ -90,7 +90,7 @@ module.exports = {
 
   'mince-pies': {
     rest: [1485, 'maturing'],
-    d: 'Homemade mincemeat matured for a day, in a sweet shortcrust rich enough to hold together in the hand. Butter rather than suet, which makes them vegetarian and, to my mind, better.',
+    d: 'Homemade mincemeat matured for a day, in a sweet shortcrust rich enough to hold together in the hand. Butter rather than suet, which makes them vegetarian and, arguably, better.',
     meta: 'Mince pies with homemade mincemeat matured overnight, in a butter shortcrust — vegetarian, and better for it.',
     kw: ['mince pies', 'mincemeat recipe', 'christmas mince pies', 'homemade mince pies'],
     why: 'Shop mincemeat is sweet and one-noted because it has been pasteurised; the point of making it is the day it spends maturing, when the brandy and citrus work into the dried fruit and the flavours stop being separate. Grated frozen butter stands in for suet perfectly — it melts at a similar point and coats the fruit the same way. The pastry is sweetened and enriched with an egg yolk, which makes it short and sturdy rather than flaky, because a flaky mince pie falls apart on the plate.',

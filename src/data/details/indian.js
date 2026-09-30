@@ -353,7 +353,7 @@ module.exports = {
 
   'dal-tadka': {
     d: 'Yellow lentils simmered soft, then finished with a tadka — whole spices bloomed in ghee and poured over at the last second so they hit the surface still sizzling. The single most comforting thing in Indian home cooking.',
-    meta: 'Classic dal tadka with soft yellow lentils and a sizzling ghee tempering of cumin, chilli and garlic. Comfort in a bowl.',
+    meta: 'Classic dal tadka with soft yellow lentils and a sizzling ghee tempering of cumin, chilli and garlic. A staple of everyday Indian cooking.',
     kw: ['dal tadka recipe', 'indian lentil dal', 'yellow dal', 'vegetarian indian comfort food'],
     why: 'A tadka is fat-based flavour extraction: most of the aroma compounds in cumin, mustard seed and dried chilli are fat-soluble, so blooming them in hot ghee releases far more than simmering them in water ever could. Pouring it over at the end preserves the volatile top notes that would otherwise cook away.',
     ing: [

@@ -57,6 +57,7 @@ const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
+const inline = require('./lib/inline');
 const { derivedTags } = require('./lib/diet-derived');
 /**
  * The meta description for an ingredient hub.
@@ -284,10 +285,19 @@ function loadRecipes() {
          appears the moment a real asset does — see src/lib/media.js. */
       video: detail.video || null,
       publishedReviews: publishedReviews[row.slug] || [],
-      why: detail.why,
+      /* The schema, the FAQ, the feeds and the audits read the plain copies;
+         only the recipe page reads the Rich ones, which keep the **bold**
+         markers it turns into <strong>. See src/lib/inline.js. */
+      why: inline.plain(detail.why),
+      whyRich: detail.why,
       ingredients: detail.ing,
       steps: detail.st,
-      tips: detail.tips,
+      tips: detail.tips.map(inline.plain),
+      tipsRich: detail.tips,
+      /* Which layout the page uses and any headings written for this recipe
+         alone. Both optional; see src/lib/layouts.js. */
+      layout: detail.layout || null,
+      headings: detail.headings || null,
       pairings: detail.pair,
       storage: detail.store,
       nutrition: detail.nut,
@@ -375,6 +385,7 @@ function loadRecipes() {
     if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;
   }
   recipes.dates = dates;
+  recipes.rewrites = details.__rewrites || { applied: 0, stale: [], unknown: [] };
 
   return recipes;
 }
@@ -741,6 +752,12 @@ function build() {
   const started = Date.now();
   const recipes = loadRecipes();
   const ctx = buildContext(recipes);
+  const rw = recipes.rewrites;
+  if (rw.applied || rw.stale.length || rw.unknown.length) {
+    console.log(`Rewrites: ${rw.applied} applied`
+      + (rw.stale.length ? `, ${rw.stale.length} ignored because the original text changed since (${rw.stale.slice(0, 3).join(', ')}${rw.stale.length > 3 ? ', …' : ''})` : '')
+      + (rw.unknown.length ? `, ${rw.unknown.length} for recipes that no longer exist` : ''));
+  }
 
   cleanOutput();
   mkdir(OUT);

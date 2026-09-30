@@ -366,7 +366,7 @@ module.exports = {
     d: 'Pinto beans simmered with onion and then mashed into their own broth in hot lard until they are creamy, glossy and dense. Nothing is fried twice, despite the name — "refritos" means well fried.',
     meta: 'Authentic refried beans (frijoles refritos) — pinto beans mashed in lard with onion until creamy and glossy.',
     kw: ['refried beans recipe', 'frijoles refritos', 'mexican beans', 'homemade refried beans'],
-    why: 'The bean cooking liquid is the secret ingredient: it is loaded with starch and flavour, and mashing the beans into it rather than into water gives a silky, emulsified texture. Lard is traditional because it carries flavour and emulsifies with the starch in a way that neutral oil simply does not.',
+    why: 'The bean cooking liquid does most of the work: it is loaded with starch and flavour, and mashing the beans into it rather than into water gives a silky, emulsified texture. Lard is traditional because it carries flavour and emulsifies with the starch in a way that neutral oil simply does not.',
     ing: [
       '400 g dried pinto beans, soaked overnight',
       '1 onion, halved, plus 1 onion finely chopped',

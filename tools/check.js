@@ -14,8 +14,10 @@ const path = require('path');
 const DIST = path.join(__dirname, '..');
 
 /* The site is generated into the repo root, so the audit must skip the
-   project's own directories rather than walking source and node_modules. */
-const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools']);
+   project's own directories rather than walking source and node_modules.
+   backups/, logs/ and .humanize/ are local working files from tools/backup.js
+   and tools/humanize.js: copies of source data, never pages. */
+const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools', 'backups', 'logs', '.humanize']);
 const { MAX_TITLE, MIN_DESCRIPTION, MAX_DESCRIPTION } = require('../src/lib/seo');
 
 /**
@@ -751,11 +753,17 @@ try {
 /* seo-audit reads the built pages as a set rather than one at a time: two
    pages sharing a title, a page nothing links to, a sitemap that has drifted
    from the routes. None of those is visible from inside a single file. */
+/* The house voice sits in the same list for the same reason: a banned phrase or
+   a first-person claim is invisible once a recipe is written and obvious to a
+   reader, so it fails the check instead of waiting to be noticed. --check-docs
+   keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
-                     'substitutions-audit.js', 'duplicates-audit.js']) {
+                     'substitutions-audit.js', 'duplicates-audit.js',
+                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
+  const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,
-      [require('path').join(__dirname, audit)], { stdio: 'pipe' });
+      [require('path').join(__dirname, script), ...args], { stdio: 'pipe' });
   } catch (err) {
     for (const line of String(err.stdout || '').split('\n')) {
       if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));

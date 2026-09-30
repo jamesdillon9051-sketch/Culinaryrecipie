@@ -10,6 +10,8 @@ const { substitutionsFor, dietaryTipsFor } = require('../lib/substitutions');
 const { isConvertible } = require('../lib/units');
 const { addFahrenheit } = require('../lib/oven-temp');
 const { videoSchema, reviewSchema } = require('../lib/media');
+const inline = require('../lib/inline');
+const layouts = require('../lib/layouts');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -96,6 +98,39 @@ function stepsHtml(steps) {
       </div>
     </li>`;
   }).join('\n');
+}
+
+/**
+ * The "why" text as the recipe's layout shows it: a tinted panel, an ordinary
+ * section under a heading, or no heading at all, with the paragraphs simply
+ * running on. Paragraphs are separated by a blank line in the source; bold
+ * spans become <strong> (see src/lib/inline.js).
+ */
+function whyHtml(recipe, style, heading) {
+  const paras = inline.paragraphs(recipe.whyRich).map(p => `<p>${inline.html(p)}</p>`).join('\n          ');
+  if (style === 'lead' || !heading) return `<div class="why-lead">\n          ${paras}\n        </div>`;
+  const tag = style === 'plain' ? 'section' : 'aside';
+  const cls = style === 'plain' ? 'why-plain' : 'why-panel';
+  return `<${tag} class="${cls}" aria-labelledby="why-title">\n          <h2 id="why-title">${esc(heading)}</h2>\n          ${paras}\n        </${tag}>`;
+}
+
+/** The tips as a bulleted list, a numbered list, or short paragraphs with a rule beside them. */
+function tipsHtml(recipe, style, heading) {
+  const items = recipe.tipsRich;
+  const body = style === 'notes'
+    ? items.map(t => `<p class="tip-note">${inline.html(t)}</p>`).join('')
+    : style === 'numbered'
+      ? `<ol class="tips-numbered">${items.map(t => `<li>${inline.html(t)}</li>`).join('')}</ol>`
+      : `<ul>${items.map(t => `<li>${inline.html(t)}</li>`).join('')}</ul>`;
+  return `<h2>${esc(heading)}</h2>\n        ${body}`;
+}
+
+/** What to serve, as a list or on one line. */
+function serveHtml(recipe, style, heading) {
+  const body = style === 'line'
+    ? `<p class="pair-line">${recipe.pairings.map(esc).join(' &middot; ')}</p>`
+    : `<ul>${recipe.pairings.map(p => `<li>${esc(p)}</li>`).join('')}</ul>`;
+  return `<h2>${esc(heading)}</h2>\n        ${body}`;
 }
 
 function nutritionHtml(n) {
@@ -328,6 +363,43 @@ function render(recipe, context) {
         `<a class="tag" href="${SITE.base}recipes/?tag=${encodeURIComponent(t)}">${esc(t)}</a>`).join('')}</div>`
     : '';
 
+  /* The prose column is assembled from the recipe's layout — an order for the
+     sections, a style for the ones that can be shown more than one way, and a
+     heading for each — rather than written out once for every page. See
+     src/lib/layouts.js for what is fixed and what varies, and why. The aside
+     beside it (ingredients, at-a-glance, share) is the same on every page. */
+  const shape = layouts.layoutFor(recipe);
+  const heading = section => layouts.headingFor(recipe, shape, section);
+  const sections = {
+    why: () => whyHtml(recipe, shape.why, heading('why')),
+    method: () => `${processBlock}
+        ${videoHtml(recipe.video)}
+
+        <h2 id="method">${esc(heading('method'))}</h2>
+        <p class="form-note" style="margin-bottom:1rem">
+          Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
+        </p>
+        <ol class="steps">${stepsHtml(recipe.steps)}</ol>`,
+    tips: () => tipsHtml(recipe, shape.tips, heading('tips')),
+    swaps: () => substitutions.length ? `<h2>${esc(heading('swaps'))}</h2>
+        <ul>${substitutions.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : '',
+    diet: () => dietaryTips.length ? `<aside class="panel panel--accent" style="margin:1.75rem 0" aria-labelledby="diet-tips-title">
+          <h2 id="diet-tips-title" style="margin-bottom:.6rem">${esc(heading('diet'))}</h2>
+          <ul style="margin:0">${dietaryTips.map(t => `<li>${esc(t.note)}</li>`).join('')}</ul>
+        </aside>` : '',
+    serve: () => serveHtml(recipe, shape.serve, heading('serve')),
+    store: () => `<h2>${esc(heading('store'))}</h2>
+        <p>${esc(recipe.storage)}</p>`,
+    faq: () => `<h2 id="faq">${esc(heading('faq'))}</h2>
+        <div class="faq">${faq.map(({ q, a }) =>
+          `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
+    nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
+        <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
+        ${nutritionHtml(recipe.nutrition)}
+        ${dietTags}`
+  };
+  const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');
+
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap">
@@ -433,44 +505,7 @@ ${breadcrumbs(trail)}
       </aside>
 
       <div class="prose">
-        <aside class="why-panel" aria-labelledby="why-title">
-          <h2 id="why-title">Why This ${esc(recipe.title)} Recipe Works</h2>
-          <p>${esc(recipe.why)}</p>
-        </aside>
-        ${processBlock}
-        ${videoHtml(recipe.video)}
-
-        <h2 id="method">How to Make ${esc(recipe.title)}</h2>
-        <p class="form-note" style="margin-bottom:1rem">
-          Tap a step to highlight it, or turn on Cook Mode for large type and step-by-step focus.
-        </p>
-        <ol class="steps">${stepsHtml(recipe.steps)}</ol>
-
-        <h2>Tips for Making ${esc(recipe.title)}</h2>
-        <ul>${recipe.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
-
-        ${substitutions.length ? `<h2>Common Substitutions &amp; Variations</h2>
-        <ul>${substitutions.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
-
-        ${dietaryTips.length ? `<aside class="panel panel--accent" style="margin:1.75rem 0" aria-labelledby="diet-tips-title">
-          <h2 id="diet-tips-title" style="margin-bottom:.6rem">Quick Tips &amp; Variations</h2>
-          <ul style="margin:0">${dietaryTips.map(t => `<li>${esc(t.note)}</li>`).join('')}</ul>
-        </aside>` : ''}
-
-        <h2>What to Serve with ${esc(recipe.title)}</h2>
-        <ul>${recipe.pairings.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
-
-        <h2>Storing &amp; Reheating ${esc(recipe.title)}</h2>
-        <p>${esc(recipe.storage)}</p>
-
-        <h2 id="faq">${esc(recipe.title)} FAQ: Common Questions</h2>
-        <div class="faq">${faq.map(({ q, a }) =>
-          `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>
-
-        <h2>${esc(recipe.title)} Nutrition</h2>
-        <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
-        ${nutritionHtml(recipe.nutrition)}
-        ${dietTags}
+        ${prose}
 
         <section class="reviews" aria-labelledby="reviews-title" style="margin-top:3rem">
           <h2 id="reviews-title">Reader Reviews</h2>

@@ -21,7 +21,11 @@
     "keywords": "node tools/keyword-audit.js",
     "seo": "node tools/seo-audit.js",
     "duplicates": "node tools/duplicates-audit.js",
-    "dedupe": "node tools/dedupe-candidates.js"
+    "dedupe": "node tools/dedupe-candidates.js",
+    "voice": "node tools/voice-audit.js",
+    "backup": "node tools/backup.js",
+    "humanize": "node tools/humanize.js",
+    "selftest": "node tools/humanize-selftest.js"
   },
   "keywords": [
     "recipes",

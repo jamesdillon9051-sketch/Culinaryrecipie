@@ -677,7 +677,10 @@
   color: var(--text);
 }
 .why-panel p { margin: 0; color: var(--text); }
-.why-panel p::first-letter {
+/* The text may run to several paragraphs, and only the first opens with the
+   drop cap. */
+.why-panel p + p { margin-top: .85rem; }
+.why-panel p:first-of-type::first-letter {
   float: left;
   font-family: var(--font-display);
   font-size: 3.1em;
@@ -686,7 +689,22 @@
   color: var(--second);
   font-weight: 700;
 }
-[data-theme="dark"] .why-panel p::first-letter { color: var(--second); }
+[data-theme="dark"] .why-panel p:first-of-type::first-letter { color: var(--second); }
+
+/* The other ways a recipe's layout can show its "why" text, its tips and its
+   serving suggestions (src/lib/layouts.js). They use the page's own tokens and
+   add nothing the panel above does not already establish. */
+.why-lead { margin: 0 0 2rem; }
+.why-lead p { margin: 0 0 1rem; }
+.why-lead p:first-child { font-size: 1.06em; }
+.why-plain p { margin: 0 0 1rem; }
+.tip-note {
+  margin: 0 0 1rem;
+  padding: .1rem 0 .1rem 1rem;
+  border-left: 3px solid var(--second);
+}
+.prose .tips-numbered { padding-left: 1.5rem; }
+.pair-line { margin: 0; color: var(--text-soft); font-size: 1.02rem; line-height: 1.7; }
 
 .prose h2 { margin-top: 2.4rem; }
 .prose h3 { margin-top: 1.8rem; }

@@ -5,3 +5,9 @@ __pycache__/
 .env
 .netlify/
 .vercel/
+
+# Local snapshots taken by tools/backup.js, run logs from tools/humanize.js, and its scratch state.
+# The durable copy of the originals is the git history.
+backups/
+logs/
+.humanize/

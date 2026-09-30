@@ -73,11 +73,18 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   │   ├── details/*.js         # volume one long-form content
 │   │   ├── details2/ …details31/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
+│   │   ├── rewrites/*.json      # rewrites laid over the recipes by tools/humanize.js
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
 │   ├── lib/
 │   │   ├── util.js              # escaping, durations, taxonomy tables
-│   │   └── ingredients.js       # ingredient parser + quantity formatter
+│   │   ├── ingredients.js       # ingredient parser + quantity formatter
+│   │   ├── voice.js             # banned phrases, openings, first-person rules, text checks
+│   │   ├── layouts.js           # the recipe-page layouts and their heading wordings
+│   │   ├── inline.js            # the one mark-up allowed in prose: **bold**
+│   │   ├── rewrites.js          # lays src/data/rewrites over the recipes
+│   │   ├── rewrite-check.js     # decides whether a rewrite may replace a recipe's words
+│   │   └── pick.js              # deterministic choice from a slug hash
 │   ├── templates/
 │   │   ├── layout.js            # HTML shell, head/SEO, header, footer, card
 │   │   ├── pages.js             # home, directory, taxonomy, about, contact, 404
@@ -98,6 +105,10 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── make_icons.py            # favicon, PWA icons, OG card
 │   ├── make-attribution.js      # regenerates images-attribution.md
 │   ├── check.js                 # post-build audit
+│   ├── voice-audit.js           # measures repetition in the prose; fails on banned phrases
+│   ├── backup.js                # snapshot, verify and restore src/data
+│   ├── humanize.js              # batch rewrite through the Anthropic API, safely
+│   ├── humanize-selftest.js     # tests for the four above, against a fake API
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
@@ -108,6 +119,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
 ├── images-attribution.md        # source + licence for every image
 ├── netlify.toml / vercel.json
+├── CLAUDE.md                    # working instructions for Claude Code sessions
 └── package.json
 ```
 
@@ -2551,6 +2563,76 @@ and a recipe is not a food-safety course.
 Photographs: the five hundred carry the gradient card until the image pass has
 been through them, which makes 501 recipes on it. An image pass, as in volume
 twenty-six, would fetch photographs from the archives and draw the rest.
+
+## The prose was not robotic, the page was
+
+A review for the sameness that reads as mass-produced looked for the usual tells
+and mostly did not find them. Measured with `npm run voice` when it was first
+run, on 2,415 recipes: none of the stock clichés ("elevate your", "symphony of",
+"delve into", "nestled", "testament to", "game-changer", "culinary journey")
+anywhere in the catalogue, no claim of personal experience, and 2,351 different
+openings for 2,415 ledes. Ten recipes did carry something from the wider family:
+"melt-in-the-mouth" in four, "the secret ingredient", "bursts of flavour",
+"comfort in a bowl", and three stray uses of "my" or "we" ("to my mind, better",
+"the version we know today"). They were reworded, and the check now fails on any
+more.
+
+What was the same everywhere was the shape. Every "why" text was a single
+paragraph, four in five had no sentence of eight words or fewer, every recipe
+had exactly three tips, and every page carried the same nine headings in the
+same order, so a reader or a reviewer who opened two pages in a row read one
+template twice.
+
+What changed:
+
+- **`src/lib/voice.js`** holds the rules once: the banned phrases, ten ways a
+  recipe may open (assigned from the slug, so the variety is built in rather
+  than hoped for), the first-person detector, and the measures of rhythm.
+  `tools/voice-audit.js` reports on the catalogue and `npm run check` runs it
+  with `--strict`, so a banned phrase or a claim of personal experience fails
+  the build. The rule lists in `CLAUDE.md` are generated from the same file.
+- **Six page layouts** (`src/lib/layouts.js`) in place of one. Each has its own
+  section order, its own way of showing the "why" text, the tips and the
+  serving suggestions, and its own pool of heading wordings, chosen from a hash
+  of the slug. The most common full set of headings is now on three pages out of
+  2,415; before, it was on all of them. The ingredients card, `id="method"`,
+  `id="faq"` and the dish's name in the method heading do not move.
+- **`**bold**`** is allowed in the "why" text and the tips. The page shows it as
+  `<strong>`; the structured data, the FAQ answers, the feeds and the audits
+  read the plain copy, so the words on the page and the words in the schema stay
+  the same words.
+- **`tools/humanize.js`** rewrites prose through the Anthropic API in batches of
+  30 to 50, with a limiter that honours `Retry-After` and pauses every worker,
+  exponential back-off on 5xx and network errors, a resumable run, an error log
+  and a live progress line. What it writes goes to `src/data/rewrites/`, laid
+  over the recipes at load time, and never into the detail files. Before an
+  answer is accepted `src/lib/rewrite-check.js` holds it to the recipe's own
+  facts (every number, year and name already in the recipe; no storage method or
+  diet claim added or dropped) and to the voice rules; a rejected answer is sent
+  back with its problems, and one that still fails leaves the recipe as it was.
+  The repo's own audits run over the result afterwards and take back anything
+  they reject. `tools/backup.js` snapshots `src/data` first. No API key was
+  available when it was written, so `tools/humanize-selftest.js` tests it against
+  a fake server that misbehaves the way the real one does: 429s with
+  `Retry-After`, 529s, 500s, dropped connections, hangs, answers that break the
+  rules, a rejected key and an empty balance.
+
+Two things that were asked for were not built. The first was spreading the
+publication dates over the past three years, with random gaps and random times.
+This repository's history is three weeks long, a publication date is a statement
+to a reader and to Google about when something was published, and a date chosen
+to look organic is a statement that is not true. The second was adding
+first-person experience to the recipes, the kind that "sounds like a human made
+mistakes in the kitchen". Practical second-person advice ("if your oven runs
+hot, check at 12 minutes") is true of ovens and needs no one to have stood at
+this one, and that is what the rules ask for. A claim that the writer burned the
+first batch is a claim that no one did.
+
+What the review did turn up is in `CLAUDE.md`, sections 7 and 8, for the owner
+to decide: the build already derives a `datePublished` for every recipe, counted
+back from July 2026 to 2013, before this repository existed, and the About page
+and every recipe's byline say that each recipe was cooked and tested by its
+author. Neither was changed.
 
 ## The ingredients came after the method
 
