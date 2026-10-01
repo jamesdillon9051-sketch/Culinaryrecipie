@@ -342,7 +342,7 @@ function card(recipe, options = {}) {
 
   const badges = [`<span class="badge badge--glass">${esc(recipe.cuisine)}</span>`];
   if (recipe.badges.includes('editors')) badges.push('<span class="badge badge--solid">Editor’s Pick</span>');
-  else if (recipe.badges.includes('trending')) badges.push('<span class="badge badge--brass">Trending</span>');
+  else if (recipe.badges.includes('trending')) badges.push('<span class="badge badge--brass">Featured</span>');
 
   return `<article class="card${options.reveal === false ? '' : ' reveal'}"${options.delay ? ` data-delay="${options.delay}"` : ''}>
   <div class="card-media" style="background:${img ? img.color : 'var(--bg-sunken)'}">

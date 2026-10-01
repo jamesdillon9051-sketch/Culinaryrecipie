@@ -220,6 +220,7 @@ The site is read by people and by Google's quality systems, and both penalise th
 
 - **No invented experience.** No first-person narration or testing claims in recipe prose. Recipes drafted by an AI session have not been cooked by anyone, so nothing in their text may say or imply that they were.
 - **No invented ratings.** Ratings and review counts come from readers or from nowhere.
+- **No invented popularity.** The catalogue's `rating` and `reviews` only order the lists, and the site keeps no analytics of what readers cook, save or print. A list may be in an order; it may not say readers chose it. No "ranked by what readers cook most", "Trending", "Top rated" or "Most popular" while `src/data/reviews.json` is empty, and `npm run check` fails on them.
 - **No new history.** Do not add a date, chef, region or named person that is not already in the recipe. When unsure, soften ("is said to have been") or leave it out.
 - **Only the recipe's own numbers.** Temperatures, weights, shelf lives and times are the recipe's. A "check early" time in advice may be any time shorter than one the recipe states.
 - **No invented publication history.** Never backdate, spread, randomise or otherwise fabricate `datePublished` or any publication timestamp, and do not build tooling that does. Section 7 says what the site publishes today and why it needs a decision.

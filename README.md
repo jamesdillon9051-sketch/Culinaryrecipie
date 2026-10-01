@@ -2755,6 +2755,26 @@ writes, so none of this was it.
     to undo that in the folded menu is less specific than the one that opens the
     panel, so the slide stayed. The open panel now sets `transform: none` in the
     menu, and all ten categories are inside the screen from 320 to 1,099 px.
+19. **Rankings nobody measured.** The home page said its "Trending Now" section
+    ("What everyone is cooking this week") was "ranked by what readers are
+    actually saving and printing right now"; the category pages said "ranked by
+    what readers cook most", the recipes page "sorted by what readers cook
+    most", the sort menu's default was "Most popular", the home page had a "Top
+    rated" button that sorted by a rating no recipe has, and 76 cards wore a
+    "Trending" badge. The order underneath is `rating × reviews` from the
+    catalogue rows, which `CLAUDE.md` calls an ordering weight, and the site is
+    static and keeps no analytics: nothing counts what is cooked, saved or
+    printed. It is the same family as finding 4. The lists keep their order and
+    now say only that they are in one: "To start with / A handful from the
+    archive", "in a suggested order", "Suggested order", "All recipes" and
+    "Featured". `npm run check` fails on the old phrases while
+    `src/data/reviews.json` is empty, and `CLAUDE.md` section 4.3 says so. The
+    keyword "sort recipes by rating" on the recipes page, a sort that is not
+    offered, became "sort recipes by cooking time".
+20. **A badge nobody could read.** The "Trending" badge (now "Featured") was
+    brass text on a faint brass tint, which disappears on a dark photograph; axe
+    cannot test text laid over a picture and files it under "needs review". It is
+    now white on the same dark glass as the cuisine badge, with a brass edge.
 
 Every recipe `<img>` has alt text and dimensions, and no id is duplicated or
 dangling; that was checked and needed nothing.
@@ -2938,6 +2958,14 @@ would need reading before the gate in `tools/fetch_images.py` is widened to take
 them. Or the cards can stay as they are, which is what the site does now and is
 honest: a gradient with the dish's name on it claims nothing. Drawings were the
 fourth way, and the owner has ruled them out.
+
+Two claims on the site were left as they are, because they are the owner's to
+decide and `CLAUDE.md` section 8 already lists them: the wording that says each
+recipe was cooked and tested by a named person (the About page, the byline, the
+"tested recipes" counters, the home page's "our test kitchen"), and the
+synthetic `datePublished`. The home page's "Editor's Picks" paragraph ("Four
+recipes our test kitchen keeps returning to") belongs with the first, and was
+not changed either.
 
 The contrast rule reads tokens and three footer greys. It cannot read a colour
 written inline in a template, a gradient behind text or a text shadow, and an

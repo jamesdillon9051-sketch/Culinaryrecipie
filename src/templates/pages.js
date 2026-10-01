@@ -137,7 +137,7 @@ function home(ctx) {
         <h2 id="editors-title">The ones we make again and again</h2>
         <p>Four recipes our test kitchen keeps returning to — the versions we would cook for someone we wanted to impress.</p>
       </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=rating">Top rated</a>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/">All recipes</a>
     </div>
     <div class="bento">${editors.map((r, i) => card(r, { eager: i === 0, delay: i * 70 })).join('')}</div>
   </div>
@@ -147,11 +147,11 @@ function home(ctx) {
   <div class="wrap">
     <div class="section-head reveal">
       <div>
-        <span class="eyebrow">Trending Now</span>
-        <h2 id="trending-title">What everyone is cooking this week</h2>
-        <p>Ranked by what readers are actually saving and printing right now.</p>
+        <span class="eyebrow">To start with</span>
+        <h2 id="trending-title">A handful from the archive</h2>
+        <p>Press the heart on any card and it waits for you on the Saved page.</p>
       </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=popular">See all</a>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/">See all</a>
     </div>
     <div class="rail">${trending.map((r, i) => card(r, { delay: i * 50 })).join('')}</div>
   </div>
@@ -336,7 +336,7 @@ ${breadcrumbs(trail)}
         <div>
           <label class="sr-only" for="sort">Sort recipes</label>
           <select id="sort">
-            <option value="popular">Most popular</option>
+            <option value="popular">Suggested order</option>
             ${ctx.recipes.some(r => r.rating) ? '<option value="rating">Highest rated</option>' : ''}
             <option value="quickest">Quickest first</option>
             <option value="newest">Newest first</option>

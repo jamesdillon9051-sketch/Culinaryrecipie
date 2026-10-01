@@ -95,11 +95,13 @@
   white-space: nowrap;
 }
 .badge--sage   { background: color-mix(in srgb, var(--sage) 16%, transparent); color: var(--sage-d); }
-.badge--brass  { background: color-mix(in srgb, var(--brass) 18%, transparent); color: var(--brass); }
+/* Only ever drawn on a photograph. The old tinted fill with brass text could not
+   be read on a dark picture; this is the glass badge with a brass edge. */
+.badge--brass  { background: rgba(20, 15, 11, .62); color: #fff; backdrop-filter: blur(6px);
+                 box-shadow: inset 0 0 0 1px rgba(224, 188, 120, .85); }
 .badge--solid  { background: var(--accent); color: var(--on-accent); }
 .badge--glass  { background: rgba(20, 15, 11, .62); color: #fff; backdrop-filter: blur(6px); }
 [data-theme="dark"] .badge--sage { color: #a8bd8c; }
-[data-theme="dark"] .badge--brass { color: var(--highlight); }
 
 /* ------------------------------------------------------------------ card */
 .card-grid {

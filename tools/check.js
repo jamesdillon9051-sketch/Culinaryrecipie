@@ -179,6 +179,30 @@ for (const file of htmlFiles) {
   if (!Object.keys(REVIEWS).length && /average\s+rating/i.test(html)) {
     problems.push(`${rel}: claims an "average rating" while src/data/reviews.json holds no review`);
   }
+  /* --- rankings nobody measured ---------------------------------------------
+     The catalogue's rating and review counts are ordering weights typed into the
+     rows, not readers' behaviour (CLAUDE.md, section 3), and the site keeps no
+     analytics of what is cooked, saved or printed. The home page said its
+     "Trending Now" section was "ranked by what readers are actually saving and
+     printing right now", the category pages said "ranked by what readers cook
+     most", the sort menu offered "Most popular" and the home page a "Top rated"
+     button. Same family as the average rating above: a claim about readers the
+     site has no readers' data to back. Lists may be in an order; they may not
+     say who chose it. */
+  if (!Object.keys(REVIEWS).length) {
+    for (const [pattern, what] of [
+      [/what readers cook most/i, '"ranked by what readers cook most"'],
+      [/readers are actually saving/i, '"ranked by what readers are saving and printing"'],
+      [/what everyone is cooking/i, '"what everyone is cooking this week"'],
+      [/Trending Now/, 'a "Trending Now" section'],
+      [/badge--brass">Trending</, 'a "Trending" badge'],
+      [/>Top rated</, 'a "Top rated" link'],
+      [/>Highest rated</, 'a "Highest rated" sort'],
+      [/>Most popular</, 'a "Most popular" sort']
+    ]) {
+      if (pattern.test(html)) problems.push(`${rel}: ${what} while src/data/reviews.json holds no review and nothing measures what readers do`);
+    }
+  }
 
   /* --- a template that printed a missing value ------------------------- */
   /* The privacy page, the ingredients index and the contact confirmation were
