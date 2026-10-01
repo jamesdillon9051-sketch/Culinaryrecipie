@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2343
+Every photograph on Weekly Delight is freely licensed. Of 2344
 photographs, **1092** are CC0 or public domain and carry no conditions at all, and
-**1251** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**1252** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -42,7 +42,7 @@ than use an image we do not have clear rights to.
 
 ## The illustrations
 
-**356** of the pictures on this site are not photographs. They were drawn by
+**355** of the pictures on this site are not photographs. They were drawn by
 an AI image model because six passes through the archives found no photograph
 of those dishes that this site could publish, and a drawing of the dish seemed
 more use to a cook than a blank card.
@@ -363,7 +363,6 @@ wrong dish were deleted rather than kept.
 | `pan-seared-pork-chops.webp` / `.jpg` | Pan-Seared Pork Chops | Hero | sana |
 | `bacon-wrapped-pork-tenderloin.webp` / `.jpg` | Bacon-Wrapped Pork Tenderloin | Hero | sana |
 | `bagel-and-lox.webp` / `.jpg` | Bagel and Lox | Hero | sana |
-| `chicken-tetrazzini.webp` / `.jpg` | Chicken Tetrazzini | Hero | sana |
 | `chicken-enchilada-soup.webp` / `.jpg` | Chicken Enchilada Soup | Hero | sana |
 | `hash-brown-bake.webp` / `.jpg` | Hash Brown Bake | Hero | sana |
 | `brussels-sprouts-with-bacon.webp` / `.jpg` | Brussels Sprouts with Bacon | Hero | sana |
@@ -424,9 +423,9 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2415 |
-| Hero photographs | 1859 |
+| Hero photographs | 1860 |
 | Secondary "process" photographs | 484 |
-| Generated illustrations | 356 |
+| Generated illustrations | 355 |
 | Total image files | 5398 (WebP + JPEG for each) |
 | Recipes using a gradient placeholder | 200 |
 
@@ -438,7 +437,7 @@ wrong dish were deleted rather than kept.
 | CC BY 2.0 | 538 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 1.0 | 305 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 292 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC BY-SA 2.0 | 186 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 187 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 161 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 136 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 71 | No rights reserved — no attribution legally required |
@@ -2681,6 +2680,7 @@ licence as the rest of this project.
 | `seared-ahi-tuna.webp` / `.jpg` | Seared Ahi Tuna | Hero | Sesame Seared Ahi Tuna with Soba Noodle at The Revel Patio Grill | Revelpatiogrill | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sesame_Seared_Ahi_Tuna_with_Soba_Noodle_at_The_Revel_Patio_Grill.jpg) |
 | `grilled-shrimp-skewers.webp` / `.jpg` | Grilled Shrimp Skewers | Hero | Lobster Lover's Dream with AddOn: Grilled Sea Scallops & Shrimp Skewers | Red Lobster Lover Joe twitter:RLLoverJoe | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/164188154@N05/53484955736) |
 | `apple-fritters.webp` / `.jpg` | Apple Fritters | Hero | Apple fritters | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54406616293) |
+| `chicken-tetrazzini.webp` / `.jpg` | Chicken Tetrazzini | Hero | chicken tetrazzini | Phil Denton | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/37475039@N04/8737819138) |
 | `manicotti.webp` / `.jpg` | Manicotti | Hero | Lobster and scallop manicotti | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54231263404) |
 | `queso-dip.webp` / `.jpg` | Queso Dip | Hero | Queso Dip Al Improvised! | cogdogblog | CC0 1.0 | [Flickr](https://www.flickr.com/photos/37996646802@N01/51822257237) |
 | `queso-dip-process.webp` / `.jpg` | Queso Dip | Process | First Time Queso Dip | cogdogblog | CC0 1.0 | [Flickr](https://www.flickr.com/photos/37996646802@N01/51590696109) |

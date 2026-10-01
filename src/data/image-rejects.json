@@ -7040,6 +7040,10 @@
       "model": "sana",
       "prompt": "Mushrooms browned hard in butter, then simmered in a little cream with mustard, thyme and lemon and piled onto thick toast, A caf\u00e9 breakfast, made with button or chestnut mushrooms, onion, garlic cloves, double cream, vegetable stock, a New Zealand dish called Creamed Mushrooms on Toast, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=44041326",
+      "why": "baked mushrooms and chicken in sour cream, in a divided dish, no toast"
     }
   ],
   "mince-and-cheese-pie": [
@@ -10926,6 +10930,10 @@
     {
       "page": "https://www.flickr.com/photos/85886752@N06/42694065995",
       "why": "a landslide of rocks and logs in a forest"
+    },
+    {
+      "page": "https://www.flickr.com/photos/85886752@N06/42694062145",
+      "why": "a landslide in a forest, not the cocktail"
     }
   ],
   "prawn-mayo-sandwich": [
@@ -11470,6 +11478,18 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=17344306",
       "why": "plain fried chicken pakoras with no sauce"
+    }
+  ],
+  "boston-bun": [
+    {
+      "page": "https://www.flickr.com/photos/66419320@N00/6758824811",
+      "why": "an American pecan sticky bun, not the Australian spiced sultana bun with pink icing"
+    }
+  ],
+  "san-choy-bow": [
+    {
+      "page": "https://www.flickr.com/photos/14764065@N02/4476271624",
+      "why": "duck filling with oysters and a bowl of mussels on the same plate, at a restaurant table"
     }
   ]
 }

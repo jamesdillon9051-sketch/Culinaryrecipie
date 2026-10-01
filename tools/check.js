@@ -890,6 +890,24 @@ if (!fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'ut
   problems.push('src/assets/js/directory.js: prints "0.0" for a recipe nobody has rated (no stars--unrated)');
 }
 
+/* --- the menu breakpoint is one number in two files ---------------------- */
+/* main.css folds the links into the menu button at a width, and app.js stops
+   opening the dropdown panels on hover at the same width. They were both 860
+   until the header was found to be wider than a 1024px tablet; the two drifting
+   apart would leave a panel that opens on hover inside a menu that is already
+   open, or one that cannot be opened at all. */
+{
+  const css = fs.readFileSync(path.join(DIST, 'src', 'assets', 'css', 'main.css'), 'utf8');
+  const js = fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'app.js'), 'utf8');
+  const fold = /@media \(max-width: (\d+)px\) \{\s*\.nav-toggle \{ display: grid; \}/.exec(css);
+  const hover = [...js.matchAll(/window\.innerWidth > (\d+)/g)].map(m => Number(m[1]));
+  if (!fold) {
+    problems.push('src/assets/css/main.css: cannot find the media query that turns the menu button on');
+  } else if (!hover.length || hover.some(n => n !== Number(fold[1]))) {
+    problems.push(`src/assets/js/app.js: hover opens the dropdown above ${hover.join('/') || '(nothing)'}px but main.css folds the links into the menu at ${fold[1]}px`);
+  }
+}
+
 /* --- diet claims --------------------------------------------------------- */
 /* Every tag now, not just Gluten-Free. These are the claims a reader cannot
    check for themselves — someone coeliac or vegan is trusting the label over the

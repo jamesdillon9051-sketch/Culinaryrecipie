@@ -118,6 +118,11 @@
   transition: transform .38s var(--ease-out), box-shadow .38s var(--ease-out), border-color .3s;
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--line-strong); }
+/* The archive pages list a whole cuisine or category at once (up to 800 cards).
+   Cards scrolled far off screen are not laid out until they come near; the
+   height is the measured one (about 480px at the widths where the grid is one
+   to three columns), so the scroll bar barely moves as they are filled in. */
+.card-grid > .card { content-visibility: auto; contain-intrinsic-size: auto 480px; }
 
 .card-media {
   position: relative;
@@ -473,9 +478,22 @@
 .nav-panel a span { display: block; font-size: .72rem; color: var(--text-soft); }
 @media (max-width: 900px) { .nav-panel { grid-template-columns: repeat(2, 1fr); } }
 
+/* The header holds the brand, eight links, the search field and the theme
+   button, which needs about 1300px. Below that the field is squeezed until it
+   cannot show its own placeholder, and below about 1100px the row is wider than
+   the screen: the theme button falls off the right edge and the page scrolls
+   sideways. So the field goes first (the Search link is still there), then the
+   links fold into the menu button. app.js reads the same 1099px. */
+@media (max-width: 1299px) { .header-search { display: none; } }
+
 /* Mobile nav */
 .nav-toggle { display: none; }
-@media (max-width: 860px) {
+@media (min-width: 600px) and (max-width: 1099px) {
+  /* Room to spare on a tablet: the buttons sit at the right edge, not in a
+     cluster beside the name. */
+  .nav-toggle { margin-left: auto; }
+}
+@media (max-width: 1099px) {
   .nav-toggle { display: grid; }
   .main-nav {
     position: fixed; inset: var(--header-h) 0 auto 0;
@@ -501,8 +519,11 @@
     width: auto; box-shadow: none; border: 0; padding: .2rem 0 .6rem 1rem;
     background: transparent; display: none;
   }
-  .nav-item[data-open="true"] .nav-panel { display: grid; }
-  .header-search { display: none; }
+  /* The open rule above this block also slides the panel half its own width
+     to the left (it is centred under its link on a desktop). Without this the
+     first column of Categories, Cuisines and Ingredients sat off the left edge
+     of the screen, out of reach, in the phone menu. */
+  .nav-item[data-open="true"] .nav-panel { display: grid; transform: none; }
 }
 
 /* --------------------------------------------------------- directory page */

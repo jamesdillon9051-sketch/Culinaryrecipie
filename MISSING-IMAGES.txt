@@ -107,7 +107,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   paper-plane                        Paper Plane   [2 refused already]
   penicillin                         Penicillin   [1 refused already]
   bees-knees                         Bee's Knees   [3 refused already]
-  mudslide                           Mudslide   [2 refused already]
+  mudslide                           Mudslide   [3 refused already]
 
 == British (21) ========================================
   lamb-bhuna                         Lamb Bhuna
