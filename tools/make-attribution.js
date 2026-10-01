@@ -18,7 +18,7 @@ const catalog = require(path.join(ROOT, 'src/data/volumes.js')).catalog();
    photographs throughout this file. They are not licensed work by a
    photographer, so folding them into the licence table would misdescribe both
    them and it. Marked in the manifest by tools/generate_images.py. */
-const { isIllustration } = require(path.join(ROOT, 'src/lib/util.js'));
+const { isIllustration, secureUrl } = require(path.join(ROOT, 'src/lib/util.js'));
 
 const rows = [];
 const drawnRows = [];
@@ -51,7 +51,7 @@ for (const recipe of catalog) {
     const title = (data.title || '').replace(/\|/g, '/').trim();
     rows.push(
       `| \`${data.file}.webp\` / \`.jpg\` | ${recipe.title} | ${kind} | ${title} | ${author} | ` +
-      `${data.licence} | [${data.source}](${data.page}) |`
+      `${data.licence} | [${data.source}](${secureUrl(data.page)}) |`
     );
   }
 }
@@ -98,9 +98,11 @@ distributing. Both are filtered out at source rather than caught in review.
 
 Images were collected programmatically by \`tools/fetch_images.py\`, which:
 
-1. Queries **Wikimedia Commons**, then re-checks the \`LicenseShortName\` field on
-   every result and discards anything that is not CC0, public domain or CC BY.
-   The search filter is treated as a hint; the licence field is the authority.
+1. Queries **Wikimedia Commons** and **Openverse** (which indexes Flickr and other
+   archives of freely licensed work), asking for CC0 and public domain first and
+   then CC BY and CC BY-SA, and re-checks the licence field on every result,
+   discarding anything that is not one of those. The search filter is treated as
+   a hint; the licence field is the authority.
 2. Rejects NonCommercial and NoDerivatives outright, including compound forms
    such as CC BY-NC-SA. The forbidden clause is looked for anywhere in the
    licence string rather than in a fixed position, so an unusual ordering like

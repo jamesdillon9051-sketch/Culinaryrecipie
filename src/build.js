@@ -212,6 +212,21 @@ function validateImage(entry, slug) {
     if (data.lqip && !LQIP_URI.test(data.lqip)) {
       throw new Error(`"${slug}": image ${key} has a malformed LQIP data URI`);
     }
+    /* The author and title are printed under the picture and the author is
+       published as its creator. What the archives return is whatever the
+       uploader typed: an unfilled template ("{{{photographer}}}"), markup, an
+       email address, a whole licence notice. tools/fetch_images.py cleans these
+       on the way in; this is the check that the data is clean when it arrives
+       here, so one that is not stops the build instead of reaching a page. */
+    if (data.source !== 'AI illustration') {
+      for (const field of ['author', 'title']) {
+        const v = String(data[field] || '');
+        if (/\{\{|\}\}|<[^>]+>|&(?:amp|lt|gt|quot|#\d+);/i.test(v) || /[\w.-]+@[\w-]+\.[a-z]{2,}/i.test(v)
+            || (field === 'author' && v.length > 100)) {
+          throw new Error(`"${slug}": image ${key} has an ${field} that cannot go in a credit line: ${JSON.stringify(v.slice(0, 80))}`);
+        }
+      }
+    }
     clean[key] = data;
   }
   return clean;

@@ -204,6 +204,17 @@ const isIllustration = img =>
  * Creative Commons asks for title, author, source and licence; all four are in
  * the manifest, and all four go out here.
  */
+/**
+ * A credit or licence link, upgraded to https for the hosts that answer on it.
+ *
+ * The licence deeds were stored as http://creativecommons.org/..., which every
+ * recipe page then linked to from an https page: a needless downgrade, and the
+ * thing a crawler reports as insecure content. The stored value is left alone
+ * (it is what the archive returned) and is corrected where it is used.
+ */
+const SECURE_HOSTS = /^http:\/\/((?:www\.)?(?:creativecommons\.org|flickr\.com|commons\.wikimedia\.org|wikimedia\.org|wikipedia\.org|rawpixel\.com|stocksnap\.io|inaturalist\.org|wordpress\.org)\/)/i;
+const secureUrl = url => (typeof url === 'string' ? url.replace(SECURE_HOSTS, 'https://$1') : url);
+
 function photoCredit(img, { compact = false } = {}) {
   if (!img) return '';
 
@@ -221,19 +232,27 @@ function photoCredit(img, { compact = false } = {}) {
   }
 
   if (!img.author) return '';
-  const author = esc(img.author);
+  /* "Unknown" is a true answer for a public-domain archive that names nobody,
+     but "Title by Unknown" reads as a person called Unknown. The credit is the
+     title, the licence and the archive, which is what can actually be said. */
+  const byline = img.author === 'Unknown' ? '' : ` by ${esc(img.author)}`;
+  /* Openverse hands back a caption of up to two hundred characters as the title.
+     It is link text, so it is shortened for the eye and the link still goes to
+     the page it names. */
+  const shown = String(img.title || 'Photograph');
+  const title = shown.length > 90 ? shown.slice(0, shown.lastIndexOf(' ', 88) > 40 ? shown.lastIndexOf(' ', 88) : 88) + '…' : shown;
   const name = img.page
-    ? `<a href="${esc(img.page)}" rel="nofollow noopener">${esc(img.title || 'Photograph')}</a>`
-    : esc(img.title || 'Photograph');
+    ? `<a href="${esc(secureUrl(img.page))}" rel="nofollow noopener">${esc(title)}</a>`
+    : esc(title);
   const licence = img.licence_url
-    ? `<a href="${esc(img.licence_url)}" rel="license nofollow noopener">${esc(img.licence)}</a>`
+    ? `<a href="${esc(secureUrl(img.licence_url))}" rel="license nofollow noopener">${esc(img.licence)}</a>`
     : esc(img.licence || '');
   const shared = SHARE_ALIKE.test(img.licence || '')
     ? ' &middot; <span class="photo-credit__sa">this resized copy is shared under the same licence</span>'
     : '';
   return `<p class="photo-credit${compact ? ' photo-credit--compact' : ''}">`
     + `<span class="visually-hidden">Photograph credit: </span>`
-    + `${name} by ${author}`
+    + `${name}${byline}`
     + (licence ? ` &middot; ${licence}` : '')
     + (img.source ? ` &middot; ${esc(img.source)}` : '')
     + shared
@@ -241,4 +260,4 @@ function photoCredit(img, { compact = false } = {}) {
 }
 
 module.exports = { esc, jsonLd, humanTime, humanWait, isoDuration, slugify, clamp, starsHtml, plural,
-  photoCredit, isIllustration, NEEDS_CREDIT, CUISINES, CATEGORIES, DIET_TAGS };
+  photoCredit, secureUrl, isIllustration, NEEDS_CREDIT, CUISINES, CATEGORIES, DIET_TAGS };

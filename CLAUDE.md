@@ -32,6 +32,7 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | `npm run humanize` | The batch rewrite pipeline (section 6). |
 | `npm run selftest` | Tests for the voice rules, layouts, overlay, validator and pipeline. No key, no network. Run it after touching any of them. |
 | `npm run readme` | Re-derive the counts in README.md. `check` fails if they are stale. |
+| `npm run missing` | Rewrite `MISSING-IMAGES.txt` from the data: every recipe with no picture at all (an AI illustration counts as a picture), by cuisine. |
 
 Before any commit: `npm run build && npm run check`.
 
@@ -236,7 +237,7 @@ The site is read by people and by Google's quality systems, and both penalise th
 7. `npm run readme` (and build again if it changed anything), then commit.
 8. **Keep previous recipes untouched** when adding a volume. Changes to existing recipes go through section 6, or a deliberate commit of their own.
 
-New recipes show a gradient placeholder until an image is added (README.md, images section).
+New recipes show a gradient placeholder until an image is added (README.md, images section). **Real photographs only: the owner has said they want real images, not AI-generated ones, so do not generate or publish illustrations for new recipes, and leave a recipe on its gradient card when no correct photograph exists.** (`tools/generate_images.py` drew the older labelled illustrations and is not to be run for new volumes.) Photographs come from `tools/fetch_images.py` and are staged and looked at before `tools/review_images.py` publishes them; a wrong picture is worse than none. A CC BY or CC BY-SA photograph must name its author (read the file's description page, not the archive's empty field), and `npm run check` fails if it does not. `fetch_images.py --img-dir` and `contact_sheet.py --img-dir` keep candidate files apart from the ones the site is using.
 
 ## 6. Rewriting existing recipes (`tools/humanize.js`)
 

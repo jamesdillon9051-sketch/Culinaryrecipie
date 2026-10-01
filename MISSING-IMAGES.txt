@@ -1,227 +1,294 @@
-RECIPES STILL WITHOUT A PHOTOGRAPH
+RECIPES STILL WITHOUT A PICTURE
 
-Save each as BOTH files in  src/assets/img/recipes/
+A photograph, or an illustration the site draws, appears on every other recipe.
+Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.jpg    800 px wide, quality ~70
     <slug>.webp   800 px wide, quality ~68
-Then run:  python3 tools/adopt_images.py   (see note at the end)
+Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== Chinese (61) =======================================
-  har-gow                            Har Gow
-  lo-mai-gai                         Lo Mai Gai
-  nai-wong-bao                       Nai Wong Bao
-  sheng-jian-bao                     Sheng Jian Bao
-  jianbing                           Jianbing   [1 rejected already]
-  rou-jia-mo                         Rou Jia Mo   [2 rejected already]
-  liangpi                            Liangpi
-  smashed-cucumber                   Smashed Cucumber Salad
-  bang-bang-chicken                  Bang Bang Chicken
-  pidan-tofu                         Century Egg with Cold Tofu
-  drunken-chicken                    Drunken Chicken
-  spicy-wontons                      Red Oil Wontons
-  tea-eggs                           Marbled Tea Eggs
-  youtiao                            Youtiao
-  dongpo-rou                         Dongpo Rou
-  yuxiang-rousi                      Yuxiang Rousi
-  zhajiangmian                       Zhajiangmian
-  la-zi-ji                           La Zi Ji
-  duo-jiao-yu-tou                    Duo Jiao Yu Tou
-  beggars-chicken                    Beggar's Chicken
-  white-cut-chicken                  White Cut Chicken
-  soy-sauce-chicken                  Soy Sauce Chicken
-  salt-baked-chicken                 Salt Baked Chicken
-  da-pan-ji                          Da Pan Ji
-  braised-beef-brisket               Braised Beef Brisket
-  sweet-sour-spare-ribs              Sweet and Sour Spare Ribs
-  steamed-ribs-black-bean            Steamed Ribs with Black Bean
-  siu-yuk                            Siu Yuk
-  mei-cai-kou-rou                    Mei Cai Kou Rou
-  crab-ginger-scallion               Ginger and Scallion Crab
-  steamed-whole-fish                 Steamed Whole Fish
-  dry-fried-green-beans              Dry-Fried Green Beans
-  di-san-xian                        Di San Xian
-  stir-fried-water-spinach           Stir-Fried Water Spinach
-  choy-sum-oyster-sauce              Choy Sum in Oyster Sauce
-  home-style-tofu                    Home-Style Tofu
-  yong-tau-foo                       Yong Tau Foo
-  hot-dry-noodles                    Hot Dry Noodles
-  biang-biang-noodles                Biang Biang Noodles
-  yangzhou-fried-rice                Yangzhou Fried Rice
-  claypot-rice                       Claypot Rice
-  zongzi                             Zongzi
-  vinegar-cabbage                    Vinegar Cabbage
-  lotus-root-stir-fry                Stir-Fried Lotus Root
-  wood-ear-salad                     Wood Ear Salad
-  hot-and-sour-potato                Hot and Sour Potato Slivers
-  west-lake-beef-soup                West Lake Beef Soup
-  egg-drop-soup                      Egg Drop Soup
-  winter-melon-soup                  Winter Melon Soup
-  lotus-root-rib-soup                Lotus Root and Pork Rib Soup
-  mantou                             Mantou
-  shao-bing                          Shao Bing
-  chilli-oil                         Sichuan Chilli Oil
-  xo-sauce                           XO Sauce
-  tangyuan                           Tangyuan
-  red-bean-soup                      Red Bean Soup
-  mango-pomelo-sago                  Mango Pomelo Sago
-  eight-treasure-rice                Eight Treasure Rice
-  sesame-balls                       Sesame Balls
-  almond-tofu                        Almond Tofu
-  hong-kong-egg-waffle               Hong Kong Egg Waffle
+== American (127) ======================================
+  baked-spaghetti                    Baked Spaghetti   [2 refused already]
+  blackened-chicken                  Blackened Chicken   [2 refused already]
+  chicken-and-biscuits               Chicken and Biscuits   [2 refused already]
+  filet-mignon                       Filet Mignon   [2 refused already]
+  king-ranch-chicken-casserole       King Ranch Chicken Casserole   [2 refused already]
+  blue-cheese-dressing               Blue Cheese Dressing   [2 refused already]
+  crunchwrap                         Crunchwrap   [2 refused already]
+  one-pot-pasta                      One-Pot Pasta   [2 refused already]
+  turkey-chili                       Turkey Chili   [2 refused already]
+  breakfast-sausage                  Breakfast Sausage   [2 refused already]
+  english-muffins                    English Muffins   [2 refused already]
+  pumpkin-muffins                    Pumpkin Muffins   [2 refused already]
+  homemade-vanilla-ice-cream         Homemade Vanilla Ice Cream   [2 refused already]
+  peanut-butter-fudge                Peanut Butter Fudge   [2 refused already]
+  peppermint-bark                    Peppermint Bark   [1 refused already]
+  strawberry-rhubarb-pie             Strawberry Rhubarb Pie   [2 refused already]
+  smoked-turkey                      Smoked Turkey
+  cheese-ball                        Cheese Ball   [2 refused already]
+  french-onion-dip                   French Onion Dip   [2 refused already]
+  grape-jelly-meatballs              Grape Jelly Meatballs   [1 refused already]
+  kettle-corn                        Kettle Corn   [2 refused already]
+  sausage-balls                      Sausage Balls   [2 refused already]
+  sazerac                            Sazerac   [2 refused already]
+  tequila-sunrise                    Tequila Sunrise   [1 refused already]
+  beef-and-noodles                   Beef and Noodles   [2 refused already]
+  blackened-salmon                   Blackened Salmon   [2 refused already]
+  chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [2 refused already]
+  crack-chicken                      Crack Chicken   [2 refused already]
+  fried-catfish                      Fried Catfish
+  green-chile-stew                   Green Chile Stew   [2 refused already]
+  baked-chicken-drumsticks           Baked Chicken Drumsticks
+  banana-ice-cream                   Banana Ice Cream   [2 refused already]
+  chicken-gnocchi-soup               Chicken Gnocchi Soup   [2 refused already]
+  zuppa-toscana                      Zuppa Toscana   [2 refused already]
+  monte-cristo                       Monte Cristo   [2 refused already]
+  coney-dogs                         Coney Dogs   [2 refused already]
+  bran-muffins                       Bran Muffins   [2 refused already]
+  cinnamon-swirl-bread               Cinnamon Swirl Bread   [2 refused already]
+  monster-cookies                    Monster Cookies   [2 refused already]
+  texas-sheet-cake                   Texas Sheet Cake   [1 refused already]
+  beer-bread                         Beer Bread   [2 refused already]
+  buckeyes                           Buckeyes   [2 refused already]
+  hot-fudge-sauce                    Hot Fudge Sauce   [2 refused already]
+  ham-and-cheese-pinwheels           Ham and Cheese Pinwheels   [2 refused already]
+  orange-julius                      Orange Julius   [2 refused already]
+  seven-layer-dip                    Seven Layer Dip   [1 refused already]
+  tom-collins                        Tom Collins
+  blue-lagoon                        Blue Lagoon   [2 refused already]
+  hot-crab-dip                       Hot Crab Dip   [2 refused already]
+  scalloped-potatoes-and-ham         Scalloped Potatoes and Ham   [1 refused already]
+  smothered-chicken                  Smothered Chicken   [2 refused already]
+  bbq-sauce                          BBQ Sauce   [2 refused already]
+  black-bean-burgers                 Black Bean Burgers   [2 refused already]
+  manhattan-clam-chowder             Manhattan Clam Chowder   [2 refused already]
+  special-burger-sauce               Special Burger Sauce
+  strawberry-spinach-salad           Strawberry Spinach Salad   [2 refused already]
+  black-and-white-cookies            Black and White Cookies   [1 refused already]
+  buttercream-frosting               Buttercream Frosting   [2 refused already]
+  funnel-cake                        Funnel Cake   [2 refused already]
+  hawaiian-sweet-rolls               Hawaiian Sweet Rolls   [2 refused already]
+  italian-cream-cake                 Italian Cream Cake   [2 refused already]
+  morning-glory-muffins              Morning Glory Muffins   [2 refused already]
+  pumpkin-roll                       Pumpkin Roll   [2 refused already]
+  banana-cream-pie                   Banana Cream Pie   [2 refused already]
+  butterscotch-pudding               Butterscotch Pudding   [2 refused already]
+  ice-cream-sandwiches               Ice Cream Sandwiches   [2 refused already]
+  pumpkin-cheesecake                 Pumpkin Cheesecake   [2 refused already]
+  fried-mushrooms                    Fried Mushrooms   [2 refused already]
+  mai-tai                            Mai Tai   [2 refused already]
+  mimosa                             Mimosa   [2 refused already]
+  shirley-temple                     Shirley Temple   [1 refused already]
+  vanilla-latte                      Vanilla Latte   [1 refused already]
+  white-russian                      White Russian   [2 refused already]
+  santa-maria-tri-tip                Santa Maria Tri-Tip   [2 refused already]
+  steak-oscar                        Steak Oscar   [2 refused already]
+  chicken-marbella                   Chicken Marbella   [2 refused already]
+  southern-green-beans               Southern Green Beans   [2 refused already]
+  creamy-tuscan-salmon               Creamy Tuscan Salmon   [2 refused already]
+  italian-beef-sandwich              Italian Beef Sandwich   [2 refused already]
+  ham-salad                          Ham Salad   [2 refused already]
+  tomato-sandwich                    Tomato Sandwich   [2 refused already]
+  stuffed-pepper-soup                Stuffed Pepper Soup   [2 refused already]
+  portobello-burger                  Portobello Burger
+  cauliflower-pizza-crust            Cauliflower Pizza Crust   [2 refused already]
+  cocktail-sauce                     Cocktail Sauce   [2 refused already]
+  balsamic-vinaigrette               Balsamic Vinaigrette   [2 refused already]
+  honey-mustard-dressing             Honey Mustard Dressing   [1 refused already]
+  no-bake-cookies                    No-Bake Cookies   [2 refused already]
+  oatmeal-cream-pies                 Oatmeal Cream Pies   [1 refused already]
+  salted-caramel-sauce               Salted Caramel Sauce   [2 refused already]
+  divinity                           Divinity   [2 refused already]
+  hot-chocolate-bombs                Hot Chocolate Bombs   [2 refused already]
+  candied-bacon                      Candied Bacon   [2 refused already]
+  bang-bang-shrimp                   Bang Bang Shrimp   [1 refused already]
+  grasshopper                        Grasshopper   [2 refused already]
+  brandy-alexander                   Brandy Alexander   [2 refused already]
+  oyster-stew                        Oyster Stew   [2 refused already]
+  carne-adovada                      Carne Adovada   [2 refused already]
+  broccoli-cheese-casserole          Broccoli Cheese Casserole   [1 refused already]
+  fried-apples                       Fried Apples   [2 refused already]
+  ham-and-cheese-sliders             Ham and Cheese Sliders   [2 refused already]
+  pineapple-casserole                Pineapple Casserole   [1 refused already]
+  italian-dressing                   Italian Dressing   [2 refused already]
+  cauliflower-rice                   Cauliflower Rice   [2 refused already]
+  brown-gravy                        Brown Gravy   [2 refused already]
+  cajun-seasoning                    Cajun Seasoning   [2 refused already]
+  ranch-seasoning                    Ranch Seasoning   [2 refused already]
+  moon-pies                          Homemade Moon Pies   [1 refused already]
+  kentucky-butter-cake               Kentucky Butter Cake   [2 refused already]
+  coca-cola-cake                     Coca-Cola Cake   [2 refused already]
+  caramel-cake                       Caramel Cake   [2 refused already]
+  strawberry-pretzel-salad           Strawberry Pretzel Salad   [2 refused already]
+  peppermint-patties                 Homemade Peppermint Patties   [1 refused already]
+  chocolate-covered-cherries         Chocolate-Covered Cherries   [2 refused already]
+  sopapilla-cheesecake               Sopapilla Cheesecake
+  apple-butter                       Apple Butter   [2 refused already]
+  boudin-balls                       Boudin Balls   [1 refused already]
+  cheese-crackers                    Cheese Crackers   [2 refused already]
+  ranch-water                        Ranch Water   [2 refused already]
+  sea-breeze                         Sea Breeze   [2 refused already]
+  aviation                           Aviation   [2 refused already]
+  last-word                          Last Word   [2 refused already]
+  boulevardier                       Boulevardier   [2 refused already]
+  paper-plane                        Paper Plane   [2 refused already]
+  penicillin                         Penicillin   [1 refused already]
+  bees-knees                         Bee's Knees   [2 refused already]
+  mudslide                           Mudslide   [2 refused already]
 
-== British (34) =======================================
-  potted-shrimps                     Potted Shrimps
-  devils-on-horseback                Devils on Horseback   [1 rejected already]
-  angels-on-horseback                Angels on Horseback
-  london-particular                  London Particular
-  leek-and-potato-soup               Leek and Potato Soup   [1 rejected already]
-  mulligatawny                       Mulligatawny Soup
-  oxtail-soup                        Oxtail Soup   [1 rejected already]
-  sausage-rolls                      Sausage Rolls   [1 rejected already]
-  piccalilli                         Piccalilli   [2 rejected already]
-  pickled-onions                     Pickled Onions   [1 rejected already]
-  cumberland-sauce                   Cumberland Sauce   [1 rejected already]
-  lancashire-hotpot                  Lancashire Hotpot   [2 rejected already]
-  steak-and-kidney-pudding           Steak and Kidney Pudding   [1 rejected already]
-  devilled-kidneys                   Devilled Kidneys   [2 rejected already]
-  beef-stew-and-dumplings            Beef Stew and Dumplings   [1 rejected already]
-  roast-pork-crackling               Roast Pork with Crackling   [1 rejected already]
-  gammon-parsley-sauce               Gammon with Parsley Sauce   [2 rejected already]
-  fish-pie                           Fish Pie
-  grilled-kippers                    Grilled Kippers
-  chicken-and-leek-pie               Chicken and Leek Pie
-  bubble-and-squeak                  Bubble and Squeak
-  mushy-peas                         Mushy Peas   [1 rejected already]
-  braised-red-cabbage                Braised Red Cabbage   [2 rejected already]
-  honey-roast-parsnips               Honey Roast Parsnips   [1 rejected already]
-  pease-pudding                      Pease Pudding   [1 rejected already]
-  pan-haggerty                       Pan Haggerty
-  watercress-soup                    Watercress Soup   [2 rejected already]
-  potted-cheese                      Potted Cheese   [1 rejected already]
-  coronation-chicken                 Coronation Chicken
-  cucumber-sandwiches                Cucumber Sandwiches   [1 rejected already]
-  spotted-dick                       Spotted Dick   [2 rejected already]
-  queen-of-puddings                  Queen of Puddings   [1 rejected already]
-  custard-tart                       Custard Tart
-  eccles-cakes                       Eccles Cakes
+== British (26) ========================================
+  lamb-bhuna                         Lamb Bhuna
+  prawn-mayo-sandwich                Prawn Mayo Sandwich   [1 refused already]
+  butterfly-cakes                    Butterfly Cakes   [2 refused already]
+  black-velvet                       Black Velvet   [2 refused already]
+  steak-bake                         Steak Bake   [2 refused already]
+  fondant-fancies                    Fondant Fancies   [1 refused already]
+  omelette-arnold-bennett            Omelette Arnold Bennett   [2 refused already]
+  chocolate-orange-cake              Chocolate Orange Cake   [2 refused already]
+  chestnut-stuffing                  Chestnut Stuffing   [2 refused already]
+  branston-style-pickle              Branston-Style Pickle   [2 refused already]
+  homemade-ginger-beer               Homemade Ginger Beer   [2 refused already]
+  snowball-cocktail                  Snowball Cocktail   [2 refused already]
+  herb-crusted-rack-of-lamb          Herb-Crusted Rack of Lamb   [1 refused already]
+  coconut-macaroons                  Coconut Macaroons   [2 refused already]
+  grasmere-gingerbread               Grasmere Gingerbread   [2 refused already]
+  cornflake-tart                     Cornflake Tart
+  ham-hock-terrine                   Ham Hock Terrine   [2 refused already]
+  battered-sausage                   Battered Sausage   [2 refused already]
+  english-toffee                     English Toffee   [2 refused already]
+  chicken-liver-pate                 Chicken Liver Pâté   [1 refused already]
+  bramble                            Bramble   [1 refused already]
+  pornstar-martini                   Pornstar Martini   [2 refused already]
+  royal-icing                        Royal Icing   [1 refused already]
+  devon-splits                       Devon Splits   [1 refused already]
+  jamaican-ginger-cake               Jamaican Ginger Cake   [2 refused already]
+  pickled-red-cabbage                Pickled Red Cabbage   [2 refused already]
 
-== French (28) ========================================
-  tapenade                           Tapenade   [3 rejected already]
-  aioli                              Aïoli
-  brandade-de-morue                  Brandade de Morue
-  poule-au-pot                       Poule au Pot   [1 rejected already]
-  navarin-printanier                 Navarin d'Agneau
-  daube-provencale                   Daube Provençale
-  carbonade-flamande                 Carbonade Flamande
-  choucroute                         Choucroute Garnie
-  gigot-d-agneau                     Gigot d'Agneau
-  entrecote-marchand-de-vin          Entrecôte Marchand de Vin
-  cordon-bleu                        Cordon Bleu   [1 rejected already]
-  rognons-a-la-moutarde              Rognons à la Moutarde
-  endives-au-jambon                  Endives au Jambon
-  quenelles-de-brochet               Quenelles de Brochet
-  moules-frites                      Moules Frites
-  sole-normande                      Sole Normande
-  lotte-a-l-armoricaine              Lotte à l'Armoricaine
-  gratin-de-courgettes               Gratin de Courgettes
-  omelette-aux-fines-herbes          Omelette aux Fines Herbes
-  pain-aux-noix                      Pain aux Noix
-  pan-bagnat                         Pan Bagnat   [2 rejected already]
-  saucisson-brioche                  Saucisson en Brioche
-  pain-au-chocolat                   Pain au Chocolat
-  tarte-au-citron                    Tarte au Citron
-  baba-au-rhum                       Baba au Rhum
-  creme-caramel                      Crème Caramel
-  financiers                         Financiers   [1 rejected already]
-  palmiers                           Palmiers   [1 rejected already]
+== Canadian (17) =======================================
+  cipaille                           Cipaille   [1 refused already]
+  figgy-duff                         Figgy Duff   [2 refused already]
+  rye-and-ginger                     Rye and Ginger   [2 refused already]
+  dungeness-crab                     Dungeness Crab   [2 refused already]
+  wild-rice-casserole                Wild Rice Casserole   [1 refused already]
+  hot-chicken-sandwich               Hot Chicken Sandwich   [2 refused already]
+  partridgeberry-pie                 Partridgeberry Pie   [1 refused already]
+  pan-fried-walleye                  Pan-Fried Walleye   [2 refused already]
+  chicken-fricot                     Chicken Fricot   [1 refused already]
+  hodge-podge                        Hodge Podge   [2 refused already]
+  dream-bars                         Dream Bars   [2 refused already]
+  hermits                            Hermits   [2 refused already]
+  portzelky                          Portzelky (New Year's Cookies)   [2 refused already]
+  sour-cream-raisin-pie              Sour Cream Raisin Pie   [2 refused already]
+  salmon-candy                       Salmon Candy   [2 refused already]
+  caribou                            Caribou   [2 refused already]
+  b-52                               B-52   [1 refused already]
 
-== Italian (25) =======================================
-  fiori-di-zucca                     Fiori di Zucca Fritti   [1 rejected already]
-  giardiniera                        Giardiniera   [2 rejected already]
-  malloreddus                        Malloreddus alla Campidanese
-  strozzapreti                       Strozzapreti alla Boscaiola
-  anelletti-al-forno                 Anelletti al Forno
-  fregola                            Fregola con Arselle
-  risotto-ai-funghi                  Risotto ai Funghi Porcini
-  coda-alla-vaccinara                Coda alla Vaccinara
-  polpette-al-sugo                   Polpette al Sugo
-  involtini-di-manzo                 Involtini di Manzo
-  scaloppine-al-limone               Scaloppine al Limone
-  cotoletta-alla-milanese            Cotoletta alla Milanese   [2 rejected already]
-  cacciucco                          Cacciucco
-  bagnun                             Bagnùn di Acciughe
-  parmigiana-bianca                  Parmigiana Bianca
-  farinata                           Farinata   [1 rejected already]
-  sfogliatella                       Sfogliatella Riccia
-  baba-napoletano                    Babà Napoletano
-  sbrisolona                         Torta Sbrisolona
-  colomba                            Colomba Pasquale
-  pandoro                            Pandoro   [1 rejected already]
-  amaretti                           Amaretti Morbidi
-  maritozzo                          Maritozzo
-  granita-di-caffe                   Granita di Caffè   [1 rejected already]
-  bellini                            Bellini   [1 rejected already]
+== New Zealand (9) =====================================
+  paraoa-parai                       Pāraoa Parai   [2 refused already]
+  kiwifruit-cheesecake               Kiwifruit Cheesecake   [1 refused already]
+  tamarillo-chutney                  Tamarillo Chutney   [2 refused already]
+  apricot-chicken                    Apricot Chicken   [2 refused already]
+  crayfish-mornay                    Crayfish Mornay   [1 refused already]
+  devilled-sausages                  Devilled Sausages
+  hokey-pokey-biscuits               Hokey Pokey Biscuits   [2 refused already]
+  curried-sausages                   Curried Sausages   [2 refused already]
+  kumara-fritters                    Kūmara Fritters   [2 refused already]
 
-== Egyptian (21) ======================================
-  taameya                            Ta'ameya
-  salata-baladi                      Salata Baladi
-  tahina-salad                       Egyptian Tahina
-  baba-ghanoug-masri                 Baba Ghanoug Masri   [1 rejected already]
-  torshi                             Torshi
-  betengan-mekhalel                  Betengan Mekhalel
-  dukkah                             Dukkah
-  bamia-masreya                      Bamia Masreya   [1 rejected already]
-  roz-mermah                         Roz Mermah   [1 rejected already]
-  fattah                             Fattah   [3 rejected already]
-  mahshi-cromb                       Mahshi Cromb   [1 rejected already]
-  sayadeya-masreya                   Sayadeya Masreya
-  hamam-mahshi                       Hamam Mahshi
-  renga                              Renga   [2 rejected already]
-  aish-baladi                        Aish Baladi   [1 rejected already]
-  eish-merahrah                      Eish Merahrah   [1 rejected already]
-  feteer-meshaltet                   Feteer Meshaltet
-  batarekh                           Batarekh   [2 rejected already]
-  om-ali                             Om Ali   [4 rejected already]
-  qatayef                            Qatayef Mahshi   [1 rejected already]
-  karkade                            Karkade
+== Australian (8) ======================================
+  mars-bar-slice                     Mars Bar Slice   [2 refused already]
+  tim-tam-slice                      Tim Tam Slice   [1 refused already]
+  weet-bix-slice                     Weet-Bix Slice   [2 refused already]
+  prawn-cutlets                      Prawn Cutlets   [1 refused already]
+  curried-egg-sandwich               Curried Egg Sandwich   [2 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [2 refused already]
+  lemon-lime-and-bitters             Lemon, Lime and Bitters   [2 refused already]
+  white-christmas                    White Christmas   [2 refused already]
 
-== Tunisian (13) ======================================
-  salade-omek-houria                 Omek Houria   [1 rejected already]
-  doigts-de-fatma                    Doigts de Fatma
-  chorba-frik                        Chorba Frik
-  hlelem                             Hlelem
-  couscous-tunisien                  Couscous Tunisien
-  ojja                               Ojja
-  marqa-hlouwa                       Marqa Hlouwa
-  kamounia                           Kamounia
-  ftair                              Ftair
-  madfouna                           Madfouna
-  samsa-tunisienne                   Samsa
-  assidat-zgougou                    Assidat Zgougou
-  the-aux-pignons                    Thé aux Pignons
+== Chinese (8) =========================================
+  mongolian-lamb                     Mongolian Lamb   [2 refused already]
+  crispy-seaweed                     Crispy Seaweed   [2 refused already]
+  salt-and-chilli-chips              Salt and Chilli Chips
+  chicken-with-cashew-nuts           Chicken with Cashew Nuts   [2 refused already]
+  crispy-aromatic-duck               Crispy Aromatic Duck   [2 refused already]
+  chicken-chop-suey                  Chicken Chop Suey   [2 refused already]
+  salt-and-pepper-ribs               Salt and Pepper Ribs   [2 refused already]
+  chinese-lemon-chicken              Chinese Lemon Chicken
 
-== Lebanese (10) ======================================
-  fatayer-sabanekh                   Spinach Fatayer   [1 rejected already]
-  balila                             Balila   [1 rejected already]
-  kafta-bil-sanieh                   Kafta bil Sanieh
-  kibbeh-bil-sanieh                  Kibbeh bil Sanieh
-  shish-barak                        Shish Barak
-  riz-a-djaj                         Riz a Djaj
-  sheikh-el-mahshi                   Sheikh el Mahshi
-  yakhnet-batata                     Yakhnet Batata
-  kousa-bil-laban                    Kousa bil Laban
-  sfouf                              Sfouf   [1 rejected already]
+== French (8) ==========================================
+  mont-blanc                         Mont-Blanc   [13 refused already]
+  french-75                          French 75
+  chocolate-truffles                 Chocolate Truffles   [2 refused already]
+  green-beans-almondine              Green Beans Almondine   [2 refused already]
+  baked-brie                         Baked Brie   [2 refused already]
+  chicken-fricassee                  Chicken Fricassee   [2 refused already]
+  sidecar                            Sidecar   [2 refused already]
+  kir-royale                         Kir Royale   [2 refused already]
 
-== Welsh (3) =========================================
-  cockles-and-laverbread             Cockles and Laverbread   [1 rejected already]
-  laverbread-and-bacon               Laverbread with Bacon   [2 rejected already]
-  welsh-cakes                        Welsh Cakes
+== International (7) ===================================
+  roasted-red-pepper-soup            Roasted Red Pepper Soup   [2 refused already]
+  homemade-almond-milk               Homemade Almond Milk   [2 refused already]
+  painkiller                         Painkiller
+  bone-broth                         Bone Broth   [2 refused already]
+  dark-and-stormy                    Dark and Stormy   [2 refused already]
+  golden-milk                        Golden Milk   [2 refused already]
+  black-russian                      Black Russian   [2 refused already]
 
-== Scottish (3) ======================================
-  stovies                            Stovies
-  rumbledethumps                     Rumbledethumps
-  dundee-cake                        Dundee Cake   [1 rejected already]
+== Italian (6) =========================================
+  butternut-squash-risotto           Butternut Squash Risotto   [2 refused already]
+  seafood-risotto                    Seafood Risotto   [1 refused already]
+  italian-wedding-cookies            Italian Wedding Cookies   [2 refused already]
+  stromboli                          Stromboli   [2 refused already]
+  chicken-scarpariello               Chicken Scarpariello   [2 refused already]
+  italian-seasoning                  Italian Seasoning   [1 refused already]
 
-== Taiwanese (1) =====================================
-  three-cup-chicken                  Three Cup Chicken
+== Irish (4) ===========================================
+  bacon-and-cabbage                  Bacon and Cabbage   [2 refused already]
+  irish-apple-cake                   Irish Apple Cake   [2 refused already]
+  fifteens                           Fifteens   [1 refused already]
+  irish-cream                        Irish Cream   [1 refused already]
 
-TOTAL 199 of 400
+== Mexican (4) =========================================
+  beef-burritos                      Beef Burritos
+  chicken-burrito-bowl               Chicken Burrito Bowl   [2 refused already]
+  paloma                             Paloma   [2 refused already]
+  charro-beans                       Charro Beans   [1 refused already]
+
+== Greek (2) ===========================================
+  greek-frappe                       Greek Frappé   [2 refused already]
+  greek-chicken-bowls                Greek Chicken Bowls   [2 refused already]
+
+== Indian (2) ==========================================
+  lamb-kofta-curry                   Lamb Kofta Curry   [1 refused already]
+  mango-chutney                      Mango Chutney   [2 refused already]
+
+== Thai (2) ============================================
+  thai-beef-salad                    Thai Beef Salad   [2 refused already]
+  sweet-chilli-sauce                 Sweet Chilli Sauce   [2 refused already]
+
+== Cuban (1) ===========================================
+  cuba-libre                         Cuba Libre   [2 refused already]
+
+== Hawaiian (1) ========================================
+  lomi-lomi-salmon                   Lomi Lomi Salmon   [1 refused already]
+
+== Japanese (1) ========================================
+  ramen-eggs                         Ramen Eggs   [2 refused already]
+
+== Korean (1) ==========================================
+  dalgona-coffee                     Dalgona Coffee   [2 refused already]
+
+== Middle Eastern (1) ==================================
+  dubai-chocolate-bar                Dubai Chocolate Bar
+
+== Norwegian (1) =======================================
+  lefse                              Lefse
+
+== Scottish (1) ========================================
+  empire-biscuits                    Empire Biscuits   [2 refused already]
+
+== Singaporean (1) =====================================
+  singapore-sling                    Singapore Sling   [2 refused already]
+
+== Welsh (1) ===========================================
+  anglesey-eggs                      Anglesey Eggs
+
+TOTAL 239 of 2415

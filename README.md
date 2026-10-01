@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 4798 image files (WebP + JPEG)
+│       └── img/recipes/         # 5320 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 4798 image files
+├── assets/                      #    css, js and 5320 image files
 ├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 213,342 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 213,603 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,10 +392,10 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1409 of the 2415 recipes have a photograph. Of the 1894 images on the site, 956
-are CC0 or public domain, 453 are CC BY and 485 are CC BY-SA. Anything still
-without one falls back to a CSS gradient carrying the recipe name, the same
-fallback that catches any image that fails to load at runtime.
+1674 of the 2415 recipes have a photograph. Of the 2158 images on the site,
+1050 are CC0 or public domain, 551 are CC BY and 557 are CC BY-SA. Anything
+still without one falls back to a CSS gradient carrying the recipe name, the
+same fallback that catches any image that fails to load at runtime.
 
 Every candidate is opened and looked at before it ships. That is not belt and
 braces — it is the only check that has ever worked. Every wrong photograph found
@@ -2560,9 +2560,303 @@ preserving method. A few recipes carry a safety warning, for raw salmon, raw egg
 white in icing, raw flour in the edible cookie dough, boiling sugar and hot oil,
 and a recipe is not a food-safety course.
 
-Photographs: the five hundred carry the gradient card until the image pass has
-been through them, which makes 501 recipes on it. An image pass, as in volume
-twenty-six, would fetch photographs from the archives and draw the rest.
+Photographs: the five hundred were published on the gradient card. The image
+pass that followed fetched archive photographs for the ones where a correct one
+exists and drew nothing; it is described in the section after this one.
+
+## A sweep for broken links, and real photographs for the five hundred
+
+The owner asked for two things in one sentence: look for broken links and errors
+and fix them, and find pictures for the 500 recipes of volumes twenty-seven to
+thirty-one. After volume thirty-one 501 recipes were on a gradient card, the 500
+new ones and the Mont-Blanc. The two jobs were done together, because the crawl
+that looks for a dead link also finds a credit line that is wrong.
+
+The pictures first, because the brief changed halfway through. The first plan
+copied the earlier pass: archive photographs where there were any, and a
+labelled AI illustration for the rest. About 250 illustrations were drawn,
+looked at and published before the owner said they wanted real images, not AI
+generated ones. All of them were taken out again: nothing generated in this
+pass is on the site, the hand-written prompts that were written for the
+generator were not kept, and `src/data/image-prompts.json` is as it was. What
+follows is photographs only.
+
+The result: 262 of the 501 recipes now have a photograph from an
+archive, and 239 are still on a gradient card. Across the site
+that is 1,674 photographs, 502 illustrations
+(all of them from the earlier pass, see the end) and 239
+gradient cards on 2,415 recipes.
+
+### What was looked at
+
+The repository's own check had already passed, and it reads what the build
+writes, so none of this was it.
+
+- **A crawl of the built files** the way a browser would follow them: all
+  2,568 pages, every `href`, `src`, `srcset` and form action resolved to a
+  file with the case it was written in, every `#fragment` to an id on its page,
+  every `aria-controls`, `aria-labelledby` and `for` to an element, ids unique,
+  every `target="_blank"` carrying `noopener`, nothing served over `http`, and
+  the JSON-LD, sitemap, both feeds, search index, manifest and `robots.txt`
+  parsing. Internally it found nothing broken. Everything below came from
+  looking at what the links and the data said, not from a link that failed.
+- **The credit links**: 2,076 unique external URLs. Wikimedia Commons pages were
+  asked through its API, fifty titles at a time, which is how it asks to be
+  used; every other host with a polite HEAD. One Commons file had been deleted
+  since it was fetched. None of the others was dead.
+- **Chromium** over a sample of recipe pages from every layout and every kind
+  of picture, and the hub, listing and utility pages, at 390 and 1,280 px:
+  console errors, uncaught exceptions, 4xx and 5xx responses, images that
+  loaded as nothing, horizontal overflow. Then the things a reader presses: the
+  servings scaler, the metric toggle, Cook Mode and its step buttons, a timer,
+  the heart, the review form, search. The run also logged 339 "failed
+  requests", every one `net::ERR_ABORTED`: a lazy image cancelled when the
+  script moved on to the next page, which is the script and not the site. The
+  heart and search are where the two last findings below came from.
+- **axe-core**, in both themes at both widths, on nineteen pages, and
+  **html-validate** over the page types. After the fixes below axe reports one
+  thing: a contrast of 1.01 on the first related-recipe card of one page at
+  phone width, read while the card was half-way through fading in, which is the
+  measurement and not the page.
+- **The data under the pages**: every published image file against the colour
+  and thumbnail the manifest records for it, and every credit line read.
+
+### What it found
+
+1. **Licence links over `http`.** 436 pages linked the Creative Commons deed
+   as `http://creativecommons.org/…` (547 links, and 387 more in the structured
+   data). A visitor on `https` is redirected through each, and a crawler reports
+   them as insecure. `secureUrl` in `src/lib/util.js` upgrades a known host at
+   render time, in the page, the schema and `images-attribution.md`, and
+   `npm run check` fails on any `http://` link in a built page.
+2. **Credit lines that were not names.** Archive author fields are whatever the
+   uploader typed. Twelve had been published as typed: three Flickr and
+   Unsplash profile URLs, a Rezeptewiki profile URL, an author field that was a
+   request to be mailed at an address and another that carried the address, one
+   that was the unfilled template `{{{photographer}}} from…`, an `&amp;` shown
+   as written, two that ran on into a sentence about the photographer's
+   hometown or a link to their site, and two titles with a trailing space.
+   `clean_author` in `tools/fetch_images.py` cleans them as an image is
+   fetched; the page omits a byline that would read "Unknown"; and the build
+   refuses a credit that carries template braces, markup, an entity, an email
+   address or an author of more than 100 characters.
+3. **Fifteen CC BY and CC BY-SA photographs that credited nobody.** The
+   archive's machine-readable author field was empty on each, which the
+   pipeline stored as "Unknown" and the page printed as "by Unknown". The
+   file's own description page named the photographer on every one: Stu Spivack
+   on four, Justinc, Neitram, the uploader of the self-made ones, and for the
+   tapioca pudding the person who reworked it and the person who first uploaded
+   it. All fifteen are entered now, and `npm run check` fails on any CC BY or
+   CC BY-SA image without an author, because the credit is the licence.
+4. **A rating nobody gave.** The home page's hero printed "4.8 Average rating"
+   from a number typed into the template, weeks after the catalogue's invented
+   ratings were removed. `tools/seo-audit.js` reads structured data, not visible
+   text, so it never saw it. The third hero figure is now the count of meal
+   types, and `npm run check` fails on any page that claims an average rating
+   while `src/data/reviews.json` holds no review.
+5. **The About page said every photograph came from Wikimedia Commons.** Some
+   came from Openverse (Flickr, Rawpixel and the WordPress photo directory), and
+   `images-attribution.md` said the same. Both sentences now come from counts
+   (`commonsImageCount` and `otherArchiveImageCount` in `src/data/stats.js`), so
+   they cannot drift again.
+6. **A photograph whose source file no longer exists.** The seekh kebab's
+   Commons file had been deleted. A deleted file's licence cannot be checked, so
+   its entry and files were removed; the recipe was searched again.
+7. **Three pages built with `<style>undefined</style>`.** The privacy page, the
+   ingredients index and the contact confirmation never passed the inline
+   critical CSS to `layout()`, so the header and first screen painted unstyled
+   until the full stylesheet arrived. axe reported it as touch targets that
+   overlapped on `/privacy/`, which was the clue. `layout()` now throws without
+   it, and `npm run check` fails on a built page that prints `undefined`, `null`,
+   `NaN` or `[object Object]` where a value should be.
+8. **Contrast.** axe-core found 624 nodes on 80 page views below 4.5:1: the
+   "Advertisement" label at 2.98, the terracotta used as text on the sunken and
+   tinted bands at 3.9 to 4.2, the footer's small print at 4.39, and, in the dark
+   theme only, white text on the lighter accent at 2.69. The terracotta went
+   from `#c1502e` to `#b24626`, the label lost the opacity that was greying it,
+   the footer greys moved up a step, and text on an accent fill now takes
+   `--on-accent` (white on the light theme, the dark ink on the dark one).
+   `npm run check` now measures the text and background token pairs in both
+   themes, and the footer's three greys, and fails any below 4.5.
+9. **The phone menu was still in the tab order while closed.** It was slid off
+   the screen and nothing more, so a keyboard user tabbed into seven links they
+   could not see. It is `visibility: hidden` once the slide has finished, and
+   Escape closes it and returns focus to the button.
+10. **Obsolete markup.** html-validate found `scrolling` and `frameborder` on
+    the advertisement iframes (the frames now say `overflow: hidden` themselves,
+    and the border was already in the style), an `aria-label` on a plain `div`
+    (it is a `role="group"` now) and an `input` with no `type`.
+11. **Four stale placeholders.** `prime-rib`, `chicken-piccata`, `chicken-marsala`
+    and `chicken-alfredo` had their photograph replaced at some point without the
+    blur-up thumbnail and average colour being redone, so they faded in from
+    another dish's picture. Found by comparing every published image with its
+    recorded colour: those four disagreed and nothing else did.
+12. **`MISSING-IMAGES.txt` said "199 of 400".** It had been written by hand once
+    and was never updated. `npm run missing` now writes it from the data.
+13. **The recipes and search pages painted all 2,415 cards at once.**
+    `directory.js` put every recipe into the page, about 90,000 nodes and a page
+    well over a million pixels tall on a phone. With the processor slowed to a
+    quarter of this machine's, the recipes page took 14.6 seconds to settle and
+    the search page 12.4, and the axe run stalled on both, which is how it was
+    noticed. Each page now shows sixty cards and a button brings in the next
+    sixty, moving keyboard focus to the first new card; the same two pages settle
+    in 4.3 and 3.7 seconds, with 7,700 and 2,900 nodes (the first still carries
+    the 2,415-link A to Z index in its closed `<details>`). `npm run check` fails
+    on a directory page without the button. The category and cuisine pages are
+    written out in full and were left alone; the largest, dinner, has 801 cards
+    and settles in 7.4 seconds at the same slowdown, and is the next candidate
+    for the same treatment.
+14. **Saved recipes did not show as saved on the pages that list them.** The
+    hearts on cards painted by `directory.js` were written unpressed and nothing
+    synced them afterwards, so on `/favourites/` every saved recipe offered
+    "Save … to favourites", and pressing it removed the recipe. The cards now
+    sync their hearts each time they are painted.
+
+Every recipe `<img>` has alt text and dimensions, and no id is duplicated or
+dangling; that was checked and needed nothing.
+
+### Finding photographs
+
+The first search covered all 500 with a 45-second budget per recipe, which is
+what cut off the slow part of the chain (the text searches, the article lead
+image, the Commons categories) for most of them. It turned up a candidate for
+442 recipes, and every candidate was looked at on a contact
+sheet before it went anywhere. The second search ran the whole chain again on
+the 316 still without one, for as long as it needed, with alternative names
+written for each recipe in `src/data/image-queries.json` (the cocktail with
+"(cocktail)" after it, the dish under the other name it goes by, the title in
+the singular) and with every archive page already refused left out. Over the two
+searches 262 photographs were kept and 466 refused, which is
+64 per cent. They were wrong in the same ways as before:
+
+- **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
+  returned a snake, `caribou` a mountain, an animal and later a coin, `sea-breeze`
+  warships, `last-word` a cat, `ranch-water` a river valley and then a ruined
+  water tank, `hodge-podge` the fittings of an irrigation system, `cuba-libre`
+  a rusted car and then a word scratched in concrete, `kumara-fritters` and
+  `portzelky` the same Californian licence plate, `coca-cola-cake` a man on a
+  news channel and then the company's tower, `king-ranch-chicken-casserole` a
+  wildfire, `baked-spaghetti` a tangle of cables, `stromboli` a volcano, `mimosa`
+  a tree, `southern-green-beans` a stink bug and `penicillin` a vial of the
+  antibiotic.
+- **A person.** `white-russian` returned two heads of government shaking hands,
+  `brandy-alexander` a portrait and `mai-tai` a party.
+- **A product or an advertisement.** `kentucky-butter-cake` returned a fried
+  chicken advertisement, `jello-shots` a pack of reusable syringes,
+  `cajun-seasoning` a shop display of branded boxes, `apple-butter` the lid of a
+  Dutch tin, `black-russian` two bottles with their labels,
+  `blue-cheese-dressing` tubs of a branded crumble and `peppermint-patties` the
+  bag.
+- **The right words on the wrong dish.** `ramen-eggs` returned a bowl of ramen
+  with a fried egg, `mudslide` a frozen dessert and then a landslide,
+  `italian-wedding-cookies` an Italian wedding soup, `hot-chocolate-bombs` a cup
+  of hot chocolate and then a rose, `peanut-butter-fudge` a pile of sandwich
+  cookies and `thai-beef-salad` a red beef curry.
+- **A document.** `boulevardier` returned a page of sheet music twice,
+  `lomi-lomi-salmon` a manuscript letter, `kir-royale` a postcard of Budapest,
+  `irish-apple-cake` a painting of Halloween revellers and `black-russian`, on its
+  second try, a typewriter.
+
+The licence split of what was kept is CC BY 97, CC BY-SA 71, CC0 64 and public domain 30, from Wikimedia Commons and Wikipedia (189), Flickr (54), Rawpixel (15), the WordPress photo directory (3) and StockSnap (1).
+
+One fault in the tool itself cost the second search a lot of its first hour.
+`upload.wikimedia.org` answers a request for an original file from this
+environment's shared IP with a 429 and a countdown of ten minutes, and tells the
+client to use a standard thumbnail size instead. The fetcher gave up on those
+copies without a word, and a recipe whose only candidate was a small original
+(smaller than the 800 pixels it asks a thumbnail for) was logged as "candidates
+found but none downloadable". It now tries the original once, falls back to the
+pre-rendered 500 pixel copy, which is always there, and backs off 5, 15 and 45
+seconds on a refusal that carries no countdown instead of waiting two.
+`fetch_images.py --img-dir` and `contact_sheet.py --img-dir` were added so that
+candidates can be kept apart from the files the site is using.
+
+### Judgement calls
+
+Photographs passed because the dish is on the plate and something about it is
+not what the recipe says, and a thumbnail does not settle them. Three that
+passed at 480 pixels were taken back off when they were looked at again at 800
+(`singapore-sling`, which turned out to be two different drinks, one a frozen
+strawberry colada; `chicken-marbella`, in which prunes and olives could not be
+told from charred bits; and `bran-muffins`, a soft, low-resolution crop). These
+are the ones to look at first:
+
+- `burnt-ends`: thick slices of brisket point, not the cubes the method makes.
+- `johnnycakes`: one large cornmeal cake in a cast-iron pan; the recipe makes small ones.
+- `galbi-jjim`: the spicy version of the braise, red where the recipe's is brown.
+- `sauteed-fiddleheads`: fiddleheads in a pan with butter, under a caption written as a social post.
+- `pecan-sandies`: lemon pecan sandies, and the recipe has no lemon.
+- `thumbprint-cookies`: the Swedish *hallongrottor*, the same jam-filled cookie under another name.
+- `spritz-cookies`: a cookie press and a hand in the frame.
+- `pepper-jelly`: a jar with a handwritten price card beside it.
+- `chiko-roll`, `pizza-rolls`, `peanut-butter-and-jelly-sandwich`, `pumpkin-spice-latte`: shop-bought food, with a brand on the bag, the cup or in the archive's title.
+- `homemade-pop-tarts`: the shop-bought pastry the recipe imitates, on a white ground.
+- `cherry-ripe-slice`: a cut Cherry Ripe bar, which is chocolate all round where the slice is only topped.
+- `maple-oatmeal-cookies`: plain oatmeal cookies on a rack (the archive calls them sour cream oatmeal), with no glaze and no pecans.
+- `pyrizhky`: the Wikipedia piroshki photograph, filled with mushroom and meat and not potato.
+- `maple-glazed-ham`: a dinner plate, with the sides taking half of it.
+- `honey-prawns`: battered prawns in a sweet glaze, with peppers and onion the recipe does not have.
+- `beef-in-black-bean-sauce`: with bitter melon in place of green pepper, and tomato wedges.
+- `salmon-burgers`: a bun and a patty; whatever is in the patty cannot be seen.
+- `rough-puff-pastry`: baked puff pastry pies, which show the layers and not the dough.
+- `mango-cheesecake`: a baked cheesecake in a pie dish under mango purée, where the recipe sets one with gelatine and tops it with fresh fruit.
+- `spaghetti-squash`: with kale and mince in the boat.
+- `coconut-cake`: three marshmallow chicks on top.
+- `three-bean-salad`: dressed with tomato slices, and two of the beans are shell beans.
+- `duck-a-lorange`: a whole duck, carved on a platter, where the recipe sears breasts.
+- `orange-and-almond-cake`: the blood orange and coconut version.
+- `rhubarb-custard-pie`: a slice plated in a restaurant with ice cream.
+- `baked-feta-pasta`: the dish before the pasta is stirred in.
+- `french-dressing`: the dressing in a salad-bar bowl, with its ladle.
+- `pepperoni-rolls`: the archive calls them vegetarian pepperoni rolls, and they look the same.
+- `cranberry-orange-bread`: a plain loaf, with no glaze to be seen.
+- `tofu-scramble`: served on toast with a drizzle.
+- `lebkuchen`: a shop window, with the sign across it.
+- `zucchini-fritters`: crumbed, where the recipe's are not.
+- `tanghulu`: a street shop's trays of them, with hawthorn and tomatoes among the strawberries and grapes.
+- `ladyfingers`: still in the supermarket tray and its film.
+- `charcuterie-board`: two cheeses where the recipe has three.
+- `scrapple`: on a breakfast plate with eggs and rolls.
+- `karjalanpaisti`: with carrots in the pot, which the recipe does not have.
+- `aioli`: the Provençal *aïoli garni*, the sauce with its potatoes, beans, fish and eggs around it.
+- `moules-frites`: the mussels in their pot and the chips beside it.
+
+### What has not been done
+
+Nothing in this pass was cooked, and a picture of a dish says little about
+whether its recipe works. Every photograph was judged at 480 pixels across;
+the likeliest faults are ones a thumbnail hides, and the list above is where to
+look first. Any of them can be refused with `tools/review_images.py`, which
+puts the recipe back on its gradient card.
+
+239 recipes of the 501 are still on a gradient card. For most of
+them the archives hold nothing: either no photograph of the dish exists under a
+licence the site can use, or those that exist show something else, and the
+number refused for each recipe is printed in `MISSING-IMAGES.txt`, which lists
+every recipe without a picture by cuisine. There are three ways to close the
+gap, and none was taken. The owner can supply photographs, which
+`tools/adopt_images.py` takes with their credit and licence. A stock-photo API
+with a free key (Pexels, Unsplash, Pixabay) would be a source the fetcher does
+not have, but their licences are their own and not Creative Commons, so they
+would need reading before the gate in `tools/fetch_images.py` is widened to take
+them. Or the cards can stay as they are, which is what the site does now and is
+honest: a gradient with the dish's name on it claims nothing. Drawings were the
+fourth way, and the owner has ruled them out.
+
+The contrast rule reads tokens and three footer greys. It cannot read a colour
+written inline in a template, a gradient behind text or a text shadow, and an
+axe run is still the way to look at those. The credit-name rule cannot tell a
+real name from a username, and the licence of a Flickr photograph is whatever the
+archive says it is; neither was re-verified at the source for the pictures
+already on the site.
+
+The 502 illustrations from the earlier pass are still on the
+site, each with the notice under it that says a drawing is not a photograph of
+the dish. The owner's instruction came about this pass, so they were left
+alone here; the same search, run over them, is the next job, and a drawing is
+replaced only where a photograph of the right dish has been found and looked
+at. Where none is, the choice between the drawing and a gradient card is the
+owner's.
 
 ## The prose was not robotic, the page was
 

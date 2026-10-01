@@ -14,8 +14,12 @@
   --charcoal:     #221d19;
   --slate:        #6a6055;
 
-  --terracotta:   #c1502e;
-  --terracotta-d: #a03d1f;
+  /* Terracotta is used for text as well as fills, so it has to reach 4.5:1
+     on every light surface it sits on (paper, the sunken band, and the
+     accent, gold and olive tints). The previous #c1502e measured 4.16 on the
+     sunken band and 3.92 on the accent tint. */
+  --terracotta:   #b24626;
+  --terracotta-d: #8f3419;
   --terracotta-l: #f7e7e0;
   --olive:        #5f6f4e;
   --olive-l:      #eaefe2;
@@ -30,6 +34,7 @@
   --text-soft:     var(--slate);
   --accent:        var(--terracotta);
   --accent-hover:  var(--terracotta-d);
+  --on-accent:     #ffffff;   /* text on an accent fill: 5.5:1 on the terracotta */
   --accent-soft:   var(--terracotta-l);
   --second:        var(--olive);
   --second-soft:   var(--olive-l);
@@ -73,6 +78,7 @@
   --text-soft:     #b0a290;
   --accent:        #e8825c;
   --accent-hover:  #f39d7c;
+  --on-accent:     #1c1815;   /* white on this accent measured 2.69:1; the dark ink is 6.5:1 */
   --accent-soft:   #3a231a;
   --second:        #9db183;
   --second-soft:   #23291c;
@@ -166,7 +172,7 @@ p  { margin: 0 0 1.15em; }
 
 .skip-link {
   position: absolute; left: -9999px; top: 0; z-index: 999;
-  background: var(--accent); color: #fff;
+  background: var(--accent); color: var(--on-accent);
   padding: .9rem 1.5rem; font-weight: 600;
   border-radius: 0 0 var(--radius) 0;
 }
@@ -208,7 +214,7 @@ p  { margin: 0 0 1.15em; }
   color: #fff; font-size: .82rem; font-weight: 800; letter-spacing: .02em;
   font-family: var(--font-body);
   flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(193, 80, 46, .3);
+  box-shadow: 0 2px 8px rgba(178, 70, 38, .3);
 }
 .brand em { font-style: normal; color: var(--accent); }
 

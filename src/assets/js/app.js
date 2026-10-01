@@ -95,6 +95,13 @@
         nav.setAttribute('data-open', String(!open));
         toggle.setAttribute('aria-expanded', String(!open));
       });
+      /* Escape closes the phone menu and hands focus back to its button. */
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape' || nav.getAttribute('data-open') !== 'true') return;
+        nav.setAttribute('data-open', 'false');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.focus();
+      });
     }
 
     $$('.nav-item').forEach(function (item) {
@@ -154,6 +161,8 @@
       document.dispatchEvent(new CustomEvent('cv:favourites-changed', { detail: favs }));
     });
     syncFavButtons();
+    /* Cards painted by directory.js arrive after this runs, so they would all show an empty heart. */
+    document.addEventListener('cv:results-rendered', syncFavButtons);
   }
   window.cvGetFavourites = getFavs;
 

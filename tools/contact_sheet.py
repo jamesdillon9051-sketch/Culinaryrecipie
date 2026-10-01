@@ -84,6 +84,7 @@ def cell(draw, sheet, box, slug, jpg, small, tiny):
 
 
 def main():
+    global COLS, ROWS, CELL_W, CELL_H, IMG_DIR
     ap = argparse.ArgumentParser()
     ap.add_argument("--volumes")
     ap.add_argument("--slugs")
@@ -91,7 +92,19 @@ def main():
     # Images awaiting review live in a staging manifest, so they can be looked
     # at before anything publishes them.
     ap.add_argument("--manifest", default=MANIFEST)
+    # Where the candidate files are, when a fetch was told to keep them apart
+    # from the files the site is using (fetch_images.py --img-dir).
+    ap.add_argument("--img-dir", default=IMG_DIR)
+    # The default 6 x 5 grid of 320-pixel cells is enough to tell a cupcake from
+    # a mountain of chestnut cream and not enough to see a wrong garnish. A
+    # bigger cell shows more and costs more sheets.
+    ap.add_argument("--cols", type=int, default=COLS)
+    ap.add_argument("--rows", type=int, default=ROWS)
+    ap.add_argument("--cell-w", type=int, default=CELL_W)
+    ap.add_argument("--cell-h", type=int, default=CELL_H)
     args = ap.parse_args()
+    COLS, ROWS, CELL_W, CELL_H = args.cols, args.rows, args.cell_w, args.cell_h
+    IMG_DIR = os.path.abspath(args.img_dir)
 
     manifest = json.load(open(args.manifest))
     titles = {r["slug"]: r["title"] for r in catalog()}

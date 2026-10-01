@@ -32,10 +32,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--keep", default="")
     ap.add_argument("--reject", default="")
+    # A second staging file, for a run that must not share one with another
+    # writer: two processes rewriting images-pending.json whole will lose each
+    # other's entries. The default is unchanged.
+    ap.add_argument("--pending", default=PENDING)
     args = ap.parse_args()
 
+    pending_path = os.path.abspath(args.pending)
     manifest = load(MANIFEST, {})
-    pending = load(PENDING, {})
+    pending = load(pending_path, {})
     rejects = load(REJECTS, {})
 
     kept, refused, missing = [], [], []
@@ -138,7 +143,7 @@ def main():
                  + "\nNothing has been written. The manifest on disk is unchanged.")
 
     json.dump(manifest, open(MANIFEST, "w"), indent=1)
-    json.dump(pending, open(PENDING, "w"), indent=1, sort_keys=True)
+    json.dump(pending, open(pending_path, "w"), indent=1, sort_keys=True)
     json.dump(rejects, open(REJECTS, "w"), indent=2)
 
     print(f"published {len(kept)}, refused {len(refused)}, still pending {len(pending)}")

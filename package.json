@@ -12,6 +12,7 @@
     "images": "python3 tools/fetch_images.py",
     "icons": "python3 tools/make_icons.py",
     "attribution": "node tools/make-attribution.js",
+    "missing": "node tools/missing-images.js",
     "serve": "npm run build && node tools/serve.js",
     "check": "node tools/check.js",
     "readme": "node tools/sync-readme.js",

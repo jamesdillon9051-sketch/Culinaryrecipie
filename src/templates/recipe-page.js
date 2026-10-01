@@ -1,6 +1,6 @@
 'use strict';
 const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit, plural,
-        isIllustration } = require('../lib/util');
+        isIllustration, secureUrl } = require('../lib/util');
 const ILLUSTRATIONS = require('../data/illustrations');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
 const { forSchema } = require('../lib/keywords');
@@ -220,11 +220,12 @@ function recipeSchema(recipe) {
     caption: recipe.imageAlt,
     name: `${recipe.title} recipe`
   }, isIllustration(recipe.imageData) || !recipe.imageData.author ? {} : Object.assign({
-    creator: { '@type': 'Person', name: recipe.imageData.author },
-    creditText: [recipe.imageData.author, recipe.imageData.licence].filter(Boolean).join(', ') +
+    /* "Unknown" is not a Person. The credit text and licence still go out. */
+    ...(recipe.imageData.author === 'Unknown' ? {} : { creator: { '@type': 'Person', name: recipe.imageData.author } }),
+    creditText: [recipe.imageData.author === 'Unknown' ? '' : recipe.imageData.author, recipe.imageData.licence].filter(Boolean).join(', ') +
       (recipe.imageData.source ? ' via ' + recipe.imageData.source : '')
-  }, recipe.imageData.licence_url ? { license: recipe.imageData.licence_url } : {},
-     recipe.imageData.page ? { acquireLicensePage: recipe.imageData.page } : {}))] : null;
+  }, recipe.imageData.licence_url ? { license: secureUrl(recipe.imageData.licence_url) } : {},
+     recipe.imageData.page ? { acquireLicensePage: secureUrl(recipe.imageData.page) } : {}))] : null;
 
   return {
     '@context': 'https://schema.org',
