@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (127) ======================================
+== American (128) ======================================
   baked-spaghetti                    Baked Spaghetti   [2 refused already]
   blackened-chicken                  Blackened Chicken   [2 refused already]
   chicken-and-biscuits               Chicken and Biscuits   [2 refused already]
@@ -40,6 +40,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   baked-chicken-drumsticks           Baked Chicken Drumsticks
   banana-ice-cream                   Banana Ice Cream   [2 refused already]
   chicken-gnocchi-soup               Chicken Gnocchi Soup   [2 refused already]
+  salmon-burgers                     Salmon Burgers   [2 refused already]
   zuppa-toscana                      Zuppa Toscana   [2 refused already]
   monte-cristo                       Monte Cristo   [2 refused already]
   coney-dogs                         Coney Dogs   [2 refused already]
@@ -135,7 +136,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bees-knees                         Bee's Knees   [2 refused already]
   mudslide                           Mudslide   [2 refused already]
 
-== British (26) ========================================
+== British (27) ========================================
   lamb-bhuna                         Lamb Bhuna
   prawn-mayo-sandwich                Prawn Mayo Sandwich   [1 refused already]
   butterfly-cakes                    Butterfly Cakes   [2 refused already]
@@ -153,6 +154,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   grasmere-gingerbread               Grasmere Gingerbread   [2 refused already]
   cornflake-tart                     Cornflake Tart
   ham-hock-terrine                   Ham Hock Terrine   [2 refused already]
+  homemade-potato-crisps             Homemade Potato Crisps   [1 refused already]
   battered-sausage                   Battered Sausage   [2 refused already]
   english-toffee                     English Toffee   [2 refused already]
   chicken-liver-pate                 Chicken Liver Pâté   [1 refused already]
@@ -182,6 +184,28 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   caribou                            Caribou   [2 refused already]
   b-52                               B-52   [1 refused already]
 
+== Australian (9) ======================================
+  mars-bar-slice                     Mars Bar Slice   [2 refused already]
+  tim-tam-slice                      Tim Tam Slice   [1 refused already]
+  weet-bix-slice                     Weet-Bix Slice   [2 refused already]
+  prawn-cutlets                      Prawn Cutlets   [1 refused already]
+  curried-egg-sandwich               Curried Egg Sandwich   [2 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [2 refused already]
+  lemon-lime-and-bitters             Lemon, Lime and Bitters   [2 refused already]
+  zucchini-fritters                  Zucchini Fritters   [2 refused already]
+  white-christmas                    White Christmas   [2 refused already]
+
+== French (9) ==========================================
+  mont-blanc                         Mont-Blanc   [13 refused already]
+  chicken-chasseur                   Chicken Chasseur   [1 refused already]
+  french-75                          French 75
+  chocolate-truffles                 Chocolate Truffles   [2 refused already]
+  green-beans-almondine              Green Beans Almondine   [2 refused already]
+  baked-brie                         Baked Brie   [2 refused already]
+  chicken-fricassee                  Chicken Fricassee   [2 refused already]
+  sidecar                            Sidecar   [2 refused already]
+  kir-royale                         Kir Royale   [2 refused already]
+
 == New Zealand (9) =====================================
   paraoa-parai                       Pāraoa Parai   [2 refused already]
   kiwifruit-cheesecake               Kiwifruit Cheesecake   [1 refused already]
@@ -193,16 +217,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   curried-sausages                   Curried Sausages   [2 refused already]
   kumara-fritters                    Kūmara Fritters   [2 refused already]
 
-== Australian (8) ======================================
-  mars-bar-slice                     Mars Bar Slice   [2 refused already]
-  tim-tam-slice                      Tim Tam Slice   [1 refused already]
-  weet-bix-slice                     Weet-Bix Slice   [2 refused already]
-  prawn-cutlets                      Prawn Cutlets   [1 refused already]
-  curried-egg-sandwich               Curried Egg Sandwich   [2 refused already]
-  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [2 refused already]
-  lemon-lime-and-bitters             Lemon, Lime and Bitters   [2 refused already]
-  white-christmas                    White Christmas   [2 refused already]
-
 == Chinese (8) =========================================
   mongolian-lamb                     Mongolian Lamb   [2 refused already]
   crispy-seaweed                     Crispy Seaweed   [2 refused already]
@@ -212,16 +226,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chicken-chop-suey                  Chicken Chop Suey   [2 refused already]
   salt-and-pepper-ribs               Salt and Pepper Ribs   [2 refused already]
   chinese-lemon-chicken              Chinese Lemon Chicken
-
-== French (8) ==========================================
-  mont-blanc                         Mont-Blanc   [13 refused already]
-  french-75                          French 75
-  chocolate-truffles                 Chocolate Truffles   [2 refused already]
-  green-beans-almondine              Green Beans Almondine   [2 refused already]
-  baked-brie                         Baked Brie   [2 refused already]
-  chicken-fricassee                  Chicken Fricassee   [2 refused already]
-  sidecar                            Sidecar   [2 refused already]
-  kir-royale                         Kir Royale   [2 refused already]
 
 == International (7) ===================================
   roasted-red-pepper-soup            Roasted Red Pepper Soup   [2 refused already]
@@ -291,4 +295,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 239 of 2415
+TOTAL 243 of 2415

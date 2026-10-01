@@ -881,6 +881,15 @@ if (!vercelCsp) {
   }
 }
 
+/* --- cards painted by script say "Not yet rated" too ---------------------- */
+/* src/lib/util.js prints it for a recipe nobody has rated, because "0.0" beside
+   five empty stars says readers disliked it. directory.js paints the cards on
+   the recipes, search and favourites pages itself, and printed "0.0" on all
+   2,415 of them until it was given the same rule. */
+if (!fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8').includes('stars--unrated')) {
+  problems.push('src/assets/js/directory.js: prints "0.0" for a recipe nobody has rated (no stars--unrated)');
+}
+
 /* --- diet claims --------------------------------------------------------- */
 /* Every tag now, not just Gluten-Free. These are the claims a reader cannot
    check for themselves — someone coeliac or vegan is trusting the label over the

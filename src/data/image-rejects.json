@@ -1070,6 +1070,10 @@
       "model": "sana",
       "prompt": "A chickpea flour pancake baked screaming hot in a copper pan until the top blisters, Genoa eats it standing up, with pepper, out of paper, made with sprig rosemary, a Italian dish called Farinata, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a stack of thick pancakes, where farinata is one thin chickpea flatbread"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/18979984/dante-und-vergil-bei-farinata-und-cavalcanti-ca-1850-ferdinand-fellner",
+      "why": "a pencil drawing of Dante and Virgil"
     }
   ],
   "pandoro": [
@@ -1272,6 +1276,10 @@
     {
       "page": "https://www.flickr.com/photos/134876953@N03/20590310139",
       "why": "a terrine with a dab of Cumberland sauce beside it"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Roulades_d%27agneau_et_sauce_Cumberland.jpg",
+      "why": "a restaurant plate of lamb roulades with a small pot of dark sauce at the edge"
     }
   ],
   "cockles-and-laverbread": [
@@ -1530,6 +1538,10 @@
     {
       "page": "https://www.flickr.com/photos/54549113@N00/49526644286",
       "why": "a faggot in gravy, the pease pudding not the subject"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Smoked_haddock_with_pease_pudding_and_saffron.jpg",
+      "why": "a slab of fish in a saffron sauce with no pease pudding that can be told"
     }
   ],
   "laverbread-and-bacon": [
@@ -4884,6 +4896,10 @@
       "model": "sana",
       "prompt": "a bowl of potato salad made of thin slices of boiled potato glistening with vinegar dressing, topped with crumbled crisp bacon and chopped chives, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a green cucumber salad"
+    },
+    {
+      "page": "https://www.flickr.com/photos/49889671@N03/4821483591",
+      "why": "boiled potatoes in a bowl before the salad is made"
     }
   ],
   "black-forest-gateau": [
@@ -5048,6 +5064,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:%22Marry_Me%22_Chicken_-_PizzaExpress,_Stanford_Cottage,_Worthing_2026-06-16.jpg",
       "why": "a pizza"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/2270628017",
+      "why": "Korean sweet and spicy fried chicken"
     }
   ],
   "breakfast-casserole": [
@@ -5086,6 +5106,10 @@
       "model": "sana",
       "prompt": "Beef and green beans in a creamy mushroom sauce, covered with cheese and tight rows of tater tots baked crisp, Seventy minutes, made with beef mince, onion, garlic cloves, Worcestershire sauce, dried thyme, an American dish called Tater Tot Casserole, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/874647b50a/",
+      "why": "a basket of tots and a chili dog"
     }
   ],
   "one-pot-chicken-and-rice": [
@@ -5096,6 +5120,10 @@
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/144629107",
       "why": "a shop price sign for pot pie"
+    },
+    {
+      "page": "https://www.flickr.com/photos/23506271@N06/5541559244",
+      "why": "a single chicken pot pie on foil"
     }
   ],
   "sheet-pan-chicken-and-vegetables": [
@@ -5112,18 +5140,30 @@
     {
       "page": "https://wordpress.org/photos/photo/458699ec11/",
       "why": "rice and beef plate"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/85468d275f/",
+      "why": "fried chicken wrapped in pandan leaves"
     }
   ],
   "sausage-stuffed-peppers": [
     {
       "page": "https://wordpress.org/photos/photo/69369c21c7/",
       "why": "grilled sausages not peppers"
+    },
+    {
+      "page": "https://www.flickr.com/photos/121988714@N05/21103832420",
+      "why": "a pork dish topped with a prawn"
     }
   ],
   "chicken-spaghetti": [
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/31067544996",
       "why": "grilled chicken and squash"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5959452/free-public-domain-cc0-photo",
+      "why": "a slice of lasagne"
     }
   ],
   "egg-rolls": [
@@ -5142,24 +5182,40 @@
       "model": "sana",
       "prompt": "Cabbage, carrot and pork wrapped in a thick wonton skin and fried until blistered and crisp, The takeaway starter, in sixty minutes, made with minced pork, garlic cloves, grated ginger, carrots, spring onions, a Chinese dish called Egg Rolls, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/148748355@N05/47677595791",
+      "why": "the White House Easter egg roll event"
     }
   ],
   "cajun-shrimp": [
     {
       "page": "https://www.flickr.com/photos/164188154@N05/54804582565",
       "why": "a jambalaya not cajun shrimp"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/54804502033",
+      "why": "a plate of shrimp and sausage jambalaya"
     }
   ],
   "breakfast-sandwich": [
     {
       "page": "https://www.flickr.com/photos/29507259@N02/9490358978",
       "why": "a veggie sandwich not breakfast"
+    },
+    {
+      "page": "https://www.flickr.com/photos/77114776@N00/5869291029",
+      "why": "a cold ham, cheese and salad sandwich and not a hot egg muffin"
     }
   ],
   "french-toast-casserole": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:FrenchToast.JPG",
       "why": "plain French toast slices"
+    },
+    {
+      "page": "https://www.flickr.com/photos/77114776@N00/3661486573",
+      "why": "two triangles of stuffed French toast with syrup"
     }
   ],
   "crepes": [
@@ -5172,6 +5228,10 @@
       "model": "sana",
       "prompt": "Thin, lacy pancakes from a pourable batter of eggs, milk and flour, rested and cooked one at a time, Thirty minutes, plus a rest, made with eggs, whole milk, a French dish called Cr\u00eapes, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/6916a25db6/",
+      "why": "sauteed strips of liver with crepe wedges on a plate"
     }
   ],
   "baked-oatmeal": [
@@ -5182,6 +5242,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Fruit_and_Honey_French_Oatmeal_2.jpg",
       "why": "a wartime poster"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/3294264/free-photo-image-breakfast-blueberry-bowl",
+      "why": "a bowl of ordinary porridge with fruit and a cup of coffee"
     }
   ],
   "home-fries": [
@@ -5214,6 +5278,10 @@
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/149444968",
       "why": "roast chicken and rice balls not soup"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/29263f1e10/",
+      "why": "a buffet plate of Thai dishes"
     }
   ],
   "banana-muffins": [
@@ -5262,6 +5330,10 @@
     {
       "page": "https://www.flickr.com/photos/43296902@N00/49857555356",
       "why": "a beer can"
+    },
+    {
+      "page": "https://www.flickr.com/photos/33993074@N00/4125929396",
+      "why": "a dish of two layers before the chocolate top has been added"
     }
   ],
   "damper": [
@@ -5312,6 +5384,10 @@
       "model": "sana",
       "prompt": "Soft yeast dough rolled up with bacon, cheddar and spring onion, sliced into spirals and baked until the cheese browns, The bakery-case classic, made with instant yeast, warm whole milk, rashers streaky bacon, mature cheddar, spring onions, a New Zealand dish called Cheese and Bacon Rolls, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6024360/photo-image-public-domain-food-free",
+      "why": "twisted puff pastry strips and not spiral rolls"
     }
   ],
   "hokey-pokey-ice-cream": [
@@ -5464,6 +5540,10 @@
       "model": "sana",
       "prompt": "Haricot beans in a quick sweet-smoky tomato sauce, spooned over thick buttered toast, Fifteen minutes, made with garlic cloves, tomato pur\u00e9e, tomato passata, malt vinegar, smoked paprika, a British dish called Baked Beans on Toast, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/11967d5dea/",
+      "why": "a large brunch plate where the beans are one small part"
     }
   ],
   "porridge": [
@@ -5542,6 +5622,10 @@
     {
       "page": "https://www.rawpixel.com/image/6039927/photo-image-public-domain-plant-food",
       "why": "a single biscuit"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6027469/chocolate-biscuit-free-public-domain-cc0-photo",
+      "why": "biscuits edged with chocolate and coconut and not a fridge cake"
     }
   ],
   "garibaldi-biscuits": [
@@ -5580,6 +5664,10 @@
     {
       "page": "https://www.rawpixel.com/image/5928216/photo-image-background-public-domain-food",
       "why": "meat not salmon"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/50369d4cba/",
+      "why": "a breaded fish fillet with chips and rice"
     }
   ],
   "turkey-burgers": [
@@ -5591,6 +5679,10 @@
   "sheet-pan-sausage-and-peppers": [
     {
       "page": "https://www.flickr.com/photos/184594136@N08/50383116258",
+      "why": "tilapia with asparagus"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50383991247",
       "why": "tilapia with asparagus"
     }
   ],
@@ -5604,6 +5696,10 @@
     {
       "page": "https://www.flickr.com/photos/43296902@N00/49430472417",
       "why": "a food package"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/89327497",
+      "why": "a crocheted chick egg cosy"
     }
   ],
   "corned-beef-pie": [
@@ -5622,6 +5718,10 @@
       "model": "sana",
       "prompt": "Chunks of corned beef, onion and potato in a thick gravy under a golden shortcrust lid, The Northern working-week classic, in seventy minutes, made with egg, onions, waxy potatoes, tins  corned beef, beef stock, a British dish called Corned Beef Pie, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/55371242128",
+      "why": "a plate of corned beef and onion with no pastry"
     }
   ],
   "fish-finger-sandwich": [
@@ -5640,6 +5740,10 @@
       "model": "sana",
       "prompt": "Homemade cod fingers in a crisp panko crumb, fried until golden and piled into buttered bread with tartare sauce and lettuce, Twenty-five minutes, made with egg, panko breadcrumbs, mayonnaise, capers, lemon juice, a British dish called Fish Finger Sandwich, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/54736255876",
+      "why": "fish fingers on a plate with no bread"
     }
   ],
   "egg-and-soldiers": [
@@ -5682,6 +5786,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:2006_home_cooking_for_Christmas_in_France_3.jpg",
       "why": "a yule log"
+    },
+    {
+      "page": "https://www.flickr.com/photos/182866455@N04/49276728688",
+      "why": "a white cream cake with strawberries beside cans of chuhai"
     }
   ],
   "sally-lunn": [
@@ -5760,6 +5868,10 @@
       "model": "sana",
       "prompt": "A dark, hard, bitter-sweet toffee of black treacle, golden syrup and brown sugar, boiled to the crack stage and broken with a hammer, Thirty-five minutes, made with black treacle, golden syrup, white vinegar, a British dish called Treacle Toffee, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/60179301@N00/11158173433",
+      "why": "a bakery display of eclairs and tarts"
     }
   ],
   "pilau-rice": [
@@ -5772,6 +5884,10 @@
       "model": "sana",
       "prompt": "Basmati cooked with browned onion and whole spices, light, fragrant and separate, The curry-house side, Thirty-five minutes, made with basmati rice, onion, green cardamom pods, cinnamon stick, bay leaf, an Indian dish called Pilau Rice, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/27769d3b9c/",
+      "why": "a plate of mixed local dishes where the pilau is one part"
     }
   ],
   "cup-of-tea": [
@@ -5868,6 +5984,10 @@
       "model": "sana",
       "prompt": "Lemon juice, zest, sugar, butter and eggs stirred over gentle heat into a glossy, tart, spreadable curd, Twenty-five minutes, made with eggs, egg yolk, a British dish called Lemon Curd, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/134468672@N06/40912479873",
+      "why": "a tight crop of a jar of yellow that could be anything"
     }
   ],
   "pickled-eggs": [
@@ -8072,6 +8192,10 @@
     {
       "page": "https://www.flickr.com/photos/62730438@N08/14064981744",
       "why": "diners at a cafe"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5953867/free-public-domain-cc0-photo",
+      "why": "a brown bean-style patty under grilled halloumi and chilli jam, which is not a salmon burger whatever the archive title says"
     }
   ],
   "vegetarian-chili": [
@@ -9316,6 +9440,10 @@
     {
       "page": "https://www.rawpixel.com/image/3304292/free-photo-image-burger-bread-cc0",
       "why": "a stack of pancakes with strawberries"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Tomato_zucchini_fritters_(43129626882).jpg",
+      "why": "a close crop of a breadcrumb-coated fried piece in which no zucchini can be seen, so it could be any crumbed fritter"
     }
   ],
   "charcuterie-board": [
@@ -9910,6 +10038,168 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=75848870",
       "why": "a meringue-topped lemon tart and the recipe has no meringue"
+    }
+  ],
+  "pho-ga": [
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/1587479",
+      "why": "a crowded restaurant table with several dishes and a bowl of pho that cannot be told to be chicken"
+    }
+  ],
+  "bo-kho": [
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/4688086078",
+      "why": "a bowl of crab noodle soup and not a beef stew"
+    }
+  ],
+  "chicken-karahi": [
+    {
+      "page": "https://www.flickr.com/photos/93512023@N00/4074559269",
+      "why": "a mixed plate of biryani, karahi chicken and keema"
+    }
+  ],
+  "chicken-salad": [
+    {
+      "page": "https://www.flickr.com/photos/43296902@N00/32563407927",
+      "why": "a Thai-style chicken salad with herbs and chilli and not an American one with mayonnaise"
+    }
+  ],
+  "moo-ping": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%A3%E0%B8%96%E0%B9%80%E0%B8%82%E0%B9%87%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87.jpg",
+      "why": "a street food cart with a crowd and no close view of the skewers"
+    }
+  ],
+  "pollo-al-ajillo": [
+    {
+      "page": "https://www.flickr.com/photos/151478593@N05/44296769502",
+      "why": "a Peruvian creamy yellow chicken dish with rice and egg and not garlic chicken pieces"
+    }
+  ],
+  "sakshuka-turkish": [
+    {
+      "page": "https://www.flickr.com/photos/97947597@N00/51573194587",
+      "why": "an old engraving of a crab"
+    }
+  ],
+  "sloppy-joe-mix": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Millburn_Deli_Sloppy_Joes.jpg",
+      "why": "a New Jersey deli sandwich with coleslaw on rye and not minced beef on a bun"
+    }
+  ],
+  "sopa-de-fideo": [
+    {
+      "page": "https://www.flickr.com/photos/22662305@N04/2798316162",
+      "why": "a clear golden noodle soup and not a tomato one"
+    }
+  ],
+  "tonkatsu": [
+    {
+      "page": "https://www.flickr.com/photos/36229725@N07/3883629243",
+      "why": "katsu curry with the cutlet under the sauce"
+    }
+  ],
+  "veg-momos": [
+    {
+      "page": "https://www.flickr.com/photos/77742560@N06/7637814412",
+      "why": "a shop front at night"
+    }
+  ],
+  "scrambled-eggs": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=82440610",
+      "why": "a Japanese beef and egg rice bowl set meal"
+    }
+  ],
+  "albondigas": [
+    {
+      "page": "https://www.flickr.com/photos/115281417@N03/25375174022",
+      "why": "a single artichoke meatball in sauce"
+    }
+  ],
+  "chicken-inasal": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0740Foods_dishes_delicacies_of_Bulacan_30.jpg",
+      "why": "a grilled chicken piece on a concrete floor"
+    }
+  ],
+  "dhal-curry": [
+    {
+      "page": "https://www.flickr.com/photos/7444159@N07/3656442337",
+      "why": "a poster of a Sri Lankan deity"
+    }
+  ],
+  "hong-kong-milk-tea": [
+    {
+      "page": "https://www.flickr.com/photos/88123769@N02/23488999485",
+      "why": "a waterfront promenade in Hong Kong"
+    }
+  ],
+  "paneer-tikka-masala": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Panir_Tikka_Indian_cheese_grilled.jpg",
+      "why": "grilled paneer on a skewer with no masala gravy"
+    }
+  ],
+  "shorbat-adas": [
+    {
+      "page": "https://www.flickr.com/photos/25977089@N00/35365452502",
+      "why": "a spinach salad with a small bowl of soup at the edge"
+    }
+  ],
+  "turkish-pilav": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=56301903",
+      "why": "a roast chicken leg dinner with the rice beside it"
+    }
+  ],
+  "homemade-potato-crisps": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arrowhead_Crisps.jpg",
+      "why": "the archive title says arrowhead crisps, fried chips of the arrowhead tuber and not sliced potato"
+    }
+  ],
+  "chicken-chasseur": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Chasseur_(7624941118).jpg",
+      "why": "a pale braise of chicken, mushrooms and spring onions with no tomato sauce, where the recipe is a tomato and tarragon sauce"
+    }
+  ],
+  "filter-coffee": [
+    {
+      "page": "https://www.flickr.com/photos/8638355@N06/9416723738",
+      "why": "a plate of omelette that takes up as much of the frame as the steel coffee set"
+    }
+  ],
+  "grits": [
+    {
+      "page": "https://wordpress.org/photos/photo/9664937d74/",
+      "why": "shrimp and kale piled on the grits and not the cheesy grits alone"
+    }
+  ],
+  "taco-casserole": [
+    {
+      "page": "https://www.flickr.com/photos/7852439@N07/3177659996",
+      "why": "a plastic tub with layers of mince seen through the side"
+    }
+  ],
+  "ham-and-bean-soup": [
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/54694278505",
+      "why": "a Chinese fried pastry"
+    }
+  ],
+  "baked-cod": [
+    {
+      "page": "https://www.flickr.com/photos/43322816@N08/4751531063",
+      "why": "a beach and sand dunes"
+    }
+  ],
+  "hot-buttered-rum": [
+    {
+      "page": "https://www.flickr.com/photos/51029297@N00/5033914989",
+      "why": "a band on an outdoor stage"
     }
   ]
 }

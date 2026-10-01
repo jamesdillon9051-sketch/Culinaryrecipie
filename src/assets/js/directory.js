@@ -44,6 +44,12 @@
 
   function stars(rating) {
     var value = Math.max(0, Math.min(5, Number(rating) || 0));
+    /* A recipe nobody has rated is not a recipe rated zero: "0.0" beside five empty stars says readers disliked it.
+       util.js says the same for the cards written at build time, and these are the ones painted here. */
+    if (!value) {
+      return '<span class="stars stars--unrated"><b>Not yet rated</b>' +
+        '<span class="sr-only">This recipe has no ratings yet</span></span>';
+    }
     var pct = (value / 5) * 100;
     return '<span class="stars"><span class="stars-glyphs" aria-hidden="true">★★★★★' +
       '<span style="width:' + pct + '%">★★★★★</span></span>' +

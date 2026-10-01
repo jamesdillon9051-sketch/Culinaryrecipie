@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5320 image files (WebP + JPEG)
+│       └── img/recipes/         # 5314 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5320 image files
+├── assets/                      #    css, js and 5314 image files
 ├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 213,603 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 213,599 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1674 of the 2415 recipes have a photograph. Of the 2158 images on the site,
-1050 are CC0 or public domain, 551 are CC BY and 557 are CC BY-SA. Anything
+1753 of the 2415 recipes have a photograph. Of the 2237 images on the site,
+1070 are CC0 or public domain, 582 are CC BY and 585 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -2581,10 +2581,10 @@ pass is on the site, the hand-written prompts that were written for the
 generator were not kept, and `src/data/image-prompts.json` is as it was. What
 follows is photographs only.
 
-The result: 262 of the 501 recipes now have a photograph from an
-archive, and 239 are still on a gradient card. Across the site
-that is 1,674 photographs, 502 illustrations
-(all of them from the earlier pass, see the end) and 239
+The result: 258 of the 501 recipes now have a photograph from an
+archive, and 243 are still on a gradient card. Across the site
+that is 1,753 photographs, 419 illustrations
+(all of them from the earlier pass, see the end) and 243
 gradient cards on 2,415 recipes.
 
 ### What was looked at
@@ -2711,6 +2711,12 @@ writes, so none of this was it.
     synced them afterwards, so on `/favourites/` every saved recipe offered
     "Save … to favourites", and pressing it removed the recipe. The cards now
     sync their hearts each time they are painted.
+15. **Unrated recipes read "0.0" on the pages that list them.** `src/lib/util.js`
+    prints "Not yet rated" for a recipe nobody has rated, with a comment saying
+    why: "0.0" beside five empty stars says readers disliked it. The cards that
+    `directory.js` paints, on the recipes, search and favourites pages, printed
+    it on all 2,415. They say "Not yet rated" now, and `npm run check` fails if
+    the script loses the rule.
 
 Every recipe `<img>` has alt text and dimensions, and no id is duplicated or
 dangling; that was checked and needed nothing.
@@ -2726,8 +2732,8 @@ the 316 still without one, for as long as it needed, with alternative names
 written for each recipe in `src/data/image-queries.json` (the cocktail with
 "(cocktail)" after it, the dish under the other name it goes by, the title in
 the singular) and with every archive page already refused left out. Over the two
-searches 262 photographs were kept and 466 refused, which is
-64 per cent. They were wrong in the same ways as before:
+searches 258 photographs were kept and 470 refused, which is
+65 per cent. They were wrong in the same ways as before:
 
 - **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
   returned a snake, `caribou` a mountain, an animal and later a coin, `sea-breeze`
@@ -2757,7 +2763,7 @@ searches 262 photographs were kept and 466 refused, which is
   `irish-apple-cake` a painting of Halloween revellers and `black-russian`, on its
   second try, a typewriter.
 
-The licence split of what was kept is CC BY 97, CC BY-SA 71, CC0 64 and public domain 30, from Wikimedia Commons and Wikipedia (189), Flickr (54), Rawpixel (15), the WordPress photo directory (3) and StockSnap (1).
+The licence split of what was kept is CC BY 95, CC BY-SA 70, CC0 63 and public domain 30, from Wikimedia Commons and Wikipedia (186), Flickr (54), Rawpixel (14), the WordPress photo directory (3) and StockSnap (1).
 
 One fault in the tool itself cost the second search a lot of its first hour.
 `upload.wikimedia.org` answers a request for an original file from this
@@ -2771,65 +2777,108 @@ seconds on a refusal that carries no countdown instead of waiting two.
 `fetch_images.py --img-dir` and `contact_sheet.py --img-dir` were added so that
 candidates can be kept apart from the files the site is using.
 
+### The drawings from the earlier pass
+
+The instruction was given about this pass, but "real images, not AI generated"
+is plainly meant for the site, and 505 recipes still showed a labelled
+drawing from the earlier image pass, mostly in the volumes up to twenty-six,
+where nothing usable had been found at the time. The same search was run over
+them with the candidate files kept apart from the live ones
+(`fetch_images.py --img-dir`), so that a drawing is touched only when a photograph
+of the right dish has been looked at and kept, and stays where it is when the
+photograph is refused.
+
+255 of the 505 were searched. 86 now show a
+photograph, 65 candidates were refused for the reasons above (a
+wrong dish, a place with the dish's name, a branded pack, a document), and
+419 still show a drawing, each with its notice. The searched recipes
+were the ones whose names the archives are most likely to know, commonest first;
+the rest, the Egyptian, Lebanese and Tunisian dishes and the other regional
+names the earlier pass had already tried and been refused for again and again,
+are the least likely to turn anything up and were searched last.
+
 ### Judgement calls
 
 Photographs passed because the dish is on the plate and something about it is
-not what the recipe says, and a thumbnail does not settle them. Three that
-passed at 480 pixels were taken back off when they were looked at again at 800
-(`singapore-sling`, which turned out to be two different drinks, one a frozen
-strawberry colada; `chicken-marbella`, in which prunes and olives could not be
-told from charred bits; and `bran-muffins`, a soft, low-resolution crop). These
-are the ones to look at first:
+not what the recipe says, and a thumbnail does not settle them. When every
+photograph published in this pass was looked at a second time at 800 pixels
+across, seven that had passed at 480 were taken back off: `singapore-sling`
+(two different drinks in the frame, one a frozen strawberry colada),
+`chicken-marbella` (prunes and olives that could not be told from charred bits),
+`chicken-chasseur` (a pale braise with no tomato in it), `salmon-burgers` (a bean
+patty under grilled halloumi, whatever the archive's title said),
+`zucchini-fritters` (a crumbed fritter in which no zucchini can be seen),
+`homemade-potato-crisps` (the archive's *arrowhead* crisps, which are made from a
+tuber) and `bran-muffins` (a soft, low-resolution crop). What stays is below, in
+the order it is easiest to be misled by. These are the ones to look at first:
 
-- `burnt-ends`: thick slices of brisket point, not the cubes the method makes.
-- `johnnycakes`: one large cornmeal cake in a cast-iron pan; the recipe makes small ones.
-- `galbi-jjim`: the spicy version of the braise, red where the recipe's is brown.
-- `sauteed-fiddleheads`: fiddleheads in a pan with butter, under a caption written as a social post.
-- `pecan-sandies`: lemon pecan sandies, and the recipe has no lemon.
-- `thumbprint-cookies`: the Swedish *hallongrottor*, the same jam-filled cookie under another name.
-- `spritz-cookies`: a cookie press and a hand in the frame.
-- `pepper-jelly`: a jar with a handwritten price card beside it.
-- `chiko-roll`, `pizza-rolls`, `peanut-butter-and-jelly-sandwich`, `pumpkin-spice-latte`: shop-bought food, with a brand on the bag, the cup or in the archive's title.
-- `homemade-pop-tarts`: the shop-bought pastry the recipe imitates, on a white ground.
-- `cherry-ripe-slice`: a cut Cherry Ripe bar, which is chocolate all round where the slice is only topped.
-- `maple-oatmeal-cookies`: plain oatmeal cookies on a rack (the archive calls them sour cream oatmeal), with no glaze and no pecans.
-- `pyrizhky`: the Wikipedia piroshki photograph, filled with mushroom and meat and not potato.
-- `maple-glazed-ham`: a dinner plate, with the sides taking half of it.
-- `honey-prawns`: battered prawns in a sweet glaze, with peppers and onion the recipe does not have.
-- `beef-in-black-bean-sauce`: with bitter melon in place of green pepper, and tomato wedges.
-- `salmon-burgers`: a bun and a patty; whatever is in the patty cannot be seen.
-- `rough-puff-pastry`: baked puff pastry pies, which show the layers and not the dough.
-- `mango-cheesecake`: a baked cheesecake in a pie dish under mango purée, where the recipe sets one with gelatine and tops it with fresh fruit.
-- `spaghetti-squash`: with kale and mince in the boat.
-- `coconut-cake`: three marshmallow chicks on top.
-- `three-bean-salad`: dressed with tomato slices, and two of the beans are shell beans.
-- `duck-a-lorange`: a whole duck, carved on a platter, where the recipe sears breasts.
-- `orange-and-almond-cake`: the blood orange and coconut version.
-- `rhubarb-custard-pie`: a slice plated in a restaurant with ice cream.
-- `baked-feta-pasta`: the dish before the pasta is stirred in.
-- `french-dressing`: the dressing in a salad-bar bowl, with its ladle.
-- `pepperoni-rolls`: the archive calls them vegetarian pepperoni rolls, and they look the same.
-- `cranberry-orange-bread`: a plain loaf, with no glaze to be seen.
-- `tofu-scramble`: served on toast with a drizzle.
-- `lebkuchen`: a shop window, with the sign across it.
-- `zucchini-fritters`: crumbed, where the recipe's are not.
-- `tanghulu`: a street shop's trays of them, with hawthorn and tomatoes among the strawberries and grapes.
-- `ladyfingers`: still in the supermarket tray and its film.
-- `charcuterie-board`: two cheeses where the recipe has three.
-- `scrapple`: on a breakfast plate with eggs and rolls.
-- `karjalanpaisti`: with carrots in the pot, which the recipe does not have.
-- `aioli`: the Provençal *aïoli garni*, the sauce with its potatoes, beans, fish and eggs around it.
-- `moules-frites`: the mussels in their pot and the chips beside it.
+**A different version of the dish.** `burnt-ends` is thick slices of brisket and not
+the cubes the method makes; `johnnycakes` one large cornmeal cake where the recipe
+makes small ones; `galbi-jjim` the spicy braise, red where the recipe's is brown;
+`pecan-sandies` pecan-topped cookies from an archive page that says lemon;
+`thumbprint-cookies` the Swedish *hallongrottor*, the same jam-filled cookie under
+another name; `cherry-ripe-slice` a cut bar of the chocolate it imitates;
+`maple-oatmeal-cookies` plain oatmeal cookies, with no glaze or pecans;
+`pyrizhky` piroshki filled with mushroom and meat and not potato; `honey-prawns`
+with peppers and onion; `beef-in-black-bean-sauce` with bitter melon;
+`mango-cheesecake` a baked cheesecake under purée where the recipe sets one;
+`spaghetti-squash` with kale and mince; `three-bean-salad` dressed over tomato;
+`duck-a-lorange` a carved whole duck where the recipe sears breasts;
+`orange-and-almond-cake` the blood orange and coconut version; `swiss-roll` a
+chocolate sponge round cream where the recipe is plain sponge round jam;
+`taco-salad` with chicken where the recipe has beef; `lamb-tagine` with prunes and
+pear where the recipe has apricots; `mixed-grill` with steak, sausage and a fried
+egg; `mushroom-barley-soup` a pale broth where the recipe is dark with porcini;
+`country-captain` a vegetable curry with coconut flakes; `rhubarb-custard-pie` a
+restaurant slice with ice cream; `apple-charlotte` a restaurant dome with wattle
+seed ice cream; `rum-balls` rolled in sprinkles in the manner of brigadeiros; `dorset-apple-cake`
+baked as a single cupcake; `jam-tarts` heart-shaped; `pimms-cup` in a tall glass with
+the bottle beside it and not in a jug;
+`homemade-pizza-dough` two finished pizzas; `chocolate-ganache` ganache on a
+layered cake; `cauliflower-wings` florets in a pool of hot sauce.
+
+**Bought, branded or ready-made.** `chiko-roll`, `pizza-rolls`,
+`peanut-butter-and-jelly-sandwich` and `pumpkin-spice-latte` are shop-bought food,
+with a brand on the bag or the cup or in the archive's title; `homemade-pop-tarts`
+is the pastry it imitates; `ladyfingers` are in their supermarket tray;
+`custard-creams` is a factory biscuit with its name stamped on; `beijing-beef` and
+`turkey-curry` are takeaway boxes from restaurant chains, and `beaver-tails` has a
+fried-dough stall's squeeze bottles in the frame.
+
+**Something else in the picture.** `spritz-cookies` has a cookie press and a hand
+in it; `pepper-jelly` a handwritten price card; `maple-glazed-ham` a whole dinner
+plate; `coconut-cake` three marshmallow chicks; `strawberry-cake` two Swedish
+flags; `cookie-cake` a Mother's Day message; `egg-in-a-hole` pesto, tomato and
+mozzarella; `thai-fish-cakes` the photographer's own watermark;
+`hot-lemon-and-honey` a branded jar of honey; `shrimp-remoulade` a wedge salad,
+deviled eggs and a bottle of root beer; `popcorn-shrimp` a bowl of crab dip;
+`dirty-rice` a takeaway box with a pork chop on it; `apple-dumplings` a foam bowl
+and a plastic spoon; `patty-melt` a diner's paper flags; `gorditas` a street
+griddle with passers-by; `rappie-pie` and `wedge-salad` are half eaten;
+`fried-bologna-sandwich`, `chocolate-babka`, `shrewsbury-biscuits` and
+`bucks-fizz` are held in a hand; `scrapple` has two jam packs on the plate whose
+labels have been painted out by the uploader; `lebkuchen` is a shop window with
+the shop's sign across it; `tanghulu` a street stall's trays, with hawthorn and
+tomatoes among the strawberries.
+
+**Hard to read at a glance.** `pork-scratchings` is a pale, dry heap with nothing
+to show what it is; `bread-and-butter-pickles` a soft close-up through the glass
+of a jar; `italian-wedding-soup` a cup with no meatball in view;
+`beer-cheese-soup` a four-cheese soup in which the beer cannot be seen;
+`chicken-divan` and `chicken-tacos` the photographs the archive chose for the dish
+in general, in which the chicken cannot be told from anything else; `calzone` a
+folded flat dough rather than a puffed one; `doner-kebab` the meat on its spit
+and not a kebab served.
 
 ### What has not been done
 
 Nothing in this pass was cooked, and a picture of a dish says little about
-whether its recipe works. Every photograph was judged at 480 pixels across;
-the likeliest faults are ones a thumbnail hides, and the list above is where to
-look first. Any of them can be refused with `tools/review_images.py`, which
+whether its recipe works. Every photograph was judged at 480 pixels across and
+looked at again at 800; the likeliest faults left are ones neither size shows,
+and the list above is where to look first. Any of them can be refused with `tools/review_images.py`, which
 puts the recipe back on its gradient card.
 
-239 recipes of the 501 are still on a gradient card. For most of
+243 recipes of the 501 are still on a gradient card. For most of
 them the archives hold nothing: either no photograph of the dish exists under a
 licence the site can use, or those that exist show something else, and the
 number refused for each recipe is printed in `MISSING-IMAGES.txt`, which lists
@@ -2850,13 +2899,17 @@ real name from a username, and the licence of a Flickr photograph is whatever th
 archive says it is; neither was re-verified at the source for the pictures
 already on the site.
 
-The 502 illustrations from the earlier pass are still on the
-site, each with the notice under it that says a drawing is not a photograph of
-the dish. The owner's instruction came about this pass, so they were left
-alone here; the same search, run over them, is the next job, and a drawing is
-replaced only where a photograph of the right dish has been found and looked
-at. Where none is, the choice between the drawing and a gradient card is the
-owner's.
+A drawing replaced by a photograph does not move that recipe's `dateModified`.
+The fingerprint in `src/lib/content-dates.js` holds the image's file name, which
+is the slug whether the picture is a drawing or a photograph, and changing what
+it holds would move the date of every recipe on the site at once, so it was left.
+A recipe that went from no picture to a photograph, or the other way, does move.
+
+The 419 drawings that are left are labelled as drawings, under a notice that
+says a drawing is not a photograph of the dish, and each has had a photograph
+searched for. Whether they stay, or the recipes go back on a gradient card until a
+photograph turns up, is the owner's decision; `tools/generate_images.py` is not to
+be run again, and `CLAUDE.md` says so.
 
 ## The prose was not robotic, the page was
 
