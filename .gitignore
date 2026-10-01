@@ -11,3 +11,6 @@ __pycache__/
 backups/
 logs/
 .humanize/
+
+# Candidates and contact sheets from tools/wide_search.py, which are looked at and then discarded.
+.wide/

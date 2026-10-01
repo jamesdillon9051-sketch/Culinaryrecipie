@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5518 image files (WebP + JPEG)
+│       └── img/recipes/         # 5626 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5518 image files
+├── assets/                      #    css, js and 5626 image files
 ├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 213,701 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 213,755 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1920 of the 2415 recipes have a photograph. Of the 2404 images on the site,
-1098 are CC0 or public domain, 639 are CC BY and 667 are CC BY-SA. Anything
+2048 of the 2415 recipes have a photograph. Of the 2532 images on the site,
+1114 are CC0 or public domain, 687 are CC BY and 731 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -2581,10 +2581,10 @@ pass is on the site, the hand-written prompts that were written for the
 generator were not kept, and `src/data/image-prompts.json` is as it was. What
 follows is photographs only.
 
-The result: 361 of the 501 recipes now have a photograph from an
-archive, and 140 are still on a gradient card. Across the site
-that is 1,920 photographs, 355 illustrations
-(all of them from the earlier pass, see the end) and 140
+The result: 415 of the 501 recipes now have a photograph from an
+archive, and 86 are still on a gradient card. Across the site
+that is 2,048 photographs, 281 illustrations
+(all of them from the earlier pass, see the end) and 86
 gradient cards on 2,415 recipes.
 
 ### What was looked at
@@ -2790,8 +2790,8 @@ the 316 still without one, for as long as it needed, with alternative names
 written for each recipe in `src/data/image-queries.json` (the cocktail with
 "(cocktail)" after it, the dish under the other name it goes by, the title in
 the singular) and with every archive page already refused left out. Over the two
-searches 361 photographs were kept and 771 refused, which is
-68 per cent. They were wrong in the same ways as before:
+searches 415 photographs were kept and 1,138 refused, which is
+73 per cent. They were wrong in the same ways as before:
 
 - **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
   returned a snake, `caribou` a mountain, an animal and later a coin, `sea-breeze`
@@ -2821,7 +2821,7 @@ searches 361 photographs were kept and 771 refused, which is
   `irish-apple-cake` a painting of Halloween revellers and `black-russian`, on its
   second try, a typewriter.
 
-The licence split of what was kept is CC BY 137, CC BY-SA 117, CC0 72 and public domain 35, from Wikimedia Commons and Wikipedia (270), Flickr (72), Rawpixel (14), the WordPress photo directory (3) and StockSnap (2).
+The licence split of what was kept is CC BY 169, CC BY-SA 138, CC0 73 and public domain 35, from Wikimedia Commons and Wikipedia (279), Flickr (117), Rawpixel (14), the WordPress photo directory (3) and StockSnap (2).
 
 One fault in the tool itself cost the second search a lot of its first hour.
 `upload.wikimedia.org` answers a request for an original file from this
@@ -2835,6 +2835,30 @@ seconds on a refusal that carries no countdown instead of waiting two.
 `fetch_images.py --img-dir` and `contact_sheet.py --img-dir` were added so that
 candidates can be kept apart from the files the site is using.
 
+### Reading the curated sources in full
+
+The chain in `tools/fetch_images.py` stops as soon as it holds two candidates and
+asks the text searches first. For a dish with a great many snapshots in the
+archives that meant the two places where a person decided what a picture shows
+were never reached: the photographs in the English Wikipedia article for the
+dish, and the Commons category filed under its name. Three refused Flickr
+snapshots ended the search for English muffins, and the Commons category for them
+holds thirty-six files. A separate pass read both in full for every recipe that
+was still on a gradient card or a drawing (`tools/wide_search.py`, which is in the
+repository and describes its own use), and then
+took one deeper page from Openverse (twenty results of any shape, the most it gives
+an anonymous caller) for the recipes still without a picture.
+
+188 recipes got a photograph from it: 114 that had been on a
+gradient card and 74 that had shown a drawing. 933
+candidates were refused, again for the reasons above, and the pages are recorded
+in `image-rejects.json`. Two things were new. Commons categories are curated, but
+loosely: the category for *blue cheese dressing* is the one for blue cheese, and
+every file in it is a wedge of cheese. And an article's image list is the
+article's, not the dish's: every cocktail article names the same photograph of a
+gin and tonic, which turned up as a candidate for ten drinks. Both are caught by
+looking, which is what the contact sheets were for.
+
 ### The drawings from the earlier pass
 
 The instruction was given about this pass, but "real images, not AI generated"
@@ -2846,10 +2870,10 @@ them with the candidate files kept apart from the live ones
 of the right dish has been looked at and kept, and stays where it is when the
 photograph is refused.
 
-505 of the 505 were searched. 150 now show a
-photograph, 216 candidates were refused for the reasons above (a
+505 of the 505 were searched. 224 now show a
+photograph, 460 candidates were refused for the reasons above (a
 wrong dish, a place with the dish's name, a branded pack, a document), and
-355 still show a drawing, each with its notice. 6 more were
+281 still show a drawing, each with its notice. 6 more were
 published, then taken back off and put back to the drawing they had when they
 did not hold up at full size: the photograph for `turkey-gravy` was three cartons
 of stock and a bottle of vinegar, `saltibarsciai` was a hot red borscht where the
@@ -2937,7 +2961,7 @@ in general, in which the chicken cannot be told from anything else; `calzone` a
 folded flat dough rather than a puffed one; `doner-kebab` the meat on its spit
 and not a kebab served.
 
-**From the wider search of the curated sources.** `banana-ice-cream` a shop's bananas foster scoop in a paper cup, not soft serve made from frozen bananas; `black-bean-burgers` a vegan burger of two bean patties from the archive's vegan burger page; `black-velvet` a pint held in a hand, in a glass printed with a stout's name; `breakfast-sausage` two patties beside scrambled eggs on a plate; `chicken-burrito-bowl` a restaurant bowl in a chain's patterned paper; `chicken-chop-suey` chop suey over fried rice, from the article on the dish, with no chicken to pick out; `crunchwrap` the fast-food original on its tray, with the chain's name small on the tray liner; `english-muffins` three unsplit muffins in a basket; `french-75` a flute of deep gold fizz with a lemon twist under bar lighting; `fondant-fancies` a shop-bought French fancy, with the brand in the archive's title; `hot-fudge-sauce` a sundae in a plastic cup, the sauce its dark ribbons; `kettle-corn` a heap of popcorn from a brand's sweet-and-salty bag, the brand in the archive's title; `king-ranch-chicken-casserole` a half-eaten restaurant portion, with cornbread and greens beside it; `orange-julius` a faded, filtered photograph of the chain's own cup; `pumpkin-muffins` frosted, with a chestnut on top, where the recipe's are plain with seeds; `turkey-chili` a bowl with a spoonful of soured cream, on a place mat beside a side salad; `bbq-sauce` an apricot barbecue sauce in a white bowl; `bone-broth` a pot of pho stock on the hob, with charred onions, star anise and cinnamon among the bones; `chocolate-truffles` truffles in several coatings, only some of them cocoa; `cuba-libre` the cola and white rum bottles in the frame with their labels, and a coconut; `funnel-cake` plain, without the icing sugar the recipe has; `grasshopper` a bright green, brighter than the recipe's pale one, with the glass cropped; `italian-beef-sandwich` a restaurant's own sandwich on its branded paper; `mai-tai` the glass carries the bar's name; `special-burger-sauce` a paper pot of pink sauce served with crinkle-cut fries, from an article on Marie Rose sauce; `greek-frappe` a tall jar printed with a cafe's name; `chocolate-covered-cherries` two of them, one cut open, from the archive page of a brand's sweet; `moon-pies` a shop-bought one cut in half; `white-russian` served layered in a glass with no ice and the cream dusted with chocolate, in a dim bar; `lomi-lomi-salmon` with red onion where the recipe has sweet onion, in a dark bowl; `brandy-alexander` served on the rocks in a tumbler, where the recipe strains it up; `devon-splits` two scone halves with jam and cream, where the recipe's are yeast-risen rolls; `jamaican-ginger-cake` a cafe's ginger crumble loaf, lighter than the recipe's black-treacle cake; `stromboli` with olives and roasted peppers in the filling and a spoon of tomato sauce on top.
+**From the wider search of the curated sources.** `banana-ice-cream` a shop's bananas foster scoop in a paper cup, not soft serve made from frozen bananas; `black-bean-burgers` a vegan burger of two bean patties from the archive's vegan burger page; `black-velvet` a pint held in a hand, in a glass printed with a stout's name; `breakfast-sausage` two patties beside scrambled eggs on a plate; `chicken-burrito-bowl` a restaurant bowl in a chain's patterned paper; `chicken-chop-suey` chop suey over fried rice, from the article on the dish, with no chicken to pick out; `crunchwrap` the fast-food original on its tray, with the chain's name small on the tray liner; `english-muffins` three unsplit muffins in a basket; `french-75` a flute of deep gold fizz with a lemon twist under bar lighting; `fondant-fancies` a shop-bought French fancy, with the brand in the archive's title; `hot-fudge-sauce` a sundae in a plastic cup, the sauce its dark ribbons; `kettle-corn` a heap of popcorn from a brand's sweet-and-salty bag, the brand in the archive's title; `king-ranch-chicken-casserole` a half-eaten restaurant portion, with cornbread and greens beside it; `orange-julius` a faded, filtered photograph of the chain's own cup; `pumpkin-muffins` frosted, with a chestnut on top, where the recipe's are plain with seeds; `turkey-chili` a bowl with a spoonful of soured cream, on a place mat beside a side salad; `bbq-sauce` an apricot barbecue sauce in a white bowl; `bone-broth` a pot of pho stock on the hob, with charred onions, star anise and cinnamon among the bones; `chocolate-truffles` truffles in several coatings, only some of them cocoa; `cuba-libre` the cola and white rum bottles in the frame with their labels, and a coconut; `funnel-cake` plain, without the icing sugar the recipe has; `grasshopper` a bright green, brighter than the recipe's pale one, with the glass cropped; `italian-beef-sandwich` a restaurant's own sandwich on its branded paper; `mai-tai` the glass carries the bar's name; `special-burger-sauce` a paper pot of pink sauce served with crinkle-cut fries, from an article on Marie Rose sauce; `greek-frappe` a tall jar printed with a cafe's name; `chocolate-covered-cherries` two of them, one cut open, from the archive page of a brand's sweet; `moon-pies` a shop-bought one cut in half; `white-russian` served layered in a glass with no ice and the cream dusted with chocolate, in a dim bar; `lomi-lomi-salmon` with red onion where the recipe has sweet onion, in a dark bowl; `brandy-alexander` served on the rocks in a tumbler, where the recipe strains it up; `devon-splits` two scone halves with jam and cream, where the recipe's are yeast-risen rolls; `jamaican-ginger-cake` a cafe's ginger crumble loaf, lighter than the recipe's black-treacle cake; `stromboli` with olives and roasted peppers in the filling and a spoon of tomato sauce on top; `bellini` a flute in a restaurant, a table setting and a glass of water beside it; `farinata` a golden slab on paper with a strip of olive focaccia beside it; `fattah` in a glass baking dish with the lamb on top of the rice and no bread to see; `fish-pie` a portion on a plate with peas; `gigot-d-agneau` sliced pink lamb in its juices on a restaurant plate with the restaurant's stamp at the rim; `karkade` a cup of the hot tea with its tea bag in, not the ink-dark iced drink; `apricot-chicken` a skillet of thighs under a dark, sticky glaze with a spice crust, a recipe card and an oven glove at the edge of the frame; `aviation` a pale blue-green coupe on a cluttered bar top, a remote control in the corner; `baked-chicken-drumsticks` drumsticks under a glossy barbecue glaze, on a holly-patterned plate; `beef-burritos` two cut halves on shredded cabbage with a hot-sauce drizzle, beef and beans showing but no rice; `blackened-chicken` grill-marked breast beside cauliflower mash and courgette, the crust paler than a blackened one; `blue-cheese-dressing` the dressing on a green salad with croutons, a white dressing with no blue visible; `broccoli-cheese-casserole` a tight crop of the cracker topping under a warm photo filter, one floret showing; `butternut-squash-risotto` mid-stir in the pan, a hand and a whisk in the frame; `oxtail-soup` an olive-brown soup with chunks of meat, paler than the recipe's near-black one; `pease-pudding` a soft purée with a pat of butter in a glass bowl, not a set slice; `poule-au-pot` the whole chicken and cabbage in the pot, from above and before it is carved; `suppli` two croquettes on a restaurant plate, closed, so no cheese thread; `tangyuan` pumpkin-coloured dumplings, one cut open on a spoon to show the black sesame; `tarte-au-citron` a restaurant slice with candied zest and a berry sauce; `torshi` a mixed plate of pickles with the pink turnip among cucumber, carrot and pepper; `xo-sauce` the sauce spooned onto halved boiled eggs; `chicken-and-biscuits` a restaurant plate, with mushrooms in the sauce; `chicken-liver-pate` two small cubes on shiso leaves beside two slices of baguette, on a large plate; `chinese-lemon-chicken` one battered fillet under the sauce, with a lemon slice and a dome of rice, at a restaurant; `curried-egg-sandwich` wholegrain bread and a chunkier, chickpea-and-egg filling; `dungeness-crab` a whole boiled crab on a restaurant plate with melted butter, not yet cracked; `french-onion-dip` a tight crop from above of the dip under a heap of caramelised onion, with a plate and a wooden board at the edges; `fried-catfish` a single cornmeal fillet on a restaurant plate with chips, hush puppies and tartar sauce, and no lemon; `grasmere-gingerbread` a slab on a board under a strong orange light; `green-beans-almondine` with sliced mushrooms among the almonds, which the recipe does not have; `ham-and-cheese-pinwheels` a plain tray of slices on wax paper, with what look like olives in the cream cheese; `homemade-vanilla-ice-cream` still soft in the churn canister, with the dasher in the frame; `hot-chicken-sandwich` the open sandwich under so much gravy that the chicken is hidden, with chips, peas and coleslaw; `ice-cream-sandwiches` a bar-style sandwich of chocolate layers with a second, caramel-coloured layer and raisins, not two cookies around vanilla; `manhattan-clam-chowder` a bowl in strong orange light with a slice of bread at the rim, the clams hard to pick out; `peppermint-bark` white chocolate and candy cane only, with no dark layer to see, on a floral plate; `portobello-burger` opened, the grilled cap on one half and a roasted pepper on the other; `pumpkin-roll` a slice under white icing with sugar leaves, among small pumpkins; `roasted-red-pepper-soup` a very red soup, closer to tomato, from a page that names both; `salmon-candy` three thick glazed pieces of smoked salmon, softer than the chewy strips the recipe describes; `salt-and-pepper-ribs` salt-and-pepper chicken pieces from a restaurant, where the recipe has pork ribs; `smoked-turkey` the whole bird on the grill, not spatchcocked; `steak-oscar` a restaurant plating with crab and microgreens, the hollandaise not in view; `strawberry-spinach-salad` with candied walnuts and no feta or onion in view; `stuffed-pepper-soup` a restaurant cup with a beer bottle and sugar packets in the frame; `texas-sheet-cake` the whole pan from above, icing and chopped walnuts only, with a spatula in the corner; `apple-sauce` a spoonful lifted over a glass bowl, golden and chunky rather than pale and fluffy; `albondigas` a restaurant plate of meatballs in a pale golden sauce, in which the almonds and saffron cannot be told; `brandy-butter` the whipped butter in its mixing bowl under a strong orange light; `cheeseburger-macaroni` a bowl of it from the archive's page on the boxed version of the dish; `chicken-salad` a scoop of shredded chicken salad on lettuce, with no grapes or pecans to see, on a chain's printed wax paper; `chin-chin` pale cubes in an orange plastic colander, seen from above; `christmas-cake` white-iced and decorated with plastic reindeer and trees, with a slice cut away to show the dark fruit; `coconut-ice` a single bar, pink over white, on baking paper, from a cafe's counter; `corned-beef-hash` a close-up of the diced potato and corned beef in a heap, with no crust to see; `crepes` a tall stack on a buffet counter; `dublin-coddle` a bowl from above with carrots in it, which the recipe does not have; `iced-tea` a tall glass, deeper red-brown than the clear bright tea described, in a restaurant; `knickerbocker-glory` a tall glass of cream, strawberry sauce and peach pieces on a cafe table, with the glass cropped at the base and a coffee and a person behind; `lemon-rice` a close crop on a leaf plate in low light, with peanuts and a curry leaf and a whole lemon beside it; `malpua` two large pancakes with flaked almonds, bigger than the small ones the recipe makes; `manti` larger dumplings than the fingernail-sized ones the recipe describes, under a brown sauce and no yoghurt; `masala-pav` two open halves with the masala on top and grated cheese, rather than pressed inside; `moscow-mule` on a rock among ivy, outdoors; `peanut-brittle` golden shards heaped on a plate, with the wooden mallet used to crack it in the corner of the frame; `pho-ga` a bowl with shredded chicken and herbs and a dark red garnish, on a plain tablecloth; `picadillo` on a red plate beside rice, the olives and raisins not easy to pick out; `rissoles` two patties on a plate with boiled potato and spring onion, and no gravy; `roast-beef-tenderloin` thin rosy slices on a plate with a balsamic drizzle and radicchio, with no crust and no horseradish cream; `sakshuka-turkish` aubergine, courgette and yellow cubes that look like potato, in a tomato sauce on a pale plate; `sally-lunn` three whole unsplit buns in a basket on a Union Jack cloth, which look like burger buns at a glance; `san-choy-bow` one iceberg cup filled with mince and celery under a dark sauce, with no crunchy noodles on top; `sweet-and-sour-chicken` soft-coated chicken in an orange-red sauce on a Chinese restaurant's blue-and-white plate; `sweet-potato-pie` a whole pie in the oven, decorated with pastry leaves and a snowflake; `thandai` three clay cups with pistachios and saffron, which is the dressed-up version of the drink; `toutons` one fried dough piece on a plate with a sweetener sachet at the edge; `viennese-whirls` shop-bought, from the archive page of a branded biscuit, two of them on white; `b-52` three layers in a shot glass, with a spoon in the top layer and faint printing on the glass; `bees-knees` a coupe with a lemon twist beside a carafe of honey syrup and half a lemon; `candied-bacon` glossy pieces cooling on foil on a kitchen counter, with bottles behind; `curried-sausages` sausage pieces in a golden curry over rice, with the onion in wedges and no sultanas or peas to see; `dubai-chocolate-bar` a homemade bar, cut to show a green pistachio filling that is crumbly where the recipe's is a cream; `paper-plane` a pale orange-red coupe on a wooden table with a small paper plane on its rim; `sea-breeze` a tall glass on a ship's rail, with a life ring behind it; `vanilla-latte` a close crop of the foam, with a leaf pattern in an orange-tinted light; `ham-hock-terrine` a small cube of terrine on a slate with toast, a mustard purée and pickle slices, in a restaurant.
 
 ### What has not been done
 
@@ -2947,7 +2971,7 @@ looked at again larger; the likeliest faults left are ones neither size shows,
 and the list above is where to look first. Any of them can be refused with `tools/review_images.py`, which
 puts the recipe back on its gradient card.
 
-140 recipes of the 501 are still on a gradient card. For most of
+86 recipes of the 501 are still on a gradient card. For most of
 them the archives hold nothing: either no photograph of the dish exists under a
 licence the site can use, or those that exist show something else, and the
 number refused for each recipe is printed in `MISSING-IMAGES.txt`, which lists
@@ -2982,7 +3006,7 @@ is the slug whether the picture is a drawing or a photograph, and changing what
 it holds would move the date of every recipe on the site at once, so it was left.
 A recipe that went from no picture to a photograph, or the other way, does move.
 
-The 355 drawings that are left are labelled as drawings, under a notice that
+The 281 drawings that are left are labelled as drawings, under a notice that
 says a drawing is not a photograph of the dish, and each has had a photograph
 searched for. Whether they stay, or the recipes go back on a gradient card until a
 photograph turns up, is the owner's decision; `tools/generate_images.py` is not to
