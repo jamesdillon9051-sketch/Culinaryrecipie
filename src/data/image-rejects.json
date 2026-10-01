@@ -80,6 +80,10 @@
       "model": "sana",
       "prompt": "A soft flat village loaf, dimpled with the fingers and baked with olive oil and a scatter of sesame, Larger and thicker than khubz, and it does not puff, made with fast-action dried yeast, sesame seeds, a Lebanese dish called Talami, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a round sesame bun where the bread is flat"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=79653338",
+      "why": "men carrying a statue in a procession through a park"
     }
   ],
   "sfouf": [
@@ -790,6 +794,10 @@
       "model": "sana",
       "prompt": "Almond cream sealed between two discs of puff pastry, the top scored in curves from the centre, made with ground almonds, eggs, dark rum, vanilla extract, egg, a French dish called Pithiviers, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/2868800",
+      "why": "stir-fried minced meat with spring onion"
     }
   ],
   "financiers": [
@@ -1024,6 +1032,10 @@
     {
       "page": "https://www.flickr.com/photos/53074617@N00/2398839197",
       "why": "an aqueduct"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=6055468",
+      "why": "Roman wax writing tablets"
     }
   ],
   "giardiniera": [
@@ -3586,6 +3598,10 @@
       "model": "sana",
       "prompt": "Rice cooked in mushroom stock made from the soaking water of dried porcini, That water is the flavour and pouring it away is the common mistake, made with dried porcini, arborio or carnaroli rice, fresh mushrooms, onion, dry white wine, an Italian dish called Risotto ai Funghi Porcini, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=121148343",
+      "why": "rice with a dark sauce in a foil takeaway tray"
     }
   ],
   "saucisson-brioche": [
@@ -3688,6 +3704,10 @@
       "model": "sana",
       "prompt": "Snow-white steamed buns filled with a set custard of egg yolk, butter and milk powder, The filling is made and chilled before it goes anywhere near the dough, made with hard-boiled egg yolks, egg yolks, milk powder, cornflour, whole milk, a Chinese dish called Nai Wong Bao, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=146032687",
+      "why": "a wall of property agent listings"
     }
   ],
   "rumbledethumps": [
@@ -4610,6 +4630,10 @@
       "model": "sana",
       "prompt": "A pale set custard in a thin crust under a heavy dusting of cinnamon, South Africa's tea-time tart, and not a baked one, made with egg yolk, litre whole milk, cinnamon sticks, cornflour, eggs, a South African dish called Milk Tart, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "a piped yellow dome with none of the flat cinnamon-dusted custard"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=148802437",
+      "why": "purple taro custard tarts in puff pastry and not a cinnamon milk tart"
     }
   ],
   "knedliky": [
@@ -5570,6 +5594,10 @@
       "model": "sana",
       "prompt": "Vanilla no-churn ice cream studded with shards of homemade honeycomb toffee, The New Zealand favourite, with a long freeze, made with golden syrup, bicarbonate of soda, double cream, vanilla extract, a New Zealand dish called Hokey Pokey Ice Cream, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
       "why": "the drawing does not show this dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=150182378",
+      "why": "a pink soft serve with sprinkles from a shop of that name and not vanilla with honeycomb shards"
     }
   ],
   "kiwi-bacon-and-egg-pie": [
@@ -9270,6 +9298,10 @@
     {
       "page": "https://www.flickr.com/photos/164188154@N05/55376312134",
       "why": "a crab and corn seafood boil and not a dip"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7927684@N03/4739410312",
+      "why": "fried wontons and crab rangoon with dipping sauces"
     }
   ],
   "duck-a-lorange": [
@@ -9292,6 +9324,10 @@
     {
       "page": "https://www.flickr.com/photos/25802865@N08/54768160163",
       "why": "marinated chicken pieces and not fish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/55359268661",
+      "why": "a fillet with a chopped nut crust and not a floured pan-fried one"
     }
   ],
   "smothered-chicken": [
@@ -9340,6 +9376,10 @@
     {
       "page": "https://www.flickr.com/photos/7914713@N05/32768509204",
       "why": "a bowl of curry and egg fried rice and not a sandwich"
+    },
+    {
+      "page": "https://www.flickr.com/photos/60374260@N05/30441515184",
+      "why": "Japanese curry rice with scrambled egg"
     }
   ],
   "manhattan-clam-chowder": [
@@ -9350,6 +9390,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder_with_beer_and_sour_dough_bread.jpg",
       "why": "a creamy white New England chowder and not the tomato one"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Oyster_crackers_and_clam_chowder_-_Massachusetts.jpg",
+      "why": "small fried dumplings on a plate beside a cut-off bowl"
     }
   ],
   "spaghetti-squash": [
@@ -9404,6 +9448,10 @@
     {
       "page": "https://www.flickr.com/photos/80223459@N05/25364030033",
       "why": "a hot spring in a national park"
+    },
+    {
+      "page": "https://www.flickr.com/photos/63234672@N04/7684029656",
+      "why": "a morning glory flower"
     }
   ],
   "pumpkin-roll": [
@@ -9466,6 +9514,10 @@
     {
       "page": "https://wordpress.org/photos/photo/246943b594/",
       "why": "stir-fried mushrooms on rice and not breaded ones"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mixed_mushrooms_with_fried_egg,_Madrid.jpg",
+      "why": "sauteed mixed mushrooms under a fried egg and not breaded ones"
     }
   ],
   "mai-tai": [
@@ -9476,6 +9528,10 @@
     {
       "page": "https://www.flickr.com/photos/20362081@N04/29836128916",
       "why": "a group portrait of people at a party"
+    },
+    {
+      "page": "https://www.flickr.com/photos/20362081@N04/29836168386",
+      "why": "a group portrait at a restaurant table"
     }
   ],
   "steak-kabobs": [
@@ -9492,6 +9548,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Feijoada_(Brazilian_dish),_S%C3%A3o_Lu%C3%ADs,_Maranh%C3%A3o.jpg",
       "why": "a plate of feijoada with rice"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cooking_rice_and_beans.jpg",
+      "why": "pots cooking on a stove"
     }
   ],
   "greek-chicken-bowls": [
@@ -9516,6 +9576,10 @@
     {
       "page": "https://www.rawpixel.com/image/7638433/httpsclevelandartorgart1985294",
       "why": "a Chinese ink painting of a bird"
+    },
+    {
+      "page": "https://clevelandart.org/art/1985.294",
+      "why": "a Chinese brush painting of a bird"
     }
   ],
   "bath-buns": [
@@ -9604,6 +9668,10 @@
     {
       "page": "https://www.flickr.com/photos/148748355@N05/34597652845",
       "why": "two politicians shaking hands in an office"
+    },
+    {
+      "page": "https://www.flickr.com/photos/148748355@N05/33754471034",
+      "why": "two politicians in the Oval Office"
     }
   ],
   "chicken-fricassee": [
@@ -9614,6 +9682,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Roasted_potatoes,_salmon_with_green_goddess_sauce,_chicken_fricassee,_and_wilted_spinach_-_Boston,_MA.jpg",
       "why": "a plate of salmon with spinach and potatoes"
+    },
+    {
+      "page": "https://www.flickr.com/photos/21965132@N00/3062217256",
+      "why": "a dark browned braise on polenta and not a pale cream fricassee"
     }
   ],
   "squash-casserole": [
@@ -9630,6 +9702,10 @@
     {
       "page": "https://www.flickr.com/photos/75921150@N00/3957060840",
       "why": "a salmon and bread salad and not a creamy sauce"
+    },
+    {
+      "page": "https://www.flickr.com/photos/107640324@N05/36763085655",
+      "why": "a total solar eclipse"
     }
   ],
   "banana-cream-pie": [
@@ -9640,6 +9716,10 @@
     {
       "page": "https://www.flickr.com/photos/89882948@N05/51717162003",
       "why": "a plate of bananas Foster style bananas with ice cream and not a pie"
+    },
+    {
+      "page": "https://www.flickr.com/photos/8398907@N02/8695424207",
+      "why": "a painted hostel wall"
     }
   ],
   "ice-cream-sandwiches": [
@@ -9650,6 +9730,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:%27001_Fallen_Chocolate_Cake.jpg",
       "why": "a chocolate cake with a scoop of ice cream"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(51973590341).jpg",
+      "why": "a supermarket freezer of ice cream bars"
     }
   ],
   "italian-wedding-cookies": [
@@ -9700,6 +9784,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:BANZAI_CIDER.jpg",
       "why": "a branded cider glass in close-up"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ichihara_Nashi_Cider.JPG",
+      "why": "a bottle of Japanese pear cider"
     }
   ],
   "mimosa": [
@@ -9710,6 +9798,10 @@
     {
       "page": "https://www.flickr.com/photos/183548200@N02/49558365391",
       "why": "a flowering mimosa tree"
+    },
+    {
+      "page": "https://www.flickr.com/photos/183548200@N02/49558365196",
+      "why": "a street lined with flowering mimosa trees"
     }
   ],
   "paloma": [
@@ -9720,6 +9812,10 @@
     {
       "page": "https://www.flickr.com/photos/136102110@N03/28866105761",
       "why": "two girls on a park bench"
+    },
+    {
+      "page": "https://www.flickr.com/photos/136102110@N03/28562297512",
+      "why": "a portrait of a girl"
     }
   ],
   "shirley-temple": [
@@ -9754,6 +9850,10 @@
     {
       "page": "https://www.flickr.com/photos/23960020@N02/2694759345",
       "why": "a hillside seen through an archway"
+    },
+    {
+      "page": "https://www.flickr.com/photos/70125105@N06/24436391034",
+      "why": "a panorama of the town of Assisi"
     }
   ],
   "steak-oscar": [
@@ -9764,6 +9864,10 @@
     {
       "page": "https://www.flickr.com/photos/34948727@N00/19288734772",
       "why": "an open steak sandwich with pesto from a restaurant called Oscar"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Oscar_Hereford_hamburger_aboard_Viking_Grace.jpg",
+      "why": "a hamburger on a ship"
     }
   ],
   "chicken-marbella": [
@@ -9783,6 +9887,10 @@
     },
     {
       "page": "https://www.flickr.com/photos/92947007@N03/50588242997",
+      "why": "a green stink bug on a leaf"
+    },
+    {
+      "page": "https://www.flickr.com/photos/92947007@N03/50587376833",
       "why": "a green stink bug on a leaf"
     }
   ],
@@ -9814,6 +9922,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Dream_by_Joan_Brull_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
       "why": "a painting of a woman by a pond"
+    },
+    {
+      "page": "https://www.flickr.com/photos/90384027@N00/9886204344",
+      "why": "a pub building in Rochdale"
     }
   ],
   "tofu-scramble": [
@@ -9830,6 +9942,10 @@
     {
       "page": "https://www.flickr.com/photos/184513163@N07/52612349105",
       "why": "a portrait of a woman posing against a wall"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184513163@N07/52612396408",
+      "why": "a glamour portrait of a woman"
     }
   ],
   "coconut-cream-pie": [
@@ -9856,6 +9972,10 @@
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/2810679134",
       "why": "raw potatoes and meat on a camping cooler"
+    },
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/2810679454",
+      "why": "a camping skillet of rice, sausage and squash"
     }
   ],
   "baked-feta-pasta": [
@@ -9872,6 +9992,10 @@
     {
       "page": "https://www.rawpixel.com/image/5941372/free-public-domain-cc0-photo",
       "why": "two burgers with basil and not sliced beef"
+    },
+    {
+      "page": "https://www.flickr.com/photos/60258967@N00/8669824747",
+      "why": "small tasting cups in which the beef cannot be told from potato"
     }
   ],
   "tomato-sandwich": [
@@ -9882,6 +10006,10 @@
     {
       "page": "https://www.flickr.com/photos/120143184@N05/47942221633",
       "why": "tomatoes on a board at a farmers market and no sandwich"
+    },
+    {
+      "page": "https://www.flickr.com/photos/109041636@N08/54198927630",
+      "why": "carved wooden wheels on a lawn"
     }
   ],
   "stuffed-pepper-soup": [
@@ -9892,6 +10020,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Bell_pepper,_stuffed_with_tuna_fish_and_refried_beans,_baked,_with_camembert_cheese,_olive_oil,_and_black_pepper_-_Massachusetts.jpg",
       "why": "a baked stuffed pepper and not a soup"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:20260307_GefuelltePaprika_(55195703734).jpg",
+      "why": "stuffed cabbage rolls in a sauce"
     }
   ],
   "cauliflower-pizza-crust": [
@@ -9912,6 +10044,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:2021-01-02_09_04_08_A_bottle_of_Giant_Balsamic_Vinaigrette_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
       "why": "a branded bottle of shop-bought dressing"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2021-01-02_09_05_02_A_sample_of_Giant_Balsamic_Vinaigrette_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+      "why": "a puddle of branded shop dressing on white"
     }
   ],
   "battered-sausage": [
@@ -9922,6 +10058,10 @@
     {
       "page": "https://www.flickr.com/photos/121988714@N05/21103832420",
       "why": "a stuffed pork dish topped with a prawn"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2001078_004_70_060_004ac_(22195283295).jpg",
+      "why": "a worker making sausage links at a machine"
     }
   ],
   "no-bake-cookies": [
@@ -9942,6 +10082,10 @@
     {
       "page": "https://www.flickr.com/photos/31064702@N05/3030035193",
       "why": "a red-winged blackbird"
+    },
+    {
+      "page": "https://www.flickr.com/photos/91008793@N00/32365344370",
+      "why": "a mangrove lake"
     }
   ],
   "devils-food-cake": [
@@ -9958,6 +10102,10 @@
     {
       "page": "https://www.flickr.com/photos/165415395@N07/52046631260",
       "why": "a crowd of wildfire crew at a briefing"
+    },
+    {
+      "page": "https://www.flickr.com/photos/165415395@N07/52046119996",
+      "why": "a wildfire briefing"
     }
   ],
   "apple-dumplings": [
@@ -9980,6 +10128,10 @@
     {
       "page": "https://www.flickr.com/photos/195345907@N04/52720476136",
       "why": "squares of salted caramel crispy cereal treats"
+    },
+    {
+      "page": "https://www.flickr.com/photos/195345907@N04/52719960182",
+      "why": "a woman holding two krispie treats"
     }
   ],
   "baked-alaska": [
@@ -9996,6 +10148,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Smiths_Toffee_tin,_pic2.JPG",
       "why": "a vintage toffee tin"
+    },
+    {
+      "page": "https://www.flickr.com/photos/78428166@N00/7848034534",
+      "why": "a toffee cheesecake"
     }
   ],
   "divinity": [
@@ -10005,6 +10161,10 @@
     },
     {
       "page": "https://commons.wikimedia.org/wiki/File:Episcopal_Divinity_School_Library_-_Cambridge,_Massachusetts_-_DSC06483.jpg",
+      "why": "a library building"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Episcopal_Divinity_School_Library_-_Cambridge,_Massachusetts_-_DSC06485.jpg",
       "why": "a library building"
     }
   ],
@@ -10016,6 +10176,10 @@
     {
       "page": "https://www.flickr.com/photos/88123769@N02/15289565658",
       "why": "a rose of the variety called Hot Chocolate"
+    },
+    {
+      "page": "https://www.flickr.com/photos/88123769@N02/8098196700",
+      "why": "a rose of the variety called Hot Chocolate"
     }
   ],
   "candied-bacon": [
@@ -10026,6 +10190,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Turkey_and_sweet_potato_sandwich_with_cranberry_relish,_candied_bacon_and_onion.jpg",
       "why": "bacon piled on a bun as part of a sandwich"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Corner_115_Bacon_Dinner_-_Sarah_Stierch.jpg",
+      "why": "a wine bottle and a toy pig on a table"
     }
   ],
   "mango-chutney": [
@@ -10036,6 +10204,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Achar_e_chetnins.jpg",
       "why": "an assortment of condiments in steel bowls under strong orange light"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Avvale_Gojju_-_Gooseberry_Aamla_Chutney.jpg",
+      "why": "a gooseberry chutney and not mango"
     }
   ],
   "bang-bang-shrimp": [
@@ -10051,6 +10223,10 @@
     },
     {
       "page": "https://commons.wikimedia.org/wiki/File:Helleborus_hybridus_Candy_Love_0zz.jpg",
+      "why": "a hellebore flower"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Helleborus_hybridus_Candy_Love_1zz.jpg",
       "why": "a hellebore flower"
     }
   ],
@@ -10078,6 +10254,10 @@
     {
       "page": "https://www.flickr.com/photos/62518311@N00/155121750",
       "why": "the words Viva Cuba Libre scratched into concrete"
+    },
+    {
+      "page": "https://www.metmuseum.org/art/collection/search/717488",
+      "why": "a nineteenth-century song broadsheet"
     }
   ],
   "dark-and-stormy": [
@@ -10088,6 +10268,10 @@
     {
       "page": "https://www.flickr.com/photos/34149402@N02/48427125416",
       "why": "a lake at dusk"
+    },
+    {
+      "page": "https://www.flickr.com/photos/109041636@N08/54529864392",
+      "why": "a photograph of a stormy night"
     }
   ],
   "kir-royale": [
@@ -10098,6 +10282,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Christmas_aperitif_Kir_Royale_(31246794594).jpg",
       "why": "a fruity drink in a tumbler with a straw and not a flute"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hasloch,_Annabelle_on_KIR_ROYALE_II_-225_(9456963501).jpg",
+      "why": "a rider and horse in a water jump"
     }
   ],
   "grasshopper": [
@@ -10108,6 +10296,10 @@
     {
       "page": "https://www.flickr.com/photos/54563451@N08/7638493086",
       "why": "a green grasshopper insect"
+    },
+    {
+      "page": "https://www.flickr.com/photos/54563451@N08/30569098235",
+      "why": "a grasshopper nymph"
     }
   ],
   "brandy-alexander": [
@@ -10118,6 +10310,10 @@
     {
       "page": "https://www.flickr.com/photos/28807271@N04/3985731996",
       "why": "a portrait of a woman"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Giles_Alexander_Smith_by_the_Webster_Brothers.jpg",
+      "why": "a portrait of a general"
     }
   ],
   "bramble": [
@@ -10150,6 +10346,10 @@
     {
       "page": "https://www.flickr.com/photos/99246117@N03/36469977786",
       "why": "the volcanic island of Stromboli"
+    },
+    {
+      "page": "https://www.flickr.com/photos/99246117@N03/36464675326",
+      "why": "the volcanic island"
     }
   ],
   "curried-sausages": [
@@ -10160,6 +10360,10 @@
     {
       "page": "https://wordpress.org/photos/photo/666685e230/",
       "why": "a mixed buffet plate with eggs and salad"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/3806a0c158/",
+      "why": "a breakfast plate of dal, sausages and flatbread"
     }
   ],
   "carne-adovada": [
@@ -10170,6 +10374,10 @@
     {
       "page": "https://www.flickr.com/photos/63669472@N00/3611998790",
       "why": "a sopapilla smothered in red chile and cheese with the pork hidden inside"
+    },
+    {
+      "page": "https://www.flickr.com/photos/9575673@N08/2761695428",
+      "why": "enchiladas with rice and beans and not the roasted pork"
     }
   ],
   "fried-apples": [
@@ -10180,6 +10388,10 @@
     {
       "page": "https://www.flickr.com/photos/49215102@N00/2378885060",
       "why": "a fried apple pie dessert with ice cream"
+    },
+    {
+      "page": "https://www.flickr.com/photos/60211531@N08/6522386023",
+      "why": "an apple cobbler with ice cream"
     }
   ],
   "ham-and-cheese-sliders": [
@@ -10190,6 +10402,10 @@
     {
       "page": "https://www.flickr.com/photos/77114776@N00/3732521283",
       "why": "a ham and tomato omelette and not sliders"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54749600858",
+      "why": "a bakery display case with price signs"
     }
   ],
   "pineapple-casserole": [
@@ -10244,6 +10460,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:CGW_13_(S1)_at_end_of_line_at_Goodhue,_MN_Crew_eating_oyster_stew_in_caboose,_January_30,_1964_(21818712074).jpg",
       "why": "a locomotive at a railway siding"
+    },
+    {
+      "page": "https://www.flickr.com/photos/129679309@N05/21818712074",
+      "why": "a locomotive at a railway siding"
     }
   ],
   "chicken-scarpariello": [
@@ -10264,6 +10484,10 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=135890249",
       "why": "poke bowls with miso aubergine and edamame"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Miso_Aubergine_and_California_Salmon_poke_bowls_-_Island_Pok%C3%A9_2023-08-13.jpg",
+      "why": "poke bowls with miso aubergine and edamame"
     }
   ],
   "kumara-fritters": [
@@ -10274,6 +10498,10 @@
     {
       "page": "https://www.flickr.com/photos/184594136@N08/49164485281",
       "why": "a baked sweet potato stuffed with pecans and cranberries"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fxemoji_u1F360.svg",
+      "why": "an emoji of a sweet potato"
     }
   ],
   "sweet-chilli-sauce": [
@@ -10300,6 +10528,10 @@
     {
       "page": "https://www.flickr.com/photos/50693818@N08/5941419587",
       "why": "a canyon landscape with cabins"
+    },
+    {
+      "page": "https://www.flickr.com/photos/75683070@N00/71899874",
+      "why": "a pasture with a mountain"
     }
   ],
   "linzer-cookies": [
@@ -10322,6 +10554,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Coca-ColaHQ.jpg",
       "why": "the Coca-Cola headquarters tower"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Varna_Center,_Varna,_Bulgaria_-_panoramio_(39).jpg",
+      "why": "a statue on a street in Varna"
     }
   ],
   "caramel-cake": [
@@ -10332,6 +10568,10 @@
     {
       "page": "https://wordpress.org/photos/photo/3816544209/",
       "why": "a top-down shot of a birthday cake with a personal message"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5958330/free-public-domain-cc0-photo",
+      "why": "chocolate-dipped German biscuits"
     }
   ],
   "strawberry-pretzel-salad": [
@@ -10342,6 +10582,10 @@
     {
       "page": "https://www.flickr.com/photos/126560659@N06/16459352759",
       "why": "an angel food cake with dipped strawberries"
+    },
+    {
+      "page": "https://www.flickr.com/photos/126560659@N06/16644117861",
+      "why": "an angel food cake with candles"
     }
   ],
   "white-christmas": [
@@ -10352,6 +10596,10 @@
     {
       "page": "https://www.flickr.com/photos/42034606@N05/32149363925",
       "why": "a snowy mountain landscape"
+    },
+    {
+      "page": "https://www.flickr.com/photos/42034606@N05/32110960156",
+      "why": "a snowy mountain slope"
     }
   ],
   "chocolate-covered-cherries": [
@@ -10362,6 +10610,10 @@
     {
       "page": "https://www.rawpixel.com/image/5917857/image-public-domain-food-chocolate",
       "why": "a chocolate-coated ice cream bar"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6039149/photo-image-public-domain-coffee-food",
+      "why": "chocolate-iced biscuits with coconut"
     }
   ],
   "apple-butter": [
@@ -10388,6 +10640,10 @@
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/33202188644",
       "why": "two bottles of creamy dressing on a stove"
+    },
+    {
+      "page": "https://www.flickr.com/photos/26809429@N02/3970502470",
+      "why": "a dispenser label reading Italian Dressing"
     }
   ],
   "cauliflower-rice": [
@@ -10408,6 +10664,10 @@
     {
       "page": "https://wordpress.org/photos/photo/6346892dfa/",
       "why": "a bowl of ramen with halved eggs and not the marinated eggs"
+    },
+    {
+      "page": "https://stocksnap.io/photo/ramen-noodles-KKMQPWQK6H",
+      "why": "a bowl of ramen with halved hard-boiled eggs"
     }
   ],
   "pickled-red-cabbage": [
@@ -10438,6 +10698,10 @@
     {
       "page": "https://www.flickr.com/photos/147295741@N02/32923987735",
       "why": "a coin with a caribou stamped on it"
+    },
+    {
+      "page": "https://www.flickr.com/photos/57557144@N06/7956336958",
+      "why": "a bull caribou on a tundra"
     }
   ],
   "sea-breeze": [
@@ -10448,6 +10712,10 @@
     {
       "page": "https://www.flickr.com/photos/58993040@N07/9261707948",
       "why": "warships at sea"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58993040@N07/9365829776",
+      "why": "an amphibious armoured vehicle"
     }
   ],
   "last-word": [
@@ -10458,6 +10726,10 @@
     {
       "page": "https://www.flickr.com/photos/154708229@N08/49322836893",
       "why": "a mountain valley with a stream"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/11615876/image-paper-art-vintage",
+      "why": "a nineteenth-century engraving"
     }
   ],
   "penicillin": [
@@ -10494,6 +10766,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Ragin%27_Cajun_Foods_-_Ragin%27_Cajun_Seasonings,_Ragin%27_Cajun_Fixin%27s_and_Cajun%27s_Choice_Premium_Blend_Seasonings.jpg",
       "why": "a shop display of branded seasoning boxes"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Roasted_Mahi-mahi_with_Cajun_seasoning.jpg",
+      "why": "a charred mahi-mahi fillet on a foil tray and not the spice blend"
     }
   ],
   "moon-pies": [
@@ -10516,6 +10792,10 @@
     {
       "page": "https://www.flickr.com/photos/39160147@N03/14622737583",
       "why": "bottles of Jamaican ginger beer"
+    },
+    {
+      "page": "https://www.flickr.com/photos/39160147@N03/14416257597",
+      "why": "bottles of Jamaican ginger beer"
     }
   ],
   "kentucky-butter-cake": [
@@ -10526,6 +10806,10 @@
     {
       "page": "https://www.flickr.com/photos/36093266@N06/6410294375",
       "why": "a fried chicken restaurant promotion display"
+    },
+    {
+      "page": "https://www.flickr.com/photos/67372428@N06/8699808391",
+      "why": "decorated Kentucky Derby sugar cookies"
     }
   ],
   "chorizo-in-cider": [
@@ -10542,6 +10826,10 @@
     {
       "page": "https://stocksnap.io/photo/cheese-crackers-HJQJJ8RWHJ",
       "why": "shop crackers with a soft white cheese and not baked cheddar crackers"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6026651/photo-image-public-domain-food-milk",
+      "why": "a wedge of brie with water crackers and cheese curds"
     }
   ],
   "golden-milk": [
@@ -10552,6 +10840,10 @@
     {
       "page": "https://www.flickr.com/photos/135396164@N05/31502263902",
       "why": "gingerbread cookies and a glass of milk"
+    },
+    {
+      "page": "https://www.flickr.com/photos/135396164@N05/31275892750",
+      "why": "gingerbread cookies beside a glass of milk"
     }
   ],
   "jello-shots": [
@@ -10568,6 +10860,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Murphy_Ranch_Water_Tank.jpg",
       "why": "a ruined water tank covered in graffiti"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Water_Holes_Ranch_(Cheyenne_County,_Nebraska)_1.JPG",
+      "why": "a plain in Nebraska"
     }
   ],
   "aviation": [
@@ -10578,6 +10874,10 @@
     {
       "page": "https://www.flickr.com/photos/88123769@N02/47926128937",
       "why": "a vintage fighter aircraft on a runway"
+    },
+    {
+      "page": "https://www.flickr.com/photos/47430793@N08/48806545223",
+      "why": "a fighter jet"
     }
   ],
   "boulevardier": [
@@ -10588,6 +10888,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Le_Vrai_boulevardier,_paroles_de_J._Daris_et_R._Blon_-_bpt6k1504653t_(5_of_6).jpg",
       "why": "a page of printed sheet music"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Le_Vrai_boulevardier,_paroles_de_J._Daris_et_R._Blon_-_bpt6k1504653t_(6_of_6).jpg",
+      "why": "a blank manuscript page"
     }
   ],
   "paper-plane": [
@@ -10608,6 +10912,10 @@
     {
       "page": "https://www.flickr.com/photos/43296902@N00/758029224",
       "why": "a meadow of wild flowers"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/52085238993",
+      "why": "a bee on a flower"
     }
   ],
   "mudslide": [
@@ -10746,12 +11054,20 @@
     {
       "page": "https://www.rawpixel.com/image/5948494/free-public-domain-cc0-photo",
       "why": "a bowl of yoghurt with oats and strawberries"
+    },
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/3180105556",
+      "why": "a bowl of oatmeal and a cup of coffee"
     }
   ],
   "broccoli-cheese-casserole": [
     {
       "page": "https://www.flickr.com/photos/73889777@N00/17048530751",
       "why": "a collage of three casserole dishes"
+    },
+    {
+      "page": "https://www.flickr.com/photos/11326804@N05/3190437706",
+      "why": "a crusted broccoli cheese turkey pie and not a rice casserole"
     }
   ],
   "boudin-balls": [
@@ -10770,6 +11086,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:B-52_Stratofortress_assigned_to_the_307th_Bomb_Wing_(cropped).jpg",
       "why": "a bomber aircraft in flight"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:17th_Parallel_cocktail.jpg",
+      "why": "a green cocktail in a tumbler and not a layered shot"
     }
   ],
   "honey-mustard-dressing": [
@@ -10794,6 +11114,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Lamb_Chops_With_Guajillo_Chili_Sauce_and_Charro_Beans.jpg",
       "why": "lamb chops on white beans and not the pinto bean dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Lamb_Chops_With_Guajillo_Chili_Sauce_and_Charro_Beans_(cropped).jpg",
+      "why": "lamb chops on white beans"
     }
   ],
   "peppermint-patties": [
@@ -10822,6 +11146,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Lane_splits_for_Northridge,_to_the_right_or_Sherwood,_to_the_left_-_geograph.org.uk_-_4967734.jpg",
       "why": "a Devon lane junction signpost"
+    },
+    {
+      "page": "https://www.flickr.com/photos/28752865@N08/28817368490",
+      "why": "a VW camper van"
     }
   ],
   "gigot-d-agneau": [
@@ -10966,6 +11294,10 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Arrowhead_Crisps.jpg",
       "why": "the archive title says arrowhead crisps, fried chips of the arrowhead tuber and not sliced potato"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Potato_chip_sandwich.jpg",
+      "why": "a potato chip sandwich"
     }
   ],
   "chicken-chasseur": [
@@ -11080,6 +11412,10 @@
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=146918335",
       "why": "a picnic of takeaway burgers in boxes in which no mushroom can be seen"
+    },
+    {
+      "page": "https://www.flickr.com/photos/95599613@N00/3943164421",
+      "why": "a small breaded burger in a takeaway box with a coffee"
     }
   ],
   "samsa-tunisienne": [
@@ -11128,6 +11464,12 @@
     {
       "page": "https://www.flickr.com/photos/93178668@N00/3867876777",
       "why": "jars of red jelly on a shelf"
+    }
+  ],
+  "sweet-and-sour-chicken": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=17344306",
+      "why": "plain fried chicken pakoras with no sauce"
     }
   ]
 }
