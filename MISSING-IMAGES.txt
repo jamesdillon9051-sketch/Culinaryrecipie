@@ -23,7 +23,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   peanut-butter-fudge                Peanut Butter Fudge   [2 refused already]
   peppermint-bark                    Peppermint Bark   [1 refused already]
   strawberry-rhubarb-pie             Strawberry Rhubarb Pie   [2 refused already]
-  smoked-turkey                      Smoked Turkey
+  smoked-turkey                      Smoked Turkey   [1 refused already]
   cheese-ball                        Cheese Ball   [2 refused already]
   french-onion-dip                   French Onion Dip   [2 refused already]
   grape-jelly-meatballs              Grape Jelly Meatballs   [1 refused already]
@@ -35,7 +35,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   blackened-salmon                   Blackened Salmon   [2 refused already]
   chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [2 refused already]
   crack-chicken                      Crack Chicken   [2 refused already]
-  fried-catfish                      Fried Catfish
+  fried-catfish                      Fried Catfish   [1 refused already]
   green-chile-stew                   Green Chile Stew   [2 refused already]
   baked-chicken-drumsticks           Baked Chicken Drumsticks
   banana-ice-cream                   Banana Ice Cream   [2 refused already]
@@ -62,7 +62,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bbq-sauce                          BBQ Sauce   [2 refused already]
   black-bean-burgers                 Black Bean Burgers   [2 refused already]
   manhattan-clam-chowder             Manhattan Clam Chowder   [2 refused already]
-  special-burger-sauce               Special Burger Sauce
+  special-burger-sauce               Special Burger Sauce   [1 refused already]
   strawberry-spinach-salad           Strawberry Spinach Salad   [2 refused already]
   black-and-white-cookies            Black and White Cookies   [1 refused already]
   buttercream-frosting               Buttercream Frosting   [2 refused already]
@@ -139,7 +139,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == British (27) ========================================
   lamb-bhuna                         Lamb Bhuna
   prawn-mayo-sandwich                Prawn Mayo Sandwich   [1 refused already]
-  butterfly-cakes                    Butterfly Cakes   [2 refused already]
+  butterfly-cakes                    Butterfly Cakes   [3 refused already]
   black-velvet                       Black Velvet   [2 refused already]
   steak-bake                         Steak Bake   [2 refused already]
   fondant-fancies                    Fondant Fancies   [1 refused already]
@@ -207,8 +207,8 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   kir-royale                         Kir Royale   [2 refused already]
 
 == New Zealand (9) =====================================
-  paraoa-parai                       Pāraoa Parai   [2 refused already]
-  kiwifruit-cheesecake               Kiwifruit Cheesecake   [1 refused already]
+  paraoa-parai                       Pāraoa Parai   [3 refused already]
+  kiwifruit-cheesecake               Kiwifruit Cheesecake   [2 refused already]
   tamarillo-chutney                  Tamarillo Chutney   [2 refused already]
   apricot-chicken                    Apricot Chicken   [2 refused already]
   crayfish-mornay                    Crayfish Mornay   [1 refused already]
@@ -225,7 +225,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   crispy-aromatic-duck               Crispy Aromatic Duck   [2 refused already]
   chicken-chop-suey                  Chicken Chop Suey   [2 refused already]
   salt-and-pepper-ribs               Salt and Pepper Ribs   [2 refused already]
-  chinese-lemon-chicken              Chinese Lemon Chicken
+  chinese-lemon-chicken              Chinese Lemon Chicken   [1 refused already]
 
 == International (7) ===================================
   roasted-red-pepper-soup            Roasted Red Pepper Soup   [2 refused already]

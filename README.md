@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5314 image files (WebP + JPEG)
+│       └── img/recipes/         # 5312 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5314 image files
+├── assets/                      #    css, js and 5312 image files
 ├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1753 of the 2415 recipes have a photograph. Of the 2237 images on the site,
-1070 are CC0 or public domain, 582 are CC BY and 585 are CC BY-SA. Anything
+1785 of the 2415 recipes have a photograph. Of the 2269 images on the site,
+1076 are CC0 or public domain, 591 are CC BY and 602 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -2583,7 +2583,7 @@ follows is photographs only.
 
 The result: 258 of the 501 recipes now have a photograph from an
 archive, and 243 are still on a gradient card. Across the site
-that is 1,753 photographs, 419 illustrations
+that is 1,785 photographs, 387 illustrations
 (all of them from the earlier pass, see the end) and 243
 gradient cards on 2,415 recipes.
 
@@ -2732,7 +2732,7 @@ the 316 still without one, for as long as it needed, with alternative names
 written for each recipe in `src/data/image-queries.json` (the cocktail with
 "(cocktail)" after it, the dish under the other name it goes by, the title in
 the singular) and with every archive page already refused left out. Over the two
-searches 258 photographs were kept and 470 refused, which is
+searches 258 photographs were kept and 477 refused, which is
 65 per cent. They were wrong in the same ways as before:
 
 - **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
@@ -2788,10 +2788,10 @@ them with the candidate files kept apart from the live ones
 of the right dish has been looked at and kept, and stays where it is when the
 photograph is refused.
 
-255 of the 505 were searched. 86 now show a
-photograph, 65 candidates were refused for the reasons above (a
+361 of the 505 were searched. 118 now show a
+photograph, 128 candidates were refused for the reasons above (a
 wrong dish, a place with the dish's name, a branded pack, a document), and
-419 still show a drawing, each with its notice. The searched recipes
+387 still show a drawing, each with its notice. The searched recipes
 were the ones whose names the archives are most likely to know, commonest first;
 the rest, the Egyptian, Lebanese and Tunisian dishes and the other regional
 names the earlier pass had already tried and been refused for again and again,
@@ -2830,10 +2830,9 @@ chocolate sponge round cream where the recipe is plain sponge round jam;
 pear where the recipe has apricots; `mixed-grill` with steak, sausage and a fried
 egg; `mushroom-barley-soup` a pale broth where the recipe is dark with porcini;
 `country-captain` a vegetable curry with coconut flakes; `rhubarb-custard-pie` a
-restaurant slice with ice cream; `apple-charlotte` a restaurant dome with wattle
-seed ice cream; `rum-balls` rolled in sprinkles in the manner of brigadeiros; `dorset-apple-cake`
+restaurant slice with ice cream; `rum-balls` rolled in sprinkles in the manner of brigadeiros; `dorset-apple-cake`
 baked as a single cupcake; `jam-tarts` heart-shaped; `pimms-cup` in a tall glass with
-the bottle beside it and not in a jug;
+the bottle beside it and not in a jug; `porridge` loaded with fruit and seeds; `wild-rice-soup` a close crop of the cooked rice with no soup in it; `flank-steak` plated with courgette and rocket in a restaurant; `kapusniak` without the ribs and sausage; `sarson-da-saag` with a griddled maize flatbread and a steel knife; `oyster-omelette` under a red sauce on a plate with chopsticks; `chocolate-crackles` a heap of them in coloured cases; `manchester-tart` with its aluminium foil case; `borani-banjan` with pomegranate seeds on top; `kjotsupa` in a foam takeaway cup; `dim-sim` commercial ones, fried; `neenish-tarts` with a bite taken out; `bombay-potatoes` in the pan, from a triptych whose neighbouring panels show at the edges; `maple-taffy` poured on snow with a child's hand in the frame; `oden` as a plate of octopus and tofu skin in broth rather than the pot of daikon and eggs; `ukrainian-cabbage-rolls` rolled but not yet cooked or sauced; `ricotta-pancakes` topped with banana and icing sugar; `sheikh-el-mahshi` with courgettes in the pot beside the aubergines; `empanadas-de-pino` three of them in a glass dish; `schmoo-torte` in a bright, saturated flash photograph;
 `homemade-pizza-dough` two finished pizzas; `chocolate-ganache` ganache on a
 layered cake; `cauliflower-wings` florets in a pool of hot sauce.
 
@@ -2854,7 +2853,8 @@ mozzarella; `thai-fish-cakes` the photographer's own watermark;
 deviled eggs and a bottle of root beer; `popcorn-shrimp` a bowl of crab dip;
 `dirty-rice` a takeaway box with a pork chop on it; `apple-dumplings` a foam bowl
 and a plastic spoon; `patty-melt` a diner's paper flags; `gorditas` a street
-griddle with passers-by; `rappie-pie` and `wedge-salad` are half eaten;
+griddle with passers-by; `pumpkin-scones` styled with macarons, leaves and a straw bale;
+`self-saucing-chocolate-pudding` a tight, tinted close-up; `rappie-pie` and `wedge-salad` are half eaten;
 `fried-bologna-sandwich`, `chocolate-babka`, `shrewsbury-biscuits` and
 `bucks-fizz` are held in a hand; `scrapple` has two jam packs on the plate whose
 labels have been painted out by the uploader; `lebkuchen` is a shop window with
@@ -2905,7 +2905,7 @@ is the slug whether the picture is a drawing or a photograph, and changing what
 it holds would move the date of every recipe on the site at once, so it was left.
 A recipe that went from no picture to a photograph, or the other way, does move.
 
-The 419 drawings that are left are labelled as drawings, under a notice that
+The 387 drawings that are left are labelled as drawings, under a notice that
 says a drawing is not a photograph of the dish, and each has had a photograph
 searched for. Whether they stay, or the recipes go back on a gradient card until a
 photograph turns up, is the owner's decision; `tools/generate_images.py` is not to
