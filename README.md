@@ -2616,10 +2616,11 @@ writes, so none of this was it.
   were run again at every width from 320 to 1,920 px, with the real web fonts,
   which is where findings 17 and 18 came from.
 - **axe-core**, in both themes at both widths, on nineteen pages, and
-  **html-validate** over the page types. After the fixes below axe reports one
-  thing: a contrast of 1.01 on the first related-recipe card of one page at
-  phone width, read while the card was half-way through fading in, which is the
-  measurement and not the page.
+  **html-validate** over the page types. After the fixes below the first run
+  reported one thing: a contrast of 1.01 on the first related-recipe card of one
+  page at phone width, read while the card was half-way through fading in, which
+  is the measurement and not the page. The last run, on the final build over
+  twenty pages in both themes at 390, 1,000 and 1,280 px, reports nothing.
 - **The data under the pages**: every published image file against the colour
   and thumbnail the manifest records for it, and every credit line read.
 
@@ -2789,9 +2790,10 @@ sheet before it went anywhere. The second search ran the whole chain again on
 the 316 still without one, for as long as it needed, with alternative names
 written for each recipe in `src/data/image-queries.json` (the cocktail with
 "(cocktail)" after it, the dish under the other name it goes by, the title in
-the singular) and with every archive page already refused left out. Over the two
-searches 415 photographs were kept and 1,138 refused, which is
-73 per cent. They were wrong in the same ways as before:
+the singular) and with every archive page already refused left out. A third,
+wider search is described further down. Over the three, 415 photographs were
+kept and 1,138 candidate pages refused, which is 73 per cent of
+what was looked at. They were wrong in the same ways each time:
 
 - **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
   returned a snake, `caribou` a mountain, an animal and later a coin, `sea-breeze`
@@ -2856,7 +2858,7 @@ in `image-rejects.json`. Two things were new. Commons categories are curated, bu
 loosely: the category for *blue cheese dressing* is the one for blue cheese, and
 every file in it is a wedge of cheese. And an article's image list is the
 article's, not the dish's: every cocktail article names the same photograph of a
-gin and tonic, which turned up as a candidate for ten drinks. Both are caught by
+gin and tonic, which turned up as a candidate for sixteen drinks. Both are caught by
 looking, which is what the contact sheets were for.
 
 ### The drawings from the earlier pass
@@ -2899,8 +2901,11 @@ across (a few at the full 800), seven that had passed at 480 were taken back off
 patty under grilled halloumi, whatever the archive's title said),
 `zucchini-fritters` (a crumbed fritter in which no zucchini can be seen),
 `homemade-potato-crisps` (the archive's *arrowhead* crisps, which are made from a
-tuber) and `bran-muffins` (a soft, low-resolution crop). What stays is below, in
-the order it is easiest to be misled by. These are the ones to look at first:
+tuber) and `bran-muffins` (a soft, low-resolution crop). Every later round got the
+same second look before it was committed, and in the last of them nothing was
+taken back off at that stage; a photograph of fried apples, with a margarine tub
+in the frame, was withdrawn between the two looks. What stays is below, in the
+order it is easiest to be misled by. These are the ones to look at first:
 
 **A different version of the dish.** `burnt-ends` is thick slices of brisket and not
 the cubes the method makes; `johnnycakes` one large cornmeal cake where the recipe
