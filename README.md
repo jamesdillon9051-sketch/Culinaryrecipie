@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5398 image files (WebP + JPEG)
+│       └── img/recipes/         # 5518 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5398 image files
+├── assets/                      #    css, js and 5518 image files
 ├── recipes/                     #    2415 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 213,641 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 213,701 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1860 of the 2415 recipes have a photograph. Of the 2344 images on the site,
-1092 are CC0 or public domain, 621 are CC BY and 631 are CC BY-SA. Anything
+1920 of the 2415 recipes have a photograph. Of the 2404 images on the site,
+1098 are CC0 or public domain, 639 are CC BY and 667 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -2581,10 +2581,10 @@ pass is on the site, the hand-written prompts that were written for the
 generator were not kept, and `src/data/image-prompts.json` is as it was. What
 follows is photographs only.
 
-The result: 301 of the 501 recipes now have a photograph from an
-archive, and 200 are still on a gradient card. Across the site
-that is 1,860 photographs, 355 illustrations
-(all of them from the earlier pass, see the end) and 200
+The result: 361 of the 501 recipes now have a photograph from an
+archive, and 140 are still on a gradient card. Across the site
+that is 1,920 photographs, 355 illustrations
+(all of them from the earlier pass, see the end) and 140
 gradient cards on 2,415 recipes.
 
 ### What was looked at
@@ -2790,7 +2790,7 @@ the 316 still without one, for as long as it needed, with alternative names
 written for each recipe in `src/data/image-queries.json` (the cocktail with
 "(cocktail)" after it, the dish under the other name it goes by, the title in
 the singular) and with every archive page already refused left out. Over the two
-searches 301 photographs were kept and 632 refused, which is
+searches 361 photographs were kept and 771 refused, which is
 68 per cent. They were wrong in the same ways as before:
 
 - **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
@@ -2821,7 +2821,7 @@ searches 301 photographs were kept and 632 refused, which is
   `irish-apple-cake` a painting of Halloween revellers and `black-russian`, on its
   second try, a typewriter.
 
-The licence split of what was kept is CC BY 119, CC BY-SA 81, CC0 68 and public domain 33, from Wikimedia Commons and Wikipedia (210), Flickr (72), Rawpixel (14), the WordPress photo directory (3) and StockSnap (2).
+The licence split of what was kept is CC BY 137, CC BY-SA 117, CC0 72 and public domain 35, from Wikimedia Commons and Wikipedia (270), Flickr (72), Rawpixel (14), the WordPress photo directory (3) and StockSnap (2).
 
 One fault in the tool itself cost the second search a lot of its first hour.
 `upload.wikimedia.org` answers a request for an original file from this
@@ -2937,6 +2937,8 @@ in general, in which the chicken cannot be told from anything else; `calzone` a
 folded flat dough rather than a puffed one; `doner-kebab` the meat on its spit
 and not a kebab served.
 
+**From the wider search of the curated sources.** `banana-ice-cream` a shop's bananas foster scoop in a paper cup, not soft serve made from frozen bananas; `black-bean-burgers` a vegan burger of two bean patties from the archive's vegan burger page; `black-velvet` a pint held in a hand, in a glass printed with a stout's name; `breakfast-sausage` two patties beside scrambled eggs on a plate; `chicken-burrito-bowl` a restaurant bowl in a chain's patterned paper; `chicken-chop-suey` chop suey over fried rice, from the article on the dish, with no chicken to pick out; `crunchwrap` the fast-food original on its tray, with the chain's name small on the tray liner; `english-muffins` three unsplit muffins in a basket; `french-75` a flute of deep gold fizz with a lemon twist under bar lighting; `fondant-fancies` a shop-bought French fancy, with the brand in the archive's title; `hot-fudge-sauce` a sundae in a plastic cup, the sauce its dark ribbons; `kettle-corn` a heap of popcorn from a brand's sweet-and-salty bag, the brand in the archive's title; `king-ranch-chicken-casserole` a half-eaten restaurant portion, with cornbread and greens beside it; `orange-julius` a faded, filtered photograph of the chain's own cup; `pumpkin-muffins` frosted, with a chestnut on top, where the recipe's are plain with seeds; `turkey-chili` a bowl with a spoonful of soured cream, on a place mat beside a side salad; `bbq-sauce` an apricot barbecue sauce in a white bowl; `bone-broth` a pot of pho stock on the hob, with charred onions, star anise and cinnamon among the bones; `chocolate-truffles` truffles in several coatings, only some of them cocoa; `cuba-libre` the cola and white rum bottles in the frame with their labels, and a coconut; `funnel-cake` plain, without the icing sugar the recipe has; `grasshopper` a bright green, brighter than the recipe's pale one, with the glass cropped; `italian-beef-sandwich` a restaurant's own sandwich on its branded paper; `mai-tai` the glass carries the bar's name; `special-burger-sauce` a paper pot of pink sauce served with crinkle-cut fries, from an article on Marie Rose sauce; `greek-frappe` a tall jar printed with a cafe's name; `chocolate-covered-cherries` two of them, one cut open, from the archive page of a brand's sweet; `moon-pies` a shop-bought one cut in half; `white-russian` served layered in a glass with no ice and the cream dusted with chocolate, in a dim bar; `lomi-lomi-salmon` with red onion where the recipe has sweet onion, in a dark bowl; `brandy-alexander` served on the rocks in a tumbler, where the recipe strains it up; `devon-splits` two scone halves with jam and cream, where the recipe's are yeast-risen rolls; `jamaican-ginger-cake` a cafe's ginger crumble loaf, lighter than the recipe's black-treacle cake; `stromboli` with olives and roasted peppers in the filling and a spoon of tomato sauce on top.
+
 ### What has not been done
 
 Nothing in this pass was cooked, and a picture of a dish says little about
@@ -2945,7 +2947,7 @@ looked at again larger; the likeliest faults left are ones neither size shows,
 and the list above is where to look first. Any of them can be refused with `tools/review_images.py`, which
 puts the recipe back on its gradient card.
 
-200 recipes of the 501 are still on a gradient card. For most of
+140 recipes of the 501 are still on a gradient card. For most of
 them the archives hold nothing: either no photograph of the dish exists under a
 licence the site can use, or those that exist show something else, and the
 number refused for each recipe is printed in `MISSING-IMAGES.txt`, which lists
