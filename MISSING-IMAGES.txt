@@ -6,73 +6,61 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (128) ======================================
-  baked-spaghetti                    Baked Spaghetti   [2 refused already]
-  blackened-chicken                  Blackened Chicken   [2 refused already]
-  chicken-and-biscuits               Chicken and Biscuits   [2 refused already]
-  filet-mignon                       Filet Mignon   [2 refused already]
-  king-ranch-chicken-casserole       King Ranch Chicken Casserole   [2 refused already]
-  blue-cheese-dressing               Blue Cheese Dressing   [2 refused already]
-  crunchwrap                         Crunchwrap   [2 refused already]
-  one-pot-pasta                      One-Pot Pasta   [2 refused already]
-  turkey-chili                       Turkey Chili   [2 refused already]
-  breakfast-sausage                  Breakfast Sausage   [2 refused already]
-  english-muffins                    English Muffins   [2 refused already]
-  pumpkin-muffins                    Pumpkin Muffins   [2 refused already]
-  homemade-vanilla-ice-cream         Homemade Vanilla Ice Cream   [2 refused already]
-  peanut-butter-fudge                Peanut Butter Fudge   [2 refused already]
-  peppermint-bark                    Peppermint Bark   [1 refused already]
-  strawberry-rhubarb-pie             Strawberry Rhubarb Pie   [2 refused already]
+== American (116) ======================================
+  baked-spaghetti                    Baked Spaghetti   [3 refused already]
+  blackened-chicken                  Blackened Chicken   [3 refused already]
+  chicken-and-biscuits               Chicken and Biscuits   [3 refused already]
+  king-ranch-chicken-casserole       King Ranch Chicken Casserole   [3 refused already]
+  blue-cheese-dressing               Blue Cheese Dressing   [3 refused already]
+  crunchwrap                         Crunchwrap   [3 refused already]
+  turkey-chili                       Turkey Chili   [3 refused already]
+  breakfast-sausage                  Breakfast Sausage   [3 refused already]
+  english-muffins                    English Muffins   [3 refused already]
+  pumpkin-muffins                    Pumpkin Muffins   [3 refused already]
+  homemade-vanilla-ice-cream         Homemade Vanilla Ice Cream   [3 refused already]
+  peanut-butter-fudge                Peanut Butter Fudge   [3 refused already]
+  peppermint-bark                    Peppermint Bark   [2 refused already]
   smoked-turkey                      Smoked Turkey   [1 refused already]
-  cheese-ball                        Cheese Ball   [2 refused already]
-  french-onion-dip                   French Onion Dip   [2 refused already]
-  grape-jelly-meatballs              Grape Jelly Meatballs   [1 refused already]
-  kettle-corn                        Kettle Corn   [2 refused already]
-  sausage-balls                      Sausage Balls   [2 refused already]
-  sazerac                            Sazerac   [2 refused already]
+  french-onion-dip                   French Onion Dip   [3 refused already]
+  grape-jelly-meatballs              Grape Jelly Meatballs   [2 refused already]
+  kettle-corn                        Kettle Corn   [3 refused already]
+  sausage-balls                      Sausage Balls   [3 refused already]
+  sazerac                            Sazerac   [3 refused already]
   tequila-sunrise                    Tequila Sunrise   [1 refused already]
-  beef-and-noodles                   Beef and Noodles   [2 refused already]
-  blackened-salmon                   Blackened Salmon   [2 refused already]
-  chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [2 refused already]
-  crack-chicken                      Crack Chicken   [2 refused already]
+  beef-and-noodles                   Beef and Noodles   [3 refused already]
+  blackened-salmon                   Blackened Salmon   [3 refused already]
+  chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [3 refused already]
+  crack-chicken                      Crack Chicken   [3 refused already]
   fried-catfish                      Fried Catfish   [1 refused already]
-  green-chile-stew                   Green Chile Stew   [2 refused already]
+  green-chile-stew                   Green Chile Stew   [3 refused already]
   baked-chicken-drumsticks           Baked Chicken Drumsticks
-  banana-ice-cream                   Banana Ice Cream   [2 refused already]
-  chicken-gnocchi-soup               Chicken Gnocchi Soup   [2 refused already]
-  salmon-burgers                     Salmon Burgers   [2 refused already]
-  zuppa-toscana                      Zuppa Toscana   [2 refused already]
-  monte-cristo                       Monte Cristo   [2 refused already]
+  banana-ice-cream                   Banana Ice Cream   [3 refused already]
+  zuppa-toscana                      Zuppa Toscana   [3 refused already]
+  monte-cristo                       Monte Cristo   [3 refused already]
   coney-dogs                         Coney Dogs   [2 refused already]
-  bran-muffins                       Bran Muffins   [2 refused already]
-  cinnamon-swirl-bread               Cinnamon Swirl Bread   [2 refused already]
-  monster-cookies                    Monster Cookies   [2 refused already]
+  cinnamon-swirl-bread               Cinnamon Swirl Bread   [3 refused already]
+  monster-cookies                    Monster Cookies   [3 refused already]
   texas-sheet-cake                   Texas Sheet Cake   [1 refused already]
-  beer-bread                         Beer Bread   [2 refused already]
-  buckeyes                           Buckeyes   [2 refused already]
-  hot-fudge-sauce                    Hot Fudge Sauce   [2 refused already]
-  ham-and-cheese-pinwheels           Ham and Cheese Pinwheels   [2 refused already]
-  orange-julius                      Orange Julius   [2 refused already]
-  seven-layer-dip                    Seven Layer Dip   [1 refused already]
+  beer-bread                         Beer Bread   [3 refused already]
+  hot-fudge-sauce                    Hot Fudge Sauce   [3 refused already]
+  ham-and-cheese-pinwheels           Ham and Cheese Pinwheels   [3 refused already]
+  orange-julius                      Orange Julius   [3 refused already]
   tom-collins                        Tom Collins
-  blue-lagoon                        Blue Lagoon   [2 refused already]
+  blue-lagoon                        Blue Lagoon   [3 refused already]
   hot-crab-dip                       Hot Crab Dip   [2 refused already]
   scalloped-potatoes-and-ham         Scalloped Potatoes and Ham   [1 refused already]
-  smothered-chicken                  Smothered Chicken   [2 refused already]
-  bbq-sauce                          BBQ Sauce   [2 refused already]
+  bbq-sauce                          BBQ Sauce   [3 refused already]
   black-bean-burgers                 Black Bean Burgers   [2 refused already]
   manhattan-clam-chowder             Manhattan Clam Chowder   [2 refused already]
   special-burger-sauce               Special Burger Sauce   [1 refused already]
   strawberry-spinach-salad           Strawberry Spinach Salad   [2 refused already]
-  black-and-white-cookies            Black and White Cookies   [1 refused already]
   buttercream-frosting               Buttercream Frosting   [2 refused already]
   funnel-cake                        Funnel Cake   [2 refused already]
   hawaiian-sweet-rolls               Hawaiian Sweet Rolls   [2 refused already]
-  italian-cream-cake                 Italian Cream Cake   [2 refused already]
+  italian-cream-cake                 Italian Cream Cake   [3 refused already]
   morning-glory-muffins              Morning Glory Muffins   [2 refused already]
-  pumpkin-roll                       Pumpkin Roll   [2 refused already]
+  pumpkin-roll                       Pumpkin Roll   [3 refused already]
   banana-cream-pie                   Banana Cream Pie   [2 refused already]
-  butterscotch-pudding               Butterscotch Pudding   [2 refused already]
   ice-cream-sandwiches               Ice Cream Sandwiches   [2 refused already]
   pumpkin-cheesecake                 Pumpkin Cheesecake   [2 refused already]
   fried-mushrooms                    Fried Mushrooms   [2 refused already]
@@ -90,7 +78,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   ham-salad                          Ham Salad   [2 refused already]
   tomato-sandwich                    Tomato Sandwich   [2 refused already]
   stuffed-pepper-soup                Stuffed Pepper Soup   [2 refused already]
-  portobello-burger                  Portobello Burger
+  portobello-burger                  Portobello Burger   [1 refused already]
   cauliflower-pizza-crust            Cauliflower Pizza Crust   [2 refused already]
   cocktail-sauce                     Cocktail Sauce   [2 refused already]
   balsamic-vinaigrette               Balsamic Vinaigrette   [2 refused already]
@@ -109,7 +97,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   broccoli-cheese-casserole          Broccoli Cheese Casserole   [1 refused already]
   fried-apples                       Fried Apples   [2 refused already]
   ham-and-cheese-sliders             Ham and Cheese Sliders   [2 refused already]
-  pineapple-casserole                Pineapple Casserole   [1 refused already]
+  pineapple-casserole                Pineapple Casserole   [2 refused already]
   italian-dressing                   Italian Dressing   [2 refused already]
   cauliflower-rice                   Cauliflower Rice   [2 refused already]
   brown-gravy                        Brown Gravy   [2 refused already]
@@ -136,22 +124,19 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bees-knees                         Bee's Knees   [2 refused already]
   mudslide                           Mudslide   [2 refused already]
 
-== British (27) ========================================
+== British (24) ========================================
   lamb-bhuna                         Lamb Bhuna
-  prawn-mayo-sandwich                Prawn Mayo Sandwich   [1 refused already]
   butterfly-cakes                    Butterfly Cakes   [3 refused already]
-  black-velvet                       Black Velvet   [2 refused already]
-  steak-bake                         Steak Bake   [2 refused already]
-  fondant-fancies                    Fondant Fancies   [1 refused already]
-  omelette-arnold-bennett            Omelette Arnold Bennett   [2 refused already]
-  chocolate-orange-cake              Chocolate Orange Cake   [2 refused already]
-  chestnut-stuffing                  Chestnut Stuffing   [2 refused already]
-  branston-style-pickle              Branston-Style Pickle   [2 refused already]
-  homemade-ginger-beer               Homemade Ginger Beer   [2 refused already]
+  black-velvet                       Black Velvet   [3 refused already]
+  steak-bake                         Steak Bake   [3 refused already]
+  fondant-fancies                    Fondant Fancies   [2 refused already]
+  omelette-arnold-bennett            Omelette Arnold Bennett   [3 refused already]
+  chocolate-orange-cake              Chocolate Orange Cake   [3 refused already]
+  branston-style-pickle              Branston-Style Pickle   [3 refused already]
+  homemade-ginger-beer               Homemade Ginger Beer   [3 refused already]
   snowball-cocktail                  Snowball Cocktail   [2 refused already]
-  herb-crusted-rack-of-lamb          Herb-Crusted Rack of Lamb   [1 refused already]
   coconut-macaroons                  Coconut Macaroons   [2 refused already]
-  grasmere-gingerbread               Grasmere Gingerbread   [2 refused already]
+  grasmere-gingerbread               Grasmere Gingerbread   [3 refused already]
   cornflake-tart                     Cornflake Tart
   ham-hock-terrine                   Ham Hock Terrine   [2 refused already]
   homemade-potato-crisps             Homemade Potato Crisps   [1 refused already]
@@ -167,11 +152,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 
 == Canadian (17) =======================================
   cipaille                           Cipaille   [1 refused already]
-  figgy-duff                         Figgy Duff   [2 refused already]
-  rye-and-ginger                     Rye and Ginger   [2 refused already]
-  dungeness-crab                     Dungeness Crab   [2 refused already]
-  wild-rice-casserole                Wild Rice Casserole   [1 refused already]
-  hot-chicken-sandwich               Hot Chicken Sandwich   [2 refused already]
+  figgy-duff                         Figgy Duff   [3 refused already]
+  rye-and-ginger                     Rye and Ginger   [3 refused already]
+  dungeness-crab                     Dungeness Crab   [3 refused already]
+  wild-rice-casserole                Wild Rice Casserole   [2 refused already]
+  hot-chicken-sandwich               Hot Chicken Sandwich   [3 refused already]
   partridgeberry-pie                 Partridgeberry Pie   [1 refused already]
   pan-fried-walleye                  Pan-Fried Walleye   [2 refused already]
   chicken-fricot                     Chicken Fricot   [1 refused already]
@@ -185,12 +170,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   b-52                               B-52   [1 refused already]
 
 == Australian (9) ======================================
-  mars-bar-slice                     Mars Bar Slice   [2 refused already]
+  mars-bar-slice                     Mars Bar Slice   [3 refused already]
   tim-tam-slice                      Tim Tam Slice   [1 refused already]
-  weet-bix-slice                     Weet-Bix Slice   [2 refused already]
-  prawn-cutlets                      Prawn Cutlets   [1 refused already]
+  weet-bix-slice                     Weet-Bix Slice   [3 refused already]
+  prawn-cutlets                      Prawn Cutlets   [2 refused already]
   curried-egg-sandwich               Curried Egg Sandwich   [2 refused already]
-  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [2 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [3 refused already]
   lemon-lime-and-bitters             Lemon, Lime and Bitters   [2 refused already]
   zucchini-fritters                  Zucchini Fritters   [2 refused already]
   white-christmas                    White Christmas   [2 refused already]
@@ -199,80 +184,72 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   mont-blanc                         Mont-Blanc   [13 refused already]
   chicken-chasseur                   Chicken Chasseur   [1 refused already]
   french-75                          French 75
-  chocolate-truffles                 Chocolate Truffles   [2 refused already]
-  green-beans-almondine              Green Beans Almondine   [2 refused already]
-  baked-brie                         Baked Brie   [2 refused already]
+  chocolate-truffles                 Chocolate Truffles   [3 refused already]
+  green-beans-almondine              Green Beans Almondine   [3 refused already]
+  baked-brie                         Baked Brie   [3 refused already]
   chicken-fricassee                  Chicken Fricassee   [2 refused already]
   sidecar                            Sidecar   [2 refused already]
   kir-royale                         Kir Royale   [2 refused already]
 
-== New Zealand (9) =====================================
+== New Zealand (8) =====================================
   paraoa-parai                       Pāraoa Parai   [3 refused already]
   kiwifruit-cheesecake               Kiwifruit Cheesecake   [2 refused already]
   tamarillo-chutney                  Tamarillo Chutney   [2 refused already]
-  apricot-chicken                    Apricot Chicken   [2 refused already]
+  apricot-chicken                    Apricot Chicken   [3 refused already]
   crayfish-mornay                    Crayfish Mornay   [1 refused already]
-  devilled-sausages                  Devilled Sausages
   hokey-pokey-biscuits               Hokey Pokey Biscuits   [2 refused already]
   curried-sausages                   Curried Sausages   [2 refused already]
   kumara-fritters                    Kūmara Fritters   [2 refused already]
 
-== Chinese (8) =========================================
-  mongolian-lamb                     Mongolian Lamb   [2 refused already]
-  crispy-seaweed                     Crispy Seaweed   [2 refused already]
+== Chinese (7) =========================================
+  mongolian-lamb                     Mongolian Lamb   [3 refused already]
+  crispy-seaweed                     Crispy Seaweed   [3 refused already]
   salt-and-chilli-chips              Salt and Chilli Chips
-  chicken-with-cashew-nuts           Chicken with Cashew Nuts   [2 refused already]
-  crispy-aromatic-duck               Crispy Aromatic Duck   [2 refused already]
-  chicken-chop-suey                  Chicken Chop Suey   [2 refused already]
-  salt-and-pepper-ribs               Salt and Pepper Ribs   [2 refused already]
+  crispy-aromatic-duck               Crispy Aromatic Duck   [3 refused already]
+  chicken-chop-suey                  Chicken Chop Suey   [3 refused already]
+  salt-and-pepper-ribs               Salt and Pepper Ribs   [3 refused already]
   chinese-lemon-chicken              Chinese Lemon Chicken   [1 refused already]
 
 == International (7) ===================================
-  roasted-red-pepper-soup            Roasted Red Pepper Soup   [2 refused already]
-  homemade-almond-milk               Homemade Almond Milk   [2 refused already]
+  roasted-red-pepper-soup            Roasted Red Pepper Soup   [3 refused already]
+  homemade-almond-milk               Homemade Almond Milk   [3 refused already]
   painkiller                         Painkiller
-  bone-broth                         Bone Broth   [2 refused already]
+  bone-broth                         Bone Broth   [3 refused already]
   dark-and-stormy                    Dark and Stormy   [2 refused already]
   golden-milk                        Golden Milk   [2 refused already]
   black-russian                      Black Russian   [2 refused already]
 
-== Italian (6) =========================================
-  butternut-squash-risotto           Butternut Squash Risotto   [2 refused already]
-  seafood-risotto                    Seafood Risotto   [1 refused already]
-  italian-wedding-cookies            Italian Wedding Cookies   [2 refused already]
+== Italian (5) =========================================
+  butternut-squash-risotto           Butternut Squash Risotto   [3 refused already]
+  italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
   stromboli                          Stromboli   [2 refused already]
   chicken-scarpariello               Chicken Scarpariello   [2 refused already]
   italian-seasoning                  Italian Seasoning   [1 refused already]
 
-== Irish (4) ===========================================
-  bacon-and-cabbage                  Bacon and Cabbage   [2 refused already]
-  irish-apple-cake                   Irish Apple Cake   [2 refused already]
-  fifteens                           Fifteens   [1 refused already]
-  irish-cream                        Irish Cream   [1 refused already]
-
 == Mexican (4) =========================================
   beef-burritos                      Beef Burritos
-  chicken-burrito-bowl               Chicken Burrito Bowl   [2 refused already]
+  chicken-burrito-bowl               Chicken Burrito Bowl   [3 refused already]
   paloma                             Paloma   [2 refused already]
   charro-beans                       Charro Beans   [1 refused already]
 
+== Irish (3) ===========================================
+  irish-apple-cake                   Irish Apple Cake   [3 refused already]
+  fifteens                           Fifteens   [2 refused already]
+  irish-cream                        Irish Cream   [1 refused already]
+
 == Greek (2) ===========================================
   greek-frappe                       Greek Frappé   [2 refused already]
-  greek-chicken-bowls                Greek Chicken Bowls   [2 refused already]
+  greek-chicken-bowls                Greek Chicken Bowls   [3 refused already]
 
 == Indian (2) ==========================================
-  lamb-kofta-curry                   Lamb Kofta Curry   [1 refused already]
+  lamb-kofta-curry                   Lamb Kofta Curry   [2 refused already]
   mango-chutney                      Mango Chutney   [2 refused already]
-
-== Thai (2) ============================================
-  thai-beef-salad                    Thai Beef Salad   [2 refused already]
-  sweet-chilli-sauce                 Sweet Chilli Sauce   [2 refused already]
 
 == Cuban (1) ===========================================
   cuba-libre                         Cuba Libre   [2 refused already]
 
 == Hawaiian (1) ========================================
-  lomi-lomi-salmon                   Lomi Lomi Salmon   [1 refused already]
+  lomi-lomi-salmon                   Lomi Lomi Salmon   [2 refused already]
 
 == Japanese (1) ========================================
   ramen-eggs                         Ramen Eggs   [2 refused already]
@@ -287,12 +264,15 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lefse                              Lefse
 
 == Scottish (1) ========================================
-  empire-biscuits                    Empire Biscuits   [2 refused already]
+  empire-biscuits                    Empire Biscuits   [3 refused already]
 
 == Singaporean (1) =====================================
-  singapore-sling                    Singapore Sling   [2 refused already]
+  singapore-sling                    Singapore Sling   [3 refused already]
+
+== Thai (1) ============================================
+  sweet-chilli-sauce                 Sweet Chilli Sauce   [2 refused already]
 
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 243 of 2415
+TOTAL 223 of 2415
