@@ -535,21 +535,61 @@ were also the first recipes on the site with **no rating**, because adding
 twelve more invented figures would have been a poor answer to having just
 documented the problem. Every recipe reads that way now — see below.
 
-### On diabetes
+### On diabetes, weight loss and kidney disease
 
-There is no tag for it and there will not be one. Whether a meal suits someone
-managing diabetes depends on their medication, their carbohydrate ratios, the
-portion they eat and the rest of that day — it is a property of a person's
-circumstances, not of a recipe, and Diabetes UK is explicit that there is no such
-thing as a diabetic food. A site that labelled recipes "diabetes-safe" would be
-making a clinical judgement it is in no position to make, about a reader it has
-never met.
+This section used to say that there was no tag for diabetes and there would not
+be one. Whether a meal suits someone managing diabetes depends on their
+medication, their carbohydrate ratios, the portion they eat and the rest of that
+day: it is a property of a person's circumstances, not of a recipe, and Diabetes
+UK is explicit that there is no such thing as a diabetic food. A site that
+labelled recipes "diabetes-safe" would be making a clinical judgement it is in
+no position to make, about a reader it has never met. All of that is still true.
 
-What the site can honestly provide is the number carbohydrate counting actually
-uses. Every recipe prints carbohydrate per serving in its nutrition table and in
-its FAQ, `src/data/catalog-5.js` adds ten recipes at 14 g a serving or less, and
-the Low-Carb filter now covers 114 recipes instead of 16. The grams are the
-useful part; the label was never going to be.
+What changed is that readers look for recipes in exactly these terms, and
+volumes 32 to 34 (three hundred recipes for diabetes, for weight loss and for
+kidney-friendly eating) were commissioned for them. An unlabelled recipe is no
+safer for anyone; it only leaves the reader to do the arithmetic alone. So the
+site now has three labels, and each one is a claim about numbers printed on the
+page and never a claim about a person. They are **Diabetes-Friendly**, **Weight-
+Loss Friendly** and **Kidney-Friendly**, and the rules behind them are in
+`src/lib/health.js`:
+
+- **Diabetes-Friendly**: nothing on the ingredient list that is sugar, honey,
+  syrup or a sweetened sauce such as ketchup or teriyaki; carbohydrate at most
+  40 g a serving, or 20 g for an appetizer, bake, dessert or drink; at least 3 g
+  of fibre when carbohydrate is above 20 g; sodium at most 700 mg.
+- **Weight-Loss Friendly**: at most 400 kcal a serving, and above 200 kcal at
+  least 15 g of protein or 5 g of fibre, so that it fills as well as it counts.
+- **Kidney-Friendly**: sodium at most 500 mg, potassium at most 700 mg and
+  phosphorus at most 350 mg a serving, with no cured meat, salt substitute,
+  stock cube or processed cheese on the ingredient list. These are about a
+  quarter to a third of the daily limits many kidney diets use, and the page
+  says that individual limits differ.
+
+They are hand-written tags, held to those numbers by `npm run health` (part of
+`npm run check`) and not derived, so adding them did not change a page that
+predates them. The audit checks three further things. The nutrition on the page
+must be what the recipe's own ingredient list adds up to, which is why
+`tools/nutrition-calc.js` and its food table are now in the repository (the
+script that did the sums for volumes 26 to 31 never was). A labelled recipe may
+not promise an outcome: "safe for diabetics", "lowers blood sugar", "burns fat",
+"detox" and "cures" fail the build. And volume 34, written to be protein-rich,
+must still carry 20 g of protein a meal.
+
+Each labelled recipe page prints its own figures, the limit each was held to and
+a plain note that this is not medical advice. Kidney-Friendly recipes also print
+potassium and phosphorus. The label says "kidney-friendly" and never "safe", and
+it leaves protein out of the rules on purpose: how much protein a person with
+kidney disease needs is restricted at some stages and raised on dialysis, so the
+page sends the reader to their kidney care team and does not decide for them.
+
+What the labels cannot do is what the rest of this README says about nutrition:
+the figures are estimates from a food table written from memory of standard
+composition data, good to about 10 per cent, and the potassium and phosphorus
+columns to a little worse. A packaged food varies by brand and the table cannot
+see an additive, which is why the kidney rules refuse processed meats and stock
+cubes by name and the recipes ask for plain meat, fish and shrimp with no salt
+or phosphate added.
 
 ## Diet tags
 

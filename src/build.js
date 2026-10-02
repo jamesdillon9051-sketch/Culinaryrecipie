@@ -261,6 +261,12 @@ function loadRecipes() {
       if (!detail[field]) throw new Error(`"${row.slug}" is missing the "${field}" field`);
     }
     if (detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
+    /* Optional: potassium and phosphorus in mg a serving, for the recipes that carry the
+       Kidney-Friendly label (src/lib/health.js). Half-filled is always a mistake. */
+    if (detail.kp && (!Array.isArray(detail.kp) || detail.kp.length !== 2
+        || !detail.kp.every(v => Number.isFinite(v) && v >= 0))) {
+      throw new Error(`"${row.slug}" kp must be [potassium mg, phosphorus mg]`);
+    }
     /* Unattended waiting — proving, chilling, marinating. Optional, because most
        recipes have none, but half-filled is always a mistake. */
     if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
@@ -316,6 +322,7 @@ function loadRecipes() {
       pairings: detail.pair,
       storage: detail.store,
       nutrition: detail.nut,
+      kp: detail.kp || null,
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
       processData: image.process || null,

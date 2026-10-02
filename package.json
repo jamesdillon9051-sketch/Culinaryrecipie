@@ -19,6 +19,8 @@
     "diet": "node tools/diet-audit.js",
     "timing": "node tools/timing-audit.js",
     "nutrition": "node tools/nutrition-audit.js",
+    "health": "node tools/health-audit.js",
+    "calc": "node tools/nutrition-calc.js",
     "keywords": "node tools/keyword-audit.js",
     "seo": "node tools/seo-audit.js",
     "duplicates": "node tools/duplicates-audit.js",

@@ -12,6 +12,7 @@ const { addFahrenheit } = require('../lib/oven-temp');
 const { videoSchema, reviewSchema } = require('../lib/media');
 const inline = require('../lib/inline');
 const layouts = require('../lib/layouts');
+const health = require('../lib/health');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -133,13 +134,31 @@ function serveHtml(recipe, style, heading) {
   return `<h2>${esc(heading)}</h2>\n        ${body}`;
 }
 
-function nutritionHtml(n) {
+function nutritionHtml(n, kp) {
   const cells = [
     ['Calories', n[0], 'kcal'], ['Protein', n[1], 'g'], ['Carbs', n[2], 'g'],
     ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], ['Sodium', n[6], 'mg']
   ];
+  /* Potassium and phosphorus, only for the recipes that give them: the Kidney-Friendly label
+     is a claim about both, so the figures it rests on are printed with the others. */
+  if (kp) cells.push(['Potassium', kp[0], 'mg'], ['Phosphorus', kp[1], 'mg']);
   return `<div class="nutrition">${cells.map(([label, value, unit]) =>
     `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
+}
+
+/**
+ * The note under the nutrition figures for each health label a recipe carries: its own
+ * numbers, the limits they were held to and the caution. The text comes from
+ * src/lib/health.js, the module the audit reads, so it cannot claim more than the audit checks.
+ */
+function healthNotesHtml(recipe) {
+  return health.notesFor(recipe).map(note => `
+        <aside class="panel panel--accent health-note" style="margin:1.25rem 0 0" aria-labelledby="health-${esc(slug(note.tag))}">
+          <h3 id="health-${esc(slug(note.tag))}" style="margin-bottom:.5rem">${esc(note.heading)}</h3>
+          <p style="margin:0 0 .6rem">${esc(note.facts)}</p>
+          <p class="form-note" style="margin:0 0 .6rem">${esc(note.rule)}</p>
+          <p class="form-note" style="margin:0">${esc(note.advice)}</p>
+        </aside>`).join('');
 }
 
 /**
@@ -261,7 +280,9 @@ function recipeSchema(recipe) {
         'Vegetarian': 'https://schema.org/VegetarianDiet',
         'Vegan': 'https://schema.org/VeganDiet',
         'Gluten-Free': 'https://schema.org/GlutenFreeDiet',
-        'Dairy-Free': 'https://schema.org/LowLactoseDiet'
+        'Dairy-Free': 'https://schema.org/LowLactoseDiet',
+        /* Only ever on a recipe that passed the numeric rules in src/lib/health.js. */
+        'Diabetes-Friendly': 'https://schema.org/DiabeticDiet'
       }[t])),
       recipe.nutrition[0] < 400 ? 'https://schema.org/LowCalorieDiet' : null,
       recipe.nutrition[3] <= 10 ? 'https://schema.org/LowFatDiet' : null,
@@ -396,8 +417,8 @@ function render(recipe, context) {
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
     nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
         <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
-        ${nutritionHtml(recipe.nutrition)}
-        ${dietTags}`
+        ${nutritionHtml(recipe.nutrition, recipe.kp)}
+        ${dietTags}${healthNotesHtml(recipe)}`
   };
   const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');
 

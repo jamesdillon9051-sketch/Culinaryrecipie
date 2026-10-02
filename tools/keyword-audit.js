@@ -44,6 +44,12 @@ const CLAIMS = [
   { claim: 'low carb', when: /\blow carb\b/, ok: r => r.tags.includes('Low-Carb') },
   { claim: 'keto', when: /\bketo\b/, ok: r => r.tags.includes('Keto') },
   { claim: 'no added sugar', when: /\bno added sugar\b/, ok: r => r.tags.includes('No Added Sugar') },
+  /* The three health labels, each held to numbers by tools/health-audit.js. "Kidney" alone is
+     not a claim ("steak and kidney pudding"); only the phrases about eating for kidney disease. */
+  { claim: 'diabetic friendly', when: /\bdiabet(?:ic|es|ics)\b/, ok: r => r.tags.includes('Diabetes-Friendly') },
+  { claim: 'weight loss friendly', when: /\bweight loss\b/, ok: r => r.tags.includes('Weight-Loss Friendly') },
+  { claim: 'kidney friendly', when: /\bkidney friendly\b|\brenal\b|\bckd\b|\bdialysis\b|\bkidney (?:disease|diet|health)\b/,
+    ok: r => r.tags.includes('Kidney-Friendly') },
 
   /* Time. The site separates hands-on time from waiting, and every one of
      these phrases is about how long the cook is busy, so they read prep+cook

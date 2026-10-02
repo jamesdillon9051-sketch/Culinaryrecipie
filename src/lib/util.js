@@ -173,7 +173,10 @@ const DIET_TAGS = ['Vegetarian', 'Vegan', 'Gluten-Free', 'Keto', 'Dairy-Free', '
      ./diet-derived.js. "No Added Sugar" rather than "Sugar-Free", because a
      recipe with milk or fruit in it is not sugar-free and saying so would be
      the kind of claim this site has spent a while removing. */
-  'High-Protein', 'No Added Sugar'];
+  'High-Protein', 'No Added Sugar',
+  /* Written by hand into the rows of the volumes that carry them and held to the numbers in
+     ./health.js on every build, so each is a claim about figures printed on the page. */
+  'Diabetes-Friendly', 'Weight-Loss Friendly', 'Kidney-Friendly'];
 
 /** "1 recipe" but "4 recipes" — the count is often 1 on a small cuisine. */
 function plural(n, singular, pluralForm) {
