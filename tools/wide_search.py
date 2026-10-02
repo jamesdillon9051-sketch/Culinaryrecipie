@@ -10,6 +10,15 @@ under its name. Three refused Flickr snapshots ended the search for English muff
 Commons category holds thirty-six files. This reads both in full, and can take one deeper
 page from Openverse (twenty results of any shape, the most an anonymous caller is given).
 
+A third source, `--files`, is the Commons file search itself (twenty bitmaps a query, by file
+name) with the dish-name heuristics of fetch_images.commons_candidates left off. That function
+refuses a file whose name its heuristics cannot place, and returns nothing at all, without a
+word, while Commons is benched for rate limiting, so a recipe it "found nothing" for may only
+have been searched on a bad day: "Sfogliatelle on plate.jpg", "Poulet yassa 01.jpg" and
+"Homemade Afghan biscuits.jpg" were all on Commons for recipes it had given up on. The contact
+sheet does the judging that the heuristics did, and a recipe whose requests all failed is not
+recorded, so a re-run tries it again.
+
 Nothing here publishes a picture until a person has looked at it. The steps, each of them
 resumable, and the files they keep (in .wide/, which is git-ignored):
 
@@ -21,6 +30,7 @@ resumable, and the files they keep (in .wide/, which is git-ignored):
 
     python3 tools/wide_search.py search --only slugs.txt            # Wikipedia + Commons
     python3 tools/wide_search.py search --only slugs.txt --openverse --tag ov --budget 150
+    python3 tools/wide_search.py search --only slugs.txt --files --tag files [--queries extra.json]
     python3 tools/wide_search.py stage  [--keep 4]
     python3 tools/wide_search.py sheets                             # then LOOK at every sheet
     python3 tools/wide_search.py apply  verdicts.txt
@@ -50,6 +60,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 
@@ -349,6 +360,67 @@ def openverse_candidates(rec, refused, used, keep):
     return out[:keep], [f"{len(out)} usable of {len((data or {}).get('results', []))}"]
 
 
+FOREIGN_CONNECTOR = re.compile(r"\s+(con|alla|al|di|à|aux|de|bil|bi|ba|o|a la|à la)\s+", re.I)
+
+
+def fold(s):
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+
+
+def file_search_queries(rec, alts, extra):
+    """The title, names the recipe is known by, the title cut at a foreign connector
+    ("Malloreddus alla Campidanese" gives "Malloreddus") and the title without its accents."""
+    slug, title = rec["slug"], (rec.get("title") or rec["slug"]).strip()
+    qs = [title] + list(extra.get(slug) or []) + list(alts.get(slug) or [])
+    head = FOREIGN_CONNECTOR.split(title)[0].strip()
+    if len(head) >= 5 and head.lower() != title.lower():
+        qs.append(head)
+    for q in (title, head):
+        if fold(q).lower() != q.lower():
+            qs.append(fold(q))
+    out = []
+    for q in qs:
+        q = q.strip()
+        if q and q.lower() not in [x.lower() for x in out]:
+            out.append(q)
+    return out[:3]
+
+
+def file_search_candidates(rec, alts, extra, refused, used, keep):
+    """Commons file search, bitmaps only, twenty results a query. Returns (None, notes) when every
+    request failed, so that the recipe is not recorded as having nothing."""
+    slug, tags = rec["slug"], rec.get("tags") or ()
+    queries = file_search_queries(rec, alts, extra)
+    pool, failed, answered = {}, 0, 0
+    for q in queries:
+        params = {
+            "action": "query", "format": "json", "generator": "search",
+            "gsrsearch": f"{q} filetype:bitmap", "gsrnamespace": "6", "gsrlimit": "20",
+            "prop": "imageinfo", "iiprop": "url|extmetadata|size|mime", "iiurlwidth": str(fi.HERO_W),
+        }
+        data = fi.http_json(COMMONS + urllib.parse.urlencode(params), tries=5)
+        time.sleep(1.2)
+        if not data:
+            failed += 1
+            continue
+        answered += 1
+        for page in (data.get("query", {}).get("pages", {}) or {}).values():
+            cand = candidate_from_page(page, q, tags, f'Commons file search "{q}"', 0.0)
+            if not cand or not fi.shares_dish_word(cand["title"], q):
+                continue
+            if cand["page"] in refused or cand["page"] in used:
+                continue
+            w, h = cand["w"], cand["h"]
+            cand["score"] = (fi.relevance(cand["title"], q) + (0.3 if w >= 1000 else 0)
+                             + (0.3 if 1.15 <= w / max(1, h) <= 1.9 else 0)
+                             + (0.2 if not fi.NEEDS_CREDIT.match(cand["licence"] or "") else 0))
+            pool.setdefault(cand["page"], cand)
+    notes = [f'queries: {" | ".join(queries)}'] + ([f"{failed} request(s) failed"] if failed else [])
+    if failed and not answered:
+        return None, notes
+    return sorted(pool.values(), key=lambda c: -c["score"])[:keep], notes
+
+
 def cmd_search(args):
     only = {ln.strip() for ln in open(args.only) if ln.strip() and not ln.startswith("#")}
     out_path = os.path.join(args.work, f"candidates-{args.tag}.json")
@@ -359,6 +431,7 @@ def cmd_search(args):
     if unknown:
         sys.exit("not in the catalogue: " + ", ".join(sorted(unknown)))
     alts = fi.alt_queries()
+    extra = load(args.queries, {}) if args.queries else {}
     refused = fi.rejected_pages()
     manifest = load(args.manifest, {})
     used = published_pages(manifest)
@@ -379,6 +452,11 @@ def cmd_search(args):
         if args.openverse:
             cands, notes = openverse_candidates(rec, refused.get(slug, set()), used, args.keep)
             spent += 1
+        elif args.files:
+            cands, notes = file_search_candidates(rec, alts, extra, refused.get(slug, set()), used, args.keep)
+            if cands is None:
+                fi.log("    ! every request failed; not recorded, a re-run will try it again")
+                continue
         else:
             cands, notes = curated_candidates(rec, alts, refused.get(slug, set()), used, args.keep)
         fi.log(f"    {len(cands)} candidates; " + "; ".join(notes[:6]))
@@ -589,6 +667,8 @@ def main():
     s.add_argument("--shard", default="0/1", help="k/n: this worker takes every nth recipe")
     s.add_argument("--keep", type=int, default=6, help="candidates kept per recipe")
     s.add_argument("--openverse", action="store_true", help="one deeper Openverse page instead of the curated sources")
+    s.add_argument("--files", action="store_true", help="the Commons file search, with the dish-name heuristics left off")
+    s.add_argument("--queries", help="--files: a JSON file {slug: [extra search names]}")
     s.add_argument("--budget", type=int, default=150, help="Openverse requests to spend (200 a day anonymously)")
     s.set_defaults(fn=cmd_search)
 
