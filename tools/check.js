@@ -520,6 +520,40 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
   }
 }
 
+/* --- one photograph, one dish --------------------------------------------
+   tools/fetch_images.py gives an archive page to every recipe whose name it
+   matches best, so two recipes can end up with the same picture. For two names
+   of one dish that is fine. For two dishes it is a wrong picture on one of
+   them: nasi goreng carried a plate of red kimchi fried rice for as long as
+   kimchi fried rice did, and chicken tacos carried the beef ones. A page may be
+   shared only by the recipes in one of these sets, which are the same dish
+   listed under two names, or one photograph that shows both; anything else
+   needs its own photograph, or none. */
+{
+  const { isIllustration } = require('../src/lib/util');
+  const MAY_SHARE = [
+    ['rogan-josh', 'lamb-rogan-josh'],
+    ['katsu-curry', 'chicken-katsu-curry'],
+    ['knafeh', 'knafeh-nabulsi'],
+    ['naan', 'garlic-naan'],
+    ['breakfast-casserole', 'sausage-casserole'],
+    ['cauliflower-rice', 'cauliflower-chicken-fried-rice'],  // a fried cauliflower rice is cauliflower rice
+  ];
+  const byPage = new Map();
+  for (const [slug, entry] of Object.entries(manifest)) {
+    const hero = entry && entry.hero;
+    if (!hero || !hero.page || isIllustration(hero)) continue;
+    if (!byPage.has(hero.page)) byPage.set(hero.page, []);
+    byPage.get(hero.page).push(slug);
+  }
+  for (const [page, slugs] of byPage) {
+    if (slugs.length < 2) continue;
+    if (MAY_SHARE.some(set => slugs.every(s => set.includes(s)))) continue;
+    problems.push(`${slugs.join(' and ')} show one photograph (${page}) — they are different dishes, `
+      + 'so one of them has the wrong picture; give each its own, or leave one on the gradient card');
+  }
+}
+
 /* --- a drawing never passes for a photograph -----------------------------
    The site tells readers that every photograph on it is freely licensed and
    that its photographers are credited. Generated illustrations sit on the

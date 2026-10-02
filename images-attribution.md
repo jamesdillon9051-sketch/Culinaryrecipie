@@ -1,8 +1,8 @@
 # Image Attribution
 
 Every photograph on Weekly Delight is freely licensed. Of 2645
-photographs, **1118** are CC0 or public domain and carry no conditions at all, and
-**1527** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+photographs, **1116** are CC0 or public domain and carry no conditions at all, and
+**1529** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -246,15 +246,15 @@ wrong dish were deleted rather than kept.
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 674 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 569 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 335 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 310 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 248 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 166 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 156 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 675 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 570 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 336 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 308 | No rights reserved — no attribution legally required |
+| CC BY-SA 2.0 | 249 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| Public domain | 165 | No rights reserved — no attribution legally required |
+| CC BY-SA 3.0 | 154 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 71 | No rights reserved — no attribution legally required |
-| CC BY 4.0 | 42 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 4.0 | 43 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 40 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 11 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 11 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -886,7 +886,7 @@ licence as the rest of this project.
 | `dakgalbi.webp` / `.jpg` | Dakgalbi | Hero | Chuncheon sizzling chicken (Dakgalbi) | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chuncheon_sizzling_chicken_(Dakgalbi).jpg) |
 | `naengmyeon.webp` / `.jpg` | Mul Naengmyeon | Hero | Naengmyeon old noodle in Korea | Suohros | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naengmyeon_old_noodle_in_Korea.jpg) |
 | `naengmyeon-process.webp` / `.jpg` | Mul Naengmyeon | Process | Naengmyeon (cold noodles) | wjlee4284 | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naengmyeon_(cold_noodles).jpg) |
-| `nasi-goreng.webp` / `.jpg` | Nasi Goreng | Hero | Nasi goreng | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5959832/free-public-domain-cc0-photo) |
+| `nasi-goreng.webp` / `.jpg` | Nasi Goreng | Hero | Nasi Goreng Kampung | Supardisahabu | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung.jpg) |
 | `beef-rendang.webp` / `.jpg` | Beef Rendang | Hero | Rendang Rasa | さえぼー | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=182477517) |
 | `chicken-satay.webp` / `.jpg` | Chicken Satay | Hero | Grilling chicken satay | Jakub Kapusnak | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/447747/free-photo-image-grilling-grill-chicken-food-cart) |
 | `gado-gado.webp` / `.jpg` | Gado-Gado | Hero | Gado gado at Dewi Sri in Rotterdam - Roland in NL (113) | roland | CC0 1.0 | [Flickr](https://www.flickr.com/photos/35034347371@N01/275615037) |
@@ -2026,7 +2026,7 @@ licence as the rest of this project.
 | `loaded-baked-potato.webp` / `.jpg` | Loaded Baked Potato | Hero | Loaded baked potato | Red Lobster Lover Joe twitter:RLLoverJoe | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/164188154@N05/54491658988) |
 | `chicken-caesar-wrap.webp` / `.jpg` | Chicken Caesar Wrap | Hero | Chicken caesar salad spinach wrap with chips | mdburnette | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/146620f28c/) |
 | `chicken-caesar-wrap-process.webp` / `.jpg` | Chicken Caesar Wrap | Process | Chicken caesar | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5940088/free-public-domain-cc0-photo) |
-| `beef-tacos.webp` / `.jpg` | Ground Beef Tacos | Hero | Tacos 2 (image of taco on Wikidata Q191655) | Popo le Chien | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tacos_2.jpg) |
+| `beef-tacos.webp` / `.jpg` | Ground Beef Tacos | Hero | Ground beef tacos at Goldmine Tacos, Yorkville GA | John Phelan | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ground_beef_tacos_at_Goldmine_Tacos,_Yorkville_GA.jpg) |
 | `spaghetti-meatballs.webp` / `.jpg` | Spaghetti and Meatballs | Hero | Spaghetti meatballs food photography | Jakub Kapusnak | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/448302/meatball-pasta-bowl) |
 | `chicken-karahi.webp` / `.jpg` | Chicken Karahi | Hero | Chicken Karahi in Pakistan | Kskhh | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chicken_Karahi_in_Pakistan.jpg) |
 | `aloo-keema.webp` / `.jpg` | Aloo Keema | Hero | File:Aaloo Keema.JPG | Miansari66 | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=21789000) |
@@ -2430,7 +2430,7 @@ licence as the rest of this project.
 | `sancocho-de-gallina.webp` / `.jpg` | Sancocho de Gallina | Hero | Sancocho cruzado de Gallina, Rabo y Costilla con arepa | Rodolfo pimentel | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sancocho_cruzado_de_Gallina,_Rabo_y_Costilla_con_arepa.jpg) |
 | `empanadas-de-pino.webp` / `.jpg` | Empanadas de Pino | Hero | Empanadas | やましこ | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/183837926@N03/48724490343) |
 | `picadillo.webp` / `.jpg` | Picadillo | Hero | Picadillo and rice | Cary Bass | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Picadillo_and_rice.jpg) |
-| `moros-y-cristianos.webp` / `.jpg` | Moros y Cristianos | Hero | Ropa viecha 2 (image of Moros y Cristianos on Wikidata Q1639853) | Sarang | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ropa_viecha_2.jpg) |
+| `moros-y-cristianos.webp` / `.jpg` | Moros y Cristianos | Hero | Moros y Cristianos, Cuba (9419810743) | Rinaldo Wurglitsch from Vienna, Austria | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moros_y_Cristianos,_Cuba_(9419810743).jpg) |
 | `moros-y-cristianos-process.webp` / `.jpg` | Moros y Cristianos | Process | Moros y cristianos, gastronomia cubana (lead image of the ar.wikipedia article on Moros y Cristianos) | Juan Emilio Prades Bel | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moros_y_cristianos,_gastronomia_cubana.jpg) |
 | `pernil.webp` / `.jpg` | Pernil | Hero | Pernil de chancho | Cuidro | CC0 1.0 | [Flickr](https://www.flickr.com/photos/93096362@N00/27236485386) |
 | `mofongo.webp` / `.jpg` | Mofongo | Hero | Mofongo (image of Mofongo on Wikidata Q908963) | Diane | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mofongo.jpg) |
@@ -2659,7 +2659,7 @@ licence as the rest of this project.
 | `english-muffins.webp` / `.jpg` | English Muffins | Hero | 2016-02-07 English Muffins anagoria | Anagoria | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2016-02-07_English_Muffins_anagoria.JPG) |
 | `homemade-pop-tarts.webp` / `.jpg` | Homemade Pop-Tarts | Hero | Rasp-Pop-Tart | Evan-Amos | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=16942965) |
 | `johnnycakes.webp` / `.jpg` | Johnnycakes | Hero | Johnnycakes | Douglas Perkins | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Johnnycakes.jpg) |
-| `malasadas.webp` / `.jpg` | Malasadas | Hero | Malasadas | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5953133/free-public-domain-cc0-photo) |
+| `malasadas.webp` / `.jpg` | Malasadas | Hero | Leonard's malasadas | _e.t from Saratoga, USA | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leonard%27s_malasadas.jpg) |
 | `pecan-sandies.webp` / `.jpg` | Pecan Sandies | Hero | Lemon pecan sandies | torbakhopper | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lemon_pecan_sandies.jpg) |
 | `pumpkin-muffins.webp` / `.jpg` | Pumpkin Muffins | Hero | Pumpkin muffin (31373163026) | Luca Nebuloni | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pumpkin_muffin_(31373163026).jpg) |
 | `thumbprint-cookies.webp` / `.jpg` | Thumbprint Cookies | Hero | Hallongrotta (image of Hallongrotta on Wikidata Q5643056) | User:Artifex | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hallongrotta.JPG) |
@@ -2891,7 +2891,7 @@ licence as the rest of this project.
 | `beijing-beef.webp` / `.jpg` | Beijing Beef | Hero | Panda Express Brown Rice, Orange Chicken, and Beijing Beef | Dancingpolishcow | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panda_Express_Brown_Rice,_Orange_Chicken,_and_Beijing_Beef.jpeg) |
 | `surf-and-turf.webp` / `.jpg` | Surf and Turf | Hero | Surf and turf (image of surf and turf on Wikidata Q1781099) | Qwerty Binary | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Surf_and_turf.jpg) |
 | `baked-feta-pasta.webp` / `.jpg` | Baked Feta Pasta | Hero | Baked feta pasta | Delicious Adventures | CC BY 3.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=144821144) |
-| `chicken-tacos.webp` / `.jpg` | Chicken Tacos | Hero | Tacos 2 (image of taco on Wikidata Q191655) | Popo le Chien | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tacos_2.jpg) |
+| `chicken-tacos.webp` / `.jpg` | Chicken Tacos | Hero | Tacos in Shimoda 2 | Syced | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tacos_in_Shimoda_2.jpg) |
 | `italian-beef-sandwich.webp` / `.jpg` | Italian Beef Sandwich | Hero | Buona Chicago's Original Italian Beef | The Buona Companies | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Buona_Chicago%27s_Original_Italian_Beef.jpg) |
 | `beef-on-weck.webp` / `.jpg` | Beef on Weck | Hero | Small - Beef on Weck | The original uploader was Nickgray at English Wikipedia. | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Small_-_Beef_on_Weck.jpg) |
 | `ham-salad.webp` / `.jpg` | Ham Salad | Hero | Ham salad spread (image of ham salad on Wikidata Q5643903) | stu_spivack | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ham_salad_spread.jpg) |
