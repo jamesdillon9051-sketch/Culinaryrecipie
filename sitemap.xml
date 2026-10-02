@@ -16440,7 +16440,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-pork-chops.jpg</image:loc>
       <image:title>Air Fryer Pork Chops</image:title>
-      <image:caption>Illustration of Air Fryer Pork Chops, an American dinner recipe — bone-in pork chops air fryer</image:caption>
+      <image:caption>Air Fryer Pork Chops, an American dinner recipe — bone-in pork chops air fryer</image:caption>
     </image:image>
   </url>
   <url>
@@ -17397,7 +17397,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-burgers.jpg</image:loc>
       <image:title>Turkey Burgers</image:title>
-      <image:caption>Illustration of Turkey Burgers, an American dinner recipe</image:caption>
+      <image:caption>Turkey Burgers, an American dinner recipe</image:caption>
     </image:image>
   </url>
   <url>
@@ -21940,7 +21940,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/manhattan.jpg</image:loc>
       <image:title>Manhattan</image:title>
-      <image:caption>Illustration of Manhattan, an American drink recipe</image:caption>
+      <image:caption>Manhattan, an American drink recipe</image:caption>
     </image:image>
   </url>
   <url>
@@ -22870,9 +22870,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tequila-sunrise/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tequila-sunrise.jpg</image:loc>
+      <image:title>Tequila Sunrise</image:title>
+      <image:caption>Tequila Sunrise, an American drink recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-chutney/</loc>
@@ -23911,9 +23916,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blue-lagoon/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/blue-lagoon.jpg</image:loc>
+      <image:title>Blue Lagoon</image:title>
+      <image:caption>Blue Lagoon, an American drink recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/branston-style-pickle/</loc>
@@ -25852,9 +25862,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/english-toffee/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/english-toffee.jpg</image:loc>
+      <image:title>English Toffee</image:title>
+      <image:caption>English Toffee, a British holiday recipe — chocolate almond toffee</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/divinity/</loc>

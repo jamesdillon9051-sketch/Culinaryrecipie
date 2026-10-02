@@ -6,14 +6,12 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (29) =======================================
+== American (27) =======================================
   grape-jelly-meatballs              Grape Jelly Meatballs   [4 refused already]
-  tequila-sunrise                    Tequila Sunrise   [5 refused already]
   beef-and-noodles                   Beef and Noodles   [9 refused already]
   chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [4 refused already]
   crack-chicken                      Crack Chicken   [9 refused already]
   green-chile-stew                   Green Chile Stew   [9 refused already]
-  blue-lagoon                        Blue Lagoon   [14 refused already]
   shirley-temple                     Shirley Temple   [5 refused already]
   southern-green-beans               Southern Green Beans   [7 refused already]
   creamy-tuscan-salmon               Creamy Tuscan Salmon   [3 refused already]
@@ -34,7 +32,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   strawberry-pretzel-salad           Strawberry Pretzel Salad   [3 refused already]
   sopapilla-cheesecake               Sopapilla Cheesecake
   cheese-crackers                    Cheese Crackers   [11 refused already]
-  ranch-water                        Ranch Water   [8 refused already]
+  ranch-water                        Ranch Water   [9 refused already]
   mudslide                           Mudslide   [6 refused already]
 
 == Canadian (11) =======================================
@@ -50,15 +48,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   portzelky                          Portzelky (New Year's Cookies)   [3 refused already]
   caribou                            Caribou   [14 refused already]
 
-== British (7) =========================================
-  lamb-bhuna                         Lamb Bhuna   [1 refused already]
-  butterfly-cakes                    Butterfly Cakes   [9 refused already]
-  steak-bake                         Steak Bake   [9 refused already]
-  omelette-arnold-bennett            Omelette Arnold Bennett   [9 refused already]
-  homemade-ginger-beer               Homemade Ginger Beer   [15 refused already]
-  cornflake-tart                     Cornflake Tart
-  english-toffee                     English Toffee   [7 refused already]
-
 == Australian (6) ======================================
   mars-bar-slice                     Mars Bar Slice   [3 refused already]
   tim-tam-slice                      Tim Tam Slice   [9 refused already]
@@ -66,6 +55,14 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   prawn-cutlets                      Prawn Cutlets   [8 refused already]
   ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [14 refused already]
   white-christmas                    White Christmas   [11 refused already]
+
+== British (6) =========================================
+  lamb-bhuna                         Lamb Bhuna   [1 refused already]
+  butterfly-cakes                    Butterfly Cakes   [9 refused already]
+  steak-bake                         Steak Bake   [9 refused already]
+  omelette-arnold-bennett            Omelette Arnold Bennett   [9 refused already]
+  homemade-ginger-beer               Homemade Ginger Beer   [15 refused already]
+  cornflake-tart                     Cornflake Tart
 
 == New Zealand (5) =====================================
   paraoa-parai                       Pāraoa Parai   [3 refused already]
@@ -86,7 +83,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 
 == French (2) ==========================================
   chicken-chasseur                   Chicken Chasseur   [7 refused already]
-  kir-royale                         Kir Royale   [10 refused already]
+  kir-royale                         Kir Royale   [13 refused already]
 
 == Irish (2) ===========================================
   irish-apple-cake                   Irish Apple Cake   [10 refused already]
@@ -104,4 +101,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 72 of 2415
+TOTAL 69 of 2415

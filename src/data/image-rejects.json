@@ -9282,6 +9282,18 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_Martini_4.jpg",
       "why": "not chosen or not the dish (Cit\u00e9 Martini 4)"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Elegant_cocktail_garnished_with_citrus_twist_presented_in_a_stylish_glass_on_a_wooden_bar.jpg",
+      "why": "a red cocktail with an orange peel, not a gin martini"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Martini_glass_2.JPG",
+      "why": "a tumbler printed with the Martini brand"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Martini_glass_3.JPG",
+      "why": "a tumbler printed with the Martini brand"
     }
   ],
   "crispy-baked-chicken-thighs": [
@@ -13314,6 +13326,18 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Kir_cocktail.jpg",
       "why": "not chosen or not the dish (Kir cocktail)"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kir_et_goug%C3%A8res.JPG",
+      "why": "red wine with cheese puffs, not a kir royale"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:SS_La_Suisse_Kir_210416.jpg",
+      "why": "a glass of amber liquid on a deck"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chardonnay_and_Kir_Royal.jpg",
+      "why": "two flutes of pale wine beside a carafe, no cassis to see"
     }
   ],
   "grasshopper": [
@@ -14392,6 +14416,10 @@
     {
       "page": "https://www.flickr.com/photos/7633518@N08/53027895877",
       "why": "a water tank or a branded can"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ranch_water.jpg",
+      "why": "a bottle of mineral water on a bar, not the drink"
     }
   ],
   "aviation": [
@@ -15664,6 +15692,18 @@
     {
       "page": "https://www.flickr.com/photos/93178668@N00/3867876777",
       "why": "jars of red jelly on a shelf"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:American_pot_roast.jpg",
+      "why": "a pot roast with carrots, no pepperoncini"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pot_roast_2.jpg",
+      "why": "a pot roast with carrots, no pepperoncini"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pot_roast.jpg",
+      "why": "a pot roast with carrots, no pepperoncini"
     }
   ],
   "sweet-and-sour-chicken": [
