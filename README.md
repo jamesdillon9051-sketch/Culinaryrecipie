@@ -3032,7 +3032,11 @@ and not a kebab served.
 Nothing in this pass was cooked, and a picture of a dish says little about
 whether its recipe works. Every photograph was judged at 480 pixels across and
 looked at again larger; the likeliest faults left are ones neither size shows,
-and the list above is where to look first. Any of them can be refused with `tools/review_images.py`, which
+and the list above is where to look first. After the last build a random sample of
+48 of the 826 photographs published in this pass was looked at
+once more, at 480 pixels: all 48 show the dish, and 27 of them are
+on the list above for being a different version of it or for something extra in the
+frame. That is a sample and not a proof. Any photograph can be refused with `tools/review_images.py`, which
 puts the recipe back on its gradient card.
 
 69 recipes of the 501 are still on a gradient card. For most of
