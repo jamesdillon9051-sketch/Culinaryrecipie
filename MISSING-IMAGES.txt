@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (93) =======================================
+== American (80) =======================================
   grape-jelly-meatballs              Grape Jelly Meatballs   [4 refused already]
   beef-and-noodles                   Beef and Noodles   [9 refused already]
   chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [4 refused already]
@@ -34,86 +34,72 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cheese-crackers                    Cheese Crackers   [11 refused already]
   ranch-water                        Ranch Water   [9 refused already]
   mudslide                           Mudslide   [6 refused already]
-  savory-oatmeal-with-egg-and-spinach Savory Oatmeal with Egg and Spinach   [4 refused already]
-  sheet-pan-eggs                     Sheet Pan Eggs   [2 refused already]
-  spinach-and-feta-breakfast-wrap    Spinach and Feta Breakfast Wrap   [7 refused already]
-  flaxseed-muffins                   Flaxseed Muffins
-  tuna-stuffed-avocados              Tuna-Stuffed Avocados   [8 refused already]
-  crab-stuffed-avocados              Crab-Stuffed Avocados   [9 refused already]
-  egg-roll-skillet                   Egg Roll Skillet   [8 refused already]
-  marinated-vegetable-salad          Marinated Vegetable Salad   [6 refused already]
-  mushroom-swiss-burger-bowls        Mushroom Swiss Burger Bowls   [8 refused already]
-  lettuce-wrap-burgers               Lettuce Wrap Burgers   [15 refused already]
-  parmesan-crusted-chicken           Parmesan-Crusted Chicken   [11 refused already]
-  cheesy-cauliflower-casserole       Cheesy Cauliflower Casserole   [8 refused already]
-  spiced-roasted-almonds             Spiced Roasted Almonds   [8 refused already]
+  sheet-pan-eggs                     Sheet Pan Eggs   [8 refused already]
+  spinach-and-feta-breakfast-wrap    Spinach and Feta Breakfast Wrap   [9 refused already]
+  tuna-stuffed-avocados              Tuna-Stuffed Avocados   [10 refused already]
+  egg-roll-skillet                   Egg Roll Skillet   [9 refused already]
+  marinated-vegetable-salad          Marinated Vegetable Salad   [9 refused already]
+  mushroom-swiss-burger-bowls        Mushroom Swiss Burger Bowls   [15 refused already]
+  lettuce-wrap-burgers               Lettuce Wrap Burgers   [19 refused already]
+  parmesan-crusted-chicken           Parmesan-Crusted Chicken   [15 refused already]
+  cheesy-cauliflower-casserole       Cheesy Cauliflower Casserole   [12 refused already]
+  spiced-roasted-almonds             Spiced Roasted Almonds   [12 refused already]
   turkey-roll-ups                    Turkey Roll-Ups   [2 refused already]
-  greek-yogurt-ranch-dip             Greek Yogurt Ranch Dip   [4 refused already]
-  cauliflower-tater-tots             Cauliflower Tater Tots   [1 refused already]
-  almond-flour-bread                 Almond Flour Bread   [4 refused already]
-  crustless-pumpkin-pie              Crustless Pumpkin Pie   [5 refused already]
-  fathead-pizza                      Fathead Pizza
-  veggie-egg-white-omelet            Veggie Egg White Omelet   [8 refused already]
-  sweet-potato-toast                 Sweet Potato Toast   [9 refused already]
-  cottage-cheese-flatbread           Cottage Cheese Flatbread   [9 refused already]
-  hearty-chicken-and-kale-soup       Hearty Chicken and Kale Soup   [7 refused already]
+  cauliflower-tater-tots             Cauliflower Tater Tots   [5 refused already]
+  almond-flour-bread                 Almond Flour Bread   [8 refused already]
+  crustless-pumpkin-pie              Crustless Pumpkin Pie   [12 refused already]
+  fathead-pizza                      Fathead Pizza   [5 refused already]
+  veggie-egg-white-omelet            Veggie Egg White Omelet   [13 refused already]
+  sweet-potato-toast                 Sweet Potato Toast   [10 refused already]
+  cottage-cheese-flatbread           Cottage Cheese Flatbread   [14 refused already]
+  hearty-chicken-and-kale-soup       Hearty Chicken and Kale Soup   [11 refused already]
   egg-roll-soup                      Egg Roll Soup   [7 refused already]
   chilled-cucumber-soup              Chilled Cucumber Soup   [6 refused already]
-  rainbow-slaw                       Rainbow Slaw   [2 refused already]
-  cucumber-noodle-salad              Cucumber Noodle Salad   [6 refused already]
-  buffalo-chicken-lettuce-wraps      Buffalo Chicken Lettuce Wraps   [2 refused already]
-  turkey-avocado-wrap                Turkey Avocado Wrap   [5 refused already]
+  rainbow-slaw                       Rainbow Slaw   [7 refused already]
+  cucumber-noodle-salad              Cucumber Noodle Salad   [7 refused already]
+  buffalo-chicken-lettuce-wraps      Buffalo Chicken Lettuce Wraps   [3 refused already]
   turkey-pinwheels                   Turkey Pinwheels   [3 refused already]
-  turkey-sausage-and-vegetable-skillet Turkey Sausage and Vegetable Skillet   [6 refused already]
-  cajun-chicken-and-cabbage-skillet  Cajun Chicken and Cabbage Skillet   [2 refused already]
+  turkey-sausage-and-vegetable-skillet Turkey Sausage and Vegetable Skillet   [10 refused already]
+  cajun-chicken-and-cabbage-skillet  Cajun Chicken and Cabbage Skillet   [7 refused already]
   shrimp-foil-packets                Shrimp Foil Packets   [3 refused already]
-  sheet-pan-salmon-and-asparagus     Sheet Pan Salmon and Asparagus   [8 refused already]
-  air-fryer-cod                      Air Fryer Cod   [8 refused already]
-  instant-pot-chicken-breast         Instant Pot Chicken Breast   [7 refused already]
-  baked-tilapia-with-tomatoes        Baked Tilapia with Tomatoes   [10 refused already]
-  poached-chicken-breast             Poached Chicken Breast   [9 refused already]
-  philly-cheesesteak-stuffed-peppers Philly Cheesesteak Stuffed Peppers   [2 refused already]
-  air-fryer-tilapia                  Air Fryer Tilapia   [8 refused already]
-  lemon-roasted-broccoli             Lemon Roasted Broccoli   [8 refused already]
-  air-fryer-green-beans              Air Fryer Green Beans   [8 refused already]
-  air-fryer-mushrooms                Air Fryer Mushrooms   [8 refused already]
-  cottage-cheese-ranch-dip           Cottage Cheese Ranch Dip   [11 refused already]
+  air-fryer-cod                      Air Fryer Cod   [12 refused already]
+  instant-pot-chicken-breast         Instant Pot Chicken Breast   [13 refused already]
+  baked-tilapia-with-tomatoes        Baked Tilapia with Tomatoes   [17 refused already]
+  philly-cheesesteak-stuffed-peppers Philly Cheesesteak Stuffed Peppers   [8 refused already]
+  air-fryer-tilapia                  Air Fryer Tilapia   [12 refused already]
+  lemon-roasted-broccoli             Lemon Roasted Broccoli   [12 refused already]
+  air-fryer-green-beans              Air Fryer Green Beans   [10 refused already]
+  cottage-cheese-ranch-dip           Cottage Cheese Ranch Dip   [15 refused already]
   cottage-cheese-ice-cream           Cottage Cheese Ice Cream   [7 refused already]
   frozen-chocolate-banana-bites      Frozen Chocolate Banana Bites   [6 refused already]
-  egg-white-frittata-with-peppers-and-onions Egg White Frittata with Peppers and Onions   [5 refused already]
-  egg-white-bites                    Egg White Bites   [10 refused already]
-  egg-white-oatmeal                  Egg White Oatmeal   [9 refused already]
-  egg-white-wraps                    Egg White Wraps   [9 refused already]
-  egg-white-english-muffin-sandwich  Egg White English Muffin Sandwich   [12 refused already]
-  apple-sage-chicken                 Apple Sage Chicken   [8 refused already]
-  chicken-cucumber-cups              Chicken Cucumber Cups   [3 refused already]
-  apple-chicken-sausage              Apple Chicken Sausage   [15 refused already]
-  turkey-rice-skillet                Turkey Rice Skillet   [8 refused already]
-  turkey-vegetable-soup              Turkey Vegetable Soup   [3 refused already]
-  cranberry-turkey-cutlets           Cranberry Turkey Cutlets   [5 refused already]
-  pork-tenderloin-with-pears         Pork Tenderloin with Pears   [10 refused already]
-  beef-and-rice-skillet              Beef and Rice Skillet   [7 refused already]
-  herb-burgers                       Herb Burgers   [8 refused already]
-  pineapple-shrimp-skewers           Pineapple Shrimp Skewers   [3 refused already]
-  shrimp-lettuce-cups                Shrimp Lettuce Cups   [4 refused already]
-  tuna-cucumber-boats                Tuna Cucumber Boats   [2 refused already]
-  flounder-with-lemon-butter         Flounder with Lemon Butter   [4 refused already]
-  oven-baked-catfish                 Oven-Baked Catfish   [7 refused already]
-  tilapia-foil-packets               Tilapia Foil Packets   [1 refused already]
+  egg-white-frittata-with-peppers-and-onions Egg White Frittata with Peppers and Onions   [9 refused already]
+  egg-white-bites                    Egg White Bites   [17 refused already]
+  egg-white-wraps                    Egg White Wraps   [13 refused already]
+  egg-white-english-muffin-sandwich  Egg White English Muffin Sandwich   [19 refused already]
+  apple-sage-chicken                 Apple Sage Chicken   [12 refused already]
+  apple-chicken-sausage              Apple Chicken Sausage   [21 refused already]
+  turkey-rice-skillet                Turkey Rice Skillet   [12 refused already]
+  cranberry-turkey-cutlets           Cranberry Turkey Cutlets   [12 refused already]
+  pork-tenderloin-with-pears         Pork Tenderloin with Pears   [15 refused already]
+  beef-and-rice-skillet              Beef and Rice Skillet   [14 refused already]
+  herb-burgers                       Herb Burgers   [15 refused already]
+  pineapple-shrimp-skewers           Pineapple Shrimp Skewers   [5 refused already]
+  shrimp-lettuce-cups                Shrimp Lettuce Cups   [5 refused already]
+  tuna-cucumber-boats                Tuna Cucumber Boats   [7 refused already]
+  oven-baked-catfish                 Oven-Baked Catfish   [9 refused already]
 
-== Italian (13) ========================================
+== Italian (12) ========================================
   italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
   chicken-scarpariello               Chicken Scarpariello   [2 refused already]
   italian-seasoning                  Italian Seasoning   [4 refused already]
-  chicken-florentine                 Chicken Florentine   [8 refused already]
-  pesto-chicken-bake                 Pesto Chicken Bake   [10 refused already]
-  bruschetta-chicken                 Bruschetta Chicken   [6 refused already]
-  eggplant-pizzas                    Eggplant Pizzas   [14 refused already]
-  zucchini-pizza-bites               Zucchini Pizza Bites   [7 refused already]
+  chicken-florentine                 Chicken Florentine   [12 refused already]
+  pesto-chicken-bake                 Pesto Chicken Bake   [15 refused already]
+  bruschetta-chicken                 Bruschetta Chicken   [13 refused already]
+  eggplant-pizzas                    Eggplant Pizzas   [18 refused already]
+  zucchini-pizza-bites               Zucchini Pizza Bites   [14 refused already]
   portobello-pizzas                  Portobello Pizzas   [7 refused already]
-  eggplant-lasagna-roll-ups          Eggplant Lasagna Roll-Ups   [6 refused already]
-  garlic-chicken-pasta               Garlic Chicken Pasta   [15 refused already]
-  lemon-turkey-cutlets               Lemon Turkey Cutlets   [5 refused already]
+  garlic-chicken-pasta               Garlic Chicken Pasta   [18 refused already]
+  lemon-turkey-cutlets               Lemon Turkey Cutlets   [7 refused already]
   flounder-francese                  Flounder Francese
 
 == Canadian (11) =======================================
@@ -129,39 +115,33 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   portzelky                          Portzelky (New Year's Cookies)   [3 refused already]
   caribou                            Caribou   [14 refused already]
 
-== Chinese (11) ========================================
+== Chinese (8) =========================================
   mongolian-lamb                     Mongolian Lamb   [9 refused already]
   crispy-seaweed                     Crispy Seaweed   [14 refused already]
   crispy-aromatic-duck               Crispy Aromatic Duck   [3 refused already]
-  baked-tofu-cubes                   Baked Tofu Cubes   [8 refused already]
-  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [5 refused already]
-  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [11 refused already]
-  ginger-chicken-soup                Ginger Chicken Soup   [12 refused already]
+  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [9 refused already]
+  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [16 refused already]
+  ginger-chicken-soup                Ginger Chicken Soup   [18 refused already]
   turkey-stir-fry-with-peppers       Turkey Stir-Fry with Peppers   [1 refused already]
-  garlic-beef-stir-fry               Garlic Beef Stir-Fry   [12 refused already]
-  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [8 refused already]
-  baked-tofu-with-garlic-and-ginger  Baked Tofu with Garlic and Ginger   [8 refused already]
+  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [15 refused already]
 
-== Mexican (9) =========================================
-  chopped-mexican-salad-with-lime    Chopped Mexican Salad with Lime   [1 refused already]
-  almond-flour-tortillas             Almond Flour Tortillas   [2 refused already]
-  black-bean-breakfast-tostadas      Black Bean Breakfast Tostadas   [8 refused already]
-  chicken-fajita-soup                Chicken Fajita Soup   [8 refused already]
-  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [4 refused already]
-  shrimp-taco-bowls                  Shrimp Taco Bowls   [5 refused already]
-  chipotle-lime-chicken              Chipotle Lime Chicken   [8 refused already]
-  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [12 refused already]
-  egg-white-burrito-bowl             Egg White Burrito Bowl   [6 refused already]
-
-== British (8) =========================================
+== British (7) =========================================
   lamb-bhuna                         Lamb Bhuna   [1 refused already]
   butterfly-cakes                    Butterfly Cakes   [9 refused already]
   steak-bake                         Steak Bake   [9 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [9 refused already]
   homemade-ginger-beer               Homemade Ginger Beer   [15 refused already]
   cornflake-tart                     Cornflake Tart
-  cauliflower-shepherds-pie          Cauliflower Shepherd's Pie   [2 refused already]
-  baked-haddock-with-herbs           Baked Haddock with Herbs   [5 refused already]
+  baked-haddock-with-herbs           Baked Haddock with Herbs   [7 refused already]
+
+== Mexican (7) =========================================
+  almond-flour-tortillas             Almond Flour Tortillas   [2 refused already]
+  chicken-fajita-soup                Chicken Fajita Soup   [9 refused already]
+  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [7 refused already]
+  shrimp-taco-bowls                  Shrimp Taco Bowls   [9 refused already]
+  chipotle-lime-chicken              Chipotle Lime Chicken   [15 refused already]
+  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [19 refused already]
+  egg-white-burrito-bowl             Egg White Burrito Bowl   [10 refused already]
 
 == Australian (6) ======================================
   mars-bar-slice                     Mars Bar Slice   [3 refused already]
@@ -181,41 +161,36 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == French (4) ==========================================
   chicken-chasseur                   Chicken Chasseur   [7 refused already]
   kir-royale                         Kir Royale   [13 refused already]
-  sole-with-herbs                    Sole with Herbs   [10 refused already]
+  sole-with-herbs                    Sole with Herbs   [11 refused already]
   sole-with-grapes                   Sole with Grapes   [6 refused already]
-
-== Greek (3) ===========================================
-  greek-chicken-bowls                Greek Chicken Bowls   [3 refused already]
-  spinach-and-feta-stuffed-chicken-breast Spinach and Feta Stuffed Chicken Breast   [3 refused already]
-  cod-with-tomatoes-and-olives       Cod with Tomatoes and Olives   [6 refused already]
 
 == Irish (2) ===========================================
   irish-apple-cake                   Irish Apple Cake   [10 refused already]
   irish-cream                        Irish Cream   [8 refused already]
 
 == Middle Eastern (2) ==================================
-  cucumber-hummus-bites              Cucumber Hummus Bites   [2 refused already]
-  chicken-kofta                      Chicken Kofta   [7 refused already]
+  cucumber-hummus-bites              Cucumber Hummus Bites   [6 refused already]
+  chicken-kofta                      Chicken Kofta   [10 refused already]
+
+== Greek (1) ===========================================
+  greek-chicken-bowls                Greek Chicken Bowls   [3 refused already]
 
 == Hawaiian (1) ========================================
-  pineapple-chicken-skewers          Pineapple Chicken Skewers   [6 refused already]
+  pineapple-chicken-skewers          Pineapple Chicken Skewers   [9 refused already]
 
 == Indian (1) ==========================================
-  moong-dal-chilla                   Moong Dal Chilla   [10 refused already]
+  moong-dal-chilla                   Moong Dal Chilla   [17 refused already]
 
 == International (1) ===================================
   painkiller                         Painkiller   [8 refused already]
-
-== Japanese (1) ========================================
-  shirataki-noodle-stir-fry          Shirataki Noodle Stir-Fry   [6 refused already]
 
 == Scottish (1) ========================================
   empire-biscuits                    Empire Biscuits   [9 refused already]
 
 == Spanish (1) =========================================
-  smoked-paprika-chicken             Smoked Paprika Chicken   [8 refused already]
+  smoked-paprika-chicken             Smoked Paprika Chicken   [13 refused already]
 
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 174 of 2715
+TOTAL 151 of 2715

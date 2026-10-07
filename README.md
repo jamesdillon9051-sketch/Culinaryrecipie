@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6048 image files (WebP + JPEG)
+│       └── img/recipes/         # 6094 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6048 image files
+├── assets/                      #    css, js and 6094 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 245,676 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,694 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2430 of the 2715 recipes have a photograph. Of the 2913 images on the site,
-1185 are CC0 or public domain, 874 are CC BY and 854 are CC BY-SA. Anything
+2453 of the 2715 recipes have a photograph. Of the 2936 images on the site,
+1186 are CC0 or public domain, 890 are CC BY and 860 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -3352,10 +3352,10 @@ the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
 contact sheet and looked at before anything was published, which is still the
 only check that has worked. Ninety-four were published and 178 refused; a second
 look, below, withdrew fourteen more, which left 80. The rounds after it are
-under their own headings. As the data stands there are 195 photographs, 68 in
-volume thirty-two, 65 in volume thirty-three and 62 in volume thirty-four, and
-105 of the 300 recipes are on their gradient card. No illustration was
-generated: the 111 labelled drawings on the site are the same 111 as before.
+under their own headings. As the data stands there are 218 photographs, 78 in
+volume thirty-two, 71 in volume thirty-three and 69 in volume thirty-four, and
+82 of the 300 recipes are on their gradient card. No illustration was generated:
+the 111 labelled drawings on the site are the same 111 as before.
 
 The 178 refusals are the usual kinds, and each archive page is recorded in
 `src/data/image-rejects.json` so that a later fetch does not offer it again.
@@ -3774,6 +3774,99 @@ closely enough that nothing needed listing. By licence these 60 are 4 CC0 or
 public domain, 35 CC BY and 21 CC BY-SA, and they come from Flickr (40) and
 Wikimedia Commons (20).
 
+### The fifth round, and what is left
+
+The fifth round was for the 105 recipes still on a gradient card, the ones that
+four searches had not answered, and it gave each of them two more names
+("avocado stuffed with tuna", "florentine chicken spinach", "ground turkey
+rice", "sole véronique"). `tools/wide_search.py` ran those through the Commons
+file search, and 330 requests went to Openverse: the first new name for each
+recipe, then the second, then the second name from the fourth round, which had
+only been tried on Commons, and last the first name's second page of results. 93
+of the 105 recipes had at least one candidate and 12 had none: the turkey
+roll-ups, almond flour tortillas, egg roll soup, chilled cucumber soup,
+portobello pizzas, turkey pinwheels, shrimp foil packets, cottage cheese ice
+cream, frozen chocolate banana bites, turkey stir-fry with peppers, flounder
+francese and sole with grapes. Pages that had been refused or published were
+left out, and up to four Openverse and three Commons candidates were kept for
+each recipe, 406 in all, and read by their archive titles.
+
+The titles settled 318 of them, and those were never downloaded: three Navy
+photographs of a carrier onboard delivery aircraft, whose abbreviation is COD,
+offered to the cod with tomatoes and olives; a sake brewery and a railway
+station called Shirataki for the shirataki noodle stir-fry; a porcelain cup with
+an egg-white glaze for the egg white bites; a Cajun meat shop in Shreveport,
+five times, for the Cajun chicken and cabbage skillet; a packet of pumpkin spice
+almonds, four times, for the spiced roasted almonds. Each of the 318 is recorded
+in `src/data/image-rejects.json` with "judged from the archive title" in its
+reason, so the record does not pretend they were looked at. 88 were chosen to
+download, 80 arrived and 8 were not served. The 80 were looked at nine to a
+sheet at 480 px: 45 were refused outright, 3 were passed over because they were
+the same picture as another candidate or as one the site already had, and 32
+went on to a second look at 720 px, with the recipe's lede and diet labels
+beside them and the doubtful ones zoomed. 23 were published and 9 turned down.
+
+The refusals are the usual kinds again, and the labels did most of the work.
+Cheese or sour cream covered all three photographs offered to the dairy-free egg
+white breakfast tacos, and a big dollop of both was on the dairy-free shrimp
+taco bowls. A wheat flatbread with scrambled egg and Parmesan was offered twice
+to the gluten-free egg white wraps. A pasta soup in a creamy tomato broth was
+offered to the gluten-free turkey vegetable soup. The cheesy cauliflower
+casserole's photograph looked right until it was zoomed, and its topping is
+breadcrumbs, on a gluten-free recipe whose own topping is Parmesan and almond.
+The archive's own titles refused three more: fish sauce on a vegetarian egg and
+cabbage stir-fry, brown sugar on the sheet pan salmon, and Parmesan on a
+dairy-free garlic chicken pasta. A printed recipe card was offered to the egg
+white burrito bowl, a half-eaten burger to the lettuce wrap burgers, burgers on
+buns to the bunless mushroom Swiss burger bowls, a whole roast chicken at a
+family table to the smoked paprika chicken, and two restaurant plates of chicken
+under a thick cheese sauce to the Parmesan-crusted chicken, whose own crust is
+dry.
+
+Every one of the 23 that were published was compared by the perceptual hash with
+every picture on the site, and none is within 14 bits of another. Several are
+the weakest photographs in this section, and the table says so: a soft-focus
+stuffed chicken breast with a blurred border, a cod fillet on the tilapia foil
+packets, a catering tray for the chicken cucumber cups, oatmeal in cocoa where
+the recipe has apple. They are published because each shows the dish, or its
+nearest kin, and nothing that contradicts a label, and a reader can see for
+themselves how far it differs. The 23 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Savory Oatmeal with Egg and Spinach | a fried egg crusted with hemp seeds on what looks like oats in a bowl, with a drizzle of sauce; no spinach shows, and the recipe finishes the egg with Parmesan |
+| Flaxseed Muffins | two brown muffins with pieces of peach, close up; the archive title says molasses, and the recipe has cinnamon and walnuts and no peach |
+| Chopped Mexican Salad with Lime | chopped lettuce with radish slices, corn and dark pieces that look like black beans or olives, in a white dish; the recipe has romaine, tomato, cucumber, pepper and avocado and no radish |
+| Crab-Stuffed Avocados | two avocado halves filled with a pink-beige crab salad, with mint leaves around them and a slice of bread behind; the recipe is the avocado and its filling alone |
+| Spinach and Feta Stuffed Chicken Breast | a stuffed breast with spinach showing at the cut end, beside glazed fruit and mushrooms on rice or quinoa; a soft-focus picture with a blurred border |
+| Cauliflower Shepherd's Pie | a pie under a browned layer of grated cheese, with a salad bowl and a branded pudding cup on the tray; the archive calls it a cowboy pie, and the recipe's mash has no cheese |
+| Cod with Tomatoes and Olives | a white cod fillet under a bright green herb sauce on a salad of chopped fresh tomato and olives; the recipe simmers the fish in a thick cooked tomato sauce and has no green sauce |
+| Shirataki Noodle Stir-Fry | thin noodles stir-fried with carrot, mushroom and peas and a few pale slices, in a white bowl; no tofu or pak choi can be picked out |
+| Baked Tofu Cubes | golden fried tofu cubes, one held in chopsticks, on a bed of pickled cabbage; there is no glaze, and the recipe bakes the cubes and tosses them in soy, ginger and garlic |
+| Greek Yogurt Ranch Dip | a creamy white dip in a hollowed red pepper, with carrot, cucumber and pepper sticks around it; no herbs can be seen in the dip |
+| Black Bean Breakfast Tostadas | two tostadas under sprouts, salsa, avocado, black olives and sour cream on a blue plate; there is no fried egg or queso fresco, and the black beans are out of sight |
+| Turkey Avocado Wrap | a wrap cut in half on paper, showing turkey, avocado, spinach and what look like strips of bacon, with whole-grain chips beside it; the recipe has tomato, lettuce and mustard and no bacon |
+| Sheet Pan Salmon and Asparagus | a close-up of a seared salmon fillet with thyme leaves and a little asparagus blurred behind it; the recipe roasts the fish on a tray with tomatoes and a paprika rub |
+| Eggplant Lasagna Roll-Ups | one roll under tomato sauce and basil with a white cheese filling showing; no spinach shows and there is no browned mozzarella on top |
+| Poached Chicken Breast | sliced poached chicken on spinach and broccolini with almonds, and the blogger's caption in the corner; the recipe is the chicken alone |
+| Air Fryer Mushrooms | sliced mushrooms cooked dark in a white bowl on a hob, in poor light; the recipe halves them and cooks them in an air fryer |
+| Egg White Oatmeal | a bowl of cocoa-coloured oatmeal under sliced banana; the recipe is oats with apple and cinnamon |
+| Chicken Cucumber Cups | a catering tray of dozens of small cucumber cups filled with a corn and pepper salad, with chafing dishes behind; the recipe is thicker rounds filled with chicken, yogurt, dill and red onion |
+| Turkey Vegetable Soup | a floral soup plate of turkey and rice stew with corn, carrot and celery; the recipe has cabbage and no corn |
+| Garlic Beef Stir-Fry | strips of beef with pak choi and ginger matchsticks in a white bowl with chopsticks; the recipe has green beans and sliced garlic |
+| Flounder with Lemon Butter | a whole pan-roasted flatfish with scored dark skin, a lemon wedge and chopped herbs, with a salad behind it; the recipe is thin fillets |
+| Tilapia Foil Packets | a white fish fillet on carrot and leek strips in an opened foil packet, with herbs and zest; the archive title says cod, and the recipe has tilapia with zucchini, red pepper and lemon |
+| Baked Tofu with Garlic and Ginger | golden tofu cubes in a crumb coating under a sticky glaze with spring onion and fried shallot; the recipe is slabs of tofu baked under a glaze |
+
+By licence these 23 are 1 CC0 or public domain, 16 CC BY and 6 CC BY-SA, and
+they come from Flickr (22) and Wikimedia (1).
+
+That leaves 82 of the 300 recipes on a gradient card. For these the searches
+found either nothing or something else: a restaurant dish with a bun, a
+breadcrumb coating, a cheese sauce or cream. A photograph of the dish cooked
+from the recipe, taken by whoever cooks it, would be the first that could be
+compared with it.
+
 ### Judgement calls
 
 - The Weight-Loss Friendly label has no sodium limit, because its rule is about
@@ -3827,11 +3920,11 @@ need a second try are the ones whose structure comes from an unusual base: the
 almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
 tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
 
-105 of the 300 recipes are on a gradient card. `npm run images` will try them
+82 of the 300 recipes are on a gradient card. `npm run images` will try them
 again (it does not offer a page that has been refused) and
 `tools/wide_search.py` reads the Wikipedia article and the Commons category for
 a dish in full, and neither publishes anything until a person has looked. Every
-one of the 195 photographs was looked at before it was published, the first 94
+one of the 218 photographs was looked at before it was published, the first 94
 twice, and what contradicted its label has been withdrawn, but none has been
 compared with the finished dish, and a reader may still find one that is not
 quite right.
