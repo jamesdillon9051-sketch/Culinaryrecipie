@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5884 image files (WebP + JPEG)
+│       └── img/recipes/         # 5930 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5884 image files
+├── assets/                      #    css, js and 5930 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 245,598 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,619 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2347 of the 2715 recipes have a photograph. Of the 2831 images on the site,
-1178 are CC0 or public domain, 831 are CC BY and 822 are CC BY-SA. Anything
+2370 of the 2715 recipes have a photograph. Of the 2854 images on the site,
+1182 are CC0 or public domain, 839 are CC BY and 833 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -3342,9 +3342,9 @@ the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
 contact sheet and looked at before anything was published, which is still the
 only check that has worked. Ninety-four were published and 178 refused; a second
 look, below, withdrew fourteen more, which left 80. The rounds after it are
-under their own headings. As the data stands there are 112 photographs, 41 in
-volume thirty-two, 38 in volume thirty-three and 33 in volume thirty-four, and
-188 of the 300 recipes are on their gradient card. No illustration was
+under their own headings. As the data stands there are 135 photographs, 46 in
+volume thirty-two, 44 in volume thirty-three and 45 in volume thirty-four, and
+165 of the 300 recipes are on their gradient card. No illustration was
 generated: the 111 labelled drawings on the site are the same 111 as before.
 
 The 178 refusals are the usual kinds, and each archive page is recorded in
@@ -3577,6 +3577,68 @@ recorded as Unknown, and the page gives its title, its licence (public domain)
 and the archive. The check that one archive page is never the picture of two
 dishes could not see this, because each page had only ever been used once.
 
+### The third round, and the curated sources
+
+The third round was for the 188 recipes still on a gradient card, and it asked
+the archives a different way. `tools/wide_search.py` reads the English Wikipedia
+article for a dish, and the Commons category filed under its name, in full; and
+it runs the Commons file search by name with the ordinary fetcher's dish-name
+heuristics left off, which finds files the fetcher's own search turned away.
+Together they found at least one candidate for 86 of the 188 recipes (40 from
+the articles and categories, 65 from the file search), and 336 candidates were
+downloaded.
+
+Most were not worth a second look. 84 were opened and looked at, four to a sheet
+at 720 px: 23 were published, 11 were passed over because a better candidate for
+the same recipe had been chosen, and 50 were refused. The other 252 were refused
+from their archive titles without being opened, because the title named
+something that is not the dish: "Egg white 1" and "Raw egg", offered to eight
+egg white recipes, a satellite image of clouds for the air-popped popcorn, pages
+from a seventeenth-century botanical book for the sole with herbs, a grape
+harvest for the sole with grapes, tubs of plain cottage cheese for three cottage
+cheese recipes. Each of those 252 is recorded in `src/data/image-rejects.json`
+with "judged from the archive title" in its reason, so the record does not
+pretend they were looked at. The refusals after looking were of the usual kinds:
+raw ground meat being mixed for the apple chicken sausage, a woman arranging
+kale chips in a shop, a whole chicken in a pot of broth for the ginger chicken
+soup, skewers of beef and chicken for the vegan grilled vegetable skewers, a
+pizza on a wheat crust for the gluten-free eggplant pizzas, goat's cheese on the
+dairy-free sweet potato toast, zucchini spaghetti under breadcrumbs for the
+gluten-free zucchini noodles.
+
+One photograph was offered to two recipes: pork kabobs with pineapple, pepper,
+onion and cherry tomato went to both the pork and pineapple skewers and the
+pineapple chicken skewers. They are pork, so only the pork recipe has them.
+Every kept photograph was also compared by a perceptual hash with every
+photograph already on the site, to catch the same picture under another archive
+page, and none matched. The 23 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Chicken Vegetable Soup | a mug of clear soup with carrot, zucchini, leek and mushrooms; the recipe has celery and green beans and no mushrooms |
+| Steak Salad | grilled steak with avocado, tomato, black beans, corn, tortilla strips and a dressing in a cup; the recipe has sliced sirloin with cucumber, red onion and blue cheese |
+| Kale and Apple Salad | kale with diced apple in a bowl, dressed with balsamic according to the archive title; no Parmesan, walnuts or cranberries to be seen |
+| Sunomono | wakame seaweed, cucumber chunks and enoki mushrooms in a close crop; the recipe is paper-thin cucumber |
+| Chili Lime Shrimp | seasoned shrimp searing in a ridged pan, before any lime or cilantro |
+| Roasted Tomatoes with Herbs | two roasted tomato halves with black pepper on a bed of corn kernels, with no herbs to be seen |
+| Apple Cinnamon Egg White Pancakes | a restaurant stack of pancakes topped with cooked apple and whipped cream; the recipe has grated apple in the batter and maple syrup to serve |
+| Lemongrass Chicken | stir-fried chicken with onion and lemongrass on a restaurant plate with steamed rice, herbs, pickled carrot and radish and a dipping sauce |
+| Chicken Rice Noodle Stir-Fry | a restaurant plate of rice vermicelli stir-fried with chicken, egg, basil, tomato and zucchini in a brown sauce; the recipe has flat rice noodles, cabbage and carrot, with lime and no soy sauce |
+| Chicken Fajita Rice Bowls | the chicken, pepper and onion filling in a frying pan on the hob, without the rice |
+| Turkey Apple Wraps | a supermarket turkey, apple and cranberry wrap cut in half in its plastic tray; the archive title names the shop |
+| Pork and Pineapple Skewers | pork, red pepper, onion, cherry tomato and pineapple skewers on a grill; the pork looks fattier than loin |
+| Honey Mustard Pork Chops | glazed pork chops on a barbecue over open flame, in the middle of cooking; the recipe sears boneless chops in a pan |
+| Pork Chop Suey | a takeaway tray of chop suey with chunks of meat, potato, carrot, red pepper and cabbage in a brown gravy; the recipe has thin pork strips with napa cabbage, bean sprouts and mushrooms |
+| Garlic Herb Shrimp Skewers | herb-crusted grilled shrimp with lemon wedges, with the skewers and zucchini out of frame |
+| Snapper with Herbs | a whole wood-roasted snapper under a salad of raw chilli, herbs and lime in dim restaurant light; the recipe bakes fillets |
+| Tofu Rice Bowls | crumbled tofu with spring onion and chilli oil over rice; the recipe has pan-fried tofu cubes with cucumber, red cabbage and carrot |
+
+The other six (chicken francese, baked lemon dill salmon, kale chips, roasted
+delicata squash, air-popped popcorn and chicken fried rice) match the recipe
+closely enough that nothing needed listing. By licence these 23 are 4 CC0 or
+public domain, 8 CC BY and 11 CC BY-SA, and they come from Wikimedia Commons
+(23).
+
 ### Judgement calls
 
 - The Weight-Loss Friendly label has no sodium limit, because its rule is about
@@ -3630,11 +3692,11 @@ need a second try are the ones whose structure comes from an unusual base: the
 almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
 tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
 
-188 of the 300 recipes are on a gradient card. `npm run images` will try them
+165 of the 300 recipes are on a gradient card. `npm run images` will try them
 again (it does not offer a page that has been refused) and
 `tools/wide_search.py` reads the Wikipedia article and the Commons category for
 a dish in full, and neither publishes anything until a person has looked. Every
-one of the 112 photographs was looked at before it was published, the first 94
+one of the 135 photographs was looked at before it was published, the first 94
 twice, and what contradicted its label has been withdrawn, but none has been
 compared with the finished dish, and a reader may still find one that is not
 quite right.
