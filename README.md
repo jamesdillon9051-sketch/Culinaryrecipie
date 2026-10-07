@@ -3120,6 +3120,472 @@ searched for. Whether they stay, or the recipes go back on a gradient card until
 photograph turns up, is the owner's decision; `tools/generate_images.py` is not to
 be run again, and `CLAUDE.md` says so.
 
+## Volumes thirty-two to thirty-four, three hundred recipes for diabetes, weight loss and the kidney
+
+Three more volumes of a hundred, taking the site from 2,415 to 2,715. The owner
+asked for "100 most famous searched on internet recipes in usa and canada for
+diabetes patients", another hundred for weight loss, and a hundred protein-rich
+ones "which is also safe for kidney", with real photographs fetched in the
+background while the recipes were written. The standing rules applied. Every
+dish is an ordinary `/recipes/<slug>/` page, the same dish is never published
+twice, nothing already on the site was changed, and a recipe with no correct
+photograph stays on its gradient card. Nothing was drawn.
+
+Two phrases in that request could not be taken literally. "Most famous searched"
+needs search data, and the repository holds none and the build fetches none, so
+the three catalogue headers say that no search-volume data was used: these are
+familiar dishes that people look for by name, chosen by judgement and graded
+against the catalogue. "Safe for kidney" became **Kidney-Friendly**, the label
+described under "On diabetes, weight loss and kidney disease" above, which is a
+statement about numbers printed on the page and is never worded as "safe".
+
+Volume thirty-two carries **Diabetes-Friendly**, volume thirty-three
+**Weight-Loss Friendly** and volume thirty-four **Kidney-Friendly**. Every
+recipe carries one of the three and none carries two, and `npm run health` holds
+each to the limits in `src/lib/health.js`. The kidney volume is also held to a
+protein floor of its own, 20 g a serving for a meal and 12 g for an appetizer.
+Six of its hundred reach the site's 30 g High-Protein tag.
+
+### Where the three hundred went
+
+Volume thirty-two: American 67, Italian 11, Mexican 7, Chinese, Greek and Indian
+3 each, French and Japanese 2 each, British and Indonesian 1 each. Volume
+thirty-three: American 67, Italian 13, Mexican 12, Japanese and Middle Eastern 2
+each, and Chinese, French, Greek and Thai 1 each. Volume thirty-four: American
+56, Chinese 22, Mexican 6, French 5, Italian 4, and British, Canadian, Hawaiian,
+Japanese, Middle Eastern, Spanish and Vietnamese 1 each. No cuisine is new to
+the site, so there are no new hub pages. By category the three hold dinner 148,
+lunch 45, breakfast 30, healthy 29, appetizers 22, desserts 13, quick meals 8,
+baking 4 and drinks 1, and 278 of the 300 are Easy and 22 Medium. Of the 300,
+218 are Gluten-Free, 176 Dairy-Free, 138 Vegetarian and 60 Vegan, each tag
+checked against the ingredient list by `npm run diet`.
+
+Canada was named in the request, and one recipe in the three hundred, the
+maple-balsamic chicken, is tagged Canadian. The brief was dishes that cooks in
+both countries make, not regional ones, and a recipe takes the cuisine it comes
+from: a Canadian origin was not given to a dish that has none, because that
+would be adding history. The Chinese 22 in volume thirty-four are the nine
+stir-fries, the five fried rices, a congee, a soup, a ginger and scallion
+chicken, a chop suey and four tofu dishes. They are the dishes where a
+tablespoon of low-sodium soy sauce, ginger and garlic flavour a whole pan, which
+is how a recipe stays under all three kidney limits and still tastes of
+something.
+
+### What is in it
+
+Volume thirty-two, 2,515: breakfasts (almond flour pancakes, chaffles, steel-cut
+oats, a savory oatmeal, sheet pan eggs, a Denver omelet, cauliflower hash
+browns, moong dal chilla); bread, muffins, tortillas and cookies made with
+almond or flaxseed flour; soups (cream of broccoli, zucchini, spinach,
+asparagus, a chicken pot pie soup) and salads (a chef salad, shrimp Louie, a
+chopped Mexican salad, tuna- and crab-stuffed avocados, sprouted moong); chicken
+(Parmesan-crusted, cilantro lime, Florentine, Francese, saag, a slow cooker
+chili verde, a pesto bake); pepper steak, a steak with a garlic mushroom sauce,
+pork medallions, a turkey meatloaf and a cauliflower shepherd's pie; baked lemon
+dill salmon, foil packets, tuna steaks with avocado salsa, halibut with lemon
+caper sauce; cauliflower risotto and mac and cheese, eggplant pizzas, stuffed
+portobellos, a barley risotto, tempeh and a fathead pizza; kale chips, Parmesan
+crisps, edamame, pepper nachos and cauliflower tater tots; and six desserts and
+a drink without added sugar, from a cheesecake and a crustless pumpkin pie to a
+chocolate pudding and a raspberry lemonade.
+
+Volume thirty-three, 2,615: soups that fill a bowl for little (a big-batch
+vegetable soup, turkey meatball, sopa de lima, carrot ginger, spinach and white
+bean, escarole and bean, a chilled cucumber soup, an egg roll soup, caldo de
+pollo, a chicken fajita soup); salads from a Chinese chicken salad and shaved
+Brussels sprouts to sunomono and a grapefruit and avocado salad; wraps, lettuce
+wraps and tacos (a turkey avocado wrap, collard green wraps, portobello and
+cauliflower tacos, shrimp taco bowls); lean chicken, turkey and fish from the
+oven, the air fryer and the Instant Pot, with eight air-fryer dishes among them;
+vegetable sides (roasted carrots, cabbage wedges, delicata squash, grilled
+zucchini, sautéed kale); and snacks and fruit desserts that stay small, such as
+frozen yogurt pops, baked apple chips, poached pears, baked peaches and a
+strawberry sorbet.
+
+Volume thirty-four, 2,715: ten egg white breakfasts (a frittata, bites,
+pancakes, French toast, tacos, a scramble, oatmeal, waffles, crepes and an
+English muffin sandwich) and an apple chicken sausage; chicken in twenty-nine
+dishes (stir-fries, meatballs, kofta, congee, a stew, skewers, fried rice, lemon
+cutlets, a ginger and scallion chicken); turkey, pork loin and chops and lean
+beef (a hamburger steak with onion gravy, a beef and cabbage stew, a garlic beef
+stir-fry); salmon, shrimp, tuna and white fish (cod en papillote, poached cod,
+flounder, haddock, catfish, sole, snapper, trout, fish sticks); five tofu
+dishes; and three appetizers, chicken cucumber cups, shrimp lettuce cups and
+tuna cucumber boats.
+
+### How the names were chosen
+
+367 candidate names (130, 116 and 121) were graded with
+`tools/dedupe-candidates.js` against what the site already published, and each
+shortlist was then read by hand, because the tool's word rules cannot tell a
+synonym from a new dish. It refused seven as the same search as a dish the site
+has: egg roll in a bowl (the dish is the Egg Roll Skillet), an antipasto salad,
+a tomato and cucumber salad (the Egyptian salata baladi), cinnamon baked apples,
+lemon ricotta pancakes, a lemon and oregano chicken (the Greek chicken traybake)
+and pork meatballs (the Danish frikadeller). After each volume was written,
+`node tools/dedupe-candidates.js --volume N` and `npm run duplicates` were run
+on it. The sixty names that were neither refused nor used were left out; the
+hundred in each volume are the ones that read as the most familiar and kept the
+volume's mix of meals, which is a judgement and not a ranking.
+
+### Written to the numbers
+
+Every `nut` figure is computed from the recipe's own ingredient list by
+`tools/nutrition-calc.js`, and the kidney volume's `kp` pair (potassium and
+phosphorus) with it, so the page's figures reproduce and the audit can check
+them. What the three volumes came to, per serving:
+
+| volume | label | kcal | carbohydrate | protein | sodium | potassium, phosphorus |
+| --- | --- | --- | --- | --- | --- | --- |
+| 32 | Diabetes-Friendly | 32 to 476 (mean 249) | 0 to 37 g (mean 11) | 1 to 43 g (19) | 5 to 660 mg (368) | not printed |
+| 33 | Weight-Loss Friendly | 45 to 374 (mean 190) | 2 to 54 g (mean 16) | 0 to 40 g (14) | 5 to 920 mg (397) | not printed |
+| 34 | Kidney-Friendly | 98 to 410 (mean 259) | 1 to 57 g (mean 19) | 14 to 33 g (25) | 30 to 450 mg (168) | 260 to 660 mg (518), 40 to 320 mg (247) |
+
+The kidney volume was designed backwards. A helper printed the sodium, potassium
+and phosphorus per serving of every ingredient line, the recipe was changed
+until all three limits held, and only then was it written up. Servings were set
+to match: seventeen of the hundred serve two and five serve three, mostly the
+egg white and tofu dishes, because 20 g of protein from egg white or tofu is a
+large quantity to eat at once. Leavening comes from whipped egg whites and not
+from baking powder, which is salty and carries phosphate. The shrimp recipes
+tell the cook to read the label for added phosphate, and tuna is always the
+no-salt-added kind. The sweets in volume thirty-two use erythritol, stevia or
+monk fruit and say so beside the figures; the table counts erythritol as no
+carbohydrate. Hooks follow the slug assignment except where it did not fit the
+dish, and no two recipes share their first four words.
+
+Foods added to the table along the way: tomatillo, edamame in the pod, chicken
+and deli turkey sausages (with an alias fix so chicken sausage stopped reading
+as pork), ditalini, whole cloves, lemongrass, stewing beef, cooked chicken and
+turkey, catfish, English muffin, burger bun, Swiss and Monterey Jack, orange
+juice, almond milk, cornmeal and a few more, and a realistic potassium and
+phosphorus entry for unsalted stock.
+
+### What the audits caught
+
+- The calculator would not guess. A line it cannot read is a failure and never a
+  zero, and it stopped on blue cheese, sour cream, lemongrass, stewing beef,
+  orange juice (which had no potassium or phosphorus figure) and on peppercorns
+  and parsley stems written without a weight. Each became an entry in
+  `tools/nutrition-foods.js` or a measure the calculator can weigh.
+- The kidney volume refused its own first drafts before they were written: cod
+  en papillote at 800 mg of potassium (the limit is 700), roasted turkey
+  tenderloin at 750 mg of potassium and 490 mg of phosphorus (limits 700 and
+  350), the egg and cabbage stir-fry at 510 mg of sodium and the turkey apple
+  wraps at 580 (limit 500), the chicken and cabbage stir-fry at 710 mg of
+  potassium. They were redesigned until they passed: the cod en papillote is now
+  630 mg and the turkey tenderloin 420 mg of potassium and 260 mg of phosphorus.
+- The diet audit read a word and not a food. It refused "Zucchini Noodles with
+  Pesto" as a Gluten-Free recipe that "contains noodles" and "Spaghetti Squash
+  Primavera" as one that "contains spaghetti". A squash is not pasta, so the
+  audit's word list and the Pasta ingredient hub were fixed (the build had also
+  refused a Gluten-Free dish that appeared to contain pasta), and the zucchini
+  line now says what it is, "spiralised into thin strands".
+- The SEO audit refused descriptions that quoted the cook time and not prep plus
+  cook: the almond flour pancakes advertised 15 minutes and need 25, the
+  steel-cut oats 25 for 30, the flaxseed muffins 20 for 30, the almond flour
+  bread 40 for 50 and the crustless pumpkin pie 45 for 55. The timing audit
+  refused a frozen yogurt bark and the turkey pinwheels with a cook time of 0
+  where the method says "baking", the chef salad with a cook time of 0 where the
+  eggs are boiled, and the pumpkin pie again, for a declared wait that did not
+  match the wait its method described.
+- The keyword audit refused phrases that were not true of the recipe:
+  "oven-baked catfish" until the record supported "baked", "high protein cottage
+  cheese flatbread" (under the site's 30 g line), "pressure cooker chicken
+  breast" and "kidney friendly tofu stir fry" for a dish whose method does not
+  say stir-fry. The duplicates audit refused the chicken and cabbage and the
+  chicken and pepper stir-fries, two of whose four method steps were identical.
+  The voice rules refused "nestled" in the chicken and rice bake. The volumes'
+  own lint, which is stricter than the site's, refused openings that collided
+  with older recipes ("the filling goes in" in the Denver omelet was shared with
+  four, "a lunch for two" in the shrimp Louie with the crab-stuffed avocados).
+
+### What reading caught that the audits could not
+
+Every recipe was read in full (lede, method, tips and storage note) against its
+own ingredient list and times, after the audits had passed. Seventy-four were
+corrected, for things that no audit reads:
+
+- A lede or the prose against the storage note: "keep for the week" over a note
+  of four days (sheet pan eggs), "lasts the week" against four days (broccoli
+  slaw), "a week of rushed mornings" against three (egg white bites).
+- Prose describing a method other than the one written: garlic and ginger before
+  the spices (chicken saag), "nothing here is fried" over fried eggs (black bean
+  breakfast tostadas), "roast low and slow" at 180°C (roasted tomatoes), "salt
+  is not needed" over a method that salts the strips (eggplant lasagna
+  roll-ups), shrimp "cooked in 2 minutes" over a 3-minute step.
+- Quantities misdescribed: "a good half onion" in a burger made with 25 g of
+  grated onion, "serve two per person" from a recipe that makes four burgers for
+  four.
+- Claims the recipe cannot back: "most people who try it once make it every
+  week" (egg roll skillet), "about the same fat as chicken thigh", an acid
+  "reacting with the baking powder", a sweetener "without any aftertaste",
+  "keeps you full for longer".
+- Numbers that were not in the recipe: oven temperatures, "lower it by 10
+  degrees", "95 per cent water", "5 per cent fat", freezer times. Ground beef is
+  now said to be done at 71°C in the method and the tip, not "if you like it
+  well done".
+- "No sugar" where the page prints sugar from fruit, milk or yogurt (the baked
+  apple chips most plainly, at 11 g): now "no added sugar", which is what the
+  Diabetes-Friendly rule checks.
+- Times shorter than the method itself needs, which no audit sums: the
+  sugar-free cheesecake 45 to 55 minutes (the crust bakes first), the beef
+  vegetable soup 60 to 70, the chicken stew 50 to 60, the beef and cabbage stew
+  90 to 100, and the prep of the two tofu dishes that press the tofu for 15
+  minutes. Their ledes follow.
+
+### Photographs: what was looked at, and what was kept
+
+The photographs were fetched in the background by `tools/fetch_images.py` while
+the recipes were written. 272 of the 300 recipes got a candidate and 28 got
+none. Every candidate was opened on a contact sheet and looked at before
+anything was published, which is still the only check that has worked.
+Ninety-four were published and 178 refused; a second look, below, withdrew
+fourteen more. That leaves 80 photographs, 30 in volume thirty-two, 26 in volume
+thirty-three and 24 in volume thirty-four, and 220 of the 300 recipes on their
+gradient card. No illustration was generated: the 111 labelled drawings on the
+site are the same 111 as before.
+
+The 178 refusals are the usual kinds, and each archive page is recorded in
+`src/data/image-rejects.json` so that a later fetch does not offer it again.
+Many were not food at all: a white hatchback for the pepper nachos, a parrot for
+the air-popped popcorn, a teddy bear on a lawn for the stuffed sweet potatoes,
+two pelicans at a zoo for the tuna burgers, mushrooms growing on a mossy log for
+the air-fryer mushrooms, a road sign for the cauliflower mac and cheese, a sweet
+potato emoji for the sweet potato toast, a log cabin and a candle jar for the
+apple sage chicken. Some were an ingredient and not the dish: a bowl of raw egg
+white (five recipes), a block of raw silken tofu (three), a tub of cottage
+cheese (two), a bushel of raw green beans. Most were the wrong dish or a plate
+that shows something else: a pot of feijoada for a quinoa bowl, a fried beef egg
+roll for the egg roll skillet and the egg roll soup, a tray of tilapia and
+asparagus for the sheet pan eggs, keto brownies for the almond flour tortillas,
+Hainanese chicken rice for two different chicken recipes. And eleven were
+archive pages that were already the picture of another recipe, such as the
+ginger chicken soup offered to the chicken vegetable soup and the maple-balsamic
+chicken offered to the balsamic chicken with mushrooms, which the check refuses
+because one archive page is never the picture of two dishes.
+
+### The second look
+
+The first pass was made on contact sheets at 480 px, and it missed what is small
+in a frame: croutons on a soup, a chicken breast under a salad, raw salmon where
+baked salmon was wanted, wheat noodles in a soup that is built on rice
+vermicelli. So all 94 were looked at again, at 720 px each and four to a sheet,
+and the doubtful ones at full size, with the recipe's own lede and diet labels
+beside them and with the credit line the page would print. Fourteen were
+withdrawn. The rule: a photograph is withdrawn if it shows raw ingredients or a
+different dish, or if it shows, on a recipe that carries a diet label, a main
+component that label rules out (meat or shellfish on a vegetarian recipe, dairy
+on a dairy-free one, wheat noodles, pasta or a breadcrumb coating on a
+gluten-free one), or if its credit line says so. It is kept, and listed below,
+when only the garnish, the side, the plating or the way it was cooked differs.
+
+- Raw ingredients, not the dish: the baked lemon dill salmon, a photograph of
+  seasoned raw fillets.
+- Meat or shellfish on a vegetarian recipe, the credit line saying so too: the
+  chopped Mexican salad (grilled chicken, "with Chicken" in the title) and the
+  zucchini noodles with pesto (grilled prawns).
+- Dairy on a dairy-free recipe: the egg white frittata (goat's cheese and a beet
+  salad), the turkey taco rice bowls (heaped cheddar, on a recipe that leaves
+  cheese out), the tuna-stuffed avocados (yogurt, with the filling out of sight)
+  and the poached cod (titled "butter poached cod").
+- Wheat on a gluten-free recipe: the ginger chicken soup (egg noodles, where the
+  recipe is rice vermicelli), the big batch vegetable soup (pasta spirals, and
+  not the tomato and bean soup) and the Parmesan-crusted chicken (a breadcrumb
+  cutlet under a cream sauce from a chain restaurant's menu, where the recipe's
+  crust is almond and Parmesan).
+- A different dish: the pesto chicken bake (a carved roast chicken dinner with
+  couscous), the coctel de camarones (an American shrimp cocktail with red
+  cocktail sauce on shredded lettuce, not the Mexican tomato and lime one), the
+  creamy cucumber dill salad (cucumbers in oil and oregano, nothing creamy) and
+  the cucumber hummus bites (cups of hummus with vegetable sticks, not hummus on
+  cucumber rounds).
+
+`tools/review_images.py --reject` only acts on staged entries, so the published
+entries were copied into a temporary staging file and passed with `--pending`;
+the files, the manifest and `image-rejects.json` were then updated by the tool
+itself, which also checks that nothing else was dropped. The build moved the
+content date of exactly these fourteen recipes and no others. CLAUDE.md now says
+how, and what to look for.
+
+### What the 80 photographs show, and where they differ from the recipe
+
+The 80 that remain are real photographs of the dish or of a close relative of
+it, from someone else's kitchen or a restaurant. None is a photograph of this
+recipe made as written, and some differ visibly. They are listed here so the
+page is not claiming more than the picture shows. A credit line prints the
+archive's own title, which is why a few read oddly ("Tasting the Zucchini Pizza
+Boat", "My chickpea burger patties.", "Penne and turkey meatballs - Jan 2022 -
+Sarah Stierch", a restaurant dish with its price in the title).
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Steel-Cut Oats with Berries and Walnuts | a bowl of plain cooked steel-cut oats, with no berries, walnuts or cinnamon |
+| Cream of Broccoli Soup | with a swirl of cream and croutons on top, which the recipe does not have |
+| Beef Vegetable Soup | a clear Asian-style broth with strips of beef, spring onion, long beans and red chilli; none of the recipe's tomato, carrot, celery or cabbage |
+| Zucchini Soup | paler than the recipe's, in a handled cup, with diced tomato and a sprig of rosemary on top |
+| Creamy Spinach Soup | the soup still bubbling in a saucepan on the hob, not served |
+| Asparagus Soup | a pale yellow cream soup in a square white bowl, paler than the recipe's green |
+| Chef Salad | in a black takeaway bowl, with shredded carrot and cheddar as well as Swiss |
+| Cilantro Lime Chicken | dark, sticky-glazed pieces on a mound of rice with green beans and carrot, where the recipe makes pale seared cutlets |
+| Pepper Steak | green pepper strips and slivers of bamboo shoot with the beef on a floral plate; no red pepper or onion |
+| Pork Medallions with Mustard Sauce | medallions in a pale creamy sauce with green beans and strips of pepper |
+| Salmon Foil Packets | the opened foil packet in a Japanese set meal, beside brown rice and miso soup |
+| Shrimp and Asparagus Skillet | a plate of shrimp, brown rice and roast asparagus, not a skillet |
+| Tuna Steaks with Avocado Salsa | sesame-and-pepper-crusted seared tuna in slices with a dark dipping sauce, and no avocado salsa |
+| Halibut with Lemon Caper Sauce | a restaurant plate with the seared halibut on a salad of beet, radish and raspberries, and no sauce |
+| Cauliflower Risotto | a restaurant bowl with flaked almonds, dark crumbs and microgreens on top |
+| Garlic Sautéed Spinach | with tomato, onion and pine nuts among the leaves |
+| Barley Risotto with Mushrooms | a restaurant plate of barley risotto with roast sweet potato, crisp sweet-potato strands and pesto, and no mushrooms |
+| Sprouted Moong Salad | with diced beetroot among the sprouts |
+| Edamame with Sea Salt | steamed pods on a blue plate, with no salt in sight |
+| Cucumber Smoked Salmon Bites | smoked salmon and dill mousse piped into cucumber cups, where the recipe uses lemon and dill cream cheese under ribbons of salmon |
+| Sugar-Free Cheesecake | a baked slice on a biscuit crust with berries; the recipe has an almond flour crust and no added sugar |
+| Almond Flour Chocolate Chip Cookies | a cookie held in a hand with a bite taken out |
+| Sugar-Free Chocolate Pudding | a chocolate pudding in a glass dish ringed with strawberries and mango, with cashews and raisins on top |
+| Sugar-Free Raspberry Lemonade | a tall glass of pink drink with a straw on a table with a vase of flowers, a glass of water and a bottle beside it |
+| Banana Oat Breakfast Cookies | cookies studded with chocolate chunks, one broken open; the recipe has raisins and walnuts and no chocolate |
+| Turkey Meatball Soup | a pale yellow broth with a few meatballs and a dusting of paprika, where the recipe is a tomato broth with ditalini and spinach |
+| Carrot Ginger Soup | with a swirl of cream, a parsley sprig and a dusting of chilli on top |
+| Chinese Chicken Salad | with crispy noodles and sliced mushrooms among the leaves |
+| Lemon Arugula Salad with Parmesan | with radicchio and sliced fennel among the leaves |
+| Shrimp and Cucumber Salad | chilli-glazed shrimp and cucumber chunks with pieces of cured ham in a steel tray; no tomato or avocado |
+| Citrus Fennel Salad | with avocado and mint |
+| Salmon Salad with Dill and Cucumber | flaked roast salmon on mixed leaves with cherry tomatoes and cucumber, and no yogurt dressing |
+| Thai Cucumber Salad | with ribbons of carrot on top |
+| Grapefruit Avocado Salad | diced avocado and pink citrus on butter lettuce rather than spinach |
+| Edamame Salad | served in radicchio leaves, with corn |
+| Hummus Veggie Wrap | a wrap cut open to show spinach, cucumber and tomato |
+| Turkey Zucchini Boats | a "zucchini pizza boat": two halves with melted cheese and slices of cured sausage, served with garlic toast |
+| Roasted Cauliflower Tacos | a single open tostada with cabbage, tomato, cilantro and an avocado and cashew salsa, on a school-style tray |
+| Greek Chicken Pitas | a wrapped flatbread with chicken and red cabbage, held in foil |
+| Tuna Stuffed Tomatoes | a tomato filled with tuna salad, beside egg and fruit on the plate |
+| Baked Turkey Meatballs | in a tomato sauce on penne, with grated cheese |
+| Chickpea Veggie Burgers | patties stacked on kitchen paper with a tin of chickpeas behind them, and no lettuce leaves or yogurt |
+| Sheet Pan Chicken and Brussels Sprouts | a grilled chicken piece with whole sprouts and tomato on lettuce, not a tray |
+| Sautéed Kale with Garlic | dressed with cherry tomatoes |
+| Cumin Roasted Carrots | glazed coins with a spice crust, in a deeper red than the recipe's, where the recipe cuts sticks |
+| Grilled Zucchini | rounds on a barbecue grid, seasoned and charred, where the recipe cuts long slabs |
+| Poached Pears | pear chunks in a deep red syrup, so poached in red wine or juice and not in the recipe's pale spiced syrup |
+| Egg White French Toast | round slices fried golden, shown without the strawberries and syrup |
+| Egg White Quesadilla | cut flour-tortilla quesadillas, half eaten, on a restaurant table with a bowl of red salsa; the recipe uses corn tortillas |
+| Cinnamon Egg White Waffles | a stack of waffles with syrup on a café table, with coffee and a strawberry waffle behind; the recipe serves blueberries |
+| Maple-Balsamic Chicken | a soft close crop of chicken in a glossy sauce with green beans and tomato, out of focus at the edges |
+| Garlic Herb Chicken Skewers | dark herb-coated skewers with vegetables and rosemary on a pan |
+| Chicken and Pepper Stir-Fry | with baby corn and spring onion over a dome of rice, with cucumber slices, on a restaurant plate |
+| Apple Cranberry Chicken Salad | in a plastic tub with chopsticks, with cucumber and dill and no cranberries |
+| Herbed Chicken Meatballs | glazed Japanese tsukune on skewers at a restaurant counter, with grilled leek and shishito peppers beside them |
+| Lemon Chicken Cutlets | a deep-fried, crumb-coated cutlet, sliced, on shredded cabbage with a tomato wedge and a dab of mustard (a Japanese katsu plate), where the recipe's cutlets are lightly floured, pan-fried and finished in a lemon sauce |
+| Grilled Chicken with Pineapple Salsa | an Indonesian chilli-glazed grilled chicken with rice, cucumber and tomato, and no pineapple salsa |
+| Chicken and Green Bean Stir-Fry | long beans with shredded chicken in a steel serving tray |
+| Ginger Scallion Chicken | crisp-skinned chicken with the ginger and scallion sauce in a small dish, where the recipe's chicken is poached |
+| Chicken Congee | topped with fried shallot and spring onion |
+| Chicken Stew | chicken stew with carrot and potato in a pale broth; the recipe has carrots and green beans and no potato |
+| Pork Chops with Apples and Onions | a restaurant plate: a bone-in glazed chop on a cabbage roll with caramelised apple; the recipe's chops are boneless |
+| Hamburger Steak with Onion Gravy | a Japanese sizzling plate: the patty in a brown glaze beside a chicken thigh, a fried egg, diced potato and corn |
+| Beef Fried Rice | fried rice with carrot and greens on a blue-and-white plate beside a bowl of soup and chopsticks; the dark pieces could be beef or mushroom |
+| Salmon and Rice Bowls | a restaurant bowl of teriyaki-glazed salmon on rice with edamame, fried onion and crisp Brussels sprouts, where the recipe has cucumber, carrot, red cabbage and a rice-vinegar dressing |
+| Shrimp Fried Rice | with egg, peas and spring onion in a blue bowl, and a few small dark-red pieces that look like cured ham or sausage, which the recipe does not use |
+| Shrimp and Rice Skillet | shrimp over rice in a bowl, not a skillet |
+| Cod en Papillote | an unopened parchment parcel beside wilted spinach and roast baby potatoes, so the fish itself is not visible |
+| Pan-Seared Trout | fillets with a golden cornmeal-style crust and herbs, where the recipe is uncoated and seared skin side down in olive oil |
+| Tofu and Cabbage Stir-Fry | golden tofu cubes with sesame seeds, broccoli, red cabbage and thin noodles, where the recipe has green cabbage and carrot and no noodles or broccoli |
+| Tofu Pineapple Stir-Fry | tofu, pineapple and water chestnut slices on brown rice with chilli flakes; the recipe has red pepper and onion |
+
+The other nine (the chicken chili verde, the shrimp Louie, the cucumber and
+avocado salad, the caldo de pollo, the tempeh stir-fry, the miso cod, the
+Parmesan crisps, the broccoli and spinach soup and the chocolate mug cake) match
+the recipe closely enough that nothing needed listing. By licence the 80 are 36
+CC0 or public domain, 28 CC BY and 16 CC BY-SA, from Wikimedia Commons 41,
+Flickr 26, Rawpixel 8, Wikimedia 3 and WordPress 2. The eight from Rawpixel come
+from its public-domain photograph collection and carry no named photographer, so
+their credit is the title and the licence. CC BY and CC BY-SA photographs name
+their author in `src/data/images.json` and `images-attribution.md`, and `npm run
+check` fails if one does not.
+
+### Judgement calls
+
+- The Weight-Loss Friendly label has no sodium limit, because its rule is about
+  calories and how filling a serving is, and seven of the hundred carry more
+  than 700 mg: the egg white breakfast wrap (920), the turkey avocado wrap
+  (910), the spinach and white bean soup (830), the stuffed sweet potatoes
+  (790), the Mexican cauliflower rice bowls (780), the Greek chicken pitas (740)
+  and the hearty chicken and kale soup (710). That is above the
+  Diabetes-Friendly sodium ceiling of 700 mg, and the page prints the figure. If
+  the label should also carry a sodium line, these seven are the ones that move.
+- The kidney volume's protein floor is 20 g a meal and 12 g for an appetizer,
+  and three appetizers sit under 20 g: the chicken cucumber cups (14 g), the
+  shrimp lettuce cups (16 g) and the tuna cucumber boats (19 g). The egg white
+  and tofu dishes serve two or three, so a reader who wants a four-portion pan
+  has to scale them.
+- Three titles say sugar-free: the cheesecake, the chocolate pudding and the
+  raspberry lemonade. They are the names people look for, and they mean no added
+  sugar: the page prints their sugar (3 g, 6 g and 2 g a serving, from the cream
+  cheese, milk and fruit in them) and says they are sweetened with erythritol.
+  The tag above is deliberately not called Sugar-Free, and these three titles
+  are the first place the owner might want the same care.
+- Several families share a technique and some of their steps: five fried rices
+  (egg white, chicken, pork, beef and shrimp), fifteen stir-fries, eight
+  skewers, eight air-fryer dishes, four foil or paper parcels and two francese
+  dishes (chicken in volume thirty-two and flounder in thirty-four). The
+  chicken, pork, beef and shrimp fried rices have the same vegetables, rice, egg
+  white and seasoning in the same quantities and differ in the protein. They
+  pass the duplicates audit, and each is something people look for by name, but
+  a reader will see the pattern, and those four are the first to merge, into one
+  rice with a choice of protein, if fewer pages are wanted.
+- Waits under an hour (a marinade, a coating that sits) stay out of the headline
+  time, as on every page of the site: the lemongrass chicken and the miso cod
+  each wait 20 minutes, for example. Waits of an hour or more are declared in
+  `rest`, and seven recipes carry one: the moong dal chilla (soaking), the
+  marinated vegetable salad, the sugar-free cheesecake (cooling and chilling),
+  the frozen yogurt bark, the crustless pumpkin pie, the frozen yogurt pops and
+  the frozen chocolate banana bites.
+
+### What has not been done
+
+No recipe here has been cooked, and the audits are not a stove. As CLAUDE.md
+puts it, recipes drafted by an AI session have not been cooked by anyone, and
+these were drafted by one. The figures are the calculator's, from a food table
+written from memory of standard composition data, good to about 10 per cent, and
+the potassium and phosphorus columns to a little worse. A brand of tinned
+tomatoes, stock or tofu can move any of them, and the calculator cannot see an
+additive. No dietitian, doctor or kidney care team has read the limits or the
+recipes: the limits are conservative choices and not guidance from any body, and
+each page says its figures are not medical advice. The recipes most likely to
+need a second try are the ones whose structure comes from an unusual base: the
+almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
+tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
+
+220 of the 300 recipes are on a gradient card. `npm run images` will try them
+again and `tools/wide_search.py` reads the Wikipedia article and the Commons
+category for a dish in full, and neither publishes anything until a person has
+looked. The 80 photographs have been looked at twice, and what contradicted its
+label has been withdrawn, but none has been compared with the finished dish, and
+a reader may still find one that is not quite right.
+
+The prose follows the voice rules (`npm run voice -- --strict` passes), but the
+three volumes were written to one brief and share a shape: a why of two to four
+paragraphs, a few tips, steps of a few sentences. The humanize pipeline (section
+6 of CLAUDE.md) needs the owner's key and has not been run on them. The Common
+Substitutions and FAQ blocks are generated from each recipe's data and are
+templated by design.
+
+Two things on the site itself matter more now than before, and neither was
+changed, because both are the owner's call (CLAUDE.md section 8). Every recipe
+page's byline reads "Written and tested by", and the About page says the recipes
+were cooked in an ordinary kitchen and counts "Tested recipes": that is not true
+of these 300, and it now sits beside labels such as Diabetes-Friendly, where a
+reader is likelier to take it at its word. And `datePublished` is the synthetic
+date derived from a recipe's place in the catalogue, so these three volumes
+carry publication dates from August 2011 to April 2013, years before the day
+they were written, 7 October 2026. CLAUDE.md section 8 sets out the options for
+both, and recommends rewording the byline to what is true.
+
+Search data was not used anywhere, so "famous" is a judgement. If the owner has
+Search Console or keyword-tool figures for the United States and Canada, the
+first use of them is to reorder these three volumes and to say which of the
+sixty names left out deserve a page.
+
 ## The prose was not robotic, the page was
 
 A review for the sameness that reads as mass-produced looked for the usual tells
