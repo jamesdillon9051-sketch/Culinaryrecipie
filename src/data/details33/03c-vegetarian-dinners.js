@@ -150,7 +150,7 @@ module.exports = {
     ],
     tips: [
       'Use two trays if the cauliflower will not fit in a single layer.',
-      'If the florets brown before they soften, lower the oven by 20°C and roast a little longer.',
+      'If the florets brown before they soften, lower the oven a little and roast a little longer.',
       'Make the avocado cream just before serving so it stays green.'
     ],
     pair: ['Lime wedges', 'A bowl of black beans', 'Sliced radishes'],
@@ -200,7 +200,7 @@ module.exports = {
     d: 'Roasted eggplant strips rolled around a ricotta, Parmesan and spinach filling, baked in tomato sauce under melted mozzarella. Six servings in 60 minutes.',
     meta: 'Eggplant lasagna roll-ups: roasted eggplant strips rolled around ricotta, Parmesan and spinach, baked in tomato sauce. Gluten free. Six servings.',
     kw: ['eggplant lasagna roll ups', 'weight loss friendly eggplant lasagna', 'gluten free eggplant roll ups', 'vegetarian eggplant roll ups with ricotta', 'baked eggplant lasagna roll ups'],
-    why: 'Roast the eggplant slices before you roll them. Raw eggplant is stiff and releases water in the oven, so the roll-ups split and the dish turns watery; roasted slices are soft, flexible and a little sweet, and they roll without tearing. It is the one step that matters.\n\nSlice the eggplant lengthwise into long strips about 6 mm thick, so each one is wide enough to wrap a spoonful of filling. **Salt is not needed**: roasting does the job. The filling is ricotta, Parmesan, egg and spinach, with nutmeg and basil, and it replaces the pasta layers of a lasagna. Roll from the narrow end. Set the roll-ups seam side down and close together in the dish.\n\nSpoon the tomato sauce under and over the rolls, top with mozzarella and bake until bubbling. Two roll-ups make a serving. Let the dish stand for 5 minutes before you serve it, so the filling sets.',
+    why: 'Roast the eggplant slices before you roll them. Raw eggplant is stiff and releases water in the oven, so the roll-ups split and the dish turns watery; roasted slices are soft, flexible and a little sweet, and they roll without tearing. It is the one step that matters.\n\nSlice the eggplant lengthwise into long strips about 6 mm thick, so each one is wide enough to wrap a spoonful of filling. **No pre-salting is needed**: roasting does the job. The filling is ricotta, Parmesan, egg and spinach, with nutmeg and basil, and it replaces the pasta layers of a lasagna. Roll from the narrow end. Set the roll-ups seam side down and close together in the dish.\n\nSpoon the tomato sauce under and over the rolls, top with mozzarella and bake until bubbling. Two roll-ups make a serving. Let the dish stand for 5 minutes before you serve it, so the filling sets.',
     ing: [
       '900 g eggplant, about 2 large',
       '2 tbsp olive oil',

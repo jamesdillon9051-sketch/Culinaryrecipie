@@ -141,7 +141,7 @@ module.exports = {
       'Return the chicken, stir the sauce and pour it in. Cook for 1 minute, until glossy and the chicken is cooked through. Add the pepper and sesame oil.'
     ],
     tips: [
-      'Chill the chicken in the freezer for 15 minutes before slicing; firm meat cuts thinner.',
+      'Chill the chicken briefly in the freezer before slicing; firm meat cuts thinner.',
       'Keep the vegetables moving so that they char lightly instead of steaming.',
       'If the sauce thickens too much, loosen it with a splash of water.'
     ],

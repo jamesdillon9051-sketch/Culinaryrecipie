@@ -64,7 +64,7 @@ module.exports = {
     ],
     tips: [
       'Sort the spears by thickness so thin and thick ones are not cooked together.',
-      'If the tips start to darken too early, lower the temperature by 10°C.',
+      'If the tips start to darken too early, lower the temperature a little.',
       'Cook in two batches rather than piling the spears in the basket.'
     ],
     pair: ['Eggs', 'Baked salmon', 'Roast chicken'],
@@ -165,8 +165,8 @@ module.exports = {
   },
 
   'cumin-roasted-carrots': {
-    d: 'Carrots roasted until caramelised at the edges with ground cumin, lemon juice and fresh cilantro, with no sugar or honey. Four servings in 30 minutes.',
-    meta: 'Cumin roasted carrots: carrots roasted until caramelised with ground cumin, lemon and cilantro, with no sugar or honey. Vegan and gluten free.',
+    d: 'Carrots roasted until caramelised at the edges with ground cumin, lemon juice and fresh cilantro, with no added sugar or honey. Four servings in 30 minutes.',
+    meta: 'Cumin roasted carrots: carrots roasted until caramelised with ground cumin, lemon and cilantro, with no added sugar or honey. Vegan and gluten free.',
     kw: ['cumin roasted carrots', 'weight loss friendly roasted carrots', 'vegan cumin roasted carrots', 'gluten free roasted carrots without sugar', 'easy cumin roasted carrots'],
     why: 'It is the savoury cousin of honey-glazed carrots: the same sweet, caramelised edges, but with cumin and lemon in place of sugar. Nothing sweet is added. The oven does the work. Carrots are sweet enough on their own once a hot oven concentrates their sugars.\n\nCut the carrots to an even thickness, halving thick ones lengthwise, so they cook at the same speed. **Roast them on a hot tray** with room between pieces; crowded carrots steam and stay pale. Turn them once. Cumin is warm and earthy, and a squeeze of lemon at the end keeps the dish from tasting flat. Toast the cumin first if you like it deeper. A pinch of chilli adds heat.\n\nCilantro adds freshness at the end. Serve alongside roast chicken, lamb or a bean stew, or toss cold leftovers into a salad. They keep for 4 days in the fridge. A spoonful of yogurt on the side makes them a light lunch.',
     ing: [
@@ -198,7 +198,7 @@ module.exports = {
     d: 'Mushrooms roasted with balsamic vinegar, garlic and thyme until deep brown and glossy. Four servings in 30 minutes.',
     meta: 'Balsamic roasted mushrooms: mushrooms roasted with balsamic vinegar, garlic and thyme until deep brown and glossy. Vegan, gluten free.',
     kw: ['balsamic roasted mushrooms', 'weight loss friendly roasted mushrooms', 'vegan balsamic mushrooms', 'gluten free roasted mushrooms with garlic and thyme', 'easy balsamic roasted mushrooms'],
-    why: 'Mushrooms, balsamic vinegar, garlic and thyme: four things, one tray and a very hot oven. The mushrooms shed their water, then brown, then drink up the vinegar until they are dark, glossy and intensely savoury. Patience is the method. They shrink to about half their size.\n\nMushrooms are mostly water, so give them space. **Use one big tray**, or two, in a single layer; crowded mushrooms steam in their own liquid and stay grey. Add the balsamic only after 15 minutes, when the first water has gone, or it dilutes and the mushrooms never brown. Garlic and thyme go in with it, so they scorch less.\n\nBalsamic vinegar is sweet and sharp at once. No sugar is needed. Serve the mushrooms with steak, chicken, eggs or on toast, or fold them through grains. They keep for 4 days and reheat well. Use button, cremini or a mix; chestnut mushrooms have the deepest flavour.',
+    why: 'Mushrooms, balsamic vinegar, garlic and thyme: four things, one tray and a very hot oven. The mushrooms shed their water, then brown, then drink up the vinegar until they are dark, glossy and intensely savoury. Patience is the method. They shrink to about half their size.\n\nMushrooms are mostly water, so give them space. **Use one big tray**, or two, in a single layer; crowded mushrooms steam in their own liquid and stay grey. Add the balsamic only after 15 minutes, when the first water has gone, or it dilutes and the mushrooms never brown. Garlic and thyme go in with it, so they scorch less.\n\nBalsamic vinegar is sweet and sharp at once. No sugar is needed. Serve the mushrooms with steak, chicken, eggs or on toast, or fold them through grains. They keep for 4 days and reheat well. Use button or cremini mushrooms, or a mix; the brown ones have the deeper flavour.',
     ing: [
       '500 g mushrooms, halved or quartered',
       '1 tbsp olive oil',
@@ -228,7 +228,7 @@ module.exports = {
     d: 'Tomato halves roasted slowly with garlic, oregano and thyme until soft, sweet and lightly caramelised. Six servings in 50 minutes.',
     meta: 'Roasted tomatoes with herbs: tomato halves roasted slowly with garlic, oregano and thyme until soft and caramelised. Vegan and gluten free.',
     kw: ['roasted tomatoes with herbs', 'weight loss friendly roasted tomatoes', 'vegan roasted tomatoes with herbs', 'gluten free slow roasted tomatoes', 'easy roasted tomatoes with garlic and oregano'],
-    why: 'Cut side up. That is the whole technique. Facing up, the tomato halves hold their juices as they roast, and the surface dries and caramelises instead of boiling in a puddle; facing down, they steam and collapse.\n\nRoma tomatoes, with their dense flesh and fewer seeds, roast better than large watery ones. **Roast low and slow** at 180°C for 40 minutes: long enough to concentrate the sweetness and short enough that the edges do not scorch. Slow heat concentrates sweetness. Garlic slices on top turn soft and golden, and oregano and thyme perfume the oil.\n\nUse them warm as a side, spoon them over toast, toss them through grains or pasta, or blend a few into a quick sauce. Leftovers are never wasted. They keep for 5 days in the fridge, covered in a little of their own oil. Use the roasting oil in a dressing. Basil goes on after roasting, so it stays green.',
+    why: 'Cut side up. That is the whole technique. Facing up, the tomato halves hold their juices as they roast, and the surface dries and caramelises instead of boiling in a puddle; facing down, they steam and collapse.\n\nRoma tomatoes, with their dense flesh and fewer seeds, roast better than large watery ones. **Roast at 180°C for 40 minutes**: long enough to concentrate the sweetness and short enough that the edges do not scorch. Gentle heat concentrates sweetness. Garlic slices on top turn soft and golden, and oregano and thyme perfume the oil.\n\nUse them warm as a side, spoon them over toast, toss them through grains or pasta, or blend a few into a quick sauce. Leftovers are never wasted. They keep for 5 days in the fridge, covered in a little of their own oil. Use the roasting oil in a dressing. Basil goes on after roasting, so it stays green.',
     ing: [
       '800 g Roma tomatoes, halved lengthwise',
       '1½ tbsp olive oil',
@@ -287,7 +287,7 @@ module.exports = {
     d: 'Delicata squash half-moons, skin on, roasted until the edges brown with smoked paprika and a pinch of cinnamon. Four servings in 35 minutes.',
     meta: 'Roasted delicata squash: skin-on squash half-moons roasted until browned with smoked paprika and cinnamon. Vegan and gluten free. Four servings.',
     kw: ['roasted delicata squash', 'weight loss friendly roasted squash', 'vegan roasted delicata squash', 'gluten free delicata squash rings', 'easy roasted delicata squash'],
-    why: 'Roasted delicata smells of caramel and warm spice, and the first bite is soft, sweet and creamy, with a thin skin that is tender enough to eat. That skin is the reason delicata is easier than most squash. There is nothing to peel.\n\nHalve the squash lengthwise and scoop out the seeds with a spoon, then slice into half-moons about 1.5 cm thick. **Leave the skin on**: it softens as it roasts and holds the slices together. Space the pieces out so the cut sides touch the hot tray and brown. Turn them once. Smoked paprika and cinnamon give a warm, savoury sweetness without sugar.\n\nPumpkin seeds add crunch at the end. Serve the squash with roast chicken or pork, or toss it into a salad of leaves and goat cheese. It keeps for 3 days and reheats well. Leftover squash is good mashed into soup. Chilli flakes make a good addition. Delicata can also be stuffed.',
+    why: 'Roasted delicata smells of caramel and warm spice, and the first bite is soft, sweet and creamy, with a thin skin that is tender enough to eat. That skin is the reason delicata is easier than most squash. There is nothing to peel.\n\nHalve the squash lengthwise and scoop out the seeds with a spoon, then slice into half-moons about 1.5 cm thick. **Leave the skin on**: it softens as it roasts and holds the slices together. Space the pieces out so the cut sides touch the hot tray and brown. Turn them once. Smoked paprika and cinnamon give a warm, savoury sweetness without added sugar.\n\nPumpkin seeds add crunch at the end. Serve the squash with roast chicken or pork, or toss it into a salad of leaves and goat cheese. It keeps for 3 days and reheats well. Leftover squash is good mashed into soup. Chilli flakes make a good addition. Delicata can also be stuffed.',
     ing: [
       '700 g delicata squash, halved lengthwise and seeded',
       '1 tbsp olive oil',

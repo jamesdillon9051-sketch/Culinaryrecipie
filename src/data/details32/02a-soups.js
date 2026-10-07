@@ -83,7 +83,7 @@ module.exports = {
   },
 
   'beef-vegetable-soup': {
-    d: 'A tomato-tinged beef soup with carrot, celery, cabbage and green beans, built on browned beef and unsalted stock. Six servings in 75 minutes.',
+    d: 'A tomato-tinged beef soup with carrot, celery, cabbage and green beans, built on browned beef and unsalted stock. Six servings in 85 minutes.',
     meta: 'Beef vegetable soup: browned lean beef simmered with carrot, celery, cabbage and green beans in unsalted stock. Six hearty servings.',
     kw: ['beef vegetable soup', 'vegetable beef soup', 'diabetic friendly beef vegetable soup', 'gluten free beef vegetable soup', 'easy beef vegetable soup'],
     why: 'Brown the beef first. Most beef soups taste thin because the meat went in pale, and a few minutes in a hot pan gives the broth the depth that a pale simmer never will.\n\nBrown the cubes in batches so they colour rather than steam. Do not crowd the pan. Then add the vegetables to the same pot and scrape up the browned bits. Tomato paste goes in next and cooks for a minute, which deepens its flavour, and beef sirloin is lean, so it needs an hour to turn tender while the cabbage and green beans join near the end. **Salt only at the end**, because the stock is unsalted and the beef gives up a good deal of its own.\n\nThere is no potato or barley here, so the carbohydrate stays modest. Cabbage supplies the bulk. A bowl is plenty for lunch with a slice of rye on the side.',

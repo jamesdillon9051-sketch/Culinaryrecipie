@@ -12,7 +12,7 @@
 
 module.exports = {
   'sugar-free-cheesecake': {
-    d: 'A dense, creamy baked cheesecake on an almond flour crust, sweetened with erythritol instead of sugar. Twelve slices, about 70 minutes of work plus cooling and a long chill.',
+    d: 'A dense, creamy baked cheesecake on an almond flour crust, sweetened with erythritol instead of sugar. Twelve slices, about 80 minutes of work plus cooling and a long chill.',
     meta: 'Sugar-free cheesecake: a creamy baked cheesecake on an almond flour crust, sweetened with erythritol. Twelve slices, with a long chill.',
     kw: ['sugar free cheesecake', 'diabetic friendly cheesecake', 'no added sugar cheesecake', 'low carb cheesecake', 'gluten free cheesecake'],
     why: 'Cheesecake does not need sugar to hold together. Sugar sweetens, but the structure comes from eggs and cheese, which is why a baked cheesecake survives the swap better than almost any other dessert.\n\nThe crust is almond flour bound with melted butter, and the filling is cream cheese beaten smooth with sour cream, eggs, lemon and vanilla. Erythritol stands in for the sugar. It does not brown the way sugar does, so the top stays pale. **Do not overbeat the eggs**, because air beaten into the batter makes the top rise and then crack as it cools. The patience is the hard part: leave the cheesecake in the switched-off oven with the door ajar for an hour, then chill it for six hours before cutting.\n\nCold slices cut cleanly. Wipe the knife between cuts. The carbohydrate figure leaves out the erythritol, which the body barely absorbs, and a label that counts sugar alcohols as carbohydrate will show a higher number, so count a slice the way your own plan does.',
@@ -51,8 +51,8 @@ module.exports = {
   },
 
   'chocolate-avocado-mousse': {
-    d: 'A thick, silky chocolate mousse made from ripe avocado, cocoa and almond milk, sweetened with erythritol. Blend, chill and serve in 10 minutes for four.',
-    meta: 'Chocolate avocado mousse: ripe avocado, cocoa and almond milk blended into a silky vegan mousse with no sugar, ready in 10 minutes.',
+    d: 'A thick, silky chocolate mousse made from ripe avocado, cocoa and almond milk, sweetened with erythritol. Ten minutes of work, then a short chill, for four.',
+    meta: 'Chocolate avocado mousse: ripe avocado, cocoa and almond milk blended into a silky vegan mousse with no added sugar and 10 minutes of work.',
     kw: ['chocolate avocado mousse', 'avocado chocolate mousse', 'diabetic friendly chocolate mousse', 'vegan chocolate mousse', 'no added sugar chocolate mousse'],
     why: 'The avocado has to be properly ripe. That is the only rule that matters here, because an underripe one leaves a grassy taste and a grainy texture that no amount of cocoa will hide.\n\nRipe avocado blends to cream. It brings the fat a mousse needs and almost no flavour of its own. Cocoa and a pinch of salt carry the chocolate, vanilla rounds it, and a few tablespoons of almond milk loosen the mixture until it falls from a spoon in ribbons. **Scrape the blender down twice** so no streaks of avocado survive. Taste before you sweeten, since a very ripe avocado is a little sweet already.\n\nSpoon it into small glasses and chill for half an hour, which firms it up. Small glasses are plenty. Raspberries on top add tartness and a bit of fibre. The carbohydrate figure leaves out the erythritol, which the body barely absorbs, and a label that counts sugar alcohols as carbohydrate will show a higher one.',
     ing: [
@@ -81,10 +81,10 @@ module.exports = {
   },
 
   'chocolate-mug-cake': {
-    d: 'A single-serving chocolate cake made in a mug from almond flour, cocoa and an egg, cooked in the microwave in about 90 seconds with no sugar.',
-    meta: 'Chocolate mug cake: a single serving of almond flour, cocoa and egg, microwaved in 90 seconds, with no sugar and about 5 minutes of work.',
+    d: 'A single-serving chocolate cake made in a mug from almond flour, cocoa and an egg, cooked in the microwave in about 90 seconds with no added sugar.',
+    meta: 'Chocolate mug cake: a single serving of almond flour, cocoa and egg, microwaved in 90 seconds, with no added sugar and about 5 minutes of work.',
     kw: ['chocolate mug cake', 'low carb chocolate mug cake', 'diabetic friendly mug cake', 'no added sugar mug cake', 'easy chocolate mug cake'],
-    why: 'One egg, one mug, two minutes. A single egg and a few spoonfuls of almond flour set into a soft sponge, which is the whole trick of a mug cake.\n\nStir the batter in the mug itself. Scrape the corners so no dry flour hides at the bottom, and do not worry about overmixing, since almond flour has no gluten to toughen. Cocoa gives the chocolate, a pinch of salt sharpens it and a spoonful of erythritol-based sweetener makes it taste like a dessert without any sugar. **Stop when the top looks wet**, because the cake keeps cooking from its own heat as it stands.\n\nMicrowaves differ. Start at 60 seconds and add 10 at a time, because a dry, rubbery cake means it stayed in too long. Eat it from the mug with a spoon while it is still warm. A scoop of Greek yogurt on top adds a cool contrast.',
+    why: 'One egg, one mug, two minutes. A single egg and a few spoonfuls of almond flour set into a soft sponge, which is the whole trick of a mug cake.\n\nStir the batter in the mug itself. Scrape the corners so no dry flour hides at the bottom, and do not worry about overmixing, since almond flour has no gluten to toughen. Cocoa gives the chocolate, a pinch of salt sharpens it and a spoonful of erythritol-based sweetener makes it taste like a dessert without any added sugar. **Stop when the top looks wet**, because the cake keeps cooking from its own heat as it stands.\n\nMicrowaves differ. Start at 60 seconds and add 10 at a time, because a dry, rubbery cake means it stayed in too long. Eat it from the mug with a spoon while it is still warm. A scoop of Greek yogurt on top adds a cool contrast.',
     ing: [
       '3 tbsp blanched almond flour',
       '1 tbsp unsweetened cocoa powder',
@@ -147,7 +147,7 @@ module.exports = {
 
   'frozen-yogurt-bark': {
     d: 'Plain Greek yogurt spread thin on a tray, scattered with berries, pistachios and coconut, and frozen into crisp shards. Eight servings; 10 minutes of work plus 2 hours in the freezer.',
-    meta: 'Frozen yogurt bark: Greek yogurt spread thin and topped with berries, pistachios and coconut, then frozen for 2 hours. No sugar needed.',
+    meta: 'Frozen yogurt bark: Greek yogurt spread thin and topped with berries, pistachios and coconut, then frozen for 2 hours. No added sugar.',
     kw: ['frozen yogurt bark', 'greek yogurt bark', 'diabetic friendly frozen dessert', 'no added sugar frozen yogurt bark', 'easy frozen yogurt bark'],
     why: 'Spread the yogurt thin. A layer about a centimetre thick freezes through in two hours and snaps cleanly, while a thick one stays chewy in the middle and bends instead of breaking. Thin bark also breaks into cleaner pieces.\n\nPlain Greek yogurt is already thick, tangy and high in protein. Keep it simple. A few drops of vanilla and a spoonful of erythritol-based sweetener take the edge off the sourness, and the toppings add the rest: raspberries and blueberries burst and bleed into the yogurt, pistachios add crunch and unsweetened coconut adds a little richness. **Press the toppings in gently** so they stay on when the bark is broken up.\n\nBreak it into rough pieces straight from the freezer and serve two per person. It softens within minutes, so keep the rest in a covered container in the freezer. The carbohydrate figure leaves out the erythritol, which the body barely absorbs. Eat it fast.',
     ing: [
@@ -178,9 +178,9 @@ module.exports = {
 
   'almond-flour-bread': {
     d: 'A soft, sliceable loaf made with almond flour, eggs and ground flaxseed, with no wheat flour or sugar. Twelve slices; 10 minutes of work and 40 in the oven.',
-    meta: 'Almond flour bread: a soft sandwich loaf of almond flour, eggs and flaxseed with no wheat and no sugar. Twelve slices, ready in 50 minutes.',
+    meta: 'Almond flour bread: a soft sandwich loaf of almond flour, eggs and flaxseed with no wheat and no added sugar. Twelve slices, ready in 50 minutes.',
     kw: ['almond flour bread', 'low carb almond flour bread', 'diabetic friendly bread', 'gluten free almond flour bread', 'no added sugar bread'],
-    why: 'Do not expect a yeast loaf. This is a quick bread, closer to a very firm sponge, and it works because the eggs do the job that gluten would do.\n\nSeparating the eggs makes a lighter loaf. The whites are whisked to soft peaks and folded in at the end, which gives the crumb its lift, while the yolks go into the batter with the flour, flaxseed, vinegar and baking powder. Flaxseed adds fibre and structure, and the vinegar reacts with the baking powder to keep the loaf from tasting flat. **Fold, do not stir**, or the whites collapse and the loaf comes out dense.\n\nBake it until a skewer comes out clean, then cool it for 30 minutes before slicing with a serrated knife. Toast the slices. It keeps better sliced and frozen than whole, so wrap the cooled slices in parchment and take out only what you need.',
+    why: 'Do not expect a yeast loaf. This is a quick bread, closer to a very firm sponge, and it works because the eggs do the job that gluten would do.\n\nSeparating the eggs makes a lighter loaf. The whites are whisked to soft peaks and folded in at the end, which gives the crumb its lift, while the yolks go into the batter with the flour, flaxseed, vinegar and baking powder. Flaxseed adds fibre and structure, and the vinegar gives the baking powder a little extra lift. **Fold, do not stir**, or the whites collapse and the loaf comes out dense.\n\nBake it until a skewer comes out clean, then cool it for 30 minutes before slicing with a serrated knife. Toast the slices. It keeps better sliced and frozen than whole, so wrap the cooled slices in parchment and take out only what you need. A thick slice toasted and spread with butter or almond butter makes a good breakfast.',
     ing: [
       '250 g blanched almond flour',
       '30 g ground flaxseed',
@@ -210,7 +210,7 @@ module.exports = {
 
   'crustless-pumpkin-pie': {
     d: 'A spiced pumpkin custard baked without a crust, sweetened with erythritol, and chilled until it slices. Eight servings; 55 minutes of work plus cooling.',
-    meta: 'Crustless pumpkin pie: a creamy, spiced pumpkin custard with no pastry and no sugar, baked for 45 minutes and chilled until firm.',
+    meta: 'Crustless pumpkin pie: a creamy, spiced pumpkin custard with no pastry and no added sugar, baked for 45 minutes and chilled until firm.',
     kw: ['crustless pumpkin pie', 'sugar free pumpkin pie', 'diabetic friendly pumpkin pie', 'no added sugar pumpkin pie', 'gluten free crustless pumpkin pie'],
     why: 'Skip the crust. The filling is the part of a pumpkin pie that tastes of pumpkin anyway, and without a shell there is nothing to blind-bake, nothing to shrink and a good deal less carbohydrate on the plate.\n\nPumpkin purée, eggs and almond milk make the custard, a spoonful of almond flour keeps it from weeping, and cinnamon, ginger, nutmeg and cloves do the work that the sugar usually hides behind. Whisk everything until completely smooth, since lumps of purée show up as dense pockets. Check that the can says pumpkin and not pie filling, which is already sweetened. **Bake until the edge is set** and the centre still trembles. It firms as it cools.\n\nCooling matters. Leave the pie on a rack for an hour, then chill it for at least two, because cold pie slices cleanly. A spoon of unsweetened whipped cream on top is all it needs. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
     ing: [
@@ -235,7 +235,7 @@ module.exports = {
     ],
     tips: [
       'Look for a can that lists only pumpkin; pie filling is already sweetened and spiced.',
-      'If the surface cracks as it bakes, the oven was too hot; lower it by 10 degrees next time.',
+      'If the surface cracks as it bakes, the oven was too hot; lower it a little next time.',
       'Cut with a thin knife dipped in hot water for tidy slices.'
     ],
     pair: ['Unsweetened whipped cream', 'A few toasted pecans', 'Hot black coffee'],
@@ -248,7 +248,7 @@ module.exports = {
     d: 'Stovetop chocolate pudding thickened with cornflour and sweetened with erythritol instead of sugar. Four servings in 15 minutes, warm or chilled.',
     meta: 'Sugar-free chocolate pudding: a thick, glossy stovetop pudding made with milk, cocoa and erythritol, ready in 15 minutes for four.',
     kw: ['sugar free chocolate pudding', 'diabetic friendly chocolate pudding', 'no added sugar pudding', 'easy sugar free chocolate pudding', 'gluten free chocolate pudding'],
-    why: 'Whisk first, heat second. Start with the cornflour and cocoa whisked into a little cold milk, because heat does the rest only if there are no lumps to begin with.\n\nThis is a classic stovetop pudding. The cornflour thickens the milk as it comes to a simmer, the cocoa gives a deep, bitter chocolate flavour and the erythritol replaces the sugar without any aftertaste at this amount. **Stir without stopping**, scraping the bottom and corners, because the pudding scorches there first. It is ready when it coats the back of a spoon and a line drawn with a finger stays clean.\n\nPour it into small cups straight away. Cover each with a sheet of baking parchment pressed onto the surface if you do not like a skin. Chill for 30 minutes if you want it cold. Warm pudding is softer; cold pudding sets firmer. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
+    why: 'Whisk first, heat second. Start with the cornflour and cocoa whisked into a little cold milk, because heat does the rest only if there are no lumps to begin with.\n\nThis is a classic stovetop pudding. The cornflour thickens the milk as it comes to a simmer, the cocoa gives a deep, bitter chocolate flavour and the erythritol replaces the sugar, with only a mild cooling note at this amount. **Stir without stopping**, scraping the bottom and corners, because the pudding scorches there first. It is ready when it coats the back of a spoon and a line drawn with a finger stays clean.\n\nPour it into small cups straight away. Cover each with a sheet of baking parchment pressed onto the surface if you do not like a skin. Chill for 30 minutes if you want it cold. Warm pudding is softer; cold pudding sets firmer. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
     ing: [
       '500 ml semi-skimmed milk',
       '3 tbsp unsweetened cocoa powder',
@@ -342,7 +342,7 @@ module.exports = {
     d: 'Fresh lemon juice and strained raspberries topped up with cold water and sparkling water, lightly sweetened with erythritol. Six glasses in 10 minutes.',
     meta: 'Sugar-free raspberry lemonade: lemon juice and fresh raspberries with sparkling water and erythritol, ready in 10 minutes for six.',
     kw: ['sugar free raspberry lemonade', 'diabetic friendly lemonade', 'no added sugar lemonade', 'raspberry lemonade without sugar', 'easy raspberry lemonade'],
-    why: 'Taking the sugar out is easy. Lemonade tastes thin that way; the answer is more fruit and less water, with raspberries doing the sweet work and a little sweetener rounding off the edges.\n\nBlend the raspberries with a splash of water, strain out the seeds, and the result is a bright pink syrup that colours the whole jug. Raspberries are sweeter and rounder than lemons, so they do most of the work. Fresh lemon juice supplies the sharpness, and cold water and sparkling water make up the volume. **Add the sparkling water last**, so the bubbles survive until the glass. Taste before you pour.\n\nServe it over plenty of ice with a sprig of mint, and pour it straight away. It keeps in the fridge for a day. Top up with fresh sparkling water before serving, because the fizz fades. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
+    why: 'Taking the sugar out is easy. Lemonade tastes thin that way; the answer is more fruit and less water, with raspberries doing the sweet work and a little sweetener rounding off the edges.\n\nBlend the raspberries with a splash of water, strain out the seeds, and the result is a bright pink syrup that colours the whole jug. Raspberries are sweeter and rounder than lemons, so they do most of the work. Fresh lemon juice supplies the sharpness, and cold water and sparkling water make up the volume. **Add the sparkling water last**, so the bubbles survive until the glass. Taste before you pour.\n\nServe it over plenty of ice with a sprig of mint, and pour it straight away. The base keeps two days in the fridge. Top up with fresh sparkling water before serving, because the fizz fades. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
     ing: [
       '200 g fresh or frozen raspberries',
       '240 ml fresh lemon juice',

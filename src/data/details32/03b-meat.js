@@ -151,10 +151,10 @@ module.exports = {
   },
 
   'beef-and-green-bean-stir-fry': {
-    d: 'Sliced sirloin and green beans stir-fried with garlic and ginger in a light soy sauce, with no sugar. Four servings in 27 minutes.',
+    d: 'Sliced sirloin and green beans stir-fried with garlic and ginger in a light soy sauce, with no added sugar. Four servings in 27 minutes.',
     meta: 'Beef and green bean stir-fry: sirloin strips and green beans in a garlic, ginger and reduced-sodium soy sauce. Four servings in 27 minutes.',
     kw: ['beef and green bean stir fry', 'diabetic friendly beef stir fry', 'dairy free beef and green beans', 'easy beef and green bean stir fry with ginger', 'quick beef stir fry with green beans'],
-    why: 'A midweek dinner for four. It is on the table in 27 minutes and uses one pan. The beans go into a hot pan raw and come out blistered at the edges but still crisp in the middle, which is where most of the flavour is. Soy sauce, stock and a little cornflour make the sauce, with no sugar in it.\n\nSlice the beef thinly across the grain and cook it in a single layer, so each piece sears instead of stewing. Speed is the point. **Leave the beans alone at first** so one side blisters before you toss them. Cut them to about 4 cm so they cook in the time it takes the sauce to thicken.\n\nSesame oil goes in last. Heat dulls its flavour, so it is stirred in off the heat with the spring onions. Serve over cauliflower rice or on its own for a lighter meal. Leftovers make a good lunch the next day.',
+    why: 'A midweek dinner for four. It is on the table in 27 minutes and uses one pan. The beans go into a hot pan raw and come out blistered at the edges but still crisp in the middle, which is where most of the flavour is. Soy sauce, stock and a little cornflour make the sauce, with no added sugar in it.\n\nSlice the beef thinly across the grain and cook it in a single layer, so each piece sears instead of stewing. Speed is the point. **Leave the beans alone at first** so one side blisters before you toss them. Cut them to about 4 cm so they cook in the time it takes the sauce to thicken.\n\nSesame oil goes in last. Heat dulls its flavour, so it is stirred in off the heat with the spring onions. Serve over cauliflower rice or on its own for a lighter meal. Leftovers make a good lunch the next day.',
     ing: [
       '450 g beef sirloin, sliced thinly across the grain',
       '1 tbsp cornflour',

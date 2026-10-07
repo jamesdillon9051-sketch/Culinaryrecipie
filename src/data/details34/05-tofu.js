@@ -13,8 +13,8 @@
 
 module.exports = {
   'sesame-greens-with-tofu': {
-    d: 'Crisp-fried extra-firm tofu tossed with pak choi, garlic and ginger in a light rice vinegar and sesame oil dressing. Three servings in 22 minutes.',
-    meta: 'Sesame greens with tofu: crisp tofu cubes tossed with pak choi, garlic, ginger and sesame oil. Vegan. Kidney friendly. Three servings in 22 minutes.',
+    d: 'Crisp-fried extra-firm tofu tossed with pak choi, garlic and ginger in a light rice vinegar and sesame oil dressing. Three servings in 27 minutes.',
+    meta: 'Sesame greens with tofu: crisp tofu cubes tossed with pak choi, garlic, ginger and sesame oil. Vegan. Kidney friendly. Three servings in 27 minutes.',
     kw: ['sesame greens with tofu', 'kidney friendly tofu and greens', 'vegan sesame pak choi and tofu', 'dairy free tofu with sesame greens', 'quick sesame tofu and greens'],
     why: 'Smell is the first signal. Sesame oil warming on hot greens, with garlic and ginger underneath, means the pan is ready for the vinegar. Glossy stems and wilted leaves mean the dish is done, and it will not be long from one to the other.\n\nPress the tofu first. Wrap it in a clean towel, set a plate and a tin on top and leave it for 15 minutes, because water squeezed out now will not spit in the pan later. **Cube it and fry it hard**, in a single layer, until the edges are golden and crisp. Plain tofu has no flavour of its own, so the crust is the point.\n\nThis dish gets its protein from the tofu, and phosphorus climbs with it, so the portion and the sides are planned together. Pak choi is a mild green that cooks in minutes. A teaspoon of low-sodium soy sauce across three servings, plus rice vinegar and sesame oil, gives enough savour. Serve with white rice.',
     ing: [
@@ -46,8 +46,8 @@ module.exports = {
   },
 
   'baked-tofu-with-garlic-and-ginger': {
-    d: 'Slabs of pressed tofu baked crisp with a sticky glaze of garlic, ginger, rice vinegar and maple syrup, scattered with spring onions. Three servings in 40 minutes.',
-    meta: 'Baked tofu with garlic and ginger: pressed tofu slabs baked crisp with a sticky ginger glaze. Vegan. Kidney friendly. Three servings in 40 minutes.',
+    d: 'Slabs of pressed tofu baked crisp with a sticky glaze of garlic, ginger, rice vinegar and maple syrup, scattered with spring onions. Three servings in 45 minutes.',
+    meta: 'Baked tofu with garlic and ginger: pressed tofu slabs baked crisp with a sticky ginger glaze. Vegan. Kidney friendly. Three servings in 45 minutes.',
     kw: ['baked tofu with garlic and ginger', 'kidney friendly baked tofu', 'vegan baked tofu with soy and ginger glaze', 'dairy free crispy baked tofu', 'easy baked tofu for three'],
     why: 'The oven tells you when it is ready. Garlic and ginger turn sweet and toasty, and the tofu edges look dry and a shade darker. That is the time to take the tray out and brush on the glaze.\n\nSlabs of tofu, about 1.5 cm thick, bake better than cubes: more surface, more crust. **Press the tofu first**, for 15 minutes, because wet tofu steams in the oven and never crisps. A dusting of cornflour dries the surface and helps it brown. The glaze of low-sodium soy sauce, rice vinegar, maple syrup, garlic and ginger goes on in the last few minutes. Brush on the glaze twice.\n\nThe glaze is sweet, sharp and savoury, and it contains one tablespoon of low-sodium soy sauce for three servings, which is much less than a typical tofu marinade. Maple syrup gives a lacquered finish. Serve with white rice and steamed cabbage or green beans. Sprinkle with spring onions.',
     ing: [
@@ -83,7 +83,7 @@ module.exports = {
     d: 'Crisp-fried tofu cubes tossed with shredded cabbage, carrot, garlic and ginger in a light low-sodium soy sauce. Three servings in 27 minutes.',
     meta: 'Tofu and cabbage stir-fry: crisp tofu with shredded cabbage, carrot, garlic and ginger in a light soy sauce. Vegan. Kidney friendly. Three servings.',
     kw: ['tofu and cabbage stir fry', 'kidney friendly tofu stir fry', 'vegan tofu and cabbage stir fry', 'low sodium tofu cabbage stir fry', 'easy tofu stir fry for three'],
-    why: 'Tofu in a stir-fry often falls apart or turns soggy. Be patient. The fix has three parts: press it, fry it first, and leave it alone until a crust forms, and after that the cubes hold their shape when the cabbage and sauce go in.\n\nCabbage cooks in about 4 minutes if it is shredded finely. **Shred it thin** and keep the pan hot, so that it wilts and chars instead of stewing. Carrot adds sweetness and colour. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water, and it is just enough to glaze. Stir quickly, and serve before the cabbage loses its bite.\n\nTofu brings the protein, and cabbage brings bulk without much potassium or sodium. A single tablespoon of soy sauce serves three. Serve over white rice, which keeps the plate light in phosphorus compared with brown rice. Leftovers keep a day and reheat in a hot pan.',
+    why: 'Tofu in a stir-fry often falls apart or turns soggy. Be patient. The fix has three parts: press it, fry it first, and leave it alone until a crust forms, and after that the cubes hold their shape when the cabbage and sauce go in.\n\nCabbage cooks in about 4 minutes if it is shredded finely. **Shred it thin** and keep the pan hot, so that it wilts and chars instead of stewing. Carrot adds sweetness and colour. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water, and it is just enough to glaze. Stir quickly, and serve before the cabbage loses its bite.\n\nTofu brings the protein, and cabbage brings bulk without much potassium or sodium. A single tablespoon of soy sauce serves three. Serve over white rice, which keeps the plate light in phosphorus compared with brown rice. Leftovers keep for two days and reheat in a hot pan.',
     ing: [
       '700 g extra-firm tofu, pressed and cubed',
       '1 tbsp neutral oil',

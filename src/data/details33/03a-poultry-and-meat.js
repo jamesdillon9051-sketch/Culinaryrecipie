@@ -220,7 +220,7 @@ module.exports = {
       'Scatter with the parsley and serve.'
     ],
     tips: [
-      'Choose beef with 5 per cent fat or less, or drain off the fat after browning.',
+      'Choose the leanest mince you can find, or drain off the fat after browning.',
       'If the skillet looks dry, add a splash of stock rather than water so the flavour stays rich.',
       'Cook the rice ahead and keep it in the fridge so the dish comes together fast.'
     ],
@@ -289,7 +289,7 @@ module.exports = {
       'Spoon the filling into the peppers and top with the provolone. Bake for 12 minutes, until the cheese has melted and is bubbling. Scatter with the parsley.'
     ],
     tips: [
-      'Freeze the beef for 20 minutes before slicing; firm meat cuts much thinner.',
+      'Freeze the beef briefly before slicing; firm meat cuts much thinner.',
       'If the peppers will not stand level, trim a thin slice from the base of each.',
       'Cook the beef in two batches if your pan is small, so it browns.'
     ],
@@ -398,7 +398,7 @@ module.exports = {
     d: 'Spiced turkey mince in crisp butter lettuce leaves, topped with tomato, avocado, red onion, cilantro and lime. Four servings in 22 minutes.',
     meta: 'Turkey taco lettuce wraps: spiced turkey in butter lettuce leaves with tomato, avocado, onion and cilantro. Dairy free and gluten free. Four servings.',
     kw: ['turkey taco lettuce wraps', 'weight loss friendly taco lettuce wraps', 'gluten free turkey taco wraps', 'dairy free turkey taco lettuce cups', 'quick turkey taco lettuce wraps'],
-    why: 'A Tuesday-night dinner for four, ready in 22 minutes, with no taco shells, no cheese and no cleanup beyond one pan and a board. Seasoned turkey goes into crisp lettuce leaves with a fresh tomato and avocado topping. Everything is eaten by hand.\n\nBrown the turkey properly, in a hot pan, breaking it into small crumbles so it picks up the spices evenly. **Cook the spices in the pan** for a minute before the passata goes in; they bloom in the hot fat and taste deeper. Thick sauce matters. A short simmer thickens it so it clings to the meat instead of running into the lettuce.\n\nButter lettuce makes the best cups, since the leaves are soft and shaped like a bowl. Crisp romaine hearts also work. Fill them just before eating. Leftover filling keeps for 3 days and is good over a salad or in a baked sweet potato. A pinch of cayenne makes it hotter.',
+    why: 'A Tuesday-night dinner for four, ready in 22 minutes, with no taco shells, no cheese and no cleanup beyond one pan and a board. Seasoned turkey goes into crisp lettuce leaves with a fresh tomato and avocado topping. Everything is eaten by hand.\n\nBrown the turkey properly, in a hot pan, breaking it into small crumbles so it picks up the spices evenly. **Add the spices before the passata**, so they bloom in the hot fat and taste deeper. Thick sauce matters. A short simmer thickens it so it clings to the meat instead of running into the lettuce.\n\nButter lettuce makes the best cups, since the leaves are soft and shaped like a bowl. Crisp romaine hearts also work. Fill them just before eating. Leftover filling keeps for 3 days and is good over a salad or in a baked sweet potato. A pinch of cayenne makes it hotter.',
     ing: [
       '450 g lean turkey mince',
       '1 tbsp olive oil',

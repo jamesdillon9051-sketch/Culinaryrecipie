@@ -16,7 +16,7 @@ module.exports = {
     d: 'Lean turkey burgers with grated onion, smoked paprika and garlic, pan-cooked and served in small buns with lettuce, red onion and mustard. Four servings in 27 minutes.',
     meta: 'Onion turkey burgers: extra-lean turkey with grated onion and smoked paprika, pan-cooked in small buns. Kidney friendly. Four servings in 27 minutes.',
     kw: ['onion turkey burgers', 'kidney friendly turkey burgers', 'high protein turkey burgers', 'easy turkey burgers for four', 'turkey burgers without added salt'],
-    why: 'Grate the onion. Do not chop it. Grated onion melts into the burger and keeps lean turkey moist, while chopped onion leaves crunchy pieces and gaps that crumble when the patty is turned. There is a good half onion in every burger, and no salt in the mix at all.\n\nExtra-lean turkey breast mince is leaner than most, so it needs an egg white and a spoonful of oil to stay tender. **Mix gently, then chill**, because cold patties hold together and cook evenly. Shape four patties about 11 cm across. Make the centre slightly thinner than the edge, because patties swell as they cook and a thin centre keeps them level.\n\nSmoked paprika and garlic powder give the patty a barbecue note without any added salt. A small bun, red onion rings, lettuce and a thin spread of Dijon mustard finish the plate. The bun is the largest source of sodium here, which is why it is a small one. Eat the burger warm.',
+    why: 'Grate the onion. Do not chop it. Grated onion melts into the burger and keeps lean turkey moist, while chopped onion leaves crunchy pieces and gaps that crumble when the patty is turned. There are two spoonfuls of grated onion in every burger, and no salt in the mix at all.\n\nExtra-lean turkey breast mince is leaner than most, so it needs an egg white and a spoonful of oil to stay tender. **Mix gently, then chill**, because cold patties hold together and cook evenly. Shape four patties about 11 cm across. Make the centre slightly thinner than the edge, because patties swell as they cook and a thin centre keeps them level.\n\nSmoked paprika and garlic powder give the patty a barbecue note without any added salt. A small bun, red onion rings, lettuce and a thin spread of Dijon mustard finish the plate. The bun is the largest source of sodium here, which is why it is a small one. Eat the burger warm.',
     ing: [
       '440 g extra-lean ground turkey breast',
       '100 g onion, grated',
@@ -181,7 +181,7 @@ module.exports = {
       'Return the turkey, stir the sauce and pour it in. Toss for 1 minute, until glossy and the turkey is cooked through. Add the pepper and sesame oil.'
     ],
     tips: [
-      'Chill the turkey in the freezer for 15 minutes before slicing; it cuts thinner.',
+      'Chill the turkey briefly in the freezer before slicing; it cuts thinner.',
       'Cook the turkey in two batches; one crowded batch steams instead of searing.',
       'If the sauce clumps, stir the cornflour mixture again before it goes in.'
     ],
@@ -335,7 +335,7 @@ module.exports = {
     d: 'Pan-fried turkey cutlets in a quick sauce of cranberries, orange juice, shallot and thyme, lightly sweetened with a spoonful of maple syrup. Four servings in 25 minutes.',
     meta: 'Cranberry turkey cutlets: pan-fried cutlets in a quick cranberry, orange and thyme sauce. Kidney friendly. Four servings in 25 minutes.',
     kw: ['cranberry turkey cutlets', 'kidney friendly turkey cutlets', 'pan fried turkey cutlets with cranberry sauce', 'quick cranberry turkey cutlets for four', 'turkey cutlets with fresh cranberries'],
-    why: 'Fresh cranberries arrive in the shops in autumn, and this is a quick dinner that puts them to work. Their sharp, tart juice cuts through lean turkey the way a sauce at a holiday table does, in a fraction of the time. Frozen berries work all year.\n\nThe sauce is built in the same pan as the cutlets. **Soften the shallot first**, then add the cranberries, orange juice, maple syrup and stock and let them simmer until the berries burst. A pinch of thyme ties it together. Lightly floured cutlets brown quickly. Keep the heat at medium so that the flour does not scorch.\n\nCranberries are low in potassium, and only a splash of orange juice goes in. The sauce is tart rather than sweet, with only a tablespoon of maple syrup across four servings. Spoon it over just before serving. It keeps its colour for a day in the fridge.',
+    why: 'Fresh cranberries arrive in the shops in autumn, and this is a quick dinner that puts them to work. Their sharp, tart juice cuts through lean turkey the way a sauce at a holiday table does, in a fraction of the time. Frozen berries work all year.\n\nThe sauce is built in the same pan as the cutlets. **Soften the shallot first**, then add the cranberries, orange juice, maple syrup and stock and let them simmer until the berries burst. A pinch of thyme ties it together. Lightly floured cutlets brown quickly. Keep the heat at medium so that the flour does not scorch.\n\nCranberries are low in potassium, and only a splash of orange juice goes in. The sauce is tart rather than sweet, with only a tablespoon of maple syrup across four servings. Spoon it over just before serving. It keeps its colour for two days in the fridge.',
     ing: [
       '440 g turkey breast cutlets',
       '30 g plain flour',

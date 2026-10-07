@@ -111,7 +111,7 @@ module.exports = {
   },
 
   'baked-apple-chips': {
-    d: 'Thin apple slices dusted with cinnamon and dried in a low oven until they snap, with no sugar or oil. Four servings in 100 minutes.',
+    d: 'Thin apple slices dusted with cinnamon and dried in a low oven until they snap, with no added sugar or oil. Four servings in 100 minutes.',
     meta: 'Baked apple chips: thin apple slices dusted with cinnamon and dried in a low oven until crisp. Vegan and gluten free. Four servings.',
     kw: ['baked apple chips', 'weight loss friendly apple chips', 'vegan baked apple chips', 'gluten free apple chips with cinnamon', 'easy baked apple chips'],
     why: 'A snack for the lunch box, the desk drawer or a long afternoon: thin apple slices dried in a low oven until they snap. The only seasoning is cinnamon, so what you taste is concentrated apple. It takes 10 minutes of work and then a long, low bake. Patience is the cost.\n\nSlice the apples as thin as you can, about 2 to 3 mm, with a mandoline or a very sharp knife. Thin slices matter most. Thick slices stay chewy. **Bake low and slow** at 100°C for 90 minutes, turning once, so the apple dries rather than browns. Use crisp, firm apples; soft ones turn leathery. A quick dip in lemon water keeps the slices pale.\n\nThe chips are not crisp straight from the oven. They crisp as they cool. Leave them on a rack for 10 minutes, then store in an airtight container. They keep for up to 5 days in a dry place, though they soften in humid air.',
@@ -129,7 +129,7 @@ module.exports = {
     ],
     tips: [
       'Use a mandoline for even slices; uneven ones dry at different rates.',
-      'If some slices are still soft, return them to the oven for 10 minutes while the others cool.',
+      'If some slices are still soft, return them to the oven for a few more minutes while the others cool.',
       'Leave the skins on for colour and fibre.'
     ],
     pair: ['A handful of nuts', 'A cup of tea', 'A spoonful of yogurt'],

@@ -15,7 +15,7 @@ module.exports = {
     d: 'Seared boneless pork chops with apple wedges and sliced onion cooked in the same pan with thyme, cider vinegar and unsalted stock. Four servings in 30 minutes.',
     meta: 'Pork chops with apples and onions: seared chops finished with apple, onion, thyme and cider vinegar. Kidney friendly. Four servings in 30 minutes.',
     kw: ['pork chops with apples and onions', 'kidney friendly pork chops', 'gluten free pork chops with apples', 'dairy free apple and onion pork chops', 'easy pork chops with apples for four'],
-    why: 'Make this in the first cold week of autumn, when apples are at their best and a hot pan feels welcome. The chops sear while the apples and onions soften in the same pan, so dinner takes 30 minutes. One pan is enough.\n\nTrim the chops of visible fat and pat them dry, because wet meat steams instead of browning. **Sear hard, then stop**: 4 minutes a side, then lift them out so that they do not overcook while the apples cook. Do not move them early. Apples and onion go in the same pan with a splash of vinegar, and they pick up all the browned bits.\n\nPork loin is a lean cut, and trimmed chops carry about the same fat as chicken thigh. Thyme and apple cider vinegar do the seasoning, and the apples melt into a sauce without sugar. Rest the chops first. Serve with rice and green beans, and spoon the apple and onion mixture over the top.',
+    why: 'Make this in the first cold week of autumn, when apples are at their best and a hot pan feels welcome. The chops sear while the apples and onions soften in the same pan, so dinner takes 30 minutes. One pan is enough.\n\nTrim the chops of visible fat and pat them dry, because wet meat steams instead of browning. **Sear hard, then stop**: 4 minutes a side, then lift them out so that they do not overcook while the apples cook. Do not move them early. Apples and onion go in the same pan with a splash of vinegar, and they pick up all the browned bits.\n\nPork loin is a lean cut once the visible fat is trimmed. Thyme and apple cider vinegar do the seasoning, and the apples melt into a sauce without added sugar. Rest the chops first. Serve with rice and green beans, and spoon the apple and onion mixture over the top.',
     ing: [
       '440 g boneless pork loin chops, trimmed, 4 pieces',
       '1 tbsp olive oil',
@@ -276,7 +276,7 @@ module.exports = {
       'Return the pork, add the bean sprouts and white pepper and toss for 1 minute. Drizzle with the sesame oil and serve.'
     ],
     tips: [
-      'Add the bean sprouts at the very end so that they stay crisp.',
+      'Rinse the bean sprouts and add them at the very end; they should be hot through but still crisp.',
       'Slice the mushrooms thick enough to keep some bite.',
       'If the gravy is too thick, thin it with a splash of water.'
     ],
@@ -326,7 +326,7 @@ module.exports = {
     d: 'Thin slices of flank steak stir-fried with six sliced garlic cloves, ginger and green beans in a light low-sodium soy sauce. Four servings in 25 minutes.',
     meta: 'Garlic beef stir-fry: thin flank steak with six cloves of garlic, ginger and green beans in a light soy sauce. Kidney friendly. Four servings.',
     kw: ['garlic beef stir fry', 'kidney friendly beef stir fry', 'low sodium garlic beef and green beans', 'dairy free garlic beef stir fry', 'quick garlic beef stir fry for four'],
-    why: 'Slice the beef thin, against the grain. Chilling it in the freezer for 15 minutes firms the meat, so the knife glides through, and thin slices cook in 2 minutes and stay tender. Cut it just before cooking, while it is still cold and firm.\n\nGarlic is the star here. Six cloves are sliced rather than minced, so that they turn golden and sweet instead of burning. **Add the garlic after the beef**, for the last minute only. Green beans go in first and steam through with a splash of water. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water.\n\nFlank steak has a lot of flavour for a lean cut and cooks quickly. Cooking it hot and short keeps the middle soft. Serve with rice. Leave out the usual oyster or hoisin sauce, which are very salty, and let the garlic and ginger do the work. Leftovers reheat quickly in a hot pan.',
+    why: 'Slice the beef thin, against the grain. Chilling it briefly in the freezer firms the meat, so the knife glides through, and thin slices cook in 2 minutes and stay tender. Cut it just before cooking, while it is still cold and firm.\n\nGarlic is the star here. Six cloves are sliced rather than minced, so that they turn golden and sweet instead of burning. **Add the garlic late**, for 30 seconds only. Green beans go in first and steam through with a splash of water. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water.\n\nFlank steak has a lot of flavour for a lean cut and cooks quickly. Cooking it hot and short keeps the middle soft. Serve with rice. Leave out the usual oyster or hoisin sauce, which are very salty, and let the garlic and ginger do the work. Leftovers reheat quickly in a hot pan.',
     ing: [
       '440 g beef flank steak, thinly sliced against the grain',
       '1 tbsp olive oil',
@@ -358,10 +358,10 @@ module.exports = {
   },
 
   'beef-and-cabbage-stew': {
-    d: 'Browned lean beef simmered in plain water with onion, carrot, bay and thyme, with cabbage added late and a little cornflour to thicken. Six servings in 105 minutes.',
+    d: 'Browned lean beef simmered in plain water with onion, carrot, bay and thyme, with cabbage added late and a little cornflour to thicken. Six servings in 115 minutes.',
     meta: 'Beef and cabbage stew: lean beef simmered with onion, carrot and thyme, cabbage added late, with no stock or salt. Kidney friendly. Six servings.',
     kw: ['beef and cabbage stew', 'kidney friendly beef stew', 'gluten free beef and cabbage stew', 'dairy free beef and cabbage stew', 'low salt beef stew for six'],
-    why: 'What makes a stew taste rich when there is no stock and no salt? Time, and browning. Beef cooked for 90 minutes in plain water gives up its flavour and collagen, and the water becomes a broth that is rich, glossy and lightly thickened.\n\nBrown the beef in batches until it is deep brown, because pale beef makes a pale stew. **Cabbage goes in late**, for the last 25 minutes, so that it keeps some shape and sweetness. Carrot and onion go in earlier. Bay and thyme season the pot, and a spoonful of vinegar at the end brightens it. Skim off the foam during the first few minutes for a clear broth.\n\nCabbage is one of the lower-potassium vegetables, so it carries most of the vegetable load here, with carrot and onion kept small. A little cornflour stirred in at the end gives the broth body. Six servings from one pot. Leftovers are better the next day.',
+    why: 'What makes a stew taste rich when there is no stock and no salt? Time, and browning. Beef simmered for 80 minutes in plain water gives up its flavour and collagen, and the water becomes a broth that is rich, glossy and lightly thickened.\n\nBrown the beef in batches until it is deep brown, because pale beef makes a pale stew. **Cabbage goes in late**, for the last 25 minutes, so that it keeps some shape and sweetness. Carrot and onion go in earlier. Bay and thyme season the pot, and a spoonful of vinegar at the end brightens it. Skim off the foam during the first few minutes for a clear broth.\n\nCabbage is one of the lower-potassium vegetables, so it carries most of the vegetable load here, with carrot and onion kept small. A little cornflour stirred in at the end gives the broth body. Six servings from one pot. Leftovers are better the next day.',
     ing: [
       '660 g lean stewing beef, cut into 3 cm cubes',
       '1 tbsp olive oil',

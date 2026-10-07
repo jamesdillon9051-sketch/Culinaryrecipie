@@ -15,7 +15,7 @@ module.exports = {
     d: 'A colourful chopped salad of romaine, tomato, cucumber, pepper, black beans, corn and avocado, with a lime and cumin dressing and a little feta. Four servings in 20 minutes.',
     meta: 'Chopped Mexican salad with lime: romaine, black beans, corn, avocado and feta in a cumin and lime dressing. Four servings in 20 minutes.',
     kw: ['chopped mexican salad', 'chopped mexican salad with lime', 'diabetic friendly mexican salad', 'vegetarian mexican chopped salad', 'gluten free mexican salad'],
-    why: 'Cut everything to the same size. That is the entire secret of a chopped salad, because a forkful that holds a little of each ingredient tastes better than any single one.\n\nHere the pieces are about a centimetre across: romaine, cucumber, red pepper, tomato and red onion, then black beans, sweetcorn and diced avocado for substance. Feta adds salt, so the dressing needs very little. It is lime juice, olive oil, cumin and a clove of garlic, shaken in a jar. Keep the avocado for last so it stays in chunks. **Dress it at the last minute**, because lime juice wilts the lettuce within ten minutes. Do not wait.\n\nThe beans and corn make this a lunch, not a side. Avocado brings fat and keeps you full for longer. Add shredded chicken or a fried egg for a bigger meal, and keep the dressing separate if you are packing it for work. Leftovers do not keep well.',
+    why: 'Cut everything to the same size. That is the entire secret of a chopped salad, because a forkful that holds a little of each ingredient tastes better than any single one.\n\nHere the pieces are about a centimetre across: romaine, cucumber, red pepper, tomato and red onion, then black beans, sweetcorn and diced avocado for substance. Feta adds salt, so the dressing needs very little. It is lime juice, olive oil, cumin and a clove of garlic, shaken in a jar. Keep the avocado for last so it stays in chunks. **Dress it at the last minute**, because lime juice wilts the lettuce within ten minutes. Do not wait.\n\nThe beans and corn make this a lunch, not a side. Avocado brings fat and makes the bowl more filling. Add shredded chicken or a fried egg for a bigger meal, and keep the dressing separate if you are packing it for work. Leftovers do not keep well.',
     ing: [
       '250 g romaine lettuce, chopped',
       '200 g cherry tomatoes, quartered',
@@ -150,7 +150,7 @@ module.exports = {
     ],
     tips: [
       'Choose a steak of even thickness so that it cooks at the same rate end to end.',
-      'If the steak is thicker than 3 cm, finish it in a 200°C oven for 3 to 4 minutes after searing.',
+      'If the steak is much thicker than 2.5 cm, finish it in a hot oven for a few minutes after searing.',
       'Add any juices from the resting board to the dressing for extra flavour.'
     ],
     pair: ['A slice of wholegrain bread', 'Grilled asparagus', 'Sparkling water with lime'],
@@ -199,10 +199,10 @@ module.exports = {
   },
 
   'creamy-cucumber-dill-salad': {
-    d: 'Thinly sliced cucumber and red onion in a tangy dressing of Greek yogurt, dill and lemon, with no sugar. Four servings in 10 minutes.',
-    meta: 'Creamy cucumber dill salad: thin cucumber and red onion in a tangy Greek yogurt and dill dressing, with no sugar, ready in 10 minutes.',
+    d: 'Thinly sliced cucumber and red onion in a tangy dressing of Greek yogurt, dill and lemon, with no added sugar. Four servings in 10 minutes.',
+    meta: 'Creamy cucumber dill salad: thin cucumber and red onion in a tangy Greek yogurt and dill dressing, with no added sugar, ready in 10 minutes.',
     kw: ['creamy cucumber dill salad', 'creamy cucumber salad', 'diabetic friendly cucumber salad', 'no added sugar cucumber salad', 'gluten free cucumber salad'],
-    why: 'Why does cucumber salad turn watery so fast? Because cucumbers are about 95 per cent water, and salt pulls that water out the moment it touches them.\n\nSalt the cucumber slices first and leave them in a colander for ten minutes, then press them dry. The dressing then clings instead of thinning. Greek yogurt gives it body, and lemon juice and white wine vinegar give it a clean tang that old-fashioned versions get from sugar. Fresh dill is the flavour that makes it taste like itself. **Slice the cucumbers paper thin**, with a mandoline if you have one, because thick slices stay stiff and taste of little.\n\nEat it within an hour of mixing. This salad is a good partner for grilled fish, a plain roast chicken or a rich steak. Do not let it sit overnight. Stir it once before serving, because a little liquid always collects at the bottom of the bowl.',
+    why: 'Why does cucumber salad turn watery so fast? Because cucumbers are mostly water, and salt pulls that water out the moment it touches them.\n\nSalt the cucumber slices first and leave them in a colander for ten minutes, then press them dry. The dressing then clings instead of thinning. Greek yogurt gives it body, and lemon juice and white wine vinegar give it a clean tang that old-fashioned versions get from sugar. Fresh dill is the flavour that makes it taste like itself. **Slice the cucumbers paper thin**, with a mandoline if you have one, because thick slices stay stiff and taste of little.\n\nEat it within an hour of mixing. This salad is a good partner for grilled fish, a plain roast chicken or a rich steak. Do not let it sit overnight. Stir it once before serving, because a little liquid always collects at the bottom of the bowl.',
     ing: [
       '600 g cucumber, thinly sliced',
       '½ tsp salt, for salting the cucumber',
@@ -234,7 +234,7 @@ module.exports = {
     d: 'Diced cucumber, avocado and tomato with red onion, cilantro and a lime and olive oil dressing. Four servings in 10 minutes, with no cooking.',
     meta: 'Cucumber avocado salad: crisp cucumber, creamy avocado, tomato and cilantro in a lime and olive oil dressing. Four servings in 10 minutes.',
     kw: ['cucumber avocado salad', 'avocado cucumber salad', 'diabetic friendly avocado salad', 'vegan cucumber avocado salad', 'easy cucumber avocado salad'],
-    why: 'What stops avocado going brown in a salad? Acid, and quickly. Lime juice on the cut flesh slows the browning for an hour or more, so the dressing goes on first.\n\nThis salad is nothing more than crisp, creamy and sharp things in the right proportions. Cucumber supplies the crunch, avocado the richness, tomato the juice and red onion the bite, and cilantro and a little jalapeño bring heat and a green flavour. Cut everything to the same size. **Dice to about 1.5 cm** so a spoonful holds all of it. Salt lightly, since the avocado needs more than you expect while the cucumber gives off water.\n\nServe it as a quick side for grilled fish or chicken. Add chickpeas or shredded chicken and it becomes lunch. Squeeze extra lime over the top at the table if the avocado looks dull. A pinch of chilli flakes adds heat for anyone who wants it. Eat it fresh.',
+    why: 'What stops avocado going brown in a salad? Acid, and quickly. Lime juice on the cut flesh slows the browning, so the dressing goes on first.\n\nThis salad is nothing more than crisp, creamy and sharp things in the right proportions. Cucumber supplies the crunch, avocado the richness, tomato the juice and red onion the bite, and cilantro and a little jalapeño bring heat and a green flavour. Cut everything to the same size. **Dice to about 1.5 cm** so a spoonful holds all of it. Salt lightly, since the avocado needs more than you expect while the cucumber gives off water.\n\nServe it as a quick side for grilled fish or chicken. Add chickpeas or shredded chicken and it becomes lunch. Squeeze extra lime over the top at the table if the avocado looks dull. A pinch of chilli flakes adds heat for anyone who wants it. Eat it fresh.',
     ing: [
       '500 g cucumber, diced',
       '2 ripe avocados, diced',
@@ -267,7 +267,7 @@ module.exports = {
     d: 'Shredded broccoli stems and carrot with apple, red onion and sunflower seeds in a tangy yogurt dressing. Six servings in 15 minutes, with no cooking.',
     meta: 'Broccoli slaw salad: shredded broccoli and carrot with apple, red onion and sunflower seeds in a yogurt and mustard dressing. Six servings.',
     kw: ['broccoli slaw salad', 'broccoli slaw', 'diabetic friendly broccoli slaw', 'low carb broccoli slaw', 'gluten free broccoli slaw'],
-    why: 'Meal prep, sorted. A bag of shredded broccoli stems and carrot, an apple and a handful of seeds make a lunch salad that lasts the week.\n\nUnlike lettuce, broccoli stems do not wilt. Dressed in a yogurt and mustard sauce they soften slightly and stay crunchy for days. Shredded stems are sold in bags as slaw mix, or you can grate your own. Apple adds a little sweetness in place of the sugar a deli slaw would carry, and sunflower seeds add crunch and a nutty note. **Make the dressing first** and let the slaw sit in it for 15 minutes before you serve; the flavours meet and the stems soften a touch.\n\nIt works with pulled chicken, grilled fish or a burger. A squeeze of lemon on the day brightens leftovers. Because the stems are sturdy, the slaw also travels well in a jar. Keep it cold and covered, and eat it within four days. Add the seeds fresh.',
+    why: 'Meal prep, sorted. A bag of shredded broccoli stems and carrot, an apple and a handful of seeds make a lunch salad that keeps for four days.\n\nUnlike lettuce, broccoli stems do not wilt. Dressed in a yogurt and mustard sauce they soften slightly and stay crunchy for days. Shredded stems are sold in bags as slaw mix, or you can grate your own. Apple adds a little sweetness in place of the sugar a deli slaw would carry, and sunflower seeds add crunch and a nutty note. **Make the dressing first** and let the slaw sit in it for 15 minutes before you serve; the flavours meet and the stems soften a touch.\n\nIt works with pulled chicken, grilled fish or a burger. A squeeze of lemon on the day brightens leftovers. Because the stems are sturdy, the slaw also travels well in a jar. Keep it cold and covered, and eat it within four days. Add the seeds fresh.',
     ing: [
       '400 g broccoli slaw (shredded broccoli stems and carrot)',
       '1 firm apple, diced',
@@ -365,7 +365,7 @@ module.exports = {
     d: 'The filling of an egg roll in a skillet: ground turkey, shredded cabbage and carrot, ginger and garlic, finished with soy sauce and sesame. Four servings in 25 minutes.',
     meta: 'Egg roll skillet, also called egg roll in a bowl: ground turkey, cabbage, carrot, ginger and garlic, ready in 25 minutes in one pan.',
     kw: ['egg roll skillet', 'egg roll in a bowl', 'diabetic friendly egg roll in a bowl', 'low carb egg roll skillet', 'easy egg roll skillet'],
-    why: 'Turkey, cabbage, carrot, ginger, garlic. That is the filling of an egg roll without the wrapper, the oil bath or the long queue, and most people who try it once make it every week.\n\nThe skillet does everything at once. Brown the turkey properly first, because the browned bits are where the flavour is, then add ginger and garlic and the cabbage, which collapses from a heap into a few spoonfuls in about five minutes. A mix of low-sodium soy sauce, rice vinegar and toasted sesame oil seasons it, and spring onions go on at the end for freshness. **Cook the cabbage until just tender.** Soggy cabbage tastes sulphurous.\n\nThe dish is also called egg roll in a bowl, and it is usually served that way over a little rice or cauliflower rice. Pack it for lunch. Add a fried egg on top for extra protein. The sauce is thin, so leave the pan uncovered and let it reduce for a minute.',
+    why: 'Turkey, cabbage, carrot, ginger, garlic. That is the filling of an egg roll without the wrapper, the oil bath or the long queue, and it is on the table in 25 minutes.\n\nThe skillet does everything at once. Brown the turkey properly first, because the browned bits are where the flavour is, then add ginger and garlic and the cabbage, which collapses from a heap into a few spoonfuls in about five minutes. A mix of low-sodium soy sauce, rice vinegar and toasted sesame oil seasons it, and spring onions go on at the end for freshness. **Cook the cabbage until just tender.** Soggy cabbage tastes sulphurous.\n\nThe dish is also called egg roll in a bowl, and it is usually served that way over a little rice or cauliflower rice. Pack it for lunch. Add a fried egg on top for extra protein. The sauce is thin, so leave the pan uncovered and let it reduce for a minute.',
     ing: [
       '450 g lean ground turkey',
       '1 tbsp neutral oil',
@@ -463,7 +463,7 @@ module.exports = {
       'Divide the quinoa between four bowls and top with the beans and pepper, tomatoes, onion, avocado and cilantro. Drizzle with the dressing.'
     ],
     tips: [
-      'Use a measuring jug for the quinoa and water; the ratio of one to two keeps it fluffy.',
+      'Measure the water exactly: 200 ml for 100 g of quinoa keeps it fluffy.',
       'Rinse the canned beans well to cut the sodium.',
       'If you are packing it for work, keep the dressing and the avocado separate until you eat.'
     ],
@@ -495,14 +495,14 @@ module.exports = {
     ],
     st: [
       'Mix the beef with the salt, pepper and garlic powder and shape into four thin patties, pressing a dimple into the middle of each.',
-      'Heat half of the olive oil in a large frying pan over medium-high heat. Cook the patties for 3 to 4 minutes on each side, then top each with the Swiss cheese, cover and cook for 1 minute until melted. Move them to a plate.',
+      'Heat half of the olive oil in a large frying pan over medium-high heat. Cook the patties for 3 to 4 minutes on each side, until the centres reach 71°C, then top each with the Swiss cheese, cover and cook for 1 minute until melted. Move them to a plate.',
       'Add the remaining oil to the pan, then the mushrooms and onion. Cook for 8 minutes, stirring now and then, until browned and soft.',
       'Whisk the yogurt, mustard and lemon juice. Divide the romaine and tomatoes between four bowls and top with the mushrooms, a patty and a spoonful of sauce.'
     ],
     tips: [
       'Use the same pan for the mushrooms to pick up the browned beef juices.',
       'Do not press the patties down while they cook; you will squeeze out the juices.',
-      'If you like your burgers well done, cook them until a thermometer reads 71°C in the middle.'
+      'Check one patty with a thermometer if you are unsure; ground beef is cooked at 71°C in the middle.'
     ],
     pair: ['Sliced tomato and red onion', 'A dill pickle spear', 'Roasted asparagus'],
     store: 'Keeps in the fridge for up to 3 days. Reheat the patties and mushrooms in a pan, and assemble on fresh lettuce.',
@@ -513,7 +513,7 @@ module.exports = {
     d: 'Thin, juicy beef burgers wrapped in butter lettuce leaves with tomato, red onion, avocado and Dijon mustard, with no bun and no cheese. Four servings in 22 minutes.',
     meta: 'Lettuce wrap burgers: juicy seasoned beef patties in butter lettuce leaves with tomato, red onion, avocado and mustard. Four servings.',
     kw: ['lettuce wrap burgers', 'lettuce wrapped burgers', 'diabetic friendly burgers', 'low carb burgers without bun', 'dairy free lettuce wrap burgers'],
-    why: 'Use two leaves. Most lettuce wrap burgers fall apart in the hand, and overlapping a pair of butter lettuce leaves so the burger sits in a cup is the fix. It is a small trick that makes a big difference.\n\nThe burger itself is simple: lean ground beef seasoned with salt, pepper, garlic powder and a little smoked paprika, shaped thin and cooked in a hot pan. Thin patties cook in minutes and stay juicy. With no cheese and no bun, the toppings do the work: tomato, red onion, sliced avocado and a spoonful of Dijon mustard. **Wrap it in parchment** and it travels well.\n\nPick butter lettuce for its soft, cup-shaped leaves. Iceberg is too stiff and romaine too narrow. Pat the leaves dry so the burger does not slide. Have napkins ready, and serve two per person for a bigger appetite. Dijon mustard is the only sauce it needs. A thin patty and a hot pan are the whole technique.',
+    why: 'Use two leaves. Most lettuce wrap burgers fall apart in the hand, and overlapping a pair of butter lettuce leaves so the burger sits in a cup is the fix. It is a small trick that makes a big difference.\n\nThe burger itself is simple: lean ground beef seasoned with salt, pepper, garlic powder and a little smoked paprika, shaped thin and cooked in a hot pan. Thin patties cook in minutes and stay juicy. With no cheese and no bun, the toppings do the work: tomato, red onion, sliced avocado and a spoonful of Dijon mustard. **Wrap it in parchment** and it travels well.\n\nPick butter lettuce for its soft, cup-shaped leaves. Iceberg is too stiff and romaine too narrow. Pat the leaves dry so the burger does not slide. Have napkins ready. Dijon mustard is the only sauce it needs. A thin patty and a hot pan are the whole technique.',
     ing: [
       '500 g lean ground beef',
       '½ tsp salt',

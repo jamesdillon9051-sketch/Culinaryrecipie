@@ -99,7 +99,7 @@ module.exports = {
     ],
     tips: [
       'Use flat skewers if you have them; round ones let the salmon spin.',
-      'Cut the zucchini a little thicker than the salmon so that it holds up in the heat.',
+      'Keep the zucchini pieces thick, about 2 cm, so that they hold up in the heat.',
       'If a cube breaks, grill it on the edge of the pan rather than skewering it again.'
     ],
     pair: ['Steamed white rice', 'A cucumber salad', 'Shredded cabbage with lemon'],
@@ -351,7 +351,7 @@ module.exports = {
     d: 'Chopped shrimp tossed with garlic, ginger, cucumber, carrot, mint and lime and spooned into butter lettuce leaves. Four servings in 23 minutes.',
     meta: 'Shrimp lettuce cups: chopped shrimp with garlic, ginger, cucumber, carrot and mint in butter lettuce leaves. Kidney friendly. Four servings.',
     kw: ['shrimp lettuce cups', 'kidney friendly shrimp lettuce cups', 'gluten free shrimp lettuce wraps', 'dairy free shrimp lettuce cups', 'shrimp lettuce cups appetizer'],
-    why: 'Chop the shrimp before you cook them. Small pieces cook in 2 minutes, stay tender and sit neatly in a lettuce leaf, while whole shrimp roll out of the cup and onto the table. Pat the shrimp dry first.\n\nThe filling is shrimp with garlic, ginger, cucumber, carrot and mint, with lime juice and a pinch of chilli. **Cook the shrimp hot and fast**, with a little oil, until they turn pink. Toss them with the raw vegetables so that the heat softens the garlic and ginger a little. Mint adds freshness. Chilli flakes are optional, so add them to taste.\n\nButter lettuce leaves make soft, flexible cups. Eight leaves give eight cups, two to a serving, which is a light starter. Serve them straight away, while the shrimp are warm and the lettuce is cold. Check the shrimp label for added phosphate, and spoon the filling in at the table if you want the leaves crisp.',
+    why: 'Chop the shrimp before you cook them. Small pieces cook in about 3 minutes, stay tender and sit neatly in a lettuce leaf, while whole shrimp roll out of the cup and onto the table. Pat the shrimp dry first.\n\nThe filling is shrimp with garlic, ginger, cucumber, carrot and mint, with lime juice and a pinch of chilli. **Cook the shrimp hot and fast**, with a little oil, until they turn pink. Toss them with the raw vegetables so that the heat softens the garlic and ginger a little. Mint adds freshness. Chilli flakes are optional, so add them to taste.\n\nButter lettuce leaves make soft, flexible cups. Eight leaves give eight cups, two to a serving, which is a light starter. Serve them straight away, while the shrimp are warm and the lettuce is cold. Check the shrimp label for added phosphate, and spoon the filling in at the table if you want the leaves crisp.',
     ing: [
       '300 g raw shrimp, peeled, deveined and chopped',
       '1 tbsp olive oil',
@@ -447,7 +447,7 @@ module.exports = {
     d: 'Rotini tossed with no-salt-added tuna, cucumber, celery, red pepper and red onion in a lemon, mustard and olive oil dressing. Four servings in 25 minutes.',
     meta: 'Tuna pasta salad: rotini with no-salt-added tuna, cucumber, celery and red pepper in a lemon and mustard dressing. Kidney friendly. Four servings.',
     kw: ['tuna pasta salad', 'kidney friendly tuna pasta salad', 'high protein tuna pasta salad', 'dairy free tuna pasta salad without mayonnaise', 'easy tuna pasta salad for four'],
-    why: 'This is the deli tuna pasta salad with the salt and the heavy mayonnaise taken out, and in their place are olive oil, lemon juice and Dijon mustard, which make a sharp, fresh dressing that coats the pasta lightly. It is a lunch that travels.\n\nRotini holds a dressing in its spirals, and refined pasta is lighter in potassium and phosphorus than wholewheat. **Rinse the cooked pasta** under cold water so that it cools quickly and the grains do not clump. Cook it in unsalted water, since the dressing will season it. Toss while the pasta is still slightly damp. Test a piece a minute before the time is up.\n\nCucumber, celery, red pepper and red onion add crunch and colour. They are all modest in potassium. Fold in the tuna last, and gently, so that it stays in chunks. The salad improves if it stands in the fridge for a while. Add the parsley just before serving.',
+    why: 'This is the deli tuna pasta salad with the salt and the heavy mayonnaise taken out, and in their place are olive oil, lemon juice and Dijon mustard, which make a sharp, fresh dressing that coats the pasta lightly. It is a lunch that travels.\n\nRotini holds a dressing in its spirals, and refined pasta is lighter in potassium and phosphorus than wholewheat. **Rinse the cooked pasta** under cold water so that it cools quickly and the grains do not clump. Cook it in unsalted water to keep the sodium down. Toss while the pasta is still slightly damp. Test a piece a minute before the time is up.\n\nCucumber, celery, red pepper and red onion add crunch and colour. They are all modest in potassium. Fold in the tuna last, and gently, so that it stays in chunks. The salad improves if it stands in the fridge for a while. Add the parsley just before serving.',
     ing: [
       '360 g no-salt-added tuna in water, drained',
       '220 g dried rotini',
