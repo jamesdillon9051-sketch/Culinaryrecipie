@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6050 image files (WebP + JPEG)
+│       └── img/recipes/         # 6048 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6050 image files
+├── assets/                      #    css, js and 6048 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2430 of the 2715 recipes have a photograph. Of the 2914 images on the site,
-1186 are CC0 or public domain, 874 are CC BY and 854 are CC BY-SA. Anything
+2430 of the 2715 recipes have a photograph. Of the 2913 images on the site,
+1185 are CC0 or public domain, 874 are CC BY and 854 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -500,6 +500,16 @@ Three recipes ended with no photograph rather than the wrong one — beef and
 broccoli, the three-egg omelette and fried sweet plantain. Commons has nothing
 of those dishes under a licence the site can use, and a gradient carrying the
 recipe name is honest where a picture of something else is not.
+
+One more turned up later, by accident. The Samgyetang page carried, as the
+picture of its method, a bowl of chicken noodle soup with wide wheat egg
+noodles, titled "Ginger Chicken Soup with Vegetables", on a recipe that is
+gluten-free and is a whole small chicken stuffed with glutinous rice, ginseng
+and jujube. It is the same file the fourth-round search offered the ginger
+chicken soup of volume thirty-four and was refused there for the same reason.
+The process photograph has been withdrawn and the hero stays. No other older
+recipe was re-examined for this: the check is made on the photographs of new
+volumes, and the older ones are as they were.
 
 ---
 

@@ -1,7 +1,7 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2914
-photographs, **1186** are CC0 or public domain and carry no conditions at all, and
+Every photograph on Weekly Delight is freely licensed. Of 2913
+photographs, **1185** are CC0 or public domain and carry no conditions at all, and
 **1728** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
@@ -180,9 +180,9 @@ wrong dish were deleted rather than kept.
 |---|---|
 | Recipes | 2715 |
 | Hero photographs | 2430 |
-| Secondary "process" photographs | 484 |
+| Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6050 (WebP + JPEG for each) |
+| Total image files | 6048 (WebP + JPEG for each) |
 | Recipes using a gradient placeholder | 174 |
 
 ### Licences used
@@ -190,7 +190,7 @@ wrong dish were deleted rather than kept.
 | Licence | Images | Terms |
 |---|---:|---|
 | CC BY 2.0 | 769 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 595 | No rights reserved — no attribution legally required |
+| CC0 | 594 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 386 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 341 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 284 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -913,7 +913,6 @@ licence as the rest of this project.
 | `galbi-process.webp` / `.jpg` | Galbi (Korean Short Ribs) | Process | Korean beef short ribs | Tim Evanson | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Korean_beef_short_ribs.jpg) |
 | `haemul-pajeon.webp` / `.jpg` | Haemul Pajeon | Hero | Pajeon | Brücke-Osteuropa | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pajeon.jpg) |
 | `samgyetang.webp` / `.jpg` | Samgyetang | Hero | Hanbang samgye tang (chicken soup) - Kogi, Brighton | Andy Li | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hanbang_samgye_tang_(chicken_soup)_-_Kogi,_Brighton.jpg) |
-| `samgyetang-process.webp` / `.jpg` | Samgyetang | Process | Ginger Chicken Soup with Vegetables | Alabama Extension | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ginger_Chicken_Soup_with_Vegetables.jpg) |
 | `dakgalbi.webp` / `.jpg` | Dakgalbi | Hero | Chuncheon sizzling chicken (Dakgalbi) | Fumikas Sagisavas | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chuncheon_sizzling_chicken_(Dakgalbi).jpg) |
 | `naengmyeon.webp` / `.jpg` | Mul Naengmyeon | Hero | Naengmyeon old noodle in Korea | Suohros | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naengmyeon_old_noodle_in_Korea.jpg) |
 | `naengmyeon-process.webp` / `.jpg` | Mul Naengmyeon | Process | Naengmyeon (cold noodles) | wjlee4284 | CC BY 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naengmyeon_(cold_noodles).jpg) |
