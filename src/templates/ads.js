@@ -56,7 +56,9 @@ function frameDocument(base = '/') {
 <meta name="robots" content="noindex, nofollow">
 <title>Advertisement</title>
 <style>
-  html, body { margin: 0; padding: 0; background: transparent; }
+  /* No scrollbars inside the frame: this is what scrolling="no" on the iframe
+     used to say, and that attribute is obsolete in HTML. */
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
   body { font: 14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   img, iframe { max-width: 100%; }
 </style>
@@ -108,7 +110,7 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
   /* data-ad-src rather than src, so the frame document — and the ad inside it —
      is never fetched until consent. */
   return wrap(label, `<iframe ${CONSENT.enabled ? `data-ad-src="${src}"` : `src="${src}"`}
-          title="${label}" loading="lazy" scrolling="no" frameborder="0"
+          title="${label}" loading="lazy"
           style="width:100%;height:${height}px;border:0;display:block"></iframe>`);
 }
 
@@ -141,7 +143,7 @@ function bannerDocument() {
 <meta name="robots" content="noindex, nofollow">
 <title>Advertisement</title>
 <style>
-  html, body { margin: 0; padding: 0; background: transparent; }
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
   body { display: flex; justify-content: center; align-items: flex-start; }
   img, iframe { max-width: 100%; border: 0; }
 </style>
@@ -174,7 +176,7 @@ function banner(label = 'Advertisement', base = '/') {
   /* Exactly the unit's own dimensions, so the slot is the right size before
      anything loads and the page does not move when it fills. */
   return wrap(label, `<iframe ${CONSENT.enabled ? `data-ad-src="${src}"` : `src="${src}"`}
-          title="${label}" loading="lazy" scrolling="no" frameborder="0"
+          title="${label}" loading="lazy"
           width="${unit.width}" height="${unit.height}"
           style="width:${unit.width}px;height:${unit.height}px;max-width:100%;border:0;display:block;margin-inline:auto"></iframe>`,
     'banner');

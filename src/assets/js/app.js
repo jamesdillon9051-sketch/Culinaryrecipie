@@ -95,6 +95,13 @@
         nav.setAttribute('data-open', String(!open));
         toggle.setAttribute('aria-expanded', String(!open));
       });
+      /* Escape closes the phone menu and hands focus back to its button. */
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape' || nav.getAttribute('data-open') !== 'true') return;
+        nav.setAttribute('data-open', 'false');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.focus();
+      });
     }
 
     $$('.nav-item').forEach(function (item) {
@@ -107,8 +114,10 @@
         e.stopPropagation();
         item.getAttribute('data-open') === 'true' ? close() : open();
       });
-      item.addEventListener('mouseenter', function () { if (window.innerWidth > 860) open(); });
-      item.addEventListener('mouseleave', function () { if (window.innerWidth > 860) close(); });
+      /* Hover opens the panel only while the links are shown in the header
+         itself; the CSS folds them into the menu button at 1099px. */
+      item.addEventListener('mouseenter', function () { if (window.innerWidth > 1099) open(); });
+      item.addEventListener('mouseleave', function () { if (window.innerWidth > 1099) close(); });
       item.addEventListener('keydown', function (e) { if (e.key === 'Escape') { close(); trigger.focus(); } });
       document.addEventListener('click', function (e) { if (!item.contains(e.target)) close(); });
     });
@@ -154,6 +163,8 @@
       document.dispatchEvent(new CustomEvent('cv:favourites-changed', { detail: favs }));
     });
     syncFavButtons();
+    /* Cards painted by directory.js arrive after this runs, so they would all show an empty heart. */
+    document.addEventListener('cv:results-rendered', syncFavButtons);
   }
   window.cvGetFavourites = getFavs;
 

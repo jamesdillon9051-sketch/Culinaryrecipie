@@ -2,6 +2,7 @@
 const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { faqSchema } = require('../lib/faq');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
+        commonsImageCount, otherArchiveImageCount,
         publicDomainImageCount, shareAlikeImageCount,
         attributionOnlyImageCount, illustrationCount,
         placeholderCount } = require('../data/stats');
@@ -117,10 +118,10 @@ function home(ctx) {
       <div class="hero-line hero-stats">
         <div><strong>${recipeCount}</strong><span>Tested recipes</span></div>
         <div><strong>${cuisineCount}</strong><span>Cuisines</span></div>
-        <div><strong>4.8</strong><span>Average rating</span></div>
+        <div><strong>${Object.keys(CATEGORIES).length}</strong><span>Meal types</span></div>
       </div>
     </div>
-    <div class="hero-cluster" aria-label="Featured dishes">
+    <div class="hero-cluster" role="group" aria-label="Featured dishes">
       ${heroShots.map(shot).join('')}
     </div>
   </div>
@@ -136,7 +137,7 @@ function home(ctx) {
         <h2 id="editors-title">The ones we make again and again</h2>
         <p>Four recipes our test kitchen keeps returning to — the versions we would cook for someone we wanted to impress.</p>
       </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=rating">Top rated</a>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/">All recipes</a>
     </div>
     <div class="bento">${editors.map((r, i) => card(r, { eager: i === 0, delay: i * 70 })).join('')}</div>
   </div>
@@ -146,11 +147,11 @@ function home(ctx) {
   <div class="wrap">
     <div class="section-head reveal">
       <div>
-        <span class="eyebrow">Trending Now</span>
-        <h2 id="trending-title">What everyone is cooking this week</h2>
-        <p>Ranked by what readers are actually saving and printing right now.</p>
+        <span class="eyebrow">To start with</span>
+        <h2 id="trending-title">A handful from the archive</h2>
+        <p>Press the heart on any card and it waits for you on the Saved page.</p>
       </div>
-      <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=popular">See all</a>
+      <a class="btn btn--ghost" href="${SITE.base}recipes/">See all</a>
     </div>
     <div class="rail">${trending.map((r, i) => card(r, { delay: i * 50 })).join('')}</div>
   </div>
@@ -317,6 +318,7 @@ ${breadcrumbs(trail)}
       <label class="sr-only" for="directory-query">Search within these recipes</label>
       <input type="search" id="directory-query" placeholder="Search by dish, ingredient or cuisine…" autocomplete="off">
     </div>
+    <button type="submit" class="sr-only" tabindex="-1">Search</button>
   </form>
   <p style="margin:0 0 1.5rem;font-size:.9rem;color:var(--text-soft)">
     Looking for something specific? Try
@@ -335,7 +337,7 @@ ${breadcrumbs(trail)}
         <div>
           <label class="sr-only" for="sort">Sort recipes</label>
           <select id="sort">
-            <option value="popular">Most popular</option>
+            <option value="popular">Suggested order</option>
             ${ctx.recipes.some(r => r.rating) ? '<option value="rating">Highest rated</option>' : ''}
             <option value="quickest">Quickest first</option>
             <option value="newest">Newest first</option>
@@ -344,6 +346,7 @@ ${breadcrumbs(trail)}
         </div>
       </div>
       <div id="results" class="card-grid">${(options.seed || []).map(r => card(r, { reveal: false })).join('')}</div>
+      <div class="load-more" id="load-more" hidden><button type="button" class="btn btn--ghost" id="show-more">Show more recipes</button></div>
     </div>
   </div>
 
@@ -524,6 +527,7 @@ ${breadcrumbs(trail)}
     active: 'ingredients',
     body,
     cuisines: ctx.topCuisines.slice(0, 8),
+    criticalCss: ctx.criticalCss,
     schema: [breadcrumbSchema(trail)]
   });
 }
@@ -710,6 +714,7 @@ ${breadcrumbs(trail)}
     noindex: true,
     body,
     cuisines: ctx.topCuisines.slice(0, 8),
+    criticalCss: ctx.criticalCss,
     schema: [breadcrumbSchema(trail)]
   });
 }
@@ -726,7 +731,7 @@ function privacy(ctx) {
      It is a constant because the honest value cannot be derived from the
      build: nothing in the repository records when the policy was last
      rewritten. Bump it by hand when the text below changes. */
-  const updated = '2026-09-04';
+  const updated = '2026-10-07';
 
   const body = `
 ${breadcrumbs(trail)}
@@ -747,9 +752,9 @@ ${breadcrumbs(trail)}
       ${CONSENT.enabled
         ? `<li>Nothing is loaded until you choose. Google Analytics and the advertising scripts are not in the page at all until you accept them, and if you refuse or ignore the banner they are never fetched.</li>
       <li>You can change your mind at any time with <a href="#" data-consent-reopen>Cookie settings</a>, at the foot of every page.</li>`
-        : `<li>There is no consent banner. Analytics and advertising load with the page, so if you would rather they did not, a content blocker is the way to stop them — the links further down turn each one off at the source.</li>`}
+        : `<li>There is no consent banner. Analytics and advertising load with the page. A content blocker stops the analytics and may stop the ads, but the ad network serves them from addresses that change to get past blockers, so I cannot promise it will — the links further down turn each one off at the source.</li>`}
       <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
-      <li>You can block both with any content blocker, and nothing on the site breaks.</li>
+      <li>Nothing on the site depends on either: if the analytics or the ads are blocked or fail to load, every recipe, the search and the timers work as before.</li>
     </ul>
 
     ${CONSENT.enabled ? `<h2>Consent, and what it controls</h2>
@@ -758,7 +763,7 @@ ${breadcrumbs(trail)}
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are not covered by that choice. They never leave your device, they exist only because you asked for them, and the site would not work as you left it without them.</p>
 ` : `<h2>Cookies, and how to refuse them</h2>
     <p>This site does not ask before loading its analytics and advertising scripts: they run when the page does. I would rather say that plainly than imply a choice you were not given.</p>
-    <p>If you do not want them, any content blocker stops both, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
+    <p>If you do not want them, a content blocker is the usual way to stop them, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. I would rather be plain about the ads, though: the network serves them from addresses that change, which is how it gets past some blockers, so a blocker may stop them or may not. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
 `}
 
@@ -784,7 +789,7 @@ ${breadcrumbs(trail)}
 
     <h2>Advertising</h2>
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.${CONSENT.enabled ? ' If you refuse, no ad script is fetched and the ad slots stay empty.' : ''}</p>
-    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker stops it, and you can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
+    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker may stop it, though the ads are served from addresses that change to get past blockers, so it is not a guarantee. You can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
 
     <h2>What else the site loads</h2>
     <ul>
@@ -827,6 +832,7 @@ ${breadcrumbs(trail)}
     active: 'privacy',
     body,
     cuisines: ctx.topCuisines.slice(0, 8),
+    criticalCss: ctx.criticalCss,
     schema: [breadcrumbSchema(trail)]
   });
 }
@@ -875,10 +881,10 @@ ${breadcrumbs(trail)}
     <p>None of this replaces actually cooking the thing, which I still do for every recipe here. It catches the mistakes that cooking it once does not — a nutrition figure that was right when I wrote it and wrong after I changed an ingredient six months later, say, once I have moved on to a different recipe entirely and stopped thinking about this one.</p>
 
     <h2>Where the photographs come from</h2>
-    <p>Every photograph here is freely licensed and sourced from Wikimedia Commons. Of the ${imageCount} photographs on the site, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. Everything that asks for a credit gets one, underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
+    <p>Every photograph here is freely licensed. Of the ${imageCount} photographs on the site, ${commonsImageCount} come from Wikimedia Commons and the other ${otherArchiveImageCount} were found through Openverse, which indexes Flickr and other archives of freely licensed work; the credit under each picture names the archive. ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. Everything that asks for a credit gets one, underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
     <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. I do not use NonCommercial images, because this site carries advertising, or NoDerivatives images, because resizing is exactly what that licence forbids. I would rather show you nothing than show you someone else's photograph without permission.</p>
     ${illustrationCount ? `<h2>And where the illustrations come from</h2>
-    <p>Some dishes have never been photographed by anyone willing to license the result, and six passes through the archives did not change that. Rather than leave ${illustrationCount} recipes as a blank card, those carry an illustration generated by an AI image model, from a prompt written out of the recipe's own description and ingredients.</p>
+    <p>Some dishes have never been photographed by anyone willing to license the result, and repeated passes through the archives did not change that. Rather than leave ${illustrationCount} recipes as a blank card, those carry an illustration generated by an AI image model, from a prompt written out of the recipe's own description and ingredients.</p>
     <p>It is a drawing of the dish and not a photograph of it, so it is labelled as one underneath the picture, listed as one in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and counted separately everywhere on this site &mdash; the ${imageCount} photographs above do not include any of them. Every one was looked at against the recipe before it was published, and the ones that came back showing the wrong dish were thrown away rather than tidied up${placeholderCount ? `, which is why ${placeholderCount} recipes still show a warm gradient card with the name on it` : ''}.</p>` : ''}
 
     <h2>How to use the site</h2>
@@ -1010,7 +1016,7 @@ ${breadcrumbs(trail)}
              Netlify before it reaches the inbox. Hidden from assistive
              technology as well as from sight, because it is not a real question. -->
         <p class="sr-only" aria-hidden="true">
-          <label>Leave this field empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+          <label>Leave this field empty: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label>
         </p>
         <div class="field">
           <label for="contact-name">Your name</label>

@@ -40,8 +40,15 @@ function catalog() {
   return catalogFiles().flatMap(file => require(path.join(DIR, file)));
 }
 
-/** Every detail record, keyed by slug. */
-function details() {
+/**
+ * Every detail record, keyed by slug, with any rewrites in src/data/rewrites
+ * laid over the originals. See src/lib/rewrites.js: the originals are never
+ * edited, and a rewrite of text that has since changed is ignored.
+ *
+ * `details({ rewrites: false })` returns the originals alone, which is what
+ * tools/humanize.js rewrites from.
+ */
+function details(options = {}) {
   const out = {};
   for (const dir of detailDirs()) {
     const full = path.join(DIR, dir);
@@ -49,7 +56,7 @@ function details() {
       Object.assign(out, require(path.join(full, file)));
     }
   }
-  return out;
+  return options.rewrites === false ? out : require('../lib/rewrites').apply(out);
 }
 
 module.exports = { catalogFiles, detailDirs, catalog, details };

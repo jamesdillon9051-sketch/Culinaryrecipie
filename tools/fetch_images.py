@@ -23,7 +23,7 @@ Output:
 Safe to re-run: work already on disk and recorded in the manifest is skipped.
 """
 
-import io, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
+import html, io, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 from PIL import Image, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -344,7 +344,27 @@ DOWNLOAD_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 DOWNLOAD_RETRY_CAP = 75
 
 
-def http_bytes(url, tries=3):
+def thumb_of_original(url, width=500):
+    """The standard-size thumbnail of a Wikimedia original, or None.
+
+    An original smaller than the 800 px asked for has no scaled copy, so the
+    candidate's URL is the file itself, and that is the copy upload.wikimedia.org
+    refuses this IP for ("Too many requests ... use thumbnail images in sizes
+    listed on https://w.wiki/GHai", with a countdown of ten minutes or so). The
+    standard sizes are pre-rendered and served without argument. Candidates are
+    at least 500 px wide, so 500 always exists.
+    """
+    m = re.match(r"^(https://upload\.wikimedia\.org/wikipedia/commons)/([0-9a-f])/([0-9a-f]{2})/"
+                 r"([^/]+\.(?:jpe?g|png))$", url or "", re.I)
+    if not m:
+        return None
+    base, a, ab, name = m.groups()
+    return f"{base}/thumb/{a}/{ab}/{name}/{width}px-{name}"
+
+
+def http_bytes(url, tries=3, patient=True):
+    """`patient=False` gives up on the first refusal instead of waiting it out,
+    for a caller that has another copy of the same picture to try."""
     _require_http(url)
     for i in range(tries):
         try:
@@ -365,11 +385,17 @@ def http_bytes(url, tries=3):
                 slow_down(host_of(url), quiet=wait is not None)
                 if benched(host_of(url)):
                     return None
+                if not patient:
+                    return None
                 if wait is not None and wait > DOWNLOAD_RETRY_CAP:
+                    log(f"    · file host asked for {wait:.0f}s or more for this copy; moving on")
                     return None          # not pacing; let the caller move on
                 if wait is not None and wait > 20:
                     log(f"    · file host asked for {wait:.0f}s; waiting it out")
-                time.sleep(wait if wait is not None else _gap.get(host_of(url), MIN_GAP))
+                # A refusal with no countdown used to be answered with a one or
+                # two second wait, which was over before the limit was. Back
+                # off geometrically instead: 5, 15, 45 seconds.
+                time.sleep(wait if wait is not None else min(45.0, 5.0 * 3 ** i))
                 continue
             if i == tries - 1:
                 log(f"    ! download failed: {e}")
@@ -386,6 +412,43 @@ def http_bytes(url, tries=3):
 def strip_html(s):
     s = re.sub(r"<[^>]+>", "", s or "")
     return re.sub(r"\s+", " ", s).strip()
+
+
+_PROFILE_HOSTS = {"flickr.com": "Flickr", "unsplash.com": "Unsplash", "rezeptewiki.org": "rezeptewiki.org"}
+
+
+def clean_author(raw):
+    """What a credit line may say about a photographer: a name.
+
+    The archives hand back whatever the uploader typed into the author field, and
+    it is printed under the picture and published as the image's creator. Some
+    of what has arrived: "GCO Education &amp; Co" (escaped twice), an unfilled
+    template "{{{photographer}}} from Okinawan and Kyusyu restaurant...", a bare
+    Flickr profile URL, and, for two recipes, the whole of a Creative Commons
+    licence notice with the photographer's email address in the middle of it.
+
+    So: unescape, drop template placeholders, cut a pasted notice back to the
+    name before it, and turn a bare profile URL into "handle (Flickr)". A string
+    that is left with nothing a person could be credited as is "Unknown", which
+    the page shows as a source credit with no byline rather than a wrong one.
+    """
+    a = html.unescape(html.unescape(raw or ""))
+    a = re.sub(r"\{\{\{?[^{}]*\}?\}\}", " ", a)
+    a = re.sub(r"\s+", " ", a).strip()
+    # A sentence that landed in the author field ("from a restaurant in ...").
+    if re.match(r"(?i)^(from|at|in|on)\b", a) and len(a.split()) > 3:
+        a = ""
+    if len(a) > 90 or re.search(r"licen[sc]e|you are free|@[\w.-]+\.\w+|I'd appreciate|please contact", a, re.I):
+        a = re.split(r"\s+\(|\s+I'd |\s+This |\s+Under |\s+https?://|\s+Please ", a)[0].strip()
+    m = re.search(r"https?://(?:www\.)?(flickr\.com|unsplash\.com|rezeptewiki\.org)/\S*", a)
+    if m:
+        before = a[:m.start()].strip(" :-")
+        handle = urllib.parse.unquote(m.group(0).rstrip("/").rsplit("/", 1)[-1])
+        handle = handle.replace("Benutzer:", "").replace("_", " ").lstrip("@")
+        a = f"{handle} ({_PROFILE_HOSTS[m.group(1)]})" if (not before or re.match(r"(?i)flickr user", before)) else before
+    else:
+        a = re.sub(r"\s*https?://\S+", "", a).strip()
+    return a or "Unknown"
 
 
 WEAK = set("""japanese chinese korean thai indian french italian mexican greek turkish
@@ -1529,6 +1592,8 @@ def gather(query, tags=(), reject=()):
         return (curated, -round(c["score"], 2), licence, original,
                 1 if throttled(c["url"]) else 0)
 
+    for c in pool:
+        c["author"] = clean_author(c.get("author"))
     pool.sort(key=rank)
     return pool
 
@@ -1621,13 +1686,24 @@ def main():
     #
     #   --shard 0/3   this worker takes recipes 0, 3, 6 ...
     #   --manifest P  write to P instead of src/data/images.json
-    global MANIFEST
+    global MANIFEST, IMG_DIR
     shard, shards = 0, 1
     argv = sys.argv[1:]
+    # --heroes-only: do not fetch the optional second "process" shot. The contact
+    # sheets show heroes only, so a second shot is published on the strength of
+    # the hero beside it without anyone having looked at it. A job that wants
+    # every picture looked at asks for the hero alone.
+    heroes_only = "--heroes-only" in argv
     if "--shard" in argv:
         shard, shards = (int(x) for x in argv[argv.index("--shard") + 1].split("/"))
     if "--manifest" in argv:
         MANIFEST = os.path.abspath(argv[argv.index("--manifest") + 1])
+    # --img-dir D  write the candidate files into D instead of
+    # src/assets/img/recipes. A recipe that already shows a drawing is named by
+    # the same file, so searching for a photograph to replace it must not save
+    # the candidate over the drawing before anyone has looked at it.
+    if "--img-dir" in argv:
+        IMG_DIR = os.path.abspath(argv[argv.index("--img-dir") + 1])
 
     # The catalogue is walked in order, so a volume at the end is reached only
     # after every gap before it has been retried. The Chinese volume sits last
@@ -1672,7 +1748,7 @@ def main():
         long_query = len(query.split()) > 8 and (rec.get("title") or "").strip()
         if long_query:
             query, sentence = rec["title"].strip(), query
-        want_process = idx % 2 == 0          # a process shot for 50% of recipes
+        want_process = idx % 2 == 0 and not heroes_only   # a process shot for 50% of recipes
         entry = manifest.get(slug)
         if entry and entry.get("skip"):
             # Deliberately left on the gradient placeholder: the archives have
@@ -1725,7 +1801,19 @@ def main():
                 pool.remove(cand)
                 if throttled(cand["url"]) and any(not throttled(c["url"]) for c in pool):
                     continue          # a faster candidate is still waiting
-                raw = http_bytes(cand["url"])
+                raw = None
+                small = thumb_of_original(cand["url"])
+                if small:
+                    # The original first, once and without waiting: if the file
+                    # host is happy to serve it the picture is better by a
+                    # fifth. If not, the 500 px copy is always there.
+                    raw = http_bytes(cand["url"], tries=1, patient=False)
+                    if not raw:
+                        raw = http_bytes(small)
+                    if not raw:
+                        raw = http_bytes(cand["url"])
+                else:
+                    raw = http_bytes(cand["url"])
                 time.sleep(0.6)
                 if not raw or len(raw) < 8000:
                     continue

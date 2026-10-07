@@ -57,6 +57,7 @@ const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
 const volumes = require('./data/volumes');
+const inline = require('./lib/inline');
 const { derivedTags } = require('./lib/diet-derived');
 /**
  * The meta description for an ingredient hub.
@@ -211,6 +212,21 @@ function validateImage(entry, slug) {
     if (data.lqip && !LQIP_URI.test(data.lqip)) {
       throw new Error(`"${slug}": image ${key} has a malformed LQIP data URI`);
     }
+    /* The author and title are printed under the picture and the author is
+       published as its creator. What the archives return is whatever the
+       uploader typed: an unfilled template ("{{{photographer}}}"), markup, an
+       email address, a whole licence notice. tools/fetch_images.py cleans these
+       on the way in; this is the check that the data is clean when it arrives
+       here, so one that is not stops the build instead of reaching a page. */
+    if (data.source !== 'AI illustration') {
+      for (const field of ['author', 'title']) {
+        const v = String(data[field] || '');
+        if (/\{\{|\}\}|<[^>]+>|&(?:amp|lt|gt|quot|#\d+);/i.test(v) || /[\w.-]+@[\w-]+\.[a-z]{2,}/i.test(v)
+            || (field === 'author' && v.length > 100)) {
+          throw new Error(`"${slug}": image ${key} has an ${field} that cannot go in a credit line: ${JSON.stringify(v.slice(0, 80))}`);
+        }
+      }
+    }
     clean[key] = data;
   }
   return clean;
@@ -245,6 +261,12 @@ function loadRecipes() {
       if (!detail[field]) throw new Error(`"${row.slug}" is missing the "${field}" field`);
     }
     if (detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
+    /* Optional: potassium and phosphorus in mg a serving, for the recipes that carry the
+       Kidney-Friendly label (src/lib/health.js). Half-filled is always a mistake. */
+    if (detail.kp && (!Array.isArray(detail.kp) || detail.kp.length !== 2
+        || !detail.kp.every(v => Number.isFinite(v) && v >= 0))) {
+      throw new Error(`"${row.slug}" kp must be [potassium mg, phosphorus mg]`);
+    }
     /* Unattended waiting — proving, chilling, marinating. Optional, because most
        recipes have none, but half-filled is always a mistake. */
     if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
@@ -284,13 +306,23 @@ function loadRecipes() {
          appears the moment a real asset does — see src/lib/media.js. */
       video: detail.video || null,
       publishedReviews: publishedReviews[row.slug] || [],
-      why: detail.why,
+      /* The schema, the FAQ, the feeds and the audits read the plain copies;
+         only the recipe page reads the Rich ones, which keep the **bold**
+         markers it turns into <strong>. See src/lib/inline.js. */
+      why: inline.plain(detail.why),
+      whyRich: detail.why,
       ingredients: detail.ing,
       steps: detail.st,
-      tips: detail.tips,
+      tips: detail.tips.map(inline.plain),
+      tipsRich: detail.tips,
+      /* Which layout the page uses and any headings written for this recipe
+         alone. Both optional; see src/lib/layouts.js. */
+      layout: detail.layout || null,
+      headings: detail.headings || null,
       pairings: detail.pair,
       storage: detail.store,
       nutrition: detail.nut,
+      kp: detail.kp || null,
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
       processData: image.process || null,
@@ -375,6 +407,7 @@ function loadRecipes() {
     if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;
   }
   recipes.dates = dates;
+  recipes.rewrites = details.__rewrites || { applied: 0, stale: [], unknown: [] };
 
   return recipes;
 }
@@ -741,6 +774,12 @@ function build() {
   const started = Date.now();
   const recipes = loadRecipes();
   const ctx = buildContext(recipes);
+  const rw = recipes.rewrites;
+  if (rw.applied || rw.stale.length || rw.unknown.length) {
+    console.log(`Rewrites: ${rw.applied} applied`
+      + (rw.stale.length ? `, ${rw.stale.length} ignored because the original text changed since (${rw.stale.slice(0, 3).join(', ')}${rw.stale.length > 3 ? ', …' : ''})` : '')
+      + (rw.unknown.length ? `, ${rw.unknown.length} for recipes that no longer exist` : ''));
+  }
 
   cleanOutput();
   mkdir(OUT);
@@ -756,14 +795,14 @@ function build() {
     title: 'All Recipes',
     heading: `All ${recipes.length} recipes`,
     eyebrow: 'The full directory',
-    intro: 'Every recipe on Weekly Delight, filterable by category, cuisine, dietary need, difficulty and total time. Sorted by what readers cook most.',
+    intro: 'Every recipe on Weekly Delight, filterable by category, cuisine, dietary need, difficulty and total time. Listed in a suggested order, which the sort menu changes.',
     description: `Browse all ${recipes.length} tested recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and cooking time. Free and no sign-up.`,
     keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter',
                'recipe index', 'full recipe list', 'browse by cuisine', 'browse by category',
                'filter recipes by diet', 'vegetarian recipes', 'vegan recipes',
                'gluten free recipes', 'quick recipes', 'easy recipes', 'dinner ideas',
                'what to cook tonight', 'tested recipes', 'recipes with photos',
-               'sort recipes by rating', 'find a recipe'],
+               'sort recipes by cooking time', 'find a recipe'],
     path: 'recipes/',
     trail: [{ name: 'Recipes' }],
     seed: recipes.slice().sort((a, b) => b.popularity - a.popularity).slice(0, 24)
@@ -848,7 +887,7 @@ function build() {
       titleHooks: [`— ${list.length} Tested`],
       heading: `${name} recipes`,
       eyebrow: 'Category',
-      intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, ranked by what readers cook most.`,
+      intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, in a suggested order.`,
       description: enrichDescription(
         `${plural(list.length, 'tested ' + categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
         ['Filter by cuisine, diet, difficulty and time.', ...TAIL_CLAUSES]),

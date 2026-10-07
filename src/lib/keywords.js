@@ -66,7 +66,13 @@ const DIET_WORD = {
   'Low-Carb': 'low carb',
   'Keto': 'keto',
   'High-Protein': 'high protein',
-  'No Added Sugar': 'no added sugar'
+  'No Added Sugar': 'no added sugar',
+  /* The health labels in src/lib/health.js. "Friendly" stays in each phrase so that
+     "is X weight loss friendly" reads as a question, and so that nothing here says a
+     dish treats, lowers or prevents anything. */
+  'Diabetes-Friendly': 'diabetic friendly',
+  'Weight-Loss Friendly': 'weight loss friendly',
+  'Kidney-Friendly': 'kidney friendly'
 };
 
 /* Ingredients too common to identify anything. "Chicken thighs" is worth a

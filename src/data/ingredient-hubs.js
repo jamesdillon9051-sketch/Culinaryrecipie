@@ -91,6 +91,8 @@ const HUBS = [
   { name: 'Rice', match: /\brice\b/, not: /\brice (?:vinegar|wine|flour|noodles?|paper|cakes?)\b/,
     blurb: 'Basmati, short-grain, glutinous and everything cooked in it.' },
   { name: 'Pasta', match: /\b(?:pasta|spaghetti|tagliatelle|penne|rigatoni|fettuccine|linguine|macaroni|ziti|paccheri|orzo|lasagne|bucatini|farfalle)\b/,
+    /* A vegetable that comes apart into strands, not a pasta. */
+    not: /\bspaghetti squash\b/,
     blurb: 'Long, short, filled and baked.' },
   { name: 'Noodles', match: /\bnoodles?\b/,
     blurb: 'Wheat, rice and egg — in soup, in a wok, and cold.' },

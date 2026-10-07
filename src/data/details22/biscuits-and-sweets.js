@@ -190,8 +190,8 @@ module.exports = {
   },
 
   'viennese-whirls': {
-    d: 'Piped, melt-in-the-mouth butter biscuits sandwiched with vanilla buttercream and a dab of jam. Forty-five minutes.',
-    meta: 'Viennese whirls: piped, buttery, melt-in-the-mouth biscuits made with cornflour, sandwiched with vanilla buttercream and raspberry jam.',
+    d: 'Piped, tender butter biscuits sandwiched with vanilla buttercream and a dab of jam. Forty-five minutes.',
+    meta: 'Viennese whirls: piped, buttery, tender biscuits made with cornflour, sandwiched with vanilla buttercream and raspberry jam.',
     kw: ['viennese whirls', 'viennese whirls recipe', 'melt in the mouth viennese biscuits', 'piped butter biscuits with jam', 'homemade viennese whirl biscuits'],
     why: 'The dough is unlike other biscuit doughs: it is a very soft, whipped butter mixture that is piped, not rolled, and its melting texture comes from the cornflour that replaces some of the flour and from beating the butter and sugar until very light. That soft dough is hard to pipe if it is cold and spreads if it is warm, so the butter is soft but not greasy and the piping bag is filled in small amounts. A large star nozzle gives the ridges that make it crisp at the edges and tender in the middle.',
     ing: [
@@ -429,7 +429,7 @@ module.exports = {
   },
 
   'scottish-tablet': {
-    d: 'The hard, grainy, melt-in-the-mouth Scottish sweet of sugar, butter and condensed milk, boiled and beaten until it sets. Forty minutes, plus setting.',
+    d: 'The hard, grainy Scottish sweet of sugar, butter and condensed milk, boiled and beaten until it sets. Forty minutes, plus setting.',
     meta: 'Scottish tablet: the crumbly, grainy, intensely sweet sugar, butter and condensed milk confection, boiled to soft ball and beaten until it sets.',
     kw: ['scottish tablet', 'scottish tablet recipe', 'traditional scottish tablet', 'how to make tablet', 'grainy sugar and condensed milk sweet'],
     why: 'Tablet is sugar deliberately encouraged to crystallise, which is exactly the opposite of what a caramel or a toffee wants, and it is the graininess that distinguishes it from fudge, which is smooth. The mixture is boiled to the soft-ball stage, 116°C, then beaten while it cools, and the beating triggers the crystals to form, so it thickens and turns matte and opaque and must be poured at once, before it sets in the pan. The result is hard, crumbly and melts on the tongue.',

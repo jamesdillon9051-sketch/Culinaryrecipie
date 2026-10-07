@@ -189,6 +189,13 @@ function footer(topCuisines) {
  * suppress both, so it does not end up with four.
  */
 function layout(page) {
+  /* The inline critical CSS is what paints the first screen before the
+     stylesheet arrives. A page that forgets to pass it used to be built with
+     <style>undefined</style> (privacy, the ingredients index and the contact
+     confirmation were), so say so here instead of shipping it. */
+  if (typeof page.criticalCss !== 'string' || !page.criticalCss.trim()) {
+    throw new Error(`layout(): no criticalCss for "${page.path || page.title}" — pass ctx.criticalCss`);
+  }
   const url = SITE.origin + SITE.base + (page.path || '');
   const image = page.image || `${SITE.origin}${SITE.base}assets/img/og-default.jpg`;
   /* Sized to the sixty characters a result shows, with at most one hook and
@@ -335,7 +342,7 @@ function card(recipe, options = {}) {
 
   const badges = [`<span class="badge badge--glass">${esc(recipe.cuisine)}</span>`];
   if (recipe.badges.includes('editors')) badges.push('<span class="badge badge--solid">Editor’s Pick</span>');
-  else if (recipe.badges.includes('trending')) badges.push('<span class="badge badge--brass">Trending</span>');
+  else if (recipe.badges.includes('trending')) badges.push('<span class="badge badge--brass">Featured</span>');
 
   return `<article class="card${options.reveal === false ? '' : ' reveal'}"${options.delay ? ` data-delay="${options.delay}"` : ''}>
   <div class="card-media" style="background:${img ? img.color : 'var(--bg-sunken)'}">

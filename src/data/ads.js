@@ -11,6 +11,15 @@
  * emitter in ../templates/ads.js, and it does not inherit the head exemption,
  * because there is no longer one to inherit.
  *
+ * All three live units, the social bar, the native banner and the 300x250
+ * banner, are the anti-adblock tags from the Adsterra dashboard, and they load
+ * from one host, disembroildisembroildissipatespots.com. Adsterra issues those
+ * under addresses it changes to get past content blockers, so if the address is
+ * ever rotated, the three URLs below are the only things to edit: the build
+ * writes them into every page and the frame documents, and check.js reads them
+ * from here, so it follows. The unit keys are the same ones the site already
+ * ran; only the host in front of them changed.
+ *
  * Everything about the site's advertising lives here. Set `enabled` to false
  * and the next build strips every ad script and slot from every page — useful
  * for local work, Lighthouse runs, or pulling the ads entirely. tools/check.js
@@ -46,12 +55,15 @@ module.exports = {
    * Put the URL back to switch it on again — nothing else has to change, and
    * check.js starts counting it on every page the moment it is non-empty.
    *
-   * Was: https://pl31083097.profitableratecpmnetwork.com/c9/51/15/c95115ef478957b26e6e3b38d22f9853.js
+   * It was the unit with key c95115ef478957b26e6e3b38d22f9853, on the address
+   * the other units used to share, and every one of them has since moved to
+   * the anti-adblock host below. Take a fresh tag for it from the Adsterra
+   * dashboard rather than reusing the old URL.
    */
   popunder: '',
 
   /* Loaded last, before </body>, so it never delays first paint. */
-  socialBar: 'https://pl31083098.profitableratecpmnetwork.com/bf/a6/76/bfa676ffa93febb261c12a1f71055429.js',
+  socialBar: 'https://disembroildisembroildissipatespots.com/bf/a6/76/bfa676ffa93febb261c12a1f71055429.js',
 
   /**
    * Native banner units, in placement order. The first is used for the slot
@@ -61,12 +73,12 @@ module.exports = {
    */
   nativeBanners: [
     {
-      invoke: 'https://pl31090612.profitableratecpmnetwork.com/f30ffc4b87049d66ff2e2bd03e77caf9/invoke.js',
+      invoke: 'https://disembroildisembroildissipatespots.com/f30ffc4b87049d66ff2e2bd03e77caf9/invoke.js',
       key: 'f30ffc4b87049d66ff2e2bd03e77caf9'
     }
     /* Second unit goes here:
     {
-      invoke: 'https://plXXXXXXXX.profitableratecpmnetwork.com/<key>/invoke.js',
+      invoke: 'https://disembroildisembroildissipatespots.com/<key>/invoke.js',
       key: '<key>'
     }
     */

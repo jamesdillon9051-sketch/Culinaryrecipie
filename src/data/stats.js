@@ -32,6 +32,10 @@ const heroes = catalog.map(r => (images[r.slug] || {}).hero).filter(Boolean);
 const withPhoto = heroes.filter(h => !isDrawn(h)).length;
 const withDrawing = heroes.filter(isDrawn).length;
 const credited = photos.filter(s => NEEDS_CREDIT.test(s.licence)).length;
+/* Commons is the main source and Openverse (Flickr and other archives of freely
+   licensed work) supplies the rest. The About page used to say all of them came
+   from Commons, which was not true of about a quarter. */
+const fromCommons = photos.filter(s => /^wikimedia/i.test(s.source || '')).length;
 const shareAlike = photos.filter(s => SHARE_ALIKE.test(s.licence)).length;
 
 module.exports = {
@@ -45,6 +49,8 @@ module.exports = {
      nothing else, so a drawing can never be counted as a public-domain
      photograph. */
   imageCount: photos.length,
+  commonsImageCount: fromCommons,
+  otherArchiveImageCount: photos.length - fromCommons,
   drawnImageCount: drawn.length,
   creditedImageCount: credited,
   shareAlikeImageCount: shareAlike,

@@ -44,6 +44,12 @@
 
   function stars(rating) {
     var value = Math.max(0, Math.min(5, Number(rating) || 0));
+    /* A recipe nobody has rated is not a recipe rated zero: "0.0" beside five empty stars says readers disliked it.
+       util.js says the same for the cards written at build time, and these are the ones painted here. */
+    if (!value) {
+      return '<span class="stars stars--unrated"><b>Not yet rated</b>' +
+        '<span class="sr-only">This recipe has no ratings yet</span></span>';
+    }
     var pct = (value / 5) * 100;
     return '<span class="stars"><span class="stars-glyphs" aria-hidden="true">★★★★★' +
       '<span style="width:' + pct + '%">★★★★★</span></span>' +
@@ -141,6 +147,31 @@
 
   var data = [];
 
+  /* Painting every card at once made the recipes and search pages 2,400 articles and about 90,000 nodes, which a
+     phone took ten seconds to lay out. Show a page at a time; the button below the grid brings in the next one. */
+  var PAGE = 60;
+  var current = [];
+  var shown = 0;
+  var moreBox = $('#load-more');
+  var moreBtn = $('#show-more');
+
+  function updateCount() {
+    if (!countEl) return;
+    var n = current.length;
+    countEl.innerHTML = n
+      ? '<strong>' + n + '</strong> recipe' + (n === 1 ? '' : 's') +
+        (state.q ? ' for &ldquo;' + esc(state.q) + '&rdquo;' : '') +
+        (shown < n ? ' &middot; showing ' + shown : '')
+      : 'No recipes found';
+  }
+
+  function updateMore() {
+    if (!moreBox) return;
+    var left = current.length - shown;
+    moreBox.hidden = left <= 0;
+    if (left > 0) moreBtn.textContent = 'Show ' + Math.min(PAGE, left) + ' more recipes';
+  }
+
   function render() {
     var favs = window.cvGetFavourites ? window.cvGetFavourites() : [];
     var results = data.filter(function (r) { return matches(r, favs); });
@@ -165,12 +196,10 @@
       results = results.slice().sort(sorters[state.sort]);
     }
 
-    if (countEl) {
-      countEl.innerHTML = results.length
-        ? '<strong>' + results.length + '</strong> recipe' + (results.length === 1 ? '' : 's') +
-          (state.q ? ' for &ldquo;' + esc(state.q) + '&rdquo;' : '')
-        : 'No recipes found';
-    }
+    current = results;
+    shown = Math.min(PAGE, current.length);
+    updateCount();
+    updateMore();
 
     if (!results.length) {
       grid.className = '';
@@ -183,8 +212,23 @@
     }
 
     grid.className = 'card-grid';
-    grid.innerHTML = results.map(cardHtml).join('');
+    grid.innerHTML = current.slice(0, shown).map(cardHtml).join('');
     document.dispatchEvent(new CustomEvent('cv:results-rendered'));
+  }
+
+  if (moreBtn) {
+    moreBtn.addEventListener('click', function () {
+      var from = shown;
+      shown = Math.min(shown + PAGE, current.length);
+      grid.insertAdjacentHTML('beforeend', current.slice(from, shown).map(cardHtml).join(''));
+      updateCount();
+      updateMore();
+      document.dispatchEvent(new CustomEvent('cv:results-rendered'));
+      /* Put keyboard focus on the first new card, not on a button that has just moved off the screen. */
+      var first = grid.children[from];
+      var link = first && first.querySelector('h3 a');
+      if (link) link.focus();
+    });
   }
 
   /* ------------------------------------------------------------- events */

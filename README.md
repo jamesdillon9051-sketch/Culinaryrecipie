@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **2415 most famous recipes** — each
+A dependency-free static site for the world's **2715 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-2415 recipes · 78 cuisines · 10 categories · 2568 static pages · 0 npm dependencies
+2715 recipes · 78 cuisines · 10 categories · 2868 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,15 +69,22 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-31.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-34.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details31/ # long-form content for the matching volume
+│   │   ├── details2/ …details34/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
+│   │   ├── rewrites/*.json      # rewrites laid over the recipes by tools/humanize.js
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
 │   │   └── images.json          # image manifest: files, licences, colours, LQIP
 │   ├── lib/
 │   │   ├── util.js              # escaping, durations, taxonomy tables
-│   │   └── ingredients.js       # ingredient parser + quantity formatter
+│   │   ├── ingredients.js       # ingredient parser + quantity formatter
+│   │   ├── voice.js             # banned phrases, openings, first-person rules, text checks
+│   │   ├── layouts.js           # the recipe-page layouts and their heading wordings
+│   │   ├── inline.js            # the one mark-up allowed in prose: **bold**
+│   │   ├── rewrites.js          # lays src/data/rewrites over the recipes
+│   │   ├── rewrite-check.js     # decides whether a rewrite may replace a recipe's words
+│   │   └── pick.js              # deterministic choice from a slug hash
 │   ├── templates/
 │   │   ├── layout.js            # HTML shell, head/SEO, header, footer, card
 │   │   ├── pages.js             # home, directory, taxonomy, about, contact, 404
@@ -89,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 4798 image files (WebP + JPEG)
+│       └── img/recipes/         # 6094 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -98,16 +105,21 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── make_icons.py            # favicon, PWA icons, OG card
 │   ├── make-attribution.js      # regenerates images-attribution.md
 │   ├── check.js                 # post-build audit
+│   ├── voice-audit.js           # measures repetition in the prose; fails on banned phrases
+│   ├── backup.js                # snapshot, verify and restore src/data
+│   ├── humanize.js              # batch rewrite through the Anthropic API, safely
+│   ├── humanize-selftest.js     # tests for the four above, against a fake API
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 4798 image files
-├── recipes/                     #    2415 recipe pages
+├── assets/                      #    css, js and 6094 image files
+├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
 ├── images-attribution.md        # source + licence for every image
 ├── netlify.toml / vercel.json
+├── CLAUDE.md                    # working instructions for Claude Code sessions
 └── package.json
 ```
 
@@ -189,7 +201,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 2415 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 2715 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -221,7 +233,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 2415 recipe pages and the about page — 14,031 questions,
+- [x] **FAQPage** on all 2715 recipe pages and the about page — 15,791 questions,
       about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -234,7 +246,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       well-known, authoritative government and health sites. This markup is
       correct and it will not put an accordion under the search result. The gain
       is a page that answers what people actually ask
-- [x] Keywords — 4 curated phrases per recipe, widened to a median of 87 by
+- [x] Keywords — 4 curated phrases per recipe, widened to a median of 89 by
       `src/lib/keywords.js` from the row's own cuisine, category, times,
       difficulty, diet tags, servings, ingredients, cooking method, pairings,
       per-serving nutrition and storage note. Derived rather than written, so a
@@ -242,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 213,342 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,694 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -380,10 +392,10 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-1409 of the 2415 recipes have a photograph. Of the 1894 images on the site, 956
-are CC0 or public domain, 453 are CC BY and 485 are CC BY-SA. Anything still
-without one falls back to a CSS gradient carrying the recipe name, the same
-fallback that catches any image that fails to load at runtime.
+2453 of the 2715 recipes have a photograph. Of the 2936 images on the site,
+1186 are CC0 or public domain, 890 are CC BY and 860 are CC BY-SA. Anything
+still without one falls back to a CSS gradient carrying the recipe name, the
+same fallback that catches any image that fails to load at runtime.
 
 Every candidate is opened and looked at before it ships. That is not belt and
 braces — it is the only check that has ever worked. Every wrong photograph found
@@ -489,6 +501,16 @@ broccoli, the three-egg omelette and fried sweet plantain. Commons has nothing
 of those dishes under a licence the site can use, and a gradient carrying the
 recipe name is honest where a picture of something else is not.
 
+One more turned up later, by accident. The Samgyetang page carried, as the
+picture of its method, a bowl of chicken noodle soup with wide wheat egg
+noodles, titled "Ginger Chicken Soup with Vegetables", on a recipe that is
+gluten-free and is a whole small chicken stuffed with glutinous rice, ginseng
+and jujube. It is the same file the fourth-round search offered the ginger
+chicken soup of volume thirty-four and was refused there for the same reason.
+The process photograph has been withdrawn and the hero stays. No other older
+recipe was re-examined for this: the check is made on the photographs of new
+volumes, and the older ones are as they were.
+
 ---
 
 ## High-protein and no-added-sugar
@@ -523,21 +545,61 @@ were also the first recipes on the site with **no rating**, because adding
 twelve more invented figures would have been a poor answer to having just
 documented the problem. Every recipe reads that way now — see below.
 
-### On diabetes
+### On diabetes, weight loss and kidney disease
 
-There is no tag for it and there will not be one. Whether a meal suits someone
-managing diabetes depends on their medication, their carbohydrate ratios, the
-portion they eat and the rest of that day — it is a property of a person's
-circumstances, not of a recipe, and Diabetes UK is explicit that there is no such
-thing as a diabetic food. A site that labelled recipes "diabetes-safe" would be
-making a clinical judgement it is in no position to make, about a reader it has
-never met.
+This section used to say that there was no tag for diabetes and there would not
+be one. Whether a meal suits someone managing diabetes depends on their
+medication, their carbohydrate ratios, the portion they eat and the rest of that
+day: it is a property of a person's circumstances, not of a recipe, and Diabetes
+UK is explicit that there is no such thing as a diabetic food. A site that
+labelled recipes "diabetes-safe" would be making a clinical judgement it is in
+no position to make, about a reader it has never met. All of that is still true.
 
-What the site can honestly provide is the number carbohydrate counting actually
-uses. Every recipe prints carbohydrate per serving in its nutrition table and in
-its FAQ, `src/data/catalog-5.js` adds ten recipes at 14 g a serving or less, and
-the Low-Carb filter now covers 114 recipes instead of 16. The grams are the
-useful part; the label was never going to be.
+What changed is that readers look for recipes in exactly these terms, and
+volumes 32 to 34 (three hundred recipes for diabetes, for weight loss and for
+kidney-friendly eating) were commissioned for them. An unlabelled recipe is no
+safer for anyone; it only leaves the reader to do the arithmetic alone. So the
+site now has three labels, and each one is a claim about numbers printed on the
+page and never a claim about a person. They are **Diabetes-Friendly**, **Weight-
+Loss Friendly** and **Kidney-Friendly**, and the rules behind them are in
+`src/lib/health.js`:
+
+- **Diabetes-Friendly**: nothing on the ingredient list that is sugar, honey,
+  syrup or a sweetened sauce such as ketchup or teriyaki; carbohydrate at most
+  40 g a serving, or 20 g for an appetizer, bake, dessert or drink; at least 3 g
+  of fibre when carbohydrate is above 20 g; sodium at most 700 mg.
+- **Weight-Loss Friendly**: at most 400 kcal a serving, and above 200 kcal at
+  least 15 g of protein or 5 g of fibre, so that it fills as well as it counts.
+- **Kidney-Friendly**: sodium at most 500 mg, potassium at most 700 mg and
+  phosphorus at most 350 mg a serving, with no cured meat, salt substitute,
+  stock cube or processed cheese on the ingredient list. These are about a
+  quarter to a third of the daily limits many kidney diets use, and the page
+  says that individual limits differ.
+
+They are hand-written tags, held to those numbers by `npm run health` (part of
+`npm run check`) and not derived, so adding them did not change a page that
+predates them. The audit checks three further things. The nutrition on the page
+must be what the recipe's own ingredient list adds up to, which is why
+`tools/nutrition-calc.js` and its food table are now in the repository (the
+script that did the sums for volumes 26 to 31 never was). A labelled recipe may
+not promise an outcome: "safe for diabetics", "lowers blood sugar", "burns fat",
+"detox" and "cures" fail the build. And volume 34, written to be protein-rich,
+must still carry 20 g of protein a meal.
+
+Each labelled recipe page prints its own figures, the limit each was held to and
+a plain note that this is not medical advice. Kidney-Friendly recipes also print
+potassium and phosphorus. The label says "kidney-friendly" and never "safe", and
+it leaves protein out of the rules on purpose: how much protein a person with
+kidney disease needs is restricted at some stages and raised on dialysis, so the
+page sends the reader to their kidney care team and does not decide for them.
+
+What the labels cannot do is what the rest of this README says about nutrition:
+the figures are estimates from a food table written from memory of standard
+composition data, good to about 10 per cent, and the potassium and phosphorus
+columns to a little worse. A packaged food varies by brand and the table cannot
+see an additive, which is why the kidney rules refuse processed meats and stock
+cubes by name and the recipes ask for plain meat, fish and shrimp with no salt
+or phosphate added.
 
 ## Diet tags
 
@@ -551,7 +613,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 2415 recipes now passes, and `npm run check` runs the
+Every one of the site's 2715 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -2548,9 +2610,1417 @@ preserving method. A few recipes carry a safety warning, for raw salmon, raw egg
 white in icing, raw flour in the edible cookie dough, boiling sugar and hot oil,
 and a recipe is not a food-safety course.
 
-Photographs: the five hundred carry the gradient card until the image pass has
-been through them, which makes 501 recipes on it. An image pass, as in volume
-twenty-six, would fetch photographs from the archives and draw the rest.
+Photographs: the five hundred were published on the gradient card. The image
+pass that followed fetched archive photographs for the ones where a correct one
+exists and drew nothing; it is described in the section after this one.
+
+## A sweep for broken links, and real photographs for the five hundred
+
+The owner asked for two things in one sentence: look for broken links and errors
+and fix them, and find pictures for the 500 recipes of volumes twenty-seven to
+thirty-one. After volume thirty-one 501 recipes were on a gradient card, the 500
+new ones and the Mont-Blanc. The two jobs were done together, because the crawl
+that looks for a dead link also finds a credit line that is wrong.
+
+The pictures first, because the brief changed halfway through. The first plan
+copied the earlier pass: archive photographs where there were any, and a
+labelled AI illustration for the rest. About 250 illustrations were drawn,
+looked at and published before the owner said they wanted real images, not AI
+generated ones. All of them were taken out again: nothing generated in this
+pass is on the site, the hand-written prompts that were written for the
+generator were not kept, and `src/data/image-prompts.json` is as it was. What
+follows is photographs only.
+
+The result: 432 of the 501 recipes now have a photograph from an
+archive, and 69 are still on a gradient card. Across the site
+that is 2,235 photographs, 111 illustrations
+(all of them from the earlier pass, see the end) and 69
+gradient cards on 2,415 recipes.
+
+### What was looked at
+
+The repository's own check had already passed, and it reads what the build
+writes, so none of this was it.
+
+- **A crawl of the built files** the way a browser would follow them: all
+  2,568 pages, every `href`, `src`, `srcset` and form action resolved to a
+  file with the case it was written in, every `#fragment` to an id on its page,
+  every `aria-controls`, `aria-labelledby` and `for` to an element, ids unique,
+  every `target="_blank"` carrying `noopener`, nothing served over `http`, and
+  the JSON-LD, sitemap, both feeds, search index, manifest and `robots.txt`
+  parsing. Internally it found nothing broken. Everything below came from
+  looking at what the links and the data said, not from a link that failed.
+- **The credit links**: 2,076 unique external URLs. Wikimedia Commons pages were
+  asked through its API, fifty titles at a time, which is how it asks to be
+  used; every other host with a polite HEAD. One Commons file had been deleted
+  since it was fetched. None of the others was dead.
+- **Chromium** over a sample of recipe pages from every layout and every kind
+  of picture, and the hub, listing and utility pages, at 390 and 1,280 px:
+  console errors, uncaught exceptions, 4xx and 5xx responses, images that
+  loaded as nothing, horizontal overflow. Then the things a reader presses: the
+  servings scaler, the metric toggle, Cook Mode and its step buttons, a timer,
+  the heart, the review form, search. The run also logged 339 "failed
+  requests", every one `net::ERR_ABORTED`: a lazy image cancelled when the
+  script moved on to the next page, which is the script and not the site. The
+  heart and search are where findings 14 and 15 came from. The header and menu
+  were run again at every width from 320 to 1,920 px, with the real web fonts,
+  which is where findings 17 and 18 came from.
+- **axe-core**, in both themes at both widths, on nineteen pages, and
+  **html-validate** over the page types. After the fixes below the first run
+  reported one thing: a contrast of 1.01 on the first related-recipe card of one
+  page at phone width, read while the card was half-way through fading in, which
+  is the measurement and not the page. The last run, on the final build over
+  twenty pages in both themes at 390, 1,000 and 1,280 px, reports nothing.
+- **The data under the pages**: every published image file against the colour
+  and thumbnail the manifest records for it, and every credit line read.
+
+### What it found
+
+1. **Licence links over `http`.** 436 pages linked the Creative Commons deed
+   as `http://creativecommons.org/…` (547 links, and 387 more in the structured
+   data). A visitor on `https` is redirected through each, and a crawler reports
+   them as insecure. `secureUrl` in `src/lib/util.js` upgrades a known host at
+   render time, in the page, the schema and `images-attribution.md`, and
+   `npm run check` fails on any `http://` link in a built page.
+2. **Credit lines that were not names.** Archive author fields are whatever the
+   uploader typed. Twelve had been published as typed: three Flickr and
+   Unsplash profile URLs, a Rezeptewiki profile URL, an author field that was a
+   request to be mailed at an address and another that carried the address, one
+   that was the unfilled template `{{{photographer}}} from…`, an `&amp;` shown
+   as written, two that ran on into a sentence about the photographer's
+   hometown or a link to their site, and two titles with a trailing space.
+   `clean_author` in `tools/fetch_images.py` cleans them as an image is
+   fetched; the page omits a byline that would read "Unknown"; and the build
+   refuses a credit that carries template braces, markup, an entity, an email
+   address or an author of more than 100 characters.
+3. **Fifteen CC BY and CC BY-SA photographs that credited nobody.** The
+   archive's machine-readable author field was empty on each, which the
+   pipeline stored as "Unknown" and the page printed as "by Unknown". The
+   file's own description page named the photographer on every one: Stu Spivack
+   on four, Justinc, Neitram, the uploader of the self-made ones, and for the
+   tapioca pudding the person who reworked it and the person who first uploaded
+   it. All fifteen are entered now, and the check caught a sixteenth the day it
+   was written, among the photographs found afterwards: the Maghrebi mint tea,
+   whose archive record names no author and whose description page credits
+   Nicolas Mailfait, not the person who uploaded it to Commons, and `npm run check` fails on any CC BY or
+   CC BY-SA image without an author, because the credit is the licence.
+4. **A rating nobody gave.** The home page's hero printed "4.8 Average rating"
+   from a number typed into the template, weeks after the catalogue's invented
+   ratings were removed. `tools/seo-audit.js` reads structured data, not visible
+   text, so it never saw it. The third hero figure is now the count of meal
+   types, and `npm run check` fails on any page that claims an average rating
+   while `src/data/reviews.json` holds no review.
+5. **The About page said every photograph came from Wikimedia Commons.** Some
+   came from Openverse (Flickr, Rawpixel and the WordPress photo directory), and
+   `images-attribution.md` said the same. Both sentences now come from counts
+   (`commonsImageCount` and `otherArchiveImageCount` in `src/data/stats.js`), so
+   they cannot drift again.
+6. **A photograph whose source file no longer exists.** The seekh kebab's
+   Commons file had been deleted. A deleted file's licence cannot be checked, so
+   its entry and files were removed; the recipe was searched again.
+7. **Three pages built with `<style>undefined</style>`.** The privacy page, the
+   ingredients index and the contact confirmation never passed the inline
+   critical CSS to `layout()`, so the header and first screen painted unstyled
+   until the full stylesheet arrived. axe reported it as touch targets that
+   overlapped on `/privacy/`, which was the clue. `layout()` now throws without
+   it, and `npm run check` fails on a built page that prints `undefined`, `null`,
+   `NaN` or `[object Object]` where a value should be.
+8. **Contrast.** axe-core found 624 nodes on 80 page views below 4.5:1: the
+   "Advertisement" label at 2.98, the terracotta used as text on the sunken and
+   tinted bands at 3.9 to 4.2, the footer's small print at 4.39, and, in the dark
+   theme only, white text on the lighter accent at 2.69. The terracotta went
+   from `#c1502e` to `#b24626`, the label lost the opacity that was greying it,
+   the footer greys moved up a step, and text on an accent fill now takes
+   `--on-accent` (white on the light theme, the dark ink on the dark one).
+   `npm run check` now measures the text and background token pairs in both
+   themes, and the footer's three greys, and fails any below 4.5.
+9. **The phone menu was still in the tab order while closed.** It was slid off
+   the screen and nothing more, so a keyboard user tabbed into seven links they
+   could not see. It is `visibility: hidden` once the slide has finished, and
+   Escape closes it and returns focus to the button.
+10. **Obsolete markup.** html-validate found `scrolling` and `frameborder` on
+    the advertisement iframes (the frames now say `overflow: hidden` themselves,
+    and the border was already in the style), an `aria-label` on a plain `div`
+    (it is a `role="group"` now) and an `input` with no `type`.
+11. **Four stale placeholders.** `prime-rib`, `chicken-piccata`, `chicken-marsala`
+    and `chicken-alfredo` had their photograph replaced at some point without the
+    blur-up thumbnail and average colour being redone, so they faded in from
+    another dish's picture. Found by comparing every published image with its
+    recorded colour: those four disagreed and nothing else did.
+12. **`MISSING-IMAGES.txt` said "199 of 400".** It had been written by hand once
+    and was never updated. `npm run missing` now writes it from the data.
+13. **The recipes and search pages painted all 2,415 cards at once.**
+    `directory.js` put every recipe into the page, about 90,000 nodes and a page
+    well over a million pixels tall on a phone. With the processor slowed to a
+    quarter of this machine's, the recipes page took 14.6 seconds to settle and
+    the search page 12.4, and the axe run stalled on both, which is how it was
+    noticed. Each page now shows sixty cards and a button brings in the next
+    sixty, moving keyboard focus to the first new card; the same two pages settle
+    in 4.3 and 3.7 seconds, with 7,700 and 2,900 nodes (the first still carries
+    the 2,415-link A to Z index in its closed `<details>`). `npm run check` fails
+    on a directory page without the button. The category, cuisine and ingredient
+    pages are written out in full, so a crawler reads every link without running
+    a script, and they stay that way; finding 16 is what was done about their
+    weight.
+14. **Saved recipes did not show as saved on the pages that list them.** The
+    hearts on cards painted by `directory.js` were written unpressed and nothing
+    synced them afterwards, so on `/favourites/` every saved recipe offered
+    "Save … to favourites", and pressing it removed the recipe. The cards now
+    sync their hearts each time they are painted.
+15. **Unrated recipes read "0.0" on the pages that list them.** `src/lib/util.js`
+    prints "Not yet rated" for a recipe nobody has rated, with a comment saying
+    why: "0.0" beside five empty stars says readers disliked it. The cards that
+    `directory.js` paints, on the recipes, search and favourites pages, printed
+    it on all 2,415. They say "Not yet rated" now, and `npm run check` fails if
+    the script loses the rule.
+16. **The largest archive pages laid out every card before showing any.** Dinner
+    has 801 cards, the American cuisine page 571. Measured the same way as
+    finding 13 (a phone-sized screen, the processor slowed to a quarter of this
+    machine's, the median of three runs), dinner took 3.1 seconds to load and
+    3.3 of main-thread work, 1.2 of it laying cards out. `.card-grid > .card`
+    now has `content-visibility: auto` with a placeholder height of 480 px, which
+    is what the cards measure (482 at 390 px, 493 at 820, 499 at 1,280, 440 at
+    1,600 where the grid has four columns). The same page loads in 1.0 seconds
+    with 1.0 of main-thread work and 0.12 of layout; the American page went from
+    2.4 seconds to 0.8. Scrolling through it, every image in view had loaded 0.3
+    seconds after the scroll stopped, and the page's height moved by 3 per cent
+    at 1,280 px and by nothing at 390 as cards were laid out. The cards stay in
+    the page, so a crawler and a screen reader still have them.
+17. **The header was wider than a tablet.** Between 861 and 1,100 px, a tablet
+    held sideways or a small laptop, the row of eight links, the search field and
+    the theme button was wider than the screen: the theme button fell off the
+    right edge and the page scrolled sideways. Between 1,100 and about 1,300 px
+    the search field was squeezed until it could not show its own placeholder.
+    No earlier pass had looked at those widths; the audits ran at 390 and
+    1,280. Now the field is not shown below 1,300 px (the Search link is still
+    there) and the links fold into the menu button below 1,100, which sits at the
+    right edge on a tablet. That width is one number in two files, `main.css` and
+    the hover handler in `app.js`, and `npm run check` fails if they disagree.
+    The header and a sample of pages were then run at widths from 320 to 1,920 px
+    with no sideways overflow.
+18. **The phone menu's Categories list was half off the screen.** Open the menu
+    on a phone and press Categories: the panel is two columns and the left one
+    sat 142 px beyond the left edge, so Breakfast, Dinner, Appetizers, Baking and
+    Quick Meals could not be seen or pressed. On a desktop the panel is centred
+    under its link by sliding it half its own width left; the rule that was meant
+    to undo that in the folded menu is less specific than the one that opens the
+    panel, so the slide stayed. The open panel now sets `transform: none` in the
+    menu, and all ten categories are inside the screen from 320 to 1,099 px.
+19. **Rankings nobody measured.** The home page said its "Trending Now" section
+    ("What everyone is cooking this week") was "ranked by what readers are
+    actually saving and printing right now"; the category pages said "ranked by
+    what readers cook most", the recipes page "sorted by what readers cook
+    most", the sort menu's default was "Most popular", the home page had a "Top
+    rated" button that sorted by a rating no recipe has, and 76 cards wore a
+    "Trending" badge. The order underneath is `rating × reviews` from the
+    catalogue rows, which `CLAUDE.md` calls an ordering weight, and the site is
+    static and keeps no analytics: nothing counts what is cooked, saved or
+    printed. It is the same family as finding 4. The lists keep their order and
+    now say only that they are in one: "To start with / A handful from the
+    archive", "in a suggested order", "Suggested order", "All recipes" and
+    "Featured". `npm run check` fails on the old phrases while
+    `src/data/reviews.json` is empty, and `CLAUDE.md` section 4.3 says so. The
+    keyword "sort recipes by rating" on the recipes page, a sort that is not
+    offered, became "sort recipes by cooking time".
+20. **A badge nobody could read.** The "Trending" badge (now "Featured") was
+    brass text on a faint brass tint, which disappears on a dark photograph; axe
+    cannot test text laid over a picture and files it under "needs review". It is
+    now white on the same dark glass as the cuisine badge, with a brass edge.
+
+Every recipe `<img>` has alt text and dimensions, and no id is duplicated or
+dangling; that was checked and needed nothing.
+
+### Finding photographs
+
+The first search covered all 500 with a 45-second budget per recipe, which is
+what cut off the slow part of the chain (the text searches, the article lead
+image, the Commons categories) for most of them. It turned up a candidate for
+442 recipes, and every candidate was looked at on a contact
+sheet before it went anywhere. The second search ran the whole chain again on
+the 316 still without one, for as long as it needed, with alternative names
+written for each recipe in `src/data/image-queries.json` (the cocktail with
+"(cocktail)" after it, the dish under the other name it goes by, the title in
+the singular) and with every archive page already refused left out. A third,
+wider search is described further down. Over the three, 432 photographs were
+kept and 1,173 candidate pages refused, which is 73 per cent of
+what was looked at. They were wrong in the same ways each time:
+
+- **A place, an animal or an object with the dish's name.** `mushroom-barley-soup`
+  returned a snake, `caribou` a mountain, an animal and later a coin, `sea-breeze`
+  warships, `last-word` a cat, `ranch-water` a river valley and then a ruined
+  water tank, `hodge-podge` the fittings of an irrigation system, `cuba-libre`
+  a rusted car and then a word scratched in concrete, `kumara-fritters` and
+  `portzelky` the same Californian licence plate, `coca-cola-cake` a man on a
+  news channel and then the company's tower, `king-ranch-chicken-casserole` a
+  wildfire, `baked-spaghetti` a tangle of cables, `stromboli` a volcano, `mimosa`
+  a tree, `southern-green-beans` a stink bug and `penicillin` a vial of the
+  antibiotic.
+- **A person.** `white-russian` returned two heads of government shaking hands,
+  `brandy-alexander` a portrait and `mai-tai` a party.
+- **A product or an advertisement.** `kentucky-butter-cake` returned a fried
+  chicken advertisement, `jello-shots` a pack of reusable syringes,
+  `cajun-seasoning` a shop display of branded boxes, `apple-butter` the lid of a
+  Dutch tin, `black-russian` two bottles with their labels,
+  `blue-cheese-dressing` tubs of a branded crumble and `peppermint-patties` the
+  bag.
+- **The right words on the wrong dish.** `ramen-eggs` returned a bowl of ramen
+  with a fried egg, `mudslide` a frozen dessert and then a landslide,
+  `italian-wedding-cookies` an Italian wedding soup, `hot-chocolate-bombs` a cup
+  of hot chocolate and then a rose, `peanut-butter-fudge` a pile of sandwich
+  cookies and `thai-beef-salad` a red beef curry.
+- **A document.** `boulevardier` returned a page of sheet music twice,
+  `lomi-lomi-salmon` a manuscript letter, `kir-royale` a postcard of Budapest,
+  `irish-apple-cake` a painting of Halloween revellers and `black-russian`, on its
+  second try, a typewriter.
+
+The licence split of what was kept is CC BY 172, CC BY-SA 148, CC0 77 and public domain 35, from Wikimedia Commons and Wikipedia (297), Flickr (117), Rawpixel (13), the WordPress photo directory (3) and StockSnap (2).
+
+One fault in the tool itself cost the second search a lot of its first hour.
+`upload.wikimedia.org` answers a request for an original file from this
+environment's shared IP with a 429 and a countdown of ten minutes, and tells the
+client to use a standard thumbnail size instead. The fetcher gave up on those
+copies without a word, and a recipe whose only candidate was a small original
+(smaller than the 800 pixels it asks a thumbnail for) was logged as "candidates
+found but none downloadable". It now tries the original once, falls back to the
+pre-rendered 500 pixel copy, which is always there, and backs off 5, 15 and 45
+seconds on a refusal that carries no countdown instead of waiting two.
+`fetch_images.py --img-dir` and `contact_sheet.py --img-dir` were added so that
+candidates can be kept apart from the files the site is using.
+
+### Reading the curated sources in full
+
+The chain in `tools/fetch_images.py` stops as soon as it holds two candidates and
+asks the text searches first. For a dish with a great many snapshots in the
+archives that meant the two places where a person decided what a picture shows
+were never reached: the photographs in the English Wikipedia article for the
+dish, and the Commons category filed under its name. Three refused Flickr
+snapshots ended the search for English muffins, and the Commons category for them
+holds thirty-six files. A separate pass read both in full for every recipe that
+was still on a gradient card or a drawing (`tools/wide_search.py`, which is in the
+repository and describes its own use), and then
+took one deeper page from Openverse (twenty results of any shape, the most it gives
+an anonymous caller) for the recipes still without a picture.
+
+375 recipes got a photograph from it: 131 that had been on a
+gradient card and 244 that had shown a drawing. 1,316
+candidates were refused, again for the reasons above, and the pages are recorded
+in `image-rejects.json`. Two things were new. Commons categories are curated, but
+loosely: the category for *blue cheese dressing* is the one for blue cheese, and
+every file in it is a wedge of cheese. And an article's image list is the
+article's, not the dish's: every cocktail article names the same photograph of a
+gin and tonic, which turned up as a candidate for sixteen drinks. Both are caught by
+looking, which is what the contact sheets were for.
+
+One more source was read last: the Commons file search itself, by name
+(`wide_search.py search --files`). The chain's own Commons search runs a stack of
+title heuristics over what it finds, and it returns nothing at all, without
+saying so, for as long as Commons is benched for rate limiting. A recipe it had
+logged as "nothing found" may therefore only have been searched on a bad day:
+*Sfogliatelle on plate*, *Poulet yassa 01* and *Homemade Afghan biscuits* were all
+on Commons for recipes it had given up on. The file search was run over all
+254 recipes then still without a photograph (the drawings and the
+gradient cards), under the title, the other names the dish goes by, the title cut
+at a foreign connector (*Malloreddus alla Campidanese* gives *Malloreddus*) and the
+title without its accents. 170 of them turned up files that passed
+the licence and size gates, though many of those were the wrong thing under the right
+word (*Moros y Cristianos* is a Spanish festival, *Hermits* a pop group,
+*Figgy Duff* a Japanese photographer, *Date loaf* a hill called Sugar Loaf), and
+113 were worth a contact sheet. 68 were published after the
+second look: 54 replaced a drawing and 14 filled a gradient card.
+
+A last pass used exact Commons category names and phrases for the 53 recipes whose
+title is also something else: *Manhattan* is a borough, *Martini* a vermouth and a
+racing team, *Blue Lagoon* a spa, *Mudslide* a landslide. It asked for
+`Category:Manhattan (cocktail)` and the phrase "Manhattan cocktail" instead, found
+candidates for 31 of the 53 and published 6. The rest were
+refused. One of them is worth saying: for `martini`, the only photographs of a cocktail
+in a martini glass were a red drink with an orange peel and two tumblers printed with
+the Martini brand, so the recipe stays on its drawing.
+
+### The drawings from the earlier pass
+
+The instruction was given about this pass, but "real images, not AI generated"
+reads as meant for the site as a whole, and 505 recipes still showed a labelled
+drawing from the earlier image pass, mostly in the volumes up to twenty-six,
+where nothing usable had been found at the time. The same search was run over
+them with the candidate files kept apart from the live ones
+(`fetch_images.py --img-dir`), so that a drawing is touched only when a photograph
+of the right dish has been looked at and kept, and stays where it is when the
+photograph is refused.
+
+505 of the 505 were searched. 394 now show a
+photograph, 821 candidates were refused for the reasons above (a
+wrong dish, a place with the dish's name, a branded pack, a document), and
+111 still show a drawing, each with its notice. 6 more were
+published, then taken back off and put back to the drawing they had when they
+did not hold up at full size: the photograph for `turkey-gravy` was three cartons
+of stock and a bottle of vinegar, `saltibarsciai` was a hot red borscht where the
+recipe is a cold pink soup, `fudge-brownies` a packaged snack-cake brownie on a
+white ground, `muffuletta` a plain sesame loaf with no filling, `pralines` pecans
+glazed in loose syrup, and `apple-charlotte` a small unmoulded dessert under
+custard in a dim orange light. The turkey gravy had been waved through at 480
+pixels, which is the argument for looking twice. The searched recipes were the
+ones whose names the archives are most likely to know, commonest first; the
+Egyptian, Lebanese and Tunisian dishes and the other regional names the earlier
+pass had already tried and been refused for again and again were searched last,
+and gave the least.
+
+A deeper page from Openverse (twenty results of any shape, one request per
+recipe, and a limit of about two hundred requests a day) was read for the drawings
+as well, in three rounds. The first took the 197 whose names the archives are
+likeliest to know: 136 turned up candidates and 61 were published. The second took
+the 84 that were left, mostly regional names: 54 turned up candidates and 27 were
+published. The third went back to 81 of the 91 whose own title had found nothing
+and asked for the plainer name the dish goes by outside a recipe site (*roasted
+broccoli* for `air-fryer-broccoli`, *rum baba* for `baba-napoletano`, *sweet potato
+soup* for `kumara-soup`): 49 turned up candidates and 25 were published. Two of the
+six that had been taken back off, `turkey-gravy` and `muffuletta`, were given a
+different photograph in the first round. A photograph that takes the place of a
+drawing is often not the dish quite as the recipe makes it: it is a restaurant's
+version, or has something extra on the plate, and those are listed under the
+judgement calls below.
+
+### One photograph on two dishes
+
+`tools/fetch_images.py` gives an archive page to every recipe whose name it
+matches best, so one photograph can end up on two recipes, and ten pages had.
+Six of the pairs are left as they were: five are one dish under two names
+(`rogan-josh`, `katsu-curry`, `knafeh`, `naan`, `breakfast-casserole`) and one is
+a photograph that fits both, since a fried cauliflower rice is cauliflower rice. In
+the other four the picture was wrong for at least one of the two. `nasi-goreng`
+showed a plate of red kimchi fried rice for as long as `kimchi-fried-rice` did;
+`moros-y-cristianos` showed a plate that is mostly the ropa vieja beside it;
+`malasadas` showed the sugar-dusted round doughnuts of `zeppole`; and `beef-tacos`
+and `chicken-tacos` had one photograph of pork tacos between them. Each of the
+five got a photograph of its own (a plate of nasi goreng with its fried egg and
+prawn crackers, a close crop of the Cuban rice and black beans, a box of Hawaiian
+malasadas, two soft corn tacos of minced beef, and an open tortilla of chicken),
+and the page it lost is recorded as refused for that recipe. `npm run check` now
+fails on a page shared by two recipes that are not on its short list.
+
+### Judgement calls
+
+Photographs passed because the dish is on the plate and something about it is
+not what the recipe says, and a thumbnail does not settle them. When every
+photograph published in this pass was looked at a second time at 640 pixels
+across (a few at the full 800), seven that had passed at 480 were taken back off: `singapore-sling`
+(two different drinks in the frame, one a frozen strawberry colada),
+`chicken-marbella` (prunes and olives that could not be told from charred bits),
+`chicken-chasseur` (a pale braise with no tomato in it), `salmon-burgers` (a bean
+patty under grilled halloumi, whatever the archive's title said),
+`zucchini-fritters` (a crumbed fritter in which no zucchini can be seen),
+`homemade-potato-crisps` (the archive's *arrowhead* crisps, which are made from a
+tuber) and `bran-muffins` (a soft, low-resolution crop). Every later round got the
+same second look before it was committed, and in the last of them nothing was
+taken back off at that stage; a photograph of fried apples, with a margarine tub
+in the frame, was withdrawn between the two looks. What stays is below, in the
+order it is easiest to be misled by. These are the ones to look at first:
+
+**A different version of the dish.** `burnt-ends` is thick slices of brisket and not
+the cubes the method makes; `johnnycakes` one large cornmeal cake where the recipe
+makes small ones; `galbi-jjim` the spicy braise, red where the recipe's is brown;
+`pecan-sandies` pecan-topped cookies from an archive page that says lemon;
+`thumbprint-cookies` the Swedish *hallongrottor*, the same jam-filled cookie under
+another name; `cherry-ripe-slice` a cut bar of the chocolate it imitates;
+`maple-oatmeal-cookies` plain oatmeal cookies, with no glaze or pecans;
+`pyrizhky` piroshki filled with mushroom and meat and not potato; `honey-prawns`
+with peppers and onion; `beef-in-black-bean-sauce` with bitter melon;
+`mango-cheesecake` a baked cheesecake under purée where the recipe sets one;
+`spaghetti-squash` with kale and mince; `three-bean-salad` dressed over tomato;
+`duck-a-lorange` a carved whole duck where the recipe sears breasts;
+`orange-and-almond-cake` the blood orange and coconut version; `swiss-roll` a
+chocolate sponge round cream where the recipe is plain sponge round jam;
+`taco-salad` with chicken where the recipe has beef; `lamb-tagine` with prunes and
+pear where the recipe has apricots; `mixed-grill` with steak, sausage and a fried
+egg; `mushroom-barley-soup` a pale broth where the recipe is dark with porcini;
+`country-captain` a vegetable curry with coconut flakes; `rhubarb-custard-pie` a
+restaurant slice with ice cream; `rum-balls` rolled in sprinkles in the manner of brigadeiros; `dorset-apple-cake`
+baked as a single cupcake; `jam-tarts` heart-shaped; `pimms-cup` in a tall glass with
+the bottle beside it and not in a jug; `porridge` loaded with fruit and seeds; `wild-rice-soup` a close crop of the cooked rice with no soup in it; `flank-steak` plated with courgette and rocket in a restaurant; `kapusniak` without the ribs and sausage; `sarson-da-saag` with a griddled maize flatbread and a steel knife; `oyster-omelette` under a red sauce on a plate with chopsticks; `chocolate-crackles` a heap of them in coloured cases; `manchester-tart` with its aluminium foil case; `borani-banjan` with pomegranate seeds on top; `kjotsupa` in a foam takeaway cup; `dim-sim` commercial ones, fried; `neenish-tarts` with a bite taken out; `bombay-potatoes` in the pan, from a triptych whose neighbouring panels show at the edges; `maple-taffy` poured on snow with a child's hand in the frame; `oden` as a plate of octopus and tofu skin in broth rather than the pot of daikon and eggs; `ukrainian-cabbage-rolls` rolled but not yet cooked or sauced; `ricotta-pancakes` topped with banana and icing sugar; `sheikh-el-mahshi` with courgettes in the pot beside the aubergines; `devilled-sausages` cut up and served over rice; `filet-mignon` under a creamy peppercorn sauce (the archive calls it steak au poivre); `prawn-mayo-sandwich` a close crop of a bought sandwich in its wedge pack; `slata-tounsia` with tuna on top; `the-aux-pignons` the Maghrebi mint tea without the pine nuts, in a glass with a straw; `strawberry-rhubarb-pie` a tight crop of a cut pie; `one-pot-pasta` and `thai-beef-salad` plated by their photographers; `roz-mermah` on a plate with only the vermicelli to say what it is; `three-cup-chicken` the Taiwanese dish in a bowl with its basil, from a photograph with a plain white background; `yuxiang-rousi` shredded pork with celery in a restaurant; `chicken-with-cashew-nuts` a stock photograph titled only "chicken rice", with the cashews on the mat as much as in the pan; `seafood-risotto` finished with grated cheese, which the recipe leaves out; `chicken-gnocchi-soup` in a restaurant chain's patterned bowl; `frito-pie` served in the bag; `mafe` made with fish where the recipe has beef; `marinara-sauce` a restaurant bowl with parmesan and bread; `venison-stew` with dumplings, which the recipe does not have; `bran-muffins` oat bran with applesauce; `buckeyes` a tray of them in a foil-lined tin; `chestnut-stuffing` the vegan version, with mushrooms where the recipe has sausage meat; `date-scones` plain scones on a rack, with no dates to be seen; `seared-ahi-tuna` on soba with tobiko and a green sauce; `seven-layer-dip` with a spider's web of soured cream on top; `herb-crusted-rack-of-lamb` a tasting-menu plate with squash purée and sprouts; `smothered-chicken` chicken in brown gravy with fries and coleslaw, and no onions to be seen; `peppermint-slice` bitten into a paper wrapper; `peanut-brownies` layered rather than swirled; `beef-fajitas` on a platter with tortilla pieces, in Costa Rica; `pork-chile-verde` with rice and refried beans; `black-and-white-cookies` in a bakery's trays with a handwritten price card; `indian-chicken-curry` a close crop of a bowl; `garlic-mashed-potatoes` red-skinned, from a garlic and wasabi version; `butterscotch-pudding` a tight close-up of the pudding in a glass bowl; `crayfish-mornay` a lobster and scallop mornay in a bowl, not baked under crumbs; `scalloped-potatoes-and-ham` the potatoes in their dish and the ham sliced beside them; `buttercream-frosting` a génoise cake covered in it; `pumpkin-cheesecake` a bitten slice beside strawberry ice cream, in soft focus under a photo filter; `cocktail-sauce` a restaurant shrimp cocktail, with a plate of wings at the edge of the frame; `honey-mustard-dressing` drizzled over a ham and cheese salad; `no-bake-cookies` a tray of them on parchment; `ojja` a home pan of eggs in red sauce with no merguez in view; `chicken-marbella` the second photograph tried, this time with the prunes, olives and capers in plain sight; `chicken-fricot` a stockpot of the stew, with the archive's own description page behind it; `endives-au-jambon` with chips and salad, under a maroilles sauce; `ham-salad` the spread on a slice of bread, on a Wikidata photograph; `zucchini-fritters` plated with smoked salmon and a poached egg; `royal-icing` a bowl of it with a spatula, in a close-up that could be any white icing; `cauliflower-pizza-crust` two pizzas, one with a meat base, with avocado halves and red cabbage beside them; `peppermint-patties` two rough chocolate-dipped discs on a plate; `apple-butter` the paste in a stoneware dish with skewers across it; `dalgona-coffee` the ginger and turmeric version, so the milk is yellow; `grilled-kippers` split kippers on a smokehouse grill rack rather than under a kitchen grill; `schezwan-fried-rice` topped with a fried egg and drizzled sauces; `pornstar-martini` in a dim bar with an ashtray and a pepper mill at the back; `dal-palak` on a red cloth with a whole green chilli on top; `makowiec` sliced on a plate; `cauliflower-rice` fried with sausage slices and kale in the pan; `brown-gravy` a roast beef dinner with the gravy pooled under the meat; `kare-kare` a tight crop with bok choy; `misir-wat` in the pot on the hob, paler and drier than the dark glossy stew the recipe describes; `boudin-balls` a foil tray of them, from the archive page of a Shreveport shop; `southland-cheese-rolls` in a cafe with a newspaper and a coffee jug beside the plate; `cheese-ball` on a walnut board with a spreader and a kitchen counter, rolled in mixed nuts; `salade-omek-houria` from a Wikidata photograph whose carrots cannot be told from tomato at a glance; `empanadas-de-pino` three of them in a glass dish; `schmoo-torte` in a bright, saturated flash photograph;
+`homemade-pizza-dough` two finished pizzas; `chocolate-ganache` ganache on a
+layered cake; `cauliflower-wings` florets in a pool of hot sauce; `chicken-tetrazzini` short
+noodles under the baked cheese where the recipe has spaghetti.
+
+**Bought, branded or ready-made.** `chiko-roll`, `pizza-rolls`,
+`peanut-butter-and-jelly-sandwich` and `pumpkin-spice-latte` are shop-bought food,
+with a brand on the bag or the cup or in the archive's title; `homemade-pop-tarts`
+is the pastry it imitates; `ladyfingers` are in their supermarket tray;
+`custard-creams` is a factory biscuit with its name stamped on; `beijing-beef` and
+`turkey-curry` are takeaway boxes from restaurant chains, and `beaver-tails` has a
+fried-dough stall's squeeze bottles in the frame.
+
+**Something else in the picture.** `spritz-cookies` has a cookie press and a hand
+in it; `pepper-jelly` a handwritten price card; `maple-glazed-ham` a whole dinner
+plate; `coconut-cake` three marshmallow chicks; `strawberry-cake` two Swedish
+flags; `cookie-cake` a Mother's Day message; `egg-in-a-hole` pesto, tomato and
+mozzarella; `thai-fish-cakes` the photographer's own watermark;
+`hot-lemon-and-honey` a branded jar of honey; `shrimp-remoulade` a wedge salad,
+deviled eggs and a bottle of root beer; `popcorn-shrimp` a bowl of crab dip;
+`dirty-rice` a takeaway box with a pork chop on it; `apple-dumplings` a foam bowl
+and a plastic spoon; `patty-melt` a diner's paper flags; `gorditas` a street
+griddle with passers-by; `pumpkin-scones` styled with macarons, leaves and a straw bale;
+`self-saucing-chocolate-pudding` a tight, tinted close-up; `rappie-pie` and `wedge-salad` are half eaten;
+`fried-bologna-sandwich`, `chocolate-babka`, `shrewsbury-biscuits` and
+`bucks-fizz` are held in a hand; `scrapple` has two jam packs on the plate whose
+labels have been painted out by the uploader; `lebkuchen` is a shop window with
+the shop's sign across it; `tanghulu` a street stall's trays, with hawthorn and
+tomatoes among the strawberries.
+
+**Hard to read at a glance.** `pork-scratchings` is a pale, dry heap with nothing
+to show what it is; `bread-and-butter-pickles` a soft close-up through the glass
+of a jar; `italian-wedding-soup` a cup with no meatball in view;
+`beer-cheese-soup` a four-cheese soup in which the beer cannot be seen;
+`chicken-divan` and `chicken-tacos` the photographs the archive chose for the dish
+in general, in which the chicken cannot be told from anything else; `calzone` a
+folded flat dough rather than a puffed one; `doner-kebab` the meat on its spit
+and not a kebab served.
+
+**From the wider search of the curated sources.** `banana-ice-cream` a shop's bananas foster scoop in a paper cup, not soft serve made from frozen bananas; `black-bean-burgers` a vegan burger of two bean patties from the archive's vegan burger page; `black-velvet` a pint held in a hand, in a glass printed with a stout's name; `breakfast-sausage` two patties beside scrambled eggs on a plate; `chicken-burrito-bowl` a restaurant bowl in a chain's patterned paper; `chicken-chop-suey` chop suey over fried rice, from the article on the dish, with no chicken to pick out; `crunchwrap` the fast-food original on its tray, with the chain's name small on the tray liner; `english-muffins` three unsplit muffins in a basket; `french-75` a flute of deep gold fizz with a lemon twist under bar lighting; `fondant-fancies` a shop-bought French fancy, with the brand in the archive's title; `hot-fudge-sauce` a sundae in a plastic cup, the sauce its dark ribbons; `kettle-corn` a heap of popcorn from a brand's sweet-and-salty bag, the brand in the archive's title; `king-ranch-chicken-casserole` a half-eaten restaurant portion, with cornbread and greens beside it; `orange-julius` a faded, filtered photograph of the chain's own cup; `pumpkin-muffins` frosted, with a chestnut on top, where the recipe's are plain with seeds; `turkey-chili` a bowl with a spoonful of soured cream, on a place mat beside a side salad; `bbq-sauce` an apricot barbecue sauce in a white bowl; `bone-broth` a pot of pho stock on the hob, with charred onions, star anise and cinnamon among the bones; `chocolate-truffles` truffles in several coatings, only some of them cocoa; `cuba-libre` the cola and white rum bottles in the frame with their labels, and a coconut; `funnel-cake` plain, without the icing sugar the recipe has; `grasshopper` a bright green, brighter than the recipe's pale one, with the glass cropped; `italian-beef-sandwich` a restaurant's own sandwich on its branded paper; `mai-tai` the glass carries the bar's name; `special-burger-sauce` a paper pot of pink sauce served with crinkle-cut fries, from an article on Marie Rose sauce; `greek-frappe` a tall jar printed with a cafe's name; `chocolate-covered-cherries` two of them, one cut open, from the archive page of a brand's sweet; `moon-pies` a shop-bought one cut in half; `white-russian` served layered in a glass with no ice and the cream dusted with chocolate, in a dim bar; `lomi-lomi-salmon` with red onion where the recipe has sweet onion, in a dark bowl; `brandy-alexander` served on the rocks in a tumbler, where the recipe strains it up; `devon-splits` two scone halves with jam and cream, where the recipe's are yeast-risen rolls; `jamaican-ginger-cake` a cafe's ginger crumble loaf, lighter than the recipe's black-treacle cake; `stromboli` with olives and roasted peppers in the filling and a spoon of tomato sauce on top; `bellini` a flute in a restaurant, a table setting and a glass of water beside it; `farinata` a golden slab on paper with a strip of olive focaccia beside it; `fattah` in a glass baking dish with the lamb on top of the rice and no bread to see; `fish-pie` a portion on a plate with peas; `gigot-d-agneau` sliced pink lamb in its juices on a restaurant plate with the restaurant's stamp at the rim; `karkade` a cup of the hot tea with its tea bag in, not the ink-dark iced drink; `apricot-chicken` a skillet of thighs under a dark, sticky glaze with a spice crust, a recipe card and an oven glove at the edge of the frame; `aviation` a pale blue-green coupe on a cluttered bar top, a remote control in the corner; `baked-chicken-drumsticks` drumsticks under a glossy barbecue glaze, on a holly-patterned plate; `beef-burritos` two cut halves on shredded cabbage with a hot-sauce drizzle, beef and beans showing but no rice; `blackened-chicken` grill-marked breast beside cauliflower mash and courgette, the crust paler than a blackened one; `blue-cheese-dressing` the dressing on a green salad with croutons, a white dressing with no blue visible; `broccoli-cheese-casserole` a tight crop of the cracker topping under a warm photo filter, one floret showing; `butternut-squash-risotto` mid-stir in the pan, a hand and a whisk in the frame; `oxtail-soup` an olive-brown soup with chunks of meat, paler than the recipe's near-black one; `pease-pudding` a soft purée with a pat of butter in a glass bowl, not a set slice; `poule-au-pot` the whole chicken and cabbage in the pot, from above and before it is carved; `suppli` two croquettes on a restaurant plate, closed, so no cheese thread; `tangyuan` pumpkin-coloured dumplings, one cut open on a spoon to show the black sesame; `tarte-au-citron` a restaurant slice with candied zest and a berry sauce; `torshi` a mixed plate of pickles with the pink turnip among cucumber, carrot and pepper; `xo-sauce` the sauce spooned onto halved boiled eggs; `chicken-and-biscuits` a restaurant plate, with mushrooms in the sauce; `chicken-liver-pate` two small cubes on shiso leaves beside two slices of baguette, on a large plate; `chinese-lemon-chicken` one battered fillet under the sauce, with a lemon slice and a dome of rice, at a restaurant; `curried-egg-sandwich` wholegrain bread and a chunkier, chickpea-and-egg filling; `dungeness-crab` a whole boiled crab on a restaurant plate with melted butter, not yet cracked; `french-onion-dip` a tight crop from above of the dip under a heap of caramelised onion, with a plate and a wooden board at the edges; `fried-catfish` a single cornmeal fillet on a restaurant plate with chips, hush puppies and tartar sauce, and no lemon; `grasmere-gingerbread` a slab on a board under a strong orange light; `green-beans-almondine` with sliced mushrooms among the almonds, which the recipe does not have; `ham-and-cheese-pinwheels` a plain tray of slices on wax paper, with what look like olives in the cream cheese; `homemade-vanilla-ice-cream` still soft in the churn canister, with the dasher in the frame; `hot-chicken-sandwich` the open sandwich under so much gravy that the chicken is hidden, with chips, peas and coleslaw; `ice-cream-sandwiches` a bar-style sandwich of chocolate layers with a second, caramel-coloured layer and raisins, not two cookies around vanilla; `manhattan-clam-chowder` a bowl in strong orange light with a slice of bread at the rim, the clams hard to pick out; `peppermint-bark` white chocolate and candy cane only, with no dark layer to see, on a floral plate; `portobello-burger` opened, the grilled cap on one half and a roasted pepper on the other; `pumpkin-roll` a slice under white icing with sugar leaves, among small pumpkins; `roasted-red-pepper-soup` a very red soup, closer to tomato, from a page that names both; `salmon-candy` three thick glazed pieces of smoked salmon, softer than the chewy strips the recipe describes; `salt-and-pepper-ribs` salt-and-pepper chicken pieces from a restaurant, where the recipe has pork ribs; `smoked-turkey` the whole bird on the grill, not spatchcocked; `steak-oscar` a restaurant plating with crab and microgreens, the hollandaise not in view; `strawberry-spinach-salad` with candied walnuts and no feta or onion in view; `stuffed-pepper-soup` a restaurant cup with a beer bottle and sugar packets in the frame; `texas-sheet-cake` the whole pan from above, icing and chopped walnuts only, with a spatula in the corner; `apple-sauce` a spoonful lifted over a glass bowl, golden and chunky rather than pale and fluffy; `albondigas` a restaurant plate of meatballs in a pale golden sauce, in which the almonds and saffron cannot be told; `brandy-butter` the whipped butter in its mixing bowl under a strong orange light; `cheeseburger-macaroni` a bowl of it from the archive's page on the boxed version of the dish; `chicken-salad` a scoop of shredded chicken salad on lettuce, with no grapes or pecans to see, on a chain's printed wax paper; `chin-chin` pale cubes in an orange plastic colander, seen from above; `christmas-cake` white-iced and decorated with plastic reindeer and trees, with a slice cut away to show the dark fruit; `coconut-ice` a single bar, pink over white, on baking paper, from a cafe's counter; `corned-beef-hash` a close-up of the diced potato and corned beef in a heap, with no crust to see; `crepes` a tall stack on a buffet counter; `dublin-coddle` a bowl from above with carrots in it, which the recipe does not have; `iced-tea` a tall glass, deeper red-brown than the clear bright tea described, in a restaurant; `knickerbocker-glory` a tall glass of cream, strawberry sauce and peach pieces on a cafe table, with the glass cropped at the base and a coffee and a person behind; `lemon-rice` a close crop on a leaf plate in low light, with peanuts and a curry leaf and a whole lemon beside it; `malpua` two large pancakes with flaked almonds, bigger than the small ones the recipe makes; `manti` larger dumplings than the fingernail-sized ones the recipe describes, under a brown sauce and no yoghurt; `masala-pav` two open halves with the masala on top and grated cheese, rather than pressed inside; `moscow-mule` on a rock among ivy, outdoors; `peanut-brittle` golden shards heaped on a plate, with the wooden mallet used to crack it in the corner of the frame; `pho-ga` a bowl with shredded chicken and herbs and a dark red garnish, on a plain tablecloth; `picadillo` on a red plate beside rice, the olives and raisins not easy to pick out; `rissoles` two patties on a plate with boiled potato and spring onion, and no gravy; `roast-beef-tenderloin` thin rosy slices on a plate with a balsamic drizzle and radicchio, with no crust and no horseradish cream; `sakshuka-turkish` aubergine, courgette and yellow cubes that look like potato, in a tomato sauce on a pale plate; `sally-lunn` three whole unsplit buns in a basket on a Union Jack cloth, which look like burger buns at a glance; `san-choy-bow` one iceberg cup filled with mince and celery under a dark sauce, with no crunchy noodles on top; `sweet-and-sour-chicken` soft-coated chicken in an orange-red sauce on a Chinese restaurant's blue-and-white plate; `sweet-potato-pie` a whole pie in the oven, decorated with pastry leaves and a snowflake; `thandai` three clay cups with pistachios and saffron, which is the dressed-up version of the drink; `toutons` one fried dough piece on a plate with a sweetener sachet at the edge; `viennese-whirls` shop-bought, from the archive page of a branded biscuit, two of them on white; `b-52` three layers in a shot glass, with a spoon in the top layer and faint printing on the glass; `bees-knees` a coupe with a lemon twist beside a carafe of honey syrup and half a lemon; `candied-bacon` glossy pieces cooling on foil on a kitchen counter, with bottles behind; `curried-sausages` sausage pieces in a golden curry over rice, with the onion in wedges and no sultanas or peas to see; `dubai-chocolate-bar` a homemade bar, cut to show a green pistachio filling that is crumbly where the recipe's is a cream; `paper-plane` a pale orange-red coupe on a wooden table with a small paper plane on its rim; `sea-breeze` a tall glass on a ship's rail, with a life ring behind it; `vanilla-latte` a close crop of the foam, with a leaf pattern in an orange-tinted light; `ham-hock-terrine` a small cube of terrine on a slate with toast, a mustard purée and pickle slices, in a restaurant; `baked-beans-on-toast` beans and grated cheese on thick toast, on a plate printed with a brand name; `baked-oatmeal` a plain square pan of baked oats, with no banana or blueberries to see; `brandade-de-morue` a restaurant table: the bowl of purée with parsley and a basket of bread beside it; `cajun-shrimp` seared shrimp in a cast-iron pan with a lemon wedge, and garlic bread on the side; `cheese-and-onion-quiche` a quiche in a glass dish seen from above, titled only "quiche", with onion visible in the golden top and no pastry edge to see; `chicken-enchilada-soup` red broth with shredded chicken, avocado slices and coriander, without the cheese or tortilla strips; `chocolate-biscuit-cake` one slice showing the biscuit pieces, with a little silver sprinkled on the top and a cool colour cast; `cod-cakes` two restaurant cod cakes under a tomato compote, with a small side dish, rather than the plain pan-fried cakes; `cosmopolitan` a pale pink coupe with a lime wheel on the rim where the recipe garnishes with orange peel; `crab-ginger-scallion` crab pieces in a brown sauce on a restaurant plate, with the ginger and spring onion hard to pick out; `egg-salad` a sandwich on sliced white bread with a slice of tomato, plates and grapes around it; `fish-finger-sandwich` a close crop of wholemeal sandwiches with a crumb edge showing, lemon and chips beside them, where the recipe uses soft white bread; `french-toast-casserole` a whole baked casserole on a glass cake stand with a sugared top, not a streusel, and bowls of fruit behind it; `ham-and-bean-soup` white beans, ham, carrot and celery in a thin broth, where the recipe's broth turns creamy; `home-fries` skin-on potato wedges browned and drained on paper, with no onion or pepper to see, where the recipe dices the potato; `kiwi-bacon-and-egg-pie` a café pie with a cheesy top, a sachet of tomato sauce and potato wedges beside it, and no cut to show the eggs; `mince-on-toast` a café plate of mince with peas and carrot on toast, with a fried egg on top and a diner and coffee cups in the background; `pie-floater` pea soup with a pie turned upside down in the middle under tomato sauce; the soup is more yellow than green and the pie is mostly hidden by the sauce; `raspberry-white-chocolate-muffins` a domed muffin in a dark paper case in sunlight, with no raspberries or chocolate chunks to see; `rhubarb-crumble` a ramekin of crumble beside a pot of custard on a dusted plate, as a restaurant serves it; `ribeye-steak` a seared ribeye on a plate with roasted sprouts, potato salad and cornbread, so the steak shares the frame; `roasted-root-vegetables` roasted carrot, potato and purple potato with herbs, where the recipe lists carrot, parsnip, swede and sweet potato; `sausage-egg-and-cheese-biscuit` a close crop of one biscuit sandwich under a fried egg and melted cheese, with a spoonful of cranberry sauce on top and cinnamon rolls behind it; `scallion-oil-noodles` dark glazed noodles with green pieces in a white bowl, cropped at the edges with chopsticks across the corner, titled "Shanghai scallion noodles"; `scrambled-eggs` large soft curds on a slice of brown toast; `sloppy-joe-mix` the mix in a skillet beside a tray of fresh rolls on the hob, not yet assembled; `sweet-potato-fries` thick baked wedges with a spiced crust on a white plate, where the recipe cuts sticks; `turkey-gravy` the finished gravy in a steel boat on a laid table; the archive's own title for it names a packet-mix brand, but only the gravy shows; `air-fryer-broccoli` oven-roasted broccoli with deeply charred tips, as the archive titles it, where the recipe cooks in an air fryer; the finished florets look the same; `air-fryer-brussels-sprouts` roasted sprouts glazed and tossed with nuts, titled only "roasted", where the recipe cooks in an air fryer; `air-fryer-chicken-breast` a restaurant's skin-on roast breast on mash with vegetables and a dark jus, where the recipe's breast is boneless and cooked in an air fryer; `air-fryer-chicken-thighs` four leg quarters roasted pale gold on a plate, titled only "roasted", with no paprika rub to see; `air-fryer-shrimp` tail-on shrimp in a glossy orange glaze in a white bowl, from a restaurant, with leaves under them; `air-fryer-sweet-potato-fries` thick spiced wedges on a red plate, which the archive's own title calls baked; `baba-napoletano` one glazed baba on a café saucer beside a plate of chocolates, on a green marble counter; `betengan-mekhalel` whole small pickled aubergines, wrinkled and blue-black, on a plate, with no cut to show a stuffing; `chip-shop-curry-sauce` a basket of thin chips beside a pot of the sauce, in a dim bar and slightly soft; `couscous-tunisien` a close crop of couscous with lamb, chickpeas, shallots, a green pepper and carrot, where the red broth does not show; the archive's title is in Arabic; `creamed-mushrooms-on-toast` creamy mushrooms on thick toast at a café, with a poached egg and shaved parmesan on top that the recipe does not have; `crispy-baked-chicken-thighs` one crisp-skinned thigh on a plate with ratatouille, in a photograph with a white vignette; `entrecote-marchand-de-vin` a grilled steak cut in two, in a thin red-brown sauce with no shallots to see, on wilted spinach beside buckwheat; `epaule-d-agneau-confite` two pressed rounds of confit lamb shoulder in a glossy sauce, with a crisp and vegetables, plated as a restaurant does; `home-style-tofu` golden tofu pieces, cubes where the recipe cuts triangles, in a dark red sauce with spring onion and mushrooms, from a restaurant; `honey-roast-parsnips` thick roast parsnip pieces browned at the edges in a baking dish, with no honey glaze that can be told apart; `involtini-di-manzo` beef rolls cut open to show a herb filling, braised with artichoke and leaves that the recipe does not have; `knedliky` a pub plate of goulash with two kinds of dumpling, the sliced bread dumpling at the right and a beer behind; `kumara-gnocchi` sweet potato gnocchi in an orange sauce with parmesan shavings, diced tomato and parsley, where the recipe has brown butter and sage; `kumara-soup` a smooth orange soup in a wide white bowl, with chopped herbs and a small mound of diced salsa on top; `lotus-root-stir-fry` lotus root slices mixed with snow peas, shimeji mushrooms and tofu skin on a buffet plate, where the recipe is lotus root alone; `mahshi-cromb` three plump cabbage rolls in tomato sauce with green beans on a pink and gold plate, where the recipe's are rolled thin; `moo-ping` three dark glazed pork skewers on a restaurant dish with sweet chilli sauce and shredded cabbage, and no sticky rice; `onion-bhajis` rounded, deep brown bhajis piled on a floral plate, darker and rounder than the recipe's lacy golden clusters; `pain-aux-noix` two long walnut loaves on a cooling rack, whole and not sliced, so the tint of the crumb does not show; `pilau-rice` a restaurant's pilau with some orange and yellow dyed grains, seen from above, with no whole spices to pick out; `pollo-al-ajillo` a garlic-crusted chicken leg with sliced potatoes that the recipe does not have, and a photographer's web address printed in the corner of the frame; `saag-aloo` a close crop of potato cubes and wilted spinach, slightly overexposed and with dark edges; `savoury-corn-muffins` four tall golden corn muffins on a blue starred tray, with no cheddar or spring onion that can be told apart; `shiro-wat` shiro being ladled onto injera on a steel tray, with a clay pot, a slice of bread and a water bottle around it; `shorbat-adas` two bowls of soup, one lentil and one chicken according to the archive's title, with limes in a cup, a salad and a red drink on the table; `smoked-mackerel-pate` the coarse pâté piled on toast under red onion, gherkin and parsley that the recipe does not list; `spicy-wontons` pork wontons in red oil under a heap of shredded cucumber that the recipe does not have, beside a dim sum basket; `steamed-whole-fish` a whole fish under shredded spring onion and ginger in soy on a floral plate, photographed with flash in a dim restaurant; `stroganoff-sauce` the sauce over egg noodles with pieces of beef in it, where the recipe is the sauce alone and says no beef is needed; `strozzapreti` short twisted pasta in a white bowl with herbs, cheese and crumbled pancetta in a dim restaurant, with no cream sauce to see; `sweet-sour-spare-ribs` lacquered pork ribs under a heap of cabbage slaw with scallion rice behind, from a restaurant; the recipe has neither; `wood-ear-salad` a small striped bowl of dark dressed wood ear on a restaurant table, with chopsticks and a drink at the edge, in a bluish light; `beef-tacos` two soft corn tacos of minced beef with onion and coriander and a lime wedge in a restaurant basket, with the top of a cola can at the edge; `chicken-tacos` one open corn tortilla with sliced chicken, shredded cabbage, guacamole and pickled jalapeño on a paper plate, not yet folded; `moros-y-cristianos` a close crop of the mound of rice and black beans on a white plate, with no bacon or sofrito to see; `air-fryer-bacon` strips of crisp bacon on a wire rack over foil, which is an oven tray, not an air fryer; `air-fryer-hard-boiled-eggs` halved eggs with fully set yolks under a dusting of garlic salt and chilli powder that the recipe does not use; `air-fryer-chicken-tenders` deep-fried flour-crusted tenders on crinkle chips in a paper boat, with ketchup, not panko-crumbed ones cooked by air; `apple-charlotte` one slice of a charlotte cut from a larger tin and served with cream, not turned out whole as a dome; `bang-bang-chicken` slices of chicken in a bowl of chilli oil with sesame and shredded spring onion, under the Sichuan name *bon bon chicken*, with a second dish on the table behind it; `belgian-biscuits` one jam-sandwiched biscuit under pink icing on a plate, with no half cherry on top; `bombay-sandwich` a cut grilled sandwich in a foil dish, heaped with grated cheese rather than sev, with two chutneys beside it; `bourbon-biscuits` one shop-bought bourbon biscuit with the name pressed into it, on a wooden table; `breakfast-sandwich` a café sandwich in a paper wrap with egg, cheese and ham under an English muffin top, with tomato and rocket that the recipe does not have; `charro-beans` a bowl of the brothy beans from above, with cubes of sausage and herbs in a pale, washed-out light, and few beans that can be told apart; `coconut-slice` a crumb-topped bar with a jam layer at its edge and no pink icing; `collard-greens` the pot on a hob seen from above, with pieces of bacon and carrot among the greens where the recipe uses a ham hock; `corn-pudding` a square of baked corn pudding with flecks of red pepper, from a Southwestern recipe; `corned-beef-pie` a restaurant's broken-open pie with peas in the filling, beside a salad and a cup of soup; `damper` a golden round loaf flecked with wattleseed, with a small dish of syrup beside it and no cross cut in the top; `fudge-brownies` two thick round brownies with a papery crackled top on a white plate, cut with a ring where the recipe cuts squares; `hlelem` a bowl of the red broth with fine noodles and herbs in a decorated Tunisian dish, with no beans to see and a thinner broth than the recipe's; `hokey-pokey-ice-cream` two scoops of vanilla ice cream with toffee sauce and a slab of sugared honeycomb on top, where the recipe stirs the honeycomb through; `honey-mustard-chicken` chunks of chicken in a thick yellow honey and mustard glaze on a white plate, where the recipe bakes thighs on the bone; `khoresh-gheimeh` the stew under a heap of fried potato sticks in a white bowl, with only a little of the lamb and split peas showing through; `korean-corn-cheese` browned corn kernels in a cast-iron dish, with the cheese melted into them and a bowl of edamame at the edge; `lamb-kofta-curry` a plate of meatballs in a red sauce on a turquoise cloth, in saturated colour, with no sign of what meat they are made of; `malloreddus` the cooked pasta alone in a bowl, without the sausage and tomato sauce of the recipe; `mantou` white steamed buns alternating with golden fried ones around a bowl of condensed milk; `omelette-aux-fines-herbes` a golden folded omelette flecked with herbs, with a parsley sprig and bread, browner and flatter than the pale rolled omelette the recipe describes; `pan-bagnat` the opened roll showing tuna, egg, tomato, olives, onion, radish and spinach; `pan-haggerty` browned cheese over sliced potato, with bacon and carrot among the layers that the recipe does not have, in a flash-lit photograph; `pan-seared-salmon` a seared fillet on mashed potato in a yellow sauce with herbs on top, a restaurant plate photographed in a dim room, with no skin to see; `paneer-tikka-masala` paneer cubes in a tomato gravy with coriander in a glass dish, with no char to see on the paneer; `piccalilli` six homemade jars with handwritten labels in a row on a counter, with the vegetables small and hard to pick out; `polpette-al-sugo` meatballs in a tomato sauce in a terracotta dish with two slices of bread, a restaurant table in an orange light; `poulet-yassa` chicken pieces in a mustard-yellow onion sauce beside rice on a white plate; `ramen-eggs` a whole bowl of miso ramen with two halved marinated eggs among corn, seaweed and pork, where the recipe is the eggs alone; `salt-and-chilli-chips` chunky chips with red chilli and spring onion in a takeaway tray, under a yellow cast; `sayadeya-masreya` a fried fish on brown rice with fried onion and almonds, from a restaurant, with the fish's head and tail cropped; `shandy` a handled mug of a pale golden drink on a picnic cloth in the sun, which the archive titles a ginger beer shandy, so it is not certain that it holds lemonade; `shao-bing` one dense sesame-crusted bun cut open on braised beef, a Beijing version, where the recipe's are flat, layered and filled with egg or meat; `shito` a blue basin of the dark, oily sauce with a spoon on a market table, with a person's legs at the edge of the frame; `snowball-cocktail` a stemless wine glass of the pale yellow drink held up in front of a Christmas tree, with a cherry on the rim; `sour-cream-raisin-pie` a whole pie in a foil tin under a low browned meringue, already sliced, with an olive cast to the pastry; `turkish-pilav` plain rice on a white plate with a few browned grains of orzo, in a flat light; `veg-kolhapuri` paneer and capsicum in a red masala in a white bowl, with onion rings, mint and a green chilli laid on top; `zereshk-polo-ba-morgh` a restaurant plate with chicken kebab pieces, a grilled tomato and a lemon wedge, with the barberries mixed through the saffron rice rather than scattered on top; `air-fryer-pork-chops` two browned bone-in chops on a white plate, titled only "grilled", with no brown-sugar rub that can be told apart; `blue-lagoon` a hurricane glass of the blue drink over crushed ice, topped with blackberry, raspberries and dried pineapple, in a bar; `english-toffee` a close crop of broken pieces of a shop's almond toffee under chocolate and ground almonds, so the whole slab is not shown; `tequila-sunrise` a plain tall glass of orange and red on a table with two straws, in a flat indoor light, with no cherry or orange slice; `turkey-burgers` a studio shot of one burger on a white plate with baked beans and potato salad beside it.
+
+### What has not been done
+
+Nothing in this pass was cooked, and a picture of a dish says little about
+whether its recipe works. Every photograph was judged at 480 pixels across and
+looked at again larger; the likeliest faults left are ones neither size shows,
+and the list above is where to look first. After the last build a random sample of
+48 of the 826 photographs published in this pass was looked at
+once more, at 480 pixels: all 48 show the dish, and 27 of them are
+on the list above for being a different version of it or for something extra in the
+frame. That is a sample and not a proof. Any photograph can be refused with `tools/review_images.py`, which
+puts the recipe back on its gradient card.
+
+69 recipes of the 501 are still on a gradient card. For most of
+them the archives hold nothing: either no photograph of the dish exists under a
+licence the site can use, or those that exist show something else, and the
+number refused for each recipe is printed in `MISSING-IMAGES.txt`, which lists
+every recipe without a picture by cuisine. There are three ways to close the
+gap, and none was taken. The owner can supply photographs, which
+`tools/adopt_images.py` takes with their credit and licence. A stock-photo API
+with a free key (Pexels, Unsplash, Pixabay) would be a source the fetcher does
+not have, but their licences are their own and not Creative Commons, so they
+would need reading before the gate in `tools/fetch_images.py` is widened to take
+them. Or the cards can stay as they are, which is what the site does now and is
+honest: a gradient with the dish's name on it claims nothing. Drawings were the
+fourth way, and the owner has ruled them out.
+
+Two claims on the site were left as they are, because they are the owner's to
+decide and `CLAUDE.md` section 8 already lists them: the wording that says each
+recipe was cooked and tested by a named person (the About page, the byline, the
+"tested recipes" counters, the home page's "our test kitchen"), and the
+synthetic `datePublished`. The home page's "Editor's Picks" paragraph ("Four
+recipes our test kitchen keeps returning to") belongs with the first, and was
+not changed either.
+
+The contrast rule reads tokens and three footer greys. It cannot read a colour
+written inline in a template, a gradient behind text or a text shadow, and an
+axe run is still the way to look at those. The credit-name rule cannot tell a
+real name from a username, and the licence of a Flickr photograph is whatever the
+archive says it is; neither was re-verified at the source for the pictures
+already on the site.
+
+A drawing replaced by a photograph does not move that recipe's `dateModified`.
+The fingerprint in `src/lib/content-dates.js` holds the image's file name, which
+is the slug whether the picture is a drawing or a photograph, and changing what
+it holds would move the date of every recipe on the site at once, so it was left.
+A recipe that went from no picture to a photograph, or the other way, does move.
+
+The 111 drawings that are left are labelled as drawings, under a notice that
+says a drawing is not a photograph of the dish, and each has had a photograph
+searched for. Whether they stay, or the recipes go back on a gradient card until a
+photograph turns up, is the owner's decision; `tools/generate_images.py` is not to
+be run again, and `CLAUDE.md` says so.
+
+## Volumes thirty-two to thirty-four, three hundred recipes for diabetes, weight loss and the kidney
+
+Three more volumes of a hundred, taking the site from 2,415 to 2,715. The owner
+asked for "100 most famous searched on internet recipes in usa and canada for
+diabetes patients", another hundred for weight loss, and a hundred protein-rich
+ones "which is also safe for kidney", with real photographs fetched in the
+background while the recipes were written. The standing rules applied. Every
+dish is an ordinary `/recipes/<slug>/` page, the same dish is never published
+twice, nothing already on the site was changed, and a recipe with no correct
+photograph stays on its gradient card. Nothing was drawn.
+
+Two phrases in that request could not be taken literally. "Most famous searched"
+needs search data, and the repository holds none and the build fetches none, so
+the three catalogue headers say that no search-volume data was used: these are
+familiar dishes that people look for by name, chosen by judgement and graded
+against the catalogue. "Safe for kidney" became **Kidney-Friendly**, the label
+described under "On diabetes, weight loss and kidney disease" above, which is a
+statement about numbers printed on the page and is never worded as "safe".
+
+Volume thirty-two carries **Diabetes-Friendly**, volume thirty-three
+**Weight-Loss Friendly** and volume thirty-four **Kidney-Friendly**. Every
+recipe carries one of the three and none carries two, and `npm run health` holds
+each to the limits in `src/lib/health.js`. The kidney volume is also held to a
+protein floor of its own, 20 g a serving for a meal and 12 g for an appetizer.
+Six of its hundred reach the site's 30 g High-Protein tag.
+
+### Where the three hundred went
+
+Volume thirty-two: American 67, Italian 11, Mexican 7, Chinese, Greek and Indian
+3 each, French and Japanese 2 each, British and Indonesian 1 each. Volume
+thirty-three: American 67, Italian 13, Mexican 12, Japanese and Middle Eastern 2
+each, and Chinese, French, Greek and Thai 1 each. Volume thirty-four: American
+56, Chinese 22, Mexican 6, French 5, Italian 4, and British, Canadian, Hawaiian,
+Japanese, Middle Eastern, Spanish and Vietnamese 1 each. No cuisine is new to
+the site, so there are no new hub pages. By category the three hold dinner 148,
+lunch 45, breakfast 30, healthy 29, appetizers 22, desserts 13, quick meals 8,
+baking 4 and drinks 1, and 278 of the 300 are Easy and 22 Medium. Of the 300,
+218 are Gluten-Free, 176 Dairy-Free, 138 Vegetarian and 60 Vegan, each tag
+checked against the ingredient list by `npm run diet`.
+
+Canada was named in the request, and one recipe in the three hundred, the
+maple-balsamic chicken, is tagged Canadian. The brief was dishes that cooks in
+both countries make, not regional ones, and a recipe takes the cuisine it comes
+from: a Canadian origin was not given to a dish that has none, because that
+would be adding history. The Chinese 22 in volume thirty-four are the nine
+stir-fries, the five fried rices, a congee, a soup, a ginger and scallion
+chicken, a chop suey and four tofu dishes. They are the dishes where a
+tablespoon of low-sodium soy sauce, ginger and garlic flavour a whole pan, which
+is how a recipe stays under all three kidney limits and still tastes of
+something.
+
+### What is in it
+
+Volume thirty-two, 2,515: breakfasts (almond flour pancakes, chaffles, steel-cut
+oats, a savory oatmeal, sheet pan eggs, a Denver omelet, cauliflower hash
+browns, moong dal chilla); bread, muffins, tortillas and cookies made with
+almond or flaxseed flour; soups (cream of broccoli, zucchini, spinach,
+asparagus, a chicken pot pie soup) and salads (a chef salad, shrimp Louie, a
+chopped Mexican salad, tuna- and crab-stuffed avocados, sprouted moong); chicken
+(Parmesan-crusted, cilantro lime, Florentine, Francese, saag, a slow cooker
+chili verde, a pesto bake); pepper steak, a steak with a garlic mushroom sauce,
+pork medallions, a turkey meatloaf and a cauliflower shepherd's pie; baked lemon
+dill salmon, foil packets, tuna steaks with avocado salsa, halibut with lemon
+caper sauce; cauliflower risotto and mac and cheese, eggplant pizzas, stuffed
+portobellos, a barley risotto, tempeh and a fathead pizza; kale chips, Parmesan
+crisps, edamame, pepper nachos and cauliflower tater tots; and six desserts and
+a drink without added sugar, from a cheesecake and a crustless pumpkin pie to a
+chocolate pudding and a raspberry lemonade.
+
+Volume thirty-three, 2,615: soups that fill a bowl for little (a big-batch
+vegetable soup, turkey meatball, sopa de lima, carrot ginger, spinach and white
+bean, escarole and bean, a chilled cucumber soup, an egg roll soup, caldo de
+pollo, a chicken fajita soup); salads from a Chinese chicken salad and shaved
+Brussels sprouts to sunomono and a grapefruit and avocado salad; wraps, lettuce
+wraps and tacos (a turkey avocado wrap, collard green wraps, portobello and
+cauliflower tacos, shrimp taco bowls); lean chicken, turkey and fish from the
+oven, the air fryer and the Instant Pot, with eight air-fryer dishes among them;
+vegetable sides (roasted carrots, cabbage wedges, delicata squash, grilled
+zucchini, sautéed kale); and snacks and fruit desserts that stay small, such as
+frozen yogurt pops, baked apple chips, poached pears, baked peaches and a
+strawberry sorbet.
+
+Volume thirty-four, 2,715: ten egg white breakfasts (a frittata, bites,
+pancakes, French toast, tacos, a scramble, oatmeal, waffles, crepes and an
+English muffin sandwich) and an apple chicken sausage; chicken in twenty-nine
+dishes (stir-fries, meatballs, kofta, congee, a stew, skewers, fried rice, lemon
+cutlets, a ginger and scallion chicken); turkey, pork loin and chops and lean
+beef (a hamburger steak with onion gravy, a beef and cabbage stew, a garlic beef
+stir-fry); salmon, shrimp, tuna and white fish (cod en papillote, poached cod,
+flounder, haddock, catfish, sole, snapper, trout, fish sticks); five tofu
+dishes; and three appetizers, chicken cucumber cups, shrimp lettuce cups and
+tuna cucumber boats.
+
+### How the names were chosen
+
+367 candidate names (130, 116 and 121) were graded with
+`tools/dedupe-candidates.js` against what the site already published, and each
+shortlist was then read by hand, because the tool's word rules cannot tell a
+synonym from a new dish. It refused seven as the same search as a dish the site
+has: egg roll in a bowl (the dish is the Egg Roll Skillet), an antipasto salad,
+a tomato and cucumber salad (the Egyptian salata baladi), cinnamon baked apples,
+lemon ricotta pancakes, a lemon and oregano chicken (the Greek chicken traybake)
+and pork meatballs (the Danish frikadeller). After each volume was written,
+`node tools/dedupe-candidates.js --volume N` and `npm run duplicates` were run
+on it. The sixty names that were neither refused nor used were left out; the
+hundred in each volume are the ones that read as the most familiar and kept the
+volume's mix of meals, which is a judgement and not a ranking.
+
+### Written to the numbers
+
+Every `nut` figure is computed from the recipe's own ingredient list by
+`tools/nutrition-calc.js`, and the kidney volume's `kp` pair (potassium and
+phosphorus) with it, so the page's figures reproduce and the audit can check
+them. What the three volumes came to, per serving:
+
+| volume | label | kcal | carbohydrate | protein | sodium | potassium, phosphorus |
+| --- | --- | --- | --- | --- | --- | --- |
+| 32 | Diabetes-Friendly | 32 to 476 (mean 249) | 0 to 37 g (mean 11) | 1 to 43 g (19) | 5 to 660 mg (368) | not printed |
+| 33 | Weight-Loss Friendly | 45 to 374 (mean 190) | 2 to 54 g (mean 16) | 0 to 40 g (14) | 5 to 920 mg (397) | not printed |
+| 34 | Kidney-Friendly | 98 to 410 (mean 259) | 1 to 57 g (mean 19) | 14 to 33 g (25) | 30 to 450 mg (168) | 260 to 660 mg (518), 40 to 320 mg (247) |
+
+The kidney volume was designed backwards. A helper printed the sodium, potassium
+and phosphorus per serving of every ingredient line, the recipe was changed
+until all three limits held, and only then was it written up. Servings were set
+to match: seventeen of the hundred serve two and five serve three, mostly the
+egg white and tofu dishes, because 20 g of protein from egg white or tofu is a
+large quantity to eat at once. Leavening comes from whipped egg whites and not
+from baking powder, which is salty and carries phosphate. The shrimp recipes
+tell the cook to read the label for added phosphate, and tuna is always the
+no-salt-added kind. The sweets in volume thirty-two use erythritol, stevia or
+monk fruit and say so beside the figures; the table counts erythritol as no
+carbohydrate. Hooks follow the slug assignment except where it did not fit the
+dish, and no two recipes share their first four words.
+
+Foods added to the table along the way: tomatillo, edamame in the pod, chicken
+and deli turkey sausages (with an alias fix so chicken sausage stopped reading
+as pork), ditalini, whole cloves, lemongrass, stewing beef, cooked chicken and
+turkey, catfish, English muffin, burger bun, Swiss and Monterey Jack, orange
+juice, almond milk, cornmeal and a few more, and a realistic potassium and
+phosphorus entry for unsalted stock.
+
+### What the audits caught
+
+- The calculator would not guess. A line it cannot read is a failure and never a
+  zero, and it stopped on blue cheese, sour cream, lemongrass, stewing beef,
+  orange juice (which had no potassium or phosphorus figure) and on peppercorns
+  and parsley stems written without a weight. Each became an entry in
+  `tools/nutrition-foods.js` or a measure the calculator can weigh.
+- The kidney volume refused its own first drafts before they were written: cod
+  en papillote at 800 mg of potassium (the limit is 700), roasted turkey
+  tenderloin at 750 mg of potassium and 490 mg of phosphorus (limits 700 and
+  350), the egg and cabbage stir-fry at 510 mg of sodium and the turkey apple
+  wraps at 580 (limit 500), the chicken and cabbage stir-fry at 710 mg of
+  potassium. They were redesigned until they passed: the cod en papillote is now
+  630 mg and the turkey tenderloin 420 mg of potassium and 260 mg of phosphorus.
+- The diet audit read a word and not a food. It refused "Zucchini Noodles with
+  Pesto" as a Gluten-Free recipe that "contains noodles" and "Spaghetti Squash
+  Primavera" as one that "contains spaghetti". A squash is not pasta, so the
+  audit's word list and the Pasta ingredient hub were fixed (the build had also
+  refused a Gluten-Free dish that appeared to contain pasta), and the zucchini
+  line now says what it is, "spiralised into thin strands".
+- The SEO audit refused descriptions that quoted the cook time and not prep plus
+  cook: the almond flour pancakes advertised 15 minutes and need 25, the
+  steel-cut oats 25 for 30, the flaxseed muffins 20 for 30, the almond flour
+  bread 40 for 50 and the crustless pumpkin pie 45 for 55. The timing audit
+  refused a frozen yogurt bark and the turkey pinwheels with a cook time of 0
+  where the method says "baking", the chef salad with a cook time of 0 where the
+  eggs are boiled, and the pumpkin pie again, for a declared wait that did not
+  match the wait its method described.
+- The keyword audit refused phrases that were not true of the recipe:
+  "oven-baked catfish" until the record supported "baked", "high protein cottage
+  cheese flatbread" (under the site's 30 g line), "pressure cooker chicken
+  breast" and "kidney friendly tofu stir fry" for a dish whose method does not
+  say stir-fry. The duplicates audit refused the chicken and cabbage and the
+  chicken and pepper stir-fries, two of whose four method steps were identical.
+  The voice rules refused "nestled" in the chicken and rice bake. The volumes'
+  own lint, which is stricter than the site's, refused openings that collided
+  with older recipes ("the filling goes in" in the Denver omelet was shared with
+  four, "a lunch for two" in the shrimp Louie with the crab-stuffed avocados).
+
+### What reading caught that the audits could not
+
+Every recipe was read in full (lede, method, tips and storage note) against its
+own ingredient list and times, after the audits had passed. Seventy-four were
+corrected, for things that no audit reads:
+
+- A lede or the prose against the storage note: "keep for the week" over a note
+  of four days (sheet pan eggs), "lasts the week" against four days (broccoli
+  slaw), "a week of rushed mornings" against three (egg white bites).
+- Prose describing a method other than the one written: garlic and ginger before
+  the spices (chicken saag), "nothing here is fried" over fried eggs (black bean
+  breakfast tostadas), "roast low and slow" at 180°C (roasted tomatoes), "salt
+  is not needed" over a method that salts the strips (eggplant lasagna
+  roll-ups), shrimp "cooked in 2 minutes" over a 3-minute step.
+- Quantities misdescribed: "a good half onion" in a burger made with 25 g of
+  grated onion, "serve two per person" from a recipe that makes four burgers for
+  four.
+- Claims the recipe cannot back: "most people who try it once make it every
+  week" (egg roll skillet), "about the same fat as chicken thigh", an acid
+  "reacting with the baking powder", a sweetener "without any aftertaste",
+  "keeps you full for longer".
+- Numbers that were not in the recipe: oven temperatures, "lower it by 10
+  degrees", "95 per cent water", "5 per cent fat", freezer times. Ground beef is
+  now said to be done at 71°C in the method and the tip, not "if you like it
+  well done".
+- "No sugar" where the page prints sugar from fruit, milk or yogurt (the baked
+  apple chips most plainly, at 11 g): now "no added sugar", which is what the
+  Diabetes-Friendly rule checks.
+- Times shorter than the method itself needs, which no audit sums: the
+  sugar-free cheesecake 45 to 55 minutes (the crust bakes first), the beef
+  vegetable soup 60 to 70, the chicken stew 50 to 60, the beef and cabbage stew
+  90 to 100, and the prep of the two tofu dishes that press the tofu for 15
+  minutes. Their ledes follow.
+
+### Photographs: what was looked at, and what was kept
+
+The photographs were fetched in the background by `tools/fetch_images.py` while
+the recipes were written, and again in later rounds. In the first round 272 of
+the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
+contact sheet and looked at before anything was published, which is still the
+only check that has worked. Ninety-four were published and 178 refused; a second
+look, below, withdrew fourteen more, which left 80. The rounds after it are
+under their own headings. As the data stands there are 218 photographs, 78 in
+volume thirty-two, 71 in volume thirty-three and 69 in volume thirty-four, and
+82 of the 300 recipes are on their gradient card. No illustration was generated:
+the 111 labelled drawings on the site are the same 111 as before.
+
+The 178 refusals are the usual kinds, and each archive page is recorded in
+`src/data/image-rejects.json` so that a later fetch does not offer it again.
+Many were not food at all: a white hatchback for the pepper nachos, a parrot for
+the air-popped popcorn, a teddy bear on a lawn for the stuffed sweet potatoes,
+two pelicans at a zoo for the tuna burgers, mushrooms growing on a mossy log for
+the air-fryer mushrooms, a road sign for the cauliflower mac and cheese, a sweet
+potato emoji for the sweet potato toast, a log cabin and a candle jar for the
+apple sage chicken. Some were an ingredient and not the dish: a bowl of raw egg
+white (five recipes), a block of raw silken tofu (three), a tub of cottage
+cheese (two), a bushel of raw green beans. Most were the wrong dish or a plate
+that shows something else: a pot of feijoada for a quinoa bowl, a fried beef egg
+roll for the egg roll skillet and the egg roll soup, a tray of tilapia and
+asparagus for the sheet pan eggs, keto brownies for the almond flour tortillas,
+Hainanese chicken rice for two different chicken recipes. And eleven were
+archive pages that were already the picture of another recipe, such as the
+ginger chicken soup offered to the chicken vegetable soup and the maple-balsamic
+chicken offered to the balsamic chicken with mushrooms, which the check refuses
+because one archive page is never the picture of two dishes.
+
+### The second look
+
+The first pass was made on contact sheets at 480 px, and it missed what is small
+in a frame: croutons on a soup, a chicken breast under a salad, raw salmon where
+baked salmon was wanted, wheat noodles in a soup that is built on rice
+vermicelli. So all 94 were looked at again, at 720 px each and four to a sheet,
+and the doubtful ones at full size, with the recipe's own lede and diet labels
+beside them and with the credit line the page would print. Fourteen were
+withdrawn. The rule: a photograph is withdrawn if it shows raw ingredients or a
+different dish, or if it shows, on a recipe that carries a diet label, a main
+component that label rules out (meat or shellfish on a vegetarian recipe, dairy
+on a dairy-free one, wheat noodles, pasta or a breadcrumb coating on a
+gluten-free one), or if its credit line says so. It is kept, and listed below,
+when only the garnish, the side, the plating or the way it was cooked differs.
+
+- Raw ingredients, not the dish: the baked lemon dill salmon, a photograph of
+  seasoned raw fillets.
+- Meat or shellfish on a vegetarian recipe, the credit line saying so too: the
+  chopped Mexican salad (grilled chicken, "with Chicken" in the title) and the
+  zucchini noodles with pesto (grilled prawns).
+- Dairy on a dairy-free recipe: the egg white frittata (goat's cheese and a beet
+  salad), the turkey taco rice bowls (heaped cheddar, on a recipe that leaves
+  cheese out), the tuna-stuffed avocados (yogurt, with the filling out of sight)
+  and the poached cod (titled "butter poached cod").
+- Wheat on a gluten-free recipe: the ginger chicken soup (egg noodles, where the
+  recipe is rice vermicelli), the big batch vegetable soup (pasta spirals, and
+  not the tomato and bean soup) and the Parmesan-crusted chicken (a breadcrumb
+  cutlet under a cream sauce from a chain restaurant's menu, where the recipe's
+  crust is almond and Parmesan).
+- A different dish: the pesto chicken bake (a carved roast chicken dinner with
+  couscous), the coctel de camarones (an American shrimp cocktail with red
+  cocktail sauce on shredded lettuce, not the Mexican tomato and lime one), the
+  creamy cucumber dill salad (cucumbers in oil and oregano, nothing creamy) and
+  the cucumber hummus bites (cups of hummus with vegetable sticks, not hummus on
+  cucumber rounds).
+
+`tools/review_images.py --reject` only acts on staged entries, so the published
+entries were copied into a temporary staging file and passed with `--pending`;
+the files, the manifest and `image-rejects.json` were then updated by the tool
+itself, which also checks that nothing else was dropped. The build moved the
+content date of exactly these fourteen recipes and no others. CLAUDE.md now says
+how, and what to look for.
+
+### What the first 80 photographs show, and where they differ from the recipe
+
+The 80 that remain are real photographs of the dish or of a close relative of
+it, from someone else's kitchen or a restaurant. None is a photograph of this
+recipe made as written, and some differ visibly. They are listed here so the
+page is not claiming more than the picture shows. A credit line prints the
+archive's own title, which is why a few read oddly ("Tasting the Zucchini Pizza
+Boat", "My chickpea burger patties.", "Penne and turkey meatballs - Jan 2022 -
+Sarah Stierch", a restaurant dish with its price in the title).
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Steel-Cut Oats with Berries and Walnuts | a bowl of plain cooked steel-cut oats, with no berries, walnuts or cinnamon |
+| Cream of Broccoli Soup | with a swirl of cream and croutons on top, which the recipe does not have |
+| Beef Vegetable Soup | a clear Asian-style broth with strips of beef, spring onion, long beans and red chilli; none of the recipe's tomato, carrot, celery or cabbage |
+| Zucchini Soup | paler than the recipe's, in a handled cup, with diced tomato and a sprig of rosemary on top |
+| Creamy Spinach Soup | the soup still bubbling in a saucepan on the hob, not served |
+| Asparagus Soup | a pale yellow cream soup in a square white bowl, paler than the recipe's green |
+| Chef Salad | in a black takeaway bowl, with shredded carrot and cheddar as well as Swiss |
+| Cilantro Lime Chicken | dark, sticky-glazed pieces on a mound of rice with green beans and carrot, where the recipe makes pale seared cutlets |
+| Pepper Steak | green pepper strips and slivers of bamboo shoot with the beef on a floral plate; no red pepper or onion |
+| Pork Medallions with Mustard Sauce | medallions in a pale creamy sauce with green beans and strips of pepper |
+| Salmon Foil Packets | the opened foil packet in a Japanese set meal, beside brown rice and miso soup |
+| Shrimp and Asparagus Skillet | a plate of shrimp, brown rice and roast asparagus, not a skillet |
+| Tuna Steaks with Avocado Salsa | sesame-and-pepper-crusted seared tuna in slices with a dark dipping sauce, and no avocado salsa |
+| Halibut with Lemon Caper Sauce | a restaurant plate with the seared halibut on a salad of beet, radish and raspberries, and no sauce |
+| Cauliflower Risotto | a restaurant bowl with flaked almonds, dark crumbs and microgreens on top |
+| Garlic Sautéed Spinach | with tomato, onion and pine nuts among the leaves |
+| Barley Risotto with Mushrooms | a restaurant plate of barley risotto with roast sweet potato, crisp sweet-potato strands and pesto, and no mushrooms |
+| Sprouted Moong Salad | with diced beetroot among the sprouts |
+| Edamame with Sea Salt | steamed pods on a blue plate, with no salt in sight |
+| Cucumber Smoked Salmon Bites | smoked salmon and dill mousse piped into cucumber cups, where the recipe uses lemon and dill cream cheese under ribbons of salmon |
+| Sugar-Free Cheesecake | a baked slice on a biscuit crust with berries; the recipe has an almond flour crust and no added sugar |
+| Almond Flour Chocolate Chip Cookies | a cookie held in a hand with a bite taken out |
+| Sugar-Free Chocolate Pudding | a chocolate pudding in a glass dish ringed with strawberries and mango, with cashews and raisins on top |
+| Sugar-Free Raspberry Lemonade | a tall glass of pink drink with a straw on a table with a vase of flowers, a glass of water and a bottle beside it |
+| Banana Oat Breakfast Cookies | cookies studded with chocolate chunks, one broken open; the recipe has raisins and walnuts and no chocolate |
+| Turkey Meatball Soup | a pale yellow broth with a few meatballs and a dusting of paprika, where the recipe is a tomato broth with ditalini and spinach |
+| Carrot Ginger Soup | with a swirl of cream, a parsley sprig and a dusting of chilli on top |
+| Chinese Chicken Salad | with crispy noodles and sliced mushrooms among the leaves |
+| Lemon Arugula Salad with Parmesan | with radicchio and sliced fennel among the leaves |
+| Shrimp and Cucumber Salad | chilli-glazed shrimp and cucumber chunks with pieces of cured ham in a steel tray; no tomato or avocado |
+| Citrus Fennel Salad | with avocado and mint |
+| Salmon Salad with Dill and Cucumber | flaked roast salmon on mixed leaves with cherry tomatoes and cucumber, and no yogurt dressing |
+| Thai Cucumber Salad | with ribbons of carrot on top |
+| Grapefruit Avocado Salad | diced avocado and pink citrus on butter lettuce rather than spinach |
+| Edamame Salad | served in radicchio leaves, with corn |
+| Hummus Veggie Wrap | a wrap cut open to show spinach, cucumber and tomato |
+| Turkey Zucchini Boats | a "zucchini pizza boat": two halves with melted cheese and slices of cured sausage, served with garlic toast |
+| Roasted Cauliflower Tacos | a single open tostada with cabbage, tomato, cilantro and an avocado and cashew salsa, on a school-style tray |
+| Greek Chicken Pitas | a wrapped flatbread with chicken and red cabbage, held in foil |
+| Tuna Stuffed Tomatoes | a tomato filled with tuna salad, beside egg and fruit on the plate |
+| Baked Turkey Meatballs | in a tomato sauce on penne, with grated cheese |
+| Chickpea Veggie Burgers | patties stacked on kitchen paper with a tin of chickpeas behind them, and no lettuce leaves or yogurt |
+| Sheet Pan Chicken and Brussels Sprouts | a grilled chicken piece with whole sprouts and tomato on lettuce, not a tray |
+| Sautéed Kale with Garlic | dressed with cherry tomatoes |
+| Cumin Roasted Carrots | glazed coins with a spice crust, in a deeper red than the recipe's, where the recipe cuts sticks |
+| Grilled Zucchini | rounds on a barbecue grid, seasoned and charred, where the recipe cuts long slabs |
+| Poached Pears | pear chunks in a deep red syrup, so poached in red wine or juice and not in the recipe's pale spiced syrup |
+| Egg White French Toast | round slices fried golden, shown without the strawberries and syrup |
+| Egg White Quesadilla | cut flour-tortilla quesadillas, half eaten, on a restaurant table with a bowl of red salsa; the recipe uses corn tortillas |
+| Cinnamon Egg White Waffles | a stack of waffles with syrup on a café table, with coffee and a strawberry waffle behind; the recipe serves blueberries |
+| Maple-Balsamic Chicken | a soft close crop of chicken in a glossy sauce with green beans and tomato, out of focus at the edges |
+| Garlic Herb Chicken Skewers | dark herb-coated skewers with vegetables and rosemary on a pan |
+| Chicken and Pepper Stir-Fry | with baby corn and spring onion over a dome of rice, with cucumber slices, on a restaurant plate |
+| Apple Cranberry Chicken Salad | in a plastic tub with chopsticks, with cucumber and dill and no cranberries |
+| Herbed Chicken Meatballs | glazed Japanese tsukune on skewers at a restaurant counter, with grilled leek and shishito peppers beside them |
+| Lemon Chicken Cutlets | a deep-fried, crumb-coated cutlet, sliced, on shredded cabbage with a tomato wedge and a dab of mustard (a Japanese katsu plate), where the recipe's cutlets are lightly floured, pan-fried and finished in a lemon sauce |
+| Grilled Chicken with Pineapple Salsa | an Indonesian chilli-glazed grilled chicken with rice, cucumber and tomato, and no pineapple salsa |
+| Chicken and Green Bean Stir-Fry | long beans with shredded chicken in a steel serving tray |
+| Ginger Scallion Chicken | crisp-skinned chicken with the ginger and scallion sauce in a small dish, where the recipe's chicken is poached |
+| Chicken Congee | topped with fried shallot and spring onion |
+| Chicken Stew | chicken stew with carrot and potato in a pale broth; the recipe has carrots and green beans and no potato |
+| Pork Chops with Apples and Onions | a restaurant plate: a bone-in glazed chop on a cabbage roll with caramelised apple; the recipe's chops are boneless |
+| Hamburger Steak with Onion Gravy | a Japanese sizzling plate: the patty in a brown glaze beside a chicken thigh, a fried egg, diced potato and corn |
+| Beef Fried Rice | fried rice with carrot and greens on a blue-and-white plate beside a bowl of soup and chopsticks; the dark pieces could be beef or mushroom |
+| Salmon and Rice Bowls | a restaurant bowl of teriyaki-glazed salmon on rice with edamame, fried onion and crisp Brussels sprouts, where the recipe has cucumber, carrot, red cabbage and a rice-vinegar dressing |
+| Shrimp Fried Rice | with egg, peas and spring onion in a blue bowl, and a few small dark-red pieces that look like cured ham or sausage, which the recipe does not use |
+| Shrimp and Rice Skillet | shrimp over rice in a bowl, not a skillet |
+| Cod en Papillote | an unopened parchment parcel beside wilted spinach and roast baby potatoes, so the fish itself is not visible |
+| Pan-Seared Trout | fillets with a golden cornmeal-style crust and herbs, where the recipe is uncoated and seared skin side down in olive oil |
+| Tofu and Cabbage Stir-Fry | golden tofu cubes with sesame seeds, broccoli, red cabbage and thin noodles, where the recipe has green cabbage and carrot and no noodles or broccoli |
+| Tofu Pineapple Stir-Fry | tofu, pineapple and water chestnut slices on brown rice with chilli flakes; the recipe has red pepper and onion |
+
+The other nine (the chicken chili verde, the shrimp Louie, the cucumber and
+avocado salad, the caldo de pollo, the tempeh stir-fry, the miso cod, the
+Parmesan crisps, the broccoli and spinach soup and the chocolate mug cake) match
+the recipe closely enough that nothing needed listing. By licence the 80 are 36
+CC0 or public domain, 28 CC BY and 16 CC BY-SA, from Wikimedia Commons 41,
+Flickr 26, Rawpixel 8, Wikimedia 3 and WordPress 2. The eight from Rawpixel come
+from its public-domain photograph collection and carry no named photographer, so
+their credit is the title and the licence. CC BY and CC BY-SA photographs name
+their author in `src/data/images.json` and `images-attribution.md`, and `npm run
+check` fails if one does not.
+
+### The second round, and what it found
+
+The second round gave the 220 recipes still without a picture a longer search,
+90 seconds a recipe where the first round allowed 45. The fetcher does not offer
+a page that has been refused, so each recipe was offered the next candidate it
+could find: 205 of the 220 got one and 15 got none. They were looked at four to
+a sheet at 720 px a photograph, and the doubtful ones again at full size and
+zoomed, with the recipe's lede and diet labels beside them and, where a label
+was in question, the archive's own description of the file. 31 were published
+and 173 refused, by the rule above. Two were refused only on that second view: a
+tlayuda whose file description says it has chorizo, on the vegetarian black bean
+tostadas, and a flounder fillet on a bed of orzo, shrimp and sausage, on a
+gluten-free recipe.
+
+The refusals are the same kinds as in the first round, and each archive page is
+recorded in `src/data/image-rejects.json`: a tilapia tank for the baked tilapia,
+children at a school event for the baked haddock (the archive's "Haddock" is a
+person), a grape grower for the sole with grapes, wildlife staff on a beach for
+the herb-crusted cod, a bed of coleus plants for the frozen chocolate banana
+bites, empty popcorn shelves for the air-popped popcorn, and an egg white
+cocktail at a bar, which one search offered to four egg white recipes at once.
+The 31 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Cauliflower Hash Browns | crisp cauliflower patties under melted cheese and thyme, close up; the recipe has Parmesan in the patties and nothing on top |
+| Greek Yogurt Pancakes | two plain pancakes on a white plate, with no blueberries |
+| Balsamic Chicken with Mushrooms | strips of chicken on carrots, onion and mushrooms; the recipe has cutlets in a balsamic and mushroom sauce and no carrots |
+| Chicken and Broccoli Stir-Fry | a restaurant plate of chicken and broccoli in a glossy orange sauce with a mound of fried rice beside it |
+| Turkey Meatloaf | a sliced meatloaf with a red glaze on a pewter platter, a studio photograph from 1994 whose description does not say what meat it is |
+| Steak with Garlic Mushroom Sauce | a grilled steak under sautéed mushrooms and whole garlic cloves on a restaurant plate, with broccoli and something fried blurred behind; the recipe has a pan sauce |
+| Poached Salmon with Cucumber Dill Sauce | a poached fillet under a pale herb sauce on a canteen-style plate, with a herb stuffing cake, mixed vegetables and a red sauce beside it |
+| Roasted Asparagus with Parmesan | plain roasted spears on a restaurant chain's plate, with no Parmesan to be seen |
+| Stuffed Portobello Mushrooms | a restaurant plate: one cap filled with spinach on a potato gratin with broccolini, fine beans, garlic sauce, capers and sun-dried tomato; the recipe fills the caps with ricotta, tomato and mozzarella |
+| Baked Zucchini Chips | long thin strips of baked zucchini, deeply browned, in a white bowl; the recipe cuts 3 mm rounds |
+| Chocolate Avocado Mousse | two glasses of mousse topped with pomegranate seeds; the recipe is served with raspberries |
+| Asparagus Frittata | a whole frittata with asparagus, roasted potato cubes and greens; the recipe has no potato |
+| Peanut Butter Banana Toast | toast with peanut butter and thick pieces of banana on a board, in a warm colour cast; no cinnamon or chia seeds in sight |
+| Collard Green Wraps | a rolled raw collard leaf with its filling out of sight, beside a fruit and nut salad |
+| Mushroom Lettuce Cups | butter lettuce leaves holding stir-fried mushrooms and cubes of tofu |
+| Tuna Burgers | a restaurant tuna steak burger on a bun with lettuce; the recipe's patties are canned tuna with no bun |
+| Cabbage Roll Skillet | ground beef, cabbage and tomato over white rice, a soft, noisy phone photograph; the recipe cooks brown rice in the pan |
+| Honey Lime Chicken Skewers | glazed chicken, cherry tomato and red onion skewers with fried plantain, baby corn and salad; the recipe skewers chicken, red pepper and onion |
+| Frozen Yogurt Pops | chocolate yogurt pops in boat-shaped moulds on a marble tray with chocolate chips; the recipe is strawberry |
+| Baked Peaches with Cinnamon | peach slices fanned in a glossy caramel syrup, which the credit says is caramel and rum; the recipe has honey, cinnamon, yogurt and almonds |
+| Egg White Fried Rice | egg fried rice with spring onion in a clear takeaway tub; no peas or carrot, and the egg may not be egg white |
+| Turkey and Noodles | a bowl of turkey noodle soup with diced turkey, carrot and thin wheat noodles; the recipe has ground turkey and flat rice noodles |
+| Garlic Pork Stir-Fry | pork strips stir-fried with carrot, celery and yellow pepper in a bowl; the recipe has cabbage and spring onion, and the archive title also names an egg and tofu dish from the same meal |
+| Beef and Cabbage Stew | a bowl of beef stew with cabbage, carrot and chunks of what looks like potato; the credit says beef and lamb |
+| Salmon Skewers | chunks of salmon on skewers over a grill, with no zucchini or onion on them |
+| Tuna Pasta Salad | penne with tuna, soft-boiled egg wedges and spring onion in a creamy dressing; the recipe has rotini with cucumber, celery and pepper in a lemon and mustard dressing |
+| Homemade Fish Sticks | restaurant fish fingers in a basket with a tartar dip and a lemon wedge; the recipe bakes cod strips in panko |
+| Sesame Greens with Tofu | crisp fried tofu cubes in a glass dish under herbs, chilli and a crunchy topping; no pak choi |
+
+The other three (sopa de lima, strawberry sorbet and tuna patties) match the
+recipe closely enough that nothing needed listing. By licence these 31 are 12
+CC0 or public domain, 11 CC BY and 8 CC BY-SA, and they come from Flickr (14),
+Wikimedia Commons (11), Wikimedia (4) and Rawpixel (2).
+
+One more photograph came out of the second round without being a candidate. The
+picture the search offered the coctel de camarones was the page already
+published for the older prawn cocktail, and it is the coctel: a stemmed glass of
+shrimp in a tomato and lime broth with cilantro, avocado and crackers, where the
+prawn cocktail's recipe is shrimp in a Marie Rose sauce on shredded lettuce. The
+one the first round had withdrawn from the coctel, shrimp on the rim of a glass
+of shredded lettuce with red cocktail sauce and a lemon wedge, is the Wikidata
+picture of a prawn cocktail. So the two recipes now have each other's
+photograph, in a commit of their own because one of them is an older recipe.
+That file's author field reads "see below." and nothing is below it, so it is
+recorded as Unknown, and the page gives its title, its licence (public domain)
+and the archive. The check that one archive page is never the picture of two
+dishes could not see this, because each page had only ever been used once.
+
+### The third round, and the curated sources
+
+The third round was for the 188 recipes still on a gradient card, and it asked
+the archives a different way. `tools/wide_search.py` reads the English Wikipedia
+article for a dish, and the Commons category filed under its name, in full; and
+it runs the Commons file search by name with the ordinary fetcher's dish-name
+heuristics left off, which finds files the fetcher's own search turned away.
+Together they found at least one candidate for 86 of the 188 recipes (40 from
+the articles and categories, 65 from the file search), and 336 candidates were
+downloaded.
+
+Most were not worth a second look. 84 were opened and looked at, four to a sheet
+at 720 px: 23 were published, 11 were passed over because a better candidate for
+the same recipe had been chosen, and 50 were refused. The other 252 were refused
+from their archive titles without being opened, because the title named
+something that is not the dish: "Egg white 1" and "Raw egg", offered to eight
+egg white recipes, a satellite image of clouds for the air-popped popcorn, pages
+from a seventeenth-century botanical book for the sole with herbs, a grape
+harvest for the sole with grapes, tubs of plain cottage cheese for three cottage
+cheese recipes. Each of those 252 is recorded in `src/data/image-rejects.json`
+with "judged from the archive title" in its reason, so the record does not
+pretend they were looked at. The refusals after looking were of the usual kinds:
+raw ground meat being mixed for the apple chicken sausage, a woman arranging
+kale chips in a shop, a whole chicken in a pot of broth for the ginger chicken
+soup, skewers of beef and chicken for the vegan grilled vegetable skewers, a
+pizza on a wheat crust for the gluten-free eggplant pizzas, goat's cheese on the
+dairy-free sweet potato toast, zucchini spaghetti under breadcrumbs for the
+gluten-free zucchini noodles.
+
+One photograph was offered to two recipes: pork kabobs with pineapple, pepper,
+onion and cherry tomato went to both the pork and pineapple skewers and the
+pineapple chicken skewers. They are pork, so only the pork recipe has them.
+Every kept photograph was also compared by a perceptual hash with every
+photograph already on the site, to catch the same picture under another archive
+page, and none matched. The 23 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Chicken Vegetable Soup | a mug of clear soup with carrot, zucchini, leek and mushrooms; the recipe has celery and green beans and no mushrooms |
+| Steak Salad | grilled steak with avocado, tomato, black beans, corn, tortilla strips and a dressing in a cup; the recipe has sliced sirloin with cucumber, red onion and blue cheese |
+| Kale and Apple Salad | kale with diced apple in a bowl, dressed with balsamic according to the archive title; no Parmesan, walnuts or cranberries to be seen |
+| Sunomono | wakame seaweed, cucumber chunks and enoki mushrooms in a close crop; the recipe is paper-thin cucumber |
+| Chili Lime Shrimp | seasoned shrimp searing in a ridged pan, before any lime or cilantro |
+| Roasted Tomatoes with Herbs | two roasted tomato halves with black pepper on a bed of corn kernels, with no herbs to be seen |
+| Apple Cinnamon Egg White Pancakes | a restaurant stack of pancakes topped with cooked apple and whipped cream; the recipe has grated apple in the batter and maple syrup to serve |
+| Lemongrass Chicken | stir-fried chicken with onion and lemongrass on a restaurant plate with steamed rice, herbs, pickled carrot and radish and a dipping sauce |
+| Chicken Rice Noodle Stir-Fry | a restaurant plate of rice vermicelli stir-fried with chicken, egg, basil, tomato and zucchini in a brown sauce; the recipe has flat rice noodles, cabbage and carrot, with lime and no soy sauce |
+| Chicken Fajita Rice Bowls | the chicken, pepper and onion filling in a frying pan on the hob, without the rice |
+| Turkey Apple Wraps | a supermarket turkey, apple and cranberry wrap cut in half in its plastic tray; the archive title names the shop |
+| Pork and Pineapple Skewers | pork, red pepper, onion, cherry tomato and pineapple skewers on a grill; the pork looks fattier than loin |
+| Honey Mustard Pork Chops | glazed pork chops on a barbecue over open flame, in the middle of cooking; the recipe sears boneless chops in a pan |
+| Pork Chop Suey | a takeaway tray of chop suey with chunks of meat, potato, carrot, red pepper and cabbage in a brown gravy; the recipe has thin pork strips with napa cabbage, bean sprouts and mushrooms |
+| Garlic Herb Shrimp Skewers | herb-crusted grilled shrimp with lemon wedges, with the skewers and zucchini out of frame |
+| Snapper with Herbs | a whole wood-roasted snapper under a salad of raw chilli, herbs and lime in dim restaurant light; the recipe bakes fillets |
+| Tofu Rice Bowls | crumbled tofu with spring onion and chilli oil over rice; the recipe has pan-fried tofu cubes with cucumber, red cabbage and carrot |
+
+The other six (chicken francese, baked lemon dill salmon, kale chips, roasted
+delicata squash, air-popped popcorn and chicken fried rice) match the recipe
+closely enough that nothing needed listing. By licence these 23 are 4 CC0 or
+public domain, 8 CC BY and 11 CC BY-SA, and they come from Wikimedia Commons
+(23).
+
+### The fourth round, and plainer names
+
+The fourth round was for the 165 recipes still on a gradient card, and it
+searched for them under plainer names. `tools/wide_search.py` took two
+alternative names for each recipe, the name a cook would type for the dish
+("roasted asparagus" for the air fryer asparagus, "cod fillet" for the air fryer
+cod, "melitzanosalata" for the Greek eggplant salad), and ran them through the
+Commons file search and through Openverse, which reaches the Flickr photographs
+of home cooks and restaurants that carry a licence allowing reuse. Openverse
+returned 693 candidates for 126 recipes and the Commons search 673 for 116;
+between them 145 of the 165 recipes had at least one candidate and 20 had none.
+The three best candidates from each source for each recipe, 643 in all, were
+read by their archive titles.
+
+The titles settled 345 of them, and those were never downloaded: a crested
+serpent eagle offered to the moong dal chilla, snow and fog over a place called
+the Burger Bowl for the mushroom Swiss burger bowls, a processor named Apple A5X
+Chip for the baked apple chips, a still-life painting of eggs and cabbage for
+the egg and cabbage stir-fry, a cold soup from Turkey the country for the turkey
+vegetable soup. Each of the 345 is recorded in `src/data/image-rejects.json`
+with "judged from the archive title" in its reason, so the record does not
+pretend they were looked at. The other 298 were fetched, apart from six that the
+archives would not serve, and the 292 that arrived were looked at nine to a
+sheet at 480 px. 141 were refused outright and 45 were passed over because
+another candidate for the same recipe was the better picture of the same dish,
+or because the photograph was one the site already used. 106 went on to a second
+look, four to a sheet at 720 px a photograph and the doubtful ones zoomed, with
+the recipe's lede and diet labels beside them: 60 were published and 46 turned
+down, 20 of those only because a better candidate for the same recipe had been
+chosen.
+
+The refusals after the first look are again of the usual kinds. A fish fillet
+lay under the spears on the photograph offered to the vegan air fryer asparagus.
+Pink ham was folded into the breakfast wraps, and sausage and bacon were baked
+through the cauliflower casserole, on vegetarian recipes. A pizza on a wheat
+crust was offered to the gluten-free eggplant pizzas, almonds in sugar syrup to
+the spiced roasted almonds, a roast beef sandwich to the southwest chicken
+salad, a child chopping chicken on a board to the Instant Pot chicken breast,
+raw skewers on a board to the grilled vegetable skewers, a handwritten recipe
+card to the crustless pumpkin pie and a scan of a magazine page to the spinach
+and feta stuffed chicken breast. The photograph that the first round refused for
+the ginger chicken soup, wide wheat egg noodles in a chicken soup, came back
+under three more archive pages. The second look turned down a cut eggplant roll
+with a breadcrumb filling on the gluten-free lasagna roll-ups, a cutlet with a
+visible crumb coating on the gluten-free chicken Florentine, a turkey wrap with
+a pale slice that could be cheese on a dairy-free recipe, sweet potato toast
+with soft white cheese under the apple and avocado on a dairy-free one, and a
+chicken breast with a browned crust for a recipe that pressure-cooks it without
+browning.
+
+Three candidates were already on the site under another archive page, and the
+perceptual hash caught them: the photograph of the tofu with greens, offered to
+the air fryer tofu; the turkey burger with baked beans and potato salad, offered
+to the onion turkey burgers; and the beef fried rice, offered to the beef and
+rice skillet. One archive page was also offered to two recipes: the roasted
+green beans went to the garlic roasted green beans and the roasted mushrooms to
+the balsamic roasted mushrooms, and each page was used once. Every one of the 60
+photographs that were published was then compared by the same hash with every
+picture on the site, and none is within 14 bits of another. The 60 that were
+published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Almond Flour Pancakes | two thick pancakes under a melting pat of butter, close up; the recipe is served with raspberries |
+| Chaffles | a round waffle in wedges on a cooling rack with a strawberry half on top, titled as a keto waffle; the recipe is a savoury egg and mozzarella waffle |
+| Denver Omelet | a folded omelette beside home fries with ham and green pepper in them, and toast at the edge; the recipe is the omelette alone |
+| Egg-Stuffed Bell Peppers | a poblano half and a yellow pepper half filled with a herby white cheese mixture and an egg; the recipe fills bell peppers with egg and feta |
+| Whole Wheat Pancakes | a stack of pancakes under fresh strawberries, close up; the recipe is the pancakes with butter |
+| Chicken Pot Pie Soup | a bowl of creamy soup with chicken, carrot, peas, corn and potato beside a tray of cheese biscuits; the recipe has celery and green beans and is served without biscuits |
+| Southwest Chicken Salad | a grilled chicken breast over lettuce with black beans, corn, tomato, red onion, avocado and cheddar, topped with tortilla strips and a few fried pieces; the recipe has no tortilla strips |
+| Creamy Cucumber Dill Salad | sliced cucumber with dill and spring onion in a clear oil dressing; the recipe's dressing is Greek yogurt and lemon and its onion is red |
+| Broccoli Slaw Salad | a bowl of shredded broccoli stem in a creamy dressing, a little dim; no apple, red onion or sunflower seeds show |
+| Black Bean and Quinoa Bowl | a glass bowl of quinoa with black beans, mango, red pepper, celery and cilantro; the recipe has peppers, tomatoes and avocado and no mango |
+| Slow Cooker Salsa Chicken | two chicken pieces under red salsa beside a mound of orange Spanish rice and pepper strips; the chicken is whole and not shredded, and the recipe has no rice |
+| Chicken Saag | a plate of chicken in a dark green spinach sauce beside white rice, with the sauce already smeared; the recipe uses boneless thighs |
+| Spinach Artichoke Chicken | a chicken breast under a browned layer of spinach, artichoke and melted cheese beside roasted red potatoes and green beans; the recipe sears the chicken and serves it in a creamy sauce |
+| Sausage and Cabbage Skillet | dark sausage links left whole in a black skillet under ribbons of golden cabbage; the recipe slices chicken sausages and adds onion, paprika and mustard |
+| Lemon Grilled Fish with Asparagus | a grilled swordfish steak under herb butter and chives on green beans and potato; the recipe grills white fish fillets with asparagus and lemon |
+| Cauliflower Mac and Cheese | roasted cauliflower florets in a pale cheese sauce on a blue and white plate, with no pasta; the sauce is thinner than the recipe's baked cheddar, Parmesan and cream cheese one |
+| Zucchini Noodles with Pesto | spiralised zucchini with pesto, leaves and pine nuts on a dark platter; no cherry tomatoes or Parmesan show |
+| Garlic Roasted Green Beans | a close-up of roasted beans with blistered, blackened tips on a white plate; no garlic or lemon shows |
+| Greek Eggplant Salad | chopped roasted eggplant with diced red and green pepper, capers and onion in a glass bowl; the recipe has tomato and red pepper and no capers |
+| Pepper Nachos | green pepper halves topped with spiced ground meat, melted cheese, diced avocado and a dollop of cream on a board; the recipe uses mini sweet peppers with turkey, tomato, avocado and jalapeño |
+| Frozen Yogurt Bark | bark with raspberries, blueberries, pistachios and coconut on a blue gingham tray, and also diced peach or melon and a few dark pieces; the recipe has the berries, pistachios and coconut only |
+| Egg White Breakfast Wrap | a toasted tortilla wrap with salsa, lime and cilantro beside a bowl of roasted potatoes, filling out of sight, and the tortilla looks white; the recipe has spinach, feta and a whole-wheat tortilla |
+| Big Batch Vegetable Soup | a glass bowl of chunky soup with carrot, celery, potato and peas in an orange-red broth; no white beans or cabbage can be seen |
+| Spinach and White Bean Soup | a bowl of lemony broth with dark leaves, white beans and diced celery and zucchini; no carrot shows and the broth is thin where the recipe mashes half the beans |
+| Escarole and Bean Soup | a terracotta pot of clear broth with chopped escarole, white beans, red flecks that look like tomato and parsley; the recipe has no tomato or parsley |
+| Shaved Brussels Sprout Salad | a restaurant plate of shaved sprouts with dates, pistachios and herbs in a preserved lemon dressing; the recipe has Parmesan, walnuts and apple |
+| Zucchini Ribbon Salad | raw zucchini ribbons with avocado, beetroot slices and dill; the recipe has mint, Parmesan and pine nuts and no avocado or beetroot |
+| Carrot Raisin Salad | matchstick carrot with a few raisins, parsley and whole hazelnuts on a white plate, a restaurant dish; the recipe is grated carrot in a lemon, honey and yogurt dressing with walnuts |
+| Stuffed Sweet Potatoes | split sweet potatoes filled with chickpeas under a tahini drizzle with raw spinach; the recipe fills them with spiced black beans and spinach and tops them with lime yogurt and cilantro |
+| Portobello Tacos | two soft tacos with sliced mushrooms, kale, black beans, tomato and avocado slices; the recipe has thick portobello slices, red cabbage, avocado and tomato |
+| Grilled Vegetable Skewers | skewers of eggplant, zucchini, pepper, mushroom, onion, cauliflower and broccoli with charred sweetcorn scattered on the plate; the recipe has no eggplant, cauliflower, broccoli or corn and adds cherry tomatoes |
+| Mexican Cauliflower Rice Bowls | browned, spiced cauliflower rice in a serving dish under crumbled white cheese and cilantro; the recipe also has black beans, corn, tomato and avocado on top |
+| Air Fryer Tofu | golden cubes of crisp tofu in a lace-paper basket with a sprig of parsley, which look deep fried; the recipe glazes them with soy and sesame |
+| Air Fryer Scallops | five seared scallops in a ring around a pale sauce on a salad of sweetcorn and broad beans, a restaurant plate; the recipe has the scallops with garlic lemon butter and no salad |
+| Spaghetti Squash Primavera | spaghetti squash moulded into a nest on a red tomato sauce, filled with asparagus, broccoli, mushroom, tomato and pepper under Parmesan and pine nuts; the recipe has no tomato sauce |
+| Roasted Cabbage Wedges | roasted cabbage wedges with charred edges on a dark tray, with chunks of apple and parsnip; the recipe is wedges with olive oil and paprika only |
+| Zucchini Roll-Ups | roll-ups in tomato sauce under melted cheese on a black plate with broccoli and a crusty roll, a soft, over-bright photograph; the recipe is the roll-ups alone |
+| Grilled Pineapple | thick pineapple rings with dark grill marks on a white plate; the recipe finishes them with cinnamon and mint |
+| Herbed Egg White Scramble | a close-up of fluffy scrambled egg whites with cracked pepper, with the edge of a pancake and a sauce at the top; no herbs show |
+| Egg White Crepes | a stack of golden crepes on a plate, unfilled; the recipe rolls them around sliced strawberries with maple syrup |
+| Chicken Burgers | two seared chicken patties on a plate with rice pilaf, broccolini and beetroot with yogurt; the recipe serves the patties in small buns with lettuce, cucumber and mustard |
+| Chicken and Noodle Skillet | a bowl of chicken slices, bok choy and herbs in clear broth with thin noodles and chopsticks on the rim; the recipe simmers chicken, carrot and onion with flat rice noodles in a thyme and lemon broth |
+| Tarragon Mustard Chicken | chicken pieces in a pale cream sauce with chopped tarragon in a baking dish, set on a table with plates, bread and a glass of pink wine; the recipe uses breasts in a Dijon, shallot and yogurt sauce |
+| Chicken and Rice Bake | a pot of chicken and rice with zucchini and red pepper pieces, with a plate of the same beside it; the recipe is chicken, rice, carrot, onion and peas |
+| Apple Stuffed Chicken Breast | a cut chicken breast stuffed with brie and raisins in a cider sauce, beside roasted Brussels sprouts with flaked almonds; the recipe stuffs it with apple, onion, cranberries and sage |
+| Onion Turkey Burgers | a turkey burger in an oat-topped bun with lettuce, tomato, melted cheese and onion beside a scoop of mashed potato; the recipe uses small buns with lettuce, red onion and mustard and has no cheese or tomato |
+| Roasted Turkey Tenderloin | a roasted turkey breast with a pepper and herb crust, part sliced, on a patterned oval platter with a carving fork; it is a whole breast and not a tenderloin |
+| Turkey Taco Rice Bowls | taco meat over white rice under a mound of shredded lettuce with tomato wedges, on a wide orange plate; the recipe uses turkey with sweetcorn, cilantro and lime |
+| Herb-Roasted Pork Loin | sliced roast pork loin with a dark crust on a bed of brown grain, with baby carrots and roasted Brussels sprouts; the recipe is the pork alone |
+| Pork Fried Rice | a bowl of fried rice with cubes of pale pork and egg; no peas, carrot or spring onion show |
+| Citrus Salmon | a salmon fillet under blood orange slices and spring onion rings on wild rice and quinoa; the recipe is baked in orange and lemon juice with dill and has no grain |
+| Honey Spice Rubbed Salmon | a glazed salmon fillet in a pale honey sauce beside spiced potato wedges and green beans; the recipe is baked with a dry honey and spice paste and has no sides |
+| Lemon Pepper Tilapia | two seared tilapia fillets with cracked black pepper on green beans in a pan sauce; the recipe is pan-cooked with lemon and parsley and has no bean bed |
+| Poached Cod with Lemon and Parsley | a plain white cod fillet with cracked pepper and a sprig of dill, with artichoke hearts and green pearl couscous partly in frame; the archive says it was cooked in a bag with butter, dill, lemon and capers, where the recipe poaches it in lemon and bay water with no butter and finishes with parsley |
+| Herb-Crusted Cod | a golden herb-crumb fillet on a restaurant plate with fries, a tartar dip, ketchup, lemon and roasted carrots; the sides are the restaurant's and the recipe is the fillet |
+
+The other five (beef and green bean stir-fry, air fryer cauliflower, air fryer
+asparagus, balsamic roasted mushrooms and baked apple chips) match the recipe
+closely enough that nothing needed listing. By licence these 60 are 4 CC0 or
+public domain, 35 CC BY and 21 CC BY-SA, and they come from Flickr (40) and
+Wikimedia Commons (20).
+
+### The fifth round, and what is left
+
+The fifth round was for the 105 recipes still on a gradient card, the ones that
+four searches had not answered, and it gave each of them two more names
+("avocado stuffed with tuna", "florentine chicken spinach", "ground turkey
+rice", "sole véronique"). `tools/wide_search.py` ran those through the Commons
+file search, and 330 requests went to Openverse: the first new name for each
+recipe, then the second, then the second name from the fourth round, which had
+only been tried on Commons, and last the first name's second page of results. 93
+of the 105 recipes had at least one candidate and 12 had none: the turkey
+roll-ups, almond flour tortillas, egg roll soup, chilled cucumber soup,
+portobello pizzas, turkey pinwheels, shrimp foil packets, cottage cheese ice
+cream, frozen chocolate banana bites, turkey stir-fry with peppers, flounder
+francese and sole with grapes. Pages that had been refused or published were
+left out, and up to four Openverse and three Commons candidates were kept for
+each recipe, 406 in all, and read by their archive titles.
+
+The titles settled 318 of them, and those were never downloaded: three Navy
+photographs of a carrier onboard delivery aircraft, whose abbreviation is COD,
+offered to the cod with tomatoes and olives; a sake brewery and a railway
+station called Shirataki for the shirataki noodle stir-fry; a porcelain cup with
+an egg-white glaze for the egg white bites; a Cajun meat shop in Shreveport,
+five times, for the Cajun chicken and cabbage skillet; a packet of pumpkin spice
+almonds, four times, for the spiced roasted almonds. Each of the 318 is recorded
+in `src/data/image-rejects.json` with "judged from the archive title" in its
+reason, so the record does not pretend they were looked at. 88 were chosen to
+download, 80 arrived and 8 were not served. The 80 were looked at nine to a
+sheet at 480 px: 45 were refused outright, 3 were passed over because they were
+the same picture as another candidate or as one the site already had, and 32
+went on to a second look at 720 px, with the recipe's lede and diet labels
+beside them and the doubtful ones zoomed. 23 were published and 9 turned down.
+
+The refusals are the usual kinds again, and the labels did most of the work.
+Cheese or sour cream covered all three photographs offered to the dairy-free egg
+white breakfast tacos, and a big dollop of both was on the dairy-free shrimp
+taco bowls. A wheat flatbread with scrambled egg and Parmesan was offered twice
+to the gluten-free egg white wraps. A pasta soup in a creamy tomato broth was
+offered to the gluten-free turkey vegetable soup. The cheesy cauliflower
+casserole's photograph looked right until it was zoomed, and its topping is
+breadcrumbs, on a gluten-free recipe whose own topping is Parmesan and almond.
+The archive's own titles refused three more: fish sauce on a vegetarian egg and
+cabbage stir-fry, brown sugar on the sheet pan salmon, and Parmesan on a
+dairy-free garlic chicken pasta. A printed recipe card was offered to the egg
+white burrito bowl, a half-eaten burger to the lettuce wrap burgers, burgers on
+buns to the bunless mushroom Swiss burger bowls, a whole roast chicken at a
+family table to the smoked paprika chicken, and two restaurant plates of chicken
+under a thick cheese sauce to the Parmesan-crusted chicken, whose own crust is
+dry.
+
+Every one of the 23 that were published was compared by the perceptual hash with
+every picture on the site, and none is within 14 bits of another. Several are
+the weakest photographs in this section, and the table says so: a soft-focus
+stuffed chicken breast with a blurred border, a cod fillet on the tilapia foil
+packets, a catering tray for the chicken cucumber cups, oatmeal in cocoa where
+the recipe has apple. They are published because each shows the dish, or its
+nearest kin, and nothing that contradicts a label, and a reader can see for
+themselves how far it differs. The 23 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Savory Oatmeal with Egg and Spinach | a fried egg crusted with hemp seeds on what looks like oats in a bowl, with a drizzle of sauce; no spinach shows, and the recipe finishes the egg with Parmesan |
+| Flaxseed Muffins | two brown muffins with pieces of peach, close up; the archive title says molasses, and the recipe has cinnamon and walnuts and no peach |
+| Chopped Mexican Salad with Lime | chopped lettuce with radish slices, corn and dark pieces that look like black beans or olives, in a white dish; the recipe has romaine, tomato, cucumber, pepper and avocado and no radish |
+| Crab-Stuffed Avocados | two avocado halves filled with a pink-beige crab salad, with mint leaves around them and a slice of bread behind; the recipe is the avocado and its filling alone |
+| Spinach and Feta Stuffed Chicken Breast | a stuffed breast with spinach showing at the cut end, beside glazed fruit and mushrooms on rice or quinoa; a soft-focus picture with a blurred border |
+| Cauliflower Shepherd's Pie | a pie under a browned layer of grated cheese, with a salad bowl and a branded pudding cup on the tray; the archive calls it a cowboy pie, and the recipe's mash has no cheese |
+| Cod with Tomatoes and Olives | a white cod fillet under a bright green herb sauce on a salad of chopped fresh tomato and olives; the recipe simmers the fish in a thick cooked tomato sauce and has no green sauce |
+| Shirataki Noodle Stir-Fry | thin noodles stir-fried with carrot, mushroom and peas and a few pale slices, in a white bowl; no tofu or pak choi can be picked out |
+| Baked Tofu Cubes | golden fried tofu cubes, one held in chopsticks, on a bed of pickled cabbage; there is no glaze, and the recipe bakes the cubes and tosses them in soy, ginger and garlic |
+| Greek Yogurt Ranch Dip | a creamy white dip in a hollowed red pepper, with carrot, cucumber and pepper sticks around it; no herbs can be seen in the dip |
+| Black Bean Breakfast Tostadas | two tostadas under sprouts, salsa, avocado, black olives and sour cream on a blue plate; there is no fried egg or queso fresco, and the black beans are out of sight |
+| Turkey Avocado Wrap | a wrap cut in half on paper, showing turkey, avocado, spinach and what look like strips of bacon, with whole-grain chips beside it; the recipe has tomato, lettuce and mustard and no bacon |
+| Sheet Pan Salmon and Asparagus | a close-up of a seared salmon fillet with thyme leaves and a little asparagus blurred behind it; the recipe roasts the fish on a tray with tomatoes and a paprika rub |
+| Eggplant Lasagna Roll-Ups | one roll under tomato sauce and basil with a white cheese filling showing; no spinach shows and there is no browned mozzarella on top |
+| Poached Chicken Breast | sliced poached chicken on spinach and broccolini with almonds, and the blogger's caption in the corner; the recipe is the chicken alone |
+| Air Fryer Mushrooms | sliced mushrooms cooked dark in a white bowl on a hob, in poor light; the recipe halves them and cooks them in an air fryer |
+| Egg White Oatmeal | a bowl of cocoa-coloured oatmeal under sliced banana; the recipe is oats with apple and cinnamon |
+| Chicken Cucumber Cups | a catering tray of dozens of small cucumber cups filled with a corn and pepper salad, with chafing dishes behind; the recipe is thicker rounds filled with chicken, yogurt, dill and red onion |
+| Turkey Vegetable Soup | a floral soup plate of turkey and rice stew with corn, carrot and celery; the recipe has cabbage and no corn |
+| Garlic Beef Stir-Fry | strips of beef with pak choi and ginger matchsticks in a white bowl with chopsticks; the recipe has green beans and sliced garlic |
+| Flounder with Lemon Butter | a whole pan-roasted flatfish with scored dark skin, a lemon wedge and chopped herbs, with a salad behind it; the recipe is thin fillets |
+| Tilapia Foil Packets | a white fish fillet on carrot and leek strips in an opened foil packet, with herbs and zest; the archive title says cod, and the recipe has tilapia with zucchini, red pepper and lemon |
+| Baked Tofu with Garlic and Ginger | golden tofu cubes in a crumb coating under a sticky glaze with spring onion and fried shallot; the recipe is slabs of tofu baked under a glaze |
+
+By licence these 23 are 1 CC0 or public domain, 16 CC BY and 6 CC BY-SA, and
+they come from Flickr (22) and Wikimedia (1).
+
+That leaves 82 of the 300 recipes on a gradient card. For these the searches
+found either nothing or something else: a restaurant dish with a bun, a
+breadcrumb coating, a cheese sauce or cream. A photograph of the dish cooked
+from the recipe, taken by whoever cooks it, would be the first that could be
+compared with it.
+
+### Judgement calls
+
+- The Weight-Loss Friendly label has no sodium limit, because its rule is about
+  calories and how filling a serving is, and seven of the hundred carry more
+  than 700 mg: the egg white breakfast wrap (920), the turkey avocado wrap
+  (910), the spinach and white bean soup (830), the stuffed sweet potatoes
+  (790), the Mexican cauliflower rice bowls (780), the Greek chicken pitas (740)
+  and the hearty chicken and kale soup (710). That is above the
+  Diabetes-Friendly sodium ceiling of 700 mg, and the page prints the figure. If
+  the label should also carry a sodium line, these seven are the ones that move.
+- The kidney volume's protein floor is 20 g a meal and 12 g for an appetizer,
+  and three appetizers sit under 20 g: the chicken cucumber cups (14 g), the
+  shrimp lettuce cups (16 g) and the tuna cucumber boats (19 g). The egg white
+  and tofu dishes serve two or three, so a reader who wants a four-portion pan
+  has to scale them.
+- Three titles say sugar-free: the cheesecake, the chocolate pudding and the
+  raspberry lemonade. They are the names people look for, and they mean no added
+  sugar: the page prints their sugar (3 g, 6 g and 2 g a serving, from the cream
+  cheese, milk and fruit in them) and says they are sweetened with erythritol.
+  The tag above is deliberately not called Sugar-Free, and these three titles
+  are the first place the owner might want the same care.
+- Several families share a technique and some of their steps: five fried rices
+  (egg white, chicken, pork, beef and shrimp), fifteen stir-fries, eight
+  skewers, eight air-fryer dishes, four foil or paper parcels and two francese
+  dishes (chicken in volume thirty-two and flounder in thirty-four). The
+  chicken, pork, beef and shrimp fried rices have the same vegetables, rice, egg
+  white and seasoning in the same quantities and differ in the protein. They
+  pass the duplicates audit, and each is something people look for by name, but
+  a reader will see the pattern, and those four are the first to merge, into one
+  rice with a choice of protein, if fewer pages are wanted.
+- Waits under an hour (a marinade, a coating that sits) stay out of the headline
+  time, as on every page of the site: the lemongrass chicken and the miso cod
+  each wait 20 minutes, for example. Waits of an hour or more are declared in
+  `rest`, and seven recipes carry one: the moong dal chilla (soaking), the
+  marinated vegetable salad, the sugar-free cheesecake (cooling and chilling),
+  the frozen yogurt bark, the crustless pumpkin pie, the frozen yogurt pops and
+  the frozen chocolate banana bites.
+
+### What has not been done
+
+No recipe here has been cooked, and the audits are not a stove. As CLAUDE.md
+puts it, recipes drafted by an AI session have not been cooked by anyone, and
+these were drafted by one. The figures are the calculator's, from a food table
+written from memory of standard composition data, good to about 10 per cent, and
+the potassium and phosphorus columns to a little worse. A brand of tinned
+tomatoes, stock or tofu can move any of them, and the calculator cannot see an
+additive. No dietitian, doctor or kidney care team has read the limits or the
+recipes: the limits are conservative choices and not guidance from any body, and
+each page says its figures are not medical advice. The recipes most likely to
+need a second try are the ones whose structure comes from an unusual base: the
+almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
+tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
+
+82 of the 300 recipes are on a gradient card. `npm run images` will try them
+again (it does not offer a page that has been refused) and
+`tools/wide_search.py` reads the Wikipedia article and the Commons category for
+a dish in full, and neither publishes anything until a person has looked. Every
+one of the 218 photographs was looked at before it was published, the first 94
+twice, and what contradicted its label has been withdrawn, but none has been
+compared with the finished dish, and a reader may still find one that is not
+quite right.
+
+The prose follows the voice rules (`npm run voice -- --strict` passes), but the
+three volumes were written to one brief and share a shape: a why of two to four
+paragraphs, a few tips, steps of a few sentences. The humanize pipeline (section
+6 of CLAUDE.md) needs the owner's key and has not been run on them. The Common
+Substitutions and FAQ blocks are generated from each recipe's data and are
+templated by design.
+
+Two things on the site itself matter more now than before, and neither was
+changed, because both are the owner's call (CLAUDE.md section 8). Every recipe
+page's byline reads "Written and tested by", and the About page says the recipes
+were cooked in an ordinary kitchen and counts "Tested recipes": that is not true
+of these 300, and it now sits beside labels such as Diabetes-Friendly, where a
+reader is likelier to take it at its word. And `datePublished` is the synthetic
+date derived from a recipe's place in the catalogue, so these three volumes
+carry publication dates from August 2011 to April 2013, years before the day
+they were written, 7 October 2026. CLAUDE.md section 8 sets out the options for
+both, and recommends rewording the byline to what is true.
+
+Search data was not used anywhere, so "famous" is a judgement. If the owner has
+Search Console or keyword-tool figures for the United States and Canada, the
+first use of them is to reorder these three volumes and to say which of the
+sixty names left out deserve a page.
+
+## The prose was not robotic, the page was
+
+A review for the sameness that reads as mass-produced looked for the usual tells
+and mostly did not find them. Measured with `npm run voice` when it was first
+run, on 2,415 recipes: none of the stock clichés ("elevate your", "symphony of",
+"delve into", "nestled", "testament to", "game-changer", "culinary journey")
+anywhere in the catalogue, no claim of personal experience, and 2,351 different
+openings for 2,415 ledes. Ten recipes did carry something from the wider family:
+"melt-in-the-mouth" in four, "the secret ingredient", "bursts of flavour",
+"comfort in a bowl", and three stray uses of "my" or "we" ("to my mind, better",
+"the version we know today"). They were reworded, and the check now fails on any
+more.
+
+What was the same everywhere was the shape. Every "why" text was a single
+paragraph, four in five had no sentence of eight words or fewer, every recipe
+had exactly three tips, and every page carried the same nine headings in the
+same order, so a reader or a reviewer who opened two pages in a row read one
+template twice.
+
+What changed:
+
+- **`src/lib/voice.js`** holds the rules once: the banned phrases, ten ways a
+  recipe may open (assigned from the slug, so the variety is built in rather
+  than hoped for), the first-person detector, and the measures of rhythm.
+  `tools/voice-audit.js` reports on the catalogue and `npm run check` runs it
+  with `--strict`, so a banned phrase or a claim of personal experience fails
+  the build. The rule lists in `CLAUDE.md` are generated from the same file.
+- **Six page layouts** (`src/lib/layouts.js`) in place of one. Each has its own
+  section order, its own way of showing the "why" text, the tips and the
+  serving suggestions, and its own pool of heading wordings, chosen from a hash
+  of the slug. The most common full set of headings is now on three pages out of
+  2,415; before, it was on all of them. The ingredients card, `id="method"`,
+  `id="faq"` and the dish's name in the method heading do not move.
+- **`**bold**`** is allowed in the "why" text and the tips. The page shows it as
+  `<strong>`; the structured data, the FAQ answers, the feeds and the audits
+  read the plain copy, so the words on the page and the words in the schema stay
+  the same words.
+- **`tools/humanize.js`** rewrites prose through the Anthropic API in batches of
+  30 to 50, with a limiter that honours `Retry-After` and pauses every worker,
+  exponential back-off on 5xx and network errors, a resumable run, an error log
+  and a live progress line. What it writes goes to `src/data/rewrites/`, laid
+  over the recipes at load time, and never into the detail files. Before an
+  answer is accepted `src/lib/rewrite-check.js` holds it to the recipe's own
+  facts (every number, year and name already in the recipe; no storage method or
+  diet claim added or dropped) and to the voice rules; a rejected answer is sent
+  back with its problems, and one that still fails leaves the recipe as it was.
+  The repo's own audits run over the result afterwards and take back anything
+  they reject. `tools/backup.js` snapshots `src/data` first. No API key was
+  available when it was written, so `tools/humanize-selftest.js` tests it against
+  a fake server that misbehaves the way the real one does: 429s with
+  `Retry-After`, 529s, 500s, dropped connections, hangs, answers that break the
+  rules, a rejected key and an empty balance.
+
+Two things that were asked for were not built. The first was spreading the
+publication dates over the past three years, with random gaps and random times.
+This repository's history is three weeks long, a publication date is a statement
+to a reader and to Google about when something was published, and a date chosen
+to look organic is a statement that is not true. The second was adding
+first-person experience to the recipes, the kind that "sounds like a human made
+mistakes in the kitchen". Practical second-person advice ("if your oven runs
+hot, check at 12 minutes") is true of ovens and needs no one to have stood at
+this one, and that is what the rules ask for. A claim that the writer burned the
+first batch is a claim that no one did.
+
+What the review did turn up is in `CLAUDE.md`, sections 7 and 8, for the owner
+to decide: the build already derives a `datePublished` for every recipe, counted
+back from July 2026 to 2013, before this repository existed, and the About page
+and every recipe's byline say that each recipe was cooked and tested by its
+author. Neither was changed.
 
 ## The ingredients came after the method
 
@@ -3123,7 +4593,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **678 of the 2415 recipes** declare unattended
+The larger problem was waiting. **685 of the 2715 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -3452,6 +4922,21 @@ because `getElementById` returns a single node and two copies of the snippet
 in one page leave the second slot empty forever. All of them load before the
 closing body tag; a third-party script in `<head>` fails the check.
 
+### Where the units load from
+
+All three units, the social bar, the native banner and the 300x250 banner, are
+the anti-adblock tags from the Adsterra dashboard and load from
+`disembroildisembroildissipatespots.com`. Adsterra issues those under addresses
+it changes to get past content blockers, so the address is the one thing here
+that can go stale. It is written in three places, all in `src/data/ads.js`; the
+build puts them into every page and into the two frame documents, and
+`npm run check` reads them from the same file, so a rotated address is a
+three-line edit and one rebuild. The unit keys did not change when the host did.
+
+The privacy page used to say that any content blocker stops the ads. With these
+tags that stopped being true, so it now says a blocker may stop them and may
+not, and its "last updated" date moved with the wording.
+
 ### The 300x250 banner is framed too, for two different reasons
 
 It is a different format from the native banners and it cannot be pasted
@@ -3494,7 +4979,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 2415 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 2715 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

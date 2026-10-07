@@ -146,7 +146,7 @@ module.exports = {
   'alfajores': {
     rest: [60, 'chilling'],
     d: 'Two cornflour-heavy shortbread biscuits sandwiching dulce de leche and rolled in desiccated coconut. Argentinian and Peruvian in equal measure, and they dissolve on the tongue rather than crumbling.',
-    meta: 'Alfajores — melt-in-the-mouth cornflour biscuits sandwiched with dulce de leche and rolled in coconut.',
+    meta: 'Alfajores — tender cornflour biscuits sandwiched with dulce de leche and rolled in coconut.',
     kw: ['alfajores recipe', 'dulce de leche cookies', 'argentinian biscuits', 'maizena alfajores'],
     why: 'Roughly half the flour is replaced with cornflour, which has no gluten at all, so the biscuits have almost no structure and simply dissolve. That also makes the dough fragile, which is why it must be chilled hard before cutting and handled as little as possible.',
     ing: [

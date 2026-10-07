@@ -14,8 +14,10 @@ const path = require('path');
 const DIST = path.join(__dirname, '..');
 
 /* The site is generated into the repo root, so the audit must skip the
-   project's own directories rather than walking source and node_modules. */
-const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools']);
+   project's own directories rather than walking source and node_modules.
+   backups/, logs/ and .humanize/ are local working files from tools/backup.js
+   and tools/humanize.js: copies of source data, never pages. */
+const SKIP = new Set(['.git', '.github', 'node_modules', 'src', 'tools', 'backups', 'logs', '.humanize']);
 const { MAX_TITLE, MIN_DESCRIPTION, MAX_DESCRIPTION } = require('../src/lib/seo');
 
 /**
@@ -65,6 +67,12 @@ function resolveHref(href) {
 
 /* Schema strings, flattened the same way, so the two are comparable. */
 const flatten = s => String(s).replace(/\s+/g, ' ').trim();
+const REVIEWS = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'data', 'reviews.json'), 'utf8'));
+
+/* Collected while the pages are read, checked once all of them have been:
+   a #fragment is only a link if something on its target page carries that id. */
+const pageIds = new Map();
+const fragmentLinks = [];
 
 for (const file of htmlFiles) {
   const rel = '/' + path.relative(DIST, file).split(path.sep).join('/');
@@ -147,6 +155,74 @@ for (const file of htmlFiles) {
     const target = resolveHref(href);
     if (!existing.has(target)) problems.push(`${rel}: broken link -> ${href}`);
   }
+
+  /* --- links that downgrade or leave nothing behind --------------------- */
+  /* The licence deeds were linked as http://creativecommons.org/... from every
+     photographed recipe, which a crawler reports as insecure content and a
+     visitor on https is sent through a redirect for. An external link on this
+     site is https, or it does not ship. */
+  for (const match of html.matchAll(/\b(?:href|src|action)="(http:\/\/[^"]+)"/g)) {
+    problems.push(`${rel}: insecure link on an https site -> ${match[1]}`);
+  }
+  for (const match of html.matchAll(/<a\b([^>]*)>/g)) {
+    if (/\btarget="_blank"/.test(match[1]) && !/\brel="[^"]*\bnoopener\b/.test(match[1])) {
+      problems.push(`${rel}: target=_blank link without rel=noopener`);
+    }
+  }
+  /* --- a rating nobody gave ------------------------------------------------
+     The home page's hero printed "4.8 Average rating" from a number typed into
+     the template, three weeks after the catalogue's invented ratings were
+     removed and tools/seo-audit.js was taught to catch an aggregateRating with
+     no review behind it. That audit reads structured data, not visible text, so
+     this reads the text: while src/data/reviews.json is empty no page may claim
+     an average rating. */
+  if (!Object.keys(REVIEWS).length && /average\s+rating/i.test(html)) {
+    problems.push(`${rel}: claims an "average rating" while src/data/reviews.json holds no review`);
+  }
+  /* --- rankings nobody measured ---------------------------------------------
+     The catalogue's rating and review counts are ordering weights typed into the
+     rows, not readers' behaviour (CLAUDE.md, section 3), and the site keeps no
+     analytics of what is cooked, saved or printed. The home page said its
+     "Trending Now" section was "ranked by what readers are actually saving and
+     printing right now", the category pages said "ranked by what readers cook
+     most", the sort menu offered "Most popular" and the home page a "Top rated"
+     button. Same family as the average rating above: a claim about readers the
+     site has no readers' data to back. Lists may be in an order; they may not
+     say who chose it. */
+  if (!Object.keys(REVIEWS).length) {
+    for (const [pattern, what] of [
+      [/what readers cook most/i, '"ranked by what readers cook most"'],
+      [/readers are actually saving/i, '"ranked by what readers are saving and printing"'],
+      [/what everyone is cooking/i, '"what everyone is cooking this week"'],
+      [/Trending Now/, 'a "Trending Now" section'],
+      [/badge--brass">Trending</, 'a "Trending" badge'],
+      [/>Top rated</, 'a "Top rated" link'],
+      [/>Highest rated</, 'a "Highest rated" sort'],
+      [/>Most popular</, 'a "Most popular" sort']
+    ]) {
+      if (pattern.test(html)) problems.push(`${rel}: ${what} while src/data/reviews.json holds no review and nothing measures what readers do`);
+    }
+  }
+
+  /* --- a template that printed a missing value ------------------------- */
+  /* The privacy page, the ingredients index and the contact confirmation were
+     built with <style>undefined</style> because their layout() call never
+     passed the critical CSS. A value that is not there prints as a word, and
+     nothing else on this list notices. */
+  for (const match of html.matchAll(/(?:>|="|<style>)\s*(undefined|null|NaN|\[object Object\])\s*(?:<|")/g)) {
+    problems.push(`${rel}: a template printed "${match[1]}" where a value should be`);
+  }
+
+  /* --- the directory pages page their results --------------------------- */
+  /* The recipes and search pages painted all 2,400 cards at once, about 90,000
+     nodes, which a phone took ten seconds to lay out. src/assets/js/directory.js
+     now shows sixty and brings in the next sixty from a button it finds by id,
+     so a page that carries data-directory must carry that button. */
+  if (/\bdata-directory="/.test(html) && !(/\bid="load-more"/.test(html) && /\bid="show-more"/.test(html))) {
+    problems.push(`${rel}: a directory page without the #load-more / #show-more control directory.js pages with`);
+  }
+  pageIds.set(rel, new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1])));
+  for (const match of html.matchAll(/\bhref="([^"]*#[^"]+)"/g)) fragmentLinks.push({ rel, href: match[1] });
 
   /* --- images need alt text ------------------------------------------- */
   for (const match of html.matchAll(/<img\b([^>]*)>/g)) {
@@ -304,6 +380,20 @@ for (const file of htmlFiles) {
   }
 }
 
+/* --- #fragments land on something ----------------------------------------- */
+for (const { rel, href } of fragmentLinks) {
+  if (/^(https?:|mailto:|tel:|javascript:)/.test(href)) continue;
+  const at = href.indexOf('#');
+  const pathPart = href.slice(0, at);
+  const fragment = href.slice(at + 1);
+  const target = pathPart ? resolveHref(pathPart) : rel;
+  const ids = pageIds.get(target);
+  if (!ids) continue;                       // a link to a non-page is reported above
+  let id = fragment;
+  try { id = decodeURIComponent(fragment); } catch (e) { /* keep it as written */ }
+  if (!ids.has(fragment) && !ids.has(id)) problems.push(`${rel}: link to #${fragment} but ${target} has no such id`);
+}
+
 /* --- site plumbing ------------------------------------------------------ */
 for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
@@ -405,6 +495,62 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
       problems.push(`image file no entry in images.json points at — `
         + `${path.relative(path.join(__dirname, '..'), path.join(dir, file))}`);
     }
+  }
+}
+
+/* --- an attribution licence names the person it is attributing -------------
+   CC BY and CC BY-SA ask for one thing, the creator's credit, and the credit
+   line is where this site pays it. Fifteen images carried "Unknown" because
+   the archive's machine-readable author field was empty, though the file's own
+   description page named the photographer (Stu Spivack on four, Justinc, Neitram
+   and the uploader of the self-made ones). They were looked up and entered, and
+   a new one without a name fails here so that somebody reads the description
+   page instead of publishing the blank. */
+{
+  const { isIllustration } = require('../src/lib/util');
+  for (const [slug, entry] of Object.entries(manifest)) {
+    for (const kind of ['hero', 'process']) {
+      const img = entry && entry[kind];
+      if (!img || isIllustration(img) || !/^CC BY/.test(img.licence || '')) continue;
+      if (!img.author || /^unknown$/i.test(img.author.trim())) {
+        problems.push(`src/data/images.json: ${slug} (${kind}) is ${img.licence} but names no author `
+          + `— read ${img.page} and enter the creator`);
+      }
+    }
+  }
+}
+
+/* --- one photograph, one dish --------------------------------------------
+   tools/fetch_images.py gives an archive page to every recipe whose name it
+   matches best, so two recipes can end up with the same picture. For two names
+   of one dish that is fine. For two dishes it is a wrong picture on one of
+   them: nasi goreng carried a plate of red kimchi fried rice for as long as
+   kimchi fried rice did, and chicken tacos carried the beef ones. A page may be
+   shared only by the recipes in one of these sets, which are the same dish
+   listed under two names, or one photograph that shows both; anything else
+   needs its own photograph, or none. */
+{
+  const { isIllustration } = require('../src/lib/util');
+  const MAY_SHARE = [
+    ['rogan-josh', 'lamb-rogan-josh'],
+    ['katsu-curry', 'chicken-katsu-curry'],
+    ['knafeh', 'knafeh-nabulsi'],
+    ['naan', 'garlic-naan'],
+    ['breakfast-casserole', 'sausage-casserole'],
+    ['cauliflower-rice', 'cauliflower-chicken-fried-rice'],  // a fried cauliflower rice is cauliflower rice
+  ];
+  const byPage = new Map();
+  for (const [slug, entry] of Object.entries(manifest)) {
+    const hero = entry && entry.hero;
+    if (!hero || !hero.page || isIllustration(hero)) continue;
+    if (!byPage.has(hero.page)) byPage.set(hero.page, []);
+    byPage.get(hero.page).push(slug);
+  }
+  for (const [page, slugs] of byPage) {
+    if (slugs.length < 2) continue;
+    if (MAY_SHARE.some(set => slugs.every(s => set.includes(s)))) continue;
+    problems.push(`${slugs.join(' and ')} show one photograph (${page}) — they are different dishes, `
+      + 'so one of them has the wrong picture; give each its own, or leave one on the gradient card');
   }
 }
 
@@ -727,6 +873,99 @@ if (!vercelCsp) {
   }
 }
 
+/* --- text stays readable --------------------------------------------------
+   An accessibility run (axe-core, in light and dark, at phone and desktop width)
+   found the site's own palette short of WCAG AA in four places: the ad label at
+   2.98:1, terracotta text on the tinted bands at 3.9 to 4.2, the footer's small
+   print at 4.39 and the white text on the dark theme's lighter accent at 2.69.
+   Nothing else here reads a colour, so the pairs that carry text are measured
+   from the tokens in critical.css. 4.5:1 is the floor for text this size. */
+{
+  const srcDir = path.join(__dirname, '..', 'src', 'assets', 'css');
+  const critical = fs.readFileSync(path.join(srcDir, 'critical.css'), 'utf8');
+  const main = fs.readFileSync(path.join(srcDir, 'main.css'), 'utf8');
+  const tokens = body => Object.fromEntries(
+    [...body.matchAll(/--([\w-]+)\s*:\s*([^;]+);/g)].map(m => [m[1], m[2].trim()]));
+  const light = tokens((critical.match(/:root\s*\{([\s\S]*?)\n\}/) || [, ''])[1]);
+  const dark = { ...light, ...tokens((critical.match(/\[data-theme="dark"\]\s*\{([\s\S]*?)\n\}/) || [, ''])[1]) };
+  const resolve = (set, name, depth = 0) => {
+    let value = set[name];
+    while (value && /^var\(--[\w-]+\)$/.test(value) && depth++ < 8) value = set[value.slice(6, -1)];
+    return value;
+  };
+  const rgb = hex => {
+    const h = String(hex).replace('#', '');
+    if (!/^([0-9a-f]{3}|[0-9a-f]{6})$/i.test(h)) return null;
+    const full = h.length === 3 ? h.split('').map(c => c + c).join('') : h;
+    return [0, 2, 4].map(i => parseInt(full.slice(i, i + 2), 16) / 255);
+  };
+  const luminance = c => {
+    const [r, g, b] = c.map(v => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  };
+  const ratio = (a, b) => {
+    const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x);
+    return (hi + 0.05) / (lo + 0.05);
+  };
+  const pairs = [
+    ['text', 'bg'], ['text', 'bg-raised'], ['text', 'bg-sunken'], ['text', 'accent-soft'],
+    ['text-soft', 'bg'], ['text-soft', 'bg-raised'], ['text-soft', 'bg-sunken'],
+    ['accent', 'bg'], ['accent', 'bg-raised'], ['accent', 'bg-sunken'], ['accent', 'accent-soft'],
+    ['on-accent', 'accent'], ['on-accent', 'accent-hover'],
+    ['ink-text', 'ink-bg'], ['ink-soft', 'ink-bg'], ['highlight', 'ink-bg']
+  ];
+  for (const [theme, set] of [['light', light], ['dark', dark]]) {
+    for (const [fg, bg] of pairs) {
+      const a = rgb(resolve(set, fg));
+      const b = rgb(resolve(set, bg));
+      if (!a || !b) { problems.push(`src/assets/css/critical.css: text contrast: cannot read --${fg} or --${bg} in the ${theme} theme`); continue; }
+      const r = ratio(a, b);
+      if (r < 4.5) problems.push(`src/assets/css/critical.css: text contrast: --${fg} on --${bg} is ${r.toFixed(2)}:1 in the ${theme} theme (needs 4.5)`);
+    }
+  }
+  /* The footer is dark in both themes and its greys are written out in main.css
+     rather than taken from a token. */
+  const footerRule = selector => {
+    const m = main.match(new RegExp(selector.replace(/[.[\]]/g, '\\$&') + '\\s*\\{[^}]*?[^-]color:\\s*(#[0-9a-fA-F]{3,6})'));
+    return m && m[1];
+  };
+  for (const [selector, label] of [['.site-footer a', 'footer links'], ['.site-footer p', 'footer text'], ['.footer-bottom', 'footer small print']]) {
+    const colour = footerRule(selector);
+    if (!colour) { problems.push(`src/assets/css/main.css: text contrast: cannot read the colour of ${label} (${selector})`); continue; }
+    for (const [theme, ground] of [['light', resolve(light, 'charcoal')], ['dark', resolve(dark, 'bg-sunken')]]) {
+      const r = ratio(rgb(colour), rgb(ground));
+      if (r < 4.5) problems.push(`src/assets/css/main.css: text contrast: ${label} (${colour}) on the ${theme} theme's footer is ${r.toFixed(2)}:1 (needs 4.5)`);
+    }
+  }
+}
+
+/* --- cards painted by script say "Not yet rated" too ---------------------- */
+/* src/lib/util.js prints it for a recipe nobody has rated, because "0.0" beside
+   five empty stars says readers disliked it. directory.js paints the cards on
+   the recipes, search and favourites pages itself, and printed "0.0" on all
+   2,415 of them until it was given the same rule. */
+if (!fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8').includes('stars--unrated')) {
+  problems.push('src/assets/js/directory.js: prints "0.0" for a recipe nobody has rated (no stars--unrated)');
+}
+
+/* --- the menu breakpoint is one number in two files ---------------------- */
+/* main.css folds the links into the menu button at a width, and app.js stops
+   opening the dropdown panels on hover at the same width. They were both 860
+   until the header was found to be wider than a 1024px tablet; the two drifting
+   apart would leave a panel that opens on hover inside a menu that is already
+   open, or one that cannot be opened at all. */
+{
+  const css = fs.readFileSync(path.join(DIST, 'src', 'assets', 'css', 'main.css'), 'utf8');
+  const js = fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'app.js'), 'utf8');
+  const fold = /@media \(max-width: (\d+)px\) \{\s*\.nav-toggle \{ display: grid; \}/.exec(css);
+  const hover = [...js.matchAll(/window\.innerWidth > (\d+)/g)].map(m => Number(m[1]));
+  if (!fold) {
+    problems.push('src/assets/css/main.css: cannot find the media query that turns the menu button on');
+  } else if (!hover.length || hover.some(n => n !== Number(fold[1]))) {
+    problems.push(`src/assets/js/app.js: hover opens the dropdown above ${hover.join('/') || '(nothing)'}px but main.css folds the links into the menu at ${fold[1]}px`);
+  }
+}
+
 /* --- diet claims --------------------------------------------------------- */
 /* Every tag now, not just Gluten-Free. These are the claims a reader cannot
    check for themselves — someone coeliac or vegan is trusting the label over the
@@ -751,11 +990,20 @@ try {
 /* seo-audit reads the built pages as a set rather than one at a time: two
    pages sharing a title, a page nothing links to, a sitemap that has drifted
    from the routes. None of those is visible from inside a single file. */
+/* The house voice sits in the same list for the same reason: a banned phrase or
+   a first-person claim is invisible once a recipe is written and obvious to a
+   reader, so it fails the check instead of waiting to be noticed. --check-docs
+   keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
+/* The health labels (Diabetes-Friendly, Weight-Loss Friendly, Kidney-Friendly) are claims about the
+   numbers a reader plans a meal around, so they sit in the same list: a tagged recipe outside its
+   limits, or one whose nutrition its own ingredients do not reproduce, fails the build. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
-                     'substitutions-audit.js', 'duplicates-audit.js']) {
+                     'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
+                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
+  const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,
-      [require('path').join(__dirname, audit)], { stdio: 'pipe' });
+      [require('path').join(__dirname, script), ...args], { stdio: 'pipe' });
   } catch (err) {
     for (const line of String(err.stdout || '').split('\n')) {
       if (line.trim().startsWith('✗')) problems.push(line.replace(/^\s*✗\s*/, ''));
@@ -793,7 +1041,7 @@ if (warnings.length) {
 
 if (problems.length) {
   console.log(`FAILURES (${problems.length}):`);
-  for (const [text, n] of dedupe(problems).slice(0, 20)) console.log(`  ✗ ${text}${n > 1 ? `  (x${n})` : ''}`);
+  for (const [text, n] of dedupe(problems).slice(0, Number(process.env.CHECK_MAX || 20))) console.log(`  ✗ ${text}${n > 1 ? `  (x${n})` : ''}`);
   process.exit(1);
 }
 
