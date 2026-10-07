@@ -1,7 +1,7 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2830
-photographs, **1177** are CC0 or public domain and carry no conditions at all, and
+Every photograph on Weekly Delight is freely licensed. Of 2831
+photographs, **1178** are CC0 or public domain and carry no conditions at all, and
 **1653** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
@@ -179,11 +179,11 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2715 |
-| Hero photographs | 2346 |
+| Hero photographs | 2347 |
 | Secondary "process" photographs | 484 |
 | Generated illustrations | 111 |
-| Total image files | 5882 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 258 |
+| Total image files | 5884 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 257 |
 
 ### Licences used
 
@@ -194,7 +194,7 @@ wrong dish were deleted rather than kept.
 | CC BY-SA 4.0 | 376 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 340 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 263 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 169 | No rights reserved — no attribution legally required |
+| Public domain | 170 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 165 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 77 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 48 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -383,7 +383,6 @@ and no usable illustration of them could be drawn either:
 - Portobello Tacos (`portobello-tacos`)
 - Shrimp Taco Bowls (`shrimp-taco-bowls`)
 - Turkey Pinwheels (`turkey-pinwheels`)
-- Coctel de Camarones (`coctel-de-camarones`)
 - Turkey Sausage and Vegetable Skillet (`turkey-sausage-and-vegetable-skillet`)
 - Cajun Chicken and Cabbage Skillet (`cajun-chicken-and-cabbage-skillet`)
 - Shrimp Foil Packets (`shrimp-foil-packets`)
@@ -2347,7 +2346,7 @@ licence as the rest of this project.
 | `nanaimo-bars.webp` / `.jpg` | Nanaimo Bars | Hero | Nanaimo Bars, mmmmmm | crestedcrazy | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/20026379@N00/313388326) |
 | `tourtiere.webp` / `.jpg` | Tourtière | Hero | Tourtiere Fin (image of Tourtière on Wikidata Q3535569) | Dominic Genest | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tourtiere_Fin.jpg) |
 | `roasted-root-vegetables.webp` / `.jpg` | Roasted Root Vegetables | Hero | Roasted Root Vegetables | Laurel Fan | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/18295242@N00/3986882777) |
-| `prawn-cocktail.webp` / `.jpg` | Prawn Cocktail | Hero | 84740 4733 Jpg (263719719) | Andreas Hirsch | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:84740_4733_Jpg_(263719719).jpeg) |
+| `prawn-cocktail.webp` / `.jpg` | Prawn Cocktail | Hero | Cocktail 1 bg 060702 (image of prawn cocktail on Wikidata Q3776982) | Unknown | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cocktail_1_bg_060702.jpg) |
 | `prawn-cocktail-process.webp` / `.jpg` | Prawn Cocktail | Process | El Dorado Kitchen - December 2025 - Sarah Stierch 02 | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:El_Dorado_Kitchen_-_December_2025_-_Sarah_Stierch_02.jpg) |
 | `beef-and-barley-soup.webp` / `.jpg` | Beef and Barley Soup | Hero | Mmm... beef barley soup | jeffreyw | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/7927684@N03/15439896429) |
 | `damper.webp` / `.jpg` | Damper | Hero | Wattleseed Damper (cropped) | Finbar.concaig | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wattleseed_Damper_(cropped).jpg) |
@@ -3279,6 +3278,7 @@ licence as the rest of this project.
 | `roasted-cauliflower-tacos.webp` / `.jpg` | Roasted Cauliflower Tacos | Hero | Cauliflower tostada, avocado, cashew salsa (26907676833) | T.Tseng | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cauliflower_tostada,_avocado,_cashew_salsa_(26907676833).jpg) |
 | `greek-chicken-pitas.webp` / `.jpg` | Greek Chicken Pitas | Hero | chicken pita | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5952239/free-public-domain-cc0-photo) |
 | `mushroom-lettuce-cups.webp` / `.jpg` | Mushroom Lettuce Cups | Hero | Stir Fried Mushrooms and Tofu in Lettuce Cups | Crystl | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/10953991@N00/128001320) |
+| `coctel-de-camarones.webp` / `.jpg` | Coctel de Camarones | Hero | 84740 4733 Jpg (263719719) | Andreas Hirsch | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:84740_4733_Jpg_(263719719).jpeg) |
 | `tuna-stuffed-tomatoes.webp` / `.jpg` | Tuna Stuffed Tomatoes | Hero | Stuffed Tomato with Tuna | larryjh1234 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/83886716@N00/4169110419) |
 | `baked-turkey-meatballs.webp` / `.jpg` | Baked Turkey Meatballs | Hero | Penne and turkey meatballs - Jan 2022 - Sarah Stierch | Missvain | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Penne_and_turkey_meatballs_-_Jan_2022_-_Sarah_Stierch.jpg) |
 | `tuna-burgers.webp` / `.jpg` | Tuna Burgers | Hero | Dougs Burger tuna steak burger Miyakojima | KQuhen | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dougs_Burger_tuna_steak_burger_Miyakojima.jpg) |

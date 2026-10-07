@@ -179,7 +179,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lemon-turkey-cutlets               Lemon Turkey Cutlets   [2 refused already]
   flounder-francese                  Flounder Francese
 
-== Mexican (18) ========================================
+== Mexican (17) ========================================
   chopped-mexican-salad-with-lime    Chopped Mexican Salad with Lime   [1 refused already]
   black-bean-and-quinoa-bowl         Black Bean and Quinoa Bowl   [2 refused already]
   slow-cooker-salsa-chicken          Slow Cooker Salsa Chicken   [2 refused already]
@@ -190,7 +190,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [2 refused already]
   portobello-tacos                   Portobello Tacos   [2 refused already]
   shrimp-taco-bowls                  Shrimp Taco Bowls   [2 refused already]
-  coctel-de-camarones                Coctel de Camarones   [1 refused already]
   mexican-cauliflower-rice-bowls     Mexican Cauliflower Rice Bowls   [2 refused already]
   chipotle-lime-chicken              Chipotle Lime Chicken   [2 refused already]
   chili-lime-shrimp                  Chili Lime Shrimp   [2 refused already]
@@ -304,4 +303,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 258 of 2715
+TOTAL 257 of 2715

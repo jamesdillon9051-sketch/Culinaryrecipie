@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5882 image files (WebP + JPEG)
+│       └── img/recipes/         # 5884 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5882 image files
+├── assets/                      #    css, js and 5884 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 245,597 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,598 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2346 of the 2715 recipes have a photograph. Of the 2830 images on the site,
-1177 are CC0 or public domain, 831 are CC BY and 822 are CC BY-SA. Anything
+2347 of the 2715 recipes have a photograph. Of the 2831 images on the site,
+1178 are CC0 or public domain, 831 are CC BY and 822 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -3342,9 +3342,9 @@ the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
 contact sheet and looked at before anything was published, which is still the
 only check that has worked. Ninety-four were published and 178 refused; a second
 look, below, withdrew fourteen more, which left 80. The rounds after it are
-under their own headings. As the data stands there are 111 photographs, 41 in
-volume thirty-two, 37 in volume thirty-three and 33 in volume thirty-four, and
-189 of the 300 recipes are on their gradient card. No illustration was
+under their own headings. As the data stands there are 112 photographs, 41 in
+volume thirty-two, 38 in volume thirty-three and 33 in volume thirty-four, and
+188 of the 300 recipes are on their gradient card. No illustration was
 generated: the 111 labelled drawings on the site are the same 111 as before.
 
 The 178 refusals are the usual kinds, and each archive page is recorded in
@@ -3563,6 +3563,20 @@ recipe closely enough that nothing needed listing. By licence these 31 are 12
 CC0 or public domain, 11 CC BY and 8 CC BY-SA, and they come from Flickr (14),
 Wikimedia Commons (11), Wikimedia (4) and Rawpixel (2).
 
+One more photograph came out of the second round without being a candidate. The
+picture the search offered the coctel de camarones was the page already
+published for the older prawn cocktail, and it is the coctel: a stemmed glass of
+shrimp in a tomato and lime broth with cilantro, avocado and crackers, where the
+prawn cocktail's recipe is shrimp in a Marie Rose sauce on shredded lettuce. The
+one the first round had withdrawn from the coctel, shrimp on the rim of a glass
+of shredded lettuce with red cocktail sauce and a lemon wedge, is the Wikidata
+picture of a prawn cocktail. So the two recipes now have each other's
+photograph, in a commit of their own because one of them is an older recipe.
+That file's author field reads "see below." and nothing is below it, so it is
+recorded as Unknown, and the page gives its title, its licence (public domain)
+and the archive. The check that one archive page is never the picture of two
+dishes could not see this, because each page had only ever been used once.
+
 ### Judgement calls
 
 - The Weight-Loss Friendly label has no sodium limit, because its rule is about
@@ -3616,11 +3630,11 @@ need a second try are the ones whose structure comes from an unusual base: the
 almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
 tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
 
-189 of the 300 recipes are on a gradient card. `npm run images` will try them
+188 of the 300 recipes are on a gradient card. `npm run images` will try them
 again (it does not offer a page that has been refused) and
 `tools/wide_search.py` reads the Wikipedia article and the Commons category for
 a dish in full, and neither publishes anything until a person has looked. Every
-one of the 111 photographs was looked at before it was published, the first 94
+one of the 112 photographs was looked at before it was published, the first 94
 twice, and what contradicted its label has been withdrawn, but none has been
 compared with the finished dish, and a reader may still find one that is not
 quite right.
