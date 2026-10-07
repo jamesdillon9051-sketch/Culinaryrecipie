@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5820 image files (WebP + JPEG)
+│       └── img/recipes/         # 5882 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5820 image files
+├── assets/                      #    css, js and 5882 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 245,572 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,597 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2315 of the 2715 recipes have a photograph. Of the 2799 images on the site,
-1165 are CC0 or public domain, 820 are CC BY and 814 are CC BY-SA. Anything
+2346 of the 2715 recipes have a photograph. Of the 2830 images on the site,
+1177 are CC0 or public domain, 831 are CC BY and 822 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -3337,14 +3337,15 @@ corrected, for things that no audit reads:
 ### Photographs: what was looked at, and what was kept
 
 The photographs were fetched in the background by `tools/fetch_images.py` while
-the recipes were written. 272 of the 300 recipes got a candidate and 28 got
-none. Every candidate was opened on a contact sheet and looked at before
-anything was published, which is still the only check that has worked.
-Ninety-four were published and 178 refused; a second look, below, withdrew
-fourteen more. That leaves 80 photographs, 30 in volume thirty-two, 26 in volume
-thirty-three and 24 in volume thirty-four, and 220 of the 300 recipes on their
-gradient card. No illustration was generated: the 111 labelled drawings on the
-site are the same 111 as before.
+the recipes were written, and again in later rounds. In the first round 272 of
+the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
+contact sheet and looked at before anything was published, which is still the
+only check that has worked. Ninety-four were published and 178 refused; a second
+look, below, withdrew fourteen more, which left 80. The rounds after it are
+under their own headings. As the data stands there are 111 photographs, 41 in
+volume thirty-two, 37 in volume thirty-three and 33 in volume thirty-four, and
+189 of the 300 recipes are on their gradient card. No illustration was
+generated: the 111 labelled drawings on the site are the same 111 as before.
 
 The 178 refusals are the usual kinds, and each archive page is recorded in
 `src/data/image-rejects.json` so that a later fetch does not offer it again.
@@ -3408,7 +3409,7 @@ itself, which also checks that nothing else was dropped. The build moved the
 content date of exactly these fourteen recipes and no others. CLAUDE.md now says
 how, and what to look for.
 
-### What the 80 photographs show, and where they differ from the recipe
+### What the first 80 photographs show, and where they differ from the recipe
 
 The 80 that remain are real photographs of the dish or of a close relative of
 it, from someone else's kitchen or a restaurant. None is a photograph of this
@@ -3503,6 +3504,65 @@ their credit is the title and the licence. CC BY and CC BY-SA photographs name
 their author in `src/data/images.json` and `images-attribution.md`, and `npm run
 check` fails if one does not.
 
+### The second round, and what it found
+
+The second round gave the 220 recipes still without a picture a longer search,
+90 seconds a recipe where the first round allowed 45. The fetcher does not offer
+a page that has been refused, so each recipe was offered the next candidate it
+could find: 205 of the 220 got one and 15 got none. They were looked at four to
+a sheet at 720 px a photograph, and the doubtful ones again at full size and
+zoomed, with the recipe's lede and diet labels beside them and, where a label
+was in question, the archive's own description of the file. 31 were published
+and 173 refused, by the rule above. Two were refused only on that second view: a
+tlayuda whose file description says it has chorizo, on the vegetarian black bean
+tostadas, and a flounder fillet on a bed of orzo, shrimp and sausage, on a
+gluten-free recipe.
+
+The refusals are the same kinds as in the first round, and each archive page is
+recorded in `src/data/image-rejects.json`: a tilapia tank for the baked tilapia,
+children at a school event for the baked haddock (the archive's "Haddock" is a
+person), a grape grower for the sole with grapes, wildlife staff on a beach for
+the herb-crusted cod, a bed of coleus plants for the frozen chocolate banana
+bites, empty popcorn shelves for the air-popped popcorn, and an egg white
+cocktail at a bar, which one search offered to four egg white recipes at once.
+The 31 that were published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Cauliflower Hash Browns | crisp cauliflower patties under melted cheese and thyme, close up; the recipe has Parmesan in the patties and nothing on top |
+| Greek Yogurt Pancakes | two plain pancakes on a white plate, with no blueberries |
+| Balsamic Chicken with Mushrooms | strips of chicken on carrots, onion and mushrooms; the recipe has cutlets in a balsamic and mushroom sauce and no carrots |
+| Chicken and Broccoli Stir-Fry | a restaurant plate of chicken and broccoli in a glossy orange sauce with a mound of fried rice beside it |
+| Turkey Meatloaf | a sliced meatloaf with a red glaze on a pewter platter, a studio photograph from 1994 whose description does not say what meat it is |
+| Steak with Garlic Mushroom Sauce | a grilled steak under sautéed mushrooms and whole garlic cloves on a restaurant plate, with broccoli and something fried blurred behind; the recipe has a pan sauce |
+| Poached Salmon with Cucumber Dill Sauce | a poached fillet under a pale herb sauce on a canteen-style plate, with a herb stuffing cake, mixed vegetables and a red sauce beside it |
+| Roasted Asparagus with Parmesan | plain roasted spears on a restaurant chain's plate, with no Parmesan to be seen |
+| Stuffed Portobello Mushrooms | a restaurant plate: one cap filled with spinach on a potato gratin with broccolini, fine beans, garlic sauce, capers and sun-dried tomato; the recipe fills the caps with ricotta, tomato and mozzarella |
+| Baked Zucchini Chips | long thin strips of baked zucchini, deeply browned, in a white bowl; the recipe cuts 3 mm rounds |
+| Chocolate Avocado Mousse | two glasses of mousse topped with pomegranate seeds; the recipe is served with raspberries |
+| Asparagus Frittata | a whole frittata with asparagus, roasted potato cubes and greens; the recipe has no potato |
+| Peanut Butter Banana Toast | toast with peanut butter and thick pieces of banana on a board, in a warm colour cast; no cinnamon or chia seeds in sight |
+| Collard Green Wraps | a rolled raw collard leaf with its filling out of sight, beside a fruit and nut salad |
+| Mushroom Lettuce Cups | butter lettuce leaves holding stir-fried mushrooms and cubes of tofu |
+| Tuna Burgers | a restaurant tuna steak burger on a bun with lettuce; the recipe's patties are canned tuna with no bun |
+| Cabbage Roll Skillet | ground beef, cabbage and tomato over white rice, a soft, noisy phone photograph; the recipe cooks brown rice in the pan |
+| Honey Lime Chicken Skewers | glazed chicken, cherry tomato and red onion skewers with fried plantain, baby corn and salad; the recipe skewers chicken, red pepper and onion |
+| Frozen Yogurt Pops | chocolate yogurt pops in boat-shaped moulds on a marble tray with chocolate chips; the recipe is strawberry |
+| Baked Peaches with Cinnamon | peach slices fanned in a glossy caramel syrup, which the credit says is caramel and rum; the recipe has honey, cinnamon, yogurt and almonds |
+| Egg White Fried Rice | egg fried rice with spring onion in a clear takeaway tub; no peas or carrot, and the egg may not be egg white |
+| Turkey and Noodles | a bowl of turkey noodle soup with diced turkey, carrot and thin wheat noodles; the recipe has ground turkey and flat rice noodles |
+| Garlic Pork Stir-Fry | pork strips stir-fried with carrot, celery and yellow pepper in a bowl; the recipe has cabbage and spring onion, and the archive title also names an egg and tofu dish from the same meal |
+| Beef and Cabbage Stew | a bowl of beef stew with cabbage, carrot and chunks of what looks like potato; the credit says beef and lamb |
+| Salmon Skewers | chunks of salmon on skewers over a grill, with no zucchini or onion on them |
+| Tuna Pasta Salad | penne with tuna, soft-boiled egg wedges and spring onion in a creamy dressing; the recipe has rotini with cucumber, celery and pepper in a lemon and mustard dressing |
+| Homemade Fish Sticks | restaurant fish fingers in a basket with a tartar dip and a lemon wedge; the recipe bakes cod strips in panko |
+| Sesame Greens with Tofu | crisp fried tofu cubes in a glass dish under herbs, chilli and a crunchy topping; no pak choi |
+
+The other three (sopa de lima, strawberry sorbet and tuna patties) match the
+recipe closely enough that nothing needed listing. By licence these 31 are 12
+CC0 or public domain, 11 CC BY and 8 CC BY-SA, and they come from Flickr (14),
+Wikimedia Commons (11), Wikimedia (4) and Rawpixel (2).
+
 ### Judgement calls
 
 - The Weight-Loss Friendly label has no sodium limit, because its rule is about
@@ -3556,12 +3616,14 @@ need a second try are the ones whose structure comes from an unusual base: the
 almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
 tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
 
-220 of the 300 recipes are on a gradient card. `npm run images` will try them
-again and `tools/wide_search.py` reads the Wikipedia article and the Commons
-category for a dish in full, and neither publishes anything until a person has
-looked. The 80 photographs have been looked at twice, and what contradicted its
-label has been withdrawn, but none has been compared with the finished dish, and
-a reader may still find one that is not quite right.
+189 of the 300 recipes are on a gradient card. `npm run images` will try them
+again (it does not offer a page that has been refused) and
+`tools/wide_search.py` reads the Wikipedia article and the Commons category for
+a dish in full, and neither publishes anything until a person has looked. Every
+one of the 111 photographs was looked at before it was published, the first 94
+twice, and what contradicted its label has been withdrawn, but none has been
+compared with the finished dish, and a reader may still find one that is not
+quite right.
 
 The prose follows the voice rules (`npm run voice -- --strict` passes), but the
 three volumes were written to one brief and share a shape: a why of two to four

@@ -16194,29 +16194,49 @@
     {
       "page": "https://www.flickr.com/photos/184594136@N08/50383116258",
       "why": "a sheet pan of tilapia and asparagus"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50383991247",
+      "why": "a tilapia fillet with asparagus, from the same set as the first refusal"
     }
   ],
   "denver-omelet": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Japaness_Omelette_(2).jpg",
       "why": "raw eggs being whisked in a bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Japaness_Omelette_(6).jpg",
+      "why": "a hand brushing oil into a rectangular omelette pan, no food"
     }
   ],
   "egg-stuffed-bell-peppers": [
     {
       "page": "https://www.flickr.com/photos/37922399@N05/16839585716",
       "why": "a group of people stuffing Easter eggs"
+    },
+    {
+      "page": "https://www.flickr.com/photos/11018968@N00/13321466405",
+      "why": "a mother and child painting Easter eggs"
     }
   ],
   "whole-wheat-pancakes": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Whole_wheat_grain_flour_being_scooped.jpg",
       "why": "a scoop of whole-wheat flour"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Batter_bread_bubbles.jpg",
+      "why": "the cut face of a loaf of bread"
     }
   ],
   "moong-dal-chilla": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Moong_dal_ka_halwa.jpg",
+      "why": "moong dal halwa, a sweet, not a savoury pancake"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=45864282",
       "why": "moong dal halwa, a sweet, not a savoury pancake"
     }
   ],
@@ -16224,54 +16244,90 @@
     {
       "page": "https://www.flickr.com/photos/184594136@N08/50408985733",
       "why": "the archive page is the picture of ginger-chicken-soup, a noodle soup titled for ginger"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50408986928",
+      "why": "egg noodle chicken soup, and the recipe has no noodles"
     }
   ],
   "steak-salad": [
     {
       "page": "https://www.rawpixel.com/image/6024390/photo-image-public-domain-free-veggie",
       "why": "a steak with chips and vegetables, not a salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=132332130",
+      "why": "a packaged steak salad in a plastic takeaway box"
     }
   ],
   "southwest-chicken-salad": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/191996946",
       "why": "a man at a restaurant table with a small plate"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/191999827",
+      "why": "a smothered bean and chicken burrito, not a salad"
     }
   ],
   "broccoli-slaw-salad": [
     {
       "page": "https://www.flickr.com/photos/38142119@N00/14314519925",
       "why": "seared scallops on a bed of broccoli slaw, so the slaw is a side to a different dish"
+    },
+    {
+      "page": "https://www.flickr.com/photos/23206546@N04/7640286076",
+      "why": "broccoli slaw as the side to a plate of salmon"
     }
   ],
   "crab-stuffed-avocados": [
     {
       "page": "https://www.flickr.com/photos/164188154@N05/54948984365",
       "why": "crab-topped stuffed mushrooms from a restaurant"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/53869226763",
+      "why": "snow crab legs and a stuffed lobster tail"
     }
   ],
   "egg-roll-skillet": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Beef_eggroll.jpg",
       "why": "a fried beef egg roll, not the skillet"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Dim_Sum_at_Gala_07Jan06_-_1_(87232073).jpg",
+      "why": "fried egg rolls on a plate, not a skillet"
     }
   ],
   "black-bean-and-quinoa-bowl": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Brazilian_food_Feijoada.jpg",
       "why": "a pot of feijoada, not a bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Feijoada_(Brazilian_dish),_S%C3%A3o_Lu%C3%ADs,_Maranh%C3%A3o.jpg",
+      "why": "a table set with feijoada, rice and orange slices"
     }
   ],
   "mushroom-swiss-burger-bowls": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Mushroom_Swiss_burger_on_an_onion_roll.jpg",
       "why": "a mushroom Swiss burger on a roll with fries, the recipe has no bun"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mushroom_Swiss_burger_with_garlic_ketchup_(18463383803).jpg",
+      "why": "a mushroom Swiss burger on a roll, where the recipe has no bun"
     }
   ],
   "lettuce-wrap-burgers": [
     {
       "page": "https://www.flickr.com/photos/38144472@N04/8137251086",
       "why": "an elk lettuce wrap with noodles, not a burger"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/226816198",
+      "why": "a head of iceberg lettuce, the archive page already used for the Peking duck"
     }
   ],
   "balsamic-chicken-with-mushrooms": [
@@ -16284,18 +16340,30 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pad_bai_kra_pao_(with_pork)_%26_Peek_gai_yad_sai_-_Pailin_Thai_Restaurant_2026-07-03.jpg",
       "why": "a Thai stir-fry and chicken wings"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Peek_gai_yad_sai_(half-eaten)_-_Pailin_Thai_Restaurant_2026-07-03.jpg",
+      "why": "a Thai stuffed chicken wing held on a fork"
     }
   ],
   "chicken-francese": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chicken_Francese_Meal_Prep.jpg",
       "why": "raw cutlets and flour laid out before cooking"
+    },
+    {
+      "page": "https://www.flickr.com/photos/55768440@N00/5524377433",
+      "why": "a tight crop of chicken in an orange sauce, too close to tell the dish"
     }
   ],
   "slow-cooker-salsa-chicken": [
     {
       "page": "https://www.flickr.com/photos/62518311@N00/278479079",
       "why": "a table knife, no food in focus"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/9086a56c92/",
+      "why": "a plate of rice, grilled chicken strips, black beans and salsas"
     }
   ],
   "chicken-and-broccoli-stir-fry": [
@@ -16308,36 +16376,60 @@
     {
       "page": "https://www.flickr.com/photos/91252560@N00/3567752484",
       "why": "a tight crop of crumbs and tomato in a tub, the chicken cannot be made out"
+    },
+    {
+      "page": "https://www.flickr.com/photos/91252560@N00/3566945631",
+      "why": "a crumb stuffing topped with shredded cheese in a glass dish, no chicken or tomato to see"
     }
   ],
   "chicken-saag": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Lamb_Saag_and_Chicken_Korma_-_Northern_Indian,_Palms_Food_Court.jpg",
       "why": "the archive page names it a lamb saag beside a chicken korma"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Dhansak_(3173280389).jpg",
+      "why": "a chicken dhansak thali with rice and naan"
     }
   ],
   "spinach-artichoke-chicken": [
     {
       "page": "https://wordpress.org/photos/photo/5826329e00/",
       "why": "spinach artichoke dip with flatbread"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2018-02-22_16_52_42_Classic_appetizer_combo_(Chips_with_spinach-artichoke_dip,_mozzarella_sticks,_honey-bbq_buffalo_wings_and_chicken_quesadilla)_at_the_Applebee%27s_in_Fair_Lakes,_Fairfax_County,_Virginia.jpg",
+      "why": "a restaurant appetizer platter of dip, mozzarella sticks and wings"
     }
   ],
   "sausage-and-cabbage-skillet": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Carel_Hardy_-_A_plucked_chicken,_cabbage_and_sausages_on_a_partially_draped_table.jpg",
       "why": "a still-life painting of a plucked chicken and cabbage"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Carel_Hardy_-_Still_life_with_a_turkey,_a_green_cabbage_and_sausages_on_a_tablecloth.jpg",
+      "why": "an oil painting of a plucked turkey, a cabbage and sausages"
     }
   ],
   "beef-and-green-bean-stir-fry": [
     {
       "page": "https://www.rawpixel.com/image/448418/free-photo-image-meat-steak-barbecue",
       "why": "sliced beef with green beans and risotto on a plate, not a stir-fry"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=178063544",
+      "why": "a buffet plate of roast beef sandwiches, chicken and squash salad"
     }
   ],
   "cauliflower-shepherds-pie": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Food_warmer_with_cauliflower_cheese_carrots_lasagne_shepherds_pie.jpg",
       "why": "hot-food trays at a buffet"
+    },
+    {
+      "page": "https://www.flickr.com/photos/73889777@N00/15568883474",
+      "why": "a cauliflower-topped pie in a glass dish, but letterboxed with white bars and soft"
     }
   ],
   "steak-with-garlic-mushroom-sauce": [
@@ -16350,6 +16442,10 @@
     {
       "page": "https://stocksnap.io/photo/grilled-fish-B0U6RRROJW",
       "why": "whole sardines on a grill rack, with no asparagus"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=71693314",
+      "why": "a whole salt-grilled fish on a Japanese plate with no asparagus"
     }
   ],
   "poached-salmon-with-cucumber-dill-sauce": [
@@ -16368,18 +16464,30 @@
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/3016774326",
       "why": "a road sign with a computer key symbol"
+    },
+    {
+      "page": "https://www.flickr.com/photos/120143184@N05/47942093137",
+      "why": "a restaurant wall of signatures"
     }
   ],
   "eggplant-pizzas": [
     {
       "page": "https://www.rawpixel.com/image/5946776/free-public-domain-cc0-photo",
       "why": "roasted aubergine halves with yoghurt and herbs, not slices topped as a pizza"
+    },
+    {
+      "page": "https://www.flickr.com/photos/57873306@N00/53861504713",
+      "why": "a wheat-crust pizza topped with eggplant slices"
     }
   ],
   "cheesy-cauliflower-casserole": [
     {
       "page": "https://www.flickr.com/photos/7927684@N03/16865701811",
       "why": "a plate of pork cutlets and baked potato, the cauliflower is not the dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Creamy_cauliflower_casserole.jpg",
+      "why": "a half-eaten cauliflower gratin with ham pieces, on a vegetarian recipe"
     }
   ],
   "roasted-asparagus-with-parmesan": [
@@ -16392,60 +16500,100 @@
     {
       "page": "https://www.rawpixel.com/image/448418/free-photo-image-meat-steak-barbecue",
       "why": "the same plate of beef, green beans and risotto refused for the beef stir-fry, the beans are a side"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=157233265",
+      "why": "green beans as the side to a pot roast, on a vegan recipe"
     }
   ],
   "shirataki-noodle-stir-fry": [
     {
       "page": "https://www.rawpixel.com/image/5954552/free-public-domain-cc0-photo",
       "why": "the archive page is already the picture of singapore-noodles"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Shirataki_Fud%C5%8Dson_01.jpg",
+      "why": "a Shinto shrine"
     }
   ],
   "baked-tofu-cubes": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG",
       "why": "a whole block of raw silken tofu in a bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cuisine_of_China_0070.JPG",
+      "why": "slices of pressed tofu stir-fried with celery and chilli, not baked cubes"
     }
   ],
   "greek-eggplant-salad": [
     {
       "page": "https://www.flickr.com/photos/10559879@N00/3483488082",
       "why": "a table of mezze in which the aubergine dip is one small bowl"
+    },
+    {
+      "page": "https://www.flickr.com/photos/47943919@N07/6789189198",
+      "why": "a blurred video frame of a tomato salad in a glass bowl"
     }
   ],
   "kale-chips": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:CSA-Red-Russian-Kale.jpg",
       "why": "a bunch of raw kale"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kale,_photo_from_The_Encyclopedia_of_Food_by_Artemas_Ward.jpg",
+      "why": "a page from an old book showing raw kale leaves"
     }
   ],
   "spiced-roasted-almonds": [
     {
       "page": "https://www.flickr.com/photos/149556095@N03/38920891132",
       "why": "shoppers at a market stall of nuts"
+    },
+    {
+      "page": "https://stocksnap.io/photo/nuts-almonds-4EXMQZWRDQ",
+      "why": "raw hazelnuts in their husks"
     }
   ],
   "turkey-roll-ups": [
     {
       "page": "https://www.flickr.com/photos/7927684@N03/6427666895",
       "why": "a turkey sandwich on an onion roll"
+    },
+    {
+      "page": "https://www.flickr.com/photos/44176993@N03/8387053265",
+      "why": "a lunch box with a website watermark and bread beside the roll-ups"
     }
   ],
   "greek-yogurt-ranch-dip": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:2020-02-14_04_42_19_A_sample_of_Giant_Ranch_Dressing_and_Dip_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg",
       "why": "a dollop of a supermarket's ranch dip, from a page that names the brand"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54118569865",
+      "why": "a restaurant portion cup of ranch dressing with a pink colour cast"
     }
   ],
   "pepper-nachos": [
     {
       "page": "https://www.flickr.com/photos/137009385@N06/38920547265",
       "why": "a white hatchback car"
+    },
+    {
+      "page": "https://www.flickr.com/photos/137009385@N06/44983832871",
+      "why": "a red hatchback car"
     }
   ],
   "zucchini-pizza-bites": [
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/29142378704",
       "why": "the archive page is the picture of turkey-zucchini-boats, halved boats rather than round bites"
+    },
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/29657626872",
+      "why": "unbaked zucchini boats in a glass dish, not round bites"
     }
   ],
   "baked-zucchini-chips": [
@@ -16464,48 +16612,80 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:A_bowl_of_frozen_yogurt.jpg",
       "why": "scoops of frozen yogurt in a bowl with chocolate sauce, not bark"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Berry_Chill_Yogurt.jpg",
+      "why": "a swirl of soft-serve frozen yogurt with berries in a cup, not bark"
     }
   ],
   "crustless-pumpkin-pie": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pumpkin_Pie.jpg",
       "why": "a pie with a pastry crust beside a branded tin of pumpkin"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2017-11-10_14_12_53_Pumpkin_pie_from_Giant_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+      "why": "a shop pumpkin pie with a pastry crust, judged from the archive title"
     }
   ],
   "almond-flour-tortillas": [
     {
       "page": "https://www.flickr.com/photos/138985252@N02/36081996214",
       "why": "keto brownies, not tortillas"
+    },
+    {
+      "page": "https://www.flickr.com/photos/23206546@N04/7922598432",
+      "why": "almond flour pizza dough, judged from the archive title"
     }
   ],
   "veggie-egg-white-omelet": [
     {
       "page": "https://www.rawpixel.com/image/5918816/image-background-public-domain-wood",
       "why": "a bowl of raw egg white"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5928275/photo-image-public-domain-person-white",
+      "why": "an egg white cocktail at a bar"
     }
   ],
   "egg-white-breakfast-wrap": [
     {
       "page": "https://www.rawpixel.com/image/5918816/image-background-public-domain-wood",
       "why": "a bowl of raw egg white"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5928275/photo-image-public-domain-person-white",
+      "why": "an egg white cocktail at a bar"
     }
   ],
   "sweet-potato-toast": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Fxemoji_u1F360.svg",
       "why": "a sweet potato emoji icon"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "sweet potato leaves in a garden bed"
     }
   ],
   "cottage-cheese-flatbread": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Cottage_Cheese.jpg",
       "why": "a tub of cottage cheese"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:100_money-saving_cottage_cheese_recipes,_including_33_prize_winners_(IA_100moneysavingco00grid).pdf",
+      "why": "the cover of a 1920s cottage cheese recipe booklet"
     }
   ],
   "black-bean-breakfast-tostadas": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Spanish_breakfast_outside,_Latina,_Madrid.jpg",
       "why": "toast spread with tomato at a Spanish breakfast table"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Tlayuda_for_breakfast_at_nearby_Charro_Cafe_(51482369732).jpg",
+      "why": "a tlayuda with chorizo according to the file's own description, on a vegetarian recipe"
     }
   ],
   "peanut-butter-banana-toast": [
@@ -16524,29 +16704,49 @@
     {
       "page": "https://www.flickr.com/photos/184594136@N08/50595046142",
       "why": "a chicken and white bean soup, with no spinach"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50595046092",
+      "why": "a chicken and white bean soup, with chicken and no spinach"
     }
   ],
   "chicken-fajita-soup": [
     {
       "page": "https://www.rawpixel.com/image/448421/free-photo-image-mexican-food-fajita",
       "why": "a plate of fajitas with tortillas, not a soup"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/448392/free-photo-image-taco-mexican-food-tortilla",
+      "why": "a fajita and taco plate with guacamole and rice, not a soup"
     }
   ],
   "hearty-chicken-and-kale-soup": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/24065440556",
       "why": "a noodle soup with mushrooms that looks like pho, no chicken or kale to pick out"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7914713@N05/46583176302",
+      "why": "a plate of chips, crisp kale and a pastry"
     }
   ],
   "egg-roll-soup": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Beef_eggroll.jpg",
       "why": "a fried beef egg roll, not a soup"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Dim_Sum_at_Gala_07Jan06_-_1_(87232073).jpg",
+      "why": "fried egg rolls on a plate, not a soup"
     }
   ],
   "escarole-and-bean-soup": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Escarole_With_Capers_And_White_Beans_(140492179).jpeg",
+      "why": "white beans with wilted greens on a plate, with no broth"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Escarole_with_capers_and_white_beans_(43129622922).jpg",
       "why": "white beans with wilted greens on a plate, with no broth"
     }
   ],
@@ -16554,48 +16754,80 @@
     {
       "page": "https://www.rawpixel.com/image/5963561/free-public-domain-cc0-photo",
       "why": "half a watermelon on white"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Korean_cold_cucumber_soup-Oi_naengguk-01.jpg",
+      "why": "a clear Korean cold broth with julienned cucumber, radish and meat, not a creamy blended soup"
     }
   ],
   "shaved-brussels-sprout-salad": [
     {
       "page": "https://www.flickr.com/photos/93936679@N05/31365304757",
       "why": "charred whole roasted sprouts in a bowl, not a shaved salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=178063544",
+      "why": "a buffet plate of roast beef sandwiches and squash salad, the page already offered to another recipe"
     }
   ],
   "zucchini-ribbon-salad": [
     {
       "page": "https://www.flickr.com/photos/35892836@N07/5445032357",
       "why": "a fish fillet from a restaurant with zucchini ribbons at its side"
+    },
+    {
+      "page": "https://www.flickr.com/photos/8626352@N03/535247874",
+      "why": "three whole zucchini in a basket"
     }
   ],
   "rainbow-slaw": [
     {
       "page": "https://www.flickr.com/photos/60517117@N00/9318469154",
       "why": "a supermarket bag of rainbow slaw"
+    },
+    {
+      "page": "https://www.flickr.com/photos/66722164@N00/27603149250",
+      "why": "a knish with rainbow carrot slaw and fruit salad"
     }
   ],
   "carrot-raisin-salad": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Corean_carrot_salad.jpg",
       "why": "an oily Korean carrot salad with no raisins"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Carrot_n_raisin_salad.jpg",
+      "why": "a pink-red grated salad on a patterned plate, low resolution, with chilli strips and a tomato flower"
     }
   ],
   "cucumber-noodle-salad": [
     {
       "page": "https://wordpress.org/photos/photo/81967c6e63/",
       "why": "a mixed plate of Filipino dishes"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/34067778a8/",
+      "why": "a mixed plate with diced chicken, tomatoes and microgreens"
     }
   ],
   "turkey-taco-lettuce-wraps": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Shanghai_lettuce_wraps_from_Auburn_Alehouse.JPG",
       "why": "a restaurant's Chinese-style lettuce wraps with dipping sauces"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:HK_Food_%E7%94%9F%E8%8F%9C%E5%8C%85_1.JPG",
+      "why": "a pork lettuce wrap, the archive page already used for the san choy bow"
     }
   ],
   "buffalo-chicken-lettuce-wraps": [
     {
       "page": "https://www.rawpixel.com/image/5949111/free-public-domain-cc0-photo",
       "why": "glazed chicken wings on a slate, with no lettuce"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5946558/free-public-domain-cc0-photo",
+      "why": "glazed chicken wings on a plate, the archive page already used for the buffalo chicken dip"
     }
   ],
   "collard-green-wraps": [
@@ -16608,42 +16840,70 @@
     {
       "page": "https://www.flickr.com/photos/65939881@N05/12489657523",
       "why": "a whole pizza with portobello slices on a crust, not mushroom caps used as the base"
+    },
+    {
+      "page": "https://www.flickr.com/photos/64007768@N02/5829332393",
+      "why": "a pizza restaurant's street frontage"
     }
   ],
   "stuffed-sweet-potatoes": [
     {
       "page": "https://www.rawpixel.com/image/5962967/free-public-domain-cc0-photo",
       "why": "a teddy bear on a lawn"
+    },
+    {
+      "page": "https://www.flickr.com/photos/58367355@N00/22100868223",
+      "why": "sweet potatoes topped with crumbled mince and tahini, which may be meat on a vegetarian recipe"
     }
   ],
   "portobello-tacos": [
     {
       "page": "https://www.flickr.com/photos/13006283@N08/6345487250",
       "why": "a food-truck plate of three tacos with a diet cola can and a business card"
+    },
+    {
+      "page": "https://www.flickr.com/photos/55935853@N00/3727456419",
+      "why": "three tacos with guacamole at a London taqueria, filling not shown"
     }
   ],
   "shrimp-taco-bowls": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Tacos_2.jpg",
       "why": "red-sauced tacos topped with onion, with no shrimp or bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mexican_Food_2.jpg",
+      "why": "a table of tacos on holders with shredded meat"
     }
   ],
   "turkey-sausage-and-vegetable-skillet": [
     {
       "page": "https://www.flickr.com/photos/78292210@N05/13933766886",
       "why": "pineapple fried rice served in a pineapple"
+    },
+    {
+      "page": "https://www.flickr.com/photos/92745254@N08/8425401324",
+      "why": "a pot of penne, sausage and chickpeas in a gold frame with a website watermark"
     }
   ],
   "cajun-chicken-and-cabbage-skillet": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=104042225",
       "why": "a pale soup with chicken pieces held up on a plate"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=104042209",
+      "why": "boiled chicken pieces with cabbage and pineapple on a plate held in a hand"
     }
   ],
   "shrimp-foil-packets": [
     {
       "page": "https://www.flickr.com/photos/54781600@N05/34046931793",
       "why": "a shrimp fajita wrap with lime, not a foil packet"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=82990188",
+      "why": "a shrimp fajita wrapped in a tortilla, not a foil packet"
     }
   ],
   "tuna-burgers": [
@@ -16656,42 +16916,70 @@
     {
       "page": "https://www.rawpixel.com/image/5925471/photo-image-background-flower-public-domain",
       "why": "a moulded salmon tartare with a daisy and asparagus spears"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5942460/free-public-domain-cc0-photo",
+      "why": "raw salmon, asparagus and spices laid out on a board"
     }
   ],
   "air-fryer-cod": [
     {
       "page": "https://www.flickr.com/photos/146650406@N02/33205507588",
       "why": "a butcher's raw chicken fillet with a shop watermark"
+    },
+    {
+      "page": "https://www.flickr.com/photos/146650406@N02/40135256753",
+      "why": "a butcher's advertisement showing packed raw chicken"
     }
   ],
   "air-fryer-cauliflower": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=158138310",
       "why": "a plate of chicken piccata with cauliflower beside a sweet potato mash"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Roasted_Cauliflower_in_Indian_style.JPG",
+      "why": "a turmeric cauliflower curry in a bowl, not crisp roasted florets"
     }
   ],
   "air-fryer-asparagus": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/13490423",
       "why": "a dish of asparagus under a chopped tomato and pepper dressing"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/54143450507",
+      "why": "the archive page is already the picture of the roasted asparagus with Parmesan"
     }
   ],
   "instant-pot-chicken-breast": [
     {
       "page": "https://www.flickr.com/photos/136264958@N03/29697760445",
       "why": "raw chicken in a fridge, from a food-safety page"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baywatch_chicken.jpg",
+      "why": "a chicken steak topped with an egg on chips"
     }
   ],
   "grilled-vegetable-skewers": [
     {
       "page": "https://www.rawpixel.com/image/3294387/free-photo-image-animal-bbq-burger",
       "why": "skewers of meat and vegetables over coals, the archive title says meat"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/6047679/free-public-domain-cc0-photo",
+      "why": "caprese skewers of tomato, basil and mozzarella, not grilled vegetables"
     }
   ],
   "mexican-cauliflower-rice-bowls": [
     {
       "page": "https://wordpress.org/photos/photo/4696893376/",
       "why": "a plate of grilled meat, rice and vegetables with a glass of milk"
+    },
+    {
+      "page": "https://www.flickr.com/photos/98826299@N00/7155023732",
+      "why": "raw cauliflower rice with a raw egg in a mixing bowl"
     }
   ],
   "cabbage-roll-skillet": [
@@ -16704,12 +16992,20 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Eggplant_Rollatini_(140490235).jpeg",
       "why": "a single grilled aubergine slice on a red board"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Eggplant_rollatini_(43178425981).jpg",
+      "why": "a single raw eggplant slice on a cutting board"
     }
   ],
   "baked-tilapia-with-tomatoes": [
     {
       "page": "https://wordpress.org/photos/photo/3096a5bde8/",
       "why": "a whole grilled tilapia with chips and ketchup"
+    },
+    {
+      "page": "https://www.flickr.com/photos/62295966@N07/15185635905",
+      "why": "a tilapia tank in a garden"
     }
   ],
   "honey-lime-chicken-skewers": [
@@ -16722,90 +17018,150 @@
     {
       "page": "https://www.flickr.com/photos/25802865@N08/55045042151",
       "why": "the archive page is already the picture of hainanese-chicken-rice"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/54790552885",
+      "why": "skin-on bone-in poached chicken pieces, where the recipe is lean skinless breast"
     }
   ],
   "philly-cheesesteak-stuffed-peppers": [
     {
       "page": "https://www.flickr.com/photos/37475039@N04/7925433542",
       "why": "a beef cheesesteak sandwich on a roll"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cheesesteak_(19386149993).jpg",
+      "why": "a cheesesteak sandwich on a roll"
     }
   ],
   "chipotle-lime-chicken": [
     {
       "page": "https://www.flickr.com/photos/7633518@N08/54099161909",
       "why": "a chain's burrito bowl of lettuce in its paper bowl"
+    },
+    {
+      "page": "https://www.flickr.com/photos/123529748@N03/20862004576",
+      "why": "a chicken and avocado sandwich held in a hand"
     }
   ],
   "chili-lime-shrimp": [
     {
       "page": "https://www.flickr.com/photos/76297116@N00/6294660975",
       "why": "a pot of chilli sauce, no shrimp"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:DFC_2242_Chilled_glass_noodle_salad_tossed_with_shrimp_fresh_herbs_crunchy_cabbage_and_a_zesty_chili-lime_dressing.jpg",
+      "why": "a glass noodle salad with shrimp and cabbage"
     }
   ],
   "air-fryer-tofu": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG",
       "why": "a block of silken tofu"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cuisine_of_China_0070.JPG",
+      "why": "the tofu and celery stir-fry page already refused for the baked tofu cubes"
     }
   ],
   "air-fryer-scallops": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/44514349",
       "why": "egg foo young"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/226815563",
+      "why": "scrambled eggs with scallops"
     }
   ],
   "air-fryer-tilapia": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:CBP%E2%80%99s_%E2%80%98Just_Keep_Swimming%E2%80%99_Protects_Tilapia_Imports_(50136831813).jpg",
       "why": "a woman at a warehouse of boxed tilapia"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_Fillet_Tilapia.jpg",
+      "why": "raw fish fillets at a market stall"
     }
   ],
   "spaghetti-squash-primavera": [
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/31067544996",
       "why": "grilled chicken with spaghetti squash under sauce and cheese"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/52287581971",
+      "why": "a spaghetti squash boat with kale and sausage, the page already used for the spaghetti squash"
     }
   ],
   "lemon-roasted-broccoli": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=179613137",
       "why": "a chicken breast with broccoli and celery sticks"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=183769335",
+      "why": "a plate of chicken sausage, mashed potato and broccoli"
     }
   ],
   "balsamic-roasted-mushrooms": [
     {
       "page": "https://www.flickr.com/photos/43288043@N04/52129861618",
       "why": "small wild mushrooms growing on a mossy log"
+    },
+    {
+      "page": "https://www.flickr.com/photos/59863270@N07/36363833671",
+      "why": "raw chanterelle mushrooms on a counter"
     }
   ],
   "roasted-tomatoes-with-herbs": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/329500",
       "why": "carved roast chicken beside a bowl of zucchini"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/329502",
+      "why": "sliced raw tomatoes on a plate, from the page already refused"
     }
   ],
   "roasted-cabbage-wedges": [
     {
       "page": "https://wordpress.org/photos/photo/293680fd28/",
       "why": "barbecued chicken pieces under shredded cheese"
+    },
+    {
+      "page": "https://www.flickr.com/photos/62295966@N07/15828127698",
+      "why": "a diseased cabbage leaf"
     }
   ],
   "air-fryer-green-beans": [
     {
       "page": "https://www.flickr.com/photos/132795455@N08/18214213538",
       "why": "a bushel of raw green beans"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/73713102",
+      "why": "a dark, blurred close-up of green beans"
     }
   ],
   "air-fryer-mushrooms": [
     {
       "page": "https://www.flickr.com/photos/43288043@N04/52129861618",
       "why": "small wild mushrooms growing on a mossy log"
+    },
+    {
+      "page": "https://www.flickr.com/photos/59863270@N07/36363833671",
+      "why": "raw chanterelle mushrooms on a counter"
     }
   ],
   "cottage-cheese-ranch-dip": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:2020-02-14_04_42_19_A_sample_of_Giant_Ranch_Dressing_and_Dip_in_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg",
       "why": "a dollop of a supermarket's ranch dip, from a page that names the brand"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54118569865",
+      "why": "a portion cup of ranch dressing with a pink cast"
     }
   ],
   "frozen-yogurt-pops": [
@@ -16818,18 +17174,30 @@
     {
       "page": "https://www.flickr.com/photos/29507259@N02/3572952189",
       "why": "a parrot"
+    },
+    {
+      "page": "https://www.flickr.com/photos/140641142@N05/49665879396",
+      "why": "empty popcorn shelves in a supermarket"
     }
   ],
   "zucchini-roll-ups": [
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/51430715957",
       "why": "zucchini pancakes frying in a pan"
+    },
+    {
+      "page": "https://www.flickr.com/photos/51231869@N03/5481410501",
+      "why": "egg-battered fried zucchini rolls, where the recipe bakes rolls filled with ricotta in tomato sauce"
     }
   ],
   "cottage-cheese-ice-cream": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Cottage_Cheese.jpg",
       "why": "a tub of cottage cheese"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:100_money-saving_cottage_cheese_recipes,_including_33_prize_winners_(IA_100moneysavingco00grid).pdf",
+      "why": "the cover of a cottage cheese recipe booklet"
     }
   ],
   "strawberry-sorbet": [
@@ -16842,18 +17210,30 @@
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/3432869617",
       "why": "people eating chocolate-covered strawberries at a party"
+    },
+    {
+      "page": "https://www.flickr.com/photos/81392060@N06/28098381406",
+      "why": "a bed of coleus plants"
     }
   ],
   "grilled-pineapple": [
     {
       "page": "https://wordpress.org/photos/photo/8265c4eed2/",
       "why": "a meat platter with a few pineapple slices at its edge"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/448251/free-photo-image-meat-barbecue-restaurant-menu",
+      "why": "a steak with grilled pineapple slices and salad"
     }
   ],
   "egg-white-bites": [
     {
       "page": "https://www.rawpixel.com/image/5918816/image-background-public-domain-wood",
       "why": "a bowl of raw egg white"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5928275/photo-image-public-domain-person-white",
+      "why": "an egg white cocktail at a bar"
     }
   ],
   "apple-cinnamon-egg-white-pancakes": [
@@ -16866,6 +17246,10 @@
     {
       "page": "https://www.flickr.com/photos/7633518@N08/53964824699",
       "why": "a breakfast taco with a hot dog in a takeaway box"
+    },
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/39274623032",
+      "why": "rolled flour burritos with an egg and sausage scramble"
     }
   ],
   "egg-white-fried-rice": [
@@ -16878,150 +17262,250 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Scrambed_eggs.jpg",
       "why": "yolk-yellow scrambled eggs on a breakfast plate, the recipe is pale egg whites"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Brinner.jpg",
+      "why": "yolk-yellow scrambled eggs with bacon"
     }
   ],
   "egg-white-oatmeal": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Eat_more_cornmeal,_rye_flour,_oatmeal,_and_barley-Save_the_wheat_for_the_fighters_LCCN2002699351_(cropped).tif",
       "why": "a wartime poster for cornmeal, rye flour and oatmeal"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fruit_and_Honey_French_Oatmeal_2.jpg",
+      "why": "a bowl of milk or yogurt with almond flakes and fruit, not cooked oatmeal"
     }
   ],
   "egg-white-wraps": [
     {
       "page": "https://www.rawpixel.com/image/5918816/image-background-public-domain-wood",
       "why": "a bowl of raw egg white"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/5928275/photo-image-public-domain-person-white",
+      "why": "an egg white cocktail at a bar"
     }
   ],
   "egg-white-crepes": [
     {
       "page": "https://www.flickr.com/photos/143573972@N07/28922958172",
       "why": "a crepe shop's window sign"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cr%C3%AApes_roul%C3%A9es_with_portobello_mushrooms,_leeks,_cr%C3%A8me_fraiche,_mixed_leaves_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+      "why": "savoury crepes rolled round mushrooms and leeks under a salad, where the recipe is strawberry crepes"
     }
   ],
   "egg-and-cabbage-stir-fry": [
     {
       "page": "https://www.rawpixel.com/image/5952746/free-public-domain-cc0-photo",
       "why": "a heap of raw red cabbages"
+    },
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/2460429343",
+      "why": "confit duck leg on cabbage"
     }
   ],
   "egg-white-english-muffin-sandwich": [
     {
       "page": "https://www.rawpixel.com/image/5918816/image-background-public-domain-wood",
       "why": "a bowl of raw egg white"
+    },
+    {
+      "page": "https://www.flickr.com/photos/151415985@N06/37291304081",
+      "why": "open sandwiches of sliced boiled egg on dark bread"
     }
   ],
   "egg-white-burrito-bowl": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Breakfast_burritos.jpg",
       "why": "two breakfast burritos with fried potato, not a bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Belizean_lunch.jpg",
+      "why": "a rolled flatbread and tostadas at a Belizean lunch"
     }
   ],
   "pineapple-chicken-skewers": [
     {
       "page": "https://www.rawpixel.com/image/8734947/pineapple-chicken",
       "why": "a plate of rice with a pineapple sauce, no skewers"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=104042209",
+      "why": "boiled chicken, cabbage and pineapple on a plate held in a hand, the page already refused for the cajun chicken"
     }
   ],
   "chicken-and-cabbage-stir-fry": [
     {
       "page": "https://wordpress.org/photos/photo/40769ce140/",
       "why": "a buffet plate of pilau, stew and fried chicken"
+    },
+    {
+      "page": "https://www.flickr.com/photos/12198857@N00/7694554698",
+      "why": "a pad thai style noodle bowl with bean sprouts and two grilled slabs, no cabbage stir-fry"
     }
   ],
   "chicken-burgers": [
     {
       "page": "https://www.flickr.com/photos/134974721@N04/25781698483",
       "why": "a restaurant burger with a hashtag title and a drink"
+    },
+    {
+      "page": "https://www.flickr.com/photos/7914713@N05/46583176302",
+      "why": "a plate of chips, crisp kale and a pastry, the page already refused for the chicken and kale soup"
     }
   ],
   "chicken-fried-rice": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:CountryFriedSteak.jpg",
       "why": "a chicken-fried steak with gravy"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bluebird_Cafe_-_June_2024_-_Sarah_Stierch_07.jpg",
+      "why": "a chicken-fried steak under gravy with eggs and hash browns"
     }
   ],
   "chicken-and-noodle-skillet": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Qi_Guoji.jpg",
       "why": "a clay pot of chicken soup with no noodles"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0088jfNovo_Department_Store_Plaridel_Bulacanfvf_03.jpg",
+      "why": "chicken, chayote and a boiled egg in a dish, no noodles"
     }
   ],
   "apple-sage-chicken": [
     {
       "page": "https://www.flickr.com/photos/82242140@N05/22556630656",
       "why": "a log cabin and a candle jar at dusk"
+    },
+    {
+      "page": "https://www.flickr.com/photos/82242140@N05/21959848004",
+      "why": "a log cabin hearth"
     }
   ],
   "chicken-cucumber-cups": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Flickr_sa_ku_ra_10556400--Chicken_salad.jpg",
       "why": "the archive page is the picture of apple-cranberry-chicken-salad, a salad in a tub, not cups"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Beets,_onions,_chicken,_baby_carrots,_bell_pepper,_and_cherry_tomatoes_on_mixed_greens,_with_dressing_of_mustard,_olive_oil,_and_vinegar_Massachusetts.jpg",
+      "why": "a mixed salad with slices of cured sausage"
     }
   ],
   "tarragon-mustard-chicken": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=112842376",
       "why": "a toast covered in whole-grain mustard"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=163435270",
+      "why": "chicken sausages on toast"
     }
   ],
   "lemongrass-chicken": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chicken_tinola_with_green_papaya_and_lemongrass.jpg",
       "why": "a chicken soup with papaya and lemongrass"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0647Pinto_beans_chicken_stew_17.jpg",
+      "why": "chicken stew with pinto beans"
     }
   ],
   "smoked-paprika-chicken": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Paprikahuhn.jpg",
       "why": "chicken paprikash in a cream sauce with dumplings"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bratislava_-_Chicken_Paprikash.jpg",
+      "why": "chicken paprikash with dumplings and sour cream, the page already used for the paprikash"
     }
   ],
   "chicken-and-rice-bake": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chicken_rice_balls_in_Melaka.jpg",
       "why": "Hainanese chicken rice with rice balls"
+    },
+    {
+      "page": "https://www.flickr.com/photos/43296902@N00/49181844288",
+      "why": "a takeaway packet of spiced yellow rice and a chicken leg in foil and banana leaf"
     }
   ],
   "chicken-kofta": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Arabic_Chicken_Kofta_Rice_with_Grilled_Chicken.jpg",
       "why": "a platter of rice with grilled chicken, with no kofta to see"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Biryani_and_Nargisi_Kofta_with_Raita.jpg",
+      "why": "biryani with an egg kofta"
     }
   ],
   "apple-stuffed-chicken-breast": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pad_bai_kra_pao_(with_pork)_%26_Peek_gai_yad_sai_-_Pailin_Thai_Restaurant_2026-07-03.jpg",
       "why": "a Thai stir-fry and chicken wings"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Peek_gai_yad_sai_(half-eaten)_-_Pailin_Thai_Restaurant_2026-07-03.jpg",
+      "why": "a Thai stuffed chicken wing, the page already refused for another recipe"
     }
   ],
   "garlic-chicken-pasta": [
     {
       "page": "https://wordpress.org/photos/photo/909652ff1b/",
       "why": "penne in a white cream sauce with garlic bread"
+    },
+    {
+      "page": "https://www.flickr.com/photos/90730812@N03/43296450461",
+      "why": "a ribbon-cutting at a pizza and pasta counter"
     }
   ],
   "chicken-rice-noodle-stir-fry": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chicken_rice_balls_in_Melaka.jpg",
       "why": "Hainanese chicken rice with rice balls"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=151459811",
+      "why": "a chicken pad see ew with egg, kai-lan and dark soy, where the recipe uses no soy sauce"
     }
   ],
   "chicken-fajita-rice-bowls": [
     {
       "page": "https://www.rawpixel.com/image/448421/free-photo-image-mexican-food-fajita",
       "why": "fajita fillings and tortillas on a restaurant tray, not a rice bowl"
+    },
+    {
+      "page": "https://www.rawpixel.com/image/448392/free-photo-image-taco-mexican-food-tortilla",
+      "why": "a fajita and taco plate with guacamole, the page already refused for the fajita soup"
     }
   ],
   "apple-chicken-sausage": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/79631787",
       "why": "a sausage and olive pizza"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=121653448",
+      "why": "andouille chicken sausages in a baguette with mustard and onion, where the recipe makes patties"
     }
   ],
   "onion-turkey-burgers": [
     {
       "page": "https://www.flickr.com/photos/93998329@N05/17382494565",
       "why": "a group of people posing on Turkey Burger Day"
+    },
+    {
+      "page": "https://www.flickr.com/photos/93998329@N05/16762200553",
+      "why": "two people on a lawn"
     }
   ],
   "turkey-and-noodles": [
@@ -17034,12 +17518,20 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Kuzu_f%C4%B1r%C4%B1n_(cutlets).jpg",
       "why": "roast lamb chops, not cutlets"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=49191047",
+      "why": "roast lamb chops"
     }
   ],
   "turkey-rice-skillet": [
     {
       "page": "https://www.flickr.com/photos/7927684@N03/12017596396",
       "why": "a turkey and rice soup with toast, not a skillet"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=122408395",
+      "why": "shredded poached turkey on plain rice with fried shallot, a different dish"
     }
   ],
   "turkey-stir-fry-with-peppers": [
@@ -17058,30 +17550,50 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Incirlik_Airmen_wrap_up_softball_season_140725-F-IM659-360.jpg",
       "why": "two softball players on a field"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Whoa,_dude,_Mr._Turkey_Club_Wrap_is_my_father._Name%27s_Richard._(2695142984).jpg",
+      "why": "a packaged wrap in a labelled plastic tub"
     }
   ],
   "cranberry-turkey-cutlets": [
     {
       "page": "https://www.flickr.com/photos/34128007@N04/26911475010",
       "why": "a cranberry turkey Cobb salad"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=49191047",
+      "why": "roast lamb chops"
     }
   ],
   "herb-roasted-pork-loin": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/465565",
       "why": "a bowl of stir-fried vegetables with preserved vegetable and tofu"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/465566",
+      "why": "a pork and vegetable stir-fry, not a roast"
     }
   ],
   "pork-and-pineapple-skewers": [
     {
       "page": "https://www.rawpixel.com/image/5914541/image-public-domain-food-free",
       "why": "battered sweet and sour pork with pineapple on a plate, no skewers"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=74858882",
+      "why": "a Filipino pork stew in a dark sauce"
     }
   ],
   "honey-mustard-pork-chops": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Roast_Pork_Cutlet,_Cabbage_Roll_-_Majors_Lane_AUD36_-_by_Julia.jpg",
       "why": "the archive page is the picture of pork-chops-with-apples-and-onions"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/1103405",
+      "why": "a bowl of chives"
     }
   ],
   "garlic-pork-stir-fry": [
@@ -17094,24 +17606,40 @@
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/223151850",
       "why": "the archive page is already the picture of pork-tenderloin"
+    },
+    {
+      "page": "https://www.flickr.com/photos/44642876@N00/4225958354",
+      "why": "sliced rare pork tenderloin in a baking pan on a cluttered counter with branded packets"
     }
   ],
   "pork-fried-rice": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=61279954",
       "why": "basil fried crispy pork beside plain rice"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/24026110492",
+      "why": "a food truck"
     }
   ],
   "pork-chop-suey": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Chopsueywithrice.jpg",
       "why": "the archive page is already the picture of chicken-chop-suey"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bourbon_Saveur_974_(Belley)_-_poulet_chop_suey.jpg",
+      "why": "a chicken chop suey over rice and beans"
     }
   ],
   "garlic-beef-stir-fry": [
     {
       "page": "https://commons.wikimedia.org/w/index.php?curid=93504863",
       "why": "a pale porridge with beef and a green chilli, not a stir-fry"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=93504841",
+      "why": "a beef and chilli rice porridge, the page already refused"
     }
   ],
   "beef-and-cabbage-stew": [
@@ -17124,18 +17652,30 @@
     {
       "page": "https://www.flickr.com/photos/196695255@N02/52422085981",
       "why": "not food: a photograph of a person in a shop"
+    },
+    {
+      "page": "https://www.flickr.com/photos/196695255@N02/52421589397",
+      "why": "a person in a shop"
     }
   ],
   "citrus-salmon": [
     {
       "page": "https://www.flickr.com/photos/43322816@N08/5197995371",
       "why": "a newly hatched salmon fry"
+    },
+    {
+      "page": "https://www.flickr.com/photos/93799642@N07/37399345891",
+      "why": "salmon roe"
     }
   ],
   "honey-spice-rubbed-salmon": [
     {
       "page": "https://www.flickr.com/photos/22799944@N07/4692781311",
       "why": "a honey spice bundt cake"
+    },
+    {
+      "page": "https://www.flickr.com/photos/25257922@N07/2547764021",
+      "why": "raw rubbed chicken skewers in a cooler"
     }
   ],
   "salmon-skewers": [
@@ -17148,30 +17688,50 @@
     {
       "page": "https://www.flickr.com/photos/62295966@N07/15185635905",
       "why": "a living tilapia in an aquaponics tank"
+    },
+    {
+      "page": "https://www.flickr.com/photos/92502237@N04/50229681586",
+      "why": "a fish farm gate"
     }
   ],
   "garlic-herb-shrimp-skewers": [
     {
       "page": "https://www.flickr.com/photos/164188154@N05/53484955736",
       "why": "a restaurant platter in which a shrimp skewer shares the plate with lobster tail and pasta"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/53485256814",
+      "why": "a lobster tail with butter and pasta from a chain restaurant"
     }
   ],
   "pineapple-shrimp-skewers": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pineapple_Shrimp_Balls_%E9%B3%B3%E6%A2%A8%E8%9D%A6%E7%90%83.jpg",
       "why": "Taiwanese shrimp balls with pineapple in mayonnaise, no skewers"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:01.17_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E7%B8%BD%E7%B5%B1%E8%88%87%E5%AE%B6%E6%89%B6%E5%85%92%E5%B0%91%E6%98%A5%E7%AF%80%E5%9C%8D%E7%88%90%E6%B4%BB%E5%8B%95%E3%80%8D_-_54269995417.jpg",
+      "why": "battered shrimp with potato and tomato on lettuce"
     }
   ],
   "shrimp-and-pepper-stir-fry": [
     {
       "page": "https://www.flickr.com/photos/37996646802@N01/51848171742",
       "why": "two shrimp tacos"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/54804582565",
+      "why": "a shrimp and sausage jambalaya"
     }
   ],
   "shrimp-lettuce-cups": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/153969062",
       "why": "a plate of lettuce and chilli aubergine"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=152512829",
+      "why": "shrimp and sardine fillets on spinach, no cups"
     }
   ],
   "tuna-patties": [
@@ -17183,6 +17743,10 @@
   "tuna-cucumber-boats": [
     {
       "page": "https://wordpress.org/photos/photo/19269c1301/",
+      "why": "a poke bowl"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Salmon_%26_Tuna_Poke_Bowl_(M)_with_Spicy_Mayo_sauce_-_Kitokito_2025-04-25.jpg",
       "why": "a poke bowl"
     }
   ],
@@ -17196,12 +17760,20 @@
     {
       "page": "https://www.flickr.com/photos/49734171@N00/4803161630",
       "why": "two men filleting fish at a garden table"
+    },
+    {
+      "page": "https://www.flickr.com/photos/92269745@N00/5638487457",
+      "why": "a seared flounder fillet on an orzo, shrimp and sausage stew, on a gluten-free recipe"
     }
   ],
   "baked-haddock-with-herbs": [
     {
       "page": "https://www.flickr.com/photos/110514648@N08/19524781358",
       "why": "a person named Haddock at a computer van"
+    },
+    {
+      "page": "https://www.flickr.com/photos/110514648@N08/19717402861",
+      "why": "children at a school event"
     }
   ],
   "homemade-fish-sticks": [
@@ -17220,18 +17792,30 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Harvesting_Asprinio_grapes_grown_on_high_trellises.jpg",
       "why": "a grape harvester on a ladder"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Freshly_harvested_Gruner_Veltliner_grapes_at_Hahndorf_Hill_in_the_Adelaide_Hills.jpg",
+      "why": "a grape grower holding a bunch of grapes"
     }
   ],
   "snapper-with-herbs": [
     {
       "page": "https://www.flickr.com/photos/136038519@N08/27420380973",
       "why": "a beach with a palm tree"
+    },
+    {
+      "page": "https://www.flickr.com/photos/62295966@N07/5681361815",
+      "why": "banana plants"
     }
   ],
   "herb-crusted-cod": [
     {
       "page": "https://www.flickr.com/photos/43322816@N08/4751531063",
       "why": "Cape Cod National Seashore dunes"
+    },
+    {
+      "page": "https://www.flickr.com/photos/43322816@N08/9955104736",
+      "why": "wildlife staff on a beach"
     }
   ],
   "tilapia-foil-packets": [
@@ -17250,12 +17834,20 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG",
       "why": "a block of raw silken tofu"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cuisine_of_China_0070.JPG",
+      "why": "the celery and tofu stir-fry page already refused"
     }
   ],
   "baked-lemon-dill-salmon": [
     {
       "page": "https://www.rawpixel.com/image/5927591/photo-image-public-domain-plant-food",
       "why": "seasoned raw salmon fillets with dill and lemon before baking, not the baked dish"
+    },
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=186770027",
+      "why": "hot-smoked salmon scrambled eggs on sourdough"
     }
   ],
   "chopped-mexican-salad-with-lime": [
@@ -17268,48 +17860,80 @@
     {
       "page": "https://www.flickr.com/photos/134468672@N06/43557534992",
       "why": "zucchini noodles topped with grilled prawns, on a vegetarian recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pistachio_pesto_noodle_salad_(9085303888).jpg",
+      "why": "a pesto noodle salad on arugula, where the noodles may be wheat"
     }
   ],
   "egg-white-frittata-with-peppers-and-onions": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Fritta_with_goats_cheese_and_beets_%2B_salad_-_The_Green_Room_2025-07-17.jpg",
       "why": "a restaurant frittata with goat's cheese beside a beet salad, on a dairy-free recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Frittata_-_Bam%27s_Kitchen_2024-04-02.jpg",
+      "why": "a whole-egg frittata wedge with tomato and what looks like cheese, on a dairy-free egg white recipe"
     }
   ],
   "ginger-chicken-soup": [
     {
       "page": "https://www.flickr.com/photos/184594136@N08/50408985733",
       "why": "wheat egg noodles in a chicken noodle soup, where the recipe is gluten-free with rice vermicelli"
+    },
+    {
+      "page": "https://www.flickr.com/photos/184594136@N08/50408986928",
+      "why": "egg noodle chicken soup, the page already withdrawn"
     }
   ],
   "turkey-taco-rice-bowls": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Taco_rice_-_Tokyo_area_-_November_9_2016_-_002.jpg",
       "why": "a taco rice heaped with grated cheddar, on a dairy-free recipe that leaves cheese out"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Taco-Rice-1.jpg",
+      "why": "a bowl of chilli with beans and chickpeas beside a patty"
     }
   ],
   "big-batch-vegetable-soup": [
     {
       "page": "https://www.rawpixel.com/image/5924545/photo-image-public-domain-food-water",
       "why": "a clear soup of pasta spirals, leek and peas, not the tomato and bean soup, and wheat pasta on a gluten-free recipe"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Tom_jued_tahoo.jpg",
+      "why": "a Thai clear soup with soft tofu and herbs, not the tomato and bean soup"
     }
   ],
   "parmesan-crusted-chicken": [
     {
       "page": "https://www.flickr.com/photos/164188154@N05/54159554008",
       "why": "a chain restaurant's breadcrumb-crusted cutlet under cream sauce with sour cream, where the recipe is a crumb-free almond and Parmesan crust"
+    },
+    {
+      "page": "https://www.flickr.com/photos/164188154@N05/55211134858",
+      "why": "a chain restaurant plate of chicken beside a sirloin steak"
     }
   ],
   "tuna-stuffed-avocados": [
     {
       "page": "https://www.flickr.com/photos/74888386@N00/14241827234",
       "why": "an avocado plated over tomato sauce and yogurt with the filling out of sight, on a dairy-free recipe"
+    },
+    {
+      "page": "https://www.flickr.com/photos/83886716@N00/4169110419",
+      "why": "tuna salad in a tomato, the archive page already used for the tuna stuffed tomatoes"
     }
   ],
   "pesto-chicken-bake": [
     {
       "page": "https://www.flickr.com/photos/35034347371@N01/329500",
       "why": "a carved pesto roast chicken dinner with couscous, not a tray bake with tomatoes and mozzarella"
+    },
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/329502",
+      "why": "sliced tomatoes on a plate, from the page already withdrawn"
     }
   ],
   "coctel-de-camarones": [
@@ -17322,18 +17946,114 @@
     {
       "page": "https://www.flickr.com/photos/54549113@N00/48541725767",
       "why": "titled butter poached cod and served with pilaf and almond slaw, on a dairy-free recipe"
+    },
+    {
+      "page": "https://www.flickr.com/photos/14514578@N08/19985543261",
+      "why": "chopped fennel, carrot and celery in a pot, before the fish goes in"
     }
   ],
   "creamy-cucumber-dill-salad": [
     {
       "page": "https://commons.wikimedia.org/wiki/File:Ensalada_de_pepinos_con_or%C3%A9gano_y_aceite_de_oliva.jpg",
       "why": "cucumber slices in an oil and oregano dressing, not creamy with yogurt and dill"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Asian_Cucumber_Salad.jpg",
+      "why": "a sesame and carrot Asian cucumber salad, nothing creamy"
     }
   ],
   "cucumber-hummus-bites": [
     {
       "page": "https://wordpress.org/photos/photo/53685c112c/",
       "why": "cups of hummus with vegetable sticks, not hummus on cucumber rounds"
+    },
+    {
+      "page": "https://wordpress.org/photos/photo/1496a21709/",
+      "why": "falafel balls topped with hummus"
+    }
+  ],
+  "almond-flour-pancakes": [
+    {
+      "page": "https://www.flickr.com/photos/64636759@N07/12309211584",
+      "why": "a single scorched pancake with orange zest and a mint leaf, not the fluffy stack with raspberries"
+    }
+  ],
+  "spinach-and-feta-breakfast-wrap": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=162419409",
+      "why": "a baked egg, spinach and feta bun at a bakery cafe, not a rolled wrap"
+    }
+  ],
+  "chicken-pot-pie-soup": [
+    {
+      "page": "https://www.flickr.com/photos/35034347371@N01/144628624",
+      "why": "a shop sign for chicken pot pie"
+    }
+  ],
+  "marinated-vegetable-salad": [
+    {
+      "page": "https://www.flickr.com/photos/127294011@N07/16327066322",
+      "why": "skewers of marinated vegetables and bocconcini cheese on a board, on a vegan recipe"
+    }
+  ],
+  "chicken-florentine": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:IHOP_Chicken_Florentine_Crepes_with_Cheddar_Sauce.jpg",
+      "why": "chicken and spinach crepes under cheddar sauce from a restaurant chain, not a chicken breast, and crepes on a gluten-free recipe"
+    }
+  ],
+  "almond-flour-bread": [
+    {
+      "page": "https://www.flickr.com/photos/11578194@N00/9822286685",
+      "why": "banana muffins, judged from the archive title"
+    }
+  ],
+  "kale-and-apple-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kale_Salad_with_Apple_(5079781723).jpg",
+      "why": "a macro crop of a lemon slice over kale and apple, too close and overexposed to read as the salad"
+    }
+  ],
+  "sunomono": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ebi_sunomono_(3453504907).jpg",
+      "why": "shrimp and cucumber in vinegar, on a vegan recipe"
+    }
+  ],
+  "turkey-avocado-wrap": [
+    {
+      "page": "https://www.flickr.com/photos/83886716@N00/8251395610",
+      "why": "a bread sandwich with turkey, bacon, tomato and avocado, not a wrap"
+    }
+  ],
+  "turkey-pinwheels": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pinwheels_-_F%C4%B1r%C4%B1ldaklar.jpg",
+      "why": "toy pinwheels at a market stall"
+    }
+  ],
+  "roasted-delicata-squash": [
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54240927246",
+      "why": "a restaurant plate of halloumi and delicata squash with the restaurant's name on the rim"
+    }
+  ],
+  "beef-and-rice-skillet": [
+    {
+      "page": "https://www.rawpixel.com/image/5970230/fried-beef-rice",
+      "why": "thin-sliced beef with bean sprouts and cabbage in a Japanese set meal, not ground beef and rice in one pan"
+    }
+  ],
+  "oven-baked-catfish": [
+    {
+      "page": "https://www.flickr.com/photos/91501748@N07/24505802445",
+      "why": "a live catfish in an aquarium"
+    }
+  ],
+  "tofu-rice-bowls": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=178781133",
+      "why": "a rice bowl of tofu slabs with braised pork, on a vegan recipe"
     }
   ]
 }
