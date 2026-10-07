@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 5930 image files (WebP + JPEG)
+│       └── img/recipes/         # 6050 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 5930 image files
+├── assets/                      #    css, js and 6050 image files
 ├── recipes/                     #    2715 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 245,619 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 245,676 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2370 of the 2715 recipes have a photograph. Of the 2854 images on the site,
-1182 are CC0 or public domain, 839 are CC BY and 833 are CC BY-SA. Anything
+2430 of the 2715 recipes have a photograph. Of the 2914 images on the site,
+1186 are CC0 or public domain, 874 are CC BY and 854 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -3342,9 +3342,9 @@ the 300 recipes got a candidate and 28 got none. Every candidate was opened on a
 contact sheet and looked at before anything was published, which is still the
 only check that has worked. Ninety-four were published and 178 refused; a second
 look, below, withdrew fourteen more, which left 80. The rounds after it are
-under their own headings. As the data stands there are 135 photographs, 46 in
-volume thirty-two, 44 in volume thirty-three and 45 in volume thirty-four, and
-165 of the 300 recipes are on their gradient card. No illustration was
+under their own headings. As the data stands there are 195 photographs, 68 in
+volume thirty-two, 65 in volume thirty-three and 62 in volume thirty-four, and
+105 of the 300 recipes are on their gradient card. No illustration was
 generated: the 111 labelled drawings on the site are the same 111 as before.
 
 The 178 refusals are the usual kinds, and each archive page is recorded in
@@ -3639,6 +3639,131 @@ closely enough that nothing needed listing. By licence these 23 are 4 CC0 or
 public domain, 8 CC BY and 11 CC BY-SA, and they come from Wikimedia Commons
 (23).
 
+### The fourth round, and plainer names
+
+The fourth round was for the 165 recipes still on a gradient card, and it
+searched for them under plainer names. `tools/wide_search.py` took two
+alternative names for each recipe, the name a cook would type for the dish
+("roasted asparagus" for the air fryer asparagus, "cod fillet" for the air fryer
+cod, "melitzanosalata" for the Greek eggplant salad), and ran them through the
+Commons file search and through Openverse, which reaches the Flickr photographs
+of home cooks and restaurants that carry a licence allowing reuse. Openverse
+returned 693 candidates for 126 recipes and the Commons search 673 for 116;
+between them 145 of the 165 recipes had at least one candidate and 20 had none.
+The three best candidates from each source for each recipe, 643 in all, were
+read by their archive titles.
+
+The titles settled 345 of them, and those were never downloaded: a crested
+serpent eagle offered to the moong dal chilla, snow and fog over a place called
+the Burger Bowl for the mushroom Swiss burger bowls, a processor named Apple A5X
+Chip for the baked apple chips, a still-life painting of eggs and cabbage for
+the egg and cabbage stir-fry, a cold soup from Turkey the country for the turkey
+vegetable soup. Each of the 345 is recorded in `src/data/image-rejects.json`
+with "judged from the archive title" in its reason, so the record does not
+pretend they were looked at. The other 298 were fetched, apart from six that the
+archives would not serve, and the 292 that arrived were looked at nine to a
+sheet at 480 px. 141 were refused outright and 45 were passed over because
+another candidate for the same recipe was the better picture of the same dish,
+or because the photograph was one the site already used. 106 went on to a second
+look, four to a sheet at 720 px a photograph and the doubtful ones zoomed, with
+the recipe's lede and diet labels beside them: 60 were published and 46 turned
+down, 20 of those only because a better candidate for the same recipe had been
+chosen.
+
+The refusals after the first look are again of the usual kinds. A fish fillet
+lay under the spears on the photograph offered to the vegan air fryer asparagus.
+Pink ham was folded into the breakfast wraps, and sausage and bacon were baked
+through the cauliflower casserole, on vegetarian recipes. A pizza on a wheat
+crust was offered to the gluten-free eggplant pizzas, almonds in sugar syrup to
+the spiced roasted almonds, a roast beef sandwich to the southwest chicken
+salad, a child chopping chicken on a board to the Instant Pot chicken breast,
+raw skewers on a board to the grilled vegetable skewers, a handwritten recipe
+card to the crustless pumpkin pie and a scan of a magazine page to the spinach
+and feta stuffed chicken breast. The photograph that the first round refused for
+the ginger chicken soup, wide wheat egg noodles in a chicken soup, came back
+under three more archive pages. The second look turned down a cut eggplant roll
+with a breadcrumb filling on the gluten-free lasagna roll-ups, a cutlet with a
+visible crumb coating on the gluten-free chicken Florentine, a turkey wrap with
+a pale slice that could be cheese on a dairy-free recipe, sweet potato toast
+with soft white cheese under the apple and avocado on a dairy-free one, and a
+chicken breast with a browned crust for a recipe that pressure-cooks it without
+browning.
+
+Three candidates were already on the site under another archive page, and the
+perceptual hash caught them: the photograph of the tofu with greens, offered to
+the air fryer tofu; the turkey burger with baked beans and potato salad, offered
+to the onion turkey burgers; and the beef fried rice, offered to the beef and
+rice skillet. One archive page was also offered to two recipes: the roasted
+green beans went to the garlic roasted green beans and the roasted mushrooms to
+the balsamic roasted mushrooms, and each page was used once. Every one of the 60
+photographs that were published was then compared by the same hash with every
+picture on the site, and none is within 14 bits of another. The 60 that were
+published, and what differs:
+
+| recipe | what the photograph shows, and what differs |
+| --- | --- |
+| Almond Flour Pancakes | two thick pancakes under a melting pat of butter, close up; the recipe is served with raspberries |
+| Chaffles | a round waffle in wedges on a cooling rack with a strawberry half on top, titled as a keto waffle; the recipe is a savoury egg and mozzarella waffle |
+| Denver Omelet | a folded omelette beside home fries with ham and green pepper in them, and toast at the edge; the recipe is the omelette alone |
+| Egg-Stuffed Bell Peppers | a poblano half and a yellow pepper half filled with a herby white cheese mixture and an egg; the recipe fills bell peppers with egg and feta |
+| Whole Wheat Pancakes | a stack of pancakes under fresh strawberries, close up; the recipe is the pancakes with butter |
+| Chicken Pot Pie Soup | a bowl of creamy soup with chicken, carrot, peas, corn and potato beside a tray of cheese biscuits; the recipe has celery and green beans and is served without biscuits |
+| Southwest Chicken Salad | a grilled chicken breast over lettuce with black beans, corn, tomato, red onion, avocado and cheddar, topped with tortilla strips and a few fried pieces; the recipe has no tortilla strips |
+| Creamy Cucumber Dill Salad | sliced cucumber with dill and spring onion in a clear oil dressing; the recipe's dressing is Greek yogurt and lemon and its onion is red |
+| Broccoli Slaw Salad | a bowl of shredded broccoli stem in a creamy dressing, a little dim; no apple, red onion or sunflower seeds show |
+| Black Bean and Quinoa Bowl | a glass bowl of quinoa with black beans, mango, red pepper, celery and cilantro; the recipe has peppers, tomatoes and avocado and no mango |
+| Slow Cooker Salsa Chicken | two chicken pieces under red salsa beside a mound of orange Spanish rice and pepper strips; the chicken is whole and not shredded, and the recipe has no rice |
+| Chicken Saag | a plate of chicken in a dark green spinach sauce beside white rice, with the sauce already smeared; the recipe uses boneless thighs |
+| Spinach Artichoke Chicken | a chicken breast under a browned layer of spinach, artichoke and melted cheese beside roasted red potatoes and green beans; the recipe sears the chicken and serves it in a creamy sauce |
+| Sausage and Cabbage Skillet | dark sausage links left whole in a black skillet under ribbons of golden cabbage; the recipe slices chicken sausages and adds onion, paprika and mustard |
+| Lemon Grilled Fish with Asparagus | a grilled swordfish steak under herb butter and chives on green beans and potato; the recipe grills white fish fillets with asparagus and lemon |
+| Cauliflower Mac and Cheese | roasted cauliflower florets in a pale cheese sauce on a blue and white plate, with no pasta; the sauce is thinner than the recipe's baked cheddar, Parmesan and cream cheese one |
+| Zucchini Noodles with Pesto | spiralised zucchini with pesto, leaves and pine nuts on a dark platter; no cherry tomatoes or Parmesan show |
+| Garlic Roasted Green Beans | a close-up of roasted beans with blistered, blackened tips on a white plate; no garlic or lemon shows |
+| Greek Eggplant Salad | chopped roasted eggplant with diced red and green pepper, capers and onion in a glass bowl; the recipe has tomato and red pepper and no capers |
+| Pepper Nachos | green pepper halves topped with spiced ground meat, melted cheese, diced avocado and a dollop of cream on a board; the recipe uses mini sweet peppers with turkey, tomato, avocado and jalapeño |
+| Frozen Yogurt Bark | bark with raspberries, blueberries, pistachios and coconut on a blue gingham tray, and also diced peach or melon and a few dark pieces; the recipe has the berries, pistachios and coconut only |
+| Egg White Breakfast Wrap | a toasted tortilla wrap with salsa, lime and cilantro beside a bowl of roasted potatoes, filling out of sight, and the tortilla looks white; the recipe has spinach, feta and a whole-wheat tortilla |
+| Big Batch Vegetable Soup | a glass bowl of chunky soup with carrot, celery, potato and peas in an orange-red broth; no white beans or cabbage can be seen |
+| Spinach and White Bean Soup | a bowl of lemony broth with dark leaves, white beans and diced celery and zucchini; no carrot shows and the broth is thin where the recipe mashes half the beans |
+| Escarole and Bean Soup | a terracotta pot of clear broth with chopped escarole, white beans, red flecks that look like tomato and parsley; the recipe has no tomato or parsley |
+| Shaved Brussels Sprout Salad | a restaurant plate of shaved sprouts with dates, pistachios and herbs in a preserved lemon dressing; the recipe has Parmesan, walnuts and apple |
+| Zucchini Ribbon Salad | raw zucchini ribbons with avocado, beetroot slices and dill; the recipe has mint, Parmesan and pine nuts and no avocado or beetroot |
+| Carrot Raisin Salad | matchstick carrot with a few raisins, parsley and whole hazelnuts on a white plate, a restaurant dish; the recipe is grated carrot in a lemon, honey and yogurt dressing with walnuts |
+| Stuffed Sweet Potatoes | split sweet potatoes filled with chickpeas under a tahini drizzle with raw spinach; the recipe fills them with spiced black beans and spinach and tops them with lime yogurt and cilantro |
+| Portobello Tacos | two soft tacos with sliced mushrooms, kale, black beans, tomato and avocado slices; the recipe has thick portobello slices, red cabbage, avocado and tomato |
+| Grilled Vegetable Skewers | skewers of eggplant, zucchini, pepper, mushroom, onion, cauliflower and broccoli with charred sweetcorn scattered on the plate; the recipe has no eggplant, cauliflower, broccoli or corn and adds cherry tomatoes |
+| Mexican Cauliflower Rice Bowls | browned, spiced cauliflower rice in a serving dish under crumbled white cheese and cilantro; the recipe also has black beans, corn, tomato and avocado on top |
+| Air Fryer Tofu | golden cubes of crisp tofu in a lace-paper basket with a sprig of parsley, which look deep fried; the recipe glazes them with soy and sesame |
+| Air Fryer Scallops | five seared scallops in a ring around a pale sauce on a salad of sweetcorn and broad beans, a restaurant plate; the recipe has the scallops with garlic lemon butter and no salad |
+| Spaghetti Squash Primavera | spaghetti squash moulded into a nest on a red tomato sauce, filled with asparagus, broccoli, mushroom, tomato and pepper under Parmesan and pine nuts; the recipe has no tomato sauce |
+| Roasted Cabbage Wedges | roasted cabbage wedges with charred edges on a dark tray, with chunks of apple and parsnip; the recipe is wedges with olive oil and paprika only |
+| Zucchini Roll-Ups | roll-ups in tomato sauce under melted cheese on a black plate with broccoli and a crusty roll, a soft, over-bright photograph; the recipe is the roll-ups alone |
+| Grilled Pineapple | thick pineapple rings with dark grill marks on a white plate; the recipe finishes them with cinnamon and mint |
+| Herbed Egg White Scramble | a close-up of fluffy scrambled egg whites with cracked pepper, with the edge of a pancake and a sauce at the top; no herbs show |
+| Egg White Crepes | a stack of golden crepes on a plate, unfilled; the recipe rolls them around sliced strawberries with maple syrup |
+| Chicken Burgers | two seared chicken patties on a plate with rice pilaf, broccolini and beetroot with yogurt; the recipe serves the patties in small buns with lettuce, cucumber and mustard |
+| Chicken and Noodle Skillet | a bowl of chicken slices, bok choy and herbs in clear broth with thin noodles and chopsticks on the rim; the recipe simmers chicken, carrot and onion with flat rice noodles in a thyme and lemon broth |
+| Tarragon Mustard Chicken | chicken pieces in a pale cream sauce with chopped tarragon in a baking dish, set on a table with plates, bread and a glass of pink wine; the recipe uses breasts in a Dijon, shallot and yogurt sauce |
+| Chicken and Rice Bake | a pot of chicken and rice with zucchini and red pepper pieces, with a plate of the same beside it; the recipe is chicken, rice, carrot, onion and peas |
+| Apple Stuffed Chicken Breast | a cut chicken breast stuffed with brie and raisins in a cider sauce, beside roasted Brussels sprouts with flaked almonds; the recipe stuffs it with apple, onion, cranberries and sage |
+| Onion Turkey Burgers | a turkey burger in an oat-topped bun with lettuce, tomato, melted cheese and onion beside a scoop of mashed potato; the recipe uses small buns with lettuce, red onion and mustard and has no cheese or tomato |
+| Roasted Turkey Tenderloin | a roasted turkey breast with a pepper and herb crust, part sliced, on a patterned oval platter with a carving fork; it is a whole breast and not a tenderloin |
+| Turkey Taco Rice Bowls | taco meat over white rice under a mound of shredded lettuce with tomato wedges, on a wide orange plate; the recipe uses turkey with sweetcorn, cilantro and lime |
+| Herb-Roasted Pork Loin | sliced roast pork loin with a dark crust on a bed of brown grain, with baby carrots and roasted Brussels sprouts; the recipe is the pork alone |
+| Pork Fried Rice | a bowl of fried rice with cubes of pale pork and egg; no peas, carrot or spring onion show |
+| Citrus Salmon | a salmon fillet under blood orange slices and spring onion rings on wild rice and quinoa; the recipe is baked in orange and lemon juice with dill and has no grain |
+| Honey Spice Rubbed Salmon | a glazed salmon fillet in a pale honey sauce beside spiced potato wedges and green beans; the recipe is baked with a dry honey and spice paste and has no sides |
+| Lemon Pepper Tilapia | two seared tilapia fillets with cracked black pepper on green beans in a pan sauce; the recipe is pan-cooked with lemon and parsley and has no bean bed |
+| Poached Cod with Lemon and Parsley | a plain white cod fillet with cracked pepper and a sprig of dill, with artichoke hearts and green pearl couscous partly in frame; the archive says it was cooked in a bag with butter, dill, lemon and capers, where the recipe poaches it in lemon and bay water with no butter and finishes with parsley |
+| Herb-Crusted Cod | a golden herb-crumb fillet on a restaurant plate with fries, a tartar dip, ketchup, lemon and roasted carrots; the sides are the restaurant's and the recipe is the fillet |
+
+The other five (beef and green bean stir-fry, air fryer cauliflower, air fryer
+asparagus, balsamic roasted mushrooms and baked apple chips) match the recipe
+closely enough that nothing needed listing. By licence these 60 are 4 CC0 or
+public domain, 35 CC BY and 21 CC BY-SA, and they come from Flickr (40) and
+Wikimedia Commons (20).
+
 ### Judgement calls
 
 - The Weight-Loss Friendly label has no sodium limit, because its rule is about
@@ -3692,11 +3817,11 @@ need a second try are the ones whose structure comes from an unusual base: the
 almond flour bread, tortillas and cookies, the fathead pizza, the cauliflower
 tater tots, the chaffles, and the egg white crepes, pancakes and waffles.
 
-165 of the 300 recipes are on a gradient card. `npm run images` will try them
+105 of the 300 recipes are on a gradient card. `npm run images` will try them
 again (it does not offer a page that has been refused) and
 `tools/wide_search.py` reads the Wikipedia article and the Commons category for
 a dish in full, and neither publishes anything until a person has looked. Every
-one of the 135 photographs was looked at before it was published, the first 94
+one of the 195 photographs was looked at before it was published, the first 94
 twice, and what contradicted its label has been withdrawn, but none has been
 compared with the finished dish, and a reader may still find one that is not
 quite right.

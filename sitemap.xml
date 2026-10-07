@@ -27114,12 +27114,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/almond-flour-pancakes.jpg</image:loc>
+      <image:title>Almond Flour Pancakes</image:title>
+      <image:caption>Almond Flour Pancakes, an American breakfast recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chaffles/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chaffles.jpg</image:loc>
+      <image:title>Chaffles</image:title>
+      <image:caption>Chaffles, an American breakfast recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steel-cut-oats-with-berries-and-walnuts/</loc>
@@ -27149,12 +27159,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/denver-omelet.jpg</image:loc>
+      <image:title>Denver Omelet</image:title>
+      <image:caption>Denver Omelet, an American breakfast recipe — ham and pepper omelet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-stuffed-bell-peppers/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-stuffed-bell-peppers.jpg</image:loc>
+      <image:title>Egg-Stuffed Bell Peppers</image:title>
+      <image:caption>Egg-Stuffed Bell Peppers, an American breakfast recipe — egg stuffed bell peppers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-hash-browns/</loc>
@@ -27189,6 +27209,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/whole-wheat-pancakes.jpg</image:loc>
+      <image:title>Whole Wheat Pancakes</image:title>
+      <image:caption>Whole Wheat Pancakes, an American breakfast recipe — whole grain pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moong-dal-chilla/</loc>
@@ -27273,6 +27298,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-pot-pie-soup.jpg</image:loc>
+      <image:title>Chicken Pot Pie Soup</image:title>
+      <image:caption>Chicken Pot Pie Soup, an American dinner recipe — creamy chicken soup without pastry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chopped-mexican-salad-with-lime/</loc>
@@ -27318,12 +27348,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/southwest-chicken-salad.jpg</image:loc>
+      <image:title>Southwest Chicken Salad</image:title>
+      <image:caption>Southwest Chicken Salad, an American lunch recipe — southwestern chicken salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/creamy-cucumber-dill-salad/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/creamy-cucumber-dill-salad.jpg</image:loc>
+      <image:title>Creamy Cucumber Dill Salad</image:title>
+      <image:caption>Creamy Cucumber Dill Salad, an American lunch recipe — creamy cucumber salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cucumber-avocado-salad/</loc>
@@ -27341,6 +27381,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/broccoli-slaw-salad.jpg</image:loc>
+      <image:title>Broccoli Slaw Salad</image:title>
+      <image:caption>Broccoli Slaw Salad, an American lunch recipe — diabetic friendly broccoli slaw</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-stuffed-avocados/</loc>
@@ -27371,6 +27416,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/black-bean-and-quinoa-bowl.jpg</image:loc>
+      <image:title>Black Bean and Quinoa Bowl</image:title>
+      <image:caption>Black Bean and Quinoa Bowl, a Mexican lunch recipe — black bean quinoa bowl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushroom-swiss-burger-bowls/</loc>
@@ -27440,6 +27490,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-salsa-chicken.jpg</image:loc>
+      <image:title>Slow Cooker Salsa Chicken</image:title>
+      <image:caption>Slow Cooker Salsa Chicken, a Mexican dinner recipe — diabetic friendly slow cooker chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-broccoli-stir-fry/</loc>
@@ -27469,12 +27524,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-saag.jpg</image:loc>
+      <image:title>Chicken Saag</image:title>
+      <image:caption>Chicken Saag, an Indian dinner recipe — chicken and spinach curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-artichoke-chicken/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-artichoke-chicken.jpg</image:loc>
+      <image:title>Spinach Artichoke Chicken</image:title>
+      <image:caption>Spinach Artichoke Chicken, an American dinner recipe — creamy artichoke chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chicken-chili-verde/</loc>
@@ -27514,6 +27579,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-cabbage-skillet.jpg</image:loc>
+      <image:title>Sausage and Cabbage Skillet</image:title>
+      <image:caption>Sausage and Cabbage Skillet, an American dinner recipe — diabetic friendly sausage and cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-medallions-with-mustard-sauce/</loc>
@@ -27531,6 +27601,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-green-bean-stir-fry.jpg</image:loc>
+      <image:title>Beef and Green Bean Stir-Fry</image:title>
+      <image:caption>Beef and Green Bean Stir-Fry, a Chinese dinner recipe — beef and green bean stir fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-shepherds-pie/</loc>
@@ -27576,6 +27651,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-grilled-fish-with-asparagus.jpg</image:loc>
+      <image:title>Lemon Grilled Fish with Asparagus</image:title>
+      <image:caption>Lemon Grilled Fish with Asparagus, an American dinner recipe — diabetic friendly grilled fish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shrimp-and-asparagus-skillet/</loc>
@@ -27632,6 +27712,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cauliflower-mac-and-cheese.jpg</image:loc>
+      <image:title>Cauliflower Mac and Cheese</image:title>
+      <image:caption>Cauliflower Mac and Cheese, an American dinner recipe — diabetic friendly mac and cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-risotto/</loc>
@@ -27649,6 +27734,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zucchini-noodles-with-pesto.jpg</image:loc>
+      <image:title>Zucchini Noodles with Pesto</image:title>
+      <image:caption>Zucchini Noodles with Pesto, a quick Italian meal recipe — diabetic friendly zucchini noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggplant-pizzas/</loc>
@@ -27700,6 +27790,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-roasted-green-beans.jpg</image:loc>
+      <image:title>Garlic Roasted Green Beans</image:title>
+      <image:caption>Garlic Roasted Green Beans, a healthy American recipe — diabetic friendly green beans</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shirataki-noodle-stir-fry/</loc>
@@ -27740,6 +27835,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-eggplant-salad.jpg</image:loc>
+      <image:title>Greek Eggplant Salad</image:title>
+      <image:caption>Greek Eggplant Salad, a Greek appetizer recipe — diabetic friendly eggplant salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sprouted-moong-salad/</loc>
@@ -27819,6 +27919,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pepper-nachos.jpg</image:loc>
+      <image:title>Pepper Nachos</image:title>
+      <image:caption>Pepper Nachos, a Mexican appetizer recipe — diabetic friendly nachos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zucchini-pizza-bites/</loc>
@@ -27892,6 +27997,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frozen-yogurt-bark.jpg</image:loc>
+      <image:title>Frozen Yogurt Bark</image:title>
+      <image:caption>Frozen Yogurt Bark, an American dessert recipe — greek yogurt bark</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/almond-flour-bread/</loc>
@@ -27950,6 +28060,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-white-breakfast-wrap.jpg</image:loc>
+      <image:title>Egg White Breakfast Wrap</image:title>
+      <image:caption>Egg White Breakfast Wrap, an American breakfast recipe — weight loss friendly breakfast wrap</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/asparagus-frittata/</loc>
@@ -28007,6 +28122,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/big-batch-vegetable-soup.jpg</image:loc>
+      <image:title>Big Batch Vegetable Soup</image:title>
+      <image:caption>Big Batch Vegetable Soup, an American lunch recipe — weight loss friendly vegetable soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-meatball-soup/</loc>
@@ -28046,6 +28166,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-and-white-bean-soup.jpg</image:loc>
+      <image:title>Spinach and White Bean Soup</image:title>
+      <image:caption>Spinach and White Bean Soup, an Italian lunch recipe — weight loss friendly bean soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-fajita-soup/</loc>
@@ -28081,6 +28206,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/escarole-and-bean-soup.jpg</image:loc>
+      <image:title>Escarole and Bean Soup</image:title>
+      <image:caption>Escarole and Bean Soup, an Italian lunch recipe — weight loss friendly escarole soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caldo-de-pollo/</loc>
@@ -28115,6 +28245,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shaved-brussels-sprout-salad.jpg</image:loc>
+      <image:title>Shaved Brussels Sprout Salad</image:title>
+      <image:caption>Shaved Brussels Sprout Salad, an American lunch recipe — weight loss friendly brussels sprout salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-arugula-salad-with-parmesan/</loc>
@@ -28154,6 +28289,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zucchini-ribbon-salad.jpg</image:loc>
+      <image:title>Zucchini Ribbon Salad</image:title>
+      <image:caption>Zucchini Ribbon Salad, a healthy Italian recipe — weight loss friendly zucchini salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kale-and-apple-salad/</loc>
@@ -28199,6 +28339,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carrot-raisin-salad.jpg</image:loc>
+      <image:title>Carrot Raisin Salad</image:title>
+      <image:caption>Carrot Raisin Salad, a healthy American recipe — weight loss friendly carrot salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grapefruit-avocado-salad/</loc>
@@ -28301,12 +28446,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-sweet-potatoes.jpg</image:loc>
+      <image:title>Stuffed Sweet Potatoes</image:title>
+      <image:caption>Stuffed Sweet Potatoes, an American dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/portobello-tacos/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/portobello-tacos.jpg</image:loc>
+      <image:title>Portobello Tacos</image:title>
+      <image:caption>Portobello Tacos, a Mexican dinner recipe — gluten free mushroom tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-cauliflower-tacos/</loc>
@@ -28432,12 +28587,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-cauliflower.jpg</image:loc>
+      <image:title>Air Fryer Cauliflower</image:title>
+      <image:caption>Air Fryer Cauliflower, a healthy American recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-asparagus/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-asparagus.jpg</image:loc>
+      <image:title>Air Fryer Asparagus</image:title>
+      <image:caption>Air Fryer Asparagus, a healthy American recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chicken-breast/</loc>
@@ -28450,12 +28615,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-vegetable-skewers.jpg</image:loc>
+      <image:title>Grilled Vegetable Skewers</image:title>
+      <image:caption>Grilled Vegetable Skewers, a healthy American recipe — weight loss friendly vegetable skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mexican-cauliflower-rice-bowls/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mexican-cauliflower-rice-bowls.jpg</image:loc>
+      <image:title>Mexican Cauliflower Rice Bowls</image:title>
+      <image:caption>Mexican Cauliflower Rice Bowls, a Mexican dinner recipe — weight loss friendly cauliflower rice bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-roll-skillet/</loc>
@@ -28547,12 +28722,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tofu.jpg</image:loc>
+      <image:title>Air Fryer Tofu</image:title>
+      <image:caption>Air Fryer Tofu, an American dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-scallops/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-scallops.jpg</image:loc>
+      <image:title>Air Fryer Scallops</image:title>
+      <image:caption>Air Fryer Scallops, an American dinner recipe — weight loss friendly scallops</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-tilapia/</loc>
@@ -28565,6 +28750,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-squash-primavera.jpg</image:loc>
+      <image:title>Spaghetti Squash Primavera</image:title>
+      <image:caption>Spaghetti Squash Primavera, an Italian dinner recipe — weight loss friendly spaghetti squash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheet-pan-chicken-and-brussels-sprouts/</loc>
@@ -28610,6 +28800,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/balsamic-roasted-mushrooms.jpg</image:loc>
+      <image:title>Balsamic Roasted Mushrooms</image:title>
+      <image:caption>Balsamic Roasted Mushrooms, a healthy American recipe — weight loss friendly roasted mushrooms</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-tomatoes-with-herbs/</loc>
@@ -28649,6 +28844,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-cabbage-wedges.jpg</image:loc>
+      <image:title>Roasted Cabbage Wedges</image:title>
+      <image:caption>Roasted Cabbage Wedges, a healthy American recipe — weight loss friendly roasted cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-green-beans/</loc>
@@ -28673,6 +28873,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-apple-chips.jpg</image:loc>
+      <image:title>Baked Apple Chips</image:title>
+      <image:caption>Baked Apple Chips, an American appetizer recipe — weight loss friendly apple chips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frozen-yogurt-pops/</loc>
@@ -28707,6 +28912,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zucchini-roll-ups.jpg</image:loc>
+      <image:title>Zucchini Roll-Ups</image:title>
+      <image:caption>Zucchini Roll-Ups, an Italian appetizer recipe — zucchini roll ups</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cottage-cheese-ice-cream/</loc>
@@ -28758,6 +28968,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/grilled-pineapple.jpg</image:loc>
+      <image:title>Grilled Pineapple</image:title>
+      <image:caption>Grilled Pineapple, an American dessert recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-frittata-with-peppers-and-onions/</loc>
@@ -28815,6 +29030,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herbed-egg-white-scramble.jpg</image:loc>
+      <image:title>Herbed Egg White Scramble</image:title>
+      <image:caption>Herbed Egg White Scramble, an American breakfast recipe — kidney friendly egg white scramble</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-oatmeal/</loc>
@@ -28855,6 +29075,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-white-crepes.jpg</image:loc>
+      <image:title>Egg White Crepes</image:title>
+      <image:caption>Egg White Crepes, a French breakfast recipe — kidney friendly crepes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-and-cabbage-stir-fry/</loc>
@@ -28946,6 +29171,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-burgers.jpg</image:loc>
+      <image:title>Chicken Burgers</image:title>
+      <image:caption>Chicken Burgers, an American dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-fried-rice/</loc>
@@ -28963,6 +29193,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-noodle-skillet.jpg</image:loc>
+      <image:title>Chicken and Noodle Skillet</image:title>
+      <image:caption>Chicken and Noodle Skillet, an American dinner recipe — kidney friendly chicken noodle skillet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-chicken-cutlets/</loc>
@@ -29014,6 +29249,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarragon-mustard-chicken.jpg</image:loc>
+      <image:title>Tarragon Mustard Chicken</image:title>
+      <image:caption>Tarragon Mustard Chicken, a French dinner recipe — kidney friendly tarragon chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ginger-scallion-chicken/</loc>
@@ -29048,6 +29288,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-rice-bake.jpg</image:loc>
+      <image:title>Chicken and Rice Bake</image:title>
+      <image:caption>Chicken and Rice Bake, an American dinner recipe — baked chicken and rice casserole without salt</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-kofta/</loc>
@@ -29071,6 +29316,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-stuffed-chicken-breast.jpg</image:loc>
+      <image:title>Apple Stuffed Chicken Breast</image:title>
+      <image:caption>Apple Stuffed Chicken Breast, an American dinner recipe — kidney friendly stuffed chicken breast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-chicken-pasta/</loc>
@@ -29128,6 +29378,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/onion-turkey-burgers.jpg</image:loc>
+      <image:title>Onion Turkey Burgers</image:title>
+      <image:caption>Onion Turkey Burgers, an American dinner recipe — kidney friendly turkey burgers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-and-noodles/</loc>
@@ -29169,6 +29424,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-turkey-tenderloin.jpg</image:loc>
+      <image:title>Roasted Turkey Tenderloin</image:title>
+      <image:caption>Roasted Turkey Tenderloin, an American dinner recipe — kidney friendly roast turkey</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-apple-wraps/</loc>
@@ -29186,6 +29446,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-taco-rice-bowls.jpg</image:loc>
+      <image:title>Turkey Taco Rice Bowls</image:title>
+      <image:caption>Turkey Taco Rice Bowls, a Mexican dinner recipe — kidney friendly turkey taco bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-turkey-cutlets/</loc>
@@ -29209,6 +29474,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herb-roasted-pork-loin.jpg</image:loc>
+      <image:title>Herb-Roasted Pork Loin</image:title>
+      <image:caption>Herb-Roasted Pork Loin, an American dinner recipe — herb roasted pork loin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-and-pineapple-skewers/</loc>
@@ -29254,6 +29524,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-fried-rice.jpg</image:loc>
+      <image:title>Pork Fried Rice</image:title>
+      <image:caption>Pork Fried Rice, a Chinese dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-chop-suey/</loc>
@@ -29322,12 +29597,22 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/citrus-salmon.jpg</image:loc>
+      <image:title>Citrus Salmon</image:title>
+      <image:caption>Citrus Salmon, an American dinner recipe — kidney friendly salmon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-spice-rubbed-salmon/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-spice-rubbed-salmon.jpg</image:loc>
+      <image:title>Honey Spice Rubbed Salmon</image:title>
+      <image:caption>Honey Spice Rubbed Salmon, an American dinner recipe — kidney friendly salmon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-skewers/</loc>
@@ -29356,6 +29641,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pepper-tilapia.jpg</image:loc>
+      <image:title>Lemon Pepper Tilapia</image:title>
+      <image:caption>Lemon Pepper Tilapia, an American dinner recipe — kidney friendly tilapia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-herb-shrimp-skewers/</loc>
@@ -29465,6 +29755,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poached-cod-with-lemon-and-parsley.jpg</image:loc>
+      <image:title>Poached Cod with Lemon and Parsley</image:title>
+      <image:caption>Poached Cod with Lemon and Parsley, an American dinner recipe — kidney friendly poached cod</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/homemade-fish-sticks/</loc>
@@ -29516,6 +29811,11 @@
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herb-crusted-cod.jpg</image:loc>
+      <image:title>Herb-Crusted Cod</image:title>
+      <image:caption>Herb-Crusted Cod, an American dinner recipe — herb crusted cod</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pan-seared-trout/</loc>
