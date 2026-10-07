@@ -731,7 +731,7 @@ function privacy(ctx) {
      It is a constant because the honest value cannot be derived from the
      build: nothing in the repository records when the policy was last
      rewritten. Bump it by hand when the text below changes. */
-  const updated = '2026-09-04';
+  const updated = '2026-10-07';
 
   const body = `
 ${breadcrumbs(trail)}
@@ -752,9 +752,9 @@ ${breadcrumbs(trail)}
       ${CONSENT.enabled
         ? `<li>Nothing is loaded until you choose. Google Analytics and the advertising scripts are not in the page at all until you accept them, and if you refuse or ignore the banner they are never fetched.</li>
       <li>You can change your mind at any time with <a href="#" data-consent-reopen>Cookie settings</a>, at the foot of every page.</li>`
-        : `<li>There is no consent banner. Analytics and advertising load with the page, so if you would rather they did not, a content blocker is the way to stop them — the links further down turn each one off at the source.</li>`}
+        : `<li>There is no consent banner. Analytics and advertising load with the page. A content blocker stops the analytics and may stop the ads, but the ad network serves them from addresses that change to get past blockers, so I cannot promise it will — the links further down turn each one off at the source.</li>`}
       <li>The contact form is the only thing that sends anything to me, and only what you type into it.</li>
-      <li>You can block both with any content blocker, and nothing on the site breaks.</li>
+      <li>Nothing on the site depends on either: if the analytics or the ads are blocked or fail to load, every recipe, the search and the timers work as before.</li>
     </ul>
 
     ${CONSENT.enabled ? `<h2>Consent, and what it controls</h2>
@@ -763,7 +763,7 @@ ${breadcrumbs(trail)}
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are not covered by that choice. They never leave your device, they exist only because you asked for them, and the site would not work as you left it without them.</p>
 ` : `<h2>Cookies, and how to refuse them</h2>
     <p>This site does not ask before loading its analytics and advertising scripts: they run when the page does. I would rather say that plainly than imply a choice you were not given.</p>
-    <p>If you do not want them, any content blocker stops both, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
+    <p>If you do not want them, a content blocker is the usual way to stop them, and the site works perfectly without either — every recipe, the search, saved recipes, cook mode and the timers are unaffected. I would rather be plain about the ads, though: the network serves them from addresses that change, which is how it gets past some blockers, so a blocker may stop them or may not. The Analytics and Advertising sections below also link to the opt-outs Google and Adsterra provide, which work across every site that uses them, not just this one.</p>
     <p>The things this site stores for itself &mdash; your theme, your saved recipes, your reviews &mdash; are a separate matter. They never leave your device and exist only because you asked for them.</p>
 `}
 
@@ -789,7 +789,7 @@ ${breadcrumbs(trail)}
 
     <h2>Advertising</h2>
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}The site carries advertising, which is what pays for it. The ads are served by Adsterra, not by me: they choose what you see, and they may set cookies or similar identifiers to do it, including for personalised advertising. I do not receive your data from them and I cannot see who was shown what.${CONSENT.enabled ? ' If you refuse, no ad script is fetched and the ad slots stay empty.' : ''}</p>
-    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker stops it, and you can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
+    <p>Adsterra publishes its own <a href="https://adsterra.com/privacy-policy/" rel="nofollow noopener" target="_blank">privacy policy</a>, which governs that part of your visit. If you would rather not be tracked for advertising, a content blocker may stop it, though the ads are served from addresses that change to get past blockers, so it is not a guarantee. You can also turn off ad personalisation in <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Google's ad settings</a> for the Google side of the web.</p>
 
     <h2>What else the site loads</h2>
     <ul>

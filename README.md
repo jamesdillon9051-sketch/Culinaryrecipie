@@ -4922,6 +4922,21 @@ because `getElementById` returns a single node and two copies of the snippet
 in one page leave the second slot empty forever. All of them load before the
 closing body tag; a third-party script in `<head>` fails the check.
 
+### Where the units load from
+
+All three units, the social bar, the native banner and the 300x250 banner, are
+the anti-adblock tags from the Adsterra dashboard and load from
+`disembroildisembroildissipatespots.com`. Adsterra issues those under addresses
+it changes to get past content blockers, so the address is the one thing here
+that can go stale. It is written in three places, all in `src/data/ads.js`; the
+build puts them into every page and into the two frame documents, and
+`npm run check` reads them from the same file, so a rotated address is a
+three-line edit and one rebuild. The unit keys did not change when the host did.
+
+The privacy page used to say that any content blocker stops the ads. With these
+tags that stopped being true, so it now says a blocker may stop them and may
+not, and its "last updated" date moved with the wording.
+
 ### The 300x250 banner is framed too, for two different reasons
 
 It is a different format from the native banners and it cannot be pasted
