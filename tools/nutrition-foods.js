@@ -204,7 +204,8 @@ const MORE = {
   baby_corn: [2.3, 6.5, 0.2, 2.1, 2, 4], bamboo_shoots: [2.5, 5.2, 0.3, 2.2, 3, 4],
   tomatillo: [1, 5.8, 1, 1.9, 3.9, 1],
   edamame_pods: [6.5, 4.9, 2.9, 2.9, 1.2, 4],
-  turkey_deli: [18, 2, 1.5, 0, 1, 900]
+  turkey_deli: [18, 2, 1.5, 0, 1, 900],
+  lemongrass: [1.8, 25, 0.5, 0, 0, 6]
 };
 
 /* Potassium and phosphorus, mg per 100 g. Only the foods the Kidney-Friendly recipes use need an
@@ -235,7 +236,7 @@ const KP = {
   cranberries: [85, 11], cranberries_dried: [49, 11], apple_sauce: [75, 7],
   oil: [0, 0], cooking_spray: [0, 0], mayonnaise_light: [40, 25],
   vinegar: [73, 4], balsamic: [112, 20], honey: [52, 4], maple_syrup: [212, 2], dijon: [138, 90], mustard: [152, 108],
-  soy_lowsodium: [300, 110], stock_unsalted: [50, 15], stock_lowsodium: [60, 18], water: [0, 0], tea: [0, 0],
+  soy_lowsodium: [300, 110], stock_unsalted: [90, 30], stock_lowsodium: [100, 35], water: [0, 0], tea: [0, 0],
   spice: [1500, 330], paprika: [2280, 314], cumin: [1788, 499], pepper_black: [1329, 158], turmeric: [2525, 268],
   cinnamon: [431, 64], curry_powder: [1170, 367], ginger_ground: [1320, 168], herbs_dried: [1300, 160],
   garlic_powder: [1193, 417], onion_powder: [985, 322], chilli_powder: [1800, 250], cayenne: [2014, 293],
@@ -243,7 +244,10 @@ const KP = {
   tomatillo: [268, 39],
   sausage_chicken: [250, 150],
   edamame_pods: [240, 93],
-  turkey_deli: [300, 230]
+  turkey_deli: [300, 230],
+  chicken_breast_cooked: [260, 230], turkey_cooked: [250, 210], beef_stewing: [320, 180], beef_chuck: [310, 180], catfish: [360, 210],
+  english_muffin: [130, 100], bun: [140, 110], monterey_jack: [77, 393], swiss: [77, 560], mayonnaise: [20, 20],
+  lemongrass: [723, 101], lime: [102, 18], orange: [181, 14], orange_juice: [200, 17], almond_milk: [70, 25], pineapple_tin: [100, 7], bamboo_shoots: [160, 25], cornmeal: [120, 90]
 };
 
 /* Spoken names that are not the key: "zucchini" for courgette, "ground" for mince. The matcher
@@ -398,7 +402,10 @@ const ALIAS = {
   tomatillo: ['tomatillos', 'tomatillo', 'fresh tomatillos'],
   sausage_chicken: ['chicken sausage', 'chicken sausages', 'gluten-free chicken sausages', 'fresh chicken sausages', 'cooked chicken sausages', 'chicken apple sausage'],
   edamame_pods: ['edamame in the pod', 'edamame in their pods', 'edamame in pods', 'frozen edamame in pods', 'frozen edamame in the pod'],
-  turkey_deli: ['deli turkey breast', 'sliced deli turkey breast', 'deli turkey', 'sliced deli turkey', 'turkey deli slices']
+  turkey_deli: ['deli turkey breast', 'sliced deli turkey breast', 'deli turkey', 'sliced deli turkey', 'turkey deli slices'],
+  beef_stewing: ['stewing beef', 'lean stewing beef', 'beef stew meat', 'stewing steak', 'lean stewing steak'],
+  lemongrass: ['lemongrass', 'fresh lemongrass', 'lemon grass'],
+  bun: ['burger bun', 'burger buns', 'hamburger bun', 'hamburger buns', 'small burger buns', 'bun', 'buns']
 };
 
 /* Grams in a spoon, a cup or one whole item, where it is not the 1 g to the millilitre of water.
@@ -440,7 +447,7 @@ const PORTION = {
   raspberry: { cup: 123 }, pineapple: { each: 80, cup: 165 }, grapes: { cup: 151 }, mango: { each: 200, cup: 165 }, watermelon: { cup: 152 }, raisins: { tbsp: 9, cup: 145 },
   cranberries_dried: { tbsp: 8, cup: 120 }, cranberries: { cup: 100 }, dates: { each: 24 }, apple_sauce: { cup: 244 }, coconut_milk: { cup: 240 }, popcorn: { cup: 8 },
   tofu: { cup: 252 }, edamame: { cup: 155 }, chickpeas_tin: { cup: 164 }, black_beans_tin: { cup: 172 }, kidney_beans_tin: { cup: 177 }, white_beans_tin: { cup: 179 },
-  tomatillo: { each: 35 }
+  tomatillo: { each: 35 }, bun: { each: 50 }
 };
 
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
