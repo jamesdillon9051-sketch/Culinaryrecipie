@@ -51,7 +51,9 @@ const NOT_REALLY = [
   [/\bgluten[- ]free \w+/i, 'flour'],
   [/\b(?:coconut|rice|gram|chickpea|maize|corn|almond|buckwheat|tapioca|potato|cassava|teff|sorghum|millet|quinoa)\s+flour\b|\bbesan\b|\bcornflour\b|\bmasarepa\b|\bmasa harina\b/i, 'flour'],
   [/\brice noodles?\b|\bglass noodles?\b|\bsweet potato noodles?\b/i, 'noodle'],
-  [/\btamari\b/i, 'soy sauce']
+  [/\btamari\b/i, 'soy sauce'],
+  /* A vegetable, not a pasta. */
+  [/\bspaghetti squash\b/i, 'spaghetti']
 ];
 
 function lines(recipe) {

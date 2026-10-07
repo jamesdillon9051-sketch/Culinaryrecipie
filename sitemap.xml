@@ -170,14 +170,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/cuisines/lebanese/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://weeklydelight.com/cuisines/japanese/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/cuisines/japanese/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://weeklydelight.com/cuisines/lebanese/</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -219,7 +219,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/cuisines/thai/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/cuisines/middle-eastern/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -231,12 +237,6 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/cuisines/turkish/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/cuisines/middle-eastern/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -644,13 +644,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/cream/</loc>
+    <loc>https://weeklydelight.com/ingredients/chicken/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/chicken/</loc>
+    <loc>https://weeklydelight.com/ingredients/cream/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -668,31 +668,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/rice/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/ingredients/carrots/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/potatoes/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/pork/</loc>
+    <loc>https://weeklydelight.com/ingredients/rice/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://weeklydelight.com/ingredients/lime/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/ingredients/potatoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/ingredients/pork/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -716,24 +716,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/bacon/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/lamb/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/honey/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://weeklydelight.com/ingredients/cabbage/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -746,13 +728,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://weeklydelight.com/ingredients/honey/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/ingredients/mushrooms/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/prawns/</loc>
+    <loc>https://weeklydelight.com/ingredients/bacon/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/ingredients/lamb/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -764,19 +758,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://weeklydelight.com/ingredients/prawns/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/ingredients/apples/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/pasta/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://weeklydelight.com/ingredients/spinach/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/spinach/</loc>
+    <loc>https://weeklydelight.com/ingredients/pasta/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -788,13 +788,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/noodles/</loc>
+    <loc>https://weeklydelight.com/ingredients/avocado/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/avocado/</loc>
+    <loc>https://weeklydelight.com/ingredients/noodles/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -807,24 +807,6 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/ingredients/chickpeas/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/coconut-milk/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/strawberries/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/ingredients/aubergine/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -836,14 +818,32 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://weeklydelight.com/ingredients/coconut-milk/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/ingredients/strawberries/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/ingredients/oats/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://weeklydelight.com/ingredients/aubergine/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/ingredients/bananas/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -854,14 +854,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/coffee/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <loc>https://weeklydelight.com/ingredients/tofu/</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/ingredients/tofu/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://weeklydelight.com/ingredients/coffee/</loc>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -27705,6 +27705,606 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sugar-free-raspberry-lemonade/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/veggie-egg-white-omelet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/egg-white-breakfast-wrap/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/asparagus-frittata/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/banana-oat-breakfast-cookies/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sweet-potato-toast/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cottage-cheese-flatbread/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/black-bean-breakfast-tostadas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/peanut-butter-banana-toast/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/big-batch-vegetable-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-meatball-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sopa-de-lima/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/carrot-ginger-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spinach-and-white-bean-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chicken-fajita-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/broccoli-spinach-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hearty-chicken-and-kale-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/egg-roll-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/escarole-and-bean-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/caldo-de-pollo/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chilled-cucumber-soup/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chinese-chicken-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shaved-brussels-sprout-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-arugula-salad-with-parmesan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shrimp-and-cucumber-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/citrus-fennel-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/zucchini-ribbon-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/kale-and-apple-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/rainbow-slaw/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/salmon-salad-with-dill-and-cucumber/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/thai-cucumber-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/carrot-raisin-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/grapefruit-avocado-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sunomono/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/edamame-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cucumber-noodle-salad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-taco-lettuce-wraps/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/buffalo-chicken-lettuce-wraps/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hummus-veggie-wrap/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-avocado-wrap/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/collard-green-wraps/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/portobello-pizzas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-zucchini-boats/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/stuffed-sweet-potatoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/portobello-tacos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/roasted-cauliflower-tacos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shrimp-taco-bowls/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/greek-chicken-pitas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-pinwheels/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mushroom-lettuce-cups/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/coctel-de-camarones/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tuna-stuffed-tomatoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baked-turkey-meatballs/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/turkey-sausage-and-vegetable-skillet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cajun-chicken-and-cabbage-skillet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shrimp-foil-packets/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tuna-burgers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sheet-pan-salmon-and-asparagus/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-cod/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-cauliflower/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-asparagus/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/instant-pot-chicken-breast/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/grilled-vegetable-skewers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mexican-cauliflower-rice-bowls/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cabbage-roll-skillet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/eggplant-lasagna-roll-ups/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baked-tilapia-with-tomatoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/honey-lime-chicken-skewers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chickpea-veggie-burgers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poached-chicken-breast/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/philly-cheesesteak-stuffed-peppers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/miso-cod/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chipotle-lime-chicken/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chili-lime-shrimp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-tofu/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-scallops/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-tilapia/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spaghetti-squash-primavera/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sheet-pan-chicken-and-brussels-sprouts/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sauteed-kale-with-garlic/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-roasted-broccoli/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cumin-roasted-carrots/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/balsamic-roasted-mushrooms/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/roasted-tomatoes-with-herbs/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/grilled-zucchini/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/roasted-delicata-squash/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/roasted-cabbage-wedges/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-green-beans/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-mushrooms/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cottage-cheese-ranch-dip/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baked-apple-chips/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/frozen-yogurt-pops/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-popped-popcorn/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cucumber-hummus-bites/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/zucchini-roll-ups/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cottage-cheese-ice-cream/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/strawberry-sorbet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/poached-pears/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/frozen-chocolate-banana-bites/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baked-peaches-with-cinnamon/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/grilled-pineapple/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
