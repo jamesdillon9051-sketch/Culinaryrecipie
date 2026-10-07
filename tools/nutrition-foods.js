@@ -201,7 +201,10 @@ const MORE = {
   stock_unsalted: [1, 0.5, 0.2, 0, 0.3, 40], stock_lowsodium: [1, 0.7, 0.2, 0, 0.3, 65],
   sweetener: [0, 0, 0, 0, 0, 0], tea: [0, 0, 0, 0, 0, 0],
   blue_cheese: [21.4, 2.3, 28.7, 0, 0.5, 1395], chocolate_unsweetened: [13, 29, 53, 16, 1, 8], bay_leaf: [7.6, 75, 8.4, 26, 0, 23], lime: [0.7, 10.5, 0.2, 2.8, 1.7, 2], kimchi: [1.1, 2.4, 0.5, 1.6, 1.1, 500], mixed_veg: [3, 9, 0.4, 3.5, 3.5, 40],
-  baby_corn: [2.3, 6.5, 0.2, 2.1, 2, 4], bamboo_shoots: [2.5, 5.2, 0.3, 2.2, 3, 4]
+  baby_corn: [2.3, 6.5, 0.2, 2.1, 2, 4], bamboo_shoots: [2.5, 5.2, 0.3, 2.2, 3, 4],
+  tomatillo: [1, 5.8, 1, 1.9, 3.9, 1],
+  edamame_pods: [6.5, 4.9, 2.9, 2.9, 1.2, 4],
+  turkey_deli: [18, 2, 1.5, 0, 1, 900]
 };
 
 /* Potassium and phosphorus, mg per 100 g. Only the foods the Kidney-Friendly recipes use need an
@@ -236,7 +239,11 @@ const KP = {
   spice: [1500, 330], paprika: [2280, 314], cumin: [1788, 499], pepper_black: [1329, 158], turmeric: [2525, 268],
   cinnamon: [431, 64], curry_powder: [1170, 367], ginger_ground: [1320, 168], herbs_dried: [1300, 160],
   garlic_powder: [1193, 417], onion_powder: [985, 322], chilli_powder: [1800, 250], cayenne: [2014, 293],
-  sesame_seeds: [468, 629], vanilla: [148, 6], sweetener: [0, 0], chocolate_unsweetened: [830, 300], bay_leaf: [529, 113], salt: [8, 0], popcorn: [329, 358]
+  sesame_seeds: [468, 629], vanilla: [148, 6], sweetener: [0, 0], chocolate_unsweetened: [830, 300], bay_leaf: [529, 113], salt: [8, 0], popcorn: [329, 358],
+  tomatillo: [268, 39],
+  sausage_chicken: [250, 150],
+  edamame_pods: [240, 93],
+  turkey_deli: [300, 230]
 };
 
 /* Spoken names that are not the key: "zucchini" for courgette, "ground" for mince. The matcher
@@ -383,11 +390,15 @@ const ALIAS = {
   crackers: ['crackers', 'whole-grain crackers', 'rice cakes'], pickle: ['pickles', 'dill pickles', 'pickle relish'], gherkins: ['gherkins', 'cornichons', 'dill pickle', 'dill pickles'],
   cornmeal: ['cornmeal', 'polenta', 'yellow cornmeal'], couscous: ['couscous', 'whole wheat couscous'], semolina: ['semolina'], sauerkraut: ['sauerkraut'], horseradish: ['horseradish', 'prepared horseradish'], milk_powder: ['milk powder', 'powdered milk'], whey_protein: ['protein powder', 'whey protein', 'whey protein powder'],
   smoked_salmon: ['smoked salmon', 'lox', 'cold-smoked salmon'], salami: ['salami'], ham: ['ham', 'deli ham', 'cooked ham', 'diced ham', 'ham steak'], bacon_back: ['bacon', 'canadian bacon', 'back bacon', 'turkey bacon'],
-  sausage_pork: ['italian sausage', 'pork sausage', 'breakfast sausage', 'sausage', 'sausages', 'andouille sausage', 'kielbasa', 'chicken sausage', 'smoked sausage', 'chorizo'],
+  sausage_pork: ['italian sausage', 'pork sausage', 'breakfast sausage', 'sausage', 'sausages', 'andouille sausage', 'kielbasa', 'smoked sausage', 'chorizo'],
   pepperoni: ['pepperoni', 'turkey pepperoni'], kimchi: ['kimchi'], anchovies: ['anchovies', 'anchovy fillets', 'anchovy'],
   sundried_tomatoes: ['sun-dried tomatoes', 'sundried tomatoes', 'sun dried tomatoes'], coconut_cream: ['coconut cream'], ice_cream: ['ice cream'], mixed_veg: ['mixed vegetables', 'frozen mixed vegetables', 'stir-fry vegetables', 'frozen vegetables'], baby_corn: ['baby corn'], bamboo_shoots: ['bamboo shoots'],
    white_wine: ['white wine', 'dry white wine'], red_wine: ['red wine', 'dry red wine'],
-  sherry: ['sherry', 'dry sherry'], cider: ['apple cider', 'cider'], beer: ['beer', 'lager']
+  sherry: ['sherry', 'dry sherry'], cider: ['apple cider', 'cider'], beer: ['beer', 'lager'],
+  tomatillo: ['tomatillos', 'tomatillo', 'fresh tomatillos'],
+  sausage_chicken: ['chicken sausage', 'chicken sausages', 'gluten-free chicken sausages', 'fresh chicken sausages', 'cooked chicken sausages', 'chicken apple sausage'],
+  edamame_pods: ['edamame in the pod', 'edamame in their pods', 'edamame in pods', 'frozen edamame in pods', 'frozen edamame in the pod'],
+  turkey_deli: ['deli turkey breast', 'sliced deli turkey breast', 'deli turkey', 'sliced deli turkey', 'turkey deli slices']
 };
 
 /* Grams in a spoon, a cup or one whole item, where it is not the 1 g to the millilitre of water.
@@ -428,7 +439,8 @@ const PORTION = {
   tomatoes_tin: { cup: 240 }, peas: { cup: 145 }, sweetcorn: { each: 150, cup: 145 }, olives: { each: 4 }, capers: { tbsp: 9 }, strawberry: { each: 18, cup: 150 }, blueberry: { cup: 148 },
   raspberry: { cup: 123 }, pineapple: { each: 80, cup: 165 }, grapes: { cup: 151 }, mango: { each: 200, cup: 165 }, watermelon: { cup: 152 }, raisins: { tbsp: 9, cup: 145 },
   cranberries_dried: { tbsp: 8, cup: 120 }, cranberries: { cup: 100 }, dates: { each: 24 }, apple_sauce: { cup: 244 }, coconut_milk: { cup: 240 }, popcorn: { cup: 8 },
-  tofu: { cup: 252 }, edamame: { cup: 155 }, chickpeas_tin: { cup: 164 }, black_beans_tin: { cup: 172 }, kidney_beans_tin: { cup: 177 }, white_beans_tin: { cup: 179 }
+  tofu: { cup: 252 }, edamame: { cup: 155 }, chickpeas_tin: { cup: 164 }, black_beans_tin: { cup: 172 }, kidney_beans_tin: { cup: 177 }, white_beans_tin: { cup: 179 },
+  tomatillo: { each: 35 }
 };
 
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
