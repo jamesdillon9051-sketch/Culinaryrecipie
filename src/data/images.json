@@ -48192,5 +48192,81 @@
  "vegetable-noodle-soup": {
   "hero": null,
   "process": null
+ },
+ "vegetable-fried-rice": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgADAAQAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AY8l2xEFzICfvEjuKSZULAt8/HQ9qfqY2W4mXh0OAfas0TvNMkTHCt129aySvqaN2Z//Z",
+   "color": "#8f7d6b",
+   "title": "A plate of Vegetable Fried Rice served with a side of sauce.",
+   "author": "Dulcea Suresha",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://wordpress.org/photos/photo/655681f3f0/",
+   "source": "Wordpress",
+   "file": "vegetable-fried-rice"
+  },
+  "process": null
+ },
+ "vegetable-pot-pie": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBxfbEZNxwBnAp9vKJUyGDLjINZSyMHKZypFWoDtG1QFHXipS0KZ//Z",
+   "color": "#8f867f",
+   "title": "Amy's vegetable pot pie",
+   "author": "Mx. Granger",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Amy%27s_vegetable_pot_pie.jpg",
+   "source": "Wikimedia Commons",
+   "file": "vegetable-pot-pie"
+  },
+  "process": null
+ },
+ "lentil-bolognese": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCKS+Z5XB3Kc4AzTDIDN+8YjAyOM1dvLaKRSSuDt3ZHY03T7OJ5hu3HA6ZrI3uj/9k=",
+   "color": "#93746a",
+   "title": "Eggplant, spinach, and lentil bolognese",
+   "author": "veritatem",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/66722164@N00/31867005057",
+   "source": "Flickr",
+   "file": "lentil-bolognese"
+  },
+  "process": null
+ },
+ "egg-noodle-stir-fry": {
+  "hero": null,
+  "process": null
+ },
+ "sweet-potato-soup": {
+  "hero": null,
+  "process": null
+ },
+ "butternut-squash-pasta": {
+  "hero": null,
+  "process": null
+ },
+ "zucchini-bake": {
+  "hero": null,
+  "process": null
+ },
+ "vegetable-rice-soup": {
+  "hero": null,
+  "process": null
+ },
+ "roasted-vegetable-pasta": {
+  "hero": null,
+  "process": null
+ },
+ "black-bean-and-rice-skillet": {
+  "hero": null,
+  "process": null
  }
 }

@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2959
-photographs, **1197** are CC0 or public domain and carry no conditions at all, and
-**1762** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2962
+photographs, **1199** are CC0 or public domain and carry no conditions at all, and
+**1763** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,20 +179,20 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2476 |
+| Hero photographs | 2479 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6140 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 328 |
+| Total image files | 6146 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 325 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 790 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 599 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 791 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 600 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 387 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 348 | No rights reserved — no attribution legally required |
+| CC0 1.0 | 349 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 294 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -429,7 +429,6 @@ and no usable illustration of them could be drawn either:
 - Egg Noodle Stir Fry (`egg-noodle-stir-fry`)
 - Instant Noodle Upgrade (`instant-noodle-upgrade`)
 - Cauliflower Curry (`cauliflower-curry`)
-- Vegetable Fried Rice (`vegetable-fried-rice`)
 - Egg Biryani (`egg-biryani`)
 - Pumpkin Curry (`pumpkin-curry`)
 - Sweet Potato Soup (`sweet-potato-soup`)
@@ -439,13 +438,11 @@ and no usable illustration of them could be drawn either:
 - Zucchini Bake (`zucchini-bake`)
 - Marrow Bake (`marrow-bake`)
 - Vegetable Stew (`vegetable-stew`)
-- Vegetable Pot Pie (`vegetable-pot-pie`)
 - Vegetable Lasagna (`vegetable-lasagna`)
 - Vegetable Noodle Soup (`vegetable-noodle-soup`)
 - Vegetable Rice Soup (`vegetable-rice-soup`)
 - Vegetable Chili (`vegetable-chili`)
 - Roasted Vegetable Pasta (`roasted-vegetable-pasta`)
-- Lentil Bolognese (`lentil-bolognese`)
 - Bean and Rice Burrito (`bean-and-rice-burrito`)
 - Black Bean and Rice Skillet (`black-bean-and-rice-skillet`)
 - Eggs in Purgatory (`eggs-in-purgatory`)
@@ -3525,7 +3522,10 @@ licence as the rest of this project.
 | `potato-curry.webp` / `.jpg` | Potato Curry | Hero | Surinaamse kerrie-aardappelen (image of potato curry on Wikidata Q135442115) | Pbuddenberg | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Surinaamse_kerrie-aardappelen.jpg) |
 | `tarka-dal.webp` / `.jpg` | Tarka Dal | Hero | Dal Chana Tarka | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_Chana_Tarka.JPG) |
 | `vegetable-pulao.webp` / `.jpg` | Vegetable Pulao | Hero | Pulao Vegetable Methi India | Divya Kudua | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pulao_Vegetable_Methi_India.jpg) |
+| `vegetable-fried-rice.webp` / `.jpg` | Vegetable Fried Rice | Hero | A plate of Vegetable Fried Rice served with a side of sauce. | Dulcea Suresha | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/655681f3f0/) |
 | `roast-pumpkin-soup.webp` / `.jpg` | Roast Pumpkin Soup | Hero | Cremas de calabaza-2 (image of pumpkin soup on Wikidata Q1797271) | Cremas_de_calabaza.jpg: Boca Dorada derivative work: Itzuvit (talk) | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cremas_de_calabaza-2.jpg) |
+| `vegetable-pot-pie.webp` / `.jpg` | Vegetable Pot Pie | Hero | Amy's vegetable pot pie | Mx. Granger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amy%27s_vegetable_pot_pie.jpg) |
+| `lentil-bolognese.webp` / `.jpg` | Lentil Bolognese | Hero | Eggplant, spinach, and lentil bolognese | veritatem | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66722164@N00/31867005057) |
 
 ---
 

@@ -30546,6 +30546,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-fried-rice.jpg</image:loc>
+      <image:title>Vegetable Fried Rice</image:title>
+      <image:caption>Vegetable Fried Rice, a quick Chinese meal recipe — egg fried rice with vegetables</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-biryani/</loc>
@@ -30617,6 +30622,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-pot-pie.jpg</image:loc>
+      <image:title>Vegetable Pot Pie</image:title>
+      <image:caption>Vegetable Pot Pie, an American dinner recipe — meatless pot pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-lasagna/</loc>
@@ -30653,6 +30663,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentil-bolognese.jpg</image:loc>
+      <image:title>Lentil Bolognese</image:title>
+      <image:caption>Lentil Bolognese, an Italian dinner recipe — budget bolognese without meat</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bean-and-rice-burrito/</loc>
