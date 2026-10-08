@@ -31313,12 +31313,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/white-bread.jpg</image:loc>
+      <image:title>White Bread</image:title>
+      <image:caption>White Bread, a British baking recipe — homemade white loaf</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/flatbread/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/flatbread.jpg</image:loc>
+      <image:title>Flatbread</image:title>
+      <image:caption>Flatbread, a Middle Eastern baking recipe — cheap bread for eight</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-rolls/</loc>
@@ -31337,12 +31347,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegemite-scrolls.jpg</image:loc>
+      <image:title>Vegemite Scrolls</image:title>
+      <image:caption>Vegemite Scrolls, an Australian baking recipe — vegemite and cheese scrolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sticky-date-pudding/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sticky-date-pudding.jpg</image:loc>
+      <image:title>Sticky Date Pudding</image:title>
+      <image:caption>Sticky Date Pudding, an Australian dessert recipe — sticky toffee date pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/milo-slice/</loc>
@@ -31361,6 +31381,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pear-crumble.jpg</image:loc>
+      <image:title>Pear Crumble</image:title>
+      <image:caption>Pear Crumble, a British dessert recipe — easy pear and oat crumble</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/berry-crumble/</loc>

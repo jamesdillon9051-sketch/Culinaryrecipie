@@ -23717,5 +23717,47 @@
       "page": "https://commons.wikimedia.org/wiki/File:Apple_butter_and_peanut_butter,_heated_on_a_half_sandwich_of_toasted_potato_bread_-_Massachusetts.jpg",
       "why": "toast with spreads"
     }
+  ],
+  "milk-bread": [
+    {
+      "page": "https://www.flickr.com/photos/187878392@N04/52432089637",
+      "why": "a pate canape on cake, page already used"
+    }
+  ],
+  "garlic-butter-rolls": [
+    {
+      "page": "https://www.flickr.com/photos/156324531@N04/40406139014",
+      "why": "a pastry shop interior"
+    }
+  ],
+  "hamburger-buns": [
+    {
+      "page": "https://stocksnap.io/photo/hamburgers-buns-FNX2GU2Y5P",
+      "why": "burgers, not the buns"
+    }
+  ],
+  "milo-slice": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=175946312",
+      "why": "slices of white bread"
+    }
+  ],
+  "apple-slab-pie": [
+    {
+      "page": "https://www.flickr.com/photos/143684181@N08/43430078634",
+      "why": "a slab of green marble"
+    }
+  ],
+  "chocolate-pudding": [
+    {
+      "page": "https://www.flickr.com/photos/43296902@N00/48046279676",
+      "why": "a decorated chocolate dessert with fruit, page used elsewhere"
+    }
+  ],
+  "chocolate-oat-bars": [
+    {
+      "page": "https://www.rawpixel.com/image/5927747/photo-image-public-domain-food-free",
+      "why": "cookies, page used for another recipe"
+    }
   ]
 }

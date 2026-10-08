@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2989
+Every photograph on Weekly Delight is freely licensed. Of 2994
 photographs, **1213** are CC0 or public domain and carry no conditions at all, and
-**1776** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**1781** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,23 +179,23 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2506 |
+| Hero photographs | 2511 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6200 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 298 |
+| Total image files | 6210 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 293 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 798 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 800 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 602 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 389 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 390 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 357 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 297 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 298 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 172 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 168 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 169 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 80 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 50 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 42 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -500,15 +500,10 @@ and no usable illustration of them could be drawn either:
 - Potato Bread (`potato-bread`)
 - Potato Farls (`potato-farls`)
 - Milk Bread (`milk-bread`)
-- White Bread (`white-bread`)
-- Flatbread (`flatbread`)
 - Garlic Butter Rolls (`garlic-butter-rolls`)
 - Hamburger Buns (`hamburger-buns`)
-- Vegemite Scrolls (`vegemite-scrolls`)
-- Sticky Date Pudding (`sticky-date-pudding`)
 - Milo Slice (`milo-slice`)
 - Apple Slab Pie (`apple-slab-pie`)
-- Pear Crumble (`pear-crumble`)
 - Berry Crumble (`berry-crumble`)
 - Chocolate Pudding (`chocolate-pudding`)
 - Chocolate Oat Bars (`chocolate-oat-bars`)
@@ -3526,6 +3521,11 @@ licence as the rest of this project.
 | `pita-pizza.webp` / `.jpg` | Pita Pizza | Hero | Homemade Pita Pizza | Geoff Peters 604 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/54359128@N00/5206619742) |
 | `bagel-pizza.webp` / `.jpg` | Bagel Pizza | Hero | Bagel bites pepperoni | Sturmen | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bagel_bites_pepperoni.JPG) |
 | `bread-rolls.webp` / `.jpg` | Bread Rolls | Hero | Bread-rolls | Kerstin Riemer | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=94437486) |
+| `white-bread.webp` / `.jpg` | White Bread | Hero | Weißbrot-1 (image of white bread on Wikidata Q1501889) | Rainer Zenz | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wei%C3%9Fbrot-1.jpg) |
+| `flatbread.webp` / `.jpg` | Flatbread | Hero | Rye and Potato rieska - 1 (image of flatbread on Wikidata Q666242) | Hellahulla (Hellahulla) | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rye_and_Potato_rieska_-_1.JPG) |
+| `vegemite-scrolls.webp` / `.jpg` | Vegemite Scrolls | Hero | Vegemite Scroll | pontman | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/66036063@N00/172674504) |
+| `sticky-date-pudding.webp` / `.jpg` | Sticky Date Pudding | Hero | Sticky date pudding with caramel sauce and creme chantilly | BotheredByBees | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87273935@N00/3779382901) |
+| `pear-crumble.webp` / `.jpg` | Pear Crumble | Hero | Apple pear crumble | Saucy Salad | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/34048699@N07/6313387311) |
 
 ---
 
