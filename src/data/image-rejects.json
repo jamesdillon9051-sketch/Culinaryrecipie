@@ -23519,5 +23519,23 @@
       "page": "https://commons.wikimedia.org/wiki/File:Cheese_and_Tomato_Toastie_-_Caff%C3%A8_Nero_2026-01-24.jpg",
       "why": "a toasted sandwich held in a hand"
     }
+  ],
+  "breakfast-quesadilla": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Breakfast_quesadilla_at_Found_Off_Chapel_in_South_Yarra.jpg",
+      "why": "ham and poached egg on a Vegetarian-tagged recipe"
+    }
+  ],
+  "spaghetti-on-toast": [
+    {
+      "page": "https://www.flickr.com/photos/47854142@N04/5596457567",
+      "why": "chorizo spaghetti"
+    }
+  ],
+  "fried-egg-sandwich": [
+    {
+      "page": "https://www.rawpixel.com/image/5927634/photo-image-public-domain-food-free",
+      "why": "open avocado toasts, not a sandwich"
+    }
   ]
 }
