@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6328 image files (WebP + JPEG)
+│       └── img/recipes/         # 6490 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6328 image files
+├── assets/                      #    css, js and 6490 image files
 ├── recipes/                     #    3115 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 281,788 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 281,863 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2570 of the 3115 recipes have a photograph. Of the 3053 images on the site,
-1238 are CC0 or public domain, 926 are CC BY and 889 are CC BY-SA. Anything
+2651 of the 3115 recipes have a photograph. Of the 3134 images on the site,
+1254 are CC0 or public domain, 948 are CC BY and 932 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5132,6 +5132,21 @@ the recipe the difference is small and the credit line names the original
 caption: a pizza with pesto for a tomato-sauce sheet-pan pizza, a plum chutney
 with almonds, a chicken panini on focaccia for a mozzarella and ham one. Eight
 recipes had no candidate at all because the fetch stopped before reaching them.
+
+A second round then went back to all 434 recipes still without a picture
+(`tools/wide_search.py`: the photographs in each dish's Wikipedia article, its
+Commons category, and the Commons file search by name). It staged 960
+candidates for 318 recipes, and every one was looked at on a contact sheet.
+87 were published and 873 were refused and recorded in `image-rejects.json`;
+six of the 87 were withdrawn on a second look (a beer shandy for a
+non-alcoholic ginger beer, a branded packet of oatmeal creme pies, a cookie for
+oatmeal bars, a meat burger for a vegetarian mushroom burger, an apple
+shortbread for an apple cake, and baked oatmeal for an oatmeal cake). 81 recipes
+gained a photograph, leaving 353 on gradient cards. The refusals are the usual
+ones: the same slow-cooker or egg-white picture offered to a dozen recipes, a
+place or a person that shares the dish's name (a hotel bar for "dream bars", an
+aquarium for "ranch water"), raw ingredients, and wheat, meat or dairy on a
+recipe labelled otherwise.
 
 ## Ads
 
