@@ -30004,6 +30004,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mince-and-tatties.jpg</image:loc>
+      <image:title>Mince and Tatties</image:title>
+      <image:caption>Mince and Tatties, a Scottish dinner recipe — budget mince and mash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-potato-pie/</loc>
@@ -30022,6 +30027,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bedfordshire-clanger.jpg</image:loc>
+      <image:title>Bedfordshire Clanger</image:title>
+      <image:caption>Bedfordshire Clanger, a British dinner recipe — savoury and sweet suet roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cumberland-sausage-hotpot/</loc>
@@ -30040,6 +30050,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/johnny-marzetti.jpg</image:loc>
+      <image:title>Johnny Marzetti</image:title>
+      <image:caption>Johnny Marzetti, an American dinner recipe — macaroni beef casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cowboy-casserole/</loc>
@@ -30076,6 +30091,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/american-chop-suey.jpg</image:loc>
+      <image:title>American Chop Suey</image:title>
+      <image:caption>American Chop Suey, an American dinner recipe — chop suey with macaroni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-bean-chili/</loc>
@@ -30106,12 +30126,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beans-and-franks.jpg</image:loc>
+      <image:title>Beans and Franks</image:title>
+      <image:caption>Beans and Franks, a quick American meal recipe — franks and beans</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chili-dogs/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chili-dogs.jpg</image:loc>
+      <image:title>Chili Dogs</image:title>
+      <image:caption>Chili Dogs, a quick American meal recipe — chili cheese dogs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-pot-roast/</loc>
@@ -30136,6 +30166,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pork-steaks.jpg</image:loc>
+      <image:title>Pork Steaks</image:title>
+      <image:caption>Pork Steaks, an American dinner recipe — pan fried pork shoulder steaks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-garlic-pork-chops/</loc>
@@ -30208,6 +30243,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kielbasa-potato-skillet.jpg</image:loc>
+      <image:title>Kielbasa Potato Skillet</image:title>
+      <image:caption>Kielbasa Potato Skillet, a quick American meal recipe — sausage and potato skillet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haluski/</loc>
@@ -30250,6 +30290,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-potato-bake.jpg</image:loc>
+      <image:title>Chicken and Potato Bake</image:title>
+      <image:caption>Chicken and Potato Bake, a British dinner recipe — chicken potato casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crispy-chicken-thighs-and-rice/</loc>
@@ -30292,18 +30337,33 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-schnitzel.jpg</image:loc>
+      <image:title>Chicken Schnitzel</image:title>
+      <image:caption>Chicken Schnitzel, a quick Australian meal recipe — budget schnitzel dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-nuggets/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-nuggets.jpg</image:loc>
+      <image:title>Chicken Nuggets</image:title>
+      <image:caption>Chicken Nuggets, an American dinner recipe — easy crispy chicken bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-carcass-soup/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-carcass-soup.jpg</image:loc>
+      <image:title>Chicken Carcass Soup</image:title>
+      <image:caption>Chicken Carcass Soup, a British lunch recipe — soup from roast chicken bones</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-fish-cakes/</loc>
@@ -30340,6 +30400,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-loaf.jpg</image:loc>
+      <image:title>Salmon Loaf</image:title>
+      <image:caption>Salmon Loaf, an American dinner recipe — cheap salmon dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-pasta/</loc>
@@ -30352,12 +30417,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sardine-pasta.jpg</image:loc>
+      <image:title>Sardine Pasta</image:title>
+      <image:caption>Sardine Pasta, a quick Italian meal recipe — spaghetti with tinned sardines</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mackerel-fishcakes/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mackerel-fishcakes.jpg</image:loc>
+      <image:title>Mackerel Fishcakes</image:title>
+      <image:caption>Mackerel Fishcakes, a quick British meal recipe — easy mackerel and potato cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-stew/</loc>
@@ -30370,6 +30445,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fish-chowder.jpg</image:loc>
+      <image:title>Fish Chowder</image:title>
+      <image:caption>Fish Chowder, an American dinner recipe — budget seafood soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cod-and-potato-bake/</loc>

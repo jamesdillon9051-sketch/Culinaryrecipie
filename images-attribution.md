@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2936
-photographs, **1186** are CC0 or public domain and carry no conditions at all, and
-**1750** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2952
+photographs, **1194** are CC0 or public domain and carry no conditions at all, and
+**1758** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -178,27 +178,27 @@ wrong dish were deleted rather than kept.
 
 | | |
 |---|---|
-| Recipes | 2715 |
-| Hero photographs | 2453 |
+| Recipes | 2915 |
+| Hero photographs | 2469 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6094 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 151 |
+| Total image files | 6126 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 335 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 785 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 594 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 386 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 342 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 290 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY 2.0 | 789 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 597 | No rights reserved — no attribution legally required |
+| CC BY-SA 4.0 | 387 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 347 | No rights reserved — no attribution legally required |
+| CC BY-SA 2.0 | 291 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 166 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 77 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 50 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC BY 3.0 | 41 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 3.0 | 42 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 11 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY-SA 2.5 | 11 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC BY-SA 1.0 | 3 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -379,6 +379,190 @@ and no usable illustration of them could be drawn either:
 - Oven-Baked Catfish (`oven-baked-catfish`)
 - Sole with Herbs (`sole-with-herbs`)
 - Sole with Grapes (`sole-with-grapes`)
+- Beef and Potato Pie (`beef-and-potato-pie`)
+- Cornish Pasties (`cornish-pasties`)
+- Cumberland Sausage Hotpot (`cumberland-sausage-hotpot`)
+- Panackelty (`panackelty`)
+- Cowboy Casserole (`cowboy-casserole`)
+- Ground Beef and Potato Skillet (`ground-beef-and-potato-skillet`)
+- Ground Beef and Cabbage Skillet (`ground-beef-and-cabbage-skillet`)
+- Ground Beef and Rice Casserole (`ground-beef-and-rice-casserole`)
+- Ground Beef Stuffed Potatoes (`ground-beef-stuffed-potatoes`)
+- Beef and Bean Chili (`beef-and-bean-chili`)
+- Beef Mince Curry (`beef-mince-curry`)
+- Beef Keema (`beef-keema`)
+- Braised Chuck Roast (`braised-chuck-roast`)
+- Slow Cooker Pot Roast (`slow-cooker-pot-roast`)
+- Braised Pork Shoulder (`braised-pork-shoulder`)
+- Pork Chop Casserole (`pork-chop-casserole`)
+- Honey Garlic Pork Chops (`honey-garlic-pork-chops`)
+- Breaded Pork Chops (`breaded-pork-chops`)
+- Pork Fried Noodles (`pork-fried-noodles`)
+- Pork and Cabbage Dumplings (`pork-and-cabbage-dumplings`)
+- Ham Steaks with Pineapple (`ham-steaks-with-pineapple`)
+- Ham and Pea Pasta (`ham-and-pea-pasta`)
+- Sausage and Potato Traybake (`sausage-and-potato-traybake`)
+- Sausage Pasta Bake (`sausage-pasta-bake`)
+- Sausage and Lentil Stew (`sausage-and-lentil-stew`)
+- Sausage Hash (`sausage-hash`)
+- Kielbasa and Cabbage (`kielbasa-and-cabbage`)
+- Haluski (`haluski`)
+- Pierogi Casserole (`pierogi-casserole`)
+- Wild Rice Hotdish (`wild-rice-hotdish`)
+- Corned Beef and White Sauce (`corned-beef-and-white-sauce`)
+- Chicken Mornay (`chicken-mornay`)
+- Chicken Thigh Traybake (`chicken-thigh-traybake`)
+- Crispy Chicken Thighs and Rice (`crispy-chicken-thighs-and-rice`)
+- Lemon Herb Chicken Thighs (`lemon-herb-chicken-thighs`)
+- Chicken and Mushroom Pie (`chicken-and-mushroom-pie`)
+- Leftover Roast Chicken Pie (`leftover-roast-chicken-pie`)
+- Baked BBQ Chicken (`baked-bbq-chicken`)
+- Whole Roast Chicken with Vegetables (`whole-roast-chicken-with-vegetables`)
+- Tuna Fish Cakes (`tuna-fish-cakes`)
+- Tuna Rice Bowl (`tuna-rice-bowl`)
+- Tuna and Sweetcorn Pasta (`tuna-and-sweetcorn-pasta`)
+- Tuna and Sweetcorn Jacket Potato (`tuna-and-sweetcorn-jacket-potato`)
+- Salmon Patties (`salmon-patties`)
+- Salmon Pasta (`salmon-pasta`)
+- Fish Stew (`fish-stew`)
+- Cod and Potato Bake (`cod-and-potato-bake`)
+- Baked Fish with Crumb Topping (`baked-fish-with-crumb-topping`)
+- Fried Fish Sandwich (`fried-fish-sandwich`)
+- Peanut Butter Noodles (`peanut-butter-noodles`)
+- Egg Noodle Stir Fry (`egg-noodle-stir-fry`)
+- Instant Noodle Upgrade (`instant-noodle-upgrade`)
+- Potato Curry (`potato-curry`)
+- Cauliflower Curry (`cauliflower-curry`)
+- Tarka Dal (`tarka-dal`)
+- Vegetable Pulao (`vegetable-pulao`)
+- Vegetable Fried Rice (`vegetable-fried-rice`)
+- Egg Biryani (`egg-biryani`)
+- Pumpkin Curry (`pumpkin-curry`)
+- Sweet Potato Soup (`sweet-potato-soup`)
+- Sweet Potato Chili (`sweet-potato-chili`)
+- Roast Pumpkin Soup (`roast-pumpkin-soup`)
+- Butternut Squash Pasta (`butternut-squash-pasta`)
+- Zucchini Pasta (`zucchini-pasta`)
+- Zucchini Bake (`zucchini-bake`)
+- Marrow Bake (`marrow-bake`)
+- Vegetable Stew (`vegetable-stew`)
+- Vegetable Pot Pie (`vegetable-pot-pie`)
+- Vegetable Lasagna (`vegetable-lasagna`)
+- Vegetable Noodle Soup (`vegetable-noodle-soup`)
+- Vegetable Rice Soup (`vegetable-rice-soup`)
+- Vegetable Chili (`vegetable-chili`)
+- Roasted Vegetable Pasta (`roasted-vegetable-pasta`)
+- Lentil Bolognese (`lentil-bolognese`)
+- Bean and Rice Burrito (`bean-and-rice-burrito`)
+- Black Bean and Rice Skillet (`black-bean-and-rice-skillet`)
+- Eggs in Purgatory (`eggs-in-purgatory`)
+- Potato Frittata (`potato-frittata`)
+- Spaghetti Frittata (`spaghetti-frittata`)
+- Cheese and Broccoli Pasta (`cheese-and-broccoli-pasta`)
+- Broccoli Cheese Rice (`broccoli-cheese-rice`)
+- Cheesy Rice Casserole (`cheesy-rice-casserole`)
+- Navy Bean Soup (`navy-bean-soup`)
+- Quebec Pea Soup (`quebec-pea-soup`)
+- Egg Butty (`egg-butty`)
+- Eggy Bread (`eggy-bread`)
+- Snag in Bread (`snag-in-bread`)
+- Porridge with Brown Sugar (`porridge-with-brown-sugar`)
+- Fried Cornmeal Mush (`fried-cornmeal-mush`)
+- Leftover Mashed Potato Cakes (`leftover-mashed-potato-cakes`)
+- Oatmeal Bars (`oatmeal-bars`)
+- Breakfast Cookies (`breakfast-cookies`)
+- Breakfast Quesadilla (`breakfast-quesadilla`)
+- Breakfast Pizza (`breakfast-pizza`)
+- Cheese Omelette (`cheese-omelette`)
+- Mushroom Omelette (`mushroom-omelette`)
+- Spanish Omelette (`spanish-omelette`)
+- Apple Cinnamon Oatmeal (`apple-cinnamon-oatmeal`)
+- Sausage Egg and Cheese Muffin (`sausage-egg-and-cheese-muffin`)
+- Milk Toast (`milk-toast`)
+- Banana Toast (`banana-toast`)
+- Cinnamon Toast (`cinnamon-toast`)
+- Tomato Toast (`tomato-toast`)
+- Spaghetti on Toast (`spaghetti-on-toast`)
+- Potato Pancakes with Applesauce (`potato-pancakes-with-applesauce`)
+- Pikelets (`pikelets`)
+- Fried Egg Sandwich (`fried-egg-sandwich`)
+- Egg and Cheese Toastie (`egg-and-cheese-toastie`)
+- Beans and Cheese Toastie (`beans-and-cheese-toastie`)
+- Tuna Toastie (`tuna-toastie`)
+- Sausage Sandwich (`sausage-sandwich`)
+- Egg Mayo (`egg-mayo`)
+- Cheese and Pickle Sandwich (`cheese-and-pickle-sandwich`)
+- Ham and Cheese Sandwich (`ham-and-cheese-sandwich`)
+- Bean Wraps (`bean-wraps`)
+- Tuna Wraps (`tuna-wraps`)
+- Pizza Toast (`pizza-toast`)
+- Gravy Fries (`gravy-fries`)
+- Curry Fries (`curry-fries`)
+- Garlic Parmesan Fries (`garlic-parmesan-fries`)
+- Potato Skins (`potato-skins`)
+- Potato Croquettes (`potato-croquettes`)
+- Potato Gratin (`potato-gratin`)
+- Potato Dumplings (`potato-dumplings`)
+- Stuffed Onions (`stuffed-onions`)
+- Roasted Potatoes and Onions (`roasted-potatoes-and-onions`)
+- Roasted Sweet Potatoes (`roasted-sweet-potatoes`)
+- Roasted Parsnips (`roasted-parsnips`)
+- Honey Roasted Carrots (`honey-roasted-carrots`)
+- Kumara Fries (`kumara-fries`)
+- Potato Wedges (`potato-wedges`)
+- Buttered Peas (`buttered-peas`)
+- Fried Cabbage (`fried-cabbage`)
+- Cheesy Potato Bake (`cheesy-potato-bake`)
+- Loaded Baked Potatoes (`loaded-baked-potatoes`)
+- Jacket Potato with Baked Beans (`jacket-potato-with-baked-beans`)
+- Nachos with Cheese Sauce (`nachos-with-cheese-sauce`)
+- Cheese Dip (`cheese-dip`)
+- Bean Dip (`bean-dip`)
+- Honey Mustard Sausages (`honey-mustard-sausages`)
+- Honey Garlic Meatballs (`honey-garlic-meatballs`)
+- Honey Butter Biscuits (`honey-butter-biscuits`)
+- Honey Cornbread (`honey-cornbread`)
+- Cornbread Muffins (`cornbread-muffins`)
+- Cornbread Casserole (`cornbread-casserole`)
+- Cornbread Stuffing (`cornbread-stuffing`)
+- Cheese Biscuits (`cheese-biscuits`)
+- Cheese Muffins (`cheese-muffins`)
+- Pizza Bread (`pizza-bread`)
+- French Bread Pizza (`french-bread-pizza`)
+- Cheesy Breadsticks (`cheesy-breadsticks`)
+- Pita Pizza (`pita-pizza`)
+- Bagel Pizza (`bagel-pizza`)
+- Pizza Pockets (`pizza-pockets`)
+- Potato Bread (`potato-bread`)
+- Potato Farls (`potato-farls`)
+- Bread Rolls (`bread-rolls`)
+- Milk Bread (`milk-bread`)
+- White Bread (`white-bread`)
+- Flatbread (`flatbread`)
+- Garlic Butter Rolls (`garlic-butter-rolls`)
+- Hamburger Buns (`hamburger-buns`)
+- Vegemite Scrolls (`vegemite-scrolls`)
+- Sticky Date Pudding (`sticky-date-pudding`)
+- Milo Slice (`milo-slice`)
+- Apple Slab Pie (`apple-slab-pie`)
+- Pear Crumble (`pear-crumble`)
+- Berry Crumble (`berry-crumble`)
+- Chocolate Pudding (`chocolate-pudding`)
+- Chocolate Oat Bars (`chocolate-oat-bars`)
+- Vanilla Pudding (`vanilla-pudding`)
+- Rice Pudding with Raisins (`rice-pudding-with-raisins`)
+- Sago Pudding (`sago-pudding`)
+- Peanut Butter Balls (`peanut-butter-balls`)
+- Peanut Butter Oat Bars (`peanut-butter-oat-bars`)
+- Oatmeal Cake (`oatmeal-cake`)
+- Banana Fritters (`banana-fritters`)
+- Pumpkin Fritters (`pumpkin-fritters`)
+- Banana Smoothie (`banana-smoothie`)
+- Banana Milkshake (`banana-milkshake`)
+- Baked Bean Pasta (`baked-bean-pasta`)
+- Cheese and Onion Pasty (`cheese-and-onion-pasty`)
+- Butter Bean Stew (`butter-bean-stew`)
+- Coronation Chickpea Sandwich (`coronation-chickpea-sandwich`)
 
 ## Brand assets
 
@@ -3326,6 +3510,22 @@ licence as the rest of this project.
 | `tofu-and-cabbage-stir-fry.webp` / `.jpg` | Tofu and Cabbage Stir-Fry | Hero | Broccoli Cabbage stir-fry with chilli ginger baked tofu | wonderyort | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/11112304@N00/4504326988) |
 | `tofu-pineapple-stir-fry.webp` / `.jpg` | Tofu Pineapple Stir-Fry | Hero | Tofu, Water Chestnut, Bamboo Shoot, and Pineapple Stir Fry in Spicy Sauce | Thriving Vegetarian | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/90155432@N02/8586201494) |
 | `tofu-rice-bowls.webp` / `.jpg` | Tofu Rice Bowls | Hero | Rice bowl topped with tofu (7960798384) | pelican from Tokyo, Japan | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rice_bowl_topped_with_tofu_(7960798384).jpg) |
+| `mince-and-tatties.webp` / `.jpg` | Mince and Tatties | Hero | Mince an tawties (image of Mince and tatties on Wikidata Q3314757) | Mutt Lunker | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mince_an_tawties.jpg) |
+| `bedfordshire-clanger.webp` / `.jpg` | Bedfordshire Clanger | Hero | Bedfordshire Clanger (image of Bedfordshire clanger on Wikidata Q4879252) | Shritwod | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bedfordshire_Clanger.jpg) |
+| `johnny-marzetti.webp` / `.jpg` | Johnny Marzetti | Hero | Johnny Marzetti (image of Johnny Marzetti on Wikidata Q6267210) | Matt Johnson from Omaha, Nebraska, United States | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Johnny_Marzetti.jpg) |
+| `american-chop-suey.webp` / `.jpg` | American Chop Suey | Hero | American Chop Suey on White Plate | Roundhere44 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:American_Chop_Suey_on_White_Plate.jpg) |
+| `beans-and-franks.webp` / `.jpg` | Beans and Franks | Hero | A bowl of Beanie Weenies (image of Beanie Weenies on Wikidata Q16839470) | Thomson200 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_bowl_of_Beanie_Weenies.jpg) |
+| `chili-dogs.webp` / `.jpg` | Chili Dogs | Hero | Chili dog and tater tots | Topher | CC0 1.0 | [Wordpress](https://wordpress.org/photos/photo/304641cfed/) |
+| `pork-steaks.webp` / `.jpg` | Pork Steaks | Hero | ポークステーキ (lead image of the ar.wikipedia article on pork steak) | ノボホショコロトソ | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E3%83%9D%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD.jpg) |
+| `kielbasa-potato-skillet.webp` / `.jpg` | Kielbasa Potato Skillet | Hero | Kielbasa with potatoes and peppers | elvissa | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/56739839@N00/2223402078) |
+| `chicken-and-potato-bake.webp` / `.jpg` | Chicken and Potato Bake | Hero | chicken and potato bake | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5943752/free-public-domain-cc0-photo) |
+| `chicken-schnitzel.webp` / `.jpg` | Chicken Schnitzel | Hero | chicken schnitzel and spatzle | kinseikun | CC0 1.0 | [Flickr](https://www.flickr.com/photos/162338887@N06/25321553417) |
+| `chicken-nuggets.webp` / `.jpg` | Chicken Nuggets | Hero | Chicken nuggets on a plate | Jiafei Slay Queen | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=155997715) |
+| `chicken-carcass-soup.webp` / `.jpg` | Chicken Carcass Soup | Hero | 2021/365/321 Making Chicken Soup | cogdogblog | CC0 1.0 | [Flickr](https://www.flickr.com/photos/37996646802@N01/51688258879) |
+| `salmon-loaf.webp` / `.jpg` | Salmon Loaf | Hero | salmon loaf | stu_spivack | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/35034346243@N01/123467233) |
+| `sardine-pasta.webp` / `.jpg` | Sardine Pasta | Hero | Pasta con le sarde (Palermo) | Adriao | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_con_le_sarde_(Palermo).jpg) |
+| `mackerel-fishcakes.webp` / `.jpg` | Mackerel Fishcakes | Hero | Smoked Mackerel Fishcakes with Pea Puree and Marinated Beetroot | Girl Interrupted Eating | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35468144810@N01/4257227996) |
+| `fish-chowder.webp` / `.jpg` | Fish Chowder | Hero | Fishchowder (image of fish chowder on Wikidata Q5454607) | Nate Steiner | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fishchowder.jpg) |
 
 ---
 
