@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 16, British 11, Italian 8, Chinese 4, French 2, Indian 2, Middle Eastern 2, Filipino 1, Greek 1, Mexican 1, New Zealand 1, Russian 1, Spanish 1.
+ * Spread: American 22, British 13, Italian 10, Chinese 4, Filipino 2, French 2, Greek 2, Indian 2, Jewish 2, Middle Eastern 2, Malaysian 1, Mexican 1, New Zealand 1, Polish 1, Portuguese 1, Russian 1, Spanish 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -78,5 +78,22 @@ module.exports = [
   c('mornay-sauce', 'Mornay Sauce', 'French', 'Dinner', 'Medium', 5, 12, 6, 0, 0, [], ['new'], 'mornay sauce'),
   c('mussels-with-chorizo', 'Mussels with Chorizo', 'Spanish', 'Dinner', 'Easy', 10, 12, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'mussels with chorizo'),
   c('one-pot-beef-and-rice', 'One Pot Beef and Rice', 'American', 'Dinner', 'Easy', 10, 30, 4, 0, 0, ['Dairy-Free'], ['new'], 'one pot beef and rice'),
-  c('oven-fried-chicken', 'Oven Fried Chicken', 'American', 'Dinner', 'Easy', 15, 45, 4, 0, 0, [], ['new'], 'oven fried chicken')
+  c('oven-fried-chicken', 'Oven Fried Chicken', 'American', 'Dinner', 'Easy', 15, 45, 4, 0, 0, [], ['new'], 'oven fried chicken'),
+  c('parmesan-crusted-cod', 'Parmesan Crusted Cod', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'parmesan crusted cod'),
+  c('parmesan-roasted-carrots', 'Parmesan Roasted Carrots', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'parmesan roasted carrots'),
+  c('pecan-crusted-salmon', 'Pecan Crusted Salmon', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'pecan crusted salmon'),
+  c('perogies-with-onions', 'Perogies with Onions', 'Polish', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'perogies with onions'),
+  c('philly-chicken-sandwich', 'Philly Chicken Sandwich', 'American', 'Lunch', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'philly chicken sandwich'),
+  c('piri-piri-prawns', 'Piri Piri Prawns', 'Portuguese', 'Appetizers', 'Easy', 10, 6, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'piri piri prawns'),
+  c('ploughmans-sandwich', 'Ploughmans Sandwich', 'British', 'Lunch', 'Easy', 10, 0, 2, 0, 0, ['Vegetarian'], ['new'], 'ploughmans sandwich'),
+  c('po-boy-sandwich', 'Po Boy Sandwich', 'American', 'Lunch', 'Medium', 20, 10, 4, 0, 0, [], ['new'], 'po boy sandwich'),
+  c('pork-adobo', 'Pork Adobo', 'Filipino', 'Dinner', 'Easy', 10, 45, 4, 0, 0, ['Dairy-Free'], ['new'], 'pork adobo'),
+  c('pork-ribs-in-the-oven', 'Pork Ribs in the Oven', 'American', 'Dinner', 'Easy', 10, 150, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pork ribs in the oven'),
+  c('pork-souvlaki', 'Pork Souvlaki', 'Greek', 'Dinner', 'Easy', 20, 12, 4, 0, 0, [], ['new'], 'pork souvlaki'),
+  c('pork-and-apple-casserole', 'Pork and Apple Casserole', 'British', 'Dinner', 'Easy', 20, 90, 6, 0, 0, ['Dairy-Free'], ['new'], 'pork and apple casserole'),
+  c('potato-kugel', 'Potato Kugel', 'Jewish', 'Dinner', 'Medium', 20, 75, 8, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'potato kugel'),
+  c('noodle-kugel', 'Noodle Kugel', 'Jewish', 'Dinner', 'Easy', 15, 50, 10, 0, 0, ['Vegetarian'], ['new'], 'noodle kugel'),
+  c('prawn-laksa', 'Prawn Laksa', 'Malaysian', 'Dinner', 'Medium', 15, 20, 4, 0, 0, [], ['new'], 'prawn laksa'),
+  c('prawn-pasta', 'Prawn Pasta', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'prawn pasta'),
+  c('pumpkin-and-sage-pasta', 'Pumpkin and Sage Pasta', 'Italian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, [], ['new'], 'pumpkin and sage pasta')
 ];
