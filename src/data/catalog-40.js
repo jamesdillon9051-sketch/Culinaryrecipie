@@ -122,7 +122,7 @@ module.exports = [
   c('peanut-butter-smoothie', 'Peanut Butter Smoothie', 'American', 'Drinks', 'Easy', 5, 0, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'peanut butter smoothie'),
   c('strawberry-lemonade', 'Strawberry Lemonade', 'American', 'Drinks', 'Easy', 10, 0, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'strawberry lemonade'),
   c('biltong', 'Biltong', 'South African', 'Appetizers', 'Medium', 20, 240, 8, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'biltong'),
-  c('bacon-wrapped-dates', 'Bacon Wrapped Dates', 'Spanish', 'Appetizers', 'Easy', 10, 15, 8, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'bacon wrapped dates'),
+  c('bacon-wrapped-dates', 'Bacon Wrapped Dates', 'Spanish', 'Appetizers', 'Easy', 10, 15, 8, 0, 0, ['Dairy-Free'], ['new'], 'bacon wrapped dates'),
   c('potatoes-au-gratin', 'Potatoes Au Gratin', 'French', 'Dinner', 'Medium', 20, 60, 6, 0, 0, ['Vegetarian'], ['new'], 'potatoes au gratin'),
   c('duchess-potatoes', 'Duchess Potatoes', 'French', 'Dinner', 'Medium', 25, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'duchess potatoes'),
   c('crispy-smashed-potatoes', 'Crispy Smashed Potatoes', 'American', 'Dinner', 'Easy', 10, 45, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'crispy smashed potatoes'),

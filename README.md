@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6490 image files (WebP + JPEG)
+│       └── img/recipes/         # 6572 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6490 image files
+├── assets/                      #    css, js and 6572 image files
 ├── recipes/                     #    3315 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 298,775 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 298,780 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2651 of the 3315 recipes have a photograph. Of the 3134 images on the site,
-1254 are CC0 or public domain, 948 are CC BY and 932 are CC BY-SA. Anything
+2692 of the 3315 recipes have a photograph. Of the 3175 images on the site,
+1282 are CC0 or public domain, 953 are CC BY and 940 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5147,6 +5147,126 @@ ones: the same slow-cooker or egg-white picture offered to a dozen recipes, a
 place or a person that shares the dish's name (a hotel bar for "dream bars", an
 aquarium for "ranch water"), raw ingredients, and wheat, meat or dairy on a
 recipe labelled otherwise.
+
+## Volumes thirty-nine and forty, two hundred dinners, bakes and party dishes
+
+Two more volumes of a hundred, taking the site from 3,115 to 3,315. The owner
+asked for "200 more recipes" with no theme, so the standing instruction in
+CLAUDE.md applied: dishes that cooks in the USA, Canada, Australia, the UK and
+New Zealand look for by name, graded against the catalogue so that nothing
+already published is published again. Every dish is an ordinary
+`/recipes/<slug>/` page and nothing already on the site was changed except as
+the audits section below says.
+
+The catalogue is now so full that only about one candidate name in ten graded as
+new. About 1,100 names were graded, and the final 200 were picked by hand from
+those that were new, dropping near-duplicates the tool cannot see (a seafood
+boil is the shrimp boil with crab; a "Tuscan" dish that is another creamy
+chicken). There is no search-volume data behind the choice: these are
+variations and neighbours of dishes the site already carries, in the form people
+type into a search box ("lemon cupcakes", "halloumi burgers", "tomato soup with
+grilled cheese").
+
+Volume thirty-nine is dinners and lunches: Japanese and other Asian dishes and
+curries, casseroles and chicken, fish, seafood and vegetable mains, pork, beef,
+prawns and one-pan dinners, pizza, pasta and Middle Eastern dishes, and European
+suppers and soups. It is American 27, Italian 16, British 8, Japanese 7, Middle
+Eastern 6, Indian 5, Mexican and French 4 each, and fifteen more cuisines with
+one to three dishes each. By category it is dinner 71, quick meals 16, lunch 9,
+appetizers 3 and healthy 1. By difficulty it is Easy 74 and Medium 26.
+
+Volume forty is the oven and the tea table: quick suppers and salads, pies,
+tarts and pasties, croissants and danishes, breads, party bites and wings,
+muffins, cupcakes and cakes, cheesecakes, slices, bars and cookies, and a few
+sides, soups and drinks. It is American 45, British 22, French 11, Australian 9,
+Italian 6, and Polish, Middle Eastern, Irish, German, New Zealand, South African
+and Spanish 1 each. By category it is baking 35, dinner 17, appetizers 14,
+desserts 13, lunch 12, breakfast 3, quick meals 2, healthy 2 and drinks 2. By
+difficulty it is Easy 58, Medium 41 and Hard 1 (a game pie). Cheesecakes, the
+ice cream cake, the ice box cake and the no-bake slices declare their chilling
+or freezing as a rest, so the page shows the real time.
+
+### How the dishes were chosen
+
+Candidate lists were graded with `tools/dedupe-candidates.js --new` and the final
+200 were graded again; `--volume 39` and `--volume 40` report that every recipe
+differs from every other on the site. The tool flags two pairs as "one word
+apart" (a lamb stew and a Greek lamb stew, an Irish potato cake and a potato
+cake). They are kept because the dishes differ: the Greek stew is built on
+tomato, oregano and lemon, and the Irish cake is cold mash and flour fried in a
+pan where the Australian one is a battered slice of raw potato.
+
+### What the audits caught
+
+- **Cook times of zero for recipes that cook.** Four salads and bowls said 0
+  minutes but simmered quinoa or rice, roasted beetroot or toasted nuts; the
+  rows now carry the real times (beetroot salad 50 minutes, quinoa bowl 20,
+  chirashi bowl 12, pear salad 3). Two recipes were also given the cooking they
+  describe: oven-dried biltong is 4 hours at the lowest setting after a 6 hour
+  marinade, and duchess potatoes include boiling the potatoes.
+- **Keywords the record did not support.** `npm run keywords` refused "easy" on
+  Medium recipes, "steamed" on a mussel dish that is simmered, "vegan" and
+  "vegetarian" where the diet tag was not there, "one pan" and "pan fried" where
+  the method did not say so.
+- **Gluten-Free where it could not be promised.** A first tag run left
+  Gluten-Free on two linguine dishes; the build refused them. A read of the
+  tagged recipes then removed it from dishes built on curry powder, miso, cured
+  chorizo or bacon, a ranch seasoning mix and potato gnocchi (which is made with
+  wheat flour), since those can carry gluten.
+- **A declared rest that did not match the method.** A 30 minute soak and a 30
+  minute chill were declared as rests but the check only recognises waits of an
+  hour or more, so they were removed and the times left in the method.
+- **Duplicated steps.** Two pairs of volume thirty-nine recipes shared two
+  identical steps each; one of each pair was reworded.
+- **A food table that did not know the dish.** `npm run calc` stopped on
+  mirin, tonkatsu sauce, udon, kecap manis, gochujang, chipotle paste, pizza
+  dough, chocolate sandwich biscuits, soft caramels, chocolate sauce, juniper and
+  peppermint extract, among others. They were added to `tools/nutrition-foods.js`
+  as foods and aliases rather than the lines being reworded.
+- **Two stale self-tests.** `npm run selftest` was failing before this work: its
+  rewrite fixtures were taken from the last 300 recipes, which are now hand-polished
+  volumes the stand-in model cannot improve, and a test sentence ("If your oven
+  runs hot, check at 5 minutes.") had become a real sentence on other recipes.
+  Fixtures now come from the oldest 300 recipes and the test uses a sentence no
+  recipe has. Nothing in the pipeline itself changed.
+- **Tags.** Diet tags were not typed: a script started from all four, removed
+  any the ingredients contradict, and applied a stricter list. Dishes
+  with vegetable stock keep Vegetarian and Vegan, as the label describes the
+  recipe's ingredients as written.
+
+### Judgement calls
+
+- **Biltong.** The only recipe here that cures meat. The method gives the
+  vinegar, salt and spice by weight, trims the fat, dries in a low oven rather
+  than hanging the meat in the open, and the storage note is 1 week in the
+  fridge. It is the one recipe in the volume the owner may want to read twice.
+- **Game pie.** The game is venison and pheasant; the method simmers it for 60
+  minutes and then bakes for 50, and the cooling of the filling is stated
+  without a time.
+- **Brand names.** Milo, Jammy Dodgers and Pineapple Lumps are in the titles or
+  ingredients because that is what people search and what the New Zealand and
+  Australian recipes are named for; the methods do not claim the recipe is the
+  branded product.
+
+### Photographs
+
+161 candidates were fetched in the background while the recipes were being
+written (`tools/fetch_images.py`, one batch per file) and looked at one by one on
+contact sheets against each recipe and its diet labels. **41 of the 200 were
+kept** (15 in volume thirty-nine and 26 in volume forty); the other 159 stay on
+their gradient cards, 120 refused with a reason and 39 with no candidate at all.
+The refusals were the usual ones: a different dish (a lioness for a gammon steak,
+a nineteenth-century painting for a mud cake, an orange car for orange rolls, a
+news photograph for million-dollar spaghetti, a squirrel for an apple slice),
+a restaurant plate that adds things the recipe does not have (octopus with
+potatoes for a chorizo and potato dish, grilled chicken and vegetables on a
+vegetarian gnocchi), packaging, or a picture the archive had already given to
+another recipe. Where a kept photograph differs from its recipe the difference
+is small and the credit line names the original caption: Jammie Dodgers for
+jammy dodgers, a millionaire's shortbread for a caramel slice, a caramel and
+pecan topping on a chocolate cheesecake, blackberries as well as peach in the
+muffins. None of the kept photographs shows meat or shellfish on a vegetarian
+or vegan recipe, dairy on a dairy-free one, or wheat on a gluten-free one.
 
 ## Ads
 
