@@ -23435,5 +23435,59 @@
       "page": "https://commons.wikimedia.org/wiki/File:Brazilian_food_Feijoada.jpg",
       "why": "a pot of meat and bean soup"
     }
+  ],
+  "marrow-bake": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cucurbita_maxima_Marrow_group_%27Boston_Marrow%27_A_shareable_squash_2.jpg",
+      "why": "a stuffed pumpkin"
+    }
+  ],
+  "vegetable-lasagna": [
+    {
+      "page": "https://www.rawpixel.com/image/5941063/free-public-domain-cc0-photo",
+      "why": "a baked vegetable and cheese dish, no lasagne"
+    }
+  ],
+  "vegetable-chili": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chili_with_textured_vegetable_protein_and_black_pepper_-_Massachusetts.jpg",
+      "why": "textured protein crumble in a dish"
+    }
+  ],
+  "eggs-in-purgatory": [
+    {
+      "page": "https://www.flickr.com/photos/144544934@N03/30598240372",
+      "why": "eggs not visible, cluttered"
+    }
+  ],
+  "cheesy-rice-casserole": [
+    {
+      "page": "https://www.flickr.com/photos/25977089@N00/6997802708",
+      "why": "a tofu and bulgur casserole"
+    }
+  ],
+  "navy-bean-soup": [
+    {
+      "page": "https://www.flickr.com/photos/60564189@N06/38896460441",
+      "why": "a military funeral"
+    }
+  ],
+  "egg-butty": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Egg_Sandwich_001.jpg",
+      "why": "an egg salad sandwich, not a fried egg"
+    }
+  ],
+  "eggy-bread": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:FrenchToast.JPG",
+      "why": "french toast already used for another recipe"
+    }
+  ],
+  "breakfast-cookies": [
+    {
+      "page": "https://www.flickr.com/photos/36943025@N07/3537737959",
+      "why": "a hamster"
+    }
   ]
 }

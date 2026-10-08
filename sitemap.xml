@@ -30692,6 +30692,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-frittata.jpg</image:loc>
+      <image:title>Potato Frittata</image:title>
+      <image:caption>Potato Frittata, an Italian dinner recipe — potato and onion frittata</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-frittata/</loc>
@@ -30704,6 +30709,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-and-broccoli-pasta.jpg</image:loc>
+      <image:title>Cheese and Broccoli Pasta</image:title>
+      <image:caption>Cheese and Broccoli Pasta, a quick American meal recipe — broccoli cheddar pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-cheese-rice/</loc>
@@ -30758,6 +30768,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-cornmeal-mush.jpg</image:loc>
+      <image:title>Fried Cornmeal Mush</image:title>
+      <image:caption>Fried Cornmeal Mush, an American breakfast recipe — fried polenta breakfast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leftover-mashed-potato-cakes/</loc>

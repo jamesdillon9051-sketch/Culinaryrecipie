@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2962
+Every photograph on Weekly Delight is freely licensed. Of 2965
 photographs, **1199** are CC0 or public domain and carry no conditions at all, and
-**1763** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**1766** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,21 +179,21 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2479 |
+| Hero photographs | 2482 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6146 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 325 |
+| Total image files | 6152 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 322 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 791 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 792 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 600 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 387 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 388 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 349 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 294 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 295 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 77 | No rights reserved — no attribution legally required |
@@ -446,9 +446,7 @@ and no usable illustration of them could be drawn either:
 - Bean and Rice Burrito (`bean-and-rice-burrito`)
 - Black Bean and Rice Skillet (`black-bean-and-rice-skillet`)
 - Eggs in Purgatory (`eggs-in-purgatory`)
-- Potato Frittata (`potato-frittata`)
 - Spaghetti Frittata (`spaghetti-frittata`)
-- Cheese and Broccoli Pasta (`cheese-and-broccoli-pasta`)
 - Broccoli Cheese Rice (`broccoli-cheese-rice`)
 - Cheesy Rice Casserole (`cheesy-rice-casserole`)
 - Navy Bean Soup (`navy-bean-soup`)
@@ -457,7 +455,6 @@ and no usable illustration of them could be drawn either:
 - Eggy Bread (`eggy-bread`)
 - Snag in Bread (`snag-in-bread`)
 - Porridge with Brown Sugar (`porridge-with-brown-sugar`)
-- Fried Cornmeal Mush (`fried-cornmeal-mush`)
 - Leftover Mashed Potato Cakes (`leftover-mashed-potato-cakes`)
 - Oatmeal Bars (`oatmeal-bars`)
 - Breakfast Cookies (`breakfast-cookies`)
@@ -3526,6 +3523,9 @@ licence as the rest of this project.
 | `roast-pumpkin-soup.webp` / `.jpg` | Roast Pumpkin Soup | Hero | Cremas de calabaza-2 (image of pumpkin soup on Wikidata Q1797271) | Cremas_de_calabaza.jpg: Boca Dorada derivative work: Itzuvit (talk) | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cremas_de_calabaza-2.jpg) |
 | `vegetable-pot-pie.webp` / `.jpg` | Vegetable Pot Pie | Hero | Amy's vegetable pot pie | Mx. Granger | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amy%27s_vegetable_pot_pie.jpg) |
 | `lentil-bolognese.webp` / `.jpg` | Lentil Bolognese | Hero | Eggplant, spinach, and lentil bolognese | veritatem | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66722164@N00/31867005057) |
+| `potato-frittata.webp` / `.jpg` | Potato Frittata | Hero | -2019-10-27 Potato & onion frittata, Cromer | Kolforn | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:-2019-10-27_Potato_%26_onion_frittata,_Cromer.JPG) |
+| `cheese-and-broccoli-pasta.webp` / `.jpg` | Cheese and Broccoli Pasta | Hero | Broccoli and Blue Cheese pasta for dinner - using up leftovers mostly -mycookingadventures -vegcookingadventures (25702618948) | transcendancing | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Broccoli_and_Blue_Cheese_pasta_for_dinner_-_using_up_leftovers_mostly_-mycookingadventures_-vegcookingadventures_(25702618948).jpg) |
+| `fried-cornmeal-mush.webp` / `.jpg` | Fried Cornmeal Mush | Hero | Cornmeal mush | David Orban | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cornmeal_mush.jpg) |
 
 ---
 
