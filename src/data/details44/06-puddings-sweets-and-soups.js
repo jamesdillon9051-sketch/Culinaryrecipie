@@ -25,7 +25,7 @@ module.exports = {
       '225 g self-raising flour',
       '3 tbsp whole milk',
       '1 tsp vanilla extract',
-      '500 g custard, warmed'
+      '500 g ready-made custard, warmed'
     ],
     st: [
       'Grease a 1.2 litre pudding basin and pour the golden syrup into the base.',
@@ -42,7 +42,7 @@ module.exports = {
     ],
     pair: ['Custard', 'Cream', 'Vanilla ice cream', 'Tea'],
     store: 'Keeps in the fridge for 3 days. Reheat slices in the microwave.',
-    nut: [0, 0, 0, 0, 0, 0, 0]
+    nut: [630, 10, 80, 30, 1, 48, 100]
   },
 
   'panettone-french-toast': {
