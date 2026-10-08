@@ -514,7 +514,7 @@ module.exports = {
     pair: ['Cornbread', 'Crusty bread', 'Green salad', 'Hot sauce'],
     store: 'Keeps in the fridge for up to 4 days and thickens. Freezes for up to 3 months. Reheat with a splash of water.',
     rest: [480, 'Soaking the beans'],
-    nut: [240, 18, 15, 12, 5, 2, 1290]
+    nut: [404, 29, 45, 12, 11, 3, 1100]
   },
 
   'quebec-pea-soup': {

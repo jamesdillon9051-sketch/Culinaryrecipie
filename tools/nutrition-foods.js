@@ -41,7 +41,7 @@ const BASE = {
   gammon: [20, 0, 5, 0, 0, 1100], ham: [19, 1, 4, 0, 0, 1200], ham_hock: [20, 0, 10, 0, 0, 1000],
   sausage_pork: [13, 3, 24, 0.5, 1, 800], sausage_beef: [13, 4, 22, 0.5, 1, 750], sausage_chicken: [15, 3, 12, 0.5, 1, 700],
   chorizo: [24, 2, 38, 0, 1, 1500], pepperoni: [23, 2, 46, 0, 1, 1800], kielbasa: [14, 3, 25, 0, 1, 1000],
-  salami: [22, 1, 34, 0, 0, 1800], black_pudding: [12, 15, 20, 0.5, 0, 900], hot_dog: [11, 3, 26, 0, 2, 1100], chicken_carcass: [0, 0, 0, 0, 0, 0], salmon_tin: [20, 0, 6, 0, 0, 450], potato_nuggets: [2.5, 25, 11, 2, 0.5, 450], spaghetti_tin: [2, 12, 0.4, 1, 3.5, 380], cornbread: [6, 44, 8, 2, 9, 600], vegemite: [24, 15, 1, 0, 1, 3400], mixed_berries: [0.7, 11, 0.3, 3.5, 8, 2], sago: [0.2, 94, 0.2, 0.5, 0, 5],
+  salami: [22, 1, 34, 0, 0, 1800], black_pudding: [12, 15, 20, 0.5, 0, 900], hot_dog: [11, 3, 26, 0, 2, 1100], chicken_carcass: [0, 0, 0, 0, 0, 0], salmon_tin: [20, 0, 6, 0, 0, 450], potato_nuggets: [2.5, 25, 11, 2, 0.5, 450], spaghetti_tin: [2, 12, 0.4, 1, 3.5, 380], cornbread: [6, 44, 8, 2, 9, 600], vegemite: [24, 15, 1, 0, 1, 3400], mixed_berries: [0.7, 11, 0.3, 3.5, 8, 2], sago: [0.2, 94, 0.2, 0.5, 0, 5], beans_dry: [22, 60, 1.5, 15, 2, 15],
   bologna: [14, 3, 28, 0, 2, 1000], lamb_shoulder: [17, 0, 20, 0, 0, 70], lamb_leg: [20, 0, 9, 0, 0, 70],
   lamb_chop: [17, 0, 25, 0, 0, 65], lamb_mince: [17, 0, 20, 0, 0, 70], lamb_shank: [19, 0, 10, 0, 0, 70],
   lamb_neck: [17, 0, 18, 0, 0, 70], lamb_liver: [21, 2, 5, 0, 0, 70],
@@ -269,7 +269,7 @@ const ALIAS = {
   garlic_powder: ['garlic powder'], onion_powder: ['onion powder'], cayenne: ['cayenne', 'cayenne pepper'],
   ginger_ground: ['ground ginger'], curry_powder: ['curry powder'], cumin: ['ground cumin', 'cumin seeds', 'cumin'],
   bay_leaf: ['bay leaf', 'bay leaves'],
-  spice: ['whole spices', 'ground coriander', 'ground cloves', 'nutmeg', 'ground allspice', 'allspice', 'cardamom', 'ground cardamom', 'garam masala',
+  spice: ['cloves', 'whole cloves', 'whole spices', 'ground coriander', 'ground cloves', 'nutmeg', 'ground allspice', 'allspice', 'cardamom', 'ground cardamom', 'garam masala',
     'taco seasoning', 'fajita seasoning', 'chinese five spice', 'five-spice', 'za\'atar', 'sumac', 'cajun seasoning', 'jerk seasoning',
     'mustard powder', 'ground mustard', 'red pepper flakes', 'chili flakes', 'chilli flakes', 'crushed red pepper',
     'ground turmeric', 'asafoetida', 'fenugreek', 'ground fennel', 'fennel seeds', 'caraway seeds', 'ground cinnamon', 'whole cloves'],
@@ -346,7 +346,7 @@ const ALIAS = {
   tortilla_chips: ['tortilla chips'], flaxseed_ground: ['ground flaxseed', 'flaxseed meal', 'ground flax', 'flax meal', 'flaxseed', 'golden flaxseed meal'],
   psyllium: ['psyllium husk', 'psyllium husk powder', 'psyllium'], chia: ['chia seeds', 'chia'], hummus: ['hummus'],
   chickpeas_tin: ['chickpeas', 'canned chickpeas', 'garbanzo beans', 'tinned chickpeas'], black_beans_tin: ['black beans', 'canned black beans', 'tinned black beans'],
-  kidney_beans_tin: ['kidney beans', 'red kidney beans', 'canned kidney beans'], white_beans_tin: ['white beans', 'cannellini beans', 'canned white beans', 'great northern beans', 'navy beans', 'butter beans'],
+  kidney_beans_tin: ['kidney beans', 'red kidney beans', 'canned kidney beans'], white_beans_tin: ['tinned haricot beans', 'haricot beans', 'white beans', 'cannellini beans', 'canned white beans', 'great northern beans', 'navy beans', 'butter beans'],
   lentils_green: ['dried green lentils', 'dried brown lentils', 'green lentils', 'brown lentils', 'puy lentils'], lentils_red: ['red lentils', 'dried red lentils', 'split red lentils'],
   lentils_cooked: ['cooked lentils'], moong_dal: ['moong dal', 'split yellow moong dal', 'yellow moong dal', 'mung dal', 'split mung beans', 'dried moong dal', 'skinned split mung beans'],
   bean_sprouts: ['bean sprouts', 'moong sprouts', 'mung bean sprouts', 'sprouted moong', 'sprouted mung beans', 'sprouts', 'sprouted moong beans'],
@@ -394,7 +394,7 @@ const ALIAS = {
   crackers: ['crackers', 'whole-grain crackers', 'rice cakes'], pickle: ['pickles', 'dill pickles', 'pickle relish'], gherkins: ['gherkins', 'cornichons', 'dill pickle', 'dill pickles'],
   cornmeal: ['cornmeal', 'polenta', 'yellow cornmeal'], couscous: ['couscous', 'whole wheat couscous'], semolina: ['semolina'], sauerkraut: ['sauerkraut'], horseradish: ['horseradish', 'prepared horseradish'], milk_powder: ['milk powder', 'powdered milk'], whey_protein: ['protein powder', 'whey protein', 'whey protein powder'],
   smoked_salmon: ['smoked salmon', 'lox', 'cold-smoked salmon'], salami: ['salami'], ham: ['ham', 'deli ham', 'cooked ham', 'diced ham', 'ham steak'], bacon_back: ['bacon', 'canadian bacon', 'back bacon', 'turkey bacon'],
-  sausage_pork: ['italian sausage', 'pork sausage', 'breakfast sausage', 'sausage', 'sausages', 'andouille sausage', 'kielbasa', 'smoked sausage', 'chorizo'],
+  sausage_pork: ['italian sausage', 'pork sausage', 'breakfast sausage', 'sausage', 'sausages', 'andouille sausage', 'kielbasa', 'smoked sausage', 'chorizo', 'frankfurters', 'frankfurter', 'hot dogs'],
   corned_beef_tin: ['corned beef', 'tinned corned beef'],
   sardines_tin: ['tinned sardines', 'sardines in oil', 'canned sardines', 'sardines'],
   salmon_tin: ['tinned salmon', 'tinned pink salmon', 'pink salmon', 'tinned red salmon'],
@@ -410,6 +410,10 @@ const ALIAS = {
   sago: ['sago', 'sago pearls'],
   biscuit_plain: ['plain sweet biscuits', 'sweet biscuits', 'plain biscuits'],
   malt_powder: ['malted chocolate drink powder', 'milo'],
+  filo: ['spring roll pastry sheets', 'spring roll pastry', 'filo pastry', 'filo'],
+  bbq_sauce: ['barbecue sauce'],
+  pork_ribs: ['pork back ribs', 'back ribs'],
+  beans_dry: ['dried beans', 'dried haricot beans', 'dried black beans', 'dried navy beans', 'dried cannellini beans', 'dried kidney beans', 'dried pinto beans'],
   chicken_whole: ['whole chicken', 'roast chicken'],
   chicken_carcass: ['roast chicken carcass', 'chicken carcass'],
   wonton_wrappers: ['dumpling wrappers', 'gyoza wrappers', 'wonton wrappers', 'wonton skins'],
@@ -423,7 +427,8 @@ const ALIAS = {
   turkey_deli: ['deli turkey breast', 'sliced deli turkey breast', 'deli turkey', 'sliced deli turkey', 'turkey deli slices'],
   beef_stewing: ['stewing beef', 'lean stewing beef', 'beef stew meat', 'stewing steak', 'lean stewing steak'],
   lemongrass: ['lemongrass', 'fresh lemongrass', 'lemon grass'],
-  bun: ['burger bun', 'burger buns', 'hamburger bun', 'hamburger buns', 'small burger buns', 'bun', 'buns']
+  bun: ['burger bun', 'burger buns', 'hamburger bun', 'hamburger buns', 'small burger buns', 'bun', 'buns', 'hot dog buns', 'hot dog bun']
+  lamb_chop: ['lamb chop', 'lamb chops', 'lamb loin chops', 'lamb cutlets', 'lamb loin chop'],
 };
 
 /* Grams in a spoon, a cup or one whole item, where it is not the 1 g to the millilitre of water.
