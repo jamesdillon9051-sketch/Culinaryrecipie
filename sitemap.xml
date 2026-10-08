@@ -31137,12 +31137,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-dip.jpg</image:loc>
+      <image:title>Cheese Dip</image:title>
+      <image:caption>Cheese Dip, an American appetizer recipe — budget party dip</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bean-dip/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bean-dip.jpg</image:loc>
+      <image:title>Bean Dip</image:title>
+      <image:caption>Bean Dip, a Mexican appetizer recipe — budget party dip</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-mustard-sausages/</loc>
@@ -31161,18 +31171,33 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-butter-biscuits.jpg</image:loc>
+      <image:title>Honey Butter Biscuits</image:title>
+      <image:caption>Honey Butter Biscuits, an American baking recipe — easy buttermilk style biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-cornbread/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-cornbread.jpg</image:loc>
+      <image:title>Honey Cornbread</image:title>
+      <image:caption>Honey Cornbread, an American baking recipe — easy cornbread recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornbread-muffins/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cornbread-muffins.jpg</image:loc>
+      <image:title>Cornbread Muffins</image:title>
+      <image:caption>Cornbread Muffins, an American baking recipe — easy cornmeal muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cornbread-casserole/</loc>

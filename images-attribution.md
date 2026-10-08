@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2979
-photographs, **1206** are CC0 or public domain and carry no conditions at all, and
-**1773** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2984
+photographs, **1210** are CC0 or public domain and carry no conditions at all, and
+**1774** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,20 +179,20 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2496 |
+| Hero photographs | 2501 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6180 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 308 |
+| Total image files | 6190 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 303 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 795 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 601 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 796 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 602 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 389 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 352 | No rights reserved — no attribution legally required |
+| CC0 1.0 | 355 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 297 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 168 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -489,13 +489,8 @@ and no usable illustration of them could be drawn either:
 - Loaded Baked Potatoes (`loaded-baked-potatoes`)
 - Jacket Potato with Baked Beans (`jacket-potato-with-baked-beans`)
 - Nachos with Cheese Sauce (`nachos-with-cheese-sauce`)
-- Cheese Dip (`cheese-dip`)
-- Bean Dip (`bean-dip`)
 - Honey Mustard Sausages (`honey-mustard-sausages`)
 - Honey Garlic Meatballs (`honey-garlic-meatballs`)
-- Honey Butter Biscuits (`honey-butter-biscuits`)
-- Honey Cornbread (`honey-cornbread`)
-- Cornbread Muffins (`cornbread-muffins`)
 - Cornbread Casserole (`cornbread-casserole`)
 - Cornbread Stuffing (`cornbread-stuffing`)
 - Cheese Biscuits (`cheese-biscuits`)
@@ -3526,6 +3521,11 @@ licence as the rest of this project.
 | `honey-roasted-carrots.webp` / `.jpg` | Honey Roasted Carrots | Hero | And of course, roasted honey carrots with thyme | whatleydude | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/85318305@N00/5723118715) |
 | `kumara-fries.webp` / `.jpg` | Kumara Fries | Hero | A tray of sweet potato fries | JamesTheLaptop | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_tray_of_sweet_potato_fries.jpg) |
 | `potato-wedges.webp` / `.jpg` | Potato Wedges | Hero | Spicy Indian Potato Wedges | Graham Steel | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/7914713@N05/33403747521) |
+| `cheese-dip.webp` / `.jpg` | Cheese Dip | Hero | Cheese dip - not like proper queso | sarahstierch | CC0 1.0 | [Flickr](https://www.flickr.com/photos/7633518@N08/54690398509) |
+| `bean-dip.webp` / `.jpg` | Bean Dip | Hero | Mi Pueblo - December 2025 - Sarah Stierch 03 | Missvain | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mi_Pueblo_-_December_2025_-_Sarah_Stierch_03.jpg) |
+| `honey-butter-biscuits.webp` / `.jpg` | Honey Butter Biscuits | Hero | Plain Butter Biscuit with Honey | Alabama Extension | CC0 1.0 | [Flickr](https://www.flickr.com/photos/184594136@N08/51330638751) |
+| `honey-cornbread.webp` / `.jpg` | Honey Cornbread | Hero | Cornbread and Paprika Honey Butter at Market 104 | Shreveport-Bossier: Louisiana's Other Side | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/57902140@N08/7783683464) |
+| `cornbread-muffins.webp` / `.jpg` | Cornbread Muffins | Hero | Tray homemade cornbread muffins paper | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/3290014/free-photo-image-pasta-bowl-breakfast) |
 
 ---
 
