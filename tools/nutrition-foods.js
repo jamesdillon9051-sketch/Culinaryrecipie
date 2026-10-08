@@ -504,4 +504,18 @@ Object.assign(MORE, EXT_FOODS);
 for (const k of Object.keys(EXT_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT_ALIAS[k]);
 for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT_PORTION[k]);
 
+/* Volumes 41 to 43: foods the calculator did not know. */
+const EXT2_FOODS = {
+  tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55]
+};
+const EXT2_ALIAS = {
+  bread_white: ['challah', 'slices challah'], black_pudding: ['white pudding'], tattie_scone: ['tattie scones', 'tattie scone', 'potato scones'], coffee_brewed: ['espresso', 'strong coffee', 'black coffee', 'brewed coffee'], mixed_berries: ['blackcurrants', 'redcurrants'], cream_whipping: ['whipped cream'], chocolate_white: ['white chocolate'], whole_turkey: ['whole turkey', 'turkey'], herbs_fresh: ['mixed herbs'], custard_ready: ['ready-made custard'], cake_sponge: ['sponge cake'], brandy: ['brandy', 'cognac', 'whiskey', 'bourbon', 'whisky', 'cream of tartar'], food_colouring: ['red gel food colouring', 'pink food colouring', 'red food colouring', 'orange gel food colouring', 'food colouring', 'gel food colouring'], guacamole: ['guacamole'], sugar: ['candy cane', 'candy canes']
+};
+const EXT2_PORTION = {
+  tattie_scone: { each: 50 }
+};
+Object.assign(MORE, EXT2_FOODS);
+for (const k of Object.keys(EXT2_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT2_ALIAS[k]);
+for (const k of Object.keys(EXT2_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT2_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
