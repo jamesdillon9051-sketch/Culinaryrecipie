@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6210 image files (WebP + JPEG)
+│       └── img/recipes/         # 6214 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6210 image files
+├── assets/                      #    css, js and 6214 image files
 ├── recipes/                     #    2915 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 263,146 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 263,148 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2511 of the 2915 recipes have a photograph. Of the 2994 images on the site,
-1213 are CC0 or public domain, 906 are CC BY and 875 are CC BY-SA. Anything
+2513 of the 2915 recipes have a photograph. Of the 2996 images on the site,
+1214 are CC0 or public domain, 907 are CC BY and 875 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5011,11 +5011,23 @@ with a cooked sauce and pepperoni, but they are close.
 - **Frying oil.** Where a recipe fries in a measured amount of oil, the whole
   amount is counted in the nutrition, which overstates the fat a little.
 
-### What has not been done
+### Photographs
 
-Photographs. The volumes were written and published on gradient cards, and the
-fetching and reviewing of real photographs follows the rules under "Images and
-licensing" above, one recipe at a time and only for pictures that show the dish.
+One pass of `tools/fetch_images.py` over the 200 (`--heroes-only`, three shards,
+into a scratch directory) found a candidate for 180. Every candidate was opened
+and judged against its recipe and its diet tags, and 60 were kept: 29 of volume
+thirty-five and 31 of volume thirty-six. The 120 refused are recorded in
+`src/data/image-rejects.json`. They were wrong in the usual ways, and the usual
+ways were sometimes comic: tacos offered to four different beef dishes, a
+helicopter for French bread pizza, a slab of green marble for apple slab pie, a
+military funeral for navy bean soup, a hamster for breakfast cookies, a toy
+rice cooker for the slow cooker pot roast, and politicians eating pizza on a
+bus for pizza pockets. Others were a real dish that is not this one (tortellini
+for ham and pea pasta, French toast already used for another recipe, a Chinese
+braised pork belly for braised pork shoulder) or a dish with an ingredient the
+recipe's label rules out (ham in a Vegetarian-tagged breakfast quesadilla). The
+140 recipes with no kept photograph stay on their gradient card; none was
+drawn.
 
 ## Ads
 

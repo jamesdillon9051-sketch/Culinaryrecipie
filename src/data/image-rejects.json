@@ -23759,5 +23759,59 @@
       "page": "https://www.rawpixel.com/image/5927747/photo-image-public-domain-food-free",
       "why": "cookies, page used for another recipe"
     }
+  ],
+  "vanilla-pudding": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Erdbeer-Pudding-Kuchen_2013-04-01-2678.jpg",
+      "why": "a strawberry custard tart"
+    }
+  ],
+  "rice-pudding-with-raisins": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Compo_rations_ww2_(7991287523).jpg",
+      "why": "army ration tins"
+    }
+  ],
+  "peanut-butter-balls": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=118772448",
+      "why": "coconut-rolled oat balls, not chocolate dipped"
+    }
+  ],
+  "oatmeal-cake": [
+    {
+      "page": "https://www.rawpixel.com/image/6034175/oatmeal-balls-free-public-domain-cc0-photo",
+      "why": "coconut balls, not a cake"
+    }
+  ],
+  "banana-fritters": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Deep_fried_banana_dessert_at_Rice_and_Noodles_Thai_Restaurant.jpg",
+      "why": "fried banana rolls dusted with sugar, a different dish"
+    }
+  ],
+  "banana-milkshake": [
+    {
+      "page": "https://www.rawpixel.com/image/5963065/free-public-domain-cc0-photo",
+      "why": "a chocolate-coloured shake"
+    }
+  ],
+  "baked-bean-pasta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Green_skin_bean_paste_mochi.jpg",
+      "why": "green mochi"
+    }
+  ],
+  "cheese-and-onion-pasty": [
+    {
+      "page": "https://wordpress.org/photos/photo/22767fcf43/",
+      "why": "a pizza and fried chicken"
+    }
+  ],
+  "butter-bean-stew": [
+    {
+      "page": "https://wordpress.org/photos/photo/411685e7be/",
+      "why": "a laksa noodle soup"
+    }
   ]
 }

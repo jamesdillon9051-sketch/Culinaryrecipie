@@ -31434,6 +31434,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-oat-bars.jpg</image:loc>
+      <image:title>Peanut Butter Oat Bars</image:title>
+      <image:caption>Peanut Butter Oat Bars, an American dessert recipe — no bake oat bars</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oatmeal-cake/</loc>
@@ -31458,6 +31463,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-smoothie.jpg</image:loc>
+      <image:title>Banana Smoothie</image:title>
+      <image:caption>Banana Smoothie, an American drink recipe — easy banana milk smoothie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-milkshake/</loc>

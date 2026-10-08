@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2994
-photographs, **1213** are CC0 or public domain and carry no conditions at all, and
-**1781** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2996
+photographs, **1214** are CC0 or public domain and carry no conditions at all, and
+**1782** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,20 +179,20 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2511 |
+| Hero photographs | 2513 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6210 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 293 |
+| Total image files | 6214 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 291 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 800 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 801 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 602 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 390 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 357 | No rights reserved — no attribution legally required |
+| CC0 1.0 | 358 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 298 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 172 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 169 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
@@ -511,11 +511,9 @@ and no usable illustration of them could be drawn either:
 - Rice Pudding with Raisins (`rice-pudding-with-raisins`)
 - Sago Pudding (`sago-pudding`)
 - Peanut Butter Balls (`peanut-butter-balls`)
-- Peanut Butter Oat Bars (`peanut-butter-oat-bars`)
 - Oatmeal Cake (`oatmeal-cake`)
 - Banana Fritters (`banana-fritters`)
 - Pumpkin Fritters (`pumpkin-fritters`)
-- Banana Smoothie (`banana-smoothie`)
 - Banana Milkshake (`banana-milkshake`)
 - Baked Bean Pasta (`baked-bean-pasta`)
 - Cheese and Onion Pasty (`cheese-and-onion-pasty`)
@@ -3526,6 +3524,8 @@ licence as the rest of this project.
 | `vegemite-scrolls.webp` / `.jpg` | Vegemite Scrolls | Hero | Vegemite Scroll | pontman | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/66036063@N00/172674504) |
 | `sticky-date-pudding.webp` / `.jpg` | Sticky Date Pudding | Hero | Sticky date pudding with caramel sauce and creme chantilly | BotheredByBees | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/87273935@N00/3779382901) |
 | `pear-crumble.webp` / `.jpg` | Pear Crumble | Hero | Apple pear crumble | Saucy Salad | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/34048699@N07/6313387311) |
+| `peanut-butter-oat-bars.webp` / `.jpg` | Peanut Butter Oat Bars | Hero | Peanut butter chocolate chip oat bars | @joefoodie | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/98178986@N00/4848078652) |
+| `banana-smoothie.webp` / `.jpg` | Banana Smoothie | Hero | Banana Smoothie | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/5970856/banana-smoothie) |
 
 ---
 
