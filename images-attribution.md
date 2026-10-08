@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2952
-photographs, **1194** are CC0 or public domain and carry no conditions at all, and
-**1758** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2959
+photographs, **1197** are CC0 or public domain and carry no conditions at all, and
+**1762** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,21 +179,21 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2469 |
+| Hero photographs | 2476 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6126 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 335 |
+| Total image files | 6140 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 328 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 789 | Free to use, adapt and use commercially **provided the photographer is credited** |
-| CC0 | 597 | No rights reserved — no attribution legally required |
+| CC BY 2.0 | 790 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC0 | 599 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 387 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 347 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 291 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC0 1.0 | 348 | No rights reserved — no attribution legally required |
+| CC BY-SA 2.0 | 294 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 77 | No rights reserved — no attribution legally required |
@@ -421,26 +421,19 @@ and no usable illustration of them could be drawn either:
 - Tuna Fish Cakes (`tuna-fish-cakes`)
 - Tuna Rice Bowl (`tuna-rice-bowl`)
 - Tuna and Sweetcorn Pasta (`tuna-and-sweetcorn-pasta`)
-- Tuna and Sweetcorn Jacket Potato (`tuna-and-sweetcorn-jacket-potato`)
 - Salmon Patties (`salmon-patties`)
 - Salmon Pasta (`salmon-pasta`)
 - Fish Stew (`fish-stew`)
 - Cod and Potato Bake (`cod-and-potato-bake`)
-- Baked Fish with Crumb Topping (`baked-fish-with-crumb-topping`)
 - Fried Fish Sandwich (`fried-fish-sandwich`)
-- Peanut Butter Noodles (`peanut-butter-noodles`)
 - Egg Noodle Stir Fry (`egg-noodle-stir-fry`)
 - Instant Noodle Upgrade (`instant-noodle-upgrade`)
-- Potato Curry (`potato-curry`)
 - Cauliflower Curry (`cauliflower-curry`)
-- Tarka Dal (`tarka-dal`)
-- Vegetable Pulao (`vegetable-pulao`)
 - Vegetable Fried Rice (`vegetable-fried-rice`)
 - Egg Biryani (`egg-biryani`)
 - Pumpkin Curry (`pumpkin-curry`)
 - Sweet Potato Soup (`sweet-potato-soup`)
 - Sweet Potato Chili (`sweet-potato-chili`)
-- Roast Pumpkin Soup (`roast-pumpkin-soup`)
 - Butternut Squash Pasta (`butternut-squash-pasta`)
 - Zucchini Pasta (`zucchini-pasta`)
 - Zucchini Bake (`zucchini-bake`)
@@ -3522,10 +3515,17 @@ licence as the rest of this project.
 | `chicken-schnitzel.webp` / `.jpg` | Chicken Schnitzel | Hero | chicken schnitzel and spatzle | kinseikun | CC0 1.0 | [Flickr](https://www.flickr.com/photos/162338887@N06/25321553417) |
 | `chicken-nuggets.webp` / `.jpg` | Chicken Nuggets | Hero | Chicken nuggets on a plate | Jiafei Slay Queen | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=155997715) |
 | `chicken-carcass-soup.webp` / `.jpg` | Chicken Carcass Soup | Hero | 2021/365/321 Making Chicken Soup | cogdogblog | CC0 1.0 | [Flickr](https://www.flickr.com/photos/37996646802@N01/51688258879) |
+| `tuna-and-sweetcorn-jacket-potato.webp` / `.jpg` | Tuna and Sweetcorn Jacket Potato | Hero | jacket potates with tuna and sweetcorn and cheddar cheese | JUL7777 | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/58915463@N05/5400121041) |
 | `salmon-loaf.webp` / `.jpg` | Salmon Loaf | Hero | salmon loaf | stu_spivack | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/35034346243@N01/123467233) |
 | `sardine-pasta.webp` / `.jpg` | Sardine Pasta | Hero | Pasta con le sarde (Palermo) | Adriao | CC BY 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pasta_con_le_sarde_(Palermo).jpg) |
 | `mackerel-fishcakes.webp` / `.jpg` | Mackerel Fishcakes | Hero | Smoked Mackerel Fishcakes with Pea Puree and Marinated Beetroot | Girl Interrupted Eating | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/35468144810@N01/4257227996) |
 | `fish-chowder.webp` / `.jpg` | Fish Chowder | Hero | Fishchowder (image of fish chowder on Wikidata Q5454607) | Nate Steiner | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fishchowder.jpg) |
+| `baked-fish-with-crumb-topping.webp` / `.jpg` | Baked Fish with Crumb Topping | Hero | Fish Crumb Fry | Charles Haynes | CC BY-SA 2.0 | [Flickr](https://www.flickr.com/photos/87232391@N00/2182843500) |
+| `peanut-butter-noodles.webp` / `.jpg` | Peanut Butter Noodles | Hero | Udon Noodles with Creamy Peanut Butter Sauce | o.tacke | CC0 1.0 | [Flickr](https://www.flickr.com/photos/89882948@N05/51587357292) |
+| `potato-curry.webp` / `.jpg` | Potato Curry | Hero | Surinaamse kerrie-aardappelen (image of potato curry on Wikidata Q135442115) | Pbuddenberg | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Surinaamse_kerrie-aardappelen.jpg) |
+| `tarka-dal.webp` / `.jpg` | Tarka Dal | Hero | Dal Chana Tarka | Miansari66 | CC0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dal_Chana_Tarka.JPG) |
+| `vegetable-pulao.webp` / `.jpg` | Vegetable Pulao | Hero | Pulao Vegetable Methi India | Divya Kudua | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pulao_Vegetable_Methi_India.jpg) |
+| `roast-pumpkin-soup.webp` / `.jpg` | Roast Pumpkin Soup | Hero | Cremas de calabaza-2 (image of pumpkin soup on Wikidata Q1797271) | Cremas_de_calabaza.jpg: Boca Dorada derivative work: Itzuvit (talk) | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cremas_de_calabaza-2.jpg) |
 
 ---
 

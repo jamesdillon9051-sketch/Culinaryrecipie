@@ -30388,6 +30388,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-and-sweetcorn-jacket-potato.jpg</image:loc>
+      <image:title>Tuna and Sweetcorn Jacket Potato</image:title>
+      <image:caption>Tuna and Sweetcorn Jacket Potato, a British dinner recipe — tuna mayo jacket potato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-patties/</loc>
@@ -30462,6 +30467,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-fish-with-crumb-topping.jpg</image:loc>
+      <image:title>Baked Fish with Crumb Topping</image:title>
+      <image:caption>Baked Fish with Crumb Topping, an American dinner recipe — oven baked crumbed fish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-fish-sandwich/</loc>
@@ -30474,6 +30484,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peanut-butter-noodles.jpg</image:loc>
+      <image:title>Peanut Butter Noodles</image:title>
+      <image:caption>Peanut Butter Noodles, a quick American meal recipe — easy peanut noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-noodle-stir-fry/</loc>
@@ -30492,6 +30507,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-curry.jpg</image:loc>
+      <image:title>Potato Curry</image:title>
+      <image:caption>Potato Curry, an Indian dinner recipe — easy aloo curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-curry/</loc>
@@ -30504,12 +30524,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarka-dal.jpg</image:loc>
+      <image:title>Tarka Dal</image:title>
+      <image:caption>Tarka Dal, an Indian dinner recipe — red lentil dal</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-pulao/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-pulao.jpg</image:loc>
+      <image:title>Vegetable Pulao</image:title>
+      <image:caption>Vegetable Pulao, an Indian dinner recipe — budget rice dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-fried-rice/</loc>
@@ -30546,6 +30576,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-pumpkin-soup.jpg</image:loc>
+      <image:title>Roast Pumpkin Soup</image:title>
+      <image:caption>Roast Pumpkin Soup, an Australian lunch recipe — australian pumpkin soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/butternut-squash-pasta/</loc>
