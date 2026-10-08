@@ -31017,12 +31017,22 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-gratin.jpg</image:loc>
+      <image:title>Potato Gratin</image:title>
+      <image:caption>Potato Gratin, a French dinner recipe — budget creamy potato bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-dumplings/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-dumplings.jpg</image:loc>
+      <image:title>Potato Dumplings</image:title>
+      <image:caption>Potato Dumplings, a German dinner recipe — dumplings made from potato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-onions/</loc>
@@ -31058,18 +31068,33 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-roasted-carrots.jpg</image:loc>
+      <image:title>Honey Roasted Carrots</image:title>
+      <image:caption>Honey Roasted Carrots, a British dinner recipe — roast carrots with honey</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kumara-fries/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kumara-fries.jpg</image:loc>
+      <image:title>Kumara Fries</image:title>
+      <image:caption>Kumara Fries, a New Zealand appetizer recipe — baked kumara chips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-wedges/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-wedges.jpg</image:loc>
+      <image:title>Potato Wedges</image:title>
+      <image:caption>Potato Wedges, an Australian appetizer recipe — budget crispy wedges</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/buttered-peas/</loc>
