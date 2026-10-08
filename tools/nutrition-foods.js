@@ -506,12 +506,14 @@ for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] 
 
 /* Volumes 41 to 43: foods the calculator did not know. */
 const EXT2_FOODS = {
+  adobo_sauce: [2, 10, 3, 2, 6, 1200], vermicelli_dry: [12, 74, 1.5, 3, 3, 10],
   sandwich_rolls: [9, 52, 3, 2.5, 5, 500],
   tzatziki: [3.5, 4, 5, 0.5, 3, 250], laksa_paste: [3, 12, 22, 3, 5, 2200],
   duck_fat: [0, 0, 100, 0, 0, 0], focaccia: [9, 45, 10, 2.5, 2, 600],
   tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55], mixed_nuts: [20, 20, 52, 8, 4, 5], ranch_dressing: [1, 6, 30, 0, 3, 800], bulgur_dry: [12, 76, 1.3, 12, 0.4, 17], soba_dry: [14, 74, 1, 3, 1, 10], korma_paste: [4, 20, 20, 4, 8, 1500], tortellini_fresh: [12, 45, 8, 2, 3, 600], prosciutto_ham: [26, 0, 14, 0, 0, 2000]
 };
 const EXT2_ALIAS = {
+  adobo_sauce: ['adobo sauce from the tin', 'adobo sauce'], vermicelli_dry: ['vermicelli, broken', 'vermicelli'],
   sandwich_rolls: ['soft sandwich rolls', 'crusty rolls', 'sandwich rolls'],
   tzatziki: ['tzatziki'], laksa_paste: ['laksa paste'],
   duck_fat: ['duck fat'], focaccia: ['focaccia base', 'focaccia'],
