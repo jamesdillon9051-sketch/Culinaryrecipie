@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2984
-photographs, **1210** are CC0 or public domain and carry no conditions at all, and
-**1774** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2989
+photographs, **1213** are CC0 or public domain and carry no conditions at all, and
+**1776** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,22 +179,22 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2501 |
+| Hero photographs | 2506 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6190 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 303 |
+| Total image files | 6200 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 298 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 796 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 798 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 602 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 389 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| CC0 1.0 | 355 | No rights reserved — no attribution legally required |
+| CC0 1.0 | 357 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 297 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public domain | 171 | No rights reserved — no attribution legally required |
+| Public domain | 172 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 168 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 80 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 50 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -493,17 +493,12 @@ and no usable illustration of them could be drawn either:
 - Honey Garlic Meatballs (`honey-garlic-meatballs`)
 - Cornbread Casserole (`cornbread-casserole`)
 - Cornbread Stuffing (`cornbread-stuffing`)
-- Cheese Biscuits (`cheese-biscuits`)
 - Cheese Muffins (`cheese-muffins`)
 - Pizza Bread (`pizza-bread`)
 - French Bread Pizza (`french-bread-pizza`)
-- Cheesy Breadsticks (`cheesy-breadsticks`)
-- Pita Pizza (`pita-pizza`)
-- Bagel Pizza (`bagel-pizza`)
 - Pizza Pockets (`pizza-pockets`)
 - Potato Bread (`potato-bread`)
 - Potato Farls (`potato-farls`)
-- Bread Rolls (`bread-rolls`)
 - Milk Bread (`milk-bread`)
 - White Bread (`white-bread`)
 - Flatbread (`flatbread`)
@@ -3526,6 +3521,11 @@ licence as the rest of this project.
 | `honey-butter-biscuits.webp` / `.jpg` | Honey Butter Biscuits | Hero | Plain Butter Biscuit with Honey | Alabama Extension | CC0 1.0 | [Flickr](https://www.flickr.com/photos/184594136@N08/51330638751) |
 | `honey-cornbread.webp` / `.jpg` | Honey Cornbread | Hero | Cornbread and Paprika Honey Butter at Market 104 | Shreveport-Bossier: Louisiana's Other Side | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/57902140@N08/7783683464) |
 | `cornbread-muffins.webp` / `.jpg` | Cornbread Muffins | Hero | Tray homemade cornbread muffins paper | Unknown | CC0 1.0 | [Rawpixel](https://www.rawpixel.com/image/3290014/free-photo-image-pasta-bowl-breakfast) |
+| `cheese-biscuits.webp` / `.jpg` | Cheese Biscuits | Hero | First time Cheese Biscuits | cogdogblog | CC0 1.0 | [Flickr](https://www.flickr.com/photos/37996646802@N01/51432196639) |
+| `cheesy-breadsticks.webp` / `.jpg` | Cheesy Breadsticks | Hero | Cheesy Breadsticks | @joefoodie | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/98178986@N00/3719561686) |
+| `pita-pizza.webp` / `.jpg` | Pita Pizza | Hero | Homemade Pita Pizza | Geoff Peters 604 | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/54359128@N00/5206619742) |
+| `bagel-pizza.webp` / `.jpg` | Bagel Pizza | Hero | Bagel bites pepperoni | Sturmen | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bagel_bites_pepperoni.JPG) |
+| `bread-rolls.webp` / `.jpg` | Bread Rolls | Hero | Bread-rolls | Kerstin Riemer | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=94437486) |
 
 ---
 

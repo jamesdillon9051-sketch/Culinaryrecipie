@@ -31216,6 +31216,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-biscuits.jpg</image:loc>
+      <image:title>Cheese Biscuits</image:title>
+      <image:caption>Cheese Biscuits, an American baking recipe — budget savoury biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-muffins/</loc>
@@ -31240,18 +31245,33 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheesy-breadsticks.jpg</image:loc>
+      <image:title>Cheesy Breadsticks</image:title>
+      <image:caption>Cheesy Breadsticks, an American baking recipe — easy no yeast breadsticks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pita-pizza/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pita-pizza.jpg</image:loc>
+      <image:title>Pita Pizza</image:title>
+      <image:caption>Pita Pizza, a quick American meal recipe — pitta bread pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bagel-pizza/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bagel-pizza.jpg</image:loc>
+      <image:title>Bagel Pizza</image:title>
+      <image:caption>Bagel Pizza, a quick American meal recipe — budget snack pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-pockets/</loc>
@@ -31276,6 +31296,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bread-rolls.jpg</image:loc>
+      <image:title>Bread Rolls</image:title>
+      <image:caption>Bread Rolls, a British baking recipe — budget homemade rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/milk-bread/</loc>
