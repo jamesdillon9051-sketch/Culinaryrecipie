@@ -230,6 +230,8 @@ The site is read by people and by Google's quality systems, and both penalise th
 
 ## 5. Adding a volume
 
+**Standing instruction from the owner: always add the most searched, most famous recipes from the internet for the USA, Canada, Australia, the UK and New Zealand.** When the owner asks for new recipes or a new volume without naming a theme, that is the brief: pick the dishes people in those five countries search for most, grade them against the catalogue (steps 1 and 2 below) so nothing is published twice, and add only the ones that are new. Where a request names a theme (diabetes, weight loss and so on), keep the theme and still choose the best-known dishes of those five countries within it.
+
 1. **Names first.** Put candidate dishes one per line in a text file (`Title`, or `Title | primary search phrase`). Grade them: `node tools/dedupe-candidates.js names.txt --new`. Write the catalogue rows *from that output*, not retyped from it.
 2. **Never publish the same dish twice.** The tool misses synonyms and spelling variants (a seafood boil is the shrimp boil with crab; wassail is the mulled cider; baked oats are the baked oatmeal), so also read each new title against the existing ones by eye. Once the volume is written, run `node tools/dedupe-candidates.js --volume N` and `npm run duplicates`.
 3. **Ordinary pages.** Every recipe is a normal `/recipes/<slug>/` page in the catalogue. Never build separate per-country or per-cuisine pages for new recipes; the cuisine and category pages already list them.
