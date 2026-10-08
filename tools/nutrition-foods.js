@@ -506,6 +506,10 @@ for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] 
 
 /* Volumes 41 to 43: foods the calculator did not know. */
 const EXT2_FOODS = {
+  custard_ready: [3, 17, 4, 0, 12, 60],
+  panettone: [8, 52, 16, 2, 25, 300], matcha: [30, 39, 5, 38, 0, 10],
+  dulce_de_leche: [7, 55, 7, 0, 54, 140], wheat_bran: [16, 64, 4, 43, 0, 5],
+  sea_bass: [19, 0, 2.5, 0, 0, 70], sea_bream: [11, 0, 1.8, 0, 0, 40], monkfish: [14.5, 0, 1.5, 0, 0, 18], curry_leaves: [6, 19, 1, 6, 0, 10], gooseberries: [0.9, 10, 0.6, 4.3, 4, 1], seafood_seasoning: [8, 22, 3, 8, 2, 14000], instant_coffee: [14, 41, 0.5, 0, 0, 40],
   nori: [30, 5, 1, 36, 0, 600],
   beef_short_rib: [14, 0, 25, 0, 0, 60], pork_fillet: [22, 0, 3, 0, 0, 55],
   croutons: [11, 68, 9, 4, 5, 700], tikka_paste: [3, 10, 14, 3, 6, 2000], beef_bones: [2, 0, 1, 0, 0, 20],
@@ -516,6 +520,10 @@ const EXT2_FOODS = {
   tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55], mixed_nuts: [20, 20, 52, 8, 4, 5], ranch_dressing: [1, 6, 30, 0, 3, 800], bulgur_dry: [12, 76, 1.3, 12, 0.4, 17], soba_dry: [14, 74, 1, 3, 1, 10], korma_paste: [4, 20, 20, 4, 8, 1500], tortellini_fresh: [12, 45, 8, 2, 3, 600], prosciutto_ham: [26, 0, 14, 0, 0, 2000]
 };
 const EXT2_ALIAS = {
+  custard_ready: ['custard, warmed', 'custard'],
+  panettone: ['thick slices panettone', 'panettone'], matcha: ['matcha powder'],
+  dulce_de_leche: ['dulce de leche'], wheat_bran: ['wheat bran', 'bran'],
+  sea_bass: ['sea bass fillets, skin on', 'sea bass fillets'], sea_bream: ['whole sea bream', 'sea bream'], monkfish: ['monkfish tail, trimmed and cut into 4 cm chunks', 'monkfish'], curry_leaves: ['fresh curry leaves', 'curry leaves'], gooseberries: ['gooseberries, topped and tailed', 'gooseberries'], seafood_seasoning: ['seafood seasoning'], instant_coffee: ['instant coffee'],
   nori: ['nori, shredded', 'nori'],
   beef_short_rib: ['beef short ribs', 'short ribs'], pork_fillet: ['pork fillet', 'pork fillet, thinly sliced', 'pork tenderloin'], 
   croutons: ['croutons'], tikka_paste: ['tikka masala paste', 'tikka paste', 'curry paste'], beef_bones: ['beef bones'],

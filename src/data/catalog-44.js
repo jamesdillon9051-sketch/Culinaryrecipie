@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: British 10, American 9, Chinese 5, Indian 5, Italian 4, Mexican 4, French 3, Greek 3, Middle Eastern 3, Hungarian 1, Japanese 1, Korean 1, Thai 1, Vietnamese 1.
+ * Spread: American 28, British 22, Italian 11, French 6, Indian 6, Chinese 5, Mexican 4, Greek 3, Middle Eastern 3, Irish 2, Japanese 2, Argentinian 1, Filipino 1, Hungarian 1, Korean 1, Scottish 1, Spanish 1, Thai 1, Vietnamese 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -78,5 +78,54 @@ module.exports = [
   c('cod-curry', 'Cod Curry', 'Indian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'cod curry'),
   c('smoked-haddock-risotto', 'Smoked Haddock Risotto', 'British', 'Dinner', 'Medium', 10, 35, 4, 0, 0, [], ['new'], 'smoked haddock risotto'),
   c('smoked-haddock-fishcakes', 'Smoked Haddock Fishcakes', 'British', 'Dinner', 'Medium', 25, 15, 4, 0, 0, [], ['new'], 'smoked haddock fishcakes'),
-  c('fish-pie-with-cheddar-mash', 'Fish Pie with Cheddar Mash', 'British', 'Dinner', 'Medium', 25, 40, 6, 0, 0, [], ['new'], 'fish pie with cheddar mash')
+  c('fish-pie-with-cheddar-mash', 'Fish Pie with Cheddar Mash', 'British', 'Dinner', 'Medium', 25, 40, 6, 0, 0, [], ['new'], 'fish pie with cheddar mash'),
+  c('fish-and-chips-with-mushy-peas', 'Fish and Chips with Mushy Peas', 'British', 'Dinner', 'Medium', 30, 30, 4, 0, 0, [], ['new'], 'fish and chips with mushy peas'),
+  c('sea-bass-with-lemon-butter', 'Sea Bass with Lemon Butter', 'French', 'Dinner', 'Easy', 5, 10, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'sea bass with lemon butter'),
+  c('sea-bream-with-fennel', 'Sea Bream with Fennel', 'Italian', 'Dinner', 'Easy', 10, 25, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'sea bream with fennel'),
+  c('monkfish-curry', 'Monkfish Curry', 'Indian', 'Dinner', 'Medium', 15, 25, 4, 0, 0, [], ['new'], 'monkfish curry'),
+  c('mackerel-with-gooseberry-sauce', 'Mackerel with Gooseberry Sauce', 'British', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'mackerel with gooseberry sauce'),
+  c('prawn-risotto', 'Prawn Risotto', 'Italian', 'Dinner', 'Medium', 10, 30, 4, 0, 0, [], ['new'], 'prawn risotto'),
+  c('prawn-skewers-with-chimichurri', 'Prawn Skewers with Chimichurri', 'Argentinian', 'Appetizers', 'Easy', 15, 6, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'prawn skewers with chimichurri'),
+  c('crab-cakes-with-remoulade', 'Crab Cakes with Remoulade', 'American', 'Appetizers', 'Medium', 25, 10, 6, 0, 0, [], ['new'], 'crab cakes with remoulade'),
+  c('crab-bisque', 'Crab Bisque', 'American', 'Dinner', 'Medium', 20, 35, 4, 0, 0, [], ['new'], 'crab bisque'),
+  c('lobster-mac-and-cheese', 'Lobster Mac and Cheese', 'American', 'Dinner', 'Medium', 20, 30, 6, 0, 0, [], ['new'], 'lobster mac and cheese'),
+  c('scallop-risotto', 'Scallop Risotto', 'Italian', 'Dinner', 'Medium', 10, 35, 4, 0, 0, [], ['new'], 'scallop risotto'),
+  c('clam-chowder-bread-bowls', 'Clam Chowder Bread Bowls', 'American', 'Dinner', 'Medium', 20, 40, 4, 0, 0, [], ['new'], 'clam chowder bread bowls'),
+  c('mussels-in-cider', 'Mussels in Cider', 'French', 'Dinner', 'Easy', 10, 12, 4, 0, 0, ['Gluten-Free'], ['new'], 'mussels in cider'),
+  c('lemon-drizzle-traybake', 'Lemon Drizzle Traybake', 'British', 'Baking', 'Easy', 15, 35, 16, 0, 0, ['Vegetarian'], ['new'], 'lemon drizzle traybake'),
+  c('victoria-sandwich-cupcakes', 'Victoria Sandwich Cupcakes', 'British', 'Baking', 'Easy', 20, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'victoria sandwich cupcakes'),
+  c('coffee-and-walnut-cupcakes', 'Coffee and Walnut Cupcakes', 'British', 'Baking', 'Easy', 20, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'coffee and walnut cupcakes'),
+  c('red-velvet-whoopie-pies', 'Red Velvet Whoopie Pies', 'American', 'Baking', 'Medium', 30, 12, 12, 0, 0, ['Vegetarian'], ['new'], 'red velvet whoopie pies'),
+  c('apple-pie-cookies', 'Apple Pie Cookies', 'American', 'Baking', 'Medium', 30, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'apple pie cookies'),
+  c('raspberry-ripple-cheesecake', 'Raspberry Ripple Cheesecake', 'British', 'Desserts', 'Medium', 30, 50, 10, 0, 0, ['Vegetarian'], ['new'], 'raspberry ripple cheesecake'),
+  c('key-lime-bars', 'Key Lime Bars', 'American', 'Desserts', 'Easy', 15, 20, 16, 0, 0, [], ['new'], 'key lime bars'),
+  c('banoffee-cupcakes', 'Banoffee Cupcakes', 'British', 'Baking', 'Medium', 30, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'banoffee cupcakes'),
+  c('sticky-toffee-cupcakes', 'Sticky Toffee Cupcakes', 'British', 'Baking', 'Medium', 30, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'sticky toffee cupcakes'),
+  c('peanut-butter-blondies', 'Peanut Butter Blondies', 'American', 'Baking', 'Easy', 15, 25, 16, 0, 0, ['Vegetarian'], ['new'], 'peanut butter blondies'),
+  c('lemon-blueberry-muffins', 'Lemon Blueberry Muffins', 'American', 'Baking', 'Easy', 15, 22, 12, 0, 0, ['Vegetarian'], ['new'], 'lemon blueberry muffins'),
+  c('cranberry-orange-muffins', 'Cranberry Orange Muffins', 'American', 'Baking', 'Easy', 15, 22, 12, 0, 0, ['Vegetarian'], ['new'], 'cranberry orange muffins'),
+  c('irish-brown-bread', 'Irish Brown Bread', 'Irish', 'Baking', 'Easy', 10, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'irish brown bread'),
+  c('treacle-bread', 'Treacle Bread', 'Irish', 'Baking', 'Easy', 10, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'treacle bread'),
+  c('jalapeno-cornbread', 'Jalapeno Cornbread', 'American', 'Baking', 'Easy', 10, 25, 9, 0, 0, ['Vegetarian'], ['new'], 'jalapeno cornbread'),
+  c('honey-wheat-bread', 'Honey Wheat Bread', 'American', 'Baking', 'Medium', 30, 35, 10, 0, 0, ['Vegetarian'], ['new'], 'honey wheat bread'),
+  c('everything-bagel-dip', 'Everything Bagel Dip', 'American', 'Appetizers', 'Easy', 10, 0, 8, 0, 0, ['Vegetarian'], ['new'], 'everything bagel dip'),
+  c('cinnamon-raisin-bagels', 'Cinnamon Raisin Bagels', 'American', 'Baking', 'Hard', 45, 25, 8, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'cinnamon raisin bagels'),
+  c('iced-buns', 'Iced Buns', 'British', 'Baking', 'Medium', 40, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'iced buns'),
+  c('bakewell-slices', 'Bakewell Slices', 'British', 'Baking', 'Medium', 30, 35, 12, 0, 0, ['Vegetarian'], ['new'], 'bakewell slices'),
+  c('syrup-sponge-pudding', 'Syrup Sponge Pudding', 'British', 'Desserts', 'Medium', 20, 90, 6, 0, 0, ['Vegetarian'], ['new'], 'syrup sponge pudding'),
+  c('panettone-french-toast', 'Panettone French Toast', 'Italian', 'Breakfast', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'panettone french toast'),
+  c('shortbread-stars', 'Shortbread Stars', 'Scottish', 'Baking', 'Easy', 15, 20, 16, 0, 0, ['Vegetarian'], ['new'], 'shortbread stars'),
+  c('candy-apples', 'Candy Apples', 'American', 'Desserts', 'Medium', 15, 10, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'candy apples'),
+  c('marshmallow-fluff-fudge', 'Marshmallow Fluff Fudge', 'American', 'Desserts', 'Easy', 10, 10, 24, 0, 0, ['Gluten-Free'], ['new'], 'marshmallow fluff fudge'),
+  c('oreo-truffles', 'Oreo Truffles', 'American', 'Desserts', 'Easy', 25, 5, 24, 0, 0, ['Vegetarian'], ['new'], 'oreo truffles'),
+  c('cookie-butter-bars', 'Cookie Butter Bars', 'American', 'Baking', 'Easy', 15, 25, 16, 0, 0, ['Vegetarian'], ['new'], 'cookie butter bars'),
+  c('panna-cotta-with-berries', 'Panna Cotta with Berries', 'Italian', 'Desserts', 'Medium', 15, 10, 6, 0, 0, ['Gluten-Free'], ['new'], 'panna cotta with berries'),
+  c('zabaglione', 'Zabaglione', 'Italian', 'Desserts', 'Medium', 5, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'zabaglione'),
+  c('sfogliatelle', 'Sfogliatelle', 'Italian', 'Baking', 'Medium', 45, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'sfogliatelle'),
+  c('churros-with-chocolate-sauce', 'Churros with Chocolate Sauce', 'Spanish', 'Desserts', 'Medium', 20, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'churros with chocolate sauce'),
+  c('brioche-buns', 'Brioche Buns', 'French', 'Baking', 'Hard', 45, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'brioche buns'),
+  c('matcha-cheesecake', 'Matcha Cheesecake', 'Japanese', 'Desserts', 'Medium', 25, 50, 10, 0, 0, ['Vegetarian'], ['new'], 'matcha cheesecake'),
+  c('leche-flan', 'Leche Flan', 'Filipino', 'Desserts', 'Medium', 20, 50, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'leche flan'),
+  c('cream-of-chicken-soup', 'Cream of Chicken Soup', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, [], ['new'], 'cream of chicken soup'),
+  c('cream-of-tomato-soup-with-basil', 'Cream of Tomato Soup with Basil', 'British', 'Dinner', 'Easy', 10, 30, 4, 0, 0, ['Vegetarian'], ['new'], 'cream of tomato soup with basil')
 ];
