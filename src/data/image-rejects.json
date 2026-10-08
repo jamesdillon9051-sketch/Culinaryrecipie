@@ -29631,5 +29631,17 @@
       "page": "https://commons.wikimedia.org/wiki/File:Amy%27s_vegetable_pot_pie.jpg",
       "why": "a vegetable pot pie already used for another recipe"
     }
+  ],
+  "steak-fried-rice": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_Rice_with_Beef_Steak.jpg",
+      "why": "a fried rice with diced pork and corn, no steak"
+    }
+  ],
+  "turkey-club-wrap": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Whoa,_dude,_Mr._Turkey_Club_Wrap_is_my_father._Name%27s_Richard._(2695142984).jpg",
+      "why": "a closed takeaway box with a handwritten label"
+    }
   ]
 }
