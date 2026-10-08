@@ -28821,5 +28821,815 @@
       "page": "https://commons.wikimedia.org/wiki/File:Quinoa_con_pisto_-_Quinoa_ratatouille_(4690079495).jpg",
       "why": "a quinoa dish in a blurred close-up"
     }
+  ],
+  "cinnamon-roll-pancakes": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kanelbulle.jpg",
+      "why": "a Swedish cinnamon bun, not pancakes"
+    }
+  ],
+  "greek-omelette": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ode_to_an_Omelette_(4326057133).jpg",
+      "why": "plain omelette with hash browns, no Greek ingredients visible"
+    }
+  ],
+  "ricotta-toast-with-honey": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Strawberry_Bruschetta_toast_with_honey_ricotta_balsamic_vinegar_mint_and_basil_in_mixing_bowl_next_to_toaster_on_wood_table_(15785175923).jpg",
+      "why": "a bowl of strawberries and a toaster, no toast with ricotta"
+    }
+  ],
+  "full-irish-breakfast": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Full_English_breakfast_-_London,_UK.jpg",
+      "why": "captioned as a Full English and not an Irish plate"
+    }
+  ],
+  "anzac-slice": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Anzac_caramel_slice.jpg",
+      "why": "a caramel variant in a bakery cabinet, not the oat and coconut slice"
+    }
+  ],
+  "apricot-slice": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Apple_%26_Apricot_Charlotte_-_Sugardough_2025-07-01.jpg",
+      "why": "an apple charlotte, already used for another recipe"
+    }
+  ],
+  "arnold-palmer": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Photograph_of_Jack_Nicklaus,_Gary_Player,_Arnold_Palmer,_and_President_Gerald_Ford_Playing_Golf_at_the_World_Golf_Hall_of_Fame_Tournament_in_Pinehurst,_North_Carolina_-_NARA_-_7062574.jpg",
+      "why": "a golf photograph, no drink"
+    }
+  ],
+  "apple-pie-smoothie": [
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/36123244371",
+      "why": "a whole apple pie, not a smoothie"
+    }
+  ],
+  "blackcurrant-cordial": [
+    {
+      "page": "https://www.flickr.com/photos/77358023@N00/4639610235",
+      "why": "a droplet on a hat, not a cordial"
+    }
+  ],
+  "caramel-macchiato": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caffe_Latte_20150608.jpg",
+      "why": "a shop-bought carton, not a homemade drink"
+    }
+  ],
+  "cinderella-mocktail": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:The_Cinderella_@_Maid_of_Auckland,_Edwardstown_20250314-122946.jpg",
+      "why": "a bar cocktail with unknown ingredients"
+    }
+  ],
+  "cucumber-mint-cooler": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Olive_Cucumber_Mint_Raita_Recipe_By_Sonia_Goyal.jpg",
+      "why": "a raita in a bowl, not a cooler drink"
+    }
+  ],
+  "fruit-punch": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Southern_Bourbon_Punch.jpg",
+      "why": "a bourbon punch containing alcohol"
+    }
+  ],
+  "ginger-ale": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Coca-cola_gingerale.JPG",
+      "why": "branded bottles, not a homemade drink"
+    }
+  ],
+  "ginger-shot": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chef_select_-_Ginger_shot_(Lidl),_Winschoten_(2022)_01.jpg",
+      "why": "a shop-bought bottle held in a hand"
+    }
+  ],
+  "hot-apple-cider": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Hot_Apple_Cider_(11598921805).jpg",
+      "why": "a market stall, the cider itself is not shown"
+    }
+  ],
+  "lemon-ginger-tea": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:A_boiled_Lemon_and_ginger_tea.jpg",
+      "why": "brown tea boiling over a fire, no lemon or ginger visible"
+    }
+  ],
+  "lime-cordial": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Lime_Cordiale.jpg",
+      "why": "a band on stage, not a drink"
+    }
+  ],
+  "peanut-butter-milkshake": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Peanut_butter_and_cocoa_milkshake_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT)_-_52773995487.jpg",
+      "why": "a cocoa version, the recipe is plain peanut butter"
+    }
+  ],
+  "pineapple-mocktail": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sielu_Mocktail_-_Alma,_Lisbon_(52740512504).jpg",
+      "why": "a copper mug with mint and lime, no pineapple"
+    }
+  ],
+  "pink-lemonade": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pink_Lemonade.jpg",
+      "why": "a red fizzy drink in a pub, not pink lemonade"
+    }
+  ],
+  "pumpkin-spice-smoothie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Pumpkin_Spice_Latte_(38404428942).jpg",
+      "why": "a branded latte cup, not a smoothie"
+    }
+  ],
+  "salted-caramel-hot-chocolate": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:An_open_tub_of_Zielona_Budka_%22Karmel_z_Sol%C4%85%22_(Caramel_with_Salt)_ice_cream;_Gliwice,_Silesian_Voivodeship,_Poland,_February_2026.jpg",
+      "why": "a tub of ice cream, not a hot drink"
+    }
+  ],
+  "sun-tea": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sun_Rice_Kitchen_organic_bento_opened.jpg",
+      "why": "a bento box with a bottled tea, not sun tea"
+    }
+  ],
+  "vanilla-milkshake": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chilled_Milkshake.jpg",
+      "why": "a party table with a handbag dominating the frame"
+    }
+  ],
+  "white-sangria": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Charlie%27s_Cafe_Exceptionale_Charlie%27s_Butler_and_Sangria_Tent_Card_-_DPLA_-_2f50a768437fe77bfad04d5ae335e23c_(page_1).jpg",
+      "why": "a menu card, not the drink"
+    }
+  ],
+  "strawberry-syrup": [
+    {
+      "page": "https://stocksnap.io/photo/strawberry-pancake-KBEYS7KRA3",
+      "why": "a stack of pancakes, not a jar of syrup"
+    }
+  ],
+  "herb-roasted-turkey": [
+    {
+      "page": "https://www.flickr.com/photos/148748355@N05/49119473187",
+      "why": "a live turkey on a bed"
+    }
+  ],
+  "honey-glazed-carrots": [
+    {
+      "page": "https://www.flickr.com/photos/140641142@N05/35797296004",
+      "why": "a chicken strip basket, no carrots"
+    }
+  ],
+  "candy-cane-cookies": [
+    {
+      "page": "https://www.flickr.com/photos/42061903@N07/31604082122",
+      "why": "sailing boats"
+    }
+  ],
+  "halloween-cupcakes": [
+    {
+      "page": "https://www.flickr.com/photos/51514834@N00/29692218620",
+      "why": "a branded snack cake box"
+    }
+  ],
+  "fourth-of-july-berry-trifle": [
+    {
+      "page": "https://www.flickr.com/photos/135886671@N08/36167966396",
+      "why": "a burnt hillside, not a dessert"
+    }
+  ],
+  "cranberry-relish": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Canned_cranberry_sauce_-_November_2023_-_Sarah_Stierch.jpg",
+      "why": "a canned cranberry jelly, not a relish"
+    }
+  ],
+  "cranberry-meatballs": [
+    {
+      "page": "https://www.flickr.com/photos/54781600@N05/29543765782",
+      "why": "turkey and apple meatballs, a different dish"
+    }
+  ],
+  "bread-pudding-with-whiskey-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bud%C3%ADn_de_pan,_postre_hecho_en_Misiones_(Argentina).jpg",
+      "why": "a caramel pudding turned out of a mould, not bread pudding"
+    }
+  ],
+  "apple-cinnamon-rolls": [
+    {
+      "page": "https://www.flickr.com/photos/57873306@N00/4626501723",
+      "why": "a bowl of oatmeal, already used for another recipe"
+    }
+  ],
+  "banana-cake-with-cream-cheese-icing": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Britisch_Banana_Caramel_Cake,_January_2008.jpg",
+      "why": "a caramel cream cake, no cream cheese icing"
+    }
+  ],
+  "banana-walnut-loaf": [
+    {
+      "page": "https://www.flickr.com/photos/25802865@N08/54786789942",
+      "why": "a studded loaf with chocolate chips, not a banana walnut loaf"
+    }
+  ],
+  "cheesecake-brownies": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Brownie_Cheesecake_(28840812073).jpg",
+      "why": "a single cheesecake in a pan, no brownie layer"
+    }
+  ],
+  "cookie-dough-bites": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cookie_Dough_Lightful_-_2020.jpg",
+      "why": "a food truck in a street"
+    }
+  ],
+  "evaporated-milk-fudge": [
+    {
+      "page": "https://www.flickr.com/photos/14529688@N08/24140497419",
+      "why": "a can label, not fudge"
+    }
+  ],
+  "gingersnaps": [
+    {
+      "page": "https://www.flickr.com/photos/57873306@N00/25317833518",
+      "why": "raw spices and flour in a bowl"
+    }
+  ],
+  "orange-poppy-seed-cake": [
+    {
+      "page": "https://www.flickr.com/photos/136594255@N06/26693685786",
+      "why": "a flower"
+    }
+  ],
+  "plum-cake": [
+    {
+      "page": "https://www.rawpixel.com/image/448125/free-photo-image-plum-bakery-vintage-bake",
+      "why": "whole plums in a bowl, no cake"
+    }
+  ],
+  "treacle-scones": [
+    {
+      "page": "https://www.flickr.com/photos/58301516@N00/23683225171",
+      "why": "toast and a bowl of soup, no scones"
+    }
+  ],
+  "strawberry-ice-cream": [
+    {
+      "page": "https://www.flickr.com/photos/47430793@N08/26133482609",
+      "why": "a navy galley serving line"
+    }
+  ],
+  "chocolate-ice-cream": [
+    {
+      "page": "https://www.flickr.com/photos/7633518@N08/54573969601",
+      "why": "a cone with strawberry on top of chocolate"
+    }
+  ],
+  "mango-sorbet": [
+    {
+      "page": "https://www.flickr.com/photos/87101523@N04/22100186911",
+      "why": "two people in a prison costume"
+    }
+  ],
+  "lemon-sorbet": [
+    {
+      "page": "https://www.flickr.com/photos/187878392@N04/52670945396",
+      "why": "a festive wreath with glasses, not clearly lemon sorbet"
+    }
+  ],
+  "sweet-potato-biscuits": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "a garden plant, offered to five recipes"
+    }
+  ],
+  "vegan-cheesecake": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Vegan_Pumpkin_Cheesecake_(6911191862).jpg",
+      "why": "a pecan topped pumpkin pie, not a cheesecake"
+    }
+  ],
+  "vegan-chocolate-cake": [
+    {
+      "page": "https://www.rawpixel.com/image/5940501/vegan-cake-ice-cream-tokyo-japan",
+      "why": "one plate offered to two recipes and not clearly either"
+    }
+  ],
+  "vegan-cookies": [
+    {
+      "page": "https://www.rawpixel.com/image/5940501/vegan-cake-ice-cream-tokyo-japan",
+      "why": "one plate offered to two recipes and shows cake"
+    }
+  ],
+  "black-bean-brownies": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Brazilian_food_Feijoada.jpg",
+      "why": "a pot of feijoada already used for another recipe"
+    }
+  ],
+  "creme-anglaise": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Enjoying_g%C3%A9n%C3%A9pi,_tarte_aux_myrtilles,_crumble_and_cr%C3%A8me_anglaise_in_a_mountain_restaurant,_Les_Arcs,_2013.jpg",
+      "why": "a restaurant table where the custard is a small side pot"
+    }
+  ],
+  "sticky-toffee-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:StickyToffeePudding_(cropped).jpg",
+      "why": "a pudding already used for another recipe"
+    }
+  ],
+  "roasted-strawberries": [
+    {
+      "page": "https://www.flickr.com/photos/42787780@N04/6984507532",
+      "why": "raw strawberries in a heap"
+    }
+  ],
+  "stewed-rhubarb": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Rhubarb_%E2%80%98fool%E2%80%99_Panna_Cotta.jpg",
+      "why": "a layered panna cotta glass"
+    }
+  ],
+  "berry-compote": [
+    {
+      "page": "https://wordpress.org/photos/photo/2726a12c54/",
+      "why": "a cheesecake slice, the compote is only the topping"
+    }
+  ],
+  "chilli-jam": [
+    {
+      "page": "https://www.flickr.com/photos/92146798@N00/5067515116",
+      "why": "fried frog legs with a dipping sauce"
+    }
+  ],
+  "mint-jelly": [
+    {
+      "page": "https://www.rawpixel.com/image/6068132/free-public-domain-cc0-photo",
+      "why": "layered dessert shots, no mint jelly"
+    }
+  ],
+  "pumpkin-butter": [
+    {
+      "page": "https://www.flickr.com/photos/57873306@N00/52419587888",
+      "why": "whole pies, not a spread"
+    }
+  ],
+  "baked-bananas": [
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/40036608701",
+      "why": "slices of a loaf, not baked bananas"
+    }
+  ],
+  "bacon-jam": [
+    {
+      "page": "https://www.rawpixel.com/image/5963146/free-public-domain-cc0-photo",
+      "why": "cured ham slices, not jam"
+    }
+  ],
+  "peanut-butter-energy-bites": [
+    {
+      "page": "https://www.flickr.com/photos/87542849@N00/2096581633",
+      "why": "squares of fudge"
+    }
+  ],
+  "spiced-nuts": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:A_handful_of_pistachio_nuts.jpg",
+      "why": "plain raw pistachios"
+    }
+  ],
+  "sweet-potato-chips": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "a garden plant, offered to five recipes"
+    }
+  ],
+  "beetroot-dip": [
+    {
+      "page": "https://www.flickr.com/photos/10559879@N00/924562054",
+      "why": "a dim restaurant board with three dips"
+    }
+  ],
+  "pea-and-mint-dip": [
+    {
+      "page": "https://www.flickr.com/photos/46246687@N05/18008273143",
+      "why": "ravioli in sauce"
+    }
+  ],
+  "pumpkin-hummus": [
+    {
+      "page": "https://www.flickr.com/photos/51514834@N00/51475296667",
+      "why": "a shop-bought tub of dessert hummus"
+    }
+  ],
+  "whipped-feta": [
+    {
+      "page": "https://www.flickr.com/photos/68147320@N02/42539324681",
+      "why": "a plate of marinated okra with a little whipped feta underneath"
+    }
+  ],
+  "puff-pastry-pinwheels": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pate_feuilletee.jpg",
+      "why": "folded raw puff pastry, no pinwheels"
+    }
+  ],
+  "stuffed-dates": [
+    {
+      "page": "https://www.flickr.com/photos/168023024@N05/40080128403",
+      "why": "an old family photograph"
+    }
+  ],
+  "smoked-salmon-blinis": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Laksemadder.jpg",
+      "why": "salmon on bread slices, not blinis"
+    }
+  ],
+  "taquitos": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Flautas_guacamole_tortillas.jpg",
+      "why": "flautas already used for another recipe"
+    }
+  ],
+  "mini-pizzas": [
+    {
+      "page": "https://www.flickr.com/photos/62518311@N00/11154917326",
+      "why": "salami slices on pastry, not pizzas"
+    }
+  ],
+  "cabbage-salad-with-peanut-dressing": [
+    {
+      "page": "https://wordpress.org/photos/photo/3746a53da1/",
+      "why": "fried chicken pieces with a little slaw, not the salad"
+    }
+  ],
+  "pasta-salad-with-italian-dressing": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pasta_salad_closeup.JPG",
+      "why": "a pasta salad already used for another recipe"
+    }
+  ],
+  "tortellini-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Salat_og_tortellini.jpg",
+      "why": "lettuce and tortellini in separate bowls, not a salad"
+    }
+  ],
+  "warm-lentil-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Healthy_Lentil_Salad_(Unsplash).jpg",
+      "why": "a lentil salad already used for another recipe"
+    }
+  ],
+  "soba-noodle-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Dried_soba_noodles_by_FotoosVanRobin.jpg",
+      "why": "dry uncooked noodles"
+    }
+  ],
+  "vietnamese-noodle-salad": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pho-Beef-Noodles-2008.jpg",
+      "why": "a bowl of pho soup, not a noodle salad"
+    }
+  ],
+  "summer-rolls-with-prawns": [
+    {
+      "page": "https://www.flickr.com/photos/37996646802@N01/52253474275",
+      "why": "a dog on the grass"
+    }
+  ],
+  "crab-salad": [
+    {
+      "page": "https://www.rawpixel.com/image/6019015/photo-image-public-domain-plant-food",
+      "why": "a horseshoe crab egg salad, a different dish"
+    }
+  ],
+  "sweet-potato-buddha-bowl": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "a garden plant, offered to five recipes"
+    }
+  ],
+  "korean-beef-bowl": [
+    {
+      "page": "https://wordpress.org/photos/photo/74369c4fe2/",
+      "why": "a table of many dishes, no single beef bowl"
+    }
+  ],
+  "black-eyed-pea-stew": [
+    {
+      "page": "https://www.flickr.com/photos/29507259@N02/3765706629",
+      "why": "a black eyed susan flower"
+    }
+  ],
+  "vegetable-korma": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Amy%27s_Indian_Vegetable_Korma.jpg",
+      "why": "an airline style tray with rice and dal"
+    }
+  ],
+  "vegetable-pilau": [
+    {
+      "page": "https://wordpress.org/photos/photo/76469d4cc2/",
+      "why": "a plate with stewed beef and many other foods"
+    }
+  ],
+  "lemon-risotto": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Green_pea_and_lemon_risotto_(42460584544).jpg",
+      "why": "a pea risotto with brown rice, not a lemon risotto"
+    }
+  ],
+  "stuffed-butternut-squash": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Butternut_squash_stuffed_shells_with_toasted_pecan_and_sage_brown_butter_(3869054302).jpg",
+      "why": "stuffed pasta shells, not squash"
+    }
+  ],
+  "vegetable-wellington": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Broad_beans_-_Wellington,_New_Zealand.jpg",
+      "why": "a heap of raw broad bean pods"
+    }
+  ],
+  "mushroom-wellington": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mushroom_soup_with_Madeira_cream.jpg",
+      "why": "a bowl of mushroom soup"
+    }
+  ],
+  "beet-burgers": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Beet_Burgers_on_Romaine_Buns_(5752193480).jpg",
+      "why": "beetroot in lettuce cups, no burger"
+    }
+  ],
+  "vegan-burgers": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_Burger_and_Vegan_Xmas_Burger_by_Honest_Burgers.jpg",
+      "why": "a beef burger with chips"
+    }
+  ],
+  "sweet-potato-gnocchi": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "a garden plant, offered to five recipes"
+    }
+  ],
+  "almond-crusted-chicken": [
+    {
+      "page": "https://wordpress.org/photos/photo/1106a28ed9/",
+      "why": "a slice of custard tart, not chicken"
+    }
+  ],
+  "bacon-wrapped-chicken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bacon_wrapped_turkey.jpg",
+      "why": "a whole bacon wrapped turkey"
+    }
+  ],
+  "baked-salmon-with-asparagus": [
+    {
+      "page": "https://www.rawpixel.com/image/5925471/photo-image-background-flower-public-domain",
+      "why": "a smoked salmon terrine, not baked salmon"
+    }
+  ],
+  "beef-brisket-sandwich": [
+    {
+      "page": "https://wordpress.org/photos/photo/9264ab268b/",
+      "why": "sliced brisket on a tray, no sandwich"
+    }
+  ],
+  "beef-noodle-stir-fry": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kuaitiao_nuea_pueay.JPG",
+      "why": "a beef noodle soup, not a stir fry"
+    }
+  ],
+  "beef-ragu": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arancini_Al_Ragu%27_(half-eaten)_-_Giuseppes_2026-06-11.jpg",
+      "why": "a half eaten rice ball, not a ragu"
+    }
+  ],
+  "beef-shawarma": [
+    {
+      "page": "https://wordpress.org/photos/photo/8636a6d0de/",
+      "why": "a wrap filled with mixed beef and chicken with chips"
+    }
+  ],
+  "beef-and-mushroom-pie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_and_mushroom_pie%5E_-_geograph.org.uk_-_2051143.jpg",
+      "why": "a cow in a field"
+    }
+  ],
+  "brisket-tacos": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Vegan_Nom_Smoked_Brisket_Taco_(9729977741).jpg",
+      "why": "a vegan version of the taco"
+    }
+  ],
+  "butter-chicken-pie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_and_ham_pie_salad_Copped_Hall_house_and_gardens_open_day_event,_Essex,_England_1.jpg",
+      "why": "a canteen plate with salad and pie, not butter chicken pie"
+    }
+  ],
+  "chicken-roulade": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Very_sad_chicken_roulades_(3240853633).jpg",
+      "why": "slices on a black party tray, poor picture"
+    }
+  ],
+  "chicken-sausage-pasta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Sausages_with_chicken_pasta.jpg",
+      "why": "pasta with large pork sausages on a child plate"
+    }
+  ],
+  "chinese-chicken-and-broccoli": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chinesechickensalad.jpg",
+      "why": "a chicken salad, already used for another recipe"
+    }
+  ],
+  "corned-beef-with-parsley-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:516Baliwag_Bulacan_02.jpg",
+      "why": "a Filipino corned beef hash with rice and egg"
+    }
+  ],
+  "creamed-leeks": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:-2021-12-19_Stuffed_mushroom,_chestnut_and_blue_cheese_stuffing,_walnut_crumb,_creamed_leeks,_rocket_oil,_Trimingham,_Norfolk.JPG",
+      "why": "a stuffed mushroom starter, the leeks are not visible"
+    }
+  ],
+  "egg-noodles-with-butter": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Set_D_-_Tomato_Soup_Macaroni_with_Scrambled_Egg,_Toasted_Bun,_Buttered_Sweet_Corn_-_HOKO_2024-12-21.jpg",
+      "why": "macaroni with scrambled egg on a cafe table"
+    }
+  ],
+  "focaccia-pizza": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Enrico_Biscotti_focaccia_pizza.jpg",
+      "why": "a charred tray bake with no cheese"
+    }
+  ],
+  "garlic-butter-pasta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kronfleisch_(skirt_steak),_a_traditional_Bavarian_dish_often_served_with_onion_rings,_rye_bread,_composed_butter_(with_herbs_and_garlic)_and_horseradish.jpg",
+      "why": "a steak on a board, no pasta"
+    }
+  ],
+  "greek-lemon-chicken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Avgolemono_Soup_and_Grilled_Chicken_and_Mango_Salad.jpg",
+      "why": "a bowl of soup"
+    }
+  ],
+  "ham-and-cheese-toastie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ham_%26_Cheese_Toastie_-_Costa_Coffee_2023-10-04.jpg",
+      "why": "a branded cafe tray with a folded flatbread"
+    }
+  ],
+  "jacket-potato-with-cheese": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bakte_poteter_juli_2025.jpg",
+      "why": "filled with bacon and sweetcorn, no cheese"
+    }
+  ],
+  "lamb-saag": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:SAAG_LAMB_-_Mini_Madras_2026-05-14.jpg",
+      "why": "a small pan of saag, no lamb visible"
+    }
+  ],
+  "linguine-with-clams": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arctic_surf_clams_on_linguine,_with_olive_oil_and_Italian_seasoning_-_Massachusetts.jpg",
+      "why": "surf clam meat on wholewheat spaghetti, not clams in shells"
+    }
+  ],
+  "minted-peas": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:NCI_peas_in_pod.jpg",
+      "why": "a single raw pea pod"
+    }
+  ],
+  "mornay-sauce": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Veal_Orloff_1.jpg",
+      "why": "a cooking scene with other dishes"
+    }
+  ],
+  "mussels-with-chorizo": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Wednesday_Mains_Prawns,_Mussels_%26_Chorizo_in_a_tomato_%26_garlic_cream_sauce_with_spaghetti._(32936699127).jpg",
+      "why": "a creamy tomato spaghetti with prawns, a different dish"
+    }
+  ],
+  "one-pot-beef-and-rice": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Mongolian_Beef_with_rice_and_noodles.jpg",
+      "why": "a Mongolian beef plate already used for another recipe"
+    }
+  ],
+  "piri-piri-prawns": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2018-02-03_Chicken_Piri-Piri,_Albufeira_(1).JPG",
+      "why": "a piri piri roast chicken"
+    }
+  ],
+  "ploughmans-sandwich": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ploughmans_lunch.jpg",
+      "why": "a ploughmans lunch already used for another recipe"
+    }
+  ],
+  "po-boy-sandwich": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Po_boy_sandwich_at_Oak_Alley_Restaurant_in_Vacherie,_Louisiana.jpg",
+      "why": "a pulled beef sandwich with chips"
+    }
+  ],
+  "pork-adobo": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:0959Filipino_chicken_adobo_with_potatoes_in_lemon_grass_03.jpg",
+      "why": "a chicken adobo with potatoes"
+    }
+  ],
+  "pork-ribs-in-the-oven": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Spare_Ribs_in_Black_Bean_%26_Bell_Pepper_Sauce_with_Rice.jpg",
+      "why": "spare ribs in black bean sauce with rice"
+    }
+  ],
+  "red-wine-gravy": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pie_of_the_Day_(beef,_mushroom,_red_wine)_-_Rotunda_Cafe_2023-12-16.jpg",
+      "why": "a pie and chips, the gravy is incidental"
+    }
+  ],
+  "rice-pilaf": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arabic_rice.jpg",
+      "why": "a rice dish already used for another recipe"
+    }
+  ],
+  "seafood-stew": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Porto_Moniz,_Madeira,_seafood_stew_with_beans.jpg",
+      "why": "a Madeiran stew with rice and beans"
+    }
+  ],
+  "sweet-potato-mash": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_ipomoea_batatas_margaritas_2021_0.jpg",
+      "why": "a garden plant, offered to five recipes"
+    }
+  ],
+  "oven-fried-chicken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_Chicken_Kerala.jpg",
+      "why": "a Kerala curry style fried chicken in a bowl"
+    }
+  ],
+  "texas-chili": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Camp_Prosperity_Texas_Independance_Day_Chili_Cook-Off_DVIDS259899.jpg",
+      "why": "a cook-off scene with people"
+    }
+  ],
+  "turkey-pot-pie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Amy%27s_vegetable_pot_pie.jpg",
+      "why": "a vegetable pot pie already used for another recipe"
+    }
   ]
 }

@@ -96,7 +96,7 @@ module.exports = [
   c('mango-salad', 'Mango Salad', 'Thai', 'Healthy', 'Easy', 15, 0, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'mango salad'),
   c('pear-and-parmesan-salad', 'Pear and Parmesan Salad', 'Italian', 'Healthy', 'Easy', 10, 0, 4, 0, 0, ['Gluten-Free'], ['new'], 'pear and parmesan salad'),
   c('pasta-salad-with-italian-dressing', 'Pasta Salad with Italian Dressing', 'American', 'Lunch', 'Easy', 15, 12, 8, 0, 0, [], ['new'], 'pasta salad with italian dressing'),
-  c('tortellini-salad', 'Tortellini Salad', 'Italian', 'Lunch', 'Easy', 15, 5, 6, 0, 0, ['Gluten-Free'], ['new'], 'tortellini salad'),
+  c('tortellini-salad', 'Tortellini Salad', 'Italian', 'Lunch', 'Easy', 15, 5, 6, 0, 0, [], ['new'], 'tortellini salad'),
   c('warm-lentil-salad', 'Warm Lentil Salad', 'French', 'Healthy', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'warm lentil salad'),
   c('soba-noodle-salad', 'Soba Noodle Salad', 'Japanese', 'Healthy', 'Easy', 15, 6, 4, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'soba noodle salad'),
   c('vietnamese-noodle-salad', 'Vietnamese Noodle Salad', 'Vietnamese', 'Healthy', 'Easy', 20, 5, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'vietnamese noodle salad'),
