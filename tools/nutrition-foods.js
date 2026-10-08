@@ -506,6 +506,7 @@ for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] 
 
 /* Volumes 41 to 43: foods the calculator did not know. */
 const EXT2_FOODS = {
+  galangal: [1, 15, 0.5, 2, 0, 5], vine_leaves: [5, 11, 2, 11, 0, 700],
   custard_ready: [3, 17, 4, 0, 12, 60],
   panettone: [8, 52, 16, 2, 25, 300], matcha: [30, 39, 5, 38, 0, 10],
   dulce_de_leche: [7, 55, 7, 0, 54, 140], wheat_bran: [16, 64, 4, 43, 0, 5],
@@ -520,6 +521,7 @@ const EXT2_FOODS = {
   tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55], mixed_nuts: [20, 20, 52, 8, 4, 5], ranch_dressing: [1, 6, 30, 0, 3, 800], bulgur_dry: [12, 76, 1.3, 12, 0.4, 17], soba_dry: [14, 74, 1, 3, 1, 10], korma_paste: [4, 20, 20, 4, 8, 1500], tortellini_fresh: [12, 45, 8, 2, 3, 600], prosciutto_ham: [26, 0, 14, 0, 0, 2000]
 };
 const EXT2_ALIAS = {
+  galangal: ['galangal, sliced', 'galangal'], vine_leaves: ['vine leaves in brine', 'vine leaves'],
   custard_ready: ['custard, warmed', 'custard'],
   panettone: ['thick slices panettone', 'panettone'], matcha: ['matcha powder'],
   dulce_de_leche: ['dulce de leche'], wheat_bran: ['wheat bran', 'bran'],
