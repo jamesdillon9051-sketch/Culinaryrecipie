@@ -23537,5 +23537,59 @@
       "page": "https://www.rawpixel.com/image/5927634/photo-image-public-domain-food-free",
       "why": "open avocado toasts, not a sandwich"
     }
+  ],
+  "sausage-egg-and-cheese-muffin": [
+    {
+      "page": "https://commons.wikimedia.org/w/index.php?curid=146996194",
+      "why": "a Turkish plate of eggs and sausage with a roll"
+    }
+  ],
+  "potato-pancakes-with-applesauce": [
+    {
+      "page": "https://www.flickr.com/photos/49399018@N00/35355777750",
+      "why": "a page already used for another recipe, with mushrooms and sauce"
+    }
+  ],
+  "beans-and-cheese-toastie": [
+    {
+      "page": "https://www.flickr.com/photos/7927684@N03/7142679947",
+      "why": "a taco"
+    }
+  ],
+  "egg-mayo": [
+    {
+      "page": "https://wordpress.org/photos/photo/8976a08528/",
+      "why": "fried egg on potatoes with sauces"
+    }
+  ],
+  "cheese-and-pickle-sandwich": [
+    {
+      "page": "https://www.rawpixel.com/image/5967139/grilled-cheese-sandwich",
+      "why": "a toasted grilled cheese, not a cold sandwich"
+    }
+  ],
+  "bean-wraps": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:White_Bean_and_Shiitaki_Vegan_Wrap_(3537146720).jpg",
+      "why": "roasted mushrooms"
+    }
+  ],
+  "tuna-wraps": [
+    {
+      "page": "https://wordpress.org/photos/photo/275688c86a/",
+      "why": "sushi"
+    }
+  ],
+  "curry-fries": [
+    {
+      "page": "https://www.rawpixel.com/image/5954127/free-public-domain-cc0-photo",
+      "why": "a meat curry close-up"
+    }
+  ],
+  "potato-croquettes": [
+    {
+      "page": "https://www.rawpixel.com/image/5974211/free-public-domain-cc0-photo",
+      "why": "bacon-topped potato balls on sticks"
+    }
   ]
 }

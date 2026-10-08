@@ -30876,6 +30876,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cinnamon-toast.jpg</image:loc>
+      <image:title>Cinnamon Toast</image:title>
+      <image:caption>Cinnamon Toast, an American breakfast recipe — buttered cinnamon sugar toast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-toast/</loc>
@@ -30995,6 +31000,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-skins.jpg</image:loc>
+      <image:title>Potato Skins</image:title>
+      <image:caption>Potato Skins, an American appetizer recipe — cheap party snack</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-croquettes/</loc>
@@ -31037,6 +31047,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-parsnips.jpg</image:loc>
+      <image:title>Roasted Parsnips</image:title>
+      <image:caption>Roasted Parsnips, a British dinner recipe — budget parsnip side</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-roasted-carrots/</loc>

@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2971
-photographs, **1201** are CC0 or public domain and carry no conditions at all, and
-**1770** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+Every photograph on Weekly Delight is freely licensed. Of 2974
+photographs, **1202** are CC0 or public domain and carry no conditions at all, and
+**1772** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,24 +179,24 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2488 |
+| Hero photographs | 2491 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6164 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 316 |
+| Total image files | 6170 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 313 |
 
 ### Licences used
 
 | Licence | Images | Terms |
 |---|---:|---|
-| CC BY 2.0 | 793 | Free to use, adapt and use commercially **provided the photographer is credited** |
+| CC BY 2.0 | 794 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 600 | No rights reserved — no attribution legally required |
 | CC BY-SA 4.0 | 389 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 350 | No rights reserved — no attribution legally required |
-| CC BY-SA 2.0 | 296 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 2.0 | 297 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
 | CC BY-SA 3.0 | 168 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
-| Public Domain Mark 1.0 | 78 | No rights reserved — no attribution legally required |
+| Public Domain Mark 1.0 | 79 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 50 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 42 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 2.5 | 11 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -462,7 +462,6 @@ and no usable illustration of them could be drawn either:
 - Sausage Egg and Cheese Muffin (`sausage-egg-and-cheese-muffin`)
 - Milk Toast (`milk-toast`)
 - Banana Toast (`banana-toast`)
-- Cinnamon Toast (`cinnamon-toast`)
 - Tomato Toast (`tomato-toast`)
 - Spaghetti on Toast (`spaghetti-on-toast`)
 - Potato Pancakes with Applesauce (`potato-pancakes-with-applesauce`)
@@ -480,14 +479,12 @@ and no usable illustration of them could be drawn either:
 - Gravy Fries (`gravy-fries`)
 - Curry Fries (`curry-fries`)
 - Garlic Parmesan Fries (`garlic-parmesan-fries`)
-- Potato Skins (`potato-skins`)
 - Potato Croquettes (`potato-croquettes`)
 - Potato Gratin (`potato-gratin`)
 - Potato Dumplings (`potato-dumplings`)
 - Stuffed Onions (`stuffed-onions`)
 - Roasted Potatoes and Onions (`roasted-potatoes-and-onions`)
 - Roasted Sweet Potatoes (`roasted-sweet-potatoes`)
-- Roasted Parsnips (`roasted-parsnips`)
 - Honey Roasted Carrots (`honey-roasted-carrots`)
 - Kumara Fries (`kumara-fries`)
 - Potato Wedges (`potato-wedges`)
@@ -3525,7 +3522,10 @@ licence as the rest of this project.
 | `mushroom-omelette.webp` / `.jpg` | Mushroom Omelette | Hero | Mushrooms omelette - Streets cafe 2025-01-02 | Andy Li | CC0 1.0 | [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=157551222) |
 | `spanish-omelette.webp` / `.jpg` | Spanish Omelette | Hero | Tortilla de Patatas (Corte transversal) (image of Spanish omelette on Wikidata Q281751) | Tamorlan | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tortilla_de_Patatas_(Corte_transversal).jpg) |
 | `apple-cinnamon-oatmeal.webp` / `.jpg` | Apple Cinnamon Oatmeal | Hero | Apple Cinnamon Oatmeal | Kim Siever | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/57873306@N00/4626501723) |
+| `cinnamon-toast.webp` / `.jpg` | Cinnamon Toast | Hero | Cinnamon Toast | moonjazz | Public Domain Mark 1.0 | [Flickr](https://www.flickr.com/photos/8398907@N02/5271283499) |
 | `pikelets.webp` / `.jpg` | Pikelets | Hero | Pikelets | jules | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pikelets.jpg) |
+| `potato-skins.webp` / `.jpg` | Potato Skins | Hero | Potato skins arranged on a plate as an appetizer (image of potato skins on Wikidata Q3399963) | don_naked | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Potato_skins_arranged_on_a_plate_as_an_appetizer.jpg) |
+| `roasted-parsnips.webp` / `.jpg` | Roasted Parsnips | Hero | Sensing Roasted Parsnips | snowpea&bokchoi | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/28531775@N06/4689113192) |
 
 ---
 
