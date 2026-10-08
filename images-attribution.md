@@ -1,8 +1,8 @@
 # Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of 2965
+Every photograph on Weekly Delight is freely licensed. Of 2967
 photographs, **1199** are CC0 or public domain and carry no conditions at all, and
-**1766** are **Creative Commons Attribution (CC BY)** — free to use, adapt
+**1768** are **Creative Commons Attribution (CC BY)** — free to use, adapt
 and use commercially, on the single condition that the photographer is credited.
 
 That condition is met in two places: underneath the photograph on the recipe
@@ -179,11 +179,11 @@ wrong dish were deleted rather than kept.
 | | |
 |---|---|
 | Recipes | 2915 |
-| Hero photographs | 2482 |
+| Hero photographs | 2484 |
 | Secondary "process" photographs | 483 |
 | Generated illustrations | 111 |
-| Total image files | 6152 (WebP + JPEG for each) |
-| Recipes using a gradient placeholder | 322 |
+| Total image files | 6156 (WebP + JPEG for each) |
+| Recipes using a gradient placeholder | 320 |
 
 ### Licences used
 
@@ -191,11 +191,11 @@ wrong dish were deleted rather than kept.
 |---|---:|---|
 | CC BY 2.0 | 792 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC0 | 600 | No rights reserved — no attribution legally required |
-| CC BY-SA 4.0 | 388 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 4.0 | 389 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | CC0 1.0 | 349 | No rights reserved — no attribution legally required |
 | CC BY-SA 2.0 | 295 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public domain | 171 | No rights reserved — no attribution legally required |
-| CC BY-SA 3.0 | 167 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
+| CC BY-SA 3.0 | 168 | Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence |
 | Public Domain Mark 1.0 | 77 | No rights reserved — no attribution legally required |
 | CC BY 4.0 | 50 | Free to use, adapt and use commercially **provided the photographer is credited** |
 | CC BY 3.0 | 42 | Free to use, adapt and use commercially **provided the photographer is credited** |
@@ -454,7 +454,6 @@ and no usable illustration of them could be drawn either:
 - Egg Butty (`egg-butty`)
 - Eggy Bread (`eggy-bread`)
 - Snag in Bread (`snag-in-bread`)
-- Porridge with Brown Sugar (`porridge-with-brown-sugar`)
 - Leftover Mashed Potato Cakes (`leftover-mashed-potato-cakes`)
 - Oatmeal Bars (`oatmeal-bars`)
 - Breakfast Cookies (`breakfast-cookies`)
@@ -462,7 +461,6 @@ and no usable illustration of them could be drawn either:
 - Breakfast Pizza (`breakfast-pizza`)
 - Cheese Omelette (`cheese-omelette`)
 - Mushroom Omelette (`mushroom-omelette`)
-- Spanish Omelette (`spanish-omelette`)
 - Apple Cinnamon Oatmeal (`apple-cinnamon-oatmeal`)
 - Sausage Egg and Cheese Muffin (`sausage-egg-and-cheese-muffin`)
 - Milk Toast (`milk-toast`)
@@ -3525,7 +3523,9 @@ licence as the rest of this project.
 | `lentil-bolognese.webp` / `.jpg` | Lentil Bolognese | Hero | Eggplant, spinach, and lentil bolognese | veritatem | CC BY 2.0 | [Flickr](https://www.flickr.com/photos/66722164@N00/31867005057) |
 | `potato-frittata.webp` / `.jpg` | Potato Frittata | Hero | -2019-10-27 Potato & onion frittata, Cromer | Kolforn | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:-2019-10-27_Potato_%26_onion_frittata,_Cromer.JPG) |
 | `cheese-and-broccoli-pasta.webp` / `.jpg` | Cheese and Broccoli Pasta | Hero | Broccoli and Blue Cheese pasta for dinner - using up leftovers mostly -mycookingadventures -vegcookingadventures (25702618948) | transcendancing | CC BY-SA 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Broccoli_and_Blue_Cheese_pasta_for_dinner_-_using_up_leftovers_mostly_-mycookingadventures_-vegcookingadventures_(25702618948).jpg) |
+| `porridge-with-brown-sugar.webp` / `.jpg` | Porridge with Brown Sugar | Hero | Oatmeal with brown sugar | Bodhi Peace | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oatmeal_with_brown_sugar.jpg) |
 | `fried-cornmeal-mush.webp` / `.jpg` | Fried Cornmeal Mush | Hero | Cornmeal mush | David Orban | CC BY 2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cornmeal_mush.jpg) |
+| `spanish-omelette.webp` / `.jpg` | Spanish Omelette | Hero | Tortilla de Patatas (Corte transversal) (image of Spanish omelette on Wikidata Q281751) | Tamorlan | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tortilla_de_Patatas_(Corte_transversal).jpg) |
 
 ---
 

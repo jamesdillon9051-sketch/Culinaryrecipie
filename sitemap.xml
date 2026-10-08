@@ -30762,6 +30762,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/porridge-with-brown-sugar.jpg</image:loc>
+      <image:title>Porridge with Brown Sugar</image:title>
+      <image:caption>Porridge with Brown Sugar, a Scottish breakfast recipe — budget oat breakfast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-cornmeal-mush/</loc>
@@ -30821,6 +30826,11 @@
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spanish-omelette.jpg</image:loc>
+      <image:title>Spanish Omelette</image:title>
+      <image:caption>Spanish Omelette, a Spanish dinner recipe — budget potato omelette</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-cinnamon-oatmeal/</loc>

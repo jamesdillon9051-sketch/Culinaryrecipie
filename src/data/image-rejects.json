@@ -23489,5 +23489,35 @@
       "page": "https://www.flickr.com/photos/36943025@N07/3537737959",
       "why": "a hamster"
     }
+  ],
+  "broccoli-cheese-rice": [
+    {
+      "page": "https://www.flickr.com/photos/38144472@N04/8210880807",
+      "why": "vacuum-packed meals"
+    }
+  ],
+  "oatmeal-bars": [
+    {
+      "page": "https://www.rawpixel.com/image/6026467/photo-image-public-domain-food-free",
+      "why": "an unclear close-up of a different bar"
+    }
+  ],
+  "breakfast-pizza": [
+    {
+      "page": "https://www.rawpixel.com/image/5964270/free-public-domain-cc0-photo",
+      "why": "a plain pepperoni pizza"
+    }
+  ],
+  "milk-toast": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Milk_toast.jpg",
+      "why": "toast under a white sauce, not toast in milk"
+    }
+  ],
+  "tomato-toast": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese_and_Tomato_Toastie_-_Caff%C3%A8_Nero_2026-01-24.jpg",
+      "why": "a toasted sandwich held in a hand"
+    }
   ]
 }
