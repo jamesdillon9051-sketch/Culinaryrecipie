@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6214 image files (WebP + JPEG)
+│       └── img/recipes/         # 6328 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6214 image files
+├── assets/                      #    css, js and 6328 image files
 ├── recipes/                     #    3115 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 281,759 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 281,788 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2513 of the 3115 recipes have a photograph. Of the 2996 images on the site,
-1214 are CC0 or public domain, 907 are CC BY and 875 are CC BY-SA. Anything
+2570 of the 3115 recipes have a photograph. Of the 3053 images on the site,
+1238 are CC0 or public domain, 926 are CC BY and 889 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5028,6 +5028,110 @@ braised pork belly for braised pork shoulder) or a dish with an ingredient the
 recipe's label rules out (ham in a Vegetarian-tagged breakfast quesadilla). The
 140 recipes with no kept photograph stay on their gradient card; none was
 drawn.
+
+## Volumes thirty-seven and thirty-eight, two hundred dishes by method and from the pantry
+
+Two more volumes of a hundred, taking the site from 2,915 to 3,115. The owner
+asked for "200 more recipes", and the standing instruction in CLAUDE.md applied:
+dishes that cooks in the USA, Canada, Australia, the UK and New Zealand look for
+by name, graded against the catalogue so that nothing already published is
+published again. Every dish is an ordinary `/recipes/<slug>/` page, nothing
+already on the site was changed, and a recipe with no correct photograph stays
+on its gradient card.
+
+The site already holds most of the famous dishes, so these two volumes are
+organised by what people search for next: the appliance or method, and the jar,
+tub or tray they keep in the house.
+
+Volume thirty-seven is the dishes searched by how they are cooked: the air
+fryer, the Instant Pot (every method says "pressure cooker" in so many words),
+the slow cooker, the sheet pan, the grill and barbecue, burgers, and the pies
+and roasts of Britain and Australia. It is American 54, British 22, Italian and
+Australian 7 each, Mexican 4, Indian 3, and Middle Eastern, New Zealand and
+Chinese 1 each. By category it is dinner 65, appetizers 9, lunch 8, quick meals
+7, breakfast 7 and desserts 4. By difficulty it is Easy 84 and Medium 16.
+
+Volume thirty-eight is the pantry: chutneys, relishes and jams, nut butters,
+sauces, stocks and marinades, crackers, chips and breads, freezer and meal-prep
+dishes, vegetable mains and roasted vegetables, sandwiches, slices, biscuits and
+puddings, and a handful of soups and quick suppers. It is American 32, British
+31, Australian 10, Italian 8, Middle Eastern 4, Mexican and French 3 each,
+Scottish and Indian 2 each, and Chinese, Greek, Polish, Canadian and New
+Zealand 1 each. By category it is lunch 25, appetizers 21, dinner 18, breakfast
+12, desserts 12, baking 9 and quick meals 3. By difficulty it is Easy 91,
+Medium 8 and Hard 1 (a cheese soufflé). For the preserves, sauces and stocks a
+serving is a spoonful or a ladle, and the nutrition figures are per serving as
+written. The jams, chutneys and relishes are small batches for the fridge, not
+canned, and their storage notes say so.
+
+### How the dishes were chosen
+
+Candidate lists were graded with `tools/dedupe-candidates.js --new` and the final
+200 were graded again, all new; `--volume 37` and `--volume 38` report that every
+recipe differs from every other on the site. The grading tool compares titles and
+primary phrases, not slugs, and one dish slipped through it: a "pulled pork
+sandwich" already existed from volume one, and the build refused the duplicate
+slug. It was replaced in volume thirty-eight by a pulled chicken sandwich, and
+all 200 slugs were then checked against every earlier catalogue.
+
+### What the audits caught
+
+- **Descriptions that promised a time the recipe did not need.** The SEO audit
+  reads "in 8 minutes" in a search description as a total time. Twenty-five
+  air-fryer and Instant Pot descriptions said "cooked in 8 minutes" when the
+  recipe takes 13 with preparation; they now say "cooked for 8 minutes".
+- **Keywords the record did not support.** `npm run keywords` refused "easy"
+  on Medium recipes, "grilled" on marinades, "for a crowd" on tea sandwiches and
+  "make ahead" on freezer dishes whose storage note did not say it, and the
+  Instant Pot recipes needed the literal words "pressure cooker" in the method.
+- **A declared rest that did not match the method.** A no-bake slice chilled
+  for 2 hours 30 minutes in the method and declared 120.
+- **Duplicated steps.** The duplicates audit flagged three marinades whose
+  first step was the same sentence; each now names its own ingredients.
+- **A food table that did not know the dish.** `npm run calc` stopped on
+  frankfurters, lamb loin chops, hot dog buns, spring roll pastry, pork back
+  ribs, barbecue sauce, cloves and dried haricot beans, and a few more. They
+  were added to `tools/nutrition-foods.js` as foods and aliases rather than the
+  recipe lines being reworded.
+- **Tags.** The diet tags were not typed: a script started from all four,
+  removed any the ingredients contradict, and applied a stricter list. A first
+  run tagged a beef stew Vegetarian because "chuck steak" was not on its meat
+  list; the build refused it and the list was widened. The tagged recipes were
+  then read by eye, which removed Vegetarian and Vegan from a pastrami sandwich
+  and Gluten-Free from three barbecue-sauce dishes (bottled sauces can carry
+  gluten) and from a black pudding hash (black pudding contains oatmeal).
+
+### Judgement calls
+
+- **Instant Pot.** The brand name is in the titles because that is what people
+  search. The methods say "pressure cooker" and give pressure cooking times
+  that assume a standard electric model.
+- **Preserves.** Storage times (3 weeks to 2 months in the fridge) are
+  conservative home-kitchen figures for refrigerated jars. None of the recipes
+  gives canning instructions, and none should be taken as one.
+- **Safety notes already in the method.** Pork is cooked until no pink remains,
+  rice is cooled quickly and boxed within the hour, and reheated meal-prep food
+  is brought to steaming hot once.
+
+### Photographs
+
+Two hundred candidates were fetched in the background while the recipes were
+being written (`tools/fetch_images.py`, one batch per file), then looked at on
+contact sheets against each recipe and its diet labels. **57 of the 200 were
+kept** (22 in volume thirty-seven and 35 in volume thirty-eight); the other 143
+stay on their gradient cards. The main reasons for refusal were the same as in
+earlier rounds: the archive offered one generic picture to every recipe of a
+kind (an air-fryer chips photograph to thirteen recipes, a lentil stew to
+twelve), the picture showed a different dish (a pie chart for "party pies", an
+aquarium fish for "fish burgers", gefilte fish for "fish stock"), it showed
+meat, cream or wheat on a recipe labelled vegetarian, dairy-free or
+gluten-free (a penne arrabbiata for a vegan, gluten-free sauce, a bacon-topped
+black bean soup for a dairy-free haricot bean one), or the archive page was
+already the picture of a different recipe. Where a kept photograph differs from
+the recipe the difference is small and the credit line names the original
+caption: a pizza with pesto for a tomato-sauce sheet-pan pizza, a plum chutney
+with almonds, a chicken panini on focaccia for a mozzarella and ham one. Eight
+recipes had no candidate at all because the fetch stopped before reaching them.
 
 ## Ads
 

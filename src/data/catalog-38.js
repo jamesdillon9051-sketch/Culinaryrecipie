@@ -103,7 +103,7 @@ module.exports = [
   c('cucumber-sandwich', 'Cucumber Sandwich', 'British', 'Lunch', 'Easy', 10, 0, 4, 0, 0, ['Vegetarian'], ['new'], 'cucumber sandwich'),
   c('avocado-sandwich', 'Avocado Sandwich', 'Australian', 'Lunch', 'Easy', 8, 0, 2, 0, 0, ['Vegetarian'], ['new'], 'avocado sandwich'),
   c('chicken-mayo-sandwich', 'Chicken Mayo Sandwich', 'British', 'Lunch', 'Easy', 10, 0, 2, 0, 0, [], ['new'], 'chicken mayo sandwich'),
-  c('pastrami-sandwich', 'Pastrami Sandwich', 'American', 'Lunch', 'Easy', 8, 5, 2, 0, 0, ['Vegetarian'], ['new'], 'pastrami sandwich'),
+  c('pastrami-sandwich', 'Pastrami Sandwich', 'American', 'Lunch', 'Easy', 8, 5, 2, 0, 0, [], ['new'], 'pastrami sandwich'),
   c('hot-roast-pork-roll', 'Hot Roast Pork Roll', 'Australian', 'Lunch', 'Easy', 10, 10, 2, 0, 0, [], ['new'], 'hot roast pork roll'),
   c('hoagie', 'Hoagie', 'American', 'Lunch', 'Easy', 10, 0, 2, 0, 0, [], ['new'], 'hoagie'),
   c('panini', 'Panini', 'Italian', 'Lunch', 'Easy', 8, 6, 2, 0, 0, [], ['new'], 'panini'),
