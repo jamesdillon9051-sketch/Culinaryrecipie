@@ -70,9 +70,9 @@ module.exports = {
       '3 tbsp chopped parsley'
     ],
     st: [
-      'Brown the lamb in the oil in batches and set aside.',
+      'Brown the lamb in batches in the hot oil, then lift it out.',
       'Soften the onions and garlic for 6 minutes, add the wine and bubble for 2 minutes. Add the tomatoes, oregano, bay and cinnamon.',
-      'Return the lamb, cover and simmer very gently for 1 hour 15 minutes.',
+      'Put the lamb back, cover the pan and simmer very gently for 1 hour 15 minutes.',
       'Add the potatoes and salt, uncover and simmer for 45 minutes. Stir in the lemon juice and parsley.'
     ],
     tips: [
@@ -331,7 +331,7 @@ module.exports = {
   'hamburger-helper-style-pasta': {
     d: 'Beef mince, macaroni, cheddar and a creamy seasoned sauce cooked together in one pan for 20 minutes.',
     meta: 'Hamburger helper style pasta: beef mince, macaroni, cheddar and a creamy seasoned sauce cooked together in one pan. Four servings in 25 minutes.',
-    kw: ['hamburger helper style pasta', 'homemade hamburger helper', 'cheeseburger macaroni skillet', 'one pan beef and macaroni', 'beef and cheese pasta skillet'],
+    kw: ['hamburger helper style pasta', 'homemade hamburger helper', 'cheeseburger macaroni skillet', 'beef and macaroni skillet', 'beef and cheese pasta skillet'],
     why: 'The boxed version is a pantry classic, and the homemade one is better in every way: fewer additives, a real cheese sauce and a flavour that tastes of beef instead of powder. It is also quick to make.\n\nBrown the mince in a large, deep pan until no pink remains, drain off any excess fat and season with garlic powder, onion powder and paprika. **Brown it properly**, until it takes some colour, since grey mince makes a dull dinner.\n\nPour in the milk and stock, bring to a simmer and add the macaroni. Cook, stirring often, for 12 minutes, until the pasta is tender and the liquid has reduced to a creamy sauce. If your hob runs hot, check at 10 minutes, as the sauce catches easily.\n\nStir in the cheddar until melted, and add mustard and ketchup if you like a tangier flavour. Let it stand for 3 minutes. The sauce thickens as it cools.',
     ing: [
       '500 g beef mince',
@@ -404,7 +404,7 @@ module.exports = {
   'chicken-with-mushroom-sauce': {
     d: 'Chicken breasts pan-fried for 12 minutes and served in a creamy sauce of mushrooms, garlic, thyme and white wine.',
     meta: 'Chicken with mushroom sauce: chicken breasts pan-fried and served in a creamy sauce of mushrooms, garlic, thyme and white wine. Four servings.',
-    kw: ['chicken with mushroom sauce', 'creamy mushroom chicken', 'chicken in mushroom cream sauce', 'chicken and mushrooms in white wine', 'pan fried chicken with mushroom sauce'],
+    kw: ['chicken with mushroom sauce', 'creamy mushroom chicken', 'chicken in mushroom cream sauce', 'chicken and mushrooms in white wine', 'chicken breasts with mushroom sauce'],
     why: 'A pan sauce is the quickest way to dress a plain chicken breast: while the meat rests, the pan is already full of flavour. Mushrooms, wine and cream make a classic bistro dish in 25 minutes.\n\nSlice the breasts in half horizontally so they cook evenly and fast. Season and brown in a hot pan for 5 minutes a side, then set aside to rest. **The golden bits in the pan are the flavour**, so do not wash it before the sauce.\n\nCook the mushrooms in the same pan in a single layer for 6 minutes, until deeply brown. Mushrooms release water first, so wait for it to evaporate before they colour.\n\nAdd garlic and thyme, pour in the wine and let it bubble until nearly gone, then add the cream and simmer for 3 minutes. If your hob runs hot, lower the heat so the cream does not split. Return the chicken and any resting juices to the pan for a minute.',
     ing: [
       '2 chicken breasts, about 600 g',
@@ -515,10 +515,10 @@ module.exports = {
       '40 g parmesan, grated'
     ],
     st: [
-      'Heat the oven to 200°C. Boil the penne for 2 minutes less than the packet says and drain.',
+      'Heat the oven to 200°C. Boil the penne for 2 minutes short of the packet time, then drain.',
       'Warm the oil with the garlic and chilli for 30 seconds. Add the tomatoes, sugar and salt and simmer for 15 minutes until thick.',
       'Fold the penne, basil and half the mozzarella into the sauce and tip into a dish. Top with the remaining mozzarella and the parmesan.',
-      'Cook for 20 minutes until golden and bubbling. Stand for 5 minutes.'
+      'Bake for 20 minutes until golden and bubbling, then stand for 5 minutes.'
     ],
     tips: [
       'Do not let the garlic brown.',

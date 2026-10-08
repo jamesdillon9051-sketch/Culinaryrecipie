@@ -253,7 +253,7 @@ module.exports = {
   'mussels-marinara': {
     d: 'Mussels steamed open for 5 minutes in a garlicky tomato and white wine sauce and served with crusty bread.',
     meta: 'Mussels marinara: mussels steamed open in a garlicky tomato and white wine sauce and served with crusty bread. Two servings.',
-    kw: ['mussels marinara', 'mussels in tomato sauce', 'mussels in tomato and wine', 'italian mussels marinara', 'steamed mussels in tomato sauce'],
+    kw: ['mussels marinara', 'mussels in tomato sauce', 'mussels in tomato and wine', 'italian mussels marinara', 'mussels in marinara sauce'],
     why: 'Mussels are cheap, fast and a little intimidating, and none of that is warranted. They need a good scrub, a hot lidded pot and about five minutes, and the cooking liquor makes the sauce.\n\nScrub the shells under cold water and pull away the beards. Discard any that are cracked or stay open when tapped, since a mussel that does not close was already dead. **After cooking, throw out any that stay shut**, because they were not alive to begin with.\n\nMake the sauce first: soften garlic and chilli in olive oil, add the wine and tomatoes and simmer for 8 minutes until thick.\n\nTip in the mussels, cover tightly and cook over high heat for 5 minutes, shaking the pot once or twice. If your hob runs hot, check at 4 minutes. They are done when the shells open. Add parsley, give the pot a shake and serve in bowls with plenty of bread for the sauce.',
     ing: [
       '1 kg mussels',
@@ -324,7 +324,7 @@ module.exports = {
   'vegetable-curry': {
     d: 'Potatoes, cauliflower, carrots and peas simmered for 25 minutes in a coconut and tomato curry sauce with ginger and garlic.',
     meta: 'Vegetable curry: potatoes, cauliflower, carrots and peas simmered in a coconut and tomato curry sauce with ginger and garlic. Four servings.',
-    kw: ['vegetable curry', 'easy vegetable curry', 'coconut vegetable curry', 'mixed vegetable curry', 'vegan vegetable curry'],
+    kw: ['vegetable curry', 'easy vegetable curry', 'coconut vegetable curry', 'mixed vegetable curry', 'vegetable curry with rice'],
     why: 'A vegetable curry lives or dies by its sauce, since the vegetables can only be as good as what they soak up. The method is the same as for any curry: build the base slowly, then let the vegetables finish in it.\n\nSoften the onion for 10 minutes until it begins to colour, then add garlic, ginger and curry powder and stir for a minute. **Toast the spices briefly**, so the raw taste cooks off and the flavours open.\n\nAdd the tomatoes and coconut milk, then the hard vegetables first: potato and carrot take about 15 minutes. Cauliflower goes in 10 minutes before the end and the peas in the last 3, so nothing turns to mush.\n\nSimmer gently, partly covered, for 25 minutes in all. If your hob runs hot, check at 20 minutes. Season with salt and lemon, and scatter with coriander before serving over rice. Frozen peas and cauliflower work as well as fresh ones, so the dish can be made from the freezer and cupboard.',
     ing: [
       '2 tbsp vegetable oil',
@@ -361,7 +361,7 @@ module.exports = {
   'spinach-lasagna': {
     d: 'Lasagne sheets layered with spinach, ricotta, tomato sauce and mozzarella and cooked for 45 minutes until bubbling.',
     meta: 'Spinach lasagna: lasagne sheets layered with spinach, ricotta, tomato sauce and mozzarella and baked until bubbling. Six servings.',
-    kw: ['spinach lasagna', 'spinach and ricotta lasagna', 'vegetarian spinach lasagna', 'cheesy spinach lasagna', 'meatless lasagna'],
+    kw: ['spinach lasagna', 'spinach and ricotta lasagna', 'spinach lasagna with ricotta', 'cheesy spinach lasagna', 'meatless lasagna'],
     why: 'A lasagne without meat can feel like a lesser thing, but spinach and ricotta give it its own character: green, creamy, and lighter on the stomach. It also takes half the effort of a meat ragù.\n\nThe filling is where care is needed. Wilt the spinach, then squeeze it as dry as you possibly can. **Wet spinach is the cause of a watery lasagne**, and no amount of baking will rescue it. Mix with ricotta, parmesan, an egg, nutmeg and plenty of pepper.\n\nThe tomato sauce can be a jar or a quick simmer of tinned tomatoes with garlic, which takes 15 minutes.\n\nLayer sauce, pasta, filling and mozzarella three times, finishing with sauce and cheese. Cover with foil and cook at 190°C for 30 minutes, then uncover and cook for 15 minutes more, until browned. If your oven runs hot, check at 38 minutes. Stand for 15 minutes before cutting, which firms the layers.',
     ing: [
       '500 g fresh spinach',

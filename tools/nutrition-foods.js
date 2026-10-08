@@ -483,6 +483,7 @@ const EXT_FOODS = {
   enchilada_sauce: [1.2, 7, 1, 1.5, 4, 500], poppy_seeds: [18, 28, 42, 20, 3, 26], sub_roll: [9, 55, 3, 3, 5, 500],
   pulled_pork: [27, 0, 12, 0, 0, 350], oven_chips: [3, 29, 5, 3, 0.5, 100],
   saffron: [11, 65, 6, 4, 0, 148], ranch_seasoning: [9, 50, 5, 10, 10, 3000],
+  sandwich_biscuit: [4.5, 70, 20, 3, 38, 400], caramel_sweet: [3, 75, 11, 0, 60, 150], choc_sauce: [2, 60, 2, 2, 50, 100],
   gochujang: [4, 40, 2, 3, 18, 2500], chipotle_paste: [2, 20, 5, 5, 10, 1500]
 };
 const EXT_ALIAS = {
@@ -494,7 +495,7 @@ const EXT_ALIAS = {
   saffron: ['saffron strands', 'saffron'], ranch_seasoning: ['ranch seasoning', 'ranch seasoning mix', 'ranch dressing mix'],
   gochujang: ['gochujang', 'korean chilli paste'], chipotle_paste: ['chipotle paste', 'chipotle in adobo', 'chipotle chilli paste'],
   jam: ['redcurrant jelly', 'strawberry jam', 'raspberry jam', 'apricot jam', 'fruit jelly', 'jelly'],
-  spice: ['star anise', 'whole star anise', 'cinnamon stick', 'ras el hanout', 'garam masala', 'za\'atar', 'zaatar', 'sumac', 'berbere'], pasta_dry: ['orecchiette', 'linguine', 'tagliatelle', 'fusilli', 'farfalle', 'rigatoni', 'paccheri', 'pappardelle', 'orzo'], herbs_dried: ['dried italian herbs', 'mixed dried herbs'], chilli: ['red chillies', 'chillies', 'green chillies', 'red chilli', 'green chilli']
+  pizza_base: ['ready-made pizza dough', 'pizza dough'], caramel_sweet: ['soft caramel sweets, unwrapped', 'caramel sweets', 'caramel sauce', 'soft caramels', 'caramels'], choc_sauce: ['chocolate sauce'], sandwich_biscuit: ['chocolate sandwich biscuits', 'oreo biscuits', 'oreos'], vanilla: ['peppermint extract', 'almond extract', 'vanilla extract', 'vanilla', 'vanilla essence', 'vanilla bean paste'], spice: ['juniper berries', 'star anise', 'whole star anise', 'cinnamon stick', 'ras el hanout', 'garam masala', 'za\'atar', 'zaatar', 'sumac', 'berbere'], pasta_dry: ['orecchiette', 'linguine', 'tagliatelle', 'fusilli', 'farfalle', 'rigatoni', 'paccheri', 'pappardelle', 'orzo'], herbs_dried: ['dried italian herbs', 'mixed dried herbs'], chilli: ['red chillies', 'chillies', 'green chillies', 'red chilli', 'green chilli']
 };
 const EXT_PORTION = {
   mirin: { tbsp: 18 }, kecap_manis: { tbsp: 20 }, tonkatsu_sauce: { tbsp: 17 }, flatbread: { each: 70 }, wasabi: { tsp: 5 }, poppy_seeds: { tsp: 3, tbsp: 9 }, ranch_seasoning: { tsp: 3, tbsp: 9 }, gochujang: { tbsp: 20 }, chipotle_paste: { tbsp: 16 }, sub_roll: { each: 80 }

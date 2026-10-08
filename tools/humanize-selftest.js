@@ -350,7 +350,7 @@ async function main() {
     assert.ok(!validate(base, reg).some(p => /already used on/.test(p)), 'releasing a claim must free its headings');
   });
   await test('a "check early" time is allowed, a long new one is not', () => {
-    assert.deepStrictEqual(validate(mutate({ tips: [base.tips[0], 'If your oven runs hot, check at 5 minutes.', base.tips[2]] })), []);
+    assert.deepStrictEqual(validate(mutate({ tips: [base.tips[0], 'If the test oven runs hot, check at 5 minutes.', base.tips[2]] })), []);
     /* 3 hours is shorter than the 24 to 72 hours this recipe already states, so it is allowed; 10 hours is past the four-hour cap. */
     assert.deepStrictEqual(validate(mutate({ tips: [base.tips[0], 'Give it 3 hours more, to be safe.', base.tips[2]] })), []);
     assert.ok(validate(mutate({ tips: [base.tips[0], 'Give it 10 hours more, to be safe.', base.tips[2]] })).some(p => /not a quantity/.test(p)));
@@ -410,7 +410,7 @@ async function main() {
   section('Pipeline (tools/humanize.js) against a fake Anthropic server');
   resetState();
   /* Recipes the stand-in model can rewrite acceptably, found by trying. */
-  const candidates = items.slice(-300).filter((_, i) => i % 7 === 0).map(i => i.row.slug);
+  const candidates = items.slice(0, 300).filter((_, i) => i % 7 === 0).map(i => i.row.slug);
   await humanize.run({ mock: true, select: candidates.join(','), batchSize: 50, quiet: true, skipBackup: true, audit: false }, { stdout: sink(), stderr: sink() });
   const workable = Object.keys(readEntries(path.join(process.env.HUMANIZE_STATE_DIR, 'mock', 'rewrites')));
   rm(process.env.HUMANIZE_STATE_DIR); rm(process.env.HUMANIZE_LOG_DIR);
