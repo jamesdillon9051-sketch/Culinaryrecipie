@@ -427,7 +427,7 @@ const ALIAS = {
   turkey_deli: ['deli turkey breast', 'sliced deli turkey breast', 'deli turkey', 'sliced deli turkey', 'turkey deli slices'],
   beef_stewing: ['stewing beef', 'lean stewing beef', 'beef stew meat', 'stewing steak', 'lean stewing steak'],
   lemongrass: ['lemongrass', 'fresh lemongrass', 'lemon grass'],
-  bun: ['burger bun', 'burger buns', 'hamburger bun', 'hamburger buns', 'small burger buns', 'bun', 'buns', 'hot dog buns', 'hot dog bun']
+  bun: ['burger bun', 'burger buns', 'hamburger bun', 'hamburger buns', 'small burger buns', 'bun', 'buns', 'hot dog buns', 'hot dog bun'],
   lamb_chop: ['lamb chop', 'lamb chops', 'lamb loin chops', 'lamb cutlets', 'lamb loin chop'],
 };
 
@@ -472,5 +472,87 @@ const PORTION = {
   tofu: { cup: 252 }, edamame: { cup: 155 }, chickpeas_tin: { cup: 164 }, black_beans_tin: { cup: 172 }, kidney_beans_tin: { cup: 177 }, white_beans_tin: { cup: 179 },
   tomatillo: { each: 35 }, bun: { each: 50 }
 };
+
+
+/* ---- Added for volumes 39 and 40. Extensions are merged here so that an alias is added to a
+   food's list and never silently replaces an earlier one. */
+const EXT_FOODS = {
+  tonkatsu_sauce: [0.7, 30, 0.1, 0.5, 22, 1700], udon_cooked: [2.6, 21.6, 0.4, 1, 0.5, 150], mirin: [0.1, 43, 0, 0, 40, 5],
+  tuna_fresh: [23, 0, 1, 0, 0, 40], wasabi: [4.8, 23, 0.6, 7.8, 1, 17], choi_sum: [1.5, 2.2, 0.2, 1, 1, 30],
+  kecap_manis: [1.5, 60, 0.1, 0, 50, 2500], flatbread: [9, 50, 3, 2, 2, 500],
+  enchilada_sauce: [1.2, 7, 1, 1.5, 4, 500], poppy_seeds: [18, 28, 42, 20, 3, 26], sub_roll: [9, 55, 3, 3, 5, 500],
+  pulled_pork: [27, 0, 12, 0, 0, 350], oven_chips: [3, 29, 5, 3, 0.5, 100],
+  saffron: [11, 65, 6, 4, 0, 148], ranch_seasoning: [9, 50, 5, 10, 10, 3000],
+  sandwich_biscuit: [4.5, 70, 20, 3, 38, 400], caramel_sweet: [3, 75, 11, 0, 60, 150], choc_sauce: [2, 60, 2, 2, 50, 100],
+  gochujang: [4, 40, 2, 3, 18, 2500], chipotle_paste: [2, 20, 5, 5, 10, 1500]
+};
+const EXT_ALIAS = {
+  tonkatsu_sauce: ['tonkatsu sauce'], udon_cooked: ['frozen udon noodles', 'udon noodles', 'udon'], mirin: ['mirin'],
+  tuna_fresh: ['sashimi-grade tuna', 'tuna steak', 'fresh tuna'], wasabi: ['wasabi'], choi_sum: ['choi sum'],
+  kecap_manis: ['kecap manis'], flatbread: ['flatbread', 'flatbreads'],
+  enchilada_sauce: ['enchilada sauce'], poppy_seeds: ['poppy seeds', 'poppy seed'], sub_roll: ['sub rolls', 'sub roll', 'hoagie rolls', 'submarine rolls'],
+  pulled_pork: ['cooked pulled pork', 'pulled pork'], oven_chips: ['oven chips', 'frozen chips', 'chips'],
+  saffron: ['saffron strands', 'saffron'], ranch_seasoning: ['ranch seasoning', 'ranch seasoning mix', 'ranch dressing mix'],
+  gochujang: ['gochujang', 'korean chilli paste'], chipotle_paste: ['chipotle paste', 'chipotle in adobo', 'chipotle chilli paste'],
+  jam: ['redcurrant jelly', 'strawberry jam', 'raspberry jam', 'apricot jam', 'fruit jelly', 'jelly'],
+  pizza_base: ['ready-made pizza dough', 'pizza dough'], caramel_sweet: ['soft caramel sweets, unwrapped', 'caramel sweets', 'caramel sauce', 'soft caramels', 'caramels'], choc_sauce: ['chocolate sauce'], sandwich_biscuit: ['chocolate sandwich biscuits', 'oreo biscuits', 'oreos'], vanilla: ['peppermint extract', 'almond extract', 'vanilla extract', 'vanilla', 'vanilla essence', 'vanilla bean paste'], spice: ['juniper berries', 'star anise', 'whole star anise', 'cinnamon stick', 'ras el hanout', 'garam masala', 'za\'atar', 'zaatar', 'sumac', 'berbere'], pasta_dry: ['orecchiette', 'linguine', 'tagliatelle', 'fusilli', 'farfalle', 'rigatoni', 'paccheri', 'pappardelle', 'orzo'], herbs_dried: ['dried italian herbs', 'mixed dried herbs'], chilli: ['red chillies', 'chillies', 'green chillies', 'red chilli', 'green chilli']
+};
+const EXT_PORTION = {
+  mirin: { tbsp: 18 }, kecap_manis: { tbsp: 20 }, tonkatsu_sauce: { tbsp: 17 }, flatbread: { each: 70 }, wasabi: { tsp: 5 }, poppy_seeds: { tsp: 3, tbsp: 9 }, ranch_seasoning: { tsp: 3, tbsp: 9 }, gochujang: { tbsp: 20 }, chipotle_paste: { tbsp: 16 }, sub_roll: { each: 80 }
+};
+Object.assign(MORE, EXT_FOODS);
+for (const k of Object.keys(EXT_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT_ALIAS[k]);
+for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT_PORTION[k]);
+
+/* Volumes 41 to 43: foods the calculator did not know. */
+const EXT2_FOODS = {
+  pandan_extract: [0, 0, 0, 0, 0, 0], ube_extract: [0, 0, 0, 0, 0, 0],
+  oatcakes: [10, 60, 16, 7, 2, 900],
+  vodka: [0, 0, 0, 0, 0, 1], bechamel_ready: [3, 6, 5, 0, 4, 100], breadsticks: [12, 70, 5, 3, 3, 800],
+  pancetta: [16, 0, 40, 0, 0, 1700], bucatini_dry: [13, 75, 1.5, 3.2, 3, 6], pecorino: [29, 0, 32, 0, 0, 1800],
+  lamb_leg_bone: [16, 0, 12, 0, 0, 55], molasses: [0.1, 75, 0.1, 0, 75, 37], chicken_drumstick: [17, 0, 6, 0, 0, 90],
+  frozen_fries: [3, 29, 10, 3, 0.5, 300],
+  galangal: [1, 15, 0.5, 2, 0, 5], vine_leaves: [5, 11, 2, 11, 0, 700],
+  custard_ready: [3, 17, 4, 0, 12, 60],
+  panettone: [8, 52, 16, 2, 25, 300], matcha: [30, 39, 5, 38, 0, 10],
+  dulce_de_leche: [7, 55, 7, 0, 54, 140], wheat_bran: [16, 64, 4, 43, 0, 5],
+  sea_bass: [19, 0, 2.5, 0, 0, 70], sea_bream: [11, 0, 1.8, 0, 0, 40], monkfish: [14.5, 0, 1.5, 0, 0, 18], curry_leaves: [6, 19, 1, 6, 0, 10], gooseberries: [0.9, 10, 0.6, 4.3, 4, 1], seafood_seasoning: [8, 22, 3, 8, 2, 14000], instant_coffee: [14, 41, 0.5, 0, 0, 40],
+  nori: [30, 5, 1, 36, 0, 600],
+  beef_short_rib: [14, 0, 25, 0, 0, 60], pork_fillet: [22, 0, 3, 0, 0, 55],
+  croutons: [11, 68, 9, 4, 5, 700], tikka_paste: [3, 10, 14, 3, 6, 2000], beef_bones: [2, 0, 1, 0, 0, 20],
+  vermicelli_dry: [12, 74, 1.5, 3, 3, 10],
+  sandwich_rolls: [9, 52, 3, 2.5, 5, 500],
+  tzatziki: [3.5, 4, 5, 0.5, 3, 250], laksa_paste: [3, 12, 22, 3, 5, 2200],
+  duck_fat: [0, 0, 100, 0, 0, 0], focaccia: [9, 45, 10, 2.5, 2, 600],
+  tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55], mixed_nuts: [20, 20, 52, 8, 4, 5], ranch_dressing: [1, 6, 30, 0, 3, 800], bulgur_dry: [12, 76, 1.3, 12, 0.4, 17], soba_dry: [14, 74, 1, 3, 1, 10], korma_paste: [4, 20, 20, 4, 8, 1500], tortellini_fresh: [12, 45, 8, 2, 3, 600], prosciutto_ham: [26, 0, 14, 0, 0, 2000]
+};
+const EXT2_ALIAS = {
+  pandan_extract: ['pandan extract'], ube_extract: ['ube extract', 'ube extract, for the buttercream'],
+  oatcakes: ['oatcakes'],
+  vodka: ['vodka'], bechamel_ready: ['bechamel sauce'], breadsticks: ['breadsticks'],
+  pancetta: ['pancetta, cut into small cubes', 'pancetta'], bucatini_dry: ['bucatini'], pecorino: ['pecorino, grated', 'pecorino'],
+  lamb_leg_bone: ['leg of lamb, bone in', 'leg of lamb'], molasses: ['molasses'], chicken_drumstick: ['chicken drumsticks', 'chicken drumsticks, about 1.2 kg'],
+  frozen_fries: ['frozen curly fries', 'frozen waffle fries', 'frozen fries'],
+  galangal: ['galangal, sliced', 'galangal'], vine_leaves: ['vine leaves in brine', 'vine leaves'],
+  custard_ready: ['custard, warmed', 'custard'],
+  panettone: ['thick slices panettone', 'panettone'], matcha: ['matcha powder'],
+  dulce_de_leche: ['dulce de leche'], wheat_bran: ['wheat bran', 'bran'],
+  sea_bass: ['sea bass fillets, skin on', 'sea bass fillets'], sea_bream: ['whole sea bream', 'sea bream'], monkfish: ['monkfish tail, trimmed and cut into 4 cm chunks', 'monkfish'], curry_leaves: ['fresh curry leaves', 'curry leaves'], gooseberries: ['gooseberries, topped and tailed', 'gooseberries'], seafood_seasoning: ['seafood seasoning'], instant_coffee: ['instant coffee'],
+  nori: ['nori, shredded', 'nori'],
+  beef_short_rib: ['beef short ribs', 'short ribs'], pork_fillet: ['pork fillet', 'pork fillet, thinly sliced', 'pork tenderloin'], 
+  croutons: ['croutons'], tikka_paste: ['tikka masala paste', 'tikka paste', 'curry paste'], beef_bones: ['beef bones'],
+  vermicelli_dry: ['vermicelli, broken', 'vermicelli'],
+  sandwich_rolls: ['soft sandwich rolls', 'crusty rolls', 'sandwich rolls', 'soft rolls'],
+  tzatziki: ['tzatziki'], laksa_paste: ['laksa paste'],
+  duck_fat: ['duck fat'], focaccia: ['focaccia base', 'focaccia'],
+  beef_chuck: ['beef shin'], pickle: ['pickled vegetables', 'piccalilli'],
+  bread_white: ['challah', 'slices challah'], black_pudding: ['white pudding'], tattie_scone: ['tattie scones', 'tattie scone', 'potato scones'], coffee_brewed: ['espresso', 'strong coffee', 'black coffee', 'brewed coffee'], mixed_berries: ['blackcurrants', 'redcurrants', 'fresh berries', 'berries'], cream_whipping: ['whipped cream'], chocolate_white: ['white chocolate'], whole_turkey: ['whole turkey', 'turkey'], herbs_fresh: ['mixed herbs'], custard_ready: ['ready-made custard'], cake_sponge: ['sponge cake'], mixed_nuts: ['mixed nuts'], ranch_dressing: ['ranch dressing'], pasta_dry: ['dried cannelloni tubes', 'cannelloni tubes', 'cannelloni'], bulgur_dry: ['bulgur', 'bulgur wheat'], soba_dry: ['soba noodles', 'soba'], korma_paste: ['korma paste'], tortellini_fresh: ['fresh cheese tortellini', 'cheese tortellini', 'tortellini'], prosciutto_ham: ['slices prosciutto', 'prosciutto'], brandy: ['brandy', 'cognac', 'whiskey', 'bourbon', 'whisky', 'cream of tartar'], food_colouring: ['red gel food colouring', 'pink food colouring', 'red food colouring', 'orange gel food colouring', 'food colouring', 'gel food colouring'], guacamole: ['guacamole'], sugar: ['candy cane', 'candy canes']
+};
+const EXT2_PORTION = {
+  tattie_scone: { each: 50 }
+};
+Object.assign(MORE, EXT2_FOODS);
+for (const k of Object.keys(EXT2_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT2_ALIAS[k]);
+for (const k of Object.keys(EXT2_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT2_PORTION[k]);
 
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
