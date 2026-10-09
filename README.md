@@ -5348,6 +5348,10 @@ majority were refused: a different dish, a shop-bought pack, a menu or a plant,
 raw ingredients, or one archive page offered to two recipes. A recipe with no
 correct photograph stays on its gradient card.
 
+Of the 500 recipes, 108 have a published photograph: 28 in volume 41, 20 in
+volume 42, 20 in volume 43, 26 in volume 44 and 14 in volume 45. The other 392
+stay on the gradient card until a correct photograph is found.
+
 ## Ads
 
 `npm run check` verifies that every page carries every unit that is switched
