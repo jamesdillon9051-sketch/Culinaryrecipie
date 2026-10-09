@@ -506,6 +506,10 @@ for (const k of Object.keys(EXT_PORTION)) PORTION[k] = Object.assign(PORTION[k] 
 
 /* Volumes 41 to 43: foods the calculator did not know. */
 const EXT2_FOODS = {
+  pandan_extract: [0, 0, 0, 0, 0, 0], ube_extract: [0, 0, 0, 0, 0, 0],
+  oatcakes: [10, 60, 16, 7, 2, 900],
+  vodka: [0, 0, 0, 0, 0, 1], bechamel_ready: [3, 6, 5, 0, 4, 100], breadsticks: [12, 70, 5, 3, 3, 800],
+  pancetta: [16, 0, 40, 0, 0, 1700], bucatini_dry: [13, 75, 1.5, 3.2, 3, 6], pecorino: [29, 0, 32, 0, 0, 1800],
   lamb_leg_bone: [16, 0, 12, 0, 0, 55], molasses: [0.1, 75, 0.1, 0, 75, 37], chicken_drumstick: [17, 0, 6, 0, 0, 90],
   frozen_fries: [3, 29, 10, 3, 0.5, 300],
   galangal: [1, 15, 0.5, 2, 0, 5], vine_leaves: [5, 11, 2, 11, 0, 700],
@@ -523,6 +527,10 @@ const EXT2_FOODS = {
   tattie_scone: [3, 30, 6, 2, 1, 500], coffee_brewed: [0.1, 0, 0, 0, 0, 2], brandy: [0, 0.4, 0, 0, 0.4, 1], food_colouring: [0, 0, 0, 0, 0, 0], guacamole: [2, 8, 15, 6, 1, 300], whole_turkey: [16, 0, 5, 0, 0, 55], mixed_nuts: [20, 20, 52, 8, 4, 5], ranch_dressing: [1, 6, 30, 0, 3, 800], bulgur_dry: [12, 76, 1.3, 12, 0.4, 17], soba_dry: [14, 74, 1, 3, 1, 10], korma_paste: [4, 20, 20, 4, 8, 1500], tortellini_fresh: [12, 45, 8, 2, 3, 600], prosciutto_ham: [26, 0, 14, 0, 0, 2000]
 };
 const EXT2_ALIAS = {
+  pandan_extract: ['pandan extract'], ube_extract: ['ube extract', 'ube extract, for the buttercream'],
+  oatcakes: ['oatcakes'],
+  vodka: ['vodka'], bechamel_ready: ['bechamel sauce'], breadsticks: ['breadsticks'],
+  pancetta: ['pancetta, cut into small cubes', 'pancetta'], bucatini_dry: ['bucatini'], pecorino: ['pecorino, grated', 'pecorino'],
   lamb_leg_bone: ['leg of lamb, bone in', 'leg of lamb'], molasses: ['molasses'], chicken_drumstick: ['chicken drumsticks', 'chicken drumsticks, about 1.2 kg'],
   frozen_fries: ['frozen curly fries', 'frozen waffle fries', 'frozen fries'],
   galangal: ['galangal, sliced', 'galangal'], vine_leaves: ['vine leaves in brine', 'vine leaves'],
