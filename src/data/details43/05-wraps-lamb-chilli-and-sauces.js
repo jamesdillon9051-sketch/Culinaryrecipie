@@ -482,7 +482,7 @@ module.exports = {
     ing: [
       '200 g mayonnaise',
       '1 chipotle pepper in adobo, about 15 g, finely chopped',
-      '1 tbsp adobo sauce from the tin',
+      '1 tbsp chipotle paste, from the tin',
       '1 tbsp lime juice',
       '1 clove garlic, crushed',
       '1/4 tsp salt'

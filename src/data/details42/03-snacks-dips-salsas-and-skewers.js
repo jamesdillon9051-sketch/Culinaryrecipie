@@ -74,7 +74,7 @@ module.exports = {
 
   'cheese-popcorn': {
     d: 'Freshly popped popcorn tossed in melted butter, finely grated parmesan, garlic powder and salt.',
-    meta: 'Cheese popcorn: freshly popped popcorn tossed in butter, parmesan and garlic powder. Four servings, popped in 5 minutes.',
+    meta: 'Cheese popcorn: freshly popped popcorn tossed in butter, parmesan and garlic powder. Four servings, popped for 5 minutes.',
     kw: ['cheese popcorn', 'parmesan popcorn', 'homemade cheese popcorn', 'stovetop cheese popcorn', 'garlic parmesan popcorn'],
     why: 'A film night is the occasion, and a bowl of popcorn with a cheesy coating is the answer. The cheese sticks if you do three things in the right order.\n\nPop the kernels in a large pan with a lid, in the oil, over medium-high heat. Shake the pan every few seconds, and take it off the heat when the popping slows to about two seconds between pops. **Do not wait for the popping to stop.** The last kernels will burn before the rest are done.\n\nMelt the butter while the popcorn is still hot and pour it over, tossing well. The butter is the glue. Then add the parmesan, garlic powder and salt, in that order, and toss again. A very finely grated cheese, almost a powder, clings far better than coarse shreds.\n\nServe straight away in a big bowl. Popcorn goes soft within an hour. If your hob runs hot, lower the heat slightly once the first few kernels pop.',
     ing: [
