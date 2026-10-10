@@ -15,41 +15,613 @@
   "hash": "c16e3a86e100",
   "lastmod": "2026-10-09"
  },
+ "/categories/appetizers/american/": {
+  "hash": "5279712c3d62",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/australian/": {
+  "hash": "eac431ae85fa",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/british/": {
+  "hash": "cf6a20983a1e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/chinese/": {
+  "hash": "d4387e357098",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/egyptian/": {
+  "hash": "0a15407c9626",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/french/": {
+  "hash": "2aa03206ad20",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/greek/": {
+  "hash": "28cd0dd218c7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/indian/": {
+  "hash": "80bc6fd7ee1a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/italian/": {
+  "hash": "5aeb6c40452e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/japanese/": {
+  "hash": "aefd0ea03aac",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/korean/": {
+  "hash": "c3bb7047558a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/lebanese/": {
+  "hash": "d6f8831d7ab0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/mexican/": {
+  "hash": "27fac6103c13",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/middle-eastern/": {
+  "hash": "d5c2c2430704",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/new-zealand/": {
+  "hash": "44f6729c2b83",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/peruvian/": {
+  "hash": "e678b8d4965b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/spanish/": {
+  "hash": "a5a248125490",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/appetizers/tunisian/": {
+  "hash": "ba3ab48367b6",
+  "lastmod": "2026-10-10"
+ },
  "/categories/baking/": {
   "hash": "41a9235d2d1b",
   "lastmod": "2026-10-09"
+ },
+ "/categories/baking/american/": {
+  "hash": "492127078750",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/australian/": {
+  "hash": "e78faac02447",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/british/": {
+  "hash": "7c7e7c2faeec",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/canadian/": {
+  "hash": "d53e16b3d1d0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/chinese/": {
+  "hash": "86bdc210b8b1",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/french/": {
+  "hash": "a7d10f3e92cb",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/german/": {
+  "hash": "d93544b9f3fb",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/indian/": {
+  "hash": "f79486b4e54a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/irish/": {
+  "hash": "457051ea6fae",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/italian/": {
+  "hash": "2b5054c115a0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/lebanese/": {
+  "hash": "2e0238f2ed0a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/mexican/": {
+  "hash": "e6de127d9224",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/new-zealand/": {
+  "hash": "17e9f9a34e47",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/baking/scottish/": {
+  "hash": "e42dc80c61eb",
+  "lastmod": "2026-10-10"
  },
  "/categories/breakfast/": {
   "hash": "59afd89e1a95",
   "lastmod": "2026-10-09"
  },
+ "/categories/breakfast/american/": {
+  "hash": "58f121af08b0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/australian/": {
+  "hash": "9451d4612667",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/british/": {
+  "hash": "04d7672a0b04",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/french/": {
+  "hash": "f071c26b8ba6",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/indian/": {
+  "hash": "4cd80f460783",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/international/": {
+  "hash": "e0ebd552574d",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/irish/": {
+  "hash": "8f3b424c5a0e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/italian/": {
+  "hash": "e43248321887",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/mexican/": {
+  "hash": "4145f711315e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/scottish/": {
+  "hash": "248a8a54a139",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/breakfast/tunisian/": {
+  "hash": "68543c0e019e",
+  "lastmod": "2026-10-10"
+ },
  "/categories/desserts/": {
   "hash": "ea1bbf836394",
   "lastmod": "2026-10-09"
+ },
+ "/categories/desserts/american/": {
+  "hash": "3885fe10bdfa",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/australian/": {
+  "hash": "c80cd88b46d4",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/british/": {
+  "hash": "7d05d17e0a13",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/canadian/": {
+  "hash": "5232282ec939",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/chinese/": {
+  "hash": "2a83aaf0d42b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/egyptian/": {
+  "hash": "f4fd8a147ebc",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/french/": {
+  "hash": "475126b7d1fb",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/indian/": {
+  "hash": "d260f2456cb8",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/italian/": {
+  "hash": "4b0fee50c8a0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/japanese/": {
+  "hash": "8184096e3fec",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/lebanese/": {
+  "hash": "9a8188f7f76c",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/mexican/": {
+  "hash": "9663386b6e1b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/middle-eastern/": {
+  "hash": "4834ac91919c",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/new-zealand/": {
+  "hash": "68caf420c072",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/spanish/": {
+  "hash": "10c7ff107e3e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/desserts/tunisian/": {
+  "hash": "6bf45f93af24",
+  "lastmod": "2026-10-10"
  },
  "/categories/dinner/": {
   "hash": "43cfb414fc51",
   "lastmod": "2026-10-09"
  },
+ "/categories/dinner/american/": {
+  "hash": "13a54c0165c6",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/australian/": {
+  "hash": "854256d9e533",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/belgian/": {
+  "hash": "ddf49b08968c",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/british/": {
+  "hash": "5b7a50eb1861",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/canadian/": {
+  "hash": "b35e03b247c7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/chinese/": {
+  "hash": "670e9154abd0",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/cuban/": {
+  "hash": "f30edc1753fc",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/egyptian/": {
+  "hash": "f5d1285a1065",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/ethiopian/": {
+  "hash": "c2e6ff8da788",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/filipino/": {
+  "hash": "3424701d680e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/french/": {
+  "hash": "be5f268489bd",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/georgian/": {
+  "hash": "3c0b8669c4cd",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/german/": {
+  "hash": "cb7a1d5f4c4b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/greek/": {
+  "hash": "8928d5091f44",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/hungarian/": {
+  "hash": "6fe5b9ccc308",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/indian/": {
+  "hash": "988b3239a90e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/indonesian/": {
+  "hash": "5e196aef80bf",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/irish/": {
+  "hash": "16c72361a11b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/italian/": {
+  "hash": "f9fb35a25678",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/jamaican/": {
+  "hash": "d263e5e8d837",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/japanese/": {
+  "hash": "9a677bff731a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/korean/": {
+  "hash": "b3276ee1142e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/lebanese/": {
+  "hash": "c234980a177e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/malaysian/": {
+  "hash": "26879a26ada3",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/mexican/": {
+  "hash": "a46d3bb1bc28",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/middle-eastern/": {
+  "hash": "913dbed0b3a3",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/moroccan/": {
+  "hash": "1f318d636d7b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/new-zealand/": {
+  "hash": "10ed282df266",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/nigerian/": {
+  "hash": "7c77dc1a1119",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/pakistani/": {
+  "hash": "3baedb8f9c50",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/persian/": {
+  "hash": "7d7eaaf48459",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/peruvian/": {
+  "hash": "d3a6a8a883bc",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/polish/": {
+  "hash": "d53ee446669b",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/portuguese/": {
+  "hash": "3a8d9a9c95ae",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/russian/": {
+  "hash": "2d703bf1dd2d",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/scottish/": {
+  "hash": "4b11f72b0302",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/spanish/": {
+  "hash": "8150d803623f",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/sri-lankan/": {
+  "hash": "f412543f4c2f",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/thai/": {
+  "hash": "f8b25c4e237f",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/tunisian/": {
+  "hash": "66eb51e938b7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/turkish/": {
+  "hash": "1e34b41c2c80",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/dinner/vietnamese/": {
+  "hash": "5be0af21b28c",
+  "lastmod": "2026-10-10"
+ },
  "/categories/drinks/": {
   "hash": "bc198bcd1eb9",
   "lastmod": "2026-10-09"
+ },
+ "/categories/drinks/american/": {
+  "hash": "ee24d8e648ab",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/drinks/british/": {
+  "hash": "dddcf3fc99e6",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/drinks/canadian/": {
+  "hash": "eb95ca302678",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/drinks/indian/": {
+  "hash": "d0c072b730d2",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/drinks/international/": {
+  "hash": "8fed33145746",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/drinks/mexican/": {
+  "hash": "fb01bd32b1d2",
+  "lastmod": "2026-10-10"
  },
  "/categories/healthy/": {
   "hash": "20e71f09ca33",
   "lastmod": "2026-10-09"
  },
+ "/categories/healthy/american/": {
+  "hash": "eea209828160",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/greek/": {
+  "hash": "91c4ec60c9b7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/indian/": {
+  "hash": "81847d21c4f9",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/international/": {
+  "hash": "bd706e16bda7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/italian/": {
+  "hash": "7fa57b5766b7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/japanese/": {
+  "hash": "e4a77c1cc8af",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/korean/": {
+  "hash": "1b98462d43fa",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/middle-eastern/": {
+  "hash": "e8f6be32f000",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/healthy/thai/": {
+  "hash": "ed26cf17c266",
+  "lastmod": "2026-10-10"
+ },
  "/categories/holiday-specials/": {
   "hash": "03f7b86d86c4",
   "lastmod": "2026-10-09"
+ },
+ "/categories/holiday-specials/american/": {
+  "hash": "c0c8fac974a4",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/holiday-specials/british/": {
+  "hash": "d6a8eb75a12d",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/holiday-specials/german/": {
+  "hash": "04dda72c951a",
+  "lastmod": "2026-10-10"
  },
  "/categories/lunch/": {
   "hash": "22af31f50e92",
   "lastmod": "2026-10-09"
  },
+ "/categories/lunch/american/": {
+  "hash": "98193675ece7",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/australian/": {
+  "hash": "82c165dbd332",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/british/": {
+  "hash": "aebc9407d799",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/canadian/": {
+  "hash": "dab0b692bec8",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/chinese/": {
+  "hash": "4d0bfbd591bb",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/french/": {
+  "hash": "2aa311b235ea",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/greek/": {
+  "hash": "41ffbd2975e4",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/indian/": {
+  "hash": "69b3dce691c2",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/italian/": {
+  "hash": "489ac2d41d2e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/japanese/": {
+  "hash": "66cb9071c761",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/mexican/": {
+  "hash": "c5b3143853c4",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/new-zealand/": {
+  "hash": "50c7a7f197bf",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/scottish/": {
+  "hash": "cf4a69619937",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/tunisian/": {
+  "hash": "5d0b40baca1a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/lunch/vietnamese/": {
+  "hash": "2a611a5795fb",
+  "lastmod": "2026-10-10"
+ },
  "/categories/quick-meals/": {
   "hash": "26737f12e94d",
   "lastmod": "2026-10-09"
+ },
+ "/categories/quick-meals/american/": {
+  "hash": "7beb00892d73",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/australian/": {
+  "hash": "63eaaa5dfb26",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/british/": {
+  "hash": "cae49a881b3e",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/chinese/": {
+  "hash": "39257290ca60",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/french/": {
+  "hash": "d64fbb120d1a",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/italian/": {
+  "hash": "107b5842266c",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/japanese/": {
+  "hash": "86badc36b668",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/mexican/": {
+  "hash": "704a496b7821",
+  "lastmod": "2026-10-10"
+ },
+ "/categories/quick-meals/thai/": {
+  "hash": "b7bb86ebdb2f",
+  "lastmod": "2026-10-10"
  },
  "/contact/": {
   "hash": "67bcc6b15752",

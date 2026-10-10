@@ -237,6 +237,61 @@ for (const recipe of loadRecipes()) {
   }
 }
 
+/* 8. The internal linking architecture, recipe by recipe.
+      - 4 to 6 related recipes, none of them the recipe itself.
+      - At least one inbound link from another recipe page, so a recipe is
+        never reachable only through a list.
+      - A breadcrumb of Home > Category > Subcategory > Title, with the same
+        trail in BreadcrumbList structured data.
+      - The category and subcategory hubs it names list it, by its own title.
+      - No link anywhere says "click here" or "read more". */
+{
+  const recipeRoutes = [...routes].filter(r => /^\/recipes\/[^/]+\/$/.test(r));
+  const fromRecipes = new Map(recipeRoutes.map(r => [r, 0]));
+  const decodeText = v => decode(v.replace(/<[^>]+>/g, '').trim());
+  for (const route of recipeRoutes) {
+    const html = all.get(route);
+    const block = /<section class="related section"[\s\S]*?<\/section>/.exec(html);
+    if (!block) { problems.push(`${route} has no related-recipes section`); continue; }
+    const targets = new Set();
+    for (const [, href] of block[0].matchAll(/<h3><a href="([^"]+)"/g)) targets.add(href);
+    targets.delete(route);
+    if (targets.size < 4 || targets.size > 6) {
+      problems.push(`${route} lists ${targets.size} related recipes, expected 4 to 6`);
+    }
+    for (const t of targets) if (fromRecipes.has(t)) fromRecipes.set(t, fromRecipes.get(t) + 1);
+
+    const crumbs = [...(/<nav class="breadcrumbs"[\s\S]*?<\/nav>/.exec(html) || [''])[0].matchAll(/<li>([\s\S]*?)<\/li>/g)];
+    if (crumbs.length !== 4) {
+      problems.push(`${route} has ${crumbs.length} breadcrumb items, expected Home > Category > Subcategory > Title`);
+    } else {
+      const links = crumbs.slice(0, 3).map(c => /href="([^"]+)"/.exec(c[1]));
+      if (links.some(l => !l || !routes.has(l[1]))) problems.push(`${route} has a breadcrumb that does not link to an existing hub`);
+      const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+        .map(m => { try { return JSON.parse(m[1]); } catch { return null; } })
+        .flatMap(j => Array.isArray(j) ? j : j && j['@graph'] ? j['@graph'] : [j])
+        .find(j => j && j['@type'] === 'BreadcrumbList');
+      if (!ld || ld.itemListElement.length !== 4) problems.push(`${route} has no 4-item BreadcrumbList structured data`);
+      else if (links.every(Boolean)) {
+        const urls = ld.itemListElement.slice(0, 3).map(i => i.item.replace(/^https?:\/\/[^/]+/, ''));
+        if (urls.join('|') !== links.map(l => l[1]).join('|')) problems.push(`${route} breadcrumb schema and markup disagree`);
+        if (!/^\//.test(links[1][1]) || !all.has(links[2][1])) continue;
+        const hubHtml = all.get(links[2][1]);
+        if (!hubHtml.includes(`href="${route}"`)) problems.push(`${links[2][1]} does not list ${route}`);
+      }
+    }
+  }
+  for (const [route, n] of fromRecipes) {
+    if (n === 0) problems.push(`${route} has no inbound link from another recipe`);
+  }
+  const VAGUE = /^(click here|read more|learn more|here|more|this|link|see more)$/i;
+  for (const [route, html] of all) {
+    for (const [, inner] of html.matchAll(/<a [^>]*href="\/[^"]*"[^>]*>([\s\S]*?)<\/a>/g)) {
+      if (VAGUE.test(decodeText(inner))) { problems.push(`${route} has a link whose text is "${decodeText(inner)}"`); break; }
+    }
+  }
+}
+
 const show = process.argv.includes('--all') ? problems.length : 40;
 for (const line of problems.slice(0, show)) console.log(`  ✗ ${line}`);
 if (problems.length > show) console.log(`  … and ${problems.length - show} more`);

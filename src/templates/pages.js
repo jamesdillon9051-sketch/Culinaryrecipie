@@ -404,6 +404,19 @@ ${breadcrumbs(trail)}
 }
 
 /* ------------------------------------------------ taxonomy landing pages */
+/**
+ * A list of links from a hub to the hubs beneath or beside it. The anchor text
+ * is the descriptive name of the page it points at ("Italian dinner recipes"),
+ * never "see more".
+ */
+function hubLinks({ id, heading, links }) {
+  if (!links || !links.length) return '';
+  return `<nav class="hub-links" aria-labelledby="${id}">
+    <h2 id="${id}">${esc(heading)}</h2>
+    <ul>${links.map(l => `<li><a href="${l.url}">${esc(l.text)}</a>${l.count ? ` <span>${l.count}</span>` : ''}</li>`).join('')}</ul>
+  </nav>`;
+}
+
 function taxonomyPage(ctx, options) {
   const trail = [{ name: 'Home', url: SITE.base }].concat(options.trail);
   const body = `
@@ -1114,4 +1127,5 @@ function notFound(ctx) {
   });
 }
 
-module.exports = { home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, about, contact, notFound };
+module.exports = {
+  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, about, contact, notFound };

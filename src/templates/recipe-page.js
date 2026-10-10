@@ -351,9 +351,9 @@ function render(recipe, context) {
 
   const trail = [
     { name: 'Home', url: SITE.base },
-    { name: 'Recipes', url: `${SITE.base}recipes/` },
     { name: recipe.category, url: `${SITE.base}categories/${slug(recipe.category)}/` },
-    { name: recipe.title }
+    { name: recipe.subcategory.name, url: `${SITE.base}${recipe.subcategory.path}` },
+    { name: recipe.title, url }
   ];
 
   const heroImg = img
@@ -585,12 +585,14 @@ ${breadcrumbs(trail)}
       <div class="section-head">
         <div>
           <span class="eyebrow">Keep going</span>
-          <h2 id="related-title">Related Recipes</h2>
+          <h2 id="related-title">You Might Also Like</h2>
           <p>More ${esc(recipe.cuisine)} cooking and ${esc(recipe.category.toLowerCase())} ideas from Weekly Delight.</p>
         </div>
-        <a class="btn btn--ghost" href="${SITE.base}cuisines/${slug(recipe.cuisine)}/">All ${esc(recipe.cuisine)} recipes</a>
+        <a class="btn btn--ghost" href="${SITE.base}${recipe.subcategory.path}">All ${esc(recipe.subcategory.name.toLowerCase())} recipes</a>
       </div>
       <div class="related-grid">${recipe.related.map(r => card(r)).join('')}</div>
+      <p class="related-more">Browse more: <a href="${SITE.base}categories/${slug(recipe.category)}/">all ${esc(recipe.category.toLowerCase())} recipes</a>
+        or <a href="${SITE.base}cuisines/${slug(recipe.cuisine)}/">all ${esc(recipe.cuisine)} recipes</a>.</p>
     </section>
 
     ${newsletter('recipe-news')}
