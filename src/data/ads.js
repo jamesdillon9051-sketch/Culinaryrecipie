@@ -42,6 +42,14 @@ module.exports = {
   enabled: true,
 
   /**
+   * Lines of /ads.txt, served at the site root. Google AdSense reads it to
+   * confirm that this publisher account may sell the site's ad space.
+   */
+  adsTxt: [
+    'google.com, pub-6702932117468670, DIRECT, f08c47fec0942fa0'
+  ],
+
+  /**
    * Off.
    *
    * It was switched off while a second network ran a tag that also opened a

@@ -395,7 +395,7 @@ for (const { rel, href } of fragmentLinks) {
 }
 
 /* --- site plumbing ------------------------------------------------------ */
-for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
+for (const required of ['/sitemap.xml', '/robots.txt', '/ads.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
 }
 
