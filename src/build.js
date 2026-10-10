@@ -126,7 +126,7 @@ const SRC = __dirname;
    these, because the output directory is also the project directory. */
 const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
   'about', 'contact', 'privacy', 'search', 'favourites'];
-const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt',
+const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt', 'ads.txt',
   'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects'];
 
 /* Never removable, whatever else changes. A typo in GENERATED_* that collided
@@ -974,6 +974,8 @@ function build() {
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(searchIndex(recipes)));
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap(recipes, ctx));
   fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
+  /* IAB ads.txt: who may sell this site's ad inventory. Lines live in src/data/ads.js. */
+  fs.writeFileSync(path.join(OUT, 'ads.txt'), require('./data/ads').adsTxt.join('\n') + '\n');
   fs.writeFileSync(path.join(OUT, 'manifest.json'), manifest());
   fs.writeFileSync(path.join(OUT, 'feed.xml'), feed(recipes));
   fs.writeFileSync(path.join(OUT, 'pinterest-feed.xml'), pinterestFeed(recipes));

@@ -272,10 +272,6 @@ for (const file of htmlFiles) {
 
   if (!/<link rel="canonical"/.test(html)) problems.push(`${rel}: missing canonical link`);
   if (!/<title>/.test(html)) problems.push(`${rel}: missing <title>`);
-  const adsenseId = require('../src/data/ads').adsenseAccount;
-  if (adsenseId && !html.includes(`<meta name="google-adsense-account" content="${adsenseId}">`)) {
-    problems.push(`${rel}: missing the AdSense account meta tag`);
-  }
   if (!/property="og:image"/.test(html)) problems.push(`${rel}: missing og:image`);
   if (!/name="twitter:card"/.test(html)) problems.push(`${rel}: missing twitter:card`);
   if (!/<html lang="/.test(html)) problems.push(`${rel}: missing lang attribute`);
@@ -399,7 +395,7 @@ for (const { rel, href } of fragmentLinks) {
 }
 
 /* --- site plumbing ------------------------------------------------------ */
-for (const required of ['/sitemap.xml', '/robots.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
+for (const required of ['/sitemap.xml', '/robots.txt', '/ads.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
 }
 
