@@ -51,6 +51,7 @@ function altText(row, detail, hero) {
 }
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
+const { subcategories, assignRelated } = require('./lib/linking');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
 const contentDates = require('./lib/content-dates');
 const minify = require('./lib/minify');
@@ -372,21 +373,10 @@ function loadRecipes() {
     return built;
   });
 
-  /* Related recipes: same cuisine first, then same category, never itself. */
-  const byPopularity = (a, b) => b.popularity - a.popularity;
-  for (const recipe of recipes) {
-    const sameCuisine = recipes.filter(r => r.slug !== recipe.slug && r.cuisine === recipe.cuisine).sort(byPopularity);
-    const sameCategory = recipes.filter(r => r.slug !== recipe.slug && r.category === recipe.category).sort(byPopularity);
-    const seen = new Set([recipe.slug]);
-    const related = [];
-    for (const candidate of sameCuisine.concat(sameCategory)) {
-      if (seen.has(candidate.slug)) continue;
-      seen.add(candidate.slug);
-      related.push(candidate);
-      if (related.length === 4) break;
-    }
-    recipe.related = related;
-  }
+  /* Related recipes (4 to 6 each) and the subcategory every recipe sits in.
+     See src/lib/linking.js for how they are chosen. */
+  assignRelated(recipes, buildHubs(recipes).hubs);
+  recipes.subcategoryHubs = subcategories(recipes, slug, categoryNoun);
 
   /* When each recipe's own content last changed. The register is attached to
      the array rather than saved here: the audit tools call loadRecipes too,
@@ -559,6 +549,10 @@ function sitemap(recipes, ctx) {
     const list = recipes.filter(r => r.cuisine === name).map(r => r.slug).sort();
     urls.push(entry(`cuisines/${slug(name)}/`,
       hubDate(`/cuisines/${slug(name)}/`, list), 'weekly', '0.7'));
+  }
+  for (const hub of recipes.subcategoryHubs || []) {
+    urls.push(entry(hub.path,
+      hubDate(`/${hub.path}`, hub.recipes.map(r => r.slug).sort()), 'weekly', '0.6'));
   }
   for (const hub of ctx.hubs || []) {
     urls.push(entry(`ingredients/${hub.slug}/`,
@@ -878,6 +872,8 @@ function build() {
   writePage('contact/success/index.html', pages.contactSuccess(ctx));
   writePage('404.html', pages.notFound(ctx));
 
+  const subHubs = recipes.subcategoryHubs;
+
   /* Category landing pages --------------------------------------------- */
   for (const name of Object.keys(CATEGORIES)) {
     const list = recipes.filter(r => r.category === name).sort((a, b) => b.popularity - a.popularity);
@@ -895,7 +891,48 @@ function build() {
       path: `categories/${slug(name)}/`,
       active: 'categories',
       newsId: `cat-${slug(name)}-news`,
+      extra: pages.hubLinks({
+        id: `cat-${slug(name)}-sub`,
+        heading: `${name} recipes by cuisine`,
+        links: subHubs.filter(h => h.category === name).map(h => ({
+          url: `${SITE.base}${h.path}`, text: h.anchor, count: h.recipes.length }))
+      }),
       trail: [{ name: 'Categories', url: `${SITE.base}categories/` }, { name }]
+    }));
+  }
+
+  /* Subcategory landing pages: one cuisine within one category ---------- */
+  for (const hub of subHubs) {
+    const siblings = subHubs.filter(h => h.category === hub.category && h !== hub).slice(0, 12);
+    const noun = categoryNoun(hub.category);
+    writePage(`${hub.path}index.html`, pages.taxonomyPage(ctx, {
+      recipes: hub.recipes,
+      title: `${hub.cuisine} ${noun} Recipes`,
+      titleHooks: [`— ${hub.recipes.length} Tested`],
+      heading: `${hub.cuisine} ${noun.toLowerCase()} recipes`,
+      eyebrow: `${hub.category} · ${hub.cuisine}`,
+      intro: `${plural(hub.recipes.length, 'tested ' + hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')}, in a suggested order. ` +
+        `Part of our ${hub.category.toLowerCase()} recipes and our ${hub.cuisine} cooking.`,
+      description: enrichDescription(
+        `${plural(hub.recipes.length, 'tested ' + hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')} on Weekly Delight.`,
+        [`${CATEGORIES[hub.category]}`, ...TAIL_CLAUSES]),
+      keywords: keywordsForCategory(hub.category, hub.recipes).map(k => `${hub.cuisine.toLowerCase()} ${k}`),
+      path: hub.path,
+      active: 'categories',
+      newsId: `sub-${slug(hub.category)}-${hub.slug}-news`,
+      extra: pages.hubLinks({
+        id: `sub-${slug(hub.category)}-${hub.slug}-more`,
+        heading: `More ${hub.category.toLowerCase()} and ${hub.cuisine} recipes`,
+        links: [
+          { url: `${SITE.base}categories/${slug(hub.category)}/`, text: `All ${hub.category.toLowerCase()} recipes` },
+          { url: `${SITE.base}cuisines/${hub.slug}/`, text: `All ${hub.cuisine} recipes` }
+        ].concat(siblings.map(h => ({ url: `${SITE.base}${h.path}`, text: h.anchor, count: h.recipes.length })))
+      }),
+      trail: [
+        { name: 'Categories', url: `${SITE.base}categories/` },
+        { name: hub.category, url: `${SITE.base}categories/${slug(hub.category)}/` },
+        { name: hub.name }
+      ]
     }));
   }
 
@@ -918,6 +955,12 @@ function build() {
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',
       newsId: `cui-${slug(name)}-news`,
+      extra: pages.hubLinks({
+        id: `cui-${slug(name)}-sub`,
+        heading: `${name} recipes by category`,
+        links: subHubs.filter(h => h.cuisine === name).map(h => ({
+          url: `${SITE.base}${h.path}`, text: h.anchor, count: h.recipes.length }))
+      }),
       trail: [{ name: 'Cuisines', url: `${SITE.base}cuisines/` }, { name }]
     }));
   }

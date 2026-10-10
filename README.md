@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-3815 recipes · 81 cuisines · 10 categories · 3971 static pages · 0 npm dependencies
+3815 recipes · 81 cuisines · 10 categories · 4114 static pages · 0 npm dependencies
 ```
 
 ---
@@ -5351,6 +5351,36 @@ correct photograph stays on its gradient card.
 Of the 500 recipes, 108 have a published photograph: 28 in volume 41, 20 in
 volume 42, 20 in volume 43, 26 in volume 44 and 14 in volume 45. The other 392
 stay on the gradient card until a correct photograph is found.
+
+## Internal linking: subcategory hubs, related recipes and breadcrumbs
+
+`src/lib/linking.js` builds the link graph once per build, with no randomness,
+so a rebuild changes nothing unless the recipes did.
+
+- **Hubs.** Every category (`/categories/dinner/`) and cuisine
+  (`/cuisines/italian/`) page lists all its recipes by title. Below them sit
+  143 subcategory hubs, one cuisine within one category
+  (`/categories/dinner/italian/`), made wherever there are at least four
+  recipes. Category and cuisine pages link down to them with descriptive
+  anchors ("Italian dinner recipes"), and each subcategory page links up to its
+  category and cuisine and across to its siblings. The hubs are in the sitemap.
+- **Related recipes.** Every recipe page ends with "You Might Also Like", six
+  recipes chosen by what they share with it: category, cuisine, main
+  ingredients, diet tags, words in the title and total time. A small penalty on
+  recipes that already have many inbound links spreads the links across the
+  catalogue instead of sending them all to the most popular dishes, and every
+  recipe gets at least one inbound link from another recipe.
+- **Breadcrumbs.** Every recipe page shows Home > Category > Subcategory >
+  Title, with the same four items in its BreadcrumbList structured data. A
+  recipe whose category and cuisine have fewer than four recipes points its
+  subcategory crumb at the cuisine hub instead. The last item now carries the
+  recipe's own URL in the structured data instead of the home page's.
+- **Checked on every build.** `npm run seo` (part of `npm run check`) fails on
+  a recipe with fewer than 4 or more than 6 related recipes, no inbound link
+  from another recipe, a breadcrumb that is not four items or whose markup and
+  structured data disagree, a hub that does not list the recipe, or a link
+  whose text is "click here" or "read more". Card links carry the recipe title,
+  and the "Quick view" button names the recipe too.
 
 ## Ads
 

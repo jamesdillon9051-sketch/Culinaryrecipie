@@ -356,7 +356,7 @@ function card(recipe, options = {}) {
         <div><dt>Cook</dt><dd>${recipe.cook}m</dd></div>
         <div><dt>Serves</dt><dd>${recipe.servings}</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="${href}">Quick view</a>
+      <a class="btn btn--light btn--sm" href="${href}" aria-label="Quick view: ${esc(recipe.title)}">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -410,7 +410,9 @@ function breadcrumbSchema(trail) {
       '@type': 'ListItem',
       position: i + 1,
       name: item.name,
-      item: SITE.origin + (item.url || SITE.base)
+      /* The last crumb is the page itself; without a URL of its own it is
+         left out rather than pointed at the home page. */
+      ...(item.url ? { item: item.url.startsWith('http') ? item.url : SITE.origin + item.url } : {})
     }))
   };
 }

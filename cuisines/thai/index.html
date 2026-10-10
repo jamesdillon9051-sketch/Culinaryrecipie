@@ -65,7 +65,7 @@
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
 <script src="/assets/js/theme.js"></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://weeklydelight.com/"},{"@type":"ListItem","position":2,"name":"Cuisines","item":"https://weeklydelight.com/cuisines/"},{"@type":"ListItem","position":3,"name":"Thai","item":"https://weeklydelight.com/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://weeklydelight.com/"},{"@type":"ListItem","position":2,"name":"Cuisines","item":"https://weeklydelight.com/cuisines/"},{"@type":"ListItem","position":3,"name":"Thai"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Thai recipes","description":"33 tested Thai recipes on Weekly Delight. Sour, salty, sweet and hot, balanced in every bowl. Authentic Thai cooking explained step by step.","url":"https://weeklydelight.com/cuisines/thai/","mainEntity":{"@type":"ItemList","numberOfItems":33,"itemListElement":[{"@type":"ListItem","position":1,"name":"Pad Thai","url":"https://weeklydelight.com/recipes/pad-thai/"},{"@type":"ListItem","position":2,"name":"Thai Green Curry","url":"https://weeklydelight.com/recipes/thai-green-curry/"},{"@type":"ListItem","position":3,"name":"Mango Sticky Rice","url":"https://weeklydelight.com/recipes/mango-sticky-rice/"},{"@type":"ListItem","position":4,"name":"Thai Red Curry","url":"https://weeklydelight.com/recipes/thai-red-curry/"},{"@type":"ListItem","position":5,"name":"Pad Kra Pao (Thai Basil Chicken)","url":"https://weeklydelight.com/recipes/pad-kra-pao/"},{"@type":"ListItem","position":6,"name":"Tom Yum Goong","url":"https://weeklydelight.com/recipes/tom-yum-goong/"},{"@type":"ListItem","position":7,"name":"Pad See Ew","url":"https://weeklydelight.com/recipes/pad-see-ew/"},{"@type":"ListItem","position":8,"name":"Khao Soi","url":"https://weeklydelight.com/recipes/khao-soi/"},{"@type":"ListItem","position":9,"name":"Tom Kha Gai","url":"https://weeklydelight.com/recipes/tom-kha-gai/"},{"@type":"ListItem","position":10,"name":"Massaman Beef Curry","url":"https://weeklydelight.com/recipes/massaman-curry/"},{"@type":"ListItem","position":11,"name":"Thai Iced Tea","url":"https://weeklydelight.com/recipes/thai-iced-tea/"},{"@type":"ListItem","position":12,"name":"Thai Pineapple Fried Rice","url":"https://weeklydelight.com/recipes/thai-fried-rice/"},{"@type":"ListItem","position":13,"name":"Larb Gai","url":"https://weeklydelight.com/recipes/larb-gai/"},{"@type":"ListItem","position":14,"name":"Som Tam (Green Papaya Salad)","url":"https://weeklydelight.com/recipes/som-tam/"},{"@type":"ListItem","position":15,"name":"Panang Curry","url":"https://weeklydelight.com/recipes/panang-curry/"},{"@type":"ListItem","position":16,"name":"Thai Yellow Curry","url":"https://weeklydelight.com/recipes/thai-yellow-curry/"},{"@type":"ListItem","position":17,"name":"Moo Ping","url":"https://weeklydelight.com/recipes/moo-ping/"},{"@type":"ListItem","position":18,"name":"Pad Woon Sen","url":"https://weeklydelight.com/recipes/pad-woon-sen/"},{"@type":"ListItem","position":19,"name":"Crying Tiger Beef","url":"https://weeklydelight.com/recipes/crying-tiger/"},{"@type":"ListItem","position":20,"name":"Khai Jiao","url":"https://weeklydelight.com/recipes/khai-jiao/"},{"@type":"ListItem","position":21,"name":"Pad Prik King","url":"https://weeklydelight.com/recipes/pad-prik-king/"},{"@type":"ListItem","position":22,"name":"Khanom Krok","url":"https://weeklydelight.com/recipes/khanom-krok/"},{"@type":"ListItem","position":23,"name":"Gai Yang","url":"https://weeklydelight.com/recipes/gai-yang/"},{"@type":"ListItem","position":24,"name":"Thai Beef Salad","url":"https://weeklydelight.com/recipes/thai-beef-salad/"},{"@type":"ListItem","position":25,"name":"Thai Fish Cakes","url":"https://weeklydelight.com/recipes/thai-fish-cakes/"},{"@type":"ListItem","position":26,"name":"Sweet Chilli Sauce","url":"https://weeklydelight.com/recipes/sweet-chilli-sauce/"},{"@type":"ListItem","position":27,"name":"Thai Cucumber Salad","url":"https://weeklydelight.com/recipes/thai-cucumber-salad/"},{"@type":"ListItem","position":28,"name":"Drunken Noodles","url":"https://weeklydelight.com/recipes/drunken-noodles/"},{"@type":"ListItem","position":29,"name":"Cabbage Salad with Peanut Dressing","url":"https://weeklydelight.com/recipes/cabbage-salad-with-peanut-dressing/"},{"@type":"ListItem","position":30,"name":"Mango Salad","url":"https://weeklydelight.com/recipes/mango-salad/"}]}}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X53KZJEZ6X"></script>
@@ -129,7 +129,10 @@
     <a class="btn btn--ghost" href="/recipes/">All 3815 recipes</a>
   </header>
 
-  
+  <nav class="hub-links" aria-labelledby="cui-thai-sub">
+    <h2 id="cui-thai-sub">Thai recipes by category</h2>
+    <ul><li><a href="/categories/dinner/thai/">Thai dinner recipes</a> <span>10</span></li><li><a href="/categories/healthy/thai/">Thai healthy recipes</a> <span>7</span></li><li><a href="/categories/quick-meals/thai/">Thai quick meal recipes</a> <span>9</span></li></ul>
+  </nav>
 
   <section aria-labelledby="tax-list-title">
     <h2 id="tax-list-title" class="sr-only">Thai recipes — all 33 recipes</h2>
@@ -152,7 +155,7 @@
         <div><dt>Cook</dt><dd>15m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pad-thai/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pad-thai/" aria-label="Quick view: Pad Thai">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -182,7 +185,7 @@
         <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-green-curry/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-green-curry/" aria-label="Quick view: Thai Green Curry">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -212,7 +215,7 @@
         <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/mango-sticky-rice/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/mango-sticky-rice/" aria-label="Quick view: Mango Sticky Rice">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -242,7 +245,7 @@
         <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-red-curry/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-red-curry/" aria-label="Quick view: Thai Red Curry">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -272,7 +275,7 @@
         <div><dt>Cook</dt><dd>10m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pad-kra-pao/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pad-kra-pao/" aria-label="Quick view: Pad Kra Pao (Thai Basil Chicken)">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -302,7 +305,7 @@
         <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tom-yum-goong/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/tom-yum-goong/" aria-label="Quick view: Tom Yum Goong">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -332,7 +335,7 @@
         <div><dt>Cook</dt><dd>12m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pad-see-ew/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pad-see-ew/" aria-label="Quick view: Pad See Ew">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -362,7 +365,7 @@
         <div><dt>Cook</dt><dd>35m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/khao-soi/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/khao-soi/" aria-label="Quick view: Khao Soi">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -392,7 +395,7 @@
         <div><dt>Cook</dt><dd>20m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tom-kha-gai/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/tom-kha-gai/" aria-label="Quick view: Tom Kha Gai">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -422,7 +425,7 @@
         <div><dt>Cook</dt><dd>90m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/massaman-curry/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/massaman-curry/" aria-label="Quick view: Massaman Beef Curry">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -452,7 +455,7 @@
         <div><dt>Cook</dt><dd>5m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-iced-tea/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-iced-tea/" aria-label="Quick view: Thai Iced Tea">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -482,7 +485,7 @@
         <div><dt>Cook</dt><dd>12m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-fried-rice/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-fried-rice/" aria-label="Quick view: Thai Pineapple Fried Rice">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -512,7 +515,7 @@
         <div><dt>Cook</dt><dd>12m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/larb-gai/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/larb-gai/" aria-label="Quick view: Larb Gai">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -542,7 +545,7 @@
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/som-tam/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/som-tam/" aria-label="Quick view: Som Tam (Green Papaya Salad)">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -572,7 +575,7 @@
         <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/panang-curry/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/panang-curry/" aria-label="Quick view: Panang Curry">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -602,7 +605,7 @@
         <div><dt>Cook</dt><dd>30m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-yellow-curry/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-yellow-curry/" aria-label="Quick view: Thai Yellow Curry">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -632,7 +635,7 @@
         <div><dt>Cook</dt><dd>15m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/moo-ping/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/moo-ping/" aria-label="Quick view: Moo Ping">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -662,7 +665,7 @@
         <div><dt>Cook</dt><dd>12m</dd></div>
         <div><dt>Serves</dt><dd>3</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pad-woon-sen/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pad-woon-sen/" aria-label="Quick view: Pad Woon Sen">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -692,7 +695,7 @@
         <div><dt>Cook</dt><dd>12m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/crying-tiger/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/crying-tiger/" aria-label="Quick view: Crying Tiger Beef">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -722,7 +725,7 @@
         <div><dt>Cook</dt><dd>8m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/khai-jiao/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/khai-jiao/" aria-label="Quick view: Khai Jiao">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -752,7 +755,7 @@
         <div><dt>Cook</dt><dd>15m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pad-prik-king/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pad-prik-king/" aria-label="Quick view: Pad Prik King">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -782,7 +785,7 @@
         <div><dt>Cook</dt><dd>25m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/khanom-krok/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/khanom-krok/" aria-label="Quick view: Khanom Krok">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -812,7 +815,7 @@
         <div><dt>Cook</dt><dd>50m</dd></div>
         <div><dt>Serves</dt><dd>5</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/gai-yang/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/gai-yang/" aria-label="Quick view: Gai Yang">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -842,7 +845,7 @@
         <div><dt>Cook</dt><dd>10m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-beef-salad/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-beef-salad/" aria-label="Quick view: Thai Beef Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -872,7 +875,7 @@
         <div><dt>Cook</dt><dd>10m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-fish-cakes/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-fish-cakes/" aria-label="Quick view: Thai Fish Cakes">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -902,7 +905,7 @@
         <div><dt>Cook</dt><dd>15m</dd></div>
         <div><dt>Serves</dt><dd>12</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/sweet-chilli-sauce/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/sweet-chilli-sauce/" aria-label="Quick view: Sweet Chilli Sauce">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -932,7 +935,7 @@
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-cucumber-salad/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-cucumber-salad/" aria-label="Quick view: Thai Cucumber Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -962,7 +965,7 @@
         <div><dt>Cook</dt><dd>10m</dd></div>
         <div><dt>Serves</dt><dd>2</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/drunken-noodles/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/drunken-noodles/" aria-label="Quick view: Drunken Noodles">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -986,7 +989,7 @@
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>6</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/cabbage-salad-with-peanut-dressing/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/cabbage-salad-with-peanut-dressing/" aria-label="Quick view: Cabbage Salad with Peanut Dressing">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -1016,7 +1019,7 @@
         <div><dt>Cook</dt><dd>0m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/mango-salad/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/mango-salad/" aria-label="Quick view: Mango Salad">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -1040,7 +1043,7 @@
         <div><dt>Cook</dt><dd>8m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/thai-peanut-noodles/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/thai-peanut-noodles/" aria-label="Quick view: Thai Peanut Noodles">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -1064,7 +1067,7 @@
         <div><dt>Cook</dt><dd>10m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/pork-larb/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/pork-larb/" aria-label="Quick view: Pork Larb">Quick view</a>
     </div>
   </div>
   <div class="card-body">
@@ -1094,7 +1097,7 @@
         <div><dt>Cook</dt><dd>15m</dd></div>
         <div><dt>Serves</dt><dd>4</dd></div>
       </dl>
-      <a class="btn btn--light btn--sm" href="/recipes/tom-yum-soup/">Quick view</a>
+      <a class="btn btn--light btn--sm" href="/recipes/tom-yum-soup/" aria-label="Quick view: Tom Yum Soup">Quick view</a>
     </div>
   </div>
   <div class="card-body">
