@@ -223,6 +223,7 @@ ${page.keywords ? `<meta name="keywords" content="${esc(forMeta(page.keywords).j
 <link rel="alternate" hreflang="x-default" href="${esc(url)}">
 ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">'}
 <meta name="author" content="${esc(SITE.author)}">
+${ADS_CONFIG.adsenseAccount ? `<meta name="google-adsense-account" content="${esc(ADS_CONFIG.adsenseAccount)}">` : ''}
 <meta name="theme-color" content="#fbf7f0">
 <meta name="color-scheme" content="light dark">
 

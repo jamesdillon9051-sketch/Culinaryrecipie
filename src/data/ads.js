@@ -42,6 +42,15 @@ module.exports = {
   enabled: true,
 
   /**
+   * Google AdSense publisher ID, written into every page as
+   * <meta name="google-adsense-account"> so AdSense can verify ownership of
+   * the site. It is a public identifier, not a script: it loads nothing and
+   * sets no cookie, so it is emitted regardless of consent gating. Empty
+   * string removes the tag.
+   */
+  adsenseAccount: 'ca-pub-6702932117468670',
+
+  /**
    * Off.
    *
    * It was switched off while a second network ran a tag that also opened a
