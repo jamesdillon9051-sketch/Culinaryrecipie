@@ -55228,5 +55228,1397 @@
  "shirataki-noodle-bowls": {
   "hero": null,
   "process": null
+ },
+ "tomato-and-egg-soup": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCxJmIiAEqgXOQcZNFlKZJDbNloyDgnsaCPO0+GWTl+mfWnwIsVvJKo+fpn0rG3veRqtvM//9k=",
+   "color": "#a8957d",
+   "title": "Tomato and egg soup (image of tomato and egg soup on Wikidata Q7818554)",
+   "author": "NNU-10-HanRongrong",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tomato_and_egg_soup.jpg",
+   "source": "Wikimedia Commons",
+   "file": "tomato-and-egg-soup"
+  },
+  "process": null
+ },
+ "acquacotta": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB8MltFK81tPJKzjAQ8BatRaifNVbgbAeA47VSvv3dwhQAFuDxTG+d1VuhNc8m1KxvFLlP/2Q==",
+   "color": "#aa8f73",
+   "title": "Acquacotta (image of Acquacotta on Wikidata Q15630073)",
+   "author": "Fooding Around",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Acquacotta.jpg",
+   "source": "Wikimedia Commons",
+   "file": "acquacotta"
+  },
+  "process": null
+ },
+ "pastina-in-brodo": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAtbWOYM0zHdngUr2UfnKI8471rfZ42GduD7UCNF+6MVEKDvqaSqH//2Q==",
+   "color": "#aa9680",
+   "title": "Stelline in brodo",
+   "author": "judywitts",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stelline_in_brodo.jpg",
+   "source": "Wikimedia Commons",
+   "file": "pastina-in-brodo"
+  },
+  "process": null
+ },
+ "kulajda": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCJLaNVJI5P5mmNaRyr5YRQT0+tSRSFjtYAiqWrXclsuyHam4YJHWs7O5R//9k=",
+   "color": "#88816d",
+   "title": "Kulajda (1) (image of Kulajda on Wikidata Q9018082)",
+   "author": "Chmee2",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Kulajda_(1).jpg",
+   "source": "Wikimedia Commons",
+   "file": "kulajda"
+  },
+  "process": null
+ },
+ "lentil-and-carrot-soup": {
+  "hero": null,
+  "process": null
+ },
+ "red-lentil-and-tomato-soup": {
+  "hero": null,
+  "process": null
+ },
+ "roast-tomato-soup": {
+  "hero": null,
+  "process": null
+ },
+ "greek-lentil-soup": {
+  "hero": null,
+  "process": null
+ },
+ "moroccan-chickpea-soup": {
+  "hero": null,
+  "process": null
+ },
+ "zuppa-di-fagioli": {
+  "hero": null,
+  "process": null
+ },
+ "sausage-and-bean-stew": {
+  "hero": null,
+  "process": null
+ },
+ "czech-garlic-soup": {
+  "hero": null,
+  "process": null
+ },
+ "sayur-lodeh": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB8reQiExPJn07VLFcGEGSONvcHv9DSpKzExnGF6HvVO6mcPsB4rO1ldF6t2P/Z",
+   "color": "#9e9585",
+   "title": "Sayur lodeh (image of sayur lodeh on Wikidata Q4208242)",
+   "author": "Midori",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sayur_lodeh.JPG",
+   "source": "Wikimedia Commons",
+   "file": "sayur-lodeh"
+  },
+  "process": null
+ },
+ "tortang-talong": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCqsj3FzMspK7Gwq+lEsiwAushVh1XPDfhW29jBOd7KVfH3lODVU6XbLJ5rKzuOhc5qHB817lqceW1j/9k=",
+   "color": "#8d7765",
+   "title": "EGGPLANT TORTA (image of tortang talong on Wikidata Q60761158)",
+   "author": "whologwhy",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:EGGPLANT_TORTA.jpg",
+   "source": "Wikimedia Commons",
+   "file": "tortang-talong"
+  },
+  "process": null
+ },
+ "egg-fried-noodles": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCrZWAYZIxTryzWMYHPtWrYAFcYFF6q8/KPyrkbk3e50JK1j//Z",
+   "color": "#a2865d",
+   "title": "Fried Noodles with egg",
+   "author": "Graham Steel",
+   "licence": "Public Domain Mark 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "page": "https://www.flickr.com/photos/7914713@N05/43075665161",
+   "source": "Flickr",
+   "file": "egg-fried-noodles"
+  },
+  "process": null
+ },
+ "egg-pulao": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChY2qae8Es7ubl+Qi8BQfWpNXsVaIXSMSW+8pqxeAG+L4+YqvPpVjUUAsoUySD1J6ms29bG0e5/9k=",
+   "color": "#8d776c",
+   "title": "Egg pulao",
+   "author": "Soumyasmita Mallick",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Egg_pulao.jpg",
+   "source": "Wikimedia Commons",
+   "file": "egg-pulao"
+  },
+  "process": null
+ },
+ "gyeran-mari": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDorq6+zpuCFwOuKrrqJaRVEeQ3cVceJH+8P1poto15UEfjWbUr6MrQ/9k=",
+   "color": "#cdc6b2",
+   "title": "Gyeran-mari (image of gyeran-mari on Wikidata Q28823175)",
+   "author": "Hyeon-Jeong Suk",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gyeran-mari.jpg",
+   "source": "Wikimedia Commons",
+   "file": "gyeran-mari"
+  },
+  "process": null
+ },
+ "strapatsada": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAluOCife9algLzIN8ZUjv2rPVf35XJxmrFhcSPJMjNlUPFYatmzskf/9k=",
+   "color": "#9d866a",
+   "title": "Strapatsada (image of Strapatsada on Wikidata Q12884882)",
+   "author": "Saintfevrier",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Strapatsada.jpg",
+   "source": "Wikimedia Commons",
+   "file": "strapatsada"
+  },
+  "process": null
+ },
+ "chipsi-mayai": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCAB7TZbw/KoALEdzV27iW7sPmOVI4z1U1TtXM1hBJJy2CufXHSi9laHS3ZDgnjNYczVSxs0uRM/9k=",
+   "color": "#9d846c",
+   "title": "Chipsi mayai (zege) (image of chipsi mayai on Wikidata Q5101741)",
+   "author": "iamkevoo",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chipsi_mayai_(zege).jpg",
+   "source": "Wikimedia Commons",
+   "file": "chipsi-mayai"
+  },
+  "process": null
+ },
+ "ginisang-munggo": {
+  "hero": null,
+  "process": null
+ },
+ "egg-muffin-cups": {
+  "hero": null,
+  "process": null
+ },
+ "egg-adobo": {
+  "hero": null,
+  "process": null
+ },
+ "egg-tostadas": {
+  "hero": null,
+  "process": null
+ },
+ "kerala-egg-roast": {
+  "hero": null,
+  "process": null
+ },
+ "chinese-steamed-eggs": {
+  "hero": null,
+  "process": null
+ },
+ "thai-basil-fried-egg": {
+  "hero": null,
+  "process": null
+ },
+ "bread-omelette": {
+  "hero": null,
+  "process": null
+ },
+ "sweet-potato-curry": {
+  "hero": null,
+  "process": null
+ },
+ "breakfast-fried-rice": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCARJeXwWOVhleu3nA96bcw+VHJE5ZI2+8WbP0qpoU0kurorOcAHgfStS5gS5n2Sk7SexrlnzcyTOmNrNo//9k=",
+   "color": "#997651",
+   "title": "Yay. American-Fried Rice for Breakfast",
+   "author": "Dennis S. Hurd",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.flickr.com/photos/43296902@N00/46420786234",
+   "source": "Flickr",
+   "file": "breakfast-fried-rice"
+  },
+  "process": null
+ },
+ "sheera": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAfbplunlfMzZ3NipEzcxgXXMbKTuIwV461RjlcyBSxIx3ourmV8IW+X0rlUup1OOtj/9k=",
+   "color": "#a3846a",
+   "title": "Sheera",
+   "author": "rusvaplauke",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/7440954@N05/817527699",
+   "source": "Flickr",
+   "file": "sheera"
+  },
+  "process": null
+ },
+ "pumpkin-pancakes": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBsemxwvJGqI42jBb171XksbcxFllUuP4QOtVZtRuUBxJwexFZrzySH5mzXPGL3NZSWx//Z",
+   "color": "#8c7554",
+   "title": "Pumpkin Pancakes 2023-2",
+   "author": "Simply Social",
+   "licence": "Public Domain Mark 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "page": "https://www.flickr.com/photos/195345907@N04/53210633997",
+   "source": "Flickr",
+   "file": "pumpkin-pancakes"
+  },
+  "process": null
+ },
+ "aloo-methi": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBmoyLb3skMJKRoACueDmqUrPDGiud46jvWvrcKLKsgGGfhveubmlYLgfxOQT3xXPq5GvQ//9k=",
+   "color": "#867152",
+   "title": "Aloo methi?",
+   "author": "Charles Haynes",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "page": "https://www.flickr.com/photos/87232391@N00/1547100087",
+   "source": "Flickr",
+   "file": "aloo-methi"
+  },
+  "process": null
+ },
+ "masala-toast": {
+  "hero": null,
+  "process": null
+ },
+ "sweet-potato-hash": {
+  "hero": null,
+  "process": null
+ },
+ "griessbrei": {
+  "hero": null,
+  "process": null
+ },
+ "aloo-tikki": {
+  "hero": null,
+  "process": null
+ },
+ "dahi-aloo": {
+  "hero": null,
+  "process": null
+ },
+ "pongal": {
+  "hero": null,
+  "process": null
+ },
+ "gobi-matar": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBbQW0FpFIqCVnGSx6D2qV0WWNnwAOtcxHfT2paOMgpnO1hkVes7qadHkkfnpgcCsuWftL30NLx5dj/2Q==",
+   "color": "#988466",
+   "title": "Aloo Gobi Matar (49653225183)",
+   "author": "\u3084\u307e\u3057\u3053",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aloo_Gobi_Matar_(49653225183).jpg",
+   "source": "Wikimedia Commons",
+   "file": "gobi-matar"
+  },
+  "process": null
+ },
+ "lentil-fritters": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDNm1VplZIYVRR0UrmprFLTUQY2jEU4GRJHx+lVSiyRCbGxmHIXpU7H7Bb+fBjzMYye1Ym11Y//2Q==",
+   "color": "#7b604d",
+   "title": "Lentil fritters",
+   "author": "eatingeast",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/51811984@N02/4942827387",
+   "source": "Flickr",
+   "file": "lentil-fritters"
+  },
+  "process": null
+ },
+ "chickpea-tomato-stew": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB0eqCORhLGjN0RRzg1Vu7xJ2wwC4bqDjNdLFptncRiR7dAx5yoxWf/AGTaJLIxQvt6BjkVi6ep086auf/Z",
+   "color": "#ab7d68",
+   "title": "Roasted eggplant and tomato stew with chickpeas",
+   "author": "rusvaplauke",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/7440954@N05/2452525166",
+   "source": "Flickr",
+   "file": "chickpea-tomato-stew"
+  },
+  "process": null
+ },
+ "curd-rice": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDaxGAQ7qpbgAcVFeTpaLulbCn+LqakmUeZHkA7Txn6VTvF88yrJyFVcCoKuf/Z",
+   "color": "#c0b7af",
+   "title": "Curd Rice (image of Curd rice on Wikidata Q2634430)",
+   "author": "Sudharshan Shanmugasundaram",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Curd_Rice.jpg",
+   "source": "Wikimedia Commons",
+   "file": "curd-rice"
+  },
+  "process": null
+ },
+ "jeera-aloo": {
+  "hero": null,
+  "process": null
+ },
+ "tomato-rice": {
+  "hero": null,
+  "process": null
+ },
+ "besan-chilla": {
+  "hero": null,
+  "process": null
+ },
+ "cabbage-stir-fry-with-garlic": {
+  "hero": null,
+  "process": null
+ },
+ "bisi-bele-bath": {
+  "hero": null,
+  "process": null
+ },
+ "plantain-and-beans": {
+  "hero": null,
+  "process": null
+ },
+ "fried-yam": {
+  "hero": null,
+  "process": null
+ },
+ "kik-alicha": {
+  "hero": null,
+  "process": null
+ },
+ "carrot-fritters": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC39tSDO87XPKVPp15N5LSB95JPGeK56GRrsFJju2jIbvW1aRrBbqIxjPNZrRs2ep//2Q==",
+   "color": "#ae9487",
+   "title": "Carrot & Chickpea Fritters",
+   "author": "HarshLight",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/79172203@N00/39843246631",
+   "source": "Flickr",
+   "file": "carrot-fritters"
+  },
+  "process": null
+ },
+ "briam": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCje3MtxO6RSGOJTgAdTRZzypMsLkyK/AJ5INW9XhjhnEiKAzdai0zEmoDcB8o4rlUnY6XFH//Z",
+   "color": "#866649",
+   "title": "Briam (lead image of the el.wikipedia article on bri\u00e1m)",
+   "author": "Dianeira",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Briam.jpg",
+   "source": "Wikimedia Commons",
+   "file": "briam"
+  },
+  "process": null
+ },
+ "bok-choy-with-garlic": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBJT9iCwRRbSy5aXHJ+lRCFry0maROY+j+vtWrYot9aKLgBtvAPeqV6gs7TyochZDls965Opuf/2Q==",
+   "color": "#9f875e",
+   "title": "Bok Choy Delight",
+   "author": "cogdogblog",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.flickr.com/photos/37996646802@N01/2782704581",
+   "source": "Flickr",
+   "file": "bok-choy-with-garlic"
+  },
+  "process": null
+ },
+ "vetkoek": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCw9+7kbW2AdsZpTqL+X83OPTvWeQC5OBwenal2K4BKjPtWaUluy/da2P/Z",
+   "color": "#9b8e79",
+   "title": "Vetkoek with mince-001 (image of vetkoek on Wikidata Q282620)",
+   "author": "NJR ZA",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Vetkoek_with_mince-001.jpg",
+   "source": "Wikimedia Commons",
+   "file": "vetkoek"
+  },
+  "process": null
+ },
+ "cabbage-fritters": {
+  "hero": null,
+  "process": null
+ },
+ "carrot-salad-with-lemon": {
+  "hero": null,
+  "process": null
+ },
+ "roast-carrots-with-cumin": {
+  "hero": null,
+  "process": null
+ },
+ "roast-cabbage-wedges": {
+  "hero": null,
+  "process": null
+ },
+ "lentejas": {
+  "hero": null,
+  "process": null
+ },
+ "pisto": {
+  "hero": null,
+  "process": null
+ },
+ "arroz-doce": {
+  "hero": null,
+  "process": null
+ },
+ "mukimo": {
+  "hero": null,
+  "process": null
+ },
+ "moroccan-eggs": {
+  "hero": null,
+  "process": null
+ },
+ "egyptian-rice-with-vermicelli": {
+  "hero": null,
+  "process": null
+ },
+ "nokedli": {
+  "hero": null,
+  "process": null
+ },
+ "boerewors-roll": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC1M4t5EdBu/vEnoKXy7e6YyE5bHVT2qrfLuQnJB9qWzyIwdxPbmpu2ynHQ/9k=",
+   "color": "#9d9893",
+   "title": "Boerewors roll with fries - African Chow 2024-01-18",
+   "author": "Andy Li",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Boerewors_roll_with_fries_-_African_Chow_2024-01-18.jpg",
+   "source": "Wikimedia Commons",
+   "file": "boerewors-roll"
+  },
+  "process": null
+ },
+ "beef-and-pasta-skillet": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCzaR2tnBEBEjSsuS+M1GTb3d0qSwKxJxnFOjhVpNhzj61oRWsMHKJ8x6seTWHv730NvdWltT//2Q==",
+   "color": "#b2967a",
+   "title": "Skillet Pasta & Beef dump dinner",
+   "author": "Cook the Book",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Skillet_Pasta_%26_Beef_dump_dinner.jpg",
+   "source": "Wikimedia Commons",
+   "file": "beef-and-pasta-skillet"
+  },
+  "process": null
+ },
+ "peas-pulao": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCYsIUQRqCWGdxqMyCXKuFPGQwqOCQvCEcAqeee1NnkKRkIqqPYVnZ3uF1y7H//2Q==",
+   "color": "#96917a",
+   "title": "Mattar Pulao (Peas Pullao)",
+   "author": "Miansari66",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Mattar_Pulao_(Peas_Pullao).JPG",
+   "source": "Wikimedia Commons",
+   "file": "peas-pulao"
+  },
+  "process": null
+ },
+ "roast-cauliflower-with-garlic": {
+  "hero": null,
+  "process": null
+ },
+ "cauliflower-fritters": {
+  "hero": null,
+  "process": null
+ },
+ "potato-salad-with-mustard-dressing": {
+  "hero": null,
+  "process": null
+ },
+ "tortilla-pizza": {
+  "hero": null,
+  "process": null
+ },
+ "naan-pizza": {
+  "hero": null,
+  "process": null
+ },
+ "pizza-dough-without-yeast": {
+  "hero": null,
+  "process": null
+ },
+ "three-ingredient-peanut-butter-cookies": {
+  "hero": null,
+  "process": null
+ },
+ "eggplant-with-garlic-sauce": {
+  "hero": null,
+  "process": null
+ },
+ "roast-vegetables": {
+  "hero": null,
+  "process": null
+ },
+ "roast-beetroot": {
+  "hero": null,
+  "process": null
+ },
+ "taco-pasta": {
+  "hero": null,
+  "process": null
+ },
+ "tomato-salad": {
+  "hero": null,
+  "process": null
+ },
+ "onion-chutney": {
+  "hero": null,
+  "process": null
+ },
+ "pasta-with-tomato-and-basil": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoL27NvAHVS+fSobG8+1hgYmQD1GK5+z1S6Ee0uGX0YZFW0v55nKFgqgZwgxmpV273Lcbe6f/Z",
+   "color": "#c1b8ad",
+   "title": "food-pasta-tomato-theme-workspaces",
+   "author": "pixellaphoto",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.flickr.com/photos/137643065@N06/23958409929",
+   "source": "Flickr",
+   "file": "pasta-with-tomato-and-basil"
+  },
+  "process": null
+ },
+ "pasta-with-peas-and-bacon": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCOFTHEhXaxcdSKZcBuMnOOPlqK4uJLeZ4kb5F4AIqDznbjOB7Vw8p08x//2Q==",
+   "color": "#9d7843",
+   "title": "Pasta with Bacon and Peas",
+   "author": "thebittenword.com",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/22198928@N00/2341243755",
+   "source": "Flickr",
+   "file": "pasta-with-peas-and-bacon"
+  },
+  "process": null
+ },
+ "pasta-frittata": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCjHbRDjGT6mkuLdNuRgVWs7qSVTvwSO9V7u6lZ9hIC+1cvLLmNLo//2Q==",
+   "color": "#7c6d3c",
+   "title": "pasta frittata",
+   "author": "illustir",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/12505664@N00/1438267416",
+   "source": "Flickr",
+   "file": "pasta-frittata"
+  },
+  "process": null
+ },
+ "kopytka": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCW4ZYi5lHA4A/nUdnKsk0eFZVc7QMcYpdZxBtkUBmY4+bnApdIQS3Ku3UZ4HSsLPnNr+6f/9k=",
+   "color": "#a2886d",
+   "title": "Kopytka in tomato sauce (image of Kopytka on Wikidata Q1154225)",
+   "author": "MOs810",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kopytka_in_tomato_sauce.jpg",
+   "source": "Wikimedia Commons",
+   "file": "kopytka"
+  },
+  "process": null
+ },
+ "bramboracky": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB9lItvGGtlVCO3rVLUcAhyNs2chx1rOt72aFjtII9CM0+aaS4G+ViT/KsGmnuaqzR//9k=",
+   "color": "#8e795d",
+   "title": "Bramboracky",
+   "author": "Ludek (Czech Wikipedia)",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Bramboracky.jpg",
+   "source": "Wikimedia Commons",
+   "file": "bramboracky"
+  },
+  "process": null
+ },
+ "vinegret": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB19N9gijt7U7GIBdwOTn3plk0t80kVw29ApKseq1Y0xEvUaO4RX2LgNjnFLqAFhAILYBFcfMe5/Gp1OzTbqf/Z",
+   "color": "#b37c84",
+   "title": "Vinegret cleaned (image of Vinegret on Wikidata Q15220576)",
+   "author": "Loyna (original image) ; processed by Off-shell",
+   "licence": "CC BY-SA 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Vinegret_cleaned.jpg",
+   "source": "Wikimedia Commons",
+   "file": "vinegret"
+  },
+  "process": null
+ },
+ "fasole-batuta": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC3eXEVhF5MCLI2Bl2OTVLT9RlupHt3GQeveqcR81xDJ8ylQc9/zqa1Aim2RDZnqR1NRqndl6W0P//Z",
+   "color": "#938476",
+   "title": "Fasole batuta",
+   "author": "Toniher",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fasole_batuta.jpg",
+   "source": "Wikimedia Commons",
+   "file": "fasole-batuta"
+  },
+  "process": null
+ },
+ "shopska-salad": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBulQwzXjLNgiPovcU3V0is9QjktiRnAIHSsx3ZUinVisjj5iO9S2Ltd3SecxbHIqZLUtP3T//Z",
+   "color": "#8a7a74",
+   "title": "Chopska (image of Shopska salad on Wikidata Q570038)",
+   "author": "Popo le Chien",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Chopska.jpg",
+   "source": "Wikimedia Commons",
+   "file": "shopska-salad"
+  },
+  "process": null
+ },
+ "applesauce": {
+  "hero": null,
+  "process": null
+ },
+ "frozen-banana-pops": {
+  "hero": null,
+  "process": null
+ },
+ "vanilla-mug-cake": {
+  "hero": null,
+  "process": null
+ },
+ "iranian-eggs-and-tomatoes": {
+  "hero": null,
+  "process": null
+ },
+ "barszcz": {
+  "hero": null,
+  "process": null
+ },
+ "draniki": {
+  "hero": null,
+  "process": null
+ },
+ "mince-and-potatoes": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5PqENuxjjiD7R1J/lVa21JZZsPHjPAYdVqDVIUjuZAowMnHtUVlAkpcsOV6YNZ3lzbjSi1c//2Q==",
+   "color": "#8d8b7b",
+   "title": "Kheema (spicy mince)",
+   "author": "rovingI",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/70522326@N00/1949040625",
+   "source": "Flickr",
+   "file": "mince-and-potatoes"
+  },
+  "process": null
+ },
+ "homemade-burger-patties": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCOS6VbTZAEOeyjrVV2R4yTtjK9QetZkF1LA52EcccjNbGmt5kEkjgM5PJIpSkzSKTP/9k=",
+   "color": "#7e6e6f",
+   "title": "Free burger patty grill image",
+   "author": "Unknown",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.rawpixel.com/image/5905938/photo-image-background-public-domain-food",
+   "source": "Rawpixel",
+   "file": "homemade-burger-patties"
+  },
+  "process": null
+ },
+ "fairy-cakes": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/Cbe3jLjaF/2hzTbqS2nwqgbj0IFTC1hZwzIGJPemS2sMcjOqcqMj0FRZ9y+Y/9k=",
+   "color": "#b3a394",
+   "title": "Chocolate chip fairy cakes (13972224702)",
+   "author": "James Petts from London, England",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chocolate_chip_fairy_cakes_(13972224702).jpg",
+   "source": "Wikimedia Commons",
+   "file": "fairy-cakes"
+  },
+  "process": null
+ },
+ "tarator": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA06yllj8wuqhhwMZqzmdZjFJIqKoByo6is7T76aNWiBBVOmRWjATNbSTScu3H0FYPQvV7n/9k=",
+   "color": "#a0987d",
+   "title": "TaratorBg (image of tarator on Wikidata Q57332578)",
+   "author": "Ikonact",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:TaratorBg.jpg",
+   "source": "Wikimedia Commons",
+   "file": "tarator"
+  },
+  "process": null
+ },
+ "pasulj": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCS4cQ2yJGfkXgnHan6fcCSXZGTjHPFPULIlqkihxISWzVyOOO2MiwxqoAzWag+a9y+Zctj/9k=",
+   "color": "#a7967f",
+   "title": "Pasulj (10291319804) (image of Pasulj on Wikidata Q2056389)",
+   "author": "Ivana Sokolovi\u0107",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pasulj_(10291319804).jpg",
+   "source": "Wikimedia Commons",
+   "file": "pasulj"
+  },
+  "process": null
+ },
+ "bangladeshi-khichuri": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCee4jMu3GXzj2qvJGLr7/DAdzxT54Elu4t2RkZODjmmStiQRgAAjkjrWDUnJammiR//9k=",
+   "color": "#9c8d6a",
+   "title": "Khichuri & Dimer jhol from Bangladesh",
+   "author": "Sm faysal",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Khichuri_%26_Dimer_jhol_from_Bangladesh.jpg",
+   "source": "Wikimedia Commons",
+   "file": "bangladeshi-khichuri"
+  },
+  "process": null
+ },
+ "bengali-aloo-posto": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCTR7ULZhP4T1FV9U05NhUdGzx6Gk0u4k8iI7vvLzTNYkbyXfPKpx+NcK5/a7nQ7ch//9k=",
+   "color": "#ab8d50",
+   "title": "Aloo Posto",
+   "author": "SDBeast",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aloo_Posto.jpg",
+   "source": "Wikimedia Commons",
+   "file": "bengali-aloo-posto"
+  },
+  "process": null
+ },
+ "canned-salmon-cakes": {
+  "hero": null,
+  "process": null
+ },
+ "chicken-tray-bake": {
+  "hero": null,
+  "process": null
+ },
+ "chewy-oat-granola-bars": {
+  "hero": null,
+  "process": null
+ },
+ "pizza-muffins": {
+  "hero": null,
+  "process": null
+ },
+ "kuru-fasulye": {
+  "hero": null,
+  "process": null
+ },
+ "mucver": {
+  "hero": null,
+  "process": null
+ },
+ "red-lentil-kofte": {
+  "hero": null,
+  "process": null
+ },
+ "vegetable-fritters": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgADAAQAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8Acsn2SKMH5ixJ4HSprWdZGMUe7cec1HFJ9qQNKiZA7DFVvMP2jYoCADqvBNcrcou9zoSTVj//2Q==",
+   "color": "#ab8c6a",
+   "title": "A serving of three golden-brown, crispy fried vegetable fritters -Pakoda, is presented on a white rectangular plate with a small bowl of red dipping sauce in the background.",
+   "author": "Alina Kakshapati",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://wordpress.org/photos/photo/81868cbaa0/",
+   "source": "Wordpress",
+   "file": "vegetable-fritters"
+  },
+  "process": null
+ },
+ "gigantes-plaki": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDU1G+ltZMQ4G8ZJNR2V+l0jxyg7x1wOgqC7lLymKRVdM5AYdKbDhchFVB/sjrUcsubfQu8eXbU/9k=",
+   "color": "#b6a18f",
+   "title": "Gigandes plaki",
+   "author": "Hevesli",
+   "licence": "Public domain",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Gigandes_plaki.jpg",
+   "source": "Wikimedia Commons",
+   "file": "gigantes-plaki"
+  },
+  "process": null
+ },
+ "tomato-sauce": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDm7fyVwXwwPBB4xVjyIJGwjAZqrGodlBzyK09Pt4wVk25b3rOV90zWLjazR//Z",
+   "color": "#5f4238",
+   "title": "Fresh Tomato Sauce (Unsplash) (image of tomato sauce on Wikidata Q3596097)",
+   "author": "Dennis Klein klein2",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Fresh_Tomato_Sauce_(Unsplash).jpg",
+   "source": "Wikimedia Commons",
+   "file": "tomato-sauce"
+  },
+  "process": null
+ },
+ "spanakorizo": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDV1y6Z7cLCwC/rWDbatcW7gbunSo9QldWOGPIp+i28dxcM0oLbBkA9M1KvcD//2Q==",
+   "color": "#86867b",
+   "title": "Spanakorizo (image of Spanakorizo on Wikidata Q7573059)",
+   "author": "KaterinaStrak",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Spanakorizo.jpg",
+   "source": "Wikimedia Commons",
+   "file": "spanakorizo"
+  },
+  "process": null
+ },
+ "fasolakia": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCo95OJCoYjacYxioxcNK4SQFxnoe9bNzYQSSrJtKswydpxU9rp9vEplC7mHTdzXLzPmt1Oiy5bn//Z",
+   "color": "#8f7050",
+   "title": "FasolakiaPrasinaLadera (image of fasolakia on Wikidata Q12885736)",
+   "author": "Robert Kindermann aka RobertK",
+   "licence": "CC BY-SA 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:FasolakiaPrasinaLadera.jpg",
+   "source": "Wikimedia Commons",
+   "file": "fasolakia"
+  },
+  "process": null
+ },
+ "spinach-pinwheels": {
+  "hero": null,
+  "process": null
+ },
+ "sri-lankan-pol-roti": {
+  "hero": null,
+  "process": null
+ },
+ "sri-lankan-egg-curry": {
+  "hero": null,
+  "process": null
+ },
+ "lentil-sloppy-joes": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCSCV1LrboePmLH3qBzb7dkyKWJ5I4NWpoVt4B5RYbiAee1Sw2MLthtxGM8mvPvLR3O18ut0f/Z",
+   "color": "#b8814f",
+   "title": "red lentil sloppy joes",
+   "author": "watashiwani",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/11316976@N00/5401549212",
+   "source": "Flickr",
+   "file": "lentil-sloppy-joes"
+  },
+  "process": null
+ },
+ "pasta-e-lenticchie": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDR1aSGfykWUw7WDZ9ameUvESkCSAjhs8fjWSV8+QLKSwAq/ajy7dSvHes4ybZTVkf/2Q==",
+   "color": "#b1a99b",
+   "title": "Zuppa di Lenticchie con Trofie",
+   "author": "paPisc",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "page": "https://www.flickr.com/photos/20912428@N04/2383677740",
+   "source": "Flickr",
+   "file": "pasta-e-lenticchie"
+  },
+  "process": null
+ },
+ "pasta-e-piselli": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDPjncAEHkcZNX1kAYLC2RnBz/Oq9xCkV1sQfKWPB+lFsgZGY9Sa45xtKx0Rfu3P//Z",
+   "color": "#8f7246",
+   "title": "Pasta e piselli",
+   "author": "Lapatia",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/51590881@N06/4743486658",
+   "source": "Flickr",
+   "file": "pasta-e-piselli"
+  },
+  "process": null
+ },
+ "pasta-with-cauliflower": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5qGpSzFEOAT1UdveqJuCIRNayET9GQ9veqbZa7DknO7160SSNHdSRocKSM471hdlOOvkf/9k=",
+   "color": "#8a8b6d",
+   "title": "Grilled Broccoli & Cauliflower Pasta (3824371009)",
+   "author": "Mack Male from Edmonton, AB, Canada",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Grilled_Broccoli_%26_Cauliflower_Pasta_(3824371009).jpg",
+   "source": "Wikimedia Commons",
+   "file": "pasta-with-cauliflower"
+  },
+  "process": null
+ },
+ "pasta-with-chickpeas": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAUDg8SDw0UEhASFxUUGB4yIR4cHB49LC4kMklATEtHQEZFUFpzYlBVbVZFRmSIZW13e4GCgU5gjZeMfZZzfoF8/9sAQwEVFxceGh47ISE7fFNGU3x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8/8AAEQgADAAQAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AkhupYoI4fMD9fmBxxVi1uHJYO+4DoTVBwNpI4INEEhAZhjIrJRfNzX0L0tY//9k=",
+   "color": "#9f9274",
+   "title": "A stainless steel bowl of vibrant yellow pasta with carrots and chickpeas, placed on a textured surface.",
+   "author": "appealdahal",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://wordpress.org/photos/photo/5396a1d5bc/",
+   "source": "Wordpress",
+   "file": "pasta-with-chickpeas"
+  },
+  "process": null
+ },
+ "ricotta-gnocchi": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDenlihGZXxTSUkiDrhlPSsnV5X+UZ4PJq9bcQIB02CsI1W2VbWx//Z",
+   "color": "#bfbda8",
+   "title": "Ricotta gnocchi with pancetta, peas, and lemon",
+   "author": "terri_bateman",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.flickr.com/photos/134468672@N06/34001475788",
+   "source": "Flickr",
+   "file": "ricotta-gnocchi"
+  },
+  "process": null
+ },
+ "fettunta": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC6ZvIm8qHaFXrnvUytFfRsJYlKg4z71YWGNgSVHPWneWkcJCKABWPLLm30NeZW0R//2Q==",
+   "color": "#c3ac8e",
+   "title": "Fettunta with new olive oil extra virgin.",
+   "author": "letorrivacation",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/32866916@N04/5216927761",
+   "source": "Flickr",
+   "file": "fettunta"
+  },
+  "process": null
+ },
+ "oeufs-en-cocotte": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDMSKVZdsiM/qB3+laCwbNytGQhGRuHNX4HLRqSASPaor+Q8cAVm6fVF+0kz//Z",
+   "color": "#90816f",
+   "title": "Oeufs cocotte provencale (image of shirred eggs on Wikidata Q2615138)",
+   "author": "Charlie1",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Oeufs_cocotte_provencale.jpg",
+   "source": "Wikimedia Commons",
+   "file": "oeufs-en-cocotte"
+  },
+  "process": null
+ },
+ "bratkartoffeln": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCRViuEG8KyJwEHAHv9aq31kkMIaIbfUH3rGW9maTlh1z061Ol5PIoV5Cyg9DWNn1Nk10P/2Q==",
+   "color": "#937c65",
+   "title": "Unterstmatt-14-Grosse Tanne-Spiegeleier-Bratkartoffeln-2024-gje",
+   "author": "Gerd Eichmann",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Unterstmatt-14-Grosse_Tanne-Spiegeleier-Bratkartoffeln-2024-gje.jpg",
+   "source": "Wikimedia Commons",
+   "file": "bratkartoffeln"
+  },
+  "process": null
+ },
+ "nepali-aloo-tama": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwASTYh2k7vaqcyTSODtC4Oc7uan9R6DNIBuQk1xczR0ctz/2Q==",
+   "color": "#977c52",
+   "title": "Aloo Bodi Tama",
+   "author": "Gaurav Dhwaj Khadka",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aloo_Bodi_Tama.jpg",
+   "source": "Wikimedia Commons",
+   "file": "nepali-aloo-tama"
+  },
+  "process": null
+ },
+ "spaghetti-with-breadcrumbs": {
+  "hero": null,
+  "process": null
+ },
+ "pasta-al-limone": {
+  "hero": null,
+  "process": null
+ },
+ "pasta-burro-e-salvia": {
+  "hero": null,
+  "process": null
+ },
+ "pasta-with-sausage-and-peppers": {
+  "hero": null,
+  "process": null
+ },
+ "pasta-with-cabbage": {
+  "hero": null,
+  "process": null
+ },
+ "fried-polenta": {
+  "hero": null,
+  "process": null
+ },
+ "pommes-persillade": {
+  "hero": null,
+  "process": null
+ },
+ "kaesespaetzle": {
+  "hero": null,
+  "process": null
+ },
+ "hungarian-potato-paprikash": {
+  "hero": null,
+  "process": null
+ },
+ "afghan-dal": {
+  "hero": null,
+  "process": null
+ },
+ "ants-on-a-log": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCO4uY7dzE7HzFzkDkUlrJHdyLHHIFZj0biukm0m0eRnaM7m6nNFvo9nHIJFjO4eprk9gjp+su3LbQ//9k=",
+   "color": "#af8154",
+   "title": "Ants on a Log (image of ants on a log on Wikidata Q4777388)",
+   "author": "cdantonio",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ants_on_a_Log.jpg",
+   "source": "Wikimedia Commons",
+   "file": "ants-on-a-log"
+  },
+  "process": null
+ },
+ "applesauce-cake": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCfXLqdLoIGIixnANS6HczSTOhJaIDPPY1dv7GG5YGQHI7g4p1haRWynywcnqSaxSfNc1uuWx//2Q==",
+   "color": "#af9880",
+   "title": "2026-08-02 19 22 06 An apple sauce muffin in the Mountainview section of Ewing Township, Mercer County, New Jersey",
+   "author": "Famartin",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2026-08-02_19_22_06_An_apple_sauce_muffin_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+   "source": "Wikimedia Commons",
+   "file": "applesauce-cake"
+  },
+  "process": null
+ },
+ "depression-cake": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDGvIbi1by5Mo49RSWkvmSCKc8H+IDpXQ+IrSNLeH7zMzHLscms+eyhtrXzIwd7WwYknuSAaz5UbXvsf//Z",
+   "color": "#72564c",
+   "title": "Depression Cake (image of depression cake on Wikidata Q5260907)",
+   "author": "Lee Khatchadourian-Reese",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Depression_Cake.JPG",
+   "source": "Wikimedia Commons",
+   "file": "depression-cake"
+  },
+  "process": null
+ },
+ "dump-cake": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDXh1SG5GFG0A4APFRtLE98qG54JwY8A4rnrYbpwxJLE4Jz1rcstItJN0roxb/eNY2bZ0Sgkrn/2Q==",
+   "color": "#b79c88",
+   "title": "Blackberry dump cake with whipped cream",
+   "author": "jeffreyw",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Blackberry_dump_cake_with_whipped_cream.jpg",
+   "source": "Wikimedia Commons",
+   "file": "dump-cake"
+  },
+  "process": null
+ },
+ "fruit-cobbler": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCSFXljK7iqN95Bxk+9Ry2rRsojYODxtJ5OfeprgmMeahw2efemREsrOT824Ln0BrltLn3N01Y//9k=",
+   "color": "#ab8f61",
+   "title": "Apple cobbler",
+   "author": "No machine-readable author provided. Infratec~commonswiki assumed",
+   "licence": "Public domain",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Apple_cobbler.jpg",
+   "source": "Wikimedia Commons",
+   "file": "fruit-cobbler"
+  },
+  "process": null
+ },
+ "sichuan-cucumber-salad": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCtbM0mWiURovTNXjqT2yoX2sjfxIKrzMYywQABuoqKONN24qCfftXIpNO/Q6uWT0P/2Q==",
+   "color": "#9d7e58",
+   "title": "Sichuan cucumber salad",
+   "author": "WordRidden",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://www.flickr.com/photos/97844767@N00/8492780011",
+   "source": "Flickr",
+   "file": "sichuan-cucumber-salad"
+  },
+  "process": null
+ },
+ "gamja-jorim": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA2x6XAq4EsgbLkrzUE1yJn81nDAnADDinXEYCy5ZmOSMk1Vm/c2kZU7jnI3c4+lc7Ur7nRFxsf/9k=",
+   "color": "#9a7759",
+   "title": "Gamja jorim Korean",
+   "author": "P1898",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gamja_jorim_Korean.jpg",
+   "source": "Wikimedia Commons",
+   "file": "gamja-jorim"
+  },
+  "process": null
+ },
+ "pasta-ai-broccoli": {
+  "hero": {
+   "w": 800,
+   "h": 600,
+   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCvMEtwYraMKBwSRnP51Xiskv4nWRBHMBkOBj86u2Z+12ytMoJI7UXrfYrOWSAYb1PNTrcu6sf/2Q==",
+   "color": "#86746f",
+   "title": "Barb's pasta with pancetta and broccoli - 07/11/2006",
+   "author": "roland",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://www.flickr.com/photos/35034347371@N01/292017375",
+   "source": "Flickr",
+   "file": "pasta-ai-broccoli"
+  },
+  "process": null
+ },
+ "australian-cheese-and-vegemite-scrolls": {
+  "hero": null,
+  "process": null
+ },
+ "new-zealand-mince-and-cheese-pie": {
+  "hero": null,
+  "process": null
+ },
+ "new-zealand-anzac-biscuits": {
+  "hero": null,
+  "process": null
+ },
+ "new-zealand-corn-fritters": {
+  "hero": null,
+  "process": null
+ },
+ "new-zealand-boil-up": {
+  "hero": null,
+  "process": null
+ },
+ "new-zealand-kiwi-burger": {
+  "hero": null,
+  "process": null
+ },
+ "sloppy-joe-casserole": {
+  "hero": null,
+  "process": null
+ },
+ "meatloaf-muffins": {
+  "hero": null,
+  "process": null
+ },
+ "johnny-cakes": {
+  "hero": null,
+  "process": null
+ },
+ "hand-pies": {
+  "hero": null,
+  "process": null
+ },
+ "hot-and-sour-potato-strips": {
+  "hero": null,
+  "process": null
  }
 }
