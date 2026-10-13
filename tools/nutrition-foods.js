@@ -589,7 +589,10 @@ const EXT4_FOODS = {
   agar_powder: [6, 81, 0.3, 7, 0, 100],
   broad_beans: [7.6, 11, 0.6, 5.4, 1.8, 20],
   papaya_raw: [0.5, 11, 0.3, 1.7, 1, 8],
-  jackfruit_young: [1.7, 4, 0.3, 2, 1, 200]
+  jackfruit_young: [1.7, 4, 0.3, 2, 1, 200],
+  ajvar: [1.5, 8, 6, 2, 5, 400],
+  matzo_meal: [12, 76, 1.5, 3, 2, 5],
+  oxtail: [19, 0, 13, 0, 0, 70]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -613,18 +616,31 @@ const EXT4_ALIAS = {
   boondi: ['plain boondi', 'boondi'],
   agar_powder: ['agar-agar powder', 'agar agar powder', 'agar-agar'],
   mung_beans_dry: ['whole green moong beans', 'green moong beans', 'green moong'],
-  spice: ['baharat', 'dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water', 'pandan leaf'],
+  spice: ['baharat', 'dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water', 'pandan leaf', 'mitmita', 'anise extract', 'ground aniseed', 'aniseed'],
   broad_beans: ['frozen broad beans', 'broad beans'],
   papaya_raw: ['raw papaya paste', 'raw papaya'],
   beef_mince_90: ['minced beef'],
   egg: ['egg yolk', 'salted egg yolks'],
   flatbread: ['lavash', 'lavash or large flour tortilla'],
   jackfruit_young: ['young green jackfruit in brine, drained and rinsed', 'young green jackfruit', 'young jackfruit'],
-  beef_flank: ['beef topside or flank', 'beef topside'],
-  pak_choi: ['choy sum']
+  beef_flank: ['beef topside or flank', 'beef topside', 'veal or beef topside'],
+  pak_choi: ['choy sum'],
+  ajvar: ['ajvar'],
+  pasta_dry: ['fine soup noodles', 'soup noodles'],
+  pork_ribs: ['pork hock or ribs', 'pork hock'],
+  matzo_meal: ['matzo meal'],
+  smoked_haddock: ['smoked fish', 'smoked fish, flaked'],
+  cornmeal: ['white maize meal', 'maize meal'],
+  beef_chuck: ['beef flanken or brisket', 'beef flanken', 'beef brisket'],
+  vodka: ['dark rum', 'rum', 'white rum'],
+  candied_peel: ['mixed candied fruit', 'candied fruit'],
+  mayonnaise: ['alioli', 'aioli'],
+  tuna_tin_oil: ['tinned tuna in olive oil', 'tuna in olive oil'],
+  oxtail: ['oxtail']
 };
 const EXT4_PORTION = {
-  papaya_raw: {'tbsp': 15}
+  papaya_raw: {'tbsp': 15},
+  matzo_meal: {'tbsp': 7}
 };
 Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);
