@@ -670,7 +670,7 @@ module.exports = {
 
   'moong-dal-kachori': {
     d: 'Crisp, flaky pastry rounds stuffed with spiced ground moong dal and cooked in hot oil until puffed and golden.',
-    meta: 'Moong dal kachori: flaky pastry rounds stuffed with spiced ground moong dal, cooked in hot oil. Makes eight, cooked in about 30 minutes.',
+    meta: 'Moong dal kachori: flaky pastry rounds stuffed with spiced ground moong dal, cooked in hot oil. Makes eight, cooked for about 30 minutes.',
     kw: ['moong dal kachori', 'moong dal kachori recipe', 'khasta kachori', 'rajasthani moong dal kachori', 'stuffed kachori with lentils'],
     why: 'A recipe for a weekend, not a Wednesday: the dal needs soaking, the filling needs cooking, and the dough needs a rest. Do those in order and the rest goes quickly, and the reward is a kachori with a crust that shatters.\n\nThe pastry gets its flake from fat rubbed into the flour. Use plenty, about a quarter of the weight of the flour, and rub until the mixture feels like damp sand. Add water slowly to make a firm dough, not a soft one. **A stiff dough puffs and stays crisp.** Soft dough gives a heavy kachori.\n\nFor the filling, soaked moong dal is ground coarsely and cooked in oil with fennel, cumin, ginger and chilli until dry. Cool it fully before using. A warm filling softens the pastry from the inside.\n\nShape the dough into discs, add a spoonful of filling, pinch the edges closed and press flat. Fry in oil at 150°C over a low heat, not higher. The pastry must cook slowly for 12 minutes, turning, until pale gold and crisp.',
     ing: [
@@ -752,7 +752,7 @@ module.exports = {
 
   'methi-thepla': {
     d: 'Soft Gujarati flatbreads of whole wheat flour, fresh fenugreek leaves, yoghurt, sesame and spices, cooked on a griddle.',
-    meta: 'Methi thepla: soft Gujarati flatbreads with fresh fenugreek leaves, yoghurt, sesame and spices. Makes eight, cooked in 20 minutes.',
+    meta: 'Methi thepla: soft Gujarati flatbreads with fresh fenugreek leaves, yoghurt, sesame and spices. Makes eight, cooked for 20 minutes.',
     kw: ['methi thepla', 'methi thepla recipe', 'gujarati thepla', 'fenugreek flatbread', 'thepla for breakfast'],
     why: 'Autumn is when fresh methi is at its best, and a bunch of it, chopped and kneaded into a dough, is the starting point for a flatbread that tastes of the season. Thepla is a Gujarati travel food that keeps well for days, which is why it is packed for journeys.\n\nThe dough is whole wheat flour, chopped fenugreek leaves, yoghurt, sesame seeds, turmeric, chilli powder and a spoonful of oil. The yoghurt makes the dough soft and the thepla stay soft after cooking. The fenugreek leaves bring a bitter, grassy flavour that is unlike anything else.\n\n**Knead with just enough water to make a smooth, firm dough.** A dough that is too soft sticks to the rolling pin. Rest it for 20 minutes, then roll each ball out thin. Cook on a hot griddle with a little oil, 1 minute on each side, until brown spots appear. They puff in places.\n\nBitterness softens with salt: if the leaves taste strong, sprinkle them with salt for 10 minutes and squeeze before kneading.',
     ing: [
@@ -943,7 +943,7 @@ module.exports = {
 
   'kerala-parotta': {
     d: 'Flaky, layered flatbreads of plain flour dough rolled thin, coiled and flattened, then cooked on a hot griddle with oil.',
-    meta: 'Kerala parotta: flaky layered flatbreads of plain flour dough, coiled and cooked on a hot griddle. Makes six, cooked in 20 minutes.',
+    meta: 'Kerala parotta: flaky layered flatbreads of plain flour dough, coiled and cooked on a hot griddle. Makes six, cooked for 20 minutes.',
     kw: ['kerala parotta', 'kerala parotta recipe', 'malabar parotta', 'layered flaky parotta', 'parotta with plain flour'],
     why: 'Rest the dough for two hours. Every other step of a parotta is manual skill, but this one is waiting, and it is the one that makes the layers separate.\n\nThe dough is plain flour, an egg, milk, sugar, salt, oil and water. It should be soft, a little sticky and quite oily. Knead for 10 minutes until smooth, then coat the dough balls in oil and leave them covered for 2 hours so the gluten relaxes. Stretchy, relaxed dough rolls paper thin without tearing.\n\n**Roll each ball as thin as you can, then pleat it like a fan.** The folds make the layers. Pleat the sheet into a long rope, coil it into a snail, and leave the coils to rest for 10 minutes.\n\nFlatten each coil gently with the heel of your hand and roll to a 15 cm disc. Cook on a hot griddle for 2 minutes a side with a little oil, then clap the cooked parotta between your palms to separate the layers. The sound is part of the technique.',
     ing: [

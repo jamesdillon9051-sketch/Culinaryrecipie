@@ -16,7 +16,7 @@
 module.exports = {
   'instant-pot-chicken-congee': {
     d: 'Rice cooked to a thick, creamy porridge with chicken thighs, ginger and spring onion in a pressure cooker, finished with soy sauce and sesame oil.',
-    meta: 'Instant Pot chicken congee: rice cooked to a thick porridge with chicken thighs, ginger and spring onion. Four servings, cooked in 35 minutes.',
+    meta: 'Instant Pot chicken congee: rice cooked to a thick porridge with chicken thighs, ginger and spring onion. Four servings, cooked for 35 minutes.',
     kw: ['instant pot chicken congee', 'chicken congee in the instant pot', 'chinese rice porridge with chicken', 'instant pot jook', 'instant pot congee recipe'],
     why: 'Congee is the comfort food of half of Asia, and the pressure cooker turns a two-hour simmer into a 20-minute job. The rice breaks down completely under pressure, giving a smooth, creamy porridge without the stirring a pan demands. A bowl is breakfast, a cure for a cold, or a plain supper.\n\nThe ratio is the point. One part rice to about eight parts water gives a thick, spoonable congee; less water makes a stodgy porridge, more makes a thin soup. Rinse the rice first and, for a silkier texture, rub it with a teaspoon of oil and a pinch of salt before it goes in. **Add the water first and the rice on top, and do not stir.** Rice at the base can trigger the burn warning.\n\nChicken thighs cook in the same pot, on the bone, with sliced ginger. After 20 minutes, lift them out, shred the meat and return it to the pot. The congee will have thickened further as it rests.\n\nSeason at the end with soy sauce and white pepper, and add toppings: spring onion, fried shallots, a drizzle of sesame oil, a soft egg or crisp youtiao. Every bowl is slightly different.',
     ing: [
@@ -191,7 +191,7 @@ module.exports = {
 
   'roti-john': {
     d: 'A baguette split lengthways and cooked on a hot griddle with a layer of spiced egg, onion and minced meat, served with chilli and mayonnaise.',
-    meta: 'Roti john: a split baguette griddled with a layer of spiced egg, onion and minced meat, with chilli and mayonnaise. Two servings, cooked in 10 minutes.',
+    meta: 'Roti john: a split baguette griddled with a layer of spiced egg, onion and minced meat, with chilli and mayonnaise. Two servings, cooked for 10 minutes.',
     kw: ['roti john', 'roti john recipe', 'malaysian roti john', 'singapore roti john', 'egg and minced meat baguette sandwich'],
     why: 'A hawker favourite and a sandwich with a name that nobody can fully explain, roti john is bread cooked in the egg that goes inside it. A baguette is split lengthways, the cut sides pressed into a pan of beaten egg, minced meat and onion, and cooked until the egg sets into a golden layer on the bread.\n\nThe filling is simple: minced beef or lamb, chopped onion, a pinch of curry powder, salt and pepper, mixed into two beaten eggs. The mixture should be loose enough to pour. **Pour it into the pan before the bread goes in.** Spread it thin so it sets in 2 minutes and sticks firmly to the crumb.\n\nUse a long, soft baguette, cut into two 20 cm pieces and each split along one side. Lay the bread cut-side down in the egg, press it with a spatula, and cook for 3 minutes until the egg is set and the bread is toasted.\n\nFlip, so the egg side faces up, and drizzle with chilli sauce and mayonnaise. Cut into pieces and eat hot. Sliced cucumber and onion are the traditional sides.',
     ing: [
@@ -225,7 +225,7 @@ module.exports = {
 
   'murtabak': {
     d: 'A thin, folded flatbread stuffed with spiced minced lamb, egg and onion and cooked on a griddle until crisp.',
-    meta: 'Murtabak: a thin, folded flatbread stuffed with spiced minced lamb, egg and onion, cooked on a griddle. Four servings, cooked in 15 minutes.',
+    meta: 'Murtabak: a thin, folded flatbread stuffed with spiced minced lamb, egg and onion, cooked on a griddle. Four servings, cooked for 15 minutes.',
     kw: ['murtabak', 'murtabak recipe', 'malaysian murtabak', 'stuffed flatbread with minced lamb', 'martabak telur'],
     why: 'The dough is the stage that decides everything. A murtabak wrapper has to be stretched so thin that you can see the pattern of your table through it, and it can only be stretched if it has rested for long enough in oil. Flour, water, salt and a little oil are kneaded smooth, divided into balls, coated with oil and rested for an hour. **Do not skip the oil.** It prevents drying and makes the dough supple enough to stretch.\n\nThe filling is cooked first: minced lamb with onion, ginger, garlic, curry powder, turmeric, salt and a handful of coriander, cooked until dry. Mix in beaten eggs and a chopped spring onion. It should be thick enough to sit on the dough and not run off.\n\nOil the work surface and stretch one ball by hand into a square as thin as you can, about 30 cm across. Pour a quarter of the filling in the centre and fold the four sides over like an envelope. Slide onto a hot, oiled griddle.\n\nCook for 3 minutes on each side, pressing lightly, until crisp and golden. Cut into squares and serve with a curry sauce or pickled onions.',
     ing: [
@@ -501,7 +501,7 @@ module.exports = {
 
   'indonesian-klepon': {
     d: 'Small green glutinous rice dumplings filled with melted palm sugar, boiled and rolled in fresh grated coconut.',
-    meta: 'Indonesian klepon: small green glutinous rice dumplings filled with melted palm sugar, boiled and rolled in fresh coconut. Makes about twenty, cooked in 15 minutes.',
+    meta: 'Indonesian klepon: small green glutinous rice dumplings filled with melted palm sugar, boiled and rolled in fresh coconut. Makes about twenty, cooked for 15 minutes.',
     kw: ['klepon', 'indonesian klepon', 'klepon recipe', 'pandan glutinous rice balls with palm sugar', 'kuih ondeh-ondeh klepon'],
     why: 'Bite carefully. Klepon are small, bright green balls with a pocket of liquid palm sugar inside that bursts when you eat them, and the first-time eater always ends up with a sticky chin. The sensation, a chewy dumpling, a rush of caramel and a sweet, grassy pandan perfume, is why klepon sells out at every market in Java.\n\nThe dough is glutinous rice flour mixed with pandan juice and a little warm water. Pandan paste or extract works if you cannot find fresh leaves. Mix to a soft dough that does not stick to the fingers. **Add the water gradually.** The right texture is like earlobe: soft, smooth and a bit springy.\n\nBreak a small piece of dough, flatten it into a disc in your palm, put a small piece of palm sugar in the centre, and pinch it closed. Roll between your hands to make a smooth ball. If the seam is not sealed, the sugar will leak out in the water.\n\nDrop them into boiling water in batches. They sink first, then float after 3 minutes. Boil for 1 minute more, lift out with a slotted spoon, drain and roll in fresh grated coconut mixed with a pinch of salt. Eat the same day.',
     ing: [
@@ -563,7 +563,7 @@ module.exports = {
 
   'pisang-goreng': {
     d: 'Ripe bananas coated in a light, crisp batter and cooked in hot oil until golden, eaten warm as a street snack.',
-    meta: 'Pisang goreng: ripe bananas in a light, crisp batter cooked in hot oil until golden. Six servings, cooked in 10 minutes.',
+    meta: 'Pisang goreng: ripe bananas in a light, crisp batter cooked in hot oil until golden. Six servings, cooked for 10 minutes.',
     kw: ['pisang goreng', 'pisang goreng recipe', 'indonesian banana fritters', 'crispy banana fritters', 'malaysian pisang goreng'],
     why: 'Fry them in small batches and leave the oil alone: the two rules of banana fritters. Pisang goreng is sold from carts at the side of the road in the late afternoon, still hot from the pan, wrapped in paper. The coating is thin and crisp, and the banana inside has softened to a sweet, steaming pulp.\n\nThe bananas should be ripe but firm, with some black freckles on the skin. Plantains, called pisang raja or pisang kepok, are traditional and hold together best, but ordinary bananas also work if they are not over-ripe. Cut each in half lengthways, then crosswise. **Choose bananas that give when pressed but are not mushy.**\n\nThe batter is plain flour, rice flour, a pinch of sugar, salt, a little turmeric for colour and enough cold water to make a thick coating consistency. The rice flour makes it crisp. Dip each banana piece in the batter and let the excess run off.\n\nHeat the oil to 175°C. Fry for 3 to 4 minutes, turning once, until deep golden. Drain on kitchen paper and sprinkle with a little sugar or serve with palm sugar syrup.',
     ing: [
@@ -640,7 +640,7 @@ module.exports = {
 
   'onde-onde': {
     d: 'Chewy glutinous rice and sweet potato balls filled with liquid palm sugar and rolled in sesame seeds, then cooked in hot oil until crisp.',
-    meta: 'Onde-onde: chewy glutinous rice and sweet potato balls filled with palm sugar, rolled in sesame seeds and cooked in hot oil. Makes about twenty, cooked in 15 minutes.',
+    meta: 'Onde-onde: chewy glutinous rice and sweet potato balls filled with palm sugar, rolled in sesame seeds and cooked in hot oil. Makes about twenty, cooked for 15 minutes.',
     kw: ['onde onde', 'onde-onde recipe', 'sesame palm sugar balls', 'glutinous rice sesame balls with palm sugar', 'malaysian onde onde'],
     why: 'Sweet potato in the dough is the clue to the texture: it makes the shell soft and moist inside, and it makes it easier to handle than glutinous rice flour alone. Onde-onde is a Malaysian and Indonesian snack, a ball rolled in sesame seeds with a pocket of palm sugar that melts as it cooks.\n\nBoil or steam the sweet potato until soft, mash it smooth, and mix it into the glutinous rice flour while still warm. Add a spoonful of water at a time until the dough is soft and not sticky. **Do not let the dough dry out.** Cover it with a cloth while you work.\n\nTake a lump the size of a walnut, flatten it in your palm, add a small piece of palm sugar and seal it carefully. Roll into a ball between your hands. Press the seam closed. If there is a gap, the sugar leaks into the oil and sprays.\n\nRoll in sesame seeds, pressing them in. Heat oil to 160°C, a little lower than for most frying. Cook for 5 minutes in small batches, turning, until golden and floating. Drain and eat warm, within the hour.',
     ing: [
@@ -670,7 +670,7 @@ module.exports = {
 
   'apam-balik': {
     d: 'A thick, soft Malaysian pancake folded over crushed peanuts, sugar and sweetcorn, crisp on the edges and tender in the middle.',
-    meta: 'Apam balik: a thick, soft Malaysian pancake folded over crushed peanuts, sugar and sweetcorn. Four servings, cooked in 20 minutes.',
+    meta: 'Apam balik: a thick, soft Malaysian pancake folded over crushed peanuts, sugar and sweetcorn. Four servings, cooked for 20 minutes.',
     kw: ['apam balik', 'apam balik recipe', 'malaysian peanut pancake', 'martabak manis', 'turnover pancake with peanuts and sugar'],
     why: 'The pancake is cooked on one side only, and that is the point. A leavened batter goes into a pan with a lid on, and as it cooks, the underside turns crisp and golden while the top sets in a mass of tiny bubbles, giving a soft, honeycombed crumb. The filling is added while the surface is still wet and the pancake is folded in half.\n\nThe batter is flour, a little sugar, bicarbonate of soda, baking powder, an egg, coconut milk and water, left to rest for 15 minutes. The bicarbonate is the secret to the bubbles. **Cook over a low heat with the lid on.** High heat sets the top before it can bubble, and the pancake turns out flat and dense.\n\nPour in a ladle of batter to make a thick round, 18 cm across. Cover and cook for 3 to 4 minutes, until the surface is set and covered in holes. Spread with butter, scatter crushed roasted peanuts, a spoonful of sugar and a spoonful of sweetcorn, fold in half, and cut into wedges.\n\nEat it hot. The crisp edge and the soft, buttery middle are best in the first five minutes.',
     ing: [
@@ -741,7 +741,7 @@ module.exports = {
 
   'mie-ayam': {
     d: 'Egg noodles topped with a savoury-sweet soy-braised minced chicken, greens and fried shallots, served with a bowl of clear broth.',
-    meta: 'Mie ayam: egg noodles topped with soy-braised minced chicken, greens and fried shallots, with a bowl of clear broth. Four servings, cooked in 25 minutes.',
+    meta: 'Mie ayam: egg noodles topped with soy-braised minced chicken, greens and fried shallots, with a bowl of clear broth. Four servings, cooked for 25 minutes.',
     kw: ['mie ayam', 'mie ayam recipe', 'indonesian chicken noodles', 'mie ayam bakso', 'indonesian chicken noodles with soy sauce'],
     why: 'It is a bowl with no soup in it, at least not in the first mouthfuls. The noodles are tossed in a little oil and sauce, topped with the chicken, and the broth arrives in a separate bowl on the side. You eat the noodles first, then sip the broth.\n\nThe chicken topping is minced thigh meat cooked with garlic, ginger, kecap manis (sweet soy), light soy sauce, white pepper and a little water until the liquid cooks off and the mixture is dark, sticky and sweet. **Cook it until dry and glossy.** A wet topping makes the noodles soggy.\n\nFor the noodles, use thin fresh egg noodles. Boil for 2 minutes only, drain well, and toss at once with a spoonful of garlic oil and a dash of soy sauce, so the strands do not clump.\n\nThe broth is chicken stock simmered with garlic, ginger and a pinch of white pepper, seasoned at the end with salt. Blanch a handful of choy sum in the noodle water for the last 30 seconds. Assemble: noodles in the bowl, greens, a spoonful of chicken, fried shallots and spring onions. Serve with chilli sauce and extra sweet soy.',
     ing: [
@@ -830,7 +830,7 @@ module.exports = {
 
   'perkedel': {
     d: 'Mashed potato patties flavoured with spring onion, celery, nutmeg and white pepper, dipped in egg and cooked until golden.',
-    meta: 'Perkedel: mashed potato patties with spring onion, celery, nutmeg and white pepper, dipped in egg and cooked until golden. Six servings, cooked in 15 minutes.',
+    meta: 'Perkedel: mashed potato patties with spring onion, celery, nutmeg and white pepper, dipped in egg and cooked until golden. Six servings, cooked for 15 minutes.',
     kw: ['perkedel', 'perkedel kentang', 'indonesian potato patties', 'perkedel recipe', 'indonesian potato fritters with egg'],
     why: 'Dry mash is the whole trick. Perkedel is the Indonesian potato patty, a soft, golden disc found on every rice table and in every lunchbox, and it only works if the potato is dry. Wet mash makes patties that fall apart in the oil.\n\nBoil the potatoes whole, in their skins, if you can. They absorb less water that way. Peel them while hot and mash them thoroughly, then return them to the dry pan for a minute over a low heat to drive off any remaining moisture. **Let the mash cool for 10 minutes before mixing in anything.** Egg added to hot mash scrambles.\n\nThe flavouring is simple: fried shallots, spring onion, celery leaf, a pinch of nutmeg, white pepper and salt. A little minced beef, cooked and drained, is a common addition. Mix in one beaten egg to bind.\n\nShape into discs about 6 cm across and 1.5 cm thick. Dip each one in a second beaten egg, then cook in 1 cm of hot oil for 2 minutes on each side. The egg forms a thin golden crust.',
     ing: [

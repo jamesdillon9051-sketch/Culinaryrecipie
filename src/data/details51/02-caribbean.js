@@ -118,7 +118,7 @@ module.exports = {
 
   'puerto-rican-alcapurrias': {
     d: 'Fritters of grated green banana and taro dough, stuffed with seasoned beef and cooked until crisp, a Puerto Rican street food.',
-    meta: 'Puerto Rican alcapurrias: fritters of grated green banana and taro dough stuffed with seasoned beef and cooked until crisp. Makes twelve, cooked in 10 minutes.',
+    meta: 'Puerto Rican alcapurrias: fritters of grated green banana and taro dough stuffed with seasoned beef and cooked until crisp. Makes twelve, cooked for 10 minutes.',
     kw: ['puerto rican alcapurrias', 'alcapurrias', 'alcapurrias recipe', 'banana and yautia fritters with picadillo', 'puerto rican street food fritters'],
     why: 'They are the street food of the beach kiosks at Piñones, sold from stalls in a crisp, cylindrical shape, with the hot beef inside a dough of green banana and taro. The outside is slightly sticky and the crust brown, and the filling is a savoury beef picadillo.\n\nThe dough is similar to that for pasteles. Grate green bananas and yautía together until you have a coarse pulp, then mix with annatto oil and salt until smooth. The dough must be sticky but hold its shape when pressed. **Add a spoonful of masa harina if it is too wet.** The fritters will fall apart in the oil otherwise.\n\nThe picadillo is minced beef cooked with sofrito, tomato, olives and a little cumin, until the liquid has gone. Cool it completely. Warm filling melts the dough.\n\nWith oiled hands, take a 5 cm ball of dough, flatten it in your palm, put a spoonful of picadillo in the centre and close the dough around, rolling it into a fat sausage. Oil prevents sticking. Cook in oil at 175°C for 4 minutes, turning, until deep brown and crisp. Drain. Serve hot with hot sauce.',
     ing: [
@@ -449,7 +449,7 @@ module.exports = {
 
   'jamaican-festival': {
     d: 'Slender, lightly sweet cornmeal dumplings cooked until golden, crisp outside and soft inside, served with jerk and fried fish.',
-    meta: 'Jamaican festival: slender, lightly sweet cornmeal dumplings cooked until golden and crisp outside. Eight servings, cooked in 15 minutes.',
+    meta: 'Jamaican festival: slender, lightly sweet cornmeal dumplings cooked until golden and crisp outside. Eight servings, cooked for 15 minutes.',
     kw: ['jamaican festival', 'festival dumplings', 'jamaican festival recipe', 'sweet cornmeal dumplings', 'festival with jerk chicken'],
     why: 'They are sweet bread sticks, and they go with the most savoury food in the Caribbean. Festival is the side that arrives with jerk chicken, jerk pork and fried fish at every Jamaican roadside stall: elongated, golden dumplings with a touch of sugar, a crisp skin and a soft, close crumb. The sweetness is a counterpoint to the heat of the jerk.\n\nThe dough is plain flour, fine cornmeal, sugar, baking powder, a pinch of salt and a little nutmeg or cinnamon, mixed with a spoonful of butter and enough milk or water to make a soft dough. It should be smooth and slightly sticky, a bit softer than a bread dough. **Rest the dough for 20 minutes** before shaping, which lets the cornmeal soften.\n\nDivide it into 8 pieces and roll each into a log about 12 cm long and 2 cm thick, with tapered ends. Wetting the hands helps with the shaping.\n\nCook in oil at 175°C, in batches of three or four, for about 4 minutes, turning, until golden. They puff slightly and darken. Drain on kitchen paper and serve straight away, hot, with plenty of black pepper on your jerk.',
     ing: [
@@ -481,7 +481,7 @@ module.exports = {
 
   'jamaican-fry-dumplings': {
     d: 'Round flat dumplings of plain flour dough, shallow-fried until golden and eaten with saltfish and ackee or for breakfast.',
-    meta: 'Jamaican fry dumplings: round flat dumplings of plain flour dough, shallow-fried until golden, for breakfast with saltfish. Six servings, cooked in 15 minutes.',
+    meta: 'Jamaican fry dumplings: round flat dumplings of plain flour dough, shallow-fried until golden, for breakfast with saltfish. Six servings, cooked for 15 minutes.',
     kw: ['jamaican fry dumplings', 'fried dumplings jamaican', 'johnny cakes jamaican', 'jamaican dumplings recipe', 'fry dumplings with saltfish'],
     why: 'The most basic bread in Jamaica takes five minutes to mix and ten to cook, and is served for breakfast on the same plate as ackee and saltfish. Fry dumplings, sometimes called Johnny cakes, are made from flour, baking powder, salt and water, shaped by hand into rounds, and cooked in a shallow pan of oil.\n\nThe dough should be firm and smooth, a little firmer than for biscuits. Rub a tablespoon of butter or shortening into the flour for a more tender crumb, then add cold water a spoonful at a time. **Knead for just 1 minute.** A well-worked dough turns tough.\n\nDivide into 6 balls and flatten each by hand to a disc about 8 cm across and 1 cm thick. Prick the surface once with a fork to stop the dumplings puffing too much. Rest for 10 minutes.\n\nHeat 1 cm of oil in a frying pan over a medium heat. Slide in the dumplings and cook for 3 to 4 minutes on each side, until deep golden brown. Drain on kitchen paper and serve hot with butter, or split open and filled with scrambled egg, cheese or saltfish. Thin ones are crisp; thicker ones stay soft.',
     ing: [
@@ -707,7 +707,7 @@ module.exports = {
 
   'dhalpuri-roti': {
     d: 'Soft Trinidadian flatbreads filled with a layer of ground, spiced split peas, cooked on a griddle and served with curry.',
-    meta: 'Dhalpuri roti: soft Trinidadian flatbreads filled with a layer of ground, spiced split peas, cooked on a griddle. Makes six, cooked in 25 minutes.',
+    meta: 'Dhalpuri roti: soft Trinidadian flatbreads filled with a layer of ground, spiced split peas, cooked on a griddle. Makes six, cooked for 25 minutes.',
     kw: ['dhalpuri roti', 'dhalpuri recipe', 'trinidad dhal puri', 'trinidadian roti with split peas', 'dhal puri roti with curry'],
     why: 'It is the roti that wraps the curry in Trinidad, and the filling is the reason. Dhalpuri is a thin flatbread filled with a dry paste of ground yellow split peas, seasoned with cumin and garlic, then rolled out and cooked on a hot tawa. It is soft, pliable and slightly nutty, the way a roti should be, and the filling adds a savoury interest of its own.\n\nThe dough is flour, baking powder, salt and a spoonful of oil, kneaded with warm water until smooth and soft, then rested under a damp cloth for 30 minutes. For the filling, boil 200 g of yellow split peas in water with turmeric until just tender, about 25 minutes, drain thoroughly and grind with roasted cumin, garlic and salt to a coarse crumb. **The filling must be as dry as possible.** A damp filling tears the dough.\n\nDivide the dough into 6 balls. Flatten each, put a spoonful of filling in the centre, pinch the edges closed and flatten again. Roll gently to 20 cm without letting the filling break through.\n\nCook on a hot dry tawa for 1 minute on one side, flip, brush with oil, and cook for 1 minute more. Clap the roti between your hands to loosen the layers. Wrap in a cloth to keep warm.',
     ing: [
@@ -818,7 +818,7 @@ module.exports = {
 
   'aloo-pie': {
     d: 'A soft yeasted dough pocket filled with spiced mashed potato and cooked until puffed and golden, a Trinidadian street snack.',
-    meta: 'Aloo pie: a soft yeasted dough pocket filled with spiced mashed potato and cooked until puffed and golden. Makes eight, cooked in 15 minutes.',
+    meta: 'Aloo pie: a soft yeasted dough pocket filled with spiced mashed potato and cooked until puffed and golden. Makes eight, cooked for 15 minutes.',
     kw: ['aloo pie', 'trinidad aloo pie', 'aloo pie recipe', 'trinidadian potato pie', 'aloo pie with tamarind chutney'],
     why: 'It is a snack from roadside stalls in Trinidad, sold in paper bags with a dollop of tamarind chutney and a splash of hot pepper sauce. Aloo pie is a fried pocket of soft dough around a filling of spiced mashed potato, shaped like a half-moon, and the best ones are puffy, crisp and slightly chewy.\n\nThe dough is a basic yeasted dough: flour, yeast, sugar, salt and warm water, kneaded for 8 minutes and left to rise for 1 hour until doubled. Add a spoonful of oil to keep it soft. It should be tacky but not sticky. **Don\'t add too much flour while kneading.** A soft dough makes a light pie.\n\nThe filling is simple: boiled potatoes mashed with cumin, garlic, turmeric, a little scotch bonnet and chopped coriander. Cook the spices in oil for a minute before stirring in the potato, and season well. Cool the filling completely before using.\n\nRoll the risen dough into 8 balls and flatten each to a 12 cm circle. Put 2 tablespoons of filling in the centre, fold over and press the edges with a fork. Fry in oil at 175°C for 3 minutes on each side, until deep gold. Drain and serve hot.',
     ing: [
@@ -859,7 +859,7 @@ module.exports = {
 
   'bake-and-shark': {
     d: 'A puffy fried bread split and filled with seasoned fried fish, then topped from a table of sauces, a Trinidadian beach classic.',
-    meta: 'Bake and shark: a puffy fried bread split and filled with seasoned fried fish, then topped with sauces, a Trinidadian beach classic. Four servings, cooked in 15 minutes.',
+    meta: 'Bake and shark: a puffy fried bread split and filled with seasoned fried fish, then topped with sauces, a Trinidadian beach classic. Four servings, cooked for 15 minutes.',
     kw: ['bake and shark', 'trinidad bake and shark', 'bake and shark recipe', 'maracas beach bake and shark', 'fried bake with fish sandwich'],
     why: 'On Maracas Bay, the queues stretch back from the stalls, and the dish is bake and shark. A bake is a round piece of dough that puffs up into a hollow pillow when fried. Shark, or the fish used in its place, is coated in seasoning and flour and fried until crisp. The sandwich is built at the stand, and then the toppings are added from a long table of sauces.\n\nThe bake dough is flour, baking powder, a pinch of sugar and salt, a spoonful of butter and enough water to make a soft dough. Knead for 3 minutes and rest for 20. Roll into 4 balls and flatten each to 12 cm. **Fry them at 175°C, and spoon hot oil over the tops** to help them puff. They swell into hollow rounds within 30 seconds.\n\nShark is less common now for sustainability reasons, and the dish is often made with firm white fish. Use cod, haddock or dogfish, seasoned with green seasoning, garlic and salt, coated in flour and fried for 3 minutes on each side.\n\nSplit the bake, fill with fish, then add toppings: lettuce, tomato, cucumber, pineapple chunks, garlic sauce, tamarind sauce, chadon beni sauce and pepper sauce. Eat at once.',
     ing: [

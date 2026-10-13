@@ -51,7 +51,7 @@ module.exports = {
 
   'jam-doughnuts': {
     d: 'Soft, yeasted doughnuts cooked in hot oil, rolled in sugar and filled with raspberry or strawberry jam.',
-    meta: 'Jam doughnuts: soft yeasted doughnuts cooked in hot oil, rolled in sugar and filled with raspberry jam. Makes twelve, cooked in 15 minutes.',
+    meta: 'Jam doughnuts: soft yeasted doughnuts cooked in hot oil, rolled in sugar and filled with raspberry jam. Makes twelve, cooked for 15 minutes.',
     kw: ['jam doughnuts', 'homemade jam doughnuts', 'jam doughnut recipe', 'jam filled doughnuts', 'british jam doughnuts'],
     why: 'The oil is the thing to watch, and the dough should do the rest. A jam doughnut is a rich yeasted dough, risen until puffy, cut into rounds, left to rise again, and cooked in oil at 170°C. Too cool and the dough soaks up oil and goes greasy; too hot and the outside burns before the middle is cooked.\n\nThe dough is bread flour, sugar, yeast, milk, an egg and butter, kneaded for 10 minutes until smooth and elastic. Leave it to rise in a warm place for 1 hour, until doubled. Roll it out to 2 cm thick and cut 8 cm rounds. **Place the rounds on floured paper and let them rise again for 30 minutes.** They should look puffy and hold a dent when pressed gently.\n\nFry in batches of three or four, for 2 minutes on each side, until deep gold. A white band around the middle of each doughnut is a good sign: it means they were light and floated high. Drain, then roll in caster sugar while warm.\n\nCool for 10 minutes, then fill. Push a piping bag with a long nozzle into the side and squeeze in a spoonful of jam.',
     ing: [
@@ -151,7 +151,7 @@ module.exports = {
 
   'cheese-sauce-for-lasagne': {
     d: 'A smooth white sauce thickened with butter and flour, enriched with parmesan and cheddar, used to layer lasagne and baked pasta.',
-    meta: 'Cheese sauce for lasagne: a smooth white sauce enriched with parmesan and cheddar for lasagne and baked pasta. Six servings, cooked in 15 minutes.',
+    meta: 'Cheese sauce for lasagne: a smooth white sauce enriched with parmesan and cheddar for lasagne and baked pasta. Six servings, cooked for 15 minutes.',
     kw: ['cheese sauce for lasagne', 'white sauce for lasagne', 'bechamel with cheese for lasagne', 'lasagne cheese sauce recipe', 'cheesy bechamel for pasta'],
     why: 'Lumps are the enemy of a white sauce, and the way to avoid them is to add the milk slowly and warm. Cold milk poured straight onto a hot roux seizes the flour into little knots. Warm milk, added a ladleful at a time, produces a smooth sauce in about 10 minutes.\n\nThe base is a roux: equal weights of butter and plain flour, cooked together for 2 minutes over a low heat, until it smells like biscuits and has stopped bubbling. Don\'t let it colour. **Add the first ladle of milk and stir hard until the paste is smooth before adding the next.** After the third ladle, you can pour more freely.\n\nOnce all the milk is in, cook the sauce for 6 minutes, stirring, until it coats the back of a spoon. Season with salt, white pepper and a grating of nutmeg. Take it off the heat before the cheese goes in. Hot sauce on the heat splits and goes stringy.\n\nParmesan gives depth and salt; cheddar gives melt and sharpness. Stir them in until smooth. The sauce should be a little thicker than double cream, since it thins as it bakes.',
     ing: [
@@ -408,7 +408,7 @@ module.exports = {
 
   'grissini': {
     d: 'Thin, crisp Italian breadsticks made from an olive oil dough, rolled by hand and baked until golden.',
-    meta: 'Grissini: thin, crisp Italian breadsticks made from an olive oil dough, rolled by hand and baked until golden. Twelve servings, baked in 20 minutes.',
+    meta: 'Grissini: thin, crisp Italian breadsticks made from an olive oil dough, rolled by hand and baked until golden. Twelve servings, baked for 20 minutes.',
     kw: ['grissini', 'grissini recipe', 'homemade grissini breadsticks', 'italian breadsticks', 'crispy olive oil grissini'],
     why: 'Roll them thin, thinner than you think: the difference between a grissino and a bread stick is the crunch. The dough is simple, flour, yeast, olive oil, salt and warm water, and it takes 10 minutes to knead and 1 hour to rise. After that, it is a matter of cutting and rolling.\n\nKnead until the dough is smooth and elastic, then leave it to rise in an oiled bowl until doubled. Press it out into a rectangle about 1.5 cm thick, brush with oil and cut it into strips with a knife or a pizza wheel. **Roll each strip between your palms and the table until it is as thin as a pencil.** The dough springs back, so stretch it as you roll.\n\nPlace the sticks on lined trays, leaving a finger\'s width between them. Brush with olive oil and sprinkle with sea salt, sesame seeds or rosemary.\n\nBake at 200°C for 18 minutes, turning the trays halfway, until golden and crisp all the way through. Cool on a rack. They keep crisp for a week in a tin and are excellent with cured meats or dips.',
     ing: [
@@ -650,7 +650,7 @@ module.exports = {
 
   'norwegian-waffles': {
     d: 'Thin, soft heart-shaped waffles flavoured with cardamom, served warm with jam and soured cream or brown cheese.',
-    meta: 'Norwegian waffles: thin, soft heart-shaped waffles flavoured with cardamom, served with jam and soured cream. Six servings, cooked in 20 minutes.',
+    meta: 'Norwegian waffles: thin, soft heart-shaped waffles flavoured with cardamom, served with jam and soured cream. Six servings, cooked for 20 minutes.',
     kw: ['norwegian waffles', 'vafler', 'norwegian heart waffles', 'norwegian waffles recipe', 'scandinavian waffles with cardamom'],
     why: 'Can a waffle be soft? In Norway, it must be. Vafler are thin, floppy, heart-shaped waffles, not the crisp deep-pocketed ones of Belgium, and they are eaten folded or rolled, warm, with jam and a spoonful of soured cream. The batter is closer to a pancake batter than to a waffle one.\n\nThe flavour is cardamom, a Scandinavian signature. Use freshly ground seeds if you can: a teaspoon is enough to scent the batter without dominating. The liquid is part milk and part soured cream or buttermilk, which gives a gentle tang and tenderness. Melted butter goes into the batter, so there is hardly any need to grease the iron.\n\nMix the batter just until smooth and let it rest for 10 minutes. **Do not beat it hard.** Overmixing makes the waffles tough, which is the opposite of what you want here.\n\nHeat the waffle iron and pour in a ladle of batter. Cook for about 2 minutes, until the steam slows and the waffle is pale gold. Stack them on a plate and keep warm. Serve with strawberry jam and soured cream, or with slices of brunost, the sweet brown cheese.',
     ing: [
@@ -684,7 +684,7 @@ module.exports = {
 
   'paczki': {
     d: 'Rich, round Polish doughnuts filled with rose petal jam, cooked in hot oil and finished with a dusting of icing sugar.',
-    meta: 'Pączki: rich, round Polish doughnuts filled with rose petal jam, cooked in hot oil and dusted with icing sugar. Makes twelve, cooked in 20 minutes.',
+    meta: 'Pączki: rich, round Polish doughnuts filled with rose petal jam, cooked in hot oil and dusted with icing sugar. Makes twelve, cooked for 20 minutes.',
     kw: ['paczki', 'pączki', 'polish paczki recipe', 'polish doughnuts with rose jam', 'fat thursday paczki'],
     why: 'Fat Thursday, the last Thursday before Lent, is when Poles eat pączki, and the queues at bakeries are famous. The doughnut is richer than an English one: the dough is enriched with egg yolks, butter and a splash of spirit, and the result is dense, soft and deeply flavoured.\n\nThe spirit is the surprise. A tablespoon of vodka or rum goes into the dough, and the alcohol evaporates quickly in the hot oil, which reduces the amount of fat the doughnut absorbs. It also gives a faint flavour. **Do not leave it out.** The dough is also very soft, softer than a bread dough, so use a lightly floured surface and be gentle.\n\nKnead the dough for 10 minutes until smooth, then leave it to rise in a warm place for 1 hour 30 minutes, until doubled. Roll out to 2 cm thick, cut 7 cm rounds and let them rise for a further 30 minutes.\n\nThe oil should be at 175°C. Fry in batches, 3 minutes on one side with the lid on, then 2 minutes on the other, until a pale ring forms around the middle. Fill with rose petal jam using a piping bag, and dust with icing sugar.',
     ing: [
@@ -719,7 +719,7 @@ module.exports = {
 
   'papanasi': {
     d: 'Romanian doughnuts of cottage cheese, semolina and egg, cooked until golden and served with soured cream and sour cherry jam.',
-    meta: 'Papanași: Romanian doughnuts of cottage cheese, semolina and egg, served with soured cream and sour cherry jam. Six servings, cooked in 15 minutes.',
+    meta: 'Papanași: Romanian doughnuts of cottage cheese, semolina and egg, served with soured cream and sour cherry jam. Six servings, cooked for 15 minutes.',
     kw: ['papanasi', 'papanași', 'romanian cheese doughnuts', 'papanasi recipe', 'romanian papanasi with sour cream and jam'],
     why: 'The cheese in the dough is the secret, and there is nothing complicated about the method. Papanași are a Romanian dessert of fried cheese dough, shaped into a ring with a smaller ball placed on top as a hat, then served with soured cream and a spoonful of tart cherry jam. The dough is soft, slightly sweet and quite rich.\n\nUse a dry cheese: drained cottage cheese or fresh curd cheese, pressed in a sieve for 30 minutes until the liquid is gone. Wet cheese makes a sticky dough that falls apart in the oil. Mix with semolina, flour, an egg, sugar, vanilla, lemon zest and a pinch of baking powder. **The dough should be soft and just firm enough to shape.** It should hold a ring, not run.\n\nWith floured hands, shape a ball the size of a tangerine, press a hole in the centre with your finger and widen it into a ring. Roll a smaller ball and set it aside as the hat.\n\nCook in oil at 170°C for about 4 minutes, turning, until deep golden all over. Stack the hat on top. Spoon over soured cream and cherry jam, and eat at once.',
     ing: [

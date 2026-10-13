@@ -300,7 +300,7 @@ module.exports = {
 
   'peanut-butter-and-banana-sandwich': {
     d: 'Toasted bread spread with peanut butter and layered with sliced banana and a drizzle of honey, ready in minutes.',
-    meta: 'Peanut butter and banana sandwich: toasted bread spread with peanut butter, sliced banana and a drizzle of honey. One serving, cooked in 3 minutes.',
+    meta: 'Peanut butter and banana sandwich: toasted bread spread with peanut butter, sliced banana and a drizzle of honey. One serving, cooked for 3 minutes.',
     kw: ['peanut butter and banana sandwich', 'peanut butter banana sandwich', 'pb and banana sandwich', 'banana and peanut butter on toast', 'peanut butter and banana sandwich with honey'],
     why: 'Most of these sandwiches go wrong in the same way: the bread goes soft and the banana turns brown. The fix is toast. Lightly toasted bread forms a firm surface that keeps the peanut butter from soaking in, and the banana, laid on top of the spread rather than touching the bread, stays sweet and fresh for the few minutes it takes to eat.\n\nPeanut butter provides the salt and richness, banana the sweetness and soft texture. Honey is optional and adds a floral note; skip it if the banana is very ripe. A very light spreading of butter on the outside before toasting gives the bread a golden crust.\n\n**Spread the peanut butter on both slices**, so it acts as glue and holds the banana in place. Slice the banana into rounds of about 1 cm. Press the sandwich gently, cut it in half on the diagonal and eat it at once. Crunchy peanut butter adds extra texture.',
     ing: [
@@ -360,7 +360,7 @@ module.exports = {
 
   'chicken-scampi': {
     d: 'Thin chicken cutlets pan-fried and finished in a garlic, white wine and lemon butter sauce, served over linguine.',
-    meta: 'Chicken scampi: thin chicken cutlets pan-fried and finished in a garlic, white wine and lemon butter sauce, served over linguine. Four servings, cooked in 20 minutes.',
+    meta: 'Chicken scampi: thin chicken cutlets pan-fried and finished in a garlic, white wine and lemon butter sauce, served over linguine. Four servings, cooked for 20 minutes.',
     kw: ['chicken scampi', 'chicken scampi recipe', 'chicken scampi with linguine', 'lemon garlic chicken scampi', 'chicken in garlic butter sauce'],
     why: 'Most home versions come out with a thin, greasy sauce, and the fix is to add a little pasta water at the end. Scampi sauce is garlic, wine, lemon and butter, and it needs something to bind it. The starch in the water the pasta cooked in does that, and turns the liquid into a silky coating that clings to every strand.\n\nThe chicken is cut into thin cutlets, which cook in a few minutes and stay juicy. Dredge them lightly in flour, shaking off the excess, so they brown in the pan and thicken the sauce. Brown them well in oil, remove them, and build the sauce in the same pan so none of the browned bits are wasted.\n\n**Add the garlic once the butter melts** and cook it for only a minute, because burnt garlic ruins the sauce. Wine goes in next, then the stock and lemon. Return the chicken to the sauce, add the drained linguine and toss until everything is glossy. Finish with parsley.',
     ing: [
@@ -429,7 +429,7 @@ module.exports = {
 
   'tex-mex-migas': {
     d: 'Soft scrambled eggs folded with crisp tortilla strips, onion, jalapeño, tomato and melted cheese.',
-    meta: 'Tex-Mex migas: soft scrambled eggs folded with crisp tortilla strips, onion, jalapeño, tomato and melted cheese. Two servings, cooked in 10 minutes.',
+    meta: 'Tex-Mex migas: soft scrambled eggs folded with crisp tortilla strips, onion, jalapeño, tomato and melted cheese. Two servings, cooked for 10 minutes.',
     kw: ['tex-mex migas', 'migas recipe', 'migas with eggs and tortilla strips', 'texas migas', 'tex mex breakfast migas'],
     why: 'This is a breakfast to make for two on a slow weekend morning, and it begins with leftovers. Migas, which means crumbs, were born from stale tortillas, fried until crisp and cooked into scrambled eggs along with whatever vegetables were around. In Texas the version is spicy, cheesy and served with warm tortillas and salsa.\n\nCut the tortillas into thin strips and fry them first, until they turn golden and crisp. Then cook the onion and jalapeño in the same oil, add the tomato, and pour in the beaten eggs. Cook over medium heat and stir gently, pulling the eggs from the edge of the pan to the middle. They should be creamy, not dry.\n\n**Take the pan off the heat while the eggs still look slightly wet.** They carry on cooking from their own heat. Fold in the cheese, which melts into the eggs, and top with coriander. Serve straight away so the tortilla strips keep some of their crunch.',
     ing: [
@@ -489,7 +489,7 @@ module.exports = {
 
   'texas-toast': {
     d: 'Thick slices of white bread brushed with garlic butter and baked until crisp at the edges and soft in the middle.',
-    meta: 'Texas toast: thick slices of white bread brushed with garlic butter and baked until crisp at the edges and soft in the middle. Six servings, cooked in 10 minutes.',
+    meta: 'Texas toast: thick slices of white bread brushed with garlic butter and baked until crisp at the edges and soft in the middle. Six servings, cooked for 10 minutes.',
     kw: ['texas toast', 'garlic texas toast', 'texas toast recipe', 'thick garlic bread slices', 'garlic butter texas toast'],
     why: 'It looks like garlic bread and eats like toast, and the difference is the thickness. Texas toast is cut from an extra-thick sliced loaf, about 2 cm, which gives you a crisp, buttery outside and a pillowy centre that soaks up the garlic butter.\n\nBuy a white sandwich loaf and slice it yourself if the pack is thin, since the slices have to be thick enough to stay soft in the middle. Softened butter, mixed with crushed garlic, parsley and a little grated Parmesan, spreads easily and goes on in an even layer right to the edges, where it crisps.\n\n**Bake on a hot tray** so the underside crisps at the same time as the top. Turn the slices once if you like both sides toasted. They are ready when the edges are deep gold and the butter has soaked in and bubbled. Serve straight from the oven with pasta, steak or a bowl of soup.',
     ing: [
@@ -584,7 +584,7 @@ module.exports = {
 
   'carolina-mustard-sauce': {
     d: 'A thin, tangy, golden barbecue sauce of yellow mustard, cider vinegar and brown sugar from South Carolina.',
-    meta: 'Carolina mustard sauce: a thin, tangy, golden barbecue sauce of yellow mustard, cider vinegar and brown sugar. Ten servings, cooked in 10 minutes.',
+    meta: 'Carolina mustard sauce: a thin, tangy, golden barbecue sauce of yellow mustard, cider vinegar and brown sugar. Ten servings, cooked for 10 minutes.',
     kw: ['carolina mustard sauce', 'south carolina mustard bbq sauce', 'carolina gold sauce', 'mustard barbecue sauce', 'carolina mustard sauce for pulled pork'],
     why: 'What makes Carolina mustard sauce different from every other barbecue sauce? It has no tomato at all. The base is yellow mustard thinned with cider vinegar and sweetened with brown sugar, and the result is bright gold, sharp and thin enough to pour over a pile of pulled pork. It is found most often in South Carolina.\n\nThe balance is between three things: the heat of the mustard, the sourness of the vinegar and the sweetness of the sugar and honey. A spoonful of ketchup rounds the colour, Worcestershire sauce adds savoury depth, and a splash of hot sauce keeps it from tasting too sweet. A little butter at the end gives it a smooth finish.\n\n**Simmer for 10 minutes**, no longer, so the raw edge of the mustard cooks off but its brightness remains. Stir it often. Serve it warm over pulled pork or chicken, or use it as a dipping sauce and a spread for sandwiches.',
     ing: [
@@ -749,7 +749,7 @@ module.exports = {
 
   'maine-lobster-stew': {
     d: 'A simple, rich stew of cooked lobster meat warmed in butter, milk and cream with a splash of sherry and a pinch of paprika.',
-    meta: 'Maine lobster stew: a simple, rich stew of cooked lobster warmed in butter, milk and cream with sherry and paprika. Four servings, cooked in 25 minutes.',
+    meta: 'Maine lobster stew: a simple, rich stew of cooked lobster warmed in butter, milk and cream with sherry and paprika. Four servings, cooked for 25 minutes.',
     kw: ['maine lobster stew', 'lobster stew recipe', 'new england lobster stew', 'lobster stew with butter and cream', 'lobster stew with sherry and cream'],
     why: 'Lobster, butter, milk and cream: four things, and not much else. Maine lobster stew is a plain dish that lets the shellfish do the talking, with a broth that is more like a warm, sweet cream soup than a thick chowder. It has no potatoes, no flour and no vegetables.\n\nThe lobster meat is warmed gently in butter, which draws out its flavour and turns the butter pink. Milk and cream go in next, and the whole thing is heated slowly, never boiled, because boiling toughens the meat and splits the dairy. A spoonful of sherry and a pinch of paprika give depth and colour.\n\n**Let the stew stand off the heat for 30 minutes**, if you can, before reheating gently to serve. It rests, and the lobster flavour moves into the liquid, giving a much richer result. Serve it in warm bowls with oyster crackers or buttered bread, and an extra pat of butter floating on top.',
     ing: [

@@ -130,7 +130,7 @@ module.exports = {
 
   'virginia-ham-biscuits': {
     d: 'Small, tender buttermilk-style biscuits split and filled with thin slices of salty Virginia ham and a little mustard butter.',
-    meta: 'Virginia ham biscuits: small, tender biscuits split and filled with thin slices of salty ham and a little mustard butter. Twelve servings, cooked in 15 minutes.',
+    meta: 'Virginia ham biscuits: small, tender biscuits split and filled with thin slices of salty ham and a little mustard butter. Twelve servings, cooked for 15 minutes.',
     kw: ['virginia ham biscuits', 'ham biscuits recipe', 'southern ham biscuits', 'small biscuits with ham and mustard butter', 'ham biscuits for a party'],
     why: 'The smell of hot biscuits is the first thing you notice, butter and flour browning in a hot oven. Virginia ham biscuits are a Southern party food, small enough to eat in two bites and filled with ham that is thin, salty and rich. They appear on buffet tables at weddings, holidays and open houses.\n\nThe biscuits have to be tender, and the secret is cold butter and a light hand. Cut the butter into the flour until it forms pea-sized pieces, then add the milk all at once and stir until the dough just comes together. It should look rough. Pat it out, fold it twice, cut it into rounds and bake at once.\n\n**Do not twist the cutter** as you press it down, because that seals the edges and stops the biscuits rising. Split them while still warm, spread with mustard butter and fill with the ham. The saltiness of the ham is balanced by the butter, and the biscuit is soft enough to give way at a bite.',
     ing: [
@@ -228,7 +228,7 @@ module.exports = {
 
   'wisconsin-butter-burgers': {
     d: 'Beef burgers cooked on a hot pan with a little butter, served in toasted buns with more butter and soft sautéed onions.',
-    meta: 'Wisconsin butter burgers: beef burgers cooked with butter, served in butter-toasted buns with soft onions. Four servings, cooked in 15 minutes.',
+    meta: 'Wisconsin butter burgers: beef burgers cooked with butter, served in butter-toasted buns with soft onions. Four servings, cooked for 15 minutes.',
     kw: ['wisconsin butter burgers', 'butter burger', 'butter burger recipe', 'wisconsin style butter burger', 'beef burgers with butter toasted buns'],
     why: 'Butter on a burger sounds like too much, and then you taste it. The butter burger is a Wisconsin tradition, and it works because butter does three jobs: it toasts the bun to a golden crunch, it sweetens the onions as they soften, and it melts into the beef so each bite is rich without being heavy.\n\nStart with mince that is 20 per cent fat, shaped into loose balls and pressed thin in the pan. Season them only at the moment they hit the heat, or the salt draws moisture out of the meat. Use a hot, heavy frying pan and cook them for 2 to 3 minutes a side.\n\n**Toast the buns in the same pan**, cut side down, with a knob of butter, until they are golden. Put a small pat of butter on each patty as it rests. Pile the onions on top, which have been cooking slowly in butter until sweet, and add pickle slices and a smear of mustard. It is an everyday burger, and a very good one.',
     ing: [
@@ -293,7 +293,7 @@ module.exports = {
 
   'oklahoma-onion-burger': {
     d: 'Small balls of beef pressed into a mound of paper-thin onions on a hot griddle, so the onions cook into the patty.',
-    meta: 'Oklahoma onion burger: small balls of beef pressed into a mound of paper-thin onions on a hot griddle. Four servings, cooked in 10 minutes.',
+    meta: 'Oklahoma onion burger: small balls of beef pressed into a mound of paper-thin onions on a hot griddle. Four servings, cooked for 10 minutes.',
     kw: ['oklahoma onion burger', 'onion burger', 'onion burger recipe', 'smashed onion burger', 'burgers pressed into thin sliced onions'],
     why: 'Beef, onions and a hot pan: that is all it is. The onion burger is an Oklahoma original, and the cook pushes a ball of mince into a heap of thinly sliced onions on the griddle, so the onions stick to the meat and cook in its fat. As they soften and brown they turn sweet and savoury at once.\n\nThe onions must be sliced very thin, almost translucent, ideally on a mandoline. Thick slices will not cook in the 3 minutes the burger takes. Use a large yellow onion, and pile it up loose, about 75 g per burger. The mince should be shaped into balls and pressed hard with a spatula as soon as they hit the pan.\n\n**Flip the burger when the edges are lacy and brown** and the onions have darkened. Cook the other side for another minute, and serve in a soft bun with mustard and pickles. The thin patty and the cooked onions give a sweet, almost caramelised flavour you cannot get from a thicker burger.',
     ing: [
@@ -402,7 +402,7 @@ module.exports = {
 
   'arizona-cheese-crisp': {
     d: 'A large flour tortilla topped with melted Monterey Jack and green chillies, crisped until bubbling and golden.',
-    meta: 'Arizona cheese crisp: a large flour tortilla topped with melted Monterey Jack and green chillies, crisped until bubbling and golden. Two servings, cooked in 8 minutes.',
+    meta: 'Arizona cheese crisp: a large flour tortilla topped with melted Monterey Jack and green chillies, crisped until bubbling and golden. Two servings, cooked for 8 minutes.',
     kw: ['arizona cheese crisp', 'cheese crisp recipe', 'cheese crisp with green chiles', 'crisp tortilla with melted cheese', 'arizona cheese crisp tortilla'],
     why: 'Flour tortilla, cheese, a hot oven. Four minutes is enough to turn a large soft tortilla into a crisp, golden disc with a bubbling topping, which is the snack called a cheese crisp in Arizona. It is not quite a pizza and not quite a quesadilla, and it takes less time than either.\n\nThe tortilla gets a brush of oil on one side and goes in the oven on its own for a few minutes, which firms it up. Then it gets the cheese, usually Monterey Jack or a mild cheddar, and a spoonful of chopped green chillies. A second stint in the oven melts the cheese and browns the edges.\n\n**Watch it closely in the final minutes.** The edges can go from golden to burnt very fast, and the cheese should be bubbling and just speckled with brown, not dark. Cut the crisp into wedges with a pizza cutter while it is hot. Serve with salsa for dipping and a squeeze of lime.',
     ing: [
@@ -430,7 +430,7 @@ module.exports = {
 
   'navajo-fry-bread': {
     d: 'Rounds of yeast-free dough stretched thin and fried in hot oil until puffed and golden, crisp at the edges and soft in the centre.',
-    meta: 'Navajo fry bread: rounds of yeast-free dough stretched thin and fried until puffed and golden, crisp at the edges and soft inside. Six servings, cooked in 15 minutes.',
+    meta: 'Navajo fry bread: rounds of yeast-free dough stretched thin and fried until puffed and golden, crisp at the edges and soft inside. Six servings, cooked for 15 minutes.',
     kw: ['navajo fry bread', 'fry bread recipe', 'indian fry bread', 'fry bread with baking powder', 'puffy fried dough bread'],
     why: 'Do not over-knead the dough. Fry bread is a simple mix of flour, baking powder, salt and water, and the longer you work it, the tougher it gets. Mix it until it just comes together into a soft, slightly sticky ball, then let it rest under a cloth for 30 minutes. That rest makes the dough easy to stretch and tender when cooked.\n\nDivide it into 6 pieces and pat or stretch each one into a round about 15 cm across, thinner in the middle than at the edge. Poke a small hole in the centre of each, which helps it cook evenly and stops it ballooning. The oil needs to be hot, about 180°C, so the dough puffs and browns quickly without soaking up fat.\n\n**Fry for about 1 to 2 minutes a side**, turning once, until deep gold with a few dark blisters. Drain on paper. Serve it hot as bread, with honey or powdered sugar, or as the base for toppings such as chilli, beans, cheese and lettuce.',
     ing: [
@@ -458,7 +458,7 @@ module.exports = {
 
   'california-burrito': {
     d: 'A large flour tortilla filled with grilled steak, chips, melted cheese, guacamole and sour cream, as made in San Diego.',
-    meta: 'California burrito: a large flour tortilla filled with grilled steak, chips, melted cheese, guacamole and sour cream. Four servings, cooked in 15 minutes.',
+    meta: 'California burrito: a large flour tortilla filled with grilled steak, chips, melted cheese, guacamole and sour cream. Four servings, cooked for 15 minutes.',
     kw: ['california burrito', 'california burrito recipe', 'carne asada fries burrito', 'steak and fries burrito', 'san diego california burrito'],
     why: 'Steak, chips, cheese, guacamole and sour cream: five things in one tortilla, and one of them is fries. The California burrito is a San Diego invention that puts carne asada, the salsa and the chips of a loaded fries plate into a hand-held wrapper, and the contrast of crisp potato against soft meat and cool avocado is what makes it work.\n\nThe steak is seasoned with lime juice, garlic and cumin and seared in a very hot pan for a few minutes a side. Rest it, then slice it thinly across the grain. The fries can be baked from frozen while the steak cooks. Guacamole is a mashed avocado with lime and salt, and a quick pico de gallo of tomato, onion and coriander adds freshness.\n\n**Warm the tortillas before filling** so they fold without cracking. Layer the fries first, then the steak, cheese while the fries are still hot to melt it, and finally the guacamole, pico and sour cream. Fold in the sides and roll tightly. Eat at once, or the chips soften.',
     ing: [
@@ -531,7 +531,7 @@ module.exports = {
 
   'florida-grouper-sandwich': {
     d: 'A thick fillet of grouper seared in a spicy rub, served in a toasted bun with lettuce, tomato and lemon mayonnaise.',
-    meta: 'Florida grouper sandwich: a thick fillet of grouper seared in a spicy rub, served in a toasted bun with lettuce and tomato. Four servings, cooked in 10 minutes.',
+    meta: 'Florida grouper sandwich: a thick fillet of grouper seared in a spicy rub, served in a toasted bun with lettuce and tomato. Four servings, cooked for 10 minutes.',
     kw: ['florida grouper sandwich', 'grouper sandwich', 'blackened grouper sandwich', 'grouper sandwich recipe', 'pan seared grouper sandwich'],
     why: 'What do you look for when choosing grouper for a sandwich? A thick, firm, white fillet with no strong smell. Grouper is a sweet, mild fish with large flakes that hold together when seared, which is what makes it the favourite on the Florida coast. If you cannot find it, cod, haddock or another firm white fish works as well.\n\nThe fish is coated in a rub of paprika, garlic powder, onion powder, thyme, cayenne and salt, and seared in a hot pan with a little oil. The spices darken into a crust and the inside stays moist. A few minutes a side is all it needs, since a thick fillet cooks quickly.\n\n**Do not move the fish until it has formed a crust**, about 4 minutes on the first side. It will release from the pan on its own. Serve the fillets in toasted buns, with a lemon mayonnaise made from mayonnaise, lemon juice and a pinch of salt, plus crisp lettuce and sliced tomato.',
     ing: [
@@ -777,7 +777,7 @@ module.exports = {
 
   'brown-sugar-ham-glaze': {
     d: 'A sticky glaze of brown sugar, Dijon mustard, honey and orange juice with cloves, brushed over a ham as it bakes.',
-    meta: 'Brown sugar ham glaze: a sticky glaze of brown sugar, Dijon mustard, honey and orange juice with cloves, for brushing over a ham. Twelve servings, cooked in 10 minutes.',
+    meta: 'Brown sugar ham glaze: a sticky glaze of brown sugar, Dijon mustard, honey and orange juice with cloves, for brushing over a ham. Twelve servings, cooked for 10 minutes.',
     kw: ['brown sugar ham glaze', 'ham glaze recipe', 'brown sugar and mustard ham glaze', 'honey mustard ham glaze', 'glaze for baked ham'],
     why: 'It looks like a pancake syrup and cooks like a caramel, and it is the sticky finish on a holiday ham. Brown sugar is the base, as it dissolves smoothly and melts into a glossy lacquer, and the other ingredients are chosen to keep it from tasting only sweet: mustard for bite, orange juice for acid, and honey for body.\n\nThe cooking is brief. Everything goes into a small pan and simmers for about 10 minutes, until the glaze is syrupy enough to coat the back of a spoon. A pinch of ground cloves, or whole cloves taken out afterwards, gives the traditional ham flavour. If the glaze gets too thick, add a spoonful of orange juice.\n\n**Brush it on in the last 30 minutes of the ham\'s cooking**, not at the start, or the sugar will burn before the meat is warm. Apply two or three coats, 10 minutes apart. The surface should turn deep mahogany and sticky. Any leftover glaze can be served warm alongside the sliced ham.',
     ing: [
@@ -805,7 +805,7 @@ module.exports = {
 
   'cranberry-brie-bites': {
     d: 'Crisp mini filo shells filled with warm brie, cranberry sauce and a pecan, ready as a quick holiday starter.',
-    meta: 'Cranberry brie bites: crisp mini filo shells filled with warm brie, cranberry sauce and a pecan. Twelve servings, cooked in 15 minutes.',
+    meta: 'Cranberry brie bites: crisp mini filo shells filled with warm brie, cranberry sauce and a pecan. Twelve servings, cooked for 15 minutes.',
     kw: ['cranberry brie bites', 'brie and cranberry bites', 'cranberry brie bites recipe', 'cranberry brie filo bites', 'brie cranberry appetisers'],
     why: 'The common way this goes wrong is a soggy shell, and the fix is to bake the filo cups first. Filled straight from the pack, they soak up the cheese and the sauce and turn chewy. A few minutes empty in the oven dry them and give you a crisp base that stays crunchy under the filling.\n\nBrie is the right cheese for the job: it melts quickly into a creamy centre, and its rind is mild enough to eat. Cut it into small cubes, about 1 cm, so one cube fits in each shell. A teaspoon of cranberry sauce adds sharp sweetness, which cuts through the richness of the cheese, and a pecan half on top gives crunch.\n\n**Bake until the brie is soft and just starting to ooze.** That takes about 8 minutes at 190°C. Finish with a sprig of fresh rosemary or thyme for a bit of colour. Serve them warm, on a platter, within minutes of leaving the oven, because they lose their crispness as they cool.',
     ing: [

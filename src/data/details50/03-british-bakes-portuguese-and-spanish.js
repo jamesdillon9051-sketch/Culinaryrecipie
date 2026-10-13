@@ -47,7 +47,7 @@ module.exports = {
 
   'chocolate-nest-cakes': {
     d: 'Crunchy cornflake nests bound with melted chocolate, butter and golden syrup, filled with mini chocolate eggs for Easter.',
-    meta: 'Chocolate nest cakes: crunchy cornflake nests bound with chocolate, butter and golden syrup, filled with mini eggs. Twelve servings, ready in 30 minutes.',
+    meta: 'Chocolate nest cakes: crunchy cornflake nests bound with chocolate, butter and golden syrup, filled with mini eggs. Twelve servings, ready in 35 minutes.',
     kw: ['chocolate nest cakes', 'easter nest cakes', 'chocolate cornflake nests', 'easter chocolate nests recipe', 'cornflake nest cakes with mini eggs'],
     why: 'They are a child\'s recipe and an adult\'s guilty pleasure. Chocolate nest cakes, made in muffin tins every Easter, are cornflakes stuck together with a mixture of melted chocolate, butter and syrup, shaped into bird\'s nests and filled with chocolate eggs. No oven, no skill, and the children do most of the work.\n\nMelt the chocolate gently. Break 200 g of milk chocolate into pieces, put it in a bowl over a pan of barely simmering water, and stir in the butter and golden syrup as it melts. Don\'t let the bowl touch the water. **If the chocolate overheats, it turns grainy and stiff.** The mixture should be glossy and smooth.\n\nFold in the cornflakes carefully. Crushed lightly beforehand, they hold the shape better, and they coat evenly. Stir until every flake is covered, then spoon into paper cases in a muffin tin, pressing a well into the middle of each with the back of a spoon.\n\nChill for 30 minutes, until firm, then fill each nest with three mini chocolate eggs. They keep for days in a tin, though they rarely last that long.',
     ing: [
@@ -216,7 +216,7 @@ module.exports = {
 
   'chorley-cakes': {
     d: 'Flat, round Lancashire pastries of buttery flaky pastry filled with currants and sugar, eaten plain or with Lancashire cheese.',
-    meta: 'Chorley cakes: flat, round Lancashire pastries of flaky pastry filled with currants and sugar. Makes ten, baked in 20 minutes.',
+    meta: 'Chorley cakes: flat, round Lancashire pastries of flaky pastry filled with currants and sugar. Makes ten, baked for 20 minutes.',
     kw: ['chorley cakes', 'chorley cakes recipe', 'lancashire currant pastry', 'chorley cakes with lancashire cheese', 'flat currant cakes'],
     why: 'Chorley cakes are not eccles cakes, and anyone from Lancashire will tell you so. They are flatter, plainer and less sweet. The pastry is a flaky one, not puff, there is no sugar glaze, and the filling is currants and a little sugar with no spice. They are eaten for tea, buttered and with a slice of Lancashire cheese on the side.\n\nA flaky pastry is made by rolling and folding butter into dough. For speed, a good-quality shop-bought puff pastry gives a fine result. If making your own, use a rough method: grate frozen butter into the flour, add cold water, fold and roll four times. **Keep everything cold.** Warm butter melts into the flour and loses the layers.\n\nCut 10 cm rounds. Put a spoonful of currants mixed with brown sugar and a knob of butter in the middle, gather the edges together and press shut, then turn over so the seam is underneath. Roll gently with a rolling pin until the currants show through faintly.\n\nSlash the top three times, brush with milk and sprinkle with sugar. Bake at 200°C for 20 minutes, until golden. Eat warm or cold.',
     ing: [
@@ -247,7 +247,7 @@ module.exports = {
 
   'banbury-cakes': {
     d: 'Oval pastry cakes filled with spiced currants, candied peel and rum, with slashes across the top and a sugar crust.',
-    meta: 'Banbury cakes: oval pastry cakes filled with spiced currants, candied peel and rum, with a sugar crust. Makes ten, baked in 20 minutes.',
+    meta: 'Banbury cakes: oval pastry cakes filled with spiced currants, candied peel and rum, with a sugar crust. Makes ten, baked for 20 minutes.',
     kw: ['banbury cakes', 'banbury cakes recipe', 'oxfordshire banbury cakes', 'spiced currant oval pastries', 'banbury cake with puff pastry'],
     why: 'Oval, not round, and spicier than an Eccles. The Banbury cake is a pastry from Oxfordshire, with a filling of currants and candied peel flavoured with allspice, nutmeg, cinnamon and a splash of rum. The shape is the clue: it is oval, pointed at the ends, and slashed across the top in three places.\n\nPuff pastry is the usual casing. Ready-rolled all-butter puff pastry is the shortcut, and it gives a crisp, flaky shell. Cut it into rounds, roll them slightly into ovals, and fill. **Don\'t overfill.** A heaped spoonful is too much; use about a tablespoon, spread in the middle.\n\nThe filling is mixed with softened butter and brown sugar, which melts in the oven to form the sticky centre. Candied peel adds citrus and chew, and the rum gives the whole thing warmth. Allow the mixture to rest for 30 minutes so the currants plump up.\n\nFold the edges over to the centre and press them down, then turn the cake over and flatten it with a rolling pin to an oval about 12 cm long. Brush with egg white, sprinkle with sugar and slash the top. Bake at 200°C for 20 minutes, until golden.',
     ing: [
@@ -282,7 +282,7 @@ module.exports = {
 
   'cornish-fairings': {
     d: 'Crisp, cracked ginger biscuits made with golden syrup, mixed spice and bicarbonate of soda, a traditional Cornish fair-day treat.',
-    meta: 'Cornish fairings: crisp, cracked ginger biscuits made with golden syrup, mixed spice and bicarbonate of soda. Makes 24, baked in 12 minutes.',
+    meta: 'Cornish fairings: crisp, cracked ginger biscuits made with golden syrup, mixed spice and bicarbonate of soda. Makes 24, baked for 12 minutes.',
     kw: ['cornish fairings', 'cornish fairings recipe', 'cornish ginger biscuits', 'fairings biscuits', 'crisp ginger fairings'],
     why: 'They used to be sold at fairs as presents, wrapped in paper, and what makes them special is the crack. A good fairing has a surface that has split into a web of fine lines in the oven. That crackle is a sign of the right dough, the right oven and the right spices.\n\nThe dough is flour, ground ginger, mixed spice, cinnamon, bicarbonate of soda, sugar, butter and golden syrup. The syrup makes the biscuits crisp and chewy at the edges, and the bicarbonate of soda reacts with it to produce the spread and the crackle. The dough should be soft but not sticky. **Roll it into balls and space them 5 cm apart.** They spread a lot.\n\nBake at 180°C for 12 minutes, until they are deep golden-brown and flat, with cracks all over the top. Let them cool on the tray for 5 minutes, since they are soft when hot and firm up quickly.\n\nTraditional fairings are hard and snappy. For a chewier biscuit, bake for 9 minutes and cool on the tray. Store in a tin, and they keep for a week or more.',
     ing: [
@@ -431,7 +431,7 @@ module.exports = {
 
   'torrijas': {
     d: 'Slices of bread soaked in sweetened, spiced milk, coated in egg, fried until golden and rolled in cinnamon sugar, a Spanish Easter treat.',
-    meta: 'Torrijas: slices of bread soaked in sweetened, spiced milk, coated in egg, fried until golden and rolled in cinnamon sugar. Six servings, cooked in 15 minutes.',
+    meta: 'Torrijas: slices of bread soaked in sweetened, spiced milk, coated in egg, fried until golden and rolled in cinnamon sugar. Six servings, cooked for 15 minutes.',
     kw: ['torrijas', 'torrijas recipe', 'spanish torrijas', 'spanish french toast', 'torrijas de semana santa'],
     why: 'Stale bread is the main ingredient. The bread has to be dry, dense and at least two days old, cut thick, because fresh bread falls apart in the milk. Torrijas are the Spanish take on French toast, eaten during Holy Week, and the milk used to soak them is infused with cinnamon, lemon peel and sugar. It is the soaking that makes them so soft.\n\nWarm the milk with the cinnamon stick, a strip of lemon peel and the sugar until the sugar dissolves, then let it cool slightly. The bread slices, about 2.5 cm thick, go into a shallow dish and the milk is poured over them. Soak for 5 to 10 minutes, turning once, until the slice is saturated but still holds together. **Lift them out with a spatula, not your fingers.** They are fragile.\n\nDip each slice in beaten egg, shake off the excess, and cook in 1 cm of hot olive or sunflower oil for 2 minutes on each side, until deep golden. Drain on kitchen paper.\n\nRoll the hot slices in a mix of caster sugar and cinnamon. Serve warm, on their own or with a drizzle of honey or a glass of sweet wine.',
     ing: [
@@ -463,7 +463,7 @@ module.exports = {
 
   'leche-frita': {
     d: 'Thick cinnamon-scented custard set in a tray, cut into squares, coated in flour and egg and cooked until golden with a creamy centre.',
-    meta: 'Leche frita: thick cinnamon-scented custard set in a tray, cut into squares and cooked until golden with a creamy centre. Six servings, cooked in 15 minutes.',
+    meta: 'Leche frita: thick cinnamon-scented custard set in a tray, cut into squares and cooked until golden with a creamy centre. Six servings, cooked for 15 minutes.',
     kw: ['leche frita', 'leche frita recipe', 'spanish fried milk', 'spanish custard squares', 'leche frita with cinnamon'],
     why: 'The name means fried milk, and it describes the dish perfectly. Leche frita is a thick custard, flavoured with cinnamon and lemon, poured into a tray and left to set, then cut into squares, dipped in egg and flour, and fried until crisp. Inside, it is hot, creamy and soft. Outside, it is a thin, golden crust.\n\nThe custard has to be firm enough to be cut. It is thickened with cornflour as well as egg yolks. Cook milk with the cinnamon stick and lemon peel, whisk in a mix of yolks, sugar and cornflour, and cook for 8 minutes, stirring all the time, until it is very thick, like a stiff paste. **Don\'t take it off the heat too early.** If it is too soft it will not hold its shape.\n\nPour into a lined tray and spread to 2 cm thick. Let it cool, then chill for at least 2 hours, until firm. Cut into squares of 5 cm.\n\nCoat each in flour, then in beaten egg, and fry in hot oil for 1 minute on each side, until golden. Dust with cinnamon sugar and serve straight away. The contrast between the crisp shell and the molten middle is the point.',
     ing: [
@@ -534,7 +534,7 @@ module.exports = {
 
   'magdalenas': {
     d: 'Light, tall Spanish sponge cakes scented with lemon and olive oil, baked in paper cases with a characteristic peaked top.',
-    meta: 'Magdalenas: light, tall Spanish sponge cakes scented with lemon and olive oil, baked in paper cases with a peaked top. Makes twelve, baked in 20 minutes.',
+    meta: 'Magdalenas: light, tall Spanish sponge cakes scented with lemon and olive oil, baked in paper cases with a peaked top. Makes twelve, baked for 20 minutes.',
     kw: ['magdalenas', 'spanish magdalenas', 'magdalenas recipe', 'spanish lemon muffins', 'magdalenas with olive oil'],
     why: 'The peak is the proof. A real Spanish magdalena has a little dome on top that rises in the middle, and a lot of the secret is in the temperature. The batter is rested in the fridge for 30 minutes, and the oven starts very hot, at 220°C, for the first 5 minutes, then drops to 190°C. The sudden blast of heat makes the batter spring up in the centre and set into a peak.\n\nThey are not the French madeleine, which is shell-shaped. The Spanish magdalena is a muffin-like small sponge, made with olive oil rather than butter, and lemon zest. The oil gives a moist crumb that stays soft for days. Mild olive oil is better than strong extra virgin. **Don\'t beat the batter hard.** A smooth, thick batter, mixed just until combined, gives the best peak.\n\nWhisk the eggs and sugar for 5 minutes, until pale and tripled in volume. Fold in the flour and baking powder, then the oil, milk and lemon zest. Chill, then spoon into paper cases to three-quarters full.\n\nBake as described, and cool on a rack. They are best eaten the same day, with coffee at breakfast, in the Spanish manner.',
     ing: [

@@ -47,7 +47,7 @@ module.exports = {
 
   'bajan-fish-cakes': {
     d: 'Crisp little fritters of flaked white fish in a thyme and spring onion batter, spiced with a little scotch bonnet and fried until golden.',
-    meta: 'Bajan fish cakes: crisp fritters of flaked white fish in a thyme and spring onion batter with a little scotch bonnet. Six servings, cooked in 15 minutes.',
+    meta: 'Bajan fish cakes: crisp fritters of flaked white fish in a thyme and spring onion batter with a little scotch bonnet. Six servings, cooked for 15 minutes.',
     kw: ['bajan fish cakes', 'barbadian fish cakes', 'caribbean fish cakes', 'fish cake fritters with thyme', 'bajan fish cakes recipe'],
     why: 'Fish cakes in Barbados are not the breaded patties of a British chip shop. They are fritters: flaked fish folded into a thick, seasoned batter and dropped into hot oil by the spoonful, which puffs them into rough, crisp-edged rounds.\n\nThe seasoning does the work. Fresh thyme, spring onions and a very small amount of scotch bonnet go in with the fish, along with garlic, so every bite is savoury and a little hot. Seed the chilli if you want warmth without the burn.\n\nPoach the fish briefly and flake it while it is still warm. The batter should be thick enough to hold on the spoon and fall in a clump, not run. **Fry at 175°C** and turn them once; if the oil is too cool they absorb it, and if it is too hot they brown outside before the middle cooks. Serve them hot, with a wedge of lime and a spoonful of pepper sauce for anyone who wants more heat.',
     ing: [
@@ -153,7 +153,7 @@ module.exports = {
 
   'conch-fritters': {
     d: 'Crisp fritters of minced conch, peppers and onion in a seasoned batter, deep fried and served with a hot, tangy dipping sauce.',
-    meta: 'Conch fritters: crisp deep fried fritters of minced conch, peppers and onion in a seasoned batter, with a tangy dip. Six servings, cooked in 15 minutes.',
+    meta: 'Conch fritters: crisp deep fried fritters of minced conch, peppers and onion in a seasoned batter, with a tangy dip. Six servings, cooked for 15 minutes.',
     kw: ['conch fritters', 'bahamian conch fritters', 'conch fritters recipe', 'caribbean conch fritters', 'conch fritters with dipping sauce'],
     why: 'Most home versions come out rubbery or greasy, and the fix is to mince the conch as finely as you can bear. Conch is a tough, sweet shellfish, and large pieces stay chewy no matter how long they cook. Fine mince disappears into the batter and leaves only flavour.\n\nThe batter is thick, closer to a drop scone than a coating. Flour, an egg, milk, a little baking powder, finely diced pepper, onion and celery bind everything, with hot sauce and lime for lift. If you cannot buy conch, chopped raw prawns work with the same method.\n\nDrop the batter by the tablespoon into oil at 175°C. **Keep the oil there**, because a drop in temperature turns fritters oily and a rise burns the outside. They are done when deep golden and a skewer comes out clean, which takes about 3 minutes a side. Serve them hot from the oil with the dip alongside, and give each batch a minute on paper to shed the excess fat.',
     ing: [
@@ -193,7 +193,7 @@ module.exports = {
 
   'caribbean-coconut-rice': {
     d: 'Long-grain rice cooked in coconut milk with thyme, garlic and spring onions until fragrant, creamy and fluffy.',
-    meta: 'Caribbean coconut rice: long-grain rice cooked in coconut milk with thyme, garlic and spring onions until fragrant and fluffy. Four servings, cooked in 30 minutes.',
+    meta: 'Caribbean coconut rice: long-grain rice cooked in coconut milk with thyme, garlic and spring onions until fragrant and fluffy. Four servings, cooked for 30 minutes.',
     kw: ['caribbean coconut rice', 'coconut rice recipe', 'coconut rice with thyme', 'rice cooked in coconut milk', 'caribbean rice side dish'],
     why: 'Why does coconut rice so often turn out gluey or bland? Usually the liquid is wrong. Coconut milk is thick, so rice cooked in it alone is heavy and sticky; thinning it with water gives creamy grains that still separate.\n\nThe flavour here is simple and savoury rather than sweet. Garlic, spring onions and fresh thyme go in with the rice, along with plenty of salt, which coconut needs more of than water does. The thyme sprigs are removed at the end.\n\nWash the rice until the water runs nearly clear, because loose surface starch is what makes it clump. **Do not lift the lid** once it is simmering; the steam does the cooking. Resting off the heat for 10 minutes lets the grains finish and dry out, and a fork fluffs them without breaking them. Season the finished rice with a little extra salt if it tastes flat, since coconut milk mutes it more than you expect.',
     ing: [
@@ -314,7 +314,7 @@ module.exports = {
 
   'samoan-chop-suey': {
     d: 'A quick stir-fry of chicken, glass noodles, cabbage and carrot in a soy and ginger sauce, the way it is served at Samoan gatherings.',
-    meta: 'Samoan chop suey: a quick stir-fry of chicken, glass noodles, cabbage and carrot in a soy and ginger sauce. Four servings, cooked in 20 minutes.',
+    meta: 'Samoan chop suey: a quick stir-fry of chicken, glass noodles, cabbage and carrot in a soy and ginger sauce. Four servings, cooked for 20 minutes.',
     kw: ['samoan chop suey', 'samoan chop suey recipe', 'pacific chop suey with glass noodles', 'chicken and glass noodle stir fry', 'island style chop suey'],
     why: 'The smell hits first: ginger and garlic frying in hot oil, then soy sauce catching on the base of the pan. Samoan chop suey is a Pacific cousin of Chinese-style stir-fries, built around glass noodles that soak up the sauce rather than a thick, starchy gravy.\n\nChicken thighs stay juicy in the heat, and cabbage and carrot give crunch and sweetness. The noodles are soaked in hot water until just soft, then tossed in at the end so they absorb the flavoured liquid and turn glossy.\n\nCut everything small and have it ready before the pan is hot, because the cooking is fast. **Keep the heat high** until the noodles go in, then lower it. The finished dish should be moist but not soupy, with each strand coated in sauce. Add a splash of water if it sticks. Serve it straight from the wok, with rice on the side if you want to stretch it further.',
     ing: [
@@ -348,7 +348,7 @@ module.exports = {
 
   'samoan-panikeke': {
     d: 'Sweet banana fritters from Samoa, made from ripe bananas and flour, fried until golden and crisp at the edges.',
-    meta: 'Samoan panikeke: sweet banana fritters made from ripe bananas and a simple batter, fried until golden. Six servings, cooked in 15 minutes.',
+    meta: 'Samoan panikeke: sweet banana fritters made from ripe bananas and a simple batter, fried until golden. Six servings, cooked for 15 minutes.',
     kw: ['samoan panikeke', 'panikeke recipe', 'samoan banana fritters', 'pacific banana pancakes', 'panikeke with ripe bananas'],
     why: 'Panikeke are the sound of a Samoan morning: batter hissing as it hits hot oil. They sit between a pancake and a doughnut, with a crisp edge, a soft middle and enough banana to be sweet without a pile of sugar.\n\nThe bananas must be properly ripe, with brown-flecked skins, because that is where the sweetness and the soft texture come from. Mash them well, then mix with flour, sugar, baking powder and a little milk. The batter should be thick, like soft cake mix, and drop from a spoon.\n\nFry in about 1 cm of oil at medium heat. **Too hot and the outside burns** before the middle sets; too cool and they absorb oil. Turn once when the edges look dry and the underside is deep gold. Eat them warm, dusted with sugar or with a spoonful of coconut cream. They are best eaten within minutes of leaving the pan, while the edges are still crisp and the centres soft.',
     ing: [
@@ -378,7 +378,7 @@ module.exports = {
 
   'samoan-koko-alaisa': {
     d: 'A warming Samoan breakfast of rice simmered in water and coconut milk with cocoa until soft and thick, then sweetened.',
-    meta: 'Samoan koko alaisa: a warming breakfast of rice simmered in coconut milk and cocoa until soft and thick. Four servings, cooked in 25 minutes.',
+    meta: 'Samoan koko alaisa: a warming breakfast of rice simmered in coconut milk and cocoa until soft and thick. Four servings, cooked for 25 minutes.',
     kw: ['samoan koko alaisa', 'koko alaisa recipe', 'samoan cocoa rice', 'chocolate rice pudding with coconut milk', 'pacific cocoa rice porridge'],
     why: 'Most home versions come out too thick or too thin, and the fix is to treat it as a porridge, not a pudding. Koko alaisa is rice cooked in water until it breaks down, then enriched with coconut milk and cocoa. It should pour slowly from a spoon, like loose custard.\n\nCocoa gives it a dark, bitter backbone, and the sugar goes in at the end to balance it. In Samoa the cocoa is traditionally ground from local beans; unsweetened cocoa powder is the nearest equivalent. Stir it into a little cold water first so that it does not clump.\n\nStir often, especially after the coconut milk goes in, because the rice settles and catches on the base. **Simmer gently** and add a splash of hot water if it thickens too much. It continues to thicken as it cools, so serve it while it is still loose and steaming. Eat it from a bowl with a spoon, and top with sliced banana if you want a fresh contrast to the cocoa.',
     ing: [
@@ -720,7 +720,7 @@ module.exports = {
 
   'barbecued-prawns': {
     d: 'Large prawns grilled in their shells over hot coals and tossed in garlic butter with lemon and parsley.',
-    meta: 'Barbecued prawns: large prawns grilled in their shells over a hot barbecue and tossed in garlic butter with lemon. Four servings, cooked in 8 minutes.',
+    meta: 'Barbecued prawns: large prawns grilled in their shells over a hot barbecue and tossed in garlic butter with lemon. Four servings, cooked for 8 minutes.',
     kw: ['barbecued prawns', 'bbq prawns', 'australian barbecue prawns', 'garlic butter prawns on the barbecue', 'barbecued king prawns recipe'],
     why: 'A barbecue on a warm evening is the natural home for this dish, and prawns are about the fastest thing you can put on one. They need only 3 or 4 minutes a side over a hot grill, and the shell protects the meat from the fierce heat, keeping it sweet and juicy.\n\nBuy large raw prawns in the shell, and if you can, with the heads on; both add flavour. Cut along the back and remove the dark vein, but leave the shell, so the garlic butter can get in. Brush with oil so they do not stick.\n\n**Take them off the moment they turn pink and opaque.** An extra minute makes them rubbery. Melt the butter with garlic and lemon in a small pan at the side of the grill and spoon it over as they come off. Serve with plenty of napkins, because they are best eaten with the fingers.',
     ing: [
@@ -750,7 +750,7 @@ module.exports = {
 
   'newfoundland-fish-cakes': {
     d: 'Pan-fried cakes of flaked cod and mashed potato seasoned with onion and savory, crisp outside and soft within.',
-    meta: 'Newfoundland fish cakes: pan-fried cakes of flaked cod and mashed potato seasoned with onion and savory. Four servings, cooked in 15 minutes.',
+    meta: 'Newfoundland fish cakes: pan-fried cakes of flaked cod and mashed potato seasoned with onion and savory. Four servings, cooked for 15 minutes.',
     kw: ['newfoundland fish cakes', 'canadian cod fish cakes', 'newfoundland cod cakes', 'fish cakes with savory', 'fish cake recipe with cod and potato'],
     why: 'What goes into a Newfoundland fish cake besides fish? Potatoes, onion, and above all savory. This dried herb, sold as summer savory, is the seasoning of Newfoundland cooking and gives the cakes a peppery, slightly piney note that parsley or thyme cannot quite match.\n\nThe cakes are mostly cod. The fish is poached with small potatoes, then mashed together with the onion, the herb and an egg, which binds without making the cakes heavy. A higher proportion of fish than potato gives a flaky texture and a clean taste.\n\nShape the mixture into patties about 2 cm thick and fry them in butter. **Do not move them for the first 3 minutes**, or the base will not form a crust and the cakes may crumble. If the mixture feels too wet to shape, chill it for half an hour. Serve with pickles or relish. Serve them hot with a pot of pickles or a spoonful of relish, which cuts through the richness of the butter.',
     ing: [

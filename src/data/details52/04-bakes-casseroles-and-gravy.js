@@ -18,7 +18,7 @@
 module.exports = {
   'witch-finger-cookies': {
     d: 'Buttery almond shortbread cookies shaped like long, crooked fingers, with an almond for a fingernail and a smear of jam for gore.',
-    meta: 'Witch finger cookies: buttery almond shortbread shaped like crooked fingers, with an almond for a nail and jam for gore. Twenty-four cookies, cooked in 15 minutes.',
+    meta: 'Witch finger cookies: buttery almond shortbread shaped like crooked fingers, with an almond for a nail and jam for gore. Twenty-four cookies, cooked for 15 minutes.',
     kw: ['witch finger cookies', 'witch fingers halloween cookies', 'witch finger cookies recipe', 'almond shortbread finger cookies', 'halloween finger cookies'],
     why: 'How do you make a cookie look like a finger? With a knuckle, a nail and a bit of crookedness. Witch finger cookies are a Halloween favourite because the dough is simple and the shaping is fun. They are a buttery shortbread flavoured with almond, which holds its shape well in the oven and tastes better than the usual novelty biscuit.\n\nRoll a piece of dough into a log about 8 cm long and slightly thinner at the tip. Pinch in two spots to make knuckles, and score a few lines across each with the back of a knife. Press a blanched almond into the tip for the nail, pushing it down firmly so it does not fall out in the oven.\n\n**Chill the shaped fingers for 15 minutes** before baking, so the butter firms up and the lines stay sharp. Bake until just pale gold. Once cool, lift each almond, dab a little red jam under it and press it back, so that the nail looks as if it is bleeding. Serve on a dark plate.',
     ing: [
@@ -124,7 +124,7 @@ module.exports = {
 
   'bagel-bites': {
     d: 'Mini bagels topped with pizza sauce, mozzarella and pepperoni, baked until the cheese bubbles and the edges crisp.',
-    meta: 'Bagel bites: mini bagels topped with pizza sauce, mozzarella and pepperoni, baked until the cheese bubbles. Twelve servings, cooked in 12 minutes.',
+    meta: 'Bagel bites: mini bagels topped with pizza sauce, mozzarella and pepperoni, baked until the cheese bubbles. Twelve servings, cooked for 12 minutes.',
     kw: ['bagel bites', 'homemade bagel bites', 'pizza bagel bites', 'mini bagel pizzas', 'bagel bites recipe'],
     why: 'The first sign they are ready is the sound: cheese bubbling and spitting against hot bagel. Bagel bites are mini pizzas on halved mini bagels, and they are made in minutes. They are a snack for parties, after-school hunger and game days, and they are quicker to make from scratch than to wait for a frozen version to bake.\n\nSplit each mini bagel and toast the cut sides lightly first, so they stay crisp under the toppings. A spoonful of thick pizza sauce goes on, then a pinch of grated mozzarella and a slice or two of mini pepperoni. A dusting of dried oregano finishes them. Do not overload them, since the bagels are small and cheese will slide off.\n\n**Bake in a hot oven** at 200°C, until the cheese is melted and speckled with gold. Let them cool for a couple of minutes before serving, because the sauce stays molten. Vary the toppings with sweetcorn, olives or sliced peppers, or leave off the meat for a vegetarian version.',
     ing: [
@@ -151,7 +151,7 @@ module.exports = {
 
   'sourdough-pizza-crust': {
     d: 'A thin, chewy, blistered pizza base made with sourdough starter, bulk fermented for four hours and baked in a very hot oven.',
-    meta: 'Sourdough pizza crust: a thin, chewy, blistered pizza base made with sourdough starter, fermented for four hours. Four servings, cooked in 15 minutes.',
+    meta: 'Sourdough pizza crust: a thin, chewy, blistered pizza base made with sourdough starter, fermented for four hours. Four servings, cooked for 15 minutes.',
     kw: ['sourdough pizza crust', 'sourdough pizza dough', 'sourdough pizza base recipe', 'pizza crust with sourdough starter', 'homemade sourdough pizza'],
     why: 'It looks like an ordinary pizza and tastes like a better one. A sourdough crust has a faint tang and a deep, nutty flavour that a yeast crust only gets after a day or two in the fridge, and the long fermentation gives it a chewy interior, a crisp base and big blisters on the rim.\n\nThe dough is flour, water, a lively starter and salt, with a splash of oil. Mix it, knead it briefly, then leave it for four hours, until it has roughly doubled and feels light and airy. The starter should be active: bubbly, risen and at its peak. A weak starter gives a dense, heavy crust that does not blister.\n\n**Heat the oven to its hottest setting for at least 30 minutes** with a baking sheet or stone inside. Stretch the dough by hand, not with a rolling pin, to keep the gas in the rim. Top lightly with sauce and cheese and slide the pizza onto the hot surface. It cooks in 7 minutes. Slice with a pizza cutter and eat at once.',
     ing: [
@@ -255,7 +255,7 @@ module.exports = {
 
   'sourdough-waffles': {
     d: 'Crisp, tangy waffles made with sourdough discard, light inside and golden outside, ready without an overnight rest.',
-    meta: 'Sourdough waffles: crisp, tangy waffles made with sourdough discard, light inside and golden outside. Four servings, cooked in 20 minutes.',
+    meta: 'Sourdough waffles: crisp, tangy waffles made with sourdough discard, light inside and golden outside. Four servings, cooked for 20 minutes.',
     kw: ['sourdough waffles', 'sourdough discard waffles', 'sourdough waffle recipe', 'crispy sourdough waffles', 'waffles with sourdough starter'],
     why: 'The sound of a waffle iron hissing and the smell of browning butter: that is how breakfast starts. Sourdough waffles use discard, the portion of starter you take out before feeding, which is too good to waste. It adds a gentle tang and a lightness to the batter, and the waffles come out crisp on the outside and tender within.\n\nThe batter is made in a few minutes, with no overnight rest. Mix the discard, flour, milk, eggs and melted butter, then add the baking powder and a little bicarbonate of soda last. The bicarbonate reacts with the acidity of the discard and puffs the batter, which is why it should go in just before cooking.\n\n**Heat the waffle iron fully before pouring** and grease it lightly. Cook each waffle for 4 to 5 minutes, until it stops steaming and is deep golden. Keep the finished waffles on a rack in a low oven, not stacked, so they stay crisp. Serve with butter, maple syrup, fruit or yoghurt.',
     ing: [
@@ -287,7 +287,7 @@ module.exports = {
 
   'cottage-cheese-toast': {
     d: 'Thick toast topped with cottage cheese, sliced tomato, olive oil, black pepper and torn basil, ready in minutes.',
-    meta: 'Cottage cheese toast: thick toast topped with cottage cheese, sliced tomato, olive oil, black pepper and torn basil. Two servings, cooked in 5 minutes.',
+    meta: 'Cottage cheese toast: thick toast topped with cottage cheese, sliced tomato, olive oil, black pepper and torn basil. Two servings, cooked for 5 minutes.',
     kw: ['cottage cheese toast', 'cottage cheese on toast', 'savoury cottage cheese toast with tomato', 'cottage cheese toast recipe', 'cottage cheese toast with tomato'],
     why: 'The first thing you hear is the crunch of the toast. Cottage cheese on toast is a fast breakfast or lunch that sets soft, cool curds against a crisp base, and the tomato and basil lift it into something that tastes fresh. It takes five minutes and one pan.\n\nThe bread matters. Choose a thick slice of sourdough or a sturdy wholemeal loaf, and toast it until it is properly crisp, so it can carry the cheese without going soft. Cottage cheese is mild, so season generously: black pepper, flaky salt and a good drizzle of olive oil all make a difference.\n\n**Pile the cottage cheese on at the last moment**, once the toast is cool enough to hold. Add the tomato slices, torn basil and a few chilli flakes. If your tomatoes are not very ripe, a pinch of sugar on the slices improves them. For a sweet version, use honey and berries instead of tomato and basil.',
     ing: [
@@ -351,7 +351,7 @@ module.exports = {
 
   'chicken-francoise': {
     d: 'Thin chicken cutlets dipped in egg and Parmesan, pan-fried until golden and finished in a lemon and white wine sauce.',
-    meta: 'Chicken Françoise: thin chicken cutlets dipped in egg and Parmesan, pan-fried and finished in a lemon and white wine sauce. Four servings, cooked in 25 minutes.',
+    meta: 'Chicken Françoise: thin chicken cutlets dipped in egg and Parmesan, pan-fried and finished in a lemon and white wine sauce. Four servings, cooked for 25 minutes.',
     kw: ['chicken francoise', 'chicken françoise', 'chicken francaise recipe', 'egg battered chicken in lemon wine sauce', 'chicken in lemon butter sauce'],
     why: 'Chicken, egg, lemon, wine: this dish is built from four plain things that become more than the sum of their parts. The cutlets are dipped in flour and egg, which makes a thin, soft coating that crisps lightly in the pan and then soaks up the sauce, so it is more like a tender omelette wrapper than a crust.\n\nSlice the chicken breasts in half horizontally, then pound them to an even thickness of about 1 cm. That way they cook in minutes and stay juicy. Coat in flour, then in beaten egg mixed with Parmesan, and fry in oil over medium heat. The coating should turn pale gold, not brown, for about 3 minutes a side.\n\n**Make the sauce in the same pan**, scraping up any browned bits. Wine, stock and lemon juice go in and reduce, then butter whisked in at the end gives the sauce a gloss and a rounder flavour. Return the chicken to the pan for a minute to soak up the sauce. Serve with pasta, rice or green beans.',
     ing: [
@@ -514,7 +514,7 @@ module.exports = {
 
   'sonoran-hot-dog': {
     d: 'A bacon-wrapped hot dog in a soft roll, topped with pinto beans, tomato, onion, mayonnaise and mustard.',
-    meta: 'Sonoran hot dog: a bacon-wrapped hot dog in a soft roll, topped with pinto beans, tomato, onion, mayonnaise and mustard. Four servings, cooked in 10 minutes.',
+    meta: 'Sonoran hot dog: a bacon-wrapped hot dog in a soft roll, topped with pinto beans, tomato, onion, mayonnaise and mustard. Four servings, cooked for 10 minutes.',
     kw: ['sonoran hot dog', 'bacon wrapped hot dog', 'sonoran hot dog recipe', 'hot dog with beans and tomato', 'arizona sonoran hot dog'],
     why: 'Bacon, a hot dog, beans, tomato, onion, mayonnaise and mustard: the Sonoran hot dog is a pile of toppings on a soft bun, and the first reaction is usually that it cannot possibly work. It does, because each topping has a job: the bacon is smoky and salty, the beans are creamy and earthy, the tomato and onion are fresh, and the mayonnaise and mustard supply richness and bite.\n\nWrap each hot dog in a rasher of bacon, tucking the ends under, and cook it in a hot pan for about 8 minutes, turning, until the bacon is crisp all over. The bun should be soft and slightly sweet, like a bolillo split down the top. Warm it for a minute in the pan with the bacon fat, or steam it.\n\n**Warm the beans before piling them on**, and keep the diced tomato and onion cold and fresh for contrast. A drizzle of jalapeño salsa on top finishes the dish. Assemble just before eating, since the bun softens under all the toppings.',
     ing: [
@@ -546,7 +546,7 @@ module.exports = {
 
   'jucy-lucy': {
     d: 'A beef burger with a core of molten cheese sealed inside the patty, so it oozes out at the first bite.',
-    meta: 'Jucy Lucy: a beef burger with a core of molten cheese sealed inside the patty, so it oozes out at the first bite. Four servings, cooked in 12 minutes.',
+    meta: 'Jucy Lucy: a beef burger with a core of molten cheese sealed inside the patty, so it oozes out at the first bite. Four servings, cooked for 12 minutes.',
     kw: ['jucy lucy', 'juicy lucy burger', 'cheese stuffed burger', 'jucy lucy recipe', 'burger with molten cheese centre'],
     why: 'Seal the edges well and let it rest. Those are the two instructions that matter most for a Jucy Lucy, because the whole point is a patty with a pocket of molten cheese inside, and any gap in the seam will let the cheese escape into the pan instead of into your mouth. A burger that has leaked is just a burger.\n\nDivide the mince into 8 equal balls and flatten each into a thin round. Place a folded slice of American cheese in the centre of four of them, top each with a second round and pinch the edges together, working all the way round. Press the seam flat and check for cracks. Use mince with 20 per cent fat; lean mince cracks.\n\n**Cook the burgers in a hot pan for about 5 minutes a side**, pressing only once, at the start, and never afterwards. Let them rest for 3 minutes before serving, as the cheese inside is hotter than lava. Warn your guests. Serve in toasted buns with pickles and onion.',
     ing: [
@@ -706,7 +706,7 @@ module.exports = {
 
   'pan-gravy': {
     d: 'A simple gravy made from roast pan drippings or butter, flour and stock, stirred smooth and seasoned with pepper.',
-    meta: 'Pan gravy: a simple gravy made from pan drippings or butter, flour and stock, stirred smooth and seasoned with pepper. Six servings, cooked in 10 minutes.',
+    meta: 'Pan gravy: a simple gravy made from pan drippings or butter, flour and stock, stirred smooth and seasoned with pepper. Six servings, cooked for 10 minutes.',
     kw: ['pan gravy', 'pan gravy recipe', 'gravy from pan drippings', 'simple roast gravy', 'homemade gravy with flour and stock'],
     why: 'Cook the flour for a full minute before the stock goes in. That is the quick instruction that makes the difference between a gravy that tastes of raw flour and one that tastes of roasted meat. The flour and fat are cooked together to a pale, nutty paste called a roux, and the colour of the roux sets the colour of the gravy.\n\nUse the fat and sticky brown bits left in the roasting tin, which are packed with flavour. Pour off all but a few spoonfuls of fat, put the tin over a low heat and whisk in the flour. Then add the hot stock a little at a time, whisking after each addition, scraping up the browned bits from the base.\n\n**Simmer the gravy for 5 minutes** until it thickens and coats a spoon. Season with salt and plenty of black pepper, and add a dash of Worcestershire sauce if it needs depth. If it is too thick, thin it with a little hot stock; if lumpy, pass it through a sieve. Serve it hot, in a jug.',
     ing: [
@@ -735,7 +735,7 @@ module.exports = {
 
   'red-eye-gravy': {
     d: 'A thin Southern gravy made by deglazing a ham pan with strong black coffee, served over country ham and biscuits.',
-    meta: 'Red eye gravy: a thin Southern gravy made by deglazing a ham pan with strong black coffee, served over ham and biscuits. Four servings, cooked in 10 minutes.',
+    meta: 'Red eye gravy: a thin Southern gravy made by deglazing a ham pan with strong black coffee, served over ham and biscuits. Four servings, cooked for 10 minutes.',
     kw: ['red eye gravy', 'red eye gravy recipe', 'country ham with red eye gravy', 'coffee gravy for ham', 'southern ham and coffee gravy'],
     why: 'What do you do with a ham pan and a cup of coffee? You make red eye gravy. It is one of the simplest sauces there is: the fat and brown bits left from frying country ham are loosened with strong black coffee, which dissolves the sticky browned layer and turns the drippings into a thin, savoury, slightly bitter sauce.\n\nIt does not thicken. Red eye gravy is meant to be thin, and the name comes from the reddish colour it takes on, with the fat floating on top. The coffee must be strong, brewed double strength, because a weak cup gives a flat sauce. A teaspoon of brown sugar rounds off the bitterness.\n\n**Fry the ham first in a hot, dry pan** for 3 minutes a side, then lift it out. Pour the coffee into the hot pan and scrape the base for a couple of minutes while it bubbles and reduces. Spoon the gravy over the ham and split biscuits or grits. The ham is already salty, so there is no need to season it.',
     ing: [
@@ -762,7 +762,7 @@ module.exports = {
 
   'cocktail-meatballs': {
     d: 'Small baked beef meatballs simmered in a sweet and tangy sauce of grape jelly and chilli sauce, kept warm for a party.',
-    meta: 'Cocktail meatballs: small baked beef meatballs simmered in a sweet and tangy sauce of grape jelly and chilli sauce. Ten servings, cooked in 30 minutes.',
+    meta: 'Cocktail meatballs: small baked beef meatballs simmered in a sweet and tangy sauce of grape jelly and chilli sauce. Ten servings, cooked for 30 minutes.',
     kw: ['cocktail meatballs', 'grape jelly meatballs', 'party meatballs recipe', 'sweet and tangy cocktail meatballs', 'meatballs in jelly and chilli sauce'],
     why: 'The sauce smells sweet and sharp at once, a mix of grape jelly and chilli sauce that sounds odd and tastes like a barbecue sauce that has mellowed. Cocktail meatballs are an American party classic, served warm from a slow cooker with toothpicks, and they disappear within minutes of reaching the table.\n\nThe meatballs themselves are plain: beef mince mixed with breadcrumbs, egg, finely chopped onion and a little salt. Keep them small, around the size of a walnut, so they can be eaten in one bite. Baking is quicker and less messy than frying and gives an even brown colour. Roll them with wet hands so the meat does not stick.\n\n**Stir the jelly and chilli sauce over a low heat** until the jelly melts into a smooth, glossy sauce. Add the baked meatballs and simmer for 15 minutes, so they absorb some of it. Serve in a warm dish with cocktail sticks, and stir occasionally to keep the sauce from catching.',
     ing: [
@@ -793,7 +793,7 @@ module.exports = {
 
   'bacon-wrapped-scallops': {
     d: 'Plump scallops wrapped in crisp bacon and baked until the scallops are just opaque and the bacon is browned.',
-    meta: 'Bacon wrapped scallops: plump scallops wrapped in crisp bacon and baked until just opaque, with a squeeze of lemon. Four servings, cooked in 15 minutes.',
+    meta: 'Bacon wrapped scallops: plump scallops wrapped in crisp bacon and baked until just opaque, with a squeeze of lemon. Four servings, cooked for 15 minutes.',
     kw: ['bacon wrapped scallops', 'bacon wrapped scallops recipe', 'baked bacon wrapped scallops', 'scallops wrapped in bacon appetizer', 'bacon scallop skewers'],
     why: 'Scallops, bacon, lemon and a very hot oven: four things, and the secret is in the order. Raw bacon takes much longer to crisp than a scallop takes to cook, so if you wrap them raw, the bacon is chewy by the time the scallops are rubbery. The fix is to part-cook the bacon first.\n\nBake the bacon rashers for 7 minutes at 200°C until they are cooked but still pliable. Cut them in half, wrap each half around a scallop, and secure with a cocktail stick. Pat the scallops very dry first; a wet scallop steams and will not brown. Large sea scallops are best, about 30 g each.\n\n**Bake for 8 more minutes**, until the scallops are opaque and just firm and the bacon is crisp at the edges. Do not overcook them; they go from tender to tough in a couple of minutes. A squeeze of lemon and a sprinkle of paprika finish the dish. Serve hot, on a platter, with a small dish of lemon wedges.',
     ing: [

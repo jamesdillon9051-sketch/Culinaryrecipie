@@ -242,7 +242,7 @@ module.exports = {
 
   'turkish-tea': {
     d: 'Strong black tea brewed in a stacked pair of kettles and served in small tulip glasses, with sugar cubes on the side.',
-    meta: 'Turkish tea: strong black tea brewed in a stacked pair of kettles and served in small glasses. Four servings, ready in 15 minutes.',
+    meta: 'Turkish tea: strong black tea brewed in a stacked pair of kettles and served in small glasses. Four servings, ready in 17 minutes.',
     kw: ['turkish tea', 'turkish tea recipe', 'cay turkish tea', 'how to make turkish tea', 'turkish black tea with sugar'],
     why: 'Two pots, one tea, and nothing else. A Turkish teapot is a pair of kettles stacked together: the lower one holds boiling water, the upper one holds a strong concentrate of tea, and the two together make a drink that can be diluted to taste. The practical result is that a table of guests can have their glasses topped up all evening and each one can choose their strength.\n\nThe tea is loose black leaf, and it goes into the upper pot with a small amount of boiling water, not the whole amount. Pour in hot water from the lower pot until the leaves are just covered, then set the upper pot on top of the lower one and leave it for 10 minutes over a low heat. **Do not boil the tea.** Boiling turns it bitter and dark.\n\nWithout a stacked pair, use a small pot for the concentrate and a kettle for the hot water, and keep the small pot warm over the lowest heat.\n\nTo serve, pour about a third of a glass of the strong tea and top up with hot water. Light is called "açık", dark is called "koyu". Sugar cubes are placed beside the glass, never stirred in before it is poured. The tea should be a bright garnet red.',
     ing: [
@@ -929,7 +929,7 @@ module.exports = {
 
   'israeli-bourekas': {
     d: 'Flaky puff pastry parcels filled with a mix of potato and feta or cheese, brushed with egg and sprinkled with sesame seeds.',
-    meta: 'Israeli bourekas: flaky puff pastry parcels filled with potato and feta, brushed with egg and sprinkled with sesame seeds. Makes twelve, baked in 30 minutes.',
+    meta: 'Israeli bourekas: flaky puff pastry parcels filled with potato and feta, brushed with egg and sprinkled with sesame seeds. Makes twelve, baked for 30 minutes.',
     kw: ['israeli bourekas', 'bourekas recipe', 'cheese bourekas', 'potato and cheese bourekas', 'puff pastry bourekas'],
     why: 'Bourekas are the Israeli bakery snack for breakfast, lunch and anything in between. Their origins lie in the Sephardic Jewish kitchens of the Ottoman world, and they are now sold in every bakery, sometimes hot from the oven at dawn. The classic fillings are potato, cheese, spinach and mushroom.\n\nThe puff pastry does the work. Frozen shop-bought pastry is the ordinary route, and a good one: it is already flaky and needs only to be defrosted and cut. Keep it cold throughout. **If the pastry softens, put it in the fridge for 10 minutes before continuing.** Warm pastry will not rise.\n\nThe filling is mashed potato mixed with feta, a little grated cheddar, egg yolk, salt and black pepper. It should be thick and dry, and cooled completely before use. Wet or warm filling makes the pastry soggy and bursts the parcels.\n\nCut the pastry into 12 cm squares, place a spoonful of filling in the centre, fold diagonally into a triangle and press the edges with a fork. Brush with beaten egg and scatter with sesame and nigella seeds. Bake at 200°C for 25 minutes, until puffed and deep golden.',
     ing: [

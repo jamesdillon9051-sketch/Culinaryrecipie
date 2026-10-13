@@ -198,7 +198,7 @@ module.exports = {
 
   'chai-tow-kway': {
     d: 'Cubes of steamed radish and rice flour cake pan-fried with egg, preserved radish and garlic until crisp at the edges.',
-    meta: 'Chai tow kway: cubes of steamed radish and rice flour cake pan-fried with egg and garlic. Six servings, steamed and fried in about 75 minutes.',
+    meta: 'Chai tow kway: cubes of steamed radish and rice flour cake pan-fried with egg and garlic. Six servings, steamed and fried for about 75 minutes.',
     kw: ['chai tow kway', 'singapore fried carrot cake', 'radish cake singapore', 'chai tow kway recipe', 'white carrot cake with egg'],
     why: 'It is called carrot cake, but there is no carrot in it. The "carrot" is white radish, daikon, grated and cooked down with rice flour into a firm, steamed cake, which is cooled, cubed and fried with egg. The result is crisp outside, soft inside and savoury all through.\n\nMake the cake a day ahead if you can, or at least 2 hours before frying. It has to cool and firm up completely. Fresh from the steamer it is soft and falls apart in the pan. **Chill it overnight and it cuts cleanly.**\n\nThe batter is made by cooking grated daikon in its own juices for 10 minutes, then mixing it with rice flour, cornflour, water and a little white pepper. Pour into a lined tin and steam for 45 minutes.\n\nTo finish, cut into 2 cm cubes. Heat oil in a wok, fry garlic and preserved radish for 30 seconds, add the cubes and leave them untouched for 2 minutes, until golden. Pour beaten egg over, let it set into a crust, then toss. Season with light soy sauce and, for the black version, a little sweet dark soy.',
     ing: [
@@ -465,7 +465,7 @@ module.exports = {
 
   'sigeumchi-namul': {
     d: 'Spinach blanched for a minute, squeezed dry and tossed with sesame oil, garlic, soy sauce and toasted sesame seeds.',
-    meta: 'Sigeumchi namul: spinach blanched, squeezed dry and tossed with sesame oil, garlic and soy sauce. Four servings, cooked in 5 minutes.',
+    meta: 'Sigeumchi namul: spinach blanched, squeezed dry and tossed with sesame oil, garlic and soy sauce. Four servings, cooked for 5 minutes.',
     kw: ['sigeumchi namul', 'korean spinach side dish', 'korean seasoned spinach', 'sigeumchi namul recipe', 'spinach banchan'],
     why: 'Squeeze it as dry as you can: this is the whole technique. Sigeumchi namul is a Korean side dish, one of the small plates of banchan served with rice, and its character is a clean, fresh spinach flavour with a nutty, garlicky seasoning.\n\nBlanch the spinach in boiling water for 40 seconds, no longer. It should turn bright green and just wilt. Drain at once and plunge into cold water to stop the cooking. **Squeeze it with both hands until no more water drips out.** Wet spinach dilutes the seasoning and makes the dish watery.\n\nSeparate the clumps and cut roughly into 6 cm lengths. Toss with a minimum of seasoning: a little soy sauce, a crushed garlic clove, toasted sesame oil, and a pinch of salt. Use your hands. The Korean term for this, "muchim", means mixing by hand, and it spreads the seasoning gently without bruising the leaves.\n\nSprinkle with toasted sesame seeds to finish. Serve cold or at room temperature, the same day.',
     ing: [
@@ -671,7 +671,7 @@ module.exports = {
 
   'luqaimat': {
     d: 'Small, golden dough balls with a crisp shell and a soft centre, cooked in hot oil and drizzled with date syrup.',
-    meta: 'Luqaimat: small golden dough balls with a crisp shell and soft centre, drizzled with date syrup. Six servings, cooked in 15 minutes.',
+    meta: 'Luqaimat: small golden dough balls with a crisp shell and soft centre, drizzled with date syrup. Six servings, cooked for 15 minutes.',
     kw: ['luqaimat', 'luqaimat recipe', 'emirati luqaimat', 'arabic sweet dumplings', 'luqaimat with date syrup'],
     why: 'Wet your spoon, always. Luqaimat batter is sticky and loose, and without a wet spoon or hands the dough clings to everything and slides off in uneven lumps. A dish of cold water beside the pan solves this, and it is the only trick in the recipe.\n\nThe batter is flour, cornflour, a little sugar, yeast, cardamom and a pinch of saffron, mixed with warm milk and water to a thick but pourable consistency. It must rest for 1 hour in a warm place, until bubbly and almost doubled. The bubbles are what give luqaimat a light inside and a crisp shell. **Stir the batter once before frying, gently.** Beating it flat knocks the air out.\n\nHeat the oil to 180°C. Scoop a spoonful of batter with a wet spoon and push it off with another wet spoon or your thumb. The dumplings sink for a second, then rise and turn golden. Fry in batches for 3 minutes, turning, until deep gold all over.\n\nDrain briefly and drizzle at once with warm date syrup, then top with sesame seeds. Eat them hot, in the first 10 minutes.',
     ing: [

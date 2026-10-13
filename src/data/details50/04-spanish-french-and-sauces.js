@@ -252,7 +252,7 @@ module.exports = {
 
   'croquetas-de-bacalao': {
     d: 'Crisp, breadcrumbed croquettes with a creamy filling of cod, béchamel and parsley, a Spanish tapas bar staple.',
-    meta: 'Croquetas de bacalao: crisp, breadcrumbed croquettes with a creamy filling of cod, béchamel and parsley. Makes about twenty, cooked in 10 minutes.',
+    meta: 'Croquetas de bacalao: crisp, breadcrumbed croquettes with a creamy filling of cod, béchamel and parsley. Makes about twenty, cooked for 10 minutes.',
     kw: ['croquetas de bacalao', 'cod croquettes', 'spanish cod croquetas', 'croquetas de bacalao recipe', 'bechamel and cod croquettes'],
     why: 'The filling should be so soft that it nearly flows, and the coating should be so crisp that it cracks. Spanish croquetas are made from a very thick béchamel that sets overnight in the fridge until it can be shaped, and the contrast between the thin crust and the molten centre is what makes them addictive.\n\nCook the fish first. Poach 300 g of skinless cod fillet in milk with a bay leaf for 8 minutes, flake it, and keep the milk. Salt cod, soaked for 24 hours, is the traditional choice and gives a more intense flavour. The poaching milk becomes the base of the béchamel. **Use the milk, not water.** It carries the flavour of the fish.\n\nMelt butter, stir in the flour, then add the warm milk gradually, stirring until you have a very thick paste, almost like mashed potato. This takes 10 minutes. Fold in the flaked cod, parsley and a pinch of nutmeg. Spread in a dish and chill for at least 4 hours, ideally overnight.\n\nShape into small cylinders with floured hands, coat in flour, egg and breadcrumbs, and cook in oil at 180°C for 1 to 2 minutes, until deep golden. Drain, and serve hot.',
     ing: [
@@ -418,7 +418,7 @@ module.exports = {
 
   'skillet-gnocchi-with-spinach': {
     d: 'Shop-bought gnocchi crisped in a frying pan, then tossed with garlic, spinach, cream and parmesan.',
-    meta: 'Skillet gnocchi with spinach: shop-bought gnocchi crisped in a frying pan, then tossed with garlic, spinach, cream and parmesan. Four servings, cooked in 15 minutes.',
+    meta: 'Skillet gnocchi with spinach: shop-bought gnocchi crisped in a frying pan, then tossed with garlic, spinach, cream and parmesan. Four servings, cooked for 15 minutes.',
     kw: ['skillet gnocchi with spinach', 'crispy gnocchi with spinach', 'pan gnocchi with cream', 'gnocchi and spinach recipe', 'quick gnocchi dinner'],
     why: 'Salt the pan, not the gnocchi, and the whole thing comes together in 15 minutes. The trick is to treat shop-bought gnocchi not as something to boil but as something to brown. In a dry, hot non-stick pan with a little oil, they develop a crisp golden shell and stay pillowy inside, and the contrast is the best thing about them.\n\nVacuum-packed gnocchi go straight from the pack to the pan without boiling. Heat 2 tablespoons of olive oil over a medium-high heat and add the gnocchi in a single layer. **Leave them untouched for 3 minutes.** Moving them too soon stops the crust forming. Turn and cook for another 3 minutes.\n\nPush the gnocchi to the side, add the garlic to the oil for 30 seconds, then the spinach in handfuls. It wilts in 2 minutes. Pour in the cream, a splash of water and a pinch of nutmeg, bring to a bubble, and toss everything together for 2 minutes until the sauce coats the gnocchi.\n\nOff the heat, stir in the parmesan and a squeeze of lemon. The sauce should be loose and creamy, not thick. Serve straight from the pan.',
     ing: [
@@ -818,7 +818,7 @@ module.exports = {
 
   'lemon-butter-sauce': {
     d: 'A quick pan sauce of butter, lemon juice and zest, garlic and capers with a splash of white wine, spooned over fish, chicken or vegetables.',
-    meta: 'Lemon butter sauce: a quick pan sauce of butter, lemon juice and zest, garlic and capers with white wine. Four servings, cooked in 10 minutes.',
+    meta: 'Lemon butter sauce: a quick pan sauce of butter, lemon juice and zest, garlic and capers with white wine. Four servings, cooked for 10 minutes.',
     kw: ['lemon butter sauce', 'lemon butter sauce for fish', 'lemon butter sauce recipe', 'quick lemon caper butter sauce', 'lemon garlic butter pan sauce'],
     why: 'Make it in the pan you cooked the fish in. That is the practical advice and the most flavourful one: the browned bits left behind by seared chicken or fish dissolve into the sauce and give it a depth no fresh pan can match. In 10 minutes, a spoonful of butter, a squeeze of lemon and a splash of wine turn plain protein into a restaurant plate.\n\nRemove the cooked fish and keep it warm. Pour off any excess oil, add the garlic, and cook for 30 seconds. Then pour in the white wine and bubble for 2 minutes, scraping the base, until reduced by half. **Add the lemon juice off the heat,** otherwise the acid turns bitter and the butter splits.\n\nWhisk in cold cubes of butter one at a time over a low heat. The sauce thickens slightly and turns glossy. Add a spoonful of capers, lemon zest and chopped parsley, then taste. It needs salt, a pinch of pepper, and maybe a few extra drops of lemon.\n\nThis is a looser sauce than beurre blanc, simpler and faster. Spoon it straight over pan-fried fish, chicken breast, steamed asparagus or boiled new potatoes.',
     ing: [

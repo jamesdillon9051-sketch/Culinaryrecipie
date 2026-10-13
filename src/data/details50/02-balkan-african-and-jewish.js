@@ -254,7 +254,7 @@ module.exports = {
 
   'attieke': {
     d: 'Fine steamed cassava couscous from Côte d\'Ivoire, served with a fresh tomato and onion relish and quickly cooked mackerel.',
-    meta: 'Attiéké: fine steamed cassava couscous from Côte d\'Ivoire, with a tomato and onion relish and quickly cooked mackerel. Four servings, cooked in 15 minutes.',
+    meta: 'Attiéké: fine steamed cassava couscous from Côte d\'Ivoire, with a tomato and onion relish and quickly cooked mackerel. Four servings, cooked for 15 minutes.',
     kw: ['attieke', 'attiéké', 'ivorian attieke', 'attieke with fish', 'cassava couscous attieke'],
     why: 'It tastes of cassava with a faint, pleasant sourness, because attiéké is made from fermented grated cassava, steamed until light and fluffy. In Abidjan it is the standard side dish, eaten at lunch in the street under a plastic awning, with fried fish and a pile of raw onion and tomato.\n\nBuy it ready-made. Attiéké is sold in vacuum packs in African and Caribbean shops, either fresh or dried and rehydrated. The instructions are simple: sprinkle with a little water, then steam. **Do not boil it.** It turns to a paste in water, and what you want is light, separate grains.\n\nSteam for 5 minutes in a colander or steamer lined with muslin. Fluff with a fork, stir in a little oil, and cover to keep warm.\n\nThe relish is raw: chopped tomatoes, red onion, scotch bonnet, lime juice and salt. It should be sharp and fresh. The fish is mackerel, cooked in a hot pan with salt, pepper and a little oil for 4 minutes on each side, until the skin is crisp and charred. Serve all three together on a plate.',
     ing: [
@@ -327,7 +327,7 @@ module.exports = {
 
   'kitfo': {
     d: 'Ethiopian minced beef gently warmed in spiced clarified butter and mitmita chilli powder, served with fresh cheese and injera.',
-    meta: 'Kitfo: Ethiopian minced beef gently warmed in spiced clarified butter and mitmita chilli powder. Four servings, cooked in 10 minutes.',
+    meta: 'Kitfo: Ethiopian minced beef gently warmed in spiced clarified butter and mitmita chilli powder. Four servings, cooked for 10 minutes.',
     kw: ['kitfo', 'ethiopian kitfo', 'kitfo recipe', 'ethiopian minced beef with spiced butter', 'kitfo with mitmita'],
     why: 'In Ethiopia, kitfo is eaten raw or barely warmed, and it is one of the dishes that makes a visitor remember the trip. It is minced beef mixed with niter kibbeh (spiced clarified butter) and mitmita (a fiery chilli powder with cardamom and cloves), and in the version served at home it is warmed through, not cooked.\n\nHere the beef is cooked rare to medium, which is safer and which many Ethiopians prefer when they make it at home. The meat should be extremely fresh and lean, minced once, with no fat other than the butter that goes through it. Buy a clean cut such as sirloin or fillet and ask the butcher to mince it, or chop it by hand with a sharp knife. **Never use pre-packed mince that has been sitting.**\n\nMelt the niter kibbeh in a pan over a low heat. Add the mitmita, a little cardamom and salt, then the beef, and stir for 2 to 3 minutes only, just until the meat turns from red to pink at the edges. It should still be soft.\n\nServe in a mound with a spoonful of ayib (fresh cheese), cooked greens (gomen) and injera. Use the bread to scoop.',
     ing: [
@@ -460,7 +460,7 @@ module.exports = {
 
   'somali-sambusa': {
     d: 'Crisp triangular pastries filled with spiced minced beef, leek and green chilli, a Somali staple at Ramadan.',
-    meta: 'Somali sambusa: crisp triangular pastries filled with spiced minced beef, leek and green chilli. Makes about twenty, cooked in 20 minutes.',
+    meta: 'Somali sambusa: crisp triangular pastries filled with spiced minced beef, leek and green chilli. Makes about twenty, cooked for 20 minutes.',
     kw: ['somali sambusa', 'sambusa recipe', 'somali samosa', 'ramadan sambusa', 'sambusa with minced beef and leek'],
     why: 'Sambusa makes its appearance every evening of Ramadan, when the fast is broken, and the shape is the clue to the folding: a long, narrow triangle, quite unlike an Indian samosa. The pastry is thin, almost transparent, and crisp. The filling is minced beef, leek, green chilli and cumin, with a squeeze of lemon.\n\nThe key ingredient is the wrapper. Somali sambusa use thin sheets cut from spring roll pastry, available in packets in Asian shops. Cut the sheets into long strips about 8 cm wide. A homemade paste of flour and water seals the edges. **Keep the pastry covered with a damp cloth while you work.** It dries and cracks within minutes.\n\nCook the filling first: onion and garlic, then the beef and spices, until dry, then leeks and chillies and fresh coriander. Cool completely. A warm filling softens the pastry and makes it difficult to fold.\n\nPlace a spoonful at one end of a strip and fold the corner over to make a triangle, then fold again and again along the strip. Seal the end with the paste. Fry in oil at 170°C for 3 minutes, until deep golden and crisp, and serve with a lemon wedge and a chilli dip.',
     ing: [
@@ -499,7 +499,7 @@ module.exports = {
 
   'zanzibar-pizza': {
     d: 'A paper-thin dough parcel filled with minced meat, egg, onion and cheese, folded into a square and cooked on a hot griddle, a Zanzibar street food.',
-    meta: 'Zanzibar pizza: a paper-thin dough parcel filled with minced meat, egg, onion and cheese, cooked on a hot griddle. Four servings, cooked in 15 minutes.',
+    meta: 'Zanzibar pizza: a paper-thin dough parcel filled with minced meat, egg, onion and cheese, cooked on a hot griddle. Four servings, cooked for 15 minutes.',
     kw: ['zanzibar pizza', 'zanzibar pizza recipe', 'stuffed zanzibar pizza', 'tanzanian street food zanzibar pizza', 'zanzibari mkate wa nyama'],
     why: 'It has nothing to do with Italy, and it is a masterpiece of stuffed dough. The Zanzibar pizza is sold from stalls in the Forodhani Gardens at dusk, a thin dough stretched by hand until you can see through it, filled with meat, egg, onion and cheese, folded into a square envelope, and cooked on an oiled griddle until crisp and golden.\n\nStretch is the skill. The dough is flour, water, a little oil and salt, kneaded and then rested in oil for an hour so that it relaxes. Each ball is flattened on an oiled surface and pulled outwards, gently, from the middle to the edges, until it is a translucent sheet 30 cm across. **Don\'t worry about small holes.** The folds hide them.\n\nThe filling is cooked mince, spiced with garlic, curry powder and pepper, then mixed with chopped onion and peppers. Spread it in the centre of the sheet, add a cracked egg, cheese and a squeeze of mayonnaise, then fold the four sides in to make a neat package.\n\nCook on a lightly oiled griddle over a medium heat for 3 minutes on each side, until crisp and the egg is set. Cut into pieces and serve with chilli sauce.',
     ing: [
@@ -541,7 +541,7 @@ module.exports = {
 
   'ugandan-rolex': {
     d: 'A chapati rolled around a thin omelette of eggs, tomato, onion and cabbage, a Ugandan street snack whose name comes from "rolled eggs".',
-    meta: 'Ugandan rolex: a chapati rolled around a thin omelette of eggs, tomato, onion and cabbage. Two servings, cooked in 10 minutes.',
+    meta: 'Ugandan rolex: a chapati rolled around a thin omelette of eggs, tomato, onion and cabbage. Two servings, cooked for 10 minutes.',
     kw: ['ugandan rolex', 'rolex uganda', 'rolex recipe', 'chapati egg roll', 'uganda street food rolex'],
     why: 'The name is a joke that stuck: "rolled eggs" said quickly sounds like a famous watch. In Uganda, a rolex is a chapati wrapped around an egg omelette, and it is the best quick breakfast in Kampala, made in front of you at a stall on the street corner for less than the price of a bus fare.\n\nThe omelette is where the skill lies. Eggs are beaten with finely chopped tomato, onion, cabbage and a pinch of salt, and a little pepper. Poured into a hot oiled pan, it should set in 1 to 2 minutes into a thin sheet. **Spread the mixture thin so it sets quickly.** A thick omelette is too heavy to roll.\n\nThe chapati can be homemade or bought. A good chapati is soft and layered; a flour tortilla is a decent substitute. Warm it in a dry pan for 30 seconds on each side. Lay it over the omelette in the pan so the two stick together while the egg is still slightly wet, then flip the whole thing out and roll it up.\n\nWrap it in paper or foil, as sold, so it holds its shape. Eat it hot, with a squeeze of chilli sauce if you like.',
     ing: [
@@ -643,7 +643,7 @@ module.exports = {
 
   'blintzes': {
     d: 'Thin crêpes filled with sweetened cream cheese and ricotta, folded into parcels and cooked in butter until golden.',
-    meta: 'Blintzes: thin crêpes filled with sweetened cream cheese and ricotta, folded into parcels and cooked in butter. Six servings, cooked in 20 minutes.',
+    meta: 'Blintzes: thin crêpes filled with sweetened cream cheese and ricotta, folded into parcels and cooked in butter. Six servings, cooked for 20 minutes.',
     kw: ['blintzes', 'cheese blintzes', 'jewish blintzes', 'blintzes recipe', 'cheese blintzes with sour cream'],
     why: 'A blintz is two things: a crêpe and a parcel. The crêpe is thin, delicate and cooked on one side only; the parcel is formed by wrapping the filling in the pale, cooked side and then browning it in butter. The result is crisp outside, soft and creamy inside, and it is a traditional dish for the Jewish festival of Shavuot.\n\nThe batter is flour, eggs, milk, water and a pinch of salt, whisked until smooth, and then rested for 15 minutes. It should be thin, like single cream. **Cook the crêpes on one side only.** The cooked side faces inwards, and the raw side browns later in butter.\n\nPour a small ladle of batter into a hot, buttered 18 cm pan, swirl it to coat, and cook for 1 minute, until the edges lift and the surface looks dry. Turn out onto a clean cloth. Repeat to make 12.\n\nThe filling is cream cheese, ricotta, sugar, egg yolk, vanilla and lemon zest. Place a spoonful on each crêpe, fold the sides in and roll up like an envelope. Cook the parcels seam-side down in butter for 2 minutes on each side, and serve with soured cream and berry jam.',
     ing: [
@@ -766,7 +766,7 @@ module.exports = {
 
   'knish': {
     d: 'Baked pastry parcels filled with mashed potato and caramelised onion, a New York deli classic of Eastern European Jewish origin.',
-    meta: 'Knish: baked pastry parcels filled with mashed potato and caramelised onion. Makes twelve, baked in 35 minutes.',
+    meta: 'Knish: baked pastry parcels filled with mashed potato and caramelised onion. Makes twelve, baked for 35 minutes.',
     kw: ['knish', 'potato knish', 'knish recipe', 'baked potato knish', 'jewish potato knish'],
     why: 'In New York, they are sold hot from a steamer at the corner, squarish and golden, split open and spread with mustard. At home, a baked knish is a plain thing, a soft pastry shell round a mound of mashed potato, with onions cooked until sweet and brown. It is heavy and comforting, and one is a meal.\n\nThe dough is oil-based, made without butter: flour, baking powder, oil, egg and water. It should be soft and slightly sticky. Rest it for 30 minutes, then roll it out very thin, to a rectangle about 30 by 40 cm. Thin dough is the key. **Roll it until you can see the board through it.** It folds around the filling and bakes crisp.\n\nThe filling is potato, boiled and mashed, mixed with onions caramelised for 25 minutes in oil, an egg, salt and a lot of black pepper. It should be thick and dry, not creamy. Wet filling makes the dough tear.\n\nSpread the filling along one long edge, roll up the dough, cut into 12 sections, and pinch the ends closed. Stand each upright, brush with egg and bake at 190°C for 35 minutes, until deep gold.',
     ing: [

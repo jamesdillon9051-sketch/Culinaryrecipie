@@ -54,7 +54,7 @@ module.exports = {
 
   'huevos-a-la-mexicana': {
     d: 'Scrambled eggs cooked with diced tomato, onion and serrano chilli, whose red, white and green recall the Mexican flag.',
-    meta: 'Huevos a la mexicana: scrambled eggs cooked with diced tomato, onion and serrano chilli. Two servings, cooked in 10 minutes.',
+    meta: 'Huevos a la mexicana: scrambled eggs cooked with diced tomato, onion and serrano chilli. Two servings, cooked for 10 minutes.',
     kw: ['huevos a la mexicana', 'mexican scrambled eggs', 'huevos a la mexicana recipe', 'scrambled eggs with tomato and chilli', 'mexican breakfast eggs'],
     why: 'Red, white and green: that is the flag, and that is the breakfast. Huevos a la mexicana are scrambled eggs with the same three colours on the plate, tomato, onion and chilli, and it is what you order in Mexico when you want something quick, hot and filling for breakfast.\n\nThe skill is in the order. Start with a little oil in a pan over a medium heat. Cook the onion and chilli first, for 3 minutes, until soft but not coloured. Then add the tomato and cook for another 2 minutes, until it just starts to collapse and release its juice. **Do not let the tomato cook to a sauce.** It should stay in distinct pieces.\n\nPour in the eggs, beaten with a pinch of salt, and stir gently with a spatula over a medium-low heat for 2 or 3 minutes. Pull the eggs from the edge to the centre in slow folds, until they are creamy and just set. Take them off the heat while they still look slightly wet, since they continue to cook on the plate.\n\nServe with warm tortillas, refried beans and a spoonful of salsa. A slice of avocado on the side is traditional.',
     ing: [
@@ -85,7 +85,7 @@ module.exports = {
 
   'machaca-con-huevo': {
     d: 'Shredded dried beef scrambled with eggs, onion, tomato and green chilli, a northern Mexican breakfast usually eaten in a flour tortilla.',
-    meta: 'Machaca con huevo: shredded dried beef scrambled with eggs, onion, tomato and green chilli. Two servings, cooked in 10 minutes.',
+    meta: 'Machaca con huevo: shredded dried beef scrambled with eggs, onion, tomato and green chilli. Two servings, cooked for 10 minutes.',
     kw: ['machaca con huevo', 'machaca con huevo recipe', 'mexican dried beef and eggs', 'northern mexican machaca breakfast', 'machaca burrito filling'],
     why: 'Machaca is meat that has been dried in the sun, a method developed in the north of Mexico long before refrigerators were common, and then pounded and shredded. Sonora and Chihuahua are the home of it, and breakfast tacos and burritos stuffed with machaca and eggs are the typical morning meal. The flavour is deeply beefy, salty and a little smoky.\n\nTrue machaca is sold dried, in bags, at Mexican grocers. Good beef jerky, unsweetened and plain, shredded by hand, makes a convenient stand-in. Check the label: sweet teriyaki jerky is not suitable. Soak the shredded jerky in warm water for 10 minutes and squeeze it dry. **Soaking softens the meat and removes some of the salt.** Without it, the machaca is tough and over-seasoned.\n\nCook the onion, chilli and tomato in a pan until soft, about 5 minutes. Add the machaca and stir for 2 minutes. Pour in beaten eggs and scramble gently for 2 minutes, until just set.\n\nServe in warm flour tortillas, with refried beans and a spoonful of salsa. For a heartier breakfast, roll it into a burrito and add a sprinkling of melted cheese.',
     ing: [
@@ -262,7 +262,7 @@ module.exports = {
 
   'tlayudas': {
     d: 'A large, crisp Oaxacan tortilla spread with black bean paste and topped with stringy cheese, shredded cabbage, avocado, meat and salsa.',
-    meta: 'Tlayudas: a large, crisp Oaxacan tortilla spread with bean paste and topped with cheese, cabbage, avocado and salsa. Two servings, cooked in 15 minutes.',
+    meta: 'Tlayudas: a large, crisp Oaxacan tortilla spread with bean paste and topped with cheese, cabbage, avocado and salsa. Two servings, cooked for 15 minutes.',
     kw: ['tlayudas', 'tlayuda oaxaca', 'tlayudas recipe', 'oaxacan pizza', 'crispy oaxacan tortilla with beans and cheese'],
     why: 'Often called the Mexican pizza, the tlayuda is neither Mexican nor Italian in character but pure Oaxaca. A big, thin, dry-baked tortilla, 30 cm across, is spread with a paste of black beans, covered with a mountain of stringy white cheese and toasted on a grill until the edges snap. Then come the toppings: shredded cabbage, avocado, tomato, a meat of some kind and salsa.\n\nThe tortilla is traditionally made from heirloom corn and cooked until it dries and curls at the edges. In a home kitchen, large flour tortillas or thick corn tortillas, pan-toasted on both sides for 2 minutes, come close. **The base must be crisp before the toppings go on.** A soft base turns the whole thing into a wrap.\n\nThe bean spread is made by mashing black beans with a little of their liquid and a spoonful of lard, cooked down for 5 minutes. It should be thick enough to spread.\n\nSpread the beans on the toasted tortilla, scatter with Oaxaca cheese or mozzarella, and put under a hot grill for 3 minutes until the cheese melts. Add cabbage, avocado, tomato, chorizo or grilled meat, and a spoonful of salsa. Eat folded in half.',
     ing: [
@@ -296,7 +296,7 @@ module.exports = {
 
   'quesadillas-de-flor-de-calabaza': {
     d: 'Folded tortillas filled with melted cheese and sautéed squash blossoms, onion and chilli, cooked on a hot griddle.',
-    meta: 'Quesadillas de flor de calabaza: folded tortillas filled with melted cheese and sautéed squash blossoms, onion and chilli. Four servings, cooked in 10 minutes.',
+    meta: 'Quesadillas de flor de calabaza: folded tortillas filled with melted cheese and sautéed squash blossoms, onion and chilli. Four servings, cooked for 10 minutes.',
     kw: ['quesadillas de flor de calabaza', 'squash blossom quesadillas', 'flor de calabaza quesadilla recipe', 'courgette flower quesadillas', 'mexican squash blossom quesadilla'],
     why: 'In midsummer Mexican markets are full of bunches of orange squash blossoms, and the first thing a cook thinks of is a quesadilla. The flowers are delicate and nearly sweet, with a faint flavour of courgette, and they wilt in a pan in a minute. Combined with melted cheese, they make the best of the season.\n\nCourgette flowers, available from farm shops and grocers in summer, work well. Clean them by removing the stamens and the green sepals at the base. Rinse carefully, pat dry, and tear into strips. **Don\'t cook them for more than 2 minutes.** They collapse and turn watery with overcooking.\n\nSoften chopped onion and a small chilli in oil for 3 minutes, add the strips of blossom, and cook for 2 minutes, with a pinch of salt. A sprig of epazote adds a distinctive, herby note if you have it; coriander is a fair replacement.\n\nSpread a handful of Oaxaca cheese or mozzarella over half a corn tortilla, add a spoonful of the squash mixture, fold, and cook on a hot dry griddle for 2 minutes on each side, until the tortilla is blistered and the cheese has melted. Serve with salsa verde and lime.',
     ing: [
@@ -389,7 +389,7 @@ module.exports = {
 
   'mexican-hot-chocolate': {
     d: 'Milk simmered with dark chocolate, cinnamon and a pinch of chilli, whisked until frothy for a thick, spiced drink.',
-    meta: 'Mexican hot chocolate: milk simmered with dark chocolate, cinnamon and a pinch of chilli, whisked until frothy. Two servings, ready in 10 minutes.',
+    meta: 'Mexican hot chocolate: milk simmered with dark chocolate, cinnamon and a pinch of chilli, whisked until frothy. Two servings, ready in 15 minutes.',
     kw: ['mexican hot chocolate', 'mexican hot chocolate recipe', 'spiced hot chocolate with cinnamon', 'abuelita style hot chocolate', 'authentic mexican hot chocolate'],
     why: 'It is thicker, grainier and more cinnamon-scented than the hot chocolate of Europe, and the foam is the point. Mexican chocolate is sold in discs, made from roasted cacao ground with sugar and cinnamon, which gives it a coarse texture. It is melted into hot milk and whisked, traditionally with a wooden molinillo, until a layer of froth rises.\n\nIf you cannot find the discs, a mix of good dark chocolate with a stick of cinnamon in the milk does a decent job. Heat 500 ml of milk with the cinnamon stick until steaming, not boiling, for 5 minutes, which draws out the spice. **Don\'t let the milk boil**, because a skin forms and the flavour turns flat.\n\nAdd 60 g of chopped dark chocolate, a spoonful of sugar to taste and a tiny pinch of chilli powder or cayenne. Whisk with a balloon whisk or an electric frother for a full minute, until the chocolate melts and the froth builds.\n\nThe chilli should be barely perceptible: it adds warmth at the back of the throat, not heat. Pour into mugs, discard the cinnamon, and serve at once. A churro on the side is the classic accompaniment.',
     ing: [
@@ -458,7 +458,7 @@ module.exports = {
 
   'arroz-chaufa': {
     d: 'Peruvian-Chinese fried rice with chicken, egg, spring onion and ginger, seasoned with soy sauce and a splash of sesame oil.',
-    meta: 'Arroz chaufa: Peruvian-Chinese fried rice with chicken, egg, spring onion and ginger, seasoned with soy sauce. Four servings, cooked in 15 minutes.',
+    meta: 'Arroz chaufa: Peruvian-Chinese fried rice with chicken, egg, spring onion and ginger, seasoned with soy sauce. Four servings, cooked for 15 minutes.',
     kw: ['arroz chaufa', 'peruvian chaufa', 'arroz chaufa recipe', 'peruvian chinese rice with chicken', 'chifa rice with chicken'],
     why: 'In Lima, the Chinese restaurants are called chifas, and they have been cooking for Peruvians since the 1800s. Their fried rice, chaufa, is on every menu and in many homes, and it has its own local character: the rice is smoky, the egg is cooked as a thin omelette and sliced, and the seasoning is strong on ginger and soy.\n\nCold cooked rice is essential. Rice that has been cooked the day before and chilled has dried out and fries in separate grains. Fresh rice sticks. **Break up the clumps with wet hands before it goes in the pan.** It makes stir-frying simpler.\n\nCook the egg first. Beat 2 eggs and pour them into an oiled hot wok, tilt to make a thin sheet, cook for 30 seconds and lift out. Slice into ribbons. In the same wok, cook sliced chicken for 3 minutes, then ginger and garlic for 30 seconds, then add the rice and toss over a high heat for 4 minutes.\n\nThe seasoning is soy sauce and a little oyster sauce, with a final splash of sesame oil. Fold in the egg ribbons and the spring onions, and serve at once. A thin strip of chilli is optional.',
     ing: [
@@ -521,7 +521,7 @@ module.exports = {
 
   'colombian-bunuelos': {
     d: 'Crisp, golden balls of salty white cheese, cornflour and egg, light and puffy inside, a Colombian breakfast and Christmas treat.',
-    meta: 'Colombian buñuelos: crisp, golden balls of salty white cheese, cornflour and egg, light and puffy inside. Makes twenty, cooked in 20 minutes.',
+    meta: 'Colombian buñuelos: crisp, golden balls of salty white cheese, cornflour and egg, light and puffy inside. Makes twenty, cooked for 20 minutes.',
     kw: ['colombian bunuelos', 'buñuelos colombianos', 'colombian bunuelos recipe', 'cheese buñuelos', 'colombian cheese fritters'],
     why: 'They are round, golden and no bigger than a ping-pong ball, and they are eaten at Christmas in Colombia with natilla, a thick milk pudding. The inside is soft and slightly sweet, the outside is crisp, and the cheese gives them a savoury salty tang.\n\nThe cheese is queso costeño, a salty crumbly white cheese. Outside Colombia, a mix of feta and a firm unsalted cheese like mozzarella or cottage cheese does a similar job. Grate it finely, since lumps prevent a smooth dough. Mix with cornflour, a little plain flour, sugar, baking powder, an egg and a splash of milk. **The dough should be soft and just hold together.** It is sticky, and wet hands help with shaping.\n\nThe oil temperature is the other critical factor. It needs to be at 160°C, lower than for most deep-frying. At that temperature the buñuelos sink to the bottom, rise slowly, and expand as the centre cooks. Too hot and the outside browns before the inside has set.\n\nRoll into balls, drop in carefully, and cook for 5 minutes, turning, until deep golden. They puff dramatically. Drain on kitchen paper and serve warm.',
     ing: [
@@ -589,7 +589,7 @@ module.exports = {
 
   'tequenos': {
     d: 'Sticks of salty white cheese wrapped in thin dough and cooked until golden and crisp, a Venezuelan party snack.',
-    meta: 'Tequeños: sticks of salty white cheese wrapped in thin dough and cooked until golden and crisp. Makes twenty, cooked in 10 minutes.',
+    meta: 'Tequeños: sticks of salty white cheese wrapped in thin dough and cooked until golden and crisp. Makes twenty, cooked for 10 minutes.',
     kw: ['tequenos', 'tequeños', 'venezuelan tequenos recipe', 'cheese sticks in pastry', 'tequenos with guasacaca'],
     why: 'No Venezuelan party is complete without them, and they are the snack that emigrants ask visitors to bring. Tequeños are sticks of firm white cheese wrapped in a thin, tender dough and cooked until the pastry blisters and the cheese oozes. They are eaten hot, dipped in garlic sauce or guasacaca, an herby avocado salsa.\n\nThe cheese is queso blanco, a firm, salty, mildly squeaky cheese that holds its shape. Halloumi is the nearest alternative in many shops, and mozzarella works if it is a firm block rather than fresh. Cut into sticks about 8 cm long and 1 cm thick. **Freeze the cheese for 15 minutes before wrapping.** Cold cheese stays in its shape as the pastry cooks.\n\nThe dough is flour, an egg, butter, a pinch of sugar and salt, and a little water, kneaded smooth and rested for 20 minutes. Roll very thin, 1 mm, and cut into strips 3 cm wide. Wrap each strip around a cheese stick in a spiral, sealing the ends with water.\n\nCook in oil at 180°C for 2 minutes, turning, until golden. The pastry must be sealed; any gap lets the cheese escape. Drain and serve hot.',
     ing: [
@@ -697,7 +697,7 @@ module.exports = {
 
   'saltenas': {
     d: 'Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef or chicken that sets to a jelly when chilled, with potato, peas and olive.',
-    meta: 'Salteñas: Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef that sets to a jelly when chilled. Makes ten, baked in 35 minutes.',
+    meta: 'Salteñas: Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef that sets to a jelly when chilled. Makes ten, baked for 35 minutes.',
     kw: ['saltenas', 'salteñas', 'bolivian saltenas recipe', 'bolivian juicy empanadas', 'saltenas with beef filling'],
     why: 'The soup inside is the trick, and the way to hold it there is gelatine. A salteña is a baked pastry with a filling so juicy that you have to eat it carefully, leaning over a plate. The filling is a thick stew, sweet and mildly hot, which is mixed with gelatine and chilled until it sets solid. Once the stew is wrapped in pastry and baked, the gelatine melts and the stew turns back into liquid inside the pastry.\n\nThe stew, called jigote, is made with beef cut into small cubes, onion, garlic, aji amarillo, cumin, oregano, sugar and a little vinegar, simmered until the beef is tender and the sauce is rich, about 30 minutes. Stir in gelatine dissolved in warm water, then mix in cooked potato, peas and sliced olives and raisins. **Chill the filling for at least 2 hours until firmly set.** Warm filling leaks.\n\nThe pastry is flour, butter, sugar, egg yolks and a little water, coloured orange with annatto-infused oil. It is rolled out thin, cut into 15 cm circles, and filled with 2 tablespoons of the jellied stew. Fold and crimp with a decorative twisted seam.\n\nBake at 220°C for 25 minutes, until golden. Eat hot, holding the tail, and sip the juices first.',
     ing: [
@@ -786,7 +786,7 @@ module.exports = {
 
   'chivito': {
     d: 'A towering Uruguayan steak sandwich of thin beef, ham, bacon, mozzarella, a fried egg, lettuce, tomato and olives on a soft roll.',
-    meta: 'Chivito: a towering Uruguayan steak sandwich of thin beef, ham, bacon, mozzarella, a fried egg, lettuce and tomato. Two servings, cooked in 15 minutes.',
+    meta: 'Chivito: a towering Uruguayan steak sandwich of thin beef, ham, bacon, mozzarella, a fried egg, lettuce and tomato. Two servings, cooked for 15 minutes.',
     kw: ['chivito', 'uruguayan chivito', 'chivito sandwich', 'chivito recipe', 'uruguayan steak sandwich with egg'],
     why: 'It is Uruguay\'s national sandwich, and it is not for the fainthearted. A chivito is a tall, loaded steak sandwich, with every topping you can think of, built on a soft roll and sold from stands, cafés and hotels across the country. The name means little goat, although there is no goat in it; it is said to come from an old customer\'s request.\n\nThe beef is thin, tender steak, such as sirloin or fillet, sliced into 1 cm steaks and flattened until about 5 mm. Season with salt and pepper and sear in a very hot pan for 1 minute on each side. **Don\'t cook it longer.** It is going to sit in a sandwich, and overcooked steak turns tough.\n\nIn another pan, cook the bacon until crisp and fry the eggs in the fat. Warm the ham on the plancha for 30 seconds. Toast the rolls.\n\nBuild the layers: mayonnaise on the base, lettuce, tomato, steak, ham, bacon, mozzarella (melted briefly under the grill), a fried egg and olives. Press the top gently on. Cut in half and eat with chips. A chivito is a lunch for a full afternoon.',
     ing: [

@@ -266,7 +266,7 @@ module.exports = {
 
   'paneer-paratha': {
     d: 'Whole wheat flatbreads stuffed with grated paneer, green chilli, coriander and spices, cooked on a griddle with ghee.',
-    meta: 'Paneer paratha: whole wheat flatbreads stuffed with grated paneer, chilli and coriander, cooked with ghee. Four servings, cooked in 20 minutes.',
+    meta: 'Paneer paratha: whole wheat flatbreads stuffed with grated paneer, chilli and coriander, cooked with ghee. Four servings, cooked for 20 minutes.',
     kw: ['paneer paratha', 'paneer paratha recipe', 'stuffed paneer paratha', 'punjabi paneer paratha', 'paneer stuffed flatbread'],
     why: 'Most home versions burst on the griddle, and the cause is always the same: too much filling or too wet a filling. Paneer should be grated fine, mixed dry with the spices, and kept to about a tablespoon and a half per paratha. Anything more strains the dough.\n\nMake the dough soft, softer than for chapati, with whole wheat flour, a pinch of salt, a spoonful of oil and warm water. Knead for 5 minutes and rest it for 20. **A rested dough rolls thin without tearing.**\n\nFor the filling, grate the paneer and mix it with finely chopped green chilli, fresh coriander, ajwain, chilli powder, amchur and salt. The amchur adds tang, and the ajwain brings a sharp, thyme-like note.\n\nRoll the dough into a small disc, add the filling, gather the edges up and pinch them closed. Press flat, dust with flour, and roll gently to 15 cm. Cook on a hot griddle with ghee for about 2 minutes a side, pressing gently, until golden with brown spots.',
     ing: [
@@ -301,7 +301,7 @@ module.exports = {
 
   'methi-paratha': {
     d: 'Layered whole wheat flatbreads with fresh fenugreek leaves, ajwain and spices, folded into triangles and cooked with ghee.',
-    meta: 'Methi paratha: layered whole wheat flatbreads with fresh fenugreek, ajwain and spices, folded into triangles. Four servings, cooked in 20 minutes.',
+    meta: 'Methi paratha: layered whole wheat flatbreads with fresh fenugreek, ajwain and spices, folded into triangles. Four servings, cooked for 20 minutes.',
     kw: ['methi paratha', 'methi paratha recipe', 'fenugreek paratha', 'punjabi methi paratha', 'layered paratha with fenugreek'],
     why: 'A breakfast for a table of four on a morning with a bunch of fresh fenugreek in the fridge. Methi paratha is a layered flatbread, and what separates it from a thepla is the folding and the ghee: the dough is rolled, brushed with ghee, folded into a triangle, and rolled again.\n\nFresh fenugreek has a bitter, grassy flavour that mellows when cooked. Pick the leaves from the stems, wash them, and chop them fine. If they taste too sharp, sprinkle with a little salt and leave for 10 minutes before squeezing out the liquid. **Dry leaves also work, in a smaller amount.** Use 2 tablespoons of dried fenugreek in place of the fresh.\n\nKnead the dough with the leaves, a little oil, ajwain, cumin and chilli powder. Rest it for 20 minutes. Divide into balls, roll out thin, brush with ghee, fold in half and then in half again to make a triangle, and roll to 15 cm.\n\nCook on a hot griddle with ghee for 2 minutes a side. The layers puff slightly and the surface turns golden with brown spots.',
     ing: [
@@ -333,7 +333,7 @@ module.exports = {
 
   'lachha-paratha': {
     d: 'Flaky, spiral-layered whole wheat flatbreads, rolled thin, brushed with ghee, pleated and coiled, then cooked on a hot griddle.',
-    meta: 'Lachha paratha: flaky, spiral-layered whole wheat flatbreads brushed with ghee and cooked on a griddle. Four servings, cooked in 20 minutes.',
+    meta: 'Lachha paratha: flaky, spiral-layered whole wheat flatbreads brushed with ghee and cooked on a griddle. Four servings, cooked for 20 minutes.',
     kw: ['lachha paratha', 'lachha paratha recipe', 'layered paratha', 'flaky whole wheat paratha', 'punjabi lachha paratha'],
     why: 'What makes lachha paratha lachha? The word means ribbons or layers, and each paratha is built from them. A thin sheet of dough is brushed with ghee, dusted with flour, pleated like a fan and coiled into a spiral. When the coil is rolled flat, every pleat becomes a separate layer.\n\nThe dough is whole wheat flour, salt, a little oil and warm water, kneaded until soft and smooth and rested for 30 minutes. **Do not skimp on the ghee.** It is the fat between the layers that makes them separate in the pan. Brush it on thickly and sprinkle the flour thinly.\n\nRoll each ball into a very thin round, almost see-through at the edges. Pleat it in 1 cm folds, lift the pleated strip, and coil it into a spiral. Press the spiral flat with your palm and roll lightly to 15 cm. Heavy rolling squashes the layers together.\n\nCook on a hot griddle with ghee for 2 minutes a side. Crush each paratha gently between your palms as it comes off, and the layers open.',
     ing: [
@@ -363,7 +363,7 @@ module.exports = {
 
   'makki-di-roti': {
     d: 'Flat, rustic Punjabi bread of maize flour and warm water, patted by hand and cooked on a griddle, traditionally served with sarson da saag.',
-    meta: 'Makki di roti: Punjabi maize flour flatbreads patted by hand and cooked on a griddle. Four servings, cooked in 20 minutes.',
+    meta: 'Makki di roti: Punjabi maize flour flatbreads patted by hand and cooked on a griddle. Four servings, cooked for 20 minutes.',
     kw: ['makki di roti', 'makki di roti recipe', 'punjabi maize flour roti', 'makki roti', 'maize flour flatbread'],
     why: 'Maize flour has no gluten, which is why the dough behaves nothing like wheat and why makki di roti scares people. It cracks, it crumbles, and it will not roll. All of that is normal, and none of it matters if you work with it instead of against it.\n\nUse makki ka atta, a finely ground yellow maize flour sold in Indian shops. Cornmeal and polenta are too coarse. Mix the flour with salt and add warm water gradually, kneading for a full 5 minutes. **The dough should feel soft and smooth, like Play-Doh.** If it cracks at the edges when pressed flat, it needs more water.\n\nNo rolling pin: the roti is patted out by hand between your palms or pressed on a sheet of greaseproof paper. Make the discs about 12 cm across and 5 mm thick, thinner at the edge. Thin edges crack. Thick centres stay raw.\n\nCook on a hot griddle for 3 minutes a side, then finish directly over the flame if you can. Spread with butter or ghee and serve hot, because makki roti stiffens as it cools.',
     ing: [
@@ -512,7 +512,7 @@ module.exports = {
 
   'pyaaz-kachori': {
     d: 'Crisp, puffed pastry rounds stuffed with a spiced onion filling and cooked slowly in hot oil, a Rajasthani street snack.',
-    meta: 'Pyaaz kachori: crisp pastry rounds stuffed with a spiced onion filling and cooked in hot oil. Makes eight, cooked in 30 minutes.',
+    meta: 'Pyaaz kachori: crisp pastry rounds stuffed with a spiced onion filling and cooked in hot oil. Makes eight, cooked for 30 minutes.',
     kw: ['pyaaz kachori', 'pyaaz kachori recipe', 'onion kachori', 'rajasthani pyaaz kachori', 'jodhpur onion kachori'],
     why: 'In the first week of autumn, when the evenings start to cool, a plate of these with hot tea is the right thing. Pyaaz kachori is a crisp pastry filled with onions, and it is a Rajasthani snack that goes back to every roadside stall.\n\nThe filling is the part to get right. Onions are chopped fine and cooked slowly with fennel, coriander seeds, amchur, chilli powder and a pinch of asafoetida until the moisture has gone and the mixture is dry and golden. **If the filling is wet, the kachori will burst in the oil.** Spread it out on a plate to cool completely before using.\n\nThe pastry is flour, ghee, salt and just enough water, rubbed together until it looks like breadcrumbs, then brought into a firm dough. Rest it for 20 minutes. Divide into balls, flatten each, add a spoonful of filling, close and press into a flat disc.\n\nThe oil must be on the cool side, around 150°C. Fry the kachori slowly for 12 minutes, turning, until they puff up and turn pale gold. A hotter oil browns them before they cook through.',
     ing: [
@@ -654,7 +654,7 @@ module.exports = {
 
   'motichoor-ladoo': {
     d: 'Tiny pearls of fried gram flour batter soaked in saffron sugar syrup and shaped into soft, orange ladoo.',
-    meta: 'Motichoor ladoo: tiny gram flour pearls soaked in saffron sugar syrup and shaped into soft ladoo. Sixteen pieces, cooked in about 40 minutes.',
+    meta: 'Motichoor ladoo: tiny gram flour pearls soaked in saffron sugar syrup and shaped into soft ladoo. Sixteen pieces, cooked for about 40 minutes.',
     kw: ['motichoor ladoo', 'motichoor ladoo recipe', 'motichur laddu', 'boondi ladoo', 'diwali motichoor laddu'],
     why: 'Why are the pearls so small? Because motichoor means crushed pearls, and the effect of tiny boondi in syrup is a ladoo that melts in the mouth instead of chewing. The batter is gram flour and water, dropped through a fine-holed ladle into hot oil in a stream of droplets.\n\nThe batter has to be the right consistency. It should be thin enough to fall in drops through the holes, but not so thin that the boondi turns out as streaks. Aim for something like double cream. **Test with a few drops in the oil.** They should sink briefly, then rise, round and dimpled.\n\nFry in small batches at 170°C for about 1 minute each, until the pearls are pale gold and crisp but not browned. Lift out with a slotted spoon, drain, and drop into the syrup while it is still warm.\n\nThe syrup is sugar and water cooked to a one-thread consistency, with saffron and cardamom. The boondi soaks for 10 minutes, until soft. Press the mixture into balls while still warm, using damp hands.',
     ing: [
@@ -746,7 +746,7 @@ module.exports = {
 
   'puran-poli': {
     d: 'Soft flatbreads stuffed with a sweet filling of cooked chana dal, jaggery, cardamom and nutmeg, cooked on a griddle with ghee.',
-    meta: 'Puran poli: soft flatbreads stuffed with sweet chana dal, jaggery and cardamom, cooked with ghee. Makes eight, cooked in 40 minutes.',
+    meta: 'Puran poli: soft flatbreads stuffed with sweet chana dal, jaggery and cardamom, cooked with ghee. Makes eight, cooked for 40 minutes.',
     kw: ['puran poli', 'puran poli recipe', 'maharashtrian puran poli', 'sweet stuffed flatbread', 'holige puran poli'],
     why: 'In the spring, around Holi and Gudi Padwa, a pile of puran poli appears in Maharashtrian kitchens, and it needs more patience than skill. The filling is chana dal cooked soft with jaggery, ground to a smooth paste, and the dough is a soft one that wraps around it without tearing.\n\nCook the dal in plenty of water until it can be crushed between two fingers, about 30 minutes, then drain well and keep the water: it makes a lovely clear soup called katachi amti. Mix the cooked dal with jaggery in a pan over a low heat, stirring, until the mixture thickens and no longer sticks to the spoon. **It must be thick and dry, like a soft dough.** Wet filling squeezes out when you roll.\n\nGrind it smooth, then add cardamom and nutmeg. Cool before using.\n\nThe dough is wheat flour, oil, turmeric and salt, kneaded until very soft and rested for an hour. Fill each ball with a filling ball of the same size, seal, flatten, and roll gently to 15 cm with a dusting of rice flour. Cook on a hot griddle with ghee for 2 minutes a side.',
     ing: [
@@ -785,7 +785,7 @@ module.exports = {
 
   'modak': {
     d: 'Steamed rice flour dumplings pleated into a crown shape, filled with sweet coconut and jaggery and served with ghee.',
-    meta: 'Modak: steamed rice flour dumplings filled with sweet coconut and jaggery. Makes twelve, steamed in 20 minutes.',
+    meta: 'Modak: steamed rice flour dumplings filled with sweet coconut and jaggery. Makes twelve, steamed for 20 minutes.',
     kw: ['modak', 'ukadiche modak', 'modak recipe', 'steamed modak with coconut and jaggery', 'ganesh chaturthi modak'],
     why: 'Pleating is the whole difficulty with modak, and it is easier than it looks. The dumpling is a pocket of soft rice dough, shaped like a small closed flower, with a sweet filling inside. Most people manage a presentable one on the third attempt.\n\nThe dough is made in a pan: water, a little ghee, salt and rice flour, cooked together until it forms a ball. Cover and leave for 5 minutes, then knead it while warm until soft and smooth. **Keep the dough covered with a damp cloth while you work.** It dries and cracks in a few minutes.\n\nThe filling is fresh grated coconut cooked with jaggery until the liquid has gone, flavoured with cardamom and nutmeg. It should be moist but not wet, and cooled before shaping.\n\nPress a ball of dough into a thin cup with oiled fingers, add a spoonful of filling, and pleat the edge into 8 to 10 folds with your thumb and forefinger. Gather the pleats at the top and pinch into a point. Steam for 12 minutes, until the dough turns translucent and glossy.',
     ing: [
@@ -820,7 +820,7 @@ module.exports = {
 
   'chakli': {
     d: 'Crisp spirals of rice flour and lentil flour dough, flavoured with cumin, sesame and chilli, shaped with a press and cooked in oil.',
-    meta: 'Chakli: crisp spirals of rice and lentil flour dough flavoured with cumin, sesame and chilli. Makes about 20, cooked in 20 minutes.',
+    meta: 'Chakli: crisp spirals of rice and lentil flour dough flavoured with cumin, sesame and chilli. Makes about 20, cooked for 20 minutes.',
     kw: ['chakli', 'chakli recipe', 'diwali chakli', 'crispy rice flour spirals', 'chakli with rice flour and sesame'],
     why: 'Why does a chakli need a rest before it is pressed? The dough has to be soft enough to flow through the press, and a little dry so the spirals keep their shape in the oil. The balance is fine, and the answer is a dough made in stages, with water added only as needed.\n\nThe traditional flour is bhajani, a roasted blend of rice, lentil and gram flours. A mix of rice flour and roasted gram flour does the job. Steam the rice flour first for 10 minutes to cook the starch, which gives crisper chakli. **Pass the flour through a sieve to remove lumps.** Lumps clog the press.\n\nKnead the flour with butter, cumin seeds, sesame seeds, chilli powder, turmeric, salt and warm water into a soft dough. Fill the press fitted with a star disc, and press spirals onto a greased sheet of paper.\n\nSlide the spirals into oil at 170°C, a few at a time. Fry for 3 minutes on each side, until the bubbling stops and they are golden and crisp. Cool completely before storing.',
     ing: [
@@ -854,7 +854,7 @@ module.exports = {
 
   'murukku': {
     d: 'Crisp, spiral snacks of rice flour and urad flour with cumin, sesame and butter, pressed into oil and cooked until golden.',
-    meta: 'Murukku: crisp spiral snacks of rice and urad flour with cumin, sesame and butter. Makes about 20, cooked in 20 minutes.',
+    meta: 'Murukku: crisp spiral snacks of rice and urad flour with cumin, sesame and butter. Makes about 20, cooked for 20 minutes.',
     kw: ['murukku', 'murukku recipe', 'rice flour murukku', 'diwali murukku', 'south indian murukku with urad flour'],
     why: 'Does murukku have to be difficult? No, but it has to be right in three small ways: the flour, the dough and the oil.\n\nThe flour is rice flour and roasted urad dal flour, in a ratio of about four to one. Urad flour makes the murukku crisp rather than hard, and roasting it in a dry pan for a few minutes until it smells nutty removes the raw flavour. Sieve both flours together so the dough is smooth.\n\nThe dough is the second point. Add butter, cumin seeds, sesame seeds and salt, then warm water a spoonful at a time. It should be soft and pliable, like a stiff play dough, and not sticky. **If it cracks when you press a spiral, add a little more water.** If it sticks to the press, add a little flour.\n\nPress the dough through the star disc in a spiral onto greased paper, then lower it gently into oil at 170°C. Fry in batches, turning once, for 4 minutes, until the sizzling slows down and the spirals are golden. Cool before storing.',
     ing: [

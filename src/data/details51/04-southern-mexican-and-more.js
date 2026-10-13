@@ -16,7 +16,7 @@
 module.exports = {
   'creole-okra-and-tomatoes': {
     d: 'Okra simmered with tomatoes, onion, green pepper and Creole spice until tender, with the sauce kept thick and free of sliminess.',
-    meta: 'Creole okra and tomatoes: okra simmered with tomatoes, onion, green pepper and Creole spice until tender and not slimy. Four servings, cooked in 25 minutes.',
+    meta: 'Creole okra and tomatoes: okra simmered with tomatoes, onion, green pepper and Creole spice until tender and not slimy. Four servings, cooked for 25 minutes.',
     kw: ['creole okra and tomatoes', 'okra and tomatoes recipe', 'southern okra and tomatoes', 'creole okra recipe', 'stewed okra with tomatoes'],
     why: 'Fry the okra first, in a hot pan, before it meets any liquid. The slime that puts people off okra comes from a gel inside the pods, and searing them in oil sets the surface and breaks the gel down, so what reaches the tomatoes is tender, not stringy.\n\nCreole cooking starts with onion, green pepper and celery softened in fat, and this dish follows that base. Tomatoes go in next, with garlic, thyme, cayenne and a bay leaf, and the whole lot is left to bubble until the juices thicken into a sauce that clings.\n\n**Leave the pods whole or cut them into thick rounds**, and do not stir more than you need. Constant stirring breaks them up and releases more gel. A splash of vinegar at the end brightens the sauce and helps keep the texture clean. Serve over rice, or as a side to fried fish or pork.',
     ing: [
@@ -251,7 +251,7 @@ module.exports = {
 
   'frogmore-stew': {
     d: 'A one-pot boil of smoked sausage, new potatoes, sweetcorn and prawns in a seafood seasoned broth, served on newspaper.',
-    meta: 'Frogmore stew: a one-pot boil of smoked sausage, new potatoes, sweetcorn and prawns in a seafood seasoned broth. Six servings, cooked in 30 minutes.',
+    meta: 'Frogmore stew: a one-pot boil of smoked sausage, new potatoes, sweetcorn and prawns in a seafood seasoned broth. Six servings, cooked for 30 minutes.',
     kw: ['frogmore stew', 'lowcountry boil', 'frogmore stew recipe', 'prawn and sausage boil', 'sausage corn and prawn boil'],
     why: 'Most home versions end up with rubbery prawns and raw potatoes, and the fix is to add each ingredient in the right order. Frogmore stew is not really a stew: it is a boil, and everything cooks in one pot of seasoned water at a different time.\n\nThe potatoes go in first, because they take the longest. Sausage and corn follow, so the sausage seasons the water, and the prawns go in last, for only 3 minutes. Old Bay or a similar seafood seasoning, plus a halved lemon and a spoonful of salt, is all the flavour the broth needs.\n\n**Drain the pot immediately** when the prawns turn pink and curl, because a few extra minutes make them tough. Tip everything out onto a table lined with newspaper and let people help themselves. Serve with melted butter, cocktail sauce and plenty of napkins. Set out bowls for the shells and plenty of napkins, and let everyone peel their own prawns at the table.',
     ing: [
@@ -352,7 +352,7 @@ module.exports = {
 
   'champurrado': {
     d: 'A thick Mexican hot chocolate thickened with masa harina and sweetened with piloncillo, cinnamon and a little vanilla.',
-    meta: 'Champurrado: a thick Mexican hot chocolate thickened with masa harina and sweetened with brown sugar and cinnamon. Four servings, cooked in 15 minutes.',
+    meta: 'Champurrado: a thick Mexican hot chocolate thickened with masa harina and sweetened with brown sugar and cinnamon. Four servings, cooked for 15 minutes.',
     kw: ['champurrado', 'mexican champurrado', 'champurrado recipe', 'thick mexican hot chocolate', 'masa harina hot chocolate'],
     why: 'What separates champurrado from ordinary hot chocolate? Masa harina. The corn flour is whisked into the milk, where it swells and turns the drink thick and velvety, almost like a thin custard, with a gentle, toasty taste of corn behind the chocolate.\n\nThe first step is to whisk the masa with cold water until completely smooth. Add it to the pan while whisking and no lumps form. Dark brown sugar stands in for piloncillo, the raw cane sugar that gives the drink a faint molasses taste, and cinnamon and vanilla complete it.\n\n**Whisk constantly as it heats**, because the masa catches on the base of the pan and the mixture thickens fast. It should coat the back of a spoon after about 10 minutes at a gentle simmer. Serve very hot, ideally in tall mugs, with a sweet bread or tamales beside it. Pour it into mugs while it is still steaming, and stir again if it settles, since the masa sinks to the bottom.',
     ing: [
@@ -383,7 +383,7 @@ module.exports = {
 
   'atole': {
     d: 'A warm, lightly sweet Mexican drink of masa harina simmered with milk, cinnamon and vanilla until smooth and creamy.',
-    meta: 'Atole: a warm, lightly sweet Mexican drink of masa harina simmered with milk, cinnamon and vanilla until smooth. Four servings, cooked in 15 minutes.',
+    meta: 'Atole: a warm, lightly sweet Mexican drink of masa harina simmered with milk, cinnamon and vanilla until smooth. Four servings, cooked for 15 minutes.',
     kw: ['atole', 'mexican atole', 'atole recipe', 'atole de vainilla', 'warm masa harina drink'],
     why: 'The first thing you notice is the warmth in your hands, then the soft, sweet smell of cinnamon and corn. Atole is one of the oldest Mexican drinks, a thin, creamy porridge that is sipped rather than spooned, and it is served at breakfast, on cold evenings and alongside tamales.\n\nThis is the simplest version, flavoured only with vanilla and cinnamon. Masa harina thickens the milk, but far less than in champurrado, so the drink flows easily from a ladle. The brown sugar is a modest amount, enough to bring out the corn.\n\nMix the masa with cold water first, and **pour it in a thin stream while whisking** so it cannot lump. If it does, strain it through a sieve. Simmer for 10 minutes to cook out the raw corn flavour, whisking often. The drink thickens as it cools, so keep a little hot milk nearby to thin it.',
     ing: [
@@ -543,7 +543,7 @@ module.exports = {
 
   'bunuelos-mexicanos': {
     d: 'Thin, crisp Mexican fritters fried from a yeast-free dough, dusted with cinnamon sugar or served with a piloncillo syrup.',
-    meta: 'Buñuelos mexicanos: thin, crisp fritters fried from a simple dough, dusted with cinnamon sugar or served with syrup. Twelve servings, cooked in 20 minutes.',
+    meta: 'Buñuelos mexicanos: thin, crisp fritters fried from a simple dough, dusted with cinnamon sugar or served with syrup. Twelve servings, cooked for 20 minutes.',
     kw: ['buñuelos mexicanos', 'bunuelos recipe', 'mexican buñuelos', 'crispy mexican fritters', 'buñuelos with cinnamon sugar'],
     why: 'Buñuelos are the sweet that comes out at Christmas and fiestas, fried until they shatter. They are not doughnuts or churros but thin, flat discs, like fried crackers, with bubbles on the surface that crunch and flake.\n\nThe dough is flour, baking powder, a little sugar, salt, an egg, butter and warm milk. Knead it for a few minutes until smooth, then rest it for 30 minutes so the gluten relaxes and the discs roll very thin. Divide it into 12 pieces, roll each as thin as you can, and the thinner the dough, the crisper the result.\n\n**Fry in oil at 180°C** for 40 seconds a side. They puff and blister at once, and go from pale to golden within moments. Drain on paper and dust with cinnamon sugar straight away, so it sticks. Serve with a syrup of brown sugar and cinnamon if you like. Pile them on a platter and serve them while they are warm, with a cup of hot chocolate beside them.',
     ing: [
@@ -671,7 +671,7 @@ module.exports = {
 
   'huevos-divorciados': {
     d: 'Two fried eggs on crisp tortillas, one under red salsa and the other under green, with refried beans between them.',
-    meta: 'Huevos divorciados: two fried eggs on crisp tortillas, one under red salsa and one under green, with refried beans. Two servings, cooked in 15 minutes.',
+    meta: 'Huevos divorciados: two fried eggs on crisp tortillas, one under red salsa and one under green, with refried beans. Two servings, cooked for 15 minutes.',
     kw: ['huevos divorciados', 'divorced eggs', 'huevos divorciados recipe', 'mexican eggs with red and green salsa', 'huevos with two salsas'],
     why: 'Divorced eggs get their name from the plate: two eggs, kept apart by a strip of refried beans, one wearing red salsa and the other green. They are an everyday Mexican breakfast, and the cook\'s job is mainly to keep the elements hot and the yolks soft.\n\nThe tortillas are crisped lightly in oil, so they stay firm enough to carry the eggs, not so hard that they shatter. The red salsa is tomato and chilli, the green salsa tomatillo and coriander, and both should be warm. If you are using ready-made salsas, heat them in a small pan for a few minutes first.\n\n**Fry the eggs in a little oil** over medium heat until the whites are set and the yolks are still runny, and slide each onto a tortilla. Spoon salsa over, keeping the colours apart, and add refried beans in a line between. Finish with crumbled cheese and coriander.',
     ing: [
@@ -737,7 +737,7 @@ module.exports = {
 
   'green-lipped-mussels': {
     d: 'New Zealand green lipped mussels steamed open in white wine, garlic and parsley, served in their broth with crusty bread.',
-    meta: 'Green lipped mussels: New Zealand mussels steamed open in white wine, garlic and parsley, served in their broth. Four servings, cooked in 10 minutes.',
+    meta: 'Green lipped mussels: New Zealand mussels steamed open in white wine, garlic and parsley, served in their broth. Four servings, cooked for 10 minutes.',
     kw: ['green lipped mussels', 'new zealand green lipped mussels', 'steamed green lipped mussels', 'green mussels in white wine', 'green lipped mussels recipe'],
     why: 'Mussels, garlic, wine, parsley and a hot pan. That is all this takes, and the mussels do the rest, opening in their own juices and making the sauce as they go. New Zealand green lipped mussels are larger and plumper than the common blue mussel, with a sweet, mild flavour.\n\nThe shells are edged with green, which is where the name comes from. If they arrive in a net or a bag, wash them and pull off the hairy beards. Discard any open mussels that do not close when tapped, because those are no longer alive, and any with broken shells.\n\n**Cover the pan and steam for about 5 minutes**, shaking it now and then. The mussels are done when the shells have opened wide. Throw away any that stay shut. Spoon the mussels and broth into bowls, scatter with parsley and serve with plenty of crusty bread for the juices.',
     ing: [
@@ -766,7 +766,7 @@ module.exports = {
 
   'chilli-mussels': {
     d: 'Mussels steamed open in a hot tomato broth of chilli, garlic and ginger, finished with coriander and a squeeze of lime.',
-    meta: 'Chilli mussels: mussels steamed open in a hot tomato broth of chilli, garlic and ginger, finished with coriander and lime. Four servings, cooked in 12 minutes.',
+    meta: 'Chilli mussels: mussels steamed open in a hot tomato broth of chilli, garlic and ginger, finished with coriander and lime. Four servings, cooked for 12 minutes.',
     kw: ['chilli mussels', 'new zealand chilli mussels', 'chilli mussels recipe', 'mussels in tomato and chilli sauce', 'spicy mussels with coriander'],
     why: 'Make the sauce first. Chilli mussels are a quick dish, but the broth needs a few minutes to come together before the shellfish go in, and they should only spend about five minutes in it. Tomatoes, garlic, ginger and fresh chilli are simmered until they break down and the kitchen smells of heat.\n\nThe mussels give their own liquor to the sauce as they open, so the broth gets richer and saltier in the pot. Because of that, taste before adding any salt, and add it only at the end. A splash of fish sauce can stand in for it.\n\n**Add the mussels all at once** and cover the pan, so they steam evenly. Shake it two or three times and check after 5 minutes. Discard any that have not opened. Finish with lime juice and a handful of coriander, and serve straight from the pan with bread or rice to soak up the sauce.',
     ing: [
@@ -798,7 +798,7 @@ module.exports = {
 
   'salsa-macha': {
     d: 'A Mexican chilli oil of dried chillies, peanuts, sesame seeds and garlic fried in oil until fragrant and crunchy.',
-    meta: 'Salsa macha: a Mexican chilli oil of dried chillies, peanuts, sesame seeds and garlic fried in oil until fragrant and crunchy. Ten servings, cooked in 15 minutes.',
+    meta: 'Salsa macha: a Mexican chilli oil of dried chillies, peanuts, sesame seeds and garlic fried in oil until fragrant and crunchy. Ten servings, cooked for 15 minutes.',
     kw: ['salsa macha', 'salsa macha recipe', 'mexican chilli oil', 'peanut and chilli salsa', 'dried chilli and peanut oil'],
     why: 'Flour, butter, sugar? No: chillies, peanuts, sesame and oil, which are four things you probably already own, and about fifteen minutes. Salsa macha is a Mexican condiment from Veracruz, and it is closer to a crunchy chilli oil than a sauce, spooned onto tacos, eggs, grilled meat, noodles and almost anything else.\n\nThe oil must be warm, not smoking. Dried chillies burn easily and turn bitter, so heat the oil gently with the garlic and peanuts until the peanuts take on colour, then add the sesame seeds and chillies off the heat. The chillies darken in the residual warmth and release their flavour without scorching.\n\n**Pour it into a clean jar** and let it cool before covering. The flavour deepens over a day or two, and the peanuts soften slightly as they absorb oil. Stir before every use, since the solids settle to the bottom. A spoonful stirred into soup or mayonnaise, or spooned onto avocado on toast, is a quick way to use it up.',
     ing: [

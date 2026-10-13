@@ -17,7 +17,7 @@
 module.exports = {
   'popcorn-balls': {
     d: 'Fresh popcorn bound with a hot marshmallow and butter syrup, shaped into balls while warm and left to set.',
-    meta: 'Popcorn balls: fresh popcorn bound with a hot marshmallow and butter syrup, shaped into balls while warm. Ten servings, cooked in 10 minutes.',
+    meta: 'Popcorn balls: fresh popcorn bound with a hot marshmallow and butter syrup, shaped into balls while warm. Ten servings, cooked for 10 minutes.',
     kw: ['popcorn balls', 'marshmallow popcorn balls', 'popcorn balls recipe', 'homemade popcorn balls', 'halloween popcorn balls'],
     why: 'The secret is butter on your hands. Popcorn balls are sticky work, and a thin film of butter on your palms means the warm marshmallow coating clings to the popcorn instead of to you. Work quickly, because the mixture sets as it cools and becomes impossible to shape.\n\nThe binding is a simple syrup of melted butter and marshmallows, stirred over low heat until smooth. It sets to a soft, chewy coating, not the hard crack of caramel corn. Use freshly popped corn, with the unpopped kernels sifted out, because a single hard kernel can break a tooth. About 3 litres of popped corn, or 80 g of kernels popped, is enough for ten balls.\n\n**Pour the syrup over the popcorn in two additions**, stirring gently with a buttered spatula to coat each piece. Press the mixture into balls the size of a tennis ball, using light pressure, and set them on baking paper. They firm up within 15 minutes. Wrap them in cellophane for gifts, or eat them within the day.',
     ing: [
@@ -140,7 +140,7 @@ module.exports = {
 
   'appalachian-fried-apple-pies': {
     d: 'Small pastry turnovers filled with spiced dried apple and fried until blistered and golden, the crust crisp and flaky.',
-    meta: 'Appalachian fried apple pies: small pastry turnovers filled with spiced dried apple and fried until golden. Eight servings, cooked in 15 minutes.',
+    meta: 'Appalachian fried apple pies: small pastry turnovers filled with spiced dried apple and fried until golden. Eight servings, cooked for 15 minutes.',
     kw: ['appalachian fried apple pies', 'fried apple pies', 'fried apple pie recipe', 'dried apple hand pies', 'apple turnovers fried in oil'],
     why: 'Autumn is when these taste best, as the first cool weather makes the thought of hot fried pastry and apples appealing again, though the filling uses dried apples that keep all year. Dried fruit makes a better fried pie than fresh, because it has less water to turn the crust soggy and a more concentrated flavour.\n\nSimmer the dried apples with sugar, cinnamon and a little water until they are soft and thick, then mash them roughly and cool. The filling must be cool when it goes into the dough, or it will melt the fat and make the pastry tough. The dough is a simple one of flour, butter and cold water, rolled thin and cut into rounds.\n\n**Seal the edge firmly with a fork**, pressing along the curved edge, or the filling will leak into the oil. Fry in about 2 cm of oil at 175°C, for about 2 minutes on each side, turning once. Drain on paper and eat warm, dusted with sugar, with the filling still hot and sticky.',
     ing: [
@@ -240,7 +240,7 @@ module.exports = {
 
   'air-fryer-potato-wedges': {
     d: 'Thick potato wedges tossed in oil and paprika and cooked in the air fryer until crisp outside and fluffy inside.',
-    meta: 'Air fryer potato wedges: thick potato wedges tossed in oil and paprika and cooked in the air fryer until crisp outside. Four servings, cooked in 20 minutes.',
+    meta: 'Air fryer potato wedges: thick potato wedges tossed in oil and paprika and cooked in the air fryer until crisp outside. Four servings, cooked for 20 minutes.',
     kw: ['air fryer potato wedges', 'air fryer wedges', 'crispy air fryer potato wedges', 'paprika potato wedges', 'potato wedges in the air fryer'],
     why: 'It looks like a lot of oil and uses very little. An air fryer is a small, fast oven with a fan, and it crisps potatoes with a spoonful of oil where a pan or deep fryer needs a lot more. The wedges come out golden and crunchy outside, soft and fluffy in the middle.\n\nThe cut is what matters. Cut the potatoes into wedges of equal thickness, about 2 cm at the widest part, so they cook at the same speed. Soak them in cold water for 10 minutes to remove surface starch, then dry them thoroughly. Wet wedges steam instead of crisping.\n\n**Do not crowd the basket.** Wedges that overlap trap steam and stay pale. Cook in a single layer, or in two batches, and shake the basket halfway through. They are ready when the edges are deep golden and crisp. Toss with salt straight away and serve hot, with a dip such as sour cream, ketchup or garlic mayonnaise.',
     ing: [
@@ -268,7 +268,7 @@ module.exports = {
 
   'air-fryer-corn-ribs': {
     d: 'Corn cobs cut into long strips that curl into ribs, then cooked in the air fryer with paprika and lime until charred.',
-    meta: 'Air fryer corn ribs: corn cobs cut into long strips that curl into ribs, then cooked in the air fryer with paprika and lime. Four servings, cooked in 15 minutes.',
+    meta: 'Air fryer corn ribs: corn cobs cut into long strips that curl into ribs, then cooked in the air fryer with paprika and lime. Four servings, cooked for 15 minutes.',
     kw: ['air fryer corn ribs', 'corn ribs recipe', 'crispy corn ribs', 'air fryer corn on the cob strips', 'corn ribs with parmesan and lime'],
     why: 'Be careful with the knife. The ribs are made by cutting a corn cob in half, standing each half on its flat end and slicing downwards, then slicing each piece again into long strips. Cutting corn is the only tricky part, as the cob is slippery and tough, so use a large, sharp knife and a firm board.\n\nIn the heat of the air fryer, the strips curl up and the kernels brown at the edges and caramelise. The flavour is sweet and slightly smoky, like corn on the cob but easier to eat with the fingers. Brush with oil, paprika and garlic powder first, then add the toppings at the end.\n\n**Cook at 200°C for 12 to 15 minutes**, shaking the basket once. Finish with grated Parmesan, a squeeze of lime and a little chilli powder. The ribs are best eaten right away, while they are hot and crisp. They are a party snack that costs very little and disappears quickly.',
     ing: [
@@ -545,7 +545,7 @@ module.exports = {
 
   'instant-pot-egg-bites': {
     d: 'Soft, fluffy egg bites with cheese and bacon, blended smooth and cooked in silicone moulds under pressure in the Instant Pot.',
-    meta: 'Instant Pot egg bites: soft, fluffy egg bites with cheese and bacon, blended smooth and cooked in moulds under pressure. Four servings, cooked in 10 minutes.',
+    meta: 'Instant Pot egg bites: soft, fluffy egg bites with cheese and bacon, blended smooth and cooked in moulds under pressure. Four servings, cooked for 10 minutes.',
     kw: ['instant pot egg bites', 'egg bites recipe', 'pressure cooker egg bites', 'cheese and bacon egg bites', 'soft egg bites in the instant pot'],
     why: 'Blend the eggs for a full 20 seconds. The key to a smooth, custardy bite, with the velvety texture of a soufflé, is to whip in plenty of air and break up every strand of egg white. A blender also incorporates the cottage cheese, which makes the bites creamy and light without any flour or cream.\n\nThe pressure cooker is a gentle device for this. A cup of water in the base and a trivet above it create steam, and the egg mixture, in covered silicone moulds, sets slowly. In 8 minutes at high pressure, followed by a 2 minute natural release, the bites puff up and set without browning or becoming rubbery.\n\n**Cover the moulds with foil** so condensation does not drip into the eggs. Fill them only three-quarters full, since the mixture rises. Take them out with the trivet, let them stand for a few minutes and turn them out with a knife. They are good hot or cold, so make a batch for the week.',
     ing: [
@@ -607,7 +607,7 @@ module.exports = {
 
   'cast-iron-pizza': {
     d: 'A thick-edged skillet pizza made with a quick yogurt dough, crisped on the hob and finished in a hot oven.',
-    meta: 'Cast iron pizza: a thick-edged skillet pizza made with a quick yogurt dough, crisped on the hob and finished in a hot oven. Four servings, cooked in 20 minutes.',
+    meta: 'Cast iron pizza: a thick-edged skillet pizza made with a quick yogurt dough, crisped on the hob and finished in a hot oven. Four servings, cooked for 20 minutes.',
     kw: ['cast iron pizza', 'skillet pizza', 'cast iron skillet pizza recipe', 'yogurt dough pizza', 'pizza in a cast iron pan'],
     why: 'It looks like a deep-dish pizza and cooks like a flatbread, and it needs no proving. The dough here is flour, baking powder, salt and yogurt, which mixes in two minutes and rolls out at once. It is nothing like a yeast dough, but the pan does a lot of the work, giving a crisp, golden base and a chewy edge.\n\nThe skillet goes on the hob first. A thin film of oil, a round of dough pressed in with a rim, and a few minutes of direct heat set and brown the base before any topping goes on. Then the sauce, the mozzarella and the pepperoni go on, and the pan moves to a hot oven for the cheese to melt and the edge to puff.\n\n**Keep the sauce thin and the cheese plentiful.** Too much sauce makes the centre soggy. Take the pizza out when the cheese is bubbling and the rim is dark gold, loosen the edges with a spatula and slide it onto a board. Slice and serve at once, with chilli flakes for those who want heat.',
     ing: [
@@ -639,7 +639,7 @@ module.exports = {
 
   'cast-iron-steak': {
     d: 'Two thick steaks seared in a smoking-hot cast iron pan and basted with butter, garlic and thyme.',
-    meta: 'Cast iron steak: two thick steaks seared in a smoking-hot cast iron pan and basted with butter, garlic and thyme. Two servings, cooked in 10 minutes.',
+    meta: 'Cast iron steak: two thick steaks seared in a smoking-hot cast iron pan and basted with butter, garlic and thyme. Two servings, cooked for 10 minutes.',
     kw: ['cast iron steak', 'cast iron skillet steak', 'pan seared steak with garlic butter', 'butter basted steak', 'cast iron steak recipe'],
     why: 'Steak, salt, a hot pan and butter: four things you already own, and about ten minutes. A cast iron skillet holds an enormous amount of heat, and a steak that goes into one browns hard and fast, forming the dark crust that gives the dish its flavour while the middle stays rosy.\n\nTake the steaks out of the fridge 30 minutes before cooking and pat them very dry, since a wet surface steams instead of searing. Salt generously. Get the pan smoking hot over high heat with a thin film of oil, and lay the steaks away from you so the splatter goes the other way.\n\n**Turn the steaks only once**, after 3 minutes. Add the butter, garlic and thyme to the pan and tilt it, spooning the foaming butter over the meat for the last 2 minutes. Rest the steaks on a board for 5 minutes before slicing, so the juices stay in the meat. Spoon the pan butter over the top.',
     ing: [
@@ -765,7 +765,7 @@ module.exports = {
 
   'cheese-twists': {
     d: 'Strips of puff pastry spread with mustard, topped with cheddar and Parmesan, twisted and baked until golden and crisp.',
-    meta: 'Cheese twists: strips of puff pastry spread with mustard, topped with cheddar and Parmesan, twisted and baked until crisp. Twelve servings, cooked in 15 minutes.',
+    meta: 'Cheese twists: strips of puff pastry spread with mustard, topped with cheddar and Parmesan, twisted and baked until crisp. Twelve servings, cooked for 15 minutes.',
     kw: ['cheese twists', 'puff pastry cheese twists', 'cheese straws recipe', 'cheddar and parmesan twists', 'cheese twists for parties'],
     why: 'Most home versions unwind in the oven, and the fix is to press the ends down onto the tray. Cheese twists are strips of puff pastry spun into corkscrews, and the pastry has a natural tendency to spring back as it bakes. Pinching each end firmly against the baking paper stops it, and the twist stays tight.\n\nThe filling is simple: a thin spread of mustard on the pastry, then plenty of grated cheddar and Parmesan, a pinch of paprika and a grind of pepper. Fold the pastry over to enclose the cheese, press it down with a rolling pin so that the layers seal, and cut into strips about 1.5 cm wide.\n\n**Twist each strip two or three times** and lay it on the tray with a small gap between. Brush with beaten egg to give a shiny, golden crust. Bake until puffed and deep gold, and cool for a few minutes on a rack. They are good served warm or cold, and they keep for a day or two in a tin.',
     ing: [

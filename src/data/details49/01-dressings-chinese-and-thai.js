@@ -711,7 +711,7 @@ module.exports = {
 
   'khao-kai-jeow': {
     d: 'A puffy, crisp-edged Thai omelette made in hot oil, served over rice with a splash of fish sauce and chilli.',
-    meta: 'Khao kai jeow: a puffy Thai omelette made in hot oil, served over rice with fish sauce and chilli. Two servings, cooked in 5 minutes.',
+    meta: 'Khao kai jeow: a puffy Thai omelette made in hot oil, served over rice with fish sauce and chilli. Two servings, cooked for 5 minutes.',
     kw: ['khao kai jeow', 'thai omelette over rice', 'kai jeow', 'thai omelette recipe', 'crispy thai omelette with rice'],
     why: 'Salt the eggs only at the last second, and use more oil than feels sensible; those are the two lessons of kai jeow. A Thai omelette is not a French one. It is deep-fried in a shallow bath of very hot oil, and in about a minute it balloons into a golden, lacy dish with crisp edges and a tender middle.\n\nThe egg mixture is simple: three eggs, a splash of fish sauce, a squeeze of lime juice, and a teaspoon of cornflour mixed with water, which helps the omelette puff and keeps its structure. Beat with a fork until combined but not frothy. **Pour the egg from a height into the hot oil.** The streams spread out and make the lacy edges.\n\nThe oil needs to be shimmering, around 190°C. If you drop in a bit of egg, it should puff and rise immediately. If the oil is too cool, the omelette soaks it up and turns heavy.\n\nCook for 45 seconds until the underside is golden and crisp, fold over, and cook for another 15 seconds. Lift out with a slotted spoon and drain briefly. Serve over hot jasmine rice with sriracha or chilli sauce.',
     ing: [

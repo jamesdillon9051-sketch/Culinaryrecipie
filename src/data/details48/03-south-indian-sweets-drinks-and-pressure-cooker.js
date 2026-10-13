@@ -14,7 +14,7 @@
 module.exports = {
   'kerala-appam': {
     d: 'Soft, bowl-shaped rice pancakes with a thick white centre and thin, lacy edges, made from a fermented rice and coconut batter.',
-    meta: 'Kerala appam: bowl-shaped rice and coconut pancakes with a soft centre and lacy edges. Makes eight, cooked in 20 minutes.',
+    meta: 'Kerala appam: bowl-shaped rice and coconut pancakes with a soft centre and lacy edges. Makes eight, cooked for 20 minutes.',
     kw: ['kerala appam', 'appam recipe', 'palappam', 'appam with coconut milk', 'rice and coconut pancake'],
     why: 'Why does the batter need all night? Because appam is a fermented batter, and the yeast or the long soak is what makes the centre soft and the edges thin. Rice, a spoonful of cooked rice, grated coconut and a little sugar are ground smooth and left to rise until the surface is covered in bubbles.\n\nThe batter should be thinner than pancake batter, like single cream. If it is too thick, the appam will not spread into the lacy rim. **Add water a spoonful at a time until the batter runs off a spoon in a steady ribbon.**\n\nUse a small, deep pan with a lid (an appam chatti if you have one, otherwise a small wok). Heat it, wipe it with a little oil, pour in a ladleful of batter and swirl the pan so the batter coats the sides and pools in the middle.\n\nCover and cook for 3 minutes. The edges crisp and brown, and the centre sets pillow soft. There is no flipping. Slide the appam out onto a plate and make the next.',
     ing: [
@@ -73,7 +73,7 @@ module.exports = {
 
   'idiyappam': {
     d: 'Fine strands of steamed rice flour dough pressed into nests, soft and pale, served with curry or sweetened coconut milk.',
-    meta: 'Idiyappam: fine steamed rice flour noodle nests, soft and pale. Makes about twelve, steamed in 15 minutes.',
+    meta: 'Idiyappam: fine steamed rice flour noodle nests, soft and pale. Makes about twelve, steamed for 15 minutes.',
     kw: ['idiyappam', 'idiyappam recipe', 'string hoppers', 'kerala idiyappam', 'steamed rice noodles from rice flour'],
     why: 'Rice flour, hot water, salt: the dough is the whole recipe, and the only trick is the heat of the water. Boiling water cooks the starch in the flour as it is mixed, so the dough turns soft and pressable instead of crumbly. Cold water gives a dough that clogs the press.\n\nPour the boiling water in slowly while stirring with a spoon. It is too hot to touch at first. Cover for 5 minutes, then knead briefly with oiled hands until smooth. **The dough should feel like soft clay.** If it cracks, add a spoonful of hot water. If it is sticky, add a spoonful of flour.\n\nA sev press or idiyappam maker with a fine disc turns the dough into strands. Press them in a spiral on an oiled idli plate or a piece of banana leaf, a thin nest at a time.\n\nSteam for 8 minutes, until the strands lose their shine and feel firm to the touch. Eat while warm, with a coconut or vegetable curry.',
     ing: [
@@ -516,7 +516,7 @@ module.exports = {
 
   'instant-pot-butter-chicken': {
     d: 'Chicken thighs pressure-cooked in a spiced tomato sauce, then finished with butter and cream for a rich, mild curry.',
-    meta: 'Instant Pot butter chicken: chicken pressure-cooked in a spiced tomato sauce, finished with butter and cream. Four servings, cooked in 25 minutes.',
+    meta: 'Instant Pot butter chicken: chicken pressure-cooked in a spiced tomato sauce, finished with butter and cream. Four servings, cooked for 25 minutes.',
     kw: ['instant pot butter chicken', 'instant pot butter chicken recipe', 'instant pot murgh makhani', 'butter chicken in the instant pot', 'instant pot indian chicken curry'],
     why: 'It looks like the slow version and tastes almost the same, but the pressure cooker does in 8 minutes what a pan does in 40. The sauce is built in the pot: onion, ginger and garlic softened on the sauté setting, spices bloomed in the fat, then tomatoes and chicken.\n\nThe main danger in a pressure cooker is the burn warning, which comes from a dry base. Deglaze well after sautéing: pour in the tomatoes and scrape the base until nothing sticks. **Do not stir once the lid is on.** Thick sauce settles at the bottom and triggers the warning.\n\nChicken thighs are best. They stay tender under pressure, whereas breast meat turns dry. Cut them into 4 cm pieces so they cook in 8 minutes at high pressure.\n\nRelease the pressure naturally for 5 minutes, then manually. Stir in the butter and cream with the sauté setting back on low, and simmer for 3 minutes to thicken. Finish with kasuri methi crushed between the palms.',
     ing: [
@@ -554,7 +554,7 @@ module.exports = {
 
   'instant-pot-dal': {
     d: 'Yellow split lentils pressure-cooked until creamy and finished with a hot tempering of cumin, garlic and chilli.',
-    meta: 'Instant Pot dal: yellow split lentils pressure-cooked until creamy and finished with a cumin and garlic tempering. Four servings, cooked in 25 minutes.',
+    meta: 'Instant Pot dal: yellow split lentils pressure-cooked until creamy and finished with a cumin and garlic tempering. Four servings, cooked for 25 minutes.',
     kw: ['instant pot dal', 'instant pot toor dal', 'instant pot dal recipe', 'instant pot lentil dal', 'instant pot dal tadka'],
     why: 'Does dal need soaking in a pressure cooker? No, and that is the point of making it this way. Split lentils (toor dal) cook to a soft, creamy purée in 10 minutes under pressure, with no overnight wait, and the result tastes like a pot that has simmered all afternoon.\n\nRinse the dal in several changes of water until the water runs nearly clear. **Skim any foam from the surface before the lid goes on.** In a pressure cooker foam can block the valve, and a spoonful of oil in the pot helps keep it down.\n\nThe ratio is 1 part dal to 3 parts water. Add turmeric and salt, and a chopped tomato if you like a little tang. After 10 minutes at high pressure and a natural release of 10 minutes, the lentils will have collapsed. A whisk through the pot makes it creamy.\n\nThe tempering finishes it. Heat ghee in a small pan, add cumin seeds, sliced garlic, dried chillies and a pinch of asafoetida, and pour the sizzling mixture over the dal. Stir and serve at once.',
     ing: [
@@ -627,7 +627,7 @@ module.exports = {
 
   'sheet-pan-chicken-tikka': {
     d: 'Yoghurt-marinated chicken thighs and onion roasted together on one tray until charred at the edges.',
-    meta: 'Sheet pan chicken tikka: yoghurt-marinated chicken thighs and onion roasted on one tray. Four servings, cooked in 25 minutes.',
+    meta: 'Sheet pan chicken tikka: yoghurt-marinated chicken thighs and onion roasted on one tray. Four servings, cooked for 25 minutes.',
     kw: ['sheet pan chicken tikka', 'oven chicken tikka', 'chicken tikka in the oven', 'sheet pan indian chicken', 'baked chicken tikka'],
     why: 'Keep the oven hot. That is most of the recipe, and the part people skip. A tikka marinade is thick and sticky, and it only chars at the edges at 240°C. Lower than that, the chicken bakes pale and wet.\n\nThe marinade is yoghurt, lemon juice, ginger, garlic, garam masala, cumin, turmeric and chilli powder. Thigh meat tolerates the heat and stays juicy, and cutting it into 4 cm pieces gives plenty of surface for the char. Coat the chicken and leave it for 30 minutes. **A longer marinade is fine, but there is no need for more.**\n\nSpread the chicken and wedges of onion on a preheated tray in a single layer, leaving gaps. A crowded tray steams. Roast for 25 minutes, turning once, until the edges are blackened and the juices run clear.\n\nA squeeze of lemon and a shower of coriander finish the tray. It makes a quick dinner with rice and chutney, or the filling for wraps, and cleaning up takes a minute.',
     ing: [
@@ -760,7 +760,7 @@ module.exports = {
 
   'pesarattu': {
     d: 'Thin, savoury Andhra pancakes of soaked whole green moong ground with ginger, green chilli and cumin, cooked on a hot griddle.',
-    meta: 'Pesarattu: thin Andhra pancakes of soaked green moong ground with ginger, chilli and cumin. Four servings, cooked in 20 minutes.',
+    meta: 'Pesarattu: thin Andhra pancakes of soaked green moong ground with ginger, chilli and cumin. Four servings, cooked for 20 minutes.',
     kw: ['pesarattu', 'pesarattu recipe', 'green moong dosa', 'andhra pesarattu', 'moong dal dosa with ginger'],
     why: 'Salt the batter after grinding, not before, and soak the beans for six hours. Everything else follows from those two. Pesarattu is an Andhra breakfast dosa made from whole green moong beans, not from rice, so there is no fermentation and no waiting beyond the soak.\n\nThe beans should be soaked in plenty of water until they have swollen and the skins are loose. Drain and grind them with a small piece of ginger, green chillies, cumin and a little water to a smooth batter. It should be thicker than a pancake batter, but pourable. **A thin batter will tear when spread.** A thick one will not spread at all.\n\nThe pan has to be hot and lightly oiled. Pour a ladleful into the centre and spread it with the back of the ladle in a circular motion, thin and even. Drizzle a little oil at the edges.\n\nCook for 2 minutes on one side until the underside is green-gold and crisp. Fold and serve straight away with ginger chutney, or with upma inside, which is the traditional pairing.',
     ing: [
