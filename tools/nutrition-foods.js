@@ -604,7 +604,9 @@ const EXT4_FOODS = {
   pork_liver: [21, 2.5, 4.5, 0, 0, 87],
   ice: [0, 0, 0, 0, 0, 0],
   guava_paste: [0.4, 70, 0.1, 2, 60, 10],
-  fruit_cocktail: [0.4, 14, 0.1, 1, 13, 5]
+  fruit_cocktail: [0.4, 14, 0.1, 1, 13, 5],
+  quince: [0.4, 15, 0.1, 1.9, 12, 4],
+  thousand_island: [1, 17, 35, 0.5, 12, 900]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -639,7 +641,7 @@ const EXT4_ALIAS = {
   pak_choi: ['choy sum'],
   ajvar: ['ajvar'],
   pasta_dry: ['fine soup noodles', 'soup noodles'],
-  pork_ribs: ['pork hock or ribs', 'pork hock', 'pork spare ribs, St Louis cut', 'pork spare ribs'],
+  pork_ribs: ['pork hock or ribs', 'pork hock', 'pork spare ribs, St Louis cut', 'pork spare ribs', 'pork crown roast, 16 ribs, prepared by the butcher', 'pork crown roast'],
   matzo_meal: ['matzo meal'],
   smoked_haddock: ['smoked fish', 'smoked fish, flaked'],
   cornmeal: ['white maize meal', 'maize meal'],
@@ -673,7 +675,11 @@ const EXT4_ALIAS = {
   frozen_fries: ['frozen straight-cut fries', 'fries'],
   cod: ['grouper fillets, cut into 4 pieces', 'grouper fillets'],
   fruit_cocktail: ['tinned fruit cocktail, very well drained', 'fruit cocktail'],
-  bread_white: ['round white loaf']
+  bread_white: ['round white loaf'],
+  quince: ['quinces, peeled, cored and chopped', 'quinces', 'quince'],
+  thousand_island: ['thousand island dressing'],
+  kidney_beans_tin: ['cooked pinto beans, warmed', 'cooked pinto beans', 'pinto beans'],
+  vinegar: ['pickling liquid from the jar']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},

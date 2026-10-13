@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 74, Spanish 1.
+ * Spread: American 98, Spanish 2.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -78,6 +78,7 @@ module.exports = [
   c('brown-sugar-ham-glaze', 'Brown Sugar Ham Glaze', 'American', 'Holiday Specials', 'Easy', 5, 10, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'brown sugar ham glaze'),
   c('cranberry-brie-bites', 'Cranberry Brie Bites', 'American', 'Holiday Specials', 'Easy', 15, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'cranberry brie bites'),
   c('glazed-baked-ham', 'Glazed Baked Ham', 'American', 'Holiday Specials', 'Easy', 15, 150, 12, 0, 0, ['Dairy-Free'], ['new'], 'glazed baked ham'),
+  c('witch-finger-cookies', 'Witch Finger Cookies', 'American', 'Holiday Specials', 'Medium', 30, 15, 24, 0, 0, ['Vegetarian'], ['new'], 'witch finger cookies'),
   c('popcorn-balls', 'Popcorn Balls', 'American', 'Holiday Specials', 'Easy', 15, 10, 10, 0, 0, ['Gluten-Free'], ['new'], 'popcorn balls'),
   c('pizza-dip', 'Pizza Dip', 'American', 'Appetizers', 'Easy', 10, 25, 8, 0, 0, [], ['new'], 'pizza dip'),
   c('fruit-jello-salad', 'Fruit Jello Salad', 'American', 'Desserts', 'Easy', 15, 0, 8, 0, 0, ['Gluten-Free'], ['new'], 'fruit jello salad'),
@@ -102,5 +103,29 @@ module.exports = [
   c('cast-iron-skillet-cookie', 'Cast Iron Skillet Cookie', 'American', 'Desserts', 'Easy', 10, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'cast iron skillet cookie'),
   c('dutch-oven-chicken', 'Dutch Oven Chicken', 'American', 'Dinner', 'Easy', 15, 75, 4, 0, 0, [], ['new'], 'dutch oven chicken'),
   c('pull-apart-cheese-bread', 'Pull-Apart Cheese Bread', 'American', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Gluten-Free'], ['new'], 'pull-apart cheese bread'),
-  c('cheese-twists', 'Cheese Twists', 'American', 'Appetizers', 'Easy', 10, 15, 12, 0, 0, [], ['new'], 'cheese twists')
+  c('cheese-twists', 'Cheese Twists', 'American', 'Appetizers', 'Easy', 10, 15, 12, 0, 0, [], ['new'], 'cheese twists'),
+  c('pumpkin-cream-cheese-muffins', 'Pumpkin Cream Cheese Muffins', 'American', 'Baking', 'Easy', 20, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'pumpkin cream cheese muffins'),
+  c('blueberry-streusel-muffins', 'Blueberry Streusel Muffins', 'American', 'Baking', 'Easy', 15, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'blueberry streusel muffins'),
+  c('bagel-bites', 'Bagel Bites', 'American', 'Appetizers', 'Easy', 10, 12, 12, 0, 0, [], ['new'], 'bagel bites'),
+  c('sourdough-pizza-crust', 'Sourdough Pizza Crust', 'American', 'Dinner', 'Medium', 20, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'sourdough pizza crust'),
+  c('sourdough-cinnamon-rolls', 'Sourdough Cinnamon Rolls', 'American', 'Baking', 'Hard', 45, 30, 10, 0, 0, ['Vegetarian'], ['new'], 'sourdough cinnamon rolls'),
+  c('sourdough-brownies', 'Sourdough Brownies', 'American', 'Desserts', 'Easy', 15, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'sourdough brownies'),
+  c('sourdough-waffles', 'Sourdough Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'sourdough waffles'),
+  c('cottage-cheese-toast', 'Cottage Cheese Toast', 'American', 'Quick Meals', 'Easy', 5, 5, 2, 0, 0, ['Vegetarian'], ['new'], 'cottage cheese toast'),
+  c('biscuits-and-gravy-casserole', 'Biscuits and Gravy Casserole', 'American', 'Breakfast', 'Easy', 20, 40, 8, 0, 0, [], ['new'], 'biscuits and gravy casserole'),
+  c('chicken-francoise', 'Chicken Françoise', 'American', 'Dinner', 'Medium', 20, 25, 4, 0, 0, [], ['new'], 'chicken françoise'),
+  c('chicken-vesuvio', 'Chicken Vesuvio', 'American', 'Dinner', 'Medium', 20, 50, 4, 0, 0, [], ['new'], 'chicken vesuvio'),
+  c('chicken-murphy', 'Chicken Murphy', 'American', 'Dinner', 'Medium', 20, 45, 4, 0, 0, [], ['new'], 'chicken murphy'),
+  c('scalloped-corn', 'Scalloped Corn', 'American', 'Dinner', 'Easy', 10, 45, 6, 0, 0, ['Vegetarian'], ['new'], 'scalloped corn'),
+  c('reuben-casserole', 'Reuben Casserole', 'American', 'Dinner', 'Easy', 15, 40, 6, 0, 0, [], ['new'], 'reuben casserole'),
+  c('sonoran-hot-dog', 'Sonoran Hot Dog', 'American', 'Lunch', 'Easy', 15, 10, 4, 0, 0, [], ['new'], 'sonoran hot dog'),
+  c('jucy-lucy', 'Jucy Lucy', 'American', 'Dinner', 'Medium', 20, 12, 4, 0, 0, [], ['new'], 'jucy lucy'),
+  c('bacon-wrapped-meatloaf', 'Bacon Wrapped Meatloaf', 'American', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'bacon wrapped meatloaf'),
+  c('pizza-casserole', 'Pizza Casserole', 'American', 'Dinner', 'Easy', 15, 35, 6, 0, 0, [], ['new'], 'pizza casserole'),
+  c('crown-roast-of-pork', 'Crown Roast of Pork', 'American', 'Holiday Specials', 'Hard', 30, 120, 8, 0, 0, [], ['new'], 'crown roast of pork'),
+  c('membrillo', 'Membrillo', 'Spanish', 'Desserts', 'Medium', 20, 120, 16, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'membrillo'),
+  c('pan-gravy', 'Pan Gravy', 'American', 'Dinner', 'Easy', 5, 10, 6, 0, 0, [], ['new'], 'pan gravy'),
+  c('red-eye-gravy', 'Red Eye Gravy', 'American', 'Breakfast', 'Easy', 5, 10, 4, 0, 0, ['Gluten-Free'], ['new'], 'red eye gravy'),
+  c('cocktail-meatballs', 'Cocktail Meatballs', 'American', 'Appetizers', 'Easy', 20, 30, 10, 0, 0, [], ['new'], 'cocktail meatballs'),
+  c('bacon-wrapped-scallops', 'Bacon Wrapped Scallops', 'American', 'Appetizers', 'Easy', 15, 15, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'bacon wrapped scallops')
 ];
