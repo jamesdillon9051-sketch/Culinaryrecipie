@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 6916 image files (WebP + JPEG)
+│       └── img/recipes/         # 7078 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 6916 image files
+├── assets/                      #    css, js and 7078 image files
 ├── recipes/                     #    4015 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 361,592 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 361,666 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -392,8 +392,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-2864 of the 4015 recipes have a photograph. Of the 3347 images on the site,
-1336 are CC0 or public domain, 1010 are CC BY and 1001 are CC BY-SA. Anything
+2945 of the 4015 recipes have a photograph. Of the 3428 images on the site,
+1346 are CC0 or public domain, 1024 are CC BY and 1058 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5409,7 +5409,7 @@ Photographs came from `tools/fetch_images.py` and were looked at one by one
 before `tools/review_images.py` published them. A great many candidates were the
 wrong picture (a potted plant for a tomato soup, a Nepali thali for a lentil
 soup, a Scotch egg for an egg curry, a restaurant front for a fried egg), so
-they were refused and recorded in `src/data/image-rejects.json`. Of the 200 recipes, 64 now have a photograph (33 of volume 46, 31 of volume 47) and 136 keep their gradient card. 156 candidate pictures were looked at, and roughly three in five were refused: the dish was wrong, the picture showed meat, fish, egg or dairy on a recipe labelled Vegetarian, Vegan or Dairy-Free, the archive page had already been used for another recipe, or a caption or watermark covered the dish. A few kept photographs differ from the recipe in a small way: the acquacotta has no poached egg on it, the gyeran mari has a layer of seaweed, the gobi matar has potato in it, the chickpea and tomato stew has aubergine, the chipsi mayai is a shredded-potato omelette, and the fairy cakes have chocolate chips and no icing. The picture for bramboracky is credited to the Czech Wikipedia user who uploaded it, because the archive's author field was empty.
+they were refused and recorded in `src/data/image-rejects.json`. Of the 200 recipes, 145 now have a photograph (72 of volume 46, 73 of volume 47) and 55 keep their gradient card. The first pass looked at 156 candidate pictures and published 64. A second pass read the Wikipedia article and the Commons category for each remaining dish, then ran the Commons file-name search and a deeper Openverse page, then tried the dish's own names (akuri, adas polo, mizeria, batata harra and so on); several hundred more candidates were looked at and 81 were published. Roughly three in four candidates were refused: the dish was wrong, the picture showed meat, fish, egg or dairy on a recipe labelled Vegetarian, Vegan or Dairy-Free, the archive page had already been used for another recipe, a person, a building or a caption filled the frame, or it was dry ingredients, a farm field or a packet. A few kept photographs differ from their recipe in a small way (a different pasta shape, an extra vegetable or a garnish), and the acquacotta has no poached egg on it. Two pictures carry an author the archive's own field left empty, taken from the file's description page: bramboracky (the Czech Wikipedia uploader) and draniki (the photographer named there).
 
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 

@@ -39292,30 +39292,55 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-tomato-soup.jpg</image:loc>
+      <image:title>Roast Tomato Soup</image:title>
+      <image:caption>Roast Tomato Soup, a British lunch recipe — roasted tomato soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-lentil-soup/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-lentil-soup.jpg</image:loc>
+      <image:title>Greek Lentil Soup</image:title>
+      <image:caption>Greek Lentil Soup, a Greek dinner recipe — greek brown lentil soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moroccan-chickpea-soup/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moroccan-chickpea-soup.jpg</image:loc>
+      <image:title>Moroccan Chickpea Soup</image:title>
+      <image:caption>Moroccan Chickpea Soup, a Moroccan dinner recipe — moroccan spiced chickpea soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/czech-potato-soup/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/czech-potato-soup.jpg</image:loc>
+      <image:title>Czech Potato Soup</image:title>
+      <image:caption>Czech Potato Soup, a Czech dinner recipe — potato soup with marjoram</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/german-potato-soup/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/german-potato-soup.jpg</image:loc>
+      <image:title>German Potato Soup</image:title>
+      <image:caption>German Potato Soup, a German dinner recipe — potato soup with leek and carrot</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/romanian-bean-soup/</loc>
@@ -39328,6 +39353,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zuppa-di-fagioli.jpg</image:loc>
+      <image:title>Zuppa di Fagioli</image:title>
+      <image:caption>Zuppa di Fagioli, an Italian dinner recipe — italian bean soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/acquacotta/</loc>
@@ -39362,6 +39392,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-bean-stew.jpg</image:loc>
+      <image:title>Sausage and Bean Stew</image:title>
+      <image:caption>Sausage and Bean Stew, a British dinner recipe — sausage and bean casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kulajda/</loc>
@@ -39379,6 +39414,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/czech-garlic-soup.jpg</image:loc>
+      <image:title>Czech Garlic Soup</image:title>
+      <image:caption>Czech Garlic Soup, a Czech dinner recipe — garlic soup with potato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sayur-lodeh/</loc>
@@ -39396,6 +39436,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ginisang-munggo.jpg</image:loc>
+      <image:title>Ginisang Munggo</image:title>
+      <image:caption>Ginisang Munggo, a Filipino dinner recipe — filipino mung bean stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-muffin-cups/</loc>
@@ -39425,6 +39470,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortang-giniling.jpg</image:loc>
+      <image:title>Tortang Giniling</image:title>
+      <image:caption>Tortang Giniling, a quick Filipino meal recipe — filipino ground beef omelette</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-adobo/</loc>
@@ -39448,6 +39498,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-tacos.jpg</image:loc>
+      <image:title>Egg Tacos</image:title>
+      <image:caption>Egg Tacos, a Mexican breakfast recipe — egg and cheese tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-tostadas/</loc>
@@ -39460,6 +39515,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kerala-egg-roast.jpg</image:loc>
+      <image:title>Kerala Egg Roast</image:title>
+      <image:caption>Kerala Egg Roast, an Indian dinner recipe — nadan mutta roast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-pulao/</loc>
@@ -39477,6 +39537,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chinese-steamed-eggs.jpg</image:loc>
+      <image:title>Chinese Steamed Eggs</image:title>
+      <image:caption>Chinese Steamed Eggs, a quick Chinese meal recipe — chinese steamed egg custard</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gyeran-mari/</loc>
@@ -39522,12 +39587,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bread-omelette.jpg</image:loc>
+      <image:title>Bread Omelette</image:title>
+      <image:caption>Bread Omelette, an Indian breakfast recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/masala-toast/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/masala-toast.jpg</image:loc>
+      <image:title>Masala Toast</image:title>
+      <image:caption>Masala Toast, an Indian breakfast recipe — masala bread toast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/savoury-french-toast/</loc>
@@ -39557,6 +39632,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/griessbrei.jpg</image:loc>
+      <image:title>Griessbrei</image:title>
+      <image:caption>Griessbrei, a German breakfast recipe — german semolina porridge</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sheera/</loc>
@@ -39607,6 +39687,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jeera-aloo.jpg</image:loc>
+      <image:title>Jeera Aloo</image:title>
+      <image:caption>Jeera Aloo, an Indian dinner recipe — indian cumin potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/masoor-dal/</loc>
@@ -39619,6 +39704,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tomato-rice.jpg</image:loc>
+      <image:title>Tomato Rice</image:title>
+      <image:caption>Tomato Rice, an Indian dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/curd-rice/</loc>
@@ -39636,24 +39726,44 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/besan-chilla.jpg</image:loc>
+      <image:title>Besan Chilla</image:title>
+      <image:caption>Besan Chilla, an Indian breakfast recipe — gram flour pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-stir-fry-with-garlic/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cabbage-stir-fry-with-garlic.jpg</image:loc>
+      <image:title>Cabbage Stir Fry with Garlic</image:title>
+      <image:caption>Cabbage Stir Fry with Garlic, a quick Chinese meal recipe — chinese garlic cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-fritters/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cabbage-fritters.jpg</image:loc>
+      <image:title>Cabbage Fritters</image:title>
+      <image:caption>Cabbage Fritters, an International appetizer recipe — savoury cabbage pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carrot-salad-with-lemon/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carrot-salad-with-lemon.jpg</image:loc>
+      <image:title>Carrot Salad with Lemon</image:title>
+      <image:caption>Carrot Salad with Lemon, a healthy Moroccan recipe — moroccan carrot salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carrot-fritters/</loc>
@@ -39671,6 +39781,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-carrots-with-cumin.jpg</image:loc>
+      <image:title>Roast Carrots with Cumin</image:title>
+      <image:caption>Roast Carrots with Cumin, a British dinner recipe — cumin roasted carrots</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-cabbage-wedges/</loc>
@@ -39683,12 +39798,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-cauliflower-with-garlic.jpg</image:loc>
+      <image:title>Roast Cauliflower with Garlic</image:title>
+      <image:caption>Roast Cauliflower with Garlic, a British dinner recipe — garlic roasted cauliflower</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cauliflower-fritters/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cauliflower-fritters.jpg</image:loc>
+      <image:title>Cauliflower Fritters</image:title>
+      <image:caption>Cauliflower Fritters, an American appetizer recipe — fried cauliflower bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-salad-with-mustard-dressing/</loc>
@@ -39707,12 +39832,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortilla-pizza.jpg</image:loc>
+      <image:title>Tortilla Pizza</image:title>
+      <image:caption>Tortilla Pizza, a quick American meal recipe — pizza on a tortilla</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/naan-pizza/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/naan-pizza.jpg</image:loc>
+      <image:title>Naan Pizza</image:title>
+      <image:caption>Naan Pizza, a quick American meal recipe — naan bread pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-dough-without-yeast/</loc>
@@ -39725,12 +39860,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/three-ingredient-peanut-butter-cookies.jpg</image:loc>
+      <image:title>Three Ingredient Peanut Butter Cookies</image:title>
+      <image:caption>Three Ingredient Peanut Butter Cookies, an American baking recipe — 3 ingredient peanut butter cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stewed-apples/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stewed-apples.jpg</image:loc>
+      <image:title>Stewed Apples</image:title>
+      <image:caption>Stewed Apples, a British dessert recipe — how to stew apples</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-with-tomato-and-basil/</loc>
@@ -39770,6 +39915,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/canned-salmon-cakes.jpg</image:loc>
+      <image:title>Canned Salmon Cakes</image:title>
+      <image:caption>Canned Salmon Cakes, a quick American meal recipe — tinned salmon cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mince-and-potatoes/</loc>
@@ -39798,6 +39948,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-drumsticks-roasted.jpg</image:loc>
+      <image:title>Chicken Drumsticks Roasted</image:title>
+      <image:caption>Chicken Drumsticks Roasted, a British dinner recipe — roasted chicken drumsticks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-tray-bake/</loc>
@@ -39849,6 +40004,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lentejas.jpg</image:loc>
+      <image:title>Lentejas</image:title>
+      <image:caption>Lentejas, a Spanish dinner recipe — spanish lentil stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pisto/</loc>
@@ -39861,6 +40021,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arroz-doce.jpg</image:loc>
+      <image:title>Arroz Doce</image:title>
+      <image:caption>Arroz Doce, a Portuguese dessert recipe — portuguese rice pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bok-choy-with-garlic/</loc>
@@ -39878,6 +40043,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eggplant-with-garlic-sauce.jpg</image:loc>
+      <image:title>Eggplant with Garlic Sauce</image:title>
+      <image:caption>Eggplant with Garlic Sauce, a Chinese dinner recipe — aubergine in garlic sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boerewors-roll/</loc>
@@ -39895,12 +40065,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-vegetables.jpg</image:loc>
+      <image:title>Roast Vegetables</image:title>
+      <image:caption>Roast Vegetables, a British dinner recipe — oven roasted vegetables</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-beetroot/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-beetroot.jpg</image:loc>
+      <image:title>Roast Beetroot</image:title>
+      <image:caption>Roast Beetroot, a healthy British recipe — oven roasted beetroot</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/taco-pasta/</loc>
@@ -39935,6 +40115,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tomato-salad.jpg</image:loc>
+      <image:title>Tomato Salad</image:title>
+      <image:caption>Tomato Salad, a healthy Italian recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/onion-chutney/</loc>
@@ -39947,6 +40132,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/applesauce.jpg</image:loc>
+      <image:title>Applesauce</image:title>
+      <image:caption>Applesauce, an American dessert recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frozen-banana-pops/</loc>
@@ -39982,6 +40172,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-muffins.jpg</image:loc>
+      <image:title>Pizza Muffins</image:title>
+      <image:caption>Pizza Muffins, an American lunch recipe — cheese and tomato muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-pinwheels/</loc>
@@ -40028,12 +40223,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/green-bean-stir-fry.jpg</image:loc>
+      <image:title>Green Bean Stir Fry</image:title>
+      <image:caption>Green Bean Stir Fry, a quick Chinese meal recipe — stir fried green beans</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-curry/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-curry.jpg</image:loc>
+      <image:title>Sweet Potato Curry</image:title>
+      <image:caption>Sweet Potato Curry, an Indian dinner recipe — sweet potato and spinach curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-pancakes/</loc>
@@ -40051,12 +40256,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-tikki.jpg</image:loc>
+      <image:title>Aloo Tikki</image:title>
+      <image:caption>Aloo Tikki, an Indian appetizer recipe — indian potato patties</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aloo-matar/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/aloo-matar.jpg</image:loc>
+      <image:title>Aloo Matar</image:title>
+      <image:caption>Aloo Matar, an Indian dinner recipe — potato and peas curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aloo-methi/</loc>
@@ -40074,24 +40289,44 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dahi-aloo.jpg</image:loc>
+      <image:title>Dahi Aloo</image:title>
+      <image:caption>Dahi Aloo, an Indian dinner recipe — potato yoghurt curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bread-pakora/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bread-pakora.jpg</image:loc>
+      <image:title>Bread Pakora</image:title>
+      <image:caption>Bread Pakora, an Indian appetizer recipe — bread fritters with gram flour</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cabbage-poriyal/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cabbage-poriyal.jpg</image:loc>
+      <image:title>Cabbage Poriyal</image:title>
+      <image:caption>Cabbage Poriyal, an Indian dinner recipe — south indian cabbage stir fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beans-poriyal/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beans-poriyal.jpg</image:loc>
+      <image:title>Beans Poriyal</image:title>
+      <image:caption>Beans Poriyal, an Indian dinner recipe — south indian green bean stir fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pongal/</loc>
@@ -40104,48 +40339,88 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tamarind-rice.jpg</image:loc>
+      <image:title>Tamarind Rice</image:title>
+      <image:caption>Tamarind Rice, an Indian dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lauki-sabzi/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lauki-sabzi.jpg</image:loc>
+      <image:title>Lauki Sabzi</image:title>
+      <image:caption>Lauki Sabzi, an Indian dinner recipe — bottle gourd curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kaddu-ki-sabzi/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kaddu-ki-sabzi.jpg</image:loc>
+      <image:title>Kaddu Ki Sabzi</image:title>
+      <image:caption>Kaddu Ki Sabzi, an Indian dinner recipe — indian pumpkin curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gobi-paratha/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gobi-paratha.jpg</image:loc>
+      <image:title>Gobi Paratha</image:title>
+      <image:caption>Gobi Paratha, an Indian breakfast recipe — stuffed cauliflower paratha</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bisi-bele-bath/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bisi-bele-bath.jpg</image:loc>
+      <image:title>Bisi Bele Bath</image:title>
+      <image:caption>Bisi Bele Bath, an Indian dinner recipe — bisi bele bhath</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nigerian-fried-rice/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nigerian-fried-rice.jpg</image:loc>
+      <image:title>Nigerian Fried Rice</image:title>
+      <image:caption>Nigerian Fried Rice, a Nigerian dinner recipe — nigerian party fried rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/plantain-and-beans/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/plantain-and-beans.jpg</image:loc>
+      <image:title>Plantain and Beans</image:title>
+      <image:caption>Plantain and Beans, a Nigerian dinner recipe — nigerian beans and plantain</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-yam/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-yam.jpg</image:loc>
+      <image:title>Fried Yam</image:title>
+      <image:caption>Fried Yam, a Nigerian dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/atkilt-wat/</loc>
@@ -40199,6 +40474,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moroccan-eggs.jpg</image:loc>
+      <image:title>Moroccan Eggs</image:title>
+      <image:caption>Moroccan Eggs, a Moroccan breakfast recipe — moroccan breakfast eggs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egyptian-rice-with-vermicelli/</loc>
@@ -40229,6 +40509,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/iranian-eggs-and-tomatoes.jpg</image:loc>
+      <image:title>Iranian Eggs and Tomatoes</image:title>
+      <image:caption>Iranian Eggs and Tomatoes, a Persian breakfast recipe — persian eggs and tomatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kookoo-sibzamini/</loc>
@@ -40247,18 +40532,33 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkish-bulgur-pilaf.jpg</image:loc>
+      <image:title>Turkish Bulgur Pilaf</image:title>
+      <image:caption>Turkish Bulgur Pilaf, a Turkish dinner recipe — bulgur pilaf with tomato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kuru-fasulye/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kuru-fasulye.jpg</image:loc>
+      <image:title>Kuru Fasulye</image:title>
+      <image:caption>Kuru Fasulye, a Turkish dinner recipe — turkish white bean stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mucver/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mucver.jpg</image:loc>
+      <image:title>Mucver</image:title>
+      <image:caption>Mucver, a Turkish appetizer recipe — turkish courgette fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-lentil-kofte/</loc>
@@ -40271,6 +40571,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-fried-potatoes.jpg</image:loc>
+      <image:title>Greek Fried Potatoes</image:title>
+      <image:caption>Greek Fried Potatoes, a Greek dinner recipe — greek potatoes fried in olive oil</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spanakorizo/</loc>
@@ -40316,6 +40621,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-e-patate.jpg</image:loc>
+      <image:title>Pasta e Patate</image:title>
+      <image:caption>Pasta e Patate, an Italian dinner recipe — pasta and potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-e-piselli/</loc>
@@ -40373,18 +40683,33 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-with-sausage-and-peppers.jpg</image:loc>
+      <image:title>Pasta with Sausage and Peppers</image:title>
+      <image:caption>Pasta with Sausage and Peppers, an Italian dinner recipe — sausage and pepper pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-with-cabbage/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-with-cabbage.jpg</image:loc>
+      <image:title>Pasta with Cabbage</image:title>
+      <image:caption>Pasta with Cabbage, an Italian dinner recipe — italian cabbage and pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-polenta/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-polenta.jpg</image:loc>
+      <image:title>Fried Polenta</image:title>
+      <image:caption>Fried Polenta, an Italian appetizer recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ricotta-gnocchi/</loc>
@@ -40441,6 +40766,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kaesespaetzle.jpg</image:loc>
+      <image:title>Kaesespaetzle</image:title>
+      <image:caption>Kaesespaetzle, a German dinner recipe — german cheese noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hungarian-potato-paprikash/</loc>
@@ -40453,12 +40783,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nokedli.jpg</image:loc>
+      <image:title>Nokedli</image:title>
+      <image:caption>Nokedli, a Hungarian dinner recipe — hungarian egg dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/polish-cucumber-salad/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/polish-cucumber-salad.jpg</image:loc>
+      <image:title>Polish Cucumber Salad</image:title>
+      <image:caption>Polish Cucumber Salad, a healthy Polish recipe — cucumber salad with sour cream and dill</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kopytka/</loc>
@@ -40476,6 +40816,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/barszcz.jpg</image:loc>
+      <image:title>Barszcz</image:title>
+      <image:caption>Barszcz, a Polish dinner recipe — polish beetroot soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bramboracky/</loc>
@@ -40504,6 +40849,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/draniki.jpg</image:loc>
+      <image:title>Draniki</image:title>
+      <image:caption>Draniki, a Ukrainian dinner recipe — ukrainian potato pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/buckwheat-with-mushrooms/</loc>
@@ -40588,12 +40938,22 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sri-lankan-egg-curry.jpg</image:loc>
+      <image:title>Sri Lankan Egg Curry</image:title>
+      <image:caption>Sri Lankan Egg Curry, a Sri Lankan dinner recipe — egg curry with coconut milk</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pakistani-daal-chawal/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pakistani-daal-chawal.jpg</image:loc>
+      <image:title>Pakistani Daal Chawal</image:title>
+      <image:caption>Pakistani Daal Chawal, a Pakistani dinner recipe — yellow lentils and rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/afghan-dal/</loc>
@@ -40623,30 +40983,55 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/new-zealand-mince-and-cheese-pie.jpg</image:loc>
+      <image:title>New Zealand Mince and Cheese Pie</image:title>
+      <image:caption>New Zealand Mince and Cheese Pie, a New Zealand dinner recipe — kiwi mince and cheese pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/new-zealand-anzac-biscuits/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/new-zealand-anzac-biscuits.jpg</image:loc>
+      <image:title>New Zealand Anzac Biscuits</image:title>
+      <image:caption>New Zealand Anzac Biscuits, a New Zealand baking recipe — oat and coconut biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/new-zealand-corn-fritters/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/new-zealand-corn-fritters.jpg</image:loc>
+      <image:title>New Zealand Corn Fritters</image:title>
+      <image:caption>New Zealand Corn Fritters, a New Zealand lunch recipe — kiwi corn fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/new-zealand-boil-up/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/new-zealand-boil-up.jpg</image:loc>
+      <image:title>New Zealand Boil Up</image:title>
+      <image:caption>New Zealand Boil Up, a New Zealand dinner recipe — nz boil up with pork bones</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/new-zealand-kiwi-burger/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/new-zealand-kiwi-burger.jpg</image:loc>
+      <image:title>New Zealand Kiwi Burger</image:title>
+      <image:caption>New Zealand Kiwi Burger, a New Zealand dinner recipe — burger with egg and beetroot</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/canadian-maple-baked-beans/</loc>
@@ -40665,18 +41050,33 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/meatloaf-muffins.jpg</image:loc>
+      <image:title>Meatloaf Muffins</image:title>
+      <image:caption>Meatloaf Muffins, an American dinner recipe — mini meatloaves in muffin tin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/loaded-baked-potato-soup/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/loaded-baked-potato-soup.jpg</image:loc>
+      <image:title>Loaded Baked Potato Soup</image:title>
+      <image:caption>Loaded Baked Potato Soup, an American dinner recipe — potato soup with bacon and cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/johnny-cakes/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/johnny-cakes.jpg</image:loc>
+      <image:title>Johnny Cakes</image:title>
+      <image:caption>Johnny Cakes, an American breakfast recipe — griddled cornmeal cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ants-on-a-log/</loc>
@@ -40738,6 +41138,11 @@
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hand-pies.jpg</image:loc>
+      <image:title>Hand Pies</image:title>
+      <image:caption>Hand Pies, an American baking recipe — small apple pies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-and-sour-potato-strips/</loc>
