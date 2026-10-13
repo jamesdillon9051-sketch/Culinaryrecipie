@@ -573,4 +573,17 @@ Object.assign(MORE, EXT3_FOODS);
 for (const k of Object.keys(EXT3_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT3_ALIAS[k]);
 for (const k of Object.keys(EXT3_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT3_PORTION[k]);
 
+/* Volumes 48 to 52: foods the calculator did not know. */
+const EXT4_FOODS = {
+  chana_dal: [21, 60, 5.6, 15, 3, 50], toor_dal: [22, 63, 1.5, 15, 3, 17], boondi: [17, 45, 33, 8, 3, 600], agar_powder: [6, 81, 0.3, 7, 0, 100]
+};
+const EXT4_ALIAS = {
+  lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'], chana_dal: ['chana dal', 'split chickpeas', 'split chana dal'], brown_sugar: ['jaggery', 'jaggery, grated', 'grated jaggery'], toor_dal: ['toor dal', 'arhar dal', 'split pigeon peas'], coconut_grated: ['grated fresh coconut', 'fresh coconut, grated', 'coconut flesh', 'coconut flesh strips'], boondi: ['plain boondi', 'boondi'], agar_powder: ['agar-agar powder', 'agar agar powder', 'agar-agar'], mung_beans_dry: ['whole green moong beans', 'green moong beans', 'green moong'],
+  spice: ['dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water']
+};
+const EXT4_PORTION = {};
+Object.assign(MORE, EXT4_FOODS);
+for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);
+for (const k of Object.keys(EXT4_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT4_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
