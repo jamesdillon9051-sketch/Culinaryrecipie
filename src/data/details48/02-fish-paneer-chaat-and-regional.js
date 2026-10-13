@@ -94,7 +94,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Pao', 'Fried papadums', 'Sliced onion with lime'],
     store: 'Best eaten the day it is made. Keeps in the fridge for 1 day; reheat very gently.',
-    nut: [290, 29, 12, 14, 3, 6, 690]
+    nut: [290, 29, 12, 14, 3, 7, 690]
   },
 
   'fish-moilee': {
@@ -244,7 +244,7 @@ module.exports = {
     ],
     pair: ['Pao', 'Steamed rice', 'Goan sausage pulao', 'Sliced onion'],
     store: 'Keeps in the fridge for 3 days; reheat gently so the prawns stay tender.',
-    nut: [303, 27, 15, 15, 2, 8, 790]
+    nut: [307, 27, 16, 15, 2, 8, 790]
   },
 
   'crab-masala': {

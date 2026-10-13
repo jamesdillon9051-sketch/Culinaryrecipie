@@ -307,7 +307,7 @@ module.exports = {
     ],
     pair: ['Papadams', 'Sambal', 'Pickled vegetables', 'Teh tarik'],
     store: 'Keeps in the fridge for 3 days. Reheat the curry and cook the rice fresh.',
-    nut: [745, 42, 79, 29, 6, 8, 780]
+    nut: [745, 42, 79, 29, 6, 9, 780]
   },
 
   'nasi-kuning': {
@@ -736,7 +736,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Lemang', 'Cucumber slices', 'Sambal'],
     store: 'Keeps in the fridge for 2 days. Reheat in a hot oven.',
-    nut: [591, 53, 25, 31, 2, 11, 840]
+    nut: [595, 53, 26, 31, 2, 12, 840]
   },
 
   'mie-ayam': {
@@ -825,7 +825,7 @@ module.exports = {
     ],
     pair: ['Lime wedges', 'Sweet soy sauce', 'Sambal', 'Iced tea'],
     store: 'Best eaten the day it is made. The sauce keeps in the fridge for 3 days.',
-    nut: [381, 26, 31, 17, 5, 11, 890]
+    nut: [381, 26, 31, 17, 5, 12, 890]
   },
 
   'perkedel': {

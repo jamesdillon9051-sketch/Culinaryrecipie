@@ -592,7 +592,14 @@ const EXT4_FOODS = {
   jackfruit_young: [1.7, 4, 0.3, 2, 1, 200],
   ajvar: [1.5, 8, 6, 2, 5, 400],
   matzo_meal: [12, 76, 1.5, 3, 2, 5],
-  oxtail: [19, 0, 13, 0, 0, 70]
+  oxtail: [19, 0, 13, 0, 0, 70],
+  beef_jerky: [33, 11, 26, 2, 8, 1800],
+  masa_harina: [7, 77, 3.5, 6, 1, 5],
+  aji_amarillo_paste: [1.5, 10, 4, 3, 4, 600],
+  cassava_raw: [1.4, 38, 0.3, 1.8, 1.7, 14],
+  sofrito: [1.2, 6, 4, 2, 3, 220],
+  green_seasoning: [1.5, 6, 0.6, 3, 1.5, 60],
+  taro: [1.5, 26, 0.2, 4, 0.5, 11]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -616,7 +623,7 @@ const EXT4_ALIAS = {
   boondi: ['plain boondi', 'boondi'],
   agar_powder: ['agar-agar powder', 'agar agar powder', 'agar-agar'],
   mung_beans_dry: ['whole green moong beans', 'green moong beans', 'green moong'],
-  spice: ['baharat', 'dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water', 'pandan leaf', 'mitmita', 'anise extract', 'ground aniseed', 'aniseed'],
+  spice: ['baharat', 'dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water', 'pandan leaf', 'mitmita', 'anise extract', 'ground aniseed', 'aniseed', 'dried chiles de árbol', 'chiles de árbol, dried', 'chiles de árbol'],
   broad_beans: ['frozen broad beans', 'broad beans'],
   papaya_raw: ['raw papaya paste', 'raw papaya'],
   beef_mince_90: ['minced beef'],
@@ -633,14 +640,29 @@ const EXT4_ALIAS = {
   cornmeal: ['white maize meal', 'maize meal'],
   beef_chuck: ['beef flanken or brisket', 'beef flanken', 'beef brisket'],
   vodka: ['dark rum', 'rum', 'white rum'],
-  candied_peel: ['mixed candied fruit', 'candied fruit'],
+  candied_peel: ['mixed candied fruit', 'candied fruit', 'mixed peel'],
   mayonnaise: ['alioli', 'aioli'],
   tuna_tin_oil: ['tinned tuna in olive oil', 'tuna in olive oil'],
-  oxtail: ['oxtail']
+  oxtail: ['oxtail'],
+  chicken_cooked: ['cooked shredded chicken', 'cooked chicken, shredded', 'shredded cooked chicken', 'cooked chicken'],
+  beef_jerky: ['plain unsweetened beef jerky, shredded', 'beef jerky'],
+  masa_harina: ['masa harina'],
+  aji_amarillo_paste: ['ají amarillo paste', 'aji amarillo paste'],
+  cassava_raw: ['cassava (yuca)', 'yuca', 'fresh cassava'],
+  sofrito: ['sofrito'],
+  green_seasoning: ['green seasoning'],
+  taro: ['yautía (taro), peeled', 'yautía', 'taro'],
+  beer: ['stout'],
+  coconut_desiccated: ['toasted coconut flakes', 'coconut flakes'],
+  tamarind_paste: ['tamarind sauce'],
+  duck_whole: ['duck, cut into 8 pieces, skinned if you like']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},
-  matzo_meal: {'tbsp': 7}
+  matzo_meal: {'tbsp': 7},
+  sofrito: {'tbsp': 15},
+  green_seasoning: {'tbsp': 15},
+  tamarind_paste: {'tbsp': 18}
 };
 Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);

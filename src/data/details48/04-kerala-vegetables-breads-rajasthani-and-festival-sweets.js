@@ -425,7 +425,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Aloo tuk', 'Papadums', 'Sliced onion'],
     store: 'Keeps in the fridge for 2 days. It thickens; add water when reheating.',
-    nut: [187, 3, 19, 11, 4, 5, 630]
+    nut: [191, 3, 20, 11, 4, 5, 630]
   },
 
   'gatte-ki-sabzi': {

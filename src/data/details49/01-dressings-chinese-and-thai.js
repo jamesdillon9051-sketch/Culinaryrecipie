@@ -706,7 +706,7 @@ module.exports = {
     ],
     pair: ['Jasmine rice', 'Omelette', 'Cucumber', 'Fried fish'],
     store: 'Best eaten the day it is made. Keeps in the fridge for 1 day.',
-    nut: [169, 21, 19, 1, 4, 11, 910]
+    nut: [169, 21, 19, 1, 4, 12, 910]
   },
 
   'khao-kai-jeow': {

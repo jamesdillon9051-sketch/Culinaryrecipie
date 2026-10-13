@@ -806,7 +806,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Yellow rice', 'Pol sambol', 'Cucumber salad'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
-    nut: [463, 32, 14, 31, 3, 6, 510]
+    nut: [467, 32, 15, 31, 3, 7, 510]
   },
 
   'lamprais': {

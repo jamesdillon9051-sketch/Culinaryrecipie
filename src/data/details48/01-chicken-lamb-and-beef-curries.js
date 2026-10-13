@@ -177,7 +177,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Pao or soft bread rolls', 'Sliced onion with lemon', 'Cucumber salad'],
     store: 'Keeps in the fridge for 2 days, and the flavour improves overnight. Reheat gently.',
-    nut: [473, 37, 16, 29, 5, 7, 760]
+    nut: [481, 38, 17, 29, 5, 8, 760]
   },
 
   'chicken-kolhapuri': {
@@ -521,7 +521,7 @@ module.exports = {
     ],
     pair: ['Neer dosa or plain dosa', 'Steamed rice', 'Raita', 'Sliced cucumber'],
     store: 'Keeps in the fridge for 2 days. Reheat in a pan with a teaspoon of ghee.',
-    nut: [379, 36, 7, 23, 1, 4, 750]
+    nut: [383, 36, 8, 23, 1, 5, 750]
   },
 
   'chicken-sukka': {

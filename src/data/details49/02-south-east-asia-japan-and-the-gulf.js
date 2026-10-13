@@ -160,7 +160,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Fried egg', 'Cucumber slices', 'Sambal belacan'],
     store: 'Best eaten the day it is made. Keeps in the fridge for 1 day.',
-    nut: [311, 27, 17, 15, 2, 10, 490]
+    nut: [315, 27, 18, 15, 2, 11, 490]
   },
 
   'telur-sambal': {
@@ -193,7 +193,7 @@ module.exports = {
     ],
     pair: ['Steamed rice', 'Cucumber', 'Nasi lemak', 'Fried anchovies'],
     store: 'Keeps in the fridge for 2 days. Reheat gently.',
-    nut: [284, 14, 12, 20, 2, 8, 430]
+    nut: [288, 14, 13, 20, 2, 9, 430]
   },
 
   'chai-tow-kway': {
