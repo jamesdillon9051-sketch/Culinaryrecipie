@@ -603,7 +603,8 @@ const EXT4_FOODS = {
   cassareep: [1, 45, 0, 0, 38, 2500],
   pork_liver: [21, 2.5, 4.5, 0, 0, 87],
   ice: [0, 0, 0, 0, 0, 0],
-  guava_paste: [0.4, 70, 0.1, 2, 60, 10]
+  guava_paste: [0.4, 70, 0.1, 2, 60, 10],
+  fruit_cocktail: [0.4, 14, 0.1, 1, 13, 5]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -670,7 +671,9 @@ const EXT4_ALIAS = {
   shrimp: ['cooked peeled crawfish tails', 'crawfish tails'],
   crackers: ['salted crackers'],
   frozen_fries: ['frozen straight-cut fries', 'fries'],
-  cod: ['grouper fillets, cut into 4 pieces', 'grouper fillets']
+  cod: ['grouper fillets, cut into 4 pieces', 'grouper fillets'],
+  fruit_cocktail: ['tinned fruit cocktail, very well drained', 'fruit cocktail'],
+  bread_white: ['round white loaf']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},

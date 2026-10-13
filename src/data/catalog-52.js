@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 50.
+ * Spread: American 74, Spanish 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('turkey-brine', 'Turkey Brine', 'American', 'Holiday Specials', 'Easy', 15, 10, 12, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'turkey brine'),
   c('brown-sugar-ham-glaze', 'Brown Sugar Ham Glaze', 'American', 'Holiday Specials', 'Easy', 5, 10, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'brown sugar ham glaze'),
   c('cranberry-brie-bites', 'Cranberry Brie Bites', 'American', 'Holiday Specials', 'Easy', 15, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'cranberry brie bites'),
-  c('glazed-baked-ham', 'Glazed Baked Ham', 'American', 'Holiday Specials', 'Easy', 15, 150, 12, 0, 0, ['Dairy-Free'], ['new'], 'glazed baked ham')
+  c('glazed-baked-ham', 'Glazed Baked Ham', 'American', 'Holiday Specials', 'Easy', 15, 150, 12, 0, 0, ['Dairy-Free'], ['new'], 'glazed baked ham'),
+  c('popcorn-balls', 'Popcorn Balls', 'American', 'Holiday Specials', 'Easy', 15, 10, 10, 0, 0, ['Gluten-Free'], ['new'], 'popcorn balls'),
+  c('pizza-dip', 'Pizza Dip', 'American', 'Appetizers', 'Easy', 10, 25, 8, 0, 0, [], ['new'], 'pizza dip'),
+  c('fruit-jello-salad', 'Fruit Jello Salad', 'American', 'Desserts', 'Easy', 15, 0, 8, 0, 0, ['Gluten-Free'], ['new'], 'fruit jello salad'),
+  c('southern-chow-chow', 'Southern Chow Chow', 'American', 'Appetizers', 'Easy', 30, 15, 10, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'southern chow chow'),
+  c('appalachian-fried-apple-pies', 'Appalachian Fried Apple Pies', 'American', 'Desserts', 'Medium', 40, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'appalachian fried apple pies'),
+  c('switchel', 'Switchel', 'American', 'Drinks', 'Easy', 5, 0, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'switchel'),
+  c('roscon-de-reyes', 'Roscón de Reyes', 'Spanish', 'Holiday Specials', 'Hard', 50, 30, 10, 0, 0, ['Vegetarian'], ['new'], 'roscón de reyes'),
+  c('air-fryer-potato-wedges', 'Air Fryer Potato Wedges', 'American', 'Quick Meals', 'Easy', 5, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'air fryer potato wedges'),
+  c('air-fryer-corn-ribs', 'Air Fryer Corn Ribs', 'American', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'air fryer corn ribs'),
+  c('slow-cooker-pulled-beef', 'Slow Cooker Pulled Beef', 'American', 'Dinner', 'Easy', 10, 480, 8, 0, 0, [], ['new'], 'slow cooker pulled beef'),
+  c('slow-cooker-honey-mustard-chicken', 'Slow Cooker Honey Mustard Chicken', 'American', 'Dinner', 'Easy', 10, 240, 4, 0, 0, ['Dairy-Free'], ['new'], 'slow cooker honey mustard chicken'),
+  c('slow-cooker-split-pea-soup', 'Slow Cooker Split Pea Soup', 'American', 'Dinner', 'Easy', 10, 360, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'slow cooker split pea soup'),
+  c('slow-cooker-apple-butter', 'Slow Cooker Apple Butter', 'American', 'Appetizers', 'Easy', 20, 600, 16, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'slow cooker apple butter'),
+  c('slow-cooker-oatmeal', 'Slow Cooker Oatmeal', 'American', 'Breakfast', 'Easy', 5, 420, 4, 0, 0, ['Vegetarian'], ['new'], 'slow cooker oatmeal'),
+  c('slow-cooker-sticky-ribs', 'Slow Cooker Sticky Ribs', 'American', 'Dinner', 'Easy', 10, 360, 4, 0, 0, ['Dairy-Free'], ['new'], 'slow cooker sticky ribs'),
+  c('slow-cooker-stuffed-peppers', 'Slow Cooker Stuffed Peppers', 'American', 'Dinner', 'Easy', 20, 240, 4, 0, 0, ['Gluten-Free'], ['new'], 'slow cooker stuffed peppers'),
+  c('instant-pot-yogurt', 'Instant Pot Yogurt', 'American', 'Breakfast', 'Medium', 10, 480, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'instant pot yogurt'),
+  c('instant-pot-egg-bites', 'Instant Pot Egg Bites', 'American', 'Breakfast', 'Easy', 10, 10, 4, 0, 0, [], ['new'], 'instant pot egg bites'),
+  c('cast-iron-cornbread', 'Cast Iron Cornbread', 'American', 'Baking', 'Easy', 10, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'cast iron cornbread'),
+  c('cast-iron-pizza', 'Cast Iron Pizza', 'American', 'Dinner', 'Medium', 20, 20, 4, 0, 0, [], ['new'], 'cast iron pizza'),
+  c('cast-iron-steak', 'Cast Iron Steak', 'American', 'Quick Meals', 'Easy', 5, 10, 2, 0, 0, ['Gluten-Free'], ['new'], 'cast iron steak'),
+  c('cast-iron-skillet-cookie', 'Cast Iron Skillet Cookie', 'American', 'Desserts', 'Easy', 10, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'cast iron skillet cookie'),
+  c('dutch-oven-chicken', 'Dutch Oven Chicken', 'American', 'Dinner', 'Easy', 15, 75, 4, 0, 0, [], ['new'], 'dutch oven chicken'),
+  c('pull-apart-cheese-bread', 'Pull-Apart Cheese Bread', 'American', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Gluten-Free'], ['new'], 'pull-apart cheese bread'),
+  c('cheese-twists', 'Cheese Twists', 'American', 'Appetizers', 'Easy', 10, 15, 12, 0, 0, [], ['new'], 'cheese twists')
 ];
