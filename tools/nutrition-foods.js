@@ -638,7 +638,7 @@ const EXT4_ALIAS = {
   pak_choi: ['choy sum'],
   ajvar: ['ajvar'],
   pasta_dry: ['fine soup noodles', 'soup noodles'],
-  pork_ribs: ['pork hock or ribs', 'pork hock'],
+  pork_ribs: ['pork hock or ribs', 'pork hock', 'pork spare ribs, St Louis cut', 'pork spare ribs'],
   matzo_meal: ['matzo meal'],
   smoked_haddock: ['smoked fish', 'smoked fish, flaked'],
   cornmeal: ['white maize meal', 'maize meal'],
