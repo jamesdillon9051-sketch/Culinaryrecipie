@@ -573,15 +573,59 @@ Object.assign(MORE, EXT3_FOODS);
 for (const k of Object.keys(EXT3_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT3_ALIAS[k]);
 for (const k of Object.keys(EXT3_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT3_PORTION[k]);
 
-/* Volumes 48 to 52: foods the calculator did not know. */
+/* Volumes 48 to 52: foods the calculator did not know. Generated list; keys are unique. */
 const EXT4_FOODS = {
-  chana_dal: [21, 60, 5.6, 15, 3, 50], toor_dal: [22, 63, 1.5, 15, 3, 17], boondi: [17, 45, 33, 8, 3, 600], agar_powder: [6, 81, 0.3, 7, 0, 100]
+  chana_dal: [21, 60, 5.6, 15, 3, 50],
+  toor_dal: [22, 63, 1.5, 15, 3, 17],
+  duck_leg: [15, 0, 12, 0, 0, 80],
+  lamb_fat: [1.5, 0, 90, 0, 0, 30],
+  daikon: [0.6, 4.1, 0.1, 1.6, 2.5, 21],
+  tapioca_pearls: [0.2, 88, 0, 0.9, 3, 1],
+  sambal: [2, 12, 8, 3, 8, 1500],
+  spring_roll_wrappers: [8, 55, 1, 2, 1, 400],
+  ssamjang: [5, 20, 5, 3, 12, 2000],
+  nori: [40, 44, 2.5, 31, 0, 1500],
+  boondi: [17, 45, 33, 8, 3, 600],
+  agar_powder: [6, 81, 0.3, 7, 0, 100],
+  broad_beans: [7.6, 11, 0.6, 5.4, 1.8, 20],
+  papaya_raw: [0.5, 11, 0.3, 1.7, 1, 8],
+  jackfruit_young: [1.7, 4, 0.3, 2, 1, 200]
 };
 const EXT4_ALIAS = {
-  lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'], chana_dal: ['chana dal', 'split chickpeas', 'split chana dal'], brown_sugar: ['jaggery', 'jaggery, grated', 'grated jaggery'], toor_dal: ['toor dal', 'arhar dal', 'split pigeon peas'], coconut_grated: ['grated fresh coconut', 'fresh coconut, grated', 'coconut flesh', 'coconut flesh strips'], boondi: ['plain boondi', 'boondi'], agar_powder: ['agar-agar powder', 'agar agar powder', 'agar-agar'], mung_beans_dry: ['whole green moong beans', 'green moong beans', 'green moong'],
-  spice: ['dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water']
+  lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
+  chana_dal: ['chana dal', 'split chickpeas', 'split chana dal'],
+  toor_dal: ['toor dal', 'arhar dal', 'split pigeon peas'],
+  tapioca_pearls: ['tapioca pearls', 'small tapioca pearls'],
+  sambal: ['sambal'],
+  spring_roll_wrappers: ['spring roll wrappers', 'spring roll wrapper'],
+  ssamjang: ['ssamjang'],
+  nori: ['nori sheets', 'nori'],
+  noodles_egg_cooked: ['fresh yellow noodles'],
+  tuna_fresh: ['sushi-grade tuna'],
+  chicken_whole: ['chicken pieces on the bone', 'chicken pieces', 'small chicken', 'chicken, whole'],
+  pork_mince: ['minced pork', 'pork mince', 'ground pork'],
+  duck_leg: ['duck legs'],
+  lamb_fat: ['lamb fat'],
+  daikon: ['daikon', 'mooli', 'white radish'],
+  miso: ['fermented soybean paste', 'soybean paste'],
+  brown_sugar: ['jaggery', 'jaggery, grated', 'grated jaggery'],
+  coconut_grated: ['grated fresh coconut', 'fresh coconut, grated', 'coconut flesh', 'coconut flesh strips'],
+  boondi: ['plain boondi', 'boondi'],
+  agar_powder: ['agar-agar powder', 'agar agar powder', 'agar-agar'],
+  mung_beans_dry: ['whole green moong beans', 'green moong beans', 'green moong'],
+  spice: ['baharat', 'dried kokum', 'kokum', 'nigella seeds', 'black salt', 'kala namak', 'ajwain seeds', 'carom seeds', 'cloves', 'star anise', 'cinnamon stick', 'green cardamom pods', 'kewra water', 'pandan leaf'],
+  broad_beans: ['frozen broad beans', 'broad beans'],
+  papaya_raw: ['raw papaya paste', 'raw papaya'],
+  beef_mince_90: ['minced beef'],
+  egg: ['egg yolk', 'salted egg yolks'],
+  flatbread: ['lavash', 'lavash or large flour tortilla'],
+  jackfruit_young: ['young green jackfruit in brine, drained and rinsed', 'young green jackfruit', 'young jackfruit'],
+  beef_flank: ['beef topside or flank', 'beef topside'],
+  pak_choi: ['choy sum']
 };
-const EXT4_PORTION = {};
+const EXT4_PORTION = {
+  papaya_raw: {'tbsp': 15}
+};
 Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);
 for (const k of Object.keys(EXT4_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT4_PORTION[k]);
