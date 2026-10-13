@@ -555,4 +555,22 @@ Object.assign(MORE, EXT2_FOODS);
 for (const k of Object.keys(EXT2_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT2_ALIAS[k]);
 for (const k of Object.keys(EXT2_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT2_PORTION[k]);
 
+/* Volumes 46 and 47: foods the calculator did not know. */
+const EXT3_FOODS = {
+  pastina_dry: [12.5, 74, 1.5, 3, 2.7, 6], mung_beans_dry: [24, 63, 1.2, 16, 6.6, 15],
+  urad_dal: [25, 59, 1.6, 19, 2, 38], coconut_grated: [3.3, 15, 33, 9, 6, 20], tamarind_paste: [2.8, 63, 0.6, 5.1, 57, 28],
+  bottle_gourd: [0.2, 3.4, 0.02, 0.5, 2.5, 2], black_eyed_beans_tin: [7, 17, 0.5, 6, 2, 300], plantain: [1.3, 32, 0.4, 2.3, 15, 4], yam: [1.5, 28, 0.2, 4.1, 0.5, 9], fava_beans_tin: [5.5, 12, 0.4, 5.4, 1, 300], buckwheat_groats: [13.3, 71.5, 3.4, 10, 0, 1],
+  yeast_extract: [30, 13, 0.5, 0, 1, 3600], cake_mix: [4.5, 74, 11, 1.5, 36, 500], cherry_pie_filling: [0.3, 26, 0.1, 1, 20, 30], frozen_mixed_fruit: [0.8, 10, 0.3, 3, 8, 2]
+};
+const EXT3_ALIAS = {
+  pastina_dry: ['pastina'], spice: ['chaat masala'], mung_beans_dry: ['dried mung beans', 'mung beans'],
+  urad_dal: ['urad dal', 'split black gram'], coconut_grated: ['grated coconut', 'fresh grated coconut'], tamarind_paste: ['tamarind paste', 'tamarind pulp'],
+  bottle_gourd: ['bottle gourd', 'lauki', 'dudhi'], black_eyed_beans_tin: ['tinned black-eyed beans', 'black-eyed beans', 'black eyed beans'], plantain: ['ripe plantains', 'ripe plantain', 'plantains', 'plantain'], yam: ['white yam', 'yam'], fava_beans_tin: ['tinned fava beans', 'fava beans', 'ful medames'], buckwheat_groats: ['buckwheat groats', 'buckwheat', 'kasha'],
+  yeast_extract: ['Vegemite', 'Marmite', 'yeast extract'], cake_mix: ['dry yellow cake mix', 'yellow cake mix', 'cake mix'], cherry_pie_filling: ['tinned cherry pie filling', 'cherry pie filling'], frozen_mixed_fruit: ['frozen mixed fruit', 'frozen mixed berries'], sweet_potato: ['kumara']
+};
+const EXT3_PORTION = {};
+Object.assign(MORE, EXT3_FOODS);
+for (const k of Object.keys(EXT3_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT3_ALIAS[k]);
+for (const k of Object.keys(EXT3_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT3_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
