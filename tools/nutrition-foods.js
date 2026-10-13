@@ -555,4 +555,16 @@ Object.assign(MORE, EXT2_FOODS);
 for (const k of Object.keys(EXT2_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT2_ALIAS[k]);
 for (const k of Object.keys(EXT2_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT2_PORTION[k]);
 
+/* Volumes 46 and 47: foods the calculator did not know. */
+const EXT3_FOODS = {
+  pastina_dry: [12.5, 74, 1.5, 3, 2.7, 6], mung_beans_dry: [24, 63, 1.2, 16, 6.6, 15]
+};
+const EXT3_ALIAS = {
+  pastina_dry: ['pastina'], spice: ['chaat masala'], mung_beans_dry: ['dried mung beans', 'mung beans']
+};
+const EXT3_PORTION = {};
+Object.assign(MORE, EXT3_FOODS);
+for (const k of Object.keys(EXT3_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT3_ALIAS[k]);
+for (const k of Object.keys(EXT3_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT3_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
