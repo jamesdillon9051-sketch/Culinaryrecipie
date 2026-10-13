@@ -181,7 +181,7 @@ module.exports = {
     ],
     pair: ['Fried fish', 'Shito (pepper sauce)', 'Grilled tilapia', 'Sliced onion'],
     store: 'Best eaten straight away. The stew keeps in the fridge for 2 days.',
-    nut: [504, 29, 70, 12, 6, 5, 1310]
+    nut: [456, 27, 60, 12, 6, 6, 1310]
   },
 
   'groundnut-soup': {

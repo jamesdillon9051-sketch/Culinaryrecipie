@@ -599,7 +599,10 @@ const EXT4_FOODS = {
   cassava_raw: [1.4, 38, 0.3, 1.8, 1.7, 14],
   sofrito: [1.2, 6, 4, 2, 3, 220],
   green_seasoning: [1.5, 6, 0.6, 3, 1.5, 60],
-  taro: [1.5, 26, 0.2, 4, 0.5, 11]
+  taro: [1.5, 26, 0.2, 4, 0.5, 11],
+  cassareep: [1, 45, 0, 0, 38, 2500],
+  pork_liver: [21, 2.5, 4.5, 0, 0, 87],
+  ice: [0, 0, 0, 0, 0, 0]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -648,21 +651,27 @@ const EXT4_ALIAS = {
   beef_jerky: ['plain unsweetened beef jerky, shredded', 'beef jerky'],
   masa_harina: ['masa harina'],
   aji_amarillo_paste: ['ají amarillo paste', 'aji amarillo paste'],
-  cassava_raw: ['cassava (yuca)', 'yuca', 'fresh cassava'],
+  cassava_raw: ['cassava (yuca)', 'yuca', 'fresh cassava', 'cassava, peeled and cut into chunks', 'cassava'],
   sofrito: ['sofrito'],
   green_seasoning: ['green seasoning'],
   taro: ['yautía (taro), peeled', 'yautía', 'taro'],
   beer: ['stout'],
   coconut_desiccated: ['toasted coconut flakes', 'coconut flakes'],
   tamarind_paste: ['tamarind sauce'],
-  duck_whole: ['duck, cut into 8 pieces, skinned if you like']
+  duck_whole: ['duck, cut into 8 pieces, skinned if you like'],
+  cassareep: ['cassareep'],
+  ice: ['ice cubes', 'ice'],
+  vermicelli_dry: ['glass noodles'],
+  pork_liver: ['pork liver, cut into cubes', 'pork liver'],
+  herbs_dried: ['dried savory']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},
   matzo_meal: {'tbsp': 7},
   sofrito: {'tbsp': 15},
   green_seasoning: {'tbsp': 15},
-  tamarind_paste: {'tbsp': 18}
+  tamarind_paste: {'tbsp': 18},
+  ice: {'each': 25}
 };
 Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);

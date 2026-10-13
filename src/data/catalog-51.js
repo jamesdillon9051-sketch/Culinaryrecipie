@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Mexican 12, Jamaican 9, Caribbean 6, Trinidadian 5, Cuban 3, Puerto Rican 3, Colombian 2, Ecuadorian 2, Peruvian 2, Venezuelan 2, Argentinian 1, Bolivian 1, Brazilian 1, Uruguayan 1.
+ * Spread: Caribbean 13, Mexican 12, Pacific 12, Jamaican 9, Trinidadian 5, Cuban 3, Puerto Rican 3, Colombian 2, Ecuadorian 2, Hawaiian 2, Peruvian 2, Venezuelan 2, American 1, Argentinian 1, Australian 1, Bolivian 1, Brazilian 1, Canadian 1, New Zealand 1, Uruguayan 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('trinidadian-curry-duck', 'Trinidadian Curry Duck', 'Trinidadian', 'Dinner', 'Medium', 20, 75, 6, 0, 0, ['Gluten-Free'], ['new'], 'trinidadian curry duck'),
   c('aloo-pie', 'Aloo Pie', 'Trinidadian', 'Appetizers', 'Medium', 30, 15, 8, 0, 0, ['Vegetarian', 'Vegan'], ['new'], 'aloo pie'),
   c('bake-and-shark', 'Bake and Shark', 'Trinidadian', 'Lunch', 'Medium', 30, 15, 4, 0, 0, [], ['new'], 'bake and shark'),
-  c('cou-cou-with-flying-fish', 'Cou-Cou with Flying Fish', 'Caribbean', 'Dinner', 'Medium', 20, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'cou-cou with flying fish')
+  c('cou-cou-with-flying-fish', 'Cou-Cou with Flying Fish', 'Caribbean', 'Dinner', 'Medium', 20, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'cou-cou with flying fish'),
+  c('bajan-macaroni-pie', 'Bajan Macaroni Pie', 'Caribbean', 'Dinner', 'Easy', 15, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'bajan macaroni pie'),
+  c('bajan-fish-cakes', 'Bajan Fish Cakes', 'Caribbean', 'Appetizers', 'Easy', 20, 15, 6, 0, 0, ['Dairy-Free'], ['new'], 'bajan fish cakes'),
+  c('guyanese-pepperpot', 'Guyanese Pepperpot', 'Caribbean', 'Dinner', 'Medium', 25, 180, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'guyanese pepperpot'),
+  c('metemgee', 'Metemgee', 'Caribbean', 'Dinner', 'Medium', 25, 60, 6, 0, 0, ['Vegetarian'], ['new'], 'metemgee'),
+  c('conch-fritters', 'Conch Fritters', 'Caribbean', 'Appetizers', 'Medium', 20, 15, 6, 0, 0, [], ['new'], 'conch fritters'),
+  c('caribbean-coconut-rice', 'Caribbean Coconut Rice', 'Caribbean', 'Dinner', 'Easy', 5, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'caribbean coconut rice'),
+  c('caribbean-rum-punch', 'Caribbean Rum Punch', 'Caribbean', 'Drinks', 'Easy', 5, 0, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'caribbean rum punch'),
+  c('samoan-palusami', 'Samoan Palusami', 'Pacific', 'Dinner', 'Medium', 30, 60, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'samoan palusami'),
+  c('samoan-pani-popo', 'Samoan Pani Popo', 'Pacific', 'Baking', 'Medium', 25, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'samoan pani popo'),
+  c('samoan-chop-suey', 'Samoan Chop Suey', 'Pacific', 'Dinner', 'Easy', 15, 20, 4, 0, 0, ['Dairy-Free'], ['new'], 'samoan chop suey'),
+  c('samoan-panikeke', 'Samoan Panikeke', 'Pacific', 'Desserts', 'Easy', 10, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'samoan panikeke'),
+  c('samoan-koko-alaisa', 'Samoan Koko Alaisa', 'Pacific', 'Breakfast', 'Easy', 5, 25, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'samoan koko alaisa'),
+  c('tongan-lu-pulu', 'Tongan Lu Pulu', 'Pacific', 'Dinner', 'Medium', 30, 90, 6, 0, 0, [], ['new'], 'tongan lu pulu'),
+  c('tongan-otai', 'Tongan Otai', 'Pacific', 'Drinks', 'Easy', 15, 0, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'tongan otai'),
+  c('fijian-kokoda', 'Fijian Kokoda', 'Pacific', 'Appetizers', 'Easy', 20, 0, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'fijian kokoda'),
+  c('fijian-rourou', 'Fijian Rourou', 'Pacific', 'Dinner', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'fijian rourou'),
+  c('fijian-lovo', 'Fijian Lovo', 'Pacific', 'Dinner', 'Hard', 30, 120, 8, 0, 0, [], ['new'], 'fijian lovo'),
+  c('fijian-curry', 'Fijian Curry', 'Pacific', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'fijian curry'),
+  c('cook-islands-ika-mata', 'Cook Islands Ika Mata', 'Pacific', 'Appetizers', 'Easy', 20, 0, 4, 0, 0, ['Gluten-Free'], ['new'], 'cook islands ika mata'),
+  c('hawaiian-lau-lau', 'Hawaiian Lau Lau', 'Hawaiian', 'Dinner', 'Hard', 40, 240, 6, 0, 0, ['Gluten-Free'], ['new'], 'hawaiian lau lau'),
+  c('hawaiian-mac-salad', 'Hawaiian Mac Salad', 'Hawaiian', 'Lunch', 'Easy', 15, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'hawaiian mac salad'),
+  c('l-p-cake', 'L&P Cake', 'New Zealand', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'l&p cake'),
+  c('barbecued-prawns', 'Barbecued Prawns', 'Australian', 'Dinner', 'Easy', 15, 8, 4, 0, 0, [], ['new'], 'barbecued prawns'),
+  c('newfoundland-fish-cakes', 'Newfoundland Fish Cakes', 'Canadian', 'Dinner', 'Easy', 25, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'newfoundland fish cakes'),
+  c('cajun-boudin', 'Cajun Boudin', 'American', 'Dinner', 'Hard', 40, 60, 8, 0, 0, [], ['new'], 'cajun boudin')
 ];
