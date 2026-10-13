@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 25.
+ * Spread: American 50.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -52,5 +52,30 @@ module.exports = [
   c('new-york-style-pizza', 'New York Style Pizza', 'American', 'Dinner', 'Hard', 30, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'new york style pizza'),
   c('new-england-boiled-dinner', 'New England Boiled Dinner', 'American', 'Dinner', 'Easy', 20, 180, 6, 0, 0, ['Dairy-Free'], ['new'], 'new england boiled dinner'),
   c('maine-lobster-stew', 'Maine Lobster Stew', 'American', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'maine lobster stew'),
-  c('vermont-maple-cream-pie', 'Vermont Maple Cream Pie', 'American', 'Desserts', 'Medium', 25, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'vermont maple cream pie')
+  c('vermont-maple-cream-pie', 'Vermont Maple Cream Pie', 'American', 'Desserts', 'Medium', 25, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'vermont maple cream pie'),
+  c('pennsylvania-dutch-chicken-corn-soup', 'Pennsylvania Dutch Chicken Corn Soup', 'American', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'pennsylvania dutch chicken corn soup'),
+  c('maryland-crab-soup', 'Maryland Crab Soup', 'American', 'Dinner', 'Easy', 20, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'maryland crab soup'),
+  c('smith-island-cake', 'Smith Island Cake', 'American', 'Desserts', 'Hard', 60, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'smith island cake'),
+  c('virginia-ham-biscuits', 'Virginia Ham Biscuits', 'American', 'Appetizers', 'Medium', 25, 15, 12, 0, 0, [], ['new'], 'virginia ham biscuits'),
+  c('beer-brats', 'Beer Brats', 'American', 'Dinner', 'Easy', 10, 30, 6, 0, 0, [], ['new'], 'beer brats'),
+  c('cherry-cobbler', 'Cherry Cobbler', 'American', 'Desserts', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'cherry cobbler'),
+  c('wisconsin-butter-burgers', 'Wisconsin Butter Burgers', 'American', 'Dinner', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'wisconsin butter burgers'),
+  c('kentucky-derby-pie', 'Kentucky Derby Pie', 'American', 'Desserts', 'Medium', 20, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'kentucky derby pie'),
+  c('oklahoma-onion-burger', 'Oklahoma Onion Burger', 'American', 'Dinner', 'Easy', 15, 10, 4, 0, 0, [], ['new'], 'oklahoma onion burger'),
+  c('arkansas-possum-pie', 'Arkansas Possum Pie', 'American', 'Desserts', 'Medium', 35, 20, 10, 0, 0, ['Vegetarian'], ['new'], 'arkansas possum pie'),
+  c('colorado-green-chili', 'Colorado Green Chili', 'American', 'Dinner', 'Medium', 25, 90, 6, 0, 0, ['Dairy-Free'], ['new'], 'colorado green chili'),
+  c('arizona-cheese-crisp', 'Arizona Cheese Crisp', 'American', 'Quick Meals', 'Easy', 5, 8, 2, 0, 0, ['Vegetarian'], ['new'], 'arizona cheese crisp'),
+  c('navajo-fry-bread', 'Navajo Fry Bread', 'American', 'Baking', 'Medium', 15, 15, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'navajo fry bread'),
+  c('california-burrito', 'California Burrito', 'American', 'Lunch', 'Easy', 20, 15, 4, 0, 0, [], ['new'], 'california burrito'),
+  c('marionberry-pie', 'Marionberry Pie', 'American', 'Desserts', 'Medium', 30, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'marionberry pie'),
+  c('florida-grouper-sandwich', 'Florida Grouper Sandwich', 'American', 'Lunch', 'Easy', 15, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'florida grouper sandwich'),
+  c('appalachian-soup-beans', 'Appalachian Soup Beans', 'American', 'Dinner', 'Easy', 15, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'appalachian soup beans'),
+  c('appalachian-stack-cake', 'Appalachian Stack Cake', 'American', 'Desserts', 'Hard', 60, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'appalachian stack cake'),
+  c('ozark-pudding', 'Ozark Pudding', 'American', 'Desserts', 'Easy', 20, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'ozark pudding'),
+  c('amish-friendship-bread', 'Amish Friendship Bread', 'American', 'Baking', 'Medium', 20, 45, 10, 0, 0, ['Vegetarian'], ['new'], 'amish friendship bread'),
+  c('amish-oatmeal-pie', 'Amish Oatmeal Pie', 'American', 'Desserts', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'amish oatmeal pie'),
+  c('turkey-brine', 'Turkey Brine', 'American', 'Holiday Specials', 'Easy', 15, 10, 12, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'turkey brine'),
+  c('brown-sugar-ham-glaze', 'Brown Sugar Ham Glaze', 'American', 'Holiday Specials', 'Easy', 5, 10, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'brown sugar ham glaze'),
+  c('cranberry-brie-bites', 'Cranberry Brie Bites', 'American', 'Holiday Specials', 'Easy', 15, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'cranberry brie bites'),
+  c('glazed-baked-ham', 'Glazed Baked Ham', 'American', 'Holiday Specials', 'Easy', 15, 150, 12, 0, 0, ['Dairy-Free'], ['new'], 'glazed baked ham')
 ];

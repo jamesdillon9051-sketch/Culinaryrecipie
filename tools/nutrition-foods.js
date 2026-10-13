@@ -668,7 +668,9 @@ const EXT4_ALIAS = {
   guava_paste: ['guava paste', 'goiabada'],
   white_beans_tin: ['lima beans'],
   shrimp: ['cooked peeled crawfish tails', 'crawfish tails'],
-  crackers: ['salted crackers']
+  crackers: ['salted crackers'],
+  frozen_fries: ['frozen straight-cut fries', 'fries'],
+  cod: ['grouper fillets, cut into 4 pieces', 'grouper fillets']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},
