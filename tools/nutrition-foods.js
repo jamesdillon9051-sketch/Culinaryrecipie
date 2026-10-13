@@ -602,7 +602,8 @@ const EXT4_FOODS = {
   taro: [1.5, 26, 0.2, 4, 0.5, 11],
   cassareep: [1, 45, 0, 0, 38, 2500],
   pork_liver: [21, 2.5, 4.5, 0, 0, 87],
-  ice: [0, 0, 0, 0, 0, 0]
+  ice: [0, 0, 0, 0, 0, 0],
+  guava_paste: [0.4, 70, 0.1, 2, 60, 10]
 };
 const EXT4_ALIAS = {
   lamb_mince: ['minced lamb', 'lamb mince', 'ground lamb'],
@@ -663,7 +664,11 @@ const EXT4_ALIAS = {
   ice: ['ice cubes', 'ice'],
   vermicelli_dry: ['glass noodles'],
   pork_liver: ['pork liver, cut into cubes', 'pork liver'],
-  herbs_dried: ['dried savory']
+  herbs_dried: ['dried savory'],
+  guava_paste: ['guava paste', 'goiabada'],
+  white_beans_tin: ['lima beans'],
+  shrimp: ['cooked peeled crawfish tails', 'crawfish tails'],
+  crackers: ['salted crackers']
 };
 const EXT4_PORTION = {
   papaya_raw: {'tbsp': 15},

@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Caribbean 13, Mexican 12, Pacific 12, Jamaican 9, Trinidadian 5, Cuban 3, Puerto Rican 3, Colombian 2, Ecuadorian 2, Hawaiian 2, Peruvian 2, Venezuelan 2, American 1, Argentinian 1, Australian 1, Bolivian 1, Brazilian 1, Canadian 1, New Zealand 1, Uruguayan 1.
+ * Spread: Mexican 22, Caribbean 13, Pacific 12, American 11, Jamaican 9, Trinidadian 5, Brazilian 3, Cuban 3, New Zealand 3, Puerto Rican 3, Australian 2, Colombian 2, Ecuadorian 2, Hawaiian 2, Peruvian 2, Venezuelan 2, Argentinian 1, Bolivian 1, Canadian 1, Uruguayan 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('l-p-cake', 'L&P Cake', 'New Zealand', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'l&p cake'),
   c('barbecued-prawns', 'Barbecued Prawns', 'Australian', 'Dinner', 'Easy', 15, 8, 4, 0, 0, [], ['new'], 'barbecued prawns'),
   c('newfoundland-fish-cakes', 'Newfoundland Fish Cakes', 'Canadian', 'Dinner', 'Easy', 25, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'newfoundland fish cakes'),
-  c('cajun-boudin', 'Cajun Boudin', 'American', 'Dinner', 'Hard', 40, 60, 8, 0, 0, [], ['new'], 'cajun boudin')
+  c('cajun-boudin', 'Cajun Boudin', 'American', 'Dinner', 'Hard', 40, 60, 8, 0, 0, [], ['new'], 'cajun boudin'),
+  c('creole-okra-and-tomatoes', 'Creole Okra and Tomatoes', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'creole okra and tomatoes'),
+  c('collard-greens-with-ham-hock', 'Collard Greens with Ham Hock', 'American', 'Dinner', 'Easy', 20, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'collard greens with ham hock'),
+  c('southern-tomato-pie', 'Southern Tomato Pie', 'American', 'Lunch', 'Medium', 30, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'southern tomato pie'),
+  c('kentucky-burgoo', 'Kentucky Burgoo', 'American', 'Dinner', 'Medium', 40, 240, 10, 0, 0, ['Dairy-Free'], ['new'], 'kentucky burgoo'),
+  c('pickled-okra', 'Pickled Okra', 'American', 'Appetizers', 'Easy', 20, 10, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'pickled okra'),
+  c('pickled-peaches', 'Pickled Peaches', 'American', 'Appetizers', 'Easy', 30, 15, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'pickled peaches'),
+  c('watermelon-rind-pickles', 'Watermelon Rind Pickles', 'American', 'Appetizers', 'Medium', 40, 30, 10, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'watermelon rind pickles'),
+  c('frogmore-stew', 'Frogmore Stew', 'American', 'Dinner', 'Easy', 15, 30, 6, 0, 0, [], ['new'], 'frogmore stew'),
+  c('charleston-red-rice', 'Charleston Red Rice', 'American', 'Dinner', 'Easy', 15, 45, 6, 0, 0, [], ['new'], 'charleston red rice'),
+  c('louisiana-crawfish-pie', 'Louisiana Crawfish Pie', 'American', 'Dinner', 'Medium', 30, 40, 6, 0, 0, [], ['new'], 'louisiana crawfish pie'),
+  c('champurrado', 'Champurrado', 'Mexican', 'Drinks', 'Easy', 5, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'champurrado'),
+  c('atole', 'Atole', 'Mexican', 'Drinks', 'Easy', 5, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'atole'),
+  c('mexican-chocolate-cake', 'Mexican Chocolate Cake', 'Mexican', 'Desserts', 'Medium', 25, 35, 12, 0, 0, ['Vegetarian'], ['new'], 'mexican chocolate cake'),
+  c('capirotada', 'Capirotada', 'Mexican', 'Desserts', 'Medium', 20, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'capirotada'),
+  c('flan-de-coco', 'Flan de Coco', 'Mexican', 'Desserts', 'Medium', 20, 60, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'flan de coco'),
+  c('cajeta', 'Cajeta', 'Mexican', 'Desserts', 'Medium', 10, 90, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'cajeta'),
+  c('bunuelos-mexicanos', 'Buñuelos Mexicanos', 'Mexican', 'Desserts', 'Medium', 25, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'buñuelos mexicanos'),
+  c('tres-leches-cupcakes', 'Tres Leches Cupcakes', 'Mexican', 'Desserts', 'Medium', 25, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'tres leches cupcakes'),
+  c('pudim-de-leite', 'Pudim de Leite', 'Brazilian', 'Desserts', 'Medium', 15, 60, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pudim de leite'),
+  c('romeu-e-julieta', 'Romeu e Julieta', 'Brazilian', 'Desserts', 'Easy', 5, 0, 4, 0, 0, ['Vegetarian'], ['new'], 'romeu e julieta'),
+  c('huevos-divorciados', 'Huevos Divorciados', 'Mexican', 'Breakfast', 'Easy', 15, 15, 2, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'huevos divorciados'),
+  c('steak-and-cheese-pie', 'Steak and Cheese Pie', 'Australian', 'Dinner', 'Medium', 30, 45, 6, 0, 0, [], ['new'], 'steak and cheese pie'),
+  c('green-lipped-mussels', 'Green Lipped Mussels', 'New Zealand', 'Dinner', 'Easy', 10, 10, 4, 0, 0, ['Gluten-Free'], ['new'], 'green lipped mussels'),
+  c('chilli-mussels', 'Chilli Mussels', 'New Zealand', 'Dinner', 'Easy', 10, 12, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'chilli mussels'),
+  c('salsa-macha', 'Salsa Macha', 'Mexican', 'Appetizers', 'Easy', 10, 15, 10, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'salsa macha')
 ];
