@@ -4,6 +4,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 
 const ROOT = path.join(__dirname, '..');   /* the site is generated at the repo root */
 const PORT = process.env.PORT || 4173;
@@ -11,8 +12,11 @@ const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8',
   '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8',
-  '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml'
+  '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.woff2': 'font/woff2'
 };
+/* Compressed the way the live host compresses them, so a preview measured with
+   Lighthouse reflects the bytes a visitor really downloads. */
+const COMPRESSIBLE = new Set(['.html', '.css', '.js', '.json', '.xml', '.txt', '.svg']);
 
 http.createServer((req, res) => {
   let url;
@@ -38,8 +42,16 @@ http.createServer((req, res) => {
       res.end(fs.readFileSync(path.join(ROOT, '404.html')));
       return;
     }
-    res.writeHead(200, { 'Content-Type': TYPES[path.extname(file)] || 'application/octet-stream' });
-    res.end(fs.readFileSync(file));
+    const ext = path.extname(file);
+    const headers = { 'Content-Type': TYPES[ext] || 'application/octet-stream' };
+    let body = fs.readFileSync(file);
+    if (COMPRESSIBLE.has(ext) && /\bgzip\b/.test(req.headers['accept-encoding'] || '')) {
+      body = zlib.gzipSync(body);
+      headers['Content-Encoding'] = 'gzip';
+      headers.Vary = 'Accept-Encoding';
+    }
+    res.writeHead(200, headers);
+    res.end(body);
   } catch (e) {
     res.writeHead(500, { 'Content-Type': 'text/plain' }).end('Server error');
   }

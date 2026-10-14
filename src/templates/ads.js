@@ -28,7 +28,27 @@ function socialBar() {
   if (!ADS.enabled || !ADS.socialBar || CONSENT.enabled) return '';
   /* Last thing before </body>, so it blocks less than the popunder did, but a
      blocking script still delays the load event and anything after it. */
-  return `<script src="${ADS.socialBar}" async></script>`;
+  /* Not a script tag: the loader below injects it after the page has loaded,
+     so the network's code runs once the reader has the content, not while the
+     first screen is still being built. The URL stays in the markup so the
+     coverage check can still see it on every page. */
+  return `<div hidden data-ad-defer-social="${ADS.socialBar}"></div>`;
+}
+
+/**
+ * The loader that starts the ad network's scripts. Ungated builds only; with
+ * consent gating on, consent.js does this job.
+ *
+ * Ads load on the first sign that somebody is reading (scroll, touch, key or
+ * click) or two seconds after the page's load event, whichever comes first.
+ * Third-party ad code is the heaviest script on the page and until now it ran
+ * in the middle of first paint, which is where Lighthouse and a reader's phone
+ * both feel it. The slots are reserved at a fixed height, so nothing moves
+ * when the ads arrive.
+ */
+function loaderTag(src) {
+  if (!ADS.enabled || CONSENT.enabled) return '';
+  return `<script src="${src}" defer></script>`;
 }
 
 /** Path to the single-slot document that repeat placements are framed from. */
@@ -88,7 +108,10 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
   const own = units[index];
 
   if (own && own.invoke && own.key) {
-    /* The same height the framed slot reserves. This one is a bare div that
+    /* A fixed height with overflow hidden, not a minimum: a minimum lets the
+       unit grow past it when the network paints something taller, which moves
+       everything below it. A box of exactly this height cannot shift the page
+       whatever arrives. The same height the framed slot reserves. This one is a bare div that
        the network fills, and it was holding only the stylesheet's 140px while
        the unit paints nearer three hundred — so the article below it moved
        once the ad arrived, which is the shift Core Web Vitals measures. The
@@ -99,9 +122,8 @@ function nativeBanner(index = 0, label = 'Advertisement', base = '/') {
        consent.js turns into the real slot. Ungated: the snippet as Adsterra
        supplies it. */
     return wrap(label, CONSENT.enabled
-      ? `<div data-ad-invoke="${own.invoke}" data-ad-key="${own.key}" style="min-height:${reserved}px"></div>`
-      : `<script async="async" data-cfasync="false" src="${own.invoke}"></script>
-  <div id="container-${own.key}" style="min-height:${reserved}px"></div>`);
+      ? `<div data-ad-invoke="${own.invoke}" data-ad-key="${own.key}" style="height:${reserved}px;overflow:hidden"></div>`
+      : `<div id="container-${own.key}" data-ad-defer="${own.invoke}" style="height:${reserved}px;overflow:hidden"></div>`);
   }
 
   if (!units[0]) return '';
@@ -189,5 +211,5 @@ function wrap(label, inner, modifier = 'native') {
 </aside>`;
 }
 
-module.exports = { popunder, socialBar, nativeBanner, frameDocument, FRAME_PATH,
+module.exports = { popunder, socialBar, loaderTag, nativeBanner, frameDocument, FRAME_PATH,
                    banner, bannerDocument, BANNER_PATH, ADS };
