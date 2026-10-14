@@ -5484,18 +5484,7 @@ the regional barbecue sauces.
 ### Photographs
 
 Photographs came from `tools/fetch_images.py` and were looked at one by one
-before `tools/review_images.py` published them. Of the 500 recipes, 217 now have a
-real photograph (59 of volume 48, 40 of volume 49, 52 of volume 50, 39 of volume
-51, 27 of volume 52) and 283 keep their gradient card. About 420 candidates were
-looked at and 217 were published; the rest were refused because they showed the
-wrong dish (a Hong Kong promenade for chow mein, a pair of pepper shakers for salt
-and pepper wings, a parrot for three Puerto Rican dishes, an excavator for Smith
-Island cake, a human eye for red eye gravy), meat, egg or dairy on a recipe
-labelled Vegetarian, Vegan, Dairy-Free or Gluten-Free, a person or building filling
-the frame, a package, or an archive page already used for another recipe. A few
-kept photographs differ from their recipe in a small way (tres leches cake for
-tres leches cupcakes, blueberry muffins without a visible streusel, a pizza-sauce
-casserole in a glass dish). No second search round was run for these volumes.
+before `tools/review_images.py` published them. Of the 500 recipes, 257 now have a real photograph (66 of volume 48, 56 of volume 49, 62 of volume 50, 42 of volume 51, 31 of volume 52) and 243 keep their gradient card. A first pass looked at about 420 candidates and published 217. A second pass (`tools/wide_search.py`) read the Wikipedia article and the Commons category for the 284 recipes still without one, staged 288 further candidates and published 40 of them. Roughly five in six candidates were refused in the second pass, mostly because the Commons category named for the dish held only equipment, a building or an unrelated object (cast iron, slow cookers, a street sign, a human eye), or the picture showed meat, egg or fish on a recipe labelled Vegetarian, Vegan or Gluten-Free, or an archive page was already the picture for another recipe. Across both passes the refusals included a Hong Kong promenade for chow mein, a pair of pepper shakers for salt and pepper wings, a parrot for three Puerto Rican dishes, an excavator for Smith Island cake and a human eye for red eye gravy. A few kept photographs differ from their recipe in a small way (a pizza-sauce casserole in a glass dish, blueberry muffins without a visible streusel, a Persian kebab shown without its grilled tomato). Two photographs were withdrawn because the archive names no author (the tres leches cupcakes and the kitfo).
 
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 
