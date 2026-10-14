@@ -46,7 +46,8 @@ module.exports = {
    * confirm that this publisher account may sell the site's ad space.
    */
   adsTxt: [
-    'google.com, pub-6702932117468670, DIRECT, f08c47fec0942fa0'
+    'google.com, pub-6702932117468670, DIRECT, f08c47fec0942fa0',
+    'google.com, pub-4459274597214607, DIRECT, f08c47fec0942fa0'
   ],
 
   /**
