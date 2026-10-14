@@ -306,13 +306,14 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Performance & Core Web Vitals
 
-- [x] **LCP** — critical CSS inlined, hero image `fetchpriority="high"`, `main.css` preloaded then applied off the critical path, Google Fonts non-blocking with a system fallback stack
-- [x] **CLS** — explicit `width`/`height` on every image, `aspect-ratio` on media containers, dominant-colour backgrounds behind lazy images, theme applied before first paint
+- [x] **LCP** — critical CSS inlined, hero image `fetchpriority="high"`, `main.css` render-blocking (see CLS below), fonts self-hosted and preloaded, with a metric-matched fallback so a late swap cannot move text
+- [x] **CLS** — `main.css` is a normal render-blocking stylesheet: loading it asynchronously painted the first frame from the critical CSS and re-laid-out the page when the rest arrived, a shift of 0.87 on the home page and 0.99 on recipes under throttling (desktop score 69). Ad slots are fixed-height boxes with `overflow:hidden`, so an ad cannot grow past its reserved space; explicit `width`/`height` on every image, `aspect-ratio` on media containers, dominant-colour backgrounds behind lazy images, theme applied before first paint
 - [x] **INP** — all JavaScript deferred; debounced search input; `IntersectionObserver` for reveals; `requestAnimationFrame`-throttled parallax
 - [x] WebP served via `<picture>` with a JPEG fallback for every image
 - [x] Lazy loading below the fold, eager above it
 - [x] Blur-up LQIP on recipe hero images; dominant-colour placeholders on cards
-- [x] Long-cache headers for assets, revalidate for HTML
+- [x] Long-cache headers for assets, revalidate for HTML (`.htaccess` on the live host: gzip, one-year immutable cache for the hashed CSS, JS and fonts, thirty days for photographs). The stylesheet and scripts are linked as `?v=<content hash>` so a changed file gets a new URL
+- [x] Ad scripts (`assets/js/ad-loader.js`) start on first scroll, touch, key or click, or two seconds after the load event, not during first paint
 - [x] Zero third-party JavaScript, zero trackers
 
 ### Security

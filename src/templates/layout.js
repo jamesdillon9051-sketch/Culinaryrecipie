@@ -48,7 +48,7 @@ function analyticsTag() {
   if (CONSENT.enabled) return '';
   return `<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
-<script src="${SITE.base}assets/js/analytics.js" data-ga-id="${id}" defer></script>`;
+<script src="${assetUrl('js/analytics.js')}" data-ga-id="${id}" defer></script>`;
 }
 
 /**
@@ -62,7 +62,7 @@ function consentTag() {
   if (!CONSENT.enabled) return '';
   const ga = ANALYTICS.enabled ? ANALYTICS.measurementId : '';
   const ads = ADS_CONFIG.enabled ? ADS_CONFIG : { popunder: '', socialBar: '' };
-  return `<script src="${SITE.base}assets/js/consent.js"
+  return `<script src="${assetUrl('js/consent.js')}"
         data-version="${CONSENT.version}" data-days="${CONSENT.rememberDays}"
         data-base="${SITE.base}"
         data-ga="${esc(ga || '')}"
@@ -70,8 +70,24 @@ function consentTag() {
         data-ad-social="${esc(ads.socialBar || '')}" defer></script>`;
 }
 
-const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800' +
-                 '&family=Inter:wght@400;500;600;700&display=swap';
+/* Fonts are self-hosted (see the @font-face block in assets/css/critical.css).
+   Only the two latin faces are preloaded; the latin-ext ones load on demand. */
+const FONT_PRELOADS = ['inter-latin.woff2', 'playfair-latin.woff2'];
+
+/* A URL for a file under src/assets with a short content hash on the end.
+   The hash is what makes a long cache lifetime safe: when a file changes its
+   URL changes, so nobody is left holding a stale stylesheet or script. */
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const ASSET_HASHES = new Map();
+function assetUrl(rel) {
+  if (!ASSET_HASHES.has(rel)) {
+    const file = path.join(__dirname, '..', 'assets', rel);
+    ASSET_HASHES.set(rel, crypto.createHash('md5').update(fs.readFileSync(file)).digest('hex').slice(0, 8));
+  }
+  return `${SITE.base}assets/${rel}?v=${ASSET_HASHES.get(rel)}`;
+}
 
 /* ------------------------------------------------------------------ icons */
 const ICONS = {
@@ -208,7 +224,7 @@ function layout(page) {
     .map(s => `<script type="application/ld+json">${jsonLd(s)}</script>`).join('\n');
 
   const scripts = ['app.js'].concat(page.scripts || [])
-    .map(s => `<script src="${SITE.base}assets/js/${s}" defer></script>`).join('\n');
+    .map(s => `<script src="${assetUrl('js/' + s)}" defer></script>`).join('\n');
 
   return `<!doctype html>
 <html lang="en-GB" data-theme="light">
@@ -257,28 +273,23 @@ ${(page.cardFacts || []).map(([label, data], i) =>
 <link rel="apple-touch-icon" href="${SITE.base}assets/img/icon-192.png">
 <link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)}" href="${SITE.base}feed.xml">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+${FONT_PRELOADS.map(f => `<link rel="preload" href="${SITE.base}assets/fonts/${f}" as="font" type="font/woff2" crossorigin>`).join('\n')}
 
 <style>${page.criticalCss}</style>
 
 <!--
-  Stylesheets load without blocking the first paint: each is parked at
-  media="print" and promoted to media="all" by theme.js once it has loaded.
-  The <noscript> copies cover visitors with JavaScript disabled.
-  No inline onload handlers, so script-src needs no 'unsafe-inline'.
+  The stylesheet is render-blocking on purpose. It used to be parked at
+  media="print" and promoted once loaded, which painted the first frame from
+  the critical CSS alone and then re-laid-out the whole page when the rest
+  arrived: a layout shift of 0.87 on the home page and 0.99 on recipes under a
+  throttled connection. At 57 KB it costs one round trip; the shift cost most
+  of the performance score.
 -->
-<link rel="preload" href="${SITE.base}assets/css/main.css" as="style">
-<link rel="stylesheet" href="${SITE.base}assets/css/main.css" media="print" data-async-style>
-<link rel="stylesheet" href="${FONT_CSS}" media="print" data-async-style>
-<noscript>
-  <link rel="stylesheet" href="${SITE.base}assets/css/main.css">
-  <link rel="stylesheet" href="${FONT_CSS}">
-</noscript>
+<link rel="stylesheet" href="${assetUrl('css/main.css')}">
 ${page.preload ? page.preload.map(p => `<link rel="preload" href="${p.href}" as="${p.as}"${p.type ? ` type="${p.type}"` : ''}${p.fetchpriority ? ` fetchpriority="${p.fetchpriority}"` : ''}${p.crossorigin ? ' crossorigin' : ''}>`).join('\n') : ''}
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
-<script src="${SITE.base}assets/js/theme.js"></script>
+<script src="${assetUrl('js/theme.js')}"></script>
 ${schemaBlocks}
 ${analyticsTag()}
 </head>
@@ -316,6 +327,7 @@ ${scripts}
 -->
 ${ads.popunder()}
 ${ads.socialBar()}
+${ads.loaderTag(assetUrl('js/ad-loader.js'))}
 ${consentTag()}
 </body>
 </html>`;

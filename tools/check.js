@@ -308,7 +308,7 @@ for (const file of htmlFiles) {
     const attrs = match[1] + match[3];
     const src = match[2];
     if (/\basync\b|\bdefer\b/.test(attrs)) continue;
-    if (src.endsWith('/assets/js/theme.js')) continue;
+    if (/\/assets\/js\/theme\.js(\?v=[0-9a-f]+)?$/.test(src)) continue;
     problems.push(`${rel}: <script src="${src}"> blocks rendering — add async or defer`);
   }
 
@@ -750,7 +750,7 @@ if (!vercelCsp) {
       const html = fs.readFileSync(file, 'utf8');
       const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
       if (where.startsWith('/assets/')) continue;
-      const container = new RegExp(`id="container-${unit.key}"[^>]*style="min-height:(\\d+)px"`).exec(html);
+      const container = new RegExp(`id="container-${unit.key}"[^>]*style="height:(\\d+)px;overflow:hidden"`).exec(html);
       if (!container) {
         problems.push(`${where}: the embedded ad slot reserves no height, so the page moves when it paints`);
       } else if (Number(container[1]) !== reserved) {

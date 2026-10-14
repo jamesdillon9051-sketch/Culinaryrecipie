@@ -806,7 +806,7 @@ ${breadcrumbs(trail)}
 
     <h2>What else the site loads</h2>
     <ul>
-      <li><strong>Fonts</strong> come from Google Fonts, which means your browser contacts <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code> and they see your IP address.</li>
+      <li><strong>Fonts</strong> are served from this site itself, so no font provider sees your IP address.</li>
       <li><strong>Photographs</strong> are served from this site itself, not from anywhere else.</li>
       <li><strong>The search index</strong> is a file downloaded from this site when you first use the search box. Your search terms are handled entirely in your browser and are never sent anywhere.</li>
       <li><strong>Hosting.</strong> The site is served by Netlify, whose servers log requests, including IP addresses, as any web server does.</li>
