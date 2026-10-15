@@ -717,7 +717,11 @@ const EXT5_FOODS = {
   brewed_coffee: [0.1, 0, 0, 0, 0, 2],
   chocolate_biscuit: [6, 68, 20, 3, 28, 400],
   clotted_cream: [1.6, 2.3, 64, 0, 2, 30],
-  chocolate_kiss: [7, 57, 30, 2, 55, 80]
+  chocolate_kiss: [7, 57, 30, 2, 55, 80],
+  coffee_beans: [0.1, 0, 0, 0, 0, 2],
+  fudge_sauce: [3, 60, 10, 2, 50, 150],
+  gingersnap: [5, 75, 12, 2, 35, 400],
+  dairy_free_block: [0.1, 0.3, 81, 0, 0.2, 400]
 };
 const EXT5_ALIAS = {
   burger_sauce: ['burger sauce'],
@@ -745,7 +749,11 @@ const EXT5_ALIAS = {
   brewed_coffee: ['hot coffee', 'brewed coffee', 'strong coffee', 'hot strong coffee', 'hot brewed coffee'],
   chocolate_biscuit: ['chocolate biscuits', 'chocolate digestives', 'chocolate digestive biscuits'],
   clotted_cream: ['clotted cream'],
-  chocolate_kiss: ['chocolate kisses', 'hershey kisses', 'milk chocolate kisses']
+  chocolate_kiss: ['chocolate kisses', 'hershey kisses', 'milk chocolate kisses'],
+  coffee_beans: ['whole coffee beans', 'coffee beans'],
+  fudge_sauce: ['fudge sauce', 'hot fudge sauce', 'chocolate fudge sauce'],
+  gingersnap: ['gingersnap biscuits', 'gingersnaps', 'ginger nut biscuits'],
+  dairy_free_block: ['dairy-free baking block', 'dairy-free baking block or coconut oil', 'dairy-free butter', 'dairy-free spread', 'vegan baking block', 'vegan block']
 };
 const EXT5_PORTION = {
   burger_sauce: {'tbsp': 15},
