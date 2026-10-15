@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 30, British 8, Italian 7, Mexican 2, Chinese 1, French 1, Indian 1.
+ * Spread: American 40, Italian 10, British 8, Mexican 2, Chinese 1, French 1, Indian 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -59,7 +59,7 @@ module.exports = [
   c('gluten-free-crepes', 'Gluten-Free Crepes', 'French', 'Breakfast', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free crepes'),
   c('gluten-free-dumplings', 'Gluten-Free Dumplings', 'American', 'Dinner', 'Medium', 20, 20, 6, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free dumplings'),
   c('gluten-free-fried-chicken', 'Gluten-Free Fried Chicken', 'American', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free fried chicken'),
-  c('gluten-free-gnocchi', 'Gluten-Free Gnocchi', 'Italian', 'Dinner', 'Medium', 30, 10, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free gnocchi'),
+  c('gluten-free-gnocchi', 'Gluten-Free Gnocchi', 'Italian', 'Dinner', 'Medium', 30, 30, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free gnocchi'),
   c('gluten-free-gravy', 'Gluten-Free Gravy', 'British', 'Dinner', 'Easy', 5, 10, 6, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free gravy'),
   c('gluten-free-lasagna', 'Gluten-Free Lasagna', 'Italian', 'Dinner', 'Medium', 30, 50, 8, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free lasagna'),
   c('gluten-free-mac-and-cheese', 'Gluten-Free Mac and Cheese', 'American', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free mac and cheese'),
@@ -77,5 +77,18 @@ module.exports = [
   c('gluten-free-tortillas', 'Gluten-Free Tortillas', 'Mexican', 'Dinner', 'Medium', 20, 15, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'gluten-free tortillas'),
   c('gluten-free-waffles', 'Gluten-Free Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free waffles'),
   c('gluten-free-yorkshire-puddings', 'Gluten-Free Yorkshire Puddings', 'British', 'Dinner', 'Medium', 10, 25, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free yorkshire puddings'),
-  c('high-protein-breakfast-burrito', 'High-Protein Breakfast Burrito', 'American', 'Breakfast', 'Easy', 15, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'high-protein breakfast burrito')
+  c('high-protein-breakfast-burrito', 'High-Protein Breakfast Burrito', 'American', 'Breakfast', 'Easy', 15, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'high-protein breakfast burrito'),
+  c('high-protein-chili', 'High-Protein Chili', 'American', 'Healthy', 'Easy', 15, 40, 6, 0, 0, ['Dairy-Free'], ['new'], 'high-protein chili'),
+  c('high-protein-meal-prep-bowls', 'High-Protein Meal Prep Bowls', 'American', 'Healthy', 'Easy', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'high-protein meal prep bowls'),
+  c('high-protein-overnight-oats', 'High-Protein Overnight Oats', 'American', 'Breakfast', 'Easy', 5, 0, 2, 0, 0, ['Vegetarian'], ['new'], 'high-protein overnight oats'),
+  c('high-protein-pancakes', 'High-Protein Pancakes', 'American', 'Breakfast', 'Easy', 10, 15, 3, 0, 0, ['Vegetarian'], ['new'], 'high-protein pancakes'),
+  c('high-protein-pasta', 'High-Protein Pasta', 'Italian', 'Healthy', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'high-protein pasta'),
+  c('high-protein-waffles', 'High-Protein Waffles', 'American', 'Breakfast', 'Easy', 10, 15, 3, 0, 0, ['Vegetarian'], ['new'], 'high-protein waffles'),
+  c('low-carb-breakfast-casserole', 'Low-Carb Breakfast Casserole', 'American', 'Breakfast', 'Easy', 15, 40, 8, 0, 0, [], ['new'], 'low-carb breakfast casserole'),
+  c('low-carb-chicken-casserole', 'Low-Carb Chicken Casserole', 'American', 'Dinner', 'Easy', 15, 35, 6, 0, 0, [], ['new'], 'low-carb chicken casserole'),
+  c('low-carb-chicken-parmesan', 'Low-Carb Chicken Parmesan', 'Italian', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'low-carb chicken parmesan'),
+  c('low-carb-chili', 'Low-Carb Chili', 'American', 'Dinner', 'Easy', 15, 40, 6, 0, 0, ['Dairy-Free'], ['new'], 'low-carb chili'),
+  c('low-carb-egg-muffins', 'Low-Carb Egg Muffins', 'American', 'Breakfast', 'Easy', 10, 20, 6, 0, 0, [], ['new'], 'low-carb egg muffins'),
+  c('low-carb-granola', 'Low-Carb Granola', 'American', 'Breakfast', 'Easy', 10, 25, 10, 0, 0, ['Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'low-carb granola'),
+  c('low-carb-meatballs', 'Low-Carb Meatballs', 'Italian', 'Dinner', 'Easy', 15, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'low-carb meatballs')
 ];
