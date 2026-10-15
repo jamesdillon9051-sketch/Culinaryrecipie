@@ -5559,8 +5559,8 @@ record, and the Commons page was read to find it.
 The same check found fish tagged Vegetarian: trout, octopus, barramundi,
 scallops and a mahi-mahi dish (and Vegan on the octopus). `npm run diet` does
 not know those fish names and the ingredient-hub check only some of them, so the
-tags were removed by hand in the catalogue rows; adding the names to the audit
-is the open follow-up.
+tags were removed in the catalogue rows and the names (octopus, scallops, trout,
+barramundi, bass, halibut, mahi and others) were added to `tools/diet-audit.js`.
 
 ## Site directory and chunked sitemaps
 
