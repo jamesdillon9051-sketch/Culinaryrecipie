@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 49, Italian 19, British 8, Mexican 4, Chinese 3, French 3, Indian 2.
+ * Spread: American 51, Italian 19, British 9, Mexican 5, Chinese 3, French 3, Indian 3, Japanese 2, Scottish 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -115,5 +115,13 @@ module.exports = [
   c('vegan-pesto', 'Vegan Pesto', 'Italian', 'Appetizers', 'Easy', 10, 0, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'vegan pesto'),
   c('vegan-pizza', 'Vegan Pizza', 'Italian', 'Dinner', 'Medium', 20, 15, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan pizza'),
   c('vegan-pot-pie', 'Vegan Pot Pie', 'American', 'Dinner', 'Medium', 30, 35, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan pot pie'),
-  c('vegan-quiche', 'Vegan Quiche', 'French', 'Breakfast', 'Medium', 25, 40, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan quiche')
+  c('vegan-quiche', 'Vegan Quiche', 'French', 'Breakfast', 'Medium', 25, 40, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan quiche'),
+  c('vegan-ramen', 'Vegan Ramen', 'Japanese', 'Dinner', 'Easy', 10, 25, 2, 0, 0, ['Vegetarian', 'Dairy-Free', 'Vegan'], ['new'], 'vegan ramen'),
+  c('vegan-burritos', 'Vegan Burritos', 'Mexican', 'Dinner', 'Easy', 20, 20, 4, 0, 0, ['Vegetarian', 'Dairy-Free', 'Vegan'], ['new'], 'vegan burritos'),
+  c('vegan-shortbread', 'Vegan Shortbread', 'Scottish', 'Baking', 'Easy', 15, 20, 16, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan shortbread'),
+  c('vegan-stew', 'Vegan Stew', 'British', 'Dinner', 'Easy', 20, 45, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan stew'),
+  c('vegan-stuffing', 'Vegan Stuffing', 'American', 'Holiday Specials', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan stuffing'),
+  c('vegan-sushi', 'Vegan Sushi', 'Japanese', 'Appetizers', 'Medium', 40, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'vegan sushi'),
+  c('vegan-tikka-masala', 'Vegan Tikka Masala', 'Indian', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free', 'Vegan', 'Dairy-Free'], ['new'], 'vegan tikka masala'),
+  c('vegan-waffles', 'Vegan Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan waffles')
 ];
