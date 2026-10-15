@@ -693,4 +693,43 @@ Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);
 for (const k of Object.keys(EXT4_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT4_PORTION[k]);
 
+/* Volumes 53 to 57: foods the calculator did not know. Generated list; keys are unique. */
+const EXT5_FOODS = {
+  burger_sauce: [1, 12, 30, 0.3, 8, 900],
+  old_bay: [8, 35, 5, 12, 2, 14000],
+  pastry_disc: [7, 50, 22, 2, 2, 500],
+  gyoza_pork_frozen: [9, 28, 7, 1.5, 2, 500],
+  pizza_sauce: [1.5, 8, 2, 1.5, 6, 500],
+  egg_roll_wrapper: [8, 56, 1, 2, 2, 500],
+  pierogi_frozen: [5, 32, 4, 2, 1, 400],
+  beansprouts: [3, 6, 0.2, 1.8, 4, 6],
+  veal_shank: [15, 0, 3, 0, 0, 90],
+  chicken_leg: [16, 0, 11, 0, 0, 90],
+  gochugaru: [12, 60, 5, 35, 12, 50],
+  octopus: [15, 2, 1, 0, 0, 230]
+};
+const EXT5_ALIAS = {
+  burger_sauce: ['burger sauce'],
+  old_bay: ['old bay seasoning', 'old bay'],
+  pastry_disc: ['empanada pastry discs', 'empanada discs', 'empanada wrappers'],
+  gyoza_pork_frozen: ['frozen pork gyoza', 'frozen gyoza'],
+  pizza_sauce: ['pizza sauce'],
+  egg_roll_wrapper: ['egg roll wrappers', 'egg roll wrapper'],
+  pierogi_frozen: ['frozen potato and cheese pierogi', 'frozen pierogi'],
+  beansprouts: ['beansprouts', 'bean sprouts'],
+  veal_shank: ['veal shanks', 'veal shank'],
+  chicken_leg: ['chicken legs', 'chicken leg quarters'],
+  gochugaru: ['gochugaru', 'korean chilli flakes'],
+  octopus: ['octopus']
+};
+const EXT5_PORTION = {
+  burger_sauce: {'tbsp': 15},
+  pizza_sauce: {'tbsp': 16},
+  old_bay: {'tbsp': 7},
+  gochugaru: {'tbsp': 6}
+};
+Object.assign(MORE, EXT5_FOODS);
+for (const k of Object.keys(EXT5_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT5_ALIAS[k]);
+for (const k of Object.keys(EXT5_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT5_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
