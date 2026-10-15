@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 51, Italian 19, British 9, Mexican 5, Chinese 3, French 3, Indian 3, Japanese 2, Scottish 1.
+ * Spread: American 54, Italian 19, British 9, Mexican 5, Chinese 3, French 3, Indian 3, Japanese 2, Irish 1, Scottish 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -123,5 +123,9 @@ module.exports = [
   c('vegan-stuffing', 'Vegan Stuffing', 'American', 'Holiday Specials', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan stuffing'),
   c('vegan-sushi', 'Vegan Sushi', 'Japanese', 'Appetizers', 'Medium', 40, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'vegan sushi'),
   c('vegan-tikka-masala', 'Vegan Tikka Masala', 'Indian', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free', 'Vegan', 'Dairy-Free'], ['new'], 'vegan tikka masala'),
-  c('vegan-waffles', 'Vegan Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan waffles')
+  c('vegan-waffles', 'Vegan Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan waffles'),
+  c('hot-dog-buns', 'Hot Dog Buns', 'American', 'Baking', 'Medium', 30, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'hot dog buns'),
+  c('cheddar-jalapeno-bread', 'Cheddar Jalapeno Bread', 'American', 'Baking', 'Medium', 25, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'cheddar jalapeno bread'),
+  c('brown-soda-bread', 'Brown Soda Bread', 'Irish', 'Baking', 'Easy', 10, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'brown soda bread'),
+  c('honey-oat-bread', 'Honey Oat Bread', 'American', 'Baking', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'honey oat bread')
 ];
