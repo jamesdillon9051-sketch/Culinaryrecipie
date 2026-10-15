@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 16, British 5, Italian 2, Chinese 1, Mexican 1.
+ * Spread: American 30, British 8, Italian 7, Mexican 2, Chinese 1, French 1, Indian 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -52,5 +52,30 @@ module.exports = [
   c('gluten-free-beer-battered-fish', 'Gluten-Free Beer Battered Fish', 'British', 'Dinner', 'Medium', 15, 12, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free beer battered fish'),
   c('gluten-free-biscuits', 'Gluten-Free Biscuits', 'American', 'Baking', 'Medium', 15, 16, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free biscuits'),
   c('gluten-free-bread', 'Gluten-Free Bread', 'British', 'Baking', 'Medium', 15, 50, 12, 0, 0, ['Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'gluten-free bread'),
-  c('gluten-free-carrot-cake', 'Gluten-Free Carrot Cake', 'British', 'Baking', 'Medium', 25, 40, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free carrot cake')
+  c('gluten-free-carrot-cake', 'Gluten-Free Carrot Cake', 'British', 'Baking', 'Medium', 25, 40, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free carrot cake'),
+  c('gluten-free-chicken-nuggets', 'Gluten-Free Chicken Nuggets', 'American', 'Dinner', 'Easy', 20, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free chicken nuggets'),
+  c('gluten-free-cinnamon-rolls', 'Gluten-Free Cinnamon Rolls', 'American', 'Baking', 'Hard', 30, 25, 9, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free cinnamon rolls'),
+  c('gluten-free-crackers', 'Gluten-Free Crackers', 'American', 'Appetizers', 'Easy', 15, 20, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'gluten-free crackers'),
+  c('gluten-free-crepes', 'Gluten-Free Crepes', 'French', 'Breakfast', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free crepes'),
+  c('gluten-free-dumplings', 'Gluten-Free Dumplings', 'American', 'Dinner', 'Medium', 20, 20, 6, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free dumplings'),
+  c('gluten-free-fried-chicken', 'Gluten-Free Fried Chicken', 'American', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free fried chicken'),
+  c('gluten-free-gnocchi', 'Gluten-Free Gnocchi', 'Italian', 'Dinner', 'Medium', 30, 10, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free gnocchi'),
+  c('gluten-free-gravy', 'Gluten-Free Gravy', 'British', 'Dinner', 'Easy', 5, 10, 6, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free gravy'),
+  c('gluten-free-lasagna', 'Gluten-Free Lasagna', 'Italian', 'Dinner', 'Medium', 30, 50, 8, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free lasagna'),
+  c('gluten-free-mac-and-cheese', 'Gluten-Free Mac and Cheese', 'American', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free mac and cheese'),
+  c('gluten-free-meatballs', 'Gluten-Free Meatballs', 'Italian', 'Dinner', 'Easy', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free meatballs'),
+  c('gluten-free-meatloaf', 'Gluten-Free Meatloaf', 'American', 'Dinner', 'Easy', 15, 55, 6, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free meatloaf'),
+  c('gluten-free-muffins', 'Gluten-Free Muffins', 'American', 'Breakfast', 'Easy', 15, 22, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free muffins'),
+  c('gluten-free-naan', 'Gluten-Free Naan', 'Indian', 'Dinner', 'Medium', 20, 12, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free naan'),
+  c('gluten-free-pancakes', 'Gluten-Free Pancakes', 'American', 'Breakfast', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free pancakes'),
+  c('gluten-free-pasta-salad', 'Gluten-Free Pasta Salad', 'Italian', 'Lunch', 'Easy', 15, 12, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free pasta salad'),
+  c('gluten-free-pie-crust', 'Gluten-Free Pie Crust', 'American', 'Baking', 'Medium', 20, 20, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free pie crust'),
+  c('gluten-free-pizza-dough', 'Gluten-Free Pizza Dough', 'Italian', 'Dinner', 'Medium', 15, 20, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free pizza dough'),
+  c('gluten-free-sandwich-bread', 'Gluten-Free Sandwich Bread', 'American', 'Baking', 'Medium', 15, 50, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free sandwich bread'),
+  c('gluten-free-scones', 'Gluten-Free Scones', 'British', 'Baking', 'Easy', 15, 18, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free scones'),
+  c('gluten-free-stuffing', 'Gluten-Free Stuffing', 'American', 'Holiday Specials', 'Easy', 20, 40, 8, 0, 0, ['Gluten-Free'], ['new'], 'gluten-free stuffing'),
+  c('gluten-free-tortillas', 'Gluten-Free Tortillas', 'Mexican', 'Dinner', 'Medium', 20, 15, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'gluten-free tortillas'),
+  c('gluten-free-waffles', 'Gluten-Free Waffles', 'American', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free waffles'),
+  c('gluten-free-yorkshire-puddings', 'Gluten-Free Yorkshire Puddings', 'British', 'Dinner', 'Medium', 10, 25, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gluten-free yorkshire puddings'),
+  c('high-protein-breakfast-burrito', 'High-Protein Breakfast Burrito', 'American', 'Breakfast', 'Easy', 15, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'high-protein breakfast burrito')
 ];
