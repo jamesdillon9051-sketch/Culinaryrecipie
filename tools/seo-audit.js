@@ -137,7 +137,9 @@ for (const [route, html] of indexable) {
 }
 
 /* 4. The sitemap against the set of pages that exists. */
-const sitemap = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+const sitemapIndexXml = fs.readFileSync(path.join(ROOT, 'sitemap-index.xml'), 'utf8');
+const sitemap = [...sitemapIndexXml.matchAll(/<loc>[^<]*\/(sitemap-\d+\.xml)<\/loc>/g)]
+  .map(m => fs.readFileSync(path.join(ROOT, m[1]), 'utf8')).join('\n');
 const listed = new Set([...sitemap.matchAll(/<loc>https?:\/\/[^/]+(\/[^<]*)<\/loc>/g)].map(m => m[1]));
 for (const [route] of indexable) {
   if (!listed.has(route)) problems.push(`${route} is indexable but missing from sitemap.xml`);
@@ -150,8 +152,8 @@ if (!/<lastmod>/.test(sitemap)) problems.push('sitemap.xml carries no lastmod da
 
 /* robots.txt has to name the sitemap and must not block anything indexable. */
 const robots = fs.readFileSync(path.join(ROOT, 'robots.txt'), 'utf8');
-if (!/^Sitemap:\s*https:\/\/weeklydelight\.com\/sitemap\.xml\s*$/m.test(robots)) {
-  problems.push('robots.txt does not point at https://weeklydelight.com/sitemap.xml');
+if (!/^Sitemap:\s*https:\/\/weeklydelight\.com\/sitemap-index\.xml\s*$/m.test(robots)) {
+  problems.push('robots.txt does not point at https://weeklydelight.com/sitemap-index.xml');
 }
 for (const rule of robots.match(/^Disallow:\s*(\S+)\s*$/gm) || []) {
   const value = rule.replace(/^Disallow:\s*/, '').trim();

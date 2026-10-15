@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5015 recipes · 85 cuisines · 10 categories · 5346 static pages · 0 npm dependencies
+5015 recipes · 85 cuisines · 10 categories · 5347 static pages · 0 npm dependencies
 ```
 
 ---
@@ -5537,6 +5537,28 @@ names were already on the site. Each is a normal `/recipes/<slug>/` page.
   (Russian tea cakes and Mexican wedding cookies, among others) and were replaced.
   `node tools/dedupe-candidates.js --volume N` and `npm run duplicates` pass for
   each volume.
+
+## Site directory and chunked sitemaps
+
+Three changes to help Google find and index pages faster.
+
+- **`/site-directory/`** lists every recipe on one page, grouped by category and
+  sorted by name, with the main pages, cuisines and ingredient guides above them.
+  It is generated from the catalogue (`siteDirectory()` in
+  `src/templates/pages.js`), so a new recipe appears with the next build. The
+  footer links to it twice, so every recipe is two clicks from the home page. The
+  site has recipes only, no blog posts.
+- **Chunked sitemaps.** `sitemap-index.xml` lists `sitemap-1.xml` to
+  `sitemap-N.xml`, each holding 300 to 500 URLs (at most `SITEMAP_MAX` in
+  `src/build.js`, evened out so no file is a stub). `sitemap.xml` is the same
+  index, kept because that address may already be submitted in Search Console.
+  `robots.txt` names `sitemap-index.xml`. `npm run check` fails on a chunk over
+  500 or under 300 URLs, an unlisted chunk, or a URL that is not a page.
+- **Recipe JSON-LD.** Every recipe page carries a `Recipe` block built from the
+  record (name, description, dates, author, ingredients, steps, nutrition). `npm run check`
+  now fails if a recipe page lacks one or lacks a required field. `image` is
+  published only for recipes that have a real photograph, on purpose: a recipe
+  with no picture publishes none rather than a picture of something else.
 
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 

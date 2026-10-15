@@ -125,8 +125,8 @@ const SRC = __dirname;
 /* Everything the build creates, and nothing else. cleanOutput() removes only
    these, because the output directory is also the project directory. */
 const GENERATED_DIRS = ['assets', 'recipes', 'categories', 'cuisines', 'ingredients',
-  'about', 'contact', 'privacy', 'search', 'favourites'];
-const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'robots.txt', 'ads.txt',
+  'about', 'contact', 'privacy', 'search', 'favourites', 'site-directory'];
+const GENERATED_FILES = ['index.html', '404.html', 'sitemap.xml', 'sitemap-index.xml', 'robots.txt', 'ads.txt',
   'manifest.json', 'feed.xml', 'pinterest-feed.xml', 'search-index.json', '_redirects'];
 
 /* Never removable, whatever else changes. A typo in GENERATED_* that collided
@@ -165,7 +165,11 @@ function cleanOutput() {
     return target;
   });
 
-  for (const target of targets) fs.rmSync(target, { recursive: true, force: true });
+  /* The chunked sitemaps are numbered, and how many there are depends on the
+     catalogue, so they are matched by pattern rather than listed. */
+  const chunks = fs.readdirSync(OUT).filter(n => /^sitemap-\d+\.xml$/.test(n)).map(n => path.join(OUT, n));
+
+  for (const target of [...targets, ...chunks]) fs.rmSync(target, { recursive: true, force: true });
 }
 
 function writePage(relPath, html) {
@@ -511,6 +515,10 @@ function distinctWords(text) {
 }
 
 /* --------------------------------------------------------- site plumbing */
+/* Most URLs one sitemap file may hold. Google allows 50,000; a few hundred
+   keeps each file quick to fetch and its coverage report readable. */
+const SITEMAP_MAX = 500;
+
 function sitemap(recipes, ctx) {
   const dates = ctx.dates;
   /* Hub pages list recipes, so their content changes when the set they list
@@ -534,6 +542,7 @@ function sitemap(recipes, ctx) {
     entry('cuisines/', hubDate('/cuisines/', ctx.topCuisines), 'weekly', '0.8'),
     entry('ingredients/', hubDate('/ingredients/', (ctx.hubs || []).map(h => h.slug)), 'weekly', '0.8'),
     entry('search/', hubDate('/search/', allSlugs), 'monthly', '0.4'),
+    entry('site-directory/', hubDate('/site-directory/', allSlugs), 'weekly', '0.6'),
     /* /favourites/ is noindex — device-local content, nothing to crawl. */
     entry('about/', hubDate('/about/', SITE.author), 'monthly', '0.5'),
     entry('privacy/', hubDate('/privacy/', 'privacy-policy-v1'), 'yearly', '0.3'),
@@ -572,11 +581,32 @@ function sitemap(recipes, ctx) {
     );
   }
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
+  /* One file of 5,000 URLs is slow to fetch and, if it fails to parse, loses
+     every page at once. Google reads a sitemap index of small files faster and
+     reports each file's own coverage in Search Console, so the URLs are split
+     into the fewest files of at most SITEMAP_MAX, with the sizes evened out so
+     the last file is not a stub. */
+  const fileCount = Math.ceil(urls.length / SITEMAP_MAX);
+  const perFile = Math.ceil(urls.length / fileCount);
+  const chunks = [];
+  for (let i = 0; i < fileCount; i++) {
+    const slice = urls.slice(i * perFile, (i + 1) * perFile);
+    const lastmod = slice.map(u => (u.match(/<lastmod>([^<]+)<\/lastmod>/) || [])[1]).filter(Boolean).sort().pop();
+    chunks.push({
+      name: `sitemap-${i + 1}.xml`,
+      lastmod,
+      xml: `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${urls.join('\n')}
-</urlset>\n`;
+${slice.join('\n')}
+</urlset>\n`
+    });
+  }
+  const index = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${chunks.map(c => `  <sitemap>\n    <loc>${SITE.origin}${SITE.base}${c.name}</loc>\n    <lastmod>${c.lastmod}</lastmod>\n  </sitemap>`).join('\n')}
+</sitemapindex>\n`;
+  return { index, chunks };
 }
 
 function robots() {
@@ -615,7 +645,7 @@ Crawl-delay: 10
 User-agent: SemrushBot
 Crawl-delay: 10
 
-Sitemap: ${SITE.origin}${SITE.base}sitemap.xml
+Sitemap: ${SITE.origin}${SITE.base}sitemap-index.xml
 `;
 }
 
@@ -802,6 +832,7 @@ function build() {
     seed: recipes.slice().sort((a, b) => b.popularity - a.popularity).slice(0, 24)
   }));
 
+  writePage('site-directory/index.html', pages.siteDirectory(ctx));
   writePage('search/index.html', pages.directory(ctx, {
     mode: 'search',
     title: 'Search Recipes',
@@ -972,7 +1003,12 @@ function build() {
 
   /* Data + plumbing ----------------------------------------------------- */
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(searchIndex(recipes)));
-  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemap(recipes, ctx));
+  const sitemaps = sitemap(recipes, ctx);
+  fs.writeFileSync(path.join(OUT, 'sitemap-index.xml'), sitemaps.index);
+  /* sitemap.xml was the address submitted to Search Console before the split.
+     It stays, as the same index, so that submission keeps working. */
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), sitemaps.index);
+  for (const chunk of sitemaps.chunks) fs.writeFileSync(path.join(OUT, chunk.name), chunk.xml);
   fs.writeFileSync(path.join(OUT, 'robots.txt'), robots());
   /* IAB ads.txt: who may sell this site's ad inventory. Lines live in src/data/ads.js. */
   fs.writeFileSync(path.join(OUT, 'ads.txt'), require('./data/ads').adsTxt.join('\n') + '\n');

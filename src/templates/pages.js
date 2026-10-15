@@ -309,6 +309,7 @@ ${breadcrumbs(trail)}
       <span class="eyebrow">${esc(options.eyebrow)}</span>
       <h1>${esc(options.heading)}</h1>
       <p class="lede">${esc(options.intro)}</p>
+      ${options.mode === 'all' ? `<p>Prefer a plain list? Every recipe is also in the <a href="${SITE.base}site-directory/">site directory</a>, grouped by category.</p>` : ''}
     </div>
   </header>
 
@@ -574,6 +575,7 @@ ${breadcrumbs(trail)}
       <span class="eyebrow">Cuisine explorer</span>
       <h1>Twenty-nine cuisines, mapped</h1>
       <p class="lede">Every cuisine on the site, with the number of tested recipes and what makes each one tick. Start anywhere.</p>
+      <p>Want every recipe in one list? Open the <a href="${SITE.base}site-directory/">site directory</a>.</p>
     </div>
   </header>
   <section aria-labelledby="cuisine-list-title">
@@ -1127,5 +1129,96 @@ function notFound(ctx) {
   });
 }
 
+/* ------------------------------------------------------- site directory */
+/**
+ * Every published recipe on one page, grouped by category.
+ *
+ * It exists for crawlers as much as for readers: the listing pages are paged
+ * and the sitemap is a file a crawler may or may not read, but a plain page of
+ * links, one click from the footer, puts every recipe two clicks from the
+ * home page. Generated from the catalogue, so a new recipe appears here with
+ * the next build and nothing has to be added by hand. There are no posts or
+ * articles on this site; the recipes are the whole of the content.
+ */
+function siteDirectory(ctx) {
+  const trail = [{ name: 'Home', url: SITE.base }, { name: 'Site directory' }];
+  const byTitle = (a, b) => a.title.localeCompare(b.title, 'en');
+  const names = Object.keys(CATEGORIES);
+  const total = ctx.recipes.length;
+
+  const pageLinks = [
+    ['All recipes', 'recipes/'], ['Categories', 'categories/'], ['Cuisines', 'cuisines/'],
+    ['Ingredients', 'ingredients/'], ['Search', 'search/'], ['About', 'about/'],
+    ['Contact', 'contact/'], ['Privacy policy', 'privacy/']
+  ].map(([label, href]) => `<li><a href="${SITE.base}${href}">${esc(label)}</a></li>`).join('');
+
+  const taxonomy = (heading, id, items) => `<section aria-labelledby="${id}">
+    <h2 id="${id}">${esc(heading)}</h2>
+    <ul class="dir-links">${items.join('')}</ul>
+  </section>`;
+
+  const categoryLinks = names.map(n =>
+    `<li><a href="${SITE.base}categories/${slug(n)}/">${esc(n)}</a></li>`);
+  const cuisineLinks = ctx.topCuisines.map(n =>
+    `<li><a href="${SITE.base}cuisines/${slug(n)}/">${esc(n)}</a></li>`);
+  const ingredientLinks = (ctx.hubs || []).map(h =>
+    `<li><a href="${SITE.base}ingredients/${h.slug}/">${esc(h.name)}</a></li>`);
+
+  const sections = names.map(name => {
+    const list = ctx.recipes.filter(r => r.category === name).sort(byTitle);
+    if (!list.length) return '';
+    return `<section aria-labelledby="dir-${slug(name)}">
+    <h2 id="dir-${slug(name)}">${esc(name)} <small>(${plural(list.length, 'recipe')})</small></h2>
+    <ul class="dir-list">${list.map(r =>
+      `<li><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}</ul>
+  </section>`;
+  }).join('\n  ');
+
+  const jump = names.filter(n => ctx.recipes.some(r => r.category === n)).map(n =>
+    `<a href="#dir-${slug(n)}">${esc(n)}</a>`).join(' &middot; ');
+
+  const body = `
+${breadcrumbs(trail)}
+<div class="wrap section" style="padding-top:1rem">
+  <header class="section-head">
+    <div>
+      <span class="eyebrow">Site directory</span>
+      <h1>Every recipe on Weekly Delight</h1>
+      <p class="lede">All ${total} recipes in one list, grouped by category and sorted by name, with the main pages, cuisines and ingredient guides above them.</p>
+      <p class="dir-jump">Jump to: ${jump}</p>
+    </div>
+  </header>
+  <style>
+    .dir-links{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;list-style:none;padding:0;margin:.5rem 0 1.5rem}
+    .dir-list{columns:16rem;column-gap:2rem;list-style:disc;padding-left:1.2rem;margin:.5rem 0 2rem}
+    .dir-list li{break-inside:avoid;margin:.15rem 0}
+    .dir-jump{line-height:1.9}
+    .wrap h2 small{font-weight:400;font-size:.6em;color:var(--text-muted,inherit)}
+  </style>
+  <section aria-labelledby="dir-pages">
+    <h2 id="dir-pages">Main pages</h2>
+    <ul class="dir-links">${pageLinks}</ul>
+  </section>
+  ${taxonomy('Browse by category', 'dir-categories', categoryLinks)}
+  ${taxonomy('Browse by cuisine', 'dir-cuisines', cuisineLinks)}
+  ${ingredientLinks.length ? taxonomy('Browse by ingredient', 'dir-ingredients', ingredientLinks) : ''}
+  ${sections}
+</div>`;
+
+  return layout({
+    title: 'Site Directory: Every Recipe',
+    description: `Browse all ${total} Weekly Delight recipes in one list, grouped by category, with every cuisine and ingredient guide. Each has ingredients, method and nutrition.`,
+    keywords: ['recipe index', 'all recipes', 'site directory', 'recipe list by category',
+               'browse all recipes', 'weekly delight recipes'],
+    path: 'site-directory/',
+    active: 'directory',
+    criticalCss: ctx.criticalCss,
+    categories: ctx.categoryCounts,
+    cuisines: ctx.topCuisines,
+    schema: [breadcrumbSchema(trail)],
+    body
+  });
+}
+
 module.exports = {
-  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, about, contact, notFound };
+  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, siteDirectory, about, contact, notFound };
