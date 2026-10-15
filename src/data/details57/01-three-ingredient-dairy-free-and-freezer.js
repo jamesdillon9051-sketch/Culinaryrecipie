@@ -410,8 +410,8 @@ module.exports = {
   },
 
   'freezer-biscuits': {
-    d: 'Buttermilk biscuits cut, frozen on a tray for 2 hours and baked from frozen at 220C in 18 minutes.',
-    meta: 'Freezer biscuits cut and frozen, then baked from frozen in 18 minutes. 12 biscuits, ready in 2 hours 35 minutes including freezing.',
+    d: 'Buttermilk biscuits cut, frozen on a tray for 2 hours and baked from frozen at 220C for 18 minutes.',
+    meta: 'Freezer biscuits cut and frozen, then baked from frozen for 18 minutes. 12 biscuits, ready in 2 hours 35 minutes including freezing.',
     kw: ['freezer biscuits', 'frozen buttermilk biscuits', 'bake from frozen biscuits', 'biscuits to freeze before baking', 'freezer biscuit dough'],
     why: 'Fresh biscuits on a weekday morning are a luxury, unless the work was done in advance. Cut and frozen biscuits can go straight from freezer to oven in 18 minutes, and they come out risen, flaky and golden, as if you had just made them. The dough is unaffected by freezing, and the cold butter in it actually performs better, making taller, flakier layers.\n\nThe dough is a straightforward buttermilk biscuit mix, made with cold butter grated into the flour, baking powder, a little sugar and salt, and buttermilk stirred in until the dough just holds. The usual rules apply: cold ingredients, light handling, a sharp cutter pressed straight down, no twisting. Fold the dough in thirds twice before cutting to build the layers.\n\n**Freeze the cut biscuits on a tray before bagging them.** They should be frozen solid in a single layer, about 2 hours, so that they do not stick together. Then they can go into a freezer bag, with the air squeezed out, where they keep for 3 months. Do not thaw them before baking, or the butter softens and the biscuits spread.\n\nBake from frozen at 220C on a lined tray, packed close together for a better rise, with 3 extra minutes on top of the fresh baking time. Brush with melted butter as soon as they come out.',
     ing: [

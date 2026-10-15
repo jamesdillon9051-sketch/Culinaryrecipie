@@ -291,7 +291,7 @@ module.exports = {
       '600 ml whole milk',
       '40 g butter',
       '40 g cornflour',
-      '250 g gluten-free lasagne sheets',
+      '250 g lasagne sheets made from rice or corn',
       '125 g mozzarella, grated',
       '30 g parmesan, grated',
       '1 tsp salt'
@@ -320,7 +320,7 @@ module.exports = {
     kw: ['gluten free mac and cheese', 'gluten free macaroni cheese', 'cornflour cheese sauce', 'gluten free pasta with cheddar sauce', 'gluten free dinner for kids'],
     why: 'Take the pasta out of the water a minute before the packet says. Gluten-free pasta goes from just right to mushy very quickly, and it keeps cooking in the hot sauce.\n\nThe sauce starts as a thin white sauce, thickened with cornflour. Cornflour makes a glossy, smooth sauce that does not turn grainy when reheated, which is a common problem with flour-based sauces on gluten-free pasta. Whisk the cornflour into the melted butter, then add the milk a little at a time.\n\n**Take the pan off the heat before adding the cheese.** Cheese that is boiled turns stringy and oily. Stir it in a handful at a time and let the residual heat melt it. A teaspoon of mustard powder sharpens the flavour without tasting of mustard. If the sauce tightens when the pasta goes in, loosen it with a splash of the pasta water, which carries starch that helps it cling.',
     ing: [
-      '300 g gluten-free macaroni',
+      '300 g macaroni made from rice or corn',
       '40 g butter',
       '30 g cornflour',
       '500 ml whole milk',

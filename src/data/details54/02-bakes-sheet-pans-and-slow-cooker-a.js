@@ -500,8 +500,8 @@ module.exports = {
   },
 
   'sheet-pan-roast-chicken': {
-    d: 'A spatchcocked chicken roasted at 220C on a tray with root vegetables, cooking in 45 minutes instead of the usual 90.',
-    meta: 'Sheet pan roast chicken with root vegetables, spatchcocked to roast in 45 minutes. Six servings, ready in 1 hour.',
+    d: 'A spatchcocked chicken roasted at 220C on a tray with root vegetables, cooked for 45 minutes instead of the usual 90.',
+    meta: 'Sheet pan roast chicken with root vegetables, spatchcocked and roasted for 45 minutes. Six servings, ready in 1 hour.',
     kw: ['sheet pan roast chicken', 'tray roasted chicken with vegetables', 'spatchcock chicken on a tray', 'roast chicken and root vegetables', 'roast chicken dinner'],
     why: 'Spatchcock is thought to be an old Irish term for a bird split quickly for cooking, and the technique remains the fastest way to roast a whole chicken. Remove the backbone, press the bird flat, and it cooks in 45 minutes, with crisp skin over the whole surface.\n\nCut along both sides of the backbone with strong kitchen scissors, flip the chicken over, and press hard on the breastbone until it cracks flat. Save the backbone for stock. A flat bird cooks evenly, so the breast does not dry out while the thighs finish. Pat it dry and rub with softened butter, lemon zest, garlic and thyme.\n\n**Put the vegetables underneath the chicken, not around it.** Carrots, parsnips and red onion wedges tossed in oil go on the tray first and the bird sits on top, dripping its juices and fat over them as it roasts. The vegetables get gravy-like richness without competing for oven space.\n\nRoast at 220C until the skin is deep golden and a thermometer in the thickest part of the thigh reads 75C. Rest for 10 minutes on a board before carving, and serve with the roasted vegetables and pan juices.',
     ing: [

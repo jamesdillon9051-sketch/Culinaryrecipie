@@ -94,11 +94,11 @@ module.exports = [
   c('instant-pot-white-chicken-chili', 'Instant Pot White Chicken Chili', 'American', 'Dinner', 'Easy', 15, 25, 6, 0, 0, [], ['new'], 'instant pot white chicken chili'),
   c('instant-pot-whole-chicken', 'Instant Pot Whole Chicken', 'American', 'Dinner', 'Easy', 10, 55, 6, 0, 0, ['Dairy-Free'], ['new'], 'instant pot whole chicken'),
   c('baked-chicken-legs', 'Baked Chicken Legs', 'American', 'Dinner', 'Easy', 10, 45, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'baked chicken legs'),
-  c('baked-halibut', 'Baked Halibut', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'baked halibut'),
+  c('baked-halibut', 'Baked Halibut', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'baked halibut'),
   c('baked-penne', 'Baked Penne', 'Italian', 'Dinner', 'Easy', 20, 30, 6, 0, 0, [], ['new'], 'baked penne'),
   c('baked-pork-chops', 'Baked Pork Chops', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'baked pork chops'),
   c('baked-rigatoni', 'Baked Rigatoni', 'Italian', 'Dinner', 'Easy', 20, 35, 6, 0, 0, [], ['new'], 'baked rigatoni'),
-  c('baked-sea-bass', 'Baked Sea Bass', 'British', 'Dinner', 'Easy', 10, 20, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'baked sea bass'),
+  c('baked-sea-bass', 'Baked Sea Bass', 'British', 'Dinner', 'Easy', 10, 20, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'baked sea bass'),
   c('baked-trout', 'Baked Trout', 'British', 'Dinner', 'Easy', 10, 20, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'baked trout'),
   c('battered-fish', 'Battered Fish', 'British', 'Dinner', 'Medium', 15, 15, 4, 0, 0, [], ['new'], 'battered fish'),
   c('beef-casserole', 'Beef Casserole', 'British', 'Dinner', 'Easy', 20, 120, 6, 0, 0, ['Dairy-Free'], ['new'], 'beef casserole'),
@@ -120,12 +120,12 @@ module.exports = [
   c('crab-mac-and-cheese', 'Crab Mac and Cheese', 'American', 'Dinner', 'Medium', 20, 25, 6, 0, 0, [], ['new'], 'crab mac and cheese'),
   c('dak-galbi', 'Dak Galbi', 'Korean', 'Dinner', 'Medium', 20, 15, 4, 0, 0, [], ['new'], 'dak galbi'),
   c('eggplant-lasagna', 'Eggplant Lasagna', 'Italian', 'Dinner', 'Medium', 30, 50, 6, 0, 0, ['Gluten-Free'], ['new'], 'eggplant lasagna'),
-  c('fettuccine-with-mushrooms', 'Fettuccine with Mushrooms', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'fettuccine with mushrooms'),
+  c('fettuccine-with-mushrooms', 'Fettuccine with Mushrooms', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'fettuccine with mushrooms'),
   c('fried-oysters', 'Fried Oysters', 'American', 'Appetizers', 'Medium', 15, 6, 4, 0, 0, ['Dairy-Free'], ['new'], 'fried oysters'),
   c('gammon-and-pineapple', 'Gammon and Pineapple', 'British', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'gammon and pineapple'),
   c('garlic-butter-salmon', 'Garlic Butter Salmon', 'American', 'Quick Meals', 'Easy', 5, 12, 4, 0, 0, ['Gluten-Free'], ['new'], 'garlic butter salmon'),
   c('glazed-parsnips', 'Glazed Parsnips', 'British', 'Dinner', 'Easy', 10, 30, 6, 0, 0, ['Vegetarian'], ['new'], 'glazed parsnips'),
   c('grilled-chicken-sandwich', 'Grilled Chicken Sandwich', 'American', 'Lunch', 'Easy', 15, 12, 4, 0, 0, [], ['new'], 'grilled chicken sandwich'),
   c('grilled-octopus', 'Grilled Octopus', 'Greek', 'Dinner', 'Hard', 20, 60, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'grilled octopus'),
-  c('grilled-sea-bass', 'Grilled Sea Bass', 'Greek', 'Dinner', 'Easy', 10, 10, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'grilled sea bass')
+  c('grilled-sea-bass', 'Grilled Sea Bass', 'Greek', 'Dinner', 'Easy', 10, 10, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'grilled sea bass')
 ];

@@ -16,8 +16,8 @@
 
 module.exports = {
   'freezer-cookie-dough': {
-    d: 'Chocolate chip cookie dough scooped into balls and frozen for 2 hours, then baked straight from the freezer in 14 minutes.',
-    meta: 'Freezer cookie dough balls baked from frozen in 14 minutes. 24 cookies, ready in 2 hours 30 minutes including freezing.',
+    d: 'Chocolate chip cookie dough scooped into balls and frozen for 2 hours, then baked straight from the freezer for 14 minutes.',
+    meta: 'Freezer cookie dough balls baked from frozen for 14 minutes. 24 cookies, ready in 2 hours 30 minutes including freezing.',
     kw: ['freezer cookie dough', 'frozen cookie dough balls', 'bake from frozen cookies', 'frozen chocolate chip cookie dough', 'cookie dough to freeze'],
     why: 'Freeze the dough in balls, not in a block. A block of cookie dough has to be thawed, scooped and then baked, and by the time you are ready it has softened and spread. Individual balls, frozen solid on a tray and then bagged, can be taken out one at a time and baked from frozen, with no thawing and no mess, in just 14 minutes.\n\nThe dough itself is a classic chocolate chip mixture, with a little extra flour so that it holds its shape. Cream the butter with brown and caster sugars, beat in an egg and vanilla, then fold in the flour, bicarbonate of soda and salt, and finally the chocolate chunks. Scoop the dough with an ice cream scoop for balls of even size, so they bake at the same rate.\n\n**Freeze the balls on a tray for 2 hours before bagging.** If you bag them while soft, they stick together into a lump. Once frozen solid, move them into a freezer bag, squeeze out the air and label it with the date and the baking instructions. They keep for 3 months.\n\nTo bake, place the frozen balls on a lined tray 5 cm apart, and bake at 175C for about 14 minutes, which is 2 minutes longer than fresh dough. The cookies come out thick, soft and domed, because the centre stays cold while the outside sets. Cool for 10 minutes before eating.',
     ing: [
