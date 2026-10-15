@@ -711,7 +711,13 @@ const EXT5_FOODS = {
   yellow_split_lentils: [24, 60, 1.5, 16, 2, 10],
   hash_browns_frozen: [2.5, 22, 6, 2.5, 1, 300],
   cream_of_chicken_soup: [2, 7, 4.5, 0.3, 1, 500],
-  veal: [21, 0, 3, 0, 0, 85]
+  veal: [21, 0, 3, 0, 0, 85],
+  biscoff_spread: [3, 57, 33, 1, 40, 30],
+  biscoff_biscuit: [6, 72, 18, 2, 35, 400],
+  brewed_coffee: [0.1, 0, 0, 0, 0, 2],
+  chocolate_biscuit: [6, 68, 20, 3, 28, 400],
+  clotted_cream: [1.6, 2.3, 64, 0, 2, 30],
+  chocolate_kiss: [7, 57, 30, 2, 55, 80]
 };
 const EXT5_ALIAS = {
   burger_sauce: ['burger sauce'],
@@ -733,13 +739,20 @@ const EXT5_ALIAS = {
   yellow_split_lentils: ['yellow split lentils', 'split yellow lentils', 'toor dal', 'chana dal'],
   hash_browns_frozen: ['frozen hash browns', 'frozen shredded hash browns', 'hash browns'],
   cream_of_chicken_soup: ['condensed cream of chicken soup', 'cream of chicken soup', 'cream of mushroom soup'],
-  veal: ['veal escalopes', 'veal cutlets', 'veal escalope']
+  veal: ['veal escalopes', 'veal cutlets', 'veal escalope'],
+  biscoff_spread: ['biscoff spread', 'lotus biscoff spread', 'cookie butter', 'speculoos spread'],
+  biscoff_biscuit: ['biscoff biscuits', 'lotus biscuits', 'speculoos biscuits'],
+  brewed_coffee: ['hot coffee', 'brewed coffee', 'strong coffee', 'hot strong coffee', 'hot brewed coffee'],
+  chocolate_biscuit: ['chocolate biscuits', 'chocolate digestives', 'chocolate digestive biscuits'],
+  clotted_cream: ['clotted cream'],
+  chocolate_kiss: ['chocolate kisses', 'hershey kisses', 'milk chocolate kisses']
 };
 const EXT5_PORTION = {
   burger_sauce: {'tbsp': 15},
   pizza_sauce: {'tbsp': 16},
   old_bay: {'tbsp': 7},
-  gochugaru: {'tbsp': 6}
+  gochugaru: {'tbsp': 6},
+  biscoff_spread: {'tbsp': 16}
 };
 Object.assign(MORE, EXT5_FOODS);
 for (const k of Object.keys(EXT5_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT5_ALIAS[k]);
