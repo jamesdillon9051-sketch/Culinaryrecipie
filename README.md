@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 7592 image files (WebP + JPEG)
+│       └── img/recipes/         # 7794 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 7592 image files
+├── assets/                      #    css, js and 7794 image files
 ├── recipes/                     #    5015 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 449,060 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 449,110 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -393,8 +393,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-3202 of the 5015 recipes have a photograph. Of the 3685 images on the site,
-1406 are CC0 or public domain, 1088 are CC BY and 1191 are CC BY-SA. Anything
+3303 of the 5015 recipes have a photograph. Of the 3786 images on the site,
+1444 are CC0 or public domain, 1132 are CC BY and 1210 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5537,6 +5537,30 @@ names were already on the site. Each is a normal `/recipes/<slug>/` page.
   (Russian tea cakes and Mexican wedding cookies, among others) and were replaced.
   `node tools/dedupe-candidates.js --volume N` and `npm run duplicates` pass for
   each volume.
+
+### Photographs
+
+`tools/fetch_images.py` found a candidate for 313 of the 500 recipes (42 of
+volume 53, 60 of 54, 78 of 55, 60 of 56, 73 of 57). Each was looked at on a
+contact sheet and against the recipe's diet label, and 101 were published (10
+more were set aside because the archive page was already the picture of another
+recipe); the other 399 recipes keep their gradient cards. Most refusals were a
+picture of something else (a building, a mountain, a protest outside a
+restaurant, an otter), one archive photograph shared by a dozen recipes (a bowl
+of soup for thirteen Instant Pot dishes, a sheet pan of fish for eight
+sheet-pan dishes, a brownie for sixteen gluten-free dishes), packaging or text
+overlays, or a dish that differed from the recipe (a pie for a donut, a baked
+brownie for a no-bake one). Five photographs that passed the first look were
+withdrawn at the credit-line check: a veal-intestine rigatoni, reindeer cookies,
+a broccoli and tofu pot pie for a chicken one, and an Alfredo for a dairy-free
+shrimp fettuccine. One CC BY-SA photograph named no author on the site's
+record, and the Commons page was read to find it.
+
+The same check found fish tagged Vegetarian: trout, octopus, barramundi,
+scallops and a mahi-mahi dish (and Vegan on the octopus). `npm run diet` does
+not know those fish names and the ingredient-hub check only some of them, so the
+tags were removed by hand in the catalogue rows; adding the names to the audit
+is the open follow-up.
 
 ## Site directory and chunked sitemaps
 

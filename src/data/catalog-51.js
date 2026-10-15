@@ -92,7 +92,7 @@ module.exports = [
   c('samoan-koko-alaisa', 'Samoan Koko Alaisa', 'Pacific', 'Breakfast', 'Easy', 5, 25, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'samoan koko alaisa'),
   c('tongan-lu-pulu', 'Tongan Lu Pulu', 'Pacific', 'Dinner', 'Medium', 30, 90, 6, 0, 0, [], ['new'], 'tongan lu pulu'),
   c('tongan-otai', 'Tongan Otai', 'Pacific', 'Drinks', 'Easy', 15, 0, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'tongan otai'),
-  c('fijian-kokoda', 'Fijian Kokoda', 'Pacific', 'Appetizers', 'Easy', 20, 0, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'fijian kokoda'),
+  c('fijian-kokoda', 'Fijian Kokoda', 'Pacific', 'Appetizers', 'Easy', 20, 0, 4, 0, 0, ['Gluten-Free'], ['new'], 'fijian kokoda'),
   c('fijian-rourou', 'Fijian Rourou', 'Pacific', 'Dinner', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'fijian rourou'),
   c('fijian-lovo', 'Fijian Lovo', 'Pacific', 'Dinner', 'Hard', 30, 120, 8, 0, 0, [], ['new'], 'fijian lovo'),
   c('fijian-curry', 'Fijian Curry', 'Pacific', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'fijian curry'),
