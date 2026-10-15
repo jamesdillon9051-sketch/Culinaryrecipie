@@ -28,8 +28,8 @@ const details = volumes.details();
    they are the ones that get missed — nobody forgets that a vegan dish cannot
    contain beef. */
 const FORBIDS = {
-  'Vegan': /\b(chicken|beef|pork|lamb|mutton|bacon|ham|prosciutto|pancetta|guanciale|chorizo|duck|turkey|veal|fish|cod|haddock|salmon|tuna|anchov\w*|prawns?|shrimps?|squid|crab|lobster|clams?|mussels?|oysters?|gelatin\w*|lard|dripping|tallow|suet|honey|eggs?|butter|milk|cream|cheese|yogh?urt|ghee|paneer|mascarpone|parmesan|mozzarella|feta|ricotta|halloumi)\b/,
-  'Vegetarian': /\b(chicken|beef|pork|lamb|mutton|bacon|ham|prosciutto|pancetta|guanciale|chorizo|duck|turkey|veal|fish|cod|haddock|salmon|tuna|anchov\w*|prawns?|shrimps?|squid|crab|lobster|clams?|mussels?|oysters?|gelatin\w*|lard|dripping|tallow|suet)\b/,
+  'Vegan': /\b(chicken|beef|pork|lamb|mutton|bacon|ham|prosciutto|pancetta|guanciale|chorizo|duck|turkey|veal|fish|cod|haddock|salmon|tuna|anchov\w*|prawns?|shrimps?|squid|octopus|calamari|scallops?|trout|barramundi|halibut|bass|snapper|mahi|swordfish|tilapia|catfish|herring|sardines?|mackerel|crayfish|eel|crab|lobster|clams?|mussels?|oysters?|gelatin\w*|lard|dripping|tallow|suet|honey|eggs?|butter|milk|cream|cheese|yogh?urt|ghee|paneer|mascarpone|parmesan|mozzarella|feta|ricotta|halloumi)\b/,
+  'Vegetarian': /\b(chicken|beef|pork|lamb|mutton|bacon|ham|prosciutto|pancetta|guanciale|chorizo|duck|turkey|veal|fish|cod|haddock|salmon|tuna|anchov\w*|prawns?|shrimps?|squid|octopus|calamari|scallops?|trout|barramundi|halibut|bass|snapper|mahi|swordfish|tilapia|catfish|herring|sardines?|mackerel|crayfish|eel|crab|lobster|clams?|mussels?|oysters?|gelatin\w*|lard|dripping|tallow|suet)\b/,
   'Dairy-Free': /\b(butter|buttermilk|milk|cream|cheese|yogh?urt|ghee|paneer|mascarpone|parmesan|mozzarella|feta|ricotta|halloumi|custard)\b/,
   'Gluten-Free': /\b(flour|bread|breadcrumbs?|pasta|spaghetti|macaroni|noodles?|couscous|semolina|barley|farro|bulgur|pastry|filo|puff|soy sauce|panko|biscuits?|croutons?)\b/
 };

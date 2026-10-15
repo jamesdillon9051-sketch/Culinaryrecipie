@@ -1,6 +1,6 @@
 # Weekly Delight
 
-A dependency-free static site for the world's **4515 most famous recipes** — each
+A dependency-free static site for the world's **5015 most famous recipes** — each
 one with a full ingredient list, step-by-step method, the cooking science behind
 it, pairing suggestions, storage guidance and nutrition.
 
@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-4515 recipes · 85 cuisines · 10 categories · 4844 static pages · 0 npm dependencies
+5015 recipes · 85 cuisines · 10 categories · 5347 static pages · 0 npm dependencies
 ```
 
 ---
@@ -69,9 +69,9 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   ├── build.js                 # the static site generator (entry point)
 │   ├── data/
 │   │   ├── catalog.js           # volume one: slug, title, cuisine, timings, ratings
-│   │   ├── catalog-2.js …-52.js  # further volumes, same shape, merged at build
+│   │   ├── catalog-2.js …-57.js  # further volumes, same shape, merged at build
 │   │   ├── details/*.js         # volume one long-form content
-│   │   ├── details2/ …details52/ # long-form content for the matching volume
+│   │   ├── details2/ …details57/ # long-form content for the matching volume
 │   │   ├── volumes.js           # discovers and merges the volumes above
 │   │   ├── rewrites/*.json      # rewrites laid over the recipes by tools/humanize.js
 │   │   ├── stats.js             # recipe/cuisine counts derived from the catalogues
@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 7592 image files (WebP + JPEG)
+│       └── img/recipes/         # 7794 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,8 +112,8 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 7592 image files
-├── recipes/                     #    4515 recipe pages
+├── assets/                      #    css, js and 7794 image files
+├── recipes/                     #    5015 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
 ├── sitemap.xml  robots.txt  manifest.json  feed.xml  search-index.json
@@ -201,7 +201,7 @@ Everything below is implemented and verified by `npm run check` on every build.
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 4515 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 5015 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
@@ -233,7 +233,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 4515 recipe pages and the about page — 26,193 questions,
+- [x] **FAQPage** on all 5015 recipe pages and the about page — 29,135 questions,
       about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
       prints: the times, the tips, the pairings, the storage note, the diet tags
       and the nutrition figures. A question whose source field is missing is not
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 405,025 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 449,110 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -393,8 +393,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-3202 of the 4515 recipes have a photograph. Of the 3685 images on the site,
-1406 are CC0 or public domain, 1088 are CC BY and 1191 are CC BY-SA. Anything
+3303 of the 5015 recipes have a photograph. Of the 3786 images on the site,
+1444 are CC0 or public domain, 1132 are CC BY and 1210 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -614,7 +614,7 @@ This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
 photograph.
 
-Every one of the site's 4515 recipes now passes, and `npm run check` runs the
+Every one of the site's 5015 recipes now passes, and `npm run check` runs the
 audit, so a contradicted tag fails the build rather than shipping.
 
 Getting there took 43 corrections in three passes. Eleven came out of the
@@ -4594,7 +4594,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **845 of the 4515 recipes** declare unattended
+The larger problem was waiting. **931 of the 5015 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is
@@ -5487,6 +5487,103 @@ the regional barbecue sauces.
 Photographs came from `tools/fetch_images.py` and were looked at one by one
 before `tools/review_images.py` published them. Of the 500 recipes, 257 now have a real photograph (66 of volume 48, 56 of volume 49, 62 of volume 50, 42 of volume 51, 31 of volume 52) and 243 keep their gradient card. A first pass looked at about 420 candidates and published 217. A second pass (`tools/wide_search.py`) read the Wikipedia article and the Commons category for the 284 recipes still without one, staged 288 further candidates and published 40 of them. Roughly five in six candidates were refused in the second pass, mostly because the Commons category named for the dish held only equipment, a building or an unrelated object (cast iron, slow cookers, a street sign, a human eye), or the picture showed meat, egg or fish on a recipe labelled Vegetarian, Vegan or Gluten-Free, or an archive page was already the picture for another recipe. Across both passes the refusals included a Hong Kong promenade for chow mein, a pair of pepper shakers for salt and pepper wings, a parrot for three Puerto Rican dishes, an excavator for Smith Island cake and a human eye for red eye gravy. A few kept photographs differ from their recipe in a small way (a pizza-sauce casserole in a glass dish, blueberry muffins without a visible streusel, a Persian kebab shown without its grilled tomato). Two photographs were withdrawn because the archive names no author (the tres leches cupcakes and the kitfo).
 
+## Volumes fifty-three to fifty-seven, five hundred more dishes
+
+Five volumes of a hundred, taking the site from 4,515 to 5,015 recipes. The owner
+asked for "500 more recipes most searched in the top 5 tier countries according
+to Mediavine and Raptive", read as the United States, Canada, the United Kingdom,
+Australia and New Zealand, which is the standing brief: the most searched dishes
+of those five countries, graded against the catalogue so nothing is published
+twice. No search-volume data was used to pick or rank them (neither network
+publishes a list a site can read); the choice is the dishes people there look
+for by name, as variants of technique, diet, flavour and tool, because the plain
+names were already on the site. Each is a normal `/recipes/<slug>/` page.
+
+- **Volume 53**: 100 air fryer, Instant Pot and oven dinners. American 38,
+  British 11, Italian 10, Mexican 9, Chinese 6, Japanese 5.
+- **Volume 54**: 100 one pot, sheet pan, slow cooker and weeknight dinners.
+  American 44, Italian 18, British 10.
+- **Volume 55**: 100 cookies, cakes, quick breads and bakes. American 81,
+  British 8.
+- **Volume 56**: 100 no-bake desserts, ice creams, mug cakes and special-diet
+  sweets (dairy-free, gluten-free and vegan). American 83, British 8, French 4.
+- **Volume 57**: 100 recipes named for a constraint: three-ingredient (4),
+  dairy-free (8), freezer (7), gluten-free (30), high-protein (7), low-carb (14),
+  vegan (26) and four breads. American 54, Italian 19, British 9, Mexican 5.
+
+### What the audits caught
+
+- **Diet labels.** The diet tags in these volumes are checked against the
+  ingredient list, so a dish titled "Dairy-Free", "Gluten-Free" or "Vegan" carries
+  the tag only if every line passes `npm run diet`. The build's ingredient-hub
+  check also refused tags that the diet audit's word lists missed: fish tagged
+  Vegetarian (halibut, sea bass) and wheat pasta tagged Gluten-Free (fettuccine,
+  tagliatelle, linguine). Those tags were removed. A gluten-free pasta line is
+  written "made from rice or corn" so it does not read as wheat.
+- **Numbers behind the titles.** A "High-Protein" recipe has at least 30 g of
+  protein a serving and a "Low-Carb" recipe at most 20 g of carbohydrate, from
+  `npm run calc`; servings were changed where the first count fell short (the
+  high-protein pancakes and waffles are three servings, the low-carb pizza three).
+- **Keywords the record did not support.** "easy", "make ahead", "one pan",
+  "vegan", "stir fry" and similar were removed from search phrases where the
+  method or tags did not back them.
+- **Timing.** Waits of an hour or more (proving, freezing, chilling, soaking
+  overnight) are declared as `rest` and equal the sum the audit reads from the
+  method; a 30-minute chill is not.
+- **Food table.** `npm run calc` stopped on foods it did not know (nutritional
+  yeast, psyllium husk, agar powder, masa harina, gluten-free flour blend and
+  others); they were added to `tools/nutrition-foods.js` rather than reworded.
+- **Duplicates.** Several candidates were the same dish under another name
+  (Russian tea cakes and Mexican wedding cookies, among others) and were replaced.
+  `node tools/dedupe-candidates.js --volume N` and `npm run duplicates` pass for
+  each volume.
+
+### Photographs
+
+`tools/fetch_images.py` found a candidate for 313 of the 500 recipes (42 of
+volume 53, 60 of 54, 78 of 55, 60 of 56, 73 of 57). Each was looked at on a
+contact sheet and against the recipe's diet label, and 101 were published (10
+more were set aside because the archive page was already the picture of another
+recipe); the other 399 recipes keep their gradient cards. Most refusals were a
+picture of something else (a building, a mountain, a protest outside a
+restaurant, an otter), one archive photograph shared by a dozen recipes (a bowl
+of soup for thirteen Instant Pot dishes, a sheet pan of fish for eight
+sheet-pan dishes, a brownie for sixteen gluten-free dishes), packaging or text
+overlays, or a dish that differed from the recipe (a pie for a donut, a baked
+brownie for a no-bake one). Five photographs that passed the first look were
+withdrawn at the credit-line check: a veal-intestine rigatoni, reindeer cookies,
+a broccoli and tofu pot pie for a chicken one, and an Alfredo for a dairy-free
+shrimp fettuccine. One CC BY-SA photograph named no author on the site's
+record, and the Commons page was read to find it.
+
+The same check found fish tagged Vegetarian: trout, octopus, barramundi,
+scallops and a mahi-mahi dish (and Vegan on the octopus). `npm run diet` does
+not know those fish names and the ingredient-hub check only some of them, so the
+tags were removed in the catalogue rows and the names (octopus, scallops, trout,
+barramundi, bass, halibut, mahi and others) were added to `tools/diet-audit.js`.
+
+## Site directory and chunked sitemaps
+
+Three changes to help Google find and index pages faster.
+
+- **`/site-directory/`** lists every recipe on one page, grouped by category and
+  sorted by name, with the main pages, cuisines and ingredient guides above them.
+  It is generated from the catalogue (`siteDirectory()` in
+  `src/templates/pages.js`), so a new recipe appears with the next build. The
+  footer links to it twice, so every recipe is two clicks from the home page. The
+  site has recipes only, no blog posts.
+- **Chunked sitemaps.** `sitemap-index.xml` lists `sitemap-1.xml` to
+  `sitemap-N.xml`, each holding 300 to 500 URLs (at most `SITEMAP_MAX` in
+  `src/build.js`, evened out so no file is a stub). `sitemap.xml` is the same
+  index, kept because that address may already be submitted in Search Console.
+  `robots.txt` names `sitemap-index.xml`. `npm run check` fails on a chunk over
+  500 or under 300 URLs, an unlisted chunk, or a URL that is not a page.
+- **Recipe JSON-LD.** Every recipe page carries a `Recipe` block built from the
+  record (name, description, dates, author, ingredients, steps, nutrition). `npm run check`
+  now fails if a recipe page lacks one or lacks a required field. `image` is
+  published only for recipes that have a real photograph, on purpose: a recipe
+  with no picture publishes none rather than a picture of something else.
+
 ## Internal linking: subcategory hubs, related recipes and breadcrumbs
 
 `src/lib/linking.js` builds the link graph once per build, with no randomness,
@@ -5584,7 +5681,7 @@ template edit and shipped silently across nine hundred pages.
 
 Modern evergreen browsers. The site degrades gracefully:
 
-- **No JavaScript** — all 4515 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
+- **No JavaScript** — all 5015 recipes, navigation and taxonomy pages render fully from static HTML. Search, filtering, favourites and cook mode need JS.
 - **No WebP** — the `<picture>` element serves JPEG.
 - **No `localStorage`** (private mode) — every read and write is wrapped in `try`/`catch`; the site works, it just does not remember.
 

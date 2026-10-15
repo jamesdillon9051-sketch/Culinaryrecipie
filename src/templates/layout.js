@@ -179,6 +179,7 @@ function footer(topCuisines) {
           <li><a href="${SITE.base}cuisines/">Cuisines</a></li>
           <li><a href="${SITE.base}ingredients/">Ingredients</a></li>
           <li><a href="${SITE.base}search/">Search</a></li>
+          <li><a href="${SITE.base}site-directory/">Site Directory</a></li>
           <li><a href="${SITE.base}favourites/">Saved recipes</a></li>
         </ul>
       </div>
@@ -187,7 +188,7 @@ function footer(topCuisines) {
     </div>
     <div class="footer-bottom">
       <span>&copy; ${year} ${esc(SITE.name)}. Recipes tested in our own kitchen.</span>
-      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a>${CONSENT.enabled ? ` &middot; <a href="#" data-consent-reopen>Cookie settings</a>` : ''} &middot; <a href="${SITE.base}sitemap.xml">Sitemap</a></span>
+      <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a>${CONSENT.enabled ? ` &middot; <a href="#" data-consent-reopen>Cookie settings</a>` : ''} &middot; <a href="${SITE.base}site-directory/">Site Directory</a> &middot; <a href="${SITE.base}sitemap-index.xml">Sitemap</a></span>
     </div>
   </div>
 </footer>`;

@@ -122,7 +122,7 @@ module.exports = [
   c('chicken-afritada', 'Chicken Afritada', 'Filipino', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'chicken afritada'),
   c('mango-pudding', 'Mango Pudding', 'Chinese', 'Desserts', 'Easy', 15, 5, 6, 0, 0, ['Gluten-Free'], ['new'], 'mango pudding'),
   c('pandan-cake', 'Pandan Cake', 'Malaysian', 'Baking', 'Medium', 30, 35, 10, 0, 0, ['Vegetarian'], ['new'], 'pandan cake'),
-  c('trout-pate', 'Trout Pate', 'British', 'Appetizers', 'Easy', 15, 10, 6, 0, 0, ['Vegetarian'], ['new'], 'trout pate'),
+  c('trout-pate', 'Trout Pate', 'British', 'Appetizers', 'Easy', 15, 10, 6, 0, 0, [], ['new'], 'trout pate'),
   c('squid-ink-pasta', 'Squid Ink Pasta', 'Italian', 'Dinner', 'Medium', 15, 20, 4, 0, 0, ['Dairy-Free'], ['new'], 'squid ink pasta'),
   c('beef-yakiniku', 'Beef Yakiniku', 'Japanese', 'Dinner', 'Easy', 15, 6, 4, 0, 0, ['Dairy-Free'], ['new'], 'beef yakiniku'),
   c('peanut-soup', 'Peanut Soup', 'African', 'Dinner', 'Easy', 15, 35, 4, 0, 0, [], ['new'], 'peanut soup'),

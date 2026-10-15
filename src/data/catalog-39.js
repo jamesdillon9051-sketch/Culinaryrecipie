@@ -69,7 +69,7 @@ module.exports = [
   c('lemon-butter-salmon', 'Lemon Butter Salmon', 'American', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'lemon butter salmon'),
   c('cajun-salmon', 'Cajun Salmon', 'American', 'Quick Meals', 'Easy', 5, 12, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'cajun salmon'),
   c('haddock-chowder', 'Haddock Chowder', 'British', 'Dinner', 'Easy', 15, 25, 4, 0, 0, [], ['new'], 'haddock chowder'),
-  c('trout-almondine', 'Trout Almondine', 'French', 'Dinner', 'Medium', 10, 12, 2, 0, 0, ['Vegetarian'], ['new'], 'trout almondine'),
+  c('trout-almondine', 'Trout Almondine', 'French', 'Dinner', 'Medium', 10, 12, 2, 0, 0, [], ['new'], 'trout almondine'),
   c('prawn-curry', 'Prawn Curry', 'Indian', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'prawn curry'),
   c('prawn-linguine', 'Prawn Linguine', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'prawn linguine'),
   c('mussels-marinara', 'Mussels Marinara', 'Italian', 'Dinner', 'Easy', 10, 15, 2, 0, 0, [], ['new'], 'mussels marinara'),

@@ -297,6 +297,33 @@ for (const file of htmlFiles) {
     }
   }
 
+  /* Every recipe page has to publish a Recipe block that Google can use: the
+     fields below are generated from the recipe record, so a missing one means
+     the template or the data broke for that page. The image is not required
+     here: a recipe with no photograph publishes none rather than a picture of
+     something else (see recipe-page.js). */
+  if (/^\/recipes\/[^/]+\/index\.html$/.test(rel)) {
+    const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+      .map(m => { try { return JSON.parse(m[1]); } catch { return null; } }).filter(Boolean);
+    const recipeLd = blocks.find(b => b['@type'] === 'Recipe');
+    if (!recipeLd) {
+      problems.push(`${rel}: no Recipe JSON-LD`);
+    } else {
+      for (const field of ['name', 'description', 'datePublished', 'dateModified', 'author', 'recipeIngredient', 'recipeInstructions']) {
+        const v = recipeLd[field];
+        if (v === undefined || v === null || v === '' || (Array.isArray(v) && !v.length)) {
+          problems.push(`${rel}: Recipe JSON-LD is missing ${field}`);
+        }
+      }
+      if (recipeLd.datePublished && !/^\d{4}-\d{2}-\d{2}/.test(recipeLd.datePublished)) {
+        problems.push(`${rel}: Recipe JSON-LD datePublished is not a date`);
+      }
+      const img = Array.isArray(recipeLd.image) ? recipeLd.image[0] : recipeLd.image;
+      const imgUrl = img && (typeof img === 'string' ? img : img.url);
+      if (img && !/^https:\/\//.test(imgUrl || '')) problems.push(`${rel}: Recipe JSON-LD image has no absolute URL`);
+    }
+  }
+
   /* --- nothing on the critical path that need not be there ----------------
      A <script src> with neither async nor defer stops the parser until it has
      downloaded and run. theme.js is the one that has to: it applies the saved
@@ -395,12 +422,32 @@ for (const { rel, href } of fragmentLinks) {
 }
 
 /* --- site plumbing ------------------------------------------------------ */
-for (const required of ['/sitemap.xml', '/robots.txt', '/ads.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
+for (const required of ['/sitemap.xml', '/sitemap-index.xml', '/robots.txt', '/ads.txt', '/manifest.json', '/search-index.json', '/404.html', '/feed.xml', '/pinterest-feed.xml']) {
   if (!existing.has(required)) problems.push(`missing required file: ${required}`);
 }
 
-const sitemap = fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8');
-const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+/* The sitemap is an index of chunked files of 300 to 500 URLs each (a lone
+   chunk may be smaller). sitemap.xml is the same index under the address that
+   was submitted before the split. */
+const sitemapIndex = fs.readFileSync(path.join(DIST, 'sitemap-index.xml'), 'utf8');
+if (!/<sitemapindex /.test(sitemapIndex)) problems.push('sitemap-index.xml is not a sitemap index');
+if (fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8') !== sitemapIndex) {
+  problems.push('sitemap.xml and sitemap-index.xml differ');
+}
+const chunkNames = [...sitemapIndex.matchAll(/<loc>[^<]*\/(sitemap-\d+\.xml)<\/loc>/g)].map(m => m[1]);
+if (!chunkNames.length) problems.push('sitemap-index.xml lists no sitemap files');
+if (/<loc>(?![^<]*\/sitemap-\d+\.xml<)/.test(sitemapIndex)) problems.push('sitemap-index.xml lists something other than a chunked sitemap');
+const sitemapUrls = [];
+chunkNames.forEach((name, i) => {
+  if (!fs.existsSync(path.join(DIST, name))) { problems.push(`sitemap-index.xml lists ${name}, which does not exist`); return; }
+  const xml = fs.readFileSync(path.join(DIST, name), 'utf8');
+  const locs = [...xml.matchAll(/<url>\s*<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+  if (locs.length > 500) problems.push(`${name} holds ${locs.length} URLs; the limit is 500`);
+  if (chunkNames.length > 1 && locs.length < 300) problems.push(`${name} holds only ${locs.length} URLs; chunks should hold 300 to 500`);
+  sitemapUrls.push(...locs);
+});
+const stray = fs.readdirSync(DIST).filter(n => /^sitemap-\d+\.xml$/.test(n) && !chunkNames.includes(n));
+if (stray.length) problems.push(`sitemap files the index does not list: ${stray.join(', ')}`);
 const origin = sitemapUrls[0] ? sitemapUrls[0].replace(/\/$/, '') : '';
 for (const url of sitemapUrls) {
   const target = resolveHref(url.replace(origin, '') || '/');

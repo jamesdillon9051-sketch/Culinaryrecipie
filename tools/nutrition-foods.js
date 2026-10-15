@@ -693,4 +693,77 @@ Object.assign(MORE, EXT4_FOODS);
 for (const k of Object.keys(EXT4_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT4_ALIAS[k]);
 for (const k of Object.keys(EXT4_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT4_PORTION[k]);
 
+/* Volumes 53 to 57: foods the calculator did not know. Generated list; keys are unique. */
+const EXT5_FOODS = {
+  burger_sauce: [1, 12, 30, 0.3, 8, 900],
+  old_bay: [8, 35, 5, 12, 2, 14000],
+  pastry_disc: [7, 50, 22, 2, 2, 500],
+  gyoza_pork_frozen: [9, 28, 7, 1.5, 2, 500],
+  pizza_sauce: [1.5, 8, 2, 1.5, 6, 500],
+  egg_roll_wrapper: [8, 56, 1, 2, 2, 500],
+  pierogi_frozen: [5, 32, 4, 2, 1, 400],
+  beansprouts: [3, 6, 0.2, 1.8, 4, 6],
+  veal_shank: [15, 0, 3, 0, 0, 90],
+  chicken_leg: [16, 0, 11, 0, 0, 90],
+  gochugaru: [12, 60, 5, 35, 12, 50],
+  octopus: [15, 2, 1, 0, 0, 230],
+  coleslaw: [1, 9, 10, 1.5, 6, 300],
+  yellow_split_lentils: [24, 60, 1.5, 16, 2, 10],
+  hash_browns_frozen: [2.5, 22, 6, 2.5, 1, 300],
+  cream_of_chicken_soup: [2, 7, 4.5, 0.3, 1, 500],
+  veal: [21, 0, 3, 0, 0, 85],
+  biscoff_spread: [3, 57, 33, 1, 40, 30],
+  biscoff_biscuit: [6, 72, 18, 2, 35, 400],
+  brewed_coffee: [0.1, 0, 0, 0, 0, 2],
+  chocolate_biscuit: [6, 68, 20, 3, 28, 400],
+  clotted_cream: [1.6, 2.3, 64, 0, 2, 30],
+  chocolate_kiss: [7, 57, 30, 2, 55, 80],
+  coffee_beans: [0.1, 0, 0, 0, 0, 2],
+  fudge_sauce: [3, 60, 10, 2, 50, 150],
+  gingersnap: [5, 75, 12, 2, 35, 400],
+  dairy_free_block: [0.1, 0.3, 81, 0, 0.2, 400]
+};
+const EXT5_ALIAS = {
+  burger_sauce: ['burger sauce'],
+  old_bay: ['old bay seasoning', 'old bay'],
+  pastry_disc: ['empanada pastry discs', 'empanada discs', 'empanada wrappers'],
+  gyoza_pork_frozen: ['frozen pork gyoza', 'frozen gyoza'],
+  pizza_sauce: ['pizza sauce'],
+  egg_roll_wrapper: ['egg roll wrappers', 'egg roll wrapper'],
+  pierogi_frozen: ['frozen potato and cheese pierogi', 'frozen pierogi'],
+  beansprouts: ['beansprouts', 'bean sprouts'],
+  veal_shank: ['veal shanks', 'veal shank'],
+  chicken_leg: ['chicken legs', 'chicken leg quarters'],
+  gochugaru: ['gochugaru', 'korean chilli flakes'],
+  octopus: ['octopus'],
+  beer: ['guinness', 'stout'],
+  coleslaw: ['coleslaw'],
+  lamb_chop: ['rack of lamb', 'lamb rack', 'racks of lamb'],
+  pasta_dry: ['fettuccine', 'fettuccini', 'dried fettuccine'],
+  yellow_split_lentils: ['yellow split lentils', 'split yellow lentils', 'toor dal', 'chana dal'],
+  hash_browns_frozen: ['frozen hash browns', 'frozen shredded hash browns', 'hash browns'],
+  cream_of_chicken_soup: ['condensed cream of chicken soup', 'cream of chicken soup', 'cream of mushroom soup'],
+  veal: ['veal escalopes', 'veal cutlets', 'veal escalope'],
+  biscoff_spread: ['biscoff spread', 'lotus biscoff spread', 'cookie butter', 'speculoos spread'],
+  biscoff_biscuit: ['biscoff biscuits', 'lotus biscuits', 'speculoos biscuits'],
+  brewed_coffee: ['hot coffee', 'brewed coffee', 'strong coffee', 'hot strong coffee', 'hot brewed coffee'],
+  chocolate_biscuit: ['chocolate biscuits', 'chocolate digestives', 'chocolate digestive biscuits'],
+  clotted_cream: ['clotted cream'],
+  chocolate_kiss: ['chocolate kisses', 'hershey kisses', 'milk chocolate kisses'],
+  coffee_beans: ['whole coffee beans', 'coffee beans'],
+  fudge_sauce: ['fudge sauce', 'hot fudge sauce', 'chocolate fudge sauce'],
+  gingersnap: ['gingersnap biscuits', 'gingersnaps', 'ginger nut biscuits'],
+  dairy_free_block: ['dairy-free baking block', 'dairy-free baking block or coconut oil', 'dairy-free butter', 'dairy-free spread', 'vegan baking block', 'vegan block']
+};
+const EXT5_PORTION = {
+  burger_sauce: {'tbsp': 15},
+  pizza_sauce: {'tbsp': 16},
+  old_bay: {'tbsp': 7},
+  gochugaru: {'tbsp': 6},
+  biscoff_spread: {'tbsp': 16}
+};
+Object.assign(MORE, EXT5_FOODS);
+for (const k of Object.keys(EXT5_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT5_ALIAS[k]);
+for (const k of Object.keys(EXT5_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT5_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
