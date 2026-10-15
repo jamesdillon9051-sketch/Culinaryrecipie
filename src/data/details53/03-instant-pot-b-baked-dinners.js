@@ -494,7 +494,7 @@ module.exports = {
   'instant-pot-white-chicken-chili': {
     d: 'Chicken, white beans and green chillies simmered under pressure into a creamy chilli, finished with cream cheese and lime.',
     meta: 'Instant Pot white chicken chili with beans, green chillies and cream cheese. Six servings, ready in 45 minutes.',
-    kw: ['instant pot white chicken chili', 'white chicken chili', 'pressure cooker white chili', 'creamy white bean chili', 'green chilli chicken chili'],
+    kw: ['instant pot white chicken chili', 'white chicken chili', 'pressure cooker white chili', 'creamy white chicken chili', 'green chilli chicken chili'],
     why: 'The smell of cumin and green chillies warming in oil is the first sign this is going to be good. White chicken chili swaps the red tomato base of a classic chilli for a pale, creamy one made of stock, white beans and mild green chillies, and the result is gentler but just as satisfying.\n\nUse chicken breast or thighs, whole, and shred them after cooking. They stay moist when cooked in one piece and soak up the broth. Add the beans straight from the tin, with half of them mashed in the pot at the end. The mashed beans thicken the chili naturally and give it a creamy body.\n\n**Stir in the cream cheese at the end**, cut into cubes, over the sauté setting until it melts. Added too early, it can split under pressure and leave the soup grainy.\n\nFinish with the juice of a lime and a handful of fresh coriander, which brighten the dish. Set out bowls of soured cream, grated cheese, sliced jalapeno and tortilla chips for people to add as they like.',
     ing: [
       '700 g chicken breast, whole',
@@ -766,7 +766,7 @@ module.exports = {
   'baked-trout': {
     d: 'Whole trout stuffed with lemon, parsley and butter and baked at 190C for 20 minutes until the skin is crisp and the flesh is tender.',
     meta: 'Baked trout stuffed with lemon, parsley and butter, cooked for 20 minutes. Two servings, ready in 30 minutes.',
-    kw: ['baked trout', 'oven baked whole trout', 'trout with lemon and parsley', 'stuffed whole trout', 'rainbow trout recipe'],
+    kw: ['baked trout', 'oven baked whole trout', 'trout with lemon and parsley', 'stuffed whole trout', 'whole trout in the oven'],
     why: 'Trout has been caught in British rivers and lochs for as long as anyone has fished them, and it remains one of the simplest and best ways to eat fresh fish. The flesh is pink, delicate and quick to cook, with a mild flavour that suits lemon and herbs.\n\nBuy whole trout, gutted, each about 350 g, which is a good serving for one person. Rinse them inside and pat them dry. The skin crisps beautifully in the oven if it is dry, so take the time to wipe the outside too. Season generously with salt.\n\n**Stuff the cavity with butter, lemon and herbs.** As the butter melts it bastes the fish from inside, keeping the flesh moist, and the lemon and parsley scent every mouthful. Close the cavity with a cocktail stick if you like.\n\nBake in a hot oven for 20 minutes. The trout is ready when the flesh flakes at the thickest point and the dorsal fin pulls out easily. To serve, run a knife along the backbone, lift off the top fillet, remove the bone, and lift off the lower fillet.',
     ing: [
       '2 whole trout, about 700 g, gutted',

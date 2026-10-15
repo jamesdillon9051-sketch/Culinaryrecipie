@@ -706,7 +706,12 @@ const EXT5_FOODS = {
   veal_shank: [15, 0, 3, 0, 0, 90],
   chicken_leg: [16, 0, 11, 0, 0, 90],
   gochugaru: [12, 60, 5, 35, 12, 50],
-  octopus: [15, 2, 1, 0, 0, 230]
+  octopus: [15, 2, 1, 0, 0, 230],
+  coleslaw: [1, 9, 10, 1.5, 6, 300],
+  yellow_split_lentils: [24, 60, 1.5, 16, 2, 10],
+  hash_browns_frozen: [2.5, 22, 6, 2.5, 1, 300],
+  cream_of_chicken_soup: [2, 7, 4.5, 0.3, 1, 500],
+  veal: [21, 0, 3, 0, 0, 85]
 };
 const EXT5_ALIAS = {
   burger_sauce: ['burger sauce'],
@@ -720,7 +725,15 @@ const EXT5_ALIAS = {
   veal_shank: ['veal shanks', 'veal shank'],
   chicken_leg: ['chicken legs', 'chicken leg quarters'],
   gochugaru: ['gochugaru', 'korean chilli flakes'],
-  octopus: ['octopus']
+  octopus: ['octopus'],
+  beer: ['guinness', 'stout'],
+  coleslaw: ['coleslaw'],
+  lamb_chop: ['rack of lamb', 'lamb rack', 'racks of lamb'],
+  pasta_dry: ['fettuccine', 'fettuccini', 'dried fettuccine'],
+  yellow_split_lentils: ['yellow split lentils', 'split yellow lentils', 'toor dal', 'chana dal'],
+  hash_browns_frozen: ['frozen hash browns', 'frozen shredded hash browns', 'hash browns'],
+  cream_of_chicken_soup: ['condensed cream of chicken soup', 'cream of chicken soup', 'cream of mushroom soup'],
+  veal: ['veal escalopes', 'veal cutlets', 'veal escalope']
 };
 const EXT5_PORTION = {
   burger_sauce: {'tbsp': 15},
