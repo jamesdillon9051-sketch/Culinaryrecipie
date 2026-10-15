@@ -78,7 +78,7 @@ module.exports = {
 
   'low-carb-pizza': {
     d: 'A pizza with a base of melted mozzarella, almond flour and cream cheese, topped with passata, mozzarella and pepperoni.',
-    meta: 'Low-carb pizza on a mozzarella and almond flour base, cooked for 20 minutes at 220C. Two servings, ready in 40 minutes.',
+    meta: 'Low-carb pizza on a mozzarella and almond flour base, cooked for 20 minutes at 220C. Three servings, ready in 40 minutes.',
     kw: ['low carb pizza', 'mozzarella and almond flour pizza base', 'pizza without wheat flour', 'low carb pepperoni pizza', 'cheese crust pizza'],
     why: 'Most home versions come out soft in the middle, and the fix is to bake the base on its own first. A mozzarella dough is wetter than wheat dough, so it needs time to dry out and firm before the sauce goes on, or the toppings turn it soggy.\n\nThe base is melted mozzarella and cream cheese worked together with almond flour and an egg. Heat the cheeses until they melt into a smooth, stretchy mass, then stir in the flour and egg. The dough is sticky, so press it out between two sheets of baking paper rather than rolling it in flour. **Part-bake the base for 10 minutes** until golden and firm, then top and return to the oven.\n\nKeep the toppings light. A thin spoonful of passata, a little mozzarella and some pepperoni is enough, and too much sauce makes the crust limp. It is done when the cheese bubbles and the edge is deep golden. Let it stand for 2 minutes before slicing.',
     ing: [
@@ -108,7 +108,7 @@ module.exports = {
     ],
     pair: ['Rocket salad', 'Olives', 'Cherry tomatoes'],
     store: 'Best eaten fresh. Keeps for 2 days in the fridge; reheat in a hot pan.',
-    nut: [951, 51, 18, 75, 7, 6, 2150]
+    nut: [634, 34, 12, 50, 4, 4, 1440]
   },
 
   'low-carb-stir-fry': {

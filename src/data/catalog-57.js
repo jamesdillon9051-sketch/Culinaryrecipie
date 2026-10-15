@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: American 44, Italian 14, British 8, Mexican 4, Chinese 2, French 2, Indian 2.
+ * Spread: American 49, Italian 19, British 8, Mexican 4, Chinese 3, French 3, Indian 2.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -93,7 +93,7 @@ module.exports = [
   c('low-carb-meatballs', 'Low-Carb Meatballs', 'Italian', 'Dinner', 'Easy', 15, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'low-carb meatballs'),
   c('low-carb-muffins', 'Low-Carb Muffins', 'American', 'Breakfast', 'Easy', 10, 22, 12, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'low-carb muffins'),
   c('low-carb-pancakes', 'Low-Carb Pancakes', 'American', 'Breakfast', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'low-carb pancakes'),
-  c('low-carb-pizza', 'Low-Carb Pizza', 'Italian', 'Dinner', 'Medium', 20, 20, 2, 0, 0, ['Gluten-Free'], ['new'], 'low-carb pizza'),
+  c('low-carb-pizza', 'Low-Carb Pizza', 'Italian', 'Dinner', 'Medium', 20, 20, 3, 0, 0, ['Gluten-Free'], ['new'], 'low-carb pizza'),
   c('low-carb-stir-fry', 'Low-Carb Stir Fry', 'Chinese', 'Dinner', 'Easy', 15, 10, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'low-carb stir fry'),
   c('low-carb-taco-casserole', 'Low-Carb Taco Casserole', 'Mexican', 'Dinner', 'Easy', 15, 30, 6, 0, 0, ['Gluten-Free'], ['new'], 'low-carb taco casserole'),
   c('low-carb-tortillas', 'Low-Carb Tortillas', 'Mexican', 'Dinner', 'Medium', 15, 10, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'low-carb tortillas'),
@@ -103,5 +103,17 @@ module.exports = [
   c('vegan-carbonara', 'Vegan Carbonara', 'Italian', 'Dinner', 'Medium', 15, 20, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan carbonara'),
   c('vegan-cinnamon-rolls', 'Vegan Cinnamon Rolls', 'American', 'Baking', 'Hard', 30, 25, 9, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan cinnamon rolls'),
   c('vegan-cornbread', 'Vegan Cornbread', 'American', 'Baking', 'Easy', 10, 25, 9, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan cornbread'),
-  c('vegan-french-toast', 'Vegan French Toast', 'French', 'Breakfast', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan french toast')
+  c('vegan-french-toast', 'Vegan French Toast', 'French', 'Breakfast', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan french toast'),
+  c('vegan-fried-rice', 'Vegan Fried Rice', 'Chinese', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan fried rice'),
+  c('vegan-granola', 'Vegan Granola', 'American', 'Breakfast', 'Easy', 10, 25, 10, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan granola'),
+  c('vegan-gravy', 'Vegan Gravy', 'American', 'Dinner', 'Easy', 5, 10, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan gravy'),
+  c('vegan-lasagna', 'Vegan Lasagna', 'Italian', 'Dinner', 'Medium', 30, 45, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan lasagna'),
+  c('vegan-mayonnaise', 'Vegan Mayonnaise', 'American', 'Appetizers', 'Easy', 10, 0, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan mayonnaise'),
+  c('vegan-meatballs', 'Vegan Meatballs', 'Italian', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan meatballs'),
+  c('vegan-muffins', 'Vegan Muffins', 'American', 'Breakfast', 'Easy', 10, 22, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan muffins'),
+  c('vegan-panna-cotta', 'Vegan Panna Cotta', 'Italian', 'Desserts', 'Medium', 15, 5, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan panna cotta'),
+  c('vegan-pesto', 'Vegan Pesto', 'Italian', 'Appetizers', 'Easy', 10, 0, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'vegan pesto'),
+  c('vegan-pizza', 'Vegan Pizza', 'Italian', 'Dinner', 'Medium', 20, 15, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan pizza'),
+  c('vegan-pot-pie', 'Vegan Pot Pie', 'American', 'Dinner', 'Medium', 30, 35, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan pot pie'),
+  c('vegan-quiche', 'Vegan Quiche', 'French', 'Breakfast', 'Medium', 25, 40, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'vegan quiche')
 ];
