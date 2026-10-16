@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Polish 18, Swedish 14, Romanian 9, Czech 8, Hungarian 8, Croatian 7, Slovenian 5, Bulgarian 4, Slovak 2.
+ * Spread: Polish 18, Swedish 15, Finnish 11, Danish 10, Romanian 9, Czech 8, Hungarian 8, Croatian 7, Slovenian 5, Bulgarian 4, Irish 3, Slovak 2.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('chokladbollar', 'Chokladbollar', 'Swedish', 'Desserts', 'Easy', 15, 0, 20, 0, 0, ['Vegetarian'], ['new'], 'chokladbollar'),
   c('rabarberpaj', 'Rabarberpaj', 'Swedish', 'Desserts', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'rabarberpaj'),
   c('princess-cake', 'Princess Cake', 'Swedish', 'Baking', 'Hard', 60, 35, 12, 0, 0, ['Vegetarian'], ['new'], 'princess cake'),
-  c('swedish-crayfish-boil', 'Swedish Crayfish Boil', 'Swedish', 'Quick Meals', 'Easy', 10, 10, 6, 0, 0, [], ['new'], 'swedish crayfish boil')
+  c('swedish-crayfish-boil', 'Swedish Crayfish Boil', 'Swedish', 'Quick Meals', 'Easy', 10, 10, 6, 0, 0, [], ['new'], 'swedish crayfish boil'),
+  c('fiskgratang', 'Fiskgratang', 'Swedish', 'Dinner', 'Easy', 20, 35, 4, 0, 0, [], ['new'], 'fiskgratang'),
+  c('stegt-flaesk', 'Stegt Flaesk', 'Danish', 'Dinner', 'Easy', 10, 25, 4, 0, 0, [], ['new'], 'stegt flaesk'),
+  c('aebleskiver', 'Aebleskiver', 'Danish', 'Breakfast', 'Medium', 20, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'aebleskiver'),
+  c('boller-i-karry', 'Boller i Karry', 'Danish', 'Dinner', 'Easy', 25, 25, 4, 0, 0, [], ['new'], 'boller i karry'),
+  c('kringle', 'Kringle', 'Danish', 'Baking', 'Hard', 45, 35, 10, 0, 0, ['Vegetarian'], ['new'], 'kringle'),
+  c('leverpostej', 'Leverpostej', 'Danish', 'Appetizers', 'Medium', 30, 60, 10, 0, 0, [], ['new'], 'leverpostej'),
+  c('flaeskesteg', 'Flaeskesteg', 'Danish', 'Dinner', 'Easy', 20, 100, 6, 0, 0, [], ['new'], 'flaeskesteg'),
+  c('brunede-kartofler', 'Brunede Kartofler', 'Danish', 'Dinner', 'Easy', 20, 20, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'brunede kartofler'),
+  c('risalamande', 'Risalamande', 'Danish', 'Holiday Specials', 'Easy', 15, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'risalamande'),
+  c('kransekage', 'Kransekage', 'Danish', 'Holiday Specials', 'Medium', 30, 25, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'kransekage'),
+  c('danish-butter-cookies', 'Danish Butter Cookies', 'Danish', 'Baking', 'Easy', 20, 12, 30, 0, 0, ['Vegetarian'], ['new'], 'danish butter cookies'),
+  c('korvapuusti', 'Korvapuusti', 'Finnish', 'Baking', 'Medium', 40, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'korvapuusti'),
+  c('ruisleipa', 'Ruisleipa', 'Finnish', 'Baking', 'Medium', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'ruisleipa'),
+  c('mustikkapiirakka', 'Mustikkapiirakka', 'Finnish', 'Baking', 'Easy', 15, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'mustikkapiirakka'),
+  c('kalakukko', 'Kalakukko', 'Finnish', 'Dinner', 'Hard', 50, 180, 6, 0, 0, [], ['new'], 'kalakukko'),
+  c('porkkanalaatikko', 'Porkkanalaatikko', 'Finnish', 'Dinner', 'Easy', 20, 60, 6, 0, 0, ['Vegetarian'], ['new'], 'porkkanalaatikko'),
+  c('makaronilaatikko', 'Makaronilaatikko', 'Finnish', 'Dinner', 'Easy', 15, 45, 6, 0, 0, [], ['new'], 'makaronilaatikko'),
+  c('runeberg-tart', 'Runeberg Tart', 'Finnish', 'Baking', 'Medium', 25, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'runeberg tart'),
+  c('poronkaristys', 'Poronkaristys', 'Finnish', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'poronkaristys'),
+  c('pulla', 'Pulla', 'Finnish', 'Baking', 'Medium', 30, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'pulla'),
+  c('munkki', 'Munkki', 'Finnish', 'Baking', 'Medium', 20, 15, 16, 0, 0, ['Vegetarian'], ['new'], 'munkki'),
+  c('finnish-pancake-pannukakku', 'Finnish Pancake Pannukakku', 'Finnish', 'Breakfast', 'Easy', 10, 30, 6, 0, 0, ['Vegetarian'], ['new'], 'finnish pancake pannukakku'),
+  c('irish-whiskey-cake', 'Irish Whiskey Cake', 'Irish', 'Baking', 'Medium', 20, 60, 12, 0, 0, ['Vegetarian'], ['new'], 'irish whiskey cake'),
+  c('baileys-cheesecake', 'Baileys Cheesecake', 'Irish', 'Desserts', 'Medium', 30, 0, 10, 0, 0, ['Vegetarian'], ['new'], 'baileys cheesecake'),
+  c('irish-scones', 'Irish Scones', 'Irish', 'Baking', 'Easy', 15, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'irish scones')
 ];

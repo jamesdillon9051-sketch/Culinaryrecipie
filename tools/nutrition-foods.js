@@ -819,7 +819,8 @@ const EXT6_FOODS = {
   phyllo: [8, 55, 2, 2, 2, 300],
   chicken_blood: [18, 0, 0, 0, 0, 200],
   lamb_heart: [17, 0, 5, 0, 0, 100],
-  gravy: [1, 5, 2, 0.3, 1, 300]
+  gravy: [1, 5, 2, 0.3, 1, 300],
+  herring_fresh: [18, 0, 12, 0, 0, 100]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -880,7 +881,8 @@ const EXT6_ALIAS = {
   lamb_heart: ['lamb heart'],
   coffee_brewed: ['double espresso, 2 shots', 'strong cold coffee'],
   gravy: ['beef gravy, to serve', 'gravy'],
-  pasta_dry: ['fine noodles, to serve', 'fine noodles', 'fine soup noodles']
+  pasta_dry: ['fine noodles, to serve', 'fine noodles', 'fine soup noodles'],
+  herring_fresh: ['herring, cleaned', 'herring', 'vendace']
 };
 const EXT6_PORTION = {
 
