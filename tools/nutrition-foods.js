@@ -766,4 +766,28 @@ Object.assign(MORE, EXT5_FOODS);
 for (const k of Object.keys(EXT5_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT5_ALIAS[k]);
 for (const k of Object.keys(EXT5_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT5_PORTION[k]);
 
+/* Volumes 58 to 62: foods the calculator did not know. Generated list; keys are unique. */
+const EXT6_FOODS = {
+  beef_cheek: [21, 0, 7, 0, 0, 70],
+  foie_gras: [11, 5, 44, 0, 1, 700],
+  madeira: [0, 3, 0, 0, 3, 10],
+  duck_gizzard_confit: [28, 0, 12, 0, 0, 600],
+  frisee: [1.2, 3, 0.2, 3.1, 0.5, 40],
+  calvados: [0, 0, 0, 0, 0, 1]
+};
+const EXT6_ALIAS = {
+  beef_cheek: ['beef cheeks', 'beef cheek'],
+  foie_gras: ['foie gras', 'duck foie gras'],
+  madeira: ['madeira'],
+  duck_gizzard_confit: ['confit duck gizzards', 'duck gizzards', 'gizzards'],
+  frisee: ['frisée', 'frisee', 'curly endive'],
+  calvados: ['calvados', 'apple brandy']
+};
+const EXT6_PORTION = {
+
+};
+Object.assign(MORE, EXT6_FOODS);
+for (const k of Object.keys(EXT6_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT6_ALIAS[k]);
+for (const k of Object.keys(EXT6_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT6_PORTION[k]);
+
 module.exports = { BASE, MORE, KP, ALIAS, PORTION };
