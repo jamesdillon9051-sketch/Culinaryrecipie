@@ -803,7 +803,8 @@ const EXT6_FOODS = {
   quark: [12, 3.5, 10, 0, 3.5, 40],
   linseed: [18, 29, 42, 27, 1.6, 30],
   marzipan: [9, 50, 25, 6, 48, 10],
-  wafer: [5, 75, 5, 3, 25, 100]
+  wafer: [5, 75, 5, 3, 25, 100],
+  remoulade: [1, 10, 50, 0, 5, 500]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -842,7 +843,9 @@ const EXT6_ALIAS = {
   quark: ['full fat quark, drained', 'full fat quark', 'quark'],
   linseed: ['linseed', 'flaxseed'],
   marzipan: ['marzipan', 'marzipan, grated'],
-  wafer: ['round wafers', 'round wafers, 5 cm', 'wafers']
+  wafer: ['round wafers', 'round wafers, 5 cm', 'wafers'],
+  remoulade: ['remoulade'],
+  sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst']
 };
 const EXT6_PORTION = {
 

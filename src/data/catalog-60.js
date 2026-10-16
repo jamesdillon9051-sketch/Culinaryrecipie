@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: German 49.
+ * Spread: German 69, Austrian 6.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -76,5 +76,31 @@ module.exports = [
   c('baumkuchen', 'Baumkuchen', 'German', 'Baking', 'Hard', 40, 60, 16, 0, 0, ['Vegetarian'], ['new'], 'baumkuchen'),
   c('haselnussmakronen', 'Haselnussmakronen', 'German', 'Holiday Specials', 'Easy', 15, 25, 30, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'haselnussmakronen'),
   c('kokosmakronen', 'Kokosmakronen', 'German', 'Holiday Specials', 'Easy', 15, 20, 30, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'kokosmakronen'),
-  c('mandelhornchen', 'Mandelhörnchen', 'German', 'Holiday Specials', 'Medium', 30, 20, 24, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'mandelhörnchen')
+  c('mandelhornchen', 'Mandelhörnchen', 'German', 'Holiday Specials', 'Medium', 30, 20, 24, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'mandelhörnchen'),
+  c('gulaschsuppe', 'Gulaschsuppe', 'German', 'Lunch', 'Easy', 20, 90, 6, 0, 0, [], ['new'], 'gulaschsuppe'),
+  c('huhnersuppe-mit-nudeln', 'Hühnersuppe mit Nudeln', 'German', 'Lunch', 'Easy', 15, 40, 6, 0, 0, ['Dairy-Free'], ['new'], 'hühnersuppe mit nudeln'),
+  c('spargelcremesuppe', 'Spargelcremesuppe', 'German', 'Lunch', 'Easy', 15, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'spargelcremesuppe'),
+  c('selleriesuppe', 'Selleriesuppe', 'German', 'Lunch', 'Easy', 15, 30, 4, 0, 0, [], ['new'], 'selleriesuppe'),
+  c('pellkartoffeln-mit-quark', 'Pellkartoffeln mit Quark', 'German', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pellkartoffeln mit quark'),
+  c('strammer-max', 'Strammer Max', 'German', 'Quick Meals', 'Easy', 5, 10, 2, 0, 0, [], ['new'], 'strammer max'),
+  c('bauernfruhstuck', 'Bauernfrühstück', 'German', 'Breakfast', 'Easy', 15, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'bauernfrühstück'),
+  c('jagerschnitzel', 'Jägerschnitzel', 'German', 'Dinner', 'Easy', 20, 25, 4, 0, 0, [], ['new'], 'jägerschnitzel'),
+  c('rahmschnitzel', 'Rahmschnitzel', 'German', 'Dinner', 'Easy', 20, 25, 4, 0, 0, [], ['new'], 'rahmschnitzel'),
+  c('thuringer-rostbratwurst', 'Thüringer Rostbratwurst', 'German', 'Dinner', 'Easy', 5, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'thüringer rostbratwurst'),
+  c('nurnberger-rostbratwurst', 'Nürnberger Rostbratwurst', 'German', 'Dinner', 'Easy', 5, 10, 4, 0, 0, [], ['new'], 'nürnberger rostbratwurst'),
+  c('bockwurst', 'Bockwurst', 'German', 'Quick Meals', 'Easy', 5, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'bockwurst'),
+  c('gansebraten', 'Gänsebraten', 'German', 'Holiday Specials', 'Medium', 30, 180, 8, 0, 0, ['Dairy-Free'], ['new'], 'gänsebraten'),
+  c('entenbrust-mit-rotkohl', 'Entenbrust mit Rotkohl', 'German', 'Dinner', 'Medium', 20, 60, 4, 0, 0, ['Gluten-Free'], ['new'], 'entenbrust mit rotkohl'),
+  c('wildschweinbraten', 'Wildschweinbraten', 'German', 'Dinner', 'Medium', 30, 150, 6, 0, 0, ['Dairy-Free'], ['new'], 'wildschweinbraten'),
+  c('forelle-mullerin', 'Forelle Müllerin', 'German', 'Dinner', 'Easy', 10, 15, 2, 0, 0, [], ['new'], 'forelle müllerin'),
+  c('backfisch', 'Backfisch', 'German', 'Dinner', 'Easy', 20, 15, 4, 0, 0, [], ['new'], 'backfisch'),
+  c('heringssalat', 'Heringssalat', 'German', 'Lunch', 'Easy', 20, 0, 6, 0, 0, [], ['new'], 'heringssalat'),
+  c('nudelsalat-deutsch', 'Nudelsalat Deutsch', 'German', 'Lunch', 'Easy', 15, 10, 6, 0, 0, [], ['new'], 'nudelsalat deutsch'),
+  c('frankfurter-wurstchen', 'Frankfurter Würstchen', 'German', 'Quick Meals', 'Easy', 5, 10, 4, 0, 0, [], ['new'], 'frankfurter würstchen'),
+  c('germknodel', 'Germknodel', 'Austrian', 'Desserts', 'Medium', 40, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'germknodel'),
+  c('marillenknodel', 'Marillenknodel', 'Austrian', 'Desserts', 'Medium', 40, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'marillenknodel'),
+  c('palatschinken', 'Palatschinken', 'Austrian', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'palatschinken'),
+  c('topfenstrudel', 'Topfenstrudel', 'Austrian', 'Desserts', 'Medium', 40, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'topfenstrudel'),
+  c('backhendl', 'Backhendl', 'Austrian', 'Dinner', 'Medium', 25, 25, 4, 0, 0, [], ['new'], 'backhendl'),
+  c('rindsuppe', 'Rindsuppe', 'Austrian', 'Dinner', 'Easy', 20, 150, 6, 0, 0, ['Dairy-Free'], ['new'], 'rindsuppe')
 ];
