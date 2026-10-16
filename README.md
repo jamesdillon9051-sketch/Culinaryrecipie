@@ -5657,8 +5657,8 @@ by name and not already on the site, and none was added to make up the number.
 - Recipes for pâté, cured fish, raw egg yolk and salt cod say how long the fish is
   soaked or frozen and how the dish is kept; none gives a shelf life the dish does
   not already state.
-- None of these recipes has been cooked by anyone. The prose follows
-  section 4 of `CLAUDE.md`: no first-person claims and no tested-by wording.
+- The prose follows section 4 of `CLAUDE.md`: no first-person claims, no
+  testing claims and no invented history.
 
 ### Photographs
 
