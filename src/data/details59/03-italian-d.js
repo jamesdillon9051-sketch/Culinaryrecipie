@@ -566,37 +566,36 @@ module.exports = {
     nut: [339, 6, 27, 23, 2, 20, 90]
   },
 
-  'torta-salata': {
-    d: 'A savoury Italian pie of puff pastry filled with ham, cheese, spinach and egg, baked for 40 minutes at 200C.',
-    meta: 'Torta salata, savoury Italian puff pastry pie with ham, cheese and spinach, baked for 40 minutes at 200C. Eight servings, ready in 1 hour.',
-    kw: ['torta salata', 'italian savoury pie', 'ham and cheese puff pastry pie', 'spinach and ham pie', 'torta salata recipe'],
-    why: 'This is what to bake at the first picnic of the year, or when guests will stand and eat from a plate. Torta salata is a savoury Italian pie with pastry above and below, and the filling is whatever is in the fridge: ham, cheese, greens, ricotta.\n\nThe filling here is spinach, ricotta, ham and a hard cheese bound with egg. Wilt the spinach, cool it and squeeze it out hard, as water in the filling is what makes the bottom soggy. **Prick the base of the pastry** and scatter a handful of breadcrumbs over it to catch any moisture. Layer the filling in the middle, cover with the second sheet and press the edges together.\n\nBrush with beaten egg, cut two slits in the top to let the steam out and bake at 200C for 40 minutes, until deep gold. Cool for 15 minutes before cutting, since it is easier to slice and tastes better warm than hot. It is also good cold, cut into squares.',
+  'tigelle': {
+    d: 'Small round soft breads from Emilia, risen for 1 hour and cooked on a hot pan for 15 minutes, split and filled with cured meat and cheese.',
+    meta: 'Tigelle, small soft round breads from Emilia cooked on a griddle, split and filled, cooked for 15 minutes. Twelve servings, ready in 35 minutes plus rising.',
+    kw: ['tigelle', 'emilian tigelle bread', 'italian griddle breads', 'tigelle with cured meat', 'tigelle recipe'],
+    why: 'A bread for a table of twelve, eaten warm, split open and filled with whatever is on the board. Tigelle are small, round, flat breads from Emilia, cooked in a hot pan rather than baked, and they come out soft inside with a pale crust.\n\nThe dough is flour, milk, yeast, a little lard and salt, kneaded until smooth and left to rise for 1 hour. Roll it out about 1 cm thick and cut out rounds of 7 cm. **Keep the pan at a medium heat**, not a high one, because the breads need time to cook through. A heavy griddle or a frying pan with no oil is right, and each side needs about 6 minutes.\n\nThey puff slightly as they cook and take only a little colour, in pale gold patches. Split them while hot, with a fork rather than a knife, so the inside stays rough and takes up the filling. The traditional spread is a paste of lard, garlic and rosemary. Cured ham, soft cheese and a drizzle of balsamic vinegar are also common.',
     ing: [
-      '640 g ready rolled puff pastry, 2 sheets',
-      '400 g baby spinach',
-      '250 g ricotta',
-      '150 g cooked ham, diced',
-      '100 g Emmental or Gruyère, grated',
-      '2 eggs, plus 1 for glazing',
-      '1/4 tsp ground nutmeg',
+      '500 g plain flour',
+      '250 ml lukewarm milk',
+      '40 g lard or butter, softened',
+      '7 g instant yeast',
       '1 tsp salt',
-      '2 tbsp dry breadcrumbs'
+      '1 tsp caster sugar',
+      '150 g prosciutto',
+      '200 g stracchino or soft cheese'
     ],
     st: [
-      'Heat the oven to 200C. Wilt the spinach in a covered pan for 2 minutes, cool and squeeze very dry. Chop.',
-      'Mix the spinach with the ricotta, ham, cheese, the 2 eggs, nutmeg and salt.',
-      'Line a 26 cm tin with one sheet of pastry and prick the base. Scatter with the breadcrumbs.',
-      'Spoon in the filling and cover with the second sheet. Press the edges together and trim. Cut two slits in the top.',
-      'Brush with the beaten egg and bake for 40 minutes until deep gold. Cool for 15 minutes.'
+      'Mix the flour, milk, lard, yeast, salt and sugar and knead for 8 minutes until smooth. Cover and leave to rise for 1 hour.',
+      'Roll the dough out 1 cm thick and cut 7 cm rounds, re-rolling the scraps.',
+      'Heat a dry heavy pan over medium heat and cook the rounds for 6 minutes on each side, in batches, until puffed and pale gold.',
+      'Split them with a fork while hot and fill with the prosciutto and cheese.'
     ],
     tips: [
-      'Squeeze the spinach until dry.',
-      'Cut slits in the lid to let steam out.',
-      'Let the pie cool before cutting.'
+      'Keep the heat at medium so they cook through.',
+      'Split with a fork for a rough inside.',
+      'Serve hot, straight from the pan.'
     ],
-    pair: ['Green salad', 'Dry white wine', 'Tomato salad'],
-    store: 'Keeps for 3 days in the fridge. Reheat in the oven.',
-    nut: [474, 18, 33, 30, 3, 3, 1130]
+    pair: ['Prosciutto', 'Soft cheese', 'Balsamic vinegar', 'Red wine'],
+    store: 'Best fresh. Keeps for 2 days wrapped; warm in a pan before serving.',
+    rest: [60, 'Rising'],
+    nut: [270, 11, 34, 10, 1, 2, 540]
   },
 
   'crostata-alla-nutella': {

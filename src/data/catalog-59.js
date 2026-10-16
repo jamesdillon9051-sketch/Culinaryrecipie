@@ -95,7 +95,7 @@ module.exports = [
   c('baci-di-dama', 'Baci di Dama', 'Italian', 'Baking', 'Medium', 30, 15, 30, 0, 0, ['Vegetarian'], ['new'], 'baci di dama'),
   c('torta-margherita', 'Torta Margherita', 'Italian', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'torta margherita'),
   c('torta-di-noci', 'Torta di Noci', 'Italian', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'torta di noci'),
-  c('torta-salata', 'Torta Salata', 'Italian', 'Lunch', 'Easy', 20, 40, 8, 0, 0, [], ['new'], 'torta salata'),
+  c('tigelle', 'Tigelle', 'Italian', 'Baking', 'Easy', 20, 15, 12, 0, 0, [], ['new'], 'tigelle'),
   c('crostata-alla-nutella', 'Crostata alla Nutella', 'Italian', 'Baking', 'Easy', 20, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata alla nutella'),
   c('crostata-di-ricotta', 'Crostata di Ricotta', 'Italian', 'Baking', 'Easy', 25, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata di ricotta'),
   c('crostata-alle-fragole', 'Crostata alle Fragole', 'Italian', 'Baking', 'Easy', 30, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata alle fragole'),
