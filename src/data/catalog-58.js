@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: French 50.
+ * Spread: French 69, Belgian 6.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('epinards-a-la-creme', 'Epinards a la Creme', 'French', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'epinards a la creme'),
   c('carottes-vichy', 'Carottes Vichy', 'French', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'carottes vichy'),
   c('salade-de-betteraves', 'Salade de Betteraves', 'French', 'Healthy', 'Easy', 15, 0, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'salade de betteraves'),
-  c('pommes-sarladaises', 'Pommes Sarladaises', 'French', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pommes sarladaises')
+  c('pommes-sarladaises', 'Pommes Sarladaises', 'French', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pommes sarladaises'),
+  c('pommes-lyonnaises', 'Pommes Lyonnaises', 'French', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pommes lyonnaises'),
+  c('tarte-a-la-rhubarbe', 'Tarte a la Rhubarbe', 'French', 'Desserts', 'Easy', 25, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'tarte a la rhubarbe'),
+  c('tarte-aux-abricots', 'Tarte aux Abricots', 'French', 'Desserts', 'Easy', 25, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'tarte aux abricots'),
+  c('tarte-au-chocolat', 'Tarte au Chocolat', 'French', 'Desserts', 'Medium', 30, 30, 10, 0, 0, ['Vegetarian'], ['new'], 'tarte au chocolat'),
+  c('gateau-nantais', 'Gateau Nantais', 'French', 'Baking', 'Easy', 20, 45, 10, 0, 0, ['Vegetarian'], ['new'], 'gateau nantais'),
+  c('gateau-breton', 'Gateau Breton', 'French', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'gateau breton'),
+  c('cake-au-citron', 'Cake au Citron', 'French', 'Baking', 'Easy', 15, 50, 10, 0, 0, ['Vegetarian'], ['new'], 'cake au citron'),
+  c('moelleux-aux-pommes', 'Moelleux aux Pommes', 'French', 'Baking', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'moelleux aux pommes'),
+  c('charlotte-aux-fraises', 'Charlotte aux Fraises', 'French', 'Desserts', 'Hard', 45, 10, 10, 0, 0, ['Gluten-Free'], ['new'], 'charlotte aux fraises'),
+  c('bavarois', 'Bavarois', 'French', 'Desserts', 'Medium', 25, 5, 8, 0, 0, ['Gluten-Free'], ['new'], 'bavarois'),
+  c('genoise', 'Genoise', 'French', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'genoise'),
+  c('vacherin-aux-fraises', 'Vacherin aux Fraises', 'French', 'Desserts', 'Medium', 30, 90, 8, 0, 0, ['Vegetarian'], ['new'], 'vacherin aux fraises'),
+  c('pate-a-choux', 'Pate a Choux', 'French', 'Baking', 'Medium', 20, 30, 20, 0, 0, ['Vegetarian'], ['new'], 'pate a choux'),
+  c('chantilly', 'Chantilly', 'French', 'Desserts', 'Easy', 5, 0, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'chantilly'),
+  c('sabayon', 'Sabayon', 'French', 'Desserts', 'Medium', 10, 10, 4, 0, 0, ['Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'sabayon'),
+  c('langues-de-chat', 'Langues de Chat', 'French', 'Baking', 'Easy', 15, 10, 40, 0, 0, ['Vegetarian'], ['new'], 'langues de chat'),
+  c('marrons-glaces', 'Marrons Glaces', 'French', 'Desserts', 'Hard', 30, 60, 20, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'marrons glaces'),
+  c('confiture-de-fraises', 'Confiture de Fraises', 'French', 'Breakfast', 'Easy', 15, 30, 20, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'confiture de fraises'),
+  c('sauce-veloute', 'Sauce Veloute', 'French', 'Dinner', 'Easy', 5, 20, 6, 0, 0, [], ['new'], 'sauce veloute'),
+  c('gaufres-liegeoises', 'Gaufres Liegeoises', 'Belgian', 'Baking', 'Medium', 30, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'gaufres liegeoises'),
+  c('waterzooi', 'Waterzooi', 'Belgian', 'Dinner', 'Medium', 25, 40, 4, 0, 0, [], ['new'], 'waterzooi'),
+  c('cuberdons', 'Cuberdons', 'Belgian', 'Desserts', 'Hard', 20, 60, 40, 0, 0, ['Vegetarian', 'Vegan'], ['new'], 'cuberdons'),
+  c('chicons-au-gratin', 'Chicons au Gratin', 'Belgian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'chicons au gratin'),
+  c('boulets-liegeois', 'Boulets Liegeois', 'Belgian', 'Dinner', 'Medium', 30, 40, 4, 0, 0, [], ['new'], 'boulets liegeois'),
+  c('tarte-au-sucre-belge', 'Tarte au Sucre Belge', 'Belgian', 'Baking', 'Medium', 40, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'tarte au sucre belge')
 ];

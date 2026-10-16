@@ -773,7 +773,9 @@ const EXT6_FOODS = {
   madeira: [0, 3, 0, 0, 3, 10],
   duck_gizzard_confit: [28, 0, 12, 0, 0, 600],
   frisee: [1.2, 3, 0.2, 3.1, 0.5, 40],
-  calvados: [0, 0, 0, 0, 0, 1]
+  calvados: [0, 0, 0, 0, 0, 1],
+  gum_arabic: [2, 85, 0, 85, 0, 50],
+  chicory: [0.9, 4, 0.1, 3.1, 0.7, 22]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -781,7 +783,9 @@ const EXT6_ALIAS = {
   madeira: ['madeira'],
   duck_gizzard_confit: ['confit duck gizzards', 'duck gizzards', 'gizzards'],
   frisee: ['frisée', 'frisee', 'curly endive'],
-  calvados: ['calvados', 'apple brandy']
+  calvados: ['calvados', 'apple brandy'],
+  gum_arabic: ['gum arabic powder', 'gum arabic'],
+  chicory: ['chicory heads', 'chicory', 'witloof', 'belgian endive']
 };
 const EXT6_PORTION = {
 
