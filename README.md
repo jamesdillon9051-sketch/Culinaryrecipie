@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5015 recipes · 85 cuisines · 10 categories · 5347 static pages · 0 npm dependencies
+5015 recipes · 85 cuisines · 10 categories · 5348 static pages · 0 npm dependencies
 ```
 
 ---
@@ -5685,6 +5685,18 @@ This was the last claim on the site with no witness. Everything else here —
 times, calories, diet tags, README counts — already failed the build when it
 drifted, while the part that earns the money could have been dropped by one
 template edit and shipped silently across nine hundred pages.
+
+### A 320x50 banner under the header
+
+A second iframe banner, 320x50 (unit key `69a58c36...`, on the same
+anti-adblock host as the other units), sits directly under the header on every
+page. It is wired like the 300x250 one: Adsterra's `atOptions` global and
+`document.write` mean it cannot share a document with another banner, so it is
+served from its own `assets/ads/banner-320x50.html` and framed at exactly 320 by
+50 pixels, which reserves the space before it loads. The unit lives in
+`bannerSmall` in `src/data/ads.js` (set `invoke` to `''` to remove it), and
+`npm run check` fails any page that does not carry exactly one frame, or a
+banner document that is missing or sets `atOptions` after the loader.
 
 ## Browser support
 

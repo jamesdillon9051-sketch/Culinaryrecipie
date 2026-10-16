@@ -298,6 +298,7 @@ ${analyticsTag()}
 <a class="skip-link" href="#main">Skip to content</a>
 ${header(page.active, page.categories || {})}
 <main id="main">
+<div class="wrap">${ads.bannerSmall('Advertisement', SITE.base)}</div>
 ${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(0, 'Advertisement at the top of the page', SITE.base)}</div>`}
 ${page.body}
 ${page.ownAdSlots ? '' : `<div class="wrap">${ads.nativeBanner(1, 'Advertisement at the bottom of the page', SITE.base)}</div>`}

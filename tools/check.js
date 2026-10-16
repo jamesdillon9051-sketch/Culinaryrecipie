@@ -847,6 +847,39 @@ if (!vercelCsp) {
       }
     }
 
+    /* The 320x50 banner, under the header on every page. Same rules as the
+       300x250: exactly one frame per page, its own document, atOptions ahead of
+       the loader, and none of the page-level loaders inside it. */
+    const small = ads.bannerSmall;
+    if (small && small.invoke && small.key) {
+      const missingSmall = [];
+      for (const file of htmlFiles) {
+        const html = fs.readFileSync(file, 'utf8');
+        const where = '/' + path.relative(DIST, file).split(path.sep).join('/');
+        const frames = (html.match(/ads\/banner-320x50\.html/g) || []).length;
+        if (frames !== 1) missingSmall.push(`${where} (${frames})`);
+      }
+      if (missingSmall.length) {
+        problems.push(`${missingSmall.length} page(s) do not carry exactly one 320x50 banner`
+          + `, starting with ${missingSmall[0]}`);
+      }
+      const smallPath = path.join(DIST, 'assets', 'ads', 'banner-320x50.html');
+      if (!fs.existsSync(smallPath)) {
+        problems.push('assets/ads/banner-320x50.html is missing, so the 320x50 slot is empty on every page');
+      } else {
+        const doc = fs.readFileSync(smallPath, 'utf8');
+        if (!doc.includes(small.invoke)) problems.push('assets/ads/banner-320x50.html does not load the banner unit');
+        if (doc.indexOf('atOptions') > doc.indexOf(small.invoke)) {
+          problems.push('assets/ads/banner-320x50.html sets atOptions after the loader, so the unit gets no settings');
+        }
+        for (const [what, url] of [['the popunder', ads.popunder], ['the social bar', ads.socialBar]]) {
+          if (url && doc.includes(url)) {
+            problems.push(`the 320x50 banner document carries ${what}, which would fire it twice`);
+          }
+        }
+      }
+    }
+
     /* The framed document is the exception and has to stay one: the popunder
        and social bar inside it would fire a second time on every page. */
     const framePath = path.join(DIST, 'assets', 'ads', 'native-banner.html');
