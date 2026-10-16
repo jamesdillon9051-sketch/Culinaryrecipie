@@ -2,6 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/mango-cheesecake/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-cheesecake.jpg</image:loc>
+      <image:title>Mango Cheesecake</image:title>
+      <image:caption>Mango Cheesecake, an Australian dessert recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/amaretto-sour/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/amaretto-sour.jpg</image:loc>
+      <image:title>Amaretto Sour</image:title>
+      <image:caption>Amaretto Sour, an American drink recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cheeseburger-sliders/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheeseburger-sliders.jpg</image:loc>
+      <image:title>Cheeseburger Sliders</image:title>
+      <image:caption>Cheeseburger Sliders, an American appetizer recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/fried-calamari/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-calamari.jpg</image:loc>
+      <image:title>Fried Calamari</image:title>
+      <image:caption>Fried Calamari, an Italian appetizer recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/ham-and-cheese-pinwheels/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-pinwheels.jpg</image:loc>
+      <image:title>Ham and Cheese Pinwheels</image:title>
+      <image:caption>Ham and Cheese Pinwheels, an American appetizer recipe — ham and cream cheese pinwheels</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-drop/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-drop.jpg</image:loc>
+      <image:title>Lemon Drop</image:title>
+      <image:caption>Lemon Drop, an American drink recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lemon-pepper-wings/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pepper-wings.jpg</image:loc>
+      <image:title>Lemon Pepper Wings</image:title>
+      <image:caption>Lemon Pepper Wings, an American appetizer recipe — crispy lemon pepper chicken wings</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/orange-julius/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/orange-julius.jpg</image:loc>
+      <image:title>Orange Julius</image:title>
+      <image:caption>Orange Julius, an American drink recipe — creamy orange smoothie</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/seven-layer-dip/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/seven-layer-dip.jpg</image:loc>
+      <image:title>Seven Layer Dip</image:title>
+      <image:caption>Seven Layer Dip, an American appetizer recipe — 7 layer dip</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/sex-on-the-beach/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -4865,51 +4964,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/poached-chicken-breast.jpg</image:loc>
       <image:title>Poached Chicken Breast</image:title>
       <image:caption>Poached Chicken Breast, a healthy American recipe — weight loss friendly poached chicken</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/philly-cheesesteak-stuffed-peppers/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/miso-cod/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/miso-cod.jpg</image:loc>
-      <image:title>Miso Cod</image:title>
-      <image:caption>Miso Cod, a Japanese dinner recipe — dairy free miso glazed cod</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chipotle-lime-chicken/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chili-lime-shrimp/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chili-lime-shrimp.jpg</image:loc>
-      <image:title>Chili Lime Shrimp</image:title>
-      <image:caption>Chili Lime Shrimp, a quick Mexican meal recipe — weight loss friendly shrimp</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/air-fryer-tofu/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tofu.jpg</image:loc>
-      <image:title>Air Fryer Tofu</image:title>
-      <image:caption>Air Fryer Tofu, an American dinner recipe</image:caption>
     </image:image>
   </url>
 </urlset>

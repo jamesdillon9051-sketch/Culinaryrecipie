@@ -2,6 +2,149 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/lemon-barley-water/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-barley-water.jpg</image:loc>
+      <image:title>Lemon Barley Water</image:title>
+      <image:caption>Illustration of Lemon Barley Water, a British drink recipe — homemade barley water</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shandy/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shandy.jpg</image:loc>
+      <image:title>Shandy</image:title>
+      <image:caption>Shandy, a British drink recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hot-buttered-rum/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-buttered-rum.jpg</image:loc>
+      <image:title>Hot Buttered Rum</image:title>
+      <image:caption>Illustration of Hot Buttered Rum, an American drink recipe — winter rum cocktail with butter</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pimms-cup/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pimms-cup.jpg</image:loc>
+      <image:title>Pimm&#39;s Cup</image:title>
+      <image:caption>Pimm&#39;s Cup, a British drink recipe — how to make pimms</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gin-and-tonic/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gin-and-tonic.jpg</image:loc>
+      <image:title>Gin and Tonic</image:title>
+      <image:caption>Gin and Tonic, a British drink recipe — classic g and t</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/montreal-smoked-meat-sandwich/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/montreal-smoked-meat-sandwich.jpg</image:loc>
+      <image:title>Montreal Smoked Meat Sandwich</image:title>
+      <image:caption>Montreal Smoked Meat Sandwich, a Canadian lunch recipe — homemade montreal smoked meat</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/peameal-bacon-sandwich/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peameal-bacon-sandwich.jpg</image:loc>
+      <image:title>Peameal Bacon Sandwich</image:title>
+      <image:caption>Peameal Bacon Sandwich, a Canadian breakfast recipe — homemade peameal bacon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/beavertails/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beavertails.jpg</image:loc>
+      <image:title>Beavertails</image:title>
+      <image:caption>Illustration of Beavertails, a Canadian dessert recipe — canadian fried dough pastry</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/date-squares/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/date-squares.jpg</image:loc>
+      <image:title>Date Squares</image:title>
+      <image:caption>Date Squares, a Canadian baking recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pouding-chomeur/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pouding-chomeur.jpg</image:loc>
+      <image:title>Pouding Chômeur</image:title>
+      <image:caption>Pouding Chômeur, a Canadian dessert recipe — pouding chomeur recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sugar-pie/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sugar-pie.jpg</image:loc>
+      <image:title>Sugar Pie</image:title>
+      <image:caption>Sugar Pie, a Canadian dessert recipe — tarte au sucre</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/toutons/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/toutons.jpg</image:loc>
+      <image:title>Toutons</image:title>
+      <image:caption>Toutons, a Canadian breakfast recipe — fried bread dough with molasses</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/halifax-donair/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halifax-donair.jpg</image:loc>
+      <image:title>Halifax Donair</image:title>
+      <image:caption>Halifax Donair, a Canadian dinner recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/bumbleberry-pie/</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -5126,105 +5269,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/paska.jpg</image:loc>
       <image:title>Paska</image:title>
       <image:caption>Paska, a Ukrainian holiday recipe — ukrainian easter bread</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/mango-cheesecake/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-cheesecake.jpg</image:loc>
-      <image:title>Mango Cheesecake</image:title>
-      <image:caption>Mango Cheesecake, an Australian dessert recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/amaretto-sour/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/amaretto-sour.jpg</image:loc>
-      <image:title>Amaretto Sour</image:title>
-      <image:caption>Amaretto Sour, an American drink recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cheeseburger-sliders/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cheeseburger-sliders.jpg</image:loc>
-      <image:title>Cheeseburger Sliders</image:title>
-      <image:caption>Cheeseburger Sliders, an American appetizer recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/fried-calamari/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-calamari.jpg</image:loc>
-      <image:title>Fried Calamari</image:title>
-      <image:caption>Fried Calamari, an Italian appetizer recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/ham-and-cheese-pinwheels/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-pinwheels.jpg</image:loc>
-      <image:title>Ham and Cheese Pinwheels</image:title>
-      <image:caption>Ham and Cheese Pinwheels, an American appetizer recipe — ham and cream cheese pinwheels</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-drop/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-drop.jpg</image:loc>
-      <image:title>Lemon Drop</image:title>
-      <image:caption>Lemon Drop, an American drink recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-pepper-wings/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pepper-wings.jpg</image:loc>
-      <image:title>Lemon Pepper Wings</image:title>
-      <image:caption>Lemon Pepper Wings, an American appetizer recipe — crispy lemon pepper chicken wings</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/orange-julius/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/orange-julius.jpg</image:loc>
-      <image:title>Orange Julius</image:title>
-      <image:caption>Orange Julius, an American drink recipe — creamy orange smoothie</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/seven-layer-dip/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/seven-layer-dip.jpg</image:loc>
-      <image:title>Seven Layer Dip</image:title>
-      <image:caption>Seven Layer Dip, an American appetizer recipe — 7 layer dip</image:caption>
     </image:image>
   </url>
 </urlset>

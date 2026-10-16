@@ -2,6 +2,281 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/massaman-curry/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/massaman-curry.jpg</image:loc>
+      <image:title>Massaman Beef Curry</image:title>
+      <image:caption>Massaman Beef Curry, a Thai dinner recipe — massaman curry recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pad-kra-pao/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pad-kra-pao.jpg</image:loc>
+      <image:title>Pad Kra Pao (Thai Basil Chicken)</image:title>
+      <image:caption>Pad Kra Pao (Thai Basil Chicken), a quick Thai meal recipe — pad kra pao recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tom-yum-goong/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tom-yum-goong.jpg</image:loc>
+      <image:title>Tom Yum Goong</image:title>
+      <image:caption>Tom Yum Goong, a healthy Thai recipe — thai hot and sour soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tom-kha-gai/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tom-kha-gai.jpg</image:loc>
+      <image:title>Tom Kha Gai</image:title>
+      <image:caption>Tom Kha Gai, a healthy Thai recipe — thai coconut chicken soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/som-tam/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/som-tam.jpg</image:loc>
+      <image:title>Som Tam (Green Papaya Salad)</image:title>
+      <image:caption>Som Tam (Green Papaya Salad), a healthy Thai recipe — som tam recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/thai-fried-rice/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thai-fried-rice.jpg</image:loc>
+      <image:title>Thai Pineapple Fried Rice</image:title>
+      <image:caption>Thai Pineapple Fried Rice, a quick Thai meal recipe — thai fried rice recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mango-sticky-rice/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-sticky-rice.jpg</image:loc>
+      <image:title>Mango Sticky Rice</image:title>
+      <image:caption>Mango Sticky Rice, a Thai dessert recipe — khao niaow ma muang</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/hummus/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hummus.jpg</image:loc>
+      <image:title>Silky Hummus</image:title>
+      <image:caption>Silky Hummus, a Middle Eastern appetizer recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/falafel/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/falafel.jpg</image:loc>
+      <image:title>Crispy Falafel</image:title>
+      <image:caption>Crispy Falafel, a Middle Eastern lunch recipe — vegan street food</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chicken-shawarma/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-shawarma.jpg</image:loc>
+      <image:title>Chicken Shawarma</image:title>
+      <image:caption>Chicken Shawarma, a Middle Eastern dinner recipe — middle eastern chicken</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/baba-ganoush/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baba-ganoush.jpg</image:loc>
+      <image:title>Baba Ganoush</image:title>
+      <image:caption>Baba Ganoush, a Middle Eastern appetizer recipe — smoky aubergine dip</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tabbouleh/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tabbouleh.jpg</image:loc>
+      <image:title>Tabbouleh</image:title>
+      <image:caption>Tabbouleh, a healthy Middle Eastern recipe — lebanese parsley salad</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/fattoush/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fattoush.jpg</image:loc>
+      <image:title>Fattoush Salad</image:title>
+      <image:caption>Fattoush Salad, a healthy Middle Eastern recipe — lebanese bread salad</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/lamb-kofta-kebabs/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-kofta-kebabs.jpg</image:loc>
+      <image:title>Lamb Kofta Kebabs</image:title>
+      <image:caption>Lamb Kofta Kebabs, a Middle Eastern dinner recipe — lamb kofta recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/shakshuka/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/shakshuka.jpg</image:loc>
+      <image:title>Shakshuka</image:title>
+      <image:caption>Shakshuka, a Middle Eastern breakfast recipe — eggs in tomato sauce</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/knafeh/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/knafeh.jpg</image:loc>
+      <image:title>Knafeh</image:title>
+      <image:caption>Knafeh, a Middle Eastern dessert recipe — middle eastern cheese dessert</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/paella-valenciana/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/paella-valenciana.jpg</image:loc>
+      <image:title>Paella Valenciana</image:title>
+      <image:caption>Paella Valenciana, a Spanish dinner recipe — spanish rice dish</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gazpacho/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gazpacho.jpg</image:loc>
+      <image:title>Andalusian Gazpacho</image:title>
+      <image:caption>Andalusian Gazpacho, a healthy Spanish recipe — cold tomato soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/patatas-bravas/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/patatas-bravas.jpg</image:loc>
+      <image:title>Patatas Bravas</image:title>
+      <image:caption>Patatas Bravas, a Spanish appetizer recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/tortilla-espanola/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortilla-espanola.jpg</image:loc>
+      <image:title>Tortilla Española</image:title>
+      <image:caption>Tortilla Española, a Spanish lunch recipe — spanish tortilla recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/gambas-al-ajillo/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gambas-al-ajillo.jpg</image:loc>
+      <image:title>Gambas al Ajillo</image:title>
+      <image:caption>Gambas al Ajillo, a Spanish appetizer recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/sangria/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sangria.jpg</image:loc>
+      <image:title>Red Wine Sangria</image:title>
+      <image:caption>Red Wine Sangria, a Spanish drink recipe — spanish red sangria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bibimbap/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bibimbap.jpg</image:loc>
+      <image:title>Bibimbap</image:title>
+      <image:caption>Bibimbap, a Korean dinner recipe — korean rice bowl</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/korean-fried-chicken/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/korean-fried-chicken.jpg</image:loc>
+      <image:title>Korean Fried Chicken</image:title>
+      <image:caption>Korean Fried Chicken, a Korean dinner recipe — double fried chicken</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/bulgogi/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bulgogi.jpg</image:loc>
+      <image:title>Beef Bulgogi</image:title>
+      <image:caption>Beef Bulgogi, a Korean dinner recipe — korean bbq beef</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/japchae/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -5114,237 +5389,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/vanocka.jpg</image:loc>
       <image:title>Vánočka</image:title>
       <image:caption>Vánočka, a Czech holiday recipe — czech christmas bread</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/julekake/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/julekake.jpg</image:loc>
-      <image:title>Julekake</image:title>
-      <image:caption>Julekake, a Norwegian holiday recipe — norwegian christmas bread</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/joulutorttu/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/joulutorttu.jpg</image:loc>
-      <image:title>Joulutorttu</image:title>
-      <image:caption>Joulutorttu, a Finnish holiday recipe — finnish christmas pastry</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cozonac/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cozonac.jpg</image:loc>
-      <image:title>Cozonac</image:title>
-      <image:caption>Cozonac, a Romanian holiday recipe — romanian sweet bread</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pan-de-jamon/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pan-de-jamon.jpg</image:loc>
-      <image:title>Pan de Jamón</image:title>
-      <image:caption>Pan de Jamón, a Venezuelan holiday recipe — pan de jamon recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/bibingka/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/bibingka.jpg</image:loc>
-      <image:title>Bibingka</image:title>
-      <image:caption>Bibingka, a Filipino holiday recipe — filipino rice cake</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/stollen/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/stollen.jpg</image:loc>
-      <image:title>Christstollen</image:title>
-      <image:caption>Christstollen, a German holiday recipe — german christmas bread</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/salep/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/salep.jpg</image:loc>
-      <image:title>Salep</image:title>
-      <image:caption>Salep, a Turkish drink recipe — turkish winter drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/ayran/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ayran.jpg</image:loc>
-      <image:title>Ayran</image:title>
-      <image:caption>Ayran, a Turkish drink recipe — turkish yogurt drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sujeonggwa/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sujeonggwa.jpg</image:loc>
-      <image:title>Sujeonggwa</image:title>
-      <image:caption>Sujeonggwa, a Korean drink recipe — korean cinnamon punch</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/agua-de-jamaica/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/agua-de-jamaica.jpg</image:loc>
-      <image:title>Agua de Jamaica</image:title>
-      <image:caption>Agua de Jamaica, a Mexican drink recipe — mexican hibiscus tea</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/cafe-de-olla/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/cafe-de-olla.jpg</image:loc>
-      <image:title>Café de Olla</image:title>
-      <image:caption>Café de Olla, a Mexican drink recipe — cafe de olla recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/tepache/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/tepache.jpg</image:loc>
-      <image:title>Tepache</image:title>
-      <image:caption>Tepache, a Mexican drink recipe — fermented pineapple drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sorrel-drink/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sorrel-drink.jpg</image:loc>
-      <image:title>Sorrel Drink</image:title>
-      <image:caption>Sorrel Drink, a Trinidadian drink recipe — caribbean christmas drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sobolo/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sobolo.jpg</image:loc>
-      <image:title>Sobolo</image:title>
-      <image:caption>Sobolo, a Ghanaian drink recipe — ghana hibiscus drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/kvass/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kvass.jpg</image:loc>
-      <image:title>Bread Kvass</image:title>
-      <image:caption>Bread Kvass, a Ukrainian drink recipe — ukrainian fermented drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/bandrek/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/bandrek.jpg</image:loc>
-      <image:title>Bandrek</image:title>
-      <image:caption>Bandrek, an Indonesian drink recipe — indonesian ginger drink</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/kaya-toast/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/kaya-toast.jpg</image:loc>
-      <image:title>Kaya Toast</image:title>
-      <image:caption>Kaya Toast, a quick Singaporean meal recipe — coconut jam toast</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/uitsmijter/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/uitsmijter.jpg</image:loc>
-      <image:title>Uitsmijter</image:title>
-      <image:caption>Uitsmijter, a quick Dutch meal recipe — dutch fried egg sandwich</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/aeggekage/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/aeggekage.jpg</image:loc>
-      <image:title>Æggekage</image:title>
-      <image:caption>Æggekage, a quick Danish meal recipe — danish egg cake</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/ful-medames/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/ful-medames.jpg</image:loc>
-      <image:title>Ful Medames</image:title>
-      <image:caption>Ful Medames, a quick Egyptian meal recipe — fava bean dip</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/chakalaka/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/chakalaka.jpg</image:loc>
-      <image:title>Chakalaka</image:title>
-      <image:caption>Chakalaka, a quick South African meal recipe — south african relish</image:caption>
     </image:image>
   </url>
 </urlset>

@@ -2,6 +2,193 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/braised-red-cabbage/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/braised-red-cabbage.jpg</image:loc>
+      <image:title>Braised Red Cabbage</image:title>
+      <image:caption>Braised Red Cabbage, a British dinner recipe — christmas red cabbage</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/honey-roast-parsnips/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-roast-parsnips.jpg</image:loc>
+      <image:title>Honey Roast Parsnips</image:title>
+      <image:caption>Honey Roast Parsnips, a British dinner recipe — roast parsnips recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pease-pudding/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pease-pudding.jpg</image:loc>
+      <image:title>Pease Pudding</image:title>
+      <image:caption>Pease Pudding, a British dinner recipe — split pea pudding</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/rumbledethumps/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rumbledethumps.jpg</image:loc>
+      <image:title>Rumbledethumps</image:title>
+      <image:caption>Rumbledethumps, a Scottish dinner recipe — scottish potato cabbage bake</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/champ/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/champ.jpg</image:loc>
+      <image:title>Champ</image:title>
+      <image:caption>Champ, an Irish dinner recipe — irish mashed potato</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/pan-haggerty/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pan-haggerty.jpg</image:loc>
+      <image:title>Pan Haggerty</image:title>
+      <image:caption>Pan Haggerty, a British dinner recipe — northumberland potato dish</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/laverbread-and-bacon/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/laverbread-and-bacon.jpg</image:loc>
+      <image:title>Laverbread with Bacon</image:title>
+      <image:caption>Laverbread with Bacon, a Welsh breakfast recipe — welsh laverbread bacon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/stuffed-marrow/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-marrow.jpg</image:loc>
+      <image:title>Stuffed Marrow</image:title>
+      <image:caption>Stuffed Marrow, a British dinner recipe — baked marrow mince</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/watercress-soup/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/watercress-soup.jpg</image:loc>
+      <image:title>Watercress Soup</image:title>
+      <image:caption>Watercress Soup, a British lunch recipe — green vegetable soup</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/potted-cheese/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potted-cheese.jpg</image:loc>
+      <image:title>Potted Cheese</image:title>
+      <image:caption>Illustration of Potted Cheese, a British appetizer recipe — british cheese spread</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/coronation-chicken/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coronation-chicken.jpg</image:loc>
+      <image:title>Coronation Chicken</image:title>
+      <image:caption>Coronation Chicken, a British lunch recipe — curried chicken mayonnaise</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/cucumber-sandwiches/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-sandwiches.jpg</image:loc>
+      <image:title>Cucumber Sandwiches</image:title>
+      <image:caption>Cucumber Sandwiches, a British lunch recipe — afternoon tea sandwiches</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/spotted-dick/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spotted-dick.jpg</image:loc>
+      <image:title>Spotted Dick</image:title>
+      <image:caption>Spotted Dick, a British dessert recipe — steamed suet pudding</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/treacle-sponge/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/treacle-sponge.jpg</image:loc>
+      <image:title>Treacle Sponge Pudding</image:title>
+      <image:caption>Treacle Sponge Pudding, a British dessert recipe — golden syrup pudding</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/jam-roly-poly/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jam-roly-poly.jpg</image:loc>
+      <image:title>Jam Roly-Poly</image:title>
+      <image:caption>Jam Roly-Poly, a British dessert recipe — jam roly poly</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/treacle-tart/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/treacle-tart.jpg</image:loc>
+      <image:title>Treacle Tart</image:title>
+      <image:caption>Treacle Tart, a British baking recipe — golden syrup tart</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/apple-crumble/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-crumble.jpg</image:loc>
+      <image:title>Apple Crumble</image:title>
+      <image:caption>Apple Crumble, a British dessert recipe — british fruit crumble</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/rhubarb-fool/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -5202,149 +5389,6 @@
       <image:loc>https://weeklydelight.com/assets/img/recipes/elderflower-cordial.jpg</image:loc>
       <image:title>Elderflower Cordial</image:title>
       <image:caption>Elderflower Cordial, a British drink recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/lemon-barley-water/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-barley-water.jpg</image:loc>
-      <image:title>Lemon Barley Water</image:title>
-      <image:caption>Illustration of Lemon Barley Water, a British drink recipe — homemade barley water</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/shandy/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/shandy.jpg</image:loc>
-      <image:title>Shandy</image:title>
-      <image:caption>Shandy, a British drink recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/hot-buttered-rum/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-buttered-rum.jpg</image:loc>
-      <image:title>Hot Buttered Rum</image:title>
-      <image:caption>Illustration of Hot Buttered Rum, an American drink recipe — winter rum cocktail with butter</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pimms-cup/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pimms-cup.jpg</image:loc>
-      <image:title>Pimm&#39;s Cup</image:title>
-      <image:caption>Pimm&#39;s Cup, a British drink recipe — how to make pimms</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/gin-and-tonic/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/gin-and-tonic.jpg</image:loc>
-      <image:title>Gin and Tonic</image:title>
-      <image:caption>Gin and Tonic, a British drink recipe — classic g and t</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/montreal-smoked-meat-sandwich/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/montreal-smoked-meat-sandwich.jpg</image:loc>
-      <image:title>Montreal Smoked Meat Sandwich</image:title>
-      <image:caption>Montreal Smoked Meat Sandwich, a Canadian lunch recipe — homemade montreal smoked meat</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/peameal-bacon-sandwich/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/peameal-bacon-sandwich.jpg</image:loc>
-      <image:title>Peameal Bacon Sandwich</image:title>
-      <image:caption>Peameal Bacon Sandwich, a Canadian breakfast recipe — homemade peameal bacon</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/beavertails/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/beavertails.jpg</image:loc>
-      <image:title>Beavertails</image:title>
-      <image:caption>Illustration of Beavertails, a Canadian dessert recipe — canadian fried dough pastry</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/date-squares/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/date-squares.jpg</image:loc>
-      <image:title>Date Squares</image:title>
-      <image:caption>Date Squares, a Canadian baking recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/pouding-chomeur/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/pouding-chomeur.jpg</image:loc>
-      <image:title>Pouding Chômeur</image:title>
-      <image:caption>Pouding Chômeur, a Canadian dessert recipe — pouding chomeur recipe</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/sugar-pie/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/sugar-pie.jpg</image:loc>
-      <image:title>Sugar Pie</image:title>
-      <image:caption>Sugar Pie, a Canadian dessert recipe — tarte au sucre</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/toutons/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/toutons.jpg</image:loc>
-      <image:title>Toutons</image:title>
-      <image:caption>Toutons, a Canadian breakfast recipe — fried bread dough with molasses</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/halifax-donair/</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://weeklydelight.com/assets/img/recipes/halifax-donair.jpg</image:loc>
-      <image:title>Halifax Donair</image:title>
-      <image:caption>Halifax Donair, a Canadian dinner recipe</image:caption>
     </image:image>
   </url>
 </urlset>

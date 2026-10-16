@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/philly-cheesesteak-stuffed-peppers/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/miso-cod/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/miso-cod.jpg</image:loc>
+      <image:title>Miso Cod</image:title>
+      <image:caption>Miso Cod, a Japanese dinner recipe — dairy free miso glazed cod</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chipotle-lime-chicken/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/chili-lime-shrimp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chili-lime-shrimp.jpg</image:loc>
+      <image:title>Chili Lime Shrimp</image:title>
+      <image:caption>Chili Lime Shrimp, a quick Mexican meal recipe — weight loss friendly shrimp</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/air-fryer-tofu/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tofu.jpg</image:loc>
+      <image:title>Air Fryer Tofu</image:title>
+      <image:caption>Air Fryer Tofu, an American dinner recipe</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-scallops/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -4225,11 +4270,5 @@
       <image:title>Roast Pumpkin Salad</image:title>
       <image:caption>Roast Pumpkin Salad, an Australian lunch recipe — roasted pumpkin and feta salad</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/recipes/roasted-red-pepper-pasta/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>

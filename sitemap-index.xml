@@ -2,7 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://weeklydelight.com/sitemap-1.xml</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://weeklydelight.com/sitemap-2.xml</loc>
@@ -42,6 +42,10 @@
   </sitemap>
   <sitemap>
     <loc>https://weeklydelight.com/sitemap-11.xml</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://weeklydelight.com/sitemap-12.xml</loc>
+    <lastmod>2026-10-16</lastmod>
   </sitemap>
 </sitemapindex>
