@@ -121,6 +121,24 @@ module.exports = {
   },
 
   /**
+   * The 320x50 iframe banner, on every page, directly under the header.
+   *
+   * Wired exactly like the 300x250 above and for the same reasons: it uses
+   * Adsterra's `atOptions` global and document.write, so it is served from its
+   * own one-slot document (assets/ads/banner-320x50.html) and framed, which
+   * keeps it from clashing with the other banner's settings. The iframe is
+   * given the unit's own dimensions so the 50px is reserved before it loads.
+   *
+   * Set `invoke` to '' to remove it from every page.
+   */
+  bannerSmall: {
+    invoke: 'https://disembroildisembroildissipatespots.com/69a58c36a99e75b88227ab5399bcd839/invoke.js',
+    key: '69a58c36a99e75b88227ab5399bcd839',
+    width: 320,
+    height: 50
+  },
+
+  /**
    * Height in pixels of a framed native banner. An iframe cannot size itself
    * to its content across documents, so this is reserved up front. Raise it
    * if your unit renders taller than the space allowed; the wrapper scrolls

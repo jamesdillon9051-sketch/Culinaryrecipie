@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5015 recipes · 85 cuisines · 10 categories · 5347 static pages · 0 npm dependencies
+5015 recipes · 85 cuisines · 10 categories · 5348 static pages · 0 npm dependencies
 ```
 
 ---
@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 7794 image files (WebP + JPEG)
+│       └── img/recipes/         # 7838 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 7794 image files
+├── assets/                      #    css, js and 7838 image files
 ├── recipes/                     #    5015 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 449,110 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 449,131 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -393,8 +393,8 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-3303 of the 5015 recipes have a photograph. Of the 3786 images on the site,
-1444 are CC0 or public domain, 1132 are CC BY and 1210 are CC BY-SA. Anything
+3325 of the 5015 recipes have a photograph. Of the 3808 images on the site,
+1449 are CC0 or public domain, 1142 are CC BY and 1217 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
 
@@ -5556,6 +5556,15 @@ a broccoli and tofu pot pie for a chicken one, and an Alfredo for a dairy-free
 shrimp fettuccine. One CC BY-SA photograph named no author on the site's
 record, and the Commons page was read to find it.
 
+A second round ran the same search for the 399 recipes left, after the 212
+refused candidates were recorded in `image-rejects.json`. It returned 168
+candidates, most of them the same refused pictures again (an Instant Pot appliance
+for thirteen Instant Pot dishes this time), and 22 were published, 123 in all for
+the 500 recipes. One more CC BY-SA photograph needed its author read from the
+Commons page. The other 377 recipes keep their gradient cards; a third round with
+`tools/wide_search.py` (the Wikipedia article and Commons category for each dish)
+is the next step.
+
 The same check found fish tagged Vegetarian: trout, octopus, barramundi,
 scallops and a mahi-mahi dish (and Vegan on the octopus). `npm run diet` does
 not know those fish names and the ingredient-hub check only some of them, so the
@@ -5676,6 +5685,18 @@ This was the last claim on the site with no witness. Everything else here —
 times, calories, diet tags, README counts — already failed the build when it
 drifted, while the part that earns the money could have been dropped by one
 template edit and shipped silently across nine hundred pages.
+
+### A 320x50 banner under the header
+
+A second iframe banner, 320x50 (unit key `69a58c36...`, on the same
+anti-adblock host as the other units), sits directly under the header on every
+page. It is wired like the 300x250 one: Adsterra's `atOptions` global and
+`document.write` mean it cannot share a document with another banner, so it is
+served from its own `assets/ads/banner-320x50.html` and framed at exactly 320 by
+50 pixels, which reserves the space before it loads. The unit lives in
+`bannerSmall` in `src/data/ads.js` (set `invoke` to `''` to remove it), and
+`npm run check` fails any page that does not carry exactly one frame, or a
+banner document that is missing or sets `atOptions` after the loader.
 
 ## Browser support
 

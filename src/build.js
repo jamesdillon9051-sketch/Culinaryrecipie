@@ -1045,6 +1045,15 @@ function build() {
     fs.writeFileSync(bannerPath, bannerHtml);
   }
 
+  /* The 320x50 banner's own one-slot document: a separate file because its
+     atOptions would otherwise overwrite the 300x250 unit's settings. */
+  const bannerSmallHtml = ads.bannerDocument(require('./data/ads').bannerSmall);
+  if (bannerSmallHtml) {
+    const bannerSmallPath = path.join(OUT, ads.BANNER_SMALL_PATH);
+    fs.mkdirSync(path.dirname(bannerSmallPath), { recursive: true });
+    fs.writeFileSync(bannerSmallPath, bannerSmallHtml);
+  }
+
   /* Report --------------------------------------------------------------- */
   /* Walk only what we generated: at the repo root the tree also contains
      src/, tools/ and node_modules/. */

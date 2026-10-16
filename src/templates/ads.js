@@ -154,8 +154,7 @@ const BANNER_PATH = 'assets/ads/banner.html';
  * the iframe around it is sized to the unit so the page reserves the space
  * before the network answers.
  */
-function bannerDocument() {
-  const unit = ADS.banner;
+function bannerDocument(unit = ADS.banner) {
   if (!ADS.enabled || !unit || !unit.invoke || !unit.key) return '';
   return `<!doctype html>
 <html lang="en-GB">
@@ -191,17 +190,24 @@ function bannerDocument() {
  * @param {string} label  screen-reader wording for the region
  * @param {string} base   site base path, for the iframe src
  */
-function banner(label = 'Advertisement', base = '/') {
-  const unit = ADS.banner;
+function banner(label = 'Advertisement', base = '/', unit = ADS.banner, path = BANNER_PATH, modifier = 'banner') {
   if (!ADS.enabled || !unit || !unit.invoke || !unit.key) return '';
-  const src = `${base}${BANNER_PATH}`;
+  const src = `${base}${path}`;
   /* Exactly the unit's own dimensions, so the slot is the right size before
      anything loads and the page does not move when it fills. */
   return wrap(label, `<iframe ${CONSENT.enabled ? `data-ad-src="${src}"` : `src="${src}"`}
           title="${label}" loading="lazy"
           width="${unit.width}" height="${unit.height}"
           style="width:${unit.width}px;height:${unit.height}px;max-width:100%;border:0;display:block;margin-inline:auto"></iframe>`,
-    'banner');
+    modifier);
+}
+
+/** Path to the single-slot document the 320x50 banner is framed from. */
+const BANNER_SMALL_PATH = 'assets/ads/banner-320x50.html';
+
+/** The 320x50 banner slot, framed, directly under the header on every page. */
+function bannerSmall(label = 'Advertisement', base = '/') {
+  return banner(label, base, ADS.bannerSmall, BANNER_SMALL_PATH, 'banner-small');
 }
 
 function wrap(label, inner, modifier = 'native') {
@@ -212,4 +218,4 @@ function wrap(label, inner, modifier = 'native') {
 }
 
 module.exports = { popunder, socialBar, loaderTag, nativeBanner, frameDocument, FRAME_PATH,
-                   banner, bannerDocument, BANNER_PATH, ADS };
+                   banner, bannerDocument, BANNER_PATH, bannerSmall, BANNER_SMALL_PATH, ADS };

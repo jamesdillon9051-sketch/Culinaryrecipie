@@ -312,6 +312,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-rigatoni.jpg</image:loc>
+      <image:title>Baked Rigatoni</image:title>
+      <image:caption>Baked Rigatoni, an Italian dinner recipe — rigatoni with ricotta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-sea-bass/</loc>
@@ -415,6 +420,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-ramen.jpg</image:loc>
+      <image:title>Chicken Ramen</image:title>
+      <image:caption>Chicken Ramen, a Japanese dinner recipe — ginger garlic ramen broth</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-thighs-in-oven/</loc>
@@ -490,6 +500,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fettuccine-with-mushrooms.jpg</image:loc>
+      <image:title>Fettuccine with Mushrooms</image:title>
+      <image:caption>Fettuccine with Mushrooms, a quick Italian meal recipe — creamy mushroom pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-oysters/</loc>
@@ -502,6 +517,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gammon-and-pineapple.jpg</image:loc>
+      <image:title>Gammon and Pineapple</image:title>
+      <image:caption>Gammon and Pineapple, a British dinner recipe — gammon steak with pineapple</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-salmon/</loc>
@@ -728,6 +748,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-salad.jpg</image:loc>
+      <image:title>Salmon Salad</image:title>
+      <image:caption>Salmon Salad, an American lunch recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-egg-bake/</loc>
@@ -875,6 +900,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-beef-stroganoff.jpg</image:loc>
+      <image:title>Slow Cooker Beef Stroganoff</image:title>
+      <image:caption>Slow Cooker Beef Stroganoff, a Russian dinner recipe — crockpot beef stroganoff</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-butter-chicken/</loc>
@@ -1585,6 +1615,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dutch-apple-cake.jpg</image:loc>
+      <image:title>Dutch Apple Cake</image:title>
+      <image:caption>Dutch Apple Cake, a Dutch baking recipe — apple cake with sliced apples</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dutch-apple-pie/</loc>
@@ -2085,6 +2120,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mint-chocolate-chip-ice-cream.jpg</image:loc>
+      <image:title>Mint Chocolate Chip Ice Cream</image:title>
+      <image:caption>Mint Chocolate Chip Ice Cream, an American dessert recipe — homemade mint chip ice cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-cheesecake/</loc>
@@ -2180,6 +2220,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/raspberry-sorbet.jpg</image:loc>
+      <image:title>Raspberry Sorbet</image:title>
+      <image:caption>Raspberry Sorbet, a French dessert recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-caramel-ice-cream/</loc>
@@ -2261,6 +2306,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/overnight-french-toast.jpg</image:loc>
+      <image:title>Overnight French Toast</image:title>
+      <image:caption>Overnight French Toast, an American breakfast recipe — baked french toast casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-overnight-oats/</loc>
@@ -2361,6 +2411,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mug-brownie.jpg</image:loc>
+      <image:title>Mug Brownie</image:title>
+      <image:caption>Mug Brownie, an American dessert recipe — single serving brownie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mug-carrot-cake/</loc>
@@ -2379,12 +2434,22 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/no-bake-brownies.jpg</image:loc>
+      <image:title>No Bake Brownies</image:title>
+      <image:caption>No Bake Brownies, an American dessert recipe — date and walnut brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-chocolate-cake/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/no-bake-chocolate-cake.jpg</image:loc>
+      <image:title>No Bake Chocolate Cake</image:title>
+      <image:caption>No Bake Chocolate Cake, a British dessert recipe — chocolate biscuit cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/no-bake-chocolate-pie/</loc>
@@ -2646,6 +2711,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-mousse.jpg</image:loc>
+      <image:title>Vegan Mousse</image:title>
+      <image:caption>Vegan Mousse, a French dessert recipe — aquafaba chocolate mousse</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maple-walnut-ice-cream/</loc>
@@ -2658,6 +2728,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pistachio-ice-cream.jpg</image:loc>
+      <image:title>Pistachio Ice Cream</image:title>
+      <image:caption>Pistachio Ice Cream, an Italian dessert recipe — italian pistachio gelato style ice cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-ice-cream/</loc>
@@ -2681,6 +2756,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-ice-cream.jpg</image:loc>
+      <image:title>Pumpkin Ice Cream</image:title>
+      <image:caption>Pumpkin Ice Cream, an American holiday recipe — pumpkin pie ice cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/eggnog-ice-cream/</loc>
@@ -2698,6 +2778,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/watermelon-sorbet.jpg</image:loc>
+      <image:title>Watermelon Sorbet</image:title>
+      <image:caption>Watermelon Sorbet, an American dessert recipe — watermelon lime sorbet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-gelato/</loc>
@@ -2721,6 +2806,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/butter-pecan-ice-cream.jpg</image:loc>
+      <image:title>Butter Pecan Ice Cream</image:title>
+      <image:caption>Butter Pecan Ice Cream, an American dessert recipe — butter pecan custard</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cookie-butter-ice-cream/</loc>
@@ -2816,6 +2906,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freezer-dumplings.jpg</image:loc>
+      <image:title>Freezer Dumplings</image:title>
+      <image:caption>Freezer Dumplings, a Chinese dinner recipe — frozen pork dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/freezer-enchiladas/</loc>
@@ -2892,6 +2987,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-carrot-cake.jpg</image:loc>
+      <image:title>Gluten-Free Carrot Cake</image:title>
+      <image:caption>Gluten-Free Carrot Cake, a British baking recipe — carrot cake with gluten-free flour</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-chicken-nuggets/</loc>
@@ -2946,6 +3046,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gluten-free-lasagna.jpg</image:loc>
+      <image:title>Gluten-Free Lasagna</image:title>
+      <image:caption>Gluten-Free Lasagna, an Italian dinner recipe — gluten free lasagna</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gluten-free-mac-and-cheese/</loc>
@@ -3191,6 +3296,11 @@
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-cinnamon-rolls.jpg</image:loc>
+      <image:title>Vegan Cinnamon Rolls</image:title>
+      <image:caption>Vegan Cinnamon Rolls, an American baking recipe — dairy free cinnamon buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-cornbread/</loc>
