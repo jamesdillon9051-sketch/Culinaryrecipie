@@ -781,7 +781,12 @@ const EXT6_FOODS = {
   fontina: [25, 1, 31, 0, 0, 800],
   black_truffle: [6, 10, 0.5, 1, 0, 10],
   tripe: [12, 0, 3.5, 0, 0, 70],
-  amaretti: [8, 70, 16, 3, 55, 100]
+  amaretti: [8, 70, 16, 3, 55, 100],
+  burrata: [15, 1, 22, 0, 1, 300],
+  stracchino: [18, 2, 25, 0, 2, 500],
+  taleggio: [19, 0, 26, 0, 0, 800],
+  bottarga: [40, 2, 15, 0, 0, 3500],
+  radicchio: [1.4, 4.5, 0.2, 3, 0.6, 22]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -797,7 +802,12 @@ const EXT6_ALIAS = {
   fontina: ['fontina'],
   black_truffle: ['fresh black truffle', 'black truffle', 'truffle'],
   tripe: ['cleaned beef tripe', 'beef tripe', 'tripe'],
-  amaretti: ['amaretti biscuits', 'amaretti']
+  amaretti: ['amaretti biscuits', 'amaretti'],
+  burrata: ['burrata'],
+  stracchino: ['stracchino or soft cheese', 'stracchino', 'crescenza'],
+  taleggio: ['taleggio'],
+  bottarga: ['bottarga di muggine', 'bottarga'],
+  radicchio: ['heads radicchio', 'radicchio']
 };
 const EXT6_PORTION = {
 

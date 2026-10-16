@@ -121,7 +121,7 @@ module.exports = {
       '3 tbsp chopped parsley',
       '1 tsp salt',
       '1/2 tsp black pepper',
-      '100 ml rapeseed oil absorbed, from 300 ml for frying',
+      '50 ml rapeseed oil absorbed, from 300 ml for frying',
       '200 g apple sauce, to serve'
     ],
     st: [
@@ -138,7 +138,7 @@ module.exports = {
     ],
     pair: ['Apple sauce', 'Smoked salmon', 'Soured cream', 'Green salad'],
     store: 'Best fresh. Reheat on a tray in a hot oven to crisp them again.',
-    nut: [301, 6, 31, 17, 4, 5, 420]
+    nut: [229, 6, 31, 9, 4, 5, 420]
   },
 
   'quetschentaart': {
@@ -359,7 +359,7 @@ module.exports = {
       '2 eggs',
       '250 ml lukewarm milk',
       '60 g butter, softened',
-      '400 ml rapeseed oil absorbed, 60 ml, from 1 litre for frying',
+      '60 ml rapeseed oil absorbed, from 1 litre for frying',
       '80 g caster sugar, for rolling',
       '300 g ready made custard or jam'
     ],
@@ -379,7 +379,7 @@ module.exports = {
     pair: ['Cappuccino', 'Espresso', 'Hot chocolate'],
     store: 'Best the day they are made. Keep unfilled for 1 day.',
     rest: [90, 'Rising'],
-    nut: [531, 7, 38, 39, 1, 18, 440]
+    nut: [288, 7, 38, 12, 1, 18, 440]
   },
 
   'polenta-taragna': {
@@ -656,7 +656,7 @@ module.exports = {
       '1/2 tsp salt',
       '250 g fresh young pecorino or mild mozzarella, grated',
       '1 lemon, zest',
-      '200 ml rapeseed oil absorbed, 50 ml, from 600 ml for frying',
+      '50 ml rapeseed oil absorbed, from 600 ml for frying',
       '6 tbsp dark honey'
     ],
     st: [
@@ -673,7 +673,7 @@ module.exports = {
     ],
     pair: ['Sweet wine', 'Espresso', 'Fresh figs'],
     store: 'Best eaten within the hour. Do not store.',
-    nut: [522, 11, 43, 34, 1, 14, 340]
+    nut: [369, 11, 43, 17, 1, 14, 340]
   },
 
   'torta-di-mele': {
