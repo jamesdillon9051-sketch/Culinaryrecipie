@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: German 69, Austrian 6.
+ * Spread: German 69, Austrian 13, Dutch 13, Spanish 5.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('palatschinken', 'Palatschinken', 'Austrian', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'palatschinken'),
   c('topfenstrudel', 'Topfenstrudel', 'Austrian', 'Desserts', 'Medium', 40, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'topfenstrudel'),
   c('backhendl', 'Backhendl', 'Austrian', 'Dinner', 'Medium', 25, 25, 4, 0, 0, [], ['new'], 'backhendl'),
-  c('rindsuppe', 'Rindsuppe', 'Austrian', 'Dinner', 'Easy', 20, 150, 6, 0, 0, ['Dairy-Free'], ['new'], 'rindsuppe')
+  c('rindsuppe', 'Rindsuppe', 'Austrian', 'Dinner', 'Easy', 20, 150, 6, 0, 0, ['Dairy-Free'], ['new'], 'rindsuppe'),
+  c('frittatensuppe', 'Frittatensuppe', 'Austrian', 'Lunch', 'Easy', 15, 10, 4, 0, 0, [], ['new'], 'frittatensuppe'),
+  c('serviettenknodel', 'Serviettenknödel', 'Austrian', 'Dinner', 'Medium', 30, 25, 6, 0, 0, ['Vegetarian'], ['new'], 'serviettenknödel'),
+  c('griessknodel', 'Griessknödel', 'Austrian', 'Dinner', 'Easy', 20, 15, 6, 0, 0, [], ['new'], 'griessknödel'),
+  c('salzburger-nockerl', 'Salzburger Nockerl', 'Austrian', 'Desserts', 'Medium', 25, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'salzburger nockerl'),
+  c('esterhazy-torte', 'Esterhazy Torte', 'Austrian', 'Baking', 'Hard', 60, 40, 12, 0, 0, ['Vegetarian'], ['new'], 'esterhazy torte'),
+  c('kaspressknodel', 'Kaspressknödel', 'Austrian', 'Dinner', 'Easy', 25, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'kaspressknödel'),
+  c('tiroler-grostl', 'Tiroler Gröstl', 'Austrian', 'Dinner', 'Easy', 15, 30, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'tiroler gröstl'),
+  c('hutspot', 'Hutspot', 'Dutch', 'Dinner', 'Easy', 20, 30, 4, 0, 0, ['Vegetarian'], ['new'], 'hutspot'),
+  c('kroketten', 'Kroketten', 'Dutch', 'Appetizers', 'Hard', 40, 15, 12, 0, 0, [], ['new'], 'kroketten'),
+  c('oliebollen', 'Oliebollen', 'Dutch', 'Holiday Specials', 'Medium', 15, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'oliebollen'),
+  c('appeltaart', 'Appeltaart', 'Dutch', 'Baking', 'Medium', 30, 60, 12, 0, 0, ['Vegetarian'], ['new'], 'appeltaart'),
+  c('pannenkoeken', 'Pannenkoeken', 'Dutch', 'Breakfast', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'pannenkoeken'),
+  c('kibbeling', 'Kibbeling', 'Dutch', 'Appetizers', 'Easy', 15, 10, 4, 0, 0, [], ['new'], 'kibbeling'),
+  c('gehaktbal', 'Gehaktbal', 'Dutch', 'Dinner', 'Easy', 20, 30, 4, 0, 0, [], ['new'], 'gehaktbal'),
+  c('rookworst', 'Rookworst', 'Dutch', 'Dinner', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'rookworst'),
+  c('kapsalon', 'Kapsalon', 'Dutch', 'Dinner', 'Easy', 20, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'kapsalon'),
+  c('boterkoek', 'Boterkoek', 'Dutch', 'Baking', 'Easy', 15, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'boterkoek'),
+  c('gevulde-koeken', 'Gevulde Koeken', 'Dutch', 'Baking', 'Medium', 40, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'gevulde koeken'),
+  c('tompouce', 'Tompouce', 'Dutch', 'Desserts', 'Hard', 40, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'tompouce'),
+  c('vlaai', 'Vlaai', 'Dutch', 'Baking', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'vlaai'),
+  c('callos-a-la-madrilena', 'Callos a la Madrilena', 'Spanish', 'Dinner', 'Medium', 20, 150, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'callos a la madrilena'),
+  c('boquerones-en-vinagre', 'Boquerones en Vinagre', 'Spanish', 'Appetizers', 'Easy', 15, 0, 4, 0, 0, [], ['new'], 'boquerones en vinagre'),
+  c('boquerones-fritos', 'Boquerones Fritos', 'Spanish', 'Appetizers', 'Easy', 15, 10, 4, 0, 0, ['Dairy-Free'], ['new'], 'boquerones fritos'),
+  c('merluza-a-la-vasca', 'Merluza a la Vasca', 'Spanish', 'Dinner', 'Medium', 20, 25, 4, 0, 0, ['Dairy-Free'], ['new'], 'merluza a la vasca'),
+  c('zarzuela-de-pescado', 'Zarzuela de Pescado', 'Spanish', 'Dinner', 'Medium', 30, 40, 6, 0, 0, ['Dairy-Free'], ['new'], 'zarzuela de pescado')
 ];

@@ -804,7 +804,10 @@ const EXT6_FOODS = {
   linseed: [18, 29, 42, 27, 1.6, 30],
   marzipan: [9, 50, 25, 6, 48, 10],
   wafer: [5, 75, 5, 3, 25, 100],
-  remoulade: [1, 10, 50, 0, 5, 500]
+  remoulade: [1, 10, 50, 0, 5, 500],
+  cooked_meat: [26, 0, 15, 0, 0, 70],
+  gouda: [25, 2, 27, 0, 2, 800],
+  pig_trotter: [20, 0, 15, 0, 0, 100]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -845,7 +848,12 @@ const EXT6_ALIAS = {
   marzipan: ['marzipan', 'marzipan, grated'],
   wafer: ['round wafers', 'round wafers, 5 cm', 'wafers'],
   remoulade: ['remoulade'],
-  sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst']
+  sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst', 'rookworst'],
+  cooked_meat: ['cooked roast pork or beef, diced', 'cooked beef, finely chopped', 'cooked beef', 'cooked roast pork'],
+  gouda: ['gouda, grated', 'gouda'],
+  pig_trotter: ['pig trotter'],
+  black_pudding: ['morcilla, sliced', 'morcilla'],
+  vodka: ['kirsch']
 };
 const EXT6_PORTION = {
 
