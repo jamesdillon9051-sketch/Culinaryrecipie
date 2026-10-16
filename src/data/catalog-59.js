@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Italian 75.
+ * Spread: Italian 99, German 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('sbrisolona-mantovana', 'Sbrisolona Mantovana', 'Italian', 'Baking', 'Easy', 20, 35, 10, 0, 0, [], ['new'], 'sbrisolona mantovana'),
   c('pizza-quattro-stagioni', 'Pizza Quattro Stagioni', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, [], ['new'], 'pizza quattro stagioni'),
   c('pizza-capricciosa', 'Pizza Capricciosa', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, [], ['new'], 'pizza capricciosa'),
-  c('pizza-marinara', 'Pizza Marinara', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, ['Vegetarian'], ['new'], 'pizza marinara')
+  c('pizza-marinara', 'Pizza Marinara', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, ['Vegetarian'], ['new'], 'pizza marinara'),
+  c('pizza-quattro-formaggi', 'Pizza Quattro Formaggi', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, [], ['new'], 'pizza quattro formaggi'),
+  c('focaccia-di-recco', 'Focaccia di Recco', 'Italian', 'Baking', 'Medium', 40, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'focaccia di recco'),
+  c('focaccia-pugliese', 'Focaccia Pugliese', 'Italian', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'focaccia pugliese'),
+  c('bruschetta-al-pomodoro', 'Bruschetta al Pomodoro', 'Italian', 'Appetizers', 'Easy', 10, 5, 4, 0, 0, ['Vegetarian'], ['new'], 'bruschetta al pomodoro'),
+  c('carciofi-ripieni', 'Carciofi Ripieni', 'Italian', 'Dinner', 'Easy', 25, 45, 4, 0, 0, [], ['new'], 'carciofi ripieni'),
+  c('lasagne-bianche', 'Lasagne Bianche', 'Italian', 'Dinner', 'Medium', 30, 45, 6, 0, 0, [], ['new'], 'lasagne bianche'),
+  c('cannelloni-ricotta-e-spinaci', 'Cannelloni Ricotta e Spinaci', 'Italian', 'Dinner', 'Medium', 30, 40, 6, 0, 0, ['Gluten-Free'], ['new'], 'cannelloni ricotta e spinaci'),
+  c('conchiglioni-ripieni', 'Conchiglioni Ripieni', 'Italian', 'Dinner', 'Easy', 25, 40, 6, 0, 0, [], ['new'], 'conchiglioni ripieni'),
+  c('spaghetti-al-limone', 'Spaghetti al Limone', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'spaghetti al limone'),
+  c('tagliolini-al-tartufo', 'Tagliolini al Tartufo', 'Italian', 'Dinner', 'Medium', 30, 3, 4, 0, 0, [], ['new'], 'tagliolini al tartufo'),
+  c('penne-al-gorgonzola', 'Penne al Gorgonzola', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'penne al gorgonzola'),
+  c('rigatoni-allamatriciana', 'Rigatoni all\'Amatriciana', 'Italian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Dairy-Free'], ['new'], 'rigatoni all\'amatriciana'),
+  c('risotto-allo-zafferano', 'Risotto allo Zafferano', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'risotto allo zafferano'),
+  c('uova-in-purgatorio', 'Uova in Purgatorio', 'Italian', 'Dinner', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'uova in purgatorio'),
+  c('torta-di-carote', 'Torta di Carote', 'Italian', 'Baking', 'Easy', 20, 45, 10, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'torta di carote'),
+  c('torta-al-mascarpone', 'Torta al Mascarpone', 'Italian', 'Baking', 'Medium', 25, 45, 10, 0, 0, ['Vegetarian'], ['new'], 'torta al mascarpone'),
+  c('torta-di-castagne', 'Torta di Castagne', 'Italian', 'Baking', 'Medium', 20, 40, 10, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'torta di castagne'),
+  c('tiramisu-alle-fragole', 'Tiramisu alle Fragole', 'Italian', 'Desserts', 'Easy', 30, 0, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'tiramisu alle fragole'),
+  c('panna-cotta-ai-frutti-di-bosco', 'Panna Cotta ai Frutti di Bosco', 'Italian', 'Desserts', 'Easy', 15, 5, 6, 0, 0, ['Gluten-Free'], ['new'], 'panna cotta ai frutti di bosco'),
+  c('crespelle', 'Crespelle', 'Italian', 'Desserts', 'Easy', 15, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'crespelle'),
+  c('bomboloni-al-forno', 'Bomboloni al Forno', 'Italian', 'Baking', 'Medium', 40, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'bomboloni al forno'),
+  c('limoncello', 'Limoncello', 'Italian', 'Drinks', 'Medium', 15, 5, 10, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'limoncello'),
+  c('spritz-veneziano', 'Spritz Veneziano', 'Italian', 'Drinks', 'Easy', 5, 0, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'spritz veneziano'),
+  c('bicerin', 'Bicerin', 'Italian', 'Drinks', 'Easy', 5, 5, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'bicerin'),
+  c('schweinebraten', 'Schweinebraten', 'German', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Dairy-Free'], ['new'], 'schweinebraten')
 ];

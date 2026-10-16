@@ -792,7 +792,10 @@ const EXT6_FOODS = {
   pork_shank: [16, 0, 9, 0, 0, 60],
   mortadella: [15, 1, 30, 0, 0, 1100],
   cotechino: [12, 0.5, 30, 0, 0, 1000],
-  juniper: [4, 42, 7, 0, 0, 10]
+  juniper: [4, 42, 7, 0, 0, 10],
+  globe_artichoke: [3.3, 11, 0.2, 5.4, 1, 94],
+  guanciale: [9, 0, 68, 0, 0, 1700],
+  bitter_liqueur: [0, 24, 0, 0, 24, 5]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -819,7 +822,11 @@ const EXT6_ALIAS = {
   pork_shank: ['pork shanks', 'pork shank'],
   mortadella: ['mortadella'],
   cotechino: ['raw cotechino', 'cotechino'],
-  juniper: ['juniper berries', 'juniper']
+  juniper: ['juniper berries', 'juniper'],
+  globe_artichoke: ['globe artichokes', 'globe artichoke'],
+  guanciale: ['guanciale'],
+  bitter_liqueur: ['bitter orange liqueur', 'aperol'],
+  white_wine: ['dry prosecco', 'prosecco']
 };
 const EXT6_PORTION = {
 
