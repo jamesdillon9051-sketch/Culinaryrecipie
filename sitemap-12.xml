@@ -6,6 +6,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuiles-aux-amandes.jpg</image:loc>
+      <image:title>Tuiles aux Amandes</image:title>
+      <image:caption>Tuiles aux Amandes, a French baking recipe — french almond tile biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nougat-de-montelimar/</loc>
@@ -18,12 +23,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-bourdaloue.jpg</image:loc>
+      <image:title>Tarte Bourdaloue</image:title>
+      <image:caption>Tarte Bourdaloue, a French dessert recipe — pear and almond cream tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/poire-belle-helene/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poire-belle-helene.jpg</image:loc>
+      <image:title>Poire Belle Helene</image:title>
+      <image:caption>Poire Belle Helene, a French dessert recipe — poached pears with chocolate sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soupe-aux-choux/</loc>
@@ -48,6 +63,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-tropezienne.jpg</image:loc>
+      <image:title>Tarte Tropezienne</image:title>
+      <image:caption>Tarte Tropezienne, a French baking recipe — brioche with vanilla cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bugnes/</loc>
@@ -60,6 +80,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baeckeoffe.jpg</image:loc>
+      <image:title>Baeckeoffe</image:title>
+      <image:caption>Baeckeoffe, a French dinner recipe — alsatian meat and potato casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bretzel-alsacien/</loc>
@@ -90,6 +115,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-vallee-dauge.jpg</image:loc>
+      <image:title>Poulet Vallee d&#39;Auge</image:title>
+      <image:caption>Poulet Vallee d&#39;Auge, a French dinner recipe — chicken with apples and cider</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/poulet-au-vinaigre/</loc>
@@ -108,6 +138,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poulet-marengo.jpg</image:loc>
+      <image:title>Poulet Marengo</image:title>
+      <image:caption>Poulet Marengo, a French dinner recipe — chicken with tomatoes and mushrooms in white wine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gigot-de-sept-heures/</loc>
@@ -120,6 +155,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ris-de-veau.jpg</image:loc>
+      <image:title>Ris de Veau</image:title>
+      <image:caption>Ris de Veau, a French dinner recipe — veal sweetbreads in cream sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roti-de-porc-au-lait/</loc>
@@ -132,6 +172,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/filet-de-porc-moutarde.jpg</image:loc>
+      <image:title>Filet de Porc Moutarde</image:title>
+      <image:caption>Filet de Porc Moutarde, a French dinner recipe — pork tenderloin in mustard sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jambon-braise-madere/</loc>
@@ -180,6 +225,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salade-de-betteraves.jpg</image:loc>
+      <image:title>Salade de Betteraves</image:title>
+      <image:caption>Salade de Betteraves, a healthy French recipe — french beetroot salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pommes-sarladaises/</loc>
@@ -204,6 +254,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-aux-abricots.jpg</image:loc>
+      <image:title>Tarte aux Abricots</image:title>
+      <image:caption>Tarte aux Abricots, a French dessert recipe — french apricot tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-au-chocolat/</loc>
@@ -216,12 +271,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gateau-nantais.jpg</image:loc>
+      <image:title>Gateau Nantais</image:title>
+      <image:caption>Gateau Nantais, a French baking recipe — french almond and rum cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gateau-breton/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gateau-breton.jpg</image:loc>
+      <image:title>Gateau Breton</image:title>
+      <image:caption>Gateau Breton, a French baking recipe — breton butter cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cake-au-citron/</loc>
@@ -246,6 +311,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bavarois.jpg</image:loc>
+      <image:title>Bavarois</image:title>
+      <image:caption>Bavarois, a French dessert recipe — french set vanilla cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/genoise/</loc>
@@ -264,6 +334,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pate-a-choux.jpg</image:loc>
+      <image:title>Pate a Choux</image:title>
+      <image:caption>Pate a Choux, a French baking recipe — basic choux buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chantilly/</loc>
@@ -300,6 +375,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sauce-veloute.jpg</image:loc>
+      <image:title>Sauce Veloute</image:title>
+      <image:caption>Sauce Veloute, a French dinner recipe — french veloute sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gaufres-liegeoises/</loc>
@@ -348,18 +428,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bouneschlupp.jpg</image:loc>
+      <image:title>Bouneschlupp</image:title>
+      <image:caption>Bouneschlupp, a Luxembourgish lunch recipe — luxembourg green bean soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kniddelen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kniddelen.jpg</image:loc>
+      <image:title>Kniddelen</image:title>
+      <image:caption>Kniddelen, a Luxembourgish dinner recipe — flour dumplings with bacon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gromperekichelcher/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gromperekichelcher.jpg</image:loc>
+      <image:title>Gromperekichelcher</image:title>
+      <image:caption>Gromperekichelcher, a Luxembourgish appetizer recipe — luxembourg potato fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/quetschentaart/</loc>
@@ -378,30 +473,55 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-napoletana.jpg</image:loc>
+      <image:title>Pizza Napoletana</image:title>
+      <image:caption>Pizza Napoletana, an Italian dinner recipe — neapolitan pizza at home</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-al-taglio/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-al-taglio.jpg</image:loc>
+      <image:title>Pizza al Taglio</image:title>
+      <image:caption>Pizza al Taglio, an Italian dinner recipe — roman tray pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/focaccia-barese/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/focaccia-barese.jpg</image:loc>
+      <image:title>Focaccia Barese</image:title>
+      <image:caption>Focaccia Barese, an Italian baking recipe — focaccia with tomatoes and olives</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/semifreddo/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/semifreddo.jpg</image:loc>
+      <image:title>Semifreddo</image:title>
+      <image:caption>Semifreddo, an Italian dessert recipe — frozen dessert without ice cream machine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bombolone/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bombolone.jpg</image:loc>
+      <image:title>Bombolone</image:title>
+      <image:caption>Bombolone, an Italian baking recipe — bomboloni italian doughnuts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/polenta-taragna/</loc>
@@ -432,6 +552,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/trippa-alla-fiorentina.jpg</image:loc>
+      <image:title>Trippa alla Fiorentina</image:title>
+      <image:caption>Trippa alla Fiorentina, an Italian dinner recipe — italian tripe in tomato sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pomodori-ripieni/</loc>
@@ -444,6 +569,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fagioli-alluccelletto.jpg</image:loc>
+      <image:title>Fagioli all&#39;Uccelletto</image:title>
+      <image:caption>Fagioli all&#39;Uccelletto, an Italian dinner recipe — fagioli all uccelletto</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortelli-di-zucca/</loc>
@@ -456,6 +586,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/seadas.jpg</image:loc>
+      <image:title>Seadas</image:title>
+      <image:caption>Seadas, an Italian dessert recipe — sardinian cheese pastry with honey</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-di-mele/</loc>
@@ -480,6 +615,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/biscotti-savoiardi.jpg</image:loc>
+      <image:title>Biscotti Savoiardi</image:title>
+      <image:caption>Biscotti Savoiardi, an Italian baking recipe — italian sponge fingers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortino-al-cioccolato/</loc>
@@ -492,18 +632,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bonet.jpg</image:loc>
+      <image:title>Bonet</image:title>
+      <image:caption>Bonet, an Italian dessert recipe — piedmont chocolate pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frittelle-di-carnevale/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frittelle-di-carnevale.jpg</image:loc>
+      <image:title>Frittelle di Carnevale</image:title>
+      <image:caption>Frittelle di Carnevale, an Italian dessert recipe — italian carnival fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chiacchiere/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chiacchiere.jpg</image:loc>
+      <image:title>Chiacchiere</image:title>
+      <image:caption>Chiacchiere, an Italian holiday recipe — italian carnival pastry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/castagnole/</loc>
@@ -534,6 +689,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/burrata-with-tomatoes.jpg</image:loc>
+      <image:title>Burrata with Tomatoes</image:title>
+      <image:caption>Burrata with Tomatoes, a quick Italian meal recipe — burrata and tomato salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-fritta/</loc>
@@ -546,18 +706,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pinsa-romana.jpg</image:loc>
+      <image:title>Pinsa Romana</image:title>
+      <image:caption>Pinsa Romana, an Italian dinner recipe — oval italian flatbread pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gnocco-fritto/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gnocco-fritto.jpg</image:loc>
+      <image:title>Gnocco Fritto</image:title>
+      <image:caption>Gnocco Fritto, an Italian appetizer recipe — fried dough diamonds emilia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-alla-nerano/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-alla-nerano.jpg</image:loc>
+      <image:title>Spaghetti alla Nerano</image:title>
+      <image:caption>Spaghetti alla Nerano, an Italian dinner recipe — courgette and provolone spaghetti</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-con-le-zucchine/</loc>
@@ -576,6 +751,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasta-al-forno.jpg</image:loc>
+      <image:title>Pasta al Forno</image:title>
+      <image:caption>Pasta al Forno, an Italian dinner recipe — italian baked pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasta-alla-carrettiera/</loc>
@@ -588,6 +768,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-al-tonno.jpg</image:loc>
+      <image:title>Spaghetti al Tonno</image:title>
+      <image:caption>Spaghetti al Tonno, a quick Italian meal recipe — tuna spaghetti italian</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-alla-bottarga/</loc>
@@ -600,6 +785,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spaghetti-con-le-cozze.jpg</image:loc>
+      <image:title>Spaghetti con le Cozze</image:title>
+      <image:caption>Spaghetti con le Cozze, an Italian dinner recipe — spaghetti with mussels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/linguine-allo-scoglio/</loc>
@@ -630,6 +820,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/risotto-alla-pescatora.jpg</image:loc>
+      <image:title>Risotto alla Pescatora</image:title>
+      <image:caption>Risotto alla Pescatora, an Italian dinner recipe — italian seafood risotto</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/risotto-al-radicchio/</loc>
@@ -690,6 +885,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/castagnaccio.jpg</image:loc>
+      <image:title>Castagnaccio</image:title>
+      <image:caption>Castagnaccio, an Italian baking recipe — chestnut flour cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trenette-al-pesto/</loc>
@@ -708,12 +908,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peperoni-ripieni.jpg</image:loc>
+      <image:title>Peperoni Ripieni</image:title>
+      <image:caption>Peperoni Ripieni, an Italian dinner recipe — italian stuffed peppers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/involtini-di-melanzane/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/involtini-di-melanzane.jpg</image:loc>
+      <image:title>Involtini di Melanzane</image:title>
+      <image:caption>Involtini di Melanzane, an Italian appetizer recipe — aubergine rolls with ricotta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-alla-romana/</loc>
@@ -732,12 +942,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-con-i-peperoni.jpg</image:loc>
+      <image:title>Pollo con i Peperoni</image:title>
+      <image:caption>Pollo con i Peperoni, an Italian dinner recipe — chicken and pepper traybake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cinghiale-in-umido/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cinghiale-in-umido.jpg</image:loc>
+      <image:title>Cinghiale in Umido</image:title>
+      <image:caption>Cinghiale in Umido, an Italian dinner recipe — italian wild boar stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stinco-di-maiale/</loc>
@@ -750,12 +970,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arrosticini.jpg</image:loc>
+      <image:title>Arrosticini</image:title>
+      <image:caption>Arrosticini, an Italian dinner recipe — abruzzo lamb skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/costine-di-maiale/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/costine-di-maiale.jpg</image:loc>
+      <image:title>Costine di Maiale</image:title>
+      <image:caption>Costine di Maiale, an Italian dinner recipe — italian pork ribs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salsiccia-e-friarielli/</loc>
@@ -792,24 +1022,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crostini-toscani.jpg</image:loc>
+      <image:title>Crostini Toscani</image:title>
+      <image:caption>Crostini Toscani, an Italian appetizer recipe — tuscan chicken liver crostini</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tramezzini/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tramezzini.jpg</image:loc>
+      <image:title>Tramezzini</image:title>
+      <image:caption>Tramezzini, an Italian lunch recipe — crustless italian sandwiches</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tortellini-panna-e-prosciutto/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tortellini-panna-e-prosciutto.jpg</image:loc>
+      <image:title>Tortellini Panna e Prosciutto</image:title>
+      <image:caption>Tortellini Panna e Prosciutto, a quick Italian meal recipe — tortellini with cream and ham</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mozzarella-in-carrozza/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mozzarella-in-carrozza.jpg</image:loc>
+      <image:title>Mozzarella in Carrozza</image:title>
+      <image:caption>Mozzarella in Carrozza, an Italian appetizer recipe — fried mozzarella sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gelato-al-pistacchio/</loc>
@@ -828,6 +1078,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spumoni.jpg</image:loc>
+      <image:title>Spumoni</image:title>
+      <image:caption>Spumoni, an Italian dessert recipe — italian layered ice cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pesche-ripiene/</loc>
@@ -846,6 +1101,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zuccotto.jpg</image:loc>
+      <image:title>Zuccotto</image:title>
+      <image:caption>Zuccotto, an Italian dessert recipe — italian dome cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/budino-al-cioccolato/</loc>
@@ -870,6 +1130,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasticciotto.jpg</image:loc>
+      <image:title>Pasticciotto</image:title>
+      <image:caption>Pasticciotto, an Italian baking recipe — italian custard pastry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baci-di-dama/</loc>
@@ -882,6 +1147,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/torta-margherita.jpg</image:loc>
+      <image:title>Torta Margherita</image:title>
+      <image:caption>Torta Margherita, an Italian baking recipe — italian sponge cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/torta-di-noci/</loc>
@@ -894,6 +1164,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tigelle.jpg</image:loc>
+      <image:title>Tigelle</image:title>
+      <image:caption>Tigelle, an Italian baking recipe — italian griddle breads</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crostata-alla-nutella/</loc>
@@ -906,6 +1181,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crostata-di-ricotta.jpg</image:loc>
+      <image:title>Crostata di Ricotta</image:title>
+      <image:caption>Crostata di Ricotta, an Italian baking recipe — italian ricotta tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crostata-alle-fragole/</loc>
@@ -924,18 +1204,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-quattro-stagioni.jpg</image:loc>
+      <image:title>Pizza Quattro Stagioni</image:title>
+      <image:caption>Pizza Quattro Stagioni, an Italian dinner recipe — four seasons pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-capricciosa/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-capricciosa.jpg</image:loc>
+      <image:title>Pizza Capricciosa</image:title>
+      <image:caption>Pizza Capricciosa, an Italian dinner recipe — pizza with ham mushrooms and artichokes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-marinara/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-marinara.jpg</image:loc>
+      <image:title>Pizza Marinara</image:title>
+      <image:caption>Pizza Marinara, an Italian dinner recipe — neapolitan marinara pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-quattro-formaggi/</loc>
@@ -972,12 +1267,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lasagne-bianche.jpg</image:loc>
+      <image:title>Lasagne Bianche</image:title>
+      <image:caption>Lasagne Bianche, an Italian dinner recipe — lasagne with bechamel and ham</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cannelloni-ricotta-e-spinaci/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cannelloni-ricotta-e-spinaci.jpg</image:loc>
+      <image:title>Cannelloni Ricotta e Spinaci</image:title>
+      <image:caption>Cannelloni Ricotta e Spinaci, an Italian dinner recipe — spinach and ricotta cannelloni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/conchiglioni-ripieni/</loc>
@@ -1008,6 +1313,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rigatoni-allamatriciana.jpg</image:loc>
+      <image:title>Rigatoni all&#39;Amatriciana</image:title>
+      <image:caption>Rigatoni all&#39;Amatriciana, an Italian dinner recipe — rigatoni all amatriciana</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/risotto-allo-zafferano/</loc>
@@ -1050,6 +1360,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/panna-cotta-ai-frutti-di-bosco.jpg</image:loc>
+      <image:title>Panna Cotta ai Frutti di Bosco</image:title>
+      <image:caption>Panna Cotta ai Frutti di Bosco, an Italian dessert recipe — panna cotta with berries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crespelle/</loc>
@@ -1068,6 +1383,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/limoncello.jpg</image:loc>
+      <image:title>Limoncello</image:title>
+      <image:caption>Limoncello, an Italian drink recipe — italian lemon liqueur</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spritz-veneziano/</loc>
@@ -1080,6 +1400,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bicerin.jpg</image:loc>
+      <image:title>Bicerin</image:title>
+      <image:caption>Bicerin, an Italian drink recipe — chocolate and coffee layered drink</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/schweinebraten/</loc>
@@ -1092,6 +1417,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eisbein.jpg</image:loc>
+      <image:title>Eisbein</image:title>
+      <image:caption>Eisbein, a German dinner recipe — german pork knuckle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/schweinshaxe/</loc>
@@ -1110,36 +1440,66 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kartoffelpuffer.jpg</image:loc>
+      <image:title>Kartoffelpuffer</image:title>
+      <image:caption>Kartoffelpuffer, a German dinner recipe — german potato pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kartoffelklosse/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kartoffelklosse.jpg</image:loc>
+      <image:title>Kartoffelklosse</image:title>
+      <image:caption>Kartoffelklosse, a German dinner recipe — german potato dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/semmelknodel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/semmelknodel.jpg</image:loc>
+      <image:title>Semmelknodel</image:title>
+      <image:caption>Semmelknodel, a German dinner recipe — german bread dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/labskaus/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/labskaus.jpg</image:loc>
+      <image:title>Labskaus</image:title>
+      <image:caption>Labskaus, a German dinner recipe — german corned beef hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/himmel-und-erde/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/himmel-und-erde.jpg</image:loc>
+      <image:title>Himmel und Erde</image:title>
+      <image:caption>Himmel und Erde, a German dinner recipe — heaven and earth german</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maultaschen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maultaschen.jpg</image:loc>
+      <image:title>Maultaschen</image:title>
+      <image:caption>Maultaschen, a German dinner recipe — german filled pasta pockets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leberkase/</loc>
@@ -1152,36 +1512,66 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/weisswurst.jpg</image:loc>
+      <image:title>Weisswurst</image:title>
+      <image:caption>Weisswurst, a quick German meal recipe — bavarian white sausage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bienenstich/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bienenstich.jpg</image:loc>
+      <image:title>Bienenstich</image:title>
+      <image:caption>Bienenstich, a German baking recipe — german bee sting cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/berliner-pfannkuchen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/berliner-pfannkuchen.jpg</image:loc>
+      <image:title>Berliner Pfannkuchen</image:title>
+      <image:caption>Berliner Pfannkuchen, a German baking recipe — german jam doughnuts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spekulatius/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spekulatius.jpg</image:loc>
+      <image:title>Spekulatius</image:title>
+      <image:caption>Spekulatius, a German holiday recipe — german spiced biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pfeffernusse/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pfeffernusse.jpg</image:loc>
+      <image:title>Pfeffernusse</image:title>
+      <image:caption>Pfeffernusse, a German holiday recipe — german pepper nut biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vanillekipferl/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vanillekipferl.jpg</image:loc>
+      <image:title>Vanillekipferl</image:title>
+      <image:caption>Vanillekipferl, a German holiday recipe — vanilla crescent biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zimtsterne/</loc>
@@ -1206,12 +1596,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/eintopf.jpg</image:loc>
+      <image:title>Eintopf</image:title>
+      <image:caption>Eintopf, a German dinner recipe — german beef and vegetable stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dampfnudeln/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/dampfnudeln.jpg</image:loc>
+      <image:title>Dampfnudeln</image:title>
+      <image:caption>Dampfnudeln, a German dessert recipe — german yeast dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rhabarberkuchen/</loc>
@@ -1224,12 +1624,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/streuselkuchen.jpg</image:loc>
+      <image:title>Streuselkuchen</image:title>
+      <image:caption>Streuselkuchen, a German baking recipe — german crumb cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rote-grutze/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/rote-grutze.jpg</image:loc>
+      <image:title>Rote Grutze</image:title>
+      <image:caption>Rote Grutze, a German dessert recipe — german red berry pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kasekuchen/</loc>
@@ -1260,6 +1670,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fischbrotchen.jpg</image:loc>
+      <image:title>Fischbrotchen</image:title>
+      <image:caption>Fischbrotchen, a quick German meal recipe — german fish roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gurkensalat/</loc>
@@ -1278,6 +1693,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spargel-mit-hollandaise.jpg</image:loc>
+      <image:title>Spargel mit Hollandaise</image:title>
+      <image:caption>Spargel mit Hollandaise, a German dinner recipe — german white asparagus</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bohnensuppe/</loc>
@@ -1290,12 +1710,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vollkornbrot.jpg</image:loc>
+      <image:title>Vollkornbrot</image:title>
+      <image:caption>Vollkornbrot, a German baking recipe — german wholemeal bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpernickel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pumpernickel.jpg</image:loc>
+      <image:title>Pumpernickel</image:title>
+      <image:caption>Pumpernickel, a German baking recipe — dark rye bread with treacle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nussecken/</loc>
@@ -1308,60 +1738,110 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spritzgeback.jpg</image:loc>
+      <image:title>Spritzgebäck</image:title>
+      <image:caption>Spritzgebäck, a German baking recipe — german piped butter biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/butterkuchen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/butterkuchen.jpg</image:loc>
+      <image:title>Butterkuchen</image:title>
+      <image:caption>Butterkuchen, a German baking recipe — german butter cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zwiebelkuchen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zwiebelkuchen.jpg</image:loc>
+      <image:title>Zwiebelkuchen</image:title>
+      <image:caption>Zwiebelkuchen, a German lunch recipe — german onion tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apfelkuchen-blech/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apfelkuchen-blech.jpg</image:loc>
+      <image:title>Apfelkuchen Blech</image:title>
+      <image:caption>Apfelkuchen Blech, a German baking recipe — german apple tray bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mohnkuchen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mohnkuchen.jpg</image:loc>
+      <image:title>Mohnkuchen</image:title>
+      <image:caption>Mohnkuchen, a German baking recipe — german poppy seed cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hefezopf/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hefezopf.jpg</image:loc>
+      <image:title>Hefezopf</image:title>
+      <image:caption>Hefezopf, a German baking recipe — german braided yeast bread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prinzregententorte/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prinzregententorte.jpg</image:loc>
+      <image:title>Prinzregententorte</image:title>
+      <image:caption>Prinzregententorte, a German baking recipe — bavarian layer cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frankfurter-kranz/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frankfurter-kranz.jpg</image:loc>
+      <image:title>Frankfurter Kranz</image:title>
+      <image:caption>Frankfurter Kranz, a German baking recipe — frankfurt crown cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/donauwelle/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/donauwelle.jpg</image:loc>
+      <image:title>Donauwelle</image:title>
+      <image:caption>Donauwelle, a German baking recipe — danube wave cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baumkuchen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baumkuchen.jpg</image:loc>
+      <image:title>Baumkuchen</image:title>
+      <image:caption>Baumkuchen, a German baking recipe — german tree cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/haselnussmakronen/</loc>
@@ -1386,6 +1866,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gulaschsuppe.jpg</image:loc>
+      <image:title>Gulaschsuppe</image:title>
+      <image:caption>Gulaschsuppe, a German lunch recipe — german goulash soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/huhnersuppe-mit-nudeln/</loc>
@@ -1416,12 +1901,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/strammer-max.jpg</image:loc>
+      <image:title>Strammer Max</image:title>
+      <image:caption>Strammer Max, a quick German meal recipe — german ham and egg open sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bauernfruhstuck/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bauernfruhstuck.jpg</image:loc>
+      <image:title>Bauernfrühstück</image:title>
+      <image:caption>Bauernfrühstück, a German breakfast recipe — german farmers breakfast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jagerschnitzel/</loc>
@@ -1440,18 +1935,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/thuringer-rostbratwurst.jpg</image:loc>
+      <image:title>Thüringer Rostbratwurst</image:title>
+      <image:caption>Thüringer Rostbratwurst, a German dinner recipe — german grilled sausage in a roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nurnberger-rostbratwurst/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nurnberger-rostbratwurst.jpg</image:loc>
+      <image:title>Nürnberger Rostbratwurst</image:title>
+      <image:caption>Nürnberger Rostbratwurst, a German dinner recipe — small german bratwurst sausages</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bockwurst/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bockwurst.jpg</image:loc>
+      <image:title>Bockwurst</image:title>
+      <image:caption>Bockwurst, a quick German meal recipe — german boiled sausage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gansebraten/</loc>
@@ -1470,6 +1980,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/wildschweinbraten.jpg</image:loc>
+      <image:title>Wildschweinbraten</image:title>
+      <image:caption>Wildschweinbraten, a German dinner recipe — german roast wild boar</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/forelle-mullerin/</loc>
@@ -1482,18 +1997,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/backfisch.jpg</image:loc>
+      <image:title>Backfisch</image:title>
+      <image:caption>Backfisch, a German dinner recipe — german battered fish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/heringssalat/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/heringssalat.jpg</image:loc>
+      <image:title>Heringssalat</image:title>
+      <image:caption>Heringssalat, a German lunch recipe — german herring salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/nudelsalat-deutsch/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/nudelsalat-deutsch.jpg</image:loc>
+      <image:title>Nudelsalat Deutsch</image:title>
+      <image:caption>Nudelsalat Deutsch, a German lunch recipe — german pasta salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/frankfurter-wurstchen/</loc>
@@ -1506,12 +2036,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/germknodel.jpg</image:loc>
+      <image:title>Germknodel</image:title>
+      <image:caption>Germknodel, an Austrian dessert recipe — austrian yeast dumplings with plum jam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/marillenknodel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/marillenknodel.jpg</image:loc>
+      <image:title>Marillenknodel</image:title>
+      <image:caption>Marillenknodel, an Austrian dessert recipe — austrian apricot dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/palatschinken/</loc>
@@ -1524,12 +2064,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/topfenstrudel.jpg</image:loc>
+      <image:title>Topfenstrudel</image:title>
+      <image:caption>Topfenstrudel, an Austrian dessert recipe — austrian curd cheese strudel</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/backhendl/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/backhendl.jpg</image:loc>
+      <image:title>Backhendl</image:title>
+      <image:caption>Backhendl, an Austrian dinner recipe — viennese fried chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rindsuppe/</loc>
@@ -1542,12 +2092,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/frittatensuppe.jpg</image:loc>
+      <image:title>Frittatensuppe</image:title>
+      <image:caption>Frittatensuppe, an Austrian lunch recipe — austrian pancake soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/serviettenknodel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/serviettenknodel.jpg</image:loc>
+      <image:title>Serviettenknödel</image:title>
+      <image:caption>Serviettenknödel, an Austrian dinner recipe — austrian napkin dumpling</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/griessknodel/</loc>
@@ -1560,42 +2120,77 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salzburger-nockerl.jpg</image:loc>
+      <image:title>Salzburger Nockerl</image:title>
+      <image:caption>Salzburger Nockerl, an Austrian dessert recipe — austrian sweet souffle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/esterhazy-torte/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/esterhazy-torte.jpg</image:loc>
+      <image:title>Esterhazy Torte</image:title>
+      <image:caption>Esterhazy Torte, an Austrian baking recipe — austrian walnut meringue cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kaspressknodel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kaspressknodel.jpg</image:loc>
+      <image:title>Kaspressknödel</image:title>
+      <image:caption>Kaspressknödel, an Austrian dinner recipe — tyrolean cheese dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tiroler-grostl/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tiroler-grostl.jpg</image:loc>
+      <image:title>Tiroler Gröstl</image:title>
+      <image:caption>Tiroler Gröstl, an Austrian dinner recipe — austrian fried potatoes and bacon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hutspot/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hutspot.jpg</image:loc>
+      <image:title>Hutspot</image:title>
+      <image:caption>Hutspot, a Dutch dinner recipe — dutch carrot and potato mash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kroketten/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kroketten.jpg</image:loc>
+      <image:title>Kroketten</image:title>
+      <image:caption>Kroketten, a Dutch appetizer recipe — dutch beef croquettes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oliebollen/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oliebollen.jpg</image:loc>
+      <image:title>Oliebollen</image:title>
+      <image:caption>Oliebollen, a Dutch holiday recipe — dutch new year doughnuts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/appeltaart/</loc>
@@ -1614,6 +2209,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kibbeling.jpg</image:loc>
+      <image:title>Kibbeling</image:title>
+      <image:caption>Kibbeling, a Dutch appetizer recipe — dutch fried fish bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gehaktbal/</loc>
@@ -1644,42 +2244,77 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gevulde-koeken.jpg</image:loc>
+      <image:title>Gevulde Koeken</image:title>
+      <image:caption>Gevulde Koeken, a Dutch baking recipe — dutch almond filled biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tompouce/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tompouce.jpg</image:loc>
+      <image:title>Tompouce</image:title>
+      <image:caption>Tompouce, a Dutch dessert recipe — pink iced puff pastry cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vlaai/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vlaai.jpg</image:loc>
+      <image:title>Vlaai</image:title>
+      <image:caption>Vlaai, a Dutch baking recipe — dutch fruit pie with yeast crust</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/callos-a-la-madrilena/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/callos-a-la-madrilena.jpg</image:loc>
+      <image:title>Callos a la Madrilena</image:title>
+      <image:caption>Callos a la Madrilena, a Spanish dinner recipe — madrid tripe stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boquerones-en-vinagre/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boquerones-en-vinagre.jpg</image:loc>
+      <image:title>Boquerones en Vinagre</image:title>
+      <image:caption>Boquerones en Vinagre, a Spanish appetizer recipe — spanish vinegar anchovies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boquerones-fritos/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boquerones-fritos.jpg</image:loc>
+      <image:title>Boquerones Fritos</image:title>
+      <image:caption>Boquerones Fritos, a Spanish appetizer recipe — fried anchovies spanish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/merluza-a-la-vasca/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/merluza-a-la-vasca.jpg</image:loc>
+      <image:title>Merluza a la Vasca</image:title>
+      <image:caption>Merluza a la Vasca, a Spanish dinner recipe — basque hake in green sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zarzuela-de-pescado/</loc>
@@ -1692,6 +2327,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arroz-a-banda.jpg</image:loc>
+      <image:title>Arroz a Banda</image:title>
+      <image:caption>Arroz a Banda, a Spanish dinner recipe — valencian fish stock rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ajoblanco/</loc>
@@ -1704,6 +2344,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garbanzos-con-chorizo.jpg</image:loc>
+      <image:title>Garbanzos con Chorizo</image:title>
+      <image:caption>Garbanzos con Chorizo, a Spanish dinner recipe — spanish chickpeas with chorizo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carrillada-iberica/</loc>
@@ -1728,6 +2373,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chuletillas-de-cordero.jpg</image:loc>
+      <image:title>Chuletillas de Cordero</image:title>
+      <image:caption>Chuletillas de Cordero, a Spanish dinner recipe — spanish lamb cutlets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/solomillo-al-whisky/</loc>
@@ -1740,6 +2390,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pinchos-morunos.jpg</image:loc>
+      <image:title>Pinchos Morunos</image:title>
+      <image:caption>Pinchos Morunos, a Spanish appetizer recipe — spanish pork skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/empanadillas/</loc>
@@ -1752,6 +2407,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/montaditos.jpg</image:loc>
+      <image:title>Montaditos</image:title>
+      <image:caption>Montaditos, a Spanish appetizer recipe — spanish mini sandwiches</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gildas/</loc>
@@ -1764,18 +2424,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ensaladilla-rusa.jpg</image:loc>
+      <image:title>Ensaladilla Rusa</image:title>
+      <image:caption>Ensaladilla Rusa, a Spanish appetizer recipe — spanish russian salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/canelones-de-carne/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/canelones-de-carne.jpg</image:loc>
+      <image:title>Canelones de Carne</image:title>
+      <image:caption>Canelones de Carne, a Spanish dinner recipe — catalan meat cannelloni</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/natillas/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/natillas.jpg</image:loc>
+      <image:title>Natillas</image:title>
+      <image:caption>Natillas, a Spanish dessert recipe — spanish egg custard with cinnamon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mojo-picon/</loc>
@@ -1788,6 +2463,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/papas-arrugadas.jpg</image:loc>
+      <image:title>Papas Arrugadas</image:title>
+      <image:caption>Papas Arrugadas, a Spanish appetizer recipe — canary islands wrinkled potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/huevos-a-la-flamenca/</loc>
@@ -1806,12 +2486,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bunuelos-de-viento.jpg</image:loc>
+      <image:title>Bunuelos de Viento</image:title>
+      <image:caption>Bunuelos de Viento, a Spanish holiday recipe — spanish choux fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cocido-montanes/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cocido-montanes.jpg</image:loc>
+      <image:title>Cocido Montanes</image:title>
+      <image:caption>Cocido Montanes, a Spanish dinner recipe — cantabrian bean and cabbage stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pote-gallego/</loc>
@@ -1830,6 +2520,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sopa-castellana.jpg</image:loc>
+      <image:title>Sopa Castellana</image:title>
+      <image:caption>Sopa Castellana, a Spanish lunch recipe — castilian garlic soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/alcachofas-con-jamon/</loc>
@@ -1854,12 +2549,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/revuelto-de-setas.jpg</image:loc>
+      <image:title>Revuelto de Setas</image:title>
+      <image:caption>Revuelto de Setas, a Spanish appetizer recipe — spanish scrambled eggs with mushrooms</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-en-pepitoria/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pollo-en-pepitoria.jpg</image:loc>
+      <image:title>Pollo en Pepitoria</image:title>
+      <image:caption>Pollo en Pepitoria, a Spanish dinner recipe — chicken in almond and saffron sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pollo-al-chilindron/</loc>
@@ -1884,6 +2589,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arroz-caldoso.jpg</image:loc>
+      <image:title>Arroz Caldoso</image:title>
+      <image:caption>Arroz Caldoso, a Spanish dinner recipe — spanish soupy rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mejillones-a-la-marinera/</loc>
@@ -1896,6 +2606,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pulpo-a-feira.jpg</image:loc>
+      <image:title>Pulpo a Feira</image:title>
+      <image:caption>Pulpo a Feira, a Spanish appetizer recipe — spanish octopus with paprika and potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/dorada-a-la-sal/</loc>
@@ -1908,18 +2623,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/porra-antequerana.jpg</image:loc>
+      <image:title>Porra Antequerana</image:title>
+      <image:caption>Porra Antequerana, a Spanish lunch recipe — thick andalusian tomato soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pa-amb-oli/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pa-amb-oli.jpg</image:loc>
+      <image:title>Pa amb Oli</image:title>
+      <image:caption>Pa amb Oli, a Spanish appetizer recipe — mallorcan bread with oil</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/espinacas-a-la-catalana/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/espinacas-a-la-catalana.jpg</image:loc>
+      <image:title>Espinacas a la Catalana</image:title>
+      <image:caption>Espinacas a la Catalana, a Spanish dinner recipe — catalan spinach with raisins and pine nuts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chuleton-de-buey/</loc>
@@ -1938,6 +2668,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bacalhau-a-gomes-de-sa.jpg</image:loc>
+      <image:title>Bacalhau a Gomes de Sa</image:title>
+      <image:caption>Bacalhau a Gomes de Sa, a Portuguese dinner recipe — portuguese salt cod with potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/arroz-de-pato/</loc>
@@ -1950,18 +2685,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sardinhas-assadas.jpg</image:loc>
+      <image:title>Sardinhas Assadas</image:title>
+      <image:caption>Sardinhas Assadas, a Portuguese dinner recipe — portuguese grilled sardines</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/polvo-a-lagareiro/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/polvo-a-lagareiro.jpg</image:loc>
+      <image:title>Polvo a Lagareiro</image:title>
+      <image:caption>Polvo a Lagareiro, a Portuguese dinner recipe — portuguese roast octopus</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cozido-a-portuguesa/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cozido-a-portuguesa.jpg</image:loc>
+      <image:title>Cozido a Portuguesa</image:title>
+      <image:caption>Cozido a Portuguesa, a Portuguese dinner recipe — portuguese boiled dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prego-no-pao/</loc>
@@ -1974,6 +2724,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bolo-de-bolacha.jpg</image:loc>
+      <image:title>Bolo de Bolacha</image:title>
+      <image:caption>Bolo de Bolacha, a Portuguese dessert recipe — portuguese biscuit cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/queijadas-de-sintra/</loc>
@@ -1992,12 +2747,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/acorda-alentejana.jpg</image:loc>
+      <image:title>Acorda Alentejana</image:title>
+      <image:caption>Acorda Alentejana, a Portuguese dinner recipe — portuguese bread soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ameijoas-a-bulhao-pato/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ameijoas-a-bulhao-pato.jpg</image:loc>
+      <image:title>Amêijoas à Bulhão Pato</image:title>
+      <image:caption>Amêijoas à Bulhão Pato, a Portuguese dinner recipe — ameijoas a bulhao pato</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caldeirada-de-peixe/</loc>
@@ -2010,6 +2775,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pao-de-lo.jpg</image:loc>
+      <image:title>Pao de Lo</image:title>
+      <image:caption>Pao de Lo, a Portuguese baking recipe — portuguese sponge cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pao-de-deus/</loc>
@@ -2028,6 +2798,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ovos-moles.jpg</image:loc>
+      <image:title>Ovos Moles</image:title>
+      <image:caption>Ovos Moles, a Portuguese dessert recipe — portuguese egg yolk sweet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/toucinho-do-ceu/</loc>
@@ -2052,6 +2827,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chourico-assado.jpg</image:loc>
+      <image:title>Chourico Assado</image:title>
+      <image:caption>Chourico Assado, a Portuguese appetizer recipe — flaming portuguese chorizo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/migas-portuguesas/</loc>
@@ -2064,6 +2844,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carne-de-porco-a-alentejana.jpg</image:loc>
+      <image:title>Carne de Porco a Alentejana</image:title>
+      <image:caption>Carne de Porco a Alentejana, a Portuguese dinner recipe — portuguese pork and clams</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacalhau-com-grao/</loc>
@@ -2082,6 +2867,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/leitao-da-bairrada.jpg</image:loc>
+      <image:title>Leitao da Bairrada</image:title>
+      <image:caption>Leitao da Bairrada, a Portuguese dinner recipe — portuguese roast suckling pig</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sopa-de-feijao-verde/</loc>
@@ -2094,6 +2884,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/giouvetsi.jpg</image:loc>
+      <image:title>Giouvetsi</image:title>
+      <image:caption>Giouvetsi, a Greek dinner recipe — greek lamb with orzo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halva/</loc>
@@ -2106,6 +2901,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/melomakarona.jpg</image:loc>
+      <image:title>Melomakarona</image:title>
+      <image:caption>Melomakarona, a Greek holiday recipe — greek honey cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kourabiedes/</loc>
@@ -2118,12 +2918,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kolokithokeftedes.jpg</image:loc>
+      <image:title>Kolokithokeftedes</image:title>
+      <image:caption>Kolokithokeftedes, a Greek appetizer recipe — greek courgette fritters</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bougatsa/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bougatsa.jpg</image:loc>
+      <image:title>Bougatsa</image:title>
+      <image:caption>Bougatsa, a Greek breakfast recipe — greek custard phyllo pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/koulouri/</loc>
@@ -2154,6 +2964,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hortopita.jpg</image:loc>
+      <image:title>Hortopita</image:title>
+      <image:caption>Hortopita, a Greek dinner recipe — greek wild greens pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lahanodolmades/</loc>
@@ -2166,24 +2981,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spetsofai.jpg</image:loc>
+      <image:title>Spetsofai</image:title>
+      <image:caption>Spetsofai, a Greek dinner recipe — greek sausage and pepper stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bifteki/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bifteki.jpg</image:loc>
+      <image:title>Bifteki</image:title>
+      <image:caption>Bifteki, a Greek dinner recipe — greek burgers stuffed with feta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soutzoukakia/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soutzoukakia.jpg</image:loc>
+      <image:title>Soutzoukakia</image:title>
+      <image:caption>Soutzoukakia, a Greek dinner recipe — greek cumin meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tirokafteri/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tirokafteri.jpg</image:loc>
+      <image:title>Tirokafteri</image:title>
+      <image:caption>Tirokafteri, a Greek appetizer recipe — greek spicy feta dip</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bamies/</loc>
@@ -2208,12 +3043,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/karidopita.jpg</image:loc>
+      <image:title>Karidopita</image:title>
+      <image:caption>Karidopita, a Greek baking recipe — greek walnut cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/portokalopita/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/portokalopita.jpg</image:loc>
+      <image:title>Portokalopita</image:title>
+      <image:caption>Portokalopita, a Greek baking recipe — greek orange phyllo cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rizogalo/</loc>
@@ -2226,6 +3071,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/freddo-cappuccino.jpg</image:loc>
+      <image:title>Freddo Cappuccino</image:title>
+      <image:caption>Freddo Cappuccino, a Greek drink recipe — greek iced cappuccino</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-easter-soup-magiritsa/</loc>
@@ -2238,6 +3088,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maltese-pastizzi.jpg</image:loc>
+      <image:title>Maltese Pastizzi</image:title>
+      <image:caption>Maltese Pastizzi, a Maltese appetizer recipe — maltese ricotta pastries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maltese-rabbit-stew/</loc>
@@ -2262,24 +3117,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/imqaret.jpg</image:loc>
+      <image:title>Imqaret</image:title>
+      <image:caption>Imqaret, a Maltese dessert recipe — maltese date pastries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cypriot-souvla/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cypriot-souvla.jpg</image:loc>
+      <image:title>Cypriot Souvla</image:title>
+      <image:caption>Cypriot Souvla, a Cypriot dinner recipe — large skewered grilled pork</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cypriot-tahini-pies/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cypriot-tahini-pies.jpg</image:loc>
+      <image:title>Cypriot Tahini Pies</image:title>
+      <image:caption>Cypriot Tahini Pies, a Cypriot baking recipe — tahini and cinnamon rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kotlet-schabowy/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kotlet-schabowy.jpg</image:loc>
+      <image:title>Kotlet Schabowy</image:title>
+      <image:caption>Kotlet Schabowy, a Polish dinner recipe — polish breaded pork cutlet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/krupnik/</loc>
@@ -2298,12 +3173,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/szarlotka.jpg</image:loc>
+      <image:title>Szarlotka</image:title>
+      <image:caption>Szarlotka, a Polish baking recipe — polish apple cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mazurek/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mazurek.jpg</image:loc>
+      <image:title>Mazurek</image:title>
+      <image:caption>Mazurek, a Polish holiday recipe — polish easter cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/piernik/</loc>
@@ -2322,12 +3207,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pierogi-z-kapusta.jpg</image:loc>
+      <image:title>Pierogi z Kapusta</image:title>
+      <image:caption>Pierogi z Kapusta, a Polish dinner recipe — sauerkraut and mushroom pierogi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pierogi-z-miesem/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pierogi-z-miesem.jpg</image:loc>
+      <image:title>Pierogi z Miesem</image:title>
+      <image:caption>Pierogi z Miesem, a Polish dinner recipe — polish meat pierogi</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/placki-po-wegiersku/</loc>
@@ -2352,12 +3247,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kotlet-mielony.jpg</image:loc>
+      <image:title>Kotlet Mielony</image:title>
+      <image:caption>Kotlet Mielony, a Polish dinner recipe — polish minced pork cutlets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pyry-z-gzikiem/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pyry-z-gzikiem.jpg</image:loc>
+      <image:title>Pyry z Gzikiem</image:title>
+      <image:caption>Pyry z Gzikiem, a Polish dinner recipe — poznan potatoes with curd cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kluski-slaskie/</loc>
@@ -2376,18 +3281,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/modra-kapusta.jpg</image:loc>
+      <image:title>Modra Kapusta</image:title>
+      <image:caption>Modra Kapusta, a Polish dinner recipe — polish braised red cabbage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zrazy/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zrazy.jpg</image:loc>
+      <image:title>Zrazy</image:title>
+      <image:caption>Zrazy, a Polish dinner recipe — polish beef rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kaszanka/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kaszanka.jpg</image:loc>
+      <image:title>Kaszanka</image:title>
+      <image:caption>Kaszanka, a Polish dinner recipe — polish blood sausage</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/knedle-ze-sliwkami/</loc>
@@ -2400,6 +3320,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vepro-knedlo-zelo.jpg</image:loc>
+      <image:title>Vepro Knedlo Zelo</image:title>
+      <image:caption>Vepro Knedlo Zelo, a Czech dinner recipe — czech roast pork dumplings and sauerkraut</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gulas-cesky/</loc>
@@ -2412,6 +3337,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/smazeny-syr.jpg</image:loc>
+      <image:title>Smazeny Syr</image:title>
+      <image:caption>Smazeny Syr, a Czech dinner recipe — czech fried cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rizek-cesky/</loc>
@@ -2430,18 +3360,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cesnecka-polevka.jpg</image:loc>
+      <image:title>Cesnecka Polevka</image:title>
+      <image:caption>Cesnecka Polevka, a Czech lunch recipe — czech garlic soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kolace/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kolace.jpg</image:loc>
+      <image:title>Koláče</image:title>
+      <image:caption>Koláče, a Czech baking recipe — czech sweet yeast pastries</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/medovnik/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/medovnik.jpg</image:loc>
+      <image:title>Medovnik</image:title>
+      <image:caption>Medovnik, a Czech baking recipe — czech honey cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kapustnica/</loc>
@@ -2460,12 +3405,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halaszle.jpg</image:loc>
+      <image:title>Halaszle</image:title>
+      <image:caption>Halaszle, a Hungarian dinner recipe — hungarian fisherman soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/porkolt/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/porkolt.jpg</image:loc>
+      <image:title>Porkolt</image:title>
+      <image:caption>Porkolt, a Hungarian dinner recipe — hungarian paprika stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/toltott-kaposzta/</loc>
@@ -2478,12 +3433,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kurtoskalacs.jpg</image:loc>
+      <image:title>Kurtoskalacs</image:title>
+      <image:caption>Kurtoskalacs, a Hungarian baking recipe — hungarian chimney cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/somloi-galuska/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/somloi-galuska.jpg</image:loc>
+      <image:title>Somloi Galuska</image:title>
+      <image:caption>Somloi Galuska, a Hungarian dessert recipe — hungarian sponge trifle</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hortobagyi-palacsinta/</loc>
@@ -2496,42 +3461,77 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turos-csusza.jpg</image:loc>
+      <image:title>Turos Csusza</image:title>
+      <image:caption>Turos Csusza, a Hungarian dinner recipe — hungarian cottage cheese noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/segedinsky-gulas/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/segedinsky-gulas.jpg</image:loc>
+      <image:title>Segedinsky Gulas</image:title>
+      <image:caption>Segedinsky Gulas, a Hungarian dinner recipe — pork and sauerkraut goulash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ciorba-de-burta/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ciorba-de-burta.jpg</image:loc>
+      <image:title>Ciorba de Burta</image:title>
+      <image:caption>Ciorba de Burta, a Romanian dinner recipe — romanian tripe soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ciorba-de-perisoare/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ciorba-de-perisoare.jpg</image:loc>
+      <image:title>Ciorba de Perisoare</image:title>
+      <image:caption>Ciorba de Perisoare, a Romanian dinner recipe — romanian meatball soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zacusca/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/zacusca.jpg</image:loc>
+      <image:title>Zacusca</image:title>
+      <image:caption>Zacusca, a Romanian appetizer recipe — romanian aubergine and pepper spread</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salata-de-vinete/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salata-de-vinete.jpg</image:loc>
+      <image:title>Salata de Vinete</image:title>
+      <image:caption>Salata de Vinete, a Romanian appetizer recipe — romanian aubergine salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/placinta/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/placinta.jpg</image:loc>
+      <image:title>Placinta</image:title>
+      <image:caption>Placinta, a Romanian baking recipe — romanian apple pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ciorba-de-legume/</loc>
@@ -2568,12 +3568,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kebapche.jpg</image:loc>
+      <image:title>Kebapche</image:title>
+      <image:caption>Kebapche, a Bulgarian dinner recipe — bulgarian grilled minced meat sausages</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lyutenitsa/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lyutenitsa.jpg</image:loc>
+      <image:title>Lyutenitsa</image:title>
+      <image:caption>Lyutenitsa, a Bulgarian appetizer recipe — bulgarian roasted pepper relish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bulgarian-bean-soup/</loc>
@@ -2586,24 +3596,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/burek.jpg</image:loc>
+      <image:title>Burek</image:title>
+      <image:caption>Burek, a Croatian baking recipe — balkan meat pie in phyllo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pasticada/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pasticada.jpg</image:loc>
+      <image:title>Pasticada</image:title>
+      <image:caption>Pasticada, a Croatian dinner recipe — dalmatian braised beef with prunes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crni-rizot/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crni-rizot.jpg</image:loc>
+      <image:title>Crni Rizot</image:title>
+      <image:caption>Crni Rizot, a Croatian dinner recipe — croatian black risotto</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brudet/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brudet.jpg</image:loc>
+      <image:title>Brudet</image:title>
+      <image:caption>Brudet, a Croatian dinner recipe — dalmatian fish stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fritule/</loc>
@@ -2616,6 +3646,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kremsnita.jpg</image:loc>
+      <image:title>Kremsnita</image:title>
+      <image:caption>Kremsnita, a Croatian dessert recipe — croatian cream slice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/punjene-paprike/</loc>
@@ -2628,6 +3663,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potica.jpg</image:loc>
+      <image:title>Potica</image:title>
+      <image:caption>Potica, a Slovenian baking recipe — slovenian nut roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jota-soup/</loc>
@@ -2640,12 +3680,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kranjska-klobasa.jpg</image:loc>
+      <image:title>Kranjska Klobasa</image:title>
+      <image:caption>Kranjska Klobasa, a Slovenian dinner recipe — slovenian pork sausage with horseradish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prekmurska-gibanica/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prekmurska-gibanica.jpg</image:loc>
+      <image:title>Prekmurska Gibanica</image:title>
+      <image:caption>Prekmurska Gibanica, a Slovenian dessert recipe — slovenian layered pastry cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zlikrofi/</loc>
@@ -2658,18 +3708,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/janssons-frestelse.jpg</image:loc>
+      <image:title>Janssons Frestelse</image:title>
+      <image:caption>Janssons Frestelse, a Swedish dinner recipe — swedish potato and anchovy gratin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kroppkakor/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kroppkakor.jpg</image:loc>
+      <image:title>Kroppkakor</image:title>
+      <image:caption>Kroppkakor, a Swedish dinner recipe — swedish potato dumplings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pytt-i-panna/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pytt-i-panna.jpg</image:loc>
+      <image:title>Pytt i Panna</image:title>
+      <image:caption>Pytt i Panna, a quick Swedish meal recipe — swedish potato hash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/artsoppa/</loc>
@@ -2688,24 +3753,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kardemummabullar.jpg</image:loc>
+      <image:title>Kardemummabullar</image:title>
+      <image:caption>Kardemummabullar, a Swedish baking recipe — swedish cardamom buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/semla/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/semla.jpg</image:loc>
+      <image:title>Semla</image:title>
+      <image:caption>Semla, a Swedish baking recipe — cream and almond paste buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kladdkaka/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kladdkaka.jpg</image:loc>
+      <image:title>Kladdkaka</image:title>
+      <image:caption>Kladdkaka, a Swedish baking recipe — swedish sticky chocolate cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lussekatter/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lussekatter.jpg</image:loc>
+      <image:title>Lussekatter</image:title>
+      <image:caption>Lussekatter, a Swedish holiday recipe — swedish saffron buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pepparkakor/</loc>
@@ -2730,6 +3815,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/princess-cake.jpg</image:loc>
+      <image:title>Princess Cake</image:title>
+      <image:caption>Princess Cake, a Swedish baking recipe — green marzipan dome cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/swedish-crayfish-boil/</loc>
@@ -2748,6 +3838,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stegt-flaesk.jpg</image:loc>
+      <image:title>Stegt Flaesk</image:title>
+      <image:caption>Stegt Flaesk, a Danish dinner recipe — danish fried pork belly</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/aebleskiver/</loc>
@@ -2760,18 +3855,33 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/boller-i-karry.jpg</image:loc>
+      <image:title>Boller i Karry</image:title>
+      <image:caption>Boller i Karry, a Danish dinner recipe — danish curry meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kringle/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kringle.jpg</image:loc>
+      <image:title>Kringle</image:title>
+      <image:caption>Kringle, a Danish baking recipe — danish pretzel pastry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leverpostej/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/leverpostej.jpg</image:loc>
+      <image:title>Leverpostej</image:title>
+      <image:caption>Leverpostej, a Danish appetizer recipe — danish liver pate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/flaeskesteg/</loc>
@@ -2790,24 +3900,44 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/risalamande.jpg</image:loc>
+      <image:title>Risalamande</image:title>
+      <image:caption>Risalamande, a Danish holiday recipe — danish christmas rice pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kransekage/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kransekage.jpg</image:loc>
+      <image:title>Kransekage</image:title>
+      <image:caption>Kransekage, a Danish holiday recipe — danish marzipan ring cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/danish-butter-cookies/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/danish-butter-cookies.jpg</image:loc>
+      <image:title>Danish Butter Cookies</image:title>
+      <image:caption>Danish Butter Cookies, a Danish baking recipe — danish piped butter biscuits</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/korvapuusti/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/korvapuusti.jpg</image:loc>
+      <image:title>Korvapuusti</image:title>
+      <image:caption>Korvapuusti, a Finnish baking recipe — finnish cinnamon rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ruisleipa/</loc>
@@ -2826,12 +3956,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kalakukko.jpg</image:loc>
+      <image:title>Kalakukko</image:title>
+      <image:caption>Kalakukko, a Finnish dinner recipe — finnish fish pie in rye crust</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/porkkanalaatikko/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/porkkanalaatikko.jpg</image:loc>
+      <image:title>Porkkanalaatikko</image:title>
+      <image:caption>Porkkanalaatikko, a Finnish dinner recipe — finnish carrot casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/makaronilaatikko/</loc>
@@ -2844,12 +3984,22 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/runeberg-tart.jpg</image:loc>
+      <image:title>Runeberg Tart</image:title>
+      <image:caption>Runeberg Tart, a Finnish baking recipe — finnish runebergin torttu</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/poronkaristys/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/poronkaristys.jpg</image:loc>
+      <image:title>Poronkaristys</image:title>
+      <image:caption>Poronkaristys, a Finnish dinner recipe — finnish sauteed reindeer</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pulla/</loc>
@@ -2880,6 +4030,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baileys-cheesecake.jpg</image:loc>
+      <image:title>Baileys Cheesecake</image:title>
+      <image:caption>Baileys Cheesecake, an Irish dessert recipe — irish cream cheesecake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/irish-scones/</loc>

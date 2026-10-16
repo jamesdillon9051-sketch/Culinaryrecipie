@@ -36403,5 +36403,569 @@
       "page": "https://commons.wikimedia.org/wiki/File:Tofu_Ricotta_MushroomTortellini_with_Asparagus_Alfredo_Sauce_(4016218968).jpg",
       "why": "round 2 review: not a photograph of this dish, or a page already refused or used by another dish"
     }
+  ],
+  "tian-provencal": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Buda_Tian_Tan_on_Hong_Kong.jpg",
+      "why": "Buddha statue"
+    }
+  ],
+  "tarte-aux-poireaux": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Guingamp_2007,_Tarte_aux_poireaux_fait_maison.jpg",
+      "why": "leeks in a pan not a tart"
+    }
+  ],
+  "bugnes": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Faworki_(close-up).jpg",
+      "why": "same archive page as chiacchiere and a different pastry"
+    }
+  ],
+  "dorade-royale": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Filet_de_dorade_royale_en_cro%C3%BBte_de_s%C3%A9same_et_riz_tha%C3%AF_fa%C3%A7on_cantonais_(L%27Auberge_Rouge).jpg",
+      "why": "sesame crusted fish on rice not this dish"
+    }
+  ],
+  "genoise": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Biskotten-02.jpg",
+      "why": "ladyfingers not a sponge"
+    }
+  ],
+  "chantilly": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chantilly_cornfield.jpg",
+      "why": "a cornfield"
+    }
+  ],
+  "tortelli-di-zucca": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chiusura_Tortelli.jpg",
+      "why": "hands shaping unspecified tortelli"
+    }
+  ],
+  "brutti-ma-buoni": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Biscotti_(15116728518).jpg",
+      "why": "bakery display with stickers"
+    }
+  ],
+  "pizza-fritta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%27Nduja,_Spianata_%26_Gorgonzola_Calzone_and_Garlic_Pizza_With_Mozzarella_by_FATTO_A_MANO.jpg",
+      "why": "a baked calzone"
+    }
+  ],
+  "spaghetti-al-limone": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_al_mare_at_restaurant_Limone.jpg",
+      "why": "mussel spaghetti not lemon"
+    }
+  ],
+  "schweinshaxe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Eisbein-2.jpg",
+      "why": "boiled knuckle on sauerkraut not a roast"
+    }
+  ],
+  "gehaktbal": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Polpette_in_umido_con_piselli.JPG",
+      "why": "Italian small meatballs with peas not a Dutch gehaktbal"
+    }
+  ],
+  "rosquillas": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Rosquillas_panaderas.jpg",
+      "why": "baker's bread rings not fried aniseed doughnuts"
+    }
+  ],
+  "arroz-de-pato": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arroz_con_pato_(Per%C3%BA).JPG",
+      "why": "Peruvian green rice with duck leg not the Portuguese baked dish"
+    }
+  ],
+  "krupnik": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Likier_miodowy_Krupnik.jpg",
+      "why": "a bottle of honey liqueur not the soup"
+    }
+  ],
+  "kapustnica": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kapusniak.jpg",
+      "why": "Polish fresh cabbage soup not the Slovak sauerkraut soup"
+    }
+  ],
+  "aebleskiver": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Niels_Holbak_-_En_lille_pige,_der_bager_%C3%A6bleskiver.png",
+      "why": "a painting of a girl baking"
+    }
+  ],
+  "pommes-anna": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Anna_Fernqvist,_rollportr%C3%A4tt_-_SMV_-_H1_122_-_Restoration.jpg",
+      "why": "portrait of a singer"
+    }
+  ],
+  "savarin": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Savarine.jpg",
+      "why": "strawberry cream slices not a savarin"
+    }
+  ],
+  "cake-sale": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cake-shaped_clocks_for_sale_in_Shimokitazawa.jpg",
+      "why": "cake shaped clocks"
+    }
+  ],
+  "epinards-a-la-creme": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pav%C3%A9s_de_saumon_%C3%A9pinards_%C3%A0_la_cr%C3%A8me.jpg",
+      "why": "salmon on spinach and the recipe is a vegetable side"
+    }
+  ],
+  "waterzooi": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Waterzooi,_2010.jpg",
+      "why": "salmon waterzooi and the recipe is chicken"
+    }
+  ],
+  "pomodori-ripieni": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pomidor_dolmas%C4%B1_Azerbaijani_cuisine.jpg",
+      "why": "meat stuffed tomatoes and the recipe is rice only"
+    }
+  ],
+  "castagnole": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Martino,_acquasantiera_(Castagnole_Monferrato).JPG",
+      "why": "church holy water font"
+    }
+  ],
+  "zuppa-di-lenticchie": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Linsensuppe_mit_Tomaten_und_Kokosmilch_2.jpg",
+      "why": "coconut milk lentil soup"
+    }
+  ],
+  "polpettone": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Polpette_di_melanzane.jpg",
+      "why": "aubergine croquettes not a meatloaf"
+    }
+  ],
+  "torta-di-noci": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Torta_di_mele_e_noci_di_Dina_Benedetto.jpg",
+      "why": "apple and walnut cake with a handwritten label"
+    }
+  ],
+  "schweinebraten": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Knedlo_zelo_vep%C5%99o_(3).jpg",
+      "why": "Czech vepro knedlo zelo plate not this roast"
+    }
+  ],
+  "kassler": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kassler_im_brotteig_mit_kartoffelsalat.jpg",
+      "why": "kassler baked in bread dough not braised"
+    }
+  ],
+  "gurkensalat": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ensalada_de_pepinos_con_or%C3%A9gano_y_aceite_de_oliva.jpg",
+      "why": "oil and oregano cucumber salad not creamy"
+    }
+  ],
+  "bohnensuppe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:15_bean_soup.jpg",
+      "why": "dried bean mix in a slow cooker"
+    }
+  ],
+  "nussecken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Familienkonferenz_Hannover_Nordstadt_171b3b_Speisen_Getr%C3%A4nke_kostenlos_Spende_f%C3%BCr_freiwillige_Helfer_der_Anna-Siemsen-Schule,_Nussecken,_Hackb%C3%A4llchen_aus_Rindfleisch,_K%C3%A4segeb%C3%A4ck,_Obst.jpg",
+      "why": "a handwritten sign"
+    }
+  ],
+  "pellkartoffeln-mit-quark": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kartoffeln-quark.jpg",
+      "why": "same archive page as pyry-z-gzikiem"
+    }
+  ],
+  "jagerschnitzel": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:J%C3%A4gerschnitzel_DDR.jpg",
+      "why": "East German sausage slice with pasta not the schnitzel"
+    }
+  ],
+  "palatschinken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Banana_on_pancake.jpg",
+      "why": "American pancake with banana"
+    }
+  ],
+  "rindsuppe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:20241123_Rindsuppe_003_(54249263907).jpg",
+      "why": "beef bones not the soup"
+    }
+  ],
+  "pannenkoeken": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:De_Zeven_Pannenkoeken_(Hoge_Berg,_Texel).jpg",
+      "why": "forest steps"
+    }
+  ],
+  "lomo-adobado": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Lomo_adobado_-_Perejil.JPG",
+      "why": "raw sliced pork"
+    }
+  ],
+  "prego-no-pao": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Gleidson_Santos_-_Praia_de_Cacha_Prego_-_Itaparica_(26050364017).jpg",
+      "why": "aerial landscape"
+    }
+  ],
+  "caldeirada-de-peixe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caldeirada_Paraense.jpg",
+      "why": "Brazilian caldeirada paraense not the Portuguese stew"
+    }
+  ],
+  "broa-de-milho": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Broafortal.jpg",
+      "why": "bag of white rings not cornbread"
+    }
+  ],
+  "arroz-de-cabidela": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:PortoExterior_PatoDeCabidela.JPG",
+      "why": "Porto duck dish not the rice"
+    }
+  ],
+  "koulouri": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Koulouri_Philadelphia_-_Hellenic_Bakery_2025-04-28.jpg",
+      "why": "street scene with a long sesame bread in a paper bag"
+    }
+  ],
+  "rizogalo": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kheer_with_condensed_milk..JPG",
+      "why": "Indian kheer"
+    }
+  ],
+  "golonka": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Jan_Golonka_paulin_portret.jpg",
+      "why": "portrait"
+    }
+  ],
+  "piernik": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Big_Tula_Gingerbread.JPG",
+      "why": "Russian Tula gingerbread with lettering"
+    }
+  ],
+  "chlodnik": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Borscht_with_bread.jpg",
+      "why": "hot red borscht not the cold pink soup"
+    }
+  ],
+  "kavarma": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_Korma.JPG",
+      "why": "chicken korma"
+    }
+  ],
+  "jota-soup": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%22Jota%22_soup_(43974060924).jpg",
+      "why": "barley soup without beans and sauerkraut"
+    }
+  ],
+  "zlikrofi": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:%C5%BDlikrofi_01.jpg",
+      "why": "a supermarket packet"
+    }
+  ],
+  "flaeskesteg": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fl%C3%A6skesteg_kartofler_r%C3%B8dk%C3%A5l.jpg",
+      "why": "dark close crop not the roast"
+    }
+  ],
+  "ruisleipa": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Helsinki_(23290844589).jpg",
+      "why": "open salmon sandwich not the loaf"
+    }
+  ],
+  "bourride": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Bourride_de_fruits_de_mer.JPG",
+      "why": "pasta with carrot strands not the fish stew"
+    }
+  ],
+  "pommes-dauphine": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Filet_de_dorade_au_potiron_et_pommes_dauphine.jpg",
+      "why": "plated sea bream with the potatoes as garnish"
+    }
+  ],
+  "nougat-de-montelimar": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Nougat.jpg",
+      "why": "packaged bars"
+    }
+  ],
+  "lapin-chasseur": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:-_Il_n%27y_a_donc_pas_de_dentistes._Convoi_d%27un_lapin,_suivi_par_la_famille._-_Qui_diable_a_donc_eu_l%27id%C3%A9e._G.21930(14)(1).jpg",
+      "why": "an engraving"
+    }
+  ],
+  "pommes-lyonnaises": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Le_Caire_(Alpes-de-Haute-Provence)_-_Chemin_du_Cimeti%C3%A8re_-_Caisse_de_pommes_Gendarmes.jpg",
+      "why": "an orchard"
+    }
+  ],
+  "cake-au-citron": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Eclair_au_citron_-_1.jpg",
+      "why": "a lemon eclair"
+    }
+  ],
+  "langues-de-chat": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Droste_Haarlem,_Langues_de_Chats_blikken_doosje.JPG",
+      "why": "a biscuit tin with kittens"
+    }
+  ],
+  "polenta-taragna": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Nani_che_cucinano_la_polenta_taragna_(Enrico_Albrici).jpg",
+      "why": "a painting"
+    }
+  ],
+  "torrone": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Turr%C3%B3n_de_Alicante_(Casa_Mira).jpg",
+      "why": "Spanish turron blocks in a shop"
+    }
+  ],
+  "pasta-ai-quattro-formaggi": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Pizza_pazza_-_spaghetti_ai_quattro_formaggi_e_speck.jpg",
+      "why": "a pizza with spaghetti on top"
+    }
+  ],
+  "malfatti": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Malfatti-Trattato-Coniche_01.jpg",
+      "why": "a mathematical manuscript"
+    }
+  ],
+  "trenette-al-pesto": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Trenette.jpg",
+      "why": "dry uncooked pasta"
+    }
+  ],
+  "baci-di-dama": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baci_di_dama_salati_(1).jpg",
+      "why": "savoury cream-cheese version not the sweet hazelnut biscuits"
+    }
+  ],
+  "torta-di-castagne": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_%E9%BB%9E%E5%BF%83_dim_sum_%E9%A6%AC%E8%B9%84%E7%B3%95_Water_chestnut_cake_June_2025_R12S_01.jpg",
+      "why": "brown jelly slab in a Chinese shop"
+    }
+  ],
+  "linsensuppe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Linsensuppe_mit_Tomaten_und_Kokosmilch_2.jpg",
+      "why": "coconut milk lentil soup"
+    }
+  ],
+  "rhabarberkuchen": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:014_Rhabarberkuchen,_ciasto_z_rabarbarem_Bielsko_Bia%C5%82a_Bielitz_2013.JPG",
+      "why": "pistachio-looking squares with no visible rhubarb"
+    }
+  ],
+  "kasekuchen": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Baked_cheesecake_with_raspberries_and_blueberries.jpg",
+      "why": "American-style cheesecake with a biscuit base not a quark cake"
+    }
+  ],
+  "kapsalon": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kapsalon_Amstelveen.jpg",
+      "why": "a salad in a foil tray not the fries-and-meat dish"
+    }
+  ],
+  "menestra-de-verduras": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Guiso_de_magro_de_cerdo_con_menestra_de_verduras.jpg",
+      "why": "pork and pea stew not a vegetable menestra"
+    }
+  ],
+  "bolinhos-de-bacalhau": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:CarlosErbsJr_gastronomia_Rio_de_Janeiro_RJ_(27092796988).jpg",
+      "why": "a beach scene with a beer bottle and two croquettes"
+    }
+  ],
+  "halva": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Nan_va_Halva_(Breads_and_Sweets)_MET_DT4397.jpg",
+      "why": "a Persian manuscript page"
+    }
+  ],
+  "nalesniki": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Banana_on_pancake.jpg",
+      "why": "American pancake with banana"
+    }
+  ],
+  "fasole-cu-carnati": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Steaks_fasole2.jpg",
+      "why": "pork steak with beans and bacon not bean-and-sausage stew"
+    }
+  ],
+  "punjene-paprike": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Punjene_paprike_(stuffed_paprikas)_(2).JPG",
+      "why": "uncooked stuffed peppers in a tray"
+    }
+  ],
+  "artsoppa": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Erwtensoep_roggebrood_katenspek.jpg",
+      "why": "a Dutch pea soup with rye bread per its own caption"
+    }
+  ],
+  "pepparkakor": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Arnott%27s_Ginger_Nut_04.jpg",
+      "why": "Arnott's Australian ginger nut biscuits, thick and branded, not thin pepparkakor"
+    }
+  ],
+  "makaronilaatikko": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Soijamakaronilaatikko.JPG",
+      "why": "a soy-mince version per its caption"
+    }
+  ],
+  "pulla": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Nonea_pulla_Habitus.jpg",
+      "why": "a wild plant"
+    }
+  ],
+  "toltott-kaposzta": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Krautwickerl_mit_Wirsing_und_Kartoffel_3.jpg",
+      "why": "same archive page as malfouf-mahshi, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "mejillones-a-la-marinera": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Moules_marini%C3%A8res_%C3%A0_La_Rose_Blanche_(Bruxelles).jpg",
+      "why": "same archive page as moules-mariniere, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "gansebraten": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Christmas-goose-(Weihnachtsgans)_1.jpg",
+      "why": "same archive page as roast-goose, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "veloute-de-champignons": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cream_Mushroom_soup_2.jpg",
+      "why": "same archive page as cream-of-mushroom-soup, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "soupe-aux-choux": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Kapusniak.jpg",
+      "why": "same archive page as cabbage-soup, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "mustikkapiirakka": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Tarte_aux_myrtilles.JPG",
+      "why": "same archive page as blueberry-pie, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "torta-di-carote": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Rueblitorte.jpg",
+      "why": "same archive page as bolo-de-cenoura, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "sabayon": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Marsala_sabayon_with_cookie_and_local_stone_fruit.jpg",
+      "why": "same archive page as zabaglione, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "rajska-omacka": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Fresh_Tomato_Sauce_(Unsplash).jpg",
+      "why": "same archive page as tomato-sauce, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "erbsensuppe": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Erwtensoep_roggebrood_katenspek.jpg",
+      "why": "same archive page as erwtensoep, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "ajoblanco": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Ajo_blanco.jpg",
+      "why": "same archive page as ajo-blanco, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "pote-gallego": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Caldo_galego,_Galiza.jpg",
+      "why": "same archive page as caldo-gallego, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "cochinillo-asado": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Cochinillo_asado-Madrid.jpg",
+      "why": "same archive page as lechon-asado, an existing recipe for the same or a neighbouring dish"
+    }
+  ],
+  "tarte-au-chocolat": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Chocolate_tarts_by_Tammy_Green.jpg",
+      "why": "same archive page as chocolate-tart, an existing recipe for the same or a neighbouring dish"
+    }
   ]
 }

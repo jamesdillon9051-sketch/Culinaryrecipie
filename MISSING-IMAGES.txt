@@ -715,7 +715,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cheddar-jalapeno-bread             Cheddar Jalapeno Bread
   honey-oat-bread                    Honey Oat Bread   [1 refused already]
 
-== Italian (266) =======================================
+== Italian (220) =======================================
   italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
   chicken-scarpariello               Chicken Scarpariello   [2 refused already]
   italian-seasoning                  Italian Seasoning   [4 refused already]
@@ -864,124 +864,78 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   vegan-pesto                        Vegan Pesto   [2 refused already]
   vegan-pizza                        Vegan Pizza   [2 refused already]
   ravioli-di-ricotta-e-spinaci       Ravioli di Ricotta e Spinaci
-  pizza-napoletana                   Pizza Napoletana
-  pizza-al-taglio                    Pizza al Taglio
-  focaccia-barese                    Focaccia Barese
-  semifreddo                         Semifreddo
-  bombolone                          Bombolone
-  polenta-taragna                    Polenta Taragna
+  polenta-taragna                    Polenta Taragna   [1 refused already]
   tajarin-al-tartufo                 Tajarin al Tartufo
   pollo-alla-diavola                 Pollo alla Diavola
   coniglio-alla-cacciatora           Coniglio alla Cacciatora
-  trippa-alla-fiorentina             Trippa alla Fiorentina
-  pomodori-ripieni                   Pomodori Ripieni
-  fagioli-alluccelletto              Fagioli all'Uccelletto
-  tortelli-di-zucca                  Tortelli di Zucca
-  seadas                             Seadas
+  pomodori-ripieni                   Pomodori Ripieni   [1 refused already]
+  tortelli-di-zucca                  Tortelli di Zucca   [1 refused already]
   torta-di-mele                      Torta di Mele
   torta-al-limone                    Torta al Limone
   torta-di-ricotta                   Torta di Ricotta
-  biscotti-savoiardi                 Biscotti Savoiardi
   tortino-al-cioccolato              Tortino al Cioccolato
-  bonet                              Bonet
-  frittelle-di-carnevale             Frittelle di Carnevale
-  chiacchiere                        Chiacchiere
-  castagnole                         Castagnole
-  torrone                            Torrone
-  brutti-ma-buoni                    Brutti ma Buoni
+  castagnole                         Castagnole   [1 refused already]
+  torrone                            Torrone   [1 refused already]
+  brutti-ma-buoni                    Brutti ma Buoni   [1 refused already]
   fave-e-cicoria                     Fave e Cicoria
-  burrata-with-tomatoes              Burrata with Tomatoes
-  pizza-fritta                       Pizza Fritta
-  pinsa-romana                       Pinsa Romana
-  gnocco-fritto                      Gnocco Fritto
-  spaghetti-alla-nerano              Spaghetti alla Nerano
+  pizza-fritta                       Pizza Fritta   [1 refused already]
   pasta-con-le-zucchine              Pasta con le Zucchine
-  pasta-ai-quattro-formaggi          Pasta ai Quattro Formaggi
-  pasta-al-forno                     Pasta al Forno
+  pasta-ai-quattro-formaggi          Pasta ai Quattro Formaggi   [1 refused already]
   pasta-alla-carrettiera             Pasta alla Carrettiera
-  spaghetti-al-tonno                 Spaghetti al Tonno
   spaghetti-alla-bottarga            Spaghetti alla Bottarga
-  spaghetti-con-le-cozze             Spaghetti con le Cozze
   linguine-allo-scoglio              Linguine allo Scoglio
   cavatelli-con-broccoli             Cavatelli con Broccoli
   gnocchi-alla-romana                Gnocchi alla Romana
-  malfatti                           Malfatti
-  risotto-alla-pescatora             Risotto alla Pescatora
+  malfatti                           Malfatti   [1 refused already]
   risotto-al-radicchio               Risotto al Radicchio
   risotto-agli-asparagi              Risotto agli Asparagi
   zuppa-di-farro                     Zuppa di Farro
-  zuppa-di-lenticchie                Zuppa di Lenticchie
+  zuppa-di-lenticchie                Zuppa di Lenticchie   [1 refused already]
   zuppa-di-ceci                      Zuppa di Ceci
   costoletta-alla-valdostana         Costoletta alla Valdostana
   polenta-concia                     Polenta Concia
   pasta-alla-norcina                 Pasta alla Norcina
   abbacchio-alla-scottadito          Abbacchio alla Scottadito
-  castagnaccio                       Castagnaccio
-  trenette-al-pesto                  Trenette al Pesto
+  trenette-al-pesto                  Trenette al Pesto   [1 refused already]
   torta-di-verdure                   Torta di Verdure
-  peperoni-ripieni                   Peperoni Ripieni
-  involtini-di-melanzane             Involtini di Melanzane
   pollo-alla-romana                  Pollo alla Romana
   pollo-al-limone                    Pollo al Limone
-  pollo-con-i-peperoni               Pollo con i Peperoni
-  cinghiale-in-umido                 Cinghiale in Umido
   stinco-di-maiale                   Stinco di Maiale
-  arrosticini                        Arrosticini
-  costine-di-maiale                  Costine di Maiale
   salsiccia-e-friarielli             Salsiccia e Friarielli
   salsicce-e-fagioli                 Salsicce e Fagioli
   spezzatino-di-manzo                Spezzatino di Manzo
-  polpettone                         Polpettone
+  polpettone                         Polpettone   [1 refused already]
   cotechino-con-lenticchie           Cotechino con Lenticchie
-  crostini-toscani                   Crostini Toscani
-  tramezzini                         Tramezzini
-  tortellini-panna-e-prosciutto      Tortellini Panna e Prosciutto
-  mozzarella-in-carrozza             Mozzarella in Carrozza
   gelato-al-pistacchio               Gelato al Pistacchio
   gelato-al-cioccolato               Gelato al Cioccolato
-  spumoni                            Spumoni
   pesche-ripiene                     Pesche Ripiene
   pere-al-vino-rosso                 Pere al Vino Rosso
-  zuccotto                           Zuccotto
   budino-al-cioccolato               Budino al Cioccolato
   budino-di-riso                     Budino di Riso
   cornetti                           Cornetti
-  pasticciotto                       Pasticciotto
-  baci-di-dama                       Baci di Dama
-  torta-margherita                   Torta Margherita
-  torta-di-noci                      Torta di Noci
-  tigelle                            Tigelle
+  baci-di-dama                       Baci di Dama   [1 refused already]
+  torta-di-noci                      Torta di Noci   [1 refused already]
   crostata-alla-nutella              Crostata alla Nutella
-  crostata-di-ricotta                Crostata di Ricotta
   crostata-alle-fragole              Crostata alle Fragole
   sbrisolona-mantovana               Sbrisolona Mantovana
-  pizza-quattro-stagioni             Pizza Quattro Stagioni
-  pizza-capricciosa                  Pizza Capricciosa
-  pizza-marinara                     Pizza Marinara
   pizza-quattro-formaggi             Pizza Quattro Formaggi
   focaccia-di-recco                  Focaccia di Recco
   focaccia-pugliese                  Focaccia Pugliese
   bruschetta-al-pomodoro             Bruschetta al Pomodoro
   carciofi-ripieni                   Carciofi Ripieni
-  lasagne-bianche                    Lasagne Bianche
-  cannelloni-ricotta-e-spinaci       Cannelloni Ricotta e Spinaci
   conchiglioni-ripieni               Conchiglioni Ripieni
-  spaghetti-al-limone                Spaghetti al Limone
+  spaghetti-al-limone                Spaghetti al Limone   [1 refused already]
   tagliolini-al-tartufo              Tagliolini al Tartufo
   penne-al-gorgonzola                Penne al Gorgonzola
-  rigatoni-allamatriciana            Rigatoni all'Amatriciana
   risotto-allo-zafferano             Risotto allo Zafferano
   uova-in-purgatorio                 Uova in Purgatorio
-  torta-di-carote                    Torta di Carote
+  torta-di-carote                    Torta di Carote   [1 refused already]
   torta-al-mascarpone                Torta al Mascarpone
-  torta-di-castagne                  Torta di Castagne
+  torta-di-castagne                  Torta di Castagne   [1 refused already]
   tiramisu-alle-fragole              Tiramisu alle Fragole
-  panna-cotta-ai-frutti-di-bosco     Panna Cotta ai Frutti di Bosco
   crespelle                          Crespelle
   bomboloni-al-forno                 Bomboloni al Forno
-  limoncello                         Limoncello
   spritz-veneziano                   Spritz Veneziano
-  bicerin                            Bicerin
 
 == British (206) =======================================
   lamb-bhuna                         Lamb Bhuna   [1 refused already]
@@ -1191,7 +1145,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
   vegan-stew                         Vegan Stew   [1 refused already]
 
-== French (113) ========================================
+== French (94) =========================================
   chicken-chasseur                   Chicken Chasseur   [7 refused already]
   kir-royale                         Kir Royale   [17 refused already]
   sole-with-herbs                    Sole with Herbs   [11 refused already]
@@ -1238,149 +1192,54 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   vegan-quiche                       Vegan Quiche   [1 refused already]
   canneles                           Canneles
   lapin-a-la-moutarde                Lapin a la Moutarde
-  bourride                           Bourride
-  tian-provencal                     Tian Provencal
-  pommes-anna                        Pommes Anna
-  pommes-dauphine                    Pommes Dauphine
+  bourride                           Bourride   [1 refused already]
+  tian-provencal                     Tian Provencal   [1 refused already]
+  pommes-anna                        Pommes Anna   [1 refused already]
+  pommes-dauphine                    Pommes Dauphine   [1 refused already]
   petits-pois-a-la-francaise         Petits Pois a la Francaise
   haricots-verts-amandine            Haricots Verts Amandine
-  tarte-aux-fraises                  Tarte aux Fraises
-  tarte-aux-poireaux                 Tarte aux Poireaux
+  tarte-aux-poireaux                 Tarte aux Poireaux   [1 refused already]
   tarte-a-loignon                    Tarte a l'Oignon
   gateau-de-savoie                   Gateau de Savoie
   fondant-au-chocolat                Fondant au Chocolat
-  savarin                            Savarin
-  veloute-de-champignons             Veloute de Champignons
+  savarin                            Savarin   [1 refused already]
+  veloute-de-champignons             Veloute de Champignons   [1 refused already]
   joue-de-boeuf                      Joue de Boeuf
   paupiettes-de-veau                 Paupiettes de Veau
-  tournedos-rossini                  Tournedos Rossini
-  foie-gras                          Foie Gras
-  tuiles-aux-amandes                 Tuiles aux Amandes
-  nougat-de-montelimar               Nougat de Montelimar
-  tarte-bourdaloue                   Tarte Bourdaloue
-  poire-belle-helene                 Poire Belle Helene
-  soupe-aux-choux                    Soupe Aux Choux
+  nougat-de-montelimar               Nougat de Montelimar   [1 refused already]
+  soupe-aux-choux                    Soupe Aux Choux   [1 refused already]
   salade-de-gesiers                  Salade de Gesiers
-  cake-sale                          Cake Sale
-  tarte-tropezienne                  Tarte Tropezienne
-  bugnes                             Bugnes
-  baeckeoffe                         Baeckeoffe
+  cake-sale                          Cake Sale   [1 refused already]
+  bugnes                             Bugnes   [1 refused already]
   bretzel-alsacien                   Bretzel Alsacien
   pounti                             Pounti
   potee-auvergnate                   Potee Auvergnate
-  lapin-chasseur                     Lapin Chasseur
-  poulet-vallee-dauge                Poulet Vallee d'Auge
+  lapin-chasseur                     Lapin Chasseur   [1 refused already]
   poulet-au-vinaigre                 Poulet au Vinaigre
   poulet-a-lestragon                 Poulet a l'Estragon
-  poulet-marengo                     Poulet Marengo
   gigot-de-sept-heures               Gigot de Sept Heures
-  ris-de-veau                        Ris de Veau
   roti-de-porc-au-lait               Rôti de Porc au Lait
-  filet-de-porc-moutarde             Filet de Porc Moutarde
   jambon-braise-madere               Jambon Braise Madere
-  dorade-royale                      Dorade Royale
+  dorade-royale                      Dorade Royale   [1 refused already]
   soupe-de-moules                    Soupe de Moules
   tarte-fine-aux-tomates             Tarte Fine aux Tomates
   gratin-de-blettes                  Gratin de Blettes
-  epinards-a-la-creme                Epinards a la Creme
+  epinards-a-la-creme                Epinards a la Creme   [1 refused already]
   carottes-vichy                     Carottes Vichy
-  salade-de-betteraves               Salade de Betteraves
   pommes-sarladaises                 Pommes Sarladaises
-  pommes-lyonnaises                  Pommes Lyonnaises
+  pommes-lyonnaises                  Pommes Lyonnaises   [1 refused already]
   tarte-a-la-rhubarbe                Tarte a la Rhubarbe
-  tarte-aux-abricots                 Tarte aux Abricots
-  tarte-au-chocolat                  Tarte au Chocolat
-  gateau-nantais                     Gateau Nantais
-  gateau-breton                      Gateau Breton
-  cake-au-citron                     Cake au Citron
+  tarte-au-chocolat                  Tarte au Chocolat   [1 refused already]
+  cake-au-citron                     Cake au Citron   [1 refused already]
   moelleux-aux-pommes                Moelleux aux Pommes
   charlotte-aux-fraises              Charlotte aux Fraises
-  bavarois                           Bavarois
-  genoise                            Genoise
+  genoise                            Genoise   [1 refused already]
   vacherin-aux-fraises               Vacherin aux Fraises
-  pate-a-choux                       Pate a Choux
-  chantilly                          Chantilly
-  sabayon                            Sabayon
-  langues-de-chat                    Langues de Chat
+  chantilly                          Chantilly   [1 refused already]
+  sabayon                            Sabayon   [1 refused already]
+  langues-de-chat                    Langues de Chat   [1 refused already]
   marrons-glaces                     Marrons Glaces
   confiture-de-fraises               Confiture de Fraises
-  sauce-veloute                      Sauce Veloute
-
-== German (74) =========================================
-  german-meatballs                   German Meatballs   [1 refused already]
-  german-red-cabbage                 German Red Cabbage   [1 refused already]
-  german-apple-cake                  German Apple Cake   [1 refused already]
-  plum-cake                          Plum Cake   [1 refused already]
-  schweinebraten                     Schweinebraten
-  eisbein                            Eisbein
-  schweinshaxe                       Schweinshaxe
-  kassler                            Kassler
-  kartoffelpuffer                    Kartoffelpuffer
-  kartoffelklosse                    Kartoffelklosse
-  semmelknodel                       Semmelknodel
-  labskaus                           Labskaus
-  himmel-und-erde                    Himmel und Erde
-  maultaschen                        Maultaschen
-  leberkase                          Leberkase
-  weisswurst                         Weisswurst
-  bienenstich                        Bienenstich
-  berliner-pfannkuchen               Berliner Pfannkuchen
-  spekulatius                        Spekulatius
-  pfeffernusse                       Pfeffernusse
-  vanillekipferl                     Vanillekipferl
-  zimtsterne                         Zimtsterne
-  erbsensuppe                        Erbsensuppe
-  linsensuppe                        Linsensuppe
-  eintopf                            Eintopf
-  dampfnudeln                        Dampfnudeln
-  rhabarberkuchen                    Rhabarberkuchen
-  streuselkuchen                     Streuselkuchen
-  rote-grutze                        Rote Grutze
-  kasekuchen                         Kasekuchen
-  frankfurter-green-sauce            Frankfurter Green Sauce
-  wildgulasch                        Wildgulasch
-  matjes                             Matjes
-  fischbrotchen                      Fischbrotchen
-  gurkensalat                        Gurkensalat
-  kohlrouladen                       Kohlrouladen
-  spargel-mit-hollandaise            Spargel mit Hollandaise
-  bohnensuppe                        Bohnensuppe
-  vollkornbrot                       Vollkornbrot
-  pumpernickel                       Pumpernickel
-  nussecken                          Nussecken
-  spritzgeback                       Spritzgebäck
-  butterkuchen                       Butterkuchen
-  zwiebelkuchen                      Zwiebelkuchen
-  apfelkuchen-blech                  Apfelkuchen Blech
-  mohnkuchen                         Mohnkuchen
-  hefezopf                           Hefezopf
-  prinzregententorte                 Prinzregententorte
-  frankfurter-kranz                  Frankfurter Kranz
-  donauwelle                         Donauwelle
-  baumkuchen                         Baumkuchen
-  haselnussmakronen                  Haselnussmakronen
-  kokosmakronen                      Kokosmakronen
-  mandelhornchen                     Mandelhörnchen
-  gulaschsuppe                       Gulaschsuppe
-  huhnersuppe-mit-nudeln             Hühnersuppe mit Nudeln
-  spargelcremesuppe                  Spargelcremesuppe
-  selleriesuppe                      Selleriesuppe
-  pellkartoffeln-mit-quark           Pellkartoffeln mit Quark
-  strammer-max                       Strammer Max
-  bauernfruhstuck                    Bauernfrühstück
-  jagerschnitzel                     Jägerschnitzel
-  rahmschnitzel                      Rahmschnitzel
-  thuringer-rostbratwurst            Thüringer Rostbratwurst
-  nurnberger-rostbratwurst           Nürnberger Rostbratwurst
-  bockwurst                          Bockwurst
-  gansebraten                        Gänsebraten
-  entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
-  wildschweinbraten                  Wildschweinbraten
-  forelle-mullerin                   Forelle Müllerin
-  backfisch                          Backfisch
-  heringssalat                       Heringssalat
-  nudelsalat-deutsch                 Nudelsalat Deutsch
-  frankfurter-wurstchen              Frankfurter Würstchen
 
 == Indian (66) =========================================
   moong-dal-chilla                   Moong Dal Chilla   [23 refused already]
@@ -1450,74 +1309,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   vegan-butter-chicken               Vegan Butter Chicken
   vegan-tikka-masala                 Vegan Tikka Masala   [2 refused already]
 
-== Spanish (66) ========================================
-  smoked-paprika-chicken             Smoked Paprika Chicken   [13 refused already]
-  tomato-toast                       Tomato Toast   [5 refused already]
-  chorizo-and-potatoes               Chorizo and Potatoes   [1 refused already]
-  spanish-garlic-soup                Spanish Garlic Soup
-  bacon-wrapped-dates                Bacon Wrapped Dates   [1 refused already]
-  white-sangria                      White Sangria   [1 refused already]
-  stuffed-dates                      Stuffed Dates   [1 refused already]
-  chickpea-and-spinach-stew          Chickpea and Spinach Stew
-  mussels-with-chorizo               Mussels with Chorizo   [1 refused already]
-  churros-with-chocolate-sauce       Churros with Chocolate Sauce   [1 refused already]
-  vegetable-paella                   Vegetable Paella
-  pisto                              Pisto   [7 refused already]
-  spanish-chicken-and-rice           Spanish Chicken and Rice
-  pimientos-de-padron                Pimientos de Padron   [1 refused already]
-  calcots-with-romesco               Calçots with Romesco   [1 refused already]
-  chipirones-en-su-tinta             Chipirones en su Tinta   [1 refused already]
-  croquetas-de-bacalao               Croquetas de Bacalao   [1 refused already]
-  patatas-a-lo-pobre                 Patatas a lo Pobre   [5 refused already]
-  membrillo                          Membrillo   [1 refused already]
-  chorizo-and-potato-stew            Chorizo and Potato Stew
-  callos-a-la-madrilena              Callos a la Madrilena
-  boquerones-en-vinagre              Boquerones en Vinagre
-  boquerones-fritos                  Boquerones Fritos
-  merluza-a-la-vasca                 Merluza a la Vasca
-  zarzuela-de-pescado                Zarzuela de Pescado
-  arroz-a-banda                      Arroz a Banda
-  ajoblanco                          Ajoblanco
-  garbanzos-con-chorizo              Garbanzos con Chorizo
-  carrillada-iberica                 Carrillada Iberica
-  cochinillo-asado                   Cochinillo Asado
-  cordero-asado-castellano           Cordero Asado Castellano
-  chuletillas-de-cordero             Chuletillas de Cordero
-  solomillo-al-whisky                Solomillo al Whisky
-  pinchos-morunos                    Pinchos Morunos
-  empanadillas                       Empanadillas
-  montaditos                         Montaditos
-  gildas                             Gildas
-  ensaladilla-rusa                   Ensaladilla Rusa
-  canelones-de-carne                 Canelones de Carne
-  natillas                           Natillas
-  mojo-picon                         Mojo Picon
-  papas-arrugadas                    Papas Arrugadas
-  huevos-a-la-flamenca               Huevos a la Flamenca
-  rosquillas                         Rosquillas
-  bunuelos-de-viento                 Bunuelos de Viento
-  cocido-montanes                    Cocido Montanes
-  pote-gallego                       Pote Gallego
-  bacalao-a-la-vizcaina              Bacalao a la Vizcaina
-  sopa-castellana                    Sopa Castellana
-  alcachofas-con-jamon               Alcachofas con Jamon
-  judias-verdes-con-jamon            Judias Verdes con Jamon
-  menestra-de-verduras               Menestra de Verduras
-  revuelto-de-setas                  Revuelto de Setas
-  pollo-en-pepitoria                 Pollo en Pepitoria
-  pollo-al-chilindron                Pollo al Chilindron
-  conejo-al-ajillo                   Conejo al Ajillo
-  lomo-adobado                       Lomo Adobado
-  arroz-caldoso                      Arroz Caldoso
-  mejillones-a-la-marinera           Mejillones a la Marinera
-  pulpo-a-feira                      Pulpo a Feira
-  dorada-a-la-sal                    Dorada a la Sal
-  porra-antequerana                  Porra Antequerana
-  pa-amb-oli                         Pa amb Oli
-  espinacas-a-la-catalana            Espinacas a la Catalana
-  chuleton-de-buey                   Chuletón de Buey
-  arroz-con-conejo-y-caracoles       Arroz con Conejo y Caracoles
-
 == Mexican (58) ========================================
   almond-flour-tortillas             Almond Flour Tortillas   [2 refused already]
   chicken-fajita-soup                Chicken Fajita Soup   [15 refused already]
@@ -1578,48 +1369,50 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   low-carb-taco-casserole            Low-Carb Taco Casserole
   low-carb-tortillas                 Low-Carb Tortillas
 
-== Greek (41) ==========================================
-  greek-chicken-bowls                Greek Chicken Bowls   [7 refused already]
-  mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
-  greek-beef-pitas                   Greek Beef Pitas
-  greek-lamb-stew                    Greek Lamb Stew   [1 refused already]
-  greek-omelette                     Greek Omelette   [1 refused already]
-  whipped-feta                       Whipped Feta   [1 refused already]
-  greek-lemon-chicken                Greek Lemon Chicken   [1 refused already]
-  lemon-chicken-orzo                 Lemon Chicken Orzo   [1 refused already]
-  lamb-souvlaki                      Lamb Souvlaki   [1 refused already]
-  dolma                              Dolma   [1 refused already]
-  grilled-halloumi-skewers           Grilled Halloumi Skewers
-  baked-feta-tomatoes                Baked Feta Tomatoes
-  revithada                          Revithada
-  melitzanosalata                    Melitzanosalata   [5 refused already]
-  air-fryer-eggplant                 Air Fryer Eggplant
-  grilled-sea-bass                   Grilled Sea Bass   [2 refused already]
-  stuffed-grape-leaves               Stuffed Grape Leaves   [2 refused already]
-  giouvetsi                          Giouvetsi
-  halva                              Halva
-  melomakarona                       Melomakarona
-  kourabiedes                        Kourabiedes
-  kolokithokeftedes                  Kolokithokeftedes
-  bougatsa                           Bougatsa
-  koulouri                           Koulouri
-  psari-plaki                        Psari Plaki
-  htapodi-krasato                    Htapodi Krasato
-  kolokithopita                      Kolokithopita
-  hortopita                          Hortopita
-  lahanodolmades                     Lahanodolmades
-  spetsofai                          Spetsofai
-  bifteki                            Bifteki
-  soutzoukakia                       Soutzoukakia
-  tirokafteri                        Tirokafteri
-  bamies                             Bamies
-  revithia                           Revithia
-  domatokeftedes                     Domatokeftedes
-  karidopita                         Karidopita
-  portokalopita                      Portokalopita
-  rizogalo                           Rizogalo
-  freddo-cappuccino                  Freddo Cappuccino
-  greek-easter-soup-magiritsa        Greek Easter Soup Magiritsa
+== Spanish (43) ========================================
+  smoked-paprika-chicken             Smoked Paprika Chicken   [13 refused already]
+  tomato-toast                       Tomato Toast   [5 refused already]
+  chorizo-and-potatoes               Chorizo and Potatoes   [1 refused already]
+  spanish-garlic-soup                Spanish Garlic Soup
+  bacon-wrapped-dates                Bacon Wrapped Dates   [1 refused already]
+  white-sangria                      White Sangria   [1 refused already]
+  stuffed-dates                      Stuffed Dates   [1 refused already]
+  chickpea-and-spinach-stew          Chickpea and Spinach Stew
+  mussels-with-chorizo               Mussels with Chorizo   [1 refused already]
+  churros-with-chocolate-sauce       Churros with Chocolate Sauce   [1 refused already]
+  vegetable-paella                   Vegetable Paella
+  pisto                              Pisto   [7 refused already]
+  spanish-chicken-and-rice           Spanish Chicken and Rice
+  pimientos-de-padron                Pimientos de Padron   [1 refused already]
+  calcots-with-romesco               Calçots with Romesco   [1 refused already]
+  chipirones-en-su-tinta             Chipirones en su Tinta   [1 refused already]
+  croquetas-de-bacalao               Croquetas de Bacalao   [1 refused already]
+  patatas-a-lo-pobre                 Patatas a lo Pobre   [5 refused already]
+  membrillo                          Membrillo   [1 refused already]
+  chorizo-and-potato-stew            Chorizo and Potato Stew
+  zarzuela-de-pescado                Zarzuela de Pescado
+  ajoblanco                          Ajoblanco   [1 refused already]
+  carrillada-iberica                 Carrillada Iberica
+  cochinillo-asado                   Cochinillo Asado   [1 refused already]
+  cordero-asado-castellano           Cordero Asado Castellano
+  solomillo-al-whisky                Solomillo al Whisky
+  empanadillas                       Empanadillas
+  gildas                             Gildas
+  mojo-picon                         Mojo Picon
+  huevos-a-la-flamenca               Huevos a la Flamenca
+  rosquillas                         Rosquillas   [1 refused already]
+  pote-gallego                       Pote Gallego   [1 refused already]
+  bacalao-a-la-vizcaina              Bacalao a la Vizcaina
+  alcachofas-con-jamon               Alcachofas con Jamon
+  judias-verdes-con-jamon            Judias Verdes con Jamon
+  menestra-de-verduras               Menestra de Verduras   [1 refused already]
+  pollo-al-chilindron                Pollo al Chilindron
+  conejo-al-ajillo                   Conejo al Ajillo
+  lomo-adobado                       Lomo Adobado   [1 refused already]
+  mejillones-a-la-marinera           Mejillones a la Marinera   [1 refused already]
+  dorada-a-la-sal                    Dorada a la Sal
+  chuleton-de-buey                   Chuletón de Buey
+  arroz-con-conejo-y-caracoles       Arroz con Conejo y Caracoles
 
 == Chinese (39) ========================================
   mongolian-lamb                     Mongolian Lamb   [13 refused already]
@@ -1701,65 +1494,71 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
   barbecued-prawns                   Barbecued Prawns   [1 refused already]
 
-== Portuguese (30) =====================================
-  piri-piri-prawns                   Piri Piri Prawns   [1 refused already]
-  bolo-rei                           Bolo Rei   [5 refused already]
-  torta-de-santa-clara               Torta de Santa Clara
-  peri-peri-sauce                    Peri Peri Sauce   [1 refused already]
-  bacalhau-a-gomes-de-sa             Bacalhau a Gomes de Sa
-  arroz-de-pato                      Arroz de Pato
-  sardinhas-assadas                  Sardinhas Assadas
-  polvo-a-lagareiro                  Polvo a Lagareiro
-  cozido-a-portuguesa                Cozido a Portuguesa
-  prego-no-pao                       Prego no Pao
-  bolo-de-bolacha                    Bolo de Bolacha
-  queijadas-de-sintra                Queijadas de Sintra
-  sopa-de-pedra                      Sopa de Pedra
-  acorda-alentejana                  Acorda Alentejana
-  ameijoas-a-bulhao-pato             Amêijoas à Bulhão Pato
-  caldeirada-de-peixe                Caldeirada de Peixe
-  pao-de-lo                          Pao de Lo
-  pao-de-deus                        Pao de Deus
-  broa-de-milho                      Broa de Milho
-  ovos-moles                         Ovos Moles
-  toucinho-do-ceu                    Toucinho do Ceu
-  arroz-de-tomate                    Arroz de Tomate
-  bolinhos-de-bacalhau               Bolinhos de Bacalhau
-  chourico-assado                    Chourico Assado
-  migas-portuguesas                  Migas Portuguesas
-  carne-de-porco-a-alentejana        Carne de Porco a Alentejana
-  bacalhau-com-grao                  Bacalhau com Grao
-  arroz-de-cabidela                  Arroz de Cabidela
-  leitao-da-bairrada                 Leitao da Bairrada
-  sopa-de-feijao-verde               Sopa de Feijao Verde
+== German (33) =========================================
+  german-meatballs                   German Meatballs   [1 refused already]
+  german-red-cabbage                 German Red Cabbage   [1 refused already]
+  german-apple-cake                  German Apple Cake   [1 refused already]
+  plum-cake                          Plum Cake   [1 refused already]
+  schweinebraten                     Schweinebraten   [1 refused already]
+  schweinshaxe                       Schweinshaxe   [1 refused already]
+  kassler                            Kassler   [1 refused already]
+  leberkase                          Leberkase
+  zimtsterne                         Zimtsterne
+  erbsensuppe                        Erbsensuppe   [1 refused already]
+  linsensuppe                        Linsensuppe   [1 refused already]
+  rhabarberkuchen                    Rhabarberkuchen   [1 refused already]
+  kasekuchen                         Kasekuchen   [1 refused already]
+  frankfurter-green-sauce            Frankfurter Green Sauce
+  wildgulasch                        Wildgulasch
+  matjes                             Matjes
+  gurkensalat                        Gurkensalat   [1 refused already]
+  kohlrouladen                       Kohlrouladen
+  bohnensuppe                        Bohnensuppe   [1 refused already]
+  nussecken                          Nussecken   [1 refused already]
+  haselnussmakronen                  Haselnussmakronen
+  kokosmakronen                      Kokosmakronen
+  mandelhornchen                     Mandelhörnchen
+  huhnersuppe-mit-nudeln             Hühnersuppe mit Nudeln
+  spargelcremesuppe                  Spargelcremesuppe
+  selleriesuppe                      Selleriesuppe
+  pellkartoffeln-mit-quark           Pellkartoffeln mit Quark   [1 refused already]
+  jagerschnitzel                     Jägerschnitzel   [1 refused already]
+  rahmschnitzel                      Rahmschnitzel
+  gansebraten                        Gänsebraten   [1 refused already]
+  entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
+  forelle-mullerin                   Forelle Müllerin
+  frankfurter-wurstchen              Frankfurter Würstchen
 
-== Polish (26) =========================================
-  haluski                            Haluski   [2 refused already]
-  polish-meatballs                   Polish Meatballs
-  perogies-with-onions               Perogies with Onions
-  air-fryer-pierogies                Air Fryer Pierogies
-  instant-pot-cabbage-rolls          Instant Pot Cabbage Rolls   [2 refused already]
-  one-pot-cabbage-roll-soup          One Pot Cabbage Roll Soup   [1 refused already]
-  kotlet-schabowy                    Kotlet Schabowy
-  krupnik                            Krupnik
-  golonka                            Golonka
-  szarlotka                          Szarlotka
-  mazurek                            Mazurek
-  piernik                            Piernik
-  nalesniki                          Nalesniki
-  pierogi-z-kapusta                  Pierogi z Kapusta
-  pierogi-z-miesem                   Pierogi z Miesem
-  placki-po-wegiersku                Placki po Wegiersku
-  sernik-na-zimno                    Sernik na Zimno
-  chlodnik                           Chlodnik
-  kotlet-mielony                     Kotlet Mielony
-  pyry-z-gzikiem                     Pyry z Gzikiem
-  kluski-slaskie                     Kluski Slaskie
-  rolada-slaska                      Rolada Slaska
-  modra-kapusta                      Modra Kapusta
-  zrazy                              Zrazy
-  kaszanka                           Kaszanka
-  knedle-ze-sliwkami                 Knedle ze Sliwkami
+== Greek (29) ==========================================
+  greek-chicken-bowls                Greek Chicken Bowls   [7 refused already]
+  mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
+  greek-beef-pitas                   Greek Beef Pitas
+  greek-lamb-stew                    Greek Lamb Stew   [1 refused already]
+  greek-omelette                     Greek Omelette   [1 refused already]
+  whipped-feta                       Whipped Feta   [1 refused already]
+  greek-lemon-chicken                Greek Lemon Chicken   [1 refused already]
+  lemon-chicken-orzo                 Lemon Chicken Orzo   [1 refused already]
+  lamb-souvlaki                      Lamb Souvlaki   [1 refused already]
+  dolma                              Dolma   [1 refused already]
+  grilled-halloumi-skewers           Grilled Halloumi Skewers
+  baked-feta-tomatoes                Baked Feta Tomatoes
+  revithada                          Revithada
+  melitzanosalata                    Melitzanosalata   [5 refused already]
+  air-fryer-eggplant                 Air Fryer Eggplant
+  grilled-sea-bass                   Grilled Sea Bass   [2 refused already]
+  stuffed-grape-leaves               Stuffed Grape Leaves   [2 refused already]
+  halva                              Halva   [1 refused already]
+  kourabiedes                        Kourabiedes
+  koulouri                           Koulouri   [1 refused already]
+  psari-plaki                        Psari Plaki
+  htapodi-krasato                    Htapodi Krasato
+  kolokithopita                      Kolokithopita
+  lahanodolmades                     Lahanodolmades
+  bamies                             Bamies
+  revithia                           Revithia
+  domatokeftedes                     Domatokeftedes
+  rizogalo                           Rizogalo   [1 refused already]
+  greek-easter-soup-magiritsa        Greek Easter Soup Magiritsa
 
 == Japanese (24) =======================================
   beef-udon                          Beef Udon   [1 refused already]
@@ -1812,6 +1611,26 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chicken-machboos                   Chicken Machboos
   air-fryer-falafel                  Air Fryer Falafel
 
+== Portuguese (18) =====================================
+  piri-piri-prawns                   Piri Piri Prawns   [1 refused already]
+  bolo-rei                           Bolo Rei   [5 refused already]
+  torta-de-santa-clara               Torta de Santa Clara
+  peri-peri-sauce                    Peri Peri Sauce   [1 refused already]
+  arroz-de-pato                      Arroz de Pato   [1 refused already]
+  prego-no-pao                       Prego no Pao   [1 refused already]
+  queijadas-de-sintra                Queijadas de Sintra
+  sopa-de-pedra                      Sopa de Pedra
+  caldeirada-de-peixe                Caldeirada de Peixe   [1 refused already]
+  pao-de-deus                        Pao de Deus
+  broa-de-milho                      Broa de Milho   [1 refused already]
+  toucinho-do-ceu                    Toucinho do Ceu
+  arroz-de-tomate                    Arroz de Tomate
+  bolinhos-de-bacalhau               Bolinhos de Bacalhau   [1 refused already]
+  migas-portuguesas                  Migas Portuguesas
+  bacalhau-com-grao                  Bacalhau com Grao
+  arroz-de-cabidela                  Arroz de Cabidela   [1 refused already]
+  sopa-de-feijao-verde               Sopa de Feijao Verde
+
 == Canadian (17) =======================================
   cipaille                           Cipaille   [2 refused already]
   figgy-duff                         Figgy Duff   [7 refused already]
@@ -1831,52 +1650,23 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   newfoundland-fish-cakes            Newfoundland Fish Cakes
   maple-walnut-ice-cream             Maple Walnut Ice Cream
 
-== Swedish (15) ========================================
-  janssons-frestelse                 Janssons Frestelse
-  kroppkakor                         Kroppkakor
-  pytt-i-panna                       Pytt i Panna
-  artsoppa                           Ärtsoppa
-  biff-a-la-lindstrom                Biff a la Lindstrom
-  kardemummabullar                   Kardemummabullar
-  semla                              Semla
-  kladdkaka                          Kladdkaka
-  lussekatter                        Lussekatter
-  pepparkakor                        Pepparkakor
-  chokladbollar                      Chokladbollar
-  rabarberpaj                        Rabarberpaj
-  princess-cake                      Princess Cake
-  swedish-crayfish-boil              Swedish Crayfish Boil
-  fiskgratang                        Fiskgratang
-
-== Austrian (13) =======================================
-  germknodel                         Germknodel
-  marillenknodel                     Marillenknodel
-  palatschinken                      Palatschinken
-  topfenstrudel                      Topfenstrudel
-  backhendl                          Backhendl
-  rindsuppe                          Rindsuppe
-  frittatensuppe                     Frittatensuppe
-  serviettenknodel                   Serviettenknödel
-  griessknodel                       Griessknödel
-  salzburger-nockerl                 Salzburger Nockerl
-  esterhazy-torte                    Esterhazy Torte
-  kaspressknodel                     Kaspressknödel
-  tiroler-grostl                     Tiroler Gröstl
-
-== Dutch (13) ==========================================
-  hutspot                            Hutspot
-  kroketten                          Kroketten
-  oliebollen                         Oliebollen
-  appeltaart                         Appeltaart
-  pannenkoeken                       Pannenkoeken
-  kibbeling                          Kibbeling
-  gehaktbal                          Gehaktbal
-  rookworst                          Rookworst
-  kapsalon                           Kapsalon
-  boterkoek                          Boterkoek
-  gevulde-koeken                     Gevulde Koeken
-  tompouce                           Tompouce
-  vlaai                              Vlaai
+== Polish (16) =========================================
+  haluski                            Haluski   [2 refused already]
+  polish-meatballs                   Polish Meatballs
+  perogies-with-onions               Perogies with Onions
+  air-fryer-pierogies                Air Fryer Pierogies
+  instant-pot-cabbage-rolls          Instant Pot Cabbage Rolls   [2 refused already]
+  one-pot-cabbage-roll-soup          One Pot Cabbage Roll Soup   [1 refused already]
+  krupnik                            Krupnik   [1 refused already]
+  golonka                            Golonka   [1 refused already]
+  piernik                            Piernik   [1 refused already]
+  nalesniki                          Nalesniki   [1 refused already]
+  placki-po-wegiersku                Placki po Wegiersku
+  sernik-na-zimno                    Sernik na Zimno
+  chlodnik                           Chlodnik   [1 refused already]
+  kluski-slaskie                     Kluski Slaskie
+  rolada-slaska                      Rolada Slaska
+  knedle-ze-sliwkami                 Knedle ze Sliwkami
 
 == New Zealand (13) ====================================
   paraoa-parai                       Pāraoa Parai   [3 refused already]
@@ -1893,46 +1683,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   green-lipped-mussels               Green Lipped Mussels   [1 refused already]
   chilli-mussels                     Chilli Mussels   [1 refused already]
 
-== Hungarian (12) ======================================
-  beef-goulash-soup                  Beef Goulash Soup   [1 refused already]
-  hungarian-mushroom-soup            Hungarian Mushroom Soup
-  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
-  instant-pot-goulash                Instant Pot Goulash
-  halaszle                           Halaszle
-  porkolt                            Porkolt
-  toltott-kaposzta                   Toltott Kaposzta
-  kurtoskalacs                       Kurtoskalacs
-  somloi-galuska                     Somloi Galuska
-  hortobagyi-palacsinta              Hortobagyi Palacsinta
-  turos-csusza                       Turos Csusza
-  segedinsky-gulas                   Segedinsky Gulas
-
-== Finnish (11) ========================================
-  korvapuusti                        Korvapuusti
-  ruisleipa                          Ruisleipa
-  mustikkapiirakka                   Mustikkapiirakka
-  kalakukko                          Kalakukko
-  porkkanalaatikko                   Porkkanalaatikko
-  makaronilaatikko                   Makaronilaatikko
-  runeberg-tart                      Runeberg Tart
-  poronkaristys                      Poronkaristys
-  pulla                              Pulla
-  munkki                             Munkki
-  finnish-pancake-pannukakku         Finnish Pancake Pannukakku
-
-== Irish (11) ==========================================
-  irish-apple-cake                   Irish Apple Cake   [16 refused already]
-  irish-cream                        Irish Cream   [10 refused already]
-  irish-potato-cakes                 Irish Potato Cakes   [1 refused already]
-  full-irish-breakfast               Full Irish Breakfast   [1 refused already]
-  irish-brown-bread                  Irish Brown Bread   [1 refused already]
-  treacle-bread                      Treacle Bread
-  cabbage-and-potato-soup            Cabbage and Potato Soup   [5 refused already]
-  instant-pot-corned-beef-and-cabbage Instant Pot Corned Beef and Cabbage
-  irish-whiskey-cake                 Irish Whiskey Cake
-  baileys-cheesecake                 Baileys Cheesecake
-  irish-scones                       Irish Scones
-
 == Pacific (11) ========================================
   samoan-palusami                    Samoan Palusami
   samoan-pani-popo                   Samoan Pani Popo
@@ -1946,29 +1696,17 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   fijian-curry                       Fijian Curry
   cook-islands-ika-mata              Cook Islands Ika Mata   [1 refused already]
 
-== Danish (10) =========================================
-  stegt-flaesk                       Stegt Flaesk
-  aebleskiver                        Aebleskiver
-  boller-i-karry                     Boller i Karry
-  kringle                            Kringle
-  leverpostej                        Leverpostej
-  flaeskesteg                        Flaeskesteg
-  brunede-kartofler                  Brunede Kartofler
-  risalamande                        Risalamande
-  kransekage                         Kransekage
-  danish-butter-cookies              Danish Butter Cookies
-
-== Romanian (10) =======================================
-  romanian-bean-soup                 Romanian Bean Soup   [3 refused already]
-  ciorba-de-burta                    Ciorba de Burta
-  ciorba-de-perisoare                Ciorba de Perisoare
-  zacusca                            Zacusca
-  salata-de-vinete                   Salata de Vinete
-  placinta                           Placinta
-  ciorba-de-legume                   Ciorba de Legume
-  ciorba-radauteana                  Ciorba Radauteana
-  fasole-cu-carnati                  Fasole cu Carnati
-  placinta-cu-branza                 Placinta cu Branza
+== Irish (10) ==========================================
+  irish-apple-cake                   Irish Apple Cake   [16 refused already]
+  irish-cream                        Irish Cream   [10 refused already]
+  irish-potato-cakes                 Irish Potato Cakes   [1 refused already]
+  full-irish-breakfast               Full Irish Breakfast   [1 refused already]
+  irish-brown-bread                  Irish Brown Bread   [1 refused already]
+  treacle-bread                      Treacle Bread
+  cabbage-and-potato-soup            Cabbage and Potato Soup   [5 refused already]
+  instant-pot-corned-beef-and-cabbage Instant Pot Corned Beef and Cabbage
+  irish-whiskey-cake                 Irish Whiskey Cake
+  irish-scones                       Irish Scones
 
 == Jamaican (9) ========================================
   jamaican-curry-chicken             Jamaican Curry Chicken   [1 refused already]
@@ -1980,16 +1718,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   jamaican-pepper-pot-soup           Jamaican Pepper Pot Soup
   jamaican-red-pea-soup              Jamaican Red Pea Soup
   jerk-chicken-wings                 Jerk Chicken Wings   [2 refused already]
-
-== Czech (8) ===========================================
-  vepro-knedlo-zelo                  Vepro Knedlo Zelo
-  gulas-cesky                        Gulas Cesky
-  smazeny-syr                        Smazeny Syr
-  rizek-cesky                        Rizek Cesky
-  rajska-omacka                      Rajska Omacka
-  cesnecka-polevka                   Cesnecka Polevka
-  kolace                             Koláče
-  medovnik                           Medovnik
 
 == Thai (8) ============================================
   cabbage-salad-with-peanut-dressing Cabbage Salad with Peanut Dressing   [1 refused already]
@@ -2010,15 +1738,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   caribbean-rum-punch                Caribbean Rum Punch
   one-pot-beans-and-rice             One Pot Beans and Rice   [1 refused already]
 
-== Croatian (7) ========================================
-  burek                              Burek
-  pasticada                          Pasticada
-  crni-rizot                         Crni Rizot
-  brudet                             Brudet
-  fritule                            Fritule
-  kremsnita                          Kremsnita
-  punjene-paprike                    Punjene Paprike
-
 == Filipino (7) ========================================
   pork-adobo                         Pork Adobo   [1 refused already]
   arroz-caldo                        Arroz Caldo   [1 refused already]
@@ -2037,13 +1756,46 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   baghali-polo                       Baghali Polo   [3 refused already]
   bastani-sonnati                    Bastani Sonnati   [3 refused already]
 
+== Swedish (7) =========================================
+  artsoppa                           Ärtsoppa   [1 refused already]
+  biff-a-la-lindstrom                Biff a la Lindstrom
+  pepparkakor                        Pepparkakor   [1 refused already]
+  chokladbollar                      Chokladbollar
+  rabarberpaj                        Rabarberpaj
+  swedish-crayfish-boil              Swedish Crayfish Boil
+  fiskgratang                        Fiskgratang
+
 == Belgian (6) =========================================
   gaufres-liegeoises                 Gaufres Liegeoises
-  waterzooi                          Waterzooi
+  waterzooi                          Waterzooi   [1 refused already]
   cuberdons                          Cuberdons
   chicons-au-gratin                  Chicons au Gratin
   boulets-liegeois                   Boulets Liegeois
   tarte-au-sucre-belge               Tarte au Sucre Belge
+
+== Dutch (6) ===========================================
+  appeltaart                         Appeltaart
+  pannenkoeken                       Pannenkoeken   [1 refused already]
+  gehaktbal                          Gehaktbal   [1 refused already]
+  rookworst                          Rookworst
+  kapsalon                           Kapsalon   [1 refused already]
+  boterkoek                          Boterkoek
+
+== Finnish (6) =========================================
+  ruisleipa                          Ruisleipa   [1 refused already]
+  mustikkapiirakka                   Mustikkapiirakka   [1 refused already]
+  makaronilaatikko                   Makaronilaatikko   [1 refused already]
+  pulla                              Pulla   [1 refused already]
+  munkki                             Munkki
+  finnish-pancake-pannukakku         Finnish Pancake Pannukakku
+
+== Hungarian (6) =======================================
+  beef-goulash-soup                  Beef Goulash Soup   [1 refused already]
+  hungarian-mushroom-soup            Hungarian Mushroom Soup
+  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
+  instant-pot-goulash                Instant Pot Goulash
+  toltott-kaposzta                   Toltott Kaposzta   [1 refused already]
+  hortobagyi-palacsinta              Hortobagyi Palacsinta
 
 == Scottish (6) ========================================
   empire-biscuits                    Empire Biscuits   [10 refused already]
@@ -2053,20 +1805,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   shortbread-cookies                 Shortbread Cookies   [2 refused already]
   vegan-shortbread                   Vegan Shortbread   [2 refused already]
 
-== Luxembourgish (5) ===================================
-  luxembourg-judd-mat-gaardebounen   Luxembourg Judd mat Gaardebounen
-  bouneschlupp                       Bouneschlupp
-  kniddelen                          Kniddelen
-  gromperekichelcher                 Gromperekichelcher
-  quetschentaart                     Quetschentaart
-
-== Maltese (5) =========================================
-  maltese-pastizzi                   Maltese Pastizzi
-  maltese-rabbit-stew                Maltese Rabbit Stew
-  timpana                            Timpana
-  lampuki-pie                        Lampuki Pie
-  imqaret                            Imqaret
-
 == Moroccan (5) ========================================
   moroccan-meatballs                 Moroccan Meatballs
   moroccan-chickpea-stew             Moroccan Chickpea Stew
@@ -2074,12 +1812,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   seven-vegetable-couscous           Seven-Vegetable Couscous
   moroccan-orange-salad              Moroccan Orange Salad
 
-== Slovenian (5) =======================================
-  potica                             Potica
-  jota-soup                          Jota Soup
-  kranjska-klobasa                   Kranjska Klobasa
-  prekmurska-gibanica                Prekmurska Gibanica
-  zlikrofi                           Zlikrofi
+== Romanian (5) ========================================
+  romanian-bean-soup                 Romanian Bean Soup   [3 refused already]
+  ciorba-de-legume                   Ciorba de Legume
+  ciorba-radauteana                  Ciorba Radauteana
+  fasole-cu-carnati                  Fasole cu Carnati   [1 refused already]
+  placinta-cu-branza                 Placinta cu Branza
 
 == Turkish (5) =========================================
   turkish-meatballs                  Turkish Meatballs
@@ -2094,12 +1832,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   vietnamese-vermicelli-bowl         Vietnamese Vermicelli Bowl   [1 refused already]
   com-ga                             Com Ga
   instant-pot-pho                    Instant Pot Pho
-
-== Bulgarian (4) =======================================
-  kavarma                            Kavarma
-  kebapche                           Kebapche
-  lyutenitsa                         Lyutenitsa
-  bulgarian-bean-soup                Bulgarian Bean Soup
 
 == Ethiopian (4) =======================================
   atkilt-wat                         Atkilt Wat
@@ -2143,6 +1875,21 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   sri-lankan-black-pork-curry        Sri Lankan Black Pork Curry   [1 refused already]
   wattalapam                         Wattalapam
 
+== Austrian (3) ========================================
+  palatschinken                      Palatschinken   [1 refused already]
+  rindsuppe                          Rindsuppe   [1 refused already]
+  griessknodel                       Griessknödel
+
+== Czech (3) ===========================================
+  gulas-cesky                        Gulas Cesky
+  rizek-cesky                        Rizek Cesky
+  rajska-omacka                      Rajska Omacka   [1 refused already]
+
+== Danish (3) ==========================================
+  aebleskiver                        Aebleskiver   [1 refused already]
+  flaeskesteg                        Flaeskesteg   [1 refused already]
+  brunede-kartofler                  Brunede Kartofler
+
 == Egyptian (3) ========================================
   egyptian-rice-with-vermicelli      Egyptian Rice with Vermicelli   [4 refused already]
   egyptian-bean-sandwich             Egyptian Bean Sandwich
@@ -2152,6 +1899,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   pineapple-chicken-skewers          Pineapple Chicken Skewers   [9 refused already]
   hawaiian-lau-lau                   Hawaiian Lau Lau
   hawaiian-mac-salad                 Hawaiian Mac Salad   [1 refused already]
+
+== Maltese (3) =========================================
+  maltese-rabbit-stew                Maltese Rabbit Stew
+  timpana                            Timpana
+  lampuki-pie                        Lampuki Pie
 
 == Puerto Rican (3) ====================================
   puerto-rican-pasteles              Puerto Rican Pasteles   [1 refused already]
@@ -2167,13 +1919,17 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   zanzibar-pizza                     Zanzibar Pizza   [1 refused already]
   ugandan-rolex                      Ugandan Rolex   [1 refused already]
 
+== Bulgarian (2) =======================================
+  kavarma                            Kavarma   [1 refused already]
+  bulgarian-bean-soup                Bulgarian Bean Soup
+
+== Croatian (2) ========================================
+  fritule                            Fritule
+  punjene-paprike                    Punjene Paprike   [1 refused already]
+
 == Cuban (2) ===========================================
   yuca-con-mojo                      Yuca con Mojo
   cuban-flan                         Cuban Flan   [1 refused already]
-
-== Cypriot (2) =========================================
-  cypriot-souvla                     Cypriot Souvla
-  cypriot-tahini-pies                Cypriot Tahini Pies
 
 == Jewish (2) ==========================================
   brisket-with-onions                Brisket with Onions
@@ -2187,9 +1943,17 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lebanese-cabbage-salad             Lebanese Cabbage Salad   [2 refused already]
   lebanese-garlic-potatoes           Lebanese Garlic Potatoes   [1 refused already]
 
+== Luxembourgish (2) ===================================
+  luxembourg-judd-mat-gaardebounen   Luxembourg Judd mat Gaardebounen
+  quetschentaart                     Quetschentaart
+
 == Slovak (2) ==========================================
-  kapustnica                         Kapustnica
+  kapustnica                         Kapustnica   [1 refused already]
   slovak-bryndzove-pirohy            Slovak Bryndzove Pirohy
+
+== Slovenian (2) =======================================
+  jota-soup                          Jota Soup   [1 refused already]
+  zlikrofi                           Zlikrofi   [1 refused already]
 
 == Venezuelan (2) ======================================
   reina-pepiada-arepas               Reina Pepiada Arepas
@@ -2231,4 +1995,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs
 
-TOTAL 2079 of 5515
+TOTAL 1845 of 5515

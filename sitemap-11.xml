@@ -3495,6 +3495,11 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tarte-aux-fraises.jpg</image:loc>
+      <image:title>Tarte aux Fraises</image:title>
+      <image:caption>Tarte aux Fraises, a French dessert recipe — french strawberry tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tarte-aux-poireaux/</loc>
@@ -3549,11 +3554,21 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tournedos-rossini.jpg</image:loc>
+      <image:title>Tournedos Rossini</image:title>
+      <image:caption>Tournedos Rossini, a French dinner recipe — fillet steak with foie gras</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/foie-gras/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/foie-gras.jpg</image:loc>
+      <image:title>Foie Gras</image:title>
+      <image:caption>Foie Gras, a French appetizer recipe</image:caption>
+    </image:image>
   </url>
 </urlset>
