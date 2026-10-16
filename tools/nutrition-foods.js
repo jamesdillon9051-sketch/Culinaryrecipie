@@ -817,7 +817,8 @@ const EXT6_FOODS = {
   snails: [16, 2, 1, 0, 0, 100],
   sea_bream: [20, 0, 5, 0, 0, 70],
   phyllo: [8, 55, 2, 2, 2, 300],
-  chicken_blood: [18, 0, 0, 0, 0, 200]
+  chicken_blood: [18, 0, 0, 0, 0, 200],
+  lamb_heart: [17, 0, 5, 0, 0, 100]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -874,7 +875,9 @@ const EXT6_ALIAS = {
   snails: ['cooked snails, drained', 'cooked snails', 'snails'],
   sea_bream: ['whole sea bream, scaled and gutted', 'whole sea bream', 'sea bream'],
   phyllo: ['phyllo pastry, 12 sheets', 'phyllo pastry', 'phyllo'],
-  chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood']
+  chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood'],
+  lamb_heart: ['lamb heart'],
+  coffee_brewed: ['double espresso, 2 shots']
 };
 const EXT6_PORTION = {
 

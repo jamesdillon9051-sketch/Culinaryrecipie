@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Spanish 41, Portuguese 26, Greek 8.
+ * Spread: Spanish 41, Portuguese 26, Greek 24, Maltese 5, Cypriot 2, Polish 2.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('kolokithokeftedes', 'Kolokithokeftedes', 'Greek', 'Appetizers', 'Easy', 20, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'kolokithokeftedes'),
   c('bougatsa', 'Bougatsa', 'Greek', 'Breakfast', 'Medium', 40, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'bougatsa'),
   c('koulouri', 'Koulouri', 'Greek', 'Baking', 'Medium', 25, 25, 6, 0, 0, ['Vegetarian'], ['new'], 'koulouri'),
-  c('psari-plaki', 'Psari Plaki', 'Greek', 'Dinner', 'Easy', 20, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'psari plaki')
+  c('psari-plaki', 'Psari Plaki', 'Greek', 'Dinner', 'Easy', 20, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'psari plaki'),
+  c('htapodi-krasato', 'Htapodi Krasato', 'Greek', 'Dinner', 'Medium', 20, 70, 4, 0, 0, [], ['new'], 'htapodi krasato'),
+  c('kolokithopita', 'Kolokithopita', 'Greek', 'Dinner', 'Easy', 25, 50, 6, 0, 0, ['Vegetarian'], ['new'], 'kolokithopita'),
+  c('hortopita', 'Hortopita', 'Greek', 'Dinner', 'Medium', 40, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'hortopita'),
+  c('lahanodolmades', 'Lahanodolmades', 'Greek', 'Dinner', 'Medium', 40, 60, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'lahanodolmades'),
+  c('spetsofai', 'Spetsofai', 'Greek', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'spetsofai'),
+  c('bifteki', 'Bifteki', 'Greek', 'Dinner', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'bifteki'),
+  c('soutzoukakia', 'Soutzoukakia', 'Greek', 'Dinner', 'Medium', 25, 40, 4, 0, 0, [], ['new'], 'soutzoukakia'),
+  c('tirokafteri', 'Tirokafteri', 'Greek', 'Appetizers', 'Easy', 10, 0, 6, 0, 0, ['Vegetarian'], ['new'], 'tirokafteri'),
+  c('bamies', 'Bamies', 'Greek', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'bamies'),
+  c('revithia', 'Revithia', 'Greek', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'revithia'),
+  c('domatokeftedes', 'Domatokeftedes', 'Greek', 'Appetizers', 'Easy', 15, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'domatokeftedes'),
+  c('karidopita', 'Karidopita', 'Greek', 'Baking', 'Easy', 20, 50, 12, 0, 0, ['Vegetarian'], ['new'], 'karidopita'),
+  c('portokalopita', 'Portokalopita', 'Greek', 'Baking', 'Easy', 15, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'portokalopita'),
+  c('rizogalo', 'Rizogalo', 'Greek', 'Desserts', 'Easy', 10, 45, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'rizogalo'),
+  c('freddo-cappuccino', 'Freddo Cappuccino', 'Greek', 'Drinks', 'Easy', 5, 0, 2, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'freddo cappuccino'),
+  c('greek-easter-soup-magiritsa', 'Greek Easter Soup Magiritsa', 'Greek', 'Holiday Specials', 'Medium', 20, 60, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'greek easter soup magiritsa'),
+  c('maltese-pastizzi', 'Maltese Pastizzi', 'Maltese', 'Appetizers', 'Medium', 40, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'maltese pastizzi'),
+  c('maltese-rabbit-stew', 'Maltese Rabbit Stew', 'Maltese', 'Dinner', 'Medium', 20, 90, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'maltese rabbit stew'),
+  c('timpana', 'Timpana', 'Maltese', 'Dinner', 'Medium', 40, 45, 8, 0, 0, [], ['new'], 'timpana'),
+  c('lampuki-pie', 'Lampuki Pie', 'Maltese', 'Dinner', 'Medium', 30, 50, 6, 0, 0, [], ['new'], 'lampuki pie'),
+  c('imqaret', 'Imqaret', 'Maltese', 'Desserts', 'Medium', 40, 20, 20, 0, 0, ['Vegetarian'], ['new'], 'imqaret'),
+  c('cypriot-souvla', 'Cypriot Souvla', 'Cypriot', 'Dinner', 'Easy', 20, 30, 4, 0, 0, [], ['new'], 'cypriot souvla'),
+  c('cypriot-tahini-pies', 'Cypriot Tahini Pies', 'Cypriot', 'Baking', 'Medium', 40, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'cypriot tahini pies'),
+  c('kotlet-schabowy', 'Kotlet Schabowy', 'Polish', 'Dinner', 'Easy', 20, 20, 4, 0, 0, [], ['new'], 'kotlet schabowy'),
+  c('krupnik', 'Krupnik', 'Polish', 'Dinner', 'Easy', 15, 60, 6, 0, 0, [], ['new'], 'krupnik')
 ];
