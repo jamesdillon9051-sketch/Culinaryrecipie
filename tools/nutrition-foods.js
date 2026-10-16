@@ -800,7 +800,10 @@ const EXT6_FOODS = {
   weisswurst: [12, 2, 22, 0, 0, 900],
   soft_pretzel: [9, 45, 3, 2, 2, 1500],
   wiener: [12, 2, 25, 0, 1, 1000],
-  quark: [12, 3.5, 10, 0, 3.5, 40]
+  quark: [12, 3.5, 10, 0, 3.5, 40],
+  linseed: [18, 29, 42, 27, 1.6, 30],
+  marzipan: [9, 50, 25, 6, 48, 10],
+  wafer: [5, 75, 5, 3, 25, 100]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -832,11 +835,14 @@ const EXT6_ALIAS = {
   guanciale: ['guanciale'],
   bitter_liqueur: ['bitter orange liqueur', 'aperol'],
   white_wine: ['dry prosecco', 'prosecco'],
-  pickled_herring: ['rollmop herrings', 'rollmops', 'pickled herring'],
+  pickled_herring: ['rollmop herrings', 'rollmops', 'pickled herring', 'matjes herring fillets', 'matjes herring', 'matjes'],
   weisswurst: ['weisswurst'],
   soft_pretzel: ['soft pretzels', 'pretzels'],
-  wiener: ['wiener sausages', 'wiener sausages, sliced', 'frankfurters'],
-  quark: ['full fat quark, drained', 'full fat quark', 'quark']
+  wiener: ['wiener sausages', 'wiener sausages, sliced', 'frankfurters', 'bockwurst', 'bockwurst, sliced'],
+  quark: ['full fat quark, drained', 'full fat quark', 'quark'],
+  linseed: ['linseed', 'flaxseed'],
+  marzipan: ['marzipan', 'marzipan, grated'],
+  wafer: ['round wafers', 'round wafers, 5 cm', 'wafers']
 };
 const EXT6_PORTION = {
 

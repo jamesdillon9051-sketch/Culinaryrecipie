@@ -169,7 +169,7 @@ module.exports = {
     pair: ['Espresso', 'Dessert wine', 'A gift box'],
     store: 'Keeps for 4 weeks wrapped in baking paper in a cool place.',
     rest: [360, 'Setting'],
-    nut: [309, 6, 42, 13, 3, 35, 10]
+    nut: [309, 6, 42, 13, 3, 36, 10]
   },
 
   'brutti-ma-buoni': {

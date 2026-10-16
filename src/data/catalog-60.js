@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: German 25.
+ * Spread: German 49.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -52,5 +52,29 @@ module.exports = [
   c('rhabarberkuchen', 'Rhabarberkuchen', 'German', 'Baking', 'Easy', 20, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'rhabarberkuchen'),
   c('streuselkuchen', 'Streuselkuchen', 'German', 'Baking', 'Easy', 30, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'streuselkuchen'),
   c('rote-grutze', 'Rote Grutze', 'German', 'Desserts', 'Easy', 10, 15, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'rote grutze'),
-  c('kasekuchen', 'Kasekuchen', 'German', 'Desserts', 'Medium', 30, 70, 12, 0, 0, ['Vegetarian'], ['new'], 'kasekuchen')
+  c('kasekuchen', 'Kasekuchen', 'German', 'Desserts', 'Medium', 30, 70, 12, 0, 0, ['Vegetarian'], ['new'], 'kasekuchen'),
+  c('frankfurter-green-sauce', 'Frankfurter Green Sauce', 'German', 'Appetizers', 'Easy', 15, 10, 6, 0, 0, ['Vegetarian'], ['new'], 'frankfurter green sauce'),
+  c('wildgulasch', 'Wildgulasch', 'German', 'Dinner', 'Medium', 30, 120, 6, 0, 0, ['Dairy-Free'], ['new'], 'wildgulasch'),
+  c('matjes', 'Matjes', 'German', 'Lunch', 'Easy', 10, 0, 4, 0, 0, [], ['new'], 'matjes'),
+  c('fischbrotchen', 'Fischbrotchen', 'German', 'Quick Meals', 'Easy', 10, 5, 2, 0, 0, [], ['new'], 'fischbrotchen'),
+  c('gurkensalat', 'Gurkensalat', 'German', 'Healthy', 'Easy', 10, 0, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gurkensalat'),
+  c('kohlrouladen', 'Kohlrouladen', 'German', 'Dinner', 'Medium', 30, 70, 4, 0, 0, [], ['new'], 'kohlrouladen'),
+  c('spargel-mit-hollandaise', 'Spargel mit Hollandaise', 'German', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'spargel mit hollandaise'),
+  c('bohnensuppe', 'Bohnensuppe', 'German', 'Dinner', 'Easy', 15, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'bohnensuppe'),
+  c('vollkornbrot', 'Vollkornbrot', 'German', 'Baking', 'Medium', 20, 60, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'vollkornbrot'),
+  c('pumpernickel', 'Pumpernickel', 'German', 'Baking', 'Medium', 20, 90, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'pumpernickel'),
+  c('nussecken', 'Nussecken', 'German', 'Baking', 'Medium', 40, 25, 24, 0, 0, ['Vegetarian'], ['new'], 'nussecken'),
+  c('spritzgeback', 'Spritzgebäck', 'German', 'Baking', 'Easy', 25, 12, 40, 0, 0, ['Vegetarian'], ['new'], 'spritzgebäck'),
+  c('butterkuchen', 'Butterkuchen', 'German', 'Baking', 'Easy', 25, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'butterkuchen'),
+  c('zwiebelkuchen', 'Zwiebelkuchen', 'German', 'Lunch', 'Easy', 25, 40, 8, 0, 0, [], ['new'], 'zwiebelkuchen'),
+  c('apfelkuchen-blech', 'Apfelkuchen Blech', 'German', 'Baking', 'Easy', 25, 45, 16, 0, 0, ['Vegetarian'], ['new'], 'apfelkuchen blech'),
+  c('mohnkuchen', 'Mohnkuchen', 'German', 'Baking', 'Medium', 30, 50, 12, 0, 0, ['Vegetarian'], ['new'], 'mohnkuchen'),
+  c('hefezopf', 'Hefezopf', 'German', 'Baking', 'Medium', 40, 30, 10, 0, 0, ['Vegetarian'], ['new'], 'hefezopf'),
+  c('prinzregententorte', 'Prinzregententorte', 'German', 'Baking', 'Hard', 60, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'prinzregententorte'),
+  c('frankfurter-kranz', 'Frankfurter Kranz', 'German', 'Baking', 'Hard', 60, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'frankfurter kranz'),
+  c('donauwelle', 'Donauwelle', 'German', 'Baking', 'Medium', 40, 45, 16, 0, 0, ['Vegetarian'], ['new'], 'donauwelle'),
+  c('baumkuchen', 'Baumkuchen', 'German', 'Baking', 'Hard', 40, 60, 16, 0, 0, ['Vegetarian'], ['new'], 'baumkuchen'),
+  c('haselnussmakronen', 'Haselnussmakronen', 'German', 'Holiday Specials', 'Easy', 15, 25, 30, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'haselnussmakronen'),
+  c('kokosmakronen', 'Kokosmakronen', 'German', 'Holiday Specials', 'Easy', 15, 20, 30, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'kokosmakronen'),
+  c('mandelhornchen', 'Mandelhörnchen', 'German', 'Holiday Specials', 'Medium', 30, 20, 24, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'mandelhörnchen')
 ];
