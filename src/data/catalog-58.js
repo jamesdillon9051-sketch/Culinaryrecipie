@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: French 69, Belgian 6.
+ * Spread: French 69, Italian 20, Belgian 6, Luxembourgish 5.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -102,5 +102,30 @@ module.exports = [
   c('cuberdons', 'Cuberdons', 'Belgian', 'Desserts', 'Hard', 20, 60, 40, 0, 0, ['Vegetarian', 'Vegan'], ['new'], 'cuberdons'),
   c('chicons-au-gratin', 'Chicons au Gratin', 'Belgian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'chicons au gratin'),
   c('boulets-liegeois', 'Boulets Liegeois', 'Belgian', 'Dinner', 'Medium', 30, 40, 4, 0, 0, [], ['new'], 'boulets liegeois'),
-  c('tarte-au-sucre-belge', 'Tarte au Sucre Belge', 'Belgian', 'Baking', 'Medium', 40, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'tarte au sucre belge')
+  c('tarte-au-sucre-belge', 'Tarte au Sucre Belge', 'Belgian', 'Baking', 'Medium', 40, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'tarte au sucre belge'),
+  c('luxembourg-judd-mat-gaardebounen', 'Luxembourg Judd mat Gaardebounen', 'Luxembourgish', 'Dinner', 'Easy', 15, 90, 4, 0, 0, [], ['new'], 'luxembourg judd mat gaardebounen'),
+  c('bouneschlupp', 'Bouneschlupp', 'Luxembourgish', 'Lunch', 'Easy', 15, 45, 4, 0, 0, ['Gluten-Free'], ['new'], 'bouneschlupp'),
+  c('kniddelen', 'Kniddelen', 'Luxembourgish', 'Dinner', 'Easy', 20, 15, 4, 0, 0, [], ['new'], 'kniddelen'),
+  c('gromperekichelcher', 'Gromperekichelcher', 'Luxembourgish', 'Appetizers', 'Easy', 20, 20, 6, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'gromperekichelcher'),
+  c('quetschentaart', 'Quetschentaart', 'Luxembourgish', 'Baking', 'Easy', 20, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'quetschentaart'),
+  c('ravioli-di-ricotta-e-spinaci', 'Ravioli di Ricotta e Spinaci', 'Italian', 'Dinner', 'Medium', 50, 5, 4, 0, 0, [], ['new'], 'ravioli di ricotta e spinaci'),
+  c('pizza-napoletana', 'Pizza Napoletana', 'Italian', 'Dinner', 'Medium', 20, 5, 2, 0, 0, ['Vegetarian'], ['new'], 'pizza napoletana'),
+  c('pizza-al-taglio', 'Pizza al Taglio', 'Italian', 'Dinner', 'Medium', 20, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'pizza al taglio'),
+  c('focaccia-barese', 'Focaccia Barese', 'Italian', 'Baking', 'Medium', 25, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'focaccia barese'),
+  c('semifreddo', 'Semifreddo', 'Italian', 'Desserts', 'Medium', 25, 0, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'semifreddo'),
+  c('bombolone', 'Bombolone', 'Italian', 'Baking', 'Medium', 30, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'bombolone'),
+  c('polenta-taragna', 'Polenta Taragna', 'Italian', 'Dinner', 'Easy', 10, 50, 4, 0, 0, [], ['new'], 'polenta taragna'),
+  c('tajarin-al-tartufo', 'Tajarin al Tartufo', 'Italian', 'Dinner', 'Medium', 40, 3, 4, 0, 0, [], ['new'], 'tajarin al tartufo'),
+  c('pollo-alla-diavola', 'Pollo alla Diavola', 'Italian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pollo alla diavola'),
+  c('coniglio-alla-cacciatora', 'Coniglio alla Cacciatora', 'Italian', 'Dinner', 'Medium', 20, 70, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'coniglio alla cacciatora'),
+  c('trippa-alla-fiorentina', 'Trippa alla Fiorentina', 'Italian', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Gluten-Free'], ['new'], 'trippa alla fiorentina'),
+  c('pomodori-ripieni', 'Pomodori Ripieni', 'Italian', 'Dinner', 'Easy', 20, 40, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'pomodori ripieni'),
+  c('fagioli-alluccelletto', 'Fagioli all\'Uccelletto', 'Italian', 'Dinner', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'fagioli all\'uccelletto'),
+  c('tortelli-di-zucca', 'Tortelli di Zucca', 'Italian', 'Dinner', 'Hard', 60, 5, 6, 0, 0, [], ['new'], 'tortelli di zucca'),
+  c('seadas', 'Seadas', 'Italian', 'Desserts', 'Medium', 40, 10, 8, 0, 0, [], ['new'], 'seadas'),
+  c('torta-di-mele', 'Torta di Mele', 'Italian', 'Baking', 'Easy', 20, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'torta di mele'),
+  c('torta-al-limone', 'Torta al Limone', 'Italian', 'Baking', 'Easy', 20, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'torta al limone'),
+  c('torta-di-ricotta', 'Torta di Ricotta', 'Italian', 'Baking', 'Easy', 20, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'torta di ricotta'),
+  c('biscotti-savoiardi', 'Biscotti Savoiardi', 'Italian', 'Baking', 'Medium', 30, 12, 24, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'biscotti savoiardi'),
+  c('tortino-al-cioccolato', 'Tortino al Cioccolato', 'Italian', 'Desserts', 'Easy', 15, 12, 4, 0, 0, ['Vegetarian'], ['new'], 'tortino al cioccolato')
 ];

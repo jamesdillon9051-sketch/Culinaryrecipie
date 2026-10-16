@@ -775,7 +775,13 @@ const EXT6_FOODS = {
   frisee: [1.2, 3, 0.2, 3.1, 0.5, 40],
   calvados: [0, 0, 0, 0, 0, 1],
   gum_arabic: [2, 85, 0, 85, 0, 50],
-  chicory: [0.9, 4, 0.1, 3.1, 0.7, 22]
+  chicory: [0.9, 4, 0.1, 3.1, 0.7, 22],
+  smoked_pork_collar: [20, 0, 12, 0, 0, 1200],
+  torrone: [9, 65, 22, 3, 60, 30],
+  fontina: [25, 1, 31, 0, 0, 800],
+  black_truffle: [6, 10, 0.5, 1, 0, 10],
+  tripe: [12, 0, 3.5, 0, 0, 70],
+  amaretti: [8, 70, 16, 3, 55, 100]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -785,7 +791,13 @@ const EXT6_ALIAS = {
   frisee: ['frisée', 'frisee', 'curly endive'],
   calvados: ['calvados', 'apple brandy'],
   gum_arabic: ['gum arabic powder', 'gum arabic'],
-  chicory: ['chicory heads', 'chicory', 'witloof', 'belgian endive']
+  chicory: ['chicory heads', 'chicory', 'witloof', 'belgian endive'],
+  smoked_pork_collar: ['smoked pork collar', 'smoked collar'],
+  torrone: ['torrone or soft nougat', 'torrone', 'nougat'],
+  fontina: ['fontina'],
+  black_truffle: ['fresh black truffle', 'black truffle', 'truffle'],
+  tripe: ['cleaned beef tripe', 'beef tripe', 'tripe'],
+  amaretti: ['amaretti biscuits', 'amaretti']
 };
 const EXT6_PORTION = {
 
