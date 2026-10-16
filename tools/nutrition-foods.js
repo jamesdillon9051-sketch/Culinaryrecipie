@@ -786,7 +786,13 @@ const EXT6_FOODS = {
   stracchino: [18, 2, 25, 0, 2, 500],
   taleggio: [19, 0, 26, 0, 0, 800],
   bottarga: [40, 2, 15, 0, 0, 3500],
-  radicchio: [1.4, 4.5, 0.2, 3, 0.6, 22]
+  radicchio: [1.4, 4.5, 0.2, 3, 0.6, 22],
+  farro: [15, 70, 2.5, 7, 1, 5],
+  chard: [1.8, 3.7, 0.2, 1.6, 1.1, 213],
+  pork_shank: [16, 0, 9, 0, 0, 60],
+  mortadella: [15, 1, 30, 0, 0, 1100],
+  cotechino: [12, 0.5, 30, 0, 0, 1000],
+  juniper: [4, 42, 7, 0, 0, 10]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -807,7 +813,13 @@ const EXT6_ALIAS = {
   stracchino: ['stracchino or soft cheese', 'stracchino', 'crescenza'],
   taleggio: ['taleggio'],
   bottarga: ['bottarga di muggine', 'bottarga'],
-  radicchio: ['heads radicchio', 'radicchio']
+  radicchio: ['heads radicchio', 'radicchio'],
+  farro: ['pearled farro', 'farro'],
+  chard: ['chard, stalks removed', 'chard'],
+  pork_shank: ['pork shanks', 'pork shank'],
+  mortadella: ['mortadella'],
+  cotechino: ['raw cotechino', 'cotechino'],
+  juniper: ['juniper berries', 'juniper']
 };
 const EXT6_PORTION = {
 

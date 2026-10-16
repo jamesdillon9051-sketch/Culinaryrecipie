@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Italian 25.
+ * Spread: Italian 50.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -52,5 +52,30 @@ module.exports = [
   c('gnocchi-alla-romana', 'Gnocchi alla Romana', 'Italian', 'Dinner', 'Medium', 15, 40, 4, 0, 0, [], ['new'], 'gnocchi alla romana'),
   c('malfatti', 'Malfatti', 'Italian', 'Dinner', 'Medium', 30, 10, 4, 0, 0, [], ['new'], 'malfatti'),
   c('risotto-alla-pescatora', 'Risotto alla Pescatora', 'Italian', 'Dinner', 'Medium', 20, 30, 4, 0, 0, ['Dairy-Free'], ['new'], 'risotto alla pescatora'),
-  c('risotto-al-radicchio', 'Risotto al Radicchio', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'risotto al radicchio')
+  c('risotto-al-radicchio', 'Risotto al Radicchio', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'risotto al radicchio'),
+  c('risotto-agli-asparagi', 'Risotto agli Asparagi', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, ['Gluten-Free'], ['new'], 'risotto agli asparagi'),
+  c('zuppa-di-farro', 'Zuppa di Farro', 'Italian', 'Lunch', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'zuppa di farro'),
+  c('zuppa-di-lenticchie', 'Zuppa di Lenticchie', 'Italian', 'Lunch', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'zuppa di lenticchie'),
+  c('zuppa-di-ceci', 'Zuppa di Ceci', 'Italian', 'Lunch', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian'], ['new'], 'zuppa di ceci'),
+  c('costoletta-alla-valdostana', 'Costoletta alla Valdostana', 'Italian', 'Dinner', 'Medium', 15, 15, 4, 0, 0, [], ['new'], 'costoletta alla valdostana'),
+  c('polenta-concia', 'Polenta Concia', 'Italian', 'Dinner', 'Easy', 5, 40, 4, 0, 0, ['Gluten-Free'], ['new'], 'polenta concia'),
+  c('pasta-alla-norcina', 'Pasta alla Norcina', 'Italian', 'Dinner', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'pasta alla norcina'),
+  c('abbacchio-alla-scottadito', 'Abbacchio alla Scottadito', 'Italian', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'abbacchio alla scottadito'),
+  c('castagnaccio', 'Castagnaccio', 'Italian', 'Baking', 'Easy', 10, 40, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'castagnaccio'),
+  c('trenette-al-pesto', 'Trenette al Pesto', 'Italian', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'trenette al pesto'),
+  c('torta-di-verdure', 'Torta di Verdure', 'Italian', 'Lunch', 'Easy', 25, 45, 8, 0, 0, [], ['new'], 'torta di verdure'),
+  c('peperoni-ripieni', 'Peperoni Ripieni', 'Italian', 'Dinner', 'Easy', 20, 45, 4, 0, 0, [], ['new'], 'peperoni ripieni'),
+  c('involtini-di-melanzane', 'Involtini di Melanzane', 'Italian', 'Appetizers', 'Medium', 25, 25, 6, 0, 0, ['Gluten-Free'], ['new'], 'involtini di melanzane'),
+  c('pollo-alla-romana', 'Pollo alla Romana', 'Italian', 'Dinner', 'Easy', 15, 45, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pollo alla romana'),
+  c('pollo-al-limone', 'Pollo al Limone', 'Italian', 'Dinner', 'Easy', 10, 35, 4, 0, 0, [], ['new'], 'pollo al limone'),
+  c('pollo-con-i-peperoni', 'Pollo con i Peperoni', 'Italian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pollo con i peperoni'),
+  c('cinghiale-in-umido', 'Cinghiale in Umido', 'Italian', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'cinghiale in umido'),
+  c('stinco-di-maiale', 'Stinco di Maiale', 'Italian', 'Dinner', 'Medium', 15, 150, 4, 0, 0, ['Dairy-Free'], ['new'], 'stinco di maiale'),
+  c('arrosticini', 'Arrosticini', 'Italian', 'Dinner', 'Easy', 20, 10, 4, 0, 0, [], ['new'], 'arrosticini'),
+  c('costine-di-maiale', 'Costine di Maiale', 'Italian', 'Dinner', 'Easy', 10, 90, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'costine di maiale'),
+  c('salsiccia-e-friarielli', 'Salsiccia e Friarielli', 'Italian', 'Dinner', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'salsiccia e friarielli'),
+  c('salsicce-e-fagioli', 'Salsicce e Fagioli', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'salsicce e fagioli'),
+  c('spezzatino-di-manzo', 'Spezzatino di Manzo', 'Italian', 'Dinner', 'Easy', 20, 100, 6, 0, 0, ['Dairy-Free'], ['new'], 'spezzatino di manzo'),
+  c('polpettone', 'Polpettone', 'Italian', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'polpettone'),
+  c('cotechino-con-lenticchie', 'Cotechino con Lenticchie', 'Italian', 'Holiday Specials', 'Medium', 15, 150, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'cotechino con lenticchie')
 ];
