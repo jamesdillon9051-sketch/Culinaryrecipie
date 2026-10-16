@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Spanish 41, Portuguese 9.
+ * Spread: Spanish 41, Portuguese 26, Greek 8.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('prego-no-pao', 'Prego no Pao', 'Portuguese', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, [], ['new'], 'prego no pao'),
   c('bolo-de-bolacha', 'Bolo de Bolacha', 'Portuguese', 'Desserts', 'Easy', 25, 0, 8, 0, 0, ['Vegetarian'], ['new'], 'bolo de bolacha'),
   c('queijadas-de-sintra', 'Queijadas de Sintra', 'Portuguese', 'Desserts', 'Medium', 25, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'queijadas de sintra'),
-  c('sopa-de-pedra', 'Sopa de Pedra', 'Portuguese', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'sopa de pedra')
+  c('sopa-de-pedra', 'Sopa de Pedra', 'Portuguese', 'Dinner', 'Medium', 20, 120, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'sopa de pedra'),
+  c('acorda-alentejana', 'Acorda Alentejana', 'Portuguese', 'Dinner', 'Easy', 15, 15, 4, 0, 0, ['Vegetarian'], ['new'], 'acorda alentejana'),
+  c('ameijoas-a-bulhao-pato', 'Amêijoas à Bulhão Pato', 'Portuguese', 'Dinner', 'Easy', 10, 10, 4, 0, 0, [], ['new'], 'amêijoas à bulhão pato'),
+  c('caldeirada-de-peixe', 'Caldeirada de Peixe', 'Portuguese', 'Dinner', 'Medium', 20, 40, 6, 0, 0, ['Gluten-Free'], ['new'], 'caldeirada de peixe'),
+  c('pao-de-lo', 'Pao de Lo', 'Portuguese', 'Baking', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'pao de lo'),
+  c('pao-de-deus', 'Pao de Deus', 'Portuguese', 'Baking', 'Medium', 40, 25, 10, 0, 0, ['Vegetarian'], ['new'], 'pao de deus'),
+  c('broa-de-milho', 'Broa de Milho', 'Portuguese', 'Baking', 'Easy', 20, 35, 8, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'broa de milho'),
+  c('ovos-moles', 'Ovos Moles', 'Portuguese', 'Desserts', 'Medium', 25, 20, 12, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'ovos moles'),
+  c('toucinho-do-ceu', 'Toucinho do Ceu', 'Portuguese', 'Desserts', 'Medium', 20, 40, 10, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'toucinho do ceu'),
+  c('arroz-de-tomate', 'Arroz de Tomate', 'Portuguese', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Dairy-Free'], ['new'], 'arroz de tomate'),
+  c('bolinhos-de-bacalhau', 'Bolinhos de Bacalhau', 'Portuguese', 'Appetizers', 'Easy', 25, 10, 8, 0, 0, [], ['new'], 'bolinhos de bacalhau'),
+  c('chourico-assado', 'Chourico Assado', 'Portuguese', 'Appetizers', 'Easy', 10, 15, 6, 0, 0, ['Vegetarian'], ['new'], 'chourico assado'),
+  c('migas-portuguesas', 'Migas Portuguesas', 'Portuguese', 'Dinner', 'Easy', 15, 20, 4, 0, 0, [], ['new'], 'migas portuguesas'),
+  c('carne-de-porco-a-alentejana', 'Carne de Porco a Alentejana', 'Portuguese', 'Dinner', 'Medium', 20, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'carne de porco a alentejana'),
+  c('bacalhau-com-grao', 'Bacalhau com Grao', 'Portuguese', 'Dinner', 'Easy', 15, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'bacalhau com grao'),
+  c('arroz-de-cabidela', 'Arroz de Cabidela', 'Portuguese', 'Dinner', 'Medium', 25, 60, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'arroz de cabidela'),
+  c('leitao-da-bairrada', 'Leitao da Bairrada', 'Portuguese', 'Dinner', 'Medium', 20, 240, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'leitao da bairrada'),
+  c('sopa-de-feijao-verde', 'Sopa de Feijao Verde', 'Portuguese', 'Lunch', 'Easy', 15, 40, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'sopa de feijao verde'),
+  c('giouvetsi', 'Giouvetsi', 'Greek', 'Dinner', 'Medium', 20, 90, 6, 0, 0, [], ['new'], 'giouvetsi'),
+  c('halva', 'Halva', 'Greek', 'Desserts', 'Easy', 10, 25, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'halva'),
+  c('melomakarona', 'Melomakarona', 'Greek', 'Holiday Specials', 'Easy', 25, 30, 30, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'melomakarona'),
+  c('kourabiedes', 'Kourabiedes', 'Greek', 'Holiday Specials', 'Easy', 25, 20, 30, 0, 0, ['Vegetarian'], ['new'], 'kourabiedes'),
+  c('kolokithokeftedes', 'Kolokithokeftedes', 'Greek', 'Appetizers', 'Easy', 20, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'kolokithokeftedes'),
+  c('bougatsa', 'Bougatsa', 'Greek', 'Breakfast', 'Medium', 40, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'bougatsa'),
+  c('koulouri', 'Koulouri', 'Greek', 'Baking', 'Medium', 25, 25, 6, 0, 0, ['Vegetarian'], ['new'], 'koulouri'),
+  c('psari-plaki', 'Psari Plaki', 'Greek', 'Dinner', 'Easy', 20, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'psari plaki')
 ];

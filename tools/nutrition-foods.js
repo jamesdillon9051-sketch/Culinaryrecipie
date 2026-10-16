@@ -815,7 +815,9 @@ const EXT6_FOODS = {
   maria_biscuit: [7, 76, 10, 2, 20, 300],
   mojo: [2, 8, 30, 3, 1, 800],
   snails: [16, 2, 1, 0, 0, 100],
-  sea_bream: [20, 0, 5, 0, 0, 70]
+  sea_bream: [20, 0, 5, 0, 0, 70],
+  phyllo: [8, 55, 2, 2, 2, 300],
+  chicken_blood: [18, 0, 0, 0, 0, 200]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -861,7 +863,7 @@ const EXT6_ALIAS = {
   gouda: ['gouda, grated', 'gouda'],
   pig_trotter: ['pig trotter'],
   black_pudding: ['morcilla, sliced', 'morcilla', 'morcela'],
-  vodka: ['kirsch'],
+  vodka: ['kirsch', 'aguardente or other strong clear spirit', 'aguardente'],
   allioli: ['allioli, to serve', 'allioli'],
   pork_cheek: ['pork cheeks, trimmed', 'pork cheeks'],
   empanada_dough: ['empanadilla discs'],
@@ -870,7 +872,9 @@ const EXT6_ALIAS = {
   mojo: ['mojo picón, to serve', 'mojo picón'],
   coffee_liqueur: ['anise liqueur'],
   snails: ['cooked snails, drained', 'cooked snails', 'snails'],
-  sea_bream: ['whole sea bream, scaled and gutted', 'whole sea bream', 'sea bream']
+  sea_bream: ['whole sea bream, scaled and gutted', 'whole sea bream', 'sea bream'],
+  phyllo: ['phyllo pastry, 12 sheets', 'phyllo pastry', 'phyllo'],
+  chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood']
 };
 const EXT6_PORTION = {
 
