@@ -879,7 +879,8 @@ const EXT6_ALIAS = {
   chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood'],
   lamb_heart: ['lamb heart'],
   coffee_brewed: ['double espresso, 2 shots'],
-  gravy: ['beef gravy, to serve', 'gravy']
+  gravy: ['beef gravy, to serve', 'gravy'],
+  pasta_dry: ['fine noodles, to serve', 'fine noodles', 'fine soup noodles']
 };
 const EXT6_PORTION = {
 

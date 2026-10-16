@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Polish 18, Czech 7.
+ * Spread: Polish 18, Romanian 9, Czech 8, Hungarian 8, Bulgarian 4, Slovak 2, Croatian 1.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -52,5 +52,30 @@ module.exports = [
   c('rizek-cesky', 'Rizek Cesky', 'Czech', 'Dinner', 'Easy', 20, 20, 4, 0, 0, [], ['new'], 'rizek cesky'),
   c('rajska-omacka', 'Rajska Omacka', 'Czech', 'Dinner', 'Easy', 20, 60, 4, 0, 0, [], ['new'], 'rajska omacka'),
   c('cesnecka-polevka', 'Cesnecka Polevka', 'Czech', 'Lunch', 'Easy', 10, 35, 4, 0, 0, [], ['new'], 'cesnecka polevka'),
-  c('kolace', 'Koláče', 'Czech', 'Baking', 'Medium', 45, 20, 20, 0, 0, ['Vegetarian'], ['new'], 'koláče')
+  c('kolace', 'Koláče', 'Czech', 'Baking', 'Medium', 45, 20, 20, 0, 0, ['Vegetarian'], ['new'], 'koláče'),
+  c('medovnik', 'Medovnik', 'Czech', 'Baking', 'Hard', 40, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'medovnik'),
+  c('kapustnica', 'Kapustnica', 'Slovak', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'kapustnica'),
+  c('slovak-bryndzove-pirohy', 'Slovak Bryndzove Pirohy', 'Slovak', 'Dinner', 'Medium', 45, 25, 6, 0, 0, [], ['new'], 'slovak bryndzove pirohy'),
+  c('halaszle', 'Halaszle', 'Hungarian', 'Dinner', 'Medium', 20, 50, 6, 0, 0, [], ['new'], 'halaszle'),
+  c('porkolt', 'Porkolt', 'Hungarian', 'Dinner', 'Easy', 15, 60, 4, 0, 0, ['Dairy-Free'], ['new'], 'porkolt'),
+  c('toltott-kaposzta', 'Toltott Kaposzta', 'Hungarian', 'Dinner', 'Medium', 40, 90, 6, 0, 0, [], ['new'], 'toltott kaposzta'),
+  c('kurtoskalacs', 'Kurtoskalacs', 'Hungarian', 'Baking', 'Medium', 40, 25, 8, 0, 0, ['Vegetarian'], ['new'], 'kurtoskalacs'),
+  c('somloi-galuska', 'Somloi Galuska', 'Hungarian', 'Desserts', 'Medium', 30, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'somloi galuska'),
+  c('hortobagyi-palacsinta', 'Hortobagyi Palacsinta', 'Hungarian', 'Dinner', 'Medium', 30, 20, 6, 0, 0, [], ['new'], 'hortobagyi palacsinta'),
+  c('turos-csusza', 'Turos Csusza', 'Hungarian', 'Dinner', 'Easy', 10, 20, 4, 0, 0, [], ['new'], 'turos csusza'),
+  c('segedinsky-gulas', 'Segedinsky Gulas', 'Hungarian', 'Dinner', 'Easy', 20, 60, 4, 0, 0, ['Gluten-Free'], ['new'], 'segedinsky gulas'),
+  c('ciorba-de-burta', 'Ciorba de Burta', 'Romanian', 'Dinner', 'Medium', 30, 150, 6, 0, 0, ['Gluten-Free'], ['new'], 'ciorba de burta'),
+  c('ciorba-de-perisoare', 'Ciorba de Perisoare', 'Romanian', 'Dinner', 'Medium', 25, 40, 6, 0, 0, ['Gluten-Free'], ['new'], 'ciorba de perisoare'),
+  c('zacusca', 'Zacusca', 'Romanian', 'Appetizers', 'Easy', 20, 90, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'zacusca'),
+  c('salata-de-vinete', 'Salata de Vinete', 'Romanian', 'Appetizers', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'salata de vinete'),
+  c('placinta', 'Placinta', 'Romanian', 'Baking', 'Medium', 40, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'placinta'),
+  c('ciorba-de-legume', 'Ciorba de Legume', 'Romanian', 'Lunch', 'Easy', 15, 40, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'ciorba de legume'),
+  c('ciorba-radauteana', 'Ciorba Radauteana', 'Romanian', 'Lunch', 'Easy', 20, 40, 6, 0, 0, ['Gluten-Free'], ['new'], 'ciorba radauteana'),
+  c('fasole-cu-carnati', 'Fasole cu Carnati', 'Romanian', 'Dinner', 'Easy', 15, 60, 6, 0, 0, [], ['new'], 'fasole cu carnati'),
+  c('placinta-cu-branza', 'Placinta cu Branza', 'Romanian', 'Baking', 'Medium', 35, 40, 8, 0, 0, ['Vegetarian'], ['new'], 'placinta cu branza'),
+  c('kavarma', 'Kavarma', 'Bulgarian', 'Dinner', 'Easy', 20, 40, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'kavarma'),
+  c('kebapche', 'Kebapche', 'Bulgarian', 'Dinner', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'kebapche'),
+  c('lyutenitsa', 'Lyutenitsa', 'Bulgarian', 'Appetizers', 'Easy', 15, 60, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'lyutenitsa'),
+  c('bulgarian-bean-soup', 'Bulgarian Bean Soup', 'Bulgarian', 'Lunch', 'Easy', 15, 60, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'bulgarian bean soup'),
+  c('burek', 'Burek', 'Croatian', 'Baking', 'Medium', 40, 40, 8, 0, 0, [], ['new'], 'burek')
 ];
