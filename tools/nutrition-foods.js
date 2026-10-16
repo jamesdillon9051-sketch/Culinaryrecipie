@@ -807,7 +807,13 @@ const EXT6_FOODS = {
   remoulade: [1, 10, 50, 0, 5, 500],
   cooked_meat: [26, 0, 15, 0, 0, 70],
   gouda: [25, 2, 27, 0, 2, 800],
-  pig_trotter: [20, 0, 15, 0, 0, 100]
+  pig_trotter: [20, 0, 15, 0, 0, 100],
+  allioli: [1, 3, 70, 0, 1, 500],
+  pork_cheek: [18, 0, 12, 0, 0, 70],
+  empanada_dough: [6, 45, 20, 2, 2, 500],
+  manchego: [32, 1, 33, 0, 0, 800],
+  maria_biscuit: [7, 76, 10, 2, 20, 300],
+  mojo: [2, 8, 30, 3, 1, 800]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -831,7 +837,7 @@ const EXT6_ALIAS = {
   radicchio: ['heads radicchio', 'radicchio'],
   farro: ['pearled farro', 'farro'],
   chard: ['chard, stalks removed', 'chard'],
-  pork_shank: ['pork shanks', 'pork shank', 'cured pork knuckles', 'pork knuckles', 'pork knuckle'],
+  pork_shank: ['pork shanks', 'pork shank', 'cured pork knuckles', 'pork knuckles', 'pork knuckle', 'suckling pig'],
   mortadella: ['mortadella'],
   cotechino: ['raw cotechino', 'cotechino'],
   juniper: ['juniper berries', 'juniper'],
@@ -853,7 +859,14 @@ const EXT6_ALIAS = {
   gouda: ['gouda, grated', 'gouda'],
   pig_trotter: ['pig trotter'],
   black_pudding: ['morcilla, sliced', 'morcilla'],
-  vodka: ['kirsch']
+  vodka: ['kirsch'],
+  allioli: ['allioli, to serve', 'allioli'],
+  pork_cheek: ['pork cheeks, trimmed', 'pork cheeks'],
+  empanada_dough: ['empanadilla discs'],
+  manchego: ['manchego, shaved', 'manchego'],
+  maria_biscuit: ['maria biscuits'],
+  mojo: ['mojo picón, to serve', 'mojo picón'],
+  coffee_liqueur: ['anise liqueur']
 };
 const EXT6_PORTION = {
 
