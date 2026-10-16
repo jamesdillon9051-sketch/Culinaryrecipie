@@ -797,7 +797,7 @@ const EXT6_FOODS = {
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
   foie_gras: ['foie gras', 'duck foie gras'],
-  madeira: ['madeira'],
+  madeira: ['madeira', 'marsala', '100 ml marsala'],
   duck_gizzard_confit: ['confit duck gizzards', 'duck gizzards', 'gizzards'],
   frisee: ['frisée', 'frisee', 'curly endive'],
   calvados: ['calvados', 'apple brandy'],

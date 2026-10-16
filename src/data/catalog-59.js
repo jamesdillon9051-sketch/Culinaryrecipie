@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Italian 50.
+ * Spread: Italian 75.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('salsicce-e-fagioli', 'Salsicce e Fagioli', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'salsicce e fagioli'),
   c('spezzatino-di-manzo', 'Spezzatino di Manzo', 'Italian', 'Dinner', 'Easy', 20, 100, 6, 0, 0, ['Dairy-Free'], ['new'], 'spezzatino di manzo'),
   c('polpettone', 'Polpettone', 'Italian', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'polpettone'),
-  c('cotechino-con-lenticchie', 'Cotechino con Lenticchie', 'Italian', 'Holiday Specials', 'Medium', 15, 150, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'cotechino con lenticchie')
+  c('cotechino-con-lenticchie', 'Cotechino con Lenticchie', 'Italian', 'Holiday Specials', 'Medium', 15, 150, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'cotechino con lenticchie'),
+  c('crostini-toscani', 'Crostini Toscani', 'Italian', 'Appetizers', 'Easy', 15, 10, 8, 0, 0, [], ['new'], 'crostini toscani'),
+  c('tramezzini', 'Tramezzini', 'Italian', 'Lunch', 'Easy', 15, 0, 6, 0, 0, [], ['new'], 'tramezzini'),
+  c('tortellini-panna-e-prosciutto', 'Tortellini Panna e Prosciutto', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'tortellini panna e prosciutto'),
+  c('mozzarella-in-carrozza', 'Mozzarella in Carrozza', 'Italian', 'Appetizers', 'Easy', 15, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'mozzarella in carrozza'),
+  c('gelato-al-pistacchio', 'Gelato al Pistacchio', 'Italian', 'Desserts', 'Medium', 20, 20, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gelato al pistacchio'),
+  c('gelato-al-cioccolato', 'Gelato al Cioccolato', 'Italian', 'Desserts', 'Medium', 20, 20, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'gelato al cioccolato'),
+  c('spumoni', 'Spumoni', 'Italian', 'Desserts', 'Medium', 40, 0, 10, 0, 0, ['Vegetarian'], ['new'], 'spumoni'),
+  c('pesche-ripiene', 'Pesche Ripiene', 'Italian', 'Desserts', 'Easy', 20, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'pesche ripiene'),
+  c('pere-al-vino-rosso', 'Pere al Vino Rosso', 'Italian', 'Desserts', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pere al vino rosso'),
+  c('zuccotto', 'Zuccotto', 'Italian', 'Desserts', 'Medium', 40, 0, 10, 0, 0, ['Vegetarian'], ['new'], 'zuccotto'),
+  c('budino-al-cioccolato', 'Budino al Cioccolato', 'Italian', 'Desserts', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian'], ['new'], 'budino al cioccolato'),
+  c('budino-di-riso', 'Budino di Riso', 'Italian', 'Desserts', 'Easy', 10, 40, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'budino di riso'),
+  c('cornetti', 'Cornetti', 'Italian', 'Baking', 'Medium', 60, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'cornetti'),
+  c('pasticciotto', 'Pasticciotto', 'Italian', 'Baking', 'Medium', 40, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'pasticciotto'),
+  c('baci-di-dama', 'Baci di Dama', 'Italian', 'Baking', 'Medium', 30, 15, 30, 0, 0, ['Vegetarian'], ['new'], 'baci di dama'),
+  c('torta-margherita', 'Torta Margherita', 'Italian', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'torta margherita'),
+  c('torta-di-noci', 'Torta di Noci', 'Italian', 'Baking', 'Easy', 20, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'torta di noci'),
+  c('torta-salata', 'Torta Salata', 'Italian', 'Lunch', 'Easy', 20, 40, 8, 0, 0, [], ['new'], 'torta salata'),
+  c('crostata-alla-nutella', 'Crostata alla Nutella', 'Italian', 'Baking', 'Easy', 20, 35, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata alla nutella'),
+  c('crostata-di-ricotta', 'Crostata di Ricotta', 'Italian', 'Baking', 'Easy', 25, 45, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata di ricotta'),
+  c('crostata-alle-fragole', 'Crostata alle Fragole', 'Italian', 'Baking', 'Easy', 30, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'crostata alle fragole'),
+  c('sbrisolona-mantovana', 'Sbrisolona Mantovana', 'Italian', 'Baking', 'Easy', 20, 35, 10, 0, 0, [], ['new'], 'sbrisolona mantovana'),
+  c('pizza-quattro-stagioni', 'Pizza Quattro Stagioni', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, [], ['new'], 'pizza quattro stagioni'),
+  c('pizza-capricciosa', 'Pizza Capricciosa', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, [], ['new'], 'pizza capricciosa'),
+  c('pizza-marinara', 'Pizza Marinara', 'Italian', 'Dinner', 'Medium', 20, 8, 2, 0, 0, ['Vegetarian'], ['new'], 'pizza marinara')
 ];
