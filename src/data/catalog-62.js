@@ -10,7 +10,7 @@
  * tools/dedupe-candidates.js, then compared by hand with the closest existing
  * recipes, and the dishes that were the same under another name were dropped.
  *
- * Spread: Polish 18, Romanian 9, Czech 8, Hungarian 8, Bulgarian 4, Slovak 2, Croatian 1.
+ * Spread: Polish 18, Swedish 14, Romanian 9, Czech 8, Hungarian 8, Croatian 7, Slovenian 5, Bulgarian 4, Slovak 2.
  *
  * Unrated, for the reason given in catalog-4.js.
  *
@@ -77,5 +77,30 @@ module.exports = [
   c('kebapche', 'Kebapche', 'Bulgarian', 'Dinner', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'kebapche'),
   c('lyutenitsa', 'Lyutenitsa', 'Bulgarian', 'Appetizers', 'Easy', 15, 60, 12, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'lyutenitsa'),
   c('bulgarian-bean-soup', 'Bulgarian Bean Soup', 'Bulgarian', 'Lunch', 'Easy', 15, 60, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'bulgarian bean soup'),
-  c('burek', 'Burek', 'Croatian', 'Baking', 'Medium', 40, 40, 8, 0, 0, [], ['new'], 'burek')
+  c('burek', 'Burek', 'Croatian', 'Baking', 'Medium', 40, 40, 8, 0, 0, [], ['new'], 'burek'),
+  c('pasticada', 'Pasticada', 'Croatian', 'Dinner', 'Medium', 30, 150, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'pasticada'),
+  c('crni-rizot', 'Crni Rizot', 'Croatian', 'Dinner', 'Easy', 15, 35, 4, 0, 0, [], ['new'], 'crni rizot'),
+  c('brudet', 'Brudet', 'Croatian', 'Dinner', 'Easy', 15, 40, 4, 0, 0, ['Gluten-Free'], ['new'], 'brudet'),
+  c('fritule', 'Fritule', 'Croatian', 'Desserts', 'Easy', 15, 10, 12, 0, 0, ['Vegetarian'], ['new'], 'fritule'),
+  c('kremsnita', 'Kremsnita', 'Croatian', 'Desserts', 'Medium', 40, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'kremsnita'),
+  c('punjene-paprike', 'Punjene Paprike', 'Croatian', 'Dinner', 'Medium', 30, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'punjene paprike'),
+  c('potica', 'Potica', 'Slovenian', 'Baking', 'Medium', 40, 60, 12, 0, 0, ['Vegetarian'], ['new'], 'potica'),
+  c('jota-soup', 'Jota Soup', 'Slovenian', 'Dinner', 'Easy', 15, 60, 6, 0, 0, ['Dairy-Free'], ['new'], 'jota soup'),
+  c('kranjska-klobasa', 'Kranjska Klobasa', 'Slovenian', 'Dinner', 'Easy', 5, 20, 4, 0, 0, [], ['new'], 'kranjska klobasa'),
+  c('prekmurska-gibanica', 'Prekmurska Gibanica', 'Slovenian', 'Desserts', 'Hard', 60, 50, 12, 0, 0, ['Vegetarian'], ['new'], 'prekmurska gibanica'),
+  c('zlikrofi', 'Zlikrofi', 'Slovenian', 'Dinner', 'Hard', 60, 20, 6, 0, 0, [], ['new'], 'zlikrofi'),
+  c('janssons-frestelse', 'Janssons Frestelse', 'Swedish', 'Dinner', 'Easy', 20, 50, 4, 0, 0, [], ['new'], 'janssons frestelse'),
+  c('kroppkakor', 'Kroppkakor', 'Swedish', 'Dinner', 'Medium', 45, 25, 6, 0, 0, [], ['new'], 'kroppkakor'),
+  c('pytt-i-panna', 'Pytt i Panna', 'Swedish', 'Quick Meals', 'Easy', 15, 15, 4, 0, 0, [], ['new'], 'pytt i panna'),
+  c('artsoppa', 'Ärtsoppa', 'Swedish', 'Dinner', 'Easy', 10, 90, 6, 0, 0, ['Dairy-Free'], ['new'], 'ärtsoppa'),
+  c('biff-a-la-lindstrom', 'Biff a la Lindstrom', 'Swedish', 'Dinner', 'Medium', 20, 20, 4, 0, 0, [], ['new'], 'biff a la lindstrom'),
+  c('kardemummabullar', 'Kardemummabullar', 'Swedish', 'Baking', 'Medium', 40, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'kardemummabullar'),
+  c('semla', 'Semla', 'Swedish', 'Baking', 'Medium', 45, 20, 10, 0, 0, ['Vegetarian'], ['new'], 'semla'),
+  c('kladdkaka', 'Kladdkaka', 'Swedish', 'Baking', 'Easy', 10, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'kladdkaka'),
+  c('lussekatter', 'Lussekatter', 'Swedish', 'Holiday Specials', 'Medium', 40, 15, 14, 0, 0, ['Vegetarian'], ['new'], 'lussekatter'),
+  c('pepparkakor', 'Pepparkakor', 'Swedish', 'Holiday Specials', 'Easy', 30, 10, 40, 0, 0, ['Vegetarian'], ['new'], 'pepparkakor'),
+  c('chokladbollar', 'Chokladbollar', 'Swedish', 'Desserts', 'Easy', 15, 0, 20, 0, 0, ['Vegetarian'], ['new'], 'chokladbollar'),
+  c('rabarberpaj', 'Rabarberpaj', 'Swedish', 'Desserts', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'rabarberpaj'),
+  c('princess-cake', 'Princess Cake', 'Swedish', 'Baking', 'Hard', 60, 35, 12, 0, 0, ['Vegetarian'], ['new'], 'princess cake'),
+  c('swedish-crayfish-boil', 'Swedish Crayfish Boil', 'Swedish', 'Quick Meals', 'Easy', 10, 10, 6, 0, 0, [], ['new'], 'swedish crayfish boil')
 ];

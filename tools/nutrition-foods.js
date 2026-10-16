@@ -878,7 +878,7 @@ const EXT6_ALIAS = {
   phyllo: ['phyllo pastry, 12 sheets', 'phyllo pastry', 'phyllo'],
   chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood'],
   lamb_heart: ['lamb heart'],
-  coffee_brewed: ['double espresso, 2 shots'],
+  coffee_brewed: ['double espresso, 2 shots', 'strong cold coffee'],
   gravy: ['beef gravy, to serve', 'gravy'],
   pasta_dry: ['fine noodles, to serve', 'fine noodles', 'fine soup noodles']
 };
