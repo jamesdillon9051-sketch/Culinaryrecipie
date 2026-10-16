@@ -813,7 +813,9 @@ const EXT6_FOODS = {
   empanada_dough: [6, 45, 20, 2, 2, 500],
   manchego: [32, 1, 33, 0, 0, 800],
   maria_biscuit: [7, 76, 10, 2, 20, 300],
-  mojo: [2, 8, 30, 3, 1, 800]
+  mojo: [2, 8, 30, 3, 1, 800],
+  snails: [16, 2, 1, 0, 0, 100],
+  sea_bream: [20, 0, 5, 0, 0, 70]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -854,11 +856,11 @@ const EXT6_ALIAS = {
   marzipan: ['marzipan', 'marzipan, grated'],
   wafer: ['round wafers', 'round wafers, 5 cm', 'wafers'],
   remoulade: ['remoulade'],
-  sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst', 'rookworst'],
+  sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst', 'rookworst', 'chouriço', 'chourico'],
   cooked_meat: ['cooked roast pork or beef, diced', 'cooked beef, finely chopped', 'cooked beef', 'cooked roast pork'],
   gouda: ['gouda, grated', 'gouda'],
   pig_trotter: ['pig trotter'],
-  black_pudding: ['morcilla, sliced', 'morcilla'],
+  black_pudding: ['morcilla, sliced', 'morcilla', 'morcela'],
   vodka: ['kirsch'],
   allioli: ['allioli, to serve', 'allioli'],
   pork_cheek: ['pork cheeks, trimmed', 'pork cheeks'],
@@ -866,7 +868,9 @@ const EXT6_ALIAS = {
   manchego: ['manchego, shaved', 'manchego'],
   maria_biscuit: ['maria biscuits'],
   mojo: ['mojo picón, to serve', 'mojo picón'],
-  coffee_liqueur: ['anise liqueur']
+  coffee_liqueur: ['anise liqueur'],
+  snails: ['cooked snails, drained', 'cooked snails', 'snails'],
+  sea_bream: ['whole sea bream, scaled and gutted', 'whole sea bream', 'sea bream']
 };
 const EXT6_PORTION = {
 

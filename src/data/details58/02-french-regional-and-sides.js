@@ -636,7 +636,7 @@ module.exports = {
     ],
     pair: ['New potatoes', 'Green beans', 'Dry white wine'],
     store: 'Best eaten at once. Keeps for 1 day in the fridge.',
-    nut: [483, 41, 19, 27, 6, 9, 800]
+    nut: [719, 73, 19, 39, 6, 9, 910]
   },
 
   'soupe-de-moules': {
