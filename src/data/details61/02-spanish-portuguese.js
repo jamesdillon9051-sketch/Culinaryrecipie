@@ -801,7 +801,7 @@ module.exports = {
     ],
     pair: ['Strong coffee', 'Tea', 'Port'],
     store: 'Best the day they are baked. Keeps for 2 days.',
-    nut: [224, 7, 31, 8, 1, 14, 60]
+    nut: [224, 7, 31, 8, 1, 15, 40]
   },
 
   'sopa-de-pedra': {

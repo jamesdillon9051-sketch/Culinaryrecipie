@@ -818,7 +818,8 @@ const EXT6_FOODS = {
   sea_bream: [20, 0, 5, 0, 0, 70],
   phyllo: [8, 55, 2, 2, 2, 300],
   chicken_blood: [18, 0, 0, 0, 0, 200],
-  lamb_heart: [17, 0, 5, 0, 0, 100]
+  lamb_heart: [17, 0, 5, 0, 0, 100],
+  gravy: [1, 5, 2, 0.3, 1, 300]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -854,16 +855,16 @@ const EXT6_ALIAS = {
   weisswurst: ['weisswurst'],
   soft_pretzel: ['soft pretzels', 'pretzels'],
   wiener: ['wiener sausages', 'wiener sausages, sliced', 'frankfurters', 'bockwurst', 'bockwurst, sliced'],
-  quark: ['full fat quark, drained', 'full fat quark', 'quark'],
+  quark: ['full fat quark, drained', 'full fat quark', 'quark', 'curd cheese', 'curd cheese or quark'],
   linseed: ['linseed', 'flaxseed'],
   marzipan: ['marzipan', 'marzipan, grated'],
   wafer: ['round wafers', 'round wafers, 5 cm', 'wafers'],
   remoulade: ['remoulade'],
   sausage_pork: ['thüringer bratwurst', 'small nürnberger bratwurst', 'bratwurst', 'nürnberger bratwurst', 'rookworst', 'chouriço', 'chourico'],
   cooked_meat: ['cooked roast pork or beef, diced', 'cooked beef, finely chopped', 'cooked beef', 'cooked roast pork'],
-  gouda: ['gouda, grated', 'gouda'],
+  gouda: ['gouda, grated', 'gouda', 'edam or gouda, cut in 4 slabs 1.5 cm thick', 'grated edam', 'edam'],
   pig_trotter: ['pig trotter'],
-  black_pudding: ['morcilla, sliced', 'morcilla', 'morcela'],
+  black_pudding: ['morcilla, sliced', 'morcilla', 'morcela', 'kaszanka, in 2 cm slices', 'kaszanka'],
   vodka: ['kirsch', 'aguardente or other strong clear spirit', 'aguardente'],
   allioli: ['allioli, to serve', 'allioli'],
   pork_cheek: ['pork cheeks, trimmed', 'pork cheeks'],
@@ -877,7 +878,8 @@ const EXT6_ALIAS = {
   phyllo: ['phyllo pastry, 12 sheets', 'phyllo pastry', 'phyllo'],
   chicken_blood: ['chicken blood, mixed with 3 tbsp vinegar', 'chicken blood'],
   lamb_heart: ['lamb heart'],
-  coffee_brewed: ['double espresso, 2 shots']
+  coffee_brewed: ['double espresso, 2 shots'],
+  gravy: ['beef gravy, to serve', 'gravy']
 };
 const EXT6_PORTION = {
 
