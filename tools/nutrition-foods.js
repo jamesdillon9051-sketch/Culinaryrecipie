@@ -795,7 +795,12 @@ const EXT6_FOODS = {
   juniper: [4, 42, 7, 0, 0, 10],
   globe_artichoke: [3.3, 11, 0.2, 5.4, 1, 94],
   guanciale: [9, 0, 68, 0, 0, 1700],
-  bitter_liqueur: [0, 24, 0, 0, 24, 5]
+  bitter_liqueur: [0, 24, 0, 0, 24, 5],
+  pickled_herring: [14, 8, 13, 0, 6, 1100],
+  weisswurst: [12, 2, 22, 0, 0, 900],
+  soft_pretzel: [9, 45, 3, 2, 2, 1500],
+  wiener: [12, 2, 25, 0, 1, 1000],
+  quark: [12, 3.5, 10, 0, 3.5, 40]
 };
 const EXT6_ALIAS = {
   beef_cheek: ['beef cheeks', 'beef cheek'],
@@ -819,14 +824,19 @@ const EXT6_ALIAS = {
   radicchio: ['heads radicchio', 'radicchio'],
   farro: ['pearled farro', 'farro'],
   chard: ['chard, stalks removed', 'chard'],
-  pork_shank: ['pork shanks', 'pork shank'],
+  pork_shank: ['pork shanks', 'pork shank', 'cured pork knuckles', 'pork knuckles', 'pork knuckle'],
   mortadella: ['mortadella'],
   cotechino: ['raw cotechino', 'cotechino'],
   juniper: ['juniper berries', 'juniper'],
   globe_artichoke: ['globe artichokes', 'globe artichoke'],
   guanciale: ['guanciale'],
   bitter_liqueur: ['bitter orange liqueur', 'aperol'],
-  white_wine: ['dry prosecco', 'prosecco']
+  white_wine: ['dry prosecco', 'prosecco'],
+  pickled_herring: ['rollmop herrings', 'rollmops', 'pickled herring'],
+  weisswurst: ['weisswurst'],
+  soft_pretzel: ['soft pretzels', 'pretzels'],
+  wiener: ['wiener sausages', 'wiener sausages, sliced', 'frankfurters'],
+  quark: ['full fat quark, drained', 'full fat quark', 'quark']
 };
 const EXT6_PORTION = {
 
