@@ -344,27 +344,27 @@
     if (!list || !form) return;
     var key = 'cv:reviews:' + SLUG;
 
+    /* Private notes. Everything here lives in this browser's storage and is
+       shown back to the same reader only, so nothing is phrased as a public
+       review and no average is presented as a reader rating. */
     function render() {
-      var reviews = sanitiseReviews(read(key, []));
+      var notes = sanitiseReviews(read(key, []));
       var summary = $('#review-summary');
-      if (!reviews.length) {
-        list.innerHTML = '<p class="form-note">No reader reviews yet. Cooked it? You could be the first.</p>';
+      if (!notes.length) {
+        list.innerHTML = '<p class="form-note">You have no notes on this recipe yet.</p>';
         if (summary) summary.textContent = '';
         return;
       }
-      var avg = reviews.reduce(function (a, r) { return a + r.rating; }, 0) / reviews.length;
       if (summary) {
-        summary.textContent = reviews.length + ' reader review' + (reviews.length === 1 ? '' : 's') +
-          ' · average ' + avg.toFixed(1) + ' out of 5';
+        summary.textContent = 'Your ' + (notes.length === 1 ? 'note' : notes.length + ' notes') +
+          ', saved on this device only.';
       }
-      list.innerHTML = reviews.slice().reverse().map(function (r) {
-        var initial = escapeHtml(r.name.charAt(0).toUpperCase());
+      list.innerHTML = notes.slice().reverse().map(function (r) {
         var stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
         var date = new Date(r.at);
         return '<article class="review"><div class="review-head">' +
-          '<span class="avatar" aria-hidden="true">' + initial + '</span>' +
-          '<strong>' + escapeHtml(r.name) + '</strong>' +
-          '<span class="stars" aria-label="' + r.rating + ' out of 5 stars">' +
+          '<strong>Your note</strong>' +
+          '<span class="stars" aria-label="Your rating: ' + r.rating + ' out of 5">' +
           '<span style="color:var(--highlight)">' + stars + '</span></span>' +
           '<time datetime="' + escapeHtml(date.toISOString()) + '">' +
           escapeHtml(date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })) +
@@ -374,25 +374,24 @@
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var name = $('#review-name').value.trim();
       var body = $('#review-body').value.trim();
       var ratingInput = form.querySelector('input[name="rating"]:checked');
       var status = $('#review-status');
 
-      if (!name || !body || !ratingInput) {
-        if (status) { status.hidden = false; status.textContent = 'Please add a name, a rating and a few words.'; }
+      if (!body || !ratingInput) {
+        if (status) { status.hidden = false; status.textContent = 'Please choose a rating and write a few words.'; }
         return;
       }
-      var reviews = sanitiseReviews(read(key, []));
-      reviews.push({ name: name, body: body, rating: parseInt(ratingInput.value, 10), at: Date.now() });
-      write(key, reviews);
+      var notes = sanitiseReviews(read(key, []));
+      notes.push({ name: 'You', body: body, rating: parseInt(ratingInput.value, 10), at: Date.now() });
+      write(key, notes);
       form.reset();
       render();
       if (status) {
         status.hidden = false;
-        status.textContent = 'Thank you. Your review is saved on this device.';
+        status.textContent = 'Saved on this device. Only you can see it.';
       }
-      toast('Review posted');
+      toast('Note saved');
     });
 
     render();

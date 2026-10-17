@@ -3,209 +3,209 @@
   <channel>
     <title>Weekly Delight</title>
     <link>https://weeklydelight.com/</link>
-    <description>The world&#39;s 5515 most famous recipes, tested and explained</description>
+    <description>The world&#39;s 5515 most famous recipes, explained step by step</description>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://weeklydelight.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Rosemary Focaccia</title>
-      <link>https://weeklydelight.com/recipes/focaccia/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/focaccia/</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <title>Canneles</title>
+      <link>https://weeklydelight.com/recipes/canneles/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/canneles/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:25 GMT</pubDate>
       <category>Baking</category>
-      <description>No-knead rosemary focaccia with a crisp olive-oil base and open, airy crumb. An overnight cold rise does the work for you.</description>
+      <description>Canelés with a dark crisp shell and soft custard centre, baked for 60 minutes. Twelve cakes, ready in 1 hour 15 minutes plus overnight resting.</description>
     </item>
     <item>
-      <title>Margherita Pizza</title>
-      <link>https://weeklydelight.com/recipes/margherita-pizza/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/margherita-pizza/</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <title>Lapin a la Moutarde</title>
+      <link>https://weeklydelight.com/recipes/lapin-a-la-moutarde/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/lapin-a-la-moutarde/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:24 GMT</pubDate>
       <category>Dinner</category>
-      <description>Authentic Margherita pizza with a blistered 24-hour dough, San Marzano sauce and fior di latte — pizzeria results from a home oven.</description>
+      <description>Rabbit in a mustard and cream sauce, cooked for 60 minutes. Four servings, ready in 1 hour 20 minutes.</description>
     </item>
     <item>
-      <title>Spaghetti Carbonara</title>
-      <link>https://weeklydelight.com/recipes/spaghetti-carbonara/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/spaghetti-carbonara/</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <title>Bourride</title>
+      <link>https://weeklydelight.com/recipes/bourride/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/bourride/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:23 GMT</pubDate>
       <category>Dinner</category>
-      <description>Authentic Roman spaghetti carbonara with guanciale, Pecorino and egg yolks. No cream, no scrambling — a silky sauce in 30 minutes.</description>
+      <description>Bourride, a fish stew finished with garlic aioli, cooked for 30 minutes. Four servings, ready in 1 hour.</description>
     </item>
     <item>
-      <title>Lasagna Bolognese</title>
-      <link>https://weeklydelight.com/recipes/lasagna-bolognese/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/lasagna-bolognese/</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <title>Tian Provencal</title>
+      <link>https://weeklydelight.com/recipes/tian-provencal/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tian-provencal/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:22 GMT</pubDate>
       <category>Dinner</category>
-      <description>Classic lasagna Bolognese with a slow three-hour ragù, silky besciamella and egg pasta layers. The definitive Sunday bake.</description>
+      <description>Tian provençal of sliced courgette, aubergine and tomato, baked for 45 minutes. Four servings, ready in 1 hour 5 minutes.</description>
     </item>
     <item>
-      <title>Fettuccine Alfredo</title>
-      <link>https://weeklydelight.com/recipes/fettuccine-alfredo/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/fettuccine-alfredo/</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <title>Pommes Anna</title>
+      <link>https://weeklydelight.com/recipes/pommes-anna/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/pommes-anna/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:21 GMT</pubDate>
       <category>Dinner</category>
-      <description>Authentic fettuccine Alfredo made with only butter, Parmigiano and pasta water — no cream, no flour, ready in 25 minutes.</description>
+      <description>Pommes Anna, layered buttery potato slices baked into a crisp golden cake, baked for 50 minutes. Four servings, ready in 1 hour 10 minutes.</description>
     </item>
     <item>
-      <title>Cacio e Pepe</title>
-      <link>https://weeklydelight.com/recipes/cacio-e-pepe/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/cacio-e-pepe/</guid>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <category>Quick Meals</category>
-      <description>Foolproof cacio e pepe with a Pecorino slurry technique that guarantees a creamy, clump-free Roman sauce in 20 minutes.</description>
-    </item>
-    <item>
-      <title>Penne all&#39;Arrabbiata</title>
-      <link>https://weeklydelight.com/recipes/penne-all-arrabbiata/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/penne-all-arrabbiata/</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Quick Meals</category>
-      <description>Fiery penne all&#39;arrabbiata with slow-bloomed garlic and dried chilli. Naturally vegan, on the table in 30 minutes.</description>
-    </item>
-    <item>
-      <title>Risotto alla Milanese</title>
-      <link>https://weeklydelight.com/recipes/risotto-alla-milanese/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/risotto-alla-milanese/</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Golden saffron risotto alla Milanese with the classic mantecatura finish for a rippling, restaurant-style texture.</description>
-    </item>
-    <item>
-      <title>Osso Buco alla Milanese</title>
-      <link>https://weeklydelight.com/recipes/osso-buco/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/osso-buco/</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Slow-braised osso buco alla Milanese with fall-apart veal shanks, silky marrow and a bright lemon gremolata finish.</description>
-    </item>
-    <item>
-      <title>Chicken Parmigiana</title>
-      <link>https://weeklydelight.com/recipes/chicken-parmigiana/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/chicken-parmigiana/</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Crispy chicken parmigiana that stays crunchy under the cheese — the restaurant technique of saucing lightly and grilling fast.</description>
-    </item>
-    <item>
-      <title>Potato Gnocchi with Sage Butter</title>
-      <link>https://weeklydelight.com/recipes/potato-gnocchi/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/potato-gnocchi/</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Light, pillowy potato gnocchi with brown butter and sage. The baked-potato method that keeps them from turning gluey.</description>
-    </item>
-    <item>
-      <title>Japanese Cotton Cheesecake</title>
-      <link>https://weeklydelight.com/recipes/japanese-cheesecake/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/japanese-cheesecake/</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Desserts</category>
-      <description>Jiggly Japanese cotton cheesecake — light as a soufflé, barely sweet, baked in a water bath so it never cracks.</description>
-    </item>
-    <item>
-      <title>Pesto alla Genovese</title>
-      <link>https://weeklydelight.com/recipes/pesto-genovese/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/pesto-genovese/</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Quick Meals</category>
-      <description>Authentic pesto alla Genovese with basil, pine nuts and two cheeses — the technique that keeps it vivid green, not brown.</description>
-    </item>
-    <item>
-      <title>Minestrone Soup</title>
-      <link>https://weeklydelight.com/recipes/minestrone-soup/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/minestrone-soup/</guid>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-      <category>Healthy</category>
-      <description>Hearty Italian minestrone soup with a slow soffritto base, cannellini beans and seasonal vegetables. Naturally vegan.</description>
-    </item>
-    <item>
-      <title>Caprese Salad</title>
-      <link>https://weeklydelight.com/recipes/caprese-salad/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/caprese-salad/</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Pommes Dauphine</title>
+      <link>https://weeklydelight.com/recipes/pommes-dauphine/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/pommes-dauphine/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:20 GMT</pubDate>
       <category>Appetizers</category>
-      <description>Classic Caprese salad with buffalo mozzarella, ripe tomatoes and basil. Five minutes, three ingredients, done properly.</description>
+      <description>Pommes dauphine, mashed potato mixed with choux pastry and fried, cooked for 20 minutes. Six servings, ready in 1 hour.</description>
     </item>
     <item>
-      <title>Tomato Bruschetta</title>
-      <link>https://weeklydelight.com/recipes/bruschetta/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/bruschetta/</guid>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-      <category>Appetizers</category>
-      <description>Authentic tomato bruschetta with garlic-rubbed grilled bread and salted tomatoes. The classic Italian appetiser in 20 minutes.</description>
+      <title>Petits Pois a la Francaise</title>
+      <link>https://weeklydelight.com/recipes/petits-pois-a-la-francaise/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/petits-pois-a-la-francaise/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:19 GMT</pubDate>
+      <category>Dinner</category>
+      <description>Petits pois à la française, peas braised with lettuce and spring onions, cooked for 20 minutes. Four servings, ready in 30 minutes.</description>
     </item>
     <item>
-      <title>Sicilian Arancini</title>
-      <link>https://weeklydelight.com/recipes/arancini/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/arancini/</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-      <category>Appetizers</category>
-      <description>Crispy Sicilian arancini with a molten mozzarella and ragù centre — the classic street-food rice balls, made from scratch.</description>
+      <title>Haricots Verts Amandine</title>
+      <link>https://weeklydelight.com/recipes/haricots-verts-amandine/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/haricots-verts-amandine/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:18 GMT</pubDate>
+      <category>Quick Meals</category>
+      <description>Haricots verts amandine, green beans in browned butter and almonds, cooked for 10 minutes. Four servings, ready in 15 minutes.</description>
     </item>
     <item>
-      <title>Classic Tiramisu</title>
-      <link>https://weeklydelight.com/recipes/tiramisu/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/tiramisu/</guid>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Tarte aux Fraises</title>
+      <link>https://weeklydelight.com/recipes/tarte-aux-fraises/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tarte-aux-fraises/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:17 GMT</pubDate>
       <category>Desserts</category>
-      <description>Authentic tiramisu with cooked zabaglione, espresso-soaked savoiardi and mascarpone cream. No gelatine, no raw eggs.</description>
+      <description>Tarte aux fraises, strawberries on vanilla custard in a crisp pastry case, baked for 20 minutes. Eight servings, ready in 1 hour plus chilling.</description>
     </item>
     <item>
-      <title>Vanilla Panna Cotta</title>
-      <link>https://weeklydelight.com/recipes/panna-cotta/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/panna-cotta/</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Tarte aux Poireaux</title>
+      <link>https://weeklydelight.com/recipes/tarte-aux-poireaux/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tarte-aux-poireaux/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:16 GMT</pubDate>
+      <category>Lunch</category>
+      <description>Tarte aux poireaux, a leek and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 1 hour 5 minutes.</description>
+    </item>
+    <item>
+      <title>Tarte a l&#39;Oignon</title>
+      <link>https://weeklydelight.com/recipes/tarte-a-loignon/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tarte-a-loignon/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:15 GMT</pubDate>
+      <category>Lunch</category>
+      <description>Tarte à l&#39;oignon, a sweet onion and cream tart in shortcrust pastry, baked for 40 minutes. Six servings, ready in 1 hour 5 minutes.</description>
+    </item>
+    <item>
+      <title>Gateau de Savoie</title>
+      <link>https://weeklydelight.com/recipes/gateau-de-savoie/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/gateau-de-savoie/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:14 GMT</pubDate>
+      <category>Baking</category>
+      <description>Gâteau de Savoie, a tall light sponge cake made with whisked eggs, baked for 40 minutes. Ten servings, ready in 1 hour 5 minutes.</description>
+    </item>
+    <item>
+      <title>Fondant au Chocolat</title>
+      <link>https://weeklydelight.com/recipes/fondant-au-chocolat/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/fondant-au-chocolat/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:13 GMT</pubDate>
       <category>Desserts</category>
-      <description>Silky vanilla panna cotta with the perfect wobble — a five-ingredient Italian dessert that takes 20 minutes to make.</description>
+      <description>Fondant au chocolat, dark chocolate cakes with a molten centre, baked for 12 minutes. Four servings, ready in 27 minutes.</description>
     </item>
     <item>
-      <title>Beef Bourguignon</title>
-      <link>https://weeklydelight.com/recipes/beef-bourguignon/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/beef-bourguignon/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Savarin</title>
+      <link>https://weeklydelight.com/recipes/savarin/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/savarin/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:12 GMT</pubDate>
+      <category>Desserts</category>
+      <description>Savarin, a light yeast ring cake soaked in rum syrup, baked for 25 minutes. Eight servings, ready in 55 minutes plus rising.</description>
+    </item>
+    <item>
+      <title>Veloute de Champignons</title>
+      <link>https://weeklydelight.com/recipes/veloute-de-champignons/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/veloute-de-champignons/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:11 GMT</pubDate>
+      <category>Lunch</category>
+      <description>Velouté de champignons, smooth cream of mushroom soup, cooked for 25 minutes. Four servings, ready in 35 minutes.</description>
+    </item>
+    <item>
+      <title>Joue de Boeuf</title>
+      <link>https://weeklydelight.com/recipes/joue-de-boeuf/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/joue-de-boeuf/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:10 GMT</pubDate>
       <category>Dinner</category>
-      <description>Classic beef bourguignon braised three hours in red wine with lardons, pearl onions and mushrooms. The definitive French stew.</description>
+      <description>Joue de boeuf, beef cheeks braised in red wine, cooked for 3 hours. Four servings, ready in 3 hours 20 minutes.</description>
     </item>
     <item>
-      <title>Coq au Vin</title>
-      <link>https://weeklydelight.com/recipes/coq-au-vin/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/coq-au-vin/</guid>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Paupiettes de Veau</title>
+      <link>https://weeklydelight.com/recipes/paupiettes-de-veau/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/paupiettes-de-veau/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:09 GMT</pubDate>
       <category>Dinner</category>
-      <description>Traditional coq au vin with wine-marinated chicken, lardons and pearl onions in a glossy, reduced red wine sauce.</description>
+      <description>Paupiettes de veau, veal rolls with a herb stuffing braised in white wine, cooked for 1 hour. Four servings, ready in 1 hour 30 minutes.</description>
     </item>
     <item>
-      <title>French Onion Soup</title>
-      <link>https://weeklydelight.com/recipes/french-onion-soup/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/french-onion-soup/</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Tournedos Rossini</title>
+      <link>https://weeklydelight.com/recipes/tournedos-rossini/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tournedos-rossini/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:08 GMT</pubDate>
       <category>Dinner</category>
-      <description>Deeply caramelised French onion soup with a Gruyère-crusted baguette raft. The slow-onion method that makes all the difference.</description>
+      <description>Tournedos Rossini, fillet steak on fried bread with foie gras and Madeira sauce, cooked for 15 minutes. Two servings, ready in 35 minutes.</description>
     </item>
     <item>
-      <title>Provençal Ratatouille</title>
-      <link>https://weeklydelight.com/recipes/ratatouille/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/ratatouille/</guid>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
-      <category>Healthy</category>
-      <description>Traditional Provençal ratatouille where each vegetable is cooked separately for perfect texture. Naturally vegan and gluten-free.</description>
+      <title>Foie Gras</title>
+      <link>https://weeklydelight.com/recipes/foie-gras/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/foie-gras/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:07 GMT</pubDate>
+      <category>Appetizers</category>
+      <description>Seared foie gras on toasted brioche with fig jam, cooked for 5 minutes. Two servings, ready in 15 minutes.</description>
     </item>
     <item>
-      <title>Marseille Bouillabaisse</title>
-      <link>https://weeklydelight.com/recipes/bouillabaisse/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/bouillabaisse/</guid>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Tuiles aux Amandes</title>
+      <link>https://weeklydelight.com/recipes/tuiles-aux-amandes/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tuiles-aux-amandes/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:06 GMT</pubDate>
+      <category>Baking</category>
+      <description>Tuiles aux amandes, thin curved almond biscuits, baked for 10 minutes. Twenty biscuits, ready in 25 minutes.</description>
+    </item>
+    <item>
+      <title>Nougat de Montelimar</title>
+      <link>https://weeklydelight.com/recipes/nougat-de-montelimar/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/nougat-de-montelimar/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:05 GMT</pubDate>
+      <category>Desserts</category>
+      <description>Nougat de Montélimar with honey, almonds and pistachios, cooked for 25 minutes. Twenty-four pieces, ready in 45 minutes plus overnight setting.</description>
+    </item>
+    <item>
+      <title>Tarte Bourdaloue</title>
+      <link>https://weeklydelight.com/recipes/tarte-bourdaloue/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/tarte-bourdaloue/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:04 GMT</pubDate>
+      <category>Desserts</category>
+      <description>Tarte Bourdaloue, pears set in almond cream in a pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 10 minutes.</description>
+    </item>
+    <item>
+      <title>Poire Belle Helene</title>
+      <link>https://weeklydelight.com/recipes/poire-belle-helene/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/poire-belle-helene/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:03 GMT</pubDate>
+      <category>Desserts</category>
+      <description>Poire Belle Hélène, poached pears with ice cream and hot chocolate sauce, cooked for 25 minutes. Four servings, ready in 35 minutes.</description>
+    </item>
+    <item>
+      <title>Soupe Aux Choux</title>
+      <link>https://weeklydelight.com/recipes/soupe-aux-choux/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/soupe-aux-choux/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:02 GMT</pubDate>
       <category>Dinner</category>
-      <description>Authentic Marseille bouillabaisse with a saffron fish-bone broth, mixed fish and garlicky rouille croutons.</description>
+      <description>Soupe aux choux, a hearty cabbage and bacon soup, cooked for 1 hour. Six servings, ready in 1 hour 15 minutes.</description>
     </item>
     <item>
-      <title>Cassoulet de Toulouse</title>
-      <link>https://weeklydelight.com/recipes/cassoulet/</link>
-      <guid isPermaLink="true">https://weeklydelight.com/recipes/cassoulet/</guid>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 GMT</pubDate>
-      <category>Dinner</category>
-      <description>Traditional cassoulet de Toulouse with white beans, duck confit and sausage, baked slowly until a golden crust forms.</description>
+      <title>Salade de Gesiers</title>
+      <link>https://weeklydelight.com/recipes/salade-de-gesiers/</link>
+      <guid isPermaLink="true">https://weeklydelight.com/recipes/salade-de-gesiers/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:36:01 GMT</pubDate>
+      <category>Lunch</category>
+      <description>Salade de gésiers, warm duck gizzard salad with bacon and a sharp dressing, cooked for 20 minutes. Four servings, ready in 40 minutes.</description>
     </item>
   </channel>
 </rss>

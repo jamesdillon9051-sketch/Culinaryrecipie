@@ -1,36 +1,46 @@
 # Weekly Delight — https://weeklydelight.com/
+#
+# One group for every crawler, so that no crawler named in a group of its own
+# loses these rules. Filtered views of the recipe directory are client-side and
+# duplicate the canonical listing.
 User-agent: *
-Allow: /
-
-# Filtered directory views duplicate the canonical listing
 Disallow: /*?q=
+Disallow: /*&q=
 Disallow: /*?sort=
+Disallow: /*&sort=
 Disallow: /*?tag=
+Disallow: /*&tag=
 Disallow: /*?time=
+Disallow: /*&time=
 Disallow: /*?cuisine=
+Disallow: /*&cuisine=
 Disallow: /*?category=
+Disallow: /*&category=
 Disallow: /*?difficulty=
+Disallow: /*&difficulty=
+# The contact form's endpoint answers POST only.
+Disallow: /contact/send.php
 
-# Personal, device-local pages have nothing to index
-Disallow: /favourites/
-
-# The site is generated into the repository root, so the project's own
-# directories sit alongside it. Nothing there is worth crawling.
-Disallow: /src/
-Disallow: /tools/
-
-User-agent: Googlebot
-Allow: /
-Allow: /assets/img/
-
-User-agent: Googlebot-Image
-Allow: /assets/img/
-
-# Be polite to smaller crawlers
+# The same rules, slower, for two crawlers that fetch a great deal. A crawler
+# obeys only its own group, so the rules are repeated rather than inherited.
 User-agent: AhrefsBot
-Crawl-delay: 10
-
 User-agent: SemrushBot
 Crawl-delay: 10
+Disallow: /*?q=
+Disallow: /*&q=
+Disallow: /*?sort=
+Disallow: /*&sort=
+Disallow: /*?tag=
+Disallow: /*&tag=
+Disallow: /*?time=
+Disallow: /*&time=
+Disallow: /*?cuisine=
+Disallow: /*&cuisine=
+Disallow: /*?category=
+Disallow: /*&category=
+Disallow: /*?difficulty=
+Disallow: /*&difficulty=
+# The contact form's endpoint answers POST only.
+Disallow: /contact/send.php
 
 Sitemap: https://weeklydelight.com/sitemap-index.xml
