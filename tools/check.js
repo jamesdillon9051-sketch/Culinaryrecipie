@@ -678,9 +678,9 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
      true of every source this site had: Wikimedia Commons and Openverse hand
      back Creative Commons and public domain and nothing else.
 
-     tools/fetch_images.py can now also be given a Pexels or Unsplash key.
-     Both licences permit commercial use and resizing, which is why the gate
-     accepts them — but neither is a free licence, and the first stock
+     tools/fetch_images.py can now also be given a Pexels, Unsplash or Pixabay key.
+     All three licences permit commercial use and resizing, which is why the gate
+     accepts them — but none is a free licence, and the first stock
      photograph to publish would make that sentence false with nothing saying
      so. The claim is checked against what is actually published rather than
      against what the fetcher was configured to ask for. */
