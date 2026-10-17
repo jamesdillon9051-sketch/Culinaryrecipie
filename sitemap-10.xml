@@ -619,9 +619,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salt-and-pepper-chicken-wings/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salt-and-pepper-chicken-wings.jpg</image:loc>
+      <image:title>Salt and Pepper Chicken Wings</image:title>
+      <image:caption>Salt and Pepper Chicken Wings, a Chinese appetizer recipe — chinese salt and pepper wings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-and-sour-prawns/</loc>
@@ -642,9 +647,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-in-oyster-sauce/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-in-oyster-sauce.jpg</image:loc>
+      <image:title>Beef in Oyster Sauce</image:title>
+      <image:caption>Beef in Oyster Sauce, a quick Chinese meal recipe — beef oyster sauce stir fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steamed-chicken-with-mushrooms/</loc>
@@ -1012,9 +1022,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/seven-vegetable-couscous/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/seven-vegetable-couscous.jpg</image:loc>
+      <image:title>Seven-Vegetable Couscous</image:title>
+      <image:caption>Seven-Vegetable Couscous, a Moroccan dinner recipe — seven vegetable couscous</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bissara/</loc>
@@ -1085,9 +1100,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkish-tea/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkish-tea.jpg</image:loc>
+      <image:title>Turkish Tea</image:title>
+      <image:caption>Turkish Tea, a Turkish drink recipe — turkish black tea with sugar</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/azerbaijani-plov/</loc>
@@ -1281,9 +1301,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-egg-prawns/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salted-egg-prawns.jpg</image:loc>
+      <image:title>Salted Egg Prawns</image:title>
+      <image:caption>Salted Egg Prawns, a Chinese dinner recipe — salted egg yolk prawns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/black-pepper-crab/</loc>
@@ -2555,9 +2580,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mexican-hot-chocolate/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mexican-hot-chocolate.jpg</image:loc>
+      <image:title>Mexican Hot Chocolate</image:title>
+      <image:caption>Mexican Hot Chocolate, a Mexican drink recipe — spiced hot chocolate with cinnamon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/causa-rellena/</loc>
@@ -2929,9 +2959,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caribbean-coconut-rice/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/caribbean-coconut-rice.jpg</image:loc>
+      <image:title>Caribbean Coconut Rice</image:title>
+      <image:caption>Caribbean Coconut Rice, a Caribbean dinner recipe — coconut rice recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caribbean-rum-punch/</loc>
@@ -3191,9 +3226,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mexican-chocolate-cake/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mexican-chocolate-cake.jpg</image:loc>
+      <image:title>Mexican Chocolate Cake</image:title>
+      <image:caption>Mexican Chocolate Cake, a Mexican dessert recipe — cinnamon chocolate cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/capirotada/</loc>
@@ -3408,9 +3448,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/texas-beef-ribs/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/texas-beef-ribs.jpg</image:loc>
+      <image:title>Texas Beef Ribs</image:title>
+      <image:caption>Texas Beef Ribs, an American dinner recipe — texas style beef ribs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/texas-toast/</loc>
@@ -3698,9 +3743,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/glazed-baked-ham/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/glazed-baked-ham.jpg</image:loc>
+      <image:title>Glazed Baked Ham</image:title>
+      <image:caption>Glazed Baked Ham, an American holiday recipe — baked ham with brown sugar glaze</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/witch-finger-cookies/</loc>
@@ -3710,9 +3760,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/popcorn-balls/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/popcorn-balls.jpg</image:loc>
+      <image:title>Popcorn Balls</image:title>
+      <image:caption>Popcorn Balls, an American holiday recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-dip/</loc>
@@ -3781,9 +3836,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-split-pea-soup/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-split-pea-soup.jpg</image:loc>
+      <image:title>Slow Cooker Split Pea Soup</image:title>
+      <image:caption>Slow Cooker Split Pea Soup, an American dinner recipe — split pea soup with ham hock</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-apple-butter/</loc>
@@ -3850,9 +3910,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cast-iron-steak/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cast-iron-steak.jpg</image:loc>
+      <image:title>Cast Iron Steak</image:title>
+      <image:caption>Cast Iron Steak, a quick American meal recipe — cast iron skillet steak</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cast-iron-skillet-cookie/</loc>
@@ -3914,9 +3979,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-cinnamon-rolls/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sourdough-cinnamon-rolls.jpg</image:loc>
+      <image:title>Sourdough Cinnamon Rolls</image:title>
+      <image:caption>Sourdough Cinnamon Rolls, an American baking recipe — cinnamon rolls with sourdough starter</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sourdough-brownies/</loc>
@@ -3937,15 +4007,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cottage-cheese-toast/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cottage-cheese-toast.jpg</image:loc>
+      <image:title>Cottage Cheese Toast</image:title>
+      <image:caption>Cottage Cheese Toast, a quick American meal recipe — cottage cheese on toast</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/biscuits-and-gravy-casserole/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/biscuits-and-gravy-casserole.jpg</image:loc>
+      <image:title>Biscuits and Gravy Casserole</image:title>
+      <image:caption>Biscuits and Gravy Casserole, an American breakfast recipe — sausage gravy casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-francoise/</loc>

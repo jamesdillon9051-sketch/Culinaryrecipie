@@ -3191,9 +3191,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/protein-balls/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/protein-balls.jpg</image:loc>
+      <image:title>Protein Balls</image:title>
+      <image:caption>Protein Balls, a healthy American recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-energy-bites/</loc>
@@ -3236,9 +3241,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-chips/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-chips.jpg</image:loc>
+      <image:title>Sweet Potato Chips</image:title>
+      <image:caption>Sweet Potato Chips, an American appetizer recipe — homemade sweet potato crisps</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-dip/</loc>
@@ -3300,9 +3310,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-salsa/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-salsa.jpg</image:loc>
+      <image:title>Mango Salsa</image:title>
+      <image:caption>Mango Salsa, a Mexican appetizer recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-tomato-salsa/</loc>
@@ -3346,9 +3361,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/puff-pastry-pinwheels/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/puff-pastry-pinwheels.jpg</image:loc>
+      <image:title>Puff Pastry Pinwheels</image:title>
+      <image:caption>Puff Pastry Pinwheels, an American appetizer recipe — pesto and mozzarella pinwheels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-dates/</loc>
@@ -3397,9 +3417,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mini-pizzas/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mini-pizzas.jpg</image:loc>
+      <image:title>Mini Pizzas</image:title>
+      <image:caption>Mini Pizzas, an Italian appetizer recipe — mini pepperoni pizzas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mac-and-cheese-cups/</loc>
@@ -3513,9 +3538,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/quinoa-salad-with-roasted-vegetables/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/quinoa-salad-with-roasted-vegetables.jpg</image:loc>
+      <image:title>Quinoa Salad with Roasted Vegetables</image:title>
+      <image:caption>Quinoa Salad with Roasted Vegetables, a healthy American recipe — roasted vegetable quinoa salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-buddha-bowl/</loc>
@@ -3576,15 +3606,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chickpea-and-spinach-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-and-spinach-stew.jpg</image:loc>
+      <image:title>Chickpea and Spinach Stew</image:title>
+      <image:caption>Chickpea and Spinach Stew, a Spanish dinner recipe — espinacas con garbanzos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chickpea-curry/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-chickpea-curry.jpg</image:loc>
+      <image:title>Slow Cooker Chickpea Curry</image:title>
+      <image:caption>Slow Cooker Chickpea Curry, an Indian dinner recipe — crock pot chickpea curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-korma/</loc>
@@ -3714,9 +3754,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-noodle-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-noodle-soup.jpg</image:loc>
+      <image:title>Prawn Noodle Soup</image:title>
+      <image:caption>Prawn Noodle Soup, a Chinese dinner recipe — prawn and pak choi noodle soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/almond-crusted-chicken/</loc>
@@ -3732,9 +3777,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-salmon-with-asparagus/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-salmon-with-asparagus.jpg</image:loc>
+      <image:title>Baked Salmon with Asparagus</image:title>
+      <image:caption>Baked Salmon with Asparagus, a quick American meal recipe — salmon and asparagus bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-brisket-sandwich/</loc>
@@ -3772,9 +3822,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-mushroom-pie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-mushroom-pie.jpg</image:loc>
+      <image:title>Beef and Mushroom Pie</image:title>
+      <image:caption>Beef and Mushroom Pie, a British dinner recipe — steak and mushroom pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-onion-pie/</loc>
@@ -3966,9 +4021,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/focaccia-pizza/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/focaccia-pizza.jpg</image:loc>
+      <image:title>Focaccia Pizza</image:title>
+      <image:caption>Focaccia Pizza, an Italian dinner recipe — pizza on focaccia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-pasta/</loc>
@@ -3984,9 +4044,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-lemon-chicken/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-lemon-chicken.jpg</image:loc>
+      <image:title>Greek Lemon Chicken</image:title>
+      <image:caption>Greek Lemon Chicken, a Greek dinner recipe — greek roast lemon chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/harissa-roasted-carrots/</loc>

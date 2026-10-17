@@ -6,7 +6,7 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (606) ======================================
+== American (573) ======================================
   grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
   beef-and-noodles                   Beef and Noodles   [15 refused already]
   chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [10 refused already]
@@ -237,16 +237,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   baked-bananas                      Baked Bananas   [2 refused already]
   slow-cooker-apple-sauce            Slow Cooker Apple Sauce
   bacon-jam                          Bacon Jam   [1 refused already]
-  protein-balls                      Protein Balls   [1 refused already]
   peanut-butter-energy-bites         Peanut Butter Energy Bites   [1 refused already]
-  sweet-potato-chips                 Sweet Potato Chips   [1 refused already]
   pumpkin-hummus                     Pumpkin Hummus   [2 refused already]
-  puff-pastry-pinwheels              Puff Pastry Pinwheels   [1 refused already]
   asian-slaw                         Asian Slaw   [1 refused already]
   kale-and-quinoa-salad              Kale and Quinoa Salad
   pasta-salad-with-italian-dressing  Pasta Salad with Italian Dressing   [1 refused already]
   crab-salad                         Crab Salad   [1 refused already]
-  quinoa-salad-with-roasted-vegetables Quinoa Salad with Roasted Vegetables
   sweet-potato-buddha-bowl           Sweet Potato Buddha Bowl   [1 refused already]
   slow-cooker-vegetable-soup         Slow Cooker Vegetable Soup
   black-eyed-pea-stew                Black Eyed Pea Stew   [1 refused already]
@@ -256,7 +252,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   air-fryer-vegetables               Air Fryer Vegetables
   almond-crusted-chicken             Almond Crusted Chicken   [1 refused already]
   bacon-wrapped-chicken              Bacon Wrapped Chicken   [1 refused already]
-  baked-salmon-with-asparagus        Baked Salmon with Asparagus   [1 refused already]
   cheeseburger-pie                   Cheeseburger Pie   [1 refused already]
   cheesy-chicken-bake                Cheesy Chicken Bake
   egg-noodles-with-butter            Egg Noodles with Butter   [1 refused already]
@@ -265,33 +260,22 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lemon-garlic-roast-chicken-thighs  Lemon Garlic Roast Chicken Thighs
   lemon-herb-cod                     Lemon Herb Cod
   one-pot-beef-and-rice              One Pot Beef and Rice   [1 refused already]
-  oven-fried-chicken                 Oven Fried Chicken   [1 refused already]
   parmesan-crusted-cod               Parmesan Crusted Cod
   parmesan-roasted-carrots           Parmesan Roasted Carrots
   pecan-crusted-salmon               Pecan Crusted Salmon
   philly-chicken-sandwich            Philly Chicken Sandwich
   po-boy-sandwich                    Po Boy Sandwich   [1 refused already]
-  pork-ribs-in-the-oven              Pork Ribs in the Oven   [2 refused already]
-  ranch-chicken-wraps                Ranch Chicken Wraps   [1 refused already]
   sausage-and-cheese-pasta           Sausage and Cheese Pasta
-  sticky-chicken-wings               Sticky Chicken Wings
   sriracha-mayo                      Sriracha Mayo   [1 refused already]
-  sweet-potato-mash                  Sweet Potato Mash   [1 refused already]
   texas-chili                        Texas Chili   [2 refused already]
   turkey-club-wrap                   Turkey Club Wrap   [1 refused already]
-  lemon-pepper-salmon                Lemon Pepper Salmon   [1 refused already]
   chicken-parmesan-sliders           Chicken Parmesan Sliders   [2 refused already]
-  chicken-caesar-pasta-salad         Chicken Caesar Pasta Salad
   chicken-cordon-bleu-casserole      Chicken Cordon Bleu Casserole
-  beef-pot-roast-with-gravy          Beef Pot Roast with Gravy
-  pork-stuffed-peppers               Pork Stuffed Peppers   [1 refused already]
   salmon-poke-bowls                  Salmon Poke Bowls   [1 refused already]
   tuna-poke-bowls                    Tuna Poke Bowls   [1 refused already]
   red-velvet-whoopie-pies            Red Velvet Whoopie Pies   [1 refused already]
   apple-pie-cookies                  Apple Pie Cookies   [1 refused already]
   key-lime-bars                      Key Lime Bars   [2 refused already]
-  lemon-blueberry-muffins            Lemon Blueberry Muffins
-  honey-wheat-bread                  Honey Wheat Bread   [1 refused already]
   everything-bagel-dip               Everything Bagel Dip   [2 refused already]
   marshmallow-fluff-fudge            Marshmallow Fluff Fudge
   oreo-truffles                      Oreo Truffles   [1 refused already]
@@ -299,35 +283,26 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cream-of-chicken-soup              Cream of Chicken Soup   [2 refused already]
   air-fryer-zucchini-fries           Air Fryer Zucchini Fries   [1 refused already]
   slow-cooker-pork-chops             Slow Cooker Pork Chops
-  slow-cooker-chilli-con-carne       Slow Cooker Chilli con Carne
   slow-cooker-honey-garlic-chicken   Slow Cooker Honey Garlic Chicken
-  slow-cooker-macaroni-and-cheese    Slow Cooker Macaroni and Cheese
-  slow-cooker-mashed-potatoes        Slow Cooker Mashed Potatoes   [1 refused already]
   slow-cooker-apple-crisp            Slow Cooker Apple Crisp
   sheet-pan-salmon-and-broccoli      Sheet Pan Salmon and Broccoli
   sheet-pan-shrimp-boil              Sheet Pan Shrimp Boil
   loaded-sweet-potatoes              Loaded Sweet Potatoes
   waffle-fries                       Waffle Fries   [2 refused already]
-  roasted-beet-salad-with-goat-cheese Roasted Beet Salad with Goat Cheese
-  protein-smoothie                   Protein Smoothie   [1 refused already]
-  oat-milk-latte                     Oat Milk Latte   [1 refused already]
   strawberry-daiquiri-mocktail       Strawberry Daiquiri Mocktail
   eggs-sardou                        Eggs Sardou   [1 refused already]
   banana-bread-french-toast          Banana Bread French Toast   [2 refused already]
-  grilled-corn-salad                 Grilled Corn Salad   [2 refused already]
   bbq-pulled-pork-nachos             BBQ Pulled Pork Nachos
   bbq-baked-beans                    BBQ Baked Beans   [1 refused already]
   grilled-romaine-salad              Grilled Romaine Salad   [2 refused already]
   veggie-chilli                      Veggie Chilli   [2 refused already]
   deviled-ham-sandwiches             Deviled Ham Sandwiches   [1 refused already]
   pinwheel-sandwiches                Pinwheel Sandwiches   [1 refused already]
-  egg-muffin-cups                    Egg Muffin Cups   [6 refused already]
   sweet-potato-hash                  Sweet Potato Hash   [7 refused already]
   potato-salad-with-mustard-dressing Potato Salad with Mustard Dressing   [8 refused already]
   taco-pasta                         Taco Pasta   [7 refused already]
   frozen-banana-pops                 Frozen Banana Pops   [2 refused already]
   vanilla-mug-cake                   Vanilla Mug Cake   [4 refused already]
-  chewy-oat-granola-bars             Chewy Oat Granola Bars   [4 refused already]
   pizza-pinwheels                    Pizza Pinwheels
   spinach-pinwheels                  Spinach Pinwheels   [1 refused already]
   sloppy-joe-casserole               Sloppy Joe Casserole   [4 refused already]
@@ -342,7 +317,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chicken-scampi                     Chicken Scampi   [1 refused already]
   broccoli-cheddar-chicken           Broccoli Cheddar Chicken   [2 refused already]
   tex-mex-migas                      Tex-Mex Migas   [1 refused already]
-  texas-beef-ribs                    Texas Beef Ribs   [1 refused already]
   kansas-city-barbecue-sauce         Kansas City Barbecue Sauce   [1 refused already]
   carolina-mustard-sauce             Carolina Mustard Sauce   [1 refused already]
   alabama-white-sauce-chicken        Alabama White Sauce Chicken   [1 refused already]
@@ -361,9 +335,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   ozark-pudding                      Ozark Pudding
   amish-oatmeal-pie                  Amish Oatmeal Pie   [1 refused already]
   cranberry-brie-bites               Cranberry Brie Bites   [1 refused already]
-  glazed-baked-ham                   Glazed Baked Ham
   witch-finger-cookies               Witch Finger Cookies   [1 refused already]
-  popcorn-balls                      Popcorn Balls   [1 refused already]
   pizza-dip                          Pizza Dip   [2 refused already]
   fruit-jello-salad                  Fruit Jello Salad
   southern-chow-chow                 Southern Chow Chow   [2 refused already]
@@ -373,23 +345,18 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   air-fryer-corn-ribs                Air Fryer Corn Ribs
   slow-cooker-pulled-beef            Slow Cooker Pulled Beef   [4 refused already]
   slow-cooker-honey-mustard-chicken  Slow Cooker Honey Mustard Chicken   [4 refused already]
-  slow-cooker-split-pea-soup         Slow Cooker Split Pea Soup   [5 refused already]
   slow-cooker-oatmeal                Slow Cooker Oatmeal   [4 refused already]
   slow-cooker-sticky-ribs            Slow Cooker Sticky Ribs   [4 refused already]
   instant-pot-yogurt                 Instant Pot Yogurt
   instant-pot-egg-bites              Instant Pot Egg Bites   [1 refused already]
   cast-iron-pizza                    Cast Iron Pizza   [6 refused already]
-  cast-iron-steak                    Cast Iron Steak   [5 refused already]
   cast-iron-skillet-cookie           Cast Iron Skillet Cookie   [5 refused already]
   dutch-oven-chicken                 Dutch Oven Chicken   [6 refused already]
   pull-apart-cheese-bread            Pull-Apart Cheese Bread   [1 refused already]
   pumpkin-cream-cheese-muffins       Pumpkin Cream Cheese Muffins   [1 refused already]
   bagel-bites                        Bagel Bites   [2 refused already]
   sourdough-pizza-crust              Sourdough Pizza Crust   [2 refused already]
-  sourdough-cinnamon-rolls           Sourdough Cinnamon Rolls
   sourdough-brownies                 Sourdough Brownies
-  cottage-cheese-toast               Cottage Cheese Toast   [6 refused already]
-  biscuits-and-gravy-casserole       Biscuits and Gravy Casserole   [1 refused already]
   chicken-francoise                  Chicken Françoise
   chicken-murphy                     Chicken Murphy   [2 refused already]
   scalloped-corn                     Scalloped Corn   [1 refused already]
@@ -614,7 +581,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cheddar-jalapeno-bread             Cheddar Jalapeno Bread
   honey-oat-bread                    Honey Oat Bread   [1 refused already]
 
-== Italian (176) =======================================
+== Italian (170) =======================================
   italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
   chicken-scarpariello               Chicken Scarpariello   [3 refused already]
   italian-seasoning                  Italian Seasoning   [5 refused already]
@@ -651,7 +618,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lemon-sorbet                       Lemon Sorbet   [2 refused already]
   antipasto-skewers                  Antipasto Skewers
   prosciutto-wrapped-asparagus       Prosciutto Wrapped Asparagus
-  mini-pizzas                        Mini Pizzas   [2 refused already]
   pear-and-parmesan-salad            Pear and Parmesan Salad
   tortellini-salad                   Tortellini Salad   [1 refused already]
   spinach-and-ricotta-cannelloni     Spinach and Ricotta Cannelloni
@@ -660,7 +626,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   cheese-tortellini-with-pesto       Cheese Tortellini with Pesto
   chicken-roulade                    Chicken Roulade   [2 refused already]
   chicken-sausage-pasta              Chicken Sausage Pasta   [1 refused already]
-  focaccia-pizza                     Focaccia Pizza   [2 refused already]
   garlic-butter-pasta                Garlic Butter Pasta   [2 refused already]
   gnocchi-bake                       Gnocchi Bake
   pumpkin-and-sage-pasta             Pumpkin and Sage Pasta
@@ -670,12 +635,9 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   beef-tagliata                      Beef Tagliata   [1 refused already]
   lamb-ragu-pappardelle              Lamb Ragu Pappardelle
   sea-bream-with-fennel              Sea Bream with Fennel
-  prawn-risotto                      Prawn Risotto   [1 refused already]
   panettone-french-toast             Panettone French Toast   [1 refused already]
-  panna-cotta-with-berries           Panna Cotta with Berries   [1 refused already]
   slow-cooker-lasagne                Slow Cooker Lasagne
   roasted-courgettes                 Roasted Courgettes
-  grilled-vegetable-platter          Grilled Vegetable Platter   [1 refused already]
   vegetarian-lasagne                 Vegetarian Lasagne   [1 refused already]
   linguine-al-limone                 Linguine al Limone
   rigatoni-alla-vodka                Rigatoni alla Vodka
@@ -683,7 +645,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lasagne-rolls                      Lasagne Rolls
   gnocchi-with-gorgonzola            Gnocchi with Gorgonzola   [1 refused already]
   crostini-with-ricotta              Crostini with Ricotta
-  antipasto-platter                  Antipasto Platter
   pizza-bianca                       Pizza Bianca   [1 refused already]
   pesto-chicken-traybake             Pesto Chicken Traybake   [1 refused already]
   pizza-dough-without-yeast          Pizza Dough Without Yeast   [4 refused already]
@@ -792,7 +753,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bomboloni-al-forno                 Bomboloni al Forno
   spritz-veneziano                   Spritz Veneziano   [1 refused already]
 
-== British (165) =======================================
+== British (159) =======================================
   lamb-bhuna                         Lamb Bhuna   [2 refused already]
   butterfly-cakes                    Butterfly Cakes   [13 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
@@ -868,7 +829,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   pea-and-mint-dip                   Pea and Mint Dip   [1 refused already]
   vegetable-wellington               Vegetable Wellington   [2 refused already]
   mushroom-wellington                Mushroom Wellington   [2 refused already]
-  beef-and-mushroom-pie              Beef and Mushroom Pie   [1 refused already]
   broccoli-pasta-bake                Broccoli Pasta Bake
   cod-in-parsley-sauce               Cod in Parsley Sauce
   corned-beef-with-parsley-sauce     Corned Beef with Parsley Sauce   [1 refused already]
@@ -880,15 +840,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   pork-and-apple-casserole           Pork and Apple Casserole
   red-wine-gravy                     Red Wine Gravy   [1 refused already]
   salmon-fillet-with-dill-sauce      Salmon Fillet with Dill Sauce
-  scallops-with-pea-puree            Scallops with Pea Puree
-  slow-cooked-lamb-shoulder          Slow Cooked Lamb Shoulder
   tuna-fishcakes                     Tuna Fishcakes
   chicken-tikka-wraps                Chicken Tikka Wraps   [2 refused already]
   chicken-tikka-pizza                Chicken Tikka Pizza   [2 refused already]
   pork-loin-with-cider-gravy         Pork Loin with Cider Gravy   [1 refused already]
   smoked-haddock-risotto             Smoked Haddock Risotto
   smoked-haddock-fishcakes           Smoked Haddock Fishcakes
-  fish-and-chips-with-mushy-peas     Fish and Chips with Mushy Peas   [1 refused already]
   mackerel-with-gooseberry-sauce     Mackerel with Gooseberry Sauce
   lemon-drizzle-traybake             Lemon Drizzle Traybake
   victoria-sandwich-cupcakes         Victoria Sandwich Cupcakes
@@ -901,7 +858,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   one-pan-sausage-pasta              One Pan Sausage Pasta   [1 refused already]
   devilled-eggs                      Devilled Eggs   [2 refused already]
   cheese-on-toast-with-chutney       Cheese on Toast with Chutney   [2 refused already]
-  shepherds-pie-with-cheesy-mash     Shepherd's Pie with Cheesy Mash
   stuffing-balls                     Stuffing Balls
   buttered-carrots                   Buttered Carrots   [2 refused already]
   smoked-salmon-pate                 Smoked Salmon Pate   [1 refused already]
@@ -909,7 +865,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chicken-goujons                    Chicken Goujons   [1 refused already]
   cheesy-leek-bake                   Cheesy Leek Bake   [1 refused already]
   garlic-mushroom-chicken            Garlic Mushroom Chicken   [1 refused already]
-  lentil-and-carrot-soup             Lentil and Carrot Soup   [10 refused already]
   red-lentil-and-tomato-soup         Red Lentil and Tomato Soup   [8 refused already]
   savoury-french-toast               Savoury French Toast   [4 refused already]
   roast-cabbage-wedges               Roast Cabbage Wedges   [4 refused already]
@@ -959,7 +914,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
   vegan-stew                         Vegan Stew   [1 refused already]
 
-== French (76) =========================================
+== French (75) =========================================
   chicken-chasseur                   Chicken Chasseur   [9 refused already]
   kir-royale                         Kir Royale   [18 refused already]
   sole-with-grapes                   Sole with Grapes   [7 refused already]
@@ -974,7 +929,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   warm-lentil-salad                  Warm Lentil Salad   [1 refused already]
   roasted-vegetable-tart             Roasted Vegetable Tart
   mornay-sauce                       Mornay Sauce   [1 refused already]
-  chicken-provencal                  Chicken Provencal   [2 refused already]
   pork-medallions-in-cream-sauce     Pork Medallions in Cream Sauce
   sea-bass-with-lemon-butter         Sea Bass with Lemon Butter
   brioche-buns                       Brioche Buns   [1 refused already]
@@ -1037,67 +991,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   langues-de-chat                    Langues de Chat   [2 refused already]
   marrons-glaces                     Marrons Glaces
 
-== Mexican (52) ========================================
-  almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
-  chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
-  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [8 refused already]
-  shrimp-taco-bowls                  Shrimp Taco Bowls   [10 refused already]
-  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [24 refused already]
-  egg-white-burrito-bowl             Egg White Burrito Bowl   [17 refused already]
-  bean-and-rice-burrito              Bean and Rice Burrito   [5 refused already]
-  black-bean-and-rice-skillet        Black Bean and Rice Skillet   [1 refused already]
-  bean-wraps                         Bean Wraps   [3 refused already]
-  sheet-pan-fajitas                  Sheet Pan Fajitas   [2 refused already]
-  sheet-pan-nachos                   Sheet Pan Nachos   [1 refused already]
-  meal-prep-burrito-bowls            Meal Prep Burrito Bowls   [1 refused already]
-  freezer-burritos                   Freezer Burritos   [1 refused already]
-  pulled-pork-tacos                  Pulled Pork Tacos   [2 refused already]
-  honey-lime-chicken-tacos           Honey Lime Chicken Tacos   [2 refused already]
-  crispy-fish-tacos-with-slaw        Crispy Fish Tacos with Slaw   [2 refused already]
-  black-bean-salsa                   Black Bean Salsa
-  mango-salsa                        Mango Salsa   [1 refused already]
-  roasted-tomato-salsa               Roasted Tomato Salsa
-  taquitos                           Taquitos   [1 refused already]
-  chipotle-mayo                      Chipotle Mayo   [1 refused already]
-  beef-taco-skillet                  Beef Taco Skillet
-  pork-carnitas-bowls                Pork Carnitas Bowls
-  salmon-tacos                       Salmon Tacos   [2 refused already]
-  one-pan-mexican-rice               One Pan Mexican Rice
-  watermelon-juice                   Watermelon Juice   [1 refused already]
-  corn-on-the-cob-with-chilli-butter Corn on the Cob with Chilli Butter
-  egg-tostadas                       Egg Tostadas   [6 refused already]
-  chile-colorado                     Chile Colorado   [2 refused already]
-  mole-verde                         Mole Verde   [1 refused already]
-  chicken-tamales                    Chicken Tamales   [2 refused already]
-  mexican-hot-chocolate              Mexican Hot Chocolate   [5 refused already]
-  mexican-chocolate-cake             Mexican Chocolate Cake   [1 refused already]
-  cajeta                             Cajeta   [5 refused already]
-  bunuelos-mexicanos                 Buñuelos Mexicanos
-  tres-leches-cupcakes               Tres Leches Cupcakes   [1 refused already]
-  huevos-divorciados                 Huevos Divorciados   [2 refused already]
-  air-fryer-fish-tacos               Air Fryer Fish Tacos
-  air-fryer-quesadilla               Air Fryer Quesadilla
-  instant-pot-carnitas               Instant Pot Carnitas   [1 refused already]
-  instant-pot-chicken-fajitas        Instant Pot Chicken Fajitas   [1 refused already]
-  instant-pot-fajita-pasta           Instant Pot Fajita Pasta
-  instant-pot-taco-soup              Instant Pot Taco Soup
-  one-pot-black-bean-soup            One Pot Black Bean Soup
-  sheet-pan-fish-tacos               Sheet Pan Fish Tacos   [1 refused already]
-  sheet-pan-quesadillas              Sheet Pan Quesadillas   [1 refused already]
-  slow-cooker-pork-carnitas          Slow Cooker Pork Carnitas
-  mexican-wedding-cookies            Mexican Wedding Cookies
-  freezer-enchiladas                 Freezer Enchiladas   [1 refused already]
-  gluten-free-tortillas              Gluten-Free Tortillas   [2 refused already]
-  low-carb-taco-casserole            Low-Carb Taco Casserole
-  low-carb-tortillas                 Low-Carb Tortillas
-
-== Indian (50) =========================================
+== Indian (49) =========================================
   moong-dal-chilla                   Moong Dal Chilla   [23 refused already]
   air-fryer-samosas                  Air Fryer Samosas   [2 refused already]
   instant-pot-chicken-curry          Instant Pot Chicken Curry   [1 refused already]
   beef-madras                        Beef Madras   [1 refused already]
   eggplant-curry                     Eggplant Curry   [1 refused already]
-  slow-cooker-chickpea-curry         Slow Cooker Chickpea Curry
   vegetable-pilau                    Vegetable Pilau   [1 refused already]
   lamb-saag                          Lamb Saag   [1 refused already]
   pork-vindaloo                      Pork Vindaloo
@@ -1143,40 +1042,56 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-naan                   Gluten-Free Naan   [1 refused already]
   vegan-butter-chicken               Vegan Butter Chicken
 
-== Chinese (31) ========================================
-  mongolian-lamb                     Mongolian Lamb   [15 refused already]
-  crispy-seaweed                     Crispy Seaweed   [20 refused already]
-  crispy-aromatic-duck               Crispy Aromatic Duck   [4 refused already]
-  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [10 refused already]
-  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [18 refused already]
-  turkey-stir-fry-with-peppers       Turkey Stir-Fry with Peppers   [2 refused already]
-  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [17 refused already]
-  prawn-noodle-soup                  Prawn Noodle Soup
-  beef-noodle-stir-fry               Beef Noodle Stir Fry   [1 refused already]
-  chinese-chicken-and-broccoli       Chinese Chicken and Broccoli   [1 refused already]
-  steak-fried-rice                   Steak Fried Rice   [2 refused already]
-  beef-lo-mein                       Beef Lo Mein   [2 refused already]
-  pork-meatball-soup                 Pork Meatball Soup   [1 refused already]
-  hot-and-sour-potato-strips         Hot and Sour Potato Strips   [1 refused already]
-  salt-and-pepper-chicken-wings      Salt and Pepper Chicken Wings   [1 refused already]
-  sweet-and-sour-prawns              Sweet and Sour Prawns   [1 refused already]
-  beef-in-oyster-sauce               Beef in Oyster Sauce   [2 refused already]
-  lap-cheong-fried-rice              Lap Cheong Fried Rice   [4 refused already]
-  yuxiang-aubergine                  Yuxiang Aubergine
-  xinjiang-lamb-skewers              Xinjiang Lamb Skewers   [2 refused already]
-  instant-pot-chicken-congee         Instant Pot Chicken Congee
-  salted-egg-prawns                  Salted Egg Prawns   [5 refused already]
-  air-fryer-dumplings                Air Fryer Dumplings
-  air-fryer-spring-rolls             Air Fryer Spring Rolls
-  instant-pot-beef-and-broccoli      Instant Pot Beef and Broccoli   [2 refused already]
-  instant-pot-general-tso-chicken    Instant Pot General Tso Chicken
-  instant-pot-mongolian-beef         Instant Pot Mongolian Beef   [2 refused already]
-  instant-pot-orange-chicken         Instant Pot Orange Chicken   [2 refused already]
-  one-pot-fried-rice                 One Pot Fried Rice   [1 refused already]
-  low-carb-stir-fry                  Low-Carb Stir Fry
-  vegan-fried-rice                   Vegan Fried Rice   [3 refused already]
+== Mexican (47) ========================================
+  almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
+  chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
+  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [8 refused already]
+  shrimp-taco-bowls                  Shrimp Taco Bowls   [10 refused already]
+  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [24 refused already]
+  egg-white-burrito-bowl             Egg White Burrito Bowl   [17 refused already]
+  bean-and-rice-burrito              Bean and Rice Burrito   [5 refused already]
+  black-bean-and-rice-skillet        Black Bean and Rice Skillet   [1 refused already]
+  bean-wraps                         Bean Wraps   [3 refused already]
+  sheet-pan-fajitas                  Sheet Pan Fajitas   [2 refused already]
+  sheet-pan-nachos                   Sheet Pan Nachos   [1 refused already]
+  meal-prep-burrito-bowls            Meal Prep Burrito Bowls   [1 refused already]
+  freezer-burritos                   Freezer Burritos   [1 refused already]
+  pulled-pork-tacos                  Pulled Pork Tacos   [2 refused already]
+  honey-lime-chicken-tacos           Honey Lime Chicken Tacos   [2 refused already]
+  crispy-fish-tacos-with-slaw        Crispy Fish Tacos with Slaw   [2 refused already]
+  black-bean-salsa                   Black Bean Salsa
+  roasted-tomato-salsa               Roasted Tomato Salsa
+  taquitos                           Taquitos   [1 refused already]
+  chipotle-mayo                      Chipotle Mayo   [1 refused already]
+  beef-taco-skillet                  Beef Taco Skillet
+  pork-carnitas-bowls                Pork Carnitas Bowls
+  salmon-tacos                       Salmon Tacos   [2 refused already]
+  one-pan-mexican-rice               One Pan Mexican Rice
+  egg-tostadas                       Egg Tostadas   [6 refused already]
+  chile-colorado                     Chile Colorado   [2 refused already]
+  mole-verde                         Mole Verde   [1 refused already]
+  chicken-tamales                    Chicken Tamales   [2 refused already]
+  cajeta                             Cajeta   [5 refused already]
+  bunuelos-mexicanos                 Buñuelos Mexicanos
+  tres-leches-cupcakes               Tres Leches Cupcakes   [1 refused already]
+  huevos-divorciados                 Huevos Divorciados   [2 refused already]
+  air-fryer-fish-tacos               Air Fryer Fish Tacos
+  air-fryer-quesadilla               Air Fryer Quesadilla
+  instant-pot-carnitas               Instant Pot Carnitas   [1 refused already]
+  instant-pot-chicken-fajitas        Instant Pot Chicken Fajitas   [1 refused already]
+  instant-pot-fajita-pasta           Instant Pot Fajita Pasta
+  instant-pot-taco-soup              Instant Pot Taco Soup
+  one-pot-black-bean-soup            One Pot Black Bean Soup
+  sheet-pan-fish-tacos               Sheet Pan Fish Tacos   [1 refused already]
+  sheet-pan-quesadillas              Sheet Pan Quesadillas   [1 refused already]
+  slow-cooker-pork-carnitas          Slow Cooker Pork Carnitas
+  mexican-wedding-cookies            Mexican Wedding Cookies
+  freezer-enchiladas                 Freezer Enchiladas   [1 refused already]
+  gluten-free-tortillas              Gluten-Free Tortillas   [2 refused already]
+  low-carb-taco-casserole            Low-Carb Taco Casserole
+  low-carb-tortillas                 Low-Carb Tortillas
 
-== Australian (29) =====================================
+== Australian (28) =====================================
   mars-bar-slice                     Mars Bar Slice   [4 refused already]
   tim-tam-slice                      Tim Tam Slice   [13 refused already]
   weet-bix-slice                     Weet-Bix Slice   [4 refused already]
@@ -1204,14 +1119,41 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   passionfruit-curd                  Passionfruit Curd
   fruit-salad-with-honey-lime        Fruit Salad with Honey Lime   [1 refused already]
   bbq-salmon                         BBQ Salmon   [1 refused already]
-  grilled-garlic-prawns              Grilled Garlic Prawns
   australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
 
-== Spanish (28) ========================================
+== Chinese (27) ========================================
+  mongolian-lamb                     Mongolian Lamb   [15 refused already]
+  crispy-seaweed                     Crispy Seaweed   [20 refused already]
+  crispy-aromatic-duck               Crispy Aromatic Duck   [4 refused already]
+  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [10 refused already]
+  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [18 refused already]
+  turkey-stir-fry-with-peppers       Turkey Stir-Fry with Peppers   [2 refused already]
+  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [17 refused already]
+  beef-noodle-stir-fry               Beef Noodle Stir Fry   [1 refused already]
+  chinese-chicken-and-broccoli       Chinese Chicken and Broccoli   [1 refused already]
+  steak-fried-rice                   Steak Fried Rice   [2 refused already]
+  beef-lo-mein                       Beef Lo Mein   [2 refused already]
+  pork-meatball-soup                 Pork Meatball Soup   [1 refused already]
+  hot-and-sour-potato-strips         Hot and Sour Potato Strips   [1 refused already]
+  sweet-and-sour-prawns              Sweet and Sour Prawns   [1 refused already]
+  lap-cheong-fried-rice              Lap Cheong Fried Rice   [4 refused already]
+  yuxiang-aubergine                  Yuxiang Aubergine
+  xinjiang-lamb-skewers              Xinjiang Lamb Skewers   [2 refused already]
+  instant-pot-chicken-congee         Instant Pot Chicken Congee
+  air-fryer-dumplings                Air Fryer Dumplings
+  air-fryer-spring-rolls             Air Fryer Spring Rolls
+  instant-pot-beef-and-broccoli      Instant Pot Beef and Broccoli   [2 refused already]
+  instant-pot-general-tso-chicken    Instant Pot General Tso Chicken
+  instant-pot-mongolian-beef         Instant Pot Mongolian Beef   [2 refused already]
+  instant-pot-orange-chicken         Instant Pot Orange Chicken   [2 refused already]
+  one-pot-fried-rice                 One Pot Fried Rice   [1 refused already]
+  low-carb-stir-fry                  Low-Carb Stir Fry
+  vegan-fried-rice                   Vegan Fried Rice   [3 refused already]
+
+== Spanish (27) ========================================
   smoked-paprika-chicken             Smoked Paprika Chicken   [14 refused already]
   spanish-garlic-soup                Spanish Garlic Soup
   white-sangria                      White Sangria   [2 refused already]
-  chickpea-and-spinach-stew          Chickpea and Spinach Stew
   mussels-with-chorizo               Mussels with Chorizo   [1 refused already]
   pisto                              Pisto   [7 refused already]
   spanish-chicken-and-rice           Spanish Chicken and Rice   [1 refused already]
@@ -1265,13 +1207,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
   forelle-mullerin                   Forelle Müllerin
 
-== Greek (25) ==========================================
+== Greek (24) ==========================================
   mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
   greek-beef-pitas                   Greek Beef Pitas
   greek-lamb-stew                    Greek Lamb Stew   [1 refused already]
   greek-omelette                     Greek Omelette   [1 refused already]
   whipped-feta                       Whipped Feta   [1 refused already]
-  greek-lemon-chicken                Greek Lemon Chicken   [1 refused already]
   lemon-chicken-orzo                 Lemon Chicken Orzo   [2 refused already]
   dolma                              Dolma   [2 refused already]
   grilled-halloumi-skewers           Grilled Halloumi Skewers
@@ -1292,13 +1233,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   domatokeftedes                     Domatokeftedes
   rizogalo                           Rizogalo   [1 refused already]
 
-== Japanese (18) =======================================
+== Japanese (17) =======================================
   chirashi-bowl                      Chirashi Bowl
   teriyaki-beef-skewers              Teriyaki Beef Skewers   [1 refused already]
   soba-noodle-salad                  Soba Noodle Salad   [1 refused already]
   teriyaki-meatballs                 Teriyaki Meatballs
   soy-sauce-eggs                     Soy Sauce Eggs   [1 refused already]
-  tuna-steaks-with-sesame            Tuna Steaks with Sesame
   crispy-tofu-bites                  Crispy Tofu Bites   [1 refused already]
   beef-yakiniku                      Beef Yakiniku   [2 refused already]
   shirataki-noodle-bowls             Shirataki Noodle Bowls   [1 refused already]
@@ -1330,7 +1270,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   newfoundland-fish-cakes            Newfoundland Fish Cakes
   maple-walnut-ice-cream             Maple Walnut Ice Cream
 
-== Middle Eastern (16) =================================
+== Middle Eastern (15) =================================
   cucumber-hummus-bites              Cucumber Hummus Bites   [8 refused already]
   lamb-marinade                      Lamb Marinade   [3 refused already]
   pita-chips                         Pita Chips   [7 refused already]
@@ -1341,7 +1281,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   roasted-red-pepper-hummus          Roasted Red Pepper Hummus
   grain-bowl-with-tahini             Grain Bowl with Tahini
   harissa-roasted-carrots            Harissa Roasted Carrots
-  rice-pilaf                         Rice Pilaf   [1 refused already]
   lamb-shawarma                      Lamb Shawarma   [2 refused already]
   lemon-tahini-dressing              Lemon Tahini Dressing
   shuwa                              Shuwa   [1 refused already]
@@ -1424,15 +1363,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   irish-whiskey-cake                 Irish Whiskey Cake
   irish-scones                       Irish Scones
 
-== Caribbean (7) =======================================
-  la-bandera-dominicana              La Bandera Dominicana   [2 refused already]
-  haitian-griot                      Haitian Griot   [2 refused already]
-  diri-ak-djon-djon                  Diri ak Djon Djon
-  metemgee                           Metemgee
-  caribbean-coconut-rice             Caribbean Coconut Rice   [2 refused already]
-  caribbean-rum-punch                Caribbean Rum Punch
-  one-pot-beans-and-rice             One Pot Beans and Rice   [1 refused already]
-
 == Filipino (7) ========================================
   pork-adobo                         Pork Adobo   [2 refused already]
   arroz-caldo                        Arroz Caldo   [2 refused already]
@@ -1468,6 +1398,14 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   boulets-liegeois                   Boulets Liegeois
   tarte-au-sucre-belge               Tarte au Sucre Belge   [1 refused already]
 
+== Caribbean (6) =======================================
+  la-bandera-dominicana              La Bandera Dominicana   [2 refused already]
+  haitian-griot                      Haitian Griot   [2 refused already]
+  diri-ak-djon-djon                  Diri ak Djon Djon
+  metemgee                           Metemgee
+  caribbean-rum-punch                Caribbean Rum Punch
+  one-pot-beans-and-rice             One Pot Beans and Rice   [1 refused already]
+
 == Finnish (6) =========================================
   ruisleipa                          Ruisleipa   [1 refused already]
   mustikkapiirakka                   Mustikkapiirakka   [1 refused already]
@@ -1492,20 +1430,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   khao-kai-jeow                      Khao Kai Jeow
   instant-pot-pad-thai               Instant Pot Pad Thai   [2 refused already]
 
-== Hungarian (5) =======================================
-  beef-goulash-soup                  Beef Goulash Soup   [1 refused already]
-  hungarian-mushroom-soup            Hungarian Mushroom Soup
-  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
-  instant-pot-goulash                Instant Pot Goulash
-  toltott-kaposzta                   Toltott Kaposzta   [1 refused already]
-
-== Turkish (5) =========================================
-  turkish-meatballs                  Turkish Meatballs
-  kofte-with-yoghurt                 Kofte with Yoghurt
-  red-lentil-kofte                   Red Lentil Kofte   [7 refused already]
-  coban-salatasi                     Coban Salatasi   [1 refused already]
-  turkish-tea                        Turkish Tea   [2 refused already]
-
 == Vietnamese (5) ======================================
   vietnamese-noodle-salad            Vietnamese Noodle Salad   [1 refused already]
   summer-rolls-with-prawns           Summer Rolls with Prawns   [1 refused already]
@@ -1525,17 +1449,17 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   kitfo                              Kitfo   [5 refused already]
   gomen                              Gomen   [2 refused already]
 
+== Hungarian (4) =======================================
+  hungarian-mushroom-soup            Hungarian Mushroom Soup
+  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
+  instant-pot-goulash                Instant Pot Goulash
+  toltott-kaposzta                   Toltott Kaposzta   [1 refused already]
+
 == Malaysian (4) =======================================
   kari-ayam                          Kari Ayam
   sambal-udang                       Sambal Udang   [1 refused already]
   roti-john                          Roti John   [2 refused already]
   ayam-percik                        Ayam Percik
-
-== Moroccan (4) ========================================
-  moroccan-meatballs                 Moroccan Meatballs
-  chermoula-fish                     Chermoula Fish
-  seven-vegetable-couscous           Seven-Vegetable Couscous
-  moroccan-orange-salad              Moroccan Orange Salad
 
 == Russian (4) =========================================
   beef-and-mushroom-stroganoff-bake  Beef and Mushroom Stroganoff Bake
@@ -1543,11 +1467,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   buckwheat-with-mushrooms           Buckwheat with Mushrooms   [6 refused already]
   instant-pot-beef-stroganoff        Instant Pot Beef Stroganoff   [2 refused already]
 
-== Sri Lankan (4) ======================================
-  sri-lankan-pol-roti                Sri Lankan Pol Roti   [5 refused already]
-  sri-lankan-chicken-curry           Sri Lankan Chicken Curry   [2 refused already]
-  sri-lankan-black-pork-curry        Sri Lankan Black Pork Curry   [1 refused already]
-  wattalapam                         Wattalapam
+== Turkish (4) =========================================
+  turkish-meatballs                  Turkish Meatballs
+  kofte-with-yoghurt                 Kofte with Yoghurt
+  red-lentil-kofte                   Red Lentil Kofte   [7 refused already]
+  coban-salatasi                     Coban Salatasi   [1 refused already]
 
 == Austrian (3) ========================================
   palatschinken                      Palatschinken   [1 refused already]
@@ -1569,6 +1493,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   hawaiian-lau-lau                   Hawaiian Lau Lau   [1 refused already]
   hawaiian-mac-salad                 Hawaiian Mac Salad   [1 refused already]
 
+== Moroccan (3) ========================================
+  moroccan-meatballs                 Moroccan Meatballs
+  chermoula-fish                     Chermoula Fish
+  moroccan-orange-salad              Moroccan Orange Salad
+
 == Puerto Rican (3) ====================================
   puerto-rican-pasteles              Puerto Rican Pasteles   [1 refused already]
   puerto-rican-alcapurrias           Puerto Rican Alcapurrias   [1 refused already]
@@ -1583,6 +1512,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   mielie-bread                       Mielie Bread   [2 refused already]
   frikkadels                         Frikkadels
   south-african-pap                  South African Pap   [1 refused already]
+
+== Sri Lankan (3) ======================================
+  sri-lankan-chicken-curry           Sri Lankan Chicken Curry   [2 refused already]
+  sri-lankan-black-pork-curry        Sri Lankan Black Pork Curry   [1 refused already]
+  wattalapam                         Wattalapam
 
 == Trinidadian (3) =====================================
   dhalpuri-roti                      Dhalpuri Roti   [1 refused already]
@@ -1665,4 +1599,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 1523 of 5515
+TOTAL 1457 of 5515
