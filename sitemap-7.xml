@@ -299,7 +299,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-white-frittata-with-peppers-and-onions/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1127,9 +1127,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sole-with-herbs/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sole-with-herbs.jpg</image:loc>
+      <image:title>Sole with Herbs</image:title>
+      <image:caption>Sole with Herbs, a French dinner recipe — kidney friendly sole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sole-with-grapes/</loc>
@@ -1631,9 +1636,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/whole-roast-chicken-with-vegetables/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/whole-roast-chicken-with-vegetables.jpg</image:loc>
+      <image:title>Whole Roast Chicken with Vegetables</image:title>
+      <image:caption>Whole Roast Chicken with Vegetables, a British dinner recipe — easy roast chicken dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-schnitzel/</loc>
@@ -1961,9 +1971,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-stew.jpg</image:loc>
+      <image:title>Vegetable Stew</image:title>
+      <image:caption>Vegetable Stew, a British dinner recipe — budget vegetable dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-pot-pie/</loc>
@@ -2172,9 +2187,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/breakfast-quesadilla/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/breakfast-quesadilla.jpg</image:loc>
+      <image:title>Breakfast Quesadilla</image:title>
+      <image:caption>Breakfast Quesadilla, a Mexican breakfast recipe — egg and cheese quesadilla</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/breakfast-pizza/</loc>
@@ -2474,9 +2494,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-onions/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-onions.jpg</image:loc>
+      <image:title>Stuffed Onions</image:title>
+      <image:caption>Stuffed Onions, a British dinner recipe — budget stuffed onion dinner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-potatoes-and-onions/</loc>
@@ -2800,9 +2825,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-rolls/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-butter-rolls.jpg</image:loc>
+      <image:title>Garlic Butter Rolls</image:title>
+      <image:caption>Garlic Butter Rolls, an American baking recipe — soft garlic dinner rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hamburger-buns/</loc>
@@ -2868,9 +2898,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-pudding/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-pudding.jpg</image:loc>
+      <image:title>Chocolate Pudding</image:title>
+      <image:caption>Chocolate Pudding, an American dessert recipe — budget stovetop pudding</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-oat-bars/</loc>
@@ -3522,9 +3557,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-pork/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bbq-pork.jpg</image:loc>
+      <image:title>BBQ Pork</image:title>
+      <image:caption>BBQ Pork, an American dinner recipe — barbecue pork steaks</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-beef-brisket/</loc>
@@ -3556,9 +3596,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bbq-lamb/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bbq-lamb.jpg</image:loc>
+      <image:title>BBQ Lamb</image:title>
+      <image:caption>BBQ Lamb, an Australian dinner recipe — barbecue butterflied leg of lamb</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fish-burgers/</loc>
@@ -3978,9 +4023,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/arrabbiata-sauce/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/arrabbiata-sauce.jpg</image:loc>
+      <image:title>Arrabbiata Sauce</image:title>
+      <image:caption>Arrabbiata Sauce, an Italian dinner recipe — spicy italian tomato sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-sauce/</loc>

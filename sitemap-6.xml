@@ -583,9 +583,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-chicken-bowls/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-chicken-bowls.jpg</image:loc>
+      <image:title>Greek Chicken Bowls</image:title>
+      <image:caption>Greek Chicken Bowls, a healthy Greek recipe — greek chicken quinoa bowls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/manhattan-clam-chowder/</loc>
@@ -2869,9 +2874,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kentucky-butter-cake/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kentucky-butter-cake.jpg</image:loc>
+      <image:title>Kentucky Butter Cake</image:title>
+      <image:caption>Kentucky Butter Cake, an American baking recipe — butter cake bundt</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coca-cola-cake/</loc>
@@ -3075,9 +3085,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-crackers/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-crackers.jpg</image:loc>
+      <image:title>Cheese Crackers</image:title>
+      <image:caption>Cheese Crackers, an American appetizer recipe — cheese cracker recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-rolls/</loc>
@@ -3703,9 +3718,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-florentine/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-florentine.jpg</image:loc>
+      <image:title>Chicken Florentine</image:title>
+      <image:caption>Chicken Florentine, an Italian dinner recipe — creamy spinach chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-francese/</loc>
@@ -4146,9 +4166,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-roll-ups/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-roll-ups.jpg</image:loc>
+      <image:title>Turkey Roll-Ups</image:title>
+      <image:caption>Turkey Roll-Ups, an American appetizer recipe — turkey roll ups</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/edamame-with-sea-salt/</loc>
@@ -4879,9 +4904,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-pot-chicken-breast/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/instant-pot-chicken-breast.jpg</image:loc>
+      <image:title>Instant Pot Chicken Breast</image:title>
+      <image:caption>Instant Pot Chicken Breast, an American dinner recipe — weight loss friendly pressure cooker chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/grilled-vegetable-skewers/</loc>
