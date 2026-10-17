@@ -160,9 +160,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tamarind-chutney/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tamarind-chutney.jpg</image:loc>
+      <image:title>Tamarind Chutney</image:title>
+      <image:caption>Tamarind Chutney, an Indian appetizer recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/boondi-raita/</loc>
@@ -436,9 +441,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gatte-ki-sabzi/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gatte-ki-sabzi.jpg</image:loc>
+      <image:title>Gatte ki Sabzi</image:title>
+      <image:caption>Gatte ki Sabzi, an Indian dinner recipe — rajasthani gatte curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/laal-maas/</loc>
@@ -598,9 +608,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hong-kong-chow-mein/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hong-kong-chow-mein.jpg</image:loc>
+      <image:title>Hong Kong Chow Mein</image:title>
+      <image:caption>Hong Kong Chow Mein, a Chinese dinner recipe — hong kong style soy sauce noodles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salt-and-pepper-chicken-wings/</loc>
@@ -667,9 +682,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chongqing-chicken/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chongqing-chicken.jpg</image:loc>
+      <image:title>Chongqing Chicken</image:title>
+      <image:caption>Chongqing Chicken, a Chinese dinner recipe — la zi ji</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/shanghai-fried-noodles/</loc>
@@ -712,15 +732,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jungle-curry/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/jungle-curry.jpg</image:loc>
+      <image:title>Jungle Curry</image:title>
+      <image:caption>Jungle Curry, a Thai dinner recipe — thai curry without coconut milk</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gaeng-som/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/gaeng-som.jpg</image:loc>
+      <image:title>Gaeng Som</image:title>
+      <image:caption>Gaeng Som, a Thai dinner recipe — thai sour curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/khao-kai-jeow/</loc>
@@ -1207,9 +1237,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-choila/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-choila.jpg</image:loc>
+      <image:title>Chicken Choila</image:title>
+      <image:caption>Chicken Choila, a Nepalese appetizer recipe — chicken choyla recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/israeli-bourekas/</loc>
@@ -1230,9 +1265,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-egg-yolk-chicken/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salted-egg-yolk-chicken.jpg</image:loc>
+      <image:title>Salted Egg Yolk Chicken</image:title>
+      <image:caption>Salted Egg Yolk Chicken, a Chinese dinner recipe — salted egg chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salted-egg-prawns/</loc>
@@ -1310,9 +1350,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/indonesian-gudeg/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/indonesian-gudeg.jpg</image:loc>
+      <image:title>Indonesian Gudeg</image:title>
+      <image:caption>Indonesian Gudeg, an Indonesian dinner recipe — young jackfruit stew indonesian</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sate-padang/</loc>
@@ -1360,9 +1405,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/indonesian-bubur-ayam/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/indonesian-bubur-ayam.jpg</image:loc>
+      <image:title>Indonesian Bubur Ayam</image:title>
+      <image:caption>Indonesian Bubur Ayam, an Indonesian breakfast recipe — bubur ayam recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/onde-onde/</loc>
@@ -1734,9 +1784,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/groundnut-soup/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/groundnut-soup.jpg</image:loc>
+      <image:title>Groundnut Soup</image:title>
+      <image:caption>Groundnut Soup, a Ghanaian dinner recipe — ghana peanut soup with chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ghanaian-light-soup/</loc>
@@ -1824,9 +1879,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ugandan-rolex/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ugandan-rolex.jpg</image:loc>
+      <image:title>Ugandan Rolex</image:title>
+      <image:caption>Ugandan Rolex, an African breakfast recipe — chapati egg roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potjiekos/</loc>
@@ -1970,9 +2030,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chorley-cakes/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chorley-cakes.jpg</image:loc>
+      <image:title>Chorley Cakes</image:title>
+      <image:caption>Chorley Cakes, a British baking recipe — lancashire currant pastry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banbury-cakes/</loc>
@@ -2359,9 +2424,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/enchiladas-suizas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/enchiladas-suizas.jpg</image:loc>
+      <image:title>Enchiladas Suizas</image:title>
+      <image:caption>Enchiladas Suizas, a Mexican dinner recipe — creamy green chicken enchiladas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/huevos-a-la-mexicana/</loc>
@@ -2505,9 +2575,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/reina-pepiada-arepas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/reina-pepiada-arepas.jpg</image:loc>
+      <image:title>Reina Pepiada Arepas</image:title>
+      <image:caption>Reina Pepiada Arepas, a Venezuelan lunch recipe — arepas reina pepiada recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tequenos/</loc>
@@ -2907,9 +2982,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cook-islands-ika-mata/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cook-islands-ika-mata.jpg</image:loc>
+      <image:title>Cook Islands Ika Mata</image:title>
+      <image:caption>Cook Islands Ika Mata, a Pacific appetizer recipe — ika mata recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawaiian-lau-lau/</loc>
@@ -2989,9 +3069,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pickled-peaches/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pickled-peaches.jpg</image:loc>
+      <image:title>Pickled Peaches</image:title>
+      <image:caption>Pickled Peaches, an American appetizer recipe — spiced peach pickles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/watermelon-rind-pickles/</loc>
