@@ -450,9 +450,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-cutlets/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-cutlets.jpg</image:loc>
+      <image:title>Prawn Cutlets</image:title>
+      <image:caption>Prawn Cutlets, an Australian dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/scalloped-potatoes-and-ham/</loc>
@@ -1797,9 +1802,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/oatmeal-cream-pies/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/oatmeal-cream-pies.jpg</image:loc>
+      <image:title>Oatmeal Cream Pies</image:title>
+      <image:caption>Oatmeal Cream Pies, an American baking recipe — oatmeal creme pies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rugelach/</loc>
@@ -4513,9 +4523,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chilled-cucumber-soup/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chilled-cucumber-soup.jpg</image:loc>
+      <image:title>Chilled Cucumber Soup</image:title>
+      <image:caption>Chilled Cucumber Soup, an American lunch recipe — weight loss friendly cold soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chinese-chicken-salad/</loc>

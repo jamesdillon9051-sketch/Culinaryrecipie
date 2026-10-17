@@ -688,7 +688,15 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
   const unfree = Object.values(manifest)
     .flatMap(e => [e && e.hero, e && e.process])
     .filter(shot => shot && !isIllustration(shot) && !FREE.test(shot.licence || ''));
-  if (unfree.length) {
+  /* The sentence was rewritten when the first Pixabay photographs were
+     published, so what is checked now is the sentence itself: a stock
+     photograph may ship only while no page claims every photograph is freely
+     licensed. */
+  const claims = ['index.html', 'about/index.html']
+    .map(f => path.join(DIST, f))
+    .filter(f => fs.existsSync(f))
+    .some(f => /every photograph[^.<]{0,20}is freely licensed/i.test(fs.readFileSync(f, 'utf8')));
+  if (unfree.length && claims) {
     const kinds = [...new Set(unfree.map(s => s.licence))].join(', ');
     problems.push(`${unfree.length} published photograph(s) carry a licence that is not a free `
       + `one (${kinds}), starting with ${unfree[0].file} — the gallery page says every `

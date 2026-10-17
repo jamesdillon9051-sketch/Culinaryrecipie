@@ -2,8 +2,8 @@
 'use strict';
 /**
  * Regenerates images-attribution.md from src/data/images.json.
- * Images are CC0, public domain, or CC BY — the last of which is only usable
- * because the photographer is credited, so this file and the credit line on
+ * Images are CC0, public domain, CC BY, or a stock library's own licence
+ * (Pixabay) — CC BY is only usable because the photographer is credited, so this file and the credit line on
  * each recipe page are part of meeting the licence, not a courtesy.
  */
 const fs = require('fs');
@@ -58,7 +58,10 @@ for (const recipe of catalog) {
 
 const NEEDS_CREDIT = /^(cc[-\s]?by|attribution)/i;
 const SHARE_ALIKE = /(\bsa\b|share[-\s]?alike)/i;
-const terms = name => SHARE_ALIKE.test(name)
+const STOCK_LICENCE = /^(pixabay|pexels|unsplash)/i;
+const terms = name => STOCK_LICENCE.test(name)
+  ? 'The stock library\'s own licence: free to use, adapt and use commercially; no credit required (given anyway)'
+  : SHARE_ALIKE.test(name)
   ? 'Free to use, adapt and use commercially **provided the photographer is credited** and adaptations carry the same licence'
   : NEEDS_CREDIT.test(name)
     ? 'Free to use, adapt and use commercially **provided the photographer is credited**'
@@ -72,14 +75,20 @@ const licenceRows = Object.entries(counts)
 const credited = Object.entries(counts)
   .filter(([name]) => NEEDS_CREDIT.test(name))
   .reduce((sum, [, n]) => sum + n, 0);
-const free = (heroes + process_) - credited;
+const stockCount = Object.entries(counts)
+  .filter(([name]) => STOCK_LICENCE.test(name))
+  .reduce((sum, [, n]) => sum + n, 0);
+const free = (heroes + process_) - credited - stockCount;
 
 const doc = `# Image Attribution
 
-Every photograph on Weekly Delight is freely licensed. Of ${heroes + process_}
-photographs, **${free}** are CC0 or public domain and carry no conditions at all, and
-**${credited}** are **Creative Commons Attribution (CC BY)** — free to use, adapt
-and use commercially, on the single condition that the photographer is credited.
+Every photograph on Weekly Delight is used under a licence that allows it here.
+Of ${heroes + process_} photographs, **${free}** are CC0 or public domain and carry no
+conditions at all, **${credited}** are **Creative Commons Attribution (CC BY)** — free
+to use, adapt and use commercially, on the single condition that the photographer
+is credited${stockCount ? ` — and **${stockCount}** come from Pixabay, under the Pixabay
+Content License, which allows commercial use and adaptation and asks for no
+credit; the photographer is credited anyway` : ''}.
 
 That condition is met in two places: underneath the photograph on the recipe
 page itself, and in the table below. Both name the title, the photographer, the
@@ -110,7 +119,11 @@ Images were collected programmatically by \`tools/fetch_images.py\`, which:
 3. Scores each candidate for relevance against the dish name and rejects
    archival material, illustrations, packaging shots and portraits.
 4. Downloads, centre-crops to 4:3, resizes, and writes both WebP and JPEG.
-
+${stockCount ? `5. For recipes the archives held nothing for, searches **Pixabay**, a stock
+   library whose own licence allows commercial use and adaptation. Pictures
+   tagged as AI-generated are dropped, and every photograph was looked at
+   against the recipe before it was published.
+` : ''}
 If no properly licensed photograph could be found for a dish, the site shows
 either a generated illustration, described in the next section, or a CSS
 gradient placeholder carrying the recipe name. We would rather show nothing
@@ -167,7 +180,7 @@ Licence texts:
 - **CC BY-SA 4.0** — <https://creativecommons.org/licenses/by-sa/4.0/>
 - **CC BY-SA 3.0** — <https://creativecommons.org/licenses/by-sa/3.0/>
 - **CC BY-SA 2.0** — <https://creativecommons.org/licenses/by-sa/2.0/>
-
+${stockCount ? '- **Pixabay Content License** — <https://pixabay.com/service/license-summary/>\n' : ''}
 ${missing.length ? `### Recipes without a photograph
 
 These use the built-in gradient placeholder because no CC0, public-domain,

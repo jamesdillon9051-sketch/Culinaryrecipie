@@ -59,9 +59,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-tilapia/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-tilapia.jpg</image:loc>
+      <image:title>Air Fryer Tilapia</image:title>
+      <image:caption>Air Fryer Tilapia, an American dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-squash-primavera/</loc>
@@ -629,9 +634,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-kofta/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-kofta.jpg</image:loc>
+      <image:title>Chicken Kofta</image:title>
+      <image:caption>Chicken Kofta, a Middle Eastern dinner recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-congee/</loc>
@@ -735,9 +745,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-turkey-cutlets/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-turkey-cutlets.jpg</image:loc>
+      <image:title>Lemon Turkey Cutlets</image:title>
+      <image:caption>Lemon Turkey Cutlets, an Italian dinner recipe — kidney friendly turkey cutlets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-rice-skillet/</loc>
@@ -886,9 +901,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-rice-skillet/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-rice-skillet.jpg</image:loc>
+      <image:title>Beef and Rice Skillet</image:title>
+      <image:caption>Beef and Rice Skillet, an American dinner recipe — kidney friendly beef and rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-beef-stir-fry/</loc>
@@ -1429,9 +1449,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/braised-pork-shoulder/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/braised-pork-shoulder.jpg</image:loc>
+      <image:title>Braised Pork Shoulder</image:title>
+      <image:caption>Braised Pork Shoulder, an American dinner recipe — pulled pork shoulder in the oven</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-chop-casserole/</loc>
@@ -1515,9 +1540,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-and-lentil-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-lentil-stew.jpg</image:loc>
+      <image:title>Sausage and Lentil Stew</image:title>
+      <image:caption>Sausage and Lentil Stew, a British dinner recipe — sausage lentil casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sausage-hash/</loc>
@@ -1584,9 +1614,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-thigh-traybake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-thigh-traybake.jpg</image:loc>
+      <image:title>Chicken Thigh Traybake</image:title>
+      <image:caption>Chicken Thigh Traybake, a British dinner recipe — chicken and potato traybake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-potato-bake/</loc>
@@ -1601,15 +1636,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crispy-chicken-thighs-and-rice/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crispy-chicken-thighs-and-rice.jpg</image:loc>
+      <image:title>Crispy Chicken Thighs and Rice</image:title>
+      <image:caption>Crispy Chicken Thighs and Rice, an American dinner recipe — chicken and rice bake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-herb-chicken-thighs/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-herb-chicken-thighs.jpg</image:loc>
+      <image:title>Lemon Herb Chicken Thighs</image:title>
+      <image:caption>Lemon Herb Chicken Thighs, an American dinner recipe — roast lemon chicken thighs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-mushroom-pie/</loc>
@@ -1624,9 +1669,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/leftover-roast-chicken-pie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/leftover-roast-chicken-pie.jpg</image:loc>
+      <image:title>Leftover Roast Chicken Pie</image:title>
+      <image:caption>Leftover Roast Chicken Pie, a British dinner recipe — chicken pie from leftover chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-bbq-chicken/</loc>
@@ -1692,9 +1742,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-and-sweetcorn-pasta/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tuna-and-sweetcorn-pasta.jpg</image:loc>
+      <image:title>Tuna and Sweetcorn Pasta</image:title>
+      <image:caption>Tuna and Sweetcorn Pasta, a quick British meal recipe — tuna pasta with sweetcorn</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuna-and-sweetcorn-jacket-potato/</loc>
@@ -1731,9 +1786,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-pasta/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-pasta.jpg</image:loc>
+      <image:title>Salmon Pasta</image:title>
+      <image:caption>Salmon Pasta, a quick British meal recipe — easy salmon and pea pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sardine-pasta/</loc>
@@ -1781,9 +1841,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cod-and-potato-bake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cod-and-potato-bake.jpg</image:loc>
+      <image:title>Cod and Potato Bake</image:title>
+      <image:caption>Cod and Potato Bake, a British dinner recipe — baked cod with potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-fish-with-crumb-topping/</loc>
@@ -1820,9 +1885,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/egg-noodle-stir-fry/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/egg-noodle-stir-fry.jpg</image:loc>
+      <image:title>Egg Noodle Stir Fry</image:title>
+      <image:caption>Egg Noodle Stir Fry, a quick Chinese meal recipe — vegetable noodle stir fry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/instant-noodle-upgrade/</loc>
@@ -1914,9 +1984,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-soup.jpg</image:loc>
+      <image:title>Sweet Potato Soup</image:title>
+      <image:caption>Sweet Potato Soup, an American lunch recipe — easy sweet potato and carrot soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-chili/</loc>
@@ -2107,9 +2182,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/navy-bean-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/navy-bean-soup.jpg</image:loc>
+      <image:title>Navy Bean Soup</image:title>
+      <image:caption>Navy Bean Soup, an American lunch recipe — ham and bean soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/quebec-pea-soup/</loc>
@@ -2466,9 +2546,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-croquettes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-croquettes.jpg</image:loc>
+      <image:title>Potato Croquettes</image:title>
+      <image:caption>Potato Croquettes, a British appetizer recipe — budget croquettes from mash</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-gratin/</loc>
@@ -2702,9 +2787,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-muffins/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-muffins.jpg</image:loc>
+      <image:title>Cheese Muffins</image:title>
+      <image:caption>Cheese Muffins, a New Zealand baking recipe — easy cheddar muffin recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pizza-bread/</loc>
