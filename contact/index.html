@@ -141,19 +141,24 @@
       <div class="panel" style="margin-top:1.25rem">
         <h2 style="font-size:1.15rem">Press &amp; syndication</h2>
         <p style="margin:0;font-size:.94rem;color:var(--text-soft)">
-          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line and it will reach the right desk.
+          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line.
         </p>
       </div>
     </div>
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
+      <p class="form-status form-status--error" id="contact-unavailable" role="status" hidden>
+        The contact form is not switched on yet, so a message sent from this page would not go anywhere.
+        Please try again later.
+      </p>
       <!-- Posted to contact/send.php (src/server/contact-send.php), which runs on
            the live host. The page says a message was sent only when that script
-           answers that its mailer accepted it; anything else, including a host
-           with no PHP, shows that nothing was sent and leaves the words in the
-           form. Without JavaScript the browser posts it natively and the script
-           redirects to contact/success/ or contact/not-sent/. -->
+           answers that the mail transport accepted it; anything else, including a
+           host with no PHP, shows that nothing was sent and leaves the words in
+           the form. Without JavaScript the browser posts it natively and gets a
+           page rendered by the script. On load, the script asks send.php?status=1
+           whether the form is set up, and says so before anyone types. -->
       <form name="contact" method="POST" action="/contact/send.php"
             data-contact novalidate>
         <!-- The honeypot. Bots fill in every field they find; people never see
@@ -247,7 +252,7 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=7332edea" defer></script>
+<script src="/assets/js/app.js?v=4ebeea2d" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script
