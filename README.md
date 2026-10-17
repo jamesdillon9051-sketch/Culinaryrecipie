@@ -96,7 +96,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │       ├── js/app.js            # theme, nav, search, favourites, reveal, forms
 │       ├── js/recipe.js         # scaler, cook mode, timers, reviews, sharing
 │       ├── js/directory.js      # client-side filtering and sorting
-│       └── img/recipes/         # 9082 image files (WebP + JPEG)
+│       └── img/recipes/         # 9186 image files (WebP + JPEG)
 ├── tools/
 │   ├── fetch_images.py          # sources CC0/public-domain photography
 │   ├── retry_images.py          # second pass with alternative queries
@@ -112,7 +112,7 @@ SITE_URL=https://you.github.io BASE_PATH=/culinaryvault/ npm run build
 │   └── serve.js                 # local preview server
 ├── index.html                   # ── generated output, committed, deploy-ready
 ├── 404.html
-├── assets/                      #    css, js and 9082 image files
+├── assets/                      #    css, js and 9186 image files
 ├── recipes/                     #    5515 recipe pages
 ├── categories/  cuisines/       #    taxonomy landing pages
 ├── about/  contact/  search/  favourites/
@@ -254,7 +254,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 491,915 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 491,967 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -393,7 +393,7 @@ Candidates are scored for relevance against the dish name, and archival
 material, illustrations, packaging shots, venue photographs and images where the
 dish is only a flavour are rejected.
 
-3947 of the 5515 recipes have a photograph. Of the 4430 images on the site,
+3999 of the 5515 recipes have a photograph. Of the 4482 images on the site,
 1566 are CC0 or public domain, 1273 are CC BY and 1429 are CC BY-SA. Anything
 still without one falls back to a CSS gradient carrying the recipe name, the
 same fallback that catches any image that fails to load at runtime.
@@ -2182,6 +2182,27 @@ to publish would have made that sentence false with nothing anywhere saying so.
 `tools/check.js` now fails the build on any published photograph whose licence
 is not a free one, naming the licence and the file. It was proved by injecting
 `Pexels License` onto a published photograph and watching the build refuse it.
+
+## Pixabay photographs
+
+Pexels stopped issuing new API keys in 2026, so `fetch_images.py` gained a third
+stock source, Pixabay, whose Content License allows commercial use and
+modification and asks for no credit (the page credits the photographer anyway).
+Pictures tagged as AI-generated are dropped before anyone sees them, because the
+owner wants real photographs only.
+
+The archives had already been searched many times for the recipes still on a
+gradient card, so this round asked Pixabay alone. Pixabay has no captions, only
+the uploader's tags, and a tag search for a dish name returns plenty of lemons
+for "slice" and wolves for "Mongolian lamb". So instead of taking the top result,
+up to five candidates per recipe were laid out on contact sheets and one was
+picked by eye, or none. **214** recipes now carry a Pixabay photograph; well over
+half of the recipes searched had no candidate that was the dish, and stay on the
+gradient card. The gallery, the About page and `images-attribution.md` no longer
+say every photograph is "freely licensed", since the Pixabay licence is not a
+Creative Commons one; they count the stock photographs separately, and
+`tools/check.js` fails if a page makes the old claim while a stock photograph is
+published.
 
 ## Five hundred and eighty-one gradient cards
 

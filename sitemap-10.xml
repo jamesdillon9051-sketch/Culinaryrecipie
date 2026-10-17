@@ -4234,9 +4234,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-fried-chicken/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/air-fryer-fried-chicken.jpg</image:loc>
+      <image:title>Air Fryer Fried Chicken</image:title>
+      <image:caption>Air Fryer Fried Chicken, an American dinner recipe — fried chicken in air fryer</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/air-fryer-grilled-cheese/</loc>

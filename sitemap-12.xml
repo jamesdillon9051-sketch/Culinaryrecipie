@@ -1458,9 +1458,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crespelle/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crespelle.jpg</image:loc>
+      <image:title>Crespelle</image:title>
+      <image:caption>Crespelle, an Italian dessert recipe — italian pancakes filled with ricotta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bomboloni-al-forno/</loc>
@@ -1521,9 +1526,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kassler/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kassler.jpg</image:loc>
+      <image:title>Kassler</image:title>
+      <image:caption>Kassler, a German dinner recipe — german smoked pork loin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kartoffelpuffer/</loc>
@@ -1756,9 +1766,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/matjes/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/matjes.jpg</image:loc>
+      <image:title>Matjes</image:title>
+      <image:caption>Matjes, a German lunch recipe — german herring in cream sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fischbrotchen/</loc>
@@ -3082,9 +3097,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halva/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halva.jpg</image:loc>
+      <image:title>Halva</image:title>
+      <image:caption>Halva, a Greek dessert recipe</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/melomakarona/</loc>
@@ -3804,9 +3824,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kavarma/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/kavarma.jpg</image:loc>
+      <image:title>Kavarma</image:title>
+      <image:caption>Kavarma, a Bulgarian dinner recipe — bulgarian pork stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/kebapche/</loc>
@@ -4083,9 +4108,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/swedish-crayfish-boil/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/swedish-crayfish-boil.jpg</image:loc>
+      <image:title>Swedish Crayfish Boil</image:title>
+      <image:caption>Swedish Crayfish Boil, a quick Swedish meal recipe — kraftskiva crayfish party</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fiskgratang/</loc>
