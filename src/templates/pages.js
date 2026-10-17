@@ -714,37 +714,46 @@ const ABOUT_FAQ = [
  * qualified read it.
  */
 /**
- * Where the contact form lands after a successful post.
+ * The two pages the contact endpoint renders for a plain (no-JavaScript) form
+ * post. They are templates: the build writes them to contact/_pages/, which the
+ * server refuses to serve directly, and contact/send.php fills in {{WD_MESSAGE}}.
  *
- * Reached only when contact/send.php reports that its mailer accepted the
- * message (or by a plain form post that the script redirected here), so the
- * page can say it was sent. noindex, because a bare thank-you
- * page in search results helps nobody.
+ * They used to be public static pages (/contact/success/), so anyone who typed
+ * or bookmarked that address was told "Message sent" without having sent
+ * anything. Now the "sent" page is reached only through a signed redirect from
+ * the endpoint, and the old addresses redirect to the form (.htaccess).
+ *
+ * "Sent" means the mail transport accepted the message. It does not mean the
+ * message was read or reached an inbox, and the wording says so.
  */
-function contactSuccess(ctx) {
+function contactResultPage(ctx, { sent }) {
   const trail = [{ name: 'Home', url: SITE.base },
                  { name: 'Contact', url: `${SITE.base}contact/` },
-                 { name: 'Message sent' }];
+                 { name: sent ? 'Message sent' : 'Not sent' }];
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
   <header class="recipe-head">
     <span class="eyebrow">Contact</span>
-    <h1>Message sent</h1>
-    <p class="lede">Thank you. The server accepted your message for delivery to the site's inbox. There is no promised reply time.</p>
+    <h1>${sent ? 'Your message was sent' : 'Your message was not sent'}</h1>
+    <p class="lede">{{WD_MESSAGE}}</p>
   </header>
   <div class="prose" style="max-width:64ch">
-    <h2>What happens now</h2>
-    <p>Your message goes to the inbox for this site. If you wrote about a recipe that did not work, that is the most useful kind of message, because it is how a recipe gets corrected.</p>
-    <p>Nothing was added to any list. Your address is used to reply to you and for nothing else &mdash; the <a href="${SITE.base}privacy/">privacy page</a> sets out what is kept and by whom.</p>
-    <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>
+    ${sent
+      ? `<h2>What happens next</h2>
+    <p>There is no promised reply time. If you are expecting an answer and none comes, check your spam folder, because replies from a new address are sometimes filed there.</p>
+    <p>Your address is used to reply to you and for nothing else; the <a href="${SITE.base}privacy/">privacy page</a> says what is kept and by whom.</p>
+    <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>`
+      : `<h2>Your text</h2>
+    <p>Going back with your browser's Back button usually keeps what you typed. Nothing you wrote is stored by this page.</p>
+    <p><a class="btn btn--primary" href="${SITE.base}contact/">Back to the contact form</a></p>`}
   </div>
 </div>`;
 
   return layout({
-    title: 'Message sent',
-    description: 'Your message was accepted for delivery to Weekly Delight.',
-    path: 'contact/success/',
+    title: sent ? 'Message sent' : 'Message not sent',
+    description: sent ? 'Your message was handed to the mail server.' : 'Your message to Weekly Delight was not sent.',
+    path: 'contact/',
     active: 'contact',
     noindex: true,
     body,
@@ -753,46 +762,8 @@ ${breadcrumbs(trail)}
     schema: [breadcrumbSchema(trail)]
   });
 }
-
-/**
- * Where a plain (no-JavaScript) form post lands when nothing was sent. Says so,
- * and why where the script said why. noindex, like the success page.
- */
-function contactNotSent(ctx) {
-  const trail = [{ name: 'Home', url: SITE.base },
-                 { name: 'Contact', url: `${SITE.base}contact/` },
-                 { name: 'Not sent' }];
-  const body = `
-${breadcrumbs(trail)}
-<div class="wrap section" style="padding-top:1rem">
-  <header class="recipe-head">
-    <span class="eyebrow">Contact</span>
-    <h1>Your message was not sent</h1>
-    <p class="lede">Nothing was delivered. The most likely reasons are below; going back with your browser's back button usually keeps what you typed.</p>
-  </header>
-  <div class="prose" style="max-width:64ch">
-    <h2>Why it may not have gone</h2>
-    <ul>
-      <li>A field was empty or too short: a name, a valid email address, a subject and a message of at least 20 characters.</li>
-      <li>Several messages came from your connection in the last hour. Please wait and try again.</li>
-      <li>The server could not send email at that moment, or the form is not set up on it yet.</li>
-    </ul>
-    <p><a class="btn btn--primary" href="${SITE.base}contact/">Back to the contact form</a></p>
-  </div>
-</div>`;
-
-  return layout({
-    title: 'Message not sent',
-    description: 'Your message to Weekly Delight was not sent.',
-    path: 'contact/not-sent/',
-    active: 'contact',
-    noindex: true,
-    body,
-    cuisines: ctx.topCuisines.slice(0, 8),
-    criticalCss: ctx.criticalCss,
-    schema: [breadcrumbSchema(trail)]
-  });
-}
+const contactSentPage = ctx => contactResultPage(ctx, { sent: true });
+const contactNotSentPage = ctx => contactResultPage(ctx, { sent: false });
 
 function privacy(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'Privacy' }];
@@ -853,10 +824,11 @@ ${breadcrumbs(trail)}
     <p>Clearing your browser data clears all four, and you will lose your saved recipes. There is no copy anywhere else.</p>
 
     <h2>The contact form</h2>
-    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to a small script on this site's server, which emails them to the site's owner. The server is run by ${esc(SITE.host.name)}, which hosts this site and its email. To limit abuse, the script keeps a one-way hash of the IP address each message came from, with the time, for one hour, and then discards it.</p>
-    <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. The message is kept in the site's inbox until it is deleted; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to a small script on this site's server, which emails them, with the time they were sent, to the site owner's inbox. Nothing is saved in a database on the website. The message then exists wherever the owner's email lives: on ${esc(SITE.host.name)}'s mail systems if the mail is sent through them, and with the owner's own email provider.</p>
+    <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Messages stay in the inbox until the owner deletes them; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p><strong>What the script keeps to limit abuse.</strong> For each message it records the time and a salted hash of the IP address it came from, in a small file on the server that nothing else reads. A hash like this is pseudonymous, not anonymous: it is still personal data, because someone with the site's secret could check an address against it. An entry stops counting after an hour and is deleted the next time the form, or its set-up check, is used. If nobody uses the form, an expired entry stays in the file until the next use, so it is not guaranteed to be gone after exactly an hour. The same file keeps a count of messages in the last day, as timestamps only. Separately, the server's ordinary access logs record your IP address for every request, as described under Hosting below.</p>
     <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is dropped without being sent. It collects nothing about you.</p>
-    <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
+    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser. There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
 
     <h2>Analytics</h2>
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
@@ -1035,19 +1007,24 @@ ${breadcrumbs(trail)}
       <div class="panel" style="margin-top:1.25rem">
         <h2 style="font-size:1.15rem">Press &amp; syndication</h2>
         <p style="margin:0;font-size:.94rem;color:var(--text-soft)">
-          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line and it will reach the right desk.
+          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line.
         </p>
       </div>
     </div>
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
+      <p class="form-status form-status--error" id="contact-unavailable" role="status" hidden>
+        The contact form is not switched on yet, so a message sent from this page would not go anywhere.
+        Please try again later.
+      </p>
       <!-- Posted to contact/send.php (src/server/contact-send.php), which runs on
            the live host. The page says a message was sent only when that script
-           answers that its mailer accepted it; anything else, including a host
-           with no PHP, shows that nothing was sent and leaves the words in the
-           form. Without JavaScript the browser posts it natively and the script
-           redirects to contact/success/ or contact/not-sent/. -->
+           answers that the mail transport accepted it; anything else, including a
+           host with no PHP, shows that nothing was sent and leaves the words in
+           the form. Without JavaScript the browser posts it natively and gets a
+           page rendered by the script. On load, the script asks send.php?status=1
+           whether the form is set up, and says so before anyone types. -->
       <form name="contact" method="POST" action="${SITE.base}contact/send.php"
             data-contact novalidate>
         <!-- The honeypot. Bots fill in every field they find; people never see
@@ -1245,4 +1222,4 @@ ${breadcrumbs(trail)}
 }
 
 module.exports = {
-  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, contactNotSent, categoriesIndex, siteDirectory, about, contact, notFound };
+  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSentPage, contactNotSentPage, categoriesIndex, siteDirectory, about, contact, notFound };

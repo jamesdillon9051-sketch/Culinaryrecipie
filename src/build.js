@@ -928,8 +928,11 @@ function build() {
   writePage('about/index.html', pages.about(ctx));
   writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
-  writePage('contact/success/index.html', pages.contactSuccess(ctx));
-  writePage('contact/not-sent/index.html', pages.contactNotSent(ctx));
+  /* Templates for the endpoint's own result pages, not public pages: the server
+     refuses to serve contact/_pages/ (.htaccess), so "Message sent" can only be
+     reached through the endpoint's signed redirect. */
+  writePage('contact/_pages/sent.html', pages.contactSentPage(ctx));
+  writePage('contact/_pages/not-sent.html', pages.contactNotSentPage(ctx));
   /* The form's endpoint, the one server-side file on the site. Its settings,
      including where messages go, live outside the public directory. */
   fs.copyFileSync(path.join(SRC, 'server', 'contact-send.php'), path.join(OUT, 'contact', 'send.php'));

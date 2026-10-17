@@ -28,7 +28,9 @@
     "voice": "node tools/voice-audit.js",
     "backup": "node tools/backup.js",
     "humanize": "node tools/humanize.js",
-    "selftest": "node tools/humanize-selftest.js"
+    "selftest": "node tools/humanize-selftest.js",
+    "contact-test": "node tools/contact-test.js",
+    "contact-browser-test": "node tools/contact-browser-test.js"
   },
   "keywords": [
     "recipes",
