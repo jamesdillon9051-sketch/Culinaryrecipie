@@ -15,7 +15,7 @@ module.exports = {
   'portobello-pizzas': {
     d: 'Roasted portobello caps used as the crust for tomato sauce, mozzarella, spinach, cherry tomatoes and olives. Four servings in 25 minutes.',
     meta: 'Portobello pizzas: roasted mushroom caps topped with tomato sauce, mozzarella, spinach and cherry tomatoes. Gluten free. Four servings in 25 minutes.',
-    kw: ['portobello pizzas', 'weight loss friendly portobello pizza', 'gluten free portobello pizza', 'vegetarian mushroom pizza without crust', 'easy portobello pizzas'],
+    kw: ['portobello pizzas', 'portobello pizza under 400 calories', 'gluten free portobello pizza', 'vegetarian mushroom pizza without crust', 'easy portobello pizzas'],
     why: 'Think of a portobello pizza as a personal pan pizza with a mushroom for a crust. No dough is needed. The cap is wide, flat and sturdy, and it holds sauce, cheese and toppings the way dough would, without the flour or the wait. It is ready in 25 minutes.\n\nMushrooms hold a lot of water. Roast the caps empty first, gill side down, so that the water drains out before the toppings go on; skip it and the pizza sits in a puddle. **Scrape out the gills** so the base stays pale and the flavour clean. Then turn the caps over, tip out the liquid and fill them.\n\nKeep the toppings light and the sauce thick, since a heavy load slides off a round cap. Spinach, cherry tomatoes and onion add colour and freshness, and mozzarella melts into the gaps. Basil goes on once they come out of the oven. Eat them with a knife and fork.',
     ing: [
       '4 large portobello mushroom caps, stems removed',
@@ -50,7 +50,7 @@ module.exports = {
   'stuffed-sweet-potatoes': {
     d: 'Baked sweet potatoes split and filled with spiced black beans and spinach, topped with lime yogurt and cilantro. Four servings in 65 minutes.',
     meta: 'Stuffed sweet potatoes: baked sweet potatoes filled with spiced black beans and spinach and topped with lime yogurt. Gluten free. Four servings.',
-    kw: ['stuffed sweet potatoes', 'weight loss friendly stuffed sweet potatoes', 'gluten free stuffed sweet potatoes with black beans', 'vegetarian stuffed sweet potatoes', 'easy stuffed sweet potatoes'],
+    kw: ['stuffed sweet potatoes', 'stuffed sweet potatoes under 400 calories', 'gluten free stuffed sweet potatoes with black beans', 'vegetarian stuffed sweet potatoes', 'easy stuffed sweet potatoes'],
     why: 'Sweet potatoes are at their best in autumn and winter, when a long bake in the oven is welcome. A hot oven turns the skin papery and the flesh soft and sweet, and the potato becomes the bowl for a filling of black beans, spinach and spices. It is dinner in one skin.\n\nPrick the potatoes with a fork. That lets steam escape. Bake them on a tray for 55 minutes. **Test with a knife**: it should slide in with no resistance. While they bake, warm the beans with cumin, paprika and chilli powder, and wilt the spinach in the same pan. Mash a few of the beans so the filling holds together.\n\nSplit the potatoes. Fluff the flesh with a fork and spoon in the filling. A dollop of Greek yogurt with lime juice stands in for sour cream. Leftover filling is good in a wrap or on a salad.',
     ing: [
       '800 g sweet potatoes, 4 medium',
@@ -85,7 +85,7 @@ module.exports = {
   'portobello-tacos': {
     d: 'Thick-sliced portobello mushrooms browned and spiced with chilli, cumin and lime, served in corn tortillas with red cabbage, avocado and tomato. Four servings in 30 minutes.',
     meta: 'Portobello tacos: browned, spiced portobello mushrooms in corn tortillas with red cabbage, avocado and tomato. Vegan and gluten free. Four servings.',
-    kw: ['portobello tacos', 'weight loss friendly portobello tacos', 'vegan portobello tacos', 'gluten free mushroom tacos', 'dairy free portobello tacos with slaw'],
+    kw: ['portobello tacos', 'portobello tacos under 400 calories', 'vegan portobello tacos', 'gluten free mushroom tacos', 'dairy free portobello tacos with slaw'],
     why: 'Portobello tacos are what happens when a mushroom is cooked like a steak: sliced thick, left alone in a hot pan and browned until the edges are dark and chewy. No meat is needed. Portobellos are meaty enough to hold up to bold spices. Spices and lime turn them into a filling that stands in for meat.\n\nScrape out the gills, slice the caps about 1 cm thick and **cook them undisturbed first**, for 3 minutes, so they brown instead of steam. Brown first, season second. Add the spices once the mushrooms have shed their water and started to colour, or the spices will stew rather than toast. Lime goes in at the end.\n\nWarm the tortillas first, in a dry pan, until they are pliable. Fill each with mushrooms, a little crunchy cabbage slaw and sliced avocado. Two tacos make a serving. Finish with a squeeze of lime. Leftover mushrooms are good in omelets.',
     ing: [
       '500 g portobello mushrooms, gills removed and caps sliced 1 cm thick',
@@ -122,7 +122,7 @@ module.exports = {
   'roasted-cauliflower-tacos': {
     d: 'Cauliflower roasted with chilli, cumin and smoked paprika, served in corn tortillas with red cabbage and a lime avocado cream. Four servings in 40 minutes.',
     meta: 'Roasted cauliflower tacos: chilli-spiced roasted cauliflower in corn tortillas with red cabbage and lime avocado cream. Vegan and gluten free.',
-    kw: ['roasted cauliflower tacos', 'weight loss friendly cauliflower tacos', 'vegan roasted cauliflower tacos', 'gluten free cauliflower tacos', 'easy roasted cauliflower tacos'],
+    kw: ['roasted cauliflower tacos', 'cauliflower tacos under 400 calories', 'vegan roasted cauliflower tacos', 'gluten free cauliflower tacos', 'easy roasted cauliflower tacos'],
     why: 'Roasted cauliflower goes wrong in two ways: it steams into a soft, pale pile, or it burns before the middle is tender. Space and heat fix both. A very hot oven and a tray with plenty of room let each floret touch the metal and brown.\n\nCut the florets to a similar size, toss them in oil and spices on the tray, and **roast at 220°C**. They need about 25 minutes to go golden at the edges and tender at the core. Turn them once. Chilli powder, cumin and smoked paprika give a taco-shop flavour, and lime at the end lifts it. Season after oiling, so the spices stick.\n\nCorn tortillas are warmed in a dry pan. Fill with cauliflower, cabbage slaw and an avocado-lime cream, made by blending avocado, lime juice and a splash of water. Two tacos make a serving. Squeeze a little lime over any spare avocado cream and cover it tightly to keep it green.',
     ing: [
       '700 g cauliflower, cut into small florets',
@@ -161,7 +161,7 @@ module.exports = {
   'mexican-cauliflower-rice-bowls': {
     d: 'Cauliflower rice cooked with cumin, chilli and tomato paste, topped with black beans, corn, tomato, avocado and cheese. Four servings in 30 minutes.',
     meta: 'Mexican cauliflower rice bowls: spiced cauliflower rice topped with black beans, corn, tomato, avocado and cheese. Gluten free. Four servings.',
-    kw: ['mexican cauliflower rice bowls', 'weight loss friendly cauliflower rice bowls', 'gluten free mexican cauliflower rice bowl', 'vegetarian cauliflower rice burrito bowls', 'easy mexican cauliflower rice bowls'],
+    kw: ['mexican cauliflower rice bowls', 'cauliflower rice bowls under 400 calories', 'gluten free mexican cauliflower rice bowl', 'vegetarian cauliflower rice burrito bowls', 'easy mexican cauliflower rice bowls'],
     why: 'A Monday-night bowl for four, built around cauliflower rice that cooks in minutes and takes on the flavour of whatever goes with it. Cumin, chilli and tomato paste turn it into something close to Mexican rice, with black beans, corn, avocado and cheese on top. It is ready in 30 minutes. Rice-sized cauliflower has a mild taste, which makes it a good base for strong flavours.\n\nCauliflower rice releases water, so **cook it uncovered** over medium-high heat, stirring now and then, until the moisture has gone and the grains look dry. Fry the spices in the oil first so they bloom. Do not cover the pan. A covered pan steams the rice into mush, and the flavour is lost.\n\nToppings go on cold, so the bowl has contrasting temperatures and textures: warm rice, creamy avocado, juicy tomato, melted cheese. Lime and hot sauce finish it. Leftovers keep for 3 days, without the avocado. Hot sauce is optional.',
     ing: [
       '600 g cauliflower, grated or pulsed into rice-sized pieces',
@@ -199,7 +199,7 @@ module.exports = {
   'eggplant-lasagna-roll-ups': {
     d: 'Roasted eggplant strips rolled around a ricotta, Parmesan and spinach filling, baked in tomato sauce under melted mozzarella. Six servings in 60 minutes.',
     meta: 'Eggplant lasagna roll-ups: roasted eggplant strips rolled around ricotta, Parmesan and spinach, baked in tomato sauce. Gluten free. Six servings.',
-    kw: ['eggplant lasagna roll ups', 'weight loss friendly eggplant lasagna', 'gluten free eggplant roll ups', 'vegetarian eggplant roll ups with ricotta', 'baked eggplant lasagna roll ups'],
+    kw: ['eggplant lasagna roll ups', 'eggplant lasagna under 400 calories', 'gluten free eggplant roll ups', 'vegetarian eggplant roll ups with ricotta', 'baked eggplant lasagna roll ups'],
     why: 'Roast the eggplant slices before you roll them. Raw eggplant is stiff and releases water in the oven, so the roll-ups split and the dish turns watery; roasted slices are soft, flexible and a little sweet, and they roll without tearing. It is the one step that matters.\n\nSlice the eggplant lengthwise into long strips about 6 mm thick, so each one is wide enough to wrap a spoonful of filling. **No pre-salting is needed**: roasting does the job. The filling is ricotta, Parmesan, egg and spinach, with nutmeg and basil, and it replaces the pasta layers of a lasagna. Roll from the narrow end. Set the roll-ups seam side down and close together in the dish.\n\nSpoon the tomato sauce under and over the rolls, top with mozzarella and bake until bubbling. Two roll-ups make a serving. Let the dish stand for 5 minutes before you serve it, so the filling sets.',
     ing: [
       '900 g eggplant, about 2 large',
@@ -241,7 +241,7 @@ module.exports = {
   'chickpea-veggie-burgers': {
     d: 'Pan-fried burgers of mashed chickpeas, oats, carrot and zucchini with cumin and paprika, served in lettuce leaves with yogurt. Four servings in 40 minutes.',
     meta: 'Chickpea veggie burgers: mashed chickpeas, oats, carrot and zucchini with cumin and paprika, pan-fried and served in lettuce leaves.',
-    kw: ['chickpea veggie burgers', 'weight loss friendly veggie burgers', 'vegetarian chickpea burgers', 'homemade chickpea burgers with carrot and zucchini', 'pan fried chickpea burgers'],
+    kw: ['chickpea veggie burgers', 'veggie burgers under 400 calories', 'vegetarian chickpea burgers', 'homemade chickpea burgers with carrot and zucchini', 'pan fried chickpea burgers'],
     why: 'The smell of cumin and paprika warming in a hot pan is the first sign these are cooking, and the second is the sound: a steady sizzle as the surface browns. Crisp outside and soft inside, these burgers hold together without breadcrumbs. Chickpeas and oats do the binding.\n\nMash the chickpeas roughly, leaving about a third whole, so the burgers have texture rather than a paste. **Squeeze the grated zucchini dry**, because moisture is what makes veggie burgers fall apart. Chill the patties first. Ten minutes in the fridge firms them so they hold in the pan, and wet hands make shaping easier. Turn them only once.\n\nServe in lettuce leaves or on a whole-wheat bun, with yogurt, sliced tomato and a little mustard. Uncooked patties keep for 2 days in the fridge, and cooked ones freeze well. They reheat in a pan. A little mustard or hot sauce adds a sharp note. Serve immediately for the crispest crust.',
     ing: [
       '400 g canned chickpeas, drained and rinsed',
@@ -279,7 +279,7 @@ module.exports = {
   'air-fryer-tofu': {
     d: 'Pressed extra-firm tofu cubes tossed in cornflour and spices, cooked in the air fryer until crisp and glazed with soy and sesame. Four servings in 30 minutes.',
     meta: 'Air fryer tofu: pressed tofu cubes tossed in cornflour and spices, cooked until crisp and glazed with soy and sesame. Vegan. Four servings.',
-    kw: ['air fryer tofu', 'weight loss friendly air fryer tofu', 'vegan air fryer tofu', 'dairy free crispy air fryer tofu', 'easy air fryer tofu cubes'],
+    kw: ['air fryer tofu', 'air fryer tofu under 400 calories', 'vegan air fryer tofu', 'dairy free crispy air fryer tofu', 'easy air fryer tofu cubes'],
     why: 'The usual failure with tofu is sogginess: it comes out of the packet full of water and stays that way. Two steps fix it. Press the block between paper towels under a heavy pan for 10 minutes, and toss the cubes in a little cornflour so the surface crisps in the fan.\n\nThe air fryer moves hot air fast, which dries the surface of the tofu and gives it a crisp, chewy edge with far less oil than a pan. **Shake the basket halfway** so the cubes brown on all sides. Cut them about 2.5 cm so they cook through. Do not crowd the basket. Crowded cubes steam. Soy sauce and sesame oil go on after cooking, so the glaze does not burn.\n\nServe over cauliflower rice with steamed broccoli, or add to salads and bowls. It is best straight from the basket. The tofu keeps for 4 days and re-crisps in a hot pan or the air fryer.',
     ing: [
       '450 g extra-firm tofu, pressed and cut into 2.5 cm cubes',
@@ -312,7 +312,7 @@ module.exports = {
   'spaghetti-squash-primavera': {
     d: 'Roasted spaghetti squash strands tossed with zucchini, peppers, asparagus and cherry tomatoes in a garlic and lemon sauce with Parmesan. Four servings in 60 minutes.',
     meta: 'Spaghetti squash primavera: roasted spaghetti squash tossed with zucchini, pepper, asparagus and tomatoes in garlic, lemon and Parmesan.',
-    kw: ['spaghetti squash primavera', 'weight loss friendly spaghetti squash', 'gluten free spaghetti squash primavera', 'vegetarian spaghetti squash with vegetables', 'easy spaghetti squash primavera'],
+    kw: ['spaghetti squash primavera', 'spaghetti squash under 400 calories', 'gluten free spaghetti squash primavera', 'vegetarian spaghetti squash with vegetables', 'easy spaghetti squash primavera'],
     why: 'Spaghetti squash, zucchini, peppers, tomatoes and asparagus in a garlic and lemon sauce, finished with Parmesan: spring on a plate, with no pasta. No pasta is needed. The squash roasts until its flesh pulls apart into long, tender strands that look like spaghetti and taste mildly sweet.\n\nRoast the squash cut side down, so the strands steam in the shell, for 40 minutes, and test it by pressing the skin: it should give. **Scrape with a fork lengthwise**, from the stem to the base, to get long strands rather than short crumbs. Go lengthwise. Cook the vegetables in a hot pan for a few minutes only, so they keep their colour and bite.\n\nSpaghetti squash holds water, so drain the strands briefly in a colander before they meet the sauce. A squeeze of lemon and a handful of basil finish the dish. Parmesan adds the savoury note. A pinch of chilli flakes is good too. Eat it straight away.',
     ing: [
       '1.2 kg spaghetti squash, halved and seeded',

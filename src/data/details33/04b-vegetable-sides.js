@@ -15,7 +15,7 @@ module.exports = {
   'air-fryer-cauliflower': {
     d: 'Cauliflower florets tossed with smoked paprika, garlic and cumin and cooked in the air fryer until browned at the edges. Four servings in 25 minutes.',
     meta: 'Air fryer cauliflower: florets tossed in smoked paprika, garlic and cumin and cooked until browned and tender. Vegan and gluten free. Four servings.',
-    kw: ['air fryer cauliflower', 'weight loss friendly air fryer cauliflower', 'vegan air fryer cauliflower', 'gluten free crispy air fryer cauliflower', 'easy air fryer cauliflower with paprika'],
+    kw: ['air fryer cauliflower', 'air fryer cauliflower under 400 calories', 'vegan air fryer cauliflower', 'gluten free crispy air fryer cauliflower', 'easy air fryer cauliflower with paprika'],
     why: 'A side for four that is on the table in 25 minutes and needs one bowl and one basket. The air fryer circulates very hot air around the florets, which browns the edges and leaves the middle tender, with a fraction of the oil that roasting in a pan would take. Weeknights suit it.\n\nCut the florets to a similar size so they cook at the same rate; very large ones stay raw in the middle while the small ones scorch. **Toss them in oil first**, then the spices, so the seasoning sticks. Shake the basket a few times, because the florets at the edge brown first. Do not overfill the basket. Crowded florets steam.\n\nLemon juice and parsley go on after cooking, so they stay bright. Serve as a side for chicken or fish, or add to a grain bowl. Leftovers keep for 3 days. They re-crisp in the air fryer.',
     ing: [
       '600 g cauliflower, cut into florets',
@@ -46,7 +46,7 @@ module.exports = {
   'air-fryer-asparagus': {
     d: 'Asparagus spears cooked in the air fryer with garlic, lemon zest and pepper until tender with browned tips. Four servings in 13 minutes.',
     meta: 'Air fryer asparagus: spears cooked with garlic, lemon zest and pepper until tender with browned tips. Vegan and gluten free. Four servings.',
-    kw: ['air fryer asparagus', 'weight loss friendly air fryer asparagus', 'vegan air fryer asparagus', 'dairy free lemon air fryer asparagus', 'quick air fryer asparagus in 13 minutes'],
+    kw: ['air fryer asparagus', 'air fryer asparagus under 400 calories', 'vegan air fryer asparagus', 'dairy free lemon air fryer asparagus', 'quick air fryer asparagus in 13 minutes'],
     why: 'A midweek side for four in 13 minutes, with nothing to wash but a bowl and a basket. Hot circulating air cooks thin asparagus faster than an oven does, and it leaves the tips browned and slightly crisp while the stalks stay tender. Nothing else is needed.\n\nThickness decides the time. Pencil-thin spears need about 6 minutes and fat ones closer to 8, so sort them by size if they are mixed. **Snap off the woody ends** first: each spear breaks where the tough part meets the tender. Oil and a little garlic powder are all the seasoning, since the lemon at the end adds the brightness.\n\nAdd the lemon zest and juice after cooking so the flavour stays fresh. Serve the spears with eggs, fish or chicken, or chop them into a salad. They do not hold well. Cook them just before eating. Zest the lemon before you juice it. Leftover spears chop well into omelets.',
     ing: [
       '500 g asparagus, woody ends snapped off',
@@ -75,7 +75,7 @@ module.exports = {
   'grilled-vegetable-skewers': {
     d: 'Zucchini, red pepper, red onion, mushrooms and cherry tomatoes marinated in olive oil, balsamic vinegar and oregano and grilled on skewers. Four servings in 32 minutes.',
     meta: 'Grilled vegetable skewers: zucchini, pepper, onion, mushrooms and tomatoes in an olive oil, balsamic and oregano marinade. Vegan and gluten free.',
-    kw: ['grilled vegetable skewers', 'weight loss friendly vegetable skewers', 'vegan grilled vegetable skewers', 'gluten free vegetable kebabs', 'easy grilled vegetable skewers with balsamic'],
+    kw: ['grilled vegetable skewers', 'vegetable skewers under 400 calories', 'vegan grilled vegetable skewers', 'gluten free vegetable kebabs', 'easy grilled vegetable skewers with balsamic'],
     why: 'Zucchini, red pepper, red onion, mushrooms and cherry tomatoes on a stick: a meal of colour that needs only a marinade and a hot grill. Balsamic vinegar and olive oil do the seasoning, and the char does the rest. Charring is flavour.\n\nGroup the vegetables on the skewer by type, or at least by cooking time, since mushrooms and zucchini cook faster than onion. **Leave a little space between pieces** so the heat reaches every side. Size matters here. Cut everything to a similar size, around 3 cm, and thread the cut side of the pepper outward so it chars. Turn the skewers every 3 minutes.\n\nMarinate for only 10 minutes; the vinegar softens the vegetables if they sit for long. Serve with rice, with grilled chicken or fish, or slide the vegetables off the skewers into a salad. Soak wooden skewers first. Otherwise they burn. Leftover vegetables are good in wraps.',
     ing: [
       '250 g zucchini, cut into 2 cm half-moons',
@@ -109,7 +109,7 @@ module.exports = {
   'sauteed-kale-with-garlic': {
     d: 'Kale leaves wilted in olive oil with sliced garlic and a pinch of chilli, finished with lemon. Four servings in 13 minutes.',
     meta: 'Sautéed kale with garlic: kale cooked in olive oil with sliced garlic and chilli and finished with lemon. Vegan and gluten free. Four servings.',
-    kw: ['sauteed kale with garlic', 'weight loss friendly kale side dish', 'vegan sauteed kale', 'gluten free garlic kale', 'quick sauteed kale in 13 minutes'],
+    kw: ['sauteed kale with garlic', 'kale side dish under 400 calories', 'vegan sauteed kale', 'gluten free garlic kale', 'quick sauteed kale in 13 minutes'],
     why: 'How do you stop sautéed kale turning tough and bitter? Strip the stems, give it a splash of water and a lid, and do not overcook it. Steam does the softening. The leaves turn tender in a few minutes, and a short cook keeps the flavour sweet and earthy rather than harsh.\n\nGarlic goes in first, sliced thin, for 30 seconds only; **brown garlic turns bitter**. Add the kale in handfuls and let each batch wilt before the next, so the pan never overflows. Go in handfuls. Cover for 4 minutes, then uncover to cook off the water. Lemon at the end lifts the flavour and softens any bitterness.\n\nCurly and lacinato kale both work; lacinato is flatter and slightly milder. Either kind of kale works. Serve as a side for eggs, fish or chicken, or stir into soups and grain bowls. The kale keeps for 3 days in the fridge.',
     ing: [
       '300 g kale, stems removed and leaves torn',
@@ -138,7 +138,7 @@ module.exports = {
   'lemon-roasted-broccoli': {
     d: 'Broccoli florets roasted at high heat with olive oil and garlic until the tips char, finished with lemon zest and juice. Four servings in 25 minutes.',
     meta: 'Lemon roasted broccoli: florets roasted hot with olive oil and garlic until the tips char, finished with lemon zest. Vegan and gluten free.',
-    kw: ['lemon roasted broccoli', 'weight loss friendly roasted broccoli', 'vegan lemon roasted broccoli', 'gluten free roasted broccoli with garlic', 'easy lemon roasted broccoli'],
+    kw: ['lemon roasted broccoli', 'roasted broccoli under 400 calories', 'vegan lemon roasted broccoli', 'gluten free roasted broccoli with garlic', 'easy lemon roasted broccoli'],
     why: 'The first thing you notice is the colour of the tips: bright green going to dark brown, almost black in places, with a nutty, toasty smell. That char is flavour. A very hot oven and a tray with room to spare give it, and the stems stay tender underneath.\n\nCut the florets to a similar size, with a flat cut face for browning. Wet broccoli steams. **Dry the florets well** after washing, because water on the surface steams the broccoli and prevents browning. Garlic goes on for the last 3 minutes, so it softens without burning. Lemon zest and juice at the end add the sharpness that makes roasted broccoli taste lively.\n\nPeel the thick stems and roast them with the florets: they are sweet and tender once the tough skin is off. Serve straight from the tray with fish, chicken or eggs. Leftovers are good cold in a salad.',
     ing: [
       '600 g broccoli, cut into florets',
@@ -167,7 +167,7 @@ module.exports = {
   'cumin-roasted-carrots': {
     d: 'Carrots roasted until caramelised at the edges with ground cumin, lemon juice and fresh cilantro, with no added sugar or honey. Four servings in 30 minutes.',
     meta: 'Cumin roasted carrots: carrots roasted until caramelised with ground cumin, lemon and cilantro, with no added sugar or honey. Vegan and gluten free.',
-    kw: ['cumin roasted carrots', 'weight loss friendly roasted carrots', 'vegan cumin roasted carrots', 'gluten free roasted carrots without sugar', 'easy cumin roasted carrots'],
+    kw: ['cumin roasted carrots', 'roasted carrots under 400 calories', 'vegan cumin roasted carrots', 'gluten free roasted carrots without sugar', 'easy cumin roasted carrots'],
     why: 'It is the savoury cousin of honey-glazed carrots: the same sweet, caramelised edges, but with cumin and lemon in place of sugar. Nothing sweet is added. The oven does the work. Carrots are sweet enough on their own once a hot oven concentrates their sugars.\n\nCut the carrots to an even thickness, halving thick ones lengthwise, so they cook at the same speed. **Roast them on a hot tray** with room between pieces; crowded carrots steam and stay pale. Turn them once. Cumin is warm and earthy, and a squeeze of lemon at the end keeps the dish from tasting flat. Toast the cumin first if you like it deeper. A pinch of chilli adds heat.\n\nCilantro adds freshness at the end. Serve alongside roast chicken, lamb or a bean stew, or toss cold leftovers into a salad. They keep for 4 days in the fridge. A spoonful of yogurt on the side makes them a light lunch.',
     ing: [
       '600 g carrots, cut into 5 cm sticks',
@@ -197,7 +197,7 @@ module.exports = {
   'balsamic-roasted-mushrooms': {
     d: 'Mushrooms roasted with balsamic vinegar, garlic and thyme until deep brown and glossy. Four servings in 30 minutes.',
     meta: 'Balsamic roasted mushrooms: mushrooms roasted with balsamic vinegar, garlic and thyme until deep brown and glossy. Vegan, gluten free.',
-    kw: ['balsamic roasted mushrooms', 'weight loss friendly roasted mushrooms', 'vegan balsamic mushrooms', 'gluten free roasted mushrooms with garlic and thyme', 'easy balsamic roasted mushrooms'],
+    kw: ['balsamic roasted mushrooms', 'roasted mushrooms under 400 calories', 'vegan balsamic mushrooms', 'gluten free roasted mushrooms with garlic and thyme', 'easy balsamic roasted mushrooms'],
     why: 'Mushrooms, balsamic vinegar, garlic and thyme: four things, one tray and a very hot oven. The mushrooms shed their water, then brown, then drink up the vinegar until they are dark, glossy and intensely savoury. Patience is the method. They shrink to about half their size.\n\nMushrooms are mostly water, so give them space. **Use one big tray**, or two, in a single layer; crowded mushrooms steam in their own liquid and stay grey. Add the balsamic only after 15 minutes, when the first water has gone, or it dilutes and the mushrooms never brown. Garlic and thyme go in with it, so they scorch less.\n\nBalsamic vinegar is sweet and sharp at once. No sugar is needed. Serve the mushrooms with steak, chicken, eggs or on toast, or fold them through grains. They keep for 4 days and reheat well. Use button or cremini mushrooms, or a mix; the brown ones have the deeper flavour.',
     ing: [
       '500 g mushrooms, halved or quartered',
@@ -227,7 +227,7 @@ module.exports = {
   'roasted-tomatoes-with-herbs': {
     d: 'Tomato halves roasted slowly with garlic, oregano and thyme until soft, sweet and lightly caramelised. Six servings in 50 minutes.',
     meta: 'Roasted tomatoes with herbs: tomato halves roasted slowly with garlic, oregano and thyme until soft and caramelised. Vegan and gluten free.',
-    kw: ['roasted tomatoes with herbs', 'weight loss friendly roasted tomatoes', 'vegan roasted tomatoes with herbs', 'gluten free slow roasted tomatoes', 'easy roasted tomatoes with garlic and oregano'],
+    kw: ['roasted tomatoes with herbs', 'roasted tomatoes under 400 calories', 'vegan roasted tomatoes with herbs', 'gluten free slow roasted tomatoes', 'easy roasted tomatoes with garlic and oregano'],
     why: 'Cut side up. That is the whole technique. Facing up, the tomato halves hold their juices as they roast, and the surface dries and caramelises instead of boiling in a puddle; facing down, they steam and collapse.\n\nRoma tomatoes, with their dense flesh and fewer seeds, roast better than large watery ones. **Roast at 180°C for 40 minutes**: long enough to concentrate the sweetness and short enough that the edges do not scorch. Gentle heat concentrates sweetness. Garlic slices on top turn soft and golden, and oregano and thyme perfume the oil.\n\nUse them warm as a side, spoon them over toast, toss them through grains or pasta, or blend a few into a quick sauce. Leftovers are never wasted. They keep for 5 days in the fridge, covered in a little of their own oil. Use the roasting oil in a dressing. Basil goes on after roasting, so it stays green.',
     ing: [
       '800 g Roma tomatoes, halved lengthwise',
@@ -257,7 +257,7 @@ module.exports = {
   'grilled-zucchini': {
     d: 'Zucchini cut into long slabs, brushed with oil and grilled until striped and tender, then finished with lemon and mint. Four servings in 13 minutes.',
     meta: 'Grilled zucchini: long zucchini slabs grilled until striped and tender and finished with garlic, lemon and mint. Vegan and gluten free. Four servings.',
-    kw: ['grilled zucchini', 'weight loss friendly grilled zucchini', 'vegan grilled zucchini', 'gluten free grilled zucchini with lemon', 'quick grilled zucchini in 13 minutes'],
+    kw: ['grilled zucchini', 'grilled zucchini under 400 calories', 'vegan grilled zucchini', 'gluten free grilled zucchini with lemon', 'quick grilled zucchini in 13 minutes'],
     why: 'Slice the zucchini lengthwise into slabs about 1 cm thick. Long slabs beat rounds. They lie flat on the grill, so they get proper stripes, and they are too wide to fall through the bars. Rounds are fiddly and fall apart. Zucchini is mostly water, so high, dry heat is what you want.\n\nBrush the oil on the zucchini, not the grill, so it does not smoke. **Grill over medium-high heat** and leave the slabs alone for 3 minutes to get clear marks. Turn once. Zucchini goes from firm to mushy quickly, so take the slabs off when they are tender but still hold their shape.\n\nLemon and garlic go on while the slabs are hot, so they soak in. Mint adds freshness. Serve with grilled chicken or fish, or layer the slabs into a sandwich. They are good cold, too. Leave the skin on for colour and bite. Toss any scraps into a salad.',
     ing: [
       '600 g zucchini, sliced lengthwise into 1 cm slabs',
@@ -286,7 +286,7 @@ module.exports = {
   'roasted-delicata-squash': {
     d: 'Delicata squash half-moons, skin on, roasted until the edges brown with smoked paprika and a pinch of cinnamon. Four servings in 35 minutes.',
     meta: 'Roasted delicata squash: skin-on squash half-moons roasted until browned with smoked paprika and cinnamon. Vegan and gluten free. Four servings.',
-    kw: ['roasted delicata squash', 'weight loss friendly roasted squash', 'vegan roasted delicata squash', 'gluten free delicata squash rings', 'easy roasted delicata squash'],
+    kw: ['roasted delicata squash', 'roasted squash under 400 calories', 'vegan roasted delicata squash', 'gluten free delicata squash rings', 'easy roasted delicata squash'],
     why: 'Roasted delicata smells of caramel and warm spice, and the first bite is soft, sweet and creamy, with a thin skin that is tender enough to eat. That skin is the reason delicata is easier than most squash. There is nothing to peel.\n\nHalve the squash lengthwise and scoop out the seeds with a spoon, then slice into half-moons about 1.5 cm thick. **Leave the skin on**: it softens as it roasts and holds the slices together. Space the pieces out so the cut sides touch the hot tray and brown. Turn them once. Smoked paprika and cinnamon give a warm, savoury sweetness without added sugar.\n\nPumpkin seeds add crunch at the end. Serve the squash with roast chicken or pork, or toss it into a salad of leaves and goat cheese. It keeps for 3 days and reheats well. Leftover squash is good mashed into soup. Chilli flakes make a good addition. Delicata can also be stuffed.',
     ing: [
       '700 g delicata squash, halved lengthwise and seeded',
@@ -315,7 +315,7 @@ module.exports = {
   'roasted-cabbage-wedges': {
     d: 'Green cabbage cut into wedges and roasted until the outer leaves are crisp and brown and the centre is sweet and tender. Four servings in 35 minutes.',
     meta: 'Roasted cabbage wedges: cabbage wedges roasted until crisp at the edges and sweet in the centre with paprika and garlic. Vegan and gluten free.',
-    kw: ['roasted cabbage wedges', 'weight loss friendly roasted cabbage', 'vegan roasted cabbage wedges', 'gluten free roasted cabbage steaks', 'easy roasted cabbage wedges'],
+    kw: ['roasted cabbage wedges', 'roasted cabbage under 400 calories', 'vegan roasted cabbage wedges', 'gluten free roasted cabbage steaks', 'easy roasted cabbage wedges'],
     why: 'It is cabbage cooked the way you would cook a steak: hot, with space, and left alone until the surface is dark and crisp. Nothing about it resembles boiled cabbage. The outer leaves frizzle into crisp, almost crackly edges, while the core turns sweet and soft.\n\nKeep the core in each wedge; it holds the leaves together. **Brush every cut face with oil**, since that is where the browning happens, and give the wedges space on the tray. Turn them with care, using a wide spatula. A cabbage this size takes 30 minutes at 220°C, and the edges should be nearly black in places.\n\nLemon juice squeezed over the top brightens the richness of the browned leaves. Serve with sausages, roast chicken or grilled fish. The wedges reheat well, and leftover leaves are good chopped into soups. A drizzle of olive oil at the table is all the sauce it needs.',
     ing: [
       '800 g green cabbage, cut into 8 wedges through the core',
@@ -344,7 +344,7 @@ module.exports = {
   'air-fryer-green-beans': {
     d: 'Green beans cooked in the air fryer until blistered and tender-crisp with garlic and a squeeze of lemon. Four servings in 15 minutes.',
     meta: 'Air fryer green beans: green beans cooked until blistered and tender-crisp with garlic and lemon. Vegan and gluten free. Four servings in 15 minutes.',
-    kw: ['air fryer green beans', 'weight loss friendly air fryer green beans', 'vegan air fryer green beans', 'gluten free crispy green beans', 'quick air fryer green beans'],
+    kw: ['air fryer green beans', 'air fryer green beans under 400 calories', 'vegan air fryer green beans', 'gluten free crispy green beans', 'quick air fryer green beans'],
     why: 'They squeak when they go in the basket and they sizzle when they come out: green beans cooked in the air fryer turn blistered and wrinkled at the edges, with a dark, nutty colour and a crisp bite. That is the appeal. The result sits somewhere between roasted and fried, with far less oil.\n\nDry the beans thoroughly after washing; surface water steams them instead of blistering them. **Do not overload the basket**: one layer cooks evenly, while a pile stays soft underneath. One layer is best. Shake halfway through so the beans on the bottom get their turn. Ten minutes at 200°C is enough for slim beans, and thick ones may need a minute or two more.\n\nGarlic powder clings better than fresh garlic in the air fryer, which would burn in the fast hot air. A squeeze of lemon at the end finishes the dish. Serve straight away. The beans lose their crispness as they cool.',
     ing: [
       '400 g green beans, trimmed',
@@ -372,7 +372,7 @@ module.exports = {
   'air-fryer-mushrooms': {
     d: 'Mushrooms halved and cooked in the air fryer with tamari, garlic and smoked paprika until dark and chewy at the edges. Four servings in 17 minutes.',
     meta: 'Air fryer mushrooms: halved mushrooms cooked with tamari, garlic and smoked paprika until dark and chewy at the edges. Vegan and gluten free.',
-    kw: ['air fryer mushrooms', 'weight loss friendly air fryer mushrooms', 'vegan air fryer mushrooms', 'gluten free garlic air fryer mushrooms', 'quick air fryer mushrooms'],
+    kw: ['air fryer mushrooms', 'air fryer mushrooms under 400 calories', 'vegan air fryer mushrooms', 'gluten free garlic air fryer mushrooms', 'quick air fryer mushrooms'],
     why: 'They are roasted mushrooms in a hurry: the same deep, savoury browning in a fraction of the time, with a chewier edge from the fan. Tamari gives the colour and the umami, and a little smoked paprika adds a hint of the grill. It is hard to beat for speed.\n\nMushrooms are mostly water. Halve them and give them space, so the air can carry the moisture away. **Season with tamari, not salt**: tamari is gluten free and adds the savoury depth that mushrooms love. Shake the basket twice, because the mushrooms at the edge brown first, and expect them to shrink by half.\n\nServe with steak, chicken or eggs, spoon over toast or fold into omelets. The mushrooms keep for 3 days and re-crisp in the air fryer. Wipe them, do not wash them. Mushrooms absorb water like sponges. A squeeze of lemon at the end brightens them. Pile them on toast for a quick lunch.',
     ing: [
       '400 g mushrooms, halved',

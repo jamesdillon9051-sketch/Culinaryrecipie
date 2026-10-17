@@ -748,7 +748,7 @@ module.exports = {
       '0.5 tsp fine sea salt',
       '0.25 tsp ground black pepper',
       '1 tbsp chopped chives',
-      '2 slices buttered toast'
+      '2 slices buttered toast, to serve'
     ],
     st: [
       'Beat the eggs thoroughly with a fork until the whites and yolks are completely combined. Do not salt them.',

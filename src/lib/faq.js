@@ -18,11 +18,12 @@
  * the storage answer from the storage note, the tips answer from the tips list.
  * A question whose source field is missing is not asked.
  *
- * Worth knowing before expecting much of this: since August 2023 Google shows
+ * Worth knowing before expecting much of this: from September 2023 Google showed
  * FAQ rich results only for well-known, authoritative government and health
- * sites. This markup is correct and it will not put an accordion in the search
- * results — the value is a page that answers what people actually ask, which is
- * worth doing on its own.
+ * sites, and its FAQ documentation says the feature stopped appearing in Google
+ * Search in May 2026. The markup is correct and earns nothing there — the value
+ * is a page that answers what people actually ask, which is why the list is
+ * short and only asks what the page does not already say in one place.
  */
 
 /** "1 hour 20 minutes", from a count of minutes. */
@@ -83,43 +84,30 @@ function questions(recipe) {
 
   const total = recipe.totalTime || (recipe.prep + recipe.cook);
   const rest = recipe.restTime || 0;
+  const restMax = recipe.restMax > rest ? recipe.restMax : rest;
+  const span = (lo, hi) => hi > lo ? `${humanWaitWords(lo)} to ${humanWaitWords(hi)}` : humanWaitWords(lo);
   const work = `${humanMinutes(recipe.prep)} of preparation and ${humanMinutes(recipe.cook)} of cooking`;
   /* A recipe that proves overnight does not take fifty minutes, and saying so
-     is the whole point of publishing the resting time. */
-  ask(`How long does ${name} take to make?`,
-    total && (rest
-      ? `About ${humanMinutes(total)} of hands-on work — ${work} — plus `
-        + `${humanWaitWords(rest)} of ${recipe.restLabel}, so allow `
-        + `${humanWaitWords(total + rest)} from start to finish. The recipe serves ${recipe.servings}.`
-      : `About ${humanMinutes(total)} in total — ${work}. The recipe serves ${recipe.servings}.`));
-
-  /* The tips, as the answer to the question they are the answer to. Three
-     pieces of advice under a heading called "Chef's Tips" is already a reply to
-     "how do I not get this wrong"; this only puts the question in front of it. */
-  ask(`What are the key tips for making ${name}?`,
-    (recipe.tips || []).length && paragraph(recipe.tips));
-
-  /* Pairings are fragments — "A cold fino sherry", "Follow with syrniki" — so
-     they are listed rather than run into a sentence. */
-  ask(`What should I serve with ${name}?`,
-    (recipe.pairings || []).length
-      && `${paragraph([recipe.pairings.join('; ')])}`);
-
-  /* Only asked when the storage note actually discusses keeping it. */
-  const storage = lower(recipe.storage);
-  if (/freez|refrigerat|keeps|chill|store/i.test(storage)) {
-    ask(/freez/i.test(storage)
-      ? `Can ${name} be made ahead or frozen?`
-      : `How should ${name} be stored?`, storage);
+     is the whole point of publishing the resting time. Where the method gives
+     a range ("refrigerate for 12 to 24 hours") the answer gives it too.
+     Asked only where there is waiting: without it the answer was the prep and
+     cook times from the header read back, the same sentence on four thousand
+     pages. */
+  if (rest) {
+    ask(`How long does ${name} take to make?`,
+      total && `About ${humanMinutes(total)} of hands-on work — ${work} — plus `
+        + `${span(rest, restMax)} of ${recipe.restLabel}, so allow `
+        + `${span(total + rest, total + restMax)} from start to finish. The recipe serves ${recipe.servings}.`);
   }
 
-  const diets = recipe.tags || [];
-  if (diets.length) {
-    ask(`Is ${name} suitable for a special diet?`,
-      `This recipe is ${sentence(diets.map(d => d.toLowerCase()))}. `
-      + `Those labels are checked against the ingredient list, so a dish is only `
-      + `marked when nothing in it contradicts the claim.`);
-  }
+  /* What used to follow here — "What are the key tips", "What should I serve
+     with", "How should it be stored", "Is it suitable for a special diet" and
+     "How many calories" — answered each question by repeating a section that
+     sits a few centimetres away on the same page, word for word. Five copies
+     of the page's own text, marked up as questions on more than five thousand
+     pages, is filler rather than help, so they are gone. What remains is
+     asked only where the answer adds something the page does not already say
+     in one place. */
 
   /* "Why did my sauce split?" is worth asking on exactly the dishes where it
      is the single most common way to ruin them — and nowhere else. Tried
@@ -150,12 +138,6 @@ function questions(recipe) {
       + 'pasta water rather than trying to fix it with more cheese, which makes a '
       + 'seized sauce worse.');
   }
-
-  const [kcal, protein, carbs, fat] = recipe.nutrition || [];
-  ask(`How many calories are in ${name}?`,
-    kcal && `About ${kcal} kcal per serving, with ${protein} g protein, ${carbs} g `
-      + `carbohydrate and ${fat} g fat. The figures are calculated from the `
-      + `ingredient list and are an estimate.`);
 
   return out;
 }

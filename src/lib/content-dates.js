@@ -88,4 +88,35 @@ function register(today = new Date().toISOString().slice(0, 10)) {
   };
 }
 
-module.exports = { register, digest };
+/**
+ * When each page was first published, as far as the project's records show.
+ *
+ * Seeded once from the repository history by tools/published-dates.js and
+ * committed. A route the file has never seen gets the day of the build that
+ * first produces it, and keeps that date from then on: a publication date is
+ * set once and never moved, so it is neither backdated nor refreshed.
+ */
+const PUBLISHED = path.join(__dirname, '..', 'data', 'published-dates.json');
+
+function publishedRegister(today = new Date().toISOString().slice(0, 10)) {
+  let stored = {};
+  try { stored = JSON.parse(fs.readFileSync(PUBLISHED, 'utf8')); } catch { stored = {}; }
+  let added = 0;
+  return {
+    dateFor(route) {
+      if (!stored[route]) { stored[route] = today; added++; }
+      return stored[route];
+    },
+    /* Unlike the modified-date register, routes that disappear are kept: a
+       URL that comes back has still been published before. */
+    save() {
+      if (!added) return { added };
+      const ordered = {};
+      for (const key of Object.keys(stored).sort()) ordered[key] = stored[key];
+      fs.writeFileSync(PUBLISHED, JSON.stringify(ordered, null, 1) + '\n');
+      return { added };
+    }
+  };
+}
+
+module.exports = { register, publishedRegister, digest };

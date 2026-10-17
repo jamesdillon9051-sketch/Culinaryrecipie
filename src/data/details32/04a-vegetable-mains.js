@@ -15,7 +15,7 @@ module.exports = {
   'cauliflower-mac-and-cheese': {
     d: 'Cauliflower florets baked in a creamy cheddar and Parmesan sauce thickened with cream cheese, with no pasta or flour. Six servings in 45 minutes.',
     meta: 'Cauliflower mac and cheese without pasta or flour: tender florets in a cheddar, Parmesan and cream cheese sauce, baked until golden. Serves six.',
-    kw: ['cauliflower mac and cheese', 'diabetic friendly mac and cheese', 'gluten free cauliflower mac and cheese', 'vegetarian cauliflower mac and cheese', 'easy cauliflower mac and cheese without pasta'],
+    kw: ['cauliflower mac and cheese', 'no added sugar mac and cheese', 'gluten free cauliflower mac and cheese', 'vegetarian cauliflower mac and cheese', 'easy cauliflower mac and cheese without pasta'],
     why: 'A supper for six, or a side for a bigger table, for the nights when you want mac and cheese without the pasta. Cauliflower florets stand in for the macaroni and hold the sauce in much the same way. It is rich. A modest portion goes a long way.\n\nEverything depends on the cauliflower being dry. **Boil it for 5 minutes only**, drain it well and leave it to steam in the colander, because wet florets water down the sauce and leave a puddle in the dish. The sauce uses no flour: cream cheese melts into warm half-and-half and gives it body, and sharp cheddar supplies the flavour, so you can use less of it.\n\nStir the cheese in off the boil. Overheated cheddar turns grainy and oily. Mustard and a little paprika sharpen the sauce without any extra salt. Bake until the top is browned and the edges are bubbling, then let the dish stand for 5 minutes so it sets enough to spoon.',
     ing: [
       '900 g cauliflower, cut into small florets',
@@ -48,7 +48,7 @@ module.exports = {
   'cauliflower-risotto': {
     d: 'Cauliflower rice cooked like risotto with onion, stock and peas, then stirred creamy with Parmesan and butter. Four servings in 30 minutes.',
     meta: 'Cauliflower risotto: cauliflower rice simmered in unsalted stock with onion and peas, finished with Parmesan, butter and lemon. Four servings.',
-    kw: ['cauliflower risotto', 'diabetic friendly cauliflower risotto', 'gluten free cauliflower risotto', 'vegetarian cauliflower risotto', 'easy cauliflower rice risotto'],
+    kw: ['cauliflower risotto', 'no added sugar cauliflower risotto', 'gluten free cauliflower risotto', 'vegetarian cauliflower risotto', 'easy cauliflower rice risotto'],
     why: 'Do not add all the stock at once. That is the rule of risotto, and it holds here too, because cauliflower rice releases its own water as it cooks and turns to soup if it is drowned. Add the stock in two halves and watch the pan.\n\nRice the cauliflower by grating it on the coarse side of a box grater, or pulse it in a food processor in short bursts until it looks like rice. **Cook it for about 10 minutes**, in all, and stop at tender. It goes from firm to mushy quickly. The creaminess comes from Parmesan and a spoonful of butter stirred in off the heat, with the cauliflower itself giving the rest of the body.\n\nPeas add sweetness and colour at the end. Lemon and parsley lift the richness. Serve it straight away, because it thickens as it stands, and loosen leftovers with a splash of stock when you reheat them.',
     ing: [
       '700 g cauliflower, grated or pulsed into rice-sized pieces',
@@ -83,7 +83,7 @@ module.exports = {
   'zucchini-noodles-with-pesto': {
     d: 'Spiralised zucchini tossed with cherry tomatoes and pesto and topped with Parmesan and pine nuts. Two servings in 15 minutes.',
     meta: 'Zucchini noodles with pesto: spiralised zucchini and cherry tomatoes tossed with pesto, Parmesan and pine nuts in 15 minutes. Serves two.',
-    kw: ['zucchini noodles with pesto', 'diabetic friendly zucchini noodles', 'gluten free pesto zucchini noodles', 'vegetarian zucchini noodles', 'quick zucchini noodles with pesto'],
+    kw: ['zucchini noodles with pesto', 'no added sugar zucchini noodles', 'gluten free pesto zucchini noodles', 'vegetarian zucchini noodles', 'quick zucchini noodles with pesto'],
     why: 'A quick supper or lunch for two: 15 minutes, one pan and a jar of pesto. Zucchini noodles stand in for pasta and take about 2 minutes to cook, which is the whole point. Pesto does the seasoning. There is almost nothing else to buy. A spiraliser makes the noodles in a minute; a vegetable peeler makes wider ribbons, which hold up well too.\n\nThe risk with zucchini noodles is water. They release it fast. **Cook them for 2 minutes only**, toss them with the pesto off the heat and eat at once, or the sauce turns thin. A hot, wide pan helps, because the water evaporates before it can pool. Pat them in a clean tea towel if they look wet before they go in the pan.\n\nCherry tomatoes soften into a quick, juicy sauce in the same pan. Shaved Parmesan and toasted pine nuts add salt and crunch. Pesto brands vary in salt. Check the label.',
     ing: [
       '500 g zucchini, spiralised into thin strands',
@@ -113,7 +113,7 @@ module.exports = {
   'eggplant-pizzas': {
     d: 'Roasted eggplant rounds topped with tomato sauce, mozzarella and basil, a pizza without dough. Four servings in 35 minutes.',
     meta: 'Eggplant pizzas: thick eggplant rounds roasted, then topped with tomato sauce, oregano and mozzarella and baked. Four servings in 35 minutes.',
-    kw: ['eggplant pizzas', 'diabetic friendly eggplant pizza', 'gluten free eggplant pizza without crust', 'vegetarian eggplant pizza', 'baked eggplant pizza rounds'],
+    kw: ['eggplant pizzas', 'no added sugar eggplant pizza', 'gluten free eggplant pizza without crust', 'vegetarian eggplant pizza', 'baked eggplant pizza rounds'],
     why: 'A pizza night for four, with no dough. Thick rounds of eggplant roast until the edges brown, then take the sauce, cheese and oregano the way a crust would. It is pizza in spirit rather than in texture, and it is ready in 35 minutes. Each round is a small, tidy portion that is easy to share.\n\nEggplant holds water. It needs a head start. **Roast the rounds first**, on their own, until they are tender and have lost some of their moisture; topped raw, they weep into the sauce and the cheese slides off. Slice them as thick as your finger so they stay firm, and brush both sides with oil.\n\nUse a thick, plain passata for the sauce and read the label, since some jars add sugar. Mozzarella melts best grated. Finish with torn basil once the tray is out of the oven, and serve with a crisp salad. Leftover rounds reheat well on a tray in a hot oven.',
     ing: [
       '700 g eggplant, sliced into 12 rounds about 1.5 cm thick',
@@ -145,7 +145,7 @@ module.exports = {
   'cheesy-cauliflower-casserole': {
     d: 'Roasted cauliflower folded into a tangy cheddar, yogurt and cream cheese sauce under a crisp Parmesan and almond topping. Six servings in 45 minutes.',
     meta: 'Cheesy cauliflower casserole: roasted cauliflower in a cheddar and yogurt sauce under a Parmesan and almond crust. Six servings in 45 minutes.',
-    kw: ['cheesy cauliflower casserole', 'diabetic friendly cauliflower casserole', 'gluten free cauliflower casserole', 'vegetarian cauliflower cheese bake', 'baked cheesy cauliflower with yogurt'],
+    kw: ['cheesy cauliflower casserole', 'no added sugar cauliflower casserole', 'gluten free cauliflower casserole', 'vegetarian cauliflower cheese bake', 'baked cheesy cauliflower with yogurt'],
     why: 'Cauliflower, cheddar, cream cheese and Greek yogurt: roast, stir, bake. That is all. There is no condensed soup and no flour, so the sauce is simply cheese and yogurt, tangy and thick. It is a side for six that can easily stand as supper.\n\nRoast the cauliflower first. It drives off water and browns the edges, which gives a nuttier flavour than boiling, and a drier floret that holds the sauce instead of diluting it. **Fold it in while still hot** so the cheese starts to melt on contact. The topping of Parmesan and ground almonds bakes into a crisp lid with no breadcrumbs.\n\nYogurt keeps it light and tangy. Beat it with the cream cheese first, so there are no lumps. Spring onions add a fresh, mild bite. Smoked paprika in the topping gives it a toasted colour. Let the dish rest for a few minutes before you spoon it out. It reheats well, so make it ahead if you like.',
     ing: [
       '900 g cauliflower, cut into florets',
@@ -182,7 +182,7 @@ module.exports = {
   'stuffed-portobello-mushrooms': {
     d: 'Portobello caps baked, then filled with spinach, ricotta, tomato and mozzarella and baked again until bubbling. Four servings in 40 minutes.',
     meta: 'Stuffed portobello mushrooms: caps pre-baked, then filled with spinach, ricotta, cherry tomatoes and mozzarella. Four servings in 40 minutes.',
-    kw: ['stuffed portobello mushrooms', 'diabetic friendly stuffed mushrooms', 'gluten free stuffed portobello mushrooms', 'vegetarian stuffed portobello with spinach and ricotta', 'easy stuffed portobello mushroom caps'],
+    kw: ['stuffed portobello mushrooms', 'no added sugar stuffed mushrooms', 'gluten free stuffed portobello mushrooms', 'vegetarian stuffed portobello with spinach and ricotta', 'easy stuffed portobello mushroom caps'],
     why: 'Stuffed mushrooms go wrong in a predictable way: the caps release their water into the filling and the whole dish turns soggy. The fix is simple. Bake the empty caps first, tip out the liquid, and only then fill them. Serve one per person as a main, or halve them for a starter.\n\nPortobello caps are a meal in themselves. **Scrape out the dark gills** with a spoon so the filling stays pale and the flavour clean, and chop the stems into the spinach rather than wasting them. Press the cooked spinach in a sieve until it stops dripping, because wet filling is the other cause of a watery plate. Chopped cherry tomatoes add a little juice and sweetness to the filling without making it loose.\n\nRicotta gives a mild, creamy base, and Parmesan and mozzarella add savour and a golden top. Serve with a green salad. Choose caps of similar size so they bake in the same time. Leftovers reheat well in a hot oven.',
     ing: [
       '4 large portobello mushroom caps, stems removed and chopped',
@@ -216,7 +216,7 @@ module.exports = {
   'shirataki-noodle-stir-fry': {
     d: 'Shirataki noodles dry-fried, then tossed with golden tofu, mushrooms and pak choi in a ginger and soy sauce. Two servings in 20 minutes.',
     meta: 'Shirataki noodle stir-fry: dry-fried shirataki with tofu, mushrooms, pak choi, ginger and reduced-sodium soy sauce. Two servings in 20 minutes.',
-    kw: ['shirataki noodle stir fry', 'diabetic friendly shirataki noodles', 'vegan shirataki stir fry', 'dairy free shirataki noodle recipe', 'easy shirataki noodle stir fry with tofu'],
+    kw: ['shirataki noodle stir fry', 'no added sugar shirataki noodles', 'vegan shirataki stir fry', 'dairy free shirataki noodle recipe', 'easy shirataki noodle stir fry with tofu'],
     why: 'Why do shirataki noodles need rinsing and dry-frying before they go near a sauce? They come packed in a liquid with a faint, slightly briny smell, and left wet they dilute everything they touch. Rinse them well. Then cook them in a dry pan for 2 minutes, until they squeak and the surface looks matte.\n\nShirataki is made from the konjac plant and is almost all water and fibre, which is why it adds so little carbohydrate. It has no flavour of its own. The stir-fry has to supply it. **Brown the tofu properly** for texture, and keep the vegetables crisp. Ginger, garlic, soy sauce and rice vinegar make a savoury, sharp sauce that the noodles carry well.\n\nReduced-sodium soy sauce keeps the salt down. Serve at once. The noodles turn slippery as they cool, and toasted sesame seeds add a little crunch. A squeeze of lime at the table brightens the dish. Pak choi stems stay crisp while the leaves wilt.',
     ing: [
       '400 g shirataki noodles, drained and rinsed',
@@ -252,7 +252,7 @@ module.exports = {
   'barley-risotto-with-mushrooms': {
     d: 'Pearl barley simmered in unsalted stock with browned mushrooms and thyme, finished with Parmesan and lemon. Four servings in 60 minutes.',
     meta: 'Barley risotto with mushrooms: pearl barley simmered with browned mushrooms and thyme, finished with Parmesan, butter and lemon. Four servings.',
-    kw: ['barley risotto with mushrooms', 'diabetic friendly barley risotto', 'vegetarian barley risotto', 'mushroom barley risotto with parmesan', 'creamy pearl barley risotto'],
+    kw: ['barley risotto with mushrooms', 'no added sugar barley risotto', 'vegetarian barley risotto', 'mushroom barley risotto with parmesan', 'creamy pearl barley risotto'],
     why: 'Toast the barley first. A minute in the hot oil gives it a nutty smell, and each grain keeps its shape through 35 minutes of simmering, so the risotto turns out creamy but chewy rather than gluey. Pearl barley is polished, so it cooks faster than the whole-grain kind.\n\nBarley is more forgiving than rice. It is forgiving about timing too, so the pan can be left for a minute while you do something else. **Add the stock gradually**, a ladle at a time, and keep the barley only just covered, so the sauce thickens as it goes. Taste a grain after 30 minutes: it should be tender with a slight chew in the centre.\n\nCook the mushrooms first, until they are deep gold, and hold half back to stir in at the end so they are not lost among the grains. Parmesan and butter stirred in off the heat make the sauce glossy. Lemon and parsley lighten it. Leftovers make a good lunch.',
     ing: [
       '150 g pearl barley, rinsed',
@@ -288,7 +288,7 @@ module.exports = {
   'baked-tofu-cubes': {
     d: 'Extra-firm tofu cubes baked until crisp at the edges and tossed in a soy, ginger and garlic glaze. Four servings in 40 minutes.',
     meta: 'Baked tofu cubes: pressed tofu baked until golden and crisp, then tossed in a ginger, garlic and reduced-sodium soy glaze. Four servings.',
-    kw: ['baked tofu cubes', 'diabetic friendly baked tofu', 'vegan baked tofu', 'dairy free crispy baked tofu', 'easy baked tofu cubes with soy and ginger'],
+    kw: ['baked tofu cubes', 'no added sugar baked tofu', 'vegan baked tofu', 'dairy free crispy baked tofu', 'easy baked tofu cubes with soy and ginger'],
     why: 'A Sunday batch for the next few days: crisp-edged tofu cubes that go into salads, grain bowls and lunch boxes. They bake rather than fry, so they need a single spoonful of oil, and a dusting of cornflour gives the outside its crust. Cook once, eat for days.\n\nWater is the enemy of crisp tofu. **Press it for 10 minutes** between paper towels under something heavy; the drier it is, the better it crisps. Cut it into cubes of even size so they cook together, and give them space on the tray, since crowded cubes steam. Turn them once, and expect the edges to colour before the centres do.\n\nThe sauce goes on at the end. Toss the cubes in soy, ginger and garlic for the last 5 minutes only, so the coating sets on the surface without burning. Reduced-sodium soy sauce keeps the salt in check. Leftover cubes are good cold in a salad or wrap.',
     ing: [
       '450 g extra-firm tofu, pressed and cut into 2 cm cubes',
@@ -322,7 +322,7 @@ module.exports = {
   'tempeh-stir-fry': {
     d: 'Tempeh browned until crisp and stir-fried with green beans, red pepper, ginger and chilli in a soy and lime sauce. Four servings in 27 minutes.',
     meta: 'Tempeh stir-fry: browned tempeh with green beans, red pepper, ginger, chilli, soy and lime. Vegan, ready in 27 minutes. Serves four.',
-    kw: ['tempeh stir fry', 'diabetic friendly tempeh recipe', 'vegan tempeh stir fry', 'dairy free tempeh and green beans', 'easy tempeh stir fry with green beans'],
+    kw: ['tempeh stir fry', 'no added sugar tempeh recipe', 'vegan tempeh stir fry', 'dairy free tempeh and green beans', 'easy tempeh stir fry with green beans'],
     why: 'Brown the tempeh first. Cut into cubes and left alone in a hot pan, it turns nutty and crisp at the edges, which is where all its flavour is; stirred straight into a sauce it stays pale and plain. Resist the urge to stir it.\n\nTempeh is fermented soya beans pressed into a firm cake. It has more bite than tofu, and a savoury, slightly nutty taste. Browning is not optional. **Cook it until deep golden** before anything else goes in. Vegetables follow in order of how long they need: green beans first, then the pepper, then the garlic and chilli, which burn if they go in early.\n\nThe sauce is soy, lime and a little chilli, so it is salty, sour and hot at once. Taste it and add lime until it balances. Serve with cauliflower rice or a crisp cucumber salad. Cilantro goes on at the end for a fresh, herbal finish.',
     ing: [
       '300 g tempeh, cut into 1.5 cm cubes',

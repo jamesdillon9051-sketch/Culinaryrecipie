@@ -55,9 +55,9 @@ module.exports = [
   c('oyakodon', 'Oyakodon', 'Japanese', 'Quick Meals', 'Easy', 10, 15, 2, 4.8, 2044, ['Dairy-Free'], [], 'Oyakodon'),
   c('omurice', 'Omurice', 'Japanese', 'Lunch', 'Medium', 15, 20, 2, 4.7, 1622, [], [], 'Omurice'),
   c('takoyaki', 'Takoyaki', 'Japanese', 'Appetizers', 'Medium', 25, 25, 4, 4.6, 1244, ['Dairy-Free'], [], 'Takoyaki'),
-  c('zaru-soba', 'Zaru Soba', 'Japanese', 'Lunch', 'Easy', 10, 8, 2, 4.6, 1122, ['Vegan', 'Dairy-Free'], [], 'Zaru soba'),
+  c('zaru-soba', 'Zaru Soba', 'Japanese', 'Lunch', 'Easy', 10, 8, 2, 4.6, 1122, ['Dairy-Free'], [], 'Zaru soba'),
   c('sukiyaki', 'Sukiyaki', 'Japanese', 'Dinner', 'Easy', 20, 20, 4, 4.8, 1466, ['Dairy-Free'], [], 'Sukiyaki'),
-  c('agedashi-tofu', 'Agedashi Tofu', 'Japanese', 'Appetizers', 'Easy', 15, 12, 4, 4.6, 966, ['Vegetarian', 'Dairy-Free'], [], 'Agedashi tofu'),
+  c('agedashi-tofu', 'Agedashi Tofu', 'Japanese', 'Appetizers', 'Easy', 15, 12, 4, 4.6, 966, ['Dairy-Free'], [], 'Agedashi tofu'),
   c('chawanmushi', 'Chawanmushi', 'Japanese', 'Appetizers', 'Medium', 15, 20, 4, 4.6, 744, ['Dairy-Free'], [], 'Chawanmushi'),
   c('tamagoyaki', 'Tamagoyaki', 'Japanese', 'Breakfast', 'Medium', 5, 10, 2, 4.7, 1533, ['Dairy-Free'], [], 'Tamagoyaki'),
   c('dorayaki', 'Dorayaki', 'Japanese', 'Desserts', 'Easy', 20, 20, 8, 4.7, 1188, ['Vegetarian'], [], 'Dorayaki'),
@@ -106,7 +106,7 @@ module.exports = [
   c('refried-beans', 'Refried Beans', 'Mexican', 'Dinner', 'Easy', 10, 25, 6, 4.7, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Refried beans'),
   c('flan-napolitano', 'Flan Napolitano', 'Mexican', 'Desserts', 'Medium', 20, 60, 8, 4.8, 2544, ['Vegetarian', 'Gluten-Free'], [], 'Flan caramel custard'),
   c('tres-leches-cake', 'Tres Leches Cake', 'Mexican', 'Desserts', 'Easy', 25, 35, 12, 4.9, 3411, ['Vegetarian'], ['trending'], 'Tres leches cake'),
-  c('michelada', 'Michelada', 'Mexican', 'Drinks', 'Easy', 5, 0, 1, 4.6, 1244, ['Vegan', 'Dairy-Free'], [], 'Michelada'),
+  c('michelada', 'Michelada', 'Mexican', 'Drinks', 'Easy', 5, 0, 1, 4.6, 1244, ['Dairy-Free'], [], 'Michelada'),
 
   /* --------------------------------------------------------- American (30) */
   c('chicken-pot-pie', 'Chicken Pot Pie', 'American', 'Dinner', 'Medium', 30, 45, 6, 4.8, 3244, [], ['editors'], 'Chicken pot pie pastry crust'),
@@ -145,7 +145,7 @@ module.exports = [
   c('cottage-pie', 'Cottage Pie', 'British', 'Dinner', 'Easy', 25, 50, 6, 4.8, 2277, [], [], 'Cottage pie'),
   c('cornish-pasty', 'Cornish Pasty', 'British', 'Lunch', 'Medium', 35, 50, 6, 4.7, 1466, [], [], 'Cornish pasty'),
   c('roast-beef-yorkshire', 'Roast Beef and Yorkshire Puddings', 'British', 'Holiday Specials', 'Medium', 25, 90, 6, 4.9, 2688, [], ['editors'], 'Roast beef yorkshire pudding'),
-  c('welsh-rarebit', 'Welsh Rarebit', 'British', 'Quick Meals', 'Easy', 10, 10, 2, 4.6, 1044, ['Vegetarian'], [], 'Welsh rarebit'),
+  c('welsh-rarebit', 'Welsh Rarebit', 'British', 'Quick Meals', 'Easy', 10, 10, 2, 4.6, 1044, [], [], 'Welsh rarebit'),
   c('eton-mess', 'Eton Mess', 'British', 'Desserts', 'Easy', 15, 75, 4, 4.8, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Eton mess'),
   c('victoria-sponge', 'Victoria Sponge', 'British', 'Baking', 'Easy', 20, 25, 10, 4.8, 2411, ['Vegetarian'], [], 'Victoria sponge cake'),
   c('bakewell-tart', 'Bakewell Tart', 'British', 'Baking', 'Medium', 30, 40, 8, 4.7, 1533, ['Vegetarian'], [], 'Bakewell tart'),
@@ -229,7 +229,7 @@ module.exports = [
   /* ------------------------------------- Central, Eastern Europe & Nordic (8) */
   c('chicken-kiev', 'Chicken Kiev', 'Ukrainian', 'Dinner', 'Medium', 30, 25, 4, 4.8, 2044, [], [], 'Chicken kiev'),
   c('blini', 'Blini with Soured Cream', 'Russian', 'Breakfast', 'Easy', 15, 20, 6, 4.6, 1122, ['Vegetarian'], [], 'Blini pancakes'),
-  c('olivier-salad', 'Olivier Salad', 'Russian', 'Holiday Specials', 'Easy', 30, 20, 8, 4.6, 1244, ['Vegetarian', 'Gluten-Free'], [], 'Olivier salad'),
+  c('olivier-salad', 'Olivier Salad', 'Russian', 'Holiday Specials', 'Easy', 30, 20, 8, 4.6, 1244, ['Gluten-Free'], [], 'Olivier salad'),
   c('golabki', 'Gołąbki', 'Polish', 'Dinner', 'Medium', 35, 75, 6, 4.7, 1044, ['Gluten-Free', 'Dairy-Free'], [], 'Golabki cabbage rolls'),
   c('spaetzle', 'Käsespätzle', 'German', 'Dinner', 'Easy', 20, 20, 4, 4.7, 1533, ['Vegetarian'], [], 'Kasespatzle'),
   c('sauerbraten', 'Sauerbraten', 'German', 'Holiday Specials', 'Medium', 30, 180, 6, 4.7, 966, ['Dairy-Free'], [], 'Sauerbraten'),
@@ -252,10 +252,10 @@ module.exports = [
   c('chia-pudding', 'Chia Pudding', 'International', 'Healthy', 'Easy', 8, 0, 2, 4.6, 1622, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Chia pudding'),
   c('granola', 'Maple Pecan Granola', 'International', 'Breakfast', 'Easy', 10, 35, 12, 4.8, 2277, ['Dairy-Free', 'Vegetarian'], [], 'Granola'),
   c('quinoa-salad', 'Lemon Herb Quinoa Salad', 'International', 'Healthy', 'Easy', 15, 15, 4, 4.7, 1877, ['Gluten-Free', 'Vegetarian'], [], 'Quinoa salad'),
-  c('lentil-soup', 'Spiced Red Lentil Soup', 'International', 'Healthy', 'Easy', 10, 35, 4, 4.8, 2411, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Lentil soup'),
+  c('lentil-soup', 'Spiced Red Lentil Soup', 'International', 'Healthy', 'Easy', 10, 35, 4, 4.8, 2411, ['Vegetarian', 'Gluten-Free'], [], 'Lentil soup'),
   c('negroni', 'Negroni', 'International', 'Drinks', 'Easy', 5, 0, 1, 4.8, 2133, ['Vegan', 'Gluten-Free'], [], 'Negroni cocktail'),
   c('pina-colada', 'Piña Colada', 'International', 'Drinks', 'Easy', 5, 0, 2, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Pina colada'),
-  c('bloody-mary', 'Bloody Mary', 'International', 'Drinks', 'Easy', 8, 0, 1, 4.6, 1622, ['Vegan', 'Dairy-Free'], [], 'Bloody mary cocktail'),
+  c('bloody-mary', 'Bloody Mary', 'International', 'Drinks', 'Easy', 8, 0, 1, 4.6, 1622, ['Dairy-Free'], [], 'Bloody mary cocktail'),
   c('bubble-tea', 'Brown Sugar Bubble Tea', 'International', 'Drinks', 'Medium', 15, 25, 2, 4.8, 2955, ['Vegetarian'], ['trending'], 'Bubble tea boba'),
   c('mulled-wine', 'Mulled Wine', 'International', 'Drinks', 'Easy', 5, 20, 6, 4.7, 1533, ['Vegan', 'Gluten-Free'], [], 'Mulled wine')
 ];

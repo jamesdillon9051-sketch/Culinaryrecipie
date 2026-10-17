@@ -61,11 +61,15 @@ WEBP_Q, JPEG_Q = 68, 70
 # commercial use beside advertising, and resizing — while requiring no credit
 # at all. They are listed by exact name so that a third stock library cannot
 # arrive through the same clause without someone reading its terms first.
+# Pixabay is that third library, added after its Content License was read for
+# the same two points: commercial use and modification are both allowed and no
+# credit is required (it forbids selling unaltered copies and implying an
+# endorsement, neither of which a recipe page does).
 _ALLOWED = re.compile(
     r"^(cc0|public domain|pdm|no restrictions"
     r"|cc[-\s]?by(?:[-\s]?sa)?\b"
     r"|attribution(?:[-\s]?share[-\s]?alike)?\b"
-    r"|pexels licen[cs]e$|unsplash licen[cs]e$)", re.I)
+    r"|pexels licen[cs]e$|unsplash licen[cs]e$|pixabay content licen[cs]e$)", re.I)
 # Checked separately rather than as a lookahead: "CC BY-SA-NC" backtracks past a
 # lookahead placed after the optional SA and comes out accepted. A clause that
 # may appear anywhere in the string is safer read anywhere in the string.
@@ -1020,6 +1024,13 @@ def wikipedia_lead_candidates(title, tags=()):
 # with no key gets the archive sources and the same pipeline, one source short.
 PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
+# Pexels stopped issuing new API keys in 2026; Pixabay still issues them free.
+PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "").strip()
+# Pixabay hosts AI-generated pictures beside photographs, and the owner wants
+# real photographs only. Uploaders tag the generated ones, so a tag is enough
+# to drop them here; whatever slips through is still looked at before it is
+# published.
+AI_TAG = re.compile(r"\b(ai[-\s]?generated|generative|midjourney|stable diffusion|dall-?e|ai art)\b", re.I)
 
 
 def _stock_candidate(title, url, page, author, licence, licence_url, source,
@@ -1083,6 +1094,33 @@ def unsplash_candidates(query, tags=()):
             (photo.get("links") or {}).get("html", ""), user.get("name", ""),
             "Unsplash License", "https://unsplash.com/license", "Unsplash",
             photo.get("width", 0), photo.get("height", 0), query, tags)
+        if candidate:
+            out.append(candidate)
+    return out
+
+
+def pixabay_candidates(query, tags=()):
+    if not PIXABAY_KEY:
+        return []
+    data = http_json(
+        "https://pixabay.com/api/?" + urllib.parse.urlencode(
+            {"key": PIXABAY_KEY, "q": query[:100], "image_type": "photo",
+             "orientation": "horizontal", "category": "food",
+             "safesearch": "true", "per_page": 12}),
+        tries=3)
+    out = []
+    for photo in (data or {}).get("hits", []):
+        # Pixabay has no caption, only the uploader's tags, so those stand in
+        # for the title that relevance() and the diet check read.
+        tag_text = photo.get("tags") or ""
+        if AI_TAG.search(tag_text):
+            continue
+        candidate = _stock_candidate(
+            tag_text, photo.get("largeImageURL") or photo.get("webformatURL") or "",
+            photo.get("pageURL", ""), photo.get("user", ""),
+            "Pixabay Content License", "https://pixabay.com/service/license-summary/",
+            "Pixabay", photo.get("imageWidth", 0), photo.get("imageHeight", 0),
+            query, tags)
         if candidate:
             out.append(candidate)
     return out
@@ -1531,12 +1569,20 @@ def gather(query, tags=(), reject=()):
     # indexes dishes by name has been asked and failed.
     attempts.append(lambda: pexels_candidates(query, tags))
     attempts.append(lambda: unsplash_candidates(query, tags))
+    attempts.append(lambda: pixabay_candidates(query, tags))
     # A dish the archives hold nothing for costs the whole chain — eight
     # searches, each paced against a rate limit, each fetching metadata per
     # result — and that was measured at five to thirteen minutes a recipe.
     # Across the volumes added here, which are deliberately weighted towards
     # dishes that are thinly covered, that is most of the run spent on the
     # recipes least likely to yield anything.
+    #
+    # STOCK_ONLY=1 asks only the stock libraries: for a pass over recipes the
+    # archives have already been searched for, and failed, many times.
+    if os.environ.get("STOCK_ONLY"):
+        attempts = [lambda: pexels_candidates(query, tags),
+                    lambda: unsplash_candidates(query, tags),
+                    lambda: pixabay_candidates(query, tags)]
     #
     # So the chain is time-boxed rather than shortened. The first two attempts
     # always run, because they are the ones that find the well-covered dishes;

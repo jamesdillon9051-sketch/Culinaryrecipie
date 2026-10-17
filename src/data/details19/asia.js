@@ -462,8 +462,7 @@ module.exports = {
     ],
     pair: ['Gyoza', 'Pickled bamboo shoots', 'Cold beer'],
     store: 'The broth keeps 4 days refrigerated and freezes 3 months. Boil noodles to order.',
-    nut: [745, 42, 78, 29, 4, 7, 2100],
-    rest: [90, 'simmering the broth']
+    nut: [745, 42, 78, 29, 4, 7, 2100]
   },
 
   'ebi-fry': {

@@ -34,6 +34,10 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | `npm run selftest` | Tests for the voice rules, layouts, overlay, validator and pipeline. No key, no network. Run it after touching any of them. |
 | `npm run readme` | Re-derive the counts in README.md. `check` fails if they are stale. |
 | `npm run missing` | Rewrite `MISSING-IMAGES.txt` from the data: every recipe with no picture at all (an AI illustration counts as a picture), by cuisine. |
+| `node tools/diet-audit.js --conditional` | List every diet label that holds only with a swap the recipe offers, and the method steps that name only the non-compliant side. |
+| `node tools/robots-check.js --verbose` | What `robots.txt` allows and blocks for each crawler (part of `check`). |
+| `node tools/private-paths-check.js [--url https://weeklydelight.com]` | That `.htaccess` refuses the source and working files and still serves the site; with `--url`, against the live host (part of `check`, offline). |
+| `node tools/published-dates.js --dry-run` | Re-derive `src/data/published-dates.json` from git history (section 7). Only ever run to repair the register. |
 
 Before any commit: `npm run build && npm run check`.
 
@@ -50,7 +54,7 @@ c(slug, title, cuisine, category, difficulty, prepMin, cookMin, servings, rating
 - `category`: Dinner, Quick Meals, Healthy, Appetizers, Baking, Desserts, Lunch, Drinks, Breakfast or Holiday Specials. **Quick Meals must be 30 minutes or less of prep + cook, or the build fails.**
 - `difficulty`: Easy, Medium or Hard.
 - `rating`, `reviews`: an ordering weight only. New volumes write `0, 0`. A star rating is shown only if `src/data/reviews.json` holds a real review for that recipe, and that file is empty on purpose.
-- `dietTags`: Vegetarian, Vegan, Gluten-Free and Dairy-Free are checked against the ingredient list by `npm run diet`. The build adds derived tags (High-Protein, Low-Carb…) itself.
+- `dietTags`: Vegetarian, Vegan, Gluten-Free and Dairy-Free are judged against the ingredient list by `src/lib/diet-conditions.js` (`npm run diet`). A tag holds *clean* (nothing breaks it), *conditional* (a line offers the way out: "honey or sugar", "parmesan, to serve", a PDO cheese, ordinary oats, an unspecified stock cube) or is *contradicted* (the build's check fails). A conditional tag shows as "Vegan option" with the condition printed ("Vegan when made with sugar rather than honey.") and is left out of the Recipe JSON-LD. If the method names only the forbidden side ("stir the honey into the water"), reword the step. The build adds derived tags (High-Protein, Low-Carb…) itself. Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly are withdrawn (section 9) and fail the build if used.
 - `badges`: `'new'` for a new volume.
 
 **Detail**: `src/data/details/` (volume 1) and `src/data/details2/` … `details31/`. Each file is `module.exports = { 'slug': { … } }` with these fields:
@@ -59,16 +63,16 @@ c(slug, title, cuisine, category, difficulty, prepMin, cookMin, servings, rating
 | --- | --- | --- |
 | `d` | The lede under the title; also the JSON-LD description and card text | Plain, factual, 60 to 260 characters. Times it mentions are checked against the row. |
 | `meta` | The search-result description | About 90 to 150 characters. The build clamps at 158 and pads to 140–160. |
-| `kw` | 4 to 6 search phrases, the first is the primary | Every phrase must be *true* of the recipe: "30 minute" only if prep + cook is 30 or less, "freezer" only if the storage note says so. `npm run keywords` checks. |
+| `kw` | 4 to 6 search phrases, the first is the primary | Every phrase must be *true* of the recipe: "30 minute" only if the whole recipe, waiting included, takes 30 or less; "freezer" only if the storage note says so. `npm run keywords` checks. These are the only phrases published in the Recipe JSON-LD `keywords` and the keywords meta tag; the generated long tail feeds the site's own search only. |
 | `why` | The explanation: what the dish is and why the method works | For a new recipe 150 to 260 words in 2 to 4 paragraphs (blank line between). `**bold**` allowed, at most 3 spans. |
 | `ing` | Ingredient lines, metric first | A line starting `# ` is a group label. |
 | `st` | Method steps | Times in the steps must agree with prep, cook and `rest` (`npm run timing`). |
 | `tips` | 2 to 5 practical tips | `**bold**` allowed, at most 2 spans across all tips. |
 | `pair` | 2 to 6 short serving suggestions | |
 | `store` | The storage note | Shelf lives are the recipe's own and are not invented. |
-| `nut` | `[kcal, protein g, carbs g, fat g, fibre g, sugar g, sodium mg]` per serving | Seven values. Calories must match the macros (`npm run nutrition`). In volumes 32 to 34 it is computed from `ing` by `npm run calc` (section 9). |
-| `kp` | Optional `[potassium mg, phosphorus mg]` per serving | Written by `npm run calc` for recipes that carry the Kidney-Friendly label, and printed beside the nutrition table. |
-| `rest` | Optional `[minutes, 'Label']` for unattended waiting (proving, chilling) | Required whenever the method describes an hour or more of waiting. |
+| `nut` | `[kcal, protein g, carbs g, fat g, fibre g, sugar g, sodium mg]` per serving | Seven values. Calories must match the macros (`npm run nutrition`). In volumes 32 to 34 it is computed from `ing` by `npm run calc` (section 9). The page says "worked out from the ingredient list" only where the calculator reproduces the figures, and "an estimate made when the recipe was written" everywhere else (`nutritionSource` in `src/build.js`). |
+| `kp` | Optional `[potassium mg, phosphorus mg]` per serving | Estimates, kept up to date by `npm run calc` wherever present (volume 34), printed as "(est.)" beside the nutrition table. |
+| `rest` | Optional `[minutes, 'Label']` for unattended waiting (proving, chilling) | The build reads the waiting from the method itself (`src/lib/timing.js`, as a floor and a ceiling: "12 to 24 hours", "overnight"). `rest` is optional; when given, its minutes must equal the detected floor (`npm run timing`). Every time a reader sees (cards, titles, descriptions, keywords, `totalTime`) is the elapsed time, waiting included. A `meta` that says "ready in N minutes" must name the wait ("plus rising"). |
 | `layout`, `headings` | Optional, see section 4.2 | Usually written only by the rewrite pipeline. |
 
 Volumes are found by name (`catalog-N.js` + `detailsN/`) and sorted numerically by `src/data/volumes.js`. Nothing else needs registering.
@@ -210,7 +214,7 @@ There are 6 layouts (`src/lib/layouts.js`). A recipe gets one from its slug unle
 
 `why` is `panel` (tinted box, drop cap), `plain` (ordinary section) or `lead` (no heading, the text just runs on). `tips` is `list`, `numbered` or `notes` (each tip a short paragraph). `serve` is `list` or `line` (suggestions on one line).
 
-Fixed in every layout: `id="method"` on the method heading, `id="faq"`, `id="why-title"` when there is a why heading, the recipe name in the method heading, and the ingredients card.
+Fixed in every layout: `id="method"` on the method heading, `id="why-title"` when there is a why heading, the recipe name in the method heading, and the ingredients card. The FAQ section (`id="faq"`) appears only where `src/lib/faq.js` has something to ask that the page does not already say in one place (the waiting, and the sauce questions on carbonara, alfredo and cacio e pepe); a heading over one restated fact is filler, so most recipes have none.
 
 <!-- layouts:end -->
 
@@ -225,7 +229,9 @@ The site is read by people and by Google's quality systems, and both penalise th
 - **No invented popularity.** The catalogue's `rating` and `reviews` only order the lists, and the site keeps no analytics of what readers cook, save or print. A list may be in an order; it may not say readers chose it. No "ranked by what readers cook most", "Trending", "Top rated" or "Most popular" while `src/data/reviews.json` is empty, and `npm run check` fails on them.
 - **No new history.** Do not add a date, chef, region or named person that is not already in the recipe. When unsure, soften ("is said to have been") or leave it out.
 - **Only the recipe's own numbers.** Temperatures, weights, shelf lives and times are the recipe's. A "check early" time in advice may be any time shorter than one the recipe states.
-- **No health promises.** A health label (section 9) describes numbers printed on the page. Never write "safe for diabetics", "kidney-safe", "lowers blood sugar", "burns fat", "detox" or "cures", in any recipe or heading, and never add a health tag by hand to a recipe that does not pass `npm run health`. The audit fails on the promises it can recognise; the rest is on you.
+- **No health promises and no suitability labels.** Never write "safe for diabetics", "kidney-safe", "lowers blood sugar", "burns fat", "detox" or "cures", in any recipe or heading, and do not label a recipe as suiting a condition (diabetes, kidney disease) or an outcome (weight loss): the three labels that did were withdrawn (section 9). Search phrases may state numbers the page prints ("under 400 calories", "no added salt"). `npm run health` fails on the promises it can recognise and on a withdrawn label; the rest is on you.
+- **Diet labels with their conditions.** A label that holds only with a swap says so on the page, and the structured data leaves it out (section 3, `dietTags`). Do not "fix" a contradicted tag by adding an alternative the recipe does not really offer.
+- **Only claims the page can keep.** A description, keyword or title that promises a time must hold with the waiting included; the nutrition note says whether the figures were calculated or estimated.
 - **No invented publication history.** Never backdate, spread, randomise or otherwise fabricate `datePublished` or any publication timestamp, and do not build tooling that does. Section 7 says what the site publishes today and why it needs a decision.
 
 ## 5. Adding a volume
@@ -274,32 +280,32 @@ The "Common Substitutions" and FAQ blocks on each page are generated from the re
 
 ## 7. Dates
 
-- **`dateModified`** (Recipe JSON-LD, sitemap `lastmod`) is honest: it comes from the content-date register and moves only when a recipe's content changes.
-- **`datePublished`** (Recipe JSON-LD, `article:published_time`, the RSS and Pinterest `pubDate`, and the `z` field of `search-index.json` that the "newest" sort uses) is **synthetic**. `loadRecipes()` in `src/build.js` derives it from a recipe's position in the catalogue, counted back from 2026-07-01, which spreads the recipes across April 2013 to June 2026. This repository's first commit is 2026-09-09 and its whole history is three weeks. Unless the site was live somewhere else before that, those dates are not real publication dates.
-- **Do not extend this.** No spreading, randomising or backdating of publication dates or timestamps, in the build or in any tool. Replacing the synthetic dates is the owner's decision (section 8).
+- **`dateModified`** (Recipe JSON-LD, sitemap `lastmod`) is honest: it comes from the content-date register (`src/data/content-dates.json`) and moves only when a recipe's content changes.
+- **`datePublished`** (Recipe JSON-LD, `article:published_time`, the RSS and Pinterest `pubDate`, and the `z` field of `search-index.json` that the "newest" sort uses) comes from `src/data/published-dates.json`: the day each page first appeared in this repository's history, derived once from git by `tools/published-dates.js`. A new recipe gets the date of the build that first publishes it, and the date never moves after that. It used to be synthetic (counted back from 2026-07-01 across 2013 to 2026); that was replaced in October 2026.
+- **Do not edit either register by hand**, and do not spread, randomise or backdate publication dates in any tool. If the site was live somewhere else before September 2026 and the owner can show when, that is the only reason to change a published date.
 
 ## 8. Open decisions for the owner
 
-Found while writing these rules. None has been changed.
+The October 2026 audit settled the two decisions that used to be here: the synthetic `datePublished` was replaced with git-recorded first-seen dates (section 7), and the About page and recipe byline no longer say every recipe was cooked and tested (they say the recipes are written with AI assistance and checked by script). Still the owner's to decide:
 
-1. **Synthetic `datePublished`** (section 7). Options: (a) real first-seen dates taken from git history (`git log --diff-filter=A`), which are true and will show the recipes arriving in volumes; (b) drop `datePublished` from the schema and feeds and keep only the honest `dateModified`; (c) leave it. For new recipes going forward, a real publication schedule (release a few a week, each with its real date) is the honest way to get a natural-looking history.
-2. **Testing claims on the site itself.** `src/templates/pages.js` (the About page: "cooked in an ordinary kitchen", "None of this replaces actually cooking the thing, which I still do for every recipe here", the "Tested recipes" counters) and the byline on every recipe page in `src/templates/recipe-page.js` ("Written and tested by …") say each recipe was cooked and tested by the named author. That is not true of recipes an AI session drafted, and it is the kind of claim Google's misrepresentation policies and its quality raters look for. Recommended: reword to what is true (checked by scripts; written with AI assistance and edited by the owner; nutrition estimated). It is the owner's public identity, so it is the owner's call.
+1. **The byline and About wording.** The new text is a proposal for the owner's public identity; adjust it, keeping it true.
+2. **Health labels.** Withdrawn pending review by a registered dietitian (section 9). Reinstating any of them is the owner's call, after that review.
+3. **Contact form.** `contact/send.php` needs a config file outside `public_html` naming the inbox (see `tools/contact-config.example.php` and README, "Deploying"). Until it exists the form says, truthfully, that nothing was sent.
+4. **What gets deployed.** The whole repository is in the web root; `.htaccess` refuses the private paths, but deploying only the built site is the real fix (README, "Deploying").
+5. **Search Console and analytics.** Any claim about traffic or indexing needs the owner's exports (Performance, Pages, Crawl stats); none were available to the audit.
 
-## 9. Health labels and the nutrition calculator
+## 9. Health labels (withdrawn) and the nutrition calculator
 
-Volumes 32 to 34 carry three hand-written diet tags, each a claim about numbers on the page: **Diabetes-Friendly**, **Weight-Loss Friendly** and **Kidney-Friendly**. The exact limits are in `src/lib/health.js` and nowhere else; the recipe page, `tools/health-audit.js` (`npm run health`, part of `npm run check`) and the README all read them from there. In short:
+Volumes 32 to 34 carried three hand-written tags, **Diabetes-Friendly**, **Weight-Loss Friendly** and **Kidney-Friendly**, each held to numeric limits in `src/lib/health.js`. They were **withdrawn in October 2026**. Each named a condition or an outcome rather than the dish, which makes it a claim that the dish suits a person; the potassium and phosphorus figures behind the kidney label come from a food table written for this site; and no dietitian has reviewed any of it. A disclaimer beside such a label does not substitute for that review.
 
-- **Diabetes-Friendly**: no added sugar (nothing on the ingredient list that is sugar, honey, syrup or a sweetened sauce such as ketchup or teriyaki); carbohydrate at most 40 g a serving, or 20 g for an appetizer, bake, dessert or drink; at least 3 g of fibre when carbohydrate is above 20 g; sodium at most 700 mg.
-- **Weight-Loss Friendly**: at most 400 kcal a serving, and above 200 kcal at least 15 g of protein or 5 g of fibre.
-- **Kidney-Friendly**: sodium at most 500 mg, potassium at most 700 mg and phosphorus at most 350 mg a serving, the last two in `kp`; no cured meat, salt substitute, stock cube or processed cheese on the ingredient list. Say "kidney-friendly", never "safe". Protein is not part of the label: how much a person with kidney disease needs depends on the stage and on dialysis, and the page says so.
+- No recipe carries them, `DIET_TAGS` does not offer them as filters, the Recipe JSON-LD no longer emits `DiabeticDiet` (nor `LowCalorieDiet`, `LowFatDiet` or `LowSaltDiet`, which were thresholds of the site's own), and `npm run health` fails if one comes back. The limits stay in `src/lib/health.js`, unused, so a reviewer can see exactly what the labels stood for.
+- Their search phrases were replaced with the numbers the pages print: "no added sugar …" (volume 32), "… under 400 calories" (volume 33), "no added salt …" or "high protein …" (volume 34). `npm run keywords` checks each against the record.
+- `npm run health` now holds: no withdrawn label; no outcome promise in any recipe; the volumes whose nutrition is computed still reproduce it; volume 34 still protein-rich.
 
-Each tag is added to the catalogue row (`generated from the verified list`, see the generator note in the volume header) and is checked, never derived, so a tag only ever sits on a recipe that was measured. Every recipe page prints its own figures, the limits and a plain "this is not medical advice" note.
-
-**Writing a health-labelled recipe**
+**Writing a recipe whose nutrition is calculated**
 
 1. Write `ing` in the shape the calculator reads: `<quantity> <unit> <food>[, preparation]`, metric first, an amount on every line except pepper, one food per line, and drained or cooked weights in grams rather than tins or cups. Say "unsalted stock" if it is, and give the salt as a measure. `npm run calc -- --slug <slug> --lines` shows how each line was read; a line it cannot read is a failure, not a zero.
-2. Run `npm run calc -- --volume N --write`. It fills `nut` (and `kp` for Kidney-Friendly recipes) from the ingredient list. Do not type nutrition by hand into a labelled recipe; the audit fails if it differs from what the ingredients add up to.
-3. `tools/nutrition-foods.js` is the food table, written from memory of standard composition tables and good to about 10 per cent. Add a food there (and a `KP` entry for kidney recipes) rather than rewording a line to dodge a mismatch.
+2. Run `npm run calc -- --volume N --write`. It fills `nut` (and `kp` where a recipe already prints it) from the ingredient list. Do not type nutrition by hand into a calculated recipe; the audit fails if it differs from what the ingredients add up to.
+3. `tools/nutrition-foods.js` is the food table, written from memory of standard composition tables and good to about 10 per cent. Add a food there rather than rewording a line to dodge a mismatch.
 4. Where a recipe is sweetened with erythritol or another sweetener that is not absorbed, the table counts it as no carbohydrate and the recipe says so beside its figures.
 5. Nothing in the prose may promise an outcome (section 4.3).
-

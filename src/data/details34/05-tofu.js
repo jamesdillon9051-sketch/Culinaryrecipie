@@ -14,8 +14,8 @@
 module.exports = {
   'sesame-greens-with-tofu': {
     d: 'Crisp-fried extra-firm tofu tossed with pak choi, garlic and ginger in a light rice vinegar and sesame oil dressing. Three servings in 27 minutes.',
-    meta: 'Sesame greens with tofu: crisp tofu cubes tossed with pak choi, garlic, ginger and sesame oil. Vegan. Kidney friendly. Three servings in 27 minutes.',
-    kw: ['sesame greens with tofu', 'kidney friendly tofu and greens', 'vegan sesame pak choi and tofu', 'dairy free tofu with sesame greens', 'quick sesame tofu and greens'],
+    meta: 'Sesame greens with tofu: crisp tofu cubes tossed with pak choi, garlic, ginger and sesame oil. Vegan. Three servings in 27 minutes.',
+    kw: ['sesame greens with tofu', 'vegan sesame pak choi and tofu', 'dairy free tofu with sesame greens', 'quick sesame tofu and greens'],
     why: 'Smell is the first signal. Sesame oil warming on hot greens, with garlic and ginger underneath, means the pan is ready for the vinegar. Glossy stems and wilted leaves mean the dish is done, and it will not be long from one to the other.\n\nPress the tofu first. Wrap it in a clean towel, set a plate and a tin on top and leave it for 15 minutes, because water squeezed out now will not spit in the pan later. **Cube it and fry it hard**, in a single layer, until the edges are golden and crisp. Plain tofu has no flavour of its own, so the crust is the point.\n\nThis dish gets its protein from the tofu, and phosphorus climbs with it, so the portion and the sides are planned together. Pak choi is a mild green that cooks in minutes. A teaspoon of low-sodium soy sauce across three servings, plus rice vinegar and sesame oil, gives enough savour. Serve with white rice.',
     ing: [
       '680 g extra-firm tofu, pressed and cubed',
@@ -47,8 +47,8 @@ module.exports = {
 
   'baked-tofu-with-garlic-and-ginger': {
     d: 'Slabs of pressed tofu baked crisp with a sticky glaze of garlic, ginger, rice vinegar and maple syrup, scattered with spring onions. Three servings in 45 minutes.',
-    meta: 'Baked tofu with garlic and ginger: pressed tofu slabs baked crisp with a sticky ginger glaze. Vegan. Kidney friendly. Three servings in 45 minutes.',
-    kw: ['baked tofu with garlic and ginger', 'kidney friendly baked tofu', 'vegan baked tofu with soy and ginger glaze', 'dairy free crispy baked tofu', 'easy baked tofu for three'],
+    meta: 'Baked tofu with garlic and ginger: pressed tofu slabs baked crisp with a sticky ginger glaze. Vegan. Three servings in 45 minutes.',
+    kw: ['baked tofu with garlic and ginger', 'vegan baked tofu with soy and ginger glaze', 'dairy free crispy baked tofu', 'easy baked tofu for three'],
     why: 'The oven tells you when it is ready. Garlic and ginger turn sweet and toasty, and the tofu edges look dry and a shade darker. That is the time to take the tray out and brush on the glaze.\n\nSlabs of tofu, about 1.5 cm thick, bake better than cubes: more surface, more crust. **Press the tofu first**, for 15 minutes, because wet tofu steams in the oven and never crisps. A dusting of cornflour dries the surface and helps it brown. The glaze of low-sodium soy sauce, rice vinegar, maple syrup, garlic and ginger goes on in the last few minutes. Brush on the glaze twice.\n\nThe glaze is sweet, sharp and savoury, and it contains one tablespoon of low-sodium soy sauce for three servings, which is much less than a typical tofu marinade. Maple syrup gives a lacquered finish. Serve with white rice and steamed cabbage or green beans. Sprinkle with spring onions.',
     ing: [
       '700 g extra-firm tofu, pressed and cut into slabs',
@@ -81,8 +81,8 @@ module.exports = {
 
   'tofu-and-cabbage-stir-fry': {
     d: 'Crisp-fried tofu cubes tossed with shredded cabbage, carrot, garlic and ginger in a light low-sodium soy sauce. Three servings in 27 minutes.',
-    meta: 'Tofu and cabbage stir-fry: crisp tofu with shredded cabbage, carrot, garlic and ginger in a light soy sauce. Vegan. Kidney friendly. Three servings.',
-    kw: ['tofu and cabbage stir fry', 'kidney friendly tofu stir fry', 'vegan tofu and cabbage stir fry', 'low sodium tofu cabbage stir fry', 'easy tofu stir fry for three'],
+    meta: 'Tofu and cabbage stir-fry: crisp tofu with shredded cabbage, carrot, garlic and ginger in a light soy sauce. Vegan. Three servings.',
+    kw: ['tofu and cabbage stir fry', 'vegan tofu and cabbage stir fry', 'low sodium tofu cabbage stir fry', 'easy tofu stir fry for three'],
     why: 'Tofu in a stir-fry often falls apart or turns soggy. Be patient. The fix has three parts: press it, fry it first, and leave it alone until a crust forms, and after that the cubes hold their shape when the cabbage and sauce go in.\n\nCabbage cooks in about 4 minutes if it is shredded finely. **Shred it thin** and keep the pan hot, so that it wilts and chars instead of stewing. Carrot adds sweetness and colour. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water, and it is just enough to glaze. Stir quickly, and serve before the cabbage loses its bite.\n\nTofu brings the protein, and cabbage brings bulk without much potassium or sodium. A single tablespoon of soy sauce serves three. Serve over white rice, which keeps the plate light in phosphorus compared with brown rice. Leftovers keep for two days and reheat in a hot pan.',
     ing: [
       '700 g extra-firm tofu, pressed and cubed',
@@ -116,8 +116,8 @@ module.exports = {
 
   'tofu-pineapple-stir-fry': {
     d: 'Crisp-fried tofu tossed with fresh pineapple, red pepper, onion, garlic and ginger in a lime and low-sodium soy sauce. Three servings in 27 minutes.',
-    meta: 'Tofu pineapple stir-fry: crisp tofu with pineapple, red pepper, garlic and ginger in a lime and soy sauce. Vegan. Kidney friendly. Three servings.',
-    kw: ['tofu pineapple stir fry', 'kidney friendly tofu stir fry with pineapple', 'vegan tofu and pineapple stir fry', 'dairy free sweet and sour tofu with pineapple', 'easy tofu pineapple stir fry for three'],
+    meta: 'Tofu pineapple stir-fry: crisp tofu with pineapple, red pepper, garlic and ginger in a lime and soy sauce. Vegan. Three servings.',
+    kw: ['tofu pineapple stir fry', 'vegan tofu and pineapple stir fry', 'dairy free sweet and sour tofu with pineapple', 'easy tofu pineapple stir fry for three'],
     why: 'Tofu, fresh pineapple, red pepper, onion, garlic and ginger, in a sauce of lime juice and a little low-sodium soy sauce. Sweet and sour, with no ketchup. The pineapple supplies the sweetness, and the lime supplies the sour, so there is no need for sugar or a bottled sauce.\n\nPineapple needs high heat. **Sear the chunks briefly** in a hot corner of the wok so that the edges caramelise and some of the juice cooks off, then fold them into the tofu. Red pepper and onion go in first, for 3 minutes. Add the sauce at the end, so that it glazes rather than boils and the tofu stays crisp.\n\nFresh pineapple keeps the potassium lower than most tropical fruit, and the lime juice is the acid that stops the dish tasting cloying. Press the tofu and fry it first, until crisp. Serve over white rice. It is a dish that rewards a very hot pan.',
     ing: [
       '700 g extra-firm tofu, pressed and cubed',
@@ -151,8 +151,8 @@ module.exports = {
 
   'tofu-rice-bowls': {
     d: 'Pan-fried tofu cubes tossed with ginger, rice vinegar and a little low-sodium soy sauce, served over white rice with cucumber, red cabbage and carrot. Three servings in 25 minutes.',
-    meta: 'Tofu rice bowls: pan-fried tofu with ginger and rice vinegar over white rice with cucumber and cabbage. Vegan. Kidney friendly. Three servings.',
-    kw: ['tofu rice bowls', 'kidney friendly tofu rice bowls', 'vegan tofu rice bowls with cucumber', 'dairy free tofu rice bowl', 'easy tofu rice bowls for three'],
+    meta: 'Tofu rice bowls: pan-fried tofu with ginger and rice vinegar over white rice with cucumber and cabbage. Vegan. Three servings.',
+    kw: ['tofu rice bowls', 'vegan tofu rice bowls with cucumber', 'dairy free tofu rice bowl', 'easy tofu rice bowls for three'],
     why: 'Press the tofu. It is the one step that decides this bowl. Tofu straight from the pack is wet, and wet tofu never crisps; 15 minutes under a weight and a towel turns it into something that browns, holds a marinade and eats like a food in its own right.\n\nPan-fry the cubes until golden on three sides, then toss them with rice vinegar, low-sodium soy sauce and ginger for the last minute. **Keep the vegetables raw and cold**: cucumber, red cabbage, carrot and spring onion. Hot tofu, cold vegetables: that is the bowl. The cold vegetables also keep the plate light in sodium, since they need no seasoning at all.\n\nWhite rice is the base, and it is measured: 100 g dry rice serves three, which keeps the phosphorus in check next to a generous portion of tofu. Cook the rice while the tofu presses. Serve everything in wide bowls, with a few drops of sesame oil on top.',
     ing: [
       '640 g extra-firm tofu, pressed and cubed',

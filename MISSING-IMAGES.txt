@@ -6,138 +6,119 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (707) ======================================
-  grape-jelly-meatballs              Grape Jelly Meatballs   [4 refused already]
-  beef-and-noodles                   Beef and Noodles   [13 refused already]
-  chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [8 refused already]
-  crack-chicken                      Crack Chicken   [13 refused already]
-  green-chile-stew                   Green Chile Stew   [13 refused already]
+== American (547) ======================================
+  grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
+  beef-and-noodles                   Beef and Noodles   [15 refused already]
+  chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [10 refused already]
+  crack-chicken                      Crack Chicken   [15 refused already]
+  green-chile-stew                   Green Chile Stew   [15 refused already]
   shirley-temple                     Shirley Temple   [5 refused already]
-  southern-green-beans               Southern Green Beans   [11 refused already]
-  creamy-tuscan-salmon               Creamy Tuscan Salmon   [3 refused already]
-  balsamic-vinaigrette               Balsamic Vinaigrette   [10 refused already]
-  oatmeal-cream-pies                 Oatmeal Cream Pies   [3 refused already]
-  salted-caramel-sauce               Salted Caramel Sauce   [20 refused already]
-  divinity                           Divinity   [7 refused already]
-  oyster-stew                        Oyster Stew   [14 refused already]
-  carne-adovada                      Carne Adovada   [4 refused already]
-  fried-apples                       Fried Apples   [13 refused already]
-  ham-and-cheese-sliders             Ham and Cheese Sliders   [5 refused already]
-  pineapple-casserole                Pineapple Casserole   [7 refused already]
-  italian-dressing                   Italian Dressing   [14 refused already]
-  cajun-seasoning                    Cajun Seasoning   [10 refused already]
-  ranch-seasoning                    Ranch Seasoning   [20 refused already]
-  kentucky-butter-cake               Kentucky Butter Cake   [14 refused already]
-  coca-cola-cake                     Coca-Cola Cake   [9 refused already]
-  strawberry-pretzel-salad           Strawberry Pretzel Salad   [3 refused already]
-  sopapilla-cheesecake               Sopapilla Cheesecake
-  cheese-crackers                    Cheese Crackers   [15 refused already]
-  ranch-water                        Ranch Water   [13 refused already]
+  southern-green-beans               Southern Green Beans   [13 refused already]
+  creamy-tuscan-salmon               Creamy Tuscan Salmon   [4 refused already]
+  balsamic-vinaigrette               Balsamic Vinaigrette   [12 refused already]
+  salted-caramel-sauce               Salted Caramel Sauce   [22 refused already]
+  divinity                           Divinity   [8 refused already]
+  oyster-stew                        Oyster Stew   [16 refused already]
+  carne-adovada                      Carne Adovada   [5 refused already]
+  fried-apples                       Fried Apples   [15 refused already]
+  ham-and-cheese-sliders             Ham and Cheese Sliders   [7 refused already]
+  pineapple-casserole                Pineapple Casserole   [8 refused already]
+  italian-dressing                   Italian Dressing   [15 refused already]
+  cajun-seasoning                    Cajun Seasoning   [11 refused already]
+  ranch-seasoning                    Ranch Seasoning   [21 refused already]
+  coca-cola-cake                     Coca-Cola Cake   [11 refused already]
+  strawberry-pretzel-salad           Strawberry Pretzel Salad   [5 refused already]
+  sopapilla-cheesecake               Sopapilla Cheesecake   [1 refused already]
+  ranch-water                        Ranch Water   [15 refused already]
   mudslide                           Mudslide   [6 refused already]
-  sheet-pan-eggs                     Sheet Pan Eggs   [8 refused already]
-  spinach-and-feta-breakfast-wrap    Spinach and Feta Breakfast Wrap   [9 refused already]
+  sheet-pan-eggs                     Sheet Pan Eggs   [9 refused already]
+  spinach-and-feta-breakfast-wrap    Spinach and Feta Breakfast Wrap   [10 refused already]
   tuna-stuffed-avocados              Tuna-Stuffed Avocados   [10 refused already]
-  egg-roll-skillet                   Egg Roll Skillet   [15 refused already]
+  egg-roll-skillet                   Egg Roll Skillet   [17 refused already]
   marinated-vegetable-salad          Marinated Vegetable Salad   [9 refused already]
   mushroom-swiss-burger-bowls        Mushroom Swiss Burger Bowls   [15 refused already]
-  lettuce-wrap-burgers               Lettuce Wrap Burgers   [22 refused already]
-  parmesan-crusted-chicken           Parmesan-Crusted Chicken   [15 refused already]
-  cheesy-cauliflower-casserole       Cheesy Cauliflower Casserole   [12 refused already]
-  spiced-roasted-almonds             Spiced Roasted Almonds   [12 refused already]
-  turkey-roll-ups                    Turkey Roll-Ups   [2 refused already]
-  cauliflower-tater-tots             Cauliflower Tater Tots   [5 refused already]
-  almond-flour-bread                 Almond Flour Bread   [8 refused already]
-  crustless-pumpkin-pie              Crustless Pumpkin Pie   [12 refused already]
-  fathead-pizza                      Fathead Pizza   [5 refused already]
-  veggie-egg-white-omelet            Veggie Egg White Omelet   [13 refused already]
-  sweet-potato-toast                 Sweet Potato Toast   [10 refused already]
-  cottage-cheese-flatbread           Cottage Cheese Flatbread   [18 refused already]
-  hearty-chicken-and-kale-soup       Hearty Chicken and Kale Soup   [11 refused already]
-  egg-roll-soup                      Egg Roll Soup   [13 refused already]
-  chilled-cucumber-soup              Chilled Cucumber Soup   [6 refused already]
-  rainbow-slaw                       Rainbow Slaw   [7 refused already]
-  cucumber-noodle-salad              Cucumber Noodle Salad   [7 refused already]
-  buffalo-chicken-lettuce-wraps      Buffalo Chicken Lettuce Wraps   [3 refused already]
-  turkey-pinwheels                   Turkey Pinwheels   [3 refused already]
-  turkey-sausage-and-vegetable-skillet Turkey Sausage and Vegetable Skillet   [10 refused already]
-  cajun-chicken-and-cabbage-skillet  Cajun Chicken and Cabbage Skillet   [7 refused already]
+  lettuce-wrap-burgers               Lettuce Wrap Burgers   [24 refused already]
+  parmesan-crusted-chicken           Parmesan-Crusted Chicken   [17 refused already]
+  cheesy-cauliflower-casserole       Cheesy Cauliflower Casserole   [14 refused already]
+  spiced-roasted-almonds             Spiced Roasted Almonds   [13 refused already]
+  cauliflower-tater-tots             Cauliflower Tater Tots   [6 refused already]
+  almond-flour-bread                 Almond Flour Bread   [10 refused already]
+  crustless-pumpkin-pie              Crustless Pumpkin Pie   [14 refused already]
+  fathead-pizza                      Fathead Pizza   [6 refused already]
+  veggie-egg-white-omelet            Veggie Egg White Omelet   [14 refused already]
+  sweet-potato-toast                 Sweet Potato Toast   [11 refused already]
+  cottage-cheese-flatbread           Cottage Cheese Flatbread   [19 refused already]
+  hearty-chicken-and-kale-soup       Hearty Chicken and Kale Soup   [12 refused already]
+  egg-roll-soup                      Egg Roll Soup   [14 refused already]
+  rainbow-slaw                       Rainbow Slaw   [8 refused already]
+  cucumber-noodle-salad              Cucumber Noodle Salad   [8 refused already]
+  buffalo-chicken-lettuce-wraps      Buffalo Chicken Lettuce Wraps   [5 refused already]
+  turkey-pinwheels                   Turkey Pinwheels   [4 refused already]
+  turkey-sausage-and-vegetable-skillet Turkey Sausage and Vegetable Skillet   [11 refused already]
+  cajun-chicken-and-cabbage-skillet  Cajun Chicken and Cabbage Skillet   [8 refused already]
   shrimp-foil-packets                Shrimp Foil Packets   [3 refused already]
-  air-fryer-cod                      Air Fryer Cod   [12 refused already]
-  instant-pot-chicken-breast         Instant Pot Chicken Breast   [13 refused already]
-  baked-tilapia-with-tomatoes        Baked Tilapia with Tomatoes   [17 refused already]
-  philly-cheesesteak-stuffed-peppers Philly Cheesesteak Stuffed Peppers   [8 refused already]
-  air-fryer-tilapia                  Air Fryer Tilapia   [12 refused already]
-  lemon-roasted-broccoli             Lemon Roasted Broccoli   [12 refused already]
-  air-fryer-green-beans              Air Fryer Green Beans   [10 refused already]
-  cottage-cheese-ranch-dip           Cottage Cheese Ranch Dip   [19 refused already]
-  cottage-cheese-ice-cream           Cottage Cheese Ice Cream   [11 refused already]
-  frozen-chocolate-banana-bites      Frozen Chocolate Banana Bites   [6 refused already]
-  egg-white-frittata-with-peppers-and-onions Egg White Frittata with Peppers and Onions   [9 refused already]
+  air-fryer-cod                      Air Fryer Cod   [14 refused already]
+  baked-tilapia-with-tomatoes        Baked Tilapia with Tomatoes   [18 refused already]
+  philly-cheesesteak-stuffed-peppers Philly Cheesesteak Stuffed Peppers   [9 refused already]
+  lemon-roasted-broccoli             Lemon Roasted Broccoli   [13 refused already]
+  air-fryer-green-beans              Air Fryer Green Beans   [12 refused already]
+  cottage-cheese-ranch-dip           Cottage Cheese Ranch Dip   [21 refused already]
+  cottage-cheese-ice-cream           Cottage Cheese Ice Cream   [12 refused already]
+  frozen-chocolate-banana-bites      Frozen Chocolate Banana Bites   [8 refused already]
+  egg-white-frittata-with-peppers-and-onions Egg White Frittata with Peppers and Onions   [10 refused already]
   egg-white-bites                    Egg White Bites   [22 refused already]
   egg-white-wraps                    Egg White Wraps   [18 refused already]
-  egg-white-english-muffin-sandwich  Egg White English Muffin Sandwich   [22 refused already]
-  apple-sage-chicken                 Apple Sage Chicken   [12 refused already]
-  apple-chicken-sausage              Apple Chicken Sausage   [25 refused already]
-  turkey-rice-skillet                Turkey Rice Skillet   [12 refused already]
-  cranberry-turkey-cutlets           Cranberry Turkey Cutlets   [12 refused already]
-  pork-tenderloin-with-pears         Pork Tenderloin with Pears   [21 refused already]
-  beef-and-rice-skillet              Beef and Rice Skillet   [14 refused already]
+  egg-white-english-muffin-sandwich  Egg White English Muffin Sandwich   [24 refused already]
+  apple-sage-chicken                 Apple Sage Chicken   [14 refused already]
+  apple-chicken-sausage              Apple Chicken Sausage   [27 refused already]
+  turkey-rice-skillet                Turkey Rice Skillet   [13 refused already]
+  cranberry-turkey-cutlets           Cranberry Turkey Cutlets   [13 refused already]
+  pork-tenderloin-with-pears         Pork Tenderloin with Pears   [23 refused already]
   herb-burgers                       Herb Burgers   [15 refused already]
   pineapple-shrimp-skewers           Pineapple Shrimp Skewers   [5 refused already]
-  shrimp-lettuce-cups                Shrimp Lettuce Cups   [5 refused already]
-  tuna-cucumber-boats                Tuna Cucumber Boats   [7 refused already]
-  oven-baked-catfish                 Oven-Baked Catfish   [9 refused already]
-  cowboy-casserole                   Cowboy Casserole
-  ground-beef-and-potato-skillet     Ground Beef and Potato Skillet   [7 refused already]
-  ground-beef-and-cabbage-skillet    Ground Beef and Cabbage Skillet   [6 refused already]
-  ground-beef-and-rice-casserole     Ground Beef and Rice Casserole   [7 refused already]
-  ground-beef-stuffed-potatoes       Ground Beef Stuffed Potatoes   [6 refused already]
-  braised-chuck-roast                Braised Chuck Roast   [1 refused already]
-  slow-cooker-pot-roast              Slow Cooker Pot Roast   [6 refused already]
-  braised-pork-shoulder              Braised Pork Shoulder   [3 refused already]
-  pork-chop-casserole                Pork Chop Casserole   [7 refused already]
-  honey-garlic-pork-chops            Honey Garlic Pork Chops   [2 refused already]
-  breaded-pork-chops                 Breaded Pork Chops   [1 refused already]
-  ham-steaks-with-pineapple          Ham Steaks with Pineapple   [1 refused already]
-  sausage-hash                       Sausage Hash   [5 refused already]
-  pierogi-casserole                  Pierogi Casserole   [2 refused already]
-  wild-rice-hotdish                  Wild Rice Hotdish   [3 refused already]
-  crispy-chicken-thighs-and-rice     Crispy Chicken Thighs and Rice   [1 refused already]
-  lemon-herb-chicken-thighs          Lemon Herb Chicken Thighs   [1 refused already]
-  baked-bbq-chicken                  Baked BBQ Chicken   [4 refused already]
-  tuna-rice-bowl                     Tuna Rice Bowl   [3 refused already]
-  sweet-potato-soup                  Sweet Potato Soup   [7 refused already]
-  sweet-potato-chili                 Sweet Potato Chili   [5 refused already]
-  butternut-squash-pasta             Butternut Squash Pasta   [2 refused already]
-  vegetable-chili                    Vegetable Chili   [5 refused already]
+  shrimp-lettuce-cups                Shrimp Lettuce Cups   [7 refused already]
+  tuna-cucumber-boats                Tuna Cucumber Boats   [9 refused already]
+  oven-baked-catfish                 Oven-Baked Catfish   [11 refused already]
+  cowboy-casserole                   Cowboy Casserole   [1 refused already]
+  ground-beef-and-potato-skillet     Ground Beef and Potato Skillet   [8 refused already]
+  ground-beef-and-cabbage-skillet    Ground Beef and Cabbage Skillet   [7 refused already]
+  ground-beef-and-rice-casserole     Ground Beef and Rice Casserole   [8 refused already]
+  ground-beef-stuffed-potatoes       Ground Beef Stuffed Potatoes   [7 refused already]
+  braised-chuck-roast                Braised Chuck Roast   [2 refused already]
+  slow-cooker-pot-roast              Slow Cooker Pot Roast   [8 refused already]
+  pork-chop-casserole                Pork Chop Casserole   [8 refused already]
+  honey-garlic-pork-chops            Honey Garlic Pork Chops   [4 refused already]
+  ham-steaks-with-pineapple          Ham Steaks with Pineapple   [2 refused already]
+  sausage-hash                       Sausage Hash   [7 refused already]
+  pierogi-casserole                  Pierogi Casserole   [3 refused already]
+  wild-rice-hotdish                  Wild Rice Hotdish   [4 refused already]
+  tuna-rice-bowl                     Tuna Rice Bowl   [5 refused already]
+  sweet-potato-chili                 Sweet Potato Chili   [6 refused already]
+  butternut-squash-pasta             Butternut Squash Pasta   [4 refused already]
+  vegetable-chili                    Vegetable Chili   [6 refused already]
   broccoli-cheese-rice               Broccoli Cheese Rice   [1 refused already]
   cheesy-rice-casserole              Cheesy Rice Casserole   [1 refused already]
-  navy-bean-soup                     Navy Bean Soup   [7 refused already]
   oatmeal-bars                       Oatmeal Bars   [4 refused already]
-  breakfast-cookies                  Breakfast Cookies   [5 refused already]
-  fried-egg-sandwich                 Fried Egg Sandwich   [7 refused already]
+  breakfast-cookies                  Breakfast Cookies   [7 refused already]
+  fried-egg-sandwich                 Fried Egg Sandwich   [8 refused already]
   garlic-parmesan-fries              Garlic Parmesan Fries   [3 refused already]
-  roasted-potatoes-and-onions        Roasted Potatoes and Onions   [7 refused already]
-  fried-cabbage                      Fried Cabbage   [7 refused already]
-  cheesy-potato-bake                 Cheesy Potato Bake   [1 refused already]
+  roasted-potatoes-and-onions        Roasted Potatoes and Onions   [8 refused already]
+  fried-cabbage                      Fried Cabbage   [8 refused already]
+  cheesy-potato-bake                 Cheesy Potato Bake   [2 refused already]
   loaded-baked-potatoes              Loaded Baked Potatoes   [2 refused already]
   honey-garlic-meatballs             Honey Garlic Meatballs   [1 refused already]
-  cornbread-casserole                Cornbread Casserole   [1 refused already]
-  cornbread-stuffing                 Cornbread Stuffing   [2 refused already]
-  pizza-bread                        Pizza Bread   [5 refused already]
-  milk-bread                         Milk Bread   [5 refused already]
-  garlic-butter-rolls                Garlic Butter Rolls   [6 refused already]
-  hamburger-buns                     Hamburger Buns   [5 refused already]
+  cornbread-casserole                Cornbread Casserole   [2 refused already]
+  cornbread-stuffing                 Cornbread Stuffing   [3 refused already]
+  pizza-bread                        Pizza Bread   [6 refused already]
+  milk-bread                         Milk Bread   [6 refused already]
   apple-slab-pie                     Apple Slab Pie   [1 refused already]
-  chocolate-pudding                  Chocolate Pudding   [6 refused already]
   chocolate-oat-bars                 Chocolate Oat Bars   [1 refused already]
-  vanilla-pudding                    Vanilla Pudding   [5 refused already]
-  peanut-butter-balls                Peanut Butter Balls   [6 refused already]
+  peanut-butter-balls                Peanut Butter Balls   [7 refused already]
   oatmeal-cake                       Oatmeal Cake   [6 refused already]
   air-fryer-meatballs                Air Fryer Meatballs
   air-fryer-steak                    Air Fryer Steak   [1 refused already]
   air-fryer-onion-rings              Air Fryer Onion Rings   [1 refused already]
-  air-fryer-corn-on-the-cob          Air Fryer Corn on the Cob   [1 refused already]
+  air-fryer-corn-on-the-cob          Air Fryer Corn on the Cob   [2 refused already]
   air-fryer-chickpeas                Air Fryer Chickpeas   [1 refused already]
   air-fryer-donuts                   Air Fryer Donuts   [1 refused already]
   air-fryer-apple-chips              Air Fryer Apple Chips   [1 refused already]
@@ -146,190 +127,132 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   air-fryer-mozzarella-sticks        Air Fryer Mozzarella Sticks   [3 refused already]
   instant-pot-chili                  Instant Pot Chili   [2 refused already]
   instant-pot-mac-and-cheese         Instant Pot Mac and Cheese
-  instant-pot-rice                   Instant Pot Rice   [2 refused already]
   instant-pot-chicken-soup           Instant Pot Chicken Soup
   instant-pot-pulled-pork            Instant Pot Pulled Pork   [1 refused already]
   instant-pot-ribs                   Instant Pot Ribs   [1 refused already]
-  instant-pot-mashed-potatoes        Instant Pot Mashed Potatoes   [1 refused already]
-  instant-pot-beef-stew              Instant Pot Beef Stew   [1 refused already]
-  instant-pot-hard-boiled-eggs       Instant Pot Hard Boiled Eggs   [1 refused already]
   instant-pot-oatmeal                Instant Pot Oatmeal   [1 refused already]
   instant-pot-cheesecake             Instant Pot Cheesecake   [1 refused already]
   instant-pot-chicken-thighs         Instant Pot Chicken Thighs   [1 refused already]
   instant-pot-split-pea-soup         Instant Pot Split Pea Soup   [1 refused already]
-  slow-cooker-beef-stew              Slow Cooker Beef Stew   [4 refused already]
-  slow-cooker-chicken-soup           Slow Cooker Chicken Soup   [2 refused already]
   slow-cooker-chili                  Slow Cooker Chili   [4 refused already]
   slow-cooker-lentil-soup            Slow Cooker Lentil Soup   [4 refused already]
-  slow-cooker-mac-and-cheese         Slow Cooker Mac and Cheese   [4 refused already]
-  slow-cooker-meatballs              Slow Cooker Meatballs   [4 refused already]
+  slow-cooker-mac-and-cheese         Slow Cooker Mac and Cheese   [5 refused already]
+  slow-cooker-meatballs              Slow Cooker Meatballs   [5 refused already]
   slow-cooker-ham                    Slow Cooker Ham   [4 refused already]
   slow-cooker-bean-soup              Slow Cooker Bean Soup   [3 refused already]
-  sheet-pan-chicken-and-potatoes     Sheet Pan Chicken and Potatoes   [1 refused already]
+  sheet-pan-chicken-and-potatoes     Sheet Pan Chicken and Potatoes   [2 refused already]
   sheet-pan-sausage-and-vegetables   Sheet Pan Sausage and Vegetables   [1 refused already]
-  sheet-pan-pancakes                 Sheet Pan Pancakes   [1 refused already]
-  bbq-pork                           BBQ Pork   [5 refused already]
-  bbq-beef-brisket                   BBQ Beef Brisket   [5 refused already]
-  mushroom-burgers                   Mushroom Burgers   [5 refused already]
-  country-fried-chicken              Country Fried Chicken   [4 refused already]
-  cheese-grits                       Cheese Grits   [3 refused already]
-  almond-butter                      Almond Butter   [5 refused already]
-  butterscotch-sauce                 Butterscotch Sauce   [3 refused already]
+  sheet-pan-pancakes                 Sheet Pan Pancakes   [2 refused already]
+  bbq-beef-brisket                   BBQ Beef Brisket   [6 refused already]
+  mushroom-burgers                   Mushroom Burgers   [6 refused already]
+  cheese-grits                       Cheese Grits   [4 refused already]
+  almond-butter                      Almond Butter   [6 refused already]
+  butterscotch-sauce                 Butterscotch Sauce   [4 refused already]
   teriyaki-sauce                     Teriyaki Sauce   [4 refused already]
   peanut-sauce                       Peanut Sauce   [7 refused already]
-  pizza-sauce                        Pizza Sauce   [5 refused already]
-  chicken-marinade                   Chicken Marinade   [5 refused already]
+  pizza-sauce                        Pizza Sauce   [6 refused already]
+  chicken-marinade                   Chicken Marinade   [6 refused already]
   meal-prep-chicken-and-rice         Meal Prep Chicken and Rice   [2 refused already]
   freezer-meatballs                  Freezer Meatballs   [1 refused already]
   freezer-soup                       Freezer Soup   [1 refused already]
-  mason-jar-salad                    Mason Jar Salad   [6 refused already]
   sweet-potato-brownies              Sweet Potato Brownies   [1 refused already]
-  roasted-beets                      Roasted Beets   [4 refused already]
   pulled-chicken-sandwich            Pulled Chicken Sandwich   [6 refused already]
   sweetcorn-chowder                  Sweetcorn Chowder
   vegetable-barley-soup              Vegetable Barley Soup   [1 refused already]
   pizza-quesadilla                   Pizza Quesadilla   [3 refused already]
-  cheeseburger-casserole             Cheeseburger Casserole
   enchilada-casserole                Enchilada Casserole
   chicken-broccoli-rice-casserole    Chicken Broccoli Rice Casserole   [1 refused already]
   poppy-seed-chicken                 Poppy Seed Chicken   [1 refused already]
   million-dollar-spaghetti           Million Dollar Spaghetti   [1 refused already]
-  chicken-parmesan-sub               Chicken Parmesan Sub   [1 refused already]
-  fried-chicken-sandwich             Fried Chicken Sandwich   [1 refused already]
-  coconut-chicken                    Coconut Chicken   [1 refused already]
+  chicken-parmesan-sub               Chicken Parmesan Sub   [2 refused already]
   hawaiian-chicken                   Hawaiian Chicken
-  lemon-butter-salmon                Lemon Butter Salmon   [1 refused already]
   cajun-salmon                       Cajun Salmon   [1 refused already]
   honey-sriracha-salmon-bites        Honey Sriracha Salmon Bites   [1 refused already]
-  cheesy-ranch-chicken               Cheesy Ranch Chicken
+  cheesy-ranch-chicken               Cheesy Ranch Chicken   [1 refused already]
   chicken-bacon-avocado-salad        Chicken Bacon Avocado Salad   [1 refused already]
   apple-cider-pork-tenderloin        Apple Cider Pork Tenderloin   [1 refused already]
-  crispy-pork-belly-bites            Crispy Pork Belly Bites   [1 refused already]
-  steak-and-potato-skillet           Steak and Potato Skillet   [1 refused already]
-  honey-garlic-shrimp-stir-fry       Honey Garlic Shrimp Stir Fry   [1 refused already]
-  lemon-garlic-shrimp-pasta          Lemon Garlic Shrimp Pasta
-  one-pan-chicken-and-rice           One Pan Chicken and Rice   [1 refused already]
+  honey-garlic-shrimp-stir-fry       Honey Garlic Shrimp Stir Fry   [2 refused already]
   spinach-stuffed-chicken            Spinach Stuffed Chicken   [1 refused already]
-  bbq-chicken-pizza                  BBQ Chicken Pizza   [1 refused already]
+  bbq-chicken-pizza                  BBQ Chicken Pizza   [2 refused already]
   meat-lovers-pizza                  Meat Lovers Pizza
   hamburger-helper-style-pasta       Hamburger Helper Style Pasta   [1 refused already]
   brown-sugar-glazed-ham-steaks      Brown Sugar Glazed Ham Steaks   [1 refused already]
-  chicken-and-avocado-wrap           Chicken and Avocado Wrap   [1 refused already]
-  pear-and-walnut-salad              Pear and Walnut Salad   [1 refused already]
-  tomato-soup-with-grilled-cheese    Tomato Soup with Grilled Cheese   [1 refused already]
-  cream-cheese-danish                Cream Cheese Danish   [1 refused already]
-  apple-danish                       Apple Danish   [1 refused already]
-  orange-rolls                       Orange Rolls   [1 refused already]
+  apple-danish                       Apple Danish   [2 refused already]
+  orange-rolls                       Orange Rolls   [2 refused already]
   garlic-pull-apart-bread            Garlic Pull Apart Bread
   sausage-pull-apart                 Sausage Pull Apart   [1 refused already]
   bacon-cheeseburger-bites           Bacon Cheeseburger Bites   [1 refused already]
-  garlic-parmesan-chicken-wings      Garlic Parmesan Chicken Wings   [1 refused already]
   hot-honey-chicken                  Hot Honey Chicken
   lemon-chicken-bites                Lemon Chicken Bites   [1 refused already]
-  berry-muffins                      Berry Muffins
-  carrot-muffins                     Carrot Muffins
-  raspberry-muffins                  Raspberry Muffins   [1 refused already]
-  carrot-cake-cupcakes               Carrot Cake Cupcakes   [1 refused already]
-  cookies-and-cream-cupcakes         Cookies and Cream Cupcakes   [1 refused already]
-  honey-cake                         Honey Cake   [1 refused already]
   chocolate-mint-cake                Chocolate Mint Cake   [1 refused already]
-  ice-cream-cake                     Ice Cream Cake   [1 refused already]
-  ice-box-cake                       Ice Box Cake   [1 refused already]
-  blueberry-cheesecake               Blueberry Cheesecake   [1 refused already]
-  blueberry-cobbler                  Blueberry Cobbler   [1 refused already]
+  ice-cream-cake                     Ice Cream Cake   [2 refused already]
+  ice-box-cake                       Ice Box Cake   [2 refused already]
   chocolate-chip-cookie-bars         Chocolate Chip Cookie Bars   [1 refused already]
   peanut-butter-chocolate-bars       Peanut Butter Chocolate Bars   [1 refused already]
-  double-chocolate-cookies           Double Chocolate Cookies
-  lemon-cookies                      Lemon Cookies   [1 refused already]
   peanut-butter-smoothie             Peanut Butter Smoothie   [1 refused already]
-  strawberry-lemonade                Strawberry Lemonade   [1 refused already]
+  strawberry-lemonade                Strawberry Lemonade   [2 refused already]
   crispy-smashed-potatoes            Crispy Smashed Potatoes   [1 refused already]
-  mashed-cauliflower                 Mashed Cauliflower   [1 refused already]
   cinnamon-roll-pancakes             Cinnamon Roll Pancakes   [1 refused already]
   churro-waffles                     Churro Waffles
   challah-french-toast               Challah French Toast
   apple-pie-overnight-oats           Apple Pie Overnight Oats
-  arnold-palmer                      Arnold Palmer   [1 refused already]
+  arnold-palmer                      Arnold Palmer   [2 refused already]
   apple-pie-smoothie                 Apple Pie Smoothie   [1 refused already]
   caramel-macchiato                  Caramel Macchiato   [1 refused already]
-  christmas-punch                    Christmas Punch
   cinderella-mocktail                Cinderella Mocktail   [1 refused already]
   cranberry-spritzer                 Cranberry Spritzer
   fruit-punch                        Fruit Punch   [1 refused already]
   ginger-ale                         Ginger Ale   [1 refused already]
   ginger-shot                        Ginger Shot   [1 refused already]
   homemade-cola                      Homemade Cola
-  hot-apple-cider                    Hot Apple Cider   [1 refused already]
   peanut-butter-banana-shake         Peanut Butter Banana Shake
-  peanut-butter-milkshake            Peanut Butter Milkshake   [1 refused already]
-  peppermint-hot-chocolate           Peppermint Hot Chocolate
+  peanut-butter-milkshake            Peanut Butter Milkshake   [2 refused already]
   pineapple-mocktail                 Pineapple Mocktail   [1 refused already]
-  pink-lemonade                      Pink Lemonade   [1 refused already]
-  pumpkin-spice-smoothie             Pumpkin Spice Smoothie   [1 refused already]
+  pink-lemonade                      Pink Lemonade   [2 refused already]
+  pumpkin-spice-smoothie             Pumpkin Spice Smoothie   [2 refused already]
   salted-caramel-hot-chocolate       Salted Caramel Hot Chocolate   [1 refused already]
-  spinach-pineapple-smoothie         Spinach Pineapple Smoothie
-  sun-tea                            Sun Tea   [1 refused already]
+  sun-tea                            Sun Tea   [2 refused already]
   vanilla-milkshake                  Vanilla Milkshake   [1 refused already]
-  strawberry-syrup                   Strawberry Syrup   [1 refused already]
-  herb-roasted-turkey                Herb Roasted Turkey   [1 refused already]
+  strawberry-syrup                   Strawberry Syrup   [2 refused already]
   honey-glazed-carrots               Honey Glazed Carrots   [1 refused already]
-  candy-cane-cookies                 Candy Cane Cookies   [1 refused already]
-  halloween-cupcakes                 Halloween Cupcakes   [1 refused already]
-  red-velvet-cupcakes                Red Velvet Cupcakes
   fourth-of-july-berry-trifle        Fourth of July Berry Trifle   [1 refused already]
   mummy-hot-dogs                     Mummy Hot Dogs
   spiderweb-dip                      Spiderweb Dip
-  cranberry-relish                   Cranberry Relish   [1 refused already]
   cranberry-meatballs                Cranberry Meatballs   [1 refused already]
-  bread-pudding-with-whiskey-sauce   Bread Pudding with Whiskey Sauce   [1 refused already]
-  apple-cinnamon-rolls               Apple Cinnamon Rolls   [1 refused already]
-  banana-cake-with-cream-cheese-icing Banana Cake with Cream Cheese Icing   [1 refused already]
-  banana-walnut-loaf                 Banana Walnut Loaf   [1 refused already]
-  cheesecake-brownies                Cheesecake Brownies   [1 refused already]
-  chocolate-bark                     Chocolate Bark
-  cookie-dough-bites                 Cookie Dough Bites   [1 refused already]
-  evaporated-milk-fudge              Evaporated Milk Fudge   [1 refused already]
-  gingersnaps                        Gingersnaps   [1 refused already]
+  banana-cake-with-cream-cheese-icing Banana Cake with Cream Cheese Icing   [2 refused already]
+  cheesecake-brownies                Cheesecake Brownies   [2 refused already]
+  cookie-dough-bites                 Cookie Dough Bites   [2 refused already]
+  gingersnaps                        Gingersnaps   [2 refused already]
   orange-poppy-seed-cake             Orange Poppy Seed Cake   [1 refused already]
-  salted-caramel-brownies            Salted Caramel Brownies
-  strawberry-ice-cream               Strawberry Ice Cream   [1 refused already]
-  chocolate-ice-cream                Chocolate Ice Cream   [1 refused already]
+  salted-caramel-brownies            Salted Caramel Brownies   [1 refused already]
   sweet-potato-biscuits              Sweet Potato Biscuits   [1 refused already]
-  vegan-cheesecake                   Vegan Cheesecake   [1 refused already]
+  vegan-cheesecake                   Vegan Cheesecake   [2 refused already]
   vegan-chocolate-cake               Vegan Chocolate Cake   [1 refused already]
-  vegan-cookies                      Vegan Cookies   [1 refused already]
+  vegan-cookies                      Vegan Cookies   [2 refused already]
   black-bean-brownies                Black Bean Brownies   [1 refused already]
   chickpea-brownies                  Chickpea Brownies
-  roasted-strawberries               Roasted Strawberries   [1 refused already]
+  roasted-strawberries               Roasted Strawberries   [2 refused already]
   berry-compote                      Berry Compote   [1 refused already]
   pumpkin-butter                     Pumpkin Butter   [1 refused already]
-  baked-bananas                      Baked Bananas   [1 refused already]
+  baked-bananas                      Baked Bananas   [2 refused already]
   slow-cooker-apple-sauce            Slow Cooker Apple Sauce
   bacon-jam                          Bacon Jam   [1 refused already]
-  protein-balls                      Protein Balls
   peanut-butter-energy-bites         Peanut Butter Energy Bites   [1 refused already]
-  spiced-nuts                        Spiced Nuts   [1 refused already]
-  sweet-potato-chips                 Sweet Potato Chips   [1 refused already]
-  pumpkin-hummus                     Pumpkin Hummus   [1 refused already]
-  puff-pastry-pinwheels              Puff Pastry Pinwheels   [1 refused already]
-  asian-slaw                         Asian Slaw
+  pumpkin-hummus                     Pumpkin Hummus   [2 refused already]
+  asian-slaw                         Asian Slaw   [1 refused already]
   kale-and-quinoa-salad              Kale and Quinoa Salad
-  massaged-kale-salad                Massaged Kale Salad
   pasta-salad-with-italian-dressing  Pasta Salad with Italian Dressing   [1 refused already]
   crab-salad                         Crab Salad   [1 refused already]
-  quinoa-salad-with-roasted-vegetables Quinoa Salad with Roasted Vegetables
   sweet-potato-buddha-bowl           Sweet Potato Buddha Bowl   [1 refused already]
   slow-cooker-vegetable-soup         Slow Cooker Vegetable Soup
   black-eyed-pea-stew                Black Eyed Pea Stew   [1 refused already]
   stuffed-butternut-squash           Stuffed Butternut Squash   [1 refused already]
-  beet-burgers                       Beet Burgers   [1 refused already]
-  vegan-burgers                      Vegan Burgers   [1 refused already]
+  beet-burgers                       Beet Burgers   [2 refused already]
+  vegan-burgers                      Vegan Burgers   [2 refused already]
   air-fryer-vegetables               Air Fryer Vegetables
   almond-crusted-chicken             Almond Crusted Chicken   [1 refused already]
   bacon-wrapped-chicken              Bacon Wrapped Chicken   [1 refused already]
-  baked-salmon-with-asparagus        Baked Salmon with Asparagus   [1 refused already]
-  beef-brisket-sandwich              Beef Brisket Sandwich   [1 refused already]
-  cheeseburger-pie                   Cheeseburger Pie
+  cheeseburger-pie                   Cheeseburger Pie   [1 refused already]
   cheesy-chicken-bake                Cheesy Chicken Bake
   egg-noodles-with-butter            Egg Noodles with Butter   [1 refused already]
   honey-soy-salmon                   Honey Soy Salmon
@@ -337,155 +260,111 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   lemon-garlic-roast-chicken-thighs  Lemon Garlic Roast Chicken Thighs
   lemon-herb-cod                     Lemon Herb Cod
   one-pot-beef-and-rice              One Pot Beef and Rice   [1 refused already]
-  oven-fried-chicken                 Oven Fried Chicken   [1 refused already]
   parmesan-crusted-cod               Parmesan Crusted Cod
   parmesan-roasted-carrots           Parmesan Roasted Carrots
   pecan-crusted-salmon               Pecan Crusted Salmon
   philly-chicken-sandwich            Philly Chicken Sandwich
   po-boy-sandwich                    Po Boy Sandwich   [1 refused already]
-  pork-ribs-in-the-oven              Pork Ribs in the Oven   [1 refused already]
-  ranch-chicken-wraps                Ranch Chicken Wraps
   sausage-and-cheese-pasta           Sausage and Cheese Pasta
-  sticky-chicken-wings               Sticky Chicken Wings
   sriracha-mayo                      Sriracha Mayo   [1 refused already]
-  sweet-potato-mash                  Sweet Potato Mash   [1 refused already]
-  texas-chili                        Texas Chili   [1 refused already]
-  turkey-pot-pie                     Turkey Pot Pie   [1 refused already]
+  texas-chili                        Texas Chili   [2 refused already]
   turkey-club-wrap                   Turkey Club Wrap   [1 refused already]
-  lemon-pepper-salmon                Lemon Pepper Salmon   [1 refused already]
-  chicken-parmesan-sliders           Chicken Parmesan Sliders   [1 refused already]
-  chicken-caesar-pasta-salad         Chicken Caesar Pasta Salad
+  chicken-parmesan-sliders           Chicken Parmesan Sliders   [2 refused already]
   chicken-cordon-bleu-casserole      Chicken Cordon Bleu Casserole
-  beef-pot-roast-with-gravy          Beef Pot Roast with Gravy
-  pork-chops-with-mushroom-sauce     Pork Chops with Mushroom Sauce   [1 refused already]
-  pork-stuffed-peppers               Pork Stuffed Peppers   [1 refused already]
   salmon-poke-bowls                  Salmon Poke Bowls   [1 refused already]
   tuna-poke-bowls                    Tuna Poke Bowls   [1 refused already]
-  crab-cakes-with-remoulade          Crab Cakes with Remoulade   [1 refused already]
   red-velvet-whoopie-pies            Red Velvet Whoopie Pies   [1 refused already]
   apple-pie-cookies                  Apple Pie Cookies   [1 refused already]
-  key-lime-bars                      Key Lime Bars   [1 refused already]
-  lemon-blueberry-muffins            Lemon Blueberry Muffins
-  cranberry-orange-muffins           Cranberry Orange Muffins   [1 refused already]
-  honey-wheat-bread                  Honey Wheat Bread   [1 refused already]
-  everything-bagel-dip               Everything Bagel Dip   [1 refused already]
-  cinnamon-raisin-bagels             Cinnamon Raisin Bagels   [1 refused already]
+  key-lime-bars                      Key Lime Bars   [2 refused already]
+  everything-bagel-dip               Everything Bagel Dip   [2 refused already]
   marshmallow-fluff-fudge            Marshmallow Fluff Fudge
   oreo-truffles                      Oreo Truffles   [1 refused already]
   cookie-butter-bars                 Cookie Butter Bars
-  cream-of-chicken-soup              Cream of Chicken Soup   [1 refused already]
+  cream-of-chicken-soup              Cream of Chicken Soup   [2 refused already]
   air-fryer-zucchini-fries           Air Fryer Zucchini Fries   [1 refused already]
   slow-cooker-pork-chops             Slow Cooker Pork Chops
-  slow-cooker-chilli-con-carne       Slow Cooker Chilli con Carne
   slow-cooker-honey-garlic-chicken   Slow Cooker Honey Garlic Chicken
-  slow-cooker-macaroni-and-cheese    Slow Cooker Macaroni and Cheese
-  slow-cooker-mashed-potatoes        Slow Cooker Mashed Potatoes
   slow-cooker-apple-crisp            Slow Cooker Apple Crisp
   sheet-pan-salmon-and-broccoli      Sheet Pan Salmon and Broccoli
   sheet-pan-shrimp-boil              Sheet Pan Shrimp Boil
-  bacon-lettuce-and-tomato-sandwich  Bacon Lettuce and Tomato Sandwich   [1 refused already]
   loaded-sweet-potatoes              Loaded Sweet Potatoes
-  disco-fries                        Disco Fries
-  waffle-fries                       Waffle Fries   [1 refused already]
-  spinach-salad-with-warm-bacon      Spinach Salad with Warm Bacon   [1 refused already]
-  roasted-beet-salad-with-goat-cheese Roasted Beet Salad with Goat Cheese
-  protein-smoothie                   Protein Smoothie   [1 refused already]
-  oat-milk-latte                     Oat Milk Latte   [1 refused already]
+  waffle-fries                       Waffle Fries   [2 refused already]
   strawberry-daiquiri-mocktail       Strawberry Daiquiri Mocktail
   eggs-sardou                        Eggs Sardou   [1 refused already]
-  banana-bread-french-toast          Banana Bread French Toast   [1 refused already]
-  grilled-corn-salad                 Grilled Corn Salad   [1 refused already]
+  banana-bread-french-toast          Banana Bread French Toast   [2 refused already]
   bbq-pulled-pork-nachos             BBQ Pulled Pork Nachos
-  bbq-meatballs                      BBQ Meatballs
-  bbq-baked-beans                    BBQ Baked Beans
-  bbq-chicken-drumsticks             BBQ Chicken Drumsticks
-  grilled-romaine-salad              Grilled Romaine Salad   [1 refused already]
-  veggie-chilli                      Veggie Chilli   [1 refused already]
-  deviled-ham-sandwiches             Deviled Ham Sandwiches
-  pinwheel-sandwiches                Pinwheel Sandwiches
-  chocolate-sauce                    Chocolate Sauce
-  egg-muffin-cups                    Egg Muffin Cups   [5 refused already]
+  bbq-baked-beans                    BBQ Baked Beans   [1 refused already]
+  grilled-romaine-salad              Grilled Romaine Salad   [2 refused already]
+  veggie-chilli                      Veggie Chilli   [2 refused already]
+  deviled-ham-sandwiches             Deviled Ham Sandwiches   [1 refused already]
+  pinwheel-sandwiches                Pinwheel Sandwiches   [1 refused already]
   sweet-potato-hash                  Sweet Potato Hash   [7 refused already]
-  potato-salad-with-mustard-dressing Potato Salad with Mustard Dressing   [7 refused already]
+  potato-salad-with-mustard-dressing Potato Salad with Mustard Dressing   [8 refused already]
   taco-pasta                         Taco Pasta   [7 refused already]
   frozen-banana-pops                 Frozen Banana Pops   [2 refused already]
   vanilla-mug-cake                   Vanilla Mug Cake   [4 refused already]
-  chewy-oat-granola-bars             Chewy Oat Granola Bars   [4 refused already]
   pizza-pinwheels                    Pizza Pinwheels
   spinach-pinwheels                  Spinach Pinwheels   [1 refused already]
   sloppy-joe-casserole               Sloppy Joe Casserole   [4 refused already]
-  cajun-boudin                       Cajun Boudin   [1 refused already]
   collard-greens-with-ham-hock       Collard Greens with Ham Hock   [1 refused already]
-  southern-tomato-pie                Southern Tomato Pie
   pickled-okra                       Pickled Okra   [1 refused already]
-  pickled-peaches                    Pickled Peaches
   sourdough-discard-crackers         Sourdough Discard Crackers
   barbecue-rub                       Barbecue Rub   [1 refused already]
   fry-sauce                          Fry Sauce   [1 refused already]
   apple-cabbage-slaw                 Apple Cabbage Slaw   [1 refused already]
-  chicken-salad-sandwich-with-cranberries Chicken Salad Sandwich with Cranberries   [5 refused already]
+  chicken-salad-sandwich-with-cranberries Chicken Salad Sandwich with Cranberries   [6 refused already]
   peanut-butter-and-banana-sandwich  Peanut Butter and Banana Sandwich   [5 refused already]
   chicken-scampi                     Chicken Scampi   [1 refused already]
-  broccoli-cheddar-chicken           Broccoli Cheddar Chicken   [1 refused already]
+  broccoli-cheddar-chicken           Broccoli Cheddar Chicken   [2 refused already]
   tex-mex-migas                      Tex-Mex Migas   [1 refused already]
-  texas-beef-ribs                    Texas Beef Ribs   [1 refused already]
-  kansas-city-barbecue-sauce         Kansas City Barbecue Sauce
+  kansas-city-barbecue-sauce         Kansas City Barbecue Sauce   [1 refused already]
   carolina-mustard-sauce             Carolina Mustard Sauce   [1 refused already]
   alabama-white-sauce-chicken        Alabama White Sauce Chicken   [1 refused already]
   st-louis-ribs                      St Louis Ribs   [1 refused already]
-  new-york-style-pizza               New York Style Pizza   [1 refused already]
   maine-lobster-stew                 Maine Lobster Stew   [1 refused already]
   vermont-maple-cream-pie            Vermont Maple Cream Pie   [1 refused already]
   pennsylvania-dutch-chicken-corn-soup Pennsylvania Dutch Chicken Corn Soup   [1 refused already]
   virginia-ham-biscuits              Virginia Ham Biscuits   [1 refused already]
   cherry-cobbler                     Cherry Cobbler   [1 refused already]
-  wisconsin-butter-burgers           Wisconsin Butter Burgers   [1 refused already]
+  wisconsin-butter-burgers           Wisconsin Butter Burgers   [2 refused already]
   kentucky-derby-pie                 Kentucky Derby Pie   [1 refused already]
   arkansas-possum-pie                Arkansas Possum Pie   [1 refused already]
-  colorado-green-chili               Colorado Green Chili   [1 refused already]
+  colorado-green-chili               Colorado Green Chili   [2 refused already]
   florida-grouper-sandwich           Florida Grouper Sandwich
   appalachian-soup-beans             Appalachian Soup Beans
   ozark-pudding                      Ozark Pudding
   amish-oatmeal-pie                  Amish Oatmeal Pie   [1 refused already]
   cranberry-brie-bites               Cranberry Brie Bites   [1 refused already]
-  glazed-baked-ham                   Glazed Baked Ham
   witch-finger-cookies               Witch Finger Cookies   [1 refused already]
-  popcorn-balls                      Popcorn Balls   [1 refused already]
-  pizza-dip                          Pizza Dip   [1 refused already]
+  pizza-dip                          Pizza Dip   [2 refused already]
   fruit-jello-salad                  Fruit Jello Salad
-  southern-chow-chow                 Southern Chow Chow   [1 refused already]
+  southern-chow-chow                 Southern Chow Chow   [2 refused already]
   appalachian-fried-apple-pies       Appalachian Fried Apple Pies
   switchel                           Switchel   [3 refused already]
   air-fryer-potato-wedges            Air Fryer Potato Wedges
   air-fryer-corn-ribs                Air Fryer Corn Ribs
   slow-cooker-pulled-beef            Slow Cooker Pulled Beef   [4 refused already]
   slow-cooker-honey-mustard-chicken  Slow Cooker Honey Mustard Chicken   [4 refused already]
-  slow-cooker-split-pea-soup         Slow Cooker Split Pea Soup   [5 refused already]
   slow-cooker-oatmeal                Slow Cooker Oatmeal   [4 refused already]
   slow-cooker-sticky-ribs            Slow Cooker Sticky Ribs   [4 refused already]
   instant-pot-yogurt                 Instant Pot Yogurt
   instant-pot-egg-bites              Instant Pot Egg Bites   [1 refused already]
-  cast-iron-cornbread                Cast Iron Cornbread   [5 refused already]
-  cast-iron-pizza                    Cast Iron Pizza   [5 refused already]
-  cast-iron-steak                    Cast Iron Steak   [5 refused already]
+  cast-iron-pizza                    Cast Iron Pizza   [6 refused already]
   cast-iron-skillet-cookie           Cast Iron Skillet Cookie   [5 refused already]
-  dutch-oven-chicken                 Dutch Oven Chicken   [5 refused already]
+  dutch-oven-chicken                 Dutch Oven Chicken   [6 refused already]
   pull-apart-cheese-bread            Pull-Apart Cheese Bread   [1 refused already]
   pumpkin-cream-cheese-muffins       Pumpkin Cream Cheese Muffins   [1 refused already]
-  bagel-bites                        Bagel Bites   [1 refused already]
-  sourdough-pizza-crust              Sourdough Pizza Crust   [1 refused already]
-  sourdough-cinnamon-rolls           Sourdough Cinnamon Rolls
+  bagel-bites                        Bagel Bites   [2 refused already]
+  sourdough-pizza-crust              Sourdough Pizza Crust   [2 refused already]
   sourdough-brownies                 Sourdough Brownies
-  cottage-cheese-toast               Cottage Cheese Toast   [5 refused already]
-  biscuits-and-gravy-casserole       Biscuits and Gravy Casserole   [1 refused already]
   chicken-francoise                  Chicken Françoise
-  chicken-murphy                     Chicken Murphy   [1 refused already]
-  scalloped-corn                     Scalloped Corn
+  chicken-murphy                     Chicken Murphy   [2 refused already]
+  scalloped-corn                     Scalloped Corn   [1 refused already]
   reuben-casserole                   Reuben Casserole   [1 refused already]
   bacon-wrapped-meatloaf             Bacon Wrapped Meatloaf   [1 refused already]
   crown-roast-of-pork                Crown Roast of Pork   [1 refused already]
-  pan-gravy                          Pan Gravy   [1 refused already]
-  red-eye-gravy                      Red Eye Gravy   [5 refused already]
+  pan-gravy                          Pan Gravy   [2 refused already]
+  red-eye-gravy                      Red Eye Gravy   [6 refused already]
   bacon-wrapped-scallops             Bacon Wrapped Scallops   [1 refused already]
   air-fryer-baked-potato             Air Fryer Baked Potato
   air-fryer-banana-bread             Air Fryer Banana Bread
@@ -496,12 +375,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   air-fryer-cookies                  Air Fryer Cookies
   air-fryer-crab-cakes               Air Fryer Crab Cakes
   air-fryer-drumsticks               Air Fryer Drumsticks
-  air-fryer-fried-chicken            Air Fryer Fried Chicken
   air-fryer-grilled-cheese           Air Fryer Grilled Cheese
-  air-fryer-pizza-rolls              Air Fryer Pizza Rolls
+  air-fryer-pizza-rolls              Air Fryer Pizza Rolls   [1 refused already]
   air-fryer-popcorn-chicken          Air Fryer Popcorn Chicken
   air-fryer-stuffed-peppers          Air Fryer Stuffed Peppers
-  air-fryer-tater-tots               Air Fryer Tater Tots
+  air-fryer-tater-tots               Air Fryer Tater Tots   [1 refused already]
   air-fryer-turkey-breast            Air Fryer Turkey Breast
   air-fryer-zucchini-chips           Air Fryer Zucchini Chips
   instant-pot-baked-beans            Instant Pot Baked Beans   [1 refused already]
@@ -512,25 +390,19 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   instant-pot-stuffed-peppers        Instant Pot Stuffed Peppers
   instant-pot-white-chicken-chili    Instant Pot White Chicken Chili
   instant-pot-whole-chicken          Instant Pot Whole Chicken
-  baked-chicken-legs                 Baked Chicken Legs
   baked-halibut                      Baked Halibut   [2 refused already]
-  baked-pork-chops                   Baked Pork Chops   [2 refused already]
-  breakfast-skillet                  Breakfast Skillet   [2 refused already]
   cabbage-casserole                  Cabbage Casserole   [2 refused already]
-  cabbage-steaks                     Cabbage Steaks   [2 refused already]
+  cabbage-steaks                     Cabbage Steaks   [3 refused already]
   cod-in-garlic-butter               Cod in Garlic Butter
   crab-mac-and-cheese                Crab Mac and Cheese
-  fried-oysters                      Fried Oysters   [2 refused already]
-  grilled-chicken-sandwich           Grilled Chicken Sandwich   [2 refused already]
+  fried-oysters                      Fried Oysters   [3 refused already]
   honey-lemon-chicken                Honey Lemon Chicken   [2 refused already]
   one-pot-breakfast                  One Pot Breakfast   [2 refused already]
   one-pot-quinoa-chili               One Pot Quinoa Chili
   pan-fried-pork-chops               Pan Fried Pork Chops   [2 refused already]
-  pea-salad                          Pea Salad   [1 refused already]
-  bbq-chicken-sandwich               BBQ Chicken Sandwich   [1 refused already]
-  rainbow-trout                      Rainbow Trout   [2 refused already]
-  sausage-egg-bake                   Sausage Egg Bake   [2 refused already]
-  sausage-stuffing                   Sausage Stuffing   [2 refused already]
+  pea-salad                          Pea Salad   [2 refused already]
+  sausage-egg-bake                   Sausage Egg Bake   [3 refused already]
+  sausage-stuffing                   Sausage Stuffing   [3 refused already]
   sheet-pan-breakfast-hash           Sheet Pan Breakfast Hash   [1 refused already]
   sheet-pan-cod-and-vegetables       Sheet Pan Cod and Vegetables   [1 refused already]
   sheet-pan-honey-mustard-chicken    Sheet Pan Honey Mustard Chicken   [1 refused already]
@@ -538,17 +410,13 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   sheet-pan-pork-chops               Sheet Pan Pork Chops   [1 refused already]
   sheet-pan-steak-and-vegetables     Sheet Pan Steak and Vegetables
   slow-cooker-baked-beans            Slow Cooker Baked Beans
-  slow-cooker-beef-brisket           Slow Cooker Beef Brisket   [2 refused already]
   slow-cooker-beef-chili-mac         Slow Cooker Beef Chili Mac
   slow-cooker-chicken-and-dumplings  Slow Cooker Chicken and Dumplings
   slow-cooker-hash-brown-casserole   Slow Cooker Hash Brown Casserole
-  slow-cooker-pulled-pork            Slow Cooker Pulled Pork
-  slow-cooker-salmon                 Slow Cooker Salmon
   slow-cooker-short-ribs             Slow Cooker Short Ribs
   slow-cooker-stuffing               Slow Cooker Stuffing
   slow-cooker-turkey-breast          Slow Cooker Turkey Breast
-  slow-cooker-whole-chicken          Slow Cooker Whole Chicken
-  smoked-salmon-dip                  Smoked Salmon Dip   [2 refused already]
+  smoked-salmon-dip                  Smoked Salmon Dip   [3 refused already]
   southern-mac-and-cheese            Southern Mac and Cheese   [1 refused already]
   stovetop-mac-and-cheese            Stovetop Mac and Cheese
   turkey-casserole                   Turkey Casserole   [1 refused already]
@@ -562,93 +430,75 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   freezer-chili                      Freezer Chili
   shrimp-meal-prep-bowls             Shrimp Meal Prep Bowls
   almond-crescent-cookies            Almond Crescent Cookies
-  apple-bundt-cake                   Apple Bundt Cake   [1 refused already]
   apple-pie-bites                    Apple Pie Bites   [2 refused already]
-  banana-chocolate-chip-bread        Banana Chocolate Chip Bread   [2 refused already]
-  banana-cookies                     Banana Cookies   [2 refused already]
+  banana-cookies                     Banana Cookies   [3 refused already]
   banana-cupcakes                    Banana Cupcakes   [2 refused already]
-  blueberry-coffee-cake              Blueberry Coffee Cake   [2 refused already]
-  boston-cream-donuts                Boston Cream Donuts   [2 refused already]
+  blueberry-coffee-cake              Blueberry Coffee Cake   [3 refused already]
   brownie-cookies                    Brownie Cookies   [2 refused already]
   cakey-brownies                     Cakey Brownies
   carrot-cake-loaf                   Carrot Cake Loaf   [2 refused already]
   cathead-biscuits                   Cathead Biscuits
-  cheesecake-bars                    Cheesecake Bars   [2 refused already]
-  cheesecake-cupcakes                Cheesecake Cupcakes   [2 refused already]
+  cheesecake-bars                    Cheesecake Bars   [3 refused already]
   cherry-almond-cookies              Cherry Almond Cookies
   chewy-ginger-cookies               Chewy Ginger Cookies
-  chocolate-chip-pancakes            Chocolate Chip Pancakes   [2 refused already]
-  chocolate-peppermint-cookies       Chocolate Peppermint Cookies   [2 refused already]
-  cinnamon-buns                      Cinnamon Buns   [2 refused already]
   cookie-dough-bars                  Cookie Dough Bars   [2 refused already]
   cranberry-orange-cookies           Cranberry Orange Cookies
-  cream-cheese-brownies              Cream Cheese Brownies   [2 refused already]
-  cream-cheese-pound-cake            Cream Cheese Pound Cake   [2 refused already]
-  dutch-apple-pie                    Dutch Apple Pie   [2 refused already]
+  cream-cheese-brownies              Cream Cheese Brownies   [3 refused already]
+  cream-cheese-pound-cake            Cream Cheese Pound Cake   [3 refused already]
   funfetti-cookies                   Funfetti Cookies
   funfetti-cupcakes                  Funfetti Cupcakes
   kitchen-sink-cookies               Kitchen Sink Cookies
   lemon-blueberry-cake               Lemon Blueberry Cake   [2 refused already]
   lemon-bundt-cake                   Lemon Bundt Cake   [2 refused already]
   mint-brownies                      Mint Brownies   [1 refused already]
-  mixed-berry-pie                    Mixed Berry Pie   [2 refused already]
   white-chocolate-raspberry-blondies White Chocolate Raspberry Blondies   [2 refused already]
   nutella-brownies                   Nutella Brownies   [1 refused already]
   nutella-cookies                    Nutella Cookies   [2 refused already]
   peach-crisp                        Peach Crisp
-  peanut-butter-chocolate-chip-cookies Peanut Butter Chocolate Chip Cookies   [2 refused already]
   peanut-butter-muffins              Peanut Butter Muffins   [2 refused already]
   pumpkin-bars                       Pumpkin Bars   [2 refused already]
   pumpkin-bundt-cake                 Pumpkin Bundt Cake
-  pumpkin-cupcakes                   Pumpkin Cupcakes   [2 refused already]
   maple-walnut-cookies               Maple Walnut Cookies
-  salted-caramel-cookies             Salted Caramel Cookies   [2 refused already]
-  salted-caramel-cupcakes            Salted Caramel Cupcakes   [2 refused already]
+  salted-caramel-cookies             Salted Caramel Cookies   [3 refused already]
+  salted-caramel-cupcakes            Salted Caramel Cupcakes   [3 refused already]
   sour-cream-pound-cake              Sour Cream Pound Cake   [1 refused already]
-  strawberry-bread                   Strawberry Bread   [2 refused already]
+  strawberry-bread                   Strawberry Bread   [3 refused already]
   vinegar-pie                        Vinegar Pie   [2 refused already]
   yellow-cake                        Yellow Cake   [2 refused already]
   zucchini-brownies                  Zucchini Brownies
   zucchini-cookies                   Zucchini Cookies
-  chocolate-smoothie                 Chocolate Smoothie   [2 refused already]
-  coffee-ice-cream                   Coffee Ice Cream   [1 refused already]
+  chocolate-smoothie                 Chocolate Smoothie   [3 refused already]
+  coffee-ice-cream                   Coffee Ice Cream   [2 refused already]
   fantasy-fudge                      Fantasy Fudge   [1 refused already]
   mug-cheesecake                     Mug Cheesecake   [1 refused already]
   mug-cornbread                      Mug Cornbread
   mug-mac-and-cheese                 Mug Mac and Cheese   [1 refused already]
   mug-omelette                       Mug Omelette   [2 refused already]
   no-bake-banana-pudding             No Bake Banana Pudding   [1 refused already]
-  no-bake-cheesecake                 No Bake Cheesecake   [2 refused already]
+  no-bake-cheesecake                 No Bake Cheesecake   [3 refused already]
   no-bake-cherry-cheesecake          No Bake Cherry Cheesecake
   no-bake-energy-bites               No Bake Energy Bites
-  no-bake-oreo-dessert               No Bake Oreo Dessert
   no-churn-ice-cream                 No Churn Ice Cream   [1 refused already]
   penuche                            Penuche
-  popsicles                          Popsicles
   salted-caramel-ice-cream           Salted Caramel Ice Cream   [2 refused already]
   saltine-toffee                     Saltine Toffee
-  bear-claws                         Bear Claws   [2 refused already]
+  bear-claws                         Bear Claws   [3 refused already]
   brown-butter-rice-krispie-treats   Brown Butter Rice Krispie Treats
   chocolate-covered-pretzels         Chocolate Covered Pretzels   [2 refused already]
-  chocolate-dipped-bananas           Chocolate Dipped Bananas
   nutella-french-toast               Nutella French Toast   [2 refused already]
   peanut-butter-overnight-oats       Peanut Butter Overnight Oats   [2 refused already]
   sheet-pan-apple-crisp              Sheet Pan Apple Crisp
   slow-cooker-cheesecake             Slow Cooker Cheesecake
   slow-cooker-peach-cobbler          Slow Cooker Peach Cobbler
   carrot-cake-overnight-oats         Carrot Cake Overnight Oats   [2 refused already]
-  cookies-and-cream-ice-cream        Cookies and Cream Ice Cream   [2 refused already]
+  cookies-and-cream-ice-cream        Cookies and Cream Ice Cream   [3 refused already]
   ice-cream-pie                      Ice Cream Pie   [2 refused already]
-  frozen-hot-chocolate               Frozen Hot Chocolate
-  rocky-road-ice-cream               Rocky Road Ice Cream   [2 refused already]
+  rocky-road-ice-cream               Rocky Road Ice Cream   [3 refused already]
   microwave-mug-cake                 Microwave Mug Cake
   mug-carrot-cake                    Mug Carrot Cake
-  mug-chocolate-chip-cookie          Mug Chocolate Chip Cookie
   no-bake-chocolate-pie              No Bake Chocolate Pie   [1 refused already]
   no-bake-key-lime-pie               No Bake Key Lime Pie   [1 refused already]
-  peach-ice-cream                    Peach Ice Cream   [2 refused already]
   no-bake-peanut-butter-bars         No Bake Peanut Butter Bars
-  3-ingredient-banana-pancakes       3 Ingredient Banana Pancakes
   3-ingredient-cookies               3 Ingredient Cookies
   3-ingredient-fudge                 3 Ingredient Fudge
   dairy-free-brownies                Dairy-Free Brownies
@@ -660,15 +510,12 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   dairy-free-pumpkin-pie             Dairy-Free Pumpkin Pie
   freezer-cookie-dough               Freezer Cookie Dough
   gluten-free-brownie-cookies        Gluten-Free Brownie Cookies
-  gluten-free-cookies                Gluten-Free Cookies   [2 refused already]
   high-protein-cheesecake            High-Protein Cheesecake
   high-protein-cookies               High-Protein Cookies
   low-carb-brownies                  Low-Carb Brownies   [1 refused already]
-  low-carb-cookies                   Low-Carb Cookies   [2 refused already]
+  low-carb-cookies                   Low-Carb Cookies   [3 refused already]
   vegan-cupcakes                     Vegan Cupcakes   [2 refused already]
-  vegan-fudge                        Vegan Fudge   [2 refused already]
-  mango-ice-cream                    Mango Ice Cream   [2 refused already]
-  cookie-butter-ice-cream            Cookie Butter Ice Cream   [2 refused already]
+  cookie-butter-ice-cream            Cookie Butter Ice Cream   [3 refused already]
   3-ingredient-biscuits              3 Ingredient Biscuits
   3-ingredient-pancakes              3 Ingredient Pancakes
   dairy-free-chocolate-cake          Dairy-Free Chocolate Cake   [1 refused already]
@@ -681,9 +528,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   freezer-biscuits                   Freezer Biscuits
   freezer-mac-and-cheese             Freezer Mac and Cheese
   freezer-muffins                    Freezer Muffins   [1 refused already]
-  freezer-pot-pie                    Freezer Pot Pie   [1 refused already]
-  gluten-free-banana-bread           Gluten-Free Banana Bread   [1 refused already]
-  gluten-free-biscuits               Gluten-Free Biscuits
   gluten-free-chicken-nuggets        Gluten-Free Chicken Nuggets   [1 refused already]
   gluten-free-cinnamon-rolls         Gluten-Free Cinnamon Rolls   [1 refused already]
   gluten-free-crackers               Gluten-Free Crackers   [1 refused already]
@@ -691,9 +535,7 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-fried-chicken          Gluten-Free Fried Chicken   [1 refused already]
   gluten-free-mac-and-cheese         Gluten-Free Mac and Cheese   [1 refused already]
   gluten-free-meatloaf               Gluten-Free Meatloaf   [1 refused already]
-  gluten-free-muffins                Gluten-Free Muffins   [2 refused already]
   gluten-free-pie-crust              Gluten-Free Pie Crust   [2 refused already]
-  gluten-free-sandwich-bread         Gluten-Free Sandwich Bread
   gluten-free-stuffing               Gluten-Free Stuffing   [1 refused already]
   gluten-free-waffles                Gluten-Free Waffles   [2 refused already]
   high-protein-breakfast-burrito     High-Protein Breakfast Burrito
@@ -703,49 +545,200 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   high-protein-pancakes              High-Protein Pancakes
   high-protein-waffles               High-Protein Waffles   [1 refused already]
   low-carb-breakfast-casserole       Low-Carb Breakfast Casserole   [1 refused already]
-  low-carb-chicken-casserole         Low-Carb Chicken Casserole   [1 refused already]
   low-carb-chili                     Low-Carb Chili   [1 refused already]
   low-carb-egg-muffins               Low-Carb Egg Muffins
   low-carb-granola                   Low-Carb Granola   [1 refused already]
-  low-carb-muffins                   Low-Carb Muffins   [2 refused already]
-  low-carb-pancakes                  Low-Carb Pancakes   [2 refused already]
+  low-carb-muffins                   Low-Carb Muffins   [3 refused already]
+  low-carb-pancakes                  Low-Carb Pancakes   [3 refused already]
   vegan-pot-pie                      Vegan Pot Pie   [2 refused already]
   vegan-stuffing                     Vegan Stuffing   [2 refused already]
-  hot-dog-buns                       Hot Dog Buns   [2 refused already]
   cheddar-jalapeno-bread             Cheddar Jalapeno Bread
   honey-oat-bread                    Honey Oat Bread   [1 refused already]
 
-== British (206) =======================================
-  lamb-bhuna                         Lamb Bhuna   [1 refused already]
-  butterfly-cakes                    Butterfly Cakes   [12 refused already]
+== Italian (162) =======================================
+  italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
+  chicken-scarpariello               Chicken Scarpariello   [3 refused already]
+  italian-seasoning                  Italian Seasoning   [5 refused already]
+  pesto-chicken-bake                 Pesto Chicken Bake   [17 refused already]
+  bruschetta-chicken                 Bruschetta Chicken   [14 refused already]
+  eggplant-pizzas                    Eggplant Pizzas   [20 refused already]
+  zucchini-pizza-bites               Zucchini Pizza Bites   [14 refused already]
+  portobello-pizzas                  Portobello Pizzas   [9 refused already]
+  garlic-chicken-pasta               Garlic Chicken Pasta   [26 refused already]
+  flounder-francese                  Flounder Francese   [1 refused already]
+  roasted-vegetable-pasta            Roasted Vegetable Pasta   [8 refused already]
+  eggs-in-purgatory                  Eggs in Purgatory   [2 refused already]
+  spaghetti-frittata                 Spaghetti Frittata   [1 refused already]
+  instant-pot-risotto                Instant Pot Risotto   [1 refused already]
+  instant-pot-bolognese              Instant Pot Bolognese   [1 refused already]
+  slow-cooker-minestrone             Slow Cooker Minestrone   [3 refused already]
+  sheet-pan-meatballs                Sheet Pan Meatballs   [2 refused already]
+  sheet-pan-gnocchi                  Sheet Pan Gnocchi   [1 refused already]
+  pumpkin-pasta-bake                 Pumpkin Pasta Bake   [2 refused already]
+  roasted-red-pepper-pasta           Roasted Red Pepper Pasta   [1 refused already]
+  tuscan-chicken                     Tuscan Chicken   [2 refused already]
+  mussels-marinara                   Mussels Marinara   [1 refused already]
+  spinach-lasagna                    Spinach Lasagna   [1 refused already]
+  pumpkin-gnocchi                    Pumpkin Gnocchi   [1 refused already]
+  creamy-tuscan-shrimp               Creamy Tuscan Shrimp   [1 refused already]
+  one-pot-lasagne-soup               One Pot Lasagne Soup   [1 refused already]
+  caprese-chicken                    Caprese Chicken   [1 refused already]
+  four-cheese-pasta-bake             Four Cheese Pasta Bake   [1 refused already]
+  chicken-carbonara                  Chicken Carbonara   [2 refused already]
+  creamy-pesto-gnocchi               Creamy Pesto Gnocchi   [1 refused already]
+  tuscan-white-bean-salad            Tuscan White Bean Salad
+  penne-arrabbiata-bake              Penne Arrabbiata Bake
+  tuscan-bean-soup                   Tuscan Bean Soup   [1 refused already]
+  lemon-sorbet                       Lemon Sorbet   [2 refused already]
+  antipasto-skewers                  Antipasto Skewers
+  prosciutto-wrapped-asparagus       Prosciutto Wrapped Asparagus
+  pear-and-parmesan-salad            Pear and Parmesan Salad
+  tortellini-salad                   Tortellini Salad   [1 refused already]
+  spinach-and-ricotta-cannelloni     Spinach and Ricotta Cannelloni
+  sweet-potato-gnocchi               Sweet Potato Gnocchi   [1 refused already]
+  beef-ragu                          Beef Ragu   [2 refused already]
+  cheese-tortellini-with-pesto       Cheese Tortellini with Pesto
+  chicken-roulade                    Chicken Roulade   [2 refused already]
+  chicken-sausage-pasta              Chicken Sausage Pasta   [1 refused already]
+  garlic-butter-pasta                Garlic Butter Pasta   [2 refused already]
+  gnocchi-bake                       Gnocchi Bake
+  pumpkin-and-sage-pasta             Pumpkin and Sage Pasta
+  meatball-pasta-bake                Meatball Pasta Bake
+  chicken-saltimbocca                Chicken Saltimbocca
+  beef-short-rib-ragu                Beef Short Rib Ragu
+  beef-tagliata                      Beef Tagliata   [1 refused already]
+  lamb-ragu-pappardelle              Lamb Ragu Pappardelle
+  sea-bream-with-fennel              Sea Bream with Fennel
+  panettone-french-toast             Panettone French Toast   [1 refused already]
+  slow-cooker-lasagne                Slow Cooker Lasagne
+  roasted-courgettes                 Roasted Courgettes
+  vegetarian-lasagne                 Vegetarian Lasagne   [1 refused already]
+  linguine-al-limone                 Linguine al Limone
+  rigatoni-alla-vodka                Rigatoni alla Vodka
+  cannelloni                         Cannelloni   [2 refused already]
+  lasagne-rolls                      Lasagne Rolls
+  gnocchi-with-gorgonzola            Gnocchi with Gorgonzola   [1 refused already]
+  crostini-with-ricotta              Crostini with Ricotta
+  pizza-bianca                       Pizza Bianca   [1 refused already]
+  pesto-chicken-traybake             Pesto Chicken Traybake   [1 refused already]
+  pizza-dough-without-yeast          Pizza Dough Without Yeast   [4 refused already]
+  spaghetti-with-breadcrumbs         Spaghetti with Breadcrumbs   [7 refused already]
+  pasta-al-limone                    Pasta al Limone   [7 refused already]
+  pasta-burro-e-salvia               Pasta Burro e Salvia   [3 refused already]
+  lemon-granita                      Lemon Granita   [1 refused already]
+  panettone-bread-pudding            Panettone Bread Pudding   [1 refused already]
+  slow-cooker-beef-ragu              Slow Cooker Beef Ragu   [3 refused already]
+  skillet-gnocchi-with-spinach       Skillet Gnocchi with Spinach   [1 refused already]
+  instant-pot-chicken-cacciatore     Instant Pot Chicken Cacciatore   [2 refused already]
+  instant-pot-meatballs              Instant Pot Meatballs
+  instant-pot-osso-buco              Instant Pot Osso Buco
+  instant-pot-shrimp-scampi          Instant Pot Shrimp Scampi   [2 refused already]
+  baked-penne                        Baked Penne   [3 refused already]
+  one-pot-garlic-parmesan-chicken    One Pot Garlic Parmesan Chicken   [1 refused already]
+  one-pot-gnocchi                    One Pot Gnocchi   [1 refused already]
+  sheet-pan-chicken-parmesan         Sheet Pan Chicken Parmesan   [1 refused already]
+  slow-cooker-pasta                  Slow Cooker Pasta   [1 refused already]
+  slow-cooker-risotto                Slow Cooker Risotto
+  spaghetti-alla-norma               Spaghetti alla Norma
+  stuffed-zucchini-boats             Stuffed Zucchini Boats   [2 refused already]
+  5-ingredient-lasagna               5 Ingredient Lasagna
+  cranberry-pistachio-biscotti       Cranberry Pistachio Biscotti
+  lemon-gelato                       Lemon Gelato   [2 refused already]
+  gluten-free-gnocchi                Gluten-Free Gnocchi   [2 refused already]
+  gluten-free-meatballs              Gluten-Free Meatballs   [1 refused already]
+  gluten-free-pasta-salad            Gluten-Free Pasta Salad   [1 refused already]
+  gluten-free-pizza-dough            Gluten-Free Pizza Dough   [1 refused already]
+  high-protein-pasta                 High-Protein Pasta   [1 refused already]
+  low-carb-chicken-parmesan          Low-Carb Chicken Parmesan   [1 refused already]
+  low-carb-meatballs                 Low-Carb Meatballs   [1 refused already]
+  low-carb-pizza                     Low-Carb Pizza   [2 refused already]
+  vegan-alfredo                      Vegan Alfredo   [2 refused already]
+  vegan-carbonara                    Vegan Carbonara   [2 refused already]
+  vegan-meatballs                    Vegan Meatballs   [1 refused already]
+  vegan-panna-cotta                  Vegan Panna Cotta   [3 refused already]
+  vegan-pizza                        Vegan Pizza   [3 refused already]
+  ravioli-di-ricotta-e-spinaci       Ravioli di Ricotta e Spinaci
+  polenta-taragna                    Polenta Taragna   [1 refused already]
+  tajarin-al-tartufo                 Tajarin al Tartufo
+  pollo-alla-diavola                 Pollo alla Diavola
+  coniglio-alla-cacciatora           Coniglio alla Cacciatora
+  pomodori-ripieni                   Pomodori Ripieni   [1 refused already]
+  torta-di-mele                      Torta di Mele   [1 refused already]
+  torta-al-limone                    Torta al Limone
+  tortino-al-cioccolato              Tortino al Cioccolato
+  castagnole                         Castagnole   [1 refused already]
+  torrone                            Torrone   [1 refused already]
+  brutti-ma-buoni                    Brutti ma Buoni   [2 refused already]
+  fave-e-cicoria                     Fave e Cicoria
+  pizza-fritta                       Pizza Fritta   [2 refused already]
+  pasta-con-le-zucchine              Pasta con le Zucchine
+  pasta-ai-quattro-formaggi          Pasta ai Quattro Formaggi   [1 refused already]
+  pasta-alla-carrettiera             Pasta alla Carrettiera
+  spaghetti-alla-bottarga            Spaghetti alla Bottarga
+  linguine-allo-scoglio              Linguine allo Scoglio
+  cavatelli-con-broccoli             Cavatelli con Broccoli
+  malfatti                           Malfatti   [2 refused already]
+  risotto-al-radicchio               Risotto al Radicchio
+  risotto-agli-asparagi              Risotto agli Asparagi
+  zuppa-di-farro                     Zuppa di Farro
+  zuppa-di-lenticchie                Zuppa di Lenticchie   [1 refused already]
+  zuppa-di-ceci                      Zuppa di Ceci
+  costoletta-alla-valdostana         Costoletta alla Valdostana
+  pasta-alla-norcina                 Pasta alla Norcina
+  abbacchio-alla-scottadito          Abbacchio alla Scottadito
+  trenette-al-pesto                  Trenette al Pesto   [2 refused already]
+  torta-di-verdure                   Torta di Verdure
+  pollo-alla-romana                  Pollo alla Romana
+  pollo-al-limone                    Pollo al Limone
+  salsiccia-e-friarielli             Salsiccia e Friarielli
+  spezzatino-di-manzo                Spezzatino di Manzo
+  polpettone                         Polpettone   [1 refused already]
+  cotechino-con-lenticchie           Cotechino con Lenticchie
+  gelato-al-cioccolato               Gelato al Cioccolato
+  pesche-ripiene                     Pesche Ripiene
+  pere-al-vino-rosso                 Pere al Vino Rosso
+  budino-al-cioccolato               Budino al Cioccolato
+  cornetti                           Cornetti   [1 refused already]
+  torta-di-noci                      Torta di Noci   [1 refused already]
+  crostata-alla-nutella              Crostata alla Nutella
+  crostata-alle-fragole              Crostata alle Fragole
+  sbrisolona-mantovana               Sbrisolona Mantovana
+  focaccia-pugliese                  Focaccia Pugliese   [1 refused already]
+  bruschetta-al-pomodoro             Bruschetta al Pomodoro
+  carciofi-ripieni                   Carciofi Ripieni
+  conchiglioni-ripieni               Conchiglioni Ripieni
+  spaghetti-al-limone                Spaghetti al Limone   [1 refused already]
+  tagliolini-al-tartufo              Tagliolini al Tartufo
+  penne-al-gorgonzola                Penne al Gorgonzola
+  risotto-allo-zafferano             Risotto allo Zafferano
+  uova-in-purgatorio                 Uova in Purgatorio
+  torta-di-carote                    Torta di Carote   [1 refused already]
+  torta-al-mascarpone                Torta al Mascarpone
+  torta-di-castagne                  Torta di Castagne   [1 refused already]
+  tiramisu-alle-fragole              Tiramisu alle Fragole
+  bomboloni-al-forno                 Bomboloni al Forno
+  spritz-veneziano                   Spritz Veneziano   [1 refused already]
+
+== British (157) =======================================
+  lamb-bhuna                         Lamb Bhuna   [2 refused already]
+  butterfly-cakes                    Butterfly Cakes   [13 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
-  homemade-ginger-beer               Homemade Ginger Beer   [20 refused already]
-  cornflake-tart                     Cornflake Tart
-  baked-haddock-with-herbs           Baked Haddock with Herbs   [7 refused already]
+  homemade-ginger-beer               Homemade Ginger Beer   [22 refused already]
+  cornflake-tart                     Cornflake Tart   [1 refused already]
+  baked-haddock-with-herbs           Baked Haddock with Herbs   [9 refused already]
   cumberland-sausage-hotpot          Cumberland Sausage Hotpot   [1 refused already]
   panackelty                         Panackelty   [5 refused already]
-  sausage-and-potato-traybake        Sausage and Potato Traybake   [1 refused already]
-  sausage-pasta-bake                 Sausage Pasta Bake   [5 refused already]
-  sausage-and-lentil-stew            Sausage and Lentil Stew   [1 refused already]
-  chicken-thigh-traybake             Chicken Thigh Traybake   [1 refused already]
-  leftover-roast-chicken-pie         Leftover Roast Chicken Pie   [1 refused already]
-  whole-roast-chicken-with-vegetables Whole Roast Chicken with Vegetables   [2 refused already]
-  tuna-fish-cakes                    Tuna Fish Cakes   [2 refused already]
-  tuna-and-sweetcorn-pasta           Tuna and Sweetcorn Pasta   [1 refused already]
-  salmon-pasta                       Salmon Pasta   [5 refused already]
-  cod-and-potato-bake                Cod and Potato Bake   [1 refused already]
+  sausage-and-potato-traybake        Sausage and Potato Traybake   [3 refused already]
+  sausage-pasta-bake                 Sausage Pasta Bake   [6 refused already]
+  tuna-fish-cakes                    Tuna Fish Cakes   [3 refused already]
   marrow-bake                        Marrow Bake   [1 refused already]
-  vegetable-stew                     Vegetable Stew   [7 refused already]
-  egg-butty                          Egg Butty   [2 refused already]
+  egg-butty                          Egg Butty   [3 refused already]
   eggy-bread                         Eggy Bread   [1 refused already]
-  egg-and-cheese-toastie             Egg and Cheese Toastie
-  beans-and-cheese-toastie           Beans and Cheese Toastie   [1 refused already]
-  egg-mayo                           Egg Mayo   [2 refused already]
+  egg-and-cheese-toastie             Egg and Cheese Toastie   [1 refused already]
+  beans-and-cheese-toastie           Beans and Cheese Toastie   [2 refused already]
   curry-fries                        Curry Fries   [3 refused already]
-  potato-croquettes                  Potato Croquettes   [5 refused already]
-  stuffed-onions                     Stuffed Onions   [4 refused already]
-  buttered-peas                      Buttered Peas   [2 refused already]
-  potato-farls                       Potato Farls   [1 refused already]
+  buttered-peas                      Buttered Peas   [3 refused already]
+  potato-farls                       Potato Farls   [2 refused already]
   cheese-and-onion-pasty             Cheese and Onion Pasty   [1 refused already]
   butter-bean-stew                   Butter Bean Stew   [1 refused already]
   coronation-chickpea-sandwich       Coronation Chickpea Sandwich
@@ -754,100 +747,71 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   air-fryer-roast-chicken            Air Fryer Roast Chicken   [1 refused already]
   air-fryer-jacket-potato            Air Fryer Jacket Potato
   slow-cooker-beef-curry             Slow Cooker Beef Curry   [4 refused already]
-  slow-cooker-porridge               Slow Cooker Porridge   [3 refused already]
   slow-cooker-apple-crumble          Slow Cooker Apple Crumble   [4 refused already]
   slow-cooker-sausage-casserole      Slow Cooker Sausage Casserole   [4 refused already]
   cheese-and-egg-pie                 Cheese and Egg Pie   [1 refused already]
-  black-pudding-hash                 Black Pudding Hash   [7 refused already]
+  black-pudding-hash                 Black Pudding Hash   [8 refused already]
   yorkshire-pudding-wraps            Yorkshire Pudding Wraps   [6 refused already]
-  tomato-chutney                     Tomato Chutney   [7 refused already]
+  tomato-chutney                     Tomato Chutney   [8 refused already]
   green-tomato-chutney               Green Tomato Chutney   [5 refused already]
-  blackberry-jam                     Blackberry Jam   [4 refused already]
+  blackberry-jam                     Blackberry Jam   [5 refused already]
   rhubarb-jam                        Rhubarb Jam   [2 refused already]
-  red-wine-sauce                     Red Wine Sauce   [5 refused already]
+  red-wine-sauce                     Red Wine Sauce   [6 refused already]
   beef-stock                         Beef Stock   [6 refused already]
-  seeded-loaf                        Seeded Loaf   [3 refused already]
-  roast-beef-sandwich                Roast Beef Sandwich   [7 refused already]
-  roast-chicken-sandwich             Roast Chicken Sandwich   [7 refused already]
-  chicken-mayo-sandwich              Chicken Mayo Sandwich   [5 refused already]
   egg-and-cress-sandwich             Egg and Cress Sandwich   [1 refused already]
   peach-crumble                      Peach Crumble   [1 refused already]
-  plum-crumble                       Plum Crumble
   dripping-toast                     Dripping Toast   [1 refused already]
   marmite-pasta                      Marmite Pasta
   salmon-fish-cakes                  Salmon Fish Cakes   [1 refused already]
-  rosemary-chicken                   Rosemary Chicken   [1 refused already]
+  rosemary-chicken                   Rosemary Chicken   [2 refused already]
   gammon-steak                       Gammon Steak   [1 refused already]
-  lamb-stew                          Lamb Stew
   haddock-chowder                    Haddock Chowder
   one-pan-sausage-and-potatoes       One Pan Sausage and Potatoes   [1 refused already]
-  chicken-thighs-with-potatoes       Chicken Thighs with Potatoes
-  beetroot-and-goat-cheese-salad     Beetroot and Goat Cheese Salad   [1 refused already]
-  chicken-and-chorizo-pie            Chicken and Chorizo Pie   [1 refused already]
-  pork-and-apple-pie                 Pork and Apple Pie   [1 refused already]
+  pork-and-apple-pie                 Pork and Apple Pie   [2 refused already]
   ham-and-egg-pie                    Ham and Egg Pie   [1 refused already]
-  beef-pasties                       Beef Pasties   [1 refused already]
-  asparagus-tart                     Asparagus Tart   [1 refused already]
-  halloumi-burgers                   Halloumi Burgers
+  beef-pasties                       Beef Pasties   [2 refused already]
   welsh-cheese-and-leek-pie          Welsh Cheese and Leek Pie   [1 refused already]
-  game-pie                           Game Pie   [1 refused already]
-  vegetable-pasties                  Vegetable Pasties   [1 refused already]
+  vegetable-pasties                  Vegetable Pasties   [2 refused already]
   egg-and-bacon-tart                 Egg and Bacon Tart   [1 refused already]
-  cocktail-sausages                  Cocktail Sausages   [1 refused already]
-  raspberry-cake                     Raspberry Cake   [1 refused already]
-  gingerbread-cake                   Gingerbread Cake   [1 refused already]
+  cocktail-sausages                  Cocktail Sausages   [2 refused already]
+  gingerbread-cake                   Gingerbread Cake   [2 refused already]
   pistachio-shortbread               Pistachio Shortbread
-  soft-boiled-eggs                   Soft Boiled Eggs   [1 refused already]
-  ham-and-cheese-quiche              Ham and Cheese Quiche
   blackcurrant-cordial               Blackcurrant Cordial   [1 refused already]
   cucumber-mint-cooler               Cucumber Mint Cooler   [1 refused already]
   ginger-cordial                     Ginger Cordial
-  lemon-ginger-tea                   Lemon Ginger Tea   [1 refused already]
   lime-cordial                       Lime Cordial   [1 refused already]
   rhubarb-cordial                    Rhubarb Cordial
   leftover-ham-pie                   Leftover Ham Pie
   banoffee-cheesecake                Banoffee Cheesecake
   courgette-and-lemon-cake           Courgette and Lemon Cake
-  maids-of-honour                    Maids of Honour
+  maids-of-honour                    Maids of Honour   [1 refused already]
   rhubarb-custard-cake               Rhubarb Custard Cake
-  seed-cake                          Seed Cake
-  sponge-roll                        Sponge Roll
   treacle-scones                     Treacle Scones   [1 refused already]
-  traybake-brownies                  Traybake Brownies
   sticky-toffee-sauce                Sticky Toffee Sauce   [1 refused already]
   stewed-rhubarb                     Stewed Rhubarb   [1 refused already]
-  chilli-jam                         Chilli Jam   [1 refused already]
+  chilli-jam                         Chilli Jam   [2 refused already]
   mint-jelly                         Mint Jelly   [1 refused already]
   beetroot-dip                       Beetroot Dip   [1 refused already]
   pea-and-mint-dip                   Pea and Mint Dip   [1 refused already]
-  celery-soup                        Celery Soup
-  vegetable-wellington               Vegetable Wellington   [1 refused already]
-  mushroom-wellington                Mushroom Wellington   [1 refused already]
-  beef-and-mushroom-pie              Beef and Mushroom Pie   [1 refused already]
+  vegetable-wellington               Vegetable Wellington   [2 refused already]
+  mushroom-wellington                Mushroom Wellington   [2 refused already]
   broccoli-pasta-bake                Broccoli Pasta Bake
   cod-in-parsley-sauce               Cod in Parsley Sauce
   corned-beef-with-parsley-sauce     Corned Beef with Parsley Sauce   [1 refused already]
-  creamed-leeks                      Creamed Leeks   [1 refused already]
+  creamed-leeks                      Creamed Leeks   [2 refused already]
   duck-fat-roast-potatoes            Duck Fat Roast Potatoes
-  ham-and-cheese-toastie             Ham and Cheese Toastie   [1 refused already]
-  jacket-potato-with-cheese          Jacket Potato with Cheese   [1 refused already]
+  jacket-potato-with-cheese          Jacket Potato with Cheese   [2 refused already]
   minted-peas                        Minted Peas   [1 refused already]
   ploughmans-sandwich                Ploughmans Sandwich   [1 refused already]
   pork-and-apple-casserole           Pork and Apple Casserole
   red-wine-gravy                     Red Wine Gravy   [1 refused already]
   salmon-fillet-with-dill-sauce      Salmon Fillet with Dill Sauce
-  scallops-with-pea-puree            Scallops with Pea Puree
-  slow-cooked-lamb-shoulder          Slow Cooked Lamb Shoulder
   tuna-fishcakes                     Tuna Fishcakes
-  cumberland-sausage-ring            Cumberland Sausage Ring
-  chicken-tikka-wraps                Chicken Tikka Wraps   [1 refused already]
-  chicken-tikka-pizza                Chicken Tikka Pizza   [1 refused already]
+  chicken-tikka-wraps                Chicken Tikka Wraps   [2 refused already]
+  chicken-tikka-pizza                Chicken Tikka Pizza   [2 refused already]
   pork-loin-with-cider-gravy         Pork Loin with Cider Gravy   [1 refused already]
-  pork-pie-with-piccalilli           Pork Pie with Piccalilli
-  lamb-hotpot                        Lamb Hotpot   [1 refused already]
   smoked-haddock-risotto             Smoked Haddock Risotto
   smoked-haddock-fishcakes           Smoked Haddock Fishcakes
-  fish-and-chips-with-mushy-peas     Fish and Chips with Mushy Peas
   mackerel-with-gooseberry-sauce     Mackerel with Gooseberry Sauce
   lemon-drizzle-traybake             Lemon Drizzle Traybake
   victoria-sandwich-cupcakes         Victoria Sandwich Cupcakes
@@ -856,58 +820,49 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   banoffee-cupcakes                  Banoffee Cupcakes
   sticky-toffee-cupcakes             Sticky Toffee Cupcakes   [1 refused already]
   iced-buns                          Iced Buns   [1 refused already]
-  syrup-sponge-pudding               Syrup Sponge Pudding
   roasted-squash-and-apple-soup      Roasted Squash and Apple Soup
   one-pan-sausage-pasta              One Pan Sausage Pasta   [1 refused already]
-  devilled-eggs                      Devilled Eggs   [1 refused already]
-  cheese-on-toast-with-chutney       Cheese on Toast with Chutney   [1 refused already]
-  shepherds-pie-with-cheesy-mash     Shepherd's Pie with Cheesy Mash
-  roast-lamb-dinner                  Roast Lamb Dinner   [1 refused already]
+  devilled-eggs                      Devilled Eggs   [2 refused already]
+  cheese-on-toast-with-chutney       Cheese on Toast with Chutney   [2 refused already]
   stuffing-balls                     Stuffing Balls
-  buttered-carrots                   Buttered Carrots   [1 refused already]
-  smoked-salmon-pate                 Smoked Salmon Pate
+  buttered-carrots                   Buttered Carrots   [2 refused already]
+  smoked-salmon-pate                 Smoked Salmon Pate   [1 refused already]
   fish-goujons                       Fish Goujons
-  chicken-goujons                    Chicken Goujons
+  chicken-goujons                    Chicken Goujons   [1 refused already]
   cheesy-leek-bake                   Cheesy Leek Bake   [1 refused already]
   garlic-mushroom-chicken            Garlic Mushroom Chicken   [1 refused already]
-  lentil-and-carrot-soup             Lentil and Carrot Soup   [10 refused already]
-  red-lentil-and-tomato-soup         Red Lentil and Tomato Soup   [7 refused already]
+  red-lentil-and-tomato-soup         Red Lentil and Tomato Soup   [8 refused already]
   savoury-french-toast               Savoury French Toast   [4 refused already]
   roast-cabbage-wedges               Roast Cabbage Wedges   [4 refused already]
   cheesy-jacket-potatoes             Cheesy Jacket Potatoes   [3 refused already]
   chicken-tray-bake                  Chicken Tray Bake   [10 refused already]
   baked-beans-from-scratch           Baked Beans from Scratch   [8 refused already]
-  onion-chutney                      Onion Chutney   [7 refused already]
+  onion-chutney                      Onion Chutney   [8 refused already]
   lemon-poppy-seed-cake              Lemon Poppy Seed Cake
   mashed-swede                       Mashed Swede   [1 refused already]
   chocolate-nest-cakes               Chocolate Nest Cakes
-  chorley-cakes                      Chorley Cakes   [1 refused already]
-  cornish-fairings                   Cornish Fairings   [1 refused already]
   brown-windsor-soup                 Brown Windsor Soup
   slow-cooker-rice-pudding           Slow Cooker Rice Pudding   [4 refused already]
   honey-glazed-gammon                Honey Glazed Gammon   [1 refused already]
-  vegetarian-gravy                   Vegetarian Gravy   [1 refused already]
+  vegetarian-gravy                   Vegetarian Gravy   [2 refused already]
   air-fryer-fish-and-chips           Air Fryer Fish and Chips
   air-fryer-lamb-chops               Air Fryer Lamb Chops
   air-fryer-pork-belly               Air Fryer Pork Belly
   instant-pot-lamb-shanks            Instant Pot Lamb Shanks
-  battered-fish                      Battered Fish   [2 refused already]
-  beef-casserole                     Beef Casserole   [2 refused already]
+  beef-casserole                     Beef Casserole   [3 refused already]
   chicken-wellington                 Chicken Wellington   [2 refused already]
   glazed-parsnips                    Glazed Parsnips
-  leg-of-lamb                        Leg of Lamb   [2 refused already]
+  leg-of-lamb                        Leg of Lamb   [3 refused already]
   lemon-roast-chicken                Lemon Roast Chicken   [2 refused already]
   sheet-pan-roast-chicken            Sheet Pan Roast Chicken   [1 refused already]
   slow-cooker-cottage-pie            Slow Cooker Cottage Pie
   chicken-and-ham-pie                Chicken and Ham Pie   [2 refused already]
   freezer-stew                       Freezer Stew
-  chocolate-chip-scones              Chocolate Chip Scones   [2 refused already]
-  fruit-loaf                         Fruit Loaf   [2 refused already]
+  chocolate-chip-scones              Chocolate Chip Scones   [3 refused already]
+  fruit-loaf                         Fruit Loaf   [3 refused already]
   lemon-drizzle-loaf                 Lemon Drizzle Loaf
-  lemon-scones                       Lemon Scones   [2 refused already]
-  lemon-shortbread                   Lemon Shortbread   [2 refused already]
+  lemon-shortbread                   Lemon Shortbread   [3 refused already]
   oat-scones                         Oat Scones
-  orange-drizzle-cake                Orange Drizzle Cake
   raspberry-scones                   Raspberry Scones   [1 refused already]
   microwave-rice-pudding             Microwave Rice Pudding
   no-bake-trifle                     No Bake Trifle
@@ -923,310 +878,25 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-yorkshire-puddings     Gluten-Free Yorkshire Puddings   [1 refused already]
   vegan-stew                         Vegan Stew   [1 refused already]
 
-== Italian (147) =======================================
-  italian-wedding-cookies            Italian Wedding Cookies   [3 refused already]
-  chicken-scarpariello               Chicken Scarpariello   [2 refused already]
-  italian-seasoning                  Italian Seasoning   [4 refused already]
-  chicken-florentine                 Chicken Florentine   [12 refused already]
-  pesto-chicken-bake                 Pesto Chicken Bake   [15 refused already]
-  bruschetta-chicken                 Bruschetta Chicken   [13 refused already]
-  eggplant-pizzas                    Eggplant Pizzas   [18 refused already]
-  zucchini-pizza-bites               Zucchini Pizza Bites   [14 refused already]
-  portobello-pizzas                  Portobello Pizzas   [7 refused already]
-  garlic-chicken-pasta               Garlic Chicken Pasta   [24 refused already]
-  lemon-turkey-cutlets               Lemon Turkey Cutlets   [7 refused already]
-  flounder-francese                  Flounder Francese
-  roasted-vegetable-pasta            Roasted Vegetable Pasta   [6 refused already]
-  eggs-in-purgatory                  Eggs in Purgatory   [1 refused already]
-  spaghetti-frittata                 Spaghetti Frittata
-  instant-pot-risotto                Instant Pot Risotto   [1 refused already]
-  instant-pot-bolognese              Instant Pot Bolognese   [1 refused already]
-  slow-cooker-bolognese              Slow Cooker Bolognese   [4 refused already]
-  slow-cooker-minestrone             Slow Cooker Minestrone   [3 refused already]
-  sheet-pan-meatballs                Sheet Pan Meatballs   [1 refused already]
-  sheet-pan-gnocchi                  Sheet Pan Gnocchi   [1 refused already]
-  arrabbiata-sauce                   Arrabbiata Sauce   [7 refused already]
-  spinach-and-ricotta-pasta          Spinach and Ricotta Pasta   [2 refused already]
-  pumpkin-pasta-bake                 Pumpkin Pasta Bake   [2 refused already]
-  roasted-red-pepper-pasta           Roasted Red Pepper Pasta   [1 refused already]
-  tuscan-chicken                     Tuscan Chicken   [1 refused already]
-  prawn-linguine                     Prawn Linguine   [1 refused already]
-  mussels-marinara                   Mussels Marinara   [1 refused already]
-  spinach-lasagna                    Spinach Lasagna   [1 refused already]
-  pumpkin-gnocchi                    Pumpkin Gnocchi   [1 refused already]
-  creamy-tuscan-shrimp               Creamy Tuscan Shrimp   [1 refused already]
-  one-pot-lasagne-soup               One Pot Lasagne Soup   [1 refused already]
-  caprese-chicken                    Caprese Chicken   [1 refused already]
-  four-cheese-pasta-bake             Four Cheese Pasta Bake   [1 refused already]
-  chicken-carbonara                  Chicken Carbonara   [1 refused already]
-  creamy-pesto-gnocchi               Creamy Pesto Gnocchi   [1 refused already]
-  italian-sausage-soup               Italian Sausage Soup   [1 refused already]
-  tuscan-white-bean-salad            Tuscan White Bean Salad
-  penne-arrabbiata-bake              Penne Arrabbiata Bake
-  lemon-pasta                        Lemon Pasta   [1 refused already]
-  crab-linguine                      Crab Linguine   [1 refused already]
-  herb-focaccia                      Herb Focaccia   [1 refused already]
-  fig-cake                           Fig Cake   [1 refused already]
-  italian-lemon-cake                 Italian Lemon Cake
-  tuscan-bean-soup                   Tuscan Bean Soup
-  ricotta-toast-with-honey           Ricotta Toast with Honey   [1 refused already]
-  hazelnut-chocolate-cake            Hazelnut Chocolate Cake
-  lemon-sorbet                       Lemon Sorbet   [1 refused already]
-  antipasto-skewers                  Antipasto Skewers
-  caprese-skewers                    Caprese Skewers
-  prosciutto-wrapped-asparagus       Prosciutto Wrapped Asparagus
-  mini-pizzas                        Mini Pizzas   [1 refused already]
-  pear-and-parmesan-salad            Pear and Parmesan Salad
-  tortellini-salad                   Tortellini Salad   [1 refused already]
-  lemon-risotto                      Lemon Risotto   [1 refused already]
-  spinach-and-ricotta-cannelloni     Spinach and Ricotta Cannelloni
-  sweet-potato-gnocchi               Sweet Potato Gnocchi   [1 refused already]
-  beef-ragu                          Beef Ragu   [1 refused already]
-  cheese-tortellini-with-pesto       Cheese Tortellini with Pesto
-  chicken-roulade                    Chicken Roulade   [1 refused already]
-  chicken-sausage-pasta              Chicken Sausage Pasta   [1 refused already]
-  focaccia-pizza                     Focaccia Pizza   [1 refused already]
-  garlic-butter-pasta                Garlic Butter Pasta   [1 refused already]
-  gnocchi-bake                       Gnocchi Bake
-  linguine-with-clams                Linguine with Clams   [1 refused already]
-  prawn-pasta                        Prawn Pasta   [1 refused already]
-  pumpkin-and-sage-pasta             Pumpkin and Sage Pasta
-  seafood-stew                       Seafood Stew   [1 refused already]
-  sun-dried-tomato-pesto             Sun Dried Tomato Pesto   [1 refused already]
-  meatball-pasta-bake                Meatball Pasta Bake
-  chicken-saltimbocca                Chicken Saltimbocca
-  beef-short-rib-ragu                Beef Short Rib Ragu
-  beef-tagliata                      Beef Tagliata   [1 refused already]
-  lamb-ragu-pappardelle              Lamb Ragu Pappardelle
-  sea-bream-with-fennel              Sea Bream with Fennel
-  prawn-risotto                      Prawn Risotto   [1 refused already]
-  scallop-risotto                    Scallop Risotto   [1 refused already]
-  panettone-french-toast             Panettone French Toast   [1 refused already]
-  panna-cotta-with-berries           Panna Cotta with Berries   [1 refused already]
-  stracciatella                      Stracciatella   [1 refused already]
-  slow-cooker-lasagne                Slow Cooker Lasagne
-  rice-salad                         Rice Salad   [1 refused already]
-  frittata-with-spinach              Frittata with Spinach   [1 refused already]
-  roasted-courgettes                 Roasted Courgettes
-  grilled-vegetable-platter          Grilled Vegetable Platter   [1 refused already]
-  vegetarian-lasagne                 Vegetarian Lasagne   [1 refused already]
-  pasta-arrabbiata                   Pasta Arrabbiata
-  pasta-allamatriciana               Pasta all'Amatriciana
-  linguine-al-limone                 Linguine al Limone
-  rigatoni-alla-vodka                Rigatoni alla Vodka
-  cannelloni                         Cannelloni   [1 refused already]
-  lasagne-rolls                      Lasagne Rolls
-  gnocchi-with-gorgonzola            Gnocchi with Gorgonzola   [1 refused already]
-  polenta-with-mushrooms             Polenta with Mushrooms   [1 refused already]
-  crostini-with-ricotta              Crostini with Ricotta
-  antipasto-platter                  Antipasto Platter
-  pizza-bianca                       Pizza Bianca
-  pesto-chicken-traybake             Pesto Chicken Traybake   [1 refused already]
-  squid-ink-pasta                    Squid Ink Pasta   [1 refused already]
-  pizza-dough-without-yeast          Pizza Dough Without Yeast   [4 refused already]
-  spaghetti-with-breadcrumbs         Spaghetti with Breadcrumbs   [7 refused already]
-  pasta-al-limone                    Pasta al Limone   [7 refused already]
-  pasta-burro-e-salvia               Pasta Burro e Salvia   [3 refused already]
-  lemon-granita                      Lemon Granita   [1 refused already]
-  panettone-bread-pudding            Panettone Bread Pudding   [1 refused already]
-  slow-cooker-beef-ragu              Slow Cooker Beef Ragu   [3 refused already]
-  skillet-gnocchi-with-spinach       Skillet Gnocchi with Spinach   [1 refused already]
-  instant-pot-chicken-cacciatore     Instant Pot Chicken Cacciatore   [2 refused already]
-  instant-pot-meatballs              Instant Pot Meatballs
-  instant-pot-minestrone             Instant Pot Minestrone
-  instant-pot-osso-buco              Instant Pot Osso Buco
-  instant-pot-shrimp-scampi          Instant Pot Shrimp Scampi   [2 refused already]
-  baked-penne                        Baked Penne   [2 refused already]
-  chicken-lasagna                    Chicken Lasagna   [2 refused already]
-  eggplant-lasagna                   Eggplant Lasagna   [2 refused already]
-  one-pot-garlic-parmesan-chicken    One Pot Garlic Parmesan Chicken   [1 refused already]
-  one-pot-gnocchi                    One Pot Gnocchi   [1 refused already]
-  seafood-linguine                   Seafood Linguine   [2 refused already]
-  sheet-pan-chicken-parmesan         Sheet Pan Chicken Parmesan   [1 refused already]
-  shrimp-fettuccine                  Shrimp Fettuccine   [2 refused already]
-  slow-cooker-chicken-cacciatore     Slow Cooker Chicken Cacciatore
-  slow-cooker-lasagna                Slow Cooker Lasagna   [1 refused already]
-  slow-cooker-pasta                  Slow Cooker Pasta   [1 refused already]
-  slow-cooker-risotto                Slow Cooker Risotto
-  spaghetti-alla-norma               Spaghetti alla Norma
-  stuffed-zucchini-boats             Stuffed Zucchini Boats   [2 refused already]
-  eggplant-rollatini                 Eggplant Rollatini   [2 refused already]
-  5-ingredient-lasagna               5 Ingredient Lasagna
-  cranberry-pistachio-biscotti       Cranberry Pistachio Biscotti
-  olive-oil-cake                     Olive Oil Cake   [2 refused already]
-  lemon-gelato                       Lemon Gelato   [2 refused already]
-  3-ingredient-pizza-dough           3 Ingredient Pizza Dough   [1 refused already]
-  gluten-free-gnocchi                Gluten-Free Gnocchi   [2 refused already]
-  gluten-free-meatballs              Gluten-Free Meatballs   [1 refused already]
-  gluten-free-pasta-salad            Gluten-Free Pasta Salad   [1 refused already]
-  gluten-free-pizza-dough            Gluten-Free Pizza Dough   [1 refused already]
-  high-protein-pasta                 High-Protein Pasta   [1 refused already]
-  low-carb-chicken-parmesan          Low-Carb Chicken Parmesan   [1 refused already]
-  low-carb-meatballs                 Low-Carb Meatballs   [1 refused already]
-  low-carb-pizza                     Low-Carb Pizza   [2 refused already]
-  low-carb-zucchini-lasagna          Low-Carb Zucchini Lasagna   [1 refused already]
-  vegan-alfredo                      Vegan Alfredo   [1 refused already]
-  vegan-carbonara                    Vegan Carbonara   [2 refused already]
-  vegan-meatballs                    Vegan Meatballs   [1 refused already]
-  vegan-panna-cotta                  Vegan Panna Cotta   [2 refused already]
-  vegan-pesto                        Vegan Pesto   [2 refused already]
-  vegan-pizza                        Vegan Pizza   [2 refused already]
-
-== Indian (66) =========================================
-  moong-dal-chilla                   Moong Dal Chilla   [23 refused already]
-  air-fryer-samosas                  Air Fryer Samosas   [1 refused already]
-  instant-pot-chicken-curry          Instant Pot Chicken Curry   [1 refused already]
-  slow-cooker-chicken-curry          Slow Cooker Chicken Curry   [3 refused already]
-  beef-madras                        Beef Madras   [1 refused already]
-  chicken-tikka-skewers              Chicken Tikka Skewers   [1 refused already]
-  vegetable-curry                    Vegetable Curry   [1 refused already]
-  eggplant-curry                     Eggplant Curry   [1 refused already]
-  slow-cooker-chickpea-curry         Slow Cooker Chickpea Curry
-  vegetable-korma                    Vegetable Korma   [1 refused already]
-  vegetable-pilau                    Vegetable Pilau   [1 refused already]
-  lamb-saag                          Lamb Saag   [1 refused already]
-  pork-vindaloo                      Pork Vindaloo
-  lamb-samosas                       Lamb Samosas   [1 refused already]
-  cod-curry                          Cod Curry   [1 refused already]
-  monkfish-curry                     Monkfish Curry
-  vegetable-samosas                  Vegetable Samosas
-  chickpea-tikka-masala              Chickpea Tikka Masala
-  parsi-akuri                        Parsi Akuri
-  masoor-dal                         Masoor Dal   [9 refused already]
-  pongal                             Pongal   [7 refused already]
-  chicken-changezi                   Chicken Changezi   [1 refused already]
-  chicken-reshmi-kebab               Chicken Reshmi Kebab   [1 refused already]
-  kerala-chicken-curry               Kerala Chicken Curry   [1 refused already]
-  chicken-rezala                     Chicken Rezala   [5 refused already]
-  lamb-korma                         Lamb Korma   [1 refused already]
-  lamb-dopiaza                       Lamb Dopiaza
-  lamb-pasanda                       Lamb Pasanda
-  lamb-shami-kebab                   Lamb Shami Kebab   [1 refused already]
-  kerala-beef-curry                  Kerala Beef Curry   [1 refused already]
-  crab-masala                        Crab Masala   [1 refused already]
-  paneer-jalfrezi                    Paneer Jalfrezi   [1 refused already]
-  paneer-pakora                      Paneer Pakora   [1 refused already]
-  kala-chana                         Kala Chana   [1 refused already]
-  methi-thepla                       Methi Thepla   [1 refused already]
-  kerala-parotta                     Kerala Parotta   [1 refused already]
-  kerala-puttu                       Kerala Puttu   [1 refused already]
-  kerala-prawn-roast                 Kerala Prawn Roast   [1 refused already]
-  raw-mango-curry                    Raw Mango Curry
-  mint-chutney                       Mint Chutney   [1 refused already]
-  tamarind-chutney                   Tamarind Chutney   [5 refused already]
-  bengali-sandesh                    Bengali Sandesh
-  sol-kadhi                          Sol Kadhi
-  tender-coconut-pudding             Tender Coconut Pudding
-  slow-cooker-chicken-tikka-masala   Slow Cooker Chicken Tikka Masala   [5 refused already]
-  instant-pot-butter-chicken         Instant Pot Butter Chicken
-  instant-pot-dal                    Instant Pot Dal   [1 refused already]
-  instant-pot-chana-masala           Instant Pot Chana Masala
-  sheet-pan-chicken-tikka            Sheet Pan Chicken Tikka   [1 refused already]
-  olan                               Olan   [1 refused already]
-  meen-pollichathu                   Meen Pollichathu
-  baingan-masala                     Baingan Masala   [1 refused already]
-  bharwa-baingan                     Bharwa Baingan
-  gatte-ki-sabzi                     Gatte ki Sabzi
-  laal-maas                          Laal Maas
-  instant-pot-beef-curry             Instant Pot Beef Curry   [2 refused already]
-  instant-pot-biryani                Instant Pot Biryani   [1 refused already]
-  instant-pot-chicken-tikka-masala   Instant Pot Chicken Tikka Masala   [1 refused already]
-  one-pot-lentil-curry               One Pot Lentil Curry
-  slow-cooker-butter-chicken         Slow Cooker Butter Chicken
-  slow-cooker-dal                    Slow Cooker Dal
-  slow-cooker-lamb-curry             Slow Cooker Lamb Curry
-  freezer-curry                      Freezer Curry
-  gluten-free-naan                   Gluten-Free Naan   [1 refused already]
-  vegan-butter-chicken               Vegan Butter Chicken
-  vegan-tikka-masala                 Vegan Tikka Masala   [2 refused already]
-
-== Mexican (58) ========================================
-  almond-flour-tortillas             Almond Flour Tortillas   [2 refused already]
-  chicken-fajita-soup                Chicken Fajita Soup   [15 refused already]
-  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [7 refused already]
-  shrimp-taco-bowls                  Shrimp Taco Bowls   [9 refused already]
-  chipotle-lime-chicken              Chipotle Lime Chicken   [15 refused already]
-  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [22 refused already]
-  egg-white-burrito-bowl             Egg White Burrito Bowl   [15 refused already]
-  bean-and-rice-burrito              Bean and Rice Burrito   [4 refused already]
-  black-bean-and-rice-skillet        Black Bean and Rice Skillet   [1 refused already]
-  breakfast-quesadilla               Breakfast Quesadilla   [1 refused already]
-  bean-wraps                         Bean Wraps   [2 refused already]
-  slow-cooker-chicken-tacos          Slow Cooker Chicken Tacos   [2 refused already]
-  sheet-pan-fajitas                  Sheet Pan Fajitas   [1 refused already]
-  sheet-pan-nachos                   Sheet Pan Nachos   [1 refused already]
-  meal-prep-burrito-bowls            Meal Prep Burrito Bowls   [1 refused already]
-  freezer-burritos                   Freezer Burritos   [1 refused already]
-  pulled-pork-tacos                  Pulled Pork Tacos   [1 refused already]
-  honey-lime-chicken-tacos           Honey Lime Chicken Tacos   [1 refused already]
-  crispy-fish-tacos-with-slaw        Crispy Fish Tacos with Slaw   [1 refused already]
-  black-bean-salsa                   Black Bean Salsa
-  mango-salsa                        Mango Salsa
-  roasted-tomato-salsa               Roasted Tomato Salsa
-  taquitos                           Taquitos   [1 refused already]
-  brisket-tacos                      Brisket Tacos   [1 refused already]
-  chipotle-mayo                      Chipotle Mayo   [1 refused already]
-  beef-taco-skillet                  Beef Taco Skillet
-  pork-carnitas-bowls                Pork Carnitas Bowls
-  salmon-tacos                       Salmon Tacos   [1 refused already]
-  one-pan-mexican-rice               One Pan Mexican Rice
-  watermelon-juice                   Watermelon Juice   [1 refused already]
-  corn-on-the-cob-with-chilli-butter Corn on the Cob with Chilli Butter
-  egg-tostadas                       Egg Tostadas   [6 refused already]
-  enchiladas-suizas                  Enchiladas Suizas   [1 refused already]
-  chile-colorado                     Chile Colorado   [1 refused already]
-  mole-verde                         Mole Verde   [1 refused already]
-  chicken-tamales                    Chicken Tamales   [1 refused already]
-  sweet-tamales                      Sweet Tamales
-  mexican-hot-chocolate              Mexican Hot Chocolate   [5 refused already]
-  mexican-chocolate-cake             Mexican Chocolate Cake   [1 refused already]
-  cajeta                             Cajeta   [5 refused already]
-  bunuelos-mexicanos                 Buñuelos Mexicanos
-  tres-leches-cupcakes               Tres Leches Cupcakes   [1 refused already]
-  huevos-divorciados                 Huevos Divorciados   [1 refused already]
-  air-fryer-fish-tacos               Air Fryer Fish Tacos
-  air-fryer-quesadilla               Air Fryer Quesadilla
-  instant-pot-carnitas               Instant Pot Carnitas   [1 refused already]
-  instant-pot-chicken-fajitas        Instant Pot Chicken Fajitas   [1 refused already]
-  instant-pot-fajita-pasta           Instant Pot Fajita Pasta
-  instant-pot-taco-soup              Instant Pot Taco Soup
-  one-pot-black-bean-soup            One Pot Black Bean Soup
-  sheet-pan-fish-tacos               Sheet Pan Fish Tacos   [1 refused already]
-  sheet-pan-quesadillas              Sheet Pan Quesadillas   [1 refused already]
-  slow-cooker-pork-carnitas          Slow Cooker Pork Carnitas
-  mexican-wedding-cookies            Mexican Wedding Cookies
-  freezer-enchiladas                 Freezer Enchiladas   [1 refused already]
-  gluten-free-tortillas              Gluten-Free Tortillas   [2 refused already]
-  low-carb-taco-casserole            Low-Carb Taco Casserole
-  low-carb-tortillas                 Low-Carb Tortillas
-
-== French (44) =========================================
-  chicken-chasseur                   Chicken Chasseur   [7 refused already]
-  kir-royale                         Kir Royale   [17 refused already]
-  sole-with-herbs                    Sole with Herbs   [11 refused already]
-  sole-with-grapes                   Sole with Grapes   [6 refused already]
+== French (75) =========================================
+  chicken-chasseur                   Chicken Chasseur   [9 refused already]
+  kir-royale                         Kir Royale   [18 refused already]
+  sole-with-grapes                   Sole with Grapes   [7 refused already]
   roasted-garlic-soup                Roasted Garlic Soup   [5 refused already]
   trout-almondine                    Trout Almondine   [1 refused already]
-  french-onion-chicken               French Onion Chicken   [1 refused already]
-  french-lentils                     French Lentils   [1 refused already]
-  chicken-with-mushroom-sauce        Chicken with Mushroom Sauce   [1 refused already]
-  goat-cheese-tart                   Goat Cheese Tart   [1 refused already]
+  french-onion-chicken               French Onion Chicken   [2 refused already]
+  french-lentils                     French Lentils   [2 refused already]
+  goat-cheese-tart                   Goat Cheese Tart   [2 refused already]
   mushroom-tart                      Mushroom Tart   [1 refused already]
-  almond-croissant                   Almond Croissant
-  potatoes-au-gratin                 Potatoes Au Gratin   [1 refused already]
   ratatouille-bake                   Ratatouille Bake   [1 refused already]
   creme-anglaise                     Creme Anglaise   [1 refused already]
-  choux-buns                         Choux Buns
   warm-lentil-salad                  Warm Lentil Salad   [1 refused already]
   roasted-vegetable-tart             Roasted Vegetable Tart
   mornay-sauce                       Mornay Sauce   [1 refused already]
-  chicken-provencal                  Chicken Provencal   [1 refused already]
   pork-medallions-in-cream-sauce     Pork Medallions in Cream Sauce
-  lamb-navarin                       Lamb Navarin   [1 refused already]
   sea-bass-with-lemon-butter         Sea Bass with Lemon Butter
-  brioche-buns                       Brioche Buns
+  brioche-buns                       Brioche Buns   [1 refused already]
   slow-cooker-beef-bourguignon       Slow Cooker Beef Bourguignon
-  mushroom-bourguignon               Mushroom Bourguignon
   bechamel-sauce                     Bechamel Sauce
   raspberry-coulis                   Raspberry Coulis   [1 refused already]
   herb-butter                        Herb Butter   [9 refused already]
@@ -1240,219 +910,381 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   one-pot-ratatouille                One Pot Ratatouille
   slow-cooker-french-onion-soup      Slow Cooker French Onion Soup
   pear-cake                          Pear Cake   [2 refused already]
-  chocolate-pots                     Chocolate Pots   [2 refused already]
+  chocolate-pots                     Chocolate Pots   [3 refused already]
   dairy-free-chocolate-mousse        Dairy-Free Chocolate Mousse
-  gluten-free-crepes                 Gluten-Free Crepes   [2 refused already]
-  vegan-french-toast                 Vegan French Toast   [2 refused already]
   vegan-quiche                       Vegan Quiche   [1 refused already]
+  canneles                           Canneles
+  lapin-a-la-moutarde                Lapin a la Moutarde
+  bourride                           Bourride   [2 refused already]
+  tian-provencal                     Tian Provencal   [2 refused already]
+  pommes-anna                        Pommes Anna   [2 refused already]
+  pommes-dauphine                    Pommes Dauphine   [2 refused already]
+  petits-pois-a-la-francaise         Petits Pois a la Francaise
+  haricots-verts-amandine            Haricots Verts Amandine
+  tarte-aux-poireaux                 Tarte aux Poireaux   [2 refused already]
+  tarte-a-loignon                    Tarte a l'Oignon
+  savarin                            Savarin   [1 refused already]
+  veloute-de-champignons             Veloute de Champignons   [1 refused already]
+  paupiettes-de-veau                 Paupiettes de Veau
+  nougat-de-montelimar               Nougat de Montelimar   [2 refused already]
+  soupe-aux-choux                    Soupe Aux Choux   [1 refused already]
+  cake-sale                          Cake Sale   [2 refused already]
+  bugnes                             Bugnes   [1 refused already]
+  bretzel-alsacien                   Bretzel Alsacien   [1 refused already]
+  potee-auvergnate                   Potee Auvergnate
+  lapin-chasseur                     Lapin Chasseur   [2 refused already]
+  poulet-au-vinaigre                 Poulet au Vinaigre
+  poulet-a-lestragon                 Poulet a l'Estragon
+  gigot-de-sept-heures               Gigot de Sept Heures
+  roti-de-porc-au-lait               Rôti de Porc au Lait
+  jambon-braise-madere               Jambon Braise Madere
+  soupe-de-moules                    Soupe de Moules
+  tarte-fine-aux-tomates             Tarte Fine aux Tomates
+  gratin-de-blettes                  Gratin de Blettes
+  epinards-a-la-creme                Epinards a la Creme   [1 refused already]
+  carottes-vichy                     Carottes Vichy
+  pommes-lyonnaises                  Pommes Lyonnaises   [2 refused already]
+  tarte-au-chocolat                  Tarte au Chocolat   [1 refused already]
+  cake-au-citron                     Cake au Citron   [1 refused already]
+  moelleux-aux-pommes                Moelleux aux Pommes
+  charlotte-aux-fraises              Charlotte aux Fraises
+  genoise                            Genoise   [1 refused already]
+  vacherin-aux-fraises               Vacherin aux Fraises
+  chantilly                          Chantilly   [2 refused already]
+  sabayon                            Sabayon   [1 refused already]
+  langues-de-chat                    Langues de Chat   [2 refused already]
+  marrons-glaces                     Marrons Glaces
 
-== Chinese (39) ========================================
-  mongolian-lamb                     Mongolian Lamb   [13 refused already]
-  crispy-seaweed                     Crispy Seaweed   [19 refused already]
-  crispy-aromatic-duck               Crispy Aromatic Duck   [3 refused already]
-  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [9 refused already]
-  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [16 refused already]
-  turkey-stir-fry-with-peppers       Turkey Stir-Fry with Peppers   [1 refused already]
-  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [15 refused already]
-  egg-noodle-stir-fry                Egg Noodle Stir Fry   [7 refused already]
-  steamed-fish-with-ginger           Steamed Fish with Ginger   [1 refused already]
-  spring-onion-pancakes              Spring Onion Pancakes
-  fried-wontons                      Fried Wontons
-  prawn-noodle-soup                  Prawn Noodle Soup
-  beef-noodle-stir-fry               Beef Noodle Stir Fry   [1 refused already]
-  chinese-chicken-and-broccoli       Chinese Chicken and Broccoli   [1 refused already]
-  steak-fried-rice                   Steak Fried Rice   [1 refused already]
-  beef-lo-mein                       Beef Lo Mein   [1 refused already]
-  pork-meatball-soup                 Pork Meatball Soup   [1 refused already]
-  hot-and-sour-potato-strips         Hot and Sour Potato Strips   [1 refused already]
-  hong-kong-chow-mein                Hong Kong Chow Mein   [1 refused already]
-  salt-and-pepper-chicken-wings      Salt and Pepper Chicken Wings   [1 refused already]
-  sweet-and-sour-prawns              Sweet and Sour Prawns   [1 refused already]
-  beef-in-oyster-sauce               Beef in Oyster Sauce   [1 refused already]
-  lap-cheong-fried-rice              Lap Cheong Fried Rice   [4 refused already]
-  yuxiang-aubergine                  Yuxiang Aubergine
-  chongqing-chicken                  Chongqing Chicken   [1 refused already]
-  xinjiang-lamb-skewers              Xinjiang Lamb Skewers   [1 refused already]
-  instant-pot-chicken-congee         Instant Pot Chicken Congee
-  salted-egg-yolk-chicken            Salted Egg Yolk Chicken   [5 refused already]
-  salted-egg-prawns                  Salted Egg Prawns   [4 refused already]
-  air-fryer-dumplings                Air Fryer Dumplings
-  air-fryer-spring-rolls             Air Fryer Spring Rolls
-  instant-pot-beef-and-broccoli      Instant Pot Beef and Broccoli   [2 refused already]
-  instant-pot-general-tso-chicken    Instant Pot General Tso Chicken
-  instant-pot-mongolian-beef         Instant Pot Mongolian Beef   [2 refused already]
-  instant-pot-orange-chicken         Instant Pot Orange Chicken   [2 refused already]
-  one-pot-fried-rice                 One Pot Fried Rice   [1 refused already]
-  sweet-corn-soup                    Sweet Corn Soup   [2 refused already]
-  low-carb-stir-fry                  Low-Carb Stir Fry
-  vegan-fried-rice                   Vegan Fried Rice   [2 refused already]
+== Indian (49) =========================================
+  moong-dal-chilla                   Moong Dal Chilla   [23 refused already]
+  air-fryer-samosas                  Air Fryer Samosas   [2 refused already]
+  instant-pot-chicken-curry          Instant Pot Chicken Curry   [1 refused already]
+  beef-madras                        Beef Madras   [1 refused already]
+  eggplant-curry                     Eggplant Curry   [1 refused already]
+  vegetable-pilau                    Vegetable Pilau   [1 refused already]
+  lamb-saag                          Lamb Saag   [1 refused already]
+  pork-vindaloo                      Pork Vindaloo
+  lamb-samosas                       Lamb Samosas   [1 refused already]
+  monkfish-curry                     Monkfish Curry
+  chickpea-tikka-masala              Chickpea Tikka Masala
+  parsi-akuri                        Parsi Akuri
+  masoor-dal                         Masoor Dal   [10 refused already]
+  chicken-reshmi-kebab               Chicken Reshmi Kebab   [1 refused already]
+  lamb-dopiaza                       Lamb Dopiaza
+  lamb-pasanda                       Lamb Pasanda
+  lamb-shami-kebab                   Lamb Shami Kebab   [2 refused already]
+  paneer-jalfrezi                    Paneer Jalfrezi   [1 refused already]
+  paneer-pakora                      Paneer Pakora   [2 refused already]
+  kala-chana                         Kala Chana   [1 refused already]
+  methi-thepla                       Methi Thepla   [2 refused already]
+  kerala-parotta                     Kerala Parotta   [1 refused already]
+  kerala-puttu                       Kerala Puttu   [2 refused already]
+  kerala-prawn-roast                 Kerala Prawn Roast   [1 refused already]
+  raw-mango-curry                    Raw Mango Curry
+  mint-chutney                       Mint Chutney   [1 refused already]
+  bengali-sandesh                    Bengali Sandesh   [1 refused already]
+  sol-kadhi                          Sol Kadhi
+  tender-coconut-pudding             Tender Coconut Pudding
+  slow-cooker-chicken-tikka-masala   Slow Cooker Chicken Tikka Masala   [5 refused already]
+  instant-pot-butter-chicken         Instant Pot Butter Chicken
+  instant-pot-dal                    Instant Pot Dal   [1 refused already]
+  instant-pot-chana-masala           Instant Pot Chana Masala
+  sheet-pan-chicken-tikka            Sheet Pan Chicken Tikka   [1 refused already]
+  olan                               Olan   [2 refused already]
+  meen-pollichathu                   Meen Pollichathu
+  baingan-masala                     Baingan Masala   [2 refused already]
+  bharwa-baingan                     Bharwa Baingan
+  laal-maas                          Laal Maas
+  instant-pot-beef-curry             Instant Pot Beef Curry   [2 refused already]
+  instant-pot-biryani                Instant Pot Biryani   [1 refused already]
+  instant-pot-chicken-tikka-masala   Instant Pot Chicken Tikka Masala   [1 refused already]
+  one-pot-lentil-curry               One Pot Lentil Curry
+  slow-cooker-butter-chicken         Slow Cooker Butter Chicken
+  slow-cooker-dal                    Slow Cooker Dal
+  slow-cooker-lamb-curry             Slow Cooker Lamb Curry
+  freezer-curry                      Freezer Curry
+  gluten-free-naan                   Gluten-Free Naan   [1 refused already]
+  vegan-butter-chicken               Vegan Butter Chicken
 
-== Australian (37) =====================================
-  mars-bar-slice                     Mars Bar Slice   [3 refused already]
-  tim-tam-slice                      Tim Tam Slice   [12 refused already]
-  weet-bix-slice                     Weet-Bix Slice   [3 refused already]
-  prawn-cutlets                      Prawn Cutlets   [10 refused already]
-  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [17 refused already]
-  white-christmas                    White Christmas   [11 refused already]
+== Mexican (46) ========================================
+  almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
+  chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
+  turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [8 refused already]
+  shrimp-taco-bowls                  Shrimp Taco Bowls   [10 refused already]
+  egg-white-breakfast-tacos          Egg White Breakfast Tacos   [24 refused already]
+  egg-white-burrito-bowl             Egg White Burrito Bowl   [17 refused already]
+  bean-and-rice-burrito              Bean and Rice Burrito   [5 refused already]
+  black-bean-and-rice-skillet        Black Bean and Rice Skillet   [1 refused already]
+  bean-wraps                         Bean Wraps   [3 refused already]
+  sheet-pan-fajitas                  Sheet Pan Fajitas   [2 refused already]
+  sheet-pan-nachos                   Sheet Pan Nachos   [1 refused already]
+  meal-prep-burrito-bowls            Meal Prep Burrito Bowls   [1 refused already]
+  freezer-burritos                   Freezer Burritos   [1 refused already]
+  pulled-pork-tacos                  Pulled Pork Tacos   [2 refused already]
+  honey-lime-chicken-tacos           Honey Lime Chicken Tacos   [2 refused already]
+  crispy-fish-tacos-with-slaw        Crispy Fish Tacos with Slaw   [2 refused already]
+  black-bean-salsa                   Black Bean Salsa
+  roasted-tomato-salsa               Roasted Tomato Salsa
+  taquitos                           Taquitos   [1 refused already]
+  chipotle-mayo                      Chipotle Mayo   [1 refused already]
+  beef-taco-skillet                  Beef Taco Skillet
+  pork-carnitas-bowls                Pork Carnitas Bowls
+  salmon-tacos                       Salmon Tacos   [2 refused already]
+  one-pan-mexican-rice               One Pan Mexican Rice
+  egg-tostadas                       Egg Tostadas   [6 refused already]
+  chile-colorado                     Chile Colorado   [2 refused already]
+  mole-verde                         Mole Verde   [1 refused already]
+  chicken-tamales                    Chicken Tamales   [2 refused already]
+  cajeta                             Cajeta   [5 refused already]
+  bunuelos-mexicanos                 Buñuelos Mexicanos
+  tres-leches-cupcakes               Tres Leches Cupcakes   [1 refused already]
+  huevos-divorciados                 Huevos Divorciados   [2 refused already]
+  air-fryer-fish-tacos               Air Fryer Fish Tacos
+  air-fryer-quesadilla               Air Fryer Quesadilla
+  instant-pot-carnitas               Instant Pot Carnitas   [1 refused already]
+  instant-pot-chicken-fajitas        Instant Pot Chicken Fajitas   [1 refused already]
+  instant-pot-fajita-pasta           Instant Pot Fajita Pasta
+  instant-pot-taco-soup              Instant Pot Taco Soup
+  one-pot-black-bean-soup            One Pot Black Bean Soup
+  sheet-pan-fish-tacos               Sheet Pan Fish Tacos   [1 refused already]
+  slow-cooker-pork-carnitas          Slow Cooker Pork Carnitas
+  mexican-wedding-cookies            Mexican Wedding Cookies
+  freezer-enchiladas                 Freezer Enchiladas   [1 refused already]
+  gluten-free-tortillas              Gluten-Free Tortillas   [2 refused already]
+  low-carb-taco-casserole            Low-Carb Taco Casserole
+  low-carb-tortillas                 Low-Carb Tortillas
+
+== Australian (28) =====================================
+  mars-bar-slice                     Mars Bar Slice   [4 refused already]
+  tim-tam-slice                      Tim Tam Slice   [13 refused already]
+  weet-bix-slice                     Weet-Bix Slice   [4 refused already]
+  ice-cream-christmas-pudding        Ice Cream Christmas Pudding   [18 refused already]
+  white-christmas                    White Christmas   [13 refused already]
   snag-in-bread                      Snag in Bread
-  honey-mustard-sausages             Honey Mustard Sausages   [7 refused already]
+  honey-mustard-sausages             Honey Mustard Sausages   [8 refused already]
   milo-slice                         Milo Slice   [3 refused already]
-  baked-bean-pasta                   Baked Bean Pasta   [5 refused already]
-  slow-cooker-pea-and-ham-soup       Slow Cooker Pea and Ham Soup   [4 refused already]
-  bbq-lamb                           BBQ Lamb   [5 refused already]
-  party-pies                         Party Pies   [2 refused already]
-  beetroot-relish                    Beetroot Relish   [2 refused already]
-  satay-sauce                        Satay Sauce   [5 refused already]
+  baked-bean-pasta                   Baked Bean Pasta   [6 refused already]
+  party-pies                         Party Pies   [3 refused already]
+  beetroot-relish                    Beetroot Relish   [3 refused already]
+  satay-sauce                        Satay Sauce   [6 refused already]
   hot-roast-pork-roll                Hot Roast Pork Roll   [1 refused already]
-  bounty-slice                       Bounty Slice   [1 refused already]
+  bounty-slice                       Bounty Slice   [2 refused already]
   cornflake-cookies                  Cornflake Cookies
-  sweet-chilli-prawns                Sweet Chilli Prawns   [1 refused already]
+  sweet-chilli-prawns                Sweet Chilli Prawns   [2 refused already]
   steak-and-cheese-pasty             Steak and Cheese Pasty   [1 refused already]
-  potato-cakes                       Potato Cakes
   spaghetti-toasties                 Spaghetti Toasties
-  passionfruit-cake                  Passionfruit Cake   [1 refused already]
-  mango-cake                         Mango Cake   [1 refused already]
   milo-cake                          Milo Cake   [1 refused already]
-  mud-cake                           Mud Cake   [1 refused already]
-  apple-slice                        Apple Slice   [1 refused already]
-  anzac-slice                        Anzac Slice   [1 refused already]
-  apricot-slice                      Apricot Slice   [1 refused already]
-  lemon-butter-cake                  Lemon Butter Cake
-  mango-sorbet                       Mango Sorbet   [1 refused already]
+  mud-cake                           Mud Cake   [2 refused already]
+  apple-slice                        Apple Slice   [2 refused already]
+  anzac-slice                        Anzac Slice   [2 refused already]
+  apricot-slice                      Apricot Slice   [2 refused already]
+  mango-sorbet                       Mango Sorbet   [2 refused already]
   passionfruit-curd                  Passionfruit Curd
   fruit-salad-with-honey-lime        Fruit Salad with Honey Lime   [1 refused already]
-  bbq-salmon                         BBQ Salmon
-  grilled-garlic-prawns              Grilled Garlic Prawns
+  bbq-salmon                         BBQ Salmon   [1 refused already]
   australian-cheese-and-vegemite-scrolls Australian Cheese and Vegemite Scrolls   [1 refused already]
-  barbecued-prawns                   Barbecued Prawns   [1 refused already]
 
-== Japanese (24) =======================================
-  beef-udon                          Beef Udon   [1 refused already]
-  salmon-teriyaki                    Salmon Teriyaki   [1 refused already]
-  miso-glazed-salmon                 Miso Glazed Salmon
-  chirashi-bowl                      Chirashi Bowl
-  teriyaki-beef-skewers              Teriyaki Beef Skewers   [1 refused already]
-  soba-noodle-salad                  Soba Noodle Salad   [1 refused already]
-  teriyaki-meatballs                 Teriyaki Meatballs
-  soy-sauce-eggs                     Soy Sauce Eggs   [1 refused already]
-  tuna-steaks-with-sesame            Tuna Steaks with Sesame
-  matcha-cheesecake                  Matcha Cheesecake   [1 refused already]
-  teriyaki-tofu                      Teriyaki Tofu
-  crispy-tofu-bites                  Crispy Tofu Bites
-  beef-yakiniku                      Beef Yakiniku   [1 refused already]
-  shirataki-noodle-bowls             Shirataki Noodle Bowls   [1 refused already]
-  sesame-ginger-dressing             Sesame Ginger Dressing   [1 refused already]
-  miso-dressing                      Miso Dressing
-  japanese-ginger-dressing           Japanese Ginger Dressing   [1 refused already]
-  air-fryer-gyoza                    Air Fryer Gyoza
-  instant-pot-ramen                  Instant Pot Ramen   [2 refused already]
-  instant-pot-teriyaki-chicken       Instant Pot Teriyaki Chicken
-  beef-ramen                         Beef Ramen   [2 refused already]
-  one-pot-ramen                      One Pot Ramen
-  sheet-pan-teriyaki-chicken         Sheet Pan Teriyaki Chicken   [1 refused already]
-  vegan-sushi                        Vegan Sushi   [2 refused already]
-
-== Middle Eastern (23) =================================
-  cucumber-hummus-bites              Cucumber Hummus Bites   [6 refused already]
-  chicken-kofta                      Chicken Kofta   [10 refused already]
-  air-fryer-halloumi                 Air Fryer Halloumi
-  lamb-marinade                      Lamb Marinade   [3 refused already]
-  pita-chips                         Pita Chips   [7 refused already]
-  chickpea-patties                   Chickpea Patties   [1 refused already]
-  beef-kebabs                        Beef Kebabs   [1 refused already]
-  lamb-meatballs                     Lamb Meatballs
-  tahini-chicken                     Tahini Chicken   [1 refused already]
-  zaatar-chicken                     Za'atar Chicken
-  lebanese-lentil-soup               Lebanese Lentil Soup   [1 refused already]
-  halloumi-fries                     Halloumi Fries   [1 refused already]
-  date-balls                         Date Balls
-  roasted-red-pepper-hummus          Roasted Red Pepper Hummus
-  grain-bowl-with-tahini             Grain Bowl with Tahini
-  beef-shawarma                      Beef Shawarma   [1 refused already]
-  harissa-roasted-carrots            Harissa Roasted Carrots
-  rice-pilaf                         Rice Pilaf   [1 refused already]
-  lamb-shawarma                      Lamb Shawarma   [1 refused already]
-  lemon-tahini-dressing              Lemon Tahini Dressing
-  shuwa                              Shuwa
-  chicken-machboos                   Chicken Machboos
-  air-fryer-falafel                  Air Fryer Falafel
-
-== Spanish (20) ========================================
-  smoked-paprika-chicken             Smoked Paprika Chicken   [13 refused already]
-  tomato-toast                       Tomato Toast   [5 refused already]
-  chorizo-and-potatoes               Chorizo and Potatoes   [1 refused already]
+== Spanish (27) ========================================
+  smoked-paprika-chicken             Smoked Paprika Chicken   [14 refused already]
   spanish-garlic-soup                Spanish Garlic Soup
-  bacon-wrapped-dates                Bacon Wrapped Dates   [1 refused already]
-  white-sangria                      White Sangria   [1 refused already]
-  stuffed-dates                      Stuffed Dates   [1 refused already]
-  chickpea-and-spinach-stew          Chickpea and Spinach Stew
+  white-sangria                      White Sangria   [2 refused already]
   mussels-with-chorizo               Mussels with Chorizo   [1 refused already]
-  churros-with-chocolate-sauce       Churros with Chocolate Sauce   [1 refused already]
-  vegetable-paella                   Vegetable Paella
   pisto                              Pisto   [7 refused already]
-  spanish-chicken-and-rice           Spanish Chicken and Rice
-  pimientos-de-padron                Pimientos de Padron   [1 refused already]
+  spanish-chicken-and-rice           Spanish Chicken and Rice   [1 refused already]
   calcots-with-romesco               Calçots with Romesco   [1 refused already]
   chipirones-en-su-tinta             Chipirones en su Tinta   [1 refused already]
   croquetas-de-bacalao               Croquetas de Bacalao   [1 refused already]
-  patatas-a-lo-pobre                 Patatas a lo Pobre   [5 refused already]
-  membrillo                          Membrillo   [1 refused already]
+  membrillo                          Membrillo   [2 refused already]
   chorizo-and-potato-stew            Chorizo and Potato Stew
+  zarzuela-de-pescado                Zarzuela de Pescado
+  ajoblanco                          Ajoblanco   [1 refused already]
+  cochinillo-asado                   Cochinillo Asado   [2 refused already]
+  cordero-asado-castellano           Cordero Asado Castellano
+  gildas                             Gildas   [1 refused already]
+  mojo-picon                         Mojo Picon
+  huevos-a-la-flamenca               Huevos a la Flamenca
+  pote-gallego                       Pote Gallego   [2 refused already]
+  bacalao-a-la-vizcaina              Bacalao a la Vizcaina   [1 refused already]
+  alcachofas-con-jamon               Alcachofas con Jamon
+  menestra-de-verduras               Menestra de Verduras   [1 refused already]
+  lomo-adobado                       Lomo Adobado   [1 refused already]
+  mejillones-a-la-marinera           Mejillones a la Marinera   [1 refused already]
+  dorada-a-la-sal                    Dorada a la Sal
+  chuleton-de-buey                   Chuletón de Buey   [1 refused already]
+  arroz-con-conejo-y-caracoles       Arroz con Conejo y Caracoles
 
-== Canadian (17) =======================================
+== Chinese (24) ========================================
+  mongolian-lamb                     Mongolian Lamb   [15 refused already]
+  crispy-seaweed                     Crispy Seaweed   [20 refused already]
+  crispy-aromatic-duck               Crispy Aromatic Duck   [4 refused already]
+  egg-and-cabbage-stir-fry           Egg and Cabbage Stir-Fry   [10 refused already]
+  chicken-and-cabbage-stir-fry       Chicken and Cabbage Stir-Fry   [18 refused already]
+  turkey-stir-fry-with-peppers       Turkey Stir-Fry with Peppers   [2 refused already]
+  shrimp-and-pepper-stir-fry         Shrimp and Pepper Stir-Fry   [17 refused already]
+  beef-noodle-stir-fry               Beef Noodle Stir Fry   [1 refused already]
+  chinese-chicken-and-broccoli       Chinese Chicken and Broccoli   [1 refused already]
+  steak-fried-rice                   Steak Fried Rice   [2 refused already]
+  beef-lo-mein                       Beef Lo Mein   [2 refused already]
+  pork-meatball-soup                 Pork Meatball Soup   [1 refused already]
+  hot-and-sour-potato-strips         Hot and Sour Potato Strips   [1 refused already]
+  sweet-and-sour-prawns              Sweet and Sour Prawns   [1 refused already]
+  lap-cheong-fried-rice              Lap Cheong Fried Rice   [4 refused already]
+  yuxiang-aubergine                  Yuxiang Aubergine
+  xinjiang-lamb-skewers              Xinjiang Lamb Skewers   [2 refused already]
+  instant-pot-chicken-congee         Instant Pot Chicken Congee
+  air-fryer-dumplings                Air Fryer Dumplings
+  air-fryer-spring-rolls             Air Fryer Spring Rolls
+  instant-pot-beef-and-broccoli      Instant Pot Beef and Broccoli   [2 refused already]
+  instant-pot-mongolian-beef         Instant Pot Mongolian Beef   [2 refused already]
+  instant-pot-orange-chicken         Instant Pot Orange Chicken   [2 refused already]
+  low-carb-stir-fry                  Low-Carb Stir Fry
+
+== German (24) =========================================
+  german-meatballs                   German Meatballs   [1 refused already]
+  german-red-cabbage                 German Red Cabbage   [1 refused already]
+  schweinebraten                     Schweinebraten   [1 refused already]
+  schweinshaxe                       Schweinshaxe   [1 refused already]
+  leberkase                          Leberkase
+  erbsensuppe                        Erbsensuppe   [1 refused already]
+  linsensuppe                        Linsensuppe   [1 refused already]
+  rhabarberkuchen                    Rhabarberkuchen   [2 refused already]
+  kasekuchen                         Kasekuchen   [1 refused already]
+  frankfurter-green-sauce            Frankfurter Green Sauce
+  wildgulasch                        Wildgulasch
+  gurkensalat                        Gurkensalat   [1 refused already]
+  kohlrouladen                       Kohlrouladen
+  bohnensuppe                        Bohnensuppe   [1 refused already]
+  nussecken                          Nussecken   [1 refused already]
+  haselnussmakronen                  Haselnussmakronen
+  mandelhornchen                     Mandelhörnchen
+  huhnersuppe-mit-nudeln             Hühnersuppe mit Nudeln
+  selleriesuppe                      Selleriesuppe
+  pellkartoffeln-mit-quark           Pellkartoffeln mit Quark   [1 refused already]
+  rahmschnitzel                      Rahmschnitzel
+  gansebraten                        Gänsebraten   [1 refused already]
+  entenbrust-mit-rotkohl             Entenbrust mit Rotkohl
+  forelle-mullerin                   Forelle Müllerin
+
+== Greek (23) ==========================================
+  mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
+  greek-beef-pitas                   Greek Beef Pitas
+  greek-lamb-stew                    Greek Lamb Stew   [1 refused already]
+  greek-omelette                     Greek Omelette   [1 refused already]
+  whipped-feta                       Whipped Feta   [1 refused already]
+  lemon-chicken-orzo                 Lemon Chicken Orzo   [2 refused already]
+  dolma                              Dolma   [2 refused already]
+  grilled-halloumi-skewers           Grilled Halloumi Skewers
+  baked-feta-tomatoes                Baked Feta Tomatoes
+  revithada                          Revithada
+  melitzanosalata                    Melitzanosalata   [5 refused already]
+  air-fryer-eggplant                 Air Fryer Eggplant
+  grilled-sea-bass                   Grilled Sea Bass   [3 refused already]
+  stuffed-grape-leaves               Stuffed Grape Leaves   [2 refused already]
+  koulouri                           Koulouri   [1 refused already]
+  psari-plaki                        Psari Plaki
+  htapodi-krasato                    Htapodi Krasato
+  kolokithopita                      Kolokithopita
+  lahanodolmades                     Lahanodolmades
+  bamies                             Bamies
+  revithia                           Revithia
+  domatokeftedes                     Domatokeftedes
+  rizogalo                           Rizogalo   [1 refused already]
+
+== Canadian (16) =======================================
   cipaille                           Cipaille   [2 refused already]
-  figgy-duff                         Figgy Duff   [7 refused already]
-  rye-and-ginger                     Rye and Ginger   [10 refused already]
-  wild-rice-casserole                Wild Rice Casserole   [8 refused already]
+  figgy-duff                         Figgy Duff   [8 refused already]
+  rye-and-ginger                     Rye and Ginger   [12 refused already]
+  wild-rice-casserole                Wild Rice Casserole   [10 refused already]
   partridgeberry-pie                 Partridgeberry Pie   [1 refused already]
-  pan-fried-walleye                  Pan-Fried Walleye   [5 refused already]
+  pan-fried-walleye                  Pan-Fried Walleye   [7 refused already]
   hodge-podge                        Hodge Podge   [14 refused already]
-  dream-bars                         Dream Bars   [11 refused already]
-  hermits                            Hermits   [13 refused already]
+  dream-bars                         Dream Bars   [12 refused already]
+  hermits                            Hermits   [14 refused already]
   portzelky                          Portzelky (New Year's Cookies)   [3 refused already]
-  caribou                            Caribou   [20 refused already]
-  maple-pecan-tart                   Maple Pecan Tart
+  caribou                            Caribou   [21 refused already]
   maple-glazed-pork-chops            Maple Glazed Pork Chops
   maple-syrup-pie                    Maple Syrup Pie
   canadian-maple-baked-beans         Canadian Maple Baked Beans   [1 refused already]
   newfoundland-fish-cakes            Newfoundland Fish Cakes
   maple-walnut-ice-cream             Maple Walnut Ice Cream
 
-== Greek (17) ==========================================
-  greek-chicken-bowls                Greek Chicken Bowls   [7 refused already]
-  mediterranean-bowl                 Mediterranean Bowl   [1 refused already]
-  greek-beef-pitas                   Greek Beef Pitas
-  greek-lamb-stew                    Greek Lamb Stew   [1 refused already]
-  greek-omelette                     Greek Omelette   [1 refused already]
-  whipped-feta                       Whipped Feta   [1 refused already]
-  greek-lemon-chicken                Greek Lemon Chicken   [1 refused already]
-  lemon-chicken-orzo                 Lemon Chicken Orzo   [1 refused already]
-  lamb-souvlaki                      Lamb Souvlaki   [1 refused already]
-  dolma                              Dolma   [1 refused already]
-  grilled-halloumi-skewers           Grilled Halloumi Skewers
-  baked-feta-tomatoes                Baked Feta Tomatoes
-  revithada                          Revithada
-  melitzanosalata                    Melitzanosalata   [5 refused already]
-  air-fryer-eggplant                 Air Fryer Eggplant
-  grilled-sea-bass                   Grilled Sea Bass   [2 refused already]
-  stuffed-grape-leaves               Stuffed Grape Leaves   [2 refused already]
+== Middle Eastern (15) =================================
+  cucumber-hummus-bites              Cucumber Hummus Bites   [8 refused already]
+  lamb-marinade                      Lamb Marinade   [3 refused already]
+  pita-chips                         Pita Chips   [7 refused already]
+  chickpea-patties                   Chickpea Patties   [1 refused already]
+  zaatar-chicken                     Za'atar Chicken   [1 refused already]
+  lebanese-lentil-soup               Lebanese Lentil Soup   [1 refused already]
+  halloumi-fries                     Halloumi Fries   [1 refused already]
+  roasted-red-pepper-hummus          Roasted Red Pepper Hummus
+  grain-bowl-with-tahini             Grain Bowl with Tahini
+  harissa-roasted-carrots            Harissa Roasted Carrots
+  lamb-shawarma                      Lamb Shawarma   [2 refused already]
+  lemon-tahini-dressing              Lemon Tahini Dressing
+  shuwa                              Shuwa   [1 refused already]
+  chicken-machboos                   Chicken Machboos
+  air-fryer-falafel                  Air Fryer Falafel
 
-== New Zealand (13) ====================================
+== Japanese (14) =======================================
+  chirashi-bowl                      Chirashi Bowl
+  teriyaki-beef-skewers              Teriyaki Beef Skewers   [1 refused already]
+  soba-noodle-salad                  Soba Noodle Salad   [1 refused already]
+  teriyaki-meatballs                 Teriyaki Meatballs
+  soy-sauce-eggs                     Soy Sauce Eggs   [1 refused already]
+  crispy-tofu-bites                  Crispy Tofu Bites   [1 refused already]
+  beef-yakiniku                      Beef Yakiniku   [2 refused already]
+  shirataki-noodle-bowls             Shirataki Noodle Bowls   [1 refused already]
+  sesame-ginger-dressing             Sesame Ginger Dressing   [1 refused already]
+  miso-dressing                      Miso Dressing   [1 refused already]
+  japanese-ginger-dressing           Japanese Ginger Dressing   [1 refused already]
+  air-fryer-gyoza                    Air Fryer Gyoza
+  instant-pot-teriyaki-chicken       Instant Pot Teriyaki Chicken
+  one-pot-ramen                      One Pot Ramen
+
+== Polish (13) =========================================
+  haluski                            Haluski   [2 refused already]
+  polish-meatballs                   Polish Meatballs
+  perogies-with-onions               Perogies with Onions
+  air-fryer-pierogies                Air Fryer Pierogies
+  instant-pot-cabbage-rolls          Instant Pot Cabbage Rolls   [2 refused already]
+  one-pot-cabbage-roll-soup          One Pot Cabbage Roll Soup   [1 refused already]
+  krupnik                            Krupnik   [2 refused already]
+  golonka                            Golonka   [2 refused already]
+  piernik                            Piernik   [1 refused already]
+  nalesniki                          Nalesniki   [1 refused already]
+  chlodnik                           Chlodnik   [1 refused already]
+  kluski-slaskie                     Kluski Slaskie   [1 refused already]
+  rolada-slaska                      Rolada Slaska
+
+== New Zealand (12) ====================================
   paraoa-parai                       Pāraoa Parai   [3 refused already]
-  tamarillo-chutney                  Tamarillo Chutney   [2 refused already]
+  tamarillo-chutney                  Tamarillo Chutney   [3 refused already]
   hokey-pokey-biscuits               Hokey Pokey Biscuits   [7 refused already]
-  kumara-fritters                    Kūmara Fritters   [4 refused already]
-  corned-beef-and-white-sauce        Corned Beef and White Sauce   [7 refused already]
-  cheese-muffins                     Cheese Muffins   [4 refused already]
+  kumara-fritters                    Kūmara Fritters   [5 refused already]
+  corned-beef-and-white-sauce        Corned Beef and White Sauce   [8 refused already]
   kiwi-fruit-pavlova                 Kiwi Fruit Pavlova
   pineapple-lumps-slice              Pineapple Lumps Slice   [1 refused already]
   marmite-cheese-scrolls             Marmite Cheese Scrolls
-  butter-chicken-pie                 Butter Chicken Pie   [1 refused already]
+  butter-chicken-pie                 Butter Chicken Pie   [2 refused already]
   l-p-cake                           L&P Cake   [1 refused already]
   green-lipped-mussels               Green Lipped Mussels   [1 refused already]
   chilli-mussels                     Chilli Mussels   [1 refused already]
 
-== Pacific (11) ========================================
+== Portuguese (12) =====================================
+  piri-piri-prawns                   Piri Piri Prawns   [1 refused already]
+  bolo-rei                           Bolo Rei   [5 refused already]
+  torta-de-santa-clara               Torta de Santa Clara
+  peri-peri-sauce                    Peri Peri Sauce   [1 refused already]
+  arroz-de-pato                      Arroz de Pato   [1 refused already]
+  prego-no-pao                       Prego no Pao   [1 refused already]
+  pao-de-deus                        Pao de Deus   [1 refused already]
+  broa-de-milho                      Broa de Milho   [1 refused already]
+  toucinho-do-ceu                    Toucinho do Ceu
+  migas-portuguesas                  Migas Portuguesas
+  bacalhau-com-grao                  Bacalhau com Grao
+  sopa-de-feijao-verde               Sopa de Feijao Verde
+
+== Pacific (10) ========================================
   samoan-palusami                    Samoan Palusami
   samoan-pani-popo                   Samoan Pani Popo
   samoan-chop-suey                   Samoan Chop Suey
@@ -1463,51 +1295,30 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   fijian-kokoda                      Fijian Kokoda
   fijian-rourou                      Fijian Rourou
   fijian-curry                       Fijian Curry
-  cook-islands-ika-mata              Cook Islands Ika Mata   [1 refused already]
 
-== Jamaican (9) ========================================
+== Irish (8) ===========================================
+  irish-cream                        Irish Cream   [11 refused already]
+  irish-potato-cakes                 Irish Potato Cakes   [1 refused already]
+  full-irish-breakfast               Full Irish Breakfast   [2 refused already]
+  treacle-bread                      Treacle Bread
+  cabbage-and-potato-soup            Cabbage and Potato Soup   [5 refused already]
+  instant-pot-corned-beef-and-cabbage Instant Pot Corned Beef and Cabbage
+  irish-whiskey-cake                 Irish Whiskey Cake
+  irish-scones                       Irish Scones
+
+== Jamaican (8) ========================================
   jamaican-curry-chicken             Jamaican Curry Chicken   [1 refused already]
   jamaican-festival                  Jamaican Festival
   jamaican-fry-dumplings             Jamaican Fry Dumplings
   jamaican-bun-and-cheese            Jamaican Bun and Cheese
-  jamaican-rum-cake                  Jamaican Rum Cake   [1 refused already]
+  jamaican-rum-cake                  Jamaican Rum Cake   [2 refused already]
   gungo-peas-soup                    Gungo Peas Soup
   jamaican-pepper-pot-soup           Jamaican Pepper Pot Soup
   jamaican-red-pea-soup              Jamaican Red Pea Soup
-  jerk-chicken-wings                 Jerk Chicken Wings   [2 refused already]
-
-== Irish (8) ===========================================
-  irish-apple-cake                   Irish Apple Cake   [16 refused already]
-  irish-cream                        Irish Cream   [10 refused already]
-  irish-potato-cakes                 Irish Potato Cakes   [1 refused already]
-  full-irish-breakfast               Full Irish Breakfast   [1 refused already]
-  irish-brown-bread                  Irish Brown Bread   [1 refused already]
-  treacle-bread                      Treacle Bread
-  cabbage-and-potato-soup            Cabbage and Potato Soup   [5 refused already]
-  instant-pot-corned-beef-and-cabbage Instant Pot Corned Beef and Cabbage
-
-== Thai (8) ============================================
-  cabbage-salad-with-peanut-dressing Cabbage Salad with Peanut Dressing   [1 refused already]
-  thai-peanut-noodles                Thai Peanut Noodles
-  pork-larb                          Pork Larb   [1 refused already]
-  thai-basil-fried-egg               Thai Basil Fried Egg   [6 refused already]
-  jungle-curry                       Jungle Curry   [3 refused already]
-  gaeng-som                          Gaeng Som   [1 refused already]
-  khao-kai-jeow                      Khao Kai Jeow
-  instant-pot-pad-thai               Instant Pot Pad Thai   [2 refused already]
-
-== Caribbean (7) =======================================
-  la-bandera-dominicana              La Bandera Dominicana   [1 refused already]
-  haitian-griot                      Haitian Griot   [1 refused already]
-  diri-ak-djon-djon                  Diri ak Djon Djon
-  metemgee                           Metemgee
-  caribbean-coconut-rice             Caribbean Coconut Rice   [1 refused already]
-  caribbean-rum-punch                Caribbean Rum Punch
-  one-pot-beans-and-rice             One Pot Beans and Rice   [1 refused already]
 
 == Filipino (7) ========================================
-  pork-adobo                         Pork Adobo   [1 refused already]
-  arroz-caldo                        Arroz Caldo   [1 refused already]
+  pork-adobo                         Pork Adobo   [2 refused already]
+  arroz-caldo                        Arroz Caldo   [2 refused already]
   leche-flan                         Leche Flan   [1 refused already]
   ube-cupcakes                       Ube Cupcakes
   egg-adobo                          Egg Adobo   [3 refused already]
@@ -1515,43 +1326,53 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   instant-pot-chicken-adobo          Instant Pot Chicken Adobo   [1 refused already]
 
 == Persian (7) =========================================
-  persian-chicken                    Persian Chicken   [1 refused already]
+  persian-chicken                    Persian Chicken   [2 refused already]
   persian-meatballs                  Persian Meatballs
   persian-barley-soup                Persian Barley Soup   [3 refused already]
   kookoo-sibzamini                   Kookoo Sibzamini   [2 refused already]
   persian-lentil-rice                Persian Lentil Rice   [3 refused already]
   baghali-polo                       Baghali Polo   [3 refused already]
-  bastani-sonnati                    Bastani Sonnati   [3 refused already]
+  bastani-sonnati                    Bastani Sonnati   [4 refused already]
 
-== Polish (6) ==========================================
-  haluski                            Haluski   [2 refused already]
-  polish-meatballs                   Polish Meatballs
-  perogies-with-onions               Perogies with Onions
-  air-fryer-pierogies                Air Fryer Pierogies
-  instant-pot-cabbage-rolls          Instant Pot Cabbage Rolls   [2 refused already]
-  one-pot-cabbage-roll-soup          One Pot Cabbage Roll Soup   [1 refused already]
+== Belgian (6) =========================================
+  gaufres-liegeoises                 Gaufres Liegeoises
+  waterzooi                          Waterzooi   [2 refused already]
+  cuberdons                          Cuberdons   [1 refused already]
+  chicons-au-gratin                  Chicons au Gratin
+  boulets-liegeois                   Boulets Liegeois
+  tarte-au-sucre-belge               Tarte au Sucre Belge   [1 refused already]
 
-== Scottish (6) ========================================
-  empire-biscuits                    Empire Biscuits   [10 refused already]
-  oat-cakes                          Oat Cakes   [5 refused already]
-  shortbread-stars                   Shortbread Stars
-  brown-sugar-shortbread             Brown Sugar Shortbread   [2 refused already]
-  shortbread-cookies                 Shortbread Cookies   [2 refused already]
-  vegan-shortbread                   Vegan Shortbread   [2 refused already]
+== Caribbean (6) =======================================
+  la-bandera-dominicana              La Bandera Dominicana   [2 refused already]
+  haitian-griot                      Haitian Griot   [2 refused already]
+  diri-ak-djon-djon                  Diri ak Djon Djon
+  metemgee                           Metemgee
+  caribbean-rum-punch                Caribbean Rum Punch
+  one-pot-beans-and-rice             One Pot Beans and Rice   [1 refused already]
 
-== Moroccan (5) ========================================
-  moroccan-meatballs                 Moroccan Meatballs
-  moroccan-chickpea-stew             Moroccan Chickpea Stew
-  chermoula-fish                     Chermoula Fish
-  seven-vegetable-couscous           Seven-Vegetable Couscous
-  moroccan-orange-salad              Moroccan Orange Salad
+== Finnish (6) =========================================
+  ruisleipa                          Ruisleipa   [1 refused already]
+  mustikkapiirakka                   Mustikkapiirakka   [1 refused already]
+  makaronilaatikko                   Makaronilaatikko   [1 refused already]
+  pulla                              Pulla   [2 refused already]
+  munkki                             Munkki
+  finnish-pancake-pannukakku         Finnish Pancake Pannukakku
 
-== Turkish (5) =========================================
-  turkish-meatballs                  Turkish Meatballs
-  kofte-with-yoghurt                 Kofte with Yoghurt
-  red-lentil-kofte                   Red Lentil Kofte   [7 refused already]
-  coban-salatasi                     Coban Salatasi   [1 refused already]
-  turkish-tea                        Turkish Tea   [1 refused already]
+== Swedish (6) =========================================
+  artsoppa                           Ärtsoppa   [1 refused already]
+  biff-a-la-lindstrom                Biff a la Lindstrom
+  pepparkakor                        Pepparkakor   [1 refused already]
+  chokladbollar                      Chokladbollar   [1 refused already]
+  rabarberpaj                        Rabarberpaj
+  fiskgratang                        Fiskgratang
+
+== Thai (6) ============================================
+  cabbage-salad-with-peanut-dressing Cabbage Salad with Peanut Dressing   [1 refused already]
+  thai-peanut-noodles                Thai Peanut Noodles
+  pork-larb                          Pork Larb   [2 refused already]
+  thai-basil-fried-egg               Thai Basil Fried Egg   [6 refused already]
+  khao-kai-jeow                      Khao Kai Jeow
+  instant-pot-pad-thai               Instant Pot Pad Thai   [2 refused already]
 
 == Vietnamese (5) ======================================
   vietnamese-noodle-salad            Vietnamese Noodle Salad   [1 refused already]
@@ -1560,65 +1381,51 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   com-ga                             Com Ga
   instant-pot-pho                    Instant Pot Pho
 
+== Dutch (4) ===========================================
+  appeltaart                         Appeltaart
+  pannenkoeken                       Pannenkoeken   [1 refused already]
+  gehaktbal                          Gehaktbal   [1 refused already]
+  rookworst                          Rookworst   [1 refused already]
+
 == Ethiopian (4) =======================================
   atkilt-wat                         Atkilt Wat
   kik-alicha                         Kik Alicha   [4 refused already]
   kitfo                              Kitfo   [5 refused already]
-  gomen                              Gomen   [1 refused already]
-
-== German (4) ==========================================
-  german-meatballs                   German Meatballs   [1 refused already]
-  german-red-cabbage                 German Red Cabbage   [1 refused already]
-  german-apple-cake                  German Apple Cake   [1 refused already]
-  plum-cake                          Plum Cake   [1 refused already]
-
-== Hungarian (4) =======================================
-  beef-goulash-soup                  Beef Goulash Soup   [1 refused already]
-  hungarian-mushroom-soup            Hungarian Mushroom Soup
-  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
-  instant-pot-goulash                Instant Pot Goulash
-
-== Indonesian (4) ======================================
-  nasi-kuning                        Nasi Kuning   [5 refused already]
-  nasi-uduk                          Nasi Uduk   [5 refused already]
-  indonesian-gudeg                   Indonesian Gudeg   [1 refused already]
-  indonesian-bubur-ayam              Indonesian Bubur Ayam   [1 refused already]
-
-== Korean (4) ==========================================
-  korean-beef-lettuce-wraps          Korean Beef Lettuce Wraps   [1 refused already]
-  korean-beef-bowl                   Korean Beef Bowl   [1 refused already]
-  chicken-bulgogi                    Chicken Bulgogi   [1 refused already]
-  instant-pot-korean-beef            Instant Pot Korean Beef   [2 refused already]
+  gomen                              Gomen   [2 refused already]
 
 == Malaysian (4) =======================================
   kari-ayam                          Kari Ayam
   sambal-udang                       Sambal Udang   [1 refused already]
-  roti-john                          Roti John   [1 refused already]
+  roti-john                          Roti John   [2 refused already]
   ayam-percik                        Ayam Percik
-
-== Portuguese (4) ======================================
-  piri-piri-prawns                   Piri Piri Prawns   [1 refused already]
-  bolo-rei                           Bolo Rei   [5 refused already]
-  torta-de-santa-clara               Torta de Santa Clara
-  peri-peri-sauce                    Peri Peri Sauce   [1 refused already]
 
 == Russian (4) =========================================
   beef-and-mushroom-stroganoff-bake  Beef and Mushroom Stroganoff Bake
-  smoked-salmon-blinis               Smoked Salmon Blinis   [1 refused already]
+  smoked-salmon-blinis               Smoked Salmon Blinis   [2 refused already]
   buckwheat-with-mushrooms           Buckwheat with Mushrooms   [6 refused already]
   instant-pot-beef-stroganoff        Instant Pot Beef Stroganoff   [2 refused already]
 
-== South African (4) ===================================
-  biltong                            Biltong
-  mielie-bread                       Mielie Bread   [2 refused already]
-  frikkadels                         Frikkadels
-  south-african-pap                  South African Pap   [1 refused already]
+== Scottish (4) ========================================
+  empire-biscuits                    Empire Biscuits   [10 refused already]
+  oat-cakes                          Oat Cakes   [5 refused already]
+  shortbread-stars                   Shortbread Stars   [1 refused already]
+  vegan-shortbread                   Vegan Shortbread   [2 refused already]
 
-== Sri Lankan (4) ======================================
-  sri-lankan-pol-roti                Sri Lankan Pol Roti   [5 refused already]
-  sri-lankan-chicken-curry           Sri Lankan Chicken Curry   [1 refused already]
-  sri-lankan-black-pork-curry        Sri Lankan Black Pork Curry   [1 refused already]
-  wattalapam                         Wattalapam
+== Turkish (4) =========================================
+  turkish-meatballs                  Turkish Meatballs
+  kofte-with-yoghurt                 Kofte with Yoghurt
+  red-lentil-kofte                   Red Lentil Kofte   [7 refused already]
+  coban-salatasi                     Coban Salatasi   [1 refused already]
+
+== Austrian (3) ========================================
+  palatschinken                      Palatschinken   [1 refused already]
+  rindsuppe                          Rindsuppe   [2 refused already]
+  griessknodel                       Griessknödel
+
+== Czech (3) ===========================================
+  gulas-cesky                        Gulas Cesky
+  rizek-cesky                        Rizek Cesky
+  rajska-omacka                      Rajska Omacka   [1 refused already]
 
 == Egyptian (3) ========================================
   egyptian-rice-with-vermicelli      Egyptian Rice with Vermicelli   [4 refused already]
@@ -1626,46 +1433,78 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   fatta                              Fatta   [5 refused already]
 
 == Hawaiian (3) ========================================
-  pineapple-chicken-skewers          Pineapple Chicken Skewers   [9 refused already]
-  hawaiian-lau-lau                   Hawaiian Lau Lau
+  pineapple-chicken-skewers          Pineapple Chicken Skewers   [10 refused already]
+  hawaiian-lau-lau                   Hawaiian Lau Lau   [1 refused already]
   hawaiian-mac-salad                 Hawaiian Mac Salad   [1 refused already]
+
+== Hungarian (3) =======================================
+  hungarian-mushroom-soup            Hungarian Mushroom Soup
+  hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
+  toltott-kaposzta                   Toltott Kaposzta   [1 refused already]
+
+== Moroccan (3) ========================================
+  moroccan-meatballs                 Moroccan Meatballs
+  chermoula-fish                     Chermoula Fish
+  moroccan-orange-salad              Moroccan Orange Salad
 
 == Puerto Rican (3) ====================================
   puerto-rican-pasteles              Puerto Rican Pasteles   [1 refused already]
   puerto-rican-alcapurrias           Puerto Rican Alcapurrias   [1 refused already]
   puerto-rican-tembleque             Puerto Rican Tembleque   [1 refused already]
 
+== Romanian (3) ========================================
+  romanian-bean-soup                 Romanian Bean Soup   [3 refused already]
+  ciorba-de-legume                   Ciorba de Legume
+  placinta-cu-branza                 Placinta cu Branza
+
+== South African (3) ===================================
+  mielie-bread                       Mielie Bread   [2 refused already]
+  frikkadels                         Frikkadels
+  south-african-pap                  South African Pap   [1 refused already]
+
+== Sri Lankan (3) ======================================
+  sri-lankan-chicken-curry           Sri Lankan Chicken Curry   [2 refused already]
+  sri-lankan-black-pork-curry        Sri Lankan Black Pork Curry   [1 refused already]
+  wattalapam                         Wattalapam
+
 == Trinidadian (3) =====================================
   dhalpuri-roti                      Dhalpuri Roti   [1 refused already]
-  trinidadian-pelau                  Trinidadian Pelau
+  trinidadian-pelau                  Trinidadian Pelau   [1 refused already]
   trinidadian-curry-duck             Trinidadian Curry Duck   [1 refused already]
-
-== African (2) =========================================
-  zanzibar-pizza                     Zanzibar Pizza   [1 refused already]
-  ugandan-rolex                      Ugandan Rolex   [1 refused already]
 
 == Cuban (2) ===========================================
   yuca-con-mojo                      Yuca con Mojo
   cuban-flan                         Cuban Flan   [1 refused already]
 
+== Danish (2) ==========================================
+  flaeskesteg                        Flaeskesteg   [1 refused already]
+  brunede-kartofler                  Brunede Kartofler
+
 == Jewish (2) ==========================================
-  brisket-with-onions                Brisket with Onions
+  brisket-with-onions                Brisket with Onions   [1 refused already]
   charoset                           Charoset   [5 refused already]
 
 == Kenyan (2) ==========================================
   mchuzi-wa-maharage                 Mchuzi wa Maharage   [3 refused already]
   mukimo                             Mukimo   [6 refused already]
 
+== Korean (2) ==========================================
+  korean-beef-lettuce-wraps          Korean Beef Lettuce Wraps   [1 refused already]
+  instant-pot-korean-beef            Instant Pot Korean Beef   [2 refused already]
+
 == Lebanese (2) ========================================
   lebanese-cabbage-salad             Lebanese Cabbage Salad   [2 refused already]
   lebanese-garlic-potatoes           Lebanese Garlic Potatoes   [1 refused already]
 
-== Venezuelan (2) ======================================
-  reina-pepiada-arepas               Reina Pepiada Arepas
-  tequenos                           Tequenos   [1 refused already]
+== Slovenian (2) =======================================
+  jota-soup                          Jota Soup   [1 refused already]
+  zlikrofi                           Zlikrofi   [1 refused already]
 
 == Afghan (1) ==========================================
   afghan-dal                         Afghan Dal   [6 refused already]
+
+== African (1) =========================================
+  zanzibar-pizza                     Zanzibar Pizza   [1 refused already]
 
 == Argentinian (1) =====================================
   air-fryer-empanadas                Air Fryer Empanadas
@@ -1673,14 +1512,17 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Balkan (1) ==========================================
   croatian-peka                      Croatian Peka   [1 refused already]
 
-== Ghanaian (1) ========================================
-  groundnut-soup                     Groundnut Soup   [1 refused already]
+== Indonesian (1) ======================================
+  nasi-uduk                          Nasi Uduk   [5 refused already]
 
 == International (1) ===================================
   painkiller                         Painkiller   [11 refused already]
 
-== Nepalese (1) ========================================
-  chicken-choila                     Chicken Choila   [1 refused already]
+== Luxembourgish (1) ===================================
+  luxembourg-judd-mat-gaardebounen   Luxembourg Judd mat Gaardebounen
+
+== Maltese (1) =========================================
+  lampuki-pie                        Lampuki Pie
 
 == Nigerian (1) ========================================
   pounded-yam                        Pounded Yam   [5 refused already]
@@ -1688,19 +1530,19 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Norwegian (1) =======================================
   norwegian-waffles                  Norwegian Waffles   [1 refused already]
 
-== Pakistani (1) =======================================
-  gola-kabab                         Gola Kabab
-
-== Romanian (1) ========================================
-  romanian-bean-soup                 Romanian Bean Soup   [3 refused already]
-
 == Singaporean (1) =====================================
   singapore-chilli-prawns            Singapore Chilli Prawns   [1 refused already]
 
+== Slovak (1) ==========================================
+  kapustnica                         Kapustnica   [1 refused already]
+
 == Tunisian (1) ========================================
-  harissa-chicken                    Harissa Chicken   [1 refused already]
+  harissa-chicken                    Harissa Chicken   [2 refused already]
+
+== Venezuelan (1) ======================================
+  tequenos                           Tequenos   [1 refused already]
 
 == Welsh (1) ===========================================
-  anglesey-eggs                      Anglesey Eggs
+  anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 1579 of 5015
+TOTAL 1405 of 5515

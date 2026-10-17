@@ -285,7 +285,7 @@ module.exports = {
       '150 ml double cream',
       '0.5 tsp ground black pepper',
       '40 g flat-leaf parsley, chopped',
-      '1 baguette'
+      '1 baguette, to serve'
     ],
     st: [
       'Scrub the mussels and pull the beards off.',

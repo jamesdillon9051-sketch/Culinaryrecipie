@@ -1,25 +1,20 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * A health label is a claim about numbers, so the numbers are checked.
+ * Health claims, held out of the recipes.
  *
- * Three tags — Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly — are written by hand into
- * the catalogue rows of the volumes that carry them. The rules each one stands for are in
- * src/lib/health.js, and this holds every tagged recipe to them on every `npm run check`:
+ * The Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly labels were withdrawn in
+ * October 2026 (src/lib/health.js says why). What this audit holds now, on every `npm run check`:
  *
- *   1. The recipe is inside the limits for each label it carries (carbohydrate, calories, sodium,
- *      potassium, phosphorus, added sugar, the foods a kidney diet refuses).
- *   2. The nutrition printed on the page is what its own ingredient list adds up to
- *      (tools/nutrition-calc.js). A recipe whose ingredients the calculator cannot read fails, because
- *      the figure that goes missing is the one the label depends on.
- *   3. A recipe that carries a label does not promise an outcome. "Safe for diabetics", "lowers blood
- *      sugar", "burns fat", "flushes toxins" and "cures" are claims a recipe cannot back, however it is
- *      phrased, and the label never needs them.
- *   4. The volume that was written protein-rich still is (volume 34: 20 g a serving for a meal, 12 g for
- *      a snack), because its description promises it.
+ *   1. No recipe carries a withdrawn label. Putting one back needs a qualified review first.
+ *   2. No recipe, in any field a reader sees, promises an outcome: "safe for diabetics", "lowers
+ *      blood sugar", "burns fat", "flushes toxins", "cures" and the rest of PROMISES below.
+ *   3. The volumes whose nutrition is computed from the ingredient list (32 to 34) still
+ *      reproduce it (tools/nutrition-calc.js), potassium and phosphorus included where printed.
+ *   4. The volume that was written protein-rich still is (volume 34: 20 g a serving for a meal,
+ *      12 g for a snack), because its description promises it.
  *
  *   node tools/health-audit.js            list the failures, then a summary
- *   node tools/health-audit.js --slug a,b show every check for those recipes
  */
 const fs = require('fs');
 const path = require('path');
@@ -36,7 +31,9 @@ const PROMISES = [
   /\b(?:burns?|melts?|torch(?:es)?|blasts?) (?:belly |body )?fat\b/i,
   /\bboosts? (?:your |the )?metabolism\b/i,
   /\b(?:detox(?:es|ify|ifying)?|flush(?:es)? (?:out )?toxins|cleanse)\b/i,
-  /\bguaranteed\b|\blose \d+ ?(?:lb|lbs|pounds|kg|kilos)\b|\bmelt away\b/i,
+  /* Read across the whole catalogue now, so "the fat will melt away" in a braise and "a rise is
+     guaranteed" in a scone are cooking, not promises; only the weight-loss forms count. */
+  /\bguaranteed (?:weight|results|to lose)\b|\blose \d+ ?(?:lb|lbs|pounds|kg|kilos)\b|\b(?:pounds|weight|inches) (?:will )?melts? away\b|\bmelts? away (?:the )?(?:pounds|weight|inches)\b/i,
   /\b(?:won't|will not|doesn't|does not) (?:spike|raise) (?:your )?(?:blood )?(?:sugar|glucose)\b/i
 ];
 
@@ -45,42 +42,43 @@ const PROSE = ['description', 'meta', 'why', 'storage'];
 /* Volumes written to a brief the label alone does not carry. */
 const PROTEIN_BRIEF = { file: 'catalog-34.js', meal: 20, small: 12 };
 
-function main(argv) {
+/* The volumes whose `nut` is written by `npm run calc` rather than by hand. */
+const COMPUTED = ['catalog-32.js', 'catalog-33.js', 'catalog-34.js'];
+
+function main() {
   const { loadRecipes } = require('../src/build');
   const recipes = loadRecipes();
-  const only = argv.includes('--slug') ? new Set(argv[argv.indexOf('--slug') + 1].split(',')) : null;
   const failures = [];
-  const counts = { [health.DIABETES]: 0, [health.WEIGHT_LOSS]: 0, [health.KIDNEY]: 0 };
-
-  const briefFile = path.join(__dirname, '..', 'src', 'data', PROTEIN_BRIEF.file);
-  const proteinRich = new Set(fs.existsSync(briefFile) ? require(briefFile).map(row => row.slug) : []);
+  const rowsOf = file => {
+    const full = path.join(__dirname, '..', 'src', 'data', file);
+    return fs.existsSync(full) ? require(full).map(row => row.slug) : [];
+  };
+  const computedSlugs = new Set(COMPUTED.flatMap(rowsOf));
+  const proteinRich = new Set(rowsOf(PROTEIN_BRIEF.file));
+  let computedChecked = 0;
 
   for (const recipe of recipes) {
-    const labels = health.labelsOf(recipe);
-    if (only && !only.has(recipe.slug)) continue;
+    for (const tag of health.WITHDRAWN) {
+      if ((recipe.tags || []).includes(tag)) {
+        failures.push(`${recipe.slug}: carries the withdrawn ${tag} label — a health label needs a qualified review before it comes back (src/lib/health.js)`);
+      }
+    }
     if (proteinRich.has(recipe.slug)) {
       const need = health.isSmall(recipe) ? PROTEIN_BRIEF.small : PROTEIN_BRIEF.meal;
       if (recipe.nutrition[1] < need) failures.push(`${recipe.slug}: written for the protein-rich volume but a serving has ${recipe.nutrition[1]} g protein, under ${need} g`);
     }
-    if (!labels.length) continue;
-    for (const tag of labels) {
-      counts[tag]++;
-      for (const line of health.failures(recipe, tag)) failures.push(`${recipe.slug}: ${tag} — ${line}`);
-      if (only) for (const c of health.evaluate(recipe, tag).checks) {
-        console.log(`  ${c.ok ? '✓' : '✗'} ${recipe.slug} ${tag}: ${c.label} ${c.value}${c.unit ? ` ${c.unit}` : ''} (${c.kind === 'none' ? 'must be none' : `${c.kind === 'max' ? 'at most' : 'at least'} ${c.limit}${c.unit ? ` ${c.unit}` : ''}`})`);
+    if (computedSlugs.has(recipe.slug)) {
+      computedChecked++;
+      const kp = Boolean(recipe.kp);
+      const computed = calc.computeRecipe(recipe.ingredients, recipe.servings);
+      for (const p of computed.problems) failures.push(`${recipe.slug}: ${p}`);
+      if (kp) for (const m of computed.missingKP) failures.push(`${recipe.slug}: no potassium or phosphorus figures for ${m}`);
+      if (!computed.problems.length) {
+        for (const d of calc.differences({ nut: recipe.nutrition, kp: recipe.kp }, computed, { kp })) {
+          failures.push(`${recipe.slug}: ${d} (node tools/nutrition-calc.js --slug ${recipe.slug} --write)`);
+        }
       }
     }
-
-    const kidney = labels.includes(health.KIDNEY);
-    const computed = calc.computeRecipe(recipe.ingredients, recipe.servings);
-    for (const p of computed.problems) failures.push(`${recipe.slug}: ${p}`);
-    if (kidney) for (const m of computed.missingKP) failures.push(`${recipe.slug}: no potassium or phosphorus figures for ${m}`);
-    if (!computed.problems.length) {
-      for (const d of calc.differences({ nut: recipe.nutrition, kp: recipe.kp }, computed, { kp: kidney })) {
-        failures.push(`${recipe.slug}: ${d} (node tools/nutrition-calc.js --slug ${recipe.slug} --write)`);
-      }
-    }
-
     const fields = {
       description: recipe.description, meta: recipe.meta, why: recipe.why, storage: recipe.storage,
       tips: (recipe.tips || []).join(' '), steps: (recipe.steps || []).join(' '), pairings: (recipe.pairings || []).join(' ')
@@ -88,17 +86,14 @@ function main(argv) {
     for (const [field, text] of Object.entries(fields)) {
       for (const re of PROMISES) {
         const m = re.exec(text || '');
-        if (m) failures.push(`${recipe.slug}: ${field} says "${m[0]}" — a ${labels[0]} recipe may describe its numbers but not promise an outcome`);
+        if (m) failures.push(`${recipe.slug}: ${field} says "${m[0]}" — a recipe may describe its numbers but not promise a health outcome`);
       }
     }
   }
-
   for (const f of failures) console.log(`  ✗ ${f}`);
   if (failures.length) { process.exitCode = 1; return; }
-  const total = counts[health.DIABETES] + counts[health.WEIGHT_LOSS] + counts[health.KIDNEY];
-  console.log(`  ✓ health: ${total} labels on ${recipes.filter(r => health.labelsOf(r).length).length} recipes `
-    + `(${counts[health.DIABETES]} diabetes, ${counts[health.WEIGHT_LOSS]} weight loss, ${counts[health.KIDNEY]} kidney), `
-    + 'each inside its limits, with nutrition that its ingredient list reproduces');
+  console.log(`  ✓ health: no withdrawn labels and no outcome promises on ${recipes.length} recipes; `
+    + `${computedChecked} computed recipes reproduce their nutrition from the ingredient list`);
 }
 
 if (require.main === module) {

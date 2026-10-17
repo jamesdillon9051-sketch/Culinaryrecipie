@@ -15,7 +15,7 @@ module.exports = {
   'veggie-egg-white-omelet': {
     d: 'A light omelet of whisked egg whites folded around mushrooms, spinach, tomato and chives, with no cheese or butter. Two servings in 16 minutes.',
     meta: 'Veggie egg white omelet: whisked egg whites folded around mushrooms, spinach, tomato and chives in 16 minutes. Dairy free and gluten free.',
-    kw: ['veggie egg white omelet', 'weight loss friendly egg white omelet', 'gluten free egg white omelet', 'dairy free vegetable omelet', 'quick egg white omelet with vegetables'],
+    kw: ['veggie egg white omelet', 'egg white omelet under 400 calories', 'gluten free egg white omelet', 'dairy free vegetable omelet', 'quick egg white omelet with vegetables'],
     why: 'Why do egg white omelets so often come out rubbery and weepy? Two causes, both fixable. The heat is too high, and the vegetables are still wet when the eggs go in. Cook the vegetables first, until their liquid has gone, then pour the whites over them in a pan set to medium.\n\nEgg whites are nearly all protein and water, with no fat to keep them tender, so they set faster and toughen sooner than whole eggs. **Cook them over medium heat** and slide the omelet out while the top still looks slightly glossy. The heat in the pan finishes it. Season the whites in the bowl and whisk until no thick strands remain, so they cook evenly.\n\nUse a non-stick pan and a thin spatula. Folding is then easy. Mushrooms, spinach, tomato and spring onions give the filling colour, and chives add a mild onion note at the end. Serve it with fruit or a slice of wholegrain toast.',
     ing: [
       '240 g egg whites, about 8 large',
@@ -47,7 +47,7 @@ module.exports = {
   'egg-white-breakfast-wrap': {
     d: 'Scrambled egg whites with spinach and feta rolled in a whole-wheat tortilla with salsa. Two servings in 13 minutes.',
     meta: 'Egg white breakfast wrap: soft scrambled egg whites with spinach, feta and salsa rolled in a whole-wheat tortilla. Two servings in 13 minutes.',
-    kw: ['egg white breakfast wrap', 'weight loss friendly breakfast wrap', 'vegetarian breakfast wrap', 'egg white wrap with spinach and feta', 'quick egg white breakfast wrap'],
+    kw: ['egg white breakfast wrap', 'breakfast wrap under 400 calories', 'vegetarian breakfast wrap', 'egg white wrap with spinach and feta', 'quick egg white breakfast wrap'],
     why: 'It is a breakfast burrito\'s lighter cousin: the same wrapped warmth, with egg whites and spinach in place of sausage and cheese. Feta does the seasoning. A little goes a long way, and the whole thing is ready in 13 minutes.\n\nSoft scrambled whites are the base. Whisk the whites well first, so the scramble is even and fine. **Keep the heat at medium**, push the eggs gently from the edges to the centre and stop while they still look slightly moist, because they carry on setting in the tortilla. Spinach goes in first and wilts in under a minute, so the wrap holds greens as well as protein. Salsa adds moisture and a little heat without extra fat.\n\nWarm the tortillas for a few seconds in a dry pan so they bend without cracking. Fill the middle and fold in the sides. Roll tightly. Wrap the finished roll in foil if you are taking it with you.',
     ing: [
       '180 g egg whites, about 6 large',
@@ -77,7 +77,7 @@ module.exports = {
   'asparagus-frittata': {
     d: 'Eggs poured over soft asparagus and onion and finished in the oven until just set, with Parmesan and chives. Four servings in 30 minutes.',
     meta: 'Asparagus frittata: asparagus and onion under whisked eggs with Parmesan and chives, set in the oven. Gluten free. Four servings in 30 minutes.',
-    kw: ['asparagus frittata', 'weight loss friendly frittata', 'gluten free asparagus frittata', 'vegetarian asparagus frittata with parmesan', 'baked asparagus frittata'],
+    kw: ['asparagus frittata', 'frittata under 400 calories', 'gluten free asparagus frittata', 'vegetarian asparagus frittata with parmesan', 'baked asparagus frittata'],
     why: 'Do not stir it. A frittata is an omelet you leave alone, and the eggs turn from liquid to a tender slice in the oven rather than in the pan. The asparagus goes in first so it has time to soften, and the eggs are poured over and left to set.\n\nStart on the hob and finish in the oven. **Set the edges on the hob**, for about 3 minutes, so the frittata keeps its shape, then move the pan to a hot oven for the top to firm up. Pull it out when the centre has only a slight wobble; it keeps cooking for a minute or two as it rests, and overcooked eggs turn rubbery and dry. A little milk loosens the texture.\n\nParmesan seasons the whole dish, so it needs very little salt. Cut the frittata into four wedges and serve warm or at room temperature, with a green salad. It is as good cold the next day.',
     ing: [
       '6 large eggs',
@@ -109,7 +109,7 @@ module.exports = {
   'banana-oat-breakfast-cookies': {
     d: 'Soft oat cookies made from ripe banana, rolled oats, peanut butter and cinnamon, with no flour, butter or added sugar. Six servings of two cookies in 25 minutes.',
     meta: 'Banana oat breakfast cookies: ripe banana, oats, peanut butter and cinnamon baked into soft cookies. Vegan, no flour or added sugar. Six servings.',
-    kw: ['banana oat breakfast cookies', 'weight loss friendly breakfast cookies', 'vegan banana oat cookies', 'dairy free banana oat cookies', 'easy banana oat breakfast cookies'],
+    kw: ['banana oat breakfast cookies', 'breakfast cookies under 400 calories', 'vegan banana oat cookies', 'dairy free banana oat cookies', 'easy banana oat breakfast cookies'],
     why: 'Banana cookies go wrong in two ways: they spread into flat discs, or they stay damp and stodgy. The fix is ripeness and oats. A very ripe banana supplies the sweetness and the binding, so the cookies need no sugar, butter or egg, and the oats give them structure.\n\nMash the banana until it is almost a purée, then stir in the oats, peanut butter and cinnamon. **Rest the dough for 5 minutes** so the oats soak up some of the moisture and the mixture firms up. The cookies do not spread in the oven. Shape each one as you want it to look when baked, pressing it flat with a fork or the back of a spoon, since a mound will stay a mound.\n\nThey are soft, not crisp. Two cookies make a serving, with a cup of tea or a glass of milk. Keep them in a tin and eat them within 3 days.',
     ing: [
       '240 g very ripe bananas, mashed',
@@ -141,7 +141,7 @@ module.exports = {
   'sweet-potato-toast': {
     d: 'Slices of sweet potato roasted until tender and used in place of bread, topped with mashed avocado and a fried egg. Two servings in 20 minutes.',
     meta: 'Sweet potato toast: roasted sweet potato slices topped with mashed avocado and a fried egg. Dairy free and gluten free. Two servings in 20 minutes.',
-    kw: ['sweet potato toast', 'weight loss friendly sweet potato toast', 'gluten free sweet potato toast', 'dairy free sweet potato toast with egg', 'easy sweet potato toast with avocado'],
+    kw: ['sweet potato toast', 'sweet potato toast under 400 calories', 'gluten free sweet potato toast', 'dairy free sweet potato toast with egg', 'easy sweet potato toast with avocado'],
     why: 'A sweet potato, an avocado and two eggs make breakfast on a slice that is neither bread nor a compromise. No bread needed. The sweet potato is cut lengthwise into slabs, roasted until the edges caramelise and the middle turns soft, and piled with toppings the way toast would be.\n\nThickness is the whole trick. **Slice them about 7 mm thick**, no more, so the slabs cook through and still hold a topping. Thicker slices stay firm in the centre, and thinner ones collapse. Roast them on a hot tray and turn them once, and expect the edges to colour before the centre softens. They will not snap like toast. Expect a tender centre and a sweet, slightly chewy edge.\n\nMash the avocado with lime juice and a pinch of salt so it spreads. Fry the eggs while the slices finish, and keep the yolks soft; they act as the sauce. Chilli flakes are optional.',
     ing: [
       '300 g sweet potato, scrubbed and cut lengthwise into 4 slices about 7 mm thick',
@@ -172,7 +172,7 @@ module.exports = {
   'black-bean-breakfast-tostadas': {
     d: 'Crisp corn tortillas spread with mashed black beans and topped with fried eggs, tomato, avocado and queso fresco. Four servings in 20 minutes.',
     meta: 'Black bean breakfast tostadas: corn tortillas crisped in the oven, then topped with mashed black beans, fried eggs, tomato and avocado. Four servings.',
-    kw: ['black bean breakfast tostadas', 'weight loss friendly breakfast tostadas', 'vegetarian black bean tostadas', 'breakfast tostadas with egg and avocado', 'easy black bean breakfast tostadas'],
+    kw: ['black bean breakfast tostadas', 'breakfast tostadas under 400 calories', 'vegetarian black bean tostadas', 'breakfast tostadas with egg and avocado', 'easy black bean breakfast tostadas'],
     why: 'Brunch for four that looks like a lot and weighs very little. Nothing here is deep-fried. Corn tortillas crisp in the oven, mashed black beans make the base, and an egg on each tostada supplies a rich yolk that works as the sauce.\n\nCrisp the tortillas on a tray in a single layer, turning them once. **Bake them until they snap**: they should sound hollow when tapped and be golden at the edges, because a soft tostada folds under the weight of its toppings. Warm the beans in a pan with cumin and a splash of water. Mash them roughly. That way they spread easily and keep some texture.\n\nBuild just before eating. Tomato and cilantro add freshness, avocado adds creaminess, and a little crumbled queso fresco adds salt. Lime juice and hot sauce finish the plate. Eat these with a knife and fork, or by hand with a napkin.',
     ing: [
       '4 corn tortillas, 15 cm across',
@@ -206,7 +206,7 @@ module.exports = {
   'peanut-butter-banana-toast': {
     d: 'Hot wholegrain toast spread with natural peanut butter and topped with sliced banana, cinnamon and chia seeds. Two servings in 8 minutes.',
     meta: 'Peanut butter banana toast: wholegrain toast with natural peanut butter, sliced banana, cinnamon and chia seeds. Vegan, ready in 8 minutes.',
-    kw: ['peanut butter banana toast', 'weight loss friendly breakfast toast', 'vegan peanut butter banana toast', 'dairy free peanut butter toast', 'quick peanut butter banana toast'],
+    kw: ['peanut butter banana toast', 'breakfast toast under 400 calories', 'vegan peanut butter banana toast', 'dairy free peanut butter toast', 'quick peanut butter banana toast'],
     why: 'The smell of peanut butter on hot toast is the point. It softens into the surface. The banana on top warms slightly under it. Toast the bread until it is properly crisp, then spread the peanut butter while the slice is still hot.\n\nKeep it simple. There are only four main ingredients, so choose them with care. **Use natural peanut butter**, made from peanuts and a little salt, so there is no added sugar or palm oil. Seeded wholegrain bread brings fibre, and a ripe but firm banana slices cleanly without turning to mush. Chia seeds add more fibre and a little crunch, and cinnamon adds warmth.\n\nA slice is a light breakfast or snack. Peanut butter is rich, so spread it thinly rather than thickly. Eat it straight away, while the toast is crisp, with a glass of milk or a cup of coffee. Toast it a shade darker if you like more crunch.',
     ing: [
       '2 slices seeded wholegrain bread',

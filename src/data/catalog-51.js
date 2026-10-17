@@ -123,7 +123,7 @@ module.exports = [
   c('tres-leches-cupcakes', 'Tres Leches Cupcakes', 'Mexican', 'Desserts', 'Medium', 25, 25, 12, 0, 0, ['Vegetarian'], ['new'], 'tres leches cupcakes'),
   c('pudim-de-leite', 'Pudim de Leite', 'Brazilian', 'Desserts', 'Medium', 15, 60, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'pudim de leite'),
   c('romeu-e-julieta', 'Romeu e Julieta', 'Brazilian', 'Desserts', 'Easy', 5, 0, 4, 0, 0, ['Vegetarian'], ['new'], 'romeu e julieta'),
-  c('huevos-divorciados', 'Huevos Divorciados', 'Mexican', 'Breakfast', 'Easy', 15, 15, 2, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'huevos divorciados'),
+  c('huevos-divorciados', 'Huevos Divorciados', 'Mexican', 'Breakfast', 'Easy', 15, 15, 2, 0, 0, ['Vegetarian'], ['new'], 'huevos divorciados'),
   c('steak-and-cheese-pie', 'Steak and Cheese Pie', 'Australian', 'Dinner', 'Medium', 30, 45, 6, 0, 0, [], ['new'], 'steak and cheese pie'),
   c('green-lipped-mussels', 'Green Lipped Mussels', 'New Zealand', 'Dinner', 'Easy', 10, 10, 4, 0, 0, ['Gluten-Free'], ['new'], 'green lipped mussels'),
   c('chilli-mussels', 'Chilli Mussels', 'New Zealand', 'Dinner', 'Easy', 10, 12, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'chilli mussels'),

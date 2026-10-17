@@ -36,6 +36,13 @@ const credited = photos.filter(s => NEEDS_CREDIT.test(s.licence)).length;
    licensed work) supplies the rest. The About page used to say all of them came
    from Commons, which was not true of about a quarter. */
 const fromCommons = photos.filter(s => /^wikimedia/i.test(s.source || '')).length;
+/* Stock libraries (Pixabay, and Pexels or Unsplash if a key is ever set) have
+   their own licences: free to use commercially and to resize, with no credit
+   required, but not Creative Commons and not public domain. They are counted
+   apart so that neither of those figures can absorb them. */
+const STOCK = /^(pixabay|pexels|unsplash)$/i;
+const stock = photos.filter(s => STOCK.test(s.source || ''));
+const archive = photos.filter(s => !STOCK.test(s.source || ''));
 const shareAlike = photos.filter(s => SHARE_ALIKE.test(s.licence)).length;
 
 module.exports = {
@@ -50,12 +57,14 @@ module.exports = {
      photograph. */
   imageCount: photos.length,
   commonsImageCount: fromCommons,
-  otherArchiveImageCount: photos.length - fromCommons,
+  otherArchiveImageCount: archive.length - fromCommons,
+  stockImageCount: stock.length,
+  stockSources: [...new Set(stock.map(s => s.source))].sort(),
   drawnImageCount: drawn.length,
   creditedImageCount: credited,
   shareAlikeImageCount: shareAlike,
   attributionOnlyImageCount: credited - shareAlike,
-  publicDomainImageCount: photos.length - credited,
+  publicDomainImageCount: archive.length - credited,
   /* True while every photograph is CC0 or public domain, false as soon as one
      carries an attribution condition. The about page reads this rather than
      asserting either. */

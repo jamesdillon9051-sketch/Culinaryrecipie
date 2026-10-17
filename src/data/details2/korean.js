@@ -90,7 +90,7 @@ module.exports = {
   },
 
   'galbi': {
-    rest: [390, 'marinating'],
+    rest: [430, 'soaking and marinating'],
     d: 'Beef short ribs butterflied thin, marinated in soy, pear and sesame, and grilled over fire until the sugars char. Korean barbecue\'s headline act, and the pear in the marinade is doing real work.',
     meta: 'Galbi — Korean marinated beef short ribs with soy, Asian pear and sesame, grilled until charred at the edges.',
     kw: ['galbi recipe', 'korean short ribs', 'kalbi marinade', 'korean bbq beef'],

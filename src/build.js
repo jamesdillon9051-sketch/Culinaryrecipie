@@ -20,40 +20,30 @@ const path = require('path');
 
 const { esc, clamp, slugify, plural, isIllustration: isDrawing, CATEGORIES, CUISINES, DIET_TAGS } = require('./lib/util');
 
-/* The first of a recipe's own search phrases that is not just its title again:
-   three words or more, and neither containing the title nor contained by it. */
-function altKeyword(row, detail) {
-  const low = row.title.toLowerCase();
-  return (detail.kw || []).find(k => k && k.split(' ').length >= 3 &&
-    !low.includes(k.toLowerCase()) && !k.toLowerCase().includes(low)) || '';
-}
-
-/* Alt text names the dish, its cuisine and category and that search phrase, in
-   one plain sentence. A generated picture says so, because it is not a
-   photograph of the dish and the alt text is what a screen reader announces. */
+/* Alt text says what the picture is: the dish, and that it is a drawing when it
+   is one, because the alt text is what a screen reader announces. It used to add
+   the cuisine, the category and one of the recipe's search phrases ("Spaghetti
+   Carbonara, an Italian dinner recipe — carbonara without cream"), which
+   describes the page rather than the photograph, can be untrue of a picture
+   taken by someone else, and is the keyword-filled alt text Google's image
+   guidelines ask sites not to write. */
 function altText(row, detail, hero) {
-  const title = row.title;
-  const kw = altKeyword(row, detail);
-  /* "an American", "an Indian", "an Ethiopian" — and "a Ukrainian", which
-     starts with a vowel letter and not a vowel sound. No cuisine here takes
-     "an" before a U. */
-  const article = /^[AEIO]/i.test(row.cuisine) ? 'an' : 'a';
-  const kind = {
-    Healthy: `a healthy ${row.cuisine} recipe`,
-    'Quick Meals': `a quick ${row.cuisine} meal recipe`,
-    'Holiday Specials': `${article} ${row.cuisine} holiday recipe`,
-    Desserts: `${article} ${row.cuisine} dessert recipe`,
-    Appetizers: `${article} ${row.cuisine} appetizer recipe`,
-    Drinks: `${article} ${row.cuisine} drink recipe`
-  }[row.category] || `${article} ${row.cuisine} ${row.category.toLowerCase()} recipe`;
-  const base = `${title}, ${kind}` + (kw ? ` — ${kw}` : '');
-  return clamp(hero && isDrawing(hero) ? `Illustration of ${base}` : base, 160);
+  return clamp(hero && isDrawing(hero) ? `Illustration of ${row.title}` : row.title, 160);
 }
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
 const { subcategories, assignRelated } = require('./lib/linking');
 const { enrichDescription, TAIL_CLAUSES } = require('./lib/seo');
 const contentDates = require('./lib/content-dates');
+const { detectWait, waitLabel } = require('./lib/timing');
+const { dietConditions } = require('./lib/diet-conditions');
+const calc = require('../tools/nutrition-calc');
+function nutritionSource(detail, servings) {
+  const computed = calc.computeRecipe(detail.ing, servings);
+  if (computed.problems.length) return 'estimated';
+  return calc.differences({ nut: detail.nut }, computed).length ? 'estimated' : 'calculated';
+}
+const dietNotes = recipe => Object.values(recipe.dietStatus || {}).map(d => d.note).filter(Boolean);
 const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
@@ -253,11 +243,12 @@ function loadRecipes() {
   }
   const images = JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'images.json'), 'utf8'));
 
-  /* Publication dates are derived deterministically so the build is
-     reproducible: recipes are spread backwards from a fixed epoch, with
-     anything flagged "new" pulled to the front. */
-  const EPOCH = Date.UTC(2026, 6, 1);
-  const DAY = 86400000;
+  /* Publication dates come from the project's records, not from the
+     catalogue order. They used to be computed by counting back from
+     2026-07-01 by each recipe's position, which spread the recipes over 2008
+     to 2026 on a domain whose hosting account dates from August 2026. See
+     tools/published-dates.js for where the recorded dates come from. */
+  const publishedDates = contentDates.publishedRegister();
 
   const recipes = catalog.map((row, index) => {
     const detail = details[row.slug];
@@ -266,8 +257,8 @@ function loadRecipes() {
       if (!detail[field]) throw new Error(`"${row.slug}" is missing the "${field}" field`);
     }
     if (detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
-    /* Optional: potassium and phosphorus in mg a serving, for the recipes that carry the
-       Kidney-Friendly label (src/lib/health.js). Half-filled is always a mistake. */
+    /* Optional: estimated potassium and phosphorus in mg a serving, printed beside the
+       other nutrition figures (volume 34). Half-filled is always a mistake. */
     if (detail.kp && (!Array.isArray(detail.kp) || detail.kp.length !== 2
         || !detail.kp.every(v => Number.isFinite(v) && v >= 0))) {
       throw new Error(`"${row.slug}" kp must be [potassium mg, phosphorus mg]`);
@@ -285,9 +276,19 @@ function loadRecipes() {
         + `${row.prep + row.cook} minutes of hands-on work, over the ${QUICK_MEAL_MINUTES} the category promises`);
     }
 
+    const wait = detectWait({ slug: row.slug, steps: detail.st, ingredients: detail.ing });
+    /* "Thirty minutes or less, start to plate" is what the Quick Meals page
+       promises, so a recipe that also needs an hour of marinating is not one. */
+    if (row.category === 'Quick Meals' && row.prep + row.cook + wait.min > QUICK_MEAL_MINUTES) {
+      throw new Error(`"${row.slug}" is filed under Quick Meals but takes ${row.prep + row.cook + wait.min} `
+        + `minutes start to finish, waiting included, over the ${QUICK_MEAL_MINUTES} the category promises`);
+    }
+
     const image = validateImage(images[row.slug] || {}, row.slug);
-    const recency = row.badges.includes('new') ? index * 2 : 40 + index * 5;
-    const published = EPOCH - recency * DAY;
+    const datePublished = publishedDates.dateFor(`/recipes/${row.slug}/`);
+    /* Same-day recipes keep the catalogue's own order for the "newest" sort and
+       the feeds, a second apart, without moving the date anyone sees. */
+    const published = Date.parse(`${datePublished}T12:00:00Z`) - index * 1000;
 
     /* Derived tags join the hand-written ones. They are computed from the
        nutrition figures and ingredient list, so they cannot fall out of step
@@ -297,13 +298,25 @@ function loadRecipes() {
     const built = {
       ...row,
       tags,
-      /* Hands-on time. Everything that sorts, filters or advertises a recipe as
-         quick uses this, because a 12-hour prove costs the cook no attention. */
+      /* Whether each diet tag holds as written or only if the cook takes the
+         alternative a line offers ("honey or sugar"). The page states the
+         condition and the Recipe JSON-LD, which cannot, leaves the diet out. */
+      dietStatus: dietConditions({ tags, ing: detail.ing, st: detail.st }),
+      /* Hands-on time: preparation plus cooking. */
       totalTime: row.prep + row.cook,
-      restTime: detail.rest ? detail.rest[0] : 0,
-      restLabel: detail.rest ? detail.rest[1] : '',
-      /* Start to finish, waiting included — what the schema and the page promise. */
-      elapsedTime: row.prep + row.cook + (detail.rest ? detail.rest[0] : 0),
+      /* Unattended waiting, read from the method by src/lib/timing.js, as a
+         floor and a ceiling. tools/timing-audit.js keeps the record's declared
+         `rest` equal to the floor. */
+      restTime: wait.min,
+      restMax: wait.max,
+      restLabel: wait.min ? (detail.rest ? detail.rest[1] : waitLabel(detail)) : '',
+      /* Start to finish, waiting included. This is the time everything that
+         promises speed reads — the card, the filters, the title, the search
+         phrases and the Recipe JSON-LD's totalTime (the floor) — because a
+         focaccia that rises overnight is not a 50-minute recipe, however
+         little of that time needs the cook. */
+      elapsedTime: row.prep + row.cook + wait.min,
+      elapsedMax: row.prep + row.cook + wait.max,
       description: detail.d,
       meta: clamp(detail.meta, 158),
       keywords: detail.kw,
@@ -328,16 +341,18 @@ function loadRecipes() {
       storage: detail.store,
       nutrition: detail.nut,
       kp: detail.kp || null,
+      /* Whether the printed figures are what the ingredient list adds up to
+         (tools/nutrition-calc.js, within its tolerances) or an estimate made when
+         the recipe was written. The page says which; it used to say "calculated
+         from the ingredient list" on every recipe, which was true of about half. */
+      nutritionSource: nutritionSource(detail, row.servings),
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
       processData: image.process || null,
-      /* The cuisine is a proper noun and stays capitalised; the category is
-         a common noun and reads better lower case. */
       imageAlt: altText(row, detail, image.hero),
-      processAlt: `Preparing ${row.title}: ingredients and method` +
-        (altKeyword(row, detail) ? ` — ${altKeyword(row, detail)}` : ''),
+      processAlt: `${row.title}, in preparation`,
       published,
-      datePublished: new Date(published).toISOString().slice(0, 10),
+      datePublished,
       /* Filled in below, once the register exists — a recipe's modified date
          is the day its own content last changed, not a build constant. */
       dateModified: null,
@@ -395,12 +410,16 @@ function loadRecipes() {
       why: recipe.why, ingredients: plainList(recipe.ingredients),
       steps: recipe.steps, tips: recipe.tips, pairings: recipe.pairings,
       storage: recipe.storage, nutrition: recipe.nutrition,
-      image: recipe.imageData ? recipe.imageData.file : null
+      image: recipe.imageData ? recipe.imageData.file : null,
+      /* Only present when a label carries a condition, so the fingerprint of
+         every recipe whose labels hold outright is what it was before. */
+      ...(dietNotes(recipe).length ? { diet: dietNotes(recipe) } : {})
     });
     /* A page cannot have been modified before it was published. */
     if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;
   }
   recipes.dates = dates;
+  recipes.publishedDates = publishedDates;
   recipes.rewrites = details.__rewrites || { applied: 0, stale: [], unknown: [] };
 
   return recipes;
@@ -441,11 +460,12 @@ function buildContext(recipes) {
   for (const tag of DIET_TAGS) tagCounts[tag] = recipes.filter(r => r.tags.includes(tag)).length;
 
   const timeCounts = {};
-  for (const t of [15, 30, 45, 60, 120]) timeCounts[t] = recipes.filter(r => r.totalTime <= t).length;
+  for (const t of [15, 30, 45, 60, 120]) timeCounts[t] = recipes.filter(r => r.elapsedTime <= t).length;
 
   return {
     recipes,
     dates: recipes.dates,
+    publishedDates: recipes.publishedDates,
     criticalCss,
     categoryCounts,
     cuisineCounts,
@@ -470,7 +490,11 @@ function searchIndex(recipes) {
     n: r.category,                               // category
     f: r.tags,                                   // dietary flags
     d: r.difficulty,
-    m: r.totalTime,
+    /* Start to finish, waiting included: the time filter and the "quickest"
+       sort used hands-on minutes, so an overnight focaccia sat among the
+       thirty-minute dinners. */
+    m: r.elapsedTime,
+    x: r.restTime ? r.elapsedMax : undefined,
     p: r.prep,
     o: r.cook,
     v: r.servings,
@@ -609,41 +633,45 @@ ${chunks.map(c => `  <sitemap>\n    <loc>${SITE.origin}${SITE.base}${c.name}</lo
   return { index, chunks };
 }
 
+/* The query parameters the recipe directory filters on. Each one is a client-side
+   view of /recipes/ or /search/, never a page of its own. */
+const FILTER_PARAMS = ['q', 'sort', 'tag', 'time', 'cuisine', 'category', 'difficulty'];
+
+/**
+ * robots.txt, as one rule set.
+ *
+ * It used to give Googlebot and Googlebot-Image groups of their own ("Allow: /"),
+ * and a crawler obeys only the most specific group that names it, so Google
+ * ignored every Disallow written for "*": the filtered directory views were open
+ * to it and closed to everyone else. Each filter was also written "?tag=" only,
+ * which misses the same parameter after an ampersand ("?cuisine=Thai&tag=Vegan").
+ *
+ * What it no longer does is list /src/ and /tools/. robots.txt is a request to
+ * well-behaved crawlers, not access control, and naming private paths in a public
+ * file only points at them. The server refuses those paths instead (.htaccess),
+ * and pages that should stay out of the index say noindex, which a crawler can
+ * only read if it is allowed to fetch them. tools/robots-check.js holds the
+ * outcomes this is meant to produce.
+ */
 function robots() {
+  const filters = FILTER_PARAMS.flatMap(p => [`Disallow: /*?${p}=`, `Disallow: /*&${p}=`]).join('\n');
+  const rules = `${filters}
+# The contact form's endpoint answers POST only.
+Disallow: /contact/send.php`;
   return `# Weekly Delight — ${SITE.origin}${SITE.base}
+#
+# One group for every crawler, so that no crawler named in a group of its own
+# loses these rules. Filtered views of the recipe directory are client-side and
+# duplicate the canonical listing.
 User-agent: *
-Allow: /
+${rules}
 
-# Filtered directory views duplicate the canonical listing
-Disallow: /*?q=
-Disallow: /*?sort=
-Disallow: /*?tag=
-Disallow: /*?time=
-Disallow: /*?cuisine=
-Disallow: /*?category=
-Disallow: /*?difficulty=
-
-# Personal, device-local pages have nothing to index
-Disallow: /favourites/
-
-# The site is generated into the repository root, so the project's own
-# directories sit alongside it. Nothing there is worth crawling.
-Disallow: /src/
-Disallow: /tools/
-
-User-agent: Googlebot
-Allow: /
-Allow: /assets/img/
-
-User-agent: Googlebot-Image
-Allow: /assets/img/
-
-# Be polite to smaller crawlers
+# The same rules, slower, for two crawlers that fetch a great deal. A crawler
+# obeys only its own group, so the rules are repeated rather than inherited.
 User-agent: AhrefsBot
-Crawl-delay: 10
-
 User-agent: SemrushBot
 Crawl-delay: 10
+${rules}
 
 Sitemap: ${SITE.origin}${SITE.base}sitemap-index.xml
 `;
@@ -820,12 +848,12 @@ function build() {
     heading: `All ${recipes.length} recipes`,
     eyebrow: 'The full directory',
     intro: 'Every recipe on Weekly Delight, filterable by category, cuisine, dietary need, difficulty and total time. Listed in a suggested order, which the sort menu changes.',
-    description: `Browse all ${recipes.length} tested recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and cooking time. Free and no sign-up.`,
+    description: `Browse all ${recipes.length} recipes on Weekly Delight. Filter by cuisine, category, dietary needs, difficulty and total cooking time. Free, with no sign-up.`,
     keywords: ['all recipes', 'recipe directory', 'browse recipes', 'recipe filter',
                'recipe index', 'full recipe list', 'browse by cuisine', 'browse by category',
                'filter recipes by diet', 'vegetarian recipes', 'vegan recipes',
                'gluten free recipes', 'quick recipes', 'easy recipes', 'dinner ideas',
-               'what to cook tonight', 'tested recipes', 'recipes with photos',
+               'what to cook tonight', 'recipes with photos',
                'sort recipes by cooking time', 'find a recipe'],
     path: 'recipes/',
     trail: [{ name: 'Recipes' }],
@@ -839,7 +867,7 @@ function build() {
     heading: 'Search Weekly Delight',
     eyebrow: 'Find a recipe',
     intro: 'Search by dish, ingredient, cuisine or technique. Results update as you type and can be narrowed with the filters.',
-    description: `Search ${recipes.length} tested recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet. No sign-up needed.`,
+    description: `Search ${recipes.length} recipes by dish, ingredient, cuisine or technique. Instant results with filters for time, difficulty and diet. No sign-up needed.`,
     keywords: ['recipe search', 'find recipes by ingredient', 'search recipes',
                'search by ingredient', 'what can i cook with', 'recipe finder',
                'ingredient search', 'leftover ingredient recipes', 'cook with what i have',
@@ -901,6 +929,10 @@ function build() {
   writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
   writePage('contact/success/index.html', pages.contactSuccess(ctx));
+  writePage('contact/not-sent/index.html', pages.contactNotSent(ctx));
+  /* The form's endpoint, the one server-side file on the site. Its settings,
+     including where messages go, live outside the public directory. */
+  fs.copyFileSync(path.join(SRC, 'server', 'contact-send.php'), path.join(OUT, 'contact', 'send.php'));
   writePage('404.html', pages.notFound(ctx));
 
   const subHubs = recipes.subcategoryHubs;
@@ -911,12 +943,12 @@ function build() {
     writePage(`categories/${slug(name)}/index.html`, pages.taxonomyPage(ctx, {
       recipes: list,
       title: `${categoryNoun(name)} Recipes`,
-      titleHooks: [`— ${list.length} Tested`],
+      titleHooks: [`— ${list.length} Dishes`],
       heading: `${name} recipes`,
       eyebrow: 'Category',
-      intro: `${CATEGORIES[name]} ${plural(list.length, 'tested recipe')}, in a suggested order.`,
+      intro: `${CATEGORIES[name]} ${plural(list.length, 'recipe')}, in a suggested order.`,
       description: enrichDescription(
-        `${plural(list.length, 'tested ' + categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
+        `${plural(list.length, categoryNoun(name).toLowerCase() + ' recipe')} on Weekly Delight. ${CATEGORIES[name]}`,
         ['Filter by cuisine, diet, difficulty and time.', ...TAIL_CLAUSES]),
       keywords: keywordsForCategory(name, list),
       path: `categories/${slug(name)}/`,
@@ -939,13 +971,13 @@ function build() {
     writePage(`${hub.path}index.html`, pages.taxonomyPage(ctx, {
       recipes: hub.recipes,
       title: `${hub.cuisine} ${noun} Recipes`,
-      titleHooks: [`— ${hub.recipes.length} Tested`],
+      titleHooks: [`— ${hub.recipes.length} Dishes`],
       heading: `${hub.cuisine} ${noun.toLowerCase()} recipes`,
       eyebrow: `${hub.category} · ${hub.cuisine}`,
-      intro: `${plural(hub.recipes.length, 'tested ' + hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')}, in a suggested order. ` +
+      intro: `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')}, in a suggested order. ` +
         `Part of our ${hub.category.toLowerCase()} recipes and our ${hub.cuisine} cooking.`,
       description: enrichDescription(
-        `${plural(hub.recipes.length, 'tested ' + hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')} on Weekly Delight.`,
+        `${plural(hub.recipes.length, hub.cuisine + ' ' + noun.toLowerCase() + ' recipe')} on Weekly Delight.`,
         [`${CATEGORIES[hub.category]}`, ...TAIL_CLAUSES]),
       keywords: keywordsForCategory(hub.category, hub.recipes).map(k => `${hub.cuisine.toLowerCase()} ${k}`),
       path: hub.path,
@@ -974,12 +1006,12 @@ function build() {
     writePage(`cuisines/${slug(name)}/index.html`, pages.taxonomyPage(ctx, {
       recipes: list,
       title: `${name} Recipes`,
-      titleHooks: [`— ${list.length} Tested Dishes`, `— ${list.length} Tested`],
+      titleHooks: [`— ${list.length} Dishes`],
       heading: `${name} recipes`,
       eyebrow: `${meta.flag} Cuisine`,
-      intro: `${meta.blurb} ${plural(list.length, 'tested ' + name + ' recipe')}, from the everyday to the ambitious.`,
+      intro: `${meta.blurb} ${plural(list.length, name + ' recipe')}, from the everyday to the ambitious.`,
       description: enrichDescription(
-        `${plural(list.length, 'tested ' + name + ' recipe')} on Weekly Delight. ${meta.blurb}`,
+        `${plural(list.length, name + ' recipe')} on Weekly Delight. ${meta.blurb}`,
         [`Authentic ${name} cooking explained step by step.`,
          'With nutrition, timings and make-ahead notes.', ...TAIL_CLAUSES]),
       keywords: keywordsForCuisine(name, list),
@@ -1026,6 +1058,7 @@ function build() {
   /* Written after the sitemap, which is what asks for the dates. Committed, so
      the next build on any machine agrees about what changed and when. */
   const dateChanges = ctx.dates.save();
+  ctx.publishedDates.save();
 
   /* The one-slot document that repeat native banner placements are framed
      from. Written only when there is a unit to put in it. */

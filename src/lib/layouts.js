@@ -20,7 +20,8 @@
  * What stays fixed, because other things depend on it:
  *   - the ingredients card, the at-a-glance box and the share box (the aside)
  *   - id="method" on the method heading (the "Method" button jumps to it)
- *   - id="faq" and id="why-title", and exactly one of each per page
+ *   - id="faq" and id="why-title", at most one of each per page (the FAQ is
+ *     left out when src/lib/faq.js has nothing to ask)
  *   - the recipe's name in the method heading, since "how to make X" is what
  *     most people type
  *   - the reviews, byline and related-recipes blocks after the prose
@@ -206,7 +207,7 @@ function markdown() {
   lines.push('');
   lines.push('`why` is `panel` (tinted box, drop cap), `plain` (ordinary section) or `lead` (no heading, the text just runs on). `tips` is `list`, `numbered` or `notes` (each tip a short paragraph). `serve` is `list` or `line` (suggestions on one line).');
   lines.push('');
-  lines.push('Fixed in every layout: `id="method"` on the method heading, `id="faq"`, `id="why-title"` when there is a why heading, the recipe name in the method heading, and the ingredients card.');
+  lines.push('Fixed in every layout: `id="method"` on the method heading, `id="why-title"` when there is a why heading, the recipe name in the method heading, and the ingredients card. The FAQ section (`id="faq"`) appears only where `src/lib/faq.js` has something to ask that the page does not already say in one place (the waiting, and the sauce questions on carbonara, alfredo and cacio e pepe); a heading over one restated fact is filler, so most recipes have none.');
   return lines.join('\n');
 }
 

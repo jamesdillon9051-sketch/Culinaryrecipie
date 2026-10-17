@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://weeklydelight.com/recipes/roasted-red-pepper-pasta/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/recipes/roasted-garlic/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -9,7 +15,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-garlic.jpg</image:loc>
       <image:title>Roasted Garlic</image:title>
-      <image:caption>Roasted Garlic, an Italian appetizer recipe — how to roast garlic</image:caption>
+      <image:caption>Roasted Garlic</image:caption>
     </image:image>
   </url>
   <url>
@@ -20,14 +26,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-brussels-sprouts.jpg</image:loc>
       <image:title>Roasted Brussels Sprouts</image:title>
-      <image:caption>Roasted Brussels Sprouts, an American dinner recipe — brussels sprouts with parmesan</image:caption>
+      <image:caption>Roasted Brussels Sprouts</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-beets/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-beets.jpg</image:loc>
+      <image:title>Roasted Beets</image:title>
+      <image:caption>Roasted Beets</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-corn/</loc>
@@ -37,20 +48,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/roasted-corn.jpg</image:loc>
       <image:title>Roasted Corn</image:title>
-      <image:caption>Roasted Corn, an American dinner recipe</image:caption>
+      <image:caption>Roasted Corn</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-beef-sandwich/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-beef-sandwich.jpg</image:loc>
+      <image:title>Roast Beef Sandwich</image:title>
+      <image:caption>Roast Beef Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roast-chicken-sandwich/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/roast-chicken-sandwich.jpg</image:loc>
+      <image:title>Roast Chicken Sandwich</image:title>
+      <image:caption>Roast Chicken Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/turkey-sandwich/</loc>
@@ -60,7 +81,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/turkey-sandwich.jpg</image:loc>
       <image:title>Turkey Sandwich</image:title>
-      <image:caption>Turkey Sandwich, an American lunch recipe — turkey and cranberry sandwich</image:caption>
+      <image:caption>Turkey Sandwich</image:caption>
     </image:image>
   </url>
   <url>
@@ -71,7 +92,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/banana-sandwich.jpg</image:loc>
       <image:title>Banana Sandwich</image:title>
-      <image:caption>Banana Sandwich, an American lunch recipe — banana and honey sandwich</image:caption>
+      <image:caption>Banana Sandwich</image:caption>
     </image:image>
   </url>
   <url>
@@ -82,7 +103,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cucumber-sandwich.jpg</image:loc>
       <image:title>Cucumber Sandwich</image:title>
-      <image:caption>Cucumber Sandwich, a British lunch recipe — cucumber tea sandwiches</image:caption>
+      <image:caption>Cucumber Sandwich</image:caption>
     </image:image>
   </url>
   <url>
@@ -93,14 +114,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/avocado-sandwich.jpg</image:loc>
       <image:title>Avocado Sandwich</image:title>
-      <image:caption>Avocado Sandwich, an Australian lunch recipe — avocado and tomato sandwich</image:caption>
+      <image:caption>Avocado Sandwich</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-mayo-sandwich/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-mayo-sandwich.jpg</image:loc>
+      <image:title>Chicken Mayo Sandwich</image:title>
+      <image:caption>Chicken Mayo Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pastrami-sandwich/</loc>
@@ -110,7 +136,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pastrami-sandwich.jpg</image:loc>
       <image:title>Pastrami Sandwich</image:title>
-      <image:caption>Pastrami Sandwich, an American lunch recipe — pastrami on rye</image:caption>
+      <image:caption>Pastrami Sandwich</image:caption>
     </image:image>
   </url>
   <url>
@@ -127,7 +153,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/hoagie.jpg</image:loc>
       <image:title>Hoagie</image:title>
-      <image:caption>Hoagie, an American lunch recipe</image:caption>
+      <image:caption>Hoagie</image:caption>
     </image:image>
   </url>
   <url>
@@ -138,7 +164,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/panini.jpg</image:loc>
       <image:title>Panini</image:title>
-      <image:caption>Panini, an Italian lunch recipe</image:caption>
+      <image:caption>Panini</image:caption>
     </image:image>
   </url>
   <url>
@@ -161,7 +187,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/marmite-on-toast.jpg</image:loc>
       <image:title>Marmite on Toast</image:title>
-      <image:caption>Marmite on Toast, a British breakfast recipe — marmite and butter on toast</image:caption>
+      <image:caption>Marmite on Toast</image:caption>
     </image:image>
   </url>
   <url>
@@ -184,7 +210,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/sticky-date-cake.jpg</image:loc>
       <image:title>Sticky Date Cake</image:title>
-      <image:caption>Sticky Date Cake, an Australian baking recipe — sticky date pudding cake</image:caption>
+      <image:caption>Sticky Date Cake</image:caption>
     </image:image>
   </url>
   <url>
@@ -195,7 +221,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/passionfruit-slice.jpg</image:loc>
       <image:title>Passionfruit Slice</image:title>
-      <image:caption>Passionfruit Slice, an Australian dessert recipe — passionfruit and condensed milk slice</image:caption>
+      <image:caption>Passionfruit Slice</image:caption>
     </image:image>
   </url>
   <url>
@@ -206,7 +232,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/shortbread-fingers.jpg</image:loc>
       <image:title>Shortbread Fingers</image:title>
-      <image:caption>Shortbread Fingers, a Scottish baking recipe</image:caption>
+      <image:caption>Shortbread Fingers</image:caption>
     </image:image>
   </url>
   <url>
@@ -217,14 +243,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/apple-pie-with-custard.jpg</image:loc>
       <image:title>Apple Pie with Custard</image:title>
-      <image:caption>Apple Pie with Custard, a British dessert recipe — english apple pie and custard</image:caption>
+      <image:caption>Apple Pie with Custard</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maple-pecan-tart/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/maple-pecan-tart.jpg</image:loc>
+      <image:title>Maple Pecan Tart</image:title>
+      <image:caption>Maple Pecan Tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gingerbread-men/</loc>
@@ -234,7 +265,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/gingerbread-men.jpg</image:loc>
       <image:title>Gingerbread Men</image:title>
-      <image:caption>Gingerbread Men, a British baking recipe</image:caption>
+      <image:caption>Gingerbread Men</image:caption>
     </image:image>
   </url>
   <url>
@@ -245,7 +276,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/scones-with-jam-and-cream.jpg</image:loc>
       <image:title>Scones with Jam and Cream</image:title>
-      <image:caption>Scones with Jam and Cream, a British baking recipe — classic english scones</image:caption>
+      <image:caption>Scones with Jam and Cream</image:caption>
     </image:image>
   </url>
   <url>
@@ -256,9 +287,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/plum-crumble/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/plum-crumble.jpg</image:loc>
+      <image:title>Plum Crumble</image:title>
+      <image:caption>Plum Crumble</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweetcorn-chowder/</loc>
@@ -286,7 +322,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pappa-al-pomodoro.jpg</image:loc>
       <image:title>Pappa al Pomodoro</image:title>
-      <image:caption>Pappa al Pomodoro, an Italian lunch recipe — tuscan tomato and bread soup</image:caption>
+      <image:caption>Pappa al Pomodoro</image:caption>
     </image:image>
   </url>
   <url>
@@ -303,7 +339,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-souffle.jpg</image:loc>
       <image:title>Cheese Souffle</image:title>
-      <image:caption>Cheese Souffle, a French dinner recipe</image:caption>
+      <image:caption>Cheese Souffle</image:caption>
     </image:image>
   </url>
   <url>
@@ -320,7 +356,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/masala-omelette.jpg</image:loc>
       <image:title>Masala Omelette</image:title>
-      <image:caption>Masala Omelette, an Indian breakfast recipe — spicy indian omelette</image:caption>
+      <image:caption>Masala Omelette</image:caption>
     </image:image>
   </url>
   <url>
@@ -343,7 +379,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/fried-bread.jpg</image:loc>
       <image:title>Fried Bread</image:title>
-      <image:caption>Fried Bread, a British breakfast recipe</image:caption>
+      <image:caption>Fried Bread</image:caption>
     </image:image>
   </url>
   <url>
@@ -354,14 +390,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/katsu-sando.jpg</image:loc>
       <image:title>Katsu Sando</image:title>
-      <image:caption>Katsu Sando, a Japanese lunch recipe — japanese katsu sandwich</image:caption>
+      <image:caption>Katsu Sando</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-udon/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-udon.jpg</image:loc>
+      <image:title>Beef Udon</image:title>
+      <image:caption>Beef Udon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tempura-prawns/</loc>
@@ -371,20 +412,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/tempura-prawns.jpg</image:loc>
       <image:title>Tempura Prawns</image:title>
-      <image:caption>Tempura Prawns, a Japanese appetizer recipe</image:caption>
+      <image:caption>Tempura Prawns</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-teriyaki/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/salmon-teriyaki.jpg</image:loc>
+      <image:title>Salmon Teriyaki</image:title>
+      <image:caption>Salmon Teriyaki</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/miso-glazed-salmon/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/miso-glazed-salmon.jpg</image:loc>
+      <image:title>Miso Glazed Salmon</image:title>
+      <image:caption>Miso Glazed Salmon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chirashi-bowl/</loc>
@@ -400,7 +451,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/drunken-noodles.jpg</image:loc>
       <image:title>Drunken Noodles</image:title>
-      <image:caption>Drunken Noodles, a quick Thai meal recipe — pad kee mao</image:caption>
+      <image:caption>Drunken Noodles</image:caption>
     </image:image>
   </url>
   <url>
@@ -411,7 +462,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/vietnamese-caramel-pork.jpg</image:loc>
       <image:title>Vietnamese Caramel Pork</image:title>
-      <image:caption>Vietnamese Caramel Pork, a Vietnamese dinner recipe — caramelised pork belly</image:caption>
+      <image:caption>Vietnamese Caramel Pork</image:caption>
     </image:image>
   </url>
   <url>
@@ -422,14 +473,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/mee-goreng.jpg</image:loc>
       <image:title>Mee Goreng</image:title>
-      <image:caption>Mee Goreng, a quick Malaysian meal recipe — fried noodles malaysian</image:caption>
+      <image:caption>Mee Goreng</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steamed-fish-with-ginger/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steamed-fish-with-ginger.jpg</image:loc>
+      <image:title>Steamed Fish with Ginger</image:title>
+      <image:caption>Steamed Fish with Ginger</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-madras/</loc>
@@ -439,9 +495,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-tikka-skewers/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-tikka-skewers.jpg</image:loc>
+      <image:title>Chicken Tikka Skewers</image:title>
+      <image:caption>Chicken Tikka Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-enchiladas/</loc>
@@ -451,7 +512,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-enchiladas.jpg</image:loc>
       <image:title>Cheese Enchiladas</image:title>
-      <image:caption>Cheese Enchiladas, a Mexican dinner recipe</image:caption>
+      <image:caption>Cheese Enchiladas</image:caption>
     </image:image>
   </url>
   <url>
@@ -462,7 +523,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/roti-with-chicken-curry.jpg</image:loc>
       <image:title>Roti with Chicken Curry</image:title>
-      <image:caption>Roti with Chicken Curry, a Caribbean dinner recipe — caribbean chicken curry roti</image:caption>
+      <image:caption>Roti with Chicken Curry</image:caption>
     </image:image>
   </url>
   <url>
@@ -473,14 +534,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/kebab-wraps.jpg</image:loc>
       <image:title>Kebab Wraps</image:title>
-      <image:caption>Kebab Wraps, a Middle Eastern dinner recipe</image:caption>
+      <image:caption>Kebab Wraps</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chorizo-and-potatoes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chorizo-and-potatoes.jpg</image:loc>
+      <image:title>Chorizo and Potatoes</image:title>
+      <image:caption>Chorizo and Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/salmon-fish-cakes/</loc>
@@ -490,9 +556,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheeseburger-casserole/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cheeseburger-casserole.jpg</image:loc>
+      <image:title>Cheeseburger Casserole</image:title>
+      <image:caption>Cheeseburger Casserole</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/enchilada-casserole/</loc>
@@ -526,9 +597,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-chicken-sandwich/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-chicken-sandwich.jpg</image:loc>
+      <image:title>Fried Chicken Sandwich</image:title>
+      <image:caption>Fried Chicken Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mediterranean-bowl/</loc>
@@ -538,9 +614,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/coconut-chicken/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/coconut-chicken.jpg</image:loc>
+      <image:title>Coconut Chicken</image:title>
+      <image:caption>Coconut Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hawaiian-chicken/</loc>
@@ -580,32 +661,52 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-mac-and-cheese.jpg</image:loc>
       <image:title>Bacon Mac and Cheese</image:title>
-      <image:caption>Bacon Mac and Cheese, an American dinner recipe — mac and cheese with bacon</image:caption>
+      <image:caption>Bacon Mac and Cheese</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-kebabs/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-kebabs.jpg</image:loc>
+      <image:title>Beef Kebabs</image:title>
+      <image:caption>Beef Kebabs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-stew.jpg</image:loc>
+      <image:title>Lamb Stew</image:title>
+      <image:caption>Lamb Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lamb-meatballs/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lamb-meatballs.jpg</image:loc>
+      <image:title>Lamb Meatballs</image:title>
+      <image:caption>Lamb Meatballs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-butter-salmon/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-butter-salmon.jpg</image:loc>
+      <image:title>Lemon Butter Salmon</image:title>
+      <image:caption>Lemon Butter Salmon</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cajun-salmon/</loc>
@@ -633,14 +734,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-curry.jpg</image:loc>
       <image:title>Prawn Curry</image:title>
-      <image:caption>Prawn Curry, an Indian dinner recipe</image:caption>
+      <image:caption>Prawn Curry</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-linguine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-linguine.jpg</image:loc>
+      <image:title>Prawn Linguine</image:title>
+      <image:caption>Prawn Linguine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mussels-marinara/</loc>
@@ -656,14 +762,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/seafood-paella.jpg</image:loc>
       <image:title>Seafood Paella</image:title>
-      <image:caption>Seafood Paella, a Spanish dinner recipe — paella with prawns and mussels</image:caption>
+      <image:caption>Seafood Paella</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-curry/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-curry.jpg</image:loc>
+      <image:title>Vegetable Curry</image:title>
+      <image:caption>Vegetable Curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-lasagna/</loc>
@@ -715,7 +826,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/slow-roasted-pork-shoulder.jpg</image:loc>
       <image:title>Slow Roasted Pork Shoulder</image:title>
-      <image:caption>Slow Roasted Pork Shoulder, a British dinner recipe — roast pork shoulder</image:caption>
+      <image:caption>Slow Roasted Pork Shoulder</image:caption>
     </image:image>
   </url>
   <url>
@@ -732,15 +843,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crispy-pork-belly-bites/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crispy-pork-belly-bites.jpg</image:loc>
+      <image:title>Crispy Pork Belly Bites</image:title>
+      <image:caption>Crispy Pork Belly Bites</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-and-potato-skillet/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/steak-and-potato-skillet.jpg</image:loc>
+      <image:title>Steak and Potato Skillet</image:title>
+      <image:caption>Steak and Potato Skillet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-beef-pitas/</loc>
@@ -768,9 +889,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-garlic-shrimp-pasta/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-garlic-shrimp-pasta.jpg</image:loc>
+      <image:title>Lemon Garlic Shrimp Pasta</image:title>
+      <image:caption>Lemon Garlic Shrimp Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-chilli-prawns/</loc>
@@ -792,9 +918,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-chicken-and-rice/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/one-pan-chicken-and-rice.jpg</image:loc>
+      <image:title>One Pan Chicken and Rice</image:title>
+      <image:caption>One Pan Chicken and Rice</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/one-pan-sausage-and-potatoes/</loc>
@@ -816,7 +947,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/one-pot-jambalaya.jpg</image:loc>
       <image:title>One Pot Jambalaya</image:title>
-      <image:caption>One Pot Jambalaya, an American dinner recipe — chicken and sausage jambalaya</image:caption>
+      <image:caption>One Pot Jambalaya</image:caption>
     </image:image>
   </url>
   <url>
@@ -851,7 +982,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/white-pizza.jpg</image:loc>
       <image:title>White Pizza</image:title>
-      <image:caption>White Pizza, an Italian dinner recipe — pizza bianca with garlic</image:caption>
+      <image:caption>White Pizza</image:caption>
     </image:image>
   </url>
   <url>
@@ -862,7 +993,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/sausage-and-broccoli-rabe-pasta.jpg</image:loc>
       <image:title>Sausage and Broccoli Rabe Pasta</image:title>
-      <image:caption>Sausage and Broccoli Rabe Pasta, an Italian dinner recipe — orecchiette with sausage and broccoli rabe</image:caption>
+      <image:caption>Sausage and Broccoli Rabe Pasta</image:caption>
     </image:image>
   </url>
   <url>
@@ -885,9 +1016,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tahini-chicken/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tahini-chicken.jpg</image:loc>
+      <image:title>Tahini Chicken</image:title>
+      <image:caption>Tahini Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/zaatar-chicken/</loc>
@@ -903,9 +1039,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/moroccan-chickpea-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/moroccan-chickpea-stew.jpg</image:loc>
+      <image:title>Moroccan Chickpea Stew</image:title>
+      <image:caption>Moroccan Chickpea Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chermoula-fish/</loc>
@@ -945,9 +1086,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/italian-sausage-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/italian-sausage-soup.jpg</image:loc>
+      <image:title>Italian Sausage Soup</image:title>
+      <image:caption>Italian Sausage Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tuscan-white-bean-salad/</loc>
@@ -999,15 +1145,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-with-mushroom-sauce/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-with-mushroom-sauce.jpg</image:loc>
+      <image:title>Chicken with Mushroom Sauce</image:title>
+      <image:caption>Chicken with Mushroom Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-thighs-with-potatoes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-thighs-with-potatoes.jpg</image:loc>
+      <image:title>Chicken Thighs with Potatoes</image:title>
+      <image:caption>Chicken Thighs with Potatoes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brown-sugar-glazed-ham-steaks/</loc>
@@ -1023,9 +1179,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-pasta/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-pasta.jpg</image:loc>
+      <image:title>Lemon Pasta</image:title>
+      <image:caption>Lemon Pasta</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/veggie-pizza/</loc>
@@ -1035,7 +1196,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/veggie-pizza.jpg</image:loc>
       <image:title>Veggie Pizza</image:title>
-      <image:caption>Veggie Pizza, an American dinner recipe — vegetarian pizza with peppers and mushrooms</image:caption>
+      <image:caption>Veggie Pizza</image:caption>
     </image:image>
   </url>
   <url>
@@ -1052,32 +1213,52 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/beef-meatballs.jpg</image:loc>
       <image:title>Beef Meatballs</image:title>
-      <image:caption>Beef Meatballs, an American dinner recipe</image:caption>
+      <image:caption>Beef Meatballs</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/crab-linguine/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/crab-linguine.jpg</image:loc>
+      <image:title>Crab Linguine</image:title>
+      <image:caption>Crab Linguine</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-avocado-wrap/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-avocado-wrap.jpg</image:loc>
+      <image:title>Chicken and Avocado Wrap</image:title>
+      <image:caption>Chicken and Avocado Wrap</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-and-goat-cheese-salad/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beetroot-and-goat-cheese-salad.jpg</image:loc>
+      <image:title>Beetroot and Goat Cheese Salad</image:title>
+      <image:caption>Beetroot and Goat Cheese Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pear-and-walnut-salad/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/pear-and-walnut-salad.jpg</image:loc>
+      <image:title>Pear and Walnut Salad</image:title>
+      <image:caption>Pear and Walnut Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/steak-and-cheese-pasty/</loc>
@@ -1087,9 +1268,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chicken-and-chorizo-pie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-and-chorizo-pie.jpg</image:loc>
+      <image:title>Chicken and Chorizo Pie</image:title>
+      <image:caption>Chicken and Chorizo Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pork-and-apple-pie/</loc>
@@ -1111,24 +1297,24 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-tart/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/tomato-tart.jpg</image:loc>
       <image:title>Tomato Tart</image:title>
-      <image:caption>Tomato Tart, a French lunch recipe — tomato and mustard tart</image:caption>
+      <image:caption>Tomato Tart</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/onion-tart/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/onion-tart.jpg</image:loc>
       <image:title>Onion Tart</image:title>
-      <image:caption>Onion Tart, a French lunch recipe — onion and thyme tart</image:caption>
+      <image:caption>Onion Tart</image:caption>
     </image:image>
   </url>
   <url>
@@ -1139,9 +1325,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/asparagus-tart/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/asparagus-tart.jpg</image:loc>
+      <image:title>Asparagus Tart</image:title>
+      <image:caption>Asparagus Tart</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mushroom-tart/</loc>
@@ -1157,7 +1348,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/mini-quiches.jpg</image:loc>
       <image:title>Mini Quiches</image:title>
-      <image:caption>Mini Quiches, a French appetizer recipe — ham and cheese mini quiche</image:caption>
+      <image:caption>Mini Quiches</image:caption>
     </image:image>
   </url>
   <url>
@@ -1168,9 +1359,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halloumi-burgers/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halloumi-burgers.jpg</image:loc>
+      <image:title>Halloumi Burgers</image:title>
+      <image:caption>Halloumi Burgers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/welsh-cheese-and-leek-pie/</loc>
@@ -1180,9 +1376,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/game-pie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/game-pie.jpg</image:loc>
+      <image:title>Game Pie</image:title>
+      <image:caption>Game Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-pasties/</loc>
@@ -1204,9 +1405,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potato-cakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potato-cakes.jpg</image:loc>
+      <image:title>Potato Cakes</image:title>
+      <image:caption>Potato Cakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spaghetti-toasties/</loc>
@@ -1216,9 +1422,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tomato-soup-with-grilled-cheese/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/tomato-soup-with-grilled-cheese.jpg</image:loc>
+      <image:title>Tomato Soup with Grilled Cheese</image:title>
+      <image:caption>Tomato Soup with Grilled Cheese</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cheese-and-ham-croissant/</loc>
@@ -1228,20 +1439,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-and-ham-croissant.jpg</image:loc>
       <image:title>Cheese and Ham Croissant</image:title>
-      <image:caption>Cheese and Ham Croissant, a French breakfast recipe — ham and cheese croissant</image:caption>
+      <image:caption>Cheese and Ham Croissant</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/almond-croissant/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/almond-croissant.jpg</image:loc>
+      <image:title>Almond Croissant</image:title>
+      <image:caption>Almond Croissant</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cream-cheese-danish/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cream-cheese-danish.jpg</image:loc>
+      <image:title>Cream Cheese Danish</image:title>
+      <image:caption>Cream Cheese Danish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-danish/</loc>
@@ -1263,14 +1484,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/fruit-scones.jpg</image:loc>
       <image:title>Fruit Scones</image:title>
-      <image:caption>Fruit Scones, a British baking recipe</image:caption>
+      <image:caption>Fruit Scones</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/herb-focaccia/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herb-focaccia.jpg</image:loc>
+      <image:title>Herb Focaccia</image:title>
+      <image:caption>Herb Focaccia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-pull-apart-bread/</loc>
@@ -1292,7 +1518,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pizza-pull-apart.jpg</image:loc>
       <image:title>Pizza Pull Apart</image:title>
-      <image:caption>Pizza Pull Apart, an American appetizer recipe — pepperoni pull apart</image:caption>
+      <image:caption>Pizza Pull Apart</image:caption>
     </image:image>
   </url>
   <url>
@@ -1303,7 +1529,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pretzel-bites.jpg</image:loc>
       <image:title>Pretzel Bites</image:title>
-      <image:caption>Pretzel Bites, an American appetizer recipe</image:caption>
+      <image:caption>Pretzel Bites</image:caption>
     </image:image>
   </url>
   <url>
@@ -1326,14 +1552,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/teriyaki-wings.jpg</image:loc>
       <image:title>Teriyaki Wings</image:title>
-      <image:caption>Teriyaki Wings, an American appetizer recipe — easy teriyaki chicken wings</image:caption>
+      <image:caption>Teriyaki Wings</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-parmesan-chicken-wings/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/garlic-parmesan-chicken-wings.jpg</image:loc>
+      <image:title>Garlic Parmesan Chicken Wings</image:title>
+      <image:caption>Garlic Parmesan Chicken Wings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-honey-chicken/</loc>
@@ -1355,26 +1586,41 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/apple-muffins.jpg</image:loc>
       <image:title>Apple Muffins</image:title>
-      <image:caption>Apple Muffins, an American baking recipe — apple cinnamon muffins</image:caption>
+      <image:caption>Apple Muffins</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/berry-muffins/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/berry-muffins.jpg</image:loc>
+      <image:title>Berry Muffins</image:title>
+      <image:caption>Berry Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carrot-muffins/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carrot-muffins.jpg</image:loc>
+      <image:title>Carrot Muffins</image:title>
+      <image:caption>Carrot Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/raspberry-muffins/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/raspberry-muffins.jpg</image:loc>
+      <image:title>Raspberry Muffins</image:title>
+      <image:caption>Raspberry Muffins</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peach-muffins/</loc>
@@ -1384,14 +1630,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/peach-muffins.jpg</image:loc>
       <image:title>Peach Muffins</image:title>
-      <image:caption>Peach Muffins, an American baking recipe — peach and vanilla muffins</image:caption>
+      <image:caption>Peach Muffins</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/carrot-cake-cupcakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/carrot-cake-cupcakes.jpg</image:loc>
+      <image:title>Carrot Cake Cupcakes</image:title>
+      <image:caption>Carrot Cake Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-cupcakes/</loc>
@@ -1401,14 +1652,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-cupcakes.jpg</image:loc>
       <image:title>Lemon Cupcakes</image:title>
-      <image:caption>Lemon Cupcakes, an American baking recipe — light lemon sponge cupcakes</image:caption>
+      <image:caption>Lemon Cupcakes</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cookies-and-cream-cupcakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cookies-and-cream-cupcakes.jpg</image:loc>
+      <image:title>Cookies and Cream Cupcakes</image:title>
+      <image:caption>Cookies and Cream Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/tea-loaf/</loc>
@@ -1418,7 +1674,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/tea-loaf.jpg</image:loc>
       <image:title>Tea Loaf</image:title>
-      <image:caption>Tea Loaf, a British baking recipe — tea soaked fruit loaf</image:caption>
+      <image:caption>Tea Loaf</image:caption>
     </image:image>
   </url>
   <url>
@@ -1429,50 +1685,85 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cherry-cake.jpg</image:loc>
       <image:title>Cherry Cake</image:title>
-      <image:caption>Cherry Cake, a British baking recipe — cherry and almond cake</image:caption>
+      <image:caption>Cherry Cake</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/passionfruit-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/passionfruit-cake.jpg</image:loc>
+      <image:title>Passionfruit Cake</image:title>
+      <image:caption>Passionfruit Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/raspberry-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/raspberry-cake.jpg</image:loc>
+      <image:title>Raspberry Cake</image:title>
+      <image:caption>Raspberry Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-cake.jpg</image:loc>
+      <image:title>Mango Cake</image:title>
+      <image:caption>Mango Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fig-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fig-cake.jpg</image:loc>
+      <image:title>Fig Cake</image:title>
+      <image:caption>Fig Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/honey-cake.jpg</image:loc>
+      <image:title>Honey Cake</image:title>
+      <image:caption>Honey Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/italian-lemon-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/italian-lemon-cake.jpg</image:loc>
+      <image:title>Italian Lemon Cake</image:title>
+      <image:caption>Italian Lemon Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/german-apple-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/german-apple-cake.jpg</image:loc>
+      <image:title>German Apple Cake</image:title>
+      <image:caption>German Apple Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gingerbread-cake/</loc>
@@ -1494,7 +1785,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-peanut-butter-cake.jpg</image:loc>
       <image:title>Chocolate Peanut Butter Cake</image:title>
-      <image:caption>Chocolate Peanut Butter Cake, an American baking recipe — chocolate cake with peanut butter frosting</image:caption>
+      <image:caption>Chocolate Peanut Butter Cake</image:caption>
     </image:image>
   </url>
   <url>
@@ -1529,7 +1820,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-cheesecake.jpg</image:loc>
       <image:title>Lemon Cheesecake</image:title>
-      <image:caption>Lemon Cheesecake, an American dessert recipe — lemon cream cheese cheesecake</image:caption>
+      <image:caption>Lemon Cheesecake</image:caption>
     </image:image>
   </url>
   <url>
@@ -1540,7 +1831,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-cheesecake.jpg</image:loc>
       <image:title>Strawberry Cheesecake</image:title>
-      <image:caption>Strawberry Cheesecake, an American dessert recipe — strawberry topped cheesecake</image:caption>
+      <image:caption>Strawberry Cheesecake</image:caption>
     </image:image>
   </url>
   <url>
@@ -1551,7 +1842,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-cheesecake.jpg</image:loc>
       <image:title>Chocolate Cheesecake</image:title>
-      <image:caption>Chocolate Cheesecake, an American dessert recipe</image:caption>
+      <image:caption>Chocolate Cheesecake</image:caption>
     </image:image>
   </url>
   <url>
@@ -1562,20 +1853,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/caramel-cheesecake.jpg</image:loc>
       <image:title>Caramel Cheesecake</image:title>
-      <image:caption>Caramel Cheesecake, an American dessert recipe — caramel swirl cheesecake</image:caption>
+      <image:caption>Caramel Cheesecake</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blueberry-cheesecake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/blueberry-cheesecake.jpg</image:loc>
+      <image:title>Blueberry Cheesecake</image:title>
+      <image:caption>Blueberry Cheesecake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/blueberry-cobbler/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/blueberry-cobbler.jpg</image:loc>
+      <image:title>Blueberry Cobbler</image:title>
+      <image:caption>Blueberry Cobbler</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caramel-apples/</loc>
@@ -1585,7 +1886,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/caramel-apples.jpg</image:loc>
       <image:title>Caramel Apples</image:title>
-      <image:caption>Caramel Apples, an American dessert recipe — toffee apples with caramel</image:caption>
+      <image:caption>Caramel Apples</image:caption>
     </image:image>
   </url>
   <url>
@@ -1608,7 +1909,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/caramel-slice-bars.jpg</image:loc>
       <image:title>Caramel Slice Bars</image:title>
-      <image:caption>Caramel Slice Bars, an Australian dessert recipe — australian caramel slice</image:caption>
+      <image:caption>Caramel Slice Bars</image:caption>
     </image:image>
   </url>
   <url>
@@ -1625,15 +1926,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/double-chocolate-cookies/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/double-chocolate-cookies.jpg</image:loc>
+      <image:title>Double Chocolate Cookies</image:title>
+      <image:caption>Double Chocolate Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-cookies/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-cookies.jpg</image:loc>
+      <image:title>Lemon Cookies</image:title>
+      <image:caption>Lemon Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pistachio-shortbread/</loc>
@@ -1649,7 +1960,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/jammy-dodgers.jpg</image:loc>
       <image:title>Jammy Dodgers</image:title>
-      <image:caption>Jammy Dodgers, a British baking recipe — jam sandwich biscuits</image:caption>
+      <image:caption>Jammy Dodgers</image:caption>
     </image:image>
   </url>
   <url>
@@ -1660,7 +1971,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/oat-biscuits.jpg</image:loc>
       <image:title>Oat Biscuits</image:title>
-      <image:caption>Oat Biscuits, a British baking recipe</image:caption>
+      <image:caption>Oat Biscuits</image:caption>
     </image:image>
   </url>
   <url>
@@ -1671,14 +1982,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/meringues.jpg</image:loc>
       <image:title>Meringues</image:title>
-      <image:caption>Meringues, a French dessert recipe</image:caption>
+      <image:caption>Meringues</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/soft-boiled-eggs/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/soft-boiled-eggs.jpg</image:loc>
+      <image:title>Soft Boiled Eggs</image:title>
+      <image:caption>Soft Boiled Eggs</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-smoothie/</loc>
@@ -1694,21 +2010,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/biltong/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/biltong.jpg</image:loc>
+      <image:title>Biltong</image:title>
+      <image:caption>Biltong</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bacon-wrapped-dates/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-wrapped-dates.jpg</image:loc>
+      <image:title>Bacon Wrapped Dates</image:title>
+      <image:caption>Bacon Wrapped Dates</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/potatoes-au-gratin/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/potatoes-au-gratin.jpg</image:loc>
+      <image:title>Potatoes Au Gratin</image:title>
+      <image:caption>Potatoes Au Gratin</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/duchess-potatoes/</loc>
@@ -1718,7 +2049,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/duchess-potatoes.jpg</image:loc>
       <image:title>Duchess Potatoes</image:title>
-      <image:caption>Duchess Potatoes, a French dinner recipe — baked duchess potato rosettes</image:caption>
+      <image:caption>Duchess Potatoes</image:caption>
     </image:image>
   </url>
   <url>
@@ -1729,9 +2060,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mashed-cauliflower/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mashed-cauliflower.jpg</image:loc>
+      <image:title>Mashed Cauliflower</image:title>
+      <image:caption>Mashed Cauliflower</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ratatouille-bake/</loc>
@@ -1747,9 +2083,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-quiche/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-quiche.jpg</image:loc>
+      <image:title>Ham and Cheese Quiche</image:title>
+      <image:caption>Ham and Cheese Quiche</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cinnamon-roll-pancakes/</loc>
@@ -1765,7 +2106,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/savoury-waffles.jpg</image:loc>
       <image:title>Savoury Waffles</image:title>
-      <image:caption>Savoury Waffles, an American breakfast recipe — cheese and chive waffles</image:caption>
+      <image:caption>Savoury Waffles</image:caption>
     </image:image>
   </url>
   <url>
@@ -1782,7 +2123,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-french-toast.jpg</image:loc>
       <image:title>Stuffed French Toast</image:title>
-      <image:caption>Stuffed French Toast, an American breakfast recipe — filled french toast</image:caption>
+      <image:caption>Stuffed French Toast</image:caption>
     </image:image>
   </url>
   <url>
@@ -1799,7 +2140,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/breakfast-tacos.jpg</image:loc>
       <image:title>Breakfast Tacos</image:title>
-      <image:caption>Breakfast Tacos, a Mexican breakfast recipe — scrambled egg tacos</image:caption>
+      <image:caption>Breakfast Tacos</image:caption>
     </image:image>
   </url>
   <url>
@@ -1810,7 +2151,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/bacon-egg-and-cheese-muffin.jpg</image:loc>
       <image:title>Bacon Egg and Cheese Muffin</image:title>
-      <image:caption>Bacon Egg and Cheese Muffin, an American breakfast recipe — bacon egg and cheese english muffin</image:caption>
+      <image:caption>Bacon Egg and Cheese Muffin</image:caption>
     </image:image>
   </url>
   <url>
@@ -1827,14 +2168,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/smashed-avocado-on-sourdough.jpg</image:loc>
       <image:title>Smashed Avocado on Sourdough</image:title>
-      <image:caption>Smashed Avocado on Sourdough, an Australian breakfast recipe — smashed avocado on toast</image:caption>
+      <image:caption>Smashed Avocado on Sourdough</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ricotta-toast-with-honey/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ricotta-toast-with-honey.jpg</image:loc>
+      <image:title>Ricotta Toast with Honey</image:title>
+      <image:caption>Ricotta Toast with Honey</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/full-irish-breakfast/</loc>
@@ -1850,7 +2196,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/full-scottish-breakfast.jpg</image:loc>
       <image:title>Full Scottish Breakfast</image:title>
-      <image:caption>Full Scottish Breakfast, a Scottish breakfast recipe — scottish fry up</image:caption>
+      <image:caption>Full Scottish Breakfast</image:caption>
     </image:image>
   </url>
   <url>
@@ -1903,9 +2249,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/christmas-punch/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/christmas-punch.jpg</image:loc>
+      <image:title>Christmas Punch</image:title>
+      <image:caption>Christmas Punch</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cinderella-mocktail/</loc>
@@ -1957,7 +2308,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/gingerbread-latte.jpg</image:loc>
       <image:title>Gingerbread Latte</image:title>
-      <image:caption>Gingerbread Latte, an American drink recipe — gingerbread spiced latte</image:caption>
+      <image:caption>Gingerbread Latte</image:caption>
     </image:image>
   </url>
   <url>
@@ -1968,7 +2319,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/green-juice.jpg</image:loc>
       <image:title>Green Juice</image:title>
-      <image:caption>Green Juice, an American drink recipe</image:caption>
+      <image:caption>Green Juice</image:caption>
     </image:image>
   </url>
   <url>
@@ -1979,15 +2330,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hot-apple-cider/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hot-apple-cider.jpg</image:loc>
+      <image:title>Hot Apple Cider</image:title>
+      <image:caption>Hot Apple Cider</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-ginger-tea/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-ginger-tea.jpg</image:loc>
+      <image:title>Lemon Ginger Tea</image:title>
+      <image:caption>Lemon Ginger Tea</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lime-cordial/</loc>
@@ -2003,7 +2364,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/limeade.jpg</image:loc>
       <image:title>Limeade</image:title>
-      <image:caption>Limeade, an American drink recipe — lime juice drink</image:caption>
+      <image:caption>Limeade</image:caption>
     </image:image>
   </url>
   <url>
@@ -2014,7 +2375,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/oreo-milkshake.jpg</image:loc>
       <image:title>Oreo Milkshake</image:title>
-      <image:caption>Oreo Milkshake, an American drink recipe — cookies and cream milkshake</image:caption>
+      <image:caption>Oreo Milkshake</image:caption>
     </image:image>
   </url>
   <url>
@@ -2031,9 +2392,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peppermint-hot-chocolate/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/peppermint-hot-chocolate.jpg</image:loc>
+      <image:title>Peppermint Hot Chocolate</image:title>
+      <image:caption>Peppermint Hot Chocolate</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pineapple-mocktail/</loc>
@@ -2073,14 +2439,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/salted-lassi.jpg</image:loc>
       <image:title>Salted Lassi</image:title>
-      <image:caption>Salted Lassi, an Indian drink recipe — savoury yoghurt drink</image:caption>
+      <image:caption>Salted Lassi</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spinach-pineapple-smoothie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spinach-pineapple-smoothie.jpg</image:loc>
+      <image:title>Spinach Pineapple Smoothie</image:title>
+      <image:caption>Spinach Pineapple Smoothie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/strawberry-lassi/</loc>
@@ -2090,7 +2461,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-lassi.jpg</image:loc>
       <image:title>Strawberry Lassi</image:title>
-      <image:caption>Strawberry Lassi, an Indian drink recipe — strawberry yoghurt lassi</image:caption>
+      <image:caption>Strawberry Lassi</image:caption>
     </image:image>
   </url>
   <url>
@@ -2101,12 +2472,12 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-milkshake.jpg</image:loc>
       <image:title>Strawberry Milkshake</image:title>
-      <image:caption>Strawberry Milkshake, an American drink recipe — strawberry ice cream shake</image:caption>
+      <image:caption>Strawberry Milkshake</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sun-tea/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2118,7 +2489,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-tea.jpg</image:loc>
       <image:title>Sweet Tea</image:title>
-      <image:caption>Sweet Tea, an American drink recipe — sweet iced tea</image:caption>
+      <image:caption>Sweet Tea</image:caption>
     </image:image>
   </url>
   <url>
@@ -2135,7 +2506,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/white-hot-chocolate.jpg</image:loc>
       <image:title>White Hot Chocolate</image:title>
-      <image:caption>White Hot Chocolate, an American drink recipe — white chocolate hot chocolate</image:caption>
+      <image:caption>White Hot Chocolate</image:caption>
     </image:image>
   </url>
   <url>
@@ -2152,7 +2523,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-milk.jpg</image:loc>
       <image:title>Chocolate Milk</image:title>
-      <image:caption>Chocolate Milk, an American drink recipe</image:caption>
+      <image:caption>Chocolate Milk</image:caption>
     </image:image>
   </url>
   <url>
@@ -2163,9 +2534,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/herb-roasted-turkey/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/herb-roasted-turkey.jpg</image:loc>
+      <image:title>Herb Roasted Turkey</image:title>
+      <image:caption>Herb Roasted Turkey</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-glazed-carrots/</loc>
@@ -2175,15 +2551,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/candy-cane-cookies/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/candy-cane-cookies.jpg</image:loc>
+      <image:title>Candy Cane Cookies</image:title>
+      <image:caption>Candy Cane Cookies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/halloween-cupcakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/halloween-cupcakes.jpg</image:loc>
+      <image:title>Halloween Cupcakes</image:title>
+      <image:caption>Halloween Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/heart-shaped-cookies/</loc>
@@ -2193,14 +2579,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/heart-shaped-cookies.jpg</image:loc>
       <image:title>Heart Shaped Cookies</image:title>
-      <image:caption>Heart Shaped Cookies, an American holiday recipe — valentine heart cookies</image:caption>
+      <image:caption>Heart Shaped Cookies</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/red-velvet-cupcakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/red-velvet-cupcakes.jpg</image:loc>
+      <image:title>Red Velvet Cupcakes</image:title>
+      <image:caption>Red Velvet Cupcakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fourth-of-july-berry-trifle/</loc>
@@ -2228,9 +2619,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-relish/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/cranberry-relish.jpg</image:loc>
+      <image:title>Cranberry Relish</image:title>
+      <image:caption>Cranberry Relish</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/cranberry-meatballs/</loc>
@@ -2246,15 +2642,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/bread-pudding-with-whiskey-sauce/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/bread-pudding-with-whiskey-sauce.jpg</image:loc>
+      <image:title>Bread Pudding with Whiskey Sauce</image:title>
+      <image:caption>Bread Pudding with Whiskey Sauce</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/apple-cinnamon-rolls/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/apple-cinnamon-rolls.jpg</image:loc>
+      <image:title>Apple Cinnamon Rolls</image:title>
+      <image:caption>Apple Cinnamon Rolls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-doughnuts/</loc>
@@ -2264,7 +2670,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/baked-doughnuts.jpg</image:loc>
       <image:title>Baked Doughnuts</image:title>
-      <image:caption>Baked Doughnuts, an American baking recipe — cake doughnuts without frying</image:caption>
+      <image:caption>Baked Doughnuts</image:caption>
     </image:image>
   </url>
   <url>
@@ -2275,9 +2681,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banana-walnut-loaf/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/banana-walnut-loaf.jpg</image:loc>
+      <image:title>Banana Walnut Loaf</image:title>
+      <image:caption>Banana Walnut Loaf</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/banoffee-cheesecake/</loc>
@@ -2293,7 +2704,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheddar-bay-biscuits.jpg</image:loc>
       <image:title>Cheddar Bay Biscuits</image:title>
-      <image:caption>Cheddar Bay Biscuits, an American baking recipe — cheddar garlic biscuits</image:caption>
+      <image:caption>Cheddar Bay Biscuits</image:caption>
     </image:image>
   </url>
   <url>
@@ -2310,7 +2721,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cherry-bakewell.jpg</image:loc>
       <image:title>Cherry Bakewell</image:title>
-      <image:caption>Cherry Bakewell, a British baking recipe</image:caption>
+      <image:caption>Cherry Bakewell</image:caption>
     </image:image>
   </url>
   <url>
@@ -2321,14 +2732,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chiffon-cake.jpg</image:loc>
       <image:title>Chiffon Cake</image:title>
-      <image:caption>Chiffon Cake, an American baking recipe</image:caption>
+      <image:caption>Chiffon Cake</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-bark/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-bark.jpg</image:loc>
+      <image:title>Chocolate Bark</image:title>
+      <image:caption>Chocolate Bark</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-beetroot-cake/</loc>
@@ -2338,7 +2754,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-beetroot-cake.jpg</image:loc>
       <image:title>Chocolate Beetroot Cake</image:title>
-      <image:caption>Chocolate Beetroot Cake, a British baking recipe — beetroot chocolate cake</image:caption>
+      <image:caption>Chocolate Beetroot Cake</image:caption>
     </image:image>
   </url>
   <url>
@@ -2349,7 +2765,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-cream-pie.jpg</image:loc>
       <image:title>Chocolate Cream Pie</image:title>
-      <image:caption>Chocolate Cream Pie, an American dessert recipe — chocolate custard pie</image:caption>
+      <image:caption>Chocolate Cream Pie</image:caption>
     </image:image>
   </url>
   <url>
@@ -2360,7 +2776,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-fondue.jpg</image:loc>
       <image:title>Chocolate Fondue</image:title>
-      <image:caption>Chocolate Fondue, a Swiss dessert recipe</image:caption>
+      <image:caption>Chocolate Fondue</image:caption>
     </image:image>
   </url>
   <url>
@@ -2377,9 +2793,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/evaporated-milk-fudge/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/evaporated-milk-fudge.jpg</image:loc>
+      <image:title>Evaporated Milk Fudge</image:title>
+      <image:caption>Evaporated Milk Fudge</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/gingersnaps/</loc>
@@ -2389,15 +2810,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/hazelnut-chocolate-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/hazelnut-chocolate-cake.jpg</image:loc>
+      <image:title>Hazelnut Chocolate Cake</image:title>
+      <image:caption>Hazelnut Chocolate Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-butter-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-butter-cake.jpg</image:loc>
+      <image:title>Lemon Butter Cake</image:title>
+      <image:caption>Lemon Butter Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/maids-of-honour/</loc>
@@ -2419,7 +2850,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pear-tart.jpg</image:loc>
       <image:title>Pear Tart</image:title>
-      <image:caption>Pear Tart, a French baking recipe — pear and almond tart</image:caption>
+      <image:caption>Pear Tart</image:caption>
     </image:image>
   </url>
   <url>
@@ -2430,14 +2861,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pistachio-cake.jpg</image:loc>
       <image:title>Pistachio Cake</image:title>
-      <image:caption>Pistachio Cake, a Middle Eastern baking recipe — pistachio and cardamom cake</image:caption>
+      <image:caption>Pistachio Cake</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/plum-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/plum-cake.jpg</image:loc>
+      <image:title>Plum Cake</image:title>
+      <image:caption>Plum Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/pumpkin-brownies/</loc>
@@ -2447,7 +2883,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pumpkin-brownies.jpg</image:loc>
       <image:title>Pumpkin Brownies</image:title>
-      <image:caption>Pumpkin Brownies, an American baking recipe — pumpkin spice brownies</image:caption>
+      <image:caption>Pumpkin Brownies</image:caption>
     </image:image>
   </url>
   <url>
@@ -2464,20 +2900,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/rhubarb-muffins.jpg</image:loc>
       <image:title>Rhubarb Muffins</image:title>
-      <image:caption>Rhubarb Muffins, an American baking recipe</image:caption>
+      <image:caption>Rhubarb Muffins</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/seed-cake/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/seed-cake.jpg</image:loc>
+      <image:title>Seed Cake</image:title>
+      <image:caption>Seed Cake</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sponge-roll/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sponge-roll.jpg</image:loc>
+      <image:title>Sponge Roll</image:title>
+      <image:caption>Sponge Roll</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/treacle-scones/</loc>
@@ -2499,20 +2945,30 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-cream-roll.jpg</image:loc>
       <image:title>Strawberry Cream Roll</image:title>
-      <image:caption>Strawberry Cream Roll, an American dessert recipe — strawberry roll cake</image:caption>
+      <image:caption>Strawberry Cream Roll</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/strawberry-ice-cream/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/strawberry-ice-cream.jpg</image:loc>
+      <image:title>Strawberry Ice Cream</image:title>
+      <image:caption>Strawberry Ice Cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chocolate-ice-cream/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chocolate-ice-cream.jpg</image:loc>
+      <image:title>Chocolate Ice Cream</image:title>
+      <image:caption>Chocolate Ice Cream</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-sorbet/</loc>
@@ -2534,9 +2990,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/traybake-brownies/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/traybake-brownies.jpg</image:loc>
+      <image:title>Traybake Brownies</image:title>
+      <image:caption>Traybake Brownies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegan-brownies/</loc>
@@ -2546,7 +3007,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/vegan-brownies.jpg</image:loc>
       <image:title>Vegan Brownies</image:title>
-      <image:caption>Vegan Brownies, an American baking recipe — egg free dairy free brownies</image:caption>
+      <image:caption>Vegan Brownies</image:caption>
     </image:image>
   </url>
   <url>
@@ -2575,7 +3036,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/zucchini-chocolate-cake.jpg</image:loc>
       <image:title>Zucchini Chocolate Cake</image:title>
-      <image:caption>Zucchini Chocolate Cake, an American baking recipe — chocolate zucchini cake</image:caption>
+      <image:caption>Zucchini Chocolate Cake</image:caption>
     </image:image>
   </url>
   <url>
@@ -2586,7 +3047,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/avocado-brownies.jpg</image:loc>
       <image:title>Avocado Brownies</image:title>
-      <image:caption>Avocado Brownies, an American baking recipe — brownies made with avocado</image:caption>
+      <image:caption>Avocado Brownies</image:caption>
     </image:image>
   </url>
   <url>
@@ -2621,9 +3082,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/choux-buns/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/choux-buns.jpg</image:loc>
+      <image:title>Choux Buns</image:title>
+      <image:caption>Choux Buns</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/rye-bread/</loc>
@@ -2633,7 +3099,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/rye-bread.jpg</image:loc>
       <image:title>Rye Bread</image:title>
-      <image:caption>Rye Bread, a German baking recipe — rye and white flour bread</image:caption>
+      <image:caption>Rye Bread</image:caption>
     </image:image>
   </url>
   <url>
@@ -2644,7 +3110,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/no-knead-bread.jpg</image:loc>
       <image:title>No Knead Bread</image:title>
-      <image:caption>No Knead Bread, an American baking recipe</image:caption>
+      <image:caption>No Knead Bread</image:caption>
     </image:image>
   </url>
   <url>
@@ -2673,7 +3139,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/blueberry-jam.jpg</image:loc>
       <image:title>Blueberry Jam</image:title>
-      <image:caption>Blueberry Jam, an American baking recipe</image:caption>
+      <image:caption>Blueberry Jam</image:caption>
     </image:image>
   </url>
   <url>
@@ -2714,15 +3180,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/date-balls/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/date-balls.jpg</image:loc>
+      <image:title>Date Balls</image:title>
+      <image:caption>Date Balls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/protein-balls/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/protein-balls.jpg</image:loc>
+      <image:title>Protein Balls</image:title>
+      <image:caption>Protein Balls</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/peanut-butter-energy-bites/</loc>
@@ -2732,9 +3208,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spiced-nuts/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spiced-nuts.jpg</image:loc>
+      <image:title>Spiced Nuts</image:title>
+      <image:caption>Spiced Nuts</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/trail-mix/</loc>
@@ -2744,7 +3225,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/trail-mix.jpg</image:loc>
       <image:title>Trail Mix</image:title>
-      <image:caption>Trail Mix, a healthy American recipe</image:caption>
+      <image:caption>Trail Mix</image:caption>
     </image:image>
   </url>
   <url>
@@ -2755,14 +3236,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheese-popcorn.jpg</image:loc>
       <image:title>Cheese Popcorn</image:title>
-      <image:caption>Cheese Popcorn, an American appetizer recipe — garlic parmesan popcorn</image:caption>
+      <image:caption>Cheese Popcorn</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-chips/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/sweet-potato-chips.jpg</image:loc>
+      <image:title>Sweet Potato Chips</image:title>
+      <image:caption>Sweet Potato Chips</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beetroot-dip/</loc>
@@ -2778,7 +3264,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/beetroot-hummus.jpg</image:loc>
       <image:title>Beetroot Hummus</image:title>
-      <image:caption>Beetroot Hummus, a Middle Eastern appetizer recipe — beetroot and tahini hummus</image:caption>
+      <image:caption>Beetroot Hummus</image:caption>
     </image:image>
   </url>
   <url>
@@ -2789,7 +3275,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/edamame-hummus.jpg</image:loc>
       <image:title>Edamame Hummus</image:title>
-      <image:caption>Edamame Hummus, an American appetizer recipe — edamame and tahini dip</image:caption>
+      <image:caption>Edamame Hummus</image:caption>
     </image:image>
   </url>
   <url>
@@ -2824,9 +3310,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-salsa/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mango-salsa.jpg</image:loc>
+      <image:title>Mango Salsa</image:title>
+      <image:caption>Mango Salsa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/roasted-tomato-salsa/</loc>
@@ -2842,9 +3333,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/caprese-skewers/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/caprese-skewers.jpg</image:loc>
+      <image:title>Caprese Skewers</image:title>
+      <image:caption>Caprese Skewers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prosciutto-wrapped-asparagus/</loc>
@@ -2860,26 +3356,41 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/prosciutto-and-melon.jpg</image:loc>
       <image:title>Prosciutto and Melon</image:title>
-      <image:caption>Prosciutto and Melon, an Italian appetizer recipe — prosciutto e melone</image:caption>
+      <image:caption>Prosciutto and Melon</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/puff-pastry-pinwheels/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/puff-pastry-pinwheels.jpg</image:loc>
+      <image:title>Puff Pastry Pinwheels</image:title>
+      <image:caption>Puff Pastry Pinwheels</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-dates/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/stuffed-dates.jpg</image:loc>
+      <image:title>Stuffed Dates</image:title>
+      <image:caption>Stuffed Dates</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/spring-onion-pancakes/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/spring-onion-pancakes.jpg</image:loc>
+      <image:title>Spring Onion Pancakes</image:title>
+      <image:caption>Spring Onion Pancakes</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/smoked-salmon-blinis/</loc>
@@ -2889,9 +3400,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/fried-wontons/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/fried-wontons.jpg</image:loc>
+      <image:title>Fried Wontons</image:title>
+      <image:caption>Fried Wontons</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/taquitos/</loc>
@@ -2901,9 +3417,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mini-pizzas/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/mini-pizzas.jpg</image:loc>
+      <image:title>Mini Pizzas</image:title>
+      <image:caption>Mini Pizzas</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mac-and-cheese-cups/</loc>
@@ -2913,7 +3434,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/mac-and-cheese-cups.jpg</image:loc>
       <image:title>Mac and Cheese Cups</image:title>
-      <image:caption>Mac and Cheese Cups, an American appetizer recipe — macaroni and cheese muffin cups</image:caption>
+      <image:caption>Mac and Cheese Cups</image:caption>
     </image:image>
   </url>
   <url>
@@ -2930,7 +3451,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/beet-salad-with-orange.jpg</image:loc>
       <image:title>Beet Salad with Orange</image:title>
-      <image:caption>Beet Salad with Orange, a healthy American recipe — beetroot and orange salad</image:caption>
+      <image:caption>Beet Salad with Orange</image:caption>
     </image:image>
   </url>
   <url>
@@ -2947,9 +3468,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/massaged-kale-salad/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/massaged-kale-salad.jpg</image:loc>
+      <image:title>Massaged Kale Salad</image:title>
+      <image:caption>Massaged Kale Salad</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/mango-salad/</loc>
@@ -2959,7 +3485,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/mango-salad.jpg</image:loc>
       <image:title>Mango Salad</image:title>
-      <image:caption>Mango Salad, a healthy Thai recipe</image:caption>
+      <image:caption>Mango Salad</image:caption>
     </image:image>
   </url>
   <url>
@@ -3012,9 +3538,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/quinoa-salad-with-roasted-vegetables/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/quinoa-salad-with-roasted-vegetables.jpg</image:loc>
+      <image:title>Quinoa Salad with Roasted Vegetables</image:title>
+      <image:caption>Quinoa Salad with Roasted Vegetables</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/sweet-potato-buddha-bowl/</loc>
@@ -3030,15 +3561,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/korean-beef-bowl/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/korean-beef-bowl.jpg</image:loc>
+      <image:title>Korean Beef Bowl</image:title>
+      <image:caption>Korean Beef Bowl</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/celery-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/celery-soup.jpg</image:loc>
+      <image:title>Celery Soup</image:title>
+      <image:caption>Celery Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-vegetable-soup/</loc>
@@ -3054,7 +3595,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/curry-noodle-soup.jpg</image:loc>
       <image:title>Curry Noodle Soup</image:title>
-      <image:caption>Curry Noodle Soup, a Malaysian dinner recipe — curry mee style soup</image:caption>
+      <image:caption>Curry Noodle Soup</image:caption>
     </image:image>
   </url>
   <url>
@@ -3065,21 +3606,36 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/chickpea-and-spinach-stew/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/chickpea-and-spinach-stew.jpg</image:loc>
+      <image:title>Chickpea and Spinach Stew</image:title>
+      <image:caption>Chickpea and Spinach Stew</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/slow-cooker-chickpea-curry/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/slow-cooker-chickpea-curry.jpg</image:loc>
+      <image:title>Slow Cooker Chickpea Curry</image:title>
+      <image:caption>Slow Cooker Chickpea Curry</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-korma/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-korma.jpg</image:loc>
+      <image:title>Vegetable Korma</image:title>
+      <image:caption>Vegetable Korma</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/vegetable-pilau/</loc>
@@ -3095,7 +3651,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/mujaddara.jpg</image:loc>
       <image:title>Mujaddara</image:title>
-      <image:caption>Mujaddara, a Middle Eastern dinner recipe — lentils and rice with crispy onions</image:caption>
+      <image:caption>Mujaddara</image:caption>
     </image:image>
   </url>
   <url>
@@ -3106,14 +3662,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/pea-risotto.jpg</image:loc>
       <image:title>Pea Risotto</image:title>
-      <image:caption>Pea Risotto, an Italian dinner recipe — pea and parmesan risotto</image:caption>
+      <image:caption>Pea Risotto</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/lemon-risotto/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/lemon-risotto.jpg</image:loc>
+      <image:title>Lemon Risotto</image:title>
+      <image:caption>Lemon Risotto</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/stuffed-butternut-squash/</loc>
@@ -3129,7 +3690,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/vegetable-lasagne.jpg</image:loc>
       <image:title>Vegetable Lasagne</image:title>
-      <image:caption>Vegetable Lasagne, an Italian dinner recipe — lasagne with white sauce and vegetables</image:caption>
+      <image:caption>Vegetable Lasagne</image:caption>
     </image:image>
   </url>
   <url>
@@ -3164,7 +3725,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/buffalo-cauliflower.jpg</image:loc>
       <image:title>Buffalo Cauliflower</image:title>
-      <image:caption>Buffalo Cauliflower, an American appetizer recipe</image:caption>
+      <image:caption>Buffalo Cauliflower</image:caption>
     </image:image>
   </url>
   <url>
@@ -3193,9 +3754,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/prawn-noodle-soup/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/prawn-noodle-soup.jpg</image:loc>
+      <image:title>Prawn Noodle Soup</image:title>
+      <image:caption>Prawn Noodle Soup</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/almond-crusted-chicken/</loc>
@@ -3211,15 +3777,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/baked-salmon-with-asparagus/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/baked-salmon-with-asparagus.jpg</image:loc>
+      <image:title>Baked Salmon with Asparagus</image:title>
+      <image:caption>Baked Salmon with Asparagus</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-brisket-sandwich/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-brisket-sandwich.jpg</image:loc>
+      <image:title>Beef Brisket Sandwich</image:title>
+      <image:caption>Beef Brisket Sandwich</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-noodle-stir-fry/</loc>
@@ -3235,15 +3811,25 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-shawarma/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-shawarma.jpg</image:loc>
+      <image:title>Beef Shawarma</image:title>
+      <image:caption>Beef Shawarma</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-mushroom-pie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-mushroom-pie.jpg</image:loc>
+      <image:title>Beef and Mushroom Pie</image:title>
+      <image:caption>Beef and Mushroom Pie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/beef-and-onion-pie/</loc>
@@ -3253,7 +3839,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/beef-and-onion-pie.jpg</image:loc>
       <image:title>Beef and Onion Pie</image:title>
-      <image:caption>Beef and Onion Pie, a British dinner recipe</image:caption>
+      <image:caption>Beef and Onion Pie</image:caption>
     </image:image>
   </url>
   <url>
@@ -3264,7 +3850,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/blackened-catfish.jpg</image:loc>
       <image:title>Blackened Catfish</image:title>
-      <image:caption>Blackened Catfish, an American dinner recipe</image:caption>
+      <image:caption>Blackened Catfish</image:caption>
     </image:image>
   </url>
   <url>
@@ -3275,7 +3861,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/boneless-wings.jpg</image:loc>
       <image:title>Boneless Wings</image:title>
-      <image:caption>Boneless Wings, an American appetizer recipe — boneless buffalo wings</image:caption>
+      <image:caption>Boneless Wings</image:caption>
     </image:image>
   </url>
   <url>
@@ -3286,14 +3872,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/boulangere-potatoes.jpg</image:loc>
       <image:title>Boulangere Potatoes</image:title>
-      <image:caption>Boulangere Potatoes, a French dinner recipe — sliced potatoes baked in stock</image:caption>
+      <image:caption>Boulangere Potatoes</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/brisket-tacos/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/brisket-tacos.jpg</image:loc>
+      <image:title>Brisket Tacos</image:title>
+      <image:caption>Brisket Tacos</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/broccoli-pasta-bake/</loc>
@@ -3333,7 +3924,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cheesy-pasta-bake.jpg</image:loc>
       <image:title>Cheesy Pasta Bake</image:title>
-      <image:caption>Cheesy Pasta Bake, a British dinner recipe — cheese and tomato pasta bake</image:caption>
+      <image:caption>Cheesy Pasta Bake</image:caption>
     </image:image>
   </url>
   <url>
@@ -3356,7 +3947,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-stroganoff.jpg</image:loc>
       <image:title>Chicken Stroganoff</image:title>
-      <image:caption>Chicken Stroganoff, a Russian dinner recipe — chicken and mushroom stroganoff</image:caption>
+      <image:caption>Chicken Stroganoff</image:caption>
     </image:image>
   </url>
   <url>
@@ -3367,7 +3958,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/chicken-vindaloo.jpg</image:loc>
       <image:title>Chicken Vindaloo</image:title>
-      <image:caption>Chicken Vindaloo, an Indian dinner recipe</image:caption>
+      <image:caption>Chicken Vindaloo</image:caption>
     </image:image>
   </url>
   <url>
@@ -3396,7 +3987,7 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/cornflake-chicken.jpg</image:loc>
       <image:title>Cornflake Chicken</image:title>
-      <image:caption>Cornflake Chicken, an American dinner recipe — cornflake crusted chicken</image:caption>
+      <image:caption>Cornflake Chicken</image:caption>
     </image:image>
   </url>
   <url>
@@ -3425,14 +4016,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/filipino-spaghetti.jpg</image:loc>
       <image:title>Filipino Spaghetti</image:title>
-      <image:caption>Filipino Spaghetti, a Filipino dinner recipe — filipino style spaghetti</image:caption>
+      <image:caption>Filipino Spaghetti</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/focaccia-pizza/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/focaccia-pizza.jpg</image:loc>
+      <image:title>Focaccia Pizza</image:title>
+      <image:caption>Focaccia Pizza</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/garlic-butter-pasta/</loc>
@@ -3448,9 +4044,14 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/greek-lemon-chicken/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/greek-lemon-chicken.jpg</image:loc>
+      <image:title>Greek Lemon Chicken</image:title>
+      <image:caption>Greek Lemon Chicken</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/harissa-roasted-carrots/</loc>
@@ -3466,14 +4067,19 @@
     <image:image>
       <image:loc>https://weeklydelight.com/assets/img/recipes/healthy-chicken-stir-fry.jpg</image:loc>
       <image:title>Healthy Chicken Stir Fry</image:title>
-      <image:caption>Healthy Chicken Stir Fry, a healthy Chinese recipe — light chicken stir fry</image:caption>
+      <image:caption>Healthy Chicken Stir Fry</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/ham-and-cheese-toastie/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/ham-and-cheese-toastie.jpg</image:loc>
+      <image:title>Ham and Cheese Toastie</image:title>
+      <image:caption>Ham and Cheese Toastie</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/honey-soy-salmon/</loc>
@@ -3489,7 +4095,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/jacket-potato-with-cheese/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3513,6 +4119,29 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/recipes/linguine-with-clams/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://weeklydelight.com/assets/img/recipes/linguine-with-clams.jpg</image:loc>
+      <image:title>Linguine with Clams</image:title>
+      <image:caption>Linguine with Clams</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/minted-peas/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mornay-sauce/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weeklydelight.com/recipes/mussels-with-chorizo/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

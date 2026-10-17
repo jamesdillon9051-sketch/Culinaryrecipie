@@ -1,4 +1,5 @@
 'use strict';
+const { humanWait } = require('./util');
 
 /**
  * Title and description assembly, sized to what a search result actually shows.
@@ -80,7 +81,6 @@ const TAIL_CLAUSES = [
   'Step-by-step method, nutrition and storage notes.',
   'Full method, nutrition and tips.',
   'Every one with full nutrition.',
-  'Tested and explained.',
   'With nutrition.'
 ];
 
@@ -91,8 +91,16 @@ const TAIL_CLAUSES = [
  * carry, and it is only offered when the row supports it. "Easy" is the same
  * claim the keyword generator gates on the difficulty column.
  */
+/* Start to finish, waiting included. A title or snippet that says "in 30
+   Minutes" or "Ready in 50 minutes" over a dough that rises overnight is the
+   claim a reader is most likely to act on and find false, so every time this
+   file prints comes from the elapsed figure, never from hands-on time alone. */
+const elapsed = recipe => recipe.elapsedTime != null
+  ? recipe.elapsedTime
+  : (recipe.prep || 0) + (recipe.cook || 0) + (recipe.restTime || 0);
+
 function recipeTitleHooks(recipe) {
-  const total = (recipe.prep || 0) + (recipe.cook || 0);
+  const total = elapsed(recipe);
   return [
     total && total <= 30 ? `in ${total} Minutes` : null,
     recipe.difficulty === 'Easy' ? '— Easy' : null,
@@ -108,17 +116,26 @@ function recipeTitleHooks(recipe) {
  * the page holds, which is the page's actual pitch and is true of all of them.
  */
 function recipeDescriptionClauses(recipe) {
-  const total = (recipe.prep || 0) + (recipe.cook || 0);
+  const total = elapsed(recipe);
+  const rest = recipe.restTime || 0;
+  const span = rest && recipe.elapsedMax > total
+    ? `${humanWait(total)} to ${humanWait(recipe.elapsedMax)}` : humanWait(total);
   const kcal = (recipe.nutrition || [])[0];
   const storage = recipe.storage || '';
   /* A hundred and nineteen of the written descriptions already name a time.
      Adding a second one repeats the sentence at best and contradicts it at
      worst — "on the table in 20 minutes. Ready in 30 minutes." */
   const saysTime = /\b\d+[- ]?(?:min|minute|hour)/i.test(recipe.meta || '');
+  /* Only a label that holds as written: "Vegan." in a snippet for a focaccia
+     that is vegan only with sugar in place of the honey would be the claim
+     without its condition. */
   const diet = (recipe.tags || []).find(t =>
-    ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'].includes(t));
+    ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'].includes(t) &&
+    !(recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status !== 'clean'));
   return [
-    total && !saysTime ? `Ready in ${total} minutes.` : null,
+    total && !saysTime
+      ? (rest ? `Takes ${span} start to finish, mostly unattended.` : `Ready in ${total} minutes.`)
+      : null,
     recipe.servings ? `Serves ${recipe.servings}.` : null,
     kcal ? `${kcal} calories a serving.` : null,
     diet && !new RegExp(diet.replace('-', '[- ]'), 'i').test(recipe.meta || '')

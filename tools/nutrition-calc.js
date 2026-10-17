@@ -284,7 +284,8 @@ function main(argv) {
     const row = bySlug.get(slug);
     const detail = details[slug];
     if (!row || !detail) { console.log(`  ? ${slug}: no such recipe or no details yet`); continue; }
-    const kidney = row.tags.includes('Kidney-Friendly') || has('--kp');
+    /* Potassium and phosphorus are kept up to date wherever a recipe already prints them. */
+    const kidney = Boolean(detail.kp) || has('--kp');
     const computed = computeRecipe(detail.ing, row.servings);
     if (has('--lines')) {
       console.log(`\n${slug}  (${row.servings} servings)`);

@@ -94,9 +94,26 @@
         '<div class="card-foot">' + stars(r.r) +
           '<span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true">' +
           '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' +
-          esc(r.m) + ' min <i>&middot;</i> ' + esc(r.d) + '</span>' +
+          esc(cardTime(r.m, r.x)) + ' <i>&middot;</i> ' + esc(r.d) + '</span>' +
         '</div>' +
       '</div></article>';
+  }
+
+  /* Start-to-finish time for a card, matching compactTime() in
+     src/lib/util.js: minutes under two hours, half hours above, days above
+     two days, and a range where the method gives one. */
+  function cardTime(min, max) {
+    min = Number(min) || 0;
+    var top = max && Number(max) > min ? Number(max) : min;
+    if (!min) return '0 min';
+    if (top < 120) return top > min ? min + '–' + top + ' min' : min + ' min';
+    if (min >= 2880) {
+      var d = function (m) { return Math.round(m / 720) / 2; };
+      return top > min && d(top) !== d(min) ? d(min) + '–' + d(top) + ' days' : d(min) + ' days';
+    }
+    var h = function (m) { return Math.round(m / 30) / 2; };
+    if (min < 60) return min + ' min–' + h(top) + ' hr';
+    return top > min && h(top) !== h(min) ? h(min) + '–' + h(top) + ' hr' : h(min) + ' hr';
   }
 
   function matches(r, favs) {

@@ -71,7 +71,7 @@ function replacements(root) {
   const pages = pageCount(root);
   const recipes = loadRecipes();
   const faqCount = recipes.reduce((n, r) => n + questions(r).length, 0);
-  const perRecipe = (faqCount / recipes.length).toFixed(1);
+  const faqPages = recipes.filter(r => questions(r).length).length;
   const withRest = recipes.filter(r => r.restTime).length;
   const keywordCounts = recipes.map(r => r.keywords.length).sort((a, b) => a - b);
   const medianKeywords = keywordCounts[keywordCounts.length >> 1];
@@ -114,9 +114,9 @@ function replacements(root) {
     [/\*\*Recipe\*\* on all \d[\d,]* recipe pages/,
      `**Recipe** on all ${s.recipeCount} recipe pages`],
 
-    [/\*\*FAQPage\*\* on all \d[\d,]* recipe pages and the about page — [\d,]+ questions,\n\s*about [\d.]+ a recipe/,
-     `**FAQPage** on all ${s.recipeCount} recipe pages and the about page — `
-       + `${faqCount.toLocaleString('en-GB')} questions,\n      about ${perRecipe} a recipe`],
+    [/\*\*FAQPage\*\* on (?:all )?\d[\d,]* recipe pages and the about page — [\d,]+ questions(?:,\n\s*about [\d.]+ a recipe)?/,
+     `**FAQPage** on ${faqPages.toLocaleString('en-GB')} recipe pages and the about page — `
+       + `${faqCount.toLocaleString('en-GB')} questions`],
 
     /* Both keyword figures. They moved every time the generator gained a
        pattern, and the sentence claiming a script checked them was in the

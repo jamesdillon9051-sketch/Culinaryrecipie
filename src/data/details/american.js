@@ -651,8 +651,8 @@ module.exports = {
   },
 
   'eggs-benedict': {
-    d: 'Poached eggs and ham on a toasted muffin under a blanket of hollandaise. The sauce is the whole game, and the blender method makes it nearly foolproof.',
-    meta: 'Eggs Benedict with foolproof blender hollandaise and perfectly poached eggs. The brunch classic, demystified.',
+    d: 'Poached eggs and ham on a toasted muffin under a blanket of hollandaise. The sauce is the whole game, and the blender method makes it much easier to get right.',
+    meta: 'Eggs Benedict with blender hollandaise and soft poached eggs. The brunch classic, demystified.',
     kw: ['eggs benedict recipe', 'hollandaise sauce', 'poached eggs', 'brunch recipe'],
     why: 'Hollandaise is an emulsion of butter in egg yolk, stabilised by lecithin, and it splits when the butter goes in too fast or the mixture exceeds about 65°C. A blender solves both problems: it shears the butter into tiny droplets and the yolks are warmed only by the butter itself, never by direct heat.',
     ing: [

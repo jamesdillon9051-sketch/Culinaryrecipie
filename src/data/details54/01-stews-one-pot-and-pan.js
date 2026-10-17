@@ -123,7 +123,7 @@ module.exports = {
 
   'jerk-chicken-wings': {
     d: 'Chicken wings marinated in a jerk paste of scotch bonnet, allspice, thyme and lime, then baked at 220C until crisp and charred.',
-    meta: 'Jerk chicken wings with scotch bonnet, allspice and thyme, baked for 40 minutes. Four servings, ready in 55 minutes.',
+    meta: 'Jerk chicken wings with scotch bonnet, allspice and thyme, baked for 40 minutes. Four servings, marinated for at least 4 hours first.',
     kw: ['jerk chicken wings', 'jamaican jerk wings', 'oven baked jerk wings', 'spicy jerk chicken wings', 'jerk marinade wings'],
     why: 'Scotch bonnet, allspice, thyme, spring onion, garlic and lime: six ingredients that make up the backbone of Jamaican jerk. The paste is blitzed in a blender until smooth, and what comes out is fiery, fragrant and surprisingly complex, with the warm, clove-like note of allspice coming through the heat.\n\nWear gloves when handling the scotch bonnets, and remove the seeds if you want a gentler heat. The pepper brings fruitiness as well as fire, so even a mild version tastes distinct. Marinate the wings for at least 4 hours, and overnight is better, so the paste works into the meat.\n\n**Dry the wings before they go in the oven.** Wipe off the thick marinade and pat them dry, then toss them with a teaspoon of baking powder. This helps the skin crisp, since the powder raises the pH of the surface and encourages blistering.\n\nBake at 220C on a rack, turning once, until the skin is dark, crisp and charred at the tips. Serve with a wedge of lime and a cooling mix of soured cream and chopped coriander for contrast.',
     ing: [

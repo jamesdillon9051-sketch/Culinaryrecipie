@@ -60,7 +60,7 @@ module.exports = {
   },
 
   'spaghetti-carbonara': {
-    d: 'Real Roman carbonara has no cream in it — just eggs, Pecorino, guanciale and black pepper emulsified into a glossy sauce by the pasta water. Master the off-heat technique here and you will never scramble it again.',
+    d: 'Real Roman carbonara has no cream in it — just eggs, Pecorino, guanciale and black pepper emulsified into a glossy sauce by the pasta water. Taking the pan off the heat before the eggs go in is what keeps them from scrambling.',
     meta: 'Authentic Roman spaghetti carbonara with guanciale, Pecorino and egg yolks. No cream, no scrambling — a silky sauce in 30 minutes.',
     kw: ['spaghetti carbonara recipe', 'authentic carbonara', 'carbonara without cream', 'roman pasta'],
     why: 'Egg yolk proteins set at around 70°C, so the pan must come off the heat before the eggs go in. Starchy pasta water is the insurance policy: its suspended starch molecules physically block the proteins from linking into curds, holding the sauce in a stable emulsion.',
@@ -85,7 +85,7 @@ module.exports = {
       'Serve at once in warmed bowls with more Pecorino and a heavy crack of pepper.'
     ],
     tips: [
-      'If your sauce does scramble, tip everything into a blender with 50 ml of pasta water and blitz — it rescues about eight times out of ten.',
+      'If the eggs start to scramble, lift the pan off the heat at once and toss in another splash of the reserved pasta water. It will not turn fully smooth again, but it stops the curds getting worse; the real cure is keeping the pan off the heat when the eggs go in.',
       'Pancetta is an acceptable substitute; smoked bacon is not, as the smoke bulldozes the Pecorino.',
       'Warm your serving bowls. Cold ceramic drops the sauce temperature fast enough to make it grainy.'
     ],
@@ -176,7 +176,7 @@ module.exports = {
 
   'cacio-e-pepe': {
     d: 'Two ingredients, one technique, endless opportunity to get it wrong. This cacio e pepe recipe uses a Pecorino slurry made off the heat, the trick Roman trattorias rely on to guarantee a creamy sauce instead of a stringy clump.',
-    meta: 'Foolproof cacio e pepe with a Pecorino slurry technique that guarantees a creamy, clump-free Roman sauce in 20 minutes.',
+    meta: 'Cacio e pepe with a Pecorino slurry technique that helps keep the Roman sauce creamy and clump-free. Ready in 20 minutes.',
     kw: ['cacio e pepe recipe', 'roman pasta', 'pecorino pasta', 'two ingredient pasta'],
     why: 'Pecorino Romano is high in casein, which clumps aggressively above 70°C. Making a cool paste with a little pasta water first coats each cheese particle in starch, so it disperses instead of seizing when it meets the hot pasta.',
     ing: [
@@ -574,7 +574,7 @@ module.exports = {
   },
 
   'focaccia': {
-    rest: [750, 'chilling'],
+    rest: [960, 'rising and chilling'],
     d: 'A high-hydration focaccia with a crackling, olive-oil-fried base and a crumb full of irregular holes, dimpled with rosemary and flaky salt. The overnight fridge rise does all the work while you sleep.',
     meta: 'No-knead rosemary focaccia with a crisp olive-oil base and open, airy crumb. An overnight cold rise does the work for you.',
     kw: ['focaccia recipe', 'no knead focaccia', 'italian bread', 'rosemary focaccia'],
@@ -590,7 +590,7 @@ module.exports = {
       '1 tsp flaky sea salt'
     ],
     st: [
-      'Whisk the flour, salt and yeast in a large bowl. Stir the honey into the water, pour it in, and mix with a spatula until no dry flour remains. The dough will be wet and shaggy — this is correct.',
+      'Whisk the flour, salt and yeast in a large bowl. Stir the honey or sugar into the water, pour it in, and mix with a spatula until no dry flour remains. The dough will be wet and shaggy — this is correct.',
       'Cover and leave at room temperature for 30 minutes, then perform four sets of stretch-and-folds 30 minutes apart: wet your hand, lift one side of the dough up and fold it over, rotating the bowl each time.',
       'Cover tightly and refrigerate for 12 to 24 hours. The dough will roughly double and fill with bubbles.',
       'Pour 40 ml of the olive oil into a 30 x 20 cm tin and spread it up the sides. Tip the dough in without deflating it and turn once to coat.',
@@ -650,7 +650,7 @@ module.exports = {
   'panna-cotta': {
     rest: [240, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
-    meta: 'Silky vanilla panna cotta with the perfect wobble — a five-ingredient Italian dessert that takes 20 minutes to make.',
+    meta: 'Silky vanilla panna cotta with the perfect wobble: a five-ingredient Italian dessert, 20 minutes of work and at least 4 hours in the fridge.',
     kw: ['panna cotta recipe', 'vanilla panna cotta', 'italian dessert', 'gluten free dessert'],
     why: 'The ratio of gelatine to cream is everything: 2 g of gelatine per 250 ml sets a cream that just holds its shape and dissolves instantly on the tongue, while the usual 4 g makes a firm, rubbery pudding. Blooming the gelatine in cold water first fully hydrates the strands so they dissolve evenly without leaving a grainy set.',
     ing: [

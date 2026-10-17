@@ -678,9 +678,9 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
      true of every source this site had: Wikimedia Commons and Openverse hand
      back Creative Commons and public domain and nothing else.
 
-     tools/fetch_images.py can now also be given a Pexels or Unsplash key.
-     Both licences permit commercial use and resizing, which is why the gate
-     accepts them — but neither is a free licence, and the first stock
+     tools/fetch_images.py can now also be given a Pexels, Unsplash or Pixabay key.
+     All three licences permit commercial use and resizing, which is why the gate
+     accepts them — but none is a free licence, and the first stock
      photograph to publish would make that sentence false with nothing saying
      so. The claim is checked against what is actually published rather than
      against what the fetcher was configured to ask for. */
@@ -688,7 +688,15 @@ for (const dir of [path.join(__dirname, '..', 'src', 'assets', 'img', 'recipes')
   const unfree = Object.values(manifest)
     .flatMap(e => [e && e.hero, e && e.process])
     .filter(shot => shot && !isIllustration(shot) && !FREE.test(shot.licence || ''));
-  if (unfree.length) {
+  /* The sentence was rewritten when the first Pixabay photographs were
+     published, so what is checked now is the sentence itself: a stock
+     photograph may ship only while no page claims every photograph is freely
+     licensed. */
+  const claims = ['index.html', 'about/index.html']
+    .map(f => path.join(DIST, f))
+    .filter(f => fs.existsSync(f))
+    .some(f => /every photograph[^.<]{0,20}is freely licensed/i.test(fs.readFileSync(f, 'utf8')));
+  if (unfree.length && claims) {
     const kinds = [...new Set(unfree.map(s => s.licence))].join(', ');
     problems.push(`${unfree.length} published photograph(s) carry a licence that is not a free `
       + `one (${kinds}), starting with ${unfree[0].file} — the gallery page says every `
@@ -1074,11 +1082,12 @@ try {
    a first-person claim is invisible once a recipe is written and obvious to a
    reader, so it fails the check instead of waiting to be noticed. --check-docs
    keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
-/* The health labels (Diabetes-Friendly, Weight-Loss Friendly, Kidney-Friendly) are claims about the
-   numbers a reader plans a meal around, so they sit in the same list: a tagged recipe outside its
-   limits, or one whose nutrition its own ingredients do not reproduce, fails the build. */
+/* The health audit sits in the same list: no recipe may promise a health outcome or carry one of
+   the withdrawn health labels, and the volumes whose nutrition is computed from the ingredient list
+   must still reproduce it. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
+                     'robots-check.js', 'private-paths-check.js',
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
   const [script, ...args] = [].concat(audit);
   try {

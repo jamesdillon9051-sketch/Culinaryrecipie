@@ -123,7 +123,7 @@ module.exports = {
   },
 
   'cinnamon-rolls': {
-    rest: [540, 'chilling'],
+    rest: [600, 'proving and chilling'],
     d: 'Soft, tall rolls made with a tangzhong starter that keeps them pillowy for days, filled with cinnamon-butter and finished with cream cheese frosting. Shape them the night before and bake in the morning.',
     meta: 'Overnight cinnamon rolls with a tangzhong starter for lasting softness, plus tangy cream cheese frosting.',
     kw: ['cinnamon rolls recipe', 'overnight cinnamon rolls', 'tangzhong dough', 'cream cheese frosting'],
@@ -214,7 +214,7 @@ module.exports = {
   'fudgy-brownies': {
     rest: [180, 'cooling'],
     d: 'Cocoa-based brownies with a paper-thin crackly top and a dense, fudgy middle. No chocolate to melt, no mixer needed, and they are better than most bakery versions.',
-    meta: 'Fudgy cocoa brownies with a shiny crackle top and dense centre. One bowl, no melted chocolate, ready in 40 minutes.',
+    meta: 'Fudgy cocoa brownies with a shiny crackle top and dense centre. One bowl, no melted chocolate, 40 minutes of work, then 3 hours to cool.',
     kw: ['brownie recipe', 'fudgy brownies', 'cocoa brownies', 'easy chocolate dessert'],
     why: 'The shiny crackled top forms when sugar dissolves fully into hot fat and egg, creating a thin meringue-like layer that sets on baking — which is why the butter must be hot and the sugar beaten in vigorously. A low flour-to-fat ratio keeps the interior dense and fudgy rather than cakey.',
     ing: [

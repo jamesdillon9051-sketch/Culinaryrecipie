@@ -13,8 +13,8 @@
 module.exports = {
   'citrus-salmon': {
     d: 'Salmon fillets baked in a bright marinade of orange juice and zest, lemon juice, garlic and dill, with no added salt. Four servings in 25 minutes.',
-    meta: 'Citrus salmon: salmon fillets baked in an orange, lemon, garlic and dill marinade with no added salt. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['citrus salmon', 'kidney friendly salmon', 'baked citrus salmon with orange and lemon', 'gluten free citrus salmon', 'dairy free baked salmon with dill'],
+    meta: 'Citrus salmon: salmon fillets baked in an orange, lemon, garlic and dill marinade with no added salt. Four servings in 25 minutes.',
+    kw: ['citrus salmon', 'no added salt salmon', 'baked citrus salmon with orange and lemon', 'gluten free citrus salmon', 'dairy free baked salmon with dill'],
     why: 'This is lemon salmon with a second citrus. Orange juice and zest add sweetness and depth where lemon alone is sharp, and between them they replace the salt that salmon is usually served with. Garlic and dill finish the marinade. Choose fillets of an even thickness.\n\nSalmon is best just done, when it flakes into large pieces but is still a little translucent at the very centre. **Stop early.** It carries on cooking as it rests. Mix the juice, zest, oil, garlic and dill, and spoon it over the fillets before baking, so that the citrus sinks into the surface.\n\nSalmon carries more phosphorus than white fish, so the fillets here are 110 g each and the sides are kept plain: white rice, green beans, a cucumber salad. It is a rich fish. Citrus cuts through it. Spoon the pan juices over each fillet, and serve it while it is still warm. Leftover fillets flake easily into a salad the next day.',
     ing: [
       '440 g salmon fillets, skin removed, 4 pieces',
@@ -45,8 +45,8 @@ module.exports = {
 
   'honey-spice-rubbed-salmon': {
     d: 'Salmon fillets coated in a paste of honey, smoked paprika, cumin and garlic and baked until just cooked through, with lemon to finish. Four servings in 20 minutes.',
-    meta: 'Honey spice rubbed salmon: fillets coated in a honey, smoked paprika and cumin paste and baked. Kidney friendly. Four servings in 20 minutes.',
-    kw: ['honey spice rubbed salmon', 'kidney friendly salmon', 'baked honey salmon with smoked paprika', 'gluten free honey spice salmon', 'quick honey spice rubbed salmon for four'],
+    meta: 'Honey spice rubbed salmon: fillets coated in a honey, smoked paprika and cumin paste and baked. Four servings in 20 minutes.',
+    kw: ['honey spice rubbed salmon', 'no added salt salmon', 'baked honey salmon with smoked paprika', 'gluten free honey spice salmon', 'quick honey spice rubbed salmon for four'],
     why: 'This is for warm evenings when you want dinner fast. Mixing the rub takes two minutes. The fish needs only 15 minutes in the oven, and honey against smoked paprika and cumin makes the fillets taste as if they came off a grill. Salmon is one of the few fish with enough fat to stand up to a sweet, sticky glaze.\n\nHoney burns easily. At a very high heat it blackens before the fish is cooked, so **keep the oven moderate**, line the tray with parchment and brush the rub on thickly. A squeeze of lemon at the end cuts the sweetness and wakes up the spices. Rest the fish for 2 minutes before serving so that the glaze sets.\n\nSmoked paprika, cumin, chilli powder and garlic powder do the seasoning, and there is no salt in the rub. Salmon stands up to strong spices. Serve it with plain rice and a cucumber salad. The same rub works on chicken or tofu.',
     ing: [
       '440 g salmon fillets, 4 pieces',
@@ -78,8 +78,8 @@ module.exports = {
 
   'salmon-skewers': {
     d: 'Cubes of salmon marinated in lemon, dill and garlic and threaded with zucchini and red onion, then grilled for 8 minutes. Four servings in 23 minutes.',
-    meta: 'Salmon skewers: lemon and dill marinated salmon cubes grilled with zucchini and red onion. Kidney friendly. Four servings in 23 minutes.',
-    kw: ['salmon skewers', 'kidney friendly salmon skewers', 'grilled salmon kebabs with zucchini', 'gluten free salmon skewers', 'dairy free grilled salmon skewers'],
+    meta: 'Salmon skewers: lemon and dill marinated salmon cubes grilled with zucchini and red onion. Four servings in 23 minutes.',
+    kw: ['salmon skewers', 'no added salt salmon skewers', 'grilled salmon kebabs with zucchini', 'gluten free salmon skewers', 'dairy free grilled salmon skewers'],
     why: 'A dish for the grill on a warm evening, or for a griddle pan the rest of the year. Cubes of salmon cook in 8 minutes. That is faster than rice. Skewers are easier to turn when the salmon sits between pieces of vegetable.\n\nSalmon is delicate, so cut it into cubes of about 3 cm and thread it loosely with zucchini and red onion, which hold the fish upright. **Oil the grill well**, because salmon sticks. Turn the skewers gently, a quarter turn at a time, and do not move them until they release. Lemon, dill and garlic in the marinade give the flavour.\n\nMarinate for only 10 minutes, because acid turns the flesh opaque and firm if it sits for long. Zucchini cooks in the same time as the fish. It is also one of the lower-potassium vegetables. Serve with rice and a green salad. Thread the onion in thick wedges so that the layers stay together.',
     ing: [
       '440 g salmon fillet, cut into 3 cm cubes',
@@ -110,8 +110,8 @@ module.exports = {
 
   'salmon-and-rice-bowls': {
     d: 'Pan-seared salmon over white rice with cucumber, carrot and red cabbage, dressed with rice vinegar, sesame oil and ginger. Four servings in 30 minutes.',
-    meta: 'Salmon and rice bowls: seared salmon over white rice with cucumber, carrot and cabbage in a ginger sesame dressing. Kidney friendly. Four servings.',
-    kw: ['salmon rice bowls', 'kidney friendly salmon rice bowls', 'dairy free salmon and rice bowl', 'easy salmon rice bowls for four', 'salmon bowl with cucumber and carrot'],
+    meta: 'Salmon and rice bowls: seared salmon over white rice with cucumber, carrot and cabbage in a ginger sesame dressing. Four servings.',
+    kw: ['salmon rice bowls', 'no added salt salmon rice bowls', 'dairy free salmon and rice bowl', 'easy salmon rice bowls for four', 'salmon bowl with cucumber and carrot'],
     why: 'Salmon, white rice, cucumber, carrot and red cabbage, dressed with rice vinegar, sesame oil and ginger. It is a cold-and-warm bowl that takes 30 minutes. Everything can be made ahead. A bowl like this also packs well for a lunch box.\n\nPan-sear the salmon on one side until the edge turns pale, then flip it. **Cook it to just done**, so that it flakes into big pieces when it is laid on the rice. The dressing is rice vinegar, sesame oil and grated ginger, and it goes on the vegetables and the rice, not just the fish. Keep the bowl simple. Slice the vegetables thin so that they eat like a salad.\n\nSalmon carries more phosphorus than most fish. That is why the portion is 100 g a person, and why the rice is measured too. Cucumber, carrot and red cabbage are modest in potassium, and they add crunch. A sprinkle of sesame seeds finishes it. Rinse the rice before cooking for fluffier grains.',
     ing: [
       '400 g salmon fillets, 4 pieces',
@@ -146,8 +146,8 @@ module.exports = {
 
   'lemon-pepper-tilapia': {
     d: 'Tilapia fillets seasoned with plenty of black pepper, lemon zest and garlic, pan-cooked and finished with lemon juice and parsley. Four servings in 17 minutes.',
-    meta: 'Lemon pepper tilapia: tilapia fillets with plenty of black pepper, lemon zest and garlic, pan-cooked in minutes. Kidney friendly. Four servings.',
-    kw: ['lemon pepper tilapia', 'kidney friendly tilapia', 'dairy free lemon pepper tilapia', 'gluten free lemon pepper tilapia', 'quick lemon pepper tilapia for four'],
+    meta: 'Lemon pepper tilapia: tilapia fillets with plenty of black pepper, lemon zest and garlic, pan-cooked in minutes. Four servings.',
+    kw: ['lemon pepper tilapia', 'no added salt tilapia', 'dairy free lemon pepper tilapia', 'gluten free lemon pepper tilapia', 'quick lemon pepper tilapia for four'],
     why: 'Seventeen minutes from fridge to plate. Tilapia is mild and thin, so it cooks in about 3 minutes a side and takes on whatever it is seasoned with. A lot of pepper and a lot of lemon are what make it taste finished without salt. Fresh or frozen both work, as long as the fish is thawed and dry.\n\nBlack pepper is the seasoning, in generous amounts, with lemon zest and juice. **Use coarsely ground pepper** so that it stays visible and tastes of pepper rather than dust. Garlic powder and parsley fill in. Pat the fillets dry, and the surface browns lightly rather than steaming.\n\nLemon and pepper make white fish taste seasoned without salt, since acid and spice both register strongly on the tongue. Tilapia is among the lower-potassium fish, and a 130 g fillet keeps the plate light. Serve with rice and steamed green beans. Squeeze the lemon over the fish only at the end, to keep the crust crisp.',
     ing: [
       '520 g tilapia fillets, 4 pieces',
@@ -176,8 +176,8 @@ module.exports = {
 
   'garlic-herb-shrimp-skewers': {
     d: 'Large shrimp marinated in lemon, garlic and herbs, threaded with zucchini and grilled in 6 minutes. Four servings in 21 minutes.',
-    meta: 'Garlic herb shrimp skewers: shrimp marinated in lemon, garlic and herbs and grilled with zucchini. Kidney friendly. Four servings in 21 minutes.',
-    kw: ['garlic herb shrimp skewers', 'kidney friendly shrimp skewers', 'grilled garlic shrimp skewers with zucchini', 'gluten free shrimp skewers', 'dairy free garlic herb shrimp skewers'],
+    meta: 'Garlic herb shrimp skewers: shrimp marinated in lemon, garlic and herbs and grilled with zucchini. Four servings in 21 minutes.',
+    kw: ['garlic herb shrimp skewers', 'no added salt shrimp skewers', 'grilled garlic shrimp skewers with zucchini', 'gluten free shrimp skewers', 'dairy free garlic herb shrimp skewers'],
     why: 'Pull the shrimp off the grill when they curl into a loose C. Overcooked ones form a tight O, and raw ones stay straight. The whole cook is 6 minutes. Watch the skewers.\n\nThe marinade is olive oil, lemon juice, garlic, oregano and parsley, and it needs only 15 minutes: any longer and the acid begins to cook the shrimp. **Check the label** on frozen shrimp for phosphate additives, which show up as sodium tripolyphosphate. Choose shrimp with no additives. They are juicier and taste sweeter.\n\nZucchini goes on the same skewers and cooks in the same time. Thread loosely, leaving small gaps, so that the heat reaches each piece. Serve with white rice and a green salad. There is no salt anywhere. Shrimp supply their own sweet, briny flavour, and extra lemon at the table does the rest. Leave the tails on if you like, as they make handy handles.',
     ing: [
       '500 g large raw shrimp, peeled and deveined',
@@ -208,8 +208,8 @@ module.exports = {
 
   'pineapple-shrimp-skewers': {
     d: 'Large shrimp, fresh pineapple and red pepper on skewers, marinated in lime, garlic and ginger and grilled for 6 minutes. Four servings in 21 minutes.',
-    meta: 'Pineapple shrimp skewers: shrimp, pineapple and red pepper marinated in lime, garlic and ginger and grilled. Kidney friendly. Four servings.',
-    kw: ['pineapple shrimp skewers', 'kidney friendly shrimp skewers with pineapple', 'grilled pineapple shrimp kebabs', 'gluten free pineapple shrimp skewers', 'dairy free pineapple shrimp skewers'],
+    meta: 'Pineapple shrimp skewers: shrimp, pineapple and red pepper marinated in lime, garlic and ginger and grilled. Four servings.',
+    kw: ['pineapple shrimp skewers', 'no added salt shrimp skewers with pineapple', 'grilled pineapple shrimp kebabs', 'gluten free pineapple shrimp skewers', 'dairy free pineapple shrimp skewers'],
     why: 'Pierce each shrimp twice. Put one hole near the head end and one near the tail, so that it lies flat on the skewer and does not spin when you turn it. A flat shrimp cooks evenly and gets a charred stripe on each side. Cut the pineapple into chunks the same size as the shrimp.\n\nPineapple and shrimp suit each other: the fruit is sweet and slightly sharp, and the shrimp are sweet and briny. **A lime marinade** with garlic, ginger and cilantro ties them together. Marinate for no more than 15 minutes. Grill for 6 minutes, until the shrimp are pink and the pineapple has dark edges.\n\nRed pepper adds sweetness and colour, and fresh pineapple keeps the potassium lower than most tropical fruit. Choose shrimp without added phosphate. Serve with rice and a cabbage and lime slaw, which is light and crunchy against the soft fruit. Nothing here needs salt. Peel and devein the shrimp if the shop has not.',
     ing: [
       '500 g large raw shrimp, peeled and deveined',
@@ -240,8 +240,8 @@ module.exports = {
 
   'shrimp-fried-rice': {
     d: 'Shrimp tossed with cold rice, egg whites, peas, carrot and spring onions, seasoned with one tablespoon of low-sodium soy sauce. Four servings in 25 minutes.',
-    meta: 'Shrimp fried rice: shrimp, cold rice, egg whites, peas and carrot with a little low-sodium soy sauce. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['shrimp fried rice', 'kidney friendly shrimp fried rice', 'low salt shrimp fried rice', 'dairy free shrimp fried rice with egg whites', 'quick shrimp fried rice for four'],
+    meta: 'Shrimp fried rice: shrimp, cold rice, egg whites, peas and carrot with a little low-sodium soy sauce. Four servings in 25 minutes.',
+    kw: ['shrimp fried rice', 'low salt shrimp fried rice', 'dairy free shrimp fried rice with egg whites', 'quick shrimp fried rice for four'],
     why: 'A fried rice for the night when there is leftover rice and a bag of shrimp in the freezer. Shrimp cook so quickly that they go in last, after the rice has heated through and picked up some colour from the pan. The whole dish takes 25 minutes.\n\nCook the vegetables and rice first, so that the pan is hot and dry when the shrimp arrive. **Shrimp need 2 minutes**, no more: they turn pink, curl and are done. The egg whites go in with them and set around the rice in soft curds. Keep the pan hot.\n\nShrimp are sweet, so the dish needs less soy sauce than most fried rice. One tablespoon of the low-sodium kind is enough for the whole pan. Ginger, garlic and white pepper carry the rest. Use shrimp with no added phosphate, and thaw frozen ones in the fridge overnight, then pat them dry before they go in the pan.',
     ing: [
       '400 g raw shrimp, peeled, deveined and halved',
@@ -277,8 +277,8 @@ module.exports = {
 
   'shrimp-and-rice-skillet': {
     d: 'Shrimp steamed on top of white rice cooked with peppers, onion, garlic and smoked paprika, finished with lemon and parsley. Four servings in 35 minutes.',
-    meta: 'Shrimp and rice skillet: shrimp steamed over white rice with peppers, onion and smoked paprika. Gluten free. Kidney friendly. Four servings.',
-    kw: ['shrimp and rice skillet', 'kidney friendly shrimp and rice', 'gluten free shrimp and rice skillet', 'dairy free shrimp and rice with peppers', 'shrimp and rice skillet for four'],
+    meta: 'Shrimp and rice skillet: shrimp steamed over white rice with peppers, onion and smoked paprika. Gluten free. Four servings.',
+    kw: ['shrimp and rice skillet', 'no added salt shrimp and rice', 'gluten free shrimp and rice skillet', 'dairy free shrimp and rice with peppers', 'shrimp and rice skillet for four'],
     why: 'It borrows the idea of paella without the stock, the saffron or the salt. Shrimp, white rice, peppers and smoked paprika cook in one wide pan, and the rice drinks up the juices as it softens, so that every grain tastes of the pan. It is dinner in 35 minutes.\n\nCook the rice first, with the onion, pepper and spices, so that it absorbs the flavour as it softens. **Shrimp go on top**, for the last 5 minutes, and steam in the heat of the rice. Do not stir after they go in. They cook through without turning rubbery. A wide pan lets them lie in a single layer.\n\nSmoked paprika, garlic and oregano carry the dish. Lemon juice and parsley brighten it at the end. Plain white rice keeps the phosphorus and potassium lower than brown rice would. Check the shrimp label for added phosphate; shrimp without it taste cleaner and cook up plumper. Serve it straight from the pan.',
     ing: [
       '440 g raw shrimp, peeled and deveined',
@@ -313,8 +313,8 @@ module.exports = {
 
   'shrimp-and-pepper-stir-fry': {
     d: 'Shrimp stir-fried with three colours of pepper, onion, garlic and ginger in a light low-sodium soy and rice vinegar sauce. Four servings in 18 minutes.',
-    meta: 'Shrimp and pepper stir-fry: shrimp with three colours of pepper, garlic and ginger in a light soy sauce. Kidney friendly. Four servings in 18 minutes.',
-    kw: ['shrimp and pepper stir fry', 'kidney friendly shrimp stir fry', 'low sodium shrimp and pepper stir fry', 'dairy free shrimp and bell pepper stir fry', 'quick shrimp stir fry for four'],
+    meta: 'Shrimp and pepper stir-fry: shrimp with three colours of pepper, garlic and ginger in a light soy sauce. Four servings in 18 minutes.',
+    kw: ['shrimp and pepper stir fry', 'low sodium shrimp and pepper stir fry', 'dairy free shrimp and bell pepper stir fry', 'quick shrimp stir fry for four'],
     why: 'Shrimp need 2 minutes. Everything else in this stir-fry is built around that fact, so the peppers, onion and sauce are ready and waiting in the pan before the shrimp go in, and the whole dish finishes in a flash.\n\nPeppers in three colours and a little onion cook first, over high heat, for about 3 minutes, until they are glossy but still crisp. **Push them aside**, add the shrimp in a single layer and leave them for 1 minute before turning. Do not overcrowd the pan. Garlic, ginger, a tablespoon of low-sodium soy sauce and rice vinegar form the sauce, thickened with a little cornflour.\n\nRaw shrimp turn from grey to pink as they cook. That is the only signal you need. Check the label for added phosphate. Serve the stir-fry with white rice. It reheats poorly because shrimp toughen, so cook only what you will eat. Slice the peppers into thin, even strips so that they cook together.',
     ing: [
       '480 g raw shrimp, peeled and deveined',
@@ -349,8 +349,8 @@ module.exports = {
 
   'shrimp-lettuce-cups': {
     d: 'Chopped shrimp tossed with garlic, ginger, cucumber, carrot, mint and lime and spooned into butter lettuce leaves. Four servings in 23 minutes.',
-    meta: 'Shrimp lettuce cups: chopped shrimp with garlic, ginger, cucumber, carrot and mint in butter lettuce leaves. Kidney friendly. Four servings.',
-    kw: ['shrimp lettuce cups', 'kidney friendly shrimp lettuce cups', 'gluten free shrimp lettuce wraps', 'dairy free shrimp lettuce cups', 'shrimp lettuce cups appetizer'],
+    meta: 'Shrimp lettuce cups: chopped shrimp with garlic, ginger, cucumber, carrot and mint in butter lettuce leaves. Four servings.',
+    kw: ['shrimp lettuce cups', 'no added salt shrimp lettuce cups', 'gluten free shrimp lettuce wraps', 'dairy free shrimp lettuce cups', 'shrimp lettuce cups appetizer'],
     why: 'Chop the shrimp before you cook them. Small pieces cook in about 3 minutes, stay tender and sit neatly in a lettuce leaf, while whole shrimp roll out of the cup and onto the table. Pat the shrimp dry first.\n\nThe filling is shrimp with garlic, ginger, cucumber, carrot and mint, with lime juice and a pinch of chilli. **Cook the shrimp hot and fast**, with a little oil, until they turn pink. Toss them with the raw vegetables so that the heat softens the garlic and ginger a little. Mint adds freshness. Chilli flakes are optional, so add them to taste.\n\nButter lettuce leaves make soft, flexible cups. Eight leaves give eight cups, two to a serving, which is a light starter. Serve them straight away, while the shrimp are warm and the lettuce is cold. Check the shrimp label for added phosphate, and spoon the filling in at the table if you want the leaves crisp.',
     ing: [
       '300 g raw shrimp, peeled, deveined and chopped',
@@ -382,8 +382,8 @@ module.exports = {
 
   'tuna-cucumber-boats': {
     d: 'Cucumber halves scooped out and filled with a lemony tuna salad of no-salt-added tuna, celery, dill and a little light mayonnaise. Four servings in 10 minutes, with no cooking.',
-    meta: 'Tuna cucumber boats: cucumber halves filled with no-salt-added tuna, celery, dill and lemon. No cooking. Kidney friendly. Four servings.',
-    kw: ['tuna cucumber boats', 'kidney friendly tuna appetizer', 'no salt tuna cucumber boats', 'no cook tuna cucumber boats', 'gluten free tuna cucumber bites'],
+    meta: 'Tuna cucumber boats: cucumber halves filled with no-salt-added tuna, celery, dill and lemon. No cooking. Four servings.',
+    kw: ['tuna cucumber boats', 'no added salt tuna appetizer', 'no salt tuna cucumber boats', 'no cook tuna cucumber boats', 'gluten free tuna cucumber bites'],
     why: 'These should feel cold and crisp in the hand, and taste of lemon and dill before anything else. A cucumber boat straight from the fridge, filled at the last minute, is the whole idea. No cooking is needed. Cucumbers are mostly water, which makes them cooling and very low in sodium.\n\nHalve the cucumbers lengthwise and scoop out the seeds with a spoon, leaving a shell about 5 mm thick. **Drain the tuna well**, because wet tuna makes a watery filling. Mash it with a fork, then mix in the light mayonnaise, celery, lemon juice, dill and pepper. Keep it chunky. A small spoon does the scooping neatly.\n\nChoose no-salt-added tuna in water. Ordinary canned tuna is salted, and it adds several hundred milligrams of sodium to a plate before anything else goes in. Light mayonnaise is used sparingly, and the lemon and dill supply the flavour. Cut each boat into 4 pieces for a party.',
     ing: [
       '280 g no-salt-added tuna in water, drained',
@@ -412,8 +412,8 @@ module.exports = {
 
   'tuna-patties': {
     d: 'Tuna patties of no-salt-added tuna, egg white, panko, onion, parsley and Dijon, shaped and fried until golden. Four servings in 25 minutes.',
-    meta: 'Tuna patties: no-salt-added tuna with egg white, panko, onion, parsley and Dijon, fried until golden. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['tuna patties', 'kidney friendly tuna patties', 'high protein tuna patties', 'easy tuna patties without salt', 'fried tuna patties for four'],
+    meta: 'Tuna patties: no-salt-added tuna with egg white, panko, onion, parsley and Dijon, fried until golden. Four servings in 25 minutes.',
+    kw: ['tuna patties', 'no added salt tuna patties', 'high protein tuna patties', 'easy tuna patties without salt', 'fried tuna patties for four'],
     why: 'No-salt-added tuna, egg white, panko, onion, parsley and Dijon. Six things in one bowl. Shape them and fry them in 10 minutes. The patties taste of tuna and lemon rather than salt, because the tuna is the unsalted kind.\n\nDrain the tuna very well and press out the water, because wet tuna makes a patty that will not hold. **Chill the patties** for 10 minutes before they go in the pan, so that the panko hydrates and binds. Fry in a little oil over medium heat for 5 minutes a side, until golden. Turn them once. A light hand on the spatula keeps the crust intact.\n\nTuna is among the most concentrated sources of protein in the kitchen, so these small patties make a full serving. Serve with a green salad, cucumber and a lemon wedge, or in a bun with lettuce. Skip the tartare sauce; it is salty. Squeeze lemon over each patty at the table.',
     ing: [
       '450 g no-salt-added tuna in water, drained',
@@ -445,8 +445,8 @@ module.exports = {
 
   'tuna-pasta-salad': {
     d: 'Rotini tossed with no-salt-added tuna, cucumber, celery, red pepper and red onion in a lemon, mustard and olive oil dressing. Four servings in 25 minutes.',
-    meta: 'Tuna pasta salad: rotini with no-salt-added tuna, cucumber, celery and red pepper in a lemon and mustard dressing. Kidney friendly. Four servings.',
-    kw: ['tuna pasta salad', 'kidney friendly tuna pasta salad', 'high protein tuna pasta salad', 'dairy free tuna pasta salad without mayonnaise', 'easy tuna pasta salad for four'],
+    meta: 'Tuna pasta salad: rotini with no-salt-added tuna, cucumber, celery and red pepper in a lemon and mustard dressing. Four servings.',
+    kw: ['tuna pasta salad', 'no added salt tuna pasta salad', 'high protein tuna pasta salad', 'dairy free tuna pasta salad without mayonnaise', 'easy tuna pasta salad for four'],
     why: 'This is the deli tuna pasta salad with the salt and the heavy mayonnaise taken out, and in their place are olive oil, lemon juice and Dijon mustard, which make a sharp, fresh dressing that coats the pasta lightly. It is a lunch that travels.\n\nRotini holds a dressing in its spirals, and refined pasta is lighter in potassium and phosphorus than wholewheat. **Rinse the cooked pasta** under cold water so that it cools quickly and the grains do not clump. Cook it in unsalted water to keep the sodium down. Toss while the pasta is still slightly damp. Test a piece a minute before the time is up.\n\nCucumber, celery, red pepper and red onion add crunch and colour. They are all modest in potassium. Fold in the tuna last, and gently, so that it stays in chunks. The salad improves if it stands in the fridge for a while. Add the parsley just before serving.',
     ing: [
       '360 g no-salt-added tuna in water, drained',

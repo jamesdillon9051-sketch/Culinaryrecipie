@@ -95,6 +95,10 @@ function advertisedMinutes(text) {
     if (!match) continue;
     const before = text.slice(Math.max(0, match.index - 24), match.index);
     if (STEP_NOUNS.test(before)) continue;
+    /* "ready in 25 minutes plus rising" names the wait; it is the active time,
+       stated as such, not a promise about the whole. */
+    const after = text.slice(match.index + match[0].length, match.index + match[0].length + 16);
+    if (/^\w*\s*(?:plus|\+|of (?:hands-on|active|work))/i.test(after)) continue;
     return Number(match[1]);
   }
   return null;
@@ -233,7 +237,7 @@ for (const recipe of loadRecipes()) {
   if (!html) continue;
   const description = attr(html, /<meta name="description" content="([^"]*)"/) || '';
   const advertised = advertisedMinutes(description);
-  const actual = recipe.prep + recipe.cook;
+  const actual = recipe.elapsedTime;
   if (advertised !== null && actual > advertised) {
     problems.push(`${recipe.slug} — the description advertises ${advertised} minutes but the recipe needs ${actual}`);
   }

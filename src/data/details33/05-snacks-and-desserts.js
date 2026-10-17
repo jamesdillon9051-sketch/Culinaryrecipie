@@ -15,7 +15,7 @@ module.exports = {
   'turkey-pinwheels': {
     d: 'Whole-wheat tortillas spread with mustard cream cheese and rolled around turkey, spinach and cucumber, chilled and sliced into pinwheels. Six servings in 10 minutes.',
     meta: 'Turkey pinwheels: whole-wheat tortillas rolled around mustard cream cheese, turkey, spinach and cucumber, then chilled and sliced.',
-    kw: ['turkey pinwheels', 'weight loss friendly turkey pinwheels', 'turkey and spinach pinwheel appetizer', 'no cook turkey pinwheels', 'easy turkey cream cheese pinwheels'],
+    kw: ['turkey pinwheels', 'turkey pinwheels under 400 calories', 'turkey and spinach pinwheel appetizer', 'no cook turkey pinwheels', 'easy turkey cream cheese pinwheels'],
     why: 'Chilling is what holds a pinwheel together. Spread the filling right to the edges, roll the tortilla tightly, and let the roll rest in the fridge for 30 minutes before you slice it, because the cream cheese works as glue and firms up enough to keep every spiral in place.\n\nUse large whole-wheat tortillas, since small ones leave too few spirals. **Dry the spinach well** so the tortilla does not go soggy. Thin layers roll best. Keep the turkey in a single thin layer, because thick layers make the roll bulge and split. Reduced-fat cream cheese with a little Dijon mustard gives a tangy spread that seasons the whole roll.\n\nTrim the ends first. Slice with a serrated knife, using a gentle sawing motion rather than pressing down, and wipe the blade between cuts. Each tortilla makes about six pinwheels. They keep for 2 days in the fridge, wrapped tightly, which makes them useful for lunch boxes and parties.',
     ing: [
       '3 whole-wheat tortillas, 25 cm across',
@@ -45,7 +45,7 @@ module.exports = {
   'mushroom-lettuce-cups': {
     d: 'Finely chopped mushrooms browned with garlic, ginger and tamari, spooned into crisp butter lettuce leaves with water chestnuts and sesame. Four servings in 20 minutes.',
     meta: 'Mushroom lettuce cups: browned chopped mushrooms with garlic, ginger and tamari in butter lettuce leaves. Vegan and gluten free. Four servings.',
-    kw: ['mushroom lettuce cups', 'weight loss friendly lettuce cups', 'vegan mushroom lettuce cups', 'gluten free mushroom lettuce wraps', 'quick mushroom lettuce cups'],
+    kw: ['mushroom lettuce cups', 'lettuce cups under 400 calories', 'vegan mushroom lettuce cups', 'gluten free mushroom lettuce wraps', 'quick mushroom lettuce cups'],
     why: 'A starter for four, or a light supper for two, that is ready in 20 minutes and eaten with the hands. Nothing here needs cutlery. Finely chopped mushrooms are browned with garlic, ginger and tamari until they are dark and savoury, then spooned into crisp lettuce leaves with a crunch of water chestnut.\n\nChop the mushrooms small and **cook them without stirring** for the first few minutes, so they brown rather than steam. Dry pan, dark mushrooms. They shed a lot of water; keep cooking until the pan is nearly dry and the pieces are dark. Tamari, ginger and rice vinegar season the filling, and water chestnuts add a crisp contrast.\n\nButter lettuce leaves make the best cups, being soft and bowl-shaped. Cos or little gem leaves work too, if butter lettuce is hard to find. Fill them just before serving. Leftover filling keeps for 3 days and is good over rice or in an omelette.',
     ing: [
       '400 g mushrooms, finely chopped',
@@ -80,7 +80,7 @@ module.exports = {
   'cottage-cheese-ranch-dip': {
     d: 'A thick, tangy ranch-style dip made by blending low-fat cottage cheese until smooth with lemon, garlic, dill, chives and parsley. Eight servings in 5 minutes.',
     meta: 'Cottage cheese ranch dip: low-fat cottage cheese blended smooth with lemon, garlic, dill, chives and parsley. Gluten free. Eight servings.',
-    kw: ['cottage cheese ranch dip', 'weight loss friendly ranch dip', 'gluten free cottage cheese dip', 'vegetarian ranch dip with cottage cheese', 'no cook cottage cheese ranch dip'],
+    kw: ['cottage cheese ranch dip', 'ranch dip under 400 calories', 'gluten free cottage cheese dip', 'vegetarian ranch dip with cottage cheese', 'no cook cottage cheese ranch dip'],
     why: 'It is ranch with the mayonnaise and sour cream swapped for cottage cheese: blended until smooth, it turns thick, tangy and creamy, with far more protein and far less fat. Fresh herbs and garlic supply the classic flavour. It takes 5 minutes.\n\nBlend longer than you think you need to. Curds are the enemy. **Blend until completely smooth**, scraping down the sides, because cottage cheese curds that survive give the dip a grainy texture. Add milk a spoonful at a time to loosen it to the thickness you want, since a thick dip suits vegetables and a looser one suits a salad.\n\nStir in the fresh herbs after blending, so they stay green and speckled. Chill it for 20 minutes to let the flavours settle. Cold dulls salt and lemon, so taste again before serving. Serve with raw vegetables, or use it as a sandwich spread or a baked potato topper. It keeps for 4 days.',
     ing: [
       '400 g low-fat cottage cheese',
@@ -113,7 +113,7 @@ module.exports = {
   'baked-apple-chips': {
     d: 'Thin apple slices dusted with cinnamon and dried in a low oven until they snap, with no added sugar or oil. Four servings in 100 minutes.',
     meta: 'Baked apple chips: thin apple slices dusted with cinnamon and dried in a low oven until crisp. Vegan and gluten free. Four servings.',
-    kw: ['baked apple chips', 'weight loss friendly apple chips', 'vegan baked apple chips', 'gluten free apple chips with cinnamon', 'easy baked apple chips'],
+    kw: ['baked apple chips', 'apple chips under 400 calories', 'vegan baked apple chips', 'gluten free apple chips with cinnamon', 'easy baked apple chips'],
     why: 'A snack for the lunch box, the desk drawer or a long afternoon: thin apple slices dried in a low oven until they snap. The only seasoning is cinnamon, so what you taste is concentrated apple. It takes 10 minutes of work and then a long, low bake. Patience is the cost.\n\nSlice the apples as thin as you can, about 2 to 3 mm, with a mandoline or a very sharp knife. Thin slices matter most. Thick slices stay chewy. **Bake low and slow** at 100°C for 90 minutes, turning once, so the apple dries rather than browns. Use crisp, firm apples; soft ones turn leathery. A quick dip in lemon water keeps the slices pale.\n\nThe chips are not crisp straight from the oven. They crisp as they cool. Leave them on a rack for 10 minutes, then store in an airtight container. They keep for up to 5 days in a dry place, though they soften in humid air.',
     ing: [
       '450 g crisp apples, cored',
@@ -140,7 +140,7 @@ module.exports = {
   'air-popped-popcorn': {
     d: 'Popcorn popped with hot air and no oil, then tossed with a little olive oil, salt and smoked paprika. Four servings in 7 minutes.',
     meta: 'Air-popped popcorn: popped with hot air and no oil, then tossed with olive oil, salt and smoked paprika. Vegan and gluten free. Four servings.',
-    kw: ['air popped popcorn', 'weight loss friendly popcorn', 'vegan air popped popcorn', 'gluten free popcorn snack', 'quick air popped popcorn'],
+    kw: ['air popped popcorn', 'popcorn under 400 calories', 'vegan air popped popcorn', 'gluten free popcorn snack', 'quick air popped popcorn'],
     why: 'Season after popping, not before. A hot-air popper needs no oil, and anything added to the kernels in the machine either blows around or burns, so the popcorn comes out plain and a light drizzle of oil afterwards gives the salt something to stick to.\n\nAir-popped popcorn is a whole grain, with fibre and very few calories compared with microwave bags or movie-theatre buckets. **Pop in small batches** so the kernels do not crowd the chamber. Leave unpopped kernels behind. They sink to the bottom, so tip the popcorn into a bowl and leave them in the machine. Toss with oil, salt and smoked paprika while the popcorn is still warm.\n\nA teaspoon of oil and a pinch of salt go a long way across a big bowl, and smoked paprika adds a savoury, almost bacony note without meat. Eat it fresh. Popcorn goes chewy within hours in an open bowl.',
     ing: [
       '90 g popcorn kernels',
@@ -166,7 +166,7 @@ module.exports = {
   'cucumber-hummus-bites': {
     d: 'Thick cucumber rounds filled with hummus and topped with cherry tomato, parsley, pine nuts and paprika. Six servings in 10 minutes.',
     meta: 'Cucumber hummus bites: thick cucumber rounds filled with hummus and topped with cherry tomato, parsley and pine nuts. Vegan and gluten free.',
-    kw: ['cucumber hummus bites', 'weight loss friendly cucumber bites', 'vegan cucumber hummus bites', 'gluten free cucumber appetizer', 'no cook cucumber hummus bites'],
+    kw: ['cucumber hummus bites', 'cucumber bites under 400 calories', 'vegan cucumber hummus bites', 'gluten free cucumber appetizer', 'no cook cucumber hummus bites'],
     why: 'How do you keep cucumber bites from going watery? Dry the rounds. Cucumber is mostly water, and a slice that sits under hummus for an hour leaves a puddle beneath it, so pat the rounds dry and top them only just before serving. A paper towel does the job.\n\nChoose firm cucumbers, with thin skin that you can leave on for colour. **Cut thick rounds**, about 1.5 cm, so each holds a generous spoonful. Thick rounds hold more. Scoop out a small hollow with a teaspoon if you want more room. A spoonful of hummus with a pinch of paprika and a tomato half, parsley leaf or pine nut on top makes a bite that looks finished.\n\nCherry tomato halves, olives and a sprinkle of paprika make easy toppings. Toast the pine nuts in a dry pan first if you want a deeper flavour. Chill the platter until guests arrive. Assemble at the last moment. Count on about four bites a person as a starter.',
     ing: [
       '500 g cucumber, cut into 24 rounds 1.5 cm thick',
@@ -194,7 +194,7 @@ module.exports = {
   'zucchini-roll-ups': {
     d: 'Thin roasted zucchini strips rolled around a ricotta, Parmesan and basil filling and baked in tomato sauce under melted mozzarella. Six servings in 40 minutes.',
     meta: 'Zucchini roll-ups: roasted zucchini strips rolled around ricotta, Parmesan and basil and baked in tomato sauce. Gluten free. Six servings.',
-    kw: ['zucchini roll ups', 'weight loss friendly zucchini roll ups', 'gluten free zucchini roll ups with ricotta', 'vegetarian zucchini ricotta roll ups', 'baked zucchini roll ups'],
+    kw: ['zucchini roll ups', 'zucchini roll ups under 400 calories', 'gluten free zucchini roll ups with ricotta', 'vegetarian zucchini ricotta roll ups', 'baked zucchini roll ups'],
     why: 'Thickness is everything here. Cut the zucchini lengthwise, 3 mm thick, with a mandoline, because anything thicker will not bend around the filling and anything thinner tears. If you have no mandoline, a vegetable peeler gives ribbons that work almost as well when you overlap two for each roll.\n\nRoast the slices first, for 8 minutes at 220°C, until they are pliable and lightly golden. Raw zucchini releases water in the oven and turns the dish soggy. **Pat the roasted slices dry** before filling. The filling is ricotta, Parmesan and basil, with a little garlic, and it needs no extra salt because the Parmesan is salty. Roll up from the wide end and set the rolls in the sauce seam side down.\n\nSpoon a thin layer of passata under and over the rolls, top with mozzarella and bake until bubbling. Two roll-ups make a serving. They reheat well, and make a good lunch with a green salad.',
     ing: [
       '600 g zucchini, sliced lengthwise 3 mm thick into 12 strips',
@@ -227,7 +227,7 @@ module.exports = {
   'frozen-yogurt-pops': {
     d: 'Greek yogurt blended with strawberries, honey and vanilla and frozen into creamy pops. Six servings, with 10 minutes of work and 4 hours of freezing.',
     meta: 'Frozen yogurt pops: Greek yogurt blended with strawberries, honey and vanilla and frozen into creamy pops. Gluten free. Six servings.',
-    kw: ['frozen yogurt pops', 'weight loss friendly frozen yogurt pops', 'gluten free yogurt popsicles', 'vegetarian strawberry yogurt pops', 'easy frozen yogurt pops'],
+    kw: ['frozen yogurt pops', 'frozen yogurt pops under 400 calories', 'gluten free yogurt popsicles', 'vegetarian strawberry yogurt pops', 'easy frozen yogurt pops'],
     why: 'The sound is how you know they are ready: a clean snap as the pop comes out of the mould, and a cold, tangy first bite that melts slowly. Creamy, not icy. Greek yogurt keeps the texture smooth, and strawberries give the colour and the sweetness.\n\nBlend part of the fruit into the yogurt for colour and flavour, and stir chopped pieces in for texture. **Do not use fat-free yogurt**, because it freezes hard and icy. A little honey softens the freeze and rounds off the tartness, and lemon juice sharpens the berries. Four hours is the minimum. Overnight is better.\n\nTaste the mixture before you fill the moulds. Freezing dulls sweetness, so it should taste slightly sweeter than you want the finished pop to be. Run the moulds under warm water for a few seconds to release them. They keep for 2 months in the freezer, wrapped, and make a cool, light dessert that is mostly fruit and yogurt.',
     ing: [
       '400 g plain Greek yogurt',
@@ -256,7 +256,7 @@ module.exports = {
   'cottage-cheese-ice-cream': {
     d: 'Low-fat cottage cheese blended with frozen banana and strawberries into a thick, creamy soft-serve, with no machine. Four servings in 10 minutes.',
     meta: 'Cottage cheese ice cream: low-fat cottage cheese blended with frozen banana and strawberries into a creamy soft-serve. Gluten free. Four servings.',
-    kw: ['cottage cheese ice cream', 'weight loss friendly ice cream', 'gluten free cottage cheese ice cream', 'no churn cottage cheese ice cream', 'easy cottage cheese ice cream'],
+    kw: ['cottage cheese ice cream', 'ice cream under 400 calories', 'gluten free cottage cheese ice cream', 'no churn cottage cheese ice cream', 'easy cottage cheese ice cream'],
     why: 'A dessert for four that takes 10 minutes, with no ice cream machine, no custard and no waiting. Frozen banana and strawberries are blended with cottage cheese until the mixture turns thick and creamy, like soft-serve. Eat it straight away.\n\nBlend until completely smooth; cottage cheese curds that survive leave a grainy texture. **Use frozen fruit**, straight from the freezer, so the mixture thickens as it blends. Frozen banana gives the sweetness and the creamy body, and strawberries add colour and tang. A splash of milk helps the blender catch the fruit. Scrape down the sides. Taste it before serving and add a little more honey if the strawberries were tart.\n\nFor a firmer, scoopable ice cream, spoon the soft-serve into a container, freeze it until firm and let it stand for 5 minutes before scooping. Freezing makes it scoopable. Fruit and cheese give it protein, so a serving is a snack as much as a dessert.',
     ing: [
       '400 g low-fat cottage cheese',
@@ -284,7 +284,7 @@ module.exports = {
   'strawberry-sorbet': {
     d: 'Frozen strawberries blended with lime and a little maple syrup into a smooth sorbet, with no ice cream machine. Four servings in 5 minutes.',
     meta: 'Strawberry sorbet: frozen strawberries blended with lime and a little maple syrup into a smooth sorbet. Vegan and gluten free. Four servings.',
-    kw: ['strawberry sorbet', 'weight loss friendly sorbet', 'vegan strawberry sorbet', 'dairy free strawberry sorbet', 'easy 4 ingredient strawberry sorbet'],
+    kw: ['strawberry sorbet', 'sorbet under 400 calories', 'vegan strawberry sorbet', 'dairy free strawberry sorbet', 'easy 4 ingredient strawberry sorbet'],
     why: 'It is sorbet without the sugar syrup or the ice cream machine: frozen strawberries blended until smooth, with a little lime and maple syrup for balance. Four ingredients, five minutes. Fruit is the whole recipe, so the sorbet tastes of strawberry and little else.\n\nThe trick is a very frozen start. **Use fruit straight from the freezer**, not thawed, and blend in short bursts until it turns from crumbs to a smooth, thick purée. Scrape the sides often. Add the water a spoonful at a time, since too much makes it slushy. Frozen berries vary in sweetness, so taste and adjust: lime brightens, and maple syrup sweetens if the fruit is tart.\n\nServe at once as soft sorbet, or spoon it into a container and freeze it for a firmer scoop. Fresh is best. Left in the freezer it keeps for 1 week, though it hardens, so leave it to stand for 5 minutes before serving.',
     ing: [
       '500 g frozen strawberries',
@@ -310,7 +310,7 @@ module.exports = {
   'poached-pears': {
     d: 'Pear halves simmered gently in water with cinnamon, cloves, lemon and vanilla until tender, served warm or chilled with a little of the syrup. Four servings in 35 minutes.',
     meta: 'Poached pears: pear halves simmered in cinnamon, clove, lemon and vanilla syrup until tender. Vegan and gluten free. Four servings in 35 minutes.',
-    kw: ['poached pears', 'weight loss friendly poached pears', 'vegan poached pears', 'gluten free poached pears with cinnamon', 'easy poached pears'],
+    kw: ['poached pears', 'poached pears under 400 calories', 'vegan poached pears', 'gluten free poached pears with cinnamon', 'easy poached pears'],
     why: 'Pears, water, a cinnamon stick, strips of lemon zest and a spoonful of maple syrup make up the whole recipe. Nothing else is needed. The pears simmer until tender, taking on the spice and a pale golden colour, while the liquid turns into a light syrup you can spoon over them.\n\nChoose pears that are ripe but still firm; soft ones fall apart in the pan. **Keep the liquid barely simmering**, never boiling, so the pears cook gently and hold their shape. A bare simmer is enough. Test with a small knife: it should slide into the thickest part with a little resistance. Cut a thin slice from the base of each half so it sits flat.\n\nServe warm or chilled, with a spoonful of the poaching liquid and a little yogurt if you like. Kept in their liquid, the pears last for 4 days in the fridge, and the flavour deepens as they sit. Leftover liquid is good over porridge.',
     ing: [
       '700 g firm ripe pears, peeled, halved and cored',
@@ -341,7 +341,7 @@ module.exports = {
   'frozen-chocolate-banana-bites': {
     d: 'Banana slices dipped halfway in melted dark chocolate and chopped peanuts, then frozen until firm. Eight servings, with 13 minutes of work and an hour of freezing.',
     meta: 'Frozen chocolate banana bites: banana slices dipped in dark chocolate with chopped peanuts and frozen until firm. Gluten free. Eight servings.',
-    kw: ['frozen chocolate banana bites', 'weight loss friendly frozen banana bites', 'gluten free chocolate banana bites', 'vegetarian chocolate dipped banana slices', 'easy frozen chocolate banana bites'],
+    kw: ['frozen chocolate banana bites', 'frozen banana bites under 400 calories', 'gluten free chocolate banana bites', 'vegetarian chocolate dipped banana slices', 'easy frozen chocolate banana bites'],
     why: 'Parchment makes all the difference. Lay the slices on a lined tray, dip each one halfway while it is dry, and put it straight back on the paper, so that once the chocolate sets in the freezer the bites lift away cleanly and keep their coating.\n\nUse bananas that are ripe but still firm, with only a few spots; very soft ones turn to mush when frozen. **Melt the chocolate gently**, in 30-second bursts in the microwave, because chocolate scorches easily. Stir between every burst. A teaspoon of coconut oil keeps the coating thin and glossy, so it snaps rather than cracks. Scatter the peanuts over while the chocolate is still wet, or they will not stick.\n\nFreeze for at least 1 hour, until firm. Serve them straight from the freezer. They soften quickly at room temperature. Three slices make a serving, which keeps the chocolate to a small, sweet treat, and the bites last for 1 month in a freezer bag.',
     ing: [
       '360 g bananas, firm and just ripe, cut into 24 slices',
@@ -369,7 +369,7 @@ module.exports = {
   'baked-peaches-with-cinnamon': {
     d: 'Peach halves baked with honey, cinnamon and vanilla until soft and syrupy, served with Greek yogurt and sliced almonds. Four servings in 30 minutes.',
     meta: 'Baked peaches with cinnamon: peach halves baked with honey, vanilla and cinnamon and served with Greek yogurt and almonds. Gluten free.',
-    kw: ['baked peaches with cinnamon', 'weight loss friendly baked peaches', 'gluten free baked peaches', 'vegetarian baked peaches with yogurt', 'easy baked peaches with cinnamon'],
+    kw: ['baked peaches with cinnamon', 'baked peaches under 400 calories', 'gluten free baked peaches', 'vegetarian baked peaches with yogurt', 'easy baked peaches with cinnamon'],
     why: 'The smell arrives first: cinnamon and vanilla warming into the juice of the peaches, with a faint caramel edge from the honey. Meanwhile the fruit softens and the juices bubble into a light syrup in the dish. There is nothing to do but wait.\n\nChoose ripe peaches that still give slightly when pressed; they should be fragrant. Ripeness is everything. **Halve and stone the peaches**, then place them cut side up in a dish so the juices pool around them. Honey, cinnamon and vanilla go on top. Bake until a knife slides in easily, then serve with a spoonful of Greek yogurt and a scatter of almonds.\n\nPeaches vary in sweetness. Taste before adding more honey. Almonds go on for the last 5 minutes, so they toast without burning. Serve warm, with the juices spooned over, or chill them and have them for breakfast the next day with yogurt. They keep for 3 days in the fridge.',
     ing: [
       '600 g ripe peaches, halved and stoned',
@@ -398,7 +398,7 @@ module.exports = {
   'grilled-pineapple': {
     d: 'Pineapple rings brushed with lime and maple syrup and grilled until golden and marked, finished with cinnamon and mint. Four servings in 13 minutes.',
     meta: 'Grilled pineapple: pineapple rings brushed with lime and a little maple syrup and grilled until golden. Vegan and gluten free. Four servings.',
-    kw: ['grilled pineapple', 'weight loss friendly grilled pineapple', 'vegan grilled pineapple', 'gluten free grilled pineapple with lime', 'quick grilled pineapple in 13 minutes'],
+    kw: ['grilled pineapple', 'grilled pineapple under 400 calories', 'vegan grilled pineapple', 'gluten free grilled pineapple with lime', 'quick grilled pineapple in 13 minutes'],
     why: 'Why grill pineapple? Heat concentrates the sugars and caramelises the edges, so the fruit tastes sweeter and deeper with only a teaspoon of maple syrup to help it along. The grill marks add a smoky note that turns a plain fruit into a dessert.\n\nCut the pineapple into rings or long spears about 1.5 cm thick, so they hold together on the grill. **Pat them dry** before they go on, since wet fruit steams instead of marking. Dry fruit marks better. Grill over medium-high heat for 3 to 4 minutes a side, until the surface is deeply golden. A pinch of cinnamon and a squeeze of lime finish the dish.\n\nServe it warm, with mint and a spoonful of yogurt or a scoop of sorbet if you like. Use a ripe, fragrant pineapple: it should smell sweet at the base and give slightly when pressed. If the fruit is already very sweet, use a little less maple syrup. Leftovers keep for 2 days.',
     ing: [
       '500 g fresh pineapple, peeled, cored and cut into 1.5 cm rings',

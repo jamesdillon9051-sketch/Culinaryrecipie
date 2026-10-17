@@ -28,6 +28,23 @@
   }
   window.cvEscape = escapeHtml;
 
+  /* Start-to-finish time for a result, matching compactTime() in
+     src/lib/util.js: minutes under two hours, half hours above, days above
+     two days, and a range where the method gives one. */
+  function cardTime(min, max) {
+    min = Number(min) || 0;
+    var top = max && Number(max) > min ? Number(max) : min;
+    if (!min) return '0 min';
+    if (top < 120) return top > min ? min + '–' + top + ' min' : min + ' min';
+    if (min >= 2880) {
+      var d = function (m) { return Math.round(m / 720) / 2; };
+      return top > min && d(top) !== d(min) ? d(min) + '–' + d(top) + ' days' : d(min) + ' days';
+    }
+    var h = function (m) { return Math.round(m / 30) / 2; };
+    if (min < 60) return min + ' min–' + h(top) + ' hr';
+    return top > min && h(top) !== h(min) ? h(min) + '–' + h(top) + ' hr' : h(min) + ' hr';
+  }
+
   function read(key, fallback) {
     try {
       var raw = localStorage.getItem(key);
@@ -217,7 +234,7 @@
           return '<a class="ac-item" role="option" id="ac-' + i + '" aria-selected="false" href="' +
             escapeHtml(document.body.dataset.base + 'recipes/' + m.g + '/') + '">' + thumb +
             '<span><strong>' + escapeHtml(m.t) + '</strong><span>' + escapeHtml(m.c) +
-            ' &middot; ' + escapeHtml(m.m) + ' min &middot; ' + escapeHtml(m.d) + '</span></span></a>';
+            ' &middot; ' + escapeHtml(cardTime(m.m, m.x)) + ' &middot; ' + escapeHtml(m.d) + '</span></span></a>';
         }).join('');
         active = -1;
       };
@@ -400,18 +417,19 @@
         });
       });
 
-      /* The form is a real Netlify Forms post. Without JavaScript the browser
-         submits it natively and lands on /contact/success/, which is why the
-         action and method are in the markup rather than added here.
+      /* The form posts to contact/send.php. Without JavaScript the browser
+         submits it natively and the script redirects to contact/success/ or
+         contact/not-sent/.
 
-         With JavaScript, this posts the same body in the background so the
-         reader keeps their place — and if that fails for any reason, it hands
-         the form back to the browser rather than swallowing the message. A
-         contact form that silently loses what somebody wrote is worse than one
-         that reloads the page. */
-      var sendingNatively = false;
+         With JavaScript, this posts the same body in the background and says
+         the message was sent only when the script answers {"ok": true}. An
+         HTTP 200 alone proves nothing: on a host without PHP, or before the
+         endpoint existed, a static page answered 200 and every message was
+         lost behind a thank-you. On anything else the form keeps what the
+         reader typed and says plainly that it was not sent. It does not retry
+         by itself, because a reply that was slow rather than lost would then
+         send the message twice. */
       contact.addEventListener('submit', function (e) {
-        if (sendingNatively) return;          /* the retry below; let it through */
         var fields = $$('input[name], textarea[name]', contact);
         var firstBad = null;
         fields.forEach(function (f) { if (!validateField(f) && !firstBad) firstBad = f; });
@@ -422,31 +440,33 @@
 
         var status = $('#contact-status');
         var button = $('button[type="submit"]', contact);
-        var say = function (text) {
+        var say = function (text, failed) {
           if (!status) return;
           status.hidden = false;
           status.textContent = text;
+          status.classList.toggle('form-status--error', !!failed);
           status.focus();
         };
 
         if (button) { button.disabled = true; button.textContent = 'Sending…'; }
         say('Sending…');
 
-        fetch(contact.getAttribute('action') || location.pathname, {
+        fetch(contact.getAttribute('action'), {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Accept': 'application/json' },
           body: new URLSearchParams(new FormData(contact)).toString()
         }).then(function (res) {
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          contact.reset();
-          say('Thank you — your message has been sent. I read everything, and I answer most things, '
-            + 'though not always quickly.');
+          return res.json().catch(function () { return null; }).then(function (data) {
+            if (res.ok && data && data.ok === true) {
+              contact.reset();
+              say('Thank you. Your message was accepted for delivery to the site\'s inbox.');
+              return;
+            }
+            say('Your message was not sent. ' + (data && data.message ? data.message + ' ' : '')
+              + 'What you wrote is still in the form, so you can try again later.', true);
+          });
         }).catch(function () {
-          /* Do not clear the form. Let the browser post it the ordinary way so
-             the words the reader typed are not lost. */
-          say('Something went wrong sending that. Trying again the normal way…');
-          sendingNatively = true;
-          contact.submit();
+          say('Your message was not sent: the connection failed. What you wrote is still in the form, so you can try again.', true);
         }).then(function () {
           if (button) { button.disabled = false; button.textContent = 'Send message'; }
         });

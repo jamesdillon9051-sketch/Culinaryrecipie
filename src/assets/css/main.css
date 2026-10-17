@@ -1030,6 +1030,9 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
   color: var(--sage-d); font-size: .9rem; font-weight: 500;
 }
 [data-theme="dark"] .form-status { color: #a8bd8c; }
+/* A message that was not sent must not look like one that was. */
+.form-status--error { background: color-mix(in srgb, #c0392b 12%, transparent); color: #a5281b; }
+[data-theme="dark"] .form-status--error { color: #ff8a75; }
 
 .newsletter {
   background: linear-gradient(135deg, var(--terracotta), #8f3a24 60%, var(--brass));
@@ -1303,3 +1306,9 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 .hub-links a:hover { border-color: var(--accent); }
 .hub-links li span { font-size: .78rem; color: var(--text-soft); margin-left: .15rem; }
 .related-more { margin-top: 1.25rem; font-size: .95rem; color: var(--text-soft); }
+
+/* A list of recipe names in columns: the full A–Z on the directory, and the
+   recipes a hub lists by name after its first picture cards. */
+.az-list { columns: 3 14rem; column-gap: 2rem; margin: 1rem 0 0; padding-left: 1.1rem; font-size: .92rem; }
+.az-list li { break-inside: avoid; margin-bottom: .35rem; }
+.hub-more { margin-top: clamp(2.5rem, 6vw, 4rem); }
