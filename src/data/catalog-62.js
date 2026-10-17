@@ -102,7 +102,7 @@ module.exports = [
   c('chokladbollar', 'Chokladbollar', 'Swedish', 'Desserts', 'Easy', 15, 0, 20, 0, 0, ['Vegetarian'], ['new'], 'chokladbollar'),
   c('rabarberpaj', 'Rabarberpaj', 'Swedish', 'Desserts', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'rabarberpaj'),
   c('princess-cake', 'Princess Cake', 'Swedish', 'Baking', 'Hard', 60, 35, 12, 0, 0, ['Vegetarian'], ['new'], 'princess cake'),
-  c('swedish-crayfish-boil', 'Swedish Crayfish Boil', 'Swedish', 'Quick Meals', 'Easy', 10, 10, 6, 0, 0, [], ['new'], 'swedish crayfish boil'),
+  c('swedish-crayfish-boil', 'Swedish Crayfish Boil', 'Swedish', 'Dinner', 'Easy', 10, 10, 6, 0, 0, [], ['new'], 'swedish crayfish boil'),
   c('fiskgratang', 'Fiskgratang', 'Swedish', 'Dinner', 'Easy', 20, 35, 4, 0, 0, [], ['new'], 'fiskgratang'),
   c('stegt-flaesk', 'Stegt Flaesk', 'Danish', 'Dinner', 'Easy', 10, 25, 4, 0, 0, [], ['new'], 'stegt flaesk'),
   c('aebleskiver', 'Aebleskiver', 'Danish', 'Breakfast', 'Medium', 20, 20, 4, 0, 0, ['Vegetarian'], ['new'], 'aebleskiver'),

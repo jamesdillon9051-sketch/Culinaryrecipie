@@ -62,7 +62,7 @@ module.exports = [
   /* ----------------------------------------------------------- Indian (9) */
   c('lamb-rogan-josh', 'Lamb Rogan Josh', 'Indian', 'Dinner', 'Medium', 25, 90, 6, 4.8, 2866, ['Gluten-Free'], ['editors'], 'Rogan josh'),
   c('dal-makhani', 'Dal Makhani', 'Indian', 'Dinner', 'Medium', 20, 120, 6, 4.9, 3644, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Dal makhani'),
-  c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 60, 8, 4.9, 4122, ['Gluten-Free'], [], 'Hyderabadi biryani'),
+  c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 60, 8, 4.9, 4122, [], [], 'Hyderabadi biryani'),
   c('vada-pav', 'Vada Pav', 'Indian', 'Lunch', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
   c('masala-chai', 'Masala Chai', 'Indian', 'Drinks', 'Easy', 5, 10, 4, 4.8, 3122, ['Vegetarian', 'Gluten-Free'], [], 'Masala chai'),
   c('misal-pav', 'Misal Pav', 'Indian', 'Appetizers', 'Medium', 30, 45, 6, 4.7, 1866, ['Vegetarian', 'Vegan'], ['trending'], 'Misal pav'),
@@ -105,7 +105,7 @@ module.exports = [
 
   /* ----------------------------------------------------------- German (4) */
   c('schnitzel', 'German Pork Schnitzel', 'German', 'Dinner', 'Easy', 20, 10, 4, 4.9, 4288, [], ['trending'], 'Wiener schnitzel'),
-  c('bratwurst', 'Bratwurst with Sauerkraut', 'German', 'Dinner', 'Easy', 10, 25, 4, 4.7, 1544, ['Gluten-Free'], [], 'Bratwurst sauerkraut'),
+  c('bratwurst', 'Bratwurst with Sauerkraut', 'German', 'Dinner', 'Easy', 10, 25, 4, 4.7, 1544, [], [], 'Bratwurst sauerkraut'),
   c('pretzel-brezel', 'Bavarian Brezel', 'German', 'Baking', 'Medium', 90, 15, 8, 4.7, 1422, ['Vegan'], [], 'Bavarian pretzel'),
 
   /* --------------------------------------------------------- Austrian (3) */
@@ -220,7 +220,7 @@ module.exports = [
   /* ------------------------------------------------------ Portuguese (3) */
   c('francesinha', 'Francesinha', 'Portuguese', 'Dinner', 'Medium', 25, 30, 2, 4.7, 1044, [], [], 'Francesinha'),
   c('arroz-de-marisco', 'Arroz de Marisco', 'Portuguese', 'Dinner', 'Medium', 25, 40, 6, 4.7, 866, ['Dairy-Free'], [], 'Arroz de marisco'),
-  c('bifana', 'Bifana', 'Portuguese', 'Quick Meals', 'Easy', 15, 15, 4, 4.7, 1188, [], [], 'Bifana'),
+  c('bifana', 'Bifana', 'Portuguese', 'Lunch', 'Easy', 15, 15, 4, 4.7, 1188, [], [], 'Bifana'),
 
   /* ------------------------------------------------------------ Thai (4) */
 

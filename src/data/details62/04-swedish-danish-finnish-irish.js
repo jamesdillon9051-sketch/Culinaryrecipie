@@ -326,7 +326,7 @@ module.exports = {
 
   'kransekage': {
     d: 'A tower of marzipan rings baked until chewy and glazed with white icing, the Danish celebration cake for New Year and weddings.',
-    meta: 'Kransekage, Danish marzipan ring tower with white icing, baked for 25 minutes. Twelve servings, ready in 55 minutes.',
+    meta: 'Kransekage, Danish marzipan ring tower with white icing: the dough is chilled for an hour, then the rings are baked for 25 minutes. Serves twelve.',
     kw: ['kransekage', 'danish marzipan ring cake', 'almond ring tower cake', 'kransekage recipe', 'new year ring cake'],
     why: 'Compare it with a layer cake and you find a different idea of celebration: a tower of marzipan rings, stacked from the largest at the bottom to the smallest at the top, and broken apart with the fingers. Kransekage is the Danish cake for New Year, weddings and other big events, made of almonds, sugar and egg white and nothing else.\n\nGrind blanched almonds finely, mix them with icing sugar, and knead in the egg whites to a thick, sticky dough. The dough should be firm enough to roll but slightly tacky. **Rest it in the fridge for 1 hour** so it is easier to handle, and roll it between floured hands into ropes of different lengths. Join each rope into a ring with a dab of water, graded in size from 8 cm to 25 cm.\n\nBake the rings on lined trays at 180C for about 20 to 25 minutes, until pale gold. They should be chewy in the middle, so do not overbake. Cool completely. Mix icing sugar with egg white and lemon juice, pipe it in zigzags over each ring and stack them into a tower, with the largest on the bottom. Serve by breaking off the rings.',
     ing: [
@@ -637,7 +637,7 @@ module.exports = {
 
   'poronkaristys': {
     d: 'Thin slices of reindeer or venison sautéed with onion and served over mashed potatoes with lingonberries, ready in 30 minutes.',
-    meta: 'Poronkäristys, Finnish sautéed reindeer or venison with lingonberries and mash, cooked for 20 minutes. Four servings, ready in 30 minutes.',
+    meta: 'Poronkäristys, Finnish sautéed reindeer or venison with lingonberries and mash: the meat is part-frozen to slice thinly, then cooked for 20 minutes.',
     kw: ['poronkaristys', 'finnish sauteed reindeer', 'lapland reindeer stew', 'poronkäristys recipe', 'venison with lingonberries and mash'],
     why: 'Short and sharp: freeze the meat first, slice it thin and fry it hot. That is the instruction for poronkäristys, the Lapland dish of sautéed reindeer, which is thinly sliced meat, fried quickly with onion and finished with cream. It is served over mashed potatoes with lingonberry jam, and is the most famous meal of northern Finland.\n\nReindeer meat is lean and dark. If you cannot get it, use venison, or even beef sirloin. Freeze the meat for an hour until it is firm, as it is then easy to slice into thin shavings. Melt the butter in a large heavy pan until it foams. **Fry the meat in two batches over a very high heat**, only 2 minutes each, so that it browns and does not stew in its juices. Lift out.\n\nIn the same pan, fry a sliced onion until golden, then add water, juniper, allspice and a splash of cream. Return the meat and simmer for 5 minutes, until the sauce coats it. Season with salt. Serve over a mound of butter rich mashed potato with a spoonful of lingonberry jam and pickled cucumber on the side.',
     ing: [

@@ -52,7 +52,7 @@ module.exports = {
   },
 
   'danish-pastry': {
-    rest: [165, 'chilling'],
+    rest: [210, 'chilling and proving'],
     d: 'Laminated yeast dough folded around cold butter three times, shaped into spandauer and cooked until the layers separate and the custard sets.',
     meta: 'Danish pastries — laminated yeast dough folded three times, filled with custard and baked golden.',
     kw: ['danish pastry recipe', 'wienerbrod', 'laminated dough', 'spandauer pastry'],

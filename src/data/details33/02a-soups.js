@@ -15,7 +15,7 @@ module.exports = {
   'big-batch-vegetable-soup': {
     d: 'A big pot of vegetable soup with carrot, celery, tomato, cabbage, green beans, zucchini and white beans, built on a slow-cooked base. Eight servings in 50 minutes.',
     meta: 'Big batch vegetable soup: carrot, celery, tomato, cabbage, green beans, zucchini and white beans in one pot. Vegan, eight servings in 50 minutes.',
-    kw: ['big batch vegetable soup', 'weight loss friendly vegetable soup', 'vegan vegetable soup', 'gluten free vegetable soup with beans', 'easy big batch vegetable soup'],
+    kw: ['big batch vegetable soup', 'vegetable soup under 400 calories', 'vegan vegetable soup', 'gluten free vegetable soup with beans', 'easy big batch vegetable soup'],
     why: 'The common failure with a big pot of vegetable soup is a thin, flat broth and limp, grey vegetables. Two habits prevent it. Build the base slowly, and add the quick-cooking vegetables late. Sweat the onion, carrot and celery for 8 minutes before any liquid goes in, so they turn sweet and give the broth some body.\n\nOrder matters. **Add the quick vegetables last**: the green beans and zucchini go in for the final 10 minutes, so they stay bright and keep a little bite. White beans add body and protein, so the pot works as a meal rather than a starter. Tomatoes and a bay leaf supply the savoury depth that unsalted stock alone does not.\n\nA pot this size makes eight bowls. It improves overnight. Cool leftovers quickly, then keep them in the fridge for up to 4 days or freeze them in portions for up to 3 months. Finish each bowl with a squeeze of lemon and a little parsley.',
     ing: [
       '1 tbsp olive oil',
@@ -56,7 +56,7 @@ module.exports = {
   'turkey-meatball-soup': {
     d: 'Small turkey meatballs simmered in a tomato and vegetable broth with ditalini pasta and spinach. Six servings in 55 minutes.',
     meta: 'Turkey meatball soup: lean turkey meatballs in a tomato and vegetable broth with small pasta and spinach. Dairy free. Six servings in 55 minutes.',
-    kw: ['turkey meatball soup', 'weight loss friendly meatball soup', 'dairy free turkey meatball soup', 'italian turkey meatball soup with spinach', 'homemade turkey meatball and pasta soup'],
+    kw: ['turkey meatball soup', 'meatball soup under 400 calories', 'dairy free turkey meatball soup', 'italian turkey meatball soup with spinach', 'homemade turkey meatball and pasta soup'],
     why: 'A weeknight pot for six that is a full supper in one bowl: tender turkey meatballs, small pasta and plenty of vegetables in a tomato broth. The meatballs poach in the soup, so there is no frying, no extra pan and no separate sauce. Shaping them is the only fiddly part.\n\nLean turkey needs help to stay tender. Oats and an egg bind the mixture and hold moisture, and a light hand matters more than either. **Mix until just combined**, then roll the meatballs with wet hands into balls about the size of a walnut. Drop them into simmering, not boiling, broth, because a hard boil breaks them apart before they have set.\n\nAdd the pasta once the meatballs are cooked, and the spinach in the last 2 minutes. Pasta keeps drinking broth. Eat the soup promptly, and add a splash of stock when you reheat leftovers. Fresh basil on top is a good finishing touch.',
     ing: [
       '# For the meatballs',
@@ -99,7 +99,7 @@ module.exports = {
   'sopa-de-lima': {
     d: 'A Mexican-style chicken soup bright with lime, tomato and jalapeño, served with crisp baked tortilla strips and avocado. Six servings in 45 minutes.',
     meta: 'Sopa de lima: shredded chicken in a lime, tomato and jalapeño broth with baked tortilla strips and avocado. Dairy free and gluten free. Six servings.',
-    kw: ['sopa de lima', 'weight loss friendly chicken lime soup', 'gluten free sopa de lima', 'dairy free mexican chicken lime soup', 'mexican lime soup with tortilla strips'],
+    kw: ['sopa de lima', 'chicken lime soup under 400 calories', 'gluten free sopa de lima', 'dairy free mexican chicken lime soup', 'mexican lime soup with tortilla strips'],
     why: 'Chicken, lime, tomato and a handful of crisp tortilla strips: that is the whole idea. The broth is light and sharp, with jalapeño for a gentle heat, and the chicken is poached in it, so the soup tastes of what went into the pot. Lime goes in at the end.\n\nPoach the chicken gently. **Keep the broth at a simmer**, not a boil, for about 15 minutes, until the breasts are cooked through, then shred them with two forks. Tomatoes, oregano and cumin simmer into the broth while you do. The tortilla strips are baked rather than fried, and they are what turns the bowl into a meal.\n\nLime juice loses its brightness if it boils, so stir it in off the heat, with a little zest. Add the strips last. Serve with avocado slices and cilantro, and put extra lime wedges on the table, because the soup is best the day it is made and the strips go soft as they sit.',
     ing: [
       '450 g skinless chicken breast',
@@ -138,7 +138,7 @@ module.exports = {
   'carrot-ginger-soup': {
     d: 'A smooth carrot soup with fresh ginger, garlic and a squeeze of lemon, thickened by the carrots alone. Four servings in 40 minutes.',
     meta: 'Carrot ginger soup: carrots simmered with fresh ginger and garlic and blended smooth with no cream. Vegan and gluten free. Four servings.',
-    kw: ['carrot ginger soup', 'weight loss friendly carrot soup', 'vegan carrot ginger soup', 'gluten free carrot ginger soup', 'easy carrot ginger soup without cream'],
+    kw: ['carrot ginger soup', 'carrot soup under 400 calories', 'vegan carrot ginger soup', 'gluten free carrot ginger soup', 'easy carrot ginger soup without cream'],
     why: 'Cook the carrots until they are very soft. That is most of the recipe. Carrots that are only just tender blend into a gritty soup, while carrots simmered for the full 25 minutes turn to a velvety purée, with no cream needed. A spoonful of plain yogurt on top is a good finish.\n\nGinger is the other half. **Grate it fresh**, and cook it with the onion and garlic for a minute so it loses its raw edge. Fresh ginger is far more fragrant than the dried powder. A pinch of turmeric deepens the colour, and lemon juice at the end cuts the sweetness of the carrots. Taste before you season, since the stock is unsalted.\n\nBlend the soup until it is completely smooth, in batches if your blender is small, with the lid ajar and a cloth over it so the steam can escape. A spoonful of pumpkin seeds on top adds crunch. It keeps for 4 days.',
     ing: [
       '1 tbsp olive oil',
@@ -172,7 +172,7 @@ module.exports = {
   'spinach-and-white-bean-soup': {
     d: 'White beans, spinach, carrot and celery in a garlicky broth, with half the beans mashed in to thicken it. Four servings in 35 minutes.',
     meta: 'Spinach and white bean soup: cannellini beans, spinach, carrot and celery in a garlicky broth. Vegan, ready in 35 minutes. Four servings.',
-    kw: ['spinach and white bean soup', 'weight loss friendly bean soup', 'vegan white bean and spinach soup', 'gluten free spinach and bean soup', 'easy spinach and white bean soup'],
+    kw: ['spinach and white bean soup', 'bean soup under 400 calories', 'vegan white bean and spinach soup', 'gluten free spinach and bean soup', 'easy spinach and white bean soup'],
     why: 'Bean soups fail by being thin and bland. The cure is to mash some of the beans back into the broth, which thickens it without cream or flour and makes every spoonful taste of beans. Half the beans stay whole for texture, and half are crushed against the side of the pot.\n\nCarrot, celery and onion go in first and soften for 6 minutes, because they flavour the broth. Spinach needs hardly any time. **Add the spinach at the end**, so it stays green and tender; a few minutes in the hot soup is all it needs. Rosemary and garlic carry the Italian flavour, and a squeeze of lemon lifts the whole bowl.\n\nCanned beans are fine and save the soaking. Drain and rinse them to get rid of the salty liquid, and taste before you add salt. The soup thickens as it stands, so loosen leftovers with a splash of water.',
     ing: [
       '1 tbsp olive oil',
@@ -207,7 +207,7 @@ module.exports = {
   'broccoli-spinach-soup': {
     d: 'A bright green soup of broccoli, spinach and a little potato, blended smooth with no cream. Four servings in 30 minutes.',
     meta: 'Broccoli spinach soup: broccoli, spinach and a little potato blended smooth and finished with lemon and nutmeg. Vegan. Four servings in 30 minutes.',
-    kw: ['broccoli spinach soup', 'weight loss friendly green soup', 'vegan broccoli spinach soup', 'dairy free broccoli soup without cream', 'easy broccoli and spinach soup'],
+    kw: ['broccoli spinach soup', 'green soup under 400 calories', 'vegan broccoli spinach soup', 'dairy free broccoli soup without cream', 'easy broccoli and spinach soup'],
     why: 'A khaki soup is an overcooked soup. Broccoli and spinach lose their colour with every minute on the heat, so this recipe cooks the broccoli only until tender and adds the spinach right at the end, for less than a minute, before blending. A little potato gives body without cream.\n\nChop the broccoli stems small and cook them with the florets; they taste sweet once the tough skin is peeled and they soften in the same time. **Blend it straight away**, in batches, with the lid ajar and a cloth over it so the steam can escape. A stick blender makes it easier. Taste, then add lemon juice and a grating of nutmeg. Add the nutmeg sparingly.\n\nThe only starch is a little potato. Reheat gently and avoid boiling, which dulls the colour. It keeps for 3 days in the fridge, and it freezes well too. Serve with a squeeze of lemon and a drizzle of olive oil.',
     ing: [
       '1 tbsp olive oil',
@@ -240,7 +240,7 @@ module.exports = {
   'escarole-and-bean-soup': {
     d: 'Escarole and white beans simmered in a garlic and chilli broth, a simple Italian-style bowl. Six servings in 40 minutes.',
     meta: 'Escarole and bean soup: tender escarole and white beans in a garlic and chilli broth with lemon. Vegan and gluten free. Six servings in 40 minutes.',
-    kw: ['escarole and bean soup', 'weight loss friendly escarole soup', 'vegan escarole and white bean soup', 'gluten free italian bean soup', 'easy escarole and bean soup'],
+    kw: ['escarole and bean soup', 'escarole soup under 400 calories', 'vegan escarole and white bean soup', 'gluten free italian bean soup', 'easy escarole and bean soup'],
     why: 'The first smell is garlic and chilli sizzling in olive oil, and the second is the escarole hitting the pan and collapsing into the broth. Escarole is a bitter, leafy green that turns tender and mild in a hot soup. Beans give it body. Chilli flakes bring a slow warmth rather than sharp heat.\n\nWash the escarole well, since grit hides in the heart of the head, and chop it into wide pieces. **Add it in two batches** so the pot never overflows, and simmer until the ribs are tender. If the escarole is very bitter, soak the cut leaves in cold water for a few minutes first. Very little else is needed. Garlic, a pinch of chilli, oregano and good beans do the job, so season carefully at the end.\n\nA squeeze of lemon brightens the greens and balances the bitterness. Serve in wide bowls with an extra grind of black pepper. It keeps well. The flavour deepens overnight.',
     ing: [
       '1 tbsp olive oil',
@@ -274,7 +274,7 @@ module.exports = {
   'chilled-cucumber-soup': {
     d: 'A cold, creamy soup of cucumber, Greek yogurt, dill and mint, blended in 10 minutes. Four servings.',
     meta: 'Chilled cucumber soup: cucumber, Greek yogurt, dill, mint and lemon blended and served cold. Gluten free. Four servings in 10 minutes.',
-    kw: ['chilled cucumber soup', 'weight loss friendly cold soup', 'gluten free cucumber yogurt soup', 'no cook cucumber dill soup', 'easy chilled cucumber soup'],
+    kw: ['chilled cucumber soup', 'cold soup under 400 calories', 'gluten free cucumber yogurt soup', 'no cook cucumber dill soup', 'easy chilled cucumber soup'],
     why: 'Peel the cucumbers and scoop out the seeds. That one step is the difference between a clean, sweet soup and a bitter, watery one. It takes a couple of minutes. A teaspoon does it neatly.\n\nBlend everything with the water until completely smooth. **Chill it for 30 minutes**, so the flavours settle and it is properly cold. Cold mutes flavour. Taste the soup again once it is chilled and add salt or lemon if it needs it. Add a few ice cubes if you want it colder. Greek yogurt gives it body and tang, and dill and mint make it taste fresh rather than merely wet.\n\nServe it in small glasses as a starter, or in bowls with a drizzle of olive oil and a few dill fronds. It is best on the day it is made, though it keeps for 2 days in the fridge. Stir before serving. Garnish with a little extra mint.',
     ing: [
       '700 g cucumber, peeled, seeded and chopped',
@@ -307,7 +307,7 @@ module.exports = {
   'chicken-fajita-soup': {
     d: 'Chicken breast, peppers, onion and black beans simmered in a smoky tomato broth with chilli, cumin and lime. Six servings in 45 minutes.',
     meta: 'Chicken fajita soup: chicken, peppers, onion and black beans in a smoky tomato broth finished with lime and cilantro. Dairy free and gluten free.',
-    kw: ['chicken fajita soup', 'weight loss friendly chicken fajita soup', 'gluten free chicken fajita soup', 'dairy free fajita soup with black beans', 'easy chicken fajita soup'],
+    kw: ['chicken fajita soup', 'chicken fajita soup under 400 calories', 'gluten free chicken fajita soup', 'dairy free fajita soup with black beans', 'easy chicken fajita soup'],
     why: 'It is fajitas in a bowl: the same peppers, onions, chilli and lime, with broth where the tortilla would be. The spices go in with the vegetables, so they toast in the oil for a minute and give the soup a smoky, savoury base. Lime and cilantro finish it.\n\nChicken breast poaches in the soup and shreds easily. **Do not boil it hard**; a gentle simmer for about 15 minutes keeps the meat tender, and boiling toughens it. Shred it with two forks. Black beans add fibre and make the pot more substantial, and a can of no-salt-added tomatoes gives body without extra sodium. Taste before adding salt.\n\nPeppers and onions are cooked first until just soft, so they sweeten the broth as it simmers. Cut them into strips of a similar width so that they soften together. Serve with avocado, lime wedges and a handful of crushed tortilla chips if you like. Leftovers are better the next day.',
     ing: [
       '600 g skinless chicken breast',
@@ -346,7 +346,7 @@ module.exports = {
   'hearty-chicken-and-kale-soup': {
     d: 'Chicken breast, white beans, kale, carrot and celery in a lemony broth, thick enough to eat as a meal. Six servings in 50 minutes.',
     meta: 'Hearty chicken and kale soup: chicken, white beans, kale, carrot and celery in a lemony broth. Dairy free and gluten free. Six servings in 50 minutes.',
-    kw: ['hearty chicken and kale soup', 'weight loss friendly chicken kale soup', 'gluten free chicken and kale soup', 'dairy free chicken kale and white bean soup', 'easy chicken and kale soup with beans'],
+    kw: ['hearty chicken and kale soup', 'chicken kale soup under 400 calories', 'gluten free chicken and kale soup', 'dairy free chicken kale and white bean soup', 'easy chicken and kale soup with beans'],
     why: 'Chicken, kale, white beans and a lemon: a pot of soup thick enough to count as a meal. The beans give it body and the kale gives it substance, and the lemon at the end stops it from tasting heavy. It takes 50 minutes.\n\nStrip the kale from its stems. The stems stay tough. Tear the leaves into pieces and **add the kale near the end**, so it softens without turning drab. Poach the chicken whole, then shred it, because the shreds soak up the broth. Mash a few of the beans against the side of the pot to thicken the soup without any flour or cream.\n\nSeason at the end. The broth reduces as it simmers. Serve with a little black pepper and extra lemon. The soup keeps for 4 days in the fridge and tastes better on the second. Leftovers reheat well on the hob or in the microwave.',
     ing: [
       '450 g skinless chicken breast',
@@ -382,7 +382,7 @@ module.exports = {
   'egg-roll-soup': {
     d: 'Turkey mince, cabbage, carrot, ginger and garlic in a savoury soy broth: the filling of an egg roll without the wrapper. Six servings in 30 minutes.',
     meta: 'Egg roll soup: turkey, cabbage, carrot, ginger and garlic in a savoury soy broth. Dairy free, ready in 30 minutes. Six servings.',
-    kw: ['egg roll soup', 'weight loss friendly egg roll soup', 'dairy free egg roll soup', 'egg roll in a bowl soup with turkey', 'quick egg roll soup'],
+    kw: ['egg roll soup', 'egg roll soup under 400 calories', 'dairy free egg roll soup', 'egg roll in a bowl soup with turkey', 'quick egg roll soup'],
     why: 'Egg roll soup is what the filling of an egg roll becomes when it is given broth instead of a wrapper. Turkey, cabbage, carrot, ginger and garlic go into a savoury soy broth, and it all cooks in one pot in about 20 minutes. There is no wrapper to fry. It is also very quick.\n\nBrown the turkey first, breaking it into small crumbles, so it gives the broth a roasted flavour. **Add the cabbage in handfuls**, and let it wilt before adding more. Cabbage wilts quickly. Ginger and garlic go in with the meat, and rice vinegar at the end adds the tang you expect from the real thing. Reduced-sodium soy sauce keeps the salt in check.\n\nTaste before adding more soy sauce, because the broth concentrates as it simmers. Serve with sliced spring onions and a drizzle of sesame oil. A little chilli oil is good on top if you like heat. Leftovers keep for 3 days.',
     ing: [
       '450 g lean turkey mince',
@@ -417,7 +417,7 @@ module.exports = {
   'caldo-de-pollo': {
     d: 'A clear Mexican-style chicken soup with carrot, potato, corn, zucchini and cabbage, finished with cilantro and lime. Six servings in 65 minutes.',
     meta: 'Caldo de pollo: chicken thigh simmered with carrot, potato, corn, zucchini and cabbage and served with lime and cilantro. Dairy free. Six servings.',
-    kw: ['caldo de pollo', 'weight loss friendly chicken soup', 'gluten free caldo de pollo', 'dairy free mexican chicken soup', 'easy caldo de pollo'],
+    kw: ['caldo de pollo', 'chicken soup under 400 calories', 'gluten free caldo de pollo', 'dairy free mexican chicken soup', 'easy caldo de pollo'],
     why: 'Skim the surface in the first 10 minutes. That is the one habit that makes the broth clear: the grey foam that rises as the chicken heats is protein and impurities, and a spoon removes it in a minute. The rest of the soup looks after itself.\n\nCut the vegetables in large chunks, since they simmer for a long time and small pieces fall apart. **Add them in stages**: the carrots, potatoes and corn go in first, and the zucchini and cabbage in the last 10 minutes, so each one is tender but not mushy. Chicken thigh stays juicy in a long simmer. Lime and cilantro at the table give the soup its fresh finish.\n\nServe it in wide bowls with a piece of everything, a lime wedge and a scatter of cilantro, and let each person squeeze in their own lime. It makes six generous servings. The broth is better the next day.',
     ing: [
       '600 g skinless boneless chicken thigh',

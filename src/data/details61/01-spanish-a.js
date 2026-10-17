@@ -506,7 +506,7 @@ module.exports = {
 
   'mojo-picon': {
     d: 'A spicy red Canary sauce of dried peppers, garlic, cumin, paprika and vinegar, blended in 10 minutes with no cooking.',
-    meta: 'Mojo picón, spicy red Canary Islands sauce with garlic, cumin and paprika, ready in 10 minutes. Eight servings, no cooking.',
+    meta: 'Mojo picón, spicy red Canary Islands sauce with garlic, cumin and paprika: soak the peppers, blend in 10 minutes, rest an hour. No cooking.',
     kw: ['mojo picon', 'canary islands red mojo sauce', 'spicy red pepper sauce for potatoes', 'mojo rojo recipe', 'garlic and cumin pepper sauce'],
     why: 'Pepper, garlic, cumin, paprika, oil, vinegar: six things, a blender, and a sauce that makes boiled potatoes into a meal. Mojo picón is the red sauce of the Canary Islands, spicy and garlicky, and it is served with wrinkled potatoes, grilled meats and fish.\n\nThe heat comes from dried chillies and the colour from sweet paprika. Soak 3 dried hot peppers in water for 30 minutes to soften them, then remove the stalks and seeds. If you use a mild dried red pepper such as ñora, the sauce will be gentler. **Blend with a pinch of coarse salt**, which helps the garlic break down into a smooth paste. Add the cumin, paprika, vinegar and a splash of the soaking water.\n\nWith the blender running, pour in the olive oil in a thin stream until the sauce looks glossy and thick, like a loose paste. Taste and adjust: more vinegar for sharpness, more salt for depth. Pour into a jar and leave for an hour for the flavours to marry. It keeps for a week in the fridge, covered with a thin layer of oil.',
     ing: [

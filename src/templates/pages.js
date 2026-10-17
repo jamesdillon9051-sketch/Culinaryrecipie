@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
+const { esc, humanTime, compactTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { faqSchema } = require('../lib/faq');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
         commonsImageCount, otherArchiveImageCount,
@@ -64,7 +64,7 @@ function home(ctx) {
   /* Ordered by the editorial weight, not by rating: nothing carries a rating
      until a reader leaves one, so sorting by it put these four in catalogue
      order and called it a ranking. */
-  const quick = recipes.filter(r => r.totalTime <= 30)
+  const quick = recipes.filter(r => r.elapsedTime <= 30)
     .slice().sort((a, b) => b.popularity - a.popularity).slice(0, 4);
   const heroRecipe = recipes.find(r => r.slug === 'tacos-al-pastor') || recipes[0];
 
@@ -104,7 +104,7 @@ function home(ctx) {
       <img src="${SITE.base}assets/img/recipes/${r.imageData.file}.jpg" alt="${esc(r.imageAlt)}"
            width="800" height="600" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     </picture>
-    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${r.totalTime} min &middot; ${esc(r.cuisine)}</span>` : ''}
+    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax)} &middot; ${esc(r.cuisine)}</span>` : ''}
   </a>`;
 
   const body = `
@@ -113,10 +113,10 @@ function home(ctx) {
     <div class="hero-copy">
       <span class="eyebrow-rule hero-line">${recipeCount} recipes &middot; ${cuisineCount} cuisines</span>
       <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
-      <p class="hero-lede hero-line">The world's most famous dishes, tested until we understood them &mdash; then written down with the reason behind every step.</p>
+      <p class="hero-lede hero-line">The world's most famous dishes, written down with the reason behind every step.</p>
       <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
       <div class="hero-line hero-stats">
-        <div><strong>${recipeCount}</strong><span>Tested recipes</span></div>
+        <div><strong>${recipeCount}</strong><span>Recipes</span></div>
         <div><strong>${cuisineCount}</strong><span>Cuisines</span></div>
         <div><strong>${Object.keys(CATEGORIES).length}</strong><span>Meal types</span></div>
       </div>
@@ -134,8 +134,8 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Editor&rsquo;s Picks</span>
-        <h2 id="editors-title">The ones we make again and again</h2>
-        <p>Four recipes our test kitchen keeps returning to — the versions we would cook for someone we wanted to impress.</p>
+        <h2 id="editors-title">Four classics to start with</h2>
+        <p>Well-loved dishes with methods worth reading closely, chosen as a starting point.</p>
       </div>
       <a class="btn btn--ghost" href="${SITE.base}recipes/">All recipes</a>
     </div>
@@ -243,8 +243,8 @@ function home(ctx) {
 
   return layout({
     title: `${SITE.name} — ${SITE.tagline}`,
-    description: `The world's ${recipeCount} most famous recipes, each tested and explained: ingredients, step-by-step method, cooking science and cook mode. Free, no sign-up.`,
-    keywords: ['famous recipes', 'best recipes in the world', 'tested recipes',
+    description: `The world's ${recipeCount} most famous recipes, explained: ingredients, a step-by-step method, the reasoning behind it and a cook mode. Free, no sign-up.`,
+    keywords: ['famous recipes', 'best recipes in the world',
                'international recipes', 'cooking guide', 'recipes from around the world',
                'world food recipes', 'authentic recipes', 'home cooking',
                'easy dinner recipes', 'classic recipes', 'traditional recipes',
@@ -280,8 +280,10 @@ function home(ctx) {
         name: SITE.name,
         url: SITE.origin + SITE.base,
         logo: `${SITE.origin}${SITE.base}assets/img/icon-192.png`,
-        foundingDate: String(SITE.founded),
-        sameAs: [`https://twitter.com/${SITE.twitter.replace('@', '')}`]
+        /* Only facts the project can back. foundingDate said 2019 and sameAs
+           named a Twitter account with no record behind either. */
+        ...(SITE.founded ? { foundingDate: String(SITE.founded) } : {}),
+        ...(SITE.twitter ? { sameAs: [`https://twitter.com/${SITE.twitter.replace('@', '')}`] } : {})
       },
       {
         '@context': 'https://schema.org',
@@ -355,9 +357,9 @@ ${breadcrumbs(trail)}
     <h2 id="az-title">Full A&ndash;Z index</h2>
     <details>
       <summary>All ${plural(ctx.recipes.length, 'recipe')}, alphabetically</summary>
-      <ul style="columns:3;column-gap:2rem;margin:1rem 0 0;padding-left:1.1rem;font-size:.92rem">
+      <ul class="az-list">
         ${ctx.recipes.slice().sort((a, b) => a.title.localeCompare(b.title))
-          .map(r => `<li style="break-inside:avoid;margin-bottom:.35rem"><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}
+          .map(r => `<li><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}
       </ul>
     </details>
   </section>`}
@@ -418,8 +420,16 @@ function hubLinks({ id, heading, links }) {
   </nav>`;
 }
 
+/* How many recipes a hub shows as full picture cards. The rest are listed by
+   name underneath, so every recipe is still linked from its hub without the
+   page carrying a picture card for each: the onions hub held 2,316 cards and
+   weighed 4.4 MB of HTML before any image loaded. */
+const HUB_CARDS = 48;
+
 function taxonomyPage(ctx, options) {
   const trail = [{ name: 'Home', url: SITE.base }].concat(options.trail);
+  const carded = options.recipes.slice(0, HUB_CARDS);
+  const listed = options.recipes.slice(HUB_CARDS).sort((a, b) => a.title.localeCompare(b.title));
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
@@ -437,9 +447,13 @@ ${breadcrumbs(trail)}
   <section aria-labelledby="tax-list-title">
     <h2 id="tax-list-title" class="sr-only">${esc(options.heading)} — all ${plural(options.recipes.length, 'recipe')}</h2>
     <div class="card-grid" style="margin-top:2rem">
-      ${options.recipes.map((r, i) => card(r, { eager: i < 3, delay: (i % 4) * 60 })).join('')}
+      ${carded.map((r, i) => card(r, { eager: i < 3, delay: (i % 4) * 60 })).join('')}
     </div>
   </section>
+  ${listed.length ? `<section class="hub-more" aria-labelledby="tax-more-title">
+    <h2 id="tax-more-title">${plural(listed.length, 'more recipe')}, A&ndash;Z</h2>
+    <ul class="az-list">${listed.map(r => `<li><a href="${SITE.base}recipes/${r.slug}/">${esc(r.title)}</a></li>`).join('')}</ul>
+  </section>` : ''}
 </div>
 <div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter(options.newsId || 'tax-news')}</div>`;
 
@@ -574,7 +588,7 @@ ${breadcrumbs(trail)}
     <div>
       <span class="eyebrow">Cuisine explorer</span>
       <h1>Twenty-nine cuisines, mapped</h1>
-      <p class="lede">Every cuisine on the site, with the number of tested recipes and what makes each one tick. Start anywhere.</p>
+      <p class="lede">Every cuisine on the site, with the number of recipes and what makes each one tick. Start anywhere.</p>
       <p>Want every recipe in one list? Open the <a href="${SITE.base}site-directory/">site directory</a>.</p>
     </div>
   </header>
@@ -587,7 +601,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Cuisine Explorer',
-    description: `Browse ${recipeCount} tested recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with nutrition and method.`,
+    description: `Browse ${recipeCount} recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with nutrition and method.`,
     keywords: ['world cuisines', 'international recipes', 'cuisine guide', 'global cooking',
                'cuisines of the world', 'food by country', 'national dishes',
                'regional cooking', 'authentic world food', 'browse recipes by cuisine',
@@ -672,12 +686,17 @@ const ABOUT_FAQ = [
      + 'difference between a good cake and a dense one. We give volume measures for liquids and '
      + 'small quantities where precision matters less.' },
   { q: 'Can I suggest a recipe?',
-    a: 'Please do — use the contact form. I add recipes once I have cooked them enough times to '
-     + 'be sure the method holds, which takes as long as it takes.',
+    a: 'Please do — use the contact form. Suggestions and corrections are read, and a recipe is '
+     + 'added once it can be written and checked properly.',
     link: { text: 'contact form', href: `${SITE.base}contact/` } },
-  { q: 'Do you store my saved recipes or reviews?',
-    a: "No. Favourites, ingredient checkboxes and reviews all live in your browser's local "
-     + 'storage. Clearing your browser data clears them, and they never reach a server.' }
+  { q: 'Do you store my saved recipes or notes?',
+    a: "No. Favourites, ingredient checkboxes and the private ratings and notes you keep on a "
+     + "recipe all live in your browser's local storage. Clearing your browser data clears them, "
+     + 'and they never reach a server, so other readers cannot see them.' },
+  { q: 'Were these recipes tested in a kitchen?',
+    a: 'Not as a rule. The recipes follow well-established methods, were drafted with AI assistance '
+     + 'and are checked automatically for internal contradictions, but unless a recipe says '
+     + 'otherwise it has not been cooked and tested for this site.' }
 ];
 
 /**
@@ -690,15 +709,16 @@ const ABOUT_FAQ = [
  * server this site does not have, or a mailing list it does not run, is worse
  * than none — it is a promise nobody is keeping.
  *
- * It is not legal advice, and it says so. Kazakhstan-based operator, worldwide
+ * It is not legal advice, and it says so. One operator, worldwide
  * readers, advertising and analytics both running: worth having somebody
  * qualified read it.
  */
 /**
  * Where the contact form lands after a successful post.
  *
- * A real page rather than Netlify's generic confirmation, so the reader stays
- * on the site and knows what happens next. noindex, because a bare thank-you
+ * Reached only when contact/send.php reports that its mailer accepted the
+ * message (or by a plain form post that the script redirected here), so the
+ * page can say it was sent. noindex, because a bare thank-you
  * page in search results helps nobody.
  */
 function contactSuccess(ctx) {
@@ -711,11 +731,11 @@ ${breadcrumbs(trail)}
   <header class="recipe-head">
     <span class="eyebrow">Contact</span>
     <h1>Message sent</h1>
-    <p class="lede">Thank you &mdash; it has reached me. I read everything, and I answer most things, though not always quickly: I am a student and this site is a hobby.</p>
+    <p class="lede">Thank you. The server accepted your message for delivery to the site's inbox. There is no promised reply time.</p>
   </header>
   <div class="prose" style="max-width:64ch">
     <h2>What happens now</h2>
-    <p>Your message goes to the inbox for this site and I read it there. If you wrote about a recipe that did not work, that is the most useful kind of message I get, and it usually ends with the recipe being changed.</p>
+    <p>Your message goes to the inbox for this site. If you wrote about a recipe that did not work, that is the most useful kind of message, because it is how a recipe gets corrected.</p>
     <p>Nothing was added to any list. Your address is used to reply to you and for nothing else &mdash; the <a href="${SITE.base}privacy/">privacy page</a> sets out what is kept and by whom.</p>
     <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>
   </div>
@@ -723,8 +743,48 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Message sent',
-    description: 'Your message has been sent to Weekly Delight. I read everything and answer most things, though not always quickly.',
+    description: 'Your message was accepted for delivery to Weekly Delight.',
     path: 'contact/success/',
+    active: 'contact',
+    noindex: true,
+    body,
+    cuisines: ctx.topCuisines.slice(0, 8),
+    criticalCss: ctx.criticalCss,
+    schema: [breadcrumbSchema(trail)]
+  });
+}
+
+/**
+ * Where a plain (no-JavaScript) form post lands when nothing was sent. Says so,
+ * and why where the script said why. noindex, like the success page.
+ */
+function contactNotSent(ctx) {
+  const trail = [{ name: 'Home', url: SITE.base },
+                 { name: 'Contact', url: `${SITE.base}contact/` },
+                 { name: 'Not sent' }];
+  const body = `
+${breadcrumbs(trail)}
+<div class="wrap section" style="padding-top:1rem">
+  <header class="recipe-head">
+    <span class="eyebrow">Contact</span>
+    <h1>Your message was not sent</h1>
+    <p class="lede">Nothing was delivered. The most likely reasons are below; going back with your browser's back button usually keeps what you typed.</p>
+  </header>
+  <div class="prose" style="max-width:64ch">
+    <h2>Why it may not have gone</h2>
+    <ul>
+      <li>A field was empty or too short: a name, a valid email address, a subject and a message of at least 20 characters.</li>
+      <li>Several messages came from your connection in the last hour. Please wait and try again.</li>
+      <li>The server could not send email at that moment, or the form is not set up on it yet.</li>
+    </ul>
+    <p><a class="btn btn--primary" href="${SITE.base}contact/">Back to the contact form</a></p>
+  </div>
+</div>`;
+
+  return layout({
+    title: 'Message not sent',
+    description: 'Your message to Weekly Delight was not sent.',
+    path: 'contact/not-sent/',
     active: 'contact',
     noindex: true,
     body,
@@ -746,7 +806,7 @@ function privacy(ctx) {
      It is a constant because the honest value cannot be derived from the
      build: nothing in the repository records when the policy was last
      rewritten. Bump it by hand when the text below changes. */
-  const updated = '2026-10-07';
+  const updated = '2026-10-17';
 
   const body = `
 ${breadcrumbs(trail)}
@@ -758,7 +818,7 @@ ${breadcrumbs(trail)}
   </header>
 
   <div class="prose" style="max-width:72ch">
-    <p class="form-note">Last updated ${updated}. ${esc(SITE.name)} is run by one person, Turab, from Kazakhstan.</p>
+    <p class="form-note">Last updated ${updated}. ${esc(SITE.name)} is run by one person, ${esc(SITE.author)}.</p>
 
     <h2>The short version</h2>
     <ul>
@@ -793,9 +853,9 @@ ${breadcrumbs(trail)}
     <p>Clearing your browser data clears all four, and you will lose your saved recipes. There is no copy anywhere else.</p>
 
     <h2>The contact form</h2>
-    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to Netlify Forms &mdash; Netlify hosts this site &mdash; and I read them from the dashboard there. Netlify also records the time and the IP address the message came from, as a spam measure.</p>
-    <p>I use your address to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Submissions sit in the Netlify dashboard until I delete them; if you would like a message of yours removed, say so in a reply and I will delete it there. Netlify's own <a href="https://www.netlify.com/privacy/" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
-    <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is discarded. It collects nothing about you.</p>
+    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to a small script on this site's server, which emails them to the site's owner. The server is run by ${esc(SITE.host.name)}, which hosts this site and its email. To limit abuse, the script keeps a one-way hash of the IP address each message came from, with the time, for one hour, and then discards it.</p>
+    <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. The message is kept in the site's inbox until it is deleted; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is dropped without being sent. It collects nothing about you.</p>
     <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
 
     <h2>Analytics</h2>
@@ -811,7 +871,7 @@ ${breadcrumbs(trail)}
       <li><strong>Fonts</strong> are served from this site itself, so no font provider sees your IP address.</li>
       <li><strong>Photographs</strong> are served from this site itself, not from anywhere else.</li>
       <li><strong>The search index</strong> is a file downloaded from this site when you first use the search box. Your search terms are handled entirely in your browser and are never sent anywhere.</li>
-      <li><strong>Hosting.</strong> The site is served by Netlify, whose servers log requests, including IP addresses, as any web server does.</li>
+      <li><strong>Hosting.</strong> The site is served by ${esc(SITE.host.name)}, whose servers log requests, including IP addresses, as any web server does.</li>
     </ul>
 
     <h2>Children</h2>
@@ -854,84 +914,62 @@ ${breadcrumbs(trail)}
 
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
+  const calculatedCount = ctx.recipes.filter(r => r.nutritionSource === 'calculated').length;
 
+  /* What this page says about who runs the site and how the recipes were made
+     has to be true of the project's own records, so it says only that.
+     It used to carry a first-person biography (an age, a country, a course of
+     flight training) and the claim that every one of the recipes had been
+     cooked in the author's kitchen. Nothing in the project records supports
+     either, and the recipe text was drafted with AI assistance, so the page now
+     describes the process that actually produced the site: compilation from
+     established methods, AI-assisted drafting, automated consistency checks
+     and an image review. Personal details belong here again only once the
+     owner has confirmed them. */
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
   <header class="recipe-head">
     <span class="eyebrow">About</span>
-    <h1>I cook the way I fly: by checklist</h1>
-    <p class="lede">I am Turab, 21, studying aviation in Kazakhstan. I am not a chef. I am the person who had to learn to cook properly in a small kitchen, on a student schedule, with nobody to fix it if I got it wrong.</p>
+    <h1>About Weekly Delight</h1>
+    <p class="lede">Weekly Delight is a free collection of ${recipeCount} well-known recipes from ${cuisineCount} cuisines, each written with the reason behind every step. It is run by one person, ${esc(SITE.author)}.</p>
   </header>
 
   <div class="prose" style="max-width:72ch">
-    <p>It started badly. In my first year of flight training I was living on whatever could be reheated between an early ground school and a late night of study. I did not have time to cook, and the little I made was bad enough that I stopped trying.</p>
+    <h2 id="how-made">How the recipes are made</h2>
+    <p>The dishes here are well-known ones, and the methods follow how they are widely and traditionally made. The recipe text &mdash; the descriptions, methods, tips and storage notes &mdash; was drafted with substantial help from AI writing tools, and then put through the automated checks described below.</p>
+    <p>That process is worth being plain about, because it is not the same thing as kitchen testing. <strong>Unless a recipe says otherwise, it has not been cooked and tested for this site.</strong> The checks catch a recipe that contradicts itself; they cannot tell whether a dish tastes right or whether your oven runs hot. If you cook something here and a step does not work, please <a href="${SITE.base}contact/">say so</a> &mdash; that is the most useful correction there is.</p>
 
-    <p>What changed was not passion. It was a habit I had already been taught somewhere else. In aviation nothing important is left to memory or to mood — you work from a checklist, you set everything out before you need it, and you trust the instrument over the feeling. I started cooking the same way. Everything measured and laid out before the pan got hot. Every step written down. Every failure noted, so it did not happen twice.</p>
-
-    <p>Those notes are this site: <strong>${recipeCount} recipes</strong>, every one of them cooked in an ordinary kitchen by somebody with an exam the next morning.</p>
-
-    <h2>Why a student's kitchen makes better recipes</h2>
-    <p>Not being a chef is the most useful thing about this site. A professional kitchen hides the parts that go wrong for you at home: the one hob that runs hotter than the rest, the oven that lies by twenty degrees, the fact that finely dicing an onion takes a normal person four minutes and not forty seconds.</p>
-    <p>Nothing goes up here until it clears the same checks.</p>
+    <h2 id="how-checked">What is checked automatically, and what is not</h2>
+    <p>Every rebuild of the site runs a set of scripts over all ${recipeCount} recipes, and the build fails until a problem they find is fixed:</p>
     <ul>
-      <li><strong>Cooked in a real kitchen.</strong> One domestic hob, one unreliable oven, ordinary pans. If it only works with equipment I do not own, it does not go up.</li>
-      <li><strong>Timed honestly.</strong> The times here are how long it actually takes, chopping included. I have never met a fifteen-minute recipe that took fifteen minutes and I am not going to publish another one.</li>
-      <li><strong>Weights, not cups.</strong> Grams and millilitres, because a cup of flour changes by a fifth depending on how you scoop it — and that is the difference between a good cake and a brick.</li>
-      <li><strong>The failure written down.</strong> Every recipe says where it goes wrong and how to tell before it is too late. That is the part I needed most when I was starting, and the part almost nobody writes.</li>
-      <li><strong>Built around a student's week.</strong> What can be made ahead, what reheats, and what genuinely takes twenty minutes on a night when you have nothing left.</li>
+      <li><strong>Times are read from the method.</strong> A script looks through every step for chilling, proving, marinating and other waiting, and the total time shown on the page includes it. Where the method gives a range (&ldquo;12 to 24 hours&rdquo;), the page shows the range.</li>
+      <li><strong>Diet labels are compared with the ingredient list.</strong> Flour on a gluten-free recipe or honey on a vegan one fails the build. Where a label depends on choosing one ingredient over another, the label says so.</li>
+      <li><strong>Nutrition is an estimate.</strong> For ${calculatedCount.toLocaleString('en-GB')} recipes the printed figures match what the ingredient list adds up to against a food table compiled for this site, which is good to about ten per cent. For the other ${(ctx.recipes.length - calculatedCount).toLocaleString('en-GB')} they were estimated when the recipe was written and are checked only for internal consistency (the calories have to agree with the protein, carbohydrate and fat). Each recipe page says which.</li>
+      <li><strong>Search phrases have to be true of the recipe.</strong> &ldquo;30-minute&rdquo; is only used when the whole recipe, waiting included, takes thirty minutes or less.</li>
+      <li><strong>Every photograph is compared with the dish and its diet label before it is published.</strong> Wrong pictures have been withdrawn rather than left up.</li>
     </ul>
-    <p>I am still learning, both things in fact. But everything here has been through my own kitchen first, and I will tell you plainly when something is hard, when it is worth it, and when it is not.</p>
-
-    <h2 id="how-checked">How every recipe is checked before it goes up</h2>
-    <p>I do not have a test kitchen, so I built the checklist instead: a set of scripts that read every recipe on the site and refuse to let the build finish if one of them is wrong. Nothing below is a promise about effort — it is something you can point at, because it either ran clean against ${recipeCount} recipes or the build failed and I had to fix it before anything published.</p>
-    <ul>
-      <li><strong>The times are checked against the method, not just typed in.</strong> A script reads every step looking for words like "chill", "prove" or "marinate" and the hours attached to them, and fails the build if a recipe claims a shorter wait than its own instructions describe.</li>
-      <li><strong>Diet tags are checked against the ingredient list, word by word.</strong> "Gluten-free" and "vegan" are the labels somebody trusts most and checks least, so a script reads every ingredient on a tagged recipe and fails the build if one of them contradicts the tag — flour on a gluten-free page, chicken stock on a vegan one.</li>
-      <li><strong>The nutrition figures are checked against the ingredients they are supposedly calculated from,</strong> using the standard calories-per-gram for protein, carbohydrate and fat, so the calorie count on the page cannot quietly drift from what is actually in the pan.</li>
-      <li><strong>Every keyword the page targets has to be true of the recipe.</strong> "30 minute" only appears if the prep and cook time actually add up to thirty; "can you freeze this" only appears if the storage note answers it. A phrase that stops being true when a recipe changes is caught before it ships, not after.</li>
-      <li><strong>Substitution suggestions are checked against the ingredient list too.</strong> The "Common Substitutions &amp; Variations" section on a recipe is generated from what is actually in that dish, not written once and left to go stale — a suggestion can only appear if the ingredient it is about is really there.</li>
-      <li><strong>Every photograph is looked at against the dish, by me, before it goes up</strong> — described further down this page — and the ones that turned out to be the wrong thing were deleted rather than left up with a shrug.</li>
-    </ul>
-    <p>None of this replaces actually cooking the thing, which I still do for every recipe here. It catches the mistakes that cooking it once does not — a nutrition figure that was right when I wrote it and wrong after I changed an ingredient six months later, say, once I have moved on to a different recipe entirely and stopped thinking about this one.</p>
+    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself.</p>
 
     <h2>Where the photographs come from</h2>
-    <p>Every photograph here is used under a licence that allows it on a site like this one. Of the ${imageCount} photographs on the site, ${commonsImageCount} come from Wikimedia Commons, ${otherArchiveImageCount} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library whose own licence allows commercial use and resizing and asks for no credit (it is given anyway)` : ''}; the credit under each picture names the source. Of the archive photographs, ${publicDomainImageCount} are CC0 or public domain and carry no conditions at all, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. Everything that asks for a credit gets one, underneath the picture on the recipe itself as well as in the <a href="${SITE.base}about/#attribution">full list</a>.</p>
-    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. I do not use NonCommercial images, because this site carries advertising, or NoDerivatives images, because resizing is exactly what that licence forbids. I would rather show you nothing than show you someone else's photograph without permission.</p>
+    <p>None of the photographs on this site were taken for it. Every one is somebody else's work, used under a licence that allows it here, and credited underneath. Of the ${imageCount} photographs, ${commonsImageCount} come from Wikimedia Commons, ${otherArchiveImageCount} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library whose own licence allows commercial use and resizing and asks for no credit (it is given anyway)` : ''}. Of the archive photographs, ${publicDomainImageCount} are CC0 or public domain, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. A photograph shows the dish, not this site's own cooking of it.</p>
+    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. NonCommercial images are not used, because this site carries advertising, and neither are NoDerivatives images, because resizing is exactly what that licence forbids.</p>
     ${illustrationCount ? `<h2>And where the illustrations come from</h2>
-    <p>Some dishes have never been photographed by anyone willing to license the result, and repeated passes through the archives did not change that. Rather than leave ${illustrationCount} recipes as a blank card, those carry an illustration generated by an AI image model, from a prompt written out of the recipe's own description and ingredients.</p>
-    <p>It is a drawing of the dish and not a photograph of it, so it is labelled as one underneath the picture, listed as one in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and counted separately everywhere on this site &mdash; the ${imageCount} photographs above do not include any of them. Every one was looked at against the recipe before it was published, and the ones that came back showing the wrong dish were thrown away rather than tidied up${placeholderCount ? `, which is why ${placeholderCount} recipes still show a warm gradient card with the name on it` : ''}.</p>` : ''}
+    <p>${illustrationCount} recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an illustration underneath the picture, listed separately in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. No new illustrations are being added.</p>` : ''}
+    ${placeholderCount ? `<p>${placeholderCount} recipes have no picture at all yet and show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>` : ''}
 
     <h2>How to use the site</h2>
     <ul>
       <li><strong>Adjustable servings.</strong> Every ingredient list scales. Press the plus and minus buttons and the quantities recalculate, rounding sensibly rather than giving you 1.33 eggs.</li>
       <li><strong>Cook Mode.</strong> Enlarges the type, hides everything that is not the method, keeps your screen awake and highlights the step you are on. Arrow keys move between steps.</li>
       <li><strong>Inline timers.</strong> Where a step has a duration, there is a button to start a timer for it. It will chime and buzz when it finishes.</li>
-      <li><strong>Saved recipes.</strong> The heart icon saves anything to your <a href="${SITE.base}favourites/">favourites</a>, stored in your browser. No account, no email, no tracking.</li>
-      <li><strong>Print properly.</strong> The print button produces a clean recipe card with no navigation, no photographs bleeding ink and no advertisements.</li>
+      <li><strong>Saved recipes.</strong> The heart icon saves anything to your <a href="${SITE.base}favourites/">favourites</a>, stored in your browser. No account, no email.</li>
+      <li><strong>Print properly.</strong> The print button produces a clean recipe card with no navigation and no advertisements.</li>
     </ul>
 
     <h2 id="attribution">Attribution and licensing</h2>
-    <p>Each photograph is credited underneath itself on the recipe page, with the photographer, the licence and a link back to the original file${illustrationCount ? `, and each generated illustration says underneath itself that it is one` : ''}. The complete list in one place is <a href="${SITE.base}images-attribution.md">images-attribution.md</a>. The recipe text is mine. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
+    <p>Each photograph is credited underneath itself on the recipe page, with the photographer, the licence and a link back to the original file${illustrationCount ? `, and each generated illustration says underneath itself that it is one` : ''}. The complete list in one place is <a href="${SITE.base}images-attribution.md">images-attribution.md</a>. If you would like to reproduce a recipe, please link back rather than copying wholesale.</p>
   </div>
-
-  <section class="section" aria-labelledby="team-title">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Who writes this</span>
-        <h2 id="team-title">One person, one kitchen</h2>
-        <p>There is no test kitchen and no team. There is me, a small hob and a notebook.</p>
-      </div>
-    </div>
-    <div class="team-grid">
-      <div class="team-card reveal">
-        <span class="avatar" aria-hidden="true">T</span>
-        <strong>Turab</strong>
-        <em>Aviation student &middot; Kazakhstan</em>
-        <p>Writes, cooks, photographs and breaks everything on this site. Twenty-one, mid-way through flight training, and a hobbyist cook rather than a professional one — which is the whole point of the place.</p>
-      </div>
-    </div>
-  </section>
 
   <section class="section faq" aria-labelledby="faq-title">
     <h2 id="faq-title">Common questions</h2>
@@ -943,23 +981,15 @@ ${breadcrumbs(trail)}
       return `<details><summary>${esc(q)}</summary><p>${shown}</p></details>`;
     }).join('\n    ')}
   </section>
-</div>
-<div class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">${newsletter('about-news')}</div>`;
+</div>`;
 
   return layout({
     /* The layout appends the site name, so naming it here too gave
        'About Weekly Delight | Weekly Delight'. */
     title: 'About',
-    description: `Turab, 21, an aviation student in Kazakhstan who cooks by checklist — how the ${recipeCount} recipes here are tested, timed and photographed, and what it will not do.`,
-    keywords: ['about weekly delight', 'recipe testing', 'food blog team', 'recipe standards',
-               'how recipes are tested', 'aviation student cook', 'hobbyist cook blog',
-               'recipe accuracy', 'who writes these recipes',
-               'editorial policy', 'photo licensing',
-               'why trust these recipes', 'tested in a home kitchen', 'how nutrition is worked out',
-               'where the photographs come from', 'creative commons recipe photos',
-               'image attribution', 'how many recipes', 'recipe corrections',
-               'kitchen the recipes are tested in', 'what makes a recipe good',
-               'site standards', 'about the author', 'weekly delight team'],
+    description: `How the ${recipeCount} recipes on Weekly Delight are written with AI assistance, then checked by script for timings, diet labels and nutrition figures.`,
+    keywords: ['about weekly delight', 'how the recipes are written', 'recipe checks',
+               'photo licensing', 'image attribution', 'recipe corrections'],
     path: 'about/',
     active: 'about',
     criticalCss: ctx.criticalCss,
@@ -990,14 +1020,14 @@ ${breadcrumbs(trail)}
     <div>
       <span class="eyebrow">Get in touch</span>
       <h1>Tell us how it went</h1>
-      <p class="lede">Recipe suggestions, corrections, a step that did not work in your kitchen — all of it is useful. We read everything and reply to most things within two working days.</p>
+      <p class="lede">Recipe suggestions, corrections, a step that did not work in your kitchen: all of it is useful. There is no promised reply time.</p>
 
       <div class="panel" style="margin-top:2rem">
         <h2 style="font-size:1.15rem">What we are best at answering</h2>
         <ul style="padding-left:1.1rem;margin:0">
           <li>A step that did not work, and what happened instead</li>
           <li>Substitutions for an ingredient you cannot get locally</li>
-          <li>Recipes you would like us to test and add</li>
+          <li>Recipes you would like added</li>
           <li>Errors in quantities, timings or temperatures</li>
         </ul>
       </div>
@@ -1012,26 +1042,20 @@ ${breadcrumbs(trail)}
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
-      <!-- Netlify Forms.
-           Netlify's build bot scans the deployed HTML for a form carrying
-           data-netlify and a name, and registers it at deploy time — which is
-           why this has to be in the pre-rendered markup rather than added by
-           script. The hidden form-name field is what identifies the submission
-           when the browser posts it.
-           The action is a real page in this site rather than Netlify's default,
-           because _redirects sends every unmatched path to 404.html and a
-           success URL that is not a file would be caught by it. -->
-      <form name="contact" method="POST" action="${SITE.base}contact/success/"
-            data-netlify="true" data-netlify-honeypot="bot-field"
+      <!-- Posted to contact/send.php (src/server/contact-send.php), which runs on
+           the live host. The page says a message was sent only when that script
+           answers that its mailer accepted it; anything else, including a host
+           with no PHP, shows that nothing was sent and leaves the words in the
+           form. Without JavaScript the browser posts it natively and the script
+           redirects to contact/success/ or contact/not-sent/. -->
+      <form name="contact" method="POST" action="${SITE.base}contact/send.php"
             data-contact novalidate>
-        <input type="hidden" name="form-name" value="contact">
-
         <!-- The honeypot. Bots fill in every field they find; people never see
-             this one, so anything that arrives with it filled is discarded by
-             Netlify before it reaches the inbox. Hidden from assistive
-             technology as well as from sight, because it is not a real question. -->
+             this one, so anything that arrives with it filled is dropped by the
+             script without sending. Hidden from assistive technology as well as
+             from sight, because it is not a real question. -->
         <p class="sr-only" aria-hidden="true">
-          <label>Leave this field empty: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label>
+          <label>Leave this field empty: <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
         </p>
         <div class="field">
           <label for="contact-name">Your name</label>
@@ -1057,8 +1081,8 @@ ${breadcrumbs(trail)}
         <button class="btn btn--primary btn--block" type="submit">Send message</button>
         <p class="form-status" id="contact-status" role="status" tabindex="-1" hidden></p>
         <p class="form-note" style="margin-top:.9rem">
-          Your name, email address, subject and message are sent to Netlify, which hosts this site,
-          and I read them from there. Nothing else is collected &mdash; see the
+          Your name, email address, subject and message are emailed to the site's owner by
+          ${esc(SITE.host.name)}, which hosts this site. Nothing else is collected &mdash; see the
           <a href="${SITE.base}privacy/">privacy page</a>.
         </p>
       </form>
@@ -1068,7 +1092,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Contact',
-    description: 'Send the Weekly Delight test kitchen a recipe suggestion, a correction, or a question about a step that did not work in your kitchen. Every message is read.',
+    description: 'Send Weekly Delight a recipe suggestion, a correction, or a question about a step that did not work in your kitchen, using the form on this page.',
     keywords: ['contact weekly delight', 'recipe suggestions', 'food blog contact',
                'submit a recipe', 'report a recipe error', 'recipe request',
                'work with us', 'press enquiries', 'get in touch',
@@ -1105,7 +1129,7 @@ function notFound(ctx) {
 <div class="wrap section" style="text-align:center;padding-top:clamp(3rem,8vw,6rem)">
   <span class="eyebrow">Error 404</span>
   <h1>That page has left the kitchen</h1>
-  <p class="lede" style="margin-inline:auto">The recipe you were looking for has moved, been renamed, or never existed. Here are four we would happily cook instead.</p>
+  <p class="lede" style="margin-inline:auto">The recipe you were looking for has moved, been renamed, or never existed. Here are four others to try instead.</p>
   <div style="max-width:520px;margin:2rem auto 0">${heroSearch('nf-search', `Search ${recipeCount} recipes…`)}</div>
   <div style="margin-top:1.5rem;display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap">
     <a class="btn btn--primary" href="${SITE.base}recipes/">Browse all recipes</a>
@@ -1119,7 +1143,7 @@ function notFound(ctx) {
 
   return layout({
     title: 'Page not found',
-    description: `That page could not be found. Search ${recipeCount} tested recipes or browse our editor's picks instead.`,
+    description: `That page could not be found. Search ${recipeCount} recipes or browse the editor's picks instead.`,
     path: '404.html',
     noindex: true,
     criticalCss: ctx.criticalCss,
@@ -1221,4 +1245,4 @@ ${breadcrumbs(trail)}
 }
 
 module.exports = {
-  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, categoriesIndex, siteDirectory, about, contact, notFound };
+  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, contactNotSent, categoriesIndex, siteDirectory, about, contact, notFound };

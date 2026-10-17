@@ -313,7 +313,7 @@ module.exports = {
       'Lay a chocolate baton near one short edge, roll once, add a second baton, and roll up. Set seam-side down on lined trays.',
       'Prove at cool room temperature 120 minutes, until visibly puffy and wobbling. Brush with egg and bake at 200°C / 400°F for 18 to 20 minutes until deep brown.'
     ],
-    rest: [210, 'chilling between turns and the final prove'],
+    rest: [240, 'chilling between turns and the final prove'],
     tips: [
       'Thirty minutes in the fridge between every turn. No exceptions.',
       'Butter at 15°C — pliable but cold.',

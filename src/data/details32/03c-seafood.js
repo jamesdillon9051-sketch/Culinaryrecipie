@@ -14,7 +14,7 @@ module.exports = {
   'baked-lemon-dill-salmon': {
     d: 'Salmon fillets baked with garlic, lemon and fresh dill, with no butter, flour or sugar. Four servings in 25 minutes.',
     meta: 'Baked lemon dill salmon: fillets roasted with garlic, lemon and fresh dill and ready in 25 minutes. Dairy free and gluten free.',
-    kw: ['baked lemon dill salmon', 'diabetic friendly baked salmon', 'gluten free lemon dill salmon', 'dairy free baked salmon', 'easy baked salmon with lemon and dill'],
+    kw: ['baked lemon dill salmon', 'no added sugar baked salmon', 'gluten free lemon dill salmon', 'dairy free baked salmon', 'easy baked salmon with lemon and dill'],
     why: 'Take the salmon out of the oven when the middle is only just opaque. It carries on cooking on the tray for a minute or two, and salmon pulled early stays moist, while salmon baked until it is white all through turns dry and chalky. That one habit matters more than any seasoning.\n\nLemon, dill, garlic and olive oil make the topping, with no butter and no sugar. Thickness sets the timing. **Bake for 12 to 15 minutes**, and check the thickest fillet first. A thin tail finishes sooner than the rest, so fold the thin end underneath to even things out. Slices of lemon laid on top add flavour as they roast and keep the surface from drying.\n\nSalmon and dill suit each other. Garlic and lemon sharpen the richness of the fish, so it needs no heavy sauce. Serve with roasted asparagus or a big green salad, and flake any leftovers into a salad the next day.',
     ing: [
       '600 g salmon fillets, skin on',
@@ -46,7 +46,7 @@ module.exports = {
   'salmon-foil-packets': {
     d: 'Salmon fillets steamed with zucchini, tomatoes, garlic and lemon in individual foil packets. Four servings in 35 minutes.',
     meta: 'Salmon foil packets: salmon, zucchini and cherry tomatoes with garlic, lemon and oregano, sealed in foil and baked. Four servings.',
-    kw: ['salmon foil packets', 'diabetic friendly salmon dinner', 'gluten free salmon in foil', 'baked salmon and vegetables in foil', 'easy salmon foil packets with zucchini'],
+    kw: ['salmon foil packets', 'no added sugar salmon dinner', 'gluten free salmon in foil', 'baked salmon and vegetables in foil', 'easy salmon foil packets with zucchini'],
     why: 'Why cook salmon in a foil packet? The fish steams in its own juices and those of the vegetables, so it stays moist, and the washing-up is a ball of foil. Each packet is a complete dinner: salmon on a bed of zucchini and cherry tomatoes, with garlic, lemon and oregano.\n\nSeal the packets properly. **Crimp the edges tightly** so the steam stays inside, but leave a little air above the fish so it can circulate. Slice the zucchini thin enough to soften in the 18 to 20 minutes the salmon needs, and keep the pieces of a similar size so they cook at the same rate. A tray underneath catches any leaks.\n\nOpen each packet away from your face, since the steam is hot. Spoon the juices pooled in the bottom over the fish, because they are a ready-made sauce. Lemon and oregano keep it bright. Leftovers are good cold.',
     ing: [
       '600 g salmon fillets, skin removed',
@@ -82,7 +82,7 @@ module.exports = {
   'lemon-grilled-fish-with-asparagus': {
     d: 'White fish fillets and asparagus grilled on one tray with lemon, garlic and a little butter. Four servings in 22 minutes.',
     meta: 'Lemon grilled fish with asparagus: white fish fillets and asparagus grilled on one tray with lemon-garlic butter in 22 minutes.',
-    kw: ['lemon grilled fish with asparagus', 'diabetic friendly grilled fish', 'gluten free grilled white fish', 'easy grilled cod with asparagus', 'quick grilled fish and asparagus'],
+    kw: ['lemon grilled fish with asparagus', 'no added sugar grilled fish', 'gluten free grilled white fish', 'easy grilled cod with asparagus', 'quick grilled fish and asparagus'],
     why: 'How do you grill fish without it sticking or falling apart? Oil the tray and the fish, then leave it alone. Do not turn it. Firm white fish such as cod or haddock holds together best, and one side under a hot grill is enough, because the heat cooks it through from above.\n\nThe asparagus goes on the same tray, so the whole dinner is one pan and one grill. **Snap off the woody ends** first; each spear breaks where the tough part begins. Thin spears cook in the time the fish takes. Thick spears need longer. Split them lengthways if yours are fat. The lemon-garlic butter goes over the fish near the end, so the garlic does not burn.\n\nLemon is the whole sauce here, so use a fresh one: the juice for brightness and the zest for the oil in the peel. Squeeze extra lemon over each plate. Serve with a green salad or steamed green beans.',
     ing: [
       '600 g firm white fish fillets, such as cod or haddock',
@@ -115,7 +115,7 @@ module.exports = {
   'shrimp-and-asparagus-skillet': {
     d: 'Shrimp and asparagus cooked in one pan with garlic, lemon and a little smoked paprika, with no flour or sugar. Four servings in 20 minutes.',
     meta: 'Shrimp and asparagus skillet: shrimp and tender-crisp asparagus tossed with garlic, lemon and smoked paprika in 20 minutes. Serves four.',
-    kw: ['shrimp and asparagus skillet', 'diabetic friendly shrimp dinner', 'gluten free shrimp and asparagus', 'dairy free shrimp skillet', 'quick shrimp and asparagus in 20 minutes'],
+    kw: ['shrimp and asparagus skillet', 'no added sugar shrimp dinner', 'gluten free shrimp and asparagus', 'dairy free shrimp skillet', 'quick shrimp and asparagus in 20 minutes'],
     why: 'Shrimp go from tender to rubbery in about a minute, and that is the usual way this dish goes wrong. The fix is three things: a hot pan, shrimp patted dry, and the heat off as soon as they curl into a loose C. Shrimp curled into a tight O are overcooked.\n\nAsparagus goes first. It needs a few minutes longer than the shrimp, so **cook it until bright green**, then set it aside and let it wait while the shrimp take their turn. The shrimp need about 2 minutes a side in a single layer, so work in two batches if your pan is small. A crowded pan steams them instead of searing.\n\nGarlic goes in last, for 30 seconds only, because it turns bitter if it browns. Lemon juice and zest finish the pan and loosen the browned bits into a light sauce. Serve straight away; shrimp do not reheat well.',
     ing: [
       '450 g large raw shrimp, peeled and deveined',
@@ -148,7 +148,7 @@ module.exports = {
   'poached-salmon-with-cucumber-dill-sauce': {
     d: 'Salmon fillets gently poached with lemon and bay, served with a cool cucumber, yogurt and dill sauce. Four servings in 30 minutes.',
     meta: 'Poached salmon with cucumber dill sauce: gently simmered salmon fillets with a cool yogurt, cucumber and dill sauce. Serves four in 30 minutes.',
-    kw: ['poached salmon with cucumber dill sauce', 'diabetic friendly poached salmon', 'gluten free poached salmon', 'salmon with yogurt cucumber sauce', 'easy poached salmon fillets'],
+    kw: ['poached salmon with cucumber dill sauce', 'no added sugar poached salmon', 'gluten free poached salmon', 'salmon with yogurt cucumber sauce', 'easy poached salmon fillets'],
     why: 'Watch the colour. Glossy, deep orange turns to a soft, opaque pink, with the faintest translucent line left in the very centre, and that is the moment to lift the salmon out, because it keeps cooking in its own heat.\n\nPoaching is gentle. The water should barely tremble, never bubble, or the outside tightens before the middle is done. **Keep the heat low** and the lid on. A wide pan lets the fillets lie flat in a single layer. Slices of lemon, a bay leaf and a few peppercorns in the water are all the flavouring the fish needs, and the liquid is thrown away afterwards.\n\nThe sauce does the seasoning. Grated cucumber is squeezed dry so it does not thin the yogurt, and dill and lemon give it a clean, fresh edge. Make it first, so it has time to chill while the salmon cooks. Salmon and sauce are good cold, too.',
     ing: [
       '600 g salmon fillets, skin on',
@@ -184,7 +184,7 @@ module.exports = {
   'tuna-steaks-with-avocado-salsa': {
     d: 'Seared tuna steaks, pink in the middle, with a fresh avocado, tomato and lime salsa. Four servings in 21 minutes.',
     meta: 'Tuna steaks with avocado salsa: tuna seared for a few minutes a side and served with a fresh avocado, tomato and lime salsa in 21 minutes.',
-    kw: ['tuna steaks with avocado salsa', 'diabetic friendly tuna steak', 'gluten free seared tuna', 'dairy free tuna steak dinner', 'easy seared tuna steak with avocado'],
+    kw: ['tuna steaks with avocado salsa', 'no added sugar tuna steak', 'gluten free seared tuna', 'dairy free tuna steak dinner', 'easy seared tuna steak with avocado'],
     why: 'The usual way tuna steaks go wrong is overcooking: a steak cooked right through turns dry and mealy, a little like canned tuna. Tuna is lean, so there is little fat to protect it. Hot pan, short time. Sear for 2 to 3 minutes a side, so the outside is browned and the middle is still pink.\n\nThe salsa is the cool contrast. Dice the avocado last, so it stays green, and stir in the lime juice at once. A ripe avocado gives slightly when pressed. **Dry the tuna thoroughly** before it hits the pan, since moisture means steam, not a seared crust. Season just before cooking, not ahead, because salt draws water out of the surface.\n\nBuy tuna from a fishmonger you trust and ask for fish that is suitable to eat rare. Slice across the grain to serve. Spoon the salsa alongside rather than over the top, so the crust stays crisp. Leftover tuna flakes well into a green salad for lunch.',
     ing: [
       '600 g tuna steaks, in 4 portions',
@@ -220,7 +220,7 @@ module.exports = {
   'cod-with-tomatoes-and-olives': {
     d: 'Cod simmered in a thick tomato sauce with onion, garlic, oregano and Kalamata olives. Four servings in 30 minutes.',
     meta: 'Cod with tomatoes and olives: cod fillets cooked in a thick, garlicky Greek-style tomato and olive sauce in 30 minutes. Serves four.',
-    kw: ['cod with tomatoes and olives', 'diabetic friendly cod recipe', 'gluten free greek cod', 'dairy free cod with tomatoes', 'easy cod with tomatoes and olives'],
+    kw: ['cod with tomatoes and olives', 'no added sugar cod recipe', 'gluten free greek cod', 'dairy free cod with tomatoes', 'easy cod with tomatoes and olives'],
     why: 'Keep the sauce thick. The cod sits in the tomatoes rather than swimming in them, so the sauce is simmered until it coats a spoon before the fish goes in, and the fillets finish cooking in the steam under a lid. You should be able to draw a line through it with a spoon. A loose, watery sauce turns delicate cod to mush.\n\nOlives bring the salt. That is why the recipe has none of its own, and why the tomatoes are the no-salt-added kind. **Taste after the olives** go in and before you add anything. Cod is mild, so a bright, savoury sauce does the work, with oregano for warmth and lemon at the end to lift it.\n\nBe gentle once the fish is in. Shift the pan rather than stirring, so the fillets stay whole. Serve straight from the pan with a green salad or steamed beans, and spoon plenty of the sauce over each portion. Leftover sauce is good over zucchini noodles.',
     ing: [
       '600 g cod fillets, in 4 portions',
@@ -253,7 +253,7 @@ module.exports = {
   'halibut-with-lemon-caper-sauce': {
     d: 'Pan-seared halibut fillets in a quick lemon, caper and butter pan sauce. Four servings in 25 minutes.',
     meta: 'Halibut with lemon caper sauce: golden pan-seared halibut in a sharp, glossy lemon, caper and butter sauce in 25 minutes. Serves four.',
-    kw: ['halibut with lemon caper sauce', 'diabetic friendly halibut', 'gluten free halibut with capers', 'pan seared halibut with lemon and capers', 'easy halibut with lemon caper sauce'],
+    kw: ['halibut with lemon caper sauce', 'no added sugar halibut', 'gluten free halibut with capers', 'pan seared halibut with lemon and capers', 'easy halibut with lemon caper sauce'],
     why: 'Leave the fish alone. A fillet that is nudged too soon sticks and tears, while one left for 4 minutes releases itself from the pan and comes away golden. Halibut is lean and firm, which makes it forgiving, but it dries out quickly if it is cooked past opaque. Pat it dry before it goes in.\n\nThe sauce takes less time than the fish. **Reduce the sauce by half** and it turns sharp and glossy, with lemon doing most of the work. Capers bring the salt. Finish with cold butter off the heat, which melts into the reduced stock and gives it a light, silky body without any flour.\n\nRinse the capers first. That takes off some of the brine. Spoon the sauce around the fish rather than over it, so the crust stays crisp. Serve with roasted asparagus, steamed broccoli or a rocket salad. Leftover halibut flakes into a salad.',
     ing: [
       '600 g halibut fillets, in 4 portions',

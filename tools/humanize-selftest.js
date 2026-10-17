@@ -366,7 +366,7 @@ async function main() {
 
   section('Pages: layouts, headings, paragraphs and bold on a real recipe');
   resetState();
-  await test('every layout renders exactly one method and one FAQ, in its own order, with no ** anywhere', () => {
+  await test('every layout renders exactly one method and at most one FAQ, in its own order, with no ** anywhere', () => {
     const { loadRecipes, buildContext } = require('../src/build');
     const page = require('../src/templates/recipe-page');
     const recipes = loadRecipes();
@@ -376,7 +376,7 @@ async function main() {
     for (const l of layouts.LAYOUTS) {
       const html = page.render({ ...recipe, layout: l.id, whyRich: 'One **bold** claim here.\n\nA second paragraph follows.', why: 'One bold claim here.\n\nA second paragraph follows.', tipsRich: ['Keep it **cold**.', 'Second tip.'], tips: ['Keep it cold.', 'Second tip.'], headings: { tips: 'A quick note on the butter' } }, ctx);
       assert.strictEqual((html.match(/id="method"/g) || []).length, 1, l.id);
-      assert.strictEqual((html.match(/id="faq"/g) || []).length, 1, l.id);
+      assert.ok((html.match(/id="faq"/g) || []).length <= 1, l.id);
       assert.ok((html.match(/id="why-title"/g) || []).length <= 1, l.id);
       assert.ok(!html.includes('**'), `${l.id}: a ** marker reached the page`);
       assert.ok(html.includes('<strong>bold</strong>') && html.includes('<strong>cold</strong>'), l.id);

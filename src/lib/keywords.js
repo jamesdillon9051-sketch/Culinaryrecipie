@@ -66,13 +66,9 @@ const DIET_WORD = {
   'Low-Carb': 'low carb',
   'Keto': 'keto',
   'High-Protein': 'high protein',
-  'No Added Sugar': 'no added sugar',
-  /* The health labels in src/lib/health.js. "Friendly" stays in each phrase so that
-     "is X weight loss friendly" reads as a question, and so that nothing here says a
-     dish treats, lowers or prevents anything. */
-  'Diabetes-Friendly': 'diabetic friendly',
-  'Weight-Loss Friendly': 'weight loss friendly',
-  'Kidney-Friendly': 'kidney friendly'
+  'No Added Sugar': 'no added sugar'
+  /* The Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly labels were
+     withdrawn (src/lib/health.js), so no phrase is built from them. */
 };
 
 /* Ingredients too common to identify anything. "Chicken thighs" is worth a
@@ -222,7 +218,11 @@ function expand(recipe, limit = 160) {
   const title = lower(recipe.title);
   const cuisine = lower(recipe.cuisine);
   const category = recipe.category;
-  const total = (recipe.prep || 0) + (recipe.cook || 0);
+  /* Start to finish, waiting included: "50 minute focaccia" is not a phrase
+     an overnight dough can honestly carry. */
+  const total = recipe.elapsedTime != null
+    ? recipe.elapsedTime
+    : (recipe.prep || 0) + (recipe.cook || 0) + (recipe.restTime || 0);
   const tags = recipe.tags || [];
   const storage = lower(recipe.storage || recipe.store || '');
   const titleWords = new Set(title.split(/[^a-z0-9]+/).filter(w => w.length > 2));
@@ -442,9 +442,6 @@ function expand(recipe, limit = 160) {
     add(`quick and easy ${title}`);
     add(`easy ${cuisine} recipes for beginners`);
   }
-  if (recipe.badges && recipe.badges.includes('editors')) {
-    add(`${title} tried and tested`);
-  }
 
   return out.slice(0, limit);
 }
@@ -462,99 +459,34 @@ function expand(recipe, limit = 160) {
  * a normal-looking handful, and everything past it goes to the places that
  * actually use it.
  */
-function forMeta(keywords, limit = 30) {
+/* Google ignores the keywords meta tag, and a long one reads as stuffing to
+   the engines that do look at it, so it carries only the first few. */
+function forMeta(keywords, limit = 8) {
   return (keywords || []).slice(0, limit);
 }
 
-/* Words that carry no information about which dish this is. The cuisine and
-   the category are added per recipe by the caller rather than listed here,
-   because this file deliberately imports nothing — it is loaded on every page
-   — and because "italian" is boilerplate on an Italian recipe and a real
-   distinction on a page about something else. */
-const FILLER_WORD = new Set([
-  'recipe', 'recipes', 'food', 'cooking', 'dish', 'dishes', 'ideas', 'meal',
-  'meals', 'at', 'home', 'best', 'easy', 'simple', 'traditional', 'authentic',
-  'classic', 'homemade', 'how', 'to', 'make', 'the', 'a', 'an', 'and', 'with',
-  'for', 'from', 'scratch', 'what', 'is', 'in', 'of', 'my', 'quick', 'good'
-]);
-
-/**
- * How much a phrase says about *this* dish rather than its shelf.
- *
- * "margherita pizza at home" names the dish; "italian food" names 130 of them.
- * Both are true and both belong in the site's own search index, but only the
- * first is worth a slot in structured data — the second is a phrase every
- * Italian recipe on the site would publish identically.
- */
-/* Compare words with the accents stripped, using the same fold() the search
-   index uses so both agree on what a word is.
- *
- * Splitting on /[^a-z0-9']+/ treats every accented letter as a separator, so
- * "Crème Brûlée" became ["cr","me","br","l","e"] and, once fragments under
- * three letters were dropped, no title words at all — which silently turned
- * the ranking below off for every French, Vietnamese, Turkish, Czech and
- * Nordic title on the site, with the empty-set fallback quietly restoring the
- * unranked order. Folding first also matches how a reader types the query. */
-const wordsOf = value => fold(String(value).toLowerCase())
-  .split(/[^a-z0-9']+/).filter(Boolean);
-
-function specificity(phrase, titleWords, shelfWords) {
-  const words = wordsOf(phrase);
-  if (!words.length) return 0;
-  const names = words.filter(w => titleWords.has(w)).length;
-  const own = words.filter(w =>
-    !FILLER_WORD.has(w) && !shelfWords.has(w) && !titleWords.has(w)).length;
-  /* Naming the dish counts most; a qualifier the dish actually has — a diet, a
-     technique, a headline ingredient — counts next; nothing else counts. */
-  return names * 2 + Math.min(own, 2);
-}
-
-/**
- * The list that goes into the Recipe JSON-LD.
- *
- * Google reads `keywords` on a recipe and its guidance asks for "other terms
- * for your recipe" — descriptors, not an index. So the risk here is not length
- * on its own, it is publishing the same phrases on hundreds of pages: twenty
- * slots filled with "italian recipes, italian food, italian cooking" is the
- * shape of a manual action, and it is what taking the first twenty used to do,
- * because expand() orders by how it builds phrases rather than by how much
- * they say.
- *
- * This takes the most specific phrases instead of the first ones, so a bigger
- * cap buys terms that name the dish rather than more of the shelf it sits on.
- * Ties keep expand()'s order, which puts the hand-picked phrases first.
- *
- * tools/keyword-audit.js fails the build if what lands here is mostly generic.
- */
-function forSchema(keywords, limit = 20, recipe = null) {
-  const list = keywords || [];
-  if (!recipe || !recipe.title) return list.slice(0, limit);
-  /* Two letters, not three. A three-letter floor drops every word of "La Zi
-     Ji" and "Pho", leaving those dishes with no title to match against; the
-     filler list already removes the short English words worth removing. */
-  const words = value => wordsOf(value || '').filter(w => w.length > 1);
-  const titleWords = new Set(words(recipe.title));
-  /* The shelf this dish sits on: every other recipe of the same cuisine and
-     category publishes these words too, so they distinguish nothing here. */
-  const shelfWords = new Set([...words(recipe.cuisine), ...words(recipe.category)]);
-  if (!titleWords.size) return list.slice(0, limit);
-
-  /* The hand-picked phrases go in first and keep their order. Specificity
-     alone would drop them: "cold skin noodles" is what the dish is called in
-     English and shares no word with "Liangpi", so it scores below a generated
-     "dairy free liangpi". A person chose those, and no ranking here should
-     overrule that. */
-  const curated = (recipe.curatedKeywords || [])
-    .map(k => String(k).toLowerCase())
-    .filter(k => list.includes(k));
-  const taken = new Set(curated);
-  const rest = list
-    .filter(phrase => !taken.has(phrase))
-    .map((phrase, i) => ({ phrase, i, score: specificity(phrase, titleWords, shelfWords) }))
-    .sort((a, b) => b.score - a.score || a.i - b.i)
-    .map(x => x.phrase);
-
-  return curated.concat(rest).slice(0, limit);
+/** The list that goes into the Recipe JSON-LD. */
+function forSchema(keywords, limit = 6, recipe = null) {
+  /* Recipe `keywords` is for descriptors a person chose ("summer", "quick",
+     "authentic"), and Google asks that it not repeat recipeCategory or
+     recipeCuisine. It used to carry twenty phrases ranked out of the
+     generated long tail ("is fried polenta no added sugar", "fried polenta
+     with litre water"), which describe nothing and read as stuffing. Now it is
+     the hand-picked list only, each phrase already held true by
+     tools/keyword-audit.js, minus any that is just the shelf name. */
+  if (!recipe) return (keywords || []).slice(0, limit);
+  const shelf = new Set([recipe.cuisine, recipe.category, `${recipe.cuisine} ${recipe.category}`]
+    .filter(Boolean).map(v => String(v).toLowerCase()));
+  const seen = new Set();
+  /* A diet that holds only with a swap ("vegan when made with sugar rather than
+     honey") is stated on the page with its condition; a bare "vegan focaccia"
+     here would be the claim without it. */
+  const conditional = Object.entries(recipe.dietStatus || {})
+    .filter(([, d]) => d.status !== 'clean').map(([tag]) => DIET_WORD[tag]).filter(Boolean);
+  return (recipe.curatedKeywords || [])
+    .map(k => String(k).toLowerCase().trim())
+    .filter(k => k && !shelf.has(k) && !conditional.some(w => k.includes(w)) && !seen.has(k) && seen.add(k))
+    .slice(0, limit);
 }
 
 module.exports = { expand, forSchema, forMeta, headlineIngredients, CATEGORY_NOUN,

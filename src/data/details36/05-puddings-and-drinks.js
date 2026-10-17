@@ -172,7 +172,7 @@ module.exports = {
 
   'chocolate-pudding': {
     d: 'A smooth stovetop chocolate pudding made with cocoa, cornflour and milk, chilled until set. Four servings in 15 minutes plus chilling.',
-    meta: 'Chocolate pudding: a smooth stovetop pudding made with cocoa, cornflour and milk, chilled until set. A very cheap dessert for four in 15 minutes.',
+    meta: 'Chocolate pudding: a smooth stovetop pudding of cocoa, cornflour and milk. A cheap dessert for four, 15 minutes of work, then chilled for 2 hours.',
     kw: ['chocolate pudding', 'homemade chocolate pudding', 'budget stovetop pudding', 'easy cornflour chocolate pudding', 'cheap dessert for four'],
     why: 'Whisk the dry ingredients before the milk goes in. Cocoa and cornflour both clump when they meet liquid, and they need to be mixed with the sugar first so that each particle is separate and the milk can wet them evenly.\n\nAdd a splash of the cold milk first and stir to a smooth paste, then the rest. **Cook over medium heat, whisking constantly**, until the pudding bubbles and thickens, then for 1 minute more. The cornflour needs that minute to cook out the starchy taste.\n\nStrain it if any lumps appear. A sieve over the serving bowls does it in seconds.\n\nPress cling film onto the surface to stop a skin forming. The pudding sets in about 2 hours in the fridge, though it is lovely warm. A little butter stirred in at the end gives a glossy finish. Homemade pudding is a different thing from the packet kind, with a deeper chocolate taste and a softer set. It is easy to double, and the leftovers keep well for a few days in the fridge.',
     ing: [

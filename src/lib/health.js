@@ -1,6 +1,15 @@
 'use strict';
 
 /**
+ * WITHDRAWN, October 2026. No recipe carries these labels any more, and
+ * tools/health-audit.js fails the build if one does. Each named a condition
+ * (diabetes, kidney disease) or an outcome (weight loss) rather than the dish,
+ * which makes it a claim that the dish suits a person, and that is a claim for
+ * a qualified reviewer to make, not a script. The rules are kept here, unused,
+ * so that a dietitian reviewing them has the exact limits the labels stood for;
+ * reinstating one means that review first, then adding it back to WITHDRAWN's
+ * complement and to DIET_TAGS in ./util.js.
+ *
  * The three health labels, as rules.
  *
  *   Diabetes-Friendly      a serving that is easy to fit into carbohydrate counting
@@ -198,7 +207,10 @@ function rulesText() {
   };
 }
 
+/* Every label above is withdrawn; see the note at the top of this file. */
+const WITHDRAWN = TAGS.slice();
+
 module.exports = {
-  DIABETES, WEIGHT_LOSS, KIDNEY, TAGS, LIMITS, SMALL, SWEETENED, KIDNEY_REFUSED,
+  DIABETES, WEIGHT_LOSS, KIDNEY, TAGS, WITHDRAWN, LIMITS, SMALL, SWEETENED, KIDNEY_REFUSED,
   isSmall, evaluate, failures, labelsOf, notesFor, rulesText
 };

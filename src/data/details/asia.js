@@ -490,7 +490,7 @@ module.exports = {
   'bulgogi': {
     rest: [75, 'freezing'],
     d: 'Thinly sliced beef marinated in soy, pear and sesame, then seared fast so it caramelises without stewing. Twenty minutes of marinating is enough, though longer is better.',
-    meta: 'Korean beef bulgogi with a soy, pear and sesame marinade, seared hard for caramelised edges. Ready in 30 minutes.',
+    meta: 'Korean beef bulgogi with a soy, pear and sesame marinade, seared hard for caramelised edges. 30 minutes of cooking after freezing and marinating.',
     kw: ['bulgogi recipe', 'korean bbq beef', 'beef marinade', 'korean dinner'],
     why: 'Korean pear contains calpain-activating enzymes that tenderise beef quickly, and its fructose accelerates browning in the pan. Cooking in small batches over very high heat is essential — crowding the pan releases liquid and the beef braises grey instead of caramelising.',
     ing: [

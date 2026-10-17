@@ -13,8 +13,8 @@
 module.exports = {
   'flounder-with-lemon-butter': {
     d: 'Thin flounder fillets pan-cooked in unsalted butter and finished with lemon juice, zest and parsley. Four servings in 15 minutes.',
-    meta: 'Flounder with lemon butter: thin fillets pan-fried in unsalted butter with lemon, zest and parsley. Kidney friendly. Four servings in 15 minutes.',
-    kw: ['flounder with lemon butter', 'kidney friendly flounder', 'gluten free flounder with lemon butter', 'quick flounder with lemon butter for four', 'easy pan fried flounder'],
+    meta: 'Flounder with lemon butter: thin fillets pan-fried in unsalted butter with lemon, zest and parsley. Four servings in 15 minutes.',
+    kw: ['flounder with lemon butter', 'no added salt flounder', 'gluten free flounder with lemon butter', 'quick flounder with lemon butter for four', 'easy pan fried flounder'],
     why: 'Pat the fillets dry. Turn them only once. Flounder is thin and fragile, and a wet fillet steams and falls apart where a dry one browns and holds together. A wide, flexible spatula is the only tool you need.\n\nThe sauce is butter, lemon juice, zest and parsley. **Use unsalted butter.** Salted butter would bring in the sodium this recipe is trying to avoid. Melt it gently until it foams, then add the lemon off the heat so that it stays bright. Half a tablespoon per serving is plenty, because the lemon cuts through the richness of the butter.\n\nFlounder cooks in 2 minutes a side. Remove it from the pan the moment it turns opaque. Serve with rice and steamed green beans, spooning the sauce over the fish. Being mild and low in fat, it relies on the sauce, and a good squeeze of extra lemon at the table never hurts.',
     ing: [
       '520 g flounder fillets, 4 pieces',
@@ -43,8 +43,8 @@ module.exports = {
 
   'flounder-francese': {
     d: 'Flounder fillets dredged in flour and egg white, pan-fried until pale gold and finished in a sauce of lemon, unsalted butter and stock. Four servings in 22 minutes.',
-    meta: 'Flounder francese: fillets in a flour and egg white coat, pan-fried and finished in a lemon, butter and stock sauce. Kidney friendly. Four servings.',
-    kw: ['flounder francese', 'kidney friendly flounder francese', 'pan fried flounder with lemon butter sauce', 'low salt flounder francese for four', 'flounder francese without salt'],
+    meta: 'Flounder francese: fillets in a flour and egg white coat, pan-fried and finished in a lemon, butter and stock sauce. Four servings.',
+    kw: ['flounder francese', 'no added salt flounder francese', 'pan fried flounder with lemon butter sauce', 'low salt flounder francese for four', 'flounder francese without salt'],
     why: 'Egg-coated fish often turns greasy, and the coating slides off in the pan. Flour first fixes it. Dredge the fillet in flour, shake it hard, then dip it in egg white, and the coat grips the fish and fries into a thin, tender crust.\n\nFlounder is delicate, so handle it with a wide spatula. **Fry 2 minutes a side** over medium-high heat, until pale gold, and lift it out before the sauce goes in. The sauce is lemon juice, unsalted butter and unsalted stock, simmered with the browned bits for 2 minutes. Pour it over the fish.\n\nA little butter goes a long way: 20 g covers four fillets. Egg white makes the coating without the yolk phosphorus. The flour is only 40 g in all. Serve at once, because the crust softens in the sauce, and keep the plates warm so that the fish does not cool before it is eaten.',
     ing: [
       '520 g flounder fillets, 4 pieces',
@@ -76,8 +76,8 @@ module.exports = {
 
   'baked-haddock-with-herbs': {
     d: 'Haddock fillets baked under a fragrant topping of parsley, dill, chives, garlic and lemon, with no added salt. Four servings in 20 minutes.',
-    meta: 'Baked haddock with herbs: fillets baked under a parsley, dill, chive, garlic and lemon topping. Kidney friendly. Four servings in 20 minutes.',
-    kw: ['baked haddock with herbs', 'kidney friendly haddock', 'gluten free baked haddock with herbs', 'dairy free baked haddock', 'easy baked haddock for four'],
+    meta: 'Baked haddock with herbs: fillets baked under a parsley, dill, chive, garlic and lemon topping. Four servings in 20 minutes.',
+    kw: ['baked haddock with herbs', 'no added salt haddock', 'gluten free baked haddock with herbs', 'dairy free baked haddock', 'easy baked haddock for four'],
     why: 'Cook it in a hot oven, briefly. Haddock is lean, so it needs 15 minutes at most and a cover of herbs and oil to keep the surface from drying. Leave it in longer, and it turns chalky and falls into dry flakes.\n\nA mixture of parsley, dill, chives, garlic and lemon juice does the seasoning. **Spoon it over the fish** thickly. Bake in a single layer so that each fillet is surrounded by hot air. The herbs form a fragrant crust, and olive oil keeps the surface moist. Choose a dish that holds the fillets snugly, with a little space between them.\n\nHaddock has a firm white flesh that flakes into large pieces. It is lower in potassium than cod, though not by much. Serve with rice and carrot batons. Spoon the pan juices over the top. Leftovers are good cold in a salad. Choose fillets of an even thickness for even cooking.',
     ing: [
       '520 g haddock fillets, 4 pieces',
@@ -108,8 +108,8 @@ module.exports = {
 
   'oven-baked-catfish': {
     d: 'Catfish fillets coated in egg white and seasoned cornmeal and baked on a tray until crisp, with lemon wedges. Four servings in 30 minutes.',
-    meta: 'Oven baked catfish: fillets in a seasoned cornmeal crust baked crisp on a tray with lemon wedges. Kidney friendly. Four servings in 30 minutes.',
-    kw: ['oven baked catfish', 'kidney friendly baked catfish', 'baked catfish with cornmeal crust', 'easy oven baked catfish for four', 'crispy baked catfish without salt'],
+    meta: 'Oven baked catfish: fillets in a seasoned cornmeal crust baked crisp on a tray with lemon wedges. Four servings in 30 minutes.',
+    kw: ['oven baked catfish', 'no added salt baked catfish', 'baked catfish with cornmeal crust', 'easy oven baked catfish for four', 'crispy baked catfish without salt'],
     why: 'Dry the fillets first. A dry surface takes the egg white and the cornmeal evenly, and the coat bakes golden and crisp without any deep frying. Catfish is a firm, mild fish that handles the oven well, and the tray does the work. No deep fryer or splatter is involved.\n\nCornmeal is the coating, seasoned with smoked paprika, garlic powder, onion powder, thyme and plenty of pepper. **Press it on firmly**, so that it stays on when the fish is lifted. A tablespoon of olive oil brushed on top helps it brown, and a hot oven finishes it. Do not turn the fish.\n\nA fine cornmeal gives a thin, crisp crust, and a coarser one gives a gritty one. Lemon wedges are the only sauce this needs. Serve with rice and a cabbage slaw dressed with lemon. Catfish is higher in phosphorus than tilapia, so the portion here is 140 g a person. Warm plates keep the crust crisp for longer.',
     ing: [
       '560 g catfish fillets, 4 pieces',
@@ -142,8 +142,8 @@ module.exports = {
 
   'poached-cod-with-lemon-and-parsley': {
     d: 'Cod fillets poached gently in lemon, bay and peppercorn water and dressed with lemon juice, olive oil and parsley. Four servings in 17 minutes.',
-    meta: 'Poached cod with lemon and parsley: cod fillets poached gently and dressed with lemon, olive oil and parsley. Kidney friendly. Four servings.',
-    kw: ['poached cod with lemon and parsley', 'kidney friendly poached cod', 'gluten free poached cod with lemon', 'dairy free poached cod', 'easy poached cod for four'],
+    meta: 'Poached cod with lemon and parsley: cod fillets poached gently and dressed with lemon, olive oil and parsley. Four servings.',
+    kw: ['poached cod with lemon and parsley', 'no added salt poached cod', 'gluten free poached cod with lemon', 'dairy free poached cod', 'easy poached cod for four'],
     why: 'Keep the water barely trembling. Bubbles should break the surface only now and then, because fish poached in fast-boiling water breaks up and toughens. A gentle poach gives large, moist flakes, and it is the whole skill in this recipe.\n\nThe poaching liquid is water with a little lemon, a bay leaf and peppercorns, and it flavours the fish without any salt. **Lower the fillets in gently**, cover and cook for 8 minutes. Lift them out with a slotted spatula. Discard the liquid. The dressing goes on afterwards, so that the fish keeps its clean, sweet taste.\n\nCod is lean and sweet. It is among the lower-phosphorus white fish, though it carries more potassium than most, so the portion is 130 g and the sides are plain. A dressing of lemon juice, olive oil and parsley is spooned over at the end. Serve with rice and carrot batons. Some frozen fillets are soaked in a salt or phosphate solution; check the label.',
     ing: [
       '520 g cod fillets, 4 pieces',
@@ -175,8 +175,8 @@ module.exports = {
 
   'homemade-fish-sticks': {
     d: 'Cod strips coated in flour, egg white and panko and baked until crisp, served with a lemon and dill yogurt dip. Four servings in 30 minutes.',
-    meta: 'Homemade fish sticks: cod strips in a flour, egg white and panko crust baked crisp with a lemon dill yogurt dip. Kidney friendly. Four servings.',
-    kw: ['homemade fish sticks', 'kidney friendly fish sticks', 'baked homemade fish sticks with panko', 'easy homemade fish sticks for four', 'oven baked cod fish sticks'],
+    meta: 'Homemade fish sticks: cod strips in a flour, egg white and panko crust baked crisp with a lemon dill yogurt dip. Four servings.',
+    kw: ['homemade fish sticks', 'no added salt fish sticks', 'baked homemade fish sticks with panko', 'easy homemade fish sticks for four', 'oven baked cod fish sticks'],
     why: 'A dinner the whole table can eat, adults and children alike. Cod strips coated in flour, egg white and panko bake until crisp, with no frying and a fraction of the salt in the frozen kind. The dip is yogurt, lemon and dill.\n\nCoat in three steps: flour, egg white, panko. **Keep one hand dry**, one wet, so that your fingers do not clump. Spray or brush the sticks with a little oil before baking, which is what turns the panko golden. Space them out on the tray so that the heat can circulate and the crust browns on every side.\n\nFrozen fish sticks are salted and processed, so making them at home changes the numbers a lot. Cod is mild and firm. It holds together as a stick. Serve with the yogurt dip, rice and green beans. Bake them on a rack for the crispest result. A squeeze of lemon over the sticks wakes them up.',
     ing: [
       '480 g cod fillets, cut into 12 sticks',
@@ -209,8 +209,8 @@ module.exports = {
 
   'sole-with-herbs': {
     d: 'Thin sole fillets pan-cooked in olive oil and finished with lemon juice, parsley, chives and tarragon. Four servings in 13 minutes.',
-    meta: 'Sole with herbs: thin fillets pan-cooked in olive oil and finished with lemon, parsley, chives and tarragon. Kidney friendly. Four servings.',
-    kw: ['sole with herbs', 'kidney friendly sole', 'gluten free sole with herbs', 'dairy free sole with lemon and herbs', 'quick sole with herbs for four'],
+    meta: 'Sole with herbs: thin fillets pan-cooked in olive oil and finished with lemon, parsley, chives and tarragon. Four servings.',
+    kw: ['sole with herbs', 'no added salt sole', 'gluten free sole with herbs', 'dairy free sole with lemon and herbs', 'quick sole with herbs for four'],
     why: 'Watch the flesh. It starts translucent, and it turns opaque white from the edges inward as it cooks. The moment the centre loses its glassy look is the moment to lift the fish out, and sole gets there faster than most fillets.\n\nSole fillets are thin and cook in about 2 minutes a side, so they are in and out of the pan before you can walk away. Do not wander off. **Parsley, chives and tarragon** go on at the end, off the heat, so that they stay bright and green and give the fish a clean, grassy fragrance that salt would only hide.\n\nLemon juice and a little olive oil are all the sauce there is. Sole is lean and mild, so the herbs and lemon are the flavour. Serve with plain rice and steamed green beans, and spoon the pan juices over the fish. A light, quick dinner.',
     ing: [
       '520 g sole fillets, 4 pieces',
@@ -240,8 +240,8 @@ module.exports = {
 
   'sole-with-grapes': {
     d: 'Sole fillets poached in a light sauce of shallot, unsalted stock and lemon with warm green grapes and tarragon. Four servings in 25 minutes.',
-    meta: 'Sole with grapes: sole poached in a light shallot, stock and lemon sauce with warm grapes and tarragon. Kidney friendly. Four servings.',
-    kw: ['sole with grapes', 'kidney friendly sole', 'gluten free sole with grapes', 'sole with grapes and tarragon', 'sole poached in grape and tarragon sauce'],
+    meta: 'Sole with grapes: sole poached in a light shallot, stock and lemon sauce with warm grapes and tarragon. Four servings.',
+    kw: ['sole with grapes', 'no added salt sole', 'gluten free sole with grapes', 'sole with grapes and tarragon', 'sole poached in grape and tarragon sauce'],
     why: 'Warm the grapes, do not cook them. Seedless green grapes added to the sauce for the last few minutes are hot and juicy but still hold their shape; any longer and they split and turn the sauce sweet and thin.\n\nSole is thin and cooks in a few minutes, so the sauce is made first and the fish finishes in it. **Reduce the stock and shallot** until about a third has cooked away, which concentrates the flavour without salt. Add the grapes, lay the fillets in the pan and cover. Poach for 4 minutes. Add the tarragon last, so that its aniseed scent stays fresh.\n\nGrapes bring sweetness and a little acid, and they are low in sodium. The butter is unsalted, and only 20 g is shared between four. Serve with plain rice and steamed green beans. Spoon the grapes and sauce over each fillet, and take care when you lift the fish, because it is delicate.',
     ing: [
       '520 g sole fillets, 4 pieces',
@@ -272,8 +272,8 @@ module.exports = {
 
   'cod-en-papillote': {
     d: 'Cod fillets sealed in parchment parcels with zucchini, carrot, lemon and thyme and steamed in their own juices in the oven. Four servings in 30 minutes.',
-    meta: 'Cod en papillote: cod sealed in parchment with zucchini, carrot, lemon and thyme and baked in its own steam. Kidney friendly. Four servings.',
-    kw: ['cod en papillote', 'kidney friendly cod in parchment', 'gluten free cod en papillote', 'dairy free baked cod in parchment parcels', 'cod and vegetables baked in parchment'],
+    meta: 'Cod en papillote: cod sealed in parchment with zucchini, carrot, lemon and thyme and baked in its own steam. Four servings.',
+    kw: ['cod en papillote', 'no added salt cod in parchment', 'gluten free cod en papillote', 'dairy free baked cod in parchment parcels', 'cod and vegetables baked in parchment'],
     why: 'A leaking parcel ruins the dish. If the steam escapes, the cod bakes dry instead of steaming in its own juices. Fold the edges of the parchment tightly, in small overlapping pleats, and the fish stays moist and tender.\n\nEach parcel holds a fillet on a bed of zucchini ribbons and carrot sticks, with a slice of lemon, thyme and a little oil. **Cut the vegetables thin.** Thin is the key. They cook in the same 15 minutes as the fish. Lay the fish on top, and the juices from the vegetables steam it from below. Cut the parchment large enough to fold.\n\nAt the table, each guest opens a parcel and gets a rush of steam smelling of lemon and thyme. That is the whole point. There is no salt in the parcel; the lemon, thyme and the vegetable juices season the fish. Serve with rice, and open the parcels away from your face.',
     ing: [
       '480 g cod fillets, 4 pieces',
@@ -304,8 +304,8 @@ module.exports = {
 
   'snapper-with-herbs': {
     d: 'Red snapper fillets with scored skin, baked skin side up with parsley, thyme, garlic and lemon until the skin is crisp. Four servings in 25 minutes.',
-    meta: 'Snapper with herbs: red snapper fillets baked skin side up with parsley, thyme, garlic and lemon. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['snapper with herbs', 'kidney friendly red snapper', 'gluten free baked snapper with herbs', 'dairy free snapper fillets with lemon and thyme', 'easy baked red snapper for four'],
+    meta: 'Snapper with herbs: red snapper fillets baked skin side up with parsley, thyme, garlic and lemon. Four servings in 25 minutes.',
+    kw: ['snapper with herbs', 'no added salt red snapper', 'gluten free baked snapper with herbs', 'dairy free snapper fillets with lemon and thyme', 'easy baked red snapper for four'],
     why: 'Score the skin. Three shallow cuts across each fillet stop the skin from tightening and curling in the heat, so the fish stays flat and the skin browns evenly. Use a very sharp knife and cut only the skin, not the flesh below.\n\nSnapper has a firm, sweet flesh that stands up to herbs. Parsley, thyme and garlic go on with lemon juice and olive oil. **Bake skin side up** so that the skin crisps while the oil drips down into the flesh. It needs about 18 minutes. Check the thickest part. A sharp knife slipped into the flesh should meet no resistance.\n\nThe crisp skin is the best part, and it is where the flavour of the herbs concentrates. Eat it if you like. Snapper is higher in potassium than tilapia, so the portion is kept to 130 g. Serve with rice and a cucumber salad, and spoon any pan juices over the fish.',
     ing: [
       '520 g red snapper fillets, 4 pieces',
@@ -335,8 +335,8 @@ module.exports = {
 
   'herb-crusted-cod': {
     d: 'Cod fillets brushed with Dijon and topped with a crust of panko, parsley, thyme and lemon zest, baked until golden. Four servings in 25 minutes.',
-    meta: 'Herb crusted cod: cod fillets brushed with Dijon and topped with a panko, parsley and thyme crust. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['herb crusted cod', 'kidney friendly cod', 'baked herb crusted cod with panko', 'easy herb crusted cod for four', 'cod with a mustard and herb crust'],
+    meta: 'Herb crusted cod: cod fillets brushed with Dijon and topped with a panko, parsley and thyme crust. Four servings in 25 minutes.',
+    kw: ['herb crusted cod', 'no added salt cod', 'baked herb crusted cod with panko', 'easy herb crusted cod for four', 'cod with a mustard and herb crust'],
     why: 'A herb crust that slides off the fish is a common disappointment. Mustard is the glue. A thin layer of Dijon on top of the fillet gives the panko and herbs something to grip, and it adds flavour at the same time, so the fish needs no salt.\n\nMix the panko with parsley, thyme, lemon zest and olive oil, and the crumbs brown evenly. **Press the crust on firmly** with the back of a spoon. Bake the fish on a lined tray at a high heat for 15 minutes, until the crust is golden and the cod flakes. Do not turn it. The mustard also seasons the fish, so no salt is needed.\n\nCod is lean and mild, which makes it a good canvas for a bold crust. Panko is lighter in sodium than most breadcrumbs, though not sodium-free, so the quantity is kept modest. Serve with steamed green beans and rice. Lemon wedges are the only sauce.',
     ing: [
       '520 g cod fillets, 4 pieces',
@@ -367,8 +367,8 @@ module.exports = {
 
   'pan-seared-trout': {
     d: 'Two trout fillets seared skin side down until crisp, finished with garlic, lemon juice and parsley. Two servings in 15 minutes.',
-    meta: 'Pan seared trout: two fillets seared skin side down until crisp with garlic, lemon and parsley. Dairy and gluten free. Kidney friendly. Two servings.',
-    kw: ['pan seared trout', 'kidney friendly trout', 'gluten free pan seared trout with lemon', 'dairy free pan seared trout', 'quick pan seared trout for two'],
+    meta: 'Pan seared trout: two fillets seared skin side down until crisp with garlic, lemon and parsley. Dairy and gluten free. Two servings.',
+    kw: ['pan seared trout', 'no added salt trout', 'gluten free pan seared trout with lemon', 'dairy free pan seared trout', 'quick pan seared trout for two'],
     why: 'Dry the skin thoroughly. A wet skin steams and sticks, and a dry skin sears crisp in a hot pan. Lay the fillet in skin side down and press gently for 10 seconds so that it stays flat. Then leave it alone.\n\nTrout is rich and delicate, so a 110 g fillet is a serving. **Skin side down first**, for 6 minutes, to render the fat and crisp the skin. Flip for 2 minutes. Lemon juice and parsley go in at the end, off the heat, so that the sauce stays sharp and the herbs stay green. The fish carries on cooking in the pan after it comes off the heat.\n\nTrout is higher in phosphorus than white fish, so this recipe is written for two servings of 110 g each. Portion larger fillets to size. Serve with rice and steamed green beans. Eat the crisp skin if you like.',
     ing: [
       '220 g trout fillets, 2 pieces',
@@ -397,8 +397,8 @@ module.exports = {
 
   'tilapia-foil-packets': {
     d: 'Tilapia fillets sealed in foil with zucchini, red pepper, lemon and oregano and baked in their own steam, with nothing to wash but the tray. Four servings in 25 minutes.',
-    meta: 'Tilapia foil packets: tilapia sealed in foil with zucchini, red pepper, lemon and oregano and baked. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['tilapia foil packets', 'kidney friendly tilapia foil packets', 'gluten free tilapia in foil', 'dairy free baked tilapia packets', 'easy tilapia foil packets for four'],
+    meta: 'Tilapia foil packets: tilapia sealed in foil with zucchini, red pepper, lemon and oregano and baked. Four servings in 25 minutes.',
+    kw: ['tilapia foil packets', 'no added salt tilapia foil packets', 'gluten free tilapia in foil', 'dairy free baked tilapia packets', 'easy tilapia foil packets for four'],
     why: 'Foil packets are for the evenings when you do not want to wash up, and each parcel holds a tilapia fillet with zucchini, red pepper, lemon and herbs, sealed and cooked in 15 minutes. There is nothing to scrub.\n\nTilapia is thin, so the vegetables are sliced thin too, to cook in the time the fish needs. **Seal the packets tightly**, with a double fold along the top and the ends. Leave room inside for steam to circulate. Place them on a baking tray, which also catches any drips, and the oven does the rest.\n\nLemon, oregano, parsley and pepper season the fish, and the steam carries the flavour through the vegetables. Open them away from your face. Serve in the foil, or tip onto a plate with rice. A tilapia fillet of 130 g is a serving, which keeps the potassium and phosphorus modest. The foil also keeps the fish warm at the table.',
     ing: [
       '520 g tilapia fillets, 4 pieces',

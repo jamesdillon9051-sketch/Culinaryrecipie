@@ -18,6 +18,20 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Private files: answered 404, as if they were not there.
+  #
+  # The whole repository is deployed into the web root, so the recipe source,
+  # the build and audit tools, the project notes and the working CSV and JSON
+  # files were all downloadable by anyone who guessed a path. robots.txt used to
+  # list /src/ and /tools/, which only asks crawlers not to look and tells
+  # everyone else where to. The real fix is to deploy only the built site
+  # (README, "Deploying"); these rules are the server refusing in the meantime.
+  # tools/private-paths-check.js tests them, and with --url tests a live host.
+  # images-attribution.md stays public: it is the photo credits.
+  RewriteRule ^(?:src|tools|docs|backups|logs|node_modules|\.git|\.github|\.humanize|\.wide|\.netlify|\.vercel)(?:/|$) - [R=404,L,NC]
+  RewriteRule ^(?:CLAUDE\.md|README\.md|MISSING-IMAGES\.txt|package(?:-lock)?\.json|netlify\.toml|vercel\.json|_redirects|suspects\.json|\.gitignore|\.nojekyll|\.env)$ - [R=404,L,NC]
+  RewriteRule \.(?:csv|py|pyc|sh|bak|log|jsonl)$ - [R=404,L,NC]
+
   # /path/index.html -> /path/
   #
   # The same duplicate as www, from the other direction. DirectoryIndex serves

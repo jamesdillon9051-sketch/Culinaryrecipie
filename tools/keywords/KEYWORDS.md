@@ -38,13 +38,13 @@ Every recipe's primary and supporting phrases are in `tools/keywords/KEYWORDS.cs
 
 | Phrase | Recipes |
 | --- | --- |
-| dinner recipes | 2129 |
-| quick meals 30 minutes | 275 |
+| dinner recipes | 2130 |
+| quick meals 30 minutes | 273 |
 | healthy recipes | 193 |
 | appetizer recipes | 586 |
 | baking recipes | 656 |
 | dessert recipes | 584 |
-| lunch ideas | 422 |
+| lunch ideas | 423 |
 | drink recipes | 207 |
 | breakfast recipes | 328 |
 | holiday recipes | 135 |
@@ -54,16 +54,15 @@ Every recipe's primary and supporting phrases are in `tools/keywords/KEYWORDS.cs
 | Phrase | Recipes carrying the label |
 | --- | --- |
 | no added sugar recipes | 3235 |
-| vegetarian recipes | 2912 |
-| dairy-free recipes | 1960 |
-| gluten-free recipes | 1903 |
+| vegetarian recipes | 2898 (119 only with a swap) |
+| dairy-free recipes | 1957 (47 only with a swap) |
+| gluten-free recipes | 1891 (78 only with a swap) |
 | low-carb recipes | 1783 |
 | high-protein recipes | 1485 |
 | keto recipes | 1142 |
-| vegan recipes | 778 |
-| diabetes-friendly recipes | 100 |
-| weight-loss friendly recipes | 100 |
-| kidney-friendly recipes | 100 |
+| vegan recipes | 768 (46 only with a swap) |
+
+The diabetes-friendly, weight-loss friendly and kidney-friendly labels were withdrawn in October 2026 (CLAUDE.md, section 9). Do not target those phrases: a page that names a condition is making a suitability claim nobody has reviewed. `total_minutes` in the CSV is the whole time, waiting included.
 
 ## 4. Modifier patterns that fit the catalogue
 

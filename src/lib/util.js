@@ -43,6 +43,34 @@ function humanWait(minutes) {
   return hours ? `${dayPart} ${hours} hr` : dayPart;
 }
 
+/**
+ * A span of time that may be a range: "16 hr" or "16 hr to 1 day 5 hr".
+ * Methods give ranges ("refrigerate for 12 to 24 hours"), and the page says
+ * so rather than picking one end.
+ */
+function humanWaitRange(min, max) {
+  if (!min) return '';
+  return max && max > min ? `${humanWait(min)} to ${humanWait(max)}` : humanWait(min);
+}
+
+/**
+ * The same, short enough for a card: "45 min", "3.5 hr", "17–30 hr", "3 days".
+ * Rounded to the nearest half hour above an hour, which is as precise as a
+ * card needs to be; the recipe page gives the exact figures.
+ */
+function compactTime(min, max) {
+  if (!min) return '0 min';
+  const top = max && max > min ? max : min;
+  if (top < 120) return top > min ? `${min}–${top} min` : `${min} min`;
+  if (min >= 2880) {
+    const d = m => Math.round(m / 720) / 2;
+    return top > min && d(top) !== d(min) ? `${d(min)}–${d(top)} days` : `${d(min)} days`;
+  }
+  const h = m => Math.round(m / 30) / 2;
+  if (min < 60) return `${min} min–${h(top)} hr`;
+  return top > min && h(top) !== h(min) ? `${h(min)}–${h(top)} hr` : `${h(min)} hr`;
+}
+
 /** 95 -> "PT1H35M" (ISO 8601 duration for Recipe schema) */
 function isoDuration(minutes) {
   if (!minutes) return 'PT0M';
@@ -173,10 +201,10 @@ const DIET_TAGS = ['Vegetarian', 'Vegan', 'Gluten-Free', 'Keto', 'Dairy-Free', '
      ./diet-derived.js. "No Added Sugar" rather than "Sugar-Free", because a
      recipe with milk or fruit in it is not sugar-free and saying so would be
      the kind of claim this site has spent a while removing. */
-  'High-Protein', 'No Added Sugar',
-  /* Written by hand into the rows of the volumes that carry them and held to the numbers in
-     ./health.js on every build, so each is a claim about figures printed on the page. */
-  'Diabetes-Friendly', 'Weight-Loss Friendly', 'Kidney-Friendly'];
+  'High-Protein', 'No Added Sugar'];
+  /* Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly used to follow. They
+     named a condition or an outcome rather than the dish, and were withdrawn until a
+     qualified reviewer signs them off: see ./health.js. */
 
 /** "1 recipe" but "4 recipes" — the count is often 1 on a small cuisine. */
 function plural(n, singular, pluralForm) {
@@ -262,5 +290,5 @@ function photoCredit(img, { compact = false } = {}) {
     + `</p>`;
 }
 
-module.exports = { esc, jsonLd, humanTime, humanWait, isoDuration, slugify, clamp, starsHtml, plural,
+module.exports = { esc, jsonLd, humanTime, humanWait, humanWaitRange, compactTime, isoDuration, slugify, clamp, starsHtml, plural,
   photoCredit, secureUrl, isIllustration, NEEDS_CREDIT, CUISINES, CATEGORIES, DIET_TAGS };

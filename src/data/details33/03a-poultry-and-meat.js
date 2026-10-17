@@ -15,7 +15,7 @@ module.exports = {
   'turkey-zucchini-boats': {
     d: 'Zucchini halves baked and filled with a lean turkey, tomato and oregano mixture under melted mozzarella. Four servings in 45 minutes.',
     meta: 'Turkey zucchini boats: baked zucchini halves filled with turkey, tomato and oregano and topped with melted mozzarella. Gluten free. Four servings.',
-    kw: ['turkey zucchini boats', 'weight loss friendly zucchini boats', 'gluten free turkey stuffed zucchini', 'baked turkey zucchini boats with mozzarella', 'easy turkey zucchini boats'],
+    kw: ['turkey zucchini boats', 'zucchini boats under 400 calories', 'gluten free turkey stuffed zucchini', 'baked turkey zucchini boats with mozzarella', 'easy turkey zucchini boats'],
     why: 'The usual fault with zucchini boats is a puddle in the dish. Two habits prevent it. Bake the hollowed shells before they are filled, and cook the scooped flesh into the filling until the water has gone. Do both and the boats come out firm, with a savoury filling that holds its shape.\n\nLeave a shell about 1 cm thick. It holds up without being raw in the middle. **Tip out the liquid** from the pre-baked shells before you fill them. The turkey takes the flavour of oregano, paprika and tomato, and the mozzarella on top melts into a light crust. Lean turkey can dry out, so the tomatoes in the filling matter.\n\nTwo halves make a serving, which is a generous plate for the calories. Serve with a green salad. Leftover boats reheat well in a hot oven, though the zucchini softens as it sits. Parsley on top adds a fresh finish.',
     ing: [
       '800 g zucchini, about 4 medium',
@@ -50,7 +50,7 @@ module.exports = {
   'baked-turkey-meatballs': {
     d: 'Soft turkey meatballs bound with oats and egg, baked until browned and served in a quick tomato and basil sauce. Six servings in 35 minutes.',
     meta: 'Baked turkey meatballs: lean turkey with oats, egg, Parmesan and parsley, baked until browned and served in a simple tomato and basil sauce.',
-    kw: ['baked turkey meatballs', 'weight loss friendly turkey meatballs', 'easy baked turkey meatballs', 'italian turkey meatballs in tomato sauce', 'oven baked turkey meatballs'],
+    kw: ['baked turkey meatballs', 'turkey meatballs under 400 calories', 'easy baked turkey meatballs', 'italian turkey meatballs in tomato sauce', 'oven baked turkey meatballs'],
     why: 'Turkey meatballs have a reputation for being dry and dense, and it is earned when the mixture is packed and overworked. The cure is a panade: oats soaked in milk until soft, which holds moisture in the meat as it bakes. Mix gently. Roll lightly.\n\nBaking is easier than frying. **Bake them hot and fast**, on parchment paper, with space between the meatballs so they brown rather than steam. The high heat gives the outside a crust while the middle stays tender. Lean turkey has little fat, so Parmesan and egg add flavour and help bind. A simple tomato sauce, simmered while the meatballs bake, finishes the dish.\n\nWet hands stop the sticking. Make the meatballs the same size so they cook at the same rate. Leftover meatballs freeze well for up to 3 months and reheat in the sauce. Serve them over zucchini noodles or with steamed vegetables. Basil goes into the sauce at the end, so it stays fresh.',
     ing: [
       '# For the meatballs',
@@ -90,7 +90,7 @@ module.exports = {
   'turkey-sausage-and-vegetable-skillet': {
     d: 'Browned turkey sausage with zucchini, peppers, onion and cherry tomatoes in one pan, seasoned with oregano and smoked paprika. Four servings in 30 minutes.',
     meta: 'Turkey sausage and vegetable skillet: turkey sausage with zucchini, peppers, onion and tomatoes cooked in one pan. Dairy free and gluten free.',
-    kw: ['turkey sausage and vegetable skillet', 'weight loss friendly turkey sausage skillet', 'gluten free turkey sausage and vegetables', 'dairy free sausage and vegetable skillet', 'quick turkey sausage and vegetable skillet'],
+    kw: ['turkey sausage and vegetable skillet', 'turkey sausage skillet under 400 calories', 'gluten free turkey sausage and vegetables', 'dairy free sausage and vegetable skillet', 'quick turkey sausage and vegetable skillet'],
     why: 'The smell tells you when it is ready: browned sausage, sweet peppers and onions caramelising in the same pan, with garlic arriving last. Dinner in one pan. The sausage browns first and leaves savoury fat behind, which seasons the vegetables as they cook.\n\nTurkey sausage is leaner than pork, so it needs a hot pan to brown properly. **Brown it first**, in a single layer, then lift it out so it does not stew. Order matters. The vegetables go in by how long they take: onion and peppers first, then zucchini, and the tomatoes last so they collapse into a light sauce rather than disappearing.\n\nCheck the sausage label for gluten and for salt, since brands differ widely. A squeeze of lemon or a splash of vinegar at the end lifts the whole pan. It reheats well. Serve it straight from the pan, with cauliflower rice or a small portion of brown rice.',
     ing: [
       '280 g gluten-free turkey sausages, sliced into 2 cm pieces',
@@ -124,7 +124,7 @@ module.exports = {
   'cajun-chicken-and-cabbage-skillet': {
     d: 'Cubes of chicken coated in a homemade Cajun spice blend and cooked with cabbage, onion and pepper in one pan. Four servings in 30 minutes.',
     meta: 'Cajun chicken and cabbage skillet: spiced chicken cooked with cabbage, onion and pepper in one pan. Dairy free and gluten free.',
-    kw: ['cajun chicken and cabbage skillet', 'weight loss friendly cajun chicken', 'gluten free cajun chicken and cabbage', 'dairy free cajun chicken skillet', 'quick cajun chicken and cabbage'],
+    kw: ['cajun chicken and cabbage skillet', 'cajun chicken under 400 calories', 'gluten free cajun chicken and cabbage', 'dairy free cajun chicken skillet', 'quick cajun chicken and cabbage'],
     why: 'Cabbage releases a lot of water, and in a crowded pan it turns a skillet into a stew. The fix is simple. Brown the chicken first, then cook the cabbage in handfuls and uncovered, so the water cooks off instead of pooling. That one change keeps the flavour concentrated.\n\nThe seasoning is a homemade Cajun blend of paprika, garlic and onion powders, oregano, thyme, cayenne and pepper, so you control the salt and the heat. **Keep the cayenne small** and add more at the table; its heat builds as it cooks. Heat is up to you. Half the blend goes on the chicken and half goes into the vegetables, so every layer is seasoned.\n\nPeppers and onion add sweetness that balances the spice, and a squeeze of lemon at the end brightens it. Cabbage keeps its bite if you stop the cooking when it is just tender. Serve straight from the pan.',
     ing: [
       '450 g skinless chicken breast, cut into 2 cm cubes',
@@ -164,7 +164,7 @@ module.exports = {
   'instant-pot-chicken-breast': {
     d: 'Four chicken breasts cooked on a trivet in the pressure cooker with garlic, paprika and thyme until tender and juicy. Four servings in 25 minutes.',
     meta: 'Instant Pot chicken breast: four seasoned chicken breasts pressure cooked for 8 minutes and rested until juicy. Dairy free and gluten free.',
-    kw: ['instant pot chicken breast', 'weight loss friendly pressure cooker chicken', 'gluten free instant pot chicken breast', 'dairy free pressure cooker chicken breast', 'easy instant pot chicken breast'],
+    kw: ['instant pot chicken breast', 'pressure cooker chicken under 400 calories', 'gluten free instant pot chicken breast', 'dairy free pressure cooker chicken breast', 'easy instant pot chicken breast'],
     why: 'How do you cook chicken breast in a pressure cooker without it turning dry? Short time, slow release. Eight minutes at high pressure cooks four breasts through, and a 10-minute natural release lets the juices settle before the lid comes off.\n\nRaise the chicken on the trivet so it steams rather than boils in the stock. **Rub the spices on first**: paprika, garlic, thyme, salt and pepper season the meat all the way through. Breasts of similar size cook evenly, so pick pieces of about the same thickness, and halve any very thick ones. Size matters. A rack keeps the meat out of the liquid and out of the scum that forms on it.\n\nRest it first. Slice or shred the chicken after 5 minutes, and spoon over some of the cooking liquid mixed with lemon juice to keep it moist. It keeps for 4 days and is useful in salads, wraps and soups.',
     ing: [
       '700 g skinless chicken breast, in 4 portions',
@@ -195,7 +195,7 @@ module.exports = {
   'cabbage-roll-skillet': {
     d: 'Lean beef, cabbage, tomato and brown rice cooked in one pan with paprika and vinegar, the flavour of cabbage rolls without the rolling. Six servings in 45 minutes.',
     meta: 'Cabbage roll skillet: lean beef, cabbage, tomato and brown rice in one pan with paprika and vinegar. Dairy free and gluten free. Six servings.',
-    kw: ['cabbage roll skillet', 'weight loss friendly cabbage roll skillet', 'gluten free unstuffed cabbage rolls', 'dairy free unstuffed cabbage roll skillet', 'easy cabbage roll skillet'],
+    kw: ['cabbage roll skillet', 'cabbage roll skillet under 400 calories', 'gluten free unstuffed cabbage rolls', 'dairy free unstuffed cabbage roll skillet', 'easy cabbage roll skillet'],
     why: 'Chop the cabbage small. That decision turns a long, awkward dish into a skillet dinner. All the flavour of a cabbage roll is here: beef, tomato, rice and cabbage, but no blanching, no rolling and no baking dish, so the whole thing is ready in 45 minutes.\n\nSmall pieces cook in about 12 minutes. They mix evenly through the beef and rice, so each forkful has a bit of everything. **Add the cabbage in handfuls**, letting each one wilt before the next. Vinegar and paprika carry the sweet-and-sour, savoury flavour of the original, and a can of no-salt-added tomatoes supplies the sauce.\n\nRice goes in at the end, just to warm through, so it stays distinct instead of turning to paste. Use leftover cooked brown rice if you have it. Taste for salt after the rice goes in. The skillet keeps for 4 days. A spoonful of plain yogurt on top is a good finish.',
     ing: [
       '500 g lean beef mince',
@@ -232,7 +232,7 @@ module.exports = {
   'honey-lime-chicken-skewers': {
     d: 'Chicken, red pepper and onion skewers glazed with honey, lime and garlic and grilled until lightly charred. Four servings in 27 minutes.',
     meta: 'Honey lime chicken skewers: chicken, pepper and onion in a honey, lime and garlic marinade, grilled until lightly charred. Dairy free and gluten free.',
-    kw: ['honey lime chicken skewers', 'weight loss friendly chicken skewers', 'gluten free honey lime chicken', 'dairy free chicken skewers with lime', 'grilled honey lime chicken skewers'],
+    kw: ['honey lime chicken skewers', 'chicken skewers under 400 calories', 'gluten free honey lime chicken', 'dairy free chicken skewers with lime', 'grilled honey lime chicken skewers'],
     why: 'The first sign they are ready is the smell: honey and lime caramelising at the edges of the chicken, with a little char from the grill. Honey is the only sweetener, and two spoonfuls go a long way across 8 skewers. Lime keeps it sharp.\n\nCut the chicken into even 3 cm cubes so the skewers cook at the same rate. **Do not marinate for long**: 10 minutes is enough, and lime juice turns chicken chalky if it sits for hours. Alternate the chicken with pieces of pepper and onion, leaving a little space between pieces so the heat reaches every side. Space matters. Turn the skewers every 3 minutes.\n\nGrill over medium-high heat, not the hottest setting. Honey burns quickly. Rest the skewers for a couple of minutes before serving. Squeeze fresh lime over them as they come off the grill. Cut open a cube to check the centre is white. Serve with lime wedges, rice or a crisp salad.',
     ing: [
       '600 g skinless chicken breast, cut into 3 cm cubes',
@@ -267,7 +267,7 @@ module.exports = {
   'philly-cheesesteak-stuffed-peppers': {
     d: 'Bell pepper halves filled with thinly sliced sirloin, onion and mushrooms, topped with melted provolone. Four servings in 55 minutes.',
     meta: 'Philly cheesesteak stuffed peppers: bell pepper halves filled with sirloin, onion and mushrooms under melted provolone. Gluten free. Four servings.',
-    kw: ['philly cheesesteak stuffed peppers', 'weight loss friendly stuffed peppers', 'gluten free philly cheesesteak peppers', 'baked philly cheesesteak stuffed bell peppers', 'stuffed peppers with beef and provolone'],
+    kw: ['philly cheesesteak stuffed peppers', 'stuffed peppers under 400 calories', 'gluten free philly cheesesteak peppers', 'baked philly cheesesteak stuffed bell peppers', 'stuffed peppers with beef and provolone'],
     why: 'Stuffed peppers tend to fail at one of two points: the pepper is still crunchy when the filling is done, or it has collapsed into a pool. The fix is to bake the empty halves first, for 12 minutes, until they are just softened, then fill and finish them. Timing, not technique.\n\nThe filling is the cheesesteak: thinly sliced sirloin, onions and mushrooms, cooked fast in a hot pan. **Slice the beef very thinly**, against the grain, and cook it in a single layer so it browns instead of stewing. Cook it fast. Onions and mushrooms follow in the same pan and pick up the browned bits the beef leaves behind. Provolone melts over the top.\n\nThe pepper takes the place of the roll, which makes a hearty dinner at a modest calorie count. Serve with a green salad. The peppers keep for 3 days and reheat in a hot oven.',
     ing: [
       '800 g bell peppers, halved lengthwise and seeded',
@@ -301,7 +301,7 @@ module.exports = {
   'chipotle-lime-chicken': {
     d: 'Chicken breasts marinated in chipotle, lime, garlic and cumin and baked until juicy, then sliced with cilantro. Four servings in 30 minutes.',
     meta: 'Chipotle lime chicken: chicken breasts in a smoky chipotle, lime, garlic and cumin marinade, baked until juicy. Dairy free and gluten free.',
-    kw: ['chipotle lime chicken', 'weight loss friendly chipotle chicken', 'gluten free chipotle lime chicken', 'dairy free chipotle chicken breast', 'baked chipotle lime chicken'],
+    kw: ['chipotle lime chicken', 'chipotle chicken under 400 calories', 'gluten free chipotle lime chicken', 'dairy free chipotle chicken breast', 'baked chipotle lime chicken'],
     why: 'Pound the thickest part of each breast flat before it goes in the marinade. An even thickness, about 2 cm, is the difference between chicken that is juicy all the way through and chicken that is dry at the thin end by the time the thick end is cooked. It takes a minute.\n\nChipotle peppers in adobo bring smoke and heat, and a little goes a long way; the sauce they come in is just as potent. **Start with a small amount**, since the heat builds as the chicken marinates. Taste the marinade first. Lime juice, garlic and cumin round it out. Ten minutes in the marinade is plenty, and a longer soak makes the surface of the chicken chalky.\n\nBake at 200°C for 18 to 20 minutes. Rest the chicken for 5 minutes so the juices settle before it is sliced. Serve with cauliflower rice, in a salad or in warm corn tortillas. Leftovers keep for 3 days.',
     ing: [
       '600 g skinless chicken breast, in 4 portions',
@@ -333,7 +333,7 @@ module.exports = {
   'sheet-pan-chicken-and-brussels-sprouts': {
     d: 'Chicken thighs and halved Brussels sprouts roasted together on one tray with mustard, thyme and garlic. Four servings in 40 minutes.',
     meta: 'Sheet pan chicken and Brussels sprouts: chicken thighs and sprouts roasted with mustard, thyme and garlic on one tray. Dairy free and gluten free.',
-    kw: ['sheet pan chicken and brussels sprouts', 'weight loss friendly sheet pan chicken', 'gluten free sheet pan chicken dinner', 'dairy free chicken and brussels sprouts', 'easy sheet pan chicken and brussels sprouts'],
+    kw: ['sheet pan chicken and brussels sprouts', 'sheet pan chicken under 400 calories', 'gluten free sheet pan chicken dinner', 'dairy free chicken and brussels sprouts', 'easy sheet pan chicken and brussels sprouts'],
     why: 'Make this when Brussels sprouts are in season, in the cold months, when turning the oven on is a pleasure. Sprouts roast to a sweet, nutty brown, the chicken thighs stay juicy and everything cooks on one tray. One pan, one wash. Nothing needs stirring until the halfway turn.\n\nHalve the sprouts so they have a flat cut side to brown against the pan, and give the vegetables room. A crowded tray steams. **Push the vegetables to the edges** and put the chicken in the middle, where the heat is steadier. Thighs suit roasting better than breasts, because they stay tender at high heat. Mustard, thyme and garlic powder make a quick coating that browns well.\n\nTurn the sprouts once, halfway, so both sides colour. A squeeze of lemon brightens the tray. Season the tray lightly, because the mustard coating adds salt of its own. Leftovers reheat well and are good cold in a salad.',
     ing: [
       '600 g skinless boneless chicken thighs',
@@ -366,7 +366,7 @@ module.exports = {
   'poached-chicken-breast': {
     d: 'Chicken breasts cooked gently in a flavoured poaching liquid until white, tender and juicy, for slicing or shredding. Four servings in 25 minutes.',
     meta: 'Poached chicken breast: breasts cooked gently in water with lemon, garlic and bay until tender and juicy. Dairy free and gluten free. Four servings.',
-    kw: ['poached chicken breast', 'weight loss friendly poached chicken', 'gluten free poached chicken breast', 'dairy free poached chicken for salads', 'easy poached chicken breast'],
+    kw: ['poached chicken breast', 'poached chicken under 400 calories', 'gluten free poached chicken breast', 'dairy free poached chicken for salads', 'easy poached chicken breast'],
     why: 'Good poached chicken is white all the way through, springy under the finger and cuts in moist slices. It is not pale and rubbery. The difference is the heat: the water is brought to a boil, then the pot is covered and taken off the heat, so the chicken cooks gently in the cooling liquid.\n\nThis is the easiest way to make chicken for salads, sandwiches and bowls, and it asks for nothing but a pot. **Keep the lid on** for the full 15 minutes. Do not lift the lid. Escaping heat is what leaves the centre underdone. Bay, garlic, lemon, peppercorns and parsley stems flavour the meat lightly, and half a teaspoon of salt seasons it through. Check the thickest piece, and return it to the liquid if it is not done.\n\nSave the cooking liquid. It is a light chicken broth, good for soups or for cooking grains. Keep the chicken in some of the liquid in the fridge and it stays moist for 3 days. Slice it across the grain.',
     ing: [
       '600 g skinless chicken breast',
@@ -397,7 +397,7 @@ module.exports = {
   'turkey-taco-lettuce-wraps': {
     d: 'Spiced turkey mince in crisp butter lettuce leaves, topped with tomato, avocado, red onion, cilantro and lime. Four servings in 22 minutes.',
     meta: 'Turkey taco lettuce wraps: spiced turkey in butter lettuce leaves with tomato, avocado, onion and cilantro. Dairy free and gluten free. Four servings.',
-    kw: ['turkey taco lettuce wraps', 'weight loss friendly taco lettuce wraps', 'gluten free turkey taco wraps', 'dairy free turkey taco lettuce cups', 'quick turkey taco lettuce wraps'],
+    kw: ['turkey taco lettuce wraps', 'taco lettuce wraps under 400 calories', 'gluten free turkey taco wraps', 'dairy free turkey taco lettuce cups', 'quick turkey taco lettuce wraps'],
     why: 'A Tuesday-night dinner for four, ready in 22 minutes, with no taco shells, no cheese and no cleanup beyond one pan and a board. Seasoned turkey goes into crisp lettuce leaves with a fresh tomato and avocado topping. Everything is eaten by hand.\n\nBrown the turkey properly, in a hot pan, breaking it into small crumbles so it picks up the spices evenly. **Add the spices before the passata**, so they bloom in the hot fat and taste deeper. Thick sauce matters. A short simmer thickens it so it clings to the meat instead of running into the lettuce.\n\nButter lettuce makes the best cups, since the leaves are soft and shaped like a bowl. Crisp romaine hearts also work. Fill them just before eating. Leftover filling keeps for 3 days and is good over a salad or in a baked sweet potato. A pinch of cayenne makes it hotter.',
     ing: [
       '450 g lean turkey mince',
@@ -436,7 +436,7 @@ module.exports = {
   'buffalo-chicken-lettuce-wraps': {
     d: 'Small pieces of chicken in a hot, buttery buffalo sauce, wrapped in lettuce with celery, carrot and a cool yogurt and dill sauce. Four servings in 25 minutes.',
     meta: 'Buffalo chicken lettuce wraps: chicken in a hot buffalo sauce with celery and carrot, wrapped in lettuce with a cool yogurt and dill sauce.',
-    kw: ['buffalo chicken lettuce wraps', 'weight loss friendly buffalo chicken', 'gluten free buffalo chicken wraps', 'buffalo chicken lettuce cups with ranch', 'quick buffalo chicken lettuce wraps'],
+    kw: ['buffalo chicken lettuce wraps', 'buffalo chicken under 400 calories', 'gluten free buffalo chicken wraps', 'buffalo chicken lettuce cups with ranch', 'quick buffalo chicken lettuce wraps'],
     why: 'It is buffalo wings without the bones, the frying or the mess: small pieces of chicken in a hot, buttery sauce, with celery and a cool yogurt dip, wrapped in lettuce. All of the flavour is there. Most of the fat is not.\n\nCut the chicken into small cubes, about 1 cm, so it browns in 8 minutes and takes up the sauce. **Add the sauce at the end**, for just 2 minutes, so it clings and does not boil away. The sauce is hot sauce and a spoonful of butter, which gives the gloss and the mellow richness of the classic. Hot sauce brands vary in heat and salt. Taste as you go.\n\nThe yogurt sauce cools the heat, in the style of blue cheese or ranch, with dill, garlic and lemon. Celery and carrot add crunch. Keep the lettuce cups cold and crisp, and fill them just before eating.',
     ing: [
       '500 g skinless chicken breast, cut into 1 cm cubes',

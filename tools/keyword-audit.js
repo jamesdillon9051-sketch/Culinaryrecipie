@@ -44,23 +44,26 @@ const CLAIMS = [
   { claim: 'low carb', when: /\blow carb\b/, ok: r => r.tags.includes('Low-Carb') },
   { claim: 'keto', when: /\bketo\b/, ok: r => r.tags.includes('Keto') },
   { claim: 'no added sugar', when: /\bno added sugar\b/, ok: r => r.tags.includes('No Added Sugar') },
-  /* The three health labels, each held to numbers by tools/health-audit.js. "Kidney" alone is
+  /* The three health labels were withdrawn (src/lib/health.js) and tools/health-audit.js keeps
+     them off every recipe, so these three can no longer pass: a phrase that names diabetes,
+     weight loss or kidney disease is a suitability claim with nothing behind it. "Kidney" alone is
      not a claim ("steak and kidney pudding"); only the phrases about eating for kidney disease. */
   { claim: 'diabetic friendly', when: /\bdiabet(?:ic|es|ics)\b/, ok: r => r.tags.includes('Diabetes-Friendly') },
   { claim: 'weight loss friendly', when: /\bweight loss\b/, ok: r => r.tags.includes('Weight-Loss Friendly') },
   { claim: 'kidney friendly', when: /\bkidney friendly\b|\brenal\b|\bckd\b|\bdialysis\b|\bkidney (?:disease|diet|health)\b/,
     ok: r => r.tags.includes('Kidney-Friendly') },
 
-  /* Time. The site separates hands-on time from waiting, and every one of
-     these phrases is about how long the cook is busy, so they read prep+cook
-     rather than the elapsed figure. */
-  { claim: 'quick', when: /\bquick\b/, ok: r => r.prep + r.cook <= 30 },
-  { claim: 'under 30 minutes', when: /\bunder 30 minutes\b/, ok: r => r.prep + r.cook <= 30 },
-  { claim: 'in an hour', when: /\bin an hour\b/, ok: r => r.prep + r.cook <= 60 },
+  /* Time. These read the elapsed figure, waiting included. They used to read
+     hands-on time on the argument that the phrases were about how long the
+     cook is busy, but a reader who searches "50 minute focaccia" expects to
+     eat in fifty minutes, not after a night in the fridge. */
+  { claim: 'quick', when: /\bquick\b/, ok: r => r.elapsedTime <= 30 },
+  { claim: 'under 30 minutes', when: /\bunder 30 minutes\b/, ok: r => r.elapsedTime <= 30 },
+  { claim: 'in an hour', when: /\bin an hour\b/, ok: r => r.elapsedTime <= 60 },
   /* "in under 30 minutes" is the rule above, not a claim that the dish takes
      exactly thirty; only a bare number is read as the time itself. */
   { claim: 'n minutes', when: /(?<!under )\b(\d+) minutes?\b/,
-    ok: (r, m) => Number(m[1]) === r.prep + r.cook },
+    ok: (r, m) => Number(m[1]) === r.elapsedTime },
   { claim: 'slow cooked', when: /\bslow cooked\b|\bslow (?!cooker)/, ok: r => r.cook >= SLOW_COOK_MINUTES },
   { claim: 'overnight', when: /\bovernight\b|\bthe day before\b/, ok: r => r.restTime >= 480 },
 
@@ -92,7 +95,13 @@ const CLAIMS = [
   /* "light" is only a calorie claim when it stands alone after the dish name
      is taken out. "light soy sauce" and "light brown sugar" are ingredients. */
   { claim: 'light', when: /^\s*light\s*$/, ok: r => r.nutrition[0] < 400 },
-  { claim: 'under 300 calories', when: /\bunder 300 calories\b/, ok: r => r.nutrition[0] < 300 },
+  { claim: 'under n calories', when: /\bunder (\d+) (?:calories|kcal)\b/, ok: (r, m) => r.nutrition[0] < Number(m[1]) },
+  { claim: 'under n mg sodium', when: /\bunder (\d+) ?mg sodium\b/, ok: (r, m) => r.nutrition[6] < Number(m[1]) },
+  /* Nothing on the ingredient list that is salt or a salty condiment, stock or cheese. */
+  { claim: 'no added salt', when: /\bno added salt\b|\bsalt free\b/,
+    ok: r => !r.ingredients.filter(l => !String(l).startsWith('# ')).some(l =>
+      /\b(?:salt|soy sauce|tamari|fish sauce|miso|stock cubes?|bouillon|stock|broth|worcestershire|parmesan|feta|bacon)\b/i.test(l) &&
+      !/unsalted|no[- ]salt|salt[- ]free|no added salt/i.test(l)) },
   { claim: 'high protein', when: /\bhigh protein\b/,
     ok: r => r.nutrition[1] >= 30 || r.tags.includes('High-Protein') },
   { claim: 'high fibre', when: /\bhigh fibre\b/, ok: r => r.nutrition[4] >= 8 },
@@ -192,8 +201,9 @@ const IDIOM = /\bstep by step\b|\bside by side\b|\bday by day\b/;
 
 /* Phrases where a claim word is part of a term of art rather than an
    assertion. A quick bread is leavened chemically instead of with yeast;
-   the name says nothing about how long it takes. */
-const TERM_OF_ART = /\bquick bread\b/;
+   the name says nothing about how long it takes, and neither does the
+   "quick-cooking" on a packet of oats or polenta. */
+const TERM_OF_ART = /\bquick bread\b|\bquick-cook(?:ing)?\b/;
 
 const recipes = loadRecipes();
 const failures = [];
@@ -249,40 +259,28 @@ for (const word of Object.values(DIET_WORD)) {
 /* --- what actually reaches the structured data -------------------------
    The meta tag is ignored by Google and the site's own search index takes
    everything, so the only keyword field with consequences is the one on the
-   Recipe node. Its risk is not length, it is sameness: twenty slots reading
-   "italian recipes, italian food, italian cooking" is a phrase every Italian
-   recipe would publish identically, and that is the shape a manual action
-   looks for. Taking the first twenty of the expanded list did exactly that,
-   because expand() orders by how it builds phrases, not by how much they say.
-
-   So this checks the slice that ships. A phrase counts as naming the dish if
-   it shares a word with the title or was hand-picked for this recipe. */
+   Recipe node. It used to carry twenty phrases ranked out of the generated
+   long tail, which is the shape of keyword stuffing whatever the ranking.
+   It now carries the hand-picked phrases only (src/lib/keywords.js
+   forSchema), and this holds it there: at most six, each one curated, none of
+   them merely the cuisine or category, which have fields of their own. */
 {
   const { forSchema } = require('../src/lib/keywords');
-  const thin = [];
+  const wrong = [];
   for (const recipe of recipes) {
-    const shipped = forSchema(recipe.keywords, 20, recipe);
-    if (!shipped.length) continue;
-    /* Folded the same way src/lib/keywords.js folds them, or every accented
-       title reads as having no words and this guard measures nothing. */
-    const { fold } = require('../src/lib/keywords');
-    const norm = v => fold(String(v).toLowerCase());
-    const titleWords = new Set(norm(recipe.title)
-      .split(/[^a-z0-9']+/).filter(w => w.length > 1));
+    const shipped = forSchema(recipe.keywords, 6, recipe);
     const curated = new Set((recipe.curatedKeywords || []).map(k => k.toLowerCase()));
-    const named = shipped.filter(phrase =>
-      curated.has(phrase) ||
-      norm(phrase).split(/[^a-z0-9']+/).some(w => titleWords.has(w))).length;
-    /* Two thirds is a floor, not a target: a dish whose English name shares no
-       word with its title still passes on its curated phrases. */
-    if (named / shipped.length < 0.67) {
-      thin.push(`${recipe.slug} — only ${named} of ${shipped.length} schema keywords name the dish`);
+    const shelf = [recipe.cuisine, recipe.category].map(v => String(v).toLowerCase());
+    if (shipped.length > 6) wrong.push(`${recipe.slug} — ${shipped.length} schema keywords, more than 6`);
+    for (const phrase of shipped) {
+      if (!curated.has(phrase)) wrong.push(`${recipe.slug} — schema keyword "${phrase}" is not one of the recipe's own kw`);
+      if (shelf.includes(phrase)) wrong.push(`${recipe.slug} — schema keyword "${phrase}" repeats recipeCuisine or recipeCategory`);
     }
   }
-  if (thin.length) {
-    console.log(`\n${thin.length} recipe(s) publish structured-data keywords that mostly do not name the dish:`);
-    for (const line of thin.slice(0, 10)) console.log(`  ✗ ${line}`);
-    failures.push(...thin);
+  if (wrong.length) {
+    console.log(`\n${wrong.length} structured-data keyword problem(s):`);
+    for (const line of wrong.slice(0, 10)) console.log(`  ✗ ${line}`);
+    failures.push(...wrong);
   }
 }
 

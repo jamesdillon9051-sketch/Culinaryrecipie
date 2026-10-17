@@ -8,7 +8,7 @@ Built from scratch with vanilla HTML, CSS and JavaScript. No framework, no build
 tooling beyond Node's standard library, no runtime dependencies.
 
 ```
-5515 recipes · 92 cuisines · 10 categories · 5877 static pages · 0 npm dependencies
+5515 recipes · 92 cuisines · 10 categories · 5878 static pages · 0 npm dependencies
 ```
 
 ---
@@ -28,13 +28,48 @@ Node 18 or newer. Nothing to install — `package.json` has no dependencies.
 
 ### Deploying
 
-The site is a plain folder of static files. Both major hosts are pre-configured:
+The site is a plain folder of static files plus one PHP script, the contact
+form's endpoint. **The live host is Hostinger**, configured by `.htaccess`
+(one hostname, HTTPS, `index.html` folded into `/`, caching, and refusing the
+private paths below). The others are pre-configured in case the site moves:
 
 | Host | Config | Build command | Publish directory |
 |---|---|---|---|
+| Hostinger (live) | `.htaccess` | `npm run build` (locally; output is committed) | repository root → `public_html` |
 | Netlify | `netlify.toml` | `npm run build` | `.` |
 | Vercel | `vercel.json` | `npm run build` | `.` |
 | GitHub Pages | — | — | `main` branch, `/ (root)` |
+
+**What should be deployed.** Only the built site needs to be public:
+`index.html`, `404.html`, the generated folders (`about`, `assets`,
+`categories`, `contact`, `cuisines`, `favourites`, `ingredients`, `privacy`,
+`recipes`, `search`, `site-directory`), the sitemaps, `robots.txt`, `ads.txt`,
+`manifest.json`, `feed.xml`, `pinterest-feed.xml`, `search-index.json`,
+`images-attribution.md` and `.htaccess`. Everything else (`src/`, `tools/`,
+`.git/`, `CLAUDE.md`, this README, `package.json`, the CSV and JSON working
+files) is the project, not the site. While the whole repository is copied into
+`public_html`, `.htaccess` answers 404 for those paths, and
+`node tools/private-paths-check.js` checks the rules offline (add
+`--url https://weeklydelight.com` after a deploy to check the live host).
+`robots.txt` is not used for this: it only asks crawlers not to look.
+
+**The contact form.** `contact/send.php` (from `src/server/contact-send.php`)
+emails each message with PHP's `mail()` and tells the reader it was sent only
+when the mailer accepted it. It reads where to send from a file *outside* the
+web root, so no address is in the repository:
+
+1. In Hostinger's email panel, create a sending address on the domain (for
+   example `noreply@weeklydelight.com`).
+2. Copy `tools/contact-config.example.php` to
+   `domains/weeklydelight.com/private/contact-config.php` (beside
+   `public_html`, not in it), and fill in `to`, `from` and `salt`.
+3. Send a test message from `/contact/` and confirm it arrives. To test without
+   emailing anyone, set `'transport' => 'log'` and read the log file instead.
+
+Until the config exists the form answers that nothing was sent, and keeps what
+the reader typed. It used to post to a static page that answered 200 to
+anything, after which the page said "Thank you — your message has been sent";
+every message was lost.
 
 The generated site lives in the **repository root**, so the repo can be served
 as-is with no build step: point GitHub Pages at the root of `main` and it
@@ -192,22 +227,22 @@ Everything below is implemented and verified by `npm run check` on every build.
 ### Crawlability & indexing
 
 - [x] `sitemap.xml` with per-page `lastmod`, `changefreq` and `priority`, plus image entries
-- [x] `robots.txt` allowing the site, disallowing filtered query-string views and the device-local `/favourites/`
+- [x] `robots.txt` as one rule set for every crawler, disallowing the filtered query-string views in either position (`?tag=` and `&tag=`) and the contact endpoint; `tools/robots-check.js` holds 28 URLs to their intended outcome for six crawlers. A separate `Googlebot` group with `Allow: /` used to switch every one of those rules off for Google
 - [x] Canonical URL on every page
-- [x] `noindex, follow` on the 404 page, search page results and favourites
+- [x] `noindex, follow` on the 404 page, favourites and the two contact result pages, which robots.txt leaves crawlable so the noindex can be read
 - [x] Clean, keyword-rich URLs — `/recipes/chicken-tikka-masala/`, never `?id=123`
 - [x] Trailing-slash directory structure so URLs work on every static host
 - [x] RSS feed at `/feed.xml`
 
 ### Structured data (JSON-LD)
 
-- [x] **Recipe** on all 5515 recipe pages — `name`, `image`, `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime`, `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords`, `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet`
+- [x] **Recipe** on all 5515 recipe pages — `name`, `image` (where the recipe has a picture; 1,405 do not, and those are not eligible for recipe rich results until a real photograph is found), `author`, `datePublished`, `prepTime`, `cookTime`, `totalTime` (waiting included), `recipeYield`, `recipeCategory`, `recipeCuisine`, `keywords` (the recipe's own 4 to 6 curated phrases), `nutrition`, `recipeIngredient`, `recipeInstructions` (as `HowToStep` with anchors), `suitableForDiet` (only the diets that hold without a swap)
 - [x] **BreadcrumbList** on every page below the root
 - [x] **WebSite** with `SearchAction` (sitelinks search box)
 - [x] **Organization** with logo
 - [x] **ItemList** for the homepage editor's picks
 - [x] **CollectionPage** on category and cuisine landing pages
-- [x] **FAQPage** on the about page
+- [x] **FAQPage** on the about page, and on the recipe pages that have a question worth asking (see Structured data below)
 - [x] **AboutPage** / **ContactPage**
 
 ### Metadata
@@ -233,20 +268,23 @@ Everything below is implemented and verified by `npm run check` on every build.
       genuine reviews is every rich result on the domain. The fallback is gone
       and `src/data/reviews.json` is the only source, so all 809 read "Not yet
       rated" until somebody rates one
-- [x] **FAQPage** on all 5515 recipe pages and the about page — 32,005 questions,
-      about 5.8 a recipe, built by `src/lib/faq.js` from fields the page already
-      prints: the times, the tips, the pairings, the storage note, the diet tags
-      and the nutrition figures. A question whose source field is missing is not
-      asked. `npm run check` reads every answer out of the schema and looks for
+- [x] **FAQPage** on 1,056 recipe pages and the about page — 1,056 questions,
+      built by `src/lib/faq.js` only where the answer adds something the page
+      does not already say in one place: the waiting on recipes that have it,
+      and why the sauce split on carbonara, alfredo and cacio e pepe. It used
+      to ask five or six questions on every recipe, each answered by repeating a
+      section of the same page; those were filler and are gone, and a recipe
+      with nothing worth asking has no FAQ section at all. `npm run check` reads every answer out of the schema and looks for
       it in the rendered text, so markup cannot describe Q&A a reader cannot see
       — which is the condition Google puts on FAQ markup, and the one that earns
       a manual action when it is broken.
 
-      Worth knowing: since August 2023 Google shows FAQ rich results only for
-      well-known, authoritative government and health sites. This markup is
-      correct and it will not put an accordion under the search result. The gain
-      is a page that answers what people actually ask
-- [x] Keywords — 4 curated phrases per recipe, widened to a median of 88 by
+      Worth knowing: from September 2023 Google showed FAQ rich results only
+      for well-known government and health sites, and its documentation says
+      the feature stopped appearing in Google Search in May 2026. This markup
+      earns nothing there. The gain is a page that answers what people ask
+- [x] Keywords — 4 curated phrases per recipe (the only ones in the Recipe
+      JSON-LD and the keywords meta tag), widened to a median of 87 by
       `src/lib/keywords.js` from the row's own cuisine, category, times,
       difficulty, diet tags, servings, ingredients, cooking method, pairings,
       per-serving nutrition and storage note. Derived rather than written, so a
@@ -254,7 +292,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 491,967 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 487,744 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -328,12 +366,11 @@ Everything below is implemented and verified by `npm run check` on every build.
 - [x] The image pipeline follows `http(s)` URLs only, never `file://`
 - [x] Zero dependencies, so no supply chain and no install hooks
 
-Serving from the repository root means `src/` and `tools/` are published
-alongside the site and are publicly fetchable. There are no secrets in either
-— the recipe data and build scripts are the whole project — but they are
-excluded in `robots.txt` since there is nothing there to index. If you would
-rather they were not served at all, set the publish directory back to a
-subfolder and revert `OUT` in `src/build.js`.
+Serving from the repository root means `src/`, `tools/` and the project files
+are copied to the host alongside the site. There are no secrets in them, but
+they are not the site either, so `.htaccess` answers 404 for them (see
+"Deploying"). They used to be listed in `robots.txt`, which protects nothing
+and points at what it lists. Deploying only the built files is better still.
 
 `style-src` deliberately keeps `'unsafe-inline'`. Cards carry a per-recipe
 background colour, hero images carry a blur-up data URI, and star ratings carry
@@ -352,8 +389,8 @@ would be.
 ### Before you launch
 
 1. Run the build with your real `SITE_URL`.
-2. Replace the placeholder Twitter handle in `src/templates/layout.js`.
-3. Wire the contact and newsletter forms to a real endpoint (Netlify Forms, Formspree, or your own). They currently validate and confirm client-side only — this is called out on the page itself.
+2. Add a social handle in `src/templates/layout.js` only once the account exists and belongs to the site (none is published).
+3. Create the contact form's config outside `public_html` (see "Deploying") and send a test message.
 4. Submit `sitemap.xml` in Google Search Console.
 5. Validate a recipe page with the [Rich Results Test](https://search.google.com/test/rich-results).
 
@@ -548,6 +585,17 @@ documented the problem. Every recipe reads that way now — see below.
 
 ### On diabetes, weight loss and kidney disease
 
+**Withdrawn, October 2026.** The three labels described below are no longer on
+any recipe, filter or structured data. Each named a condition or an outcome
+rather than the dish, which is a claim that the dish suits a person; the kidney
+label rested on potassium and phosphorus estimates from this site's own food
+table; and no dietitian reviewed any of it. A "not medical advice" note beside
+such a label is not a substitute for that review. The recipes keep their
+computed nutrition, their search phrases now state numbers instead ("under 400
+calories", "no added salt"), and `npm run health` fails if a label comes back.
+The rules are kept in `src/lib/health.js` for a reviewer. What follows is the
+history of why they were added.
+
 This section used to say that there was no tag for diabetes and there would not
 be one. Whether a meal suits someone managing diabetes depends on their
 medication, their carbohydrate ratios, the portion they eat and the rest of that
@@ -604,11 +652,35 @@ or phosphate added.
 
 ## Diet tags
 
+**October 2026: a label that needs a swap now says so.** A line that offered a
+way out used to make a tag pass outright, so the focaccia, brushed with "honey
+or sugar", was published as Vegan with nothing to say the honey had to go. The
+judging now lives in `src/lib/diet-conditions.js`, shared by the build, the page
+and `npm run diet`, and every tag is one of three things: *clean*; *conditional*,
+shown as "Vegan option" with the condition in the recipe's own words ("Vegan
+when made with sugar rather than honey.") and left out of the Recipe JSON-LD,
+which cannot state a condition; or *contradicted*, which fails the build.
+Conditions also cover what an ingredient name hides: parmesan, pecorino, grana
+padano, gruyère and comté are made with animal rennet, ordinary oats are not
+gluten-free, a stock cube says nothing about what it was made from, and hoisin,
+gochujang, miso and oyster sauce are usually brewed with wheat. An alternative
+only rescues a line when one side of it is allowed: "smoked salmon or gravlax"
+on a vegetarian page is not a choice. 290 labels on 246 recipes are conditional;
+`node tools/diet-audit.js --conditional` lists them, and the method steps that
+name only the forbidden side for a person to reword.
+
+The same pass found 36 labels on 29 recipes with no way out, among them three rabbit stews
+and three sea-bream dishes tagged Vegetarian (four of them Vegan too),
+spaghetti alla bottarga (mullet roe) tagged Vegetarian and Vegan, Welsh rarebit tagged
+Vegetarian with Worcestershire sauce, and brioche French toast, sponge-finger
+trifles and a dough-sealed biryani tagged Gluten-Free. Each lost the label;
+lentil soup, which lost Vegan to its butter, kept Vegetarian.
+
 `npm run diet` checks every recipe's diet tags against its own ingredient list —
 a stricter test than the ingredient hubs apply, because a risotto made with
 chicken stock is not a chicken *recipe* but is emphatically not vegetarian. A
 line that offers a way out ("chicken or vegetable stock", "parmesan, to serve")
-passes; a line that does not is a false claim.
+makes the tag conditional; a line that does not is a false claim.
 
 This matters more than anything else the site asserts. Someone coeliac cooking
 from a Gluten-Free page is trusting a claim they cannot check from the
@@ -4615,7 +4687,7 @@ whisked zabaglione over simmering water for ten; kvass toasted its bread in a
 200°C oven for twenty. The other 43 recipes at zero really are no-cook, and stay
 there.
 
-The larger problem was waiting. **1048 of the 5515 recipes** declare unattended
+The larger problem was waiting. **1047 of the 5515 recipes** declare unattended
 waiting the header never mentioned — a pizza dough that cold-ferments for a day,
 a gravlax that cures for two, a stollen that matures for a fortnight. Rather
 than inflate prep and cook, which are hands-on time and are what "quick" is

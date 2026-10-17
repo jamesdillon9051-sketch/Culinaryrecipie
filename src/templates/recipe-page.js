@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, humanWait, isoDuration, starsHtml, clamp, photoCredit, plural,
+const { esc, humanTime, humanWait, humanWaitRange, isoDuration, starsHtml, clamp, photoCredit, plural,
         isIllustration, secureUrl } = require('../lib/util');
 const ILLUSTRATIONS = require('../data/illustrations');
 const { parse, formatQty, plainList } = require('../lib/ingredients');
@@ -12,7 +12,6 @@ const { addFahrenheit } = require('../lib/oven-temp');
 const { videoSchema, reviewSchema } = require('../lib/media');
 const inline = require('../lib/inline');
 const layouts = require('../lib/layouts');
-const health = require('../lib/health');
 const { SITE, ICONS, layout, card, newsletter, breadcrumbs, breadcrumbSchema, slug } = require('./layout');
 const ads = require('./ads');
 
@@ -139,26 +138,11 @@ function nutritionHtml(n, kp) {
     ['Calories', n[0], 'kcal'], ['Protein', n[1], 'g'], ['Carbs', n[2], 'g'],
     ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], ['Sodium', n[6], 'mg']
   ];
-  /* Potassium and phosphorus, only for the recipes that give them: the Kidney-Friendly label
-     is a claim about both, so the figures it rests on are printed with the others. */
-  if (kp) cells.push(['Potassium', kp[0], 'mg'], ['Phosphorus', kp[1], 'mg']);
+  /* Potassium and phosphorus, only for the recipes that give them (volume 34). They come from
+     the site's own food table rather than a laboratory, so they say "est.". */
+  if (kp) cells.push(['Potassium (est.)', kp[0], 'mg'], ['Phosphorus (est.)', kp[1], 'mg']);
   return `<div class="nutrition">${cells.map(([label, value, unit]) =>
     `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
-}
-
-/**
- * The note under the nutrition figures for each health label a recipe carries: its own
- * numbers, the limits they were held to and the caution. The text comes from
- * src/lib/health.js, the module the audit reads, so it cannot claim more than the audit checks.
- */
-function healthNotesHtml(recipe) {
-  return health.notesFor(recipe).map(note => `
-        <aside class="panel panel--accent health-note" style="margin:1.25rem 0 0" aria-labelledby="health-${esc(slug(note.tag))}">
-          <h3 id="health-${esc(slug(note.tag))}" style="margin-bottom:.5rem">${esc(note.heading)}</h3>
-          <p style="margin:0 0 .6rem">${esc(note.facts)}</p>
-          <p class="form-note" style="margin:0 0 .6rem">${esc(note.rule)}</p>
-          <p class="form-note" style="margin:0">${esc(note.advice)}</p>
-        </aside>`).join('');
 }
 
 /**
@@ -269,25 +253,22 @@ function recipeSchema(recipe) {
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
     recipeCuisine: recipe.cuisine,
-    keywords: forSchema(recipe.keywords, 20, recipe).join(', '),
-    /* schema.org's RestrictedDiet has no value for low-carb or ketogenic, and
-       both used to be published as LowCalorieDiet — which is a different claim
-       and a false one: keto cooking is frequently high in calories. The three
-       calorie, fat and salt values below are emitted from the nutrition figures
-       instead, where the number itself is the evidence. */
-    suitableForDiet: [
-      ...recipe.tags.map(t => ({
+    keywords: forSchema(recipe.keywords, 6, recipe).join(', '),
+    /* Only the diets the page states without a condition. schema.org's RestrictedDiet
+       has no way to say "vegan when made with sugar rather than honey", so a label
+       that holds only with a swap is on the page and not here. The LowCalorie, LowFat,
+       LowSalt and Diabetic values that used to follow were thresholds this site chose
+       (under 400 kcal, 10 g fat, 400 mg sodium), not the regulated meanings of those
+       words, and DiabeticDiet is a suitability claim no one has reviewed. */
+    suitableForDiet: recipe.tags
+      .filter(t => !recipe.dietStatus || !recipe.dietStatus[t] || recipe.dietStatus[t].status === 'clean')
+      .map(t => ({
         'Vegetarian': 'https://schema.org/VegetarianDiet',
         'Vegan': 'https://schema.org/VeganDiet',
         'Gluten-Free': 'https://schema.org/GlutenFreeDiet',
-        'Dairy-Free': 'https://schema.org/LowLactoseDiet',
-        /* Only ever on a recipe that passed the numeric rules in src/lib/health.js. */
-        'Diabetes-Friendly': 'https://schema.org/DiabeticDiet'
-      }[t])),
-      recipe.nutrition[0] < 400 ? 'https://schema.org/LowCalorieDiet' : null,
-      recipe.nutrition[3] <= 10 ? 'https://schema.org/LowFatDiet' : null,
-      recipe.nutrition[6] <= 400 ? 'https://schema.org/LowSaltDiet' : null
-    ].filter(Boolean),
+        'Dairy-Free': 'https://schema.org/LowLactoseDiet'
+      }[t]))
+      .filter(Boolean),
     nutrition: {
       '@type': 'NutritionInformation',
       servingSize: '1 serving',
@@ -380,9 +361,15 @@ function render(recipe, context) {
       </figcaption>
     </figure>` : '';
 
+  /* A label that holds only with a swap the recipe offers says so: the chip reads
+     "Vegan option" and the condition is printed under the row, in the recipe's own
+     words ("Vegan when made with sugar rather than honey."). src/lib/diet-conditions.js. */
+  const status = t => (recipe.dietStatus && recipe.dietStatus[t]) || null;
+  const dietNotes = recipe.tags.map(status).filter(d => d && d.note).map(d => d.note);
   const dietTags = recipe.tags.length
     ? `<div class="tag-row" style="margin-top:1rem">${recipe.tags.map(t =>
-        `<a class="tag" href="${SITE.base}recipes/?tag=${encodeURIComponent(t)}">${esc(t)}</a>`).join('')}</div>`
+        `<a class="tag" href="${SITE.base}recipes/?tag=${encodeURIComponent(t)}">${esc(t)}${status(t) && status(t).status === 'conditional' ? ' option' : ''}</a>`).join('')}</div>${
+        dietNotes.length ? `\n        <p class="form-note diet-conditions" style="margin:.6rem 0 0">${dietNotes.map(esc).join(' ')}</p>` : ''}`
     : '';
 
   /* The prose column is assembled from the recipe's layout — an order for the
@@ -412,13 +399,17 @@ function render(recipe, context) {
     serve: () => serveHtml(recipe, shape.serve, heading('serve')),
     store: () => `<h2>${esc(heading('store'))}</h2>
         <p>${esc(recipe.storage)}</p>`,
-    faq: () => `<h2 id="faq">${esc(heading('faq'))}</h2>
+    /* No section at all when nothing is worth asking: a heading over one
+       restated fact is filler. */
+    faq: () => !faq.length ? '' : `<h2 id="faq">${esc(heading('faq'))}</h2>
         <div class="faq">${faq.map(({ q, a }) =>
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
     nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
-        <p class="form-note">Per serving, calculated from the ingredient list. Treat these as an estimate — brands and cuts vary.</p>
+        <p class="form-note">${recipe.nutritionSource === 'calculated'
+          ? 'Per serving, worked out from the ingredient list with standard food-composition figures. Treat them as an estimate: brands and cuts vary.'
+          : 'Per serving, an estimate made when the recipe was written rather than worked out line by line from the ingredients. Treat it as a rough guide.'}</p>
         ${nutritionHtml(recipe.nutrition, recipe.kp)}
-        ${dietTags}${healthNotesHtml(recipe)}`
+        ${dietTags}`
   };
   const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');
 
@@ -438,7 +429,7 @@ ${breadcrumbs(trail)}
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}
           <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'hands on' : 'total'}</span>
-          ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWait(recipe.restTime)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
+          ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWaitRange(recipe.restTime, recipe.restMax)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
@@ -494,8 +485,8 @@ ${breadcrumbs(trail)}
           <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
             <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
             <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
-            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.restTime)}</dd>` : ''}
-            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWait(recipe.elapsedTime)}</dd>
+            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.restTime, recipe.restMax)}</dd>` : ''}
+            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
           </dl>
@@ -529,17 +520,26 @@ ${breadcrumbs(trail)}
       <div class="prose">
         ${prose}
 
+        <!-- Private notes, not reviews.
+             This form never had a server behind it: what a reader entered was
+             written to their own browser and shown back to them alone, while
+             the section was headed "Reader Reviews" and the button said "Post
+             review". That read as a public review system that nobody else could
+             see. It is labelled now as what it is. Published reader reviews,
+             if they ever exist, come from src/data/reviews.json and render in
+             publishedReviewsHtml() above the notes; nothing here feeds the
+             rating schema. -->
         <section class="reviews" aria-labelledby="reviews-title" style="margin-top:3rem">
-          <h2 id="reviews-title">Reader Reviews</h2>
-          <p class="form-note" id="review-summary"></p>
+          <h2 id="reviews-title">${recipe.publishedReviews && recipe.publishedReviews.length ? 'Reader reviews and your notes' : 'Your notes on this recipe'}</h2>
           ${publishedReviewsHtml(recipe.publishedReviews)}
+          <p class="form-note" id="review-summary"></p>
           <div id="review-list"></div>
 
           <div class="panel" style="margin-top:1.5rem">
-            <h3>Cooked this? Leave a review</h3>
+            <h3>Cooked this? Keep a note for next time</h3>
             <form id="review-form" class="review-form" novalidate>
               <div>
-                <span class="sr-only" id="rating-label">Your rating out of 5</span>
+                <span class="sr-only" id="rating-label">Your own rating out of 5</span>
                 <div class="star-input" role="radiogroup" aria-labelledby="rating-label">
                   ${[5, 4, 3, 2, 1].map(n => `
                   <input type="radio" name="rating" id="star-${n}" value="${n}">
@@ -547,17 +547,13 @@ ${breadcrumbs(trail)}
                 </div>
               </div>
               <div class="field">
-                <label for="review-name">Your name</label>
-                <input type="text" id="review-name" name="name" autocomplete="name" required>
-              </div>
-              <div class="field">
-                <label for="review-body">How did it go?</label>
+                <label for="review-body">Your note</label>
                 <textarea id="review-body" name="body" required
-                          placeholder="Did you change anything? How did it turn out?"></textarea>
+                          placeholder="What did you change? How did it turn out?"></textarea>
               </div>
-              <button class="btn btn--primary" type="submit">Post review</button>
+              <button class="btn btn--primary" type="submit">Save note</button>
               <p class="form-status" id="review-status" role="status" hidden></p>
-              <p class="form-note">Reviews are stored in your browser only — nothing is sent to a server.</p>
+              <p class="form-note">Private to you: notes and ratings are saved in this browser only, are never sent anywhere, and other readers cannot see them.</p>
             </form>
           </div>
         </section>
@@ -573,8 +569,8 @@ ${breadcrumbs(trail)}
       <div class="panel" style="display:flex;gap:1rem;align-items:flex-start;margin:2.5rem 0">
         <span class="avatar" aria-hidden="true">${SITE.author[0]}</span>
         <div>
-          <p style="margin:0;font-size:.95rem"><strong>Written and tested by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
-          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">One person, one kitchen — no test kitchen, no team. <a href="${SITE.base}about/#how-checked">How every recipe on this site is checked</a> before it goes up.</p>
+          <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
+          <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Written with AI assistance from well-established methods and checked by script for timings, diet labels and nutrition arithmetic; not individually kitchen-tested. <a href="${SITE.base}about/#how-made">How the recipes are made</a>.</p>
         </div>
       </div>
     </div>
@@ -606,7 +602,7 @@ ${breadcrumbs(trail)}
     title: `${recipe.title} Recipe`,
     titleHooks: recipeTitleHooks(recipe),
     description: enrichDescription(recipe.meta, recipeDescriptionClauses(recipe)),
-    keywords: recipe.keywords,
+    keywords: forSchema(recipe.keywords, 6, recipe),
     path: `recipes/${recipe.slug}/`,
     active: 'recipes',
     ogType: 'article',
@@ -616,7 +612,7 @@ ${breadcrumbs(trail)}
     /* Twitter renders two labelled facts under the card. Time and yield are
        what somebody deciding whether to open a recipe wants to know. */
     cardFacts: [
-      ['Time', humanTime(recipe.elapsedTime)],
+      ['Time', humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)],
       ['Serves', String(recipe.servings)]
     ],
     image: img && (ILLUSTRATIONS.inRecipeSchema || !isIllustration(img))

@@ -14,8 +14,8 @@
 module.exports = {
   'onion-turkey-burgers': {
     d: 'Lean turkey burgers with grated onion, smoked paprika and garlic, pan-cooked and served in small buns with lettuce, red onion and mustard. Four servings in 27 minutes.',
-    meta: 'Onion turkey burgers: extra-lean turkey with grated onion and smoked paprika, pan-cooked in small buns. Kidney friendly. Four servings in 27 minutes.',
-    kw: ['onion turkey burgers', 'kidney friendly turkey burgers', 'high protein turkey burgers', 'easy turkey burgers for four', 'turkey burgers without added salt'],
+    meta: 'Onion turkey burgers: extra-lean turkey with grated onion and smoked paprika, pan-cooked in small buns. Four servings in 27 minutes.',
+    kw: ['onion turkey burgers', 'no added salt turkey burgers', 'high protein turkey burgers', 'easy turkey burgers for four', 'turkey burgers without added salt'],
     why: 'Grate the onion. Do not chop it. Grated onion melts into the burger and keeps lean turkey moist, while chopped onion leaves crunchy pieces and gaps that crumble when the patty is turned. There are two spoonfuls of grated onion in every burger, and no salt in the mix at all.\n\nExtra-lean turkey breast mince is leaner than most, so it needs an egg white and a spoonful of oil to stay tender. **Mix gently, then chill**, because cold patties hold together and cook evenly. Shape four patties about 11 cm across. Make the centre slightly thinner than the edge, because patties swell as they cook and a thin centre keeps them level.\n\nSmoked paprika and garlic powder give the patty a barbecue note without any added salt. A small bun, red onion rings, lettuce and a thin spread of Dijon mustard finish the plate. The bun is the largest source of sodium here, which is why it is a small one. Eat the burger warm.',
     ing: [
       '440 g extra-lean ground turkey breast',
@@ -49,8 +49,8 @@ module.exports = {
 
   'turkey-and-noodles': {
     d: 'Extra-lean turkey, carrot and onion simmered in a thyme broth with flat rice noodles that cook in the pan, lightly thickened with cornflour. Four servings in 35 minutes.',
-    meta: 'Turkey and noodles: lean turkey, carrot and flat rice noodles simmered in a thyme broth in one pan. Dairy free. Kidney friendly. Four servings.',
-    kw: ['turkey and noodles', 'kidney friendly turkey and noodles', 'dairy free turkey and noodles with rice noodles', 'turkey rice noodle skillet', 'turkey and noodles for four'],
+    meta: 'Turkey and noodles: lean turkey, carrot and flat rice noodles simmered in a thyme broth in one pan. Dairy free. Four servings.',
+    kw: ['turkey and noodles', 'no added salt turkey and noodles', 'dairy free turkey and noodles with rice noodles', 'turkey rice noodle skillet', 'turkey and noodles for four'],
     why: 'It sits between soup and stir-fry. Thick enough to eat with a fork, wet enough to need a spoon, it cooks in one pan. Extra-lean turkey mince browns quickly, and the rice noodles cook in the same broth so that they pick up all the flavour.\n\nBrown the turkey in the pan first, breaking it up as it cooks. **Do not skip the browning.** The browned bits are what flavour the broth when the liquid goes in. Then soften the onion and carrot, add the garlic and thyme, and pour in the stock and water. Cornflour stirred in at the end gives the sauce body.\n\nRice noodles are the lighter choice for phosphorus, since egg noodles carry the egg. A third of the liquid is unsalted stock, which adds flavour without sodium. It is a gentle, comforting dish. Serve it in deep bowls, with parsley on top and a squeeze of lemon if you like.',
     ing: [
       '400 g extra-lean ground turkey breast',
@@ -85,8 +85,8 @@ module.exports = {
 
   'lemon-turkey-cutlets': {
     d: 'Thin turkey cutlets lightly floured and pan-fried, then turned through a quick sauce of lemon, unsalted stock, butter and parsley. Four servings in 22 minutes.',
-    meta: 'Lemon turkey cutlets: thin cutlets pan-fried with a light flour coat, then turned in a lemon, stock and parsley sauce. Kidney friendly. Four servings.',
-    kw: ['lemon turkey cutlets', 'kidney friendly turkey cutlets', 'pan fried lemon turkey cutlets', 'quick lemon turkey cutlets for four', 'lemon parsley turkey cutlets'],
+    meta: 'Lemon turkey cutlets: thin cutlets pan-fried with a light flour coat, then turned in a lemon, stock and parsley sauce. Four servings.',
+    kw: ['lemon turkey cutlets', 'no added salt turkey cutlets', 'pan fried lemon turkey cutlets', 'quick lemon turkey cutlets for four', 'lemon parsley turkey cutlets'],
     why: 'Thin cutlets, hot pan. Turkey breast has even less fat than chicken, so it dries out the moment it is overcooked, and 2 minutes a side is all a thin cutlet needs. Everything else is there to keep it moist and give it flavour.\n\nA thin coat of flour and egg white shields the meat from the pan, and it browns into a light crust. **Shake off the surplus flour**, or it burns in the oil and turns the sauce gluey. Cook two cutlets at a time. Crowding the pan drops the heat and the coating turns pale and soft.\n\nThe sauce is made in the pan: lemon juice, unsalted stock, a little butter and parsley, simmered for 2 minutes. Lemon zest goes in at the end, where it keeps its fragrance. There are no capers and no salt, which is why the lemon is generous. Serve at once. Rice or green beans catch the sauce.',
     ing: [
       '440 g turkey breast cutlets',
@@ -119,8 +119,8 @@ module.exports = {
 
   'turkey-rice-skillet': {
     d: 'Extra-lean turkey, peppers and onion cooked with white rice, smoked paprika and cumin in a single pan, finished with lemon and parsley. Four servings in 40 minutes.',
-    meta: 'Turkey rice skillet: lean turkey, peppers and white rice cooked with paprika and cumin and finished with lemon. Kidney friendly. Four servings.',
-    kw: ['turkey rice skillet', 'kidney friendly turkey and rice', 'gluten free turkey rice skillet', 'dairy free turkey rice skillet', 'turkey rice skillet for four'],
+    meta: 'Turkey rice skillet: lean turkey, peppers and white rice cooked with paprika and cumin and finished with lemon. Four servings.',
+    kw: ['turkey rice skillet', 'no added salt turkey and rice', 'gluten free turkey rice skillet', 'dairy free turkey rice skillet', 'turkey rice skillet for four'],
     why: 'Listen under the lid. A quiet, steady bubble means the rice is absorbing the water, and a loud spit means the heat is too high and the base is about to catch. Turn it down at once.\n\nBrown the turkey with the onion and pepper first, and stir in the spices while the pan is still hot so that they bloom in the fat. **Rice goes in raw**, and it cooks in the water with the turkey, taking up all the flavour. Cover and keep the heat low. Do not stir once the lid is on, because stirring releases starch and turns the rice sticky.\n\nSmoked paprika, cumin and oregano give a savoury, slightly smoky flavour with no salt. Lemon juice at the end brightens it. One pan feeds four. White rice keeps the potassium and phosphorus lower than brown rice would, and it cooks in about the time the flavours need to develop.',
     ing: [
       '400 g extra-lean ground turkey breast',
@@ -156,8 +156,8 @@ module.exports = {
 
   'turkey-stir-fry-with-peppers': {
     d: 'Thin strips of turkey breast stir-fried with three colours of pepper, onion, garlic and ginger in a light low-sodium soy and lime sauce. Four servings in 27 minutes.',
-    meta: 'Turkey stir-fry with peppers: thin turkey strips, three colours of pepper and ginger in a light lime and soy sauce. Kidney friendly. Four servings.',
-    kw: ['turkey stir fry with peppers', 'kidney friendly turkey stir fry', 'low sodium turkey stir fry with bell peppers', 'dairy free turkey and pepper stir fry', 'easy turkey stir fry for four'],
+    meta: 'Turkey stir-fry with peppers: thin turkey strips, three colours of pepper and ginger in a light lime and soy sauce. Four servings.',
+    kw: ['turkey stir fry with peppers', 'low sodium turkey stir fry with bell peppers', 'dairy free turkey and pepper stir fry', 'easy turkey stir fry for four'],
     why: 'Turkey breast turns dry and chewy in a stir-fry. Thin slices matter. Cut across the grain, no thicker than a pencil, and each batch needs only about 3 minutes in a very hot pan. Work in batches, so that the meat sears instead of stewing in its own liquid.\n\nLime juice replaces some of the soy sauce here, and the sauce is brighter for it. **A tablespoon of soy sauce** serves four, with rice vinegar, ginger and garlic carrying the rest. Peppers in three colours add sweetness, and the onion softens quickly. Keep everything moving in the pan. Add the sauce only when the peppers have lost their raw edge.\n\nPeppers are one of the lower-potassium vegetables, and a plate of them gives colour as well as crunch. Serve the stir-fry over white rice or rice noodles. It reheats well, though the peppers soften. Add the sesame oil off the heat, so that its aroma is not cooked away.',
     ing: [
       '440 g turkey breast, thinly sliced',
@@ -193,8 +193,8 @@ module.exports = {
 
   'turkey-vegetable-soup': {
     d: 'Diced turkey breast, carrot, cabbage and rice simmered in a thyme and bay broth made from plain water, with lemon and parsley at the end. Six servings in 50 minutes.',
-    meta: 'Turkey vegetable soup: diced turkey, carrot, cabbage and rice in a thyme and bay broth made with plain water. Kidney friendly. Six servings.',
-    kw: ['turkey vegetable soup', 'kidney friendly turkey soup', 'gluten free turkey vegetable soup', 'dairy free turkey and rice soup', 'turkey vegetable soup for a crowd'],
+    meta: 'Turkey vegetable soup: diced turkey, carrot, cabbage and rice in a thyme and bay broth made with plain water. Six servings.',
+    kw: ['turkey vegetable soup', 'no added salt turkey soup', 'gluten free turkey vegetable soup', 'dairy free turkey and rice soup', 'turkey vegetable soup for a crowd'],
     why: 'Add the turkey late. Diced breast needs only about 10 minutes in simmering water, and longer than that turns it dry and stringy. The rest of the soup can take its time, so the vegetables and rice get a head start while the turkey waits.\n\nPlain water makes the broth, with onion, carrot, garlic, bay and thyme, and the vegetables and turkey flavour it as they cook. **Rice thickens it gently** and makes the soup a meal. Cabbage goes in with the turkey so that it stays green and slightly firm. Six servings come out of one pot.\n\nThere is no stock and no salt in the pot. Lemon does the lifting. A spoonful of juice and a handful of parsley at the end brighten the broth, and black pepper gives it warmth. Carrot, onion and cabbage are modest in potassium, which is why they were chosen. Keep the portion to a bowl.',
     ing: [
       '600 g turkey breast, diced',
@@ -230,8 +230,8 @@ module.exports = {
 
   'roasted-turkey-tenderloin': {
     d: 'A lean turkey tenderloin rubbed with garlic, rosemary, thyme, sage and lemon, roasted until just cooked through and sliced across the grain. Four servings in 55 minutes.',
-    meta: 'Roasted turkey tenderloin: a lean tenderloin rubbed with garlic, herbs and lemon, roasted and sliced. No added salt. Kidney friendly. Four servings.',
-    kw: ['roasted turkey tenderloin', 'kidney friendly roast turkey', 'high protein roasted turkey tenderloin', 'gluten free herb roasted turkey tenderloin', 'dairy free roasted turkey tenderloin'],
+    meta: 'Roasted turkey tenderloin: a lean tenderloin rubbed with garlic, herbs and lemon, roasted and sliced. No added salt. Four servings.',
+    kw: ['roasted turkey tenderloin', 'no added salt roast turkey', 'high protein roasted turkey tenderloin', 'gluten free herb roasted turkey tenderloin', 'dairy free roasted turkey tenderloin'],
     why: 'Do not skip the rest. A roast turkey tenderloin carries on cooking after it leaves the oven, and slicing it straight away lets the juices run onto the board. Ten minutes under foil keeps them in the meat.\n\nA tenderloin is a long, lean muscle, so it dries out faster than a whole breast. **Rub it with oil first**, then the garlic and herbs, so that the rub clings and forms a thin crust. Rosemary, thyme, sage and lemon zest do the seasoning. There is no salt. Use a thermometer.\n\nThe pan juices are worth keeping. Spoon them over the sliced turkey, or stir a splash of water and a squeeze of lemon into the tin and scrape up the browned bits for a quick gravy. Serve with rice and steamed carrots or green beans, and keep any leftover turkey for sandwiches. A tenderloin is easy to carve: cut it into slices about 1 cm thick.',
     ing: [
       '500 g turkey tenderloin',
@@ -264,8 +264,8 @@ module.exports = {
 
   'turkey-apple-wraps': {
     d: 'Thinly sliced home-cooked turkey, crisp apple matchsticks, lettuce and red onion rolled in a small tortilla with a yogurt and mustard spread. Two servings in 10 minutes, with no cooking.',
-    meta: 'Turkey apple wraps: sliced turkey, apple matchsticks and lettuce in a small tortilla with a yogurt mustard spread. Kidney friendly. Two servings.',
-    kw: ['turkey apple wraps', 'kidney friendly turkey wrap', 'high protein turkey apple wraps', 'no cook turkey apple wraps', 'easy turkey wraps for two'],
+    meta: 'Turkey apple wraps: sliced turkey, apple matchsticks and lettuce in a small tortilla with a yogurt mustard spread. Two servings.',
+    kw: ['turkey apple wraps', 'no added salt turkey wrap', 'high protein turkey apple wraps', 'no cook turkey apple wraps', 'easy turkey wraps for two'],
     why: 'A lunch for the weeks when apples are crisp and sharp. No cooking is needed. Thin matchsticks of apple do the job that pickles do in a deli sandwich, adding crunch and a little acid. Choose a crisp, tart variety so that the matchsticks hold their shape.\n\nThe filling is turkey breast that has been cooked at home and carved thin. **Deli turkey is high in sodium** and often contains added phosphates, which is what this wrap avoids. A spread of Greek yogurt and mustard replaces the usual mayonnaise or cream cheese. Mix them well.\n\nRoll the wrap tightly and slice it in half on the diagonal. Lettuce and apple add crunch, and red onion adds bite. A small flour tortilla is the saltiest part of the wrap, so the tortillas here are 20 cm across and about 40 g each. Wrap in paper for a lunch box. Keep the wraps cold until you eat them.',
     ing: [
       '180 g cooked turkey breast, thinly sliced',
@@ -296,8 +296,8 @@ module.exports = {
 
   'turkey-taco-rice-bowls': {
     d: 'Taco-spiced extra-lean turkey over white rice with lettuce, sweetcorn, cilantro and lime, using a homemade spice mix instead of packet seasoning. Four servings in 30 minutes.',
-    meta: 'Turkey taco rice bowls: spiced lean turkey over white rice with lettuce, corn, cilantro and lime. Gluten free. Kidney friendly. Four servings.',
-    kw: ['turkey taco rice bowls', 'kidney friendly turkey taco bowls', 'gluten free turkey taco rice bowls', 'dairy free taco bowls with turkey', 'turkey taco bowls without packet seasoning'],
+    meta: 'Turkey taco rice bowls: spiced lean turkey over white rice with lettuce, corn, cilantro and lime. Gluten free. Four servings.',
+    kw: ['turkey taco rice bowls', 'no added salt turkey taco bowls', 'gluten free turkey taco rice bowls', 'dairy free taco bowls with turkey', 'turkey taco bowls without packet seasoning'],
     why: 'Taco night without the taco kit. Packet seasoning is mostly salt, so this recipe makes its own from chilli powder, cumin, smoked paprika, garlic powder and oregano, and a spoonful of each goes a long way. The bowl is ready in 30 minutes. Rice and turkey cook side by side, so there is no waiting between steps.\n\nBrown the turkey in a hot pan and break it into small crumbles. **Add the spices to the pan**, not the raw meat, so that they toast in the fat for a minute and the flavour deepens. Lime juice at the end loosens everything. Cook the rice in water, covered, while the turkey browns.\n\nRice, shredded lettuce, sweetcorn and cilantro make up the rest of the bowl. Everything is cool and crisp against the warm turkey. There is no cheese, no sour cream and no salsa, which keeps the salt and the phosphorus down. Eat it with a spoon.',
     ing: [
       '400 g extra-lean ground turkey breast',
@@ -333,8 +333,8 @@ module.exports = {
 
   'cranberry-turkey-cutlets': {
     d: 'Pan-fried turkey cutlets in a quick sauce of cranberries, orange juice, shallot and thyme, lightly sweetened with a spoonful of maple syrup. Four servings in 25 minutes.',
-    meta: 'Cranberry turkey cutlets: pan-fried cutlets in a quick cranberry, orange and thyme sauce. Kidney friendly. Four servings in 25 minutes.',
-    kw: ['cranberry turkey cutlets', 'kidney friendly turkey cutlets', 'pan fried turkey cutlets with cranberry sauce', 'quick cranberry turkey cutlets for four', 'turkey cutlets with fresh cranberries'],
+    meta: 'Cranberry turkey cutlets: pan-fried cutlets in a quick cranberry, orange and thyme sauce. Four servings in 25 minutes.',
+    kw: ['cranberry turkey cutlets', 'no added salt turkey cutlets', 'pan fried turkey cutlets with cranberry sauce', 'quick cranberry turkey cutlets for four', 'turkey cutlets with fresh cranberries'],
     why: 'Fresh cranberries arrive in the shops in autumn, and this is a quick dinner that puts them to work. Their sharp, tart juice cuts through lean turkey the way a sauce at a holiday table does, in a fraction of the time. Frozen berries work all year.\n\nThe sauce is built in the same pan as the cutlets. **Soften the shallot first**, then add the cranberries, orange juice, maple syrup and stock and let them simmer until the berries burst. A pinch of thyme ties it together. Lightly floured cutlets brown quickly. Keep the heat at medium so that the flour does not scorch.\n\nCranberries are low in potassium, and only a splash of orange juice goes in. The sauce is tart rather than sweet, with only a tablespoon of maple syrup across four servings. Spoon it over just before serving. It keeps its colour for two days in the fridge.',
     ing: [
       '440 g turkey breast cutlets',

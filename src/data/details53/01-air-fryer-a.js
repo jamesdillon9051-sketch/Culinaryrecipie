@@ -178,7 +178,7 @@ module.exports = {
 
   'air-fryer-cinnamon-rolls': {
     d: 'Soft yeast rolls rolled with cinnamon sugar, proved and air fried for 12 minutes, then glazed with cream cheese icing while warm.',
-    meta: 'Air fryer cinnamon rolls: soft swirls with cream cheese icing, cooked for 12 minutes. Six servings, ready in 32 minutes.',
+    meta: 'Air fryer cinnamon rolls: soft swirls with cream cheese icing, cooked for 12 minutes. Six servings, 32 minutes of work plus an hour\'s rise.',
     kw: ['air fryer cinnamon rolls', 'cinnamon rolls in air fryer', 'homemade cinnamon rolls', 'cream cheese icing cinnamon rolls', 'small batch cinnamon rolls'],
     why: 'Flour, butter, sugar, cinnamon, milk and yeast: six ingredients, and the smell of the kitchen does the rest. This is a small batch of cinnamon rolls, enough for six, made to fit the basket of an air fryer without any special tin.\n\nThe dough is soft and a little sticky, which is what makes the finished roll tender. Knead it until it springs back when you press it with a finger. Roll it out thin, spread it with soft butter and a thick layer of cinnamon sugar, and roll it up tightly from the long side so that the swirl stays together.\n\n**Cut with dental floss or a very sharp knife**, not a blunt one. A blunt knife squashes the roll and closes up the swirl. Let the cut rolls rise until they touch each other, then cook them at a lower heat so the middle bakes before the outside darkens.\n\nIce them while they are still warm. The cream cheese icing melts into the gaps and soaks into every layer.',
     ing: [
@@ -523,7 +523,7 @@ module.exports = {
 
   'air-fryer-fried-chicken': {
     d: 'Buttermilk-soaked chicken pieces coated in seasoned flour and air fried for 25 minutes until crunchy outside and juicy within.',
-    meta: 'Air fryer fried chicken: buttermilk-marinated, crunchy and juicy, cooked for 25 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Air fryer fried chicken: buttermilk-marinated, crunchy and juicy, cooked for 25 minutes. Four servings, after at least 2 hours in the marinade.',
     kw: ['air fryer fried chicken', 'fried chicken in air fryer', 'buttermilk fried chicken', 'crispy fried chicken', 'air fried chicken'],
     why: 'It tastes like fried chicken and cooks like roast chicken, which is the entire appeal. The buttermilk marinade does the tenderising, the double coating does the crunching, and the air fryer supplies the heat without a pan of hot oil.\n\nBuy a mix of drumsticks and thighs, which stay moist during the long cook. Marinate them in buttermilk with salt and hot sauce for at least 2 hours, or overnight if you can plan ahead. Lift each piece out and let the excess drip off, but do not wipe it, as the sticky buttermilk is what holds the flour on.\n\n**Dip the chicken a second time** into the buttermilk and the flour. The double coat gives the thick craggy crust associated with fried chicken, and it stays attached when you turn the pieces.\n\nSpray the coated pieces generously with oil so that no flour stays white. Cook for 25 minutes at 180C, turning once, until a thermometer reads 75C at the bone. Let the chicken rest for 5 minutes on a rack.',
     ing: [
@@ -746,7 +746,7 @@ module.exports = {
 
   'air-fryer-pork-belly': {
     d: 'A scored slab of pork belly dried, salted and air fried for 40 minutes until the skin puffs into crackling and the meat is tender.',
-    meta: 'Air fryer pork belly with shattering crackling and soft, rich meat, cooked for 40 minutes. Four servings, ready in 50 minutes.',
+    meta: 'Air fryer pork belly with shattering crackling and soft, rich meat, cooked for 40 minutes after at least 2 hours drying uncovered in the fridge.',
     kw: ['air fryer pork belly', 'pork belly in air fryer', 'crispy pork belly', 'pork belly crackling', 'roast pork belly'],
     why: 'Does pork belly really need hours in the oven? Not in the air fryer. A 700 g slab cooks in 40 minutes, and the circulating air dries the rind quickly enough to puff it into crackling before the meat has time to turn tough.\n\nThe skin is everything. Pat it dry with kitchen paper, score it in a tight pattern with a sharp knife without cutting into the meat, and rub salt into the cuts. Leave the belly uncovered in the fridge for a few hours or overnight if you can. The drier the skin, the better it blisters.\n\n**Start at a lower heat**, then raise it. Cooking at 160C for 30 minutes renders the fat and softens the meat, and a final 10 minutes at 200C puffs the skin into crackling. Going straight to a high heat burns the surface and leaves the middle chewy.\n\nRest the pork for 10 minutes, then cut it with a serrated knife, pressing down firmly to break through the rind. Serve with apple sauce to cut the richness.',
     ing: [

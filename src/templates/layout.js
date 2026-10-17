@@ -1,5 +1,5 @@
 'use strict';
-const { esc, jsonLd, humanTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
+const { esc, jsonLd, humanTime, compactTime, starsHtml, CUISINES, CATEGORIES } = require('../lib/util');
 const { forMeta } = require('../lib/keywords');
 const { pageTitle } = require('../lib/seo');
 const { recipeCount } = require('../data/stats');
@@ -11,7 +11,9 @@ const ADS_CONFIG = require('../data/ads');
 /* Site-wide configuration. Override the origin at build time with SITE_URL. */
 const SITE = {
   name: 'Weekly Delight',
-  tagline: `The world's ${recipeCount} most famous recipes, tested and explained`,
+  /* Says what the site holds and nothing it cannot back. It used to say each
+     recipe was "tested", which no record supports. */
+  tagline: `The world's ${recipeCount} most famous recipes, explained step by step`,
   /* The live domain. Every canonical link, Open Graph URL, sitemap entry and
      JSON-LD @id on the site is built from this, so it has to be the address
      people actually reach — it pointed at a Netlify subdomain that returns 404,
@@ -20,15 +22,24 @@ const SITE = {
   origin: (process.env.SITE_URL || 'https://weeklydelight.com').replace(/\/$/, ''),
   base: process.env.BASE_PATH || '/',
   locale: 'en_GB',
-  twitter: '@weeklydelight',
+  /* No social profile is listed. One was published as Organization.sameAs and
+     twitter:site without any record that the account exists or belongs to the
+     site; add a handle here only once it does. */
+  twitter: null,
   /* One person writes this site. The name here is the byline on every recipe's
      JSON-LD and the <meta name="author"> on every page, so it has to be true —
      it said "The Weekly Delight Test Kitchen", which described a team that does
      not exist. */
   author: 'Turab',
-  /* Kept for the Organization schema. Set it to the year the site actually
-     started; it is published as foundingDate, so a guess is a claim. */
-  founded: 2019
+  /* Published as Organization.foundingDate only when set. It said 2019, and
+     nothing in the project supports that: the hosting account was created in
+     August 2026 and the repository's history starts in September 2026. Set
+     it to the real year if the site existed earlier somewhere else. */
+  founded: null,
+  /* Who serves the site and its email, named on the privacy and contact pages
+     because the contact form's messages pass through them. .htaccess is the
+     live host's configuration; change this if the site moves. */
+  host: { name: 'Hostinger', privacy: 'https://www.hostinger.com/legal/privacy-policy' }
 };
 
 /**
@@ -169,7 +180,7 @@ function footer(topCuisines) {
     <div class="footer-grid">
       <div>
         <a class="brand" href="${SITE.base}"><span class="brand-mark" aria-hidden="true">WD</span>Weekly<em>Delight</em></a>
-        <p style="margin-top:1rem;max-width:34ch">Two hundred of the world's most-cooked dishes, tested in our kitchen and written down properly — with the reasons behind every step.</p>
+        <p style="margin-top:1rem;max-width:34ch">${recipeCount} well-known dishes from around the world, written down with the reasons behind every step. <a href="${SITE.base}about/#how-checked">How the recipes are made and checked</a>.</p>
       </div>
       <div>
         <h3>Explore</h3>
@@ -187,7 +198,7 @@ function footer(topCuisines) {
       <div><h3>Cuisines</h3><ul>${cuisineLinks}</ul></div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; ${year} ${esc(SITE.name)}. Recipes tested in our own kitchen.</span>
+      <span>&copy; ${year} ${esc(SITE.name)}.</span>
       <span><a href="${SITE.base}about/">About</a> &middot; <a href="${SITE.base}contact/">Contact</a> &middot; <a href="${SITE.base}privacy/">Privacy</a>${CONSENT.enabled ? ` &middot; <a href="#" data-consent-reopen>Cookie settings</a>` : ''} &middot; <a href="${SITE.base}site-directory/">Site Directory</a> &middot; <a href="${SITE.base}sitemap-index.xml">Sitemap</a></span>
     </div>
   </div>
@@ -219,7 +230,7 @@ function layout(page) {
      the brand dropped before the page's own name is. See ../lib/seo.js. */
   const title = page.path
     ? pageTitle(page.title, SITE.name, page.titleHooks)
-    : `${SITE.name} — ${recipeCount} Famous Recipes, Tested`;
+    : `${SITE.name} — ${recipeCount} Famous Recipes Explained`;
 
   const schemaBlocks = (page.schema || [])
     .map(s => `<script type="application/ld+json">${jsonLd(s)}</script>`).join('\n');
@@ -260,7 +271,7 @@ ${page.section ? `<meta property="article:section" content="${esc(page.section)}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="${SITE.twitter}">
+${SITE.twitter ? `<meta name="twitter:site" content="${SITE.twitter}">` : ''}
 <meta name="twitter:title" content="${esc(page.title)}">
 <meta name="twitter:description" content="${esc(page.description)}">
 <meta name="twitter:image" content="${esc(image)}">
@@ -379,7 +390,7 @@ function card(recipe, options = {}) {
     <p>${esc(recipe.cardBlurb)}</p>
     <div class="card-foot">
       ${starsHtml(recipe.rating, recipe.reviews)}
-      <span class="card-meta">${ICONS.clock}${recipe.totalTime} min${recipe.restTime ? ' + rest' : ''} <i>&middot;</i> ${esc(recipe.difficulty)}</span>
+      <span class="card-meta">${ICONS.clock}${compactTime(recipe.elapsedTime, recipe.elapsedMax)} <i>&middot;</i> ${esc(recipe.difficulty)}</span>
     </div>
   </div>
 </article>`;
@@ -404,7 +415,7 @@ function card(recipe, options = {}) {
 function newsletter(id = 'newsletter') {
   return `<section class="newsletter reveal" id="${id}" aria-labelledby="${id}-title">
   <h2 id="${id}-title">There is no newsletter yet</h2>
-  <p>One day there may be a weekly letter — one tested recipe, why it works, and what to drink with it. It is not running today, and I would rather tell you that than collect addresses for a list nobody is on. New recipes go up on the site; the <a href="${SITE.base}recipes/">recipe index</a> is sorted newest first.</p>
+  <p>One day there may be a weekly letter — one recipe, why it works, and what to drink with it. It is not running today, and I would rather tell you that than collect addresses for a list nobody is on. New recipes go up on the site; the <a href="${SITE.base}recipes/">recipe index</a> is sorted newest first.</p>
 </section>`;
 }
 

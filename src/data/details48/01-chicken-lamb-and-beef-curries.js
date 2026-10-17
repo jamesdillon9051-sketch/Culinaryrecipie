@@ -920,7 +920,7 @@ module.exports = {
     pair: ['Cucumber raita', 'Mirchi ka salan', 'Sliced onion with lemon', 'Boiled eggs'],
     store: 'Keeps in the fridge for 2 days. Reheat with a splash of water in a covered pan.',
     nut: [730, 32, 65, 38, 3, 5, 1700],
-    rest: [90, 'Marinating and soaking the rice']
+    rest: [60, 'marinating']
   },
 
   'kerala-beef-curry': {

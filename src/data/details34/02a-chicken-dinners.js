@@ -14,8 +14,8 @@
 module.exports = {
   'maple-balsamic-chicken': {
     d: 'Pan-seared chicken breasts finished in a glossy sauce of balsamic vinegar, maple syrup, Dijon mustard and garlic, with no added salt. Four servings in 30 minutes.',
-    meta: 'Maple-balsamic chicken: seared breasts in a glossy balsamic, maple and Dijon sauce with no added salt. Kidney friendly. Four servings.',
-    kw: ['maple balsamic chicken', 'kidney friendly maple balsamic chicken', 'dairy free maple balsamic chicken breasts', 'gluten free balsamic chicken', 'easy maple balsamic chicken'],
+    meta: 'Maple-balsamic chicken: seared breasts in a glossy balsamic, maple and Dijon sauce with no added salt. Four servings.',
+    kw: ['maple balsamic chicken', 'no added salt maple balsamic chicken', 'dairy free maple balsamic chicken breasts', 'gluten free balsamic chicken', 'easy maple balsamic chicken'],
     why: 'Pound the breasts to an even thickness first. Everything else follows from that. A thick end and a thin end cook at different speeds, so the thin end dries out while the thick end is still pink, and a few firm presses with a rolling pin make the whole fillet cook in the same few minutes.\n\nThe sauce is only four things: balsamic vinegar, maple syrup, Dijon mustard and garlic. **Do not let the maple burn.** Add the sauce once the chicken is browned and the heat is turned down, and it will bubble into a glossy glaze in about 4 minutes. Unsalted stock loosens it, and a little cornflour holds it together at the end.\n\nBalsamic and maple balance each other: one is sharp, the other sweet, and between them they stand in for salt. Dijon brings a savoury edge. Spoon the sauce over the sliced chicken and serve it with plain rice and steamed green beans, which keep the plate modest in potassium and phosphorus.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -49,8 +49,8 @@ module.exports = {
 
   'garlic-herb-chicken-skewers': {
     d: 'Cubes of chicken marinated in lemon, garlic and herbs and threaded onto skewers with red pepper and onion, then grilled. Four servings in 27 minutes.',
-    meta: 'Garlic herb chicken skewers: lemon and herb marinated chicken grilled with red pepper and onion. Kidney friendly. Four servings in 27 minutes.',
-    kw: ['garlic herb chicken skewers', 'kidney friendly chicken skewers', 'grilled chicken skewers with garlic and herbs', 'dairy free chicken skewers', 'gluten free chicken kebabs'],
+    meta: 'Garlic herb chicken skewers: lemon and herb marinated chicken grilled with red pepper and onion. Four servings in 27 minutes.',
+    kw: ['garlic herb chicken skewers', 'no added salt chicken skewers', 'grilled chicken skewers with garlic and herbs', 'dairy free chicken skewers', 'gluten free chicken kebabs'],
     why: 'Chicken skewers usually come off the grill dry. The fix is a short marinade, even cubes and a hot grill. Cut the chicken into pieces of the same size, about 3 cm, so that every cube finishes together instead of leaving some raw and others like chalk.\n\nLemon juice and olive oil carry the garlic and herbs into the meat, but acid works fast. **Marinate for 20 minutes**, no longer, because after that the surface turns mealy. Thread the chicken with the pepper and onion, leaving a little space between the pieces so that the heat reaches all sides. Turn the skewers every 3 minutes.\n\nThere is no salt in the marinade. Garlic, oregano, thyme and parsley carry it, and the char from the grill adds a savoury edge of its own. Serve the skewers with rice and a cucumber salad, or slide the chicken off the sticks onto a bed of rice.',
     ing: [
       '440 g skinless chicken breast, cut into 3 cm cubes',
@@ -83,8 +83,8 @@ module.exports = {
 
   'pineapple-chicken-skewers': {
     d: 'Chicken, fresh pineapple, red pepper and onion on skewers, marinated in lime, ginger and garlic and grilled until charred at the edges. Four servings in 27 minutes.',
-    meta: 'Pineapple chicken skewers: lime, ginger and garlic marinated chicken grilled with pineapple and pepper. Kidney friendly. Four servings in 27 minutes.',
-    kw: ['pineapple chicken skewers', 'kidney friendly chicken skewers with pineapple', 'grilled pineapple chicken kebabs', 'dairy free pineapple chicken skewers', 'gluten free hawaiian chicken skewers'],
+    meta: 'Pineapple chicken skewers: lime, ginger and garlic marinated chicken grilled with pineapple and pepper. Four servings in 27 minutes.',
+    kw: ['pineapple chicken skewers', 'no added salt chicken skewers with pineapple', 'grilled pineapple chicken kebabs', 'dairy free pineapple chicken skewers', 'gluten free hawaiian chicken skewers'],
     why: 'Fresh pineapple contains an enzyme that softens meat. That sounds helpful and is not. Left in a marinade for long, it turns chicken mushy, so the pineapple goes on the skewer here and the marinade is lime, ginger and garlic. Cut the chicken and pineapple into pieces of the same size.\n\nMarinate the chicken for 15 minutes, which is enough for lime and ginger to season the surface. **Thread them alternately**, chicken then pineapple, so that the fruit juice bastes the meat as it cooks. The sugars in the pineapple caramelise on the grill and turn the edges dark and sweet. Watch for flare-ups.\n\nA teaspoon of maple syrup in the marinade helps the browning along. Lime is the seasoning. Cilantro goes on at the end. Pineapple is lower in potassium than most tropical fruit, which makes it a sensible fruit to cook with on this plate. Serve straight from the grill, while the edges are still hot.',
     ing: [
       '440 g skinless chicken breast, cut into 3 cm cubes',
@@ -117,8 +117,8 @@ module.exports = {
 
   'chicken-and-pepper-stir-fry': {
     d: 'Thin strips of chicken stir-fried with red, yellow and green peppers, onion, garlic and ginger in a light sauce of low-sodium soy sauce and rice vinegar. Four servings in 27 minutes.',
-    meta: 'Chicken and pepper stir-fry: chicken, three colours of pepper, garlic and ginger in a light low-sodium soy sauce. Kidney friendly. Four servings.',
-    kw: ['chicken and pepper stir fry', 'kidney friendly chicken stir fry', 'low sodium chicken and pepper stir fry', 'dairy free chicken and bell pepper stir fry', 'easy chicken stir fry for four'],
+    meta: 'Chicken and pepper stir-fry: chicken, three colours of pepper, garlic and ginger in a light low-sodium soy sauce. Four servings.',
+    kw: ['chicken and pepper stir fry', 'low sodium chicken and pepper stir fry', 'dairy free chicken and bell pepper stir fry', 'easy chicken stir fry for four'],
     why: 'Dinner for four, in 27 minutes. Slice the chicken thinly across the grain and it cooks in the time the peppers take to soften. Cut the peppers and onion into strips of similar width so that they soften together. Everything happens in one pan, so there is little to wash.\n\nCook the chicken in two batches. **A crowded pan steams**, and steamed chicken is pale and watery instead of golden. Peppers go in next, with the onion, and they need only about 4 minutes to soften while keeping their bite. Garlic and ginger follow, for 30 seconds, because they burn quickly.\n\nThe sauce is light: low-sodium soy sauce, rice vinegar, a little cornflour and water. It adds up to a tablespoon of soy sauce across four servings. That is the only salty ingredient. Sesame oil goes in at the end for aroma, and the cooked peppers supply the sweetness. Taste the finished dish before adding anything; the peppers are sweeter than they look.',
     ing: [
       '440 g skinless chicken breast, thinly sliced',
@@ -153,8 +153,8 @@ module.exports = {
 
   'chicken-and-cabbage-stir-fry': {
     d: 'Chicken and shredded cabbage stir-fried with carrot, spring onion, garlic and ginger in a light low-sodium soy sauce. Four servings in 27 minutes.',
-    meta: 'Chicken and cabbage stir-fry: chicken, shredded cabbage and carrot in a light ginger and low-sodium soy sauce. Kidney friendly. Four servings.',
-    kw: ['chicken and cabbage stir fry', 'kidney friendly chicken and cabbage stir fry', 'low sodium cabbage stir fry with chicken', 'dairy free chicken and cabbage stir fry', 'easy chicken cabbage stir fry for four'],
+    meta: 'Chicken and cabbage stir-fry: chicken, shredded cabbage and carrot in a light ginger and low-sodium soy sauce. Four servings.',
+    kw: ['chicken and cabbage stir fry', 'low sodium cabbage stir fry with chicken', 'dairy free chicken and cabbage stir fry', 'easy chicken cabbage stir fry for four'],
     why: 'Listen for the change in sound. Chicken first, then cabbage, in a pan hot enough to sear. A loud hiss means the cabbage has hit the pan; a quieter sizzle means the water has cooked off and the edges are starting to brown. That is the moment to stop.\n\nShred the cabbage no thicker than 5 mm, and cook it in the pan after the chicken, not with it. **Cabbage needs high heat**, a dry leaf and about 4 minutes. Carrot goes in with it, cut into thin sticks so that it softens in the same time. Ginger and garlic follow.\n\nCabbage is one of the lower-potassium vegetables, which is why it makes up so much of the dish. A tablespoon of low-sodium soy sauce across four servings, plus rice vinegar and sesame oil, seasons it. Serve it over rice. Or eat it alone as a light supper. Add a squeeze of lime at the table if the dish needs lifting.',
     ing: [
       '440 g skinless chicken breast, thinly sliced',
@@ -189,8 +189,8 @@ module.exports = {
 
   'apple-cranberry-chicken-salad': {
     d: 'Shredded cooked chicken folded into a Greek yogurt dressing with crisp apple, celery, red onion and dried cranberries, served in butter lettuce leaves. Four servings in 15 minutes.',
-    meta: 'Apple cranberry chicken salad: shredded chicken, apple, celery and cranberries in a lemony yogurt dressing. Kidney friendly. Four servings.',
-    kw: ['apple cranberry chicken salad', 'kidney friendly chicken salad', 'gluten free chicken salad with apple', 'no cook apple cranberry chicken salad', 'easy chicken salad with greek yogurt'],
+    meta: 'Apple cranberry chicken salad: shredded chicken, apple, celery and cranberries in a lemony yogurt dressing. Four servings.',
+    kw: ['apple cranberry chicken salad', 'no added salt chicken salad', 'gluten free chicken salad with apple', 'no cook apple cranberry chicken salad', 'easy chicken salad with greek yogurt'],
     why: 'No cooking is needed on the day. Shred chicken that was cooked the day before, and the salad comes together in 15 minutes. It is a good use for leftovers. Poaching a few breasts the evening before takes little effort, and the broth can be saved for soup.\n\nYogurt does most of the work in the dressing, with a little light mayonnaise for richness and Dijon mustard and lemon juice for sharpness. **Cut the apple last**, just before it goes in, so that it stays white and crisp. Celery adds crunch. Dried cranberries bring sweetness in small, concentrated hits. Taste the dressing before the chicken goes in; it should be bright enough to taste the lemon.\n\nSpoon the salad into butter lettuce leaves. They act like a cup and add almost no sodium. Cranberries and apple are both low-potassium fruits, so they suit the plate. Keep the dressing separate until serving if the salad has to wait. Pack the leaves separately for a lunch box.',
     ing: [
       '360 g cooked chicken breast, shredded',
@@ -224,8 +224,8 @@ module.exports = {
 
   'herbed-chicken-meatballs': {
     d: 'Tender chicken meatballs bound with panko and egg white and flavoured with parsley, oregano, garlic and lemon zest, baked and served with a lemon-dill yogurt sauce. Four servings in 40 minutes.',
-    meta: 'Herbed chicken meatballs: baked parsley, oregano and lemon meatballs with a lemon-dill yogurt sauce. Kidney friendly. Four servings in 40 minutes.',
-    kw: ['herbed chicken meatballs', 'kidney friendly chicken meatballs', 'baked chicken meatballs with lemon and herbs', 'easy baked chicken meatballs', 'chicken meatballs with yogurt dill sauce'],
+    meta: 'Herbed chicken meatballs: baked parsley, oregano and lemon meatballs with a lemon-dill yogurt sauce. Four servings in 40 minutes.',
+    kw: ['herbed chicken meatballs', 'no added salt chicken meatballs', 'baked chicken meatballs with lemon and herbs', 'easy baked chicken meatballs', 'chicken meatballs with yogurt dill sauce'],
     why: 'This is what to make on the first cool evening, when turning on the oven stops feeling like a chore. Twenty meatballs bake on one tray while you make the sauce. They can be shaped in the morning and baked when you get home. Dinner is done.\n\nLean chicken makes dry meatballs unless something holds the water in. **Panko and grated onion** do that. Egg white binds everything without adding phosphorus. Mix only until the herbs are spread through, because hard mixing makes dense, bouncy balls. Wet your hands to shape them. A short rest after baking lets the juices settle.\n\nThe sauce is a quick stir of Greek yogurt, lemon juice and dill. No salt is needed. It cools the herbs and replaces the salty dips usually served with meatballs. Eat them with rice, or tuck them into a lettuce wrap. Squeeze a little more lemon over the top before serving. Both the meatballs and the sauce are good cold in a packed lunch.',
     ing: [
       '560 g ground chicken',
@@ -262,8 +262,8 @@ module.exports = {
 
   'chicken-burgers': {
     d: 'Juicy chicken burgers seasoned with onion, garlic, parsley and smoked paprika, cooked in a pan and served in small buns with lettuce, cucumber and mustard. Four servings in 27 minutes.',
-    meta: 'Chicken burgers: pan-cooked patties with onion, garlic and smoked paprika in small buns with lettuce and cucumber. Kidney friendly. Four servings.',
-    kw: ['chicken burgers', 'kidney friendly chicken burgers', 'homemade chicken burgers with smoked paprika', 'easy chicken burgers for four', 'chicken burgers without added salt'],
+    meta: 'Chicken burgers: pan-cooked patties with onion, garlic and smoked paprika in small buns with lettuce and cucumber. Four servings.',
+    kw: ['chicken burgers', 'no added salt chicken burgers', 'homemade chicken burgers with smoked paprika', 'easy chicken burgers for four', 'chicken burgers without added salt'],
     why: 'Press a shallow dimple into the centre of each patty. It stops the burger puffing into a dome as it cooks, so it stays flat enough for the bun. A thumb is all you need.\n\nChicken mince is lean, so the burger needs help to stay moist, and **grated onion adds water** and a little sweetness while it disappears into the patty. Do not overwork the mixture. Shape it gently and chill the patties if you have time, because cold patties hold their shape better in the pan and cook more evenly all the way through.\n\nA small bun is the saltiest part of the plate, so the buns here weigh about 50 g each. Lettuce, red onion and cucumber stand in for the usual pickles and cheese. Smoked paprika gives the burger a grilled flavour without a grill. Toasting the buns for 30 seconds keeps them from going soggy under the juices. Mustard finishes it.',
     ing: [
       '520 g ground chicken',
@@ -298,8 +298,8 @@ module.exports = {
 
   'chicken-fried-rice': {
     d: 'Diced chicken and cold rice stir-fried with egg whites, peas, carrot and spring onions, seasoned with a tablespoon of low-sodium soy sauce. Four servings in 30 minutes.',
-    meta: 'Chicken fried rice: diced chicken, cold rice, egg whites, peas and carrot with a little low-sodium soy sauce. Kidney friendly. Four servings.',
-    kw: ['chicken fried rice', 'kidney friendly chicken fried rice', 'low salt chicken fried rice', 'dairy free chicken fried rice with egg whites', 'chicken fried rice for four'],
+    meta: 'Chicken fried rice: diced chicken, cold rice, egg whites, peas and carrot with a little low-sodium soy sauce. Four servings.',
+    kw: ['chicken fried rice', 'low salt chicken fried rice', 'dairy free chicken fried rice with egg whites', 'chicken fried rice for four'],
     why: 'There is nearly always rice at the back of the fridge, and this is what to do with it. Cold rice is drier than fresh, and it fries into separate grains instead of steaming into a clump. Make extra rice on purpose.\n\nCook the chicken first, in small dice, so that it browns and sets aside while the rest cooks. **Scramble the whites next**, quickly, and return both at the end. Peas and carrot go in after that. Cut the carrot small so that it softens by the time the rice is hot.\n\nSoy sauce is where fried rice gets most of its salt, so the recipe uses 1 tablespoon of the low-sodium kind for the whole pan. That is enough. Rice vinegar sharpens it, ginger and garlic bring depth, and a few drops of sesame oil at the end give the smell people expect. Taste before adding any more.',
     ing: [
       '330 g skinless chicken breast, diced',
@@ -335,8 +335,8 @@ module.exports = {
 
   'chicken-and-noodle-skillet': {
     d: 'Chicken, carrot and onion simmered in a thyme and lemon broth with flat rice noodles that cook right in the pan. Four servings in 35 minutes.',
-    meta: 'Chicken and noodle skillet: chicken, carrot and flat rice noodles simmered in thyme and lemon broth. Kidney friendly. Four servings.',
-    kw: ['chicken and noodle skillet', 'kidney friendly chicken noodle skillet', 'chicken and rice noodle skillet', 'dairy free chicken and noodle skillet', 'chicken noodle skillet for four'],
+    meta: 'Chicken and noodle skillet: chicken, carrot and flat rice noodles simmered in thyme and lemon broth. Four servings.',
+    kw: ['chicken and noodle skillet', 'no added salt chicken noodle skillet', 'chicken and rice noodle skillet', 'dairy free chicken and noodle skillet', 'chicken noodle skillet for four'],
     why: 'The noodles cook in the pan. That is the whole trick. Dry rice noodles go straight into the simmering broth, soak up the thyme and lemon, and soften in about 8 minutes, so there is no separate pot to boil and nothing to drain.\n\nBrown the chicken first, in pieces, and take it out of the pan. Do not wash the pan. **The browned bits flavour the broth**, so leave them there. Cook the onion and carrot in the same pan until they soften, then add the garlic and thyme. Pour in the liquid and bring it to a simmer before the noodles go in.\n\nRice noodles keep this lighter in phosphorus than an egg noodle would. Unsalted stock and water make the broth, and lemon juice and parsley added at the end lift it. It is a soupy skillet. Serve it in bowls, with a spoon, while the noodles are tender.',
     ing: [
       '400 g skinless chicken breast, cut into bite-sized pieces',
@@ -371,8 +371,8 @@ module.exports = {
 
   'lemon-chicken-cutlets': {
     d: 'Thin chicken cutlets dredged in flour and egg white, pan-fried until golden and finished in a quick lemon and parsley butter sauce. Four servings in 22 minutes.',
-    meta: 'Lemon chicken cutlets: thin cutlets pan-fried in a flour and egg white coat with a lemon, parsley and butter sauce. Kidney friendly. Four servings.',
-    kw: ['lemon chicken cutlets', 'kidney friendly lemon chicken', 'pan fried lemon chicken cutlets', 'quick lemon chicken cutlets for four', 'lemon parsley chicken cutlets'],
+    meta: 'Lemon chicken cutlets: thin cutlets pan-fried in a flour and egg white coat with a lemon, parsley and butter sauce. Four servings.',
+    kw: ['lemon chicken cutlets', 'no added salt lemon chicken', 'pan fried lemon chicken cutlets', 'quick lemon chicken cutlets for four', 'lemon parsley chicken cutlets'],
     why: 'Smell is the signal here. Lemon juice hitting a hot, buttery pan is sharp and sweet at once, and that is the cue to return the cutlets and take everything off the heat. Do not wait for a second sizzle.\n\nSlice each breast in half horizontally to make four thin cutlets, and they cook in 2 minutes a side. **Dredge in flour first**, then egg white, so that the coat clings. Thin cutlets need a hot pan and a short cook. Overcrowding is the usual mistake. Shake off the surplus flour before the egg white, or the coat turns gluey.\n\nThe sauce is made in the same pan: butter, lemon juice, a splash of unsalted stock, parsley and zest. It needs 2 minutes. There is no added salt, so the lemon has to be generous. Serve the cutlets at once with rice and steamed green beans. A squeeze of extra lemon at the table is welcome.',
     ing: [
       '440 g skinless chicken breast, sliced horizontally into 4 cutlets',
@@ -405,8 +405,8 @@ module.exports = {
 
   'apple-sage-chicken': {
     d: 'Seared chicken breasts finished in the pan with apple wedges, onion, sage and a splash of cider vinegar and unsalted stock. Four servings in 35 minutes.',
-    meta: 'Apple sage chicken: seared chicken breasts with apple wedges, onion and sage in a light cider vinegar sauce. Kidney friendly. Four servings.',
-    kw: ['apple sage chicken', 'kidney friendly apple chicken', 'dairy free apple sage chicken breasts', 'gluten free apple sage chicken', 'easy apple sage chicken for four'],
+    meta: 'Apple sage chicken: seared chicken breasts with apple wedges, onion and sage in a light cider vinegar sauce. Four servings.',
+    kw: ['apple sage chicken', 'no added salt apple chicken', 'dairy free apple sage chicken breasts', 'gluten free apple sage chicken', 'easy apple sage chicken for four'],
     why: 'Searing is only half the job. Breast meat dries out in minutes, so finish it gently in a covered pan, with apples releasing juice around it, so that the chicken is tender by the time it is cooked through.\n\nSear the breasts hard on one side, then the other. **Brown the apples too**, in the same pan, so that they pick up the chicken flavour as well as their own. Sage is strong, so the amount stays modest. Use a tart, firm apple, since a soft one collapses into sauce. Rest the chicken before slicing.\n\nCider vinegar and a little maple syrup balance the sauce between sharp and sweet. Unsalted stock gives it body. There is no salt in the pan. Apples and onion are both low in potassium, which keeps a fruit-and-meat dish easy on the plate. A spoonful of the apples and a little of the sauce per slice is plenty. Serve it with rice to catch the sauce.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -439,8 +439,8 @@ module.exports = {
 
   'grilled-chicken-with-pineapple-salsa': {
     d: 'Lime and cumin marinated chicken breasts grilled and served with a fresh pineapple, red pepper and jalapeño salsa. Four servings in 30 minutes.',
-    meta: 'Grilled chicken with pineapple salsa: lime and cumin chicken with a fresh pineapple, red pepper and jalapeño salsa. Kidney friendly. Four servings.',
-    kw: ['grilled chicken with pineapple salsa', 'kidney friendly grilled chicken', 'dairy free pineapple salsa chicken', 'gluten free grilled chicken with salsa', 'easy grilled chicken with pineapple salsa'],
+    meta: 'Grilled chicken with pineapple salsa: lime and cumin chicken with a fresh pineapple, red pepper and jalapeño salsa. Four servings.',
+    kw: ['grilled chicken with pineapple salsa', 'no added salt grilled chicken', 'dairy free pineapple salsa chicken', 'gluten free grilled chicken with salsa', 'easy grilled chicken with pineapple salsa'],
     why: 'A pineapple salsa does the job of a tomato salsa. It is fresh and sharp. Against hot, smoky chicken it cools the plate, and it carries about half the potassium, which matters when the chicken already supplies a good share. Fresh fruit salsa is a good way to use up half a pineapple.\n\nMarinate the chicken for 20 minutes in lime, oil, garlic, cumin, oregano and paprika. **Make the salsa while it marinates**, so the flavours have time to meet. Dice everything small and even. Small dice are easier to spoon. Grill the chicken over medium-high heat for 6 to 7 minutes a side. Oil the grill grates lightly so that the chicken releases cleanly.\n\nRest the grilled chicken for 3 minutes before slicing, so that the juices stay in the meat. Spoon the salsa over the top. The jalapeño is seeded, which keeps the heat mild; leave a few seeds in for more. Serve with plain rice. The salsa also works over grilled fish or tofu.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -476,8 +476,8 @@ module.exports = {
 
   'chicken-and-green-bean-stir-fry': {
     d: 'Chicken and crisp green beans stir-fried with garlic and ginger in a light sauce of low-sodium soy sauce and rice vinegar. Four servings in 27 minutes.',
-    meta: 'Chicken and green bean stir-fry: chicken and crisp beans with garlic, ginger and a light low-sodium soy sauce. Kidney friendly. Four servings.',
-    kw: ['chicken and green bean stir fry', 'kidney friendly chicken stir fry with green beans', 'low sodium chicken and green bean stir fry', 'dairy free chicken and green beans', 'easy chicken and green bean stir fry for four'],
+    meta: 'Chicken and green bean stir-fry: chicken and crisp beans with garlic, ginger and a light low-sodium soy sauce. Four servings.',
+    kw: ['chicken and green bean stir fry', 'low sodium chicken and green bean stir fry', 'dairy free chicken and green beans', 'easy chicken and green bean stir fry for four'],
     why: 'Chicken, green beans, garlic and ginger: four things and one pan. A tablespoon of low-sodium soy sauce across four servings is the only salt in the recipe, so the flavour has to come from the ginger and garlic. Be generous with both. Ginger and garlic go in late, because both turn bitter if they burn.\n\nGreen beans need a head start. **Add a splash of water** to the pan after they go in, and cover for 2 minutes, so that they steam through while still bright green. Cook the chicken first, in a single layer, and in two batches. Combine everything with the sauce at the end.\n\nRice vinegar and a little cornflour turn the soy sauce into a sauce that clings. It takes 1 minute to thicken. Serve it with white rice, which keeps the plate light in potassium and phosphorus compared with brown. Taste the sauce before it goes in, and add a little more rice vinegar if it needs lifting.',
     ing: [
       '440 g skinless chicken breast, thinly sliced',

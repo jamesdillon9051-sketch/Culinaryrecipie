@@ -137,7 +137,7 @@ module.exports = {
   },
 
   'garlic-focaccia': {
-    rest: [870, 'cold proving'],
+    rest: [960, 'cold proving'],
     d: 'A cold-fermented focaccia with a head of garlic confited in olive oil and folded through the dough, so the flavour is inside the crumb rather than burnt on top. Dimpled deep, baked in oil, and vegan without trying.',
     meta: 'Garlic confit focaccia — the garlic is slow-cooked in olive oil and folded into a cold-fermented dough, not scattered on top.',
     kw: ['garlic focaccia', 'focaccia recipe', 'garlic confit bread', 'no knead focaccia'],

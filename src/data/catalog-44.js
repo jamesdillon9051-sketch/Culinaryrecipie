@@ -81,7 +81,7 @@ module.exports = [
   c('fish-pie-with-cheddar-mash', 'Fish Pie with Cheddar Mash', 'British', 'Dinner', 'Medium', 25, 40, 6, 0, 0, [], ['new'], 'fish pie with cheddar mash'),
   c('fish-and-chips-with-mushy-peas', 'Fish and Chips with Mushy Peas', 'British', 'Dinner', 'Medium', 30, 30, 4, 0, 0, [], ['new'], 'fish and chips with mushy peas'),
   c('sea-bass-with-lemon-butter', 'Sea Bass with Lemon Butter', 'French', 'Dinner', 'Easy', 5, 10, 2, 0, 0, ['Gluten-Free'], ['new'], 'sea bass with lemon butter'),
-  c('sea-bream-with-fennel', 'Sea Bream with Fennel', 'Italian', 'Dinner', 'Easy', 10, 25, 2, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'sea bream with fennel'),
+  c('sea-bream-with-fennel', 'Sea Bream with Fennel', 'Italian', 'Dinner', 'Easy', 10, 25, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'sea bream with fennel'),
   c('monkfish-curry', 'Monkfish Curry', 'Indian', 'Dinner', 'Medium', 15, 25, 4, 0, 0, [], ['new'], 'monkfish curry'),
   c('mackerel-with-gooseberry-sauce', 'Mackerel with Gooseberry Sauce', 'British', 'Dinner', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'mackerel with gooseberry sauce'),
   c('prawn-risotto', 'Prawn Risotto', 'Italian', 'Dinner', 'Medium', 10, 30, 4, 0, 0, [], ['new'], 'prawn risotto'),

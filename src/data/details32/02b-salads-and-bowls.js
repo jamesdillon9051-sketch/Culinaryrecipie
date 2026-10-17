@@ -14,7 +14,7 @@ module.exports = {
   'chopped-mexican-salad-with-lime': {
     d: 'A colourful chopped salad of romaine, tomato, cucumber, pepper, black beans, corn and avocado, with a lime and cumin dressing and a little feta. Four servings in 20 minutes.',
     meta: 'Chopped Mexican salad with lime: romaine, black beans, corn, avocado and feta in a cumin and lime dressing. Four servings in 20 minutes.',
-    kw: ['chopped mexican salad', 'chopped mexican salad with lime', 'diabetic friendly mexican salad', 'vegetarian mexican chopped salad', 'gluten free mexican salad'],
+    kw: ['chopped mexican salad', 'chopped mexican salad with lime', 'no added sugar mexican salad', 'vegetarian mexican chopped salad', 'gluten free mexican salad'],
     why: 'Cut everything to the same size. That is the entire secret of a chopped salad, because a forkful that holds a little of each ingredient tastes better than any single one.\n\nHere the pieces are about a centimetre across: romaine, cucumber, red pepper, tomato and red onion, then black beans, sweetcorn and diced avocado for substance. Feta adds salt, so the dressing needs very little. It is lime juice, olive oil, cumin and a clove of garlic, shaken in a jar. Keep the avocado for last so it stays in chunks. **Dress it at the last minute**, because lime juice wilts the lettuce within ten minutes. Do not wait.\n\nThe beans and corn make this a lunch, not a side. Avocado brings fat and makes the bowl more filling. Add shredded chicken or a fried egg for a bigger meal, and keep the dressing separate if you are packing it for work. Leftovers do not keep well.',
     ing: [
       '250 g romaine lettuce, chopped',
@@ -53,7 +53,7 @@ module.exports = {
   'chef-salad': {
     d: 'A big salad of crisp romaine topped with turkey, ham, Swiss cheese, boiled egg, tomato and cucumber, in a mustard vinaigrette. Two servings in 25 minutes.',
     meta: 'Chef salad: romaine topped with turkey, ham, Swiss, boiled egg, tomato and cucumber in a mustard vinaigrette. Two servings in 25 minutes.',
-    kw: ['chef salad', 'classic chef salad', 'diabetic friendly chef salad', 'low carb chef salad', 'gluten free chef salad'],
+    kw: ['chef salad', 'classic chef salad', 'no added sugar chef salad', 'low carb chef salad', 'gluten free chef salad'],
     why: 'Build it in rows. A chef salad is arranged, not tossed, so that each topping sits in its own stripe across a bed of lettuce and the person eating it can choose.\n\nThe classic toppings are cold cuts, cheese and egg, and the trick is to use good ones in small amounts. Cooked turkey breast carries the protein, a few slices of ham give salt and flavour, Swiss cheese adds richness and the boiled egg finishes the plate. Cold meat is salty. So the vinaigrette is olive oil, red wine vinegar and Dijon mustard, with little salt of its own. **Slice the meat into thin strips**, so every forkful has a bit of everything.\n\nServe it on a wide plate with the dressing on the side. Cucumber and tomato add freshness. It makes a complete meal. Chill the plates for ten minutes first and the lettuce stays crisp until the last bite.',
     ing: [
       '120 g romaine lettuce, chopped',
@@ -88,7 +88,7 @@ module.exports = {
   'shrimp-louie-salad': {
     d: 'Poached shrimp on shredded lettuce with avocado, egg and tomato, served with a creamy horseradish and paprika dressing made from yogurt. Two servings in 27 minutes.',
     meta: 'Shrimp Louie salad: poached shrimp, avocado, egg and tomato on crisp lettuce with a creamy horseradish dressing. Two servings in 27 minutes.',
-    kw: ['shrimp louie salad', 'shrimp louie', 'diabetic friendly shrimp salad', 'low carb shrimp louie', 'gluten free shrimp louie salad'],
+    kw: ['shrimp louie salad', 'shrimp louie', 'no added sugar shrimp salad', 'low carb shrimp louie', 'gluten free shrimp louie salad'],
     why: 'Poach, chill, assemble. A Louie is cold shellfish on crisp lettuce with a creamy pink dressing on the side, a lunch for a warm day when nobody wants to cook.\n\nThis version makes the dressing from Greek yogurt and a little light mayonnaise, seasoned with horseradish, paprika and lemon, which gives it the tang of the classic without any ketchup or sugar. Peel and devein the shrimp first, and pat them dry so the water does not thin the dressing. Poach them for no more than three minutes. **Cool them before plating**, since warm shrimp wilt the lettuce. Iceberg is the right leaf here. Its crunch is the point.\n\nAvocado, egg and tomato complete the plate. Serve the dressing in a small bowl on the side and dip the shrimp as you go. Sliced radishes add a peppery crunch if you have them. Leftover dressing keeps for three days. Chill the plates first if you can.',
     ing: [
       '250 g raw shrimp, peeled and deveined',
@@ -125,7 +125,7 @@ module.exports = {
   'steak-salad': {
     d: 'Seared sirloin sliced over mixed greens with tomato, red onion, cucumber and blue cheese, in a red wine and mustard dressing. Two servings in 25 minutes.',
     meta: 'Steak salad: seared sirloin sliced over mixed greens with tomato, cucumber, red onion and blue cheese. Two servings in 25 minutes.',
-    kw: ['steak salad', 'steak salad with blue cheese', 'diabetic friendly steak salad', 'low carb steak salad', 'gluten free steak salad'],
+    kw: ['steak salad', 'steak salad with blue cheese', 'no added sugar steak salad', 'low carb steak salad', 'gluten free steak salad'],
     why: 'Let the steak rest. Five minutes under a loose tent of foil lets the juices settle, so the slices stay pink and the greens are not flooded with red liquid.\n\nA steak salad makes a small piece of meat feel generous. Three hundred grams of sirloin is enough for two when it is sliced thin and laid over a large bed of greens, and the crunch of cucumber and the bite of red onion cut through the richness. Blue cheese adds a salty, sharp note. The dressing needs only vinegar, olive oil and mustard. Take the steak out of the fridge 20 minutes before cooking so that it browns evenly. **Slice against the grain** with a sharp knife, so every piece is tender.\n\nDress the greens lightly and add the steak last. Season the meat before cooking, not after, and cook it in a hot, dry pan. Hot pan, short cook. Eat it while the steak is still warm.',
     ing: [
       '300 g sirloin steak, about 2.5 cm thick',
@@ -161,7 +161,7 @@ module.exports = {
   'southwest-chicken-salad': {
     d: 'Chili-rubbed chicken breast sliced over romaine with black beans, corn, tomato, avocado and cheddar, with a creamy lime and yogurt dressing. Four servings in 27 minutes.',
     meta: 'Southwest chicken salad: chili-rubbed chicken over romaine with black beans, corn, avocado and cheddar and a lime yogurt dressing.',
-    kw: ['southwest chicken salad', 'southwestern chicken salad', 'diabetic friendly chicken salad', 'gluten free southwest chicken salad', 'healthy southwest chicken salad'],
+    kw: ['southwest chicken salad', 'southwestern chicken salad', 'no added sugar chicken salad', 'gluten free southwest chicken salad', 'healthy southwest chicken salad'],
     why: 'Smell the spices first. Cumin, chili powder and smoked paprika toasting in the pan tell you the chicken is a few seconds from turning golden.\n\nThat rub carries the salad. Chicken breast has little flavour of its own, and a quick rub with warm spices turns it into something that holds its own against beans, corn and avocado. Cook it over medium-high heat for six minutes a side and let it rest before slicing. **Rest the chicken for five minutes**, or the juices run out onto the board. Slice it across the grain so it stays tender. The dressing is Greek yogurt, lime juice and cilantro, with a little salt and a clove of garlic, and it replaces a bottled ranch.\n\nBeans and corn add fibre and make the salad filling. Cheddar goes on last. Make the dressing while the chicken rests. Keep the chicken warm and the lettuce cold, and the plate tastes better than it sounds.',
     ing: [
       '450 g skinless chicken breast',
@@ -201,7 +201,7 @@ module.exports = {
   'creamy-cucumber-dill-salad': {
     d: 'Thinly sliced cucumber and red onion in a tangy dressing of Greek yogurt, dill and lemon, with no added sugar. Four servings in 10 minutes.',
     meta: 'Creamy cucumber dill salad: thin cucumber and red onion in a tangy Greek yogurt and dill dressing, with no added sugar, ready in 10 minutes.',
-    kw: ['creamy cucumber dill salad', 'creamy cucumber salad', 'diabetic friendly cucumber salad', 'no added sugar cucumber salad', 'gluten free cucumber salad'],
+    kw: ['creamy cucumber dill salad', 'creamy cucumber salad', 'no added sugar cucumber salad', 'no added sugar cucumber salad', 'gluten free cucumber salad'],
     why: 'Why does cucumber salad turn watery so fast? Because cucumbers are mostly water, and salt pulls that water out the moment it touches them.\n\nSalt the cucumber slices first and leave them in a colander for ten minutes, then press them dry. The dressing then clings instead of thinning. Greek yogurt gives it body, and lemon juice and white wine vinegar give it a clean tang that old-fashioned versions get from sugar. Fresh dill is the flavour that makes it taste like itself. **Slice the cucumbers paper thin**, with a mandoline if you have one, because thick slices stay stiff and taste of little.\n\nEat it within an hour of mixing. This salad is a good partner for grilled fish, a plain roast chicken or a rich steak. Do not let it sit overnight. Stir it once before serving, because a little liquid always collects at the bottom of the bowl.',
     ing: [
       '600 g cucumber, thinly sliced',
@@ -233,7 +233,7 @@ module.exports = {
   'cucumber-avocado-salad': {
     d: 'Diced cucumber, avocado and tomato with red onion, cilantro and a lime and olive oil dressing. Four servings in 10 minutes, with no cooking.',
     meta: 'Cucumber avocado salad: crisp cucumber, creamy avocado, tomato and cilantro in a lime and olive oil dressing. Four servings in 10 minutes.',
-    kw: ['cucumber avocado salad', 'avocado cucumber salad', 'diabetic friendly avocado salad', 'vegan cucumber avocado salad', 'easy cucumber avocado salad'],
+    kw: ['cucumber avocado salad', 'avocado cucumber salad', 'no added sugar avocado salad', 'vegan cucumber avocado salad', 'easy cucumber avocado salad'],
     why: 'What stops avocado going brown in a salad? Acid, and quickly. Lime juice on the cut flesh slows the browning, so the dressing goes on first.\n\nThis salad is nothing more than crisp, creamy and sharp things in the right proportions. Cucumber supplies the crunch, avocado the richness, tomato the juice and red onion the bite, and cilantro and a little jalapeño bring heat and a green flavour. Cut everything to the same size. **Dice to about 1.5 cm** so a spoonful holds all of it. Salt lightly, since the avocado needs more than you expect while the cucumber gives off water.\n\nServe it as a quick side for grilled fish or chicken. Add chickpeas or shredded chicken and it becomes lunch. Squeeze extra lime over the top at the table if the avocado looks dull. A pinch of chilli flakes adds heat for anyone who wants it. Eat it fresh.',
     ing: [
       '500 g cucumber, diced',
@@ -266,7 +266,7 @@ module.exports = {
   'broccoli-slaw-salad': {
     d: 'Shredded broccoli stems and carrot with apple, red onion and sunflower seeds in a tangy yogurt dressing. Six servings in 15 minutes, with no cooking.',
     meta: 'Broccoli slaw salad: shredded broccoli and carrot with apple, red onion and sunflower seeds in a yogurt and mustard dressing. Six servings.',
-    kw: ['broccoli slaw salad', 'broccoli slaw', 'diabetic friendly broccoli slaw', 'low carb broccoli slaw', 'gluten free broccoli slaw'],
+    kw: ['broccoli slaw salad', 'broccoli slaw', 'no added sugar broccoli slaw', 'low carb broccoli slaw', 'gluten free broccoli slaw'],
     why: 'Meal prep, sorted. A bag of shredded broccoli stems and carrot, an apple and a handful of seeds make a lunch salad that keeps for four days.\n\nUnlike lettuce, broccoli stems do not wilt. Dressed in a yogurt and mustard sauce they soften slightly and stay crunchy for days. Shredded stems are sold in bags as slaw mix, or you can grate your own. Apple adds a little sweetness in place of the sugar a deli slaw would carry, and sunflower seeds add crunch and a nutty note. **Make the dressing first** and let the slaw sit in it for 15 minutes before you serve; the flavours meet and the stems soften a touch.\n\nIt works with pulled chicken, grilled fish or a burger. A squeeze of lemon on the day brightens leftovers. Because the stems are sturdy, the slaw also travels well in a jar. Keep it cold and covered, and eat it within four days. Add the seeds fresh.',
     ing: [
       '400 g broccoli slaw (shredded broccoli stems and carrot)',
@@ -300,7 +300,7 @@ module.exports = {
   'tuna-stuffed-avocados': {
     d: 'Ripe avocado halves filled with a lemony tuna salad of celery, red onion and parsley, bound with a little mayonnaise. Two servings in 15 minutes, with no cooking.',
     meta: 'Tuna-stuffed avocados: ripe avocado halves filled with a lemony tuna salad with celery, red onion and parsley. Two servings in 15 minutes.',
-    kw: ['tuna stuffed avocado', 'tuna stuffed avocados', 'diabetic friendly tuna salad', 'low carb tuna avocado', 'gluten free tuna stuffed avocado'],
+    kw: ['tuna stuffed avocado', 'tuna stuffed avocados', 'no added sugar tuna salad', 'low carb tuna avocado', 'gluten free tuna stuffed avocado'],
     why: 'Pick the avocados by feel. A ripe one gives slightly under your thumb and holds its shape when halved, and an unripe one will taste of nothing.\n\nIt is tuna salad in its own bowl. The avocado replaces the bread, adds a creamy fat and turns a plain can of fish into a plate that feels like lunch in a restaurant. Mix the tuna with a spoonful of light mayonnaise, celery for crunch, red onion for bite and lemon juice to keep the avocado bright. Chill the mix for ten minutes if you have time. **Drain the tuna well**, pressing it with the back of a fork, since extra liquid makes the filling runny.\n\nSpoon the tuna into the hollows and heap it generously. Parsley goes on top. Eat it with a fork straight from the skin. A few cherry tomatoes on the side add colour. It is a good lunch for a hot day.',
     ing: [
       '200 g canned tuna in water, drained',
@@ -332,7 +332,7 @@ module.exports = {
   'crab-stuffed-avocados': {
     d: 'Ripe avocado halves filled with lump crab, Greek yogurt, lemon, celery and chives. Two servings in 15 minutes, with no cooking.',
     meta: 'Crab-stuffed avocados: ripe avocado halves filled with sweet lump crab, yogurt, lemon, celery and chives. Two servings in 15 minutes.',
-    kw: ['crab stuffed avocados', 'crab stuffed avocado', 'diabetic friendly crab salad', 'low carb crab avocado', 'easy crab stuffed avocado'],
+    kw: ['crab stuffed avocados', 'crab stuffed avocado', 'no added sugar crab salad', 'low carb crab avocado', 'easy crab stuffed avocado'],
     why: 'Crab needs very little. It is sweet and delicate, and a creamy dressing, lemon and a few crisp things for crunch are all it asks, which makes this a lunch for two guests, or for you on a day that deserves it.\n\nLump crab meat gives the best texture, in large flakes rather than shreds. Pick through it gently for any bits of shell, then fold it with Greek yogurt and a little light mayonnaise, celery, chives and lemon, using a light hand so the lumps stay whole. A pinch of smoked paprika adds colour. **Fold, do not stir**, or the crab breaks into mush. The avocado is the bowl, and its buttery flesh is a good partner for the crab.\n\nChill the filling for ten minutes before you stuff the avocados. Fresh crab keeps its sweetness cold. Squeeze a little lemon over each one before serving. Serve with a few slices of cucumber on the side.',
     ing: [
       '200 g lump crab meat, picked over',
@@ -364,7 +364,7 @@ module.exports = {
   'egg-roll-skillet': {
     d: 'The filling of an egg roll in a skillet: ground turkey, shredded cabbage and carrot, ginger and garlic, finished with soy sauce and sesame. Four servings in 25 minutes.',
     meta: 'Egg roll skillet, also called egg roll in a bowl: ground turkey, cabbage, carrot, ginger and garlic, ready in 25 minutes in one pan.',
-    kw: ['egg roll skillet', 'egg roll in a bowl', 'diabetic friendly egg roll in a bowl', 'low carb egg roll skillet', 'easy egg roll skillet'],
+    kw: ['egg roll skillet', 'egg roll in a bowl', 'no added sugar egg roll in a bowl', 'low carb egg roll skillet', 'easy egg roll skillet'],
     why: 'Turkey, cabbage, carrot, ginger, garlic. That is the filling of an egg roll without the wrapper, the oil bath or the long queue, and it is on the table in 25 minutes.\n\nThe skillet does everything at once. Brown the turkey properly first, because the browned bits are where the flavour is, then add ginger and garlic and the cabbage, which collapses from a heap into a few spoonfuls in about five minutes. A mix of low-sodium soy sauce, rice vinegar and toasted sesame oil seasons it, and spring onions go on at the end for freshness. **Cook the cabbage until just tender.** Soggy cabbage tastes sulphurous.\n\nThe dish is also called egg roll in a bowl, and it is usually served that way over a little rice or cauliflower rice. Pack it for lunch. Add a fried egg on top for extra protein. The sauce is thin, so leave the pan uncovered and let it reduce for a minute.',
     ing: [
       '450 g lean ground turkey',
@@ -399,7 +399,7 @@ module.exports = {
   'marinated-vegetable-salad': {
     d: 'Broccoli, cauliflower, carrot, celery and pepper blanched briefly and steeped in a garlic and oregano vinaigrette. Eight servings; 25 minutes of work plus 2 hours in the fridge.',
     meta: 'Marinated vegetable salad: broccoli, cauliflower, carrot and pepper steeped in a garlic and oregano vinaigrette. Eight servings, best made ahead.',
-    kw: ['marinated vegetable salad', 'marinated vegetables', 'diabetic friendly vegetable salad', 'vegan marinated vegetable salad', 'make ahead vegetable salad'],
+    kw: ['marinated vegetable salad', 'marinated vegetables', 'no added sugar vegetable salad', 'vegan marinated vegetable salad', 'make ahead vegetable salad'],
     why: 'Blanch first. Most marinated salads go limp because the vegetables were raw and the dressing did all the work, and a quick dip in boiling water opens them just enough to take on the marinade while keeping the colour bright.\n\nBroccoli, cauliflower and carrot spend two minutes in boiling water and go straight into ice water. Celery, red pepper, red onion and tomatoes stay raw for crunch. The vinaigrette is plain: olive oil, red wine vinegar, mustard, garlic and oregano, with enough salt to season the vegetables. **Dress them while still cool.** Keep it simple.\n\nTwo hours in the fridge is the minimum, and overnight is better. Stir it once or twice. This is a useful salad for a crowd, since it improves while you do something else, and it takes the place of a pasta salad on a buffet. Lift it out with a slotted spoon so that extra dressing stays behind. Add a few chickpeas for a main course.',
     ing: [
       '300 g broccoli florets',
@@ -439,7 +439,7 @@ module.exports = {
   'black-bean-and-quinoa-bowl': {
     d: 'Quinoa, black beans, peppers, tomatoes and avocado in a bowl, dressed with lime, cumin and olive oil. Four servings in 35 minutes, and fully vegan.',
     meta: 'Black bean and quinoa bowl: quinoa, black beans, pepper, tomato and avocado with a cumin and lime dressing. Vegan, four servings in 35 minutes.',
-    kw: ['black bean and quinoa bowl', 'black bean quinoa bowl', 'diabetic friendly quinoa bowl', 'vegan black bean quinoa bowl', 'gluten free black bean bowl'],
+    kw: ['black bean and quinoa bowl', 'black bean quinoa bowl', 'no added sugar quinoa bowl', 'vegan black bean quinoa bowl', 'gluten free black bean bowl'],
     why: 'Rinse the quinoa. It is coated with a bitter layer of saponins, and a minute under cold water in a sieve takes it away.\n\nThis bowl is built to be filling for a plant-based meal. Quinoa gives protein and a little fibre, the black beans add more of both, and avocado brings fat so the bowl satisfies. Measured portions keep the carbohydrate sensible: a small amount of quinoa and a generous amount of beans. **Toast the cumin first** for ten seconds, since heat wakes the spice up. Do not skip it.\n\nCook the quinoa until the little white spirals pop out, then fluff it with a fork. The lime dressing goes on at the end. Serve it warm or cold, and pack it for lunch with the avocado added on the day. Leftover quinoa reheats well with a splash of water. A dollop of plain yogurt on top adds a cool contrast to the spices. Hot sauce is optional.',
     ing: [
       '100 g uncooked quinoa',
@@ -475,7 +475,7 @@ module.exports = {
   'mushroom-swiss-burger-bowls': {
     d: 'Seasoned beef patties browned in a pan and served over romaine with sautéed mushrooms and onions, melted Swiss cheese and a mustard yogurt sauce. Four servings in 25 minutes.',
     meta: 'Mushroom Swiss burger bowls: browned beef patties on romaine with sautéed mushrooms, onions, Swiss cheese and mustard yogurt sauce.',
-    kw: ['mushroom swiss burger bowls', 'mushroom swiss burger bowl', 'diabetic friendly burger bowls', 'low carb burger bowls', 'gluten free burger bowls'],
+    kw: ['mushroom swiss burger bowls', 'mushroom swiss burger bowl', 'no added sugar burger bowls', 'low carb burger bowls', 'gluten free burger bowls'],
     why: 'Listen to the pan. When the mushrooms stop hissing and start to sizzle quietly, the water has gone and they are ready to brown, which is the moment their flavour turns savoury.\n\nThis is a mushroom Swiss burger without the bun. The beef is shaped into thin patties, browned in a pan and topped with shredded Swiss cheese so it melts. Everything sits on a bed of crisp romaine with tomatoes and the mushroom and onion mixture alongside. A sauce of Greek yogurt, Dijon mustard and lemon replaces ketchup. Cook the mushrooms in the same pan afterwards to pick up the browned beef juices. **Salt the mushrooms late.** Early salt makes them stew.\n\nKeep the patties thin so they cook quickly and stay juicy. Pat them dry before they go in the pan so they brown rather than steam. Make a dimple in the middle of each one, which stops them puffing. Rest them for two minutes, then serve.',
     ing: [
       '500 g lean ground beef',
@@ -512,7 +512,7 @@ module.exports = {
   'lettuce-wrap-burgers': {
     d: 'Thin, juicy beef burgers wrapped in butter lettuce leaves with tomato, red onion, avocado and Dijon mustard, with no bun and no cheese. Four servings in 22 minutes.',
     meta: 'Lettuce wrap burgers: juicy seasoned beef patties in butter lettuce leaves with tomato, red onion, avocado and mustard. Four servings.',
-    kw: ['lettuce wrap burgers', 'lettuce wrapped burgers', 'diabetic friendly burgers', 'low carb burgers without bun', 'dairy free lettuce wrap burgers'],
+    kw: ['lettuce wrap burgers', 'lettuce wrapped burgers', 'no added sugar burgers', 'low carb burgers without bun', 'dairy free lettuce wrap burgers'],
     why: 'Use two leaves. Most lettuce wrap burgers fall apart in the hand, and overlapping a pair of butter lettuce leaves so the burger sits in a cup is the fix. It is a small trick that makes a big difference.\n\nThe burger itself is simple: lean ground beef seasoned with salt, pepper, garlic powder and a little smoked paprika, shaped thin and cooked in a hot pan. Thin patties cook in minutes and stay juicy. With no cheese and no bun, the toppings do the work: tomato, red onion, sliced avocado and a spoonful of Dijon mustard. **Wrap it in parchment** and it travels well.\n\nPick butter lettuce for its soft, cup-shaped leaves. Iceberg is too stiff and romaine too narrow. Pat the leaves dry so the burger does not slide. Have napkins ready. Dijon mustard is the only sauce it needs. A thin patty and a hot pan are the whole technique.',
     ing: [
       '500 g lean ground beef',

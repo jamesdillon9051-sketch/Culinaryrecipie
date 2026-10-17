@@ -14,7 +14,7 @@ module.exports = {
   'turkey-meatloaf': {
     d: 'A moist turkey meatloaf bound with oats and egg and glazed with tomato paste and mustard instead of ketchup. Six servings in 65 minutes.',
     meta: 'Turkey meatloaf with a tomato paste and mustard glaze instead of ketchup: lean turkey, oats, onion and zucchini. Six servings in 65 minutes.',
-    kw: ['turkey meatloaf', 'diabetic friendly turkey meatloaf', 'turkey meatloaf without ketchup', 'healthy turkey meatloaf with oats', 'easy turkey meatloaf'],
+    kw: ['turkey meatloaf', 'no added sugar turkey meatloaf', 'turkey meatloaf without ketchup', 'healthy turkey meatloaf with oats', 'easy turkey meatloaf'],
     why: 'A family dinner for six that slices cleanly and tastes as good cold as it does hot. The glaze is tomato paste, mustard and vinegar, so it is tangy and savoury, with no ketchup and none of the sugar that comes with it. Lean turkey does the rest.\n\nTurkey is lean. Moisture has to come from somewhere else. Grated zucchini, squeezed dry, adds it without a soggy centre, and oats soak up the juices that would otherwise run out into the tray. **Mix only until combined**, because a loaf worked too hard turns dense and rubbery. Shape it free-form on a tray rather than packing it into a tin, which lets the edges brown and the fat drain away.\n\nRest the loaf for 10 minutes before you slice it. The juices settle and the slices hold together. Leftover slices reheat gently and are good cold with mustard and a green salad.',
     ing: [
       '# For the loaf',
@@ -53,7 +53,7 @@ module.exports = {
   'pepper-steak': {
     d: 'Thin strips of beef sirloin with bell peppers and onion in a garlic, ginger and soy sauce, thickened with cornflour. Four servings in 27 minutes.',
     meta: 'Pepper steak: sirloin strips stir-fried with bell peppers and onion in a garlic, ginger and reduced-sodium soy sauce, ready in 27 minutes.',
-    kw: ['pepper steak', 'diabetic friendly pepper steak', 'dairy free pepper steak', 'easy pepper steak with bell peppers', 'pepper steak stir fry'],
+    kw: ['pepper steak', 'no added sugar pepper steak', 'dairy free pepper steak', 'easy pepper steak with bell peppers', 'pepper steak stir fry'],
     why: 'Slice the beef thinly across the grain; it is the one step that decides whether pepper steak is tender or chewy. A partly frozen steak is easier to slice thin, so give it a short spell in the freezer first if you can. The cut matters less than the knife work.\n\nEverything else is fast. The pan has to be very hot, so the beef browns in 2 minutes without releasing its juices, and the peppers should keep a little crunch. **Cook the beef in one layer**, in two batches if your pan is small. The sauce is soy, stock and cornflour, thickened to a gloss in about 1 minute, with coarse black pepper doing the work the name promises.\n\nReduced-sodium soy sauce keeps the salt in check, and the stock stretches it. Taste before adding more. Serve over cauliflower rice or with a simple green salad. Leftovers reheat well in a hot pan with a splash of water.',
     ing: [
       '500 g beef sirloin, sliced thinly across the grain',
@@ -87,7 +87,7 @@ module.exports = {
   'sausage-and-cabbage-skillet': {
     d: 'Browned sausage slices with soft cabbage, onion and smoked paprika, finished with mustard and cider vinegar in one pan. Four servings in 30 minutes.',
     meta: 'Sausage and cabbage skillet: sliced sausage, cabbage and onion cooked in one pan with smoked paprika and mustard. Four servings in 30 minutes.',
-    kw: ['sausage and cabbage skillet', 'diabetic friendly sausage and cabbage', 'gluten free sausage and cabbage', 'dairy free sausage and cabbage dinner', 'quick sausage and cabbage skillet'],
+    kw: ['sausage and cabbage skillet', 'no added sugar sausage and cabbage', 'gluten free sausage and cabbage', 'dairy free sausage and cabbage dinner', 'quick sausage and cabbage skillet'],
     why: 'Sausage, cabbage and onion are the whole dish, and the pan does the rest. The sausage browns first and leaves fat behind, the onion softens in it, and the cabbage cooks down in the savoury juices until it is sweet, silky and a little browned at the edges. Dinner in one pan.\n\nSausage is salty, so this recipe adds none and lets mustard and vinegar supply the sharpness. **Check the sausage label**: sodium and fillers vary widely between brands, and some contain gluten. Cabbage collapses quickly. Cut it into ribbons about as wide as your finger so it wilts evenly, and add it in handfuls, since a full pan will not stir until the first batch has gone down.\n\nSmoked paprika adds a smoky depth without any meat beyond the sausage. Serve straight from the pan with a spoonful of mustard on the side. Taste before serving, since the sausage may already supply enough salt. It reheats well.',
     ing: [
       '280 g gluten-free chicken sausages, sliced into 2 cm pieces',
@@ -120,7 +120,7 @@ module.exports = {
   'pork-medallions-with-mustard-sauce': {
     d: 'Pork tenderloin medallions seared and served in a quick shallot, mustard and half-and-half pan sauce. Four servings in 25 minutes.',
     meta: 'Pork medallions with mustard sauce: pork tenderloin seared and finished in a shallot, Dijon and half-and-half pan sauce in 25 minutes.',
-    kw: ['pork medallions with mustard sauce', 'diabetic friendly pork tenderloin', 'gluten free pork medallions', 'creamy mustard pork', 'easy pork tenderloin with mustard sauce'],
+    kw: ['pork medallions with mustard sauce', 'no added sugar pork tenderloin', 'gluten free pork medallions', 'creamy mustard pork', 'easy pork tenderloin with mustard sauce'],
     why: 'Think of it as steak au poivre\'s gentler cousin: the same quick sear and the same pan sauce, with mustard in place of crushed peppercorns. Pork tenderloin is lean and mild, which makes it a good partner for something sharp. It takes 25 minutes from start to finish.\n\nCut the tenderloin into slices about as thick as your thumb and flatten them slightly, so every medallion cooks in the same 3 minutes a side. **Do not crowd the pan**; pork that steams will not brown, and the browned bits are the base of the sauce. Whisk the mustard in over low heat. Boiling it dulls the flavour and can split the sauce.\n\nHalf-and-half is lighter than double cream and still gives the sauce body once it has simmered for 2 minutes. Mustard is salty. Taste before adding more salt, then serve with steamed green beans or a crisp salad. Leftover medallions slice well into a salad.',
     ing: [
       '600 g pork tenderloin, trimmed and cut into 12 slices',
@@ -153,7 +153,7 @@ module.exports = {
   'beef-and-green-bean-stir-fry': {
     d: 'Sliced sirloin and green beans stir-fried with garlic and ginger in a light soy sauce, with no added sugar. Four servings in 27 minutes.',
     meta: 'Beef and green bean stir-fry: sirloin strips and green beans in a garlic, ginger and reduced-sodium soy sauce. Four servings in 27 minutes.',
-    kw: ['beef and green bean stir fry', 'diabetic friendly beef stir fry', 'dairy free beef and green beans', 'easy beef and green bean stir fry with ginger', 'quick beef stir fry with green beans'],
+    kw: ['beef and green bean stir fry', 'no added sugar beef stir fry', 'dairy free beef and green beans', 'easy beef and green bean stir fry with ginger', 'quick beef stir fry with green beans'],
     why: 'A midweek dinner for four. It is on the table in 27 minutes and uses one pan. The beans go into a hot pan raw and come out blistered at the edges but still crisp in the middle, which is where most of the flavour is. Soy sauce, stock and a little cornflour make the sauce, with no added sugar in it.\n\nSlice the beef thinly across the grain and cook it in a single layer, so each piece sears instead of stewing. Speed is the point. **Leave the beans alone at first** so one side blisters before you toss them. Cut them to about 4 cm so they cook in the time it takes the sauce to thicken.\n\nSesame oil goes in last. Heat dulls its flavour, so it is stirred in off the heat with the spring onions. Serve over cauliflower rice or on its own for a lighter meal. Leftovers make a good lunch the next day.',
     ing: [
       '450 g beef sirloin, sliced thinly across the grain',
@@ -188,7 +188,7 @@ module.exports = {
   'cauliflower-shepherds-pie': {
     d: 'Lamb mince, carrot, celery and peas in a rich gravy, topped with a buttery cauliflower mash instead of potato. Six servings in 70 minutes.',
     meta: 'Cauliflower shepherd\'s pie: lamb mince, carrot and peas in a rich gravy under a golden cauliflower mash instead of potato. Serves six.',
-    kw: ['cauliflower shepherds pie', 'diabetic friendly shepherds pie', 'gluten free shepherds pie', 'shepherds pie with cauliflower mash', 'baked shepherds pie without potato'],
+    kw: ['cauliflower shepherds pie', 'no added sugar shepherds pie', 'gluten free shepherds pie', 'shepherds pie with cauliflower mash', 'baked shepherds pie without potato'],
     why: 'Lamb mince, carrots, celery and peas in a rich gravy, with a cauliflower mash where the potato would be: the shepherd\'s pie everyone knows, minus the starch. It is a proper family dinner. The mash is blended with butter and a little half-and-half until smooth, then baked until the edges turn gold.\n\nAny cauliflower topping has one weak point: water. **Drain it thoroughly** and let it steam dry in the colander before you blend, or the topping slumps into the filling instead of sitting on it. Thicken the gravy properly too; cornflour and 12 minutes of simmering make a filling that holds its shape when you cut a portion. Brown the lamb hard at the start, because the browned bits are most of the flavour.\n\nNutmeg is a classic partner for cauliflower. Roughing the top with a fork gives the oven more edges to brown. Keep leftovers in the fridge and reheat portions in a hot oven so the topping crisps up again.',
     ing: [
       '# For the filling',
@@ -233,7 +233,7 @@ module.exports = {
   'steak-with-garlic-mushroom-sauce': {
     d: 'Pan-seared sirloin steaks served with a quick garlic, mushroom and half-and-half sauce made in the same pan. Four servings in 25 minutes.',
     meta: 'Steak with garlic mushroom sauce: sirloin seared in a hot pan, with a mushroom, garlic and half-and-half sauce made from the pan juices.',
-    kw: ['steak with garlic mushroom sauce', 'diabetic friendly steak dinner', 'gluten free steak with mushroom sauce', 'sirloin steak with creamy mushrooms', 'easy steak and mushroom sauce'],
+    kw: ['steak with garlic mushroom sauce', 'no added sugar steak dinner', 'gluten free steak with mushroom sauce', 'sirloin steak with creamy mushrooms', 'easy steak and mushroom sauce'],
     why: 'Garlic mushroom sauce does for steak what gravy does for a roast: it turns what sticks to the pan into something worth pouring. Nothing is wasted. The sauce is made in the same pan, so it tastes of the steak rather than of the cream.\n\nA hot, heavy pan matters most. It sears the outside hard in 3 minutes a side and leaves the middle pink and juicy. Pat the steaks dry first. **Rest the steaks for 5 minutes** before you cut, so the juices stay in the meat instead of on the board. Cook the mushrooms until the water has gone and they start to brown; that takes about 4 minutes and gives the sauce its depth.\n\nHalf-and-half rounds the sauce without making it heavy. Taste before adding salt, because the seasoning on the steak carries into the pan. Serve with roasted broccoli or a green salad. Leftovers slice well into a salad.',
     ing: [
       '600 g beef sirloin steak, in 4 portions',

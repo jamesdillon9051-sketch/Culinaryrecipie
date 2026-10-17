@@ -394,7 +394,7 @@ module.exports = {
   },
 
   'croissants': {
-    rest: [645, 'chilling'],
+    rest: [690, 'chilling and proving'],
     d: 'Genuinely laminated croissants with a honeycomb interior and a shattering shell — 27 layers of butter folded into dough over two days. It is a project, but the technique is entirely learnable and the result is unbuyable outside France.',
     meta: 'Laminated butter croissants with a honeycomb crumb and shattering crust. The full two-day method, explained step by step.',
     kw: ['croissant recipe', 'homemade croissants', 'laminated dough', 'french pastry'],
@@ -521,7 +521,7 @@ module.exports = {
 
   'macarons': {
     d: 'The Parisian macaron, with smooth domed shells, ruffled feet and a chewy centre. This uses the more forgiving French meringue method and explains exactly what "macaronage" should look and sound like.',
-    meta: 'Foolproof French macarons with smooth shells and ruffled feet. The macaronage stage explained so you know when to stop.',
+    meta: 'French macarons with smooth shells and ruffled feet. The macaronage stage explained so you know when to stop.',
     kw: ['macaron recipe', 'french macarons', 'macaronage technique', 'gluten free dessert'],
     why: 'Macaronage is a controlled deflation: you fold the meringue down until the batter flows slowly enough to hold a shape but loosely enough to settle smooth. Resting the piped shells until dry to the touch forms a skin, forcing the rising batter to escape at the base — which is what creates the characteristic foot.',
     ing: [

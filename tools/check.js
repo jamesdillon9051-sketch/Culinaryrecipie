@@ -1082,11 +1082,12 @@ try {
    a first-person claim is invisible once a recipe is written and obvious to a
    reader, so it fails the check instead of waiting to be noticed. --check-docs
    keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
-/* The health labels (Diabetes-Friendly, Weight-Loss Friendly, Kidney-Friendly) are claims about the
-   numbers a reader plans a meal around, so they sit in the same list: a tagged recipe outside its
-   limits, or one whose nutrition its own ingredients do not reproduce, fails the build. */
+/* The health audit sits in the same list: no recipe may promise a health outcome or carry one of
+   the withdrawn health labels, and the volumes whose nutrition is computed from the ingredient list
+   must still reproduce it. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
+                     'robots-check.js', 'private-paths-check.js',
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
   const [script, ...args] = [].concat(audit);
   try {
