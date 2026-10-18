@@ -522,7 +522,7 @@ module.exports = {
       '2 tbsp olive oil'
     ],
     st: [
-      'Heat the oven to 160C. Mix the garlic, pepper, salt and half the lard and rub inside and out. Set on a rack in a tin.',
+      'Heat the oven to 160C. Mix the garlic, pepper, salt and half the lard and rub it over the pig, inside and out. Set on a rack in a tin.',
       'Brush the skin with the remaining melted lard. Roast for 3 hours, basting every 30 minutes.',
       'Add the potatoes tossed in the oil for the last hour.',
       'Turn the oven to 220C for 40 minutes, basting every 10 minutes, until the skin is crisp.',

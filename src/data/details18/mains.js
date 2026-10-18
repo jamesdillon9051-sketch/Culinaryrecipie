@@ -739,7 +739,7 @@ module.exports = {
       'Add both soy sauces, the wine, sugar, bean curd and water and simmer 5 minutes.',
       'Pack the pork slices skin down in a deep heatproof bowl, overlapping, and pile the mei cai and its sauce on top.',
       'Steam 2 hours, topping the pan up with boiling water.',
-      'Pour the collected liquid into a pan, thicken it with the slaked cornflour, then invert the bowl onto a plate, lift it off and pour the sauce over.'
+      'Pour the collected liquid into a pan, thicken it with the slaked cornflour, then invert the bowl onto a plate, lift it off, pour the sauce over and scatter with the spring onions.'
     ],
     tips: [
       'Three changes of water on the mei cai. It is salty and gritty.',

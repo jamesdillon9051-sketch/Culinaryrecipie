@@ -68,7 +68,7 @@ module.exports = {
     st: [
       'Trim the fat cap to an even 6 mm and square off any thin, ragged edges — they only burn.',
       'Mix the salt and pepper and coat the brisket heavily on all sides. Let it sit an hour at room temperature.',
-      'Bring the smoker to a steady 110 to 120C with clean, thin blue smoke. Thick white smoke makes bitter meat.',
+      'Bring the smoker to a steady 110 to 120C on the oak, with clean, thin blue smoke. Thick white smoke makes bitter meat.',
       'Put the brisket on fat side up, point towards the hotter side of the chamber. Close the lid and leave it alone for 3 hours.',
       'Spritz with vinegar every 45 minutes from hour three, only to keep the surface from drying.',
       'At around 70C internal the temperature will stop rising. This is the stall. When the bark is dark and firm to the touch, wrap tightly in butcher paper.',

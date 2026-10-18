@@ -23,7 +23,7 @@ module.exports = {
       '1 tsp salt'
     ],
     st: [
-      'Cut off the tips 4 cm from the top. Chop the stalks small. Simmer the tough ends in the water with the salt for 15 minutes, then strain and keep hot.',
+      'Cut off the asparagus tips 4 cm from the top. Chop the stalks small. Simmer the tough ends in the water with the salt for 15 minutes, then strain and keep hot.',
       'Melt half the butter in a wide pan and soften the onion for 5 minutes. Add the rice and stir for 2 minutes. Add the wine and stir until absorbed.',
       'Add the stock a ladle at a time, stirring, for 18 minutes, adding the chopped stalks after 8 minutes and the tips for the last 4 minutes.',
       'Off the heat, beat in the remaining butter and the Parmesan. Cover and rest for 2 minutes.'

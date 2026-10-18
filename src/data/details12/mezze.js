@@ -341,7 +341,7 @@ module.exports = {
       'Grate or crumble the cheese, squeeze out any water, and mix with the mint and pepper.',
       'Cut each filo sheet into two long rectangles. Keep the stack under a damp cloth as you work.',
       'Lay a rectangle with a short edge towards you, put a finger of cheese across the base, fold both long sides in over the ends of the filling, and roll up tightly.',
-      'Seal the final flap with the flour paste and press it down. Repeat.',
+      'Seal the final flap with the beaten egg or the flour paste and press it down. Repeat.',
       'Heat the oil to 180°C. Fry six at a time, 2 to 3 minutes, turning once, until blistered and pale gold. They colour fast.',
       'Drain on a rack and eat hot, while the cheese still pulls.'
     ],

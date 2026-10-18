@@ -166,7 +166,7 @@ module.exports = {
       '1 tbsp icing sugar'
     ],
     st: [
-      'Press it through a sieve into a bowl so there are no lumps.',
+      'Press the tvorog through a sieve into a bowl so there are no lumps.',
       'Mix in the egg, sugar, salt, vanilla and raisins.',
       'Add the flour a tablespoon at a time, stopping as soon as the mixture just holds together.',
       'Dust a work surface with flour and roll the mixture into a log.',
@@ -250,7 +250,7 @@ module.exports = {
     st: [
       'Bring the water to a simmer with the peppercorns, bay and 1.5 tsp of the salt.',
       'Lower the beef in — the water should already be at a simmer — and skim for the first 10 minutes.',
-      'Add the charred onion halves.',
+      'Add the charred onion halves and the lovage or parsley.',
       'Hold at a bare shiver for 2 hours. Do not let it boil.',
       'Add the carrots, celeriac and leeks and cook 30 minutes more, until the beef is tender to a skewer.',
       'Mix the grated apple with the horseradish, lemon juice, sugar and remaining salt for the sauce.',

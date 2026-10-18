@@ -59,7 +59,7 @@ const STATUSES = new Set(['exception', 'cooking', 'specialist', 'duplicate']);
 
 /* Lines a method does not have to name: seasoning, garnish, serving, greasing, washing. */
 const EXEMPT_LINE = /\b(?:to serve|for serving|to garnish|for garnish|garnish|optional|to taste|for greasing|to grease|for dusting|for the (?:tin|pan|dish|tray|board)|for brushing|for frying|for deep[- ]frying|ice cubes?|crushed ice|ice\b|lemon wedges|lime wedges)\b/i;
-const EXEMPT_FOOD = /^(?:salt|pepper|black pepper|white pepper|water|ice|sea salt|flaky sea salt|kosher salt|fine sea salt|freshly ground black pepper|cooking spray)$/i;
+const EXEMPT_FOOD = /^(?:(?:coarsely |finely |freshly |roughly )?(?:ground |cracked )?(?:black |white )?pepper|salt|water|ice|sea salt|flaky sea salt|kosher salt|fine sea salt|freshly ground black pepper|cooking spray)$/i;
 const STOP = new Set(['fresh', 'freshly', 'finely', 'roughly', 'chopped', 'diced', 'sliced', 'grated', 'minced', 'ground', 'large', 'small',
   'medium', 'whole', 'extra', 'virgin', 'plain', 'unsalted', 'salted', 'light', 'dark', 'good', 'quality', 'ripe', 'thinly', 'thickly',
   'peeled', 'trimmed', 'halved', 'quartered', 'crushed', 'softened', 'melted', 'cold', 'warm', 'room', 'temperature', 'about',
@@ -72,26 +72,55 @@ const STOP = new Set(['fresh', 'freshly', 'finely', 'roughly', 'chopped', 'diced
 /* An ingredient the method may name by its class. */
 const CLASSES = [
   [/\b(?:ground|seeds?|powder|paprika|cumin|coriander|turmeric|cinnamon|cardamom|clove|nutmeg|allspice|chilli flakes|chili flakes|pepper flakes|cayenne|garam masala|star anise|fennel seed|mustard seed|peppercorns?|sumac|za'atar|oregano|thyme|bay|saffron|fenugreek|curry powder|five[- ]spice|mace|juniper)\b/i, /\b(?:spices?|spice (?:mix|paste|blend)|seasoning|masala|dry rub|rub|aromatics|whole spices)\b/],
-  [/\b(?:cheddar|gruy[eè]re|parmesan|parmigiano|pecorino|mozzarella|feta|ricotta|monterey jack|jack|emmental|comt[eé]|halloumi|gouda|manchego|provolone|fontina|mascarpone|stilton|brie|camembert|paneer|queso|cotija|cheese)\b/i, /\bchees/],
+  [/\b(?:cheddar|gruy[eè]re|parmesan|parmigiano|pecorino|mozzarella|feta|ricotta|monterey jack|jack|emmental|comt[eé]|halloumi|gouda|manchego|provolone|fontina|mascarpone|stilton|brie|camembert|paneer|queso|cotija|beaufort|caciocavallo|provola|scamorza|taleggio|asiago|raclette|reblochon|vacherin|appenzeller|grana padano|edam|havarti|jarlsberg|cheese)(?![a-zà-ÿ])/i, /\bchees/],
   [/\b(?:flour|baking powder|bicarbonate|baking soda|cornflour|cornstarch|cocoa|salt|sugar|yeast|oats|semolina|ground almonds)\b/i, /\bdry ingredients|\bdry mix|\bflour mixture/],
   [/\b(?:egg|milk|buttermilk|oil|melted butter|vanilla|yoghurt|yogurt|cream)\b/i, /\bwet ingredients|\bwet mix/],
   [/\b(?:parsley|coriander|cilantro|mint|basil|dill|chives|tarragon|chervil|thyme|rosemary|sage|oregano)\b/i, /\bherbs?\b/],
   [/\b(?:onions?|shallots?|garlic|ginger|celery|carrots?|leeks?|chillies|chilli|chiles?|peppers?|spring onions?|scallions?|lemongrass)\b/i, /\b(?:aromatics|vegetables|veg|soffritto|sofrito|mirepoix|holy trinity|paste|the base)\b/],
   [/\b(?:soy|vinegar|honey|mustard|mirin|sake|fish sauce|oyster sauce|hoisin|sesame oil|lemon juice|lime juice|olive oil|oil|maple|worcestershire|ketchup|sriracha|gochujang|wine|rice wine|shaoxing|stock|brown sugar|sugar|yoghurt|yogurt|mayonnaise|tahini)\b/i, /\b(?:marinade|dressing|vinaigrette|glaze|sauce ingredients|sauce|seasoning|mixture|brine|baste|liquid)\b/],
   [/\b(?:radish|cucumber|tomato|avocado|lettuce|cabbage|onion|lime|lemon|coriander|chilli|jalape[nñ]o|olive|pickle|tortilla|bread|flatbread|pitta|pita|rice|noodles)\b/i, /\b(?:toppings|garnishes|accompaniments|the trimmings|fixings|condiments|sides)\b/],
-  [/\b(?:beef|pork|lamb|chicken|turkey|mince|minced|sausage|veal|goat|mutton|venison)\b/i, /\b(?:the meat|meats|minces|meatballs?|patties|patty|burgers?)\b/],
-  [/\b(?:spaghetti|linguine|penne|rigatoni|fusilli|tagliatelle|fettuccine|macaroni|orzo|bucatini|pappardelle|conchiglie|farfalle|noodles?|dangmyeon|udon|soba|vermicelli)\b/i, /\b(?:pasta|noodles?)\b/],
-  [/\b(?:cod|haddock|salmon|hake|pollock|tilapia|halibut|sea bass|bream|trout|mackerel|snapper|whiting|coley|monkfish|tuna)\b/i, /\bfish\b|\bfillets?\b/],
+  [/\b(?:beef|pork|lamb|chicken|turkey|mince|minced|sausage|veal|goat|mutton|venison)\b/i, /\b(?:meat|meats|the mince|minces|meatballs?|patties|patty|burgers?)\b/],
+  [/\b(?:spaghetti|linguine|penne|rigatoni|fusilli|tagliatelle|fettuccine|macaroni|orzo|bucatini|pappardelle|conchiglie|farfalle|noodles?|dangmyeon|udon|soba|vermicelli|lasagn[ae]|lasagne sheets|lasagna sheets|cannelloni)\b/i, /\b(?:pasta|noodles?|sheets)\b/],
+  [/\b(?:cod|haddock|salmon|hake|pollock|tilapia|halibut|sea bass|bream|trout|mackerel|snapper|whiting|coley|monkfish|tuna|herring|vendace|perch|pike|carp|catfish|sole|plaice|turbot)\b/i, /\bfish\b|\bfillets?\b/],
   [/\b(?:steak|chuck|brisket|sirloin|rump|shin|skirt|flank)\b/i, /\b(?:beef|steak|meat)\b/],
   [/\beggs?\b/i, /\b(?:yolks?|whites?)\b/],
-  [/\b(?:loaf|bread|baguette|sourdough|brioche|bun|rolls?)\b/i, /\b(?:bread|toast|slices|croutons|cubes)\b/],
+  [/\b(?:loaf|bread|baguette|sourdough|brioche|bun|rolls?|pide|flatbreads?|pitta|pita|naan|lavash)\b/i, /\b(?:bread|toast|slices|croutons|cubes)\b/],
   [/\b(?:walnuts?|pecans?|almonds?|hazelnuts?|pistachios?|cashews?|peanuts?|pine nuts)\b/i, /\bnuts?\b/],
-  [/\b(?:salad leaves|rocket|arugula|spinach|lettuce|watercress|leaves)\b/i, /\b(?:leaves|greens|salad)\b/],
-  [/\b(?:strawberr|raspberr|blueberr|blackberr|cherr|grapes?|peach|banana|mango|apple|pear|fruit)/i, /\b(?:fruit|berries)\b/],
-  [/\b(?:jars?|lids?|bottles?|skewers?|cases|liners|paper|string|twine|toothpicks?|cocktail sticks?)\b/i, /./],
-  [/\b(?:cauliflower|broccoli|courgettes?|zucchini|sweet potato|parsnips?|beetroot|squash|pumpkin|aubergine|eggplant|green beans|haricots|potatoes?)\b/i, /\b(?:vegetables|veg|roots|beans)\b/],
-  [/\b(?:lager|beer|ale|stout|cider|marsala|sherry|brandy|rum|vodka|whisky|whiskey|port|vermouth)\b/i, /\b(?:beer|alcohol|liquor|spirit|booze|wine)\b/],
+  [/\b(?:salad leaves|rocket|arugula|spinach|lettuce|watercress|leaves|fris[ée]e|endive|chicory|radicchio|lamb's lettuce|m[âa]che)(?![a-zà-ÿ])/i, /\b(?:leaves|greens|salad)\b/],
+  [/\b(?:strawberr|raspberr|blueberr|blackberr|cherr|grapes?|peach|banana|mango|apple|pear|fruit|partridgeberr|lingonberr|cranberr|gooseberr|blackcurrant|redcurrant|bilberr|huckleberr|saskatoon)/i, /\b(?:fruit|berries)\b/],
+  [/\b(?:jars?|lids?|bottles?|skewers?|cases|liners|paper|string|twine|toothpicks?|cocktail sticks?|lolly sticks?|lollipop sticks?|ice[- ]?lolly sticks?|wooden sticks?|popsicle sticks?)\b/i, /./],
+  [/\b(?:cauliflower|broccoli|courgettes?|zucchini|sweet potato|parsnips?|beetroot|squash|pumpkin|aubergine|eggplant|green beans|haricots|potato(?:es)?|swede|turnips?(?! tops| greens)|celeriac|kohlrabi|(?<!split |pigeon |yellow split |green split )peas|okra|fennel|leeks?|mushrooms?|carrots?|peppers?|onions?|cherry tomatoes)\b/i, /\b(?:vegetables|veg|roots|beans)\b/],
+  [/\b(?:lager|beer|ale|stout|cider|marsala|sherry|brandy|rum|vodka|whisky|whiskey|port|vermouth|riesling|barolo|nebbiolo|chianti|rioja|champagne|prosecco|cava|sauvignon|chardonnay|pinot|merlot|madeira)\b/i, /\b(?:beer|alcohol|liquor|liqueur|spirit|booze|wine)\b/],
+  [/\b(?:raisins?|sultanas?|currants?|prunes?|dates?|dried apricots?|dried cranberr\w*|dried figs?|candied peel|mixed peel)\b/i, /\b(?:fruit|dried fruit)\b/],
+  [/\b(?:lingui[cç]a|chorizo|chouri[cç]o|kielbasa|andouille|merguez|\w*wurst|\w*worst|frankfurters?|hot dogs?|chipolatas?)\b/i, /\bsausages?\b/],
+  [/\b(?:cime di rapa|broccoli rabe|kale|cavolo nero|couve|collards?|chard|spinach|callaloo|pak choi|bok choy|spring greens|choy sum|yau choy|gai lan|kai lan|morning glory|water spinach|turnip tops|turnip greens|grelos)\b/i, /\bgreens\b/],
+  [/\b(?:butter|clarified butter|ghee|lard|dripping|oil|schmalz|goose fat|duck fat)\b/i, /\bthe fat\b|\bthe oil\b/],
+  [/\bsauerkraut\b/i, /\bcabbages?\b/],
+  [/\b(?:prime rib|rib of beef|ribs? of beef|topside|silverside|sirloin joint|leg of lamb|shoulder|loin|crown|gammon)\b/i, /\bthe joint\b/],
+  [/\b(?:sweetcorn|corn)\b/i, /\b(?:cobs?|kernels)\b/],
+  [/\b(?:split peas|pigeon peas|toor dal|tuvar dal|chana dal|moong dal|urad dal|masoor dal|dals?|dhal)\b/i, /\b(?:lentils?|dals?|dhal|pulses)\b/],
+  [/\b(?:milk|water|stock|juice|milk alternative|plant milk|oat milk)\b/i, /\bthe liquids?\b/],
+  [/\b(?:chicken|poussin|duck|turkey|goose|quail|guinea fowl)\b/i, /\b(?:the bird|birds|poultry)\b/],
+  [/\b(?:squid|calamari|prawns?|shrimps?|mussels?|clams?|scallops?|octopus|crab|lobster|whitebait|sprats?|anchovies|sardines?|langoustines?)\b/i, /\b(?:seafood|shellfish|fish)\b/],
 ];
+/* Another name for the same food, which a method may use instead. */
+const SYNONYMS = { peppercorn: 'pepper', scallion: 'spring onion', cilantro: 'coriander', prawn: 'shrimp', shrimp: 'prawn',
+  spearmint: 'mint', sweetcorn: 'corn', breadcrumb: 'crumb', trotter: 'foot', hardtack: 'hard bread', panko: 'crumb', parmigiano: 'parmesan', reggiano: 'parmesan', courgette: 'zucchini', zucchini: 'courgette', aubergine: 'eggplant', eggplant: 'aubergine', chilli: 'chile', chile: 'chilli' };
+/* The words of the other names a line gives the food: "tteok (Korean rice cakes)", "cime di rapa or broccoli rabe". */
+function otherNames(name) {
+  const s = String(name).toLowerCase();
+  /* The form the line is cut into ("cut into 1.5 cm chips", "to make 8 thin cutlets"), and a later part
+     of the line that names the food ("roasted, peeled and chopped mild green chiles"). */
+  const forms = [...s.matchAll(/\b(?:cut into|sliced into|into|to make)\s+(?:[\d.,\s-]*(?:cm|mm)\s+)?(?:\d+\s+)?([a-zà-ÿ\s-]+)/g)].map(m => m[1])
+    .concat([...s.matchAll(/\bin\s+(?:small\s+|large\s+|bite-sized\s+)?(florets|wedges|chunks|slices|strips|rings|batons)\b/g)].map(m => m[1]))
+    /* What a prepared line becomes: mashed potatoes are "the mash", crushed biscuits "the crumbs". */
+    .concat([[/\bmashed\b/, 'mash'], [/\bzested\b/, 'zest'], [/\bjuiced\b/, 'juice'], [/\bcrushed\b.*\b(?:biscuits?|crackers?|cookies|cornflakes|digestives?)\b|\b(?:biscuits?|crackers?|cookies|digestives?)\b.*\bcrushed\b/, 'crumb']]
+      .filter(([re]) => re.test(s)).map(([, w]) => w));
+  const later = s.replace(/\([^)]*\)/g, ' ').split(/,/).slice(1).filter(seg => !/^\s*(?:for|to|plus|about|such as|at|or|in|if|optional|cut|sliced|into)\b/.test(seg))
+    .map(seg => seg.split(/\s+/).filter(w => !/ed$/.test(w)).join(' '));
+  const parts = [...s.matchAll(/\(([^)]*)\)/g)].map(m => m[1]).concat(s.split(/,\s*|\s+/).length ? (s.match(/(?:^|,|\s)or\s+([^,;()]+)/g) || []).map(x => x.replace(/^[,\s]*or\s+/, '')) : []);
+  return parts.concat(forms, later).flatMap(p => p.replace(/[^a-zà-ÿ\s-]/g, ' ').split(/[\s-]+/)).filter(w => w.length > 2 && !STOP.has(w) && !/^(?:tsp|tbsp|ml|cup|cups|optional|using)$/.test(w)).map(singular);
+}
 const HEAT = /\b(?:bake|baked|baking|roast|roasted|roasting|fry|fried|frying|saut[eé]|sweat|simmer|simmered|simmering|boil|boiled|boiling|grill|grilled|grilling|griddle|cook|cooked|cooking|braise|braised|braising|steam|steamed|steaming|poach|poached|poaching|sear|seared|searing|toast|toasted|brown|browned|reduce|reduced|caramelise|caramelize|smoke|smoked|stew|stewed)\b/i;
 const TIME = /(\d+(?:\.\d+)?)(?:\s*(?:to|–|-|or)\s*(\d+(?:\.\d+)?))?\s*(minutes?|mins?|hours?|hrs?)\b/gi;
 const minutes = (n, unit) => /^h/i.test(unit) ? n * 60 : n;
@@ -102,6 +131,7 @@ function words(name) {
     .replace(/[^a-zà-ÿ\s-]/g, ' ').split(/[\s-]+/).filter(w => w.length > 2 && !STOP.has(w)).map(singular);
 }
 
+const covered = [];
 function check(recipe, built) {
   const out = [];
   /* Every finding carries a key that names what it is about (the ingredient line, the sentence,
@@ -121,17 +151,35 @@ function check(recipe, built) {
     if (/^#\s*/.test(raw)) { group = raw.replace(/^#\s*/, '').toLowerCase(); continue; }
     groupOf.set(raw, group);
   }
-  const everything = /\b(?:all (?:the|of the) (?:ingredients|remaining ingredients)|everything else|the rest of the ingredients|the remaining ingredients|all the remaining)\b/.test(method);
+  const everything = /\b(?:all (?:the|of the) (?:ingredients|remaining ingredients)|everything else|the rest of the ingredients|the remaining ingredients|all the remaining|every ingredient|(?:mix|toss|combine|stir|blend|put|fold|arrange) everything)\b/.test(method);
   const stem = w => w.slice(0, Math.max(4, w.length - 2));
-  for (const it of items) {
-    if (EXEMPT_LINE.test(it.raw)) continue;
+  /* Why the method counts as naming a line, or null: kept apart so a reviewer can see which rule
+     covered each one (recipe-consistency.js --covered). */
+  const coverage = it => {
+    if (EXEMPT_LINE.test(it.raw)) return 'a serving, garnish or seasoning line';
     const ws = words(it.name);
-    if (!ws.length || EXEMPT_FOOD.test(it.name.split(',')[0].trim())) continue;
-    if (ws.some(w => methodWords.has(w) || method.includes(w) || (w.length >= 5 && method.includes(stem(w))))) continue;
-    if (everything) continue;
-    const g = words(groupOf.get(it.raw) || '');
-    if (g.some(w => method.includes(w))) continue;
-    if (CLASSES.some(([food, named]) => food.test(it.name) && named.test(method))) continue;
+    if (!ws.length || EXEMPT_FOOD.test(it.name.split(',')[0].trim())) return 'salt, pepper or water';
+    const hit = w => methodWords.has(w) || method.includes(w) ? w
+      : w.length >= 5 && method.includes(stem(w)) ? stem(w)
+      : SYNONYMS[w] && method.includes(SYNONYMS[w]) ? SYNONYMS[w]
+      : /ing$/.test(w) && w.length >= 7 && method.includes(w.slice(0, -3)) ? w.slice(0, -3) : null;
+    const own = ws.map(hit).find(Boolean);
+    if (own) return `named as "${own}"`;
+    /* Another name must be a whole word of the method if it is short: "lap" is not "overlap". */
+    const other = otherNames(it.name).filter(w => w.length >= 5 || methodWords.has(w)).map(hit).find(Boolean);
+    if (other) return `named by another name the line gives it, "${other}"`;
+    if (everything) return 'covered by an "everything" or "all the ingredients" instruction';
+    const grp = groupOf.get(it.raw) || '';
+    if (/^(?:to serve|for serving|to garnish|for the garnish|garnish|to finish the plate|on the side)$/.test(grp)) return `listed under "${grp}"`;
+    const g = words(grp).find(w => method.includes(w) || (w.length >= 5 && method.includes(stem(w))));
+    if (g) return `named by its group, "${grp}"`;
+    const cls = CLASSES.find(([food, nm]) => (food.test(it.name) || food.test(words(it.name).join(' '))) && nm.test(method));
+    if (cls) return cls[1].source === '.' ? 'equipment, which the method need not name' : `named by its class, "${(method.match(cls[1]) || [''])[0]}"`;
+    return null;
+  };
+  for (const it of items) {
+    const why = coverage(it);
+    if (why) { covered.push({ slug: recipe.slug, line: it.raw, why }); continue; }
     add('review', 'ingredient-not-in-method', `"${it.raw}" is never named in the method`, it.raw);
   }
 
@@ -151,9 +199,13 @@ function check(recipe, built) {
   /* 3. "Divided" ingredients whose split the method never makes. */
   for (const it of items.filter(i => /\bdivided\b/i.test(i.raw))) {
     const ws = words(it.name);
-    const named = steps.filter(s => ws.some(w => s.toLowerCase().includes(w)));
-    const split = named.some(s => /\b(?:half|remaining|rest of|reserved|another|the other|a third|two-thirds|quarter)\b|\d+\s*(?:g|ml|tbsp|tsp)\b/i.test(s));
-    if (named.length < 2 || !split) add('review', 'divided-unclear', `"${it.raw}" is divided but the method does not show how it is split`, it.raw);
+    /* The steps may name the line by its class ("half the cheese" for the cheddar). */
+    const byClass = CLASSES.filter(([food, nm]) => nm.source !== '.' && food.test(it.name));
+    const named = steps.filter(s => ws.some(w => s.toLowerCase().includes(w) || (SYNONYMS[w] && s.toLowerCase().includes(SYNONYMS[w]))) || byClass.some(([, nm]) => nm.test(s.toLowerCase())));
+    const split = named.some(s => /\b(?:half|remaining|rest of|reserved|another|the other|a third|two[- ]thirds|three[- ]quarters|quarter|the last)\b|\d+\s*(?:g|ml|tbsp|tsp|tablespoons?|teaspoons?)\b/i.test(s));
+    /* "Melt 50 g of the sugar … stir in the remaining sugar" splits it within one step. */
+    const withinOne = named.some(s => /\d+\s*(?:g|ml|tbsp|tsp|tablespoons?|teaspoons?)\b|\bhalf\b|\bthirds?\b|\bquarters?\b/i.test(s) && /\b(?:remaining|rest of|the other|the last)\b/i.test(s));
+    if ((named.length < 2 || !split) && !withinOne) add('review', 'divided-unclear', `"${it.raw}" is divided but the method does not show how it is split`, it.raw);
   }
 
   /* 4. Sequential cooking stages against the cook time. A time counts as cooking only when the
@@ -393,4 +445,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { check, builtAgreement, fingerprint };
+module.exports = { check, builtAgreement, fingerprint, covered };

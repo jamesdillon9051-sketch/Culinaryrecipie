@@ -11152,6 +11152,1964 @@
    "problem": "the meta ran past the 158 characters the build keeps, so the published snippet cut the time short (\"… in 1 hour…\")",
    "action": "Shortened so the full start-to-finish time survives the clamp.",
    "recorded": "2026-10-18"
+  },
+  "spaghetti-carbonara|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked": {
+   "id": "spaghetti-carbonara|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked",
+   "status": "exception",
+   "item": "2 tsp black peppercorns, coarsely cracked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "cacio-e-pepe|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked": {
+   "id": "cacio-e-pepe|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked",
+   "status": "exception",
+   "item": "2 tsp black peppercorns, coarsely cracked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "penne-all-arrabbiata|ingredient-not-in-method|2 dried peperoncini, crumbled, or 1 tsp chilli flakes": {
+   "id": "penne-all-arrabbiata|ingredient-not-in-method|2 dried peperoncini, crumbled, or 1 tsp chilli flakes",
+   "status": "exception",
+   "item": "2 dried peperoncini, crumbled, or 1 tsp chilli flakes",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"chilli\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "tempura|ingredient-not-in-method|1 sweet potato, sliced 5 mm thick": {
+   "id": "tempura|ingredient-not-in-method|1 sweet potato, sliced 5 mm thick",
+   "status": "exception",
+   "item": "1 sweet potato, sliced 5 mm thick",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tempura|ingredient-not-in-method|1 courgette, cut into batons": {
+   "id": "tempura|ingredient-not-in-method|1 courgette, cut into batons",
+   "status": "exception",
+   "item": "1 courgette, cut into batons",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tempura|ingredient-not-in-method|8 shiitake mushrooms": {
+   "id": "tempura|ingredient-not-in-method|8 shiitake mushrooms",
+   "status": "exception",
+   "item": "8 shiitake mushrooms",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tempura|ingredient-not-in-method|8 green beans": {
+   "id": "tempura|ingredient-not-in-method|8 green beans",
+   "status": "exception",
+   "item": "8 green beans",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tempura|ingredient-not-in-method|8 shiso or basil leaves": {
+   "id": "tempura|ingredient-not-in-method|8 shiso or basil leaves",
+   "status": "exception",
+   "item": "8 shiso or basil leaves",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "mole-poblano|ingredient-not-in-method|60 g raisins": {
+   "id": "mole-poblano|ingredient-not-in-method|60 g raisins",
+   "status": "exception",
+   "item": "60 g raisins",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"fruit\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "tteokbokki|ingredient-not-in-method|400 g tteok (Korean rice cakes), soaked if refrigerated": {
+   "id": "tteokbokki|ingredient-not-in-method|400 g tteok (Korean rice cakes), soaked if refrigerated",
+   "status": "exception",
+   "item": "400 g tteok (Korean rice cakes), soaked if refrigerated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"rice\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "feijoada|ingredient-not-in-method|200 g linguiça or chorizo, sliced": {
+   "id": "feijoada|ingredient-not-in-method|200 g linguiça or chorizo, sliced",
+   "status": "exception",
+   "item": "200 g linguiça or chorizo, sliced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausage\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "orecchiette-cime-di-rapa|ingredient-not-in-method|500 g cime di rapa or broccoli rabe, tough stalks removed": {
+   "id": "orecchiette-cime-di-rapa|ingredient-not-in-method|500 g cime di rapa or broccoli rabe, tough stalks removed",
+   "status": "exception",
+   "item": "500 g cime di rapa or broccoli rabe, tough stalks removed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"greens\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "smores|ingredient-not-in-method|Peanut butter, for spreading": {
+   "id": "smores|ingredient-not-in-method|Peanut butter, for spreading",
+   "status": "corrected",
+   "item": "Peanut butter, for spreading",
+   "problem": "listed but never used or named in the method",
+   "action": "The optional variations were listed but the method never said where they go; the method now says, in one closing sentence, using only the listed items. Now reads: \"Wait 30 seconds for the chocolate to melt into the marshmallow, then eat. For the variations, spread the cracker with peanut butter, add sliced strawberries or banana or a pinch of flaky sea salt before the marshmallow goes on, or use dark chocolate or salted caramel bars in place of the milk chocolate.\"",
+   "recorded": "2026-10-18"
+  },
+  "smores|ingredient-not-in-method|Sliced strawberries or banana": {
+   "id": "smores|ingredient-not-in-method|Sliced strawberries or banana",
+   "status": "corrected",
+   "item": "Sliced strawberries or banana",
+   "problem": "listed but never used or named in the method",
+   "action": "The optional variations were listed but the method never said where they go; the method now says, in one closing sentence, using only the listed items. Now reads: \"Wait 30 seconds for the chocolate to melt into the marshmallow, then eat. For the variations, spread the cracker with peanut butter, add sliced strawberries or banana or a pinch of flaky sea salt before the marshmallow goes on, or use dark chocolate or salted caramel bars in place of the milk chocolate.\"",
+   "recorded": "2026-10-18"
+  },
+  "smores|ingredient-not-in-method|A pinch of flaky sea salt": {
+   "id": "smores|ingredient-not-in-method|A pinch of flaky sea salt",
+   "status": "corrected",
+   "item": "A pinch of flaky sea salt",
+   "problem": "listed but never used or named in the method",
+   "action": "The optional variations were listed but the method never said where they go; the method now says, in one closing sentence, using only the listed items. Now reads: \"Wait 30 seconds for the chocolate to melt into the marshmallow, then eat. For the variations, spread the cracker with peanut butter, add sliced strawberries or banana or a pinch of flaky sea salt before the marshmallow goes on, or use dark chocolate or salted caramel bars in place of the milk chocolate.\"",
+   "recorded": "2026-10-18"
+  },
+  "toad-in-the-hole|ingredient-not-in-method|2 thyme sprigs": {
+   "id": "toad-in-the-hole|ingredient-not-in-method|2 thyme sprigs",
+   "status": "corrected",
+   "item": "2 thyme sprigs",
+   "problem": "listed but never used or named in the method",
+   "action": "The thyme was listed \"for the dish\" and never used; it now goes into the tin with the sausages, the one place in the dish its group allows. Now reads: \"Add the sausages and thyme sprigs to the hot fat and roast 12 minutes,\"",
+   "limitation": "Where the herb goes was inferred from its group and the dish; the recipe was not cooked.",
+   "recorded": "2026-10-18"
+  },
+  "labneh|ingredient-not-in-method|Warm flatbread, cucumber and radishes": {
+   "id": "labneh|ingredient-not-in-method|Warm flatbread, cucumber and radishes",
+   "status": "exception",
+   "item": "Warm flatbread, cucumber and radishes",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "caldo-verde|ingredient-not-in-method|300 g couve galega, cavolo nero or kale, stems removed": {
+   "id": "caldo-verde|ingredient-not-in-method|300 g couve galega, cavolo nero or kale, stems removed",
+   "status": "exception",
+   "item": "300 g couve galega, cavolo nero or kale, stems removed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"greens\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "arepas|ingredient-not-in-method|Black beans, white cheese and fried plantain (dominó)": {
+   "id": "arepas|ingredient-not-in-method|Black beans, white cheese and fried plantain (dominó)",
+   "status": "corrected",
+   "item": "Black beans, white cheese and fried plantain (dominó)",
+   "problem": "listed but never used or named in the method",
+   "action": "The other classic fillings were listed with no instruction; the method now offers them as the alternative stuffing they are. Now reads: \"Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously with the reina pepiada, or with one of the other classic fillings.\"",
+   "limitation": "The other fillings are named only, as in the list; the recipe gives no method for them.",
+   "recorded": "2026-10-18"
+  },
+  "arepas|ingredient-not-in-method|Queso de mano or mozzarella, simply": {
+   "id": "arepas|ingredient-not-in-method|Queso de mano or mozzarella, simply",
+   "status": "corrected",
+   "item": "Queso de mano or mozzarella, simply",
+   "problem": "listed but never used or named in the method",
+   "action": "The other classic fillings were listed with no instruction; the method now offers them as the alternative stuffing they are. Now reads: \"Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously with the reina pepiada, or with one of the other classic fillings.\"",
+   "limitation": "The other fillings are named only, as in the list; the recipe gives no method for them.",
+   "recorded": "2026-10-18"
+  },
+  "pasta-alla-gricia|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked": {
+   "id": "pasta-alla-gricia|ingredient-not-in-method|2 tsp black peppercorns, coarsely cracked",
+   "status": "exception",
+   "item": "2 tsp black peppercorns, coarsely cracked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "wonton-noodle-soup|ingredient-not-in-method|Yau choy or choy sum, blanched": {
+   "id": "wonton-noodle-soup|ingredient-not-in-method|Yau choy or choy sum, blanched",
+   "status": "exception",
+   "item": "Yau choy or choy sum, blanched",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "brisket|ingredient-not-in-method|Oak or post oak wood, or oak chunks for a kettle": {
+   "id": "brisket|ingredient-not-in-method|Oak or post oak wood, or oak chunks for a kettle",
+   "status": "corrected",
+   "item": "Oak or post oak wood, or oak chunks for a kettle",
+   "problem": "listed but never used or named in the method",
+   "action": "The wood was listed but the method never said what the smoker burns; it now names the oak. Now reads: \"Bring the smoker to a steady 110 to 120C on the oak, with clean, thin blue smoke.\"",
+   "recorded": "2026-10-18"
+  },
+  "schnitzel|ingredient-not-in-method|150 g clarified butter or 120 ml neutral oil plus 40 g butter": {
+   "id": "schnitzel|ingredient-not-in-method|150 g clarified butter or 120 ml neutral oil plus 40 g butter",
+   "status": "exception",
+   "item": "150 g clarified butter or 120 ml neutral oil plus 40 g butter",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the fat\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "sachertorte|ingredient-not-in-method|Unsweetened whipped cream": {
+   "id": "sachertorte|ingredient-not-in-method|Unsweetened whipped cream",
+   "status": "exception",
+   "item": "Unsweetened whipped cream",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "cheese-fondue|ingredient-not-in-method|Cornichons and pickled onions": {
+   "id": "cheese-fondue|ingredient-not-in-method|Cornichons and pickled onions",
+   "status": "exception",
+   "item": "Cornichons and pickled onions",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "bigos|ingredient-not-in-method|700 g sauerkraut, drained and roughly chopped": {
+   "id": "bigos|ingredient-not-in-method|700 g sauerkraut, drained and roughly chopped",
+   "status": "exception",
+   "item": "700 g sauerkraut, drained and roughly chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"cabbages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "iskender-kebab|ingredient-not-in-method|2 pide or Turkish flatbreads, in 3 cm cubes": {
+   "id": "iskender-kebab|ingredient-not-in-method|2 pide or Turkish flatbreads, in 3 cm cubes",
+   "status": "exception",
+   "item": "2 pide or Turkish flatbreads, in 3 cm cubes",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"toast\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "moroccan-mint-tea|ingredient-not-in-method|1 very large bunch fresh spearmint, about 60 g": {
+   "id": "moroccan-mint-tea|ingredient-not-in-method|1 very large bunch fresh spearmint, about 60 g",
+   "status": "exception",
+   "item": "1 very large bunch fresh spearmint, about 60 g",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"mint\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "completo|ingredient-not-in-method|4 large frankfurters or vienesas": {
+   "id": "completo|ingredient-not-in-method|4 large frankfurters or vienesas",
+   "status": "exception",
+   "item": "4 large frankfurters or vienesas",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "shogayaki|divided-unclear|3 tbsp grated fresh ginger, divided": {
+   "id": "shogayaki|divided-unclear|3 tbsp grated fresh ginger, divided",
+   "status": "exception",
+   "item": "3 tbsp grated fresh ginger, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "turnip-cake|ingredient-not-in-method|2 Chinese sausages (lap cheong), finely diced": {
+   "id": "turnip-cake|ingredient-not-in-method|2 Chinese sausages (lap cheong), finely diced",
+   "status": "exception",
+   "item": "2 Chinese sausages (lap cheong), finely diced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"lap\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "kutia|ingredient-not-in-method|100 g walnuts, roughly chopped": {
+   "id": "kutia|ingredient-not-in-method|100 g walnuts, roughly chopped",
+   "status": "exception",
+   "item": "100 g walnuts, roughly chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "magic-cookie-bars|ingredient-not-in-method|250 g digestive biscuits or graham crackers, crushed to crumbs": {
+   "id": "magic-cookie-bars|ingredient-not-in-method|250 g digestive biscuits or graham crackers, crushed to crumbs",
+   "status": "exception",
+   "item": "250 g digestive biscuits or graham crackers, crushed to crumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"crumb\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "prime-rib|ingredient-not-in-method|1 x 3 kg bone-in prime rib, 3 ribs, chine bone removed": {
+   "id": "prime-rib|ingredient-not-in-method|1 x 3 kg bone-in prime rib, 3 ribs, chine bone removed",
+   "status": "exception",
+   "item": "1 x 3 kg bone-in prime rib, 3 ribs, chine bone removed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the joint\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "corn-on-the-cob|ingredient-not-in-method|4 ears of sweetcorn, husks and silk removed": {
+   "id": "corn-on-the-cob|ingredient-not-in-method|4 ears of sweetcorn, husks and silk removed",
+   "status": "exception",
+   "item": "4 ears of sweetcorn, husks and silk removed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"cobs\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "christmas-pudding|ingredient-not-in-method|250 g raisins": {
+   "id": "christmas-pudding|ingredient-not-in-method|250 g raisins",
+   "status": "exception",
+   "item": "250 g raisins",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"dried fruit\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "christmas-pudding|ingredient-not-in-method|250 g sultanas": {
+   "id": "christmas-pudding|ingredient-not-in-method|250 g sultanas",
+   "status": "exception",
+   "item": "250 g sultanas",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"dried fruit\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "christmas-pudding|ingredient-not-in-method|150 g currants": {
+   "id": "christmas-pudding|ingredient-not-in-method|150 g currants",
+   "status": "exception",
+   "item": "150 g currants",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"dried fruit\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "christmas-pudding|ingredient-not-in-method|100 g pitted prunes, chopped": {
+   "id": "christmas-pudding|ingredient-not-in-method|100 g pitted prunes, chopped",
+   "status": "exception",
+   "item": "100 g pitted prunes, chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"dried fruit\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "nimbu-pani|ingredient-not-in-method|1 tsp kala namak (black salt)": {
+   "id": "nimbu-pani|ingredient-not-in-method|1 tsp kala namak (black salt)",
+   "status": "exception",
+   "item": "1 tsp kala namak (black salt)",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"salt\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "tuna-caper-pasta|ingredient-not-in-method|0.5 tsp coarsely ground black pepper": {
+   "id": "tuna-caper-pasta|ingredient-not-in-method|0.5 tsp coarsely ground black pepper",
+   "status": "exception",
+   "item": "0.5 tsp coarsely ground black pepper",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: salt, pepper or water. The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "rakakat-jibneh|ingredient-not-in-method|1 egg, beaten, for sealing": {
+   "id": "rakakat-jibneh|ingredient-not-in-method|1 egg, beaten, for sealing",
+   "status": "corrected",
+   "item": "1 egg, beaten, for sealing",
+   "problem": "listed but never used or named in the method",
+   "action": "Two sealants were listed and the method used only the flour paste; it now offers either, as the list does. Now reads: \"Seal the final flap with the beaten egg or the flour paste and press it down.\"",
+   "recorded": "2026-10-18"
+  },
+  "sfouf|ingredient-not-in-method|350 ml whole-milk alternative or water": {
+   "id": "sfouf|ingredient-not-in-method|350 ml whole-milk alternative or water",
+   "status": "exception",
+   "item": "350 ml whole-milk alternative or water",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the liquid\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "torly|ingredient-not-in-method|2 aubergines, cut into 4 cm chunks": {
+   "id": "torly|ingredient-not-in-method|2 aubergines, cut into 4 cm chunks",
+   "status": "exception",
+   "item": "2 aubergines, cut into 4 cm chunks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|400 g beef mince, 20 per cent fat": {
+   "id": "kofta-masreya|ingredient-not-in-method|400 g beef mince, 20 per cent fat",
+   "status": "exception",
+   "item": "400 g beef mince, 20 per cent fat",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|400 g lamb mince": {
+   "id": "kofta-masreya|ingredient-not-in-method|400 g lamb mince",
+   "status": "exception",
+   "item": "400 g lamb mince",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|4 garlic cloves, crushed": {
+   "id": "kofta-masreya|ingredient-not-in-method|4 garlic cloves, crushed",
+   "status": "exception",
+   "item": "4 garlic cloves, crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|1 tsp ground allspice": {
+   "id": "kofta-masreya|ingredient-not-in-method|1 tsp ground allspice",
+   "status": "exception",
+   "item": "1 tsp ground allspice",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|0.5 tsp ground cinnamon": {
+   "id": "kofta-masreya|ingredient-not-in-method|0.5 tsp ground cinnamon",
+   "status": "exception",
+   "item": "0.5 tsp ground cinnamon",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "kofta-masreya|ingredient-not-in-method|Aish baladi": {
+   "id": "kofta-masreya|ingredient-not-in-method|Aish baladi",
+   "status": "exception",
+   "item": "Aish baladi",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "ferakh-mashwi|ingredient-not-in-method|1.6 kg chicken, spatchcocked": {
+   "id": "ferakh-mashwi|ingredient-not-in-method|1.6 kg chicken, spatchcocked",
+   "status": "exception",
+   "item": "1.6 kg chicken, spatchcocked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the bird\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "batarekh|ingredient-not-in-method|150 g batarekh, or bottarga, in the block": {
+   "id": "batarekh|ingredient-not-in-method|150 g batarekh, or bottarga, in the block",
+   "status": "corrected",
+   "item": "150 g batarekh, or bottarga, in the block",
+   "problem": "listed but never used or named in the method",
+   "action": "The method called the roe only \"the block\"; it now names it. Now reads: \"Chill the batarekh in its block for 30 minutes.\"",
+   "recorded": "2026-10-18"
+  },
+  "gougeres|ingredient-not-in-method|30 g Comté, grated": {
+   "id": "gougeres|ingredient-not-in-method|30 g Comté, grated",
+   "status": "exception",
+   "item": "30 g Comté, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"chees\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "choucroute|ingredient-not-in-method|500 ml dry riesling": {
+   "id": "choucroute|ingredient-not-in-method|500 ml dry riesling",
+   "status": "exception",
+   "item": "500 ml dry riesling",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"wine\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fondue-savoyarde|ingredient-not-in-method|300 g Comté, grated": {
+   "id": "fondue-savoyarde|ingredient-not-in-method|300 g Comté, grated",
+   "status": "exception",
+   "item": "300 g Comté, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"chees\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fondue-savoyarde|ingredient-not-in-method|300 g Beaufort, grated": {
+   "id": "fondue-savoyarde|ingredient-not-in-method|300 g Beaufort, grated",
+   "status": "exception",
+   "item": "300 g Beaufort, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"chees\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fondue-savoyarde|ingredient-not-in-method|Cornichons and pickled onions": {
+   "id": "fondue-savoyarde|ingredient-not-in-method|Cornichons and pickled onions",
+   "status": "exception",
+   "item": "Cornichons and pickled onions",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "carpaccio|ingredient-not-in-method|60 g Parmigiano Reggiano, shaved": {
+   "id": "carpaccio|ingredient-not-in-method|60 g Parmigiano Reggiano, shaved",
+   "status": "exception",
+   "item": "60 g Parmigiano Reggiano, shaved",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "fritto-misto|ingredient-not-in-method|400 g squid, cleaned and cut into rings": {
+   "id": "fritto-misto|ingredient-not-in-method|400 g squid, cleaned and cut into rings",
+   "status": "exception",
+   "item": "400 g squid, cleaned and cut into rings",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"seafood\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fritto-misto|ingredient-not-in-method|300 g raw prawns, shell on": {
+   "id": "fritto-misto|ingredient-not-in-method|300 g raw prawns, shell on",
+   "status": "exception",
+   "item": "300 g raw prawns, shell on",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"seafood\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fritto-misto|ingredient-not-in-method|300 g small whitebait or sprats": {
+   "id": "fritto-misto|ingredient-not-in-method|300 g small whitebait or sprats",
+   "status": "exception",
+   "item": "300 g small whitebait or sprats",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"seafood\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "tagliatelle-al-ragu|ingredient-not-in-method|80 g Parmigiano Reggiano, grated": {
+   "id": "tagliatelle-al-ragu|ingredient-not-in-method|80 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "80 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "agnolotti|ingredient-not-in-method|60 g Parmigiano Reggiano, grated": {
+   "id": "agnolotti|ingredient-not-in-method|60 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "60 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "strozzapreti|ingredient-not-in-method|60 g Parmigiano Reggiano, grated": {
+   "id": "strozzapreti|ingredient-not-in-method|60 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "60 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "pasta-alla-genovese|ingredient-not-in-method|500 g ziti or paccheri, broken": {
+   "id": "pasta-alla-genovese|ingredient-not-in-method|500 g ziti or paccheri, broken",
+   "status": "exception",
+   "item": "500 g ziti or paccheri, broken",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "pasta-alla-genovese|ingredient-not-in-method|80 g Parmigiano Reggiano, grated": {
+   "id": "pasta-alla-genovese|ingredient-not-in-method|80 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "80 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "anelletti-al-forno|ingredient-not-in-method|250 g caciocavallo or provola, diced": {
+   "id": "anelletti-al-forno|ingredient-not-in-method|250 g caciocavallo or provola, diced",
+   "status": "exception",
+   "item": "250 g caciocavallo or provola, diced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"chees\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "risotto-ai-funghi|ingredient-not-in-method|80 g Parmigiano Reggiano, grated": {
+   "id": "risotto-ai-funghi|ingredient-not-in-method|80 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "80 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "risi-e-bisi|ingredient-not-in-method|80 g Parmigiano Reggiano, grated": {
+   "id": "risi-e-bisi|ingredient-not-in-method|80 g Parmigiano Reggiano, grated",
+   "status": "exception",
+   "item": "80 g Parmigiano Reggiano, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"parmesan\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "brasato-al-barolo|ingredient-not-in-method|750 ml Barolo or Nebbiolo": {
+   "id": "brasato-al-barolo|ingredient-not-in-method|750 ml Barolo or Nebbiolo",
+   "status": "exception",
+   "item": "750 ml Barolo or Nebbiolo",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"wine\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "brasato-al-barolo|ingredient-not-in-method|1 sprig rosemary": {
+   "id": "brasato-al-barolo|ingredient-not-in-method|1 sprig rosemary",
+   "status": "corrected",
+   "item": "1 sprig rosemary",
+   "problem": "listed but never used or named in the method",
+   "action": "The rosemary was listed with the marinade but not named in it; it now is. Now reads: \"Put the beef, wine, vegetables, garlic, rosemary and all the spices in a bowl,\"",
+   "limitation": "Where the herb goes was inferred from its group and the dish; the recipe was not cooked.",
+   "recorded": "2026-10-18"
+  },
+  "stargazy-pie|ingredient-not-in-method|8 whole pilchards or large sardines, gutted, scaled, backbones removed, heads on": {
+   "id": "stargazy-pie|ingredient-not-in-method|8 whole pilchards or large sardines, gutted, scaled, backbones removed, heads on",
+   "status": "exception",
+   "item": "8 whole pilchards or large sardines, gutted, scaled, backbones removed, heads on",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"head\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "bubble-and-squeak|ingredient-not-in-method|400 g cooked cabbage, sprouts or greens, roughly chopped": {
+   "id": "bubble-and-squeak|ingredient-not-in-method|400 g cooked cabbage, sprouts or greens, roughly chopped",
+   "status": "exception",
+   "item": "400 g cooked cabbage, sprouts or greens, roughly chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"green\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "youtiao|ingredient-not-in-method|Congee": {
+   "id": "youtiao|ingredient-not-in-method|Congee",
+   "status": "exception",
+   "item": "Congee",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "zhajiangmian|ingredient-not-in-method|1 cucumber, in matchsticks": {
+   "id": "zhajiangmian|ingredient-not-in-method|1 cucumber, in matchsticks",
+   "status": "exception",
+   "item": "1 cucumber, in matchsticks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "zhajiangmian|ingredient-not-in-method|100 g radish, in matchsticks": {
+   "id": "zhajiangmian|ingredient-not-in-method|100 g radish, in matchsticks",
+   "status": "exception",
+   "item": "100 g radish, in matchsticks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "mei-cai-kou-rou|ingredient-not-in-method|2 spring onions, sliced": {
+   "id": "mei-cai-kou-rou|ingredient-not-in-method|2 spring onions, sliced",
+   "status": "corrected",
+   "item": "2 spring onions, sliced",
+   "problem": "listed but never used or named in the method",
+   "action": "The spring onions \"to finish\" were never used; they now finish the dish. Now reads: \"then invert the bowl onto a plate, lift it off, pour the sauce over and scatter with the spring onions.\"",
+   "recorded": "2026-10-18"
+  },
+  "almond-tofu|ingredient-not-in-method|Mint leaves": {
+   "id": "almond-tofu|ingredient-not-in-method|Mint leaves",
+   "status": "exception",
+   "item": "Mint leaves",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: listed under \"to serve\". The checker now reads lines under \"To serve\" as it reads \", to serve\".",
+   "recorded": "2026-10-18"
+  },
+  "veg-biryani|ingredient-not-in-method|150 g frozen peas": {
+   "id": "veg-biryani|ingredient-not-in-method|150 g frozen peas",
+   "status": "exception",
+   "item": "150 g frozen peas",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "poha|ingredient-not-in-method|200 g thick flattened rice (poha)": {
+   "id": "poha|ingredient-not-in-method|200 g thick flattened rice (poha)",
+   "status": "exception",
+   "item": "200 g thick flattened rice (poha)",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"poha\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "medu-vada|ingredient-not-in-method|0.5 tsp whole black peppercorns, crushed": {
+   "id": "medu-vada|ingredient-not-in-method|0.5 tsp whole black peppercorns, crushed",
+   "status": "exception",
+   "item": "0.5 tsp whole black peppercorns, crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "sloppy-joe-mix|ingredient-not-in-method|600 g minced beef": {
+   "id": "sloppy-joe-mix|ingredient-not-in-method|600 g minced beef",
+   "status": "exception",
+   "item": "600 g minced beef",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the mince\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "syrniki|ingredient-not-in-method|500 g tvorog or dry curd cheese": {
+   "id": "syrniki|ingredient-not-in-method|500 g tvorog or dry curd cheese",
+   "status": "corrected",
+   "item": "500 g tvorog or dry curd cheese",
+   "problem": "listed but never used or named in the method",
+   "action": "The first step said \"Press it through a sieve\" with nothing for \"it\" to refer to; it now names the tvorog. Now reads: \"Press the tvorog through a sieve into a bowl so there are no lumps.\"",
+   "recorded": "2026-10-18"
+  },
+  "jamaican-patties|ingredient-not-in-method|500 g minced beef": {
+   "id": "jamaican-patties|ingredient-not-in-method|500 g minced beef",
+   "status": "exception",
+   "item": "500 g minced beef",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the mince\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "tafelspitz|ingredient-not-in-method|1 bunch lovage or parsley": {
+   "id": "tafelspitz|ingredient-not-in-method|1 bunch lovage or parsley",
+   "status": "corrected",
+   "item": "1 bunch lovage or parsley",
+   "problem": "listed but never used or named in the method",
+   "action": "The lovage or parsley was listed with the broth aromatics but never added; it now goes into the pot with the onion. Now reads: \"Add the charred onion halves and the lovage or parsley.\"",
+   "limitation": "Where the herb goes was inferred from its group and the dish; the recipe was not cooked.",
+   "recorded": "2026-10-18"
+  },
+  "chili-cheese-fries|ingredient-not-in-method|400 g minced beef": {
+   "id": "chili-cheese-fries|ingredient-not-in-method|400 g minced beef",
+   "status": "exception",
+   "item": "400 g minced beef",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the mince\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "esquites|ingredient-not-in-method|600 g sweetcorn kernels, fresh or frozen": {
+   "id": "esquites|ingredient-not-in-method|600 g sweetcorn kernels, fresh or frozen",
+   "status": "exception",
+   "item": "600 g sweetcorn kernels, fresh or frozen",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "paletas|ingredient-not-in-method|8 wooden lolly sticks": {
+   "id": "paletas|ingredient-not-in-method|8 wooden lolly sticks",
+   "status": "exception",
+   "item": "8 wooden lolly sticks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: equipment, which the method need not name. The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "tater-tot-casserole|divided-unclear|200 g grated sharp cheddar, divided": {
+   "id": "tater-tot-casserole|divided-unclear|200 g grated sharp cheddar, divided",
+   "status": "exception",
+   "item": "200 g grated sharp cheddar, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "chicken-spaghetti|divided-unclear|250 g sharp cheddar, grated, divided": {
+   "id": "chicken-spaghetti|divided-unclear|250 g sharp cheddar, grated, divided",
+   "status": "exception",
+   "item": "250 g sharp cheddar, grated, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "roasted-root-vegetables|ingredient-not-in-method|1 small swede, peeled and cut into 3 cm chunks": {
+   "id": "roasted-root-vegetables|ingredient-not-in-method|1 small swede, peeled and cut into 3 cm chunks",
+   "status": "exception",
+   "item": "1 small swede, peeled and cut into 3 cm chunks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "cheese-scones|divided-unclear|100 g mature cheddar, grated, divided": {
+   "id": "cheese-scones|divided-unclear|100 g mature cheddar, grated, divided",
+   "status": "exception",
+   "item": "100 g mature cheddar, grated, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "toffee-apples|ingredient-not-in-method|6 wooden lolly sticks": {
+   "id": "toffee-apples|ingredient-not-in-method|6 wooden lolly sticks",
+   "status": "exception",
+   "item": "6 wooden lolly sticks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: equipment, which the method need not name. The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "ukrainian-cabbage-rolls|ingredient-not-in-method|500 g minced beef or pork": {
+   "id": "ukrainian-cabbage-rolls|ingredient-not-in-method|500 g minced beef or pork",
+   "status": "exception",
+   "item": "500 g minced beef or pork",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"meat\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "tuna-mornay|divided-unclear|150 g mature cheddar, grated, divided": {
+   "id": "tuna-mornay|divided-unclear|150 g mature cheddar, grated, divided",
+   "status": "exception",
+   "item": "150 g mature cheddar, grated, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "mince-on-toast|ingredient-not-in-method|500 g minced beef": {
+   "id": "mince-on-toast|ingredient-not-in-method|500 g minced beef",
+   "status": "exception",
+   "item": "500 g minced beef",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the mince\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "corn-fritters|ingredient-not-in-method|300 g sweetcorn kernels (fresh, frozen and thawed, or tinned), well drained": {
+   "id": "corn-fritters|ingredient-not-in-method|300 g sweetcorn kernels (fresh, frozen and thawed, or tinned), well drained",
+   "status": "exception",
+   "item": "300 g sweetcorn kernels (fresh, frozen and thawed, or tinned), well drained",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "detroit-style-pizza|divided-unclear|4 tbsp olive oil, divided": {
+   "id": "detroit-style-pizza|divided-unclear|4 tbsp olive oil, divided",
+   "status": "exception",
+   "item": "4 tbsp olive oil, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "corn-pudding|divided-unclear|450 g sweetcorn kernels, fresh or frozen and thawed, divided": {
+   "id": "corn-pudding|divided-unclear|450 g sweetcorn kernels, fresh or frozen and thawed, divided",
+   "status": "exception",
+   "item": "450 g sweetcorn kernels, fresh or frozen and thawed, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "arepa-de-choclo|ingredient-not-in-method|450 g sweetcorn kernels, fresh or frozen and thawed": {
+   "id": "arepa-de-choclo|ingredient-not-in-method|450 g sweetcorn kernels, fresh or frozen and thawed",
+   "status": "exception",
+   "item": "450 g sweetcorn kernels, fresh or frozen and thawed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "mishti-doi|divided-unclear|100 g caster sugar, divided": {
+   "id": "mishti-doi|divided-unclear|100 g caster sugar, divided",
+   "status": "exception",
+   "item": "100 g caster sugar, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "hash-brown-bake|divided-unclear|200 g mature cheddar, grated, divided": {
+   "id": "hash-brown-bake|divided-unclear|200 g mature cheddar, grated, divided",
+   "status": "exception",
+   "item": "200 g mature cheddar, grated, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "savoury-corn-muffins|divided-unclear|150 g tasty (mature) cheddar, grated, divided": {
+   "id": "savoury-corn-muffins|divided-unclear|150 g tasty (mature) cheddar, grated, divided",
+   "status": "exception",
+   "item": "150 g tasty (mature) cheddar, grated, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "cipaille|ingredient-not-in-method|300 g cold lard or butter, cubed": {
+   "id": "cipaille|ingredient-not-in-method|300 g cold lard or butter, cubed",
+   "status": "exception",
+   "item": "300 g cold lard or butter, cubed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"the fat\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "salt-and-chilli-chips|ingredient-not-in-method|800 g floury potatoes (such as Maris Piper or Russet), peeled and cut into 1.5 cm chips": {
+   "id": "salt-and-chilli-chips|ingredient-not-in-method|800 g floury potatoes (such as Maris Piper or Russet), peeled and cut into 1.5 cm chips",
+   "status": "exception",
+   "item": "800 g floury potatoes (such as Maris Piper or Russet), peeled and cut into 1.5 cm chips",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"chip\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "green-chile-stew|ingredient-not-in-method|450 g roasted, peeled and chopped mild green chiles (Hatch or Anaheim, about 10)": {
+   "id": "green-chile-stew|ingredient-not-in-method|450 g roasted, peeled and chopped mild green chiles (Hatch or Anaheim, about 10)",
+   "status": "exception",
+   "item": "450 g roasted, peeled and chopped mild green chiles (Hatch or Anaheim, about 10)",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"green\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "wild-rice-casserole|divided-unclear|150 g grated cheddar, divided": {
+   "id": "wild-rice-casserole|divided-unclear|150 g grated cheddar, divided",
+   "status": "exception",
+   "item": "150 g grated cheddar, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "fondant-fancies|ingredient-not-in-method|Pink, yellow and lilac food colouring gel": {
+   "id": "fondant-fancies|ingredient-not-in-method|Pink, yellow and lilac food colouring gel",
+   "status": "exception",
+   "item": "Pink, yellow and lilac food colouring gel",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"colour\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "partridgeberry-pie|ingredient-not-in-method|500 g partridgeberries, lingonberries or cranberries, fresh or frozen": {
+   "id": "partridgeberry-pie|ingredient-not-in-method|500 g partridgeberries, lingonberries or cranberries, fresh or frozen",
+   "status": "exception",
+   "item": "500 g partridgeberries, lingonberries or cranberries, fresh or frozen",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"berries\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "fish-and-brewis|ingredient-not-in-method|150 g hardtack or sea biscuits": {
+   "id": "fish-and-brewis|ingredient-not-in-method|150 g hardtack or sea biscuits",
+   "status": "exception",
+   "item": "150 g hardtack or sea biscuits",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"hard bread\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "cake-pops|ingredient-not-in-method|24 lollipop sticks": {
+   "id": "cake-pops|ingredient-not-in-method|24 lollipop sticks",
+   "status": "exception",
+   "item": "24 lollipop sticks",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: equipment, which the method need not name. The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "salmon-candy|divided-unclear|5 tbsp maple syrup, divided": {
+   "id": "salmon-candy|divided-unclear|5 tbsp maple syrup, divided",
+   "status": "exception",
+   "item": "5 tbsp maple syrup, divided",
+   "problem": "read as a divided ingredient whose split the method never shows",
+   "action": "The method does split it (\"half the cheese … the remaining cheese\", \"50 g of the sugar … the remaining sugar\"); the checker now recognises the split by the ingredient's class, spelled-out measures and a split made within one step.",
+   "recorded": "2026-10-18"
+  },
+  "fried-apples|ingredient-not-in-method|4 large firm, tart apples (about 800 g), such as Granny Smith": {
+   "id": "fried-apples|ingredient-not-in-method|4 large firm, tart apples (about 800 g), such as Granny Smith",
+   "status": "exception",
+   "item": "4 large firm, tart apples (about 800 g), such as Granny Smith",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"apple\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "cauliflower-wings|ingredient-not-in-method|1 large cauliflower (about 900 g), cut into bite-sized florets": {
+   "id": "cauliflower-wings|ingredient-not-in-method|1 large cauliflower (about 900 g), cut into bite-sized florets",
+   "status": "exception",
+   "item": "1 large cauliflower (about 900 g), cut into bite-sized florets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"floret\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "southwest-chicken-salad|ingredient-not-in-method|100 g sweetcorn kernels": {
+   "id": "southwest-chicken-salad|ingredient-not-in-method|100 g sweetcorn kernels",
+   "status": "exception",
+   "item": "100 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "shrimp-taco-bowls|ingredient-not-in-method|100 g sweetcorn kernels": {
+   "id": "shrimp-taco-bowls|ingredient-not-in-method|100 g sweetcorn kernels",
+   "status": "exception",
+   "item": "100 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "shrimp-foil-packets|ingredient-not-in-method|150 g sweetcorn kernels": {
+   "id": "shrimp-foil-packets|ingredient-not-in-method|150 g sweetcorn kernels",
+   "status": "exception",
+   "item": "150 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "grilled-vegetable-skewers|ingredient-not-in-method|150 g mushrooms, whole or halved": {
+   "id": "grilled-vegetable-skewers|ingredient-not-in-method|150 g mushrooms, whole or halved",
+   "status": "exception",
+   "item": "150 g mushrooms, whole or halved",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "grilled-vegetable-skewers|ingredient-not-in-method|150 g cherry tomatoes": {
+   "id": "grilled-vegetable-skewers|ingredient-not-in-method|150 g cherry tomatoes",
+   "status": "exception",
+   "item": "150 g cherry tomatoes",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "mexican-cauliflower-rice-bowls|ingredient-not-in-method|100 g sweetcorn kernels": {
+   "id": "mexican-cauliflower-rice-bowls|ingredient-not-in-method|100 g sweetcorn kernels",
+   "status": "exception",
+   "item": "100 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "egg-white-burrito-bowl|ingredient-not-in-method|40 g sweetcorn kernels": {
+   "id": "egg-white-burrito-bowl|ingredient-not-in-method|40 g sweetcorn kernels",
+   "status": "exception",
+   "item": "40 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "breaded-pork-chops|ingredient-not-in-method|120 g dried breadcrumbs": {
+   "id": "breaded-pork-chops|ingredient-not-in-method|120 g dried breadcrumbs",
+   "status": "exception",
+   "item": "120 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "wild-rice-hotdish|ingredient-not-in-method|60 g dried breadcrumbs": {
+   "id": "wild-rice-hotdish|ingredient-not-in-method|60 g dried breadcrumbs",
+   "status": "exception",
+   "item": "60 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "chicken-mornay|ingredient-not-in-method|40 g dried breadcrumbs": {
+   "id": "chicken-mornay|ingredient-not-in-method|40 g dried breadcrumbs",
+   "status": "exception",
+   "item": "40 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "chicken-schnitzel|ingredient-not-in-method|4 chicken breasts, about 600 g, halved horizontally to make 8 thin cutlets": {
+   "id": "chicken-schnitzel|ingredient-not-in-method|4 chicken breasts, about 600 g, halved horizontally to make 8 thin cutlets",
+   "status": "exception",
+   "item": "4 chicken breasts, about 600 g, halved horizontally to make 8 thin cutlets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"cutlet\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "chicken-schnitzel|ingredient-not-in-method|150 g dried breadcrumbs": {
+   "id": "chicken-schnitzel|ingredient-not-in-method|150 g dried breadcrumbs",
+   "status": "exception",
+   "item": "150 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "chicken-nuggets|ingredient-not-in-method|120 g dried breadcrumbs": {
+   "id": "chicken-nuggets|ingredient-not-in-method|120 g dried breadcrumbs",
+   "status": "exception",
+   "item": "120 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "baked-fish-with-crumb-topping|ingredient-not-in-method|60 g dried breadcrumbs": {
+   "id": "baked-fish-with-crumb-topping|ingredient-not-in-method|60 g dried breadcrumbs",
+   "status": "exception",
+   "item": "60 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "fried-fish-sandwich|ingredient-not-in-method|60 g dried breadcrumbs": {
+   "id": "fried-fish-sandwich|ingredient-not-in-method|60 g dried breadcrumbs",
+   "status": "exception",
+   "item": "60 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "marrow-bake|ingredient-not-in-method|40 g dried breadcrumbs": {
+   "id": "marrow-bake|ingredient-not-in-method|40 g dried breadcrumbs",
+   "status": "exception",
+   "item": "40 g dried breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "potato-wedges|ingredient-not-in-method|1 kg floury potatoes, scrubbed and cut into 8 wedges each": {
+   "id": "potato-wedges|ingredient-not-in-method|1 kg floury potatoes, scrubbed and cut into 8 wedges each",
+   "status": "exception",
+   "item": "1 kg floury potatoes, scrubbed and cut into 8 wedges each",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"wedge\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|1 kg ripe tomatoes, chopped": {
+   "id": "tomato-chutney|ingredient-not-in-method|1 kg ripe tomatoes, chopped",
+   "status": "exception",
+   "item": "1 kg ripe tomatoes, chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|2 onions, finely chopped": {
+   "id": "tomato-chutney|ingredient-not-in-method|2 onions, finely chopped",
+   "status": "exception",
+   "item": "2 onions, finely chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|2 apples, peeled and diced": {
+   "id": "tomato-chutney|ingredient-not-in-method|2 apples, peeled and diced",
+   "status": "exception",
+   "item": "2 apples, peeled and diced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|100 g raisins": {
+   "id": "tomato-chutney|ingredient-not-in-method|100 g raisins",
+   "status": "exception",
+   "item": "100 g raisins",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|250 ml malt vinegar": {
+   "id": "tomato-chutney|ingredient-not-in-method|250 ml malt vinegar",
+   "status": "exception",
+   "item": "250 ml malt vinegar",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|1 tsp mustard seeds": {
+   "id": "tomato-chutney|ingredient-not-in-method|1 tsp mustard seeds",
+   "status": "exception",
+   "item": "1 tsp mustard seeds",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "tomato-chutney|ingredient-not-in-method|1/2 tsp ground ginger": {
+   "id": "tomato-chutney|ingredient-not-in-method|1/2 tsp ground ginger",
+   "status": "exception",
+   "item": "1/2 tsp ground ginger",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "beetroot-relish|ingredient-not-in-method|600 g raw beetroot, peeled and grated": {
+   "id": "beetroot-relish|ingredient-not-in-method|600 g raw beetroot, peeled and grated",
+   "status": "exception",
+   "item": "600 g raw beetroot, peeled and grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "beetroot-relish|ingredient-not-in-method|1 onion, finely chopped": {
+   "id": "beetroot-relish|ingredient-not-in-method|1 onion, finely chopped",
+   "status": "exception",
+   "item": "1 onion, finely chopped",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "beetroot-relish|ingredient-not-in-method|1 apple, peeled and grated": {
+   "id": "beetroot-relish|ingredient-not-in-method|1 apple, peeled and grated",
+   "status": "exception",
+   "item": "1 apple, peeled and grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "beetroot-relish|ingredient-not-in-method|200 ml red wine vinegar": {
+   "id": "beetroot-relish|ingredient-not-in-method|200 ml red wine vinegar",
+   "status": "exception",
+   "item": "200 ml red wine vinegar",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|250 g ketchup": {
+   "id": "barbecue-sauce|ingredient-not-in-method|250 g ketchup",
+   "status": "exception",
+   "item": "250 g ketchup",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|80 ml cider vinegar": {
+   "id": "barbecue-sauce|ingredient-not-in-method|80 ml cider vinegar",
+   "status": "exception",
+   "item": "80 ml cider vinegar",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|2 tbsp Worcestershire sauce": {
+   "id": "barbecue-sauce|ingredient-not-in-method|2 tbsp Worcestershire sauce",
+   "status": "exception",
+   "item": "2 tbsp Worcestershire sauce",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|1 tbsp mustard": {
+   "id": "barbecue-sauce|ingredient-not-in-method|1 tbsp mustard",
+   "status": "exception",
+   "item": "1 tbsp mustard",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|2 tsp smoked paprika": {
+   "id": "barbecue-sauce|ingredient-not-in-method|2 tsp smoked paprika",
+   "status": "exception",
+   "item": "2 tsp smoked paprika",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "barbecue-sauce|ingredient-not-in-method|1 tsp garlic powder": {
+   "id": "barbecue-sauce|ingredient-not-in-method|1 tsp garlic powder",
+   "status": "exception",
+   "item": "1 tsp garlic powder",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|500 g beef mince": {
+   "id": "freezer-meatballs|ingredient-not-in-method|500 g beef mince",
+   "status": "exception",
+   "item": "500 g beef mince",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|300 g pork mince": {
+   "id": "freezer-meatballs|ingredient-not-in-method|300 g pork mince",
+   "status": "exception",
+   "item": "300 g pork mince",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|60 g breadcrumbs": {
+   "id": "freezer-meatballs|ingredient-not-in-method|60 g breadcrumbs",
+   "status": "exception",
+   "item": "60 g breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|80 ml milk": {
+   "id": "freezer-meatballs|ingredient-not-in-method|80 ml milk",
+   "status": "exception",
+   "item": "80 ml milk",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|1 egg": {
+   "id": "freezer-meatballs|ingredient-not-in-method|1 egg",
+   "status": "exception",
+   "item": "1 egg",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|1 onion, grated": {
+   "id": "freezer-meatballs|ingredient-not-in-method|1 onion, grated",
+   "status": "exception",
+   "item": "1 onion, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|3 garlic cloves, grated": {
+   "id": "freezer-meatballs|ingredient-not-in-method|3 garlic cloves, grated",
+   "status": "exception",
+   "item": "3 garlic cloves, grated",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "freezer-meatballs|ingredient-not-in-method|2 tbsp chopped parsley": {
+   "id": "freezer-meatballs|ingredient-not-in-method|2 tbsp chopped parsley",
+   "status": "exception",
+   "item": "2 tbsp chopped parsley",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "sweetcorn-chowder|ingredient-not-in-method|600 g sweetcorn kernels": {
+   "id": "sweetcorn-chowder|ingredient-not-in-method|600 g sweetcorn kernels",
+   "status": "exception",
+   "item": "600 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "salmon-fish-cakes|ingredient-not-in-method|400 g potatoes, boiled and mashed": {
+   "id": "salmon-fish-cakes|ingredient-not-in-method|400 g potatoes, boiled and mashed",
+   "status": "exception",
+   "item": "400 g potatoes, boiled and mashed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"mash\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "polish-meatballs|ingredient-not-in-method|600 g potatoes, boiled and mashed": {
+   "id": "polish-meatballs|ingredient-not-in-method|600 g potatoes, boiled and mashed",
+   "status": "exception",
+   "item": "600 g potatoes, boiled and mashed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"mash\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "orange-rolls|ingredient-not-in-method|2 oranges, zest only": {
+   "id": "orange-rolls|ingredient-not-in-method|2 oranges, zest only",
+   "status": "exception",
+   "item": "2 oranges, zest only",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "italian-lemon-cake|ingredient-not-in-method|2 lemons, zest only": {
+   "id": "italian-lemon-cake|ingredient-not-in-method|2 lemons, zest only",
+   "status": "exception",
+   "item": "2 lemons, zest only",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "chocolate-fondue|ingredient-not-in-method|200 g strawberries, hulled": {
+   "id": "chocolate-fondue|ingredient-not-in-method|200 g strawberries, hulled",
+   "status": "corrected",
+   "item": "200 g strawberries, hulled",
+   "problem": "listed but never used or named in the method",
+   "action": "The method said \"the dippers\" without naming them; it now names the four listed. Now reads: \"Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.\"",
+   "recorded": "2026-10-18"
+  },
+  "chocolate-fondue|ingredient-not-in-method|200 g banana, peeled and cut into chunks": {
+   "id": "chocolate-fondue|ingredient-not-in-method|200 g banana, peeled and cut into chunks",
+   "status": "corrected",
+   "item": "200 g banana, peeled and cut into chunks",
+   "problem": "listed but never used or named in the method",
+   "action": "The method said \"the dippers\" without naming them; it now names the four listed. Now reads: \"Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.\"",
+   "recorded": "2026-10-18"
+  },
+  "chocolate-fondue|ingredient-not-in-method|100 g marshmallows": {
+   "id": "chocolate-fondue|ingredient-not-in-method|100 g marshmallows",
+   "status": "corrected",
+   "item": "100 g marshmallows",
+   "problem": "listed but never used or named in the method",
+   "action": "The method said \"the dippers\" without naming them; it now names the four listed. Now reads: \"Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.\"",
+   "recorded": "2026-10-18"
+  },
+  "chocolate-fondue|ingredient-not-in-method|100 g plain biscuits": {
+   "id": "chocolate-fondue|ingredient-not-in-method|100 g plain biscuits",
+   "status": "corrected",
+   "item": "100 g plain biscuits",
+   "problem": "listed but never used or named in the method",
+   "action": "The method said \"the dippers\" without naming them; it now names the four listed. Now reads: \"Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.\"",
+   "recorded": "2026-10-18"
+  },
+  "black-bean-salsa|ingredient-not-in-method|140 g drained tinned sweetcorn": {
+   "id": "black-bean-salsa|ingredient-not-in-method|140 g drained tinned sweetcorn",
+   "status": "exception",
+   "item": "140 g drained tinned sweetcorn",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "sweet-potato-buddha-bowl|ingredient-not-in-method|1 avocado, about 170 g, sliced": {
+   "id": "sweet-potato-buddha-bowl|ingredient-not-in-method|1 avocado, about 170 g, sliced",
+   "status": "exception",
+   "item": "1 avocado, about 170 g, sliced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: covered by an \"everything\" or \"all the ingredients\" instruction. The checker now reads \"mix/put/combine everything\" as covering every line.",
+   "recorded": "2026-10-18"
+  },
+  "lemon-pepper-salmon|ingredient-not-in-method|1 tsp black peppercorns, coarsely cracked": {
+   "id": "lemon-pepper-salmon|ingredient-not-in-method|1 tsp black peppercorns, coarsely cracked",
+   "status": "exception",
+   "item": "1 tsp black peppercorns, coarsely cracked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "cumberland-sausage-ring|ingredient-not-in-method|800 g potatoes, boiled and mashed": {
+   "id": "cumberland-sausage-ring|ingredient-not-in-method|800 g potatoes, boiled and mashed",
+   "status": "exception",
+   "item": "800 g potatoes, boiled and mashed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"mash\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "fish-and-chips-with-mushy-peas|ingredient-not-in-method|800 g potatoes, cut into thick chips": {
+   "id": "fish-and-chips-with-mushy-peas|ingredient-not-in-method|800 g potatoes, cut into thick chips",
+   "status": "exception",
+   "item": "800 g potatoes, cut into thick chips",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"chip\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "key-lime-bars|ingredient-not-in-method|200 g graham crackers, finely crushed": {
+   "id": "key-lime-bars|ingredient-not-in-method|200 g graham crackers, finely crushed",
+   "status": "exception",
+   "item": "200 g graham crackers, finely crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"crumb\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "disco-fries|ingredient-not-in-method|800 g potatoes, cut into thick chips": {
+   "id": "disco-fries|ingredient-not-in-method|800 g potatoes, cut into thick chips",
+   "status": "exception",
+   "item": "800 g potatoes, cut into thick chips",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"chip\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "mushroom-bourguignon|ingredient-not-in-method|800 g potatoes, boiled and mashed": {
+   "id": "mushroom-bourguignon|ingredient-not-in-method|800 g potatoes, boiled and mashed",
+   "status": "exception",
+   "item": "800 g potatoes, boiled and mashed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"mash\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "chipsi-mayai|ingredient-not-in-method|400 g potatoes, peeled and cut into chips": {
+   "id": "chipsi-mayai|ingredient-not-in-method|400 g potatoes, peeled and cut into chips",
+   "status": "exception",
+   "item": "400 g potatoes, peeled and cut into chips",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"chip\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "roast-cauliflower-with-garlic|ingredient-not-in-method|1 cauliflower, about 800 g, in florets": {
+   "id": "roast-cauliflower-with-garlic|ingredient-not-in-method|1 cauliflower, about 800 g, in florets",
+   "status": "exception",
+   "item": "1 cauliflower, about 800 g, in florets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"floret\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "cauliflower-fritters|ingredient-not-in-method|1 cauliflower, about 500 g, in small florets": {
+   "id": "cauliflower-fritters|ingredient-not-in-method|1 cauliflower, about 500 g, in small florets",
+   "status": "exception",
+   "item": "1 cauliflower, about 500 g, in small florets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"floret\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "pongal|ingredient-not-in-method|1 tsp black peppercorns, lightly crushed": {
+   "id": "pongal|ingredient-not-in-method|1 tsp black peppercorns, lightly crushed",
+   "status": "exception",
+   "item": "1 tsp black peppercorns, lightly crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "bisi-bele-bath|ingredient-not-in-method|100 g split pigeon peas or yellow split peas": {
+   "id": "bisi-bele-bath|ingredient-not-in-method|100 g split pigeon peas or yellow split peas",
+   "status": "exception",
+   "item": "100 g split pigeon peas or yellow split peas",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"lentils\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "mielie-bread|ingredient-not-in-method|200 g tinned sweetcorn, drained": {
+   "id": "mielie-bread|ingredient-not-in-method|200 g tinned sweetcorn, drained",
+   "status": "exception",
+   "item": "200 g tinned sweetcorn, drained",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "pakistani-daal-chawal|ingredient-not-in-method|250 g split yellow moong dal, rinsed": {
+   "id": "pakistani-daal-chawal|ingredient-not-in-method|250 g split yellow moong dal, rinsed",
+   "status": "exception",
+   "item": "250 g split yellow moong dal, rinsed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"lentils\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "new-zealand-corn-fritters|ingredient-not-in-method|400 g tinned sweetcorn, drained": {
+   "id": "new-zealand-corn-fritters|ingredient-not-in-method|400 g tinned sweetcorn, drained",
+   "status": "exception",
+   "item": "400 g tinned sweetcorn, drained",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "rava-dosa|ingredient-not-in-method|1/2 tsp black peppercorns, crushed": {
+   "id": "rava-dosa|ingredient-not-in-method|1/2 tsp black peppercorns, crushed",
+   "status": "exception",
+   "item": "1/2 tsp black peppercorns, crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "sindhi-kadhi|ingredient-not-in-method|100 g okra, cut into 3 cm pieces": {
+   "id": "sindhi-kadhi|ingredient-not-in-method|100 g okra, cut into 3 cm pieces",
+   "status": "exception",
+   "item": "100 g okra, cut into 3 cm pieces",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "sindhi-kadhi|ingredient-not-in-method|1 small potato, about 100 g, cubed": {
+   "id": "sindhi-kadhi|ingredient-not-in-method|1 small potato, about 100 g, cubed",
+   "status": "exception",
+   "item": "1 small potato, about 100 g, cubed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"vegetables\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "black-pepper-crab|ingredient-not-in-method|2 tbsp black peppercorns, coarsely cracked": {
+   "id": "black-pepper-crab|ingredient-not-in-method|2 tbsp black peppercorns, coarsely cracked",
+   "status": "exception",
+   "item": "2 tbsp black peppercorns, coarsely cracked",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"pepper\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "cachopo|ingredient-not-in-method|300 g beef topside, cut into 2 thin escalopes and flattened to 4 mm": {
+   "id": "cachopo|ingredient-not-in-method|300 g beef topside, cut into 2 thin escalopes and flattened to 4 mm",
+   "status": "exception",
+   "item": "300 g beef topside, cut into 2 thin escalopes and flattened to 4 mm",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"escalope\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "pennsylvania-dutch-chicken-corn-soup|ingredient-not-in-method|300 g sweetcorn kernels": {
+   "id": "pennsylvania-dutch-chicken-corn-soup|ingredient-not-in-method|300 g sweetcorn kernels",
+   "status": "exception",
+   "item": "300 g sweetcorn kernels",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"corn\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "air-fryer-potato-wedges|ingredient-not-in-method|800 g potatoes, cut into wedges": {
+   "id": "air-fryer-potato-wedges|ingredient-not-in-method|800 g potatoes, cut into wedges",
+   "status": "exception",
+   "item": "800 g potatoes, cut into wedges",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"wedge\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "white-lasagna|ingredient-not-in-method|250 g dried no-boil lasagna sheets": {
+   "id": "white-lasagna|ingredient-not-in-method|250 g dried no-boil lasagna sheets",
+   "status": "exception",
+   "item": "250 g dried no-boil lasagna sheets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"pasta\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "orange-drizzle-cake|ingredient-not-in-method|2 oranges, zested": {
+   "id": "orange-drizzle-cake|ingredient-not-in-method|2 oranges, zested",
+   "status": "exception",
+   "item": "2 oranges, zested",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "slow-cooker-cheesecake|ingredient-not-in-method|150 g digestive biscuits, crushed": {
+   "id": "slow-cooker-cheesecake|ingredient-not-in-method|150 g digestive biscuits, crushed",
+   "status": "exception",
+   "item": "150 g digestive biscuits, crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"crumb\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "no-bake-peanut-butter-bars|ingredient-not-in-method|150 g graham crackers or digestive biscuits, crushed": {
+   "id": "no-bake-peanut-butter-bars|ingredient-not-in-method|150 g graham crackers or digestive biscuits, crushed",
+   "status": "exception",
+   "item": "150 g graham crackers or digestive biscuits, crushed",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"crumb\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "vegan-lasagna|ingredient-not-in-method|250 g dried lasagne sheets (check the label)": {
+   "id": "vegan-lasagna|ingredient-not-in-method|250 g dried lasagne sheets (check the label)",
+   "status": "exception",
+   "item": "250 g dried lasagne sheets (check the label)",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"pasta\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "salade-de-gesiers|ingredient-not-in-method|200 g frisée or curly endive": {
+   "id": "salade-de-gesiers|ingredient-not-in-method|200 g frisée or curly endive",
+   "status": "exception",
+   "item": "200 g frisée or curly endive",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"leaves\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "polenta-taragna|ingredient-not-in-method|150 g coarse maize polenta": {
+   "id": "polenta-taragna|ingredient-not-in-method|150 g coarse maize polenta",
+   "status": "corrected",
+   "item": "150 g coarse maize polenta",
+   "problem": "listed but never used or named in the method",
+   "action": "The method called the polenta one of \"the two flours\"; it now names both. Now reads: \"Mix the polenta and buckwheat flour and pour them in a thin stream,\"",
+   "recorded": "2026-10-18"
+  },
+  "torta-al-limone|ingredient-not-in-method|3 lemons, zest and 3 tbsp juice": {
+   "id": "torta-al-limone|ingredient-not-in-method|3 lemons, zest and 3 tbsp juice",
+   "status": "exception",
+   "item": "3 lemons, zest and 3 tbsp juice",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "castagnole|ingredient-not-in-method|1 lemon, zest": {
+   "id": "castagnole|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "castagnole|ingredient-not-in-method|1 orange, zest": {
+   "id": "castagnole|ingredient-not-in-method|1 orange, zest",
+   "status": "exception",
+   "item": "1 orange, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "risotto-agli-asparagi|ingredient-not-in-method|600 g green asparagus": {
+   "id": "risotto-agli-asparagi|ingredient-not-in-method|600 g green asparagus",
+   "status": "corrected",
+   "item": "600 g green asparagus",
+   "problem": "listed but never used or named in the method",
+   "action": "The method never named the asparagus, only its tips, stalks and ends; it now does. Now reads: \"Cut off the asparagus tips 4 cm from the top.\"",
+   "recorded": "2026-10-18"
+  },
+  "zuccotto|ingredient-not-in-method|100 ml Marsala": {
+   "id": "zuccotto|ingredient-not-in-method|100 ml Marsala",
+   "status": "exception",
+   "item": "100 ml Marsala",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"liqueur\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "cornetti|ingredient-not-in-method|1 lemon, zest": {
+   "id": "cornetti|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "cornetti|ingredient-not-in-method|1 orange, zest": {
+   "id": "cornetti|ingredient-not-in-method|1 orange, zest",
+   "status": "exception",
+   "item": "1 orange, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "torta-margherita|ingredient-not-in-method|1 lemon, zest": {
+   "id": "torta-margherita|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "crostata-alla-nutella|ingredient-not-in-method|1 lemon, zest": {
+   "id": "crostata-alla-nutella|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "lasagne-bianche|ingredient-not-in-method|250 g dried lasagne sheets": {
+   "id": "lasagne-bianche|ingredient-not-in-method|250 g dried lasagne sheets",
+   "status": "exception",
+   "item": "250 g dried lasagne sheets",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"pasta\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "torta-di-carote|ingredient-not-in-method|1 lemon, zest": {
+   "id": "torta-di-carote|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "torta-al-mascarpone|ingredient-not-in-method|1 lemon, zest": {
+   "id": "torta-al-mascarpone|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "weisswurst|ingredient-not-in-method|700 g weisswurst": {
+   "id": "weisswurst|ingredient-not-in-method|700 g weisswurst",
+   "status": "exception",
+   "item": "700 g weisswurst",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "rote-grutze|ingredient-not-in-method|200 g redcurrants or blackcurrants": {
+   "id": "rote-grutze|ingredient-not-in-method|200 g redcurrants or blackcurrants",
+   "status": "exception",
+   "item": "200 g redcurrants or blackcurrants",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"berries\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "kasekuchen|ingredient-not-in-method|2 lemons, zest and juice of one": {
+   "id": "kasekuchen|ingredient-not-in-method|2 lemons, zest and juice of one",
+   "status": "exception",
+   "item": "2 lemons, zest and juice of one",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "bohnensuppe|ingredient-not-in-method|200 g Bockwurst, sliced": {
+   "id": "bohnensuppe|ingredient-not-in-method|200 g Bockwurst, sliced",
+   "status": "exception",
+   "item": "200 g Bockwurst, sliced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausage\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "apfelkuchen-blech|ingredient-not-in-method|1 lemon, zest": {
+   "id": "apfelkuchen-blech|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "hefezopf|ingredient-not-in-method|1 lemon, zest": {
+   "id": "hefezopf|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "baumkuchen|ingredient-not-in-method|1 lemon, zest": {
+   "id": "baumkuchen|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "thuringer-rostbratwurst|ingredient-not-in-method|640 g Thüringer bratwurst": {
+   "id": "thuringer-rostbratwurst|ingredient-not-in-method|640 g Thüringer bratwurst",
+   "status": "exception",
+   "item": "640 g Thüringer bratwurst",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "nurnberger-rostbratwurst|ingredient-not-in-method|450 g small Nürnberger bratwurst": {
+   "id": "nurnberger-rostbratwurst|ingredient-not-in-method|450 g small Nürnberger bratwurst",
+   "status": "exception",
+   "item": "450 g small Nürnberger bratwurst",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "bockwurst|ingredient-not-in-method|8 bockwurst, about 640 g": {
+   "id": "bockwurst|ingredient-not-in-method|8 bockwurst, about 640 g",
+   "status": "exception",
+   "item": "8 bockwurst, about 640 g",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "topfenstrudel|ingredient-not-in-method|1 lemon, zest": {
+   "id": "topfenstrudel|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "salzburger-nockerl|ingredient-not-in-method|1 lemon, zest": {
+   "id": "salzburger-nockerl|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "gehaktbal|ingredient-not-in-method|50 g dry breadcrumbs, soaked in 100 ml milk": {
+   "id": "gehaktbal|ingredient-not-in-method|50 g dry breadcrumbs, soaked in 100 ml milk",
+   "status": "exception",
+   "item": "50 g dry breadcrumbs, soaked in 100 ml milk",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "rookworst|ingredient-not-in-method|500 g rookworst": {
+   "id": "rookworst|ingredient-not-in-method|500 g rookworst",
+   "status": "exception",
+   "item": "500 g rookworst",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"sausages\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "boterkoek|ingredient-not-in-method|1 lemon, zest": {
+   "id": "boterkoek|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "montaditos|ingredient-not-in-method|400 g baguettes, cut in 24 slices": {
+   "id": "montaditos|ingredient-not-in-method|400 g baguettes, cut in 24 slices",
+   "status": "exception",
+   "item": "400 g baguettes, cut in 24 slices",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"bread\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "rosquillas|ingredient-not-in-method|1 lemon, zest": {
+   "id": "rosquillas|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "pote-gallego|ingredient-not-in-method|400 g turnip tops or kale": {
+   "id": "pote-gallego|ingredient-not-in-method|400 g turnip tops or kale",
+   "status": "exception",
+   "item": "400 g turnip tops or kale",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"beans\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "pao-de-lo|ingredient-not-in-method|1 lemon, zest": {
+   "id": "pao-de-lo|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "pao-de-deus|ingredient-not-in-method|1 lemon, zest": {
+   "id": "pao-de-deus|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "toucinho-do-ceu|ingredient-not-in-method|1 lemon, zest": {
+   "id": "toucinho-do-ceu|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "leitao-da-bairrada|ingredient-not-in-method|2.4 kg suckling pig": {
+   "id": "leitao-da-bairrada|ingredient-not-in-method|2.4 kg suckling pig",
+   "status": "corrected",
+   "item": "2.4 kg suckling pig",
+   "problem": "listed but never used or named in the method",
+   "action": "The method never named the suckling pig; the first step now does. Now reads: \"Mix the garlic, pepper, salt and half the lard and rub it over the pig, inside and out.\"",
+   "recorded": "2026-10-18"
+  },
+  "imqaret|ingredient-not-in-method|1 orange, zest": {
+   "id": "imqaret|ingredient-not-in-method|1 orange, zest",
+   "status": "exception",
+   "item": "1 orange, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "cypriot-tahini-pies|ingredient-not-in-method|1 orange, zest": {
+   "id": "cypriot-tahini-pies|ingredient-not-in-method|1 orange, zest",
+   "status": "exception",
+   "item": "1 orange, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "sernik-na-zimno|ingredient-not-in-method|1 lemon, zest": {
+   "id": "sernik-na-zimno|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "smazeny-syr|ingredient-not-in-method|100 g fine breadcrumbs": {
+   "id": "smazeny-syr|ingredient-not-in-method|100 g fine breadcrumbs",
+   "status": "exception",
+   "item": "100 g fine breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "rizek-cesky|ingredient-not-in-method|120 g fine breadcrumbs": {
+   "id": "rizek-cesky|ingredient-not-in-method|120 g fine breadcrumbs",
+   "status": "exception",
+   "item": "120 g fine breadcrumbs",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"crumb\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "cesnecka-polevka|ingredient-not-in-method|100 g grated Edam": {
+   "id": "cesnecka-polevka|ingredient-not-in-method|100 g grated Edam",
+   "status": "exception",
+   "item": "100 g grated Edam",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"chees\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "kolace|ingredient-not-in-method|1 lemon, zest": {
+   "id": "kolace|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "halaszle|ingredient-not-in-method|1.2 kg carp or catfish, with heads and bones": {
+   "id": "halaszle|ingredient-not-in-method|1.2 kg carp or catfish, with heads and bones",
+   "status": "exception",
+   "item": "1.2 kg carp or catfish, with heads and bones",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"head\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "ciorba-de-burta|ingredient-not-in-method|500 g pig trotter": {
+   "id": "ciorba-de-burta|ingredient-not-in-method|500 g pig trotter",
+   "status": "exception",
+   "item": "500 g pig trotter",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named as \"foot\". The checker now reads synonyms and word stems.",
+   "recorded": "2026-10-18"
+  },
+  "fritule|ingredient-not-in-method|1 lemon, zest": {
+   "id": "fritule|ingredient-not-in-method|1 lemon, zest",
+   "status": "exception",
+   "item": "1 lemon, zest",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"zest\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "janssons-frestelse|ingredient-not-in-method|100 g Swedish anchovy fillets (ansjovis), with the brine": {
+   "id": "janssons-frestelse|ingredient-not-in-method|100 g Swedish anchovy fillets (ansjovis), with the brine",
+   "status": "exception",
+   "item": "100 g Swedish anchovy fillets (ansjovis), with the brine",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by another name the line gives it, \"brine\". The checker now reads the other names a line gives the food (parentheses, \"or\" alternatives, the form it is cut into, the later part of the line).",
+   "recorded": "2026-10-18"
+  },
+  "pytt-i-panna|ingredient-not-in-method|300 g cooked ham, sausage or roast beef, diced": {
+   "id": "pytt-i-panna|ingredient-not-in-method|300 g cooked ham, sausage or roast beef, diced",
+   "status": "exception",
+   "item": "300 g cooked ham, sausage or roast beef, diced",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"meat\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "kalakukko|ingredient-not-in-method|600 g herring, cleaned": {
+   "id": "kalakukko|ingredient-not-in-method|600 g herring, cleaned",
+   "status": "exception",
+   "item": "600 g herring, cleaned",
+   "problem": "read by the checker as never named in the method",
+   "action": "The method does name it: named by its class, \"fish\". The checker now reads the class word.",
+   "recorded": "2026-10-18"
+  },
+  "new|ferakh-mashwi|marinade at room temperature": {
+   "id": "new|ferakh-mashwi|marinade at room temperature",
+   "status": "corrected",
+   "item": "Leave for 60 minutes at cool room temperature.",
+   "problem": "raw chicken marinated at room temperature",
+   "action": "Food handling: raw chicken marinated for an hour at room temperature; it now marinates in the fridge (USDA FSIS: marinate in the refrigerator). Now reads: \"Leave for 60 minutes, covered, in the fridge.\"",
+   "source": "USDA FSIS: marinate food in the refrigerator, not on the counter",
+   "recorded": "2026-10-18"
   }
  }
 }

@@ -1146,7 +1146,7 @@ try {
    must still reproduce it. The consistency audit fails only on its confirmed findings (a whole-
    recipe time claim the recipe cannot keep, cooking stages far beyond the cook time, the card or
    JSON-LD disagreeing with the recipe); its review list is for a person (docs/…/consistency-review.md). */
-for (const audit of ['timing-audit.js', 'timing-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],

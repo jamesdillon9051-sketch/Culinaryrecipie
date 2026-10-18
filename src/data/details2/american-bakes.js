@@ -329,7 +329,7 @@ module.exports = {
       'After 60 to 90 seconds the surface will be evenly golden brown and the marshmallow will start to sag on the stick. That sag is the signal.',
       'Set the hot marshmallow on the chocolate and cap it with a second cracker half.',
       'Press down gently and pull the skewer out through the side.',
-      'Wait 30 seconds for the chocolate to melt into the marshmallow, then eat.'
+      'Wait 30 seconds for the chocolate to melt into the marshmallow, then eat. For the variations, spread the cracker with peanut butter, add sliced strawberries or banana or a pinch of flaky sea salt before the marshmallow goes on, or use dark chocolate or salted caramel bars in place of the milk chocolate.'
     ],
     tips: [
       'Embers, not flames, and constant rotation. A burnt marshmallow with a cold centre is the standard mistake.',

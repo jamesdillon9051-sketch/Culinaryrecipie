@@ -172,7 +172,7 @@ module.exports = {
       'Aish baladi, or any flatbread'
     ],
     st: [
-      'Chill the block for 30 minutes. It slices far more cleanly cold.',
+      'Chill the batarekh in its block for 30 minutes. It slices far more cleanly cold.',
       'Peel away the wax or membrane coating with a small sharp knife.',
       'Slice as thinly as you possibly can — aim for 1 mm, translucent at the edges.',
       'Lay the slices in a single overlapping layer on a cold plate.',

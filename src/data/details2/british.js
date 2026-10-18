@@ -30,7 +30,7 @@ module.exports = {
     st: [
       'Whisk the flour, eggs, milk, salt and pepper to a smooth batter the consistency of single cream. Rest it, covered, for at least 30 minutes and up to 24 hours.',
       'Heat the oven to 220°C / 430°F. Put the dripping in a metal roasting tin, about 30 x 20 cm, and heat it in the oven for 10 minutes.',
-      'Add the sausages to the hot fat and roast 12 minutes, turning once, until browned on all sides.',
+      'Add the sausages and thyme sprigs to the hot fat and roast 12 minutes, turning once, until browned on all sides.',
       'Meanwhile start the gravy: cook the onions in the butter over low heat for 25 minutes until deeply golden and sweet.',
       'Stir the flour into the onions, cook 2 minutes, then add the stock, Worcestershire, mustard and sugar. Simmer 15 minutes until thickened.',
       'Take the tin out of the oven and set it on the hob over high heat until the fat is shimmering and just smoking.',

@@ -399,7 +399,7 @@ module.exports = {
     ],
     st: [
       'Bring the water and salt to the boil in a heavy pan.',
-      'Mix the two flours and pour them in a thin stream, whisking all the time.',
+      'Mix the polenta and buckwheat flour and pour them in a thin stream, whisking all the time.',
       'Turn the heat low and cook for 45 minutes, stirring often, adding a splash of hot water if it gets too thick.',
       'Stir in the butter, Fontina and Parmesan until melted.',
       'Season with the pepper and taste for salt. Serve hot.'

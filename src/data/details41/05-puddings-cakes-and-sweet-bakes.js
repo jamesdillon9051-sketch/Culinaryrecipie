@@ -479,7 +479,7 @@ module.exports = {
     st: [
       'Heat the cream in a small pan over low heat for 3 minutes until it begins to steam. Do not boil.',
       'Pour it over the chopped chocolate, wait 1 minute, then stir until smooth. Stir in the honey.',
-      'Pour into a warmed fondue pot or bowl. Arrange the dippers around it.'
+      'Pour into a warmed fondue pot or bowl. Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.'
     ],
     tips: [
       'Chop the chocolate fine.',

@@ -34,7 +34,7 @@ module.exports = {
       'Cook the arepas for 6 minutes a side until a crust forms and they sound hollow when tapped.',
       'Transfer to a 200°C / 390°F oven for 12 minutes to cook through and puff slightly.',
       'Meanwhile mix the chicken with the avocado, mayonnaise, lime, spring onion, coriander, salt and pepper.',
-      'Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously.'
+      'Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously with the reina pepiada, or with one of the other classic fillings.'
     ],
     tips: [
       'Masarepa, not masa harina and not polenta. The brands to look for are P.A.N. or Goya.',
