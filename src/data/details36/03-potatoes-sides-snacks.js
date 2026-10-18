@@ -74,8 +74,8 @@ module.exports = {
   },
 
   'garlic-parmesan-fries': {
-    d: 'Oven fries tossed with melted garlic butter and grated parmesan straight from the tray. Four servings in 40 minutes.',
-    meta: 'Garlic parmesan fries: oven fries tossed with melted garlic butter and grated parmesan. A cheap snack or side for four in 40 minutes.',
+    d: 'Oven fries tossed with melted garlic butter and grated parmesan straight from the tray. Four servings in 1 hour.',
+    meta: 'Garlic parmesan fries: oven fries tossed with melted garlic butter and grated parmesan. A cheap snack or side for four in 1 hour.',
     kw: ['garlic parmesan fries', 'oven garlic fries', 'budget cheesy fries', 'easy parmesan fries', 'cheap snack for four'],
     why: 'The coating goes on after the fries come out of the oven, not before. Garlic burns at the temperatures needed to crisp potatoes, so it joins the dish at the end, in melted butter, while the fries are still too hot to hold.\n\nSoak the cut potatoes in cold water for 20 minutes, then dry them very well. Soaking removes surface starch, which makes the fries crisper, and drying means the oil sticks.\n\nA high oven, 230°C, and a tray that has been preheating are what give the browned edges. **Do not crowd the tray.** Space between the sticks lets the steam out.\n\nToss with the garlic butter in a big bowl, then add the cheese straight away so it clings and half melts. Salt at the end, tasting first, since parmesan is salty. Soaking the cut potatoes in cold water is the extra step worth the trouble, as it draws out surface starch and gives a crisper chip. Dry them well afterwards, because wet potatoes spit in the oven.',
     ing: [
@@ -104,7 +104,8 @@ module.exports = {
   },
 
   'potato-skins': {
-    d: 'Baked potato halves hollowed and crisped, then filled with cheese and bacon and baked again. Four servings in 1 hour 5 minutes.',
+    cookMax: 80,
+    d: 'Baked potato halves hollowed and crisped, then filled with cheese and bacon and baked again. Four servings in 1 hour 30 minutes to 1 hour 35 minutes.',
     meta: 'Potato skins: baked potato halves crisped and filled with cheese and bacon, then baked again. A cheap snack or supper for four, 1 hour 5.',
     kw: ['potato skins', 'loaded potato skins', 'budget cheese and bacon potato skins', 'easy baked potato skins', 'cheap party snack'],
     why: 'Bake the potatoes whole for an hour, until the skins are crisp and the insides soft. A shortcut in the microwave gives a soft skin that never crisps.\n\nOnce cool enough to handle, cut them in half and scoop out the middle, leaving a 5 mm wall. The scooped potato is not wasted; mash it with butter and use it elsewhere.\n\nBrush the shells, inside and out, with oil and bake them cut side up for 10 minutes. **This is what makes them crisp**, since the fat fries the flesh left on the skin.\n\nFill with cheese and cooked bacon, then bake for 8 minutes more until the cheese is melted and bubbling. Serve with soured cream and spring onion. They are eaten with the fingers. The scooped potato can be mashed with butter and milk and served with sausages, so nothing is lost. The skins reheat well in a hot oven, and make good party food that can be assembled earlier in the day.',
@@ -135,8 +136,9 @@ module.exports = {
   },
 
   'potato-croquettes': {
-    d: 'Mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. Makes 12 in 45 minutes.',
-    meta: 'Potato croquettes: mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. A cheap snack or side, 12 in 45 minutes.',
+    untimed: ['cooling completely'],
+    d: 'Mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. Makes 12 in 1 hour 15 minutes.',
+    meta: 'Potato croquettes: mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. A cheap snack or side, 12 in 1 hour 15 minutes.',
     kw: ['potato croquettes', 'cheese potato croquettes', 'budget croquettes from mash', 'crispy mashed potato logs', 'cheap party snack'],
     why: 'Dry mash is the key to a croquette that holds together. If the potato is wet, the croquettes burst in the oil and spill their filling in a mess.\n\nBoil the potatoes in their skins if you can, which keeps the water out, then peel while hot with a fork and knife. Mash without milk and cool completely: the mixture needs to be cold and stiff to shape.\n\nBind with an egg and a little flour. **The coating needs to be complete**, flour then egg then breadcrumbs, with no gaps, or the oil gets in.\n\nChill the shaped croquettes for 30 minutes before frying. Cold ones hold their form in the oil. Fry in oil at 180°C for 3 minutes, turning, until deep golden, and drain on kitchen paper. They are a good way of using up leftover mash, and the crumb makes the cooked potato feel like a different dish. For a lighter version, bake them on a tray with a little oil sprayed over, turning once.',
     ing: [
@@ -199,8 +201,9 @@ module.exports = {
   },
 
   'potato-dumplings': {
-    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 55 minutes.',
-    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 55 minutes.',
+    cookMax: 50,
+    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 1 hour 25 minutes to 1 hour 40 minutes.',
+    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 1 hour 25 minutes to 1 hour 40 minutes.',
     kw: ['potato dumplings', 'german potato dumplings', 'budget kartoffelkloesse', 'dumplings made from potato', 'cheap side dish for four'],
     why: 'Floury potatoes, boiled in their skins, mashed while hot and cooled before mixing: that is the foundation. The dumpling is only as light as the potato is dry.\n\nPress the potatoes through a ricer or mash them very finely. Lumps show in the finished dumpling as hard white pieces.\n\nAdd the egg and flour with a light hand, and stop mixing the moment the dough comes together. **Overworked dough gives rubbery dumplings.** It should feel soft and slightly tacky, and hold a ball shape.\n\nTest one first. Drop a single dumpling in simmering water: if it falls apart, add a spoonful more flour. If it holds, shape the rest. Simmer, never boil. They are done when they float, about 5 minutes later. Dumplings suit rich dishes that have plenty of gravy, such as roast pork or a stew. Leftover dumplings can be sliced and fried in butter the next day, which turns them into a second meal.',
     ing: [

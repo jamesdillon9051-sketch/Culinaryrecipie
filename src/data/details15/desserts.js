@@ -12,6 +12,7 @@
 
 module.exports = {
   'tarte-au-citron': {
+    untimed: ['cooling completely'],
     d: 'A thin pastry case filled with lemon curd set with butter and eggs. Sharp enough to make you blink, which is the whole point of it.',
     meta: 'A blind-baked pastry case filled with a sharp lemon cream set with butter and eggs, baked only until it just wobbles.',
     kw: ['tarte au citron', 'lemon tart', 'tarte au citron recipe', 'french lemon tart', 'lemon curd tart'],
@@ -83,7 +84,7 @@ module.exports = {
     ],
     st: [
       'Make the pastry as for the lemon tart, chill 60 minutes, line a 26 cm tin and blind bake at 180°C for 25 minutes until pale gold.',
-      'Cook the chopped cooking apples with the sugar, butter and vanilla over medium heat for 15 minutes, until completely collapsed. Beat smooth and stir in the Calvados. Cool.',
+      'While the case bakes, cook the chopped cooking apples with the sugar, butter and vanilla over medium heat for 15 minutes, until completely collapsed. Beat smooth and stir in the Calvados. Cool.',
       'Spread the compote over the base of the tart case in an even layer about 1.5 cm deep.',
       'Peel, halve and core the eating apples and slice them as thinly as you can.',
       'Fan the slices over the compote in overlapping concentric circles, working from the outside in and packing them tightly — they shrink.',
@@ -147,6 +148,7 @@ module.exports = {
   },
 
   'flan-parisien': {
+    untimed: ['cooling completely'],
     d: 'A deep custard tart with a thick, wobbling set and a scorched top. Sold by the slab in every French bakery and almost unknown elsewhere.',
     meta: 'A deep pastry case filled with thick vanilla custard, baked hot so the surface scorches while the inside stays soft.',
     kw: ['flan parisien', 'french custard tart', 'flan patissier', 'flan parisien recipe', 'parisian flan'],
@@ -175,7 +177,7 @@ module.exports = {
       'Pour a little hot milk onto the yolks, whisk, then return everything to the pan.',
       'Cook over medium heat, whisking constantly, until it thickens and then bubbles thickly for a full minute. It should be very stiff.',
       'Beat in the butter and salt, then pour the hot custard into the chilled case and smooth the top.',
-      'Bake at 200°C / 400°F for 50 minutes, until the top is deeply browned and blistered almost black in places. Cool completely, then chill 240 minutes before cutting.'
+      'Bake at 200°C / 400°F for 50 minutes, until the top is deeply browned and blistered almost black in places. Cool for no more than 2 hours, then chill 240 minutes before cutting.'
     ],
     rest: [300, 'chilling the pastry and the finished flan'],
     tips: [
@@ -216,7 +218,7 @@ module.exports = {
       'Rest the batter 60 minutes at room temperature.',
       'Heat the oven to 200°C / 400°F. Butter a 25 cm baking dish heavily and dust it with the sugar.',
       'Scatter the drained prunes over the base and pour the batter over them.',
-      'Bake 45 minutes, until puffed, deeply browned and set with a slight wobble. It sinks as it cools, which is correct. Serve warm or cold.'
+      'Bake 45 minutes, until puffed, deeply browned and set with a slight wobble. It sinks as it cools, which is correct. Serve warm, or refrigerate it within 2 hours of baking and serve cold.'
     ],
     rest: [120, 'soaking the prunes and resting the batter'],
     tips: [
@@ -225,7 +227,7 @@ module.exports = {
       'It sinks as it cools. That is not a failure.'
     ],
     pair: ['Salted butter caramel', 'Breton cider', 'Coffee'],
-    store: 'Three days at room temperature, covered. It does not freeze well.',
+    store: 'Three days in the fridge, covered; it is an egg and milk custard, so it should not sit out for more than 2 hours. It does not freeze well.',
     nut: [385, 9, 58, 13, 3, 38, 220]
   },
 
@@ -270,6 +272,7 @@ module.exports = {
   },
 
   'paris-brest': {
+    untimed: ['cooling the pastry cream and the choux ring'],
     d: 'A ring of choux split and filled with praline mousseline, made for a bicycle race and shaped like a wheel. The praline is the whole dish.',
     meta: 'A ring of choux pastry split and filled with hazelnut praline mousseline cream, topped with flaked almonds.',
     kw: ['paris brest', 'praline choux ring', 'paris brest recipe', 'french choux dessert', 'hazelnut praline cream'],
@@ -412,6 +415,7 @@ module.exports = {
   },
 
   'opera': {
+    untimed: ['cooling the sponge'],
     d: 'Six layers: almond sponge soaked in coffee syrup, coffee buttercream, chocolate ganache, repeated, and a poured glaze. Every layer must be flat.',
     meta: 'Layers of coffee-soaked almond joconde sponge, coffee buttercream and chocolate ganache under a poured mirror glaze.',
     kw: ['opera cake', 'gateau opera', 'opera cake recipe', 'coffee chocolate layer cake', 'french patisserie cake'],
@@ -511,6 +515,7 @@ module.exports = {
   },
 
   'dacquoise': {
+    untimed: ['cooling completely'],
     d: 'Discs of nut meringue layered with buttercream. Chewy rather than crisp, which is what separates it from a vacherin.',
     meta: 'Discs of hazelnut and almond meringue layered with praline buttercream, baked soft so they stay chewy rather than crisp.',
     kw: ['dacquoise', 'nut meringue cake', 'dacquoise recipe', 'hazelnut meringue layers', 'french meringue gateau'],
@@ -670,7 +675,7 @@ module.exports = {
       'Submerge the dry babas in the warm syrup and leave 20 minutes, turning once, until completely saturated and heavy.',
       'Lift out carefully, drizzle with the extra rum, and serve with cream whipped with the icing sugar.'
     ],
-    rest: [165, 'both proves and drying the babas'],
+    rest: [185, 'both proves and drying the babas'],
     tips: [
       'Bake them dry. A moist baba cannot absorb syrup.',
       'Warm syrup, never hot. Hot syrup seals the outside.',
@@ -682,6 +687,7 @@ module.exports = {
   },
 
   'creme-caramel': {
+    untimed: ['cooling'],
     d: 'Baked custard turned out so the caramel runs down it. The caramel goes into the moulds first and dissolves into a sauce while it chills.',
     meta: 'A baked vanilla custard set over hard caramel, chilled overnight so the caramel dissolves into a sauce, then turned out.',
     kw: ['creme caramel', 'flan custard', 'creme caramel recipe', 'caramel custard', 'french baked custard'],
@@ -708,7 +714,7 @@ module.exports = {
       'Pour into the ramekins, stand them in a roasting dish, and pour in hot water to come halfway up. Bake at 150°C / 300°F for 45 minutes, until set with a faint wobble.',
       'Cool, then refrigerate at least 720 minutes. Run a knife round each and turn out onto a plate so the caramel runs.'
     ],
-    rest: [720, 'chilling overnight so the caramel liquefies'],
+    rest: [735, 'chilling overnight so the caramel liquefies'],
     tips: [
       'Overnight in the fridge. That is when the caramel becomes a sauce.',
       'Skim the bubbles before baking.',
@@ -797,6 +803,7 @@ module.exports = {
   },
 
   'financiers': {
+    untimed: ['cooling completely'],
     d: 'Small almond cakes made with brown butter and egg whites, baked hot so the edges crisp. Named for the gold-bar shape and the district that ate them.',
     meta: 'Small almond cakes made with beurre noisette and egg whites, baked hot so the edges crisp against a soft middle.',
     kw: ['financiers', 'almond cakes', 'financiers recipe', 'brown butter cakes', 'french petit four'],

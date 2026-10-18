@@ -88,6 +88,7 @@ module.exports = {
   },
 
   'patatas-bravas': {
+    cookMax: 50,
     d: 'Twice-cooked potatoes with a shattering exterior and a fluffy interior, under a smoky brava sauce that carries genuine heat. The most ordered tapa in Spain, and usually the worst made.',
     meta: 'Crispy patatas bravas with twice-cooked potatoes and a proper smoky, spicy brava sauce. Vegan and gluten-free.',
     kw: ['patatas bravas recipe', 'spanish tapas', 'crispy potatoes', 'brava sauce'],
@@ -114,7 +115,7 @@ module.exports = {
     ],
     st: [
       'Put the potato cubes in cold water with the vinegar and salt, bring to a boil, and simmer for 8 minutes until just tender at the edges but still firm at the centre.',
-      'Drain and leave them in the colander to steam-dry for 15 minutes. Shake the colander to rough up the edges — those rough surfaces become the crispiest parts.',
+      'Drain and leave them in the colander to steam-dry while you make the sauce, at least 15 minutes. Shake the colander to rough up the edges — those rough surfaces become the crispiest parts.',
       'For the sauce, soften the onion in the olive oil for 8 minutes, then add the garlic for 1 minute.',
       'Stir in the flour and both paprikas and the cayenne and cook 60 seconds — take care not to burn the paprika, which turns bitter instantly.',
       'Add the blended tomatoes, stock, sugar and salt and simmer for 20 minutes until thick.',
@@ -244,6 +245,8 @@ module.exports = {
   },
 
   'fish-and-chips': {
+    rest: [60, 'steam-drying and cooling the chips'],
+    cookMax: 35,
     d: 'Beer batter that shatters, chips with a fluffy interior, and a proper mushy pea and tartare sauce alongside. The batter must be ice cold and mixed at the last possible moment.',
     meta: 'Beer-battered fish and chips with a shatter-crisp batter and fluffy triple-cooked chips. The chip shop method at home.',
     kw: ['fish and chips recipe', 'beer batter recipe', 'triple cooked chips', 'british classic'],
@@ -289,6 +292,7 @@ module.exports = {
   },
 
   'shepherds-pie': {
+    cookMax: 105,
     d: 'Lamb mince in a rich gravy under a piped mash with crisp golden ridges. Made with beef it is a cottage pie; the distinction matters more than you might expect to some people.',
     meta: "Classic shepherd's pie with rich lamb gravy and crisp piped mash. The definitive British comfort dish.",
     kw: ["shepherd's pie recipe", 'lamb mince pie', 'british comfort food', 'cottage pie'],
@@ -342,7 +346,8 @@ module.exports = {
   },
 
   'beef-wellington': {
-    rest: [90, 'resting'],
+    untimed: ['cooling completely'],
+    rest: [105, 'resting'],
     d: 'Fillet of beef wrapped in mushroom duxelles and prosciutto, encased in puff pastry and baked until the pastry is bronzed and the beef is a perfect blushing pink. The dish for the occasion that matters.',
     meta: 'Beef Wellington with mushroom duxelles, prosciutto and puff pastry, cooked to a perfect blushing pink centre.',
     kw: ['beef wellington recipe', 'christmas dinner recipe', 'mushroom duxelles', 'special occasion beef'],
@@ -432,8 +437,9 @@ module.exports = {
   },
 
   'bangers-and-mash': {
+    cookMax: 50,
     d: 'Good sausages, buttery mash and a proper onion gravy built from slow-caramelised onions and stock rather than a packet. Pub food at its most straightforward and satisfying.',
-    meta: 'Bangers and mash with slow-caramelised onion gravy and buttery mash. Proper pub comfort food in 50 minutes.',
+    meta: 'Bangers and mash with slow-caramelised onion gravy and buttery mash. Proper pub comfort food in 55 minutes to 1 hour 5 minutes.',
     kw: ['bangers and mash recipe', 'onion gravy', 'british sausages', 'pub food recipe'],
     why: 'Onion gravy gets its depth from the sugars in onions caramelising over twenty-plus minutes; anything faster gives you onion-flavoured stock rather than gravy. Passing the potatoes through a ricer rather than mashing them avoids rupturing starch cells, which is what makes mash gluey.',
     ing: [
@@ -463,7 +469,7 @@ module.exports = {
       'Stir in the flour and cook 2 minutes, then add the wine and reduce by half.',
       'Add the stock, Worcestershire sauce, mustard, thyme and salt. Simmer for 15 minutes until it coats a spoon. Keep warm.',
       'Meanwhile cook the sausages in a cold pan with the oil over medium-low heat for 15 to 18 minutes, turning regularly, until browned all over and cooked through.',
-      'Boil the potatoes in well-salted water for 18 to 20 minutes until a knife meets no resistance.',
+      'At the same time, boil the potatoes in well-salted water for 18 to 20 minutes until a knife meets no resistance.',
       'Drain and leave in the colander to steam-dry for 5 minutes — this is what stops the mash being watery.',
       'Pass the potatoes through a ricer back into the pan, then beat in the butter a little at a time, followed by the warm milk, salt and white pepper.',
       'Pile the mash onto warm plates, lay the sausages against it and pour the onion gravy generously over both.'
@@ -606,6 +612,7 @@ module.exports = {
   },
 
   'soft-pretzels': {
+    cookMax: 20,
     rest: [90, 'proving'],
     d: 'Chewy, deep-mahogany Bavarian pretzels with a distinct alkaline tang, from a food-grade lye or baking soda bath. Best eaten warm within the hour, with mustard and butter.',
     meta: 'Bavarian soft pretzels with a chewy crust and true alkaline tang. Both the lye and baking-soda methods explained.',
@@ -627,7 +634,7 @@ module.exports = {
       '3 tbsp pretzel salt or coarse sea salt'
     ],
     st: [
-      'Spread the bicarbonate of soda on a foil-lined tray and bake at 120°C / 250°F for 1 hour. This converts it to sodium carbonate, which is far more alkaline. Cool and store carefully.',
+      'Set the soda baking first, since it runs while you make and prove the dough: spread the bicarbonate of soda on a foil-lined tray and bake at 120°C / 250°F for 1 hour. This converts it to sodium carbonate, which is far more alkaline. Cool and store carefully.',
       'Mix the flour, yeast, sugar and salt, add the warm water, and knead for 6 minutes. Add the butter and knead 6 minutes more until smooth and firm.',
       'Prove, covered, for 1 hour until doubled.',
       'Divide into eight pieces. Roll each into a 60 cm rope, thick in the middle and tapering at the ends.',
@@ -649,6 +656,7 @@ module.exports = {
   },
 
   'black-forest-cake': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'Chocolate sponge soaked in kirsch, layered with sour cherries and unsweetened whipped cream, finished with chocolate curls. The kirsch is not optional in Germany — it is legally part of the definition.',
     meta: 'Authentic Schwarzwälder Kirschtorte with kirsch-soaked chocolate sponge, sour cherries and whipped cream.',
@@ -828,6 +836,7 @@ module.exports = {
   },
 
   'pierogi': {
+    untimed: ['cooling completely'],
     d: 'Tender dumplings filled with potato and farmer\'s cheese, boiled and then fried in butter with onions. A weekend project that freezes brilliantly, which is why Polish families make hundreds at a time.',
     meta: 'Polish pierogi ruskie with potato and cheese filling, boiled then fried in butter and onions. Freezer-friendly.',
     kw: ['pierogi recipe', 'polish dumplings', 'potato cheese pierogi', 'pierogi ruskie'],
@@ -876,6 +885,7 @@ module.exports = {
   },
 
   'hungarian-goulash': {
+    cookMax: 165,
     d: 'A true gulyás is a soup, not a stew: beef, onions and a great deal of sweet Hungarian paprika simmered with potatoes and caraway. The paprika goes in off the heat or the whole pot turns bitter.',
     meta: 'Authentic Hungarian goulash soup with sweet paprika, beef and caraway. The off-heat paprika rule that saves the pot.',
     kw: ['hungarian goulash recipe', 'gulyas soup', 'paprika beef stew', 'gluten free stew'],
@@ -919,7 +929,7 @@ module.exports = {
 
   'swedish-meatballs': {
     d: 'Small, tender meatballs in a creamy pan gravy, served with lingonberry jam and mashed potato. The bread-and-cream panade is what makes them so much softer than an Italian meatball.',
-    meta: 'Swedish meatballs with a soft cream panade and rich pan gravy, served with lingonberry jam. Ready in 45 minutes.',
+    meta: 'Swedish meatballs with a soft cream panade and rich pan gravy, served with lingonberry jam. Ready in 75 minutes.',
     kw: ['swedish meatballs recipe', 'kottbullar', 'cream gravy meatballs', 'scandinavian recipe'],
     why: 'Soaking breadcrumbs in cream creates a panade whose starches and milk proteins physically prevent the meat proteins from binding tightly, producing a notably soft, tender meatball. Building the gravy in the same pan captures the fond, and the small addition of soy sauce deepens the colour and savouriness without reading as soy.',
     ing: [

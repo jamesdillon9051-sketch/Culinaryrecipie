@@ -139,7 +139,7 @@ module.exports = {
       'Cucumber and shallot slices'
     ],
     st: [
-      'Combine all the satay marinade ingredients and mix thoroughly with the chicken. Marinate 4 hours or overnight.',
+      'Combine all the satay marinade ingredients and mix thoroughly with the chicken. Cover and marinate in the fridge for 4 hours or overnight.',
       'Soak 24 bamboo skewers in water for 30 minutes.',
       'For the sauce, blend the peanuts to a coarse meal and set aside. Blend the shallots, garlic and chillies to a paste.',
       'Fry the paste in the oil over medium heat for 8 minutes until darkened and the oil separates.',
@@ -392,7 +392,7 @@ module.exports = {
       'Sliced spring onion'
     ],
     st: [
-      'Marinate the chicken with the soy sauce, half the garlic, the peppercorns and bay for at least 1 hour, or overnight.',
+      'Marinate the chicken with the soy sauce, half the garlic, the peppercorns and bay, covered, in the fridge for at least 1 hour, or overnight.',
       'Lift the chicken out, reserving the marinade, and pat it dry.',
       'Heat the oil in a heavy pan and brown the chicken skin-side down for 6 minutes until deeply golden. Turn and brown 3 minutes more. Lift out.',
       'Add the remaining garlic and the onion if using and fry 3 minutes.',

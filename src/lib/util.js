@@ -32,7 +32,9 @@ function humanTime(minutes) {
  */
 function humanWait(minutes) {
   if (!minutes) return '';
-  if (minutes < 1440) return humanTime(minutes);
+  /* Under two days the hours matter: "1 day 1 hr" for both 24.5 and 25.5 hours
+     made a range read "1 day 1 hr to 1 day 1 hr". */
+  if (minutes < 2880) return humanTime(minutes);
   const days = Math.floor(minutes / 1440);
   const hours = Math.round((minutes % 1440) / 60);
   if (days >= 7) {
@@ -58,7 +60,9 @@ function humanWaitRange(min, max) {
  * Rounded to the nearest half hour above an hour, which is as precise as a
  * card needs to be; the recipe page gives the exact figures.
  */
-function compactTime(min, max) {
+function compactTime(min, max, floor = false) {
+  /* "45 min+" where the method needs time it does not give (src/build.js, untimed). */
+  if (floor) return `${compactTime(min, max)}+`;
   if (!min) return '0 min';
   const top = max && max > min ? max : min;
   if (top < 120) return top > min ? `${min}–${top} min` : `${min} min`;
@@ -97,13 +101,10 @@ function clamp(text, max) {
 
 /** Star rating markup used on cards and recipe headers. */
 function starsHtml(rating, reviews) {
-  /* A recipe nobody has rated is not a recipe rated zero. Printing "0.0" beside
-     five empty stars says the readers hated it; this says what is true, which is
-     that no one has said anything yet. */
-  if (!rating) {
-    return '<span class="stars stars--unrated"><b>Not yet rated</b>'
-      + '<span class="sr-only">This recipe has no ratings yet</span></span>';
-  }
+  /* Stars appear only where readers have left real reviews (src/data/reviews.json, empty so far).
+     A recipe nobody has rated is not a recipe rated zero, and a public "Not yet rated" on every card
+     and header was a verdict of its own, so an unrated recipe shows nothing. */
+  if (!rating) return '';
   const pct = (rating / 5) * 100;
   return `<span class="stars">` +
     `<span class="stars-glyphs" aria-hidden="true">★★★★★<span style="width:${pct.toFixed(1)}%">★★★★★</span></span>` +

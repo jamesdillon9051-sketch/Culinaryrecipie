@@ -166,7 +166,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 220°C / 425°F. Break the shells up roughly, spread them on a tray and roast 20 minutes until deep red and fragrant.',
-      'Melt the butter with the oil in a large pot and cook the onion, carrot, celery and fennel over medium heat for 12 minutes until soft and golden.',
+      'While the shells roast, melt the butter with the oil in a large pot and cook the onion, carrot, celery and fennel over medium heat for 12 minutes until soft and golden.',
       'Add the garlic for 1 minute, then the tomato purée, and cook 3 minutes until it darkens to brick red.',
       'Add the roasted shells and stir to coat.',
       'Pour in the brandy, stand back, and let it bubble hard for 2 minutes until the raw alcohol smell has gone.',

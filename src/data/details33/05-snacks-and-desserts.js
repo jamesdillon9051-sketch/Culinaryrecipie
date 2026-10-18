@@ -13,7 +13,7 @@
 
 module.exports = {
   'turkey-pinwheels': {
-    d: 'Whole-wheat tortillas spread with mustard cream cheese and rolled around turkey, spinach and cucumber, chilled and sliced into pinwheels. Six servings in 10 minutes.',
+    d: 'Whole-wheat tortillas spread with mustard cream cheese and rolled around turkey, spinach and cucumber, chilled and sliced into pinwheels. Six servings in 40 minutes.',
     meta: 'Turkey pinwheels: whole-wheat tortillas rolled around mustard cream cheese, turkey, spinach and cucumber, then chilled and sliced.',
     kw: ['turkey pinwheels', 'turkey and spinach pinwheel appetizer', 'no cook turkey pinwheels', 'easy turkey cream cheese pinwheels'],
     why: 'Chilling is what holds a pinwheel together. Spread the filling right to the edges, roll the tortilla tightly, and let the roll rest in the fridge for 30 minutes before you slice it, because the cream cheese works as glue and firms up enough to keep every spiral in place.\n\nUse large whole-wheat tortillas, since small ones leave too few spirals. **Dry the spinach well** so the tortilla does not go soggy. Thin layers roll best. Keep the turkey in a single thin layer, because thick layers make the roll bulge and split. Reduced-fat cream cheese with a little Dijon mustard gives a tangy spread that seasons the whole roll.\n\nTrim the ends first. Slice with a serrated knife, using a gentle sawing motion rather than pressing down, and wipe the blade between cuts. Each tortilla makes about six pinwheels. They keep for 2 days in the fridge, wrapped tightly, which makes them useful for lunch boxes and parties.',
@@ -78,7 +78,7 @@ module.exports = {
   },
 
   'cottage-cheese-ranch-dip': {
-    d: 'A thick, tangy ranch-style dip made by blending low-fat cottage cheese until smooth with lemon, garlic, dill, chives and parsley. Eight servings in 5 minutes.',
+    d: 'A thick, tangy ranch-style dip made by blending low-fat cottage cheese until smooth with lemon, garlic, dill, chives and parsley. Eight servings in 25 minutes.',
     meta: 'Cottage cheese ranch dip: low-fat cottage cheese blended smooth with lemon, garlic, dill, chives and parsley. Gluten free. Eight servings.',
     kw: ['cottage cheese ranch dip', 'ranch dip under 400 calories', 'gluten free cottage cheese dip', 'vegetarian ranch dip with cottage cheese', 'no cook cottage cheese ranch dip'],
     why: 'It is ranch with the mayonnaise and sour cream swapped for cottage cheese: blended until smooth, it turns thick, tangy and creamy, with far more protein and far less fat. Fresh herbs and garlic supply the classic flavour. It takes 5 minutes.\n\nBlend longer than you think you need to. Curds are the enemy. **Blend until completely smooth**, scraping down the sides, because cottage cheese curds that survive give the dip a grainy texture. Add milk a spoonful at a time to loosen it to the thickness you want, since a thick dip suits vegetables and a looser one suits a salad.\n\nStir in the fresh herbs after blending, so they stay green and speckled. Chill it for 20 minutes to let the flavours settle. Cold dulls salt and lemon, so taste again before serving. Serve with raw vegetables, or use it as a sandwich spread or a baked potato topper. It keeps for 4 days.',

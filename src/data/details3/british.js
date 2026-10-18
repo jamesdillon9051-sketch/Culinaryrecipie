@@ -2,6 +2,8 @@
 
 module.exports = {
   'steak-and-ale-pie': {
+    untimed: ['cooling completely'],
+    cookMax: 219,
     d: 'Beef shin braised in dark ale until it falls apart, under a lid of rough puff pastry baked until the top is lacquered and the gravy has thickened underneath.',
     meta: 'Steak and ale pie — beef shin braised in dark ale under a rough puff pastry lid, baked until glossy.',
     kw: ['steak and ale pie recipe', 'beef and ale pie', 'british pub pie', 'shin of beef pie'],
@@ -34,7 +36,7 @@ module.exports = {
       'Pour in the ale and let it bubble for 4 minutes, scraping the base clean.',
       'Return the beef with the stock, Worcestershire, bay, thyme, salt and pepper. Bring to a bare simmer.',
       'Cover and cook at 150C fan for 2 1/2 hours, until the beef gives way completely.',
-      'Uncover and simmer on the hob 15 minutes until the gravy coats a spoon thickly. Cool completely, ideally overnight in the fridge.',
+      'Uncover and simmer on the hob 15 minutes until the gravy coats a spoon thickly. Cool completely, moving it to the fridge within 2 hours, ideally overnight.',
       'Spoon the cold filling into a 24 cm pie dish. Roll the pastry to a 5 mm lid, wet the rim, lay it on and press the edges down firmly. Trim and crimp.',
       'Cut two steam vents, brush with egg, and bake at 200C fan for 30 to 35 minutes until deep golden and risen.'
     ],
@@ -49,7 +51,7 @@ module.exports = {
   },
 
   'trifle': {
-    rest: [360, 'chilling'],
+    rest: [380, 'chilling'],
     d: 'Sponge soaked in sherry, a layer of fruit, proper custard set over the top and a thick raft of whipped cream. Built in a glass bowl so the layers show.',
     meta: 'English trifle — sherry-soaked sponge, fruit, set custard and whipped cream, layered in a glass bowl.',
     kw: ['english trifle recipe', 'classic trifle', 'sherry trifle', 'custard trifle'],
@@ -95,7 +97,7 @@ module.exports = {
   },
 
   'crumpets': {
-    rest: [60, 'resting'],
+    rest: [80, 'resting'],
     d: 'Yeasted batter cooked in rings on a griddle until the tops are riddled with holes. Toasted, buttered, and eaten while the butter is still disappearing.',
     meta: 'Crumpets — yeasted batter cooked in rings on a griddle until the tops are full of holes.',
     kw: ['crumpet recipe', 'homemade crumpets', 'yeasted batter', 'british teatime'],

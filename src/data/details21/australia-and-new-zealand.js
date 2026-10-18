@@ -94,7 +94,7 @@ module.exports = {
       'Mint sauce or salsa verde, to serve'
     ],
     st: [
-      'Mix the oil, garlic, rosemary, lemon zest and juice and pepper in a large bowl. Add the lamb, turn to coat and marinate for 30 minutes at room temperature.',
+      'Mix the oil, garlic, rosemary, lemon zest and juice and pepper in a large bowl. Add the lamb, turn to coat and cover and marinate for 30 minutes in the fridge.',
       'Heat a barbecue grill or a heavy pan to high.',
       'Scrape off the excess marinade and season the cutlets with the salt.',
       'Cook 3 minutes on the first side, until well browned, and 2 to 3 minutes on the second for medium-rare, about 54°C / 130°F.',
@@ -446,7 +446,7 @@ module.exports = {
       'Buttered white bread, to serve'
     ],
     st: [
-      'Pat the whitebait dry on paper towels. If frozen, thaw them completely in a sieve and drain well.',
+      'If the whitebait are frozen, thaw them completely in a sieve set over a bowl in the fridge, and drain well. Pat them dry on paper towels.',
       'Whisk the eggs with the salt and pepper for 1 to 2 minutes, until frothy and pale.',
       'Fold in the whitebait and lemon juice.',
       'Heat half the butter and oil in a large non-stick pan over medium heat until foaming.',

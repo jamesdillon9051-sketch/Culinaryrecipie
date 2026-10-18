@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'keema-naan': {
+    untimed: ['cooling completely'],
     d: 'Soft yeasted flatbreads stuffed with spiced minced lamb, rolled out and cooked in a hot dry pan until blistered.',
     meta: 'Keema naan: yeasted flatbreads stuffed with spiced minced lamb and cooked in a hot pan. Makes six, about 15 minutes cooking.',
     kw: ['keema naan', 'stuffed keema naan', 'lamb keema naan', 'keema naan recipe', 'minced lamb naan bread'],
@@ -905,7 +906,7 @@ module.exports = {
       '1 handful fresh coriander'
     ],
     st: [
-      'Mix the mutton with the yoghurt, ginger and garlic paste, chilli, turmeric, garam masala and salt. Leave for 1 hour.',
+      'Mix the mutton with the yoghurt, ginger and garlic paste, chilli, turmeric, garam masala and salt. Cover and leave in the fridge for 1 hour.',
       'Heat the ghee in a large heavy pot and fry the onions for 15 minutes until deep brown. Take out half and set aside.',
       'Add the mutton and marinade to the pot. Cover and cook over a low heat for 60 minutes, until the mutton is tender and the sauce is thick.',
       'Meanwhile, soak the rice in cold water for 30 minutes, then drain. Boil in plenty of salted water with the whole spices for 5 minutes, until 70 per cent cooked. Drain.',

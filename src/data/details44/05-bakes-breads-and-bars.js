@@ -88,6 +88,7 @@ module.exports = {
   },
 
   'key-lime-bars': {
+    untimed: ['cooling'],
     d: 'A buttery graham cracker base topped with a set key lime custard of condensed milk, egg yolks and lime juice.',
     meta: 'Key lime bars: a graham cracker base with a set lime and condensed milk custard. Sixteen bars, baked for 20 minutes, then chilled for 2 hours.',
     kw: ['key lime bars', 'key lime pie bars', 'easy key lime bars', 'lime bars with graham cracker crust', 'creamy key lime bars'],
@@ -196,6 +197,7 @@ module.exports = {
   },
 
   'peanut-butter-blondies': {
+    untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with peanut butter swirled through and a handful of chocolate chips.',
     meta: 'Peanut butter blondies: chewy brown sugar blondies with peanut butter and chocolate chips. Sixteen squares, baked for 25 minutes.',
     kw: ['peanut butter blondies', 'chewy peanut butter blondies', 'peanut butter chocolate chip blondies', 'blondies with peanut butter', 'peanut butter blondie bars'],
@@ -302,6 +304,7 @@ module.exports = {
   },
 
   'irish-brown-bread': {
+    untimed: ['cooling'],
     d: 'A quick wholemeal soda bread raised with bicarbonate of soda and buttermilk, baked until the crust sounds hollow.',
     meta: 'Irish brown bread: a wholemeal soda bread raised with buttermilk and bicarbonate of soda. Eight slices, baked for 45 minutes.',
     kw: ['irish brown bread', 'traditional irish brown soda bread', 'wholemeal irish brown bread', 'irish brown bread with buttermilk', 'no yeast irish brown bread'],
@@ -334,6 +337,7 @@ module.exports = {
   },
 
   'treacle-bread': {
+    untimed: ['cooling'],
     d: 'A dark, slightly sweet soda bread made with black treacle, wholemeal flour and buttermilk.',
     meta: 'Treacle bread: a dark, lightly sweet soda bread with black treacle and buttermilk. Eight slices, baked for 40 minutes.',
     kw: ['treacle bread', 'irish treacle bread', 'treacle soda bread', 'dark treacle bread with buttermilk', 'sweet treacle soda bread'],
@@ -499,11 +503,12 @@ module.exports = {
     ],
     pair: ['Cream cheese', 'Butter', 'Peanut butter', 'Coffee'],
     store: 'Best on the day. Keeps in a bag for 3 days. Slice and toast.',
-    rest: [60, 'Proving'],
+    rest: [80, 'Proving'],
     nut: [315, 7, 65, 3, 3, 15, 590]
   },
 
   'iced-buns': {
+    untimed: ['cooling completely'],
     d: 'Soft, sweet yeast buns baked in a tray and topped with white glacé icing.',
     meta: 'Iced buns: soft sweet yeast buns baked in a tray and topped with white icing. Twelve buns, baked for 15 minutes after proving.',
     kw: ['iced buns', 'british iced buns', 'soft iced buns with glace icing', 'homemade iced buns', 'iced finger buns'],
@@ -535,11 +540,12 @@ module.exports = {
     ],
     pair: ['Tea', 'Milk', 'Cherries', 'Butter'],
     store: 'Best on the day. Keeps in a tin for 2 days.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [314, 6, 59, 6, 1, 27, 110]
   },
 
   'bakewell-slices': {
+    untimed: ['cooling completely'],
     d: 'A shortcrust base spread with raspberry jam and topped with an almond sponge, baked and finished with white icing.',
     meta: 'Bakewell slices: shortcrust pastry with raspberry jam and almond sponge, iced. Twelve slices, baked for 35 minutes.',
     kw: ['bakewell slices', 'traybake bakewell slices', 'bakewell tart slices', 'raspberry and almond bakewell slices', 'iced bakewell slices'],

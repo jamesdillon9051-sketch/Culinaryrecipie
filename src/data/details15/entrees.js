@@ -20,7 +20,7 @@ module.exports = {
       '1 celeriac, about 800 g',
       '3 tbsp lemon juice',
       '# For the rémoulade',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '2 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '250 ml sunflower oil',
@@ -50,6 +50,7 @@ module.exports = {
   },
 
   'poireaux-vinaigrette': {
+    untimed: ['coming to room temperature'],
     d: 'Whole leeks poached until completely soft, pressed, and dressed while warm with a mustard vinaigrette. Served cold, and the pressing is what makes it.',
     meta: 'Whole leeks poached until completely soft, pressed under a weight and dressed warm with a sharp mustard vinaigrette.',
     kw: ['poireaux vinaigrette', 'leeks vinaigrette', 'poireaux vinaigrette recipe', 'french leek starter', 'bistro leeks'],
@@ -96,7 +97,7 @@ module.exports = {
     ing: [
       '6 eggs, at room temperature',
       '# For the mayonnaise',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '250 ml sunflower oil',
@@ -243,6 +244,7 @@ module.exports = {
   },
 
   'rillettes': {
+    untimed: ['chilling until set'],
     d: 'Pork shoulder cooked for hours in its own fat until it can be pulled to threads, packed into a pot and sealed. A preserve, and one of the great things to do with cheap meat.',
     meta: 'Pork shoulder cooked slowly in its own fat until it shreds to threads, packed into pots and sealed under a fat layer.',
     kw: ['rillettes', 'pork rillettes', 'rillettes recipe', 'french potted pork', 'rillettes de porc'],
@@ -274,10 +276,10 @@ module.exports = {
     tips: [
       'Two forks, never a processor. Threads, not paste.',
       'Season cold, then taste again. Fat hides salt.',
-      'The fat cap is the seal — keep it unbroken.'
+      'The fat cap keeps the top from drying out — keep it unbroken.'
     ],
     pair: ['Toasted baguette', 'Cornichons', 'A glass of Chinon'],
-    store: 'Refrigerated for 3 weeks while the fat seal is unbroken; a week once opened. It freezes for 3 months.',
+    store: 'Refrigerated under its fat seal for up to 4 days, opened or not; cooked meat sealed under fat is still cooked meat, and the seal does not make it keep longer. It freezes for 3 months.',
     nut: [320, 16, 0, 28, 0, 0, 520]
   },
 
@@ -314,7 +316,7 @@ module.exports = {
       'Bake 90 minutes, until a skewer inserted into the middle comes out hot and the juices run clear.',
       'Cool for an hour, then put a weight on top — tins work — and refrigerate at least 720 minutes before slicing.'
     ],
-    rest: [720, 'pressing and chilling'],
+    rest: [780, 'pressing and chilling'],
     tips: [
       'A third fat. Lean terrine is dry terrine.',
       'Fry a spoonful and taste before committing.',
@@ -438,7 +440,7 @@ module.exports = {
       'Keep it coarse. A smooth purée turns bitter.'
     ],
     pair: ['Toasted baguette', 'Crudités', 'A glass of rosé'],
-    store: 'Refrigerated under a film of oil for 2 weeks. It freezes for 3 months.',
+    store: 'Refrigerated under a film of oil for up to 4 days. It freezes for 3 months.',
     nut: [165, 2, 3, 17, 2, 0, 780]
   },
 
@@ -485,7 +487,7 @@ module.exports = {
     ing: [
       '8 garlic cloves, green germs removed',
       '1 tsp fine sea salt',
-      '2 egg yolks, at room temperature',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK), at room temperature',
       '300 ml mild olive oil, at room temperature',
       '1 tbsp lemon juice',
       '1 tsp warm water',
@@ -600,6 +602,7 @@ module.exports = {
   },
 
   'vichyssoise': {
+    untimed: ['cooling completely'],
     d: 'Leek and potato soup enriched with cream and served cold. Invented in New York by a French chef, which the French have never entirely forgiven.',
     meta: 'A chilled leek and potato soup finished with cream, blended completely smooth and seasoned again once cold.',
     kw: ['vichyssoise', 'chilled leek soup', 'vichyssoise recipe', 'cold potato soup', 'french summer soup'],
@@ -736,7 +739,7 @@ module.exports = {
       '1.5 tsp fine sea salt',
       '2 litres water',
       '# For the rouille',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '4 garlic cloves, crushed',
       '1 tsp harissa or chilli paste',
       'Pinch saffron',

@@ -5,6 +5,7 @@
 
 module.exports = {
   'chocolate-mousse': {
+    untimed: ['cooling'],
     rest: [240, 'chilling'],
     d: 'Four ingredients and no gelatine: melted chocolate, egg yolks, whipped whites and a little cream. The air is all beaten in by hand and the set comes from the cocoa butter alone.',
     meta: 'Classic French chocolate mousse — no gelatine, set by cocoa butter alone, with the whites folded in three additions.',
@@ -13,7 +14,7 @@ module.exports = {
     ing: [
       '200 g dark chocolate, 70% cocoa solids, finely chopped',
       '60 g unsalted butter, cubed',
-      '4 large eggs, separated, at room temperature',
+      '4 large eggs, pasteurised (or British Lion-stamped in the UK), separated, at room temperature',
       '60 g caster sugar',
       '120 ml double cream',
       '0.25 tsp fine sea salt',
@@ -38,11 +39,12 @@ module.exports = {
       'Stop folding while a faint streak or two remains. They disappear as it sets, and over-folding costs you the texture.'
     ],
     pair: ['A small glass of Armagnac', 'Salted shortbread', 'Fresh raspberries'],
-    store: 'Refrigerated, covered, for 3 days. It contains lightly cooked egg, so it is not one for anyone avoiding those. Do not freeze.',
+    store: 'Refrigerated, covered, for 3 days. The egg in it is raw, which is why the ingredients call for pasteurised eggs. Do not freeze.',
     nut: [462, 8, 32, 34, 3, 26, 180]
   },
 
   'fudge': {
+    untimed: ['cooling completely'],
     rest: [165, 'setting'],
     d: 'Proper boiled fudge, taken to the soft-ball stage and then beaten as it cools. A thermometer and a clean pan are all it needs, and neither is negotiable.',
     meta: 'Old-fashioned chocolate fudge boiled to 114°C and beaten as it cools — smooth, sliceable and never grainy.',
@@ -208,7 +210,7 @@ module.exports = {
   },
 
   'millionaire-shortbread': {
-    rest: [120, 'setting'],
+    rest: [140, 'setting'],
     d: 'Three layers that each need doing properly: a shortbread base baked until sandy, a caramel boiled to the right temperature so it sets, and tempered-enough chocolate that snaps rather than smears.',
     meta: "Millionaire's shortbread with a caramel boiled to 108°C so it actually sets, on a properly baked shortbread base.",
     kw: ['millionaires shortbread', 'caramel shortbread', 'billionaire shortbread', 'caramel slice recipe'],
@@ -253,6 +255,7 @@ module.exports = {
   },
 
   'lemonade': {
+    untimed: ['cooling'],
     d: 'Made properly, with a sugar syrup rather than sugar stirred into cold water, and with some of the zest oil in it. Ten minutes, and it does not taste like the bottled kind.',
     meta: 'Fresh lemonade made with a real sugar syrup and lemon zest oil — sharper and rounder than anything from a bottle.',
     kw: ['lemonade', 'fresh lemonade', 'homemade lemonade', 'lemonade recipe'],

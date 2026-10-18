@@ -80,7 +80,7 @@ module.exports = {
 
   'fruit-salad': {
     d: 'Strawberries, blueberries, grapes, pineapple, kiwi and orange tossed in a honey, lime and mint dressing and chilled. Fresh and bright, with no sugar syrup.',
-    meta: 'Fruit salad: strawberries, blueberries, grapes, pineapple, kiwi and orange tossed in a honey, lime and mint dressing. A fresh, bright salad in 20 minutes.',
+    meta: 'Fruit salad: strawberries, blueberries, grapes, pineapple, kiwi and orange tossed in a honey, lime and mint dressing. A fresh, bright salad in 50 minutes, chilling included.',
     kw: ['fruit salad', 'easy fruit salad', 'fresh fruit salad recipe', 'fruit salad with honey lime dressing', 'how to make fruit salad'],
     why: 'A fruit salad is only as good as its fruit and the way it is cut. This one mixes soft berries, firm grapes, juicy pineapple and citrus, so that every spoonful has a different texture and colour, and everything is cut to about the size of a grape so that no piece dominates. The dressing is what turns a bowl of cut fruit into a salad. Lime juice brightens the flavour and slows browning, honey dissolves into the juices and rounds off the acidity, and mint gives a cool, fresh note. The fruit that is firm and holds its shape goes in first and is dressed, and the delicate berries are folded in last, so that they do not bruise or bleed. Half an hour in the fridge lets the flavours mingle. Left for much longer than two hours, the fruit softens and releases its juice and the salad turns watery.',
     ing: [

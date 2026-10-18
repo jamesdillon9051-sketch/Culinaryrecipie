@@ -79,10 +79,11 @@ module.exports = {
     pair: ['Roast potatoes in duck fat', 'Red cabbage', 'Orange sauce'],
     store: 'Refrigerate carved meat up to 4 days and reheat covered at 160°C for 15 minutes. Freeze for 3 months.',
     nut: [536, 42, 2, 40, 0, 1, 700],
-    rest: [240, 'drying the skin in the fridge']
+    rest: [260, 'drying the skin in the fridge']
   },
 
   'roast-turkey-crown': {
+    rest: [90, 'coming to room temperature and resting'],
     d: 'A bone-in turkey breast roasted under herb butter and bacon until the juices run clear, with no dark meat to overcook. Two hours.',
     meta: 'Roast turkey crown: a bone-in breast under sage and herb butter and streaky bacon, roasted until juicy. Easier and quicker than a whole bird.',
     kw: ['roast turkey crown', 'roast turkey crown recipe', 'how long to cook a turkey crown', 'christmas turkey crown', 'turkey crown with bacon and herb butter'],
@@ -100,7 +101,7 @@ module.exports = {
       '250 ml chicken stock'
     ],
     st: [
-      'Take the crown out of the fridge an hour before roasting. Heat the oven to 190°C / 375°F.',
+      'Take the crown out of the fridge and leave it for an hour before roasting. Heat the oven to 190°C / 375°F.',
       'Mix the butter with the sage, thyme, garlic, lemon zest, salt and pepper.',
       'Loosen the skin over the breast with your fingers and push about two thirds of the butter underneath. Rub the rest over the skin.',
       'Lay the bacon over the breast and set the crown in a roasting tin with the stock.',
@@ -458,7 +459,8 @@ module.exports = {
   },
 
   'sausage-plait': {
-    d: 'Sausage meat with onion and sage rolled in puff pastry, cut into strips and plaited. The buffet showpiece, in an hour.',
+    untimed: ['cooling completely'],
+    d: 'Sausage meat with onion and sage rolled in puff pastry, cut into strips and plaited. The buffet showpiece, in at least 1 hour 15 minutes.',
     meta: 'Sausage plait: seasoned sausage meat with onion and sage wrapped in puff pastry, cut and plaited, glazed and baked until golden.',
     kw: ['sausage plait', 'sausage plait recipe', 'sausage meat plait', 'puff pastry sausage plait', 'party sausage plait'],
     why: 'A plait looks harder than it is: it is a sheet of puff pastry with a log of filling down the middle and diagonal strips cut down the sides, folded over one another. The filling is sausage meat seasoned with sage and softened onion, which gives moisture and keeps the meat loose. What matters most is temperature: cold pastry stays crisp and puffs, so the plait is shaped and chilled briefly before baking, and it goes into a very hot oven so the pastry sets before the fat in it melts away.',

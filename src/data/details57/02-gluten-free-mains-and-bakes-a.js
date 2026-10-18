@@ -80,6 +80,7 @@ module.exports = {
   },
 
   'gluten-free-crackers': {
+    untimed: ['cooling on the tray'],
     d: 'Thin, crisp rosemary and sesame crackers made from a gluten-free flour blend and olive oil, baked for 20 minutes at 180C.',
     meta: 'Gluten-free crackers with rosemary and sesame, baked for 20 minutes at 180C. Makes about 40, ready in 35 minutes.',
     kw: ['gluten free crackers', 'homemade crackers without wheat', 'rosemary sesame crackers', 'gluten free cheese board crackers', 'baked gluten free crackers'],
@@ -180,7 +181,7 @@ module.exports = {
 
   'gluten-free-fried-chicken': {
     d: 'Boneless chicken thighs soaked in buttermilk and coated in a seasoned gluten-free flour crust, shallow fried for 25 minutes.',
-    meta: 'Gluten-free fried chicken in a buttermilk and seasoned flour crust, cooked for 25 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Gluten-free fried chicken in a buttermilk and seasoned flour crust, cooked for 25 minutes. Four servings, ready in 1 hour.',
     kw: ['gluten free fried chicken', 'buttermilk fried chicken without wheat', 'crispy gluten free chicken thighs', 'gluten free southern fried chicken', 'shallow fried chicken thighs'],
     why: 'It looks like a battered chicken and cooks like a roast, which is why the oil has to be hotter than you expect and the chicken has to be given room. Fried chicken is a simple method: a soak, a dredge and hot oil. Gluten-free flour does the dredging well, as long as it is seasoned properly.\n\nThe buttermilk does two jobs. Its acidity makes the meat tender, and its thickness gives the flour something to cling to. Leave the chicken in it for at least 15 minutes. Shake off the excess before dredging so the coating is thin and crisp rather than thick and pasty. A little cornflour in the blend improves the crunch.\n\n**Fry in batches and keep the oil near 170C.** Too hot and the crust burns before the chicken cooks; too cool and it soaks up oil. Thighs are forgiving, but cut the thick ones in half so they cook in the same time. Drain on a rack, not on paper, so the underside stays crisp.',
     ing: [
@@ -278,7 +279,7 @@ module.exports = {
 
   'gluten-free-lasagna': {
     d: 'Layers of beef ragu, white sauce thickened with cornflour and gluten-free pasta sheets, baked for 40 minutes at 190C.',
-    meta: 'Gluten-free lasagna with beef ragu and cornflour white sauce, cooked for 50 minutes. Eight servings, ready in 1 hour 20 minutes.',
+    meta: 'Gluten-free lasagna with beef ragu and cornflour white sauce, cooked for 50 minutes. Eight servings, ready in 1 hour 35 minutes.',
     kw: ['gluten free lasagna', 'gluten free lasagne with beef', 'lasagna without wheat', 'cornflour white sauce lasagna', 'gluten free pasta bake'],
     why: 'Gluten-free lasagna fails when the sheets turn to paste, and the cure is more liquid than you would use for the wheat version, not less. Gluten-free sheets drink up the sauce as they bake, so the ragu should be looser than feels right.\n\nThe white sauce is thickened with cornflour instead of a flour roux. It is quicker, smoother and cannot go lumpy if the cornflour is mixed with a little cold milk first. **Cover the dish with foil for the first 25 minutes** so the sheets steam rather than dry out, then uncover to brown the cheese.\n\nLeave the lasagna to sit for 15 minutes after it comes out of the oven. This sets the layers so they slice cleanly instead of sliding apart. If you use no-boil gluten-free sheets, check the packet, since some brands do need pre-soaking. Layer thin, with sauce reaching right to the corners. Dry corners are where sheets stay hard, so spread the ragu and white sauce right to the edge of the dish each time.',
     ing: [

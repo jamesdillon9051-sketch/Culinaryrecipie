@@ -132,7 +132,7 @@ module.exports = {
       'For chimichurri rojo, add 1 tablespoon of sweet paprika and 2 tablespoons of finely chopped red pepper from a jar.'
     ],
     pair: ['Grilled steak', 'Sausages', 'Roast potatoes'],
-    store: 'Keep in a jar in the fridge up to 5 days. Bring to room temperature and stir before serving, as the oil sets when it is cold.',
+    store: 'Keep in a jar in the fridge up to 4 days. Bring to room temperature and stir before serving, as the oil sets when it is cold.',
     nut: [174, 1, 2, 18, 1, 0, 390]
   },
 

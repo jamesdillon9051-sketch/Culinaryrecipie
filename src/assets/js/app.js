@@ -186,28 +186,70 @@
   window.cvGetFavourites = getFavs;
 
   /* ------------------------------------------------------- search index */
+  /* Fetched the first time someone searches, never on page load. "no-cache" asks the server whether
+     the copy the browser holds is still current (an ETag check, a few hundred bytes when it is), so a
+     new build is seen at once instead of after the hour the file may be cached for. A failure rejects,
+     so callers can say the search is unavailable rather than that nothing matched, and the next
+     search tries again. */
   var indexPromise = null;
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = fetch(document.body.dataset.base + 'search-index.json')
-        .then(function (r) { return r.json(); })
-        .catch(function () { return []; });
+      indexPromise = fetch(document.body.dataset.base + 'search-index.json', { cache: 'no-cache' })
+        .then(function (r) {
+          if (!r.ok) throw new Error('search index: HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) throw new Error('search index: unexpected format');
+          return data;
+        });
+      indexPromise.catch(function () { indexPromise = null; });
     }
     return indexPromise;
   }
   window.cvLoadIndex = loadIndex;
 
+  /* The index's words are lowered and accent-folded at build time (src/build.js, searchWords), so
+     the query is folded the same way: "creme brulee", "Crème Brûlée" and "crème-brûlée" all match. */
+  function foldQuery(text) {
+    return String(text || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/ı/g, 'i').replace(/[đð]/g, 'd').replace(/þ/g, 'th').replace(/œ/g, 'oe')
+      .replace(/ø/g, 'o').replace(/æ/g, 'ae').replace(/ß/g, 'ss').replace(/ł/g, 'l');
+  }
+  /* Filler a query may carry that the index does not ("how to make the best fish and chips"). */
+  var QUERY_STOP = { a: 1, an: 1, and: 1, the: 1, of: 1, with: 1, 'in': 1, on: 1, 'for': 1, to: 1, how: 1,
+    make: 1, recipe: 1, recipes: 1, best: 1, homemade: 1, '&': 1 };
+  function searchTerms(query) {
+    /* Hyphens split too: "mac-and-cheese" is three words, and "gluten-free" in the index still
+       contains both halves. */
+    var words = foldQuery(query).split(/[^a-z0-9']+/)
+      .map(function (w) { return w.replace(/^'+|'+$/g, ''); })
+      .filter(function (w) { return w.length > 0; });
+    var kept = words.filter(function (w) { return !QUERY_STOP[w]; });
+    return kept.length ? kept : words;
+  }
+  window.cvSearchTerms = searchTerms;
+
+  /* The picture a search entry points at: 1 means "named after the slug" (src/build.js). */
+  window.cvIndexImage = function (r) { return r.i === 1 ? r.g : (r.i || ''); };
+
+  /* Relevance only: every term must appear, a term at the start of the title counts most, one inside
+     the title next, one elsewhere least. Nothing about ratings or popularity enters it. */
   function scoreRecipe(recipe, terms) {
-    var haystack = recipe.s;      // pre-lowered searchable blob
+    var haystack = recipe.s;      // lowered, accent-folded searchable words
+    var title = foldQuery(recipe.t);
     var score = 0;
+    var words = ' ' + title.replace(/[^a-z0-9']+/g, ' ') + ' ';
     for (var i = 0; i < terms.length; i++) {
       var t = terms[i];
-      if (haystack.indexOf(t) === -1) return 0;
-      if (recipe.t.toLowerCase().indexOf(t) === 0) score += 12;
-      else if (recipe.t.toLowerCase().indexOf(t) !== -1) score += 7;
+      if (haystack.indexOf(t) === -1 && title.indexOf(t) === -1) return 0;
+      if (title.indexOf(t) === 0) score += 12;
+      else if (words.indexOf(' ' + t) !== -1) score += 9;
+      else if (title.indexOf(t) !== -1) score += 5;
       else score += 2;
+      if (words.indexOf(' ' + t + ' ') !== -1) score += 2;   // the whole word, not the start of a longer one
     }
-    return score + recipe.r;      // nudge by rating
+    return score;
   }
   window.cvScore = scoreRecipe;
 
@@ -217,40 +259,58 @@
       if (!panel) return;
       var active = -1;
 
+      var message = function (html) {
+        panel.hidden = false;
+        panel.innerHTML = '<p class="ac-empty" role="status">' + html + '</p>';
+        active = -1;
+      };
+
       var render = function (matches, query) {
         if (!query) { panel.hidden = true; panel.innerHTML = ''; return; }
         if (!matches.length) {
-          panel.hidden = false;
-          panel.innerHTML = '<p class="ac-empty">No recipes match &ldquo;' +
-            escapeHtml(query) + '&rdquo;. Try an ingredient or cuisine.</p>';
+          message('No recipes match &ldquo;' + escapeHtml(query) + '&rdquo;. Try an ingredient or cuisine.');
           return;
         }
         panel.hidden = false;
         panel.innerHTML = matches.map(function (m, i) {
-          var thumb = m.i
-            ? '<img src="' + escapeHtml(document.body.dataset.base + 'assets/img/recipes/' + m.i + '.jpg') +
+          var file = window.cvIndexImage(m);
+          var thumb = file
+            ? '<img src="' + escapeHtml(document.body.dataset.base + 'assets/img/recipes/' + file + '.jpg') +
               '" alt="" loading="lazy" width="44" height="44">'
             : '<span class="ac-ph" aria-hidden="true"></span>';
           return '<a class="ac-item" role="option" id="ac-' + i + '" aria-selected="false" href="' +
             escapeHtml(document.body.dataset.base + 'recipes/' + m.g + '/') + '">' + thumb +
             '<span><strong>' + escapeHtml(m.t) + '</strong><span>' + escapeHtml(m.c) +
-            ' &middot; ' + escapeHtml(cardTime(m.m, m.x)) + ' &middot; ' + escapeHtml(m.d) + '</span></span></a>';
+            ' &middot; ' + escapeHtml(cardTime(m.m, m.x) + (m.u ? '+' : '')) + ' &middot; ' + escapeHtml(m.d) + '</span></span></a>';
         }).join('');
         active = -1;
       };
 
+      var latest = 0;
       var run = debounce(function () {
-        var query = input.value.trim().toLowerCase();
+        var query = input.value.trim();
         if (query.length < 2) { render([], ''); return; }
-        var terms = query.split(/\s+/);
+        var terms = searchTerms(query);
+        if (!terms.length) { render([], query); return; }
+        var ticket = ++latest;
+        var settled = false;
+        /* Only the first search on a page waits for the download; say so rather than show nothing. */
+        setTimeout(function () { if (!settled && ticket === latest) message('Loading recipes&hellip;'); }, 150);
         loadIndex().then(function (data) {
+          settled = true;
+          if (ticket !== latest) return;
           var matches = data
             .map(function (r) { return { r: r, score: scoreRecipe(r, terms) }; })
             .filter(function (x) { return x.score > 0; })
-            .sort(function (a, b) { return b.score - a.score; })
+            .sort(function (a, b) { return b.score - a.score || a.r.t.localeCompare(b.r.t); })
             .slice(0, 7)
             .map(function (x) { return x.r; });
           render(matches, query);
+        }, function () {
+          settled = true;
+          if (ticket !== latest) return;
+          message('Search could not load the recipe list. Check your connection and try again, or ' +
+            '<a href="' + escapeHtml(document.body.dataset.base + 'recipes/') + '">browse all recipes</a>.');
         });
       }, 130);
 

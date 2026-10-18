@@ -200,6 +200,7 @@ module.exports = {
   },
 
   'neenish-tarts': {
+    untimed: ['cooling completely'],
     d: 'Little sweet pastry tarts with a jam and vanilla cream filling, iced half in chocolate and half in white. The two-tone tea-shop tart.',
     meta: 'Neenish tarts: small sweet pastry shells filled with jam and vanilla buttercream and iced half chocolate, half white. A classic Australian tea-shop tart.',
     kw: ['neenish tarts', 'neenish tarts recipe', 'australian neenish tarts', 'chocolate and white iced tarts', 'how to make neenish tarts'],
@@ -352,6 +353,7 @@ module.exports = {
   },
 
   'honey-joys': {
+    untimed: ['cooling completely'],
     d: 'Cornflakes coated in melted butter, sugar and honey and baked in paper cases until crisp. A children\'s party standby.',
     meta: 'Honey joys: cornflakes tossed in a melted butter, sugar and honey syrup, spooned into paper cases and baked until crisp and golden. Makes twelve.',
     kw: ['honey joys', 'honey joys recipe', 'australian honey joys', 'cornflake honey joys', 'honey joys in patty cases'],
@@ -483,7 +485,7 @@ module.exports = {
     pair: ['A cup of tea', 'Fresh strawberries', 'Coffee'],
     store: 'Keep in an airtight container up to 5 days. Freeze un-iced squares for 2 months.',
     nut: [229, 2, 26, 13, 2, 19, 110],
-    rest: [60, 'Cooling']
+    rest: [80, 'Cooling']
   },
 
   'boiled-fruit-cake': {

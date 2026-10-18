@@ -58,7 +58,7 @@ module.exports = {
       '# For the dressing',
       '6 anchovy fillets in oil, drained',
       '2 garlic cloves',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '2 tbsp lemon juice',
       '1 tbsp Dijon mustard',
       '1 tsp Worcestershire sauce',
@@ -85,7 +85,7 @@ module.exports = {
     tips: [
       'Two minutes of massaging, properly. Thirty seconds does nothing.',
       'Strip the stems out. They never soften and they ruin every mouthful they are in.',
-      'The dressing contains raw egg yolk, so use a good egg and keep it refrigerated.'
+      'The dressing is raw egg yolk and oil, so keep it in the fridge until it goes on the kale.'
     ],
     pair: ['Grilled chicken', 'A cold Chablis', 'Roasted tomatoes'],
     store: 'Dressed kale keeps 2 days refrigerated and is arguably better on day two. Add the croutons at the last minute.',
@@ -261,7 +261,7 @@ module.exports = {
       'Heat the oven to 200°C / 400°F. Brush the pepper halves inside and out with 3 tablespoons of the oil and season with 1 teaspoon of the salt.',
       'Lay them cut side down in a large roasting dish and roast 25 minutes, until slumped and blistered.',
       'Meanwhile cook the rice in salted water for 10 minutes only — it should be distinctly underdone, because it will finish in the peppers. Drain.',
-      'Heat the 2 tablespoons of oil and cook the onion 8 minutes, then the garlic, oregano and cinnamon for 1 minute.',
+      'At the same time, heat the 2 tablespoons of oil and cook the onion 8 minutes, then the garlic, oregano and cinnamon for 1 minute.',
       'Add the tomatoes and simmer 8 minutes until thick, then fold in the rice, pine nuts, raisins, feta, herbs, the remaining salt and the pepper.',
       'Turn the roasted pepper halves cut side up, pour the 100 ml of water into the base of the dish, and pack the filling into each one, mounding it.',
       'Scatter the extra feta over and drizzle with the last tablespoon of oil.',

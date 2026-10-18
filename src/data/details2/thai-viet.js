@@ -50,6 +50,7 @@ module.exports = {
   },
 
   'larb-gai': {
+    untimed: ['cooling completely'],
     d: 'Minced chicken tossed with toasted rice powder, lime, fish sauce and a great deal of mint and shallot. Isaan cooking, eaten with sticky rice and raw vegetables, and one of the most refreshing dishes anywhere.',
     meta: 'Larb gai — Thai minced chicken salad with toasted rice powder, lime, fish sauce, mint and shallot.',
     kw: ['larb gai recipe', 'thai chicken salad', 'laab', 'toasted rice powder'],
@@ -181,6 +182,7 @@ module.exports = {
   },
 
   'thai-iced-tea': {
+    untimed: ['cooling to room temperature'],
     rest: [120, 'chilling'],
     d: 'Strongly brewed spiced black tea, sweetened with condensed milk and poured over ice with a float of evaporated milk. The orange colour is from food colouring in the tea blend, and it is part of the tradition.',
     meta: 'Thai iced tea (cha yen) — strong spiced black tea with condensed milk over ice and an evaporated milk float.',
@@ -308,7 +310,7 @@ module.exports = {
     ],
     st: [
       'Pound the lemongrass, garlic and shallots to a rough paste, then mix with the fish sauce, honey, sugar, soy, oil and pepper.',
-      'Pound the pork chops lightly to an even thickness and marinate them for at least 4 hours, ideally overnight.',
+      'Pound the pork chops lightly to an even thickness and marinate them, covered, in the fridge for at least 4 hours, ideally overnight.',
       'Dissolve the sugar in the warm water for the nước chấm, then add the fish sauce and lime juice. Taste — it should be balanced, not aggressive. Add the garlic and chilli last so they float.',
       'Rinse and cook the broken rice with slightly less water than usual, as the grains absorb faster. It should be soft and slightly clumping.',
       'Heat a griddle pan or barbecue to high.',

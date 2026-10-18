@@ -42,6 +42,7 @@ module.exports = {
   },
 
   'candied-pecans': {
+    untimed: ['cooling completely'],
     d: 'Pecan halves coated in a whisked egg white, sugar and cinnamon glaze and baked low and slow until crisp and dry. A sweet crunchy snack for salads, cheese boards and gifts.',
     meta: 'Candied pecans: pecan halves in a whisked egg white, sugar and cinnamon glaze, baked low and slow until crisp. For salads, cheese boards and gifts.',
     kw: ['candied pecans', 'cinnamon candied pecans', 'oven baked candied pecans', 'candied pecans for salads', 'how to make candied pecans'],
@@ -74,6 +75,7 @@ module.exports = {
   },
 
   'chex-mix': {
+    untimed: ['cooling'],
     d: 'Crisp square cereals, pretzels and mixed nuts tossed in melted butter, Worcestershire sauce and savoury seasonings, then baked low until crunchy. The party-bowl snack that disappears in minutes.',
     meta: 'Chex Mix: crisp square cereals, pretzels and mixed nuts tossed in butter, Worcestershire sauce and savoury seasonings, then baked low until crunchy.',
     kw: ['chex mix', 'homemade chex mix', 'oven baked chex mix', 'savory chex mix', 'how to make chex mix'],

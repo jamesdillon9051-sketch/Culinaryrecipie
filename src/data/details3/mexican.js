@@ -97,7 +97,7 @@ module.exports = {
       'Ground cinnamon and ice, to serve'
     ],
     st: [
-      'Rinse the rice once, then put it in a bowl with the broken cinnamon sticks and the warm water. Cover and leave at room temperature overnight, or at least 8 hours.',
+      'Rinse the rice once, then put it in a bowl with the broken cinnamon sticks and the warm water. Cover and refrigerate overnight, or at least 8 hours.',
       'Tip the rice, cinnamon and soaking water into a blender with the extra 500 ml water. Blend on high for a full 2 minutes — longer than feels necessary.',
       'Strain through a fine sieve lined with muslin, pressing the solids to get everything through. Discard the pulp.',
       'Stir in the milk (or oat milk), sugar and vanilla. Taste and adjust the sugar — it should be sweet but not cloying.',
@@ -157,6 +157,7 @@ module.exports = {
   },
 
   'tostadas': {
+    cookMax: 55,
     d: 'Crisp fried tortillas topped with chicken tinga — shredded chicken in a smoky chipotle and tomato sauce — with beans, lettuce, crema and cheese piled on.',
     meta: 'Tinga tostadas — crisp tortillas topped with smoky chipotle chicken, beans, crema and cheese.',
     kw: ['tinga tostadas recipe', 'chicken tinga', 'mexican tostadas', 'chipotle chicken'],

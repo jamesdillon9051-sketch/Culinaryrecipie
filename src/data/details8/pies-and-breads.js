@@ -89,7 +89,8 @@ module.exports = {
   },
 
   'fruit-tart': {
-    rest: [240, 'chilling'],
+    untimed: ['cooling completely'],
+    rest: [260, 'chilling'],
     d: 'The pâtisserie window tart: crisp sweet pastry, a proper vanilla crème pâtissière, and whatever fruit is worth buying, glazed to a shine. It is three separate recipes and each one is easy; the discipline is in cooling them.',
     meta: 'A French fruit tart with pâte sucrée, real crème pâtissière and a set apricot glaze — the pâtisserie classic, built in stages.',
     kw: ['french fruit tart', 'fruit tart recipe', 'creme patissiere tart', 'pate sucree fruit tart'],
@@ -137,6 +138,7 @@ module.exports = {
   },
 
   'garlic-focaccia': {
+    untimed: ['cooling completely'],
     rest: [960, 'cold proving'],
     d: 'A cold-fermented focaccia with a head of garlic confited in olive oil and folded through the dough, so the flavour is inside the crumb rather than burnt on top. Dimpled deep, baked in oil, and vegan without trying.',
     meta: 'Garlic confit focaccia — the garlic is slow-cooked in olive oil and folded into a cold-fermented dough, not scattered on top.',
@@ -170,7 +172,7 @@ module.exports = {
       'Slide it out of the tin onto a rack immediately, or the base steams and softens. Eat warm.'
     ],
     tips: [
-      'The confit keeps for two weeks in the fridge under its oil, and the oil is worth making double of for everything else you cook that week.',
+      'The confit keeps for 4 days in the fridge under its oil; garlic held in oil can carry botulism, so freeze what you will not use by then.',
       'Dimple hard, right through to the tin. Timid dimples spring back and you get a flat loaf instead of a pocketed one.',
       'A metal tin, well oiled. Glass and ceramic will not fry the base to the crisp underside that makes focaccia focaccia.'
     ],

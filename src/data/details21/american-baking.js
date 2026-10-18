@@ -51,7 +51,7 @@ module.exports = {
     pair: ['Vanilla ice cream', 'Whipped cream', 'Hot black coffee'],
     store: 'Keep covered at room temperature 2 days, then refrigerate up to 5 days. Freeze whole, baked, for 3 months and reheat at 160°C for 20 minutes.',
     nut: [444, 4, 62, 20, 3, 30, 260],
-    rest: [240, 'chilling the dough and cooling the pie']
+    rest: [255, 'chilling the dough and cooling the pie']
   },
 
   'blueberry-pie': {

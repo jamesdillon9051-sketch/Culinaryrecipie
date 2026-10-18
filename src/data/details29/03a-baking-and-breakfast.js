@@ -50,6 +50,7 @@ module.exports = {
   },
 
   'black-and-white-cookies': {
+    untimed: ['cooling completely'],
     d: 'Big, soft, cakey lemon-vanilla cookies iced half in glossy vanilla and half in chocolate. The New York deli counter classic.',
     meta: 'Black and white cookies: big, soft, cake-like lemon-vanilla cookies iced half in glossy vanilla and half in chocolate. The New York deli classic.',
     kw: ['black and white cookies', 'new york black and white cookies', 'black and white cookies recipe', 'half moon cookies', 'how to make black and white cookies'],
@@ -120,6 +121,7 @@ module.exports = {
   },
 
   'chocolate-babka': {
+    untimed: ['cooling'],
     d: 'Rich, buttery yeast dough rolled around a dark chocolate filling, twisted into tight layers and baked in a tin, then soaked in sugar syrup. Two loaves that look as good as they taste.',
     meta: 'Chocolate babka: buttery yeast dough rolled around a dark chocolate filling, twisted into layers and baked, then brushed with syrup. Two loaves.',
     kw: ['chocolate babka', 'homemade chocolate babka', 'chocolate babka loaf', 'jewish chocolate babka', 'how to make chocolate babka'],
@@ -158,7 +160,7 @@ module.exports = {
     pair: ['A cup of strong coffee', 'A glass of cold milk', 'Butter'],
     store: 'Keeps wrapped at room temperature for up to 3 days, and it is even better toasted on the second day. Freezes well for up to 3 months, sliced or whole.',
     nut: [286, 5, 35, 14, 2, 15, 70],
-    rest: [105, 'Rising']
+    rest: [120, 'Rising']
   },
 
   'coconut-cake': {
@@ -238,6 +240,7 @@ module.exports = {
   },
 
   'cranberry-orange-bread': {
+    untimed: ['cooling the loaf', 'setting the glaze'],
     d: 'A moist, tender quick bread with tart cranberries, orange zest and juice, and a sweet orange glaze. A holiday breakfast and gift loaf that needs no yeast and no fuss.',
     meta: 'Cranberry orange bread: a moist, tender quick loaf with tart cranberries, orange zest and juice, and a sweet orange glaze. No yeast, no fuss.',
     kw: ['cranberry orange bread', 'homemade cranberry orange bread', 'cranberry orange loaf', 'easy cranberry orange bread', 'how to make cranberry orange bread'],
@@ -280,6 +283,7 @@ module.exports = {
   },
 
   'cream-horns': {
+    untimed: ['cooling completely'],
     d: 'Crisp, flaky puff pastry cones wound around metal moulds, baked until golden and piped full of jam and softly whipped vanilla cream. A British bakery classic, ready in about an hour.',
     meta: 'Cream horns: crisp, flaky puff pastry cones wound round metal moulds, baked golden and piped full of raspberry jam and whipped vanilla cream.',
     kw: ['cream horns', 'homemade cream horns', 'puff pastry cream horns', 'cream horns with jam and cream', 'how to make cream horns'],

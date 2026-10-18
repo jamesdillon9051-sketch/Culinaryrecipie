@@ -55,7 +55,7 @@ module.exports = [
 
   /* Mains — the weekday pot and the Sunday tray */
   c('kafta-bil-sanieh', 'Kafta bil Sanieh', 'Lebanese', 'Dinner', 'Easy', 25, 45, 6, 0, 0, ['Dairy-Free'], ['new'], 'Kafta bil sanieh tray potatoes tomato'),
-  c('kibbeh-bil-sanieh', 'Kibbeh bil Sanieh', 'Lebanese', 'Dinner', 'Hard', 50, 45, 8, 0, 0, ['Dairy-Free'], ['new'], 'Kibbeh bil sanieh baked tray'),
+  c('kibbeh-bil-sanieh', 'Kibbeh bil Sanieh', 'Lebanese', 'Dinner', 'Hard', 50, 65, 8, 0, 0, ['Dairy-Free'], ['new'], 'Kibbeh bil sanieh baked tray'),
   c('kibbeh-labaniyeh', 'Kibbeh Labaniyeh', 'Lebanese', 'Dinner', 'Hard', 55, 40, 6, 0, 0, [], ['new'], 'Kibbeh labaniyeh yogurt sauce'),
   c('shish-barak', 'Shish Barak', 'Lebanese', 'Dinner', 'Hard', 70, 35, 6, 0, 0, [], ['new'], 'Shish barak dumplings yogurt'),
   c('sayadieh', 'Sayadieh', 'Lebanese', 'Dinner', 'Medium', 30, 55, 6, 0, 0, ['Dairy-Free'], ['new'], 'Sayadieh fish rice caramelised onion'),

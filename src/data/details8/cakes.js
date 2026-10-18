@@ -5,7 +5,8 @@
 
 module.exports = {
   'chocolate-cake': {
-    rest: [60, 'cooling'],
+    untimed: ['cooling'],
+    rest: [95, 'cooling'],
     d: 'The birthday cake standard: three dark, tender layers made with cocoa bloomed in boiling coffee, under a silky chocolate buttercream. The batter is thin enough to alarm you, which is exactly what gives the crumb its moisture.',
     meta: 'A three-layer chocolate cake with cocoa bloomed in hot coffee and a silky chocolate buttercream — deeply dark, never dry.',
     kw: ['chocolate cake', 'chocolate layer cake', 'birthday chocolate cake', 'moist chocolate cake'],
@@ -55,6 +56,7 @@ module.exports = {
   },
 
   'vanilla-sponge-cake': {
+    untimed: ['cooling completely'],
     d: 'The plain vanilla sponge every other cake is built on: fine, even crumb, real vanilla, and enough structure to layer, soak or split. Made by the reverse-creaming method, which coats the flour in butter before any liquid goes near it.',
     meta: 'A reverse-creamed vanilla sponge with a fine, tender crumb — the plain layer cake base worth learning properly.',
     kw: ['vanilla sponge cake', 'vanilla cake recipe', 'plain sponge cake', 'reverse creaming cake'],
@@ -177,6 +179,7 @@ module.exports = {
   },
 
   'marble-cake': {
+    untimed: ['cooling completely'],
     d: 'The German Marmorkuchen: one batter split in two, one half darkened with cocoa, and the two dragged through each other with a single pass of a skewer. Baked in a ring tin so every slice shows the pattern.',
     meta: 'German marble cake — one vanilla batter, one cocoa, swirled once with a skewer and baked in a ring tin.',
     kw: ['marble cake', 'marmorkuchen', 'marble bundt cake', 'chocolate vanilla marble cake'],
@@ -218,6 +221,8 @@ module.exports = {
   },
 
   'pound-cake': {
+    cookMax: 70,
+    untimed: ['cooling completely'],
     d: 'A pound of each: butter, sugar, eggs and flour, creamed by hand until the batter is pale enough to be its own leavening. No baking powder, no shortcuts, and a crust that shatters slightly under the knife.',
     meta: 'A traditional pound cake — equal weights of butter, sugar, egg and flour, leavened by creaming alone.',
     kw: ['pound cake', 'classic pound cake', 'butter pound cake', 'quatre quarts'],
@@ -253,6 +258,7 @@ module.exports = {
   },
 
   'bundt-cake': {
+    untimed: ['cooling completely'],
     d: 'A sour cream bundt with a fine, damp crumb and a lemon glaze that sets to a thin shell. The tin does the decorating, which is the entire appeal — provided you grease it properly, and most people do not.',
     meta: 'A sour cream bundt cake with a fine, damp crumb and a set lemon glaze — plus the greasing method that gets it out whole.',
     kw: ['bundt cake', 'sour cream bundt cake', 'vanilla bundt cake', 'bundt cake glaze'],
@@ -298,7 +304,7 @@ module.exports = {
   },
 
   'basque-cheesecake': {
-    rest: [240, 'cooling'],
+    rest: [120, 'cooling'],
     d: 'The tarta de queso from La Viña in San Sebastián: no base, no water bath, and a deliberately scorched top over a centre that stays loose and custardy. Baked hot and fast in a crumpled sheet of parchment.',
     meta: 'Burnt Basque cheesecake — crustless, baked hot and fast to a scorched top and a molten centre. Naturally gluten-free.',
     kw: ['basque cheesecake', 'burnt basque cheesecake', 'san sebastian cheesecake', 'crustless cheesecake'],
@@ -320,13 +326,13 @@ module.exports = {
       'Pour in the cream and vanilla and mix on low until combined, then sift over the flour (or cornflour) and salt and mix 20 seconds more.',
       'Strain the batter through a sieve into the tin. This is the only insurance against a lump.',
       'Bake 45 to 55 minutes, until the top is deeply browned — almost black at the edges — and the centre still wobbles like a set jelly when you nudge the tin.',
-      'Leave it to cool in the tin at room temperature for at least 4 hours. It will sink in the middle, which is what it is meant to do.',
-      'Unclip and serve at room temperature, in wedges, with the paper peeled back at the table.'
+      'Leave it to cool in the tin at room temperature for 2 hours. It will sink in the middle, which is what it is meant to do.',
+      'Unclip and serve in wedges, with the paper peeled back at the table. Refrigerate what is left straight away: a baked cheesecake is egg and cream, and should not sit out longer than the cooling.'
     ],
     tips: [
       'Room temperature everything. Cold cream cheese gives lumps that no amount of beating will fix.',
       'Judge it by wobble, not by time. Ovens vary by 20°C and this bake has a fifteen-minute window.',
-      'Do not refrigerate it before serving on the day. Chilling sets the centre firm and you lose the custardy middle.'
+      'Serve it as soon as it has cooled for the custardy middle. Chilling sets the centre firm, which is how any leftovers will be.'
     ],
     pair: ['A glass of Pedro Ximénez', 'Black coffee', 'Nothing at all — it needs no help'],
     store: 'Covered at room temperature for a day, or refrigerated for 4 days; bring back to room temperature for at least 2 hours before serving. It does not freeze well.',

@@ -2,6 +2,7 @@
 
 module.exports = {
   'tonkotsu-ramen': {
+    untimed: ['cooling'],
     rest: [240, 'marinating'],
     d: 'The milky, collagen-heavy pork broth that made Hakata famous, boiled hard for eight hours until the fat and gelatine emulsify into something that coats the lips. Paired with chashu pork, a jammy ajitama egg and thin, straight noodles.',
     meta: 'Authentic tonkotsu ramen with an 8-hour emulsified pork broth, chashu, ajitama egg and thin Hakata-style noodles.',
@@ -33,7 +34,7 @@ module.exports = {
       'Boil for 8 hours, topping up with boiling water to keep the bones submerged and stirring every hour to keep the emulsion moving. The broth will turn opaque and creamy white.',
       'Add the onion, garlic, ginger and spring onion whites for the final hour, then strain through a coarse sieve, pressing hard. You should have 2 litres.',
       'For the chashu, simmer the rolled pork belly in the soy sauce, mirin, sake and 400 ml water for 90 minutes, turning occasionally. Cool in the liquid, then chill and slice thinly. Reserve the liquid as your tare.',
-      'For the ajitama, boil the eggs for exactly 6.5 minutes, shock in ice water, peel, and marinate in 200 ml of the cooled tare for at least 4 hours.',
+      'For the ajitama, boil the eggs for exactly 6.5 minutes, shock in ice water, peel, and marinate in 200 ml of the cooled tare in the fridge for at least 4 hours.',
       'To serve, put 3 tablespoons of tare in each hot bowl and add 400 ml of boiling-hot broth. Whisk in a teaspoon of sesame oil.',
       'Boil the noodles for 60 to 90 seconds only, drain hard, and lower into the bowls in a neat fold.',
       'Top with chashu, a halved ajitama, menma, nori and spring onion. Eat immediately, and loudly.'
@@ -224,7 +225,7 @@ module.exports = {
 
   'yakitori': {
     d: 'Charcoal-grilled chicken skewers lacquered in a tare that gets richer every time you use it. The Japanese izakaya standard, and one of the best things you can do with chicken thighs and a hot grill.',
-    meta: 'Charred yakitori chicken skewers with a glossy homemade tare glaze. Izakaya-style, on the grill in 35 minutes.',
+    meta: 'Charred yakitori chicken skewers with a glossy homemade tare glaze. Izakaya-style, ready in about 65 minutes.',
     kw: ['yakitori recipe', 'japanese chicken skewers', 'tare sauce', 'grilled chicken skewers'],
     why: 'Tare is brushed on only in the last minutes of grilling because its sugars burn quickly over direct heat; applied in layers, each coat dries and concentrates into a lacquer. Threading skin between meat pieces means every skewer self-bastes as the fat renders down over the coals.',
     ing: [
@@ -305,8 +306,8 @@ module.exports = {
   },
 
   'miso-soup': {
-    d: 'The five-minute soup that anchors every Japanese meal: a clean dashi broth, silken tofu, wakame and miso whisked in off the heat. Restraint is the entire recipe.',
-    meta: 'Traditional Japanese miso soup with dashi, silken tofu and wakame. Ready in 15 minutes, and never boil the miso.',
+    d: 'The soup that anchors every Japanese meal: a clean dashi broth, silken tofu, wakame and miso whisked in off the heat. Restraint is the entire recipe.',
+    meta: 'Traditional Japanese miso soup with dashi, silken tofu and wakame. Ready in 35 minutes with the kombu soak, and never boil the miso.',
     kw: ['miso soup recipe', 'japanese dashi soup', 'tofu wakame soup', 'healthy japanese soup'],
     why: 'Miso is a living food full of enzymes and beneficial bacteria, and boiling it destroys both along with its delicate aroma compounds. Whisking it into broth held below 80°C keeps the flavour bright and the texture smooth, which is why the pan always comes off the heat first.',
     ing: [
@@ -417,6 +418,7 @@ module.exports = {
   },
 
   'japanese-cheesecake': {
+    untimed: ['cooling completely'],
     rest: [150, 'chilling'],
     d: 'The jiggly cotton cheesecake — somewhere between a soufflé and a sponge, barely sweet, and impossibly light. It rises like a soufflé but, thanks to the water bath, it does not collapse.',
     meta: 'Jiggly Japanese cotton cheesecake — light as a soufflé, barely sweet, baked in a water bath so it never cracks.',
@@ -444,7 +446,7 @@ module.exports = {
       'Pour into the tin from a height of 20 cm to burst large bubbles, then tap the tin on the counter twice.',
       'Set in a roasting tin and pour in boiling water to a depth of 3 cm. Bake at 150°C / 300°F for 30 minutes, then reduce to 130°C / 265°F for 40 minutes more.',
       'Turn the oven off, prop the door open with a wooden spoon, and leave the cake inside for 30 minutes. This gradual cooling is what prevents collapse.',
-      'Remove, cool completely, then brush with warm apricot jam. Chill for 2 hours before slicing with a hot, dry knife.'
+      'Remove, cool for no more than 2 hours, then brush with warm apricot jam. Chill for 2 hours before slicing with a hot, dry knife.'
     ],
     tips: [
       'Every ingredient should be at room temperature. Cold cream cheese will not emulsify and leaves lumps.',

@@ -400,7 +400,7 @@ module.exports = {
     ],
     st: [
       'Mix the chicken with the yoghurt, ginger and garlic paste, chilli powder, turmeric, garam masala and salt.',
-      'Marinate 30 minutes at room temperature.',
+      'Cover and marinate 30 minutes in the fridge.',
       'Stir in the rice flour, cornflour and egg to make a thick clinging coating.',
       'Heat the oil to 180C.',
       'Fry the chicken in three batches for 5 minutes each, until deep red-brown and firm. Drain on a rack.',
@@ -1020,6 +1020,7 @@ module.exports = {
   },
 
   'ras-malai': {
+    untimed: ['cooling'],
     d: 'Discs of fresh cheese poached, squeezed and soaked in cardamom and saffron milk. The dessert Bengali sweet shops are judged on.',
     meta: 'Homemade chenna kneaded smooth, poached in syrup, flattened and steeped in reduced cardamom and saffron milk with pistachios.',
     kw: ['ras malai', 'ras malai recipe', 'rasmalai', 'indian milk dessert', 'bengali sweet'],
@@ -1061,6 +1062,7 @@ module.exports = {
   },
 
   'kulfi': {
+    untimed: ['cooling to room temperature'],
     d: 'Milk boiled down by half and frozen hard in moulds. Denser than ice cream because it is never churned.',
     meta: 'Whole milk reduced by half with sugar and cardamom, blended with nuts and frozen in moulds without churning.',
     kw: ['kulfi', 'kulfi recipe', 'indian ice cream', 'malai kulfi', 'pistachio kulfi'],
@@ -1323,6 +1325,7 @@ module.exports = {
   },
 
   'pani-puri': {
+    untimed: ['cooling completely'],
     d: 'Hollow crisp spheres filled with spiced water, potato and chickpea, eaten whole in one go. India\'s most-loved street snack.',
     meta: 'Crisp semolina puris filled with spiced mint and tamarind water, potato and chickpeas, assembled and eaten immediately.',
     kw: ['pani puri', 'pani puri recipe', 'golgappa', 'puchka', 'spiced water snack'],

@@ -49,8 +49,9 @@ module.exports = {
   },
 
   'almond-crescent-cookies': {
+    untimed: ['cooling'],
     d: 'Buttery almond crescents shaped by hand, baked for 15 minutes and rolled twice in icing sugar while still warm.',
-    meta: 'Almond crescent cookies, buttery and tender, rolled in icing sugar. 30 cookies, baked for 15 minutes, ready in 45 minutes.',
+    meta: 'Almond crescent cookies, buttery and tender, rolled in icing sugar. 30 cookies, baked for 15 minutes, ready in 1 hour 15 minutes.',
     kw: ['almond crescent cookies', 'almond crescents', 'vanillekipferl style cookies', 'butter almond crescents', 'christmas crescent cookies'],
     why: 'This is what to bake in the first cold week of December, when the shops are playing carols and the kitchen needs something small and sweet for the tin. Almond crescents belong to the Central European tradition of vanilla crescents, a delicate butter cookie that dissolves in the mouth.\n\nThe dough is short, with a high proportion of butter to flour and a generous amount of ground almonds. There is no egg, which is why the cookies are so tender, and also why the dough is fragile. Chill it for 30 minutes before shaping, or it will stick to your hands and lose its shape in the oven.\n\n**Roll into a small log and bend into a crescent.** Pieces about the size of a walnut, rolled under the palm into a short sausage with tapered ends and curved gently, bake into the classic shape. Place them on a lined tray with a little room between them.\n\nBake until the bottoms are pale gold and the tops are still pale, then dust them with icing sugar while they are warm so the first layer melts in. Wait 10 minutes and roll them a second time in more sugar once cool for a thick, snowy coat.',
     ing: [
@@ -80,7 +81,7 @@ module.exports = {
 
   'almond-flour-cake': {
     d: 'A moist, tender cake made with ground almonds in place of most of the flour, baked for 35 minutes with lemon zest and a dusting of icing sugar.',
-    meta: 'Almond flour cake, moist and tender with lemon zest, baked for 35 minutes. Ten servings, ready in 50 minutes.',
+    meta: 'Almond flour cake, moist and tender with lemon zest, baked for 35 minutes. Ten servings, ready in 1 hour 5 minutes.',
     kw: ['almond flour cake', 'ground almond cake', 'almond cake with lemon', 'moist almond cake', 'almond sponge cake'],
     why: 'Almonds are the flour here, not an addition to it. A cake made from ground almonds has a tight, moist crumb and a deep, nutty flavour that plain flour cannot match, and it stays soft for days. It is also very forgiving, since there is little gluten to toughen.\n\nThe structure comes from eggs. Four of them, separated, with the whites whipped to soft peaks and folded in at the end to lighten the batter. The yolks are beaten with the sugar and butter until pale and thick. This takes a few extra minutes, but it gives a cake that rises properly rather than a dense, heavy slab.\n\n**Do not overbeat after the almonds go in.** Fold the ground almonds, baking powder and salt in gently, then fold in the whites in two additions. Overmixing knocks out the air and flattens the cake.\n\nBake in a lined 20 cm tin at 170C until a skewer comes out clean and the top is golden. Cool in the tin for 15 minutes before turning out, because the crumb is delicate when warm. A dusting of icing sugar and a spoonful of whipped cream or fresh berries is all it needs.',
     ing: [
@@ -147,7 +148,7 @@ module.exports = {
 
   'apple-bread': {
     d: 'A moist spiced quick bread with chunks of fresh apple, baked for 1 hour and finished with a cinnamon sugar crust.',
-    meta: 'Apple bread with fresh apple chunks and cinnamon, baked for 60 minutes. Ten servings, ready in 1 hour 20 minutes.',
+    meta: 'Apple bread with fresh apple chunks and cinnamon, baked for 60 minutes. Ten servings, ready in 1 hour 35 minutes.',
     kw: ['apple bread', 'fresh apple quick bread', 'cinnamon apple loaf', 'apple loaf cake', 'homemade apple bread'],
     why: 'Most home versions come out dense and damp in the centre, and the fix is to cut the apple small and pat it dry. Large chunks release water into the batter as they bake and leave soggy pockets, while small dice of about 1 cm soften evenly and give the loaf a fruity crumb.\n\nChoose a firm apple that keeps its shape, such as Braeburn or Granny Smith, and peel it. Toss the diced fruit with a spoonful of the flour from the recipe before folding it in, which helps keep the pieces from sinking to the bottom. The batter itself is a simple oil and brown sugar mix, with buttermilk for tenderness and cinnamon and nutmeg for warmth.\n\n**Mix the wet and dry ingredients separately and combine at the last moment.** Stir only until you can no longer see dry flour. A lumpy batter is correct. Beat it smooth and the loaf comes out tough and tunnelled.\n\nThe cinnamon sugar on top bakes into a crisp, sparkling crust. Bake until a skewer comes out clean, which can take up to an hour and 10 minutes depending on the tin. Cover with foil if the top is darkening before the middle is done, and cool in the tin for 15 minutes.',
     ing: [
@@ -185,7 +186,7 @@ module.exports = {
 
   'apple-bundt-cake': {
     d: 'A tall, spiced bundt cake with grated apple and walnuts, baked for 1 hour and finished with a caramel glaze.',
-    meta: 'Apple bundt cake with cinnamon, walnuts and a caramel glaze, baked for 60 minutes. Twelve servings, ready in 1 hour 25 minutes.',
+    meta: 'Apple bundt cake with cinnamon, walnuts and a caramel glaze, baked for 60 minutes. Twelve servings, ready in 1 hour 40 minutes.',
     kw: ['apple bundt cake', 'cinnamon apple bundt cake', 'apple cake with caramel glaze', 'fresh apple bundt', 'apple walnut bundt cake'],
     why: 'The smell of cinnamon and warm apples drifting from the oven is the first sign this one is going well. A bundt cake is built for exactly that: a tall, moist crumb with a deep fluted shape that holds a glaze beautifully, and apples and warm spices are a classic match for it.\n\nGrate half of the apples and dice the other half. The grated fruit melts into the batter and keeps it moist, while the diced pieces give soft, jammy bites. Peel them first, as skin turns tough in a cake. A cooking apple holds its shape and adds sharpness, but any firm eating apple will do.\n\n**Grease the tin like you mean it.** Bundt tins have a lot of edges for a cake to cling to. Brush every groove with soft butter, dust with flour and tap out the excess, or use a baking spray that contains flour. Cool the cake in the tin for 15 minutes, then turn it out while still warm.\n\nThe glaze is butter, brown sugar and cream boiled for 2 minutes. Pour it over the cooled cake and let it run into the ridges. Walnuts are optional but their bitterness is a good foil for the sweet glaze.',
     ing: [
@@ -257,7 +258,7 @@ module.exports = {
 
   'banana-chocolate-chip-bread': {
     d: 'A moist banana loaf studded with chocolate chips and baked for 1 hour until the top cracks and turns deep gold.',
-    meta: 'Banana chocolate chip bread, moist and golden, baked for 60 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Banana chocolate chip bread, moist and golden, baked for 60 minutes. Ten servings, ready in 1 hour 30 minutes.',
     kw: ['banana chocolate chip bread', 'chocolate chip banana loaf', 'moist banana bread with chocolate', 'banana bread recipe', 'banana loaf with chips'],
     why: 'A Sunday loaf for a table of six, and better on Monday. Banana bread is the classic answer to a bowl of blackening fruit, and the chocolate chips turn a plain loaf into something that disappears by lunchtime.\n\nThe ripeness of the bananas matters more than anything else. Use fruit that is mostly black on the skin, soft and heavily scented, because the sugars are fully developed and the flesh mashes into a loose puree. Pale bananas make a bland, dry loaf, and no amount of extra sugar fixes that. Weigh them after peeling: 350 g is about three medium bananas.\n\n**Toss the chocolate chips in a spoonful of flour first.** This helps keep them suspended in the batter rather than sinking to the bottom of the tin in a layer. Fold them in last, with as few strokes as you can.\n\nBake until a skewer comes out with a few moist crumbs, not clean and not wet. The top will crack along the middle, which is normal, and shows the loaf rose well. Cool in the tin for 15 minutes before lifting out onto a rack. The loaf slices more cleanly once it has fully cooled.',
     ing: [
@@ -291,7 +292,7 @@ module.exports = {
 
   'banana-cookies': {
     d: 'Soft, cake-like banana cookies with cinnamon and walnuts, baked for 15 minutes and finished with a thin vanilla glaze.',
-    meta: 'Banana cookies, soft and cake-like with cinnamon, baked for 15 minutes. 18 cookies, ready in 30 minutes.',
+    meta: 'Banana cookies, soft and cake-like with cinnamon, baked for 15 minutes. 18 cookies, ready in 50 minutes.',
     kw: ['banana cookies', 'soft banana cookies', 'banana walnut cookies', 'cake like banana cookies', 'banana cookie recipe'],
     why: 'Mash one banana, not two. That is the single most useful instruction here, because banana is wet, and too much of it turns the dough into a batter that spreads into thin, greasy puddles on the tray. One large ripe banana gives you the flavour without flooding the mixture.\n\nThese are soft, almost cake-like cookies, closer to a muffin top than a crisp biscuit. The softness comes from a higher ratio of flour to fat than in a chocolate chip dough, and from the moisture in the fruit. They puff up in the oven and set with a tender, springy crumb, and are not meant to be chewy.\n\n**Chill the dough for 20 minutes before baking.** Banana dough is soft and sticky, and a short rest in the fridge firms the butter so the cookies hold their shape. Drop them in mounds on the tray and leave 4 cm between each one.\n\nBake until the edges are lightly golden and the tops spring back when touched. A thin glaze of icing sugar, milk and vanilla added once the cookies are cool gives a sweet finish. Walnuts add texture, but chocolate chips or oats work just as well.',
     ing: [
@@ -326,6 +327,7 @@ module.exports = {
   },
 
   'banana-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Soft banana cupcakes baked for 22 minutes and topped with a swirl of cream cheese frosting and a sprinkle of cinnamon.',
     meta: 'Banana cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 45 minutes.',
     kw: ['banana cupcakes', 'banana cupcakes with cream cheese frosting', 'moist banana cupcakes', 'banana cupcake recipe', 'banana cake cupcakes'],
@@ -399,7 +401,7 @@ module.exports = {
 
   'blueberry-coffee-cake': {
     d: 'A tender soured cream cake filled with fresh blueberries and topped with a thick cinnamon crumb, baked for 45 minutes.',
-    meta: 'Blueberry coffee cake with a cinnamon crumb topping, baked for 45 minutes. Nine servings, ready in 1 hour 5 minutes.',
+    meta: 'Blueberry coffee cake with a cinnamon crumb topping, baked for 45 minutes. Nine servings, ready in 1 hour 25 minutes.',
     kw: ['blueberry coffee cake', 'blueberry crumb cake', 'blueberry streusel cake', 'blueberry cake with crumb topping', 'blueberry coffee cake recipe'],
     why: 'A weekend dish for a table of nine, and the best reason to buy a punnet of blueberries before they go soft. A coffee cake does not contain coffee. It is named for being eaten with it, a tender, buttery square under a generous crumble of sugar and cinnamon.\n\nThe cake batter uses soured cream, which keeps the crumb moist and gives a subtle tang. Fold in the blueberries last, tossed in a spoonful of flour so they stay distributed. Frozen berries work too, used straight from the freezer, not thawed, or they will bleed purple through the batter.\n\n**Make the crumb topping thick and chunky.** Rub cold butter into flour, brown sugar and cinnamon until it forms clumps the size of peas, then squeeze it with your hands so that some of it sticks into larger lumps. Scatter it right to the corners, and it bakes into a crisp, sandy layer that makes the cake.\n\nBake in a 20 cm square tin until a skewer comes out clean and the topping is deep gold. Cool for 20 minutes before cutting, so that the berries set. Serve warm, with coffee, tea or a cold glass of milk.',
     ing: [
@@ -436,6 +438,7 @@ module.exports = {
   },
 
   'boston-cream-donuts': {
+    untimed: ['chilling the custard', 'cooling the doughnuts'],
     d: 'Baked donuts filled with vanilla custard and topped with a dark chocolate glaze, baked for 12 minutes instead of fried.',
     meta: 'Boston cream donuts, baked and filled with vanilla custard under chocolate glaze. 12 donuts, baked for 12 minutes.',
     kw: ['boston cream donuts', 'baked boston cream donuts', 'custard filled donuts', 'chocolate glazed donuts with custard', 'boston cream doughnut recipe'],
@@ -541,7 +544,7 @@ module.exports = {
 
   'brownie-cookies': {
     d: 'Fudgy chocolate cookies with a crackled brownie-like surface and chewy centre, baked for 12 minutes at 180C.',
-    meta: 'Brownie cookies with a crackled top and a chewy, fudgy middle, baked for 12 minutes. 18 cookies, ready in 30 minutes.',
+    meta: 'Brownie cookies with a crackled top and a chewy, fudgy middle, baked for 12 minutes. 18 cookies, ready in 57 minutes.',
     kw: ['brownie cookies', 'fudgy brownie cookies', 'chocolate crinkle brownie cookies', 'chewy chocolate cookies', 'brownie cookie recipe'],
     why: 'It looks like a cookie and eats like a brownie, and that is the point. Brownie cookies are the answer for anyone who prefers the edges and the shine, and they have the same crackled paper-thin crust, a dense centre and a rich chocolate flavour from a double hit of cocoa and melted chocolate.\n\nThe dough is wetter than a standard cookie dough. It contains melted chocolate, a lot of sugar and just enough flour to hold it together, so it looks more like a thick batter than a dough. This is correct. Chill it for 30 minutes, until it is firm enough to scoop, and it will bake into flat, fudgy rounds.\n\n**Whip the eggs and sugar for 3 minutes.** This is what builds the thin, shiny crust on top. Do not rush it. The mixture should turn pale and thick, and fall from the whisk in a slow ribbon.\n\nPull the cookies from the oven when the surface is set and crackled but the middle still looks soft. They will firm up on the tray. Leave them for 10 minutes before moving them. Chocolate chunks pressed into the tops before baking add pools of molten chocolate.',
     ing: [
@@ -574,6 +577,7 @@ module.exports = {
   },
 
   'buttermilk-pie': {
+    untimed: ['cooling completely'],
     d: 'A Southern custard pie with buttermilk, butter and vanilla in a blind-baked pastry case, baked for 50 minutes until set with a golden top.',
     meta: 'Buttermilk pie, a tangy Southern custard pie with a golden top, baked for 50 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['buttermilk pie', 'southern buttermilk pie', 'old fashioned buttermilk pie', 'buttermilk custard pie', 'buttermilk pie recipe'],
@@ -642,6 +646,7 @@ module.exports = {
   },
 
   'cakey-brownies': {
+    untimed: ['cooling completely'],
     d: 'Light, soft brownies with a cake-like crumb and a deep chocolate flavour, baked for 30 minutes and finished with chocolate frosting.',
     meta: 'Cakey brownies with a soft, light crumb and chocolate frosting, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['cakey brownies', 'cake like brownies', 'soft chocolate brownies', 'brownies with frosting', 'light brownies recipe'],
@@ -679,6 +684,7 @@ module.exports = {
   },
 
   'caramel-blondies': {
+    untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with ribbons of caramel running through them, baked for 30 minutes and finished with flaky sea salt.',
     meta: 'Caramel blondies, chewy with ribbons of caramel and sea salt, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['caramel blondies', 'salted caramel blondies', 'chewy blondies', 'blondies with caramel', 'brown sugar blondies'],
@@ -712,6 +718,7 @@ module.exports = {
   },
 
   'carrot-cake-loaf': {
+    untimed: ['cooling completely'],
     d: 'A moist spiced carrot loaf with walnuts and sultanas, baked for 55 minutes and topped with cream cheese icing.',
     meta: 'Carrot cake loaf with walnuts and cream cheese icing, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
     kw: ['carrot cake loaf', 'carrot loaf cake', 'carrot cake in a loaf tin', 'spiced carrot loaf with icing', 'moist carrot cake loaf'],
@@ -783,7 +790,7 @@ module.exports = {
 
   'cheesecake-bars': {
     d: 'A thick layer of vanilla cheesecake on a buttery digestive biscuit base, baked for 40 minutes, chilled and cut into 16 squares.',
-    meta: 'Cheesecake bars with a biscuit base and vanilla filling, baked for 40 minutes and chilled. 16 bars, ready in 5 hours.',
+    meta: 'Cheesecake bars with a biscuit base and vanilla filling, baked for 40 minutes and chilled. 16 bars, ready in 5 hours 35 minutes, cooling included.',
     kw: ['cheesecake bars', 'vanilla cheesecake bars', 'cheesecake squares', 'biscuit base cheesecake bars', 'cheesecake bars recipe'],
     why: 'Cheesecake in a form that can be cut with a knife and eaten with the hands: that is the idea of a bar. The filling is the same as a full cheesecake, rich and dense with vanilla, but in a shallow pan it bakes in 40 minutes and chills in a fraction of the time.\n\nThe base is crushed digestive biscuits mixed with melted butter and pressed into a lined tin. Pack it firmly with the back of a spoon or the bottom of a glass, and bake it for 10 minutes before adding the filling. A pre-baked base stays crisp under the wet cheesecake mix.\n\n**Bring everything to room temperature.** Cold cream cheese stays lumpy no matter how long you beat it, and lumps in the filling are permanent. Take the cream cheese and eggs out of the fridge an hour ahead. Beat the cheese and sugar first until smooth, then add the eggs one at a time, mixing only until combined.\n\nBake until the edges are set and the middle is slightly wobbly, then turn the oven off and let the bars cool inside for 30 minutes. This gentle cooling prevents cracks. Chill for at least 4 hours before cutting with a hot, wiped knife.',
     ing: [
@@ -816,6 +823,7 @@ module.exports = {
   },
 
   'cheesecake-cupcakes': {
+    untimed: ['cooling'],
     d: 'Mini vanilla cheesecakes baked in a muffin tin on biscuit bases, chilled and topped with fruit.',
     meta: 'Cheesecake cupcakes on biscuit bases, baked for 25 minutes and chilled. 12 servings, ready in 3 hours.',
     kw: ['cheesecake cupcakes', 'mini cheesecakes', 'individual cheesecakes', 'cheesecake in muffin tin', 'mini vanilla cheesecakes'],

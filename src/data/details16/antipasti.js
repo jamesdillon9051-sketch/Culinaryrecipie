@@ -43,7 +43,7 @@ module.exports = {
       'Keep it warm at the table, not hot.'
     ],
     pair: ['Raw vegetables', 'A glass of Barbera', 'Boiled eggs'],
-    store: 'Refrigerated for 5 days. Rewarm very gently — it separates if boiled.',
+    store: 'Refrigerated for up to 4 days. Rewarm very gently — it separates if boiled.',
     nut: [320, 6, 3, 32, 0, 1, 890]
   },
 
@@ -56,7 +56,7 @@ module.exports = {
       '400 g beef fillet, in one piece, all sinew removed',
       '2 tbsp olive oil, for the film',
       '# For the sauce',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tsp Worcestershire sauce',
       '150 ml sunflower oil',
@@ -409,6 +409,7 @@ module.exports = {
   },
 
   'panelle': {
+    untimed: ['cooling'],
     d: 'Chickpea flour cooked into a paste, set flat, cut into squares and fried. Palermo eats them in a bread roll, which is carbohydrate on carbohydrate and entirely correct.',
     meta: 'Chickpea flour cooked to a thick paste, set flat, cut into squares and fried until blistered, eaten in a bread roll.',
     kw: ['panelle', 'sicilian chickpea fritters', 'panelle recipe', 'palermo street food', 'chickpea flour fritters'],
@@ -476,7 +477,7 @@ module.exports = {
       'Spread everything on a clean tea towel and leave to dry completely. Any water on them will shorten the keeping time.',
       'Pack the vegetables into the jars with the garlic, chillies, peppercorns and oregano.',
       'Pour in olive oil until everything is submerged, tapping the jars to release trapped air.',
-      'Seal and leave at cool room temperature for at least 10080 minutes before opening.'
+      'Seal and leave in the fridge for at least a week before opening.'
     ],
     rest: [10080, 'pickling for a week'],
     tips: [
@@ -485,7 +486,7 @@ module.exports = {
       'Dry them completely before they go in the jar.'
     ],
     pair: ['Charcuterie', 'Bollito misto', 'A cold beer'],
-    store: 'Cool and dark for 4 months while covered in oil; refrigerate after opening and use within 6 weeks.',
+    store: 'Keep it in the fridge from the day it is made, with every piece under the oil. Garlic and vegetables kept in oil can carry botulism, which cannot be seen, smelled or tasted, and no keeping time has been tested for this home preserve, so make small batches and never keep it at room temperature.',
     nut: [65, 1, 6, 4, 2, 4, 620]
   }
 };

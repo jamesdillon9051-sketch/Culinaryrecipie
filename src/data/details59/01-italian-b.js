@@ -8,6 +8,7 @@
 
 module.exports = {
   'bonet': {
+    untimed: ['cooling'],
     d: 'A Piedmont baked custard of eggs, milk, cocoa and crushed amaretti, set over a caramel and chilled for 4 hours before turning out.',
     meta: 'Bonet, Piedmont chocolate and amaretti pudding set over caramel, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes plus chilling.',
     kw: ['bonet', 'piedmont chocolate pudding', 'bonet amaretti pudding', 'italian chocolate caramel custard', 'amaretti chocolate pudding'],
@@ -42,8 +43,8 @@ module.exports = {
   },
 
   'frittelle-di-carnevale': {
-    d: 'Small Italian fritters of a thick batter with raisins and lemon, fried until puffed and golden and rolled in sugar, in 35 minutes.',
-    meta: 'Frittelle di carnevale, fried batter fritters with raisins and lemon, cooked for 15 minutes. Six servings, ready in 35 minutes.',
+    d: 'Small Italian fritters of a thick batter with raisins and lemon, fried until puffed and golden and rolled in sugar.',
+    meta: 'Frittelle di carnevale, fried batter fritters with raisins and lemon, cooked for 15 minutes. Six servings, ready in 55 minutes.',
     kw: ['frittelle di carnevale', 'italian carnival fritters', 'raisin fritters with lemon', 'italian fried sweet fritters', 'carnival fritters recipe'],
     why: 'Frittelle di carnevale means carnival fritters, and that is all the recipe says about them: they are made in the weeks before Lent, from a simple batter, and eaten hot with sugar. The batter is thick, closer to a drop scone mixture than a pancake, and the raisins are plumped in rum or warm water first.\n\nMix the flour, sugar, eggs, milk and yeast or baking powder, add the lemon zest and the drained raisins, and rest the batter for 20 minutes. **Keep the oil at about 170C**, hot enough to puff the fritters in 3 minutes but not so hot that the outsides burn before the middles are done. Drop in tablespoons and turn them once.\n\nThey are ready when they are deep gold all over and feel light for their size. Drain on kitchen paper and roll them in sugar while they are warm. Eat them at once. If you break one open and the centre is doughy, the oil was too hot, so turn it down for the next batch.',
     ing: [
@@ -75,8 +76,9 @@ module.exports = {
   },
 
   'chiacchiere': {
-    d: 'Thin ribbons of sweet dough fried until they blister and crisp, then dusted with icing sugar, in 50 minutes.',
-    meta: 'Chiacchiere, crisp fried carnival pastry ribbons dusted with icing sugar, cooked for 10 minutes. Eight servings, ready in 50 minutes.',
+    untimed: ['cooling completely'],
+    d: 'Thin ribbons of sweet dough fried until they blister and crisp, then dusted with icing sugar.',
+    meta: 'Chiacchiere, crisp fried carnival pastry ribbons dusted with icing sugar, cooked for 10 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['chiacchiere', 'italian carnival pastry', 'fried pastry ribbons', 'angel wings pastry italian', 'chiacchiere recipe'],
     why: 'It looks like a ribbon of pastry and shatters like glass, which is the whole appeal. Chiacchiere, whose name means chatter, are the thin fried ribbons of dough sold across Italy at carnival time, and what makes them good is how thin they are rolled.\n\nThe dough is flour, sugar, eggs, butter and a splash of grappa or white wine, which helps it blister in the oil. Knead it for 5 minutes until smooth, then rest it for 20 minutes so it rolls easily. **Roll it until you can see the work surface through it**, a little over 1 mm, using a pasta machine if you have one. Thick dough comes out hard and bready.\n\nCut it into strips, make a slit in the middle of each and fry in oil at 170C for about 1 minute a side. They colour fast, so do not leave the pan. Drain on kitchen paper, cool, and dust heavily with icing sugar just before you serve them.',
     ing: [
@@ -108,7 +110,7 @@ module.exports = {
 
   'castagnole': {
     d: 'Little round Italian doughnuts of a soft batter with lemon and orange zest, fried for 15 minutes and rolled in sugar.',
-    meta: 'Castagnole, little fried carnival doughnuts with citrus zest rolled in sugar, cooked for 15 minutes. Eight servings, ready in 40 minutes.',
+    meta: 'Castagnole, little fried carnival doughnuts with citrus zest rolled in sugar, cooked for 15 minutes. Eight servings, ready in 1 hour.',
     kw: ['castagnole', 'italian carnival doughnuts', 'fried dough balls rolled in sugar', 'castagnole recipe', 'italian dough balls'],
     why: 'Why do these puff up round and hollow? Because the batter has just enough egg to steam inside while the outside sets. Castagnole are small fried dough balls, so called because they are said to look like chestnuts, and they are among the easiest of the carnival sweets.\n\nThe dough is soft and slightly sticky, made with flour, sugar, eggs, butter and baking powder, and flavoured with lemon and orange zest. Do not add extra flour, as it makes them dense. **Chill the dough for 20 minutes** so that it is firm enough to roll into walnut sized balls with floured hands.\n\nFry them in oil at 170C for about 3 minutes, turning them often, until deep gold and puffed. If the oil is too hot, they brown outside while the centre is raw. Drain and roll in caster sugar while warm. A spoonful of rum in the dough is traditional, and a dusting of icing sugar will do in place of the caster sugar.',
     ing: [
@@ -330,8 +332,8 @@ module.exports = {
   },
 
   'gnocco-fritto': {
-    d: 'Puffed diamonds of fried dough from Emilia, eaten hot with cured ham and soft cheese, ready in 35 minutes.',
-    meta: 'Gnocco fritto, puffed fried dough diamonds from Emilia served with cured meat, cooked for 15 minutes. Six servings, ready in 35 minutes.',
+    d: 'Puffed diamonds of fried dough from Emilia, eaten hot with cured ham and soft cheese, ready in 55 minutes.',
+    meta: 'Gnocco fritto, puffed fried dough diamonds from Emilia served with cured meat, cooked for 15 minutes. Six servings, ready in 55 minutes.',
     kw: ['gnocco fritto', 'fried dough diamonds emilia', 'gnocco fritto with prosciutto', 'italian fried bread puffs', 'emilian fried dough'],
     why: 'A table of six, a plate of cured ham and a basket of hot gnocco fritto: that is how this is eaten in Emilia, as the starter of a meal and the first thing to disappear. It is a diamond of dough fried until it puffs into a hollow pillow.\n\nThe dough is flour, water, a little lard, yeast and salt, left to rest for 20 minutes. Roll it to about 3 mm thick, as thin dough fries crisp and thick dough stays doughy. **Cut it into diamonds with a knife or a wheel**, then fry in oil at 180C for about 1 minute a side. They puff within seconds and turn pale gold.\n\nDrain them on kitchen paper and sprinkle with salt. They are eaten at once, while they are hot enough to melt the slices of prosciutto or salami laid on top, with soft cheese or pickled vegetables beside. If they go cold they turn tough, so fry in batches and serve as you go.',
     ing: [
@@ -717,8 +719,8 @@ module.exports = {
   },
 
   'malfatti': {
-    d: 'Soft dumplings of spinach and ricotta, poorly shaped by design, boiled for 5 minutes and served in sage butter, in 40 minutes.',
-    meta: 'Malfatti, soft spinach and ricotta dumplings in sage butter, cooked for 10 minutes. Four servings, ready in 40 minutes.',
+    d: 'Soft dumplings of spinach and ricotta, poorly shaped by design, boiled for 5 minutes and served in sage butter.',
+    meta: 'Malfatti, soft spinach and ricotta dumplings in sage butter, cooked for 10 minutes. Four servings, ready in 1 hour.',
     kw: ['malfatti', 'spinach and ricotta malfatti', 'italian ricotta dumplings', 'naked ravioli', 'malfatti with sage butter'],
     why: 'Malfatti means badly made, and it describes the shape on purpose: they are rough dumplings, not neat parcels. They are the filling of spinach ravioli without the pasta, which is why they are sometimes called naked ravioli.\n\nThe mixture must be dry, or the dumplings fall apart in the water. Squeeze the cooked spinach until no more water comes out, chop it very fine and beat it with drained ricotta, egg, Parmesan and nutmeg. **Stir in the flour last and no more than needed**, only enough to hold the shape. Chill the mixture for 20 minutes to firm it.\n\nRoll teaspoons of the mix in flour into short sausages. Test one in simmering water: if it holds, carry on, and if it breaks, add a spoon of flour. Simmer gently for 5 minutes, until they float. Lift them out with a slotted spoon, toss in melted butter with sage, and add a little Parmesan.',
     ing: [

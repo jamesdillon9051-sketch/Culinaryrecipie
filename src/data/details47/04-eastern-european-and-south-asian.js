@@ -14,8 +14,10 @@
 
 module.exports = {
   'kopytka': {
+    cookMax: 35,
+    untimed: ['cooling completely'],
     d: 'Polish potato dumplings of mashed potato, flour and egg, cut into small diagonal pieces, boiled and tossed in butter.',
-    meta: 'Kopytka: Polish potato dumplings of mashed potato, flour and egg, boiled and tossed in butter. Four servings, cooked for 10 minutes.',
+    meta: 'Kopytka: Polish potato dumplings of mashed potato, flour and egg, boiled and tossed in butter. Four servings, boiled for 5 minutes.',
     kw: ['kopytka', 'polish potato dumplings', 'kopytka recipe', 'polish gnocchi', 'potato dumplings with butter'],
     why: 'The first thing you notice is how soft the dough is, almost like warm putty, and how little flour it takes to turn mashed potato into something you can cut. Kopytka means little hooves in Polish, from the diagonal cuts that give each piece its shape.\n\nUse floury potatoes, such as Maris Piper or King Edward, and boil them in their skins to keep them dry. Peel and mash them while hot, then let the mash cool completely. Hot mash makes a sticky dough that soaks up too much flour. **Add the flour a little at a time.** The less you use, the lighter the dumplings are.\n\nKnead briefly, only until the dough comes together. Roll it into ropes about 2 cm thick and cut diagonally into pieces. Test one in simmering water first. If it falls apart, add a spoonful of flour to the dough.\n\nBoil gently until the kopytka rise to the surface, then give them another minute. Toss in butter, with fried onion or breadcrumbs.',
     ing: [
@@ -127,7 +129,7 @@ module.exports = {
       '1/4 tsp black pepper'
     ],
     st: [
-      'Boil the beetroot for 35 minutes, and the potatoes and carrots in their skins for 20 minutes, until each is tender. Drain and cool.',
+      'Boil the beetroot for 35 minutes and, in a second pan at the same time, the potatoes and carrots in their skins for 20 minutes, until each is tender. Drain and cool.',
       'Peel and dice all three into 1 cm pieces. Toss the beetroot with 1 tbsp of the oil.',
       'Mix the potatoes, carrots, cucumbers, sauerkraut and onion in a large bowl.',
       'Fold in the beetroot, the rest of the oil, salt and pepper. Taste and adjust.'

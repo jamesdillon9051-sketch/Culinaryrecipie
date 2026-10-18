@@ -380,7 +380,7 @@ module.exports = {
     ],
     st: [
       'Put the water, salt, bay leaf, peppercorns, garlic, lemon and parsley in a wide pan and bring to a boil. Lower in the chicken, making sure it is covered by the liquid.',
-      'Bring back to a gentle simmer, cover, turn off the heat and leave for 15 minutes without lifting the lid.',
+      'Bring back to a gentle simmer, cover, turn off the heat and let it poach in the residual heat for 15 minutes without lifting the lid.',
       'Cut into the thickest piece to check that it is white all the way through with no pink. If it is not, return it to the hot liquid for 3 minutes.',
       'Lift out the chicken, rest it for 5 minutes, then slice or shred.'
     ],

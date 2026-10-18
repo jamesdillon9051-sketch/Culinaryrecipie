@@ -201,6 +201,7 @@ module.exports = {
   },
 
   'rumbledethumps': {
+    cookMax: 65,
     d: 'Potato, swede and cabbage mashed together, topped with cheese and baked. The Scottish Borders answer to what to do with a Sunday.',
     meta: 'A Scottish Borders bake of mashed potato and swede folded with buttered cabbage, topped with cheddar and baked until browned.',
     kw: ['rumbledethumps', 'rumbledethumps recipe', 'scottish potato cabbage bake', 'borders potato dish', 'cheesy potato cabbage'],
@@ -464,6 +465,7 @@ module.exports = {
   },
 
   'coronation-chicken': {
+    untimed: ['cooling completely'],
     d: 'Cold chicken in a curried, apricot-sweetened mayonnaise, invented for the 1953 coronation lunch. Ruined by every sandwich shop since and worth reclaiming.',
     meta: 'Poached chicken in a lightly curried mayonnaise with apricot purée, cream and lemon, finished with flaked almonds.',
     kw: ['coronation chicken', 'coronation chicken recipe', 'curried chicken mayonnaise', 'chicken salad british', 'apricot chicken salad'],

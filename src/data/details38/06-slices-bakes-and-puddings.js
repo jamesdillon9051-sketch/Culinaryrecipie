@@ -10,7 +10,7 @@
 
 module.exports = {
   'bounty-slice': {
-    d: 'A no-bake slice of coconut and condensed milk set in the fridge and topped with dark chocolate. Sixteen servings in 2 hours 20 minutes.',
+    d: 'A no-bake slice of coconut and condensed milk set in the fridge and topped with dark chocolate. Sixteen servings in 2 hours 45 minutes, chilling included.',
     meta: 'Bounty slice: a no-bake slice of desiccated coconut and condensed milk, chilled until firm and topped with dark chocolate. Sixteen servings.',
     kw: ['bounty slice', 'coconut chocolate slice', 'no bake bounty slice', 'australian bounty slice', 'coconut and condensed milk slice'],
     why: 'Condensed milk is the binder, coconut is the body and chocolate is the lid. There is no oven and no cooking, only mixing and chilling.\n\nStir the desiccated coconut into the condensed milk until it forms a thick, sticky mass. It should hold when pressed between your fingers; if it crumbles, add a spoon more condensed milk.\n\nPress it firmly into a lined tin, using the back of a spoon or a flat glass to get an even, compact layer. **Pressure matters**: a loosely packed slice crumbles when cut.\n\nChill for 2 hours, until completely firm, then pour over the melted chocolate and spread it evenly. Chill again for 30 minutes to set the top. Cut with a hot knife, wiping it between slices. A cold knife cracks the chocolate. Cut small, since the slice is very sweet. Use sweetened condensed milk rather than evaporated milk, which will not bind the coconut.',
@@ -106,7 +106,7 @@ module.exports = {
   },
 
   'passionfruit-slice': {
-    d: 'A biscuit base topped with a passionfruit and condensed milk filling, chilled until set. Sixteen servings in 3 hours 20 minutes.',
+    d: 'A biscuit base topped with a passionfruit and condensed milk filling, chilled until set. Sixteen servings in 3 hours 35 minutes, chilling included.',
     meta: 'Passionfruit slice: a crushed biscuit base topped with a tangy passionfruit and condensed milk filling, chilled until set.',
     kw: ['passionfruit slice', 'australian passionfruit slice', 'no bake passionfruit slice', 'passionfruit and condensed milk slice', 'passionfruit cheesecake slice'],
     why: 'The filling sets on its own, because the lime or passionfruit acid thickens the condensed milk. No gelatine is needed, only time.\n\nCrush the biscuits finely and mix with melted butter until the crumbs hold together like wet sand. Press them into a lined tin and make the surface level with the back of a spoon. **Chill the base for 15 minutes** so it firms up before the filling goes on.\n\nBeat the cream cheese until smooth, then stir in the condensed milk and passionfruit pulp. The acid thickens the mixture within a minute or two, which is your signal it is ready to pour.\n\nSpread over the base and chill for 3 hours, until firm enough to cut. Cut with a hot knife, wiping between slices. Passionfruit pulp varies in sharpness, so taste and add a spoon more if the filling is too sweet. Fresh passionfruit gives the best flavour, but tinned pulp works when the fruit is out of season.',
@@ -131,7 +131,7 @@ module.exports = {
     ],
     pair: ['Fresh passionfruit', 'Whipped cream', 'Pot of tea', 'Berries'],
     store: 'Keeps in the fridge for up to 4 days.',
-    rest: [180, 'chilling'],
+    rest: [195, 'chilling'],
     nut: [0, 0, 0, 0, 0, 0, 0]
   },
 
@@ -198,7 +198,8 @@ module.exports = {
   },
 
   'maple-pecan-tart': {
-    d: 'A shortcrust case filled with maple syrup, pecans and eggs and cooked for 40 minutes until set. Ten servings in 1 hour 10 minutes.',
+    untimed: ['cooling completely'],
+    d: 'A shortcrust case filled with maple syrup, pecans and eggs and cooked for 40 minutes until set. Ten servings in at least 1 hour 30 minutes.',
     meta: 'Maple pecan tart: a shortcrust case filled with maple syrup, pecans and eggs and cooked for 40 minutes until set with a glossy top.',
     kw: ['maple pecan tart', 'canadian maple pecan tart', 'maple syrup pecan tart', 'maple pecan pie', 'maple tart with pecans'],
     why: 'It is the dessert for anyone who thinks pecan pie is too sweet, because maple syrup carries a woody, savoury depth that corn syrup does not. Even so, it is a very rich tart and a thin slice is plenty.\n\nBlind-bake the case first for 15 minutes with baking beans, then remove the beans and bake for 5 more. A dry case holds the liquid filling and stays crisp.\n\nWhisk the eggs with the maple syrup, melted butter, brown sugar and a pinch of salt. **Stir, do not whisk hard**: too much air makes the filling puff and crack.\n\nScatter the pecans in the case, pour over the filling and cook at 170°C for 40 minutes. It is done when the edges are set and the middle has a slight wobble. If your oven runs hot, check at 32 minutes. Cool completely before cutting, so the filling sets. Use real maple syrup, since flavoured table syrup is mostly sugar and tastes flat.',
@@ -230,7 +231,7 @@ module.exports = {
   },
 
   'gingerbread-men': {
-    d: 'A spiced ginger and treacle dough cut into little men and cooked for 12 minutes until crisp at the edge. Sixteen biscuits in 40 minutes.',
+    d: 'A spiced ginger and treacle dough cut into little men and cooked for 12 minutes until crisp at the edge. Sixteen biscuits, with a 30-minute chill before cutting.',
     meta: 'Gingerbread men: a spiced ginger and treacle dough cut into little men and cooked for 12 minutes until crisp at the edge and chewy in the middle.',
     kw: ['gingerbread men', 'homemade gingerbread men', 'easy gingerbread men', 'gingerbread men biscuits', 'christmas gingerbread men'],
     why: 'The dough smells of ginger, cinnamon and treacle long before it is baked, and that smell is the best part of making them. The biscuits are crisp at the edge, chewy in the middle and sturdy enough to hang on a tree.\n\nRub the butter into the flour and spices, then add the sugar and bind with golden syrup and a beaten egg. The dough will be soft and sticky at first. **Chill it for 30 minutes** to firm it up, because warm dough sticks to the cutter and loses its shape.\n\nRoll to about 5 mm, which gives a biscuit that is firm but not hard. Cut out the shapes and lift them carefully onto a lined tray.\n\nCook at 180°C for 12 minutes, until the edges darken slightly. If your oven runs hot, check at 9 minutes. Cool on a rack, then decorate with icing. Currants make quick eyes and buttons if you do not want to ice them.',
@@ -355,6 +356,7 @@ module.exports = {
   },
 
   'kiwi-fruit-pavlova': {
+    untimed: ['cooling in the switched-off oven'],
     d: 'A crisp meringue shell with a marshmallow centre, cooked for 90 minutes and topped with whipped cream and sliced kiwi fruit. Eight servings in 2 hours.',
     meta: 'Kiwi fruit pavlova: a crisp meringue shell with a marshmallow centre, cooked for 90 minutes and topped with whipped cream and sliced kiwi fruit.',
     kw: ['kiwi fruit pavlova', 'new zealand pavlova with kiwi', 'classic kiwi pavlova', 'pavlova with kiwi fruit and cream', 'homemade pavlova'],

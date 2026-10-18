@@ -240,6 +240,7 @@ module.exports = {
   },
 
   'pistachio-cake': {
+    untimed: ['cooling'],
     d: 'A tender cake made with ground pistachios, yoghurt and a little cardamom, soaked with lemon syrup.',
     meta: 'Pistachio cake: a tender cake of ground pistachios, yoghurt and cardamom, soaked in lemon syrup. Ten slices, baked for 40 minutes.',
     kw: ['pistachio cake', 'pistachio and cardamom cake', 'middle eastern pistachio cake', 'pistachio yoghurt cake', 'pistachio cake with lemon syrup'],
@@ -502,6 +503,7 @@ module.exports = {
   },
 
   'salted-caramel-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy brownies with ribbons of caramel sauce swirled through and a sprinkle of flaky salt.',
     meta: 'Salted caramel brownies: fudgy brownies with ribbons of caramel and flaky salt. Sixteen pieces, baked for 35 minutes.',
     kw: ['salted caramel brownies', 'caramel swirl brownies', 'fudgy salted caramel brownies', 'brownies with salted caramel', 'homemade salted caramel brownies'],

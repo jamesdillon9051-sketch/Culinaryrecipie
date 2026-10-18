@@ -75,8 +75,9 @@ module.exports = {
   },
 
   'apple-slab-pie': {
-    d: 'A large rectangular apple pie baked on a tray, with a lattice-free top and a simple glaze. Makes 12 in 1 hour 10 minutes.',
-    meta: 'Apple slab pie: a large rectangular apple pie baked on a tray with a simple glaze. A cheap way to feed a crowd, 12 pieces in 1 hour 10.',
+    rest: [60, 'chilling'],
+    d: 'A large rectangular apple pie baked on a tray, with a lattice-free top and a simple glaze. Makes 12 in 2 hours 10 minutes, chilling included.',
+    meta: 'Apple slab pie: a large rectangular apple pie baked on a tray with a simple glaze. A cheap way to feed a crowd, 12 pieces in 2 hours 10 minutes with chilling.',
     kw: ['apple slab pie', 'apple pie for a crowd', 'budget apple pie', 'homemade slab pie recipe', 'cheap dessert for twelve'],
     why: 'A slab pie is an apple pie that feeds twelve. It is baked in a shallow tray, so it has a high ratio of crust to filling, and no deep dish or lattice to fuss with.\n\nThe pastry is the standard: flour, cold butter, a little sugar and iced water. Chill it for 30 minutes before rolling, as warm pastry shrinks and tears.\n\nThe apples are cooked briefly with sugar, cinnamon and cornflour before they go in. **This pre-cook releases their juice** and thickens it, so the bottom crust does not turn soggy.\n\nRoll the base slightly larger than the tin and the top slightly smaller. Seal the edges firmly and cut slits in the top. A simple glaze of icing sugar and milk goes on while the pie is still warm. Slab pies are made to feed many people at once and are well suited to parties or school events. The pie is as good at room temperature as warm, and the glaze sets to a thin, sweet crust.',
     ing: [
@@ -202,6 +203,7 @@ module.exports = {
   },
 
   'chocolate-oat-bars': {
+    untimed: ['cooling completely'],
     d: 'Rolled oats and melted butter pressed in a tin with a chocolate layer, baked until golden and chilled. Makes 12 in 30 minutes.',
     meta: 'Chocolate oat bars: rolled oats and melted butter pressed into a tin with a chocolate layer, baked and chilled. Very cheap, 12 bars in 30 minutes.',
     kw: ['chocolate oat bars', 'oat and chocolate bars', 'budget oat bars', 'easy chocolate oatmeal bars', 'cheap bars for twelve'],
@@ -380,8 +382,8 @@ module.exports = {
   },
 
   'oatmeal-cake': {
-    d: 'A moist spiced oat cake topped with a broiled coconut and brown sugar icing. Makes 12 in 50 minutes.',
-    meta: 'Oatmeal cake: a moist spiced oat cake topped with a baked coconut and brown sugar icing. A cheap, old-fashioned traybake, 12 pieces in 50 minutes.',
+    d: 'A moist spiced oat cake topped with a broiled coconut and brown sugar icing. Makes 12 in 1 hour 10 minutes.',
+    meta: 'Oatmeal cake: a moist spiced oat cake topped with a baked coconut and brown sugar icing. A cheap, old-fashioned traybake, 12 pieces in 1 hour 10 minutes.',
     kw: ['oatmeal cake', 'old fashioned oatmeal cake', 'budget traybake', 'easy oat cake with coconut topping', 'cheap cake for twelve'],
     why: 'Soak the oats. Poured over with boiling water and left for 20 minutes, rolled oats soften and swell, and the cake that results is moist, a little chewy and stays fresh for days.\n\nThe cake itself is a simple creamed-butter sponge with brown sugar and cinnamon. Add the soaked oats at the end, along with the flour, and fold them in gently with a spatula.\n\nBake in a square tin until a skewer comes out clean. **Do not open the oven in the first 25 minutes**, or it sinks in the middle.\n\nThe topping is butter, brown sugar, milk and coconut, spread over the warm cake and returned to the oven, or put under a grill, until it bubbles and browns. Watch it closely. Coconut goes from golden to burnt in a few seconds. The topping is the part that makes the cake distinctive, with a toffee-like layer under the coconut. Serve warm or cold, and cut the cake in squares, since the topping is rich and a small piece is plenty.',
     ing: [

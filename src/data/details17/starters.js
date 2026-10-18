@@ -13,6 +13,7 @@
 
 module.exports = {
   'potted-shrimps': {
+    untimed: ['refrigerating until set'],
     d: 'Tiny brown shrimps set in spiced butter and turned out on toast. Morecambe Bay has sent them south since the eighteenth century and nothing has improved on them.',
     meta: 'Brown shrimps warmed in mace and cayenne butter, packed into pots and sealed under a layer of clarified butter.',
     kw: ['potted shrimps', 'potted shrimps recipe', 'morecambe bay shrimps', 'shrimp butter pot', 'british potted seafood'],
@@ -428,7 +429,7 @@ module.exports = {
       '0.5 tsp fine sea salt'
     ],
     st: [
-      'For the jelly, simmer the trotters with the water, onion, bay and salt 3 hours, then strain and chill. It should set firm.',
+      'Start the jelly first, since it runs alongside everything else: simmer the trotters with the water, onion, bay and salt 3 hours while you make and bake the pie, then strain and chill it while the pie cools. It should set firm.',
       'Mix the chopped pork with the salt, white pepper, mace, nutmeg, sage and cold water. Fry a teaspoon of it to check the seasoning.',
       'Sift the flour and salt into a bowl and make a well.',
       'Boil the lard and water together, pour it into the well and mix quickly with a spoon, then bring together by hand.',
@@ -440,7 +441,7 @@ module.exports = {
       'Warm the jelly until just liquid and pour it through the hole a little at a time until the pie will take no more.',
       'Refrigerate 4 hours before cutting.'
     ],
-    rest: [600, 'cooling the pie and setting the jelly'],
+    rest: [420, 'cooling the pie and setting the jelly'],
     tips: [
       'Shape the crust warm, within ten minutes. Cold hot water crust cracks.',
       'Chop the pork by hand. Mincing gives a solid grey block.',
@@ -535,7 +536,7 @@ module.exports = {
   },
 
   'pickled-onions': {
-    d: 'Small onions in spiced malt vinegar, sharp enough to make your eyes water. Six weeks in the jar and they will keep for a year.',
+    d: 'Small onions in spiced malt vinegar, sharp enough to make your eyes water. Six weeks in the jar, in the fridge, before they are ready.',
     meta: 'British pub pickled onions: small onions dry-brined overnight and packed in spiced malt vinegar, left to mature for six weeks.',
     kw: ['pickled onions', 'pickled onions recipe', 'british pub pickle', 'malt vinegar onions', 'homemade pickled onion jar'],
     why: 'Brine dry, in salt, overnight — not in a wet brine. Salt on its own pulls water out of the onion by osmosis and leaves the layers firm, while a wet brine soaks water back in and gives you soft pickled onions, which are a waste of six weeks. The vinegar must be cold when it goes over: hot vinegar cooks the outer layers and they go slippery. Peel them under water or in a bowl of iced water if you would rather not weep through the whole job.',
@@ -560,7 +561,7 @@ module.exports = {
       'Rinse the onions thoroughly under cold water and dry them well on a cloth.',
       'Pack them tightly into sterilised jars with a bay leaf and a chilli in each.',
       'Pour the cold spiced vinegar over, including the spices, until the onions are completely covered.',
-      'Seal and leave six weeks in a dark cupboard before opening.'
+      'Seal and leave six weeks in the fridge before opening.'
     ],
     rest: [61200, 'dry-brining the onions and maturing the jars for six weeks'],
     tips: [
@@ -569,11 +570,12 @@ module.exports = {
       'Six weeks minimum. They are harsh before that.'
     ],
     pair: ['A ploughman\'s', 'Fish and chips', 'A pint'],
-    store: 'Sealed in a dark cupboard for 12 months. Refrigerate after opening.',
+    store: 'Sealed in the fridge for 12 months, and in the fridge after opening. Raw onions in cold vinegar are not heat-processed, and jars for the cupboard need a tested recipe and processing in a boiling-water canner.',
     nut: [70, 2, 15, 0, 2, 10, 940]
   },
 
   'cumberland-sauce': {
+    untimed: ['cooling completely'],
     d: 'Redcurrant jelly loosened with port and sharpened with orange, mustard and ginger. Cold, clear, and the correct thing with any cold meat.',
     meta: 'A clear British sauce of redcurrant jelly melted with port, orange and lemon juice, mustard and ginger, with fine strips of citrus zest through it.',
     kw: ['cumberland sauce', 'cumberland sauce recipe', 'redcurrant port sauce', 'sauce for cold ham', 'british fruit sauce'],

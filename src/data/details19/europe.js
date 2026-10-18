@@ -71,7 +71,7 @@ module.exports = {
       '1 tbsp lemon juice'
     ],
     st: [
-      'Toast the pine nuts in a dry pan for 3 minutes, until pale gold. Cool completely.',
+      'Toast the pine nuts in a dry pan for 3 minutes, until pale gold. Tip them onto a cold plate to cool while you pound the garlic.',
       'Pound the garlic and pesto salt to a paste in a mortar.',
       'Add the pine nuts and pound to a rough paste.',
       'Add the basil a handful at a time and grind it against the sides until it breaks down.',
@@ -88,12 +88,12 @@ module.exports = {
       'Cool the pine nuts or they turn the basil dark.'
     ],
     pair: ['Garlic bread', 'A tomato salad', 'Cold white wine'],
-    store: 'Pesto keeps 5 days refrigerated under a film of oil, and freezes 3 months.',
+    store: 'Pesto keeps 4 days refrigerated under a film of oil, and freezes 3 months.',
     nut: [685, 18, 76, 34, 5, 4, 890]
   },
 
   'minestrone': {
-    d: 'Whatever vegetables are about, cooked long and slow with beans and a little pasta. Under an hour, and it improves overnight.',
+    d: 'Whatever vegetables are about, cooked long and slow with beans and a little pasta. In 1 hour 15 minutes, and it improves overnight.',
     meta: 'Italian vegetable soup with a soffritto base, borlotti beans, tomato and small pasta, finished with olive oil.',
     kw: ['minestrone', 'minestrone recipe', 'italian vegetable soup', 'minestrone soup', 'vegetable bean soup'],
     why: 'Give the soffritto — onion, carrot and celery — a full twelve minutes over a low heat before anything else goes in. It should collapse and sweeten rather than colour, and it is the whole foundation: rushed for four minutes, the soup tastes of stock and vegetables sitting separately in it rather than of one thing. The pasta goes in for the last eight minutes only.',
@@ -576,7 +576,7 @@ module.exports = {
     pair: ['Flatbread', 'Other meze', 'Rakı'],
     store: 'Keeps 4 days refrigerated and improves. Bring back to room temperature.',
     nut: [325, 5, 22, 25, 7, 13, 890],
-    rest: [60, 'cooling to room temperature']
+    rest: [80, 'cooling to room temperature']
   },
 
   'turkish-pilav': {
@@ -705,6 +705,7 @@ module.exports = {
   },
 
   'tarta-de-santiago': {
+    untimed: ['cooling completely'],
     d: 'An almond cake with no flour in it, stencilled with the cross of Saint James. Fifty minutes and four ingredients.',
     meta: 'Galician almond cake made with ground almonds, eggs, sugar and citrus zest, baked and dusted through a cross stencil.',
     kw: ['tarta de santiago', 'tarta de santiago recipe', 'spanish almond cake', 'flourless almond cake', 'gluten free almond cake'],

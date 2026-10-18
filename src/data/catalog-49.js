@@ -36,7 +36,7 @@ module.exports = [
   c('salt-and-pepper-chicken-wings', 'Salt and Pepper Chicken Wings', 'Chinese', 'Appetizers', 'Medium', 15, 45, 4, 0, 0, ['Dairy-Free'], ['new'], 'salt and pepper chicken wings'),
   c('sweet-and-sour-prawns', 'Sweet and Sour Prawns', 'Chinese', 'Dinner', 'Medium', 20, 15, 4, 0, 0, [], ['new'], 'sweet and sour prawns'),
   c('honey-chilli-chicken', 'Honey Chilli Chicken', 'Chinese', 'Dinner', 'Easy', 15, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'honey chilli chicken'),
-  c('beef-in-oyster-sauce', 'Beef in Oyster Sauce', 'Chinese', 'Quick Meals', 'Easy', 15, 10, 4, 0, 0, ['Dairy-Free'], ['new'], 'beef in oyster sauce'),
+  c('beef-in-oyster-sauce', 'Beef in Oyster Sauce', 'Chinese', 'Dinner', 'Easy', 15, 10, 4, 0, 0, ['Dairy-Free'], ['new'], 'beef in oyster sauce'),
   c('steamed-chicken-with-mushrooms', 'Steamed Chicken with Mushrooms', 'Chinese', 'Healthy', 'Easy', 15, 20, 4, 0, 0, [], ['new'], 'steamed chicken with mushrooms'),
   c('lap-cheong-fried-rice', 'Lap Cheong Fried Rice', 'Chinese', 'Quick Meals', 'Easy', 10, 10, 4, 0, 0, [], ['new'], 'lap cheong fried rice'),
   c('yuxiang-aubergine', 'Yuxiang Aubergine', 'Chinese', 'Dinner', 'Medium', 15, 20, 4, 0, 0, ['Dairy-Free'], ['new'], 'yuxiang aubergine'),

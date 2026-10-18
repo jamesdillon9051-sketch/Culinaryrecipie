@@ -435,7 +435,7 @@ module.exports = {
 
   'pasticciotto': {
     d: 'Small pies of crumbly sweet pastry filled with a lemon scented custard, baked for 30 minutes at 180C.',
-    meta: 'Pasticciotto, small Italian pies of sweet pastry filled with lemon custard, baked for 30 minutes. Twelve servings, ready in 1 hour 10 minutes.',
+    meta: 'Pasticciotto, small Italian pies of sweet pastry filled with lemon custard, baked for 30 minutes. Twelve servings, ready in 1 hour 40 minutes.',
     kw: ['pasticciotto', 'pasticciotto leccese', 'italian custard pastry', 'lemon custard pies', 'pasticciotto recipe'],
     why: 'A breakfast pastry from Puglia, and one of the few that should be eaten warm. Pasticciotto is a small oval pie of crumbly sweet pastry filled with a thick custard, and the contrast between the crisp crust and the soft filling is the point.\n\nThe pastry is made with lard or butter and has little liquid, so it is short and easily breaks. Handle it as little as you can, and chill it for 30 minutes before rolling. **Do not overfill the cases**, because the custard puffs a little in the oven and leaks out of the sides. Press the pastry into the moulds and fill to three quarters.\n\nThe custard is made first and must be cold and thick. Seal each pie with a pastry lid, pinch the edges, brush with beaten egg and bake at 180C for about 30 minutes, until deep gold. Leave them in the tins for 10 minutes before turning out. Eat them warm, with an espresso, or cold the next morning.',
     ing: [
@@ -469,8 +469,9 @@ module.exports = {
   },
 
   'baci-di-dama': {
+    untimed: ['cooling completely'],
     d: 'Small hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes and chilled to set.',
-    meta: 'Baci di dama, tiny hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes. Thirty servings, ready in 45 minutes.',
+    meta: 'Baci di dama, tiny hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes. Thirty servings, ready in 1 hour 25 minutes.',
     kw: ['baci di dama', 'italian hazelnut chocolate biscuits', 'lady kisses biscuits', 'hazelnut shortbread sandwiches', 'baci di dama recipe'],
     why: 'Flour, butter, sugar, ground hazelnuts: four things you may already own, and about forty five minutes. Baci di dama means lady\'s kisses, and the name fits: two small, crumbly biscuits joined by a dab of chocolate.\n\nThe biscuit is a shortbread made with ground hazelnuts, which gives it a nutty, sandy texture. Toast the hazelnuts first so they taste of something, cool them and grind them fine. Rub the butter into the flour, nuts and sugar, then press into a dough. **Roll the balls no bigger than a hazelnut**, about 8 g each, because they spread a little and need to stay small to sandwich neatly.\n\nBake at 170C for 15 minutes, until the bottoms are gold and the tops are pale. Cool completely, then spread half with melted dark chocolate and press the others on top. Leave the chocolate to set for 20 minutes. They keep well in a tin and make a good gift.',
     ing: [
@@ -599,8 +600,9 @@ module.exports = {
   },
 
   'crostata-alla-nutella': {
+    untimed: ['cooling completely'],
     d: 'A crumbly sweet pastry tart filled with chocolate hazelnut spread and finished with a lattice, baked for 35 minutes at 180C.',
-    meta: 'Crostata alla Nutella, sweet pastry tart filled with chocolate hazelnut spread, baked for 35 minutes. Eight servings, ready in 55 minutes.',
+    meta: 'Crostata alla Nutella, sweet pastry tart filled with chocolate hazelnut spread, baked for 35 minutes. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['crostata alla nutella', 'chocolate hazelnut tart', 'nutella tart italian', 'crostata with chocolate hazelnut spread', 'italian nutella tart'],
     why: 'Most home versions come out with the filling bubbled over, and the fix is to spread it thin. Crostata alla Nutella is the Italian jam tart with a chocolate hazelnut spread instead of fruit, and the filling softens and runs in the oven.\n\nThe pastry is a pasta frolla, a sweet shortcrust made from butter, sugar, egg and flour, and it is deliberately crumbly. Mix it quickly and chill it for 30 minutes so it does not shrink. **Spread the filling only 1 cm thick** and leave a gap at the edge. A thin layer sets with a soft, fudgy texture, and a thick one turns oily.\n\nRoll out two thirds of the dough to line a 24 cm tin and cut the rest into strips for a lattice. Bake at 180C for 35 minutes, until the pastry is golden. Cool completely in the tin before you cut, since the spread is runny when hot and sets as it cools. Sprinkle with chopped hazelnuts for crunch.',
     ing: [
@@ -631,8 +633,9 @@ module.exports = {
   },
 
   'crostata-di-ricotta': {
+    untimed: ['cooling completely'],
     d: 'A sweet pastry tart filled with ricotta, sugar, lemon and chocolate chips, baked for 45 minutes at 180C.',
-    meta: 'Crostata di ricotta, sweet pastry tart filled with ricotta, lemon and chocolate chips, baked for 45 minutes. Eight servings, ready in 1 hour 10 minutes.',
+    meta: 'Crostata di ricotta, sweet pastry tart filled with ricotta, lemon and chocolate chips, baked for 45 minutes. Eight servings, ready in at least 1 hour 40 minutes.',
     kw: ['crostata di ricotta', 'italian ricotta tart', 'ricotta and chocolate chip tart', 'sweet ricotta crostata', 'crostata di ricotta recipe'],
     why: 'The name crostata means tart, and this one is among the oldest sweet tarts of the Italian table, made in homes across the country. Its filling is simple: ricotta, sugar, egg, lemon zest and chocolate chips, spooned into a pasta frolla shell.\n\nDrain the ricotta overnight, or at least for an hour, in a sieve over a bowl. Wet ricotta makes a filling that never sets. **Beat the ricotta only until it is smooth**, then stir in the eggs, sugar and zest. The chocolate chips go in last, so they stay in pieces.\n\nLine the tin with two thirds of the dough, pour in the filling and cover with a lattice cut from the rest. Brush the strips with milk. Bake at 180C for 45 minutes, until the filling is set and the pastry is golden. The middle will still wobble a little when it comes out and firms as it cools. Cool completely before cutting and dust with icing sugar.',
     ing: [
@@ -666,8 +669,8 @@ module.exports = {
   },
 
   'crostata-alle-fragole': {
-    d: 'A baked sweet pastry case filled with vanilla pastry cream and topped with fresh strawberries and a glaze, in 1 hour.',
-    meta: 'Crostata alle fragole, pastry case with vanilla cream and fresh strawberries, baked for 30 minutes. Eight servings, ready in 1 hour.',
+    d: 'A baked sweet pastry case filled with vanilla pastry cream and topped with fresh strawberries and a glaze, in 1 hour 20 minutes.',
+    meta: 'Crostata alle fragole, pastry case with vanilla cream and fresh strawberries, baked for 30 minutes. Eight servings, ready in 1 hour 20 minutes.',
     kw: ['crostata alle fragole', 'italian strawberry tart', 'strawberry tart with pastry cream', 'fresh strawberry crostata', 'crostata alle fragole recipe'],
     why: 'Bake the case alone, with nothing in it, and fill it cold. That is the principle behind a fresh fruit tart: crisp pastry, cool cream and fruit that has never seen the oven. Crostata alle fragole is the Italian version, made with a pasta frolla shell and pastry cream.\n\nBlind bake the shell with baking beans for 20 minutes, then without them for 10, so the base is dry and gold all the way across. **Cool it completely before filling**, or the cream will melt into the pastry and turn it soft. The cream is a quick custard of milk, yolks, sugar and cornflour, stirred until thick and cooled with cling film pressed on it.\n\nSpread the cream in the shell and arrange the strawberries, hulled and halved, in tight circles from the outside in. Brush with warm, sieved apricot jam for a glossy glaze. Chill until serving, but not for more than 3 hours, as the shell softens. Cut with a serrated knife.',
     ing: [
@@ -702,6 +705,7 @@ module.exports = {
   },
 
   'sbrisolona-mantovana': {
+    untimed: ['cooling completely'],
     d: 'A crumbly almond and cornmeal cake from Mantua, broken up and eaten in shards, baked for 35 minutes at 180C.',
     meta: 'Sbrisolona mantovana, crumbly almond and cornmeal cake from Mantua, baked for 35 minutes at 180C. Ten servings, ready in 55 minutes.',
     kw: ['sbrisolona mantovana', 'italian crumble cake', 'almond and cornmeal crumble cake', 'sbrisolona recipe', 'mantua almond cake'],

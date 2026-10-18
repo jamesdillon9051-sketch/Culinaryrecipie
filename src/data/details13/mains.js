@@ -376,7 +376,7 @@ module.exports = {
       'Cut down either side of the backbone with kitchen scissors and press the bird flat, cracking the breastbone.',
       'Slash the thighs and the thickest part of the breast twice each, down to the bone.',
       'Mix the marinade — it should be thin and pourable, not a paste. Rub it into the slashes and all over the skin.',
-      'Leave for 60 minutes at cool room temperature.',
+      'Leave for 60 minutes, covered, in the fridge.',
       'Heat a grill to high, or set coals up for indirect heat. Start the bird skin-side up, 20 cm from the element.',
       'Grill 25 minutes skin-side up, then turn and give it 20 minutes more, until the juices run clear at the thigh and the skin has blackened in patches.',
       'Rest 10 minutes, then squeeze over the last of the lemon and scatter with coriander.'

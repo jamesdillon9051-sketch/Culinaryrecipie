@@ -358,7 +358,7 @@ module.exports = {
       'Skim the fat from the tin, add the cider and stock and boil hard, scraping, until reduced by half. Strain.',
       'Cut the crackling off in one piece and break it up, then carve the meat and serve with the gravy and apple sauce.'
     ],
-    rest: [1440, 'drying the skin uncovered in the fridge'],
+    rest: [1465, 'drying the skin uncovered in the fridge'],
     tips: [
       'A day uncovered in the fridge. Wet skin never crackles.',
       'Hot first, moderate after — and never the other way round.',
@@ -467,6 +467,7 @@ module.exports = {
   },
 
   'fish-pie': {
+    untimed: ['leaving the mash to go cold'],
     d: 'White fish, smoked fish and prawns under mashed potato, in a sauce made from the milk the fish poached in. The mash goes on cold, which is the whole trick.',
     meta: 'A British fish pie of poached white and smoked fish with prawns and eggs in a parsley béchamel, topped with cold mashed potato and baked.',
     kw: ['fish pie', 'fish pie recipe', 'british fish pie mash', 'smoked haddock pie', 'creamy fish bake'],
@@ -676,6 +677,7 @@ module.exports = {
   },
 
   'chicken-and-leek-pie': {
+    cookMax: 90,
     d: 'Poached chicken and slow-cooked leeks under a proper pastry lid, in a sauce made from the poaching liquid. A pie whose filling was designed rather than assembled.',
     meta: 'A British pie of poached chicken and softened leeks in a tarragon cream sauce built on the poaching stock, under a shortcrust lid.',
     kw: ['chicken and leek pie', 'chicken leek pie recipe', 'british chicken pie', 'creamy chicken pie pastry', 'chicken pie with leeks'],

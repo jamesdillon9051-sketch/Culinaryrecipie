@@ -2,7 +2,7 @@
 
 module.exports = {
   'banana-bread': {
-    rest: [60, 'cooling'],
+    rest: [75, 'cooling'],
     d: 'One bowl, one whisk, and the darkest bananas you can find. Browning the butter first adds a nutty depth that turns an everyday loaf into something people ask you about.',
     meta: 'One-bowl banana bread with brown butter and very ripe bananas. Moist, deeply flavoured, and impossible to get wrong.',
     kw: ['banana bread recipe', 'easy banana bread', 'brown butter banana bread', 'one bowl baking'],
@@ -84,6 +84,7 @@ module.exports = {
   },
 
   'chocolate-chip-cookies': {
+    rest: [1460, 'chilling'],
     d: 'Brown butter, a 24-hour rest and two sizes of chocolate produce cookies with crisp edges, a chewy middle and pools of melted chocolate. Worth planning a day ahead for.',
     meta: 'Brown butter chocolate chip cookies with crisp edges, chewy centres and molten chocolate pools. Rest the dough — it matters.',
     kw: ['chocolate chip cookies recipe', 'brown butter cookies', 'best cookie recipe', 'chewy cookies'],
@@ -123,6 +124,7 @@ module.exports = {
   },
 
   'cinnamon-rolls': {
+    untimed: ['cooling to room temperature'],
     rest: [600, 'proving and chilling'],
     d: 'Soft, tall rolls made with a tangzhong starter that keeps them pillowy for days, filled with cinnamon-butter and finished with cream cheese frosting. Shape them the night before and bake in the morning.',
     meta: 'Overnight cinnamon rolls with a tangzhong starter for lasting softness, plus tangy cream cheese frosting.',
@@ -176,7 +178,7 @@ module.exports = {
   },
 
   'sourdough-bread': {
-    rest: [1230, 'chilling'],
+    rest: [1225, 'chilling'],
     d: 'An open-crumb country loaf with a blistered, mahogany crust and a genuine tang. Long autolyse, gentle handling and a Dutch oven are the three things that matter.',
     meta: 'Artisan sourdough with an open crumb and blistered crust, baked in a Dutch oven. Full schedule and timings included.',
     kw: ['sourdough bread recipe', 'artisan sourdough', 'open crumb sourdough', 'dutch oven bread'],
@@ -251,6 +253,7 @@ module.exports = {
   },
 
   'new-york-cheesecake': {
+    untimed: ['cooling to room temperature'],
     rest: [540, 'chilling'],
     d: 'Dense, tall and creamy with a faint tang, on a buttery biscuit base. The water bath and a slow cool in the switched-off oven are what stop it cracking.',
     meta: 'Classic New York cheesecake — dense, tall and crack-free thanks to a water bath and slow cooling. Worth the wait.',
@@ -285,7 +288,7 @@ module.exports = {
       'Pour into the tin, tap it firmly on the counter to release bubbles, and set it in a roasting tin. Pour in boiling water to a depth of 3 cm.',
       'Bake at 160°C / 320°F for 70 to 80 minutes, until the outer 5 cm is set and the centre still wobbles as a single mass.',
       'Turn the oven off, prop the door open with a wooden spoon, and leave the cheesecake inside for 1 hour.',
-      'Cool to room temperature, then refrigerate at least 8 hours or overnight. Run a warm knife around the edge before releasing the tin.'
+      'Cool for no more than 2 hours, then refrigerate at least 8 hours or overnight. Run a warm knife around the edge before releasing the tin.'
     ],
     tips: [
       'Everything at room temperature — cheese, eggs, cream. This one rule prevents most cheesecake problems.',
@@ -298,7 +301,8 @@ module.exports = {
   },
 
   'apple-pie': {
-    rest: [360, 'chilling'],
+    untimed: ['cooling completely'],
+    rest: [380, 'chilling'],
     d: 'A deep-dish pie with a properly crisp bottom crust and apples that hold their shape. Pre-cooking the filling is the unglamorous step that solves every apple pie problem at once.',
     meta: 'Deep-dish apple pie with a crisp bottom crust and apples that keep their shape. The pre-cooked filling method.',
     kw: ['apple pie recipe', 'homemade apple pie', 'flaky pie crust', 'classic american dessert'],
@@ -348,6 +352,7 @@ module.exports = {
   },
 
   'key-lime-pie': {
+    untimed: ['cooling to room temperature'],
     rest: [240, 'chilling'],
     d: 'Sharp, silky lime custard in a buttery graham crust, set by nothing but the chemical reaction between lime juice and condensed milk. Twenty minutes of work and no fuss.',
     meta: 'Tangy key lime pie with a silky set filling and buttery graham crust. Four filling ingredients, 35 minutes of work.',
@@ -378,7 +383,7 @@ module.exports = {
       'Whisk in the condensed milk and salt until smooth.',
       'Add the lime juice and whisk for 1 minute. The mixture will visibly thicken as the acid works on the milk proteins.',
       'Pour into the warm crust and bake for 15 minutes, until the filling is set at the edges with a slight wobble at the centre.',
-      'Cool to room temperature, then refrigerate for at least 4 hours, ideally overnight.',
+      'Cool for no more than 2 hours, then refrigerate for at least 4 hours, ideally overnight.',
       'Whip the cream with the icing sugar and vanilla to soft peaks and spread or pipe over the chilled pie.',
       'Finish with lime zest and serve cold.'
     ],
@@ -440,6 +445,7 @@ module.exports = {
   },
 
   'carrot-cake': {
+    untimed: ['cooling completely'],
     d: 'A properly spiced carrot cake, moist from oil and crushed pineapple, with walnuts for bite and a tangy cream cheese frosting. The kind that improves for two days.',
     meta: 'Moist spiced carrot cake with walnuts, crushed pineapple and tangy cream cheese frosting. Better on day two.',
     kw: ['carrot cake recipe', 'moist carrot cake', 'cream cheese frosting', 'spiced cake'],
@@ -531,7 +537,8 @@ module.exports = {
   },
 
   'pumpkin-pie': {
-    rest: [270, 'chilling'],
+    cookMax: 90,
+    rest: [330, 'chilling'],
     d: 'A silky custard pie with proper spice and a blind-baked base that stays crisp. Cooking the purée down first concentrates it and eliminates the watery edge that spoils most versions.',
     meta: 'Classic pumpkin pie with a silky spiced custard and crisp blind-baked crust. The purée-reduction trick for deeper flavour.',
     kw: ['pumpkin pie recipe', 'thanksgiving pie', 'spiced custard pie', 'holiday dessert'],
@@ -566,7 +573,7 @@ module.exports = {
       'Take off the heat and whisk in the cream and milk, then cool for 5 minutes.',
       'Whisk in the eggs, yolk and bourbon, then strain through a sieve for a perfectly smooth custard.',
       'Pour into the warm shell and bake for 45 to 55 minutes, until the outer edge is set and the central 8 cm wobbles as one piece.',
-      'Cool completely on a rack — at least 3 hours — then refrigerate 2 hours before serving with whipped cream.'
+      'Cool on a rack for 2 hours, then refrigerate for at least 2 hours before serving with whipped cream.'
     ],
     tips: [
       'Do not overbake. A cracked pumpkin pie has gone past its setting point and turns grainy.',
@@ -579,6 +586,7 @@ module.exports = {
   },
 
   'gingerbread-cookies': {
+    untimed: ['cooling completely'],
     rest: [120, 'chilling'],
     d: 'Cut-out gingerbread that holds a sharp edge, tastes strongly of spice and molasses, and stays chewy rather than turning to rubble. The dough rolls between paper so it never needs extra flour.',
     meta: 'Chewy cut-out gingerbread cookies that hold sharp edges and taste properly of spice and molasses. Ideal for decorating.',

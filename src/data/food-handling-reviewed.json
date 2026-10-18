@@ -1,0 +1,54 @@
+{
+  "recipes": {
+    "lime-pickle": {
+      "findings": {
+        "oil-preserve-life|Once it has had its week, keep it in the fridge, under its oil, for up to 2 months.": {
+          "status": "exception",
+          "reason": "The 4-day limit is for low-acid garlic, herbs and vegetables in oil. Lime pieces are strongly acidic and salt-cured, below the pH 4.6 at which C. botulinum can grow; the jar is refrigerated after a 1-week cure. The pH of this pickle has not been measured.",
+          "source": "NCHFP and Oregon State Extension SP 50-701 (scope: low-acid foods in oil); FDA 21 CFR 114 (acidified foods, pH 4.6)"
+        }
+      },
+      "fingerprint": "4441151ca22a"
+    },
+    "mango-pickle": {
+      "findings": {
+        "oil-preserve-life|Once it has had its 3 days, keep it in the fridge, under its oil, for up to 3 months.": {
+          "status": "exception",
+          "reason": "The 4-day limit is for low-acid garlic, herbs and vegetables in oil. Raw green mango is strongly acidic and salt-cured here, below the pH 4.6 at which C. botulinum can grow; the jar is refrigerated after a 3-day cure. The pH of this pickle has not been measured.",
+          "source": "NCHFP and Oregon State Extension SP 50-701 (scope: low-acid foods in oil); FDA 21 CFR 114 (acidified foods, pH 4.6)"
+        }
+      },
+      "fingerprint": "c107e3dc5770"
+    },
+    "aguachile": {
+      "findings": {
+        "raw-shellfish|500 g raw prawns, peeled and butterflied": {
+          "status": "specialist",
+          "reason": "Aguachile is raw prawns in lime juice. Lime juice does not kill bacteria or parasites, and no home method makes raw prawns safe; whether to keep the dish, and what to say to readers who are pregnant, elderly or immunocompromised, needs a food-safety specialist and the owner.",
+          "source": "FDA (cook seafood; acid marinades do not make it safe)"
+        }
+      },
+      "fingerprint": "a4e476f61174"
+    },
+    "steak-tartare": {
+      "findings": {
+        "raw-beef|600 g beef fillet or rump, very fresh, all sinew removed": {
+          "status": "specialist",
+          "reason": "Raw beef by definition. The method already hand-cuts a whole-muscle piece kept cold and is eaten within the hour, and the yolks are now pasteurised; the beef itself cannot be made safe by method, so what to say to vulnerable readers needs a specialist and the owner.",
+          "source": "USDA FSIS (beef cooked to 63°C / 145°F whole cuts, 71°C / 160°F minced)"
+        }
+      },
+      "fingerprint": "216413b21670"
+    },
+    "carpaccio": {
+      "findings": {
+        "raw-beef|400 g beef fillet, in one piece, all sinew removed": {
+          "status": "specialist",
+          "reason": "Raw beef by definition, sliced from a whole fillet, chilled and served within the hour; the yolk in the sauce is now pasteurised. The beef cannot be made safe by method, so what to say to vulnerable readers needs a specialist and the owner.",
+          "source": "USDA FSIS (beef cooked to 63°C / 145°F whole cuts)"
+        }
+      },
+      "fingerprint": "211a64585c19"
+    }
+  }
+}

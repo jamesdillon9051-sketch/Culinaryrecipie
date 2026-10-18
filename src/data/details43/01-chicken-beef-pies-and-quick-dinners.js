@@ -285,6 +285,7 @@ module.exports = {
   },
 
   'beef-and-mushroom-pie': {
+    untimed: ['cooling completely'],
     d: 'Slow-braised beef and mushrooms in a thick gravy under a puff pastry lid.',
     meta: 'Beef and mushroom pie: slow-braised beef and mushrooms in a thick gravy under puff pastry. Six servings, cooked for 2 hours 10 minutes.',
     kw: ['beef and mushroom pie', 'steak and mushroom pie', 'british beef and mushroom pie', 'homemade beef and mushroom pie', 'beef and mushroom pie with puff pastry'],
@@ -322,6 +323,7 @@ module.exports = {
   },
 
   'beef-and-onion-pie': {
+    untimed: ['cooling completely'],
     d: 'Beef braised with plenty of sweet onions and mustard in a shortcrust-lined pie dish with a pastry lid.',
     meta: 'Beef and onion pie: beef braised with sweet onions and mustard in shortcrust. Six servings, cooked for 2 hours.',
     kw: ['beef and onion pie', 'british beef and onion pie', 'traditional beef and onion pie', 'homemade beef and onion pie', 'beef and onion pie with shortcrust'],

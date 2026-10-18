@@ -258,7 +258,7 @@ module.exports = {
 
   'som-tam': {
     d: 'Green papaya pounded with garlic, chilli, lime, palm sugar and fish sauce in a clay mortar. Bruising rather than mixing is what makes the dressing soak into the shreds.',
-    meta: 'Fiery som tam green papaya salad pounded in a mortar. Crunchy, sour, sweet and salty in 20 minutes.',
+    meta: 'Fiery som tam green papaya salad pounded in a mortar. Crunchy, sour, sweet and salty in 35 minutes.',
     kw: ['som tam recipe', 'green papaya salad', 'thai salad', 'healthy thai recipe'],
     why: 'Pounding lightly in a mortar bruises the papaya shreds so their cells rupture just enough to absorb the dressing, without collapsing into mush the way tossing in a bowl would fail to achieve. Green papaya itself is unripe and starchy rather than sweet, which is why it stays crunchy under acid.',
     ing: [
@@ -342,7 +342,7 @@ module.exports = {
   },
 
   'mango-sticky-rice': {
-    rest: [240, 'soaking'],
+    rest: [265, 'soaking'],
     d: 'Warm coconut-soaked glutinous rice with cold ripe mango and a salty coconut sauce poured over. Naturally vegan, and one of the best desserts in the world.',
     meta: 'Thai mango sticky rice with coconut-soaked glutinous rice and salted coconut cream. Naturally vegan and gluten-free.',
     kw: ['mango sticky rice recipe', 'khao niaow ma muang', 'thai dessert', 'vegan dessert'],
@@ -619,6 +619,7 @@ module.exports = {
   },
 
   'kimchi': {
+    untimed: ['cooling completely'],
     rest: [1590, 'proving'],
     d: 'Napa cabbage salted, coated in a chilli and fermented seafood paste, and left to ferment until it fizzes. Two days on the counter, then months of improvement in the fridge.',
     meta: 'Traditional napa cabbage kimchi with gochugaru and a rice-flour paste. Ferments in 2 days, improves for months.',
@@ -889,7 +890,7 @@ module.exports = {
     ],
     st: [
       'Combine half the fish sauce, sugar, oyster sauce, garlic, shallots, pepper and turmeric with the minced pork and knead for 2 minutes until sticky. Do the same with the belly slices and the other half.',
-      'Marinate both for at least 1 hour, ideally 4.',
+      'Cover and marinate both in the fridge for at least 1 hour, ideally 4.',
       'For the broth, dissolve the sugar in the warm water, then add the fish sauce, lime juice and vinegar. Taste — it should be mild enough to sip. Add the garlic, chilli, carrot and papaya and leave 30 minutes to pickle lightly.',
       'Shape the minced pork into 12 flat patties about 5 cm across.',
       'Grill the patties and belly slices over charcoal or on a very hot griddle for 4 to 5 minutes a side, until charred at the edges and cooked through.',

@@ -226,6 +226,7 @@ module.exports = {
   },
 
   'rhubarb-fool': {
+    untimed: ['cooling completely'],
     d: 'Roasted rhubarb folded through whipped cream so it stays in ribbons rather than turning the whole thing pink. Fifteen minutes and one pan.',
     meta: 'Forced rhubarb roasted with sugar and orange, cooled, and folded loosely through whipped cream so it stays streaked.',
     kw: ['rhubarb fool', 'rhubarb fool recipe', 'british fruit fool', 'roasted rhubarb cream', 'easy rhubarb dessert'],
@@ -385,7 +386,7 @@ module.exports = {
       'Boil the 3 tbsp sugar and water together 2 minutes to a syrup and brush it over the buns the moment they leave the oven.',
       'Dust with the last of the caster sugar and pull them apart while still warm.'
     ],
-    rest: [135, 'proving the dough twice'],
+    rest: [155, 'proving the dough twice'],
     tips: [
       'Bake them touching. Buns baked apart go dry.',
       'Glaze them straight out of the oven while they are hot.',
@@ -469,10 +470,12 @@ module.exports = {
   },
 
   'banoffee-pie': {
-    d: 'Toffee made from a tin of condensed milk, bananas, and a great deal of cream, on a biscuit base. Invented in a Sussex pub in 1971 and immediately everywhere.',
-    meta: 'A British no-bake pie of digestive biscuit base, boiled condensed milk toffee, sliced banana and whipped cream, finished with chocolate.',
-    kw: ['banoffee pie', 'banoffee pie recipe', 'banana toffee pie', 'condensed milk caramel', 'no bake british dessert'],
-    why: 'The tin must stay completely covered with water for the whole three hours of boiling. An exposed tin overheats and can burst, which is genuinely dangerous, so top it up from a kettle and set a timer. If you would rather not, tip the condensed milk into a pan with butter and sugar and cook it to a caramel on the hob. Either way it must be cold before it goes on the base, and the bananas go on at the last possible moment because they brown within the hour.',
+    cookMax: 90,
+    untimed: ['cooling the toffee'],
+    d: 'Toffee made from condensed milk baked slowly in an open dish, with bananas and a great deal of cream, on a biscuit base. Invented in a Sussex pub in 1971 and immediately everywhere.',
+    meta: 'A British pie of digestive biscuit base, condensed milk toffee baked in an open dish, sliced banana and whipped cream, finished with chocolate.',
+    kw: ['banoffee pie', 'banoffee pie recipe', 'banana toffee pie', 'condensed milk caramel', 'british banana and toffee dessert'],
+    why: 'Condensed milk is already sugar and milk cooked down, so long, gentle heat browns it to toffee with nothing added. The old way is to boil the unopened tin; **never heat the unopened tin**, because the makers say the can is not built for it and it can burst. An open dish under foil in a water bath does the same job where you can see it, and a tin of ready-made caramel skips the cooking altogether. Either way the toffee must be cool before it goes on the base, or it melts the butter in the crumbs, and the bananas go on at the last possible moment because they brown within the hour.',
     ing: [
       '# For the base',
       '250 g digestive biscuits',
@@ -480,7 +483,7 @@ module.exports = {
       '2 tbsp demerara sugar',
       '0.25 tsp fine sea salt',
       '# For the toffee',
-      '1 tin condensed milk, 397 g',
+      '397 g sweetened condensed milk (1 tin), or a 397 g tin of ready-made caramel',
       '# For the top',
       '4 ripe bananas',
       '1 tbsp lemon juice',
@@ -492,17 +495,18 @@ module.exports = {
       '0.25 tsp flaky sea salt'
     ],
     st: [
-      'Put the unopened tin of condensed milk in a deep pan, cover it completely with water and boil 3 hours, topping up with boiling water so the tin is never exposed.',
-      'Lift the tin out and cool it completely before opening. Do not open it hot.',
-      'Crush the biscuits to crumbs and mix with the melted butter, demerara and fine salt.',
-      'Press firmly into a 23 cm tart tin, up the sides as well, and refrigerate 30 minutes.',
+      'Heat the oven to 220°C / 425°F. Open the tin, pour the condensed milk into a 23 cm pie dish or similar shallow ovenproof dish, cover it tightly with foil and set it in a roasting tin. Pour hot water into the roasting tin to come halfway up the dish.',
+      'Bake for 1 to 1½ hours, checking every 30 minutes and topping up the water, until the milk is thick and a deep caramel colour. Lift the dish out carefully, since the water is very hot, and whisk the toffee until smooth.',
+      'Leave the toffee to cool until it is barely warm and thick enough to spread; it firms as it cools.',
+      'If you are using ready-made caramel instead, skip the first three steps and stir it smooth.',
+      'While the toffee bakes, crush the biscuits to crumbs, mix with the melted butter, demerara and fine salt, press firmly into a 23 cm tart tin, up the sides as well, and refrigerate for 30 minutes.',
       'Spread the cooled toffee over the base in an even layer.',
       'Slice the bananas, toss them in the lemon juice and lay them over the toffee.',
       'Whip the cold cream with the icing sugar and vanilla to soft peaks and pile it over the bananas.',
       'Grate the chocolate over and finish with the flaky salt. Serve within the hour.'
     ],
     tips: [
-      'The tin must stay under water the entire time, and cool before opening.',
+      'Never put the unopened tin in a pan or oven. Open it, and make the toffee in the dish.',
       'Bananas at the last moment. They brown within the hour.',
       'Press the base up the sides, not just across the bottom.'
     ],
@@ -546,9 +550,9 @@ module.exports = {
       'Skim off every bubble from the surface — bubbles bake into pockmarks.',
       'Set the case on the oven shelf, pour the custard in to the brim and grate nutmeg generously over.',
       'Bake at 120C fan / 140C / gas 1 for 45 minutes, until set at the edges with a distinct wobble at the centre.',
-      'Cool completely, at least 2 hours, then trim the pastry edge flush before slicing.'
+      'Cool for 2 hours, then trim the pastry edge flush and slice; refrigerate what is left.'
     ],
-    rest: [180, 'chilling the pastry and cooling the tart to set'],
+    rest: [200, 'chilling the pastry and cooling the tart to set'],
     tips: [
       'Seal the baked case with egg. It is what stops a soggy base.',
       'Skim the bubbles off the custard before it goes in.',
@@ -679,6 +683,7 @@ module.exports = {
   },
 
   'parkin': {
+    untimed: ['cooling completely'],
     d: 'An oatmeal, treacle and ginger cake that is inedible on the day it is baked and excellent a week later. Yorkshire makes it for Bonfire Night.',
     meta: 'A Yorkshire cake of medium oatmeal, black treacle and golden syrup with ginger, baked slowly and matured in a tin for a week.',
     kw: ['parkin', 'parkin recipe', 'yorkshire parkin', 'bonfire night cake', 'oatmeal treacle ginger cake'],
@@ -719,6 +724,7 @@ module.exports = {
   },
 
   'dundee-cake': {
+    untimed: ['cooling completely'],
     d: 'A light fruit cake with almonds arranged in rings on top, and no cherries in it at all. Made with Seville orange peel, which is what makes it Dundee.',
     meta: 'A Scottish light fruit cake with currants, sultanas and Seville orange peel, topped with concentric rings of blanched almonds.',
     kw: ['dundee cake', 'dundee cake recipe', 'scottish fruit cake', 'almond topped fruit cake', 'seville orange cake'],

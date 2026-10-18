@@ -2,7 +2,7 @@
 
 module.exports = {
   'kutia': {
-    rest: [540, 'soaking'],
+    rest: [555, 'soaking'],
     d: 'Wheat berries simmered soft and dressed with poppy seed milk, honey and walnuts — the first of the twelve dishes of a Ukrainian Christmas Eve, and the one everyone tastes first.',
     meta: 'Kutia — Ukrainian Christmas wheat berries with poppy seed, honey and walnuts.',
     kw: ['kutia recipe', 'ukrainian christmas', 'wheat berry pudding', 'kutya'],
@@ -39,6 +39,7 @@ module.exports = {
   },
 
   'vanocka': {
+    untimed: ['cooling completely'],
     rest: [195, 'proving'],
     d: 'A nine-strand braided Christmas bread from Bohemia, enriched with butter and egg yolk and studded with rum-soaked raisins and almonds.',
     meta: 'Vánočka — the Czech nine-strand braided Christmas bread with raisins and almonds.',
@@ -129,7 +130,9 @@ module.exports = {
   },
 
   'joulutorttu': {
-    rest: [60, 'chilling'],
+    cookMax: 35,
+    untimed: ['cooling completely'],
+    rest: [80, 'chilling'],
     d: 'Finnish Christmas stars: rough puff pastry pinwheels folded round a spoonful of dark prune jam, dusted with icing sugar and eaten by the handful.',
     meta: 'Joulutorttu — Finnish Christmas star pastries filled with dark prune jam.',
     kw: ['joulutorttu recipe', 'finnish christmas pastry', 'prune tart', 'christmas star pastry'],
@@ -172,7 +175,7 @@ module.exports = {
   },
 
   'cozonac': {
-    rest: [170, 'proving'],
+    rest: [185, 'proving'],
     d: 'The Romanian Easter and Christmas bread: a rich yeasted dough rolled round a thick swirl of ground walnut and cocoa, baked until the crumb pulls apart in threads.',
     meta: 'Cozonac — Romanian sweet bread with a thick spiral of ground walnut and cocoa.',
     kw: ['cozonac recipe', 'romanian sweet bread', 'walnut roll', 'easter bread'],
@@ -222,7 +225,7 @@ module.exports = {
   },
 
   'pan-de-jamon': {
-    rest: [130, 'proving'],
+    rest: [150, 'proving'],
     d: 'The Venezuelan Christmas loaf: a soft sweet dough rolled round ham, streaky bacon, green olives and raisins, so each slice comes out as a spiral of salt and sweet.',
     meta: 'Pan de jamón — the Venezuelan Christmas bread rolled with ham, olives and raisins.',
     kw: ['pan de jamon recipe', 'venezuelan christmas bread', 'ham bread', 'navidad venezolana'],
@@ -308,6 +311,7 @@ module.exports = {
   },
 
   'stollen': {
+    untimed: ['cooling completely'],
     rest: [20805, 'maturing'],
     d: 'Dresden Christstollen: a dense fruit bread heavy with rum-soaked fruit and marzipan, buttered and sugared while hot, then left for weeks to come into its own.',
     meta: 'Christstollen — the Dresden Christmas bread with rum-soaked fruit and a marzipan core.',

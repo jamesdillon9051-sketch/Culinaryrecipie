@@ -50,7 +50,7 @@ module.exports = {
   },
 
   'blini': {
-    rest: [90, 'proving'],
+    rest: [110, 'proving'],
     d: 'Small yeasted buckwheat pancakes, thicker and more savoury than a crêpe, served warm with soured cream and whatever you can afford on top. Traditionally eaten by the dozen during Maslenitsa.',
     meta: 'Russian blini — small yeasted buckwheat pancakes served warm with soured cream, dill and smoked fish.',
     kw: ['blini recipe', 'russian pancakes', 'buckwheat blini', 'yeasted pancakes'],
@@ -95,6 +95,7 @@ module.exports = {
   },
 
   'olivier-salad': {
+    untimed: ['cooling completely'],
     rest: [180, 'chilling'],
     d: 'Diced potato, carrot, egg, pickle and ham bound in mayonnaise. Known as Russian salad almost everywhere else, and the fixed centre of every Soviet-era New Year table.',
     meta: 'Olivier salad — Russian potato salad with carrot, egg, peas, pickles and ham in mayonnaise.',
@@ -140,7 +141,8 @@ module.exports = {
   },
 
   'golabki': {
-    rest: [1440, 'freezing'],
+    cookMax: 130,
+    rest: [1455, 'freezing'],
     d: 'Cabbage leaves rolled around pork, beef and rice, then braised in tomato until the leaves are soft enough to cut with a fork. Polish home cooking, and the name means "little pigeons".',
     meta: 'Gołąbki — Polish cabbage rolls stuffed with pork, beef and rice, braised in a tomato sauce.',
     kw: ['golabki recipe', 'polish cabbage rolls', 'stuffed cabbage', 'cabbage rolls tomato'],
@@ -235,6 +237,7 @@ module.exports = {
   },
 
   'sauerbraten': {
+    untimed: ['cooling completely'],
     rest: [4320, 'chilling'],
     d: 'Beef marinated in vinegar and wine for three days, then braised and served with a sweet-sour gravy thickened with crushed gingerbread. Germany\'s national dish, and one that requires planning.',
     meta: 'German sauerbraten — beef marinated three days in vinegar and wine, braised with a gingerbread gravy.',
@@ -289,10 +292,10 @@ module.exports = {
     d: 'Salmon cured for two days under salt, sugar and a great deal of dill, then sliced paper-thin and served with a sweet mustard sauce. No heat, no smoke, and almost no effort.',
     meta: 'Gravlax — Nordic dill-cured salmon with salt and sugar, sliced thin and served with mustard sauce.',
     kw: ['gravlax recipe', 'cured salmon', 'dill cured salmon', 'hovmastarsas'],
-    why: 'Salt and sugar draw water out of the fish by osmosis and replace it with a saline, sugary solution that firms the flesh and makes it safe to eat raw — the ratio matters, and a salt-only cure gives something closer to salt fish than gravlax. Weighting the fillets presses out the liquid faster and gives an even, dense texture.',
+    why: 'Salt and sugar draw water out of the fish by osmosis and replace it with a saline, sugary solution that firms the flesh — the ratio matters, and a salt-only cure gives something closer to salt fish than gravlax. Weighting the fillets presses out the liquid faster and gives an even, dense texture.',
     ing: [
       '# For the cure',
-      '1 kg salmon fillet, skin on, pin-boned, in two even pieces',
+      '1 kg salmon fillet, farmed or previously frozen to kill parasites, skin on, pin-boned, in two even pieces',
       '150 g coarse sea salt',
       '150 g caster sugar',
       '2 tbsp crushed white peppercorns',
@@ -324,7 +327,7 @@ module.exports = {
     tips: [
       'Equal weights of salt and sugar. Shifting the ratio either way changes the character completely.',
       'Weight it properly and drain the liquid, or the fish sits in brine and cures unevenly.',
-      'Use very fresh salmon from a fishmonger you trust, or previously frozen fish, since it is never cooked.'
+      'Use farmed salmon sold for eating raw, or wild salmon frozen first to kill parasites, since the cure does not kill them and the fish is never cooked.'
     ],
     pair: ['Rye bread or crispbread with butter', 'Ice-cold aquavit', 'Boiled new potatoes with dill'],
     store: 'Keeps 5 days refrigerated, wrapped, once cured. Sliced gravlax freezes 1 month.',

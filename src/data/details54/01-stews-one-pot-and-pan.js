@@ -55,7 +55,7 @@ module.exports = {
 
   'haddock-and-chips': {
     d: 'Oven-baked haddock fillets in a crisp crumb alongside chunky potato chips roasted at 220C, served with mushy peas and tartare sauce.',
-    meta: 'Haddock and chips baked in the oven with a crisp crumb. Four servings, ready in 50 minutes.',
+    meta: 'Haddock and chips baked in the oven with a crisp crumb. Four servings, ready in 1 hour 10 minutes.',
     kw: ['haddock and chips', 'oven baked haddock and chips', 'homemade fish and chips', 'crumbed haddock', 'haddock fillets recipe'],
     why: 'Haddock is the fish of choice in much of northern Britain and Scotland, where a Friday fish supper often means haddock rather than cod. Its flesh is sweeter and a little finer-flaked than cod, and it takes a crisp coating well.\n\nThe chips are cut thick, about 1.5 cm, from floury potatoes such as Maris Piper. Soak them in cold water for 20 minutes to rinse off starch, dry them thoroughly, and toss with oil. They go into the oven on a preheated tray, which gives the base an instant sizzle and prevents sticking. Turn them halfway through.\n\n**Crumb the fish just before it goes in.** Flour, egg and a mix of panko and dried parsley give a golden jacket, and a drizzle of oil on top helps it brown in the dry heat of the oven. Coat too early and the crumb absorbs moisture and goes soft.\n\nThe haddock needs 12 minutes at 220C on the top shelf, while the chips take 25. Put the chips in first. Serve with mushy peas, tartare sauce and a lemon wedge, and plenty of salt and vinegar if you like.',
     ing: [
@@ -161,7 +161,7 @@ module.exports = {
 
   'leg-of-lamb': {
     d: 'A bone-in leg of lamb studded with garlic and rosemary and roasted for 1 hour 45 minutes, then rested until pink and tender.',
-    meta: 'Roast leg of lamb with garlic and rosemary, cooked for 1 hour 45 minutes. Eight servings, ready in 2 hours 5 minutes.',
+    meta: 'Roast leg of lamb with garlic and rosemary, cooked for 1 hour 45 minutes. Eight servings, ready in 2 hours 25 minutes.',
     kw: ['leg of lamb', 'roast leg of lamb', 'garlic and rosemary leg of lamb', 'sunday roast lamb', 'bone in leg of lamb'],
     why: 'The first sign it is ready is the smell: rosemary and garlic warming in lamb fat, drifting through the house for an hour. A roast leg of lamb is a Sunday dish in the best sense, a joint that feeds eight and needs very little work beyond a good rub and some patience.\n\nTake the lamb out of the fridge an hour before cooking so it is not cold in the middle. Make small slits all over the surface with a sharp knife, and push in slivers of garlic and small sprigs of rosemary. The fat under the skin bastes the meat while it roasts, and the herbs perfume it.\n\n**Start hot, then turn it down.** A blast of 220C for 20 minutes browns the outside, then 170C for the remaining 85 minutes cooks it through without drying. For pink lamb, a thermometer in the thickest part should read 57C when it comes out; for medium, 63C.\n\nRest the joint under foil for at least 20 minutes. It will rise a few degrees and the juices will redistribute. Carve across the grain, and make a quick gravy from the roasting tin with a splash of red wine and stock.',
     ing: [
@@ -194,7 +194,7 @@ module.exports = {
 
   'lemon-roast-chicken': {
     d: 'A whole chicken roasted for 1 hour 30 minutes with lemons, garlic and thyme in the cavity and butter under the skin.',
-    meta: 'Lemon roast chicken with garlic and thyme, roasted for 1 hour 30 minutes. Six servings, ready in 1 hour 45 minutes.',
+    meta: 'Lemon roast chicken with garlic and thyme, roasted for 1 hour 30 minutes. Six servings, ready in 2 hours.',
     kw: ['lemon roast chicken', 'lemon and thyme roast chicken', 'whole roast chicken', 'lemon garlic roast chicken', 'sunday roast chicken'],
     why: 'Chicken, lemon, butter, thyme: four things, and a bird that fills the house with the scent of Sunday lunch. The recipe is old and very simple, which is why it works so well. Everything is aimed at keeping the breast juicy and getting the skin properly crisp.\n\nBring the chicken to room temperature for 45 minutes before roasting, and dry the skin thoroughly. Mix soft butter with lemon zest, crushed garlic and thyme leaves, then ease your fingers between the skin and the breast and spread most of it underneath. As the butter melts it bastes the meat from the inside.\n\n**Put the squeezed lemon halves and a head of garlic in the cavity.** They steam as the bird roasts and scent the meat, and the juice that collects in the tin makes a bright base for the gravy. Truss the legs together with string so the bird cooks evenly.\n\nRoast at 200C for 1 hour 30 minutes, or until the juices run clear from the thigh and a thermometer reads 75C. Rest the chicken for 15 minutes, which gives you time to make the gravy and finish the vegetables.',
     ing: [
@@ -372,7 +372,7 @@ module.exports = {
   },
 
   'one-pot-fried-rice': {
-    d: 'Day-old rice, eggs, peas and carrots stir-fried in one pan with soy sauce and sesame oil in 15 minutes.',
+    d: 'Day-old rice, eggs, peas and carrots stir-fried in one pan for 15 minutes with soy sauce and sesame oil.',
     meta: 'One pot fried rice with egg, peas and soy sauce. Four servings, ready in 25 minutes.',
     kw: ['one pot fried rice', 'egg fried rice', 'chinese fried rice', 'fried rice with peas and carrots', 'fried rice recipe'],
     why: 'The first sign it is going right is the sound: a sharp sizzle as the cold rice hits the hot oil, and the grains jumping rather than sticking. Fried rice is a way of using up leftover rice, and the best versions start with rice that was cooked the day before and chilled overnight.\n\nFresh rice is too wet and soft, and it clumps into a paste in the pan. Cooked rice that has been left uncovered in the fridge dries slightly and firms up, so the grains separate and fry. If you have to use fresh rice, spread it on a tray and chill it in the freezer for 20 minutes.\n\n**Use the pan very hot and work fast.** A wok or a large frying pan over high heat gives the grains a toasty edge. Stir-fry the vegetables for a minute, push them aside, scramble the eggs in the gap, and then bring everything together with the rice.\n\nSeason in stages: soy sauce goes in first around the edges of the pan, where it sizzles and caramelises before coating the rice, and sesame oil goes in last for aroma. Finish with spring onions and a pinch of white pepper.',
@@ -631,7 +631,7 @@ module.exports = {
 
   'one-pot-ratatouille': {
     d: 'Aubergine, courgette, peppers, tomatoes and onion simmered together in one pot with garlic and thyme for 40 minutes until soft and sweet.',
-    meta: 'One pot ratatouille with aubergine, courgette and tomatoes, simmered for 40 minutes. Four servings, ready in 55 minutes.',
+    meta: 'One pot ratatouille with aubergine, courgette and tomatoes, simmered for 40 minutes. Four servings, ready in 1 hour 10 minutes.',
     kw: ['one pot ratatouille', 'easy ratatouille', 'provencal vegetable stew', 'ratatouille recipe', 'courgette and aubergine stew'],
     why: 'Why does ratatouille so often turn out grey and watery? Because everything is thrown into the pot together and left to stew in its own liquid. A good one is made in stages, so each vegetable keeps its character and the whole thing ends up rich rather than soupy.\n\nThe French way is to cook each vegetable separately and combine them at the end. In this one pot version you do the same thing in sequence: brown the aubergine first in plenty of olive oil, lift it out, then the courgette, then soften the onion and peppers and finally add the tomatoes. Everything comes back together for the last 20 minutes of gentle cooking.\n\n**Salt the aubergine for 15 minutes first.** This draws out moisture and bitterness, and means the slices brown rather than steam. Pat them dry before they hit the pan.\n\nThe finished stew should be glossy and thick, with the vegetables soft but still recognisable. It is as good cold as it is hot, and even better the next day. Stir through torn basil and a splash of good olive oil just before serving.',
     ing: [
@@ -734,7 +734,7 @@ module.exports = {
 
   'pea-salad': {
     d: 'Frozen peas dressed with soured cream, mayonnaise, red onion, crisp bacon and cheddar for a cold side that needs no cooking.',
-    meta: 'Pea salad with bacon, cheddar and a creamy dressing, made in 15 minutes. Six servings, no cooking required.',
+    meta: 'Pea salad with bacon, cheddar and a creamy dressing, made in 45 minutes. Six servings; no cooking, with the bacon bought or made ready cooked.',
     kw: ['pea salad', 'creamy pea salad', 'pea salad with bacon', 'cold pea salad', 'pea and cheddar salad'],
     why: 'Most home versions come out watery, and the fix is to drain the peas properly. Frozen peas are the right choice because they are picked and frozen within hours, and they stay sweet and firm. Rinse them under cold running water until they have thawed, then spread them on kitchen paper and pat dry before dressing.\n\nThe dressing is half mayonnaise, half soured cream, with a spoonful of cider vinegar, salt and pepper. The soured cream gives tang and the mayonnaise gives body. Use just enough to coat, because the peas will release a little moisture as the salad sits.\n\n**Add the bacon at the last minute.** Crisp bacon softens in a wet dressing within an hour, so keep it separate until just before serving and fold it in at the table. Cook it ahead until very crisp and crumble it with your fingers.\n\nRed onion, finely diced, adds bite, and small cubes of mature cheddar bring sharpness against the sweet peas. It is a classic of the American church supper, and works as well beside barbecued meat as a side for a cold ham sandwich.',
     ing: [

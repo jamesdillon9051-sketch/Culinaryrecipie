@@ -186,7 +186,7 @@ module.exports = {
       '3 tbsp rice vinegar',
       '1 tbsp caster sugar',
       '1/2 tsp salt',
-      '150 g sashimi-grade salmon',
+      '150 g sashimi-grade salmon, farmed or previously frozen to kill parasites',
       '150 g sashimi-grade tuna',
       '1/2 cucumber, thinly sliced',
       '1 avocado, sliced',
@@ -214,7 +214,7 @@ module.exports = {
 
   'drunken-noodles': {
     d: 'Wide rice noodles stir-fried over high heat with chicken, holy basil, chilli, garlic and a dark soy and oyster sauce.',
-    meta: 'Drunken noodles: wide rice noodles stir-fried with chicken, basil, chilli, garlic and a dark soy and oyster sauce. Two servings in 20 minutes.',
+    meta: 'Drunken noodles: wide rice noodles stir-fried with chicken, basil, chilli, garlic and a dark soy and oyster sauce. Two servings in 35 minutes.',
     kw: ['drunken noodles', 'pad kee mao', 'thai drunken noodles', 'spicy thai noodles', 'easy drunken noodles'],
     why: 'Drunken noodles are named for the drinker, not the drink: they are hot enough, savoury enough and fast enough to sober up on. The noodle is wide and chewy, and it picks up the dark, smoky sauce like a sponge.\n\nSoak the dried noodles in warm water until bendy but not soft, then drain. They finish in the wok, and fully soft noodles tear. Mix the sauce before you start: soy, dark soy, oyster sauce and a pinch of sugar.\n\nGet the wok as hot as it will go. **The cooking is quick, so everything must be ready beside the hob.** Fry the garlic and chilli for 15 seconds, add the chicken and cook for 3 minutes, then the noodles and sauce.\n\nToss for 3 minutes until the noodles take on colour and a few catch and char at the edges. If your hob runs hot, work faster. Stir in a large handful of basil leaves at the end and serve.',
     ing: [

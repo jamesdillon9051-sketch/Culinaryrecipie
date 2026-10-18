@@ -17,6 +17,7 @@
 
 module.exports = {
   'witch-finger-cookies': {
+    untimed: ['cooling'],
     d: 'Buttery almond shortbread cookies shaped like long, crooked fingers, with an almond for a fingernail and a smear of jam for gore.',
     meta: 'Witch finger cookies: buttery almond shortbread shaped like crooked fingers, with an almond for a nail and jam for gore. Twenty-four cookies, cooked for 15 minutes.',
     kw: ['witch finger cookies', 'witch fingers halloween cookies', 'witch finger cookies recipe', 'almond shortbread finger cookies', 'halloween finger cookies'],
@@ -222,6 +223,7 @@ module.exports = {
   },
 
   'sourdough-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies made with sourdough discard, with a shiny crackle top and a deep, slightly tangy chocolate flavour.',
     meta: 'Sourdough brownies: fudgy chocolate brownies made with sourdough discard, with a crackle top and a deep, slightly tangy flavour. Twelve servings, cooked for 30 minutes.',
     kw: ['sourdough brownies', 'sourdough discard brownies', 'sourdough brownies recipe', 'fudgy brownies with sourdough starter', 'chocolate brownies with discard'],

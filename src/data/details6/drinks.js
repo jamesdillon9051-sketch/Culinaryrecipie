@@ -64,6 +64,7 @@ module.exports = {
   },
 
   'sujeonggwa': {
+    untimed: ['cooling completely'],
     rest: [360, 'steeping'],
     d: 'Korean cinnamon and ginger punch, simmered dark and served ice cold with soft dried persimmon and pine nuts floating on top.',
     meta: 'Sujeonggwa — Korean cinnamon and ginger punch served cold with dried persimmon.',
@@ -80,7 +81,7 @@ module.exports = {
     ],
     st: [
       'Simmer the cinnamon bark in 1 litre of water, covered, for 40 minutes.',
-      'In a separate pan, simmer the ginger in the other litre for 25 minutes.',
+      'Meanwhile, simmer the ginger in the other litre in a separate pan for 25 minutes.',
       'Strain both through a fine sieve and combine.',
       'Add the sugar and salt and simmer 5 minutes until dissolved.',
       'Cool completely, then refrigerate at least 4 hours. It is served properly cold.',
@@ -197,6 +198,8 @@ module.exports = {
   },
 
   'sorrel-drink': {
+    untimed: ['cooling to room temperature'],
+    rest: [720, 'chilling'],
     d: 'Trinidadian Christmas in a glass: dried sorrel steeped with ginger, clove and orange peel, sweetened and usually spiked with rum.',
     meta: 'Sorrel drink — the Trinidadian Christmas hibiscus drink with ginger, clove and rum.',
     kw: ['sorrel drink recipe', 'trinidad sorrel', 'caribbean christmas drink', 'hibiscus rum drink'],
@@ -234,7 +237,7 @@ module.exports = {
   },
 
   'sobolo': {
-    rest: [180, 'steeping'],
+    rest: [200, 'steeping'],
     d: 'The Ghanaian hibiscus drink, steeped with pineapple skin, ginger and cloves and drunk cold from a bottle on any hot afternoon.',
     meta: 'Sobolo — the Ghanaian hibiscus drink with pineapple, ginger and cloves, served cold.',
     kw: ['sobolo recipe', 'ghana hibiscus drink', 'bissap', 'zobo drink'],
@@ -270,7 +273,7 @@ module.exports = {
   },
 
   'kvass': {
-    rest: [2640, 'fermenting'],
+    rest: [2655, 'fermenting'],
     d: 'Rye bread, water, sugar and yeast left to work for two days into a dark, faintly sour, barely alcoholic drink that Ukrainians have made from stale loaves for centuries.',
     meta: 'Bread kvass — the Ukrainian fermented rye drink, dark, faintly sour and lightly fizzy.',
     kw: ['kvass recipe', 'bread kvass', 'ukrainian fermented drink', 'rye drink'],

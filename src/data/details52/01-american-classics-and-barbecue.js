@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'sourdough-discard-crackers': {
+    untimed: ['cooling on the tray'],
     d: 'Thin, crisp crackers made from sourdough discard, olive oil and rosemary, rolled out and baked until golden.',
     meta: 'Sourdough discard crackers: thin, crisp crackers made from sourdough discard, olive oil and rosemary. Six servings, cooked for 20 minutes.',
     kw: ['sourdough discard crackers', 'sourdough cracker recipe', 'crackers from sourdough discard', 'rosemary sourdough crackers', 'crisp sourdough crackers'],

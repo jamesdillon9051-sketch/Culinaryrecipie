@@ -213,6 +213,7 @@ module.exports = {
   },
 
   'milk-tart': {
+    untimed: ['cooling completely'],
     d: 'A pale set custard in a thin crust under a heavy dusting of cinnamon. South Africa\'s tea-time tart, and not a baked one.',
     meta: 'South African milk tart of cinnamon-infused milk thickened with cornflour and egg, poured into a baked shell and chilled.',
     kw: ['milk tart', 'melktert', 'south african milk tart', 'milk tart recipe', 'cinnamon custard tart'],
@@ -242,7 +243,7 @@ module.exports = {
       'Fish out the cinnamon sticks, then pour the hot milk onto the paste in a stream, whisking.',
       'Return it all to the pan and cook over a medium heat, whisking, until it thickens and a spoon drawn across the base leaves a line that holds for a second.',
       'Beat in the butter and vanilla, then pour it into the shell and smooth the top.',
-      'Leave to cool completely, then chill at least 3 hours before dusting heavily with cinnamon and slicing.'
+      'Leave to cool for no more than 2 hours, then chill at least 3 hours before dusting heavily with cinnamon and slicing.'
     ],
     tips: [
       'Blind-bake without beans; a pressed crust does not slump.',
@@ -252,7 +253,7 @@ module.exports = {
     pair: ['Rooibos tea', 'Strong coffee', 'Fresh berries'],
     store: 'Refrigerate up to 3 days, covered. The cinnamon needs re-dusting after the first day.',
     nut: [450, 10, 56, 20, 1, 27, 260],
-    rest: [180, 'chilling the tart']
+    rest: [195, 'chilling the tart']
   },
 
   'mandazi': {

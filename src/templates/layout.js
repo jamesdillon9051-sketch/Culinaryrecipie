@@ -13,7 +13,7 @@ const SITE = {
   name: 'Weekly Delight',
   /* Says what the site holds and nothing it cannot back. It used to say each
      recipe was "tested", which no record supports. */
-  tagline: `The world's ${recipeCount} most famous recipes, explained step by step`,
+  tagline: `${recipeCount} well-known recipes from around the world, explained step by step`,
   /* The live domain. Every canonical link, Open Graph URL, sitemap entry and
      JSON-LD @id on the site is built from this, so it has to be the address
      people actually reach — it pointed at a Netlify subdomain that returns 404,
@@ -390,7 +390,7 @@ function card(recipe, options = {}) {
     <p>${esc(recipe.cardBlurb)}</p>
     <div class="card-foot">
       ${starsHtml(recipe.rating, recipe.reviews)}
-      <span class="card-meta">${ICONS.clock}${compactTime(recipe.elapsedTime, recipe.elapsedMax)} <i>&middot;</i> ${esc(recipe.difficulty)}</span>
+      <span class="card-meta">${ICONS.clock}${compactTime(recipe.elapsedTime, recipe.elapsedMax, !!recipe.untimed)} <i>&middot;</i> ${esc(recipe.difficulty)}</span>
     </div>
   </div>
 </article>`;
@@ -413,9 +413,12 @@ function card(recipe, options = {}) {
  * hosted there — is what turns this back into a signup box.
  */
 function newsletter(id = 'newsletter') {
+  /* What used to stand here said there was no newsletter, and that the recipe index was sorted
+     newest first, which it is not (it opens in the suggested order). What a returning reader can
+     actually do is keep recipes, see the newest ones, or start from what is in the fridge. */
   return `<section class="newsletter reveal" id="${id}" aria-labelledby="${id}-title">
-  <h2 id="${id}-title">There is no newsletter yet</h2>
-  <p>One day there may be a weekly letter — one recipe, why it works, and what to drink with it. It is not running today, and I would rather tell you that than collect addresses for a list nobody is on. New recipes go up on the site; the <a href="${SITE.base}recipes/">recipe index</a> is sorted newest first.</p>
+  <h2 id="${id}-title">Keep the recipes you want to come back to</h2>
+  <p>Press the heart on any recipe and it waits on your <a href="${SITE.base}favourites/">Saved recipes</a> page, in this browser, with no account and nothing sent anywhere. To see what has been added lately, open the <a href="${SITE.base}recipes/?sort=newest">recipe index with the newest first</a>, or start from an <a href="${SITE.base}ingredients/">ingredient you already have</a>.</p>
 </section>`;
 }
 

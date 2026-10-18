@@ -38,7 +38,7 @@ module.exports = {
       '0.5 tsp black pepper'
     ],
     st: [
-      'Put the beef, wine, vegetables, garlic and all the spices in a bowl, cover, and refrigerate 12 hours, turning the meat once.',
+      'Put the beef, wine, vegetables, garlic, rosemary and all the spices in a bowl, cover, and refrigerate 12 hours, turning the meat once.',
       'Lift the beef out and dry it thoroughly with kitchen paper. Strain the marinade, keeping the wine and the vegetables separately.',
       'Bring the strained wine to the boil in a saucepan and boil hard 10 minutes, skimming off the grey scum that rises. Set aside.',
       'Brown the beef on every side in the oil in a heavy casserole, 12 minutes. Lift it out.',

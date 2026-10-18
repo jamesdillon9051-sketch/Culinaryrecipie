@@ -2,6 +2,7 @@
 
 module.exports = {
   'mujadara': {
+    cookMax: 60,
     d: 'Lentils and rice cooked together under a mountain of onions fried almost to the point of burning. A dish of the poor for a thousand years, and one of the best things you can make from four ingredients.',
     meta: 'Mujadara — Levantine lentils and rice topped with deeply caramelised crisp fried onions. Four ingredients, huge flavour.',
     kw: ['mujadara recipe', 'lentils and rice', 'lebanese mujadara', 'crispy fried onions'],
@@ -46,6 +47,7 @@ module.exports = {
   },
 
   'maqluba': {
+    cookMax: 120,
     d: 'Rice, meat and fried vegetables layered in a pot and flipped out whole at the table so it stands as a cake. The name means "upside down", and the flip is the entire theatre of the dish.',
     meta: 'Maqluba — Palestinian upside-down rice with lamb, fried aubergine and cauliflower, flipped out whole.',
     kw: ['maqluba recipe', 'palestinian upside down rice', 'maklouba', 'layered rice dish'],
@@ -79,7 +81,7 @@ module.exports = {
     st: [
       'Cover the meat with water in a pot with the onion, cardamom, cinnamon, bay and salt. Simmer 60 minutes for lamb or 30 for chicken, skimming.',
       'Lift the meat out and strain the stock — you need 900 ml. Reserve both.',
-      'Salt the aubergine slices and leave 20 minutes, then pat dry.',
+      'While the meat simmers, salt the aubergine slices and leave 20 minutes, then pat dry.',
       'Fry the aubergine, cauliflower and potato separately in the hot oil until deep golden, 4 to 6 minutes each. Drain on kitchen paper.',
       'Drain the rice and toss it with the allspice, turmeric, cinnamon, cumin, pepper and salt.',
       'In a heavy round pot, arrange a layer of the best-looking aubergine slices across the base and up the sides — this becomes the top when flipped.',
@@ -99,6 +101,7 @@ module.exports = {
   },
 
   'kibbeh': {
+    cookMax: 70,
     d: 'Bulgur and lamb pounded to a paste, layered around a spiced filling of more lamb and pine nuts, scored into diamonds and baked. Considered the national dish of Lebanon and Syria alike.',
     meta: 'Baked kibbeh — bulgur and lamb shell around a spiced lamb and pine nut filling, scored and baked golden.',
     kw: ['kibbeh recipe', 'baked kibbeh', 'lebanese kibbeh', 'bulgur lamb bake'],
@@ -165,7 +168,7 @@ module.exports = {
       'A handful mint leaves, torn',
       'Toasted pine nuts',
       'Warm flatbread, cucumber and radishes',
-      '# For preserved labneh balls, optional',
+      '# For labneh balls in oil, optional',
       'Olive oil, to cover',
       'Dried mint, chilli flakes and thyme'
     ],
@@ -178,15 +181,15 @@ module.exports = {
       'Scrape the labneh out of the cloth into a bowl and beat it briefly until smooth.',
       'Spread it onto a shallow plate with the back of a spoon, making broad swirls and a well in the middle.',
       'Pour the olive oil into the well so it pools, then scatter over za\'atar, sumac, mint and pine nuts.',
-      'For labneh balls, roll 36-hour labneh into walnut-sized spheres with oiled hands, pack into a sterilised jar, cover completely with olive oil and add dried herbs.'
+      'For labneh balls, roll 36-hour labneh into walnut-sized spheres with oiled hands, pack into a sterilised jar, cover completely with olive oil and add dried herbs. Keep the jar in the fridge.'
     ],
     tips: [
       'Full-fat yoghurt only. Low-fat versions strain to a chalky, grainy paste.',
       'Do not throw the whey away. It is excellent in bread and pancake batters.',
-      'Labneh balls under oil keep for a month in the fridge and make an outstanding gift.'
+      'Labneh balls under oil are for the week they are made, not for the cupboard: keep them in the fridge and eat them within 4 days.'
     ],
     pair: ['Warm flatbread and raw vegetables', 'A wider mezze spread', 'Mint tea'],
-    store: 'Refrigerate up to 1 week, covered. Balls under olive oil keep 1 month. It does not freeze.',
+    store: 'Refrigerate up to 1 week, covered. Balls under olive oil with dried herbs keep 4 days in the fridge: herbs held in oil can carry botulism, and the oil does not stop it. It does not freeze.',
     nut: [197, 12, 8, 13, 0, 6, 420]
   },
 
@@ -316,7 +319,7 @@ module.exports = {
       'Sahawiq (Yemeni green chilli sauce)'
     ],
     st: [
-      'Rub the lamb all over with the combined spices, salt and ghee. Marinate at least 4 hours, ideally overnight.',
+      'Rub the lamb all over with the combined spices, salt and ghee. Cover and marinate in the fridge for at least 4 hours, ideally overnight.',
       'Heat the oven to 160°C / 320°F.',
       'Fry the onion in ghee in a large ovenproof pot for 10 minutes until golden, then add the whole spices, bay and turmeric.',
       'Drain the rice, add it to the pot and toast 3 minutes, then pour in the stock and salt and bring to the boil.',

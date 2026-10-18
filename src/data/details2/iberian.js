@@ -2,7 +2,7 @@
 
 module.exports = {
   'salmorejo': {
-    rest: [180, 'chilling'],
+    rest: [200, 'chilling'],
     d: 'Córdoba\'s thicker, richer answer to gazpacho: tomatoes, bread, garlic and a great deal of olive oil blended into a smooth orange cream, served cold under chopped egg and jamón.',
     meta: 'Salmorejo cordobés — thick chilled tomato and bread cream with olive oil, topped with egg and jamón.',
     kw: ['salmorejo recipe', 'spanish cold soup', 'cordoba tomato soup', 'thick gazpacho'],
@@ -92,7 +92,7 @@ module.exports = {
       'Coarse sea salt'
     ],
     st: [
-      'Thaw the octopus completely. Freezing first is essential — it does the tenderising that would otherwise take hours of pounding.',
+      'If the octopus is still frozen, thaw it completely in the fridge, never on the counter. Freezing first is essential — it does the tenderising that would otherwise take hours of pounding.',
       'Bring a large pot of unsalted water to a rolling boil with the onion and bay leaves.',
       'Hold the octopus by the head and dip the tentacles into the boiling water for 5 seconds, then lift out. Repeat twice more. The tentacles will curl tightly.',
       'On the fourth dip, lower the whole octopus in and reduce to a gentle simmer.',
@@ -113,7 +113,7 @@ module.exports = {
   },
 
   'fabada-asturiana': {
-    rest: [480, 'soaking'],
+    rest: [500, 'soaking'],
     d: 'Enormous creamy fabes beans stewed with chorizo, morcilla and pork shoulder until the broth turns orange with paprika fat. Asturias in a pot, and a dish designed for cold, wet Atlantic weather.',
     meta: 'Fabada asturiana — Asturian bean stew with fabes, chorizo, morcilla and pork in a rich paprika broth.',
     kw: ['fabada asturiana recipe', 'spanish bean stew', 'asturian fabada', 'chorizo morcilla beans'],
@@ -154,6 +154,7 @@ module.exports = {
   },
 
   'pastel-de-nata': {
+    untimed: ['cooling completely'],
     d: 'Lisbon\'s custard tarts: laminated pastry shells filled with a loose cinnamon custard and blasted in a furnace-hot oven until the tops blister black. The scorch marks are the point.',
     meta: 'Pastéis de nata — Portuguese custard tarts with laminated pastry and blistered, caramelised cinnamon custard.',
     kw: ['pastel de nata recipe', 'portuguese custard tart', 'pasteis de nata', 'lisbon custard tart'],

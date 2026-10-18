@@ -429,10 +429,10 @@ module.exports = {
     tips: [
       'Start the onions in cold oil. Dropping them into hot oil browns the outsides before the insides have released anything.',
       'Unsalted noodle water \u2014 the sauce is already salty and salted water pushes it over.',
-      'The scallion oil keeps 2 weeks in the fridge, so it is worth making a double batch of just the oil.'
+      'The scallion oil keeps 4 days in the fridge, so a double batch of just the oil covers a second meal that week.'
     ],
     pair: ['A jammy soft-boiled egg', 'Smashed cucumber salad', 'Chilli crisp'],
-    store: 'Best eaten straight away while the onions are crisp. The dressed noodles keep 2 days refrigerated but soften; the scallion oil keeps 2 weeks separately.',
+    store: 'Best eaten straight away while the onions are crisp. The dressed noodles keep 2 days refrigerated but soften; the scallion oil keeps 4 days separately in the fridge.',
     nut: [628, 14, 81, 27, 4, 7, 1370]
   }
 };

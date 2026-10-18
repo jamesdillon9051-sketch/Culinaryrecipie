@@ -52,7 +52,7 @@ module.exports = {
 
   'sausage-egg-bake': {
     d: 'Sausage, bread cubes, cheddar and eggs soaked in milk and baked for 35 minutes until puffed and golden, a make-ahead brunch for six.',
-    meta: 'Sausage egg bake with bread, cheddar and a mustard custard, baked for 35 minutes. Six servings, ready in 50 minutes.',
+    meta: 'Sausage egg bake with bread, cheddar and a mustard custard, baked for 35 minutes. Six servings, ready in 1 hour 20 minutes.',
     kw: ['sausage egg bake', 'sausage and egg breakfast casserole', 'make ahead breakfast bake', 'egg and sausage casserole', 'brunch egg bake'],
     why: 'Sausage and eggs have been breakfast partners in British and American kitchens for as long as either has had breakfast, and a bake is the way to feed a table of six without standing at the stove. Everything is assembled the night before, left to soak, and baked while you pour the coffee.\n\nThe structure is bread, sausage, cheese and an egg custard. Use day-old bread cut into 2 cm cubes, which holds its shape and soaks up the custard without turning to paste. Fresh bread collapses. Brown the sausage meat first, crumbling it into small pieces, and drain off any excess fat before layering.\n\n**Let it sit for at least 30 minutes before baking.** The bread needs time to absorb the custard, and in an overnight rest in the fridge it drinks in nearly all of it, giving a bake that is soft and set all the way through instead of eggy at the bottom.\n\nA spoonful of English mustard in the custard cuts through the richness of the cheese and sausage without tasting hot. Bake until puffed, golden at the edges and just firm in the middle, and rest for 5 minutes before cutting. Squares reheat well in the microwave.',
     ing: [
@@ -86,7 +86,7 @@ module.exports = {
 
   'sausage-stuffing': {
     d: 'Cubes of toasted bread, sausage meat, onion, celery and sage baked at 180C for 45 minutes until crisp on top and moist within.',
-    meta: 'Sausage stuffing with sage, celery and toasted bread, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Sausage stuffing with sage, celery and toasted bread, baked for 45 minutes. Eight servings, ready in 1 hour 30 minutes.',
     kw: ['sausage stuffing', 'sage and sausage stuffing', 'thanksgiving sausage stuffing', 'christmas sausage stuffing', 'sausage and bread stuffing'],
     why: 'Toast the bread first. That one instruction is the difference between stuffing that holds its shape and stuffing that turns to porridge, because dry, toasted cubes can absorb a lot of stock without falling apart, and soft fresh ones cannot.\n\nCut a day-old loaf into 2 cm cubes and dry them in a low oven for 25 minutes, until they feel like croutons. Meanwhile brown the sausage meat with onion, celery and plenty of sage in a large pan, using the sausage fat to soften the vegetables. Fresh sage is far better than dried here, and a handful is not too much.\n\n**Add the stock a little at a time.** Pour in about two thirds of it, toss, and wait for the bread to absorb it before deciding whether it needs more. The cubes should be damp all through but not sitting in liquid. An egg stirred in binds everything together.\n\nBake uncovered so that the top becomes crisp and golden, with soft, savoury stuffing underneath. A tray with a little more surface area than depth gives more crisp edges, which are what everyone fights over at the table.',
     ing: [
@@ -105,7 +105,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 150C. Spread the bread cubes on 2 trays and dry them for 25 minutes. Raise the oven to 180C.',
-      'Brown the sausage meat in a large pan for 8 minutes, breaking it up. Lift out. Add the butter, onions and celery and cook for 8 minutes. Add the garlic, sage, thyme, salt and pepper for 1 minute.',
+      'While the bread dries, brown the sausage meat in a large pan for 8 minutes, breaking it up. Lift out. Add the butter, onions and celery and cook for 8 minutes. Add the garlic, sage, thyme, salt and pepper for 1 minute.',
       'Tip the bread and sausage into a large bowl with the vegetables. Add two thirds of the stock and the eggs and toss gently, adding more stock if the bread still seems dry.',
       'Spoon into a greased baking dish.',
       'Bake uncovered for 45 minutes until golden and crisp on top.'
@@ -121,8 +121,9 @@ module.exports = {
   },
 
   'sausage-and-mash': {
+    cookMax: 50,
     d: 'Pork sausages browned and baked for 30 minutes alongside creamy mashed potato and a red onion gravy.',
-    meta: 'Sausage and mash with onion gravy, baked sausages and buttery mashed potato. Four servings, ready in 45 minutes.',
+    meta: 'Sausage and mash with onion gravy, baked sausages and buttery mashed potato. Four servings, ready in 1 hour to 1 hour 5 minutes.',
     kw: ['sausage and mash', 'bangers and mash', 'sausages with onion gravy', 'creamy mashed potato', 'pub style sausage and mash'],
     why: 'It looks like a plain plate and tastes like home, which is why sausage and mash has survived on pub menus for as long as pubs have had menus. The sausages are cooked in the oven so that they brown without bursting, the mash is rich with butter, and the gravy ties them together.\n\nThe sausages should not be pricked. A pricked skin lets the juices run out into the pan and leaves the sausage dry. Roast them at 200C on a tray and turn them once. The fat that runs from the skin is what colours them, so give them space and no oil.\n\n**Pass the potatoes through a ricer, or mash them while they are still steaming.** Cold potato turns gluey if worked hard, but hot potato breaks into light crumbs. Use a floury variety such as Maris Piper, boil it in salted water until a knife slides through, and drain it well. Steam off for 2 minutes in the pot before mashing.\n\nWarm the milk and butter before they go in, which keeps the mash hot and smooth. The gravy is sliced onion cooked slowly in the sausage fat until it caramelises, then thickened with a spoonful of flour and beef stock.',
     ing: [
@@ -139,7 +140,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200C. Place the sausages on a tray and roast for 30 minutes, turning once, until deep golden.',
-      'Boil the potatoes in salted water for 18 minutes until tender. Drain and steam dry for 2 minutes.',
+      'While the sausages roast, boil the potatoes in salted water for 18 minutes until tender. Drain and steam dry for 2 minutes.',
       'Mash the potatoes with the butter, warm milk and salt until smooth.',
       'Pour 1 tbsp of the sausage fat into a pan and cook the onions for 12 minutes until soft and golden. Stir in the flour, then the stock and Worcestershire sauce, and simmer for 6 minutes.',
       'Serve the sausages on the mash with the gravy and parsley.'
@@ -400,7 +401,7 @@ module.exports = {
 
   'sheet-pan-lemon-chicken': {
     d: 'Chicken thighs, lemon slices, red onion and baby potatoes roasted on one tray with oregano and garlic until crisp and golden.',
-    meta: 'Sheet pan lemon chicken with potatoes, onion and oregano, roasted for 35 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Sheet pan lemon chicken with potatoes, onion and oregano, roasted for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['sheet pan lemon chicken', 'lemon chicken tray bake', 'greek style lemon chicken and potatoes', 'lemon oregano chicken', 'roast lemon chicken thighs'],
     why: 'This is what to make in late spring, when the evenings are long enough to eat at the table and the oven is the only thing you want to switch on. Lemon, garlic and oregano is the flavour of Greek roast chicken, and on a single tray it makes a dinner with almost no washing up.\n\nThe lemon plays two roles. The juice goes into the marinade, where it tenderises the chicken and carries the garlic and oregano into the meat. The sliced lemon goes on the tray, where it caramelises at the edges, softens and turns sweet. A roasted slice can be squeezed over everything at the table for a mellower flavour than raw juice.\n\n**Marinate for at least 30 minutes.** The acid does its work quickly on thigh meat, and a longer soak of up to 4 hours gives deeper flavour. Leave it longer, though, and the surface of the meat begins to go soft.\n\nRoast the chicken skin side up, with the potatoes and red onion wedges around it, so the fat renders over the vegetables. Turn the vegetables once halfway. The finished tray should have crisp chicken skin, golden potatoes and soft, sticky lemon.',
     ing: [
@@ -536,7 +537,7 @@ module.exports = {
 
   'sheet-pan-steak-and-vegetables': {
     d: 'Sirloin steak strips roasted on a tray with broccoli, peppers and red onion at 230C for 20 minutes with garlic and soy.',
-    meta: 'Sheet pan steak and vegetables with garlic and soy, roasted for 20 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Sheet pan steak and vegetables with garlic and soy, roasted for 20 minutes. Four servings, ready in 50 minutes.',
     kw: ['sheet pan steak and vegetables', 'steak and broccoli tray bake', 'roasted steak bites with vegetables', 'garlic soy steak sheet pan', 'one tray steak dinner'],
     why: 'Hot oven, hot tray. Those four words are the whole recipe, because steak and vegetables only brown properly if the tray is already searing when they go on. A cold tray steams them and gives you grey meat and limp broccoli.\n\nCut the sirloin into 3 cm cubes. Small pieces cook in a few minutes, so the steak and the vegetables finish together, and every cube gets a browned crust. Toss the beef with soy sauce, garlic, a spoonful of olive oil and black pepper, and leave it for 15 minutes while the oven heats.\n\n**Add the steak for the last 8 minutes only.** Broccoli florets, pepper chunks and red onion wedges go on the tray first and roast for 12 minutes. Then the beef is scattered over and everything returns to the oven. The steak cooks to medium in 8 minutes and stays tender.\n\nA squeeze of lime and a drizzle of honey and sesame oil over the finished tray add a glaze that clings to the vegetables. Serve with rice, or straight from the tray with chopsticks or a fork.',
     ing: [
@@ -678,7 +679,7 @@ module.exports = {
 
   'slow-cooker-baked-beans': {
     d: 'Dried haricot beans cooked on low for 8 hours in a molasses, tomato and mustard sauce with bacon until soft, sticky and sweet.',
-    meta: 'Slow cooker baked beans with bacon and a molasses sauce, cooked for 8 hours. Ten servings, ready in 8 hours 15 minutes.',
+    meta: 'Slow cooker baked beans with bacon and a molasses sauce, cooked for 8 hours. Ten servings, ready in 16 hours 15 minutes, soaking overnight included.',
     kw: ['slow cooker baked beans', 'crockpot baked beans', 'baked beans from dried beans', 'bacon baked beans', 'molasses baked beans'],
     why: 'Soak the beans overnight. That is the one thing to do the evening before, because dried beans cooked straight in a slow cooker with acid and sugar can stay hard for hours. Soaked beans swell and soften evenly, and the long, gentle heat does the rest.\n\nUse haricot beans, also sold as navy beans, which have a creamy texture and hold their shape. Drain the soaking water, rinse them, and put them in the cooker with the bacon, onion and the sauce. Sugar and acid slow down softening, so some cooks add the sweet ingredients only for the last hour. If your beans are old, do the same.\n\n**Do not lift the lid.** A slow cooker loses heat each time it is opened, and adds 20 minutes to the cooking time. Leave it alone for the first 6 hours, then check the beans for tenderness. They should be soft all the way through and the sauce thick enough to coat a spoon.\n\nIf the sauce is thin at the end, take the lid off, switch to high and let it reduce for 30 minutes. The beans improve overnight in the fridge, and are excellent on toast, with a jacket potato or alongside sausages.',
     ing: [
@@ -716,7 +717,7 @@ module.exports = {
 
   'slow-cooker-beef-brisket': {
     d: 'A beef brisket cooked on low for 8 hours with onions, garlic and a tangy tomato sauce until tender enough to slice or shred.',
-    meta: 'Slow cooker beef brisket with onions in a tangy sauce, cooked for 8 hours. Eight servings, ready in 8 hours 15 minutes.',
+    meta: 'Slow cooker beef brisket with onions in a tangy sauce, cooked for 8 hours. Eight servings, ready in 8 hours 35 minutes.',
     kw: ['slow cooker beef brisket', 'crockpot brisket', 'tender braised brisket', 'brisket with onions', 'slow cooked beef brisket'],
     why: 'The smell of brisket as it slowly turns tender is the best reason to own a slow cooker. The cut is tough, lean and full of connective tissue, and it needs hours of low heat to relax, which is exactly what this appliance gives you.\n\nA 1.5 kg flat brisket fits most cookers. Rub it with salt, pepper, smoked paprika and garlic powder the night before if you can, to season it more deeply. Sear it hard on both sides in a hot pan for 4 minutes per side. The crust adds depth that the slow cooker cannot produce, and the browned bits dissolve into the sauce.\n\n**Cook it fat side up on a bed of sliced onions.** The fat bastes the meat as it softens, and the onions lift the brisket off the base so that it does not stew in its own juices. Pour in a measure of stock, Worcestershire sauce, ketchup and a splash of vinegar.\n\nAfter 8 hours on low, the meat should yield to a fork. Lift it out, rest it for 20 minutes, and slice against the grain. Skim the fat from the cooking liquid, reduce it in a pan for 10 minutes, and pour over the meat.',
     ing: [
@@ -831,7 +832,7 @@ module.exports = {
 
   'slow-cooker-butter-chicken': {
     d: 'Chicken thighs in a spiced tomato and butter sauce cooked on low for 5 hours, finished with cream and fenugreek.',
-    meta: 'Slow cooker butter chicken in a spiced tomato sauce, cooked for 5 hours. Six servings, ready in 5 hours 15 minutes.',
+    meta: 'Slow cooker butter chicken in a spiced tomato sauce, cooked for 5 hours. Six servings, ready in 6 hours 15 minutes, marinating included.',
     kw: ['slow cooker butter chicken', 'crockpot butter chicken', 'butter chicken recipe', 'murgh makhani', 'creamy butter chicken'],
     why: 'It looks like a restaurant dish and cooks like a stew, which is why butter chicken suits the slow cooker so well. The sauce, a blend of tomato, butter, cream and mild spices, is one of the signature dishes of Punjabi cooking, and long, slow heat marries the flavours until the whole pot tastes rounded and mellow.\n\nMarinate the chicken in yogurt, ginger, garlic, garam masala, turmeric and chilli for at least an hour, or overnight. The yogurt tenderises the thighs and the spices penetrate deeper than they would in a quick marinade. Put the chicken and marinade in the cooker with tomato purée, passata and a spoon of sugar to balance the acid.\n\n**Add the cream and butter at the end.** Dairy cooked for hours separates and goes grainy in a slow cooker. After 5 hours on low, lift the lid, stir in the butter cut into cubes and the cream, and let the sauce stand for 10 minutes with the heat off. It turns silky.\n\nCrush a spoonful of dried fenugreek leaves between your palms and scatter over the top, which adds the faintly bitter, maple-like fragrance of a good butter chicken. Serve with basmati rice and warm naan.',
     ing: [
@@ -852,7 +853,7 @@ module.exports = {
       '2 tbsp coriander, chopped'
     ],
     st: [
-      'Mix the chicken with the yogurt, ginger, garlic, garam masala, turmeric, chilli and salt. Marinate for at least 1 hour.',
+      'Mix the chicken with the yogurt, ginger, garlic, garam masala, turmeric, chilli and salt. Cover and marinate in the fridge for at least 1 hour.',
       'Put the chicken and marinade in the slow cooker. Stir in the tomato purée, passata and sugar.',
       'Cover and cook on low for 5 hours until the chicken is very tender.',
       'Turn off the heat. Stir in the butter and cream and leave for 10 minutes.',

@@ -11,6 +11,7 @@
 
 module.exports = {
   'carrot-cake-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Spiced carrot and walnut cupcakes made with oil for a moist crumb, topped with a swirl of cream cheese frosting.',
     meta: 'Carrot cake cupcakes: moist spiced carrot and walnut cupcakes with cream cheese frosting. Makes twelve, baked for 20 minutes.',
     kw: ['carrot cake cupcakes', 'carrot cupcakes with cream cheese frosting', 'homemade carrot cake cupcakes', 'moist carrot cupcakes', 'spiced carrot cupcakes'],
@@ -49,6 +50,7 @@ module.exports = {
   },
 
   'lemon-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light butter sponge cupcakes with lemon zest and juice, topped with a tangy lemon buttercream.',
     meta: 'Lemon cupcakes: light butter sponge cupcakes with lemon zest, topped with a tangy lemon buttercream. Makes twelve, baked for 20 minutes.',
     kw: ['lemon cupcakes', 'lemon cupcakes with buttercream', 'homemade lemon cupcakes', 'light lemon sponge cupcakes', 'lemon buttercream cupcakes'],
@@ -83,6 +85,7 @@ module.exports = {
   },
 
   'cookies-and-cream-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Vanilla cupcakes with crushed chocolate sandwich biscuits folded through, topped with a biscuit-speckled vanilla buttercream.',
     meta: 'Cookies and cream cupcakes: vanilla cupcakes with crushed chocolate sandwich biscuits, topped with buttercream. Makes twelve, baked for 20 minutes.',
     kw: ['cookies and cream cupcakes', 'oreo cupcakes', 'cookies and cream cupcakes with buttercream', 'chocolate biscuit cupcakes', 'homemade cookies and cream cupcakes'],
@@ -181,6 +184,7 @@ module.exports = {
   },
 
   'passionfruit-cake': {
+    untimed: ['cooling completely'],
     d: 'A soft butter cake with passionfruit pulp in the batter, finished with a tangy passionfruit icing.',
     meta: 'Passionfruit cake: a soft butter cake with passionfruit pulp and a tangy passionfruit icing. Ten slices, baked for 40 minutes.',
     kw: ['passionfruit cake', 'passionfruit butter cake', 'passionfruit cake with icing', 'australian passionfruit cake', 'homemade passionfruit cake'],
@@ -213,6 +217,7 @@ module.exports = {
   },
 
   'raspberry-cake': {
+    untimed: ['cooling'],
     d: 'A tender almond-scented sponge with raspberries baked through it and a snow of icing sugar on top.',
     meta: 'Raspberry cake: a tender almond-scented sponge with raspberries baked through it. Ten slices, baked for 40 minutes.',
     kw: ['raspberry cake', 'fresh raspberry cake', 'raspberry and almond cake', 'raspberry sponge cake', 'british raspberry cake'],
@@ -245,6 +250,7 @@ module.exports = {
   },
 
   'mango-cake': {
+    untimed: ['cooling completely'],
     d: 'A soft mango sponge with fresh mango folded into the batter and a lime icing on top.',
     meta: 'Mango cake: a soft mango sponge with fresh fruit in the batter and a lime icing on top. Ten slices, baked for 40 minutes.',
     kw: ['mango cake', 'fresh mango cake', 'mango sponge cake', 'mango cake with lime icing', 'australian mango cake'],
@@ -312,6 +318,7 @@ module.exports = {
   },
 
   'honey-cake': {
+    untimed: ['cooling completely'],
     d: 'A dark, spiced honey cake made with strong tea and oil, sliced thick and eaten plain.',
     meta: 'Honey cake: a dark, spiced cake made with honey, strong tea and oil. Ten slices, baked for 50 minutes.',
     kw: ['honey cake', 'spiced honey cake', 'moist honey cake', 'honey tea cake', 'homemade honey cake'],
@@ -448,6 +455,7 @@ module.exports = {
   },
 
   'milo-cake': {
+    untimed: ['cooling completely'],
     d: 'A malted chocolate sponge made with Milo drink powder and iced with a thick Milo buttercream.',
     meta: 'Milo cake: a malted chocolate sponge made with Milo drink powder, iced with Milo buttercream. Twelve slices, baked for 35 minutes.',
     kw: ['milo cake', 'easy milo cake', 'milo chocolate cake', 'malted chocolate cake', 'australian milo cake'],
@@ -483,6 +491,7 @@ module.exports = {
   },
 
   'chocolate-peanut-butter-cake': {
+    untimed: ['cooling completely'],
     d: 'Two layers of chocolate sponge sandwiched and covered with a peanut butter buttercream.',
     meta: 'Chocolate peanut butter cake: two layers of chocolate sponge with a peanut butter buttercream. Twelve slices, baked for 30 minutes.',
     kw: ['chocolate peanut butter cake', 'chocolate cake with peanut butter frosting', 'peanut butter chocolate layer cake', 'peanut butter buttercream cake', 'homemade chocolate peanut butter cake'],
@@ -556,6 +565,7 @@ module.exports = {
   },
 
   'mud-cake': {
+    untimed: ['cooling completely'],
     d: 'A dense, fudgy chocolate cake made by melting butter and dark chocolate with hot water, baked low and slow.',
     meta: 'Mud cake: a dense, fudgy chocolate cake made with melted butter and dark chocolate, baked for 60 minutes. Twelve slices.',
     kw: ['mud cake', 'chocolate mud cake', 'australian mud cake', 'fudgy chocolate mud cake', 'dark chocolate mud cake'],

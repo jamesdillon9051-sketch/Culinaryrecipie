@@ -68,7 +68,7 @@ module.exports = {
     st: [
       'Trim the fat cap to an even 6 mm and square off any thin, ragged edges — they only burn.',
       'Mix the salt and pepper and coat the brisket heavily on all sides. Let it sit an hour at room temperature.',
-      'Bring the smoker to a steady 110 to 120C with clean, thin blue smoke. Thick white smoke makes bitter meat.',
+      'Bring the smoker to a steady 110 to 120C on the oak, with clean, thin blue smoke. Thick white smoke makes bitter meat.',
       'Put the brisket on fat side up, point towards the hotter side of the chamber. Close the lid and leave it alone for 3 hours.',
       'Spritz with vinegar every 45 minutes from hour three, only to keep the surface from drying.',
       'At around 70C internal the temperature will stop rising. This is the stall. When the bark is dark and firm to the touch, wrap tightly in butcher paper.',
@@ -220,7 +220,8 @@ module.exports = {
   },
 
   'philly-soft-pretzel': {
-    rest: [60, 'proving'],
+    cookMax: 20,
+    rest: [95, 'proving'],
     d: 'Philadelphia pretzels are oblong rather than fat, chewy rather than fluffy, sold in rows stuck together and eaten with a stripe of mustard.',
     meta: 'Philadelphia soft pretzels — oblong, chewy pretzels dipped in a soda bath and baked with coarse salt.',
     kw: ['soft pretzel recipe', 'philly pretzel', 'baking soda bath pretzel', 'homemade pretzels'],
@@ -241,7 +242,7 @@ module.exports = {
       'Yellow mustard, to serve'
     ],
     st: [
-      'Spread the bicarbonate of soda on a foil-lined tray and bake at 150C fan for 1 hour. Cool. It is now a stronger alkali — handle it with gloves and keep it off your eyes.',
+      'Set the soda baking first, since it runs while you make and prove the dough: spread the bicarbonate of soda on a foil-lined tray and bake at 150C fan for 1 hour. Cool. It is now a stronger alkali — handle it with gloves and keep it off your eyes.',
       'Mix the flour, yeast, sugar and salt. Add the water and knead 8 minutes, then work in the butter and knead 4 minutes more until smooth and slightly tacky.',
       'Prove covered for 1 hour until doubled.',
       'Divide into 8 pieces. Roll each into a 45 cm rope, thicker in the middle, then shape: cross the ends, twist once, and press them onto the belly — but keep the whole thing long and narrow rather than round.',
@@ -262,7 +263,8 @@ module.exports = {
   },
 
   'boston-cream-pie': {
-    rest: [210, 'chilling'],
+    untimed: ['cooling completely'],
+    rest: [230, 'chilling'],
     d: 'Not a pie at all — two layers of sponge with vanilla pastry cream between them and a chocolate glaze poured over the top so it runs down the sides.',
     meta: 'Boston cream pie — vanilla sponge layered with pastry cream and finished with a poured chocolate glaze.',
     kw: ['boston cream pie recipe', 'vanilla pastry cream cake', 'chocolate glaze cake', 'classic american dessert'],
@@ -348,7 +350,7 @@ module.exports = {
   },
 
   'chicken-and-waffles': {
-    rest: [960, 'chilling'],
+    rest: [975, 'chilling'],
     d: 'Buttermilk-brined fried chicken on a yeasted waffle, with hot sauce and maple syrup poured over both. Sweet, salt, fat and heat in one plate.',
     meta: 'Chicken and waffles — buttermilk-brined fried chicken on yeasted waffles with hot sauce and maple syrup.',
     kw: ['chicken and waffles recipe', 'fried chicken waffles', 'southern brunch', 'buttermilk fried chicken'],

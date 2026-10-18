@@ -478,7 +478,7 @@ module.exports = {
     pair: ['Olive oil for dipping', 'Soup', 'Antipasti', 'Cheese'],
     store: 'Best the day it is baked. Keeps wrapped for 2 days and freezes for 2 months.',
     nut: [293, 7, 37, 13, 2, 4, 1150],
-    rest: [510, 'Fermenting overnight']
+    rest: [600, 'Fermenting overnight']
   },
 
   'honey-glazed-gammon': {
@@ -609,6 +609,7 @@ module.exports = {
   },
 
   'pain-depices': {
+    rest: [2880, 'resting before slicing'],
     d: 'A dense French spice loaf of honey, rye flour, ginger, cinnamon and aniseed, even better after a few days wrapped in paper.',
     meta: 'Pain d\'épices: a dense French spice loaf of honey, rye flour, ginger, cinnamon and aniseed. Ten servings, baked for 55 minutes.',
     kw: ['pain d\'epices', 'pain d\'épices', 'french spice bread', 'french honey spice loaf', 'pain d\'epices recipe'],
@@ -634,7 +635,7 @@ module.exports = {
       'Warm the honey, milk and sugar gently until the sugar dissolves. Cool to lukewarm.',
       'Mix the rye flour, plain flour, spices, bicarbonate of soda and baking powder. Stir in the honey mixture, orange zest and egg until smooth.',
       'Pour into the tin and bake for 55 minutes until a skewer comes out clean.',
-      'Cool in the tin, wrap in greaseproof paper and keep for 2 days before slicing.'
+      'Cool in the tin, wrap in greaseproof paper and leave for 2 days before slicing.'
     ],
     tips: [
       'Wait for the flavour to mature.',
@@ -708,7 +709,7 @@ module.exports = {
     st: [
       'Rub the butter into the flour and salt, then mix in the egg yolk and water. Wrap and chill for 30 minutes.',
       'Heat the oven to 190°C (170°C fan). Roll out the pastry, line a 24 cm tart tin, and blind bake with paper and beans for 15 minutes. Remove the paper and beans and bake for 5 minutes more.',
-      'Cook the onions in the 2 tbsp oil over a low heat for 20 minutes until soft and golden.',
+      'While the case bakes, cook the onions in the 2 tbsp oil over a low heat for 20 minutes until soft and golden.',
       'Spread the mustard over the pastry base, then the onions. Arrange the vegetables in tight overlapping circles, alternating aubergine, courgette and tomato.',
       'Brush with the olive oil, season with the salt, pepper and thyme, and bake for 40 minutes until the vegetables are soft and the edges charred. Cool for 15 minutes.'
     ],

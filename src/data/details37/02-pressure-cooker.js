@@ -407,8 +407,8 @@ module.exports = {
   },
 
   'instant-pot-black-beans': {
-    d: 'Dried black beans cooked without soaking in the pressure cooker with onion, garlic and cumin. Six servings in 45 minutes.',
-    meta: 'Instant Pot black beans: dried black beans pressure cooked without soaking in 25 minutes with onion, garlic and cumin. Six servings in 45 minutes.',
+    d: 'Dried black beans cooked without soaking in the pressure cooker with onion, garlic and cumin. Six servings in 1 hour.',
+    meta: 'Instant Pot black beans: dried black beans pressure cooked without soaking in 25 minutes with onion, garlic and cumin. Six servings in 1 hour.',
     kw: ['instant pot black beans', 'pressure cooker black beans', 'black beans without soaking', 'dried black beans in the instant pot', 'easy black beans'],
     why: 'Dried beans cost a fraction of tinned, and a pressure cooker removes the two reasons people avoid them: the overnight soak and the long simmer. Black beans cook from dry in 25 minutes.\n\nRinse them and pick out any stones or odd beans. Put them in the pot with onion, garlic, cumin and a bay leaf, and cover with water by about 4 cm. **Add the salt now.** The old advice to hold salt until the end does not apply under pressure, and salted beans taste better.\n\nA spoon of oil in the pot stops the beans foaming and blocking the valve. Foaming is the usual reason a pot spits.\n\nLet the pressure release naturally for 15 minutes; a quick release bursts the skins. The beans should be creamy inside and hold their shape. Cook for a few minutes more if they are firm. They freeze well in their cooking liquid. Cooked beans are the base of burrito bowls, soups and rice and beans, so a double batch freezes in portions and saves a lot of time later.',
     ing: [
@@ -470,6 +470,7 @@ module.exports = {
   },
 
   'instant-pot-cheesecake': {
+    untimed: ['cooling to room temperature'],
     d: 'A baked-style cheesecake with a biscuit base, cooked in a springform tin in the pressure cooker and chilled overnight. Eight servings in 55 minutes plus chilling.',
     meta: 'Instant Pot cheesecake: a creamy cheesecake with a biscuit base, steamed in the pressure cooker for 35 minutes, then chilled. Eight servings.',
     kw: ['instant pot cheesecake', 'pressure cooker cheesecake', 'cheesecake in the instant pot', 'cheesecake for eight', 'creamy cheesecake'],
@@ -489,7 +490,7 @@ module.exports = {
       'Mix the crushed biscuits and butter, press into the base of a 15 cm springform tin and chill for 10 minutes.',
       'Beat the cream cheese and sugar until smooth. Beat in the eggs one at a time on low speed, then the soured cream, vanilla and flour. Pour over the base and cover the tin tightly with foil.',
       'Put the rack and the water in the pot. Lower the tin onto the rack, lock the pressure cooker lid and pressure cook on high for 35 minutes. Release the pressure naturally for 15 minutes.',
-      'Lift out the tin, cool to room temperature, then chill for at least 4 hours before releasing and slicing.'
+      'Lift out the tin, cool for no more than 2 hours, then chill for at least 4 hours before releasing and slicing.'
     ],
     tips: [
       'Use room-temperature ingredients for a smooth batter.',

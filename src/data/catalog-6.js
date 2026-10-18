@@ -29,7 +29,7 @@ module.exports = [
   c('kutia', 'Kutia', 'Ukrainian', 'Holiday Specials', 'Medium', 20, 90, 8, 0, 0, ['Vegetarian', 'Dairy-Free'], ['new'], 'Kutia wheat berry pudding'),
   c('vanocka', 'Vánočka', 'Czech', 'Holiday Specials', 'Hard', 40, 40, 12, 0, 0, ['Vegetarian'], ['new'], 'Vanocka braided christmas bread'),
   c('julekake', 'Julekake', 'Norwegian', 'Holiday Specials', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'Julekake norwegian christmas bread'),
-  c('joulutorttu', 'Joulutorttu', 'Finnish', 'Holiday Specials', 'Medium', 30, 15, 12, 0, 0, ['Vegetarian'], ['new'], 'Joulutorttu finnish christmas star pastry'),
+  c('joulutorttu', 'Joulutorttu', 'Finnish', 'Holiday Specials', 'Medium', 30, 30, 12, 0, 0, ['Vegetarian'], ['new'], 'Joulutorttu finnish christmas star pastry'),
   c('cozonac', 'Cozonac', 'Romanian', 'Holiday Specials', 'Hard', 45, 45, 12, 0, 0, ['Vegetarian'], ['new'], 'Cozonac romanian sweet bread walnut'),
   c('pan-de-jamon', 'Pan de Jamón', 'Venezuelan', 'Holiday Specials', 'Medium', 35, 35, 10, 0, 0, [], ['new'], 'Pan de jamon venezuelan bread'),
   c('bibingka', 'Bibingka', 'Filipino', 'Holiday Specials', 'Medium', 20, 30, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Bibingka rice cake banana leaf'),

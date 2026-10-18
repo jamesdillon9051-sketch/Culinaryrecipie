@@ -2,7 +2,7 @@
 
 module.exports = {
   'tacos-al-pastor': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'Chilli-and-achiote-marinated pork, shaved off a vertical spit and served with pineapple, onion and coriander. This home version stacks the marinated pork on a skewer and roasts it, giving you the same charred edges without the trompo.',
     meta: 'Tacos al pastor with achiote-marinated pork, charred pineapple and salsa — the home-oven method for real spit-roast flavour.',
     kw: ['tacos al pastor recipe', 'mexican pork tacos', 'achiote marinade', 'authentic tacos'],
@@ -137,7 +137,7 @@ module.exports = {
       'Crisp only what you plan to serve, and keep the rest soft for the next day.'
     ],
     pair: ['Mexican lager, or a smoky mezcal', 'Serve with salsa verde, pickled red onions and refried beans', 'Finish with tres leches cake'],
-    store: 'Refrigerate in a little of its own fat for 5 days, or freeze 3 months. Re-crisp under the grill each time you serve.',
+    store: 'Refrigerate in a little of its own fat for up to 4 days, or freeze 3 months. Re-crisp under the grill each time you serve.',
     nut: [594, 46, 34, 32, 4, 4, 980]
   },
 
@@ -269,7 +269,7 @@ module.exports = {
   },
 
   'chili-con-carne': {
-    rest: [480, 'chilling'],
+    rest: [20, 'resting'],
     d: 'A long-simmered chilli built on toasted whole spices and a hit of dark chocolate, with the beef cut into cubes rather than minced so it keeps its texture. Better on the second day, as all chillies are.',
     meta: 'Deep, smoky chili con carne with cubed beef, toasted spices and dark chocolate. Even better the day after you make it.',
     kw: ['chili con carne recipe', 'beef chili', 'best chilli recipe', 'slow cooked chili'],
@@ -419,7 +419,9 @@ module.exports = {
   },
 
   'tamales': {
-    rest: [60, 'soaking'],
+    untimed: ['cooling completely'],
+    cookMax: 203,
+    rest: [75, 'soaking'],
     d: 'Masa whipped with lard until it floats, wrapped around chilli-braised pork in corn husks and steamed until it sets into something tender and fragrant. Making them is traditionally a group activity, and it should be.',
     meta: 'Pork tamales with light, whipped masa and chilli-braised filling, steamed in corn husks. The holiday classic, explained.',
     kw: ['tamales recipe', 'pork tamales', 'masa dough', 'mexican holiday food'],

@@ -13,6 +13,7 @@
 
 module.exports = {
   'air-fryer-baked-potato': {
+    cookMax: 45,
     d: 'Scrubbed baking potatoes, oiled and salted, cooked in the air fryer for 40 minutes until the skin crackles and the middle is soft.',
     meta: 'Air fryer baked potato with a crisp salted skin and a fluffy middle. Two servings, ready in 45 minutes with 5 minutes of prep.',
     kw: ['air fryer baked potato', 'baked potato in air fryer', 'air fryer jacket potato', 'crispy skin baked potato', 'air fryer baked potatoes'],
@@ -78,6 +79,7 @@ module.exports = {
   },
 
   'air-fryer-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies baked in a small tin in the air fryer for 20 minutes, with a crackled top and a soft centre.',
     meta: 'Air fryer brownies: fudgy squares with a crackled top, baked in a small tin. Nine servings, ready in 30 minutes.',
     kw: ['air fryer brownies', 'brownies in air fryer', 'fudgy air fryer brownies', 'small batch brownies', 'air fryer chocolate brownies'],
@@ -210,7 +212,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Hot chocolate', 'Fresh berries', 'Cold milk'],
     store: 'Best the day they are made. Keeps for 2 days in an airtight container; warm for 15 seconds in the microwave.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [396, 7, 56, 16, 2, 23, 250]
   },
 
@@ -249,7 +251,7 @@ module.exports = {
 
   'air-fryer-crab-cakes': {
     d: 'Lump crab bound with mayonnaise, mustard and breadcrumbs, shaped into cakes and air fried for 10 minutes until golden outside.',
-    meta: 'Air fryer crab cakes with golden crusts and sweet crab inside, cooked for 10 minutes. Four servings, ready in 30 minutes.',
+    meta: 'Air fryer crab cakes with golden crusts and sweet crab inside, cooked for 10 minutes. Four servings, ready in 1 hour.',
     kw: ['air fryer crab cakes', 'crab cakes in air fryer', 'air fried crab cakes', 'lump crab cakes', 'crab cakes recipe'],
     why: 'Is there any real point in a crab cake that tastes of breadcrumbs? A good one is mostly crab, with just enough binder to hold the cake together while it cooks. Here the crab is folded in gently so that the lumps stay whole, which gives the cake its texture.\n\nThe binder is mayonnaise, an egg, Dijon mustard and a small amount of crushed crackers or panko. Mix it first, then fold in the crab last, using a rubber spatula and as few strokes as you can. Stirring breaks the crab into shreds and turns the cakes into paste.\n\n**Chill the shaped cakes for 30 minutes.** Cold cakes keep their shape in the moving air of the fryer and do not fall apart when you turn them. Brush the tops lightly with oil to help them brown.\n\nUse white crab meat from a pot, drained and pressed dry in a clean cloth, since loose liquid makes the mixture sloppy. Serve with lemon and a spoonful of tartare sauce.',
     ing: [
@@ -351,7 +353,7 @@ module.exports = {
 
   'air-fryer-eggplant': {
     d: 'Thick slices of aubergine brushed with oil and garlic and air fried for 15 minutes until browned, soft inside and finished with parmesan.',
-    meta: 'Air fryer eggplant with garlic and parmesan, soft inside and browned outside. Three servings, ready in 25 minutes.',
+    meta: 'Air fryer eggplant with garlic and parmesan, soft inside and browned outside. Three servings, ready in 40 minutes.',
     kw: ['air fryer eggplant', 'air fryer aubergine', 'eggplant in air fryer', 'roasted eggplant slices', 'garlic parmesan eggplant'],
     why: 'Most home versions of this dish come out greasy, and the fix is to season the slices before the oil goes on, not after. Aubergine soaks up fat like a sponge, so a small amount of oil brushed on the surface, plus salt drawn through the flesh, gives a better result than a heavy drizzle.\n\nCut the aubergine into rounds about 1.5 cm thick. Thinner slices dry out and curl, and thicker slices stay raw in the middle. Sprinkle them with salt and leave for 15 minutes, then blot off the beads of moisture with kitchen paper. This step also removes some of the bitterness.\n\n**Brush, do not pour.** Use about two teaspoons of oil in total for the whole batch, with a pastry brush, and spread the garlic evenly. The moving air does the browning.\n\nCook in a single layer, in two batches if needed. The slices are ready when they are deeply golden and a knife slips into the centre without resistance. Sprinkle the parmesan on for the last minute only, so it melts but does not burn.',
     ing: [
@@ -383,6 +385,7 @@ module.exports = {
   },
 
   'air-fryer-empanadas': {
+    untimed: ['cooling completely'],
     d: 'Beef and onion empanadas made with ready-rolled pastry discs, crimped by hand and air fried for 12 minutes until golden and crisp.',
     meta: 'Air fryer empanadas with a spiced beef filling in crisp golden pastry. Eight servings, ready in 42 minutes.',
     kw: ['air fryer empanadas', 'empanadas in air fryer', 'beef empanadas', 'air fried empanadas', 'empanada pastry'],
@@ -418,7 +421,7 @@ module.exports = {
 
   'air-fryer-falafel': {
     d: 'Chickpea falafel flavoured with parsley, cumin and garlic, shaped into balls and air fried for 12 minutes until crisp outside and green inside.',
-    meta: 'Air fryer falafel with a crisp shell and a herby middle, cooked for 12 minutes. Four servings, ready in 32 minutes.',
+    meta: 'Air fryer falafel with a crisp shell and a herby middle, cooked for 12 minutes. Four servings, ready in 1 hour 2 minutes.',
     kw: ['air fryer falafel', 'falafel in air fryer', 'chickpea falafel', 'crispy falafel', 'homemade falafel'],
     why: 'Falafel is at its best in the warm months, when the parsley and coriander are plentiful and a plate of cold salad and yogurt is all you want beside it. The herbs are what turn the inside bright green and give the falafel its fresh flavour.\n\nTraditional falafel uses dried chickpeas that have been soaked overnight but not cooked. Tinned chickpeas make a softer, damper mixture, so drain them well and dry them on kitchen paper. Pulse the mixture in a food processor until it looks like coarse sand and holds together when you squeeze it, not until it becomes a paste.\n\n**Chill the mixture for 30 minutes before you shape it.** The flour and chickpea starch need time to absorb moisture, and cold falafel keeps its shape in the basket.\n\nBrush the balls with oil and leave space between them. They are ready when deeply golden and firm to the touch. Break one open: the centre should be soft and green, not wet.',
     ing: [
@@ -489,7 +492,7 @@ module.exports = {
 
   'air-fryer-fish-and-chips': {
     d: 'Panko-coated cod fillets and thick potato chips cooked together in the air fryer for 20 minutes, served with lemon and tartare sauce.',
-    meta: 'Air fryer fish and chips: crisp cod and golden chips from one basket. Two servings, ready in 40 minutes.',
+    meta: 'Air fryer fish and chips: crisp cod and golden chips from one basket. Two servings, ready in 1 hour.',
     kw: ['air fryer fish and chips', 'fish and chips in air fryer', 'homemade fish and chips', 'crispy cod and chips', 'british fish and chips'],
     why: 'Fish and chips has been sold wrapped in paper for well over a century in Britain, and it remains the dish people crave on a wet Friday. This version swaps the deep fryer for the air fryer, which cuts the oil but still gives a crisp crumb and chips with a proper crunch.\n\nThe chips go in first. Cut floury potatoes into 1 cm sticks, soak them in cold water for 20 minutes to rinse off the surface starch, then dry them thoroughly. Wet chips steam and go limp. A teaspoon of oil is all they need.\n\n**Start the chips 10 minutes before the fish.** Cod takes only 10 minutes in the fast air, while the chips need 20, so the two meet at the end of the cooking time.\n\nBrown the crumb with a light spray of oil. Season the fish, flour it, dip it in egg and press the panko on firmly. Serve with plenty of salt, malt vinegar or lemon, and a spoon of tartare sauce, and eat straight away.',
     ing: [
@@ -712,7 +715,7 @@ module.exports = {
 
   'air-fryer-popcorn-chicken': {
     d: 'Bite-sized pieces of chicken breast in a seasoned crumb coating, air fried for 10 minutes until crunchy and served with a dip.',
-    meta: 'Air fryer popcorn chicken: small crunchy bites with a seasoned coating, cooked for 10 minutes. Four servings, ready in 30 minutes.',
+    meta: 'Air fryer popcorn chicken: small crunchy bites with a seasoned coating, cooked for 10 minutes. Four servings, ready in 45 minutes.',
     kw: ['air fryer popcorn chicken', 'popcorn chicken in air fryer', 'crispy popcorn chicken', 'chicken bites air fryer', 'homemade popcorn chicken'],
     why: 'Chicken breast, an egg, flour and a bag of cornflakes: four things you already own, and about thirty minutes. The cornflake crumb is the secret of this version, as the flakes crisp in the moving air and give a coarse, crunchy shell that panko does not quite match.\n\nCut the chicken into pieces about 2 cm square. Smaller than that and they dry out, larger and they take too long to cook through before the coating burns. Toss them in a marinade of buttermilk or a little milk with salt and garlic powder for 15 minutes, which keeps the lean meat tender.\n\n**Crush the cornflakes by hand** in a bag, leaving some pieces the size of a coin. A fine powder gives a flat coating, while a mix of fine and coarse pieces gives the craggy edge that makes popcorn chicken worth eating.\n\nSpray the bites with oil and cook in a single layer, shaking the basket halfway. Serve while hot, with honey mustard or barbecue sauce.',
     ing: [
@@ -810,7 +813,7 @@ module.exports = {
 
   'air-fryer-spring-rolls': {
     d: 'Vegetable spring rolls wrapped in thin pastry, brushed with oil and air fried for 12 minutes until crisp and golden.',
-    meta: 'Air fryer spring rolls with a crisp wrapper and a vegetable filling, cooked for 12 minutes. Six servings, ready in 37 minutes.',
+    meta: 'Air fryer spring rolls with a crisp wrapper and a vegetable filling, cooked for 12 minutes. Six servings, ready in 52 minutes.',
     kw: ['air fryer spring rolls', 'spring rolls in air fryer', 'vegetable spring rolls', 'crispy spring rolls', 'homemade spring rolls'],
     why: 'Spring rolls were traditionally made at the start of spring in China, a plate of the first fresh vegetables wrapped in thin dough. The fried, crisp version is a long way from the soft, fresh rolls you find in Vietnam, and the air fryer gets close to the fried texture with a teaspoon of oil.\n\nThe filling has to be dry. Cabbage, carrot, mushrooms and spring onion are cooked briefly in a hot pan with garlic, ginger and soy sauce, then cooled and drained in a sieve. Hot, wet filling steams the wrapper from inside and makes it burst.\n\n**Roll them tight, like a small cigar.** Fold the bottom corner over the filling, fold in both sides, then roll away from you and seal the last corner with a paste of flour and water. Loose rolls fall open in the basket.\n\nBrush them with oil all over before cooking, because the wrapper has no fat of its own. They are ready when the surface has blistered and turned a deep golden, and they crackle when you tap them.',
     ing: [

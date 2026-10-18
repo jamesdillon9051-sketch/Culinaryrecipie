@@ -334,7 +334,7 @@ module.exports = {
       'Smoking oil over the raw ginger and scallion, not the other way round.'
     ],
     pair: ['Steamed rice', 'Blanched choy sum', 'A clear soup'],
-    store: 'Refrigerated for 3 days and eaten cold. The oil keeps 2 weeks.',
+    store: 'Refrigerated for 3 days and eaten cold. The ginger scallion oil keeps 4 days in the fridge.',
     nut: [520, 48, 4, 35, 1, 2, 1290]
   },
 
@@ -460,7 +460,7 @@ module.exports = {
       'Mix the chopped ginger, spring onion and salt in a bowl and pour the smoking oil over.',
       'Tear the chicken into pieces by hand and serve with the sauce.'
     ],
-    rest: [120, 'drying the skin uncovered in the fridge'],
+    rest: [135, 'drying the skin uncovered in the fridge'],
     tips: [
       'Wrap it properly. The salt is heat, not seasoning.',
       'Heat the salt until it pours freely before the chicken goes in.',
@@ -692,7 +692,7 @@ module.exports = {
       'Rest 15 minutes, then cut into 2 cm cubes with a heavy cleaver, skin side up.',
       'Serve with mustard and a small dish of sugar for dipping.'
     ],
-    rest: [1440, 'drying the skin uncovered in the fridge'],
+    rest: [1455, 'drying the skin uncovered in the fridge'],
     tips: [
       'Hundreds of holes in the skin, and not one into the meat.',
       'A full day uncovered. Damp skin cannot crackle.',
@@ -739,7 +739,7 @@ module.exports = {
       'Add both soy sauces, the wine, sugar, bean curd and water and simmer 5 minutes.',
       'Pack the pork slices skin down in a deep heatproof bowl, overlapping, and pile the mei cai and its sauce on top.',
       'Steam 2 hours, topping the pan up with boiling water.',
-      'Pour the collected liquid into a pan, thicken it with the slaked cornflour, then invert the bowl onto a plate, lift it off and pour the sauce over.'
+      'Pour the collected liquid into a pan, thicken it with the slaked cornflour, then invert the bowl onto a plate, lift it off, pour the sauce over and scatter with the spring onions.'
     ],
     tips: [
       'Three changes of water on the mei cai. It is salty and gritty.',

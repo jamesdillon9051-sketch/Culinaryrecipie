@@ -45,7 +45,7 @@ module.exports = {
   },
 
   'bagels': {
-    rest: [780, 'chilling'],
+    rest: [795, 'chilling'],
     d: 'Boiled then baked, with a chewy interior and a glossy, blistered crust. The malt in the boiling water and the high-protein flour are what separate a real bagel from a bread roll with a hole in it.',
     meta: 'New York bagels — high-gluten dough, cold-proved overnight, boiled in malted water and baked until blistered.',
     kw: ['bagel recipe', 'new york bagels', 'homemade bagels', 'boiled bagels'],
@@ -211,6 +211,7 @@ module.exports = {
   },
 
   'pecan-pie': {
+    cookMax: 90,
     rest: [330, 'cooling'],
     d: 'A dense, chewy custard of eggs, syrup and butter under a layer of toasted pecans, in a blind-baked shell. Thanksgiving\'s richest dessert, and the one most often ruined by an underbaked base.',
     meta: 'Classic pecan pie with a chewy syrup custard, toasted pecans and a properly blind-baked pastry base.',
@@ -256,7 +257,8 @@ module.exports = {
   },
 
   'lemon-meringue-pie': {
-    rest: [180, 'chilling'],
+    cookMax: 55,
+    rest: [240, 'cooling and chilling'],
     d: 'Sharp lemon curd in a crisp shell under a cloud of meringue browned at the tips. Three components, three ways to go wrong, and a very specific trick for stopping the meringue weeping.',
     meta: 'Lemon meringue pie with sharp cornflour lemon curd and a stable Swiss-style meringue that will not weep.',
     kw: ['lemon meringue pie recipe', 'lemon pie', 'meringue pie', 'no weep meringue'],
@@ -292,7 +294,7 @@ module.exports = {
       'For the meringue, whisk the whites with the cream of tartar to soft peaks, then add the sugar a tablespoon at a time, whisking to stiff, glossy peaks. Whisk in the vanilla.',
       'Rub a little meringue between your fingers — if it feels gritty, keep whisking until the sugar has dissolved.',
       'Spoon the meringue onto the hot filling and spread it so it touches the pastry rim all the way around, sealing completely. Swirl into peaks.',
-      'Bake at 175°C / 345°F for 18 to 20 minutes until the peaks are golden. Cool at room temperature for 3 hours, then chill 2 hours before slicing.'
+      'Bake at 175°C / 345°F for 18 to 20 minutes until the peaks are golden. Cool at room temperature for 2 hours (the filling holds egg yolks, so no longer). Chill 2 hours more before slicing.'
     ],
     tips: [
       'Meringue onto hot filling, sealed to the crust. Those two details prevent almost every meringue pie failure.',
@@ -327,7 +329,7 @@ module.exports = {
       'After 60 to 90 seconds the surface will be evenly golden brown and the marshmallow will start to sag on the stick. That sag is the signal.',
       'Set the hot marshmallow on the chocolate and cap it with a second cracker half.',
       'Press down gently and pull the skewer out through the side.',
-      'Wait 30 seconds for the chocolate to melt into the marshmallow, then eat.'
+      'Wait 30 seconds for the chocolate to melt into the marshmallow, then eat. For the variations, spread the cracker with peanut butter, add sliced strawberries or banana or a pinch of flaky sea salt before the marshmallow goes on, or use dark chocolate or salted caramel bars in place of the milk chocolate.'
     ],
     tips: [
       'Embers, not flames, and constant rotation. A burnt marshmallow with a cold centre is the standard mistake.',
@@ -384,6 +386,7 @@ module.exports = {
   },
 
   'chocolate-milkshake': {
+    untimed: ['chilling'],
     d: 'Ice cream, milk and cocoa blended thick enough to hold a straw upright. The ratio matters far more than the ingredients, and the most common mistake is far too much milk.',
     meta: 'Thick chocolate milkshake blended from real ice cream and cocoa syrup, thick enough to hold a straw upright.',
     kw: ['chocolate milkshake recipe', 'thick milkshake', 'diner milkshake', 'homemade milkshake'],

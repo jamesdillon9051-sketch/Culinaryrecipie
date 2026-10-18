@@ -2,7 +2,7 @@
 
 module.exports = {
   'croquetas': {
-    rest: [510, 'chilling'],
+    rest: [530, 'chilling'],
     d: 'A very thick béchamel studded with jamón, chilled overnight, rolled, crumbed and fried so the outside is crisp and the inside is almost liquid.',
     meta: 'Jamón croquetas — a thick béchamel with cured ham, chilled overnight, crumbed and fried until molten.',
     kw: ['croquetas recipe', 'jamon croquetas', 'spanish tapas', 'ham croquettes'],
@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'crema-catalana': {
+    untimed: ['cooling to room temperature'],
     rest: [270, 'chilling'],
     d: 'A cornflour-set custard flavoured with lemon and cinnamon, chilled in shallow dishes and burnt under a hot iron just before it is eaten.',
     meta: 'Crema catalana — lemon and cinnamon custard set with cornflour and burnt under a hot iron.',
@@ -70,7 +71,7 @@ module.exports = {
       'Return everything to the pan and cook over medium heat, stirring constantly with a spatula and reaching into the corners, for 6 to 8 minutes.',
       'It will thicken suddenly and then bubble. Cook 1 minute more from that point, still stirring, then take it off the heat.',
       'Pour immediately through a sieve into six shallow earthenware dishes.',
-      'Cool to room temperature, then refrigerate at least 4 hours until firmly set.',
+      'Cool for no more than 2 hours, then refrigerate at least 4 hours until firmly set.',
       'Just before serving, blot the surface dry with kitchen paper and cover each with an even layer of caster sugar.',
       'Burn the sugar with a very hot iron or a blowtorch until it caramelises to a dark amber, and serve within a minute or two while the crust is still crisp and the custard cold.'
     ],
@@ -138,6 +139,7 @@ module.exports = {
   },
 
   'arroz-de-marisco': {
+    cookMax: 55,
     d: 'Portuguese seafood rice, wetter than a paella and served in the pot, built on a tomato and coriander refogado with prawns, clams and crab.',
     meta: 'Arroz de marisco — soupy Portuguese seafood rice with tomato, coriander, prawns, clams and crab.',
     kw: ['arroz de marisco recipe', 'portuguese seafood rice', 'soupy rice', 'seafood malandrinho'],
@@ -171,7 +173,7 @@ module.exports = {
     ],
     st: [
       'Peel the prawns, keeping the heads and shells. Simmer them with the water, onion and bay for 25 minutes, then strain and keep 1.4 litres of stock hot.',
-      'Warm the olive oil in a wide heavy pot and cook the onions and pepper over medium-low heat for 15 minutes until very soft — this refogado is the base of everything.',
+      'While the stock simmers, warm the olive oil in a wide heavy pot and cook the onions and pepper over medium-low heat for 15 minutes until very soft — this refogado is the base of everything.',
       'Add the garlic for 1 minute, then the tomato purée and paprika and cook 2 minutes.',
       'Add the wine and reduce by half, then the chopped tomatoes, piri-piri and salt. Simmer 10 minutes.',
       'Stir in the rice and coat it in the sofrito for 2 minutes.',

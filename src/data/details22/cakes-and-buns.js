@@ -125,6 +125,7 @@ module.exports = {
   },
 
   'christmas-cake': {
+    untimed: ['cooling completely'],
     d: 'A dark, rich fruit cake soaked in brandy, baked very slowly and fed for weeks. Make it a month before Christmas. Four hours of baking.',
     meta: 'Traditional Christmas cake: a rich, dark, brandy-soaked fruit cake baked slowly at a low heat and fed for weeks. Make ahead for marzipan and icing.',
     kw: ['christmas cake', 'christmas cake recipe', 'traditional rich fruit christmas cake', 'how to make a christmas cake', 'christmas cake with brandy'],
@@ -245,6 +246,7 @@ module.exports = {
   },
 
   'lardy-cake': {
+    untimed: ['cooling before cutting'],
     d: 'A sticky Wiltshire yeast bake, folded with lard, sugar and spiced dried fruit and turned out while hot so the syrup soaks in. Just under three hours.',
     meta: 'Lardy cake: a sticky, spiced Wiltshire yeast bake folded with lard, sugar and dried fruit, baked golden and turned out while hot so the syrup soaks in.',
     kw: ['lardy cake', 'lardy cake recipe', 'wiltshire lardy cake', 'traditional lardy cake', 'sticky yeast fruit cake'],
@@ -438,7 +440,7 @@ module.exports = {
     pair: ['A cup of tea', 'A flat white', 'Fresh strawberries'],
     store: 'Refrigerate up to 3 days. It is best on the day it is made, before the pastry softens. Not suitable for freezing.',
     nut: [388, 6, 46, 20, 1, 28, 170],
-    rest: [120, 'setting the custard']
+    rest: [135, 'setting the custard']
   },
 
   'jam-tarts': {

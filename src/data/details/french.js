@@ -197,7 +197,7 @@ module.exports = {
       '300 g red mullet fillet',
       '400 g mussels, scrubbed',
       '# For the rouille',
-      '1 large egg yolk',
+      '1 large egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '2 garlic cloves',
       '0.25 tsp saffron threads, soaked in 1 tbsp warm water',
       '0.5 tsp smoked paprika',
@@ -225,7 +225,7 @@ module.exports = {
   },
 
   'cassoulet': {
-    rest: [480, 'soaking'],
+    rest: [500, 'soaking'],
     d: 'The great slow-cooked bean casserole of southwest France: white beans, confit duck, sausage and pork built into layers and baked until a crust forms on top, broken and re-formed several times as tradition demands.',
     meta: 'Traditional cassoulet de Toulouse with white beans, duck confit and sausage, baked slowly until a golden crust forms.',
     kw: ['cassoulet recipe', 'french bean casserole', 'duck confit cassoulet', 'toulouse cassoulet'],
@@ -267,6 +267,7 @@ module.exports = {
   },
 
   'steak-frites': {
+    rest: [85, 'chilling'],
     d: 'The bistro standard done properly: a hard-seared steak rested under herb butter, with twice-fried chips that stay crisp long enough to finish the plate. It is a technique dish, and the technique is entirely about heat and drying.',
     meta: 'Bistro steak frites with a hard-seared steak, herb butter and twice-fried chips that stay crisp to the last bite.',
     kw: ['steak frites recipe', 'french bistro steak', 'twice fried chips', 'perfect steak'],
@@ -306,7 +307,8 @@ module.exports = {
   },
 
   'quiche-lorraine': {
-    rest: [90, 'chilling'],
+    cookMax: 75,
+    rest: [110, 'chilling'],
     d: 'The original quiche has no cheese in it, and once you taste this custard — barely set, heavy on cream, studded with smoky lardons — you will understand why. The blind-baked pastry shell is the difference between a quiche and a sad, wet tart.',
     meta: 'Authentic quiche Lorraine with a crisp blind-baked shell and a barely set cream custard studded with smoky lardons.',
     kw: ['quiche lorraine recipe', 'french quiche', 'bacon quiche', 'blind bake pastry'],
@@ -350,6 +352,7 @@ module.exports = {
   },
 
   'salade-nicoise': {
+    untimed: ['cooling'],
     d: 'A composed salad, not a tossed one: each element dressed and arranged separately so every forkful is deliberate. Good tuna, waxy potatoes, jammy eggs and a punchy anchovy vinaigrette make this a full meal.',
     meta: 'Classic Salade Niçoise composed with waxy potatoes, jammy eggs, green beans and a punchy anchovy vinaigrette.',
     kw: ['salade nicoise recipe', 'french tuna salad', 'composed salad', 'healthy french lunch'],
@@ -394,7 +397,7 @@ module.exports = {
   },
 
   'croissants': {
-    rest: [690, 'chilling and proving'],
+    rest: [710, 'chilling and proving'],
     d: 'Genuinely laminated croissants with a honeycomb interior and a shattering shell — 27 layers of butter folded into dough over two days. It is a project, but the technique is entirely learnable and the result is unbuyable outside France.',
     meta: 'Laminated butter croissants with a honeycomb crumb and shattering crust. The full two-day method, explained step by step.',
     kw: ['croissant recipe', 'homemade croissants', 'laminated dough', 'french pastry'],
@@ -434,7 +437,7 @@ module.exports = {
   },
 
   'baguette': {
-    rest: [885, 'resting'],
+    rest: [925, 'resting'],
     d: 'A true baguette de tradition: four ingredients, a long cold ferment, and a crust that crackles audibly as it cools. Steam in the first minutes of baking is the secret nobody tells you about.',
     meta: 'Crackling French baguettes from four ingredients and an overnight ferment, with the home-oven steam trick that makes the crust.',
     kw: ['baguette recipe', 'french bread', 'homemade baguette', 'crusty bread recipe'],
@@ -520,6 +523,8 @@ module.exports = {
   },
 
   'macarons': {
+    cookMax: 16,
+    untimed: ['cooling the shells', 'any extra firming the ganache needs'],
     d: 'The Parisian macaron, with smooth domed shells, ruffled feet and a chewy centre. This uses the more forgiving French meringue method and explains exactly what "macaronage" should look and sound like.',
     meta: 'French macarons with smooth shells and ruffled feet. The macaronage stage explained so you know when to stop.',
     kw: ['macaron recipe', 'french macarons', 'macaronage technique', 'gluten free dessert'],
@@ -528,9 +533,8 @@ module.exports = {
       '# For the shells',
       '150 g ground almonds',
       '150 g icing sugar',
-      '110 g egg whites, aged at room temperature 24 hours, divided',
+      '110 g egg whites, divided',
       '150 g caster sugar',
-      '50 ml water',
       '0.25 tsp cream of tartar',
       '1 pinch fine sea salt',
       '# For the filling',
@@ -546,21 +550,24 @@ module.exports = {
       'Stop when the batter falls from the spatula in a thick, unbroken ribbon and a figure of eight holds for about 10 seconds before melting back. Usually 35 to 50 strokes.',
       'Pipe 3.5 cm rounds onto lined trays, holding the bag vertically. Rap each tray hard on the counter three times to release trapped air, and pop any surface bubbles with a toothpick.',
       'Rest at room temperature for 30 to 60 minutes, until the surface is matte and does not stick to a light touch.',
+      'While the shells rest, make the ganache: warm the cream until steaming, pour it over the chocolate, stir smooth, beat in the butter, and chill until thick enough to pipe. It firms in the fridge while the shells rest, bake and cool; if it is still too soft to hold a shape when the shells are cold, give it longer, stirring now and then so it sets evenly.',
       'Bake at 150°C / 300°F for 14 to 16 minutes, rotating halfway. A finished shell should not wobble on its foot when nudged.',
-      'Cool completely on the tray. Warm the cream, pour over the chocolate, stir smooth, beat in the butter, and chill to a pipeable ganache. Sandwich the shells and mature in the fridge for 24 hours before serving.'
+      'Cool the shells completely on the tray; they are ready when they lift cleanly off the paper without leaving their bases behind. Pipe ganache onto half of them, sandwich with the rest, and mature in an airtight box in the fridge for 24 hours before serving.'
     ],
     tips: [
-      'Age your egg whites: leave them covered at room temperature for a day so some water evaporates and the protein concentrates.',
+      'If you separate the eggs ahead, keep the whites covered in the fridge and use them within 2 days. Take them out no more than 2 hours before whisking: room-temperature whites whip more readily, but raw egg should not sit out longer than that.',
       'Weigh everything to the gram. Macarons are the least forgiving recipe on this site.',
-      'The 24-hour maturation is not optional — it lets moisture migrate from the filling into the shell, creating the chewy interior.'
+      'The 24 hours in the fridge is part of the recipe, and the total time includes it: moisture moves from the filling into the shells and the centres turn chewy. Eaten the same day, they are edible but crisper and drier.'
     ],
     pair: ['Champagne or a pot of Earl Grey', 'Serve as petits fours after dinner', 'Pair flavours with the season: raspberry in summer, chestnut in autumn'],
     store: 'Refrigerate in an airtight box for 5 days, bringing to room temperature 20 minutes before eating. Freeze filled macarons for 3 months.',
+    rest: [1470, 'resting and maturing'],
     nut: [148, 3, 17, 8, 1, 15, 20]
   },
 
   'creme-brulee': {
-    rest: [240, 'chilling'],
+    untimed: ['cooling to room temperature'],
+    rest: [260, 'chilling'],
     d: 'A vanilla custard so smooth it barely holds a spoon, under a sheet of caramel thin enough to crack with a tap. The water bath and a low oven are what separate silk from scrambled egg.',
     meta: 'Silky vanilla crème brûlée with a glass-thin caramel top. The water-bath method that guarantees a flawless custard.',
     kw: ['creme brulee recipe', 'vanilla custard dessert', 'french dessert', 'gluten free dessert'],
@@ -581,7 +588,7 @@ module.exports = {
       'Strain through a fine sieve into a jug and skim off any foam. Let it stand 10 minutes so remaining bubbles rise and can be lifted off.',
       'Divide between six shallow ramekins and set them in a deep roasting tin. Pour boiling water into the tin to come halfway up the sides.',
       'Bake at 150°C / 300°F for 35 to 45 minutes, until the custards are set at the edge with a 3 cm wobble in the middle when nudged.',
-      'Lift out of the water bath, cool to room temperature, then refrigerate for at least 4 hours or overnight.',
+      'Lift out of the water bath, cool for no more than 2 hours, then refrigerate for at least 4 hours or overnight.',
       'Just before serving, blot any condensation from the surface, sprinkle a thin, even layer of demerara over each, and torch until it bubbles and turns amber. Rest 2 minutes for the caramel to harden.'
     ],
     tips: [

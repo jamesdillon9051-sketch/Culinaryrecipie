@@ -558,6 +558,7 @@ module.exports = {
   },
 
   'cream-buns': {
+    untimed: ['cooling completely'],
     d: 'Soft, lightly sweet yeast buns with a simple icing, split and filled with jam and whipped cream. The Australian bakery cream bun.',
     meta: 'Australian cream buns: soft yeast buns baked golden, iced with a simple glaze, then split and filled with strawberry jam and whipped cream.',
     kw: ['cream buns', 'cream buns recipe', 'australian cream buns', 'jam and cream buns', 'homemade cream buns with icing'],

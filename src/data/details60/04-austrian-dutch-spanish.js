@@ -41,7 +41,7 @@ module.exports = {
 
   'serviettenknodel': {
     d: 'A large bread dumpling shaped into a log, wrapped in a cloth and simmered for 25 minutes, then sliced and served with gravy.',
-    meta: 'Serviettenknödel, Austrian napkin dumpling of bread, egg and parsley simmered in a cloth, cooked for 25 minutes. Six servings, ready in 55 minutes.',
+    meta: 'Serviettenknödel, Austrian napkin dumpling of bread, egg and parsley simmered in a cloth, cooked for 25 minutes. Six servings, ready in 1 hour 15 minutes.',
     kw: ['serviettenknodel', 'austrian napkin dumpling', 'bread dumpling log in a cloth', 'serviettenknoedel recipe', 'sliced bread dumpling with gravy'],
     why: 'Flour, butter, bread, eggs: four pantry things and a clean tea towel. Serviettenknödel is the Austrian napkin dumpling, a bread dumpling formed into one big log, wrapped in a cloth and simmered, which makes it easy to slice into neat rounds for a roast dinner.\n\nCut stale white rolls or white bread into small cubes. Fry chopped onion in butter, then pour milk, eggs, parsley, salt and nutmeg over the bread and add the onion. **Let the mixture stand for 20 minutes** so the bread swells and the dumpling holds together. If it is too wet, add a spoonful of breadcrumbs.\n\nShape the mix into a thick log on a buttered cloth, roll it up and tie the ends with string, leaving a little room for it to swell. Simmer in salted water for 25 minutes, turning once. Lift out, unwrap carefully and rest for 2 minutes before cutting into 2 cm slices. Serve with mushroom sauce or roast gravy. Leftover slices fry well in butter.',
     ing: [
@@ -74,7 +74,7 @@ module.exports = {
 
   'griessknodel': {
     d: 'Small soft dumplings of semolina, egg and butter poached for 15 minutes and served in beef broth with chives.',
-    meta: 'Grießknödel, soft Austrian semolina dumplings poached in broth, cooked for 15 minutes. Six servings, ready in 35 minutes.',
+    meta: 'Grießknödel, soft Austrian semolina dumplings poached in broth, cooked for 15 minutes. Six servings, ready in 55 minutes.',
     kw: ['griessknodel', 'austrian semolina dumplings', 'semolina dumplings in broth', 'griessnockerl soup', 'griessknoedel recipe'],
     why: 'The first sign they are ready is the sight of them floating: pale, plump little dumplings turning slowly in a pot of broth. Grießknödel are an Austrian soup dumpling made from semolina, egg and butter, and they are among the lightest of the dumplings.\n\nBeat the soft butter until creamy, then beat in the egg, a pinch of salt and nutmeg and fold in the semolina. The mixture will look loose at first. **Let it stand for 20 minutes**, when the semolina swells and the dough becomes firm enough to shape. Test one dumpling in simmering salted water: if it falls apart, add a spoonful of semolina.\n\nShape the mixture with two wet spoons or damp hands into small ovals and slip them into barely simmering salted water. Cook for 15 minutes, uncovered, until they have doubled in size and float. Lift them into bowls of hot beef broth and scatter with chives. They are very delicate, so handle gently and cook in the water, not the broth, to keep the soup clear.',
     ing: [
@@ -136,8 +136,9 @@ module.exports = {
   },
 
   'esterhazy-torte': {
+    untimed: ['cooling'],
     d: 'A layered cake of walnut meringue and vanilla buttercream glazed with white icing and a chocolate feather pattern.',
-    meta: 'Esterházy Torte, layered walnut meringue cake with vanilla buttercream and a feathered icing, baked for 40 minutes. Twelve servings, ready in 1 hour 40 minutes plus chilling.',
+    meta: 'Esterházy Torte, layered walnut meringue cake with vanilla buttercream and a feathered icing, baked for 40 minutes. Twelve servings, ready in at least 2 hours 40 minutes with chilling.',
     kw: ['esterhazy torte', 'austrian walnut meringue cake', 'esterhazy cake recipe', 'layered meringue cake with buttercream', 'feathered icing cake'],
     why: 'Short and sharp: whisk the whites, fold in the walnuts and bake slowly. That is the first stage of Esterházy Torte, a famous layered cake with thin discs of walnut meringue sandwiched with buttercream and finished with a white glaze marked with a chocolate web.\n\nBake the meringue in four thin discs. Whisk the whites to stiff peaks with the sugar, then fold in ground walnuts and a spoon of flour. **Spread each disc thin and even on baking paper**, drawing a 22 cm circle as a guide, and bake at 160C for about 12 minutes each until pale gold. They crisp as they cool. Peel off the paper when cold.\n\nBeat the buttercream from a custard of milk, yolks, sugar and cornflour, cooled and beaten into soft butter with a spoonful of kirsch. Layer the discs and cream, chill for 1 hour, then cover the top with warm apricot jam and white icing. Pipe lines of melted chocolate across and drag a knife in alternate directions. Chill again before slicing with a hot knife.',
     ing: [
@@ -176,7 +177,7 @@ module.exports = {
 
   'kaspressknodel': {
     d: 'Flat Tyrolean cheese dumplings of bread, cheese and egg pan fried until crisp and served in broth or with salad.',
-    meta: 'Kaspressknödel, flat Tyrolean cheese dumplings pan fried until crisp, cooked for 10 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Kaspressknödel, flat Tyrolean cheese dumplings pan fried until crisp, cooked for 10 minutes. Four servings, ready in 50 minutes.',
     kw: ['kaspressknodel', 'tyrolean cheese dumplings', 'pressed cheese dumplings', 'kaspressknoedel recipe', 'fried cheese dumplings in broth'],
     why: 'Does a dumpling have to be round and boiled? Not in the Tyrol. Kaspressknödel are pressed flat and fried in butter until the outside is crisp and the inside is soft and cheesy, and they are served in beef broth or on a green salad with a dollop of soured cream.\n\nThe mixture is stale bread, milk, egg, strong mountain cheese, onion and chives. Soak the bread in the warm milk with the eggs for 15 minutes, then mix in the cheese and fried onion. **Press the mix firmly into rounds** about 2 cm thick with wet hands, so they hold together in the pan. If the mixture falls apart, add a few breadcrumbs.\n\nFry in butter over medium heat for 4 to 5 minutes on each side, until a deep golden crust forms. Do not turn them until the first side is set. Serve at once, in a bowl of hot broth for a soup, or on a plate with a green salad dressed with vinegar and pumpkin seed oil. The dish is tolerant of the cheese you have, as long as it is a strong, tasty one.',
     ing: [
@@ -306,7 +307,7 @@ module.exports = {
     ],
     pair: ['Mustard', 'Bread rolls', 'Beer'],
     store: 'Shaped croquettes keep for 1 day in the fridge or freeze for 2 months.',
-    rest: [240, 'Chilling'],
+    rest: [260, 'Chilling'],
     nut: [303, 14, 19, 19, 1, 1, 520]
   },
 
@@ -348,7 +349,7 @@ module.exports = {
 
   'appeltaart': {
     d: 'A deep Dutch apple pie with cinnamon and raisins in a buttery pastry case with a lattice top, baked for 60 minutes.',
-    meta: 'Appeltaart, deep Dutch apple pie with cinnamon, raisins and a lattice top, baked for 60 minutes at 180C. Twelve servings, ready in 1 hour 30 minutes.',
+    meta: 'Appeltaart, deep Dutch apple pie with cinnamon, raisins and a lattice top, baked for 60 minutes at 180C. Twelve servings, ready in 2 hours 20 minutes.',
     kw: ['appeltaart', 'dutch apple pie', 'dutch apple pie with lattice', 'deep apple pie with cinnamon', 'appeltaart recipe'],
     why: 'It looks like an English apple pie and eats like a spiced apple cake, with a taller filling and a firmer crust. Appeltaart is the Dutch apple pie, a deep tart with a lattice top, packed with apples, cinnamon and raisins, served in every cafe with a mound of whipped cream.\n\nThe pastry is a rich butter dough with a little baking powder, which makes it tender enough to push into the tin with your fingers. Use firm, tart apples such as Granny Smith, sliced thin and tossed with cinnamon, sugar, lemon juice and breadcrumbs. **Sprinkle breadcrumbs over the base before the filling**, as they soak up the apple juice and protect the pastry from turning soggy. Pile the apples high, since they shrink as they bake.\n\nCover with a lattice of pastry strips, brush with egg and bake at 180C for 60 minutes, until the crust is deep gold and the apples are tender. Cool for 30 minutes in the tin before cutting. It tastes better the next day, when the juices have set. Serve with whipped cream.',
     ing: [
@@ -386,8 +387,8 @@ module.exports = {
   },
 
   'pannenkoeken': {
-    d: 'Large, thin Dutch pancakes fried in butter and eaten with syrup, bacon or apple, ready in 30 minutes.',
-    meta: 'Pannenkoeken, large thin Dutch pancakes with syrup, bacon or apple, cooked for 20 minutes. Four servings, ready in 30 minutes.',
+    d: 'Large, thin Dutch pancakes fried in butter and eaten with syrup, bacon or apple, ready in 45 minutes.',
+    meta: 'Pannenkoeken, large thin Dutch pancakes with syrup, bacon or apple, cooked for 20 minutes. Four servings, ready in 45 minutes.',
     kw: ['pannenkoeken', 'dutch pancakes', 'large thin dutch pancakes', 'pannenkoeken with syrup', 'pannenkoeken recipe'],
     why: 'It looks like a pancake and cooks like a crêpe, but it is larger, thicker and meant to be a full meal. Pannenkoeken are the Dutch pancakes, as wide as the pan and eaten for dinner as often as for breakfast, with sweet or savoury toppings.\n\nThe batter is flour, milk, eggs and a pinch of salt, whisked smooth and left to stand for 15 minutes. It should be the thickness of single cream. **Use a large, heavy non stick pan and a hot flame**, pouring in enough batter to cover the base in a thin layer, swirled quickly. Lay strips of bacon, slices of apple or cheese on top while the batter is still wet.\n\nCook for 2 minutes until the underside is golden and the top has just set, then flip with a wide spatula or a plate and cook for 1 minute more. Keep warm in a low oven. In the Netherlands, they are served flat on a plate and eaten with a knife and fork, with syrup, powdered sugar or ginger. The bacon version is a salty and sweet classic.',
     ing: [
@@ -509,7 +510,7 @@ module.exports = {
     st: [
       'Boil the potatoes in salted water for 20 minutes until soft. Drain.',
       'Warm the sauerkraut with the juniper in a pan for 10 minutes.',
-      'Bring water to the boil in a wide pan, take it off the heat, slide in the sausages, cover and leave for 15 minutes.',
+      'While the potatoes boil, bring water to the boil in a wide pan, take it off the heat, slide in the sausages, cover and let them poach off the heat for 15 minutes.',
       'Soften the onion in 20 g butter for 5 minutes, stir in the flour, then whisk in the stock and simmer for 5 minutes for gravy.',
       'Mash the potatoes with the remaining butter and milk, stir in the sauerkraut, and serve with the sliced sausage, gravy and mustard.'
     ],
@@ -525,7 +526,7 @@ module.exports = {
 
   'kapsalon': {
     d: 'Dutch fast food of chips topped with spiced chicken, melted cheese, salad and garlic sauce, baked in one tray for 25 minutes.',
-    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['kapsalon', 'dutch kapsalon', 'chips with kebab meat and cheese', 'kapsalon with chicken', 'dutch fast food tray'],
     why: 'A table for four and a single tray: kapsalon started in a Rotterdam hairdresser\'s, the name means barber shop, and it has become the best known Dutch fast food. It is a heap of chips under spiced meat, melted cheese and a cold salad, with garlic sauce over the lot.\n\nThe meat here is chicken thighs marinated in cumin, paprika, garlic and yoghurt, then roasted until the edges char. Slice it thin. **Bake the chips first and the cheese last**, so the chips stay crisp and the cheese melts to a bubbling blanket. Use frozen oven chips or cut your own, tossed in oil and roasted for 25 minutes.\n\nSpread the hot chips in a tray, lay the sliced chicken on top, cover with grated Gouda and return to the oven for 5 minutes. Pile shredded lettuce, tomato and cucumber on the cheese and pour the garlic sauce over, with a drizzle of chilli sauce. Eat with a fork straight from the tray. It is a meal that works better with a cold drink at the side.',
     ing: [
@@ -545,8 +546,8 @@ module.exports = {
       '2 tbsp chilli sauce'
     ],
     st: [
-      'Mix the chicken with the yoghurt, garlic, cumin, paprika, oil and salt. Marinate for 15 minutes.',
-      'Heat the oven to 220C. Bake the chips on a tray for 25 minutes. Roast the chicken on a second tray for 20 minutes, turning once, until charred at the edges. Slice thin.',
+      'Mix the chicken with the yoghurt, garlic, cumin, paprika, oil and salt. Marinate, covered, in the fridge for 15 minutes.',
+      'Heat the oven to 220C. Bake the chips on a tray for 25 minutes. At the same time, roast the chicken on a second tray for 20 minutes, turning once, until charred at the edges. Slice thin.',
       'Spread the chips in a large baking dish, lay the chicken on top and cover with the Gouda. Bake for 5 minutes until melted.',
       'Pile the lettuce, tomato and cucumber on top and pour over the garlic and chilli sauces. Serve from the dish.'
     ],
@@ -562,7 +563,7 @@ module.exports = {
 
   'boterkoek': {
     d: 'A Dutch butter cake, dense and chewy with almond and lemon, baked for 30 minutes and cut into squares.',
-    meta: 'Boterkoek, dense chewy Dutch butter cake with almond and lemon, baked for 30 minutes at 180C. Twelve servings, ready in 45 minutes.',
+    meta: 'Boterkoek, dense chewy Dutch butter cake with almond and lemon, baked for 30 minutes at 180C. Twelve servings, ready in 1 hour.',
     kw: ['boterkoek', 'dutch butter cake', 'dutch almond butter cake', 'boterkoek recipe', 'dense dutch butter cake with almonds'],
     why: 'How can a cake made with so much butter stay firm? Because the dough has almost no liquid, only an egg, and it bakes more like shortbread than sponge. Boterkoek is the Dutch butter cake, a flat, golden, dense square with a chewy edge, and it is one of the simplest bakes in the Dutch kitchen.\n\nBeat the soft butter with the sugar until creamy, then add the egg yolk, lemon zest and a drop of almond essence, and finally the flour and a little salt. The dough will be soft and sticky. **Press it into the tin with floured fingers**, and smooth the top. Mark a criss cross pattern with a fork, brush with the egg yolk and press an almond into each piece.\n\nBake at 180C for 30 minutes until deep gold at the edges and a little pale in the centre. Cool in the tin for 15 minutes and cut into squares while still slightly warm, as the cake hardens as it cools. It keeps for a week in a tin, and the flavour improves with a day or two. Serve with coffee or tea.',
     ing: [
@@ -595,7 +596,7 @@ module.exports = {
 
   'gevulde-koeken': {
     d: 'Dutch round biscuits of buttery spiced dough filled with almond paste, glazed with egg and baked for 20 minutes.',
-    meta: 'Gevulde koeken, Dutch round biscuits filled with almond paste, baked for 20 minutes at 180C. Twelve servings, ready in 1 hour.',
+    meta: 'Gevulde koeken, Dutch round biscuits filled with almond paste, baked for 20 minutes at 180C. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['gevulde koeken', 'dutch almond filled biscuits', 'almond paste filled cookies', 'gevulde koeken recipe', 'dutch almond biscuits'],
     why: 'The first sign they are done is the smell: butter and almond, with a faint scent of lemon, drifting from the oven. Gevulde koeken are Dutch almond filled biscuits, soft inside and crisp at the edge, with a thick layer of almond paste hidden between two rounds of dough.\n\nThe dough is a rich shortcrust, made from butter, sugar, flour, an egg and a pinch of baking powder, and it is chilled for 30 minutes. The filling is almond paste, beaten with a little egg and lemon zest until it can be shaped into discs. **Roll the paste into discs just smaller than the biscuit**, so there is a border of dough to seal round the edge. Press them between two layers of dough in a greased ring or muffin tin.\n\nBrush the tops with beaten egg and press an almond into the middle. Bake at 180C for 20 minutes, until the tops are rich gold and the edges are firm. Cool in the tin for 10 minutes. The biscuits keep for a week in a tin and the paste gets softer and more moist with time.',
     ing: [
@@ -630,7 +631,7 @@ module.exports = {
 
   'tompouce': {
     d: 'Two layers of crisp puff pastry sandwiching thick vanilla pastry cream under a pink icing, the classic Dutch cake.',
-    meta: 'Tompouce, Dutch cake of puff pastry and vanilla cream under pink icing, baked for 15 minutes. Eight servings, ready in 55 minutes.',
+    meta: 'Tompouce, Dutch cake of puff pastry and vanilla cream under pink icing, baked for 15 minutes. Eight servings, ready in 1 hour 15 minutes.',
     kw: ['tompouce', 'dutch tompouce', 'pink iced puff pastry cake', 'dutch custard slice', 'tompouce recipe'],
     why: 'It looks like a pink brick and eats like a custard slice, which is what a tompouce is. This is the classic Dutch cake, a slab of crisp puff pastry on the bottom and top with a thick vanilla cream between, and the top is covered with pink icing and eaten on the Queen\'s Day, now King\'s Day, when it is dyed orange.\n\nBake the puff pastry between two trays so it rises evenly and stays flat. Cool it completely, then trim the edges and cut into rectangles. For the cream, cook milk, yolks, sugar and cornflour for 5 minutes until very thick, beat in vanilla and cool, then fold in whipped cream. **Make the cream stiff**, because a runny cream squirts out of the sides when you cut the slice.\n\nSpread the cream on the base layer in a thick slab and press the top layer on. Mix icing sugar with a little raspberry juice and water until it is thick enough to spread without running and ice the tops. Let the icing set for 20 minutes. Cut with a serrated knife using a sawing motion, and eat with a fork, as it will squeeze out when bitten.',
     ing: [
@@ -739,11 +740,11 @@ module.exports = {
 
   'boquerones-en-vinagre': {
     d: 'Fresh anchovy fillets cured in white wine vinegar for 2 hours, then dressed with garlic, parsley and olive oil.',
-    meta: 'Boquerones en vinagre, fresh anchovies cured in vinegar with garlic and parsley, ready in 15 minutes plus curing. Four servings, no cooking.',
+    meta: 'Boquerones en vinagre, fresh anchovies cured in vinegar with garlic and parsley, ready in 15 minutes plus freezing and curing. Four servings, no cooking.',
     kw: ['boquerones en vinagre', 'spanish vinegar anchovies', 'white anchovies in vinegar', 'marinated fresh anchovies', 'boquerones recipe'],
-    why: 'Freeze the anchovies first. That is the problem-first fix for boquerones en vinagre, the Spanish tapas of fresh anchovies cured in vinegar: raw fish can carry parasites, and freezing for 48 hours makes it safe. Then you can cure them in vinegar without fear.\n\nSplit the fresh anchovies open, take out the backbone and heads, wash them well and arrange them in a single layer in a dish. Cover with white wine vinegar mixed with a little water and salt, and leave in the fridge for 2 hours. **The flesh turns white and firm** as the vinegar works on it, as if it had been cooked. Pour the vinegar off and rinse the fish gently under cold water.\n\nDry them on kitchen paper, arrange them in a clean dish, sprinkle with sliced garlic and parsley and cover with olive oil. Leave for 1 hour more before serving. They keep for 3 days in the fridge and their flavour improves overnight. Serve cold, on bread, with olives and a glass of chilled dry sherry.',
+    why: 'Freeze the anchovies first. That is the problem-first fix for boquerones en vinagre, the Spanish tapas of fresh anchovies cured in vinegar: raw fish can carry anisakis worms, which vinegar does not kill. Freezing does, given 7 days at −20°C / −4°F or colder in a freezer that really reaches it, and only then do the anchovies go into the vinegar.\n\nSplit the fresh anchovies open, take out the backbone and heads, wash them well and arrange them in a single layer in a dish. Cover with white wine vinegar mixed with a little water and salt, and leave in the fridge for 2 hours. **The flesh turns white and firm** as the vinegar works on it, as if it had been cooked. Pour the vinegar off and rinse the fish gently under cold water.\n\nDry them on kitchen paper, arrange them in a clean dish, sprinkle with sliced garlic and parsley and cover with olive oil. Leave for 1 hour more before serving. They keep for 3 days in the fridge and their flavour improves overnight. Serve cold, on bread, with olives and a glass of chilled dry sherry.',
     ing: [
-      '500 g very fresh anchovies, frozen for 48 hours then defrosted',
+      '500 g very fresh anchovies, frozen at −20°C / −4°F or colder for 7 days, then thawed in the fridge',
       '300 ml white wine vinegar',
       '100 ml water',
       '1 tsp salt',
@@ -760,13 +761,13 @@ module.exports = {
       'Serve cold on the bread.'
     ],
     tips: [
-      'Freeze the fish for 48 hours first.',
+      'Freeze the fish for 7 days at −20°C / −4°F first; a freezer that only reaches −18°C is not cold enough.',
       'Use only very fresh anchovies.',
       'Rinse off the vinegar before oiling.'
     ],
     pair: ['Crusty bread', 'Olives', 'Dry sherry', 'Cold beer'],
     store: 'Keeps for 3 days in the fridge, covered in oil.',
-    rest: [3060, 'Freezing and curing'],
+    rest: [10260, 'Freezing and curing'],
     nut: [548, 39, 17, 36, 1, 2, 5370]
   },
 

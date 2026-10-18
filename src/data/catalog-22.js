@@ -51,7 +51,7 @@ module.exports = [
   c('chip-shop-curry-sauce', 'Chip Shop Curry Sauce', 'British', 'Dinner', 'Easy', 10, 30, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Chip shop curry sauce golden mild sweet pour over chips'),
   c('roast-lamb-shoulder', 'Roast Lamb Shoulder', 'British', 'Dinner', 'Easy', 15, 225, 6, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Roast lamb shoulder slow roasted garlic rosemary falling apart roasting tin'),
   c('roast-duck', 'Roast Duck', 'British', 'Dinner', 'Medium', 20, 150, 4, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Roast duck whole bird crisp golden skin carved orange thyme'),
-  c('roast-turkey-crown', 'Roast Turkey Crown', 'British', 'Holiday Specials', 'Medium', 20, 105, 8, 0, 0, [], ['new'], 'Roast turkey crown bacon herb butter golden carved breast slices'),
+  c('roast-turkey-crown', 'Roast Turkey Crown', 'British', 'Holiday Specials', 'Medium', 20, 90, 8, 0, 0, [], ['new'], 'Roast turkey crown bacon herb butter golden carved breast slices'),
   c('gammon-egg-and-chips', 'Gammon, Egg and Chips', 'British', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'Gammon steak fried egg pineapple ring golden oven chips peas plate'),
   c('scampi-and-chips', 'Scampi and Chips', 'British', 'Dinner', 'Medium', 25, 30, 4, 0, 0, [], ['new'], 'Scampi and chips breaded golden crisp tartare sauce lemon wedge'),
   c('cheese-and-onion-pie', 'Cheese and Onion Pie', 'British', 'Dinner', 'Medium', 30, 50, 6, 0, 0, ['Vegetarian'], ['new'], 'Cheese and onion pie golden shortcrust slice melted Lancashire cheese'),

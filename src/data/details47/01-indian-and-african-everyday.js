@@ -118,6 +118,7 @@ module.exports = {
   },
 
   'aloo-tikki': {
+    untimed: ['cooling completely'],
     d: 'Spiced mashed potato patties with green chilli, coriander and cumin, shallow-fried until crisp and golden.',
     meta: 'Aloo tikki: spiced mashed potato patties with chilli, coriander and cumin, shallow-fried until golden. Eight servings, cooked for 15 minutes.',
     kw: ['aloo tikki', 'indian potato patties', 'aloo tikki recipe', 'spiced potato patties', 'crispy aloo tikki'],

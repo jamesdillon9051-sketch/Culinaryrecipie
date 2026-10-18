@@ -237,7 +237,7 @@ module.exports = {
     pair: ['Buttered greens', 'Apple sauce', 'A crisp, dry cider'],
     store: 'Keep the pork and mash separately in the fridge up to 3 days. Reheat the pork skin side up on a rack in a 220°C oven for 10 minutes to bring the crackling back.',
     nut: [814, 29, 53, 54, 7, 20, 1300],
-    rest: [240, 'Drying the skin']
+    rest: [255, 'Drying the skin']
   },
 
   'venison-stew': {

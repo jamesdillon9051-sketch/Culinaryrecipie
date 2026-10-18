@@ -413,6 +413,7 @@ module.exports = {
   },
 
   'potato-bread': {
+    untimed: ['cooling'],
     d: 'A soft loaf made with mashed potato, flour and yeast, which stays moist for days. Makes 1 loaf of 8 slices in 1 hour 5 minutes plus proving.',
     meta: 'Potato bread: a soft yeast loaf made with mashed potato that stays moist for days. A cheap bake, one loaf of 8 slices, with 1 hour 30 of proving.',
     kw: ['potato bread', 'soft potato loaf', 'budget homemade bread', 'homemade potato bread recipe', 'cheap loaf of bread'],
@@ -498,7 +499,7 @@ module.exports = {
     ],
     pair: ['Soup', 'Butter', 'Ham and cheese', 'Sausages'],
     store: 'Best on the day. Keep in a bread bin for up to 2 days. Freezes for up to 2 months.',
-    rest: [60, 'proving'],
+    rest: [80, 'proving'],
     nut: [144, 5, 22, 4, 1, 4, 510]
   },
 
@@ -619,7 +620,7 @@ module.exports = {
     ],
     pair: ['Pasta', 'Soup', 'Roast chicken', 'Salad'],
     store: 'Best on the day. Keep covered for up to 2 days and warm at 160°C for 8 minutes.',
-    rest: [60, 'proving'],
+    rest: [75, 'proving'],
     nut: [184, 5, 23, 8, 1, 4, 510]
   },
 
@@ -652,7 +653,7 @@ module.exports = {
     ],
     pair: ['Burger patties', 'Pickles', 'Coleslaw', 'Fries'],
     store: 'Best within 2 days. Keep in a bread bin. Freezes for up to 2 months.',
-    rest: [60, 'proving'],
+    rest: [80, 'proving'],
     nut: [257, 8, 36, 9, 2, 8, 770]
   },
 

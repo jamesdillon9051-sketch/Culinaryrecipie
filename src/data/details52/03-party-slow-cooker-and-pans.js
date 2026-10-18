@@ -104,6 +104,7 @@ module.exports = {
   },
 
   'southern-chow-chow': {
+    untimed: ['chilling'],
     d: 'A tangy Southern relish of green tomatoes, cabbage, onion and peppers in a sweet vinegar brine with mustard seed.',
     meta: 'Southern chow chow: a tangy relish of green tomatoes, cabbage, onion and peppers in a sweet vinegar brine with mustard seed. Ten servings, salted for 1 hour.',
     kw: ['southern chow chow', 'chow chow relish', 'green tomato chow chow', 'chow chow recipe', 'southern vegetable relish'],
@@ -139,6 +140,7 @@ module.exports = {
   },
 
   'appalachian-fried-apple-pies': {
+    untimed: ['cooling completely'],
     d: 'Small pastry turnovers filled with spiced dried apple and fried until blistered and golden, the crust crisp and flaky.',
     meta: 'Appalachian fried apple pies: small pastry turnovers filled with spiced dried apple and fried until golden. Eight servings, cooked for 15 minutes.',
     kw: ['appalachian fried apple pies', 'fried apple pies', 'fried apple pie recipe', 'dried apple hand pies', 'apple turnovers fried in oil'],
@@ -519,6 +521,7 @@ module.exports = {
   },
 
   'instant-pot-yogurt': {
+    untimed: ['chilling'],
     d: 'Plain homemade yogurt made from milk and a spoonful of live yogurt, heated and then set in the Instant Pot over eight hours.',
     meta: 'Instant Pot yogurt: plain homemade yogurt made from milk and live yogurt, heated and then set in the pot over eight hours. Eight servings, cooked for 480 minutes.',
     kw: ['instant pot yogurt', 'homemade yogurt in the instant pot', 'instant pot yogurt recipe', 'plain yogurt from milk', 'set yogurt in the instant pot'],

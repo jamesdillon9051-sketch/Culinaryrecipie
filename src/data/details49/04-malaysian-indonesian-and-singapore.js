@@ -920,7 +920,7 @@ module.exports = {
       'Top with a film of oil to keep it green.'
     ],
     pair: ['Falafel', 'Grilled meat', 'Eggs', 'Hummus'],
-    store: 'Keeps in a jar in the fridge for 1 week under a film of oil. Freezes well.',
+    store: 'Keeps in a jar in the fridge for 4 days under a film of oil. Freezes well.',
     nut: [93, 1, 2, 9, 1, 1, 150]
   }
 };

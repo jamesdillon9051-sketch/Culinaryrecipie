@@ -38,8 +38,8 @@ module.exports = {
       'Add the tinned tomatoes and cook 10 minutes.',
       'Add the cavolo nero, cabbage, potatoes, rosemary, the whole beans, the bean purée and about 1.2 litres of the bean cooking liquid.',
       'Simmer, half covered, for 45 minutes, until the greens have collapsed and the soup has darkened. Season.',
-      'Stir in the torn bread, take the pot off the heat, and leave it to stand at room temperature for at least an hour — ideally overnight in a cool place.',
-      'The next day, reheat slowly, stirring, until the bread has completely disappeared into the soup and it is thick enough for a spoon to stand up in.',
+      'Stir in the torn bread, take the pot off the heat, and leave it to stand for an hour. To keep it until the next day, as is traditional, cool it and refrigerate it within 2 hours.',
+      'Reheat slowly, stirring, until the bread has completely disappeared into the soup and it is thick enough for a spoon to stand up in.',
       'Serve in warm bowls with a heavy pour of raw olive oil over each.'
     ],
     tips: [
@@ -99,6 +99,7 @@ module.exports = {
   },
 
   'buddha-bowl': {
+    cookMax: 35,
     d: 'Roasted vegetables, a grain, a pulse and something green in one bowl, held together by a tahini dressing loosened with iced water.',
     meta: 'Roasted vegetable buddha bowl — roast vegetables, grains and chickpeas with a tahini dressing.',
     kw: ['buddha bowl recipe', 'roasted vegetable grain bowl', 'vegan bowl', 'tahini dressing bowl'],
@@ -136,7 +137,7 @@ module.exports = {
     st: [
       'Heat the oven to 210C fan. Toss the sweet potato, red onion and pepper with 2 tablespoons of oil, the cumin, paprika and salt, and roast 20 minutes.',
       'Add the broccoli with the last tablespoon of oil and roast 12 minutes more, until everything is charred at the edges.',
-      'Dry the chickpeas thoroughly on a cloth, toss with oil and ras el hanout, and roast on a separate tray for 25 minutes until crisp.',
+      'At the same time, dry the chickpeas thoroughly on a cloth, toss with oil and ras el hanout, and roast them on a separate tray for 25 minutes until crisp.',
       'Cook the quinoa or rice, drain well, and dress it with the lemon juice and olive oil while still warm so it absorbs them.',
       'For the dressing, whisk the tahini with the lemon juice, garlic and salt. It will seize into a thick paste — this is expected.',
       'Whisk in the iced water a tablespoon at a time until it loosens into a smooth, pourable cream the colour of milky coffee.',

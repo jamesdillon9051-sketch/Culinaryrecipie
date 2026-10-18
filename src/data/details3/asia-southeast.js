@@ -102,6 +102,7 @@ module.exports = {
   },
 
   'lu-rou-fan': {
+    cookMax: 115,
     d: 'Finely diced pork belly braised in soy, five spice and fried shallots until it becomes a glossy, gelatinous sauce, spooned over rice.',
     meta: 'Lu rou fan — Taiwanese braised pork belly over rice, glossy with soy, five spice and fried shallots.',
     kw: ['lu rou fan recipe', 'taiwanese braised pork rice', 'minced pork belly rice', 'soy braised pork'],
@@ -192,6 +193,8 @@ module.exports = {
   },
 
   'pineapple-cake': {
+    cookMax: 95,
+    untimed: ['cooling the filling and the cakes'],
     d: 'Buttery shortbread cases filled with a firm, slightly tart pineapple and winter melon jam, baked in small square moulds.',
     meta: 'Pineapple cake — Taiwanese buttery shortbread squares filled with firm, tart pineapple jam.',
     kw: ['pineapple cake recipe', 'feng li su', 'taiwanese pineapple pastry', 'pineapple jam filling'],
@@ -334,6 +337,7 @@ module.exports = {
   },
 
   'sambal-goreng': {
+    untimed: ['cooling completely'],
     d: 'Tempeh fried until crisp then tossed through a sweet-hot sambal of chilli, shallot and palm sugar until every piece is lacquered.',
     meta: 'Sambal goreng tempeh — crisp fried tempeh tossed in a sweet-hot chilli and palm sugar sambal.',
     kw: ['sambal goreng tempeh recipe', 'kering tempe', 'indonesian tempeh', 'sweet spicy tempeh'],
@@ -430,6 +434,7 @@ module.exports = {
   },
 
   'roti-canai': {
+    rest: [495, 'chilling'],
     d: 'Dough rested in oil overnight, flipped and stretched until translucent, coiled, flattened and griddled so it pulls apart in flaky ribbons.',
     meta: 'Roti canai — Malaysian flatbread stretched thin, coiled and griddled until it pulls apart in flaky layers.',
     kw: ['roti canai recipe', 'roti prata', 'malaysian flatbread', 'flaky layered roti'],

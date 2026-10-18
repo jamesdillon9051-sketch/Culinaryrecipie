@@ -5,7 +5,8 @@
 
 module.exports = {
   'prime-rib': {
-    rest: [1665, 'dry brining'],
+    cookMax: 225,
+    rest: [1605, 'dry brining'],
     d: 'A standing rib roast cooked low until the whole joint is one shade of pink, then blasted at the end for the crust. The reverse sear is the only method that gives you edge-to-edge medium-rare on a piece of meat this thick.',
     meta: 'Prime rib roast by the reverse-sear method — low and slow to an even pink, then a 250°C blast for the crust.',
     kw: ['prime rib', 'standing rib roast', 'prime rib roast recipe', 'reverse sear prime rib'],
@@ -26,7 +27,7 @@ module.exports = {
     ],
     st: [
       'The day before, pat the joint dry and rub the salt over every surface. Set it on a rack over a tray and refrigerate uncovered for 24 hours.',
-      'Take it out 3 hours before cooking so it loses its fridge chill all the way to the centre.',
+      'Take it out 2 hours before cooking so it loses some of its fridge chill; raw meat should not sit out for longer than that.',
       'Heat the oven to 110°C / 230°F. Mix the pepper, garlic, rosemary, thyme and oil and rub it all over the joint.',
       'Set it bone side down on a rack in a roasting tin and cook for about 3 hours 30 minutes, until the centre reads 52°C for medium-rare. Start checking at 3 hours — weight matters less than shape, and a thermometer is the only honest guide.',
       'Lift the joint onto a board and tent it loosely. Rest 45 minutes; it will not go cold, and the temperature will settle.',

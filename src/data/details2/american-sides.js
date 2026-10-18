@@ -204,7 +204,8 @@ module.exports = {
   },
 
   'classic-potato-salad': {
-    rest: [120, 'chilling'],
+    untimed: ['cooling the dressed potatoes'],
+    rest: [140, 'chilling'],
     d: 'Waxy potatoes dressed while still warm so they drink in the vinegar, then finished cold with mayonnaise, celery, egg and pickle. Every American family has a version, and this is the one that gets the seasoning right.',
     meta: 'Classic American potato salad with waxy potatoes dressed warm in vinegar, then mayonnaise, egg and pickle.',
     kw: ['potato salad recipe', 'american potato salad', 'picnic salad', 'creamy potato salad'],
@@ -250,7 +251,7 @@ module.exports = {
   },
 
   'boston-baked-beans': {
-    rest: [480, 'soaking'],
+    rest: [500, 'soaking'],
     d: 'Navy beans baked for six hours with molasses, salt pork and mustard until the sauce is dark and thick and the beans hold their shape. The dish that gave Boston its nickname, Beantown.',
     meta: 'Boston baked beans slow-baked with molasses, salt pork and mustard for six hours until dark and rich.',
     kw: ['boston baked beans recipe', 'molasses baked beans', 'new england beans', 'slow baked beans'],
@@ -403,7 +404,7 @@ module.exports = {
       'The gravy needs an aggressive amount of black pepper — it should look speckled and taste of it.'
     ],
     pair: ['Fried eggs and bacon', 'Black coffee', 'Hot sauce at the table'],
-    store: 'Biscuits keep 2 days and freeze 2 months. The gravy keeps 3 days and thickens on standing; loosen with milk when reheating.',
+    store: 'Biscuits keep 2 days and freeze 2 months. The gravy keeps 3 days in the fridge and thickens on standing; loosen with milk and reheat until piping hot.',
     nut: [782, 26, 62, 48, 3, 8, 1680]
   }
 };

@@ -74,7 +74,7 @@ module.exports = {
     tips: [
       'Serve it the moment it comes off the heat. Halloumi turns squeaky and firm within a few minutes of cooling and does not come back.',
       'Dry the slices. Wet halloumi will not take a mark however hot the pan is.',
-      'Salt at the end, if at all. The cheese carries around 1,200 mg of sodium a serving on its own.'
+      'Salt at the end, if at all. Halloumi is brined, and it seasons the salad on its own.'
     ],
     pair: ['A cold dry rosé', 'Warm flatbread, for anyone not counting carbohydrate', 'Olives and pickled chillies'],
     store: 'Best eaten immediately. The salad keeps a day undressed; halloumi does not keep once cooked and is better griddled fresh.',
@@ -177,7 +177,7 @@ module.exports = {
       '0.5 tsp black pepper',
       '# For the dressing',
       '4 anchovy fillets in oil',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '1 small garlic clove',
       '1 tbsp lemon juice',
       '1 tsp Dijon mustard',
@@ -199,7 +199,7 @@ module.exports = {
     ],
     tips: [
       'Add the oil slowly at the start. Almost every split Caesar dressing splits in the first tablespoon.',
-      'Use a raw yolk you are happy to eat raw, or shop-bought mayonnaise as the base if you would rather not.',
+      'If you cannot get pasteurised or Lion-stamped eggs, use shop-bought mayonnaise as the base instead.',
       'The dressing is better made an hour ahead and left in the fridge — the garlic and anchovy settle down.'
     ],
     pair: ['A cold Chablis', 'A soft-boiled egg on the side', 'Sourdough, for anyone not counting carbohydrate'],
@@ -209,7 +209,7 @@ module.exports = {
 
   'garlic-prawn-courgette-noodles': {
     d: 'Prawns cooked hard in garlic, chilli and olive oil, tossed through courgette ribbons that never see a pan — 45 g of protein and 17 g of carbohydrate.',
-    meta: 'Garlic prawns with courgette noodles — 45 g protein and 17 g carbohydrate, on the table in 25 minutes.',
+    meta: 'Garlic prawns with courgette noodles — 45 g protein and 17 g carbohydrate, on the table in 40 minutes.',
     kw: ['garlic prawns courgette noodles', 'low carb pasta alternative', 'high protein prawns', 'courgetti recipe'],
     why: 'Courgette noodles turn to water because people cook them. They do not need it — tossed raw through something hot they soften in about a minute and keep their bite, and any longer than that and you have soup. Salting and draining them first pulls out most of the water before it can reach the pan.',
     ing: [
@@ -273,7 +273,7 @@ module.exports = {
     tips: [
       'Low heat, and take them off early. Eggs left in a hot pan keep cooking and turn to rubber on the plate.',
       'The crème fraîche off the heat is a temperature brake as much as a flavour — it stops the carry-over cooking dead.',
-      'Do not salt smoked salmon. It is already at around 1,000 mg of sodium in this quantity.'
+      'Do not salt smoked salmon. It is cured in salt and already seasons the eggs.'
     ],
     pair: ['Buttered rye toast, for anyone not counting carbohydrate', 'A glass of cold Champagne, if the morning warrants it', 'Strong coffee'],
     store: 'Eat immediately. Scrambled eggs do not keep and reheating them is uniformly bad. Nothing here takes more than thirteen minutes, so make them fresh.',

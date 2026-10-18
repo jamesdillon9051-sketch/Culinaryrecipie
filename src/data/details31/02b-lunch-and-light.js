@@ -45,6 +45,7 @@ module.exports = {
   },
 
   'ramen-eggs': {
+    untimed: ['cooling completely'],
     d: 'Soft-boiled eggs with jammy yolks, peeled and steeped in a sweet soy and mirin marinade until the whites turn a glossy brown. The topping for a bowl of ramen.',
     meta: 'Ramen eggs: soft-boiled eggs with jammy yolks, marinated in soy sauce and mirin until the whites are glossy and brown. The classic ramen topping.',
     kw: ['ramen eggs', 'ajitsuke tamago', 'marinated ramen eggs', 'soft boiled ramen eggs', 'soy sauce eggs for ramen'],

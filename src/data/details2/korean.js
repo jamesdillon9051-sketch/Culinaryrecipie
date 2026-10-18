@@ -284,7 +284,8 @@ module.exports = {
   },
 
   'naengmyeon': {
-    rest: [60, 'soaking'],
+    cookMax: 123,
+    rest: [570, 'soaking, pressing, chilling and freezing'],
     d: 'Chewy buckwheat noodles in an icy beef and radish broth, with pear, cucumber, sliced beef and half a boiled egg. The broth is served slushy with ice crystals, and it is one of the great hot-weather dishes.',
     meta: 'Mul naengmyeon — Korean cold buckwheat noodles in icy beef and radish broth with pear, cucumber and egg.',
     kw: ['naengmyeon recipe', 'korean cold noodles', 'mul naengmyeon', 'cold buckwheat noodles'],

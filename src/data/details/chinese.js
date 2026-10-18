@@ -3,7 +3,7 @@
 module.exports = {
   'kung-pao-chicken': {
     d: 'Sichuan\'s most travelled dish, done properly: velveted chicken, blistered dried chillies, the numbing buzz of Sichuan peppercorn and a sauce that clings rather than pools. Fifteen minutes at the stove once everything is prepped.',
-    meta: 'Authentic Sichuan kung pao chicken with velveted chicken, dried chillies and mouth-numbing peppercorn. Ready in 35 minutes.',
+    meta: 'Authentic Sichuan kung pao chicken with velveted chicken, dried chillies and mouth-numbing peppercorn. Ready in 55 minutes, marinating included.',
     kw: ['kung pao chicken recipe', 'sichuan chicken', 'gong bao ji ding', 'chinese stir fry'],
     why: 'Velveting — coating the chicken in cornflour, egg white and rice wine — forms a protective film that keeps the meat juicy in a screaming-hot wok. The sauce is pre-mixed because stir-frying gives you no time to measure; it goes in at the last moment and thickens on contact with the hot pan.',
     ing: [
@@ -31,7 +31,7 @@ module.exports = {
       '80 g roasted peanuts'
     ],
     st: [
-      'Toss the chicken with the Shaoxing wine, soy sauce, cornflour and egg white until slick and coated. Leave 20 minutes at room temperature.',
+      'Toss the chicken with the Shaoxing wine, soy sauce, cornflour and egg white until slick and coated. Cover and leave in the fridge for 20 minutes.',
       'Whisk all the sauce ingredients together in a small bowl and set it within reach of the hob. Once you start cooking there is no time to measure.',
       'Heat a wok over the highest heat until it smokes, then add 2 tablespoons of the oil and swirl.',
       'Add the chicken in a single layer and leave it undisturbed for 60 seconds to sear, then stir-fry 2 minutes more until just cooked. Remove to a plate.',
@@ -196,9 +196,9 @@ module.exports = {
   },
 
   'beef-and-broccoli': {
-    d: 'The most useful stir-fry in the repertoire: velveted beef, crisp-tender broccoli and a savoury oyster sauce gravy, on the table in under half an hour. The velveting is what makes cheap beef taste expensive.',
-    meta: 'Restaurant-style beef and broccoli with velveted steak and a glossy oyster sauce. On the table in 30 minutes.',
-    kw: ['beef and broccoli recipe', 'chinese stir fry', 'velveting beef', 'quick weeknight dinner'],
+    d: 'The most useful stir-fry in the repertoire: velveted beef, crisp-tender broccoli and a savoury oyster sauce gravy, on the table in about an hour, most of it the beef sitting in its velveting. The velveting is what makes cheap beef taste expensive.',
+    meta: 'Restaurant-style beef and broccoli with velveted steak and a glossy oyster sauce. About an hour, velveting included.',
+    kw: ['beef and broccoli recipe', 'chinese stir fry', 'velveting beef', 'beef and broccoli stir fry'],
     why: 'A pinch of bicarbonate of soda raises the surface pH of the beef, which prevents its proteins from contracting tightly during high-heat cooking — the same tenderising effect Chinese restaurants rely on. Blanching the broccoli first means it needs only seconds in the wok, so it stays bright and snappy.',
     ing: [
       '# For the beef',
@@ -286,7 +286,7 @@ module.exports = {
   'chow-mein': {
     d: 'Springy egg noodles tossed with chicken and vegetables in a savoury brown sauce, with a few noodles crisped against the wok. A twenty-minute takeaway staple that is genuinely better homemade.',
     meta: 'Chicken chow mein with springy egg noodles, crisp vegetables and a savoury brown sauce. Faster than a takeaway.',
-    kw: ['chow mein recipe', 'chicken chow mein', 'chinese noodles', 'quick noodle stir fry'],
+    kw: ['chow mein recipe', 'chicken chow mein', 'chinese noodles', 'chicken noodle stir fry'],
     why: 'Rinsing and thoroughly draining the boiled noodles removes surface starch that would otherwise glue them into a single mass in the wok. Letting them sit undisturbed for a minute against the hot metal crisps a few strands, which is the textural contrast that defines a good chow mein.',
     ing: [
       '400 g fresh egg noodles',
@@ -467,7 +467,7 @@ module.exports = {
   },
 
   'pork-dumplings': {
-    rest: [75, 'resting'],
+    rest: [90, 'resting'],
     d: 'Juicy jiaozi with a hand-rolled wrapper thick at the centre and thin at the edge — the shape that stops the base bursting. Making them is a whole afternoon and worth every minute.',
     meta: 'Homemade steamed pork dumplings (jiaozi) with hand-rolled wrappers and a juicy cabbage-pork filling.',
     kw: ['pork dumplings recipe', 'jiaozi recipe', 'homemade dumpling wrappers', 'chinese dumplings'],
@@ -563,8 +563,8 @@ module.exports = {
   },
 
   'wonton-soup': {
-    d: 'Silky wontons with a prawn and pork filling floating in a clear, restorative broth. The wrappers are so thin they turn translucent, and the whole thing comes together in half an hour.',
-    meta: 'Delicate wonton soup with prawn and pork parcels in a clear ginger broth. Comfort food in 45 minutes.',
+    d: 'Silky wontons with a prawn and pork filling floating in a clear, restorative broth. The wrappers are so thin they turn translucent, and the whole thing comes together in a little over an hour.',
+    meta: 'Delicate wonton soup with prawn and pork parcels in a clear ginger broth. Comfort food in about 65 minutes.',
     kw: ['wonton soup recipe', 'chinese wontons', 'prawn wontons', 'clear broth soup'],
     why: 'Wontons are cooked in a separate pan of water rather than in the soup, because the starch they shed would cloud a broth that should be crystal clear. Whole prawns chopped by hand rather than minced keep bouncy pieces in the filling, giving texture against the soft pork.',
     ing: [
@@ -613,7 +613,7 @@ module.exports = {
 
   'hot-and-sour-soup': {
     d: 'Sharp with black vinegar, hot with white pepper rather than chilli, and thickened to that distinctive silky body. The real thing is far more interesting than the gloopy takeaway version.',
-    meta: 'Authentic hot and sour soup with black vinegar, white pepper and silky egg ribbons. Ready in 35 minutes.',
+    meta: 'Authentic hot and sour soup with black vinegar, white pepper and silky egg ribbons. Ready in 55 minutes, mushroom soak included.',
     kw: ['hot and sour soup recipe', 'chinese soup', 'suan la tang', 'vegetarian chinese soup'],
     why: 'The heat in this soup comes from white pepper, whose piperine gives a warming rather than burning sensation, and the sourness from Chinkiang vinegar added off the heat so its aromatics survive. Drizzling beaten egg in a thin stream while the soup moves slowly creates fine ribbons instead of lumps.',
     ing: [

@@ -44,6 +44,7 @@ module.exports = {
   },
 
   'moon-pies': {
+    untimed: ['cooling completely'],
     d: 'The Southern snack: two soft graham-flavoured cookies sandwiched with melted marshmallow and dipped in chocolate. Twelve pies for a road trip.',
     meta: 'Homemade moon pies: two soft graham-flavoured cookies sandwiched with a marshmallow filling and dipped in chocolate, the old Southern snack.',
     kw: ['moon pies', 'homemade moon pies', 'moon pie recipe', 'chocolate marshmallow moon pies', 'southern moon pies'],
@@ -119,6 +120,7 @@ module.exports = {
   },
 
   'linzer-cookies': {
+    untimed: ['cooling completely'],
     d: 'Buttery almond sandwich cookies with a small window in the top, dusted with icing sugar and filled with raspberry jam. The Austrian Christmas favourite.',
     meta: 'Linzer cookies: buttery almond and cinnamon sandwich cookies with a window in the top, filled with raspberry jam and dusted with icing sugar.',
     kw: ['linzer cookies', 'linzer cookie recipe', 'austrian linzer cookies', 'almond linzer cookies', 'raspberry linzer cookies'],
@@ -254,6 +256,6 @@ module.exports = {
     pair: ['Fried eggs', 'Apple butter', 'Maple syrup'],
     store: 'The unfried loaf keeps in the fridge for up to 5 days. Fried slices are best hot. The sliced loaf freezes for 3 months.',
     nut: [265, 13, 24, 13, 2, 0, 570],
-    rest: [480, 'Setting overnight']
+    rest: [510, 'Setting overnight']
   }
 };

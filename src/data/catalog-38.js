@@ -87,9 +87,9 @@ module.exports = [
   c('lentil-dal', 'Lentil Dal', 'Indian', 'Dinner', 'Easy', 10, 35, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'lentil dal'),
   c('spinach-and-ricotta-pasta', 'Spinach and Ricotta Pasta', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'spinach and ricotta pasta'),
   c('spinach-pie', 'Spinach Pie', 'Greek', 'Dinner', 'Medium', 25, 45, 6, 0, 0, ['Vegetarian'], ['new'], 'spinach pie'),
-  c('spinach-quiche', 'Spinach Quiche', 'French', 'Dinner', 'Medium', 25, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'spinach quiche'),
+  c('spinach-quiche', 'Spinach Quiche', 'French', 'Dinner', 'Medium', 25, 60, 6, 0, 0, ['Vegetarian'], ['new'], 'spinach quiche'),
   c('beetroot-soup', 'Beetroot Soup', 'Polish', 'Lunch', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian'], ['new'], 'beetroot soup'),
-  c('pumpkin-pasta-bake', 'Pumpkin Pasta Bake', 'Italian', 'Dinner', 'Easy', 15, 35, 6, 0, 0, [], ['new'], 'pumpkin pasta bake'),
+  c('pumpkin-pasta-bake', 'Pumpkin Pasta Bake', 'Italian', 'Dinner', 'Easy', 15, 60, 6, 0, 0, [], ['new'], 'pumpkin pasta bake'),
   c('roast-pumpkin-salad', 'Roast Pumpkin Salad', 'Australian', 'Lunch', 'Easy', 15, 30, 4, 0, 0, ['Vegetarian'], ['new'], 'roast pumpkin salad'),
   c('roasted-red-pepper-pasta', 'Roasted Red Pepper Pasta', 'Italian', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free'], ['new'], 'roasted red pepper pasta'),
   c('roasted-garlic', 'Roasted Garlic', 'Italian', 'Appetizers', 'Easy', 5, 40, 4, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'roasted garlic'),
@@ -116,7 +116,7 @@ module.exports = [
   c('passionfruit-slice', 'Passionfruit Slice', 'Australian', 'Desserts', 'Easy', 20, 0, 16, 0, 0, ['Vegetarian'], ['new'], 'passionfruit slice'),
   c('shortbread-fingers', 'Shortbread Fingers', 'Scottish', 'Baking', 'Easy', 15, 25, 16, 0, 0, ['Vegetarian'], ['new'], 'shortbread fingers'),
   c('apple-pie-with-custard', 'Apple Pie with Custard', 'British', 'Desserts', 'Medium', 40, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'apple pie with custard'),
-  c('maple-pecan-tart', 'Maple Pecan Tart', 'Canadian', 'Desserts', 'Medium', 30, 40, 10, 0, 0, ['Vegetarian'], ['new'], 'maple pecan tart'),
+  c('maple-pecan-tart', 'Maple Pecan Tart', 'Canadian', 'Desserts', 'Medium', 30, 60, 10, 0, 0, ['Vegetarian'], ['new'], 'maple pecan tart'),
   c('gingerbread-men', 'Gingerbread Men', 'British', 'Baking', 'Easy', 25, 12, 16, 0, 0, ['Vegetarian'], ['new'], 'gingerbread men'),
   c('scones-with-jam-and-cream', 'Scones with Jam and Cream', 'British', 'Baking', 'Easy', 15, 15, 8, 0, 0, ['Vegetarian'], ['new'], 'scones with jam and cream'),
   c('peach-crumble', 'Peach Crumble', 'British', 'Desserts', 'Easy', 15, 35, 6, 0, 0, ['Vegetarian'], ['new'], 'peach crumble'),
@@ -130,6 +130,6 @@ module.exports = [
   c('kiwi-fruit-pavlova', 'Kiwi Fruit Pavlova', 'New Zealand', 'Desserts', 'Medium', 30, 90, 8, 0, 0, ['Vegetarian'], ['new'], 'kiwi fruit pavlova'),
   c('masala-omelette', 'Masala Omelette', 'Indian', 'Breakfast', 'Easy', 5, 6, 2, 0, 0, ['Vegetarian', 'Dairy-Free', 'Gluten-Free'], ['new'], 'masala omelette'),
   c('marmite-pasta', 'Marmite Pasta', 'British', 'Quick Meals', 'Easy', 3, 12, 2, 0, 0, [], ['new'], 'marmite pasta'),
-  c('roasted-garlic-soup', 'Roasted Garlic Soup', 'French', 'Lunch', 'Easy', 10, 40, 4, 0, 0, ['Vegetarian'], ['new'], 'roasted garlic soup'),
+  c('roasted-garlic-soup', 'Roasted Garlic Soup', 'French', 'Lunch', 'Easy', 10, 80, 4, 0, 0, ['Vegetarian'], ['new'], 'roasted garlic soup'),
   c('fried-bread', 'Fried Bread', 'British', 'Breakfast', 'Easy', 2, 6, 2, 0, 0, [], ['new'], 'fried bread')
 ];

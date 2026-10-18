@@ -46,18 +46,16 @@
   if (queryInput && state.q) queryInput.value = state.q;
   if (sortSelect) sortSelect.value = state.sort;
 
+  /* Stars only for a recipe with real reader reviews (src/data/reviews.json). There are none yet, and
+     a line saying so on every card read as a public verdict the site has no grounds for, so a recipe
+     without reviews shows nothing here at all. */
   function stars(rating) {
     var value = Math.max(0, Math.min(5, Number(rating) || 0));
-    /* A recipe nobody has rated is not a recipe rated zero: "0.0" beside five empty stars says readers disliked it.
-       util.js says the same for the cards written at build time, and these are the ones painted here. */
-    if (!value) {
-      return '<span class="stars stars--unrated"><b>Not yet rated</b>' +
-        '<span class="sr-only">This recipe has no ratings yet</span></span>';
-    }
+    if (!value) return '';
     var pct = (value / 5) * 100;
     return '<span class="stars"><span class="stars-glyphs" aria-hidden="true">★★★★★' +
       '<span style="width:' + pct + '%">★★★★★</span></span>' +
-      '<b>' + value.toFixed(1) + '</b></span>';
+      '<b>' + value.toFixed(1) + '</b><span class="sr-only"> out of 5 from reader reviews</span></span>';
   }
 
   function cardHtml(r) {
@@ -65,18 +63,19 @@
        pattern-checked all the same: a hand-edited index must not be able to
        inject markup. */
     var slugSafe = String(r.g).replace(/[^a-z0-9-]/gi, '');
-    var fileSafe = r.i ? String(r.i).replace(/[^a-z0-9-]/gi, '') : '';
+    var fileSafe = String(window.cvIndexImage(r)).replace(/[^a-z0-9-]/gi, '');
+    var alt = r.a || r.t;
     var colour = /^#[0-9a-f]{6}$/i.test(r.k || '') ? r.k : '';
     var href = BASE + 'recipes/' + slugSafe + '/';
 
     var media = fileSafe
       ? '<picture>' +
           '<source srcset="' + esc(BASE + 'assets/img/recipes/' + fileSafe + '.webp') + '" type="image/webp">' +
-          '<img src="' + esc(BASE + 'assets/img/recipes/' + fileSafe + '.jpg') + '" alt="' + esc(r.a) + '" ' +
+          '<img src="' + esc(BASE + 'assets/img/recipes/' + fileSafe + '.jpg') + '" alt="' + esc(alt) + '" ' +
           'loading="lazy" decoding="async" width="800" height="600" data-fade ' +
           'data-title="' + esc(r.t) + '" data-ph-a="' + (colour || '#c8763f') + '" data-ph-b="#8c5a3c">' +
         '</picture>'
-      : '<div class="img-fallback" role="img" aria-label="' + esc(r.a) + '"><span>' + esc(r.t) + '</span></div>';
+      : '<div class="img-fallback" role="img" aria-label="' + esc(alt) + '"><span>' + esc(r.t) + '</span></div>';
 
     return '<article class="card reveal is-visible">' +
       '<div class="card-media" style="background:' + (colour || 'var(--bg-sunken)') + '">' + media +
@@ -98,7 +97,7 @@
         '<div class="card-foot">' + stars(r.r) +
           '<span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true">' +
           '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' +
-          esc(cardTime(r.m, r.x)) + ' <i>&middot;</i> ' + esc(r.d) + '</span>' +
+          esc(cardTime(r.m, r.x) + (r.u ? '+' : '')) + ' <i>&middot;</i> ' + esc(r.d) + '</span>' +
         '</div>' +
       '</div></article>';
   }
@@ -125,7 +124,8 @@
     if (state.category.length && state.category.indexOf(r.n) === -1) return false;
     if (state.cuisine.length && state.cuisine.indexOf(r.c) === -1) return false;
     if (state.difficulty.length && state.difficulty.indexOf(r.d) === -1) return false;
-    if (state.time && r.m > state.time) return false;
+    /* A recipe whose method needs time it does not give cannot promise to fit under a limit. */
+    if (state.time && (r.m > state.time || r.u)) return false;
     if (state.tag.length) {
       for (var i = 0; i < state.tag.length; i++) {
         if (r.f.indexOf(state.tag[i]) === -1 && !(state.swaps && r.h && r.h.indexOf(state.tag[i]) !== -1)) return false;
@@ -203,11 +203,11 @@
     var results = data.filter(function (r) { return matches(r, favs); });
 
     if (state.q && state.q.trim().length > 1) {
-      var terms = state.q.toLowerCase().trim().split(/\s+/);
+      var terms = window.cvSearchTerms(state.q);
       results = results
-        .map(function (r) { return { r: r, score: window.cvScore(r, terms) }; })
+        .map(function (r) { return { r: r, score: terms.length ? window.cvScore(r, terms) : 0 }; })
         .filter(function (x) { return x.score > 0; })
-        .sort(function (a, b) { return b.score - a.score; })
+        .sort(function (a, b) { return b.score - a.score || a.r.t.localeCompare(b.r.t); })
         .map(function (x) { return x.r; });
     }
 
@@ -229,7 +229,11 @@
 
     if (!results.length) {
       grid.className = '';
-      grid.innerHTML = '<div class="empty-state"><h3>Nothing matches those filters</h3>' +
+      var hasQuery = state.q && state.q.trim().length > 1;
+      grid.innerHTML = '<div class="empty-state"><h3>' + (hasQuery
+          ? 'No recipes match &ldquo;' + esc(state.q.trim()) + '&rdquo;' + (state.category.length || state.cuisine.length ||
+            state.tag.length || state.difficulty.length || state.time ? ' with those filters' : '')
+          : 'Nothing matches those filters') + '</h3>' +
         '<p>' + (state.favourites
           ? 'Tap the heart on any recipe to save it here.'
           : 'Try removing a filter, or search for an ingredient like &ldquo;chicken&rdquo; or &ldquo;chocolate&rdquo;.') +
@@ -346,9 +350,33 @@
     }).join('');
   }
 
-  window.cvLoadIndex().then(function (json) {
-    data = json;
-    renderChips();
-    render();
-  });
+  /* Loading, failed and empty are three different things to a reader: the count line says which. A
+     failed download keeps the cards the server already painted and offers to try again, instead of
+     reporting that no recipes match. */
+  var loaded = false;
+  if (countEl) countEl.textContent = 'Loading recipes…';
+  function showLoadError() {
+    if (countEl) {
+      countEl.innerHTML = 'The recipe list could not be loaded, so filters and search are not working right now. ' +
+        '<button type="button" class="btn btn--ghost btn--sm" id="retry-index">Try again</button>';
+      var retry = $('#retry-index');
+      if (retry) retry.addEventListener('click', function () { countEl.textContent = 'Loading recipes…'; load(); });
+    }
+    if (!grid.querySelector('article')) {
+      grid.className = '';
+      grid.innerHTML = '<div class="empty-state"><h3>Recipes could not be loaded</h3>' +
+        '<p>This is a connection or server problem, not an empty search. Check your connection and try again.</p></div>';
+    }
+  }
+  function load() {
+    window.cvLoadIndex().then(function (json) {
+      loaded = true;
+      data = json;
+      renderChips();
+      render();
+    }, showLoadError);
+  }
+  var renderWhenLoaded = render;
+  render = function () { if (loaded) renderWhenLoaded(); };
+  load();
 })();

@@ -40,7 +40,7 @@ module.exports = {
     ],
     st: [
       'Grind the drained chillies, garlic, ginger, cumin, mustard seeds, peppercorns, cinnamon, cloves, vinegar and turmeric to a smooth paste.',
-      'Coat the beef with the paste and leave for 1 hour.',
+      'Coat the beef with the paste, cover and refrigerate for 1 hour.',
       'Heat the oil in a heavy pan and cook the onions for 10 minutes until golden. Add the beef with all the paste and cook for 10 minutes, stirring, until the paste darkens.',
       'Add the sugar, salt and water. Cover and simmer over a low heat for 60 minutes.',
       'Add the potatoes and cook for 30 minutes more, until the beef and potatoes are tender and the sauce is thick.'
@@ -48,12 +48,12 @@ module.exports = {
     tips: [
       'Wear gloves when grinding the soaked chillies.',
       'For less heat, remove the chilli seeds before soaking.',
-      'Leave the curry overnight if you can; the flavours settle and mellow.'
+      'Refrigerate the curry overnight if you can; the flavours settle and mellow.'
     ],
     pair: ['Steamed rice', 'Pao', 'Cucumber and onion salad', 'Plain yoghurt'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months. Reheat gently.',
     nut: [439, 32, 17, 27, 3, 4, 510],
-    rest: [60, 'Marinating']
+    rest: [75, 'Marinating']
   },
 
   'goan-fish-curry': {
@@ -669,6 +669,7 @@ module.exports = {
   },
 
   'moong-dal-kachori': {
+    untimed: ['cooling completely'],
     d: 'Crisp, flaky pastry rounds stuffed with spiced ground moong dal and cooked in hot oil until puffed and golden.',
     meta: 'Moong dal kachori: flaky pastry rounds stuffed with spiced ground moong dal, cooked in hot oil. Makes eight, cooked for about 30 minutes.',
     kw: ['moong dal kachori', 'moong dal kachori recipe', 'khasta kachori', 'rajasthani moong dal kachori', 'stuffed kachori with lentils'],
@@ -707,7 +708,7 @@ module.exports = {
     pair: ['Tamarind chutney', 'Aloo sabzi', 'Masala chai', 'Mint chutney'],
     store: 'Keeps in an airtight tin for 2 days. Warm in a low oven to crisp.',
     nut: [548, 6, 32, 44, 3, 1, 300],
-    rest: [120, 'Soaking the dal and resting the dough']
+    rest: [140, 'Soaking the dal and resting the dough']
   },
 
   'khandvi': {

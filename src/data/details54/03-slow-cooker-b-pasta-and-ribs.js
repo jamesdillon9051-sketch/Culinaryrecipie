@@ -203,7 +203,7 @@ module.exports = {
 
   'slow-cooker-hash-brown-casserole': {
     d: 'Frozen hash browns, cheddar, soured cream and cream of chicken soup cooked on low for 4 hours into a creamy side dish for eight.',
-    meta: 'Slow cooker hash brown casserole with cheddar and soured cream, cooked for 4 hours. Eight servings, ready in 4 hours 10 minutes.',
+    meta: 'Slow cooker hash brown casserole with cheddar and soured cream, cooked for 4 hours. Eight servings, ready in 4 hours 20 minutes.',
     kw: ['slow cooker hash brown casserole', 'crockpot cheesy potatoes', 'funeral potatoes', 'hash brown casserole with cheese', 'cheesy hash brown bake'],
     why: 'Thaw the hash browns. That is the single most useful instruction here, because frozen potatoes dumped straight into a cooker release ice-cold water into the sauce, and the casserole turns thin and watery. Ten minutes on the counter is enough to take the chill off.\n\nThis is a Midwestern potluck staple often called funeral potatoes, made for gatherings because it feeds a crowd and travels in its own pot. The sauce is simple: condensed soup, soured cream, grated cheddar and onion, stirred through the potatoes and left to cook down. Here the condensed soup is replaced with a homemade white sauce, if you prefer.\n\n**Stir every hour only if you are home.** Most of the time the casserole needs no attention, but a stir halfway through brings the potatoes on the edge to the middle and keeps the sauce even. Do not lift the lid more than once.\n\nThe top will not crisp in a slow cooker, so add a crunchy topping of crushed cornflakes or crisps tossed with melted butter for the last 10 minutes. Scatter it over the surface and leave the lid ajar so the steam can escape.',
     ing: [
@@ -315,7 +315,7 @@ module.exports = {
 
   'slow-cooker-lasagna': {
     d: 'Layers of beef ragu, ricotta, mozzarella and dry lasagna sheets cooked on low for 4 hours until tender and bubbling.',
-    meta: 'Slow cooker lasagna with beef ragu, ricotta and mozzarella, cooked for 4 hours. Eight servings, ready in 4 hours 30 minutes.',
+    meta: 'Slow cooker lasagna with beef ragu, ricotta and mozzarella, cooked for 4 hours. Eight servings, ready in 4 hours 50 minutes.',
     kw: ['slow cooker lasagna', 'crockpot lasagna', 'slow cooker lasagne with ricotta', 'no boil lasagna in slow cooker', 'beef lasagna slow cooker'],
     why: 'A Sunday dish for a table of eight, and the one time a slow cooker beats the oven for lasagna. The gentle, moist heat softens the pasta sheets without drying the edges, and the whole dish steams to a tender, sliceable stack. It also frees the oven for something else.\n\nUse dry no-boil sheets and break them to fit the shape of your cooker. They absorb the liquid from the sauce as they cook, so the ragu should be a little looser than for an oven lasagna. If it seems too thick, thin it with a splash of water before layering.\n\n**Start and end with sauce.** A layer of ragu on the base prevents the first layer of pasta from sticking, and a layer of sauce and cheese on top keeps the final sheets from drying out. In between, alternate sauce, sheets, ricotta mixture and mozzarella, overlapping the sheets slightly.\n\nCook on low for 4 hours, until the pasta is tender when pierced. The edges will brown slightly. Switch off and rest the lasagna with the lid off for 20 minutes, which lets it firm up so that slices hold together on the plate.',
     ing: [
@@ -493,8 +493,9 @@ module.exports = {
   },
 
   'slow-cooker-salmon': {
-    d: 'Salmon fillets on a bed of lemon and dill cooked on low for 1 hour in the slow cooker until just opaque and tender.',
-    meta: 'Slow cooker salmon with lemon and dill, cooked on low for 1 hour. Four servings, ready in 1 hour 10 minutes.',
+    cookMax: 60,
+    d: 'Salmon fillets on a bed of lemon and dill cooked on low for 45 minutes to 1 hour in the slow cooker until just opaque and tender.',
+    meta: 'Slow cooker salmon with lemon and dill, cooked on low for 45 minutes to 1 hour. Four servings, ready in 55 minutes to 1 hour 10 minutes.',
     kw: ['slow cooker salmon', 'crockpot salmon', 'poached salmon in slow cooker', 'lemon dill salmon fillets', 'gentle cooked salmon'],
     why: 'The first sign it is ready is the colour: a deep coral turning to a pale, opaque pink at the edges. Salmon cooked slowly at a low temperature stays soft and silky, because the proteins set gradually rather than tightening all at once. It is the gentlest way to cook a fish fillet.\n\nA slow cooker holds a very even heat, so it works well as a poacher. Line the base with lemon slices and sprigs of dill, which lift the fillets off the bottom and scent the steam. Add a small amount of white wine or water, about 100 ml, and lay the fillets on top, skin side down, in a single layer.\n\n**Check at 45 minutes.** Cooker temperatures vary, and thin tail pieces cook faster than thick centre cuts. The fish is ready when it flakes easily and the flesh has just turned from translucent to opaque. One hour is a guide, not a promise.\n\nLift the fillets out carefully with a fish slice. Make a quick sauce from a spoon of mayonnaise, lemon juice, chopped capers and dill, and serve it cold against the warm, soft salmon with boiled potatoes.',
     ing: [
@@ -600,7 +601,7 @@ module.exports = {
 
   'slow-cooker-turkey-breast': {
     d: 'A bone-in turkey breast rubbed with herb butter and slow cooked on low for 5 hours until juicy, with a quick gravy from the juices.',
-    meta: 'Slow cooker turkey breast with herb butter, cooked for 5 hours with gravy. Eight servings, ready in 5 hours 20 minutes.',
+    meta: 'Slow cooker turkey breast with herb butter, cooked for 5 hours with gravy. Eight servings, ready in 5 hours 30 minutes.',
     kw: ['slow cooker turkey breast', 'crockpot turkey breast', 'herb butter turkey breast', 'turkey breast with gravy', 'bone in turkey breast slow cooker'],
     why: 'A turkey breast is the lean part of a bird that is already prone to drying out, and the slow cooker, with its steamy, enclosed heat, is the kindest way to treat it. The meat stays moist from edge to centre, and there is no basting or turning to worry about.\n\nChoose a bone-in breast of about 2 kg that fits comfortably in the pot with the lid on. The bone slows the cooking and adds flavour. Pat it dry and rub it all over, and under the skin, with softened butter mixed with sage, thyme, garlic and salt. The butter melts into the meat and keeps the breast moist.\n\n**Cook it on a bed of onions, carrots and celery.** The vegetables lift the turkey off the base and release juices that become the gravy. Pour in just 100 ml of stock, since the turkey releases plenty of its own liquid.\n\nThe skin will be pale and soft, which is normal in a slow cooker. Put the breast under a hot grill for 5 minutes at the end to brown it. Check that a thermometer reads 74C in the thickest part, rest it for 15 minutes, and strain the juices into a pan to thicken with a little cornflour.',
     ing: [
@@ -669,7 +670,7 @@ module.exports = {
 
   'smoked-salmon-dip': {
     d: 'Cream cheese blended with smoked salmon, lemon, dill and capers into a spreadable dip, chilled and served with crackers.',
-    meta: 'Smoked salmon dip with cream cheese, lemon and dill, made in 10 minutes. Eight servings, no cooking required.',
+    meta: 'Smoked salmon dip with cream cheese, lemon and dill, made in 40 minutes. Eight servings, no cooking required.',
     kw: ['smoked salmon dip', 'smoked salmon cream cheese dip', 'salmon dip with dill', 'smoked salmon pate', 'party dip with smoked salmon'],
     why: 'Why does smoked salmon dip taste better after a short wait? Because the salty fish and the lemon need a little time to soak into the cream cheese, and a dip made and served immediately tastes flat compared with one that has rested. Half an hour in the fridge is enough.\n\nSoften the cream cheese at room temperature before mixing so it blends smoothly without lumps. Fold in finely chopped smoked salmon rather than blending it to a paste, so you can see and taste the pink pieces. Offcuts or trimmings, sold cheaply in packs, are ideal for this.\n\n**Taste before you add salt.** Smoked salmon is salty, and so are capers, so most dips need none at all. Lemon juice and zest cut the richness and brighten the flavour. A spoonful of horseradish adds a gentle kick that complements the fish without overwhelming it.\n\nServe it in a bowl, topped with a few snipped chives and a swirl of olive oil, surrounded by crackers, cucumber slices and slices of toasted rye bread. It also works as a spread for bagels, or a filling for small cucumber cups at a party.',
     ing: [
@@ -769,8 +770,8 @@ module.exports = {
   },
 
   'spaghetti-alla-norma': {
-    d: 'Spaghetti with fried aubergine, tomato sauce, basil and ricotta salata, a Sicilian dish from Catania, ready in 50 minutes.',
-    meta: 'Spaghetti alla Norma with fried aubergine, tomato and ricotta salata. Four servings, ready in 50 minutes.',
+    d: 'Spaghetti with fried aubergine, tomato sauce, basil and ricotta salata, a Sicilian dish from Catania, ready in 1 hour 10 minutes.',
+    meta: 'Spaghetti alla Norma with fried aubergine, tomato and ricotta salata. Four servings, ready in 1 hour 10 minutes.',
     kw: ['spaghetti alla norma', 'pasta alla norma', 'sicilian aubergine pasta', 'aubergine and tomato spaghetti', 'norma pasta with ricotta salata'],
     why: 'Fry the aubergine until deeply golden. This is the main skill in the dish, because pale, spongy aubergine tastes of nothing, and properly browned cubes turn silky and nutty. The name comes from the opera Norma by Bellini, a Catania composer, and Sicilians describe a good dish by saying it is a Norma.\n\nCut the aubergines into 2 cm cubes, salt them, and leave them in a colander for 20 minutes. The salt draws out bitter liquid, which you pat away. Then fry them in a generous amount of olive oil, in batches, until all sides are browned. They absorb oil quickly at first and then release it again as they cook, so be patient.\n\n**Make the tomato sauce plain.** Garlic, a pinch of chilli, tinned tomatoes and basil are all it needs, simmered for 15 minutes. The aubergine brings richness, so the sauce can stay light. Stir the fried aubergine through at the end, so it keeps its texture.\n\nFinish with grated ricotta salata, a firm, salty cheese that does not melt and adds a savoury contrast. If you cannot find it, use feta or pecorino. Add torn basil on top and serve at once.',
     ing: [
@@ -868,8 +869,8 @@ module.exports = {
   },
 
   'stovetop-mac-and-cheese': {
-    d: 'Macaroni in a smooth cheddar sauce made on the hob in 20 minutes with butter, flour and milk, with no oven needed.',
-    meta: 'Stovetop mac and cheese with a smooth cheddar sauce, made in 20 minutes. Four servings, ready in 30 minutes.',
+    d: 'Macaroni in a smooth cheddar sauce of butter, flour and milk, made entirely on the hob with no oven needed, in about 30 minutes.',
+    meta: 'Stovetop mac and cheese with a smooth cheddar and Gruyère sauce, made on the hob. Four servings, ready in 30 minutes.',
     kw: ['stovetop mac and cheese', 'creamy stovetop macaroni and cheese', 'homemade mac and cheese', 'cheddar mac and cheese', 'macaroni cheese on the hob'],
     why: 'Salt the pasta water well and take the sauce off the heat before the cheese goes in. These two habits are the difference between a creamy sauce and a grainy one. Overheated cheese separates into oil and curds, while cheese stirred into warm sauce melts into a smooth coat.\n\nThe sauce starts with a roux: butter and flour cooked together for a minute, then milk whisked in a little at a time. Adding the milk gradually, and warming it first, stops lumps forming. Simmer for 5 minutes until the sauce coats the back of a spoon. A pinch of mustard powder and a little nutmeg sharpen the cheese flavour without being noticeable.\n\n**Grate the cheese yourself.** Pre-grated cheese is dusted with cellulose to stop it sticking together in the bag, and the same coating stops it melting smoothly into a sauce. Sharp cheddar gives flavour, and a handful of a good melter such as Gruyère or Monterey Jack gives stretch.\n\nCook the macaroni to just short of tender, drain it and tip it straight into the sauce. Stir for a minute and serve immediately, as the sauce thickens quickly as it stands. If it tightens, loosen it with a splash of milk.',
     ing: [

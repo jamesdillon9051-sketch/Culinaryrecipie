@@ -43,7 +43,7 @@ module.exports = {
       'Squeeze the chillies genuinely dry or it will not keep.'
     ],
     pair: ['Any dish in this volume', 'Bread and olive oil', 'Grilled fish'],
-    store: 'Refrigerated under a film of oil for 2 months. Top the oil up after each use. It freezes in tablespoon portions for a year.',
+    store: 'Refrigerated under a film of oil for up to 4 days; top the oil up after each use. Raw garlic held in oil can carry botulism, which the oil seal does not stop, so for longer keeping freeze it in tablespoon portions, for up to a year.',
     nut: [75, 2, 6, 5, 3, 3, 420]
   },
 
@@ -130,6 +130,7 @@ module.exports = {
   },
 
   'salade-omek-houria': {
+    untimed: ['cooling to room temperature'],
     d: 'Carrots boiled soft, crushed with harissa, garlic and caraway, and eaten cold with bread. The name means "your mother is a free woman", and nobody agrees why.',
     meta: 'Carrots boiled soft and crushed with harissa, garlic and caraway into a warm-spiced cold salad eaten with bread.',
     kw: ['omek houria', 'tunisian carrot salad', 'omek houria recipe', 'harissa carrot salad', 'ommok houria'],
@@ -251,6 +252,7 @@ module.exports = {
   },
 
   'doigts-de-fatma': {
+    untimed: ['cooling completely'],
     d: "Fatma's fingers: malsouka pastry rolled around cheese, parsley and meat and fried into crisp cigars. The same pastry as brik, put to a simpler use.",
     meta: 'Malsouka or filo pastry rolled around cheese, parsley and minced meat and fried into crisp golden cigars.',
     kw: ['doigts de fatma', 'tunisian cigars', 'fatma fingers recipe', 'fried pastry cigars', 'tunisian appetizer'],
@@ -380,6 +382,7 @@ module.exports = {
   },
 
   'bsissa': {
+    untimed: ['cooling completely'],
     d: 'Roasted barley and chickpea flour with fennel and coriander seed, stirred into oil and water or milk. Eaten for breakfast and given to new mothers, and older than most of the region.',
     meta: 'Roasted barley and chickpea flour ground with fennel and coriander seed, stirred with olive oil into a breakfast paste or drink.',
     kw: ['bsissa', 'tunisian bsissa', 'bsissa recipe', 'roasted barley flour', 'north african breakfast'],
@@ -417,6 +420,7 @@ module.exports = {
   },
 
   'mhalbiya': {
+    untimed: ['cooling in the glasses'],
     d: 'Rice-flour pudding scented with geranium water rather than rose, which is the Tunisian signature. Set in glasses and buried under pistachios.',
     meta: 'A rice-flour milk pudding scented with geranium water instead of rose, set in glasses under crushed pistachios.',
     kw: ['mhalbiya', 'tunisian rice pudding', 'mhalbiya recipe', 'geranium water dessert', 'rice flour pudding'],

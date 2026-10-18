@@ -113,7 +113,7 @@ module.exports = {
 
   'no-bake-chocolate-pie': {
     d: 'A silky chocolate pudding pie in a crushed biscuit crust, made on the hob in 5 minutes and chilled for 4 hours.',
-    meta: 'No bake chocolate pie with a silky chocolate filling and biscuit crust, chilled for 4 hours. Eight servings, ready in 4 hours 30 minutes.',
+    meta: 'No bake chocolate pie with a silky chocolate filling and biscuit crust, chilled for 4 hours. Eight servings, ready in 4 hours 40 minutes, chilling included.',
     kw: ['no bake chocolate pie', 'chocolate cream pie', 'chocolate pudding pie', 'chocolate pie with biscuit crust', 'easy chocolate pie'],
     why: 'The filling is a stovetop chocolate pudding, and the crust is a pressed biscuit base: nothing in the pie goes into an oven. The pudding is made from milk, cream, sugar, cocoa, cornflour and egg yolks, cooked for about 5 minutes until thick, and the result is far smoother and deeper than anything from a packet.\n\nWhisk the dry ingredients together first, the sugar, cocoa and cornflour, so that the cornflour does not clump when the liquid goes in. Add the milk and cream gradually, whisking constantly, then bring to a simmer over medium heat. As the mixture thickens, it will turn glossy and start to bubble slowly, and a spoon dragged through it leaves a clear trail. Stir in the egg yolks with a ladle of the hot filling first, to temper them.\n\n**Strain the filling into the crust.** Pouring it through a fine sieve catches any lumps of cornflour or cooked egg, and gives a perfectly smooth surface. Press a sheet of cling film directly onto the pudding while it cools to prevent a skin from forming, or the pie will have a rubbery top.\n\nFinish with a stirred-in knob of butter, dark chocolate and vanilla. Chill the pie for at least 4 hours, then top with whipped cream and shaved chocolate. It slices cleanly when thoroughly cold, with a sharp knife dipped in hot water.',
     ing: [
@@ -144,7 +144,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Fresh raspberries', 'Coffee', 'Cold milk'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [540, 8, 46, 36, 3, 28, 240]
   },
 
@@ -216,7 +216,7 @@ module.exports = {
 
   'no-bake-key-lime-pie': {
     d: 'Lime juice, condensed milk and whipped cream in a graham cracker crust, chilled for 4 hours to a cool, tangy set.',
-    meta: 'No bake key lime pie with condensed milk and lime juice, chilled for 4 hours. Eight servings, ready in 4 hours 20 minutes.',
+    meta: 'No bake key lime pie with condensed milk and lime juice, chilled for 4 hours. Eight servings, ready in 4 hours 35 minutes, chilling included.',
     kw: ['no bake key lime pie', 'key lime pie without baking', 'lime pie with condensed milk', 'cool lime pie', 'key lime pie recipe'],
     why: 'The standard version of this pie from Florida is baked, though the setting is done by the lime juice itself. The acid in lime thickens the protein in condensed milk, so even without an oven the filling firms up into a creamy, sliceable custard in the fridge. A baked pie just speeds it up and adds a golden finish.\n\nIt was historically made with the tiny, intensely sour key limes of the Florida Keys, which have a floral, slightly bitter flavour, but ordinary limes work well. Use fresh juice only. Bottled juice is dull and sometimes metallic. Squeeze about 120 ml, which is 4 to 5 limes, and zest two of them for extra aroma before cutting. The zest is where the oils are.\n\n**Fold the whipped cream in last, and gently.** The filling is condensed milk mixed with lime juice and zest, to which whipped cream is added to lighten it. Stir the juice in slowly, and the mixture visibly thickens within a minute. Whip the cream separately to soft peaks, and fold it in with a large spatula in two additions.\n\nPour into the biscuit crust, smooth the top and chill for at least 4 hours. Serve with a dollop of whipped cream and a twist of lime zest. A traditional key lime pie is pale yellow, never green, so skip the food colouring.',
     ing: [
@@ -242,7 +242,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Fresh lime zest', 'Coffee', 'Sparkling wine'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [544, 7, 48, 36, 1, 34, 210]
   },
 
@@ -282,7 +282,7 @@ module.exports = {
 
   'no-bake-peanut-butter-bars': {
     d: 'A peanut butter and graham cracker base topped with melted dark chocolate, chilled for 1 hour and cut into 16 bars.',
-    meta: 'No bake peanut butter bars with a chocolate topping, chilled for 1 hour. 16 bars, ready in 1 hour 20 minutes.',
+    meta: 'No bake peanut butter bars with a chocolate topping, chilled for 1 hour. 16 bars, ready in 1 hour 35 minutes, chilling included.',
     kw: ['no bake peanut butter bars', 'peanut butter chocolate bars', 'buckeye bars', 'peanut butter and chocolate squares', 'chocolate peanut butter bars no bake'],
     why: 'Each bar has two layers, as in a peanut butter cup, and both are made without turning on the oven. The base is a sweet, crumbly peanut butter mix with graham cracker crumbs and icing sugar, pressed into a tin, and the top is a smooth layer of melted chocolate. It is a recipe from the American Midwest, close to the Ohio buckeye candy.\n\nThe base needs enough fat and sugar to hold together. Melted butter and smooth peanut butter bind the crumbs, and icing sugar makes the mix sweet and fine in texture. It should feel like firm cookie dough and hold when pressed in your fist. If it is too crumbly, add a spoonful of melted butter. If it is sticky, add a few more crumbs.\n\n**Press the base down hard.** Use the flat bottom of a glass to compress the layer evenly, so it forms a dense, even slab that will not crumble when cut. A loose base is the main reason these bars fall apart. Chill the base for 15 minutes before adding the chocolate.\n\nMelt the dark chocolate with a spoonful of peanut butter, which makes it glossy and keeps it from cracking when cut. Spread it over the base, chill for at least 1 hour and cut into 16 bars with a hot knife. Wipe the blade between cuts for clean edges.',
     ing: [
@@ -307,13 +307,13 @@ module.exports = {
     ],
     pair: ['Cold milk', 'Coffee', 'Hot chocolate', 'Fresh bananas'],
     store: 'Keeps in the fridge for 1 week.',
-    rest: [60, 'Chilling'],
+    rest: [75, 'Chilling'],
     nut: [328, 6, 31, 20, 3, 22, 60]
   },
 
   'no-bake-pumpkin-pie': {
     d: 'A cool, spiced pumpkin filling of cream cheese, pumpkin puree and whipped cream in a gingersnap crust, chilled for 4 hours.',
-    meta: 'No bake pumpkin pie with cream cheese and a gingersnap crust, chilled for 4 hours. Eight servings, ready in 4 hours 25 minutes.',
+    meta: 'No bake pumpkin pie with cream cheese and a gingersnap crust, chilled for 4 hours. Eight servings, ready in 4 hours 35 minutes, chilling included.',
     kw: ['no bake pumpkin pie', 'pumpkin cream cheese pie', 'chilled pumpkin pie', 'no oven pumpkin pie', 'pumpkin pie with gingersnap crust'],
     why: 'The oven is full on Thanksgiving, and a pumpkin pie that does not need one is a gift to the cook. This no bake pie has a different texture from the classic custard: it is light, mousse-like and creamy, set with cream cheese and whipped cream rather than eggs, and the flavours are pumpkin, cinnamon and ginger, much the same.\n\nThe crust is crushed gingersnaps, which add spice and a snap that stands up to the creamy filling. Mix with melted butter, press firmly into the dish and chill. Digestive biscuits work too, but gingersnaps complement the spice mix beautifully and look darker and richer.\n\n**Blot the pumpkin puree.** Tinned puree is quite wet, and in a no bake filling that water has nowhere to go. Spread it on a double layer of kitchen paper for 5 minutes and press off the excess. The mixture will be thicker and richer, and the pie will set firmly. Use plain puree, not pumpkin pie filling.\n\nBeat the cream cheese with brown sugar and spices until smooth, mix in the pumpkin, and fold in whipped cream in two additions. Chill for at least 4 hours before slicing. Serve with extra whipped cream, a dusting of cinnamon and chopped toasted pecans.',
     ing: [
@@ -344,13 +344,13 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Coffee', 'Hot tea', 'Spiced cider'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [492, 5, 37, 36, 2, 24, 280]
   },
 
   'no-bake-strawberry-pie': {
     d: 'Fresh strawberries in a glossy cooked strawberry glaze set in a biscuit crust and chilled for 4 hours, topped with whipped cream.',
-    meta: 'No bake strawberry pie with fresh berries and a glossy glaze, chilled for 4 hours. Eight servings, ready in 4 hours 25 minutes.',
+    meta: 'No bake strawberry pie with fresh berries and a glossy glaze, chilled for 4 hours. Eight servings, ready in 4 hours 55 minutes, chilling included.',
     kw: ['no bake strawberry pie', 'fresh strawberry pie', 'strawberry glaze pie', 'strawberry pie with whipped cream', 'summer strawberry pie'],
     why: 'It looks like a fresh fruit tart and eats like the summer, a heap of glossy red berries in a crisp crust. The pie works best in late spring and early summer, when strawberries are at their peak: ripe, fragrant and sweet to the core. Out of season the berries are pale and the pie suffers.\n\nThe glaze is what turns it from a bowl of fruit into a pie. Crush a third of the berries, simmer them for 5 minutes with sugar, cornflour and a little water until thick and translucent, and cool for 15 minutes. It sets into a bright red jelly that binds the whole berries together and keeps them in place when sliced. A squeeze of lemon sharpens the flavour.\n\n**Hull and halve the berries, and pat them dry.** Moisture on the surface dilutes the glaze and weakens the set. Arrange the berries cut side down in the crust, tightly packed, and spoon the cooled glaze over them. Take care to let it seep between the berries.\n\nChill the pie for at least 4 hours, until the glaze is firm. Top with sweetened whipped cream just before serving. A shortbread or digestive crust holds up well to the fruit, and a coating of melted white chocolate brushed inside the crust keeps it crisp.',
     ing: [
@@ -378,7 +378,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Vanilla ice cream', 'Coffee', 'Sparkling wine'],
     store: 'Best the day it is made. Keeps in the fridge for 2 days.',
-    rest: [240, 'Chilling'],
+    rest: [270, 'Chilling'],
     nut: [391, 3, 43, 23, 3, 26, 140]
   },
 
@@ -535,6 +535,7 @@ module.exports = {
   },
 
   'dairy-free-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies made with dairy-free butter and dairy-free dark chocolate, baked for 25 minutes with a crackled top.',
     meta: 'Dairy-free brownies with a crackled top and fudgy centre, baked for 25 minutes. 16 squares, ready in 45 minutes.',
     kw: ['dairy-free brownies', 'dairy-free chocolate brownies', 'brownies without butter', 'fudgy dairy-free brownies', 'dairy-free brownie recipe'],
@@ -569,7 +570,7 @@ module.exports = {
 
   'dairy-free-cheesecake': {
     d: 'A creamy vegan-style cheesecake made with soaked cashews, coconut cream and lemon on a date and nut base, frozen for 6 hours.',
-    meta: 'Dairy-free cheesecake from cashews and coconut cream on a date and almond base. Ten servings, ready in 10 hours with soaking and freezing.',
+    meta: 'Dairy-free cheesecake from cashews and coconut cream on a date and almond base. Ten servings, ready in 10 hours 30 minutes with soaking and freezing.',
     kw: ['dairy-free cheesecake', 'cashew cheesecake', 'dairy-free no bake cheesecake', 'coconut cream cheesecake', 'cashew and lemon cheesecake'],
     why: 'Cashews, once soaked and blended, turn into something remarkably like cream cheese. Their high fat content and mild flavour mean that when they are blended with lemon juice, coconut cream and a little sweetener, they produce a smooth, thick filling with the tang and richness of the real thing. The cheesecake sets not with cheese but with coconut oil, which solidifies in the cold.\n\nSoak the cashews in cold water for at least 4 hours, or cover them with hot water and leave for 1 hour if you are short of time. Soaking softens them so that they blend to a perfectly smooth cream. Drain and rinse them before use. Raw, unsalted cashews are best, and a high-speed blender gives the smoothest result.\n\n**Blend for longer than you think you need to.** A grainy filling is the most common failing, and it comes from impatience. Blend for 3 or 4 minutes, stopping to scrape the sides, until the mixture is completely silky when rubbed between finger and thumb. Add the liquid coconut oil last, with the blender running, so that it emulsifies into the mixture.\n\nThe base is dates blended with almonds and a pinch of salt. Press into a lined springform tin, pour the filling over and freeze for at least 6 hours. Move to the fridge for 30 minutes before serving. Top with fresh berries.',
     ing: [
@@ -605,7 +606,7 @@ module.exports = {
 
   'dairy-free-chocolate-chip-cookies': {
     d: 'Chewy chocolate chip cookies made with dairy-free butter and dairy-free chocolate chips, baked for 12 minutes.',
-    meta: 'Dairy-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Dairy-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['dairy-free chocolate chip cookies', 'dairy-free cookies', 'chocolate chip cookies without butter', 'chocolate chip cookies without dairy', 'dairy-free cookie recipe'],
     why: 'Keep the dough cold. That is the key to a dairy-free chocolate chip cookie, because the fat replacing butter melts at a lower temperature, and a warm dough spreads into flat, greasy discs. Dairy-free baking blocks are firmer than tub spreads and give better results, but even they benefit from 30 minutes in the fridge.\n\nUse a block of dairy-free baking spread or refined coconut oil, creamed with the sugar until light. Tub spreads contain water, which makes the cookies cakey and soft. A block holds more fat and creates the crisp edges and chewy middle of a classic cookie. Refined coconut oil has no coconut flavour, which is preferable here, but its melting point is low so chilling is vital.\n\n**Check the chocolate chips.** Many standard chocolate chips contain milk powder or are processed on shared equipment. Look for chips labelled dairy-free, or use a chopped bar of dark chocolate with no milk ingredients. The cookies are only as dairy-free as the chocolate that goes in them.\n\nBake until the edges are golden and the centres still look soft. Leave them on the tray for 10 minutes to finish setting. A pinch of flaky salt on top before baking sharpens the chocolate, and the cookies keep for 5 days in a tin, staying chewy.',
     ing: [
@@ -668,6 +669,7 @@ module.exports = {
   },
 
   'dairy-free-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes made with oat milk and dairy-free baking block, topped with a dairy-free vanilla buttercream.',
     meta: 'Dairy-free cupcakes with oat milk and a dairy-free buttercream, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['dairy-free cupcakes', 'dairy-free vanilla cupcakes', 'cupcakes without milk or butter', 'dairy-free cupcakes with buttercream', 'dairy-free cupcake recipe'],
@@ -734,7 +736,7 @@ module.exports = {
   },
 
   'dairy-free-hot-chocolate': {
-    d: 'Oat milk heated with cocoa, dairy-free dark chocolate and a pinch of salt into a thick, rich hot chocolate in 8 minutes.',
+    d: 'Oat milk heated for 8 minutes with cocoa, dairy-free dark chocolate and a pinch of salt into a thick, rich hot chocolate.',
     meta: 'Dairy-free hot chocolate with oat milk and dark chocolate, ready in 13 minutes. Two servings, cooked for 8 minutes.',
     kw: ['dairy-free hot chocolate', 'oat milk hot chocolate', 'dairy-free cocoa drink', 'rich hot chocolate without milk', 'dairy-free hot chocolate recipe'],
     why: 'It tastes of dark chocolate, with a thicker body than you would expect from a drink made without dairy. Oat milk is the secret. Its natural starches thicken as it heats, giving a creamy mouthfeel that almond or rice milk cannot match, and its mild, slightly sweet flavour lets the chocolate shine. A pinch of salt makes the whole thing taste more chocolatey.\n\nMake a paste first. Mix the cocoa powder with a little of the oat milk in the pan until completely smooth, then whisk in the rest. Cocoa is hydrophobic and floats in lumps if you add it directly to a large volume of cold liquid. Starting with a paste solves the problem. Add the chopped chocolate while the milk is warm.\n\n**Heat gently and whisk constantly.** Oat milk can become gluey and thick if you boil it, and it will catch on the bottom of the pan. Keep the heat at medium-low and stop when the drink is steaming and tiny bubbles form at the edges, which takes about 6 minutes. Whisk well to get a thin layer of froth.\n\nSweeten to taste with maple syrup or sugar, since sweetened oat milks vary. Pour into mugs and top with dairy-free whipped cream or a few mini marshmallows. A shake of cinnamon or a drop of vanilla makes it more special.',
@@ -816,7 +818,7 @@ module.exports = {
       'Whisk the pumpkin, coconut milk, brown sugar, eggs, cornflour, spices and salt until smooth.',
       'Pour into the pastry case.',
       'Bake for 40 minutes until the edges are set and the centre has a slight wobble.',
-      'Cool completely for at least 2 hours before slicing.'
+      'Cool for 2 hours, then slice, refrigerating what is left.'
     ],
     tips: [
       'Use full-fat coconut milk.',

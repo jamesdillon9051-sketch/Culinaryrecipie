@@ -99,7 +99,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200°C. Boil the penne for 8 minutes, 2 minutes under the packet time, and drain, keeping a mugful of the water.',
-      'Fry the onion in the oil for 5 minutes, add the garlic for 1 minute, then the passata, oregano, salt and pepper and simmer for 5 minutes.',
+      'While the pasta boils, fry the onion in the oil for 5 minutes, add the garlic for 1 minute, then the passata, oregano, salt and pepper and simmer for 5 minutes.',
       'Stir the pasta and half the cheese into the sauce, adding a splash of the pasta water if it is tight.',
       'Tip into a baking dish, scatter over the rest of the cheese and bake for 25 minutes until bubbling and golden.',
       'Leave for 5 minutes before serving.'
@@ -428,7 +428,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 220°C. Boil the potatoes in salted water for 10 minutes, then drain and shake in the colander to roughen the edges.',
-      'Put the duck fat in a roasting tin and heat in the oven for 10 minutes until shimmering.',
+      'While they boil, put the duck fat in a roasting tin and heat it in the oven for 10 minutes until shimmering.',
       'Tip in the potatoes carefully so they sizzle and turn to coat in the fat.',
       'Roast for 60 minutes, turning once after 30 minutes, until deep gold and crisp.',
       'Season with the salt, add the thyme and serve at once.'

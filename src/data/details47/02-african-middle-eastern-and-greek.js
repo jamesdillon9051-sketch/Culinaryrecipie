@@ -405,6 +405,7 @@ module.exports = {
   },
 
   'persian-lentil-rice': {
+    cookMax: 50,
     d: 'Basmati rice layered with cooked brown lentils, golden onions and warm spices, steamed until tender.',
     meta: 'Persian lentil rice: basmati rice layered with brown lentils, golden onions and warm spices. Six servings, cooked for 45 minutes.',
     kw: ['persian lentil rice', 'adas polo', 'lentil rice with onions', 'persian rice with lentils', 'rice and lentils with caramelised onions'],
@@ -421,7 +422,7 @@ module.exports = {
     ],
     st: [
       'Boil the lentils in the water for 20 minutes until tender, drain and set aside.',
-      'Heat 2 tbsp of the oil in a pan and fry the onions for 15 minutes over a medium heat, stirring often, until deep brown. Stir in the cinnamon and turmeric.',
+      'While the lentils boil, heat 2 tbsp of the oil in a pan and fry the onions for 15 minutes over a medium heat, stirring often, until deep brown. Stir in the cinnamon and turmeric.',
       'Boil the rice in plenty of salted water for 7 minutes, drain, and mix with the lentils and half the onions.',
       'Put the rice and lentils in a heavy pan with the remaining oil. Cover with a clean cloth and the lid and cook on the lowest heat for 20 minutes. Serve with the rest of the onions on top.'
     ],

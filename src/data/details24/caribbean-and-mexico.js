@@ -124,7 +124,7 @@ module.exports = {
     pair: ['Arroz con gandules', 'Tostones', 'A crisp green salad'],
     store: 'Keep in the fridge up to 4 days. Reheat pulled pork in a covered dish in a 160°C oven. Freezes for 3 months.',
     nut: [438, 40, 2, 30, 0, 1, 900],
-    rest: [720, 'Marinating']
+    rest: [740, 'Marinating']
   },
 
   'mofongo': {
@@ -407,7 +407,7 @@ module.exports = {
     pair: ['A glass of dry white wine', 'A green salad', 'Mexican red rice'],
     store: 'Keep the filling in the fridge up to 2 days and the sauce up to 1 day. Assemble on the day.',
     nut: [688, 23, 32, 52, 7, 18, 900],
-    rest: [60, 'Soaking']
+    rest: [75, 'soaking the walnuts and steaming the peppers']
   },
 
   'pan-de-muerto': {

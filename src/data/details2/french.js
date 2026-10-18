@@ -218,7 +218,7 @@ module.exports = {
     st: [
       'Mix the flour, yeast and salt, add the water and oil, and knead for 8 minutes to a smooth, slightly slack dough. Cover and prove for 1 hour.',
       'Meanwhile put the onions in a wide pan with the olive oil, thyme, bay and a pinch of salt. Cover and cook over low heat for 30 minutes, stirring occasionally.',
-      'Uncover, add the garlic, and cook 25 to 30 minutes more, stirring often, until the onions are pale gold, jammy and greatly reduced. Season with pepper and cool.',
+      'While the dough finishes proving, uncover the onions, add the garlic, and cook them 25 to 30 minutes more, stirring often, until the onions are pale gold, jammy and greatly reduced. Season with pepper and cool.',
       'Heat the oven to 220°C / 430°F with a baking sheet inside.',
       'Roll or press the dough into a 30 x 25 cm rectangle on an oiled sheet of baking paper, pushing up a slight rim.',
       'Fish out the herbs and drain the onions of any free oil, then spread them over the dough in an even, thick layer right to the rim.',
@@ -355,6 +355,7 @@ module.exports = {
   },
 
   'profiteroles': {
+    untimed: ['cooling completely'],
     d: 'Choux buns filled with cold vanilla cream and drowned in hot dark chocolate sauce. The temperature contrast is the whole idea, and the reason they have outlasted every dessert trend since the 1960s.',
     meta: 'Classic profiteroles — crisp choux buns filled with vanilla cream under hot dark chocolate sauce.',
     kw: ['profiteroles recipe', 'choux pastry buns', 'chocolate profiteroles', 'french cream puffs'],
@@ -400,6 +401,7 @@ module.exports = {
   },
 
   'mille-feuille': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'Three sheets of caramelised puff pastry alternating with crème pâtissière, topped with the marbled feathered icing that gives it its other name, the Napoleon. The most technically demanding thing in a French pâtisserie window.',
     meta: 'Mille-feuille with caramelised puff pastry, vanilla crème pâtissière and feathered fondant icing.',
@@ -480,7 +482,7 @@ module.exports = {
   },
 
   'brioche': {
-    rest: [120, 'proving'],
+    rest: [660, 'proving'],
     d: 'The richest bread in the French repertoire: a dough carrying half its weight in butter, worked until it is silky, chilled overnight, and baked into something with the crumb of bread and the flavour of pastry.',
     meta: 'Classic French brioche with a rich buttery crumb, overnight cold prove and a glossy egg-washed crust.',
     kw: ['brioche recipe', 'french butter bread', 'brioche nanterre', 'enriched bread dough'],

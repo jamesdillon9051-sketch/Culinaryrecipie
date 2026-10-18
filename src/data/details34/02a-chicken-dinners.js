@@ -48,8 +48,8 @@ module.exports = {
   },
 
   'garlic-herb-chicken-skewers': {
-    d: 'Cubes of chicken marinated in lemon, garlic and herbs and threaded onto skewers with red pepper and onion, then grilled. Four servings in 27 minutes.',
-    meta: 'Garlic herb chicken skewers: lemon and herb marinated chicken grilled with red pepper and onion. Four servings in 27 minutes.',
+    d: 'Cubes of chicken marinated in lemon, garlic and herbs and threaded onto skewers with red pepper and onion, then grilled. Four servings in 47 minutes.',
+    meta: 'Garlic herb chicken skewers: lemon and herb marinated chicken grilled with red pepper and onion. Four servings in 47 minutes.',
     kw: ['garlic herb chicken skewers', 'grilled chicken skewers with garlic and herbs', 'dairy free chicken skewers', 'gluten free chicken kebabs'],
     why: 'Chicken skewers usually come off the grill dry. The fix is a short marinade, even cubes and a hot grill. Cut the chicken into pieces of the same size, about 3 cm, so that every cube finishes together instead of leaving some raw and others like chalk.\n\nLemon juice and olive oil carry the garlic and herbs into the meat, but acid works fast. **Marinate for 20 minutes**, no longer, because after that the surface turns mealy. Thread the chicken with the pepper and onion, leaving a little space between the pieces so that the heat reaches all sides. Turn the skewers every 3 minutes.\n\nThere is no salt in the marinade. Garlic, oregano, thyme and parsley carry it, and the char from the grill adds a savoury edge of its own. Serve the skewers with rice and a cucumber salad, or slide the chicken off the sticks onto a bed of rice.',
     ing: [
@@ -82,8 +82,8 @@ module.exports = {
   },
 
   'pineapple-chicken-skewers': {
-    d: 'Chicken, fresh pineapple, red pepper and onion on skewers, marinated in lime, ginger and garlic and grilled until charred at the edges. Four servings in 27 minutes.',
-    meta: 'Pineapple chicken skewers: lime, ginger and garlic marinated chicken grilled with pineapple and pepper. Four servings in 27 minutes.',
+    d: 'Chicken, fresh pineapple, red pepper and onion on skewers, marinated in lime, ginger and garlic and grilled until charred at the edges. Four servings in 42 minutes.',
+    meta: 'Pineapple chicken skewers: lime, ginger and garlic marinated chicken grilled with pineapple and pepper. Four servings in 42 minutes.',
     kw: ['pineapple chicken skewers', 'grilled pineapple chicken kebabs', 'dairy free pineapple chicken skewers', 'gluten free hawaiian chicken skewers'],
     why: 'Fresh pineapple contains an enzyme that softens meat. That sounds helpful and is not. Left in a marinade for long, it turns chicken mushy, so the pineapple goes on the skewer here and the marinade is lime, ginger and garlic. Cut the chicken and pineapple into pieces of the same size.\n\nMarinate the chicken for 15 minutes, which is enough for lime and ginger to season the surface. **Thread them alternately**, chicken then pineapple, so that the fruit juice bastes the meat as it cooks. The sugars in the pineapple caramelise on the grill and turn the edges dark and sweet. Watch for flare-ups.\n\nA teaspoon of maple syrup in the marinade helps the browning along. Lime is the seasoning. Cilantro goes on at the end. Pineapple is lower in potassium than most tropical fruit, which makes it a sensible fruit to cook with on this plate. Serve straight from the grill, while the edges are still hot.',
     ing: [
@@ -438,7 +438,7 @@ module.exports = {
   },
 
   'grilled-chicken-with-pineapple-salsa': {
-    d: 'Lime and cumin marinated chicken breasts grilled and served with a fresh pineapple, red pepper and jalapeño salsa. Four servings in 30 minutes.',
+    d: 'Lime and cumin marinated chicken breasts grilled and served with a fresh pineapple, red pepper and jalapeño salsa. Four servings in 50 minutes.',
     meta: 'Grilled chicken with pineapple salsa: lime and cumin chicken with a fresh pineapple, red pepper and jalapeño salsa. Four servings.',
     kw: ['grilled chicken with pineapple salsa', 'dairy free pineapple salsa chicken', 'gluten free grilled chicken with salsa', 'easy grilled chicken with pineapple salsa'],
     why: 'A pineapple salsa does the job of a tomato salsa. It is fresh and sharp. Against hot, smoky chicken it cools the plate, and it carries about half the potassium, which matters when the chicken already supplies a good share. Fresh fruit salsa is a good way to use up half a pineapple.\n\nMarinate the chicken for 20 minutes in lime, oil, garlic, cumin, oregano and paprika. **Make the salsa while it marinates**, so the flavours have time to meet. Dice everything small and even. Small dice are easier to spoon. Grill the chicken over medium-high heat for 6 to 7 minutes a side. Oil the grill grates lightly so that the chicken releases cleanly.\n\nRest the grilled chicken for 3 minutes before slicing, so that the juices stay in the meat. Spoon the salsa over the top. The jalapeño is seeded, which keeps the heat mild; leave a few seeds in for more. Serve with plain rice. The salsa also works over grilled fish or tofu.',

@@ -53,7 +53,7 @@ module.exports = {
       'Bake at 190C fan / 210C / gas 6 for 30 minutes, until the leaves separate and the shells are deep gold.',
       'Dust heavily with icing sugar and eat warm.'
     ],
-    rest: [720, 'chilling the rolled dough log'],
+    rest: [740, 'chilling the rolled dough log'],
     tips: [
       'Thin enough to read through, or there are no leaves.',
       'Twelve hours in the fridge. A soft log cannot be cut into clean discs.',
@@ -147,7 +147,7 @@ module.exports = {
       'Line a 26 cm tin with three quarters of the pastry, pour in the filling and level it.',
       'Roll the rest into strips and lay them over in a diamond lattice, seven strips each way.',
       'Bake at 160C fan / 180C / gas 4 for 1 hour 15 minutes, until the lattice is bronzed and the centre barely wobbles.',
-      'Cool completely in the tin, at least 4 hours, before dusting with icing sugar and cutting.'
+      'Cool in the tin for 2 hours, then refrigerate for at least 2 hours before dusting with icing sugar and cutting.'
     ],
     rest: [300, 'chilling the pastry and cooling the tart'],
     tips: [
@@ -156,7 +156,7 @@ module.exports = {
       'Cool it completely in the tin. A warm pastiera runs.'
     ],
     pair: ['Espresso', 'A glass of passito', 'Made three days ahead'],
-    store: 'At room temperature under a cloth for 4 days, and better on the third. Do not freeze.',
+    store: 'In the fridge, covered, for 4 days, and better on the third; the ricotta and egg filling should not sit out for more than 2 hours. Let a slice come to room temperature before eating. Do not freeze.',
     nut: [410, 12, 48, 18, 2, 26, 220]
   },
 
@@ -213,6 +213,7 @@ module.exports = {
   },
 
   'cuccidati': {
+    untimed: ['cooling'],
     d: 'Sicilian fig rolls: a spiced fig, date and nut paste inside a short pastry, cut into little pillows and iced. Made in trays at Christmas.',
     meta: 'Sicilian Christmas biscuits of a spiced fig, date, nut and citrus filling wrapped in short pastry, baked and iced with sprinkles.',
     kw: ['cuccidati', 'sicilian fig cookies', 'cuccidati recipe', 'italian christmas biscuits', 'fig filled pastry'],
@@ -355,6 +356,7 @@ module.exports = {
   },
 
   'sbrisolona': {
+    untimed: ['cooling completely'],
     d: 'A cake you break rather than cut, sandy with cornmeal and almonds. Mantua has made it since the Gonzagas and it has never needed changing.',
     meta: 'A Mantuan crumbly cake of cornmeal, flour and almonds bound with just enough butter and egg yolk to hold, broken by hand at the table.',
     kw: ['sbrisolona', 'torta sbrisolona', 'sbrisolona recipe', 'mantua almond cake', 'italian crumbly cake'],
@@ -392,6 +394,7 @@ module.exports = {
   },
 
   'crostata-di-marmellata': {
+    untimed: ['cooling'],
     d: 'A jam tart under a lattice, made in every Italian house and eaten for breakfast as often as for pudding. The pastry is the whole thing.',
     meta: 'The Italian jam tart: a lemon-scented pasta frolla pressed into a tin, filled with thick jam and finished with a lattice top.',
     kw: ['crostata di marmellata', 'italian jam tart', 'crostata recipe', 'pasta frolla', 'lattice jam tart'],
@@ -525,6 +528,7 @@ module.exports = {
   },
 
   'pandoro': {
+    untimed: ['cooling completely'],
     d: 'Verona\'s Christmas cake: a tall eight-pointed star of deep yellow butter dough, baked plain and buried in icing sugar at the table.',
     meta: 'The Veronese Christmas cake — a slowly fermented butter and egg dough baked in a star mould and dusted heavily with vanilla icing sugar.',
     kw: ['pandoro', 'pandoro recipe', 'verona christmas cake', 'italian star cake', 'butter enriched sweet bread'],
@@ -644,6 +648,7 @@ module.exports = {
   },
 
   'maritozzo': {
+    untimed: ['cooling completely'],
     d: 'A soft sweet bun split almost in half and packed with an absurd quantity of whipped cream, then cut flush with a knife. Roman breakfast.',
     meta: 'The Roman maritozzo: a light enriched bun with orange zest, split and overfilled with barely sweetened whipped cream levelled flat.',
     kw: ['maritozzo', 'maritozzi recipe', 'roman cream bun', 'italian sweet bun cream', 'maritozzo con la panna'],

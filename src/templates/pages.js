@@ -1,5 +1,5 @@
 'use strict';
-const { esc, humanTime, compactTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
+const { esc, humanTime, compactTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural, isIllustration } = require('../lib/util');
 const { faqSchema } = require('../lib/faq');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
         commonsImageCount, otherArchiveImageCount, photoCount, heroPhotoFileCount, processPhotoFileCount,
@@ -65,17 +65,25 @@ function home(ctx) {
   const { recipes, categoryCounts, cuisineCounts, topCuisines } = ctx;
   const pick = slugs => slugs.map(s => recipes.find(r => r.slug === s)).filter(Boolean);
 
-  const editors = recipes.filter(r => r.badges.includes('editors')).slice(0, 4);
-  const trending = recipes.filter(r => r.badges.includes('trending')).slice(0, 8);
-  const latest = recipes.slice().sort((a, b) => b.published - a.published).slice(0, 4);
+  /* Each recipe appears once on the page: the hero, the picks, the rail, the quick ones, the newest
+     and the gallery used to repeat the same dozen dishes from the top of the catalogue. */
+  const shown = new Set(['tacos-al-pastor', 'chicken-tikka-masala', 'chocolate-lava-cake']);
+  const take = (list, n) => {
+    const out = list.filter(r => !shown.has(r.slug)).slice(0, n);
+    out.forEach(r => shown.add(r.slug));
+    return out;
+  };
+  const editors = take(recipes.filter(r => r.badges.includes('editors')), 4);
+  const trending = take(recipes.filter(r => r.badges.includes('trending')), 8);
   /* Ordered by the editorial weight, not by rating: nothing carries a rating
      until a reader leaves one, so sorting by it put these four in catalogue
      order and called it a ranking. */
-  const quick = recipes.filter(r => r.elapsedTime <= 30)
-    .slice().sort((a, b) => b.popularity - a.popularity).slice(0, 4);
+  const quick = take(recipes.filter(r => r.elapsedTime <= 30)
+    .slice().sort((a, b) => b.popularity - a.popularity), 4);
+  const latest = take(recipes.slice().sort((a, b) => b.published - a.published), 4);
   const heroRecipe = recipes.find(r => r.slug === 'tacos-al-pastor') || recipes[0];
 
-  const galleryPicks = recipes.filter(r => r.imageData).slice(0, 12);
+  const galleryPicks = take(recipes.filter(r => r.imageData && !isIllustration(r.imageData)), 12);
 
   const categoryTiles = Object.keys(CATEGORIES).map(name => {
     const sample = recipes.find(r => r.category === name && r.imageData);
@@ -111,7 +119,7 @@ function home(ctx) {
       <img src="${SITE.base}assets/img/recipes/${r.imageData.file}.jpg" alt="${esc(r.imageAlt)}"
            width="800" height="600" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     </picture>
-    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax)} &middot; ${esc(r.cuisine)}</span>` : ''}
+    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax, !!r.untimed)} &middot; ${esc(r.cuisine)}</span>` : ''}
   </a>`;
 
   const body = `
@@ -120,7 +128,7 @@ function home(ctx) {
     <div class="hero-copy">
       <span class="eyebrow-rule hero-line">${recipeCount} recipes &middot; ${cuisineCount} cuisines</span>
       <h1 id="hero-title" class="hero-line">Recipes worth <em>cooking twice.</em></h1>
-      <p class="hero-lede hero-line">The world's most famous dishes, written down with the reason behind every step.</p>
+      <p class="hero-lede hero-line">Well-known dishes from ${cuisineCount} cuisines, written down with the reason behind every step.</p>
       <div class="hero-line">${heroSearch('hero-search', 'Search by dish, ingredient or cuisine…')}</div>
       <div class="hero-line hero-stats">
         <div><strong>${recipeCount}</strong><span>Recipes</span></div>
@@ -199,8 +207,8 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Around the world</span>
-        <h2 id="cuisines-title">Twenty-nine kitchens, one kitchen table</h2>
-        <p>Each cuisine has its own logic. We explain the technique that makes it work, not just the ingredient list.</p>
+        <h2 id="cuisines-title">${cuisineCount} cuisines, one table</h2>
+        <p>Each cuisine has its own logic, and each recipe explains the technique that makes it work, not just the ingredient list. These are the twelve with the most recipes.</p>
       </div>
       <a class="btn btn--ghost" href="${SITE.base}cuisines/">All cuisines</a>
     </div>
@@ -213,8 +221,8 @@ function home(ctx) {
     <div class="section-head reveal">
       <div>
         <span class="eyebrow">Latest Additions</span>
-        <h2 id="latest-title">New this week</h2>
-        <p>The most recent recipes to come out of testing.</p>
+        <h2 id="latest-title">Recently added</h2>
+        <p>The newest pages in the collection, by the day each one first appeared on the site.</p>
       </div>
       <a class="btn btn--ghost" href="${SITE.base}recipes/?sort=newest">See what&rsquo;s new</a>
     </div>
@@ -226,8 +234,8 @@ function home(ctx) {
   <div class="wrap">
     <div class="section-head reveal">
       <div>
-        <span class="eyebrow">From the kitchen</span>
-        <h2 id="gallery-title">What we have been cooking</h2>
+        <span class="eyebrow">From the collection</span>
+        <h2 id="gallery-title">A look through the photographs</h2>
         <p>A scroll through the collection. Every photograph is used under a licence that allows it here, and every photographer is credited on the recipe.${illustrationCount ? ` The ${illustrationCount} dishes no one has photographed under such a licence carry a generated illustration, labelled as one.` : ''}</p>
       </div>
     </div>
@@ -250,7 +258,7 @@ function home(ctx) {
 
   return layout({
     title: `${SITE.name} — ${SITE.tagline}`,
-    description: `The world's ${recipeCount} most famous recipes, explained: ingredients, a step-by-step method, the reasoning behind it and a cook mode. Free, no sign-up.`,
+    description: `${recipeCount} well-known recipes from ${cuisineCount} cuisines, explained: ingredients, a step-by-step method, the reasoning behind it and a cook mode. Free, no sign-up.`,
     keywords: ['famous recipes', 'best recipes in the world',
                'international recipes', 'cooking guide', 'recipes from around the world',
                'world food recipes', 'authentic recipes', 'home cooking',

@@ -51,6 +51,7 @@ module.exports = {
   },
 
   'papa-a-la-huancaina': {
+    untimed: ['cooling completely'],
     d: 'Boiled potatoes under a yellow chilli and cheese sauce, cold, with olives and egg. Thirty-five minutes.',
     meta: 'Peruvian papa a la huancaína of boiled potatoes under a blended ají amarillo, cheese and cracker sauce with egg and olives.',
     kw: ['papa a la huancaina', 'huancaina sauce', 'peruvian potato starter', 'aji amarillo sauce', 'peruvian yellow sauce'],
@@ -211,7 +212,7 @@ module.exports = {
     st: [
       'Rub the cold shortening into the flour, turmeric, curry powder and pastry salt until it looks like coarse crumbs with some larger pieces.',
       'Add the ice-cold water and bring together into a dough without kneading. Wrap and chill 45 minutes.',
-      'Heat the oil and fry the onion for 6 minutes, then add the spring onions, scotch bonnet, garlic and thyme for 2 minutes.',
+      'While the pastry chills, heat the oil and fry the onion for 6 minutes, then add the spring onions, scotch bonnet, garlic and thyme for 2 minutes.',
       'Add the mince and cook 10 minutes, breaking it up, until browned and dry.',
       'Stir in the filling curry powder, allspice and salt and cook 1 minute.',
       'Add the breadcrumbs and stock and simmer 8 minutes, until thick with no free liquid.',
@@ -707,6 +708,7 @@ module.exports = {
   },
 
   'paletas': {
+    untimed: ['cooling completely'],
     d: 'Fresh fruit blended with a little sugar and lime and frozen in moulds. Fifteen minutes of work and no cooking.',
     meta: 'Mexican paletas of fresh mango and lime blended with a light sugar syrup and chilli, frozen in lolly moulds.',
     kw: ['paletas', 'paletas recipe', 'mexican ice lollies', 'mango chilli paletas', 'fruit popsicles'],

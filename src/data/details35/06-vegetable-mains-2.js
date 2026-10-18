@@ -11,7 +11,8 @@
 
 module.exports = {
   'vegetable-lasagna': {
-    d: 'Lasagne sheets layered with a lentil and vegetable tomato sauce, white sauce and cheese. Six servings in 1 hour 15 minutes.',
+    cookMax: 65,
+    d: 'Lasagne sheets layered with a lentil and vegetable tomato sauce, white sauce and cheese. Six servings in 1 hour 45 minutes to 1 hour 50 minutes.',
     meta: 'Vegetable lasagna: lasagne sheets layered with a lentil and vegetable tomato sauce, white sauce and cheese. A cheap bake for six in 1 hour 15 minutes.',
     kw: ['vegetable lasagna', 'budget vegetable lasagne', 'lentil and vegetable lasagna', 'meatless lasagna for six', 'cheap family lasagna'],
     why: 'Most vegetable lasagnas turn out watery because the vegetables release liquid as they bake. The answer is to cook them down in the sauce first, until the pan is nearly dry.\n\nGrated carrot and courgette disappear into the sauce and thicken it. Red lentils collapse and add body that would normally come from mince, at a fraction of the price.\n\nThe white sauce is a simple roux and milk, stirred until it coats a spoon. **Season it well**: bland white sauce makes a bland lasagna.\n\nBuild the layers from sauce, pasta, white sauce, and repeat, finishing with white sauce and cheese. The bottom layer should always be sauce so the pasta does not stick. Rest it for 15 minutes before cutting, or it slides apart. Lasagna improves after a rest in the fridge, so a day-ahead assembly suits a weekend dinner. Cut it into squares and freeze individual portions wrapped well, and a single serving heats quickly when needed.',
@@ -34,7 +35,7 @@ module.exports = {
     ],
     st: [
       'Heat the oil in a large pan and cook the onion, carrots and courgette for 8 minutes. Add the garlic, lentils, tomatoes, water, oregano and half the salt. Simmer for 20 minutes until thick and the lentils are soft.',
-      'For the white sauce, melt the butter, stir in the flour for 1 minute, then add the milk gradually, whisking, and simmer for 4 minutes. Season with the remaining salt.',
+      'While the sauce simmers, make the white sauce: melt the butter, stir in the flour for 1 minute, then add the milk gradually, whisking, and simmer for 4 minutes. Season with the remaining salt.',
       'Heat the oven to 190°C (170°C fan). Spread a quarter of the tomato sauce in a 3 litre dish, then add 3 pasta sheets and a quarter of the white sauce. Repeat twice.',
       'Finish with the remaining white sauce and the cheese. Bake for 35 minutes until golden and bubbling. Rest for 15 minutes.'
     ],
@@ -483,7 +484,7 @@ module.exports = {
   },
 
   'navy-bean-soup': {
-    d: 'Dried navy beans simmered with onion, carrot, celery and a ham hock until thick and creamy. Six servings in 1 hour 40 minutes.',
+    d: 'Dried navy beans simmered with onion, carrot, celery and a ham hock until thick and creamy. Six servings in 9 hours 40 minutes, soaking the beans included.',
     meta: 'Navy bean soup: dried navy beans simmered with onion, carrot, celery and ham until thick and creamy. A very cheap soup for six, 1 hour 40.',
     kw: ['navy bean soup', 'ham and bean soup', 'budget dried bean soup', 'easy navy bean and ham soup', 'cheap soup for six'],
     why: 'A bag of dried beans costs a few coins and makes a pot of soup for six. The work is in the waiting, not the doing.\n\nSoak the beans overnight in plenty of cold water. They double in size, so use a large bowl. Drain and rinse before cooking; the soaking water carries some of the compounds that cause wind.\n\nA piece of smoked ham gives the soup its flavour. Ham hocks and bacon ends are among the cheapest cuts, and a small piece flavours a whole pot.\n\n**Do not add salt until the beans are tender.** Early salt can leave the skins tough. Ham brings plenty anyway. The soup is ready when the beans crush easily against the pot. Mash a few to thicken it. Dried beans are a cheap, shelf-stable ingredient, and a bag makes several meals. The soup thickens as it stands, so keep a kettle nearby to loosen leftovers with a splash of hot water.',

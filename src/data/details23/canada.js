@@ -58,7 +58,7 @@ module.exports = {
     pair: ['Dill pickles', 'A crisp coleslaw', 'French fries'],
     store: 'Keep the cooked, unsliced meat wrapped in the fridge up to 5 days. Reheat slices in a covered pan with a splash of water. Freeze in portions for 2 months.',
     nut: [536, 41, 30, 28, 4, 2, 2600],
-    rest: [7200, 'Curing']
+    rest: [7220, 'Curing']
   },
 
   'peameal-bacon-sandwich': {
@@ -251,7 +251,7 @@ module.exports = {
       'Roll the pastry to 3 mm thick and line a 23 cm pie tin. Trim, crimp the edge and prick the base with a fork. Freeze the shell for 10 minutes.',
       'Whisk the brown sugar, maple syrup, cream, flour, egg, vanilla, melted butter and salt until smooth.',
       'Pour the filling into the pastry shell. Set the pie on the hot tray and bake for 10 minutes, then lower the oven to 170°C / 340°F and bake for 30 to 35 minutes more, until the edge is set and the centre wobbles slightly.',
-      'Cool on a wire rack for at least 3 hours before slicing. It sets as it cools.'
+      'Cool on a wire rack for 2 hours, then refrigerate for at least 1 hour before slicing. It sets as it cools.'
     ],
     tips: [
       'Whisk the filling again just before pouring. The flour settles quickly.',
@@ -460,6 +460,7 @@ module.exports = {
   },
 
   'ukrainian-cabbage-rolls': {
+    untimed: ['cooling'],
     d: 'Cabbage leaves rolled around beef, pork and rice, packed in a tomato sauce and baked until tender. The Ukrainian-Canadian prairie staple, holubtsi.',
     meta: 'Ukrainian cabbage rolls, or holubtsi: tender cabbage leaves wrapped around a beef and rice filling and baked slowly in a tomato sauce. A prairie favourite.',
     kw: ['ukrainian cabbage rolls', 'holubtsi', 'cabbage rolls recipe', 'cabbage rolls in tomato sauce', 'baked cabbage rolls'],
@@ -501,6 +502,7 @@ module.exports = {
   },
 
   'flapper-pie': {
+    untimed: ['cooling on a rack'],
     d: 'A graham cracker crust, a smooth vanilla custard and a swirl of meringue. The Prairie pie of Manitoba, Saskatchewan and Alberta church suppers.',
     meta: 'Flapper pie: a graham cracker crust filled with a set vanilla custard and topped with a golden meringue. A Prairie church-supper classic, served cold.',
     kw: ['flapper pie', 'flapper pie recipe', 'prairie flapper pie', 'graham cracker custard pie with meringue', 'saskatchewan flapper pie'],

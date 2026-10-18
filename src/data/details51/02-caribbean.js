@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'cuban-flan': {
+    untimed: ['cooling'],
     d: 'A dense, silky caramel custard of condensed and evaporated milk, eggs and vanilla, baked in a water bath and chilled.',
     meta: 'Cuban flan: a dense, silky caramel custard of condensed and evaporated milk, eggs and vanilla, baked in a water bath. Eight servings, baked for 60 minutes.',
     kw: ['cuban flan', 'flan de leche cubano', 'cuban flan recipe', 'caramel custard with condensed milk', 'cuban caramel flan'],
@@ -117,6 +118,7 @@ module.exports = {
   },
 
   'puerto-rican-alcapurrias': {
+    untimed: ['cooling completely'],
     d: 'Fritters of grated green banana and taro dough, stuffed with seasoned beef and cooked until crisp, a Puerto Rican street food.',
     meta: 'Puerto Rican alcapurrias: fritters of grated green banana and taro dough stuffed with seasoned beef and cooked until crisp. Makes twelve, cooked for 10 minutes.',
     kw: ['puerto rican alcapurrias', 'alcapurrias', 'alcapurrias recipe', 'banana and yautia fritters with picadillo', 'puerto rican street food fritters'],
@@ -181,7 +183,7 @@ module.exports = {
     pair: ['Fresh fruit', 'Coquito', 'Coffee', 'Toasted coconut'],
     store: 'Keeps in the fridge for 3 days.',
     nut: [267, 2, 22, 19, 1, 15, 90],
-    rest: [180, 'Cooling and chilling']
+    rest: [200, 'Cooling and chilling']
   },
 
   'la-bandera-dominicana': {
@@ -217,8 +219,8 @@ module.exports = {
     ],
     st: [
       'Cook the rice with the water, salt and oil in a covered pan for 15 minutes. Rest for 10 minutes.',
-      'For the beans, heat the oil and cook the sofrito and tomato purée for 2 minutes. Add the beans, pumpkin, water and salt and simmer for 25 minutes, mashing some beans and the pumpkin.',
-      'For the chicken, heat the sugar with 1 tbsp of the oil in a wide pot until dark amber. Add the chicken and the remaining oil and brown for 8 minutes.',
+      'At the same time, make the beans: heat the oil and cook the sofrito and tomato purée for 2 minutes. Add the beans, pumpkin, water and salt and simmer for 25 minutes, mashing some beans and the pumpkin.',
+      'Meanwhile, make the chicken: heat the sugar with 1 tbsp of the oil in a wide pot until dark amber. Add the chicken and the remaining oil and brown for 8 minutes.',
       'Add the onion, garlic, oregano and tomato purée for 3 minutes, then the water, vinegar and salt. Cover and simmer for 30 minutes.',
       'Serve the rice with the beans over it and the chicken on the side.'
     ],
@@ -391,7 +393,7 @@ module.exports = {
       '500 ml water'
     ],
     st: [
-      'Mix the chicken with 2 tbsp of the curry powder, the thyme, garlic, spring onions and salt. Cover and leave for 1 hour.',
+      'Mix the chicken with 2 tbsp of the curry powder, the thyme, garlic, spring onions and salt. Cover and leave in the fridge for 1 hour.',
       'Heat the oil in a heavy pot and brown the chicken for 8 minutes. Remove.',
       'Add the onion and cook for 4 minutes. Add the remaining curry powder and cook for 1 minute.',
       'Return the chicken, add the scotch bonnet, potatoes and water. Cover and simmer for 35 minutes until the chicken and potatoes are tender and the sauce is thick.',
@@ -431,7 +433,7 @@ module.exports = {
       '400 ml water'
     ],
     st: [
-      'Mix the chicken with the onion, garlic, thyme, allspice, pepper, salt and soy sauce. Cover and leave for 1 hour.',
+      'Mix the chicken with the onion, garlic, thyme, allspice, pepper, salt and soy sauce. Cover and leave in the fridge for 1 hour.',
       'Heat the sugar and oil in a heavy pot until the sugar melts, foams and turns dark brown, about 4 minutes.',
       'Add the chicken and stir for 5 minutes until browned and coated. Add the tomatoes, carrots, scotch bonnet, ketchup and water.',
       'Cover and simmer for 30 minutes until the chicken is tender and the gravy is thick. Remove the scotch bonnet.'
@@ -549,6 +551,8 @@ module.exports = {
   },
 
   'jamaican-rum-cake': {
+    untimed: ['cooling the fruit'],
+    rest: [1440, 'resting before slicing'],
     d: 'A dense Christmas cake of dried fruit soaked in rum and wine, baked, then drenched in rum syrup while still warm.',
     meta: 'Jamaican rum cake: a dense Christmas cake of dried fruit soaked in rum and wine, baked and drenched in rum syrup. Twelve servings, baked for 60 minutes.',
     kw: ['jamaican rum cake', 'jamaican black cake', 'jamaican rum cake recipe', 'caribbean christmas rum cake', 'rum soaked fruit cake'],
@@ -578,7 +582,7 @@ module.exports = {
       'Heat the oven to 160°C (140°C fan) and line a 20 cm round tin.',
       'Beat the butter and sugar for 5 minutes until pale. Beat in the eggs one at a time.',
       'Fold in the flour, baking powder and mixed spice, then the fruit purée, browning and vanilla.',
-      'Bake for 60 minutes until a skewer comes out clean. Prick the top and brush with the 4 tbsp rum. Cool, wrap and keep for a day before slicing.'
+      'Bake for 60 minutes until a skewer comes out clean. Prick the top and brush with the 4 tbsp rum. Cool, wrap and leave for a day before slicing.'
     ],
     tips: [
       'Line the tin well.',
@@ -817,6 +821,7 @@ module.exports = {
   },
 
   'aloo-pie': {
+    untimed: ['cooling completely'],
     d: 'A soft yeasted dough pocket filled with spiced mashed potato and cooked until puffed and golden, a Trinidadian street snack.',
     meta: 'Aloo pie: a soft yeasted dough pocket filled with spiced mashed potato and cooked until puffed and golden. Makes eight, cooked for 15 minutes.',
     kw: ['aloo pie', 'trinidad aloo pie', 'aloo pie recipe', 'trinidadian potato pie', 'aloo pie with tamarind chutney'],

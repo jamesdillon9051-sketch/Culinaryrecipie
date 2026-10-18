@@ -45,6 +45,7 @@ module.exports = {
   },
 
   'sugar-cookies': {
+    untimed: ['cooling completely'],
     rest: [420, 'chilling and setting'],
     d: 'A cut-out sugar cookie that holds a sharp edge: no spreading, no puffed middles, and a crumb firm enough to ice and stack. Cream of tartar keeps the crumb tender and the flavour faintly tangy rather than flatly sweet.',
     meta: 'Cut-out sugar cookies that hold their shape, with a royal icing that sets hard — sharp edges, tender crumb, no spreading.',
@@ -89,6 +90,7 @@ module.exports = {
   },
 
   'blondies': {
+    untimed: ['cooling completely'],
     d: 'The blondie done properly: brown butter, dark brown sugar and no leavening at all, so the middle stays dense and fudgy and the top cracks like a brownie. White chocolate is optional; the butterscotch is not.',
     meta: 'Brown butter blondies with dark brown sugar and a crackly top — dense and fudgy, never cakey, made in one pan.',
     kw: ['blondies', 'brown butter blondies', 'blondie recipe', 'butterscotch blondies'],
@@ -123,6 +125,7 @@ module.exports = {
   },
 
   'lemon-bars': {
+    untimed: ['cooling completely'],
     rest: [180, 'chilling'],
     d: 'A thick, sharp lemon curd on a shortbread base that stays crisp underneath — the two problems every lemon bar has, solved by par-baking the base and pouring the filling on while both are hot.',
     meta: 'Lemon bars with a sharp set curd on crisp shortbread — the filling goes onto a hot base so it never turns soggy.',
@@ -152,7 +155,7 @@ module.exports = {
       'Whisk in the lemon juice, zest and salt, then strain through a sieve to catch any thread of egg.',
       'Pour the filling straight onto the hot base and return to the oven immediately.',
       'Bake 20 to 24 minutes, until the centre no longer ripples when you nudge the tin but still has the faintest wobble.',
-      'Cool completely in the tin, then refrigerate at least 3 hours before lifting out and cutting with a hot, dry knife.',
+      'Cool in the tin for no more than 2 hours, then refrigerate at least 3 hours before lifting out and cutting with a hot, dry knife.',
       'Dust with icing sugar just before serving — dust it early and the sugar dissolves into a wet film.'
     ],
     tips: [
@@ -166,6 +169,7 @@ module.exports = {
   },
 
   'magic-cookie-bars': {
+    untimed: ['cooling completely'],
     rest: [120, 'chilling'],
     d: 'Seven layers, no mixing bowl: buttery crumb base, condensed milk, chocolate, butterscotch, coconut and pecans, pressed down and baked into one chewy slab. The magic is that the condensed milk turns to caramel around everything else.',
     meta: 'Seven-layer magic cookie bars — digestive base, condensed milk, chocolate, coconut and pecans, built in the tin with no bowl.',

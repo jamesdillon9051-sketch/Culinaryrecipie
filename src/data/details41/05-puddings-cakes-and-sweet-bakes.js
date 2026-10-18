@@ -123,6 +123,7 @@ module.exports = {
   },
 
   'banana-cake-with-cream-cheese-icing': {
+    untimed: ['cooling completely'],
     d: 'A soft banana cake with cinnamon, finished with a thick cream cheese icing.',
     meta: 'Banana cake with cream cheese icing: a soft cinnamon banana cake with cream cheese icing. Twelve slices, baked for 35 minutes.',
     kw: ['banana cake with cream cheese icing', 'banana cake with cream cheese frosting', 'moist banana cake', 'banana cake with cinnamon', 'iced banana cake'],
@@ -257,6 +258,7 @@ module.exports = {
   },
 
   'cheesecake-brownies': {
+    untimed: ['cooling completely', 'chilling before cutting'],
     d: 'Dark fudgy brownies swirled with a baked vanilla cream cheese layer, cut into squares.',
     meta: 'Cheesecake brownies: fudgy chocolate brownies swirled with vanilla cream cheese. Sixteen pieces, baked for 40 minutes.',
     kw: ['cheesecake brownies', 'cream cheese swirl brownies', 'cheesecake swirl brownies', 'brownies with cheesecake layer', 'homemade cheesecake brownies'],
@@ -278,7 +280,7 @@ module.exports = {
       'Beat in the 200 g sugar and 3 eggs, then fold in the flour and cocoa.',
       'Beat the cream cheese with the 60 g sugar, the egg and the vanilla until smooth.',
       'Spread two-thirds of the batter in the tin, dollop on the cream cheese, add the rest of the batter and swirl with a knife.',
-      'Bake for 40 minutes until the edges are set. Cool completely, then chill before cutting into 16.'
+      'Bake for 40 minutes until the edges are set. Cool for no more than 2 hours, then chill before cutting into 16.'
     ],
     tips: [
       'Beat the eggs in well.',
@@ -292,6 +294,7 @@ module.exports = {
   },
 
   'cherry-bakewell': {
+    untimed: ['cooling completely'],
     d: 'Small shortcrust tarts with cherry jam and almond sponge, topped with white icing and a glace cherry.',
     meta: 'Cherry Bakewell: shortcrust tarts with cherry jam, almond sponge and white icing. Makes twelve, baked for 25 minutes.',
     kw: ['cherry bakewell', 'cherry bakewell tarts', 'homemade cherry bakewells', 'iced cherry bakewell', 'cherry bakewell tarts with icing'],
@@ -476,7 +479,7 @@ module.exports = {
     st: [
       'Heat the cream in a small pan over low heat for 3 minutes until it begins to steam. Do not boil.',
       'Pour it over the chopped chocolate, wait 1 minute, then stir until smooth. Stir in the honey.',
-      'Pour into a warmed fondue pot or bowl. Arrange the dippers around it.'
+      'Pour into a warmed fondue pot or bowl. Arrange the strawberries, banana, marshmallows and biscuits around it for dipping.'
     ],
     tips: [
       'Chop the chocolate fine.',
@@ -490,6 +493,7 @@ module.exports = {
   },
 
   'cookie-dough-bites': {
+    untimed: ['cooling completely'],
     d: 'Small balls of eggless cookie dough made with heat-treated flour, chilled and dipped in dark chocolate.',
     meta: 'Cookie dough bites: eggless cookie dough made with heat-treated flour, dipped in dark chocolate. Makes twenty, cooked for 8 minutes.',
     kw: ['cookie dough bites', 'edible cookie dough bites', 'chocolate dipped cookie dough bites', 'eggless cookie dough balls', 'cookie dough bites with chocolate'],
@@ -506,7 +510,7 @@ module.exports = {
       '150 g dark chocolate for dipping'
     ],
     st: [
-      'Heat the oven to 180°C. Spread the flour on a tray and bake for 5 minutes. Cool completely.',
+      'Heat the oven to 180°C. Spread the flour on a tray and bake for 5 minutes, until a thermometer pushed into the flour reads 74°C / 165°F. Cool completely.',
       'Beat the butter with the brown and caster sugars for 2 minutes. Beat in the milk and vanilla.',
       'Stir in the cooled flour, salt and chocolate chips to a firm dough. Roll into 20 balls and chill for 30 minutes.',
       'Melt the dark chocolate in short bursts for 3 minutes, dip each ball and set on baking paper.'

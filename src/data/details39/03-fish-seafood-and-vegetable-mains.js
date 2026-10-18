@@ -431,6 +431,8 @@ module.exports = {
   },
 
   'pumpkin-gnocchi': {
+    cookMax: 35,
+    untimed: ['cooling'],
     d: 'Light gnocchi made from roasted pumpkin, ricotta and flour, boiled for 2 minutes and tossed in sage butter.',
     meta: 'Pumpkin gnocchi: light gnocchi made from roasted pumpkin, ricotta and flour, boiled briefly and tossed in sage butter. Four servings.',
     kw: ['pumpkin gnocchi', 'homemade pumpkin gnocchi', 'pumpkin ricotta gnocchi', 'pumpkin gnocchi with sage butter', 'butternut gnocchi'],

@@ -109,7 +109,7 @@ module.exports = {
 
   'ofada-rice': {
     d: 'Nutty local brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs, a Nigerian speciality.',
-    meta: 'Ofada rice: nutty brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs. Six servings, cooked for 50 minutes.',
+    meta: 'Ofada rice: nutty brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs. Six servings, about an hour of cooking with the pans going side by side.',
     kw: ['ofada rice', 'ofada rice and ayamase', 'ofada stew', 'nigerian ofada rice recipe', 'ayamase green pepper stew'],
     why: 'The sauce is green, and the green is the point. Ayamase, sometimes called designer stew, is a Nigerian sauce built on a mountain of green peppers, scotch bonnets and plenty of palm oil, cooked until the oil separates and the peppers turn to a dark, fragrant olive paste. It goes with ofada rice, a local, unpolished, nutty rice that is a little sticky and has a strong aroma.\n\nOfada rice is hard to find in the UK and elsewhere, so brown basmati or a short-grain brown rice makes a good substitute. Wash it thoroughly, boil for 30 minutes, and drain. Traditional ofada is served in leaves, which gives a faint woody smell; banana leaves or baking paper are alternatives.\n\nThe stew begins with red palm oil, heated until it just starts to smoke and turns clear, then cooled slightly. Fry onions in it, add the blended green peppers and scotch bonnets, and cook for 25 minutes. **Do not rush the peppers.** They have to cook until the water has gone and the oil sits on top.\n\nAdd the beef, boiled until tender, and the boiled eggs, cooked in the sauce for 10 minutes. Serve with the rice.',
     ing: [
@@ -129,8 +129,8 @@ module.exports = {
     ],
     st: [
       'Boil the beef in the water with a pinch of the salt for 50 minutes until tender. Keep the stock.',
-      'Boil the rice in plenty of water with the salt for 30 minutes. Drain.',
-      'Blend the green peppers and scotch bonnets until nearly smooth. Cook in a dry pan for 10 minutes to drive off water.',
+      'While the beef cooks, boil the rice in plenty of water with the salt for 30 minutes. Drain.',
+      'Meanwhile, blend the green peppers and scotch bonnets until nearly smooth. Cook in a dry pan for 10 minutes to drive off water.',
       'Heat the palm oil in a large pan until it just starts to smoke. Cool for 1 minute, add the onions and cook for 5 minutes. Add the peppers and cook for 25 minutes until dark and the oil separates.',
       'Add the beef, 150 ml of the stock, salt and crayfish. Simmer for 10 minutes, add the eggs and serve with the rice.'
     ],
@@ -423,8 +423,9 @@ module.exports = {
   },
 
   'bariis-iskukaris': {
+    cookMax: 80,
     d: 'Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin, with raisins and fried onions.',
-    meta: 'Bariis iskukaris: Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin. Six servings, cooked for 50 minutes.',
+    meta: 'Bariis iskukaris: Somali spiced rice cooked in lamb stock with cardamom, cinnamon, cloves and cumin. Six servings, cooked for about 1 hour 20 minutes.',
     kw: ['bariis iskukaris', 'somali rice', 'bariis iskukaris recipe', 'somali spiced rice with lamb', 'somali basmati rice with raisins'],
     why: 'On a Somali table, bariis comes with every celebration and with most Fridays. The rice is cooked with a mixture of spices known as xawaash: cumin, coriander, cardamom, cinnamon, cloves and black pepper, and the smell of it alone brings people into the kitchen. It is eaten with a banana on the side, which is a pairing that sounds strange and works perfectly.\n\nStart with the meat. Lamb on the bone is browned in oil with onions, then simmered with the xawaash and salt in water for 40 minutes, until tender. The cooking liquid becomes the rice stock. **Measure the liquid carefully: 1.5 parts stock to 1 part rice.** If the pan is too full, it becomes sticky.\n\nSoak the basmati for 20 minutes and drain. Fry it briefly in the oil left in the pot with whole cinnamon, cardamom and cloves, then add the measured stock. Cover tightly and cook over a low heat for 15 minutes.\n\nFold in the raisins and fried onions at the end, fluffing with a fork. The rice should be dry, separate and golden, with an aroma that fills the room. Serve with the lamb on top, a banana and a spoon of sauce.',
     ing: [
@@ -459,6 +460,7 @@ module.exports = {
   },
 
   'somali-sambusa': {
+    untimed: ['cooling completely'],
     d: 'Crisp triangular pastries filled with spiced minced beef, leek and green chilli, a Somali staple at Ramadan.',
     meta: 'Somali sambusa: crisp triangular pastries filled with spiced minced beef, leek and green chilli. Makes about twenty, cooked for 20 minutes.',
     kw: ['somali sambusa', 'sambusa recipe', 'somali samosa', 'ramadan sambusa', 'sambusa with minced beef and leek'],
@@ -498,6 +500,7 @@ module.exports = {
   },
 
   'zanzibar-pizza': {
+    untimed: ['cooling'],
     d: 'A paper-thin dough parcel filled with minced meat, egg, onion and cheese, folded into a square and cooked on a hot griddle, a Zanzibar street food.',
     meta: 'Zanzibar pizza: a paper-thin dough parcel filled with minced meat, egg, onion and cheese, cooked on a hot griddle. Four servings, cooked for 15 minutes.',
     kw: ['zanzibar pizza', 'zanzibar pizza recipe', 'stuffed zanzibar pizza', 'tanzanian street food zanzibar pizza', 'zanzibari mkate wa nyama'],
@@ -684,6 +687,7 @@ module.exports = {
   },
 
   'gefilte-fish': {
+    untimed: ['cooling in the broth and chilling'],
     d: 'Poached oval dumplings of minced white fish, onion and egg in a light fish and vegetable broth, served cold with beetroot horseradish.',
     meta: 'Gefilte fish: poached oval dumplings of minced white fish, onion and egg in a light broth, served cold with horseradish. Ten servings, cooked for 90 minutes.',
     kw: ['gefilte fish', 'gefilte fish recipe', 'homemade gefilte fish', 'jewish poached fish balls', 'gefilte fish with horseradish'],
@@ -713,7 +717,7 @@ module.exports = {
       'Put the sliced onions, carrots, water, salt and sugar in a wide pan and simmer for 30 minutes.',
       'With wet hands, shape the fish mixture into 18 ovals. Lower them gently into the simmering broth.',
       'Cover with the lid slightly open and poach very gently for 1 hour.',
-      'Cool in the broth, then chill. Serve cold with a slice of carrot and the horseradish.'
+      'Leave to cool in the broth, moving the pan to the fridge within 2 hours of cooking, then chill until cold. Serve cold with a slice of carrot and the horseradish.'
     ],
     tips: [
       'Keep the broth at a bare simmer.',
@@ -788,8 +792,8 @@ module.exports = {
     ],
     st: [
       'Mix the flour, baking powder and salt. Add the egg, oil and water and knead to a soft dough. Cover and rest for 30 minutes.',
-      'Boil the potatoes for 20 minutes until soft. Drain, mash and cool.',
-      'Cook the onions in the oil over a medium heat for 25 minutes until deep brown. Mix into the potatoes with the egg, salt and pepper.',
+      'While the dough rests, boil the potatoes for 20 minutes until soft. Drain, mash and cool.',
+      'Meanwhile, cook the onions in the oil over a medium heat for 25 minutes until deep brown. Mix into the potatoes with the egg, salt and pepper.',
       'Heat the oven to 190°C (170°C fan). Roll the dough very thin into a rectangle about 30 by 40 cm. Spread the filling in a line along one long edge, roll up, and cut into 12 pieces. Pinch the ends closed.',
       'Stand the knishes upright on a lined tray, brush with the beaten egg and bake for 35 minutes until deep golden.'
     ],

@@ -34,7 +34,7 @@ module.exports = {
       'Cook the arepas for 6 minutes a side until a crust forms and they sound hollow when tapped.',
       'Transfer to a 200°C / 390°F oven for 12 minutes to cook through and puff slightly.',
       'Meanwhile mix the chicken with the avocado, mayonnaise, lime, spring onion, coriander, salt and pepper.',
-      'Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously.'
+      'Split each hot arepa almost in half with a serrated knife, open it like a pitta, and stuff generously with the reina pepiada, or with one of the other classic fillings.'
     ],
     tips: [
       'Masarepa, not masa harina and not polenta. The brands to look for are P.A.N. or Goya.',
@@ -47,7 +47,7 @@ module.exports = {
   },
 
   'pupusas': {
-    rest: [180, 'chilling'],
+    rest: [195, 'chilling'],
     d: 'El Salvador\'s thick stuffed corn cakes, filled with cheese, beans or chicharrón and griddled until blistered, served with curtido and a thin tomato salsa. Cheap, filling and completely addictive.',
     meta: 'Salvadoran pupusas — thick stuffed corn cakes with cheese and beans, griddled and served with curtido.',
     kw: ['pupusas recipe', 'salvadoran pupusas', 'stuffed corn cakes', 'curtido recipe'],
@@ -100,6 +100,7 @@ module.exports = {
   },
 
   'chimichurri-steak': {
+    rest: [60, 'chilling'],
     d: 'Thick steak grilled over fire and served under a green sauce of parsley, oregano, garlic and vinegar. Argentina\'s national condiment, and it is a chopped sauce, never a blended one.',
     meta: 'Argentinian chimichurri steak — fire-grilled beef under a hand-chopped parsley, oregano and garlic sauce.',
     kw: ['chimichurri steak recipe', 'argentinian chimichurri', 'chimichurri sauce', 'grilled steak sauce'],
@@ -144,7 +145,8 @@ module.exports = {
   },
 
   'alfajores': {
-    rest: [60, 'chilling'],
+    untimed: ['cooling completely'],
+    rest: [80, 'chilling'],
     d: 'Two cornflour-heavy shortbread biscuits sandwiching dulce de leche and rolled in desiccated coconut. Argentinian and Peruvian in equal measure, and they dissolve on the tongue rather than crumbling.',
     meta: 'Alfajores — tender cornflour biscuits sandwiched with dulce de leche and rolled in coconut.',
     kw: ['alfajores recipe', 'dulce de leche cookies', 'argentinian biscuits', 'maizena alfajores'],

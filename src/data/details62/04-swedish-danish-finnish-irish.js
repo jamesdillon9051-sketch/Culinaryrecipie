@@ -45,8 +45,9 @@ module.exports = {
   },
 
   'stegt-flaesk': {
+    cookMax: 45,
     d: 'Thick slices of pork belly fried until crisp and served with potatoes and a creamy parsley sauce, a Danish national dish.',
-    meta: 'Stegt flæsk, Danish crisp fried pork belly with potatoes and parsley sauce, cooked for 25 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Stegt flæsk, Danish crisp fried pork belly with potatoes and parsley sauce, cooked for 40 minutes. Four servings, ready in 50 to 55 minutes.',
     kw: ['stegt flaesk', 'danish fried pork belly', 'stegt flæsk med persillesovs', 'crispy pork belly with parsley sauce', 'danish national dish'],
     why: 'Most home fried pork belly comes out chewy or burnt, and the fix is a cold pan and patience. Stegt flæsk med persillesovs, fried pork with parsley sauce, was voted the national dish of Denmark, and it is nothing more than thin slices of fatty pork fried until crisp and eaten with boiled potatoes and a white sauce.\n\nUse thin slices of fresh pork belly, about 5 mm thick, with the rind removed or left on. Lay them in a cold, dry, wide pan, then turn on a medium heat. **Let the fat melt out slowly for 12 minutes** before turning, so that the slices crisp from the inside. Turn and fry for 8 minutes more, until the pork is deep brown and brittle at the edges. Drain on kitchen paper.\n\nFor the sauce, melt butter, stir in flour, whisk in milk and simmer for 8 minutes, then add a large handful of chopped parsley, salt and white pepper. Boil the potatoes and serve everything together, with the sauce poured over the potatoes and a mound of pickled beetroot at the side. Fry in two batches to avoid crowding.',
     ing: [
@@ -62,8 +63,8 @@ module.exports = {
     ],
     st: [
       'Boil the potatoes in salted water for 20 minutes.',
-      'Lay the pork in a cold dry pan, in 2 batches, and turn on a medium heat. Fry for 12 minutes, turn and fry for 8 minutes more until crisp. Drain.',
-      'Melt the butter, stir in the flour for 1 minute, then whisk in the milk and simmer for 8 minutes. Stir in the parsley, salt and pepper.',
+      'While the potatoes boil, lay the pork in a cold dry pan, in 2 batches, and turn on a medium heat. Fry for 12 minutes, turn and fry for 8 minutes more until crisp. Drain.',
+      'Meanwhile, melt the butter, stir in the flour for 1 minute, then whisk in the milk and simmer for 8 minutes. Stir in the parsley, salt and pepper.',
       'Serve the pork with the potatoes, sauce and beetroot.'
     ],
     tips: [
@@ -194,7 +195,7 @@ module.exports = {
 
   'leverpostej': {
     d: 'A Danish liver pâté of pork liver, bacon and onion, blended smooth and baked in a water bath for 1 hour, served on rye bread.',
-    meta: 'Leverpostej, Danish baked pork liver pâté served on rye bread, baked for 1 hour. Ten servings, ready in 1 hour 30 minutes.',
+    meta: 'Leverpostej, Danish baked pork liver pâté served on rye bread, baked for 1 hour. Ten servings, ready in 8 hours 30 minutes, soaking included.',
     kw: ['leverpostej', 'danish liver pate', 'danish pork liver pate on rye', 'leverpostej recipe', 'baked liver spread'],
     why: 'It is the filling of the Danish lunch, spread thickly on rye bread with pickled beetroot or cucumber, and it has a mild flavour. Leverpostej is a baked pork liver pâté, creamy and pale brown, made with onions, anchovy and cream, and one of the foods Danes miss most when they move abroad.\n\nSoak the pork liver in milk for 1 hour to mellow its flavour. Drain and pat dry. Put the liver, pork back fat or bacon, onion, anchovies, flour, cream, an egg, salt, pepper and allspice in a food processor and blend until completely smooth. **Chill the mixture before blending**, as warmth makes it split. The mix should be like thick batter.\n\nPour into a lined loaf tin, cover with foil and stand the tin in a roasting dish. Add boiling water to come halfway up the tin. Bake at 160C for 1 hour, until firm and a skewer comes out clean. Cool in the tin, then chill for at least 6 hours. Slice and serve on buttered rye bread with crisp bacon, pickled beetroot and mushrooms fried in butter.',
     ing: [
@@ -232,7 +233,7 @@ module.exports = {
 
   'flaeskesteg': {
     d: 'A Danish roast of pork loin with crackling, scored and salted and roasted for 1 hour 40 minutes, the Christmas favourite.',
-    meta: 'Flæskesteg, Danish roast pork with crisp crackling and bay, roasted for 1 hour 40 minutes. Six servings, ready in 2 hours.',
+    meta: 'Flæskesteg, Danish roast pork with crisp crackling and bay, roasted for 1 hour 40 minutes. Six servings, ready in 2 hours 15 minutes.',
     kw: ['flaeskesteg', 'danish roast pork with crackling', 'danish christmas pork roast', 'flæskesteg recipe', 'pork roast with bay and crackling'],
     why: 'A Danish Christmas table without flæskesteg is unthinkable, and no Dane would call it roast pork. The best known version is a joint of pork loin with the rind on, roasted so that the crackling is hard and bubbled and the meat is moist, and served with red cabbage, caramelised potatoes and gravy.\n\nStart a day ahead if you can: score the rind with a very sharp knife in lines 1 cm apart, pour boiling water over it and dry it with kitchen paper. Leave it uncovered in the fridge overnight. **A dry rind is the secret of crackling.** Rub it with salt and set it on a rack in a tin with bay leaves and a splash of water.\n\nRoast at 160C for 1 hour 20 minutes, until the meat reaches 68C. Turn the oven to 250C for 20 minutes, watching the rind, until it blisters all over. Rest for 15 minutes before carving. Make gravy from the tin juices, thickened with flour and cream. If the crackling is not crisp enough, put it under a hot grill for 5 minutes. Serve with red cabbage and brunede kartofler.',
     ing: [
@@ -263,6 +264,7 @@ module.exports = {
   },
 
   'brunede-kartofler': {
+    untimed: ['cooling'],
     d: 'Small boiled potatoes glazed in melted sugar and butter until golden and sticky, the sweet side of the Danish Christmas dinner.',
     meta: 'Brunede kartofler, Danish caramelised potatoes in sugar and butter, cooked for 20 minutes. Four servings, ready in 40 minutes.',
     kw: ['brunede kartofler', 'danish caramelised potatoes', 'sugar browned potatoes', 'danish christmas potatoes', 'brunede kartofler recipe'],
@@ -290,6 +292,7 @@ module.exports = {
   },
 
   'risalamande': {
+    untimed: ['cooling completely'],
     d: 'Danish cold rice pudding mixed with whipped cream and chopped almonds and served with warm cherry sauce, chilled for 3 hours.',
     meta: 'Risalamande, Danish cold rice pudding with almonds and cherry sauce, cooked for 40 minutes. Six servings, ready in 55 minutes plus chilling.',
     kw: ['risalamande', 'danish christmas rice pudding', 'rice pudding with almonds and cherry sauce', 'risalamande recipe', 'danish cold rice pudding'],
@@ -325,6 +328,7 @@ module.exports = {
   },
 
   'kransekage': {
+    untimed: ['cooling completely'],
     d: 'A tower of marzipan rings baked until chewy and glazed with white icing, the Danish celebration cake for New Year and weddings.',
     meta: 'Kransekage, Danish marzipan ring tower with white icing: the dough is chilled for an hour, then the rings are baked for 25 minutes. Serves twelve.',
     kw: ['kransekage', 'danish marzipan ring cake', 'almond ring tower cake', 'kransekage recipe', 'new year ring cake'],
@@ -460,7 +464,7 @@ module.exports = {
 
   'mustikkapiirakka': {
     d: 'A Finnish blueberry pie of a soft shortcrust base and a thick layer of fresh or frozen blueberries under a vanilla custard topping.',
-    meta: 'Mustikkapiirakka, Finnish blueberry pie with custard topping, baked for 35 minutes at 200C. Eight servings, ready in 50 minutes.',
+    meta: 'Mustikkapiirakka, Finnish blueberry pie with custard topping, baked for 35 minutes at 200C. Eight servings, ready in 1 hour 5 minutes.',
     kw: ['mustikkapiirakka', 'finnish blueberry pie', 'blueberry pie with custard topping', 'mustikkapiirakka recipe', 'finnish summer berry pie'],
     why: 'Finland is the land of blueberries, and this is the pie where they are the star, picked by the bucket in the forest in July and August and eaten warm with vanilla ice cream. Mustikkapiirakka is the simplest of the berry pies: a soft, short base, a heap of berries and a thin custard poured over before baking.\n\nThe base is flour, butter, sugar and an egg yolk, pressed into the tin without rolling. Bake it blind for 10 minutes to set it. Toss the blueberries with a spoonful of potato starch, which keeps their juice from soaking the pastry, and pile them in a thick layer. **Use blueberries straight from frozen**, not defrosted, because defrosted ones release juice and make the pie soggy.\n\nWhisk the custard from egg, sugar, soured cream and a little vanilla and pour it over the berries. Bake at 200C for 35 minutes, until the custard is set and golden at the edges. Cool for 15 minutes. Serve warm or cold, with a dollop of whipped cream or vanilla ice cream. The pie keeps for 2 days in the fridge and can also be made with bilberries.',
     ing: [
@@ -493,7 +497,7 @@ module.exports = {
 
   'kalakukko': {
     d: 'A Finnish fish pie baked inside a rye crust with small fish and pork belly for 3 hours, a speciality of Savonia.',
-    meta: 'Kalakukko, Finnish fish and pork pie sealed in a rye crust, baked for 3 hours. Six servings, ready in 3 hours 50 minutes.',
+    meta: 'Kalakukko, Finnish fish and pork pie sealed in a rye crust, baked for 3 hours. Six servings, ready in 4 hours 10 minutes.',
     kw: ['kalakukko', 'finnish fish pie in rye crust', 'savonian fish bread', 'kalakukko recipe', 'rye crust fish and pork loaf'],
     why: 'This is a dish from a time when a loaf had to carry a meal into the forest. Kalakukko is the fish bread of Savonia in eastern Finland: a loaf of rye dough filled with small freshwater fish, vendace or perch, and strips of pork belly, sealed and baked for hours until everything has melted into a rich, moist filling. The crust is not eaten in the same way, but cut away and kept for dipping.\n\nThe dough is a stiff mix of rye flour, wheat flour, water and salt. Roll it into an oval. Layer the filling in the centre: cleaned fish, thin slices of pork belly and sprinkled salt, in layers. **Fold the dough over and seal every edge with water**, so the steam cannot escape. Press the seams with a fork and brush with melted butter.\n\nBake at 150C for 3 hours, covered with foil, until the crust is dark and the filling is fully cooked. Remove the foil for the last 15 minutes. Cool for 20 minutes, then cut off the lid. The fish bones soften and are edible. Serve in wedges with butter, buttermilk, and boiled potatoes. A traditional Savonian lunch.',
     ing: [
@@ -527,7 +531,7 @@ module.exports = {
 
   'porkkanalaatikko': {
     d: 'A Finnish Christmas casserole of mashed carrots, rice, cream and egg flavoured with nutmeg and baked for 1 hour.',
-    meta: 'Porkkanalaatikko, Finnish Christmas carrot and rice casserole, baked for 1 hour. Six servings, ready in 1 hour 20 minutes.',
+    meta: 'Porkkanalaatikko, Finnish Christmas carrot and rice casserole, baked for 1 hour. Six servings, ready in 1 hour 45 minutes.',
     kw: ['porkkanalaatikko', 'finnish carrot casserole', 'carrot and rice bake', 'finnish christmas carrot dish', 'porkkanalaatikko recipe'],
     why: 'Sweet, creamy and fragrant with nutmeg, it is the dish that sits on the Finnish Christmas table beside the ham and the herring, and it is the one that children eat first. Porkkanalaatikko is a baked casserole of mashed carrots and rice, held together by egg and cream, and it can be made a day ahead.\n\nBoil the carrots until very soft, about 20 minutes, and mash them. Cook the rice separately in milk for 25 minutes until it is very soft and thick, like a rice pudding. Mix the two together with cream, eggs, a spoonful of golden syrup, salt and nutmeg. **Mash the carrots thoroughly**, since the texture should be smooth with no stringy bits. Taste the mixture: it should be gently sweet.\n\nPour into a buttered dish, scatter with breadcrumbs and dot with butter. Bake at 175C for 1 hour, until set and golden brown on top and slightly puffed. Rest for 10 minutes. Serve warm with the Christmas ham, or on its own with lingonberry jam. Leftovers reheat well and can be sliced and fried in butter the next day.',
     ing: [
@@ -545,7 +549,7 @@ module.exports = {
     ],
     st: [
       'Boil the carrots in salted water for 20 minutes until very soft. Drain and mash smooth.',
-      'Simmer the rice in the milk for 25 minutes, stirring, until very soft and thick.',
+      'While the carrots boil, simmer the rice in the milk for 25 minutes, stirring, until very soft and thick.',
       'Heat the oven to 175C. Mix the carrots, rice, eggs, cream, syrup, salt and nutmeg.',
       'Pour into a buttered 2 litre dish, scatter with the breadcrumbs and dot with butter.',
       'Bake for 1 hour until set and golden. Rest for 10 minutes and serve with the jam.'
@@ -562,7 +566,7 @@ module.exports = {
 
   'makaronilaatikko': {
     d: 'A Finnish baked macaroni casserole of minced beef, onion, milk and egg, baked for 45 minutes and served with ketchup and lingonberries.',
-    meta: 'Makaronilaatikko, Finnish macaroni and minced beef casserole baked in an egg and milk custard, baked for 45 minutes. Six servings, ready in 1 hour.',
+    meta: 'Makaronilaatikko, Finnish macaroni and minced beef casserole baked in an egg and milk custard, baked for 45 minutes. Six servings, ready in 1 hour 15 minutes.',
     kw: ['makaronilaatikko', 'finnish macaroni casserole', 'macaroni and mince bake with egg custard', 'makaronilaatikko recipe', 'finnish comfort food casserole'],
     why: 'Hot, golden and comforting, this is the dish that Finnish children remember from school lunches and grandmothers\' kitchens. Makaronilaatikko is a macaroni casserole with minced beef and onions, set in an egg and milk custard and baked until the top is browned and crisp at the edges. It is plain and filling, and it is served with ketchup and lingonberry jam.\n\nBoil the macaroni for 3 minutes less than the packet says, so that it finishes cooking in the oven. Fry the onion in butter until soft, add the minced beef and brown for 10 minutes, then season with salt, pepper and a pinch of allspice. **Mix the meat and macaroni together in the dish before adding the custard**, so that the pasta is evenly spread. Whisk eggs with milk and pour over.\n\nBake at 200C for 45 minutes, until the custard is set and the top is browned. Rest for 10 minutes before cutting into squares. It is often cut into big portions and eaten with ketchup, pickled cucumbers and a spoon of lingonberry jam, which gives a sweet and sour contrast. Leftovers are good fried in butter the next day.',
     ing: [
@@ -581,7 +585,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200C. Boil the macaroni for 3 minutes less than the packet says. Drain.',
-      'Fry the onion in the butter for 5 minutes. Add the beef and brown for 10 minutes. Season with the salt, pepper and allspice.',
+      'While the macaroni boils, fry the onion in the butter for 5 minutes. Add the beef and brown for 10 minutes. Season with the salt, pepper and allspice.',
       'Mix the beef and macaroni in a buttered 2 litre dish.',
       'Whisk the eggs and milk and pour over. Scatter with the breadcrumbs.',
       'Bake for 45 minutes until set and browned. Rest for 10 minutes and serve with the jam and ketchup.'
@@ -636,7 +640,7 @@ module.exports = {
   },
 
   'poronkaristys': {
-    d: 'Thin slices of reindeer or venison sautéed with onion and served over mashed potatoes with lingonberries, ready in 30 minutes.',
+    d: 'Thin slices of reindeer or venison sautéed with onion and served over mashed potatoes with lingonberries. The meat spends an hour in the freezer first so it slices thinly.',
     meta: 'Poronkäristys, Finnish sautéed reindeer or venison with lingonberries and mash: the meat is part-frozen to slice thinly, then cooked for 20 minutes.',
     kw: ['poronkaristys', 'finnish sauteed reindeer', 'lapland reindeer stew', 'poronkäristys recipe', 'venison with lingonberries and mash'],
     why: 'Short and sharp: freeze the meat first, slice it thin and fry it hot. That is the instruction for poronkäristys, the Lapland dish of sautéed reindeer, which is thinly sliced meat, fried quickly with onion and finished with cream. It is served over mashed potatoes with lingonberry jam, and is the most famous meal of northern Finland.\n\nReindeer meat is lean and dark. If you cannot get it, use venison, or even beef sirloin. Freeze the meat for an hour until it is firm, as it is then easy to slice into thin shavings. Melt the butter in a large heavy pan until it foams. **Fry the meat in two batches over a very high heat**, only 2 minutes each, so that it browns and does not stew in its juices. Lift out.\n\nIn the same pan, fry a sliced onion until golden, then add water, juniper, allspice and a splash of cream. Return the meat and simmer for 5 minutes, until the sauce coats it. Season with salt. Serve over a mound of butter rich mashed potato with a spoonful of lingonberry jam and pickled cucumber on the side.',
@@ -735,7 +739,7 @@ module.exports = {
     ],
     pair: ['Sima', 'Coffee', 'Hot chocolate'],
     store: 'Best the day they are made.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [245, 5, 36, 9, 1, 12, 160]
   },
 
@@ -837,7 +841,7 @@ module.exports = {
     ],
     pair: ['Irish coffee', 'Tea', 'Raspberries'],
     store: 'Keeps for 3 days in the fridge. Freeze for 1 month.',
-    rest: [360, 'Chilling'],
+    rest: [380, 'Chilling'],
     nut: [583, 6, 34, 47, 1, 23, 270]
   },
 

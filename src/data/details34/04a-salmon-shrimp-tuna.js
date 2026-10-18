@@ -175,8 +175,8 @@ module.exports = {
   },
 
   'garlic-herb-shrimp-skewers': {
-    d: 'Large shrimp marinated in lemon, garlic and herbs, threaded with zucchini and grilled in 6 minutes. Four servings in 21 minutes.',
-    meta: 'Garlic herb shrimp skewers: shrimp marinated in lemon, garlic and herbs and grilled with zucchini. Four servings in 21 minutes.',
+    d: 'Large shrimp marinated in lemon, garlic and herbs, threaded with zucchini and grilled in 6 minutes. Four servings in 36 minutes.',
+    meta: 'Garlic herb shrimp skewers: shrimp marinated in lemon, garlic and herbs and grilled with zucchini. Four servings in 36 minutes.',
     kw: ['garlic herb shrimp skewers', 'grilled garlic shrimp skewers with zucchini', 'gluten free shrimp skewers', 'dairy free garlic herb shrimp skewers'],
     why: 'Pull the shrimp off the grill when they curl into a loose C. Overcooked ones form a tight O, and raw ones stay straight. The whole cook is 6 minutes. Watch the skewers.\n\nThe marinade is olive oil, lemon juice, garlic, oregano and parsley, and it needs only 15 minutes: any longer and the acid begins to cook the shrimp. **Check the label** on frozen shrimp for phosphate additives, which show up as sodium tripolyphosphate. Choose shrimp with no additives. They are juicier and taste sweeter.\n\nZucchini goes on the same skewers and cooks in the same time. Thread loosely, leaving small gaps, so that the heat reaches each piece. Serve with white rice and a green salad. There is no salt anywhere. Shrimp supply their own sweet, briny flavour, and extra lemon at the table does the rest. Leave the tails on if you like, as they make handy handles.',
     ing: [
@@ -207,7 +207,7 @@ module.exports = {
   },
 
   'pineapple-shrimp-skewers': {
-    d: 'Large shrimp, fresh pineapple and red pepper on skewers, marinated in lime, garlic and ginger and grilled for 6 minutes. Four servings in 21 minutes.',
+    d: 'Large shrimp, fresh pineapple and red pepper on skewers, marinated in lime, garlic and ginger and grilled for 6 minutes. Four servings in 36 minutes.',
     meta: 'Pineapple shrimp skewers: shrimp, pineapple and red pepper marinated in lime, garlic and ginger and grilled. Four servings.',
     kw: ['pineapple shrimp skewers', 'grilled pineapple shrimp kebabs', 'gluten free pineapple shrimp skewers', 'dairy free pineapple shrimp skewers'],
     why: 'Pierce each shrimp twice. Put one hole near the head end and one near the tail, so that it lies flat on the skewer and does not spin when you turn it. A flat shrimp cooks evenly and gets a charred stripe on each side. Cut the pineapple into chunks the same size as the shrimp.\n\nPineapple and shrimp suit each other: the fruit is sweet and slightly sharp, and the shrimp are sweet and briny. **A lime marinade** with garlic, ginger and cilantro ties them together. Marinate for no more than 15 minutes. Grill for 6 minutes, until the shrimp are pink and the pineapple has dark edges.\n\nRed pepper adds sweetness and colour, and fresh pineapple keeps the potassium lower than most tropical fruit. Choose shrimp without added phosphate. Serve with rice and a cabbage and lime slaw, which is light and crunchy against the soft fruit. Nothing here needs salt. Peel and devein the shrimp if the shop has not.',

@@ -141,8 +141,17 @@ function serveHtml(recipe, style, heading) {
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const longDate = iso => { const [y, m, d] = String(iso).slice(0, 10).split('-').map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
 
+/* ['cooling completely', 'chilling until set'] -> "cooling completely and chilling until set" */
+const listWords = list => list.length < 2 ? list.join('') : `${list.slice(0, -1).join(', ')} and ${list[list.length - 1]}`;
+
+const SALT_WATER_REASON = /salt for the cooking water/;
+
 function nutritionNote(recipe) {
-  const reasons = (recipe.nutritionReasons || []).filter(Boolean);
+  /* When sodium is not printed, the reason given is why it is missing, not why it would be high. */
+  const omitSodium = recipe.sodiumStatus === 'omit';
+  const reasons = (recipe.nutritionReasons || []).filter(Boolean)
+    .filter(r => !(omitSodium && SALT_WATER_REASON.test(r)))
+    .concat(omitSodium ? ['sodium is not given, because the salt for the cooking water is in the ingredient list but most of it is poured away with the water, so no figure from the list would be honest'] : []);
   const caveats = reasons.length ? ` ${reasons.map(r => r[0].toUpperCase() + r.slice(1)).join('. ')}.` : '';
   const listed = reasons.length ? ` ${reasons.join('; ')}.` : '';
   const alcohol = recipe.alcohol ? ` The calories include ${recipe.alcohol} g of alcohol a serving, which is not part of the protein, carbohydrate or fat.` : '';
@@ -155,16 +164,21 @@ function nutritionNote(recipe) {
   return `<p class="form-note">No nutrition figures are given for this recipe: they cannot be worked out reliably from its ingredient list (${esc(reasons[0] || 'some lines cannot be read')}). <a href="${SITE.base}about/#nutrition">Why some recipes have none</a>.</p>`;
 }
 
-function nutritionHtml(n, kp) {
+function nutritionHtml(n, kp, sodiumStatus) {
+  /* A figure that cannot be defended is shown as not given, never as 0 or a guess. */
+  const sodium = sodiumStatus === 'omit' ? ['Sodium: not given', null, 'mg']
+    : sodiumStatus === 'partial' ? ['Sodium, before salt to taste', n[6], 'mg'] : ['Sodium', n[6], 'mg'];
   const cells = [
     ['Calories', n[0], 'kcal'], ['Protein', n[1], 'g'], ['Carbs', n[2], 'g'],
-    ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], ['Sodium', n[6], 'mg']
-  ];
+    ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], sodium
+  ].filter(([, value]) => value === null || Number.isFinite(Number(value)));
   /* Potassium and phosphorus, only for the recipes that give them (volume 34). Calculated like
      the rest, and coverage of these two is patchier, so they say "est.". */
   if (kp) cells.push(['Potassium (est.)', kp[0], 'mg'], ['Phosphorus (est.)', kp[1], 'mg']);
   return `<div class="nutrition">${cells.map(([label, value, unit]) =>
-    `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
+    value === null
+      ? `<div class="nutrition-na"><strong aria-hidden="true">&ndash;</strong><span>${label}</span></div>`
+      : `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
 }
 
 /**
@@ -303,7 +317,8 @@ function recipeSchema(recipe) {
       fatContent: `${recipe.nutrition[3]} g`,
       fiberContent: `${recipe.nutrition[4]} g`,
       sugarContent: `${recipe.nutrition[5]} g`,
-      sodiumContent: `${recipe.nutrition[6]} mg`
+      /* Left out where the page withholds it or gives only a floor. */
+      sodiumContent: recipe.sodiumStatus === 'ok' ? `${recipe.nutrition[6]} mg` : undefined
     },
     recipeIngredient: plainList(recipe.ingredients),
     recipeInstructions: recipe.steps.map((text, i) => ({
@@ -431,7 +446,7 @@ function render(recipe, context) {
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
     nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
         ${nutritionNote(recipe)}
-        ${recipe.nutrition ? nutritionHtml(recipe.nutrition, recipe.kp) : ''}
+        ${recipe.nutrition ? nutritionHtml(recipe.nutrition, recipe.kp, recipe.sodiumStatus) : ''}
         ${dietTags}`
   };
   const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');
@@ -451,9 +466,11 @@ ${breadcrumbs(trail)}
 
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}
-          <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'hands on' : 'total'}</span>
+          <span>${ICONS.clock}<strong>${recipe.cookMax > recipe.cook ? humanWaitRange(recipe.totalTime, recipe.prep + recipe.cookMax) : humanTime(recipe.totalTime)}</strong> ${recipe.restTime || recipe.restMax || recipe.untimed ? 'prep and cooking' : 'total'}</span>
           ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWaitRange(recipe.restTime, recipe.restMax)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
-          ${recipe.restTime ? `<span>${ICONS.clock}<strong>${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
+          ${recipe.restConditional ? `<span>${ICONS.clock}plus up to <strong>${humanTime(recipe.restMax)}</strong> ${esc(recipe.restLabel)}, if your ingredients need it (see the method)</span>` : ''}
+          ${recipe.untimed ? `<span>${ICONS.clock}plus time for ${esc(listWords(recipe.untimed))}, which the recipe does not time</span>` : ''}
+          ${recipe.restTime || recipe.elapsedMax > recipe.elapsedTime || recipe.untimed ? `<span>${ICONS.clock}<strong>${recipe.untimed ? 'at least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
@@ -509,8 +526,9 @@ ${breadcrumbs(trail)}
           <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
             <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
             <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
-            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.restTime, recipe.restMax)}</dd>` : ''}
-            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
+            ${recipe.restTime || recipe.restMax ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${recipe.restConditional ? `Up to ${humanTime(recipe.restMax)}, if needed` : humanWaitRange(recipe.restTime, recipe.restMax)}</dd>` : ''}
+            ${recipe.untimed ? `<dt style="color:var(--text-soft)">Not timed</dt><dd style="margin:0;font-weight:600">${esc(listWords(recipe.untimed))}</dd>` : ''}
+            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${recipe.untimed ? 'At least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
           </dl>
@@ -637,7 +655,7 @@ ${breadcrumbs(trail)}
     /* Twitter renders two labelled facts under the card. Time and yield are
        what somebody deciding whether to open a recipe wants to know. */
     cardFacts: [
-      ['Time', humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)],
+      ['Time', `${recipe.untimed ? 'at least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}`],
       ['Serves', String(recipe.servings)]
     ],
     image: img && (ILLUSTRATIONS.inRecipeSchema || !isIllustration(img))

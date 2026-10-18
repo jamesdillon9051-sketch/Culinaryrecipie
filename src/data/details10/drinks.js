@@ -5,13 +5,14 @@
 
 module.exports = {
   'eggnog': {
+    untimed: ['cooling to room temperature'],
     rest: [240, 'chilling'],
     d: 'A cooked custard base rather than raw eggs, spiked and chilled overnight. Thick enough to coat a spoon and nothing like the carton.',
     meta: 'Eggnog built on a cooked custard base — safe, thick and chilled overnight, with bourbon and dark rum.',
     kw: ['eggnog', 'homemade eggnog', 'christmas eggnog', 'eggnog recipe'],
     why: 'Traditional eggnog uses raw yolks, and the alcohol is doing the food-safety work over weeks of ageing. Cooking the base to 77°C gets there in ten minutes instead: the yolk proteins set enough to thicken and any salmonella is gone, and because the mixture never boils the custard stays smooth. Folding whipped whites in at the end is what makes it a nog rather than a milkshake — it lightens a mixture that would otherwise be almost undrinkably rich.',
     ing: [
-      '6 large eggs, separated',
+      '6 large eggs, pasteurised (or British Lion-stamped in the UK), separated',
       '150 g caster sugar',
       '500 ml whole milk',
       '250 ml double cream',
@@ -164,7 +165,7 @@ module.exports = {
       'Stud the orange all over with the cloves and cut it in half.',
       'Put the cider, apple juice, sugar, studded orange, cinnamon, star anise, allspice and ginger in a large pan.',
       'Warm over a low heat, stirring until the sugar dissolves, until it steams — about 70°C. It should never simmer.',
-      'Hold it at that temperature for 20 minutes, then take off the heat, add the apple slices, cover and infuse 15 minutes.',
+      'Keep it at that temperature over the lowest heat for 20 minutes. Take off the heat, add the apple slices, cover and infuse 15 minutes.',
       'Taste and add a little more sugar if your cider was very dry.',
       'Stir in the rum or Calvados if using, warm through for a minute, and ladle into heatproof glasses with a slice of apple in each.'
     ],
@@ -246,6 +247,7 @@ module.exports = {
   },
 
   'kombucha': {
+    untimed: ['cooling to room temperature'],
     rest: [12960, 'fermenting'],
     d: 'Sweet tea fermented by a culture into something sour and lightly fizzy, then bottled with fruit for a second ferment that carbonates it. Eight days, most of them unattended.',
     meta: 'Kombucha in two ferments — eight days of sweet tea under a SCOBY, then bottled with fruit to carbonate.',

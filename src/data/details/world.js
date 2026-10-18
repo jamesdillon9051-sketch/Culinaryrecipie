@@ -2,14 +2,14 @@
 
 module.exports = {
   'feijoada': {
-    rest: [720, 'soaking'],
+    rest: [740, 'soaking'],
     d: 'Brazil\'s national dish: black beans slow-cooked with an armoury of smoked and salted pork, served with rice, collard greens, orange and toasted cassava flour. A whole-afternoon, whole-table affair.',
     meta: 'Brazilian feijoada with black beans and smoked pork, served with rice, collards, orange and farofa. A weekend feast.',
     kw: ['feijoada recipe', 'brazilian black bean stew', 'pork and beans', 'brazilian food'],
     why: 'Salted and smoked meats must be soaked and parboiled first, or the finished pot is inedibly salty — and that same parboiling water would carry off the smoke you want, so fresh water goes in for the actual braise. Mashing a cupful of the cooked beans back into the pot thickens the broth into the glossy, almost black sauce feijoada is known for.',
     ing: [
       '500 g dried black beans, soaked overnight',
-      '300 g salted pork ribs, soaked 12 hours in several changes of water',
+      '300 g salted pork ribs, soaked 12 hours in the fridge in several changes of water',
       '250 g smoked pork loin, cubed',
       '200 g linguiça or chorizo, sliced',
       '200 g smoked bacon, cubed',
@@ -56,7 +56,7 @@ module.exports = {
     kw: ['ceviche recipe', 'peruvian ceviche', 'leche de tigre', 'fresh seafood recipe'],
     why: 'Lime juice denatures fish proteins in much the same way heat does, but it works from the outside inward — so ten to fifteen minutes gives a firm, opaque exterior with a tender centre, while thirty minutes gives you dry, chalky fish throughout. This is the opposite of most marinades: the shorter the better.',
     ing: [
-      '600 g very fresh firm white fish, such as sea bass or bream, skinned',
+      '600 g very fresh firm white fish, such as sea bass or bream, skinned, sold for eating raw and previously frozen to kill parasites',
       '10 limes, juiced, about 250 ml',
       '1 red onion, very thinly sliced',
       '1 ají limo or bird\'s eye chilli, deseeded and minced',
@@ -92,6 +92,8 @@ module.exports = {
   },
 
   'beef-empanadas': {
+    cookMax: 55,
+    untimed: ['cooling completely'],
     rest: [540, 'chilling'],
     d: 'Argentinian empanadas with a juicy, gently spiced beef filling, olives and egg, baked in a short pastry that stays crisp. Chilling the filling overnight is the trick to a juicy centre without a leaking crust.',
     meta: 'Argentinian beef empanadas with olives, egg and a juicy spiced filling in crisp baked pastry.',
@@ -125,7 +127,7 @@ module.exports = {
       'Cook the onions in the olive oil over medium-low heat for 15 minutes until soft and sweet.',
       'Raise the heat, add the beef and brown for 8 minutes, breaking it up.',
       'Add the paprika, cumin, oregano, chilli flakes and salt and cook 2 minutes, then the stock. Simmer 5 minutes — the mixture should be moist, not dry.',
-      'Cool completely, then refrigerate overnight. This is the step that makes the difference.',
+      'Cool for no more than 2 hours, then refrigerate overnight. This is the step that makes the difference.',
       'Fold the chopped egg, olives and spring onions into the cold filling.',
       'Roll the dough to 3 mm and cut 13 cm circles.',
       'Place 2 tablespoons of filling on each, brush the rim with water, fold into a half-moon and press firmly to seal.',
@@ -143,6 +145,7 @@ module.exports = {
   },
 
   'jerk-chicken': {
+    rest: [720, 'marinating'],
     d: 'Chicken marinated overnight in scotch bonnet, allspice and thyme, then cooked slowly over indirect heat until the skin is lacquered and the smoke has worked its way through.',
     meta: 'Jamaican jerk chicken with scotch bonnet, allspice and thyme, slow-cooked over indirect heat for smoky lacquered skin.',
     kw: ['jerk chicken recipe', 'jamaican jerk marinade', 'scotch bonnet chicken', 'caribbean bbq'],
@@ -191,6 +194,8 @@ module.exports = {
   },
 
   'cuban-sandwich': {
+    untimed: ['cooling completely'],
+    cookMax: 188,
     rest: [480, 'marinating'],
     d: 'Roast pork, ham, Swiss cheese, pickles and mustard pressed in Cuban bread until the cheese melts and the crust flattens and crisps. No lettuce, no tomato, no mayonnaise, no argument.',
     meta: 'The classic Cuban sandwich — roast pork, ham, Swiss, pickles and mustard, pressed until crisp. No mayo, no lettuce.',
@@ -216,7 +221,7 @@ module.exports = {
     ],
     st: [
       'Blend the garlic, orange juice, lime juice, oregano, cumin, olive oil and salt into a mojo marinade.',
-      'Pour over the pork shoulder, cover, and marinate at least 8 hours or overnight.',
+      'Pour over the pork shoulder, cover, and marinate in the fridge for at least 8 hours or overnight.',
       'Roast at 160°C / 320°F for 3 hours, basting occasionally, until the pork pulls apart easily. Cool completely, then slice thinly — cold pork slices far more neatly.',
       'Split the bread lengthways and spread mustard on both cut faces.',
       'Layer, in this order: pickles, roast pork, ham, then Swiss cheese. The order matters; the cheese sits against the top so it melts down through everything.',
@@ -236,6 +241,7 @@ module.exports = {
   },
 
   'moroccan-chicken-tagine': {
+    cookMax: 90,
     d: 'Chicken braised with preserved lemon, olives and warm spices until it falls off the bone, in a sauce reduced to a golden glaze. The preserved lemon is what makes it taste unmistakably Moroccan.',
     meta: 'Moroccan chicken tagine with preserved lemon, olives and warm spices. Fall-apart tender in just over an hour.',
     kw: ['chicken tagine recipe', 'moroccan tagine', 'preserved lemon chicken', 'gluten free dinner'],
@@ -424,6 +430,7 @@ module.exports = {
   },
 
   'lahmacun': {
+    cookMax: 35,
     rest: [90, 'proving'],
     d: 'Paper-thin Turkish flatbread spread with spiced minced lamb and baked in a fierce oven for four minutes. Rolled up with parsley, onion and a hard squeeze of lemon.',
     meta: 'Turkish lahmacun with paper-thin dough and spiced lamb topping, baked in minutes. Rolled with parsley and lemon.',
@@ -460,7 +467,7 @@ module.exports = {
       'Mix the flour, yeast, sugar and salt, add the warm water and olive oil, and knead 8 minutes until smooth. Prove, covered, for 1 hour until doubled.',
       'Grate the onion, pepper and tomatoes, then squeeze each one hard in a cloth. The topping must be almost dry.',
       'Combine the lamb with the squeezed vegetables, garlic, tomato purée, pepper paste, parsley, spices and salt. Mix thoroughly with your hands into a spreadable paste and refrigerate 30 minutes.',
-      'Heat the oven to its maximum, at least 250°C / 480°F, with a baking steel or heavy tray inside for 45 minutes.',
+      'While the dough finishes proving, heat the oven to its maximum, at least 250°C / 480°F, with a baking steel or heavy tray inside for 45 minutes.',
       'Divide the dough into six. Roll each as thin as you can, 25 cm across and almost translucent, using flour sparingly.',
       'Spread a very thin layer of the meat mixture right to the edges, using the back of a spoon. You should almost be able to see the dough through it.',
       'Slide onto the hot steel and bake for 4 to 6 minutes, until the edges are crisp and the meat is cooked and sizzling.',

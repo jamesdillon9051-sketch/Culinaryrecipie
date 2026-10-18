@@ -505,8 +505,23 @@ const expectedRecipes = require('../src/data/stats').recipeCount;
 if (index.length !== expectedRecipes)
   problems.push(`search index has ${index.length} entries, expected ${expectedRecipes}`);
 for (const entry of index) {
-  if (entry.i && !existing.has(`/assets/img/recipes/${entry.i}.jpg`)) {
-    problems.push(`search index references a missing image: ${entry.i}`);
+  const file = entry.i === 1 ? entry.g : entry.i;
+  if (file && !existing.has(`/assets/img/recipes/${file}.jpg`)) {
+    problems.push(`search index references a missing image: ${file}`);
+  }
+}
+/* The index is fetched by everyone who searches. It carries the words a reader searches by, not
+   the generated search-phrase long tail or the quantities, and it must stay small enough to be. */
+{
+  const bytes = fs.statSync(path.join(DIST, 'search-index.json')).size;
+  if (bytes > 3.6 * 1024 * 1024) problems.push(`search-index.json is ${(bytes / 1048576).toFixed(2)} MB, over the 3.6 MB budget`);
+  const fold = t => require('../src/lib/keywords').fold(String(t).toLowerCase());
+  const filler = /(?:^| )(?:printable|photos|instructions)(?= |$)/;
+  for (const entry of index) {
+    if (filler.test(entry.s)) { problems.push(`search index: ${entry.g} still carries generated filler words`); break; }
+    if (entry.r === 0) { problems.push(`search index: ${entry.g} sends a zero rating`); break; }
+    const missing = fold(entry.t).split(/[^a-z0-9'-]+/).map(w => w.replace(/^['-]+|['-]+$/g, '')).filter(w => w.length > 2 && !entry.s.includes(w));
+    if (missing.length) problems.push(`search index: "${entry.t}" is not findable by ${missing.join(', ')}`);
   }
 }
 
@@ -1027,13 +1042,57 @@ if (!vercelCsp) {
   }
 }
 
-/* --- cards painted by script say "Not yet rated" too ---------------------- */
-/* src/lib/util.js prints it for a recipe nobody has rated, because "0.0" beside
-   five empty stars says readers disliked it. directory.js paints the cards on
-   the recipes, search and favourites pages itself, and printed "0.0" on all
-   2,415 of them until it was given the same rule. */
-if (!fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8').includes('stars--unrated')) {
-  problems.push('src/assets/js/directory.js: prints "0.0" for a recipe nobody has rated (no stars--unrated)');
+/* --- the testing register names real recipes and claims nothing yet ------ */
+{
+  const notes = require('../src/data/testing-notes.json').recipes;
+  const slugs = new Set(require('../src/build').loadRecipes().map(r => r.slug));
+  for (const [slug, n] of Object.entries(notes)) {
+    if (!slugs.has(slug)) problems.push(`src/data/testing-notes.json: no recipe "${slug}"`);
+    if (n.status === 'cooked' && !(n.cookedBy && n.date)) problems.push(`src/data/testing-notes.json: "${slug}" is marked cooked without who and when`);
+  }
+}
+
+/* --- one nutrient that cannot be defended is withheld, not printed -------- */
+/* Carbonara printed 2,710 mg of sodium because all the salt for the pasta water was counted. Where
+   the calculator flags that, the table says "not given" and the Recipe JSON-LD has no sodium; no
+   recipe's figures may read 0-for-unknown, NaN or undefined. */
+{
+  const calc = require('./nutrition-calc');
+  const built = require('../src/build').loadRecipes();
+  let checked = 0;
+  for (const r of built) {
+    if (!r.nutrition) continue;
+    const file = path.join(DIST, 'recipes', r.slug, 'index.html');
+    if (!fs.existsSync(file)) continue;
+    const html = fs.readFileSync(file, 'utf8');
+    const table = (html.match(/<div class="nutrition">[\s\S]*?<\/div><\/div>/) || [''])[0];
+    if (/NaN|undefined|null/.test(table)) problems.push(`recipes/${r.slug}: the nutrition table prints NaN, undefined or null`);
+    const flags = calc.computeRecipe(r.ingredients, r.servings, { drink: r.category === 'Drinks' }).flags;
+    if (flags.includes('salt-water')) {
+      checked++;
+      if (!/Sodium: not given/.test(table)) problems.push(`recipes/${r.slug}: sodium counts the cooking-water salt but the table prints a figure`);
+      if (/"sodiumContent"/.test(html)) problems.push(`recipes/${r.slug}: sodium counts the cooking-water salt but the JSON-LD gives sodiumContent`);
+    }
+  }
+  if (!checked) problems.push('nutrition: no recipe has a cooking-water salt flag, so the sodium check tested nothing');
+}
+
+/* --- no rating state where there are no reviews ------------------------- */
+/* An unrated recipe shows no stars at all: "0.0" says readers disliked it, and a "Not yet rated" line
+   on every card and header (as the site printed until October 2026) is a public verdict of its own.
+   Stars appear only from real reviews in src/data/reviews.json, on the pages and on the cards
+   directory.js paints. */
+{
+  const reviewed = Object.keys(require('../src/data/reviews.json').reviews || require('../src/data/reviews.json') || {}).length;
+  const unrated = /Not yet rated|no ratings yet|stars--unrated/;
+  if (unrated.test(fs.readFileSync(path.join(DIST, 'src', 'assets', 'js', 'directory.js'), 'utf8'))) {
+    problems.push('src/assets/js/directory.js: paints a public "not yet rated" state on cards');
+  }
+  for (const page of ['index.html', 'recipes/index.html', 'recipes/spaghetti-carbonara/index.html', 'recipes/macarons/index.html', 'categories/dinner/index.html']) {
+    const html = fs.readFileSync(path.join(DIST, page), 'utf8');
+    if (unrated.test(html)) problems.push(`${page}: shows a public "not yet rated" state`);
+    if (!reviewed && /class="stars"/.test(html)) problems.push(`${page}: shows star ratings although src/data/reviews.json holds no reviews`);
+  }
 }
 
 /* --- the menu breakpoint is one number in two files ---------------------- */
@@ -1084,11 +1143,18 @@ try {
    keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
 /* The health audit sits in the same list: no recipe may promise a health outcome or carry one of
    the withdrawn health labels, and the volumes whose nutrition is computed from the ingredient list
-   must still reproduce it. */
-for (const audit of ['timing-audit.js', 'timing-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+   must still reproduce it. The consistency audit fails only on its confirmed findings (a whole-
+   recipe time claim the recipe cannot keep, cooking stages far beyond the cook time, the card or
+   JSON-LD disagreeing with the recipe); its review list is for a person (docs/…/consistency-review.md).
+   The food-handling audit fails on its confirmed findings too (oil preserves kept too long, jars
+   kept in the cupboard unprocessed, raw egg without pasteurised eggs, raw fish with no parasite
+   freezing, marinades left out of the fridge, raw flour), and its self-test pins each rule down. */
+for (const audit of ['timing-audit.js', 'timing-corpus.js', 'consistency-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
-                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
+                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
+                     ['recipe-consistency.js', '--built', '--list', 'confirmed'],
+                     ['food-handling-audit.js', '--selftest'], ['food-handling-audit.js', '--list', 'confirmed']]) {
   const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,

@@ -89,6 +89,7 @@ module.exports = {
   },
 
   'buffalo-wings': {
+    cookMax: 75,
     rest: [240, 'chilling'],
     d: 'The Anchor Bar original, baked rather than fried using a baking powder trick that makes the skin crackle like it came out of a fryer, then tossed in a butter-emulsified hot sauce.',
     meta: 'Crispy baked buffalo wings with the baking powder trick — fried-level crunch, no deep fryer, plus a real butter hot sauce.',
@@ -133,7 +134,7 @@ module.exports = {
   },
 
   'southern-fried-chicken': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'Buttermilk-brined chicken in a craggy, well-seasoned crust, fried in a cast-iron skillet. The double dredge and a rest before frying are what give it those shattering ridges.',
     meta: 'Southern fried chicken with a buttermilk brine and craggy double-dredged crust. Cast-iron method, properly seasoned.',
     kw: ['fried chicken recipe', 'southern fried chicken', 'buttermilk fried chicken', 'crispy chicken'],
@@ -227,6 +228,7 @@ module.exports = {
   },
 
   'meatloaf': {
+    untimed: ['cooling completely'],
     d: 'A meatloaf that slices cleanly and stays moist, built on a panade and free-formed on a tray rather than steamed in a tin. The tangy glaze goes on in two coats.',
     meta: 'Classic American meatloaf with a milk-bread panade and tangy two-coat glaze. Moist, sliceable, never dense.',
     kw: ['meatloaf recipe', 'classic american meatloaf', 'meatloaf glaze', 'comfort food dinner'],
@@ -482,8 +484,9 @@ module.exports = {
   },
 
   'creamy-tomato-soup': {
+    cookMax: 55,
     d: 'Roasting the tomatoes first concentrates them into something far deeper than a stovetop soup, and a splash of cream at the end rounds off the acidity. Made for dunking grilled cheese.',
-    meta: 'Velvety roasted tomato soup with deep caramelised flavour and a swirl of cream. Ready in 40 minutes, naturally gluten-free.',
+    meta: 'Velvety roasted tomato soup with deep caramelised flavour and a swirl of cream. Ready in 55 minutes to 1 hour 5 minutes, naturally gluten-free.',
     kw: ['tomato soup recipe', 'roasted tomato soup', 'creamy tomato soup', 'easy soup recipe'],
     why: 'Roasting drives off water and caramelises the tomatoes\' sugars, which is why a roasted soup tastes concentrated and sweet where a simmered one tastes thin and sharp. A pinch of bicarbonate of soda neutralises some of the acidity, letting the cream go in without any risk of splitting.',
     ing: [
@@ -657,7 +660,7 @@ module.exports = {
     why: 'Hollandaise is an emulsion of butter in egg yolk, stabilised by lecithin, and it splits when the butter goes in too fast or the mixture exceeds about 65°C. A blender solves both problems: it shears the butter into tiny droplets and the yolks are warmed only by the butter itself, never by direct heat.',
     ing: [
       '# For the hollandaise',
-      '3 large egg yolks',
+      '3 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '180 g unsalted butter, melted and hot',
       '1 tbsp lemon juice',
       '1 tsp white wine vinegar',

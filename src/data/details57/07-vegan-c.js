@@ -186,6 +186,7 @@ module.exports = {
   },
 
   'vegan-sushi': {
+    untimed: ['cooling the rice'],
     d: 'Nori rolls filled with seasoned sushi rice, cucumber, avocado and carrot, cut into rounds and served with tamari.',
     meta: 'Vegan sushi rolls with cucumber, avocado and carrot, cooked for 20 minutes. Four servings, ready in 1 hour.',
     kw: ['vegan sushi', 'cucumber and avocado sushi rolls', 'vegetable maki rolls', 'plant based sushi at home', 'sushi rolls with nori'],

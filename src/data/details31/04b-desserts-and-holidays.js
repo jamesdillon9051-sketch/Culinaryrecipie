@@ -10,6 +10,7 @@
 
 module.exports = {
   'dubai-chocolate-bar': {
+    untimed: ['cooling completely'],
     d: 'A chocolate bar filled with crisp toasted kataifi pastry, pistachio cream and tahini. The viral sweet inspired by knafeh, made in a mould with a chocolate shell.',
     meta: 'Dubai chocolate bar: a milk chocolate shell filled with crisp toasted kataifi pastry, pistachio cream and tahini, inspired by knafeh.',
     kw: ['dubai chocolate bar', 'dubai chocolate', 'pistachio kataifi chocolate bar', 'homemade dubai chocolate', 'dubai chocolate recipe'],
@@ -73,6 +74,7 @@ module.exports = {
   },
 
   'edible-cookie-dough': {
+    untimed: ['cooling completely'],
     d: 'Soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, so it is safe to eat by the spoonful. Ready in 20 minutes.',
     meta: 'Edible cookie dough: soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, safe to eat by the spoonful.',
     kw: ['edible cookie dough', 'safe to eat cookie dough', 'edible chocolate chip cookie dough', 'cookie dough without eggs', 'edible cookie dough recipe'],
@@ -108,7 +110,7 @@ module.exports = {
     d: 'Bright red strawberry jam made from 1 kg of ripe berries, sugar and lemon juice, boiled to setting point. Makes four jars, and is better than any in the shops.',
     meta: 'Strawberry jam: bright red jam from ripe strawberries, sugar and lemon juice, boiled to setting point and potted in jars. Makes four 300 ml jars.',
     kw: ['strawberry jam', 'homemade strawberry jam', 'easy strawberry jam', 'strawberry jam without pectin', 'strawberry jam recipe'],
-    why: 'Strawberry jam is the first jam that most people ever make, and it is one of the best. The fruit is ripe and sweet, the method is simple, and the result is a bright red preserve that tastes of fresh strawberries far more than anything from a jar in the shops. Strawberries are low in pectin, the natural substance that makes a jam set, so the recipe relies on the pectin in the lemon juice and on cooking the jam to the right temperature, and it needs no added pectin. The berries are first mixed with the sugar and lemon juice and left for an hour, so the sugar pulls out the juice and the fruit holds its shape as it cooks. The mixture is then brought slowly to the boil to dissolve the sugar and boiled hard until it reaches the setting point, 105°C on a thermometer, or when a spoonful on a chilled saucer wrinkles when it is pushed with a finger. This is the crucial test, so do not skip it. Jam that is not boiled long enough is runny, and jam that is boiled for too long becomes dark and sticky and loses its fresh taste. The finished jam is potted into sterilised jars while it is hot and sealed at once. It keeps for a year in a cool, dark cupboard, and is good on toast, scones, in a sponge cake, stirred into yoghurt, or on rice pudding.',
+    why: 'Strawberry jam is the first jam that most people ever make, and it is one of the best. The fruit is ripe and sweet, the method is simple, and the result is a bright red preserve that tastes of fresh strawberries far more than anything from a jar in the shops. Strawberries are low in pectin, the natural substance that makes a jam set, so the recipe relies on the pectin in the lemon juice and on cooking the jam to the right temperature, and it needs no added pectin. The berries are first mixed with the sugar and lemon juice and left for an hour, so the sugar pulls out the juice and the fruit holds its shape as it cooks. The mixture is then brought slowly to the boil to dissolve the sugar and boiled hard until it reaches the setting point, 105°C on a thermometer, or when a spoonful on a chilled saucer wrinkles when it is pushed with a finger. This is the crucial test, so do not skip it. Jam that is not boiled long enough is runny, and jam that is boiled for too long becomes dark and sticky and loses its fresh taste. The finished jam is potted into sterilised jars while it is hot and sealed at once. Kept in the fridge, it is good on toast, scones, in a sponge cake, stirred into yoghurt, or on rice pudding.',
     ing: [
       '1 kg ripe strawberries, hulled and halved, or quartered if large',
       '800 g caster sugar',
@@ -120,7 +122,7 @@ module.exports = {
       'Tip the fruit and juices into a wide, heavy pan and heat gently, stirring, until the sugar has completely dissolved.',
       'Bring to a full boil and boil hard for 15 to 20 minutes, stirring often and skimming off any foam, until the jam reaches 105°C / 221°F on a sugar thermometer.',
       'To test the set, spoon a little jam onto a chilled saucer, wait 1 minute and push it with a finger. If the surface wrinkles, it has set. If not, boil for 3 minutes more and test again.',
-      'Take the pan off the heat and let it stand for 10 minutes, stirring gently, so that the fruit is evenly spread. Ladle into hot sterilised jars to within 5 mm of the top, seal at once and cool.'
+      'Take the pan off the heat and let it stand for 10 minutes, stirring gently, so that the fruit is evenly spread. Ladle into hot sterilised jars to within 5 mm of the top, seal at once, cool and refrigerate.'
     ],
     tips: [
       'Choose ripe but firm strawberries. Overripe fruit is low in pectin and gives a soft, syrupy jam.',
@@ -128,7 +130,7 @@ module.exports = {
       'Test the set with a chilled saucer, and take the pan off the heat while you do it. Jam keeps boiling and can pass the point while you are checking.'
     ],
     pair: ['Buttered toast', 'Scones and cream', 'Greek yoghurt'],
-    store: 'Unopened jars keep in a cool, dark cupboard for up to 1 year. Once opened, keep in the fridge for up to 4 weeks.',
+    store: 'Keep the jars in the fridge: unopened for up to 1 year, opened for up to 4 weeks. Hot jars and a seal alone do not make jam safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [88, 0, 22, 0, 1, 21, 5],
     rest: [60, 'Macerating']
   },
@@ -154,7 +156,7 @@ module.exports = {
       'Purée the apples with a stick blender until completely smooth, or press them through a sieve to remove the skins.',
       'Heat the oven to 150°C / 300°F (130°C fan). Pour the purée into a wide roasting tin and stir in the brown sugar, cinnamon, cloves, nutmeg, salt and lemon juice.',
       'Bake uncovered for 3 hours, stirring every 30 minutes and scraping the edges into the middle, until the butter is very dark, thick and glossy and holds a line when a spoon is drawn through it.',
-      'Stir in the vanilla. Spoon into hot sterilised jars and seal, or cool and keep in the fridge.'
+      'Stir in the vanilla. Spoon into hot sterilised jars and seal, then cool and keep in the fridge.'
     ],
     tips: [
       'Use a wide roasting tin, not a deep dish. A large surface lets the water evaporate, and the butter thickens sooner.',
@@ -162,7 +164,7 @@ module.exports = {
       'Stop cooking when a spoonful on a cold saucer does not leak liquid around the edge. Apple butter thickens further as it cools.'
     ],
     pair: ['Buttered toast', 'Biscuits', 'Pork chops'],
-    store: 'Keeps in the fridge for up to 4 weeks. Sealed in sterilised jars it keeps in a cool, dark cupboard for up to 6 months. Freezes for 6 months.',
+    store: 'Keeps in the fridge for up to 4 weeks, and freezes for 6 months. Sealing it hot in sterilised jars does not make it safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [56, 0, 14, 0, 1, 11, 20]
   },
 
@@ -185,7 +187,7 @@ module.exports = {
       'Scrape into a large, heavy saucepan and add the remaining vinegar and the sugar. Bring to a full rolling boil over high heat, stirring, and boil for 10 minutes.',
       'Stir in the liquid pectin, return to a full rolling boil and boil hard for exactly 1 minute, stirring constantly. Take the pan off the heat and skim off the foam.',
       'Let the jelly stand for 5 minutes, stirring gently, so the pieces of pepper are evenly spread through it and do not all float to the top.',
-      'Ladle into hot sterilised jars to within 6 mm of the top, wipe the rims and seal at once. Cool.',
+      'Ladle into hot sterilised jars to within 6 mm of the top, wipe the rims and seal at once. Cool, then refrigerate.',
       'To serve, spoon over a block of cream cheese (optional) and serve with crackers (optional).'
     ],
     tips: [
@@ -194,7 +196,7 @@ module.exports = {
       'Stir the jelly gently before jarring it. It sets while the pepper flecks float, and stirring keeps them spread throughout.'
     ],
     pair: ['Cream cheese and crackers', 'Baked ham', 'Sharp cheddar'],
-    store: 'Sealed jars keep in a cool, dark cupboard for up to 1 year. Once opened, keep in the fridge for up to 3 months. The jelly sets fully within 24 hours.',
+    store: 'Keep the jars in the fridge and use within 3 months. Hot jars and a seal alone do not make pepper jelly safe for the cupboard: peppers are a low-acid food, and only a tested recipe processed in a boiling-water canner can be kept there. The jelly sets fully within 24 hours.',
     nut: [84, 0, 21, 0, 0, 20, 5]
   }
 };

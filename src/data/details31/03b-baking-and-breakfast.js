@@ -10,6 +10,7 @@
 
 module.exports = {
   'fortune-cookies': {
+    untimed: ['cooling completely'],
     d: 'Crisp, vanilla-scented cookies made from a thin batter, baked into discs and folded round a paper fortune while hot. Sixteen cookies, and it takes a little nerve.',
     meta: 'Fortune cookies: crisp vanilla and almond cookies baked from a thin batter, folded while hot round a paper fortune into the classic crescent shape.',
     kw: ['fortune cookies', 'homemade fortune cookies', 'fortune cookie recipe', 'how to make fortune cookies', 'crispy fortune cookies'],
@@ -81,7 +82,7 @@ module.exports = {
     pair: ['Fresh strawberries', 'Whipped cream', 'Iced tea'],
     store: 'Keeps covered in the fridge for up to 3 days. Do not freeze, as the jelly weeps when it thaws.',
     nut: [376, 5, 44, 20, 1, 28, 200],
-    rest: [180, 'Chilling']
+    rest: [195, 'Chilling']
   },
 
   'devon-splits': {
@@ -120,6 +121,7 @@ module.exports = {
   },
 
   'jamaican-ginger-cake': {
+    untimed: ['cooling completely'],
     d: 'A dark, sticky, moist loaf cake made with black treacle, muscovado sugar, warm spices and chopped stem ginger. It gets stickier and better after a day.',
     meta: 'Jamaican ginger cake: a dark, moist and sticky loaf of black treacle, muscovado sugar, warm spices and stem ginger that improves after a day.',
     kw: ['jamaican ginger cake', 'jamaica ginger cake', 'sticky ginger cake', 'dark ginger loaf cake', 'jamaican ginger cake recipe'],
@@ -158,6 +160,7 @@ module.exports = {
   },
 
   'linzer-torte': {
+    untimed: ['cooling completely'],
     d: 'The Austrian nut tart: a spiced hazelnut shortcrust pastry filled with raspberry jam, topped with a lattice, baked and dusted with icing sugar.',
     meta: 'Linzer torte: the Austrian tart of spiced hazelnut shortcrust pastry with a raspberry jam filling and a lattice top, dusted with icing sugar.',
     kw: ['linzer torte', 'austrian linzer torte', 'linzer torte recipe', 'hazelnut linzer torte', 'raspberry linzer torte'],

@@ -404,6 +404,7 @@ module.exports = {
   },
 
   'panforte': {
+    untimed: ['cooling completely'],
     d: 'A flat, dense Sienese slab of nuts, dried fruit and spice held together by nothing but boiled honey and sugar. Thirteenth-century, barely a cake, and it keeps for months.',
     meta: 'Panforte di Siena — nuts and candied fruit bound with boiled honey syrup, spiced and pressed flat. Keeps for months.',
     kw: ['panforte', 'panforte di siena', 'italian christmas cake', 'nut and fruit cake'],
@@ -503,7 +504,7 @@ module.exports = {
   },
 
   'simnel-cake': {
-    rest: [120, 'cooling'],
+    rest: [150, 'cooling'],
     d: 'A light fruit cake with a disc of marzipan baked through the middle and eleven balls on top, one for each apostle minus Judas. Easter, and the only fruit cake that needs no maturing.',
     meta: 'Simnel cake with a marzipan layer baked through the middle and eleven toasted balls on top. No maturing needed.',
     kw: ['simnel cake', 'easter cake', 'marzipan fruit cake', 'simnel cake recipe'],

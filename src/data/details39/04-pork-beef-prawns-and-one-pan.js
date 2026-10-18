@@ -176,7 +176,7 @@ module.exports = {
 
   'greek-beef-pitas': {
     d: 'Thin slices of beef marinated in lemon, oregano and garlic, fried for 8 minutes and stuffed into pitta with tzatziki.',
-    meta: 'Greek beef pitas: thin slices of beef marinated in lemon, oregano and garlic, fried and stuffed into pitta with tzatziki. Four servings in 25 minutes.',
+    meta: 'Greek beef pitas: thin slices of beef marinated in lemon, oregano and garlic, fried and stuffed into pitta with tzatziki. Four servings in 40 minutes.',
     kw: ['greek beef pitas', 'beef gyros pitas', 'greek beef pitta with tzatziki', 'easy greek beef pitas', 'beef souvlaki pitas'],
     why: 'It is the cooking of a Greek street stall in a home kitchen: thin slices of meat, bold herbs, a creamy yoghurt sauce and a warm pitta. It is quick because the beef is cut small and cooks in minutes.\n\nSlice the sirloin as thin as you can, against the grain. Half-freezing it for 20 minutes makes this easier. Toss with olive oil, lemon, oregano, garlic and salt. **Leave it for 15 minutes**, which is long enough to season it without making it mushy.\n\nCook in a very hot pan in two batches, 4 minutes each, so that the meat browns rather than steams. If your pan runs hot, check at 3 minutes.\n\nMake the tzatziki while the beef cooks: grated cucumber squeezed dry, stirred into yoghurt with garlic, lemon and dill. Warm the pittas, then pile in the beef with tomato, red onion, a few chips if you like, and a generous spoon of tzatziki.',
     ing: [

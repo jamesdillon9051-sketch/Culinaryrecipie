@@ -197,6 +197,7 @@ module.exports = {
   },
 
   'chai-tow-kway': {
+    untimed: ['cooling'],
     d: 'Cubes of steamed radish and rice flour cake pan-fried with egg, preserved radish and garlic until crisp at the edges.',
     meta: 'Chai tow kway: cubes of steamed radish and rice flour cake pan-fried with egg and garlic. Six servings, steamed and fried for about 75 minutes.',
     kw: ['chai tow kway', 'singapore fried carrot cake', 'radish cake singapore', 'chai tow kway recipe', 'white carrot cake with egg'],
@@ -526,6 +527,7 @@ module.exports = {
   },
 
   'spicy-tuna-roll': {
+    untimed: ['cooling the rice'],
     d: 'Sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise and sesame oil, sliced into eight pieces.',
     meta: 'Spicy tuna roll: sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise. Four servings, ready in 50 minutes.',
     kw: ['spicy tuna roll', 'spicy tuna roll recipe', 'homemade spicy tuna sushi', 'spicy tuna maki', 'sushi rolls with spicy tuna'],
@@ -563,7 +565,7 @@ module.exports = {
 
   'japanese-ginger-dressing': {
     d: 'A smooth, tangy dressing of onion, fresh ginger, soy sauce, rice vinegar and oil, blended until pale and creamy like a teppanyaki salad dressing.',
-    meta: 'Japanese ginger dressing: onion, fresh ginger, soy sauce, rice vinegar and oil blended until pale and creamy. Six servings, ready in 10 minutes.',
+    meta: 'Japanese ginger dressing: onion, fresh ginger, soy sauce, rice vinegar and oil blended until pale and creamy. Six servings, ready in 40 minutes.',
     kw: ['japanese ginger dressing', 'hibachi ginger dressing', 'japanese ginger salad dressing', 'japanese steakhouse ginger dressing', 'ginger onion dressing'],
     why: 'If a salad has ever been the best part of a teppanyaki dinner, this was why. The dressing is pale orange, creamy without any cream, and sharp with ginger and onion. It looks complicated, and it is a blender job.\n\nThe ingredients are plain: a small onion, a good chunk of fresh ginger, a little carrot for sweetness and colour, soy sauce, rice vinegar, sugar, a spoonful of ketchup and oil. Ketchup sounds strange but it adds tomato body and a mild sweetness that smooths the edges. **Use a neutral oil and add it last, with the motor running.** It forms an emulsion, which is why the dressing turns pale and thick.\n\nPeel the ginger and cut it into thin coins so the blender can grind it, otherwise the dressing is stringy. If it is still textured, strain it through a sieve.\n\nBlend for a full minute, scraping down the sides. Taste and adjust: it should be sharp, a little sweet and strongly gingery. Chill for 30 minutes before serving, as the flavours deepen in the fridge.',
     ing: [
@@ -627,7 +629,7 @@ module.exports = {
     pair: ['Spiced rice', 'Cucumber yoghurt', 'Flatbread', 'Dates'],
     store: 'Keeps in the fridge for 3 days. Reheat in its juices.',
     nut: [729, 44, 10, 57, 2, 4, 770],
-    rest: [720, 'Marinating overnight']
+    rest: [735, 'Marinating overnight']
   },
 
   'chicken-machboos': {

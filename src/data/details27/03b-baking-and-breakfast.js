@@ -134,7 +134,7 @@ module.exports = {
       '200 g smoked salmon slices',
       '8 very fresh eggs',
       '1 tbsp white wine vinegar',
-      '3 egg yolks',
+      '3 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp lemon juice',
       '175 g butter, melted and hot',
       '0.25 tsp fine salt',
@@ -157,7 +157,7 @@ module.exports = {
       'Pour the butter in slowly. Adding it all at once splits the sauce, and if it does, whisk in a teaspoon of hot water to bring it back.'
     ],
     pair: ['Fresh orange juice', 'Black coffee', 'A rocket salad'],
-    store: 'Best eaten straight away. The hollandaise keeps warm for up to 1 hour in a bowl over warm water, and leftover sauce does not reheat well. The yolks in hollandaise are only lightly cooked, so use very fresh eggs, or pasteurised ones for anyone pregnant, elderly or with a weakened immune system.',
+    store: 'Best eaten straight away. The hollandaise keeps warm for up to 1 hour in a bowl over warm water, and leftover sauce does not reheat well. The yolks in hollandaise are only lightly cooked, which is why the ingredients call for pasteurised yolks.',
     nut: [664, 29, 29, 48, 2, 4, 1150]
   },
 

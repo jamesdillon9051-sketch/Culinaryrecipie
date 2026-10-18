@@ -71,7 +71,7 @@ module.exports = {
 
   'pasta-alla-norma': {
     d: 'Catania\'s great pasta: fried aubergine folded into a bright tomato sauce and finished with salty ricotta salata. Frying the aubergine properly is the whole dish.',
-    meta: 'Sicilian pasta alla Norma with fried aubergine, tomato and ricotta salata. A vegetarian classic in under an hour.',
+    meta: 'Sicilian pasta alla Norma with fried aubergine, tomato and ricotta salata. A vegetarian classic in 1 hour 30 minutes.',
     kw: ['pasta alla norma recipe', 'sicilian aubergine pasta', 'vegetarian pasta', 'eggplant pasta'],
     why: 'Aubergine is a sponge: salted and drained first, its cell structure collapses and it absorbs far less oil while frying, which is the difference between silky and greasy. Ricotta salata is pressed and aged rather than fresh, so it grates into salty shards instead of melting into the sauce.',
     ing: [
@@ -107,6 +107,7 @@ module.exports = {
   },
 
   'melanzane-alla-parmigiana': {
+    rest: [75, 'waiting'],
     d: 'Layers of fried aubergine, tomato, basil and mozzarella baked until the edges catch and the middle sets into something you can cut into squares. Southern Italy\'s answer to lasagne, and no pasta in sight.',
     meta: 'Classic melanzane alla parmigiana with fried aubergine, tomato and mozzarella, baked until it slices cleanly.',
     kw: ['melanzane alla parmigiana recipe', 'aubergine parmigiana', 'eggplant parmesan', 'vegetarian bake'],
@@ -256,6 +257,7 @@ module.exports = {
   },
 
   'panzanella': {
+    rest: [65, 'soaking'],
     d: 'A Tuscan salad built to use up stale bread: torn crusts soaked in tomato juice and vinegar until they turn silky, tossed with ripe tomatoes, cucumber, onion and basil.',
     meta: 'Tuscan panzanella with stale bread, ripe tomatoes and basil. A vegan summer salad that improves as it stands.',
     kw: ['panzanella recipe', 'tuscan bread salad', 'tomato bread salad', 'vegan summer salad'],
@@ -325,6 +327,7 @@ module.exports = {
   },
 
   'cannoli': {
+    untimed: ['cooling completely'],
     rest: [540, 'draining'],
     d: 'Blistered fried shells filled to order with sweetened sheep\'s-milk ricotta and candied peel. Filling them any earlier than the moment they are eaten is the one thing Sicilians will not forgive.',
     meta: 'Sicilian cannoli with blistered fried shells and sweet ricotta filling. Fill to order — here is why it matters.',
@@ -371,7 +374,7 @@ module.exports = {
   },
 
   'tiramisu-gelato': {
-    rest: [540, 'chilling'],
+    rest: [560, 'chilling'],
     d: 'Proper Italian gelato: less fat, less air and served warmer than ice cream, which is why it tastes so much more intensely of what is in it. This vanilla base takes any flavour you like.',
     meta: 'Authentic Italian vanilla gelato — denser and more intensely flavoured than ice cream. Full custard method.',
     kw: ['gelato recipe', 'italian gelato', 'vanilla gelato', 'homemade ice cream'],
@@ -407,6 +410,7 @@ module.exports = {
   },
 
   'biscotti': {
+    untimed: ['cooling the almonds and the baked biscotti'],
     d: 'Twice-baked almond biscuits, hard enough to dunk and dry enough to keep for a month. The second bake is what makes them biscotti rather than cookies.',
     meta: 'Crunchy almond biscotti, twice baked so they keep for weeks. The traditional Tuscan cantucci, made for dunking.',
     kw: ['biscotti recipe', 'almond biscotti', 'cantucci', 'italian biscuits'],
@@ -445,6 +449,7 @@ module.exports = {
   },
 
   'torta-caprese': {
+    untimed: ['cooling completely'],
     d: 'A flourless chocolate and almond cake from Capri with a crisp top and a dense, fudgy middle. Naturally gluten-free, and it happened by accident when a baker forgot the flour.',
     meta: 'Torta caprese — a flourless chocolate almond cake from Capri. Crisp top, fudgy centre, naturally gluten-free.',
     kw: ['torta caprese recipe', 'flourless chocolate cake', 'gluten free chocolate cake', 'italian almond cake'],

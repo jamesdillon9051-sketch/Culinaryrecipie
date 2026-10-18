@@ -100,6 +100,7 @@ module.exports = {
   },
 
   'egg-rolls': {
+    untimed: ['cooling completely'],
     d: 'Cabbage, carrot and pork wrapped in a thick wonton skin and fried until blistered and crisp. The takeaway starter, in sixty minutes.',
     meta: 'Egg rolls filled with seasoned pork, cabbage and carrot, wrapped in egg roll wrappers and deep-fried until blistered, golden and crisp.',
     kw: ['egg rolls', 'egg rolls recipe', 'chinese takeout egg rolls', 'pork egg rolls', 'homemade egg rolls with cabbage'],

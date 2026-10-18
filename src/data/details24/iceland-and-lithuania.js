@@ -160,6 +160,7 @@ module.exports = {
   },
 
   'saltibarsciai': {
+    untimed: ['cooling'],
     d: 'A vivid pink Lithuanian cold soup of beetroot, kefir, cucumber, dill and eggs, served with hot boiled potatoes. Made for warm days.',
     meta: 'Šaltibarščiai: Lithuanian cold beetroot soup of kefir, cucumber, radish and dill, served with hot boiled potatoes and halved eggs. Bright pink and refreshing.',
     kw: ['saltibarsciai', 'lithuanian cold beet soup', 'saltibarsciai recipe', 'cold beetroot soup', 'how to make saltibarsciai'],

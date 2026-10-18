@@ -44,7 +44,7 @@ module.exports = {
 
   'kolokithopita': {
     d: 'A Greek pie of grated courgette, feta, dill and rice in layers of phyllo, baked for 50 minutes until crisp and golden.',
-    meta: 'Kolokithopita, Greek courgette and feta pie in phyllo, baked for 50 minutes. Six servings, ready in 1 hour 15 minutes.',
+    meta: 'Kolokithopita, Greek courgette and feta pie in phyllo, baked for 50 minutes. Six servings, ready in 1 hour 30 minutes.',
     kw: ['kolokithopita', 'greek courgette pie', 'zucchini and feta phyllo pie', 'kolokithopita recipe', 'greek vegetable pie with dill'],
     why: 'Compare it with a spanakopita and you find a milder, sweeter pie, with the courgette taking the place of the spinach. Kolokithopita is a Greek pie of grated courgette, feta and herbs in crisp layers of phyllo, and it is eaten warm or at room temperature as a light meal.\n\nGrate the courgettes, salt them and leave them for 15 minutes in a colander. Squeeze them as dry as you can in a clean cloth. **Squeeze them twice**, since they are mostly water, and a wet filling makes the bottom of the pie soggy. Mix with crumbled feta, a handful of cooked rice to take up moisture, spring onions, dill, mint and eggs.\n\nBrush a tin with olive oil and layer 8 sheets of phyllo, brushing each with oil. Spread over the filling and cover with 8 more oiled sheets, tucking in the edges. Score the top, brush with oil and sprinkle with a little water to stop the edges curling. Bake at 180C for 50 minutes, until deep gold and crisp. Rest for 10 minutes before cutting into squares.',
     ing: [
@@ -218,7 +218,7 @@ module.exports = {
 
   'soutzoukakia': {
     d: 'Cumin scented oval meatballs simmered in a thick tomato sauce for 40 minutes, a Greek taverna dish.',
-    meta: 'Soutzoukakia, Greek cumin meatballs in tomato sauce, cooked for 40 minutes. Four servings, ready in 1 hour 5 minutes.',
+    meta: 'Soutzoukakia, Greek cumin meatballs in tomato sauce, cooked for 40 minutes. Four servings, ready in 1 hour 35 minutes.',
     kw: ['soutzoukakia', 'greek cumin meatballs', 'greek meatballs in tomato sauce', 'soutzoukakia smyrneika', 'soutzoukakia recipe'],
     why: 'The first sign they are ready is the smell: cumin, warm and earthy, and the sweet tang of tomato. Soutzoukakia are Greek meatballs shaped like short sausages, flavoured with cumin and garlic, and cooked in a tomato sauce. They came to Greece with the refugees from Smyrna, and are often called soutzoukakia smyrneika.\n\nThe mix is minced beef and pork, soaked bread, garlic, cumin, red wine vinegar, an egg, parsley and salt. Soak the bread in a little wine, squeeze it, then work it into the mince by hand. **Chill the mixture for 30 minutes** before shaping, so that it holds together in the pan. Roll into ovals about 6 cm long, dust with flour and fry in a little oil until browned on all sides.\n\nFor the sauce, soften onion and garlic, add tomatoes, a pinch of cinnamon, sugar and bay and simmer for 10 minutes. Add the meatballs and cook gently for 20 minutes. Serve over rice or chips with the sauce, a squeeze of lemon and plenty of bread. The sauce thickens as it stands.',
     ing: [
@@ -289,7 +289,7 @@ module.exports = {
 
   'bamies': {
     d: 'Okra stewed in a tomato and onion sauce with garlic and olive oil for 35 minutes, a Greek summer dish.',
-    meta: 'Bamies, Greek okra stewed in tomato, onion and olive oil, cooked for 35 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Bamies, Greek okra stewed in tomato, onion and olive oil, cooked for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['bamies', 'greek okra stew', 'okra in tomato sauce', 'bamies lathera', 'greek okra recipe'],
     why: 'Short and sharp: do not cut the okra. If you keep the pods whole, with only the cap trimmed, they will not release their slime into the sauce, and the dish stays glossy instead of sticky. Bamies is the Greek okra stew, one of the most loved summer dishes, cooked in plenty of olive oil and tomato.\n\nTrim the cone shaped caps from the pods with a knife, shaving off a thin layer but not cutting into the pod. Toss them with a splash of vinegar and leave them in the sun, or in a warm room, for 30 minutes, which helps to reduce the slime. **Rinse them well afterwards and pat dry**, then fry them gently in olive oil for 5 minutes.\n\nIn another pan, soften onion and garlic, add tomatoes and a pinch of sugar, then add the okra and enough water to half cover. Simmer, covered, for 25 minutes without stirring, shaking the pan. The okra should be tender but still whole. Serve warm or at room temperature with feta and bread. A squeeze of lemon freshens the dish.',
     ing: [
@@ -429,7 +429,7 @@ module.exports = {
 
   'portokalopita': {
     d: 'A Greek orange cake made from torn pieces of dried phyllo, yoghurt, eggs and orange juice, baked for 45 minutes.',
-    meta: 'Portokalopita, Greek orange phyllo cake with yoghurt and orange syrup, baked for 45 minutes. Twelve servings, ready in 1 hour.',
+    meta: 'Portokalopita, Greek orange phyllo cake with yoghurt and orange syrup, baked for 45 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['portokalopita', 'greek orange phyllo cake', 'orange cake with phyllo and yoghurt', 'portokalopita recipe', 'greek orange syrup cake'],
     why: 'What do you make with leftover phyllo? Portokalopita, the Greek orange cake, which is made from phyllo pastry torn in pieces and mixed with a custard of yoghurt, oil, eggs and orange, and baked until crisp on top and soft underneath. It is a modern favourite on the Greek table.\n\nTear the phyllo sheets into pieces about 3 cm wide and spread them on a tray for 30 minutes, until they dry and become brittle. This is not strictly necessary, but drying stops them going soggy. Whisk together the yoghurt, eggs, sugar, oil, orange zest and baking powder, and fold in the phyllo until every piece is coated. **Do not squash the pieces**, because the cake needs the air between them to rise.\n\nPour into a tin and bake at 180C for 45 minutes until deep gold. While it bakes, simmer sugar, orange juice and water for 8 minutes into a syrup and cool. Pour the cool syrup over the hot cake, a little at a time, so that it soaks in without flooding. Cool and serve with a spoonful of Greek yoghurt.',
     ing: [
@@ -450,7 +450,7 @@ module.exports = {
       'Whisk the eggs, 200 g sugar, yoghurt, oil, zest and baking powder.',
       'Fold in the phyllo until coated, without squashing it. Pour into the tin.',
       'Bake for 45 minutes until deep gold.',
-      'Simmer the syrup sugar, orange juice and water for 8 minutes. Cool, then pour over the hot cake slowly.',
+      'While the cake bakes, simmer the syrup sugar, orange juice and water for 8 minutes and leave it to cool. Pour the cooled syrup slowly over the hot cake.',
       'Cool and serve with the yoghurt.'
     ],
     tips: [
@@ -625,8 +625,9 @@ module.exports = {
   },
 
   'timpana': {
+    cookMax: 95,
     d: 'Baked macaroni in a rich meat and tomato sauce with eggs and cheese, enclosed in shortcrust pastry and baked for 45 minutes.',
-    meta: 'Timpana, Maltese baked pasta pie of macaroni, meat sauce and eggs in pastry, baked for 45 minutes. Eight servings, ready in 1 hour 25 minutes.',
+    meta: 'Timpana, Maltese baked pasta pie of macaroni, meat sauce and eggs in pastry, baked for 45 minutes. Eight servings, ready in 2 hours 45 minutes to 2 hours 50 minutes.',
     kw: ['timpana', 'maltese baked macaroni pie', 'timpana recipe', 'pasta pie in pastry', 'maltese macaroni timbale'],
     why: 'Flour, pasta, mince, eggs: four pantry things that become a feast dish of Malta, eaten on Sundays and at weddings. Timpana is a baked pasta pie, macaroni in a rich meat sauce enclosed in a shell of shortcrust pastry, and it is cut at the table like a cake.\n\nMake the meat sauce first. Fry onion, minced beef, garlic and a little tomato purée, add tinned tomatoes and a splash of red wine, and simmer for 25 minutes until thick. **Cool the sauce before it is mixed with the pasta**, as hot sauce melts the pastry and the pie leaks. Boil the macaroni for 2 minutes less than the packet says, since it cooks again in the oven.\n\nMix the pasta with the sauce, beaten eggs and grated cheese. Line a deep dish with pastry, pour in the mixture, cover with a lid of pastry and seal the edges. Brush with egg and bake at 190C for 45 minutes, until the crust is golden. Rest for 15 minutes before cutting. The eggs bind the filling so it holds in neat slices.',
     ing: [
@@ -665,8 +666,9 @@ module.exports = {
   },
 
   'lampuki-pie': {
-    d: 'A Maltese pie of mahi mahi or firm white fish baked in pastry with spinach, cauliflower, olives and raisins, in 1 hour 20 minutes.',
-    meta: 'Lampuki pie, Maltese fish pie with spinach, cauliflower, olives and raisins in pastry, baked for 50 minutes. Six servings, ready in 1 hour 20 minutes.',
+    cookMax: 80,
+    d: 'A Maltese pie of mahi mahi or firm white fish baked in pastry with spinach, cauliflower, olives and raisins, in 2 hours 20 minutes to 2 hours 25 minutes.',
+    meta: 'Lampuki pie, Maltese fish pie with spinach, cauliflower, olives and raisins in pastry, baked for 50 minutes. Six servings, ready in 2 hours 20 minutes to 2 hours 25 minutes.',
     kw: ['lampuki pie', 'maltese fish pie', 'torta tal lampuki', 'mahi mahi pie with olives', 'maltese fish and spinach pie'],
     why: 'It looks like a plain double crust pie and tastes like the Mediterranean, because the filling is made of fish, cauliflower, olives, spinach, raisins and capers. Lampuki pie, or torta tal-lampuki, is a Maltese autumn dish, made when the lampuki, the fish known as dorado or mahi mahi, arrives in September.\n\nThe lampuki can be replaced by any firm white fish, such as cod or haddock. Poach it for 8 minutes in water with a bay leaf, then flake it. Boil the cauliflower florets for 5 minutes. Soften onion and garlic in olive oil, then add tomato purée, chopped spinach, olives, capers, raisins and a splash of white wine. **Cook the vegetables until dry**, so that the pie does not leak, and cool them before filling.\n\nMix the fish into the vegetables gently. Line a deep dish with pastry, add the filling and cover with a lid. Seal, brush with egg and cut two slits in the top. Bake at 190C for 50 minutes, until deep gold. Rest for 15 minutes before cutting. It is good warm or cold, and is eaten with a green salad.',
     ing: [
@@ -707,6 +709,7 @@ module.exports = {
   },
 
   'imqaret': {
+    untimed: ['cooling completely'],
     d: 'Fried Maltese pastry diamonds filled with a spiced date paste, dough rested for 1 hour and fried in hot oil for 20 minutes.',
     meta: 'Imqaret, Maltese fried pastry diamonds filled with spiced date paste, fried for 20 minutes. Twenty servings, ready in 1 hour plus resting.',
     kw: ['imqaret', 'maltese date pastries', 'fried date filled pastry diamonds', 'imqaret recipe', 'maltese street dessert'],
@@ -743,8 +746,8 @@ module.exports = {
   },
 
   'cypriot-souvla': {
-    d: 'Large pieces of marinated pork or chicken grilled slowly on a long skewer over charcoal, a Cypriot Sunday feast, in 50 minutes.',
-    meta: 'Cypriot souvla, large chunks of marinated meat grilled slowly on a skewer with lemon and oregano, cooked for 30 minutes. Four servings, ready in 50 minutes.',
+    d: 'Large pieces of marinated pork or chicken grilled slowly on a long skewer over charcoal, a Cypriot Sunday feast.',
+    meta: 'Cypriot souvla: marinated meat grilled slowly on a skewer with lemon and oregano for 30 minutes. Four servings, ready in 1 hour 20 minutes.',
     kw: ['cypriot souvla', 'cyprus souvla', 'large skewered grilled pork', 'souvla recipe', 'charcoal grilled meat cyprus'],
     why: 'Pork, lemon, oregano, charcoal: four things, and a Sunday in a Cypriot village garden. Souvla is the Cypriot barbecue of large chunks of meat, much bigger than a kebab, threaded onto a long skewer and grilled slowly over charcoal for an hour or more, so the outside chars and the inside stays juicy.\n\nCut pork shoulder or chicken thighs into 6 cm chunks, which are far bigger than a kebab, since small pieces dry out. Marinate them for 30 minutes in olive oil, lemon juice, crushed garlic, dried oregano, salt and a little red wine. **Thread them tightly on a metal skewer** with a few pieces of fat or onion between them to keep them moist. Leave a small gap at each end of the skewer for handling.\n\nGrill over medium coals, turning every few minutes, for about 30 minutes for chicken and a little longer for pork, until the meat is cooked through and charred in places. Rest for 5 minutes, then slide the pieces off the skewer onto a board. Serve with pitta, tomatoes, onions, lemon and a bowl of tzatziki. Season with salt and a squeeze of lemon at the table.',
     ing: [
@@ -778,7 +781,7 @@ module.exports = {
 
   'cypriot-tahini-pies': {
     d: 'Spiral bread rolls of yeast dough rolled around a sweet tahini and cinnamon filling, risen for 1 hour and baked for 25 minutes.',
-    meta: 'Cypriot tahini pies, spiral rolls of yeast dough with a sweet tahini and cinnamon filling, baked for 25 minutes. Eight servings, ready in 1 hour 5 minutes plus rising.',
+    meta: 'Cypriot tahini pies, spiral rolls of yeast dough with a sweet tahini and cinnamon filling, baked for 25 minutes. Eight servings, ready in 2 hours 25 minutes with rising.',
     kw: ['cypriot tahini pies', 'tahinopita', 'tahini and cinnamon rolls', 'cypriot tahini bread', 'tahini spiral rolls'],
     why: 'It comes from the tradition of Lent, when meat and dairy are not eaten, and tahini pies are the sweet treat of the Cypriot fasting days. Tahinopites are small spiral rolls of yeast dough, spread with tahini, sugar and cinnamon, and sold in bakeries all over the island.\n\nThe dough is flour, yeast, olive oil, sugar and warm water, kneaded for 8 minutes and left to rise for 1 hour until doubled. For the filling, mix tahini with sugar and cinnamon into a thick, spreadable paste. **Stir the tahini well first**, as the oil separates in the jar and the thick layer at the bottom should be mixed back in. Add a spoonful of orange zest if you like.\n\nRoll the dough out into a thin rectangle, spread it evenly with the filling, roll it up tightly from the long side and cut into 8 slices. Lay them cut side up in a lined tray and leave for 20 minutes. Brush with oil and bake at 200C for 25 minutes, until golden and puffed. Cool for 10 minutes. The rolls keep for 3 days and are good with coffee.',
     ing: [
@@ -808,7 +811,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Tea', 'Orange juice'],
     store: 'Keeps for 3 days wrapped. Freeze for 2 months.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [408, 8, 49, 20, 4, 22, 560]
   },
 
@@ -851,7 +854,7 @@ module.exports = {
 
   'krupnik': {
     d: 'A thick Polish barley soup with root vegetables and smoked meat or chicken, simmered for 1 hour.',
-    meta: 'Krupnik, thick Polish barley soup with carrots, potato and smoked meat, cooked for 1 hour. Six servings, ready in 1 hour 15 minutes.',
+    meta: 'Krupnik, thick Polish barley soup with carrots, potato and smoked meat, cooked for 1 hour. Six servings, ready in 1 hour 35 minutes.',
     kw: ['krupnik', 'polish barley soup', 'barley soup with vegetables and smoked meat', 'krupnik recipe', 'pearl barley soup polish'],
     why: 'Flour, water and a handful of barley: three things you already own, though the soup is rich enough to feed a table. Krupnik is the Polish barley soup, a thick, comforting one, flavoured with root vegetables, a smoked bone or sausage and a handful of dried mushrooms. It is found in every Polish home in winter.\n\nSoak the dried mushrooms in hot water for 20 minutes, and strain the liquid. Put the smoked bone or bacon in a pot with water, bring to a simmer and cook for 20 minutes to make a broth. **Rinse the pearl barley well before adding it**, since the starch on the grains clouds the soup. Add the carrots, parsnip, celery, leek and potato, the barley and the mushroom liquid.\n\nSimmer for 40 minutes, until the barley is tender and the soup has thickened. It will thicken further as it stands, so add hot water when you reheat it. Finish with chopped dill, salt, pepper and a spoonful of soured cream. Serve with dark rye bread. The flavour deepens overnight.',
     ing: [

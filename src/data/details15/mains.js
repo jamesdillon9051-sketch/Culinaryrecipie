@@ -58,6 +58,7 @@ module.exports = {
   },
 
   'poulet-basquaise': {
+    cookMax: 95,
     d: 'Chicken braised with peppers, tomato and piment d\'Espelette from the Basque country. The peppers are cooked down to nothing, which is the whole flavour.',
     meta: 'Chicken braised with peppers, tomato and Espelette pepper until the peppers collapse entirely into the sauce.',
     kw: ['poulet basquaise', 'basque chicken', 'poulet basquaise recipe', 'chicken peppers tomato', 'piperade chicken'],
@@ -501,7 +502,7 @@ module.exports = {
       '0.5 tsp black pepper',
       '30 g flat-leaf parsley, chopped',
       '# To finish',
-      '4 egg yolks',
+      '4 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       'Toasted sourdough',
       'Chips'
     ],
@@ -758,6 +759,7 @@ module.exports = {
   },
 
   'quenelles-de-brochet': {
+    untimed: ['chilling until cold'],
     d: 'Pike beaten with choux paste into weightless dumplings, poached and baked in a crayfish sauce. Lyon, and one of the last genuinely difficult things in the French repertoire.',
     meta: 'Pike beaten with choux paste and cream into light dumplings, poached gently and baked under a crayfish nantua sauce.',
     kw: ['quenelles de brochet', 'pike quenelles', 'quenelles recipe', 'lyon quenelles nantua', 'fish dumplings'],
@@ -834,7 +836,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200°C / 400°F. Brush the pastry cases with beaten egg and bake them empty for 20 minutes, until risen and deep gold. Keep warm.',
-      'Poach the diced chicken in the stock for 8 minutes, then lift it out with a slotted spoon and reserve the stock.',
+      'While the cases bake, poach the diced chicken in the stock for 8 minutes, then lift it out with a slotted spoon and reserve the stock.',
       'Melt the butter and cook the shallots 3 minutes, then the mushrooms for 6 minutes until their water has gone.',
       'Stir in the flour and cook 2 minutes. Add the wine and boil 2 minutes, then the reserved stock gradually, whisking.',
       'Simmer 10 minutes until very thick, then add the cream and reduce a further 5 minutes. It should mound on a spoon.',

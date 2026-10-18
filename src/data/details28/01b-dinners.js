@@ -57,8 +57,8 @@ module.exports = {
   },
 
   'steak-diane': {
-    d: 'Pan-seared fillet steaks finished in a quick sauce of shallots, mushrooms, brandy, Worcestershire sauce, Dijon mustard and cream. A mid-century restaurant classic in 25 minutes.',
-    meta: 'Steak Diane: pan-seared steaks in a quick sauce of shallots, mushrooms, brandy, Worcestershire sauce, mustard and cream. A restaurant classic in 25 minutes.',
+    d: 'Pan-seared fillet steaks finished in a quick sauce of shallots, mushrooms, brandy, Worcestershire sauce, Dijon mustard and cream. A mid-century restaurant classic in 45 minutes.',
+    meta: 'Steak Diane: pan-seared steaks in a quick sauce of shallots, mushrooms, brandy, Worcestershire sauce, mustard and cream. A restaurant classic in 45 minutes.',
     kw: ['steak diane', 'classic steak diane', 'steak diane sauce', 'steak diane with mushrooms', 'how to make steak diane'],
     why: 'Steak Diane was one of the showpieces of the mid-century restaurant, cooked and flamed beside the table by a waiter who made a small theatre of the brandy. Its exact origin is disputed, with claims from New York and London hotels and from European restaurants, but it was a fixture of formal menus in the United States, Britain and Australia from the 1940s through the 1970s, and it has never gone away. The idea is simple and sound: a tender cut of beef is seared quickly and set aside to rest, and the sauce is built in the same pan from what the steak left behind. Shallots and mushrooms give sweetness and depth, brandy brings warmth, Worcestershire sauce and Dijon mustard bring savour and tang, and cream softens it into something rich and silky. Flambéing is optional and the drink does no harm if it is simply boiled for a minute, and the real test of the dish is timing, since the steak must be rested and the sauce made in the ten minutes it takes to cook.',
     ing: [

@@ -200,7 +200,7 @@ module.exports = {
     ],
     st: [
       'Blend the chillies, garlic, red pepper, lemon juice, olive oil, paprika, oregano, salt and sugar to a smooth sauce.',
-      'Slash each chicken thigh twice. Coat with two-thirds of the sauce, cover and marinate for 1 hour.',
+      'Slash each chicken thigh twice. Coat with two-thirds of the sauce, cover and marinate in the fridge for 1 hour.',
       'Heat the oven to 220°C (200°C fan). Put the thighs on a rack over a roasting tray.',
       'Roast for 35 minutes, turning once, until charred and cooked through. Brush with the remaining sauce for the last 5 minutes.'
     ],
@@ -440,6 +440,7 @@ module.exports = {
   },
 
   'lemon-granita': {
+    untimed: ['cooling completely'],
     d: 'Icy crystals of sharp lemon syrup, scraped with a fork every half hour as they freeze to a light, snowy texture.',
     meta: 'Lemon granita: icy crystals of sharp lemon syrup, scraped with a fork as they freeze. Six servings, frozen for 4 hours.',
     kw: ['lemon granita', 'lemon granita recipe', 'sicilian lemon granita', 'italian lemon ice', 'easy lemon granita'],

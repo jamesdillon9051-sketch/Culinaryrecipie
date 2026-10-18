@@ -68,11 +68,11 @@ module.exports = {
       'Leave it to sit, uncovered and unkneaded, for 20 minutes so the semolina hydrates.',
       'Now knead 10 minutes. It will have transformed from gritty to smooth and elastic.',
       'Cover and prove 75 minutes, until well risen.',
-      'Put a heavy tray or baking stone in the oven and heat to 240°C / 465°F for 25 minutes.',
+      'While the dough proves, put a heavy tray or baking stone in the oven and heat to 240°C / 465°F for 25 minutes.',
       'Shape the dough into two flat rounds about 2 cm thick. Brush with oil and press the sesame and nigella seeds firmly into the tops.',
       'Bake on the hot tray 15 minutes, until risen, golden and hollow-sounding underneath. Cool under a cloth to keep the crust soft.'
     ],
-    rest: [75, 'the dough rising'],
+    rest: [95, 'the dough rising'],
     tips: [
       'Let the semolina hydrate for 20 minutes before kneading.',
       'Press the seeds in hard or they fall off.',
@@ -245,6 +245,7 @@ module.exports = {
   },
 
   'samsa-tunisienne': {
+    untimed: ['chilling the syrup', 'cooling the nuts'],
     d: 'Triangles of pastry filled with ground almonds and sesame, fried and soaked in a lemon syrup. Not the Central Asian samsa — a different dish that shares a name.',
     meta: 'Pastry triangles filled with ground almond and sesame, fried until crisp and soaked in a lemon and rose syrup.',
     kw: ['samsa', 'tunisian samsa', 'samsa recipe', 'almond sesame pastry', 'tunisian sweet triangles'],
@@ -328,6 +329,7 @@ module.exports = {
   },
 
   'assidat-zgougou': {
+    untimed: ['cooling in the dish'],
     d: 'A dark pudding made from Aleppo pine seed, layered with cream and nuts. Made for the Prophet’s birthday, tastes of nothing else, and takes real work to get right.',
     meta: 'A dark Aleppo pine seed pudding layered with thick cream and nuts, made for Mouled and unlike any other dessert.',
     kw: ['assidat zgougou', 'zgougou recipe', 'aleppo pine pudding', 'tunisian mouled dessert', 'pine seed cream'],

@@ -174,7 +174,7 @@ module.exports = {
 
   'gluten-free-pizza-dough': {
     d: 'A yeasted pizza base made with a gluten-free flour blend and psyllium husk, part-baked then topped with passata and mozzarella.',
-    meta: 'Gluten-free pizza dough that rises in 45 minutes and is topped and cooked for 20 minutes. Two pizzas, ready in 35 minutes plus 45 minutes of rising.',
+    meta: 'Gluten-free pizza dough that rises for 45 minutes and is topped and cooked for 20 minutes. Two pizzas, ready in 35 minutes plus 45 minutes of rising.',
     kw: ['gluten free pizza dough', 'gluten free pizza base', 'pizza dough without wheat', 'yeasted gluten free pizza', 'crisp gluten free pizza'],
     why: 'Flour, psyllium, yeast, salt, oil and warm water: six things, and about forty minutes for the dough to rise. The result is a base that stretches enough to shape and bakes to a crust with some chew.\n\nPsyllium husk is the substitute for gluten. It swells in the water into a springy gel, which traps the gas from the yeast. The dough will be wetter than wheat pizza dough, closer to a thick batter, so shape it on baking paper with oiled hands rather than flour. **Part-bake the base for 8 minutes before topping.** Without this step the middle stays raw under the sauce.\n\nUse a tray heated in the oven so the base starts cooking the moment it lands. Keep the toppings light, since a heavy load of wet ingredients prevents the centre from crisping. A thin layer of passata, a scatter of mozzarella and a drizzle of oil is plenty.',
     ing: [

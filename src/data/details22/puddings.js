@@ -121,7 +121,7 @@ module.exports = {
     pair: ['Homemade custard', 'Double cream', 'Vanilla ice cream'],
     store: 'Keep covered 2 days at room temperature, then refrigerate up to 4 days. Freeze baked for 3 months.',
     nut: [448, 5, 62, 20, 5, 28, 190],
-    rest: [60, 'chilling the dough']
+    rest: [80, 'chilling the dough']
   },
 
   'apple-charlotte': {
@@ -159,6 +159,7 @@ module.exports = {
   },
 
   'apple-turnovers': {
+    untimed: ['cooling completely'],
     d: 'Squares of puff pastry folded over a cinnamon apple filling and baked until they puff, flake and turn golden. Forty-five minutes.',
     meta: 'Apple turnovers: flaky puff pastry folded over a spiced, lightly cooked apple filling, glazed and baked until puffed and golden. Ready in 45 minutes.',
     kw: ['apple turnovers', 'apple turnovers recipe', 'puff pastry apple turnovers', 'flaky apple turnovers', 'homemade apple turnovers'],

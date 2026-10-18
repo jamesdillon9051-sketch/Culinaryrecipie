@@ -220,7 +220,7 @@ module.exports = {
       'Soften the onion, carrot and celery in the same pot for 8 minutes, then add the garlic and tomato purée for 2 minutes.',
       'Pour in the wine and boil until halved. Add the tomatoes, stock and rosemary and return the lamb. Cover and simmer for 2 hours.',
       'Lift out the lamb, shred the meat and discard the bones. Skim the fat from the sauce, return the meat and simmer for 10 minutes.',
-      'Boil the pappardelle for 9 minutes, drain, toss with the ragu and serve with the parmesan.'
+      'While the ragu simmers, boil the pappardelle for 9 minutes, then drain, toss with the ragu and serve with the parmesan.'
     ],
     tips: [
       'Brown the lamb thoroughly.',
@@ -239,7 +239,7 @@ module.exports = {
     kw: ['salmon poke bowls', 'homemade salmon poke bowls', 'salmon poke bowls with avocado', 'salmon poke bowl with sushi rice', 'salmon poke bowls with edamame'],
     why: 'Buy the fish first, and buy it for this. Poke uses raw fish, so it has to be sold as suitable to eat raw, and it should be bought the day you use it from a fishmonger you trust. If you cannot find that, choose another dish.\n\nCut the salmon into 2 cm cubes with a very sharp knife, and keep it in the fridge until the last moment. Toss it with the soy sauce, sesame oil, rice vinegar and a little honey only 10 minutes before serving. **Do not dress the fish early.** Soy and vinegar firm the flesh and turn it opaque.\n\nSpoon the cooled sushi rice into bowls. Arrange the salmon, avocado, cucumber, edamame and pickled ginger on top in sections, and finish with spring onions, sesame seeds and a drizzle of the dressing.\n\nEat straight away, and do not keep leftovers of raw fish. Skin-on salmon must have the skin removed before cubing, so ask the fishmonger to do it.',
     ing: [
-      '400 g sushi-grade salmon fillet, skinless, cut into 2 cm cubes',
+      '400 g sushi-grade salmon fillet, farmed or previously frozen to kill parasites, skinless, cut into 2 cm cubes',
       '3 tbsp soy sauce',
       '1 tbsp sesame oil',
       '1 tbsp rice vinegar',

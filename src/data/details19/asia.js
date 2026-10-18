@@ -534,7 +534,7 @@ module.exports = {
       'Cook 20 minutes, stirring often, until the roux is the colour of peanut butter and smells nutty.',
       'Stir in the curry powder, garam masala and turmeric and cook 2 minutes.',
       'Take off the heat and stir in the tomato purée, honey and soy sauce. Set the roux aside.',
-      'In a second pan, heat the oil and fry the onion for 8 minutes, until golden.',
+      'While the roux cooks, heat the oil in a second pan and fry the onion for 8 minutes, until golden.',
       'Add the carrot and potato and cook 2 minutes.',
       'Pour in the stock, add the grated apple and salt, and simmer 15 minutes until the potato is tender.',
       'Ladle a little hot stock into the roux and whisk smooth, then stir the loosened roux back into the pan.',
@@ -714,6 +714,7 @@ module.exports = {
   },
 
   'crying-tiger': {
+    untimed: ['cooling'],
     d: 'Grilled beef sliced across the grain and served with nam jim jaew, a roasted rice and chilli dipping sauce. The sauce is the dish.',
     meta: 'Thai grilled steak rested and sliced, served with nam jim jaew of toasted rice powder, chilli, lime and fish sauce.',
     kw: ['crying tiger', 'crying tiger beef', 'seua rong hai', 'nam jim jaew', 'thai grilled beef'],

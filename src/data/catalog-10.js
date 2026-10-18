@@ -66,7 +66,7 @@ module.exports = [
 
   /* Dishes that happen to be very low in carbohydrate */
   c('cauliflower-mash', 'Cauliflower Mash', 'American', 'Dinner', 'Easy', 10, 20, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Cauliflower mash bowl'),
-  c('zucchini-lasagna', 'Courgette Lasagne', 'Italian', 'Dinner', 'Medium', 35, 55, 6, 0, 0, ['Gluten-Free'], ['new'], 'Zucchini lasagna slice'),
+  c('zucchini-lasagna', 'Courgette Lasagne', 'Italian', 'Dinner', 'Medium', 35, 90, 6, 0, 0, ['Gluten-Free'], ['new'], 'Zucchini lasagna slice'),
   c('egg-bites', 'Bacon and Cheddar Egg Bites', 'American', 'Breakfast', 'Easy', 15, 25, 12, 0, 0, ['Gluten-Free'], ['new'], 'Egg bites muffin tin bacon'),
   c('cloud-bread', 'Cloud Bread', 'American', 'Baking', 'Easy', 15, 25, 8, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Cloud bread oopsie rolls'),
   c('bacon-wrapped-asparagus', 'Bacon-Wrapped Asparagus', 'American', 'Appetizers', 'Easy', 15, 20, 6, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Bacon wrapped asparagus roasted'),

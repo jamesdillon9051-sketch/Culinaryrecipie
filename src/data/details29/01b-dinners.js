@@ -199,6 +199,7 @@ module.exports = {
   },
 
   'homemade-ravioli': {
+    untimed: ['cooling'],
     d: 'Silky egg pasta folded around a filling of ricotta, spinach and Parmesan and tossed in brown butter with crisp sage. Worth the effort for a slow weekend.',
     meta: 'Homemade ravioli: silky fresh egg pasta filled with ricotta, spinach and Parmesan, tossed in brown sage butter. A weekend project worth doing.',
     kw: ['homemade ravioli', 'fresh ricotta and spinach ravioli', 'ravioli from scratch', 'ravioli with sage butter', 'how to make ravioli'],
@@ -258,7 +259,7 @@ module.exports = {
       '2 sprigs of fresh thyme'
     ],
     st: [
-      'Mix 2 tablespoons of the oil with the garlic, rosemary and pepper in a shallow dish, add the kangaroo and turn to coat. Marinate at room temperature for 30 minutes.',
+      'Mix 2 tablespoons of the oil with the garlic, rosemary and pepper in a shallow dish, add the kangaroo and turn to coat. Cover and marinate in the fridge for 30 minutes.',
       'Lift the steaks from the marinade, wipe off most of the garlic so that it does not burn, and season with the salt.',
       'Heat the remaining oil in a heavy frying pan over high heat until it is nearly smoking. Sear the steaks for 2 to 3 minutes on each side for rare to medium-rare, turning only once.',
       'Transfer them to a warm plate, cover loosely with foil and rest for 5 minutes.',

@@ -44,6 +44,7 @@ module.exports = {
   },
 
   'tarte-tropezienne': {
+    untimed: ['cooling completely'],
     d: 'A split sugar-topped brioche filled with vanilla crème mousseline, made from an enriched dough that rises for an hour and bakes for 25 minutes.',
     meta: 'Tarte tropézienne, a sugared brioche filled with vanilla cream, baked for 25 minutes. Ten servings, ready in 1 hour 25 minutes plus rising and chilling.',
     kw: ['tarte tropezienne', 'brioche with vanilla cream', 'french cream filled brioche', 'sugar topped brioche cake', 'tropezienne cake'],
@@ -84,7 +85,7 @@ module.exports = {
   },
 
   'bugnes': {
-    d: 'Crisp, light ribbons of sweet dough scented with orange zest, deep fried until golden and dusted with icing sugar, in 10 minutes.',
+    d: 'Crisp, light ribbons of sweet dough scented with orange zest, deep fried until golden and dusted with icing sugar. The dough rests for an hour before rolling.',
     meta: 'Bugnes, crisp fried ribbons of orange-scented dough, cooked for 10 minutes. Twenty bugnes, ready in 35 minutes plus 1 hour of resting.',
     kw: ['bugnes', 'french fried dough ribbons', 'carnival fritters with orange zest', 'crisp sweet fried pastry', 'lyonnaise bugnes'],
     why: 'Roll the dough thinner than feels sensible. That is the quick tip that separates crisp, blistered bugnes from tough, doughy ones. The dough is rolled to about 2 mm, so thin that you can almost see the work surface through it, and it puffs and shatters in hot oil.\n\nThe dough is made from flour, eggs, sugar, butter and a little orange zest, and it has to rest for an hour so the gluten relaxes. Without the rest it springs back as you roll and shrinks when cut. **Cut the ribbons with a knife or a pastry wheel**, make a slit in the middle of each and pull one end through to make a loose knot, which helps them puff.\n\nFry at 170C, a few at a time. They take under a minute a side, puffing and turning golden almost at once. Too cool an oil makes them greasy; too hot browns them before they cook. Drain on paper, and dust with icing sugar while still warm. They are best on the day they are fried, and traditionally made for carnival.',
@@ -260,8 +261,9 @@ module.exports = {
   },
 
   'lapin-chasseur': {
+    cookMax: 80,
     d: 'Rabbit pieces braised for 60 minutes with mushrooms, tomato, shallots and white wine, finished with tarragon.',
-    meta: 'Lapin chasseur, rabbit braised with mushrooms and white wine, cooked for 1 hour. Four servings, ready in 1 hour 20 minutes.',
+    meta: 'Lapin chasseur, rabbit braised with mushrooms and white wine, cooked for 1 hour. Four servings, ready in 1 hour 35 minutes to 1 hour 40 minutes.',
     kw: ['lapin chasseur', 'hunter style rabbit', 'rabbit with mushrooms and white wine', 'french rabbit casserole', 'rabbit chasseur recipe'],
     why: 'It is cooked the same way as chicken chasseur, which is the quickest way to understand it: a braise with mushrooms, tomato, shallots and white wine, finished with tarragon. The rabbit takes the place of the chicken, and it needs a bit longer and a gentler heat.\n\nA young rabbit is tender, and its flavour is mild, so the sauce should be savoury without overpowering it. Brown the jointed pieces well in a mix of butter and oil, then set them aside and cook the mushrooms in the same pot until they lose their water. **Do not crowd the mushrooms**, because they steam and turn grey instead of browning. Add shallots, garlic, tomato purée and wine, and scrape up everything stuck to the base.\n\nReturn the rabbit, cover, and simmer very gently for 60 minutes. Rabbit is lean, and a hard boil makes it stringy. Taste the sauce at the end and add the tarragon just before serving, because its aniseed taste fades in long cooking. Mashed potato or tagliatelle goes well with it.',
     ing: [
@@ -296,7 +298,7 @@ module.exports = {
   },
 
   'poulet-vallee-dauge': {
-    d: 'Chicken pieces browned and braised with apples, cider and calvados, then finished with cream, in 50 minutes.',
+    d: 'Chicken pieces browned and braised with apples, cider and calvados, then finished with cream, cooked for 50 minutes.',
     meta: 'Poulet Vallée d\'Auge, chicken braised with apples, cider and cream, cooked for 50 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['poulet vallee d\'auge', 'chicken with apples and cider', 'normandy chicken with cream', 'chicken in cider and calvados', 'french apple and cream chicken'],
     why: 'Most home versions come out sweet and sticky, and the fix is to choose a dry cider and a sharp apple. The sauce is meant to taste of apples and cream, not of sugar, and a sweet cider with a sweet apple tips it over.\n\nBrown the chicken pieces well in butter, skin-side down first, until they are deep gold. Take them out and soften shallots in the same pan, then add a splash of calvados, if you have it. **Flame it or boil it for 30 seconds** to burn off the harshness of the alcohol. Pour in the cider, scrape up the base and add the chicken back in with half the apples.\n\nSimmer, covered, for 30 minutes, then take off the lid. The sauce reduces while the chicken finishes cooking. Fry the remaining apple slices in butter until golden and use them as a garnish. Stir in the cream last, off the boil, and taste for salt and a squeeze of lemon. Serve with rice or boiled potatoes.',
@@ -575,7 +577,7 @@ module.exports = {
 
   'jambon-braise-madere': {
     d: 'A gammon joint soaked, simmered and then glazed and braised for 2 hours in Madeira with shallots and stock.',
-    meta: 'Jambon braisé au Madère, gammon braised in Madeira, cooked for 2 hours. Eight servings, ready in 2 hours 15 minutes.',
+    meta: 'Jambon braisé au Madère, gammon braised in Madeira, cooked for 2 hours. Eight servings, ready in 2 hours 55 minutes.',
     kw: ['jambon braise madere', 'gammon braised in madeira', 'braised ham with madeira sauce', 'french ham in madeira', 'madeira glazed gammon'],
     why: 'It is a ham for a table of eight, and a dish for a holiday weekend. Braising a gammon joint in Madeira keeps it moist, seasons it from the inside and gives you a glossy, dark sauce to serve beside it.\n\nGammon is cured, so it is salty, and the first step is to soak it overnight in cold water, or simmer it for 20 minutes in fresh water and pour that water away. **Skipping this makes the sauce too salty to eat.** Then drain, pat dry and brown the joint lightly in butter, which gives the sauce a start.\n\nThe braise itself is gentle: shallots, Madeira, stock and a few peppercorns, covered, in a low oven for 2 hours, basting every 30 minutes. The sauce is reduced at the end until it coats a spoon, and a few drops of cream or a knob of butter make it silky. Slice the ham thickly and serve it hot with the sauce, with spinach or a potato gratin.',
     ing: [
@@ -593,7 +595,7 @@ module.exports = {
       'Heat the oven to 160C. Brown the gammon lightly in the butter in a casserole for 6 minutes.',
       'Add the shallots, Madeira, stock, bay leaves and peppercorns. Cover and cook in the oven for 2 hours, basting every 30 minutes.',
       'Lift out the gammon and rest for 15 minutes.',
-      'Strain the sauce into a pan and boil for 10 minutes until it coats a spoon. Stir in the cream.',
+      'While it rests, strain the sauce into a pan and boil for 10 minutes until it coats a spoon. Stir in the cream.',
       'Slice the gammon and serve with the sauce.'
     ],
     tips: [

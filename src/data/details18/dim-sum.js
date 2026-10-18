@@ -195,7 +195,7 @@ module.exports = {
       'Fold the leaf into a tight parcel and tie with string. Repeat.',
       'Steam the parcels 25 minutes, and open them at the table.'
     ],
-    rest: [270, 'soaking the glutinous rice and the lotus leaves'],
+    rest: [290, 'soaking the glutinous rice and the lotus leaves'],
     tips: [
       'Four hours of soaking for the rice, and there is no shortcut.',
       'Soak the leaves in hot water or they split.',
@@ -290,7 +290,7 @@ module.exports = {
       'Prove 30 minutes more, until light and puffy.',
       'Steam over gently boiling water 15 minutes, then turn the heat off and wait 3 minutes before lifting the lid slowly.'
     ],
-    rest: [210, 'chilling the custard and proving the dough'],
+    rest: [230, 'chilling the custard and proving the dough'],
     tips: [
       'Freeze the custard balls. Soft filling squeezes out at the seam.',
       'Discs thicker at the centre, or the base tears.',
@@ -576,7 +576,7 @@ module.exports = {
     st: [
       'Bring the water to the boil with the ginger, spring onion, wine and salt.',
       'Lower in the chicken, bring back to a bare simmer for 3 minutes, then cover and take the pan off the heat.',
-      'Leave the chicken in the cooling liquid 25 minutes, until cooked through.',
+      'Let the chicken poach in the cooling liquid for 25 minutes, until cooked through.',
       'Lift it out, cool it, and tear the meat along the grain into rough shreds with your fingers.',
       'Loosen the sesame paste with the 3 tbsp poaching liquid until it pours.',
       'Whisk in the chilli oil, soy sauce, vinegar, garlic, sugar, Sichuan pepper and sesame oil.',
@@ -634,6 +634,7 @@ module.exports = {
   },
 
   'drunken-chicken': {
+    untimed: ['cooling completely'],
     d: 'Poached chicken steeped for a day in Shaoxing wine and its own jellied stock, then sliced cold. Shanghai in summer, and it needs no cooking on the day.',
     meta: 'Chicken poached and cooled in its own liquid, then steeped overnight in a Shaoxing wine and stock marinade and served cold in slices.',
     kw: ['drunken chicken', 'drunken chicken recipe', 'shaoxing wine chicken', 'shanghai cold chicken', 'chinese wine marinated chicken'],
@@ -659,7 +660,7 @@ module.exports = {
     ],
     st: [
       'Bring the water to the boil with the ginger, spring onions, salt and peppercorns.',
-      'Lower in the chicken, simmer 5 minutes, then cover, take the pan off the heat and leave 30 minutes.',
+      'Lower in the chicken, simmer 5 minutes, then cover, take the pan off the heat and let it poach in the residual heat for 30 minutes.',
       'Lift the chicken straight into a bowl of iced water and leave 10 minutes, until completely cold.',
       'Strain 300 ml of the poaching stock and cool it completely.',
       'Mix the cooled stock with the Shaoxing wine, sugar, salt, ginger, spring onion and goji berries. Do not heat it.',
@@ -667,7 +668,7 @@ module.exports = {
       'Refrigerate 24 hours, turning once.',
       'Lift the pieces out, slice them, and spoon a little of the jellied marinade over. Scatter with coriander.'
     ],
-    rest: [1470, 'steeping the chicken in the wine marinade'],
+    rest: [1440, 'steeping the chicken in the wine marinade'],
     tips: [
       'Iced water straight after poaching. It sets the skin.',
       'Never heat the marinade. Heat takes the wine with it.',
@@ -800,7 +801,7 @@ module.exports = {
       'Fry 2 minutes, until puffed, hollow and deep gold.',
       'Drain on a rack and eat within minutes, torn and dipped in hot soy milk.'
     ],
-    rest: [720, 'the overnight chill that relaxes the dough'],
+    rest: [740, 'the overnight chill that relaxes the dough'],
     tips: [
       'Never knead it. Fold, rest, and leave it overnight.',
       'Press two strips together with a chopstick — the seam is what makes it hollow.',

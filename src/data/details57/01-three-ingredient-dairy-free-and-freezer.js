@@ -134,6 +134,7 @@ module.exports = {
   },
 
   'dairy-free-chocolate-cake': {
+    untimed: ['cooling completely'],
     d: 'A tender two-layer chocolate cake made with oil, oat milk and vinegar and covered in a dairy-free chocolate ganache, baked for 30 minutes.',
     meta: 'Dairy-free chocolate cake with oat milk and a dairy-free ganache, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['dairy-free chocolate cake', 'oat milk chocolate cake', 'chocolate cake without butter or milk', 'dairy-free chocolate layer cake', 'dairy-free cake recipe'],
@@ -171,7 +172,7 @@ module.exports = {
 
   'dairy-free-banana-bread': {
     d: 'A moist banana loaf made with oil and oat milk in place of butter and dairy milk, baked for 55 minutes.',
-    meta: 'Dairy-free banana bread with oil and oat milk, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Dairy-free banana bread with oil and oat milk, baked for 55 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['dairy-free banana bread', 'banana bread without butter', 'oil banana bread', 'dairy-free banana loaf', 'dairy-free banana bread recipe'],
     why: 'Banana bread made with butter has a particular richness, but one made with oil has something else: a longer-lasting softness. Liquid fat coats the flour more thoroughly than solid, and does not set when it cools, so an oil-based loaf stays moist for days. That makes the dairy-free version practical as well as inclusive.\n\nThe bananas supply the flavour and most of the sweetness. Use fruit that is thoroughly ripe, speckled brown and almost black in places, because the sugars are fully developed and the pulp mashes to a smooth puree. Weigh 350 g after peeling. If your bananas are underripe, put them unpeeled in a 150C oven for 15 minutes until the skins blacken and the flesh softens.\n\n**Use a neutral oil and a splash of oat milk.** Sunflower or light olive oil adds moisture without flavour. Coconut oil melted works too but leaves a faint coconut taste. A few tablespoons of oat milk loosen the batter and replace the milk without adding dairy. Cinnamon and a pinch of nutmeg give a warm background note.\n\nFold the wet and dry mixtures together with as few strokes as possible. Overmixing gives a tough, rubbery loaf with a tunnelled crumb. Bake until a skewer comes out with a few moist crumbs, cover with foil if the top darkens, and cool in the tin for 15 minutes before turning out.',
     ing: [
@@ -205,7 +206,7 @@ module.exports = {
 
   'dairy-free-mac-and-cheese': {
     d: 'Macaroni in a creamy sauce of blended potato, carrot, cashews and nutritional yeast, baked for 20 minutes with a crisp crumb.',
-    meta: 'Dairy-free mac and cheese with a potato, carrot and cashew sauce, baked for 20 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Dairy-free mac and cheese with a potato, carrot and cashew sauce, baked for 20 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['dairy-free mac and cheese', 'mac and cheese without dairy', 'cashew and potato cheese sauce', 'nutritional yeast mac and cheese', 'dairy-free macaroni cheese'],
     why: 'It tastes like cheese without a trace of it. The sauce is made of vegetables and nuts: boiled potato and carrot give body and a golden colour, soaked cashews add creaminess and fat, and nutritional yeast provides the savoury, slightly nutty flavour that people associate with cheddar. Blended together with mustard, lemon and garlic, they make a velvety orange sauce that coats pasta beautifully.\n\nNutritional yeast, sold as flakes in health food shops and many supermarkets, is deactivated yeast with a cheesy, umami flavour. It is rich in B vitamins and has no connection with baker\'s yeast. A quarter of a cup, about 20 g, is enough for a family-sized dish. Without it the sauce tastes sweet and vegetable, not savoury.\n\n**Blend for longer than you think you need to.** The sauce needs 2 to 3 minutes in a high-speed blender to become completely smooth, as any grittiness from the cashews is obvious on the tongue. If you have a standard blender, soak the cashews for an hour in hot water first, and strain the sauce through a sieve.\n\nToss the cooked pasta with the sauce, tip it into a baking dish and scatter with breadcrumbs mixed with olive oil. Bake until the top is golden and crisp. A pinch of smoked paprika and a few drops of hot sauce sharpen the flavour. Check the labels on the breadcrumbs for milk.',
     ing: [
@@ -242,7 +243,7 @@ module.exports = {
 
   'dairy-free-mashed-potatoes': {
     d: 'Fluffy mashed potatoes made with olive oil, oat milk and roasted garlic in place of butter and cream.',
-    meta: 'Dairy-free mashed potatoes with olive oil, oat milk and roasted garlic, ready in 30 minutes. Six servings, boiled for 20 minutes.',
+    meta: 'Dairy-free mashed potatoes with olive oil, oat milk and roasted garlic, ready in 40 minutes. Six servings, boiled for 20 minutes.',
     kw: ['dairy-free mashed potatoes', 'mashed potatoes without butter', 'olive oil mashed potatoes', 'oat milk mashed potatoes', 'dairy-free mash'],
     why: 'It is the best argument against the idea that mash needs butter. Good olive oil, warm and stirred in vigorously, makes potatoes silky and gives them a fruity, peppery note that butter does not. A head of roasted garlic mashed into them adds a mellow sweetness. Many cooks who try this version do not go back.\n\nChoose floury potatoes, such as Maris Piper, King Edward or russet, which break down into a light, fluffy mash. Waxy varieties turn gluey and heavy. Cut them into even chunks, about 4 cm, and start them in cold, salted water, bringing it up to a gentle boil. This cooks the outside and inside at the same rate. They are ready when a knife slides in with no resistance, about 20 minutes.\n\n**Dry the potatoes before mashing.** Drain them well, then return them to the hot pan over low heat for a minute, shaking to steam off the moisture. Wet potatoes make a watery mash that cannot absorb the oil. Use a ricer or masher, never a blender or food processor, which ruptures the starch cells and turns the mash to paste.\n\nWarm the oat milk with the olive oil and garlic before adding it to the potatoes, in stages, mixing gently. Cold liquid cools the mash and makes it stodgy. Taste, and season with salt and white pepper.',
     ing: [
@@ -256,7 +257,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200C. Cut the top off the garlic head, drizzle with 1 tbsp of the oil, wrap in foil and roast for 30 minutes.',
-      'Put the potatoes in a pan of cold salted water, bring to the boil and simmer for 20 minutes until tender.',
+      'While the garlic roasts, put the potatoes in a pan of cold salted water, bring to the boil and simmer for 20 minutes until tender.',
       'Drain and return to the hot pan over low heat for 1 minute, shaking to dry.',
       'Squeeze the roasted garlic from its skins. Mash the potatoes with the garlic, the remaining oil and the warm oat milk, added in stages.',
       'Season with the salt and white pepper and scatter with the chives.'
@@ -307,7 +308,7 @@ module.exports = {
 
   'dairy-free-ranch-dressing': {
     d: 'A creamy herb dressing made from mayonnaise, oat milk, lemon, garlic and fresh dill and chives, whisked in 10 minutes.',
-    meta: 'Dairy-free ranch dressing with mayonnaise, oat milk and fresh herbs, made in 10 minutes. Eight servings, no cooking.',
+    meta: 'Dairy-free ranch dressing with mayonnaise, oat milk and fresh herbs, made in 40 minutes. Eight servings, no cooking.',
     kw: ['dairy-free ranch dressing', 'ranch dressing without dairy', 'oat milk ranch', 'homemade dairy-free ranch', 'dairy-free ranch recipe'],
     why: 'Ranch is an American dressing, reputedly created at a dude ranch in California in the 1950s, and it is made with buttermilk and sour cream, both dairy. What gives it its character, though, is not the dairy itself but the tang and the herbs, and both can be reproduced with other things. The result is a thick, cool, garlicky dressing that goes with raw vegetables, salads and pizza crusts.\n\nMayonnaise provides the creaminess and the body. A good quality one, made with egg and oil, is already dairy-free, so check the label to be sure. Oat milk thins it to the right consistency, and a tablespoon of lemon juice or cider vinegar adds the sharpness that buttermilk would. Together, the acid and the oat milk create the faint curdled tang that makes ranch taste like ranch.\n\n**Use fresh herbs and let it rest.** Chopped dill, chives and parsley make the dressing bright and green, and dried herbs taste dusty by comparison. A teaspoon each of garlic powder and onion powder gives the savoury backbone, since fresh raw garlic can overwhelm. The flavours blend and deepen if the dressing stands in the fridge for 30 minutes before serving.\n\nThin it with more oat milk for a pouring dressing, or leave it thick for dipping. It keeps for 5 days in a jar in the fridge.',
     ing: [
@@ -477,8 +478,9 @@ module.exports = {
   },
 
   'freezer-enchiladas': {
+    cookMax: 55,
     d: 'Chicken and black bean enchiladas rolled in tortillas with red sauce and cheese, frozen in foil trays and baked from frozen.',
-    meta: 'Freezer enchiladas with chicken, beans and red sauce, assembled and frozen, then baked for 75 minutes. Eight servings, ready in 1 hour 45 minutes.',
+    meta: 'Freezer enchiladas with chicken, beans and red sauce, in two trays: one baked now for 30 minutes, one frozen and later baked for 75. Eight servings.',
     kw: ['freezer enchiladas', 'frozen chicken enchiladas', 'make ahead enchiladas', 'bake from frozen enchiladas', 'chicken and black bean enchiladas'],
     why: 'The enchilada is one of the best dishes for freezing, because the tortillas and the sauce both survive the cold, and the whole dish reheats into a bubbling, cheesy tray. This recipe makes two trays of four, so one can go into the oven tonight and the other into the freezer for a night when there is nothing planned.\n\nThe filling is shredded cooked chicken, black beans, sweetcorn, red onion and a handful of cheese, bound with a spoonful of the sauce. Keep it fairly dry, because a loose, wet filling makes soggy enchiladas that tear when you roll them. Warm the tortillas for 20 seconds in the microwave so they are pliable. Cold tortillas crack.\n\n**Use a thick sauce and leave out the final cheese before freezing.** A good enchilada sauce is made from tomato, chilli powder, cumin, garlic and a spoonful of flour, and should be thick enough to coat a spoon. Pour a layer in the tray, put the rolled tortillas in, cover with more sauce, but add the final layer of cheese just before baking so that it does not go rubbery in the freezer.\n\nWrap the foil tray tightly in cling film and a second layer of foil. To bake from frozen, remove the cling film, cover with foil and bake at 190C for 60 minutes, then uncover, add the cheese and bake for 15 more.',
     ing: [
@@ -516,7 +518,7 @@ module.exports = {
 
   'freezer-lasagna': {
     d: 'A beef and tomato lasagna assembled in a foil dish and frozen unbaked, then baked from frozen for 1 hour 30 minutes.',
-    meta: 'Freezer lasagna with beef ragu and mozzarella, assembled and frozen, baked for 45 minutes fresh. Eight servings, ready in 1 hour 25 minutes.',
+    meta: 'Freezer lasagna with beef ragu and mozzarella, assembled and frozen unbaked. Baked fresh, about 2 hours 20 minutes start to finish.',
     kw: ['freezer lasagna', 'make ahead lasagna to freeze', 'frozen beef lasagna', 'bake from frozen lasagna', 'lasagna for the freezer'],
     why: 'A lasagna takes an afternoon to build, and the sensible thing is to make two. One goes in the oven, the other is assembled in a foil dish, wrapped well and frozen unbaked, for a night when a homemade dinner is needed with no effort. Frozen unbaked, the pasta stays tender and the cheese does not dry out, so the result is better than a baked lasagna that has been frozen and reheated.\n\nThe ragu is the heart of it. Brown beef and pork mince in batches, cook onion, carrot and celery until soft, add garlic, tomato purée and wine, then simmer with tinned tomatoes for 30 minutes. Cool the sauce completely before assembling. Warm sauce on dry pasta sheets starts to soften them at once, and in the freezer it makes the lasagna watery.\n\n**Use no-boil sheets and a slightly looser sauce.** The dry pasta absorbs liquid as it bakes, and in a frozen lasagna it takes in a bit more. Layer the sauce, pasta, a white sauce or ricotta mix, and mozzarella, finishing with a layer of sauce and cheese. Press cling film directly on the surface to keep ice crystals out, then wrap the dish in foil.\n\nTo bake from frozen, remove the cling film, cover with foil and bake at 180C for 1 hour 15 minutes, then uncover and bake for 15 minutes more until golden and bubbling. Rest for 15 minutes before cutting. Fresh, the lasagna bakes in 45 minutes.',
     ing: [
@@ -538,7 +540,7 @@ module.exports = {
       '50 g parmesan, grated'
     ],
     st: [
-      'Heat the oil and brown the beef and pork in batches for 8 minutes each. Add the onion and carrot for 6 minutes, then the garlic and tomato purée. Pour in the wine, reduce, then add the tomatoes, oregano and salt and simmer for 30 minutes. Cool completely.',
+      'Heat the oil and brown the beef and pork in batches for 8 minutes each. Add the onion and carrot for 6 minutes, then the garlic and tomato purée. Pour in the wine, reduce, then add the tomatoes, oregano and salt and simmer for 30 minutes. If you are freezing the lasagna, cool the sauce completely first; to bake it straight away, assemble while warm.',
       'Mix the ricotta with the egg and half the parmesan.',
       'In a large foil dish, layer sauce, pasta, ricotta mix and mozzarella, three times, finishing with sauce, mozzarella and the remaining parmesan.',
       'To bake fresh, heat the oven to 180C and bake covered for 30 minutes, then uncovered for 15 minutes. Rest for 15 minutes.',
@@ -551,13 +553,12 @@ module.exports = {
     ],
     pair: ['Green salad', 'Garlic bread', 'Roasted vegetables', 'Red wine'],
     store: 'The unbaked lasagna keeps in the freezer for 3 months. Baked, it keeps for 4 days in the fridge.',
-    rest: [60, 'Freezing'],
     nut: [569, 36, 32, 33, 3, 5, 720]
   },
 
   'freezer-mac-and-cheese': {
-    d: 'A baked macaroni cheese with cheddar and Gruyere, cooled and frozen in portions, reheated in 30 minutes.',
-    meta: 'Freezer mac and cheese baked and frozen in portions, reheated from frozen. Eight servings, baked for 20 minutes, ready in 40 minutes.',
+    d: 'A baked macaroni cheese with cheddar and Gruyere, cooled and frozen in portions, then thawed overnight and reheated for 20 minutes.',
+    meta: 'Freezer mac and cheese baked and frozen in portions, then thawed and reheated. Eight servings, baked for 20 minutes, ready in 40 minutes.',
     kw: ['freezer mac and cheese', 'frozen macaroni cheese', 'batch cook mac and cheese', 'macaroni cheese to freeze', 'make ahead mac and cheese'],
     why: 'Mac and cheese is not a dish that obviously freezes, because the sauce can split and the pasta can go soft. A few adjustments fix both problems. The sauce is a stable béchamel, thickened with flour so it does not separate when frozen, and the pasta is cooked until only just short of tender so it finishes in the oven rather than turning mushy on reheating.\n\nCheese sauces made without a roux tend to weep and turn grainy after freezing. The flour binds the fat and protein, and keeps it smooth. Use a sharp cheddar for flavour and Gruyère or Emmental for stretch, and add a spoonful of Dijon mustard and a pinch of nutmeg. Cook the pasta 3 minutes short of the pack time, since it will cook further in the oven and once more when reheated.\n\n**Freeze it in individual portions.** Bake the mac and cheese in a large dish, cool it completely, cut it into portions, and wrap each in cling film and foil, or pack into lidded containers. Single portions defrost and reheat quickly and evenly, and you can take out just as many as you need.\n\nTo reheat, thaw overnight in the fridge and bake at 180C for 20 minutes, or microwave from frozen with a splash of milk, stirring halfway, for 4 minutes. A scatter of fresh breadcrumbs gives it back a crisp top.',
     ing: [
@@ -577,7 +578,7 @@ module.exports = {
       'Melt the butter, stir in the flour for 1 minute and whisk in the warm milk gradually. Simmer for 6 minutes until thick.',
       'Off the heat, stir in the mustard, nutmeg, salt, cheddar and Gruyère until smooth. Stir in the macaroni.',
       'Pour into a large dish, scatter with the breadcrumbs and bake for 20 minutes until golden.',
-      'Cool completely, cut into 8 portions and wrap each. Freeze for up to 3 months.'
+      'Leave to cool, moving the dish to the fridge within 2 hours of baking, then cut into 8 portions and wrap each. Freeze for up to 3 months.'
     ],
     tips: [
       'Use a flour-thickened sauce for stability.',
@@ -625,8 +626,10 @@ module.exports = {
   },
 
   'freezer-pot-pie': {
+    cookMax: 75,
+    untimed: ['cooling the filling'],
     d: 'Chicken and vegetable pot pies in a creamy sauce under puff pastry lids, assembled in foil dishes and frozen unbaked.',
-    meta: 'Freezer pot pie with chicken, vegetables and puff pastry, frozen unbaked and baked for 40 minutes fresh. Six servings, ready in 1 hour 10 minutes.',
+    meta: 'Freezer pot pie with chicken, vegetables and puff pastry, frozen unbaked, then baked from frozen for 55 minutes or fresh for 40. Six servings.',
     kw: ['freezer pot pie', 'chicken pot pie to freeze', 'chicken pot pie for the freezer', 'frozen chicken pot pies', 'individual pot pies for the freezer'],
     why: 'A pot pie is a good candidate for the freezer, because it consists of a filling that freezes well and pastry that bakes better from cold than from warm. Make a few at once in individual foil dishes, freeze them unbaked, and bake straight from frozen on a busy night. The pastry rises crisp and golden, and the filling bubbles through.\n\nThe filling is chicken, carrots, peas and leeks in a thick white sauce made from butter, flour, stock and milk. Make it thicker than you would for eating straight away, since a loose filling turns watery after freezing and thawing in the oven. The sauce should coat the back of a spoon firmly. Cool it completely before assembling, as warm filling melts the pastry.\n\n**Use puff pastry lids and no base.** A top crust only is easier and freezes more reliably than a double crust. A raw pastry base under a wet filling stays pale and soggy after freezing. Cut lids slightly larger than the dish, seal the edges with a fork, cut a steam slit, and brush with egg only just before baking.\n\nFreeze the pies on a tray until solid, then wrap in cling film and foil. To bake from frozen, put them on a hot tray in a 190C oven for 55 minutes, until the pastry is deep gold and the filling is piping hot in the middle. Fresh pies take 40 minutes.',
     ing: [
@@ -646,7 +649,7 @@ module.exports = {
     ],
     st: [
       'Melt the butter and cook the leeks and carrots for 8 minutes. Stir in the flour for 1 minute, then add the stock and milk gradually and simmer for 8 minutes until very thick.',
-      'Stir in the chicken, peas, thyme, salt and pepper. Cool completely.',
+      'Stir in the chicken, peas, thyme, salt and pepper. Spread in a shallow dish and cool completely, moving it to the fridge within 2 hours.',
       'Divide the filling between 6 individual foil dishes. Cut the pastry into 6 lids slightly larger than the dishes and press them on, sealing the edges. Cut a slit in each.',
       'Freeze the pies on a tray until solid, then wrap each in cling film and foil.',
       'To bake, heat the oven to 190C, brush the pies with egg and bake from frozen for 55 minutes, or fresh for 40 minutes, until deep gold.'
@@ -694,6 +697,7 @@ module.exports = {
   },
 
   'gluten-free-banana-bread': {
+    untimed: ['cooling completely'],
     d: 'A moist banana loaf made with a gluten-free flour blend and ground almonds, baked for 55 minutes.',
     meta: 'Gluten-free banana bread with a flour blend and ground almonds, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
     kw: ['gluten-free banana bread', 'banana bread with gluten-free flour', 'moist gluten-free banana loaf', 'gluten-free banana loaf cake', 'gluten-free banana bread recipe'],
@@ -763,7 +767,7 @@ module.exports = {
 
   'gluten-free-biscuits': {
     d: 'Flaky buttermilk biscuits made with a gluten-free flour blend, cold butter and a fold-and-cut method, baked for 16 minutes.',
-    meta: 'Gluten-free biscuits with a flour blend and buttermilk, baked for 16 minutes. Eight biscuits, ready in 35 minutes.',
+    meta: 'Gluten-free biscuits with a flour blend and buttermilk, baked for 16 minutes. Eight biscuits, ready in 46 minutes.',
     kw: ['gluten-free biscuits', 'gluten-free buttermilk biscuits', 'flaky gluten-free biscuits', 'gluten-free southern biscuits', 'gluten-free biscuit recipe'],
     why: 'Biscuits are among the harder things to make gluten-free, for the simple reason that their flakiness comes from layers, and layers need a dough that stays together when folded. Without gluten, the dough is more fragile, and it takes some care. The answer is a flour blend with xanthan gum, very cold butter and a dough that is a little wetter than usual.\n\nGrate the butter while frozen directly into the flour. Frozen butter shreds stay as distinct pieces and melt in the oven, leaving pockets of steam that lift the dough and form the layers. Warm hands melt the fat too soon, so work fast, and chill the bowl in the fridge for 15 minutes before you add the buttermilk. The cold keeps everything firm.\n\n**Fold the dough on baking paper.** A gluten-free dough tears when you lift it, so shape it on a sheet of baking paper and use the paper to fold it over on itself. Pat it into a rectangle, fold it in thirds, turn it, and repeat once more. Then pat it to 3 cm thick and cut with a sharp cutter, pressing straight down.\n\nPlace the biscuits touching in a lined tin so they lean on each other as they rise, and bake at 220C until golden. Brush with melted butter. Gluten-free biscuits are at their best warm, on the day they are made, and they turn dry the next day.',
     ing: [
@@ -795,7 +799,7 @@ module.exports = {
 
   'gluten-free-bread': {
     d: 'A soft yeast loaf made from a gluten-free flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes.',
-    meta: 'Gluten-free bread with a flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes. 12 slices, ready in 2 hours.',
+    meta: 'Gluten-free bread with a flour blend and psyllium husk, risen for 1 hour and baked for 50 minutes. 12 slices, ready in 3 hours 5 minutes, rising included.',
     kw: ['gluten-free bread', 'gluten-free yeast bread', 'psyllium husk bread', 'homemade gluten-free loaf', 'gluten-free bread recipe'],
     why: 'In wheat bread, gluten forms an elastic network that traps the gas from yeast and gives the loaf its structure and chew. Without it, you need a stand-in. Psyllium husk is the best: it absorbs many times its weight in water and forms a gel that is stretchy and sticky, much like gluten. Together with xanthan gum, it provides enough structure for a loaf that rises, holds its shape and slices.\n\nThe dough is not a conventional bread dough. It is wet and sticky, closer to a thick batter or a cake mix, and cannot be kneaded or shaped by hand. Beat it with a spoon or a stand mixer for 3 minutes to develop the gel, then spoon it into a lined loaf tin and smooth the top with a wet spatula. The wetness is essential, as the flours absorb a lot of liquid.\n\n**Let it rise only once.** A gluten-free loaf has no elastic network, so a long rise causes the bubbles to coalesce and the loaf to collapse in the oven. Leave it to rise in the tin for about 1 hour, until it is about 1.5 times its size and just reaches the top of the tin. Then bake immediately.\n\nBake at 200C for 50 minutes, until the crust is deep golden and the loaf sounds hollow when tapped underneath. Cool completely on a rack before slicing, at least 1 hour, as the crumb continues to set while it cools. Slicing too soon gives a gummy centre. It toasts well.',
     ing: [
@@ -827,8 +831,9 @@ module.exports = {
   },
 
   'gluten-free-carrot-cake': {
+    untimed: ['cooling completely'],
     d: 'A moist spiced carrot cake made with a gluten-free flour blend and ground almonds, baked for 40 minutes in two layers.',
-    meta: 'Gluten-free carrot cake with cream cheese frosting, baked for 40 minutes. Twelve servings, ready in 1 hour 20 minutes.',
+    meta: 'Gluten-free carrot cake with cream cheese frosting, baked for 40 minutes. Twelve servings, ready in at least 1 hour 35 minutes.',
     kw: ['gluten-free carrot cake', 'carrot cake with gluten-free flour', 'gluten-free cake with cream cheese frosting', 'gluten-free spiced carrot cake', 'gluten-free carrot cake recipe'],
     why: 'Carrot cake is one of the best cakes to make gluten-free, because it is already a moist, dense, heavily laden cake whose structure depends on eggs, oil and grated vegetable, and not on a delicate sponge. The carrots and the oil keep the crumb damp, and the spices hide any trace of the flour blend. Many people say they cannot tell the difference.\n\nUse a gluten-free flour blend with xanthan gum, and replace a third of it with ground almonds for moisture and richness. Oil rather than butter makes the cake keep for days. Grate the carrots finely, on the small holes, so they melt into the batter. Large shreds can make the cake wet and heavy. Add the walnuts and sultanas last.\n\n**Rest the batter for 15 minutes before baking.** The gluten-free flours need time to absorb the liquid, and a rested batter bakes into a more even, less grainy cake. It will thicken noticeably as it stands. Spread it in two lined 20 cm tins and smooth the tops.\n\nBake at 170C until a skewer comes out clean, then cool in the tins for 15 minutes. Gluten-free cakes are delicate when warm and break easily. Fill and cover the cooled cake with a cream cheese frosting made from soft butter, cold cream cheese, icing sugar and vanilla. Check that the icing sugar and baking powder are labelled gluten-free.',
     ing: [

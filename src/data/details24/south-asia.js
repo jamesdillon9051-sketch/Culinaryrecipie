@@ -638,6 +638,7 @@ module.exports = {
   },
 
   'watalappan': {
+    untimed: ['cooling'],
     d: 'A silky Sri Lankan custard of coconut milk, jaggery and eggs spiced with cardamom and nutmeg, baked in a water bath and topped with cashews.',
     meta: 'Watalappan: a silky Sri Lankan coconut custard of jaggery, eggs and coconut milk, spiced with cardamom and nutmeg and topped with cashews. Served chilled.',
     kw: ['watalappan', 'sri lankan watalappan', 'watalappan recipe', 'sri lankan coconut custard', 'how to make watalappan'],

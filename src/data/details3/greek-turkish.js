@@ -40,6 +40,7 @@ module.exports = {
   },
 
   'dolmades': {
+    untimed: ['cooling to room temperature'],
     d: 'Vine leaves rolled around rice, herbs, onion and pine nuts, packed tight in a pot and simmered under a plate with lemon and olive oil.',
     meta: 'Dolmades — vine leaves rolled around herbed rice with pine nuts, simmered with lemon and olive oil.',
     kw: ['dolmades recipe', 'stuffed vine leaves', 'greek dolmades', 'vegan meze'],
@@ -147,7 +148,7 @@ module.exports = {
       'Sumac and parsley'
     ],
     st: [
-      'Toss the sliced lamb with the olive oil, cumin, paprika, oregano, salt, pepper and onion juice. Marinate at least 2 hours.',
+      'Toss the sliced lamb with the olive oil, cumin, paprika, oregano, salt, pepper and onion juice. Cover and marinate in the fridge for at least 2 hours.',
       'For the sauce, fry the garlic in the olive oil for 30 seconds, add the tomato purée and cook 2 minutes, then the passata, sugar, salt and Aleppo pepper. Simmer 15 minutes until thickened. Keep it hot.',
       'Toast the bread cubes in a dry pan or a 200C oven for 6 minutes until dry and lightly coloured but not hard.',
       'Grill the tomatoes and green peppers over a high flame until blistered.',
@@ -212,7 +213,6 @@ module.exports = {
   },
 
   'kunefe': {
-    rest: [60, 'soaking'],
     d: 'Shredded kadayif pastry packed around a layer of stretchy unsalted cheese, fried in butter on both sides and soaked in cold syrup while still hot.',
     meta: 'Künefe — shredded kadayif pastry around melting cheese, fried in butter and soaked in cold syrup.',
     kw: ['kunefe recipe', 'kunafa with cheese', 'turkish cheese dessert', 'kadayif pastry'],

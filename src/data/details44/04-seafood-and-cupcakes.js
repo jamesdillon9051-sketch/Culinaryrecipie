@@ -475,6 +475,7 @@ module.exports = {
   },
 
   'lemon-drizzle-traybake': {
+    untimed: ['leaving it in the tin until cold'],
     d: 'A soft lemon sponge baked in a tray, soaked with a lemon and sugar syrup while warm and finished with a crisp sugar crust.',
     meta: 'Lemon drizzle traybake: a lemon sponge soaked with lemon and sugar syrup, baked for 35 minutes. Sixteen squares.',
     kw: ['lemon drizzle traybake', 'easy lemon drizzle traybake', 'lemon drizzle cake traybake', 'lemon traybake with drizzle', 'british lemon drizzle traybake'],
@@ -580,6 +581,7 @@ module.exports = {
   },
 
   'red-velvet-whoopie-pies': {
+    untimed: ['cooling completely'],
     d: 'Soft red cocoa cake rounds sandwiched with a cream cheese filling.',
     meta: 'Red velvet whoopie pies: soft red cocoa cake rounds sandwiched with cream cheese filling. Twelve pies, baked for 12 minutes.',
     kw: ['red velvet whoopie pies', 'red velvet whoopie pies with cream cheese filling', 'soft red velvet whoopie pies', 'whoopie pies with cream cheese', 'red velvet cake sandwiches'],

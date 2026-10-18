@@ -429,6 +429,7 @@ module.exports = {
   },
 
   'gatte-ki-sabzi': {
+    untimed: ['cooling'],
     d: 'Steamed gram flour dumplings sliced and simmered in a spiced yoghurt gravy, a Rajasthani dish made from pantry staples.',
     meta: 'Gatte ki sabzi: steamed gram flour dumplings sliced and simmered in a spiced yoghurt gravy. Four servings, cooked for 30 minutes.',
     kw: ['gatte ki sabzi', 'gatte ki sabzi recipe', 'rajasthani gatte curry', 'gram flour dumplings in yoghurt gravy', 'besan gatta curry'],
@@ -494,7 +495,7 @@ module.exports = {
       '400 ml water'
     ],
     st: [
-      'Grind the drained chillies and garlic with a splash of water to a smooth paste. Mix half with the yoghurt and salt, coat the meat and leave for 1 hour.',
+      'Grind the drained chillies and garlic with a splash of water to a smooth paste. Mix half with the yoghurt and salt, coat the meat, cover and leave in the fridge for 1 hour.',
       'Heat the ghee in a heavy pan. Add the cardamom, cloves and bay leaf, then the onions, and cook for 10 minutes until deep golden. Add the ginger and cook for 1 minute.',
       'Add the meat with its marinade, the remaining chilli paste, coriander and cumin. Cook over a medium heat for 10 minutes, stirring.',
       'Add the water, cover tightly and cook over a low heat for 60 minutes, stirring every 15 minutes, until the meat is tender and the ghee floats on top.'
@@ -507,10 +508,11 @@ module.exports = {
     pair: ['Bajra roti or chapati', 'Steamed rice', 'Sliced onion with lemon', 'Cooling raita'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
     nut: [724, 40, 15, 56, 2, 6, 750],
-    rest: [60, 'Marinating']
+    rest: [80, 'Marinating']
   },
 
   'pyaaz-kachori': {
+    untimed: ['cooling completely'],
     d: 'Crisp, puffed pastry rounds stuffed with a spiced onion filling and cooked slowly in hot oil, a Rajasthani street snack.',
     meta: 'Pyaaz kachori: crisp pastry rounds stuffed with a spiced onion filling and cooked in hot oil. Makes eight, cooked for 30 minutes.',
     kw: ['pyaaz kachori', 'pyaaz kachori recipe', 'onion kachori', 'rajasthani pyaaz kachori', 'jodhpur onion kachori'],
@@ -819,6 +821,7 @@ module.exports = {
   },
 
   'chakli': {
+    untimed: ['cooling completely'],
     d: 'Crisp spirals of rice flour and lentil flour dough, flavoured with cumin, sesame and chilli, shaped with a press and cooked in oil.',
     meta: 'Chakli: crisp spirals of rice and lentil flour dough flavoured with cumin, sesame and chilli. Makes about 20, cooked for 20 minutes.',
     kw: ['chakli', 'chakli recipe', 'diwali chakli', 'crispy rice flour spirals', 'chakli with rice flour and sesame'],
@@ -853,6 +856,7 @@ module.exports = {
   },
 
   'murukku': {
+    untimed: ['cooling completely'],
     d: 'Crisp, spiral snacks of rice flour and urad flour with cumin, sesame and butter, pressed into oil and cooked until golden.',
     meta: 'Murukku: crisp spiral snacks of rice and urad flour with cumin, sesame and butter. Makes about 20, cooked for 20 minutes.',
     kw: ['murukku', 'murukku recipe', 'rice flour murukku', 'diwali murukku', 'south indian murukku with urad flour'],

@@ -137,7 +137,7 @@ module.exports = {
   },
 
   'rainbow-slaw': {
-    d: 'Red and green cabbage, carrot, red pepper and red onion in a mustard and lime vinaigrette with no mayonnaise. Six servings in 15 minutes.',
+    d: 'Red and green cabbage, carrot, red pepper and red onion in a mustard and lime vinaigrette with no mayonnaise. Six servings in 30 minutes.',
     meta: 'Rainbow slaw: red and green cabbage, carrot, red pepper and onion in a mustard and lime vinaigrette. Vegan, gluten free, dairy free. Six servings.',
     kw: ['rainbow slaw', 'coleslaw under 400 calories', 'vegan rainbow slaw', 'dairy free coleslaw without mayo', 'easy rainbow slaw with vinaigrette'],
     why: 'Red and green cabbage, carrot, red pepper and red onion: a slaw that earns its name from the colours. It uses a sharp mustard vinaigrette instead of mayonnaise, so it is crisp, vegan and light, and it keeps its crunch well. Colour is the point.\n\nShred the cabbage as finely as you can with a sharp knife or the slicing blade of a food processor. Thin shreds are tender. Thick ones are chewy. **Let it stand for 15 minutes** after dressing so the cabbage softens a little and takes up the flavour. The vinaigrette is oil, cider vinegar, mustard and lime juice, and the mustard helps it cling.\n\nSunflower seeds go on at the end for crunch. The slaw is good with grilled chicken, burgers, fish tacos or on its own as a light lunch. It keeps for 4 days in the fridge, and the flavour improves on the second day. A handful of chopped parsley works too.',
@@ -205,7 +205,7 @@ module.exports = {
   },
 
   'carrot-raisin-salad': {
-    d: 'Grated carrot and raisins in a lemon, honey and Greek yogurt dressing with cinnamon and chopped walnuts. Six servings in 10 minutes.',
+    d: 'Grated carrot and raisins in a lemon, honey and Greek yogurt dressing with cinnamon and chopped walnuts. Six servings in 30 minutes.',
     meta: 'Carrot raisin salad: grated carrot and raisins in a lemon, honey and Greek yogurt dressing with cinnamon and walnuts. Gluten free. Six servings.',
     kw: ['carrot raisin salad', 'carrot salad under 400 calories', 'gluten free carrot raisin salad', 'vegetarian carrot raisin salad with yogurt', 'easy carrot raisin salad'],
     why: 'It is the deli classic with the mayonnaise swapped for yogurt: grated carrot, plump raisins and a creamy, tangy dressing. Ten minutes is all it takes. The yogurt gives the same cool, creamy coating with far less fat, and the lemon keeps the sweetness from cloying.\n\nGrate the carrots coarsely, on the large holes of a box grater, so they keep some bite. Raisins need a quick soak. **Soak them briefly** in warm water if they are very dry, then drain them. Honey adds a little sweetness, and cinnamon adds warmth. Chilling for 20 minutes lets the carrots soften slightly and the flavours blend.\n\nWalnuts add crunch and richness. Add them just before serving so they stay crisp. The salad keeps for 3 days in the fridge and is good in a lunchbox, with grilled chicken or in a wrap. A pinch of nutmeg works well in place of cinnamon. Stir before serving, since the carrots release a little juice.',

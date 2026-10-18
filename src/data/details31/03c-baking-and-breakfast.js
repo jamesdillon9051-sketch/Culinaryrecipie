@@ -43,6 +43,7 @@ module.exports = {
   },
 
   'spritz-cookies': {
+    untimed: ['cooling completely'],
     d: 'Buttery vanilla and almond cookies pressed through a cookie press into wreaths, trees and stars, baked pale gold. Sixty cookies for the Christmas tin.',
     meta: 'Spritz cookies: buttery vanilla and almond cookies pressed through a cookie press into wreaths, trees and stars, and baked until pale golden.',
     kw: ['spritz cookies', 'cookie press spritz cookies', 'christmas spritz cookies', 'butter spritz cookies', 'spritz cookie recipe'],
@@ -114,6 +115,7 @@ module.exports = {
   },
 
   'coca-cola-cake': {
+    untimed: ['cooling'],
     d: 'A dark, moist Southern chocolate sheet cake made with cola and mini marshmallows, covered with a warm cola fudge icing and chopped pecans.',
     meta: 'Coca-Cola cake: the dark, moist Southern chocolate sheet cake made with cola, buttermilk and mini marshmallows, with a cola fudge and pecan icing.',
     kw: ['coca cola cake', 'cola cake', 'southern coca cola cake', 'coca cola chocolate cake', 'cola cake with marshmallows'],
@@ -157,6 +159,7 @@ module.exports = {
   },
 
   'caramel-cake': {
+    untimed: ['setting'],
     d: 'A two-layer yellow butter cake covered in a thick, glossy, cooked brown sugar caramel icing that sets to a fudgy finish. A Southern bakery and church supper classic.',
     meta: 'Caramel cake: a two-layer yellow butter cake covered in thick, glossy, cooked brown sugar caramel icing that sets to a fudgy finish.',
     kw: ['caramel cake', 'southern caramel cake', 'caramel cake with caramel icing', 'old fashioned caramel cake', 'homemade caramel cake'],
@@ -231,6 +234,7 @@ module.exports = {
   },
 
   'ladyfingers': {
+    untimed: ['cooling completely'],
     d: 'Light, dry, crisp sponge fingers piped from a whisked egg batter and dusted with icing sugar. The savoiardi for tiramisu, trifles and dipping in coffee.',
     meta: 'Ladyfingers: light, dry, crisp Italian sponge fingers, or savoiardi, piped from a whisked egg batter, for tiramisu, trifle and dipping in coffee.',
     kw: ['ladyfingers', 'homemade ladyfingers', 'savoiardi', 'lady fingers recipe', 'italian ladyfinger biscuits'],

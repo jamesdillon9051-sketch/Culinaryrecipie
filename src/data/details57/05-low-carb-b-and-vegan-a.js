@@ -211,7 +211,7 @@ module.exports = {
 
   'low-carb-zucchini-lasagna': {
     d: 'Layers of salted courgette slices, beef ragu and ricotta baked under mozzarella for 35 minutes, in place of pasta sheets.',
-    meta: 'Low-carb zucchini lasagna with beef ragu and ricotta, cooked for 45 minutes. Six servings, ready in 1 hour 15 minutes.',
+    meta: 'Low-carb zucchini lasagna with beef ragu and ricotta, cooked for 45 minutes. Six servings, ready in 2 hours.',
     kw: ['low carb zucchini lasagna', 'courgette lasagne without pasta', 'beef and ricotta lasagna', 'low carb italian bake', 'lasagna with zucchini slices'],
     why: 'A Sunday dish for a table of six, and better on Monday. Courgette slices stand in for the pasta sheets here, which cuts the carbohydrate sharply and adds vegetables to a dish that is usually a plate of starch.\n\nThe problem with courgette is water. Slice it lengthwise into 5 mm strips, lay it on paper towels and salt it lightly, then leave it for 30 minutes. The salt draws out moisture, which you press away with more paper towels. **Do not skip this**, or the lasagna weeps into the dish and the layers slide apart. Some cooks also dry-roast the slices for 10 minutes, which gives a firmer layer.\n\nThe ragu is beef mince cooked down with onion, garlic and passata until thick. Ricotta mixed with an egg and a little parmesan forms the cheesy layer, in place of a white sauce. Rest the lasagna for 15 minutes before cutting; it will still be softer than the pasta version, so cut square portions and lift them with a wide spatula.',
     ing: [

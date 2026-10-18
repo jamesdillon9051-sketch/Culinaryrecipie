@@ -72,6 +72,7 @@ module.exports = {
   },
 
   'rye-bread': {
+    untimed: ['cooling completely'],
     d: 'A dense, sour-edged loaf made with rye and white flour, caraway seeds and a spoonful of treacle.',
     meta: 'Rye bread: a dense loaf made with rye and white flour, caraway and treacle. Twelve slices, baked for 40 minutes.',
     kw: ['rye bread', 'homemade rye bread', 'rye bread with caraway seeds', 'german style rye bread', 'rye and white flour bread'],
@@ -160,6 +161,7 @@ module.exports = {
   },
 
   'stewed-rhubarb': {
+    untimed: ['cooling'],
     d: 'Rhubarb simmered with sugar and orange juice until just soft and still holding its shape.',
     meta: 'Stewed rhubarb: rhubarb simmered with sugar and orange juice until just soft. Four servings, cooked for 10 minutes.',
     kw: ['stewed rhubarb', 'easy stewed rhubarb', 'stewed rhubarb with orange', 'british stewed rhubarb', 'rhubarb stewed with sugar'],
@@ -269,6 +271,7 @@ module.exports = {
   },
 
   'mint-jelly': {
+    untimed: ['cooling'],
     d: 'A clear, green-flecked jelly of apple juice, vinegar and mint, set with jam sugar and served with roast lamb.',
     meta: 'Mint jelly: a clear jelly of apple juice, vinegar and fresh mint, set with jam sugar. Makes 24 servings of a spoonful, cooked for 15 minutes.',
     kw: ['mint jelly', 'homemade mint jelly', 'mint jelly for lamb', 'apple mint jelly', 'british mint jelly'],

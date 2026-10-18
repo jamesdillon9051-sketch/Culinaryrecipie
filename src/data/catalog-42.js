@@ -121,7 +121,7 @@ module.exports = [
   c('vegetable-lasagne', 'Vegetable Lasagne', 'Italian', 'Dinner', 'Medium', 30, 50, 8, 0, 0, [], ['new'], 'vegetable lasagne'),
   c('spinach-and-ricotta-cannelloni', 'Spinach and Ricotta Cannelloni', 'Italian', 'Dinner', 'Medium', 30, 40, 6, 0, 0, [], ['new'], 'spinach and ricotta cannelloni'),
   c('roasted-vegetable-tart', 'Roasted Vegetable Tart', 'French', 'Lunch', 'Easy', 20, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'roasted vegetable tart'),
-  c('vegetable-wellington', 'Vegetable Wellington', 'British', 'Dinner', 'Hard', 40, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'vegetable wellington'),
+  c('vegetable-wellington', 'Vegetable Wellington', 'British', 'Dinner', 'Hard', 40, 50, 6, 0, 0, ['Vegetarian'], ['new'], 'vegetable wellington'),
   c('mushroom-wellington', 'Mushroom Wellington', 'British', 'Dinner', 'Hard', 40, 40, 6, 0, 0, ['Vegetarian'], ['new'], 'mushroom wellington'),
   c('buffalo-cauliflower', 'Buffalo Cauliflower', 'American', 'Appetizers', 'Easy', 10, 25, 4, 0, 0, ['Vegetarian'], ['new'], 'buffalo cauliflower'),
   c('beet-burgers', 'Beet Burgers', 'American', 'Dinner', 'Medium', 20, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'beet burgers'),

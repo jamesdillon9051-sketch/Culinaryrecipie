@@ -270,8 +270,8 @@ module.exports = {
   },
 
   'mackerel-fishcakes': {
-    d: 'Smoked mackerel mashed with potato, spring onion and horseradish, shaped into cakes and fried. Four servings in 35 minutes.',
-    meta: 'Mackerel fishcakes: smoked mackerel and mashed potato with horseradish, shaped into cakes and fried. A cheap supper for four in 35 minutes.',
+    d: 'Smoked mackerel mashed with potato, spring onion and horseradish, shaped into cakes and fried. Four servings in 50 minutes.',
+    meta: 'Mackerel fishcakes: smoked mackerel and mashed potato with horseradish, shaped into cakes and fried. A cheap supper for four in 50 minutes.',
     kw: ['mackerel fishcakes', 'smoked mackerel fishcakes', 'budget fishcakes', 'easy mackerel and potato cakes', 'cheap fish dinner'],
     why: 'Smoked mackerel does the job of salt, smoke and fat in one ingredient, so the cakes need very little else. Peel the skin off, flake the flesh and check for bones.\n\nPotato has to be dry. Boiled, drained and steamed dry for 2 minutes, then mashed without milk. A wet mash makes a sticky mix that will not hold a shape.\n\nHorseradish cuts through the oily fish. A teaspoon is enough, and more can be added at the table.\n\n**Chill the cakes for 20 minutes before frying.** Cold cakes hold their shape in the pan and brown evenly. Four minutes per side on a medium heat gives a crisp crust and a hot middle. Smoked mackerel is among the cheapest and most flavourful smoked fish in the shop. The fishcakes can be shaped a day ahead and kept in the fridge, which also makes them firmer and easier to fry.',
     ing: [

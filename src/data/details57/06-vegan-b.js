@@ -41,6 +41,7 @@ module.exports = {
   },
 
   'vegan-granola': {
+    untimed: ['cooling completely'],
     d: 'Oat granola with almonds, pumpkin seeds and raisins, bound with coconut oil and maple syrup and baked for 25 minutes.',
     meta: 'Vegan granola with oats, almonds and raisins, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes.',
     kw: ['vegan granola', 'dairy free granola', 'maple and coconut oil granola', 'baked oat granola with almonds', 'homemade granola clusters'],
@@ -106,7 +107,7 @@ module.exports = {
 
   'vegan-lasagna': {
     d: 'Layers of lentil and mushroom ragu, a soy milk white sauce and egg-free pasta sheets, baked for 30 minutes.',
-    meta: 'Vegan lasagna with lentil and mushroom ragu and soy milk white sauce, cooked for 45 minutes. Eight servings, ready in 1 hour 15 minutes.',
+    meta: 'Vegan lasagna with lentil and mushroom ragu and soy milk white sauce, cooked for 45 minutes. Eight servings, ready in 1 hour 30 minutes.',
     kw: ['vegan lasagna', 'lentil and mushroom lasagne', 'dairy free lasagne', 'plant based lasagna with white sauce', 'meat free lasagna'],
     why: 'Lasagne is layers of pasta, sauce and a creamy topping, and every one of those can be made without meat or dairy. The ragu here is brown lentils and mushrooms, which give a hearty, meaty bite once they are cooked down with passata.\n\nChop the mushrooms small and cook them until their water has gone and they begin to brown, because that is where the flavour comes from. Add the lentils and passata and simmer until thick. A loose ragu soaks into the pasta and leaves the layers dry, so keep it a little wetter than you would for a sauce on spaghetti. **Check the label on the pasta sheets**; many dried ones contain no egg, but fresh ones usually do.\n\nThe white sauce is a roux of oil and flour with soy milk whisked in and a spoonful of nutritional yeast for a cheesy edge. Layer ragu, pasta and white sauce, finish with sauce and bake until bubbling. Rest the lasagna for 15 minutes before cutting so it holds its shape.',
     ing: [
@@ -268,7 +269,7 @@ module.exports = {
     ],
     pair: ['Fresh berries', 'Mint', 'Plant cream', 'Crisp biscuits'],
     store: 'Keeps for 3 days in the fridge, covered.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [192, 2, 19, 12, 2, 15, 60]
   },
 
@@ -299,7 +300,7 @@ module.exports = {
       'Cover with oil to keep it green.'
     ],
     pair: ['Pasta', 'Crusty bread', 'Roasted vegetables', 'Pizza'],
-    store: 'Keeps for 5 days in the fridge under a layer of oil. Freeze in ice cube trays for 3 months.',
+    store: 'Keeps for 4 days in the fridge under a layer of oil. Freeze in ice cube trays for 3 months.',
     nut: [225, 4, 5, 21, 3, 0, 200]
   },
 
@@ -379,7 +380,7 @@ module.exports = {
 
   'vegan-quiche': {
     d: 'A silken tofu filling with spinach, red pepper and turmeric in a crisp oil pastry, baked for 40 minutes.',
-    meta: 'Vegan quiche with a silken tofu filling and spinach, cooked for 40 minutes. Six servings, ready in 1 hour 5 minutes.',
+    meta: 'Vegan quiche with a silken tofu filling and spinach, cooked for 40 minutes. Six servings, ready in 1 hour 50 minutes.',
     kw: ['vegan quiche', 'tofu quiche with spinach', 'egg free quiche', 'dairy free quiche', 'quiche with oil pastry'],
     why: 'The first thing you notice when it comes out of the oven is the colour: a golden filling flecked with green spinach and red pepper, in a crisp pastry case. The golden shade comes from turmeric, which stands in for the colour of egg yolk.\n\nSilken tofu blended with cornflour, nutritional yeast and mustard sets into a firm, sliceable custard in the oven. Blend it until completely smooth, as any lumps will stay. The cornflour is the thickener that gives it a clean slice. **Squeeze the spinach dry**: wet spinach turns the filling watery and prevents it from setting.\n\nThe pastry is made with oil instead of butter, which is simple to mix and forgiving to roll, though a little more crumbly. Chill it for 30 minutes, press it into the tin and blind bake for 10 minutes so the base stays crisp. Let the quiche cool for 15 minutes before slicing; the filling firms up as it rests and is best at room temperature.',
     ing: [

@@ -63,7 +63,7 @@ module.exports = {
     ],
     st: [
       'Put the water and sliced ginger in a medium saucepan and bring to the boil.',
-      'Lower in the chicken and bring back to a gentle simmer. Cover, cook for 2 minutes, then take the pan off the heat and leave it covered for 15 minutes, until the centre of the thickest piece reaches 74°C.',
+      'Lower in the chicken and bring back to a gentle simmer. Cover, cook for 2 minutes, then take the pan off the heat and let it poach, covered, in the residual heat for 15 minutes, until the centre of the thickest piece reaches 74°C.',
       'Meanwhile, put the grated ginger, spring onions, vinegar, sesame oil and white pepper in a heatproof bowl.',
       'Heat the neutral oil in a small pan for 2 minutes, until very hot, and pour it over the mixture; it will sizzle. Lift out the chicken, slice it and spoon over the sauce.'
     ],
@@ -79,9 +79,9 @@ module.exports = {
   },
 
   'lemongrass-chicken': {
-    d: 'Thin slices of chicken marinated with minced lemongrass, shallot, garlic, ginger and lime, then seared in a hot pan and finished with cilantro. Four servings in 30 minutes.',
-    meta: 'Lemongrass chicken: sliced chicken marinated with lemongrass, garlic, ginger and lime and seared hot. Four servings in 30 minutes.',
-    kw: ['lemongrass chicken', 'gluten free lemongrass chicken', 'dairy free lemongrass chicken with lime', 'quick lemongrass chicken stir fry'],
+    d: 'Thin slices of chicken marinated with minced lemongrass, shallot, garlic, ginger and lime, then seared in a hot pan and finished with cilantro. Four servings in 50 minutes.',
+    meta: 'Lemongrass chicken: sliced chicken marinated with lemongrass, garlic, ginger and lime and seared hot. Four servings in 50 minutes.',
+    kw: ['lemongrass chicken', 'gluten free lemongrass chicken', 'dairy free lemongrass chicken with lime', 'lemongrass chicken stir fry'],
     why: 'Lemongrass chicken often tastes of very little, because the lemongrass stays in woody pieces that never release their oil. Use only the tender lower third of the stalk, peel away the tough outer layers and mince it as fine as you can. Pounding it first helps.\n\nLime juice, garlic, ginger, shallot and a little chilli go into the marinade with the lemongrass. **Marinate for 20 minutes**, which is long enough for the lime to season the surface without turning the meat chalky. Slice the chicken thin so that it cooks in minutes. High heat gives the edges colour. Do not crowd the pan.\n\nThere is no soy sauce or fish sauce here, so the seasoning has to come from the aromatics. A teaspoon of maple syrup helps the chicken caramelise and balances the lime. Cilantro goes on last. Eat it over rice or in lettuce leaves. A few extra slices of chilli on top add heat and colour.',
     ing: [
       '440 g skinless chicken breast, thinly sliced',

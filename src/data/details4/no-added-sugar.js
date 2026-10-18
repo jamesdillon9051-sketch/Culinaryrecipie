@@ -154,6 +154,7 @@ module.exports = {
   },
 
   'lentil-walnut-ragu': {
+    cookMax: 75,
     d: 'Brown lentils and toasted walnuts cooked down with soffritto, tomato and a long simmer into something with the depth of a meat ragù and none of the meat.',
     meta: 'Lentil and walnut ragù — a long-simmered vegan sauce with the depth of a meat ragù, no added sugar.',
     kw: ['lentil ragu', 'vegan bolognese', 'walnut ragu', 'meat free pasta sauce'],

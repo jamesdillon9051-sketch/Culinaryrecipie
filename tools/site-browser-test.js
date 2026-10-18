@@ -75,8 +75,10 @@ const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'search-index.json'), '
 
   await page.goto(`${base}/recipes/?time=30`, { waitUntil: 'domcontentloaded' });
   await settle();
-  const quick = index.filter(r => r.m <= 30).length;
-  check(`under 30 minutes, start to finish: ${quick} recipes`, await count() === quick, await count());
+  /* A recipe whose method needs time it does not give (u) has only a floor for a total, so the
+     filter leaves it out rather than promise it fits. */
+  const quick = index.filter(r => r.m <= 30 && !r.u).length;
+  check(`under 30 minutes, start to finish: ${quick} recipes (those with an untimed wait left out)`, await count() === quick, await count());
 
   await page.goto(`${base}/recipes/?sort=quickest`, { waitUntil: 'domcontentloaded' });
   await settle();

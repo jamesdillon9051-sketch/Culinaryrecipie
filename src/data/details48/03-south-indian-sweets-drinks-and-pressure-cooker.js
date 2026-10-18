@@ -201,6 +201,7 @@ module.exports = {
   },
 
   'tamarind-chutney': {
+    untimed: ['cooling completely'],
     d: 'A sweet and sour brown chutney of tamarind, jaggery, ginger and roasted cumin, simmered until it coats a spoon.',
     meta: 'Tamarind chutney: tamarind paste simmered with jaggery, ginger and roasted cumin. Ten servings, cooked for 20 minutes.',
     kw: ['tamarind chutney', 'imli chutney', 'sweet tamarind chutney', 'tamarind chutney for chaat', 'meethi chutney'],
@@ -293,6 +294,7 @@ module.exports = {
   },
 
   'bengali-sandesh': {
+    untimed: ['chilling'],
     d: 'Soft, fudgy Bengali sweets made from fresh curdled milk, kneaded with sugar, cooked briefly and shaped into small pieces.',
     meta: 'Bengali sandesh: soft sweets of fresh curdled milk kneaded with sugar and flavoured with cardamom. Twelve pieces, cooked for 15 minutes.',
     kw: ['bengali sandesh', 'sandesh recipe', 'sondesh', 'chhena sandesh', 'bengali milk sweet'],
@@ -385,7 +387,7 @@ module.exports = {
 
   'sol-kadhi': {
     d: 'A pink, cooling drink of coconut milk infused with dried kokum, garlic, green chilli and coriander, served chilled.',
-    meta: 'Sol kadhi: a pink, cooling coconut milk drink infused with kokum, garlic and green chilli. Four servings, ready in 15 minutes.',
+    meta: 'Sol kadhi: a pink, cooling coconut milk drink infused with kokum, garlic and green chilli. Four servings, ready in 45 minutes.',
     kw: ['sol kadhi', 'sol kadhi recipe', 'kokum coconut milk drink', 'konkani sol kadhi', 'coconut kokum digestive drink'],
     why: 'Soak the kokum first. Dried kokum is a sour, dark purple rind, and when it steeps in warm water for 10 minutes it gives up its colour and tang, turning the water a deep pink-purple that becomes the base of the drink.\n\nSol kadhi comes from the Konkan coast and is served with a seafood and rice meal. The sourness of the kokum, the richness of the coconut milk and the sharpness of raw garlic work together, and the drink cools the mouth after spicy food.\n\nUse fresh coconut milk if you can, or a good tinned one. **Do not boil the finished kadhi.** Coconut milk splits when it is heated hard, and the kokum loses its fresh colour. Everything here is mixed cold.\n\nBlend the coconut milk with the garlic, green chilli and cumin, then stir in the kokum water, salt and a pinch of sugar. Taste and adjust: it should be sour, mild and slightly sweet. Chill and serve in small glasses, with fresh coriander on top.',
     ing: [
@@ -690,7 +692,7 @@ module.exports = {
       'Shake the jar every day for the first week.'
     ],
     pair: ['Rice and dal', 'Curry and poppadoms', 'Cheese sandwiches', 'Paratha'],
-    store: 'Keeps in a sterilised jar in a cool place for up to 2 months, or in the fridge for longer.',
+    store: 'Once it has had its week, keep it in the fridge, under its oil, for up to 2 months.',
     nut: [65, 0, 5, 5, 1, 1, 1090],
     rest: [12960, 'Salting and maturing']
   },
@@ -725,7 +727,7 @@ module.exports = {
       'Mustard oil should be heated until it stops smelling raw.'
     ],
     pair: ['Paratha', 'Curd rice', 'Dal and rice', 'Khichdi'],
-    store: 'Keeps in a cool, dark place for up to 3 months, or in the fridge for longer.',
+    store: 'Once it has had its 3 days, keep it in the fridge, under its oil, for up to 3 months.',
     nut: [130, 1, 9, 10, 1, 7, 1100],
     rest: [5940, 'Curing, drying and maturing']
   },

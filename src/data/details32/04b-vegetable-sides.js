@@ -101,6 +101,7 @@ module.exports = {
   },
 
   'greek-eggplant-salad': {
+    untimed: ['cooling to room temperature'],
     d: 'Roasted eggplant dressed while warm with olive oil, red wine vinegar and oregano, then mixed with tomato, red pepper, onion and herbs. Six servings in 40 minutes.',
     meta: 'Greek eggplant salad: roasted eggplant, tomato, red pepper and red onion in a red wine vinegar and oregano dressing, served at room temperature.',
     kw: ['greek eggplant salad', 'vegan greek eggplant salad', 'gluten free roasted eggplant salad', 'dairy free eggplant salad with tomato and olives'],

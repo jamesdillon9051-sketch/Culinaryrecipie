@@ -138,6 +138,7 @@ module.exports = {
   },
 
   'twice-cooked-pork': {
+    untimed: ['cooling completely'],
     rest: [120, 'chilling'],
     d: 'Sichuan\'s huiguorou: pork belly simmered whole, cooled, sliced paper-thin and returned to a searing wok with doubanjiang and leeks until the edges curl into little cups. The definitive Sichuan home dish.',
     meta: 'Sichuan twice-cooked pork (huiguorou) — simmered then stir-fried belly with fermented bean paste and leeks.',
@@ -494,7 +495,7 @@ module.exports = {
   },
 
   'congee': {
-    rest: [120, 'freezing'],
+    rest: [140, 'freezing'],
     d: 'Rice cooked in eight times its volume of stock until the grains collapse into a silken porridge, served with century egg and pork. Breakfast across southern China, and the first thing anyone eats when recovering from illness.',
     meta: 'Century egg and pork congee — silken Cantonese rice porridge simmered until the grains collapse, with classic toppings.',
     kw: ['congee recipe', 'century egg congee', 'chinese rice porridge', 'jook recipe'],

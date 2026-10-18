@@ -54,6 +54,7 @@ module.exports = {
   },
 
   'makowiec': {
+    untimed: ['cooling completely'],
     d: 'A yeasted roll wound around a thick poppy seed filling, sliced to show the spiral. Poland\'s Christmas cake.',
     meta: 'Polish makowiec of enriched yeast dough rolled around a ground poppy seed, honey and nut filling and baked, then iced.',
     kw: ['makowiec', 'makowiec recipe', 'poppy seed roll', 'polish christmas cake', 'poppy seed filling'],
@@ -82,7 +83,7 @@ module.exports = {
     st: [
       'Mix the flour, caster sugar, yeast and salt, then work in the warm milk and egg yolks.',
       'Knead 8 minutes, work in the softened butter, and knead 4 minutes more. Prove 90 minutes.',
-      'Simmer the poppy seeds in the filling milk for 25 minutes, then drain thoroughly.',
+      'While the dough proves, simmer the poppy seeds in the filling milk for 25 minutes, then drain thoroughly.',
       'Grind the drained seeds, then grind them a second time — they should turn dark and pasty.',
       'Cook the ground seeds with the filling sugar, honey and butter for 8 minutes, stirring.',
       'Stir in the raisins, walnuts and candied peel and cool completely.',
@@ -165,7 +166,7 @@ module.exports = {
       '1 tbsp icing sugar'
     ],
     st: [
-      'Press it through a sieve into a bowl so there are no lumps.',
+      'Press the tvorog through a sieve into a bowl so there are no lumps.',
       'Mix in the egg, sugar, salt, vanilla and raisins.',
       'Add the flour a tablespoon at a time, stopping as soon as the mixture just holds together.',
       'Dust a work surface with flour and roll the mixture into a log.',
@@ -249,7 +250,7 @@ module.exports = {
     st: [
       'Bring the water to a simmer with the peppercorns, bay and 1.5 tsp of the salt.',
       'Lower the beef in — the water should already be at a simmer — and skim for the first 10 minutes.',
-      'Add the charred onion halves.',
+      'Add the charred onion halves and the lovage or parsley.',
       'Hold at a bare shiver for 2 hours. Do not let it boil.',
       'Add the carrots, celeriac and leeks and cook 30 minutes more, until the beef is tender to a skewer.',
       'Mix the grated apple with the horseradish, lemon juice, sugar and remaining salt for the sauce.',
@@ -467,6 +468,7 @@ module.exports = {
   },
 
   'barmbrack': {
+    untimed: ['cooling completely'],
     d: 'A tea-soaked fruit loaf with a ring hidden in it, sliced and buttered. Ireland\'s Hallowe\'en cake.',
     meta: 'Irish barmbrack of dried fruit soaked overnight in strong tea and whiskey, folded into a spiced batter and baked as a loaf.',
     kw: ['barmbrack', 'barmbrack recipe', 'irish tea loaf', 'halloween fruit bread', 'tea brack'],
@@ -506,7 +508,7 @@ module.exports = {
     pair: ['Salted butter', 'A pot of tea', 'Hallowe\'en'],
     store: 'Keeps 1 week wrapped and improves for the first three days.',
     nut: [385, 5, 82, 3, 3, 52, 240],
-    rest: [480, 'soaking the fruit']
+    rest: [495, 'soaking the fruit']
   },
 
   'dublin-coddle': {
@@ -635,6 +637,7 @@ module.exports = {
   },
 
   'black-forest-gateau': {
+    untimed: ['cooling completely'],
     d: 'Chocolate sponge soaked in kirsch, layered with cherries and cream. The kirsch is not optional and never was.',
     meta: 'German Schwarzwälder Kirschtorte of chocolate sponge soaked in kirsch syrup, layered with morello cherries and whipped cream.',
     kw: ['black forest gateau', 'black forest cake recipe', 'schwarzwalder kirschtorte', 'cherry chocolate cake', 'kirsch cake'],
@@ -722,6 +725,7 @@ module.exports = {
   },
 
   'pierogi-ruskie': {
+    untimed: ['cooling the filling'],
     d: 'Dumplings filled with potato and curd cheese, boiled and then fried in butter with onions. Poland\'s most-made dish.',
     meta: 'Polish pierogi ruskie of soft dough filled with mashed potato and twaróg curd cheese, boiled then fried in butter with onion.',
     kw: ['pierogi ruskie', 'pierogi recipe', 'polish dumplings', 'potato cheese pierogi', 'homemade pierogi'],
@@ -764,6 +768,7 @@ module.exports = {
   },
 
   'sernik': {
+    cookMax: 80,
     d: 'A dense baked cheesecake made with twaróg rather than cream cheese, which makes it drier and more interesting.',
     meta: 'Polish sernik baked cheesecake of twaróg curd cheese, eggs and sugar on a shortcrust base, baked low and cooled in the oven.',
     kw: ['sernik', 'sernik recipe', 'polish cheesecake', 'twarog cheesecake', 'baked curd cheesecake'],

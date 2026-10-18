@@ -150,7 +150,7 @@ module.exports = {
       'Add the sugar and stir over low heat until dissolved. Meanwhile put a saucer in the freezer.',
       'Boil rapidly for 15 to 20 minutes, until it reaches 105°C / 221°F, or a spoonful dropped on the cold saucer wrinkles when pushed.',
       'Take off the heat and let it settle for 15 minutes, then stir to distribute the peel and pour into sterilised jars.',
-      'Seal while hot and label when cold.'
+      'Seal while hot, then label and refrigerate when cold.'
     ],
     tips: [
       'Simmer the peel until it is completely soft. It will not soften once the sugar is in.',
@@ -158,7 +158,7 @@ module.exports = {
       'Seville oranges are in season only in January and February. Buy extra and freeze them.'
     ],
     pair: ['Buttered toast', 'A full English breakfast', 'Cheddar and crackers'],
-    store: 'Store in a cool, dark cupboard in sterilised jars up to 1 year. Refrigerate once opened.',
+    store: 'Keep the sterilised jars in the fridge for up to 1 year, opened or not. Hot jars and a seal alone do not make marmalade safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [132, 0, 33, 0, 0, 33, 5]
   },
 
@@ -230,6 +230,7 @@ module.exports = {
   },
 
   'pickled-eggs': {
+    untimed: ['cooling the jar'],
     d: 'Hard-boiled eggs steeped in spiced malt vinegar. The chippy and pub counter classic. Thirty minutes of work, then a week in the jar.',
     meta: 'Pickled eggs: hard-boiled eggs steeped in spiced malt vinegar with peppercorns and chilli for a week. The classic chip shop and pub snack.',
     kw: ['pickled eggs', 'pickled eggs recipe', 'chip shop pickled eggs', 'how to pickle eggs', 'pub pickled eggs in malt vinegar'],
@@ -325,6 +326,7 @@ module.exports = {
   },
 
   'lemon-barley-water': {
+    untimed: ['cooling'],
     d: 'Pearl barley simmered in water with lemon zest, then sweetened and sharpened with lemon juice. The Wimbledon drink. Forty minutes, plus chilling.',
     meta: 'Lemon barley water: pearl barley simmered with lemon zest, then sweetened and sharpened with lemon juice and chilled. The traditional Wimbledon drink.',
     kw: ['lemon barley water', 'lemon barley water recipe', 'homemade barley water', 'wimbledon lemon barley water', 'traditional barley water drink'],

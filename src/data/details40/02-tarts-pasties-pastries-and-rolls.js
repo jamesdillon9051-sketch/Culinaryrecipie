@@ -141,6 +141,7 @@ module.exports = {
   },
 
   'welsh-cheese-and-leek-pie': {
+    untimed: ['cooling'],
     d: 'A shortcrust pie of soft leeks in a mustardy cheese sauce, with a crisp top and bottom and a glossy egg-washed lid.',
     meta: 'Welsh cheese and leek pie: shortcrust filled with soft leeks in a mustardy cheese sauce. Six servings, baked for 40 minutes.',
     kw: ['welsh cheese and leek pie', 'cheese and leek pie', 'leek and cheese pie', 'vegetarian leek pie', 'welsh leek pie'],
@@ -499,6 +500,7 @@ module.exports = {
   },
 
   'apple-danish': {
+    untimed: ['cooling completely'],
     d: 'Puff pastry squares filled with cinnamon apples, folded and baked until crisp and gold, with a thin sugar glaze.',
     meta: 'Apple danish: puff pastry squares filled with cinnamon apples and baked until golden. Eight servings, 20 minutes in the oven.',
     kw: ['apple danish', 'apple danish recipe', 'puff pastry apple danish', 'cinnamon apple pastries', 'apple danish pastry'],

@@ -294,8 +294,9 @@ module.exports = {
   },
 
   'pierogi-casserole': {
-    d: 'Layers of lasagne sheets, mashed potato with cheese and fried onion baked like a pierogi lasagne. Six servings in 55 minutes.',
-    meta: 'Pierogi casserole: lasagne sheets layered with cheesy mashed potato and fried onion, then baked. A cheap dish for six in 55 minutes.',
+    cookMax: 60,
+    d: 'Layers of lasagne sheets, mashed potato with cheese and fried onion baked like a pierogi lasagne. Six servings in 1 hour 10 minutes to 1 hour 15 minutes.',
+    meta: 'Pierogi casserole: lasagne sheets layered with cheesy mashed potato and fried onion, then baked. A cheap dish for six in 1 hour 10 minutes to 1 hour 15 minutes.',
     kw: ['pierogi casserole', 'pierogi lasagna', 'budget potato and cheese casserole', 'easy lasagna sheet pierogi bake', 'cheap meatless dinner'],
     why: 'This is what to make in the first cold week, when turning the oven on starts to feel like a treat. It borrows the flavour of potato and cheese pierogi without any of the folding.\n\nLasagne sheets take the place of the dough. Boil them for 5 minutes, drain and lay them flat on a tea towel so they do not stick, and the dish assembles like any lasagne.\n\nThe filling is mashed potato with cheddar and plenty of black pepper. Mash it while the potatoes are hot and the cheese melts through, with no lumps left.\n\n**Fry the onions slowly in butter.** Twelve minutes turns them golden and sweet, and they are what makes the dish taste like pierogi. Cover the dish with foil so the pasta cooks through. It is a good dish to build ahead, since the layers keep in the fridge and bake straight from cold with a few extra minutes. A spoon of soured cream on each portion echoes the filling in a traditional pierogi.',
     ing: [
@@ -311,7 +312,7 @@ module.exports = {
     st: [
       'Heat the oven to 190°C (170°C fan). Boil the lasagne sheets in salted water for 5 minutes, drain and lay flat on a clean tea towel.',
       'Boil the potatoes for 15 to 18 minutes until tender. Drain and mash with 150 g of the cheese, the milk, salt and pepper.',
-      'Melt the butter in a pan over medium heat and fry the onions for 12 minutes, stirring now and then, until golden.',
+      'While the potatoes boil, melt the butter in a pan over medium heat and fry the onions for 12 minutes, stirring now and then, until golden.',
       'Layer a third of the pasta, half the mash and half the onions in a 3 litre dish. Repeat, then finish with the last pasta sheets and scatter with the remaining cheese.',
       'Cover with foil and bake for 25 minutes. Uncover and bake for 10 minutes more until golden.'
     ],
@@ -523,8 +524,8 @@ module.exports = {
   },
 
   'lemon-herb-chicken-thighs': {
-    d: 'Chicken thighs marinated in lemon, garlic and dried herbs, then roasted until the skin is crisp. Four servings in 55 minutes.',
-    meta: 'Lemon herb chicken thighs: thighs marinated in lemon, garlic and herbs, then roasted until crisp. A cheap, easy dinner for four in 55 minutes.',
+    d: 'Chicken thighs marinated in lemon, garlic and dried herbs, then roasted until the skin is crisp. Four servings in 1 hour 20 minutes.',
+    meta: 'Lemon herb chicken thighs: thighs marinated in lemon, garlic and herbs, then roasted until crisp. A cheap, easy dinner for four in 1 hour 20 minutes.',
     kw: ['lemon herb chicken thighs', 'roast lemon chicken thighs', 'budget chicken thigh dinner', 'easy lemon garlic chicken', 'cheap oven chicken'],
     why: 'Why does lemon chicken so often taste of nothing? Because the juice goes on at the end and the acid never reaches the meat. Marinating for even 30 minutes fixes that.\n\nThe marinade is lemon juice, oil, garlic and dried herbs. The acid loosens the surface of the meat and carries the garlic into it, so the flavour goes right through and does not just sit on the skin.\n\nDo not marinate longer than 4 hours. Lemon juice starts to turn the surface of the chicken mushy if it sits overnight.\n\n**Lift the chicken out of the marinade and pat it dry** before roasting. Wet skin steams and will not crisp. Roast skin side up at a high heat, and leave the lemon halves on the tray to caramelise. Dried herbs are fine here, since they are rehydrated by the marinade and the heat. The roasted lemon halves can be squeezed over the cooked chicken for a mellow, caramelised juice that tastes different from the raw.',
     ing: [
@@ -539,7 +540,7 @@ module.exports = {
     ],
     st: [
       'Juice one lemon and cut the second into halves. Mix the juice with the oil, garlic, oregano, thyme, salt and pepper.',
-      'Turn the chicken in the marinade, cover and leave for 30 minutes at room temperature or up to 4 hours in the fridge.',
+      'Turn the chicken in the marinade, cover and leave in the fridge for 30 minutes, or up to 4 hours.',
       'Heat the oven to 210°C (190°C fan). Lift the chicken out, pat dry and arrange skin side up on a tray with the lemon halves.',
       'Roast for 40 minutes until the skin is deep golden and the juices run clear. Squeeze the roasted lemon over before serving.'
     ],
@@ -554,8 +555,8 @@ module.exports = {
   },
 
   'chicken-and-mushroom-pie': {
-    d: 'Diced chicken and mushrooms in a thick creamy sauce under a puff pastry lid. Six servings in 1 hour 15 minutes.',
-    meta: 'Chicken and mushroom pie: diced chicken and mushrooms in a creamy sauce under puff pastry. A cheap family pie for six in 1 hour 15 minutes.',
+    d: 'Diced chicken and mushrooms in a thick creamy sauce under a puff pastry lid. Six servings in 1 hour 30 minutes.',
+    meta: 'Chicken and mushroom pie: diced chicken and mushrooms in a creamy sauce under puff pastry. A cheap family pie for six in 1 hour 30 minutes.',
     kw: ['chicken and mushroom pie', 'budget chicken pie', 'creamy chicken pie with puff pastry', 'cheap family chicken pie', 'chicken pie for six'],
     why: 'Salt the chicken and let it sit while you chop the mushrooms. That small pause seasons the meat through and makes the filling taste of chicken, not of sauce.\n\nCook the mushrooms until the pan is dry and they begin to brown. They give off a lot of liquid at first, and sauce made with half-cooked mushrooms turns watery in the pie.\n\nThe sauce should be thick enough to hold a spoon upright. Pastry on a loose filling sinks and the pie slumps as it bakes.\n\n**Let the filling cool for 15 minutes before the lid goes on.** Hot filling melts the pastry underneath and turns it pale and flabby. A lid-only pie uses a single sheet of pastry, which is what makes it a budget dish. Browning the chicken and mushrooms properly is the part that cannot be rushed, because they are the flavour of the filling. Using only a lid keeps the pie light and the pastry crisp rather than soft on the underside.',
     ing: [
@@ -590,8 +591,8 @@ module.exports = {
   },
 
   'leftover-roast-chicken-pie': {
-    d: 'Cooked chicken, leeks and peas in a creamy sauce under a shortcrust lid. Four servings in 1 hour, a good use for a roast chicken.',
-    meta: 'Leftover roast chicken pie: cooked chicken, leek and peas in a creamy sauce under a shortcrust lid. A frugal pie for four in 1 hour.',
+    d: 'Cooked chicken, leeks and peas in a creamy sauce under a shortcrust lid. Four servings in 1 hour 15 minutes, a good use for a roast chicken.',
+    meta: 'Leftover roast chicken pie: cooked chicken, leek and peas in a creamy sauce under a shortcrust lid. A frugal pie for four in 1 hour 15 minutes.',
     kw: ['leftover roast chicken pie', 'chicken pie from leftover chicken', 'budget chicken and leek pie', 'shortcrust chicken pie', 'cheap pie for four'],
     why: 'Most leftover chicken pies come out dry, and the fix is the sauce. A roast chicken has already given up most of its moisture, so the filling needs plenty of sauce to stay soft under the lid.\n\nPull the meat in chunks, not shreds, and include the dark meat; it holds its flavour best. Skip the skin.\n\nLeeks sweeten the sauce and cost little. Slice them thin and cook them in butter for 6 minutes until they collapse.\n\n**Do not boil the sauce once the chicken is in.** The meat is already cooked and needs only to warm through, and rapid boiling dries it out. A pie lid on a cooled filling bakes crisp. Hot filling steams the pastry from underneath. The pie is a good place to use up the end of a Sunday roast, including the jelly and juices left in the tin, which add savour to the sauce. Pulling the meat while it is still slightly warm is easier than doing it cold.',
     ing: [
@@ -657,7 +658,7 @@ module.exports = {
   },
 
   'whole-roast-chicken-with-vegetables': {
-    d: 'A whole chicken roasted on a bed of potatoes, carrots and onions that cook in its juices. Four servings, with leftovers, in 1 hour 50 minutes.',
+    d: 'A whole chicken roasted on a bed of potatoes, carrots and onions that cook in its juices. Four servings, with leftovers, in 2 hours 5 minutes.',
     meta: 'Whole roast chicken with vegetables: a chicken roasted over potatoes, carrots and onions in its own juices. Cheap, easy, four servings plus leftovers.',
     kw: ['whole roast chicken with vegetables', 'easy roast chicken dinner', 'budget sunday roast', 'cheap whole chicken recipe', 'roast chicken and potatoes'],
     why: 'Why does a whole chicken cost so much less than the same weight in breasts? Because the work of cutting it up is left to the cook. A whole bird also feeds a family twice, once hot and once cold, which is where the value is.\n\nSalt the skin and leave the chicken uncovered in the fridge for an hour if you can. It dries the surface, and dry skin crisps.\n\nThe vegetables go underneath. They catch the juices and cook in them, so there is no separate tray to manage.\n\n**Rest the chicken for 15 minutes before carving.** Cut too soon and the juices run onto the board, leaving the breast dry. It is done when the juices from the thigh run clear and a thermometer reads 75°C in the thickest part. Spatchcocking, or cutting out the backbone and flattening the bird, shortens the cooking time and makes the skin crisper, if you feel confident with a pair of kitchen scissors. The carcass makes a stock for the soup elsewhere in this volume.',

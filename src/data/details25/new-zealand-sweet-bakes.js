@@ -10,6 +10,7 @@
 
 module.exports = {
   'rewena-paraoa': {
+    untimed: ['cooling'],
     d: 'A Māori bread raised with a fermented potato starter instead of yeast. Soft, moist and faintly sweet and sour, with a deep golden crust.',
     meta: 'Rēwena parāoa: Māori potato bread raised with a fermented potato starter, the bug, instead of yeast. Soft, moist, faintly sweet and sour, with a golden crust.',
     kw: ['rewena paraoa', 'rewena bread', 'maori potato bread recipe', 'rewena bug recipe', 'how to make rewena bread'],
@@ -87,7 +88,7 @@ module.exports = {
     pair: ['A cup of tea', 'A flat white', 'Vanilla ice cream'],
     store: 'Keep in an airtight container up to 5 days. Freeze for 2 months.',
     nut: [254, 3, 29, 14, 1, 15, 75],
-    rest: [60, 'Cooling']
+    rest: [75, 'Cooling']
   },
 
   'peppermint-slice': {
@@ -127,7 +128,7 @@ module.exports = {
     pair: ['A cup of tea', 'Vanilla ice cream', 'Fresh raspberries'],
     store: 'Keep in an airtight container in the fridge up to 5 days. Freeze for 2 months.',
     nut: [348, 3, 39, 20, 2, 30, 75],
-    rest: [60, 'Chilling']
+    rest: [100, 'Chilling']
   },
 
   'squiggle-slice': {
@@ -168,7 +169,7 @@ module.exports = {
     pair: ['A cup of tea', 'A glass of cold milk', 'Fresh strawberries'],
     store: 'Keep in an airtight container in the fridge up to 5 days. The honeycomb softens after 2 days. Freeze for 2 months.',
     nut: [329, 2, 42, 17, 1, 33, 70],
-    rest: [120, 'Chilling']
+    rest: [150, 'Chilling']
   },
 
   'peanut-brownies': {
@@ -238,6 +239,7 @@ module.exports = {
   },
 
   'boston-bun': {
+    untimed: ['cooling completely'],
     d: 'Soft, spiced sultana buns made with a little mashed potato, topped with a thick layer of pink icing and desiccated coconut.',
     meta: 'Boston bun: soft, spiced sultana buns with a little mashed potato for tenderness, covered in a thick layer of pink icing and desiccated coconut.',
     kw: ['boston bun', 'nz boston bun recipe', 'boston bun with pink icing and coconut', 'iced boston buns', 'how to make boston buns'],

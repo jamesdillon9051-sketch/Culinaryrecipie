@@ -12,6 +12,7 @@
 
 module.exports = {
   'pain-de-campagne': {
+    untimed: ['cooling completely'],
     d: 'A country loaf of white and wholemeal flour raised with a levain, baked dark. The crumb should be open and the crust should crackle as it cools.',
     meta: 'A country sourdough of white and wholemeal flour raised on a levain, proved slowly and baked dark in a covered pot.',
     kw: ['pain de campagne', 'french country bread', 'pain de campagne recipe', 'sourdough country loaf', 'levain bread'],
@@ -34,7 +35,7 @@ module.exports = {
       'Heat a covered casserole in the oven at 250°C / 480°F for 45 minutes. Tip the cold loaf in, score it deeply, and put the lid on.',
       'Bake 20 minutes covered, then lower to 220°C, remove the lid and bake 25 minutes more until very dark. Cool completely on a rack before cutting.'
     ],
-    rest: [910, 'the autolyse, bulk rise and cold overnight prove'],
+    rest: [930, 'the autolyse, bulk rise and cold overnight prove'],
     tips: [
       'Lid on for the first twenty minutes. It is the steam that lets it rise.',
       'Bake it darker than feels right — pale crust means flat flavour.',
@@ -85,6 +86,7 @@ module.exports = {
   },
 
   'pain-aux-noix': {
+    untimed: ['cooling completely'],
     d: 'A dense walnut loaf that turns faintly purple where the nuts touch the crumb. Made for cheese and very little else.',
     meta: 'A dense walnut bread that stains faintly purple around the nuts, made with wholemeal flour and a little honey.',
     kw: ['pain aux noix', 'walnut bread', 'pain aux noix recipe', 'french nut bread', 'bread for cheese'],
@@ -121,6 +123,7 @@ module.exports = {
   },
 
   'tarte-flambee': {
+    cookMax: 25,
     d: 'Alsatian flatbread with fromage blanc, onion and bacon, baked in two minutes at the top of a furnace-hot oven. Thin to the point of transparency.',
     meta: 'A paper-thin Alsatian flatbread topped with fromage blanc, raw onion and bacon and baked in minutes at maximum heat.',
     kw: ['tarte flambee', 'flammekueche', 'tarte flambee recipe', 'alsace bacon tart', 'french flatbread pizza'],
@@ -142,7 +145,7 @@ module.exports = {
     ],
     st: [
       'Knead the flour, salt, water and oil to a smooth dough, 6 minutes. It contains no yeast and needs no proving. Rest it 20 minutes.',
-      'Put a baking stone or heavy tray on the top shelf and heat the oven to its absolute maximum, at least 260°C, for 40 minutes.',
+      'While the dough rests, put a baking stone or heavy tray on the top shelf and heat the oven to its absolute maximum, at least 260°C, for 40 minutes.',
       'Beat the fromage blanc with the cream, nutmeg, salt and pepper until smooth and spreadable.',
       'Divide the dough in two and roll each out on baking paper until you can almost see through it — 2 mm at most.',
       'Spread thinly with the cheese mixture, leaving a 1 cm border.',
@@ -244,6 +247,7 @@ module.exports = {
   },
 
   'saucisson-brioche': {
+    untimed: ['cooling completely'],
     d: 'A poaching sausage baked inside brioche. Lyon, and the trick is that the sausage is cooked and cooled before it is wrapped.',
     meta: 'A Lyon poaching sausage cooked, cooled and wrapped in enriched brioche dough, then baked until dark and glossy.',
     kw: ['saucisson en brioche', 'sausage in brioche', 'saucisson brioche recipe', 'lyon sausage bread', 'french sausage bake'],
@@ -269,12 +273,12 @@ module.exports = {
       'Mix the flour, yeast, sugar and salt. Add the eggs and milk and beat with a dough hook for 8 minutes, until smooth and elastic.',
       'Add the softened butter a few pieces at a time, beating for a further 10 minutes, until the dough is glossy and pulls from the bowl.',
       'Cover and refrigerate at least 720 minutes. It is unworkable at room temperature.',
-      'Poach the sausage with the bay and onion at a bare simmer for 35 minutes. Cool it completely, then peel off the skin.',
+      'While the dough chills, poach the sausage with the bay and onion at a bare simmer for 35 minutes. Cool it completely, then peel off the skin.',
       'Roll the cold brioche into a rectangle, spread thinly with the mustard, and lay the cold sausage across it.',
       'Wrap tightly, seal the seam and ends, and set it seam-side down in a lined loaf tin. Prove 90 minutes, until risen by half.',
       'Brush with beaten egg and bake at 180°C / 350°F for 45 minutes, until deep brown and 90°C at the centre. Cool 20 minutes before slicing.'
     ],
-    rest: [810, 'the cold prove and the second rise'],
+    rest: [830, 'the cold prove and the second rise'],
     tips: [
       'Cook and cool the sausage completely first.',
       'Cold dough, straight from the fridge, or it cannot be handled.',

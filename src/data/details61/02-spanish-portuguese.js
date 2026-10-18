@@ -381,7 +381,7 @@ module.exports = {
   },
 
   'porra-antequerana': {
-    d: 'A thick, cold Andalusian tomato and bread soup finished with diced ham and tuna, made in 20 minutes with no cooking.',
+    d: 'A thick, cold Andalusian tomato and bread soup finished with diced ham and tuna: 20 minutes of work and no cooking, then 2 hours in the fridge.',
     meta: 'Porra antequerana, thick cold Andalusian tomato and bread soup with ham and tuna, ready in 20 minutes plus chilling. Six servings, no cooking.',
     kw: ['porra antequerana', 'thick andalusian tomato soup', 'cold tomato and bread soup with ham', 'antequera porra', 'porra recipe'],
     why: 'It is a close relative of salmorejo, thicker and denser, and in Antequera it is served as a first course, as a dip with bread, and as a snack in bars. The name porra refers to the thick consistency, which is such that a spoon almost stands up in it. The difference is the toppings: ham and tuna in this one.\n\nBlend ripe tomatoes with garlic, stale crustless bread, olive oil, sherry vinegar and salt until perfectly smooth. **Add the bread in stages**, tasting the texture each time, because the right thickness depends on how wet the tomatoes are. It should be as thick as a mayonnaise. Taste, and add more salt or vinegar as needed, remembering that chilling mutes the flavour.\n\nPour into a bowl and chill for at least 2 hours. Serve in small bowls or on a plate, topped with diced serrano ham, flaked tuna and a drizzle of oil. In Antequera, hard boiled egg is also traditional, but you can leave it out. Use the best tomatoes you can find, since they are the whole dish. Serve with crusty bread.',
@@ -574,8 +574,9 @@ module.exports = {
   },
 
   'arroz-de-pato': {
-    d: 'Portuguese duck rice made with shredded roast duck, chorizo and a crisp top baked in the oven, ready in 1 hour 20 minutes.',
-    meta: 'Arroz de pato, Portuguese duck rice with chorizo and a crisp baked top, cooked for 50 minutes. Six servings, ready in 1 hour 20 minutes.',
+    cookMax: 75,
+    d: 'Portuguese duck rice made with shredded roast duck, chorizo and a crisp top baked in the oven, ready in 1 hour 40 minutes to 1 hour 45 minutes.',
+    meta: 'Arroz de pato, Portuguese duck rice with chorizo and a crisp baked top, cooked for about 1 hour 15 minutes. Six servings, ready in 1 hour 40 minutes to 1 hour 45 minutes.',
     kw: ['arroz de pato', 'portuguese duck rice', 'duck and chorizo rice', 'braga duck rice', 'arroz de pato recipe'],
     why: 'This is what to cook in the first week of autumn, when you want a dish that fills the house with the smell of duck fat and smoked sausage. Arroz de pato is the Portuguese duck rice, a dish where rice is cooked in the broth of the duck itself, mixed with shredded meat and chorizo and finished in the oven until crisp on top.\n\nSimmer the duck legs in water with an onion, a carrot and a bay leaf for 40 minutes, until the meat is tender and comes away from the bone. Lift them out, strain the broth and shred the meat. Fry the duck skin until crisp if you like. **Use the duck broth to cook the rice**, not water, as it carries the flavour. Soften onion and garlic in olive oil and add the rice, then the hot broth.\n\nSimmer for 12 minutes until the rice is almost tender, then stir in the shredded duck and layer the sliced chorizo on top. Bake at 220C for 15 minutes, until the top is crisp and the chorizo is browned. Rest for 5 minutes. Serve straight from the dish with a green salad and a glass of red wine.',
     ing: [
@@ -611,7 +612,7 @@ module.exports = {
 
   'sardinhas-assadas': {
     d: 'Whole fresh sardines grilled over a high heat for 12 minutes, served on bread with roasted peppers and boiled potatoes.',
-    meta: 'Sardinhas assadas, Portuguese grilled sardines with coarse salt, served on bread, cooked for 12 minutes. Four servings, ready in 22 minutes.',
+    meta: 'Sardinhas assadas, Portuguese grilled sardines with coarse salt, served on bread, cooked for 12 minutes. Four servings, ready in 37 minutes.',
     kw: ['sardinhas assadas', 'portuguese grilled sardines', 'grilled whole sardines with salt', 'santo antonio sardines', 'sardinhas na brasa'],
     why: 'Compare a grilled sardine to a tinned one and you will think they are different fish. Sardinhas assadas are the fresh sardines of Portugal, grilled whole over charcoal in June during the festivals of Saint Anthony, when the streets of Lisbon smell of smoke, and everyone eats them on a slice of bread.\n\nUse the freshest sardines you can find, with shiny skin and clear eyes. Do not gut or scale them: the guts are removed at the table, by running a thumb down the belly. Salt them with coarse salt 15 minutes before cooking, which firms the flesh and seasons the skin. **Grill them over a very hot fire**, 5 to 6 minutes on each side, until the skin blisters and blackens in places.\n\nServe on a thick slice of crusty bread, which soaks up the juices and the fat. Eat with a salad of roasted peppers, boiled potatoes and a drizzle of olive oil. Pull the flesh from the backbone with your fingers. They are best eaten the moment they leave the grill and are not good reheated.',
     ing: [
@@ -640,7 +641,7 @@ module.exports = {
 
   'polvo-a-lagareiro': {
     d: 'Octopus simmered then roasted in olive oil with garlic and potatoes that are punched flat, a Portuguese oven classic.',
-    meta: 'Polvo à lagareiro, Portuguese octopus roasted in olive oil with garlic and potatoes, cooked for 1 hour. Four servings, ready in 1 hour 15 minutes.',
+    meta: 'Polvo à lagareiro, Portuguese octopus roasted in olive oil with garlic and potatoes, cooked for 1 hour. Four servings, ready in 1 hour 35 minutes.',
     kw: ['polvo a lagareiro', 'portuguese roast octopus', 'octopus with olive oil and potatoes', 'polvo a lagareiro recipe', 'oven roasted octopus with garlic'],
     why: 'Short and sharp: boil it, then roast it in oil. That is all there is to polvo à lagareiro, the octopus of the olive press workers. The old lagareiros were paid in oil, and so the dish is soaked in it, and the potatoes are punched, or murro, before roasting so that they drink up the garlic and the fat.\n\nBoil the octopus in unsalted water for about 1 hour until a skewer slides in easily. Cool it in the water, then cut the tentacles apart. Boil small potatoes in their skins until just tender, 20 minutes, and press each one flat with your fist so the skin cracks and the flesh opens. **Be generous with the oil**, a good 150 ml, since the whole dish depends on it.\n\nPut the octopus and potatoes in a roasting dish, scatter with sliced garlic, bay and coarse salt, and pour over the oil. Roast at 220C for 20 minutes, until the octopus is blistered and the potatoes are golden. Serve in the dish with a green salad, a lemon wedge and plenty of bread.',
     ing: [
@@ -655,7 +656,7 @@ module.exports = {
     ],
     st: [
       'Simmer the octopus in unsalted water for 1 hour until a skewer slides in easily. Cool in the water and cut into pieces.',
-      'Boil the potatoes in their skins for 20 minutes. Drain and press each flat with your fist.',
+      'While the octopus simmers, boil the potatoes in their skins for 20 minutes. Drain and press each flat with your fist.',
       'Heat the oven to 220C. Put the octopus and potatoes in a roasting dish with the garlic, bay and salt and pour over the oil.',
       'Roast for 20 minutes until blistered and golden. Scatter with the parsley and serve with the lemon.'
     ],
@@ -772,7 +773,7 @@ module.exports = {
 
   'queijadas-de-sintra': {
     d: 'Small Portuguese tartlets of crisp pastry filled with a sweet curd cheese, egg yolk and cinnamon filling, baked for 25 minutes.',
-    meta: 'Queijadas de Sintra, small Portuguese cheese tartlets with cinnamon, baked for 25 minutes. Twelve servings, ready in 50 minutes.',
+    meta: 'Queijadas de Sintra, small Portuguese cheese tartlets with cinnamon, baked for 25 minutes. Twelve servings, ready in 1 hour 5 minutes.',
     kw: ['queijadas de sintra', 'portuguese cheese tartlets', 'sintra cheese tarts', 'queijadas recipe', 'sweet cheese tartlets with cinnamon'],
     why: 'A treat for a table of twelve, and a Portuguese tradition from Sintra for centuries: queijadas de Sintra are small tartlets filled with fresh cheese, egg yolk, sugar and a pinch of cinnamon, with a thin, crisp, almost translucent pastry. The recipe is old, and it is simple.\n\nThe pastry is flour, a little butter, water and a pinch of salt, mixed to a soft dough and rolled very thin. Cut rounds and press them into a muffin tin, so the sides come up high. **Use fresh, mild cheese such as ricotta or fresh curd**, drained overnight if it is wet, as a wet cheese weeps in the oven. Mash it with sugar, yolks, flour and cinnamon until smooth.\n\nSpoon the filling into the cases to just below the rim, and bake at 200C for 25 minutes, until the tops are golden brown and spotted, and the pastry is crisp. Cool in the tin for 10 minutes, then turn out and dust with cinnamon. They keep for 2 days but are best on the day. Serve with strong coffee.',
     ing: [

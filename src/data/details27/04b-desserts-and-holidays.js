@@ -223,7 +223,7 @@ module.exports = {
     pair: ['A cup of tea', 'Fresh berries', 'Party sandwiches'],
     store: 'Keeps in an airtight container in the fridge for up to 5 days. It does not freeze well.',
     nut: [236, 3, 29, 12, 1, 21, 100],
-    rest: [210, 'Chilling and setting']
+    rest: [230, 'Chilling and setting']
   },
 
   'kiwifruit-cheesecake': {

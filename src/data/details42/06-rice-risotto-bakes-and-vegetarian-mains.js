@@ -282,8 +282,9 @@ module.exports = {
   },
 
   'vegetable-wellington': {
+    untimed: ['cooling completely'],
     d: 'Roasted butternut squash, mushrooms, spinach and chestnuts wrapped in puff pastry and baked until golden.',
-    meta: 'Vegetable Wellington: roasted butternut squash, mushrooms, spinach and chestnuts in puff pastry. Six servings, cooked for 40 minutes.',
+    meta: 'Vegetable Wellington: roasted butternut squash, mushrooms, spinach and chestnuts in puff pastry. Six servings, baked for 30 minutes.',
     kw: ['vegetable wellington', 'vegetarian wellington', 'butternut squash wellington', 'christmas vegetable wellington', 'chestnut and squash wellington'],
     why: 'A Wellington is a dish for an occasion, and a vegetable one is the centrepiece for a table where not everyone eats meat. It is also one of the hardest vegetarian dishes to get right, because the filling is wet and the pastry is delicate.\n\nCook the squash and the mushrooms until dry before they go anywhere near the pastry. Roast the squash cubes at 200°C for 20 minutes and fry the mushrooms with the onion for 10 minutes until the pan is dry. **Squeeze the wilted spinach very dry.** Any moisture left in the filling turns the base of the pastry to paste.\n\nMix the filling with the chestnuts and thyme, and let it cool completely. A warm filling melts the pastry. Roll the pastry out, pile the filling down the middle, brush the edges with egg, and fold over. Seal, trim, and score the top.\n\nBake at 200°C for 30 minutes on a hot tray, until deep gold. If your oven runs hot, check at 24 minutes. Rest for 10 minutes before slicing with a serrated knife.',
     ing: [
@@ -300,7 +301,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200°C. Roast the squash with half the oil for 20 minutes.',
-      'Fry the mushrooms and onion in the remaining oil for 10 minutes until dry. Wilt the spinach for 2 minutes, then squeeze it very dry and chop.',
+      'While the squash roasts, fry the mushrooms and onion in the remaining oil for 10 minutes until dry. Wilt the spinach for 2 minutes, then squeeze it very dry and chop.',
       'Mix the squash, mushrooms, spinach, chestnuts, thyme and salt. Cool completely.',
       'Pile the filling down the middle of the pastry on a lined tray, brush the edges with egg, fold over, seal and score the top. Brush with egg.',
       'Bake on a hot tray for 30 minutes until deep gold. Rest for 10 minutes.'
@@ -317,6 +318,7 @@ module.exports = {
   },
 
   'mushroom-wellington': {
+    untimed: ['cooling completely'],
     d: 'A savoury mushroom, chestnut and thyme filling wrapped in puff pastry and baked until deep gold.',
     meta: 'Mushroom Wellington: a savoury mushroom, chestnut and thyme filling in puff pastry. Six servings, cooked for 40 minutes.',
     kw: ['mushroom wellington', 'vegetarian mushroom wellington', 'chestnut mushroom wellington', 'mushroom and chestnut wellington', 'christmas mushroom wellington'],

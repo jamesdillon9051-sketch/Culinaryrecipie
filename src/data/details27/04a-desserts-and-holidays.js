@@ -48,6 +48,7 @@ module.exports = {
   },
 
   'caramel-corn': {
+    untimed: ['cooling completely'],
     d: 'Popcorn coated in a butter, brown sugar and corn syrup caramel and baked low and slow until every piece is dry, crisp and shiny. It stays crunchy for days.',
     meta: 'Caramel corn: popcorn coated in a butter, brown sugar and corn syrup caramel, then baked low and slow until every piece is dry, crisp and shiny.',
     kw: ['caramel corn', 'baked caramel corn', 'homemade caramel corn', 'crunchy caramel popcorn recipe', 'how to make caramel corn'],
@@ -122,7 +123,7 @@ module.exports = {
     pair: ['Vanilla ice cream', 'Lemonade', 'A barbecue'],
     store: 'Keeps covered in the fridge for up to 2 days, though the berries soften. Freeze the plain unfrosted cake for up to 2 months.',
     nut: [440, 5, 60, 20, 1, 43, 220],
-    rest: [60, 'Cooling']
+    rest: [75, 'Cooling']
   },
 
   'homemade-vanilla-ice-cream': {
@@ -219,7 +220,7 @@ module.exports = {
     pair: ['Hot chocolate', 'Coffee', 'A holiday cookie plate'],
     store: 'Keeps in an airtight tin in a cool place for up to 2 weeks, with baking paper between layers. Freeze for up to 3 months.',
     nut: [182, 2, 21, 10, 1, 19, 20],
-    rest: [60, 'Setting']
+    rest: [75, 'Setting']
   },
 
   'strawberry-rhubarb-pie': {

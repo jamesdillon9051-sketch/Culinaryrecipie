@@ -538,7 +538,7 @@ module.exports = {
       '2 spring onions, sliced'
     ],
     st: [
-      'Rub the duck legs with the salt, Sichuan pepper and wine. Scatter with the ginger and spring onions and leave for 1 hour.',
+      'Rub the duck legs with the salt, Sichuan pepper and wine. Scatter with the ginger and spring onions, cover and leave in the fridge for 1 hour.',
       'Steam the legs on a plate over boiling water for 45 minutes, until tender. Pat completely dry.',
       'Line a heavy wok with foil. Mix 4 tablespoons of black tea leaves, 4 tablespoons of uncooked rice and 4 tablespoons of brown sugar and spread over the base. Set a rack above it and place the duck on the rack.',
       'Heat the wok until the mixture begins to smoke, then cover tightly and smoke over a medium heat for 10 minutes. Turn off the heat and leave for 5 minutes.',

@@ -127,7 +127,7 @@ module.exports = {
       '150 ml soured cream'
     ],
     st: [
-      'Combine the lime juice, orange juice, garlic, cumin, oregano, salt and oil, add the steak, and marinate 2 to 4 hours.',
+      'Combine the lime juice, orange juice, garlic, cumin, oregano, salt and oil, add the steak, and marinate, covered, in the fridge for 2 to 4 hours.',
       'Cook the rice, then fold through the lime juice, coriander and salt while it is still warm. Let it cool to just above room temperature.',
       'Get a griddle or heavy pan smoking hot. Cook the steak 3 minutes a side for medium-rare, then rest 8 minutes and slice thinly against the grain.',
       'Steam each tortilla: hold it over a pan of simmering water for 15 seconds a side, or microwave between damp kitchen paper for 20 seconds, until soft and floppy.',
@@ -243,6 +243,7 @@ module.exports = {
   },
 
   'queso-fundido': {
+    cookMax: 40,
     d: 'Melted cheese in a hot skillet with chorizo and roasted chillies, brought to the table still bubbling and scooped straight into tortillas. Not a dip — a dish, and one that waits for nobody.',
     meta: 'Queso fundido — bubbling skillet of melted cheese with chorizo and roasted poblano, scooped into warm tortillas.',
     kw: ['queso fundido recipe', 'mexican melted cheese', 'chorizo cheese skillet', 'queso flameado'],
@@ -263,7 +264,7 @@ module.exports = {
       'Char the poblanos directly over a flame or under a hot grill for 10 minutes, turning, until blackened all over.',
       'Steam them in a covered bowl for 10 minutes, then peel, deseed and cut into strips (rajas).',
       'Heat the oven to 220°C / 430°F.',
-      'Fry the chorizo in a cast-iron skillet over medium heat for 8 minutes until crisp and well rendered. Lift out with a slotted spoon and pour off all but a tablespoon of the fat.',
+      'While the poblanos steam, fry the chorizo in a cast-iron skillet over medium heat for 8 minutes until crisp and well rendered. Lift out with a slotted spoon and pour off all but a tablespoon of the fat.',
       'Fry the onion in that fat for 5 minutes until soft, add the garlic for 30 seconds, then the poblano strips.',
       'Deglaze with the tequila if using and let it evaporate completely.',
       'Take the pan off the heat and mix the cheeses together. Scatter half into the skillet, then the chorizo and vegetables, then the rest of the cheese.',
@@ -362,6 +363,7 @@ module.exports = {
   },
 
   'refried-beans': {
+    cookMax: 141,
     rest: [480, 'soaking'],
     d: 'Pinto beans simmered with onion and then mashed into their own broth in hot lard until they are creamy, glossy and dense. Nothing is fried twice, despite the name — "refritos" means well fried.',
     meta: 'Authentic refried beans (frijoles refritos) — pinto beans mashed in lard with onion until creamy and glossy.',
@@ -402,6 +404,7 @@ module.exports = {
   },
 
   'flan-napolitano': {
+    untimed: ['cooling completely'],
     rest: [360, 'chilling'],
     d: 'A dense, cream-cheese-enriched custard baked over caramel and turned out so the syrup floods down the sides. Denser and richer than a French crème caramel, and the celebration dessert across Mexico.',
     meta: 'Flan napolitano — dense Mexican cream cheese custard baked over caramel and turned out in its own syrup.',
@@ -427,7 +430,7 @@ module.exports = {
       'Strain the mixture through a fine sieve over the caramel to catch any lumps or chalazae.',
       'Cover the tin tightly with foil and set it in a deep roasting tray. Pour boiling water into the tray to come halfway up the sides.',
       'Bake 60 to 70 minutes until the flan is set at the edges with a slight wobble in the middle, like a set jelly.',
-      'Cool completely, then refrigerate at least 6 hours or overnight — this is not optional, as a warm flan will collapse.',
+      'Cool for no more than 2 hours, then refrigerate at least 6 hours or overnight — this is not optional, as a warm flan will collapse.',
       'To serve, run a knife around the edge, set a rimmed plate over the tin, and invert confidently in one movement.'
     ],
     tips: [
@@ -441,6 +444,7 @@ module.exports = {
   },
 
   'tres-leches-cake': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'A light sponge soaked in three milks until it is completely saturated yet somehow not soggy, topped with softly whipped cream and cinnamon. The birthday cake of Latin America.',
     meta: 'Tres leches cake — airy sponge soaked in evaporated, condensed and whole milk, topped with whipped cream.',

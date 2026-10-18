@@ -304,6 +304,7 @@ module.exports = {
   },
 
   'vegetable-samosas': {
+    cookMax: 50,
     d: 'Spiced potato, pea and carrot wrapped in folded filo triangles, brushed with oil and baked until crisp.',
     meta: 'Vegetable samosas: spiced potato, pea and carrot in folded filo triangles, baked for 25 minutes. Twelve samosas.',
     kw: ['vegetable samosas', 'baked vegetable samosas', 'potato and pea samosas', 'spiced vegetable samosas with filo', 'indian vegetable samosas'],

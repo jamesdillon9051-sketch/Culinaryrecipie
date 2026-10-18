@@ -190,7 +190,7 @@ module.exports = {
       'Blind bake for 15 minutes, remove the paper and beans and bake for 5 minutes more.',
       'Beat the sugar, eggs, evaporated milk, melted butter, vanilla, spices and salt into the sweet potato until smooth.',
       'Pour the filling into the warm shell and bake for 40 to 45 minutes, until the edges are set and the centre has a slight wobble.',
-      'Cool on a wire rack for at least 3 hours before slicing.'
+      'Cool on a wire rack for 2 hours, then refrigerate for at least 1 hour before slicing.'
     ],
     tips: [
       'Roast the sweet potatoes, do not boil them. Boiled sweet potato is watery and makes a loose filling.',
@@ -231,7 +231,7 @@ module.exports = {
       'Whisk the sugar, cornmeal and salt in a bowl. Whisk in the eggs, melted butter, vinegar, vanilla and milk until smooth.',
       'Pour the filling into the unbaked shell.',
       'Bake for 40 to 45 minutes, until the top is golden and crackled and the centre has only a slight wobble.',
-      'Cool on a wire rack for at least 3 hours before slicing.'
+      'Cool on a wire rack for 2 hours, then refrigerate for at least 1 hour before slicing.'
     ],
     tips: [
       'Do not skip the vinegar. It is the only thing that keeps the pie from tasting flat and sugary.',

@@ -16,7 +16,7 @@
 module.exports = {
   'lemon-blueberry-bread': {
     d: 'A moist lemon loaf with fresh blueberries folded through, baked for 55 minutes and topped with a lemon glaze.',
-    meta: 'Lemon blueberry bread with a tangy glaze, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Lemon blueberry bread with a tangy glaze, baked for 55 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['lemon blueberry bread', 'lemon blueberry loaf', 'blueberry lemon quick bread', 'lemon blueberry loaf with glaze', 'blueberry loaf cake'],
     why: 'Why does a lemon blueberry loaf so often come out purple and damp? Because the berries burst and bleed into the batter, and the sugar in the fruit collects at the bottom of the tin. A handful of tricks makes the difference between a loaf with dark streaks and one with neat blue-black jewels in a pale yellow crumb.\n\nToss the blueberries in a spoonful of flour before folding them in. The coating absorbs surface moisture and helps hold the fruit in suspension in the thick batter, so the berries stay in place instead of sinking. Fold gently and no more than five or six times. Frozen berries work, used straight from the freezer, not thawed.\n\n**Rub the lemon zest into the sugar first.** The oils in the zest are what give a loaf its fragrance, and rubbing them into the sugar with your fingertips releases them into the crystals. The juice goes into the batter and the glaze, giving the acidity that cuts through the butter.\n\nBake until a skewer comes out clean, covering the loaf loosely with foil after 35 minutes if it is browning too fast. Cool in the tin for 15 minutes, then turn out. Drizzle the glaze over the loaf while it is still slightly warm so that it soaks in a little.',
     ing: [
@@ -51,6 +51,7 @@ module.exports = {
   },
 
   'lemon-blueberry-cake': {
+    untimed: ['cooling completely'],
     d: 'A two-layer lemon sponge with fresh blueberries in the batter and a lemon cream cheese frosting, baked for 35 minutes.',
     meta: 'Lemon blueberry cake with cream cheese frosting, baked for 35 minutes. Twelve servings, ready in 1 hour 10 minutes.',
     kw: ['lemon blueberry cake', 'lemon blueberry layer cake', 'blueberry lemon cake with cream cheese frosting', 'fresh blueberry lemon cake', 'summer lemon blueberry cake'],
@@ -88,8 +89,9 @@ module.exports = {
   },
 
   'lemon-bundt-cake': {
+    untimed: ['cooling'],
     d: 'A tall, moist lemon bundt cake with soured cream and fresh zest, baked for 50 minutes and finished with a thick lemon glaze.',
-    meta: 'Lemon bundt cake with a moist crumb and thick lemon glaze, baked for 50 minutes. Twelve servings, ready in 1 hour 25 minutes.',
+    meta: 'Lemon bundt cake with a moist crumb and thick lemon glaze, baked for 50 minutes. Twelve servings, ready in at least 1 hour 30 minutes.',
     kw: ['lemon bundt cake', 'lemon sour cream bundt cake', 'lemon bundt with glaze', 'moist lemon cake', 'lemon bundt recipe'],
     why: 'Lemon, butter, sugar, soured cream: four things, and the foundation for a cake that stays moist for days. The bundt tin does the work of decoration, and the lemon glaze, thick enough to run in ribbons into the ridges, finishes the job. It is the kind of cake that looks like it came from a bakery.\n\nThe lemon flavour comes from three sources, and all three matter. Zest rubbed into the sugar gives aroma, juice in the batter gives tartness, and a lemon syrup brushed over the warm cake soaks into the crumb and keeps it moist. A cake that has only one of the three tastes weakly of lemon.\n\n**Grease the tin and dust it with flour.** Use soft butter and a pastry brush, working into every groove, then tip in a spoonful of flour and tilt to coat. Tap out the excess. This is the step that decides whether the cake turns out beautifully or half of it stays in the tin.\n\nBake until a skewer comes out clean, cool in the tin for 15 minutes, and turn out onto a rack. Brush with the warm syrup, then leave the cake until fully cool before pouring over the glaze. The glaze thickens as it sets, so apply it in one smooth pour.',
     ing: [
@@ -126,6 +128,7 @@ module.exports = {
   },
 
   'lemon-drizzle-loaf': {
+    untimed: ['cooling completely'],
     d: 'A classic British lemon loaf soaked while warm in lemon and sugar syrup, which sets into a crisp, sugary crust.',
     meta: 'Lemon drizzle loaf with a crisp sugar crust, baked for 50 minutes. Ten servings, ready in 1 hour 10 minutes.',
     kw: ['lemon drizzle loaf', 'lemon drizzle cake', 'classic lemon drizzle', 'british lemon loaf cake', 'lemon drizzle with crunchy topping'],
@@ -158,6 +161,7 @@ module.exports = {
   },
 
   'lemon-layer-cake': {
+    untimed: ['cooling completely'],
     d: 'A three-layer lemon cake filled with lemon curd and covered in vanilla buttercream, baked for 30 minutes.',
     meta: 'Lemon layer cake with lemon curd filling and vanilla buttercream, baked for 30 minutes. Twelve servings, ready in 2 hours 30 minutes.',
     kw: ['lemon layer cake', 'lemon cake with curd filling', 'three layer lemon cake', 'lemon curd layer cake', 'lemon cake with buttercream'],
@@ -265,8 +269,9 @@ module.exports = {
   },
 
   'mexican-wedding-cookies': {
+    untimed: ['cooling completely'],
     d: 'Small, crumbly butter cookies with ground pecans, rolled twice in icing sugar, baked for 14 minutes at 175C.',
-    meta: 'Mexican wedding cookies with pecans rolled in icing sugar, baked for 14 minutes. 30 cookies, ready in 35 minutes.',
+    meta: 'Mexican wedding cookies with pecans rolled in icing sugar, baked for 14 minutes. 30 cookies, ready in 1 hour 4 minutes.',
     kw: ['mexican wedding cookies', 'pecan wedding cookies', 'polvorones', 'snowball cookies', 'pecan butter balls'],
     why: 'These small, round cookies are known by many names. In Mexico they are polvorones, in other places they are Russian tea cakes, snowballs or pecan butter balls, and they have been served at weddings, Christmas and Easter for generations. The common feature is a coat of icing sugar that makes each one look like a snowball.\n\nThe dough is made from butter, icing sugar, flour and a good quantity of finely chopped pecans, with no egg at all. That makes the cookies short and crumbly, almost sandy, and they melt rather than crunch. Toast the pecans first, for 6 minutes in the oven, to bring out their sweetness, and chop them finely in a food processor with a spoon of the flour to stop them turning to paste.\n\n**Roll them in the sugar twice.** First while warm, so that a thin layer melts into the surface, and again when cool, to build a thick snowy coat that stays dry. Skip the first roll and the sugar slides off; skip the second and the cookies look bare.\n\nChill the dough for 30 minutes so that the balls hold their shape, and bake until the bottoms are lightly gold. They are fragile when warm, so let them rest on the tray for 5 minutes before the first roll.',
     ing: [
@@ -296,6 +301,7 @@ module.exports = {
   },
 
   'mint-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies topped with a layer of mint buttercream and a dark chocolate glaze, baked for 30 minutes and chilled.',
     meta: 'Mint brownies with minty buttercream and chocolate glaze, baked for 30 minutes and chilled. 16 squares, ready in 2 hours.',
     kw: ['mint brownies', 'mint chocolate brownies', 'layered mint brownies', 'brownies with mint frosting', 'chocolate mint brownie bars'],
@@ -369,6 +375,7 @@ module.exports = {
   },
 
   'white-chocolate-raspberry-blondies': {
+    untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with white chocolate chunks and fresh raspberries, baked for 28 minutes at 175C.',
     meta: 'White chocolate raspberry blondies, chewy with tart berries, baked for 28 minutes. 16 squares, ready in 50 minutes.',
     kw: ['white chocolate raspberry blondies', 'raspberry blondies', 'blondies with white chocolate', 'chewy raspberry blondies', 'white chocolate blondie bars'],
@@ -402,6 +409,7 @@ module.exports = {
   },
 
   'nutella-brownies': {
+    untimed: ['cooling completely'],
     d: 'Dense, fudgy brownies made with a jar of Nutella, eggs and a little flour, with swirls of extra spread on top, baked for 25 minutes.',
     meta: 'Nutella brownies, fudgy with hazelnut swirls, baked for 25 minutes. 16 squares, ready in 35 minutes.',
     kw: ['nutella brownies', 'hazelnut chocolate brownies', 'brownies with nutella swirl', 'fudgy nutella brownies', 'nutella brownie recipe'],
@@ -434,7 +442,7 @@ module.exports = {
 
   'nutella-cookies': {
     d: 'Soft cookies made from Nutella, flour and an egg, baked for 10 minutes into chewy rounds with a crackled top.',
-    meta: 'Nutella cookies, soft and chewy with a crackled top, baked for 10 minutes. 16 cookies, ready in 20 minutes.',
+    meta: 'Nutella cookies, soft and chewy with a crackled top, baked for 10 minutes. 16 cookies, ready in 35 minutes.',
     kw: ['nutella cookies', 'soft nutella cookies', 'chocolate hazelnut cookies', 'nutella cookies with flour', 'chewy nutella cookie recipe'],
     why: 'Three ingredients is the bare minimum, but a pinch of salt and a splash of vanilla make the difference. Nutella cookies are the quickest cookie you can make, since the spread already contains the sugar, fat and flavour that other cookie doughs build up separately. All that is left to add is an egg to bind and flour to give some structure.\n\nThe dough comes together in a single bowl. It is soft and a little sticky, so chill it for 15 minutes before scooping, and the rounds will hold their shape in the oven. A tablespoon-sized scoop gives sixteen cookies. Flatten them slightly with the back of a spoon, because they do not spread much.\n\n**Pull them out when the tops look dull and cracked.** They will be very soft when they come out, almost raw in the middle, and will set as they cool on the tray. If you wait until they look done, they will be dry and hard by the time they are cold. Ten minutes is plenty.\n\nA pinch of flaky salt on top before baking adds a savoury edge that balances the sweetness. For a sandwich cookie, spread a spoonful of extra Nutella between two cooled cookies.',
     ing: [
@@ -499,7 +507,7 @@ module.exports = {
 
   'oatmeal-cranberry-cookies': {
     d: 'Chewy oatmeal cookies with dried cranberries and cinnamon, baked for 12 minutes until the edges are crisp and the centres soft.',
-    meta: 'Oatmeal cranberry cookies, chewy with cinnamon, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Oatmeal cranberry cookies, chewy with cinnamon, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['oatmeal cranberry cookies', 'chewy oatmeal cranberry cookies', 'cranberry oat cookies', 'oat cookies with dried cranberries', 'oatmeal cookie recipe'],
     why: 'Early autumn, when the leaves start to turn and the first jumper of the year comes out of the drawer, is when oatmeal cookies feel right. This one trades the traditional raisins for dried cranberries, which add a tart edge and a rich red colour and keep the cookie from tasting too sweet.\n\nThe chew comes from three things working together: rolled oats, brown sugar and a short bake. Use old-fashioned rolled oats, not instant, which turn pasty and soft. Light brown sugar is moister than white, and it holds moisture in the finished cookie. And pulling them from the oven while the centres still look soft keeps them tender once cool.\n\n**Let the dough rest for 30 minutes before baking.** The oats absorb moisture from the dough, which thickens it and stops the cookies spreading into thin, crisp discs. A rested dough bakes into thick, chewy, domed cookies with a pleasing, craggy surface.\n\nCinnamon and a pinch of nutmeg give the warmth that makes an oatmeal cookie smell like home. A handful of chopped walnuts or pecans adds crunch. Cool the cookies on the tray for 5 minutes; they are delicate until they have had a little time to firm up.',
     ing: [
@@ -535,7 +543,7 @@ module.exports = {
 
   'oatmeal-muffins': {
     d: 'Hearty oatmeal muffins sweetened with brown sugar and cinnamon, baked for 20 minutes into moist, domed muffins with a rolled oat topping.',
-    meta: 'Oatmeal muffins with brown sugar and cinnamon, baked for 20 minutes. 12 muffins, ready in 1 hour with soaking.',
+    meta: 'Oatmeal muffins with brown sugar and cinnamon, baked for 20 minutes. 12 muffins, ready in 1 hour 5 minutes with soaking.',
     kw: ['oatmeal muffins', 'oat muffins', 'cinnamon oatmeal muffins', 'brown sugar oat muffins', 'oatmeal muffin recipe'],
     why: 'Oatmeal is a staple of the Scottish and American breakfast table, and putting it in a muffin is a way of making a bowl of porridge that you can carry in your hand. The name for the type of oat matters: rolled oats give chew and body, while instant oats turn pasty.\n\nSoak the oats in buttermilk for 30 minutes before mixing the batter. The oats swell and soften as they absorb the liquid, which stops them drawing moisture out of the muffin as it bakes. It also means the oat texture is tender rather than gritty, and the batter itself becomes thicker and more robust.\n\n**Fill the cases to the top.** A muffin that is not filled to the brim does not get the domed top. Oatmeal batter is thick and stays where it is put, and a good spoonful of batter above the paper rim bakes into the high, craggy dome that makes a muffin look like a muffin. Sprinkle the tops with a few oats and a pinch of brown sugar.\n\nBake in a hot oven, 200C, for the first 5 minutes to give the muffins a quick burst of lift, then turn down to 180C to finish. Cool for 5 minutes in the tin, then move to a rack. They are good warm with butter and honey.',
     ing: [
@@ -572,7 +580,7 @@ module.exports = {
 
   'olive-oil-cake': {
     d: 'An Italian-style cake with olive oil and orange zest, with a soft, fragrant crumb and a crackled, sugared top, baked for 40 minutes.',
-    meta: 'Olive oil cake with orange zest and a sugared top, baked for 40 minutes. Ten servings, ready in 55 minutes.',
+    meta: 'Olive oil cake with orange zest and a sugared top, baked for 40 minutes. Ten servings, ready in 1 hour 10 minutes.',
     kw: ['olive oil cake', 'italian olive oil cake', 'orange olive oil cake', 'olive oil cake with citrus', 'olive oil cake recipe'],
     why: 'What does an olive oil cake taste like? Not of olives, if the oil is a good, mild extra virgin: the flavour is fruity and faintly peppery in the background, and mostly shows up as a deep, moist, tender crumb. Olive oil does a better job of keeping a cake soft than butter, since it stays liquid at room temperature.\n\nThe cake is among the simplest in the Italian repertoire, made with a single bowl and a whisk. Beat the eggs and sugar until pale and thick, about 3 minutes, then stream in the oil as though you were making mayonnaise. This emulsifies the oil into the egg mixture and gives a fine, even crumb. Add the orange zest and juice, then fold in the dry ingredients.\n\n**Choose the oil with care.** A harsh, grassy oil can taste bitter in a cake. Pick a mild, fruity one, and use the same you would for a salad. Taste a drop before you use it; if you would not eat it on bread, do not bake with it.\n\nSprinkle the top with coarse sugar before baking so that it forms a thin, crackly crust. The cake is done when a skewer comes out clean and the top is deep gold. It keeps beautifully, and is better the next day. Serve with berries, whipped cream or a spoonful of mascarpone.',
     ing: [
@@ -605,8 +613,9 @@ module.exports = {
   },
 
   'orange-cookies': {
+    untimed: ['cooling completely'],
     d: 'Soft, cake-like orange cookies with fresh zest, finished with a thin orange glaze, baked for 12 minutes.',
-    meta: 'Orange cookies, soft and cake-like with an orange glaze, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Orange cookies, soft and cake-like with an orange glaze, baked for 12 minutes. 24 cookies, ready in 1 hour 2 minutes.',
     kw: ['orange cookies', 'soft orange cookies', 'orange glazed cookies', 'orange zest cookies', 'orange cookie recipe'],
     why: 'Zest, not juice, is where the flavour of an orange lives. The skin contains oils that carry far more aroma than the fruit inside, and juice added to a dough dilutes it and makes it spread. For a cookie that tastes unmistakably of orange, use plenty of zest, rubbed into the sugar, and keep the juice for the glaze.\n\nRub the zest of two oranges into the sugar with your fingertips until it looks damp and smells strongly of citrus. This releases the oils and spreads them over the crystals, so they dissolve into the butter during creaming and flavour the whole dough. Take care to avoid the white pith, which is bitter.\n\n**Cream the butter and sugar until very pale.** Four minutes with an electric whisk gives a light, fluffy mixture that bakes into a soft, cakey cookie. Add the egg and a splash of milk, then fold in the flour. The dough should be soft and slightly sticky.\n\nBake until the edges are only just beginning to colour, or the delicate flavour browns and turns bitter. Glaze the cookies once cool with icing sugar and fresh orange juice, thick enough to cling. Leave them for 30 minutes for the glaze to set.',
     ing: [
@@ -675,7 +684,7 @@ module.exports = {
 
   'peach-crisp': {
     d: 'Sliced peaches baked under a buttery oat and brown sugar topping for 45 minutes until bubbling, served warm with ice cream.',
-    meta: 'Peach crisp with an oat and brown sugar topping, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Peach crisp with an oat and brown sugar topping, baked for 45 minutes. Eight servings, ready in 1 hour 20 minutes.',
     kw: ['peach crisp', 'peach crisp with oat topping', 'baked peach dessert', 'peach crisp recipe', 'peach and oat crumble'],
     why: 'Taste a peach before you cook it. Ripe, fragrant summer peaches need very little sugar, while firm or out-of-season ones need more, and a good cook adjusts the sweetness to the fruit. Frozen peaches are a decent standby in winter, and can go straight in from the freezer.\n\nThere is no need to peel the peaches if they are ripe: the skins soften and the colour bleeds into the filling. If you prefer a smoother result, a minute in boiling water slips them off easily. Slice into wedges about 1.5 cm thick, and toss them with sugar, lemon juice, a spoon of cornflour and a pinch of cinnamon. The cornflour thickens the juices into a syrup.\n\n**Make the topping with cold butter and press it into clumps.** Rub cold butter into flour, oats, brown sugar, cinnamon and a pinch of salt until the mixture looks like wet sand, then squeeze handfuls together so it forms chunks of different sizes. The larger lumps crisp and the smaller ones brown.\n\nSpread the topping thickly over the fruit and bake until the juices are bubbling at the edges and the top is deep gold. Let it stand for 15 minutes before serving so the filling thickens a little. A scoop of vanilla ice cream melting into the warm fruit is the traditional finish.',
     ing: [
@@ -780,6 +789,7 @@ module.exports = {
   },
 
   'peanut-butter-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Moist peanut butter cupcakes with a swirl of peanut butter buttercream and a chocolate drizzle, baked for 22 minutes.',
     meta: 'Peanut butter cupcakes with peanut butter buttercream, baked for 22 minutes. Twelve servings, ready in 55 minutes.',
     kw: ['peanut butter cupcakes', 'peanut butter cupcakes with buttercream', 'peanut butter frosting cupcakes', 'moist peanut butter cupcake recipe', 'peanut butter and chocolate cupcakes'],
@@ -856,7 +866,7 @@ module.exports = {
 
   'pear-cake': {
     d: 'A French-style cake with ground almonds and sliced pears set into the batter, baked for 50 minutes and served warm.',
-    meta: 'Pear cake with ground almonds and sliced pears set in the batter, baked for 50 minutes. Ten servings, ready in 1 hour 10 minutes.',
+    meta: 'Pear cake with ground almonds and sliced pears set in the batter, baked for 50 minutes. Ten servings, ready in 1 hour 25 minutes.',
     kw: ['pear cake', 'french pear almond cake', 'fresh pear cake', 'pear cake with ground almonds', 'pear cake recipe'],
     why: 'This is what to bake in the first cold week of autumn, when pears are at their sweetest and the idea of fruit and cake in the same dish seems wise. A French pear cake is a gentle thing, a soft, buttery batter with a fine crumb and slices of fruit set into the top, and the whole thing is fragrant with vanilla and almond.\n\nChoose ripe but firm pears, such as Conference or Williams. Soft ones fall apart in the oven and make the batter damp. Peel them, halve them, remove the cores and slice thinly lengthways. Toss the slices with lemon juice to stop them going brown while you make the batter.\n\n**Fan the slices and press them in halfway.** Arranged in a spiral on top of the batter, they cook in the steam rising from the cake, and the batter rises around them to hold them in place. Fruit placed loosely on the surface curls and dries out at the edges.\n\nGround almonds in the batter add moisture and a gentle nuttiness that pears love. Bake at 175C until a skewer comes out clean and the edges pull away from the tin. Dust with icing sugar and serve warm with a spoonful of crème fraîche. It tastes better still the next day.',
     ing: [

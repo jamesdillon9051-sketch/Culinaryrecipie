@@ -218,11 +218,11 @@ module.exports = {
     st: [
       'Heat the oven to 180C fan. Wrap the haggis loosely in foil with 3 tablespoons of water and set it in a roasting tin.',
       'Bake for 1 hour, or follow the timing on the packet — usually 45 minutes per 500 g.',
-      'Boil the swede in salted water for 25 minutes until completely soft, then drain very well and let it steam dry.',
-      'Boil the potatoes in salted water for 18 minutes, drain, and steam dry for 3 minutes.',
+      'While the haggis bakes, boil the swede in salted water for 25 minutes until completely soft, then drain very well and let it steam dry.',
+      'Meanwhile, boil the potatoes in salted water for 18 minutes, drain, and steam dry for 3 minutes.',
       'Mash the swede with its butter, white pepper and nutmeg. It should be coarse rather than smooth.',
       'Rice or mash the potatoes, then beat in the butter and warm milk and season.',
-      'For the sauce, soften the shallot in the butter for 4 minutes. Add the whisky and let it bubble for 1 minute, standing back from the pan.',
+      'While the vegetables cook, soften the shallot for the sauce in the butter for 4 minutes. Add the whisky and let it bubble for 1 minute, standing back from the pan.',
       'Pour in the cream, add the mustard, and simmer 4 minutes until it coats a spoon. Finish with lemon juice.',
       'Slit the haggis open at the table, and serve a spoonful of each mash alongside with the sauce poured over.'
     ],
@@ -237,6 +237,7 @@ module.exports = {
   },
 
   'cranachan': {
+    untimed: ['cooling completely'],
     d: 'Toasted oats, whisky, honey, cream and raspberries layered in a glass. Assembled in ten minutes and traditionally argued about for longer.',
     meta: 'Cranachan — Scottish dessert of toasted oats, whisky, honey, cream and raspberries layered in a glass.',
     kw: ['cranachan recipe', 'scottish dessert', 'raspberry and oat dessert', 'whisky cream dessert'],
@@ -294,7 +295,7 @@ module.exports = {
     st: [
       'Put the lamb in a large pot with the cold water, bring slowly to a simmer and skim the grey foam off carefully for the first 10 minutes.',
       'Add the bay, thyme and salt, half cover, and simmer very gently for 1 1/2 hours until the lamb is tender.',
-      'Ideally cool the pot overnight in the fridge, then lift off the set fat. If cooking straight through, spoon the fat off the surface.',
+      'Ideally divide it between shallow containers, refrigerate within 2 hours and leave overnight, then lift off the set fat. If cooking straight through, spoon the fat off the surface.',
       'Bring the broth back to a simmer and add the onions, carrots, swede and parsnips. Cook 20 minutes.',
       'Add the potatoes and cook another 15 minutes until everything is tender.',
       'Add the leeks and cabbage and cook 8 minutes only, so they keep their colour.',
@@ -313,6 +314,7 @@ module.exports = {
   },
 
   'bara-brith': {
+    untimed: ['cooling completely'],
     rest: [480, 'soaking'],
     d: 'Dried fruit soaked overnight in strong tea, then folded into a spiced batter and baked into a dense, dark loaf eaten in thick buttered slices.',
     meta: 'Bara brith — Welsh tea loaf with dried fruit soaked overnight in tea, spiced and baked dark.',

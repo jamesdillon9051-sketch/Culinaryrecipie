@@ -19,7 +19,7 @@
 
 module.exports = {
   'margherita-pizza': {
-    rest: [1560, 'chilling'],
+    rest: [1580, 'chilling'],
     d: 'The Neapolitan original: a blistered, cloud-edged crust under nothing more than San Marzano tomatoes, milky fior di latte and torn basil. This Margherita pizza recipe coaxes pizzeria char out of a standard home oven using a screaming-hot steel and a slow, cold-fermented dough.',
     meta: 'Authentic Margherita pizza with a blistered 24-hour dough, San Marzano sauce and fior di latte — pizzeria results from a home oven.',
     kw: ['margherita pizza recipe', 'neapolitan pizza dough', 'homemade pizza', 'san marzano pizza sauce'],
@@ -67,8 +67,8 @@ module.exports = {
     ing: [
       '400 g dried spaghetti',
       '150 g guanciale, cut into 1 cm lardons',
-      '4 large egg yolks',
-      '1 large whole egg',
+      '4 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
+      '1 large whole egg, pasteurised or Lion-stamped',
       '80 g Pecorino Romano, finely grated, plus extra to serve',
       '2 tsp black peppercorns, coarsely cracked',
       '1 tbsp fine sea salt, for the pasta water'
@@ -95,8 +95,8 @@ module.exports = {
   },
 
   'lasagna-bolognese': {
-    d: 'A proper lasagne alla Bolognese is a study in patience: a three-hour ragù, a nutmeg-scented besciamella and paper-thin egg pasta layered until the whole thing slices like a terrine. This is the version worth clearing a Sunday for.',
-    meta: 'Classic lasagna Bolognese with a slow three-hour ragù, silky besciamella and egg pasta layers. The definitive Sunday bake.',
+    d: 'A proper lasagne alla Bolognese is a study in patience: a ragù simmered for two and a half to three hours, a nutmeg-scented besciamella and paper-thin egg pasta layered until the whole thing slices like a terrine. Allow about five and a half hours start to finish, most of it the ragù simmering.',
+    meta: 'Classic lasagna Bolognese: a ragù simmered 2½ to 3 hours, silky besciamella and egg pasta. About 5 to 5½ hours start to finish.',
     kw: ['lasagna bolognese recipe', 'authentic lasagne', 'ragu bolognese', 'homemade lasagna'],
     why: 'Milk added early to the ragù does two jobs: its calcium tenderises the meat proteins, and its lactose feeds a deep Maillard browning that plain tomato cannot produce. Thin layers matter more than many layers — six sheets of pasta with restrained filling set into clean slices, while thick ones slide apart.',
     ing: [
@@ -135,11 +135,13 @@ module.exports = {
       'Rest for at least 20 minutes before cutting. Lasagne straight from the oven will not hold a slice.'
     ],
     tips: [
-      'Mince the meat coarsely, or chop it by hand — supermarket fine mince turns pasty over three hours of cooking.',
+      'Mince the meat coarsely, or chop it by hand — supermarket fine mince turns pasty over hours of simmering.',
       'Make the ragù a day ahead. It is measurably better after a night in the fridge.',
       'Wipe the inside rim of the dish before baking so the edges brown evenly instead of burning.'
     ],
     pair: ['Sangiovese or Barbera has the acidity to cut through the besciamella', 'A sharp radicchio salad with balsamic resets the palate', 'Panna cotta keeps dessert light after such a rich main'],
+    cookMax: 271,
+    rest: [20, 'resting'],
     store: 'Refrigerate for up to 4 days or freeze whole or in portions for 3 months. Reheat covered at 160°C / 320°F for 25 minutes from chilled, or 50 minutes from frozen, removing the foil for the last 10 minutes to re-crisp the top.',
     nut: [742, 41, 52, 39, 4, 12, 1090]
   },
@@ -352,6 +354,7 @@ module.exports = {
   },
 
   'potato-gnocchi': {
+    cookMax: 85,
     d: 'Pillowy potato gnocchi that float rather than sink, dressed in nothing more than nut-brown butter and crisped sage. The whole recipe hinges on using floury baked potatoes and the least flour you can get away with.',
     meta: 'Light, pillowy potato gnocchi with brown butter and sage. The baked-potato method that keeps them from turning gluey.',
     kw: ['potato gnocchi recipe', 'homemade gnocchi', 'brown butter sage sauce', 'italian dumplings'],
@@ -406,7 +409,7 @@ module.exports = {
     ],
     st: [
       'Blanch the basil leaves for 5 seconds in boiling water, then plunge into iced water. Drain and squeeze dry in a tea towel. This locks in the colour.',
-      'Toast the pine nuts in a dry pan for 3 minutes until barely golden, then cool completely.',
+      'Toast the pine nuts in a dry pan for 3 minutes until barely golden, then tip them onto a cold plate to cool while you pound the garlic and basil.',
       'In a mortar, pound the garlic with the coarse salt into a paste — the salt crystals act as an abrasive.',
       'Add the basil a handful at a time, grinding with a circular motion against the sides rather than pounding straight down.',
       'Work in the pine nuts until the paste is creamy, then the two cheeses.',
@@ -419,7 +422,7 @@ module.exports = {
       'Cover stored pesto with a 5 mm film of olive oil to seal it from air.'
     ],
     pair: ['Vermentino from Liguria is the local pairing', 'Serve with green beans and waxy potatoes tossed through', 'Lemon granita to finish'],
-    store: 'Refrigerate under a layer of oil for 5 days, or freeze in ice-cube trays for 6 months. Add the cheese after thawing if freezing for best texture.',
+    store: 'Refrigerate under a layer of oil for up to 4 days, or freeze in ice-cube trays for 6 months. Add the cheese after thawing if freezing for best texture.',
     nut: [668, 20, 70, 35, 4, 3, 640]
   },
 
@@ -498,7 +501,7 @@ module.exports = {
 
   'bruschetta': {
     d: 'Charred bread rubbed hard with raw garlic, doused in olive oil, and piled with tomatoes that have been salted just long enough to concentrate. The Italian original is a lesson in how few ingredients a great appetiser needs.',
-    meta: 'Authentic tomato bruschetta with garlic-rubbed grilled bread and salted tomatoes. The classic Italian appetiser in 20 minutes.',
+    meta: 'Authentic tomato bruschetta with garlic-rubbed grilled bread and salted tomatoes. The classic Italian appetiser in about 35 minutes.',
     kw: ['bruschetta recipe', 'tomato bruschetta', 'italian appetizer', 'garlic bread topping'],
     why: 'Salting diced tomatoes and draining them for 15 minutes pulls out watery liquid that would otherwise turn the toast to mush, while concentrating the sugars and acids left behind. The bread must be grilled hard enough to form a rough, abrasive surface — that texture is what shreds the raw garlic clove into the crust.',
     ing: [
@@ -648,7 +651,8 @@ module.exports = {
   },
 
   'panna-cotta': {
-    rest: [240, 'chilling'],
+    untimed: ['cooling to room temperature'],
+    rest: [260, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
     meta: 'Silky vanilla panna cotta with the perfect wobble: a five-ingredient Italian dessert, 20 minutes of work and at least 4 hours in the fridge.',
     kw: ['panna cotta recipe', 'vanilla panna cotta', 'italian dessert', 'gluten free dessert'],
@@ -669,7 +673,7 @@ module.exports = {
       'Take off the heat and let it infuse for 10 minutes, then remove the pod.',
       'Squeeze the gelatine dry and whisk it into the warm cream until completely dissolved.',
       'Pass through a fine sieve into a jug — this catches any undissolved gelatine and guarantees a flawless texture.',
-      'Pour into six moulds or glasses. Cool to room temperature, then refrigerate for at least 4 hours until just set.',
+      'Pour into six moulds or glasses. Cool for no more than 2 hours, then refrigerate for at least 4 hours until just set.',
       'Toss the berries with a tablespoon of sugar and let them macerate for 20 minutes to draw out a syrup.',
       'To unmould, dip each mould in hot water for 3 seconds and invert onto a plate. Spoon the berries alongside.'
     ],

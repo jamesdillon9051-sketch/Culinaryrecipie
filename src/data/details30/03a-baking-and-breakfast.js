@@ -11,6 +11,7 @@
 
 module.exports = {
   'all-butter-pie-crust': {
+    untimed: ['cooling'],
     d: 'A flaky, tender, buttery pastry made with just flour, cold butter, a little sugar and ice water. Enough for a double-crust pie, with blind-baking instructions.',
     meta: 'All-butter pie crust: flaky, tender pastry made with flour, cold butter, sugar and ice water. Makes a double crust, with blind-baking instructions.',
     kw: ['all butter pie crust', 'homemade pie crust', 'flaky pie crust', 'best pie crust recipe', 'how to make pie crust'],
@@ -41,7 +42,7 @@ module.exports = {
     pair: ['Pumpkin pie filling', 'Lemon meringue filling', 'Apple pie filling'],
     store: 'The unbaked discs keep in the fridge for 3 days or in the freezer for 3 months, wrapped tightly. Thaw in the fridge before rolling. The blind-baked crust keeps for 1 day at room temperature.',
     nut: [352, 4, 30, 24, 1, 2, 270],
-    rest: [60, 'Chilling']
+    rest: [75, 'Chilling']
   },
 
   'flour-tortillas': {
@@ -107,6 +108,7 @@ module.exports = {
   },
 
   'strawberry-cake': {
+    untimed: ['cooling completely'],
     d: 'A tender two-layer cake flavoured with real strawberries cooked down into a concentrated purée, with a pink strawberry buttercream and fresh berries on top.',
     meta: 'Strawberry cake: a tender two-layer cake flavoured with real reduced strawberry purée, with a pink strawberry buttercream and fresh berries on top.',
     kw: ['strawberry cake', 'fresh strawberry cake', 'homemade strawberry cake', 'strawberry layer cake from scratch', 'how to make strawberry cake'],
@@ -187,6 +189,7 @@ module.exports = {
   },
 
   'oatmeal-cream-pies': {
+    untimed: ['cooling completely'],
     d: 'Two soft, chewy, spiced oatmeal cookies sandwiched around a fluffy vanilla and marshmallow cream. A homemade version of the lunchbox favourite.',
     meta: 'Oatmeal cream pies: two soft, chewy, spiced oatmeal cookies sandwiched around a fluffy marshmallow cream. The lunchbox favourite, homemade.',
     kw: ['oatmeal cream pies', 'homemade oatmeal cream pies', 'oatmeal creme pies', 'oatmeal sandwich cookies', 'how to make oatmeal cream pies'],

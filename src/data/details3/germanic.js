@@ -84,6 +84,7 @@ module.exports = {
   },
 
   'pretzel-brezel': {
+    cookMax: 20,
     rest: [90, 'proving'],
     d: 'The Bavarian shape: fat belly, thin crossed arms, split along the base as it bakes, with coarse salt on the dark lye crust.',
     meta: 'Bavarian brezel — lye-dipped pretzels with a fat belly, thin arms and a dark, salted crust.',
@@ -103,7 +104,7 @@ module.exports = {
       'Coarse pretzel salt or flaky sea salt'
     ],
     st: [
-      'Spread the bicarbonate of soda on a lined tray and bake at 150C fan for 1 hour, then cool. It becomes a stronger alkali — keep it away from your eyes and aluminium pans.',
+      'Set the soda baking first, since it runs while the dough proves and chills: spread the bicarbonate of soda on a lined tray and bake at 150C fan for 1 hour, then cool. It becomes a stronger alkali — keep it away from your eyes and aluminium pans.',
       'Mix the flour, yeast, sugar and salt. Add the water and oil and knead 10 minutes to a firm, smooth dough. It should feel stiffer than bread dough.',
       'Prove covered for 45 minutes — it will not double, and should not.',
       'Divide into 8. Roll each piece into a 55 cm rope that is fat in the middle and tapers to thin ends.',
@@ -124,7 +125,7 @@ module.exports = {
   },
 
   'apple-strudel': {
-    rest: [60, 'resting'],
+    rest: [90, 'resting'],
     d: 'Pastry stretched until a newspaper can be read through it, rolled around spiced apples, breadcrumbs and raisins, and baked until the layers shatter.',
     meta: 'Apple strudel — hand-stretched pastry rolled around spiced apples, raisins and buttered breadcrumbs.',
     kw: ['apple strudel recipe', 'apfelstrudel', 'austrian strudel', 'stretched strudel dough'],
@@ -171,6 +172,7 @@ module.exports = {
   },
 
   'sachertorte': {
+    untimed: ['cooling completely'],
     rest: [180, 'resting'],
     d: 'Dense chocolate sponge split and layered with apricot jam, then coated in a poured chocolate glaze that sets to a hard, glossy shell.',
     meta: 'Sachertorte — dense chocolate sponge with apricot jam under a poured chocolate glaze that sets hard.',
@@ -473,7 +475,7 @@ module.exports = {
       '2 litres beef dripping, or neutral oil',
       'Fine sea salt',
       '# For the mayonnaise',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '300 ml neutral oil',
@@ -500,6 +502,7 @@ module.exports = {
   },
 
   'stroopwafel': {
+    untimed: ['cooling completely'],
     d: 'Two paper-thin waffle discs split apart while hot and glued back together with hot caramel syrup. Best eaten balanced on a mug of coffee.',
     meta: 'Stroopwafels — thin waffle discs split while hot and filled with caramel syrup.',
     kw: ['stroopwafel recipe', 'dutch caramel waffle', 'syrup waffle', 'pizzelle stroopwafel'],

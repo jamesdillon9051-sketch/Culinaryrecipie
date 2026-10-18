@@ -145,6 +145,7 @@ module.exports = {
   },
 
   'faloodeh': {
+    untimed: ['cooling completely'],
     d: 'A Persian frozen dessert of thin rice noodles in a rose-scented sugar syrup, scraped into icy shards and served with lime juice. Ancient, and very refreshing.',
     meta: 'Faloodeh: a Persian frozen dessert of thin rice noodles in a rose-scented sugar syrup, scraped into icy shards and served with a squeeze of lime.',
     kw: ['faloodeh', 'persian faloodeh', 'faloodeh recipe', 'persian frozen noodle sorbet', 'how to make faloodeh'],

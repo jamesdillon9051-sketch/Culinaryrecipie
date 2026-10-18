@@ -149,6 +149,8 @@ module.exports = {
   },
 
   'culurgiones': {
+    cookMax: 85,
+    untimed: ['cooling completely'],
     d: 'Sardinian parcels of potato, mint and pecorino, closed with a pleat that looks like an ear of wheat. The pleat takes practice and nothing else about it is hard.',
     meta: 'Sardinian pasta filled with potato, mint and pecorino and closed with a wheat-ear pleat, served in simple tomato sauce.',
     kw: ['culurgiones', 'sardinian pasta', 'culurgiones recipe', 'potato mint pasta', 'wheat ear pleat pasta'],
@@ -401,7 +403,7 @@ module.exports = {
       'Keep back plenty of the cooking water.'
     ],
     pair: ['A glass of Vermentino', 'Focaccia', 'Green salad'],
-    store: 'The pesto keeps 4 days under oil and freezes for 3 months. The dish itself does not keep.',
+    store: 'The pesto keeps 4 days in the fridge under oil and freezes for 3 months. The dish itself does not keep.',
     nut: [685, 22, 82, 30, 7, 5, 720]
   },
 

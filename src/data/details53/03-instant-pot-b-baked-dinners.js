@@ -280,7 +280,7 @@ module.exports = {
   },
 
   'instant-pot-ramen': {
-    d: 'A rich pork and miso broth with ramen noodles, soft-boiled eggs and sweetcorn, built in one pot in 15 minutes.',
+    d: 'A rich pork and miso broth with ramen noodles, soft-boiled eggs and sweetcorn, built in one pot and on the table in 25 minutes.',
     meta: 'Instant Pot ramen with miso broth, noodles and soft eggs. Four servings, ready in 25 minutes.',
     kw: ['instant pot ramen', 'homemade ramen', 'pressure cooker ramen', 'miso ramen', 'ramen with soft boiled egg'],
     why: 'Ramen began as a Chinese noodle soup adopted in Japan, and it has since become a cuisine of its own. This is a quick home version, built on a miso and garlic broth and finished with the toppings that make a bowl feel proper: soft eggs, corn and spring onion.\n\nStart by frying pork mince with garlic and ginger until it browns, then stir in the miso paste, soy and sesame oil. The pork adds fat and savoury depth that a stock cube cannot, and the miso gives the broth its cloudy, rounded body.\n\n**Cook the noodles in the broth, not separately.** Fresh ramen noodles need only 2 minutes, and dried ones 4 to 5 minutes, so choose according to your pack. They release starch into the soup, which thickens it slightly.\n\nSoft-boiled eggs steam on the trivet while the pot builds pressure. They need exactly 6 minutes at a gentle simmer, and then straight into iced water, so that the yolks stay jammy and the shells peel cleanly. Cut them in half just before serving.',
@@ -627,8 +627,9 @@ module.exports = {
   },
 
   'baked-penne': {
+    cookMax: 55,
     d: 'Penne tossed with a tomato and Italian sausage sauce, layered with mozzarella and parmesan and baked for 30 minutes until bubbling.',
-    meta: 'Baked penne with sausage, tomato and melted mozzarella, baked for 30 minutes. Six servings, ready in 50 minutes.',
+    meta: 'Baked penne with sausage, tomato and melted mozzarella, baked for 30 minutes. Six servings, ready in 1 hour 10 minutes to 1 hour 15 minutes.',
     kw: ['baked penne', 'baked penne with sausage', 'penne pasta bake', 'baked penne with mozzarella', 'tomato baked pasta'],
     why: 'Undercook the pasta by 2 minutes. This is the one rule of any baked pasta dish, because the penne carries on softening in the oven and absorbs sauce while it bakes. Pasta cooked to the end on the hob turns soft and bloated by the time the cheese is golden.\n\nThe sauce is built on Italian sausage meat, squeezed from its casings and browned until crumbly. The fat that runs out from the sausage flavours the onions and garlic, and the tomatoes cook down into a thick, rich coating. A pinch of chilli flakes lifts it.\n\n**Keep the sauce slightly looser than you want it.** Baked pasta absorbs liquid, and a sauce that looks thick in the pan often turns dry in the oven. Stir through a ladle of the pasta cooking water if the mix seems stiff.\n\nLayer half the pasta, a scatter of mozzarella, the rest of the pasta, then cheese and parmesan on top. Bake uncovered until the cheese is bubbling and freckled with brown at the edges, then rest for 5 minutes before serving.',
     ing: [
@@ -647,7 +648,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 200C. Boil the penne in salted water for 8 minutes, 2 minutes short of the packet time. Drain.',
-      'Heat the oil in a large pan. Brown the sausage meat for 8 minutes, breaking it up. Add the onion and cook for 4 minutes, then the garlic.',
+      'While the penne boils, heat the oil in a large pan and brown the sausage meat for 8 minutes, breaking it up. Add the onion and cook for 4 minutes, then the garlic.',
       'Add the tomatoes, oregano, chilli flakes and salt. Simmer for 10 minutes until thickened.',
       'Mix the pasta into the sauce. Spoon half into a baking dish, scatter over half the mozzarella, add the rest of the pasta and top with the remaining mozzarella and parmesan.',
       'Bake for 30 minutes until golden and bubbling. Rest for 5 minutes and scatter with basil.'
@@ -664,7 +665,7 @@ module.exports = {
 
   'baked-pork-chops': {
     d: 'Bone-in pork chops seasoned with paprika and garlic and baked at 200C for 25 minutes until juicy with a light crust.',
-    meta: 'Baked pork chops with paprika and garlic, juicy and tender after 25 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Baked pork chops with paprika and garlic, juicy and tender after 25 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['baked pork chops', 'oven baked pork chops', 'juicy pork chops', 'bone in pork chops', 'pork chops with garlic'],
     why: 'Pork, an oven and 25 minutes: those are the three things this recipe needs, and the most important is the thermometer. Pork chops dry out the moment they pass 63C, which is the temperature at which they are safe and still juicy.\n\nChoose chops 2.5 to 3 cm thick, with the bone in. The bone slows the cooking at the edge and keeps the meat tender. Thin, boneless chops cook in seconds and tend to turn leathery. Take them out of the fridge 20 minutes ahead so that they cook evenly.\n\n**Salt them half an hour ahead for better moisture.** A teaspoon of salt rubbed over the chops and left for 30 minutes seasons the meat all the way through and helps it hold onto its juices. Pat away any beads of moisture before the rub goes on.\n\nA rub of paprika, garlic powder, brown sugar and thyme gives the chops a mahogany crust in the oven. Start them hot at 200C, then check at 20 minutes. Rest for 5 minutes under foil before serving, and spoon the pan juices over.',
     ing: [
@@ -696,7 +697,7 @@ module.exports = {
 
   'baked-rigatoni': {
     d: 'Rigatoni tossed with a slow-cooked beef ragu and ricotta, topped with mozzarella and baked for 35 minutes until bubbling.',
-    meta: 'Baked rigatoni with beef ragu, ricotta and mozzarella, baked for 35 minutes. Six servings, ready in 55 minutes.',
+    meta: 'Baked rigatoni with beef ragu, ricotta and mozzarella, baked for 35 minutes. Six servings, about 1 hour 40 minutes start to finish.',
     kw: ['baked rigatoni', 'baked rigatoni with meat sauce', 'rigatoni bake', 'rigatoni with ricotta', 'baked pasta with mozzarella'],
     why: 'A Sunday dish for a table of six, and better on Monday. Baked rigatoni is a family centrepiece that feeds a crowd from one dish, and it improves overnight as the sauce soaks into the tubes.\n\nRigatoni is the right pasta because of its wide, ridged tubes. The sauce gets inside them and clings to the ridges outside, so every mouthful is evenly coated. Penne would work, but the wider tube holds more filling. Cook it for 2 minutes less than the packet says.\n\n**Stir ricotta through the sauce rather than dolloping it on top.** Mixed in, it melts into a creamy pink coating that carries through the whole dish. Left in lumps, it can turn grainy and dry in the oven.\n\nThe ragu needs 30 minutes at a simmer, long enough for the mince to soften and the tomatoes to reduce. Use a mix of beef and pork for flavour. Top with mozzarella and parmesan, cover with foil for 20 minutes, then uncover to brown. The foil keeps the pasta moist while the cheese gets golden after.',
     ing: [

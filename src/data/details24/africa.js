@@ -43,6 +43,7 @@ module.exports = {
   },
 
   'efo-riro': {
+    cookMax: 70,
     d: 'A rich Nigerian stew of spinach in a base of red pepper, scotch bonnet and palm oil, with beef, smoked fish and ground crayfish. Eaten with pounded yam or rice.',
     meta: 'Efo riro: a rich Nigerian spinach stew built on a fried red pepper and scotch bonnet base with palm oil, beef, smoked fish and crayfish. Serve with rice.',
     kw: ['efo riro', 'nigerian efo riro', 'efo riro recipe', 'nigerian spinach stew', 'how to make efo riro'],
@@ -63,7 +64,7 @@ module.exports = {
     st: [
       'Put the beef, the half onion for boiling, stock cube, salt and water in a pot. Bring to a boil, then cover and simmer for 40 minutes, until the beef is tender. Keep the stock.',
       'Blend the red peppers, scotch bonnets and the other half of the onion to a coarse purée.',
-      'Cook the pepper purée in a wide pan over medium heat for 15 to 20 minutes, stirring often, until most of the water has gone and it has darkened.',
+      'While the beef simmers, cook the pepper purée in a wide pan over medium heat for 15 to 20 minutes, stirring often, until most of the water has gone and it has darkened.',
       'Heat the palm oil in a large pot over medium heat, add the chopped onion and cook for 3 minutes. Add the reduced pepper base and cook for 10 minutes, stirring, until the oil separates.',
       'Stir in the crayfish, the beef and 200 ml of its stock and simmer for 10 minutes.',
       'Add the smoked fish and spinach and cook, uncovered, for 5 minutes, until the spinach has wilted. Taste and adjust the salt.',
@@ -80,6 +81,7 @@ module.exports = {
   },
 
   'chin-chin': {
+    untimed: ['cooling completely'],
     d: 'Small, crunchy, lightly sweet cubes of fried dough, spiced with nutmeg. A Nigerian party snack, eaten by the handful.',
     meta: 'Chin chin: crunchy, lightly sweet Nigerian fried dough cubes flavoured with nutmeg, cut small and fried until golden. A West African party snack.',
     kw: ['chin chin', 'nigerian chin chin', 'chin chin recipe', 'crunchy fried dough snack', 'how to make chin chin'],
@@ -199,9 +201,9 @@ module.exports = {
 
   'shito': {
     d: 'A dark, oily, fiery Ghanaian condiment of onion, tomato, chilli, ground dried shrimp and ginger, slowly fried in oil. A spoonful goes on nearly everything.',
-    meta: 'Shito: Ghana\'s dark, fiery black pepper sauce of onion, tomato, chilli, ginger and dried shrimp, cooked slowly in oil until deeply savoury. Keeps for weeks.',
+    meta: 'Shito: Ghana\'s dark, fiery black pepper sauce of onion, tomato, chilli, ginger and dried shrimp, cooked slowly in oil until deeply savoury.',
     kw: ['shito', 'ghanaian shito', 'shito recipe', 'ghana black pepper sauce', 'how to make shito'],
-    why: 'Shito is Ghana\'s essential condiment, a dark, oily sauce of onion, tomato, ginger, chilli and dried shrimp that is fried slowly in oil until the ingredients have dissolved into a thick, glossy, deeply savoury paste, and it is spooned onto rice, kenkey, fried plantain, fried fish, eggs and bread. Shito is the Ga word for pepper, and the sauce is black in colour from the long frying. The oil is what keeps it, since the sauce is sealed under a layer of it, and a good shito keeps for weeks. The cooking is slow and needs stirring, since it burns easily, and it is finished when the oil has separated from the paste and it has darkened to the colour of chocolate.',
+    why: 'Shito is Ghana\'s essential condiment, a dark, oily sauce of onion, tomato, ginger, chilli and dried shrimp that is fried slowly in oil until the ingredients have dissolved into a thick, glossy, deeply savoury paste, and it is spooned onto rice, kenkey, fried plantain, fried fish, eggs and bread. Shito is the Ga word for pepper, and the sauce is black in colour from the long frying. The layer of oil on top keeps air off the sauce, but it does not make it safe to keep for long, so a big batch belongs in the freezer. The cooking is slow and needs stirring, since it burns easily, and it is finished when the oil has separated from the paste and it has darkened to the colour of chocolate.',
     ing: [
       '250 ml vegetable oil',
       '2 onions, finely chopped',
@@ -229,7 +231,7 @@ module.exports = {
       'Use a clean, dry spoon each time. Water or crumbs make it spoil.'
     ],
     pair: ['Jollof rice', 'Fried plantain', 'Fried fish'],
-    store: 'Keep in clean jars under a layer of oil, in the fridge, up to 4 weeks.',
+    store: 'Keep in clean jars under a layer of oil, in the fridge, for up to 4 days; freeze it in small jars for longer keeping. The garlic, onion and dried shrimp held under oil can carry botulism, and the oil seal does not stop it.',
     nut: [102, 1, 2, 10, 0, 1, 250]
   },
 
@@ -311,6 +313,7 @@ module.exports = {
   },
 
   'koeksisters': {
+    untimed: ['cooling'],
     d: 'Plaited strips of dough, deep-fried and plunged into ice-cold spiced syrup, so they turn crisp outside and syrupy inside. The Afrikaner sweet.',
     meta: 'Koeksisters: plaited strips of dough deep-fried until golden and plunged into ice-cold, spiced sugar syrup, so they are crisp outside and syrupy inside.',
     kw: ['koeksisters', 'south african koeksisters', 'koeksisters recipe', 'afrikaner syrup plaits', 'how to make koeksisters'],
@@ -352,6 +355,7 @@ module.exports = {
   },
 
   'bastilla': {
+    untimed: ['cooling the filling and the almonds'],
     d: 'A Moroccan pie of shredded spiced chicken, egg and sweet cinnamon almonds in layers of crisp pastry, dusted with icing sugar and cinnamon. A celebration dish.',
     meta: 'Bastilla: a Moroccan pie of saffron and ginger chicken, soft egg and cinnamon almonds in crisp buttered filo, dusted with icing sugar. A feast dish.',
     kw: ['bastilla', 'moroccan bastilla', 'bastilla recipe', 'moroccan chicken pie', 'how to make bastilla'],

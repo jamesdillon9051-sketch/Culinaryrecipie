@@ -171,7 +171,7 @@ module.exports = {
       '2 shallots, finely chopped',
       '6 black peppercorns, lightly crushed',
       '3 tarragon stalks, plus 2 tbsp chopped fresh tarragon leaves',
-      '3 egg yolks',
+      '3 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp water',
       '175 g unsalted butter',
       '1 tbsp chopped fresh chervil or flat-leaf parsley',

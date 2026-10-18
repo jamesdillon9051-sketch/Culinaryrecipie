@@ -152,6 +152,7 @@ module.exports = {
   },
 
   'mole-verde': {
+    untimed: ['cooling'],
     d: 'Chicken simmered in a thick green sauce of pumpkin seeds, tomatillos, green chillies and fresh herbs, a lighter cousin of mole poblano.',
     meta: 'Mole verde: chicken simmered in a thick green sauce of pumpkin seeds, tomatillos, green chillies and fresh herbs. Six servings, cooked for 60 minutes.',
     kw: ['mole verde', 'mole verde recipe', 'green mole with chicken', 'mexican green mole with pumpkin seeds', 'mole verde de pepita'],
@@ -357,6 +358,7 @@ module.exports = {
   },
 
   'salsa-roja': {
+    untimed: ['cooling'],
     d: 'A cooked table salsa of roasted tomatoes, dried or fresh chillies, garlic and onion blended and simmered briefly.',
     meta: 'Salsa roja: a cooked table salsa of roasted tomatoes, dried or fresh chillies, garlic and onion, blended and simmered briefly. Eight servings, cooked for 15 minutes.',
     kw: ['salsa roja', 'salsa roja recipe', 'mexican red salsa', 'roasted tomato salsa', 'restaurant style salsa roja'],
@@ -697,7 +699,7 @@ module.exports = {
 
   'saltenas': {
     d: 'Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef or chicken that sets to a jelly when chilled, with potato, peas and olive.',
-    meta: 'Salteñas: Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef that sets to a jelly when chilled. Makes ten, baked for 35 minutes.',
+    meta: 'Salteñas: Bolivian baked pastries filled with a sweet, spicy, juicy stew of beef that sets to a jelly when chilled. Makes ten, baked for 25 minutes.',
     kw: ['saltenas', 'salteñas', 'bolivian saltenas recipe', 'bolivian juicy empanadas', 'saltenas with beef filling'],
     why: 'The soup inside is the trick, and the way to hold it there is gelatine. A salteña is a baked pastry with a filling so juicy that you have to eat it carefully, leaning over a plate. The filling is a thick stew, sweet and mildly hot, which is mixed with gelatine and chilled until it sets solid. Once the stew is wrapped in pastry and baked, the gelatine melts and the stew turns back into liquid inside the pastry.\n\nThe stew, called jigote, is made with beef cut into small cubes, onion, garlic, aji amarillo, cumin, oregano, sugar and a little vinegar, simmered until the beef is tender and the sauce is rich, about 30 minutes. Stir in gelatine dissolved in warm water, then mix in cooked potato, peas and sliced olives and raisins. **Chill the filling for at least 2 hours until firmly set.** Warm filling leaks.\n\nThe pastry is flour, butter, sugar, egg yolks and a little water, coloured orange with annatto-infused oil. It is rolled out thin, cut into 15 cm circles, and filled with 2 tablespoons of the jellied stew. Fold and crimp with a decorative twisted seam.\n\nBake at 220°C for 25 minutes, until golden. Eat hot, holding the tail, and sip the juices first.',
     ing: [
@@ -743,7 +745,7 @@ module.exports = {
     pair: ['Llajua (hot sauce)', 'Fresh juice', 'Black tea', 'Salad'],
     store: 'Keeps in the fridge for 2 days. Reheat in a hot oven.',
     nut: [452, 19, 49, 20, 3, 7, 590],
-    rest: [120, 'Setting the filling']
+    rest: [140, 'Setting the filling']
   },
 
   'argentine-asado': {
@@ -890,6 +892,6 @@ module.exports = {
     pair: ['Black beans', 'White rice', 'Fried plantains', 'Yuca con mojo'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
     nut: [715, 57, 7, 51, 1, 3, 780],
-    rest: [480, 'Marinating overnight']
+    rest: [500, 'Marinating overnight']
   }
 };

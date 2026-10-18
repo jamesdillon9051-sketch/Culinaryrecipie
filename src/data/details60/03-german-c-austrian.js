@@ -398,7 +398,7 @@ module.exports = {
 
   'gansebraten': {
     d: 'A whole goose roasted for 3 hours with apples, onions and marjoram until the skin is crisp, the German Christmas roast.',
-    meta: 'Gänsebraten, German Christmas roast goose with apples, onions and marjoram, cooked for 3 hours. Eight servings, ready in 3 hours 30 minutes.',
+    meta: 'Gänsebraten, German Christmas roast goose with apples, onions and marjoram, cooked for 3 hours. Eight servings, ready in 4 hours.',
     kw: ['gansebraten', 'german roast goose', 'christmas goose with apples and marjoram', 'goose with red cabbage', 'gaensebraten recipe'],
     why: 'A table of eight at Christmas and a bird that does most of the work in the oven. Gänsebraten is the German Christmas goose, stuffed with apples, onions and marjoram, and the point is the crisp skin and the fat that runs off in the roasting tin.\n\nA goose is mostly fat under the skin, which needs to escape. Prick the skin all over with a fork, being careful not to cut the meat, and rub the bird with salt, pepper and marjoram inside and out. Fill the cavity with quartered apples, onions and more marjoram. **Roast it breast up on a rack** in a tin with a little water in it. Pour off the fat every 45 minutes and keep it, as it makes the best roast potatoes.\n\nRoast at 160C for about 3 hours, until the juices run clear when the thigh is pierced and the skin is deep brown. Turn the oven to 220C for the last 15 minutes to crisp the skin. Rest the goose for 30 minutes, covered loosely with foil. Make the gravy from the tin juices. Serve with red cabbage and potato dumplings.',
     ing: [
@@ -466,7 +466,7 @@ module.exports = {
 
   'wildschweinbraten': {
     d: 'A boned wild boar shoulder roasted for 2 hours 30 minutes on a bed of vegetables with red wine and juniper.',
-    meta: 'Wildschweinbraten, German roast wild boar with red wine, juniper and root vegetables, cooked for 2 hours 30 minutes. Six servings, ready in 3 hours.',
+    meta: 'Wildschweinbraten: German roast wild boar with red wine, juniper and root vegetables, cooked for 2 hours 30 minutes. Six servings in 3 hours 15 minutes.',
     kw: ['wildschweinbraten', 'german roast wild boar', 'wild boar roast with red wine', 'boar shoulder with juniper', 'game roast german'],
     why: 'A table of six in the hunting season, and the roast that German families make in November. Wildschweinbraten is a roast of wild boar shoulder, lean and dark, cooked slowly with root vegetables, red wine and juniper until it is soft enough to cut with a spoon.\n\nBoar is leaner and denser than pork and dries out fast, so it needs moist, low heat. Rub the joint with salt, pepper and crushed juniper, and brown it all over in lard in a casserole. Lift it out, soften carrots, celery and onion in the same pot, add tomato purée and wine and boil for 3 minutes. **Add the stock to come a third of the way up the joint**, not more, and cover the pot with a tight lid.\n\nRoast at 160C for 2 hours 30 minutes, turning the meat once. A skewer should meet no resistance. Rest it for 15 minutes, then slice thick. Strain the juices, boil them to a gravy and finish with a spoonful of redcurrant jelly. Pork shoulder works if you cannot find boar. Serve with red cabbage and dumplings.',
     ing: [
@@ -566,7 +566,7 @@ module.exports = {
   },
 
   'heringssalat': {
-    d: 'A cold salad of pickled herring, apple, beetroot, gherkin and onion in a soured cream dressing, made in 20 minutes.',
+    d: 'A cold salad of pickled herring, apple, beetroot, gherkin and onion in a soured cream dressing: 20 minutes of work, then at least 2 hours in the fridge.',
     meta: 'Heringssalat, German herring salad with pickled beetroot, apple and soured cream: 20 minutes of work, no cooking, then 2 hours in the fridge.',
     kw: ['heringssalat', 'german herring salad', 'herring salad with beetroot and apple', 'pickled herring salad with sour cream', 'heringssalat recipe'],
     why: 'A table for six at New Year or Easter, and the salad that German families put out on a cold buffet. Heringssalat is a pink, tangy mix of pickled herring, beetroot, apple, gherkin and onion in a soured cream dressing, and it is made ahead because it tastes better after a night in the fridge.\n\nDrain the herring and cut it into small pieces. Dice the other ingredients to the same size, so that every forkful has a bit of each. **Add the beetroot last**, because it stains the whole salad pink and the colour then spreads to everything. The dressing is soured cream thinned with a splash of the beetroot pickling liquid, with a little mustard, sugar and dill.\n\nFold everything together gently, taste, and adjust with vinegar or sugar. The salad should be sharp, with a sweet note from the apple. Cover and chill for at least 2 hours, ideally overnight. Serve on dark bread, or with boiled potatoes, as a fish course or a light lunch. It keeps for 3 days.',
@@ -695,13 +695,13 @@ module.exports = {
     ],
     pair: ['Vanilla sauce', 'Mulled wine', 'Hot chocolate'],
     store: 'Best fresh.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [621, 13, 86, 25, 5, 21, 430]
   },
 
   'marillenknodel': {
     d: 'Austrian dumplings of potato dough wrapped round whole apricots and rolled in buttered breadcrumbs, simmered for 15 minutes.',
-    meta: 'Marillenknödel, Austrian apricot dumplings of potato dough rolled in buttered crumbs, cooked for 15 minutes. Six servings, ready in 55 minutes.',
+    meta: 'Marillenknödel, Austrian apricot dumplings of potato dough rolled in buttered crumbs, cooked for 15 minutes. Six servings, ready in 1 hour 20 minutes.',
     kw: ['marillenknodel', 'austrian apricot dumplings', 'apricot dumplings in potato dough', 'marillenknoedel recipe', 'wachau apricot dumplings'],
     why: 'Plain potatoes, a ripe apricot and a lump of sugar: three simple things become a famous Austrian summer dessert. Marillenknödel are dumplings made with a soft potato and flour dough wrapped around a whole apricot, simmered and rolled in buttered breadcrumbs.\n\nThe dough must be made with floury potatoes, boiled in their skins, peeled while hot and pressed through a ricer so they are dry. Mix with flour, semolina, an egg, butter and a pinch of salt just until it comes together. **Do not knead it**, as overworking makes a tough, rubbery dough. Wrap a flat disc of dough around each apricot, which has the stone replaced with a sugar cube.\n\nRoll them into smooth balls between wet hands, then slip them into barely simmering salted water and cook for 15 minutes. Meanwhile toast breadcrumbs in butter with sugar and cinnamon until golden. Lift the dumplings out with a slotted spoon and roll them in the crumbs. Serve hot, with a dusting of icing sugar.',
     ing: [
@@ -723,7 +723,7 @@ module.exports = {
       'Mix with the flour, semolina, egg, softened butter and salt into a soft dough. Do not knead.',
       'Stone the apricots and replace each stone with a sugar cube. Wrap each in a disc of dough and roll smooth.',
       'Simmer the dumplings in salted water for 15 minutes.',
-      'Fry the breadcrumbs in the 80 g butter with the sugar and cinnamon for 5 minutes until golden. Roll the dumplings in them.'
+      'While the dumplings simmer, fry the breadcrumbs in the 80 g butter with the sugar and cinnamon for 5 minutes until golden. Roll the dumplings in them.'
     ],
     tips: [
       'Use floury potatoes and press them dry.',
@@ -768,7 +768,7 @@ module.exports = {
 
   'topfenstrudel': {
     d: 'A rolled strudel of thin pastry filled with sweet curd cheese, raisins and lemon, baked for 40 minutes and dusted with sugar.',
-    meta: 'Topfenstrudel, Austrian strudel of thin pastry with sweet curd cheese and raisins, baked for 40 minutes. Eight servings, ready in 1 hour 20 minutes.',
+    meta: 'Topfenstrudel, Austrian strudel of thin pastry with sweet curd cheese and raisins, baked for 40 minutes. Eight servings, ready in 1 hour 40 minutes.',
     kw: ['topfenstrudel', 'austrian curd cheese strudel', 'quark strudel with raisins', 'sweet cheese strudel', 'topfenstrudel recipe'],
     why: 'Why does strudel pastry have to be stretched so thin? Because it bakes to a flaky, crisp shell only when you can read a newspaper through it. Topfenstrudel is the Austrian curd cheese strudel, and the filling is simple: curd cheese, eggs, sugar, lemon, raisins and a little semolina to absorb moisture.\n\nThe dough is flour, water, oil and a pinch of salt, kneaded for 10 minutes until it is smooth and elastic and left to rest under a warm bowl for 20 minutes. **Stretch it over the backs of your hands on a floured cloth**, working from the centre outwards until it is almost transparent. If you tear it, patch it with a scrap, because a hole or two will not matter once it is rolled.\n\nBrush the sheet with melted butter, spread the filling in a band along one edge, and roll it up using the cloth to lift. Set it on a tray seam side down, brush with butter and bake at 190C for 40 minutes, until the pastry is deep gold and crisp. Cool for 10 minutes, cut with a serrated knife and dust with icing sugar.',
     ing: [

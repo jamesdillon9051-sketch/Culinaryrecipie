@@ -67,20 +67,20 @@ module.exports = [
   c('karjalanpaisti', 'Karelian Hot Pot', 'Finnish', 'Dinner', 'Easy', 25, 210, 6, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Karjalanpaisti finnish stew'),
   c('mamaliga', 'Mămăligă', 'Romanian', 'Dinner', 'Easy', 10, 35, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Mamaliga polenta cheese'),
   c('kjottkaker', 'Kjøttkaker', 'Norwegian', 'Dinner', 'Medium', 25, 35, 4, 0, 0, [], ['new'], 'Kjottkaker norwegian meat cakes'),
-  c('aussie-meat-pie', 'Australian Meat Pie', 'Australian', 'Lunch', 'Medium', 35, 75, 6, 0, 0, [], ['new'], 'Australian meat pie sauce'),
+  c('aussie-meat-pie', 'Australian Meat Pie', 'Australian', 'Lunch', 'Medium', 35, 105, 6, 0, 0, [], ['new'], 'Australian meat pie sauce'),
   c('cachapas', 'Cachapas', 'Venezuelan', 'Breakfast', 'Easy', 15, 20, 6, 0, 0, ['Vegetarian'], ['new'], 'Cachapas venezolanas queso'),
   c('spam-musubi', 'Spam Musubi', 'Hawaiian', 'Lunch', 'Easy', 20, 15, 6, 0, 0, ['Dairy-Free'], ['new'], 'Spam musubi nori rice'),
-  c('chakhokhbili', 'Chakhokhbili', 'Georgian', 'Dinner', 'Easy', 20, 50, 4, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Chakhokhbili georgian chicken stew'),
+  c('chakhokhbili', 'Chakhokhbili', 'Georgian', 'Dinner', 'Easy', 20, 70, 4, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Chakhokhbili georgian chicken stew'),
   c('stoemp', 'Stoemp', 'Belgian', 'Dinner', 'Easy', 20, 30, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Stoemp belgian mashed potato'),
   c('chana-chaat', 'Chana Chaat', 'Indian', 'Appetizers', 'Easy', 20, 0, 6, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Chana chaat chickpea salad'),
 
   /* Vegan mains, where the tag was thinnest */
-  c('vegan-shepherds-pie', "Lentil Shepherd's Pie", 'British', 'Dinner', 'Medium', 30, 60, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Lentil shepherds pie dish'),
+  c('vegan-shepherds-pie', "Lentil Shepherd's Pie", 'British', 'Dinner', 'Medium', 30, 90, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Lentil shepherds pie dish'),
   c('mushroom-stroganoff', 'Mushroom Stroganoff', 'Russian', 'Dinner', 'Easy', 15, 25, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Mushroom stroganoff pasta'),
   c('aubergine-parmigiana', 'Griddled Aubergine Parmigiana', 'Italian', 'Dinner', 'Medium', 35, 60, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Melanzane parmigiana baked'),
   c('coconut-dal', 'Coconut Dal', 'Sri Lankan', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Coconut dal parippu'),
   c('jackfruit-tacos', 'Pulled Jackfruit Tacos', 'Mexican', 'Dinner', 'Easy', 20, 30, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Jackfruit tacos pulled'),
   c('vegan-mac', 'Butternut Mac and Cheese', 'American', 'Dinner', 'Easy', 20, 35, 6, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Vegan mac and cheese butternut'),
-  c('tofu-katsu-curry', 'Tofu Katsu Curry', 'Japanese', 'Dinner', 'Medium', 25, 35, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Katsu curry tofu rice'),
+  c('tofu-katsu-curry', 'Tofu Katsu Curry', 'Japanese', 'Dinner', 'Medium', 25, 60, 4, 0, 0, ['Vegan', 'Vegetarian', 'Dairy-Free'], ['new'], 'Katsu curry tofu rice'),
   c('white-bean-stew', 'Tuscan White Bean Stew', 'Italian', 'Dinner', 'Easy', 15, 40, 6, 0, 0, ['Vegan', 'Vegetarian', 'Gluten-Free', 'Dairy-Free'], ['new'], 'Tuscan white bean stew kale')
 ];

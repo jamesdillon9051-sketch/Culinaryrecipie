@@ -45,7 +45,7 @@ module.exports = {
 
   'focaccia-di-recco': {
     d: 'A paper thin Ligurian flatbread stuffed with soft stracchino cheese and baked for 20 minutes until crisp and blistered.',
-    meta: 'Focaccia di Recco, paper thin Ligurian flatbread filled with soft cheese, baked for 20 minutes. Six servings, ready in 1 hour.',
+    meta: 'Focaccia di Recco, paper thin Ligurian flatbread filled with soft cheese, baked for 20 minutes. Six servings, ready in 1 hour 30 minutes.',
     kw: ['focaccia di recco', 'recco cheese focaccia', 'ligurian cheese flatbread', 'stracchino focaccia', 'focaccia di recco recipe'],
     why: 'Roll it thinner than you think is sensible. That is the whole skill in focaccia di Recco, a Ligurian flatbread made of two almost transparent sheets of dough with soft cheese between them, and the thinness is what makes it crisp.\n\nThe dough has only flour, water, oil and salt, and no yeast. Knead it well, so it is smooth and stretchy, and rest it for 30 minutes under a bowl. **Stretch each half over the back of your hands** until you can see through it, then lay it over an oiled tray so it hangs over the edge. Dot with spoonfuls of stracchino, leaving gaps, and cover with the second sheet.\n\nPress the edges together, trim the overhang with a rolling pin pressed over the rim, and pinch a few holes in the top so steam can escape. Brush with oil, sprinkle with salt and bake at 250C for 20 minutes, until blistered and gold in patches. Serve at once, cut in wedges, while the cheese still runs.',
     ing: [
@@ -174,7 +174,7 @@ module.exports = {
 
   'lasagne-bianche': {
     d: 'White lasagne layered with béchamel, Parmesan, ham and mushrooms and baked for 45 minutes at 190C.',
-    meta: 'Lasagne bianche, white lasagne with béchamel, ham, mushrooms and Parmesan, baked for 45 minutes. Six servings, ready in 1 hour 15 minutes.',
+    meta: 'Lasagne bianche, white lasagne with béchamel, ham, mushrooms and Parmesan, baked for 45 minutes. Six servings, ready in 1 hour 25 minutes.',
     kw: ['lasagne bianche', 'white lasagne', 'lasagne with bechamel and ham', 'lasagne without tomato', 'ham and mushroom lasagne'],
     why: 'Does lasagne need tomato? Not when the béchamel does the work. Lasagne bianche, white lasagne, replaces the meat ragù with a creamy sauce, ham and mushrooms, and the dish is lighter in colour and in flavour.\n\nThe béchamel is the heart of it, so make it with care: melt the butter, stir in the flour for a minute, then add warm milk a little at a time, whisking, and simmer for 8 minutes with nutmeg. **Keep it slightly looser than you think it should be**, because the pasta sheets absorb liquid as they bake. Fry the mushrooms in a dry pan until they have given up their water, then add the ham.\n\nLayer sauce, pasta, mushrooms and ham, and Parmesan, ending with sauce and cheese. Use dried sheets that need no pre-cooking, and make sure each is covered with sauce, as bare edges bake hard. Bake at 190C for 45 minutes, until bubbling and golden, and rest for 10 minutes before cutting.',
     ing: [
@@ -191,7 +191,7 @@ module.exports = {
     ],
     st: [
       'Heat the oven to 190C. Melt the butter, stir in the flour for 1 minute, then whisk in the milk a little at a time. Simmer for 8 minutes with the nutmeg and salt.',
-      'Fry the mushrooms in the oil in a dry wide pan for 8 minutes. Add the ham.',
+      'While the sauce simmers, fry the mushrooms in the oil in a dry wide pan for 8 minutes. Add the ham.',
       'Spread a layer of sauce in a baking dish. Add a layer of pasta, then mushrooms and ham, sauce and Parmesan. Repeat to make 4 layers.',
       'Finish with sauce and the remaining Parmesan and bake for 45 minutes until golden and bubbling.',
       'Rest for 10 minutes before cutting.'
@@ -304,8 +304,8 @@ module.exports = {
   },
 
   'tagliolini-al-tartufo': {
-    d: 'Fresh egg tagliolini tossed in butter and Parmesan with shaved black truffle, rolled and cut by hand in 35 minutes.',
-    meta: 'Tagliolini al tartufo, fresh egg tagliolini in butter and Parmesan with shaved black truffle, cooked for 3 minutes. Four servings, ready in 33 minutes.',
+    d: 'Fresh egg tagliolini tossed in butter and Parmesan with shaved black truffle, rolled and cut by hand.',
+    meta: 'Tagliolini al tartufo, fresh egg tagliolini in butter and Parmesan with shaved black truffle, cooked for 3 minutes. Four servings, ready in 53 minutes.',
     kw: ['tagliolini al tartufo', 'truffle tagliolini', 'tagliolini with black truffle and butter', 'fresh egg pasta with truffle', 'italian truffle pasta'],
     why: 'A dinner for four on a night that matters, and one where a few shavings of truffle do more than a long list of ingredients. Tagliolini al tartufo is thin egg pasta with butter, Parmesan and black truffle, and almost nothing else.\n\nMake the dough from flour and whole eggs, kneaded for 8 minutes until it feels like silk. Rest it for 20 minutes, roll it thin and cut it into ribbons 2 mm wide. **Cook the pasta for no more than 3 minutes**, because fresh tagliolini are done as soon as they float. Drain, keeping a cup of the water.\n\nMelt the butter in a wide pan, add the pasta and a splash of the water and toss until the sauce is glossy. Plate it, scatter with the Parmesan, and shave the truffle over the top at the table, because its scent fades with heat. If you cannot find fresh truffle, a spoonful of truffle butter stirred into the sauce gives some of the flavour.',
     ing: [
@@ -460,7 +460,7 @@ module.exports = {
 
   'torta-di-carote': {
     d: 'A moist Italian carrot cake with ground almonds and lemon zest, baked for 45 minutes at 180C and dusted with icing sugar.',
-    meta: 'Torta di carote, moist Italian carrot and almond cake with lemon, baked for 45 minutes at 180C. Ten servings, ready in 1 hour 5 minutes.',
+    meta: 'Torta di carote, moist Italian carrot and almond cake with lemon, baked for 45 minutes at 180C. Ten servings, ready in 1 hour 20 minutes.',
     kw: ['torta di carote', 'italian carrot cake', 'carrot and almond cake', 'torta di carote e mandorle', 'carrot cake with lemon'],
     why: 'A cake for a table of ten, made with no butter and almost no flour. Torta di carote is the Italian carrot cake, which is lighter and plainer than the English kind, with no cream cheese frosting and a crumb held together by ground almonds.\n\nGrate the carrots on the fine side so they melt into the batter and do not leave strings. Whisk the egg yolks with the sugar until pale and thick, and stir in the carrots, almonds, flour and lemon zest. **Beat the egg whites separately and fold them in last**, since they lift the cake without any raising agent. If you stir hard, the batter goes flat.\n\nBake in a lined 24 cm tin at 180C for about 45 minutes, until it is golden and springs back when touched. Cool in the tin for 15 minutes, turn out and dust with icing sugar. The cake keeps moist for days, and the flavour of the carrot grows stronger on the second day.',
     ing: [
@@ -493,7 +493,7 @@ module.exports = {
 
   'torta-al-mascarpone': {
     d: 'A soft, creamy Italian cake made with mascarpone, eggs and lemon, baked for 45 minutes at 170C.',
-    meta: 'Torta al mascarpone, soft Italian cake with mascarpone and lemon, baked for 45 minutes at 170C. Ten servings, ready in 1 hour 10 minutes.',
+    meta: 'Torta al mascarpone, soft Italian cake with mascarpone and lemon, baked for 45 minutes at 170C. Ten servings, ready in 1 hour 30 minutes.',
     kw: ['torta al mascarpone', 'italian mascarpone cake', 'mascarpone and lemon cake', 'soft cake with mascarpone', 'torta al mascarpone recipe'],
     why: 'Mascarpone is a cream cheese made from cream, and it is why this cake is so soft. Torta al mascarpone is an Italian cake where the cheese replaces most of the butter, and the crumb is tender, rich and slightly moist, like a cross between a sponge and a cheesecake.\n\nBring the mascarpone and eggs to room temperature before you begin, because cold ingredients split the batter and make it heavy. Beat the eggs with the sugar until thick and pale, then fold in the mascarpone, lemon zest and vanilla. **Fold in the flour last, with a spatula**, until you cannot see any streaks, and no longer. Overmixing toughens the crumb.\n\nBake in a lined 24 cm tin at 170C for about 45 minutes, until golden and the centre is just set. It will sink a little as it cools, which is normal. Leave it in the tin for 20 minutes before turning it out. Serve with fresh berries and a dusting of icing sugar.',
     ing: [
@@ -527,6 +527,7 @@ module.exports = {
   },
 
   'torta-di-castagne': {
+    untimed: ['cooling completely'],
     d: 'A dark, moist cake of chestnut purée, chocolate, eggs and butter baked for 40 minutes at 170C.',
     meta: 'Torta di castagne, dark moist cake of chestnut purée and chocolate, baked for 40 minutes at 170C. Ten servings, ready in 1 hour.',
     kw: ['torta di castagne', 'italian chestnut cake', 'chestnut and chocolate cake', 'chestnut puree cake', 'torta di castagne recipe'],
@@ -627,7 +628,7 @@ module.exports = {
 
   'crespelle': {
     d: 'Thin Italian pancakes rolled around a filling of ricotta and jam, baked for 15 minutes and dusted with sugar.',
-    meta: 'Crespelle, thin Italian pancakes rolled with ricotta and jam, baked until warm, cooked for 15 minutes. Six servings, ready in 30 minutes.',
+    meta: 'Crespelle, thin Italian pancakes rolled with ricotta and jam, baked until warm, cooked for 15 minutes. Six servings, ready in 45 minutes.',
     kw: ['crespelle', 'italian crepes', 'crespelle with ricotta and jam', 'italian pancakes filled with ricotta', 'crespelle recipe'],
     why: 'A table for six on a Sunday, and a dish that can be made ahead: crespelle are the Italian crêpes, thin and pale, and they are rolled around a filling and warmed through. The sweet version here uses ricotta and jam, and the savoury kind uses spinach and cheese.\n\nThe batter is flour, eggs, milk and a little melted butter, whisked smooth and left to rest for 15 minutes so the flour swells. **Pour in just enough to coat the pan** and swirl it, because thick crespelle are rubbery. A non stick pan, lightly buttered for the first one only, is best. They are ready to turn when the edges lift and the surface is dry.\n\nMix the ricotta with a little sugar and lemon zest, spread each crespella with jam and a spoonful of ricotta, and roll. Set them in a buttered dish and bake at 180C for 15 minutes until warm. Dust with icing sugar. The batter keeps overnight in the fridge, which makes the whole dish easier.',
     ing: [
@@ -696,6 +697,7 @@ module.exports = {
   },
 
   'limoncello': {
+    untimed: ['cooling completely'],
     d: 'An Italian lemon liqueur made by steeping lemon zest in neutral spirit for 4 days and mixing it with a cooled sugar syrup.',
     meta: 'Limoncello, Italian lemon liqueur made by steeping lemon zest in spirit, cooked for 5 minutes. Ten servings, ready in 20 minutes plus steeping.',
     kw: ['limoncello', 'homemade limoncello', 'italian lemon liqueur', 'limoncello recipe', 'lemon zest liqueur'],
@@ -720,7 +722,7 @@ module.exports = {
     ],
     pair: ['Biscotti', 'Lemon sorbet', 'Fresh fruit'],
     store: 'Keeps for 1 year in a cool, dark place or the freezer.',
-    rest: [5760, 'Steeping'],
+    rest: [6000, 'Steeping'],
     nut: [224, 1, 55, 0, 2, 52, 5]
   },
 
@@ -783,7 +785,7 @@ module.exports = {
 
   'schweinebraten': {
     d: 'A German roast pork shoulder with a crackled rind, roasted for 2 hours on onions with dark beer and caraway.',
-    meta: 'Schweinebraten, German roast pork with a crisp crackling, onions and dark beer gravy, roasted for 2 hours. Six servings, ready in 2 hours 20 minutes.',
+    meta: 'Schweinebraten, German roast pork with a crisp crackling, onions and dark beer gravy, roasted for 2 hours. Six servings, ready in 2 hours 40 minutes.',
     kw: ['schweinebraten', 'german pork roast', 'bavarian roast pork with crackling', 'roast pork with beer gravy', 'schweinebraten recipe'],
     why: 'Keep the heat low. That is most of the recipe, and the part people skip. Schweinebraten is the Bavarian Sunday roast, a piece of pork shoulder with the rind on, cooked slowly so the meat is tender and the rind finishes as crisp crackling.\n\nScore the rind in a diamond pattern with a sharp knife, cutting through the skin but not into the meat, and rub salt and caraway into the cuts. Set the pork on a bed of onions, carrots and celery in a tin, and pour in dark beer and stock around, not over, the rind. **Keep the rind dry**, because wet skin cannot crisp. Roast at 160C for 1 hour 45 minutes.\n\nTurn the oven up to 230C for the last 15 minutes, until the rind has blistered and crackles. Rest the meat for 20 minutes, covered loosely. Meanwhile strain the juices and vegetables into a pan, thicken with a little cornflour and simmer for 5 minutes. Slice and serve with dumplings or potatoes, red cabbage and the dark gravy.',
     ing: [

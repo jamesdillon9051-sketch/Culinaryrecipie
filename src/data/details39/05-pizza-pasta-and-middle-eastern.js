@@ -248,8 +248,8 @@ module.exports = {
       '2 chicken breasts, about 400 g, sliced into strips',
       '150 g streaky bacon, chopped',
       '1 tbsp olive oil',
-      '2 eggs',
-      '40 g egg yolks',
+      '2 eggs, pasteurised (or British Lion-stamped in the UK)',
+      '40 g egg yolks, pasteurised or Lion-stamped',
       '60 g parmesan, grated',
       '1 tsp black pepper',
       '1/2 tsp salt'
@@ -272,7 +272,7 @@ module.exports = {
   },
 
   'creamy-pesto-gnocchi': {
-    d: 'Shop-bought gnocchi pan-fried until golden and tossed with a creamy basil pesto sauce, peas and parmesan in 12 minutes.',
+    d: 'Shop-bought gnocchi pan-fried until golden and tossed with a creamy basil pesto sauce, peas and parmesan. On the table in 17 minutes.',
     meta: 'Creamy pesto gnocchi: gnocchi pan-fried until golden and tossed with a creamy basil pesto sauce, peas and parmesan. Four servings in 17 minutes.',
     kw: ['creamy pesto gnocchi', 'pesto gnocchi', 'pan fried pesto gnocchi', 'quick pesto gnocchi', 'gnocchi with pesto cream sauce'],
     why: 'Gnocchi from a packet is one of the best shortcuts in the supermarket, and the trick is not to boil it. Pan-frying gives it a golden, crisp crust that contrasts with the soft inside.\n\nHeat a spoon of butter and oil in a wide pan and add the gnocchi straight from the packet in a single layer. **Leave them alone for 4 minutes** so they colour underneath, then turn and cook for 3 minutes more.\n\nStir the pesto into the cream in a small bowl, which stops it separating, and pour it over the gnocchi with the peas and a splash of water. Simmer for 2 minutes until everything is coated and the peas are warm. If your hob runs hot, lower the heat so the cream does not boil hard.\n\nFinish with parmesan, black pepper and a squeeze of lemon, which stops the sauce from tasting heavy. Serve straight from the pan.',
@@ -574,7 +574,7 @@ module.exports = {
     st: [
       'Boil the rice and split peas for 15 minutes until half-tender and drain.',
       'Mix the beef, grated onion, rice, split peas, parsley, mint, turmeric, salt and egg and knead for 3 minutes. Shape into 4 large balls.',
-      'Soften the sliced onion in the oil for 6 minutes. Add the tomatoes, saffron and water and simmer for 10 minutes.',
+      'While the rice and split peas boil, soften the sliced onion in the oil for 6 minutes. Add the tomatoes, saffron and water and simmer for 10 minutes.',
       'Lower in the meatballs, cover and simmer very gently for 40 minutes, turning once.'
     ],
     tips: [

@@ -141,7 +141,7 @@ module.exports = {
       'Add the oil slowly.'
     ],
     pair: ['Grilled fish', 'Grilled chicken', 'Roast vegetables', 'Crusty bread'],
-    store: 'Keeps in the fridge for 5 days under a layer of oil. Bring to room temperature before serving.',
+    store: 'Keeps in the fridge for 4 days under a layer of oil. Bring to room temperature before serving.',
     nut: [245, 4, 10, 21, 3, 4, 230]
   },
 
@@ -441,7 +441,7 @@ module.exports = {
       'Add the salt last, as the tomatoes and parmesan are salty.'
     ],
     pair: ['Pasta', 'Crusty bread', 'Grilled chicken', 'Mozzarella'],
-    store: 'Keeps in the fridge for 5 days under a layer of oil.',
+    store: 'Keeps in the fridge for 4 days under a layer of oil; freeze it for longer keeping.',
     nut: [247, 6, 13, 19, 3, 8, 600]
   },
 

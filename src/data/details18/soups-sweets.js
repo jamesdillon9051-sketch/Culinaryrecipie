@@ -245,7 +245,7 @@ module.exports = {
       'Set them sesame up on a lined tray and rest 20 minutes.',
       'Bake at 200C fan / 220C / gas 7 for 20 minutes, until deep gold, puffed and hollow-sounding.'
     ],
-    rest: [60, 'proving the dough'],
+    rest: [80, 'proving the dough'],
     tips: [
       'Flour cooked into the oil, not oil alone. That is what holds the layers.',
       'Maltose wash so the sesame sticks and the colour deepens.',
@@ -257,7 +257,8 @@ module.exports = {
   },
 
   'chilli-oil': {
-    d: 'Hot oil poured over chilli flakes and spices in stages, so the sediment toasts without burning. Fifteen minutes, and it improves everything for a month.',
+    untimed: ['cooling completely'],
+    d: 'Hot oil poured over chilli flakes and spices in stages, so the sediment toasts without burning. Fifteen minutes, and it improves almost everything it is spooned over.',
     meta: 'Sichuan chilli oil: aromatics infused into oil, which is then poured over coarse chilli flakes in three stages at falling temperatures.',
     kw: ['chilli oil', 'sichuan chilli oil recipe', 'chinese chilli oil', 'homemade chili crisp oil', 'la jiao you'],
     why: 'The oil is poured over the chilli in three stages, at three temperatures, and that is the whole technique. The first pour at around 190C toasts and blooms the flakes; the second at 160C extracts the colour; the third at 130C keeps the aroma without cooking it away. One pour at high heat scorches the top layer and leaves the bottom raw, which is exactly what most disappointing homemade chilli oil is. Use coarse flakes, not powder, which burns instantly.',
@@ -288,7 +289,7 @@ module.exports = {
       'Let the oil in the pan drop to about 160C, then pour over another third and stir.',
       'Let it drop again to about 130C and pour over the last third.',
       'Stir well, cool completely, and pour into a clean jar with all the sediment.',
-      'Leave 24 hours before using — the colour and flavour deepen overnight.'
+      'Cover and refrigerate for 24 hours before using — the colour and flavour deepen overnight.'
     ],
     rest: [1440, 'letting the oil mature before use'],
     tips: [
@@ -297,7 +298,7 @@ module.exports = {
       'Keep the sediment. It is most of the flavour.'
     ],
     pair: ['Wontons', 'Cold noodles', 'A fried egg'],
-    store: 'In a sealed jar at room temperature for 3 months, or refrigerated for 6.',
+    store: 'Keep it in the fridge in a sealed jar and use it within 4 days, or freeze small jars for longer keeping. Home-made flavoured oils, even those made with dried chillies and spices, can carry botulism, which cannot be seen, smelled or tasted.',
     nut: [200, 1, 3, 21, 1, 1, 290]
   },
 
@@ -326,7 +327,7 @@ module.exports = {
       '2 tbsp of the scallop soaking liquid'
     ],
     st: [
-      'Soak the dried scallops and shrimp separately in the Shaoxing wine topped up with warm water, 2 hours, until soft. Keep the liquid.',
+      'Soak the dried scallops and shrimp separately in the Shaoxing wine topped up with warm water, in the fridge for 2 hours, until soft. Keep the liquid.',
       'Shred the scallops by hand along their grain into fine threads, and chop the shrimp roughly.',
       'Heat the oil in a wide heavy pan over medium-low heat and fry the shallots 10 minutes, until golden. Lift them out.',
       'Fry the garlic 4 minutes, until pale gold, then lift it out.',
@@ -343,7 +344,7 @@ module.exports = {
       'Keep the solids under the oil in the jar.'
     ],
     pair: ['Steamed fish', 'Fried rice', 'Plain noodles'],
-    store: 'Refrigerated under its oil for 3 months. Do not freeze.',
+    store: 'Refrigerated under its oil for up to 4 days. Garlic, shallots and seafood held under oil can carry botulism, which cannot be seen, smelled or tasted, and the oil seal does not stop it; for longer keeping, freeze it in small jars.',
     nut: [280, 12, 8, 23, 1, 4, 1090]
   },
 
@@ -417,7 +418,7 @@ module.exports = {
       'Only now add the rock sugar and the salt, and simmer 10 minutes until dissolved.',
       'Serve warm, or chill and serve cold with a spoonful of coconut milk.'
     ],
-    rest: [480, 'soaking the adzuki beans overnight'],
+    rest: [495, 'soaking the adzuki beans overnight'],
     tips: [
       'Sugar at the end. Early sugar stops the beans softening.',
       'Scrape the pith from the tangerine peel or it turns bitter.',
@@ -592,7 +593,7 @@ module.exports = {
       'Cut the set jelly into 2 cm cubes or diamonds with a wet knife.',
       'Divide between bowls, add the fruit, and pour the cold syrup over.'
     ],
-    rest: [120, 'setting the jelly'],
+    rest: [150, 'setting the jelly'],
     tips: [
       'Boil the agar for two full minutes. Warm is not enough.',
       'It sets at room temperature, so pour it promptly.',

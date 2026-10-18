@@ -43,7 +43,7 @@ module.exports = {
     ],
     st: [
       'Mix the lime juice, 2 tbsp of the oil, cumin, paprika, oregano, garlic powder, cayenne and salt.',
-      'Turn the chicken through it and leave 20 minutes at room temperature.',
+      'Turn the chicken through it, cover and leave in the fridge for 20 minutes.',
       'Heat a heavy frying pan over the highest heat for 4 minutes, until it smokes.',
       'Add the remaining oil and the peppers and onions and cook 5 minutes, stirring only twice, until blackened at the edges but still firm. Tip onto a plate.',
       'Add the chicken in a single layer and leave it untouched for 90 seconds.',
@@ -85,7 +85,7 @@ module.exports = {
     st: [
       'Look at the steak and note which way the fibres run.',
       'Mix the lime and orange juice, garlic, cumin, oregano, pepper, oil, jalapeño and coriander.',
-      'Turn the steak through it and marinate 1 hour at room temperature. No longer — the acid starts to cure it.',
+      'Turn the steak through it and marinate 1 hour in the fridge. No longer — the acid starts to cure it.',
       'Lift the steak out, wipe most of the marinade off and season heavily with the salt.',
       'Heat a charcoal grill or a griddle pan until it is too hot to hold a hand over.',
       'Grill 3 minutes on the first side without moving it.',
@@ -139,6 +139,7 @@ module.exports = {
   },
 
   'salsa-verde-mexican': {
+    untimed: ['cooling'],
     d: 'Tomatillos and green chilli charred under a grill and blitzed with coriander and lime. Twenty-five minutes and sharper than any red salsa.',
     meta: 'Mexican green salsa of tomatillos, serrano chillies, onion and garlic charred under a grill and blended with coriander and lime.',
     kw: ['salsa verde', 'salsa verde recipe', 'tomatillo salsa', 'green salsa mexican', 'roasted tomatillo salsa'],
@@ -813,6 +814,7 @@ module.exports = {
   },
 
   'corn-chowder': {
+    cookMax: 40,
     d: 'Sweetcorn simmered in a thin broth with potato and finished with cream. Forty-five minutes, and the cobs go in the pot.',
     meta: 'A creamy sweetcorn and potato chowder built on a stock made from the stripped corn cobs, finished with cream and chives.',
     kw: ['corn chowder', 'corn chowder recipe', 'sweetcorn soup', 'creamy corn chowder', 'summer corn soup'],
@@ -835,7 +837,7 @@ module.exports = {
     st: [
       'Snap the stripped cobs in half and simmer them in the stock for 20 minutes.',
       'Lift the cobs out and discard them, keeping the stock.',
-      'Melt the butter in a heavy pan and cook the onion and celery for 8 minutes, until soft but not coloured.',
+      'While the cobs simmer, melt the butter in a heavy pan and cook the onion and celery for 8 minutes, until soft but not coloured.',
       'Add the garlic and cook 1 minute.',
       'Add the potato, thyme, bay leaf and the corn stock and simmer 12 minutes, until the potato is tender.',
       'Add the corn kernels and simmer 5 minutes.',

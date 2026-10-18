@@ -93,6 +93,7 @@ module.exports = {
   },
 
   'maamoul': {
+    untimed: ['cooling completely'],
     rest: [540, 'resting'],
     d: 'Semolina shortbread moulded around dates, walnuts or pistachios, pressed in a carved wooden mould and baked pale, then dusted with icing sugar.',
     meta: 'Maamoul — semolina shortbread filled with dates or nuts, pressed in carved moulds and baked pale.',
@@ -144,6 +145,7 @@ module.exports = {
   },
 
   'ghormeh-sabzi': {
+    cookMax: 175,
     d: 'The Persian herb stew: several bunches of herbs fried down almost to black, with lamb, kidney beans and dried limes, cooked for hours.',
     meta: 'Ghormeh sabzi — Persian herb stew with lamb, kidney beans and dried limes, cooked long and slow.',
     kw: ['ghormeh sabzi recipe', 'persian herb stew', 'dried lime stew', 'iranian lamb stew'],
@@ -170,7 +172,7 @@ module.exports = {
     st: [
       'Chop the herbs as finely as you can manage. This takes a while and is worth doing properly.',
       'Heat the 5 tablespoons of oil in a wide pan and add all the herbs. Fry over medium-low heat for 20 to 25 minutes, stirring often, until they have collapsed to a quarter of their volume and turned very dark green. Do not let them burn.',
-      'In a separate heavy pot, cook the onions in a little oil for 10 minutes until golden. Add the turmeric and cook 1 minute.',
+      'While the herbs fry, cook the onions in a little oil in a separate heavy pot for 10 minutes until golden. Add the turmeric and cook 1 minute.',
       'Add the lamb and brown it all over, about 8 minutes.',
       'Add the fried herbs, the pierced dried limes, salt and pepper, and the hot water.',
       'Bring to a simmer, cover, and cook very gently for 2 hours.',
@@ -274,7 +276,7 @@ module.exports = {
   },
 
   'joojeh-kabab': {
-    rest: [480, 'chilling'],
+    rest: [500, 'chilling'],
     d: 'Chicken marinated overnight in saffron, lemon and grated onion, grilled over coals and basted with saffron butter as it cooks.',
     meta: 'Joojeh kabab — Persian saffron chicken skewers marinated overnight and basted with saffron butter.',
     kw: ['joojeh kabab recipe', 'persian saffron chicken', 'chicken kabob', 'saffron marinade'],
@@ -321,6 +323,7 @@ module.exports = {
   },
 
   'ash-reshteh': {
+    cookMax: 133,
     rest: [480, 'soaking'],
     d: 'A thick Persian soup of beans, lentils, greens and noodles, finished with fried mint oil, crisp onions and kashk.',
     meta: 'Ash reshteh — thick Persian noodle soup with beans, lentils and greens, topped with mint oil and kashk.',
@@ -415,6 +418,7 @@ module.exports = {
   },
 
   'malabi': {
+    untimed: ['cooling to room temperature'],
     rest: [180, 'chilling'],
     d: 'A set milk pudding perfumed with rose water, poured into glasses and topped with red syrup, coconut and crushed pistachios.',
     meta: 'Malabi — rose-scented set milk pudding with red syrup, coconut and crushed pistachios.',
@@ -445,7 +449,7 @@ module.exports = {
       'Cook over medium heat, whisking without stopping, for 4 to 5 minutes until it thickens and just comes to a boil. It should coat the back of a spoon heavily.',
       'Take it off the heat and stir in the rose water.',
       'Pour through a sieve into glasses or small bowls, filling them about three-quarters.',
-      'Cool to room temperature, then refrigerate at least 3 hours until set.',
+      'Cool for no more than 2 hours, then refrigerate at least 3 hours until set.',
       'For the syrup, boil the sugar and water for 6 minutes, add the juice and lemon, cool, then stir in the rose water.',
       'Spoon the cold syrup over each set pudding and finish with pistachios and coconut.'
     ],
@@ -460,6 +464,7 @@ module.exports = {
   },
 
   'israeli-couscous-salad': {
+    untimed: ['cooling to room temperature'],
     d: 'Toasted pearl couscous with roast vegetables, herbs, lemon and a handful of toasted almonds. Good hot, better at room temperature.',
     meta: 'Israeli couscous salad — toasted pearl couscous with roast vegetables, herbs, lemon and almonds.',
     kw: ['israeli couscous salad recipe', 'pearl couscous', 'ptitim salad', 'vegan grain salad'],
@@ -595,7 +600,8 @@ module.exports = {
   },
 
   'knafeh-nabulsi': {
-    rest: [120, 'soaking'],
+    untimed: ['cooling completely'],
+    rest: [20, 'soaking'],
     d: 'Semolina-orange dough over a layer of fresh white cheese, baked until the base is crisp and the top is orange, then flooded with syrup.',
     meta: 'Knafeh nabulsi — orange semolina dough over fresh white cheese, baked and flooded with syrup.',
     kw: ['knafeh nabulsi recipe', 'palestinian knafeh', 'cheese knafeh', 'kunafa with semolina'],

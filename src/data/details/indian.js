@@ -4,7 +4,7 @@ module.exports = {
   'chicken-tikka-masala': {
     rest: [120, 'chilling'],
     d: 'Charred yogurt-marinated chicken folded into a silky, gently spiced tomato-cream sauce — the most ordered curry in Britain and one of the great crossover dishes. Grilling the chicken separately is what gives it that smoky edge.',
-    meta: 'Restaurant-style chicken tikka masala with charred yogurt-marinated chicken in a silky tomato cream sauce. Ready in an hour.',
+    meta: 'Restaurant-style chicken tikka masala with charred yogurt-marinated chicken in a silky tomato cream sauce. Ready in 3 hours, chilling included.',
     kw: ['chicken tikka masala recipe', 'indian curry recipe', 'tikka masala sauce', 'restaurant style curry'],
     why: 'Yogurt marinade works on two fronts: its lactic acid gently denatures surface proteins so the meat holds moisture, and its milk solids brown fiercely under a grill, creating the char that defines tikka. Cooking the chicken separately from the sauce means you get true dry-heat browning instead of meat poached in gravy.',
     ing: [
@@ -90,7 +90,7 @@ module.exports = {
       '1 tsp fine sea salt'
     ],
     st: [
-      'Marinate the chicken in the yogurt, garlic, ginger, lemon juice, spices and salt for at least 4 hours, or overnight.',
+      'Marinate the chicken in the yogurt, garlic, ginger, lemon juice, spices and salt, covered, in the fridge for at least 4 hours, or overnight.',
       'Grill the chicken on skewers under the highest heat for 12 to 14 minutes, turning once, until charred at the edges. Reserve every scrap and juice from the tray.',
       'Meanwhile, heat the oil in a heavy pan and cook the onion, garlic, ginger and cashews over medium heat for 10 minutes until the onion is soft and golden.',
       'Add the tomatoes, Kashmiri chilli powder and salt with 200 ml of water. Simmer, partly covered, for 20 minutes until everything is soft and the tomatoes have broken down.',
@@ -154,7 +154,8 @@ module.exports = {
   },
 
   'lamb-vindaloo': {
-    rest: [360, 'marinating'],
+    untimed: ['cooling completely'],
+    rest: [375, 'marinating'],
     d: 'The Goan original, descended from a Portuguese pork dish preserved in wine and garlic. Vinegar, not just chilli, is the defining note — sharp, garlicky and deeply savoury rather than gratuitously hot.',
     meta: 'Authentic Goan lamb vindaloo with a vinegar and garlic marinade — sharp, garlicky and deep, not just fiercely hot.',
     kw: ['vindaloo recipe', 'goan curry', 'lamb vindaloo', 'spicy indian curry'],
@@ -204,7 +205,7 @@ module.exports = {
   },
 
   'chicken-biryani': {
-    rest: [150, 'marinating'],
+    rest: [165, 'marinating'],
     d: 'Hyderabadi dum biryani, where marinated chicken and part-cooked rice are layered raw and sealed to steam in their own aromatics. When you break the seal, the whole kitchen changes.',
     meta: 'Hyderabadi chicken dum biryani with saffron, fried onions and layered basmati sealed and steamed in its own aromatics.',
     kw: ['chicken biryani recipe', 'hyderabadi biryani', 'dum biryani', 'indian rice dish'],
@@ -239,7 +240,7 @@ module.exports = {
     ],
     st: [
       'Fry the sliced onions in the oil over medium heat for 18 to 22 minutes, stirring often, until evenly deep brown and crisp. Drain on paper — they will crisp further as they cool. Reserve the oil.',
-      'Mix the chicken with the yogurt, ginger-garlic paste, spices, lemon juice, salt, herbs and half the fried onions plus 3 tablespoons of the onion oil. Marinate at least 2 hours or overnight.',
+      'Mix the chicken with the yogurt, ginger-garlic paste, spices, lemon juice, salt, herbs and half the fried onions plus 3 tablespoons of the onion oil. Cover and marinate in the fridge for at least 2 hours or overnight.',
       'Rinse the basmati until the water runs clear, then soak in cold water for 30 minutes and drain.',
       'Bring 3 litres of water to a rolling boil with the whole spices and the 2 tablespoons of salt. Add the rice and boil for exactly 5 to 6 minutes, until the grains are soft at the edge but still firm at the core. Drain immediately.',
       'Spread the marinated chicken in an even layer in the base of a heavy, wide pot.',
@@ -496,6 +497,7 @@ module.exports = {
   },
 
   'samosas': {
+    untimed: ['cooling completely'],
     d: 'Properly made samosas have a blistered, flaky shell that stays crisp for hours — the result of a stiff dough enriched with ghee and a low, slow fry. The spiced potato and pea filling is the easy part.',
     meta: 'Crisp Punjabi samosas with a blistered flaky shell and spiced potato-pea filling. The low-and-slow frying method.',
     kw: ['samosa recipe', 'punjabi samosa', 'indian snack', 'vegetarian appetizer'],
@@ -618,7 +620,7 @@ module.exports = {
       '1 tsp chaat masala'
     ],
     st: [
-      'Rub the chicken all over and deep into the slashes with the lemon juice, salt and chilli powder. Leave for 30 minutes at room temperature.',
+      'Rub the chicken all over and deep into the slashes with the lemon juice, salt and chilli powder. Cover and leave in the fridge for 30 minutes.',
       'Whisk the second marinade ingredients together into a thick paste and coat the chicken completely, working it into every cut.',
       'Cover and refrigerate for at least 6 hours, ideally 24. The yogurt must be thick or the marinade will slide off.',
       'Take the chicken out 45 minutes before cooking. Heat the oven to its absolute maximum, at least 250°C / 480°F, with a rack set over a foil-lined tray on the top shelf.',
@@ -638,7 +640,7 @@ module.exports = {
   },
 
   'garlic-naan': {
-    rest: [60, 'proving'],
+    rest: [75, 'proving'],
     d: 'Blistered, chewy naan cooked in a screaming-hot cast-iron pan and brushed with garlic butter. Yogurt in the dough is what gives it the characteristic soft chew and slight tang.',
     meta: 'Soft, blistered garlic naan made in a hot skillet — no tandoor required. Yogurt dough for authentic chew and tang.',
     kw: ['naan recipe', 'garlic naan', 'indian flatbread', 'homemade naan without tandoor'],
@@ -682,7 +684,7 @@ module.exports = {
   },
 
   'gulab-jamun': {
-    rest: [120, 'soaking'],
+    rest: [135, 'soaking'],
     d: 'Milk-solid dumplings fried to a deep bronze and steeped in cardamom-rose syrup until they double in size and turn to sponge. The definitive Indian celebration sweet.',
     meta: 'Soft, syrup-soaked gulab jamun with cardamom and rose. The low-temperature frying method that keeps the centres light.',
     kw: ['gulab jamun recipe', 'indian dessert', 'milk dumplings in syrup', 'diwali sweet'],

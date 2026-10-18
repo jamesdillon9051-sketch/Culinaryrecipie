@@ -75,6 +75,7 @@ module.exports = {
   },
 
   'mississippi-mud-pie': {
+    untimed: ['cooling completely'],
     d: 'A chocolate cookie crust filled with a dark, gooey, fudgy chocolate and pecan filling, topped with whipped cream and chocolate shavings.',
     meta: 'Mississippi mud pie: a chocolate cookie crust filled with a dark, gooey, fudgy chocolate and pecan filling, topped with whipped cream and shavings.',
     kw: ['mississippi mud pie', 'chocolate mud pie', 'classic mississippi mud pie', 'mississippi mud pie recipe', 'how to make mississippi mud pie'],
@@ -100,7 +101,7 @@ module.exports = {
       'Melt the 115 g of butter and the chopped chocolate together in a saucepan over low heat, stirring, until smooth. Take off the heat and cool for 5 minutes.',
       'Whisk the eggs, caster sugar and vanilla into the chocolate mixture until smooth and glossy. Sift in the cocoa, flour and salt and stir until just combined, then fold in the pecans.',
       'Pour the filling into the crust and bake for 30 to 35 minutes, until the edges are set and the centre still wobbles slightly.',
-      'Cool completely, then chill for at least 3 hours, until set.',
+      'Cool for no more than 2 hours, then chill for at least 3 hours, until set.',
       'Whip the cream with the icing sugar to soft peaks. Spread over the pie and scatter with the chocolate shavings.'
     ],
     tips: [
@@ -180,6 +181,7 @@ module.exports = {
   },
 
   'clotted-cream': {
+    untimed: ['cooling to room temperature'],
     d: 'Double cream baked very slowly for twelve hours, then chilled, until it forms a thick, golden, nutty crust. The rich cream that goes on a Devon or Cornish cream tea.',
     meta: 'Clotted cream: double cream baked very slowly for twelve hours, then chilled, until it forms a thick, golden, nutty crust. The cream for a cream tea.',
     kw: ['clotted cream', 'homemade clotted cream', 'how to make clotted cream', 'clotted cream in the oven', 'devon clotted cream'],
@@ -193,7 +195,7 @@ module.exports = {
       'Heat the oven to its lowest setting, ideally 80°C / 175°F and no higher than 100°C / 212°F, using the conventional setting rather than fan.',
       'Pour the cream into a shallow ovenproof dish, about 20 x 25 cm, so that it is 3 to 4 cm deep. Do not cover it.',
       'Bake for 12 hours, until a thick golden crust has formed on the surface. It will look wrinkled and yellow, and the cream underneath will be thick.',
-      'Take the dish out of the oven, let it cool to room temperature, then cover and refrigerate for at least 8 hours, until the cream is completely cold and firm.',
+      'Take the dish out of the oven, let it cool for no more than 2 hours, then cover and refrigerate for at least 8 hours, until the cream is completely cold and firm.',
       'Use a spoon to lift the thick, golden clotted cream into a bowl, leaving the thin liquid behind. Stir gently to mix the crust with the cream beneath.',
       'Serve at room temperature on warm scones with strawberry jam.'
     ],

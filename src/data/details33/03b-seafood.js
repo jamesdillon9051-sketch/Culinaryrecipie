@@ -221,9 +221,9 @@ module.exports = {
   },
 
   'miso-cod': {
-    d: 'Cod coated in a thin paste of white miso, ginger and honey and grilled until browned and caramelised. Four servings in 22 minutes.',
-    meta: 'Miso cod: cod fillets coated in white miso, ginger and honey and grilled until caramelised. Dairy free. Four servings in 22 minutes.',
-    kw: ['miso cod', 'miso cod under 400 calories', 'dairy free miso glazed cod', 'easy miso cod', 'quick miso cod'],
+    d: 'Cod coated in a thin paste of white miso, ginger and honey and grilled until browned and caramelised. Four servings in 42 minutes.',
+    meta: 'Miso cod: cod fillets coated in white miso, ginger and honey and grilled until caramelised. Dairy free. Four servings in 42 minutes.',
+    kw: ['miso cod', 'miso cod under 400 calories', 'dairy free miso glazed cod', 'easy miso cod', 'grilled miso cod'],
     why: 'A dinner that looks like effort and takes 10 minutes of it. Cod is coated in a paste of white miso, ginger and a little honey, left for 20 minutes and grilled until the surface blisters and caramelises. No salt is needed. The miso does the seasoning.\n\nWhite miso is mild and slightly sweet, and it forms a savoury crust under the heat. **Keep the coating thin**, because a thick layer burns before the fish cooks. Pat the cod dry first so the paste clings. Grill about 15 cm from the heat. Watch it closely, since honey and miso brown fast. Cover the fish loosely with foil if the surface darkens before the middle is done.\n\nMiso contains soy and is salty. Serve with steamed greens and a small portion of rice, or with a cucumber salad. A squeeze of lime over the top is good too. Leftovers keep for 2 days.',
     ing: [
       '600 g cod fillets, in 4 portions',

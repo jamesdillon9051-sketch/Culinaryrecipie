@@ -16,7 +16,7 @@
 module.exports = {
   'pinwheel-cookies': {
     d: 'Swirled vanilla and chocolate icebox cookies rolled into a log, chilled until firm, sliced into rounds and baked for 12 minutes.',
-    meta: 'Pinwheel cookies with chocolate and vanilla swirls, chilled then baked for 12 minutes. 36 cookies, ready in 1 hour 55 minutes.',
+    meta: 'Pinwheel cookies with chocolate and vanilla swirls, chilled then baked for 12 minutes. 36 cookies, ready in 2 hours 12 minutes, chilling included.',
     kw: ['pinwheel cookies', 'chocolate vanilla pinwheel cookies', 'icebox pinwheel cookies', 'swirl sugar cookies', 'pinwheel cookie recipe'],
     why: 'Two doughs, one roll: that is all a pinwheel cookie is, and the pattern appears the moment you cut the log. The vanilla and chocolate doughs are made from the same base, divided in two, with cocoa worked into one half. The slice-and-bake method makes them ideal for making ahead, since the log keeps in the fridge for days and the oven is only needed when you want the cookies.\n\nThe doughs need to be the same consistency, or they will not roll together. The chocolate half contains cocoa, which dries it out, so add a spoonful of milk to loosen it. Chill both pieces for 20 minutes, until firm but not hard, then roll each out between baking paper to the same size, about 25 by 30 cm. Placing the chocolate on the vanilla and rolling them together from the long side creates the spiral.\n\n**Roll the log tightly and chill it for at least 1 hour.** A loose roll leaves air gaps in the pattern, and a warm one squashes when you slice it. Wrap in cling film, rolling it on the counter to even out the shape. A cold, firm log cuts cleanly into rounds about 8 mm thick.\n\nBake until the edges of the vanilla swirl are just turning golden. The cookies are crisp when cool, and look best with a dusting of sugar on the rim, which can be rolled on before slicing.',
     ing: [
@@ -44,11 +44,12 @@ module.exports = {
     ],
     pair: ['Hot tea', 'Cold milk', 'Coffee', 'Hot chocolate'],
     store: 'Keeps in an airtight tin for 1 week. The raw log freezes for 2 months.',
-    rest: [60, 'Chilling'],
+    rest: [80, 'Chilling'],
     nut: [114, 1, 14, 6, 1, 6, 40]
   },
 
   'pumpkin-bars': {
+    untimed: ['cooling completely'],
     d: 'Soft, spiced pumpkin bars with cinnamon and nutmeg, baked in a tray for 30 minutes and topped with cream cheese frosting.',
     meta: 'Pumpkin bars with warm spices and cream cheese frosting, baked for 30 minutes. 16 bars, ready in 1 hour.',
     kw: ['pumpkin bars', 'pumpkin bars with cream cheese frosting', 'spiced pumpkin sheet cake', 'pumpkin traybake', 'pumpkin bar recipe'],
@@ -89,6 +90,7 @@ module.exports = {
   },
 
   'pumpkin-bundt-cake': {
+    untimed: ['cooling completely'],
     d: 'A tall, moist pumpkin bundt cake with warm spices and a maple cream cheese glaze, baked for 55 minutes.',
     meta: 'Pumpkin bundt cake with warm spices and maple glaze, baked for 55 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['pumpkin bundt cake', 'spiced pumpkin bundt', 'pumpkin bundt cake with glaze', 'maple glazed pumpkin cake', 'pumpkin bundt recipe'],
@@ -169,7 +171,7 @@ module.exports = {
 
   'pumpkin-chocolate-chip-cookies': {
     d: 'Soft, cake-like pumpkin cookies loaded with chocolate chips and cinnamon, baked for 14 minutes.',
-    meta: 'Pumpkin chocolate chip cookies, soft and cake-like, baked for 14 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Pumpkin chocolate chip cookies, soft and cake-like, baked for 14 minutes. 24 cookies, ready in 59 minutes.',
     kw: ['pumpkin chocolate chip cookies', 'soft pumpkin chocolate chip cookies', 'cake like pumpkin cookies', 'pumpkin cookies with chocolate', 'pumpkin chip cookie recipe'],
     why: 'Pumpkin cookies are soft and cake-like by nature, since the puree contributes so much moisture, and this is both their charm and their challenge. A dough that is too wet spreads into a flat, floppy cookie that never quite sets. The trick is to blot the puree on kitchen paper to remove some of the water, and to use a bit more flour than you would for a standard chocolate chip dough.\n\nThe flavour comes from cinnamon, nutmeg and ginger, plus chocolate chips for contrast. Dark chocolate chips work best, because the bittersweet note balances the sweetness of the dough and the earthiness of the pumpkin. Milk chocolate makes the cookies very sweet, and white chocolate tastes odd with the spices.\n\n**Chill the dough for at least 30 minutes.** Pumpkin dough is sticky and soft, and chilling firms the butter so the cookies keep their domed shape in the oven. Without it they will spread flat. Drop rounded tablespoons onto a lined tray, 5 cm apart, and bake at 180C.\n\nThey are done when the edges are set and the tops spring back lightly, about 14 minutes. Resist the urge to leave them longer: they will be soft when they come out, and dry out as they cool. Store them in a single layer, since stacking makes the tops sticky.',
     ing: [
@@ -206,7 +208,7 @@ module.exports = {
 
   'pumpkin-cookies': {
     d: 'Soft spiced pumpkin cookies with a thin maple glaze, baked for 14 minutes at 180C.',
-    meta: 'Pumpkin cookies with warm spices and a maple glaze, baked for 14 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Pumpkin cookies with warm spices and a maple glaze, baked for 14 minutes. 24 cookies, ready in 49 minutes.',
     kw: ['pumpkin cookies', 'glazed pumpkin cookies', 'soft pumpkin spice cookies', 'maple glazed pumpkin cookies', 'pumpkin cookie recipe'],
     why: 'Spice, not chocolate, is the point of this one. Where a pumpkin chocolate chip cookie is a sweet treat, a plain pumpkin cookie is closer to a piece of spiced cake, soft and fragrant, with a thin sugar glaze that sets into a crisp shell on top. It is the recipe to make when you want to taste pumpkin and nothing else.\n\nThe dough is wetter than most cookie doughs, and it relies on a long list of warm spices: cinnamon, ginger, nutmeg, allspice and cloves. Use fresh ground ones if you can; spices lose their potency within a year. A teaspoon of vanilla and a pinch of salt round out the flavour. Blot the pumpkin puree with kitchen paper before measuring.\n\n**Bake on parchment, not directly on a greased tray.** The wet dough sticks and spreads on grease, and slides into thin, over-browned cookies. Parchment grips the dough and gives a rounder, thicker shape, and the cookies lift off cleanly when cool.\n\nThe glaze is icing sugar, maple syrup and a splash of milk, whisked until it falls from the whisk in a thick ribbon. Drizzle or dip the cooled cookies. Let it set for 20 minutes before stacking, or the glaze will stick the cookies together.',
     ing: [
@@ -245,6 +247,7 @@ module.exports = {
   },
 
   'pumpkin-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Spiced pumpkin cupcakes topped with a swirl of cream cheese frosting and a dusting of cinnamon, baked for 22 minutes.',
     meta: 'Pumpkin cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['pumpkin cupcakes', 'pumpkin cupcakes with cream cheese frosting', 'spiced pumpkin cupcakes', 'moist pumpkin cupcakes', 'pumpkin cupcake recipe'],
@@ -285,6 +288,7 @@ module.exports = {
   },
 
   'raspberry-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies with whole raspberries pressed into the top and swirled with raspberry jam, baked for 28 minutes.',
     meta: 'Raspberry brownies, fudgy with tart raspberries, baked for 28 minutes. 16 squares, ready in 45 minutes.',
     kw: ['raspberry brownies', 'fudgy raspberry brownies', 'brownies with fresh raspberries', 'chocolate raspberry brownies', 'raspberry brownie recipe'],
@@ -354,7 +358,7 @@ module.exports = {
 
   'red-velvet-cookies': {
     d: 'Soft red velvet cookies with cocoa, white chocolate chips and a cream cheese tang, baked for 11 minutes.',
-    meta: 'Red velvet cookies with white chocolate chips, soft and chewy, baked for 11 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Red velvet cookies with white chocolate chips, soft and chewy, baked for 11 minutes. 24 cookies, ready in 56 minutes.',
     kw: ['red velvet cookies', 'red velvet white chocolate chip cookies', 'soft red velvet cookies', 'red velvet cookie recipe', 'cocoa red velvet cookies'],
     why: 'What exactly is red velvet? A mild chocolate flavour with a trace of tang, a soft crumb and a vivid red colour. The original colour in the nineteenth century came from a chemical reaction between the acid in buttermilk and vinegar and the anthocyanins in cocoa, though the modern version relies on food colouring for its dramatic shade.\n\nIn a cookie, the effect is best achieved with a dough that contains a small amount of cocoa, a teaspoon of vinegar for the tang, and plenty of gel food colouring. Gel colours are far more concentrated than liquid ones, and a single teaspoon will turn the whole dough a deep, rich red without affecting the texture. Liquid colouring waters down the dough and gives a pale pink.\n\n**Use cake flour or add cornflour.** The tenderness of a red velvet crumb depends on low-protein flour. If you only have plain flour, replace two tablespoons of each cup with cornflour, which brings the protein down and gives a softer cookie. Mix the dough only until combined.\n\nFold in white chocolate chips and chill the dough for 30 minutes so the cookies bake thick and soft. Bake until the edges are set and the centres are still puffy. A dusting of icing sugar on the cooled cookies makes them look like a snow-dusted Christmas gift.',
     ing: [
@@ -389,6 +393,7 @@ module.exports = {
   },
 
   'maple-walnut-cookies': {
+    untimed: ['cooling completely'],
     d: 'Soft brown sugar cookies flavoured with pure maple syrup and studded with toasted walnuts, baked for 12 minutes.',
     meta: 'Maple walnut cookies with maple syrup and toasted walnuts, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
     kw: ['maple walnut cookies', 'maple cookies with walnuts', 'maple syrup cookies', 'soft maple walnut cookies', 'maple walnut cookie recipe'],
@@ -426,7 +431,7 @@ module.exports = {
 
   'salted-caramel-cookies': {
     d: 'Chewy brown sugar cookies filled with soft caramel pieces and finished with flaky sea salt, baked for 12 minutes.',
-    meta: 'Salted caramel cookies with soft caramel pieces and flaky salt, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Salted caramel cookies with soft caramel pieces and flaky salt, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['salted caramel cookies', 'caramel stuffed cookies', 'chewy salted caramel cookies', 'caramel cookies with sea salt', 'salted caramel cookie recipe'],
     why: 'Two kinds of salt, one at each end of the process. A pinch goes into the dough, where it amplifies the flavour of the brown sugar and butter, and a scatter of flaky sea salt goes on top, where it gives a crunch and a sharp, clean contrast to the sweet caramel. Without both, a caramel cookie is just a sweet one.\n\nThe caramel is the main event, and the surprise is that it should be firm. Soft caramel sweets, cut into small pieces and pressed into the dough balls, melt in the oven into pockets of molten caramel, while a liquid caramel sauce would leak out and burn on the tray. Choose chewy caramels without a chocolate coating, and chop them into pieces about the size of a pea.\n\n**Wrap the dough around each piece of caramel.** Take a tablespoon of dough, press a few caramel pieces into the middle, and seal the dough over them. If any caramel sticks out, it will burn on the tray. A little extra dough on top of the caramel seals it in properly.\n\nBake until the edges are golden and the tops are set. The centres may look slightly puffy. As they cool, the caramel sets again into a chewy centre. Eat them warm for a molten pull, or cold for a firm bite.',
     ing: [
@@ -500,7 +505,7 @@ module.exports = {
 
   'shortbread-cookies': {
     d: 'Classic Scottish shortbread rounds made with butter, sugar and flour, cut with a cutter and baked for 15 minutes at 160C.',
-    meta: 'Shortbread cookies, buttery rounds from three ingredients, baked for 15 minutes. 24 cookies, ready in 45 minutes.',
+    meta: 'Shortbread cookies, buttery rounds from three ingredients, baked for 15 minutes. 24 cookies, ready in 1 hour.',
     kw: ['shortbread cookies', 'classic scottish shortbread', 'butter shortbread rounds', 'cut out shortbread cookies', 'traditional shortbread recipe'],
     why: 'Three ingredients and plenty of butter is all that shortbread has ever needed. The name describes the texture: short, in baking terms, means crumbly and tender, because fat has interfered with the gluten strands in the flour. The more butter and the less liquid, the shorter the biscuit, and shortbread has no liquid at all.\n\nA traditional proportion is one part sugar to two parts butter to three parts flour by weight, and it is very simple to remember. Use a high quality butter, because it makes up over a third of the biscuit and is the main flavour. Cornflour or rice flour, replacing a quarter of the plain flour, adds a sandy fineness. Use caster sugar, which dissolves in the butter and gives a smooth surface.\n\n**Do not overwork the dough.** Rub the butter into the dry ingredients and press it together into a ball. Kneading develops gluten and makes the shortbread tough and chewy, the opposite of the delicate, crumbling bite that is intended. Roll it out between baking paper to 1 cm thick and chill for 30 minutes.\n\nCut rounds with a 6 cm cutter, prick with a fork, and bake at 160C until just pale. Shortbread should not brown, only turn pale gold at the edges. Sprinkle with caster sugar while hot, and cool on the tray for 10 minutes.',
     ing: [
@@ -567,7 +572,7 @@ module.exports = {
 
   'sour-cream-pound-cake': {
     d: 'A dense, buttery pound cake with a tender crumb from soured cream, baked in a tube pan for 1 hour 10 minutes.',
-    meta: 'Sour cream pound cake with a tender crumb and golden crust, baked for 70 minutes. 14 servings, ready in 1 hour 40 minutes.',
+    meta: 'Sour cream pound cake with a tender crumb and golden crust, baked for 70 minutes. 14 servings, ready in 1 hour 45 minutes.',
     kw: ['sour cream pound cake', 'soured cream pound cake', 'old fashioned sour cream cake', 'buttery pound cake', 'sour cream pound cake recipe'],
     why: 'The first sign it is ready is the smell: butter, vanilla and a faint tang like a warm custard tart, drifting out of the oven. A pound cake gets its name from the old formula of a pound each of butter, sugar, flour and eggs, and the version with soured cream is a modern refinement that gives a softer, moister crumb and a hint of tartness.\n\nEverything should be at room temperature, including the eggs and the soured cream. Cold ingredients curdle the butter and sugar creaming, and give a coarse, heavy cake. Take them out an hour before you start. Cream the butter and sugar for 5 minutes, which is longer than it feels like it should be, until the mixture is nearly white and doubled in volume.\n\n**Add the eggs one at a time, and beat for a full 30 seconds after each.** This builds the emulsion that holds the air in the batter. Rush it, and the mixture looks curdled and the finished cake is dense and greasy. Then fold in the flour alternately with the soured cream in three additions, and stop as soon as it is combined.\n\nBake at 160C in a tube pan, so the heat reaches the middle. The cake is done when the crust is deep golden, cracked along the top and a skewer comes out clean. Cool in the tin for 15 minutes and turn out.',
     ing: [
@@ -599,7 +604,7 @@ module.exports = {
 
   'strawberry-bread': {
     d: 'A moist quick bread with chunks of fresh strawberry, cinnamon and a hint of vanilla, baked for 55 minutes.',
-    meta: 'Strawberry bread with fresh strawberries and cinnamon, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
+    meta: 'Strawberry bread with fresh strawberries and cinnamon, baked for 55 minutes. Ten servings, ready in 1 hour 30 minutes.',
     kw: ['strawberry bread', 'fresh strawberry bread', 'strawberry quick bread', 'strawberry loaf', 'strawberry bread recipe'],
     why: 'Strawberry bread is a fruit bread from a baking tradition that stretches across the American South, and it is made when strawberries are cheap and plentiful. The loaf is moist, pink-flecked and fragrant with cinnamon, and sits somewhere between a tea bread and a cake.\n\nThe problem with strawberries in baking is their water content. A strawberry is about 90 per cent water, and in a batter that water leaches out and makes the crumb damp and heavy. Cut the berries into small pieces, about 1 cm, so the juice spreads out through the loaf, and toss them in a spoonful of flour and sugar to absorb surface moisture. Frozen strawberries release even more water, so drain them thoroughly.\n\n**Reduce half of the berries into a puree.** Cook 150 g of chopped strawberries in a small pan for 8 minutes until thick, then cool. Stir this into the batter for concentrated strawberry flavour and pink colour. The remaining berries give soft pieces of fruit in the crumb.\n\nBake until a skewer comes out clean and the top is golden, and cool in the tin for 20 minutes. The loaf is fragile when warm and tends to tear when lifted out. Eat it plain or toasted, with butter or cream cheese.',
     ing: [
@@ -633,6 +638,7 @@ module.exports = {
   },
 
   'strawberry-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes with pureed strawberry in the batter and a fresh strawberry buttercream, baked for 22 minutes.',
     meta: 'Strawberry cupcakes with real strawberry buttercream, baked for 22 minutes. Twelve servings, ready in 1 hour.',
     kw: ['strawberry cupcakes', 'fresh strawberry cupcakes', 'strawberry cupcakes with strawberry buttercream', 'real strawberry cupcakes', 'strawberry cupcake recipe'],
@@ -670,7 +676,7 @@ module.exports = {
 
   'strawberry-rhubarb-crisp': {
     d: 'Fresh strawberries and rhubarb baked under an oat and brown sugar crumble until bubbling, with a tart edge to the filling.',
-    meta: 'Strawberry rhubarb crisp with an oat crumble, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes.',
+    meta: 'Strawberry rhubarb crisp with an oat crumble, baked for 45 minutes. Eight servings, ready in 1 hour 35 minutes.',
     kw: ['strawberry rhubarb crisp', 'strawberry rhubarb crumble', 'rhubarb and strawberry dessert', 'rhubarb crisp with oats', 'strawberry rhubarb recipe'],
     why: 'What makes rhubarb and strawberry such a good pair? Rhubarb is sharp and sour, and needs a lot of sugar to be edible, while strawberries are sweet and perfumed but a little one-note. Together they balance, and the sharpness of the vegetable lets the fruit taste more intensely of itself. The pairing has been a spring staple for as long as both have grown in the same gardens.\n\nChoose slender, firm rhubarb stalks, ideally red, and trim off the leaves, which are poisonous. Cut the stalks into 2 cm pieces. Thick ones can be woody and need to be peeled at the base. Toss the rhubarb with sugar and let it stand for 15 minutes before mixing in the strawberries and cornflour, which draws out some juice and tempers its tartness.\n\n**Add the cornflour to the fruit.** Rhubarb and strawberries both release a lot of juice, and without a thickener the crisp is soupy. A tablespoon of cornflour turns the juices into a glossy syrup when they come to the boil. Look for bubbles near the centre of the dish as the sign that it has activated.\n\nThe topping of oats, flour, brown sugar and cold butter, squeezed into clumps, bakes into a crisp, golden shell. Cool for 15 minutes before serving, and serve warm with custard or vanilla ice cream.',
     ing: [
@@ -738,6 +744,7 @@ module.exports = {
   },
 
   'white-cake': {
+    untimed: ['cooling completely'],
     d: 'A tender, snow-white two-layer cake made with egg whites and buttermilk, covered in vanilla buttercream, baked for 30 minutes.',
     meta: 'White cake with a fine, tender crumb and vanilla buttercream, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['white cake', 'classic white cake', 'white cake with buttercream', 'tender white cake from scratch', 'wedding style white cake'],
@@ -774,6 +781,7 @@ module.exports = {
   },
 
   'yellow-cake': {
+    untimed: ['cooling completely'],
     d: 'A rich, buttery yellow cake made with whole eggs and vanilla, baked in two layers for 30 minutes and covered in chocolate frosting.',
     meta: 'Yellow cake with chocolate frosting, buttery and tender, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['yellow cake', 'classic yellow cake', 'yellow cake with chocolate frosting', 'homemade yellow birthday cake', 'buttery yellow cake'],
@@ -810,6 +818,7 @@ module.exports = {
   },
 
   'zucchini-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies with grated zucchini for moisture, baked for 28 minutes and topped with chocolate chips.',
     meta: 'Zucchini brownies, fudgy and moist with grated courgette, baked for 28 minutes. 16 squares, ready in 45 minutes.',
     kw: ['zucchini brownies', 'courgette brownies', 'fudgy zucchini brownies', 'chocolate zucchini brownie recipe', 'brownies with hidden vegetables'],
@@ -845,7 +854,7 @@ module.exports = {
 
   'zucchini-cookies': {
     d: 'Soft, cake-like zucchini cookies with cinnamon, walnuts and a hint of lemon, baked for 12 minutes.',
-    meta: 'Zucchini cookies, soft and spiced with walnuts and lemon, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Zucchini cookies, soft and spiced with walnuts and lemon, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['zucchini cookies', 'courgette cookies', 'soft zucchini walnut cookies', 'zucchini cookie recipe', 'cinnamon zucchini cookies'],
     why: 'Cookies made from courgettes are a long-standing answer to the glut of late summer, when every garden produces more than a household can eat. Grated courgette keeps the cookies soft and tender, and the mild flavour takes on the cinnamon, nutmeg and lemon with ease. They taste a bit like a small carrot cake.\n\nThe key, as with any baked courgette, is to remove the water. Grate the courgette on the fine side of the grater, wrap the shreds in a clean tea towel and twist hard over the sink until no more liquid drips out. A damp dough spreads into thin, greasy discs, while a dry one rises into thick, tender cookies.\n\n**Chill the dough for 30 minutes.** Zucchini dough is soft and sticky, and without chilling it spreads. A rested dough holds its shape and bakes into rounds with a cakey texture and a slightly domed top. Use a spoon or a small scoop to portion it onto the tray.\n\nThe lemon glaze, a simple mix of icing sugar and lemon juice, adds a bright finish that offsets the warm spices. Walnuts add crunch, though pecans work equally well. The cookies are best on the day they are made, and they soften further as they stand, so store them with a sheet of paper between layers.',
     ing: [

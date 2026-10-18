@@ -47,6 +47,8 @@ module.exports = {
   },
 
   'pasta-e-fagioli': {
+    cookMax: 95,
+    untimed: ['the pasta, for the time on its packet'],
     rest: [480, 'soaking'],
     d: 'Pasta and beans, cooked together so the pasta starch thickens the broth into something between a soup and a stew. Cucina povera at its best, and the rosemary and Parmesan rind are doing most of the work.',
     meta: 'Pasta e fagioli — pasta and borlotti beans cooked together into a thick soup with rosemary and Parmesan rind.',
@@ -72,12 +74,12 @@ module.exports = {
     ],
     st: [
       'Drain the soaked beans, cover with fresh water, and simmer 60 to 75 minutes until tender. Keep them in their liquid.',
-      'In a large pot, fry the pancetta (if using) in the olive oil for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
+      'While the beans simmer, fry the pancetta (if using) in the olive oil in a large pot for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
       'Add the garlic for 1 minute, then the tomato purée and cook 2 minutes.',
-      'Add the beans with their liquid, the Parmesan rind, rosemary, bay and enough water to make 1.5 litres in total.',
+      'Add the beans with their cooking liquid, the Parmesan rind, rosemary and bay, then enough of the water or stock to bring the liquid up to 1.5 litres.',
       'Simmer 20 minutes, then lift out a ladleful of beans, blend them smooth, and stir the purée back in.',
       'Add the salt, bring to a steady simmer, and tip in the pasta.',
-      'Cook until the pasta is just done, stirring often — the soup thickens fast and will catch if left alone.',
+      'Cook the pasta in the soup for the time on its packet, stirring often, since the soup thickens fast and will catch if left alone. Start tasting 2 minutes before the packet time: it is ready when tender with a slight bite at the centre.',
       'Fish out the rind, rosemary stalks and bay. Rest 10 minutes off the heat so it thickens properly.',
       'Serve with a heavy slick of olive oil, plenty of black pepper and grated Parmesan.'
     ],
@@ -111,7 +113,7 @@ module.exports = {
       '200 g tuna in olive oil, drained',
       '5 anchovy fillets',
       '3 tbsp capers, plus more to garnish',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '200 ml mild olive oil',
       '3 tbsp lemon juice',
       '4 tbsp of the poaching broth',
@@ -120,7 +122,7 @@ module.exports = {
     st: [
       'Put the veal in a pot just large enough to hold it with the onion, carrot, celery, bay, peppercorns, wine and salt. Cover with cold water.',
       'Bring slowly to a bare simmer and poach 50 minutes, never letting it boil.',
-      'Turn off the heat and leave the veal to cool completely in its broth, then refrigerate it in the liquid overnight.',
+      'Turn off the heat and let the veal cool in its broth, refrigerating it within 2 hours. Chill it in the liquid overnight.',
       'For the sauce, blend the tuna, anchovies, capers, egg yolks and lemon juice until smooth.',
       'With the motor running, pour in the olive oil in a thin stream until the sauce is thick and glossy, like a loose mayonnaise.',
       'Loosen with the poaching broth until it just falls from a spoon, and season with pepper. It should need no salt.',
@@ -182,6 +184,7 @@ module.exports = {
   },
 
   'gnocchi-alla-sorrentina': {
+    cookMax: 83,
     d: 'Potato gnocchi baked under tomato sauce and mozzarella until the top blisters and the cheese pulls. From the Sorrentine peninsula, and best made in individual dishes so everyone gets a crust.',
     meta: 'Gnocchi alla Sorrentina — potato gnocchi baked in tomato sauce under mozzarella until blistered and molten.',
     kw: ['gnocchi alla sorrentina recipe', 'baked gnocchi', 'gnocchi tomato mozzarella', 'italian baked pasta'],
@@ -260,6 +263,7 @@ module.exports = {
   },
 
   'caponata': {
+    untimed: ['cooling to room temperature'],
     rest: [120, 'resting'],
     d: 'Sicilian sweet-and-sour aubergine with celery, olives and capers, finished with vinegar and sugar. Served at room temperature, and better on the second day than the first.',
     meta: 'Sicilian caponata — sweet-and-sour aubergine with celery, olives and capers. Served at room temperature.',
@@ -302,6 +306,7 @@ module.exports = {
   },
 
   'zeppole': {
+    untimed: ['cooling completely'],
     d: 'Choux buns fried rather than baked, split and filled with pastry cream, and topped with an amarena cherry. Made for Saint Joseph\'s Day in March and eaten with no reference to the calendar at all.',
     meta: 'Zeppole di San Giuseppe — fried choux buns filled with pastry cream and topped with an amarena cherry.',
     kw: ['zeppole recipe', 'zeppole di san giuseppe', 'italian fried pastry', 'choux pastry fried'],
@@ -348,7 +353,7 @@ module.exports = {
   },
 
   'panettone': {
-    rest: [1200, 'proving'],
+    rest: [1320, 'proving'],
     d: 'The Milanese Christmas bread: a sweet, heavily enriched dough proved three times over two days, studded with candied peel and raisins, and hung upside down to cool so it does not collapse under its own weight.',
     meta: 'Panettone — the Milanese Christmas bread, proved over two days and cooled upside down to keep its height.',
     kw: ['panettone recipe', 'italian christmas bread', 'panettone from scratch', 'enriched sweet bread'],
