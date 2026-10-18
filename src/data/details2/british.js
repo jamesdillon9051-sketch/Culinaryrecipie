@@ -48,6 +48,7 @@ module.exports = {
   },
 
   'cottage-pie': {
+    cookMax: 105,
     d: 'Minced beef in a rich gravy under a mash topping forked into ridges and browned. Cottage pie is beef; shepherd\'s pie is lamb, and the distinction is worth defending.',
     meta: 'Classic cottage pie — minced beef in rich gravy under forked, browned mashed potato. British comfort cooking.',
     kw: ['cottage pie recipe', 'minced beef pie', 'shepherds pie beef', 'british comfort food'],

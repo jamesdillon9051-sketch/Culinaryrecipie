@@ -47,6 +47,7 @@ module.exports = {
   },
 
   'pasta-e-fagioli': {
+    cookMax: 95,
     rest: [480, 'soaking'],
     d: 'Pasta and beans, cooked together so the pasta starch thickens the broth into something between a soup and a stew. Cucina povera at its best, and the rosemary and Parmesan rind are doing most of the work.',
     meta: 'Pasta e fagioli — pasta and borlotti beans cooked together into a thick soup with rosemary and Parmesan rind.',
@@ -120,7 +121,7 @@ module.exports = {
     st: [
       'Put the veal in a pot just large enough to hold it with the onion, carrot, celery, bay, peppercorns, wine and salt. Cover with cold water.',
       'Bring slowly to a bare simmer and poach 50 minutes, never letting it boil.',
-      'Turn off the heat and leave the veal to cool completely in its broth, then refrigerate it in the liquid overnight.',
+      'Turn off the heat and let the veal cool in its broth, refrigerating it within 2 hours. Chill it in the liquid overnight.',
       'For the sauce, blend the tuna, anchovies, capers, egg yolks and lemon juice until smooth.',
       'With the motor running, pour in the olive oil in a thin stream until the sauce is thick and glossy, like a loose mayonnaise.',
       'Loosen with the poaching broth until it just falls from a spoon, and season with pepper. It should need no salt.',
@@ -182,6 +183,7 @@ module.exports = {
   },
 
   'gnocchi-alla-sorrentina': {
+    cookMax: 83,
     d: 'Potato gnocchi baked under tomato sauce and mozzarella until the top blisters and the cheese pulls. From the Sorrentine peninsula, and best made in individual dishes so everyone gets a crust.',
     meta: 'Gnocchi alla Sorrentina — potato gnocchi baked in tomato sauce under mozzarella until blistered and molten.',
     kw: ['gnocchi alla sorrentina recipe', 'baked gnocchi', 'gnocchi tomato mozzarella', 'italian baked pasta'],

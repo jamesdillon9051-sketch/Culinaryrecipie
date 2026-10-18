@@ -528,9 +528,8 @@ module.exports = {
       '# For the shells',
       '150 g ground almonds',
       '150 g icing sugar',
-      '110 g egg whites, aged at room temperature 24 hours, divided',
+      '110 g egg whites, divided',
       '150 g caster sugar',
-      '50 ml water',
       '0.25 tsp cream of tartar',
       '1 pinch fine sea salt',
       '# For the filling',
@@ -546,16 +545,18 @@ module.exports = {
       'Stop when the batter falls from the spatula in a thick, unbroken ribbon and a figure of eight holds for about 10 seconds before melting back. Usually 35 to 50 strokes.',
       'Pipe 3.5 cm rounds onto lined trays, holding the bag vertically. Rap each tray hard on the counter three times to release trapped air, and pop any surface bubbles with a toothpick.',
       'Rest at room temperature for 30 to 60 minutes, until the surface is matte and does not stick to a light touch.',
+      'While the shells rest, make the ganache: warm the cream, pour it over the chocolate, stir smooth, beat in the butter, and chill until thick enough to pipe.',
       'Bake at 150°C / 300°F for 14 to 16 minutes, rotating halfway. A finished shell should not wobble on its foot when nudged.',
-      'Cool completely on the tray. Warm the cream, pour over the chocolate, stir smooth, beat in the butter, and chill to a pipeable ganache. Sandwich the shells and mature in the fridge for 24 hours before serving.'
+      'Cool the shells completely on the tray. Pipe ganache onto half of them, sandwich with the rest, and mature in an airtight box in the fridge for 24 hours before serving.'
     ],
     tips: [
-      'Age your egg whites: leave them covered at room temperature for a day so some water evaporates and the protein concentrates.',
+      'If you separate the eggs ahead, keep the whites covered in the fridge and use them within 2 days. Take them out no more than 2 hours before whisking: room-temperature whites whip more readily, but raw egg should not sit out longer than that.',
       'Weigh everything to the gram. Macarons are the least forgiving recipe on this site.',
-      'The 24-hour maturation is not optional — it lets moisture migrate from the filling into the shell, creating the chewy interior.'
+      'The 24 hours in the fridge is part of the recipe, and the total time includes it: moisture moves from the filling into the shells and the centres turn chewy. Eaten the same day, they are edible but crisper and drier.'
     ],
     pair: ['Champagne or a pot of Earl Grey', 'Serve as petits fours after dinner', 'Pair flavours with the season: raspberry in summer, chestnut in autumn'],
     store: 'Refrigerate in an airtight box for 5 days, bringing to room temperature 20 minutes before eating. Freeze filled macarons for 3 months.',
+    rest: [1470, 'resting and maturing'],
     nut: [148, 3, 17, 8, 1, 15, 20]
   },
 

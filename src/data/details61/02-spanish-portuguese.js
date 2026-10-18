@@ -381,7 +381,7 @@ module.exports = {
   },
 
   'porra-antequerana': {
-    d: 'A thick, cold Andalusian tomato and bread soup finished with diced ham and tuna, made in 20 minutes with no cooking.',
+    d: 'A thick, cold Andalusian tomato and bread soup finished with diced ham and tuna: 20 minutes of work and no cooking, then 2 hours in the fridge.',
     meta: 'Porra antequerana, thick cold Andalusian tomato and bread soup with ham and tuna, ready in 20 minutes plus chilling. Six servings, no cooking.',
     kw: ['porra antequerana', 'thick andalusian tomato soup', 'cold tomato and bread soup with ham', 'antequera porra', 'porra recipe'],
     why: 'It is a close relative of salmorejo, thicker and denser, and in Antequera it is served as a first course, as a dip with bread, and as a snack in bars. The name porra refers to the thick consistency, which is such that a spoon almost stands up in it. The difference is the toppings: ham and tuna in this one.\n\nBlend ripe tomatoes with garlic, stale crustless bread, olive oil, sherry vinegar and salt until perfectly smooth. **Add the bread in stages**, tasting the texture each time, because the right thickness depends on how wet the tomatoes are. It should be as thick as a mayonnaise. Taste, and add more salt or vinegar as needed, remembering that chilling mutes the flavour.\n\nPour into a bowl and chill for at least 2 hours. Serve in small bowls or on a plate, topped with diced serrano ham, flaked tuna and a drizzle of oil. In Antequera, hard boiled egg is also traditional, but you can leave it out. Use the best tomatoes you can find, since they are the whole dish. Serve with crusty bread.',

@@ -270,6 +270,9 @@ function loadRecipes() {
     }
     /* Unattended waiting — proving, chilling, marinating. Optional, because most
        recipes have none, but half-filled is always a mistake. */
+    if (detail.cookMax !== undefined && !(Number.isInteger(detail.cookMax) && detail.cookMax >= row.cook)) {
+      throw new Error(`"${row.slug}" cookMax must be a whole number of minutes, at least the row's cook time`);
+    }
     if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
       throw new Error(`"${row.slug}" rest must be [minutes, label]`);
     }
@@ -333,7 +336,11 @@ function loadRecipes() {
          focaccia that rises overnight is not a 50-minute recipe, however
          little of that time needs the cook. */
       elapsedTime: row.prep + row.cook + wait.min,
-      elapsedMax: row.prep + row.cook + wait.max,
+      /* Where the method gives a range for the cooking itself ("simmer 2.5 to 3
+         hours"), `cookMax` in the record carries the top of it; the row's cook
+         time is the floor, which is what cookTime in the schema says. */
+      cookMax: detail.cookMax || row.cook,
+      elapsedMax: row.prep + (detail.cookMax || row.cook) + wait.max,
       description: detail.d,
       meta: clamp(detail.meta, 158),
       keywords: detail.kw,
@@ -519,7 +526,7 @@ function searchIndex(recipes) {
        sort used hands-on minutes, so an overnight focaccia sat among the
        thirty-minute dinners. */
     m: r.elapsedTime,
-    x: r.restTime ? r.elapsedMax : undefined,
+    x: r.elapsedMax > r.elapsedTime ? r.elapsedMax : undefined,
     p: r.prep,
     o: r.cook,
     v: r.servings,

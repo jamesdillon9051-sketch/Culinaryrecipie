@@ -69,7 +69,7 @@ module.exports = [
   c('sesame-chicken', 'Sesame Chicken', 'Chinese', 'Dinner', 'Medium', 25, 20, 4, 4.7, 2544, ['Dairy-Free'], [], 'Sesame chicken'),
   c('hong-shao-rou', 'Red-Braised Pork Belly', 'Chinese', 'Dinner', 'Easy', 15, 90, 6, 4.8, 1877, ['Dairy-Free'], [], 'Hong shao rou braised pork'),
   c('twice-cooked-pork', 'Twice-Cooked Pork', 'Chinese', 'Dinner', 'Medium', 20, 25, 4, 4.7, 1244, ['Dairy-Free'], [], 'Twice cooked pork'),
-  c('xiao-long-bao', 'Xiao Long Bao', 'Chinese', 'Appetizers', 'Hard', 90, 15, 6, 4.8, 2133, ['Dairy-Free'], ['editors'], 'Xiao long bao soup dumplings'),
+  c('xiao-long-bao', 'Xiao Long Bao', 'Chinese', 'Appetizers', 'Hard', 90, 163, 6, 4.8, 2133, ['Dairy-Free'], ['editors'], 'Xiao long bao soup dumplings'),
   c('char-siu-bao', 'Char Siu Bao', 'Chinese', 'Appetizers', 'Medium', 60, 20, 8, 4.7, 1622, [], [], 'Char siu bao'),
   c('lo-mein', 'Chicken Lo Mein', 'Chinese', 'Quick Meals', 'Easy', 15, 12, 4, 4.7, 2411, ['Dairy-Free'], [], 'Lo mein noodles'),
   c('singapore-noodles', 'Singapore Noodles', 'Chinese', 'Dinner', 'Easy', 20, 12, 4, 4.7, 1755, ['Dairy-Free'], [], 'Singapore noodles'),
@@ -103,14 +103,14 @@ module.exports = [
   c('queso-fundido', 'Queso Fundido', 'Mexican', 'Appetizers', 'Easy', 10, 15, 6, 4.7, 1622, ['Gluten-Free'], [], 'Melted cheese skillet chorizo tortillas'),
   c('sopes', 'Sopes', 'Mexican', 'Appetizers', 'Medium', 30, 20, 8, 4.6, 966, ['Vegetarian'], [], 'Sopes mexican'),
   c('mexican-rice', 'Mexican Red Rice', 'Mexican', 'Dinner', 'Easy', 10, 25, 6, 4.7, 2133, ['Gluten-Free', 'Dairy-Free'], [], 'Arroz rojo mexicano plate'),
-  c('refried-beans', 'Refried Beans', 'Mexican', 'Dinner', 'Easy', 10, 25, 6, 4.7, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Refried beans'),
+  c('refried-beans', 'Refried Beans', 'Mexican', 'Dinner', 'Easy', 10, 109, 6, 4.7, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Refried beans'),
   c('flan-napolitano', 'Flan Napolitano', 'Mexican', 'Desserts', 'Medium', 20, 60, 8, 4.8, 2544, ['Vegetarian', 'Gluten-Free'], [], 'Flan caramel custard'),
   c('tres-leches-cake', 'Tres Leches Cake', 'Mexican', 'Desserts', 'Easy', 25, 35, 12, 4.9, 3411, ['Vegetarian'], ['trending'], 'Tres leches cake'),
   c('michelada', 'Michelada', 'Mexican', 'Drinks', 'Easy', 5, 0, 1, 4.6, 1244, ['Dairy-Free'], [], 'Michelada'),
 
   /* --------------------------------------------------------- American (30) */
   c('chicken-pot-pie', 'Chicken Pot Pie', 'American', 'Dinner', 'Medium', 30, 45, 6, 4.8, 3244, [], ['editors'], 'Chicken pot pie pastry crust'),
-  c('beef-stew', 'Hearty Beef Stew', 'American', 'Dinner', 'Easy', 25, 150, 6, 4.8, 3866, ['Dairy-Free'], [], 'Beef stew'),
+  c('beef-stew', 'Hearty Beef Stew', 'American', 'Dinner', 'Easy', 25, 210, 6, 4.8, 3866, ['Dairy-Free'], [], 'Beef stew'),
   c('jambalaya', 'Louisiana Jambalaya', 'American', 'Dinner', 'Easy', 20, 45, 6, 4.8, 2411, ['Gluten-Free', 'Dairy-Free'], [], 'Jambalaya'),
   c('gumbo', 'Chicken and Sausage Gumbo', 'American', 'Dinner', 'Medium', 25, 90, 8, 4.8, 2133, ['Dairy-Free'], ['editors'], 'Gumbo'),
   c('shrimp-and-grits', 'Shrimp and Grits', 'American', 'Dinner', 'Easy', 15, 25, 4, 4.8, 2277, ['Gluten-Free'], [], 'Shrimp and grits'),
@@ -125,7 +125,7 @@ module.exports = [
   c('mozzarella-sticks', 'Mozzarella Sticks', 'American', 'Appetizers', 'Easy', 25, 10, 6, 4.7, 2133, ['Vegetarian'], [], 'Mozzarella sticks'),
   c('creamy-coleslaw', 'Creamy Coleslaw', 'American', 'Healthy', 'Easy', 15, 0, 8, 4.6, 1755, ['Vegetarian', 'Gluten-Free'], [], 'Coleslaw'),
   c('classic-potato-salad', 'Classic Potato Salad', 'American', 'Lunch', 'Easy', 20, 20, 8, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Potato salad bowl mayonnaise'),
-  c('boston-baked-beans', 'Boston Baked Beans', 'American', 'Lunch', 'Easy', 15, 240, 8, 4.6, 1122, ['Dairy-Free'], [], 'Baked beans'),
+  c('boston-baked-beans', 'Boston Baked Beans', 'American', 'Lunch', 'Easy', 15, 390, 8, 4.6, 1122, ['Dairy-Free'], [], 'Baked beans'),
   c('classic-omelette', 'Three-Egg Omelette', 'American', 'Breakfast', 'Medium', 5, 5, 1, 4.8, 3411, ['Vegetarian', 'Gluten-Free'], [], 'Omelette'),
   c('hash-browns', 'Crispy Hash Browns', 'American', 'Breakfast', 'Easy', 15, 15, 4, 4.8, 2955, ['Vegetarian', 'Gluten-Free'], [], 'Hash browns'),
   c('biscuits-and-gravy', 'Biscuits and Sausage Gravy', 'American', 'Breakfast', 'Medium', 20, 25, 6, 4.8, 2544, [], [], 'Biscuits and gravy'),
@@ -135,14 +135,14 @@ module.exports = [
   c('snickerdoodles', 'Snickerdoodles', 'American', 'Baking', 'Easy', 20, 12, 24, 4.8, 2688, ['Vegetarian'], [], 'Snickerdoodle cookies'),
   c('peanut-butter-cookies', 'Peanut Butter Cookies', 'American', 'Baking', 'Easy', 15, 12, 24, 4.7, 2544, ['Vegetarian'], [], 'Peanut butter cookies'),
   c('pecan-pie', 'Pecan Pie', 'American', 'Desserts', 'Medium', 25, 55, 8, 4.8, 2411, ['Vegetarian'], [], 'Pecan pie'),
-  c('lemon-meringue-pie', 'Lemon Meringue Pie', 'American', 'Desserts', 'Hard', 35, 45, 8, 4.7, 2133, ['Vegetarian'], [], 'Lemon meringue pie'),
+  c('lemon-meringue-pie', 'Lemon Meringue Pie', 'American', 'Desserts', 'Hard', 35, 53, 8, 4.7, 2133, ['Vegetarian'], [], 'Lemon meringue pie'),
   c('smores', "S'mores", 'American', 'Desserts', 'Easy', 5, 5, 4, 4.7, 1877, ['Vegetarian'], [], 'Smores'),
   c('vanilla-cupcakes', 'Vanilla Cupcakes', 'American', 'Baking', 'Easy', 20, 20, 12, 4.8, 3044, ['Vegetarian'], [], 'Vanilla cupcake buttercream frosting'),
   c('chocolate-milkshake', 'Chocolate Milkshake', 'American', 'Drinks', 'Easy', 5, 5, 2, 4.7, 1966, ['Vegetarian', 'Gluten-Free'], [], 'Chocolate milkshake whipped cream straw'),
 
   /* ---------------------------------------------------------- British (10) */
   c('toad-in-the-hole', 'Toad in the Hole', 'British', 'Dinner', 'Easy', 15, 40, 4, 4.7, 1622, [], [], 'Sausages baked in Yorkshire pudding batter'),
-  c('cottage-pie', 'Cottage Pie', 'British', 'Dinner', 'Easy', 25, 50, 6, 4.8, 2277, [], [], 'Cottage pie'),
+  c('cottage-pie', 'Cottage Pie', 'British', 'Dinner', 'Easy', 25, 95, 6, 4.8, 2277, [], [], 'Cottage pie'),
   c('cornish-pasty', 'Cornish Pasty', 'British', 'Lunch', 'Medium', 35, 50, 6, 4.7, 1466, [], [], 'Cornish pasty'),
   c('roast-beef-yorkshire', 'Roast Beef and Yorkshire Puddings', 'British', 'Holiday Specials', 'Medium', 25, 90, 6, 4.9, 2688, [], ['editors'], 'Roast beef yorkshire pudding'),
   c('welsh-rarebit', 'Welsh Rarebit', 'British', 'Quick Meals', 'Easy', 10, 10, 2, 4.6, 1044, [], [], 'Welsh rarebit'),
@@ -153,7 +153,7 @@ module.exports = [
   c('shortbread', 'Scottish Shortbread', 'British', 'Baking', 'Easy', 15, 35, 16, 4.7, 1966, ['Vegetarian'], [], 'Shortbread biscuits'),
 
   /* ------------------------------------------------------------ Greek (6) */
-  c('pastitsio', 'Pastitsio', 'Greek', 'Dinner', 'Medium', 35, 60, 8, 4.7, 1344, [], [], 'Pastitsio'),
+  c('pastitsio', 'Pastitsio', 'Greek', 'Dinner', 'Medium', 35, 116, 8, 4.7, 1344, [], [], 'Pastitsio'),
   c('keftedes', 'Greek Keftedes', 'Greek', 'Appetizers', 'Easy', 20, 15, 4, 4.7, 1122, [], [], 'Greek meatballs in tomato sauce'),
   c('saganaki', 'Saganaki', 'Greek', 'Appetizers', 'Easy', 5, 8, 2, 4.7, 966, ['Vegetarian'], [], 'Saganaki fried cheese'),
   c('fasolada', 'Fasolada', 'Greek', 'Healthy', 'Easy', 15, 75, 6, 4.6, 744, ['Vegan', 'Gluten-Free', 'Dairy-Free'], [], 'Fasolada bean soup'),
@@ -204,7 +204,7 @@ module.exports = [
   c('haemul-pajeon', 'Haemul Pajeon', 'Korean', 'Appetizers', 'Easy', 15, 15, 4, 4.7, 1344, ['Dairy-Free'], [], 'Haemul pajeon'),
   c('samgyetang', 'Samgyetang', 'Korean', 'Healthy', 'Easy', 20, 75, 2, 4.7, 966, ['Gluten-Free', 'Dairy-Free'], [], 'Samgyetang ginseng chicken soup'),
   c('dakgalbi', 'Dakgalbi', 'Korean', 'Dinner', 'Easy', 20, 20, 4, 4.7, 1466, ['Dairy-Free'], [], 'Dakgalbi'),
-  c('naengmyeon', 'Mul Naengmyeon', 'Korean', 'Healthy', 'Medium', 20, 15, 2, 4.6, 1044, ['Dairy-Free'], [], 'Naengmyeon cold noodles'),
+  c('naengmyeon', 'Mul Naengmyeon', 'Korean', 'Healthy', 'Medium', 20, 122, 2, 4.6, 1044, ['Dairy-Free'], [], 'Naengmyeon cold noodles'),
 
   /* -------------------------------------------------- Southeast Asia (8) */
   c('nasi-goreng', 'Nasi Goreng', 'Indonesian', 'Quick Meals', 'Easy', 15, 12, 4, 4.8, 2411, ['Dairy-Free'], [], 'Nasi goreng'),

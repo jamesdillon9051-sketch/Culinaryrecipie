@@ -85,7 +85,7 @@ module.exports = {
     st: [
       'Look at the steak and note which way the fibres run.',
       'Mix the lime and orange juice, garlic, cumin, oregano, pepper, oil, jalapeño and coriander.',
-      'Turn the steak through it and marinate 1 hour at room temperature. No longer — the acid starts to cure it.',
+      'Turn the steak through it and marinate 1 hour in the fridge. No longer — the acid starts to cure it.',
       'Lift the steak out, wipe most of the marinade off and season heavily with the salt.',
       'Heat a charcoal grill or a griddle pan until it is too hot to hold a hand over.',
       'Grill 3 minutes on the first side without moving it.',

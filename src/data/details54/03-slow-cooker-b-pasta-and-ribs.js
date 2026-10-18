@@ -868,8 +868,8 @@ module.exports = {
   },
 
   'stovetop-mac-and-cheese': {
-    d: 'Macaroni in a smooth cheddar sauce made on the hob in 20 minutes with butter, flour and milk, with no oven needed.',
-    meta: 'Stovetop mac and cheese with a smooth cheddar sauce, made in 20 minutes. Four servings, ready in 30 minutes.',
+    d: 'Macaroni in a smooth cheddar sauce of butter, flour and milk, made entirely on the hob with no oven needed, in about 30 minutes.',
+    meta: 'Stovetop mac and cheese with a smooth cheddar and Gruyère sauce, made on the hob. Four servings, ready in 30 minutes.',
     kw: ['stovetop mac and cheese', 'creamy stovetop macaroni and cheese', 'homemade mac and cheese', 'cheddar mac and cheese', 'macaroni cheese on the hob'],
     why: 'Salt the pasta water well and take the sauce off the heat before the cheese goes in. These two habits are the difference between a creamy sauce and a grainy one. Overheated cheese separates into oil and curds, while cheese stirred into warm sauce melts into a smooth coat.\n\nThe sauce starts with a roux: butter and flour cooked together for a minute, then milk whisked in a little at a time. Adding the milk gradually, and warming it first, stops lumps forming. Simmer for 5 minutes until the sauce coats the back of a spoon. A pinch of mustard powder and a little nutmeg sharpen the cheese flavour without being noticeable.\n\n**Grate the cheese yourself.** Pre-grated cheese is dusted with cellulose to stop it sticking together in the bag, and the same coating stops it melting smoothly into a sauce. Sharp cheddar gives flavour, and a handful of a good melter such as Gruyère or Monterey Jack gives stretch.\n\nCook the macaroni to just short of tender, drain it and tip it straight into the sauce. Stir for a minute and serve immediately, as the sauce thickens quickly as it stands. If it tightens, loosen it with a splash of milk.',
     ing: [

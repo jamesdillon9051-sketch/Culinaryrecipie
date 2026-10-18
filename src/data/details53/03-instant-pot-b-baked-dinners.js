@@ -696,7 +696,7 @@ module.exports = {
 
   'baked-rigatoni': {
     d: 'Rigatoni tossed with a slow-cooked beef ragu and ricotta, topped with mozzarella and baked for 35 minutes until bubbling.',
-    meta: 'Baked rigatoni with beef ragu, ricotta and mozzarella, baked for 35 minutes. Six servings, ready in 55 minutes.',
+    meta: 'Baked rigatoni with beef ragu, ricotta and mozzarella, baked for 35 minutes. Six servings, about 1 hour 40 minutes start to finish.',
     kw: ['baked rigatoni', 'baked rigatoni with meat sauce', 'rigatoni bake', 'rigatoni with ricotta', 'baked pasta with mozzarella'],
     why: 'A Sunday dish for a table of six, and better on Monday. Baked rigatoni is a family centrepiece that feeds a crowd from one dish, and it improves overnight as the sauce soaks into the tubes.\n\nRigatoni is the right pasta because of its wide, ridged tubes. The sauce gets inside them and clings to the ridges outside, so every mouthful is evenly coated. Penne would work, but the wider tube holds more filling. Cook it for 2 minutes less than the packet says.\n\n**Stir ricotta through the sauce rather than dolloping it on top.** Mixed in, it melts into a creamy pink coating that carries through the whole dish. Left in lumps, it can turn grainy and dry in the oven.\n\nThe ragu needs 30 minutes at a simmer, long enough for the mince to soften and the tomatoes to reduce. Use a mix of beef and pork for flavour. Top with mozzarella and parmesan, cover with foil for 20 minutes, then uncover to brown. The foil keeps the pasta moist while the cheese gets golden after.',
     ing: [

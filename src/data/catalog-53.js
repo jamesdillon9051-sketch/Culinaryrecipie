@@ -97,7 +97,7 @@ module.exports = [
   c('baked-halibut', 'Baked Halibut', 'American', 'Dinner', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'baked halibut'),
   c('baked-penne', 'Baked Penne', 'Italian', 'Dinner', 'Easy', 20, 30, 6, 0, 0, [], ['new'], 'baked penne'),
   c('baked-pork-chops', 'Baked Pork Chops', 'American', 'Dinner', 'Easy', 10, 25, 4, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'baked pork chops'),
-  c('baked-rigatoni', 'Baked Rigatoni', 'Italian', 'Dinner', 'Easy', 20, 35, 6, 0, 0, [], ['new'], 'baked rigatoni'),
+  c('baked-rigatoni', 'Baked Rigatoni', 'Italian', 'Dinner', 'Easy', 20, 78, 6, 0, 0, [], ['new'], 'baked rigatoni'),
   c('baked-sea-bass', 'Baked Sea Bass', 'British', 'Dinner', 'Easy', 10, 20, 2, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'baked sea bass'),
   c('baked-trout', 'Baked Trout', 'British', 'Dinner', 'Easy', 10, 20, 2, 0, 0, ['Gluten-Free'], ['new'], 'baked trout'),
   c('battered-fish', 'Battered Fish', 'British', 'Dinner', 'Medium', 15, 15, 4, 0, 0, [], ['new'], 'battered fish'),

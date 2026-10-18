@@ -256,7 +256,8 @@ module.exports = {
   },
 
   'lemon-meringue-pie': {
-    rest: [180, 'chilling'],
+    cookMax: 55,
+    rest: [240, 'cooling and chilling'],
     d: 'Sharp lemon curd in a crisp shell under a cloud of meringue browned at the tips. Three components, three ways to go wrong, and a very specific trick for stopping the meringue weeping.',
     meta: 'Lemon meringue pie with sharp cornflour lemon curd and a stable Swiss-style meringue that will not weep.',
     kw: ['lemon meringue pie recipe', 'lemon pie', 'meringue pie', 'no weep meringue'],
@@ -292,7 +293,7 @@ module.exports = {
       'For the meringue, whisk the whites with the cream of tartar to soft peaks, then add the sugar a tablespoon at a time, whisking to stiff, glossy peaks. Whisk in the vanilla.',
       'Rub a little meringue between your fingers — if it feels gritty, keep whisking until the sugar has dissolved.',
       'Spoon the meringue onto the hot filling and spread it so it touches the pastry rim all the way around, sealing completely. Swirl into peaks.',
-      'Bake at 175°C / 345°F for 18 to 20 minutes until the peaks are golden. Cool at room temperature for 3 hours, then chill 2 hours before slicing.'
+      'Bake at 175°C / 345°F for 18 to 20 minutes until the peaks are golden. Cool at room temperature for 2 hours (the filling holds egg yolks, so no longer). Chill 2 hours more before slicing.'
     ],
     tips: [
       'Meringue onto hot filling, sealed to the crust. Those two details prevent almost every meringue pie failure.',

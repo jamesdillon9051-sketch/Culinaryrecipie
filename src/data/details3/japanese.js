@@ -388,7 +388,7 @@ module.exports = {
       'Bring to a bare simmer and lay a circle of baking paper directly on the surface as a drop lid.',
       'Cook 90 minutes on the lowest possible heat, turning the pieces once at the halfway point.',
       'Test with a chopstick: it should pass through the belly with no resistance at all.',
-      'Cool completely in the liquid, then refrigerate overnight and lift the set fat off the top.',
+      'Let it cool in the liquid, refrigerating it within 2 hours. Chill it overnight, then lift the set fat off the top.',
       'Reheat gently, adding the peeled eggs for the last 15 minutes to colour them. Serve with a dab of karashi and blanched greens.'
     ],
     tips: [

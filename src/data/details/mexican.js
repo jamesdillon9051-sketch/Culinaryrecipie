@@ -269,7 +269,7 @@ module.exports = {
   },
 
   'chili-con-carne': {
-    rest: [480, 'chilling'],
+    rest: [20, 'resting'],
     d: 'A long-simmered chilli built on toasted whole spices and a hit of dark chocolate, with the beef cut into cubes rather than minced so it keeps its texture. Better on the second day, as all chillies are.',
     meta: 'Deep, smoky chili con carne with cubed beef, toasted spices and dark chocolate. Even better the day after you make it.',
     kw: ['chili con carne recipe', 'beef chili', 'best chilli recipe', 'slow cooked chili'],
@@ -419,6 +419,7 @@ module.exports = {
   },
 
   'tamales': {
+    cookMax: 203,
     rest: [60, 'soaking'],
     d: 'Masa whipped with lard until it floats, wrapped around chilli-braised pork in corn husks and steamed until it sets into something tender and fragrant. Making them is traditionally a group activity, and it should be.',
     meta: 'Pork tamales with light, whipped masa and chilli-braised filling, steamed in corn husks. The holiday classic, explained.',

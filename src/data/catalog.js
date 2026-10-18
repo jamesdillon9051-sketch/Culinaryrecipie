@@ -23,7 +23,7 @@ module.exports = [
   /* ---------------------------------------------------------- Italian (18) */
   c('margherita-pizza', 'Margherita Pizza', 'Italian', 'Dinner', 'Medium', 90, 12, 4, 4.9, 4820, ['Vegetarian'], ['editors', 'trending'], 'Pizza Margherita'),
   c('spaghetti-carbonara', 'Spaghetti Carbonara', 'Italian', 'Dinner', 'Medium', 10, 20, 4, 4.9, 5210, [], ['editors', 'trending'], 'Spaghetti alla Carbonara'),
-  c('lasagna-bolognese', 'Lasagna Bolognese', 'Italian', 'Dinner', 'Hard', 45, 150, 8, 4.8, 3944, [], ['editors'], 'Lasagne alla Bolognese'),
+  c('lasagna-bolognese', 'Lasagna Bolognese', 'Italian', 'Dinner', 'Hard', 45, 241, 8, 4.8, 3944, [], ['editors'], 'Lasagne alla Bolognese'),
   c('fettuccine-alfredo', 'Fettuccine Alfredo', 'Italian', 'Dinner', 'Easy', 10, 15, 4, 4.7, 2860, ['Vegetarian'], [], 'Fettuccine Alfredo pasta'),
   c('cacio-e-pepe', 'Cacio e Pepe', 'Italian', 'Quick Meals', 'Medium', 5, 15, 2, 4.8, 2110, ['Vegetarian'], ['trending'], 'Cacio e pepe pasta'),
   c('penne-all-arrabbiata', "Penne all'Arrabbiata", 'Italian', 'Quick Meals', 'Easy', 10, 20, 4, 4.7, 1682, ['Vegan', 'Dairy-Free'], [], 'Penne all arrabbiata'),
@@ -79,10 +79,10 @@ module.exports = [
   c('fish-tacos', 'Baja Fish Tacos', 'Mexican', 'Dinner', 'Easy', 20, 15, 4, 4.7, 2140, [], [], 'Fish tacos'),
   c('quesadillas', 'Cheese Quesadillas', 'Mexican', 'Quick Meals', 'Easy', 10, 10, 2, 4.5, 1622, ['Vegetarian'], [], 'Quesadilla'),
   c('huevos-rancheros', 'Huevos Rancheros', 'Mexican', 'Breakfast', 'Easy', 10, 20, 2, 4.7, 1493, ['Vegetarian', 'Gluten-Free'], [], 'Huevos rancheros'),
-  c('chili-con-carne', 'Chili con Carne', 'Mexican', 'Dinner', 'Easy', 20, 90, 6, 4.7, 2911, ['Gluten-Free', 'Dairy-Free'], [], 'Chili con carne'),
+  c('chili-con-carne', 'Chili con Carne', 'Mexican', 'Dinner', 'Easy', 20, 181, 6, 4.7, 2911, ['Gluten-Free', 'Dairy-Free'], [], 'Chili con carne'),
   c('pozole-rojo', 'Pozole Rojo', 'Mexican', 'Dinner', 'Medium', 30, 150, 8, 4.7, 934, ['Gluten-Free', 'Dairy-Free'], [], 'Pozole rojo'),
   c('mole-poblano', 'Mole Poblano', 'Mexican', 'Holiday Specials', 'Hard', 45, 120, 8, 4.7, 726, ['Dairy-Free'], [], 'Mole poblano'),
-  c('tamales', 'Pork Tamales', 'Mexican', 'Holiday Specials', 'Hard', 60, 90, 12, 4.7, 1188, ['Gluten-Free'], [], 'Tamales'),
+  c('tamales', 'Pork Tamales', 'Mexican', 'Holiday Specials', 'Hard', 60, 188, 12, 4.7, 1188, ['Gluten-Free'], [], 'Tamales'),
   c('guacamole', 'Authentic Guacamole', 'Mexican', 'Appetizers', 'Easy', 10, 0, 6, 4.9, 4301, ['Vegan', 'Gluten-Free', 'Dairy-Free'], ['trending'], 'Guacamole'),
   c('elote', 'Elote — Mexican Street Corn', 'Mexican', 'Appetizers', 'Easy', 10, 15, 4, 4.8, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Elote mexican street corn'),
   c('churros', 'Cinnamon Churros', 'Mexican', 'Desserts', 'Medium', 20, 20, 6, 4.8, 3066, ['Vegetarian'], [], 'Churros'),
@@ -133,7 +133,7 @@ module.exports = [
   c('pulled-pork-sandwich', 'Pulled Pork Sandwiches', 'American', 'Lunch', 'Easy', 20, 420, 8, 4.8, 2544, ['Dairy-Free'], [], 'Pulled pork sandwich'),
   c('grilled-cheese-sandwich', 'Skillet Grilled Cheese', 'American', 'Quick Meals', 'Easy', 5, 8, 2, 4.7, 3188, ['Vegetarian'], [], 'Grilled cheese sandwich'),
   c('new-england-clam-chowder', 'New England Clam Chowder', 'American', 'Lunch', 'Medium', 20, 35, 6, 4.7, 1622, [], [], 'Clam chowder'),
-  c('chicken-noodle-soup', 'Chicken Noodle Soup', 'American', 'Healthy', 'Easy', 15, 40, 6, 4.8, 3411, ['Dairy-Free'], [], 'Chicken noodle soup'),
+  c('chicken-noodle-soup', 'Chicken Noodle Soup', 'American', 'Healthy', 'Easy', 15, 95, 6, 4.8, 3411, ['Dairy-Free'], [], 'Chicken noodle soup'),
   c('creamy-tomato-soup', 'Creamy Tomato Soup', 'American', 'Healthy', 'Easy', 10, 30, 4, 4.7, 2288, ['Vegetarian', 'Gluten-Free'], [], 'Tomato soup'),
   c('caesar-salad', 'Caesar Salad', 'American', 'Lunch', 'Easy', 20, 10, 4, 4.8, 3755, [], [], 'Caesar salad'),
   c('cobb-salad', 'Cobb Salad', 'American', 'Healthy', 'Easy', 25, 15, 4, 4.7, 1866, ['Gluten-Free'], [], 'Cobb salad'),
@@ -160,7 +160,7 @@ module.exports = [
 
   /* ------------------------------------------------------------ Greek (8) */
   c('greek-salad', 'Horiatiki Greek Salad', 'Greek', 'Healthy', 'Easy', 15, 0, 4, 4.8, 2966, ['Vegetarian', 'Gluten-Free'], [], 'Greek salad'),
-  c('moussaka', 'Moussaka', 'Greek', 'Dinner', 'Hard', 40, 75, 8, 4.8, 1877, [], ['editors'], 'Moussaka'),
+  c('moussaka', 'Moussaka', 'Greek', 'Dinner', 'Hard', 40, 102, 8, 4.8, 1877, [], ['editors'], 'Moussaka'),
   c('chicken-souvlaki', 'Chicken Souvlaki', 'Greek', 'Dinner', 'Easy', 20, 15, 4, 4.8, 2544, ['Gluten-Free', 'Dairy-Free'], [], 'Souvlaki'),
   c('gyros', 'Pork Gyros', 'Greek', 'Lunch', 'Medium', 25, 30, 4, 4.7, 2133, [], [], 'Gyros'),
   c('spanakopita', 'Spanakopita', 'Greek', 'Appetizers', 'Medium', 30, 45, 8, 4.7, 1466, ['Vegetarian'], [], 'Spanakopita'),
@@ -241,7 +241,7 @@ module.exports = [
   c('ceviche', 'Peruvian Ceviche', 'Peruvian', 'Appetizers', 'Easy', 25, 0, 4, 4.8, 1966, ['Gluten-Free', 'Dairy-Free'], ['trending'], 'Ceviche'),
   c('beef-empanadas', 'Beef Empanadas', 'Argentinian', 'Appetizers', 'Medium', 40, 25, 12, 4.8, 2133, [], [], 'Empanadas'),
   c('jerk-chicken', 'Jamaican Jerk Chicken', 'Jamaican', 'Dinner', 'Easy', 20, 45, 4, 4.8, 2411, ['Dairy-Free'], ['trending'], 'Jerk chicken'),
-  c('cuban-sandwich', 'Cuban Sandwich', 'Cuban', 'Lunch', 'Easy', 15, 10, 4, 4.7, 1622, [], [], 'Cuban sandwich'),
+  c('cuban-sandwich', 'Cuban Sandwich', 'Cuban', 'Lunch', 'Easy', 15, 186, 4, 4.7, 1622, [], [], 'Cuban sandwich'),
 
   /* ----------------------------------------------------- North Africa (3) */
   c('moroccan-chicken-tagine', 'Moroccan Chicken Tagine', 'Moroccan', 'Dinner', 'Easy', 25, 60, 6, 4.8, 2277, ['Gluten-Free', 'Dairy-Free'], ['editors'], 'Chicken tagine'),

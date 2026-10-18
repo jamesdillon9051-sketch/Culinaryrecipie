@@ -32,7 +32,9 @@ function humanTime(minutes) {
  */
 function humanWait(minutes) {
   if (!minutes) return '';
-  if (minutes < 1440) return humanTime(minutes);
+  /* Under two days the hours matter: "1 day 1 hr" for both 24.5 and 25.5 hours
+     made a range read "1 day 1 hr to 1 day 1 hr". */
+  if (minutes < 2880) return humanTime(minutes);
   const days = Math.floor(minutes / 1440);
   const hours = Math.round((minutes % 1440) / 60);
   if (days >= 7) {

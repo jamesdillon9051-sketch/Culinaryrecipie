@@ -191,6 +191,7 @@ module.exports = {
   },
 
   'cuban-sandwich': {
+    cookMax: 188,
     rest: [480, 'marinating'],
     d: 'Roast pork, ham, Swiss cheese, pickles and mustard pressed in Cuban bread until the cheese melts and the crust flattens and crisps. No lettuce, no tomato, no mayonnaise, no argument.',
     meta: 'The classic Cuban sandwich — roast pork, ham, Swiss, pickles and mustard, pressed until crisp. No mayo, no lettuce.',

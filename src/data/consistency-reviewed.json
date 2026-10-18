@@ -1,0 +1,17 @@
+{
+  "about": "Findings from tools/recipe-consistency.js that a person read and judged to be correct as the recipe stands, with the reason. A finding listed here is reported as an accepted exception instead of a defect. Add an entry only after reading the recipe; never to make the check pass.",
+  "recipes": {
+    "pork-pie": {
+      "stages-exceed-cook": "The 3-hour simmer for the jelly runs while the pastry is made and the pie bakes and cools (60 minutes of prep, 105 minutes of baking, at least 3 hours of cooling), so it is not added to the cook time. The total already includes the cooling and the 4 hours of setting."
+    },
+    "ofada-rice": {
+      "stages-exceed-cook": "The beef (50 minutes), the rice (30) and the pepper sauce (10 + 1 + 5 + 25) are cooked side by side, and the method now says so (\"While the beef cooks\", \"Meanwhile\"). The longest chain is the beef and the final 10-minute simmer: 60 minutes, the row's cook time."
+    },
+    "christmas-pudding": {
+      "stages-exceed-cook": "The 2-hour steam in the last step reheats the pudding on the day it is served, after it has matured; it is not part of making it. The cook time is the 6-hour steam."
+    },
+    "slow-cooker-porridge": {
+      "stages-exceed-cook": "\"If your slow cooker runs hot, cook for 6 hours instead\" is an alternative to the 8 hours, not a second stage."
+    }
+  }
+}

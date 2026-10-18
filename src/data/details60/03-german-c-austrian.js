@@ -566,7 +566,7 @@ module.exports = {
   },
 
   'heringssalat': {
-    d: 'A cold salad of pickled herring, apple, beetroot, gherkin and onion in a soured cream dressing, made in 20 minutes.',
+    d: 'A cold salad of pickled herring, apple, beetroot, gherkin and onion in a soured cream dressing: 20 minutes of work, then at least 2 hours in the fridge.',
     meta: 'Heringssalat, German herring salad with pickled beetroot, apple and soured cream: 20 minutes of work, no cooking, then 2 hours in the fridge.',
     kw: ['heringssalat', 'german herring salad', 'herring salad with beetroot and apple', 'pickled herring salad with sour cream', 'heringssalat recipe'],
     why: 'A table for six at New Year or Easter, and the salad that German families put out on a cold buffet. Heringssalat is a pink, tangy mix of pickled herring, beetroot, apple, gherkin and onion in a soured cream dressing, and it is made ahead because it tastes better after a night in the fridge.\n\nDrain the herring and cut it into small pieces. Dice the other ingredients to the same size, so that every forkful has a bit of each. **Add the beetroot last**, because it stains the whole salad pink and the colour then spreads to everything. The dressing is soured cream thinned with a splash of the beetroot pickling liquid, with a little mustard, sugar and dill.\n\nFold everything together gently, taste, and adjust with vinegar or sugar. The salad should be sharp, with a sweet note from the apple. Cover and chill for at least 2 hours, ideally overnight. Serve on dark bread, or with boiled potatoes, as a fish course or a light lunch. It keeps for 3 days.',

@@ -109,7 +109,7 @@ module.exports = {
 
   'ofada-rice': {
     d: 'Nutty local brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs, a Nigerian speciality.',
-    meta: 'Ofada rice: nutty brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs. Six servings, cooked for 50 minutes.',
+    meta: 'Ofada rice: nutty brown rice served with ayamase, a fiery green pepper and palm oil stew with beef and boiled eggs. Six servings, about an hour of cooking with the pans going side by side.',
     kw: ['ofada rice', 'ofada rice and ayamase', 'ofada stew', 'nigerian ofada rice recipe', 'ayamase green pepper stew'],
     why: 'The sauce is green, and the green is the point. Ayamase, sometimes called designer stew, is a Nigerian sauce built on a mountain of green peppers, scotch bonnets and plenty of palm oil, cooked until the oil separates and the peppers turn to a dark, fragrant olive paste. It goes with ofada rice, a local, unpolished, nutty rice that is a little sticky and has a strong aroma.\n\nOfada rice is hard to find in the UK and elsewhere, so brown basmati or a short-grain brown rice makes a good substitute. Wash it thoroughly, boil for 30 minutes, and drain. Traditional ofada is served in leaves, which gives a faint woody smell; banana leaves or baking paper are alternatives.\n\nThe stew begins with red palm oil, heated until it just starts to smoke and turns clear, then cooled slightly. Fry onions in it, add the blended green peppers and scotch bonnets, and cook for 25 minutes. **Do not rush the peppers.** They have to cook until the water has gone and the oil sits on top.\n\nAdd the beef, boiled until tender, and the boiled eggs, cooked in the sauce for 10 minutes. Serve with the rice.',
     ing: [
@@ -129,8 +129,8 @@ module.exports = {
     ],
     st: [
       'Boil the beef in the water with a pinch of the salt for 50 minutes until tender. Keep the stock.',
-      'Boil the rice in plenty of water with the salt for 30 minutes. Drain.',
-      'Blend the green peppers and scotch bonnets until nearly smooth. Cook in a dry pan for 10 minutes to drive off water.',
+      'While the beef cooks, boil the rice in plenty of water with the salt for 30 minutes. Drain.',
+      'Meanwhile, blend the green peppers and scotch bonnets until nearly smooth. Cook in a dry pan for 10 minutes to drive off water.',
       'Heat the palm oil in a large pan until it just starts to smoke. Cool for 1 minute, add the onions and cook for 5 minutes. Add the peppers and cook for 25 minutes until dark and the oil separates.',
       'Add the beef, 150 ml of the stock, salt and crayfish. Simmer for 10 minutes, add the eggs and serve with the rice.'
     ],

@@ -27,7 +27,7 @@ module.exports = {
       'Bread or couscous, to serve'
     ],
     st: [
-      'Rub the chicken with the grated onion, garlic, fresh and ground ginger, turmeric, white pepper and half the saffron water. Leave 1 hour, or overnight.',
+      'Rub the chicken with the grated onion, garlic, fresh and ground ginger, turmeric, white pepper and half the saffron water. Cover and refrigerate 1 hour, or overnight.',
       'Heat the olive oil in a tagine or heavy casserole and brown the chicken skin side down for 6 minutes. Turn and give it 2 minutes.',
       'Add all the marinade from the bowl and cook 5 minutes until the onion softens and the pot smells of ginger.',
       'Pour in the stock and the rest of the saffron water and tuck in the herb bundle.',

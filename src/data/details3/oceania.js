@@ -132,6 +132,7 @@ module.exports = {
   },
 
   'kalua-pork': {
+    cookMax: 480,
     d: 'Pork shoulder rubbed with coarse Hawaiian salt and liquid smoke, wrapped in banana leaf and cooked for eight hours until it shreds into strands.',
     meta: 'Kalua pork — Hawaiian salted pork shoulder wrapped in banana leaf and slow cooked until it shreds.',
     kw: ['kalua pork recipe', 'hawaiian pulled pork', 'imu pork', 'slow cooked pork shoulder'],

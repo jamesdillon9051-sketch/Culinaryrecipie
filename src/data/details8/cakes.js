@@ -298,7 +298,7 @@ module.exports = {
   },
 
   'basque-cheesecake': {
-    rest: [240, 'cooling'],
+    rest: [120, 'cooling'],
     d: 'The tarta de queso from La Viña in San Sebastián: no base, no water bath, and a deliberately scorched top over a centre that stays loose and custardy. Baked hot and fast in a crumpled sheet of parchment.',
     meta: 'Burnt Basque cheesecake — crustless, baked hot and fast to a scorched top and a molten centre. Naturally gluten-free.',
     kw: ['basque cheesecake', 'burnt basque cheesecake', 'san sebastian cheesecake', 'crustless cheesecake'],
@@ -320,13 +320,13 @@ module.exports = {
       'Pour in the cream and vanilla and mix on low until combined, then sift over the flour (or cornflour) and salt and mix 20 seconds more.',
       'Strain the batter through a sieve into the tin. This is the only insurance against a lump.',
       'Bake 45 to 55 minutes, until the top is deeply browned — almost black at the edges — and the centre still wobbles like a set jelly when you nudge the tin.',
-      'Leave it to cool in the tin at room temperature for at least 4 hours. It will sink in the middle, which is what it is meant to do.',
-      'Unclip and serve at room temperature, in wedges, with the paper peeled back at the table.'
+      'Leave it to cool in the tin at room temperature for 2 hours. It will sink in the middle, which is what it is meant to do.',
+      'Unclip and serve in wedges, with the paper peeled back at the table. Refrigerate what is left straight away: a baked cheesecake is egg and cream, and should not sit out longer than the cooling.'
     ],
     tips: [
       'Room temperature everything. Cold cream cheese gives lumps that no amount of beating will fix.',
       'Judge it by wobble, not by time. Ovens vary by 20°C and this bake has a fifteen-minute window.',
-      'Do not refrigerate it before serving on the day. Chilling sets the centre firm and you lose the custardy middle.'
+      'Serve it as soon as it has cooled for the custardy middle. Chilling sets the centre firm, which is how any leftovers will be.'
     ],
     pair: ['A glass of Pedro Ximénez', 'Black coffee', 'Nothing at all — it needs no help'],
     store: 'Covered at room temperature for a day, or refrigerated for 4 days; bring back to room temperature for at least 2 hours before serving. It does not freeze well.',

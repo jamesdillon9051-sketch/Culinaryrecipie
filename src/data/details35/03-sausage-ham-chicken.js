@@ -539,7 +539,7 @@ module.exports = {
     ],
     st: [
       'Juice one lemon and cut the second into halves. Mix the juice with the oil, garlic, oregano, thyme, salt and pepper.',
-      'Turn the chicken in the marinade, cover and leave for 30 minutes at room temperature or up to 4 hours in the fridge.',
+      'Turn the chicken in the marinade, cover and leave in the fridge for 30 minutes, or up to 4 hours.',
       'Heat the oven to 210°C (190°C fan). Lift the chicken out, pat dry and arrange skin side up on a tray with the lemon halves.',
       'Roast for 40 minutes until the skin is deep golden and the juices run clear. Squeeze the roasted lemon over before serving.'
     ],

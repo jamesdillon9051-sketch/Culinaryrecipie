@@ -451,9 +451,9 @@ ${breadcrumbs(trail)}
 
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}
-          <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'hands on' : 'total'}</span>
+          <span>${ICONS.clock}<strong>${recipe.cookMax > recipe.cook ? humanWaitRange(recipe.totalTime, recipe.prep + recipe.cookMax) : humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'prep and cooking' : 'total'}</span>
           ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWaitRange(recipe.restTime, recipe.restMax)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
-          ${recipe.restTime ? `<span>${ICONS.clock}<strong>${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
+          ${recipe.restTime || recipe.elapsedMax > recipe.elapsedTime ? `<span>${ICONS.clock}<strong>${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>

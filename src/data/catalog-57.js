@@ -43,7 +43,7 @@ module.exports = [
   c('freezer-biscuits', 'Freezer Biscuits', 'American', 'Baking', 'Easy', 15, 18, 12, 0, 0, ['Vegetarian'], ['new'], 'freezer biscuits'),
   c('freezer-dumplings', 'Freezer Dumplings', 'Chinese', 'Dinner', 'Medium', 45, 10, 6, 0, 0, ['Dairy-Free'], ['new'], 'freezer dumplings'),
   c('freezer-enchiladas', 'Freezer Enchiladas', 'Mexican', 'Dinner', 'Medium', 30, 75, 8, 0, 0, [], ['new'], 'freezer enchiladas'),
-  c('freezer-lasagna', 'Freezer Lasagna', 'Italian', 'Dinner', 'Medium', 40, 45, 8, 0, 0, [], ['new'], 'freezer lasagna'),
+  c('freezer-lasagna', 'Freezer Lasagna', 'Italian', 'Dinner', 'Medium', 40, 99, 8, 0, 0, [], ['new'], 'freezer lasagna'),
   c('freezer-mac-and-cheese', 'Freezer Mac and Cheese', 'American', 'Dinner', 'Easy', 20, 20, 8, 0, 0, ['Vegetarian'], ['new'], 'freezer mac and cheese'),
   c('freezer-muffins', 'Freezer Muffins', 'American', 'Breakfast', 'Easy', 15, 22, 12, 0, 0, ['Vegetarian'], ['new'], 'freezer muffins'),
   c('freezer-pot-pie', 'Freezer Pot Pie', 'American', 'Dinner', 'Medium', 30, 40, 6, 0, 0, [], ['new'], 'freezer pot pie'),

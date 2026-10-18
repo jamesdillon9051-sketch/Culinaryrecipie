@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'dal-makhani': {
+    cookMax: 220,
     rest: [480, 'soaking'],
     d: 'Black urad lentils and kidney beans simmered overnight, then finished with butter and cream until the dal is almost black and thick enough to stand a spoon in. Punjabi restaurant cooking at its richest.',
     meta: 'Dal makhani — black urad lentils simmered for hours and finished with butter and cream until thick and dark.',

@@ -5,6 +5,31 @@
       "min": 120,
       "max": 120,
       "reason": "\"Close the lid and leave it alone for 3 hours\" is smoking time, already in the cook time; the wait counted is the rest of at least 2 hours (ideally 4, not counted as the ceiling because the method treats it as an ideal). The hour the seasoned brisket sits at room temperature before smoking is not counted; whether the prep time allows for it is open for review."
+    },
+    "lasagna-bolognese": {
+      "min": 20,
+      "max": 20,
+      "reason": "\"Rest for at least 20 minutes before cutting\" is required (the method says the lasagne will not hold a slice otherwise) but falls under the reader's 30-minute floor for counting a wait. Cooking is the ragù chain in sequence (4 + 12 + 10 + 5 + 20 minutes, then a 2.5 to 3 hour simmer) plus 40 minutes' baking: 241 to 271 minutes in the row and cookMax. The besciamella and oven heating overlap the simmer and are not added; chopping and assembly are in the 45 minutes of prep."
+    },
+    "naengmyeon": {
+      "min": 570,
+      "max": 570,
+      "reason": "The waits run one after another: soaking the beef 1 hour, pressing it under a weight for an hour, chilling the broth at least 6 hours and freezing it 90 minutes until slushy. The reader skips the chill-and-freeze sentence because \"freezer\" usually marks a storage note, and pressing has no waiting verb. Cooking is the 2-hour simmer plus 2 to 3 minutes for the noodles (122 to 123 in the row and cookMax). The beef can be pressed while the broth chills, which would shorten the total by an hour; the figure assumes the order the method gives."
+    },
+    "pastitsio": {
+      "min": 30,
+      "max": 30,
+      "reason": "\"Rest 30 minutes before cutting — this is essential\" is required, but a single 30-minute wait falls under the reader 60-minute floor for counting. Cooking is the meat sauce in sequence (10 + 1 + 10 minutes, the wine bubbling off, then 45 minutes simmering) and 50 to 55 minutes baking: 116 to 121 minutes. The pasta and the béchamel are made while the sauce simmers and are not added."
+    },
+    "freezer-lasagna": {
+      "min": 0,
+      "max": 0,
+      "reason": "The reader took the 1 hour 15 minute bake from frozen (\"Bake from frozen, covered, for 1 hour 15 minutes\") as a freezing wait. Freezing is the optional make-ahead route; baked fresh there is no required wait. Cooking on the fresh route is browning in two batches (8 minutes each), 6 minutes for the vegetables, the 30-minute simmer and 45 minutes baking: about 99 minutes. The 15-minute rest is under the floor and sits in the preparation time."
+    },
+    "chili-con-carne": {
+      "min": 20,
+      "max": 20,
+      "reason": "\"Rest for 20 minutes before serving — or better, cool and refrigerate overnight\": the overnight chill is offered as an improvement after a dash, which the reader does not split off as an alternative, so it was counted as a required 8 hours. The required wait is the 20-minute rest. Cooking is browning in three batches (about 5 minutes each), 8 + 4 minutes for the onions and peppers, 90 seconds for the spices, 2 minutes for the purée, 2 hours in the oven and 30 minutes with the beans: 181 minutes."
     }
   }
 }

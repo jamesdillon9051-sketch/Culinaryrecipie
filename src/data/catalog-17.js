@@ -109,7 +109,7 @@ module.exports = [
   c('chelsea-buns', 'Chelsea Buns', 'British', 'Baking', 'Medium', 30, 25, 9, 0, 0, ['Vegetarian'], ['new'], 'Chelsea buns spiral currants sticky glaze tray'),
   c('rice-pudding', 'Baked Rice Pudding', 'British', 'Desserts', 'Easy', 10, 120, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Baked rice pudding nutmeg brown skin dish'),
   c('syllabub', 'Syllabub', 'British', 'Desserts', 'Easy', 15, 0, 6, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Syllabub whipped cream sherry lemon glass'),
-  c('banoffee-pie', 'Banoffee Pie', 'British', 'Desserts', 'Medium', 30, 30, 8, 0, 0, ['Vegetarian'], ['new'], 'Banoffee pie banana toffee cream chocolate'),
+  c('banoffee-pie', 'Banoffee Pie', 'British', 'Desserts', 'Medium', 30, 180, 8, 0, 0, ['Vegetarian'], ['new'], 'Banoffee pie banana toffee cream chocolate'),
   c('custard-tart', 'Custard Tart', 'British', 'Baking', 'Medium', 35, 50, 8, 0, 0, ['Vegetarian'], ['new'], 'Custard tart nutmeg set pastry slice'),
   c('lemon-posset', 'Lemon Posset', 'British', 'Desserts', 'Easy', 10, 10, 4, 0, 0, ['Vegetarian', 'Gluten-Free'], ['new'], 'Lemon posset set cream glass berries'),
   c('welsh-cakes', 'Welsh Cakes', 'Welsh', 'Baking', 'Easy', 20, 20, 12, 0, 0, ['Vegetarian'], ['new'], 'Welsh cakes bakestone griddle currants sugar'),

@@ -636,7 +636,7 @@ module.exports = {
   },
 
   'poronkaristys': {
-    d: 'Thin slices of reindeer or venison sautéed with onion and served over mashed potatoes with lingonberries, ready in 30 minutes.',
+    d: 'Thin slices of reindeer or venison sautéed with onion and served over mashed potatoes with lingonberries. The meat spends an hour in the freezer first so it slices thinly.',
     meta: 'Poronkäristys, Finnish sautéed reindeer or venison with lingonberries and mash: the meat is part-frozen to slice thinly, then cooked for 20 minutes.',
     kw: ['poronkaristys', 'finnish sauteed reindeer', 'lapland reindeer stew', 'poronkäristys recipe', 'venison with lingonberries and mash'],
     why: 'Short and sharp: freeze the meat first, slice it thin and fry it hot. That is the instruction for poronkäristys, the Lapland dish of sautéed reindeer, which is thinly sliced meat, fried quickly with onion and finished with cream. It is served over mashed potatoes with lingonberry jam, and is the most famous meal of northern Finland.\n\nReindeer meat is lean and dark. If you cannot get it, use venison, or even beef sirloin. Freeze the meat for an hour until it is firm, as it is then easy to slice into thin shavings. Melt the butter in a large heavy pan until it foams. **Fry the meat in two batches over a very high heat**, only 2 minutes each, so that it browns and does not stew in its juices. Lift out.\n\nIn the same pan, fry a sliced onion until golden, then add water, juniper, allspice and a splash of cream. Return the meat and simmer for 5 minutes, until the sauce coats it. Season with salt. Serve over a mound of butter rich mashed potato with a spoonful of lingonberry jam and pickled cucumber on the side.',

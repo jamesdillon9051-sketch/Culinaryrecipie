@@ -202,7 +202,7 @@ module.exports = {
   },
 
   'white-sauce': {
-    d: 'Butter, flour and milk cooked into a smooth, glossy sauce, the base for cauliflower cheese, lasagne, fish pie and parsley sauce. It takes 12 minutes and there is only one way to get lumps.',
+    d: 'Butter, flour and milk cooked into a smooth, glossy sauce, the base for cauliflower cheese, lasagne, fish pie and parsley sauce. It cooks in about 12 minutes and there is only one way to get lumps.',
     meta: 'White sauce: butter, flour and milk cooked into a smooth, glossy sauce, the base for cauliflower cheese, lasagne, fish pie and parsley sauce.',
     kw: ['white sauce', 'basic white sauce', 'how to make white sauce', 'white sauce for cauliflower cheese', 'foolproof white sauce recipe'],
     why: 'White sauce, or béchamel, is a foundation sauce and it is worth learning properly, because the same three ingredients make many dishes: cheese sauce for cauliflower cheese and macaroni, parsley sauce for gammon and fish, the filling of a lasagne, the binding for a fish pie. It is made of a roux, equal weights of butter and flour cooked together, and milk, and it works because of what happens to the flour. Cooked in butter for a minute or two, the starch grains are coated in fat and lose their raw taste, and when milk is added gradually they swell and thicken the liquid without clumping. The lumps that people fear come from adding the milk too quickly or cold, when the flour seizes into balls. Warm milk, added a little at a time with constant whisking, gives a smooth sauce every time, and a grating of nutmeg is the traditional seasoning.',

@@ -31,15 +31,16 @@ function humanMinutes(total) {
   if (!total) return '';
   const h = Math.floor(total / 60);
   const m = total % 60;
-  if (!h) return `${m} minutes`;
+  const mins = m === 1 ? '1 minute' : `${m} minutes`;
+  if (!h) return mins;
   if (!m) return h === 1 ? '1 hour' : `${h} hours`;
-  return `${h === 1 ? '1 hour' : `${h} hours`} ${m} minutes`;
+  return `${h === 1 ? '1 hour' : `${h} hours`} ${mins}`;
 }
 
 /** The same, but for waiting: 4320 -> "3 days" rather than "72 hours". */
 function humanWaitWords(total) {
   if (!total) return '';
-  if (total < 1440) return humanMinutes(total);
+  if (total < 2880) return humanMinutes(total);
   const days = Math.floor(total / 1440);
   const hours = Math.round((total % 1440) / 60);
   if (days >= 7) {
@@ -86,7 +87,9 @@ function questions(recipe) {
   const rest = recipe.restTime || 0;
   const restMax = recipe.restMax > rest ? recipe.restMax : rest;
   const span = (lo, hi) => hi > lo ? `${humanWaitWords(lo)} to ${humanWaitWords(hi)}` : humanWaitWords(lo);
-  const work = `${humanMinutes(recipe.prep)} of preparation and ${humanMinutes(recipe.cook)} of cooking`;
+  const cookMax = recipe.cookMax > recipe.cook ? recipe.cookMax : recipe.cook;
+  const totalMax = total + (cookMax - recipe.cook);
+  const work = `${humanMinutes(recipe.prep)} of preparation and ${cookMax > recipe.cook ? `${humanMinutes(recipe.cook)} to ${humanMinutes(cookMax)}` : humanMinutes(recipe.cook)} of cooking`;
   /* A recipe that proves overnight does not take fifty minutes, and saying so
      is the whole point of publishing the resting time. Where the method gives
      a range ("refrigerate for 12 to 24 hours") the answer gives it too.
@@ -95,9 +98,9 @@ function questions(recipe) {
      pages. */
   if (rest) {
     ask(`How long does ${name} take to make?`,
-      total && `About ${humanMinutes(total)} of hands-on work — ${work} — plus `
+      total && `${work[0].toUpperCase()}${work.slice(1)}, plus `
         + `${span(rest, restMax)} of ${recipe.restLabel}, so allow `
-        + `${span(total + rest, total + restMax)} from start to finish. The recipe serves ${recipe.servings}.`);
+        + `${span(total + rest, totalMax + restMax)} from start to finish. The recipe serves ${recipe.servings}.`);
   }
 
   /* What used to follow here — "What are the key tips", "What should I serve

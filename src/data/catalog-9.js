@@ -44,7 +44,7 @@ module.exports = [
   c('lemon-pepper-chicken', 'Lemon Pepper Chicken', 'American', 'Dinner', 'Easy', 15, 35, 4, 0, 0, ['Gluten-Free'], ['new'], 'Lemon pepper roast chicken'),
 
   /* Beef and pork */
-  c('prime-rib', 'Prime Rib Roast', 'American', 'Holiday Specials', 'Medium', 25, 150, 8, 0, 0, ['Gluten-Free'], ['new'], 'Prime rib roast carved'),
+  c('prime-rib', 'Prime Rib Roast', 'American', 'Holiday Specials', 'Medium', 25, 220, 8, 0, 0, ['Gluten-Free'], ['new'], 'Prime rib roast carved'),
   c('salisbury-steak', 'Salisbury Steak', 'American', 'Dinner', 'Easy', 20, 25, 4, 0, 0, [], ['new'], 'Salisbury steak onion gravy'),
   c('corned-beef-and-cabbage', 'Corned Beef and Cabbage', 'Irish', 'Dinner', 'Easy', 20, 195, 6, 0, 0, ['Gluten-Free', 'Dairy-Free'], ['new'], 'Corned beef and cabbage plate'),
   c('spaghetti-bolognese', 'Spaghetti Bolognese', 'Italian', 'Dinner', 'Easy', 25, 180, 6, 0, 0, [], ['new'], 'Spaghetti bolognese plate'),

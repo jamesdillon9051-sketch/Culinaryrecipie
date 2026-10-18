@@ -95,8 +95,8 @@ module.exports = {
   },
 
   'lasagna-bolognese': {
-    d: 'A proper lasagne alla Bolognese is a study in patience: a three-hour ragù, a nutmeg-scented besciamella and paper-thin egg pasta layered until the whole thing slices like a terrine. This is the version worth clearing a Sunday for.',
-    meta: 'Classic lasagna Bolognese with a slow three-hour ragù, silky besciamella and egg pasta layers. The definitive Sunday bake.',
+    d: 'A proper lasagne alla Bolognese is a study in patience: a ragù simmered for two and a half to three hours, a nutmeg-scented besciamella and paper-thin egg pasta layered until the whole thing slices like a terrine. Allow about five and a half hours start to finish, most of it the ragù simmering.',
+    meta: 'Classic lasagna Bolognese: a ragù simmered 2½ to 3 hours, silky besciamella and egg pasta. About 5 to 5½ hours start to finish.',
     kw: ['lasagna bolognese recipe', 'authentic lasagne', 'ragu bolognese', 'homemade lasagna'],
     why: 'Milk added early to the ragù does two jobs: its calcium tenderises the meat proteins, and its lactose feeds a deep Maillard browning that plain tomato cannot produce. Thin layers matter more than many layers — six sheets of pasta with restrained filling set into clean slices, while thick ones slide apart.',
     ing: [
@@ -135,11 +135,13 @@ module.exports = {
       'Rest for at least 20 minutes before cutting. Lasagne straight from the oven will not hold a slice.'
     ],
     tips: [
-      'Mince the meat coarsely, or chop it by hand — supermarket fine mince turns pasty over three hours of cooking.',
+      'Mince the meat coarsely, or chop it by hand — supermarket fine mince turns pasty over hours of simmering.',
       'Make the ragù a day ahead. It is measurably better after a night in the fridge.',
       'Wipe the inside rim of the dish before baking so the edges brown evenly instead of burning.'
     ],
     pair: ['Sangiovese or Barbera has the acidity to cut through the besciamella', 'A sharp radicchio salad with balsamic resets the palate', 'Panna cotta keeps dessert light after such a rich main'],
+    cookMax: 271,
+    rest: [20, 'resting'],
     store: 'Refrigerate for up to 4 days or freeze whole or in portions for 3 months. Reheat covered at 160°C / 320°F for 25 minutes from chilled, or 50 minutes from frozen, removing the foil for the last 10 minutes to re-crisp the top.',
     nut: [742, 41, 52, 39, 4, 12, 1090]
   },

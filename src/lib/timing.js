@@ -39,7 +39,7 @@ const COOKS = /\b(bake|bakes|baking|roast|roasts|roasting|fry|fries|frying|deep-
 /* Waiting the recipe requires, as opposed to working. "Relax" and "come to
    room temperature" were missing, which is how a focaccia's two to three
    hours on the counter went uncounted. */
-const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature)\b/i;
+const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|mature|matured|maturing|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature)\b/i;
 /* Shelf life, optional extras and make-ahead notes are not part of making it. */
 const STORAGE = /\b(keeps?|will keep|store[ds]?|storing|lasts?|up to|freezer|leftovers?|at this point|if you (?:can|have|want|like|prefer)|can (?:also|be)|no more than|within|serve|reheat)\b/i;
 const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook|grill|steam|poach|braise|toast|sear|smoke)\w*\b/i;

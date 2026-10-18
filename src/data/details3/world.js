@@ -38,8 +38,8 @@ module.exports = {
       'Add the tinned tomatoes and cook 10 minutes.',
       'Add the cavolo nero, cabbage, potatoes, rosemary, the whole beans, the bean purée and about 1.2 litres of the bean cooking liquid.',
       'Simmer, half covered, for 45 minutes, until the greens have collapsed and the soup has darkened. Season.',
-      'Stir in the torn bread, take the pot off the heat, and leave it to stand at room temperature for at least an hour — ideally overnight in a cool place.',
-      'The next day, reheat slowly, stirring, until the bread has completely disappeared into the soup and it is thick enough for a spoon to stand up in.',
+      'Stir in the torn bread, take the pot off the heat, and leave it to stand for an hour. To keep it until the next day, as is traditional, cool it and refrigerate it within 2 hours.',
+      'Reheat slowly, stirring, until the bread has completely disappeared into the soup and it is thick enough for a spoon to stand up in.',
       'Serve in warm bowls with a heavy pour of raw olive oil over each.'
     ],
     tips: [

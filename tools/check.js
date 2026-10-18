@@ -1084,11 +1084,14 @@ try {
    keeps the rule lists in CLAUDE.md in step with src/lib/voice.js. */
 /* The health audit sits in the same list: no recipe may promise a health outcome or carry one of
    the withdrawn health labels, and the volumes whose nutrition is computed from the ingredient list
-   must still reproduce it. */
+   must still reproduce it. The consistency audit fails only on its confirmed findings (a whole-
+   recipe time claim the recipe cannot keep, cooking stages far beyond the cook time, the card or
+   JSON-LD disagreeing with the recipe); its review list is for a person (docs/…/consistency-review.md). */
 for (const audit of ['timing-audit.js', 'timing-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
                      'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
-                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
+                     ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs'],
+                     ['recipe-consistency.js', '--built', '--list', 'confirmed']]) {
   const [script, ...args] = [].concat(audit);
   try {
     require('child_process').execFileSync(process.execPath,

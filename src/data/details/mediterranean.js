@@ -40,6 +40,7 @@ module.exports = {
   },
 
   'moussaka': {
+    cookMax: 112,
     rest: [60, 'resting'],
     d: 'Layers of roasted aubergine, spiced lamb ragù and a thick béchamel enriched with egg yolks and kefalotyri, baked until the top puffs and browns. Greece\'s great Sunday dish.',
     meta: 'Traditional Greek moussaka with roasted aubergine, cinnamon-spiced lamb and a thick, golden egg-enriched béchamel.',

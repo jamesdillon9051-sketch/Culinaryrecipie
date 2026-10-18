@@ -516,7 +516,7 @@ module.exports = {
 
   'freezer-lasagna': {
     d: 'A beef and tomato lasagna assembled in a foil dish and frozen unbaked, then baked from frozen for 1 hour 30 minutes.',
-    meta: 'Freezer lasagna with beef ragu and mozzarella, assembled and frozen, baked for 45 minutes fresh. Eight servings, ready in 1 hour 25 minutes.',
+    meta: 'Freezer lasagna with beef ragu and mozzarella, assembled and frozen unbaked. Baked fresh, about 2 hours 20 minutes start to finish.',
     kw: ['freezer lasagna', 'make ahead lasagna to freeze', 'frozen beef lasagna', 'bake from frozen lasagna', 'lasagna for the freezer'],
     why: 'A lasagna takes an afternoon to build, and the sensible thing is to make two. One goes in the oven, the other is assembled in a foil dish, wrapped well and frozen unbaked, for a night when a homemade dinner is needed with no effort. Frozen unbaked, the pasta stays tender and the cheese does not dry out, so the result is better than a baked lasagna that has been frozen and reheated.\n\nThe ragu is the heart of it. Brown beef and pork mince in batches, cook onion, carrot and celery until soft, add garlic, tomato purée and wine, then simmer with tinned tomatoes for 30 minutes. Cool the sauce completely before assembling. Warm sauce on dry pasta sheets starts to soften them at once, and in the freezer it makes the lasagna watery.\n\n**Use no-boil sheets and a slightly looser sauce.** The dry pasta absorbs liquid as it bakes, and in a frozen lasagna it takes in a bit more. Layer the sauce, pasta, a white sauce or ricotta mix, and mozzarella, finishing with a layer of sauce and cheese. Press cling film directly on the surface to keep ice crystals out, then wrap the dish in foil.\n\nTo bake from frozen, remove the cling film, cover with foil and bake at 180C for 1 hour 15 minutes, then uncover and bake for 15 minutes more until golden and bubbling. Rest for 15 minutes before cutting. Fresh, the lasagna bakes in 45 minutes.',
     ing: [
@@ -538,7 +538,7 @@ module.exports = {
       '50 g parmesan, grated'
     ],
     st: [
-      'Heat the oil and brown the beef and pork in batches for 8 minutes each. Add the onion and carrot for 6 minutes, then the garlic and tomato purée. Pour in the wine, reduce, then add the tomatoes, oregano and salt and simmer for 30 minutes. Cool completely.',
+      'Heat the oil and brown the beef and pork in batches for 8 minutes each. Add the onion and carrot for 6 minutes, then the garlic and tomato purée. Pour in the wine, reduce, then add the tomatoes, oregano and salt and simmer for 30 minutes. If you are freezing the lasagna, cool the sauce completely first; to bake it straight away, assemble while warm.',
       'Mix the ricotta with the egg and half the parmesan.',
       'In a large foil dish, layer sauce, pasta, ricotta mix and mozzarella, three times, finishing with sauce, mozzarella and the remaining parmesan.',
       'To bake fresh, heat the oven to 180C and bake covered for 30 minutes, then uncovered for 15 minutes. Rest for 15 minutes.',
@@ -551,7 +551,6 @@ module.exports = {
     ],
     pair: ['Green salad', 'Garlic bread', 'Roasted vegetables', 'Red wine'],
     store: 'The unbaked lasagna keeps in the freezer for 3 months. Baked, it keeps for 4 days in the fridge.',
-    rest: [60, 'Freezing'],
     nut: [569, 36, 32, 33, 3, 5, 720]
   },
 

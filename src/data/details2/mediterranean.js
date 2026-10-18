@@ -2,6 +2,8 @@
 
 module.exports = {
   'pastitsio': {
+    cookMax: 121,
+    rest: [30, 'resting'],
     d: 'Greek baked pasta: tubes of bucatini standing on end under spiced lamb and a thick béchamel set with egg and cheese. Cinnamon and clove in the meat sauce are what make it Greek rather than Italian.',
     meta: 'Pastitsio — Greek baked pasta with cinnamon-spiced lamb and a thick egg-set béchamel, cut into clean squares.',
     kw: ['pastitsio recipe', 'greek baked pasta', 'greek lasagne', 'bechamel pasta bake'],

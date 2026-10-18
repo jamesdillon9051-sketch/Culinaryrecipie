@@ -25,10 +25,10 @@ function c(slug, title, cuisine, category, difficulty, prep, cook, servings, rat
 module.exports = [
   /* ---------------------------------------------------------- Italian (9) */
   c('ragu-napoletano', 'Ragù Napoletano', 'Italian', 'Dinner', 'Medium', 25, 240, 8, 4.8, 1422, [], ['editors'], 'Ragu napoletano'),
-  c('pasta-e-fagioli', 'Pasta e Fagioli', 'Italian', 'Dinner', 'Easy', 15, 45, 6, 4.7, 1866, ['Vegetarian'], [], 'Pasta e fagioli'),
+  c('pasta-e-fagioli', 'Pasta e Fagioli', 'Italian', 'Dinner', 'Easy', 15, 80, 6, 4.7, 1866, ['Vegetarian'], [], 'Pasta e fagioli'),
   c('vitello-tonnato', 'Vitello Tonnato', 'Italian', 'Appetizers', 'Medium', 30, 90, 6, 4.6, 844, ['Gluten-Free'], [], 'Vitello tonnato'),
   c('focaccia-genovese', 'Focaccia Genovese', 'Italian', 'Baking', 'Easy', 25, 25, 12, 4.9, 3288, ['Vegan'], ['trending'], 'Focaccia'),
-  c('gnocchi-alla-sorrentina', 'Gnocchi alla Sorrentina', 'Italian', 'Dinner', 'Medium', 40, 30, 4, 4.8, 2011, ['Vegetarian'], [], 'Gnocchi sorrentina'),
+  c('gnocchi-alla-sorrentina', 'Gnocchi alla Sorrentina', 'Italian', 'Dinner', 'Medium', 40, 80, 4, 4.8, 2011, ['Vegetarian'], [], 'Gnocchi sorrentina'),
   c('pasta-alla-gricia', 'Pasta alla Gricia', 'Italian', 'Quick Meals', 'Easy', 5, 20, 4, 4.7, 1288, [], [], 'Pasta alla gricia'),
   c('caponata', 'Sicilian Caponata', 'Italian', 'Appetizers', 'Easy', 20, 40, 6, 4.7, 1144, ['Vegan', 'Gluten-Free'], [], 'Caponata'),
   c('zeppole', 'Zeppole', 'Italian', 'Desserts', 'Medium', 25, 20, 16, 4.7, 966, ['Vegetarian'], [], 'Zeppole'),
@@ -61,7 +61,7 @@ module.exports = [
 
   /* ----------------------------------------------------------- Indian (9) */
   c('lamb-rogan-josh', 'Lamb Rogan Josh', 'Indian', 'Dinner', 'Medium', 25, 90, 6, 4.8, 2866, ['Gluten-Free'], ['editors'], 'Rogan josh'),
-  c('dal-makhani', 'Dal Makhani', 'Indian', 'Dinner', 'Medium', 20, 120, 6, 4.9, 3644, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Dal makhani'),
+  c('dal-makhani', 'Dal Makhani', 'Indian', 'Dinner', 'Medium', 20, 190, 6, 4.9, 3644, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Dal makhani'),
   c('hyderabadi-biryani', 'Hyderabadi Biryani', 'Indian', 'Dinner', 'Hard', 60, 60, 8, 4.9, 4122, [], [], 'Hyderabadi biryani'),
   c('vada-pav', 'Vada Pav', 'Indian', 'Lunch', 'Easy', 25, 20, 6, 4.7, 1866, ['Vegetarian'], [], 'Vada pav'),
   c('masala-chai', 'Masala Chai', 'Indian', 'Drinks', 'Easy', 5, 10, 4, 4.8, 3122, ['Vegetarian', 'Gluten-Free'], [], 'Masala chai'),
@@ -83,7 +83,7 @@ module.exports = [
   c('boston-cream-pie', 'Boston Cream Pie', 'American', 'Desserts', 'Medium', 40, 30, 10, 4.7, 1644, ['Vegetarian'], [], 'Boston cream pie'),
 
   /* ---------------------------------------------------------- British (6) */
-  c('steak-and-ale-pie', 'Steak and Ale Pie', 'British', 'Dinner', 'Medium', 35, 150, 6, 4.8, 2144, [], [], 'Steak and ale pie'),
+  c('steak-and-ale-pie', 'Steak and Ale Pie', 'British', 'Dinner', 'Medium', 35, 214, 6, 4.8, 2144, [], [], 'Steak and ale pie'),
   c('trifle', 'English Trifle', 'British', 'Desserts', 'Easy', 40, 15, 10, 4.7, 1544, ['Vegetarian'], [], 'Trifle'),
   c('crumpets', 'Crumpets', 'British', 'Baking', 'Medium', 90, 15, 10, 4.7, 1322, ['Vegetarian'], [], 'Crumpets'),
   c('ploughmans-lunch', "Ploughman's Lunch", 'British', 'Lunch', 'Easy', 15, 0, 2, 4.5, 644, ['Vegetarian'], [], 'Ploughmans lunch'),
@@ -189,7 +189,7 @@ module.exports = [
   c('fesenjan', 'Fesenjan', 'Persian', 'Dinner', 'Medium', 25, 120, 6, 4.7, 1044, ['Gluten-Free'], [], 'Fesenjan'),
   c('tahdig', 'Tahdig', 'Persian', 'Dinner', 'Medium', 20, 60, 6, 4.8, 1866, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Tahdig persian rice'),
   c('joojeh-kabab', 'Joojeh Kabab', 'Persian', 'Dinner', 'Easy', 25, 20, 4, 4.8, 1322, ['Gluten-Free'], [], 'Joojeh kabab'),
-  c('ash-reshteh', 'Ash Reshteh', 'Persian', 'Lunch', 'Medium', 30, 75, 6, 4.7, 788, ['Vegetarian'], [], 'Ash reshteh'),
+  c('ash-reshteh', 'Ash Reshteh', 'Persian', 'Lunch', 'Medium', 30, 131, 6, 4.7, 788, ['Vegetarian'], [], 'Ash reshteh'),
 
   /* -------------------------------------------------------- Israeli (3) */
   c('sabich', 'Sabich', 'Israeli', 'Lunch', 'Easy', 25, 15, 4, 4.7, 1188, ['Vegetarian'], [], 'Sabich sandwich'),
@@ -308,7 +308,7 @@ module.exports = [
   c('ugali-sukuma', 'Ugali and Sukuma Wiki', 'Kenyan', 'Dinner', 'Easy', 15, 25, 4, 4.6, 644, ['Vegan', 'Gluten-Free'], [], 'Ugali sukuma wiki'),
 
   /* ---------------------------------------------------- South African (2) */
-  c('bunny-chow', 'Bunny Chow', 'South African', 'Lunch', 'Medium', 25, 60, 4, 4.7, 1044, ['Dairy-Free'], [], 'Bunny chow'),
+  c('bunny-chow', 'Bunny Chow', 'South African', 'Lunch', 'Medium', 25, 148, 4, 4.7, 1044, ['Dairy-Free'], [], 'Bunny chow'),
   c('malva-pudding', 'Malva Pudding', 'South African', 'Desserts', 'Easy', 15, 45, 8, 4.7, 966, ['Vegetarian'], [], 'Malva pudding'),
 
   /* ------------------------------------------------------ Australian (3) */
@@ -317,7 +317,7 @@ module.exports = [
   c('anzac-biscuits', 'Anzac Biscuits', 'Australian', 'Baking', 'Easy', 15, 18, 20, 4.7, 1544, ['Vegetarian'], [], 'Anzac biscuits'),
 
   /* -------------------------------------------------------- Hawaiian (2) */
-  c('kalua-pork', 'Kalua Pork', 'Hawaiian', 'Dinner', 'Easy', 15, 300, 8, 4.8, 1322, ['Gluten-Free', 'Dairy-Free'], [], 'Kalua pig shredded pork Hawaiian'),
+  c('kalua-pork', 'Kalua Pork', 'Hawaiian', 'Dinner', 'Easy', 15, 420, 8, 4.8, 1322, ['Gluten-Free', 'Dairy-Free'], [], 'Kalua pig shredded pork Hawaiian'),
   c('loco-moco', 'Loco Moco', 'Hawaiian', 'Breakfast', 'Easy', 15, 20, 4, 4.7, 1188, [], [], 'Loco moco'),
 
   /* --------------------------------------------------- International (10) */

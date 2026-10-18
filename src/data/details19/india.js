@@ -400,7 +400,7 @@ module.exports = {
     ],
     st: [
       'Mix the chicken with the yoghurt, ginger and garlic paste, chilli powder, turmeric, garam masala and salt.',
-      'Marinate 30 minutes at room temperature.',
+      'Cover and marinate 30 minutes in the fridge.',
       'Stir in the rice flour, cornflour and egg to make a thick clinging coating.',
       'Heat the oil to 180C.',
       'Fry the chicken in three batches for 5 minutes each, until deep red-brown and firm. Drain on a rack.',

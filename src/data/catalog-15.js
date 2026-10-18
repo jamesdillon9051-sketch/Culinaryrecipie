@@ -62,7 +62,7 @@ module.exports = [
   c('soupe-de-poisson', 'Soupe de Poisson', 'French', 'Lunch', 'Medium', 30, 55, 6, 0, 0, ['Dairy-Free'], ['new'], 'Soupe de poisson provencale rouille croutons'),
 
   /* Mains */
-  c('hachis-parmentier', 'Hachis Parmentier', 'French', 'Dinner', 'Easy', 30, 45, 6, 0, 0, [], ['new'], 'Hachis parmentier french shepherds pie'),
+  c('hachis-parmentier', 'Hachis Parmentier', 'French', 'Dinner', 'Easy', 30, 216, 6, 0, 0, [], ['new'], 'Hachis parmentier french shepherds pie'),
   c('poulet-basquaise', 'Poulet Basquaise', 'French', 'Dinner', 'Easy', 25, 55, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'Poulet basquaise chicken peppers tomato'),
   c('poule-au-pot', 'Poule au Pot', 'French', 'Dinner', 'Medium', 40, 150, 8, 0, 0, [], ['new'], 'Poule au pot stuffed boiled chicken vegetables'),
   c('navarin-printanier', "Navarin d'Agneau", 'French', 'Dinner', 'Medium', 30, 105, 6, 0, 0, ['Dairy-Free'], ['new'], 'Navarin printanier lamb spring vegetables'),

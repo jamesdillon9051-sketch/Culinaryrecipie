@@ -345,7 +345,7 @@ module.exports = {
   },
 
   'chlodnik': {
-    d: 'A cold pink Polish soup of beetroot, kefir, cucumber, radishes and dill, ready in 15 minutes with no cooking.',
+    d: 'A cold pink Polish soup of beetroot, kefir, cucumber, radishes and dill: 15 minutes of work and no cooking, then an hour in the fridge.',
     meta: 'Chłodnik, cold pink Polish beetroot and kefir soup with cucumber and dill, ready in 15 minutes plus chilling. Four servings, no cooking.',
     kw: ['chlodnik', 'polish cold beetroot soup', 'pink summer soup with kefir', 'chlodnik litewski', 'cold beetroot and cucumber soup'],
     why: 'A bowl for four on the first hot day, and the pinkest soup you will ever see. Chłodnik is a cold Polish summer soup of beetroot, kefir or buttermilk, cucumber, radishes and dill, and it has been made for generations in the days when the first young beets arrived at the market.\n\nUse ready peeled vacuum packed beetroot to save time, or grate raw young beets. Grate half the beetroot coarsely and dice the rest. Stir into the kefir with a little cold water, grated cucumber, sliced radishes, spring onion and a handful of dill. **Season well with salt, a pinch of sugar and a spoonful of lemon juice**, because cold dulls flavour, and the soup should be tangy and sweet at once.\n\nChill for at least 1 hour. The colour deepens and the flavours blend. Serve in bowls over a few ice cubes, with a dollop of soured cream and a scattering of chives. A boiled egg half and a few new potatoes on the side are traditional. The soup keeps for 2 days in the fridge, and the colour fades slightly.',

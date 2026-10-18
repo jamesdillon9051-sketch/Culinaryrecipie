@@ -258,7 +258,7 @@ module.exports = {
       '2 sprigs of fresh thyme'
     ],
     st: [
-      'Mix 2 tablespoons of the oil with the garlic, rosemary and pepper in a shallow dish, add the kangaroo and turn to coat. Marinate at room temperature for 30 minutes.',
+      'Mix 2 tablespoons of the oil with the garlic, rosemary and pepper in a shallow dish, add the kangaroo and turn to coat. Cover and marinate in the fridge for 30 minutes.',
       'Lift the steaks from the marinade, wipe off most of the garlic so that it does not burn, and season with the salt.',
       'Heat the remaining oil in a heavy frying pan over high heat until it is nearly smoking. Sear the steaks for 2 to 3 minutes on each side for rare to medium-rare, turning only once.',
       'Transfer them to a warm plate, cover loosely with foil and rest for 5 minutes.',

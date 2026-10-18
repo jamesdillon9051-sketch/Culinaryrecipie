@@ -46,7 +46,7 @@ module.exports = {
   },
 
   'ajoblanco': {
-    d: 'A chilled Andalusian soup of blended almonds, bread, garlic, olive oil and sherry vinegar, served with grapes, ready in 15 minutes.',
+    d: 'A chilled Andalusian soup of blended almonds, bread, garlic, olive oil and sherry vinegar, served with grapes: 15 minutes of work, then 2 hours in the fridge.',
     meta: 'Ajoblanco, chilled Andalusian almond and garlic soup with grapes, ready in 15 minutes plus chilling. Six servings, no cooking.',
     kw: ['ajoblanco', 'white gazpacho', 'chilled almond and garlic soup', 'andalusian almond soup with grapes', 'ajoblanco recipe'],
     why: 'Most home versions come out bitter or harsh, and the fix is to use just one garlic clove and blanched almonds. Ajoblanco, the white gazpacho of Andalusia and Málaga, is a cold soup of ground almonds, soaked bread and garlic, thinned with water and sharpened with a little sherry vinegar. It is served ice cold in summer.\n\nSoak the bread in cold water for 10 minutes, squeeze it and blend it with blanched almonds, the garlic, olive oil, vinegar and salt. **Add the water a little at a time**, tasting as you go, because the soup should be as thick as single cream and no thinner. Blend for at least 3 minutes for a smooth soup. A whole clove of raw garlic is strong, so remove the germ from the middle if it is green.\n\nChill for at least 2 hours, as the flavours settle and the garlic mellows. Serve in small bowls with a drizzle of the best oil and a few green or white grapes, and sometimes a slice of melon. Taste once chilled, since cold dulls salt and acid, and add more of each if needed.',
