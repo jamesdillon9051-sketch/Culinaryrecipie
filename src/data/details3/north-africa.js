@@ -36,7 +36,7 @@ module.exports = {
       'Add the olives and preserved lemon rind and cook uncovered for 15 minutes.',
       'Lift the chicken onto a plate and boil the sauce hard for 8 to 10 minutes until it reduces to a thick glaze that coats a spoon.',
       'Remove the herb bundle, return the chicken, add the lemon juice, and only now taste for salt.',
-      'Rest 5 minutes and serve with bread to mop the sauce.'
+      'Rest 5 minutes and serve with bread (optional) to mop the sauce.'
     ],
     tips: [
       'Salt at the end, never at the start. The olives and lemons do that job.',
@@ -244,7 +244,7 @@ module.exports = {
       'Taste and adjust the harissa — it should be properly hot.',
       'Make six wells in the sauce with the back of a spoon and crack an egg into each.',
       'Season the eggs, cover the pan, and cook on low heat for 6 to 8 minutes until the whites are set and the yolks still soft.',
-      'Scatter with feta and herbs and serve straight from the pan with flatbread.'
+      'Scatter with feta and herbs and serve straight from the pan with flatbread (if using).'
     ],
     tips: [
       'Cook the sauce in the merguez fat. That is where the flavour is.',

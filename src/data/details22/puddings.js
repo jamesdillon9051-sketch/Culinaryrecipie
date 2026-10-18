@@ -68,7 +68,7 @@ module.exports = {
       'Whip the cream to soft peaks in a cold bowl.',
       'Fold the cooled gooseberry purée through the cream, leaving ripples for a marbled look.',
       'Spoon into six glasses and chill at least 1 hour.',
-      'Serve with shortbread biscuits.'
+      'Serve with shortbread biscuits (optional).'
     ],
     tips: [
       'Cool the fruit completely. Warm purée turns the cream to soup.',

@@ -28,7 +28,7 @@ const { esc, clamp, slugify, plural, isIllustration: isDrawing, CATEGORIES, CUIS
    taken by someone else, and is the keyword-filled alt text Google's image
    guidelines ask sites not to write. */
 function altText(row, detail, hero) {
-  return clamp(hero && isDrawing(hero) ? `Illustration of ${row.title}` : row.title, 160);
+  return clamp(hero && isDrawing(hero) ? `AI-generated illustration of ${row.title}` : row.title, 160);
 }
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
@@ -38,12 +38,15 @@ const contentDates = require('./lib/content-dates');
 const { detectWait, waitLabel } = require('./lib/timing');
 const { dietConditions } = require('./lib/diet-conditions');
 const calc = require('../tools/nutrition-calc');
-function nutritionSource(detail, servings) {
-  const computed = calc.computeRecipe(detail.ing, servings);
-  if (computed.problems.length) return 'estimated';
-  return calc.differences({ nut: detail.nut }, computed).length ? 'estimated' : 'calculated';
-}
+/* Tags that only the build may set, from the figures and the ingredient list. A
+   few rows still carry one typed by hand; it is ignored rather than trusted. */
+const DERIVED_ONLY = ['High-Protein', 'Low-Carb', 'Keto', 'No Added Sugar'];
 const dietNotes = recipe => Object.values(recipe.dietStatus || {}).map(d => d.note).filter(Boolean);
+/* Diet tags that hold as the recipe is written, and those that hold only with a swap the recipe
+   offers. The filters and the search index keep them apart, so "Vegan" lists only what is vegan
+   as written unless the reader asks for the swaps too. Derived tags are always as written. */
+const asWritten = recipe => recipe.tags.filter(t => !recipe.dietStatus || !recipe.dietStatus[t] || recipe.dietStatus[t].status === 'clean');
+const withSwap = recipe => recipe.tags.filter(t => recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status === 'conditional');
 const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
@@ -78,7 +81,7 @@ function hubDescription(hub) {
   } else if (Number.isFinite(quickest)) {
     fit(`From ${quickest} minutes.`);
   }
-  fit('Each with nutrition, method and the reasoning behind it.');
+  fit('Each with the method and the reasoning behind it.');
   return text;
 }
 
@@ -253,10 +256,12 @@ function loadRecipes() {
   const recipes = catalog.map((row, index) => {
     const detail = details[row.slug];
     if (!detail) throw new Error(`Missing recipe detail for "${row.slug}"`);
-    for (const field of ['d', 'meta', 'kw', 'why', 'ing', 'st', 'tips', 'pair', 'store', 'nut']) {
+    for (const field of ['d', 'meta', 'kw', 'why', 'ing', 'st', 'tips', 'pair', 'store']) {
       if (!detail[field]) throw new Error(`"${row.slug}" is missing the "${field}" field`);
     }
-    if (detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
+    /* Legacy input only (the printed figures are computed below), so optional; but if given,
+       seven numbers. */
+    if (detail.nut && detail.nut.length !== 7) throw new Error(`"${row.slug}" nutrition needs 7 values`);
     /* Optional: estimated potassium and phosphorus in mg a serving, printed beside the
        other nutrition figures (volume 34). Half-filled is always a mistake. */
     if (detail.kp && (!Array.isArray(detail.kp) || detail.kp.length !== 2
@@ -290,10 +295,22 @@ function loadRecipes() {
        the feeds, a second apart, without moving the date anyone sees. */
     const published = Date.parse(`${datePublished}T12:00:00Z`) - index * 1000;
 
+    /* Nutrition is worked out from the ingredient list on every build, against
+       the food table and its recorded sources (tools/nutrition-calc.js,
+       tools/nutrition-sources.json). The figure typed into the record (`nut`)
+       is legacy input and is not printed: for half the catalogue nobody could
+       say where it came from. Tier 1 is a documented calculation, tier 2 an
+       approximation whose assumptions the page names, tier 3 not reproducible,
+       in which case nothing is printed and nothing goes in the schema. */
+    const nut = calc.computeRecipe(detail.ing, row.servings, { drink: row.category === 'Drinks' });
+
     /* Derived tags join the hand-written ones. They are computed from the
        nutrition figures and ingredient list, so they cannot fall out of step
-       with the recipe the way the typed ones did. */
-    const tags = [...row.tags, ...derivedTags(detail, row.tags).filter(tag => !row.tags.includes(tag))];
+       with the recipe the way the typed ones did. The ones that read the
+       figures need a tier-1 calculation behind them. */
+    const typed = row.tags.filter(tag => !DERIVED_ONLY.includes(tag));
+    const tags = [...typed, ...derivedTags({ ing: detail.ing, nut: nut.tier === 1 ? nut.nut : null }, typed)
+      .filter(tag => !typed.includes(tag))];
 
     const built = {
       ...row,
@@ -339,13 +356,15 @@ function loadRecipes() {
       headings: detail.headings || null,
       pairings: detail.pair,
       storage: detail.store,
-      nutrition: detail.nut,
-      kp: detail.kp || null,
-      /* Whether the printed figures are what the ingredient list adds up to
-         (tools/nutrition-calc.js, within its tolerances) or an estimate made when
-         the recipe was written. The page says which; it used to say "calculated
-         from the ingredient list" on every recipe, which was true of about half. */
-      nutritionSource: nutritionSource(detail, row.servings),
+      nutrition: nut.tier < 3 ? nut.nut : null,
+      /* Potassium and phosphorus only where a recipe already printed them. */
+      kp: detail.kp && nut.tier < 3 ? nut.kp : null,
+      nutritionTier: nut.tier,
+      nutritionReasons: nut.reasons,
+      /* False when salt is added to taste or poured away with cooking water,
+         or the figures are not tier 1: nothing may then be said about sodium. */
+      sodiumReliable: nut.sodiumReliable,
+      alcohol: nut.alcohol,
       cardBlurb: clamp(detail.d, 118),
       imageData: image.hero || null,
       processData: image.process || null,
@@ -457,7 +476,11 @@ function buildContext(recipes) {
   const topCuisines = Object.keys(cuisineCounts).sort((a, b) => cuisineCounts[b] - cuisineCounts[a] || a.localeCompare(b));
 
   const tagCounts = {};
-  for (const tag of DIET_TAGS) tagCounts[tag] = recipes.filter(r => r.tags.includes(tag)).length;
+  const tagSwapCounts = {};
+  for (const tag of DIET_TAGS) {
+    tagCounts[tag] = recipes.filter(r => asWritten(r).includes(tag)).length;
+    tagSwapCounts[tag] = recipes.filter(r => withSwap(r).includes(tag)).length;
+  }
 
   const timeCounts = {};
   for (const t of [15, 30, 45, 60, 120]) timeCounts[t] = recipes.filter(r => r.elapsedTime <= t).length;
@@ -475,6 +498,7 @@ function buildContext(recipes) {
       cuisine: cuisineCounts,
       cuisineList: topCuisines,
       tag: tagCounts,
+      tagSwap: tagSwapCounts,
       difficulty: count(recipes, 'difficulty'),
       time: timeCounts
     }
@@ -488,7 +512,8 @@ function searchIndex(recipes) {
     t: r.title,                                  // title
     c: r.cuisine,                                // cuisine
     n: r.category,                               // category
-    f: r.tags,                                   // dietary flags
+    f: asWritten(r),                             // dietary flags that hold as written
+    h: withSwap(r).length ? withSwap(r) : undefined,   // ...and those that hold only with a swap
     d: r.difficulty,
     /* Start to finish, waiting included: the time filter and the "quickest"
        sort used hands-on minutes, so an overnight focaccia sat among the
@@ -928,8 +953,11 @@ function build() {
   writePage('about/index.html', pages.about(ctx));
   writePage('privacy/index.html', pages.privacy(ctx));
   writePage('contact/index.html', pages.contact(ctx));
-  writePage('contact/success/index.html', pages.contactSuccess(ctx));
-  writePage('contact/not-sent/index.html', pages.contactNotSent(ctx));
+  /* Templates for the endpoint's own result pages, not public pages: the server
+     refuses to serve contact/_pages/ (.htaccess), so "Message sent" can only be
+     reached through the endpoint's signed redirect. */
+  writePage('contact/_pages/sent.html', pages.contactSentPage(ctx));
+  writePage('contact/_pages/not-sent.html', pages.contactNotSentPage(ctx));
   /* The form's endpoint, the one server-side file on the site. Its settings,
      including where messages go, live outside the public directory. */
   fs.copyFileSync(path.join(SRC, 'server', 'contact-send.php'), path.join(OUT, 'contact', 'send.php'));
@@ -1013,7 +1041,7 @@ function build() {
       description: enrichDescription(
         `${plural(list.length, name + ' recipe')} on Weekly Delight. ${meta.blurb}`,
         [`Authentic ${name} cooking explained step by step.`,
-         'With nutrition, timings and make-ahead notes.', ...TAIL_CLAUSES]),
+         'With timings and make-ahead notes.', ...TAIL_CLAUSES]),
       keywords: keywordsForCuisine(name, list),
       path: `cuisines/${slug(name)}/`,
       active: 'cuisines',

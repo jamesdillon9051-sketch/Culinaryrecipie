@@ -317,7 +317,7 @@ module.exports = {
       'Crumple a large sheet of baking paper, smooth it out, and press it into a 23 cm springform tin so it stands 5 cm above the rim. Add a second sheet at right angles.',
       'Beat the cream cheese and sugar on medium for 3 minutes until completely smooth, scraping down twice. Any lump now is a lump forever.',
       'Add the eggs one at a time on low speed, beating just until each disappears. Beating air in here makes it soufflé and then crack.',
-      'Pour in the cream and vanilla and mix on low until combined, then sift over the flour and salt and mix 20 seconds more.',
+      'Pour in the cream and vanilla and mix on low until combined, then sift over the flour (or cornflour) and salt and mix 20 seconds more.',
       'Strain the batter through a sieve into the tin. This is the only insurance against a lump.',
       'Bake 45 to 55 minutes, until the top is deeply browned — almost black at the edges — and the centre still wobbles like a set jelly when you nudge the tin.',
       'Leave it to cool in the tin at room temperature for at least 4 hours. It will sink in the middle, which is what it is meant to do.',

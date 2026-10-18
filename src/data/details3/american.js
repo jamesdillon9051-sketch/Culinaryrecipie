@@ -38,7 +38,7 @@ module.exports = {
       'While it cooks, whisk the sauce ingredients together and leave at room temperature for the flavours to meet.',
       'Rest the pork, loosely tented, for 30 minutes. Do not skip this — it reabsorbs its juices.',
       'Pull the meat apart with two forks, discarding any hard fat, and toss with the pan juices and half the vinegar sauce.',
-      'Pile into buns with slaw, with the rest of the sauce on the table.'
+      'Pile into buns (optional) with slaw, with the rest of the sauce on the table.'
     ],
     tips: [
       'Overnight in the fridge, uncovered. Dry surface, seasoned through, better bark.',

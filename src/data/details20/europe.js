@@ -297,7 +297,7 @@ module.exports = {
       'Lift the mussels out with a slotted spoon into warm bowls, discarding any that stayed shut.',
       'Boil the liquor hard for 1 minute, then stir in the cream and pepper.',
       'Taste it — it should not need salt.',
-      'Pour the liquor over the mussels, scatter the parsley and serve with the baguette.'
+      'Pour the liquor over the mussels, scatter the parsley and serve with the baguette (optional).'
     ],
     tips: [
       'A wide pan, three deep at most.',

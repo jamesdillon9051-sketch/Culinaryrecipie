@@ -200,7 +200,7 @@ module.exports = {
       'Simmer 8 minutes until thick but pourable — it should coat a spoon and drop off it easily.',
       'Taste and adjust: it wants to be savoury, sour and only mildly sweet.',
       'Arrange all the vegetables, tofu, tempeh, potato, cucumber and egg on a large platter in distinct groups.',
-      'Pour the warm sauce generously over the top, scatter with crackers and fried shallots, and serve with lime.'
+      'Pour the warm sauce generously over the top, scatter with crackers (optional) and fried shallots, and serve with lime.'
     ],
     tips: [
       'Blanch separately and refresh. Cooking everything in one pot gives a grey, uniform salad.',

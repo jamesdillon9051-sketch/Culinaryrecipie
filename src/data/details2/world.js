@@ -75,13 +75,13 @@ module.exports = {
     st: [
       'Run the açaí packets briefly under warm water for 10 seconds so you can break them into chunks.',
       'Chill two bowls in the freezer — the base melts fast and cold bowls buy you several minutes.',
-      'Put the coconut water, almond butter and honey into the blender first, so the blades have something to catch.',
+      'Put the coconut water, almond butter and honey (if using) into the blender first, so the blades have something to catch.',
       'Add the açaí chunks, frozen banana and frozen berries on top.',
       'Blend on low, using the tamper or stopping to scrape down the sides every 15 seconds.',
       'Resist adding more liquid. Add it only a tablespoon at a time, and only if the blender genuinely will not turn.',
       'The base is ready when it is the texture of soft-serve ice cream and holds a peak on the spoon.',
       'Spoon into the chilled bowls and smooth the surface.',
-      'Arrange the granola, banana, berries, coconut, chia and cacao nibs in neat sections and finish with a drizzle of honey. Eat immediately.'
+      'Arrange the granola, banana, berries, coconut, chia and cacao nibs in neat sections and finish with a drizzle of honey (if using). Eat immediately.'
     ],
     tips: [
       'Frozen bananas are the trick. They thicken the base and sweeten it without any added liquid.',

@@ -79,7 +79,7 @@ const CASES = [
   ['/categories/dinner/', true], ['/cuisines/italian/', true], ['/ingredients/chicken/', true],
   ['/search/', true], ['/about/', true], ['/contact/', true],
   /* noindex pages: crawlable, so the noindex can be read */
-  ['/favourites/', true], ['/contact/success/', true], ['/contact/not-sent/', true],
+  ['/favourites/', true],
   /* what a page needs to render must be fetchable */
   ['/assets/css/main.css?v=abc', true], ['/assets/js/app.js?v=abc', true],
   ['/assets/img/recipes/focaccia.jpg', true], ['/search-index.json', true],

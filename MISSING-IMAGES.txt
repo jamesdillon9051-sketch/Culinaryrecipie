@@ -6,7 +6,8 @@ Save a photograph as BOTH files in  src/assets/img/recipes/
     <slug>.webp   800 px wide, quality ~68
 Then run:  python3 tools/adopt_images.py   (see its header for the credit and licence it needs)
 
-== American (547) ======================================
+== American (548) ======================================
+  honey-garlic-glazed-salmon         Honey Garlic Glazed Salmon   [3 refused already]
   grape-jelly-meatballs              Grape Jelly Meatballs   [6 refused already]
   beef-and-noodles                   Beef and Noodles   [15 refused already]
   chicken-bacon-ranch-pasta          Chicken Bacon Ranch Pasta   [10 refused already]
@@ -719,7 +720,10 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   bomboloni-al-forno                 Bomboloni al Forno
   spritz-veneziano                   Spritz Veneziano   [1 refused already]
 
-== British (157) =======================================
+== British (160) =======================================
+  cumberland-sauce                   Cumberland Sauce   [6 refused already]
+  gooseberry-fool                    Gooseberry Fool   [1 refused already]
+  pickled-eggs                       Pickled Eggs   [11 refused already]
   lamb-bhuna                         Lamb Bhuna   [2 refused already]
   butterfly-cakes                    Butterfly Cakes   [13 refused already]
   omelette-arnold-bennett            Omelette Arnold Bennett   [15 refused already]
@@ -1006,7 +1010,8 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   gluten-free-naan                   Gluten-Free Naan   [1 refused already]
   vegan-butter-chicken               Vegan Butter Chicken
 
-== Mexican (46) ========================================
+== Mexican (47) ========================================
+  paletas                            Paletas   [15 refused already]
   almond-flour-tortillas             Almond Flour Tortillas   [3 refused already]
   chicken-fajita-soup                Chicken Fajita Soup   [17 refused already]
   turkey-taco-lettuce-wraps          Turkey Taco Lettuce Wraps   [8 refused already]
@@ -1113,7 +1118,8 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chuleton-de-buey                   Chuletón de Buey   [1 refused already]
   arroz-con-conejo-y-caracoles       Arroz con Conejo y Caracoles
 
-== Chinese (24) ========================================
+== Chinese (25) ========================================
+  vinegar-cabbage                    Vinegar Cabbage   [7 refused already]
   mongolian-lamb                     Mongolian Lamb   [15 refused already]
   crispy-seaweed                     Crispy Seaweed   [20 refused already]
   crispy-aromatic-duck               Crispy Aromatic Duck   [4 refused already]
@@ -1190,7 +1196,8 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   domatokeftedes                     Domatokeftedes
   rizogalo                           Rizogalo   [1 refused already]
 
-== Canadian (16) =======================================
+== Canadian (17) =======================================
+  maple-glazed-salmon                Maple Glazed Salmon   [3 refused already]
   cipaille                           Cipaille   [2 refused already]
   figgy-duff                         Figgy Duff   [8 refused already]
   rye-and-ginger                     Rye and Ginger   [12 refused already]
@@ -1241,6 +1248,21 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   instant-pot-teriyaki-chicken       Instant Pot Teriyaki Chicken
   one-pot-ramen                      One Pot Ramen
 
+== New Zealand (13) ====================================
+  garlic-butter-crayfish             Garlic Butter Crayfish   [8 refused already]
+  paraoa-parai                       Pāraoa Parai   [3 refused already]
+  tamarillo-chutney                  Tamarillo Chutney   [3 refused already]
+  hokey-pokey-biscuits               Hokey Pokey Biscuits   [7 refused already]
+  kumara-fritters                    Kūmara Fritters   [5 refused already]
+  corned-beef-and-white-sauce        Corned Beef and White Sauce   [8 refused already]
+  kiwi-fruit-pavlova                 Kiwi Fruit Pavlova
+  pineapple-lumps-slice              Pineapple Lumps Slice   [1 refused already]
+  marmite-cheese-scrolls             Marmite Cheese Scrolls
+  butter-chicken-pie                 Butter Chicken Pie   [2 refused already]
+  l-p-cake                           L&P Cake   [1 refused already]
+  green-lipped-mussels               Green Lipped Mussels   [1 refused already]
+  chilli-mussels                     Chilli Mussels   [1 refused already]
+
 == Polish (13) =========================================
   haluski                            Haluski   [2 refused already]
   polish-meatballs                   Polish Meatballs
@@ -1255,20 +1277,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   chlodnik                           Chlodnik   [1 refused already]
   kluski-slaskie                     Kluski Slaskie   [1 refused already]
   rolada-slaska                      Rolada Slaska
-
-== New Zealand (12) ====================================
-  paraoa-parai                       Pāraoa Parai   [3 refused already]
-  tamarillo-chutney                  Tamarillo Chutney   [3 refused already]
-  hokey-pokey-biscuits               Hokey Pokey Biscuits   [7 refused already]
-  kumara-fritters                    Kūmara Fritters   [5 refused already]
-  corned-beef-and-white-sauce        Corned Beef and White Sauce   [8 refused already]
-  kiwi-fruit-pavlova                 Kiwi Fruit Pavlova
-  pineapple-lumps-slice              Pineapple Lumps Slice   [1 refused already]
-  marmite-cheese-scrolls             Marmite Cheese Scrolls
-  butter-chicken-pie                 Butter Chicken Pie   [2 refused already]
-  l-p-cake                           L&P Cake   [1 refused already]
-  green-lipped-mussels               Green Lipped Mussels   [1 refused already]
-  chilli-mussels                     Chilli Mussels   [1 refused already]
 
 == Portuguese (12) =====================================
   piri-piri-prawns                   Piri Piri Prawns   [1 refused already]
@@ -1442,6 +1450,11 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   hungarian-potato-paprikash         Hungarian Potato Paprikash   [2 refused already]
   toltott-kaposzta                   Toltott Kaposzta   [1 refused already]
 
+== Lebanese (3) ========================================
+  kousa-bil-laban                    Kousa bil Laban   [4 refused already]
+  lebanese-cabbage-salad             Lebanese Cabbage Salad   [2 refused already]
+  lebanese-garlic-potatoes           Lebanese Garlic Potatoes   [1 refused already]
+
 == Moroccan (3) ========================================
   moroccan-meatballs                 Moroccan Meatballs
   chermoula-fish                     Chermoula Fish
@@ -1480,6 +1493,10 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
   flaeskesteg                        Flaeskesteg   [1 refused already]
   brunede-kartofler                  Brunede Kartofler
 
+== International (2) ===================================
+  martini                            Martini   [15 refused already]
+  painkiller                         Painkiller   [11 refused already]
+
 == Jewish (2) ==========================================
   brisket-with-onions                Brisket with Onions   [1 refused already]
   charoset                           Charoset   [5 refused already]
@@ -1491,10 +1508,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Korean (2) ==========================================
   korean-beef-lettuce-wraps          Korean Beef Lettuce Wraps   [1 refused already]
   instant-pot-korean-beef            Instant Pot Korean Beef   [2 refused already]
-
-== Lebanese (2) ========================================
-  lebanese-cabbage-salad             Lebanese Cabbage Salad   [2 refused already]
-  lebanese-garlic-potatoes           Lebanese Garlic Potatoes   [1 refused already]
 
 == Slovenian (2) =======================================
   jota-soup                          Jota Soup   [1 refused already]
@@ -1514,9 +1527,6 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 
 == Indonesian (1) ======================================
   nasi-uduk                          Nasi Uduk   [5 refused already]
-
-== International (1) ===================================
-  painkiller                         Painkiller   [11 refused already]
 
 == Luxembourgish (1) ===================================
   luxembourg-judd-mat-gaardebounen   Luxembourg Judd mat Gaardebounen
@@ -1545,4 +1555,4 @@ Then run:  python3 tools/adopt_images.py   (see its header for the credit and li
 == Welsh (1) ===========================================
   anglesey-eggs                      Anglesey Eggs   [1 refused already]
 
-TOTAL 1405 of 5515
+TOTAL 1415 of 5515

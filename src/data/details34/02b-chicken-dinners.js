@@ -14,7 +14,7 @@ module.exports = {
   'tarragon-mustard-chicken': {
     d: 'Pan-seared chicken breasts in a pale sauce of Dijon mustard, shallot, unsalted stock and Greek yogurt, finished with fresh tarragon and lemon. Four servings in 30 minutes.',
     meta: 'Tarragon mustard chicken: seared chicken breasts in a pale Dijon, shallot and yogurt sauce with fresh tarragon. Four servings.',
-    kw: ['tarragon mustard chicken', 'no added salt tarragon chicken', 'gluten free tarragon mustard chicken', 'quick tarragon chicken in mustard sauce', 'easy chicken in dijon and yogurt sauce'],
+    kw: ['tarragon mustard chicken', 'gluten free tarragon mustard chicken', 'quick tarragon chicken in mustard sauce', 'easy chicken in dijon and yogurt sauce'],
     why: 'Yogurt and heat do not mix. A boiling pan splits it into grains, however good it tastes, so the pan comes off the heat before the yogurt goes in and the sauce is stirred, a spoonful at a time, until it is smooth and pale and clings to the chicken.\n\nThe sauce starts in the pan the chicken browned in. **Shallot goes in first**, then Dijon and unsalted stock, and the mixture simmers until it has thickened a little. Tarragon is last. Its aniseed note fades with long cooking, so it goes in at the very end with a squeeze of lemon.\n\nDijon mustard supplies most of the seasoning, with no extra salt, and a little butter rounds the edges. This is a French-style pan sauce, and it is as good on rice as on chicken. Choose a smooth Dijon rather than a grainy one, so that the sauce stays silky. Serve with green beans.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -48,7 +48,7 @@ module.exports = {
   'ginger-scallion-chicken': {
     d: 'Gently poached chicken breasts, sliced and spooned with a sizzling ginger and spring onion oil, rice vinegar and sesame oil. Four servings in 35 minutes.',
     meta: 'Ginger scallion chicken: poached chicken breast with a sizzling ginger and spring onion oil and no added salt. Four servings.',
-    kw: ['ginger scallion chicken', 'no added salt ginger scallion chicken', 'poached chicken with ginger scallion sauce', 'gluten free ginger scallion chicken', 'dairy free ginger spring onion chicken'],
+    kw: ['ginger scallion chicken', 'poached chicken with ginger scallion sauce', 'gluten free ginger scallion chicken', 'dairy free ginger spring onion chicken'],
     why: 'Ginger, spring onions, hot oil and a poached chicken breast. That is all. The sauce is made by pouring hot oil over raw ginger and spring onions, which cooks them in seconds and releases their perfume into the oil.\n\nPoach the chicken gently. **Never let the water boil hard** once the chicken is in, because rapid boiling toughens the fibres. Bring it to a simmer, cover and switch off the heat, and the residual heat cooks the breast through while keeping it moist. It needs about 15 minutes. A thermometer settles any doubt.\n\nMany versions of this sauce are heavily salted. Here it relies on the ginger, a splash of rice vinegar and a little sesame oil, and it still tastes complete. Add the vinegar last, so it stays sharp. Spoon it over the sliced chicken and plain rice. Any left over is good stirred into noodles. Keep the sauce at room temperature, not fridge-cold, so that the oil stays fluid.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -81,7 +81,7 @@ module.exports = {
   'lemongrass-chicken': {
     d: 'Thin slices of chicken marinated with minced lemongrass, shallot, garlic, ginger and lime, then seared in a hot pan and finished with cilantro. Four servings in 30 minutes.',
     meta: 'Lemongrass chicken: sliced chicken marinated with lemongrass, garlic, ginger and lime and seared hot. Four servings in 30 minutes.',
-    kw: ['lemongrass chicken', 'no added salt lemongrass chicken', 'gluten free lemongrass chicken', 'dairy free lemongrass chicken with lime', 'quick lemongrass chicken stir fry'],
+    kw: ['lemongrass chicken', 'gluten free lemongrass chicken', 'dairy free lemongrass chicken with lime', 'quick lemongrass chicken stir fry'],
     why: 'Lemongrass chicken often tastes of very little, because the lemongrass stays in woody pieces that never release their oil. Use only the tender lower third of the stalk, peel away the tough outer layers and mince it as fine as you can. Pounding it first helps.\n\nLime juice, garlic, ginger, shallot and a little chilli go into the marinade with the lemongrass. **Marinate for 20 minutes**, which is long enough for the lime to season the surface without turning the meat chalky. Slice the chicken thin so that it cooks in minutes. High heat gives the edges colour. Do not crowd the pan.\n\nThere is no soy sauce or fish sauce here, so the seasoning has to come from the aromatics. A teaspoon of maple syrup helps the chicken caramelise and balances the lime. Cilantro goes on last. Eat it over rice or in lettuce leaves. A few extra slices of chilli on top add heat and colour.',
     ing: [
       '440 g skinless chicken breast, thinly sliced',
@@ -116,7 +116,7 @@ module.exports = {
   'smoked-paprika-chicken': {
     d: 'Chicken breasts rubbed with a paste of smoked paprika, garlic, lemon and olive oil, seared and finished covered, with sherry vinegar and parsley. Four servings in 30 minutes.',
     meta: 'Smoked paprika chicken: breasts rubbed with a garlic, lemon and paprika paste, seared, then finished with sherry vinegar.',
-    kw: ['smoked paprika chicken', 'no added salt smoked paprika chicken', 'gluten free smoked paprika chicken', 'dairy free paprika chicken breasts', 'quick smoked paprika chicken for four'],
+    kw: ['smoked paprika chicken', 'gluten free smoked paprika chicken', 'dairy free paprika chicken breasts', 'quick smoked paprika chicken for four'],
     why: 'A dry spice rub burns before chicken is cooked, because paprika scorches at the heat needed to brown meat. Mixing the paprika with oil, lemon juice and garlic first makes a paste that clings to the chicken and protects the spice from the pan. That is the whole technique.\n\n**Sear on medium heat**, not high. Smoked paprika turns bitter if it scorches, so the pan should sizzle gently and the chicken should colour slowly over about 4 minutes a side. Lower the heat, cover and let it finish in its own steam. A splash of sherry vinegar at the end lifts the pan juices.\n\nSherry vinegar and garlic do the job that salt usually does, and the smoked paprika supplies depth and a faint barbecue flavour. Slice the chicken across the grain. Parsley goes on at the end, for colour and freshness. Serve it with rice, green beans and a wedge of lemon.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -148,7 +148,7 @@ module.exports = {
   'chicken-and-rice-bake': {
     d: 'Chunks of chicken breast laid on a bed of white rice, carrot, onion and peas, baked in unsalted stock with thyme and smoked paprika. Six servings in 60 minutes.',
     meta: 'Chicken and rice bake: chicken breast, white rice, carrot and peas baked in unsalted stock with thyme and paprika. Six servings.',
-    kw: ['chicken and rice bake', 'no added salt chicken and rice bake', 'baked chicken and rice casserole without salt', 'gluten free chicken and rice bake', 'dairy free chicken and rice bake for six'],
+    kw: ['chicken and rice bake', 'baked chicken and rice casserole without salt', 'gluten free chicken and rice bake', 'dairy free chicken and rice bake for six'],
     why: 'The smell comes first: thyme and paprika warming in the oven, then the savoury edge of rice crisping where it touches the hot dish. That is how you know it is nearly ready. Do not lift the foil to check.\n\nEverything cooks together in one dish. **Rice and vegetables go in first**, with the chicken laid on top, and the foil keeps the steam in so that the rice cooks through. The chicken shares its juices with the rice below. Cut the chicken into large pieces so that it does not dry out. Use long-grain white rice. It is lighter in potassium and phosphorus than brown.\n\nUnsalted stock and generous thyme, paprika and garlic keep the bake flavourful without salt. Stir through the parsley at the end. It feeds six. Leftovers reheat well for lunch. A squeeze of lemon at the table brightens each plate. Serve it straight from the dish at the table.',
     ing: [
       '540 g skinless chicken breast, cut into large pieces',
@@ -185,7 +185,7 @@ module.exports = {
   'chicken-kofta': {
     d: 'Spiced chicken kofta of cumin, coriander, cinnamon and paprika with parsley and mint, cooked on a hot grill pan and served with a cucumber and mint salad. Four servings in 35 minutes.',
     meta: 'Chicken kofta: cumin, coriander and cinnamon spiced patties cooked on a grill pan with a cucumber and mint salad. Four servings.',
-    kw: ['chicken kofta', 'no added salt chicken kofta', 'gluten free chicken kofta with cucumber salad', 'dairy free chicken kofta', 'chicken kofta on a grill pan'],
+    kw: ['chicken kofta', 'gluten free chicken kofta with cucumber salad', 'dairy free chicken kofta', 'chicken kofta on a grill pan'],
     why: 'A dish for a table of four, with something to do with your hands. The mixture is shaped into twelve small ovals, cooked on a hot grill pan and eaten with a cool cucumber and mint salad. It doubles easily.\n\nChicken mince is mild, so the flavour comes from cumin, coriander, cinnamon and paprika, with parsley, mint and garlic for freshness. Cumin and coriander wake up further in the heat of the pan. **Grate the onion**, then squeeze out the juice in a clean cloth, because a wet mixture will not hold a shape. Chill the mixture for 10 minutes before shaping. Wet your hands.\n\nServe the kofta with the salad, and rice if you like. Cucumber, mint and lemon juice make a cooling side that needs no salt. Spices are used generously here, because there is no salt to lean on. Cook a small test piece first. The cucumber salad can be mixed while the kofta cook.',
     ing: [
       '600 g ground chicken',
@@ -223,7 +223,7 @@ module.exports = {
   'chicken-congee': {
     d: 'Rice simmered for an hour in plenty of water with a piece of chicken breast and ginger, until it becomes a silky porridge, topped with spring onions and sesame oil. Four servings in 70 minutes.',
     meta: 'Chicken congee: rice simmered an hour with chicken breast and ginger into a silky porridge with spring onion. Four servings.',
-    kw: ['chicken congee', 'no added salt chicken congee', 'gluten free chicken rice porridge', 'dairy free chicken congee with ginger', 'chicken congee for four'],
+    kw: ['chicken congee', 'gluten free chicken rice porridge', 'dairy free chicken congee with ginger', 'chicken congee for four'],
     why: 'A bowl for a cold morning, or for anyone who wants something gentle and warm. Rice simmered for an hour in plenty of water breaks down into a silky porridge, and the chicken cooks in the same pot and is shredded back in at the end. It needs very little attention.\n\nUse a big pot, with 2 litres of water for 120 g of rice. **Stir now and then.** The rice would otherwise stick to the base. Congee thickens as it cools, so keep a kettle of hot water to loosen it. Remove the chicken when it is cooked through and shred it with two forks.\n\nPlain congee is a canvas. Ginger, spring onions, white pepper and a few drops of sesame oil are all it gets here, and there is no salt. White rice is lower in potassium and phosphorus than brown rice or oats, so a bowl suits a careful plate.',
     ing: [
       '120 g jasmine rice',
@@ -254,7 +254,7 @@ module.exports = {
   'apple-stuffed-chicken-breast': {
     d: 'Chicken breasts cut with a pocket and stuffed with soft apple, onion, dried cranberries and sage, seared and finished in the oven. Four servings in 50 minutes.',
     meta: 'Apple stuffed chicken breast: breasts filled with apple, onion, cranberries and sage, seared and baked. Four servings.',
-    kw: ['apple stuffed chicken breast', 'no added salt stuffed chicken breast', 'gluten free apple stuffed chicken', 'baked apple and sage stuffed chicken', 'stuffed chicken breast without breadcrumbs'],
+    kw: ['apple stuffed chicken breast', 'gluten free apple stuffed chicken', 'baked apple and sage stuffed chicken', 'stuffed chicken breast without breadcrumbs'],
     why: 'Cut the pocket from the thick side. Stop before you reach the far edge, because a pocket that goes right through is just a split breast and the filling will fall out. A thin, sharp knife makes a clean, narrow slit.\n\nThe stuffing is apple, onion, dried cranberries and sage, bound with a little egg white instead of the usual breadcrumbs, which keeps the dish gluten free. **Soften the apple and onion first**, for about 5 minutes, because raw apple stays hard while the chicken cooks. Cool the stuffing before it goes in. Hot filling starts to cook the meat from the inside. Sage should be chopped fine; large leaves taste harsh in a bite.\n\nSear first, then finish in the oven, so that the outside is golden and the inside stays juicy. Paprika adds colour. Rest the chicken for 5 minutes before slicing, which keeps the filling in place. Spoon over any pan juices. Warm the plates, as the chicken cools quickly once sliced.',
     ing: [
       '440 g skinless chicken breast fillets, 4 pieces',
@@ -287,7 +287,7 @@ module.exports = {
   'garlic-chicken-pasta': {
     d: 'Penne tossed with seared chicken, sliced garlic, lemon, parsley and a little chilli in a light sauce made from pasta water and olive oil. Four servings in 30 minutes.',
     meta: 'Garlic chicken pasta: penne with seared chicken, golden garlic, lemon and parsley in a light pasta water sauce. Four servings.',
-    kw: ['garlic chicken pasta', 'no added salt chicken pasta', 'dairy free garlic chicken pasta', 'quick garlic chicken pasta for four', 'chicken pasta with lemon and parsley'],
+    kw: ['garlic chicken pasta', 'dairy free garlic chicken pasta', 'quick garlic chicken pasta for four', 'chicken pasta with lemon and parsley'],
     why: 'Keep a mugful of the pasta water. It carries starch from the pasta, and a splash turns olive oil and garlic into a sauce that coats every piece, with no butter or cheese. Reserve more than you think you need.\n\nPasta water is usually salted. Here it is not, and the garlic, lemon, oregano and chilli have to carry the dish. **Sliced garlic, not minced**, because thin slices turn golden and sweet in the oil, while minced garlic burns. Cook it for only about a minute. Chilli flakes are optional; use as much or as little as you like.\n\nPenne is refined pasta, which is lighter in potassium and phosphorus than wholewheat. Chicken goes in in small pieces so that it cooks in the time the pasta takes to boil. Toss everything together in the pan, not the colander, so that the sauce clings. Work fast at the end. Finish with parsley and a squeeze of lemon. Taste before serving and add more lemon if the dish needs it.',
     ing: [
       '360 g skinless chicken breast, cut into bite-sized pieces',
@@ -320,7 +320,7 @@ module.exports = {
   'chicken-rice-noodle-stir-fry': {
     d: 'Thin chicken, cabbage and carrot tossed with rice noodles, lime juice, garlic, ginger and chilli, with no soy sauce at all. Four servings in 27 minutes.',
     meta: 'Chicken rice noodle stir-fry: chicken, cabbage and rice noodles with lime, garlic, ginger and chilli. Gluten free. Four servings.',
-    kw: ['chicken rice noodle stir fry', 'no added salt chicken noodle stir fry', 'gluten free chicken rice noodle stir fry', 'dairy free chicken and rice noodles', 'quick chicken rice noodle stir fry for four'],
+    kw: ['chicken rice noodle stir fry', 'gluten free chicken rice noodle stir fry', 'dairy free chicken and rice noodles', 'quick chicken rice noodle stir fry for four'],
     why: 'Soak the noodles in hot tap water. Boiling water softens them too far, and they break up when tossed in the pan. Hot tap water softens them just enough for them to finish cooking alongside the chicken. Drain them well so that water does not dilute the sauce.\n\nEverything else is quick. **Chicken first, then vegetables**, then the noodles with the lime juice, so that each part is cooked right and nothing sits waiting. Cabbage and carrot cut into thin strips cook in the time the noodles take to loosen. A little chilli adds warmth in place of the usual soy sauce.\n\nLime juice and sesame oil do the seasoning, and there is no soy sauce, so the dish is gluten free. Cilantro goes on at the end. Lime is added last so that it stays bright. Rice noodles are lighter in phosphorus than egg noodles. Eat it straight from the pan, while the noodles are still glossy.',
     ing: [
       '400 g skinless chicken breast, thinly sliced',
@@ -356,7 +356,7 @@ module.exports = {
   'chicken-stew': {
     d: 'Browned chicken thighs simmered with carrots, green beans, onion, bay and thyme in plain water until it becomes its own broth, thickened with cornflour. Six servings in 75 minutes.',
     meta: 'Chicken stew: browned chicken thighs simmered with carrots, green beans and thyme in a no-salt broth. Six servings.',
-    kw: ['chicken stew', 'no added salt chicken stew', 'gluten free chicken stew without stock', 'dairy free chicken stew with carrots and green beans', 'low salt chicken stew for six'],
+    kw: ['chicken stew', 'gluten free chicken stew without stock', 'dairy free chicken stew with carrots and green beans', 'chicken stew recipe'],
     why: 'Chicken thighs, carrots, green beans, bay and thyme, simmered in water until the water turns into a broth. Browning does the work. That is all a good stew needs, and it is why this one has no stock, and no salty stock cube. Leftovers taste better on the second day.\n\nBrown the thighs in batches and do not rush it. Patience pays here. **Dark bits on the base** dissolve into the water and become the flavour of the stew. Skim any foam that rises in the first few minutes. Add the onion and the carrots next, then the water, bay and thyme, and simmer gently for 35 minutes. Green beans go in for the last 8 minutes so that they stay green.\n\nThighs stay tender where breast would dry out. Lemon lifts the pot. A tablespoon of juice and a handful of parsley at the end make up for the missing salt. Thicken the broth with cornflour, not a stock cube.',
     ing: [
       '660 g skinless boneless chicken thighs, cut into chunks',
@@ -393,7 +393,7 @@ module.exports = {
   'chicken-fajita-rice-bowls': {
     d: 'Lime and spice marinated chicken seared with peppers and onion, served over white rice with fresh cilantro and more lime. Four servings in 35 minutes.',
     meta: 'Chicken fajita rice bowls: spiced chicken, peppers and onion over white rice with cilantro and lime. Gluten free. Four servings.',
-    kw: ['chicken fajita rice bowls', 'no added salt chicken fajita bowls', 'gluten free chicken fajita bowls', 'dairy free chicken fajita rice bowl', 'chicken fajita bowls without salt'],
+    kw: ['chicken fajita rice bowls', 'gluten free chicken fajita bowls', 'dairy free chicken fajita rice bowl', 'chicken fajita bowls without salt'],
     why: 'What gives fajitas their flavour once the salt is gone? Cumin, smoked paprika, garlic powder, oregano and lime. Those five do nearly all the work, and a hot pan adds the char that finishes it. The marinade takes 10 minutes.\n\nSlice the chicken thin and the peppers and onion into strips, and cook them in a very hot pan so that the edges char before the vegetables go limp. **Cook in batches** if the pan is small. Do not crowd the pan. The rice is cooked separately in water, and a squeeze of lime goes over it at the end.\n\nRice replaces the tortilla, which is where a good share of the sodium in fajitas hides. Plain white rice is also the lighter choice for potassium and phosphorus. Top the bowl with cilantro and lime. Leave out the cheese and jarred salsa, which are the salty parts of the usual plate.',
     ing: [
       '400 g skinless chicken breast, thinly sliced',
@@ -429,7 +429,7 @@ module.exports = {
   'ginger-chicken-soup': {
     d: 'A clear, sharp soup of chicken poached in ginger and garlic water, with napa cabbage, carrot and rice vermicelli, finished with rice vinegar and sesame oil. Four servings in 45 minutes.',
     meta: 'Ginger chicken soup: a clear broth of chicken poached with ginger, with cabbage, carrot and rice vermicelli. Four servings.',
-    kw: ['ginger chicken soup', 'no added salt chicken soup', 'gluten free ginger chicken soup', 'dairy free chicken and ginger soup', 'low salt chicken noodle soup with ginger'],
+    kw: ['ginger chicken soup', 'gluten free ginger chicken soup', 'dairy free chicken and ginger soup', 'ginger chicken soup recipe'],
     why: 'This is closer to a clear Chinese broth than to a Western chicken noodle soup. It is thin and sharp with ginger. Nothing thickens it, and there is no stock to buy, because the chicken poaches in the water and the water becomes the broth.\n\nStart the ginger and garlic in cold water so that they have time to flavour the pot. **Add the chicken at the boil**, then keep it at a gentle simmer for about 15 minutes. A rolling boil makes the breast stringy. Lift the chicken out, shred it, and put the vegetables and noodles in for the last few minutes.\n\nNapa cabbage and carrot are kept to modest amounts, since both bring potassium, and rice vermicelli is a lighter choice than egg noodles. Rice vinegar, white pepper and sesame oil go in at the end. They wake up the broth without any salt. Serve it hot, in deep bowls.',
     ing: [
       '440 g skinless chicken breast, in 2 pieces',
@@ -464,7 +464,7 @@ module.exports = {
   'chicken-cucumber-cups': {
     d: 'Thick cucumber rounds hollowed out and filled with a lemony chicken and Greek yogurt salad with dill and red onion. Four servings in 15 minutes, with no cooking.',
     meta: 'Chicken cucumber cups: cucumber rounds filled with a lemony chicken, yogurt and dill salad. No cooking. Four servings.',
-    kw: ['chicken cucumber cups', 'no added salt chicken appetizer', 'gluten free chicken cucumber bites', 'no cook chicken cucumber cups', 'easy chicken salad cucumber cups'],
+    kw: ['chicken cucumber cups', 'gluten free chicken cucumber bites', 'no cook chicken cucumber cups', 'easy chicken salad cucumber cups'],
     why: 'Can an appetizer be made without any heat at all? Yes, provided the chicken is already cooked. These are cool, crunchy cups: a cucumber round hollowed with a teaspoon and filled with a lemony chicken and yogurt salad. Cucumber is mostly water, which is why it stays so cool and crisp. They take 15 minutes.\n\n**Cut the rounds thick**, about 2 cm, so that each one holds a good spoonful and keeps its shape. Scoop out the seeds with a teaspoon but leave a base, or the filling will leak through. Pat the hollows dry. Finely shred the chicken so that it packs neatly into the cups.\n\nYogurt, lemon juice and dill carry the filling, with a little red onion for bite. Nothing needs salt. Dill is the key herb; parsley works in a pinch. Each cup is a small, cold bite with protein in it, so five make a serving. Make the filling ahead and fill the cups just before serving.',
     ing: [
       '200 g cooked chicken breast, finely shredded',

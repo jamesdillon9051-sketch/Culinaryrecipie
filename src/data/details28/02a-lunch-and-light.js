@@ -24,7 +24,7 @@ module.exports = {
       'Peel the bananas and cut them into 1 cm coins.',
       'Spread the slices in a single layer on a tray lined with greaseproof paper and freeze for at least 4 hours, until solid.',
       'Let the frozen slices stand for 5 minutes to soften slightly.',
-      'Put the slices in a food processor with the milk, vanilla and salt and blend for 3 to 4 minutes, scraping down the sides now and then, until smooth and creamy. It will look crumbly at first, then clump into a ball, then turn smooth.',
+      'Put the slices in a food processor with the milk (or oat milk), vanilla and salt and blend for 3 to 4 minutes, scraping down the sides now and then, until smooth and creamy. It will look crumbly at first, then clump into a ball, then turn smooth.',
       'Serve at once as soft serve, or scoop into a lidded container and freeze for 20 minutes for firmer scoops.'
     ],
     tips: [

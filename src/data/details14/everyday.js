@@ -403,7 +403,7 @@ module.exports = {
       'Toast the fennel, coriander and aniseed together for 90 seconds, until fragrant.',
       'Let everything cool completely, then grind in batches to a fine flour in a spice grinder or high-powered blender.',
       'Sieve the flour and re-grind anything coarse. Stir in the salt.',
-      'To serve, whisk 3 tbsp of the flour with the olive oil and honey into a smooth paste.',
+      'To serve, whisk 3 tbsp of the flour with the olive oil and honey (or date syrup) into a smooth paste.',
       'Add the water or milk gradually, whisking, until it is the consistency of thin porridge. It thickens as it stands, so leave it looser than you want it.'
     ],
     tips: [

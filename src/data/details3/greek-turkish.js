@@ -199,7 +199,7 @@ module.exports = {
       'Return to the pan, add the salt, and thin with a little hot water if it has gone too thick. It should coat a spoon lightly.',
       'For the chilli butter, melt the butter and cook until it just starts to foam, then take it off the heat and stir in the Aleppo pepper and dried mint. It will sizzle and turn red.',
       'Ladle the soup into bowls and spoon the chilli butter over the surface.',
-      'Serve with lemon wedges and bread, and squeeze the lemon in generously.'
+      'Serve with lemon wedges and bread (optional), and squeeze the lemon in generously.'
     ],
     tips: [
       'Blend for longer than you think. Silky, not grainy.',

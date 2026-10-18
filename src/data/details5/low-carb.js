@@ -8,8 +8,8 @@
 
 module.exports = {
   'egg-cottage-cheese-muffins': {
-    d: 'Baked egg muffins bound with cottage cheese and packed with spinach and cheddar — six to a batch, 42 g of protein a serving and 6 g of carbohydrate.',
-    meta: 'Egg and cottage cheese muffins with spinach — 42 g protein, 6 g carbohydrate a serving.',
+    d: 'Baked egg muffins bound with cottage cheese and packed with spinach and cheddar — six to a batch, 55 g of protein a serving and 12 g of carbohydrate.',
+    meta: 'Egg and cottage cheese muffins with spinach — 55 g protein, 12 g carbohydrate a serving.',
     kw: ['egg muffins', 'high protein breakfast', 'low carb breakfast', 'cottage cheese eggs'],
     why: 'Egg muffins collapse and weep because spinach is mostly water and nobody squeezes it. Wilting it first and wringing it out in a cloth is the difference between a set muffin and a wet one. Cottage cheese gives them a softer, less rubbery set than eggs alone, because the extra moisture is held in curd rather than free in the tin.',
     ing: [
@@ -44,9 +44,9 @@ module.exports = {
   },
 
   'grilled-halloumi-salad': {
-    d: 'Halloumi griddled until it blisters, over a salad of herbs, cucumber and tomato with lemon and olive oil — vegetarian, 33 g of protein and 10 g of carbohydrate.',
-    meta: 'Grilled halloumi and herb salad — vegetarian, 33 g protein and 10 g carbohydrate a serving.',
-    kw: ['grilled halloumi salad', 'high protein vegetarian', 'low carb salad', 'halloumi recipe'],
+    d: 'Halloumi griddled until it blisters, over a salad of herbs, cucumber and tomato with lemon and olive oil.',
+    meta: 'Grilled halloumi and herb salad with cucumber, tomato, lemon and olive oil, the cheese griddled until it blisters.',
+    kw: ['grilled halloumi salad', 'halloumi recipe', 'grilled halloumi salad recipe', 'how to make grilled halloumi salad'],
     why: 'Halloumi squeaks and stays rubbery when it is cooked gently; it needs a genuinely hot dry pan and about ninety seconds a side, so the outside browns before the inside has time to tighten. It is also very salty, which is why nothing else in this salad is salted until the end — season it after the cheese goes on or it will be inedible.',
     ing: [
       '300 g halloumi, in 1 cm slices',
@@ -82,9 +82,9 @@ module.exports = {
   },
 
   'smoked-mackerel-pate': {
-    d: 'Smoked mackerel beaten with cottage cheese, lemon and horseradish into a coarse pâté — twelve minutes, no cooking, 37 g of protein and 4 g of carbohydrate.',
-    meta: 'Smoked mackerel pâté with lemon and horseradish — 37 g protein, 4 g carbohydrate, no cooking.',
-    kw: ['smoked mackerel pate', 'high protein snack', 'low carb pate', 'mackerel recipe'],
+    d: 'Smoked mackerel beaten with cottage cheese, lemon and horseradish into a coarse pâté — twelve minutes, no cooking.',
+    meta: 'Smoked mackerel pâté with cottage cheese, lemon and horseradish — beaten coarse in twelve minutes, no cooking.',
+    kw: ['smoked mackerel pate', 'mackerel recipe', 'smoked mackerel pate recipe', 'how to make smoked mackerel pate'],
     why: 'Most mackerel pâté is a third cream cheese, which softens the flavour and adds fat without protein. Swapping most of it for cottage cheese, blitzed smooth, keeps the texture and roughly doubles the protein. Beating rather than blending leaves flakes of fish in it, which is what separates a pâté worth eating from a paste.',
     ing: [
       '300 g smoked mackerel fillets, skin and any bones removed',
@@ -120,8 +120,8 @@ module.exports = {
   },
 
   'spiced-lamb-lettuce-cups': {
-    d: 'Lamb mince fried hard with cumin, cinnamon and Aleppo pepper, spooned into cold lettuce cups with pickled onion — 31 g of protein and 9 g of carbohydrate.',
-    meta: 'Spiced lamb lettuce cups with cumin and Aleppo pepper — 31 g protein, 9 g carbohydrate a serving.',
+    d: 'Lamb mince fried hard with cumin, cinnamon and Aleppo pepper, spooned into cold lettuce cups with pickled onion — 32 g of protein and 18 g of carbohydrate.',
+    meta: 'Spiced lamb lettuce cups with cumin and Aleppo pepper — 32 g protein, 18 g carbohydrate a serving.',
     kw: ['lamb lettuce cups', 'low carb lamb', 'high protein dinner', 'spiced lamb mince'],
     why: 'Mince steams instead of browning because the pan is crowded and the meat is stirred. Spreading it out and leaving it alone for four minutes gets a proper crust on the underside, and that crust is most of the flavour. The spices go in after the browning, not before, or they scorch in the time the meat needs.',
     ing: [
@@ -165,9 +165,9 @@ module.exports = {
   },
 
   'chicken-caesar-lettuce-cups': {
-    d: 'Caesar without the croutons: chicken breast seared hard, tossed in an anchovy and Parmesan dressing and served in cos leaves — 52 g of protein and 7 g of carbohydrate.',
-    meta: 'Chicken Caesar lettuce cups — anchovy and Parmesan dressing, 52 g protein and 7 g carbohydrate.',
-    kw: ['chicken caesar lettuce cups', 'low carb caesar', 'high protein lunch', 'caesar without croutons'],
+    d: 'Caesar without the croutons: chicken breast seared hard, tossed in an anchovy and Parmesan dressing and served in cos leaves — 60 g of protein a serving.',
+    meta: 'Chicken Caesar lettuce cups — seared chicken breast in an anchovy and Parmesan dressing, 60 g protein a serving.',
+    kw: ['chicken caesar lettuce cups', 'high protein lunch', 'caesar without croutons', 'chicken caesar lettuce cups recipe'],
     why: 'A Caesar dressing is an emulsion, and it splits when the oil goes in too fast — the anchovy and egg yolk need it added in a thin thread while you whisk. Anchovy is not optional and is not a garnish: it is the salt and the savour of the dressing, and a Caesar without it tastes like mayonnaise with cheese in.',
     ing: [
       '# For the chicken',
@@ -208,8 +208,8 @@ module.exports = {
   },
 
   'garlic-prawn-courgette-noodles': {
-    d: 'Prawns cooked hard in garlic, chilli and olive oil, tossed through courgette ribbons that never see a pan — 38 g of protein and 12 g of carbohydrate.',
-    meta: 'Garlic prawns with courgette noodles — 38 g protein and 12 g carbohydrate, on the table in 25 minutes.',
+    d: 'Prawns cooked hard in garlic, chilli and olive oil, tossed through courgette ribbons that never see a pan — 45 g of protein and 17 g of carbohydrate.',
+    meta: 'Garlic prawns with courgette noodles — 45 g protein and 17 g carbohydrate, on the table in 25 minutes.',
     kw: ['garlic prawns courgette noodles', 'low carb pasta alternative', 'high protein prawns', 'courgetti recipe'],
     why: 'Courgette noodles turn to water because people cook them. They do not need it — tossed raw through something hot they soften in about a minute and keep their bite, and any longer than that and you have soup. Salting and draining them first pulls out most of the water before it can reach the pan.',
     ing: [
@@ -245,9 +245,9 @@ module.exports = {
   },
 
   'smoked-salmon-scrambled-eggs': {
-    d: 'Eggs scrambled slowly over low heat until barely set, with smoked salmon folded in off the heat and plenty of dill — 36 g of protein and 3 g of carbohydrate.',
-    meta: 'Smoked salmon scrambled eggs with dill — 36 g protein, 3 g carbohydrate, ready in thirteen minutes.',
-    kw: ['smoked salmon scrambled eggs', 'high protein breakfast', 'low carb breakfast', 'creamy scrambled eggs'],
+    d: 'Eggs scrambled slowly over low heat until barely set, with smoked salmon folded in off the heat and plenty of dill.',
+    meta: 'Smoked salmon scrambled eggs with dill, cooked slowly over low heat until barely set — ready in thirteen minutes.',
+    kw: ['smoked salmon scrambled eggs', 'creamy scrambled eggs', 'smoked salmon scrambled eggs recipe', 'how to make smoked salmon scrambled eggs'],
     why: 'Scrambled eggs are ruined by heat and rescued by patience. Low heat and constant movement keeps the curds small and the texture custardy, and taking the pan off while they still look slightly underdone accounts for the cooking that carries on afterwards. The salmon goes in at the very end because it only needs warming; cooked, it goes firm and loses its silkiness.',
     ing: [
       '6 large eggs',
@@ -281,9 +281,9 @@ module.exports = {
   },
 
   'seared-tuna-nicoise': {
-    d: 'Tuna steak seared rare, over green beans, egg, olives and tomato with an anchovy vinaigrette — the Niçoise without the potatoes, at 41 g of protein and 14 g of carbohydrate.',
-    meta: 'Seared tuna Niçoise with anchovy vinaigrette — 41 g protein, 14 g carbohydrate, no potatoes.',
-    kw: ['seared tuna nicoise', 'low carb salad', 'high protein salad', 'tuna steak recipe'],
+    d: 'Tuna steak seared rare, over green beans, egg, olives and tomato with an anchovy vinaigrette — the Niçoise without the potatoes, at 47 g of protein and 15 g of carbohydrate.',
+    meta: 'Seared tuna Niçoise with anchovy vinaigrette — 47 g protein, 15 g carbohydrate, no potatoes.',
+    kw: ['seared tuna nicoise', 'tuna steak recipe', 'seared tuna nicoise recipe', 'how to make seared tuna nicoise'],
     why: 'Tuna steak is a different fish from tinned tuna and wants treating like beef: a very hot pan, ninety seconds a side, and a raw ruby centre. Cooked through it is dry and grey and there is no way back. Leaving out the potatoes is not a compromise here — the classic Niçoise from Nice has no cooked vegetables in it at all, potatoes included.',
     ing: [
       '# For the salad',
@@ -326,9 +326,9 @@ module.exports = {
   },
 
   'cauliflower-chicken-fried-rice': {
-    d: 'Cauliflower blitzed to rice grains and fried hard with chicken thigh, egg and spring onion — the wok dish without the rice, at 41 g of protein and 14 g of carbohydrate.',
-    meta: 'Chicken cauliflower fried rice — 41 g protein and 14 g carbohydrate, done in under half an hour.',
-    kw: ['cauliflower fried rice', 'low carb fried rice', 'high protein chinese', 'chicken cauliflower rice'],
+    d: 'Cauliflower blitzed to rice grains and fried hard with chicken thigh, egg and spring onion — the wok dish with cauliflower in place of the rice.',
+    meta: 'Chicken cauliflower fried rice — 56 g protein a serving, done in under half an hour.',
+    kw: ['cauliflower fried rice', 'high protein chinese', 'chicken cauliflower rice', 'cauliflower fried rice recipe'],
     why: 'Cauliflower rice goes soggy for the same reason ordinary fried rice does: too much moisture and not enough heat. Blitzed cauliflower holds a lot of water, so it goes into a dry, very hot wok first and is cooked alone for a few minutes to drive that off before anything else joins it. Crowding the pan at any stage undoes the whole thing.',
     ing: [
       '1 large cauliflower, about 800 g, in florets',
@@ -365,9 +365,9 @@ module.exports = {
   },
 
   'baked-eggs-spinach-feta': {
-    d: 'Eggs baked into a bed of garlicky spinach with feta crumbled over, straight from oven to table in the pan — 34 g of protein and 9 g of carbohydrate.',
-    meta: 'Baked eggs with spinach and feta — 34 g protein and 9 g carbohydrate, cooked and served in one pan.',
-    kw: ['baked eggs spinach feta', 'high protein breakfast', 'low carb brunch', 'baked eggs recipe'],
+    d: 'Eggs baked into a bed of garlicky spinach with feta crumbled over, straight from oven to table in the pan.',
+    meta: 'Baked eggs with spinach and feta, cooked and served in one pan: garlicky spinach, crumbled feta, runny yolks.',
+    kw: ['baked eggs spinach feta', 'baked eggs recipe', 'baked eggs spinach feta recipe', 'how to make baked eggs spinach feta'],
     why: 'Baked eggs are usually overcooked because the whole dish goes in until the whites are set, by which time the yolks are chalky. Making wells in hot spinach means the whites are already surrounded by heat and set from the sides in, so eight to ten minutes is enough. Feta is added before baking rather than after, so it softens without melting into the spinach.',
     ing: [
       '8 large eggs',

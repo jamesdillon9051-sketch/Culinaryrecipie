@@ -300,7 +300,7 @@ module.exports = {
       'Add the leeks and cabbage and cook 8 minutes only, so they keep their colour.',
       'Lift out the lamb, pull the meat from the bones in large pieces and return it to the pot.',
       'Stir in the parsley, season with black pepper and check the salt.',
-      'Serve the broth in bowls first, then the meat and vegetables, with bread and Caerphilly.'
+      'Serve the broth in bowls first, then the meat and vegetables, with bread (optional) and Caerphilly.'
     ],
     tips: [
       'Start in cold water and skim properly. It is the only way to a clear broth.',

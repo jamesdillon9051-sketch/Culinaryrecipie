@@ -1310,5 +1310,9 @@ a.tag:hover { border-color: var(--accent); color: var(--accent); }
 /* A list of recipe names in columns: the full A–Z on the directory, and the
    recipes a hub lists by name after its first picture cards. */
 .az-list { columns: 3 14rem; column-gap: 2rem; margin: 1rem 0 0; padding-left: 1.1rem; font-size: .92rem; }
+/* The full A–Z under a category runs to two thousand links. Laying out a multi-column list that
+   long was most of the Dinner page's main-thread time on a phone, and it sits below the cards, so
+   it is rendered when scrolled near. "auto" keeps its real height once it has been laid out. */
+.az-list { content-visibility: auto; contain-intrinsic-size: auto 1600px; }
 .az-list li { break-inside: avoid; margin-bottom: .35rem; }
 .hub-more { margin-top: clamp(2.5rem, 6vw, 4rem); }

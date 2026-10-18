@@ -53,7 +53,7 @@ module.exports = {
   'chocolate-avocado-mousse': {
     d: 'A thick, silky chocolate mousse made from ripe avocado, cocoa and almond milk, sweetened with erythritol. Ten minutes of work, then a short chill, for four.',
     meta: 'Chocolate avocado mousse: ripe avocado, cocoa and almond milk blended into a silky vegan mousse with no added sugar and 10 minutes of work.',
-    kw: ['chocolate avocado mousse', 'avocado chocolate mousse', 'no added sugar chocolate mousse', 'vegan chocolate mousse', 'no added sugar chocolate mousse'],
+    kw: ['chocolate avocado mousse', 'avocado chocolate mousse', 'vegan chocolate mousse', 'chocolate avocado mousse recipe'],
     why: 'The avocado has to be properly ripe. That is the only rule that matters here, because an underripe one leaves a grassy taste and a grainy texture that no amount of cocoa will hide.\n\nRipe avocado blends to cream. It brings the fat a mousse needs and almost no flavour of its own. Cocoa and a pinch of salt carry the chocolate, vanilla rounds it, and a few tablespoons of almond milk loosen the mixture until it falls from a spoon in ribbons. **Scrape the blender down twice** so no streaks of avocado survive. Taste before you sweeten, since a very ripe avocado is a little sweet already.\n\nSpoon it into small glasses and chill for half an hour, which firms it up. Small glasses are plenty. Raspberries on top add tartness and a bit of fibre. The carbohydrate figure leaves out the erythritol, which the body barely absorbs, and a label that counts sugar alcohols as carbohydrate will show a higher one.',
     ing: [
       '2 ripe avocados',
@@ -83,7 +83,7 @@ module.exports = {
   'chocolate-mug-cake': {
     d: 'A single-serving chocolate cake made in a mug from almond flour, cocoa and an egg, cooked in the microwave in about 90 seconds with no added sugar.',
     meta: 'Chocolate mug cake: a single serving of almond flour, cocoa and egg, microwaved in 90 seconds, with no added sugar and about 5 minutes of work.',
-    kw: ['chocolate mug cake', 'low carb chocolate mug cake', 'no added sugar mug cake', 'no added sugar mug cake', 'easy chocolate mug cake'],
+    kw: ['chocolate mug cake', 'low carb chocolate mug cake', 'easy chocolate mug cake', 'chocolate mug cake recipe'],
     why: 'One egg, one mug, two minutes. A single egg and a few spoonfuls of almond flour set into a soft sponge, which is the whole trick of a mug cake.\n\nStir the batter in the mug itself. Scrape the corners so no dry flour hides at the bottom, and do not worry about overmixing, since almond flour has no gluten to toughen. Cocoa gives the chocolate, a pinch of salt sharpens it and a spoonful of erythritol-based sweetener makes it taste like a dessert without any added sugar. **Stop when the top looks wet**, because the cake keeps cooking from its own heat as it stands.\n\nMicrowaves differ. Start at 60 seconds and add 10 at a time, because a dry, rubbery cake means it stayed in too long. Eat it from the mug with a spoon while it is still warm. A scoop of Greek yogurt on top adds a cool contrast.',
     ing: [
       '3 tbsp blanched almond flour',
@@ -115,7 +115,7 @@ module.exports = {
   'almond-flour-chocolate-chip-cookies': {
     d: 'Soft, chewy cookies made with almond flour, butter and chopped unsweetened chocolate, sweetened with erythritol. Twelve cookies in 27 minutes.',
     meta: 'Almond flour chocolate chip cookies with no added sugar: soft, chewy and made with unsweetened chocolate, ready in 30 minutes.',
-    kw: ['almond flour chocolate chip cookies', 'no added sugar cookies', 'no added sugar cookies', 'low carb chocolate chip cookies', 'gluten free almond flour cookies'],
+    kw: ['almond flour chocolate chip cookies', 'low carb chocolate chip cookies', 'gluten free almond flour cookies', 'almond flour chocolate chip cookies recipe'],
     why: 'Sugar-free cookies usually disappoint. They spread into one flat biscuit or stay pale and powdery; almond flour fixes the first problem and the right oven time fixes the second.\n\nButter and almond flour make a dough that holds its shape, so the cookies stay thick. Erythritol sweetens without browning, so the cookies will not darken the way sugar cookies do. Judge them by the edges, which turn golden before the middle looks done. Chopped unsweetened chocolate gives bitter pockets that balance the sweetener. **Cool them on the tray.** They are fragile when hot and firm up as they stand.\n\nFlatten them well. Roll the dough into balls and press each one flat with your palm, because the cookies do not spread much on their own. A pinch of salt in the dough keeps the sweetness from tasting flat. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
     ing: [
       '200 g blanched almond flour',
@@ -148,7 +148,7 @@ module.exports = {
   'frozen-yogurt-bark': {
     d: 'Plain Greek yogurt spread thin on a tray, scattered with berries, pistachios and coconut, and frozen into crisp shards. Eight servings; 10 minutes of work plus 2 hours in the freezer.',
     meta: 'Frozen yogurt bark: Greek yogurt spread thin and topped with berries, pistachios and coconut, then frozen for 2 hours. No added sugar.',
-    kw: ['frozen yogurt bark', 'greek yogurt bark', 'no added sugar frozen dessert', 'no added sugar frozen yogurt bark', 'easy frozen yogurt bark'],
+    kw: ['frozen yogurt bark', 'greek yogurt bark', 'easy frozen yogurt bark', 'frozen yogurt bark recipe'],
     why: 'Spread the yogurt thin. A layer about a centimetre thick freezes through in two hours and snaps cleanly, while a thick one stays chewy in the middle and bends instead of breaking. Thin bark also breaks into cleaner pieces.\n\nPlain Greek yogurt is already thick, tangy and high in protein. Keep it simple. A few drops of vanilla and a spoonful of erythritol-based sweetener take the edge off the sourness, and the toppings add the rest: raspberries and blueberries burst and bleed into the yogurt, pistachios add crunch and unsweetened coconut adds a little richness. **Press the toppings in gently** so they stay on when the bark is broken up.\n\nBreak it into rough pieces straight from the freezer and serve two per person. It softens within minutes, so keep the rest in a covered container in the freezer. The carbohydrate figure leaves out the erythritol, which the body barely absorbs. Eat it fast.',
     ing: [
       '500 g plain 2% Greek yogurt',
@@ -179,7 +179,7 @@ module.exports = {
   'almond-flour-bread': {
     d: 'A soft, sliceable loaf made with almond flour, eggs and ground flaxseed, with no wheat flour or sugar. Twelve slices; 10 minutes of work and 40 in the oven.',
     meta: 'Almond flour bread: a soft sandwich loaf of almond flour, eggs and flaxseed with no wheat and no added sugar. Twelve slices, ready in 50 minutes.',
-    kw: ['almond flour bread', 'low carb almond flour bread', 'no added sugar bread', 'gluten free almond flour bread', 'no added sugar bread'],
+    kw: ['almond flour bread', 'low carb almond flour bread', 'gluten free almond flour bread', 'almond flour bread recipe'],
     why: 'Do not expect a yeast loaf. This is a quick bread, closer to a very firm sponge, and it works because the eggs do the job that gluten would do.\n\nSeparating the eggs makes a lighter loaf. The whites are whisked to soft peaks and folded in at the end, which gives the crumb its lift, while the yolks go into the batter with the flour, flaxseed, vinegar and baking powder. Flaxseed adds fibre and structure, and the vinegar gives the baking powder a little extra lift. **Fold, do not stir**, or the whites collapse and the loaf comes out dense.\n\nBake it until a skewer comes out clean, then cool it for 30 minutes before slicing with a serrated knife. Toast the slices. It keeps better sliced and frozen than whole, so wrap the cooled slices in parchment and take out only what you need. A thick slice toasted and spread with butter or almond butter makes a good breakfast.',
     ing: [
       '250 g blanched almond flour',
@@ -211,7 +211,7 @@ module.exports = {
   'crustless-pumpkin-pie': {
     d: 'A spiced pumpkin custard baked without a crust, sweetened with erythritol, and chilled until it slices. Eight servings; 55 minutes of work plus cooling.',
     meta: 'Crustless pumpkin pie: a creamy, spiced pumpkin custard with no pastry and no added sugar, baked for 45 minutes and chilled until firm.',
-    kw: ['crustless pumpkin pie', 'sugar free pumpkin pie', 'no added sugar pumpkin pie', 'no added sugar pumpkin pie', 'gluten free crustless pumpkin pie'],
+    kw: ['crustless pumpkin pie', 'gluten free crustless pumpkin pie', 'crustless pumpkin pie recipe', 'how to make crustless pumpkin pie'],
     why: 'Skip the crust. The filling is the part of a pumpkin pie that tastes of pumpkin anyway, and without a shell there is nothing to blind-bake, nothing to shrink and a good deal less carbohydrate on the plate.\n\nPumpkin purée, eggs and almond milk make the custard, a spoonful of almond flour keeps it from weeping, and cinnamon, ginger, nutmeg and cloves do the work that the sugar usually hides behind. Whisk everything until completely smooth, since lumps of purée show up as dense pockets. Check that the can says pumpkin and not pie filling, which is already sweetened. **Bake until the edge is set** and the centre still trembles. It firms as it cools.\n\nCooling matters. Leave the pie on a rack for an hour, then chill it for at least two, because cold pie slices cleanly. A spoon of unsweetened whipped cream on top is all it needs. The carbohydrate figure leaves out the erythritol, which the body barely absorbs.',
     ing: [
       '425 g unsweetened pumpkin purée',
@@ -276,7 +276,7 @@ module.exports = {
   'almond-flour-tortillas': {
     d: 'Pliable tortillas made from almond flour, melted mozzarella and an egg, rolled thin and cooked in a dry pan. Eight tortillas in 25 minutes, with no wheat.',
     meta: 'Almond flour tortillas: eight pliable wraps made from almond flour, mozzarella and egg, cooked in a dry pan in 25 minutes.',
-    kw: ['almond flour tortillas', 'low carb almond flour tortillas', 'no added sugar tortillas', 'gluten free almond flour tortillas', 'no added sugar tortillas'],
+    kw: ['almond flour tortillas', 'low carb almond flour tortillas', 'gluten free almond flour tortillas', 'almond flour tortillas recipe'],
     why: 'Roll between parchment. Sandwich the dough between two sheets of baking parchment and it turns from a sticky lump into a thin round that peels off cleanly.\n\nMelted mozzarella is the glue. Heated with the almond flour, the cheese turns the crumbs into a stretchy dough that behaves like masa or flour dough, and the egg binds it. Knead it briefly with damp hands first. The dough is sticky straight from the bowl, so let it rest for five minutes and do not add more flour. **Cook in a dry pan** over medium heat until the surface bubbles and freckles.\n\nThey are more delicate than a wheat tortilla. Fill them with something not too wet, and fold rather than roll if you want to keep them whole. They are fine for tacos, quesadillas and a breakfast wrap. Stack the cooked tortillas under a clean cloth so they stay soft, and use a skillet rather than a griddle, since it holds the heat evenly.',
     ing: [
       '150 g blanched almond flour',
@@ -304,7 +304,7 @@ module.exports = {
   'fathead-pizza': {
     d: 'A pizza with a base made from melted mozzarella, cream cheese and almond flour, topped with tomato sauce, mushrooms and more mozzarella. Four servings in 35 minutes.',
     meta: 'Fathead pizza: a crisp-edged base of mozzarella, cream cheese and almond flour, with tomato, mushrooms and basil. Four servings in 35 minutes.',
-    kw: ['fathead pizza', 'fathead dough pizza', 'no added sugar pizza', 'low carb pizza crust', 'gluten free fathead pizza'],
+    kw: ['fathead pizza', 'fathead dough pizza', 'low carb pizza crust', 'gluten free fathead pizza'],
     why: 'Fathead dough is cheese, treated like flour. Melted mozzarella and cream cheese are kneaded with almond flour and an egg into a dough that rolls out and bakes into a pizza base with a crisp edge and a soft middle.\n\nThe method is quick. Warm the cheeses in the microwave, stir in the rest and roll the dough thin between sheets of baking parchment. Prick it with a fork and bake it plain for ten minutes before the toppings go on, because a cheese base holds moisture and turns soggy under sauce if it is not set first. **Par-bake the base** and the finished pizza stays crisp.\n\nKeep the toppings light. A thin layer of tomato sauce, mushrooms and a little mozzarella is enough, since the base is already rich. Slice it with a pizza wheel and eat it soon. A green salad on the side balances the richness. Fathead pizza softens as it cools.',
     ing: [
       '# For the base',

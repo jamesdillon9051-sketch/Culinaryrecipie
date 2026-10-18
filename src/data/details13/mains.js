@@ -334,12 +334,12 @@ module.exports = {
       'Lemon wedges'
     ],
     st: [
-      'Soften the chopped onion in the butter 8 minutes, add the freekeh and turn it for 2 minutes, then stir in the allspice, cinnamon and salt. Take off the heat — the grain stays mostly raw.',
+      'Soften the chopped onion in the butter (or olive oil) 8 minutes, add the freekeh and turn it for 2 minutes, then stir in the allspice, cinnamon and salt. Take off the heat — the grain stays mostly raw.',
       'Stuff each pigeon about two-thirds full with the freekeh mixture. It expands, so do not pack it. Close the cavity with a cocktail stick.',
       'Put the birds in a pot with the poaching onions, whole spices, bay, peppercorns, salt and water.',
       'Bring to a bare simmer and poach gently 55 minutes, until the legs are tender and the freekeh inside has cooked through.',
       'Lift the birds out carefully and pat them dry. Reserve the broth for serving.',
-      'Heat the oven to 230°C / 450°F. Brush the pigeons with the melted butter and the cumin.',
+      'Heat the oven to 230°C / 450°F. Brush the pigeons with the melted butter (or olive oil) and the cumin.',
       'Roast 15 minutes until the skin is crisp and deep brown. Rest 5 minutes and serve with a little broth and lemon.'
     ],
     tips: [

@@ -56,7 +56,7 @@
   throttled connection. At 57 KB it costs one round trip; the shift cost most
   of the performance score.
 -->
-<link rel="stylesheet" href="/assets/css/main.css?v=7c2b2502">
+<link rel="stylesheet" href="/assets/css/main.css?v=b52b146c">
 
 
 <!-- Applies the saved theme before paint and promotes the stylesheets above. -->
@@ -139,18 +139,29 @@
     <ul>
       <li><strong>Times are read from the method.</strong> A script looks through every step for chilling, proving, marinating and other waiting, and the total time shown on the page includes it. Where the method gives a range (&ldquo;12 to 24 hours&rdquo;), the page shows the range.</li>
       <li><strong>Diet labels are compared with the ingredient list.</strong> Flour on a gluten-free recipe or honey on a vegan one fails the build. Where a label depends on choosing one ingredient over another, the label says so.</li>
-      <li><strong>Nutrition is an estimate.</strong> For 2,970 recipes the printed figures match what the ingredient list adds up to against a food table compiled for this site, which is good to about ten per cent. For the other 2,545 they were estimated when the recipe was written and are checked only for internal consistency (the calories have to agree with the protein, carbohydrate and fat). Each recipe page says which.</li>
+      <li><strong>Nutrition is calculated, and only where it can be.</strong> See <a href="#nutrition">below</a>.</li>
       <li><strong>Search phrases have to be true of the recipe.</strong> &ldquo;30-minute&rdquo; is only used when the whole recipe, waiting included, takes thirty minutes or less.</li>
       <li><strong>Every photograph is compared with the dish and its diet label before it is published.</strong> Wrong pictures have been withdrawn rather than left up.</li>
     </ul>
-    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself.</p>
+    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself. The diet labels are matched against ingredient names by a script: that does not certify a recipe free of an allergen, and a packaged ingredient (stock, a sauce, a cheese) has to be checked on its own label.</p>
+
+    <h2 id="nutrition">How the nutrition figures are worked out</h2>
+    <p>Each recipe's ingredient list is read line by line, every ingredient is matched to a food, its weight is worked out, and the figures are added up and divided by the servings. Of the 714 foods the calculator knows, 483 use the figures of a named entry in USDA FoodData Central (SR Legacy, a public-domain food-composition database) and 6 the nearest named entry where SR Legacy lacks the food itself (plain dry breadcrumbs for panko, for instance); 213 still use figures written for this site that have no recorded source, and 8 are rough stand-ins for an unnamed ingredient such as &ldquo;spice&rdquo;. Calories are 4 per gram of protein and carbohydrate, 9 per gram of fat and 7 per gram of alcohol.</p>
+    <p>Every recipe falls into one of three groups, and the page says which:</p>
+    <ul>
+      <li><strong>Calculated (3,224 recipes).</strong> Every line was read and at most a twentieth of the energy comes from foods without a recorded source. These figures, and only these, go into the page's structured data and decide the High-Protein, Low-Carb and Keto labels.</li>
+      <li><strong>Approximate (1,239 recipes).</strong> The sum rests on an assumption that moves it, and the page names it: a marinade counted in full, weights that include bone, a tin counted with its liquid, an ingredient with no amount, or foods without a recorded source.</li>
+      <li><strong>None given (1,052 recipes).</strong> Some lines cannot be read, or the dish is deep-fried and the oil it takes up cannot be known. Rather than print a guess, these pages give no figures.</li>
+    </ul>
+    <p>A calculation is not a laboratory analysis. The food table cannot see a brand's recipe or an additive, a raw weight is not a cooked one, and salt added &ldquo;to taste&rdquo; is not counted. Two sets of figures agreeing with each other is not evidence that either matches the dish on your plate.</p>
 
     <h2>Where the photographs come from</h2>
-    <p>None of the photographs on this site were taken for it. Every one is somebody else's work, used under a licence that allows it here, and credited underneath. Of the 4482 photographs, 3141 come from Wikimedia Commons, 1127 were found through Openverse, which indexes Flickr and other archives of freely licensed work, and 214 come from Pixabay, a stock library whose own licence allows commercial use and resizing and asks for no credit (it is given anyway). Of the archive photographs, 1566 are CC0 or public domain, 1273 are Creative Commons Attribution, and 1429 are Attribution-ShareAlike. A photograph shows the dish, not this site's own cooking of it.</p>
-    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. NonCommercial images are not used, because this site carries advertising, and neither are NoDerivatives images, because resizing is exactly what that licence forbids.</p>
+    <p>Of the 5515 recipes, 3,999 have a photograph of the dish, 101 have only an AI illustration, and 1,415 have no picture yet. Counted as files rather than recipes, there are 4,482 photographs: 3,999 main pictures and 483 in-progress shots.</p>
+    <p>None of the photographs were taken for this site, and none shows this site's own cooking: each is a third party's photograph of the dish, used under its licence and credited underneath. Of the 4,482, 3,141 come from Wikimedia Commons, 1,127 were found through Openverse, which indexes Flickr and other archives of freely licensed work, and 214 come from Pixabay, a stock library with its own licence, which allows commercial use and asks for no credit (it is given anyway). Of the archive photographs, 1,566 are CC0 or public domain, 1,273 are Creative Commons Attribution, and 1429 are Attribution-ShareAlike.</p>
+    <p>Every image is resized and re-encoded for the web. As site policy, that is treated as an adaptation: the ShareAlike photographs are offered here under the same licence as the original, and the credit line says so. Also as site policy, and not because every such licence would forbid it, NonCommercial images are not used (the site carries advertising) and neither are NoDerivatives ones, so that no question about resizing arises.</p>
     <h2>And where the illustrations come from</h2>
-    <p>111 recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an illustration underneath the picture, listed separately in <a href="/images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. No new illustrations are being added.</p>
-    <p>1405 recipes have no picture at all yet and show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>
+    <p>101 recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an AI illustration underneath the picture and in its alt text, listed separately in <a href="/images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. It shows what the dish is meant to look like, not a dish anyone cooked. No new illustrations are being added.</p>
+    <p>The 1,415 recipes with no picture show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>
 
     <h2>How to use the site</h2>
     <ul>
@@ -226,7 +237,7 @@
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="/assets/js/app.js?v=7332edea" defer></script>
+<script src="/assets/js/app.js?v=4ebeea2d" defer></script>
 <!--
   The ad units load at the end of the body rather than in the head. They were
   async already, so they were not blocking the parser, but a third-party script

@@ -2,7 +2,7 @@
 const { esc, humanTime, compactTime, starsHtml, CUISINES, CATEGORIES, DIET_TAGS, plural } = require('../lib/util');
 const { faqSchema } = require('../lib/faq');
 const { recipeCount, cuisineCount, imageCount, creditedImageCount,
-        commonsImageCount, otherArchiveImageCount,
+        commonsImageCount, otherArchiveImageCount, photoCount, heroPhotoFileCount, processPhotoFileCount,
         publicDomainImageCount, shareAlikeImageCount, stockImageCount, stockSources,
         attributionOnlyImageCount, illustrationCount,
         placeholderCount } = require('../data/stats');
@@ -39,6 +39,13 @@ function filterSidebar(facets) {
     ${group('Category', 'category', Object.keys(CATEGORIES), facets.category)}
     ${group('Cuisine', 'cuisine', facets.cuisineList, facets.cuisine)}
     ${group('Dietary', 'tag', DIET_TAGS, facets.tag)}
+    <div class="filter-group">
+      <label class="check" title="${esc(DIET_TAGS.filter(t => facets.tagSwap && facets.tagSwap[t]).map(t => `${t}: ${facets.tagSwap[t]} more with a swap`).join('; '))}">
+        <input type="checkbox" data-filter-swaps>
+        <span>Include recipes that qualify only with a swap</span>
+      </label>
+      <p class="form-note" style="margin:.35rem 0 0">The dietary counts are recipes that qualify as written. Each recipe page names the swap and labels the diet &ldquo;option&rdquo;. A script checks ingredient names only: it does not certify a recipe free of an allergen.</p>
+    </div>
     ${group('Difficulty', 'difficulty', ['Easy', 'Medium', 'Hard'], facets.difficulty)}
     <div class="filter-group">
       <h3>Total time</h3>
@@ -601,7 +608,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Cuisine Explorer',
-    description: `Browse ${recipeCount} recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with nutrition and method.`,
+    description: `Browse ${recipeCount} recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with ingredients and method.`,
     keywords: ['world cuisines', 'international recipes', 'cuisine guide', 'global cooking',
                'cuisines of the world', 'food by country', 'national dishes',
                'regional cooking', 'authentic world food', 'browse recipes by cuisine',
@@ -714,37 +721,46 @@ const ABOUT_FAQ = [
  * qualified read it.
  */
 /**
- * Where the contact form lands after a successful post.
+ * The two pages the contact endpoint renders for a plain (no-JavaScript) form
+ * post. They are templates: the build writes them to contact/_pages/, which the
+ * server refuses to serve directly, and contact/send.php fills in {{WD_MESSAGE}}.
  *
- * Reached only when contact/send.php reports that its mailer accepted the
- * message (or by a plain form post that the script redirected here), so the
- * page can say it was sent. noindex, because a bare thank-you
- * page in search results helps nobody.
+ * They used to be public static pages (/contact/success/), so anyone who typed
+ * or bookmarked that address was told "Message sent" without having sent
+ * anything. Now the "sent" page is reached only through a signed redirect from
+ * the endpoint, and the old addresses redirect to the form (.htaccess).
+ *
+ * "Sent" means the mail transport accepted the message. It does not mean the
+ * message was read or reached an inbox, and the wording says so.
  */
-function contactSuccess(ctx) {
+function contactResultPage(ctx, { sent }) {
   const trail = [{ name: 'Home', url: SITE.base },
                  { name: 'Contact', url: `${SITE.base}contact/` },
-                 { name: 'Message sent' }];
+                 { name: sent ? 'Message sent' : 'Not sent' }];
   const body = `
 ${breadcrumbs(trail)}
 <div class="wrap section" style="padding-top:1rem">
   <header class="recipe-head">
     <span class="eyebrow">Contact</span>
-    <h1>Message sent</h1>
-    <p class="lede">Thank you. The server accepted your message for delivery to the site's inbox. There is no promised reply time.</p>
+    <h1>${sent ? 'Your message was sent' : 'Your message was not sent'}</h1>
+    <p class="lede">{{WD_MESSAGE}}</p>
   </header>
   <div class="prose" style="max-width:64ch">
-    <h2>What happens now</h2>
-    <p>Your message goes to the inbox for this site. If you wrote about a recipe that did not work, that is the most useful kind of message, because it is how a recipe gets corrected.</p>
-    <p>Nothing was added to any list. Your address is used to reply to you and for nothing else &mdash; the <a href="${SITE.base}privacy/">privacy page</a> sets out what is kept and by whom.</p>
-    <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>
+    ${sent
+      ? `<h2>What happens next</h2>
+    <p>There is no promised reply time. If you are expecting an answer and none comes, check your spam folder, because replies from a new address are sometimes filed there.</p>
+    <p>Your address is used to reply to you and for nothing else; the <a href="${SITE.base}privacy/">privacy page</a> says what is kept and by whom.</p>
+    <p><a class="btn btn--primary" href="${SITE.base}recipes/">Back to the recipes</a></p>`
+      : `<h2>Your text</h2>
+    <p>Going back with your browser's Back button usually keeps what you typed. Nothing you wrote is stored by this page.</p>
+    <p><a class="btn btn--primary" href="${SITE.base}contact/">Back to the contact form</a></p>`}
   </div>
 </div>`;
 
   return layout({
-    title: 'Message sent',
-    description: 'Your message was accepted for delivery to Weekly Delight.',
-    path: 'contact/success/',
+    title: sent ? 'Message sent' : 'Message not sent',
+    description: sent ? 'Your message was handed to the mail server.' : 'Your message to Weekly Delight was not sent.',
+    path: 'contact/',
     active: 'contact',
     noindex: true,
     body,
@@ -753,46 +769,8 @@ ${breadcrumbs(trail)}
     schema: [breadcrumbSchema(trail)]
   });
 }
-
-/**
- * Where a plain (no-JavaScript) form post lands when nothing was sent. Says so,
- * and why where the script said why. noindex, like the success page.
- */
-function contactNotSent(ctx) {
-  const trail = [{ name: 'Home', url: SITE.base },
-                 { name: 'Contact', url: `${SITE.base}contact/` },
-                 { name: 'Not sent' }];
-  const body = `
-${breadcrumbs(trail)}
-<div class="wrap section" style="padding-top:1rem">
-  <header class="recipe-head">
-    <span class="eyebrow">Contact</span>
-    <h1>Your message was not sent</h1>
-    <p class="lede">Nothing was delivered. The most likely reasons are below; going back with your browser's back button usually keeps what you typed.</p>
-  </header>
-  <div class="prose" style="max-width:64ch">
-    <h2>Why it may not have gone</h2>
-    <ul>
-      <li>A field was empty or too short: a name, a valid email address, a subject and a message of at least 20 characters.</li>
-      <li>Several messages came from your connection in the last hour. Please wait and try again.</li>
-      <li>The server could not send email at that moment, or the form is not set up on it yet.</li>
-    </ul>
-    <p><a class="btn btn--primary" href="${SITE.base}contact/">Back to the contact form</a></p>
-  </div>
-</div>`;
-
-  return layout({
-    title: 'Message not sent',
-    description: 'Your message to Weekly Delight was not sent.',
-    path: 'contact/not-sent/',
-    active: 'contact',
-    noindex: true,
-    body,
-    cuisines: ctx.topCuisines.slice(0, 8),
-    criticalCss: ctx.criticalCss,
-    schema: [breadcrumbSchema(trail)]
-  });
-}
+const contactSentPage = ctx => contactResultPage(ctx, { sent: true });
+const contactNotSentPage = ctx => contactResultPage(ctx, { sent: false });
 
 function privacy(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'Privacy' }];
@@ -853,10 +831,11 @@ ${breadcrumbs(trail)}
     <p>Clearing your browser data clears all four, and you will lose your saved recipes. There is no copy anywhere else.</p>
 
     <h2>The contact form</h2>
-    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to a small script on this site's server, which emails them to the site's owner. The server is run by ${esc(SITE.host.name)}, which hosts this site and its email. To limit abuse, the script keeps a one-way hash of the IP address each message came from, with the time, for one hour, and then discards it.</p>
-    <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. The message is kept in the site's inbox until it is deleted; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p>This is the one place the site collects anything about you, and only because you chose to type it. When you send the form, your <strong>name, email address, subject and message</strong> are posted to a small script on this site's server, which emails them, with the time they were sent, to the site owner's inbox. Nothing is saved in a database on the website. The message then exists wherever the owner's email lives: on ${esc(SITE.host.name)}'s mail systems if the mail is sent through them, and with the owner's own email provider.</p>
+    <p>Your address is used to reply to you and for nothing else. It is not added to any list, not passed to anybody, and not used for advertising. Messages stay in the inbox until the owner deletes them; if you would like a message of yours removed, say so in a reply. ${esc(SITE.host.name)}'s own <a href="${SITE.host.privacy}" rel="nofollow noopener" target="_blank">privacy policy</a> covers what they do with it while it is on their systems.</p>
+    <p><strong>What the script keeps to limit abuse.</strong> For each message it records the time and a salted hash of the IP address it came from, in a small file on the server that nothing else reads. A hash like this is pseudonymous, not anonymous: it is still personal data, because someone with the site's secret could check an address against it. An entry stops counting after an hour and is deleted the next time the form, or its set-up check, is used. If nobody uses the form, an expired entry stays in the file until the next use, so it is not guaranteed to be gone after exactly an hour. The same file keeps a count of messages in the last day, as timestamps only. Separately, the server's ordinary access logs record your IP address for every request, as described under Hosting below.</p>
     <p>The form also carries a hidden field that people never see. If it arrives filled in, the submission came from a bot and is dropped without being sent. It collects nothing about you.</p>
-    <p>There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
+    <p>If the contact form has not been switched on, the page says so and nothing you type leaves your browser. There is no newsletter and no mailing list. The signup box that used to sit at the foot of every page has been removed, because it collected nothing and could not have sent anything.</p>
 
     <h2>Analytics</h2>
     <p>${CONSENT.enabled ? '<strong>Only if you accepted.</strong> ' : ''}Google Analytics 4 counts visitors and shows me which recipes get read. It sets cookies, records your approximate location from your IP address, and notes your device, browser and the pages you open. It does not tell me who you are, and I never see an individual reader &mdash; only totals.</p>
@@ -914,7 +893,9 @@ ${breadcrumbs(trail)}
 
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
-  const calculatedCount = ctx.recipes.filter(r => r.nutritionSource === 'calculated').length;
+  const tierCount = t => ctx.recipes.filter(r => r.nutritionTier === t).length.toLocaleString('en-GB');
+  const sources = require('../../tools/nutrition-sources.json').counts;
+  const foodCount = Object.values(sources).reduce((a, b) => a + b, 0);
 
   /* What this page says about who runs the site and how the recipes were made
      has to be true of the project's own records, so it says only that.
@@ -945,18 +926,29 @@ ${breadcrumbs(trail)}
     <ul>
       <li><strong>Times are read from the method.</strong> A script looks through every step for chilling, proving, marinating and other waiting, and the total time shown on the page includes it. Where the method gives a range (&ldquo;12 to 24 hours&rdquo;), the page shows the range.</li>
       <li><strong>Diet labels are compared with the ingredient list.</strong> Flour on a gluten-free recipe or honey on a vegan one fails the build. Where a label depends on choosing one ingredient over another, the label says so.</li>
-      <li><strong>Nutrition is an estimate.</strong> For ${calculatedCount.toLocaleString('en-GB')} recipes the printed figures match what the ingredient list adds up to against a food table compiled for this site, which is good to about ten per cent. For the other ${(ctx.recipes.length - calculatedCount).toLocaleString('en-GB')} they were estimated when the recipe was written and are checked only for internal consistency (the calories have to agree with the protein, carbohydrate and fat). Each recipe page says which.</li>
+      <li><strong>Nutrition is calculated, and only where it can be.</strong> See <a href="#nutrition">below</a>.</li>
       <li><strong>Search phrases have to be true of the recipe.</strong> &ldquo;30-minute&rdquo; is only used when the whole recipe, waiting included, takes thirty minutes or less.</li>
       <li><strong>Every photograph is compared with the dish and its diet label before it is published.</strong> Wrong pictures have been withdrawn rather than left up.</li>
     </ul>
-    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself.</p>
+    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself. The diet labels are matched against ingredient names by a script: that does not certify a recipe free of an allergen, and a packaged ingredient (stock, a sauce, a cheese) has to be checked on its own label.</p>
+
+    <h2 id="nutrition">How the nutrition figures are worked out</h2>
+    <p>Each recipe's ingredient list is read line by line, every ingredient is matched to a food, its weight is worked out, and the figures are added up and divided by the servings. Of the ${foodCount.toLocaleString('en-GB')} foods the calculator knows, ${sources.usda.toLocaleString('en-GB')} use the figures of a named entry in USDA FoodData Central (SR Legacy, a public-domain food-composition database) and ${sources.proxy} the nearest named entry where SR Legacy lacks the food itself (plain dry breadcrumbs for panko, for instance); ${sources.unverified.toLocaleString('en-GB')} still use figures written for this site that have no recorded source, and ${sources.generic} are rough stand-ins for an unnamed ingredient such as &ldquo;spice&rdquo;. Calories are 4 per gram of protein and carbohydrate, 9 per gram of fat and 7 per gram of alcohol.</p>
+    <p>Every recipe falls into one of three groups, and the page says which:</p>
+    <ul>
+      <li><strong>Calculated (${tierCount(1)} recipes).</strong> Every line was read and at most a twentieth of the energy comes from foods without a recorded source. These figures, and only these, go into the page's structured data and decide the High-Protein, Low-Carb and Keto labels.</li>
+      <li><strong>Approximate (${tierCount(2)} recipes).</strong> The sum rests on an assumption that moves it, and the page names it: a marinade counted in full, weights that include bone, a tin counted with its liquid, an ingredient with no amount, or foods without a recorded source.</li>
+      <li><strong>None given (${tierCount(3)} recipes).</strong> Some lines cannot be read, or the dish is deep-fried and the oil it takes up cannot be known. Rather than print a guess, these pages give no figures.</li>
+    </ul>
+    <p>A calculation is not a laboratory analysis. The food table cannot see a brand's recipe or an additive, a raw weight is not a cooked one, and salt added &ldquo;to taste&rdquo; is not counted. Two sets of figures agreeing with each other is not evidence that either matches the dish on your plate.</p>
 
     <h2>Where the photographs come from</h2>
-    <p>None of the photographs on this site were taken for it. Every one is somebody else's work, used under a licence that allows it here, and credited underneath. Of the ${imageCount} photographs, ${commonsImageCount} come from Wikimedia Commons, ${otherArchiveImageCount} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library whose own licence allows commercial use and resizing and asks for no credit (it is given anyway)` : ''}. Of the archive photographs, ${publicDomainImageCount} are CC0 or public domain, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. A photograph shows the dish, not this site's own cooking of it.</p>
-    <p>Every image is resized and re-encoded for the web, which makes it an adaptation. For the ShareAlike photographs that means the resized copy here carries the same licence as the original, and the credit line beside each one says so. NonCommercial images are not used, because this site carries advertising, and neither are NoDerivatives images, because resizing is exactly what that licence forbids.</p>
+    <p>Of the ${recipeCount} recipes, ${photoCount.toLocaleString('en-GB')} have a photograph of the dish, ${illustrationCount} have only an AI illustration, and ${placeholderCount.toLocaleString('en-GB')} have no picture yet. Counted as files rather than recipes, there are ${imageCount.toLocaleString('en-GB')} photographs: ${heroPhotoFileCount.toLocaleString('en-GB')} main pictures and ${processPhotoFileCount} in-progress shots.</p>
+    <p>None of the photographs were taken for this site, and none shows this site's own cooking: each is a third party's photograph of the dish, used under its licence and credited underneath. Of the ${imageCount.toLocaleString('en-GB')}, ${commonsImageCount.toLocaleString('en-GB')} come from Wikimedia Commons, ${otherArchiveImageCount.toLocaleString('en-GB')} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library with its own licence, which allows commercial use and asks for no credit (it is given anyway)` : ''}. Of the archive photographs, ${publicDomainImageCount.toLocaleString('en-GB')} are CC0 or public domain, ${attributionOnlyImageCount.toLocaleString('en-GB')} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike.</p>
+    <p>Every image is resized and re-encoded for the web. As site policy, that is treated as an adaptation: the ShareAlike photographs are offered here under the same licence as the original, and the credit line says so. Also as site policy, and not because every such licence would forbid it, NonCommercial images are not used (the site carries advertising) and neither are NoDerivatives ones, so that no question about resizing arises.</p>
     ${illustrationCount ? `<h2>And where the illustrations come from</h2>
-    <p>${illustrationCount} recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an illustration underneath the picture, listed separately in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. No new illustrations are being added.</p>` : ''}
-    ${placeholderCount ? `<p>${placeholderCount} recipes have no picture at all yet and show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>` : ''}
+    <p>${illustrationCount} recipes carry an illustration generated by an AI image model instead of a photograph, from a prompt written out of the recipe's own description and ingredients. Each is labelled as an AI illustration underneath the picture and in its alt text, listed separately in <a href="${SITE.base}images-attribution.md">images-attribution.md</a>, and not counted among the photographs above. It shows what the dish is meant to look like, not a dish anyone cooked. No new illustrations are being added.</p>` : ''}
+    ${placeholderCount ? `<p>The ${placeholderCount.toLocaleString('en-GB')} recipes with no picture show a plain coloured card with the dish's name. A wrong picture would be worse than none.</p>` : ''}
 
     <h2>How to use the site</h2>
     <ul>
@@ -1035,19 +1027,24 @@ ${breadcrumbs(trail)}
       <div class="panel" style="margin-top:1.25rem">
         <h2 style="font-size:1.15rem">Press &amp; syndication</h2>
         <p style="margin:0;font-size:.94rem;color:var(--text-soft)">
-          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line and it will reach the right desk.
+          Happy to talk about republishing a recipe with attribution and a link. Mention "syndication" in the subject line.
         </p>
       </div>
     </div>
 
     <div class="panel">
       <h2 style="margin-top:0">Send a message</h2>
+      <p class="form-status form-status--error" id="contact-unavailable" role="status" hidden>
+        The contact form is not switched on yet, so a message sent from this page would not go anywhere.
+        Please try again later.
+      </p>
       <!-- Posted to contact/send.php (src/server/contact-send.php), which runs on
            the live host. The page says a message was sent only when that script
-           answers that its mailer accepted it; anything else, including a host
-           with no PHP, shows that nothing was sent and leaves the words in the
-           form. Without JavaScript the browser posts it natively and the script
-           redirects to contact/success/ or contact/not-sent/. -->
+           answers that the mail transport accepted it; anything else, including a
+           host with no PHP, shows that nothing was sent and leaves the words in
+           the form. Without JavaScript the browser posts it natively and gets a
+           page rendered by the script. On load, the script asks send.php?status=1
+           whether the form is set up, and says so before anyone types. -->
       <form name="contact" method="POST" action="${SITE.base}contact/send.php"
             data-contact novalidate>
         <!-- The honeypot. Bots fill in every field they find; people never see
@@ -1231,7 +1228,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Site Directory: Every Recipe',
-    description: `Browse all ${total} Weekly Delight recipes in one list, grouped by category, with every cuisine and ingredient guide. Each has ingredients, method and nutrition.`,
+    description: `Browse all ${total} Weekly Delight recipes in one list, grouped by category, with every cuisine and ingredient guide. Each has ingredients and method.`,
     keywords: ['recipe index', 'all recipes', 'site directory', 'recipe list by category',
                'browse all recipes', 'weekly delight recipes'],
     path: 'site-directory/',
@@ -1245,4 +1242,4 @@ ${breadcrumbs(trail)}
 }
 
 module.exports = {
-  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSuccess, contactNotSent, categoriesIndex, siteDirectory, about, contact, notFound };
+  hubLinks, home, directory, taxonomyPage, ingredientsIndex, cuisinesIndex, privacy, contactSentPage, contactNotSentPage, categoriesIndex, siteDirectory, about, contact, notFound };

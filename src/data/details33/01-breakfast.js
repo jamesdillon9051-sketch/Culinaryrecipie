@@ -47,7 +47,7 @@ module.exports = {
   'egg-white-breakfast-wrap': {
     d: 'Scrambled egg whites with spinach and feta rolled in a whole-wheat tortilla with salsa. Two servings in 13 minutes.',
     meta: 'Egg white breakfast wrap: soft scrambled egg whites with spinach, feta and salsa rolled in a whole-wheat tortilla. Two servings in 13 minutes.',
-    kw: ['egg white breakfast wrap', 'breakfast wrap under 400 calories', 'vegetarian breakfast wrap', 'egg white wrap with spinach and feta', 'quick egg white breakfast wrap'],
+    kw: ['egg white breakfast wrap', 'vegetarian breakfast wrap', 'egg white wrap with spinach and feta', 'quick egg white breakfast wrap'],
     why: 'It is a breakfast burrito\'s lighter cousin: the same wrapped warmth, with egg whites and spinach in place of sausage and cheese. Feta does the seasoning. A little goes a long way, and the whole thing is ready in 13 minutes.\n\nSoft scrambled whites are the base. Whisk the whites well first, so the scramble is even and fine. **Keep the heat at medium**, push the eggs gently from the edges to the centre and stop while they still look slightly moist, because they carry on setting in the tortilla. Spinach goes in first and wilts in under a minute, so the wrap holds greens as well as protein. Salsa adds moisture and a little heat without extra fat.\n\nWarm the tortillas for a few seconds in a dry pan so they bend without cracking. Fill the middle and fold in the sides. Roll tightly. Wrap the finished roll in foil if you are taking it with you.',
     ing: [
       '180 g egg whites, about 6 large',
@@ -206,7 +206,7 @@ module.exports = {
   'peanut-butter-banana-toast': {
     d: 'Hot wholegrain toast spread with natural peanut butter and topped with sliced banana, cinnamon and chia seeds. Two servings in 8 minutes.',
     meta: 'Peanut butter banana toast: wholegrain toast with natural peanut butter, sliced banana, cinnamon and chia seeds. Vegan, ready in 8 minutes.',
-    kw: ['peanut butter banana toast', 'breakfast toast under 400 calories', 'vegan peanut butter banana toast', 'dairy free peanut butter toast', 'quick peanut butter banana toast'],
+    kw: ['peanut butter banana toast', 'vegan peanut butter banana toast', 'dairy free peanut butter toast', 'quick peanut butter banana toast'],
     why: 'The smell of peanut butter on hot toast is the point. It softens into the surface. The banana on top warms slightly under it. Toast the bread until it is properly crisp, then spread the peanut butter while the slice is still hot.\n\nKeep it simple. There are only four main ingredients, so choose them with care. **Use natural peanut butter**, made from peanuts and a little salt, so there is no added sugar or palm oil. Seeded wholegrain bread brings fibre, and a ripe but firm banana slices cleanly without turning to mush. Chia seeds add more fibre and a little crunch, and cinnamon adds warmth.\n\nA slice is a light breakfast or snack. Peanut butter is rich, so spread it thinly rather than thickly. Eat it straight away, while the toast is crisp, with a glass of milk or a cup of coffee. Toast it a shade darker if you like more crunch.',
     ing: [
       '2 slices seeded wholegrain bread',

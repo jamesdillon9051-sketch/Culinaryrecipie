@@ -23,7 +23,7 @@ const PRIVATE = [
   'tools/keywords/KEYWORDS.csv', 'CLAUDE.md', 'README.md', 'package.json', 'netlify.toml',
   'vercel.json', '_redirects', 'suspects.json', 'content_audit.csv', 'quality_report.csv',
   'MISSING-IMAGES.txt', '.git/config', '.gitignore', 'backups/', 'logs/x.jsonl',
-  'docs/audit-2026-10/REPORT.md'
+  'docs/audit-2026-10/REPORT.md', 'contact/_pages/sent.html', 'contact/_pages/not-sent.html'
 ];
 const PUBLIC = [
   '', 'recipes/', 'recipes/focaccia/', 'assets/css/main.css', 'assets/js/app.js',

@@ -648,7 +648,7 @@ module.exports = {
       'Chill the shaped skewers for another 20 minutes.',
       'Heat a barbecue or griddle until very hot and brush the kofta with olive oil.',
       'Grill for 8 to 10 minutes, turning every 2 minutes, until deeply charred outside and just cooked through.',
-      'Rest 3 minutes, then serve in flatbreads with tahini sauce, tomato, and red onion tossed with sumac.'
+      'Rest 3 minutes, then serve in flatbreads (optional) with tahini sauce, tomato, and red onion tossed with sumac.'
     ],
     tips: [
       'Flat skewers, not round ones. Round skewers let the meat spin when you turn them.',
@@ -691,7 +691,7 @@ module.exports = {
       'Make six wells in the sauce with the back of a spoon, pushing right down to the pan base.',
       'Crack an egg into each well and season the yolks with a pinch of salt and pepper.',
       'Cover the pan and cook over low heat for 6 to 9 minutes, until the whites are just set and the yolks still wobble.',
-      'Scatter over the feta and herbs and serve immediately from the pan, with bread for scooping.'
+      'Scatter over the feta and herbs and serve immediately from the pan, with bread (optional) for scooping.'
     ],
     tips: [
       'Crack each egg into a cup first, then slide it into its well — a broken yolk is hard to rescue mid-pan.',

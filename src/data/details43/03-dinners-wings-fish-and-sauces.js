@@ -112,7 +112,7 @@ module.exports = {
   'healthy-chicken-stir-fry': {
     d: 'Chicken breast and mixed vegetables stir-fried in a light garlic, ginger and soy sauce.',
     meta: 'Healthy chicken stir fry: chicken breast and mixed vegetables in a garlic, ginger and soy sauce. Four servings, cooked for 12 minutes.',
-    kw: ['healthy chicken stir fry', 'light chicken stir fry', 'chicken and vegetable stir fry', 'chicken stir fry with garlic and ginger', 'chicken stir fry with vegetables'],
+    kw: ['healthy chicken stir fry', 'chicken and vegetable stir fry', 'chicken stir fry with garlic and ginger', 'chicken stir fry with vegetables'],
     why: 'A stir fry is a method, not a recipe, and the method is simple: very high heat, small pieces and no waiting. Everything else is detail.\n\nCut the chicken and vegetables into pieces of a similar size so that they cook together. Have the sauce mixed and every ingredient on the board before the wok goes on the heat, because there is no time to chop once it starts. **Let the wok smoke before the oil goes in.** That heat sears the meat and keeps the vegetables crisp.\n\nCook the chicken first for 4 minutes and take it out. Then fry the carrots and pepper, which need longest, for 3 minutes, and add the broccoli and sugar snaps. Return the chicken, pour in the sauce and toss for a minute.\n\nUse only a small amount of oil and a light sauce, and the dish stays low in fat. Serve over rice or noodles.',
     ing: [
       '500 g chicken breast, thinly sliced',

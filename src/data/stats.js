@@ -28,9 +28,11 @@ for (const entry of Object.values(images)) {
 const drawn = shots.filter(isDrawn);
 const photos = shots.filter(s => !isDrawn(s));
 
-const heroes = catalog.map(r => (images[r.slug] || {}).hero).filter(Boolean);
-const withPhoto = heroes.filter(h => !isDrawn(h)).length;
-const withDrawing = heroes.filter(isDrawn).length;
+/* Recipes by picture, from the one inventory tools/image-inventory.js checks: each recipe in
+   exactly one group, and a record whose file is missing counts as no picture. */
+const inv = require('../lib/image-inventory').inventory(catalog, images);
+const withPhoto = inv.recipes.photo;
+const withDrawing = inv.recipes.illustration;
 const credited = photos.filter(s => NEEDS_CREDIT.test(s.licence)).length;
 /* Commons is the main source and Openverse (Flickr and other archives of freely
    licensed work) supplies the rest. The About page used to say all of them came
@@ -51,7 +53,9 @@ module.exports = {
   categoryCount: new Set(catalog.map(r => r.category)).size,
   photoCount: withPhoto,
   illustrationCount: withDrawing,
-  placeholderCount: catalog.length - withPhoto - withDrawing,
+  placeholderCount: inv.recipes.none,
+  heroPhotoFileCount: inv.assets.heroPhotoFiles,
+  processPhotoFileCount: inv.assets.processPhotoFiles,
   /* Photographs only. The licence figures beneath it describe these and
      nothing else, so a drawing can never be counted as a public-domain
      photograph. */

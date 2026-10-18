@@ -120,7 +120,8 @@ function recipeDescriptionClauses(recipe) {
   const rest = recipe.restTime || 0;
   const span = rest && recipe.elapsedMax > total
     ? `${humanWait(total)} to ${humanWait(recipe.elapsedMax)}` : humanWait(total);
-  const kcal = (recipe.nutrition || [])[0];
+  /* Only a documented calculation goes into a snippet, where no caveat can follow it. */
+  const kcal = recipe.nutritionTier === 1 ? (recipe.nutrition || [])[0] : null;
   const storage = recipe.storage || '';
   /* A hundred and nineteen of the written descriptions already name a time.
      Adding a second one repeats the sentence at best and contradicts it at

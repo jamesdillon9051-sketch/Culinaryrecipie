@@ -29,6 +29,14 @@
  */
 
 const { parse } = require('./ingredients');
+const { FORBIDS, clean } = require('./diet-conditions');
+
+/* A rule marked `only: <diet>` says the swap makes the dish suit that diet, which is true only when
+   the line it swaps is the one thing in the list the diet forbids. */
+function onlyBlocker(names, index, diet) {
+  const re = FORBIDS[diet];
+  return names.every((name, i) => i === index || !re.test(clean(String(name).toLowerCase())));
+}
 
 const BAKING_SENSITIVE = new Set(['Baking', 'Desserts']);
 
@@ -43,19 +51,22 @@ const RULES = [
   {
     find: /\bfish sauce\b/,
     diet: 'Vegetarian',
-    note: m => `No fish sauce, or keeping it vegetarian? A mix of soy sauce and a squeeze of lime gets close to the same salt-and-savoury lift the ${m} gives.`
+    only: 'Vegetarian',
+    note: m => `No fish sauce, or keeping it vegetarian? Soy sauce with a squeeze of lime gives a similar salty, savoury lift to the ${m}, though not the same flavour.`
   },
   {
     find: /\bbuttermilk\b/,
-    note: m => `Out of ${m}? Stir a tablespoon of lemon juice or vinegar into the same amount of ordinary milk and let it sit five minutes before using.`
+    note: m => `Out of ${m}? The usual stand-in is a tablespoon of lemon juice or vinegar stirred into 250 ml of ordinary milk and left five minutes; it is thinner than cultured ${m}, so a batter may need a little less of it.`
   },
   {
     find: /\b(double cream|heavy cream)\b/,
-    note: m => `${m[0].toUpperCase()}${m.slice(1)} won't whip if you swap it, but for the cooking itself, full-fat crème fraîche or a lower-fat single cream works in its place.`
+    /* Not where the cream sets or holds the dish up (a ganache, a panna cotta, a mousse). */
+    skip: cat => BAKING_SENSITIVE.has(cat),
+    note: m => `In a sauce, full-fat crème fraîche can usually take the place of the ${m}; single cream is thinner and more likely to split if it boils, so keep it below a simmer.`
   },
   {
     find: /\bself[- ]raising flour\b/,
-    note: m => `No ${m} to hand? Use the same weight of plain flour plus 2 teaspoons of baking powder per 150 g.`
+    note: m => `No ${m} to hand? The common home substitute is the same weight of plain flour with 2 teaspoons of baking powder for every 150 g, sifted together well; the rise may not be identical to a bought ${m}.`
   },
   {
     find: /\bpanko\b/,
@@ -64,12 +75,14 @@ const RULES = [
   },
   {
     find: /\bcoconut milk\b/,
-    note: m => `For a non-vegan version, double cream can generally stand in for the ${m}; going the other way, a plant-based cream sold for cooking is the closer match to dairy than tinned coconut milk on its own.`
+    skip: cat => BAKING_SENSITIVE.has(cat),
+    note: m => `If coconut is a problem, a cooking cream (dairy or plant-based) can stand in for the ${m} in a sauce; the dish will lose the coconut flavour and taste noticeably different.`
   },
   {
     find: /\blight soy sauce\b|\bsoy sauce\b/,
     diet: 'Gluten-Free',
-    note: m => `Tamari is the direct swap for ${m} if you need the dish gluten-free — it is brewed the same way, just without the wheat.`
+    only: 'Gluten-Free',
+    note: m => `For a gluten-free version, use a tamari or soy sauce labelled gluten-free in place of the ${m}: ordinary soy sauce is brewed with wheat, and not every tamari is wheat-free.`
   },
   {
     find: /\bspring onions?\b/,
@@ -80,7 +93,7 @@ const RULES = [
     /* "chilli flakes" or "chilli powder" is already the dried form, so
        offering dried chilli as a substitute for itself would be nonsense. */
     excludeIfAlso: /\bchill(?:i|ies)?\s+(?:flakes|powder)\b|\bdried chill/,
-    note: m => `A pinch of dried chilli flakes works in place of fresh chilli — start with about a third of the quantity the ${m} in the list implies, since dried chilli is more concentrated, and add more to taste.`
+    note: m => `Dried chilli flakes can stand in for the ${m}. Heat varies a great deal between chillies and between jars, so start with a small pinch and add more to taste.`
   },
   {
     find: /\blime(?:s)?\b/,
@@ -89,15 +102,17 @@ const RULES = [
   {
     find: /\bginger\b/,
     excludeIfAlso: /\bground ginger\b|\bginger powder\b/,
-    note: () => `A quarter-teaspoon of ground ginger per tablespoon of fresh is the standard ratio if you are working from the spice rack rather than a fresh root.`
+    note: () => `If you only have ground ginger, a quarter-teaspoon for each tablespoon of fresh is the ratio usually given; it tastes warmer and less bright than the fresh root.`
   },
   {
     find: /\bgarlic\b/,
     excludeIfAlso: /\bgarlic powder\b|\bgarlic granules\b/,
-    note: () => `An eighth of a teaspoon of garlic powder per clove is the usual stand-in when you are out of fresh garlic — it will not caramelise the same way, but it carries the flavour.`
+    note: () => `An eighth of a teaspoon of garlic powder per clove is the stand-in usually given when you are out of fresh garlic; it will not brown the same way, and it burns easily, so add it with the liquid.`
   },
   {
     find: /\bchicken stock\b/,
+    /* Only says "meat-free" where the stock is the only meat in the list. */
+    only: 'Vegetarian',
     note: m => `Vegetable stock in place of the ${m} makes this meat-free without changing the method, if that is what you need.`
   },
   {
@@ -112,12 +127,14 @@ const RULES = [
     find: /\bplain flour\b|\ball-purpose flour\b/,
     skip: cat => BAKING_SENSITIVE.has(cat),
     diet: 'Gluten-Free',
-    note: m => `A measure-for-measure gluten-free flour blend can generally replace the ${m} here without changing the method, since this is savoury cooking rather than a structural bake.`
+    only: 'Gluten-Free',
+    note: m => `Where the ${m} thickens a sauce or coats something for frying, a gluten-free flour blend usually works in its place; check the blend's own instructions, and use stock and other packaged ingredients labelled gluten-free.`
   },
   {
     find: /\bworcestershire sauce\b/,
     diet: 'Vegetarian',
-    note: m => `For a vegetarian version, look for a plant-based Worcestershire sauce — the anchovies in the standard bottle are what makes ordinary ${m} unsuitable, not anything else in it.`
+    only: 'Vegetarian',
+    note: m => `For a vegetarian version, use a Worcestershire sauce labelled vegetarian: the standard ${m} is made with anchovies.`
   }
 ];
 
@@ -153,6 +170,7 @@ function substitutionsFor(recipe) {
          (ground ginger, chilli flakes, garlic powder) is not a candidate for
          "here is the dried form" advice about itself. */
       if (rule.excludeIfAlso && rule.excludeIfAlso.test(lower)) continue;
+      if (rule.only && !onlyBlocker(names, names.indexOf(name), rule.only)) break;
       out.push(rule.note(match[0]));
       break; // one hit per rule is enough; move to the next rule
     }
@@ -200,6 +218,7 @@ function dietaryTipsFor(recipe) {
       const match = rule.find.exec(lower);
       if (!match) continue;
       if (rule.excludeIfAlso && rule.excludeIfAlso.test(lower)) continue;
+      if (rule.only && !onlyBlocker(names, names.indexOf(name), rule.only)) break;
       out.push({ diet: rule.diet, note: rule.note(match[0]) });
       break;
     }

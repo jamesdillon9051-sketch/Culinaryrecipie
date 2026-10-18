@@ -1085,9 +1085,9 @@ try {
 /* The health audit sits in the same list: no recipe may promise a health outcome or carry one of
    the withdrawn health labels, and the volumes whose nutrition is computed from the ingredient list
    must still reproduce it. */
-for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
+for (const audit of ['timing-audit.js', 'timing-corpus.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
-                     'robots-check.js', 'private-paths-check.js',
+                     'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
   const [script, ...args] = [].concat(audit);
   try {

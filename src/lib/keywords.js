@@ -65,8 +65,9 @@ const DIET_WORD = {
   'Gluten-Free': 'gluten free',
   'Low-Carb': 'low carb',
   'Keto': 'keto',
-  'High-Protein': 'high protein',
-  'No Added Sugar': 'no added sugar'
+  'High-Protein': 'high protein'
+  /* No phrase for No Added Sugar: the words are a labelling claim with legal
+     definitions that differ by country, which a recipe cannot be shown to meet. */
   /* The Diabetes-Friendly, Weight-Loss Friendly and Kidney-Friendly labels were
      withdrawn (src/lib/health.js), so no phrase is built from them. */
 };
@@ -223,7 +224,8 @@ function expand(recipe, limit = 160) {
   const total = recipe.elapsedTime != null
     ? recipe.elapsedTime
     : (recipe.prep || 0) + (recipe.cook || 0) + (recipe.restTime || 0);
-  const tags = recipe.tags || [];
+  /* Only the diets that hold as written; a swap-dependent one is stated on the page with its swap. */
+  const tags = (recipe.tags || []).filter(t => !(recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status !== 'clean'));
   const storage = lower(recipe.storage || recipe.store || '');
   const titleWords = new Set(title.split(/[^a-z0-9]+/).filter(w => w.length > 2));
 
@@ -416,21 +418,18 @@ function expand(recipe, limit = 160) {
   add(`${title} instructions`);
   if (recipe.imageData) add(`${title} recipe with photos`);
 
-  /* Nutrition claims come off the per-serving figures the page prints, so a
-     dish is only called low-calorie or high-protein when its own numbers say
-     so. The thresholds are the ordinary ones a reader would assume. */
-  const [kcal, protein, , fat, fibre, sugar, sodium] = recipe.nutrition || recipe.nut || [];
+  /* Nutrition phrases come off the per-serving figures, and only where those
+     are a documented (tier-1) calculation. They state numbers the page prints
+     rather than borrow words such as "low sodium", "low fat" or "light", whose
+     meaning is fixed by food-labelling rules that differ from country to
+     country and that a calculated recipe cannot meet with any certainty. */
+  const [kcal, protein] = recipe.nutritionTier === 1 ? (recipe.nutrition || []) : [];
   if (kcal) {
     add(`${title} calories per serving`);
     add(`how many calories in ${title}`);
-    if (kcal < 400) { add(`low calorie ${title}`); add(`light ${title}`); }
     if (kcal < 300) add(`${title} under 300 calories`);
   }
   if (protein >= 30) add(`high protein ${title}`);
-  if (fibre >= 8) add(`high fibre ${title}`);
-  if (fat !== undefined && fat <= 10) add(`low fat ${title}`);
-  if (sugar !== undefined && sugar <= 5) add(`low sugar ${title}`);
-  if (sodium !== undefined && sodium <= 400) add(`low sodium ${title}`);
   /* No carbohydrate rule here on purpose. "Low carb" already has an
      authoritative source in the Low-Carb tag, which is an editorial judgement
      about the dish; a second rule reading the grams disagreed with it (ceviche

@@ -15,7 +15,7 @@ module.exports = {
   'almond-flour-pancakes': {
     d: 'Fluffy pancakes made with almond flour and eggs instead of wheat flour, cooked in butter and served with fresh raspberries. About 25 minutes from bowl to plate.',
     meta: 'Almond flour pancakes with no added sugar: eggs, almond milk and cinnamon, ready in 25 minutes and served with fresh raspberries.',
-    kw: ['almond flour pancakes', 'no added sugar almond flour pancakes', 'no added sugar almond flour pancakes', 'gluten free almond flour pancakes', 'easy almond flour pancakes'],
+    kw: ['almond flour pancakes', 'gluten free almond flour pancakes', 'easy almond flour pancakes', 'almond flour pancakes recipe'],
     why: 'A weekend breakfast for four. Almond flour does the work of wheat flour here, and because it is ground nuts rather than starch, a serving carries less carbohydrate and more protein and fat than an ordinary stack, with no sugar anywhere in the batter.\n\nThe batter looks loose in the bowl and thickens as it stands, so give it five minutes before the first pancake goes in. Almond flour has no gluten to hold things together, which is why the recipe uses four eggs and a pan on medium-low heat. **Wait for bubbles at the edges** and a golden underside before turning. Turn too early and it folds.\n\nKeep each pancake to about three tablespoons of batter, because large ones are hard to turn. Raspberries bring colour, fibre and a little tartness in place of syrup, and the cinnamon and vanilla make the stack taste sweeter than it is. Leftovers reheat in a toaster.',
     ing: [
       '200 g blanched almond flour',
@@ -49,7 +49,7 @@ module.exports = {
   'chaffles': {
     d: 'Crisp, savoury waffles made from egg, mozzarella and a spoonful of almond flour, cooked in a regular waffle iron in about 15 minutes.',
     meta: 'Chaffles: crisp savoury waffles of egg, mozzarella and almond flour, ready in 15 minutes in an ordinary waffle iron.',
-    kw: ['chaffles', 'chaffle recipe', 'no added sugar chaffles', 'no added sugar chaffles', 'easy chaffles'],
+    kw: ['chaffles', 'chaffle recipe', 'easy chaffles', 'chaffles recipe'],
     why: 'Shut the lid and wait. Press the batter right to the edges of the iron and leave it closed until the steam slows, because those two habits are the whole difference between a crisp chaffle and a limp one.\n\nA chaffle is an egg, some melted cheese and a little almond flour cooked in a waffle iron. The cheese browns into a lacy crust and the egg sets the inside, so what comes out holds together like sandwich bread and carries very little carbohydrate. Mozzarella is the best choice. It melts without releasing much oil, and a pinch of baking powder makes the chaffle puff slightly instead of turning dense.\n\nUse it where you would use bread. Split one for a breakfast sandwich, top it with a fried egg or use it as the base of a mini pizza. If your iron is a small one, cook the chaffles in batches and eat each within a few minutes, while the crust is still crisp. Leftover chaffles toast well the next day.',
     ing: [
       '2 large eggs',
@@ -79,7 +79,7 @@ module.exports = {
   'steel-cut-oats-with-berries-and-walnuts': {
     d: 'Chewy steel-cut oats simmered in water and almond milk, then topped with blueberries, chopped walnuts and cinnamon. Four servings from one pot in 30 minutes.',
     meta: 'Steel-cut oats with berries and walnuts: a chewy, no-sugar breakfast made in one pot in 30 minutes, with cinnamon and fruit.',
-    kw: ['steel cut oats', 'steel cut oats with berries', 'no added sugar steel cut oats', 'no added sugar oatmeal', 'vegan steel cut oats'],
+    kw: ['steel cut oats', 'steel cut oats with berries', 'vegan steel cut oats', 'steel cut oats recipe'],
     why: 'Steel-cut oats are whole oat groats chopped into pieces rather than rolled flat. Slow cooking is the point. They keep a chewy bite that rolled oats lose within minutes.\n\nThat is why this pot takes 25 minutes, and why it is worth the stirring. Simmer gently. Stir now and then, and the oats swell, the water turns creamy and the porridge thickens as it stands off the heat. A splash of almond milk at the start gives it body without any dairy. **Never boil it hard**, because the starch scorches on the bottom of the pan.\n\nWith no sugar in the pot, the sweetness comes from the fruit and the cinnamon. Blueberries cook down into the hot oats and stain them purple, and walnuts add crunch and fat, which makes the bowl more filling than oats alone. Make a double batch on Sunday if you like. It reheats well with a splash of water.',
     ing: [
       '160 g steel-cut oats',
@@ -109,7 +109,7 @@ module.exports = {
   'savory-oatmeal-with-egg-and-spinach': {
     d: 'Rolled oats cooked in vegetable stock with garlic and spinach, topped with a fried egg and a little Parmesan. A savoury breakfast for two in 20 minutes.',
     meta: 'Savory oatmeal with egg and spinach: oats cooked in stock with garlic, topped with a fried egg and Parmesan, ready in 20 minutes.',
-    kw: ['savory oatmeal', 'savory oatmeal with egg', 'no added sugar oatmeal', 'no added sugar savory oats', 'easy savory oatmeal'],
+    kw: ['savory oatmeal', 'savory oatmeal with egg', 'easy savory oatmeal', 'savory oatmeal recipe'],
     why: 'Oatmeal does not have to be sweet. Cooked in stock instead of water or milk, oats become a quick, creamy porridge that takes happily to an egg on top.\n\nThe method is short. Garlic and spinach wilt in a little olive oil, the oats and stock go in, and five minutes of simmering gives a thick, savoury base. Parmesan stirred in at the end adds salt and depth, which is why the pot needs no added salt. **Fry the egg separately**, so the yolk stays runny and spills into the oats when it is cut.\n\nThe result is breakfast with protein, fibre and no added sugar. It also works as a quick supper. Spinach turns from a heap into a spoonful, so do not be shy with it. Crack black pepper over the top, add a pinch of chilli flakes if you like some heat, and eat it while the egg is still hot.',
     ing: [
       '60 g rolled oats',
@@ -142,7 +142,7 @@ module.exports = {
   'sheet-pan-eggs': {
     d: 'Ten eggs baked on one sheet pan with spinach, red pepper, spring onion and cheddar, then cut into squares. Six servings in 28 minutes, and they keep for four days.',
     meta: 'Sheet pan eggs: ten eggs baked with spinach, pepper and cheddar, cut into squares. A make-ahead breakfast for six in 28 minutes.',
-    kw: ['sheet pan eggs', 'baked sheet pan eggs', 'no added sugar sheet pan eggs', 'meal prep sheet pan eggs', 'no added sugar breakfast'],
+    kw: ['sheet pan eggs', 'baked sheet pan eggs', 'meal prep sheet pan eggs', 'sheet pan eggs recipe'],
     why: 'Line the pan. Use parchment, oil it lightly, and a whole tray of set egg lifts out in one piece instead of welding itself to the metal.\n\nSheet pan eggs are scrambled eggs baked flat. The vegetables are scattered over the bottom and the beaten eggs poured on top, so every square has some pepper and spinach in it. A splash of almond milk keeps the texture tender rather than rubbery, and the cheddar melts into the top as it sets. **Watch the middle, not the clock**, because eggs keep cooking in the hot pan and turn dry if left in.\n\nCut the tray into six squares and the next few breakfasts are ready. Warm a square in the microwave for 45 seconds, fold one into a wrap, or eat it cold with a handful of cherry tomatoes. Any chopped vegetable that is not too wet can replace the spinach and pepper. Mushrooms and broccoli both work.',
     ing: [
       '10 large eggs',
@@ -174,7 +174,7 @@ module.exports = {
   'denver-omelet': {
     d: 'A folded diner-style omelet filled with diced ham, green pepper, onion and cheddar, cooked in butter in about 20 minutes for two.',
     meta: 'Denver omelet: eggs folded around diced ham, green bell pepper, onion and cheddar, a classic diner breakfast for two in 20 minutes.',
-    kw: ['denver omelet', 'denver omelette', 'no added sugar denver omelet', 'low carb denver omelet', 'ham and pepper omelet'],
+    kw: ['denver omelet', 'denver omelette', 'low carb denver omelet', 'ham and pepper omelet'],
     why: 'Filling first, eggs second. A Denver omelet looks plain but cooks like a stir-fry before the eggs ever touch the pan, which is how the ham, pepper and onion end up soft and savoury rather than raw.\n\nIt is a diner staple built on three things: ham, green pepper and onion. Cook them in butter until the onion is soft, then take them out and wipe the pan. Cold vegetables dropped into raw eggs would give off water and leave the omelet damp. Four eggs make two generous omelets, so cook them one at a time in a small pan over medium heat. Keep the pan small.\n\nAdd the filling while the top is still slightly wet and it will fold over without breaking. **Keep the heat at medium**, since high heat makes the underside rubbery before the middle sets. Cheddar goes in with the ham. The omelet is done when it just holds its shape.',
     ing: [
       '4 large eggs',
@@ -204,7 +204,7 @@ module.exports = {
   'egg-stuffed-bell-peppers': {
     d: 'Pepper halves baked with an egg cracked into each, then finished with feta and parsley. Four servings in 40 minutes with very little to wash up.',
     meta: 'Egg-stuffed bell peppers: pepper halves baked with an egg in each, topped with feta and parsley. A 40-minute breakfast for four.',
-    kw: ['egg stuffed bell peppers', 'egg stuffed peppers', 'baked eggs in peppers', 'no added sugar egg stuffed peppers', 'low carb breakfast peppers'],
+    kw: ['egg stuffed bell peppers', 'egg stuffed peppers', 'baked eggs in peppers', 'low carb breakfast peppers'],
     why: 'Four ingredients, one dish. Peppers, eggs, feta and parsley bake into a breakfast that looks like more effort than it is.\n\nThe bell pepper halves act as edible bowls, and a short bake on their own softens them before the eggs go in. That head start matters. Raw pepper takes longer to turn tender than an egg takes to set, so eggs added at the start would be hard before the pepper was done. Crack each egg into a small cup first, then slide it into the pepper, and check for shell before the dish goes in the oven. **Pull when the whites set**, while the yolks are still glossy.\n\nFeta and parsley go on at the end, because heat would dull the parsley and turn the cheese rubbery. Smoked paprika in the seasoning gives the eggs a savoury edge without any extra salt. Serve two halves per person. Cut the peppers into slices for brunch.',
     ing: [
       '4 medium bell peppers (any colour), halved lengthwise and seeded',
@@ -235,7 +235,7 @@ module.exports = {
   'cauliflower-hash-browns': {
     d: 'Grated cauliflower bound with egg and Parmesan and pan-fried into crisp golden patties, in the shape of hash browns. Four servings in 35 minutes.',
     meta: 'Cauliflower hash browns: grated cauliflower, egg and Parmesan fried into crisp golden patties. Makes eight, ready in 35 minutes.',
-    kw: ['cauliflower hash browns', 'low carb cauliflower hash browns', 'no added sugar hash browns', 'cauliflower hash brown patties', 'easy cauliflower hash browns'],
+    kw: ['cauliflower hash browns', 'cauliflower hash brown patties', 'easy cauliflower hash browns', 'cauliflower hash browns recipe'],
     why: 'Why do cauliflower hash browns come out soggy? Because cauliflower is mostly water, and the water has to leave before the patties go in the pan.\n\nSteam the grated cauliflower briefly, let it cool, then wring it out in a clean tea towel until it feels almost dry. Do this properly and the rest is simple. Egg and Parmesan bind the shreds, almond flour soaks up what moisture remains, and garlic and onion powder add the savoury flavour a potato version gets from the onion. **Squeeze the cauliflower twice** and the patties hold together; skip it and they fall apart.\n\nFry them in a wide pan. Leave each side alone for four minutes, and do not nudge them. They crisp at the edges first and turn golden in the middle last. Serve them with a fried egg, or tuck one into a breakfast wrap in place of potato, and keep the leftovers for the next morning.',
     ing: [
       '600 g cauliflower florets',
@@ -267,7 +267,7 @@ module.exports = {
   'spinach-and-feta-breakfast-wrap': {
     d: 'Soft scrambled eggs with wilted spinach and feta rolled in a whole wheat tortilla. Two wraps in 18 minutes, easy to eat on the way out of the door.',
     meta: 'Spinach and feta breakfast wrap: soft scrambled eggs, wilted spinach and feta in a whole wheat tortilla. Two wraps in 18 minutes.',
-    kw: ['spinach and feta breakfast wrap', 'spinach feta egg wrap', 'no added sugar breakfast wrap', 'breakfast wrap with eggs', 'easy breakfast wrap'],
+    kw: ['spinach and feta breakfast wrap', 'spinach feta egg wrap', 'breakfast wrap with eggs', 'easy breakfast wrap'],
     why: 'Think spanakopita, but portable. Eggs, spinach and feta make the filling, and a whole wheat tortilla holds it together in one hand.\n\nWilt the spinach first. Press out the water, because wet spinach makes a wrap that tears. Scramble the eggs gently over medium-low heat and take them off while they still look slightly glossy; they finish cooking from their own heat, and the result is soft rather than dry. Feta is salty enough that the eggs need no salt of their own. **Warm the tortillas first** so they fold without cracking.\n\nRoll it tight. Tuck in the ends and cut the wrap in half on the diagonal, then wrap it in foil or paper and it holds its shape for a bus ride. A squeeze of lemon on the spinach brightens it, and a spoonful of plain Greek yogurt inside makes the filling creamier. Make two at once and keep one for lunch, since the filling reheats well in a pan.',
     ing: [
       '4 large eggs',
@@ -298,7 +298,7 @@ module.exports = {
   'greek-yogurt-pancakes': {
     d: 'Light, tender pancakes made with Greek yogurt and whole wheat flour, with fresh blueberries on the side. Four servings in 25 minutes, with no sugar in the batter.',
     meta: 'Greek yogurt pancakes: tender whole wheat pancakes with no added sugar, served with fresh blueberries. Eight pancakes in 25 minutes.',
-    kw: ['greek yogurt pancakes', 'whole wheat greek yogurt pancakes', 'no added sugar pancakes', 'no added sugar pancakes', 'easy greek yogurt pancakes'],
+    kw: ['greek yogurt pancakes', 'whole wheat greek yogurt pancakes', 'easy greek yogurt pancakes', 'greek yogurt pancakes recipe'],
     why: 'Yogurt does the heavy lifting. It stands in for most of the milk and for the sugar in a standard batter, which is how these pancakes end up tender without being sweet.\n\nGreek yogurt adds tang and body, and the baking powder gives the batter its lift, so the pancakes puff in the pan and stay soft inside. Whole wheat flour gives the stack some fibre and a nutty flavour, and a little vanilla makes it taste sweeter than it is. **Mix only until combined.** Lumps are fine, and overmixing makes the pancakes tough.\n\nYou will make eight pancakes about 10 cm wide, two to a serving. Cook them over medium heat, and wait until bubbles break on the surface before flipping. Syrup is not needed. Blueberries on the side add sweetness, colour and fibre, and frozen ones work well if you thaw them in the microwave for a minute.',
     ing: [
       '120 g whole wheat flour',
@@ -330,7 +330,7 @@ module.exports = {
   'whole-wheat-pancakes': {
     d: 'Fluffy whole wheat pancakes made with milk, one egg and cinnamon, and no sugar in the batter. Eight pancakes for four in 30 minutes.',
     meta: 'Whole wheat pancakes with no added sugar: milk, egg and cinnamon make fluffy stacks of eight in 30 minutes, with plain yogurt.',
-    kw: ['whole wheat pancakes', 'no added sugar whole wheat pancakes', 'no added sugar whole wheat pancakes', 'whole grain pancakes', 'easy whole wheat pancakes'],
+    kw: ['whole wheat pancakes', 'whole grain pancakes', 'easy whole wheat pancakes', 'whole wheat pancakes recipe'],
     why: 'Steady heat is everything. Use the same pan and the same heat for every pancake, because whole wheat batter burns on the outside faster than it cooks through.\n\nWhole wheat flour is heavier than white, which is why the recipe uses two teaspoons of baking powder and a tablespoon of oil in the batter. Both matter. The oil keeps the crumb soft and the baking powder lifts it. Milk gives some natural sweetness without any sugar being added. **Rest the batter 10 minutes** before cooking, so that the bran softens and the pancakes turn out tender rather than gritty.\n\nCook over medium heat and flip when the surface is covered in bubbles and the edges look dry. The pancakes come out thicker and nuttier than a white-flour stack, and two of them make a filling breakfast. Skip the syrup. Plain yogurt and sliced fruit give the plate all the sweetness it needs.',
     ing: [
       '180 g whole wheat flour',
@@ -363,7 +363,7 @@ module.exports = {
   'moong-dal-chilla': {
     d: 'Savoury Indian pancakes made from soaked yellow moong dal blended with ginger, chilli and cilantro. Four servings, with 15 minutes at the stove after the dal has soaked.',
     meta: 'Moong dal chilla: savoury Indian lentil pancakes of soaked yellow moong dal, ginger and green chilli, ready in 25 minutes plus 4 hours soaking.',
-    kw: ['moong dal chilla', 'moong dal cheela', 'no added sugar moong dal chilla', 'vegan lentil pancakes', 'gluten free moong dal chilla'],
+    kw: ['moong dal chilla', 'moong dal cheela', 'vegan lentil pancakes', 'gluten free moong dal chilla'],
     why: 'The soaking matters more than the cooking. Moong dal that has soaked for four hours blends to a smooth batter in a minute, and dal that has not will leave grit in every pancake.\n\nChilla, also called cheela, is a savoury Indian pancake made from lentils instead of wheat. Split yellow moong dal is blended with ginger and a green chilli into a batter about as thick as crepe batter. It is cooked thin in a hot pan. The chilla crisps at the edges and stays soft in the middle, and it is high in protein and fibre for something that takes minutes to cook. **Spread the batter thin** with the back of a ladle, because a thick chilla stays pasty in the middle.\n\nStir in chopped onion and cilantro after blending so they stay bright. Serve the chillas hot, rolled or folded, with a bowl of plain yogurt or a green chutney. Hot is best. Naturally vegan and gluten free, they suit a wide table, as long as the yogurt is left out for anyone who needs it.',
     ing: [
       '200 g split yellow moong dal',
@@ -397,7 +397,7 @@ module.exports = {
   'flaxseed-muffins': {
     d: 'Six tender muffins made from ground flaxseed, eggs, cinnamon and walnuts, with no flour and no added sugar. Ready in 30 minutes.',
     meta: 'Flaxseed muffins: six flour-free muffins of ground flaxseed, eggs, cinnamon and walnuts with no added sugar, ready in 30 minutes.',
-    kw: ['flaxseed muffins', 'flax meal muffins', 'no added sugar flaxseed muffins', 'no added sugar muffins', 'gluten free flaxseed muffins'],
+    kw: ['flaxseed muffins', 'flax meal muffins', 'gluten free flaxseed muffins', 'flaxseed muffins recipe'],
     why: 'Most of the carbohydrate in flax is fibre. Ground flaxseed holds a great deal of it, which is why a muffin made from flax meal alone is dense, nutty and filling, and why it needs eggs and oil to be tender.\n\nThe batter looks too wet at first, and it should. Be patient. Ground flax drinks liquid slowly, so give the bowl five minutes before you spoon the batter into the muffin tin and it will thicken to a normal consistency. Cinnamon and a spoonful of unsweetened applesauce supply the sweet note, and walnuts give a little crunch. **Do not skip the five-minute rest**, or the muffins come out gummy in the middle.\n\nBake until the tops are firm and a toothpick comes out clean. They brown faster than wheat muffins, so check at 18 minutes. Do not overbake them. Eat them warm, split and spread with butter, or toast them the next day.',
     ing: [
       '120 g ground flaxseed',

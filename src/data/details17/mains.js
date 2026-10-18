@@ -536,9 +536,9 @@ module.exports = {
       'Lay the kippers on the tray flesh side up and dot with the softened butter and the pepper.',
       'Turn them over so the skin faces up.',
       'Grill 6 minutes without turning, until the skin blisters and the flesh is hot through.',
-      'Meanwhile butter the brown bread.',
+      'Meanwhile butter the brown bread (optional).',
       'Lift the kippers onto warm plates, flesh side up, and pour any butter from the tray over them.',
-      'Scatter with parsley and serve with lemon and the bread and butter.'
+      'Scatter with parsley and serve with lemon and the bread (optional) and butter.'
     ],
     tips: [
       'Skin side up under the grill, and no turning.',

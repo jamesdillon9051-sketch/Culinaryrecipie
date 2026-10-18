@@ -410,6 +410,27 @@
         return false;
       };
 
+      /* Ask the endpoint whether the form is switched on, before anyone types a
+         message that could not go anywhere. Only an explicit "not configured"
+         disables the form: a slow or failed check leaves it usable, because a
+         submission reports its own outcome honestly either way. */
+      (function () {
+        if (!window.fetch) return;
+        var notice = $('#contact-unavailable');
+        var button = $('button[type="submit"]', contact);
+        var controller = window.AbortController ? new AbortController() : null;
+        var timer = controller ? setTimeout(function () { controller.abort(); }, 4000) : null;
+        fetch(contact.getAttribute('action') + '?status=1', {
+          headers: { 'Accept': 'application/json' }, cache: 'no-store', signal: controller ? controller.signal : undefined
+        }).then(function (res) { return res.ok ? res.json() : null; }).then(function (data) {
+          if (data && data.ok === true && data.configured === false) {
+            if (notice) notice.hidden = false;
+            if (button) { button.disabled = true; }
+            $$('input, textarea', contact).forEach(function (f) { if (f.name !== 'website') f.disabled = true; });
+          }
+        }).catch(function () { /* leave the form usable */ }).then(function () { if (timer) clearTimeout(timer); });
+      })();
+
       $$('input, textarea', contact).forEach(function (field) {
         field.addEventListener('blur', function () { validateField(field); });
         field.addEventListener('input', function () {
@@ -459,7 +480,8 @@
           return res.json().catch(function () { return null; }).then(function (data) {
             if (res.ok && data && data.ok === true) {
               contact.reset();
-              say('Thank you. Your message was accepted for delivery to the site\'s inbox.');
+              say('Sent. Your message was handed to the mail server, which means it left this site, '
+                + 'not that it has been read. There is no promised reply time.');
               return;
             }
             say('Your message was not sent. ' + (data && data.message ? data.message + ' ' : '')

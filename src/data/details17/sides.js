@@ -289,7 +289,7 @@ module.exports = {
       '2 tbsp flat-leaf parsley, chopped'
     ],
     st: [
-      'Heat the butter and dripping in a heavy 24 cm frying pan until foaming.',
+      'Heat the butter and dripping (or vegetable oil) in a heavy 24 cm frying pan until foaming.',
       'Lay in a third of the potato slices in overlapping circles, then half the onion, a third of the cheese, and a third of the salt and pepper.',
       'Repeat with another third of the potato, the rest of the onion, another third of the cheese and seasoning.',
       'Finish with the last of the potato, pressed down firmly, and keep the final third of cheese back.',

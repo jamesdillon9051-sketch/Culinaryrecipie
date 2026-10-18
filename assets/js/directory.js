@@ -26,6 +26,9 @@
     tag: [],
     difficulty: [],
     time: null,
+    /* Diet filters match what qualifies as written; this adds the recipes that qualify only
+       with a swap the recipe names ("Vegan option"). */
+    swaps: false,
     favourites: root.dataset.directory === 'favourites',
     sort: 'popular'
   };
@@ -37,6 +40,7 @@
     if (params.get(k)) state[k] = params.get(k).split(',').filter(Boolean);
   });
   if (params.get('time')) state.time = parseInt(params.get('time'), 10);
+  if (params.get('swaps') === '1') state.swaps = true;
   if (params.get('sort')) state.sort = params.get('sort');
 
   if (queryInput && state.q) queryInput.value = state.q;
@@ -124,7 +128,7 @@
     if (state.time && r.m > state.time) return false;
     if (state.tag.length) {
       for (var i = 0; i < state.tag.length; i++) {
-        if (r.f.indexOf(state.tag[i]) === -1) return false;
+        if (r.f.indexOf(state.tag[i]) === -1 && !(state.swaps && r.h && r.h.indexOf(state.tag[i]) !== -1)) return false;
       }
     }
     return true;
@@ -137,6 +141,7 @@
       if (state[k].length) p.set(k, state[k].join(','));
     });
     if (state.time) p.set('time', state.time);
+    if (state.swaps) p.set('swaps', '1');
     if (state.sort !== 'popular') p.set('sort', state.sort);
     var qs = p.toString();
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
@@ -152,6 +157,10 @@
           '" aria-label="Remove filter ' + esc(v) + '">&times;</button></span>');
       });
     });
+    if (state.swaps && state.tag.length) {
+      chips.push('<span class="chip is-active">Including swaps' +
+        '<button type="button" data-remove-filter data-key="swaps" aria-label="Stop including recipes that need a swap">&times;</button></span>');
+    }
     if (state.time) {
       chips.push('<span class="chip is-active">Under ' + esc(state.time) + ' min' +
         '<button type="button" data-remove-filter data-key="time" aria-label="Remove time filter">&times;</button></span>');
@@ -252,7 +261,9 @@
   $$('[data-filter]').forEach(function (input) {
     var key = input.dataset.filter;
     var value = input.value;
-    if (state[key] && state[key].indexOf(value) !== -1) input.checked = true;
+    /* state.time is a number, not a list: a shared "?time=30" link used to throw here and leave
+       the whole directory unpainted. */
+    if (Array.isArray(state[key]) && state[key].indexOf(value) !== -1) input.checked = true;
     if (key === 'time' && state.time === parseInt(value, 10)) input.checked = true;
 
     input.addEventListener('change', function () {
@@ -267,10 +278,19 @@
     });
   });
 
+  var swapsBox = $('[data-filter-swaps]');
+  if (swapsBox) {
+    swapsBox.checked = state.swaps;
+    swapsBox.addEventListener('change', function () {
+      state.swaps = swapsBox.checked; renderChips(); updateUrl(); render();
+    });
+  }
+
   if (chipRow) {
     chipRow.addEventListener('click', function (e) {
       if (e.target.id === 'clear-all') {
-        state.category = []; state.cuisine = []; state.tag = []; state.difficulty = []; state.time = null;
+        state.category = []; state.cuisine = []; state.tag = []; state.difficulty = []; state.time = null; state.swaps = false;
+        if (swapsBox) swapsBox.checked = false;
         $$('[data-filter]').forEach(function (i) { i.checked = false; });
         renderChips(); updateUrl(); render();
         return;
@@ -278,7 +298,10 @@
       var btn = e.target.closest('[data-remove-filter]');
       if (!btn) return;
       var k = btn.dataset.key;
-      if (k === 'time') {
+      if (k === 'swaps') {
+        state.swaps = false;
+        if (swapsBox) swapsBox.checked = false;
+      } else if (k === 'time') {
         state.time = null;
         $$('[data-filter="time"]').forEach(function (i) { i.checked = false; });
       } else {

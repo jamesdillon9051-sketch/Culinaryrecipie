@@ -500,7 +500,7 @@ module.exports = {
       'The rice is ready when a grain crushes easily between your fingers.',
       'Tip the whole lot, soaking water included, into a blender and blend on high for a full 2 minutes.',
       'Strain through a coarse sieve, pressing the solids to get everything through. Do not use a fine sieve or muslin.',
-      'Stir in the milk, sugar, vanilla, cinnamon and rose water until the sugar has completely dissolved.',
+      'Stir in the milk (or coconut milk), sugar, vanilla, cinnamon and rose water until the sugar has completely dissolved.',
       'Chill until very cold, at least 2 hours.',
       'Stir well before pouring — it settles — and serve over ice with a dusting of cinnamon.'
     ],

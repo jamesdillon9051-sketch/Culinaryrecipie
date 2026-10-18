@@ -336,8 +336,8 @@ module.exports = {
   },
 
   'protein-muffins': {
-    d: 'Oat, banana and Greek yogurt muffins with a scoop of vanilla protein powder and blueberries. Nine grams of protein for about a hundred and forty calories.',
-    meta: 'Protein muffins made with oats, banana, Greek yogurt and vanilla protein powder, studded with blueberries. Soft, lightly sweet, about 9 g protein each.',
+    d: 'Oat, banana and Greek yogurt muffins with a scoop of vanilla protein powder and blueberries, baked soft and lightly sweet.',
+    meta: 'Protein muffins made with oats, banana, Greek yogurt and vanilla protein powder, studded with blueberries. Soft and lightly sweet.',
     kw: ['protein muffins', 'protein muffins recipe', 'blueberry protein muffins', 'greek yogurt protein muffins', 'protein powder banana oat muffins'],
     why: 'Protein powder dries out baking, which is why most protein muffins are dense. The moisture here comes from ripe banana and Greek yogurt, both of which hold water through the bake, and the oats blitzed into flour give a tender crumb without wheat. Do not overmix: the powder absorbs liquid slowly, and a batter that looks slightly loose when it goes into the tin bakes up right.',
     ing: [

@@ -122,7 +122,7 @@ module.exports = {
       'Soften the onions in 4 tbsp oil for 8 minutes, then add the garlic, carrot and potato and cook 5 minutes more.',
       'Stir in 2 tsp cumin and the turmeric and let them bloom in the oil for 45 seconds.',
       'Add the lentils and the water, bring to the boil, and simmer 35 minutes until the lentils have completely disintegrated.',
-      'Fry the pitta squares in 3 tbsp oil until crisp and gold, about 4 minutes, and drain.',
+      'Fry the pitta (if using) squares in 3 tbsp oil until crisp and gold, about 4 minutes, and drain.',
       'Blend the soup until entirely smooth. It should coat a spoon; loosen with hot water if it is too thick.',
       'Stir in the salt, the remaining 1 tsp cumin and the lemon juice off the heat.',
       'Serve with the fried bread scattered over and extra lemon at the table.'

@@ -329,7 +329,7 @@ module.exports = {
   'chiffon-cake': {
     d: 'A tall, airy cake made with oil and whipped egg whites, baked in a tube tin and cooled upside down.',
     meta: 'Chiffon cake: a tall, airy lemon cake made with oil and whipped egg whites. Twelve slices, baked for 50 minutes.',
-    kw: ['chiffon cake', 'lemon chiffon cake', 'classic chiffon cake', 'light chiffon cake', 'chiffon cake recipe'],
+    kw: ['chiffon cake', 'lemon chiffon cake', 'classic chiffon cake', 'chiffon cake recipe'],
     why: 'Get the whites right and the cake rises by itself. That is the quick tip for a chiffon cake, and the reason it takes more care than most.\n\nSeparate the eggs while they are cold, and make sure not a speck of yolk gets into the whites. Wipe the bowl with a little vinegar first, since any grease stops the whites from whipping. Whip them with the cream of tartar until they stand in stiff, glossy peaks. **Fold the whites into the batter in three parts.** The first loosens the batter and the next two keep the air in.\n\nBake in an ungreased tube tin at 170°C for 50 minutes. The batter climbs the sides of the tin as it bakes, so greasing it makes the cake slip. If your oven runs hot, check at 42 minutes.\n\nTurn the tin upside down at once, standing it on its feet or on a bottle neck, and leave it for 1 hour. This keeps the cake from collapsing while it sets. Loosen the edges with a knife to release.',
     ing: [
       '250 g plain flour',

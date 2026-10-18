@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "node src/build.js",
-    "images": "python3 tools/fetch_images.py",
+    "images": "node tools/image-inventory.js",
     "icons": "python3 tools/make_icons.py",
     "attribution": "node tools/make-attribution.js",
     "missing": "node tools/missing-images.js",
@@ -28,7 +28,11 @@
     "voice": "node tools/voice-audit.js",
     "backup": "node tools/backup.js",
     "humanize": "node tools/humanize.js",
-    "selftest": "node tools/humanize-selftest.js"
+    "selftest": "node tools/humanize-selftest.js",
+    "contact-test": "node tools/contact-test.js",
+    "contact-browser-test": "node tools/contact-browser-test.js",
+    "site-browser-test": "node tools/site-browser-test.js",
+    "package": "node tools/package-public.js"
   },
   "keywords": [
     "recipes",

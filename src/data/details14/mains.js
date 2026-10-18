@@ -89,7 +89,7 @@ module.exports = {
       'Add the tomatoes, caraway, ground coriander and salt, and simmer 8 minutes.',
       'Cook it down until it is genuinely thick — a spoon drawn through should briefly show the pan base. Return the sliced merguez.',
       'Make six wells and break an egg into each. Cover and cook 4 to 5 minutes, until the whites are just set and the yolks still liquid.',
-      'Scatter with parsley, finish with oil, and take the whole pan to the table with bread.'
+      'Scatter with parsley, finish with oil, and take the whole pan to the table with bread (optional).'
     ],
     tips: [
       'Reduce the sauce properly before the eggs go in.',

@@ -32,6 +32,12 @@
   RewriteRule ^(?:CLAUDE\.md|README\.md|MISSING-IMAGES\.txt|package(?:-lock)?\.json|netlify\.toml|vercel\.json|_redirects|suspects\.json|\.gitignore|\.nojekyll|\.env)$ - [R=404,L,NC]
   RewriteRule \.(?:csv|py|pyc|sh|bak|log|jsonl)$ - [R=404,L,NC]
 
+  # The contact form's result pages are templates for contact/send.php, which
+  # fills them in. They are not pages to browse, and the old thank-you addresses
+  # (which said "Message sent" to anyone who typed them) go to the form.
+  RewriteRule ^contact/_pages(?:/|$) - [R=404,L,NC]
+  RewriteRule ^contact/(?:success|not-sent)/?$ /contact/ [R=302,L,NC]
+
   # /path/index.html -> /path/
   #
   # The same duplicate as www, from the other direction. DirectoryIndex serves

@@ -160,7 +160,7 @@ module.exports = {
       '2 tbsp whole allspice berries, for the fire'
     ],
     st: [
-      'Blend the scotch bonnets, spring onions, garlic, ginger, ground allspice, thyme, sugar, soy sauce, lime juice, oil, cinnamon, nutmeg, salt and pepper to a coarse paste.',
+      'Blend the scotch bonnets, spring onions, garlic, ginger, ground allspice, thyme, sugar, soy sauce (or tamari), lime juice, oil, cinnamon, nutmeg, salt and pepper to a coarse paste.',
       'Score the pork slabs and rub the paste into every surface and cut.',
       'Refrigerate 6 hours.',
       'Build a charcoal fire and bank the coals to one side.',
@@ -254,7 +254,7 @@ module.exports = {
       '2 tbsp chopped coriander leaves'
     ],
     st: [
-      'Rub the lard into the flour, baking powder and salt.',
+      'Rub the lard (or vegetable shortening) into the flour, baking powder and salt.',
       'Add the warm water and knead 6 minutes to a soft, smooth dough.',
       'Cover and rest 30 minutes.',
       'Heat the oil and fry the onion for 5 minutes, then the garlic and cumin for 1 minute.',

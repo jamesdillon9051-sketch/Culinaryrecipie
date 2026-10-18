@@ -7707,21 +7707,7 @@
   }
  },
  "cumberland-sauce": {
-  "hero": {
-   "author": "",
-   "color": "#81614a",
-   "file": "cumberland-sauce",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBra7H9ndF8whlI+7WVpd7HZXPmgMcE9B7VDazu90GOAxPar1ifKuXSP5c9SOprn0Wh0cqsf//Z",
-   "model": "sana",
-   "page": "",
-   "prompt": "Redcurrant jelly loosened with port and sharpened with orange, mustard and ginger, Cold, clear, and the correct thing with any cold meat, made with oranges, lemon, redcurrant jelly, ruby port, English mustard powder, a British dish called Cumberland Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Cumberland Sauce",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "cumin-lamb": {
@@ -14099,21 +14085,7 @@
   }
  },
  "kousa-bil-laban": {
-  "hero": {
-   "author": "",
-   "color": "#838168",
-   "file": "kousa-bil-laban",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCS4vRIyMsoJVsnH0qpf3CyW4UvlhJnH4Uup5WBSGIz24qg8jPIidF25471jezGf//Z",
-   "model": "sana",
-   "page": "",
-   "prompt": "Stuffed courgettes finished in the garlic and mint yogurt rather than tomato, made with pale courgettes, short-grain rice, lamb mince, ground allspice, full-fat plain yogurt, a Lebanese dish called Kousa bil Laban, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Kousa bil Laban",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "koussa-mahshi": {
@@ -18141,21 +18113,7 @@
   "process": null
  },
  "paletas": {
-  "hero": {
-   "author": "",
-   "color": "#9c907a",
-   "file": "paletas",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCfS9QSGGNSwwEA6VLfapG9zBLGw/d7uvuKybVBv2DgB8celKEDvED0ZypA7gVhz62NeTS5/9k=",
-   "model": "sana",
-   "page": "",
-   "prompt": "Fresh fruit blended with a little sugar and lime and frozen in moulds, Fifteen minutes of work and no cooking, made with ripe mango flesh, lime juice, Taj\u00edn or chilli powder, wooden lolly sticks, a Mexican dish called Paletas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Paletas",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "palmiers": {
@@ -26886,21 +26844,7 @@
   "process": null
  },
  "vinegar-cabbage": {
-  "hero": {
-   "author": "",
-   "color": "#556548",
-   "file": "vinegar-cabbage",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChBf3U8ZBnKInyhV4J+ppk99LEi2xmLo3GDglfxqHVgI71vLG0MMnHrVGIkToc5OeprNXvzX0FytS3P//Z",
-   "model": "sana",
-   "page": "",
-   "prompt": "Cabbage torn by hand rather than cut, fried hard with dried chilli and finished with black vinegar, Five minutes, and the tearing genuinely matters, made with pointed or flat cabbage, dried red chillies, Sichuan peppercorns, garlic cloves, ginger, a Chinese dish called Vinegar Cabbage, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Vinegar Cabbage",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "vitello-tonnato": {
@@ -31634,21 +31578,7 @@
   "process": null
  },
  "pickled-eggs": {
-  "hero": {
-   "author": "",
-   "color": "#7f6b5b",
-   "file": "pickled-eggs",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwClYXMsWmvGY5Iig++RgVDcXBFmAPMmaQHLY6Voa9M62qYbqcGqVjcOEKcYxWPM73NeVWsf/9k=",
-   "model": "sana",
-   "page": "",
-   "prompt": "Hard-boiled eggs steeped in spiced malt vinegar, The chippy and pub counter classic, Thirty minutes of work, then a week in the jar, made with eggs, malt vinegar, pickling spice, black peppercorns, dried red chilli, a British dish called Pickled Eggs, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Pickled Eggs",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "shandy": {
@@ -34946,21 +34876,7 @@
   "process": null
  },
  "martini": {
-  "hero": {
-   "author": "",
-   "color": "#a39d89",
-   "file": "martini",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA0OFTiXrjjFaV4yJcQORgZIHzH0rLsD5CMI+BkVLO3mld4DY6Vmm76ltH/2Q==",
-   "model": "sana",
-   "page": "",
-   "prompt": "Gin and a little dry vermouth stirred with ice until bracingly cold, strained into a chilled glass and finished with a lemon twist or an olive, made with London dry gin, dry vermouth, A handful of ice cubes, an International dish called Martini, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Martini",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "fruit-salad": {
@@ -35606,39 +35522,11 @@
   "process": null
  },
  "garlic-butter-crayfish": {
-  "hero": {
-   "author": "",
-   "color": "#867368",
-   "file": "garlic-butter-crayfish",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCQ6vLEcnOz1Haq93qMs88UgORsIyD9Ko61bR2USCAEZPOSTUmkWMN3Z7pgxOT0bFZ3Zq4xsf/Z",
-   "model": "sana",
-   "page": "",
-   "prompt": "Crayfish (rock lobster) tails boiled in salted water until bright red, split, and finished with hot garlic butter, lemon and parsley, made with raw crayfish  tails, garlic cloves, chilli flakes, lemon juice, chopped fresh parsley, a New Zealand dish called Garlic Butter Crayfish, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Garlic Butter Crayfish",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "gooseberry-fool": {
-  "hero": {
-   "author": "",
-   "color": "#939479",
-   "file": "gooseberry-fool",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC7HqlusZQTOc56E1RtryO3mdizj5iePpS6fFG+mtIUAkAOGHWp7SCKe3zMgkb+83WsrO4H/9k=",
-   "model": "sana",
-   "page": "",
-   "prompt": "Tart gooseberries stewed and crushed, cooled and folded through whipped cream, A pale green early-summer pudding, with a wait in the fridge, made with gooseberries, elderflower cordial, double cream, Shortbread biscuits, a British dish called Gooseberry Fool, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Gooseberry Fool",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "ham-and-bean-soup": {
@@ -35676,21 +35564,7 @@
   "process": null
  },
  "honey-garlic-glazed-salmon": {
-  "hero": {
-   "author": "",
-   "color": "#8f5e46",
-   "file": "honey-garlic-glazed-salmon",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCjBPJLcyIs0kcaOdqocCn3FxcwX0Hl3DtGzAYds1mW0jC9kx/fNWbh2M9uCf8AloP51zu7nZ7HWlH2V7an/9k=",
-   "model": "sana",
-   "page": "",
-   "prompt": "Skin-on salmon seared until crisp and glazed in the pan with honey, garlic, soy sauce and lemon, Sticky, glossy and ready in 22 minutes, made with skin-on salmon fillets, honey, soy sauce, garlic cloves, lemon juice, an American dish called Honey Garlic Glazed Salmon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Honey Garlic Glazed Salmon",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "honey-mustard-chicken": {
@@ -35846,21 +35720,7 @@
   "process": null
  },
  "maple-glazed-salmon": {
-  "hero": {
-   "author": "",
-   "color": "#9f6a49",
-   "file": "maple-glazed-salmon",
-   "h": 600,
-   "licence": "AI illustration",
-   "licence_url": "",
-   "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCO2s4EgG/bux/EpNUdTijWPKMn/AQRUk13PHGoSVlGOgqjcXM00bCSQsBXKk+Y7HblP//Z",
-   "model": "sana",
-   "page": "",
-   "prompt": "Salmon fillets brushed twice with a maple, Dijon and garlic glaze and baked until lacquered, Twenty-two minutes, made with skin-on salmon fillets, maple syrup, Dijon mustard, tamari, garlic cloves, a Canadian dish called Maple Glazed Salmon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
-   "source": "AI illustration",
-   "title": "Maple Glazed Salmon",
-   "w": 800
-  },
+  "hero": null,
   "process": null
  },
  "mississippi-pot-roast": {

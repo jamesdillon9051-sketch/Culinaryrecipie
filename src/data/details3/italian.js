@@ -72,7 +72,7 @@ module.exports = {
     ],
     st: [
       'Drain the soaked beans, cover with fresh water, and simmer 60 to 75 minutes until tender. Keep them in their liquid.',
-      'In a large pot, fry the pancetta in the olive oil for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
+      'In a large pot, fry the pancetta (if using) in the olive oil for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
       'Add the garlic for 1 minute, then the tomato purée and cook 2 minutes.',
       'Add the beans with their liquid, the Parmesan rind, rosemary, bay and enough water to make 1.5 litres in total.',
       'Simmer 20 minutes, then lift out a ladleful of beans, blend them smooth, and stir the purée back in.',

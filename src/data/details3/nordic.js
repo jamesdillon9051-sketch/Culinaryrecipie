@@ -179,7 +179,7 @@ module.exports = {
       'Take the pan off the heat entirely, then slide in the salmon and white fish.',
       'Cover and leave 5 minutes. The residual heat will cook the fish through.',
       'Add the prawns and half the dill, and let them warm for 1 minute.',
-      'Ladle into bowls, scatter with the remaining dill, and serve with bread.'
+      'Ladle into bowls, scatter with the remaining dill, and serve with bread (optional).'
     ],
     tips: [
       'Fish off the heat. Simmering it turns salmon dry and breaks the white fish up.',
@@ -304,7 +304,7 @@ module.exports = {
       'Cut the salmon into 3 cm cubes and take the pot off the heat.',
       'Slide the salmon in, cover, and leave 6 minutes. It will be exactly cooked.',
       'Stir in most of the dill — far more than feels sensible — and check the seasoning.',
-      'Serve with the rest of the dill on top, and rye bread and butter alongside.'
+      'Serve with the rest of the dill on top, and rye bread (optional) and butter alongside.'
     ],
     tips: [
       'Salmon off the heat, six minutes. Simmering it wastes good fish.',

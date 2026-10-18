@@ -75,7 +75,7 @@ module.exports = {
       'Heat the oven to 220°C / 430°F. Bring the boiling water to a rolling boil with the malt, bicarbonate and sugar.',
       'Test one bagel: it should float within 10 seconds. If it sinks, prove the batch another 20 minutes at room temperature.',
       'Boil three at a time for 60 seconds a side, then lift out with a slotted spoon and drain briefly.',
-      'Brush with egg white, dip face-down in seeds, and bake 20 to 22 minutes until deep golden and blistered. Cool on a rack.'
+      'Brush with egg white (if using), dip face-down in seeds, and bake 20 to 22 minutes until deep golden and blistered. Cool on a rack.'
     ],
     tips: [
       'Barley malt syrup is what makes these taste like bagels rather than boiled rolls. It is worth ordering.',
@@ -109,7 +109,7 @@ module.exports = {
       '1 jalapeño, finely diced'
     ],
     st: [
-      'Put a 25 cm cast-iron skillet with the bacon fat in it into the oven and heat to 220°C / 430°F. Leave it at least 15 minutes.',
+      'Put a 25 cm cast-iron skillet with the bacon fat (or neutral oil) in it into the oven and heat to 220°C / 430°F. Leave it at least 15 minutes.',
       'Whisk the cornmeal, flour, sugar, baking powder, bicarbonate and salt in a large bowl.',
       'Whisk the buttermilk, eggs and melted butter in a jug.',
       'Pour the wet into the dry and fold just until combined — 15 seconds of mixing, no more. Lumps are acceptable and overmixing is not.',

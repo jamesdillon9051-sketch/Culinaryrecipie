@@ -14,3 +14,6 @@ logs/
 
 # Candidates and contact sheets from tools/wide_search.py, which are looked at and then discarded.
 .wide/
+.nutrition-work/
+dist-public/
+dist-public.zip

@@ -269,7 +269,7 @@ module.exports = {
       'Cover and simmer very gently for 45 minutes, turning the pieces once.',
       'Add the preserved lemon rind and olives and cook uncovered for 15 to 20 minutes more, until the chicken is falling off the bone and the sauce has reduced to a glossy glaze.',
       'Taste and adjust the salt carefully — preserved lemons and olives both bring plenty.',
-      'Scatter with the remaining herbs and serve with couscous.'
+      'Scatter with the remaining herbs and serve with couscous (optional).'
     ],
     tips: [
       'Rinse the preserved lemon rind and discard the pulp, or the dish will be far too salty.',
@@ -389,7 +389,7 @@ module.exports = {
   'menemen': {
     d: 'Turkish scrambled eggs cooked slowly into a base of peppers and tomatoes until just set — soft, saucy and eaten straight from the pan with bread.',
     meta: 'Turkish menemen — eggs softly scrambled into peppers and tomatoes. A 25-minute breakfast eaten straight from the pan.',
-    kw: ['menemen recipe', 'turkish eggs', 'tomato pepper eggs', 'low carb breakfast'],
+    kw: ['menemen recipe', 'turkish eggs', 'tomato pepper eggs', 'how to make menemen'],
     why: 'The eggs go in over very low heat and are stirred slowly so their proteins set into soft, loose curds suspended in the tomato rather than firming into dry lumps. Cooking the peppers down for a full ten minutes first drives off water so the finished dish is saucy, not watery.',
     ing: [
       '3 tbsp olive oil, or 30 g butter',
@@ -411,7 +411,7 @@ module.exports = {
       'Crack the eggs directly into the pan and season with the remaining salt and the black pepper.',
       'Stir slowly with a wooden spoon, folding the eggs through the tomato, for 3 to 4 minutes. Take the pan off the heat while the eggs still look slightly underdone and glossy.',
       'The residual heat will finish them. Menemen should be soft and saucy, never dry.',
-      'Scatter with the crumbled cheese and parsley and serve immediately in the pan, with bread for scooping.'
+      'Scatter with the crumbled cheese and parsley and serve immediately in the pan, with bread (optional) for scooping.'
     ],
     tips: [
       'Low and slow with the eggs. Menemen is not a fast scramble.',

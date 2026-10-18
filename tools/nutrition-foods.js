@@ -1,32 +1,42 @@
 'use strict';
 /**
- * Nutrient values per 100 g (or 100 ml) for the foods the new recipes use.
+ * Nutrient values per 100 g (or 100 ml) for the foods the recipes use.
  *
  * tools/nutrition-calc.js reads the ingredient list of a recipe, finds each line here, and adds
- * the figures up, so the nutrition printed on a recipe page is something the page's own
- * ingredient list reproduces and not a number written beside it. That is the claim the page
- * makes ("calculated from the ingredient list") and, for the Diabetes-Friendly, Weight-Loss
- * Friendly and Kidney-Friendly labels, the one the labels stand on.
+ * the figures up per serving.
  *
- * Where the numbers come from, said plainly: they were written from standard food-composition
- * tables (USDA FoodData Central, McCance and Widdowson, Health Canada's Canadian Nutrient File)
- * as remembered, and not copied from a database, so each is good to about 10 per cent and the
- * potassium and phosphorus columns to a little worse. Raw weights unless the key says cooked or
- * tinned. A packaged food varies by brand and the table cannot see an additive: the phosphate
- * added to some frozen shrimp and processed meats is the case that matters for a kidney diet,
- * which is why the Kidney-Friendly rules refuse the processed foods by name and the recipes ask
- * for plain, fresh or frozen meat and fish with no salt or phosphate added.
+ * Where the numbers come from. The literals below were written by hand for the site and have no
+ * recorded source. tools/nutrition-sources.json records, for every food, what replaced them:
  *
- * Columns: protein, carbohydrate, fat, fibre, sugars (all g), sodium (mg).
- * KP gives potassium and phosphorus (mg) for the foods that have them; a recipe that claims to be
- * Kidney-Friendly must use only foods that do.
+ *   usda        the food was matched to an entry in USDA FoodData Central SR Legacy (April 2018,
+ *               public domain), named by its NDB number, and that entry's figures are used. The
+ *               literal here is ignored except for a nutrient SR Legacy does not give.
+ *   proxy       no SR Legacy entry is the same food, so the nearest one is used and named (dry
+ *               breadcrumbs for panko, for instance).
+ *   zero        counted as nothing (water, colouring, a non-absorbed sweetener, bones that are
+ *               discarded).
+ *   generic     a stand-in for an unspecified ingredient ("spice", "stock"); a rough figure with
+ *               no single source.
+ *   unverified  no SR Legacy counterpart was matched, so the hand-written literal is still used.
+ *
+ * The block at the end of this file applies those records. The calculator reports how much of a
+ * recipe's energy comes from generic and unverified foods, and the recipe page says so; see
+ * tools/nutrition-calc.js for how that decides what a page may print. None of this is a
+ * laboratory analysis, and agreement between two tables is not a measure of how close either is
+ * to a particular cook's dish.
+ *
+ * Raw weights unless the key says cooked or tinned. A packaged food varies by brand and the table
+ * cannot see an additive.
+ *
+ * Columns: protein, carbohydrate, fat, fibre, sugars (all g), sodium (mg). KP gives potassium and
+ * phosphorus (mg). Alcohol (g) comes from the sources file only.
  *
  * Sugar alcohols and other sweeteners that are not absorbed (erythritol, stevia, monk fruit) are
  * entered with no carbohydrate and no energy. A nutrition label would count the erythritol as
  * carbohydrate, so a recipe that uses one says so beside its figures.
  */
 
-/* The first 440 foods were written for volumes 26 to 31, from the same sources. */
+/* The first 440 foods were written for volumes 26 to 31. */
 const BASE = {
   // ---- beef, pork, lamb, poultry, game (raw)
   beef_mince: [19, 0, 15, 0, 0, 66], beef_mince_lean: [21, 0, 5, 0, 0, 70], beef_chuck: [19.5, 0, 13, 0, 0, 65],
@@ -891,4 +901,59 @@ Object.assign(MORE, EXT6_FOODS);
 for (const k of Object.keys(EXT6_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT6_ALIAS[k]);
 for (const k of Object.keys(EXT6_PORTION)) PORTION[k] = Object.assign(PORTION[k] || {}, EXT6_PORTION[k]);
 
-module.exports = { BASE, MORE, KP, ALIAS, PORTION };
+/* Names the recipes use for foods already in the table, and four foods added straight from
+   SR Legacy (chickpea flour 16157, sake 43479, sweetened flaked coconut 12109, grenadine 42040). */
+const EXT7_FOODS = {
+  chickpea_flour: [22.4, 57.8, 6.7, 10.8, 10.9, 64],
+  sake: [0.5, 5, 0, 0, 0, 2], coconut_flaked: [3.1, 51.9, 28, 9.9, 36.8, 285], grenadine: [0, 66.9, 0, 0, 46.6, 27]
+};
+const EXT7_ALIAS = {
+  sake: ['sake', 'cooking sake', 'dry sake'], coconut_flaked: ['sweetened flaked coconut', 'sweetened shredded coconut', 'flaked coconut'],
+  grenadine: ['grenadine'],
+  spice: ['ground caraway', 'caraway', 'caraway seeds', 'ground mace', 'mace', 'amchur', 'amchur powder', 'annatto seeds', 'annatto',
+    'shichimi togarashi', 'togarashi', 'pav bhaji masala', 'aonori', 'aonori seaweed flakes'],
+  herbs_dried: ['kasuri methi', 'dried fenugreek leaves', 'dried rose petals'],
+  stock: ['dashi', 'dashi stock'],
+  vodka: ['gin', 'london dry gin', 'tequila', 'blanco tequila', 'reposado tequila', 'mezcal'],
+  chilli: ['scotch bonnets', 'scotch bonnet', 'scotch bonnet chilli', 'habanero', 'habaneros'],
+  kale: ['cavolo nero'],
+  oats: ['medium oatmeal', 'pinhead oatmeal', 'fine oatmeal', 'oatmeal'],
+  bacon_streaky: ['streaky bacon', 'rashers streaky bacon', 'smoked streaky bacon', 'smoked lardons', 'lardons', 'smoked bacon lardons'],
+  chicken_whole: ['chicken', 'whole chicken, about 1.5 kg'],
+  flour_bread: ['strong white bread flour', 'strong bread flour', 'bread flour', 'strong white flour', 'white bread flour', 'strong plain flour', 'strong flour'],
+  chickpea_flour: ['chickpea flour', 'chickpea flour (besan)', 'besan', 'gram flour', 'fine chickpea flour'],
+  oil: ['chilli oil', 'chili oil', 'mustard oil', 'walnut oil', 'annatto-infused oil', 'chilli oil with sediment'],
+  stock: ['chicken or prawn stock', 'chicken or pork stock', 'chicken or anchovy stock', 'rich chicken or pork stock', 'chicken cooking stock', 'anchovy stock', 'anchovy and kelp stock'],
+  tahini: ['sesame paste', 'chinese sesame paste', 'toasted sesame paste'],
+  hot_sauce: ['hot pepper sauce', 'piri-piri sauce'],
+  lettuce: ['salad leaves', 'mixed salad leaves', 'small salad leaves', 'mixed leaves', 'green salad leaves']
+};
+Object.assign(MORE, EXT7_FOODS);
+for (const k of Object.keys(EXT7_ALIAS)) ALIAS[k] = (ALIAS[k] || []).concat(EXT7_ALIAS[k]);
+/* "1 egg yolk" was read as a whole egg, three times the weight. */
+ALIAS.egg = ALIAS.egg.filter(a => !/yolk/.test(a));
+ALIAS.egg_yolk = (ALIAS.egg_yolk || []).concat(['egg yolk', 'egg yolks', 'large egg yolk', 'large egg yolks']);
+
+/* ------------------------------------------------------------- sources */
+/* Replace the hand-written figures with the recorded SR Legacy ones (see the header). Set
+   WD_NUTRITION_LEGACY=1 to see the old literals, which is only useful when re-matching. */
+const SOURCES = require('./nutrition-sources.json').foods;
+const ALC = {};
+if (!process.env.WD_NUTRITION_LEGACY) {
+  for (const [key, e] of Object.entries(SOURCES)) {
+    const table = key in MORE ? MORE : key in BASE ? BASE : null;
+    if (!table) continue;
+    if (e.s === 'usda' || e.s === 'proxy') {
+      table[key] = e.v.slice();
+      if (e.kp) KP[key] = e.kp.slice();
+      if (e.alc) ALC[key] = e.alc;
+    } else if (e.s === 'zero') {
+      table[key] = [0, 0, 0, 0, 0, 0];
+    }
+    if (e.alc && !ALC[key]) ALC[key] = e.alc;
+    if (e.each) PORTION[key] = Object.assign(PORTION[key] || {}, { each: e.each.g });
+  }
+}
+const statusOf = key => (SOURCES[key] ? SOURCES[key].s : 'unverified');
+
+module.exports = { BASE, MORE, KP, ALIAS, PORTION, ALC, SOURCES, statusOf };

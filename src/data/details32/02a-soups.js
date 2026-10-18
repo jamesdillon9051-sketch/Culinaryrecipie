@@ -14,7 +14,7 @@ module.exports = {
   'cream-of-broccoli-soup': {
     d: 'A smooth, pale green broccoli soup finished with half-and-half and a squeeze of lemon, with no flour or potato. Four servings in 35 minutes.',
     meta: 'Cream of broccoli soup with no flour or potato: broccoli simmered with onion and garlic, blended and finished with half-and-half and lemon.',
-    kw: ['cream of broccoli soup', 'no added sugar broccoli soup', 'low carb cream of broccoli soup', 'gluten free broccoli soup', 'easy cream of broccoli soup'],
+    kw: ['cream of broccoli soup', 'gluten free broccoli soup', 'easy cream of broccoli soup', 'cream of broccoli soup recipe'],
     why: 'Why does broccoli soup so often taste dull and look grey? Because it is cooked too long. Twelve minutes at a simmer is enough to make the florets tender, and anything beyond that turns the colour olive and the flavour sulphurous.\n\nThere is no flour and no potato in this pot. The broccoli itself, stems included, thickens the soup once it is blended, and half-and-half added at the end gives the cream without the carbohydrate a roux would bring. **Keep the lid off** while it simmers, since steam trapped under a lid dulls the green. Blend until smooth. Then taste before you add salt, because the stock is unsalted and the soup needs very little.\n\nLemon brightens everything. A pinch of nutmeg adds warmth, and a few drops of olive oil on top finish the bowl. Serve it hot with a slice of wholegrain bread, and eat any leftovers within four days.',
     ing: [
       '1 tbsp olive oil',
@@ -48,7 +48,7 @@ module.exports = {
   'chicken-vegetable-soup': {
     d: 'A clear chicken soup packed with carrot, celery, green beans and zucchini, with no noodles or rice. Six servings in 50 minutes.',
     meta: 'Chicken vegetable soup without noodles: poached chicken breast, carrot, celery, green beans and zucchini in unsalted stock. Six servings.',
-    kw: ['chicken vegetable soup', 'no added sugar chicken soup', 'chicken soup without noodles', 'gluten free chicken vegetable soup', 'easy chicken vegetable soup'],
+    kw: ['chicken vegetable soup', 'chicken soup without noodles', 'gluten free chicken vegetable soup', 'easy chicken vegetable soup'],
     why: 'It is chicken noodle soup without the noodles. Nobody misses them: vegetables take their place and make the pot more filling, with the chicken adding the protein. The whole pot is ready in under an hour.\n\nThis one is poached rather than boiled. The chicken breasts go into the pot whole, simmer gently for 20 minutes and are lifted out to be shredded, which keeps the meat tender instead of stringy. Carrot and celery go in first, because they need the longest, and the green beans and zucchini follow so they stay bright. **Skim the surface now and then** for a clear broth. Season at the end, since the stock is unsalted.\n\nShred the chicken with two forks. Return it to the pot with the parsley. Eat the soup the same day, or keep it for lunches; it improves overnight as the flavours settle. A squeeze of lemon at the table wakes it up.',
     ing: [
       '1 tbsp olive oil',
@@ -85,7 +85,7 @@ module.exports = {
   'beef-vegetable-soup': {
     d: 'A tomato-tinged beef soup with carrot, celery, cabbage and green beans, built on browned beef and unsalted stock. Six servings in 85 minutes.',
     meta: 'Beef vegetable soup: browned lean beef simmered with carrot, celery, cabbage and green beans in unsalted stock. Six hearty servings.',
-    kw: ['beef vegetable soup', 'vegetable beef soup', 'no added sugar beef vegetable soup', 'gluten free beef vegetable soup', 'easy beef vegetable soup'],
+    kw: ['beef vegetable soup', 'vegetable beef soup', 'gluten free beef vegetable soup', 'easy beef vegetable soup'],
     why: 'Brown the beef first. Most beef soups taste thin because the meat went in pale, and a few minutes in a hot pan gives the broth the depth that a pale simmer never will.\n\nBrown the cubes in batches so they colour rather than steam. Do not crowd the pan. Then add the vegetables to the same pot and scrape up the browned bits. Tomato paste goes in next and cooks for a minute, which deepens its flavour, and beef sirloin is lean, so it needs an hour to turn tender while the cabbage and green beans join near the end. **Salt only at the end**, because the stock is unsalted and the beef gives up a good deal of its own.\n\nThere is no potato or barley here, so the carbohydrate stays modest. Cabbage supplies the bulk. A bowl is plenty for lunch with a slice of rye on the side.',
     ing: [
       '1 tbsp olive oil',
@@ -124,7 +124,7 @@ module.exports = {
   'zucchini-soup': {
     d: 'A bright green soup of zucchini, spinach and basil, blended smooth and finished with a little Parmesan. Four servings in 35 minutes.',
     meta: 'Zucchini soup: zucchini, spinach and fresh basil simmered in unsalted stock and blended smooth with a little Parmesan. Ready in 35 minutes.',
-    kw: ['zucchini soup', 'no added sugar zucchini soup', 'low carb zucchini soup', 'gluten free zucchini soup', 'easy zucchini soup'],
+    kw: ['zucchini soup', 'gluten free zucchini soup', 'easy zucchini soup', 'zucchini soup recipe'],
     why: 'Do not peel the zucchini. The skin carries the colour, and a peeled zucchini gives a soup the shade of weak tea.\n\nZucchini is mostly water. That makes it a delicate soup and a quick one. Cut it into chunks of about the same size so everything softens together, and it needs only ten minutes at a simmer before it falls apart and blends into something silky without any cream. A handful of spinach deepens the green, and fresh basil goes in at the very end, because long cooking turns its flavour flat. **Add the basil after blending** for the sharpest perfume. A little Parmesan stirred in thickens the soup slightly and adds the saltiness it needs.\n\nServe it hot or cold. In a warm kitchen it is a good lunch straight from the fridge. A few drops of olive oil and a twist of black pepper finish the bowl.',
     ing: [
       '1 tbsp olive oil',
@@ -158,7 +158,7 @@ module.exports = {
   'creamy-spinach-soup': {
     d: 'A silky green soup of spinach and cauliflower, blended with a splash of half-and-half and a pinch of nutmeg. Four servings in 30 minutes.',
     meta: 'Creamy spinach soup: spinach and cauliflower blended silky with half-and-half and nutmeg, no flour needed. Four servings in 30 minutes.',
-    kw: ['creamy spinach soup', 'no added sugar spinach soup', 'low carb spinach soup', 'gluten free spinach soup', 'easy spinach soup'],
+    kw: ['creamy spinach soup', 'gluten free spinach soup', 'easy spinach soup', 'creamy spinach soup recipe'],
     why: 'Add the spinach last. Heat dulls it quickly, and spinach that goes in at the start of the simmer gives a soup the colour of old moss.\n\nCauliflower does the thickening. Simmered with onion and garlic in unsalted stock, it softens into a base that blends as smooth as cream, with no flour or potato in sight. The spinach goes in for a minute only, just long enough to wilt. A splash of half-and-half and a pinch of nutmeg round the flavour. **Blend it straight away** while the colour is at its brightest, and taste before you add salt. A blender gives a finer purée than a stick blender, if you have one.\n\nGentle is the word for it. The soup is mild and green, and a good place to start for anyone who thinks they dislike spinach. Stir in a squeeze of lemon at the end to lift it. Serve with a poached egg floating on top for a fuller meal.',
     ing: [
       '1 tbsp olive oil',
@@ -192,7 +192,7 @@ module.exports = {
   'asparagus-soup': {
     d: 'A delicate green soup of asparagus and leek, blended smooth with half-and-half and lemon, with no flour or potato. Four servings in 35 minutes.',
     meta: 'Asparagus soup: tender asparagus and leek blended silky smooth with half-and-half and a little lemon, with no flour or potato. Four servings.',
-    kw: ['asparagus soup', 'cream of asparagus soup', 'no added sugar asparagus soup', 'low carb asparagus soup', 'gluten free asparagus soup'],
+    kw: ['asparagus soup', 'cream of asparagus soup', 'gluten free asparagus soup', 'asparagus soup recipe'],
     why: 'Trust your nose. When the pot smells sweet and grassy rather than sharp, a few minutes after the asparagus goes in, the spears are done and ready to blend.\n\nAsparagus does not need a thickener. Its fibres break down into a smooth purée that holds up on a spoon, and a leek softened in butter gives the soup its gentle sweetness. Trim the woody ends, which are tough and fibrous, and peel the lower stalks if they are thick. Keep the tips to one side. **Reserve the tips for the garnish**, simmered for two minutes in the soup and spooned on top. A splash of half-and-half enriches it without making it heavy.\n\nStrain it for a finer texture. A good soup tastes of asparagus and little else, with lemon to sharpen it. Serve it warm in small bowls. It makes a light lunch or a starter, and chives on top add a mild onion note.',
     ing: [
       '1 tbsp butter',
@@ -225,7 +225,7 @@ module.exports = {
   'chicken-pot-pie-soup': {
     d: 'All the filling of a chicken pot pie in a creamy soup, with carrots, celery, green beans and thyme, and no pastry. Six servings in 45 minutes.',
     meta: 'Chicken pot pie soup: tender chicken, carrots, celery and green beans in a creamy thyme broth, with no crust. Six servings in 45 minutes.',
-    kw: ['chicken pot pie soup', 'no added sugar chicken pot pie soup', 'low carb chicken pot pie soup', 'creamy chicken soup without pastry', 'easy chicken pot pie soup'],
+    kw: ['chicken pot pie soup', 'creamy chicken soup without pastry', 'easy chicken pot pie soup', 'chicken pot pie soup recipe'],
     why: 'Keep the filling, lose the crust. On the first cold evening, when a pot pie sounds right and the pastry does not, this soup gives you the comfort with most of the carbohydrate left out.\n\nOnion, carrot and celery softened in butter make the base, and the chicken breasts simmer in the unsalted stock beside them. Cut the vegetables small so they cook evenly. Once cooked, the chicken comes out to be shredded. Half-and-half and a spoonful of cornflour dissolved in cold water turn the broth thick and creamy. **Add the cornflour slowly.** It needs a minute at the bubble to lose its raw taste.\n\nThyme is the only herb and the right one. Taste the soup before you season, since the stock is unsalted and a pinch goes a long way. A spoonful of parsley on top finishes the bowl. Serve it in warm bowls. It tastes best a day later.',
     ing: [
       '1 tbsp butter',

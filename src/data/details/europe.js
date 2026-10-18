@@ -171,7 +171,7 @@ module.exports = {
   'gambas-al-ajillo': {
     d: 'Prawns sizzled in olive oil with a great deal of garlic and dried chilli, served bubbling in the same dish with bread to mop the oil. Eight minutes from start to table.',
     meta: 'Sizzling gambas al ajillo with garlic, chilli and olive oil. A ten-minute Spanish tapa best eaten with bread.',
-    kw: ['gambas al ajillo recipe', 'garlic prawns', 'spanish tapas', 'keto seafood'],
+    kw: ['gambas al ajillo recipe', 'garlic prawns', 'spanish tapas', 'how to make gambas al ajillo'],
     why: 'Starting the garlic in cold oil and bringing it up slowly extracts its aromatics into the oil without scorching it — the oil, not the prawns, is the real product here. Prawns need only 90 seconds a side; anything longer and their proteins tighten into rubber.',
     ing: [
       '600 g raw king prawns, peeled with tails on',
@@ -192,7 +192,7 @@ module.exports = {
       'Raise the heat to high. Add the prawns in a single layer and cook for 90 seconds without moving them.',
       'Turn them and add the paprika and sherry. Cook 60 to 90 seconds more, until the prawns have just turned opaque and curled into a loose C shape.',
       'Take off the heat immediately, season with the remaining salt and scatter with parsley.',
-      'Serve bubbling in the pan with bread and lemon.'
+      'Serve bubbling in the pan with bread (optional) and lemon.'
     ],
     tips: [
       'A prawn curled into a tight O is overcooked; a loose C is perfect.',
@@ -771,7 +771,7 @@ module.exports = {
       'Stir in the garlic and the remaining vinegar off the heat.',
       'Taste and adjust — borscht should be distinctly sour with sweetness behind it, not the other way round.',
       'Rest, covered, for 20 minutes before serving. Borscht is one of those soups that improves noticeably with a short rest.',
-      'Serve with a generous spoonful of smetana, plenty of dill and rye bread on the side.'
+      'Serve with a generous spoonful of smetana, plenty of dill and rye bread (optional) on the side.'
     ],
     tips: [
       'Add the garlic raw at the end. Cooked garlic disappears into the soup; raw garlic gives it a lift.',

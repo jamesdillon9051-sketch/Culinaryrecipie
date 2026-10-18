@@ -133,13 +133,35 @@ function serveHtml(recipe, style, heading) {
   return `<h2>${esc(heading)}</h2>\n        ${body}`;
 }
 
+/**
+ * What the figures are and what they rest on, by tier (tools/nutrition-calc.js). Tier 3 prints no
+ * figures at all, because nothing reproducible stands behind them.
+ */
+/* "2026-10-18" as "18 October 2026", the same dates the structured data carries. */
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const longDate = iso => { const [y, m, d] = String(iso).slice(0, 10).split('-').map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+
+function nutritionNote(recipe) {
+  const reasons = (recipe.nutritionReasons || []).filter(Boolean);
+  const caveats = reasons.length ? ` ${reasons.map(r => r[0].toUpperCase() + r.slice(1)).join('. ')}.` : '';
+  const listed = reasons.length ? ` ${reasons.join('; ')}.` : '';
+  const alcohol = recipe.alcohol ? ` The calories include ${recipe.alcohol} g of alcohol a serving, which is not part of the protein, carbohydrate or fat.` : '';
+  if (recipe.nutritionTier === 1) {
+    return `<p class="form-note">Per serving, calculated from the ingredient list with USDA FoodData Central figures (SR Legacy). A calculation, not a laboratory analysis: brands, cuts and how you measure change the real numbers.${caveats}${alcohol} <a href="${SITE.base}about/#nutrition">How the figures are worked out</a>.</p>`;
+  }
+  if (recipe.nutritionTier === 2) {
+    return `<p class="form-note">Per serving, an approximate calculation from the ingredient list. Treat it as a rough guide:${listed}${alcohol} <a href="${SITE.base}about/#nutrition">How the figures are worked out</a>.</p>`;
+  }
+  return `<p class="form-note">No nutrition figures are given for this recipe: they cannot be worked out reliably from its ingredient list (${esc(reasons[0] || 'some lines cannot be read')}). <a href="${SITE.base}about/#nutrition">Why some recipes have none</a>.</p>`;
+}
+
 function nutritionHtml(n, kp) {
   const cells = [
     ['Calories', n[0], 'kcal'], ['Protein', n[1], 'g'], ['Carbs', n[2], 'g'],
     ['Fat', n[3], 'g'], ['Fibre', n[4], 'g'], ['Sugar', n[5], 'g'], ['Sodium', n[6], 'mg']
   ];
-  /* Potassium and phosphorus, only for the recipes that give them (volume 34). They come from
-     the site's own food table rather than a laboratory, so they say "est.". */
+  /* Potassium and phosphorus, only for the recipes that give them (volume 34). Calculated like
+     the rest, and coverage of these two is patchier, so they say "est.". */
   if (kp) cells.push(['Potassium (est.)', kp[0], 'mg'], ['Phosphorus (est.)', kp[1], 'mg']);
   return `<div class="nutrition">${cells.map(([label, value, unit]) =>
     `<div><strong>${value}${unit === 'kcal' ? '' : unit}</strong><span>${label}</span></div>`).join('')}</div>`;
@@ -269,7 +291,10 @@ function recipeSchema(recipe) {
         'Dairy-Free': 'https://schema.org/LowLactoseDiet'
       }[t]))
       .filter(Boolean),
-    nutrition: {
+    /* Only a documented (tier-1) calculation goes in the structured data; an
+       approximation is shown on the page with its caveats, which the schema
+       cannot carry. */
+    nutrition: recipe.nutritionTier !== 1 ? undefined : {
       '@type': 'NutritionInformation',
       servingSize: '1 serving',
       calories: `${recipe.nutrition[0]} calories`,
@@ -405,10 +430,8 @@ function render(recipe, context) {
         <div class="faq">${faq.map(({ q, a }) =>
           `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`,
     nutrition: () => `<h2>${esc(heading('nutrition'))}</h2>
-        <p class="form-note">${recipe.nutritionSource === 'calculated'
-          ? 'Per serving, worked out from the ingredient list with standard food-composition figures. Treat them as an estimate: brands and cuts vary.'
-          : 'Per serving, an estimate made when the recipe was written rather than worked out line by line from the ingredients. Treat it as a rough guide.'}</p>
-        ${nutritionHtml(recipe.nutrition, recipe.kp)}
+        ${nutritionNote(recipe)}
+        ${recipe.nutrition ? nutritionHtml(recipe.nutrition, recipe.kp) : ''}
         ${dietTags}`
   };
   const prose = shape.order.map(key => sections[key]()).filter(Boolean).join('\n\n        ');
@@ -430,6 +453,7 @@ ${breadcrumbs(trail)}
           ${starsHtml(recipe.rating, recipe.reviews)}
           <span>${ICONS.clock}<strong>${humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'hands on' : 'total'}</span>
           ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWaitRange(recipe.restTime, recipe.restMax)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
+          ${recipe.restTime ? `<span>${ICONS.clock}<strong>${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
@@ -571,6 +595,7 @@ ${breadcrumbs(trail)}
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Written with AI assistance from well-established methods and checked by script for timings, diet labels and nutrition arithmetic; not individually kitchen-tested. <a href="${SITE.base}about/#how-made">How the recipes are made</a>.</p>
+          ${recipe.datePublished ? `<p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="${recipe.datePublished}">${longDate(recipe.datePublished)}</time>${recipe.dateModified && recipe.dateModified !== recipe.datePublished ? `; last changed <time datetime="${recipe.dateModified}">${longDate(recipe.dateModified)}</time>` : ''}.</p>` : ''}
         </div>
       </div>
     </div>

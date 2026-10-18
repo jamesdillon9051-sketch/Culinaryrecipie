@@ -158,7 +158,7 @@ module.exports = {
       'It is ready when a fork twists in the meat with no resistance and the bone pulls out clean.',
       'Rest the sealed parcel for 30 minutes.',
       'Open it over the tin so no juice is lost, shred the pork with two forks, and toss it through all the collected juices.',
-      'Serve with rice and macaroni salad. Some cooks fold in shredded cabbage wilted in the hot juices.'
+      'Serve with rice and macaroni salad (optional). Some cooks fold in shredded cabbage wilted in the hot juices.'
     ],
     tips: [
       'Salt, smoke, pork. Adding anything else makes it a different dish.',
