@@ -137,6 +137,10 @@ function serveHtml(recipe, style, heading) {
  * What the figures are and what they rest on, by tier (tools/nutrition-calc.js). Tier 3 prints no
  * figures at all, because nothing reproducible stands behind them.
  */
+/* "2026-10-18" as "18 October 2026", the same dates the structured data carries. */
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const longDate = iso => { const [y, m, d] = String(iso).slice(0, 10).split('-').map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+
 function nutritionNote(recipe) {
   const reasons = (recipe.nutritionReasons || []).filter(Boolean);
   const caveats = reasons.length ? ` ${reasons.map(r => r[0].toUpperCase() + r.slice(1)).join('. ')}.` : '';
@@ -591,6 +595,7 @@ ${breadcrumbs(trail)}
         <div>
           <p style="margin:0;font-size:.95rem"><strong>Compiled by <a href="${SITE.base}about/">${esc(SITE.author)}</a></strong></p>
           <p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">Written with AI assistance from well-established methods and checked by script for timings, diet labels and nutrition arithmetic; not individually kitchen-tested. <a href="${SITE.base}about/#how-made">How the recipes are made</a>.</p>
+          ${recipe.datePublished ? `<p style="margin:.35rem 0 0;font-size:.86rem;color:var(--text-soft)">First published <time datetime="${recipe.datePublished}">${longDate(recipe.datePublished)}</time>${recipe.dateModified && recipe.dateModified !== recipe.datePublished ? `; last changed <time datetime="${recipe.dateModified}">${longDate(recipe.dateModified)}</time>` : ''}.</p>` : ''}
         </div>
       </div>
     </div>
