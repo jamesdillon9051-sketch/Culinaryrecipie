@@ -764,6 +764,7 @@ module.exports = {
   },
 
   'poire-belle-helene': {
+    untimed: ['cooling'],
     d: 'Pears poached in vanilla syrup, served cold with vanilla ice cream and a warm dark chocolate sauce, ready in 35 minutes.',
     meta: 'Poire Belle Hélène, poached pears with ice cream and hot chocolate sauce, cooked for 25 minutes. Four servings, ready in 35 minutes.',
     kw: ['poire belle helene', 'poached pears with chocolate sauce', 'pears with ice cream and chocolate', 'french poached pear dessert', 'pear belle helene recipe'],

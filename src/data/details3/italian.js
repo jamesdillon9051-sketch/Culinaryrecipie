@@ -263,6 +263,7 @@ module.exports = {
   },
 
   'caponata': {
+    untimed: ['cooling to room temperature'],
     rest: [120, 'resting'],
     d: 'Sicilian sweet-and-sour aubergine with celery, olives and capers, finished with vinegar and sugar. Served at room temperature, and better on the second day than the first.',
     meta: 'Sicilian caponata — sweet-and-sour aubergine with celery, olives and capers. Served at room temperature.',
@@ -305,6 +306,7 @@ module.exports = {
   },
 
   'zeppole': {
+    untimed: ['cooling completely'],
     d: 'Choux buns fried rather than baked, split and filled with pastry cream, and topped with an amarena cherry. Made for Saint Joseph\'s Day in March and eaten with no reference to the calendar at all.',
     meta: 'Zeppole di San Giuseppe — fried choux buns filled with pastry cream and topped with an amarena cherry.',
     kw: ['zeppole recipe', 'zeppole di san giuseppe', 'italian fried pastry', 'choux pastry fried'],

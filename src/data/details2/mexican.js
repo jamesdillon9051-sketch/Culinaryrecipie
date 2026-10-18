@@ -403,6 +403,7 @@ module.exports = {
   },
 
   'flan-napolitano': {
+    untimed: ['cooling completely'],
     rest: [360, 'chilling'],
     d: 'A dense, cream-cheese-enriched custard baked over caramel and turned out so the syrup floods down the sides. Denser and richer than a French crème caramel, and the celebration dessert across Mexico.',
     meta: 'Flan napolitano — dense Mexican cream cheese custard baked over caramel and turned out in its own syrup.',
@@ -442,6 +443,7 @@ module.exports = {
   },
 
   'tres-leches-cake': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'A light sponge soaked in three milks until it is completely saturated yet somehow not soggy, topped with softly whipped cream and cinnamon. The birthday cake of Latin America.',
     meta: 'Tres leches cake — airy sponge soaked in evaporated, condensed and whole milk, topped with whipped cream.',

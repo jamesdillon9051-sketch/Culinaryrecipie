@@ -199,6 +199,7 @@ module.exports = {
   },
 
   'atayef-asafiri': {
+    untimed: ['cooling completely'],
     d: 'Little pancakes cooked on one side only, folded round thick cream and left open at one end so the pistachio shows. Made in enormous quantities in Ramadan.',
     meta: 'Small one-sided pancakes folded around thick ashta cream, left open at one end and dipped in pistachio.',
     kw: ['atayef', 'atayef asafiri', 'lebanese pancakes cream', 'qatayef recipe', 'ramadan dessert'],
@@ -371,6 +372,7 @@ module.exports = {
   },
 
   'meghli': {
+    untimed: ['chilling until cold'],
     d: 'A dark spiced rice pudding made to celebrate a birth, soaked in caraway, anise and cinnamon and buried under soaked nuts. Served cold, and not sweet in the way you expect.',
     meta: 'A dark spiced rice pudding of caraway, anise and cinnamon, chilled and buried under soaked nuts and coconut.',
     kw: ['meghli', 'lebanese spiced pudding', 'meghli recipe', 'caraway rice pudding', 'birth celebration dessert'],

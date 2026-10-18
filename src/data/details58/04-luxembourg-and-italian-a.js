@@ -747,6 +747,7 @@ module.exports = {
   },
 
   'torta-di-ricotta': {
+    untimed: ['cooling completely'],
     d: 'A tender, lightly sweet Italian cake of ricotta, eggs and lemon in a short crust, baked for 50 minutes and cooled before slicing.',
     meta: 'Torta di ricotta, Italian ricotta cake with lemon in a sweet pastry case, baked for 50 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['torta di ricotta', 'italian ricotta cake', 'ricotta tart with lemon', 'baked ricotta cake', 'ricotta cheesecake italian'],

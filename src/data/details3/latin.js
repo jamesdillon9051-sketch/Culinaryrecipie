@@ -156,6 +156,7 @@ module.exports = {
   },
 
   'empanadas-colombianas': {
+    untimed: ['cooling completely'],
     d: 'Corn dough shells filled with potato and shredded beef, deep fried until the outside is crackly and deep yellow, eaten with ají and lime.',
     meta: 'Colombian empanadas — corn dough shells filled with potato and beef, deep fried until crackly.',
     kw: ['colombian empanadas recipe', 'corn dough empanadas', 'empanadas de carne', 'fried corn empanadas'],
@@ -205,6 +206,7 @@ module.exports = {
   },
 
   'causa-limena': {
+    untimed: ['cooling completely'],
     rest: [180, 'chilling'],
     d: 'Cold layers of yellow potato mashed with lime and ají amarillo, packed around a chicken or crab filling and turned out like a terrine.',
     meta: 'Causa limeña — cold layered Peruvian potato terrine with ají amarillo, lime and a chicken filling.',
@@ -366,6 +368,7 @@ module.exports = {
   },
 
   'dulce-de-leche': {
+    untimed: ['cooling completely'],
     d: 'Milk and sugar cooked down slowly with a pinch of bicarbonate of soda until it caramelises to a thick, amber spread.',
     meta: 'Dulce de leche — milk and sugar cooked down slowly to a thick amber caramel spread.',
     kw: ['dulce de leche recipe', 'homemade caramel spread', 'milk caramel', 'argentinian dulce'],
@@ -494,6 +497,7 @@ module.exports = {
   },
 
   'coxinha': {
+    untimed: ['cooling completely'],
     d: 'Shredded chicken and cream cheese wrapped in a dough made from chicken stock and flour, shaped like a teardrop, crumbed and fried.',
     meta: 'Coxinha — Brazilian teardrop croquettes of shredded chicken and cream cheese in a stock dough, fried.',
     kw: ['coxinha recipe', 'brazilian chicken croquettes', 'coxinha de frango', 'brazilian snack'],

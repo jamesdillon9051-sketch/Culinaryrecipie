@@ -188,6 +188,7 @@ module.exports = {
   },
 
   'caramel-popcorn': {
+    untimed: ['cooling completely'],
     d: 'Popcorn coated in a butter and brown sugar caramel and cooked for 15 minutes in a low oven until crisp. Eight servings in 30 minutes.',
     meta: 'Caramel popcorn: popcorn coated in a butter and brown sugar caramel and cooked for 15 minutes in a low oven until crisp.',
     kw: ['caramel popcorn', 'homemade caramel popcorn', 'easy caramel popcorn', 'crunchy caramel popcorn', 'caramel corn'],
@@ -370,6 +371,7 @@ module.exports = {
   },
 
   'freezer-meatballs': {
+    untimed: ['cooling completely'],
     d: 'Beef and pork meatballs browned in the oven for 20 minutes and frozen on a tray, ready to drop into sauce. Eight servings in 40 minutes.',
     meta: 'Freezer meatballs: beef and pork meatballs browned in the oven for 20 minutes and frozen on a tray, ready to drop into sauce.',
     kw: ['freezer meatballs', 'homemade freezer meatballs', 'freezer meatball recipe', 'frozen meatballs', 'meatballs to freeze'],
@@ -469,6 +471,7 @@ module.exports = {
   },
 
   'sweet-potato-brownies': {
+    untimed: ['cooling completely'],
     d: 'Mashed sweet potato, cocoa, dark chocolate and eggs mixed into a fudgy tray of brownies and cooked for 30 minutes. Twelve servings in 45 minutes.',
     meta: 'Sweet potato brownies: mashed sweet potato, cocoa, dark chocolate and eggs mixed into fudgy brownies and cooked for 30 minutes.',
     kw: ['sweet potato brownies', 'homemade sweet potato brownies', 'fudgy sweet potato brownies', 'easy sweet potato brownies', 'brownies with sweet potato'],

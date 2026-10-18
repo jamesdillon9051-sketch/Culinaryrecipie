@@ -515,6 +515,7 @@ module.exports = {
   },
 
   'sushi-rolls': {
+    untimed: ['cooling the rice'],
     d: 'Sushi rice rolled in nori with cooked prawns, cucumber and avocado, sliced into rounds and served with soy sauce, wasabi and pickled ginger.',
     meta: 'Sushi rolls with cooked prawns, cucumber and avocado, rice cooked for 20 minutes. Four servings, ready in 1 hour.',
     kw: ['sushi rolls', 'homemade sushi rolls', 'prawn and avocado sushi', 'maki rolls at home', 'sushi rice and nori rolls'],
@@ -849,7 +850,7 @@ module.exports = {
       'Cook the onions, carrots, parsnips and celery for 6 minutes. Add the garlic and tomato purée for 1 minute.',
       'Pour in the wine and bubble for 3 minutes. Add the stock, thyme, bay leaves and beef.',
       'Cover and cook in the oven for 2 hours, until the beef is tender and the gravy has thickened.',
-      'Cool completely, remove the thyme and bay leaves, and freeze in 6 portions.'
+      'Remove the thyme and bay leaves and divide the stew between 6 shallow containers so it cools quickly. Refrigerate within 2 hours of cooking, then freeze once cold.'
     ],
     tips: [
       'Leave the potatoes out and add them fresh.',

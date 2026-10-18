@@ -154,6 +154,7 @@ module.exports = {
   },
 
   'lamb-vindaloo': {
+    untimed: ['cooling completely'],
     rest: [375, 'marinating'],
     d: 'The Goan original, descended from a Portuguese pork dish preserved in wine and garlic. Vinegar, not just chilli, is the defining note — sharp, garlicky and deeply savoury rather than gratuitously hot.',
     meta: 'Authentic Goan lamb vindaloo with a vinegar and garlic marinade — sharp, garlicky and deep, not just fiercely hot.',
@@ -496,6 +497,7 @@ module.exports = {
   },
 
   'samosas': {
+    untimed: ['cooling completely'],
     d: 'Properly made samosas have a blistered, flaky shell that stays crisp for hours — the result of a stiff dough enriched with ghee and a low, slow fry. The spiced potato and pea filling is the easy part.',
     meta: 'Crisp Punjabi samosas with a blistered flaky shell and spiced potato-pea filling. The low-and-slow frying method.',
     kw: ['samosa recipe', 'punjabi samosa', 'indian snack', 'vegetarian appetizer'],

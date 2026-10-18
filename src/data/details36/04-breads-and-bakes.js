@@ -413,6 +413,7 @@ module.exports = {
   },
 
   'potato-bread': {
+    untimed: ['cooling'],
     d: 'A soft loaf made with mashed potato, flour and yeast, which stays moist for days. Makes 1 loaf of 8 slices in 1 hour 5 minutes plus proving.',
     meta: 'Potato bread: a soft yeast loaf made with mashed potato that stays moist for days. A cheap bake, one loaf of 8 slices, with 1 hour 30 of proving.',
     kw: ['potato bread', 'soft potato loaf', 'budget homemade bread', 'homemade potato bread recipe', 'cheap loaf of bread'],

@@ -324,6 +324,7 @@ module.exports = {
   },
 
   'soy-sauce-eggs': {
+    untimed: ['cooling completely'],
     d: 'Soft-boiled eggs peeled and soaked in a sauce of soy sauce, mirin, water and a little sugar until the whites turn brown.',
     meta: 'Soy sauce eggs: soft-boiled eggs soaked in soy sauce, mirin and sugar. Six servings, cooked for 8 minutes, then marinated for 4 hours.',
     kw: ['soy sauce eggs', 'japanese soy sauce eggs', 'marinated soy sauce eggs', 'soy marinated eggs', 'soy sauce eggs with mirin'],

@@ -199,6 +199,7 @@ module.exports = {
   },
 
   'homemade-ravioli': {
+    untimed: ['cooling'],
     d: 'Silky egg pasta folded around a filling of ricotta, spinach and Parmesan and tossed in brown butter with crisp sage. Worth the effort for a slow weekend.',
     meta: 'Homemade ravioli: silky fresh egg pasta filled with ricotta, spinach and Parmesan, tossed in brown sage butter. A weekend project worth doing.',
     kw: ['homemade ravioli', 'fresh ricotta and spinach ravioli', 'ravioli from scratch', 'ravioli with sage butter', 'how to make ravioli'],

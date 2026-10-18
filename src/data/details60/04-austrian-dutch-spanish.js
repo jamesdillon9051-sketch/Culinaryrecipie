@@ -136,6 +136,7 @@ module.exports = {
   },
 
   'esterhazy-torte': {
+    untimed: ['cooling'],
     d: 'A layered cake of walnut meringue and vanilla buttercream glazed with white icing and a chocolate feather pattern.',
     meta: 'Esterházy Torte, layered walnut meringue cake with vanilla buttercream and a feathered icing, baked for 40 minutes. Twelve servings, ready in 1 hour 40 minutes plus chilling.',
     kw: ['esterhazy torte', 'austrian walnut meringue cake', 'esterhazy cake recipe', 'layered meringue cake with buttercream', 'feathered icing cake'],

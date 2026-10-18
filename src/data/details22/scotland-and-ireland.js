@@ -122,6 +122,7 @@ module.exports = {
   },
 
   'black-bun': {
+    untimed: ['cooling completely'],
     d: 'A dense, spiced Hogmanay fruit cake soaked in whisky and baked inside a case of pastry. Make it ahead. Three and a half hours.',
     meta: 'Black bun: the dark, dense, spiced Scottish Hogmanay fruit cake soaked in whisky and baked in a buttery pastry case. Best made weeks ahead.',
     kw: ['black bun', 'black bun recipe', 'scottish black bun', 'hogmanay black bun', 'scottish fruit cake in pastry'],

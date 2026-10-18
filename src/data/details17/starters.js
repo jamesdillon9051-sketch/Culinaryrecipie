@@ -13,6 +13,7 @@
 
 module.exports = {
   'potted-shrimps': {
+    untimed: ['refrigerating until set'],
     d: 'Tiny brown shrimps set in spiced butter and turned out on toast. Morecambe Bay has sent them south since the eighteenth century and nothing has improved on them.',
     meta: 'Brown shrimps warmed in mace and cayenne butter, packed into pots and sealed under a layer of clarified butter.',
     kw: ['potted shrimps', 'potted shrimps recipe', 'morecambe bay shrimps', 'shrimp butter pot', 'british potted seafood'],
@@ -574,6 +575,7 @@ module.exports = {
   },
 
   'cumberland-sauce': {
+    untimed: ['cooling completely'],
     d: 'Redcurrant jelly loosened with port and sharpened with orange, mustard and ginger. Cold, clear, and the correct thing with any cold meat.',
     meta: 'A clear British sauce of redcurrant jelly melted with port, orange and lemon juice, mustard and ginger, with fine strips of citrus zest through it.',
     kw: ['cumberland sauce', 'cumberland sauce recipe', 'redcurrant port sauce', 'sauce for cold ham', 'british fruit sauce'],

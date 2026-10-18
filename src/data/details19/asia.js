@@ -714,6 +714,7 @@ module.exports = {
   },
 
   'crying-tiger': {
+    untimed: ['cooling'],
     d: 'Grilled beef sliced across the grain and served with nam jim jaew, a roasted rice and chilli dipping sauce. The sauce is the dish.',
     meta: 'Thai grilled steak rested and sliced, served with nam jim jaew of toasted rice powder, chilli, lime and fish sauce.',
     kw: ['crying tiger', 'crying tiger beef', 'seua rong hai', 'nam jim jaew', 'thai grilled beef'],

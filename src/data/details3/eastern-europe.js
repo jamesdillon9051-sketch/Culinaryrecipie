@@ -3,6 +3,7 @@
 
 module.exports = {
   'bigos': {
+    untimed: ['cooling completely'],
     d: 'The Polish hunter\'s stew: sauerkraut and fresh cabbage cooked down for hours with several kinds of pork, dried mushrooms and prunes.',
     meta: 'Bigos — Polish hunter\'s stew of sauerkraut, fresh cabbage, mixed pork, dried mushrooms and prunes.',
     kw: ['bigos recipe', 'polish hunters stew', 'sauerkraut stew', 'cabbage and sausage stew'],

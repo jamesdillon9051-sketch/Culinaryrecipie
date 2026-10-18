@@ -10,6 +10,7 @@
 
 module.exports = {
   'rewena-paraoa': {
+    untimed: ['cooling'],
     d: 'A Māori bread raised with a fermented potato starter instead of yeast. Soft, moist and faintly sweet and sour, with a deep golden crust.',
     meta: 'Rēwena parāoa: Māori potato bread raised with a fermented potato starter, the bug, instead of yeast. Soft, moist, faintly sweet and sour, with a golden crust.',
     kw: ['rewena paraoa', 'rewena bread', 'maori potato bread recipe', 'rewena bug recipe', 'how to make rewena bread'],
@@ -238,6 +239,7 @@ module.exports = {
   },
 
   'boston-bun': {
+    untimed: ['cooling completely'],
     d: 'Soft, spiced sultana buns made with a little mashed potato, topped with a thick layer of pink icing and desiccated coconut.',
     meta: 'Boston bun: soft, spiced sultana buns with a little mashed potato for tenderness, covered in a thick layer of pink icing and desiccated coconut.',
     kw: ['boston bun', 'nz boston bun recipe', 'boston bun with pink icing and coconut', 'iced boston buns', 'how to make boston buns'],

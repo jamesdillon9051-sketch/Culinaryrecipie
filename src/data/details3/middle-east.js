@@ -93,6 +93,7 @@ module.exports = {
   },
 
   'maamoul': {
+    untimed: ['cooling completely'],
     rest: [540, 'resting'],
     d: 'Semolina shortbread moulded around dates, walnuts or pistachios, pressed in a carved wooden mould and baked pale, then dusted with icing sugar.',
     meta: 'Maamoul — semolina shortbread filled with dates or nuts, pressed in carved moulds and baked pale.',
@@ -416,6 +417,7 @@ module.exports = {
   },
 
   'malabi': {
+    untimed: ['cooling to room temperature'],
     rest: [180, 'chilling'],
     d: 'A set milk pudding perfumed with rose water, poured into glasses and topped with red syrup, coconut and crushed pistachios.',
     meta: 'Malabi — rose-scented set milk pudding with red syrup, coconut and crushed pistachios.',
@@ -461,6 +463,7 @@ module.exports = {
   },
 
   'israeli-couscous-salad': {
+    untimed: ['cooling to room temperature'],
     d: 'Toasted pearl couscous with roast vegetables, herbs, lemon and a handful of toasted almonds. Good hot, better at room temperature.',
     meta: 'Israeli couscous salad — toasted pearl couscous with roast vegetables, herbs, lemon and almonds.',
     kw: ['israeli couscous salad recipe', 'pearl couscous', 'ptitim salad', 'vegan grain salad'],
@@ -596,6 +599,7 @@ module.exports = {
   },
 
   'knafeh-nabulsi': {
+    untimed: ['cooling completely'],
     rest: [20, 'soaking'],
     d: 'Semolina-orange dough over a layer of fresh white cheese, baked until the base is crisp and the top is orange, then flooded with syrup.',
     meta: 'Knafeh nabulsi — orange semolina dough over fresh white cheese, baked and flooded with syrup.',

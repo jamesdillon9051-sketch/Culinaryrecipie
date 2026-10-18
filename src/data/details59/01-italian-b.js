@@ -8,6 +8,7 @@
 
 module.exports = {
   'bonet': {
+    untimed: ['cooling'],
     d: 'A Piedmont baked custard of eggs, milk, cocoa and crushed amaretti, set over a caramel and chilled for 4 hours before turning out.',
     meta: 'Bonet, Piedmont chocolate and amaretti pudding set over caramel, baked for 45 minutes. Eight servings, ready in 1 hour 5 minutes plus chilling.',
     kw: ['bonet', 'piedmont chocolate pudding', 'bonet amaretti pudding', 'italian chocolate caramel custard', 'amaretti chocolate pudding'],
@@ -75,6 +76,7 @@ module.exports = {
   },
 
   'chiacchiere': {
+    untimed: ['cooling completely'],
     d: 'Thin ribbons of sweet dough fried until they blister and crisp, then dusted with icing sugar, in 50 minutes.',
     meta: 'Chiacchiere, crisp fried carnival pastry ribbons dusted with icing sugar, cooked for 10 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['chiacchiere', 'italian carnival pastry', 'fried pastry ribbons', 'angel wings pastry italian', 'chiacchiere recipe'],

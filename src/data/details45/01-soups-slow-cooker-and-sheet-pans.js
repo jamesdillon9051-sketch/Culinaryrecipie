@@ -149,6 +149,7 @@ module.exports = {
   },
 
   'dolma': {
+    untimed: ['cooling'],
     d: 'Vine leaves rolled round a filling of rice, onion, herbs and lemon, simmered in olive oil and stock and served cold.',
     meta: 'Dolma: vine leaves filled with rice, onion, herbs and lemon, simmered in olive oil and stock. Eight servings, cooked for 50 minutes.',
     kw: ['dolma', 'greek dolma', 'stuffed vine leaves', 'dolmades with rice and herbs', 'homemade dolma with lemon'],

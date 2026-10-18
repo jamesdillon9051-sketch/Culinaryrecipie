@@ -2,6 +2,7 @@
 
 module.exports = {
   'poke-bowl': {
+    untimed: ['cooling to room temperature'],
     d: 'Cubed raw tuna dressed in soy, sesame and sweet onion over rice. Hawaiian in origin and Japanese in influence, and the whole dish depends on the quality of one ingredient.',
     meta: 'Ahi poke bowl — cubed raw tuna in soy, sesame and sweet onion over seasoned rice with avocado and cucumber.',
     kw: ['poke bowl recipe', 'ahi poke', 'hawaiian poke', 'raw tuna bowl'],

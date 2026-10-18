@@ -252,6 +252,7 @@ module.exports = {
   },
 
   'torshi': {
+    untimed: ['cooling completely'],
     d: 'The pink pickled turnips that come free with every plate of ta\'ameya in Egypt. Beetroot does the colouring; the turnip does everything else.',
     meta: 'Turnips pickled in brine with a wedge of beetroot for colour, ready in a week and served with every fried thing.',
     kw: ['torshi', 'pickled turnips', 'egyptian pickles', 'torshi recipe', 'pink pickled turnip'],
@@ -289,6 +290,7 @@ module.exports = {
   },
 
   'betengan-mekhalel': {
+    untimed: ['cooling'],
     d: 'Small aubergines boiled, stuffed with garlic, chilli and pepper, and kept under oil and vinegar. Sharper and hotter than the Levantine makdous, and made without walnuts.',
     meta: 'Small aubergines boiled and stuffed with garlic, chilli and pepper, then kept under oil and vinegar as a sharp pickle.',
     kw: ['betengan mekhalel', 'egyptian pickled aubergine', 'pickled eggplant recipe', 'stuffed aubergine pickle', 'egyptian torshi betengan'],
@@ -309,20 +311,20 @@ module.exports = {
     st: [
       'Boil the aubergines whole in salted water 12 minutes, until a skewer passes through but the skins hold. Drain.',
       'Slit each one down one side, stopping short of both ends, and rub the inside with a little of the draining salt.',
-      'Sit them cut-side down in a colander under a plate and a heavy weight and leave to drain for at least 480 minutes. They must stop weeping entirely.',
+      'Sit them cut-side down in a colander under a plate and a heavy weight and leave to drain for at least 8 hours. They must stop weeping entirely.',
       'Mix the garlic, chillies, red pepper, ground coriander and salt into a coarse stuffing.',
       'Press a teaspoon of it into each aubergine and close the slit.',
       'Pack them tightly into a sterilised jar, pour in the vinegar, then top up with olive oil until they are completely submerged.',
-      'Seal and keep somewhere cool for at least a week before eating.'
+      'Seal and leave in the fridge for at least a week before eating.'
     ],
-    rest: [480, 'draining under a weight'],
+    rest: [10560, 'draining, then pickling in the fridge'],
     tips: [
       'Drain until no more liquid comes. This is a food-safety step, not a texture one.',
-      'Vinegar as well as oil — that is what makes it Egyptian and what keeps it.',
+      'Vinegar as well as oil: that is what makes it Egyptian.',
       'Everything stays under the surface.'
     ],
     pair: ['Koshari', 'Grilled meat', 'Aish baladi'],
-    store: 'Cool and dark for 3 months while covered; refrigerate after opening and use within 6 weeks.',
+    store: 'Keep it in the fridge from the day it is made, with every piece under the oil. Garlic and vegetables kept in oil can carry botulism, which cannot be seen, smelled or tasted, and no keeping time has been tested for this home preserve, so make small batches and never keep it at room temperature.',
     nut: [145, 3, 10, 11, 4, 4, 590]
   },
 

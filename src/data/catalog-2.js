@@ -145,7 +145,7 @@ module.exports = [
   c('cottage-pie', 'Cottage Pie', 'British', 'Dinner', 'Easy', 25, 95, 6, 4.8, 2277, [], [], 'Cottage pie'),
   c('cornish-pasty', 'Cornish Pasty', 'British', 'Lunch', 'Medium', 35, 50, 6, 4.7, 1466, [], [], 'Cornish pasty'),
   c('roast-beef-yorkshire', 'Roast Beef and Yorkshire Puddings', 'British', 'Holiday Specials', 'Medium', 25, 90, 6, 4.9, 2688, [], ['editors'], 'Roast beef yorkshire pudding'),
-  c('welsh-rarebit', 'Welsh Rarebit', 'British', 'Quick Meals', 'Easy', 10, 10, 2, 4.6, 1044, [], [], 'Welsh rarebit'),
+  c('welsh-rarebit', 'Welsh Rarebit', 'British', 'Lunch', 'Easy', 10, 10, 2, 4.6, 1044, [], [], 'Welsh rarebit'),
   c('eton-mess', 'Eton Mess', 'British', 'Desserts', 'Easy', 15, 75, 4, 4.8, 1877, ['Vegetarian', 'Gluten-Free'], [], 'Eton mess'),
   c('victoria-sponge', 'Victoria Sponge', 'British', 'Baking', 'Easy', 20, 25, 10, 4.8, 2411, ['Vegetarian'], [], 'Victoria sponge cake'),
   c('bakewell-tart', 'Bakewell Tart', 'British', 'Baking', 'Medium', 30, 40, 8, 4.7, 1533, ['Vegetarian'], [], 'Bakewell tart'),

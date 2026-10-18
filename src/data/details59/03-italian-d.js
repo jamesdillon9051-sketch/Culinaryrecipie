@@ -469,6 +469,7 @@ module.exports = {
   },
 
   'baci-di-dama': {
+    untimed: ['cooling completely'],
     d: 'Small hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes and chilled to set.',
     meta: 'Baci di dama, tiny hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes. Thirty servings, ready in 1 hour 25 minutes.',
     kw: ['baci di dama', 'italian hazelnut chocolate biscuits', 'lady kisses biscuits', 'hazelnut shortbread sandwiches', 'baci di dama recipe'],
@@ -599,6 +600,7 @@ module.exports = {
   },
 
   'crostata-alla-nutella': {
+    untimed: ['cooling completely'],
     d: 'A crumbly sweet pastry tart filled with chocolate hazelnut spread and finished with a lattice, baked for 35 minutes at 180C.',
     meta: 'Crostata alla Nutella, sweet pastry tart filled with chocolate hazelnut spread, baked for 35 minutes. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['crostata alla nutella', 'chocolate hazelnut tart', 'nutella tart italian', 'crostata with chocolate hazelnut spread', 'italian nutella tart'],
@@ -631,6 +633,7 @@ module.exports = {
   },
 
   'crostata-di-ricotta': {
+    untimed: ['cooling completely'],
     d: 'A sweet pastry tart filled with ricotta, sugar, lemon and chocolate chips, baked for 45 minutes at 180C.',
     meta: 'Crostata di ricotta, sweet pastry tart filled with ricotta, lemon and chocolate chips, baked for 45 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['crostata di ricotta', 'italian ricotta tart', 'ricotta and chocolate chip tart', 'sweet ricotta crostata', 'crostata di ricotta recipe'],
@@ -702,6 +705,7 @@ module.exports = {
   },
 
   'sbrisolona-mantovana': {
+    untimed: ['cooling completely'],
     d: 'A crumbly almond and cornmeal cake from Mantua, broken up and eaten in shards, baked for 35 minutes at 180C.',
     meta: 'Sbrisolona mantovana, crumbly almond and cornmeal cake from Mantua, baked for 35 minutes at 180C. Ten servings, ready in 55 minutes.',
     kw: ['sbrisolona mantovana', 'italian crumble cake', 'almond and cornmeal crumble cake', 'sbrisolona recipe', 'mantua almond cake'],

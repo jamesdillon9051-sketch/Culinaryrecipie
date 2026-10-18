@@ -419,6 +419,7 @@ module.exports = {
   },
 
   'tamales': {
+    untimed: ['cooling completely'],
     cookMax: 203,
     rest: [75, 'soaking'],
     d: 'Masa whipped with lard until it floats, wrapped around chilli-braised pork in corn husks and steamed until it sets into something tender and fragrant. Making them is traditionally a group activity, and it should be.',

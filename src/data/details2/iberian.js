@@ -154,6 +154,7 @@ module.exports = {
   },
 
   'pastel-de-nata': {
+    untimed: ['cooling completely'],
     d: 'Lisbon\'s custard tarts: laminated pastry shells filled with a loose cinnamon custard and blasted in a furnace-hot oven until the tops blister black. The scorch marks are the point.',
     meta: 'Pastéis de nata — Portuguese custard tarts with laminated pastry and blistered, caramelised cinnamon custard.',
     kw: ['pastel de nata recipe', 'portuguese custard tart', 'pasteis de nata', 'lisbon custard tart'],

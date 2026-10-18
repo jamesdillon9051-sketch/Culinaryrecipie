@@ -226,6 +226,7 @@ module.exports = {
   },
 
   'rhubarb-fool': {
+    untimed: ['cooling completely'],
     d: 'Roasted rhubarb folded through whipped cream so it stays in ribbons rather than turning the whole thing pink. Fifteen minutes and one pan.',
     meta: 'Forced rhubarb roasted with sugar and orange, cooled, and folded loosely through whipped cream so it stays streaked.',
     kw: ['rhubarb fool', 'rhubarb fool recipe', 'british fruit fool', 'roasted rhubarb cream', 'easy rhubarb dessert'],
@@ -682,6 +683,7 @@ module.exports = {
   },
 
   'parkin': {
+    untimed: ['cooling completely'],
     d: 'An oatmeal, treacle and ginger cake that is inedible on the day it is baked and excellent a week later. Yorkshire makes it for Bonfire Night.',
     meta: 'A Yorkshire cake of medium oatmeal, black treacle and golden syrup with ginger, baked slowly and matured in a tin for a week.',
     kw: ['parkin', 'parkin recipe', 'yorkshire parkin', 'bonfire night cake', 'oatmeal treacle ginger cake'],
@@ -722,6 +724,7 @@ module.exports = {
   },
 
   'dundee-cake': {
+    untimed: ['cooling completely'],
     d: 'A light fruit cake with almonds arranged in rings on top, and no cherries in it at all. Made with Seville orange peel, which is what makes it Dundee.',
     meta: 'A Scottish light fruit cake with currants, sultanas and Seville orange peel, topped with concentric rings of blanched almonds.',
     kw: ['dundee cake', 'dundee cake recipe', 'scottish fruit cake', 'almond topped fruit cake', 'seville orange cake'],

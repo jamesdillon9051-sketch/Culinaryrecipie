@@ -527,6 +527,7 @@ module.exports = {
   },
 
   'torta-di-castagne': {
+    untimed: ['cooling completely'],
     d: 'A dark, moist cake of chestnut purée, chocolate, eggs and butter baked for 40 minutes at 170C.',
     meta: 'Torta di castagne, dark moist cake of chestnut purée and chocolate, baked for 40 minutes at 170C. Ten servings, ready in 1 hour.',
     kw: ['torta di castagne', 'italian chestnut cake', 'chestnut and chocolate cake', 'chestnut puree cake', 'torta di castagne recipe'],
@@ -696,6 +697,7 @@ module.exports = {
   },
 
   'limoncello': {
+    untimed: ['cooling completely'],
     d: 'An Italian lemon liqueur made by steeping lemon zest in neutral spirit for 4 days and mixing it with a cooled sugar syrup.',
     meta: 'Limoncello, Italian lemon liqueur made by steeping lemon zest in spirit, cooked for 5 minutes. Ten servings, ready in 20 minutes plus steeping.',
     kw: ['limoncello', 'homemade limoncello', 'italian lemon liqueur', 'limoncello recipe', 'lemon zest liqueur'],

@@ -188,6 +188,7 @@ module.exports = {
   },
 
   'strawberry-spinach-salad': {
+    untimed: ['cooling'],
     d: 'Baby spinach with sweet strawberries, crisp red onion, toasted pecans and tangy feta in a poppy seed dressing. A bright, fresh salad that looks after itself.',
     meta: 'Strawberry spinach salad: baby spinach with ripe strawberries, red onion, toasted pecans and feta in a tangy poppy seed dressing. Bright and fresh.',
     kw: ['strawberry spinach salad', 'strawberry spinach salad with poppy seed dressing', 'spinach strawberry salad with pecans', 'strawberry and feta spinach salad', 'how to make strawberry spinach salad'],

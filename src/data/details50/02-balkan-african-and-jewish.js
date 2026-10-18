@@ -459,6 +459,7 @@ module.exports = {
   },
 
   'somali-sambusa': {
+    untimed: ['cooling completely'],
     d: 'Crisp triangular pastries filled with spiced minced beef, leek and green chilli, a Somali staple at Ramadan.',
     meta: 'Somali sambusa: crisp triangular pastries filled with spiced minced beef, leek and green chilli. Makes about twenty, cooked for 20 minutes.',
     kw: ['somali sambusa', 'sambusa recipe', 'somali samosa', 'ramadan sambusa', 'sambusa with minced beef and leek'],
@@ -498,6 +499,7 @@ module.exports = {
   },
 
   'zanzibar-pizza': {
+    untimed: ['cooling'],
     d: 'A paper-thin dough parcel filled with minced meat, egg, onion and cheese, folded into a square and cooked on a hot griddle, a Zanzibar street food.',
     meta: 'Zanzibar pizza: a paper-thin dough parcel filled with minced meat, egg, onion and cheese, cooked on a hot griddle. Four servings, cooked for 15 minutes.',
     kw: ['zanzibar pizza', 'zanzibar pizza recipe', 'stuffed zanzibar pizza', 'tanzanian street food zanzibar pizza', 'zanzibari mkate wa nyama'],
@@ -684,6 +686,7 @@ module.exports = {
   },
 
   'gefilte-fish': {
+    untimed: ['cooling in the broth and chilling'],
     d: 'Poached oval dumplings of minced white fish, onion and egg in a light fish and vegetable broth, served cold with beetroot horseradish.',
     meta: 'Gefilte fish: poached oval dumplings of minced white fish, onion and egg in a light broth, served cold with horseradish. Ten servings, cooked for 90 minutes.',
     kw: ['gefilte fish', 'gefilte fish recipe', 'homemade gefilte fish', 'jewish poached fish balls', 'gefilte fish with horseradish'],
@@ -713,7 +716,7 @@ module.exports = {
       'Put the sliced onions, carrots, water, salt and sugar in a wide pan and simmer for 30 minutes.',
       'With wet hands, shape the fish mixture into 18 ovals. Lower them gently into the simmering broth.',
       'Cover with the lid slightly open and poach very gently for 1 hour.',
-      'Cool in the broth, then chill. Serve cold with a slice of carrot and the horseradish.'
+      'Leave to cool in the broth, moving the pan to the fridge within 2 hours of cooking, then chill until cold. Serve cold with a slice of carrot and the horseradish.'
     ],
     tips: [
       'Keep the broth at a bare simmer.',

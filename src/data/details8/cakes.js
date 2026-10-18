@@ -5,6 +5,7 @@
 
 module.exports = {
   'chocolate-cake': {
+    untimed: ['cooling'],
     rest: [95, 'cooling'],
     d: 'The birthday cake standard: three dark, tender layers made with cocoa bloomed in boiling coffee, under a silky chocolate buttercream. The batter is thin enough to alarm you, which is exactly what gives the crumb its moisture.',
     meta: 'A three-layer chocolate cake with cocoa bloomed in hot coffee and a silky chocolate buttercream — deeply dark, never dry.',
@@ -55,6 +56,7 @@ module.exports = {
   },
 
   'vanilla-sponge-cake': {
+    untimed: ['cooling completely'],
     d: 'The plain vanilla sponge every other cake is built on: fine, even crumb, real vanilla, and enough structure to layer, soak or split. Made by the reverse-creaming method, which coats the flour in butter before any liquid goes near it.',
     meta: 'A reverse-creamed vanilla sponge with a fine, tender crumb — the plain layer cake base worth learning properly.',
     kw: ['vanilla sponge cake', 'vanilla cake recipe', 'plain sponge cake', 'reverse creaming cake'],
@@ -177,6 +179,7 @@ module.exports = {
   },
 
   'marble-cake': {
+    untimed: ['cooling completely'],
     d: 'The German Marmorkuchen: one batter split in two, one half darkened with cocoa, and the two dragged through each other with a single pass of a skewer. Baked in a ring tin so every slice shows the pattern.',
     meta: 'German marble cake — one vanilla batter, one cocoa, swirled once with a skewer and baked in a ring tin.',
     kw: ['marble cake', 'marmorkuchen', 'marble bundt cake', 'chocolate vanilla marble cake'],
@@ -218,6 +221,7 @@ module.exports = {
   },
 
   'pound-cake': {
+    untimed: ['cooling completely'],
     d: 'A pound of each: butter, sugar, eggs and flour, creamed by hand until the batter is pale enough to be its own leavening. No baking powder, no shortcuts, and a crust that shatters slightly under the knife.',
     meta: 'A traditional pound cake — equal weights of butter, sugar, egg and flour, leavened by creaming alone.',
     kw: ['pound cake', 'classic pound cake', 'butter pound cake', 'quatre quarts'],
@@ -253,6 +257,7 @@ module.exports = {
   },
 
   'bundt-cake': {
+    untimed: ['cooling completely'],
     d: 'A sour cream bundt with a fine, damp crumb and a lemon glaze that sets to a thin shell. The tin does the decorating, which is the entire appeal — provided you grease it properly, and most people do not.',
     meta: 'A sour cream bundt cake with a fine, damp crumb and a set lemon glaze — plus the greasing method that gets it out whole.',
     kw: ['bundt cake', 'sour cream bundt cake', 'vanilla bundt cake', 'bundt cake glaze'],

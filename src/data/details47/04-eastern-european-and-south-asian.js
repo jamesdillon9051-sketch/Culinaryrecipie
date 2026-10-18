@@ -14,6 +14,7 @@
 
 module.exports = {
   'kopytka': {
+    untimed: ['cooling completely'],
     d: 'Polish potato dumplings of mashed potato, flour and egg, cut into small diagonal pieces, boiled and tossed in butter.',
     meta: 'Kopytka: Polish potato dumplings of mashed potato, flour and egg, boiled and tossed in butter. Four servings, cooked for 10 minutes.',
     kw: ['kopytka', 'polish potato dumplings', 'kopytka recipe', 'polish gnocchi', 'potato dumplings with butter'],

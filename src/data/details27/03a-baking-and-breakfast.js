@@ -154,6 +154,7 @@ module.exports = {
   },
 
   'homemade-pop-tarts': {
+    untimed: ['cooling completely'],
     d: 'Rectangles of flaky butter pastry filled with strawberry jam, sealed with a fork, baked golden and topped with a thin sugar icing. Like the toaster pastries, only better.',
     meta: 'Homemade Pop-Tarts: flaky butter pastry rectangles filled with strawberry jam, sealed with a fork, baked golden and topped with a thin sugar icing.',
     kw: ['homemade pop tarts', 'homemade toaster pastries', 'strawberry pop tarts from scratch', 'pop tarts with jam filling', 'how to make pop tarts'],

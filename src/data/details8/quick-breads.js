@@ -45,6 +45,7 @@ module.exports = {
   },
 
   'zucchini-bread': {
+    untimed: ['cooling completely'],
     d: 'A spiced loaf that uses up a glut and tastes of nothing green whatsoever: the courgette dissolves into moisture, and the crumb ends up somewhere between a cake and a bread. Squeezing the grated flesh is the difference between damp and sodden.',
     meta: 'Courgette bread, spiced and moist, with the grated flesh squeezed dry so the loaf bakes through instead of sinking.',
     kw: ['zucchini bread', 'courgette bread', 'zucchini loaf recipe', 'moist zucchini bread'],
@@ -86,6 +87,7 @@ module.exports = {
   },
 
   'pumpkin-bread': {
+    untimed: ['cooling completely'],
     d: 'Dark, damp and heavily spiced, with the pumpkin purée cooked down first so the loaf tastes of squash rather than of tin. A crackled demerara lid and a crumb that stays moist for the better part of a week.',
     meta: 'Spiced pumpkin bread with the purée cooked down first for deeper flavour, under a crackled demerara crust.',
     kw: ['pumpkin bread', 'pumpkin loaf', 'spiced pumpkin bread', 'pumpkin spice loaf'],

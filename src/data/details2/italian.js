@@ -327,6 +327,7 @@ module.exports = {
   },
 
   'cannoli': {
+    untimed: ['cooling completely'],
     rest: [540, 'draining'],
     d: 'Blistered fried shells filled to order with sweetened sheep\'s-milk ricotta and candied peel. Filling them any earlier than the moment they are eaten is the one thing Sicilians will not forgive.',
     meta: 'Sicilian cannoli with blistered fried shells and sweet ricotta filling. Fill to order — here is why it matters.',
@@ -409,6 +410,7 @@ module.exports = {
   },
 
   'biscotti': {
+    untimed: ['cooling the almonds and the baked biscotti'],
     d: 'Twice-baked almond biscuits, hard enough to dunk and dry enough to keep for a month. The second bake is what makes them biscotti rather than cookies.',
     meta: 'Crunchy almond biscotti, twice baked so they keep for weeks. The traditional Tuscan cantucci, made for dunking.',
     kw: ['biscotti recipe', 'almond biscotti', 'cantucci', 'italian biscuits'],
@@ -447,6 +449,7 @@ module.exports = {
   },
 
   'torta-caprese': {
+    untimed: ['cooling completely'],
     d: 'A flourless chocolate and almond cake from Capri with a crisp top and a dense, fudgy middle. Naturally gluten-free, and it happened by accident when a baker forgot the flour.',
     meta: 'Torta caprese — a flourless chocolate almond cake from Capri. Crisp top, fudgy centre, naturally gluten-free.',
     kw: ['torta caprese recipe', 'flourless chocolate cake', 'gluten free chocolate cake', 'italian almond cake'],

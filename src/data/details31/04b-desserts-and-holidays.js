@@ -10,6 +10,7 @@
 
 module.exports = {
   'dubai-chocolate-bar': {
+    untimed: ['cooling completely'],
     d: 'A chocolate bar filled with crisp toasted kataifi pastry, pistachio cream and tahini. The viral sweet inspired by knafeh, made in a mould with a chocolate shell.',
     meta: 'Dubai chocolate bar: a milk chocolate shell filled with crisp toasted kataifi pastry, pistachio cream and tahini, inspired by knafeh.',
     kw: ['dubai chocolate bar', 'dubai chocolate', 'pistachio kataifi chocolate bar', 'homemade dubai chocolate', 'dubai chocolate recipe'],
@@ -73,6 +74,7 @@ module.exports = {
   },
 
   'edible-cookie-dough': {
+    untimed: ['cooling completely'],
     d: 'Soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, so it is safe to eat by the spoonful. Ready in 20 minutes.',
     meta: 'Edible cookie dough: soft, buttery chocolate chip cookie dough made with heat-treated flour and no raw egg, safe to eat by the spoonful.',
     kw: ['edible cookie dough', 'safe to eat cookie dough', 'edible chocolate chip cookie dough', 'cookie dough without eggs', 'edible cookie dough recipe'],

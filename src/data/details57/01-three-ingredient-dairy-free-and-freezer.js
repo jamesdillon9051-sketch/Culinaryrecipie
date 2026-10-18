@@ -134,6 +134,7 @@ module.exports = {
   },
 
   'dairy-free-chocolate-cake': {
+    untimed: ['cooling completely'],
     d: 'A tender two-layer chocolate cake made with oil, oat milk and vinegar and covered in a dairy-free chocolate ganache, baked for 30 minutes.',
     meta: 'Dairy-free chocolate cake with oat milk and a dairy-free ganache, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['dairy-free chocolate cake', 'oat milk chocolate cake', 'chocolate cake without butter or milk', 'dairy-free chocolate layer cake', 'dairy-free cake recipe'],
@@ -576,7 +577,7 @@ module.exports = {
       'Melt the butter, stir in the flour for 1 minute and whisk in the warm milk gradually. Simmer for 6 minutes until thick.',
       'Off the heat, stir in the mustard, nutmeg, salt, cheddar and Gruyère until smooth. Stir in the macaroni.',
       'Pour into a large dish, scatter with the breadcrumbs and bake for 20 minutes until golden.',
-      'Cool completely, cut into 8 portions and wrap each. Freeze for up to 3 months.'
+      'Leave to cool, moving the dish to the fridge within 2 hours of baking, then cut into 8 portions and wrap each. Freeze for up to 3 months.'
     ],
     tips: [
       'Use a flour-thickened sauce for stability.',
@@ -624,6 +625,7 @@ module.exports = {
   },
 
   'freezer-pot-pie': {
+    untimed: ['cooling the filling'],
     d: 'Chicken and vegetable pot pies in a creamy sauce under puff pastry lids, assembled in foil dishes and frozen unbaked.',
     meta: 'Freezer pot pie with chicken, vegetables and puff pastry, frozen unbaked and baked for 40 minutes fresh. Six servings, ready in 1 hour 10 minutes.',
     kw: ['freezer pot pie', 'chicken pot pie to freeze', 'chicken pot pie for the freezer', 'frozen chicken pot pies', 'individual pot pies for the freezer'],
@@ -645,7 +647,7 @@ module.exports = {
     ],
     st: [
       'Melt the butter and cook the leeks and carrots for 8 minutes. Stir in the flour for 1 minute, then add the stock and milk gradually and simmer for 8 minutes until very thick.',
-      'Stir in the chicken, peas, thyme, salt and pepper. Cool completely.',
+      'Stir in the chicken, peas, thyme, salt and pepper. Spread in a shallow dish and cool completely, moving it to the fridge within 2 hours.',
       'Divide the filling between 6 individual foil dishes. Cut the pastry into 6 lids slightly larger than the dishes and press them on, sealing the edges. Cut a slit in each.',
       'Freeze the pies on a tray until solid, then wrap each in cling film and foil.',
       'To bake, heat the oven to 190C, brush the pies with egg and bake from frozen for 55 minutes, or fresh for 40 minutes, until deep gold.'
@@ -693,6 +695,7 @@ module.exports = {
   },
 
   'gluten-free-banana-bread': {
+    untimed: ['cooling completely'],
     d: 'A moist banana loaf made with a gluten-free flour blend and ground almonds, baked for 55 minutes.',
     meta: 'Gluten-free banana bread with a flour blend and ground almonds, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
     kw: ['gluten-free banana bread', 'banana bread with gluten-free flour', 'moist gluten-free banana loaf', 'gluten-free banana loaf cake', 'gluten-free banana bread recipe'],
@@ -826,6 +829,7 @@ module.exports = {
   },
 
   'gluten-free-carrot-cake': {
+    untimed: ['cooling completely'],
     d: 'A moist spiced carrot cake made with a gluten-free flour blend and ground almonds, baked for 40 minutes in two layers.',
     meta: 'Gluten-free carrot cake with cream cheese frosting, baked for 40 minutes. Twelve servings, ready in 1 hour 20 minutes.',
     kw: ['gluten-free carrot cake', 'carrot cake with gluten-free flour', 'gluten-free cake with cream cheese frosting', 'gluten-free spiced carrot cake', 'gluten-free carrot cake recipe'],

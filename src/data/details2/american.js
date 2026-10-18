@@ -2,6 +2,7 @@
 
 module.exports = {
   'chicken-pot-pie': {
+    untimed: ['cooling completely'],
     rest: [60, 'chilling'],
     d: 'Chicken and vegetables in a velvety sauce under an all-butter pastry lid that shatters when you break through it. The American comfort dish, and a masterclass in how to keep pastry crisp over a wet filling.',
     meta: 'Classic chicken pot pie with a creamy chicken and vegetable filling under a crisp all-butter pastry lid.',

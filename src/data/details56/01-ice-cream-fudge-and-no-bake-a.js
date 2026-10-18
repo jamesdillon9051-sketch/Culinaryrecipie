@@ -113,6 +113,7 @@ module.exports = {
   },
 
   'blackberry-sorbet': {
+    untimed: ['cooling completely'],
     d: 'Fresh blackberries pureed with sugar syrup and lemon, strained of seeds, then churned and frozen for a deep purple sorbet.',
     meta: 'Blackberry sorbet with sugar syrup and lemon, strained and frozen for 4 hours. Six servings, ready in 4 hours 20 minutes.',
     kw: ['blackberry sorbet', 'fresh blackberry sorbet', 'homemade blackberry sorbet', 'blackberry sorbet with lemon', 'dairy free blackberry sorbet'],
@@ -176,6 +177,7 @@ module.exports = {
   },
 
   'italian-ice': {
+    untimed: ['cooling completely'],
     d: 'A smooth, intensely lemon-flavoured Italian ice made from fresh juice and sugar syrup, frozen and scraped every 45 minutes.',
     meta: 'Italian ice with lemon juice and sugar syrup, frozen for 4 hours. Six servings, ready in 4 hours 20 minutes.',
     kw: ['italian ice', 'lemon italian ice', 'homemade italian ice', 'granita style italian ice', 'italian ice recipe'],
@@ -721,6 +723,7 @@ module.exports = {
   },
 
   'raspberry-sorbet': {
+    untimed: ['cooling completely'],
     d: 'Raspberries pureed with sugar syrup and a little lemon juice, strained and churned into a vivid pink sorbet.',
     meta: 'Raspberry sorbet with sugar syrup and lemon, churned and frozen for 4 hours. Six servings, ready in 4 hours 20 minutes.',
     kw: ['raspberry sorbet', 'fresh raspberry sorbet', 'homemade raspberry sorbet', 'french raspberry sorbet', 'raspberry sorbet recipe'],

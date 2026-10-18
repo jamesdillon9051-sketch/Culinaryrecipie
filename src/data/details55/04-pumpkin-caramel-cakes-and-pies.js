@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'pumpkin-bars': {
+    untimed: ['cooling completely'],
     d: 'Soft, spiced pumpkin bars with cinnamon and nutmeg, baked in a tray for 30 minutes and topped with cream cheese frosting.',
     meta: 'Pumpkin bars with warm spices and cream cheese frosting, baked for 30 minutes. 16 bars, ready in 1 hour.',
     kw: ['pumpkin bars', 'pumpkin bars with cream cheese frosting', 'spiced pumpkin sheet cake', 'pumpkin traybake', 'pumpkin bar recipe'],
@@ -89,6 +90,7 @@ module.exports = {
   },
 
   'pumpkin-bundt-cake': {
+    untimed: ['cooling completely'],
     d: 'A tall, moist pumpkin bundt cake with warm spices and a maple cream cheese glaze, baked for 55 minutes.',
     meta: 'Pumpkin bundt cake with warm spices and maple glaze, baked for 55 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['pumpkin bundt cake', 'spiced pumpkin bundt', 'pumpkin bundt cake with glaze', 'maple glazed pumpkin cake', 'pumpkin bundt recipe'],
@@ -245,6 +247,7 @@ module.exports = {
   },
 
   'pumpkin-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Spiced pumpkin cupcakes topped with a swirl of cream cheese frosting and a dusting of cinnamon, baked for 22 minutes.',
     meta: 'Pumpkin cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['pumpkin cupcakes', 'pumpkin cupcakes with cream cheese frosting', 'spiced pumpkin cupcakes', 'moist pumpkin cupcakes', 'pumpkin cupcake recipe'],
@@ -285,6 +288,7 @@ module.exports = {
   },
 
   'raspberry-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies with whole raspberries pressed into the top and swirled with raspberry jam, baked for 28 minutes.',
     meta: 'Raspberry brownies, fudgy with tart raspberries, baked for 28 minutes. 16 squares, ready in 45 minutes.',
     kw: ['raspberry brownies', 'fudgy raspberry brownies', 'brownies with fresh raspberries', 'chocolate raspberry brownies', 'raspberry brownie recipe'],
@@ -389,6 +393,7 @@ module.exports = {
   },
 
   'maple-walnut-cookies': {
+    untimed: ['cooling completely'],
     d: 'Soft brown sugar cookies flavoured with pure maple syrup and studded with toasted walnuts, baked for 12 minutes.',
     meta: 'Maple walnut cookies with maple syrup and toasted walnuts, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
     kw: ['maple walnut cookies', 'maple cookies with walnuts', 'maple syrup cookies', 'soft maple walnut cookies', 'maple walnut cookie recipe'],
@@ -633,6 +638,7 @@ module.exports = {
   },
 
   'strawberry-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes with pureed strawberry in the batter and a fresh strawberry buttercream, baked for 22 minutes.',
     meta: 'Strawberry cupcakes with real strawberry buttercream, baked for 22 minutes. Twelve servings, ready in 1 hour.',
     kw: ['strawberry cupcakes', 'fresh strawberry cupcakes', 'strawberry cupcakes with strawberry buttercream', 'real strawberry cupcakes', 'strawberry cupcake recipe'],
@@ -738,6 +744,7 @@ module.exports = {
   },
 
   'white-cake': {
+    untimed: ['cooling completely'],
     d: 'A tender, snow-white two-layer cake made with egg whites and buttermilk, covered in vanilla buttercream, baked for 30 minutes.',
     meta: 'White cake with a fine, tender crumb and vanilla buttercream, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['white cake', 'classic white cake', 'white cake with buttercream', 'tender white cake from scratch', 'wedding style white cake'],
@@ -774,6 +781,7 @@ module.exports = {
   },
 
   'yellow-cake': {
+    untimed: ['cooling completely'],
     d: 'A rich, buttery yellow cake made with whole eggs and vanilla, baked in two layers for 30 minutes and covered in chocolate frosting.',
     meta: 'Yellow cake with chocolate frosting, buttery and tender, baked for 30 minutes. Twelve servings, ready in 1 hour 30 minutes.',
     kw: ['yellow cake', 'classic yellow cake', 'yellow cake with chocolate frosting', 'homemade yellow birthday cake', 'buttery yellow cake'],
@@ -810,6 +818,7 @@ module.exports = {
   },
 
   'zucchini-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies with grated zucchini for moisture, baked for 28 minutes and topped with chocolate chips.',
     meta: 'Zucchini brownies, fudgy and moist with grated courgette, baked for 28 minutes. 16 squares, ready in 45 minutes.',
     kw: ['zucchini brownies', 'courgette brownies', 'fudgy zucchini brownies', 'chocolate zucchini brownie recipe', 'brownies with hidden vegetables'],

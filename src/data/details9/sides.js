@@ -245,6 +245,7 @@ module.exports = {
   },
 
   'cranberry-sauce': {
+    untimed: ['cooling to room temperature'],
     rest: [120, 'chilling'],
     d: 'Fifteen minutes, four ingredients, and better than anything in a jar. The pectin in the berries does the setting, so it needs nothing added and no thickener.',
     meta: 'Cranberry sauce in fifteen minutes — the berries set themselves with their own pectin. Orange zest, no thickener.',

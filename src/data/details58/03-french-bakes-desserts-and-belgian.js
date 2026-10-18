@@ -40,6 +40,7 @@ module.exports = {
   },
 
   'tarte-a-la-rhubarbe': {
+    untimed: ['cooling'],
     d: 'Rhubarb baked in a sweet shortcrust case with an almond and egg custard, for 40 minutes at 190C.',
     meta: 'Tarte à la rhubarbe, rhubarb and almond custard in a sweet pastry case, baked for 40 minutes. Eight servings, ready in 1 hour 5 minutes.',
     kw: ['tarte a la rhubarbe', 'french rhubarb tart', 'rhubarb tart with almond custard', 'rhubarb custard tart', 'sweet pastry rhubarb tart'],
@@ -280,6 +281,7 @@ module.exports = {
   },
 
   'charlotte-aux-fraises': {
+    untimed: ['cooling to room temperature'],
     d: 'A dome of sponge fingers filled with a strawberry bavarois and fresh strawberries, set in the fridge for at least 4 hours.',
     meta: 'Charlotte aux fraises, sponge fingers filled with strawberry cream, cooked for 10 minutes. Ten servings, ready in 55 minutes plus 4 hours of chilling.',
     kw: ['charlotte aux fraises', 'strawberry charlotte', 'sponge finger and strawberry cream dessert', 'french strawberry charlotte cake', 'strawberry bavarois charlotte'],
@@ -379,6 +381,7 @@ module.exports = {
   },
 
   'vacherin-aux-fraises': {
+    untimed: ['cooling in the switched-off oven'],
     d: 'Layers of crisp meringue sandwiched with whipped cream and strawberries, the meringue dried in a low oven for 90 minutes.',
     meta: 'Vacherin aux fraises, meringue layers with cream and strawberries, baked for 1 hour 30 minutes. Eight servings, ready in 2 hours.',
     kw: ['vacherin aux fraises', 'meringue and strawberry cake', 'strawberry vacherin', 'meringue layers with cream and fruit', 'french meringue dessert'],

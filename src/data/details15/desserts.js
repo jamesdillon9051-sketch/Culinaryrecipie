@@ -12,6 +12,7 @@
 
 module.exports = {
   'tarte-au-citron': {
+    untimed: ['cooling completely'],
     d: 'A thin pastry case filled with lemon curd set with butter and eggs. Sharp enough to make you blink, which is the whole point of it.',
     meta: 'A blind-baked pastry case filled with a sharp lemon cream set with butter and eggs, baked only until it just wobbles.',
     kw: ['tarte au citron', 'lemon tart', 'tarte au citron recipe', 'french lemon tart', 'lemon curd tart'],
@@ -147,6 +148,7 @@ module.exports = {
   },
 
   'flan-parisien': {
+    untimed: ['cooling completely'],
     d: 'A deep custard tart with a thick, wobbling set and a scorched top. Sold by the slab in every French bakery and almost unknown elsewhere.',
     meta: 'A deep pastry case filled with thick vanilla custard, baked hot so the surface scorches while the inside stays soft.',
     kw: ['flan parisien', 'french custard tart', 'flan patissier', 'flan parisien recipe', 'parisian flan'],
@@ -270,6 +272,7 @@ module.exports = {
   },
 
   'paris-brest': {
+    untimed: ['cooling the pastry cream and the choux ring'],
     d: 'A ring of choux split and filled with praline mousseline, made for a bicycle race and shaped like a wheel. The praline is the whole dish.',
     meta: 'A ring of choux pastry split and filled with hazelnut praline mousseline cream, topped with flaked almonds.',
     kw: ['paris brest', 'praline choux ring', 'paris brest recipe', 'french choux dessert', 'hazelnut praline cream'],
@@ -412,6 +415,7 @@ module.exports = {
   },
 
   'opera': {
+    untimed: ['cooling the sponge'],
     d: 'Six layers: almond sponge soaked in coffee syrup, coffee buttercream, chocolate ganache, repeated, and a poured glaze. Every layer must be flat.',
     meta: 'Layers of coffee-soaked almond joconde sponge, coffee buttercream and chocolate ganache under a poured mirror glaze.',
     kw: ['opera cake', 'gateau opera', 'opera cake recipe', 'coffee chocolate layer cake', 'french patisserie cake'],
@@ -511,6 +515,7 @@ module.exports = {
   },
 
   'dacquoise': {
+    untimed: ['cooling completely'],
     d: 'Discs of nut meringue layered with buttercream. Chewy rather than crisp, which is what separates it from a vacherin.',
     meta: 'Discs of hazelnut and almond meringue layered with praline buttercream, baked soft so they stay chewy rather than crisp.',
     kw: ['dacquoise', 'nut meringue cake', 'dacquoise recipe', 'hazelnut meringue layers', 'french meringue gateau'],
@@ -682,6 +687,7 @@ module.exports = {
   },
 
   'creme-caramel': {
+    untimed: ['cooling'],
     d: 'Baked custard turned out so the caramel runs down it. The caramel goes into the moulds first and dissolves into a sauce while it chills.',
     meta: 'A baked vanilla custard set over hard caramel, chilled overnight so the caramel dissolves into a sauce, then turned out.',
     kw: ['creme caramel', 'flan custard', 'creme caramel recipe', 'caramel custard', 'french baked custard'],
@@ -797,6 +803,7 @@ module.exports = {
   },
 
   'financiers': {
+    untimed: ['cooling completely'],
     d: 'Small almond cakes made with brown butter and egg whites, baked hot so the edges crisp. Named for the gold-bar shape and the district that ate them.',
     meta: 'Small almond cakes made with beurre noisette and egg whites, baked hot so the edges crisp against a soft middle.',
     kw: ['financiers', 'almond cakes', 'financiers recipe', 'brown butter cakes', 'french petit four'],

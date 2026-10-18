@@ -145,6 +145,7 @@ module.exports = {
   },
 
   'alfajores': {
+    untimed: ['cooling completely'],
     rest: [80, 'chilling'],
     d: 'Two cornflour-heavy shortbread biscuits sandwiching dulce de leche and rolled in desiccated coconut. Argentinian and Peruvian in equal measure, and they dissolve on the tongue rather than crumbling.',
     meta: 'Alfajores — tender cornflour biscuits sandwiched with dulce de leche and rolled in coconut.',

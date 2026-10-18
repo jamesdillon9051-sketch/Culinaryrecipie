@@ -281,6 +281,7 @@ module.exports = {
   },
 
   'caramel-apples': {
+    untimed: ['setting'],
     d: 'Small crisp apples on sticks, dipped in melted soft caramel and left to set.',
     meta: 'Caramel apples: crisp apples on sticks, dipped in melted soft caramel and left to set. Six servings, 5 minutes to melt.',
     kw: ['caramel apples', 'easy caramel apples', 'homemade caramel apples', 'toffee apples with caramel', 'candy apples with caramel'],
@@ -338,6 +339,7 @@ module.exports = {
   },
 
   'apple-slice': {
+    untimed: ['cooling'],
     d: 'A buttery shortcrust base layered with stewed apple and topped with an oat crumble, baked and cut into squares.',
     meta: 'Apple slice: a buttery base layered with stewed apple and an oat crumble top. Sixteen pieces, baked for 35 minutes.',
     kw: ['apple slice', 'australian apple slice', 'apple crumble slice', 'apple slice with oat topping', 'homemade apple slice'],
@@ -373,6 +375,7 @@ module.exports = {
   },
 
   'caramel-slice-bars': {
+    untimed: ['cooling completely'],
     d: 'A coconut and brown sugar base, a layer of golden condensed milk caramel and a topping of melted dark chocolate.',
     meta: 'Caramel slice bars: a coconut base, a layer of condensed milk caramel and dark chocolate on top. Sixteen pieces, then chilled.',
     kw: ['caramel slice bars', 'australian caramel slice', 'caramel slice', 'chocolate caramel slice bars', 'homemade caramel slice'],
@@ -407,6 +410,7 @@ module.exports = {
   },
 
   'chocolate-chip-cookie-bars': {
+    untimed: ['cooling'],
     d: 'A chewy bar of brown sugar cookie dough with chocolate chips, baked in a single tin and cut into squares.',
     meta: 'Chocolate chip cookie bars: chewy brown sugar bars studded with chocolate chips. Sixteen pieces, baked for 25 minutes.',
     kw: ['chocolate chip cookie bars', 'easy chocolate chip cookie bars', 'chewy cookie bars', 'chocolate chip blondie bars', 'homemade cookie bars'],

@@ -147,6 +147,7 @@ module.exports = {
   },
 
   'vada-pav': {
+    untimed: ['cooling'],
     d: 'A spiced potato fritter in a soft bun with three chutneys and fried green chillies. Mumbai\'s street sandwich, sold from carts on every corner and eaten standing up.',
     meta: 'Vada pav — Mumbai potato fritter in a soft bun with garlic, tamarind and coriander chutneys.',
     kw: ['vada pav recipe', 'mumbai street food', 'batata vada', 'indian potato burger'],

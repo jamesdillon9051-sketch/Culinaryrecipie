@@ -458,6 +458,7 @@ module.exports = {
   },
 
   'sausage-plait': {
+    untimed: ['cooling completely'],
     d: 'Sausage meat with onion and sage rolled in puff pastry, cut into strips and plaited. The buffet showpiece, in an hour.',
     meta: 'Sausage plait: seasoned sausage meat with onion and sage wrapped in puff pastry, cut and plaited, glazed and baked until golden.',
     kw: ['sausage plait', 'sausage plait recipe', 'sausage meat plait', 'puff pastry sausage plait', 'party sausage plait'],

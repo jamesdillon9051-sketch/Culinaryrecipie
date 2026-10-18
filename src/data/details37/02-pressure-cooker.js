@@ -470,6 +470,7 @@ module.exports = {
   },
 
   'instant-pot-cheesecake': {
+    untimed: ['cooling to room temperature'],
     d: 'A baked-style cheesecake with a biscuit base, cooked in a springform tin in the pressure cooker and chilled overnight. Eight servings in 55 minutes plus chilling.',
     meta: 'Instant Pot cheesecake: a creamy cheesecake with a biscuit base, steamed in the pressure cooker for 35 minutes, then chilled. Eight servings.',
     kw: ['instant pot cheesecake', 'pressure cooker cheesecake', 'cheesecake in the instant pot', 'cheesecake for eight', 'creamy cheesecake'],

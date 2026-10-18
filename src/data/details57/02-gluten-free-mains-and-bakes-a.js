@@ -80,6 +80,7 @@ module.exports = {
   },
 
   'gluten-free-crackers': {
+    untimed: ['cooling on the tray'],
     d: 'Thin, crisp rosemary and sesame crackers made from a gluten-free flour blend and olive oil, baked for 20 minutes at 180C.',
     meta: 'Gluten-free crackers with rosemary and sesame, baked for 20 minutes at 180C. Makes about 40, ready in 35 minutes.',
     kw: ['gluten free crackers', 'homemade crackers without wheat', 'rosemary sesame crackers', 'gluten free cheese board crackers', 'baked gluten free crackers'],

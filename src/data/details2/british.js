@@ -193,6 +193,7 @@ module.exports = {
   },
 
   'welsh-rarebit': {
+    untimed: ['cooling the mixture'],
     d: 'A thick, savoury cheese sauce spiked with mustard, ale and Worcestershire, spread on toast and grilled until blistered. Not cheese on toast: the cheese is cooked into a sauce first, and it makes all the difference.',
     meta: 'Welsh rarebit — a thick mustard, ale and Worcestershire cheese sauce grilled on toast until blistered.',
     kw: ['welsh rarebit recipe', 'cheese on toast', 'rarebit sauce', 'british savoury toast'],
@@ -235,6 +236,7 @@ module.exports = {
   },
 
   'eton-mess': {
+    untimed: ['cooling in the switched-off oven'],
     d: 'Crushed meringue, whipped cream and macerated strawberries folded together fifteen minutes before serving. Reputedly the result of a dropped pavlova at Eton, and better than the thing it replaced.',
     meta: 'Eton mess — crushed meringue, whipped cream and macerated strawberries folded together just before serving.',
     kw: ['eton mess recipe', 'strawberry meringue dessert', 'british summer dessert', 'easy pudding'],
@@ -278,6 +280,7 @@ module.exports = {
   },
 
   'victoria-sponge': {
+    untimed: ['cooling completely'],
     d: 'Two golden sponge layers with jam and cream between, dusted with caster sugar. Named for a queen who took it with her tea, and still the benchmark by which British home bakers are judged.',
     meta: 'Classic Victoria sponge with jam and whipped cream between two golden layers, dusted with caster sugar.',
     kw: ['victoria sponge recipe', 'victoria sandwich cake', 'british sponge cake', 'jam and cream cake'],
@@ -323,6 +326,7 @@ module.exports = {
   },
 
   'bakewell-tart': {
+    untimed: ['cooling'],
     rest: [90, 'chilling'],
     d: 'Shortcrust filled with raspberry jam and frangipane, baked until the almond filling is set and golden, and finished with flaked almonds or a feathered icing. Derbyshire\'s gift to the tea table.',
     meta: 'Bakewell tart — shortcrust with raspberry jam and almond frangipane, baked golden and topped with flaked almonds.',
@@ -370,6 +374,7 @@ module.exports = {
   },
 
   'lemon-drizzle-cake': {
+    untimed: ['cooling completely'],
     d: 'A plain loaf cake pierced all over while still hot and drenched in lemon and sugar, which soaks in and then sets into a crackling crust on top. Britain\'s most-baked cake, by some distance.',
     meta: 'Lemon drizzle cake — a moist loaf soaked in lemon syrup while hot, setting into a crackling sugar crust.',
     kw: ['lemon drizzle cake recipe', 'lemon loaf cake', 'british bake', 'easy lemon cake'],
@@ -415,6 +420,7 @@ module.exports = {
   },
 
   'shortbread': {
+    untimed: ['cooling completely'],
     d: 'Three ingredients in the proportion one part sugar, two parts butter, three parts flour, baked pale and cut while warm. Everything depends on not developing any gluten at all.',
     meta: 'Scottish shortbread with the classic 1-2-3 ratio — buttery, sandy, pale-baked and cut while still warm.',
     kw: ['shortbread recipe', 'scottish shortbread', 'butter biscuits', 'petticoat tails'],

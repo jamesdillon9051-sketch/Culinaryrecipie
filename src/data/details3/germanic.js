@@ -171,6 +171,7 @@ module.exports = {
   },
 
   'sachertorte': {
+    untimed: ['cooling completely'],
     rest: [180, 'resting'],
     d: 'Dense chocolate sponge split and layered with apricot jam, then coated in a poured chocolate glaze that sets to a hard, glossy shell.',
     meta: 'Sachertorte — dense chocolate sponge with apricot jam under a poured chocolate glaze that sets hard.',
@@ -500,6 +501,7 @@ module.exports = {
   },
 
   'stroopwafel': {
+    untimed: ['cooling completely'],
     d: 'Two paper-thin waffle discs split apart while hot and glued back together with hot caramel syrup. Best eaten balanced on a mug of coffee.',
     meta: 'Stroopwafels — thin waffle discs split while hot and filled with caramel syrup.',
     kw: ['stroopwafel recipe', 'dutch caramel waffle', 'syrup waffle', 'pizzelle stroopwafel'],

@@ -218,6 +218,7 @@ module.exports = {
   },
 
   'gateau-basque': {
+    untimed: ['cooling the cake in the tin'],
     rest: [150, 'chilling'],
     d: 'A thick shortcrust shell around a layer of vanilla pastry cream or black cherry jam, scored across the top before baking. From the French Basque country, and closer to a giant biscuit than a cake.',
     meta: 'Gâteau Basque — thick almond shortcrust around vanilla pastry cream, scored and baked golden.',
@@ -267,6 +268,7 @@ module.exports = {
   },
 
   'pots-de-creme': {
+    untimed: ['cooling'],
     rest: [240, 'chilling'],
     d: 'Small pots of dark chocolate custard, baked in a bain-marie until barely set and eaten cold with a spoon. Three ingredients doing all the work, so the chocolate has nowhere to hide.',
     meta: 'Pots de crème au chocolat — dark chocolate baked custards, set in a bain-marie and served chilled.',

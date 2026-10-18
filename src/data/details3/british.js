@@ -2,6 +2,7 @@
 
 module.exports = {
   'steak-and-ale-pie': {
+    untimed: ['cooling completely'],
     cookMax: 219,
     d: 'Beef shin braised in dark ale until it falls apart, under a lid of rough puff pastry baked until the top is lacquered and the gravy has thickened underneath.',
     meta: 'Steak and ale pie — beef shin braised in dark ale under a rough puff pastry lid, baked until glossy.',

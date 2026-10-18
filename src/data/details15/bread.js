@@ -12,6 +12,7 @@
 
 module.exports = {
   'pain-de-campagne': {
+    untimed: ['cooling completely'],
     d: 'A country loaf of white and wholemeal flour raised with a levain, baked dark. The crumb should be open and the crust should crackle as it cools.',
     meta: 'A country sourdough of white and wholemeal flour raised on a levain, proved slowly and baked dark in a covered pot.',
     kw: ['pain de campagne', 'french country bread', 'pain de campagne recipe', 'sourdough country loaf', 'levain bread'],
@@ -85,6 +86,7 @@ module.exports = {
   },
 
   'pain-aux-noix': {
+    untimed: ['cooling completely'],
     d: 'A dense walnut loaf that turns faintly purple where the nuts touch the crumb. Made for cheese and very little else.',
     meta: 'A dense walnut bread that stains faintly purple around the nuts, made with wholemeal flour and a little honey.',
     kw: ['pain aux noix', 'walnut bread', 'pain aux noix recipe', 'french nut bread', 'bread for cheese'],
@@ -244,6 +246,7 @@ module.exports = {
   },
 
   'saucisson-brioche': {
+    untimed: ['cooling completely'],
     d: 'A poaching sausage baked inside brioche. Lyon, and the trick is that the sausage is cooked and cooled before it is wrapped.',
     meta: 'A Lyon poaching sausage cooked, cooled and wrapped in enriched brioche dough, then baked until dark and glossy.',
     kw: ['saucisson en brioche', 'sausage in brioche', 'saucisson brioche recipe', 'lyon sausage bread', 'french sausage bake'],

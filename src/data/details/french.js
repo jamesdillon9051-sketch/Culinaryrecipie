@@ -351,6 +351,7 @@ module.exports = {
   },
 
   'salade-nicoise': {
+    untimed: ['cooling'],
     d: 'A composed salad, not a tossed one: each element dressed and arranged separately so every forkful is deliberate. Good tuna, waxy potatoes, jammy eggs and a punchy anchovy vinaigrette make this a full meal.',
     meta: 'Classic Salade Niçoise composed with waxy potatoes, jammy eggs, green beans and a punchy anchovy vinaigrette.',
     kw: ['salade nicoise recipe', 'french tuna salad', 'composed salad', 'healthy french lunch'],
@@ -564,6 +565,7 @@ module.exports = {
   },
 
   'creme-brulee': {
+    untimed: ['cooling to room temperature'],
     rest: [260, 'chilling'],
     d: 'A vanilla custard so smooth it barely holds a spoon, under a sheet of caramel thin enough to crack with a tap. The water bath and a low oven are what separate silk from scrambled egg.',
     meta: 'Silky vanilla crème brûlée with a glass-thin caramel top. The water-bath method that guarantees a flawless custard.',

@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'cake-pops': {
+    untimed: ['cooling completely'],
     d: 'Little balls of crumbled vanilla cake mixed with buttercream, chilled, dipped in melted chocolate and covered in sprinkles. A party favourite on a stick.',
     meta: 'Cake pops: little balls of crumbled vanilla cake mixed with buttercream, chilled, dipped in melted chocolate and covered in sprinkles, on sticks.',
     kw: ['cake pops', 'homemade cake pops', 'vanilla cake pops', 'birthday cake pops', 'how to make cake pops'],
@@ -130,6 +131,7 @@ module.exports = {
   },
 
   'lebkuchen': {
+    untimed: ['cooling'],
     d: 'Soft, spiced German honey cookies with ground almonds, candied peel and warm Christmas spices, finished with a thin sugar glaze. A Nuremberg Christmas tradition.',
     meta: 'Lebkuchen: soft, spiced German honey cookies with ground almonds, candied peel and warm Christmas spices, finished with a thin lemon glaze.',
     kw: ['lebkuchen', 'german lebkuchen', 'lebkuchen recipe', 'german honey spice cookies', 'how to make lebkuchen'],
@@ -205,6 +207,7 @@ module.exports = {
   },
 
   'sour-cream-raisin-pie': {
+    untimed: ['cooling completely'],
     d: 'A creamy custard of plump raisins, soured cream, cinnamon and cloves in a pastry case, crowned with a tall, golden meringue. A Canadian prairie favourite.',
     meta: 'Sour cream raisin pie: a creamy custard of plump raisins, soured cream, cinnamon and cloves in a pastry case, topped with a tall, golden meringue.',
     kw: ['sour cream raisin pie', 'canadian sour cream raisin pie', 'sour cream raisin pie with meringue', 'prairie raisin pie', 'how to make sour cream raisin pie'],

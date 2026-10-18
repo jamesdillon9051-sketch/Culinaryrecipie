@@ -460,6 +460,7 @@ module.exports = {
   },
 
   'ukrainian-cabbage-rolls': {
+    untimed: ['cooling'],
     d: 'Cabbage leaves rolled around beef, pork and rice, packed in a tomato sauce and baked until tender. The Ukrainian-Canadian prairie staple, holubtsi.',
     meta: 'Ukrainian cabbage rolls, or holubtsi: tender cabbage leaves wrapped around a beef and rice filling and baked slowly in a tomato sauce. A prairie favourite.',
     kw: ['ukrainian cabbage rolls', 'holubtsi', 'cabbage rolls recipe', 'cabbage rolls in tomato sauce', 'baked cabbage rolls'],
@@ -501,6 +502,7 @@ module.exports = {
   },
 
   'flapper-pie': {
+    untimed: ['cooling on a rack'],
     d: 'A graham cracker crust, a smooth vanilla custard and a swirl of meringue. The Prairie pie of Manitoba, Saskatchewan and Alberta church suppers.',
     meta: 'Flapper pie: a graham cracker crust filled with a set vanilla custard and topped with a golden meringue. A Prairie church-supper classic, served cold.',
     kw: ['flapper pie', 'flapper pie recipe', 'prairie flapper pie', 'graham cracker custard pie with meringue', 'saskatchewan flapper pie'],

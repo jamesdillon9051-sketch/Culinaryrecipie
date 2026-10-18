@@ -860,6 +860,7 @@ module.exports = {
   },
 
   'burek': {
+    untimed: ['cooling completely'],
     d: 'A Croatian spiral pie of paper thin pastry filled with spiced minced beef and onion, baked for 40 minutes until crisp.',
     meta: 'Burek, Croatian spiral pie of thin pastry filled with spiced minced beef, baked for 40 minutes. Eight servings, ready in 1 hour 20 minutes.',
     kw: ['burek', 'croatian meat burek', 'balkan meat pie in phyllo', 'burek recipe', 'spiral pie with minced beef'],

@@ -758,6 +758,7 @@ module.exports = {
   },
 
   'quenelles-de-brochet': {
+    untimed: ['chilling until cold'],
     d: 'Pike beaten with choux paste into weightless dumplings, poached and baked in a crayfish sauce. Lyon, and one of the last genuinely difficult things in the French repertoire.',
     meta: 'Pike beaten with choux paste and cream into light dumplings, poached gently and baked under a crayfish nantua sauce.',
     kw: ['quenelles de brochet', 'pike quenelles', 'quenelles recipe', 'lyon quenelles nantua', 'fish dumplings'],

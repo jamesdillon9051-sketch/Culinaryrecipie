@@ -450,7 +450,7 @@ module.exports = {
       'Whisk the eggs, 200 g sugar, yoghurt, oil, zest and baking powder.',
       'Fold in the phyllo until coated, without squashing it. Pour into the tin.',
       'Bake for 45 minutes until deep gold.',
-      'Simmer the syrup sugar, orange juice and water for 8 minutes. Cool, then pour over the hot cake slowly.',
+      'While the cake bakes, simmer the syrup sugar, orange juice and water for 8 minutes and leave it to cool. Pour the cooled syrup slowly over the hot cake.',
       'Cool and serve with the yoghurt.'
     ],
     tips: [
@@ -707,6 +707,7 @@ module.exports = {
   },
 
   'imqaret': {
+    untimed: ['cooling completely'],
     d: 'Fried Maltese pastry diamonds filled with a spiced date paste, dough rested for 1 hour and fried in hot oil for 20 minutes.',
     meta: 'Imqaret, Maltese fried pastry diamonds filled with spiced date paste, fried for 20 minutes. Twenty servings, ready in 1 hour plus resting.',
     kw: ['imqaret', 'maltese date pastries', 'fried date filled pastry diamonds', 'imqaret recipe', 'maltese street dessert'],

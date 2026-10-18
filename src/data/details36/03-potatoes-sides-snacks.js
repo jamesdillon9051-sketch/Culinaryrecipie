@@ -135,6 +135,7 @@ module.exports = {
   },
 
   'potato-croquettes': {
+    untimed: ['cooling completely'],
     d: 'Mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. Makes 12 in 1 hour 15 minutes.',
     meta: 'Potato croquettes: mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. A cheap snack or side, 12 in 1 hour 15 minutes.',
     kw: ['potato croquettes', 'cheese potato croquettes', 'budget croquettes from mash', 'crispy mashed potato logs', 'cheap party snack'],

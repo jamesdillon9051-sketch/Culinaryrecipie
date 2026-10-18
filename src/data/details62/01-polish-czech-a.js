@@ -82,6 +82,7 @@ module.exports = {
   },
 
   'mazurek': {
+    untimed: ['cooling the base', 'setting the topping for a few hours'],
     d: 'A flat Polish Easter cake of crisp shortcrust topped with chocolate or caramel and decorated with nuts and dried fruit.',
     meta: 'Mazurek, flat Polish Easter shortcrust cake with a caramel topping and nuts, baked for 30 minutes. Sixteen servings, ready in 55 minutes.',
     kw: ['mazurek', 'polish easter cake', 'mazurek kajmakowy', 'polish flat shortcrust cake', 'mazurek recipe'],
@@ -196,6 +197,7 @@ module.exports = {
   },
 
   'pierogi-z-kapusta': {
+    untimed: ['cooling completely'],
     d: 'Polish dumplings filled with sauerkraut and dried mushrooms, boiled for 10 minutes and fried in butter with onions.',
     meta: 'Pierogi z kapustą, Polish dumplings filled with sauerkraut and mushrooms, boiled for 10 minutes. Six servings, ready in 1 hour 10 minutes.',
     kw: ['pierogi z kapusta', 'sauerkraut and mushroom pierogi', 'polish cabbage pierogi', 'pierogi z kapusta i grzybami', 'polish christmas eve pierogi'],
@@ -448,6 +450,7 @@ module.exports = {
   },
 
   'kluski-slaskie': {
+    untimed: ['cooling completely'],
     d: 'Soft Silesian potato dumplings shaped into balls with a dent in the middle for gravy, boiled for 10 minutes.',
     meta: 'Kluski śląskie, soft Silesian potato dumplings with a dent for gravy, cooked for 10 minutes. Four servings, ready in 40 minutes.',
     kw: ['kluski slaskie', 'silesian potato dumplings', 'potato dumplings with a dent', 'kluski slaskie recipe', 'polish potato dumplings with gravy'],

@@ -355,6 +355,7 @@ module.exports = {
   },
 
   'profiteroles': {
+    untimed: ['cooling completely'],
     d: 'Choux buns filled with cold vanilla cream and drowned in hot dark chocolate sauce. The temperature contrast is the whole idea, and the reason they have outlasted every dessert trend since the 1960s.',
     meta: 'Classic profiteroles — crisp choux buns filled with vanilla cream under hot dark chocolate sauce.',
     kw: ['profiteroles recipe', 'choux pastry buns', 'chocolate profiteroles', 'french cream puffs'],
@@ -400,6 +401,7 @@ module.exports = {
   },
 
   'mille-feuille': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'Three sheets of caramelised puff pastry alternating with crème pâtissière, topped with the marbled feathered icing that gives it its other name, the Napoleon. The most technically demanding thing in a French pâtisserie window.',
     meta: 'Mille-feuille with caramelised puff pastry, vanilla crème pâtissière and feathered fondant icing.',

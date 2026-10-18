@@ -473,6 +473,7 @@ module.exports = {
   },
 
   'anzac-slice': {
+    untimed: ['cooling completely'],
     d: 'A chewy slab of oats, coconut and golden syrup baked in a tin and cut into squares.',
     meta: 'Anzac slice: a chewy slab of oats, coconut and golden syrup, baked for 25 minutes. Sixteen pieces.',
     kw: ['anzac slice', 'australian anzac slice', 'oat and coconut slice', 'anzac slice with golden syrup', 'chewy anzac slice'],
@@ -505,6 +506,7 @@ module.exports = {
   },
 
   'apricot-slice': {
+    untimed: ['cooling'],
     d: 'A buttery shortcrust base layered with stewed dried apricots and a coconut topping, baked and cut into squares.',
     meta: 'Apricot slice: a buttery base, stewed dried apricots and a coconut topping, baked for 30 minutes. Sixteen pieces.',
     kw: ['apricot slice', 'apricot coconut slice', 'australian apricot slice', 'dried apricot slice', 'apricot and coconut bars'],

@@ -155,16 +155,16 @@ module.exports = {
       'Mix the walnuts, garlic, Aleppo pepper and salt into a stiff, oily-looking paste.',
       'Press a heaped teaspoon into each aubergine and close the slit around it.',
       'Pack them upright and snug into a sterilised jar, then pour in olive oil until every one is submerged. Tap the jar to release trapped air.',
-      'Seal and keep at cool room temperature. They are ready after a week and keep for months, as long as the oil always covers them.'
+      'Seal and leave in the fridge for at least a week before eating, topping up the oil whenever an aubergine shows above it.'
     ],
-    rest: [720, 'draining under a weight'],
+    rest: [10800, 'draining, then maturing in the fridge'],
     tips: [
-      'Drain them under a weight until no more water comes. This is what keeps the jar.',
+      'Drain them under a weight until no more water comes.',
       'Everything must stay under the oil. Top it up as the level falls.',
       'Use a sterilised jar and a clean dry spoon each time.'
     ],
     pair: ['Flatbread and sweet tea', 'Labneh', 'Green olives'],
-    store: 'Cool and dark for up to 6 months while covered in oil; refrigerate after opening and use within a month.',
+    store: 'Keep it in the fridge from the day it is made, with every piece under the oil. Garlic and vegetables kept in oil can carry botulism, which cannot be seen, smelled or tasted, and no keeping time has been tested for this home preserve, so make small batches and never keep it at room temperature.',
     nut: [220, 4, 9, 19, 4, 4, 380]
   },
 
@@ -235,6 +235,7 @@ module.exports = {
   },
 
   'sambousek': {
+    untimed: ['cooling the filling'],
     d: 'Half-moon pastries of spiced lamb and pine nuts, fried until blistered. The dough is made with oil rather than butter, which is what keeps them crisp once they cool.',
     meta: 'Half-moon pastries filled with spiced lamb, onion and pine nuts, sealed with a fork and fried until blistered and crisp.',
     kw: ['sambousek', 'lebanese meat pastries', 'sambousek recipe', 'fried lamb pastry', 'mezze pastries'],
@@ -391,6 +392,7 @@ module.exports = {
   },
 
   'maghmour': {
+    untimed: ['coming to room temperature'],
     d: 'Aubergine and chickpeas stewed down in tomato and garlic until everything collapses. Often called Lebanese moussaka, which it is not — no meat, no béchamel, served cool.',
     meta: 'Aubergine and chickpeas stewed in tomato and garlic until collapsing, finished with olive oil and served at room temperature.',
     kw: ['maghmour', 'lebanese moussaka', 'maghmour recipe', 'aubergine chickpea stew', 'vegan aubergine stew'],
@@ -434,6 +436,7 @@ module.exports = {
   },
 
   'loubieh-bzeit': {
+    untimed: ['cooling to room temperature'],
     d: 'Green beans braised soft in tomato and olive oil. Not blanched, not crisp — cooked until they give completely, which is the whole point and the thing people get wrong.',
     meta: 'Green beans braised slowly in tomato, onion and olive oil until completely tender, then cooled and eaten at room temperature.',
     kw: ['loubieh bzeit', 'lebanese green beans', 'loubieh bi zeit', 'braised green beans tomato', 'vegan green beans'],
@@ -514,6 +517,7 @@ module.exports = {
   },
 
   'kibbeh-mekliyeh': {
+    untimed: ['cooling completely'],
     d: 'Torpedoes of bulgur and lean lamb, hollowed by hand, filled with spiced mince and pine nuts, and fried. The hardest thing in the mezze repertoire and the thing everyone judges a cook by.',
     meta: 'Hand-shaped bulgur and lamb shells filled with spiced mince and pine nuts, then fried to a dark crisp torpedo.',
     kw: ['kibbeh', 'fried kibbeh', 'kibbeh mekliyeh', 'lebanese kibbeh recipe', 'stuffed bulgur croquettes'],

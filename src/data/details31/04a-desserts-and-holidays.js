@@ -11,6 +11,7 @@
 
 module.exports = {
   'strawberry-pretzel-salad': {
+    untimed: ['cooling completely'],
     d: 'A layered chilled dessert: a salty buttered pretzel crust, a sweet cream cheese and whipped cream layer, and a topping of strawberries set in red jelly.',
     meta: 'Strawberry pretzel salad: a layered chilled dessert of salty pretzel crust, sweet cream cheese filling and strawberries set in red jelly.',
     kw: ['strawberry pretzel salad', 'strawberry pretzel dessert', 'strawberry pretzel jello salad', 'pretzel salad', 'strawberry pretzel salad recipe'],
@@ -176,6 +177,7 @@ module.exports = {
   },
 
   'chocolate-covered-cherries': {
+    untimed: ['setting'],
     d: 'Maraschino cherries wrapped in soft vanilla fondant and dipped in dark chocolate, with the stem left on. The fondant softens into a syrup around the fruit.',
     meta: 'Chocolate-covered cherries: maraschino cherries wrapped in soft vanilla fondant, dipped in dark chocolate and left with a stem to hold.',
     kw: ['chocolate covered cherries', 'homemade chocolate covered cherries', 'cherry cordials', 'chocolate covered maraschino cherries', 'how to make chocolate covered cherries'],
@@ -211,6 +213,7 @@ module.exports = {
   },
 
   'sopapilla-cheesecake': {
+    untimed: ['cooling to room temperature'],
     d: 'Two layers of crescent roll dough around a sweet cream cheese filling, topped with butter and cinnamon sugar, baked golden and drizzled with honey.',
     meta: 'Sopapilla cheesecake: two layers of crescent roll dough around a sweet cream cheese filling, baked golden with cinnamon sugar and honey.',
     kw: ['sopapilla cheesecake', 'sopapilla cheesecake bars', 'sopapilla cheesecake recipe', 'crescent roll sopapilla cheesecake', 'easy sopapilla cheesecake'],

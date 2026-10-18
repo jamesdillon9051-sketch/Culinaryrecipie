@@ -385,6 +385,7 @@ module.exports = {
   },
 
   'chocolate-milkshake': {
+    untimed: ['chilling'],
     d: 'Ice cream, milk and cocoa blended thick enough to hold a straw upright. The ratio matters far more than the ingredients, and the most common mistake is far too much milk.',
     meta: 'Thick chocolate milkshake blended from real ice cream and cocoa syrup, thick enough to hold a straw upright.',
     kw: ['chocolate milkshake recipe', 'thick milkshake', 'diner milkshake', 'homemade milkshake'],

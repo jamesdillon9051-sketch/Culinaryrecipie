@@ -928,6 +928,7 @@ module.exports = {
   },
 
   'israeli-bourekas': {
+    untimed: ['cooling completely'],
     d: 'Flaky puff pastry parcels filled with a mix of potato and feta or cheese, brushed with egg and sprinkled with sesame seeds.',
     meta: 'Israeli bourekas: flaky puff pastry parcels filled with potato and feta, brushed with egg and sprinkled with sesame seeds. Makes twelve, baked for 30 minutes.',
     kw: ['israeli bourekas', 'bourekas recipe', 'cheese bourekas', 'potato and cheese bourekas', 'puff pastry bourekas'],

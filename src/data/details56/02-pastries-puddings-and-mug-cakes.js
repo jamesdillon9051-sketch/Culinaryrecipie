@@ -198,6 +198,7 @@ module.exports = {
   },
 
   'fruit-pizza': {
+    untimed: ['cooling completely'],
     d: 'A giant sugar cookie base spread with sweet cream cheese and topped with sliced strawberries, kiwi and blueberries.',
     meta: 'Fruit pizza on a sugar cookie crust with cream cheese frosting, baked for 12 minutes. 12 slices, ready in 1 hour.',
     kw: ['fruit pizza', 'sugar cookie fruit pizza', 'fruit pizza with cream cheese frosting', 'dessert fruit pizza', 'fruit pizza recipe'],
@@ -516,6 +517,7 @@ module.exports = {
   },
 
   'apple-pie-filling': {
+    untimed: ['cooling completely'],
     d: 'Sliced apples simmered with sugar, cinnamon and lemon juice until tender and thickened with cornflour, ready for pies or crumbles.',
     meta: 'Apple pie filling with cinnamon and lemon, simmered for 15 minutes. Fills one 23 cm pie, ready in 35 minutes.',
     kw: ['apple pie filling', 'homemade apple pie filling', 'cinnamon apple pie filling', 'apple filling for pies', 'cooked apple filling'],
@@ -549,6 +551,7 @@ module.exports = {
   },
 
   'cake-balls': {
+    untimed: ['chilling until set'],
     d: 'Crumbled sponge mixed with buttercream, rolled into balls, chilled and dipped in melted chocolate.',
     meta: 'Cake balls made from crumbled sponge and buttercream, dipped in chocolate. 24 balls, ready in 1 hour 30 minutes.',
     kw: ['cake balls', 'chocolate dipped cake balls', 'cake truffles', 'cake balls with buttercream', 'leftover cake balls'],

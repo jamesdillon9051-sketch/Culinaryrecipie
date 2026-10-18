@@ -191,6 +191,7 @@ module.exports = {
   },
 
   'salmon-en-croute': {
+    untimed: ['cooling completely'],
     d: 'A whole salmon fillet spread with herby cream cheese and wilted spinach, wrapped in all-butter puff pastry and baked until golden. A centrepiece for a crowd.',
     meta: 'Salmon en croûte: a salmon fillet with herby cream cheese and spinach, wrapped in puff pastry and baked golden. A dinner-party centrepiece.',
     kw: ['salmon en croute', 'salmon en croûte', 'salmon wellington', 'salmon in puff pastry', 'how to make salmon en croute'],

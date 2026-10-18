@@ -54,6 +54,7 @@ module.exports = {
   },
 
   'makowiec': {
+    untimed: ['cooling completely'],
     d: 'A yeasted roll wound around a thick poppy seed filling, sliced to show the spiral. Poland\'s Christmas cake.',
     meta: 'Polish makowiec of enriched yeast dough rolled around a ground poppy seed, honey and nut filling and baked, then iced.',
     kw: ['makowiec', 'makowiec recipe', 'poppy seed roll', 'polish christmas cake', 'poppy seed filling'],
@@ -467,6 +468,7 @@ module.exports = {
   },
 
   'barmbrack': {
+    untimed: ['cooling completely'],
     d: 'A tea-soaked fruit loaf with a ring hidden in it, sliced and buttered. Ireland\'s Hallowe\'en cake.',
     meta: 'Irish barmbrack of dried fruit soaked overnight in strong tea and whiskey, folded into a spiced batter and baked as a loaf.',
     kw: ['barmbrack', 'barmbrack recipe', 'irish tea loaf', 'halloween fruit bread', 'tea brack'],
@@ -635,6 +637,7 @@ module.exports = {
   },
 
   'black-forest-gateau': {
+    untimed: ['cooling completely'],
     d: 'Chocolate sponge soaked in kirsch, layered with cherries and cream. The kirsch is not optional and never was.',
     meta: 'German Schwarzwälder Kirschtorte of chocolate sponge soaked in kirsch syrup, layered with morello cherries and whipped cream.',
     kw: ['black forest gateau', 'black forest cake recipe', 'schwarzwalder kirschtorte', 'cherry chocolate cake', 'kirsch cake'],
@@ -722,6 +725,7 @@ module.exports = {
   },
 
   'pierogi-ruskie': {
+    untimed: ['cooling the filling'],
     d: 'Dumplings filled with potato and curd cheese, boiled and then fried in butter with onions. Poland\'s most-made dish.',
     meta: 'Polish pierogi ruskie of soft dough filled with mashed potato and twaróg curd cheese, boiled then fried in butter with onion.',
     kw: ['pierogi ruskie', 'pierogi recipe', 'polish dumplings', 'potato cheese pierogi', 'homemade pierogi'],

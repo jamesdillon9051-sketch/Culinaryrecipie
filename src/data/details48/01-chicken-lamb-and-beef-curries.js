@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'keema-naan': {
+    untimed: ['cooling completely'],
     d: 'Soft yeasted flatbreads stuffed with spiced minced lamb, rolled out and cooked in a hot dry pan until blistered.',
     meta: 'Keema naan: yeasted flatbreads stuffed with spiced minced lamb and cooked in a hot pan. Makes six, about 15 minutes cooking.',
     kw: ['keema naan', 'stuffed keema naan', 'lamb keema naan', 'keema naan recipe', 'minced lamb naan bread'],

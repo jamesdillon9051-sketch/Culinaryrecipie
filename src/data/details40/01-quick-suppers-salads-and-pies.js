@@ -383,6 +383,7 @@ module.exports = {
   },
 
   'ham-and-egg-pie': {
+    untimed: ['cooling'],
     d: 'Gammon and whole eggs set in a shortcrust case under a lid and cooked for 40 minutes, served cold with chutney.',
     meta: 'Ham and egg pie: gammon and whole eggs set in a shortcrust case under a lid and baked, served cold with chutney. Six servings.',
     kw: ['ham and egg pie', 'traditional ham and egg pie', 'british bacon and egg pie', 'ham and egg picnic pie', 'gammon and egg pie'],

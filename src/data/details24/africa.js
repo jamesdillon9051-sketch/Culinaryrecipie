@@ -80,6 +80,7 @@ module.exports = {
   },
 
   'chin-chin': {
+    untimed: ['cooling completely'],
     d: 'Small, crunchy, lightly sweet cubes of fried dough, spiced with nutmeg. A Nigerian party snack, eaten by the handful.',
     meta: 'Chin chin: crunchy, lightly sweet Nigerian fried dough cubes flavoured with nutmeg, cut small and fried until golden. A West African party snack.',
     kw: ['chin chin', 'nigerian chin chin', 'chin chin recipe', 'crunchy fried dough snack', 'how to make chin chin'],
@@ -311,6 +312,7 @@ module.exports = {
   },
 
   'koeksisters': {
+    untimed: ['cooling'],
     d: 'Plaited strips of dough, deep-fried and plunged into ice-cold spiced syrup, so they turn crisp outside and syrupy inside. The Afrikaner sweet.',
     meta: 'Koeksisters: plaited strips of dough deep-fried until golden and plunged into ice-cold, spiced sugar syrup, so they are crisp outside and syrupy inside.',
     kw: ['koeksisters', 'south african koeksisters', 'koeksisters recipe', 'afrikaner syrup plaits', 'how to make koeksisters'],
@@ -352,6 +354,7 @@ module.exports = {
   },
 
   'bastilla': {
+    untimed: ['cooling the filling and the almonds'],
     d: 'A Moroccan pie of shredded spiced chicken, egg and sweet cinnamon almonds in layers of crisp pastry, dusted with icing sugar and cinnamon. A celebration dish.',
     meta: 'Bastilla: a Moroccan pie of saffron and ginger chicken, soft egg and cinnamon almonds in crisp buttered filo, dusted with icing sugar. A feast dish.',
     kw: ['bastilla', 'moroccan bastilla', 'bastilla recipe', 'moroccan chicken pie', 'how to make bastilla'],

@@ -41,6 +41,7 @@ module.exports = {
   },
 
   'vegan-granola': {
+    untimed: ['cooling completely'],
     d: 'Oat granola with almonds, pumpkin seeds and raisins, bound with coconut oil and maple syrup and baked for 25 minutes.',
     meta: 'Vegan granola with oats, almonds and raisins, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes.',
     kw: ['vegan granola', 'dairy free granola', 'maple and coconut oil granola', 'baked oat granola with almonds', 'homemade granola clusters'],

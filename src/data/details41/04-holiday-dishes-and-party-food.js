@@ -230,6 +230,7 @@ module.exports = {
   },
 
   'halloween-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Chocolate cupcakes topped with orange buttercream and orange and black sprinkles.',
     meta: 'Halloween cupcakes: chocolate cupcakes with orange buttercream and sprinkles. Makes twelve, baked for 20 minutes.',
     kw: ['halloween cupcakes', 'halloween cupcakes with chocolate', 'chocolate halloween cupcakes', 'halloween cupcakes with orange frosting', 'spooky cupcakes'],
@@ -266,6 +267,7 @@ module.exports = {
   },
 
   'heart-shaped-cookies': {
+    untimed: ['cooling the biscuits', 'setting the icing'],
     d: 'Vanilla sugar cookies cut into hearts and decorated with a thin pink icing.',
     meta: 'Heart shaped cookies: vanilla sugar cookies cut into hearts with pink icing. Makes twenty, baked for 12 minutes.',
     kw: ['heart shaped cookies', 'valentine heart cookies', 'heart shaped sugar cookies', 'iced heart cookies', 'valentines day cookies'],
@@ -299,6 +301,7 @@ module.exports = {
   },
 
   'red-velvet-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Red cocoa cupcakes made with buttermilk and a little vinegar, topped with cream cheese frosting.',
     meta: 'Red velvet cupcakes: red cocoa cupcakes with buttermilk and cream cheese frosting. Makes twelve, baked for 20 minutes.',
     kw: ['red velvet cupcakes', 'classic red velvet cupcakes', 'red velvet cupcakes with cream cheese frosting', 'homemade red velvet cupcakes', 'moist red velvet cupcakes'],
@@ -524,6 +527,7 @@ module.exports = {
   },
 
   'maple-syrup-pie': {
+    untimed: ['cooling completely'],
     d: 'A shortcrust pie filled with a custard of maple syrup, eggs, butter and cream, baked until set.',
     meta: 'Maple syrup pie: shortcrust filled with a baked maple custard. Eight servings, baked for 40 minutes.',
     kw: ['maple syrup pie', 'canadian maple syrup pie', 'maple custard pie', 'maple pie', 'old fashioned maple syrup pie'],

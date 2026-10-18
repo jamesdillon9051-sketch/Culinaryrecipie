@@ -230,6 +230,7 @@ module.exports = {
   },
 
   'pickled-eggs': {
+    untimed: ['cooling the jar'],
     d: 'Hard-boiled eggs steeped in spiced malt vinegar. The chippy and pub counter classic. Thirty minutes of work, then a week in the jar.',
     meta: 'Pickled eggs: hard-boiled eggs steeped in spiced malt vinegar with peppercorns and chilli for a week. The classic chip shop and pub snack.',
     kw: ['pickled eggs', 'pickled eggs recipe', 'chip shop pickled eggs', 'how to pickle eggs', 'pub pickled eggs in malt vinegar'],
@@ -325,6 +326,7 @@ module.exports = {
   },
 
   'lemon-barley-water': {
+    untimed: ['cooling'],
     d: 'Pearl barley simmered in water with lemon zest, then sweetened and sharpened with lemon juice. The Wimbledon drink. Forty minutes, plus chilling.',
     meta: 'Lemon barley water: pearl barley simmered with lemon zest, then sweetened and sharpened with lemon juice and chilled. The traditional Wimbledon drink.',
     kw: ['lemon barley water', 'lemon barley water recipe', 'homemade barley water', 'wimbledon lemon barley water', 'traditional barley water drink'],

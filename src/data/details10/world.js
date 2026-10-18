@@ -142,6 +142,7 @@ module.exports = {
   },
 
   'glamorgan-sausages': {
+    untimed: ['cooling to room temperature'],
     rest: [60, 'chilling'],
     d: 'Welsh sausages with no meat in them: Caerphilly, leek and breadcrumbs, rolled and fried until the crust crackles. Older than most vegetarian cooking and better than most of it.',
     meta: 'Glamorgan sausages — Caerphilly, leek and breadcrumbs, chilled firm and fried crisp. Meatless since the 1800s.',

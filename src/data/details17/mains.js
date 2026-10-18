@@ -467,6 +467,7 @@ module.exports = {
   },
 
   'fish-pie': {
+    untimed: ['leaving the mash to go cold'],
     d: 'White fish, smoked fish and prawns under mashed potato, in a sauce made from the milk the fish poached in. The mash goes on cold, which is the whole trick.',
     meta: 'A British fish pie of poached white and smoked fish with prawns and eggs in a parsley béchamel, topped with cold mashed potato and baked.',
     kw: ['fish pie', 'fish pie recipe', 'british fish pie mash', 'smoked haddock pie', 'creamy fish bake'],

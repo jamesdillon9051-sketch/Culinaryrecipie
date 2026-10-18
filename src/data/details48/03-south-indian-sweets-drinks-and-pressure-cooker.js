@@ -201,6 +201,7 @@ module.exports = {
   },
 
   'tamarind-chutney': {
+    untimed: ['cooling completely'],
     d: 'A sweet and sour brown chutney of tamarind, jaggery, ginger and roasted cumin, simmered until it coats a spoon.',
     meta: 'Tamarind chutney: tamarind paste simmered with jaggery, ginger and roasted cumin. Ten servings, cooked for 20 minutes.',
     kw: ['tamarind chutney', 'imli chutney', 'sweet tamarind chutney', 'tamarind chutney for chaat', 'meethi chutney'],
@@ -293,6 +294,7 @@ module.exports = {
   },
 
   'bengali-sandesh': {
+    untimed: ['chilling'],
     d: 'Soft, fudgy Bengali sweets made from fresh curdled milk, kneaded with sugar, cooked briefly and shaped into small pieces.',
     meta: 'Bengali sandesh: soft sweets of fresh curdled milk kneaded with sugar and flavoured with cardamom. Twelve pieces, cooked for 15 minutes.',
     kw: ['bengali sandesh', 'sandesh recipe', 'sondesh', 'chhena sandesh', 'bengali milk sweet'],

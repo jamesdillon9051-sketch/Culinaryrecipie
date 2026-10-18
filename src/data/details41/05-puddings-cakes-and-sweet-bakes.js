@@ -123,6 +123,7 @@ module.exports = {
   },
 
   'banana-cake-with-cream-cheese-icing': {
+    untimed: ['cooling completely'],
     d: 'A soft banana cake with cinnamon, finished with a thick cream cheese icing.',
     meta: 'Banana cake with cream cheese icing: a soft cinnamon banana cake with cream cheese icing. Twelve slices, baked for 35 minutes.',
     kw: ['banana cake with cream cheese icing', 'banana cake with cream cheese frosting', 'moist banana cake', 'banana cake with cinnamon', 'iced banana cake'],
@@ -257,6 +258,7 @@ module.exports = {
   },
 
   'cheesecake-brownies': {
+    untimed: ['cooling completely', 'chilling before cutting'],
     d: 'Dark fudgy brownies swirled with a baked vanilla cream cheese layer, cut into squares.',
     meta: 'Cheesecake brownies: fudgy chocolate brownies swirled with vanilla cream cheese. Sixteen pieces, baked for 40 minutes.',
     kw: ['cheesecake brownies', 'cream cheese swirl brownies', 'cheesecake swirl brownies', 'brownies with cheesecake layer', 'homemade cheesecake brownies'],
@@ -292,6 +294,7 @@ module.exports = {
   },
 
   'cherry-bakewell': {
+    untimed: ['cooling completely'],
     d: 'Small shortcrust tarts with cherry jam and almond sponge, topped with white icing and a glace cherry.',
     meta: 'Cherry Bakewell: shortcrust tarts with cherry jam, almond sponge and white icing. Makes twelve, baked for 25 minutes.',
     kw: ['cherry bakewell', 'cherry bakewell tarts', 'homemade cherry bakewells', 'iced cherry bakewell', 'cherry bakewell tarts with icing'],
@@ -490,6 +493,7 @@ module.exports = {
   },
 
   'cookie-dough-bites': {
+    untimed: ['cooling completely'],
     d: 'Small balls of eggless cookie dough made with heat-treated flour, chilled and dipped in dark chocolate.',
     meta: 'Cookie dough bites: eggless cookie dough made with heat-treated flour, dipped in dark chocolate. Makes twenty, cooked for 8 minutes.',
     kw: ['cookie dough bites', 'edible cookie dough bites', 'chocolate dipped cookie dough bites', 'eggless cookie dough balls', 'cookie dough bites with chocolate'],

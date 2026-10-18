@@ -12,6 +12,7 @@
 
 module.exports = {
   'spiced-nuts': {
+    untimed: ['cooling completely'],
     d: 'Mixed nuts roasted in butter, sugar, smoked paprika, cayenne and rosemary until crisp and fragrant.',
     meta: 'Spiced nuts: mixed nuts roasted with butter, sugar, smoked paprika, cayenne and rosemary. Ten servings, roasted for 20 minutes.',
     kw: ['spiced nuts', 'roasted spiced nuts', 'sweet and spicy nuts', 'rosemary spiced nuts', 'party spiced nuts'],

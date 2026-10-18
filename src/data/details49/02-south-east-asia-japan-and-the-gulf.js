@@ -197,6 +197,7 @@ module.exports = {
   },
 
   'chai-tow-kway': {
+    untimed: ['cooling'],
     d: 'Cubes of steamed radish and rice flour cake pan-fried with egg, preserved radish and garlic until crisp at the edges.',
     meta: 'Chai tow kway: cubes of steamed radish and rice flour cake pan-fried with egg and garlic. Six servings, steamed and fried for about 75 minutes.',
     kw: ['chai tow kway', 'singapore fried carrot cake', 'radish cake singapore', 'chai tow kway recipe', 'white carrot cake with egg'],
@@ -526,6 +527,7 @@ module.exports = {
   },
 
   'spicy-tuna-roll': {
+    untimed: ['cooling the rice'],
     d: 'Sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise and sesame oil, sliced into eight pieces.',
     meta: 'Spicy tuna roll: sushi rice and nori rolled around diced sushi-grade tuna mixed with sriracha mayonnaise. Four servings, ready in 50 minutes.',
     kw: ['spicy tuna roll', 'spicy tuna roll recipe', 'homemade spicy tuna sushi', 'spicy tuna maki', 'sushi rolls with spicy tuna'],

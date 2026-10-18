@@ -95,6 +95,7 @@ module.exports = {
   },
 
   'olivier-salad': {
+    untimed: ['cooling completely'],
     rest: [180, 'chilling'],
     d: 'Diced potato, carrot, egg, pickle and ham bound in mayonnaise. Known as Russian salad almost everywhere else, and the fixed centre of every Soviet-era New Year table.',
     meta: 'Olivier salad — Russian potato salad with carrot, egg, peas, pickles and ham in mayonnaise.',
@@ -235,6 +236,7 @@ module.exports = {
   },
 
   'sauerbraten': {
+    untimed: ['cooling completely'],
     rest: [4320, 'chilling'],
     d: 'Beef marinated in vinegar and wine for three days, then braised and served with a sweet-sour gravy thickened with crushed gingerbread. Germany\'s national dish, and one that requires planning.',
     meta: 'German sauerbraten — beef marinated three days in vinegar and wine, braised with a gingerbread gravy.',

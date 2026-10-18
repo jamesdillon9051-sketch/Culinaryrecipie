@@ -199,6 +199,7 @@ module.exports = {
   },
 
   'cookie-butter-bars': {
+    untimed: ['cooling completely'],
     d: 'Chewy bars made with cookie butter spread, brown sugar and chocolate chips, baked in a tin.',
     meta: 'Cookie butter bars: chewy bars made with cookie butter spread and chocolate chips. Sixteen bars, baked for 25 minutes.',
     kw: ['cookie butter bars', 'biscoff cookie butter bars', 'chewy cookie butter bars', 'cookie butter blondie bars', 'spiced cookie butter bars'],
@@ -296,6 +297,7 @@ module.exports = {
   },
 
   'sfogliatelle': {
+    untimed: ['cooling completely'],
     d: 'A shortcut version of the shell-shaped Italian pastries: puff pastry cones filled with orange-scented ricotta and semolina.',
     meta: 'Sfogliatelle: a shortcut version with puff pastry cones filled with orange ricotta and semolina. Twelve pastries, baked for 30 minutes.',
     kw: ['sfogliatelle', 'shortcut sfogliatelle', 'sfogliatelle with ricotta filling', 'puff pastry sfogliatelle', 'italian ricotta sfogliatelle'],
@@ -436,6 +438,7 @@ module.exports = {
   },
 
   'leche-flan': {
+    untimed: ['cooling completely'],
     d: 'A dense, silky egg custard baked over a layer of caramel in a tin, steamed gently and turned out to serve.',
     meta: 'Leche flan: a dense egg custard baked over caramel in a tin. Eight servings, cooked for 50 minutes.',
     kw: ['leche flan', 'filipino leche flan', 'creamy leche flan with caramel', 'baked leche flan', 'leche flan with condensed milk'],

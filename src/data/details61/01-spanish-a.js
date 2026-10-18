@@ -309,6 +309,7 @@ module.exports = {
   },
 
   'empanadillas': {
+    untimed: ['cooling completely'],
     d: 'Small pastry turnovers filled with tuna, tomato and onion, sealed and baked for 20 minutes until golden.',
     meta: 'Empanadillas, small Spanish pastry turnovers filled with tuna and tomato, baked for 20 minutes. Twenty servings, ready in 1 hour.',
     kw: ['empanadillas', 'spanish tuna empanadillas', 'small tuna turnovers', 'empanadillas de atun', 'baked empanadillas recipe'],
@@ -400,6 +401,7 @@ module.exports = {
   },
 
   'ensaladilla-rusa': {
+    untimed: ['cooling completely'],
     d: 'A cold Spanish salad of potatoes, carrots, peas, tuna and olives bound with mayonnaise, chilled for 1 hour.',
     meta: 'Ensaladilla rusa, cold Spanish potato salad with tuna, peas and mayonnaise, cooked for 30 minutes. Six servings, ready in 55 minutes plus chilling.',
     kw: ['ensaladilla rusa', 'spanish russian salad', 'potato and tuna salad with mayonnaise', 'ensaladilla rusa recipe', 'spanish potato salad tapas'],

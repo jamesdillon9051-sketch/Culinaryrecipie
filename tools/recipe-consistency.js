@@ -205,10 +205,11 @@ function check(recipe, built) {
   const IMPROVEMENT = /,?\s*(?:—\s*)?(?:ideally|preferably|or,? better)\b.*$/i;
   const OVERLAP = /^\s*(?:while|meanwhile|in the meantime)\b|\bwhile (?:you\b|the (?:oven|grill|pan|water|oil|filling|sauce|dough|rice|pasta|meat|stock|syrup|custard|cream|batter|base)\b|it (?:heats|preheats))/i;
   const disclosed = (recipe.untimed || []).map(u => String(u).toLowerCase());
-  const coversUntimed = sentence => disclosed.some(u => {
-    const stem = (u.match(/\b(cool|chill|rest|set|stand|refrigerat|freez|matur|firm|cold)/) || [])[1];
-    return stem && sentence.toLowerCase().includes(stem);
-  });
+  /* A disclosed stage covers a sentence that waits in the same way: "leaving the mash to go cold"
+     covers "leave it to go completely cold", "chilling the custard" covers "refrigerate until cold". */
+  const FAMILIES = [/\bcool|\bcold\b/, /\bchill|\brefrigerat|\bfridge/, /\brest/, /\b(?:set|sets|setting)\b/, /\bstand/,
+    /\bfreez|\bfrozen\b/, /\bmatur/, /\bfirm/, /\broom temperature\b/];
+  const coversUntimed = sentence => disclosed.some(u => FAMILIES.some(f => f.test(u) && f.test(sentence.toLowerCase())));
   const VESSELS = /\b(?:chill|freeze)\w*\s+(?:\w+\s+){0,3}(?:glasses|bowls|cups|mugs|coupes|plates)\b/i;
   const UNTIMED_TAIL = /\b(?:cool(?:ed)?\s+(?:\w+\s+){0,4}?completely|leave (?:it |them )?until cold)\b(?![^.]*?\b(?:about|at least|for)\s+(?:\d|an?\b))/i;
   for (const whole of steps.join(' ').split(/(?<=[.!?])\s+/)) {
@@ -249,7 +250,8 @@ function check(recipe, built) {
       if (lastHeat > lastWait && !settles) return;
       /* The time the clause gives, read as the timing reader reads it: "an hour", "overnight",
          "1 to 2 days", and only times a waiting verb owns. */
-      const read = waitIn(clause);
+      /* "Refrigerate within 2 hours of cooking" is a food-handling limit, not a wait. */
+      const read = waitIn(clause.replace(/\b(?:within|no more than|no longer than)\s+(?:\d+|an?|one|two)\s*(?:hours?|minutes?)\b(?:\s+of\s+\w+)?/gi, ' '));
       const t = read.min ? [read.min] : [];
       if (t.length) {
         timedHere = true;

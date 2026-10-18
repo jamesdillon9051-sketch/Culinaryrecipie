@@ -237,6 +237,7 @@ module.exports = {
   },
 
   'cranachan': {
+    untimed: ['cooling completely'],
     d: 'Toasted oats, whisky, honey, cream and raspberries layered in a glass. Assembled in ten minutes and traditionally argued about for longer.',
     meta: 'Cranachan — Scottish dessert of toasted oats, whisky, honey, cream and raspberries layered in a glass.',
     kw: ['cranachan recipe', 'scottish dessert', 'raspberry and oat dessert', 'whisky cream dessert'],
@@ -313,6 +314,7 @@ module.exports = {
   },
 
   'bara-brith': {
+    untimed: ['cooling completely'],
     rest: [480, 'soaking'],
     d: 'Dried fruit soaked overnight in strong tea, then folded into a spiced batter and baked into a dense, dark loaf eaten in thick buttered slices.',
     meta: 'Bara brith — Welsh tea loaf with dried fruit soaked overnight in tea, spiced and baked dark.',

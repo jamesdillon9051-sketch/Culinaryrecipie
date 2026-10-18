@@ -182,6 +182,7 @@ module.exports = {
   },
 
   'hobnobs': {
+    untimed: ['cooling completely'],
     d: 'Crunchy, golden oat and wholemeal biscuits made with butter, brown sugar and golden syrup, optionally coated in dark chocolate. The British tea-time biscuit, made at home.',
     meta: 'Hobnobs: crunchy, golden oat biscuits made with butter, brown sugar and golden syrup, optionally coated in dark chocolate. The tea-time biscuit, made at home.',
     kw: ['hobnobs', 'homemade hobnobs', 'chocolate hobnobs', 'oat hobnob biscuits', 'how to make hobnobs'],
@@ -216,6 +217,7 @@ module.exports = {
   },
 
   'chocolate-orange-cake': {
+    untimed: ['cooling completely'],
     d: 'Two light chocolate sponges flavoured with orange zest, sandwiched with marmalade and covered in dark chocolate ganache. The classic pairing in cake form.',
     meta: 'Chocolate orange cake: two light chocolate sponges flavoured with orange zest, sandwiched with marmalade and covered in dark chocolate ganache.',
     kw: ['chocolate orange cake', 'chocolate and orange cake', 'chocolate orange layer cake', 'chocolate orange ganache cake', 'how to make chocolate orange cake'],

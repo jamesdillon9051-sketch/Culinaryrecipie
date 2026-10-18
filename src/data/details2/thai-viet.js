@@ -50,6 +50,7 @@ module.exports = {
   },
 
   'larb-gai': {
+    untimed: ['cooling completely'],
     d: 'Minced chicken tossed with toasted rice powder, lime, fish sauce and a great deal of mint and shallot. Isaan cooking, eaten with sticky rice and raw vegetables, and one of the most refreshing dishes anywhere.',
     meta: 'Larb gai — Thai minced chicken salad with toasted rice powder, lime, fish sauce, mint and shallot.',
     kw: ['larb gai recipe', 'thai chicken salad', 'laab', 'toasted rice powder'],
@@ -181,6 +182,7 @@ module.exports = {
   },
 
   'thai-iced-tea': {
+    untimed: ['cooling to room temperature'],
     rest: [120, 'chilling'],
     d: 'Strongly brewed spiced black tea, sweetened with condensed milk and poured over ice with a float of evaporated milk. The orange colour is from food colouring in the tea blend, and it is part of the tradition.',
     meta: 'Thai iced tea (cha yen) — strong spiced black tea with condensed milk over ice and an evaporated milk float.',

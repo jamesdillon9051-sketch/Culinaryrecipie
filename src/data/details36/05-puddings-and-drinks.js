@@ -203,6 +203,7 @@ module.exports = {
   },
 
   'chocolate-oat-bars': {
+    untimed: ['cooling completely'],
     d: 'Rolled oats and melted butter pressed in a tin with a chocolate layer, baked until golden and chilled. Makes 12 in 30 minutes.',
     meta: 'Chocolate oat bars: rolled oats and melted butter pressed into a tin with a chocolate layer, baked and chilled. Very cheap, 12 bars in 30 minutes.',
     kw: ['chocolate oat bars', 'oat and chocolate bars', 'budget oat bars', 'easy chocolate oatmeal bars', 'cheap bars for twelve'],

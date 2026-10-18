@@ -213,6 +213,7 @@ module.exports = {
   },
 
   'milk-tart': {
+    untimed: ['cooling completely'],
     d: 'A pale set custard in a thin crust under a heavy dusting of cinnamon. South Africa\'s tea-time tart, and not a baked one.',
     meta: 'South African milk tart of cinnamon-infused milk thickened with cornflour and egg, poured into a baked shell and chilled.',
     kw: ['milk tart', 'melktert', 'south african milk tart', 'milk tart recipe', 'cinnamon custard tart'],

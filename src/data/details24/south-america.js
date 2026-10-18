@@ -96,6 +96,7 @@ module.exports = {
   },
 
   'chicha-morada': {
+    untimed: ['cooling'],
     d: 'A deep purple drink of purple corn simmered with pineapple, apple, cinnamon and cloves, sweetened and finished with lime. Peru\'s everyday soft drink.',
     meta: 'Chicha morada: Peru\'s deep purple drink of purple corn simmered with pineapple, apple, cinnamon and cloves, sweetened, finished with lime and served cold.',
     kw: ['chicha morada', 'peruvian purple corn drink', 'chicha morada recipe', 'how to make chicha morada', 'purple corn juice'],

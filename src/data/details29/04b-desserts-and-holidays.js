@@ -10,6 +10,7 @@
 
 module.exports = {
   'italian-wedding-cookies': {
+    untimed: ['cooling completely'],
     d: 'Buttery, crumbly little nut cookies baked until pale golden and rolled twice in icing sugar so they look like snowballs. A wedding, Christmas and cookie-tin favourite.',
     meta: 'Italian wedding cookies: buttery, crumbly walnut cookies rolled twice in icing sugar so they look like snowballs. A Christmas and wedding favourite.',
     kw: ['italian wedding cookies', 'italian wedding cookies with walnuts', 'snowball wedding cookies', 'homemade italian wedding cookies', 'how to make italian wedding cookies'],

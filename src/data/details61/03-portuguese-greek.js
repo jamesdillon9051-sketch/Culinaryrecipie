@@ -212,6 +212,7 @@ module.exports = {
   },
 
   'ovos-moles': {
+    untimed: ['cooling completely'],
     d: 'A sweet Portuguese cream of egg yolks and sugar syrup, spooned into small wafer shells, ready in 45 minutes.',
     meta: 'Ovos moles, Portuguese sweet egg yolk cream in wafer shells, cooked for 20 minutes. Twelve servings, ready in 45 minutes.',
     kw: ['ovos moles', 'portuguese egg yolk sweet', 'aveiro ovos moles', 'egg yolk cream in wafers', 'ovos moles recipe'],
@@ -306,6 +307,7 @@ module.exports = {
   },
 
   'bolinhos-de-bacalhau': {
+    untimed: ['cooling completely'],
     d: 'Oval fritters of salt cod, potato, onion and parsley fried until golden, after a 24 hour soak, a Portuguese snack.',
     meta: 'Bolinhos de bacalhau, Portuguese salt cod fritters with potato and parsley, fried for 10 minutes. Eight servings, ready in 35 minutes plus soaking.',
     kw: ['bolinhos de bacalhau', 'portuguese salt cod fritters', 'bacalhau fritters', 'pasteis de bacalhau', 'salt cod and potato croquettes'],

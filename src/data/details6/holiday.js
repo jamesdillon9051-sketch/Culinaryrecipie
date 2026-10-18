@@ -39,6 +39,7 @@ module.exports = {
   },
 
   'vanocka': {
+    untimed: ['cooling completely'],
     rest: [195, 'proving'],
     d: 'A nine-strand braided Christmas bread from Bohemia, enriched with butter and egg yolk and studded with rum-soaked raisins and almonds.',
     meta: 'Vánočka — the Czech nine-strand braided Christmas bread with raisins and almonds.',
@@ -129,6 +130,7 @@ module.exports = {
   },
 
   'joulutorttu': {
+    untimed: ['cooling completely'],
     rest: [80, 'chilling'],
     d: 'Finnish Christmas stars: rough puff pastry pinwheels folded round a spoonful of dark prune jam, dusted with icing sugar and eaten by the handful.',
     meta: 'Joulutorttu — Finnish Christmas star pastries filled with dark prune jam.',
@@ -308,6 +310,7 @@ module.exports = {
   },
 
   'stollen': {
+    untimed: ['cooling completely'],
     rest: [20805, 'maturing'],
     d: 'Dresden Christstollen: a dense fruit bread heavy with rum-soaked fruit and marzipan, buttered and sugared while hot, then left for weeks to come into its own.',
     meta: 'Christstollen — the Dresden Christmas bread with rum-soaked fruit and a marzipan core.',

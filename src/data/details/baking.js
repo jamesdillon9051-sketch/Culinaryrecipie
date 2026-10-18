@@ -124,6 +124,7 @@ module.exports = {
   },
 
   'cinnamon-rolls': {
+    untimed: ['cooling to room temperature'],
     rest: [600, 'proving and chilling'],
     d: 'Soft, tall rolls made with a tangzhong starter that keeps them pillowy for days, filled with cinnamon-butter and finished with cream cheese frosting. Shape them the night before and bake in the morning.',
     meta: 'Overnight cinnamon rolls with a tangzhong starter for lasting softness, plus tangy cream cheese frosting.',
@@ -252,6 +253,7 @@ module.exports = {
   },
 
   'new-york-cheesecake': {
+    untimed: ['cooling to room temperature'],
     rest: [540, 'chilling'],
     d: 'Dense, tall and creamy with a faint tang, on a buttery biscuit base. The water bath and a slow cool in the switched-off oven are what stop it cracking.',
     meta: 'Classic New York cheesecake — dense, tall and crack-free thanks to a water bath and slow cooling. Worth the wait.',
@@ -299,6 +301,7 @@ module.exports = {
   },
 
   'apple-pie': {
+    untimed: ['cooling completely'],
     rest: [380, 'chilling'],
     d: 'A deep-dish pie with a properly crisp bottom crust and apples that hold their shape. Pre-cooking the filling is the unglamorous step that solves every apple pie problem at once.',
     meta: 'Deep-dish apple pie with a crisp bottom crust and apples that keep their shape. The pre-cooked filling method.',
@@ -349,6 +352,7 @@ module.exports = {
   },
 
   'key-lime-pie': {
+    untimed: ['cooling to room temperature'],
     rest: [240, 'chilling'],
     d: 'Sharp, silky lime custard in a buttery graham crust, set by nothing but the chemical reaction between lime juice and condensed milk. Twenty minutes of work and no fuss.',
     meta: 'Tangy key lime pie with a silky set filling and buttery graham crust. Four filling ingredients, 35 minutes of work.',
@@ -441,6 +445,7 @@ module.exports = {
   },
 
   'carrot-cake': {
+    untimed: ['cooling completely'],
     d: 'A properly spiced carrot cake, moist from oil and crushed pineapple, with walnuts for bite and a tangy cream cheese frosting. The kind that improves for two days.',
     meta: 'Moist spiced carrot cake with walnuts, crushed pineapple and tangy cream cheese frosting. Better on day two.',
     kw: ['carrot cake recipe', 'moist carrot cake', 'cream cheese frosting', 'spiced cake'],
@@ -580,6 +585,7 @@ module.exports = {
   },
 
   'gingerbread-cookies': {
+    untimed: ['cooling completely'],
     rest: [120, 'chilling'],
     d: 'Cut-out gingerbread that holds a sharp edge, tastes strongly of spice and molasses, and stays chewy rather than turning to rubble. The dough rolls between paper so it never needs extra flour.',
     meta: 'Chewy cut-out gingerbread cookies that hold sharp edges and taste properly of spice and molasses. Ideal for decorating.',

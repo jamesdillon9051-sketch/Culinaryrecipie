@@ -187,6 +187,7 @@ module.exports = {
   },
 
   'pink-lemonade': {
+    untimed: ['cooling completely'],
     d: 'Fresh lemonade made pink with a handful of strawberries blended in and strained.',
     meta: 'Pink lemonade: fresh lemonade made pink with strawberries. Six servings, cooked for 5 minutes.',
     kw: ['pink lemonade', 'strawberry pink lemonade', 'homemade pink lemonade', 'fresh pink lemonade', 'pink lemonade with strawberries'],

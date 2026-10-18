@@ -44,6 +44,7 @@ module.exports = {
   },
 
   'jamaican-patty': {
+    untimed: ['cooling completely'],
     rest: [90, 'chilling'],
     d: 'A flaky turmeric-yellow pastry folded around spiced beef filling, crimped and baked until the edges are crisp and the filling is still saucy.',
     meta: 'Jamaican beef patty — turmeric pastry folded around spiced beef and baked until flaky.',

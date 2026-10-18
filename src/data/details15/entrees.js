@@ -50,6 +50,7 @@ module.exports = {
   },
 
   'poireaux-vinaigrette': {
+    untimed: ['coming to room temperature'],
     d: 'Whole leeks poached until completely soft, pressed, and dressed while warm with a mustard vinaigrette. Served cold, and the pressing is what makes it.',
     meta: 'Whole leeks poached until completely soft, pressed under a weight and dressed warm with a sharp mustard vinaigrette.',
     kw: ['poireaux vinaigrette', 'leeks vinaigrette', 'poireaux vinaigrette recipe', 'french leek starter', 'bistro leeks'],
@@ -243,6 +244,7 @@ module.exports = {
   },
 
   'rillettes': {
+    untimed: ['chilling until set'],
     d: 'Pork shoulder cooked for hours in its own fat until it can be pulled to threads, packed into a pot and sealed. A preserve, and one of the great things to do with cheap meat.',
     meta: 'Pork shoulder cooked slowly in its own fat until it shreds to threads, packed into pots and sealed under a fat layer.',
     kw: ['rillettes', 'pork rillettes', 'rillettes recipe', 'french potted pork', 'rillettes de porc'],
@@ -600,6 +602,7 @@ module.exports = {
   },
 
   'vichyssoise': {
+    untimed: ['cooling completely'],
     d: 'Leek and potato soup enriched with cream and served cold. Invented in New York by a French chef, which the French have never entirely forgiven.',
     meta: 'A chilled leek and potato soup finished with cream, blended completely smooth and seasoned again once cold.',
     kw: ['vichyssoise', 'chilled leek soup', 'vichyssoise recipe', 'cold potato soup', 'french summer soup'],

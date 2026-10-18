@@ -232,15 +232,28 @@ function detectWait(recipe) {
   return { min, max, trace };
 }
 
-/* A label for the wait when the record does not name one. */
-function waitLabel(recipe) {
-  const text = (recipe.steps || recipe.st || []).join(' ').toLowerCase();
-  for (const [re, label] of [[/\b(prove|proof|rise|risen)/, 'rising'], [/\bmarinat/, 'marinating'],
-    [/\b(chill|refrigerat|fridge)/, 'chilling'], [/\b(soak)/, 'soaking'], [/\b(cool)/, 'cooling'],
-    [/\b(ferment)/, 'fermenting'], [/\b(set)\b/, 'setting']]) {
-    if (re.test(text)) return label;
+/* A label for the wait when the record does not name one: the waits the reader counted, each
+   named by its own clause ("leave 20 minutes at room temperature" is standing, "refrigerate for
+   24 to 72 hours" is chilling), not the first waiting word anywhere in the method, which named a
+   cake's cooling "rising" because the sponge had risen in the oven. */
+const LABELS = [
+  [/\bmarinat/, 'marinating'], [/\bbrin(?:e|ing)\b/, 'brining'], [/\bsoak/, 'soaking'],
+  [/\b(?:prove|proof|rise|rising|risen|doubled?)\b/, 'rising'], [/\bpickl/, 'pickling'], [/\bferment/, 'fermenting'],
+  [/\b(?:bring|come|comes|coming|back) (?:\w+ ){0,2}to (?:cool )?room temperature\b|\bout of the fridge\b/, 'coming to room temperature'],
+  [/\b(?:chill|refrigerat|fridge)/, 'chilling'], [/\bfreez/, 'freezing'], [/\b(?:infus|steep)/, 'infusing'],
+  [/\b(?:drain|hang|press)/, 'draining'], [/\bsalt\w*\b[^.]*\b(?:leave|stand)/, 'salting'], [/\bcool/, 'cooling'],
+  [/\bmatur/, 'maturing'], [/\brest/, 'resting'], [/\b(?:set|sets|setting)\b/, 'setting'], [/\b(?:stand|leave|left)\b/, 'standing'],
+];
+function waitLabel(recipe, wait) {
+  const counted = ((wait && wait.trace) || []).filter(t => t !== 'fixed exception').map(t => t.replace(/^[^—]*—\s*/, ''));
+  const lines = counted.length ? counted : [(recipe.steps || recipe.st || []).join(' ')];
+  const names = [];
+  for (const line of lines) {
+    const hit = LABELS.find(([re]) => re.test(line.toLowerCase()));
+    const name = hit ? hit[1] : 'waiting';
+    if (!names.includes(name)) names.push(name);
   }
-  return 'waiting';
+  return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names[0];
 }
 
 module.exports = { detectWait, waitLabel, waitIn, COOKS };

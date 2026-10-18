@@ -335,6 +335,7 @@ module.exports = {
   },
 
   'pork-belly-bao': {
+    untimed: ['cooling'],
     d: 'Soft steamed buns filled with slow-braised pork belly, pickled cucumber, spring onion and hoisin sauce.',
     meta: 'Pork belly bao: steamed buns filled with braised pork belly, pickled cucumber and hoisin. Eight servings, cooked for 2 hours 30 minutes.',
     kw: ['pork belly bao', 'braised pork belly bao buns', 'homemade pork belly bao', 'steamed pork belly buns', 'pork belly bao with pickled cucumber'],
@@ -518,6 +519,7 @@ module.exports = {
   },
 
   'pork-pie-with-piccalilli': {
+    untimed: ['cooling completely'],
     d: 'A raised hot water crust pie filled with seasoned pork and baked, served in wedges with piccalilli.',
     meta: 'Pork pie with piccalilli: a hot water crust pie filled with seasoned pork, baked for 90 minutes. Eight servings.',
     kw: ['pork pie with piccalilli', 'homemade pork pie', 'hot water crust pork pie', 'british pork pie', 'raised pork pie with piccalilli'],

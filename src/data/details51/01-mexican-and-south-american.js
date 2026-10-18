@@ -152,6 +152,7 @@ module.exports = {
   },
 
   'mole-verde': {
+    untimed: ['cooling'],
     d: 'Chicken simmered in a thick green sauce of pumpkin seeds, tomatillos, green chillies and fresh herbs, a lighter cousin of mole poblano.',
     meta: 'Mole verde: chicken simmered in a thick green sauce of pumpkin seeds, tomatillos, green chillies and fresh herbs. Six servings, cooked for 60 minutes.',
     kw: ['mole verde', 'mole verde recipe', 'green mole with chicken', 'mexican green mole with pumpkin seeds', 'mole verde de pepita'],
@@ -357,6 +358,7 @@ module.exports = {
   },
 
   'salsa-roja': {
+    untimed: ['cooling'],
     d: 'A cooked table salsa of roasted tomatoes, dried or fresh chillies, garlic and onion blended and simmered briefly.',
     meta: 'Salsa roja: a cooked table salsa of roasted tomatoes, dried or fresh chillies, garlic and onion, blended and simmered briefly. Eight servings, cooked for 15 minutes.',
     kw: ['salsa roja', 'salsa roja recipe', 'mexican red salsa', 'roasted tomato salsa', 'restaurant style salsa roja'],

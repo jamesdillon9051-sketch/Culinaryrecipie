@@ -338,7 +338,7 @@ function loadRecipes() {
          `rest` equal to the floor. */
       restTime: wait.min,
       restMax: wait.max,
-      restLabel: wait.max ? (detail.rest ? detail.rest[1] : waitLabel(detail)) : '',
+      restLabel: wait.max ? (detail.rest ? detail.rest[1] : waitLabel(detail, wait)) : '',
       /* A wait only some cooks need ("if the rice cakes are frozen, soak them") widens the range
          without raising the floor. */
       restConditional: !wait.min && wait.max > 0,
@@ -457,7 +457,9 @@ function loadRecipes() {
       image: recipe.imageData ? recipe.imageData.file : null,
       /* Only present when a label carries a condition, so the fingerprint of
          every recipe whose labels hold outright is what it was before. */
-      ...(dietNotes(recipe).length ? { diet: dietNotes(recipe) } : {})
+      ...(dietNotes(recipe).length ? { diet: dietNotes(recipe) } : {}),
+      /* Likewise the stages the page says the recipe does not time. */
+      ...(recipe.untimed ? { untimed: recipe.untimed } : {})
     });
     /* A page cannot have been modified before it was published. */
     if (recipe.dateModified < recipe.datePublished) recipe.dateModified = recipe.datePublished;

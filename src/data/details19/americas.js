@@ -139,6 +139,7 @@ module.exports = {
   },
 
   'salsa-verde-mexican': {
+    untimed: ['cooling'],
     d: 'Tomatillos and green chilli charred under a grill and blitzed with coriander and lime. Twenty-five minutes and sharper than any red salsa.',
     meta: 'Mexican green salsa of tomatillos, serrano chillies, onion and garlic charred under a grill and blended with coriander and lime.',
     kw: ['salsa verde', 'salsa verde recipe', 'tomatillo salsa', 'green salsa mexican', 'roasted tomatillo salsa'],

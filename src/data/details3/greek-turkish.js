@@ -40,6 +40,7 @@ module.exports = {
   },
 
   'dolmades': {
+    untimed: ['cooling to room temperature'],
     d: 'Vine leaves rolled around rice, herbs, onion and pine nuts, packed tight in a pot and simmered under a plate with lemon and olive oil.',
     meta: 'Dolmades — vine leaves rolled around herbed rice with pine nuts, simmered with lemon and olive oil.',
     kw: ['dolmades recipe', 'stuffed vine leaves', 'greek dolmades', 'vegan meze'],

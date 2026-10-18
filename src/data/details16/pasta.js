@@ -149,6 +149,7 @@ module.exports = {
   },
 
   'culurgiones': {
+    untimed: ['cooling completely'],
     d: 'Sardinian parcels of potato, mint and pecorino, closed with a pleat that looks like an ear of wheat. The pleat takes practice and nothing else about it is hard.',
     meta: 'Sardinian pasta filled with potato, mint and pecorino and closed with a wheat-ear pleat, served in simple tomato sauce.',
     kw: ['culurgiones', 'sardinian pasta', 'culurgiones recipe', 'potato mint pasta', 'wheat ear pleat pasta'],

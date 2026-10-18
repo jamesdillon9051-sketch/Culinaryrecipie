@@ -373,6 +373,7 @@ module.exports = {
   },
 
   'chicken-pastilla': {
+    untimed: ['cooling completely'],
     d: 'Spiced shredded chicken, almonds and egg wrapped in layers of crisp filo, baked and dusted with cinnamon and sugar.',
     meta: 'Chicken pastilla: spiced chicken, almonds and egg in layers of crisp filo, baked for 45 minutes. Six servings.',
     kw: ['chicken pastilla', 'moroccan style chicken pastilla', 'chicken pastilla with almonds', 'chicken pastilla with filo', 'sweet and savoury chicken pastilla'],

@@ -669,6 +669,7 @@ module.exports = {
   },
 
   'moong-dal-kachori': {
+    untimed: ['cooling completely'],
     d: 'Crisp, flaky pastry rounds stuffed with spiced ground moong dal and cooked in hot oil until puffed and golden.',
     meta: 'Moong dal kachori: flaky pastry rounds stuffed with spiced ground moong dal, cooked in hot oil. Makes eight, cooked for about 30 minutes.',
     kw: ['moong dal kachori', 'moong dal kachori recipe', 'khasta kachori', 'rajasthani moong dal kachori', 'stuffed kachori with lentils'],

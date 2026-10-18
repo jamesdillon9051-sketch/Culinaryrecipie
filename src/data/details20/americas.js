@@ -51,6 +51,7 @@ module.exports = {
   },
 
   'papa-a-la-huancaina': {
+    untimed: ['cooling completely'],
     d: 'Boiled potatoes under a yellow chilli and cheese sauce, cold, with olives and egg. Thirty-five minutes.',
     meta: 'Peruvian papa a la huancaína of boiled potatoes under a blended ají amarillo, cheese and cracker sauce with egg and olives.',
     kw: ['papa a la huancaina', 'huancaina sauce', 'peruvian potato starter', 'aji amarillo sauce', 'peruvian yellow sauce'],
@@ -707,6 +708,7 @@ module.exports = {
   },
 
   'paletas': {
+    untimed: ['cooling completely'],
     d: 'Fresh fruit blended with a little sugar and lime and frozen in moulds. Fifteen minutes of work and no cooking.',
     meta: 'Mexican paletas of fresh mango and lime blended with a light sugar syrup and chilli, frozen in lolly moulds.',
     kw: ['paletas', 'paletas recipe', 'mexican ice lollies', 'mango chilli paletas', 'fruit popsicles'],

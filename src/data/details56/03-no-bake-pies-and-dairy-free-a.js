@@ -535,6 +535,7 @@ module.exports = {
   },
 
   'dairy-free-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies made with dairy-free butter and dairy-free dark chocolate, baked for 25 minutes with a crackled top.',
     meta: 'Dairy-free brownies with a crackled top and fudgy centre, baked for 25 minutes. 16 squares, ready in 45 minutes.',
     kw: ['dairy-free brownies', 'dairy-free chocolate brownies', 'brownies without butter', 'fudgy dairy-free brownies', 'dairy-free brownie recipe'],
@@ -668,6 +669,7 @@ module.exports = {
   },
 
   'dairy-free-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes made with oat milk and dairy-free baking block, topped with a dairy-free vanilla buttercream.',
     meta: 'Dairy-free cupcakes with oat milk and a dairy-free buttercream, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['dairy-free cupcakes', 'dairy-free vanilla cupcakes', 'cupcakes without milk or butter', 'dairy-free cupcakes with buttercream', 'dairy-free cupcake recipe'],

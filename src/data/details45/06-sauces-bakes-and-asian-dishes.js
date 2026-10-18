@@ -14,6 +14,7 @@
 
 module.exports = {
   'raspberry-coulis': {
+    untimed: ['cooling'],
     d: 'Raspberries simmered with sugar and lemon juice and sieved into a smooth, bright red sauce.',
     meta: 'Raspberry coulis: raspberries simmered with sugar and lemon juice and sieved smooth. Eight servings, cooked for 8 minutes.',
     kw: ['raspberry coulis', 'easy raspberry coulis', 'fresh raspberry coulis recipe', 'raspberry sauce for desserts', 'smooth raspberry coulis'],
@@ -41,6 +42,7 @@ module.exports = {
   },
 
   'quick-pickled-carrots': {
+    untimed: ['cooling to room temperature'],
     d: 'Carrot batons in a hot vinegar, sugar and salt brine with garlic and mustard seeds, ready after an hour in the fridge.',
     meta: 'Quick pickled carrots: carrot batons in a vinegar, sugar and mustard seed brine, ready after 1 hour. Eight servings, cooked for 5 minutes.',
     kw: ['quick pickled carrots', 'easy pickled carrots', 'refrigerator pickled carrots', 'pickled carrot sticks with garlic', 'quick pickled carrots with mustard seeds'],
@@ -311,6 +313,7 @@ module.exports = {
   },
 
   'pandan-cake': {
+    untimed: ['cooling completely'],
     d: 'A light, fragrant sponge flavoured with pandan extract and coconut milk, baked until springy.',
     meta: 'Pandan cake: a light sponge flavoured with pandan extract and coconut milk. Ten servings, baked for 35 minutes.',
     kw: ['pandan cake', 'pandan coconut sponge cake', 'malaysian pandan cake', 'light pandan sponge with coconut milk', 'green pandan cake'],
@@ -484,6 +487,7 @@ module.exports = {
   },
 
   'ube-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Soft purple cupcakes flavoured with ube extract and coconut milk, topped with ube buttercream.',
     meta: 'Ube cupcakes: soft purple cupcakes flavoured with ube extract and coconut milk, with ube buttercream. Twelve cupcakes, baked for 22 minutes.',
     kw: ['ube cupcakes', 'filipino ube cupcakes', 'purple yam ube cupcakes', 'ube cupcakes with buttercream', 'soft ube coconut cupcakes'],

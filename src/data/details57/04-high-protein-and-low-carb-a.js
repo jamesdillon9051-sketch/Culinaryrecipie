@@ -384,6 +384,7 @@ module.exports = {
   },
 
   'low-carb-granola': {
+    untimed: ['cooling completely'],
     d: 'A crunchy granola of almonds, pecans, seeds and unsweetened coconut, bound with egg white and lightly sweetened with maple syrup.',
     meta: 'Low-carb granola with nuts, seeds and coconut, baked for 25 minutes at 160C. Ten servings, ready in 35 minutes.',
     kw: ['low carb granola', 'nut and seed granola', 'granola without oats', 'baked nut granola', 'crunchy coconut granola'],

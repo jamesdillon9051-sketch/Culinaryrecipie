@@ -282,6 +282,7 @@ module.exports = {
   },
 
   'vegetable-wellington': {
+    untimed: ['cooling completely'],
     d: 'Roasted butternut squash, mushrooms, spinach and chestnuts wrapped in puff pastry and baked until golden.',
     meta: 'Vegetable Wellington: roasted butternut squash, mushrooms, spinach and chestnuts in puff pastry. Six servings, cooked for 40 minutes.',
     kw: ['vegetable wellington', 'vegetarian wellington', 'butternut squash wellington', 'christmas vegetable wellington', 'chestnut and squash wellington'],
@@ -317,6 +318,7 @@ module.exports = {
   },
 
   'mushroom-wellington': {
+    untimed: ['cooling completely'],
     d: 'A savoury mushroom, chestnut and thyme filling wrapped in puff pastry and baked until deep gold.',
     meta: 'Mushroom Wellington: a savoury mushroom, chestnut and thyme filling in puff pastry. Six servings, cooked for 40 minutes.',
     kw: ['mushroom wellington', 'vegetarian mushroom wellington', 'chestnut mushroom wellington', 'mushroom and chestnut wellington', 'christmas mushroom wellington'],

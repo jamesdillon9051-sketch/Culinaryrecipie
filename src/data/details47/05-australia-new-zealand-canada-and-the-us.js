@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'new-zealand-mince-and-cheese-pie': {
+    untimed: ['cooling completely'],
     d: 'A double-crust pie of beef mince and onion in a thick gravy with melted cheddar, in a shortcrust base and puff pastry lid.',
     meta: 'New Zealand mince and cheese pie: beef mince and onion in thick gravy with cheddar, in shortcrust with a puff lid. Six servings, baked for 45 minutes.',
     kw: ['new zealand mince and cheese pie', 'mince and cheese pie', 'kiwi mince and cheese pie', 'beef mince and cheese pie', 'savoury mince pie with cheese'],
@@ -449,6 +450,7 @@ module.exports = {
   },
 
   'depression-cake': {
+    untimed: ['cooling completely'],
     d: 'A rich chocolate cake made without eggs, milk or butter, mixed in the tin with vinegar, oil and cocoa.',
     meta: 'Depression cake: a chocolate cake made without eggs, milk or butter, using oil, vinegar and cocoa. Nine servings, baked for 35 minutes.',
     kw: ['depression cake', 'eggless chocolate cake', 'wacky cake', 'chocolate cake without eggs or milk', 'one bowl chocolate cake with vinegar'],
@@ -545,6 +547,7 @@ module.exports = {
   },
 
   'hand-pies': {
+    untimed: ['cooling completely'],
     d: 'Small shortcrust pastry pies filled with spiced apple, crimped with a fork and baked until golden.',
     meta: 'Hand pies: small shortcrust pastry pies filled with spiced apple, crimped and baked until golden. Eight servings, baked for 25 minutes.',
     kw: ['hand pies', 'apple hand pies', 'homemade hand pies', 'baked apple hand pies', 'small apple pies'],

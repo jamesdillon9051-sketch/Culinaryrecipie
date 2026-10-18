@@ -25,6 +25,10 @@
         "stages-exceed-cook|stages": {
           "status": "exception",
           "reason": "The 2-hour steam in the last step reheats the pudding on the day it is served, after it has matured; it is not part of making it. The cook time is the 6-hour steam."
+        },
+        "required-wait-not-counted|Lift out, cool completely, then re-cover with fresh paper and foil and store somewhere cool and dark.": {
+          "status": "exception",
+          "reason": "storage step: the pudding is ready after steaming; cooling and re-wrapping are for keeping it until it is reheated"
         }
       }
     },
@@ -34,6 +38,244 @@
         "stages-exceed-cook|stages": {
           "status": "exception",
           "reason": "\"If your slow cooker runs hot, cook for 6 hours instead\" is an alternative to the 8 hours, not a second stage."
+        }
+      }
+    },
+    "spanakopita": {
+      "fingerprint": "5ca006598fc4",
+      "findings": {
+        "required-wait-not-counted|Once cool enough to handle, squeeze it hard in your hands, then again inside a clean tea towel.": {
+          "status": "exception",
+          "reason": "handling pause: \"once cool enough to handle\" is a cue for squeezing the greens, a minute or two, not a wait"
+        }
+      }
+    },
+    "tiramisu-gelato": {
+      "fingerprint": "0c5e0daac707",
+      "findings": {
+        "required-wait-not-counted|Strain through a fine sieve into a bowl set over ice and stir until cool.": {
+          "status": "exception",
+          "reason": "active cooling: the custard is stirred over ice until cool, which is hands-on work counted in the prep"
+        }
+      }
+    },
+    "gateau-basque": {
+      "fingerprint": "2c6a11736c80",
+      "findings": {
+        "required-wait-not-counted|Beat in the butter, cover the surface and chill completely.": {
+          "status": "exception",
+          "reason": "runs alongside: the method makes the pastry cream first, and it chills while the pastry is made and chilled for 2 hours"
+        }
+      }
+    },
+    "cozonac": {
+      "fingerprint": "553418b1c633",
+      "findings": {
+        "required-wait-not-counted|Leave to cool if it has warmed.": {
+          "status": "exception",
+          "reason": "conditional: \"leave to cool if it has warmed\" applies only when the filling has warmed"
+        }
+      }
+    },
+    "sweet-potato-casserole": {
+      "fingerprint": "41f2897f2996",
+      "findings": {
+        "required-wait-not-counted|Leave until cool enough to handle, then scoop the flesh into a bowl and discard the skins.": {
+          "status": "exception",
+          "reason": "handling pause: the baked sweet potatoes are left until cool enough to handle before scooping, a cue rather than a wait"
+        }
+      }
+    },
+    "sesame-peanut-noodles": {
+      "fingerprint": "e54286edf1a5",
+      "findings": {
+        "required-wait-not-counted|Reserve 250 ml of the cooking water, then drain and rinse the noodles under cold water until completely cool.": {
+          "status": "exception",
+          "reason": "active cooling: the noodles are rinsed under cold water until cool, which is hands-on work counted in the prep"
+        }
+      }
+    },
+    "pease-pudding": {
+      "fingerprint": "5c7599258552",
+      "findings": {
+        "required-wait-not-counted|Serve hot in spoonfuls, or cool completely and slice.": {
+          "status": "exception",
+          "reason": "alternative: the recipe serves it hot, or cooled and sliced; only the second way involves the cooling"
+        }
+      }
+    },
+    "xo-sauce": {
+      "fingerprint": "8247175237a9",
+      "findings": {
+        "required-wait-not-counted|Cool completely and pack into jars with the oil covering the solids.": {
+          "status": "exception",
+          "reason": "storage step: the sauce is ready when cooked; cooling before jarring is for keeping it"
+        }
+      }
+    },
+    "hakka-noodles": {
+      "fingerprint": "7728735a4b34",
+      "findings": {
+        "required-wait-not-counted|Drain, rinse under cold water until completely cool, and toss with 1 tsp of the oil.": {
+          "status": "exception",
+          "reason": "active cooling: the noodles are rinsed under cold water until cool, which is hands-on work counted in the prep"
+        }
+      }
+    },
+    "coconut-chutney": {
+      "fingerprint": "59b0f4c0956f",
+      "findings": {
+        "required-wait-not-counted|Stir it through just before serving, or leave it sitting on top.": {
+          "status": "exception",
+          "reason": "not a wait: \"leave it sitting on top\" is a serving choice for the tempering"
+        }
+      }
+    },
+    "macaroni-salad": {
+      "fingerprint": "cde017d7563f",
+      "findings": {
+        "required-wait-not-counted|Drain and rinse under cold water until cool.": {
+          "status": "exception",
+          "reason": "active cooling: the macaroni is rinsed under cold water until cool, which is hands-on work counted in the prep"
+        }
+      }
+    },
+    "shito": {
+      "fingerprint": "078d2a73e231",
+      "findings": {
+        "required-wait-not-counted|Cool completely, then spoon into clean, dry jars, making sure the sauce is covered by a layer of oil.": {
+          "status": "exception",
+          "reason": "storage step: the shito is ready when cooked; cooling before jarring is for keeping it"
+        }
+      }
+    },
+    "ajvar": {
+      "fingerprint": "279b8d50dd4d",
+      "findings": {
+        "required-wait-not-counted|Leave to steam for 20 minutes, until cool enough to handle.": {
+          "status": "exception",
+          "reason": "handling pause: the 20-minute steam is counted; \"until cool enough to handle\" is the cue that ends it"
+        },
+        "required-wait-not-counted|Let cool, then keep in the fridge.": {
+          "status": "exception",
+          "reason": "storage step: the ajvar is ready when cooked; cooling before refrigerating is for keeping it"
+        }
+      }
+    },
+    "paska": {
+      "fingerprint": "becc9265cea6",
+      "findings": {
+        "required-wait-not-counted|Grease two 15 cm round cake tins, at least 8 cm deep, and line each with baking paper that stands 5 cm above the rim.": {
+          "status": "exception",
+          "reason": "not a wait: \"stands 5 cm above the rim\" describes the lining paper"
+        }
+      }
+    },
+    "bbq-sauce": {
+      "fingerprint": "37ada577c747",
+      "findings": {
+        "required-wait-not-counted|Let it cool a little, then pour it into a clean jar or bottle.": {
+          "status": "exception",
+          "reason": "storage step: the sauce is ready when cooked; cooling a little before bottling is for keeping it"
+        }
+      }
+    },
+    "homemade-potato-crisps": {
+      "fingerprint": "435af8958bee",
+      "findings": {
+        "required-wait-not-counted|Cool for a few minutes to finish crisping, then serve.": {
+          "status": "exception",
+          "reason": "brief pause: \"a few minutes\" to finish crisping, under the 15 minutes the reader counts"
+        }
+      }
+    },
+    "mango-chutney": {
+      "fingerprint": "b2ba5d1e614a",
+      "findings": {
+        "required-wait-not-counted|Cool completely, then label and store.": {
+          "status": "exception",
+          "reason": "storage step: the chutney is ready when cooked; cooling before labelling is for keeping it"
+        }
+      }
+    },
+    "homemade-ketchup": {
+      "fingerprint": "52e7f7d1fb6b",
+      "findings": {
+        "required-wait-not-counted|Pour into a clean jar or bottle and let it cool completely, then cover and store in the fridge.": {
+          "status": "exception",
+          "reason": "storage step: the ketchup is ready when cooked; cooling in the jar before refrigerating is for keeping it"
+        }
+      }
+    },
+    "bread-and-butter-pickles": {
+      "fingerprint": "8858dbd18006",
+      "findings": {
+        "required-wait-not-counted|Seal and cool, then keep in the fridge.": {
+          "status": "exception",
+          "reason": "storage step: sealing and cooling the jars is for keeping the pickles"
+        }
+      }
+    },
+    "vietnamese-noodle-salad": {
+      "fingerprint": "96bde92c8f31",
+      "findings": {
+        "required-wait-not-counted|Drain and rinse under cold water until cool.": {
+          "status": "exception",
+          "reason": "active cooling: the noodles are rinsed under cold water until cool, which is hands-on work counted in the prep"
+        }
+      }
+    },
+    "murtabak": {
+      "fingerprint": "229eb6e0d897",
+      "findings": {
+        "required-wait-not-counted|Cool slightly, then mix with the coriander, eggs and spring onions.": {
+          "status": "exception",
+          "reason": "brief pause: \"cool slightly\" before the eggs go in, a minute or two so they do not set on contact"
+        }
+      }
+    },
+    "freezer-curry": {
+      "fingerprint": "09840e7b7b50",
+      "findings": {
+        "required-wait-not-counted|Cool in a wide dish, then divide into 6 containers and freeze flat.": {
+          "status": "exception",
+          "reason": "storage step: the curry is ready when cooked; cooling in a wide dish before freezing is for keeping it"
+        }
+      }
+    },
+    "freezer-muffins": {
+      "fingerprint": "44905987fe1a",
+      "findings": {
+        "required-wait-not-counted|Cool completely on a rack.": {
+          "status": "exception",
+          "reason": "storage step: the muffins are ready when baked; cooling before wrapping is for freezing them"
+        }
+      }
+    },
+    "vegan-shortbread": {
+      "fingerprint": "4f2fc158ac5b",
+      "findings": {
+        "required-wait-not-counted|Rub in the coconut oil with cool fingertips until like damp sand, then add the vanilla and press into a dough.": {
+          "status": "exception",
+          "reason": "not a wait: \"cool fingertips\" describes the hands rubbing in the coconut oil"
+        }
+      }
+    },
+    "lyutenitsa": {
+      "fingerprint": "f22dbe366da8",
+      "findings": {
+        "required-wait-not-counted|Cool under a cloth, then peel.": {
+          "status": "exception",
+          "reason": "handling pause: the peppers steam under a cloth until they can be peeled, a cue rather than a wait"
+        }
+      }
+    },
+    "moussaka": {
+      "fingerprint": "77e445381dc9",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The method runs three tracks at once and now says so: the ragù (8 + 8 + 2 + 2 minutes, the wine reduced, 30 to 35 minutes simmering) is made while the aubergine salts (30 minutes, counted as waiting) and roasts (25 minutes), with the potatoes on a second tray alongside; the béchamel is made while the ragù simmers. The cooking path is the 25-minute roast and the 45 to 50-minute bake: 70 to 80 minutes in the row and cookMax. The checker adds every stage in sequence because only the first sentence of each parallel step starts with \"while\"."
         }
       }
     }

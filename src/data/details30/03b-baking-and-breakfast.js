@@ -47,6 +47,7 @@ module.exports = {
   },
 
   'dream-bars': {
+    untimed: ['cooling completely'],
     d: 'A buttery shortbread base topped with a chewy, caramel-like layer of brown sugar, coconut and walnuts. A Canadian bake-sale and Christmas tray favourite.',
     meta: 'Dream bars: a buttery shortbread base topped with a chewy, caramel-like layer of brown sugar, coconut and walnuts. A Canadian bake-sale favourite.',
     kw: ['dream bars', 'coconut dream bars', 'canadian dream bars', 'dream bars recipe', 'how to make dream bars'],

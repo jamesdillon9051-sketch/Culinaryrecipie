@@ -5,6 +5,7 @@
 
 module.exports = {
   'eggnog': {
+    untimed: ['cooling to room temperature'],
     rest: [240, 'chilling'],
     d: 'A cooked custard base rather than raw eggs, spiked and chilled overnight. Thick enough to coat a spoon and nothing like the carton.',
     meta: 'Eggnog built on a cooked custard base — safe, thick and chilled overnight, with bourbon and dark rum.',
@@ -246,6 +247,7 @@ module.exports = {
   },
 
   'kombucha': {
+    untimed: ['cooling to room temperature'],
     rest: [12960, 'fermenting'],
     d: 'Sweet tea fermented by a culture into something sour and lightly fizzy, then bottled with fruit for a second ferment that carbonates it. Eight days, most of them unattended.',
     meta: 'Kombucha in two ferments — eight days of sweet tea under a SCOBY, then bottled with fruit to carbonate.',

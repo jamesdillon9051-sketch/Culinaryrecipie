@@ -3,6 +3,7 @@
 
 module.exports = {
   'lamingtons': {
+    untimed: ['cooling completely'],
     rest: [660, 'chilling'],
     d: 'Squares of day-old butter sponge dipped in thin chocolate icing and rolled in desiccated coconut, sometimes split and filled with jam and cream.',
     meta: 'Lamingtons — squares of butter sponge dipped in chocolate icing and rolled in desiccated coconut.',

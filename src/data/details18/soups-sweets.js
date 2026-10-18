@@ -257,6 +257,7 @@ module.exports = {
   },
 
   'chilli-oil': {
+    untimed: ['cooling completely'],
     d: 'Hot oil poured over chilli flakes and spices in stages, so the sediment toasts without burning. Fifteen minutes, and it improves everything for a month.',
     meta: 'Sichuan chilli oil: aromatics infused into oil, which is then poured over coarse chilli flakes in three stages at falling temperatures.',
     kw: ['chilli oil', 'sichuan chilli oil recipe', 'chinese chilli oil', 'homemade chili crisp oil', 'la jiao you'],

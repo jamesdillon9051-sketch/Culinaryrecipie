@@ -404,6 +404,7 @@ module.exports = {
   },
 
   'panforte': {
+    untimed: ['cooling completely'],
     d: 'A flat, dense Sienese slab of nuts, dried fruit and spice held together by nothing but boiled honey and sugar. Thirteenth-century, barely a cake, and it keeps for months.',
     meta: 'Panforte di Siena — nuts and candied fruit bound with boiled honey syrup, spiced and pressed flat. Keeps for months.',
     kw: ['panforte', 'panforte di siena', 'italian christmas cake', 'nut and fruit cake'],

@@ -233,6 +233,7 @@ module.exports = {
   },
 
   'om-ali': {
+    untimed: ['cooling'],
     d: 'Torn pastry baked in sweetened milk with nuts and coconut until the top blisters and the bottom turns to custard. Egypt’s national pudding, and supposedly named after a murder.',
     meta: 'Torn puff pastry baked in sweetened milk with nuts, raisins and coconut until the top blisters and the base sets to custard.',
     kw: ['om ali', 'egyptian bread pudding', 'om ali recipe', 'umm ali dessert', 'egyptian milk pudding'],
@@ -401,6 +402,7 @@ module.exports = {
   },
 
   'kunafa-bil-manga': {
+    untimed: ['cooling the pastry and the cream'],
     d: 'Shredded kunafa pastry baked crisp and layered with cream and fresh mango. A modern Cairo dessert, everywhere since about 2015 and unashamedly so.',
     meta: 'Shredded kunafa pastry baked crisp in butter, then layered with thick cream and fresh mango instead of syrup.',
     kw: ['kunafa bil manga', 'mango kunafa', 'kunafa recipe', 'egyptian mango dessert', 'kanafeh mango'],

@@ -315,6 +315,7 @@ module.exports = {
   },
 
   'louisiana-crawfish-pie': {
+    untimed: ['cooling completely'],
     d: 'A double-crust pie filled with crawfish tails in a thick, peppery Creole sauce of onion, celery, green pepper and cream.',
     meta: 'Louisiana crawfish pie: a double-crust pie filled with crawfish tails in a thick, peppery Creole sauce. Six servings, cooked for 40 minutes.',
     kw: ['louisiana crawfish pie', 'crawfish pie recipe', 'cajun crawfish pie', 'creole crawfish pie', 'crawfish pie with pastry crust'],
@@ -615,6 +616,7 @@ module.exports = {
   },
 
   'pudim-de-leite': {
+    untimed: ['cooling'],
     d: 'A Brazilian condensed milk pudding with a deep caramel top, baked in a water bath until set and silky, with no holes.',
     meta: 'Pudim de leite: a Brazilian condensed milk pudding with a deep caramel top, baked in a water bath until silky. Eight servings, 6 hours chilling.',
     kw: ['pudim de leite', 'brazilian pudim', 'pudim de leite condensado', 'brazilian condensed milk pudding', 'pudim recipe with caramel'],
@@ -701,6 +703,7 @@ module.exports = {
   },
 
   'steak-and-cheese-pie': {
+    untimed: ['cooling completely'],
     d: 'A golden Australian pie of diced steak in rich gravy with melted cheese, baked in shortcrust with a puff pastry lid.',
     meta: 'Steak and cheese pie: diced steak in rich gravy with melted cheddar, baked in shortcrust with a puff pastry lid. Six servings, cooked for 45 minutes.',
     kw: ['steak and cheese pie', 'australian steak and cheese pie', 'steak and cheese pie recipe', 'meat pie with melted cheddar', 'pie with steak gravy and cheese'],

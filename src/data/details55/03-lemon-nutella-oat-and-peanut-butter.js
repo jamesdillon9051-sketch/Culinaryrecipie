@@ -51,6 +51,7 @@ module.exports = {
   },
 
   'lemon-blueberry-cake': {
+    untimed: ['cooling completely'],
     d: 'A two-layer lemon sponge with fresh blueberries in the batter and a lemon cream cheese frosting, baked for 35 minutes.',
     meta: 'Lemon blueberry cake with cream cheese frosting, baked for 35 minutes. Twelve servings, ready in 1 hour 10 minutes.',
     kw: ['lemon blueberry cake', 'lemon blueberry layer cake', 'blueberry lemon cake with cream cheese frosting', 'fresh blueberry lemon cake', 'summer lemon blueberry cake'],
@@ -88,6 +89,7 @@ module.exports = {
   },
 
   'lemon-bundt-cake': {
+    untimed: ['cooling'],
     d: 'A tall, moist lemon bundt cake with soured cream and fresh zest, baked for 50 minutes and finished with a thick lemon glaze.',
     meta: 'Lemon bundt cake with a moist crumb and thick lemon glaze, baked for 50 minutes. Twelve servings, ready in 1 hour 25 minutes.',
     kw: ['lemon bundt cake', 'lemon sour cream bundt cake', 'lemon bundt with glaze', 'moist lemon cake', 'lemon bundt recipe'],
@@ -126,6 +128,7 @@ module.exports = {
   },
 
   'lemon-drizzle-loaf': {
+    untimed: ['cooling completely'],
     d: 'A classic British lemon loaf soaked while warm in lemon and sugar syrup, which sets into a crisp, sugary crust.',
     meta: 'Lemon drizzle loaf with a crisp sugar crust, baked for 50 minutes. Ten servings, ready in 1 hour 10 minutes.',
     kw: ['lemon drizzle loaf', 'lemon drizzle cake', 'classic lemon drizzle', 'british lemon loaf cake', 'lemon drizzle with crunchy topping'],
@@ -158,6 +161,7 @@ module.exports = {
   },
 
   'lemon-layer-cake': {
+    untimed: ['cooling completely'],
     d: 'A three-layer lemon cake filled with lemon curd and covered in vanilla buttercream, baked for 30 minutes.',
     meta: 'Lemon layer cake with lemon curd filling and vanilla buttercream, baked for 30 minutes. Twelve servings, ready in 2 hours 30 minutes.',
     kw: ['lemon layer cake', 'lemon cake with curd filling', 'three layer lemon cake', 'lemon curd layer cake', 'lemon cake with buttercream'],
@@ -265,6 +269,7 @@ module.exports = {
   },
 
   'mexican-wedding-cookies': {
+    untimed: ['cooling completely'],
     d: 'Small, crumbly butter cookies with ground pecans, rolled twice in icing sugar, baked for 14 minutes at 175C.',
     meta: 'Mexican wedding cookies with pecans rolled in icing sugar, baked for 14 minutes. 30 cookies, ready in 1 hour 4 minutes.',
     kw: ['mexican wedding cookies', 'pecan wedding cookies', 'polvorones', 'snowball cookies', 'pecan butter balls'],
@@ -296,6 +301,7 @@ module.exports = {
   },
 
   'mint-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies topped with a layer of mint buttercream and a dark chocolate glaze, baked for 30 minutes and chilled.',
     meta: 'Mint brownies with minty buttercream and chocolate glaze, baked for 30 minutes and chilled. 16 squares, ready in 2 hours.',
     kw: ['mint brownies', 'mint chocolate brownies', 'layered mint brownies', 'brownies with mint frosting', 'chocolate mint brownie bars'],
@@ -369,6 +375,7 @@ module.exports = {
   },
 
   'white-chocolate-raspberry-blondies': {
+    untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with white chocolate chunks and fresh raspberries, baked for 28 minutes at 175C.',
     meta: 'White chocolate raspberry blondies, chewy with tart berries, baked for 28 minutes. 16 squares, ready in 50 minutes.',
     kw: ['white chocolate raspberry blondies', 'raspberry blondies', 'blondies with white chocolate', 'chewy raspberry blondies', 'white chocolate blondie bars'],
@@ -402,6 +409,7 @@ module.exports = {
   },
 
   'nutella-brownies': {
+    untimed: ['cooling completely'],
     d: 'Dense, fudgy brownies made with a jar of Nutella, eggs and a little flour, with swirls of extra spread on top, baked for 25 minutes.',
     meta: 'Nutella brownies, fudgy with hazelnut swirls, baked for 25 minutes. 16 squares, ready in 35 minutes.',
     kw: ['nutella brownies', 'hazelnut chocolate brownies', 'brownies with nutella swirl', 'fudgy nutella brownies', 'nutella brownie recipe'],
@@ -605,6 +613,7 @@ module.exports = {
   },
 
   'orange-cookies': {
+    untimed: ['cooling completely'],
     d: 'Soft, cake-like orange cookies with fresh zest, finished with a thin orange glaze, baked for 12 minutes.',
     meta: 'Orange cookies, soft and cake-like with an orange glaze, baked for 12 minutes. 24 cookies, ready in 1 hour 2 minutes.',
     kw: ['orange cookies', 'soft orange cookies', 'orange glazed cookies', 'orange zest cookies', 'orange cookie recipe'],
@@ -780,6 +789,7 @@ module.exports = {
   },
 
   'peanut-butter-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Moist peanut butter cupcakes with a swirl of peanut butter buttercream and a chocolate drizzle, baked for 22 minutes.',
     meta: 'Peanut butter cupcakes with peanut butter buttercream, baked for 22 minutes. Twelve servings, ready in 55 minutes.',
     kw: ['peanut butter cupcakes', 'peanut butter cupcakes with buttercream', 'peanut butter frosting cupcakes', 'moist peanut butter cupcake recipe', 'peanut butter and chocolate cupcakes'],

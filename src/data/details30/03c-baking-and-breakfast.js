@@ -10,6 +10,7 @@
 
 module.exports = {
   'lemon-poppy-seed-muffins': {
+    untimed: ['cooling'],
     d: 'Tall, tender, bakery-style muffins with a bright lemon flavour and a scatter of crunchy poppy seeds, finished with a thin lemon glaze.',
     meta: 'Lemon poppy seed muffins: tall, tender, bakery-style muffins with a bright lemon flavour and crunchy poppy seeds, finished with a lemon glaze.',
     kw: ['lemon poppy seed muffins', 'bakery style lemon poppy seed muffins', 'lemon poppyseed muffins', 'lemon muffins with poppy seeds', 'how to make lemon poppy seed muffins'],

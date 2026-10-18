@@ -78,6 +78,7 @@ module.exports = {
   },
 
   'air-fryer-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy chocolate brownies baked in a small tin in the air fryer for 20 minutes, with a crackled top and a soft centre.',
     meta: 'Air fryer brownies: fudgy squares with a crackled top, baked in a small tin. Nine servings, ready in 30 minutes.',
     kw: ['air fryer brownies', 'brownies in air fryer', 'fudgy air fryer brownies', 'small batch brownies', 'air fryer chocolate brownies'],
@@ -383,6 +384,7 @@ module.exports = {
   },
 
   'air-fryer-empanadas': {
+    untimed: ['cooling completely'],
     d: 'Beef and onion empanadas made with ready-rolled pastry discs, crimped by hand and air fried for 12 minutes until golden and crisp.',
     meta: 'Air fryer empanadas with a spiced beef filling in crisp golden pastry. Eight servings, ready in 42 minutes.',
     kw: ['air fryer empanadas', 'empanadas in air fryer', 'beef empanadas', 'air fried empanadas', 'empanada pastry'],

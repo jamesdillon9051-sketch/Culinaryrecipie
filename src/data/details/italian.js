@@ -408,7 +408,7 @@ module.exports = {
     ],
     st: [
       'Blanch the basil leaves for 5 seconds in boiling water, then plunge into iced water. Drain and squeeze dry in a tea towel. This locks in the colour.',
-      'Toast the pine nuts in a dry pan for 3 minutes until barely golden, then cool completely.',
+      'Toast the pine nuts in a dry pan for 3 minutes until barely golden, then tip them onto a cold plate to cool while you pound the garlic and basil.',
       'In a mortar, pound the garlic with the coarse salt into a paste — the salt crystals act as an abrasive.',
       'Add the basil a handful at a time, grinding with a circular motion against the sides rather than pounding straight down.',
       'Work in the pine nuts until the paste is creamy, then the two cheeses.',
@@ -650,6 +650,7 @@ module.exports = {
   },
 
   'panna-cotta': {
+    untimed: ['cooling to room temperature'],
     rest: [260, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
     meta: 'Silky vanilla panna cotta with the perfect wobble: a five-ingredient Italian dessert, 20 minutes of work and at least 4 hours in the fridge.',

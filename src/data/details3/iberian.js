@@ -46,6 +46,7 @@ module.exports = {
   },
 
   'crema-catalana': {
+    untimed: ['cooling to room temperature'],
     rest: [270, 'chilling'],
     d: 'A cornflour-set custard flavoured with lemon and cinnamon, chilled in shallow dishes and burnt under a hot iron just before it is eaten.',
     meta: 'Crema catalana — lemon and cinnamon custard set with cornflour and burnt under a hot iron.',

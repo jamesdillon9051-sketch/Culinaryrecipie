@@ -198,6 +198,7 @@ module.exports = {
   },
 
   'maple-pecan-tart': {
+    untimed: ['cooling completely'],
     d: 'A shortcrust case filled with maple syrup, pecans and eggs and cooked for 40 minutes until set. Ten servings in 1 hour 10 minutes.',
     meta: 'Maple pecan tart: a shortcrust case filled with maple syrup, pecans and eggs and cooked for 40 minutes until set with a glossy top.',
     kw: ['maple pecan tart', 'canadian maple pecan tart', 'maple syrup pecan tart', 'maple pecan pie', 'maple tart with pecans'],
@@ -355,6 +356,7 @@ module.exports = {
   },
 
   'kiwi-fruit-pavlova': {
+    untimed: ['cooling in the switched-off oven'],
     d: 'A crisp meringue shell with a marshmallow centre, cooked for 90 minutes and topped with whipped cream and sliced kiwi fruit. Eight servings in 2 hours.',
     meta: 'Kiwi fruit pavlova: a crisp meringue shell with a marshmallow centre, cooked for 90 minutes and topped with whipped cream and sliced kiwi fruit.',
     kw: ['kiwi fruit pavlova', 'new zealand pavlova with kiwi', 'classic kiwi pavlova', 'pavlova with kiwi fruit and cream', 'homemade pavlova'],

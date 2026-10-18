@@ -262,6 +262,7 @@ module.exports = {
   },
 
   'boston-cream-pie': {
+    untimed: ['cooling completely'],
     rest: [230, 'chilling'],
     d: 'Not a pie at all — two layers of sponge with vanilla pastry cream between them and a chocolate glaze poured over the top so it runs down the sides.',
     meta: 'Boston cream pie — vanilla sponge layered with pastry cream and finished with a poured chocolate glaze.',

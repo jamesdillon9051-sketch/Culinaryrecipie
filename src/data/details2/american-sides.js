@@ -204,6 +204,7 @@ module.exports = {
   },
 
   'classic-potato-salad': {
+    untimed: ['cooling the dressed potatoes'],
     rest: [140, 'chilling'],
     d: 'Waxy potatoes dressed while still warm so they drink in the vinegar, then finished cold with mayonnaise, celery, egg and pickle. Every American family has a version, and this is the one that gets the seasoning right.',
     meta: 'Classic American potato salad with waxy potatoes dressed warm in vinegar, then mayonnaise, egg and pickle.',

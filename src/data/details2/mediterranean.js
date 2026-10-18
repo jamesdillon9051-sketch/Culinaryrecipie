@@ -276,6 +276,7 @@ module.exports = {
   },
 
   'imam-bayildi': {
+    untimed: ['cooling to room temperature'],
     d: 'Aubergines split and stuffed with onion, garlic and tomato, then braised in a great deal of olive oil and served at room temperature. The name means "the imam fainted", and the traditional explanation involves the quantity of oil.',
     meta: 'Imam bayildi — Turkish stuffed aubergines braised in olive oil with onion, garlic and tomato, served cool.',
     kw: ['imam bayildi recipe', 'turkish stuffed aubergine', 'olive oil aubergine', 'zeytinyagli recipe'],

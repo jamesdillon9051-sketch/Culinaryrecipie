@@ -342,6 +342,7 @@ module.exports = {
   },
 
   'beef-wellington': {
+    untimed: ['cooling completely'],
     rest: [105, 'resting'],
     d: 'Fillet of beef wrapped in mushroom duxelles and prosciutto, encased in puff pastry and baked until the pastry is bronzed and the beef is a perfect blushing pink. The dish for the occasion that matters.',
     meta: 'Beef Wellington with mushroom duxelles, prosciutto and puff pastry, cooked to a perfect blushing pink centre.',
@@ -649,6 +650,7 @@ module.exports = {
   },
 
   'black-forest-cake': {
+    untimed: ['cooling completely'],
     rest: [240, 'chilling'],
     d: 'Chocolate sponge soaked in kirsch, layered with sour cherries and unsweetened whipped cream, finished with chocolate curls. The kirsch is not optional in Germany — it is legally part of the definition.',
     meta: 'Authentic Schwarzwälder Kirschtorte with kirsch-soaked chocolate sponge, sour cherries and whipped cream.',
@@ -828,6 +830,7 @@ module.exports = {
   },
 
   'pierogi': {
+    untimed: ['cooling completely'],
     d: 'Tender dumplings filled with potato and farmer\'s cheese, boiled and then fried in butter with onions. A weekend project that freezes brilliantly, which is why Polish families make hundreds at a time.',
     meta: 'Polish pierogi ruskie with potato and cheese filling, boiled then fried in butter and onions. Freezer-friendly.',
     kw: ['pierogi recipe', 'polish dumplings', 'potato cheese pierogi', 'pierogi ruskie'],

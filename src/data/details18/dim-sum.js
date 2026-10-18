@@ -634,6 +634,7 @@ module.exports = {
   },
 
   'drunken-chicken': {
+    untimed: ['cooling completely'],
     d: 'Poached chicken steeped for a day in Shaoxing wine and its own jellied stock, then sliced cold. Shanghai in summer, and it needs no cooking on the day.',
     meta: 'Chicken poached and cooled in its own liquid, then steeped overnight in a Shaoxing wine and stock marinade and served cold in slices.',
     kw: ['drunken chicken', 'drunken chicken recipe', 'shaoxing wine chicken', 'shanghai cold chicken', 'chinese wine marinated chicken'],

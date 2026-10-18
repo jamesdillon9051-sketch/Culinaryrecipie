@@ -292,6 +292,7 @@ module.exports = {
   },
 
   'ackee-and-saltfish': {
+    untimed: ['cooling the fish'],
     rest: [720, 'soaking'],
     d: 'Jamaica\'s national dish: ackee, a fruit whose cooked flesh looks and behaves remarkably like scrambled egg, sautéed with soaked salt cod, peppers, onion and thyme.',
     meta: 'Ackee and saltfish — Jamaica\'s national dish, with ackee, soaked salt cod, peppers, onion and thyme.',

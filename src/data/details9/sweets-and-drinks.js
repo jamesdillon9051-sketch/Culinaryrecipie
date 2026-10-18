@@ -5,6 +5,7 @@
 
 module.exports = {
   'chocolate-mousse': {
+    untimed: ['cooling'],
     rest: [240, 'chilling'],
     d: 'Four ingredients and no gelatine: melted chocolate, egg yolks, whipped whites and a little cream. The air is all beaten in by hand and the set comes from the cocoa butter alone.',
     meta: 'Classic French chocolate mousse — no gelatine, set by cocoa butter alone, with the whites folded in three additions.',
@@ -43,6 +44,7 @@ module.exports = {
   },
 
   'fudge': {
+    untimed: ['cooling completely'],
     rest: [165, 'setting'],
     d: 'Proper boiled fudge, taken to the soft-ball stage and then beaten as it cools. A thermometer and a clean pan are all it needs, and neither is negotiable.',
     meta: 'Old-fashioned chocolate fudge boiled to 114°C and beaten as it cools — smooth, sliceable and never grainy.',
@@ -253,6 +255,7 @@ module.exports = {
   },
 
   'lemonade': {
+    untimed: ['cooling'],
     d: 'Made properly, with a sugar syrup rather than sugar stirred into cold water, and with some of the zest oil in it. Ten minutes, and it does not taste like the bottled kind.',
     meta: 'Fresh lemonade made with a real sugar syrup and lemon zest oil — sharper and rounder than anything from a bottle.',
     kw: ['lemonade', 'fresh lemonade', 'homemade lemonade', 'lemonade recipe'],

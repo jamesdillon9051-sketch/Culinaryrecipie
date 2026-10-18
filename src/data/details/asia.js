@@ -619,6 +619,7 @@ module.exports = {
   },
 
   'kimchi': {
+    untimed: ['cooling completely'],
     rest: [1590, 'proving'],
     d: 'Napa cabbage salted, coated in a chilli and fermented seafood paste, and left to ferment until it fizzes. Two days on the counter, then months of improvement in the fridge.',
     meta: 'Traditional napa cabbage kimchi with gochugaru and a rice-flour paste. Ferments in 2 days, improves for months.',

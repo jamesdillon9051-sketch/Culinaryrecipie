@@ -263,6 +263,7 @@ module.exports = {
   },
 
   'brunede-kartofler': {
+    untimed: ['cooling'],
     d: 'Small boiled potatoes glazed in melted sugar and butter until golden and sticky, the sweet side of the Danish Christmas dinner.',
     meta: 'Brunede kartofler, Danish caramelised potatoes in sugar and butter, cooked for 20 minutes. Four servings, ready in 40 minutes.',
     kw: ['brunede kartofler', 'danish caramelised potatoes', 'sugar browned potatoes', 'danish christmas potatoes', 'brunede kartofler recipe'],
@@ -290,6 +291,7 @@ module.exports = {
   },
 
   'risalamande': {
+    untimed: ['cooling completely'],
     d: 'Danish cold rice pudding mixed with whipped cream and chopped almonds and served with warm cherry sauce, chilled for 3 hours.',
     meta: 'Risalamande, Danish cold rice pudding with almonds and cherry sauce, cooked for 40 minutes. Six servings, ready in 55 minutes plus chilling.',
     kw: ['risalamande', 'danish christmas rice pudding', 'rice pudding with almonds and cherry sauce', 'risalamande recipe', 'danish cold rice pudding'],
@@ -325,6 +327,7 @@ module.exports = {
   },
 
   'kransekage': {
+    untimed: ['cooling completely'],
     d: 'A tower of marzipan rings baked until chewy and glazed with white icing, the Danish celebration cake for New Year and weddings.',
     meta: 'Kransekage, Danish marzipan ring tower with white icing: the dough is chilled for an hour, then the rings are baked for 25 minutes. Serves twelve.',
     kw: ['kransekage', 'danish marzipan ring cake', 'almond ring tower cake', 'kransekage recipe', 'new year ring cake'],

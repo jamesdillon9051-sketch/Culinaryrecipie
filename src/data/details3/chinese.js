@@ -188,6 +188,7 @@ module.exports = {
   },
 
   'egg-tarts': {
+    untimed: ['cooling completely'],
     d: 'Hong Kong dim sum tarts with a short, biscuity crust and a wobbling, barely-set custard that should be smooth and glassy on top. No caramelisation — these are not pastéis de nata.',
     meta: 'Hong Kong egg tarts — short biscuity pastry with a smooth, glassy custard baked just to a set.',
     kw: ['hong kong egg tart recipe', 'dan tat', 'chinese egg tart', 'dim sum egg tart'],
@@ -326,6 +327,7 @@ module.exports = {
   },
 
   'turnip-cake': {
+    untimed: ['cooling completely'],
     rest: [480, 'chilling'],
     d: 'Grated daikon bound with rice flour and studded with dried shrimp, Chinese sausage and mushroom, steamed into a loaf and then pan-fried in slices until crisp. A dim sum trolley regular and a Lunar New Year staple.',
     meta: 'Lo bak go — steamed daikon and rice flour cake with dried shrimp and lap cheong, pan-fried crisp in slices.',

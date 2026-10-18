@@ -117,6 +117,7 @@ module.exports = {
   },
 
   'gluten-free-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes made with a gluten-free flour blend and a swirl of vanilla buttercream, baked for 22 minutes.',
     meta: 'Gluten-free cupcakes with vanilla buttercream, baked for 22 minutes. Twelve servings, ready in 57 minutes.',
     kw: ['gluten-free cupcakes', 'gluten-free vanilla cupcakes', 'cupcakes with gluten-free flour', 'gluten-free cupcake recipe', 'moist gluten-free cupcakes'],
@@ -356,6 +357,7 @@ module.exports = {
   },
 
   'vegan-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes made with oat milk, oil and a splash of vinegar, topped with a vegan buttercream, baked for 22 minutes.',
     meta: 'Vegan cupcakes with oat milk and vanilla buttercream, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['vegan cupcakes', 'vegan vanilla cupcakes', 'cupcakes without eggs or dairy', 'plant based cupcakes', 'vegan cupcake recipe'],

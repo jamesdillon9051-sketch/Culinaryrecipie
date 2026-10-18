@@ -132,6 +132,7 @@ module.exports = {
   },
 
   'lemon-sorbet': {
+    untimed: ['cooling completely'],
     d: 'A sharp, smooth sorbet of lemon juice and zest in a sugar syrup, stirred as it freezes.',
     meta: 'Lemon sorbet: a sharp, smooth sorbet of lemon juice and zest in a sugar syrup. Six servings, frozen for 5 hours.',
     kw: ['lemon sorbet', 'homemade lemon sorbet', 'italian lemon sorbet', 'lemon sorbet without a machine', 'easy lemon sorbet'],
@@ -192,6 +193,7 @@ module.exports = {
   },
 
   'traybake-brownies': {
+    untimed: ['cooling completely'],
     d: 'A large tray of fudgy chocolate brownies, cut into twenty squares.',
     meta: 'Traybake brownies: a large tray of fudgy chocolate brownies, baked for 30 minutes. Twenty squares.',
     kw: ['traybake brownies', 'chocolate traybake brownies', 'fudgy brownies for a crowd', 'large tray brownies', 'british traybake brownies'],
@@ -224,6 +226,7 @@ module.exports = {
   },
 
   'vegan-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy dark chocolate brownies made without eggs or dairy, using ground flaxseed and oil.',
     meta: 'Vegan brownies: fudgy dark chocolate brownies made without eggs or dairy. Sixteen pieces, baked for 30 minutes.',
     kw: ['vegan brownies', 'easy vegan brownies', 'fudgy vegan brownies', 'egg free dairy free brownies', 'vegan chocolate brownies'],
@@ -293,6 +296,7 @@ module.exports = {
   },
 
   'vegan-chocolate-cake': {
+    untimed: ['cooling completely'],
     d: 'A moist, dark chocolate cake made without eggs or dairy, using oat milk, oil and a splash of vinegar.',
     meta: 'Vegan chocolate cake: a moist, dark chocolate cake with oat milk and oil. Twelve slices, baked for 35 minutes.',
     kw: ['vegan chocolate cake', 'easy vegan chocolate cake', 'chocolate cake with oat milk', 'egg free chocolate cake', 'moist vegan chocolate cake'],

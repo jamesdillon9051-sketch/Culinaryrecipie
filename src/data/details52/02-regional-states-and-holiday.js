@@ -91,6 +91,7 @@ module.exports = {
   },
 
   'smith-island-cake': {
+    untimed: ['cooling the layers', 'setting the frosting'],
     d: 'Six thin yellow cake layers sandwiched with a cooked chocolate fudge frosting that soaks into the sponge.',
     meta: 'Smith Island cake: six thin yellow cake layers sandwiched with a cooked chocolate fudge frosting that soaks into the sponge. Twelve servings, cooked for 30 minutes.',
     kw: ['smith island cake', 'smith island cake recipe', 'maryland layer cake with fudge frosting', 'thin layer chocolate cake', 'smith island cake with cooked frosting'],
@@ -323,6 +324,7 @@ module.exports = {
   },
 
   'arkansas-possum-pie': {
+    untimed: ['cooling completely'],
     d: 'A layered pie with a pecan shortbread base, a cream cheese layer, chocolate pudding and whipped cream.',
     meta: 'Arkansas possum pie: a layered pie with a pecan shortbread base, a cream cheese layer, chocolate pudding and whipped cream. Ten servings, chilled for 4 hours.',
     kw: ['arkansas possum pie', 'possum pie recipe', 'layered chocolate pecan pie', 'pecan crust chocolate cream pie', 'possum pie with cream cheese layer'],
@@ -743,6 +745,7 @@ module.exports = {
   },
 
   'turkey-brine': {
+    untimed: ['cooling completely'],
     d: 'A salt and brown sugar brine with bay, peppercorns, orange and herbs, for keeping a whole turkey moist.',
     meta: 'Turkey brine: a salt and brown sugar brine with bay, peppercorns, orange and herbs for a whole turkey. Twelve servings, brined for 12 hours.',
     kw: ['turkey brine', 'turkey brine recipe', 'wet brine for turkey', 'thanksgiving turkey brine', 'brine with orange and herbs for turkey'],

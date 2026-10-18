@@ -367,6 +367,7 @@ module.exports = {
   },
 
   'chicken-wellington': {
+    untimed: ['cooling completely'],
     d: 'Chicken breasts wrapped in prosciutto and a mushroom duxelles, sealed in puff pastry and baked for 35 minutes until golden.',
     meta: 'Chicken Wellington with mushroom duxelles, prosciutto and puff pastry, baked for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['chicken wellington', 'individual chicken wellington', 'chicken in puff pastry', 'mushroom duxelles chicken', 'chicken wellington recipe'],

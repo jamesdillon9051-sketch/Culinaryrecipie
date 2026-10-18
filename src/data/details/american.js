@@ -227,6 +227,7 @@ module.exports = {
   },
 
   'meatloaf': {
+    untimed: ['cooling completely'],
     d: 'A meatloaf that slices cleanly and stays moist, built on a panade and free-formed on a tray rather than steamed in a tin. The tangy glaze goes on in two coats.',
     meta: 'Classic American meatloaf with a milk-bread panade and tangy two-coat glaze. Moist, sliceable, never dense.',
     kw: ['meatloaf recipe', 'classic american meatloaf', 'meatloaf glaze', 'comfort food dinner'],

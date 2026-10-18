@@ -244,6 +244,7 @@ module.exports = {
   },
 
   'pickled-red-cabbage': {
+    untimed: ['cooling completely'],
     d: 'Finely shredded red cabbage, salted overnight and pickled in spiced malt vinegar. The crunchy, sharp, bright magenta pickle of the ploughman\'s lunch.',
     meta: 'Pickled red cabbage: finely shredded red cabbage, salted overnight and pickled in spiced malt vinegar, the crunchy pickle of the ploughman\'s lunch.',
     kw: ['pickled red cabbage', 'british pickled red cabbage', 'homemade pickled red cabbage', 'pickled red cabbage recipe', 'spiced pickled red cabbage'],

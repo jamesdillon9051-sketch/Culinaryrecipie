@@ -64,6 +64,7 @@ module.exports = {
   },
 
   'sujeonggwa': {
+    untimed: ['cooling completely'],
     rest: [360, 'steeping'],
     d: 'Korean cinnamon and ginger punch, simmered dark and served ice cold with soft dried persimmon and pine nuts floating on top.',
     meta: 'Sujeonggwa — Korean cinnamon and ginger punch served cold with dried persimmon.',
@@ -197,6 +198,7 @@ module.exports = {
   },
 
   'sorrel-drink': {
+    untimed: ['cooling to room temperature'],
     rest: [720, 'chilling'],
     d: 'Trinidadian Christmas in a glass: dried sorrel steeped with ginger, clove and orange peel, sweetened and usually spiked with rum.',
     meta: 'Sorrel drink — the Trinidadian Christmas hibiscus drink with ginger, clove and rum.',

@@ -71,7 +71,7 @@ module.exports = {
       '1 tbsp lemon juice'
     ],
     st: [
-      'Toast the pine nuts in a dry pan for 3 minutes, until pale gold. Cool completely.',
+      'Toast the pine nuts in a dry pan for 3 minutes, until pale gold. Tip them onto a cold plate to cool while you pound the garlic.',
       'Pound the garlic and pesto salt to a paste in a mortar.',
       'Add the pine nuts and pound to a rough paste.',
       'Add the basil a handful at a time and grind it against the sides until it breaks down.',
@@ -705,6 +705,7 @@ module.exports = {
   },
 
   'tarta-de-santiago': {
+    untimed: ['cooling completely'],
     d: 'An almond cake with no flour in it, stencilled with the cross of Saint James. Fifty minutes and four ingredients.',
     meta: 'Galician almond cake made with ground almonds, eggs, sugar and citrus zest, baked and dusted through a cross stencil.',
     kw: ['tarta de santiago', 'tarta de santiago recipe', 'spanish almond cake', 'flourless almond cake', 'gluten free almond cake'],

@@ -191,6 +191,7 @@ module.exports = {
   },
 
   'zaalouk': {
+    untimed: ['cooling to room temperature'],
     d: 'Moroccan cooked salad of aubergine and tomato reduced down with garlic, paprika and cumin until it is thick enough to scoop with bread.',
     meta: 'Zaalouk — Moroccan cooked aubergine and tomato salad with paprika, cumin and garlic.',
     kw: ['zaalouk recipe', 'moroccan aubergine salad', 'eggplant tomato dip', 'moroccan salad'],

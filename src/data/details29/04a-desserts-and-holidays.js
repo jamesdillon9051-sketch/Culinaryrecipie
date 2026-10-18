@@ -262,6 +262,7 @@ module.exports = {
   },
 
   'ice-cream-sandwiches': {
+    untimed: ['cooling completely'],
     d: 'Soft double-chocolate cookies sandwiched around thick scoops of vanilla ice cream and frozen until firm. A hot-day treat that beats anything from the van.',
     meta: 'Ice cream sandwiches: soft double-chocolate cookies sandwiched around thick scoops of vanilla ice cream and frozen until firm. A hot-day treat.',
     kw: ['ice cream sandwiches', 'homemade ice cream sandwiches', 'chocolate cookie ice cream sandwiches', 'ice cream sandwiches with cookies', 'how to make ice cream sandwiches'],

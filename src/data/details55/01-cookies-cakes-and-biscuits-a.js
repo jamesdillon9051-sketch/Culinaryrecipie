@@ -49,6 +49,7 @@ module.exports = {
   },
 
   'almond-crescent-cookies': {
+    untimed: ['cooling'],
     d: 'Buttery almond crescents shaped by hand, baked for 15 minutes and rolled twice in icing sugar while still warm.',
     meta: 'Almond crescent cookies, buttery and tender, rolled in icing sugar. 30 cookies, baked for 15 minutes, ready in 1 hour 15 minutes.',
     kw: ['almond crescent cookies', 'almond crescents', 'vanillekipferl style cookies', 'butter almond crescents', 'christmas crescent cookies'],
@@ -326,6 +327,7 @@ module.exports = {
   },
 
   'banana-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Soft banana cupcakes baked for 22 minutes and topped with a swirl of cream cheese frosting and a sprinkle of cinnamon.',
     meta: 'Banana cupcakes with cream cheese frosting, baked for 22 minutes. Twelve servings, ready in 45 minutes.',
     kw: ['banana cupcakes', 'banana cupcakes with cream cheese frosting', 'moist banana cupcakes', 'banana cupcake recipe', 'banana cake cupcakes'],
@@ -436,6 +438,7 @@ module.exports = {
   },
 
   'boston-cream-donuts': {
+    untimed: ['chilling the custard', 'cooling the doughnuts'],
     d: 'Baked donuts filled with vanilla custard and topped with a dark chocolate glaze, baked for 12 minutes instead of fried.',
     meta: 'Boston cream donuts, baked and filled with vanilla custard under chocolate glaze. 12 donuts, baked for 12 minutes.',
     kw: ['boston cream donuts', 'baked boston cream donuts', 'custard filled donuts', 'chocolate glazed donuts with custard', 'boston cream doughnut recipe'],
@@ -574,6 +577,7 @@ module.exports = {
   },
 
   'buttermilk-pie': {
+    untimed: ['cooling completely'],
     d: 'A Southern custard pie with buttermilk, butter and vanilla in a blind-baked pastry case, baked for 50 minutes until set with a golden top.',
     meta: 'Buttermilk pie, a tangy Southern custard pie with a golden top, baked for 50 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['buttermilk pie', 'southern buttermilk pie', 'old fashioned buttermilk pie', 'buttermilk custard pie', 'buttermilk pie recipe'],
@@ -642,6 +646,7 @@ module.exports = {
   },
 
   'cakey-brownies': {
+    untimed: ['cooling completely'],
     d: 'Light, soft brownies with a cake-like crumb and a deep chocolate flavour, baked for 30 minutes and finished with chocolate frosting.',
     meta: 'Cakey brownies with a soft, light crumb and chocolate frosting, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['cakey brownies', 'cake like brownies', 'soft chocolate brownies', 'brownies with frosting', 'light brownies recipe'],
@@ -679,6 +684,7 @@ module.exports = {
   },
 
   'caramel-blondies': {
+    untimed: ['cooling completely'],
     d: 'Chewy brown sugar blondies with ribbons of caramel running through them, baked for 30 minutes and finished with flaky sea salt.',
     meta: 'Caramel blondies, chewy with ribbons of caramel and sea salt, baked for 30 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['caramel blondies', 'salted caramel blondies', 'chewy blondies', 'blondies with caramel', 'brown sugar blondies'],
@@ -712,6 +718,7 @@ module.exports = {
   },
 
   'carrot-cake-loaf': {
+    untimed: ['cooling completely'],
     d: 'A moist spiced carrot loaf with walnuts and sultanas, baked for 55 minutes and topped with cream cheese icing.',
     meta: 'Carrot cake loaf with walnuts and cream cheese icing, baked for 55 minutes. Ten servings, ready in 1 hour 15 minutes.',
     kw: ['carrot cake loaf', 'carrot loaf cake', 'carrot cake in a loaf tin', 'spiced carrot loaf with icing', 'moist carrot cake loaf'],
@@ -816,6 +823,7 @@ module.exports = {
   },
 
   'cheesecake-cupcakes': {
+    untimed: ['cooling'],
     d: 'Mini vanilla cheesecakes baked in a muffin tin on biscuit bases, chilled and topped with fruit.',
     meta: 'Cheesecake cupcakes on biscuit bases, baked for 25 minutes and chilled. 12 servings, ready in 3 hours.',
     kw: ['cheesecake cupcakes', 'mini cheesecakes', 'individual cheesecakes', 'cheesecake in muffin tin', 'mini vanilla cheesecakes'],

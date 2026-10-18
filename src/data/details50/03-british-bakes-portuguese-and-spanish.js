@@ -462,6 +462,7 @@ module.exports = {
   },
 
   'leche-frita': {
+    untimed: ['cooling'],
     d: 'Thick cinnamon-scented custard set in a tray, cut into squares, coated in flour and egg and cooked until golden with a creamy centre.',
     meta: 'Leche frita: thick cinnamon-scented custard set in a tray, cut into squares and cooked until golden with a creamy centre. Six servings, cooked for 15 minutes.',
     kw: ['leche frita', 'leche frita recipe', 'spanish fried milk', 'spanish custard squares', 'leche frita with cinnamon'],
@@ -835,6 +836,7 @@ module.exports = {
   },
 
   'empanada-gallega': {
+    untimed: ['cooling'],
     d: 'A large Galician pie of yeasted dough filled with tuna cooked with onion, peppers and tomato, baked until golden and cut into squares.',
     meta: 'Empanada gallega: a large Galician pie of yeasted dough filled with tuna cooked with onion, peppers and tomato. Eight servings, baked for 45 minutes.',
     kw: ['empanada gallega', 'galician empanada', 'empanada gallega recipe', 'galician tuna pie', 'spanish tuna pie with sofrito'],

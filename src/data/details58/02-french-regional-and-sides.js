@@ -44,6 +44,7 @@ module.exports = {
   },
 
   'tarte-tropezienne': {
+    untimed: ['cooling completely'],
     d: 'A split sugar-topped brioche filled with vanilla crème mousseline, made from an enriched dough that rises for an hour and bakes for 25 minutes.',
     meta: 'Tarte tropézienne, a sugared brioche filled with vanilla cream, baked for 25 minutes. Ten servings, ready in 1 hour 25 minutes plus rising and chilling.',
     kw: ['tarte tropezienne', 'brioche with vanilla cream', 'french cream filled brioche', 'sugar topped brioche cake', 'tropezienne cake'],

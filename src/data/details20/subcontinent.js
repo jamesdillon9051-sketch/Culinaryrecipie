@@ -626,6 +626,7 @@ module.exports = {
   },
 
   'mysore-pak': {
+    untimed: ['cooling completely'],
     d: 'Gram flour cooked with ghee and sugar until it sets porous and melts on contact. Forty-five minutes, and the pour is a race.',
     meta: 'South Indian mysore pak of gram flour cooked with hot ghee and sugar syrup to a porous set, cut while warm.',
     kw: ['mysore pak', 'mysore pak recipe', 'ghee mysore pak', 'south indian sweet', 'besan fudge'],
@@ -695,6 +696,7 @@ module.exports = {
   },
 
   'besan-ladoo': {
+    untimed: ['cooling completely'],
     d: 'Gram flour roasted slowly in ghee until it smells of biscuits, then rolled into balls with sugar. Forty minutes, thirty of them stirring.',
     meta: 'North Indian besan ladoo of gram flour roasted in ghee until nut-brown, mixed with icing sugar and cardamom and rolled into balls.',
     kw: ['besan ladoo', 'besan ladoo recipe', 'gram flour laddu', 'indian sweet balls', 'diwali ladoo'],

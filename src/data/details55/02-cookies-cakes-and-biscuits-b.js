@@ -16,6 +16,7 @@
 
 module.exports = {
   'cherry-turnovers': {
+    untimed: ['cooling completely'],
     d: 'Flaky puff pastry squares filled with a cherry compote, folded into triangles and baked for 22 minutes until risen and golden.',
     meta: 'Cherry turnovers in flaky puff pastry with a cherry filling, baked for 22 minutes. Eight servings, ready in 1 hour 2 minutes.',
     kw: ['cherry turnovers', 'puff pastry cherry turnovers', 'cherry pastry turnovers', 'cherry filled puff pastry', 'cherry turnover recipe'],
@@ -83,6 +84,7 @@ module.exports = {
   },
 
   'chocolate-biscotti': {
+    untimed: ['cooling completely'],
     d: 'Twice-baked Italian cookies with cocoa and chocolate chips, baked as a log for 30 minutes, sliced and crisped for 15 more.',
     meta: 'Chocolate biscotti, twice-baked Italian cookies with chocolate chips, baked for 45 minutes. 24 biscotti, ready in 1 hour 10 minutes.',
     kw: ['chocolate biscotti', 'double chocolate biscotti', 'italian chocolate biscotti', 'twice baked chocolate cookies', 'biscotti for dunking'],
@@ -221,6 +223,7 @@ module.exports = {
   },
 
   'chocolate-macarons': {
+    untimed: ['cooling completely'],
     d: 'Delicate French almond meringue shells flavoured with cocoa and sandwiched with a dark chocolate ganache, baked for 18 minutes.',
     meta: 'Chocolate macarons with a dark chocolate ganache filling, baked for 18 minutes. 24 macarons, ready in 1 hour 40 minutes.',
     kw: ['chocolate macarons', 'french chocolate macarons', 'macarons with ganache', 'chocolate macaron recipe', 'homemade macarons'],
@@ -359,6 +362,7 @@ module.exports = {
   },
 
   'coconut-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light coconut cupcakes made with coconut milk and desiccated coconut, topped with vanilla frosting and toasted coconut flakes.',
     meta: 'Coconut cupcakes with vanilla frosting and toasted coconut, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['coconut cupcakes', 'moist coconut cupcakes', 'coconut cupcakes with frosting', 'coconut milk cupcakes', 'toasted coconut cupcakes'],
@@ -396,6 +400,7 @@ module.exports = {
   },
 
   'cookie-dough-bars': {
+    untimed: ['cooling completely'],
     d: 'A thick chocolate chip cookie base topped with a layer of edible cookie dough and a chocolate glaze, baked for 25 minutes.',
     meta: 'Cookie dough bars with a chewy base, safe cookie dough topping and chocolate, baked for 25 minutes. 16 bars, ready in 1 hour.',
     kw: ['cookie dough bars', 'chocolate chip cookie dough bars', 'edible cookie dough bars', 'cookie bars with chocolate topping', 'cookie dough dessert bars'],
@@ -469,6 +474,7 @@ module.exports = {
   },
 
   'cranberry-pistachio-biscotti': {
+    untimed: ['cooling completely'],
     d: 'Twice-baked Italian biscotti with dried cranberries, pistachios and orange zest, baked for 30 minutes as logs and 15 minutes as slices.',
     meta: 'Cranberry pistachio biscotti with orange zest, baked twice for 45 minutes. 24 biscotti, ready in 1 hour 10 minutes.',
     kw: ['cranberry pistachio biscotti', 'christmas biscotti', 'biscotti with cranberries and pistachios', 'orange cranberry biscotti', 'holiday biscotti recipe'],
@@ -503,6 +509,7 @@ module.exports = {
   },
 
   'cream-cheese-brownies': {
+    untimed: ['cooling'],
     d: 'Fudgy chocolate brownies with a swirl of sweet cream cheese through the batter, baked for 35 minutes.',
     meta: 'Cream cheese brownies with a tangy swirl through a fudgy base, baked for 35 minutes. 16 squares, ready in 1 hour.',
     kw: ['cream cheese brownies', 'cheesecake swirl brownies', 'brownies with cream cheese swirl', 'fudgy cream cheese brownies', 'marbled brownies'],
@@ -675,6 +682,7 @@ module.exports = {
   },
 
   'french-silk-pie': {
+    untimed: ['cooling the crust and the yolk mixture'],
     d: 'A rich chocolate mousse pie on a crushed biscuit crust, made with a cooked egg and chocolate base and lightened with whipped cream.',
     meta: 'French silk pie with a cooked chocolate filling and whipped cream, chilled for 4 hours. Eight servings, ready in 5 hours.',
     kw: ['french silk pie', 'chocolate silk pie', 'chocolate cream pie', 'french silk pie with cooked eggs', 'no raw egg french silk pie'],
@@ -778,6 +786,7 @@ module.exports = {
   },
 
   'funfetti-cupcakes': {
+    untimed: ['cooling completely'],
     d: 'Light vanilla cupcakes speckled with rainbow sprinkles and topped with a swirl of buttercream, baked for 22 minutes.',
     meta: 'Funfetti cupcakes with vanilla buttercream and sprinkles, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
     kw: ['funfetti cupcakes', 'birthday cupcakes with sprinkles', 'rainbow sprinkle cupcakes', 'vanilla funfetti cupcake recipe', 'confetti cupcakes'],
@@ -815,6 +824,7 @@ module.exports = {
   },
 
   'gluten-free-brownies': {
+    untimed: ['cooling completely'],
     d: 'Fudgy dark chocolate brownies made with ground almonds and cocoa instead of flour, baked for 25 minutes with a crackled top.',
     meta: 'Gluten free brownies made with ground almonds and cocoa, baked for 25 minutes. 16 squares, ready in 40 minutes.',
     kw: ['gluten free brownies', 'flourless almond brownies', 'brownies without wheat flour', 'gluten free chocolate brownies', 'ground almond brownies'],

@@ -92,6 +92,7 @@ module.exports = {
   },
 
   'grasmere-gingerbread': {
+    untimed: ['cooling'],
     d: 'A crumbly, chewy, buttery slab of ginger, halfway between a biscuit and a cake, pressed into a tin and baked until golden. A Lake District speciality since the 1850s.',
     meta: 'Grasmere gingerbread: a crumbly, chewy, buttery slab of ginger, half biscuit and half cake, pressed into a tin and baked. A Lake District speciality.',
     kw: ['grasmere gingerbread', 'lake district gingerbread', 'grasmere gingerbread recipe', 'chewy ginger gingerbread squares', 'how to make grasmere gingerbread'],
@@ -209,6 +210,7 @@ module.exports = {
   },
 
   'jaffa-cakes': {
+    untimed: ['cooling completely'],
     d: 'Small whisked sponges topped with a disc of tangy orange jelly and a shell of dark chocolate. A British teatime favourite, and technically a cake.',
     meta: 'Jaffa cakes: small whisked sponges topped with a disc of tangy orange jelly and a shell of dark chocolate. A British teatime favourite, and a cake.',
     kw: ['jaffa cakes', 'homemade jaffa cakes', 'jaffa cakes recipe', 'orange jelly jaffa cakes', 'how to make jaffa cakes'],

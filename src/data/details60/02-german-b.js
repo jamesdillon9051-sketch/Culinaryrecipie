@@ -629,6 +629,7 @@ module.exports = {
   },
 
   'frankfurter-kranz': {
+    untimed: ['cooling'],
     d: 'A ring shaped sponge cake layered with buttercream and jam and coated with caramelised nut brittle, in 1 hour 45 minutes plus chilling.',
     meta: 'Frankfurter Kranz, ring shaped German sponge cake with buttercream, jam and nut brittle, baked for 45 minutes. Twelve servings, ready in 1 hour 45 minutes plus chilling.',
     kw: ['frankfurter kranz', 'frankfurt crown cake', 'german ring cake with buttercream', 'sponge ring with nut brittle', 'frankfurter kranz recipe'],
@@ -669,6 +670,7 @@ module.exports = {
   },
 
   'donauwelle': {
+    untimed: ['cooling the cake and the custard', 'chilling until the chocolate sets'],
     d: 'A marbled chocolate and vanilla sponge with sour cherries, topped with buttercream and dark chocolate glaze, baked for 45 minutes.',
     meta: 'Donauwelle, German marbled sponge tray cake with cherries, buttercream and chocolate, baked for 45 minutes. Sixteen servings, ready in 1 hour 25 minutes plus chilling.',
     kw: ['donauwelle', 'danube wave cake', 'german cherry chocolate tray cake', 'marbled sponge with cherries', 'donauwelle recipe'],
@@ -708,6 +710,7 @@ module.exports = {
   },
 
   'baumkuchen': {
+    untimed: ['cooling the cake completely'],
     d: 'A cake built from thin layers of batter grilled one at a time to show rings, brushed with apricot jam and coated in chocolate.',
     meta: 'Baumkuchen, German layered tree cake of thin batter layers grilled one by one and coated in chocolate, cooked for 60 minutes. Sixteen servings, ready in 1 hour 40 minutes.',
     kw: ['baumkuchen', 'german tree cake', 'layered ring cake with chocolate', 'baumkuchen at home', 'baumkuchen recipe'],
@@ -774,6 +777,7 @@ module.exports = {
   },
 
   'kokosmakronen': {
+    untimed: ['cooling'],
     d: 'Chewy, golden coconut macaroons of desiccated coconut, egg white and sugar, baked for 20 minutes at 170C.',
     meta: 'Kokosmakronen, chewy golden German coconut macaroons, baked for 20 minutes at 170C. Thirty biscuits, ready in 35 minutes.',
     kw: ['kokosmakronen', 'german coconut macaroons', 'chewy coconut macaroons', 'coconut macaroons with egg white', 'kokosmakronen recipe'],
@@ -804,6 +808,7 @@ module.exports = {
   },
 
   'mandelhornchen': {
+    untimed: ['setting'],
     d: 'Almond crescent biscuits of marzipan, sugar and egg white rolled in flaked almonds and dipped in chocolate, baked for 20 minutes.',
     meta: 'Mandelhörnchen, German almond crescents of marzipan rolled in flaked almonds, baked for 20 minutes. Twenty four biscuits, ready in 1 hour 10 minutes.',
     kw: ['mandelhornchen', 'german almond crescents', 'marzipan almond horns', 'almond horn biscuits', 'mandelhoernchen recipe'],

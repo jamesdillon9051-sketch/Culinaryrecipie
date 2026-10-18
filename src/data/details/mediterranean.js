@@ -705,6 +705,7 @@ module.exports = {
   },
 
   'knafeh': {
+    untimed: ['cooling completely'],
     d: 'Shredded pastry over a layer of stretchy cheese, baked until the top is crisp and orange, then soaked in orange-blossom syrup. Served hot, so the cheese pulls when you cut it.',
     meta: 'Knafeh with crisp shredded pastry, molten stretchy cheese and orange-blossom syrup. Serve hot for the cheese pull.',
     kw: ['knafeh recipe', 'kunafa dessert', 'middle eastern cheese dessert', 'orange blossom syrup'],

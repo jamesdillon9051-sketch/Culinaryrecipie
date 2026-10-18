@@ -361,6 +361,7 @@ module.exports = {
   },
 
   'bienenstich': {
+    untimed: ['cooling completely'],
     d: 'A German yeast cake topped with caramelised almonds and split to hold a vanilla cream, risen for 1 hour and baked for 35 minutes.',
     meta: 'Bienenstich, German bee sting cake with caramelised almond top and vanilla cream, baked for 35 minutes. Twelve servings, ready in 1 hour 15 minutes plus rising.',
     kw: ['bienenstich', 'german bee sting cake', 'almond honey cake with cream', 'bienenstich kuchen', 'bee sting cake recipe'],
@@ -819,6 +820,7 @@ module.exports = {
   },
 
   'kasekuchen': {
+    untimed: ['cooling completely'],
     d: 'A tall German baked cheesecake of quark, eggs and lemon in a short pastry case, baked for 70 minutes and cooled slowly.',
     meta: 'Käsekuchen, tall German baked cheesecake of quark and lemon, baked for 70 minutes. Twelve servings, ready in 1 hour 40 minutes plus cooling.',
     kw: ['kasekuchen', 'german cheesecake', 'quark cheesecake', 'kaesekuchen recipe', 'baked german quark cake'],

@@ -464,6 +464,7 @@ module.exports = {
   },
 
   'coronation-chicken': {
+    untimed: ['cooling completely'],
     d: 'Cold chicken in a curried, apricot-sweetened mayonnaise, invented for the 1953 coronation lunch. Ruined by every sandwich shop since and worth reclaiming.',
     meta: 'Poached chicken in a lightly curried mayonnaise with apricot purée, cream and lemon, finished with flaked almonds.',
     kw: ['coronation chicken', 'coronation chicken recipe', 'curried chicken mayonnaise', 'chicken salad british', 'apricot chicken salad'],

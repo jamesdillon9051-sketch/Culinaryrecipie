@@ -440,6 +440,7 @@ module.exports = {
   },
 
   'lemon-granita': {
+    untimed: ['cooling completely'],
     d: 'Icy crystals of sharp lemon syrup, scraped with a fork every half hour as they freeze to a light, snowy texture.',
     meta: 'Lemon granita: icy crystals of sharp lemon syrup, scraped with a fork as they freeze. Six servings, frozen for 4 hours.',
     kw: ['lemon granita', 'lemon granita recipe', 'sicilian lemon granita', 'italian lemon ice', 'easy lemon granita'],

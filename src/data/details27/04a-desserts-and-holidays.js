@@ -48,6 +48,7 @@ module.exports = {
   },
 
   'caramel-corn': {
+    untimed: ['cooling completely'],
     d: 'Popcorn coated in a butter, brown sugar and corn syrup caramel and baked low and slow until every piece is dry, crisp and shiny. It stays crunchy for days.',
     meta: 'Caramel corn: popcorn coated in a butter, brown sugar and corn syrup caramel, then baked low and slow until every piece is dry, crisp and shiny.',
     kw: ['caramel corn', 'baked caramel corn', 'homemade caramel corn', 'crunchy caramel popcorn recipe', 'how to make caramel corn'],

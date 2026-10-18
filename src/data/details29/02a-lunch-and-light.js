@@ -154,7 +154,7 @@ module.exports = {
       'Bring slowly to a boil, then skim off the grey foam that rises to the surface. Reduce the heat to the lowest setting so that the liquid barely bubbles.',
       'Partly cover and simmer very gently for 12 hours, topping up with hot water whenever the bones are no longer covered.',
       'Strain the broth through a fine sieve into a large bowl and discard the bones and vegetables. Skim off any fat from the surface, and season with salt to taste.',
-      'Cool, then pour into jars and store in the fridge. When it is cold, it should set to a jelly.'
+      'Divide between jars or shallow containers so it cools quickly, and refrigerate within 2 hours of straining. When it is cold, it should set to a jelly.'
     ],
     tips: [
       'Never let it boil. A hard boil clouds the broth and emulsifies the fat into it, giving a greasy taste, while a bare simmer keeps it clear.',

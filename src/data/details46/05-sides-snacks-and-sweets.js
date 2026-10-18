@@ -328,6 +328,7 @@ module.exports = {
   },
 
   'fairy-cakes': {
+    untimed: ['cooling completely'],
     d: 'Small, light vanilla sponge cakes baked in paper cases and topped with a thin glacé icing.',
     meta: 'Fairy cakes: small light vanilla sponge cakes baked in paper cases and topped with glacé icing. Twelve cakes, baked for 18 minutes.',
     kw: ['fairy cakes', 'british fairy cakes', 'vanilla fairy cakes', 'fairy cakes with glace icing', 'small sponge cakes'],
@@ -361,6 +362,7 @@ module.exports = {
   },
 
   'chewy-oat-granola-bars': {
+    untimed: ['cooling completely'],
     d: 'Rolled oats, honey, butter and brown sugar pressed into a tin, baked and cut into chewy bars.',
     meta: 'Chewy oat granola bars: rolled oats, honey, butter and brown sugar pressed into a tin and baked. Twelve bars, baked for 25 minutes.',
     kw: ['chewy oat granola bars', 'homemade granola bars', 'oat granola bars with honey', 'chewy granola bars', 'baked oat bars'],

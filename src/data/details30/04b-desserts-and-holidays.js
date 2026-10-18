@@ -75,6 +75,7 @@ module.exports = {
   },
 
   'mississippi-mud-pie': {
+    untimed: ['cooling completely'],
     d: 'A chocolate cookie crust filled with a dark, gooey, fudgy chocolate and pecan filling, topped with whipped cream and chocolate shavings.',
     meta: 'Mississippi mud pie: a chocolate cookie crust filled with a dark, gooey, fudgy chocolate and pecan filling, topped with whipped cream and shavings.',
     kw: ['mississippi mud pie', 'chocolate mud pie', 'classic mississippi mud pie', 'mississippi mud pie recipe', 'how to make mississippi mud pie'],
@@ -180,6 +181,7 @@ module.exports = {
   },
 
   'clotted-cream': {
+    untimed: ['cooling to room temperature'],
     d: 'Double cream baked very slowly for twelve hours, then chilled, until it forms a thick, golden, nutty crust. The rich cream that goes on a Devon or Cornish cream tea.',
     meta: 'Clotted cream: double cream baked very slowly for twelve hours, then chilled, until it forms a thick, golden, nutty crust. The cream for a cream tea.',
     kw: ['clotted cream', 'homemade clotted cream', 'how to make clotted cream', 'clotted cream in the oven', 'devon clotted cream'],

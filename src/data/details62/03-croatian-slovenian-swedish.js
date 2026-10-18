@@ -157,6 +157,7 @@ module.exports = {
   },
 
   'kremsnita': {
+    untimed: ['cooling completely'],
     d: 'A Croatian cream slice of crisp puff pastry layered with vanilla custard and whipped cream, chilled for 1 hour.',
     meta: 'Kremšnita, Croatian vanilla cream slice with puff pastry and whipped cream, baked for 25 minutes. Twelve servings, ready in 1 hour 5 minutes plus chilling.',
     kw: ['kremsnita', 'croatian cream slice', 'samobor kremsnita', 'vanilla custard and cream pastry', 'kremšnita recipe'],
@@ -617,6 +618,7 @@ module.exports = {
   },
 
   'semla': {
+    untimed: ['cooling completely'],
     d: 'Swedish cardamom buns split and filled with almond paste and whipped cream, the Shrove Tuesday treat, in 1 hour 5 minutes plus rising.',
     meta: 'Semla, Swedish cardamom buns filled with almond paste and whipped cream, baked for 20 minutes. Ten servings, ready in 1 hour 5 minutes plus rising.',
     kw: ['semla', 'swedish semla buns', 'cream and almond paste buns', 'fettisdagsbulle', 'semla recipe'],

@@ -159,6 +159,7 @@ module.exports = {
   },
 
   'apple-turnovers': {
+    untimed: ['cooling completely'],
     d: 'Squares of puff pastry folded over a cinnamon apple filling and baked until they puff, flake and turn golden. Forty-five minutes.',
     meta: 'Apple turnovers: flaky puff pastry folded over a spiced, lightly cooked apple filling, glazed and baked until puffed and golden. Ready in 45 minutes.',
     kw: ['apple turnovers', 'apple turnovers recipe', 'puff pastry apple turnovers', 'flaky apple turnovers', 'homemade apple turnovers'],

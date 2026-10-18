@@ -138,6 +138,7 @@ module.exports = {
   },
 
   'twice-cooked-pork': {
+    untimed: ['cooling completely'],
     rest: [120, 'chilling'],
     d: 'Sichuan\'s huiguorou: pork belly simmered whole, cooled, sliced paper-thin and returned to a searing wok with doubanjiang and leeks until the edges curl into little cups. The definitive Sichuan home dish.',
     meta: 'Sichuan twice-cooked pork (huiguorou) — simmered then stir-fried belly with fermented bean paste and leeks.',
