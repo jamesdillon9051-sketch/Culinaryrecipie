@@ -30,7 +30,8 @@
     "humanize": "node tools/humanize.js",
     "selftest": "node tools/humanize-selftest.js",
     "contact-test": "node tools/contact-test.js",
-    "contact-browser-test": "node tools/contact-browser-test.js"
+    "contact-browser-test": "node tools/contact-browser-test.js",
+    "site-browser-test": "node tools/site-browser-test.js"
   },
   "keywords": [
     "recipes",

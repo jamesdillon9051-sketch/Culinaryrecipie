@@ -261,7 +261,9 @@
   $$('[data-filter]').forEach(function (input) {
     var key = input.dataset.filter;
     var value = input.value;
-    if (state[key] && state[key].indexOf(value) !== -1) input.checked = true;
+    /* state.time is a number, not a list: a shared "?time=30" link used to throw here and leave
+       the whole directory unpainted. */
+    if (Array.isArray(state[key]) && state[key].indexOf(value) !== -1) input.checked = true;
     if (key === 'time' && state.time === parseInt(value, 10)) input.checked = true;
 
     input.addEventListener('change', function () {
