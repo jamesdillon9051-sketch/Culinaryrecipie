@@ -69,10 +69,10 @@ module.exports = {
   },
 
   'protein-shake': {
-    d: 'Greek yoghurt, milk, banana, oats, peanut butter and cocoa blended into a thick chocolate shake with about 35 g of protein and no powder.',
-    meta: 'Protein shake: Greek yoghurt, milk, banana, oats, peanut butter and cocoa blended thick, with about 35 g of protein and no protein powder needed.',
+    d: 'Greek yoghurt, milk, banana, oats, peanut butter and cocoa blended into a thick chocolate shake with about 32 g of protein and no powder.',
+    meta: 'Protein shake: Greek yoghurt, milk, banana, oats, peanut butter and cocoa blended thick, with about 32 g of protein and no protein powder needed.',
     kw: ['protein shake', 'high protein shake', 'protein shake without powder', 'chocolate peanut butter protein shake', 'how to make a protein shake'],
-    why: 'Most protein shakes are powder and water, and they taste of chalk. This one gets its protein from ordinary food. Fat-free Greek yoghurt has about 10 g of protein in every 100 g, milk adds another 8 g in a glass, and the oats and peanut butter add several more, which together come to about 35 g in a single glass with no powder at all. At about 570 kcal it is a small meal in a glass and not a light snack. The banana sweetens and thickens it, the cocoa gives it a chocolate flavour, and the oats add fibre and slow the way the drink is digested, so it keeps you full for longer. They need a full minute in the blender to break down completely, or the shake is gritty. If you use protein powder, one scoop of whey or pea protein can go in alongside the yoghurt for a shake with more than 50 g of protein, and it needs a splash more milk to keep it pourable.',
+    why: 'Most protein shakes are powder and water, and they taste of chalk. This one gets its protein from ordinary food. Fat-free Greek yoghurt has about 10 g of protein in every 100 g, milk adds another 8 g in a glass, and the oats and peanut butter add several more, which together come to about 32 g in a single glass with no powder at all. At about 680 kcal it is a meal in a glass and not a light snack. The banana sweetens and thickens it, the cocoa gives it a chocolate flavour, and the oats add fibre and slow the way the drink is digested, so it keeps you full for longer. They need a full minute in the blender to break down completely, or the shake is gritty. If you use protein powder, one scoop of whey or pea protein can go in alongside the yoghurt for a shake with well over 50 g of protein, and it needs a splash more milk to keep it pourable.',
     ing: [
       '250 ml semi-skimmed milk',
       '150 g fat-free Greek yoghurt',

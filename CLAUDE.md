@@ -70,8 +70,8 @@ c(slug, title, cuisine, category, difficulty, prepMin, cookMin, servings, rating
 | `tips` | 2 to 5 practical tips | `**bold**` allowed, at most 2 spans across all tips. |
 | `pair` | 2 to 6 short serving suggestions | |
 | `store` | The storage note | Shelf lives are the recipe's own and are not invented. |
-| `nut` | `[kcal, protein g, carbs g, fat g, fibre g, sugar g, sodium mg]` per serving | Seven values. Calories must match the macros (`npm run nutrition`). In volumes 32 to 34 it is computed from `ing` by `npm run calc` (section 9). The page says "worked out from the ingredient list" only where the calculator reproduces the figures, and "an estimate made when the recipe was written" everywhere else (`nutritionSource` in `src/build.js`). |
-| `kp` | Optional `[potassium mg, phosphorus mg]` per serving | Estimates, kept up to date by `npm run calc` wherever present (volume 34), printed as "(est.)" beside the nutrition table. |
+| `nut` | Legacy: `[kcal, protein g, carbs g, fat g, fibre g, sugar g, sodium mg]` | Optional, and **not printed**. The page's figures are computed from `ing` on every build (section 9); a figure typed here has no effect. |
+| `kp` | Optional; its presence asks for `[potassium mg, phosphorus mg]` to be printed | The values printed are computed, like the rest, and marked "(est.)". |
 | `rest` | Optional `[minutes, 'Label']` for unattended waiting (proving, chilling) | The build reads the waiting from the method itself (`src/lib/timing.js`, as a floor and a ceiling: "12 to 24 hours", "overnight"). `rest` is optional; when given, its minutes must equal the detected floor (`npm run timing`). Every time a reader sees (cards, titles, descriptions, keywords, `totalTime`) is the elapsed time, waiting included. A `meta` that says "ready in N minutes" must name the wait ("plus rising"). |
 | `layout`, `headings` | Optional, see section 4.2 | Usually written only by the rewrite pipeline. |
 
@@ -292,20 +292,31 @@ The October 2026 audit settled the two decisions that used to be here: the synth
 2. **Health labels.** Withdrawn pending review by a registered dietitian (section 9). Reinstating any of them is the owner's call, after that review.
 3. **Contact form.** `contact/send.php` needs a config file outside `public_html` naming the inbox (see `tools/contact-config.example.php` and README, "Deploying"). Until it exists the form says, truthfully, that nothing was sent.
 4. **What gets deployed.** The whole repository is in the web root; `.htaccess` refuses the private paths, but deploying only the built site is the real fix (README, "Deploying").
-5. **Search Console and analytics.** Any claim about traffic or indexing needs the owner's exports (Performance, Pages, Crawl stats); none were available to the audit.
+5. **"No Added Sugar".** The derived tag and filter keep that name; it resembles a regulated claim in some markets. Rename, keep, or drop it.
+6. **Search Console and analytics.** Any claim about traffic or indexing needs the owner's exports (Performance, Pages, Crawl stats); none were available to the audit.
 
 ## 9. Health labels (withdrawn) and the nutrition calculator
 
 Volumes 32 to 34 carried three hand-written tags, **Diabetes-Friendly**, **Weight-Loss Friendly** and **Kidney-Friendly**, each held to numeric limits in `src/lib/health.js`. They were **withdrawn in October 2026**. Each named a condition or an outcome rather than the dish, which makes it a claim that the dish suits a person; the potassium and phosphorus figures behind the kidney label come from a food table written for this site; and no dietitian has reviewed any of it. A disclaimer beside such a label does not substitute for that review.
 
 - No recipe carries them, `DIET_TAGS` does not offer them as filters, the Recipe JSON-LD no longer emits `DiabeticDiet` (nor `LowCalorieDiet`, `LowFatDiet` or `LowSaltDiet`, which were thresholds of the site's own), and `npm run health` fails if one comes back. The limits stay in `src/lib/health.js`, unused, so a reviewer can see exactly what the labels stood for.
-- Their search phrases were replaced with the numbers the pages print: "no added sugar …" (volume 32), "… under 400 calories" (volume 33), "no added salt …" or "high protein …" (volume 34). `npm run keywords` checks each against the record.
-- `npm run health` now holds: no withdrawn label; no outcome promise in any recipe; the volumes whose nutrition is computed still reproduce it; volume 34 still protein-rich.
+- Their search phrases were replaced with the numbers the pages print ("… under 400 calories", "high protein …"); the "no added sugar …" and "no added salt …" phrases that also replaced them were removed in October 2026 as regulated wording. `npm run keywords` checks each against the record.
+- `npm run health` now holds: no withdrawn label; no outcome promise in any recipe; volumes 32 to 34 still read in full. The volume-34 protein brief is reported, not enforced: with USDA figures some fish come out leaner.
 
-**Writing a recipe whose nutrition is calculated**
+**How the nutrition figures are made (October 2026)**
 
-1. Write `ing` in the shape the calculator reads: `<quantity> <unit> <food>[, preparation]`, metric first, an amount on every line except pepper, one food per line, and drained or cooked weights in grams rather than tins or cups. Say "unsalted stock" if it is, and give the salt as a measure. `npm run calc -- --slug <slug> --lines` shows how each line was read; a line it cannot read is a failure, not a zero.
-2. Run `npm run calc -- --volume N --write`. It fills `nut` (and `kp` where a recipe already prints it) from the ingredient list. Do not type nutrition by hand into a calculated recipe; the audit fails if it differs from what the ingredients add up to.
-3. `tools/nutrition-foods.js` is the food table, written from memory of standard composition tables and good to about 10 per cent. Add a food there rather than rewording a line to dodge a mismatch.
-4. Where a recipe is sweetened with erythritol or another sweetener that is not absorbed, the table counts it as no carbohydrate and the recipe says so beside its figures.
+The build runs `tools/nutrition-calc.js` on every recipe's `ing` and prints only what it computes. The food table (`tools/nutrition-foods.js`) is overlaid by `tools/nutrition-sources.json`, which records for every food a status: `usda` (an SR Legacy entry named by NDB number; USDA FoodData Central, April 2018, public domain), `proxy` (the nearest named SR entry, e.g. dry breadcrumbs for panko), `zero`, `generic` (an unnamed "spice") or `unverified` (the old hand-written figure, no source). Per-item weights ("2 onions") count as sourced only when an SR portion confirms them. Every recipe gets a tier:
+
+- **1, calculated**: every line read, at most 5% of the energy from unsourced foods or weights, and no assumption that moves the sum. Only these go into the Recipe JSON-LD, decide High-Protein, Low-Carb and Keto, and may feed a snippet or a search phrase with a number.
+- **2, approximate**: readable, but the page names what it rests on (marinade counted in full, bone-in weights, a drained tin at full weight, an unquantified ingredient, unsourced foods, alcohol in a cooked dish).
+- **3, none**: unreadable lines, deep-frying (the oil taken up is unknowable), or mostly unsourced. No figures, no schema.
+
+Prose may quote a nutrition number only on a tier-1 recipe and only if it matches (2 g, 15 kcal); `npm run nutrition` fails otherwise. Search phrases state numbers ("under 400 calories", "high protein" at 30 g) and never regulated wording ("low fat", "light", "no added salt", "no added sugar", "high fibre"); `npm run keywords` refuses those outright.
+
+**Writing a recipe whose nutrition should be calculated**
+
+1. Write `ing` in the shape the calculator reads: `<quantity> <unit> <food>[, preparation]`, metric first, an amount on every line except pepper, one food per line, and weights in grams. A tin may be written "1 tin (400 g) chopped tomatoes"; a drained tin is counted at the stated weight, so give the drained weight in grams if you know it. Say "unsalted stock" if it is, and give the salt as a measure. `npm run calc -- --slug <slug> --lines` shows how each line was read, its source status and the tier.
+2. Do not type `nut`. If a food is missing, add it to `tools/nutrition-foods.js` with its SR Legacy NDB number recorded in `tools/nutrition-sources.json` (status `usda`), or as `unverified` if there is no SR entry. Never invent a figure to lift a recipe's tier.
+3. Where a recipe is sweetened with erythritol or another sweetener that is not absorbed, the table counts it as no carbohydrate and the recipe says so beside its figures.
+4. The "No Added Sugar" tag is derived from ingredient names, including compound foods that contain sugar (ketchup, biscuits, mirin…). Whether to keep that wording, which resembles a regulated labelling claim in the UK, EU and Australia, is the owner's decision (section 8).
 5. Nothing in the prose may promise an outcome (section 4.3).

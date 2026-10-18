@@ -90,24 +90,20 @@ const CLAIMS = [
   { claim: 'one pan', when: /\bone pan\b|\bone pot\b/, ok: r => steps(r).onePan },
   { claim: 'boiled', when: /\bboiled\b/, ok: r => steps(r).boil },
 
-  /* Nutrition, off the per-serving figures the page prints. */
-  { claim: 'low calorie', when: /\blow calorie\b/, ok: r => r.nutrition[0] < 400 },
-  /* "light" is only a calorie claim when it stands alone after the dish name
-     is taken out. "light soy sauce" and "light brown sugar" are ingredients. */
-  { claim: 'light', when: /^\s*light\s*$/, ok: r => r.nutrition[0] < 400 },
-  { claim: 'under n calories', when: /\bunder (\d+) (?:calories|kcal)\b/, ok: (r, m) => r.nutrition[0] < Number(m[1]) },
-  { claim: 'under n mg sodium', when: /\bunder (\d+) ?mg sodium\b/, ok: (r, m) => r.nutrition[6] < Number(m[1]) },
-  /* Nothing on the ingredient list that is salt or a salty condiment, stock or cheese. */
-  { claim: 'no added salt', when: /\bno added salt\b|\bsalt free\b/,
-    ok: r => !r.ingredients.filter(l => !String(l).startsWith('# ')).some(l =>
-      /\b(?:salt|soy sauce|tamari|fish sauce|miso|stock cubes?|bouillon|stock|broth|worcestershire|parmesan|feta|bacon)\b/i.test(l) &&
-      !/unsalted|no[- ]salt|salt[- ]free|no added salt/i.test(l)) },
+  /* Nutrition, off the per-serving figures the page prints, and only where
+     they are a documented (tier-1) calculation (tools/nutrition-calc.js).
+     A phrase states a number the page prints. Words whose meaning food-
+     labelling law fixes, differently in each country ("low fat", "light",
+     "no added salt", "no added sugar", "high fibre"), are refused outright:
+     a calculated recipe cannot be shown to meet any of those definitions. */
+  { claim: 'regulated nutrition wording', when: /\blow (?:calorie|fat|sugar|sodium|salt)\b|^\s*light\s*$|\bno added (?:salt|sugars?)\b|\bsalt free\b|\bsugar free\b|\bhigh fibre\b|\bhigh fiber\b/,
+    ok: () => false },
+  { claim: 'under n calories', when: /\bunder (\d+) (?:calories|kcal)\b/,
+    ok: (r, m) => r.nutritionTier === 1 && r.nutrition[0] < Number(m[1]) },
+  { claim: 'under n mg sodium', when: /\bunder (\d+) ?mg sodium\b/,
+    ok: (r, m) => r.nutritionTier === 1 && r.sodiumReliable && r.nutrition[6] < Number(m[1]) },
   { claim: 'high protein', when: /\bhigh protein\b/,
-    ok: r => r.nutrition[1] >= 30 || r.tags.includes('High-Protein') },
-  { claim: 'high fibre', when: /\bhigh fibre\b/, ok: r => r.nutrition[4] >= 8 },
-  { claim: 'low fat', when: /\blow fat\b/, ok: r => r.nutrition[3] <= 10 },
-  { claim: 'low sugar', when: /\blow sugar\b/, ok: r => r.nutrition[5] <= 5 },
-  { claim: 'low sodium', when: /\blow sodium\b/, ok: r => r.nutrition[6] <= 400 },
+    ok: r => r.nutritionTier === 1 && r.nutrition[1] >= 30 },
 
   /* Questions the page has to be able to answer. */
   { claim: 'freezing', when: /\bfreeze\b|\bfreezing\b/, ok: r => /freez/i.test(r.storage) },

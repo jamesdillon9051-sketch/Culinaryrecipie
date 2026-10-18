@@ -14,7 +14,7 @@ module.exports = {
   'balsamic-chicken-with-mushrooms': {
     d: 'Thin chicken cutlets seared and finished in a glossy balsamic and mushroom pan sauce, with no flour or added sugar. Four servings in 35 minutes.',
     meta: 'Balsamic chicken with mushrooms: seared chicken cutlets in a reduced balsamic and garlic pan sauce, ready in 35 minutes. Serves four.',
-    kw: ['balsamic chicken with mushrooms', 'no added sugar balsamic chicken', 'gluten free balsamic chicken', 'dairy free chicken dinner', 'easy balsamic chicken recipe'],
+    kw: ['balsamic chicken with mushrooms', 'gluten free balsamic chicken', 'dairy free chicken dinner', 'easy balsamic chicken recipe'],
     why: 'Chicken breast, mushrooms, garlic and balsamic vinegar: that is the core of it. It makes a sauce glossy enough to coat a spoon, with no flour and no sugar added. The order matters more than the ingredients. Sear the chicken first so it leaves browned bits behind, cook the mushrooms in the same pan until their liquid has gone, and only then add the vinegar.\n\nSlicing each breast into thin cutlets is the other half of the trick. Thin pieces cook through in about 4 minutes a side, so the outside browns before the inside dries out. **Reduce the sauce by half** and it clings to the chicken. Stop too soon and it pools thin. A splash of stock keeps the vinegar from turning harsh.\n\nBalsamic is sharp and sweet at once. Reduced, it tastes rounder than it does from the bottle. Finish with parsley for a fresh note and serve with a green vegetable or a salad.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -47,7 +47,7 @@ module.exports = {
   'parmesan-crusted-chicken': {
     d: 'Chicken cutlets coated in Parmesan and ground almonds and baked until golden, with no breadcrumbs or flour. Four servings in 32 minutes.',
     meta: 'Parmesan-crusted chicken without breadcrumbs: cutlets dipped in egg, coated in Parmesan and ground almonds and baked. Serves four.',
-    kw: ['parmesan crusted chicken', 'gluten free parmesan chicken', 'no added sugar chicken dinner', 'baked parmesan chicken breast', 'easy parmesan crusted chicken'],
+    kw: ['parmesan crusted chicken', 'gluten free parmesan chicken', 'baked parmesan chicken breast', 'easy parmesan crusted chicken'],
     why: 'A weeknight dinner for four that needs one tray, a shallow dish and 32 minutes. The crust is Parmesan and ground almonds rather than breadcrumbs, so it is crisp, savoury and gluten free, with very little carbohydrate. Egg and mustard glue it on.\n\nThin cutlets matter here. A whole breast takes so long to cook that the crust darkens too far, while a cutlet is done at about the moment the top turns golden. **Pat the chicken dry first**, because a wet surface steams the coating loose. Press the mixture on firmly with your palm and leave the cutlets a little apart on the tray, so hot air reaches every side. Resting the cutlets for 3 minutes after baking lets the crust set, so it stays crisp when you cut it.\n\nParmesan is salty, so the recipe adds no salt of its own. Taste before adding any. Serve with lemon wedges and a bowl of roasted vegetables or a crisp salad.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -79,7 +79,7 @@ module.exports = {
   'spinach-and-feta-stuffed-chicken-breast': {
     d: 'Chicken breasts with a pocket of garlicky spinach and feta, seared and finished in the oven, with no breadcrumbs. Four servings in 50 minutes.',
     meta: 'Spinach and feta stuffed chicken breast: a garlicky spinach and feta filling in a pocket cut into each breast, seared and baked. Serves four.',
-    kw: ['spinach and feta stuffed chicken breast', 'no added sugar stuffed chicken', 'gluten free stuffed chicken breast', 'greek stuffed chicken with spinach and feta', 'baked stuffed chicken breast'],
+    kw: ['spinach and feta stuffed chicken breast', 'gluten free stuffed chicken breast', 'greek stuffed chicken with spinach and feta', 'baked stuffed chicken breast'],
     why: 'The usual way stuffed chicken goes wrong is that the filling leaks into the pan and leaves the meat dry. Two habits fix that. Squeeze the cooked spinach in a sieve until it stops dripping, and close each pocket with a toothpick or two.\n\nCut the pocket from the thick side, deep but not through. Do not cut through. A breast of ordinary size has room for a generous spoonful without tearing. **Sear before you bake**: 3 minutes a side builds colour, and the oven then finishes the middle gently so the outside does not toughen. The feta is salty enough that the filling needs no extra salt.\n\nLemon zest and juice keep the filling bright. Rest the chicken for 5 minutes before you slice, so the juices settle. Serve it in thick slices, filling side up, with a tomato and cucumber salad. Any filling that escapes into the pan makes a good sauce, so spoon it over the slices.',
     ing: [
       '700 g skinless chicken breast, in 4 portions',
@@ -113,7 +113,7 @@ module.exports = {
   'cilantro-lime-chicken': {
     d: 'Chicken cutlets marinated briefly in lime, cilantro, garlic and cumin, then seared in a hot pan. Four servings in 25 minutes.',
     meta: 'Cilantro lime chicken: cutlets in a fresh lime, garlic and cilantro marinade, seared in a hot pan in 25 minutes. Dairy free and gluten free.',
-    kw: ['cilantro lime chicken', 'no added sugar cilantro lime chicken', 'gluten free lime chicken', 'dairy free chicken dinner with lime', 'quick cilantro lime chicken breast'],
+    kw: ['cilantro lime chicken', 'gluten free lime chicken', 'dairy free chicken dinner with lime', 'quick cilantro lime chicken breast'],
     why: 'Slice the breasts into thin cutlets before they go anywhere near the marinade. Thin cutlets cook through in about 5 minutes a side, which is fast enough for a weeknight and gentle enough that the meat stays juicy. Lime does two jobs here. It flavours the chicken, and its acid softens the surface.\n\nTen minutes in the marinade is enough. **Do not marinate for hours**: lime juice turns the outside of chicken chalky and dry if it sits too long. Lift the meat out and let the excess run off before it meets the pan, because a wet surface steams instead of browning. A hot pan and a patient flip give the chicken dark, savoury edges.\n\nCumin and chilli add warmth, not fire. Slice the cooked chicken across the grain and serve it over salad leaves, with cauliflower rice or in lettuce cups. Leftovers are good cold in a lunchbox salad.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -146,7 +146,7 @@ module.exports = {
   'chicken-florentine': {
     d: 'Seared chicken cutlets in a creamy Parmesan and spinach sauce made with half-and-half, with no flour. Four servings in 35 minutes.',
     meta: 'Chicken Florentine without flour: seared chicken breast in a garlicky half-and-half, Parmesan and spinach sauce. Four servings in 35 minutes.',
-    kw: ['chicken florentine', 'no added sugar chicken florentine', 'gluten free chicken florentine', 'creamy spinach chicken', 'chicken in parmesan spinach sauce'],
+    kw: ['chicken florentine', 'gluten free chicken florentine', 'creamy spinach chicken', 'chicken in parmesan spinach sauce'],
     why: 'Spinach wilts to almost nothing, so the pan looks far too full when the first handful goes in, but it collapses within about 2 minutes of stirring. Stir, and it melts away. The sauce ends up green-flecked and savoury, thickened by reduction rather than flour, with enough body to coat each cutlet in a thin, even layer.\n\nReduce the stock before the half-and-half goes in, which concentrates the chicken flavour and leaves less liquid to thicken. Then the dairy only has to be warmed through. **Keep the heat low** from there, because a hard boil curdles it. Gentle heat is the rule from here. A squeeze of lemon at the end cuts the richness and wakes the sauce up.\n\nHalf-and-half gives a lighter sauce than double cream. It still coats the back of a spoon. Serve the chicken with the sauce spooned over, alongside steamed broccoli or green beans. Any extra sauce is good stirred through steamed vegetables.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -180,7 +180,7 @@ module.exports = {
   'chicken-francese': {
     d: 'Egg-coated chicken cutlets fried until golden and finished in a lemon, white wine and butter sauce. Four servings in 35 minutes.',
     meta: 'Chicken francese: thin cutlets in a light flour and egg coating, pan-fried and served in a lemon, white wine and butter sauce. Serves four.',
-    kw: ['chicken francese', 'no added sugar chicken francese', 'lemon butter chicken cutlets', 'chicken francese with white wine', 'chicken in lemon white wine sauce'],
+    kw: ['chicken francese', 'lemon butter chicken cutlets', 'chicken francese with white wine', 'chicken in lemon white wine sauce'],
     why: 'The egg coating slides off cutlets that go into the pan wet. Pat the chicken dry, flour it lightly, and shake off every spare dusting; then dip it in the egg and lay it straight into the oil. That order holds the coating on.\n\nFrancese is a light dish. The flour is only a dusting, and the egg puffs around the chicken into a soft golden jacket. **Fry in batches** so the pan stays hot and the pieces do not steam. Keep the heat at medium so the egg sets without scorching. The sauce is wine, stock and lemon reduced by half, then taken off the boil and finished with cold butter so it turns glossy instead of greasy.\n\nSlices of lemon simmered in the sauce soften and mellow, and they look as good as they taste. Serve straight away. The coating is at its best in the first few minutes, before the sauce has time to soften it.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -215,7 +215,7 @@ module.exports = {
   'slow-cooker-salsa-chicken': {
     d: 'Chicken breast cooked low and slow in salsa and spices until it shreds with a fork. Six servings, with 5 minutes of work and 6 hours in the slow cooker.',
     meta: 'Slow cooker salsa chicken: chicken breast, salsa and spices cooked low for 6 hours, then shredded. Six servings with 5 minutes of prep.',
-    kw: ['slow cooker salsa chicken', 'no added sugar slow cooker chicken', 'gluten free salsa chicken', 'dairy free shredded chicken', 'easy slow cooker salsa chicken'],
+    kw: ['slow cooker salsa chicken', 'gluten free salsa chicken', 'dairy free shredded chicken', 'easy slow cooker salsa chicken'],
     why: 'Choose a salsa you would happily eat from the jar with a spoon, because it is both the sauce and most of the seasoning here. A tomato-based salsa with some body and a medium heat works best. Check the label. Some jars add sugar, and this recipe does not need it.\n\nThe slow cooker does the rest. Six hours on low turns lean chicken breast tender enough to shred, and the salsa thins into a light, spicy sauce as the chicken gives up its juices. **Do not lift the lid** early; every peek lets out heat and adds time. Shred the chicken in the pot or on a board, then stir it back through the liquid so every strand is coated.\n\nLime and cilantro go in at the end, because heat dulls them. Spoon the chicken into lettuce cups, over cauliflower rice or on top of a salad. Leftovers make a good lunch.',
     ing: [
       '900 g skinless chicken breast',
@@ -247,7 +247,7 @@ module.exports = {
   'chicken-and-broccoli-stir-fry': {
     d: 'Sliced chicken and broccoli stir-fried in a garlic, ginger and soy sauce, thickened with a little cornflour. Four servings in 27 minutes.',
     meta: 'Chicken and broccoli stir-fry: sliced chicken breast and broccoli in a garlic, ginger and reduced-sodium soy sauce, ready in 27 minutes.',
-    kw: ['chicken and broccoli stir fry', 'no added sugar chicken stir fry', 'dairy free chicken and broccoli', 'quick chicken and broccoli stir fry', 'easy chicken broccoli stir fry with ginger'],
+    kw: ['chicken and broccoli stir fry', 'dairy free chicken and broccoli', 'quick chicken and broccoli stir fry', 'easy chicken broccoli stir fry with ginger'],
     why: 'Chicken, broccoli, garlic and ginger, cooked in a very hot pan for 12 minutes: that is dinner. Nothing else is needed. The sauce is soy, stock and a spoonful of cornflour, with no added sugar, and it turns glossy the moment it boils.\n\nSlice the chicken thinly across the grain, so each piece is tender and cooks in minutes. Heat is the whole technique. **Cook the chicken in one layer**, in a pan that is properly hot, or it steams grey instead of browning. If your pan is small, cook it in two batches. The broccoli should stay bright green and keep a little bite.\n\nReduced-sodium soy sauce keeps the salt down, and the stock fills the gap. Taste before adding more soy. The sauce concentrates as it thickens. Serve over cauliflower rice or on its own. Eat it straight from the pan while the broccoli is still bright green; it softens and dulls the longer it sits.',
     ing: [
       '450 g skinless chicken breast, sliced thinly across the grain',
@@ -282,7 +282,7 @@ module.exports = {
   'pesto-chicken-bake': {
     d: 'Chicken breasts baked under pesto, cherry tomatoes and mozzarella in one dish, with no breadcrumbs or pasta. Four servings in 35 minutes.',
     meta: 'Pesto chicken bake: chicken breast, pesto, cherry tomatoes and mozzarella baked in one dish, ready in 35 minutes. Four servings.',
-    kw: ['pesto chicken bake', 'no added sugar pesto chicken', 'gluten free pesto chicken bake', 'baked pesto chicken with tomatoes and mozzarella', 'easy pesto chicken bake'],
+    kw: ['pesto chicken bake', 'gluten free pesto chicken bake', 'baked pesto chicken with tomatoes and mozzarella', 'easy pesto chicken bake'],
     why: 'A one-dish dinner for four, made on a weeknight with 10 minutes of work and a hot oven. The pesto does the seasoning, the tomatoes burst into a quick sauce and the mozzarella melts over the top. Nothing needs stirring.\n\nPesto is already salty and rich, so the chicken needs only pepper. Read the label on a jarred one. Salt levels vary a lot. Spreading a spoonful over each piece before baking means the oil in the pesto bastes the meat as it cooks, which helps lean chicken breast stay moist in the heat of the oven. **Add the mozzarella late**, for the last 10 minutes, or it browns too hard and turns rubbery.\n\nCherry tomatoes collapse into a loose, juicy sauce that is worth spooning over the chicken. Serve with a green salad or steamed broccoli. Fresh basil goes on last. Use the ripest tomatoes you can find; they give the most juice. Leftovers are good cold, sliced over a salad.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -312,7 +312,7 @@ module.exports = {
   'bruschetta-chicken': {
     d: 'Seared chicken cutlets topped with a fresh tomato, basil and garlic mixture and melted mozzarella, with no bread. Four servings in 40 minutes.',
     meta: 'Bruschetta chicken without the bread: seared chicken cutlets under tomato, basil, garlic and balsamic, melted with mozzarella. Four servings.',
-    kw: ['bruschetta chicken', 'no added sugar bruschetta chicken', 'gluten free bruschetta chicken', 'baked tomato basil mozzarella chicken', 'easy bruschetta chicken bake'],
+    kw: ['bruschetta chicken', 'gluten free bruschetta chicken', 'baked tomato basil mozzarella chicken', 'easy bruschetta chicken bake'],
     why: 'Make this when tomatoes are at their best, in the warm months. There is nothing to hide behind. The topping is raw tomato, garlic, basil and a splash of balsamic, spooned over seared chicken and melted under mozzarella, so it tastes like bruschetta minus the toast. Out of season, use cherry tomatoes, which hold their flavour better.\n\nDice the tomatoes small and let them stand with the garlic and vinegar while the chicken sears; the salt draws out juice that becomes the sauce. **Drain off excess liquid** if the bowl looks watery, or the chicken will boil under its topping rather than roast. Sear first for colour. Twelve minutes in the oven then finishes the cutlets and melts the cheese.\n\nBasil is best torn at the last moment. A spoonful of the roasting juices over each portion is the sauce. Serve with a green salad or roasted green beans. Leftover cutlets slice well into a salad for lunch the next day.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -344,7 +344,7 @@ module.exports = {
   'chicken-saag': {
     d: 'Chicken thighs simmered in a spiced spinach sauce with onion, garlic, ginger and garam masala, finished with yogurt. Four servings in 50 minutes.',
     meta: 'Chicken saag: tender chicken thigh in a spiced spinach sauce with ginger, garlic and garam masala, finished with a little yogurt. Four servings.',
-    kw: ['chicken saag', 'no added sugar chicken saag', 'gluten free chicken saag', 'chicken and spinach curry', 'indian chicken saag recipe'],
+    kw: ['chicken saag', 'gluten free chicken saag', 'chicken and spinach curry', 'indian chicken saag recipe'],
     why: 'You smell this dish before you see it: onion turning golden, then ginger and garlic, then cumin and turmeric hitting the oil. That order is the whole technique. Spices need half a minute in hot fat to wake up, and they burn if the pan is too hot or the onion too wet.\n\nSpinach makes up much of the sauce, so cook it until it collapses completely. Use fresh leaves, added in handfuls, and cook for 5 minutes. **Add the yogurt off the heat**, a spoonful at a time, because boiling yogurt splits into grainy curds. Thighs suit this dish better than breast. They stay tender through a long simmer.\n\nGaram masala is a blend, so it goes in with the other spices. Chilli is up to you. Leave the seeds in for more heat, or take them out for a milder sauce. Serve with cauliflower rice or a small portion of brown basmati.',
     ing: [
       '700 g skinless boneless chicken thigh, cut into 3 cm pieces',
@@ -382,7 +382,7 @@ module.exports = {
   'spinach-artichoke-chicken': {
     d: 'Seared chicken in a creamy sauce of spinach, artichoke hearts, cream cheese and Parmesan, with no flour or bread. Four servings in 35 minutes.',
     meta: 'Spinach artichoke chicken: seared chicken breast in a creamy spinach, artichoke and Parmesan sauce. Four servings in 35 minutes.',
-    kw: ['spinach artichoke chicken', 'no added sugar spinach artichoke chicken', 'gluten free spinach artichoke chicken', 'creamy artichoke chicken', 'easy spinach artichoke chicken skillet'],
+    kw: ['spinach artichoke chicken', 'gluten free spinach artichoke chicken', 'creamy artichoke chicken', 'easy spinach artichoke chicken skillet'],
     why: 'Spinach, artichoke hearts, cream cheese and Parmesan: the flavours of the famous dip, spooned over chicken instead of tortilla chips. It is dinner, not a snack. The sauce is creamy and savoury and needs no flour, because the cream cheese and the reduced stock give it enough body on their own. Frozen spinach is a fair substitute; thaw it and squeeze out every drop of water first.\n\nDrain the artichokes well and quarter them so none is bigger than a bite. **Whisk the cream cheese in slowly** over low heat, since it smooths out best in warm, not boiling, liquid. Add the spinach last, in handfuls. It keeps some colour that way. Taste before you add salt, because the Parmesan and the artichokes already carry plenty.\n\nA squeeze of lemon at the end cuts through the richness. Serve it over steamed broccoli, cauliflower rice or zucchini noodles to catch the sauce. Leftovers reheat well.',
     ing: [
       '600 g skinless chicken breast, sliced into 4 thin cutlets',
@@ -415,7 +415,7 @@ module.exports = {
   'slow-cooker-chicken-chili-verde': {
     d: 'Chicken simmered for 6 hours in a grilled tomatillo, poblano and jalapeño sauce until it shreds, with no beans or flour. Six servings, with 15 minutes of work.',
     meta: 'Slow cooker chicken chili verde: chicken in a blended, grilled tomatillo, poblano and jalapeño sauce, cooked for 6 hours and shredded.',
-    kw: ['slow cooker chicken chili verde', 'no added sugar chili verde', 'gluten free chicken chili verde', 'dairy free chicken chili verde', 'easy slow cooker green chili chicken'],
+    kw: ['slow cooker chicken chili verde', 'gluten free chicken chili verde', 'dairy free chicken chili verde', 'easy slow cooker green chili chicken'],
     why: 'Why is chili verde so much brighter than a red chili? Tomatillos. Their sharp, citrusy tang runs through the whole pot, and grilling them first adds a smoky, savoury edge that balances it. Add poblano for body and jalapeño for heat, and you have a green sauce that needs no flour and no sugar.\n\nChicken thighs are the right cut for a slow cooker, because they stay moist through 6 hours where breast tends to turn stringy. **Do not skip the grilling**: raw tomatillos make a sauce that tastes grassy and sour. Blend until it is mostly smooth with a little texture left, then pour it over the chicken. The lid stays on for the whole cook.\n\nShred the chicken at the end and stir it back into the sauce, then add the lime juice, which brightens everything. Taste for salt. Serve in bowls with sliced avocado, or over cauliflower rice.',
     ing: [
       '900 g skinless boneless chicken thigh',

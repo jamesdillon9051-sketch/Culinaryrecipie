@@ -11,8 +11,8 @@ module.exports = {
   'banana-oat-pancakes': {
     d: 'Pancakes made from oats, eggs and a very ripe banana, with no sugar, syrup or flour — soft in the middle and properly browned outside.',
     meta: 'Banana oat pancakes with no added sugar — oats, eggs and one ripe banana, browned in a hot pan.',
-    kw: ['banana oat pancakes', 'no added sugar pancakes', 'flourless pancakes', 'healthy pancake recipe'],
-    why: 'A ripe banana brings both sweetness and enough starch to bind, which is why this works without flour or sugar. The oats are blended to a flour so the texture is cake rather than porridge. There is 14 g of sugar a serving in these and all of it is the banana — a recipe with fruit in it is not sugar-free, and it is better to say so than to pretend the distinction does not exist.',
+    kw: ['banana oat pancakes', 'flourless pancakes', 'healthy pancake recipe', 'banana oat pancakes recipe'],
+    why: 'A ripe banana brings both sweetness and enough starch to bind, which is why this works without flour or sugar. The oats are blended to a flour so the texture is cake rather than porridge. All the sugar in these comes from the banana — a recipe with fruit in it is not sugar-free, and it is better to say so than to pretend the distinction does not exist.',
     ing: [
       '2 very ripe bananas, well speckled',
       '2 large eggs',
@@ -49,7 +49,7 @@ module.exports = {
   'roasted-tomato-basil-soup': {
     d: 'Tomatoes roasted until they collapse and caramelise at the edges, blended with garlic and basil. No sugar, because roasting does the job sugar is usually added to do.',
     meta: 'Roasted tomato and basil soup with no added sugar — the sweetness comes from roasting the tomatoes hard.',
-    kw: ['roasted tomato soup', 'no added sugar soup', 'tomato basil soup', 'vegan tomato soup'],
+    kw: ['roasted tomato soup', 'tomato basil soup', 'vegan tomato soup', 'roasted tomato soup recipe'],
     why: 'Almost every tinned tomato soup has sugar in it, because tinned tomatoes are acidic and sugar is the quick correction. Roasting is the slow one: dry heat drives off water and concentrates what is already in the fruit, so the tomatoes come out sweet on their own. A whole head of garlic roasted alongside goes mild and almost creamy, which is where the body comes from.',
     ing: [
       '1.2 kg ripe tomatoes, halved',
@@ -86,7 +86,7 @@ module.exports = {
   'baked-cinnamon-apples': {
     d: 'Apples baked slowly with cinnamon and a splash of orange juice until they collapse into their own syrup. The only sugar in the dish is the fruit.',
     meta: 'Baked cinnamon apples with no added sugar — slow-baked until they collapse into their own syrup.',
-    kw: ['baked apples', 'no added sugar dessert', 'cinnamon apples', 'healthy apple pudding'],
+    kw: ['baked apples', 'cinnamon apples', 'healthy apple pudding', 'baked apples recipe'],
     why: 'Apples are already about 10% sugar, and slow baking concentrates it — an hour at a moderate heat turns the juice that runs out into something close to a caramel without a grain of sugar added. Bramleys collapse to a purée and eating apples hold their shape, so this uses both: one for the sauce, one for the texture.',
     ing: [
       '2 Bramley or other cooking apples, peeled and thickly sliced',
@@ -199,9 +199,9 @@ module.exports = {
   },
 
   'savoury-cottage-cheese-bowl': {
-    d: 'Cottage cheese with tomato, cucumber, olive oil and plenty of black pepper — eight minutes, no cooking, and 26 g of protein a serving.',
-    meta: 'Savoury cottage cheese bowl with tomato, cucumber and olive oil — 26 g of protein, eight minutes, no cooking.',
-    kw: ['savoury cottage cheese bowl', 'quick cottage cheese breakfast', 'cottage cheese recipe', 'no added sugar breakfast'],
+    d: 'Cottage cheese with tomato, cucumber, olive oil and plenty of black pepper — eight minutes, no cooking.',
+    meta: 'Savoury cottage cheese bowl with tomato, cucumber, olive oil and plenty of black pepper — eight minutes, no cooking.',
+    kw: ['savoury cottage cheese bowl', 'quick cottage cheese breakfast', 'cottage cheese recipe', 'savoury cottage cheese bowl recipe'],
     why: 'Cottage cheese is usually treated as something to endure with fruit on top. Handled as a savoury base — salted properly, dressed with good oil, given acid and crunch — it behaves like a soft cheese rather than a diet food. The trick is seasoning it as you would a burrata, which nobody does and which changes it entirely.',
     ing: [
       '400 g cottage cheese',

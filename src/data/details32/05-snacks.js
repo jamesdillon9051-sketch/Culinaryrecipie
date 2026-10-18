@@ -14,7 +14,7 @@ module.exports = {
   'kale-chips': {
     d: 'Kale leaves torn, dried, tossed in olive oil and baked low until crisp and papery. Four servings in 25 minutes.',
     meta: 'Kale chips: torn kale tossed in olive oil and smoked paprika and baked low until crisp. Vegan and gluten free. Four servings in 25 minutes.',
-    kw: ['kale chips', 'no added sugar kale chips', 'vegan kale chips', 'gluten free baked kale chips', 'easy crispy kale chips in the oven'],
+    kw: ['kale chips', 'vegan kale chips', 'gluten free baked kale chips', 'easy crispy kale chips in the oven'],
     why: 'Why do homemade kale chips come out limp and chewy instead of crisp? Three reasons: wet leaves, too much oil and a crowded tray. Dry the kale completely. Use just 1 tbsp of oil for the whole batch, and spread the pieces in a single layer with gaps between them.\n\nA low oven does the work. **Bake at 150°C** for 12 to 15 minutes: hot enough to crisp the leaves, gentle enough that the thin edges do not scorch. Remove the thick stems, which stay tough, and tear the leaves into pieces about the size of a chip. Check at 10 minutes, because kale goes from green to brown to bitter within a minute or two.\n\nSalt lightly, since the chips shrink as they crisp and the seasoning concentrates. Eat them the day they are made. A bowl of them goes quickly, so bake two trays if you are feeding more than a few.',
     ing: [
       '200 g curly kale, thick stems removed',
@@ -42,7 +42,7 @@ module.exports = {
   'parmesan-crisps': {
     d: 'Mounds of finely grated Parmesan baked until golden and crisp, with nothing else but pepper and oregano. Four servings in 13 minutes.',
     meta: 'Parmesan crisps: finely grated Parmesan baked in small mounds until golden and crisp. Gluten free and ready in 13 minutes. Four servings.',
-    kw: ['parmesan crisps', 'no added sugar parmesan crisps', 'gluten free parmesan crisps', 'vegetarian parmesan crisps', 'easy baked parmesan crisps'],
+    kw: ['parmesan crisps', 'gluten free parmesan crisps', 'vegetarian parmesan crisps', 'easy baked parmesan crisps'],
     why: 'They are ready when the bubbling slows and the edges turn the colour of pale straw. Watch them closely. Parmesan crisps need nothing but cheese, a hot oven and attention, and a minute too long tips the nutty, savoury flavour into bitterness. Use a light hand with the pepper; the cheese is salty enough.\n\nSpace matters. **Leave room between the mounds**, because each one spreads to roughly double its size. Press each mound flat with the back of a spoon so it bakes to an even thickness, and grate real Parmesan finely: the pre-grated kind in a tub often contains anti-caking agents and can bake up grainy rather than lacy.\n\nCool the crisps on the tray for 2 minutes. They crisp as they cool. Serve them with soup, broken over a salad, or on their own as a snack. Pepper and oregano are optional, and a little smoked paprika works too. Leftover crisps can be crumbled over soup or salad.',
     ing: [
       '100 g Parmesan, finely grated',
@@ -68,7 +68,7 @@ module.exports = {
   'spiced-roasted-almonds': {
     d: 'Whole almonds tossed in olive oil, smoked paprika, cumin and cayenne and slow-roasted until fragrant. Eight servings in 25 minutes.',
     meta: 'Spiced roasted almonds: raw almonds coated in olive oil, paprika, cumin and cayenne and roasted low until fragrant. Eight servings in 25 minutes.',
-    kw: ['spiced roasted almonds', 'no added sugar almond snack', 'vegan spiced almonds', 'gluten free roasted almonds', 'easy spiced roasted almonds'],
+    kw: ['spiced roasted almonds', 'vegan spiced almonds', 'gluten free roasted almonds', 'easy spiced roasted almonds'],
     why: 'How do you get spices to stay on almonds instead of falling to the bottom of the bowl? Use a spoonful of oil as the glue. Toss the nuts in the oil first so every almond is lightly coated, then add the spices and toss again.\n\nRoasting low and slow does the rest. **Roast at 160°C** for 18 to 20 minutes, stirring halfway, until the almonds smell toasted and turn a shade darker. They will not feel crisp when they come out. Once cool, they firm up, so resist the urge to roast them longer, since over-roasted almonds taste bitter. Cayenne is optional. Check at 15 minutes, since small ovens run hot.\n\nNuts are rich in energy, so portion them. A small handful is a serving here. Keep the almonds in a jar once cool and they are ready for a desk drawer, a lunch box or a bowl at a party. They also make a good gift in a jar.',
     ing: [
       '300 g raw whole almonds',
@@ -98,7 +98,7 @@ module.exports = {
   'cucumber-smoked-salmon-bites': {
     d: 'Cucumber rounds topped with dill and lemon cream cheese and ribbons of smoked salmon, with no bread. Six servings in 15 minutes.',
     meta: 'Cucumber smoked salmon bites: cucumber rounds with dill and lemon cream cheese and smoked salmon, ready in 15 minutes. Gluten free. Serves six.',
-    kw: ['cucumber smoked salmon bites', 'no added sugar smoked salmon appetizer', 'gluten free smoked salmon canapes', 'no cook smoked salmon cucumber bites', 'easy cucumber and smoked salmon appetizer'],
+    kw: ['cucumber smoked salmon bites', 'gluten free smoked salmon canapes', 'no cook smoked salmon cucumber bites', 'easy cucumber and smoked salmon appetizer'],
     why: 'Pat the cucumber rounds dry before anything goes on top. Cucumber is mostly water, and a damp slice turns the cream cheese runny and slides the salmon off within minutes. A paper towel is all it takes. Small or seedless cucumbers make the neatest rounds, with less water to deal with.\n\nMix the cream cheese with dill, lemon zest and a squeeze of juice until smooth, then spoon or pipe it onto each round. Fold the smoked salmon into loose ribbons so each bite is a soft mouthful rather than a flat sheet. The lemon zest cuts the richness of the salmon, and leaving the skin on adds colour and a little bite. **Assemble just before serving**, since the cucumber keeps releasing water. Keep them cold.\n\nSmoked salmon is salty. The cream cheese gets none of its own. A twist of black pepper finishes each bite, and a small sprig of dill on top makes the plate look finished. Chill the platter until guests arrive.',
     ing: [
       '500 g cucumber, cut into 24 rounds about 1.5 cm thick',
@@ -128,7 +128,7 @@ module.exports = {
   'turkey-roll-ups': {
     d: 'Slices of turkey breast spread with mustard cream cheese and rolled around cucumber and spinach, with no bread. Four servings in 10 minutes.',
     meta: 'Turkey roll-ups: turkey slices rolled around mustard cream cheese, cucumber and spinach, with no bread. Gluten free. Four servings in 10 minutes.',
-    kw: ['turkey roll ups', 'no added sugar turkey roll ups', 'gluten free turkey cream cheese roll ups', 'no cook turkey roll ups snack', 'easy turkey and cucumber roll ups'],
+    kw: ['turkey roll ups', 'gluten free turkey cream cheese roll ups', 'no cook turkey roll ups snack', 'easy turkey and cucumber roll ups'],
     why: 'A snack for four. It needs no stove and no cutlery, and it takes about 10 minutes. Slices of turkey breast are spread with cream cheese and mustard, wrapped around crisp cucumber and spinach, and cut into bites. It is protein, crunch and freshness in one hand.\n\nSpread the cream cheese right to the edges so the roll holds together without a toothpick. **Pat the spinach dry** so it does not make the slices soggy, and cut the cucumber into thin sticks about the length of the slice. Roll tightly. Keep the seam side down, then cut each roll in half on a slant for a neat finish. Red pepper adds sweetness and colour.\n\nCheck the label on the turkey: deli slices vary a great deal in salt, and some carry added sugar. Turkey breast sliced fresh at the counter is the simplest choice. Keep the rolls chilled until serving. Serve with mustard on the side.',
     ing: [
       '160 g sliced deli turkey breast, in 8 slices',
@@ -158,7 +158,7 @@ module.exports = {
   'edamame-with-sea-salt': {
     d: 'Edamame in the pod boiled briefly and tossed with flaky sea salt while still hot. Four servings in 7 minutes.',
     meta: 'Edamame with sea salt: edamame in the pod boiled briefly and salted while still hot. Vegan, gluten free and ready in 7 minutes. Four servings.',
-    kw: ['edamame with sea salt', 'no added sugar edamame', 'vegan edamame snack', 'gluten free edamame in the pod', 'quick salted edamame in 7 minutes'],
+    kw: ['edamame with sea salt', 'vegan edamame snack', 'gluten free edamame in the pod', 'quick salted edamame in 7 minutes'],
     why: 'Salt goes on last. The pods are boiled plain, drained and salted while still hot and wet, so the salt clings to the outside, where your lips find it first. It takes 2 minutes of work and 5 of boiling.\n\nFrozen edamame pods are already blanched, so they only need to be heated through; overboiling turns them grey and soft. **Cook them for 5 minutes**, no longer, and taste one: the beans should be tender with a little resistance. Squeeze the beans out of the pod with your teeth. Do not eat the pods.\n\nServe warm or at room temperature in a bowl. Pass an empty bowl for the pods. Taste one for salt before you serve the rest. Edamame are soya beans, so they bring protein and fibre as well as flavour. A squeeze of lime over the top works well, and any leftover beans, shelled, are good in a salad.',
     ing: [
       '400 g frozen edamame in the pod',
@@ -183,7 +183,7 @@ module.exports = {
   'greek-yogurt-ranch-dip': {
     d: 'A thick, tangy ranch-style dip made from plain Greek yogurt, garlic, dill, chives and parsley. Eight servings in 10 minutes.',
     meta: 'Greek yogurt ranch dip: plain Greek yogurt, garlic, fresh dill, chives and parsley stirred together with no added sugar. Eight servings in 10 minutes.',
-    kw: ['greek yogurt ranch dip', 'no added sugar ranch dip', 'gluten free ranch dip', 'vegetarian ranch dip with fresh herbs', 'easy greek yogurt ranch dressing'],
+    kw: ['greek yogurt ranch dip', 'gluten free ranch dip', 'vegetarian ranch dip with fresh herbs', 'easy greek yogurt ranch dressing'],
     why: 'Make it ahead. Ranch tastes flat when it is stirred together and eaten at once, and rounder after 30 minutes in the fridge, once the garlic and herbs have worked into the yogurt. Use the time to chop the vegetables for dipping.\n\nGreek yogurt gives the body and tang that buttermilk and mayonnaise usually supply, with far less fat and no added sugar. **Use plain, unsweetened yogurt**: a flavoured one ruins it. Thin it with milk. Add a spoonful at a time until it is as thick or loose as you like; a thick version suits vegetable sticks and a thinner one suits a salad.\n\nFresh herbs make it taste like ranch; dried ones only get you close. Serve with raw vegetables such as celery, cucumber, bell pepper and radish. Keep it covered in the fridge. It thickens as it stands. A spoonful is also good stirred into a salad as a dressing. Taste before serving and add salt in small pinches.',
     ing: [
       '300 g plain Greek yogurt',
@@ -216,7 +216,7 @@ module.exports = {
   'pepper-nachos': {
     d: 'Mini sweet pepper halves piled with spiced turkey, melted cheese and fresh tomato, avocado and jalapeño, with no chips. Four servings in 22 minutes.',
     meta: 'Pepper nachos: baked mini pepper halves with spiced turkey, melted cheese, tomato, avocado and jalapeño. Gluten free. Four servings in 22 minutes.',
-    kw: ['pepper nachos', 'no added sugar nachos', 'gluten free pepper nachos', 'baked mini pepper nachos with turkey', 'easy pepper nachos appetizer'],
+    kw: ['pepper nachos', 'gluten free pepper nachos', 'baked mini pepper nachos with turkey', 'easy pepper nachos appetizer'],
     why: 'A puddle is the usual problem. Mini peppers hold a lot of water, and loaded straight into the oven they leave the toppings swimming. The fix is to bake the empty halves first for 6 minutes, so some of that water leaves before the filling goes on. Choose mini peppers about the length of your finger for the best shape.\n\nPeppers replace the chips. There is no corn and no flour, and the shape is easy to hold. **Brown the turkey properly** so it makes a savoury, crumbly topping, with cumin, chilli and paprika standing in for a bagged seasoning mix, which often carries a lot of salt. Drain off any fat from the turkey if the pan looks greasy. Monterey Jack melts smoothly and is mild enough to let the spices speak.\n\nAdd the cold toppings after baking so tomato, avocado, jalapeño and cilantro stay fresh, and let a spoonful of Greek yogurt stand in for soured cream. Serve at once, while the cheese is soft.',
     ing: [
       '300 g mini sweet peppers, halved lengthwise and seeded',
@@ -253,7 +253,7 @@ module.exports = {
   'zucchini-pizza-bites': {
     d: 'Roasted zucchini rounds topped with tomato sauce, mozzarella and oregano, then baked until bubbling. Four servings in 22 minutes.',
     meta: 'Zucchini pizza bites: zucchini rounds roasted, then topped with tomato sauce, mozzarella and oregano. Gluten free. Four servings in 22 minutes.',
-    kw: ['zucchini pizza bites', 'no added sugar zucchini pizza bites', 'gluten free zucchini pizza bites', 'vegetarian zucchini pizza bites', 'baked zucchini pizza rounds'],
+    kw: ['zucchini pizza bites', 'gluten free zucchini pizza bites', 'vegetarian zucchini pizza bites', 'baked zucchini pizza rounds'],
     why: 'How thick should zucchini be for pizza bites? About 1 cm. Thinner slices collapse and turn limp under the sauce, while thicker ones stay raw in the middle by the time the cheese melts. Cut them evenly and everything finishes together. Roasting also concentrates the flavour of the zucchini, so each bite tastes of more than water.\n\nA first roasting does the heavy lifting. **Roast the rounds before topping** so surplus water leaves the zucchini instead of ending up under the cheese. Use a thick passata or a pizza sauce with no added sugar, and no more than a teaspoon on each slice, since more makes the topping slide. Grate the mozzarella finely so it covers evenly and melts fast.\n\nOregano and basil add the pizza flavour. Serve hot, straight from the tray, as a party snack or a quick lunch with a salad. The bites soften as they cool, so make them close to serving.',
     ing: [
       '400 g zucchini, cut into 1 cm rounds',
@@ -284,7 +284,7 @@ module.exports = {
   'baked-zucchini-chips': {
     d: 'Thin zucchini slices tossed with olive oil, Parmesan and garlic powder and baked until crisp at the edges. Four servings in 40 minutes.',
     meta: 'Baked zucchini chips: thin zucchini slices tossed with olive oil, Parmesan and garlic powder and baked until crisp at the edges. Four servings.',
-    kw: ['baked zucchini chips', 'no added sugar zucchini chips', 'gluten free zucchini chips', 'vegetarian parmesan zucchini chips', 'easy baked zucchini chips'],
+    kw: ['baked zucchini chips', 'gluten free zucchini chips', 'vegetarian parmesan zucchini chips', 'easy baked zucchini chips'],
     why: 'Zucchini is mostly water. Chips go limp for two reasons: the slices are too thick, or too wet. Slice them thin and even, as thin as a coin if you can manage it, and blot them dry with paper towels before they meet the oil.\n\nA mandoline gives the most even slices, though a sharp knife and patience will do. Toss the slices with the oil, Parmesan and seasonings in a bowl, then lay them in a single layer on lined trays. **Do not overlap the slices.** Overlapped slices stay soft. Turn them once, at half time, and expect the edges to crisp first.\n\nWatch the last few minutes. Chips go from golden to brown quickly. They crisp further as they cool on the tray, so take them out when the edges are just golden. Eat them on the day; they soften within a day. A dip of yogurt or salsa goes well.',
     ing: [
       '400 g zucchini, sliced 3 mm thick',
@@ -313,7 +313,7 @@ module.exports = {
   'cauliflower-tater-tots': {
     d: 'Cauliflower, egg, Parmesan, cheddar and ground almonds shaped into small tots and baked until crisp, with no potato. Six servings in 45 minutes.',
     meta: 'Cauliflower tater tots: riced cauliflower, egg, two cheeses and ground almonds shaped into tots and baked crisp. Gluten free. Six servings.',
-    kw: ['cauliflower tater tots', 'no added sugar cauliflower tots', 'gluten free cauliflower tater tots', 'vegetarian cauliflower tots with cheese', 'baked cauliflower tots without potato'],
+    kw: ['cauliflower tater tots', 'gluten free cauliflower tater tots', 'vegetarian cauliflower tots with cheese', 'baked cauliflower tots without potato'],
     why: 'Cauliflower, egg, two cheeses and ground almonds: that is what holds a tot together without a potato in sight. They come out crisp outside and soft inside, with a savoury cheese flavour that suits a dipping sauce. Water is the problem. Smoked paprika gives them a savoury colour, so you can skip the ketchup.\n\nCauliflower holds a great deal of water, and a wet mixture will not keep a shape. **Squeeze the cauliflower dry** in a clean tea towel until barely a drop comes out. Be thorough with the towel. Then mix in the egg, cheeses and almonds, chill the mixture if it feels soft, and press it into small cylinders. Ground almonds soak up what moisture remains and help the crust brown. Bake on a hot, lined tray, turning once, until golden.\n\nServe the tots hot with a yogurt dip or a salsa with no added sugar. They are crispest straight from the oven. Reheat leftovers in a hot oven, not the microwave.',
     ing: [
       '500 g cauliflower, cut into florets',

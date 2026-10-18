@@ -171,7 +171,7 @@ module.exports = {
   'gambas-al-ajillo': {
     d: 'Prawns sizzled in olive oil with a great deal of garlic and dried chilli, served bubbling in the same dish with bread to mop the oil. Eight minutes from start to table.',
     meta: 'Sizzling gambas al ajillo with garlic, chilli and olive oil. A ten-minute Spanish tapa best eaten with bread.',
-    kw: ['gambas al ajillo recipe', 'garlic prawns', 'spanish tapas', 'keto seafood'],
+    kw: ['gambas al ajillo recipe', 'garlic prawns', 'spanish tapas', 'how to make gambas al ajillo'],
     why: 'Starting the garlic in cold oil and bringing it up slowly extracts its aromatics into the oil without scorching it — the oil, not the prawns, is the real product here. Prawns need only 90 seconds a side; anything longer and their proteins tighten into rubber.',
     ing: [
       '600 g raw king prawns, peeled with tails on',

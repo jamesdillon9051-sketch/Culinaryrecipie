@@ -23,7 +23,7 @@
  */
 
 /** Sugar under whatever name it is added: all of these are added sugar. */
-const ADDED_SUGAR = /\b(sugar|honey|syrup|molasses|treacle|agave|jaggery|panela|"?golden syrup"?|condensed milk|dulce de leche|caramel|fondant|icing|marzipan|nutella|chocolate chips?)\b/i;
+const ADDED_SUGAR = /\b(sugar|honey|syrup|molasses|treacle|agave|jaggery|panela|"?golden syrup"?|condensed milk|dulce de leche|caramel|fondant|icing|marzipan|nutella|chocolate chips?|chocolate|ketchup|catsup|barbecue sauce|bbq sauce|hoisin|teriyaki|sweet chilli|sweet chili|jam|marmalade|jelly crystals|chutney|relish|mirin|kecap manis|cranberry sauce|glac[eé]|candied|marshmallows?|biscuits?|cookies?|digestives?|graham crackers?|sponge fingers|ladyfingers|savoiardi|amaretti|cake|brioche|ice cream|sweetened|cordial|grenadine|liqueur|cointreau|triple sec|tonic|cola|ginger ale|ginger beer|lemonade|custard|mincemeat|gochujang|sriracha|worcestershire|brown sauce|balsamic glaze|corn ?flakes|granola|muesli|wafers?|sprinkles|meringue|halva|jelly|maple)\b/i;
 
 /* Named for something else. "Sugar snap peas" and "sugar-free" both contain
    "sugar"; neither sweetens anything. */
@@ -75,7 +75,8 @@ function hasAddedSugar(lines) {
 /**
  * The derived tags for one recipe.
  *
- * @param {object} detail  the detail record, for `ing` and `nut`
+ * @param {object} detail  `ing`, and `nut` when the figures are a tier-1 calculation (null
+ *                         otherwise, which withholds the three tags that read them)
  * @returns {string[]}
  */
 function derivedTags(detail, tags_ = []) {
@@ -86,7 +87,7 @@ function derivedTags(detail, tags_ = []) {
      broader word — for no reason but that the second tag was typed by hand. */
   if (tags_.includes('Vegan') && !tags_.includes('Vegetarian')) tags.push('Vegetarian');
   const [, protein, carbs, , fibre] = detail.nut || [];
-  if (protein >= HIGH_PROTEIN_GRAMS) tags.push('High-Protein');
+  if (detail.nut && protein >= HIGH_PROTEIN_GRAMS) tags.push('High-Protein');
   if (carbs !== undefined && carbs <= LOW_CARB_GRAMS) tags.push('Low-Carb');
   if (carbs !== undefined && carbs - (fibre || 0) <= KETO_NET_CARB_GRAMS) tags.push('Keto');
   if (!hasAddedSugar(detail.ing)) tags.push('No Added Sugar');

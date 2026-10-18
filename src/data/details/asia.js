@@ -179,7 +179,7 @@ module.exports = {
   'tom-yum-goong': {
     d: 'The hot-and-sour prawn soup that defines Thai cooking: lemongrass, galangal and lime leaf simmered into a broth, then sharpened with lime and fish sauce off the heat.',
     meta: 'Fiery, fragrant tom yum goong with prawns, lemongrass and galangal. Naturally low-carb and ready in 35 minutes.',
-    kw: ['tom yum goong recipe', 'thai hot and sour soup', 'prawn soup', 'low carb thai'],
+    kw: ['tom yum goong recipe', 'thai hot and sour soup', 'prawn soup', 'how to make tom yum goong'],
     why: 'The aromatics are bruised rather than chopped and are meant to be left in the bowl, not eaten — bruising ruptures their oil glands so the flavour infuses the broth quickly. Lime juice and fish sauce go in only after the pot is off the heat, since boiling destroys lime\'s aroma and turns fish sauce harsh.',
     ing: [
       '1.2 l chicken or prawn stock',

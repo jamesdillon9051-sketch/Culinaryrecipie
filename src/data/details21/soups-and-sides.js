@@ -178,8 +178,8 @@ module.exports = {
   },
 
   'cabbage-soup': {
-    d: 'A pot of cabbage, carrots, tomatoes and peppers simmered in vegetable stock until sweet and soft. Fifty minutes, about a hundred calories a bowl.',
-    meta: 'Cabbage soup with carrots, celery, peppers and tomatoes simmered in vegetable stock with paprika and thyme. Light, filling and about 100 calories.',
+    d: 'A pot of cabbage, carrots, tomatoes and peppers simmered in vegetable stock until sweet and soft. Fifty minutes, about two hundred calories a bowl.',
+    meta: 'Cabbage soup with carrots, celery, peppers and tomatoes simmered in vegetable stock with paprika and thyme. Filling, and about 200 calories a bowl.',
     kw: ['cabbage soup', 'cabbage soup recipe', 'vegetable cabbage soup', 'homemade cabbage soup', 'cabbage soup with tomatoes'],
     why: 'Cabbage tastes sweet and mellow when it is cooked slowly and sulphurous when it is not, so the trick is to let it simmer long enough to soften completely and to start the soup by softening the other vegetables first, which builds a base for the cabbage to cook in. Smoked paprika supplies the depth that meat would, and a splash of vinegar at the end lifts a pot that otherwise tastes sweet and flat.',
     ing: [

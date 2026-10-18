@@ -468,7 +468,7 @@ module.exports = {
   'guacamole': {
     d: 'The Mexican original is made in a molcajete and contains no garlic, no cumin and no soured cream — just avocado, onion, chilli, coriander, lime and salt. Restraint makes it better.',
     meta: 'Authentic guacamole with just six ingredients — no garlic, no cumin. The molcajete method that makes the texture right.',
-    kw: ['guacamole recipe', 'authentic mexican guacamole', 'avocado dip', 'keto dip'],
+    kw: ['guacamole recipe', 'authentic mexican guacamole', 'avocado dip', 'authentic guacamole recipe'],
     why: 'Grinding the onion, chilli, coriander and salt into a paste before the avocado goes in extracts their aromatic oils and distributes them evenly, so every bite is seasoned rather than intermittently spicy. Lime does more than flavour: its acid slows the enzymatic browning that turns cut avocado grey.',
     ing: [
       '3 ripe Hass avocados',

@@ -592,7 +592,7 @@ module.exports = {
     rest: [390, 'chilling'],
     d: 'A double marinade — first in lemon and salt, then in spiced yogurt — gets flavour deep into the meat before it hits the fiercest heat your oven can produce. Naturally low-carb and dramatic to serve.',
     meta: 'Fiery tandoori chicken with a double marinade and a scorching oven finish. Charred outside, juicy inside, no tandoor needed.',
-    kw: ['tandoori chicken recipe', 'indian grilled chicken', 'yogurt marinade', 'low carb indian'],
+    kw: ['tandoori chicken recipe', 'indian grilled chicken', 'yogurt marinade', 'how to make tandoori chicken'],
     why: 'The first marinade of lemon and salt acts as a dry brine, opening the meat so the second yogurt marinade can penetrate rather than sitting on the surface. Slashing to the bone gives heat direct access to the thickest parts, so the chicken cooks through before the outside burns.',
     ing: [
       '# For the first marinade',

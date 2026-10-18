@@ -284,7 +284,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       the feature stopped appearing in Google Search in May 2026. This markup
       earns nothing there. The gain is a page that answers what people ask
 - [x] Keywords — 4 curated phrases per recipe (the only ones in the Recipe
-      JSON-LD and the keywords meta tag), widened to a median of 87 by
+      JSON-LD and the keywords meta tag), widened to a median of 79 by
       `src/lib/keywords.js` from the row's own cuisine, category, times,
       difficulty, diet tags, servings, ingredients, cooking method, pairings,
       per-serving nutrition and storage note. Derived rather than written, so a
@@ -292,7 +292,7 @@ Everything below is implemented and verified by `npm run check` on every build.
       tag, "30 minute X" needs the times, "low calorie X" needs fewer than 400
       kcal a serving, "can you freeze X" needs the storage note to say so,
       "baked X" needs the method to use an oven
-- [x] `node tools/keyword-audit.js` checks all 487,744 of them back against the
+- [x] `node tools/keyword-audit.js` checks all 443,953 of them back against the
       records, one rule per claim a phrase can make. It fails the build, and
       `npm run check` runs it
 - [x] The three places the list goes are sized separately, because the safe
@@ -643,9 +643,9 @@ kidney disease needs is restricted at some stages and raised on dialysis, so the
 page sends the reader to their kidney care team and does not decide for them.
 
 What the labels cannot do is what the rest of this README says about nutrition:
-the figures are estimates from a food table written from memory of standard
-composition data, good to about 10 per cent, and the potassium and phosphorus
-columns to a little worse. A packaged food varies by brand and the table cannot
+the figures are calculations, not analyses (see "Nutrition provenance" below for
+where each food's figures come from), and the potassium and phosphorus columns
+are patchier than the rest. A packaged food varies by brand and the table cannot
 see an additive, which is why the kidney rules refuse processed meats and stock
 cubes by name and the recipes ask for plain meat, fish and shrimp with no salt
 or phosphate added.
@@ -716,6 +716,36 @@ and not as a way of keeping a tag.
 The rule that decided the hard cases: read the method, not the ingredient list.
 Bread reads the same either way, and only the steps say whether it thickens the
 gazpacho or gets handed round with the prawns.
+
+## Nutrition provenance
+
+Until October 2026 the nutrition on a recipe page was whatever the record's `nut` said. For about half
+the catalogue nobody could say where those numbers came from, and the food table behind the other half
+had been "written from memory of standard composition tables" and described as good to about ten per
+cent, a figure nothing had measured. Both claims are gone.
+
+- **Where each food's figures come from.** `tools/nutrition-sources.json` records a status for every
+  food in `tools/nutrition-foods.js`: `usda` (an entry in USDA FoodData Central SR Legacy, April 2018,
+  public domain, named by its NDB number, whose figures are used); `proxy` (the nearest named SR entry
+  where SR has no such food, for instance dry breadcrumbs for panko); `zero`; `generic` (an unnamed
+  "spice" or "stock"); and `unverified` (the hand-written figure, kept because nothing better was
+  matched, and counted as unsourced). The file is generated from a matching run against the SR CSV
+  release and every match was either a strict agreement or a decision by hand; the NDB number lets
+  anyone check it.
+- **Weights.** A per-item weight ("2 onions", "1 egg yolk") is sourced only where an SR portion
+  confirms it; the calculator uses the SR weight then. A drained tin is counted at its stated weight,
+  which overstates it, and the page says so.
+- **Tiers.** The build computes every recipe and prints only what it computes. Tier 1 is a documented
+  calculation; tier 2 an approximation whose assumptions the page lists; tier 3 is not reproducible
+  (an unreadable line, a deep-fried dish, mostly unsourced foods) and the page prints no figures and
+  no schema. Only tier 1 reaches the Recipe JSON-LD, the High-Protein, Low-Carb and Keto tags, a
+  search snippet or a search phrase with a number. The About page gives the current counts.
+- **What it is not.** A calculation from a table is not a laboratory analysis, and two tables agreeing
+  is not evidence that either matches a cooked dish. Salt added to taste is not counted; salt in
+  pasta water is counted in full; alcohol is counted in full, and in a cooked dish the page says
+  some is lost.
+- **Wording.** Search phrases state numbers. Words whose meaning labelling law fixes ("low fat",
+  "light", "no added salt", "no added sugar", "high fibre") are refused by `npm run keywords`.
 
 ## One pop, not two
 
@@ -4003,9 +4033,9 @@ compared with it.
 
 No recipe here has been cooked, and the audits are not a stove. As CLAUDE.md
 puts it, recipes drafted by an AI session have not been cooked by anyone, and
-these were drafted by one. The figures are the calculator's, from a food table
-written from memory of standard composition data, good to about 10 per cent, and
-the potassium and phosphorus columns to a little worse. A brand of tinned
+these were drafted by one. The figures are the calculator's (see "Nutrition
+provenance"), a calculation and not an analysis, and the potassium and
+phosphorus columns are patchier than the rest. A brand of tinned
 tomatoes, stock or tofu can move any of them, and the calculator cannot see an
 additive. No dietitian, doctor or kidney care team has read the limits or the
 recipes: the limits are conservative choices and not guidance from any body, and
@@ -5100,10 +5130,10 @@ with a cooked sauce and pepperoni, but they are close.
 - **No history.** Dishes with a regional name keep it as a cuisine and nothing
   more: a pasty, a clanger or a hotdish says what it is made of and how, and
   does not say where or when it began.
-- **Third-party nutrition.** Figures are estimates from the calculator, good to
-  about 10 per cent, and tinned-goods weights are drained weights.
-- **Frying oil.** Where a recipe fries in a measured amount of oil, the whole
-  amount is counted in the nutrition, which overstates the fat a little.
+- **Third-party nutrition.** Figures are the calculator's (see "Nutrition
+  provenance"); a calculation, not an analysis.
+- **Frying oil.** Shallow-frying oil given as a measure is counted in full, which
+  overstates the fat a little; a deep-fried recipe prints no figures at all.
 
 ### Photographs
 

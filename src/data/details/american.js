@@ -570,7 +570,7 @@ module.exports = {
   'cobb-salad': {
     d: 'A composed salad from the Brown Derby in Hollywood: neat rows of chicken, bacon, avocado, egg, tomato and blue cheese over chopped leaves, with a sharp red wine vinaigrette. A genuinely satisfying main-course salad.',
     meta: 'Classic Cobb salad in neat rows — chicken, bacon, avocado, egg and blue cheese with a red wine vinaigrette. Keto-friendly.',
-    kw: ['cobb salad recipe', 'american chopped salad', 'keto salad', 'main course salad'],
+    kw: ['cobb salad recipe', 'american chopped salad', 'main course salad', 'how to make cobb salad'],
     why: 'Arranging the ingredients in rows rather than tossing them lets each element keep its own texture and lets the eater control the ratio in every forkful. Everything is chopped to a similar small dice so a single fork can pick up all seven components at once, which was Robert Cobb\'s original point.',
     ing: [
       '# For the salad',

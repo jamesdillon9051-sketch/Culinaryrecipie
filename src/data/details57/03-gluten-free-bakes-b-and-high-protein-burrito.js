@@ -393,7 +393,7 @@ module.exports = {
   },
 
   'high-protein-breakfast-burrito': {
-    d: 'Scrambled eggs, black beans, spinach and cheddar rolled in a flour tortilla, with about 30 g of protein in each.',
+    d: 'Scrambled eggs, black beans, spinach and cheddar rolled in a flour tortilla, with about 27 g of protein in each.',
     meta: 'High-protein breakfast burritos of eggs, black beans and cheddar, cooked for 15 minutes. Four burritos, ready in 30 minutes.',
     kw: ['high protein breakfast burrito', 'egg and black bean burrito', 'breakfast burrito with cheddar', 'high protein breakfast', 'egg burritos with cheddar'],
     why: 'Eight eggs. That is the base, and everything else just builds on it. Eggs and black beans together give a complete, filling breakfast with a lot of protein, and the cheddar and spinach add flavour and a little colour.\n\nScramble the eggs gently over a medium heat and take them off while they still look slightly wet. They keep cooking from their own heat inside the tortilla, and eggs cooked all the way in the pan turn rubbery by the time you eat. Drain and rinse the beans so the filling does not turn watery, and wilt the spinach in the pan first so it does not leak.\n\n**Warm the tortillas before rolling.** Cold ones crack and split. Heat each for 15 seconds in a dry pan or wrap the stack in a damp cloth and microwave briefly. Fold in the sides, then roll tight from the bottom. A tight roll holds together in the hand, and a quick sear on the seam side seals it shut.',

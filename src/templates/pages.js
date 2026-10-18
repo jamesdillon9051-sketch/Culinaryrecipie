@@ -601,7 +601,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Cuisine Explorer',
-    description: `Browse ${recipeCount} recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with nutrition and method.`,
+    description: `Browse ${recipeCount} recipes across ${cuisineCount} world cuisines — Italian, Japanese, Mexican, Indian, Thai, Middle Eastern and more. Each with ingredients and method.`,
     keywords: ['world cuisines', 'international recipes', 'cuisine guide', 'global cooking',
                'cuisines of the world', 'food by country', 'national dishes',
                'regional cooking', 'authentic world food', 'browse recipes by cuisine',
@@ -886,7 +886,9 @@ ${breadcrumbs(trail)}
 
 function about(ctx) {
   const trail = [{ name: 'Home', url: SITE.base }, { name: 'About' }];
-  const calculatedCount = ctx.recipes.filter(r => r.nutritionSource === 'calculated').length;
+  const tierCount = t => ctx.recipes.filter(r => r.nutritionTier === t).length.toLocaleString('en-GB');
+  const sources = require('../../tools/nutrition-sources.json').counts;
+  const foodCount = Object.values(sources).reduce((a, b) => a + b, 0);
 
   /* What this page says about who runs the site and how the recipes were made
      has to be true of the project's own records, so it says only that.
@@ -917,11 +919,21 @@ ${breadcrumbs(trail)}
     <ul>
       <li><strong>Times are read from the method.</strong> A script looks through every step for chilling, proving, marinating and other waiting, and the total time shown on the page includes it. Where the method gives a range (&ldquo;12 to 24 hours&rdquo;), the page shows the range.</li>
       <li><strong>Diet labels are compared with the ingredient list.</strong> Flour on a gluten-free recipe or honey on a vegan one fails the build. Where a label depends on choosing one ingredient over another, the label says so.</li>
-      <li><strong>Nutrition is an estimate.</strong> For ${calculatedCount.toLocaleString('en-GB')} recipes the printed figures match what the ingredient list adds up to against a food table compiled for this site, which is good to about ten per cent. For the other ${(ctx.recipes.length - calculatedCount).toLocaleString('en-GB')} they were estimated when the recipe was written and are checked only for internal consistency (the calories have to agree with the protein, carbohydrate and fat). Each recipe page says which.</li>
+      <li><strong>Nutrition is calculated, and only where it can be.</strong> See <a href="#nutrition">below</a>.</li>
       <li><strong>Search phrases have to be true of the recipe.</strong> &ldquo;30-minute&rdquo; is only used when the whole recipe, waiting included, takes thirty minutes or less.</li>
       <li><strong>Every photograph is compared with the dish and its diet label before it is published.</strong> Wrong pictures have been withdrawn rather than left up.</li>
     </ul>
-    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself.</p>
+    <p>None of this proves a recipe is safe for a particular diet or medical condition, and none of it is nutritional or medical advice. If you cook for an allergy or a health condition, check every ingredient yourself. The diet labels are matched against ingredient names by a script: that does not certify a recipe free of an allergen, and a packaged ingredient (stock, a sauce, a cheese) has to be checked on its own label.</p>
+
+    <h2 id="nutrition">How the nutrition figures are worked out</h2>
+    <p>Each recipe's ingredient list is read line by line, every ingredient is matched to a food, its weight is worked out, and the figures are added up and divided by the servings. Of the ${foodCount.toLocaleString('en-GB')} foods the calculator knows, ${sources.usda.toLocaleString('en-GB')} use the figures of a named entry in USDA FoodData Central (SR Legacy, a public-domain food-composition database) and ${sources.proxy} the nearest named entry where SR Legacy lacks the food itself (plain dry breadcrumbs for panko, for instance); ${sources.unverified.toLocaleString('en-GB')} still use figures written for this site that have no recorded source, and ${sources.generic} are rough stand-ins for an unnamed ingredient such as &ldquo;spice&rdquo;. Calories are 4 per gram of protein and carbohydrate, 9 per gram of fat and 7 per gram of alcohol.</p>
+    <p>Every recipe falls into one of three groups, and the page says which:</p>
+    <ul>
+      <li><strong>Calculated (${tierCount(1)} recipes).</strong> Every line was read and at most a twentieth of the energy comes from foods without a recorded source. These figures, and only these, go into the page's structured data and decide the High-Protein, Low-Carb and Keto labels.</li>
+      <li><strong>Approximate (${tierCount(2)} recipes).</strong> The sum rests on an assumption that moves it, and the page names it: a marinade counted in full, weights that include bone, a tin counted with its liquid, an ingredient with no amount, or foods without a recorded source.</li>
+      <li><strong>None given (${tierCount(3)} recipes).</strong> Some lines cannot be read, or the dish is deep-fried and the oil it takes up cannot be known. Rather than print a guess, these pages give no figures.</li>
+    </ul>
+    <p>A calculation is not a laboratory analysis. The food table cannot see a brand's recipe or an additive, a raw weight is not a cooked one, and salt added &ldquo;to taste&rdquo; is not counted. Two sets of figures agreeing with each other is not evidence that either matches the dish on your plate.</p>
 
     <h2>Where the photographs come from</h2>
     <p>None of the photographs on this site were taken for it. Every one is somebody else's work, used under a licence that allows it here, and credited underneath. Of the ${imageCount} photographs, ${commonsImageCount} come from Wikimedia Commons, ${otherArchiveImageCount} were found through Openverse, which indexes Flickr and other archives of freely licensed work${stockImageCount ? `, and ${stockImageCount} come from ${stockSources.join(' and ')}, a stock library whose own licence allows commercial use and resizing and asks for no credit (it is given anyway)` : ''}. Of the archive photographs, ${publicDomainImageCount} are CC0 or public domain, ${attributionOnlyImageCount} are Creative Commons Attribution, and ${shareAlikeImageCount} are Attribution-ShareAlike. A photograph shows the dish, not this site's own cooking of it.</p>
@@ -1208,7 +1220,7 @@ ${breadcrumbs(trail)}
 
   return layout({
     title: 'Site Directory: Every Recipe',
-    description: `Browse all ${total} Weekly Delight recipes in one list, grouped by category, with every cuisine and ingredient guide. Each has ingredients, method and nutrition.`,
+    description: `Browse all ${total} Weekly Delight recipes in one list, grouped by category, with every cuisine and ingredient guide. Each has ingredients and method.`,
     keywords: ['recipe index', 'all recipes', 'site directory', 'recipe list by category',
                'browse all recipes', 'weekly delight recipes'],
     path: 'site-directory/',

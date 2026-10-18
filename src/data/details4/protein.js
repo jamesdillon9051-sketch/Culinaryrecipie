@@ -50,8 +50,8 @@ module.exports = {
   },
 
   'salmon-quinoa-bowl': {
-    d: 'Salmon roasted just to the point of flaking, over quinoa with roasted broccoli and a dill-yoghurt sauce — a bowl that lands 40 g of protein a serving without much work.',
-    meta: 'Baked salmon and quinoa bowl with roasted broccoli and dill yoghurt — 40 g of protein a serving.',
+    d: 'Salmon roasted just to the point of flaking, over quinoa with roasted broccoli and a dill-yoghurt sauce — a bowl that lands 43 g of protein a serving without much work.',
+    meta: 'Baked salmon and quinoa bowl with roasted broccoli and dill yoghurt — 43 g of protein a serving.',
     kw: ['salmon quinoa bowl', 'high protein salmon', 'baked salmon recipe', 'healthy salmon bowl'],
     why: 'Salmon goes from perfect to dry in about two minutes, so the oven is set high and the time is short. Quinoa is rinsed because the saponin coating on the outside is genuinely bitter and rinsing is the whole fix. Roasting the broccoli rather than steaming it is not fussiness — the dry heat is what browns the edges and gives the bowl something other than soft textures.',
     ing: [
@@ -91,9 +91,9 @@ module.exports = {
   },
 
   'cottage-cheese-pancakes': {
-    d: 'Pancakes bound with cottage cheese and eggs rather than mostly flour, sweetened by nothing but a ripe banana, and carrying 31 g of protein a serving.',
-    meta: 'Cottage cheese protein pancakes — 31 g of protein a serving, sweetened only by ripe banana.',
-    kw: ['cottage cheese pancakes', 'protein pancakes', 'high protein breakfast', 'no added sugar pancakes'],
+    d: 'Pancakes bound with cottage cheese and eggs rather than mostly flour, sweetened by nothing but a ripe banana.',
+    meta: 'Cottage cheese protein pancakes bound with eggs rather than mostly flour, and sweetened only by ripe banana.',
+    kw: ['cottage cheese pancakes', 'protein pancakes', 'high protein breakfast', 'cottage cheese pancakes recipe'],
     why: 'Ordinary pancakes are flour and sugar with an egg for structure. Reversing the ratio — cottage cheese and eggs carrying a little oat flour — gives a batter that sets on protein rather than starch, so it browns quickly and stays tender. Blending the cottage cheese matters: left in curds it makes the pancakes weep, and blended it disappears entirely.',
     ing: [
       '250 g cottage cheese',
@@ -129,9 +129,9 @@ module.exports = {
   },
 
   'tuna-white-bean-salad': {
-    d: 'Tinned tuna and cannellini beans dressed with lemon, olive oil and red onion — the Tuscan store-cupboard lunch, and 43 g of protein without turning on the hob.',
-    meta: 'Tuna and white bean salad with lemon and red onion — 43 g of protein a serving, no cooking.',
-    kw: ['tuna white bean salad', 'tonno e fagioli', 'high protein lunch', 'no cook protein meal'],
+    d: 'Tinned tuna and cannellini beans dressed with lemon, olive oil and red onion — the Tuscan store-cupboard lunch, made without turning on the hob.',
+    meta: 'Tuna and white bean salad with lemon, olive oil and red onion — a store-cupboard lunch with no cooking.',
+    kw: ['tuna white bean salad', 'tonno e fagioli', 'no cook protein meal', 'tuna white bean salad recipe'],
     why: 'This is one of the few dishes where tinned is not a compromise: tuna in olive oil has a texture brine-packed tuna cannot reach, and the oil in the tin is part of the dressing. Soaking the sliced onion in the lemon juice for ten minutes takes the raw burn out of it while it sits, so no separate step is needed.',
     ing: [
       '2 tins tuna in olive oil, about 145 g each, oil reserved',
@@ -167,10 +167,10 @@ module.exports = {
   },
 
   'tofu-edamame-stir-fry': {
-    d: 'Firm tofu pressed, cornflour-crusted and fried hard, then tossed with edamame and greens in a garlic-ginger sauce. Vegan, and 42 g of protein a serving.',
-    meta: 'Tofu and edamame stir-fry with garlic and ginger — a vegan bowl with 42 g of protein a serving.',
+    d: 'Firm tofu pressed, cornflour-crusted and fried hard, then tossed with edamame and greens in a garlic-ginger sauce. Vegan, and 34 g of protein a serving.',
+    meta: 'Tofu and edamame stir-fry with garlic and ginger — a vegan bowl with 34 g of protein a serving.',
     kw: ['tofu edamame stir fry', 'high protein vegan', 'crispy tofu recipe', 'vegan muscle gain meal'],
-    why: 'Tofu is bland because it is wet, not because it is tofu. Pressing out the water and coating it in cornflour gives a surface that actually crisps, and a crisp surface holds sauce instead of shedding it. Edamame is doing quiet work here: 200 g adds around 22 g of protein, which is what takes this from a decent vegetable dish to a serious one.',
+    why: 'Tofu is bland because it is wet, not because it is tofu. Pressing out the water and coating it in cornflour gives a surface that actually crisps, and a crisp surface holds sauce instead of shedding it. Edamame is doing quiet work here: 200 g adds around 24 g of protein, which is what takes this from a decent vegetable dish to a serious one.',
     ing: [
       '# For the tofu',
       '400 g extra-firm tofu',
@@ -211,9 +211,9 @@ module.exports = {
   },
 
   'yogurt-marinated-chicken-skewers': {
-    d: 'Chicken thigh marinated in yoghurt, lemon and oregano, then grilled hard until the edges char. The yoghurt does the tenderising, and each serving carries 42 g of protein.',
-    meta: 'Yoghurt-marinated chicken skewers with lemon and oregano — 42 g of protein a serving, grilled hard.',
-    kw: ['yogurt marinated chicken', 'greek chicken skewers', 'high protein dinner', 'souvlaki style chicken'],
+    d: 'Chicken thigh marinated in yoghurt, lemon and oregano, then grilled hard until the edges char. The yoghurt does the tenderising.',
+    meta: 'Yoghurt-marinated chicken thigh skewers with lemon and oregano, grilled hard until the edges char.',
+    kw: ['yogurt marinated chicken', 'greek chicken skewers', 'souvlaki style chicken', 'yogurt marinated chicken recipe'],
     why: 'Yoghurt tenderises differently from an acid marinade. Lemon juice alone firms and then turns the surface of the meat chalky if left too long; the calcium and mild lactic acid in yoghurt work slowly and cannot overshoot in the same way, so an overnight marinade improves rather than ruins it. Thigh rather than breast because the extra fat survives a hard grill.',
     ing: [
       '# For the marinade',

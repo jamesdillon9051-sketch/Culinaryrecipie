@@ -156,7 +156,7 @@ module.exports = {
   'hummus-veggie-wrap': {
     d: 'Hummus spread over a whole-wheat tortilla and rolled around spinach, cucumber, red pepper, carrot and red cabbage. Two servings in 10 minutes.',
     meta: 'Hummus veggie wrap: hummus, spinach, cucumber, red pepper, carrot and red cabbage rolled in a whole-wheat tortilla. Vegan. Two servings in 10 minutes.',
-    kw: ['hummus veggie wrap', 'veggie wrap under 400 calories', 'vegan hummus wrap', 'dairy free hummus and vegetable wrap', 'no cook hummus veggie wrap'],
+    kw: ['hummus veggie wrap', 'vegan hummus wrap', 'dairy free hummus and vegetable wrap', 'no cook hummus veggie wrap'],
     why: 'Hummus, a handful of crisp vegetables and a whole-wheat tortilla: that is lunch in 10 minutes, with no stove. The hummus is both spread and seasoning. Nothing else is needed.\n\nSpread the hummus right to the edges, so every bite has some. **Dry the spinach well**, because wet leaves make the tortilla soggy within minutes. Keep the fillings thin. Cut the cucumber and pepper into thin sticks and grate the carrot, so the filling is easy to roll and has no large chunks to push through the wrap. Squeeze the lemon over the vegetables, not the hummus. A little paprika adds colour and a gentle smokiness.\n\nRoll tightly from one edge, tucking in the sides as you go. Cut it on the diagonal. Wrap it in baking parchment to hold it together. A wrapped roll keeps well in a lunch box for a day, and a large lettuce leaf makes a good swap for the tortilla if you want something lighter.',
     ing: [
       '2 whole-wheat tortillas, 20 cm across',
@@ -188,7 +188,7 @@ module.exports = {
   'turkey-avocado-wrap': {
     d: 'Sliced turkey breast, mashed avocado, tomato, lettuce and mustard rolled in a whole-wheat tortilla. Two servings in 10 minutes.',
     meta: 'Turkey avocado wrap: sliced turkey, mashed avocado with lime, tomato, lettuce and mustard in a whole-wheat tortilla. Two servings.',
-    kw: ['turkey avocado wrap', 'turkey wrap under 400 calories', 'dairy free turkey avocado wrap', 'no cook turkey wrap with avocado', 'easy turkey avocado wrap'],
+    kw: ['turkey avocado wrap', 'dairy free turkey avocado wrap', 'no cook turkey wrap with avocado', 'easy turkey avocado wrap'],
     why: 'It is a turkey sandwich with the bread swapped for a tortilla and the mayonnaise swapped for avocado. Mashed avocado with lime juice makes a creamy spread that holds the lettuce, tomato and turkey in place. Avocado gives the creaminess that mayonnaise usually supplies, with more fibre. It takes 10 minutes.\n\nMash the avocado with the lime juice until it spreads easily, and **spread it edge to edge** so the tortilla is sealed against the wet tomato. Order matters here. Lay the turkey over the avocado, then the lettuce, then the tomato, so the juicy slices sit in the middle and do not soak into the tortilla. Mustard adds a sharp note.\n\nDeli turkey varies a lot in salt, and some brands add sugar. Read the label and pick one with a short ingredient list. Wrap and slice the roll on the diagonal. Eat it the same day. A handful of spinach is a good addition.',
     ing: [
       '2 whole-wheat tortillas, 20 cm across',

@@ -294,7 +294,7 @@ module.exports = {
     rest: [60, 'resting'],
     d: 'Courgette planks salted, griddled and used in place of pasta, under a proper ragù and a béchamel. The griddling is what stops it flooding the dish.',
     meta: 'Courgette lasagne with the planks salted and griddled first, so the finished dish is not swimming. Gluten-free.',
-    kw: ['zucchini lasagna', 'courgette lasagne', 'low carb lasagna', 'gluten free lasagne'],
+    kw: ['zucchini lasagna', 'courgette lasagne', 'gluten free lasagne', 'zucchini lasagna recipe'],
     why: 'A courgette is over ninety per cent water and a lasagne made with raw planks releases all of it into the dish. Salting draws a large part of it out by osmosis in twenty minutes, and griddling drives off more while adding the browning that raw courgette lacks entirely. Between them they turn a watery idea into a dish that holds a slice. The ragù is also cooked drier than usual, because there is no pasta here to absorb liquid.',
     ing: [
       '# For the courgettes',
@@ -487,7 +487,7 @@ module.exports = {
   'baked-avocado-eggs': {
     d: 'An egg baked in the hollow of an avocado half, which sounds like a magazine idea and works because of one adjustment: scoop the hollow bigger before the egg goes in.',
     meta: 'Baked avocado eggs that actually work — the hollow scooped wider first, and the yolk added a few minutes late.',
-    kw: ['baked avocado eggs', 'avocado egg boats', 'egg in avocado', 'keto breakfast'],
+    kw: ['baked avocado eggs', 'avocado egg boats', 'egg in avocado', 'baked avocado eggs recipe'],
     why: 'The stone leaves a hollow smaller than an egg, so the usual version overflows and the white cooks in a puddle on the tray. Scooping another tablespoon out of each half fixes it. The second problem is timing: whites need longer than yolks, so cracking the egg into a bowl and adding the white first, then sliding the yolk in for the last five minutes, gives a set white and a runny yolk instead of the usual choice between them.',
     ing: [
       '2 large ripe avocados, halved and stoned',

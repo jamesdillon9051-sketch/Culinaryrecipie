@@ -82,7 +82,7 @@ module.exports = {
   'tofu-and-cabbage-stir-fry': {
     d: 'Crisp-fried tofu cubes tossed with shredded cabbage, carrot, garlic and ginger in a light low-sodium soy sauce. Three servings in 27 minutes.',
     meta: 'Tofu and cabbage stir-fry: crisp tofu with shredded cabbage, carrot, garlic and ginger in a light soy sauce. Vegan. Three servings.',
-    kw: ['tofu and cabbage stir fry', 'vegan tofu and cabbage stir fry', 'low sodium tofu cabbage stir fry', 'easy tofu stir fry for three'],
+    kw: ['tofu and cabbage stir fry', 'vegan tofu and cabbage stir fry', 'easy tofu stir fry for three', 'tofu and cabbage stir fry recipe'],
     why: 'Tofu in a stir-fry often falls apart or turns soggy. Be patient. The fix has three parts: press it, fry it first, and leave it alone until a crust forms, and after that the cubes hold their shape when the cabbage and sauce go in.\n\nCabbage cooks in about 4 minutes if it is shredded finely. **Shred it thin** and keep the pan hot, so that it wilts and chars instead of stewing. Carrot adds sweetness and colour. The sauce is low-sodium soy sauce, rice vinegar, cornflour and water, and it is just enough to glaze. Stir quickly, and serve before the cabbage loses its bite.\n\nTofu brings the protein, and cabbage brings bulk without much potassium or sodium. A single tablespoon of soy sauce serves three. Serve over white rice, which keeps the plate light in phosphorus compared with brown rice. Leftovers keep for two days and reheat in a hot pan.',
     ing: [
       '700 g extra-firm tofu, pressed and cubed',

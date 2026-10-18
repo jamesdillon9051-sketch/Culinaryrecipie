@@ -389,7 +389,7 @@ module.exports = {
   'menemen': {
     d: 'Turkish scrambled eggs cooked slowly into a base of peppers and tomatoes until just set — soft, saucy and eaten straight from the pan with bread.',
     meta: 'Turkish menemen — eggs softly scrambled into peppers and tomatoes. A 25-minute breakfast eaten straight from the pan.',
-    kw: ['menemen recipe', 'turkish eggs', 'tomato pepper eggs', 'low carb breakfast'],
+    kw: ['menemen recipe', 'turkish eggs', 'tomato pepper eggs', 'how to make menemen'],
     why: 'The eggs go in over very low heat and are stirred slowly so their proteins set into soft, loose curds suspended in the tomato rather than firming into dry lumps. Cooking the peppers down for a full ten minutes first drives off water so the finished dish is saucy, not watery.',
     ing: [
       '3 tbsp olive oil, or 30 g butter',

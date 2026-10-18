@@ -15,7 +15,7 @@ module.exports = {
   'turkey-pinwheels': {
     d: 'Whole-wheat tortillas spread with mustard cream cheese and rolled around turkey, spinach and cucumber, chilled and sliced into pinwheels. Six servings in 10 minutes.',
     meta: 'Turkey pinwheels: whole-wheat tortillas rolled around mustard cream cheese, turkey, spinach and cucumber, then chilled and sliced.',
-    kw: ['turkey pinwheels', 'turkey pinwheels under 400 calories', 'turkey and spinach pinwheel appetizer', 'no cook turkey pinwheels', 'easy turkey cream cheese pinwheels'],
+    kw: ['turkey pinwheels', 'turkey and spinach pinwheel appetizer', 'no cook turkey pinwheels', 'easy turkey cream cheese pinwheels'],
     why: 'Chilling is what holds a pinwheel together. Spread the filling right to the edges, roll the tortilla tightly, and let the roll rest in the fridge for 30 minutes before you slice it, because the cream cheese works as glue and firms up enough to keep every spiral in place.\n\nUse large whole-wheat tortillas, since small ones leave too few spirals. **Dry the spinach well** so the tortilla does not go soggy. Thin layers roll best. Keep the turkey in a single thin layer, because thick layers make the roll bulge and split. Reduced-fat cream cheese with a little Dijon mustard gives a tangy spread that seasons the whole roll.\n\nTrim the ends first. Slice with a serrated knife, using a gentle sawing motion rather than pressing down, and wipe the blade between cuts. Each tortilla makes about six pinwheels. They keep for 2 days in the fridge, wrapped tightly, which makes them useful for lunch boxes and parties.',
     ing: [
       '3 whole-wheat tortillas, 25 cm across',
