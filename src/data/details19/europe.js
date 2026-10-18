@@ -88,7 +88,7 @@ module.exports = {
       'Cool the pine nuts or they turn the basil dark.'
     ],
     pair: ['Garlic bread', 'A tomato salad', 'Cold white wine'],
-    store: 'Pesto keeps 5 days refrigerated under a film of oil, and freezes 3 months.',
+    store: 'Pesto keeps 4 days refrigerated under a film of oil, and freezes 3 months.',
     nut: [685, 18, 76, 34, 5, 4, 890]
   },
 

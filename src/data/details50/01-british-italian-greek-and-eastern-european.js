@@ -200,7 +200,7 @@ module.exports = {
     ],
     st: [
       'Blend the chillies, garlic, red pepper, lemon juice, olive oil, paprika, oregano, salt and sugar to a smooth sauce.',
-      'Slash each chicken thigh twice. Coat with two-thirds of the sauce, cover and marinate for 1 hour.',
+      'Slash each chicken thigh twice. Coat with two-thirds of the sauce, cover and marinate in the fridge for 1 hour.',
       'Heat the oven to 220°C (200°C fan). Put the thighs on a rack over a roasting tray.',
       'Roast for 35 minutes, turning once, until charred and cooked through. Brush with the remaining sauce for the last 5 minutes.'
     ],

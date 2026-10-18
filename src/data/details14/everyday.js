@@ -43,7 +43,7 @@ module.exports = {
       'Squeeze the chillies genuinely dry or it will not keep.'
     ],
     pair: ['Any dish in this volume', 'Bread and olive oil', 'Grilled fish'],
-    store: 'Refrigerated under a film of oil for 2 months. Top the oil up after each use. It freezes in tablespoon portions for a year.',
+    store: 'Refrigerated under a film of oil for up to 4 days; top the oil up after each use. Raw garlic held in oil can carry botulism, which the oil seal does not stop, so for longer keeping freeze it in tablespoon portions, for up to a year.',
     nut: [75, 2, 6, 5, 3, 3, 420]
   },
 

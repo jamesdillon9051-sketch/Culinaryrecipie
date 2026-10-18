@@ -393,7 +393,7 @@ module.exports = {
       '500 ml water'
     ],
     st: [
-      'Mix the chicken with 2 tbsp of the curry powder, the thyme, garlic, spring onions and salt. Cover and leave for 1 hour.',
+      'Mix the chicken with 2 tbsp of the curry powder, the thyme, garlic, spring onions and salt. Cover and leave in the fridge for 1 hour.',
       'Heat the oil in a heavy pot and brown the chicken for 8 minutes. Remove.',
       'Add the onion and cook for 4 minutes. Add the remaining curry powder and cook for 1 minute.',
       'Return the chicken, add the scotch bonnet, potatoes and water. Cover and simmer for 35 minutes until the chicken and potatoes are tender and the sauce is thick.',
@@ -433,7 +433,7 @@ module.exports = {
       '400 ml water'
     ],
     st: [
-      'Mix the chicken with the onion, garlic, thyme, allspice, pepper, salt and soy sauce. Cover and leave for 1 hour.',
+      'Mix the chicken with the onion, garlic, thyme, allspice, pepper, salt and soy sauce. Cover and leave in the fridge for 1 hour.',
       'Heat the sugar and oil in a heavy pot until the sugar melts, foams and turns dark brown, about 4 minutes.',
       'Add the chicken and stir for 5 minutes until browned and coated. Add the tomatoes, carrots, scotch bonnet, ketchup and water.',
       'Cover and simmer for 30 minutes until the chicken is tender and the gravy is thick. Remove the scotch bonnet.'

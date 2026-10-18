@@ -6,7 +6,7 @@ module.exports = {
     d: 'Duck legs cured in salt overnight, then cooked submerged in their own fat until the meat gives at a touch. A preservation method from before refrigeration that survives because nothing else tastes like it.',
     meta: 'Duck confit — legs salt-cured overnight then poached in duck fat until meltingly tender, crisped to serve.',
     kw: ['duck confit recipe', 'confit de canard', 'french duck legs', 'duck in duck fat'],
-    why: 'Fat is not a cooking liquid in the way water is: it carries no moisture, so the duck poaches at a steady low temperature without ever boiling or drying. The overnight salt cure draws out water and seasons the meat right through, which is what makes confit keep for months under its own fat.',
+    why: 'Fat is not a cooking liquid in the way water is: it carries no moisture, so the duck poaches at a steady low temperature without ever boiling or drying. The overnight salt cure draws out water and seasons the meat right through, and it is what once let confit keep under its own fat before refrigeration.',
     ing: [
       '# For the cure',
       '4 duck legs',
@@ -29,7 +29,7 @@ module.exports = {
       'Pack the legs snugly in a deep casserole and pour over the melted duck fat until they are fully submerged.',
       'Cook uncovered for 2½ to 3 hours. The fat should barely tremble — if it bubbles, drop the oven 10 degrees.',
       'The confit is ready when a skewer meets no resistance and the meat has pulled back from the bone.',
-      'Cool the legs in the fat. At this point they keep for weeks refrigerated, sealed under a layer of it.',
+      'Cool the legs in the fat. Refrigerate them within 2 hours, sealed under a layer of it.',
       'To serve, lift a leg out, scrape off excess fat, and crisp it skin side down in a dry frying pan over medium heat for 6 to 8 minutes until the skin is lacquered and brittle.'
     ],
     tips: [
@@ -38,7 +38,7 @@ module.exports = {
       'Strain and keep the fat afterwards. It will do this job several more times and makes the best roast potatoes there are.'
     ],
     pair: ['Sautéed potatoes cooked in the same fat', 'A Cahors or Madiran', 'A sharp frisée salad'],
-    store: 'Submerged in its fat, confit keeps 1 month refrigerated. Crisped, eat immediately.',
+    store: 'Submerged in its fat, confit keeps 4 days refrigerated; freeze the legs in their fat for longer keeping. Crisped, eat immediately.',
     nut: [686, 44, 2, 56, 0, 0, 1420]
   },
 
@@ -255,7 +255,7 @@ module.exports = {
       'Beat the cold pastry cream smooth and spread it inside, leaving a 1 cm border clear.',
       'Roll the second portion between baking paper into a disc and lay it over the top, pinching the edges to seal.',
       'Chill 30 minutes, then brush with the yolk glaze and score a crosshatch across the top with a fork.',
-      'Bake at 180°C / 350°F for 45 to 50 minutes until deep golden. Cool completely in the tin before releasing.'
+      'Bake at 180°C / 350°F for 45 to 50 minutes until deep golden. Cool in the tin, moving it to the fridge within 2 hours of baking, and release it once completely cold.'
     ],
     tips: [
       'The dough is sticky by design. Chill it rather than adding flour.',
@@ -263,7 +263,7 @@ module.exports = {
       'For the cherry version, swap the cream for 300 g of black cherry jam — the Basque original.'
     ],
     pair: ['Coffee', 'A glass of Jurançon', 'Fresh cherries alongside'],
-    store: 'Keeps 4 days in an airtight tin. Do not freeze — the pastry cream separates.',
+    store: 'Keeps 4 days in the fridge, covered; the pastry cream is egg and milk, so the cake should not sit out for more than 2 hours. Do not freeze — the pastry cream separates.',
     nut: [512, 9, 58, 27, 3, 30, 240]
   },
 

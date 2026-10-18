@@ -660,7 +660,7 @@ module.exports = {
     why: 'Hollandaise is an emulsion of butter in egg yolk, stabilised by lecithin, and it splits when the butter goes in too fast or the mixture exceeds about 65°C. A blender solves both problems: it shears the butter into tiny droplets and the yolks are warmed only by the butter itself, never by direct heat.',
     ing: [
       '# For the hollandaise',
-      '3 large egg yolks',
+      '3 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '180 g unsalted butter, melted and hot',
       '1 tbsp lemon juice',
       '1 tsp white wine vinegar',

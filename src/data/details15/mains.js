@@ -502,7 +502,7 @@ module.exports = {
       '0.5 tsp black pepper',
       '30 g flat-leaf parsley, chopped',
       '# To finish',
-      '4 egg yolks',
+      '4 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       'Toasted sourdough',
       'Chips'
     ],

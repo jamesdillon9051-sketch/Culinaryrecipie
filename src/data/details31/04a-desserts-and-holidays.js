@@ -234,7 +234,7 @@ module.exports = {
       'Unroll the second tube of dough and lay it over the filling, sealing the seams and pressing the edges against the sides of the dish.',
       'Mix the 100 g sugar with the cinnamon. Pour the melted butter over the top and spread it to the edges with a brush, then sprinkle over the cinnamon sugar.',
       'Bake for 30 to 35 minutes, until the top is deep golden and the filling is set. Drizzle with the honey.',
-      'Cool to room temperature, then refrigerate for at least 2 hours before cutting into squares.'
+      'Cool for no more than 2 hours, then refrigerate for at least 2 hours before cutting into squares.'
     ],
     tips: [
       'Beat the cream cheese until there are no lumps, and let it soften at room temperature before you start. Cold cheese leaves white flecks in the filling.',

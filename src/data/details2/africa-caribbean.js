@@ -275,7 +275,7 @@ module.exports = {
     st: [
       'Rinse the goat with the vinegar and cold water, then drain and pat dry.',
       'Rub it with 2 tablespoons of the curry powder, the allspice, turmeric, half the garlic, ginger, spring onions, the chopped scotch bonnet, salt and pepper.',
-      'Marinate at least 4 hours, ideally overnight.',
+      'Cover and marinate in the fridge for at least 4 hours, ideally overnight.',
       'Heat the oil in a heavy pot over medium heat and add the remaining 2 tablespoons of curry powder. Fry it for 60 to 90 seconds until it darkens and the oil turns deep yellow — this is burning the curry.',
       'Add the goat in batches and brown hard for 5 minutes a batch, scraping the base.',
       'Return all the meat, add the onions and remaining garlic, and cook 5 minutes.',

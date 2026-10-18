@@ -172,7 +172,7 @@ module.exports = {
       'Guacamole, pico de gallo and lime wedges'
     ],
     st: [
-      'Whisk the lime juice, the 3 tablespoons of oil, garlic, chilli powder, cumin, paprika, oregano, salt and pepper together in a shallow dish. Add the steak, turn to coat and leave at room temperature for 30 minutes.',
+      'Whisk the lime juice, the 3 tablespoons of oil, garlic, chilli powder, cumin, paprika, oregano, salt and pepper together in a shallow dish. Add the steak, turn to coat, cover and leave in the fridge for 30 minutes.',
       'Heat a large cast iron pan over high heat for 4 minutes, until it smokes. Lift the steak from the marinade, letting the excess drip off, and lay it in the pan. Cook for 2 to 3 minutes on each side, until deeply browned and medium-rare in the middle.',
       'Move the steak to a board and let it rest for 8 minutes.',
       'Add the tablespoon of oil to the same pan. Cook the onions and peppers over high heat for 6 minutes, stirring now and then, until charred at the edges but still slightly crisp. Season with the salt.',

@@ -282,7 +282,7 @@ module.exports = {
     st: [
       'Set a heatproof bowl over a pan of barely simmering water, with the base of the bowl clear of the water.',
       'Whisk the egg yolks and sugar until pale, then add the Marsala.',
-      'Whisk continuously for 8 to 10 minutes until the mixture has tripled in volume and forms soft ribbons.',
+      'Whisk continuously for 8 to 10 minutes until the mixture has tripled in volume, forms soft ribbons and reaches 71°C / 160°F on a thermometer.',
       'Spoon into glasses and serve at once with the strawberries and sponge fingers.'
     ],
     tips: [

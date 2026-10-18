@@ -292,10 +292,10 @@ module.exports = {
     d: 'Salmon cured for two days under salt, sugar and a great deal of dill, then sliced paper-thin and served with a sweet mustard sauce. No heat, no smoke, and almost no effort.',
     meta: 'Gravlax — Nordic dill-cured salmon with salt and sugar, sliced thin and served with mustard sauce.',
     kw: ['gravlax recipe', 'cured salmon', 'dill cured salmon', 'hovmastarsas'],
-    why: 'Salt and sugar draw water out of the fish by osmosis and replace it with a saline, sugary solution that firms the flesh and makes it safe to eat raw — the ratio matters, and a salt-only cure gives something closer to salt fish than gravlax. Weighting the fillets presses out the liquid faster and gives an even, dense texture.',
+    why: 'Salt and sugar draw water out of the fish by osmosis and replace it with a saline, sugary solution that firms the flesh — the ratio matters, and a salt-only cure gives something closer to salt fish than gravlax. Weighting the fillets presses out the liquid faster and gives an even, dense texture.',
     ing: [
       '# For the cure',
-      '1 kg salmon fillet, skin on, pin-boned, in two even pieces',
+      '1 kg salmon fillet, farmed or previously frozen to kill parasites, skin on, pin-boned, in two even pieces',
       '150 g coarse sea salt',
       '150 g caster sugar',
       '2 tbsp crushed white peppercorns',
@@ -327,7 +327,7 @@ module.exports = {
     tips: [
       'Equal weights of salt and sugar. Shifting the ratio either way changes the character completely.',
       'Weight it properly and drain the liquid, or the fish sits in brine and cures unevenly.',
-      'Use very fresh salmon from a fishmonger you trust, or previously frozen fish, since it is never cooked.'
+      'Use farmed salmon sold for eating raw, or wild salmon frozen first to kill parasites, since the cure does not kill them and the fish is never cooked.'
     ],
     pair: ['Rye bread or crispbread with butter', 'Ice-cold aquavit', 'Boiled new potatoes with dill'],
     store: 'Keeps 5 days refrigerated, wrapped, once cured. Sliced gravlax freezes 1 month.',

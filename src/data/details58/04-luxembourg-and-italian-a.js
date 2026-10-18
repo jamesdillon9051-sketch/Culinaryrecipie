@@ -320,7 +320,7 @@ module.exports = {
     kw: ['semifreddo', 'italian semifreddo', 'semifreddo with nougat', 'frozen dessert without ice cream machine', 'semifreddo recipe'],
     why: 'Semifreddo means half cold, and it is as close as you get to ice cream without a machine. It is a mousse of whipped cream and beaten egg set solid in the freezer, which slices cleanly and softens on the plate in a minute or two.\n\nThere are three things to get right. Beat the egg yolks with the sugar for a full 5 minutes until pale and thick, because that is what gives the structure. Whip the cream to soft peaks only, as stiff cream turns grainy when folded. **Fold in two stages, not one**, so the mixture stays airy. Then stir in crushed torrone or any nougat for crunch.\n\nLine a loaf tin with cling film, pour in the mixture and freeze for at least 6 hours. Turn out onto a board, peel off the film and slice with a knife dipped in hot water. It keeps for a month, so you can make it ahead. Serve it with berries or a chocolate sauce.',
     ing: [
-      '4 egg yolks',
+      '4 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '100 g caster sugar',
       '400 ml double cream',
       '150 g torrone or soft nougat, chopped',
@@ -462,7 +462,7 @@ module.exports = {
     ],
     st: [
       'Cut out the backbone of the chicken with scissors and press the bird flat.',
-      'Mix the oil, chilli, garlic, lemon zest, rosemary, salt and pepper and rub all over the chicken. Marinate for 1 hour.',
+      'Mix the oil, chilli, garlic, lemon zest, rosemary, salt and pepper and rub all over the chicken. Cover and marinate in the fridge for 1 hour.',
       'Heat the oven to 220C. Pat the skin dry and lay the chicken skin side up on a tray.',
       'Roast for 40 minutes until the skin is crisp and the juices run clear.',
       'Rest for 10 minutes, squeeze over the lemon juice and cut into pieces.'

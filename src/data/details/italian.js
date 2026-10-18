@@ -67,8 +67,8 @@ module.exports = {
     ing: [
       '400 g dried spaghetti',
       '150 g guanciale, cut into 1 cm lardons',
-      '4 large egg yolks',
-      '1 large whole egg',
+      '4 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
+      '1 large whole egg, pasteurised or Lion-stamped',
       '80 g Pecorino Romano, finely grated, plus extra to serve',
       '2 tsp black peppercorns, coarsely cracked',
       '1 tbsp fine sea salt, for the pasta water'
@@ -422,7 +422,7 @@ module.exports = {
       'Cover stored pesto with a 5 mm film of olive oil to seal it from air.'
     ],
     pair: ['Vermentino from Liguria is the local pairing', 'Serve with green beans and waxy potatoes tossed through', 'Lemon granita to finish'],
-    store: 'Refrigerate under a layer of oil for 5 days, or freeze in ice-cube trays for 6 months. Add the cheese after thawing if freezing for best texture.',
+    store: 'Refrigerate under a layer of oil for up to 4 days, or freeze in ice-cube trays for 6 months. Add the cheese after thawing if freezing for best texture.',
     nut: [668, 20, 70, 35, 4, 3, 640]
   },
 
@@ -673,7 +673,7 @@ module.exports = {
       'Take off the heat and let it infuse for 10 minutes, then remove the pod.',
       'Squeeze the gelatine dry and whisk it into the warm cream until completely dissolved.',
       'Pass through a fine sieve into a jug — this catches any undissolved gelatine and guarantees a flawless texture.',
-      'Pour into six moulds or glasses. Cool to room temperature, then refrigerate for at least 4 hours until just set.',
+      'Pour into six moulds or glasses. Cool for no more than 2 hours, then refrigerate for at least 4 hours until just set.',
       'Toss the berries with a tablespoon of sugar and let them macerate for 20 minutes to draw out a syrup.',
       'To unmould, dip each mould in hot water for 3 seconds and invert onto a plate. Spoon the berries alongside.'
     ],

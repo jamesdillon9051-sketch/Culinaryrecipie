@@ -58,7 +58,7 @@ module.exports = {
       '# For the dressing',
       '6 anchovy fillets in oil, drained',
       '2 garlic cloves',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '2 tbsp lemon juice',
       '1 tbsp Dijon mustard',
       '1 tsp Worcestershire sauce',
@@ -85,7 +85,7 @@ module.exports = {
     tips: [
       'Two minutes of massaging, properly. Thirty seconds does nothing.',
       'Strip the stems out. They never soften and they ruin every mouthful they are in.',
-      'The dressing contains raw egg yolk, so use a good egg and keep it refrigerated.'
+      'The dressing is raw egg yolk and oil, so keep it in the fridge until it goes on the kale.'
     ],
     pair: ['Grilled chicken', 'A cold Chablis', 'Roasted tomatoes'],
     store: 'Dressed kale keeps 2 days refrigerated and is arguably better on day two. Add the croutons at the last minute.',

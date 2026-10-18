@@ -43,7 +43,7 @@ module.exports = {
       'Keep it warm at the table, not hot.'
     ],
     pair: ['Raw vegetables', 'A glass of Barbera', 'Boiled eggs'],
-    store: 'Refrigerated for 5 days. Rewarm very gently — it separates if boiled.',
+    store: 'Refrigerated for up to 4 days. Rewarm very gently — it separates if boiled.',
     nut: [320, 6, 3, 32, 0, 1, 890]
   },
 
@@ -56,7 +56,7 @@ module.exports = {
       '400 g beef fillet, in one piece, all sinew removed',
       '2 tbsp olive oil, for the film',
       '# For the sauce',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tsp Worcestershire sauce',
       '150 ml sunflower oil',

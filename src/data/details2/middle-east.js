@@ -168,7 +168,7 @@ module.exports = {
       'A handful mint leaves, torn',
       'Toasted pine nuts',
       'Warm flatbread, cucumber and radishes',
-      '# For preserved labneh balls, optional',
+      '# For labneh balls in oil, optional',
       'Olive oil, to cover',
       'Dried mint, chilli flakes and thyme'
     ],
@@ -181,15 +181,15 @@ module.exports = {
       'Scrape the labneh out of the cloth into a bowl and beat it briefly until smooth.',
       'Spread it onto a shallow plate with the back of a spoon, making broad swirls and a well in the middle.',
       'Pour the olive oil into the well so it pools, then scatter over za\'atar, sumac, mint and pine nuts.',
-      'For labneh balls, roll 36-hour labneh into walnut-sized spheres with oiled hands, pack into a sterilised jar, cover completely with olive oil and add dried herbs.'
+      'For labneh balls, roll 36-hour labneh into walnut-sized spheres with oiled hands, pack into a sterilised jar, cover completely with olive oil and add dried herbs. Keep the jar in the fridge.'
     ],
     tips: [
       'Full-fat yoghurt only. Low-fat versions strain to a chalky, grainy paste.',
       'Do not throw the whey away. It is excellent in bread and pancake batters.',
-      'Labneh balls under oil keep for a month in the fridge and make an outstanding gift.'
+      'Labneh balls under oil are for the week they are made, not for the cupboard: keep them in the fridge and eat them within 4 days.'
     ],
     pair: ['Warm flatbread and raw vegetables', 'A wider mezze spread', 'Mint tea'],
-    store: 'Refrigerate up to 1 week, covered. Balls under olive oil keep 1 month. It does not freeze.',
+    store: 'Refrigerate up to 1 week, covered. Balls under olive oil with dried herbs keep 4 days in the fridge: herbs held in oil can carry botulism, and the oil does not stop it. It does not freeze.',
     nut: [197, 12, 8, 13, 0, 6, 420]
   },
 
@@ -319,7 +319,7 @@ module.exports = {
       'Sahawiq (Yemeni green chilli sauce)'
     ],
     st: [
-      'Rub the lamb all over with the combined spices, salt and ghee. Marinate at least 4 hours, ideally overnight.',
+      'Rub the lamb all over with the combined spices, salt and ghee. Cover and marinate in the fridge for at least 4 hours, ideally overnight.',
       'Heat the oven to 160°C / 320°F.',
       'Fry the onion in ghee in a large ovenproof pot for 10 minutes until golden, then add the whole spices, bay and turmeric.',
       'Drain the rice, add it to the pot and toast 3 minutes, then pour in the stock and salt and bring to the boil.',

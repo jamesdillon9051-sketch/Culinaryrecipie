@@ -422,7 +422,7 @@ module.exports = {
       '150 g dark chocolate, melted'
     ],
     st: [
-      'Heat the oven to 175C. Line a 20 cm square tin. Spread 150 g of flour on a tray and bake for 5 minutes for the topping, then cool.',
+      'Heat the oven to 175C. Line a 20 cm square tin. Spread 150 g of flour for the topping on a tray and bake for 5 minutes, until a thermometer pushed into it reads 74°C / 165°F, then cool.',
       'Mix the melted butter and 150 g brown sugar. Beat in the egg and vanilla, then stir in 150 g flour, baking powder, salt and 100 g chips.',
       'Press the dough into the tin and bake for 25 minutes. Cool completely.',
       'Beat the soft butter and 120 g brown sugar until fluffy. Stir in the heat-treated flour, milk, salt and chips.',

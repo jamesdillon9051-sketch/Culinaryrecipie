@@ -196,7 +196,7 @@ module.exports = {
       'Stir often near the end. The thick mixture catches on the bottom of the pan and burns easily.'
     ],
     pair: ['Fresh crusty bread', 'White cheese', 'Grilled meats'],
-    store: 'Keep in clean jars in the fridge up to 2 weeks, with a thin layer of oil on top. Freeze for 3 months.',
+    store: 'Keep in clean jars in the fridge up to 4 days, with a thin layer of oil on top. Freeze for 3 months.',
     nut: [183, 3, 18, 11, 5, 11, 250]
   },
 

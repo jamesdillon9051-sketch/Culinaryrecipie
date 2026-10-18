@@ -207,7 +207,7 @@ module.exports = {
     kw: ['lomi lomi salmon', 'lomi salmon', 'hawaiian lomi lomi salmon', 'lomi lomi salmon recipe', 'hawaiian salmon salad'],
     why: 'Lomi lomi salmon is a fixture of the Hawaiian luau, the cold, salty and fresh salad that sits beside the rich kalua pork and the poi. Lomi means to massage or to rub in Hawaiian, and the salmon is diced and worked together with the tomatoes and onion by hand, which is where the dish gets its name. Salmon does not live in Hawaiian waters. The fish arrived in the nineteenth century, in barrels of salted salmon that came on trading ships from the North American Pacific coast, and Hawaiian cooks combined it with local tomatoes and sweet onion, and it has been a party dish ever since. The salt cure is the important part. It firms the flesh and seasons it through, and then the fish is rinsed and diced so it is savoury rather than salty. Everything is served cold, often on a bed of ice, because the salad is meant to be refreshing next to hot, smoky meat. It is a simple dish with a great deal of flavour, but it depends on the quality of its three main ingredients. Use salmon that is very fresh, tomatoes that are properly ripe, and a sweet onion, and keep everything well chilled until the moment of serving.',
     ing: [
-      '500 g skinless salmon fillet, very fresh or previously frozen, of a quality suitable for eating raw',
+      '500 g skinless salmon fillet, farmed or previously frozen to kill parasites, of a quality suitable for eating raw',
       '2 tbsp coarse sea salt',
       '3 large ripe tomatoes (about 350 g), deseeded and finely diced',
       '1 small sweet onion (about 100 g), finely diced',

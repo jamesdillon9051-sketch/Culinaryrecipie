@@ -43,7 +43,7 @@ module.exports = {
     ],
     st: [
       'Mix the lime juice, 2 tbsp of the oil, cumin, paprika, oregano, garlic powder, cayenne and salt.',
-      'Turn the chicken through it and leave 20 minutes at room temperature.',
+      'Turn the chicken through it, cover and leave in the fridge for 20 minutes.',
       'Heat a heavy frying pan over the highest heat for 4 minutes, until it smokes.',
       'Add the remaining oil and the peppers and onions and cook 5 minutes, stirring only twice, until blackened at the edges but still firm. Tip onto a plate.',
       'Add the chicken in a single layer and leave it untouched for 90 seconds.',

@@ -550,7 +550,7 @@ module.exports = {
       'Skim off every bubble from the surface — bubbles bake into pockmarks.',
       'Set the case on the oven shelf, pour the custard in to the brim and grate nutmeg generously over.',
       'Bake at 120C fan / 140C / gas 1 for 45 minutes, until set at the edges with a distinct wobble at the centre.',
-      'Cool completely, at least 2 hours, then trim the pastry edge flush before slicing.'
+      'Cool for 2 hours, then trim the pastry edge flush and slice; refrigerate what is left.'
     ],
     rest: [200, 'chilling the pastry and cooling the tart to set'],
     tips: [

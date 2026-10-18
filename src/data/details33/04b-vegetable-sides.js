@@ -250,7 +250,7 @@ module.exports = {
       'Save any oil left on the tray; it is full of flavour.'
     ],
     pair: ['A slice of wholegrain toast', 'Grilled fish', 'A grain bowl'],
-    store: 'Keeps in the fridge for up to 5 days, covered with a little of their own oil.',
+    store: 'Keeps in the fridge for up to 4 days, covered with a little of their own oil.',
     nut: [64, 1, 6, 4, 2, 4, 200]
   },
 

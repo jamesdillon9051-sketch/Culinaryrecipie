@@ -890,7 +890,7 @@ module.exports = {
     ],
     st: [
       'Combine half the fish sauce, sugar, oyster sauce, garlic, shallots, pepper and turmeric with the minced pork and knead for 2 minutes until sticky. Do the same with the belly slices and the other half.',
-      'Marinate both for at least 1 hour, ideally 4.',
+      'Cover and marinate both in the fridge for at least 1 hour, ideally 4.',
       'For the broth, dissolve the sugar in the warm water, then add the fish sauce, lime juice and vinegar. Taste — it should be mild enough to sip. Add the garlic, chilli, carrot and papaya and leave 30 minutes to pickle lightly.',
       'Shape the minced pork into 12 flat patties about 5 cm across.',
       'Grill the patties and belly slices over charcoal or on a very hot griddle for 4 to 5 minutes a side, until charred at the edges and cooked through.',

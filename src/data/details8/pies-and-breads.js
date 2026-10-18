@@ -172,7 +172,7 @@ module.exports = {
       'Slide it out of the tin onto a rack immediately, or the base steams and softens. Eat warm.'
     ],
     tips: [
-      'The confit keeps for two weeks in the fridge under its oil, and the oil is worth making double of for everything else you cook that week.',
+      'The confit keeps for 4 days in the fridge under its oil; garlic held in oil can carry botulism, so freeze what you will not use by then.',
       'Dimple hard, right through to the tin. Timid dimples spring back and you get a flat loaf instead of a pocketed one.',
       'A metal tin, well oiled. Glass and ceramic will not fry the base to the crisp underside that makes focaccia focaccia.'
     ],

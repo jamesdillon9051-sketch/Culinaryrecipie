@@ -295,7 +295,7 @@ module.exports = {
     st: [
       'Put the lamb in a large pot with the cold water, bring slowly to a simmer and skim the grey foam off carefully for the first 10 minutes.',
       'Add the bay, thyme and salt, half cover, and simmer very gently for 1 1/2 hours until the lamb is tender.',
-      'Ideally cool the pot overnight in the fridge, then lift off the set fat. If cooking straight through, spoon the fat off the surface.',
+      'Ideally divide it between shallow containers, refrigerate within 2 hours and leave overnight, then lift off the set fat. If cooking straight through, spoon the fat off the surface.',
       'Bring the broth back to a simmer and add the onions, carrots, swede and parsnips. Cook 20 minutes.',
       'Add the potatoes and cook another 15 minutes until everything is tender.',
       'Add the leeks and cabbage and cook 8 minutes only, so they keep their colour.',

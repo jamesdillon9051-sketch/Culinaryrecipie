@@ -228,7 +228,7 @@ module.exports = {
       'Whisk the 200 g of caster sugar with the 3 tablespoons of flour, then whisk in the eggs, cream, orange zest and nutmeg until smooth.',
       'Scatter the rhubarb over the pastry case and pour the custard mixture over it.',
       'Bake for 15 minutes, then reduce the oven to 175°C / 350°F (155°C fan) and bake for 40 to 45 minutes more, until the custard is just set with a slight wobble in the middle. Cover the edge of the crust with foil if it is browning too fast.',
-      'Leave the pie to cool on a wire rack for at least 2 hours, so that the custard sets, before slicing.'
+      'Leave the pie to cool on a wire rack for 2 hours, so that the custard sets, then slice it or refrigerate it.'
     ],
     tips: [
       'Cut the rhubarb into even pieces about 2 cm long. Thick stalks take longer to soften, and chunks of different sizes bake unevenly.',

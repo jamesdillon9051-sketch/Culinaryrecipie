@@ -25,7 +25,7 @@ module.exports = {
       '1 lemon slice and 1 cocktail cherry, to garnish'
     ],
     st: [
-      'Put the amaretto, lemon juice, sugar syrup and egg white, if using, in a cocktail shaker and shake hard for 10 seconds without ice, to make the foam.',
+      'Put the amaretto, lemon juice, sugar syrup and egg white, if using (from a pasteurised egg, or a British Lion-stamped egg in the UK), in a cocktail shaker and shake hard for 10 seconds without ice, to make the foam.',
       'Add a handful of ice and shake hard for 12 seconds, until the outside of the shaker is frosted.',
       'Strain into a rocks glass filled with fresh ice.',
       'Dot the bitters on the foam, if using, and garnish with the lemon slice and the cherry on a pick.'

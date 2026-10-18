@@ -334,7 +334,7 @@ module.exports = {
       'Smoking oil over the raw ginger and scallion, not the other way round.'
     ],
     pair: ['Steamed rice', 'Blanched choy sum', 'A clear soup'],
-    store: 'Refrigerated for 3 days and eaten cold. The oil keeps 2 weeks.',
+    store: 'Refrigerated for 3 days and eaten cold. The ginger scallion oil keeps 4 days in the fridge.',
     nut: [520, 48, 4, 35, 1, 2, 1290]
   },
 

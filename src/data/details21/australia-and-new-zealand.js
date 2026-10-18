@@ -446,7 +446,7 @@ module.exports = {
       'Buttered white bread, to serve'
     ],
     st: [
-      'Pat the whitebait dry on paper towels. If frozen, thaw them completely in a sieve and drain well.',
+      'If the whitebait are frozen, thaw them completely in a sieve set over a bowl in the fridge, and drain well. Pat them dry on paper towels.',
       'Whisk the eggs with the salt and pepper for 1 to 2 minutes, until frothy and pale.',
       'Fold in the whitebait and lemon juice.',
       'Heat half the butter and oil in a large non-stick pan over medium heat until foaming.',

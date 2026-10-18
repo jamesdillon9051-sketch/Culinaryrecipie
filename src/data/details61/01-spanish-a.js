@@ -396,7 +396,7 @@ module.exports = {
       'Make plenty, as they vanish quickly.'
     ],
     pair: ['Txakoli', 'Dry sherry', 'Cold beer'],
-    store: 'Keeps for 4 hours at room temperature.',
+    store: 'Keeps for up to 2 hours at room temperature; after that, cover and refrigerate.',
     nut: [70, 2, 2, 6, 1, 1, 370]
   },
 
@@ -534,7 +534,7 @@ module.exports = {
       'Let it stand for an hour to mellow.'
     ],
     pair: ['Wrinkled potatoes', 'Grilled meat', 'Grilled fish', 'Bread'],
-    store: 'Keeps for 1 week in the fridge under a layer of oil.',
+    store: 'Keeps for 4 days in the fridge under a layer of oil; freeze it for longer keeping.',
     rest: [90, 'Soaking and standing'],
     nut: [150, 1, 5, 14, 1, 3, 300]
   },
@@ -714,7 +714,7 @@ module.exports = {
       '350 g dried white beans, soaked overnight',
       '300 g pork shoulder',
       '300 g smoked ham bone',
-      '200 g salted pork belly, soaked 12 hours',
+      '200 g salted pork belly, soaked 12 hours in the fridge',
       '2 litres water',
       '600 g potatoes, in chunks',
       '400 g turnip tops or kale',

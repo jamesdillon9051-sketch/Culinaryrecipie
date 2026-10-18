@@ -358,7 +358,7 @@ module.exports = {
       'Cool before squeezing.'
     ],
     pair: ['Crusty bread', 'Mashed potato', 'Soft cheese', 'Roast chicken'],
-    store: 'Keeps in the fridge in a covered jar of oil for up to 1 week.',
+    store: 'Keeps in the fridge in a covered jar of oil for up to 4 days. Garlic held in oil, roasted or raw, can carry botulism, so freeze it for longer keeping.',
     nut: [0, 0, 0, 0, 0, 0, 0]
   },
 

@@ -168,7 +168,7 @@ module.exports = {
       '1 tsp sweet paprika, to dust'
     ],
     st: [
-      'Whisk the olive oil, vinegar, garlic, spices, salt and pepper together and coat the pork slices thoroughly. Marinate at least 6 hours or overnight.',
+      'Whisk the olive oil, vinegar, garlic, spices, salt and pepper together and coat the pork slices thoroughly. Cover and marinate in the fridge for at least 6 hours or overnight.',
       'Stack the slices tightly onto two long skewers driven vertically through them, building a compact block about 15 cm tall. Press down hard as you go.',
       'Stand the skewers upright in a roasting tin — resting on a halved onion works well — and roast at 200°C / 390°F for 60 to 70 minutes.',
       'Turn the tin every 20 minutes for even browning, and baste with the rendered fat that collects.',
@@ -390,7 +390,7 @@ module.exports = {
       'Good tahini should pour like double cream and taste nutty, not bitter. It is the main ingredient here.'
     ],
     pair: ['A glass of arak with ice, or a crisp white', 'Serve with warm flatbread, olives and pickles', 'Excellent with falafel'],
-    store: 'Refrigerate 5 days under a film of olive oil. Freezes 3 months; re-whip with a splash of ice water after thawing.',
+    store: 'Refrigerate 4 days under a film of olive oil. Freezes 3 months; re-whip with a splash of ice water after thawing.',
     nut: [386, 14, 28, 26, 8, 3, 620]
   },
 
@@ -728,7 +728,7 @@ module.exports = {
       '60 g pistachios, finely ground'
     ],
     st: [
-      'If using akkawi, soak the cheese in cold water for 2 hours, changing the water four times, then drain and grate or crumble it. Taste it — it should be barely salty.',
+      'If using akkawi, soak the cheese in cold water in the fridge for 2 hours, changing the water four times, then drain and grate or crumble it. Taste it — it should be barely salty.',
       'Make the syrup: simmer the sugar and water for 10 minutes, add the lemon juice, then take off the heat and stir in the orange blossom and rose waters. Cool completely.',
       'Pull the kataifi apart with your fingers into loose strands, breaking up any clumps, then cut roughly into 3 cm lengths with scissors.',
       'Pour over the melted butter and rub it through with your hands for 2 minutes until every strand is coated and the pastry feels evenly damp.',

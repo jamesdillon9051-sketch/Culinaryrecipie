@@ -692,7 +692,7 @@ module.exports = {
       'Shake the jar every day for the first week.'
     ],
     pair: ['Rice and dal', 'Curry and poppadoms', 'Cheese sandwiches', 'Paratha'],
-    store: 'Keeps in a sterilised jar in a cool place for up to 2 months, or in the fridge for longer.',
+    store: 'Once it has had its week, keep it in the fridge, under its oil, for up to 2 months.',
     nut: [65, 0, 5, 5, 1, 1, 1090],
     rest: [12960, 'Salting and maturing']
   },
@@ -727,7 +727,7 @@ module.exports = {
       'Mustard oil should be heated until it stops smelling raw.'
     ],
     pair: ['Paratha', 'Curd rice', 'Dal and rice', 'Khichdi'],
-    store: 'Keeps in a cool, dark place for up to 3 months, or in the fridge for longer.',
+    store: 'Once it has had its 3 days, keep it in the fridge, under its oil, for up to 3 months.',
     nut: [130, 1, 9, 10, 1, 7, 1100],
     rest: [5940, 'Curing, drying and maturing']
   },

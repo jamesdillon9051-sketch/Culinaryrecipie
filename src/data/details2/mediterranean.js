@@ -217,7 +217,7 @@ module.exports = {
       'Pour in the custard and level it. Fold the overhanging filo over the top.',
       'Layer the remaining 6 sheets on top, buttering each, and tuck the edges down the sides.',
       'Score the top layers into diamonds with a sharp knife, cutting only through the pastry, and bake 55 to 65 minutes until deep golden and puffed.',
-      'The instant it leaves the oven, pour the cold syrup evenly over the whole surface. Cool at least 4 hours before cutting through the score lines.'
+      'The instant it leaves the oven, pour the cold syrup evenly over the whole surface. Cool for 2 hours, then refrigerate for at least 2 hours before cutting through the score lines.'
     ],
     tips: [
       'Hot pie, cold syrup. Getting this the wrong way round is the classic failure.',
@@ -225,7 +225,7 @@ module.exports = {
       'Keep the unused filo under a damp cloth. It dries to dust within minutes.'
     ],
     pair: ['Strong Greek coffee', 'A glass of Mavrodaphne or Vinsanto', 'Nothing else — it is very rich'],
-    store: 'Keeps 3 days at room temperature, loosely covered. Refrigeration softens the filo. Not suitable for freezing.',
+    store: 'Keeps 3 days in the fridge, loosely covered; the custard holds egg and milk, so it should not sit out for more than 2 hours. Refrigeration softens the filo, so warm a slice briefly in the oven. Not suitable for freezing.',
     nut: [486, 9, 68, 21, 1, 48, 220]
   },
 

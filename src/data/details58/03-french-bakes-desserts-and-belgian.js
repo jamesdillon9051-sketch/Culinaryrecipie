@@ -487,7 +487,7 @@ module.exports = {
     ],
     st: [
       'Put the egg yolks, sugar and wine in a large heatproof bowl set over a pan of barely simmering water.',
-      'Whisk constantly for 8 to 10 minutes until the mixture triples in volume and forms a thick ribbon. Do not stop whisking.',
+      'Whisk constantly for 8 to 10 minutes until the mixture triples in volume, forms a thick ribbon and reaches 71°C / 160°F on a thermometer. Do not stop whisking.',
       'Toss the raspberries with the lemon juice and divide between four glasses.',
       'Spoon the warm sabayon over the fruit and serve at once.'
     ],
@@ -577,7 +577,7 @@ module.exports = {
       'Put a saucer in the freezer. Tip the fruit and juices into a wide pan with the lemon juice and heat gently until the sugar dissolves.',
       'Bring to a full rolling boil and cook for 25 minutes, stirring, skimming off the foam, until it reaches 105C.',
       'Test a spoonful on the cold saucer; it should wrinkle when pushed. Boil for 3 minutes more if not.',
-      'Cool for 10 minutes, then pot in warm sterilised jars and seal.'
+      'Cool for 10 minutes, then pot in warm sterilised jars and seal. Cool, then refrigerate.'
     ],
     tips: [
       'Macerate the fruit overnight in the sugar.',
@@ -585,7 +585,7 @@ module.exports = {
       'Test the set on a chilled saucer.'
     ],
     pair: ['Buttered toast', 'Croissants', 'Scones', 'Yoghurt'],
-    store: 'Keeps for 6 months in sealed jars in a cool place. Refrigerate once opened.',
+    store: 'Keep the jars in the fridge for up to 6 months, opened or not. Hot jars and a seal alone do not make jam safe for a cool cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     rest: [480, 'Macerating overnight'],
     nut: [156, 0, 39, 0, 1, 37, 5]
   },

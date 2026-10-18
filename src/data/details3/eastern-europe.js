@@ -39,7 +39,7 @@ module.exports = {
       'Return the pork, bacon, kielbasa and ribs. Stir well — the pot will be very full and will settle as it cooks.',
       'Cover and cook at 150C fan for 2 1/2 hours, stirring every 45 minutes.',
       'Uncover and cook 30 minutes more so the liquid reduces to a thick, glossy coating rather than a broth.',
-      'Cool completely and refrigerate. Reheat and eat the next day, and preferably the day after that.',
+      'Divide between shallow containers so it cools quickly, and refrigerate within 2 hours. Reheat and eat the next day, and preferably the day after that.',
       'Serve very hot with rye bread (optional) and a shot of cold vodka.'
     ],
     tips: [

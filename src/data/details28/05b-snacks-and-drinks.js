@@ -66,7 +66,7 @@ module.exports = {
       'Heat gently, stirring, until the sugar has dissolved, then bring to the boil.',
       'Reduce the heat and simmer, uncovered, for 55 to 60 minutes, stirring often towards the end, until the vegetables are tender and the pickle is thick, dark and glossy, and a spoon drawn across the base leaves a clear channel.',
       'Spoon the hot pickle into the hot jars, filling them to within 5 mm of the top, and tap to release any air bubbles.',
-      'Seal at once with vinegar-proof lids, let the jars cool, then label them and store in a cool, dark place.'
+      'Seal at once with vinegar-proof lids, let the jars cool, then label them and refrigerate.'
     ],
     tips: [
       'Dice the vegetables very small and evenly. They cook at the same rate, and the pickle should be spreadable on a sandwich.',
@@ -74,7 +74,7 @@ module.exports = {
       'Leave the jars for at least 2 weeks before opening. The sharp vinegar mellows and the flavours join, and the pickle tastes rounder and darker.'
     ],
     pair: ['Mature cheddar', 'Pork pie', 'Ham sandwiches'],
-    store: 'Unopened jars keep in a cool, dark place for up to 1 year and are best after 2 weeks. Once opened, keep in the fridge and use within 2 months.',
+    store: 'Keep the jars in the fridge and use within 2 months; it is best after 2 weeks. The pickle is mostly low-acid vegetables, its acidity has not been measured, and hot jars and a seal alone do not make it safe for the cupboard.',
     nut: [56, 1, 13, 0, 1, 11, 120]
   },
 

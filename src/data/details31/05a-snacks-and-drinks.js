@@ -266,7 +266,7 @@ module.exports = {
       'Layer the shredded cabbage in a large bowl, sprinkling each layer with some of the salt. Cover and leave overnight, until the cabbage has released a lot of liquid.',
       'Put the vinegar, sugar, peppercorns, cloves, allspice, mustard seeds, cinnamon and bay leaf in a saucepan and bring to the boil, stirring until the sugar dissolves. Take off the heat and let the vinegar cool completely.',
       'Rinse the cabbage very well under cold running water to remove the salt, then drain thoroughly and squeeze out the extra water.',
-      'Pack the cabbage into the jars, pressing it down gently. Pour over the cold vinegar with the spices, making sure that the cabbage is completely covered, and seal the jars.'
+      'Pack the cabbage into the jars, pressing it down gently. Pour over the cold vinegar with the spices, making sure that the cabbage is completely covered, then seal the jars and refrigerate.'
     ],
     tips: [
       'Rinse the cabbage thoroughly after salting. Any salt left on it makes the pickle harsh, and it taints the vinegar.',
@@ -274,7 +274,7 @@ module.exports = {
       'Keep the cabbage under the vinegar. Anything above the liquid discolours and can spoil, so press it down and top up with a little extra vinegar.'
     ],
     pair: ['Ploughman\'s lunch', 'Cold turkey', 'Pork pie'],
-    store: 'Keep in a cool, dark place for up to 3 months. It is ready after 3 days and best after a week. Once opened, keep in the fridge.',
+    store: 'Keep the jars in the fridge for up to 3 months, opened or not. It is ready after 3 days and best after a week. Cabbage in cold vinegar is not heat-processed, and jars for the cupboard need a tested recipe and processing in a boiling-water canner.',
     nut: [20, 1, 4, 0, 1, 3, 60],
     rest: [480, 'Salting overnight']
   }

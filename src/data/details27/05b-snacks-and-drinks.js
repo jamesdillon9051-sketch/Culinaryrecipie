@@ -33,15 +33,15 @@ module.exports = {
       'Heat gently, stirring, until the sugar dissolves, then bring to the boil.',
       'Reduce the heat and simmer uncovered for 55 to 60 minutes, stirring often towards the end, until thick and jammy and a spoon drawn across the base leaves a clear channel for a second or two.',
       'Spoon the hot chutney into the hot jars, filling them to within 5 mm of the top, and tap to release air bubbles.',
-      'Seal at once with vinegar-proof lids, let the jars cool, then label and store.'
+      'Seal at once with vinegar-proof lids, let the jars cool, then label and refrigerate.'
     ],
     tips: [
       'Use cooking apples such as Bramley. They collapse into a pulp that thickens the chutney, and eating apples stay in lumps and taste flat.',
       'Stir often in the last 20 minutes. As the chutney thickens it catches on the base of the pan, and a burnt taste spoils the whole batch.',
-      'Sterilise the jars and fill them while everything is hot. It keeps the chutney safe, and the hot jars will not crack when the hot chutney goes in.'
+      'Sterilise the jars and fill them while everything is hot. Hot jars will not crack when the hot chutney goes in.'
     ],
     pair: ['Mature cheddar', 'A ploughman\'s lunch', 'Cold roast pork or ham'],
-    store: 'Unopened jars keep in a cool, dark cupboard for up to 3 months and improve after a few weeks. Once opened, keep in the fridge and use within 4 weeks.',
+    store: 'Keep the jars in the fridge: unopened for up to 3 months, and better after a few weeks; opened, use within 4 weeks. Hot jars and a seal alone do not make chutney safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [104, 1, 25, 0, 2, 20, 80]
   },
 
@@ -320,7 +320,7 @@ module.exports = {
       'Put the tamarillos, onions, sugar, vinegar, ginger, garlic, mustard seeds, coriander, cloves, chilli and salt in a large heavy pan.',
       'Heat gently, stirring, until the sugar dissolves, then bring to the boil.',
       'Reduce the heat and simmer uncovered for 60 to 65 minutes, stirring often towards the end, until thick and glossy and a spoon drawn across the base leaves a clear channel.',
-      'Spoon into the hot jars, fill to within 5 mm of the top, seal with vinegar-proof lids, and cool.'
+      'Spoon into the hot jars, fill to within 5 mm of the top, seal with vinegar-proof lids, cool and refrigerate.'
     ],
     tips: [
       'Peel the tamarillos. The skins are tough and bitter, and they do not soften with cooking.',
@@ -328,7 +328,7 @@ module.exports = {
       'Leave the jars for a couple of weeks before opening. The vinegar mellows and the flavours join, and the chutney tastes rounder.'
     ],
     pair: ['Sharp cheddar', 'Cold roast lamb', 'A cheese and cracker plate'],
-    store: 'Unopened jars keep in a cool, dark cupboard for up to 3 months and improve after a few weeks. Once opened, keep in the fridge and use within 4 weeks.',
+    store: 'Keep the jars in the fridge: unopened for up to 3 months, and better after a few weeks; opened, use within 4 weeks. Hot jars and a seal alone do not make chutney safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [56, 1, 13, 0, 1, 11, 110]
   }
 };

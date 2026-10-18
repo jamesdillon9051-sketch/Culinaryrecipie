@@ -155,7 +155,7 @@ module.exports = {
       'Whisk in the lemon juice, zest and salt, then strain through a sieve to catch any thread of egg.',
       'Pour the filling straight onto the hot base and return to the oven immediately.',
       'Bake 20 to 24 minutes, until the centre no longer ripples when you nudge the tin but still has the faintest wobble.',
-      'Cool completely in the tin, then refrigerate at least 3 hours before lifting out and cutting with a hot, dry knife.',
+      'Cool in the tin for no more than 2 hours, then refrigerate at least 3 hours before lifting out and cutting with a hot, dry knife.',
       'Dust with icing sugar just before serving — dust it early and the sugar dissolves into a wet film.'
     ],
     tips: [

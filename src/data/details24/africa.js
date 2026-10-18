@@ -201,9 +201,9 @@ module.exports = {
 
   'shito': {
     d: 'A dark, oily, fiery Ghanaian condiment of onion, tomato, chilli, ground dried shrimp and ginger, slowly fried in oil. A spoonful goes on nearly everything.',
-    meta: 'Shito: Ghana\'s dark, fiery black pepper sauce of onion, tomato, chilli, ginger and dried shrimp, cooked slowly in oil until deeply savoury. Keeps for weeks.',
+    meta: 'Shito: Ghana\'s dark, fiery black pepper sauce of onion, tomato, chilli, ginger and dried shrimp, cooked slowly in oil until deeply savoury.',
     kw: ['shito', 'ghanaian shito', 'shito recipe', 'ghana black pepper sauce', 'how to make shito'],
-    why: 'Shito is Ghana\'s essential condiment, a dark, oily sauce of onion, tomato, ginger, chilli and dried shrimp that is fried slowly in oil until the ingredients have dissolved into a thick, glossy, deeply savoury paste, and it is spooned onto rice, kenkey, fried plantain, fried fish, eggs and bread. Shito is the Ga word for pepper, and the sauce is black in colour from the long frying. The oil is what keeps it, since the sauce is sealed under a layer of it, and a good shito keeps for weeks. The cooking is slow and needs stirring, since it burns easily, and it is finished when the oil has separated from the paste and it has darkened to the colour of chocolate.',
+    why: 'Shito is Ghana\'s essential condiment, a dark, oily sauce of onion, tomato, ginger, chilli and dried shrimp that is fried slowly in oil until the ingredients have dissolved into a thick, glossy, deeply savoury paste, and it is spooned onto rice, kenkey, fried plantain, fried fish, eggs and bread. Shito is the Ga word for pepper, and the sauce is black in colour from the long frying. The layer of oil on top keeps air off the sauce, but it does not make it safe to keep for long, so a big batch belongs in the freezer. The cooking is slow and needs stirring, since it burns easily, and it is finished when the oil has separated from the paste and it has darkened to the colour of chocolate.',
     ing: [
       '250 ml vegetable oil',
       '2 onions, finely chopped',
@@ -231,7 +231,7 @@ module.exports = {
       'Use a clean, dry spoon each time. Water or crumbs make it spoil.'
     ],
     pair: ['Jollof rice', 'Fried plantain', 'Fried fish'],
-    store: 'Keep in clean jars under a layer of oil, in the fridge, up to 4 weeks.',
+    store: 'Keep in clean jars under a layer of oil, in the fridge, for up to 4 days; freeze it in small jars for longer keeping. The garlic, onion and dried shrimp held under oil can carry botulism, and the oil seal does not stop it.',
     nut: [102, 1, 2, 10, 0, 1, 250]
   },
 

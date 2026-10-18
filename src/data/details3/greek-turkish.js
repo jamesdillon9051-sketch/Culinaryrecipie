@@ -148,7 +148,7 @@ module.exports = {
       'Sumac and parsley'
     ],
     st: [
-      'Toss the sliced lamb with the olive oil, cumin, paprika, oregano, salt, pepper and onion juice. Marinate at least 2 hours.',
+      'Toss the sliced lamb with the olive oil, cumin, paprika, oregano, salt, pepper and onion juice. Cover and marinate in the fridge for at least 2 hours.',
       'For the sauce, fry the garlic in the olive oil for 30 seconds, add the tomato purée and cook 2 minutes, then the passata, sugar, salt and Aleppo pepper. Simmer 15 minutes until thickened. Keep it hot.',
       'Toast the bread cubes in a dry pan or a 200C oven for 6 minutes until dry and lightly coloured but not hard.',
       'Grill the tomatoes and green peppers over a high flame until blistered.',

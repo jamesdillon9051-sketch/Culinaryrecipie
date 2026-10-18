@@ -499,7 +499,7 @@ module.exports = {
       'Ground cinnamon'
     ],
     st: [
-      'Rinse the rice once, then put it in a bowl with the coconut and the cold water and soak at least 480 minutes, or overnight.',
+      'Rinse the rice once, then put it in a bowl with the coconut and the cold water cover and soak in the fridge for at least 8 hours, or overnight.',
       'The rice is ready when a grain crushes easily between your fingers.',
       'Tip the whole lot, soaking water included, into a blender and blend on high for a full 2 minutes.',
       'Strain through a coarse sieve, pressing the solids to get everything through. Do not use a fine sieve or muslin.',

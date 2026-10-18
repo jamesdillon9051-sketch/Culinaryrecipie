@@ -495,7 +495,7 @@ module.exports = {
       '400 ml water'
     ],
     st: [
-      'Grind the drained chillies and garlic with a splash of water to a smooth paste. Mix half with the yoghurt and salt, coat the meat and leave for 1 hour.',
+      'Grind the drained chillies and garlic with a splash of water to a smooth paste. Mix half with the yoghurt and salt, coat the meat, cover and leave in the fridge for 1 hour.',
       'Heat the ghee in a heavy pan. Add the cardamom, cloves and bay leaf, then the onions, and cook for 10 minutes until deep golden. Add the ginger and cook for 1 minute.',
       'Add the meat with its marinade, the remaining chilli paste, coriander and cumin. Cook over a medium heat for 10 minutes, stirring.',
       'Add the water, cover tightly and cook over a low heat for 60 minutes, stirring every 15 minutes, until the meat is tender and the ghee floats on top.'

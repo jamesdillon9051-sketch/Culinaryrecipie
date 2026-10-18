@@ -825,7 +825,7 @@ module.exports = {
       'Stir before using, as the solids sink.'
     ],
     pair: ['Tacos', 'Fried eggs', 'Grilled meat', 'Noodles'],
-    store: 'Keeps in a sealed jar in the fridge for 1 month. Use a clean spoon each time.',
+    store: 'Keeps in a sealed jar in the fridge for up to 4 days; use a clean spoon each time, and freeze small jars for longer keeping. Garlic and chillies held in oil can carry botulism, which the oil does not stop.',
     nut: [276, 3, 3, 28, 1, 1, 240]
   }
 };

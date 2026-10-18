@@ -12,7 +12,7 @@ module.exports = {
     kw: ['eggnog', 'homemade eggnog', 'christmas eggnog', 'eggnog recipe'],
     why: 'Traditional eggnog uses raw yolks, and the alcohol is doing the food-safety work over weeks of ageing. Cooking the base to 77°C gets there in ten minutes instead: the yolk proteins set enough to thicken and any salmonella is gone, and because the mixture never boils the custard stays smooth. Folding whipped whites in at the end is what makes it a nog rather than a milkshake — it lightens a mixture that would otherwise be almost undrinkably rich.',
     ing: [
-      '6 large eggs, separated',
+      '6 large eggs, pasteurised (or British Lion-stamped in the UK), separated',
       '150 g caster sugar',
       '500 ml whole milk',
       '250 ml double cream',

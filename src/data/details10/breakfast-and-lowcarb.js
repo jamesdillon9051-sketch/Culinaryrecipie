@@ -138,7 +138,7 @@ module.exports = {
     why: 'Hand-made hollandaise splits because the butter goes in faster than the yolk lecithin can emulsify it, or because the yolks scramble over direct heat. A blender fixes both: the blades break the butter into droplets small enough to stay suspended, and pouring the butter in hot cooks the yolks to a safe temperature without a pan. For the eggs, the vinegar in the poaching water lowers the pH and helps the white set fast, and a shallow whirlpool wraps the white around its own yolk.',
     ing: [
       '# For the hollandaise',
-      '3 large egg yolks',
+      '3 large egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp lemon juice',
       '1 tsp Dijon mustard',
       '0.5 tsp fine sea salt',

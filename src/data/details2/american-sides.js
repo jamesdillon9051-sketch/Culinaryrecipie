@@ -404,7 +404,7 @@ module.exports = {
       'The gravy needs an aggressive amount of black pepper — it should look speckled and taste of it.'
     ],
     pair: ['Fried eggs and bacon', 'Black coffee', 'Hot sauce at the table'],
-    store: 'Biscuits keep 2 days and freeze 2 months. The gravy keeps 3 days and thickens on standing; loosen with milk when reheating.',
+    store: 'Biscuits keep 2 days and freeze 2 months. The gravy keeps 3 days in the fridge and thickens on standing; loosen with milk and reheat until piping hot.',
     nut: [782, 26, 62, 48, 3, 8, 1680]
   }
 };

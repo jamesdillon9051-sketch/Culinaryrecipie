@@ -300,7 +300,7 @@ module.exports = {
       'Cover with oil to keep it green.'
     ],
     pair: ['Pasta', 'Crusty bread', 'Roasted vegetables', 'Pizza'],
-    store: 'Keeps for 5 days in the fridge under a layer of oil. Freeze in ice cube trays for 3 months.',
+    store: 'Keeps for 4 days in the fridge under a layer of oil. Freeze in ice cube trays for 3 months.',
     nut: [225, 4, 5, 21, 3, 0, 200]
   },
 

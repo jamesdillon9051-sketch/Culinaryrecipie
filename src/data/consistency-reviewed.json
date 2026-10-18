@@ -60,7 +60,7 @@
       }
     },
     "gateau-basque": {
-      "fingerprint": "2c6a11736c80",
+      "fingerprint": "1dbb9ab1d053",
       "findings": {
         "required-wait-not-counted|Beat in the butter, cover the surface and chill completely.": {
           "status": "exception",
@@ -105,7 +105,7 @@
       }
     },
     "xo-sauce": {
-      "fingerprint": "8247175237a9",
+      "fingerprint": "5fa6be6679e7",
       "findings": {
         "required-wait-not-counted|Cool completely and pack into jars with the oil covering the solids.": {
           "status": "exception",
@@ -141,7 +141,7 @@
       }
     },
     "shito": {
-      "fingerprint": "078d2a73e231",
+      "fingerprint": "6862edb7895a",
       "findings": {
         "required-wait-not-counted|Cool completely, then spoon into clean, dry jars, making sure the sauce is covered by a layer of oil.": {
           "status": "exception",
@@ -186,11 +186,11 @@
       }
     },
     "mango-chutney": {
-      "fingerprint": "b2ba5d1e614a",
+      "fingerprint": "88a83fe951c0",
       "findings": {
-        "required-wait-not-counted|Cool completely, then label and store.": {
+        "required-wait-not-counted|Cool completely, then label and refrigerate.": {
           "status": "exception",
-          "reason": "storage step: the chutney is ready when cooked; cooling before labelling is for keeping it"
+          "reason": "storage step: the chutney is ready when cooked; cooling before labelling and refrigerating is for keeping it"
         }
       }
     },
@@ -335,6 +335,24 @@
         "stages-exceed-cook|stages": {
           "status": "exception",
           "reason": "The beetroot (35 minutes) and the potatoes and carrots (20) boil in two pans at once, which the method now says, so the cooking is 35 minutes, the row's cook time. The checker adds both times because they share one sentence."
+        }
+      }
+    },
+    "pepper-jelly": {
+      "fingerprint": "c748145906ab",
+      "findings": {
+        "required-wait-not-counted|Cool, then refrigerate.": {
+          "status": "exception",
+          "reason": "storage step: the jelly is ready when jarred; cooling before refrigerating is for keeping it, and the storage note says it sets fully within 24 hours"
+        }
+      }
+    },
+    "confiture-de-fraises": {
+      "fingerprint": "a07d0734af8b",
+      "findings": {
+        "required-wait-not-counted|Cool, then refrigerate.": {
+          "status": "exception",
+          "reason": "storage step: the jam is ready when potted; cooling the sealed jars before refrigerating is for keeping it"
         }
       }
     }

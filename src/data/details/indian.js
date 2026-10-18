@@ -90,7 +90,7 @@ module.exports = {
       '1 tsp fine sea salt'
     ],
     st: [
-      'Marinate the chicken in the yogurt, garlic, ginger, lemon juice, spices and salt for at least 4 hours, or overnight.',
+      'Marinate the chicken in the yogurt, garlic, ginger, lemon juice, spices and salt, covered, in the fridge for at least 4 hours, or overnight.',
       'Grill the chicken on skewers under the highest heat for 12 to 14 minutes, turning once, until charred at the edges. Reserve every scrap and juice from the tray.',
       'Meanwhile, heat the oil in a heavy pan and cook the onion, garlic, ginger and cashews over medium heat for 10 minutes until the onion is soft and golden.',
       'Add the tomatoes, Kashmiri chilli powder and salt with 200 ml of water. Simmer, partly covered, for 20 minutes until everything is soft and the tomatoes have broken down.',
@@ -240,7 +240,7 @@ module.exports = {
     ],
     st: [
       'Fry the sliced onions in the oil over medium heat for 18 to 22 minutes, stirring often, until evenly deep brown and crisp. Drain on paper — they will crisp further as they cool. Reserve the oil.',
-      'Mix the chicken with the yogurt, ginger-garlic paste, spices, lemon juice, salt, herbs and half the fried onions plus 3 tablespoons of the onion oil. Marinate at least 2 hours or overnight.',
+      'Mix the chicken with the yogurt, ginger-garlic paste, spices, lemon juice, salt, herbs and half the fried onions plus 3 tablespoons of the onion oil. Cover and marinate in the fridge for at least 2 hours or overnight.',
       'Rinse the basmati until the water runs clear, then soak in cold water for 30 minutes and drain.',
       'Bring 3 litres of water to a rolling boil with the whole spices and the 2 tablespoons of salt. Add the rice and boil for exactly 5 to 6 minutes, until the grains are soft at the edge but still firm at the core. Drain immediately.',
       'Spread the marinated chicken in an even layer in the base of a heavy, wide pot.',
@@ -620,7 +620,7 @@ module.exports = {
       '1 tsp chaat masala'
     ],
     st: [
-      'Rub the chicken all over and deep into the slashes with the lemon juice, salt and chilli powder. Leave for 30 minutes at room temperature.',
+      'Rub the chicken all over and deep into the slashes with the lemon juice, salt and chilli powder. Cover and leave in the fridge for 30 minutes.',
       'Whisk the second marinade ingredients together into a thick paste and coat the chicken completely, working it into every cut.',
       'Cover and refrigerate for at least 6 hours, ideally 24. The yogurt must be thick or the marinade will slide off.',
       'Take the chicken out 45 minutes before cooking. Heat the oven to its absolute maximum, at least 250°C / 480°F, with a rack set over a foil-lined tray on the top shelf.',

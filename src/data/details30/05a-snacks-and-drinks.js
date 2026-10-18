@@ -157,7 +157,7 @@ module.exports = {
     d: 'Chunks of firm mango simmered with onion, ginger, vinegar, sugar and warm spices until thick and glossy. Sweet, sharp and gently spiced, for poppadoms and curries.',
     meta: 'Mango chutney: chunks of firm mango simmered with onion, ginger, vinegar, sugar and warm spices until thick and glossy. For poppadoms and curries.',
     kw: ['mango chutney', 'homemade mango chutney', 'indian mango chutney', 'sweet mango chutney', 'how to make mango chutney'],
-    why: 'Mango chutney is the sweet, sharp, spiced condiment that sits on the table beside every curry, and the version that most people know is the British take on a much older Indian tradition. Chutneys in India are freshly made pastes and relishes, but the British in India took home the idea of a cooked, preserved fruit chutney, and by the nineteenth century mango chutney was a staple export, known from Bengal to Yorkshire. Made at home, it is much better than most jars, and it is easy. Firm, ripe mangoes are diced and simmered with onion, garlic and ginger in a syrup of sugar and vinegar, with mustard seeds, cumin, chilli and cinnamon, until the fruit is soft and translucent and the liquid has reduced to a thick, glossy glaze. Raisins add sweetness and chew. What matters is the balance, since the sugar and the vinegar need to be in tension, sweet and sour together, with the spices in the background. Choose mangoes that are ripe but still firm, so that they hold their shape in the simmering syrup, and do not use soft, overripe fruit, which turns to mush. Poured into sterilised jars while hot, it keeps for months, and its flavour deepens after a week. Serve it with poppadoms, cheese, cold meats, curries, or in a sandwich with cheddar.',
+    why: 'Mango chutney is the sweet, sharp, spiced condiment that sits on the table beside every curry, and the version that most people know is the British take on a much older Indian tradition. Chutneys in India are freshly made pastes and relishes, but the British in India took home the idea of a cooked, preserved fruit chutney, and by the nineteenth century mango chutney was a staple export, known from Bengal to Yorkshire. Made at home, it is much better than most jars, and it is easy. Firm, ripe mangoes are diced and simmered with onion, garlic and ginger in a syrup of sugar and vinegar, with mustard seeds, cumin, chilli and cinnamon, until the fruit is soft and translucent and the liquid has reduced to a thick, glossy glaze. Raisins add sweetness and chew. What matters is the balance, since the sugar and the vinegar need to be in tension, sweet and sour together, with the spices in the background. Choose mangoes that are ripe but still firm, so that they hold their shape in the simmering syrup, and do not use soft, overripe fruit, which turns to mush. Poured into sterilised jars while hot and kept in the fridge, it keeps for months, and its flavour deepens after a week. Serve it with poppadoms, cheese, cold meats, curries, or in a sandwich with cheddar.',
     ing: [
       '3 large firm ripe mangoes (about 1 kg), peeled, stoned and diced into 1.5 cm pieces',
       '1 onion, finely chopped',
@@ -178,7 +178,7 @@ module.exports = {
       'Bring to the boil over medium heat, stirring until the sugar has dissolved.',
       'Reduce the heat and simmer for 40 to 45 minutes, stirring often towards the end, until the chutney is thick, glossy and a spoon dragged through it leaves a clear trail.',
       'Remove the cinnamon stick. Ladle the hot chutney into the hot jars, leaving a 1 cm gap at the top, and seal at once with sterilised lids.',
-      'Cool completely, then label and store. The flavour improves after a week.'
+      'Cool completely, then label and refrigerate. The flavour improves after a week.'
     ],
     tips: [
       'Use ripe but firm mangoes. Underripe fruit is sour and stringy, and overripe fruit turns to mush before the syrup has reduced.',
@@ -186,7 +186,7 @@ module.exports = {
       'Test for set by dragging a spoon across the base of the pan. If the trail stays open for a second or two, it is ready.'
     ],
     pair: ['Poppadoms', 'Curry', 'Cheddar sandwich'],
-    store: 'Unopened jars keep in a cool, dark place for up to 6 months. Once opened, keep in the fridge and use within 4 weeks.',
+    store: 'Keep the jars in the fridge: unopened for up to 6 months, opened for up to 4 weeks. Hot jars and a seal alone do not make chutney safe for the cupboard, because moulds and yeasts can get in while the jars are filled and the seal is often weak; cupboard jars need a tested recipe and processing in a boiling-water canner.',
     nut: [76, 1, 18, 0, 1, 17, 110]
   },
 

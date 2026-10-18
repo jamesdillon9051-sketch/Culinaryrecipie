@@ -186,7 +186,7 @@ module.exports = {
       '3 tbsp rice vinegar',
       '1 tbsp caster sugar',
       '1/2 tsp salt',
-      '150 g sashimi-grade salmon',
+      '150 g sashimi-grade salmon, farmed or previously frozen to kill parasites',
       '150 g sashimi-grade tuna',
       '1/2 cucumber, thinly sliced',
       '1 avocado, sliced',

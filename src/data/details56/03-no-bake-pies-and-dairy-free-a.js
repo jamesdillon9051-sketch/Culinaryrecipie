@@ -818,7 +818,7 @@ module.exports = {
       'Whisk the pumpkin, coconut milk, brown sugar, eggs, cornflour, spices and salt until smooth.',
       'Pour into the pastry case.',
       'Bake for 40 minutes until the edges are set and the centre has a slight wobble.',
-      'Cool completely for at least 2 hours before slicing.'
+      'Cool for 2 hours, then slice, refrigerating what is left.'
     ],
     tips: [
       'Use full-fat coconut milk.',

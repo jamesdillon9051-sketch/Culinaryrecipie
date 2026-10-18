@@ -503,7 +503,7 @@ module.exports = {
       'Stir often so the base does not catch.'
     ],
     pair: ['Crusty bread', 'Raw onion', 'Feta', 'Palinca'],
-    store: 'Keeps for 1 week in the fridge under a layer of oil.',
+    store: 'Keeps for 4 days in the fridge under a layer of oil; freeze it for longer keeping.',
     nut: [118, 2, 14, 6, 5, 9, 400]
   },
 
@@ -819,7 +819,7 @@ module.exports = {
       'Keep some texture.'
     ],
     pair: ['Bread', 'White cheese', 'Grilled meat', 'Kebapche'],
-    store: 'Keeps for 2 weeks in the fridge under a layer of oil.',
+    store: 'Keeps for 4 days in the fridge under a layer of oil; freeze it for longer keeping.',
     nut: [128, 2, 12, 8, 4, 8, 400]
   },
 

@@ -35,7 +35,7 @@ module.exports = {
       'Sprinkle over the flour and cook 2 minutes, stirring constantly, until it coats everything and smells biscuity.',
       'Add the hot stock in three additions, whisking smooth after each, and simmer 6 minutes until thick enough to coat a spoon heavily.',
       'Stir in the cream, mustard, thyme, salt and pepper, then return the chicken with any juices and add the peas. Simmer 5 minutes.',
-      'Tip the filling into a 2 litre pie dish and cool completely, then refrigerate at least 1 hour. This step is what keeps the pastry crisp.',
+      'Tip the filling into a 2 litre pie dish and cool completely, moving it to the fridge within 2 hours, then chill at least 1 hour. This step is what keeps the pastry crisp.',
       'Heat the oven to 200°C / 390°F. Roll the pastry to fit with a 2 cm overhang.',
       'Brush the rim of the dish with egg wash, lay the pastry over, press to seal, trim and crimp. Cut a 2 cm cross in the centre.',
       'Brush all over with egg wash and bake 35 to 40 minutes until deep gold and puffed. Rest 10 minutes before serving.'

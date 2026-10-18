@@ -36,7 +36,7 @@ module.exports = {
       'Pour in the ale and let it bubble for 4 minutes, scraping the base clean.',
       'Return the beef with the stock, Worcestershire, bay, thyme, salt and pepper. Bring to a bare simmer.',
       'Cover and cook at 150C fan for 2 1/2 hours, until the beef gives way completely.',
-      'Uncover and simmer on the hob 15 minutes until the gravy coats a spoon thickly. Cool completely, ideally overnight in the fridge.',
+      'Uncover and simmer on the hob 15 minutes until the gravy coats a spoon thickly. Cool completely, moving it to the fridge within 2 hours, ideally overnight.',
       'Spoon the cold filling into a 24 cm pie dish. Roll the pastry to a 5 mm lid, wet the rim, lay it on and press the edges down firmly. Trim and crimp.',
       'Cut two steam vents, brush with egg, and bake at 200C fan for 30 to 35 minutes until deep golden and risen.'
     ],

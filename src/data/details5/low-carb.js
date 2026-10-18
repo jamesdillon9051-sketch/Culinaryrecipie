@@ -177,7 +177,7 @@ module.exports = {
       '0.5 tsp black pepper',
       '# For the dressing',
       '4 anchovy fillets in oil',
-      '1 egg yolk',
+      '1 egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '1 small garlic clove',
       '1 tbsp lemon juice',
       '1 tsp Dijon mustard',
@@ -199,7 +199,7 @@ module.exports = {
     ],
     tips: [
       'Add the oil slowly at the start. Almost every split Caesar dressing splits in the first tablespoon.',
-      'Use a raw yolk you are happy to eat raw, or shop-bought mayonnaise as the base if you would rather not.',
+      'If you cannot get pasteurised or Lion-stamped eggs, use shop-bought mayonnaise as the base instead.',
       'The dressing is better made an hour ahead and left in the fridge — the garlic and anchovy settle down.'
     ],
     pair: ['A cold Chablis', 'A soft-boiled egg on the side', 'Sourdough, for anyone not counting carbohydrate'],

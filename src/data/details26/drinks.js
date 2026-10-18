@@ -136,7 +136,7 @@ module.exports = {
       '60 ml bourbon',
       '30 ml fresh lemon juice',
       '20 ml sugar syrup (1:1)',
-      '1 egg white, optional',
+      '1 egg white, optional, from a pasteurised egg (or a British Lion-stamped egg in the UK)',
       '1 handful of ice cubes',
       '1 orange slice and 1 cocktail cherry, to garnish'
     ],

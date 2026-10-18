@@ -234,7 +234,7 @@ module.exports = {
       'Heat the oven to 180°C / 350°F (160°C fan). Pour the hot filling into the pastry case and smooth the top.',
       'Whisk the egg whites to soft peaks in a clean bowl. Add the 100 g of sugar a spoonful at a time, whisking, until stiff and glossy.',
       'Spread the meringue over the filling, right to the edge of the crust, and swirl into peaks. Bake for 10 to 12 minutes, until golden.',
-      'Cool completely, then chill for at least 3 hours, until set. Slice with a hot, clean knife.'
+      'Cool for no more than 2 hours, then chill for at least 3 hours, until set. Slice with a hot, clean knife.'
     ],
     tips: [
       'Pour the hot filling into the crust before you whisk the meringue, and spread the meringue while the filling is still warm. This helps it cook from underneath and stops it weeping.',

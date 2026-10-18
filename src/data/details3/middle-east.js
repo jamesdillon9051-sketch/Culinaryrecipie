@@ -449,7 +449,7 @@ module.exports = {
       'Cook over medium heat, whisking without stopping, for 4 to 5 minutes until it thickens and just comes to a boil. It should coat the back of a spoon heavily.',
       'Take it off the heat and stir in the rose water.',
       'Pour through a sieve into glasses or small bowls, filling them about three-quarters.',
-      'Cool to room temperature, then refrigerate at least 3 hours until set.',
+      'Cool for no more than 2 hours, then refrigerate at least 3 hours until set.',
       'For the syrup, boil the sugar and water for 6 minutes, add the juice and lemon, cool, then stir in the rose water.',
       'Spoon the cold syrup over each set pudding and finish with pistachios and coconut.'
     ],

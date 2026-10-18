@@ -280,7 +280,7 @@ module.exports = {
       'Beat in the 200 g sugar and 3 eggs, then fold in the flour and cocoa.',
       'Beat the cream cheese with the 60 g sugar, the egg and the vanilla until smooth.',
       'Spread two-thirds of the batter in the tin, dollop on the cream cheese, add the rest of the batter and swirl with a knife.',
-      'Bake for 40 minutes until the edges are set. Cool completely, then chill before cutting into 16.'
+      'Bake for 40 minutes until the edges are set. Cool for no more than 2 hours, then chill before cutting into 16.'
     ],
     tips: [
       'Beat the eggs in well.',
@@ -510,7 +510,7 @@ module.exports = {
       '150 g dark chocolate for dipping'
     ],
     st: [
-      'Heat the oven to 180°C. Spread the flour on a tray and bake for 5 minutes. Cool completely.',
+      'Heat the oven to 180°C. Spread the flour on a tray and bake for 5 minutes, until a thermometer pushed into the flour reads 74°C / 165°F. Cool completely.',
       'Beat the butter with the brown and caster sugars for 2 minutes. Beat in the milk and vanilla.',
       'Stir in the cooled flour, salt and chocolate chips to a firm dough. Roll into 20 balls and chill for 30 minutes.',
       'Melt the dark chocolate in short bursts for 3 minutes, dip each ball and set on baking paper.'

@@ -31,7 +31,7 @@ module.exports = {
       '80 g roasted peanuts'
     ],
     st: [
-      'Toss the chicken with the Shaoxing wine, soy sauce, cornflour and egg white until slick and coated. Leave 20 minutes at room temperature.',
+      'Toss the chicken with the Shaoxing wine, soy sauce, cornflour and egg white until slick and coated. Cover and leave in the fridge for 20 minutes.',
       'Whisk all the sauce ingredients together in a small bowl and set it within reach of the hob. Once you start cooking there is no time to measure.',
       'Heat a wok over the highest heat until it smokes, then add 2 tablespoons of the oil and swirl.',
       'Add the chicken in a single layer and leave it undisturbed for 60 seconds to sear, then stir-fry 2 minutes more until just cooked. Remove to a plate.',

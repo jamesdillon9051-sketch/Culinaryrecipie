@@ -14,7 +14,7 @@ module.exports = {
     ing: [
       '200 g dark chocolate, 70% cocoa solids, finely chopped',
       '60 g unsalted butter, cubed',
-      '4 large eggs, separated, at room temperature',
+      '4 large eggs, pasteurised (or British Lion-stamped in the UK), separated, at room temperature',
       '60 g caster sugar',
       '120 ml double cream',
       '0.25 tsp fine sea salt',
@@ -39,7 +39,7 @@ module.exports = {
       'Stop folding while a faint streak or two remains. They disappear as it sets, and over-folding costs you the texture.'
     ],
     pair: ['A small glass of Armagnac', 'Salted shortbread', 'Fresh raspberries'],
-    store: 'Refrigerated, covered, for 3 days. It contains lightly cooked egg, so it is not one for anyone avoiding those. Do not freeze.',
+    store: 'Refrigerated, covered, for 3 days. The egg in it is raw, which is why the ingredients call for pasteurised eggs. Do not freeze.',
     nut: [462, 8, 32, 34, 3, 26, 180]
   },
 

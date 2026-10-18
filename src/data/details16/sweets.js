@@ -147,7 +147,7 @@ module.exports = {
       'Line a 26 cm tin with three quarters of the pastry, pour in the filling and level it.',
       'Roll the rest into strips and lay them over in a diamond lattice, seven strips each way.',
       'Bake at 160C fan / 180C / gas 4 for 1 hour 15 minutes, until the lattice is bronzed and the centre barely wobbles.',
-      'Cool completely in the tin, at least 4 hours, before dusting with icing sugar and cutting.'
+      'Cool in the tin for 2 hours, then refrigerate for at least 2 hours before dusting with icing sugar and cutting.'
     ],
     rest: [300, 'chilling the pastry and cooling the tart'],
     tips: [
@@ -156,7 +156,7 @@ module.exports = {
       'Cool it completely in the tin. A warm pastiera runs.'
     ],
     pair: ['Espresso', 'A glass of passito', 'Made three days ahead'],
-    store: 'At room temperature under a cloth for 4 days, and better on the third. Do not freeze.',
+    store: 'In the fridge, covered, for 4 days, and better on the third; the ricotta and egg filling should not sit out for more than 2 hours. Let a slice come to room temperature before eating. Do not freeze.',
     nut: [410, 12, 48, 18, 2, 26, 220]
   },
 

@@ -106,7 +106,7 @@ module.exports = {
     tips: [
       'Do not let the scotch bonnet burst, or the stew becomes very hot.',
       'Add a splash of water if the sauce reduces too far.',
-      'Cool completely and chill before reheating; the flavour improves overnight.'
+      'Divide it between shallow containers and chill within 2 hours, then reheat until piping hot; the flavour improves overnight.'
     ],
     pair: ['Plait bread', 'Boiled rice', 'Roti', 'Steamed greens'],
     store: 'Keeps in the fridge for 5 days if brought to a boil each time it is reheated. Freezes for up to 3 months.',
@@ -467,9 +467,9 @@ module.exports = {
     d: 'Raw white fish cured in lime juice, then mixed with coconut cream, tomato, cucumber and chilli and served very cold.',
     meta: 'Fijian kokoda: raw white fish cured in lime juice, then mixed with coconut cream, tomato, cucumber and chilli. Four servings, no cooking.',
     kw: ['fijian kokoda', 'kokoda recipe', 'fiji ceviche with coconut', 'raw fish in lime and coconut cream', 'kokoda fish salad'],
-    why: 'Cure the fish in lime juice for 15 minutes, then stop. Kokoda is a ceviche-style dish from Fiji in which the acid turns the surface of the raw fish opaque and firm, and the longer it sits, the chalkier it gets. Fifteen minutes is enough; the middle stays tender.\n\nUse very fresh, firm white fish from a source you trust, such as mahi-mahi or snapper, cut into 2 cm cubes so the lime reaches every side. Then squeeze out the juice and fold in the coconut cream, which turns the sharp, citrusy base into something soft and rounded.\n\nTomato, cucumber, onion and a little chilli add crunch and heat. **Serve it straight away**, cold, in a bowl or in coconut shells. If the dish stands, the cucumber waters the sauce, so add the vegetables last, just before it reaches the table. Pile it into small bowls or hollowed coconut shells and eat it with a spoon alongside boiled cassava or taro.',
+    why: 'Cure the fish in lime juice for 15 minutes, then stop. Kokoda is a ceviche-style dish from Fiji in which the acid turns the surface of the raw fish opaque and firm, and the longer it sits, the chalkier it gets. Fifteen minutes is enough; the middle stays tender.\n\nUse very fresh, firm white fish sold for eating raw and frozen first to kill parasites, which lime juice does not, such as mahi-mahi or snapper, cut into 2 cm cubes so the lime reaches every side. Then squeeze out the juice and fold in the coconut cream, which turns the sharp, citrusy base into something soft and rounded.\n\nTomato, cucumber, onion and a little chilli add crunch and heat. **Serve it straight away**, cold, in a bowl or in coconut shells. If the dish stands, the cucumber waters the sauce, so add the vegetables last, just before it reaches the table. Pile it into small bowls or hollowed coconut shells and eat it with a spoon alongside boiled cassava or taro.',
     ing: [
-      '500 g skinless, boneless mahi-mahi or snapper fillet, cut into 2 cm cubes',
+      '500 g skinless, boneless mahi-mahi or snapper fillet, sold for eating raw and previously frozen to kill parasites, cut into 2 cm cubes',
       '120 ml lime juice',
       '200 ml coconut cream',
       '2 tomatoes, about 250 g, seeded and diced',

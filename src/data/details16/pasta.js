@@ -403,7 +403,7 @@ module.exports = {
       'Keep back plenty of the cooking water.'
     ],
     pair: ['A glass of Vermentino', 'Focaccia', 'Green salad'],
-    store: 'The pesto keeps 4 days under oil and freezes for 3 months. The dish itself does not keep.',
+    store: 'The pesto keeps 4 days in the fridge under oil and freezes for 3 months. The dish itself does not keep.',
     nut: [685, 22, 82, 30, 7, 5, 720]
   },
 

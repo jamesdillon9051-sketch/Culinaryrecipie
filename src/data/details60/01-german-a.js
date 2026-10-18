@@ -843,7 +843,7 @@ module.exports = {
       'Heat the oven to 170C. Line a 26 cm springform tin with the pastry.',
       'Beat the quark, 4 yolks, 200 g sugar, cornflour, melted butter, zest, juice and vanilla until smooth. Whisk the whites to stiff peaks and fold in.',
       'Pour into the case and bake for 70 minutes until golden with a slight wobble.',
-      'Turn off the oven, leave the door ajar and cool inside for 1 hour. Cool completely, then chill for 4 hours.'
+      'Turn off the oven, leave the door ajar and cool inside for 1 hour. Move it to the fridge within 2 hours of baking. Chill for 4 hours.'
     ],
     tips: [
       'Do not overbeat the filling.',

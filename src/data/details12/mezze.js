@@ -46,7 +46,7 @@ module.exports = {
       'Stir the oil in by hand. The processor turns it into hummus-textured paste.'
     ],
     pair: ['Warm khubz arabi', 'Grilled halloumi', 'A cold glass of arak'],
-    store: 'Refrigerated for 5 days under a film of olive oil. The flavour is better on day two. It does not freeze — the walnuts go grainy.',
+    store: 'Refrigerated for 4 days under a film of olive oil. The flavour is better on day two. It does not freeze — the walnuts go grainy.',
     nut: [280, 5, 14, 23, 4, 7, 320]
   },
 

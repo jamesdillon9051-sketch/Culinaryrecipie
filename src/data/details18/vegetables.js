@@ -495,7 +495,7 @@ module.exports = {
     st: [
       'Soak the glutinous rice in cold water 4 hours, then drain it well.',
       'Soak the bamboo leaves in hot water 2 hours, then simmer them 10 minutes, rinse each one and trim the hard stems.',
-      'Marinate the pork with its soy sauces, wine, sugar, five-spice and white pepper for 2 hours.',
+      'Marinate the pork with its soy sauces, wine, sugar, five-spice and white pepper, covered, in the fridge for 2 hours.',
       'Toss the drained rice with its soy sauces, oil and salt until evenly coloured.',
       'Overlap two leaves, fold them into a tight cone with no gap at the point.',
       'Spoon in rice, then a piece of pork, an egg yolk, a mushroom and a few shrimp, then more rice to fill.',

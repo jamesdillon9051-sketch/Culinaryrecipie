@@ -243,7 +243,7 @@ module.exports = {
       'Fish out the cinnamon sticks, then pour the hot milk onto the paste in a stream, whisking.',
       'Return it all to the pan and cook over a medium heat, whisking, until it thickens and a spoon drawn across the base leaves a line that holds for a second.',
       'Beat in the butter and vanilla, then pour it into the shell and smooth the top.',
-      'Leave to cool completely, then chill at least 3 hours before dusting heavily with cinnamon and slicing.'
+      'Leave to cool for no more than 2 hours, then chill at least 3 hours before dusting heavily with cinnamon and slicing.'
     ],
     tips: [
       'Blind-bake without beans; a pressed crust does not slump.',

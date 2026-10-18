@@ -71,7 +71,7 @@ module.exports = {
       'Return everything to the pan and cook over medium heat, stirring constantly with a spatula and reaching into the corners, for 6 to 8 minutes.',
       'It will thicken suddenly and then bubble. Cook 1 minute more from that point, still stirring, then take it off the heat.',
       'Pour immediately through a sieve into six shallow earthenware dishes.',
-      'Cool to room temperature, then refrigerate at least 4 hours until firmly set.',
+      'Cool for no more than 2 hours, then refrigerate at least 4 hours until firmly set.',
       'Just before serving, blot the surface dry with kitchen paper and cover each with an even layer of caster sugar.',
       'Burn the sugar with a very hot iron or a blowtorch until it caramelises to a dark amber, and serve within a minute or two while the crust is still crisp and the custard cold.'
     ],

@@ -225,16 +225,16 @@ module.exports = {
       'Heat the oil in a wide pan over a low heat. Add the onions and cook for 20 minutes, stirring now and then, until very soft.',
       'Add the sugar, vinegar, mustard seeds, salt and chilli flakes and stir until the sugar dissolves.',
       'Simmer for 20 minutes, stirring more often as it thickens, until dark and sticky.',
-      'Spoon into clean, warm jars and cool. Seal and store.'
+      'Spoon into clean, warm jars and cool. Seal and refrigerate.'
     ],
     tips: [
       'Slice the onions thin and even.',
       'Keep the heat low for the first stage.',
       'Stir often near the end so the chutney does not catch.',
-      'Use sterilised jars if you plan to keep it for weeks.'
+      'Use sterilised jars, and keep them in the fridge.'
     ],
     pair: ['Cheddar', 'Cold meats', 'Sausages', 'Cheese on toast'],
-    store: 'Keeps in sterilised jars in a cool, dark place for 2 months. Once opened, keep in the fridge and use within 3 weeks.',
+    store: 'Keep it in sterilised jars in the fridge and use within 3 weeks. Onions are a low-acid food, the acidity of this chutney has not been measured, and hot jars and a seal alone do not make it safe for the cupboard.',
     nut: [160, 1, 30, 4, 2, 23, 170]
   },
 

@@ -34,7 +34,7 @@ module.exports = {
       'Boil for 8 hours, topping up with boiling water to keep the bones submerged and stirring every hour to keep the emulsion moving. The broth will turn opaque and creamy white.',
       'Add the onion, garlic, ginger and spring onion whites for the final hour, then strain through a coarse sieve, pressing hard. You should have 2 litres.',
       'For the chashu, simmer the rolled pork belly in the soy sauce, mirin, sake and 400 ml water for 90 minutes, turning occasionally. Cool in the liquid, then chill and slice thinly. Reserve the liquid as your tare.',
-      'For the ajitama, boil the eggs for exactly 6.5 minutes, shock in ice water, peel, and marinate in 200 ml of the cooled tare for at least 4 hours.',
+      'For the ajitama, boil the eggs for exactly 6.5 minutes, shock in ice water, peel, and marinate in 200 ml of the cooled tare in the fridge for at least 4 hours.',
       'To serve, put 3 tablespoons of tare in each hot bowl and add 400 ml of boiling-hot broth. Whisk in a teaspoon of sesame oil.',
       'Boil the noodles for 60 to 90 seconds only, drain hard, and lower into the bowls in a neat fold.',
       'Top with chashu, a halved ajitama, menma, nori and spring onion. Eat immediately, and loudly.'
@@ -446,7 +446,7 @@ module.exports = {
       'Pour into the tin from a height of 20 cm to burst large bubbles, then tap the tin on the counter twice.',
       'Set in a roasting tin and pour in boiling water to a depth of 3 cm. Bake at 150°C / 300°F for 30 minutes, then reduce to 130°C / 265°F for 40 minutes more.',
       'Turn the oven off, prop the door open with a wooden spoon, and leave the cake inside for 30 minutes. This gradual cooling is what prevents collapse.',
-      'Remove, cool completely, then brush with warm apricot jam. Chill for 2 hours before slicing with a hot, dry knife.'
+      'Remove, cool for no more than 2 hours, then brush with warm apricot jam. Chill for 2 hours before slicing with a hot, dry knife.'
     ],
     tips: [
       'Every ingredient should be at room temperature. Cold cream cheese will not emulsify and leaves lumps.',

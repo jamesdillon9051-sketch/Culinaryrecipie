@@ -536,7 +536,7 @@ module.exports = {
   },
 
   'pickled-onions': {
-    d: 'Small onions in spiced malt vinegar, sharp enough to make your eyes water. Six weeks in the jar and they will keep for a year.',
+    d: 'Small onions in spiced malt vinegar, sharp enough to make your eyes water. Six weeks in the jar, in the fridge, before they are ready.',
     meta: 'British pub pickled onions: small onions dry-brined overnight and packed in spiced malt vinegar, left to mature for six weeks.',
     kw: ['pickled onions', 'pickled onions recipe', 'british pub pickle', 'malt vinegar onions', 'homemade pickled onion jar'],
     why: 'Brine dry, in salt, overnight — not in a wet brine. Salt on its own pulls water out of the onion by osmosis and leaves the layers firm, while a wet brine soaks water back in and gives you soft pickled onions, which are a waste of six weeks. The vinegar must be cold when it goes over: hot vinegar cooks the outer layers and they go slippery. Peel them under water or in a bowl of iced water if you would rather not weep through the whole job.',
@@ -561,7 +561,7 @@ module.exports = {
       'Rinse the onions thoroughly under cold water and dry them well on a cloth.',
       'Pack them tightly into sterilised jars with a bay leaf and a chilli in each.',
       'Pour the cold spiced vinegar over, including the spices, until the onions are completely covered.',
-      'Seal and leave six weeks in a dark cupboard before opening.'
+      'Seal and leave six weeks in the fridge before opening.'
     ],
     rest: [61200, 'dry-brining the onions and maturing the jars for six weeks'],
     tips: [
@@ -570,7 +570,7 @@ module.exports = {
       'Six weeks minimum. They are harsh before that.'
     ],
     pair: ['A ploughman\'s', 'Fish and chips', 'A pint'],
-    store: 'Sealed in a dark cupboard for 12 months. Refrigerate after opening.',
+    store: 'Sealed in the fridge for 12 months, and in the fridge after opening. Raw onions in cold vinegar are not heat-processed, and jars for the cupboard need a tested recipe and processing in a boiling-water canner.',
     nut: [70, 2, 15, 0, 2, 10, 940]
   },
 

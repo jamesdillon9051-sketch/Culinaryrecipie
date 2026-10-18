@@ -177,7 +177,7 @@ module.exports = {
       'Pour a little hot milk onto the yolks, whisk, then return everything to the pan.',
       'Cook over medium heat, whisking constantly, until it thickens and then bubbles thickly for a full minute. It should be very stiff.',
       'Beat in the butter and salt, then pour the hot custard into the chilled case and smooth the top.',
-      'Bake at 200°C / 400°F for 50 minutes, until the top is deeply browned and blistered almost black in places. Cool completely, then chill 240 minutes before cutting.'
+      'Bake at 200°C / 400°F for 50 minutes, until the top is deeply browned and blistered almost black in places. Cool for no more than 2 hours, then chill 240 minutes before cutting.'
     ],
     rest: [300, 'chilling the pastry and the finished flan'],
     tips: [
@@ -218,7 +218,7 @@ module.exports = {
       'Rest the batter 60 minutes at room temperature.',
       'Heat the oven to 200°C / 400°F. Butter a 25 cm baking dish heavily and dust it with the sugar.',
       'Scatter the drained prunes over the base and pour the batter over them.',
-      'Bake 45 minutes, until puffed, deeply browned and set with a slight wobble. It sinks as it cools, which is correct. Serve warm or cold.'
+      'Bake 45 minutes, until puffed, deeply browned and set with a slight wobble. It sinks as it cools, which is correct. Serve warm, or refrigerate it within 2 hours of baking and serve cold.'
     ],
     rest: [120, 'soaking the prunes and resting the batter'],
     tips: [
@@ -227,7 +227,7 @@ module.exports = {
       'It sinks as it cools. That is not a failure.'
     ],
     pair: ['Salted butter caramel', 'Breton cider', 'Coffee'],
-    store: 'Three days at room temperature, covered. It does not freeze well.',
+    store: 'Three days in the fridge, covered; it is an egg and milk custard, so it should not sit out for more than 2 hours. It does not freeze well.',
     nut: [385, 9, 58, 13, 3, 38, 220]
   },
 

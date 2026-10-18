@@ -310,7 +310,7 @@ module.exports = {
     ],
     st: [
       'Pound the lemongrass, garlic and shallots to a rough paste, then mix with the fish sauce, honey, sugar, soy, oil and pepper.',
-      'Pound the pork chops lightly to an even thickness and marinate them for at least 4 hours, ideally overnight.',
+      'Pound the pork chops lightly to an even thickness and marinate them, covered, in the fridge for at least 4 hours, ideally overnight.',
       'Dissolve the sugar in the warm water for the nước chấm, then add the fish sauce and lime juice. Taste — it should be balanced, not aggressive. Add the garlic and chilli last so they float.',
       'Rinse and cook the broken rice with slightly less water than usual, as the grains absorb faster. It should be soft and slightly clumping.',
       'Heat a griddle pan or barbecue to high.',

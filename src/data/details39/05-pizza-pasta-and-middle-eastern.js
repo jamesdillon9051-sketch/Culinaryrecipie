@@ -248,8 +248,8 @@ module.exports = {
       '2 chicken breasts, about 400 g, sliced into strips',
       '150 g streaky bacon, chopped',
       '1 tbsp olive oil',
-      '2 eggs',
-      '40 g egg yolks',
+      '2 eggs, pasteurised (or British Lion-stamped in the UK)',
+      '40 g egg yolks, pasteurised or Lion-stamped',
       '60 g parmesan, grated',
       '1 tsp black pepper',
       '1/2 tsp salt'

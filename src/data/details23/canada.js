@@ -251,7 +251,7 @@ module.exports = {
       'Roll the pastry to 3 mm thick and line a 23 cm pie tin. Trim, crimp the edge and prick the base with a fork. Freeze the shell for 10 minutes.',
       'Whisk the brown sugar, maple syrup, cream, flour, egg, vanilla, melted butter and salt until smooth.',
       'Pour the filling into the pastry shell. Set the pie on the hot tray and bake for 10 minutes, then lower the oven to 170°C / 340°F and bake for 30 to 35 minutes more, until the edge is set and the centre wobbles slightly.',
-      'Cool on a wire rack for at least 3 hours before slicing. It sets as it cools.'
+      'Cool on a wire rack for 2 hours, then refrigerate for at least 1 hour before slicing. It sets as it cools.'
     ],
     tips: [
       'Whisk the filling again just before pouring. The flour settles quickly.',

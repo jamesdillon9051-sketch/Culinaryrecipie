@@ -535,7 +535,7 @@ module.exports = {
     ing: [
       '4 eggs, about 200 g, for poaching',
       '1 tbsp white vinegar',
-      '3 egg yolks, about 60 g',
+      '3 egg yolks, about 60 g, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp lemon juice',
       '150 g butter, melted',
       '1/4 tsp salt',

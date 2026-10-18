@@ -92,7 +92,7 @@ module.exports = {
       '1 litre fish stock',
       '1 strip orange zest',
       '4 garlic cloves, crushed',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '100 ml olive oil, for the aioli',
       '1 tsp lemon juice',
       '8 slices baguette, toasted',

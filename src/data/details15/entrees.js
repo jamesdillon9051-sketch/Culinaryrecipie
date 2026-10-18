@@ -20,7 +20,7 @@ module.exports = {
       '1 celeriac, about 800 g',
       '3 tbsp lemon juice',
       '# For the rémoulade',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '2 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '250 ml sunflower oil',
@@ -97,7 +97,7 @@ module.exports = {
     ing: [
       '6 eggs, at room temperature',
       '# For the mayonnaise',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '250 ml sunflower oil',
@@ -276,10 +276,10 @@ module.exports = {
     tips: [
       'Two forks, never a processor. Threads, not paste.',
       'Season cold, then taste again. Fat hides salt.',
-      'The fat cap is the seal — keep it unbroken.'
+      'The fat cap keeps the top from drying out — keep it unbroken.'
     ],
     pair: ['Toasted baguette', 'Cornichons', 'A glass of Chinon'],
-    store: 'Refrigerated for 3 weeks while the fat seal is unbroken; a week once opened. It freezes for 3 months.',
+    store: 'Refrigerated under its fat seal for up to 4 days, opened or not; cooked meat sealed under fat is still cooked meat, and the seal does not make it keep longer. It freezes for 3 months.',
     nut: [320, 16, 0, 28, 0, 0, 520]
   },
 
@@ -440,7 +440,7 @@ module.exports = {
       'Keep it coarse. A smooth purée turns bitter.'
     ],
     pair: ['Toasted baguette', 'Crudités', 'A glass of rosé'],
-    store: 'Refrigerated under a film of oil for 2 weeks. It freezes for 3 months.',
+    store: 'Refrigerated under a film of oil for up to 4 days. It freezes for 3 months.',
     nut: [165, 2, 3, 17, 2, 0, 780]
   },
 
@@ -487,7 +487,7 @@ module.exports = {
     ing: [
       '8 garlic cloves, green germs removed',
       '1 tsp fine sea salt',
-      '2 egg yolks, at room temperature',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK), at room temperature',
       '300 ml mild olive oil, at room temperature',
       '1 tbsp lemon juice',
       '1 tsp warm water',
@@ -739,7 +739,7 @@ module.exports = {
       '1.5 tsp fine sea salt',
       '2 litres water',
       '# For the rouille',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '4 garlic cloves, crushed',
       '1 tsp harissa or chilli paste',
       'Pinch saffron',

@@ -741,7 +741,7 @@ module.exports = {
     tips: [
       'Salt the chicken ahead for a juicier result.',
       'Cook the chicken to 74C and no further.',
-      'Cool completely before sealing the lids.'
+      'Spread the rice out so it cools within an hour, then seal the lids and refrigerate.'
     ],
     pair: ['Hummus', 'Cherry tomatoes', 'Cucumber', 'Fresh fruit'],
     store: 'Keeps for 4 days in the fridge. Reheat in the microwave for 2 minutes.',

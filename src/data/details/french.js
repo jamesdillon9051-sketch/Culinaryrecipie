@@ -197,7 +197,7 @@ module.exports = {
       '300 g red mullet fillet',
       '400 g mussels, scrubbed',
       '# For the rouille',
-      '1 large egg yolk',
+      '1 large egg yolk, pasteurised (or British Lion-stamped in the UK)',
       '2 garlic cloves',
       '0.25 tsp saffron threads, soaked in 1 tbsp warm water',
       '0.5 tsp smoked paprika',
@@ -588,7 +588,7 @@ module.exports = {
       'Strain through a fine sieve into a jug and skim off any foam. Let it stand 10 minutes so remaining bubbles rise and can be lifted off.',
       'Divide between six shallow ramekins and set them in a deep roasting tin. Pour boiling water into the tin to come halfway up the sides.',
       'Bake at 150°C / 300°F for 35 to 45 minutes, until the custards are set at the edge with a 3 cm wobble in the middle when nudged.',
-      'Lift out of the water bath, cool to room temperature, then refrigerate for at least 4 hours or overnight.',
+      'Lift out of the water bath, cool for no more than 2 hours, then refrigerate for at least 4 hours or overnight.',
       'Just before serving, blot any condensation from the surface, sprinkle a thin, even layer of demerara over each, and torch until it bubbles and turns amber. Rest 2 minutes for the caramel to harden.'
     ],
     tips: [

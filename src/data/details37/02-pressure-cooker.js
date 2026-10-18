@@ -490,7 +490,7 @@ module.exports = {
       'Mix the crushed biscuits and butter, press into the base of a 15 cm springform tin and chill for 10 minutes.',
       'Beat the cream cheese and sugar until smooth. Beat in the eggs one at a time on low speed, then the soured cream, vanilla and flour. Pour over the base and cover the tin tightly with foil.',
       'Put the rack and the water in the pot. Lower the tin onto the rack, lock the pressure cooker lid and pressure cook on high for 35 minutes. Release the pressure naturally for 15 minutes.',
-      'Lift out the tin, cool to room temperature, then chill for at least 4 hours before releasing and slicing.'
+      'Lift out the tin, cool for no more than 2 hours, then chill for at least 4 hours before releasing and slicing.'
     ],
     tips: [
       'Use room-temperature ingredients for a smooth batter.',

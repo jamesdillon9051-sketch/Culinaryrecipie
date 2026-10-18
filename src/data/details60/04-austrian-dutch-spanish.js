@@ -740,11 +740,11 @@ module.exports = {
 
   'boquerones-en-vinagre': {
     d: 'Fresh anchovy fillets cured in white wine vinegar for 2 hours, then dressed with garlic, parsley and olive oil.',
-    meta: 'Boquerones en vinagre, fresh anchovies cured in vinegar with garlic and parsley, ready in 15 minutes plus curing. Four servings, no cooking.',
+    meta: 'Boquerones en vinagre, fresh anchovies cured in vinegar with garlic and parsley, ready in 15 minutes plus freezing and curing. Four servings, no cooking.',
     kw: ['boquerones en vinagre', 'spanish vinegar anchovies', 'white anchovies in vinegar', 'marinated fresh anchovies', 'boquerones recipe'],
-    why: 'Freeze the anchovies first. That is the problem-first fix for boquerones en vinagre, the Spanish tapas of fresh anchovies cured in vinegar: raw fish can carry parasites, and freezing for 48 hours makes it safe. Then you can cure them in vinegar without fear.\n\nSplit the fresh anchovies open, take out the backbone and heads, wash them well and arrange them in a single layer in a dish. Cover with white wine vinegar mixed with a little water and salt, and leave in the fridge for 2 hours. **The flesh turns white and firm** as the vinegar works on it, as if it had been cooked. Pour the vinegar off and rinse the fish gently under cold water.\n\nDry them on kitchen paper, arrange them in a clean dish, sprinkle with sliced garlic and parsley and cover with olive oil. Leave for 1 hour more before serving. They keep for 3 days in the fridge and their flavour improves overnight. Serve cold, on bread, with olives and a glass of chilled dry sherry.',
+    why: 'Freeze the anchovies first. That is the problem-first fix for boquerones en vinagre, the Spanish tapas of fresh anchovies cured in vinegar: raw fish can carry anisakis worms, which vinegar does not kill. Freezing does, given 7 days at −20°C / −4°F or colder in a freezer that really reaches it, and only then do the anchovies go into the vinegar.\n\nSplit the fresh anchovies open, take out the backbone and heads, wash them well and arrange them in a single layer in a dish. Cover with white wine vinegar mixed with a little water and salt, and leave in the fridge for 2 hours. **The flesh turns white and firm** as the vinegar works on it, as if it had been cooked. Pour the vinegar off and rinse the fish gently under cold water.\n\nDry them on kitchen paper, arrange them in a clean dish, sprinkle with sliced garlic and parsley and cover with olive oil. Leave for 1 hour more before serving. They keep for 3 days in the fridge and their flavour improves overnight. Serve cold, on bread, with olives and a glass of chilled dry sherry.',
     ing: [
-      '500 g very fresh anchovies, frozen for 48 hours then defrosted',
+      '500 g very fresh anchovies, frozen at −20°C / −4°F or colder for 7 days, then thawed in the fridge',
       '300 ml white wine vinegar',
       '100 ml water',
       '1 tsp salt',
@@ -761,13 +761,13 @@ module.exports = {
       'Serve cold on the bread.'
     ],
     tips: [
-      'Freeze the fish for 48 hours first.',
+      'Freeze the fish for 7 days at −20°C / −4°F first; a freezer that only reaches −18°C is not cold enough.',
       'Use only very fresh anchovies.',
       'Rinse off the vinegar before oiling.'
     ],
     pair: ['Crusty bread', 'Olives', 'Dry sherry', 'Cold beer'],
     store: 'Keeps for 3 days in the fridge, covered in oil.',
-    rest: [3060, 'Freezing and curing'],
+    rest: [10260, 'Freezing and curing'],
     nut: [548, 39, 17, 36, 1, 2, 5370]
   },
 

@@ -92,7 +92,7 @@ module.exports = {
       'Coarse sea salt'
     ],
     st: [
-      'Thaw the octopus completely. Freezing first is essential — it does the tenderising that would otherwise take hours of pounding.',
+      'If the octopus is still frozen, thaw it completely in the fridge, never on the counter. Freezing first is essential — it does the tenderising that would otherwise take hours of pounding.',
       'Bring a large pot of unsalted water to a rolling boil with the onion and bay leaves.',
       'Hold the octopus by the head and dip the tentacles into the boiling water for 5 seconds, then lift out. Repeat twice more. The tentacles will curl tightly.',
       'On the fourth dip, lower the whole octopus in and reduce to a gentle simmer.',

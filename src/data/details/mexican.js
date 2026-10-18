@@ -137,7 +137,7 @@ module.exports = {
       'Crisp only what you plan to serve, and keep the rest soft for the next day.'
     ],
     pair: ['Mexican lager, or a smoky mezcal', 'Serve with salsa verde, pickled red onions and refried beans', 'Finish with tres leches cake'],
-    store: 'Refrigerate in a little of its own fat for 5 days, or freeze 3 months. Re-crisp under the grill each time you serve.',
+    store: 'Refrigerate in a little of its own fat for up to 4 days, or freeze 3 months. Re-crisp under the grill each time you serve.',
     nut: [594, 46, 34, 32, 4, 4, 980]
   },
 

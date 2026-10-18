@@ -264,7 +264,7 @@ module.exports = {
       '60 ml Peruvian pisco, ideally quebranta or acholado',
       '25 ml fresh lime juice',
       '20 ml sugar syrup, made 1:1',
-      '1 egg white, about 25 ml',
+      '1 egg white, about 25 ml, from a pasteurised egg (or a British Lion-stamped egg in the UK)',
       '3 dashes Angostura bitters',
       'Ice, for shaking'
     ],

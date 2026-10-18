@@ -475,7 +475,7 @@ module.exports = {
       '2 litres beef dripping, or neutral oil',
       'Fine sea salt',
       '# For the mayonnaise',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '1 tbsp Dijon mustard',
       '1 tbsp white wine vinegar',
       '300 ml neutral oil',

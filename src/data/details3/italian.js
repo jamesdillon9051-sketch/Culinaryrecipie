@@ -113,7 +113,7 @@ module.exports = {
       '200 g tuna in olive oil, drained',
       '5 anchovy fillets',
       '3 tbsp capers, plus more to garnish',
-      '2 egg yolks',
+      '2 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '200 ml mild olive oil',
       '3 tbsp lemon juice',
       '4 tbsp of the poaching broth',

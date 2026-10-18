@@ -129,7 +129,7 @@ module.exports = {
     st: [
       'Fry the onions in the oil over medium heat for 20 to 25 minutes until deep brown and crisp. Drain on paper — these are birista and half go in the marinade.',
       'Mix the lamb with the yoghurt, ginger-garlic paste, chilli, turmeric, garam masala, salt, green chillies, herbs, lemon juice, ghee and half the fried onions.',
-      'Marinate at least 4 hours, ideally overnight.',
+      'Cover and marinate in the fridge for at least 4 hours, ideally overnight.',
       'Spread the marinated lamb in the base of a heavy pot with a tight lid.',
       'Boil a large pan of water with the whole spices and 2 tablespoons of salt. Add the drained rice and boil for exactly 5 to 6 minutes — it should still snap in the middle.',
       'Drain immediately and layer the rice over the lamb without pressing it down.',

@@ -25,7 +25,7 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | --- | --- |
 | `npm run build` | Regenerate the site into the repo root. |
 | `npm run check` | Post-build audit: links, headings, JSON-LD, FAQ markup, README counts, **and** the data audits below. Must pass before any commit. |
-| `npm run timing` `nutrition` `diet` `keywords` `seo` `duplicates` `health` | The individual audits `check` runs. A failure names the recipe and the claim. Fix the recipe, not the audit. |
+| `npm run timing` `nutrition` `diet` `keywords` `seo` `duplicates` `health` `food` | The individual audits `check` runs. A failure names the recipe and the claim. Fix the recipe, not the audit. |
 | `npm run calc` | Work out `nut` (and `kp`) from the ingredient list: `-- --volume N`, `-- --slug a,b --lines`, `-- --volume N --write` (section 9). |
 | `npm run voice` | Measure how repetitive the prose is; `-- --flagged`, `-- --slug a,b`, `-- --strict` (what `check` runs). |
 | `npm run dedupe` | Grade candidate dish names against the catalogue (section 5). |
@@ -38,6 +38,7 @@ README.md           long-form docs; its counts are derived from the data (tools/
 | `node tools/robots-check.js --verbose` | What `robots.txt` allows and blocks for each crawler (part of `check`). |
 | `node tools/private-paths-check.js [--url https://weeklydelight.com]` | That `.htaccess` refuses the source and working files and still serves the site; with `--url`, against the live host (part of `check`, offline). |
 | `node tools/recipe-consistency.js [--list confirmed\|review] [--slug a,b] [--md FILE]` | Ingredients the method never names, step quantities above the list, cooking stages beyond the cook time, required waits left out, whole-recipe time claims, and the card/index/JSON-LD against the recipe (part of `check`, which fails on confirmed findings only). A finding judged correct goes in `src/data/consistency-reviewed.json` with its reason. |
+| `node tools/food-handling-audit.js [--list confirmed\|review] [--slug a,b] [--selftest]` | Garlic, herbs or vegetables kept under oil (or meat under fat) beyond 4 days in the fridge, hot-filled jars kept in the cupboard unprocessed, raw or lightly cooked egg without pasteurised eggs, wild fish served raw with no parasite freezing, marinades left out of the fridge, raw flour (part of `check`, which fails on confirmed findings; raw prawns and raw beef are listed for review). A finding judged correct goes in `src/data/food-handling-reviewed.json` with its reason; the verdict goes stale when the ingredients, method, tips or storage note change. |
 | `node tools/ads-unchanged.js [--against <ref>]` | That the ad and consent files, `ads.txt` and the ad markup on sample pages are unchanged from a ref. Run before merging any change that was not meant to touch advertising. |
 | `node tools/published-dates.js --dry-run` | Re-derive `src/data/published-dates.json` from git history (section 7). Only ever run to repair the register. |
 
@@ -84,7 +85,15 @@ Volumes are found by name (`catalog-N.js` + `detailsN/`) and sorted numerically 
 
 **Testing register**: `src/data/testing-notes.json` lists recipes to cook first, with empty fields for who cooked each, when and what changed. It is not published. Nothing on the site may say a recipe was tested until its entry says `"status": "cooked"` with `cookedBy` and `date`.
 
-**Food handling**: methods follow USDA FSIS guidance: marinate in the fridge, not on the counter; raw meat, and egg- or dairy-rich dishes, out of the fridge no more than 2 hours, cooling included; large cooked joints and pots refrigerated within 2 hours. Raw-egg dishes are traditional and stay as they are, listed for review in `docs/release-2026-10-corrective/food-handling-review.md`.
+**Food handling**: methods follow USDA FSIS guidance: marinate in the fridge, not on the counter; raw meat, and egg- or dairy-rich dishes, out of the fridge no more than 2 hours, cooling included ("Cool for no more than 2 hours, then refrigerate"); large cooked joints and pots refrigerated within 2 hours, divided into shallow containers. Since October 2026 (`docs/release-2026-10-uncertainties/food-handling-review.md` has the sources):
+
+- Egg served raw or in a sauce or foam that is not taken to 71°C / 160°F (mayonnaise, aioli, rouille, Caesar dressing, mousse, semifreddo, egg-white sours, hollandaise, béarnaise, carbonara) names pasteurised eggs, or British Lion-stamped in the UK, in the ingredient line. A custard or zabaglione that is cooked through states its temperature.
+- Garlic, herbs, chillies or vegetables kept under oil, flavoured oils, pesto and cooked meat under fat: 4 days in the fridge at most, then the freezer. Never at room temperature.
+- Jams, jellies, chutneys and pickles: jars keep in the cupboard only for a tested recipe processed in a boiling-water canner. Otherwise the jars go in the fridge, with the recipe's own keeping times.
+- Wild fish served raw or acid-cured (ceviche, gravlax, boquerones) is bought previously frozen to kill parasites, or frozen at −20°C / −4°F for 7 days. Yellowfin, bigeye and bluefin tuna and farmed salmon are exempt. Lime juice, vinegar and salt do not kill parasites.
+- Raw prawns (aguachile) and raw beef (steak tartare, carpaccio) are listed for a specialist; no method makes them safe.
+
+`npm run food` checks these patterns. Passing it does not make a recipe safe.
 
 **Content dates**: `src/data/content-dates.json` is the register behind every page's `dateModified` and the sitemap's `lastmod`. The build writes it, and it moves a date only when that recipe's content really changes. Do not edit it by hand. If a build changed it for recipes whose content you did not change, something is wrong, so find out why before committing.
 

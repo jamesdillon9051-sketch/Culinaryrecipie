@@ -217,7 +217,7 @@ module.exports = {
       '1 tsp caster sugar',
       '20 g butter, for the water',
       '600 g new potatoes',
-      '3 egg yolks',
+      '3 egg yolks, pasteurised (or British Lion-stamped in the UK)',
       '150 g butter, melted',
       '1 tbsp lemon juice',
       '150 g thinly sliced cured ham'

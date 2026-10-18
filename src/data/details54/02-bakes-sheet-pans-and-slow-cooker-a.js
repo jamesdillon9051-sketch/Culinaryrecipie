@@ -853,7 +853,7 @@ module.exports = {
       '2 tbsp coriander, chopped'
     ],
     st: [
-      'Mix the chicken with the yogurt, ginger, garlic, garam masala, turmeric, chilli and salt. Marinate for at least 1 hour.',
+      'Mix the chicken with the yogurt, ginger, garlic, garam masala, turmeric, chilli and salt. Cover and marinate in the fridge for at least 1 hour.',
       'Put the chicken and marinade in the slow cooker. Stir in the tomato purée, passata and sugar.',
       'Cover and cook on low for 5 hours until the chicken is very tender.',
       'Turn off the heat. Stir in the butter and cream and leave for 10 minutes.',
