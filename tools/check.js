@@ -1087,7 +1087,7 @@ try {
    must still reproduce it. */
 for (const audit of ['timing-audit.js', 'nutrition-audit.js', 'keyword-audit.js', 'seo-audit.js',
                      'substitutions-audit.js', 'duplicates-audit.js', 'health-audit.js',
-                     'robots-check.js', 'private-paths-check.js',
+                     'robots-check.js', 'private-paths-check.js', 'image-inventory.js', ['mark-illustrations.js', '--check'],
                      ['voice-audit.js', '--strict'], ['voice-audit.js', '--check-docs']]) {
   const [script, ...args] = [].concat(audit);
   try {

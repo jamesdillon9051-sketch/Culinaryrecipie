@@ -1476,6 +1476,12 @@
     {
       "page": "https://www.flickr.com/photos/22384617@N08/16364940100",
       "why": "not the dish (#dinner vorspeise - g\u00e4nseleber-terrine mit apfel-ingwer salat, portwei)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Redcurrant jelly loosened with port and sharpened with orange, mustard and ginger, Cold, clear, and the correct thing with any cold meat, made with oranges, lemon, redcurrant jelly, ruby port, English mustard powder, a British dish called Cumberland Sauce, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "shows tomatoes and a jar, not a redcurrant and port sauce"
     }
   ],
   "cockles-and-laverbread": [
@@ -2816,6 +2822,12 @@
     {
       "page": "https://www.flickr.com/photos/63311602@N08/41264635882",
       "why": "a plate of pork belly with radish and no cabbage"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Cabbage torn by hand rather than cut, fried hard with dried chilli and finished with black vinegar, Five minutes, and the tearing genuinely matters, made with pointed or flat cabbage, dried red chillies, Sichuan peppercorns, garlic cloves, ginger, a Chinese dish called Vinegar Cabbage, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a whole raw cabbage, not the cooked dish"
     }
   ],
   "lotus-root-stir-fry": [
@@ -3458,6 +3470,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Kabak_kalye_ve_yogurt.jpg",
       "why": "not chosen or not the dish (Kabak kalye ve yogurt)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Stuffed courgettes finished in the garlic and mint yogurt rather than tomato, made with pale courgettes, short-grain rice, lamb mince, ground allspice, full-fat plain yogurt, a Lebanese dish called Kousa bil Laban, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "raw courgettes, not stuffed courgettes in yoghurt"
     }
   ],
   "madfouna": [
@@ -5680,6 +5698,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Le_Paletas_2.jpg",
       "why": "not chosen or not the dish (Le Paletas 2)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Fresh fruit blended with a little sugar and lime and frozen in moulds, Fifteen minutes of work and no cooking, made with ripe mango flesh, lime juice, Taj\u00edn or chilli powder, wooden lolly sticks, a Mexican dish called Paletas, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "fruit blocks, not ice pops"
     }
   ],
   "conchas": [
@@ -7262,6 +7286,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Pickled_egg_and_beet_slices.jpg",
       "why": "not chosen or not the dish (Pickled egg and beet slices)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Hard-boiled eggs steeped in spiced malt vinegar, The chippy and pub counter classic, Thirty minutes of work, then a week in the jar, made with eggs, malt vinegar, pickling spice, black peppercorns, dried red chilli, a British dish called Pickled Eggs, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a jar of fruit, not eggs"
     }
   ],
   "shandy": [
@@ -9294,6 +9324,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Martini_glass_3.JPG",
       "why": "a tumbler printed with the Martini brand"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Gin and a little dry vermouth stirred with ice until bracingly cold, strained into a chilled glass and finished with a lemon twist or an olive, made with London dry gin, dry vermouth, A handful of ice cubes, an International dish called Martini, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a highball with lemon slices, not a martini"
     }
   ],
   "crispy-baked-chicken-thighs": [
@@ -16506,6 +16542,12 @@
     {
       "page": "https://www.flickr.com/photos/11578194@N00/11656392893",
       "why": "not the dish (Fasting Salad with Glazed Salmon)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Skin-on salmon seared until crisp and glazed in the pan with honey, garlic, soy sauce and lemon, Sticky, glossy and ready in 22 minutes, made with skin-on salmon fillets, honey, soy sauce, garlic cloves, lemon juice, an American dish called Honey Garlic Glazed Salmon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "raw salmon in a tray, not the glazed dish"
     }
   ],
   "garlic-butter-crayfish": [
@@ -16536,6 +16578,12 @@
     {
       "page": "https://commons.wikimedia.org/wiki/File:Crab_claws_garlic_butter.JPG",
       "why": "prawns or crab claws"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Crayfish (rock lobster) tails boiled in salted water until bright red, split, and finished with hot garlic butter, lemon and parsley, made with raw crayfish  tails, garlic cloves, chilli flakes, lemon juice, chopped fresh parsley, a New Zealand dish called Garlic Butter Crayfish, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a live-looking red crayfish, not the cooked dish"
     }
   ],
   "moscow-mule": [
@@ -16962,6 +17010,12 @@
     {
       "page": "https://www.flickr.com/photos/82955120@N05/14947592310",
       "why": "not the dish (Salmon Woods)"
+    },
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Salmon fillets brushed twice with a maple, Dijon and garlic glaze and baked until lacquered, Twenty-two minutes, made with skin-on salmon fillets, maple syrup, Dijon mustard, tamari, garlic cloves, a Canadian dish called Maple Glazed Salmon, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "raw salmon fillets, not the glazed dish"
     }
   ],
   "roasted-kumara-salad": [
@@ -39168,6 +39222,14 @@
     {
       "page": "https://pixabay.com/photos/pasta-italian-cuisine-dish-3547078/",
       "why": "prawn spaghetti"
+    }
+  ],
+  "gooseberry-fool": [
+    {
+      "illustration": true,
+      "model": "sana",
+      "prompt": "Tart gooseberries stewed and crushed, cooled and folded through whipped cream, A pale green early-summer pudding, with a wait in the fridge, made with gooseberries, elderflower cordial, double cream, Shortbread biscuits, a British dish called Gooseberry Fool, food photography, natural window light from the side, shallow depth of field, plain rustic table, no text, no words, no lettering, no watermark, no hands, no people",
+      "why": "a cup with a sprout, not a fool"
     }
   ]
 }

@@ -28,7 +28,7 @@ const { esc, clamp, slugify, plural, isIllustration: isDrawing, CATEGORIES, CUIS
    taken by someone else, and is the keyword-filled alt text Google's image
    guidelines ask sites not to write. */
 function altText(row, detail, hero) {
-  return clamp(hero && isDrawing(hero) ? `Illustration of ${row.title}` : row.title, 160);
+  return clamp(hero && isDrawing(hero) ? `AI-generated illustration of ${row.title}` : row.title, 160);
 }
 const { plainList } = require('./lib/ingredients');
 const { build: buildHubs } = require('./lib/ingredient-hubs');
