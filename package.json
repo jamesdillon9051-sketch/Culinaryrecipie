@@ -31,7 +31,8 @@
     "selftest": "node tools/humanize-selftest.js",
     "contact-test": "node tools/contact-test.js",
     "contact-browser-test": "node tools/contact-browser-test.js",
-    "site-browser-test": "node tools/site-browser-test.js"
+    "site-browser-test": "node tools/site-browser-test.js",
+    "package": "node tools/package-public.js"
   },
   "keywords": [
     "recipes",

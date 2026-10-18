@@ -52,24 +52,37 @@ files) is the project, not the site. While the whole repository is copied into
 `node tools/private-paths-check.js` checks the rules offline (add
 `--url https://weeklydelight.com` after a deploy to check the live host).
 `robots.txt` is not used for this: it only asks crawlers not to look.
+`node tools/package-public.js` (`npm run package`) copies exactly that list into
+`dist-public/` and fails if anything private is in it or a sitemap URL has no
+file; `docs/release-2026-10-followup/DEPLOYING.md` describes switching the host
+to deploy only that package, and how to roll back.
 
 **The contact form.** `contact/send.php` (from `src/server/contact-send.php`)
-emails each message with PHP's `mail()` and tells the reader it was sent only
-when the mailer accepted it. It reads where to send from a file *outside* the
-web root, so no address is in the repository:
+sends each message through authenticated SMTP from a mailbox on the domain
+(recommended), PHP's `mail()`, or a log file for testing. Where to send, and
+how, is read from a settings file *outside* the web root, so no address or
+password is in the repository:
 
-1. In Hostinger's email panel, create a sending address on the domain (for
-   example `noreply@weeklydelight.com`).
+1. In Hostinger's email panel, create a mailbox on the domain (for example
+   `noreply@weeklydelight.com`). The domain had no MX, SPF, DKIM or DMARC
+   records when this was written, so check that mail is set up first.
 2. Copy `tools/contact-config.example.php` to
    `domains/weeklydelight.com/private/contact-config.php` (beside
-   `public_html`, not in it), and fill in `to`, `from` and `salt`.
-3. Send a test message from `/contact/` and confirm it arrives. To test without
-   emailing anyone, set `'transport' => 'log'` and read the log file instead.
+   `public_html`, not in it), and fill in `to`, `from`, `salt` and the SMTP
+   settings.
+3. Run `php tools/contact-doctor.php --config <that file> --probe --dns`. It
+   prints no values, logs in to SMTP without sending, and looks up the
+   domain's mail records.
+4. `php tools/contact-doctor.php --config <that file> --send-test` shows the
+   one test message; add `--yes` to send it, and confirm it arrived.
 
-Until the config exists the form answers that nothing was sent, and keeps what
-the reader typed. It used to post to a static page that answered 200 to
-anything, after which the page said "Thank you — your message has been sent";
-every message was lost.
+`/contact/send.php?status=1` answers whether the form is switched on, and the
+contact page says so before anyone types. A "sent" page is shown only through
+a signed address that expires after 15 minutes, and it says the message was
+handed to the mail server, not that it was read. Senders are rate limited (a
+salted hash of the connection, never the address) and the form refuses to send
+if that state cannot be kept. `npm run contact-test` and
+`npm run contact-browser-test` exercise all of it without sending real mail.
 
 The generated site lives in the **repository root**, so the repo can be served
 as-is with no build step: point GitHub Pages at the root of `main` and it
