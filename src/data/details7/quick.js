@@ -133,7 +133,7 @@ module.exports = {
       'Take off the heat and stir in the lemon juice and 3 tablespoons of the olive oil.',
       'Taste. It will want more salt and more lemon than you expect.',
       'Spoon into bowls, make a well in each and pour the remaining oil in.',
-      'Top with tomato, onion, parsley, chilli flakes and the eggs, and serve with flatbread and lemon wedges.'
+      'Top with tomato, onion, parsley, chilli flakes and the eggs (optional), and serve with flatbread and lemon wedges.'
     ],
     tips: [
       'Half-crushed, not mashed. This is the only decision that matters here.',

@@ -76,7 +76,7 @@ module.exports = {
       'Press 20 minutes, until they have given up their water and flattened.',
       'Whisk the mustard and vinegar, then add both oils in a stream to make a thick vinaigrette. Season.',
       'Lay the still-warm leeks on a plate and spoon the vinaigrette over them generously.',
-      'Scatter with the chopped egg, parsley and shallot and leave to come to room temperature before serving.'
+      'Scatter with the chopped egg (if using), parsley and shallot and leave to come to room temperature before serving.'
     ],
     tips: [
       'Press them. Unpressed leeks water down the dressing.',
@@ -704,7 +704,7 @@ module.exports = {
       'Scrape the fat off the confit legs and set the legs aside. Add a tablespoon of that fat to the pot.',
       'Add the duck legs and simmer a final 20 minutes, just to heat them through.',
       'Lift out the bacon and the onion. Season with salt and pepper — taste first, as the bacon and confit are both salty.',
-      'Serve with a duck leg in each bowl and plenty of bread.'
+      'Serve with a duck leg in each bowl and plenty of bread (optional).'
     ],
     rest: [480, 'soaking the beans'],
     tips: [

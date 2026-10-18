@@ -42,6 +42,11 @@ const calc = require('../tools/nutrition-calc');
    few rows still carry one typed by hand; it is ignored rather than trusted. */
 const DERIVED_ONLY = ['High-Protein', 'Low-Carb', 'Keto', 'No Added Sugar'];
 const dietNotes = recipe => Object.values(recipe.dietStatus || {}).map(d => d.note).filter(Boolean);
+/* Diet tags that hold as the recipe is written, and those that hold only with a swap the recipe
+   offers. The filters and the search index keep them apart, so "Vegan" lists only what is vegan
+   as written unless the reader asks for the swaps too. Derived tags are always as written. */
+const asWritten = recipe => recipe.tags.filter(t => !recipe.dietStatus || !recipe.dietStatus[t] || recipe.dietStatus[t].status === 'clean');
+const withSwap = recipe => recipe.tags.filter(t => recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status === 'conditional');
 const minify = require('./lib/minify');
 const { CATEGORY_ADJECTIVE } = require('./lib/keywords');
 const publishedReviews = require('./data/reviews.json');
@@ -471,7 +476,11 @@ function buildContext(recipes) {
   const topCuisines = Object.keys(cuisineCounts).sort((a, b) => cuisineCounts[b] - cuisineCounts[a] || a.localeCompare(b));
 
   const tagCounts = {};
-  for (const tag of DIET_TAGS) tagCounts[tag] = recipes.filter(r => r.tags.includes(tag)).length;
+  const tagSwapCounts = {};
+  for (const tag of DIET_TAGS) {
+    tagCounts[tag] = recipes.filter(r => asWritten(r).includes(tag)).length;
+    tagSwapCounts[tag] = recipes.filter(r => withSwap(r).includes(tag)).length;
+  }
 
   const timeCounts = {};
   for (const t of [15, 30, 45, 60, 120]) timeCounts[t] = recipes.filter(r => r.elapsedTime <= t).length;
@@ -489,6 +498,7 @@ function buildContext(recipes) {
       cuisine: cuisineCounts,
       cuisineList: topCuisines,
       tag: tagCounts,
+      tagSwap: tagSwapCounts,
       difficulty: count(recipes, 'difficulty'),
       time: timeCounts
     }
@@ -502,7 +512,8 @@ function searchIndex(recipes) {
     t: r.title,                                  // title
     c: r.cuisine,                                // cuisine
     n: r.category,                               // category
-    f: r.tags,                                   // dietary flags
+    f: asWritten(r),                             // dietary flags that hold as written
+    h: withSwap(r).length ? withSwap(r) : undefined,   // ...and those that hold only with a swap
     d: r.difficulty,
     /* Start to finish, waiting included: the time filter and the "quickest"
        sort used hands-on minutes, so an overnight focaccia sat among the

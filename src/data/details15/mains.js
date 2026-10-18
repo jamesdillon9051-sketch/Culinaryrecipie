@@ -972,7 +972,7 @@ module.exports = {
       'Pour in the brandy and set it alight, standing back. Let the flames die.',
       'Add the wine and boil 3 minutes, then the tomato purée, tomatoes, stock, cayenne, tarragon sprigs and bay. Simmer 25 minutes, then strain, pressing hard, and return the sauce to the pan.',
       'Sear the monkfish medallions in the remaining oil for 2 minutes a side, then slide them into the sauce and poach 6 minutes.',
-      'Lift the fish out, reduce the sauce until it coats a spoon, whisk in the cold butter off the heat, and return the fish with the chopped herbs.'
+      'Lift the fish out, reduce the sauce until it coats a spoon, whisk in the cold butter (if using) off the heat, and return the fish with the chopped herbs.'
     ],
     tips: [
       'Brown the bone. It is the whole depth of the sauce.',
@@ -1161,7 +1161,7 @@ module.exports = {
       'Beat the eggs with the 0.5 tsp salt.',
       'Take the pan off the heat completely and wait 30 seconds.',
       'Pour the eggs in and stir slowly and constantly with a wooden spoon. The residual heat will set them into soft curds in about a minute.',
-      'While it is still slightly loose, spoon onto plates, lay the ham alongside, and serve with bread.'
+      'While it is still slightly loose, spoon onto plates, lay the ham (optional) alongside, and serve with bread (optional).'
     ],
     tips: [
       'Cook the vegetables until the pan is dry.',

@@ -39,7 +39,7 @@ module.exports = {
       'Cover and cook at 150C fan for 2 1/2 hours, stirring every 45 minutes.',
       'Uncover and cook 30 minutes more so the liquid reduces to a thick, glossy coating rather than a broth.',
       'Cool completely and refrigerate. Reheat and eat the next day, and preferably the day after that.',
-      'Serve very hot with rye bread and a shot of cold vodka.'
+      'Serve very hot with rye bread (optional) and a shot of cold vodka.'
     ],
     tips: [
       'Make it three days before you want to eat it. This is not an exaggeration.',
@@ -404,7 +404,7 @@ module.exports = {
       'Chill the shaped mici for another hour.',
       'Get a charcoal grill or heavy griddle very hot and oil the bars.',
       'Grill 4 to 5 minutes a side, pressing gently once, until well charred and firm to the touch.',
-      'Rest 3 minutes and serve piled up with mustard, white bread and pickled chillies.'
+      'Rest 3 minutes and serve piled up with mustard, white bread (optional) and pickled chillies.'
     ],
     tips: [
       'Overnight in the fridge. Without it there is no spring.',
@@ -542,7 +542,7 @@ module.exports = {
       'Stir in the ground walnuts and cook 5 minutes — the mixture will thicken noticeably.',
       'Take off the heat and add the vinegar, ground coriander, blue fenugreek, savory, chilli and salt.',
       'Stir in most of the fresh coriander and let it sit 10 minutes for the spices to open up.',
-      'Serve hot with the rest of the coriander, sliced red onion, cornbread and pickles.'
+      'Serve hot with the rest of the coriander, sliced red onion, cornbread (optional) and pickles.'
     ],
     tips: [
       'Salt only after the beans are tender.',

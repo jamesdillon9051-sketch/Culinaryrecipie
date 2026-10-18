@@ -82,7 +82,7 @@ module.exports = {
       'Drop tablespoons of batter to make 7 cm rounds, spaced apart.',
       'Cook 90 seconds until bubbles rise and burst across the surface and the edges look set.',
       'Flip and cook 60 seconds more until golden. Keep warm under a cloth while you cook the rest.',
-      'Serve warm, topped with soured cream, smoked salmon, roe, dill and a squeeze of lemon.'
+      'Serve warm, topped with soured cream, smoked salmon (optional), roe, dill and a squeeze of lemon.'
     ],
     tips: [
       'Fold the whites in last and treat the batter gently from then on. That air is your rise.',
@@ -319,7 +319,7 @@ module.exports = {
       'The salmon is ready when it feels firm all the way through and has darkened in colour.',
       'Scrape off the cure and dill, pat dry, and slice very thinly on a steep diagonal, leaving the skin behind.',
       'For the sauce, whisk the mustards, sugar and vinegar, then trickle in the oil while whisking until thick and emulsified. Stir in the dill and salt.',
-      'Serve the gravlax with the sauce and rye bread.'
+      'Serve the gravlax with the sauce and rye bread (optional).'
     ],
     tips: [
       'Equal weights of salt and sugar. Shifting the ratio either way changes the character completely.',

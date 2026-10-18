@@ -126,7 +126,7 @@ module.exports = {
       '1 lime, in wedges'
     ],
     st: [
-      'Mix the vinegar, calamansi juice, lemongrass, garlic, ginger, soy sauce, sugar, salt and pepper.',
+      'Mix the vinegar, calamansi juice, lemongrass, garlic, ginger, soy sauce (or tamari), sugar, salt and pepper.',
       'Turn the chicken through it and refrigerate 3 hours.',
       'Fry the annatto seeds in the vegetable oil for 1 minute, until the oil turns deep orange, then strain the seeds out.',
       'Melt the margarine into the annatto oil with 4 tbsp of the marinade. This is the basting oil.',
@@ -563,7 +563,7 @@ module.exports = {
       'Top with grated ginger, then spring onion.',
       'Scatter the bonito flakes over — they will move in the heat rising from the plate.',
       'Add the sesame seeds and shiso if using.',
-      'Pour the soy sauce and sesame oil over at the table, not before.'
+      'Pour the soy sauce (or tamari) and sesame oil over at the table, not before.'
     ],
     tips: [
       'Drain on paper for ten minutes.',

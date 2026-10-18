@@ -435,7 +435,7 @@ module.exports = {
       'Gather the spears into 12 bundles of about five, alternating tips and bases so each bundle is even, and wrap a stretched rasher around each in a spiral, leaving the tips showing.',
       'Set them seam side down on the rack, well spaced.',
       'Roast 16 to 20 minutes, until the bacon is deep brown and crisp and a spear gives easily to a knife tip.',
-      'Scatter with Parmigiano and flaky salt and serve at once.'
+      'Scatter with Parmigiano (if using) and flaky salt and serve at once.'
     ],
     tips: [
       'Stretch the bacon. Unstretched, it is still soft when the asparagus has gone limp.',
@@ -507,7 +507,7 @@ module.exports = {
       'Brush the cut surfaces with the lemon juice and set the halves in a small baking dish, wedging them upright against each other so they cannot tip.',
       'Crack each egg into a small bowl and separate it, keeping the yolks in their own cups.',
       'Divide the whites between the hollows, season with the salt, pepper and paprika, and bake 8 minutes.',
-      'Slide a yolk into each hollow, scatter over the cheese and bacon, and bake a further 6 to 8 minutes, until the whites are set and the yolks still wobble.',
+      'Slide a yolk into each hollow, scatter over the cheese and bacon (if using), and bake a further 6 to 8 minutes, until the whites are set and the yolks still wobble.',
       'Scatter with chives, chilli flakes and the reserved chopped avocado, and serve with a spoon.'
     ],
     tips: [

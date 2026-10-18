@@ -758,7 +758,7 @@ module.exports = {
       'Keep the heat low. If the pan gets ahead of you, lift it off for 10 seconds and keep stirring.',
       'When the eggs are set in soft curds but still glossy and slightly loose, take the pan off the heat.',
       'Stir in the cream, salt and pepper.',
-      'Pile onto the buttered toast, scatter the chives over and eat immediately.'
+      'Pile onto the buttered toast (optional), scatter the chives over and eat immediately.'
     ],
     tips: [
       'Low heat, constant stirring, and lift the pan when it runs ahead.',

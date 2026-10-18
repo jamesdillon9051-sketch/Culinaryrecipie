@@ -224,7 +224,7 @@ module.exports = {
       'Season the cottage cheese itself with the remaining salt and most of the pepper. This is the step that matters.',
       'Spoon the dressed vegetables over with their liquid.',
       'Scatter the spring onions, dill and parsley, add the chilli flakes and pour the olive oil over in a slow stream.',
-      'Finish with the last of the pepper and serve with toast alongside.'
+      'Finish with the last of the pepper and serve with toast (optional) alongside.'
     ],
     tips: [
       'Season the cottage cheese, not just the topping. Unsalted curds under a salted salad is why this dish has a reputation.',

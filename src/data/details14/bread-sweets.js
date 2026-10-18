@@ -398,7 +398,7 @@ module.exports = {
       'Scatter the raisins over, then steam a second time for 15 minutes so they plump in the vapour.',
       'Tip back into the bowl and fork through the remaining 2 tbsp oil, the sugar and the cinnamon while it is still hot.',
       'Let it cool to warm rather than hot — masfouf is not served piping.',
-      'Pile onto a plate and top with the pistachios, almonds and pomegranate seeds. Serve with a glass of cold buttermilk.'
+      'Pile onto a plate and top with the pistachios, almonds and pomegranate seeds. Serve with a glass of cold buttermilk (optional).'
     ],
     tips: [
       'Rake between steamings or it clumps into a cake.',

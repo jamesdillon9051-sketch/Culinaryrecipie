@@ -320,7 +320,7 @@ module.exports = {
     ],
     st: [
       'Soak the kombu in the cold water for 20 minutes, then set over medium-low heat and bring it slowly to just below a simmer, about 15 minutes. Remove the kombu the moment small bubbles appear at the edge — boiling it turns the dashi slimy and bitter.',
-      'Bring the water to a brief boil, take off the heat, add the katsuobushi and let it steep for 2 minutes until the flakes sink.',
+      'Bring the water to a brief boil, take off the heat, add the katsuobushi (if using) and let it steep for 2 minutes until the flakes sink.',
       'Strain through a fine sieve without pressing the flakes, which would cloud the broth.',
       'Soak the wakame in cold water for 5 minutes until it unfurls, then drain.',
       'Return the dashi to the pan and warm to a bare steam. Add the tofu and wakame and heat through for 2 minutes.',

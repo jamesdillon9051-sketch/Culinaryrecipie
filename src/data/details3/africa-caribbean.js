@@ -24,7 +24,7 @@ module.exports = {
     st: [
       'Drain the soaked beans, cover with 1.2 litres fresh water, and boil for 45 to 60 minutes until tender but not collapsing. Keep all the cooking liquid.',
       'Measure the bean liquid and top it up with water to 550 ml.',
-      'Return the beans and their liquid to the pot and add the coconut milk, spring onions, thyme, garlic, allspice, salt, pepper and butter.',
+      'Return the beans and their liquid to the pot and add the coconut milk, spring onions, thyme, garlic, allspice, salt, pepper and butter (or coconut oil).',
       'Bring to a boil and let it bubble for 3 minutes so the flavours meet.',
       'Add the rinsed rice and stir once. The liquid should sit about 1 cm above the rice.',
       'Sit the whole scotch bonnet on top. Do not pierce it.',
@@ -182,7 +182,7 @@ module.exports = {
       'Simmer, half covered, for 35 to 40 minutes, until the leaves have completely collapsed and the okra has dissolved.',
       'Lift out the scotch bonnet and the thyme stalks.',
       'Blend with a stick blender — traditionally a swizzle stick — until thick and smooth but not liquidised.',
-      'Add the crab if using and simmer 8 minutes more, then stir in the butter and chadon beni and check the salt.'
+      'Add the crab if using and simmer 8 minutes more, then stir in the butter (if using) and chadon beni and check the salt.'
     ],
     tips: [
       'Cook it well past the point where the leaves look done.',
@@ -220,7 +220,7 @@ module.exports = {
     st: [
       'Soak the beans for 2 hours, then rub handfuls of them between your palms under water until the skins float free. Pour the skins off and repeat until the beans are clean and white. This takes 15 minutes and there is no way round it.',
       'Blend the peeled beans with the peppers, scotch bonnets, onion and just enough warm water to move the blades, until completely smooth. Work in batches.',
-      'Pour into a large bowl and beat in the oil, ground crayfish, stock cube, salt and nutmeg.',
+      'Pour into a large bowl and beat in the oil, ground crayfish (if using), stock cube, salt and nutmeg.',
       'Add warm water a little at a time, beating, until the batter is the consistency of double cream — pourable, not thick.',
       'Beat hard for 3 minutes to aerate it, which gives a lighter set.',
       'Line ramekins with banana leaves, or oil small tins.',
@@ -318,7 +318,7 @@ module.exports = {
       'Cook 25 minutes without lifting the lid.',
       'Take off the heat and rest, covered, for 10 minutes.',
       'Fluff with a fork. The rice should be reddish-brown, dry and separate.',
-      'Serve with shito, gari, spaghetti, plantain, boiled egg and stew, taken in whatever combination you like.'
+      'Serve with shito, gari, spaghetti (optional), plantain, boiled egg and stew, taken in whatever combination you like.'
     ],
     tips: [
       'The bicarbonate of soda is what draws the colour out of the leaves.',

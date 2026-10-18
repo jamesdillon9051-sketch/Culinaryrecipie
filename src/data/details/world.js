@@ -269,7 +269,7 @@ module.exports = {
       'Cover and simmer very gently for 45 minutes, turning the pieces once.',
       'Add the preserved lemon rind and olives and cook uncovered for 15 to 20 minutes more, until the chicken is falling off the bone and the sauce has reduced to a glossy glaze.',
       'Taste and adjust the salt carefully — preserved lemons and olives both bring plenty.',
-      'Scatter with the remaining herbs and serve with couscous.'
+      'Scatter with the remaining herbs and serve with couscous (optional).'
     ],
     tips: [
       'Rinse the preserved lemon rind and discard the pulp, or the dish will be far too salty.',
@@ -411,7 +411,7 @@ module.exports = {
       'Crack the eggs directly into the pan and season with the remaining salt and the black pepper.',
       'Stir slowly with a wooden spoon, folding the eggs through the tomato, for 3 to 4 minutes. Take the pan off the heat while the eggs still look slightly underdone and glossy.',
       'The residual heat will finish them. Menemen should be soft and saucy, never dry.',
-      'Scatter with the crumbled cheese and parsley and serve immediately in the pan, with bread for scooping.'
+      'Scatter with the crumbled cheese and parsley and serve immediately in the pan, with bread (optional) for scooping.'
     ],
     tips: [
       'Low and slow with the eggs. Menemen is not a fast scramble.',

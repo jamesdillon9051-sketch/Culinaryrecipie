@@ -224,7 +224,8 @@ function expand(recipe, limit = 160) {
   const total = recipe.elapsedTime != null
     ? recipe.elapsedTime
     : (recipe.prep || 0) + (recipe.cook || 0) + (recipe.restTime || 0);
-  const tags = recipe.tags || [];
+  /* Only the diets that hold as written; a swap-dependent one is stated on the page with its swap. */
+  const tags = (recipe.tags || []).filter(t => !(recipe.dietStatus && recipe.dietStatus[t] && recipe.dietStatus[t].status !== 'clean'));
   const storage = lower(recipe.storage || recipe.store || '');
   const titleWords = new Set(title.split(/[^a-z0-9]+/).filter(w => w.length > 2));
 

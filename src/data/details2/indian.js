@@ -223,11 +223,11 @@ module.exports = {
     ],
     st: [
       'Drain the soaked beans and boil them in fresh water with a teaspoon of salt for 45 to 60 minutes, or pressure cook for 20 minutes, until they crush easily between finger and thumb. Reserve the cooking liquid.',
-      'Heat the ghee, add the cumin seeds, bay and black cardamom, and fry 30 seconds until they crackle.',
+      'Heat the ghee (or neutral oil), add the cumin seeds, bay and black cardamom, and fry 30 seconds until they crackle.',
       'Add the onions and fry 12 minutes over medium heat until deep golden brown — this is where the colour of the finished dish comes from.',
       'Add the ginger-garlic paste and green chillies and cook 2 minutes.',
       'Add the chilli powder, coriander, cumin and turmeric, stir for 20 seconds, then pour in the tomato purée.',
-      'Cook 12 to 15 minutes, stirring regularly, until the masala darkens, thickens and the ghee pools at the edges.',
+      'Cook 12 to 15 minutes, stirring regularly, until the masala darkens, thickens and the ghee (or neutral oil) pools at the edges.',
       'Add the beans with 500 ml of their cooking liquid and the salt. Simmer, partly covered, for 25 minutes.',
       'Mash about a quarter of the beans against the side of the pot and stir them back in to thicken the gravy.',
       'Finish with garam masala, amchur and coriander, swirl in the cream if using, and serve over rice.'

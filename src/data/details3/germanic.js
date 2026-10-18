@@ -360,7 +360,7 @@ module.exports = {
     ],
     st: [
       'Scrub the potatoes and boil them whole in heavily salted water for 20 minutes until a knife slides in easily. Drain and keep them warm in a covered dish.',
-      'Arrange the cornichons, onions, ham, mushrooms and peppers in separate bowls on the table.',
+      'Arrange the cornichons, onions, ham (if using), mushrooms and peppers in separate bowls on the table.',
       'Heat the raclette grill, or set the half wheel under its heater, 15 minutes before you plan to eat.',
       'Melt the cheese in rounds — a slice per pan under the grill, or the cut face of the wheel until the surface bubbles and slumps.',
       'Scrape or tip the molten cheese straight onto a plate of hot potatoes, crushing them lightly with a fork first so the cheese gets in.',
@@ -483,7 +483,7 @@ module.exports = {
       'Peel the potatoes and cut them into batons a good 1 cm thick — Belgian frites are chunkier than French fries.',
       'Rinse under cold running water until the water runs clear, then soak in cold water for 30 minutes.',
       'Drain and dry them completely on a clean tea towel. Any water left on them will spit violently in the fat.',
-      'Heat the dripping to 140C. Fry in three batches for 6 to 8 minutes each, until soft and pale but not coloured.',
+      'Heat the dripping (or neutral oil) to 140C. Fry in three batches for 6 to 8 minutes each, until soft and pale but not coloured.',
       'Lift out, drain on a rack, and cool for at least 30 minutes. They can sit for hours at this stage.',
       'For the mayonnaise, whisk the yolks, mustard, vinegar and salt, then add the oil drop by drop at first and in a thin stream once it takes.',
       'Heat the fat to 180C. Fry the chips again in batches for 2 to 3 minutes until deep golden and audibly crisp.',

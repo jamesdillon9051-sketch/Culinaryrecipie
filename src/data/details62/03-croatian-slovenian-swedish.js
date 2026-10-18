@@ -38,7 +38,7 @@ module.exports = {
       'Brown the beef in the oil on all sides for 12 minutes. Lift out.',
       'Soften the onions, carrots, celery and parsnip in the pot for 10 minutes. Stir in the purée, then the wine, vinegar, bay and prunes.',
       'Return the beef, add the water and salt, cover and simmer very gently for 2 hours 30 minutes, turning once.',
-      'Lift out the beef. Blend the sauce smooth and boil to a coating consistency. Slice the beef and serve with the sauce and gnocchi.'
+      'Lift out the beef. Blend the sauce smooth and boil to a coating consistency. Slice the beef and serve with the sauce and gnocchi (optional).'
     ],
     tips: [
       'Stud the beef so it is flavoured through.',

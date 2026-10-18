@@ -39,7 +39,7 @@ module.exports = {
       'Get a charcoal grill or griddle very hot. Cook 4 minutes on the first side without moving them.',
       'Turn and cook 4 to 5 minutes more, until charred in patches and 74C at the centre.',
       'Rest 3 minutes on a warm plate, loosely covered.',
-      'Warm the flatbreads over the same grill for 20 seconds a side.',
+      'Warm the flatbreads (optional) over the same grill for 20 seconds a side.',
       'Serve the skewers with toum, pickled turnips and a sharp tomato and parsley salad.'
     ],
     tips: [
@@ -308,7 +308,7 @@ module.exports = {
       'Grill over hot coals for 5 minutes on the first side, then turn and baste.',
       'Cook another 5 to 6 minutes, turning and basting twice more, until charred at the edges and just cooked through.',
       'Grill the tomatoes alongside until blistered and collapsing.',
-      'Rest 3 minutes under foil, then serve on flatbread with the tomatoes, sumac, grilled lemon and rice.'
+      'Rest 3 minutes under foil, then serve on flatbread (optional) with the tomatoes, sumac, grilled lemon and rice.'
     ],
     tips: [
       'Grate the onion, do not chop it. The juice is the point.',
@@ -580,8 +580,8 @@ module.exports = {
       'Lift out the meat, discard the bones, cinnamon stick, cardamom pods, bay and onion.',
       'Shred the meat finely and return it to the pot with the salt.',
       'Now beat the mixture hard with a wooden spoon, pressing it against the side of the pot, for 10 to 15 minutes, until it becomes smooth, thick and slightly stretchy. An electric hand mixer with dough hooks does this in about 5 minutes.',
-      'Taste and season. It should be savoury and quite plain — the ghee does the rest.',
-      'Spread into a wide bowl, make a hollow in the centre and pour the melted ghee in.',
+      'Taste and season. It should be savoury and quite plain — the ghee (if using) does the rest.',
+      'Spread into a wide bowl, make a hollow in the centre and pour the melted ghee (if using) in.',
       'Dust with cinnamon and cumin and serve very hot.'
     ],
     tips: [

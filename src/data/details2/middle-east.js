@@ -33,7 +33,7 @@ module.exports = {
       'Add the rice and toast it in the spiced oil for 3 minutes.',
       'Add the cooked lentils, the water and the salt. Bring to the boil, stir once, then cover and cook on the lowest heat for 18 minutes.',
       'Take off the heat and leave, covered, for 10 minutes.',
-      'Fluff with a fork, pile onto a platter, and cover with the reserved crisp onions, parsley and plenty of black pepper. Serve with yoghurt.'
+      'Fluff with a fork, pile onto a platter, and cover with the reserved crisp onions, parsley and plenty of black pepper. Serve with yoghurt (optional).'
     ],
     tips: [
       'Take the onions further than feels comfortable. A few genuinely dark, almost-burnt pieces make the dish.',
@@ -136,7 +136,7 @@ module.exports = {
       'Wet your hands and press half the shell mixture into the tin in an even layer about 1 cm thick.',
       'Spread the cooled filling over it, right to the edges.',
       'Press the remaining shell mixture out between wet palms into flat pieces and lay them over the filling, smoothing the joins with wet fingers until seamless.',
-      'Score the top into diamonds with a wet knife, cutting only halfway through, press a thumb into the centre, and pour the melted butter over.',
+      'Score the top into diamonds with a wet knife, cutting only halfway through, press a thumb into the centre, and pour the melted butter (or olive oil) over.',
       'Bake 40 to 45 minutes until deep golden and firm. Rest 10 minutes before cutting along the score lines.'
     ],
     tips: [
@@ -221,7 +221,7 @@ module.exports = {
       'Set them on lightly floured baking paper and press dimples across the surface with your fingertips, leaving a 1 cm border.',
       'Spread a generous sixth of the za\'atar paste over each, right up to the border.',
       'Slide onto the hot stone, two at a time, and bake 6 to 8 minutes until the base is set and the edges are golden and puffed.',
-      'Eat immediately, folded in half, with tomato, cucumber, olives and labneh.'
+      'Eat immediately, folded in half, with tomato, cucumber, olives and labneh (optional).'
     ],
     tips: [
       'Buy good za\'atar. The cheap kind is mostly filler and tastes dusty.',

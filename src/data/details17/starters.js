@@ -103,7 +103,7 @@ module.exports = {
       'Dust the oysters with the cayenne and pepper, wrap each in a piece of bacon and secure with a cocktail stick.',
       'Set them on a rack over a tray, seam down, and brush with the oil.',
       'Grill under a fierce heat 10 minutes, turning once, until the bacon is crisp and blistered.',
-      'Butter the toast and cut it into fingers.',
+      'Butter the toast (optional) and cut it into fingers.',
       'Set an angel on each finger, spoon over a little of the reserved liquor, scatter with parsley and serve with lemon.'
     ],
     tips: [

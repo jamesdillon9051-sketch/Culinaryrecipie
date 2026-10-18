@@ -221,8 +221,11 @@ function renderConditions(conds, tag) {
     if (what.length) out.push(`${served ? 'served' : 'made'} without the ${joinList(what)}`);
   }
   const alts = unique(conds.filter(c => c.type === 'alt').map(c => c.item));
-  if (alts.length === 1) out.push(`made with a vegetarian alternative to the ${alts[0]}`);
-  if (alts.length > 1) out.push(`made with vegetarian versions of the ${joinList(alts)}`);
+  /* Parmigiano-Reggiano, Grana Padano, Pecorino Romano and Gorgonzola are made with animal
+     rennet by their rules, so "a vegetarian version" means a different cheese, and the note
+     says which kind. */
+  if (alts.length === 1) out.push(`made with a hard cheese made without animal rennet in place of the ${alts[0]}`);
+  if (alts.length > 1) out.push(`made with cheeses made without animal rennet in place of the ${joinList(alts)}`);
   const vegstock = unique(conds.filter(c => c.type === 'vegstock').map(c => c.item.replace(/s$/, '')));
   if (vegstock.length) out.push(`made with a vegetable ${joinList(vegstock)}`);
   const labelled = unique(conds.filter(c => c.type === 'labelled').map(c => c.item));
@@ -263,7 +266,9 @@ function dietConditions(recipe) {
         if (at < 0) continue;
         const near = text.slice(Math.max(0, at - 40), at + w.length + 40);
         if (/\bor\b|\bif using\b|\bif you\b|optional|\bany\b/.test(near)) continue;
-        stepHits.push({ step: i + 1, word: w });
+        const source = conditional.find(j => j.cond.type !== 'alt' && j.cond.type !== 'labelled'
+          && new RegExp(`\\b${w}\\b`).test(clean(j.line)));
+        stepHits.push({ step: i + 1, word: w, cond: source ? source.cond : null });
         break;
       }
     });

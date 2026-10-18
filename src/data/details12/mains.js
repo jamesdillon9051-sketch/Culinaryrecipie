@@ -87,7 +87,7 @@ module.exports = {
       'Heat the oven to 200°C / 400°F and oil a 30 cm round tray. Press half the shell mixture into the base in an even layer, using wet hands.',
       'Spread the cooled filling over it, right to the edges.',
       'Flatten the remaining shell mixture between wet palms into patties and lay them over the filling, smoothing the joins with a wet hand until it is one continuous sheet.',
-      'Score deep diamonds through to the filling with a wet knife. Pour the melted butter evenly over the top.',
+      'Score deep diamonds through to the filling with a wet knife. Pour the melted butter (or olive oil) evenly over the top.',
       'Bake 45 minutes until deep brown and pulling from the sides of the tray. Rest 10 minutes before serving.'
     ],
     tips: [
@@ -393,10 +393,10 @@ module.exports = {
     st: [
       'Put the chicken in a large pot with the whole spices, onion, peppercorns, salt and water. Bring to a bare simmer and skim the grey foam off the top.',
       'Poach very gently 45 minutes, until the leg pulls away easily. Lift the chicken out and strain the broth, keeping 750 ml.',
-      'Brown the lamb mince in the butter over high heat for 8 minutes, until it is properly coloured rather than grey, then stir in the allspice, cinnamon and salt.',
+      'Brown the lamb mince in the butter (or olive oil) over high heat for 8 minutes, until it is properly coloured rather than grey, then stir in the allspice, cinnamon and salt.',
       'Add the rice and turn it in the buttery mince for 2 minutes until every grain is coated.',
       'Pour in the 750 ml of hot broth, bring to the boil, then cover and cook on the lowest heat 15 minutes.',
-      'Meanwhile pull the chicken meat off the bone in large pieces, discarding skin and bone. Toast the almonds and pine nuts in the 2 tbsp butter until gold.',
+      'Meanwhile pull the chicken meat off the bone in large pieces, discarding skin and bone. Toast the almonds and pine nuts in the 2 tbsp butter (or olive oil) until gold.',
       'Rest the rice off the heat, covered, for 8 minutes. Fork it through, pile it on a platter with the chicken over the top, and scatter with the hot nuts and parsley.'
     ],
     tips: [
@@ -735,7 +735,7 @@ module.exports = {
       'Soften the chopped onion in the oil for 8 minutes, then stir in the allspice and cinnamon.',
       'Add the freekeh and turn it in the oil for 2 minutes.',
       'Pour in the 900 ml of hot broth, add the salt, bring to the boil, then cover and cook on low heat 40 minutes, until the grains are tender but still chewy and the liquid is gone.',
-      'Meanwhile grill the chicken thighs skin-side up for 8 minutes until the skin crisps, and toast the nuts in the butter until gold.',
+      'Meanwhile grill the chicken thighs skin-side up for 8 minutes until the skin crisps, and toast the nuts in the butter (or olive oil) until gold.',
       'Rest the freekeh covered for 10 minutes, fork it through, and serve with the chicken on top, scattered with nuts, parsley and lemon.'
     ],
     tips: [

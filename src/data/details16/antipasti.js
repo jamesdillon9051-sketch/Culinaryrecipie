@@ -433,7 +433,7 @@ module.exports = {
       'Stir in the parsley. The paste should pull away from the sides of the pan in one mass.',
       'Tip it immediately onto an oiled tray or marble slab and spread it 4 mm thick with an oiled spatula, working fast before it sets.',
       'Leave to cool and firm, then cut into 8 cm squares or triangles.',
-      'Fry at 180°C for 3 minutes, turning once, until blistered and gold. Drain, salt, and serve in split rolls with lemon.'
+      'Fry at 180°C for 3 minutes, turning once, until blistered and gold. Drain, salt, and serve in split rolls (optional) with lemon.'
     ],
     tips: [
       'Fifteen minutes of stirring after it thickens. Less and it tastes raw.',

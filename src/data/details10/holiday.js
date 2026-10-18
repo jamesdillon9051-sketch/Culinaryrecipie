@@ -256,7 +256,7 @@ module.exports = {
       'Drop in heaped tablespoons of mixture and flatten each one to about 8 cm across with the back of the spoon, leaving the edges ragged.',
       'Fry 3 to 4 minutes a side, in batches of four, until deep golden and lacy at the rim.',
       'Drain on a rack rather than kitchen paper — paper steams the underside — and salt at once.',
-      'Serve immediately with apple sauce and soured cream.'
+      'Serve immediately with apple sauce and soured cream (optional).'
     ],
     tips: [
       'The settled starch is the trick. Everyone throws that liquid away and then wonders why their latkes fall apart.',

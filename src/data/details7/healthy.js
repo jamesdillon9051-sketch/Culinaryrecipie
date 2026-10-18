@@ -139,7 +139,7 @@ module.exports = {
       'Deseed the peppers and chilli, and squeeze the garlic out of its skins.',
       'Chop everything together on a board until you have a rough, chunky mixture. Do not blend.',
       'Dress with the olive oil, vinegar, caraway, coriander and salt.',
-      'Spread on a plate and top with tuna, egg, olives and parsley.'
+      'Spread on a plate and top with tuna (optional), egg, olives and parsley.'
     ],
     tips: [
       'Blacken them properly. Timid charring gives no smoke and the salad tastes of raw pepper.',

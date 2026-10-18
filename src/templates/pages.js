@@ -39,6 +39,13 @@ function filterSidebar(facets) {
     ${group('Category', 'category', Object.keys(CATEGORIES), facets.category)}
     ${group('Cuisine', 'cuisine', facets.cuisineList, facets.cuisine)}
     ${group('Dietary', 'tag', DIET_TAGS, facets.tag)}
+    <div class="filter-group">
+      <label class="check" title="${esc(DIET_TAGS.filter(t => facets.tagSwap && facets.tagSwap[t]).map(t => `${t}: ${facets.tagSwap[t]} more with a swap`).join('; '))}">
+        <input type="checkbox" data-filter-swaps>
+        <span>Include recipes that qualify only with a swap</span>
+      </label>
+      <p class="form-note" style="margin:.35rem 0 0">The dietary counts are recipes that qualify as written. Each recipe page names the swap and labels the diet &ldquo;option&rdquo;. A script checks ingredient names only: it does not certify a recipe free of an allergen.</p>
+    </div>
     ${group('Difficulty', 'difficulty', ['Easy', 'Medium', 'Hard'], facets.difficulty)}
     <div class="filter-group">
       <h3>Total time</h3>

@@ -445,15 +445,15 @@ module.exports = {
       'Dhal or chicken curry, to serve'
     ],
     st: [
-      'Mix the flour, salt and sugar. Add the condensed milk and warm water and knead 12 minutes to a very soft, smooth, slightly sticky dough.',
+      'Mix the flour, salt and sugar. Add the condensed milk (if using) and warm water and knead 12 minutes to a very soft, smooth, slightly sticky dough.',
       'Divide into 8 balls. Put them in a deep container, pour the oil over so they are submerged, cover, and refrigerate overnight — at least 8 hours, up to 24.',
       'Take the dough out an hour before cooking so it comes to room temperature.',
       'Oil a large smooth worktop generously. Never use flour.',
       'Flatten one ball, then push it out from the centre with oiled palms until it is a large, almost transparent sheet — you should be able to see the worktop through it. Small tears do not matter.',
-      'Brush with melted ghee, then fold the sheet in from one side into a long thin strip.',
+      'Brush with melted ghee (or margarine), then fold the sheet in from one side into a long thin strip.',
       'Coil the strip into a spiral like a snail shell, tuck the end underneath and press down lightly. Rest 15 minutes.',
       'Flatten the coil gently to about 18 cm across with oiled hands.',
-      'Cook on a hot griddle with a little ghee for 2 minutes a side, pressing occasionally, until golden and blistered.',
+      'Cook on a hot griddle with a little ghee (or margarine) for 2 minutes a side, pressing occasionally, until golden and blistered.',
       'While still hot, clap the roti between your hands from the sides to shatter the layers apart, and serve with dhal.'
     ],
     tips: [

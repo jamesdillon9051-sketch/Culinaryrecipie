@@ -36,7 +36,7 @@ module.exports = {
     ],
     st: [
       'Butter a 1.2 litre pudding basin and dust it with the tablespoon of sugar.',
-      'Mix the flour, suet, sugar, currants, lemon zest, salt and mixed spice.',
+      'Mix the flour, suet (or vegetarian suet), sugar, currants, lemon zest, salt and mixed spice.',
       'Stir in the milk to a soft mixture that drops reluctantly from a spoon. Add a splash more if it is stiff.',
       'Spoon into the basin and level the top — it should come no more than three quarters up.',
       'Cover with a pleated sheet of baking paper and foil and tie under the rim with string.',
@@ -582,7 +582,7 @@ module.exports = {
       'Leave it to stand 2 minutes, then strain out the zest.',
       'Pour into six glasses or ramekins.',
       'Refrigerate 4 hours, until firmly set.',
-      'Serve with raspberries, shortbread and strips of zest.'
+      'Serve with raspberries, shortbread (optional) and strips of zest.'
     ],
     rest: [240, 'chilling the possets until set'],
     tips: [

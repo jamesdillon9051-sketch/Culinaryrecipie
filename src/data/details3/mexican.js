@@ -100,7 +100,7 @@ module.exports = {
       'Rinse the rice once, then put it in a bowl with the broken cinnamon sticks and the warm water. Cover and leave at room temperature overnight, or at least 8 hours.',
       'Tip the rice, cinnamon and soaking water into a blender with the extra 500 ml water. Blend on high for a full 2 minutes — longer than feels necessary.',
       'Strain through a fine sieve lined with muslin, pressing the solids to get everything through. Discard the pulp.',
-      'Stir in the milk, sugar and vanilla. Taste and adjust the sugar — it should be sweet but not cloying.',
+      'Stir in the milk (or oat milk), sugar and vanilla. Taste and adjust the sugar — it should be sweet but not cloying.',
       'Chill thoroughly. Serve over plenty of ice with a dusting of ground cinnamon.'
     ],
     tips: [

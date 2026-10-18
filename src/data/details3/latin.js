@@ -310,7 +310,7 @@ module.exports = {
       'Turn it carefully in one movement, using two spatulas.',
       'Cook 2 to 3 minutes more, until the second side crusts and the centre begins to bulge and wobble.',
       'Grind the black pepper over and take the pan straight to the table.',
-      'Eat immediately, scooping it onto bread with chimichurri and a squeeze of lemon.'
+      'Eat immediately, scooping it onto bread (optional) with chimichurri and a squeeze of lemon.'
     ],
     tips: [
       'Aged provolone only. The soft kind runs straight out of the pan.',

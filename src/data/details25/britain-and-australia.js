@@ -465,7 +465,7 @@ module.exports = {
       'Heat the grill or barbecue to medium-high and oil the grate.',
       'Brush the cut surface of each bug generously with the garlic butter. Set them flesh side down on the grill and cook for 3 minutes.',
       'Turn the bugs shell side down, spoon over more of the garlic butter and cook for 3 to 4 minutes, until the flesh is opaque and just firm.',
-      'Move to a platter, spoon over any butter left in the shells and serve with lemon wedges and crusty bread.'
+      'Move to a platter, spoon over any butter left in the shells and serve with lemon wedges and crusty bread (optional).'
     ],
     tips: [
       'Cook the bugs from raw. Ones that have already been cooked go rubbery when they are grilled again.',

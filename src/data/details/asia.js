@@ -327,7 +327,7 @@ module.exports = {
       'Add the remaining oil and stir-fry the onion for 2 minutes, then the garlic and red pepper for 90 seconds.',
       'Add the curry powder and turmeric and fry for 30 seconds to bloom the spices.',
       'Add the rice and stir-fry over the highest heat for 3 minutes, pressing and tossing, until every grain is hot and separate.',
-      'Pour the soy sauce, fish sauce and sugar around the edge of the wok and toss for 60 seconds so the seasoning coats evenly.',
+      'Pour the soy sauce, fish sauce (or extra soy sauce) and sugar around the edge of the wok and toss for 60 seconds so the seasoning coats evenly.',
       'Add the peas, raisins, egg and cashews and toss 60 seconds more.',
       'Fold in the pineapple off the heat so it stays fresh and firm, then finish with spring onions, coriander and lime.'
     ],
@@ -603,7 +603,7 @@ module.exports = {
       'If the rice cakes are refrigerated or frozen, soak them in warm water for 20 minutes until pliable, then drain.',
       'Bring the stock to a boil in a wide, shallow pan.',
       'Whisk in the gochujang, gochugaru, sugar, soy sauce, garlic and corn syrup until fully dissolved.',
-      'Add the rice cakes and fish cakes and boil steadily, stirring often so nothing sticks to the base.',
+      'Add the rice cakes and fish cakes (if using) and boil steadily, stirring often so nothing sticks to the base.',
       'Cook for 10 to 12 minutes, until the rice cakes are soft and chewy through and the sauce has reduced to a thick, glossy coating.',
       'Add the spring onions and boiled eggs in the last 2 minutes to warm through.',
       'Take off the heat, stir in the sesame oil, scatter with sesame seeds and serve immediately.'

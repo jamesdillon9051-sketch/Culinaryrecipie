@@ -28,7 +28,7 @@ module.exports = {
       'The mixture will visibly thicken and turn from red to a pale coral orange as the oil emulsifies.',
       'Add the sherry vinegar and blend for 10 seconds more.',
       'Taste and adjust for salt and acidity, then chill at least 3 hours until properly cold.',
-      'Serve in shallow bowls topped with chopped egg, torn jamón and a final drizzle of olive oil.'
+      'Serve in shallow bowls topped with chopped egg, torn jamón (optional) and a final drizzle of olive oil.'
     ],
     tips: [
       'One small garlic clove is enough. Raw garlic dominates a cold soup very quickly.',

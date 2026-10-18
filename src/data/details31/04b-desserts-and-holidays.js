@@ -186,7 +186,7 @@ module.exports = {
       'Stir in the liquid pectin, return to a full rolling boil and boil hard for exactly 1 minute, stirring constantly. Take the pan off the heat and skim off the foam.',
       'Let the jelly stand for 5 minutes, stirring gently, so the pieces of pepper are evenly spread through it and do not all float to the top.',
       'Ladle into hot sterilised jars to within 6 mm of the top, wipe the rims and seal at once. Cool.',
-      'To serve, spoon over a block of cream cheese and serve with crackers.'
+      'To serve, spoon over a block of cream cheese (optional) and serve with crackers (optional).'
     ],
     tips: [
       'Boil for exactly the time given after adding the pectin. Boiling it longer breaks the pectin down and the jelly will not set.',

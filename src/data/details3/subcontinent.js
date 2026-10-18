@@ -38,14 +38,14 @@ module.exports = {
     ],
     st: [
       'Toast all the whole masala spices in a dry pan for 90 seconds until fragrant, then grind to a powder with the dried ginger, nutmeg and mace.',
-      'Heat the ghee in a very heavy pot and fry the onions for 12 minutes until deep golden. Lift half out for the garnish.',
+      'Heat the ghee (or neutral oil) in a very heavy pot and fry the onions for 12 minutes until deep golden. Lift half out for the garnish.',
       'Add the ginger-garlic paste and cook 2 minutes.',
       'Add the beef and marrow bones and brown for 10 minutes.',
       'Add the chilli powder, turmeric, salt and two-thirds of the ground masala, and fry 3 minutes.',
       'Pour in the hot water, bring to a simmer, cover, and cook on the lowest possible heat for 4 to 5 hours, or overnight in a very low oven at 120C. The beef should be falling apart.',
       'Lift the meat and bones out. Bring the gravy to a bare simmer and take it off the boil.',
       'Whisk the flour and cold water slurry until completely smooth, then pour it into the pot in a thin stream while whisking hard.',
-      'Return to low heat and cook 15 to 20 minutes, stirring, until the gravy thickens and turns glossy and a slick of ghee rises.',
+      'Return to low heat and cook 15 to 20 minutes, stirring, until the gravy thickens and turns glossy and a slick of ghee (or neutral oil) rises.',
       'Return the beef, scoop the marrow out of the bones and stir it in, and add the rest of the masala.',
       'Serve topped with the reserved fried onions, ginger matchsticks, green chilli, coriander and lime, with naan.'
     ],
@@ -145,7 +145,7 @@ module.exports = {
       'Squeeze gently along its length to create shallow ridges, which help it grip the skewer.',
       'Chill the loaded skewers 20 minutes.',
       'Cook over hot coals or under a very hot grill for 4 minutes, then turn and cook 4 minutes more, basting once with oil or butter, until charred outside and just cooked through.',
-      'Rest 3 minutes, slide off the skewers, and serve with naan, chutney, onion and lemon.'
+      'Rest 3 minutes, slide off the skewers, and serve with naan (optional), chutney, onion and lemon.'
     ],
     tips: [
       'Knead until it is one sticky mass. Stirring will not do it.',
@@ -191,7 +191,7 @@ module.exports = {
       'Heat the dripping in a wide frying pan to about 1 cm deep, over medium-high heat.',
       'Fry three at a time for 4 minutes on the first side without moving them, spooning hot fat over the top.',
       'Turn carefully with a wide spatula and fry 3 to 4 minutes more, until dark brown and crusted.',
-      'Drain briefly and serve hot with naan, raw onion rings and lemon.'
+      'Drain briefly and serve hot with naan (optional), raw onion rings and lemon.'
     ],
     tips: [
       'Crush the seeds coarsely. Powder loses the whole character.',

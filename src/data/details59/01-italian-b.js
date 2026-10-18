@@ -154,11 +154,11 @@ module.exports = {
       '40 g rice paper or wafer paper'
     ],
     st: [
-      'Line a 20 cm square tin with a sheet of wafer paper.',
+      'Line a 20 cm square tin with a sheet of wafer paper (or rice paper).',
       'Warm the honey in a heatproof bowl over simmering water, stirring, until it reaches 120C.',
       'Boil the sugar and water in a pan to 145C.',
       'Whisk the egg whites to stiff peaks, whisk in the hot honey in a thin stream, then the sugar syrup, and beat for 8 minutes until thick and glossy.',
-      'Fold in the almonds and vanilla and pack into the tin. Cover with the second sheet of wafer paper and press with a weight.',
+      'Fold in the almonds and vanilla and pack into the tin. Cover with the second sheet of wafer paper (or rice paper) and press with a weight.',
       'Leave to set for 6 hours, then cut in thick slices with an oiled knife.'
     ],
     tips: [

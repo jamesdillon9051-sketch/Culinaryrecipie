@@ -452,7 +452,7 @@ module.exports = {
       'Heat half the butter and oil in a large non-stick pan over medium heat until foaming.',
       'Spoon in 3 or 4 mounds, about 3 tablespoons each, and flatten slightly. Cook 2 minutes, until golden underneath, then turn and cook 1 to 2 minutes until just set.',
       'Lift onto paper towels and repeat with the remaining butter, oil and mixture, making 8 to 10 fritters.',
-      'Serve at once with lemon wedges, on buttered white bread.'
+      'Serve at once with lemon wedges, on buttered white bread (optional).'
     ],
     tips: [
       'Beat the eggs until frothy. It is what makes the fritters light.',

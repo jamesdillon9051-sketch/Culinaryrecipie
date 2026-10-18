@@ -29,7 +29,7 @@ module.exports = {
       'Add the garlic and cook for 30 seconds, until fragrant.',
       'Pour in the cider, add the bay leaf and bring to the boil, scraping up the sticky bits from the pan.',
       'Simmer for 12 to 15 minutes, turning the chorizo now and then, until the cider has reduced to a thick, sticky glaze that coats each slice.',
-      'Remove the bay leaf, scatter with the parsley and serve hot in a shallow dish with crusty bread.'
+      'Remove the bay leaf, scatter with the parsley and serve hot in a shallow dish with crusty bread (optional).'
     ],
     tips: [
       'Choose dry cider. Sweet cider reduces to a sugary syrup, and the dish loses its balance of fat, smoke and acidity.',

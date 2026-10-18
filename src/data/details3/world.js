@@ -211,12 +211,12 @@ module.exports = {
     ],
     st: [
       'Chill two bowls in the freezer for 15 minutes.',
-      'Put the frozen berries, frozen banana, mango, yoghurt and almond butter into a strong blender.',
+      'Put the frozen berries, frozen banana, mango, yoghurt (or coconut yoghurt) and almond butter into a strong blender.',
       'Add 4 tablespoons of almond milk only, and start on low.',
       'Use the tamper to push the fruit down onto the blades rather than adding more liquid. Stop and scrape down the sides as often as you need to.',
       'Add more milk only a tablespoon at a time, and only if the blades genuinely will not turn.',
       'Blend until it is smooth, glossy and stiff enough to hold the mark of a spoon — like soft-serve, not like a drink.',
-      'Taste and add honey if the fruit needs it.',
+      'Taste and add honey (or maple syrup) if the fruit needs it.',
       'Spoon into the chilled bowls and flatten the surface with the back of the spoon.',
       'Arrange the toppings in stripes across the surface and finish with a drizzle of nut butter.',
       'Eat immediately, before it softens.'
