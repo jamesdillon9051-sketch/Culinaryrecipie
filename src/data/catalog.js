@@ -53,7 +53,7 @@ module.exports = [
   c('croissants', 'Butter Croissants', 'French', 'Baking', 'Hard', 180, 20, 8, 4.8, 3260, ['Vegetarian'], ['editors'], 'Croissant'),
   c('baguette', 'French Baguette', 'French', 'Baking', 'Hard', 40, 25, 3, 4.7, 1902, ['Vegan', 'Dairy-Free'], [], 'Baguette bread'),
   c('eclairs', 'Chocolate Éclairs', 'French', 'Desserts', 'Hard', 45, 35, 12, 4.7, 1355, ['Vegetarian'], [], 'Chocolate eclair'),
-  c('macarons', 'French Macarons', 'French', 'Desserts', 'Hard', 60, 15, 24, 4.6, 2803, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Macaron'),
+  c('macarons', 'French Macarons', 'French', 'Desserts', 'Hard', 60, 14, 24, 4.6, 2803, ['Vegetarian', 'Gluten-Free'], ['trending'], 'Macaron'),
   c('creme-brulee', 'Crème Brûlée', 'French', 'Desserts', 'Medium', 20, 40, 6, 4.9, 3688, ['Vegetarian', 'Gluten-Free'], ['editors'], 'Creme brulee'),
   c('chocolate-souffle', 'Chocolate Soufflé', 'French', 'Desserts', 'Hard', 25, 15, 4, 4.7, 1244, ['Vegetarian'], [], 'Chocolate souffle'),
   c('tarte-tatin', 'Apple Tarte Tatin', 'French', 'Desserts', 'Medium', 30, 45, 8, 4.8, 1611, ['Vegetarian'], [], 'Tarte tatin'),

@@ -15085,6 +15085,17 @@
    "source": "USDA FSIS, \"Marinating Meat, Poultry and Fish\": always marinate in the refrigerator, never on the counter.",
    "limitation": "Under 2 hours, so within the 2-hour rule either way; the fridge is what FSIS asks for every marinade.",
    "recorded": "2026-10-18"
+  },
+  "new|macarons|cook time floor": {
+   "id": "new|macarons|cook time floor",
+   "status": "corrected",
+   "url": "https://weeklydelight.com/recipes/macarons/",
+   "file": "src/data/catalog.js (row) and src/data/details/french.js",
+   "item": "Catalogue row cook time 15 with cookMax 16; the method says \"Bake at 150°C / 300°F for 14 to 16 minutes\".",
+   "problem": "The row's cook time is the floor of the method's range, and the page showed \"1 hr 15 min to 1 hr 16 min\", a one-minute range that was not the recipe's own.",
+   "action": "Row cook time set to 14, so the page, the card, the search index and the JSON-LD cookTime read the method's range: 1 hr 14 min to 1 hr 16 min prep and cooking. The start-to-finish total becomes at least 25 h 44 min to 26 h 16 min.",
+   "source": "The recipe's own method; CLAUDE.md section 3 (cookMax).",
+   "recorded": "2026-10-18"
   }
  }
 }
