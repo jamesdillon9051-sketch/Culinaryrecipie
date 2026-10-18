@@ -212,7 +212,6 @@ module.exports = {
   },
 
   'kunefe': {
-    rest: [60, 'soaking'],
     d: 'Shredded kadayif pastry packed around a layer of stretchy unsalted cheese, fried in butter on both sides and soaked in cold syrup while still hot.',
     meta: 'Künefe — shredded kadayif pastry around melting cheese, fried in butter and soaked in cold syrup.',
     kw: ['kunefe recipe', 'kunafa with cheese', 'turkish cheese dessert', 'kadayif pastry'],

@@ -314,7 +314,7 @@ module.exports = {
       'Bake 90 minutes, until a skewer inserted into the middle comes out hot and the juices run clear.',
       'Cool for an hour, then put a weight on top — tins work — and refrigerate at least 720 minutes before slicing.'
     ],
-    rest: [720, 'pressing and chilling'],
+    rest: [780, 'pressing and chilling'],
     tips: [
       'A third fat. Lean terrine is dry terrine.',
       'Fry a spoonful and taste before committing.',

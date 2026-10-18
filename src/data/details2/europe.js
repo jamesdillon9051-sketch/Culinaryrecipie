@@ -50,7 +50,7 @@ module.exports = {
   },
 
   'blini': {
-    rest: [90, 'proving'],
+    rest: [110, 'proving'],
     d: 'Small yeasted buckwheat pancakes, thicker and more savoury than a crêpe, served warm with soured cream and whatever you can afford on top. Traditionally eaten by the dozen during Maslenitsa.',
     meta: 'Russian blini — small yeasted buckwheat pancakes served warm with soured cream, dill and smoked fish.',
     kw: ['blini recipe', 'russian pancakes', 'buckwheat blini', 'yeasted pancakes'],
@@ -140,7 +140,7 @@ module.exports = {
   },
 
   'golabki': {
-    rest: [1440, 'freezing'],
+    rest: [1455, 'freezing'],
     d: 'Cabbage leaves rolled around pork, beef and rice, then braised in tomato until the leaves are soft enough to cut with a fork. Polish home cooking, and the name means "little pigeons".',
     meta: 'Gołąbki — Polish cabbage rolls stuffed with pork, beef and rice, braised in a tomato sauce.',
     kw: ['golabki recipe', 'polish cabbage rolls', 'stuffed cabbage', 'cabbage rolls tomato'],

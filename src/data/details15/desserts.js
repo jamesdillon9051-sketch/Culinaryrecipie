@@ -670,7 +670,7 @@ module.exports = {
       'Submerge the dry babas in the warm syrup and leave 20 minutes, turning once, until completely saturated and heavy.',
       'Lift out carefully, drizzle with the extra rum, and serve with cream whipped with the icing sugar.'
     ],
-    rest: [165, 'both proves and drying the babas'],
+    rest: [185, 'both proves and drying the babas'],
     tips: [
       'Bake them dry. A moist baba cannot absorb syrup.',
       'Warm syrup, never hot. Hot syrup seals the outside.',
@@ -708,7 +708,7 @@ module.exports = {
       'Pour into the ramekins, stand them in a roasting dish, and pour in hot water to come halfway up. Bake at 150°C / 300°F for 45 minutes, until set with a faint wobble.',
       'Cool, then refrigerate at least 720 minutes. Run a knife round each and turn out onto a plate so the caramel runs.'
     ],
-    rest: [720, 'chilling overnight so the caramel liquefies'],
+    rest: [735, 'chilling overnight so the caramel liquefies'],
     tips: [
       'Overnight in the fridge. That is when the caramel becomes a sauce.',
       'Skim the bubbles before baking.',

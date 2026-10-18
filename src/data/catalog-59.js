@@ -77,7 +77,7 @@ module.exports = [
   c('salsicce-e-fagioli', 'Salsicce e Fagioli', 'Italian', 'Dinner', 'Easy', 10, 30, 4, 0, 0, [], ['new'], 'salsicce e fagioli'),
   c('spezzatino-di-manzo', 'Spezzatino di Manzo', 'Italian', 'Dinner', 'Easy', 20, 100, 6, 0, 0, ['Dairy-Free'], ['new'], 'spezzatino di manzo'),
   c('polpettone', 'Polpettone', 'Italian', 'Dinner', 'Easy', 20, 60, 6, 0, 0, [], ['new'], 'polpettone'),
-  c('cotechino-con-lenticchie', 'Cotechino con Lenticchie', 'Italian', 'Holiday Specials', 'Medium', 15, 150, 6, 0, 0, ['Vegetarian', 'Vegan', 'Dairy-Free', 'Gluten-Free'], ['new'], 'cotechino con lenticchie'),
+  c('cotechino-con-lenticchie', 'Cotechino con Lenticchie', 'Italian', 'Holiday Specials', 'Medium', 15, 150, 6, 0, 0, ['Dairy-Free', 'Gluten-Free'], ['new'], 'cotechino con lenticchie'),
   c('crostini-toscani', 'Crostini Toscani', 'Italian', 'Appetizers', 'Easy', 15, 10, 8, 0, 0, [], ['new'], 'crostini toscani'),
   c('tramezzini', 'Tramezzini', 'Italian', 'Lunch', 'Easy', 15, 0, 6, 0, 0, [], ['new'], 'tramezzini'),
   c('tortellini-panna-e-prosciutto', 'Tortellini Panna e Prosciutto', 'Italian', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'tortellini panna e prosciutto'),

@@ -506,7 +506,7 @@ module.exports = {
     pair: ['Salted butter', 'A pot of tea', 'Hallowe\'en'],
     store: 'Keeps 1 week wrapped and improves for the first three days.',
     nut: [385, 5, 82, 3, 3, 52, 240],
-    rest: [480, 'soaking the fruit']
+    rest: [495, 'soaking the fruit']
   },
 
   'dublin-coddle': {

@@ -50,7 +50,7 @@ module.exports = {
 
   'almond-crescent-cookies': {
     d: 'Buttery almond crescents shaped by hand, baked for 15 minutes and rolled twice in icing sugar while still warm.',
-    meta: 'Almond crescent cookies, buttery and tender, rolled in icing sugar. 30 cookies, baked for 15 minutes, ready in 45 minutes.',
+    meta: 'Almond crescent cookies, buttery and tender, rolled in icing sugar. 30 cookies, baked for 15 minutes, ready in 1 hour 15 minutes.',
     kw: ['almond crescent cookies', 'almond crescents', 'vanillekipferl style cookies', 'butter almond crescents', 'christmas crescent cookies'],
     why: 'This is what to bake in the first cold week of December, when the shops are playing carols and the kitchen needs something small and sweet for the tin. Almond crescents belong to the Central European tradition of vanilla crescents, a delicate butter cookie that dissolves in the mouth.\n\nThe dough is short, with a high proportion of butter to flour and a generous amount of ground almonds. There is no egg, which is why the cookies are so tender, and also why the dough is fragile. Chill it for 30 minutes before shaping, or it will stick to your hands and lose its shape in the oven.\n\n**Roll into a small log and bend into a crescent.** Pieces about the size of a walnut, rolled under the palm into a short sausage with tapered ends and curved gently, bake into the classic shape. Place them on a lined tray with a little room between them.\n\nBake until the bottoms are pale gold and the tops are still pale, then dust them with icing sugar while they are warm so the first layer melts in. Wait 10 minutes and roll them a second time in more sugar once cool for a thick, snowy coat.',
     ing: [
@@ -80,7 +80,7 @@ module.exports = {
 
   'almond-flour-cake': {
     d: 'A moist, tender cake made with ground almonds in place of most of the flour, baked for 35 minutes with lemon zest and a dusting of icing sugar.',
-    meta: 'Almond flour cake, moist and tender with lemon zest, baked for 35 minutes. Ten servings, ready in 50 minutes.',
+    meta: 'Almond flour cake, moist and tender with lemon zest, baked for 35 minutes. Ten servings, ready in 1 hour 5 minutes.',
     kw: ['almond flour cake', 'ground almond cake', 'almond cake with lemon', 'moist almond cake', 'almond sponge cake'],
     why: 'Almonds are the flour here, not an addition to it. A cake made from ground almonds has a tight, moist crumb and a deep, nutty flavour that plain flour cannot match, and it stays soft for days. It is also very forgiving, since there is little gluten to toughen.\n\nThe structure comes from eggs. Four of them, separated, with the whites whipped to soft peaks and folded in at the end to lighten the batter. The yolks are beaten with the sugar and butter until pale and thick. This takes a few extra minutes, but it gives a cake that rises properly rather than a dense, heavy slab.\n\n**Do not overbeat after the almonds go in.** Fold the ground almonds, baking powder and salt in gently, then fold in the whites in two additions. Overmixing knocks out the air and flattens the cake.\n\nBake in a lined 20 cm tin at 170C until a skewer comes out clean and the top is golden. Cool in the tin for 15 minutes before turning out, because the crumb is delicate when warm. A dusting of icing sugar and a spoonful of whipped cream or fresh berries is all it needs.',
     ing: [
@@ -291,7 +291,7 @@ module.exports = {
 
   'banana-cookies': {
     d: 'Soft, cake-like banana cookies with cinnamon and walnuts, baked for 15 minutes and finished with a thin vanilla glaze.',
-    meta: 'Banana cookies, soft and cake-like with cinnamon, baked for 15 minutes. 18 cookies, ready in 30 minutes.',
+    meta: 'Banana cookies, soft and cake-like with cinnamon, baked for 15 minutes. 18 cookies, ready in 50 minutes.',
     kw: ['banana cookies', 'soft banana cookies', 'banana walnut cookies', 'cake like banana cookies', 'banana cookie recipe'],
     why: 'Mash one banana, not two. That is the single most useful instruction here, because banana is wet, and too much of it turns the dough into a batter that spreads into thin, greasy puddles on the tray. One large ripe banana gives you the flavour without flooding the mixture.\n\nThese are soft, almost cake-like cookies, closer to a muffin top than a crisp biscuit. The softness comes from a higher ratio of flour to fat than in a chocolate chip dough, and from the moisture in the fruit. They puff up in the oven and set with a tender, springy crumb, and are not meant to be chewy.\n\n**Chill the dough for 20 minutes before baking.** Banana dough is soft and sticky, and a short rest in the fridge firms the butter so the cookies hold their shape. Drop them in mounds on the tray and leave 4 cm between each one.\n\nBake until the edges are lightly golden and the tops spring back when touched. A thin glaze of icing sugar, milk and vanilla added once the cookies are cool gives a sweet finish. Walnuts add texture, but chocolate chips or oats work just as well.',
     ing: [
@@ -541,7 +541,7 @@ module.exports = {
 
   'brownie-cookies': {
     d: 'Fudgy chocolate cookies with a crackled brownie-like surface and chewy centre, baked for 12 minutes at 180C.',
-    meta: 'Brownie cookies with a crackled top and a chewy, fudgy middle, baked for 12 minutes. 18 cookies, ready in 30 minutes.',
+    meta: 'Brownie cookies with a crackled top and a chewy, fudgy middle, baked for 12 minutes. 18 cookies, ready in 57 minutes.',
     kw: ['brownie cookies', 'fudgy brownie cookies', 'chocolate crinkle brownie cookies', 'chewy chocolate cookies', 'brownie cookie recipe'],
     why: 'It looks like a cookie and eats like a brownie, and that is the point. Brownie cookies are the answer for anyone who prefers the edges and the shine, and they have the same crackled paper-thin crust, a dense centre and a rich chocolate flavour from a double hit of cocoa and melted chocolate.\n\nThe dough is wetter than a standard cookie dough. It contains melted chocolate, a lot of sugar and just enough flour to hold it together, so it looks more like a thick batter than a dough. This is correct. Chill it for 30 minutes, until it is firm enough to scoop, and it will bake into flat, fudgy rounds.\n\n**Whip the eggs and sugar for 3 minutes.** This is what builds the thin, shiny crust on top. Do not rush it. The mixture should turn pale and thick, and fall from the whisk in a slow ribbon.\n\nPull the cookies from the oven when the surface is set and crackled but the middle still looks soft. They will firm up on the tray. Leave them for 10 minutes before moving them. Chocolate chunks pressed into the tops before baking add pools of molten chocolate.',
     ing: [

@@ -141,6 +141,9 @@ function serveHtml(recipe, style, heading) {
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const longDate = iso => { const [y, m, d] = String(iso).slice(0, 10).split('-').map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
 
+/* ['cooling completely', 'chilling until set'] -> "cooling completely and chilling until set" */
+const listWords = list => list.length < 2 ? list.join('') : `${list.slice(0, -1).join(', ')} and ${list[list.length - 1]}`;
+
 const SALT_WATER_REASON = /salt for the cooking water/;
 
 function nutritionNote(recipe) {
@@ -463,9 +466,11 @@ ${breadcrumbs(trail)}
 
         <div class="recipe-meta">
           ${starsHtml(recipe.rating, recipe.reviews)}
-          <span>${ICONS.clock}<strong>${recipe.cookMax > recipe.cook ? humanWaitRange(recipe.totalTime, recipe.prep + recipe.cookMax) : humanTime(recipe.totalTime)}</strong> ${recipe.restTime ? 'prep and cooking' : 'total'}</span>
+          <span>${ICONS.clock}<strong>${recipe.cookMax > recipe.cook ? humanWaitRange(recipe.totalTime, recipe.prep + recipe.cookMax) : humanTime(recipe.totalTime)}</strong> ${recipe.restTime || recipe.restMax || recipe.untimed ? 'prep and cooking' : 'total'}</span>
           ${recipe.restTime ? `<span>${ICONS.clock}plus <strong>${humanWaitRange(recipe.restTime, recipe.restMax)}</strong> ${esc(recipe.restLabel)}</span>` : ''}
-          ${recipe.restTime || recipe.elapsedMax > recipe.elapsedTime ? `<span>${ICONS.clock}<strong>${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
+          ${recipe.restConditional ? `<span>${ICONS.clock}plus up to <strong>${humanTime(recipe.restMax)}</strong> ${esc(recipe.restLabel)}, if your ingredients need it (see the method)</span>` : ''}
+          ${recipe.untimed ? `<span>${ICONS.clock}plus time for ${esc(listWords(recipe.untimed))}, which the recipe does not time</span>` : ''}
+          ${recipe.restTime || recipe.elapsedMax > recipe.elapsedTime || recipe.untimed ? `<span>${ICONS.clock}<strong>${recipe.untimed ? 'at least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</strong> start to finish</span>` : ''}
           <span>${ICONS.users}Serves <strong data-yield>${recipe.servings} servings</strong></span>
           <span>${ICONS.gauge}<strong>${esc(recipe.difficulty)}</strong></span>
         </div>
@@ -521,8 +526,9 @@ ${breadcrumbs(trail)}
           <dl style="display:grid;grid-template-columns:auto 1fr;gap:.5rem 1rem;margin:0;font-size:.9rem">
             <dt style="color:var(--text-soft)">Prep</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.prep)}</dd>
             <dt style="color:var(--text-soft)">Cook</dt><dd style="margin:0;font-weight:600">${humanTime(recipe.cook)}</dd>
-            ${recipe.restTime ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.restTime, recipe.restMax)}</dd>` : ''}
-            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
+            ${recipe.restTime || recipe.restMax ? `<dt style="color:var(--text-soft)">${esc(recipe.restLabel[0].toUpperCase() + recipe.restLabel.slice(1))}</dt><dd style="margin:0;font-weight:600">${recipe.restConditional ? `Up to ${humanTime(recipe.restMax)}, if needed` : humanWaitRange(recipe.restTime, recipe.restMax)}</dd>` : ''}
+            ${recipe.untimed ? `<dt style="color:var(--text-soft)">Not timed</dt><dd style="margin:0;font-weight:600">${esc(listWords(recipe.untimed))}</dd>` : ''}
+            <dt style="color:var(--text-soft)">Total</dt><dd style="margin:0;font-weight:600">${recipe.untimed ? 'At least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}</dd>
             <dt style="color:var(--text-soft)">Difficulty</dt><dd style="margin:0;font-weight:600">${esc(recipe.difficulty)}</dd>
             <dt style="color:var(--text-soft)">Cuisine</dt><dd style="margin:0;font-weight:600">${esc(recipe.cuisine)}</dd>
           </dl>
@@ -649,7 +655,7 @@ ${breadcrumbs(trail)}
     /* Twitter renders two labelled facts under the card. Time and yield are
        what somebody deciding whether to open a recipe wants to know. */
     cardFacts: [
-      ['Time', humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)],
+      ['Time', `${recipe.untimed ? 'at least ' : ''}${humanWaitRange(recipe.elapsedTime, recipe.elapsedMax)}`],
       ['Serves', String(recipe.servings)]
     ],
     image: img && (ILLUSTRATIONS.inRecipeSchema || !isIllustration(img))

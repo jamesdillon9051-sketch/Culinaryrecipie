@@ -2,7 +2,7 @@
 
 module.exports = {
   'salmorejo': {
-    rest: [180, 'chilling'],
+    rest: [200, 'chilling'],
     d: 'Córdoba\'s thicker, richer answer to gazpacho: tomatoes, bread, garlic and a great deal of olive oil blended into a smooth orange cream, served cold under chopped egg and jamón.',
     meta: 'Salmorejo cordobés — thick chilled tomato and bread cream with olive oil, topped with egg and jamón.',
     kw: ['salmorejo recipe', 'spanish cold soup', 'cordoba tomato soup', 'thick gazpacho'],
@@ -113,7 +113,7 @@ module.exports = {
   },
 
   'fabada-asturiana': {
-    rest: [480, 'soaking'],
+    rest: [500, 'soaking'],
     d: 'Enormous creamy fabes beans stewed with chorizo, morcilla and pork shoulder until the broth turns orange with paprika fat. Asturias in a pot, and a dish designed for cold, wet Atlantic weather.',
     meta: 'Fabada asturiana — Asturian bean stew with fabes, chorizo, morcilla and pork in a rich paprika broth.',
     kw: ['fabada asturiana recipe', 'spanish bean stew', 'asturian fabada', 'chorizo morcilla beans'],

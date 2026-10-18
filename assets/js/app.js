@@ -281,7 +281,7 @@
           return '<a class="ac-item" role="option" id="ac-' + i + '" aria-selected="false" href="' +
             escapeHtml(document.body.dataset.base + 'recipes/' + m.g + '/') + '">' + thumb +
             '<span><strong>' + escapeHtml(m.t) + '</strong><span>' + escapeHtml(m.c) +
-            ' &middot; ' + escapeHtml(cardTime(m.m, m.x)) + ' &middot; ' + escapeHtml(m.d) + '</span></span></a>';
+            ' &middot; ' + escapeHtml(cardTime(m.m, m.x) + (m.u ? '+' : '')) + ' &middot; ' + escapeHtml(m.d) + '</span></span></a>';
         }).join('');
         active = -1;
       };

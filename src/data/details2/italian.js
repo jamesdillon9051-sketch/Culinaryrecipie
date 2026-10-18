@@ -107,6 +107,7 @@ module.exports = {
   },
 
   'melanzane-alla-parmigiana': {
+    rest: [75, 'waiting'],
     d: 'Layers of fried aubergine, tomato, basil and mozzarella baked until the edges catch and the middle sets into something you can cut into squares. Southern Italy\'s answer to lasagne, and no pasta in sight.',
     meta: 'Classic melanzane alla parmigiana with fried aubergine, tomato and mozzarella, baked until it slices cleanly.',
     kw: ['melanzane alla parmigiana recipe', 'aubergine parmigiana', 'eggplant parmesan', 'vegetarian bake'],
@@ -256,6 +257,7 @@ module.exports = {
   },
 
   'panzanella': {
+    rest: [65, 'soaking'],
     d: 'A Tuscan salad built to use up stale bread: torn crusts soaked in tomato juice and vinegar until they turn silky, tossed with ripe tomatoes, cucumber, onion and basil.',
     meta: 'Tuscan panzanella with stale bread, ripe tomatoes and basil. A vegan summer salad that improves as it stands.',
     kw: ['panzanella recipe', 'tuscan bread salad', 'tomato bread salad', 'vegan summer salad'],
@@ -371,7 +373,7 @@ module.exports = {
   },
 
   'tiramisu-gelato': {
-    rest: [540, 'chilling'],
+    rest: [560, 'chilling'],
     d: 'Proper Italian gelato: less fat, less air and served warmer than ice cream, which is why it tastes so much more intensely of what is in it. This vanilla base takes any flavour you like.',
     meta: 'Authentic Italian vanilla gelato — denser and more intensely flavoured than ice cream. Full custard method.',
     kw: ['gelato recipe', 'italian gelato', 'vanilla gelato', 'homemade ice cream'],

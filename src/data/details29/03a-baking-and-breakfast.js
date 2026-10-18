@@ -158,7 +158,7 @@ module.exports = {
     pair: ['A cup of strong coffee', 'A glass of cold milk', 'Butter'],
     store: 'Keeps wrapped at room temperature for up to 3 days, and it is even better toasted on the second day. Freezes well for up to 3 months, sliced or whole.',
     nut: [286, 5, 35, 14, 2, 15, 70],
-    rest: [105, 'Rising']
+    rest: [120, 'Rising']
   },
 
   'coconut-cake': {

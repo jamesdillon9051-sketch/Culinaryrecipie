@@ -430,6 +430,7 @@ module.exports = {
   },
 
   'roti-canai': {
+    rest: [495, 'chilling'],
     d: 'Dough rested in oil overnight, flipped and stretched until translucent, coiled, flattened and griddled so it pulls apart in flaky ribbons.',
     meta: 'Roti canai — Malaysian flatbread stretched thin, coiled and griddled until it pulls apart in flaky layers.',
     kw: ['roti canai recipe', 'roti prata', 'malaysian flatbread', 'flaky layered roti'],

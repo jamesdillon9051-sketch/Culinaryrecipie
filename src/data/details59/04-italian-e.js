@@ -305,7 +305,7 @@ module.exports = {
 
   'tagliolini-al-tartufo': {
     d: 'Fresh egg tagliolini tossed in butter and Parmesan with shaved black truffle, rolled and cut by hand in 35 minutes.',
-    meta: 'Tagliolini al tartufo, fresh egg tagliolini in butter and Parmesan with shaved black truffle, cooked for 3 minutes. Four servings, ready in 33 minutes.',
+    meta: 'Tagliolini al tartufo, fresh egg tagliolini in butter and Parmesan with shaved black truffle, cooked for 3 minutes. Four servings, ready in 53 minutes.',
     kw: ['tagliolini al tartufo', 'truffle tagliolini', 'tagliolini with black truffle and butter', 'fresh egg pasta with truffle', 'italian truffle pasta'],
     why: 'A dinner for four on a night that matters, and one where a few shavings of truffle do more than a long list of ingredients. Tagliolini al tartufo is thin egg pasta with butter, Parmesan and black truffle, and almost nothing else.\n\nMake the dough from flour and whole eggs, kneaded for 8 minutes until it feels like silk. Rest it for 20 minutes, roll it thin and cut it into ribbons 2 mm wide. **Cook the pasta for no more than 3 minutes**, because fresh tagliolini are done as soon as they float. Drain, keeping a cup of the water.\n\nMelt the butter in a wide pan, add the pasta and a splash of the water and toss until the sauce is glossy. Plate it, scatter with the Parmesan, and shave the truffle over the top at the table, because its scent fades with heat. If you cannot find fresh truffle, a spoonful of truffle butter stirred into the sauce gives some of the flavour.',
     ing: [
@@ -627,7 +627,7 @@ module.exports = {
 
   'crespelle': {
     d: 'Thin Italian pancakes rolled around a filling of ricotta and jam, baked for 15 minutes and dusted with sugar.',
-    meta: 'Crespelle, thin Italian pancakes rolled with ricotta and jam, baked until warm, cooked for 15 minutes. Six servings, ready in 30 minutes.',
+    meta: 'Crespelle, thin Italian pancakes rolled with ricotta and jam, baked until warm, cooked for 15 minutes. Six servings, ready in 45 minutes.',
     kw: ['crespelle', 'italian crepes', 'crespelle with ricotta and jam', 'italian pancakes filled with ricotta', 'crespelle recipe'],
     why: 'A table for six on a Sunday, and a dish that can be made ahead: crespelle are the Italian crêpes, thin and pale, and they are rolled around a filling and warmed through. The sweet version here uses ricotta and jam, and the savoury kind uses spinach and cheese.\n\nThe batter is flour, eggs, milk and a little melted butter, whisked smooth and left to rest for 15 minutes so the flour swells. **Pour in just enough to coat the pan** and swirl it, because thick crespelle are rubbery. A non stick pan, lightly buttered for the first one only, is best. They are ready to turn when the edges lift and the surface is dry.\n\nMix the ricotta with a little sugar and lemon zest, spread each crespella with jam and a spoonful of ricotta, and roll. Set them in a buttered dish and bake at 180C for 15 minutes until warm. Dust with icing sugar. The batter keeps overnight in the fridge, which makes the whole dish easier.',
     ing: [
@@ -720,7 +720,7 @@ module.exports = {
     ],
     pair: ['Biscotti', 'Lemon sorbet', 'Fresh fruit'],
     store: 'Keeps for 1 year in a cool, dark place or the freezer.',
-    rest: [5760, 'Steeping'],
+    rest: [6000, 'Steeping'],
     nut: [224, 1, 55, 0, 2, 52, 5]
   },
 

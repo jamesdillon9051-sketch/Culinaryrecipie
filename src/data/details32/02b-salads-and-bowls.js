@@ -264,7 +264,7 @@ module.exports = {
   },
 
   'broccoli-slaw-salad': {
-    d: 'Shredded broccoli stems and carrot with apple, red onion and sunflower seeds in a tangy yogurt dressing. Six servings in 15 minutes, with no cooking.',
+    d: 'Shredded broccoli stems and carrot with apple, red onion and sunflower seeds in a tangy yogurt dressing. Six servings in 30 minutes, with no cooking.',
     meta: 'Broccoli slaw salad: shredded broccoli and carrot with apple, red onion and sunflower seeds in a yogurt and mustard dressing. Six servings.',
     kw: ['broccoli slaw salad', 'broccoli slaw', 'gluten free broccoli slaw', 'broccoli slaw salad recipe'],
     why: 'Meal prep, sorted. A bag of shredded broccoli stems and carrot, an apple and a handful of seeds make a lunch salad that keeps for four days.\n\nUnlike lettuce, broccoli stems do not wilt. Dressed in a yogurt and mustard sauce they soften slightly and stay crunchy for days. Shredded stems are sold in bags as slaw mix, or you can grate your own. Apple adds a little sweetness in place of the sugar a deli slaw would carry, and sunflower seeds add crunch and a nutty note. **Make the dressing first** and let the slaw sit in it for 15 minutes before you serve; the flavours meet and the stems soften a touch.\n\nIt works with pulled chicken, grilled fish or a burger. A squeeze of lemon on the day brightens leftovers. Because the stems are sturdy, the slaw also travels well in a jar. Keep it cold and covered, and eat it within four days. Add the seeds fresh.',

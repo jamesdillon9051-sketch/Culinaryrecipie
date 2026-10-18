@@ -77,8 +77,8 @@ module.exports = {
   },
 
   'pork-and-pineapple-skewers': {
-    d: 'Cubes of pork loin marinated with lime, garlic, ginger and smoked paprika, threaded with pineapple, red pepper and onion and grilled. Four servings in 27 minutes.',
-    meta: 'Pork and pineapple skewers: lime and paprika marinated pork grilled with pineapple, pepper and onion. Four servings in 27 minutes.',
+    d: 'Cubes of pork loin marinated with lime, garlic, ginger and smoked paprika, threaded with pineapple, red pepper and onion and grilled. Four servings in 47 minutes.',
+    meta: 'Pork and pineapple skewers: lime and paprika marinated pork grilled with pineapple, pepper and onion. Four servings in 47 minutes.',
     kw: ['pork and pineapple skewers', 'grilled pork and pineapple kebabs', 'gluten free pork and pineapple skewers', 'dairy free pork skewers with pineapple'],
     why: 'Pork loin is lean, and lean cubes dry out on a grill in minutes. Cut them slightly larger than chicken, about 3 cm, and give them a short marinade and a very hot grill. Pineapple on the same skewer adds juice.\n\nThe marinade is lime juice, garlic, ginger, smoked paprika and a little olive oil. **20 minutes is plenty**, and the lime does its work without making the pork mushy. Thread the pork, pineapple, pepper and onion in turn, and leave small gaps between the pieces. Grill over medium-high heat, turning every 3 minutes. The sugars in the pineapple brown quickly, so watch the edges.\n\nSmoked paprika gives pork a barbecue flavour that salt-free cooking can miss. Serve the skewers with rice and a cucumber salad, or slide the pieces into lettuce leaves. Check one cube in the middle. Pork is done at 65°C. Add a squeeze of lime at the table.',
     ing: [

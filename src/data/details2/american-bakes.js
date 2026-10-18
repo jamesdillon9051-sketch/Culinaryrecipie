@@ -45,7 +45,7 @@ module.exports = {
   },
 
   'bagels': {
-    rest: [780, 'chilling'],
+    rest: [795, 'chilling'],
     d: 'Boiled then baked, with a chewy interior and a glossy, blistered crust. The malt in the boiling water and the high-protein flour are what separate a real bagel from a bread roll with a hole in it.',
     meta: 'New York bagels — high-gluten dough, cold-proved overnight, boiled in malted water and baked until blistered.',
     kw: ['bagel recipe', 'new york bagels', 'homemade bagels', 'boiled bagels'],

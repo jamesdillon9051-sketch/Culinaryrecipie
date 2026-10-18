@@ -48,6 +48,7 @@ module.exports = {
 
   'pasta-e-fagioli': {
     cookMax: 95,
+    untimed: ['the pasta, for the time on its packet'],
     rest: [480, 'soaking'],
     d: 'Pasta and beans, cooked together so the pasta starch thickens the broth into something between a soup and a stew. Cucina povera at its best, and the rosemary and Parmesan rind are doing most of the work.',
     meta: 'Pasta e fagioli — pasta and borlotti beans cooked together into a thick soup with rosemary and Parmesan rind.',
@@ -73,12 +74,12 @@ module.exports = {
     ],
     st: [
       'Drain the soaked beans, cover with fresh water, and simmer 60 to 75 minutes until tender. Keep them in their liquid.',
-      'In a large pot, fry the pancetta (if using) in the olive oil for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
+      'While the beans simmer, fry the pancetta (if using) in the olive oil in a large pot for 5 minutes, then add the onion, carrot and celery and cook 12 minutes until soft.',
       'Add the garlic for 1 minute, then the tomato purée and cook 2 minutes.',
-      'Add the beans with their liquid, the Parmesan rind, rosemary, bay and enough water to make 1.5 litres in total.',
+      'Add the beans with their cooking liquid, the Parmesan rind, rosemary and bay, then enough of the water or stock to bring the liquid up to 1.5 litres.',
       'Simmer 20 minutes, then lift out a ladleful of beans, blend them smooth, and stir the purée back in.',
       'Add the salt, bring to a steady simmer, and tip in the pasta.',
-      'Cook until the pasta is just done, stirring often — the soup thickens fast and will catch if left alone.',
+      'Cook the pasta in the soup for the time on its packet, stirring often, since the soup thickens fast and will catch if left alone. Start tasting 2 minutes before the packet time: it is ready when tender with a slight bite at the centre.',
       'Fish out the rind, rosemary stalks and bay. Rest 10 minutes off the heat so it thickens properly.',
       'Serve with a heavy slick of olive oil, plenty of black pepper and grated Parmesan.'
     ],
@@ -350,7 +351,7 @@ module.exports = {
   },
 
   'panettone': {
-    rest: [1200, 'proving'],
+    rest: [1320, 'proving'],
     d: 'The Milanese Christmas bread: a sweet, heavily enriched dough proved three times over two days, studded with candied peel and raisins, and hung upside down to cool so it does not collapse under its own weight.',
     meta: 'Panettone — the Milanese Christmas bread, proved over two days and cooled upside down to keep its height.',
     kw: ['panettone recipe', 'italian christmas bread', 'panettone from scratch', 'enriched sweet bread'],

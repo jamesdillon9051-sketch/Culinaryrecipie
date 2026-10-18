@@ -81,7 +81,7 @@ module.exports = {
     pair: ['Fresh strawberries', 'Whipped cream', 'Iced tea'],
     store: 'Keeps covered in the fridge for up to 3 days. Do not freeze, as the jelly weeps when it thaws.',
     nut: [376, 5, 44, 20, 1, 28, 200],
-    rest: [180, 'Chilling']
+    rest: [195, 'Chilling']
   },
 
   'devon-splits': {

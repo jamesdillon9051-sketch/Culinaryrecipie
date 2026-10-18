@@ -74,8 +74,8 @@ module.exports = {
   },
 
   'garlic-parmesan-fries': {
-    d: 'Oven fries tossed with melted garlic butter and grated parmesan straight from the tray. Four servings in 40 minutes.',
-    meta: 'Garlic parmesan fries: oven fries tossed with melted garlic butter and grated parmesan. A cheap snack or side for four in 40 minutes.',
+    d: 'Oven fries tossed with melted garlic butter and grated parmesan straight from the tray. Four servings in 1 hour.',
+    meta: 'Garlic parmesan fries: oven fries tossed with melted garlic butter and grated parmesan. A cheap snack or side for four in 1 hour.',
     kw: ['garlic parmesan fries', 'oven garlic fries', 'budget cheesy fries', 'easy parmesan fries', 'cheap snack for four'],
     why: 'The coating goes on after the fries come out of the oven, not before. Garlic burns at the temperatures needed to crisp potatoes, so it joins the dish at the end, in melted butter, while the fries are still too hot to hold.\n\nSoak the cut potatoes in cold water for 20 minutes, then dry them very well. Soaking removes surface starch, which makes the fries crisper, and drying means the oil sticks.\n\nA high oven, 230°C, and a tray that has been preheating are what give the browned edges. **Do not crowd the tray.** Space between the sticks lets the steam out.\n\nToss with the garlic butter in a big bowl, then add the cheese straight away so it clings and half melts. Salt at the end, tasting first, since parmesan is salty. Soaking the cut potatoes in cold water is the extra step worth the trouble, as it draws out surface starch and gives a crisper chip. Dry them well afterwards, because wet potatoes spit in the oven.',
     ing: [
@@ -135,8 +135,8 @@ module.exports = {
   },
 
   'potato-croquettes': {
-    d: 'Mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. Makes 12 in 45 minutes.',
-    meta: 'Potato croquettes: mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. A cheap snack or side, 12 in 45 minutes.',
+    d: 'Mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. Makes 12 in 1 hour 15 minutes.',
+    meta: 'Potato croquettes: mashed potato with cheese and chives, shaped into logs, crumbed and fried until golden. A cheap snack or side, 12 in 1 hour 15 minutes.',
     kw: ['potato croquettes', 'cheese potato croquettes', 'budget croquettes from mash', 'crispy mashed potato logs', 'cheap party snack'],
     why: 'Dry mash is the key to a croquette that holds together. If the potato is wet, the croquettes burst in the oil and spill their filling in a mess.\n\nBoil the potatoes in their skins if you can, which keeps the water out, then peel while hot with a fork and knife. Mash without milk and cool completely: the mixture needs to be cold and stiff to shape.\n\nBind with an egg and a little flour. **The coating needs to be complete**, flour then egg then breadcrumbs, with no gaps, or the oil gets in.\n\nChill the shaped croquettes for 30 minutes before frying. Cold ones hold their form in the oil. Fry in oil at 180°C for 3 minutes, turning, until deep golden, and drain on kitchen paper. They are a good way of using up leftover mash, and the crumb makes the cooked potato feel like a different dish. For a lighter version, bake them on a tray with a little oil sprayed over, turning once.',
     ing: [
@@ -199,8 +199,8 @@ module.exports = {
   },
 
   'potato-dumplings': {
-    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 55 minutes.',
-    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 55 minutes.',
+    d: 'Boiled potato, flour and egg shaped into balls and simmered until they float. Four servings in 1 hour 10 minutes.',
+    meta: 'Potato dumplings: boiled potato, flour and egg shaped into balls and simmered until they float. A cheap German-style side for four in 1 hour 10 minutes.',
     kw: ['potato dumplings', 'german potato dumplings', 'budget kartoffelkloesse', 'dumplings made from potato', 'cheap side dish for four'],
     why: 'Floury potatoes, boiled in their skins, mashed while hot and cooled before mixing: that is the foundation. The dumpling is only as light as the potato is dry.\n\nPress the potatoes through a ricer or mash them very finely. Lumps show in the finished dumpling as hard white pieces.\n\nAdd the egg and flour with a light hand, and stop mixing the moment the dough comes together. **Overworked dough gives rubbery dumplings.** It should feel soft and slightly tacky, and hold a ball shape.\n\nTest one first. Drop a single dumpling in simmering water: if it falls apart, add a spoonful more flour. If it holds, shape the rest. Simmer, never boil. They are done when they float, about 5 minutes later. Dumplings suit rich dishes that have plenty of gravy, such as roast pork or a stew. Leftover dumplings can be sliced and fried in butter the next day, which turns them into a second meal.',
     ing: [

@@ -428,7 +428,7 @@ module.exports = {
       '0.5 tsp fine sea salt'
     ],
     st: [
-      'For the jelly, simmer the trotters with the water, onion, bay and salt 3 hours, then strain and chill. It should set firm.',
+      'Start the jelly first, since it runs alongside everything else: simmer the trotters with the water, onion, bay and salt 3 hours while you make and bake the pie, then strain and chill it while the pie cools. It should set firm.',
       'Mix the chopped pork with the salt, white pepper, mace, nutmeg, sage and cold water. Fry a teaspoon of it to check the seasoning.',
       'Sift the flour and salt into a bowl and make a well.',
       'Boil the lard and water together, pour it into the well and mix quickly with a spoon, then bring together by hand.',
@@ -440,7 +440,7 @@ module.exports = {
       'Warm the jelly until just liquid and pour it through the hole a little at a time until the pie will take no more.',
       'Refrigerate 4 hours before cutting.'
     ],
-    rest: [600, 'cooling the pie and setting the jelly'],
+    rest: [420, 'cooling the pie and setting the jelly'],
     tips: [
       'Shape the crust warm, within ten minutes. Cold hot water crust cracks.',
       'Chop the pork by hand. Mincing gives a solid grey block.',

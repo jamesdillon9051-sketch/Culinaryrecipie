@@ -10,7 +10,7 @@
 module.exports = {
   'frankfurter-green-sauce': {
     d: 'Seven fresh herbs blended with soured cream, yoghurt and chopped hard boiled eggs, served cold with boiled potatoes, in 25 minutes.',
-    meta: 'Frankfurter grüne Soße, cold herb sauce with soured cream and hard boiled eggs, cooked for 10 minutes. Six servings, ready in 25 minutes.',
+    meta: 'Frankfurter grüne Soße, cold herb sauce with soured cream and hard boiled eggs, cooked for 10 minutes. Six servings, ready in 55 minutes.',
     kw: ['frankfurter green sauce', 'frankfurt green herb sauce', 'grune sosse', 'german herb sauce with eggs', 'seven herb sauce with potatoes'],
     why: 'Fresh herbs, soured cream and eggs: no cooking, hardly any seasoning and a sauce so green that it is almost startling. Frankfurter grüne Soße is a cold herb sauce from Frankfurt, made with a mix of seven herbs and eaten with boiled potatoes and hard boiled eggs.\n\nThe classic herbs are borage, chervil, cress, parsley, salad burnet, sorrel and chives, though the mix changes with the season. Outside Hesse you can use parsley, chervil, chives, sorrel, watercress and dill. **Chop the herbs by hand or pulse them briefly**, because a blender turns them to a brown paste that loses colour. Mix them into the soured cream and yoghurt with chopped egg yolk, a little mustard, vinegar and salt.\n\nBoil the eggs for 10 minutes, cool them and chop the whites into the sauce. Chill the sauce for at least 30 minutes so the flavours join. Serve cold with warm boiled potatoes. It keeps for 2 days, though the colour fades, so make it on the day if you can.',
     ing: [
@@ -76,8 +76,8 @@ module.exports = {
   },
 
   'matjes': {
-    d: 'Soft salted herring fillets served with apple, red onion and a soured cream dressing, ready in 10 minutes with no cooking.',
-    meta: 'Matjes, soft salted herring fillets with apple, red onion and soured cream dressing, ready in 10 minutes. Four servings, no cooking.',
+    d: 'Soft salted herring fillets served with apple, red onion and a soured cream dressing, ready in 40 minutes with no cooking.',
+    meta: 'Matjes, soft salted herring fillets with apple, red onion and soured cream dressing, ready in 40 minutes. Four servings, no cooking.',
     kw: ['matjes', 'matjes herring', 'matjes with apple and onion', 'german herring in cream sauce', 'matjes recipe'],
     why: 'Most home matjes comes out too salty, and the fix is to rinse the fillets and taste one before serving. Matjes are young, lightly cured herring fillets, soft and mild, sold in tubs in northern European shops, and they are eaten with little more than apple, onion and cream.\n\nIf the fillets feel very salty, soak them in cold milk for 30 minutes, which draws out the salt and leaves the fish silky. Pat them dry. Slice a tart apple thin, with the skin on, and a red onion into rings. **Mix the dressing before you plate the fish**, from soured cream, yoghurt, a squeeze of lemon, dill and a pinch of sugar. Taste it, since the sharpness of the apple and onion changes how much lemon you need.\n\nLay the fillets on a platter, scatter with the apple and onion and spoon over the dressing. Serve at once with boiled potatoes or dark rye bread. The dish is best eaten fresh and cold, on a warm day, and keeps for 1 day in the fridge.',
     ing: [

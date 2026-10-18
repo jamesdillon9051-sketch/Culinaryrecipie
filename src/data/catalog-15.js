@@ -76,7 +76,7 @@ module.exports = [
   c('steak-tartare', 'Steak Tartare', 'French', 'Dinner', 'Medium', 25, 5, 4, 0, 0, ['Dairy-Free'], ['new'], 'Steak tartare capers egg yolk french'),
   c('entrecote-marchand-de-vin', 'Entrecôte Marchand de Vin', 'French', 'Dinner', 'Medium', 15, 25, 4, 0, 0, ['Gluten-Free'], ['new'], 'Entrecote marchand de vin steak red wine'),
   c('cordon-bleu', 'Cordon Bleu', 'French', 'Dinner', 'Medium', 30, 20, 4, 0, 0, [], ['new'], 'Cordon bleu chicken ham cheese breaded'),
-  c('rognons-a-la-moutarde', 'Rognons à la Moutarde', 'French', 'Quick Meals', 'Medium', 15, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'Rognons moutarde kidneys mustard cream'),
+  c('rognons-a-la-moutarde', 'Rognons à la Moutarde', 'French', 'Dinner', 'Medium', 15, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'Rognons moutarde kidneys mustard cream'),
   c('foie-de-veau', 'Foie de Veau Lyonnaise', 'French', 'Quick Meals', 'Easy', 10, 15, 4, 0, 0, ['Gluten-Free'], ['new'], 'Foie de veau lyonnaise calf liver onions'),
   c('boudin-noir-pommes', 'Boudin Noir aux Pommes', 'French', 'Quick Meals', 'Easy', 10, 20, 4, 0, 0, ['Gluten-Free'], ['new'], 'Boudin noir apples black pudding french'),
   c('endives-au-jambon', 'Endives au Jambon', 'French', 'Dinner', 'Easy', 20, 45, 4, 0, 0, [], ['new'], 'Endives au jambon chicory ham bechamel gratin'),

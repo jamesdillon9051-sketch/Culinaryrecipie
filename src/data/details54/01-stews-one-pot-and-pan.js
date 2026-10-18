@@ -55,7 +55,7 @@ module.exports = {
 
   'haddock-and-chips': {
     d: 'Oven-baked haddock fillets in a crisp crumb alongside chunky potato chips roasted at 220C, served with mushy peas and tartare sauce.',
-    meta: 'Haddock and chips baked in the oven with a crisp crumb. Four servings, ready in 50 minutes.',
+    meta: 'Haddock and chips baked in the oven with a crisp crumb. Four servings, ready in 1 hour 10 minutes.',
     kw: ['haddock and chips', 'oven baked haddock and chips', 'homemade fish and chips', 'crumbed haddock', 'haddock fillets recipe'],
     why: 'Haddock is the fish of choice in much of northern Britain and Scotland, where a Friday fish supper often means haddock rather than cod. Its flesh is sweeter and a little finer-flaked than cod, and it takes a crisp coating well.\n\nThe chips are cut thick, about 1.5 cm, from floury potatoes such as Maris Piper. Soak them in cold water for 20 minutes to rinse off starch, dry them thoroughly, and toss with oil. They go into the oven on a preheated tray, which gives the base an instant sizzle and prevents sticking. Turn them halfway through.\n\n**Crumb the fish just before it goes in.** Flour, egg and a mix of panko and dried parsley give a golden jacket, and a drizzle of oil on top helps it brown in the dry heat of the oven. Coat too early and the crumb absorbs moisture and goes soft.\n\nThe haddock needs 12 minutes at 220C on the top shelf, while the chips take 25. Put the chips in first. Serve with mushy peas, tartare sauce and a lemon wedge, and plenty of salt and vinegar if you like.',
     ing: [
@@ -631,7 +631,7 @@ module.exports = {
 
   'one-pot-ratatouille': {
     d: 'Aubergine, courgette, peppers, tomatoes and onion simmered together in one pot with garlic and thyme for 40 minutes until soft and sweet.',
-    meta: 'One pot ratatouille with aubergine, courgette and tomatoes, simmered for 40 minutes. Four servings, ready in 55 minutes.',
+    meta: 'One pot ratatouille with aubergine, courgette and tomatoes, simmered for 40 minutes. Four servings, ready in 1 hour 10 minutes.',
     kw: ['one pot ratatouille', 'easy ratatouille', 'provencal vegetable stew', 'ratatouille recipe', 'courgette and aubergine stew'],
     why: 'Why does ratatouille so often turn out grey and watery? Because everything is thrown into the pot together and left to stew in its own liquid. A good one is made in stages, so each vegetable keeps its character and the whole thing ends up rich rather than soupy.\n\nThe French way is to cook each vegetable separately and combine them at the end. In this one pot version you do the same thing in sequence: brown the aubergine first in plenty of olive oil, lift it out, then the courgette, then soften the onion and peppers and finally add the tomatoes. Everything comes back together for the last 20 minutes of gentle cooking.\n\n**Salt the aubergine for 15 minutes first.** This draws out moisture and bitterness, and means the slices brown rather than steam. Pat them dry before they hit the pan.\n\nThe finished stew should be glossy and thick, with the vegetables soft but still recognisable. It is as good cold as it is hot, and even better the next day. Stir through torn basil and a splash of good olive oil just before serving.',
     ing: [
@@ -734,7 +734,7 @@ module.exports = {
 
   'pea-salad': {
     d: 'Frozen peas dressed with soured cream, mayonnaise, red onion, crisp bacon and cheddar for a cold side that needs no cooking.',
-    meta: 'Pea salad with bacon, cheddar and a creamy dressing, made in 15 minutes. Six servings, no cooking required.',
+    meta: 'Pea salad with bacon, cheddar and a creamy dressing, made in 45 minutes. Six servings; no cooking, with the bacon bought or made ready cooked.',
     kw: ['pea salad', 'creamy pea salad', 'pea salad with bacon', 'cold pea salad', 'pea and cheddar salad'],
     why: 'Most home versions come out watery, and the fix is to drain the peas properly. Frozen peas are the right choice because they are picked and frozen within hours, and they stay sweet and firm. Rinse them under cold running water until they have thawed, then spread them on kitchen paper and pat dry before dressing.\n\nThe dressing is half mayonnaise, half soured cream, with a spoonful of cider vinegar, salt and pepper. The soured cream gives tang and the mayonnaise gives body. Use just enough to coat, because the peas will release a little moisture as the salad sits.\n\n**Add the bacon at the last minute.** Crisp bacon softens in a wet dressing within an hour, so keep it separate until just before serving and fold it in at the table. Cook it ahead until very crisp and crumble it with your fingers.\n\nRed onion, finely diced, adds bite, and small cubes of mature cheddar bring sharpness against the sweet peas. It is a classic of the American church supper, and works as well beside barbecued meat as a side for a cold ham sandwich.',
     ing: [

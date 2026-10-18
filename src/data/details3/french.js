@@ -178,7 +178,7 @@ module.exports = {
   },
 
   'canele': {
-    rest: [2880, 'chilling'],
+    rest: [2900, 'chilling'],
     d: 'A Bordeaux pastry with a black, almost burnt caramel shell and a soft, custardy centre shot through with rum and vanilla. The batter rests two days and the moulds must be scorching.',
     meta: 'Canelés de Bordeaux — dark caramelised shells with soft rum and vanilla custard centres. Batter rests two days.',
     kw: ['caneles recipe', 'canele de bordeaux', 'french pastry', 'rum vanilla custard cake'],

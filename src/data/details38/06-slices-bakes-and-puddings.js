@@ -131,7 +131,7 @@ module.exports = {
     ],
     pair: ['Fresh passionfruit', 'Whipped cream', 'Pot of tea', 'Berries'],
     store: 'Keeps in the fridge for up to 4 days.',
-    rest: [180, 'chilling'],
+    rest: [195, 'chilling'],
     nut: [0, 0, 0, 0, 0, 0, 0]
   },
 

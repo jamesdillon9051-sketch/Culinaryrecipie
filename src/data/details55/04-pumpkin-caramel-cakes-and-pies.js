@@ -44,7 +44,7 @@ module.exports = {
     ],
     pair: ['Hot tea', 'Cold milk', 'Coffee', 'Hot chocolate'],
     store: 'Keeps in an airtight tin for 1 week. The raw log freezes for 2 months.',
-    rest: [60, 'Chilling'],
+    rest: [80, 'Chilling'],
     nut: [114, 1, 14, 6, 1, 6, 40]
   },
 
@@ -169,7 +169,7 @@ module.exports = {
 
   'pumpkin-chocolate-chip-cookies': {
     d: 'Soft, cake-like pumpkin cookies loaded with chocolate chips and cinnamon, baked for 14 minutes.',
-    meta: 'Pumpkin chocolate chip cookies, soft and cake-like, baked for 14 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Pumpkin chocolate chip cookies, soft and cake-like, baked for 14 minutes. 24 cookies, ready in 59 minutes.',
     kw: ['pumpkin chocolate chip cookies', 'soft pumpkin chocolate chip cookies', 'cake like pumpkin cookies', 'pumpkin cookies with chocolate', 'pumpkin chip cookie recipe'],
     why: 'Pumpkin cookies are soft and cake-like by nature, since the puree contributes so much moisture, and this is both their charm and their challenge. A dough that is too wet spreads into a flat, floppy cookie that never quite sets. The trick is to blot the puree on kitchen paper to remove some of the water, and to use a bit more flour than you would for a standard chocolate chip dough.\n\nThe flavour comes from cinnamon, nutmeg and ginger, plus chocolate chips for contrast. Dark chocolate chips work best, because the bittersweet note balances the sweetness of the dough and the earthiness of the pumpkin. Milk chocolate makes the cookies very sweet, and white chocolate tastes odd with the spices.\n\n**Chill the dough for at least 30 minutes.** Pumpkin dough is sticky and soft, and chilling firms the butter so the cookies keep their domed shape in the oven. Without it they will spread flat. Drop rounded tablespoons onto a lined tray, 5 cm apart, and bake at 180C.\n\nThey are done when the edges are set and the tops spring back lightly, about 14 minutes. Resist the urge to leave them longer: they will be soft when they come out, and dry out as they cool. Store them in a single layer, since stacking makes the tops sticky.',
     ing: [
@@ -206,7 +206,7 @@ module.exports = {
 
   'pumpkin-cookies': {
     d: 'Soft spiced pumpkin cookies with a thin maple glaze, baked for 14 minutes at 180C.',
-    meta: 'Pumpkin cookies with warm spices and a maple glaze, baked for 14 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Pumpkin cookies with warm spices and a maple glaze, baked for 14 minutes. 24 cookies, ready in 49 minutes.',
     kw: ['pumpkin cookies', 'glazed pumpkin cookies', 'soft pumpkin spice cookies', 'maple glazed pumpkin cookies', 'pumpkin cookie recipe'],
     why: 'Spice, not chocolate, is the point of this one. Where a pumpkin chocolate chip cookie is a sweet treat, a plain pumpkin cookie is closer to a piece of spiced cake, soft and fragrant, with a thin sugar glaze that sets into a crisp shell on top. It is the recipe to make when you want to taste pumpkin and nothing else.\n\nThe dough is wetter than most cookie doughs, and it relies on a long list of warm spices: cinnamon, ginger, nutmeg, allspice and cloves. Use fresh ground ones if you can; spices lose their potency within a year. A teaspoon of vanilla and a pinch of salt round out the flavour. Blot the pumpkin puree with kitchen paper before measuring.\n\n**Bake on parchment, not directly on a greased tray.** The wet dough sticks and spreads on grease, and slides into thin, over-browned cookies. Parchment grips the dough and gives a rounder, thicker shape, and the cookies lift off cleanly when cool.\n\nThe glaze is icing sugar, maple syrup and a splash of milk, whisked until it falls from the whisk in a thick ribbon. Drizzle or dip the cooled cookies. Let it set for 20 minutes before stacking, or the glaze will stick the cookies together.',
     ing: [
@@ -354,7 +354,7 @@ module.exports = {
 
   'red-velvet-cookies': {
     d: 'Soft red velvet cookies with cocoa, white chocolate chips and a cream cheese tang, baked for 11 minutes.',
-    meta: 'Red velvet cookies with white chocolate chips, soft and chewy, baked for 11 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Red velvet cookies with white chocolate chips, soft and chewy, baked for 11 minutes. 24 cookies, ready in 56 minutes.',
     kw: ['red velvet cookies', 'red velvet white chocolate chip cookies', 'soft red velvet cookies', 'red velvet cookie recipe', 'cocoa red velvet cookies'],
     why: 'What exactly is red velvet? A mild chocolate flavour with a trace of tang, a soft crumb and a vivid red colour. The original colour in the nineteenth century came from a chemical reaction between the acid in buttermilk and vinegar and the anthocyanins in cocoa, though the modern version relies on food colouring for its dramatic shade.\n\nIn a cookie, the effect is best achieved with a dough that contains a small amount of cocoa, a teaspoon of vinegar for the tang, and plenty of gel food colouring. Gel colours are far more concentrated than liquid ones, and a single teaspoon will turn the whole dough a deep, rich red without affecting the texture. Liquid colouring waters down the dough and gives a pale pink.\n\n**Use cake flour or add cornflour.** The tenderness of a red velvet crumb depends on low-protein flour. If you only have plain flour, replace two tablespoons of each cup with cornflour, which brings the protein down and gives a softer cookie. Mix the dough only until combined.\n\nFold in white chocolate chips and chill the dough for 30 minutes so the cookies bake thick and soft. Bake until the edges are set and the centres are still puffy. A dusting of icing sugar on the cooled cookies makes them look like a snow-dusted Christmas gift.',
     ing: [
@@ -426,7 +426,7 @@ module.exports = {
 
   'salted-caramel-cookies': {
     d: 'Chewy brown sugar cookies filled with soft caramel pieces and finished with flaky sea salt, baked for 12 minutes.',
-    meta: 'Salted caramel cookies with soft caramel pieces and flaky salt, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Salted caramel cookies with soft caramel pieces and flaky salt, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['salted caramel cookies', 'caramel stuffed cookies', 'chewy salted caramel cookies', 'caramel cookies with sea salt', 'salted caramel cookie recipe'],
     why: 'Two kinds of salt, one at each end of the process. A pinch goes into the dough, where it amplifies the flavour of the brown sugar and butter, and a scatter of flaky sea salt goes on top, where it gives a crunch and a sharp, clean contrast to the sweet caramel. Without both, a caramel cookie is just a sweet one.\n\nThe caramel is the main event, and the surprise is that it should be firm. Soft caramel sweets, cut into small pieces and pressed into the dough balls, melt in the oven into pockets of molten caramel, while a liquid caramel sauce would leak out and burn on the tray. Choose chewy caramels without a chocolate coating, and chop them into pieces about the size of a pea.\n\n**Wrap the dough around each piece of caramel.** Take a tablespoon of dough, press a few caramel pieces into the middle, and seal the dough over them. If any caramel sticks out, it will burn on the tray. A little extra dough on top of the caramel seals it in properly.\n\nBake until the edges are golden and the tops are set. The centres may look slightly puffy. As they cool, the caramel sets again into a chewy centre. Eat them warm for a molten pull, or cold for a firm bite.',
     ing: [
@@ -500,7 +500,7 @@ module.exports = {
 
   'shortbread-cookies': {
     d: 'Classic Scottish shortbread rounds made with butter, sugar and flour, cut with a cutter and baked for 15 minutes at 160C.',
-    meta: 'Shortbread cookies, buttery rounds from three ingredients, baked for 15 minutes. 24 cookies, ready in 45 minutes.',
+    meta: 'Shortbread cookies, buttery rounds from three ingredients, baked for 15 minutes. 24 cookies, ready in 1 hour.',
     kw: ['shortbread cookies', 'classic scottish shortbread', 'butter shortbread rounds', 'cut out shortbread cookies', 'traditional shortbread recipe'],
     why: 'Three ingredients and plenty of butter is all that shortbread has ever needed. The name describes the texture: short, in baking terms, means crumbly and tender, because fat has interfered with the gluten strands in the flour. The more butter and the less liquid, the shorter the biscuit, and shortbread has no liquid at all.\n\nA traditional proportion is one part sugar to two parts butter to three parts flour by weight, and it is very simple to remember. Use a high quality butter, because it makes up over a third of the biscuit and is the main flavour. Cornflour or rice flour, replacing a quarter of the plain flour, adds a sandy fineness. Use caster sugar, which dissolves in the butter and gives a smooth surface.\n\n**Do not overwork the dough.** Rub the butter into the dry ingredients and press it together into a ball. Kneading develops gluten and makes the shortbread tough and chewy, the opposite of the delicate, crumbling bite that is intended. Roll it out between baking paper to 1 cm thick and chill for 30 minutes.\n\nCut rounds with a 6 cm cutter, prick with a fork, and bake at 160C until just pale. Shortbread should not brown, only turn pale gold at the edges. Sprinkle with caster sugar while hot, and cool on the tray for 10 minutes.',
     ing: [
@@ -845,7 +845,7 @@ module.exports = {
 
   'zucchini-cookies': {
     d: 'Soft, cake-like zucchini cookies with cinnamon, walnuts and a hint of lemon, baked for 12 minutes.',
-    meta: 'Zucchini cookies, soft and spiced with walnuts and lemon, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Zucchini cookies, soft and spiced with walnuts and lemon, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['zucchini cookies', 'courgette cookies', 'soft zucchini walnut cookies', 'zucchini cookie recipe', 'cinnamon zucchini cookies'],
     why: 'Cookies made from courgettes are a long-standing answer to the glut of late summer, when every garden produces more than a household can eat. Grated courgette keeps the cookies soft and tender, and the mild flavour takes on the cinnamon, nutmeg and lemon with ease. They taste a bit like a small carrot cake.\n\nThe key, as with any baked courgette, is to remove the water. Grate the courgette on the fine side of the grater, wrap the shreds in a clean tea towel and twist hard over the sink until no more liquid drips out. A damp dough spreads into thin, greasy discs, while a dry one rises into thick, tender cookies.\n\n**Chill the dough for 30 minutes.** Zucchini dough is soft and sticky, and without chilling it spreads. A rested dough holds its shape and bakes into rounds with a cakey texture and a slightly domed top. Use a spoon or a small scoop to portion it onto the tray.\n\nThe lemon glaze, a simple mix of icing sugar and lemon juice, adds a bright finish that offsets the warm spices. Walnuts add crunch, though pecans work equally well. The cookies are best on the day they are made, and they soften further as they stand, so store them with a sheet of paper between layers.',
     ing: [

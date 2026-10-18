@@ -289,7 +289,7 @@ module.exports = {
 
   'bamies': {
     d: 'Okra stewed in a tomato and onion sauce with garlic and olive oil for 35 minutes, a Greek summer dish.',
-    meta: 'Bamies, Greek okra stewed in tomato, onion and olive oil, cooked for 35 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Bamies, Greek okra stewed in tomato, onion and olive oil, cooked for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['bamies', 'greek okra stew', 'okra in tomato sauce', 'bamies lathera', 'greek okra recipe'],
     why: 'Short and sharp: do not cut the okra. If you keep the pods whole, with only the cap trimmed, they will not release their slime into the sauce, and the dish stays glossy instead of sticky. Bamies is the Greek okra stew, one of the most loved summer dishes, cooked in plenty of olive oil and tomato.\n\nTrim the cone shaped caps from the pods with a knife, shaving off a thin layer but not cutting into the pod. Toss them with a splash of vinegar and leave them in the sun, or in a warm room, for 30 minutes, which helps to reduce the slime. **Rinse them well afterwards and pat dry**, then fry them gently in olive oil for 5 minutes.\n\nIn another pan, soften onion and garlic, add tomatoes and a pinch of sugar, then add the okra and enough water to half cover. Simmer, covered, for 25 minutes without stirring, shaking the pan. The okra should be tender but still whole. Serve warm or at room temperature with feta and bread. A squeeze of lemon freshens the dish.',
     ing: [
@@ -744,7 +744,7 @@ module.exports = {
 
   'cypriot-souvla': {
     d: 'Large pieces of marinated pork or chicken grilled slowly on a long skewer over charcoal, a Cypriot Sunday feast, in 50 minutes.',
-    meta: 'Cypriot souvla, large chunks of marinated meat grilled slowly on a skewer with lemon and oregano, cooked for 30 minutes. Four servings, ready in 50 minutes.',
+    meta: 'Cypriot souvla, large chunks of marinated meat grilled slowly on a skewer with lemon and oregano, cooked for 30 minutes. Four servings, ready in 1 hour 20 minutes.',
     kw: ['cypriot souvla', 'cyprus souvla', 'large skewered grilled pork', 'souvla recipe', 'charcoal grilled meat cyprus'],
     why: 'Pork, lemon, oregano, charcoal: four things, and a Sunday in a Cypriot village garden. Souvla is the Cypriot barbecue of large chunks of meat, much bigger than a kebab, threaded onto a long skewer and grilled slowly over charcoal for an hour or more, so the outside chars and the inside stays juicy.\n\nCut pork shoulder or chicken thighs into 6 cm chunks, which are far bigger than a kebab, since small pieces dry out. Marinate them for 30 minutes in olive oil, lemon juice, crushed garlic, dried oregano, salt and a little red wine. **Thread them tightly on a metal skewer** with a few pieces of fat or onion between them to keep them moist. Leave a small gap at each end of the skewer for handling.\n\nGrill over medium coals, turning every few minutes, for about 30 minutes for chicken and a little longer for pork, until the meat is cooked through and charred in places. Rest for 5 minutes, then slide the pieces off the skewer onto a board. Serve with pitta, tomatoes, onions, lemon and a bowl of tzatziki. Season with salt and a squeeze of lemon at the table.',
     ing: [
@@ -808,7 +808,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Tea', 'Orange juice'],
     store: 'Keeps for 3 days wrapped. Freeze for 2 months.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [408, 8, 49, 20, 4, 22, 560]
   },
 

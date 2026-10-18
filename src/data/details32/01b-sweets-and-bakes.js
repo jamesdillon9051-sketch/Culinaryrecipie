@@ -178,7 +178,7 @@ module.exports = {
 
   'almond-flour-bread': {
     d: 'A soft, sliceable loaf made with almond flour, eggs and ground flaxseed, with no wheat flour or sugar. Twelve slices; 10 minutes of work and 40 in the oven.',
-    meta: 'Almond flour bread: a soft sandwich loaf of almond flour, eggs and flaxseed with no wheat and no added sugar. Twelve slices, ready in 50 minutes.',
+    meta: 'Almond flour bread: a soft sandwich loaf of almond flour, eggs and flaxseed with no wheat and no added sugar. Twelve slices, ready in 80 minutes with cooling.',
     kw: ['almond flour bread', 'low carb almond flour bread', 'gluten free almond flour bread', 'almond flour bread recipe'],
     why: 'Do not expect a yeast loaf. This is a quick bread, closer to a very firm sponge, and it works because the eggs do the job that gluten would do.\n\nSeparating the eggs makes a lighter loaf. The whites are whisked to soft peaks and folded in at the end, which gives the crumb its lift, while the yolks go into the batter with the flour, flaxseed, vinegar and baking powder. Flaxseed adds fibre and structure, and the vinegar gives the baking powder a little extra lift. **Fold, do not stir**, or the whites collapse and the loaf comes out dense.\n\nBake it until a skewer comes out clean, then cool it for 30 minutes before slicing with a serrated knife. Toast the slices. It keeps better sliced and frozen than whole, so wrap the cooled slices in parchment and take out only what you need. A thick slice toasted and spread with butter or almond butter makes a good breakfast.',
     ing: [

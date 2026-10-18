@@ -504,7 +504,7 @@ module.exports = {
       'Lower them into a large pot of boiling water, weight them down with a plate, and simmer 4 hours, topping up with boiling water.',
       'Lift them out, drain, and let them stand 15 minutes before untying.'
     ],
-    rest: [480, 'soaking the rice and leaves and marinating the pork'],
+    rest: [495, 'soaking the rice and leaves and marinating the pork'],
     tips: [
       'No gap at the point of the cone. That is where leaks start.',
       'Tie tight enough to compress, loose enough to expand.',

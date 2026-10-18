@@ -60,7 +60,9 @@ function humanWaitRange(min, max) {
  * Rounded to the nearest half hour above an hour, which is as precise as a
  * card needs to be; the recipe page gives the exact figures.
  */
-function compactTime(min, max) {
+function compactTime(min, max, floor = false) {
+  /* "45 min+" where the method needs time it does not give (src/build.js, untimed). */
+  if (floor) return `${compactTime(min, max)}+`;
   if (!min) return '0 min';
   const top = max && max > min ? max : min;
   if (top < 120) return top > min ? `${min}–${top} min` : `${min} min`;

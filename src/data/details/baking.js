@@ -2,7 +2,7 @@
 
 module.exports = {
   'banana-bread': {
-    rest: [60, 'cooling'],
+    rest: [75, 'cooling'],
     d: 'One bowl, one whisk, and the darkest bananas you can find. Browning the butter first adds a nutty depth that turns an everyday loaf into something people ask you about.',
     meta: 'One-bowl banana bread with brown butter and very ripe bananas. Moist, deeply flavoured, and impossible to get wrong.',
     kw: ['banana bread recipe', 'easy banana bread', 'brown butter banana bread', 'one bowl baking'],
@@ -84,6 +84,7 @@ module.exports = {
   },
 
   'chocolate-chip-cookies': {
+    rest: [1460, 'chilling'],
     d: 'Brown butter, a 24-hour rest and two sizes of chocolate produce cookies with crisp edges, a chewy middle and pools of melted chocolate. Worth planning a day ahead for.',
     meta: 'Brown butter chocolate chip cookies with crisp edges, chewy centres and molten chocolate pools. Rest the dough — it matters.',
     kw: ['chocolate chip cookies recipe', 'brown butter cookies', 'best cookie recipe', 'chewy cookies'],
@@ -176,7 +177,7 @@ module.exports = {
   },
 
   'sourdough-bread': {
-    rest: [1230, 'chilling'],
+    rest: [1225, 'chilling'],
     d: 'An open-crumb country loaf with a blistered, mahogany crust and a genuine tang. Long autolyse, gentle handling and a Dutch oven are the three things that matter.',
     meta: 'Artisan sourdough with an open crumb and blistered crust, baked in a Dutch oven. Full schedule and timings included.',
     kw: ['sourdough bread recipe', 'artisan sourdough', 'open crumb sourdough', 'dutch oven bread'],
@@ -298,7 +299,7 @@ module.exports = {
   },
 
   'apple-pie': {
-    rest: [360, 'chilling'],
+    rest: [380, 'chilling'],
     d: 'A deep-dish pie with a properly crisp bottom crust and apples that hold their shape. Pre-cooking the filling is the unglamorous step that solves every apple pie problem at once.',
     meta: 'Deep-dish apple pie with a crisp bottom crust and apples that keep their shape. The pre-cooked filling method.',
     kw: ['apple pie recipe', 'homemade apple pie', 'flaky pie crust', 'classic american dessert'],
@@ -531,7 +532,7 @@ module.exports = {
   },
 
   'pumpkin-pie': {
-    rest: [270, 'chilling'],
+    rest: [390, 'chilling'],
     d: 'A silky custard pie with proper spice and a blind-baked base that stays crisp. Cooking the purée down first concentrates it and eliminates the watery edge that spoils most versions.',
     meta: 'Classic pumpkin pie with a silky spiced custard and crisp blind-baked crust. The purée-reduction trick for deeper flavour.',
     kw: ['pumpkin pie recipe', 'thanksgiving pie', 'spiced custard pie', 'holiday dessert'],

@@ -342,7 +342,7 @@ module.exports = {
   },
 
   'beef-wellington': {
-    rest: [90, 'resting'],
+    rest: [105, 'resting'],
     d: 'Fillet of beef wrapped in mushroom duxelles and prosciutto, encased in puff pastry and baked until the pastry is bronzed and the beef is a perfect blushing pink. The dish for the occasion that matters.',
     meta: 'Beef Wellington with mushroom duxelles, prosciutto and puff pastry, cooked to a perfect blushing pink centre.',
     kw: ['beef wellington recipe', 'christmas dinner recipe', 'mushroom duxelles', 'special occasion beef'],
@@ -919,7 +919,7 @@ module.exports = {
 
   'swedish-meatballs': {
     d: 'Small, tender meatballs in a creamy pan gravy, served with lingonberry jam and mashed potato. The bread-and-cream panade is what makes them so much softer than an Italian meatball.',
-    meta: 'Swedish meatballs with a soft cream panade and rich pan gravy, served with lingonberry jam. Ready in 45 minutes.',
+    meta: 'Swedish meatballs with a soft cream panade and rich pan gravy, served with lingonberry jam. Ready in 75 minutes.',
     kw: ['swedish meatballs recipe', 'kottbullar', 'cream gravy meatballs', 'scandinavian recipe'],
     why: 'Soaking breadcrumbs in cream creates a panade whose starches and milk proteins physically prevent the meat proteins from binding tightly, producing a notably soft, tender meatball. Building the gravy in the same pan captures the fond, and the small addition of soy sauce deepens the colour and savouriness without reading as soy.',
     ing: [

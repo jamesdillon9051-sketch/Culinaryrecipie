@@ -252,7 +252,7 @@ module.exports = {
     pair: ['Rooibos tea', 'Strong coffee', 'Fresh berries'],
     store: 'Refrigerate up to 3 days, covered. The cinnamon needs re-dusting after the first day.',
     nut: [450, 10, 56, 20, 1, 27, 260],
-    rest: [180, 'chilling the tart']
+    rest: [195, 'chilling the tart']
   },
 
   'mandazi': {

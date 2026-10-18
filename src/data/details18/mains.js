@@ -460,7 +460,7 @@ module.exports = {
       'Mix the chopped ginger, spring onion and salt in a bowl and pour the smoking oil over.',
       'Tear the chicken into pieces by hand and serve with the sauce.'
     ],
-    rest: [120, 'drying the skin uncovered in the fridge'],
+    rest: [135, 'drying the skin uncovered in the fridge'],
     tips: [
       'Wrap it properly. The salt is heat, not seasoning.',
       'Heat the salt until it pours freely before the chicken goes in.',
@@ -692,7 +692,7 @@ module.exports = {
       'Rest 15 minutes, then cut into 2 cm cubes with a heavy cleaver, skin side up.',
       'Serve with mustard and a small dish of sugar for dipping.'
     ],
-    rest: [1440, 'drying the skin uncovered in the fridge'],
+    rest: [1455, 'drying the skin uncovered in the fridge'],
     tips: [
       'Hundreds of holes in the skin, and not one into the meat.',
       'A full day uncovered. Damp skin cannot crackle.',

@@ -98,7 +98,7 @@ module.exports = {
   },
 
   'doubles': {
-    rest: [570, 'soaking and proving'],
+    rest: [590, 'soaking and proving'],
     d: 'Two pieces of soft fried bara sandwiching curried chickpeas, with tamarind, cucumber chutney and pepper sauce spooned over the top.',
     meta: 'Trinidadian doubles — soft fried bara filled with curried chickpeas, tamarind and pepper sauce.',
     kw: ['doubles recipe', 'trinidadian street food', 'channa and bara', 'curried chickpea sandwich'],
@@ -374,7 +374,7 @@ module.exports = {
   },
 
   'nyama-choma': {
-    rest: [60, 'resting'],
+    rest: [75, 'resting'],
     d: 'Goat or beef rubbed with salt and grilled slowly over low coals for an hour or more, then chopped on a board and eaten with kachumbari and ugali.',
     meta: 'Nyama choma — Kenyan goat or beef grilled slowly over coals and served with kachumbari and ugali.',
     kw: ['nyama choma recipe', 'kenyan grilled meat', 'goat barbecue', 'african bbq'],

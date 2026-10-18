@@ -75,6 +75,7 @@ module.exports = {
   },
 
   'apple-slab-pie': {
+    rest: [60, 'chilling'],
     d: 'A large rectangular apple pie baked on a tray, with a lattice-free top and a simple glaze. Makes 12 in 1 hour 10 minutes.',
     meta: 'Apple slab pie: a large rectangular apple pie baked on a tray with a simple glaze. A cheap way to feed a crowd, 12 pieces in 1 hour 10.',
     kw: ['apple slab pie', 'apple pie for a crowd', 'budget apple pie', 'homemade slab pie recipe', 'cheap dessert for twelve'],
@@ -380,8 +381,8 @@ module.exports = {
   },
 
   'oatmeal-cake': {
-    d: 'A moist spiced oat cake topped with a broiled coconut and brown sugar icing. Makes 12 in 50 minutes.',
-    meta: 'Oatmeal cake: a moist spiced oat cake topped with a baked coconut and brown sugar icing. A cheap, old-fashioned traybake, 12 pieces in 50 minutes.',
+    d: 'A moist spiced oat cake topped with a broiled coconut and brown sugar icing. Makes 12 in 1 hour 10 minutes.',
+    meta: 'Oatmeal cake: a moist spiced oat cake topped with a baked coconut and brown sugar icing. A cheap, old-fashioned traybake, 12 pieces in 1 hour 10 minutes.',
     kw: ['oatmeal cake', 'old fashioned oatmeal cake', 'budget traybake', 'easy oat cake with coconut topping', 'cheap cake for twelve'],
     why: 'Soak the oats. Poured over with boiling water and left for 20 minutes, rolled oats soften and swell, and the cake that results is moist, a little chewy and stays fresh for days.\n\nThe cake itself is a simple creamed-butter sponge with brown sugar and cinnamon. Add the soaked oats at the end, along with the flour, and fold them in gently with a spatula.\n\nBake in a square tin until a skewer comes out clean. **Do not open the oven in the first 25 minutes**, or it sinks in the middle.\n\nThe topping is butter, brown sugar, milk and coconut, spread over the warm cake and returned to the oven, or put under a grill, until it bubbles and browns. Watch it closely. Coconut goes from golden to burnt in a few seconds. The topping is the part that makes the cake distinctive, with a toffee-like layer under the coconut. Serve warm or cold, and cut the cake in squares, since the topping is rich and a small piece is plenty.',
     ing: [

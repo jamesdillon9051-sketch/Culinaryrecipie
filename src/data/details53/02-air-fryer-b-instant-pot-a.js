@@ -399,7 +399,7 @@ module.exports = {
 
   'instant-pot-biryani': {
     d: 'Marinated chicken and basmati rice cooked together in layers under pressure with whole spices, caramelised onions and saffron milk.',
-    meta: 'Instant Pot biryani with chicken, basmati, fried onions and saffron. Six servings, ready in 45 minutes.',
+    meta: 'Instant Pot biryani with chicken, basmati, fried onions and saffron. Six servings, ready in 1 hour 15 minutes.',
     kw: ['instant pot biryani', 'chicken biryani pressure cooker', 'biryani recipe', 'basmati chicken biryani', 'one pot biryani'],
     why: 'Flavoured rice, spiced chicken, fried onions and a pinch of saffron: biryani is a layered dish of many parts, and the Instant Pot lets you cook them together without the dum sealing with dough or hours at the stove. The steam does the rest of the work.\n\nMarinate the chicken in yogurt, ginger, garlic and spices for at least 30 minutes. The yogurt tenderises the meat and forms the base of the gravy. Rinse the basmati until the water runs clear, which removes surface starch and keeps the grains separate.\n\n**Layer, do not stir.** Put the chicken and its marinade in the base of the pot, scatter the fried onions and herbs over it, then spoon the rice on top and pour in the water. If the rice touches the bottom, it will stick and catch. Do not stir after sealing.\n\nCook for only 6 minutes on high pressure, followed by a 10 minute natural release. Fluff the rice gently with a fork, folding the layers together, and drizzle the saffron milk over the top.',
     ing: [
@@ -614,7 +614,7 @@ module.exports = {
 
   'instant-pot-chicken-tikka-masala': {
     d: 'Spiced yogurt-marinated chicken pieces in a creamy tomato sauce, cooked under pressure and finished with cream and fenugreek.',
-    meta: 'Instant Pot chicken tikka masala in a creamy tomato sauce. Four servings, ready in 35 minutes.',
+    meta: 'Instant Pot chicken tikka masala in a creamy tomato sauce. Four servings, ready in 55 minutes.',
     kw: ['instant pot chicken tikka masala', 'chicken tikka masala', 'pressure cooker tikka masala', 'creamy tikka masala', 'tikka masala sauce'],
     why: 'It looks like a restaurant curry and cooks like a weeknight stew, which is the main attraction of the Instant Pot version. Chicken tikka masala is generally credited to British Indian cooking, and the sauce at its heart is tomato, spices and cream, mellow rather than hot.\n\nMarinate the chicken in yogurt, garam masala, turmeric, cumin and lemon juice. Even 20 minutes helps, and an hour is better. The yogurt tenderises the surface and carries the spices into the meat. Brown the chicken first in the pot to add a hint of char, which gives the dish its tikka character.\n\n**Cook the sauce base before adding the chicken back.** Onions, garlic, ginger and tomato purée go in first, then passata, and the whole lot is pressure cooked for just 6 minutes. A long cook breaks the cream and dulls the spices.\n\nStir in the cream at the end with the sauté function off, then add a spoonful of dried fenugreek leaves crushed between the fingers. That sweet, slightly bitter scent is what many people associate with a good tikka masala.',
     ing: [

@@ -171,6 +171,7 @@ module.exports = {
   },
 
   'roast-beef-tenderloin': {
+    rest: [60, 'rising'],
     d: 'A whole trimmed beef tenderloin seared and roasted to a rosy medium-rare under a garlic and herb crust, with a sharp horseradish cream.',
     meta: 'Roast beef tenderloin: a trimmed, tied fillet seared and roasted to a rosy medium-rare under a garlic and herb crust, with a sharp horseradish cream.',
     kw: ['roast beef tenderloin', 'beef tenderloin roast recipe', 'how to cook a whole beef tenderloin', 'herb crusted beef tenderloin', 'beef tenderloin with horseradish cream'],

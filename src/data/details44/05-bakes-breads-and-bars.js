@@ -499,7 +499,7 @@ module.exports = {
     ],
     pair: ['Cream cheese', 'Butter', 'Peanut butter', 'Coffee'],
     store: 'Best on the day. Keeps in a bag for 3 days. Slice and toast.',
-    rest: [60, 'Proving'],
+    rest: [80, 'Proving'],
     nut: [315, 7, 65, 3, 3, 15, 590]
   },
 
@@ -535,7 +535,7 @@ module.exports = {
     ],
     pair: ['Tea', 'Milk', 'Cherries', 'Butter'],
     store: 'Best on the day. Keeps in a tin for 2 days.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [314, 6, 59, 6, 1, 27, 110]
   },
 

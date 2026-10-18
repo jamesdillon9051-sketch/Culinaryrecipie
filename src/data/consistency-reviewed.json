@@ -1,17 +1,41 @@
 {
-  "about": "Findings from tools/recipe-consistency.js that a person read and judged to be correct as the recipe stands, with the reason. A finding listed here is reported as an accepted exception instead of a defect. Add an entry only after reading the recipe; never to make the check pass.",
+  "about": "Verdicts on findings from tools/recipe-consistency.js, written with tools/consistency-ledger.js. Each recipe entry carries the fingerprint of the content it was reviewed against; when the recipe changes, its verdicts go stale and the findings come back. Statuses: exception (the recipe is right and the checker misread it), duplicate (covered by another finding), cooking (needs a real cook to settle), specialist (needs qualified safety review). Only exception and duplicate close a finding; the other two stay in the open list, counted on their own.",
   "recipes": {
     "pork-pie": {
-      "stages-exceed-cook": "The 3-hour simmer for the jelly runs while the pastry is made and the pie bakes and cools (60 minutes of prep, 105 minutes of baking, at least 3 hours of cooling), so it is not added to the cook time. The total already includes the cooling and the 4 hours of setting."
+      "fingerprint": "2234bf7fba2a",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The 3-hour simmer for the jelly is started first and runs while the pastry is made (60 minutes of prep) and the pie bakes (25 + 80 minutes); the jelly is then strained and chilled while the pie cools for at least 3 hours. The method now says so. The cook time is the bake; the total includes the 3 hours of cooling and the 4 hours of setting."
+        }
+      }
     },
     "ofada-rice": {
-      "stages-exceed-cook": "The beef (50 minutes), the rice (30) and the pepper sauce (10 + 1 + 5 + 25) are cooked side by side, and the method now says so (\"While the beef cooks\", \"Meanwhile\"). The longest chain is the beef and the final 10-minute simmer: 60 minutes, the row's cook time."
+      "fingerprint": "3f61e3ad5708",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The beef (50 minutes), the rice (30) and the pepper sauce (10 + 1 + 5 + 25) are cooked side by side, and the method now says so (\"While the beef cooks\", \"Meanwhile\"). The longest chain is the beef and the final 10-minute simmer: 60 minutes, the row's cook time."
+        }
+      }
     },
     "christmas-pudding": {
-      "stages-exceed-cook": "The 2-hour steam in the last step reheats the pudding on the day it is served, after it has matured; it is not part of making it. The cook time is the 6-hour steam."
+      "fingerprint": "1ad82c201458",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "The 2-hour steam in the last step reheats the pudding on the day it is served, after it has matured; it is not part of making it. The cook time is the 6-hour steam."
+        }
+      }
     },
     "slow-cooker-porridge": {
-      "stages-exceed-cook": "\"If your slow cooker runs hot, cook for 6 hours instead\" is an alternative to the 8 hours, not a second stage."
+      "fingerprint": "4b9a9e119bca",
+      "findings": {
+        "stages-exceed-cook|stages": {
+          "status": "exception",
+          "reason": "\"If your slow cooker runs hot, cook for 6 hours instead\" is an alternative to the 8 hours, not a second stage."
+        }
+      }
     }
   }
 }

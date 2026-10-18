@@ -262,7 +262,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Tea', 'Dessert wine'],
     store: 'Keeps for 1 week wrapped. Freeze for 2 months.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [595, 12, 58, 35, 4, 23, 230]
   },
 
@@ -318,7 +318,7 @@ module.exports = {
       '4 slices rye bread'
     ],
     st: [
-      'Bring the water to the boil, take it off the heat and add the sausages, pricked once with a fork. Cover and leave for 15 minutes.',
+      'Bring the water to the boil, take it off the heat and add the sausages, pricked once with a fork. Cover and let them poach off the heat for 15 minutes.',
       'Warm the sauerkraut with the lard and caraway for 10 minutes.',
       'Brown the sausages in a hot dry pan for 3 minutes if you like.',
       'Serve on the sauerkraut with the horseradish, mustard and bread.'
@@ -544,8 +544,8 @@ module.exports = {
   },
 
   'biff-a-la-lindstrom': {
-    d: 'Swedish beef patties mixed with chopped beetroot, capers and onion and fried until browned, ready in 40 minutes.',
-    meta: 'Biff à la Lindström, Swedish beef patties with beetroot, capers and onion, cooked for 20 minutes. Four servings, ready in 40 minutes.',
+    d: 'Swedish beef patties mixed with chopped beetroot, capers and onion and fried until browned, ready in 55 minutes.',
+    meta: 'Biff à la Lindström, Swedish beef patties with beetroot, capers and onion, cooked for 20 minutes. Four servings, ready in 55 minutes.',
     kw: ['biff a la lindstrom', 'swedish beef patties with beetroot', 'lindstrom burger', 'biff a la lindstrom recipe', 'beetroot and caper meat patties'],
     why: 'The surprising ingredient here is the beetroot, and the reason it works is the sweetness, with the capers adding a sharp salty note. Biff à la Lindström is the Swedish beef patty, a dish said to come from a Swedish cook called Henrik Lindström, who is said to have brought it back from Russia, and it has been on Swedish tables for over a century.\n\nMix minced beef with finely chopped pickled beetroot, capers, onion, a little of the pickling liquid, an egg and breadcrumbs. Use a lean beef mince, as the beetroot adds moisture. **Do not mix too long**, as it makes the patties tough and also turns them completely pink. Shape into four patties and chill for 15 minutes.\n\nFry in butter over medium high heat for about 5 minutes on each side, until browned and cooked through. Deglaze the pan with a splash of stock and cream. Serve with boiled potatoes, a spoonful of the pan sauce and a fried egg on top if you like. Some people add a teaspoon of mustard to the mince.',
     ing: [
@@ -721,7 +721,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Mulled wine', 'Gingerbread'],
     store: 'Best the day they are made. Freeze for 2 months.',
-    rest: [120, 'Rising'],
+    rest: [135, 'Rising'],
     nut: [221, 6, 29, 9, 1, 12, 370]
   },
 
@@ -763,8 +763,8 @@ module.exports = {
   },
 
   'chokladbollar': {
-    d: 'Swedish no bake chocolate balls of oats, butter, sugar, cocoa and coffee rolled in coconut, ready in 15 minutes.',
-    meta: 'Chokladbollar, Swedish no bake chocolate oat balls rolled in coconut, ready in 15 minutes. Twenty servings, no baking.',
+    d: 'Swedish no bake chocolate balls of oats, butter, sugar, cocoa and coffee rolled in coconut, ready in 45 minutes.',
+    meta: 'Chokladbollar, Swedish no bake chocolate oat balls rolled in coconut, ready in 45 minutes. Twenty servings, no baking.',
     kw: ['chokladbollar', 'swedish chocolate balls', 'no bake oat and cocoa balls', 'chokladbollar recipe', 'swedish chocolate oat balls with coconut'],
     why: 'Soft butter, oats, sugar, cocoa: mix them, roll them and roll them in coconut. Chokladbollar are the Swedish chocolate balls and the first sweet treat that children there learn to make, with no oven and no real recipe, and found in every cafe beside the coffee.\n\nThe butter must be properly soft, not melted, so that it mixes into a thick paste. Mix it with the sugar, vanilla and cocoa first, then add the oats and a splash of cold strong coffee. **Use rolled oats, not instant**, which are too fine, for the chewy texture. Knead with your hands until the mixture holds together when pressed.\n\nRoll into balls the size of a walnut, about 25 g each, and roll each in desiccated coconut or pearl sugar. Chill for 30 minutes so they firm up. They keep for a week in the fridge. Pop a little rum in the mix for the adult version, a rumboll. Serve with coffee, as the Swedes do.',
     ing: [

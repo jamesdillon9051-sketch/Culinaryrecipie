@@ -58,7 +58,7 @@ module.exports = {
     pair: ['Dill pickles', 'A crisp coleslaw', 'French fries'],
     store: 'Keep the cooked, unsliced meat wrapped in the fridge up to 5 days. Reheat slices in a covered pan with a splash of water. Freeze in portions for 2 months.',
     nut: [536, 41, 30, 28, 4, 2, 2600],
-    rest: [7200, 'Curing']
+    rest: [7220, 'Curing']
   },
 
   'peameal-bacon-sandwich': {

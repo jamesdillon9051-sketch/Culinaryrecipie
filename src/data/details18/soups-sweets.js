@@ -245,7 +245,7 @@ module.exports = {
       'Set them sesame up on a lined tray and rest 20 minutes.',
       'Bake at 200C fan / 220C / gas 7 for 20 minutes, until deep gold, puffed and hollow-sounding.'
     ],
-    rest: [60, 'proving the dough'],
+    rest: [80, 'proving the dough'],
     tips: [
       'Flour cooked into the oil, not oil alone. That is what holds the layers.',
       'Maltose wash so the sesame sticks and the colour deepens.',
@@ -417,7 +417,7 @@ module.exports = {
       'Only now add the rock sugar and the salt, and simmer 10 minutes until dissolved.',
       'Serve warm, or chill and serve cold with a spoonful of coconut milk.'
     ],
-    rest: [480, 'soaking the adzuki beans overnight'],
+    rest: [495, 'soaking the adzuki beans overnight'],
     tips: [
       'Sugar at the end. Early sugar stops the beans softening.',
       'Scrape the pith from the tangerine peel or it turns bitter.',
@@ -592,7 +592,7 @@ module.exports = {
       'Cut the set jelly into 2 cm cubes or diamonds with a wet knife.',
       'Divide between bowls, add the fruit, and pour the cold syrup over.'
     ],
-    rest: [120, 'setting the jelly'],
+    rest: [150, 'setting the jelly'],
     tips: [
       'Boil the agar for two full minutes. Warm is not enough.',
       'It sets at room temperature, so pour it promptly.',

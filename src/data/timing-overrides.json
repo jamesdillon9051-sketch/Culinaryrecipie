@@ -30,6 +30,11 @@
       "min": 20,
       "max": 20,
       "reason": "\"Rest for 20 minutes before serving — or better, cool and refrigerate overnight\": the overnight chill is offered as an improvement after a dash, which the reader does not split off as an alternative, so it was counted as a required 8 hours. The required wait is the 20-minute rest. Cooking is browning in three batches (about 5 minutes each), 8 + 4 minutes for the onions and peppers, 90 seconds for the spices, 2 minutes for the purée, 2 hours in the oven and 30 minutes with the beans: 181 minutes."
+    },
+    "sourdough-bread": {
+      "min": 1225,
+      "max": 1585,
+      "reason": "The bulk ferment is given as \"typically 5 to 7 hours in total\", counted from when the starter goes in, so the 30-minute rest after adding it and the four coil folds over 3 hours run inside it and are not added again. Waits: autolyse 1 hour, bulk 5 to 7 hours, pre-shape rest 25 minutes, cold retard 12 to 16 hours, cooling at least 2 hours: 1225 to 1585 minutes. The bulk time depends on dough temperature and starter strength; the method gives the readiness cue (risen by about 60%, airy, bubbles on the surface)."
     }
   }
 }

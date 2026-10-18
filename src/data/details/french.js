@@ -225,7 +225,7 @@ module.exports = {
   },
 
   'cassoulet': {
-    rest: [480, 'soaking'],
+    rest: [500, 'soaking'],
     d: 'The great slow-cooked bean casserole of southwest France: white beans, confit duck, sausage and pork built into layers and baked until a crust forms on top, broken and re-formed several times as tradition demands.',
     meta: 'Traditional cassoulet de Toulouse with white beans, duck confit and sausage, baked slowly until a golden crust forms.',
     kw: ['cassoulet recipe', 'french bean casserole', 'duck confit cassoulet', 'toulouse cassoulet'],
@@ -267,6 +267,7 @@ module.exports = {
   },
 
   'steak-frites': {
+    rest: [85, 'chilling'],
     d: 'The bistro standard done properly: a hard-seared steak rested under herb butter, with twice-fried chips that stay crisp long enough to finish the plate. It is a technique dish, and the technique is entirely about heat and drying.',
     meta: 'Bistro steak frites with a hard-seared steak, herb butter and twice-fried chips that stay crisp to the last bite.',
     kw: ['steak frites recipe', 'french bistro steak', 'twice fried chips', 'perfect steak'],
@@ -306,7 +307,7 @@ module.exports = {
   },
 
   'quiche-lorraine': {
-    rest: [90, 'chilling'],
+    rest: [110, 'chilling'],
     d: 'The original quiche has no cheese in it, and once you taste this custard — barely set, heavy on cream, studded with smoky lardons — you will understand why. The blind-baked pastry shell is the difference between a quiche and a sad, wet tart.',
     meta: 'Authentic quiche Lorraine with a crisp blind-baked shell and a barely set cream custard studded with smoky lardons.',
     kw: ['quiche lorraine recipe', 'french quiche', 'bacon quiche', 'blind bake pastry'],
@@ -394,7 +395,7 @@ module.exports = {
   },
 
   'croissants': {
-    rest: [690, 'chilling and proving'],
+    rest: [710, 'chilling and proving'],
     d: 'Genuinely laminated croissants with a honeycomb interior and a shattering shell — 27 layers of butter folded into dough over two days. It is a project, but the technique is entirely learnable and the result is unbuyable outside France.',
     meta: 'Laminated butter croissants with a honeycomb crumb and shattering crust. The full two-day method, explained step by step.',
     kw: ['croissant recipe', 'homemade croissants', 'laminated dough', 'french pastry'],
@@ -434,7 +435,7 @@ module.exports = {
   },
 
   'baguette': {
-    rest: [885, 'resting'],
+    rest: [925, 'resting'],
     d: 'A true baguette de tradition: four ingredients, a long cold ferment, and a crust that crackles audibly as it cools. Steam in the first minutes of baking is the secret nobody tells you about.',
     meta: 'Crackling French baguettes from four ingredients and an overnight ferment, with the home-oven steam trick that makes the crust.',
     kw: ['baguette recipe', 'french bread', 'homemade baguette', 'crusty bread recipe'],
@@ -520,6 +521,8 @@ module.exports = {
   },
 
   'macarons': {
+    cookMax: 16,
+    untimed: ['cooling the shells', 'any extra firming the ganache needs'],
     d: 'The Parisian macaron, with smooth domed shells, ruffled feet and a chewy centre. This uses the more forgiving French meringue method and explains exactly what "macaronage" should look and sound like.',
     meta: 'French macarons with smooth shells and ruffled feet. The macaronage stage explained so you know when to stop.',
     kw: ['macaron recipe', 'french macarons', 'macaronage technique', 'gluten free dessert'],
@@ -545,9 +548,9 @@ module.exports = {
       'Stop when the batter falls from the spatula in a thick, unbroken ribbon and a figure of eight holds for about 10 seconds before melting back. Usually 35 to 50 strokes.',
       'Pipe 3.5 cm rounds onto lined trays, holding the bag vertically. Rap each tray hard on the counter three times to release trapped air, and pop any surface bubbles with a toothpick.',
       'Rest at room temperature for 30 to 60 minutes, until the surface is matte and does not stick to a light touch.',
-      'While the shells rest, make the ganache: warm the cream, pour it over the chocolate, stir smooth, beat in the butter, and chill until thick enough to pipe.',
+      'While the shells rest, make the ganache: warm the cream until steaming, pour it over the chocolate, stir smooth, beat in the butter, and chill until thick enough to pipe. It firms in the fridge while the shells rest, bake and cool; if it is still too soft to hold a shape when the shells are cold, give it longer, stirring now and then so it sets evenly.',
       'Bake at 150°C / 300°F for 14 to 16 minutes, rotating halfway. A finished shell should not wobble on its foot when nudged.',
-      'Cool the shells completely on the tray. Pipe ganache onto half of them, sandwich with the rest, and mature in an airtight box in the fridge for 24 hours before serving.'
+      'Cool the shells completely on the tray; they are ready when they lift cleanly off the paper without leaving their bases behind. Pipe ganache onto half of them, sandwich with the rest, and mature in an airtight box in the fridge for 24 hours before serving.'
     ],
     tips: [
       'If you separate the eggs ahead, keep the whites covered in the fridge and use them within 2 days. Take them out no more than 2 hours before whisking: room-temperature whites whip more readily, but raw egg should not sit out longer than that.',
@@ -561,7 +564,7 @@ module.exports = {
   },
 
   'creme-brulee': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'A vanilla custard so smooth it barely holds a spoon, under a sheet of caramel thin enough to crack with a tap. The water bath and a low oven are what separate silk from scrambled egg.',
     meta: 'Silky vanilla crème brûlée with a glass-thin caramel top. The water-bath method that guarantees a flawless custard.',
     kw: ['creme brulee recipe', 'vanilla custard dessert', 'french dessert', 'gluten free dessert'],

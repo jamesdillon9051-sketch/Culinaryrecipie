@@ -478,7 +478,7 @@ module.exports = {
     pair: ['Olive oil for dipping', 'Soup', 'Antipasti', 'Cheese'],
     store: 'Best the day it is baked. Keeps wrapped for 2 days and freezes for 2 months.',
     nut: [293, 7, 37, 13, 2, 4, 1150],
-    rest: [510, 'Fermenting overnight']
+    rest: [600, 'Fermenting overnight']
   },
 
   'honey-glazed-gammon': {

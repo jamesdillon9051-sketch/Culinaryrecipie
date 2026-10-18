@@ -13,7 +13,9 @@
  *   2. Unattended waiting of an hour or more — proving, chilling, marinating,
  *      fermenting, cooling — must be declared in the detail record's `rest`
  *      field as the floor the method describes, with a label for the page.
- *      A declared rest the method does not describe is a failure too.
+ *      A shorter wait may go undeclared (the page reads it from the method
+ *      either way), but a declared rest must equal the floor, and a declared
+ *      rest the method does not describe is a failure too.
  *
  *   node tools/timing-audit.js
  *   node tools/timing-audit.js --why          # the sentences each wait came from
@@ -37,7 +39,7 @@ for (const recipe of recipes) {
   const detail = details[recipe.slug] || {};
   const declared = detail.rest ? detail.rest[0] : 0;
   const wait = detectWait({ slug: recipe.slug, steps: recipe.steps, ingredients: recipe.ingredients });
-  if (wait.min !== declared) {
+  if (wait.min !== declared && (declared || wait.min >= 60)) {
     if (WHY) for (const line of wait.trace) failures.push(`    ${line}`);
     failures.push(wait.min
       ? `${recipe.slug} — method describes ${wait.min} min of waiting but the record `

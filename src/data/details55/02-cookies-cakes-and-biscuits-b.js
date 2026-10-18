@@ -17,7 +17,7 @@
 module.exports = {
   'cherry-turnovers': {
     d: 'Flaky puff pastry squares filled with a cherry compote, folded into triangles and baked for 22 minutes until risen and golden.',
-    meta: 'Cherry turnovers in flaky puff pastry with a cherry filling, baked for 22 minutes. Eight servings, ready in 50 minutes.',
+    meta: 'Cherry turnovers in flaky puff pastry with a cherry filling, baked for 22 minutes. Eight servings, ready in 1 hour 2 minutes.',
     kw: ['cherry turnovers', 'puff pastry cherry turnovers', 'cherry pastry turnovers', 'cherry filled puff pastry', 'cherry turnover recipe'],
     why: 'Cherry, sugar, pastry: three things you already own if the freezer is stocked, and about fifty minutes. Turnovers are among the simplest of pastries, a square of puff folded over a filling, and they look far more elaborate than they are.\n\nThe filling is cherries cooked briefly with sugar, lemon juice and cornflour until it turns glossy and thick. Use frozen cherries straight from the bag, or a tin if you prefer, drained well. A wet filling is the enemy of puff pastry, since moisture leaks out through the seams and glues the layers together so that the pastry cannot rise. Cool the compote completely before using it.\n\n**Keep the pastry cold.** Puff pastry rises because cold butter between thin layers of dough turns to steam in the hot oven. If the pastry warms and softens as you work with it, the layers merge and the turnovers bake flat. Cut and fill them quickly, and chill the filled turnovers for 15 minutes before baking.\n\nSeal the edges with a fork, brush with beaten egg and cut two small slits in the top for steam. Sprinkle with sugar, then bake at 200C until deep golden. A drizzle of vanilla icing when they are cool is optional.',
     ing: [
@@ -49,7 +49,7 @@ module.exports = {
 
   'chewy-ginger-cookies': {
     d: 'Soft, chewy ginger cookies with molasses, cinnamon and cloves, rolled in sugar and baked for 12 minutes until the tops crackle.',
-    meta: 'Chewy ginger cookies with molasses and spice, rolled in sugar and baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Chewy ginger cookies with molasses and spice, rolled in sugar and baked for 12 minutes. 24 cookies, ready in 47 minutes.',
     kw: ['chewy ginger cookies', 'soft ginger molasses cookies', 'ginger crinkle cookies', 'ginger cookies with molasses', 'chewy gingersnaps'],
     why: 'A cookie for the week the clocks go back and the first hot drinks of the autumn appear. Chewy ginger cookies are the soft cousins of the hard gingersnap, with a dark colour, a crackled sugary top and a warm, deep spice that comes from molasses and a trio of ground spices.\n\nThe chew comes from three things. Molasses is hygroscopic, meaning it holds onto moisture, which keeps the cookies soft for days. Brown sugar does the same. And underbaking leaves the centres moist. Take them out when the tops are set and crinkled but still look slightly soft in the cracks, then let them finish on the tray.\n\n**Roll the dough balls in granulated sugar before baking.** This forms the sparkling crust that cracks as the cookies spread and puff. A coating of coarse sugar gives a better crunch than fine. Chill the dough for 20 minutes first, since it is sticky and softens quickly at room temperature.\n\nUse freshly ground ginger if you can, and do not skimp: 2 teaspoons ground ginger, 1 of cinnamon and a half of cloves for a batch of 24. The flavour deepens as the cookies sit for a day.',
     ing: [
@@ -435,7 +435,7 @@ module.exports = {
 
   'cranberry-orange-cookies': {
     d: 'Soft orange-scented cookies studded with dried cranberries and white chocolate chips, baked for 12 minutes.',
-    meta: 'Cranberry orange cookies with white chocolate, soft and chewy, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Cranberry orange cookies with white chocolate, soft and chewy, baked for 12 minutes. 24 cookies, ready in 47 minutes.',
     kw: ['cranberry orange cookies', 'cranberry white chocolate cookies', 'orange cranberry cookies', 'christmas cranberry cookies', 'soft cranberry cookies'],
     why: 'Most home versions come out bland, and the fix is to use the zest as well as the juice of the orange. The oils in the zest are where the aroma is, and rubbing it into the sugar with your fingers before creaming the butter spreads that fragrance through the dough in a way juice cannot do.\n\nDried cranberries are tart and chewy, and a handful soaked in hot orange juice for 10 minutes plump up and soften, so that they do not turn into hard, dry nuggets in the finished cookie. Drain them well, because extra liquid would turn the dough sloppy. White chocolate chips add creamy sweetness against the sharp fruit.\n\n**Do not skip the chilling.** The dough contains a lot of soft add-ins and is a little sticky, and 20 minutes in the fridge firms the butter and helps the cookies keep their thickness. Without it, they spread thin and crisp rather than staying soft and chewy.\n\nBake at 180C for 12 minutes, until the edges are very lightly golden and the centres look slightly underdone. Cool on the tray, where they finish setting. They are at their best on day two, once the orange flavour has had time to develop.',
     ing: [
@@ -670,7 +670,7 @@ module.exports = {
     ],
     pair: ['Vanilla ice cream', 'Cheddar', 'Custard', 'Whipped cream'],
     store: 'Keeps for 3 days covered at room temperature.',
-    rest: [120, 'Cooling'],
+    rest: [135, 'Cooling'],
     nut: [493, 5, 71, 21, 5, 36, 190]
   },
 
@@ -849,7 +849,7 @@ module.exports = {
 
   'kitchen-sink-cookies': {
     d: 'Chewy brown sugar cookies loaded with oats, chocolate chips, pretzels, coconut and pecans, baked for 12 minutes.',
-    meta: 'Kitchen sink cookies with chocolate, oats, pretzels, coconut and pecans, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Kitchen sink cookies with chocolate, oats, pretzels, coconut and pecans, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['kitchen sink cookies', 'everything cookies', 'loaded oatmeal chocolate chip cookies', 'pretzel chocolate chip cookies', 'cookies with pretzels and coconut'],
     why: 'The name comes from the idea of putting in everything but the kitchen sink. A kitchen sink cookie is a chewy base dough crowded with whatever is in the cupboard, and it is a good way to use up the remnants of half-finished packets of chocolate, nuts and crisps.\n\nThe key is balance. Too many add-ins and the dough will not hold together; too few and it is just a chocolate chip cookie. For one batch, use about 300 g of mix-ins to 250 g of flour. Choose a mix of textures: crunchy pretzels, chewy coconut, rich pecans, creamy chocolate and hearty oats. Salty pretzels against sweet chocolate and brown sugar is the combination people come back for.\n\n**Chop the larger pieces.** Break pretzels into small shards and chop the pecans roughly, so that no piece is bigger than a coin. Large pieces create weak points where the cookie breaks, and they push the dough apart in the oven.\n\nChill the dough for 30 minutes before baking, since the weight of the add-ins means it spreads quickly in warm conditions. Bake until the edges are golden brown and the centre looks slightly underdone, and let the cookies rest on the tray for 10 minutes.',
     ing: [

@@ -211,6 +211,7 @@ module.exports = {
   },
 
   'yogurt-marinated-chicken-skewers': {
+    rest: [120, 'chilling'],
     d: 'Chicken thigh marinated in yoghurt, lemon and oregano, then grilled hard until the edges char. The yoghurt does the tenderising.',
     meta: 'Yoghurt-marinated chicken thigh skewers with lemon and oregano, grilled hard until the edges char.',
     kw: ['yogurt marinated chicken', 'greek chicken skewers', 'souvlaki style chicken', 'yogurt marinated chicken recipe'],

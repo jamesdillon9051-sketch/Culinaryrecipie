@@ -87,7 +87,7 @@ module.exports = {
     pair: ['A cup of tea', 'A flat white', 'Vanilla ice cream'],
     store: 'Keep in an airtight container up to 5 days. Freeze for 2 months.',
     nut: [254, 3, 29, 14, 1, 15, 75],
-    rest: [60, 'Cooling']
+    rest: [75, 'Cooling']
   },
 
   'peppermint-slice': {
@@ -127,7 +127,7 @@ module.exports = {
     pair: ['A cup of tea', 'Vanilla ice cream', 'Fresh raspberries'],
     store: 'Keep in an airtight container in the fridge up to 5 days. Freeze for 2 months.',
     nut: [348, 3, 39, 20, 2, 30, 75],
-    rest: [60, 'Chilling']
+    rest: [100, 'Chilling']
   },
 
   'squiggle-slice': {
@@ -168,7 +168,7 @@ module.exports = {
     pair: ['A cup of tea', 'A glass of cold milk', 'Fresh strawberries'],
     store: 'Keep in an airtight container in the fridge up to 5 days. The honeycomb softens after 2 days. Freeze for 2 months.',
     nut: [329, 2, 42, 17, 1, 33, 70],
-    rest: [120, 'Chilling']
+    rest: [150, 'Chilling']
   },
 
   'peanut-brownies': {

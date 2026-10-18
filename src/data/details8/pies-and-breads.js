@@ -89,7 +89,7 @@ module.exports = {
   },
 
   'fruit-tart': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'The pâtisserie window tart: crisp sweet pastry, a proper vanilla crème pâtissière, and whatever fruit is worth buying, glazed to a shine. It is three separate recipes and each one is easy; the discipline is in cooling them.',
     meta: 'A French fruit tart with pâte sucrée, real crème pâtissière and a set apricot glaze — the pâtisserie classic, built in stages.',
     kw: ['french fruit tart', 'fruit tart recipe', 'creme patissiere tart', 'pate sucree fruit tart'],

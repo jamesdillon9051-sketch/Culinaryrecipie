@@ -358,7 +358,7 @@ module.exports = {
       'Skim the fat from the tin, add the cider and stock and boil hard, scraping, until reduced by half. Strain.',
       'Cut the crackling off in one piece and break it up, then carve the meat and serve with the gravy and apple sauce.'
     ],
-    rest: [1440, 'drying the skin uncovered in the fridge'],
+    rest: [1465, 'drying the skin uncovered in the fridge'],
     tips: [
       'A day uncovered in the fridge. Wet skin never crackles.',
       'Hot first, moderate after — and never the other way round.',

@@ -2,7 +2,7 @@
 
 module.exports = {
   'croquetas': {
-    rest: [510, 'chilling'],
+    rest: [530, 'chilling'],
     d: 'A very thick béchamel studded with jamón, chilled overnight, rolled, crumbed and fried so the outside is crisp and the inside is almost liquid.',
     meta: 'Jamón croquetas — a thick béchamel with cured ham, chilled overnight, crumbed and fried until molten.',
     kw: ['croquetas recipe', 'jamon croquetas', 'spanish tapas', 'ham croquettes'],

@@ -160,7 +160,7 @@ module.exports = {
 
   'nalesniki': {
     d: 'Thin Polish pancakes folded round a filling of sweet curd cheese and raisins, then fried in butter until golden.',
-    meta: 'Naleśniki, thin Polish pancakes filled with sweet curd cheese and raisins, cooked for 20 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Naleśniki, thin Polish pancakes filled with sweet curd cheese and raisins, cooked for 20 minutes. Four servings, ready in 50 minutes.',
     kw: ['nalesniki', 'polish pancakes with curd cheese', 'nalesniki z serem', 'polish crepes with sweet cheese', 'nalesniki recipe'],
     why: 'The first sign they are ready is the smell: butter browning and the sweet scent of vanilla cheese warming inside the pancake. Naleśniki are the Polish pancakes, thin, supple and slightly crisp at the edges, and the best known filling is twaróg, a fresh curd cheese, mixed with sugar, vanilla and raisins.\n\nThe batter is flour, eggs, milk, a splash of mineral water, a pinch of salt and a little melted butter. The sparkling water makes the pancakes lighter. Whisk it smooth and rest it for 15 minutes. **Pour in only enough batter to coat the pan thinly** and swirl it. Cook for 1 minute until the edges lift, flip and cook for 30 seconds. Stack the pancakes under a cloth to keep them soft.\n\nMash the curd cheese with sugar, an egg yolk and vanilla, and stir in the raisins. Put a spoonful in each pancake, fold it into an envelope, and fry the parcels in butter for 2 minutes on each side until golden. Serve warm with soured cream and a dusting of icing sugar. They can also be filled with jam or stewed fruit.',
     ing: [
@@ -340,7 +340,7 @@ module.exports = {
     ],
     pair: ['Fresh strawberries', 'Coffee', 'Tea'],
     store: 'Keeps for 3 days in the fridge.',
-    rest: [360, 'Chilling'],
+    rest: [380, 'Chilling'],
     nut: [545, 10, 34, 41, 2, 21, 170]
   },
 
@@ -892,7 +892,7 @@ module.exports = {
     ],
     pair: ['Coffee', 'Tea', 'Hot chocolate'],
     store: 'Best the day they are made. Freeze for 1 month.',
-    rest: [90, 'Rising'],
+    rest: [110, 'Rising'],
     nut: [197, 6, 23, 9, 2, 9, 260]
   }
 };

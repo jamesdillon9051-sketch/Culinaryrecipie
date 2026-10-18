@@ -523,8 +523,8 @@ module.exports = {
   },
 
   'lemon-herb-chicken-thighs': {
-    d: 'Chicken thighs marinated in lemon, garlic and dried herbs, then roasted until the skin is crisp. Four servings in 55 minutes.',
-    meta: 'Lemon herb chicken thighs: thighs marinated in lemon, garlic and herbs, then roasted until crisp. A cheap, easy dinner for four in 55 minutes.',
+    d: 'Chicken thighs marinated in lemon, garlic and dried herbs, then roasted until the skin is crisp. Four servings in 1 hour 20 minutes.',
+    meta: 'Lemon herb chicken thighs: thighs marinated in lemon, garlic and herbs, then roasted until crisp. A cheap, easy dinner for four in 1 hour 20 minutes.',
     kw: ['lemon herb chicken thighs', 'roast lemon chicken thighs', 'budget chicken thigh dinner', 'easy lemon garlic chicken', 'cheap oven chicken'],
     why: 'Why does lemon chicken so often taste of nothing? Because the juice goes on at the end and the acid never reaches the meat. Marinating for even 30 minutes fixes that.\n\nThe marinade is lemon juice, oil, garlic and dried herbs. The acid loosens the surface of the meat and carries the garlic into it, so the flavour goes right through and does not just sit on the skin.\n\nDo not marinate longer than 4 hours. Lemon juice starts to turn the surface of the chicken mushy if it sits overnight.\n\n**Lift the chicken out of the marinade and pat it dry** before roasting. Wet skin steams and will not crisp. Roast skin side up at a high heat, and leave the lemon halves on the tray to caramelise. Dried herbs are fine here, since they are rehydrated by the marinade and the heat. The roasted lemon halves can be squeezed over the cooked chicken for a mellow, caramelised juice that tastes different from the raw.',
     ing: [

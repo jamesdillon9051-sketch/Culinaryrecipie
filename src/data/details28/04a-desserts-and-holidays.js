@@ -204,7 +204,7 @@ module.exports = {
     pair: ['Whipped cream', 'Hot coffee', 'Sliced bananas'],
     store: 'Keeps in the fridge for up to 4 days. Freeze whole or in slices for up to 2 months and thaw in the fridge for 2 hours before serving.',
     nut: [587, 9, 41, 43, 3, 30, 250],
-    rest: [300, 'Chilling']
+    rest: [315, 'Chilling']
   },
 
   'pork-and-sauerkraut': {

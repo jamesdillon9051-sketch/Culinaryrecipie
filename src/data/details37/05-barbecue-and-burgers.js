@@ -138,8 +138,8 @@ module.exports = {
   },
 
   'bbq-lamb': {
-    d: 'A butterflied leg of lamb marinated in garlic, rosemary and lemon, then grilled for 40 minutes and rested. Six servings in 55 minutes.',
-    meta: 'BBQ lamb: a butterflied leg of lamb marinated with garlic, rosemary and lemon and grilled for 40 minutes. Six servings in 55 minutes.',
+    d: 'A butterflied leg of lamb marinated in garlic, rosemary and lemon, then grilled for 40 minutes and rested. Six servings in 1 hour 25 minutes.',
+    meta: 'BBQ lamb: a butterflied leg of lamb marinated with garlic, rosemary and lemon and grilled for 40 minutes. Six servings in 1 hour 25 minutes.',
     kw: ['bbq lamb', 'barbecue butterflied leg of lamb', 'grilled leg of lamb', 'lamb on the barbie', 'easy bbq lamb'],
     why: 'A butterflied leg of lamb is one of the best things to put on a barbecue: boned and opened out, it is a flat piece of meat of roughly even thickness, so it cooks evenly and the surface gets plenty of char.\n\nMix the oil, garlic, rosemary, lemon and salt, and rub it in, pushing it into the cuts. A longer marinade helps, but 30 minutes is enough if you are short of time.\n\nCook it over medium heat with the lid closed if your barbecue has one. **Turn it every 10 minutes**, so the outside browns without burning, and the thick parts finish at the same time as the thin.\n\nA thermometer reads 57°C for pink and 65°C for medium. If your barbecue runs hot, check at 30 minutes. Rest for 10 minutes under foil, then slice across the grain. The carved slices are good hot with the juices spooned over, and just as good cold the next day in a salad.',
     ing: [
@@ -307,8 +307,8 @@ module.exports = {
   },
 
   'beetroot-burger': {
-    d: 'Grated beetroot, cooked brown rice and walnuts bound with egg and breadcrumbs, shaped into patties and fried for 12 minutes. Four servings in 27 minutes.',
-    meta: 'Beetroot burger: grated beetroot, cooked rice and walnuts bound with egg and fried for 12 minutes, in buns with horseradish. Four servings in 27 minutes.',
+    d: 'Grated beetroot, cooked brown rice and walnuts bound with egg and breadcrumbs, shaped into patties and fried for 12 minutes. Four servings in 42 minutes.',
+    meta: 'Beetroot burger: grated beetroot, cooked rice and walnuts bound with egg and fried for 12 minutes, in buns with horseradish. Four servings in 42 minutes.',
     kw: ['beetroot burger', 'vegetarian beetroot burger', 'beetroot and walnut burgers', 'homemade beetroot burgers', 'veggie beetroot patties'],
     why: 'It looks like a meat burger and cooks like a rissole, which is why the mixture has to be firm. Beetroot is wet, and a wet mix slides apart in the pan.\n\nSqueeze the grated beetroot hard in a clean tea towel before mixing. You should get a good handful of purple juice out. Cooked rice and breadcrumbs soak up the rest, and the egg holds it together.\n\nWalnuts, chopped small, give bite and fat. Without them the patty is soft all the way through.\n\n**Chill the shaped patties for 15 minutes** before frying, which firms them up and makes them far easier to turn. Fry over medium heat for 6 minutes a side, until the edges are dark and crisp. If your pan runs hot, check at 5 minutes. Horseradish or mustard in the bun suits the earthy sweetness. Wear gloves if you do not want pink fingers, because beetroot stains skin and work surfaces for hours.',
     ing: [

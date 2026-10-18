@@ -40,8 +40,8 @@ module.exports = {
   },
 
   'moussaka': {
-    cookMax: 112,
-    rest: [60, 'resting'],
+    cookMax: 80,
+    rest: [60, 'salting and resting'],
     d: 'Layers of roasted aubergine, spiced lamb ragù and a thick béchamel enriched with egg yolks and kefalotyri, baked until the top puffs and browns. Greece\'s great Sunday dish.',
     meta: 'Traditional Greek moussaka with roasted aubergine, cinnamon-spiced lamb and a thick, golden egg-enriched béchamel.',
     kw: ['moussaka recipe', 'greek moussaka', 'aubergine lamb bake', 'greek comfort food'],
@@ -76,11 +76,11 @@ module.exports = {
     ],
     st: [
       'Salt the aubergine slices and leave in a colander for 30 minutes, then pat dry. Brush with olive oil and roast at 220°C / 430°F for 25 minutes, turning once, until golden and collapsed.',
-      'Brush the potato slices with oil and roast for 20 minutes until tender.',
-      'Brown the lamb in the olive oil over high heat for 8 minutes, breaking it up, until well coloured. Drain off excess fat.',
+      'Brush the potato slices with oil and roast them on a second tray alongside the aubergine for 20 minutes, until tender.',
+      'While the aubergine salts and roasts, brown the lamb in the olive oil over high heat for 8 minutes, breaking it up, until well coloured. Drain off excess fat.',
       'Add the onion and cook 8 minutes, then the garlic for 2 minutes, then the tomato purée for 2 minutes more.',
       'Add the wine and reduce by half, then the tomatoes, cinnamon, allspice, bay, oregano and salt. Simmer uncovered for 30 to 35 minutes until thick and almost dry — a wet ragù makes a soggy moussaka.',
-      'For the béchamel, melt the butter, whisk in the flour and cook 2 minutes. Add the warm milk in four additions, whisking smooth, then simmer 5 minutes until very thick.',
+      'While the ragù simmers, make the béchamel: melt the butter, whisk in the flour and cook 2 minutes. Add the warm milk in four additions, whisking smooth, then simmer 5 minutes until very thick.',
       'Off the heat, whisk in the nutmeg, salt, most of the cheese, then the egg yolks one at a time.',
       'Layer in a deep 30 x 22 cm dish: potatoes, half the aubergine, all the lamb, the remaining aubergine, then the béchamel.',
       'Scatter with the remaining cheese and bake at 180°C / 355°F for 45 to 50 minutes until deeply golden and puffed.',
@@ -97,7 +97,7 @@ module.exports = {
   },
 
   'chicken-souvlaki': {
-    rest: [120, 'marinating'],
+    rest: [140, 'marinating'],
     d: 'Lemon, oregano and olive oil is all a good souvlaki marinade needs. Grill it hard so the edges char, then pile into warm pita with tzatziki, tomato and red onion.',
     meta: 'Greek chicken souvlaki with a lemon-oregano marinade and hard-charred edges. Served in pita with tzatziki.',
     kw: ['souvlaki recipe', 'greek chicken skewers', 'lemon oregano marinade', 'greek street food'],
@@ -140,7 +140,7 @@ module.exports = {
   },
 
   'gyros': {
-    rest: [360, 'marinating'],
+    rest: [375, 'marinating'],
     d: 'Marinated pork shaved off a home-built stack, wrapped in pita with tzatziki, tomato, onion and — this is not optional in Greece — a handful of chips inside the wrap.',
     meta: 'Greek pork gyros with a home-built vertical stack, wrapped in pita with tzatziki, tomato and chips.',
     kw: ['gyros recipe', 'greek pork gyros', 'homemade gyros', 'greek wrap'],
@@ -231,7 +231,7 @@ module.exports = {
   },
 
   'tzatziki': {
-    rest: [60, 'chilling'],
+    rest: [80, 'chilling'],
     d: 'Thick strained yogurt, grated cucumber squeezed dry, garlic, dill and good olive oil. Made properly it is dense enough to stand a spoon in rather than the watery stuff sold in tubs.',
     meta: 'Thick, garlicky tzatziki with strained yogurt and squeezed cucumber. The dip that never goes watery.',
     kw: ['tzatziki recipe', 'greek yogurt dip', 'cucumber garlic dip', 'low carb dip'],
@@ -394,7 +394,7 @@ module.exports = {
   },
 
   'falafel': {
-    rest: [1140, 'soaking and chilling'],
+    rest: [1155, 'soaking and chilling'],
     d: 'Made only from soaked dried chickpeas — never tinned, never cooked — so the outside shatters and the inside stays green and fluffy. This is the single most important rule in falafel.',
     meta: 'Crispy falafel from soaked dried chickpeas with a fluffy green centre. Never use tinned chickpeas — here is why.',
     kw: ['falafel recipe', 'homemade falafel', 'chickpea fritters', 'vegan street food'],
@@ -612,7 +612,7 @@ module.exports = {
   },
 
   'lamb-kofta-kebabs': {
-    rest: [60, 'chilling'],
+    rest: [80, 'chilling'],
     d: 'Spiced lamb worked until it turns sticky, moulded around skewers and grilled hard so the outside chars while the centre stays juicy. The kneading is what stops them falling off.',
     meta: 'Juicy lamb kofta kebabs with warm spices and charred edges. The kneading technique that keeps them on the skewer.',
     kw: ['lamb kofta recipe', 'kofta kebabs', 'middle eastern lamb skewers', 'grilled lamb'],
@@ -705,7 +705,6 @@ module.exports = {
   },
 
   'knafeh': {
-    rest: [120, 'soaking'],
     d: 'Shredded pastry over a layer of stretchy cheese, baked until the top is crisp and orange, then soaked in orange-blossom syrup. Served hot, so the cheese pulls when you cut it.',
     meta: 'Knafeh with crisp shredded pastry, molten stretchy cheese and orange-blossom syrup. Serve hot for the cheese pull.',
     kw: ['knafeh recipe', 'kunafa dessert', 'middle eastern cheese dessert', 'orange blossom syrup'],

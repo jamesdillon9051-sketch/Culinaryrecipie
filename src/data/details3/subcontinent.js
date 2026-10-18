@@ -110,7 +110,7 @@ module.exports = {
   },
 
   'seekh-kebab': {
-    rest: [60, 'chilling'],
+    rest: [80, 'chilling'],
     d: 'Spiced minced lamb moulded onto skewers and cooked over coals, kept juicy by fat, papaya paste and a rest in the fridge before grilling.',
     meta: 'Seekh kebab — spiced minced lamb moulded on skewers and grilled over coals until charred and juicy.',
     kw: ['seekh kebab recipe', 'lamb mince kebab', 'pakistani kebab', 'grilled minced lamb'],

@@ -10,8 +10,8 @@
 
 module.exports = {
   'lentil-burgers': {
-    d: 'Brown lentils, oats, onion and spices mashed into patties and fried for 20 minutes until crisp outside. Four servings in 35 minutes.',
-    meta: 'Lentil burgers: brown lentils, oats, onion and cumin mashed into patties and fried until crisp outside and soft within. Four servings in 35 minutes.',
+    d: 'Brown lentils, oats, onion and spices mashed into patties and fried for 20 minutes until crisp outside. Four servings in 50 minutes.',
+    meta: 'Lentil burgers: brown lentils, oats, onion and cumin mashed into patties and fried until crisp outside and soft within. Four servings in 50 minutes.',
     kw: ['lentil burgers', 'homemade lentil burgers', 'vegetarian lentil burgers', 'easy lentil burgers', 'lentil patties'],
     why: 'Lentil burgers fall apart for one reason: too much moisture. The cure is to dry the lentils before they are mashed, and to use oats to take up what is left.\n\nDrain the cooked lentils well and tip them into a dry pan for 2 minutes over medium heat, stirring, until the surface steam is gone. Mash roughly, leaving about half whole, so the patties have a bit of texture.\n\nOats bind and absorb. Add onion, garlic, cumin and a spoon of tomato puree for savour, then season well, since lentils are bland. **Chill the shaped patties for 15 minutes** to firm them up before they hit the pan.\n\nFry in oil over medium heat for 10 minutes a side, until deep brown and firm. If your pan runs hot, check at 8 minutes. Turn them only once. Serve in a bun with a sharp relish. They freeze well, so a double batch is a sensible use of one hour.',
     ing: [

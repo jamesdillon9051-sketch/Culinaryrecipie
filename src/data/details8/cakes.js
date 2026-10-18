@@ -5,7 +5,7 @@
 
 module.exports = {
   'chocolate-cake': {
-    rest: [60, 'cooling'],
+    rest: [95, 'cooling'],
     d: 'The birthday cake standard: three dark, tender layers made with cocoa bloomed in boiling coffee, under a silky chocolate buttercream. The batter is thin enough to alarm you, which is exactly what gives the crumb its moisture.',
     meta: 'A three-layer chocolate cake with cocoa bloomed in hot coffee and a silky chocolate buttercream — deeply dark, never dry.',
     kw: ['chocolate cake', 'chocolate layer cake', 'birthday chocolate cake', 'moist chocolate cake'],

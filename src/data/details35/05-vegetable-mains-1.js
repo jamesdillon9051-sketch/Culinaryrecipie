@@ -449,8 +449,8 @@ module.exports = {
   },
 
   'marrow-bake': {
-    d: 'Marrow rings baked in a tomato and onion sauce under a crisp cheese and breadcrumb topping. Four servings in 55 minutes.',
-    meta: 'Marrow bake: marrow baked in a tomato and onion sauce under a cheese and breadcrumb crust. A cheap way to use a garden marrow, four servings in 55 minutes.',
+    d: 'Marrow rings baked in a tomato and onion sauce under a crisp cheese and breadcrumb topping. Four servings in 1 hour 10 minutes.',
+    meta: 'Marrow bake: marrow baked in a tomato and onion sauce under a cheese and breadcrumb crust. A cheap way to use a garden marrow, four servings in 1 hour 10 minutes.',
     kw: ['marrow bake', 'baked marrow with cheese', 'budget marrow dinner', 'easy marrow and tomato bake', 'cheap vegetable bake'],
     why: 'Marrow is mostly water, which is why it needs help. On its own it is bland and wet; in a tomato sauce under a crisp topping it turns sweet and tender.\n\nPeel it, scoop out the seeds and cut into 2 cm chunks. The skin of a large marrow is tough and does not soften in the oven.\n\nSalt the chunks and drain them for 15 minutes. **Squeezing out the water first** is what keeps the bake from becoming a soup.\n\nThe sauce is onion, garlic and tinned tomatoes simmered for 10 minutes. It should be thick, because the marrow still gives up liquid as it bakes. The topping of cheese and crumbs gives crunch against the soft base. Marrows have a mild taste that suits strong flavours, so the tomato, garlic and cheese are not wasted. A glut from the garden is the usual reason to make a dish like this, and it uses a lot in one go.',
     ing: [

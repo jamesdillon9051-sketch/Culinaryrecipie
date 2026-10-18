@@ -124,7 +124,7 @@ module.exports = {
   },
 
   'apple-strudel': {
-    rest: [60, 'resting'],
+    rest: [90, 'resting'],
     d: 'Pastry stretched until a newspaper can be read through it, rolled around spiced apples, breadcrumbs and raisins, and baked until the layers shatter.',
     meta: 'Apple strudel — hand-stretched pastry rolled around spiced apples, raisins and buttered breadcrumbs.',
     kw: ['apple strudel recipe', 'apfelstrudel', 'austrian strudel', 'stretched strudel dough'],

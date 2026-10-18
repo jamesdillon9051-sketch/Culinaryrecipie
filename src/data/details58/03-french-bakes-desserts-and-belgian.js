@@ -141,7 +141,7 @@ module.exports = {
     ],
     pair: ['Raspberries', 'Crème fraîche', 'Espresso'],
     store: 'Keeps for 4 days in the fridge.',
-    rest: [120, 'Chilling'],
+    rest: [170, 'Chilling'],
     nut: [464, 5, 39, 32, 3, 20, 40]
   },
 

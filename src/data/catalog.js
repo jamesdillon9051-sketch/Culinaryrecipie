@@ -111,9 +111,9 @@ module.exports = [
   c('sweet-and-sour-pork', 'Sweet and Sour Pork', 'Chinese', 'Dinner', 'Medium', 25, 20, 4, 4.7, 2588, ['Dairy-Free'], [], 'Sweet and sour pork'),
   c('mapo-tofu', 'Mapo Tofu', 'Chinese', 'Dinner', 'Easy', 15, 15, 4, 4.8, 2044, ['Dairy-Free'], [], 'Mapo tofu'),
   c('general-tsos-chicken', "General Tso's Chicken", 'Chinese', 'Dinner', 'Medium', 25, 20, 4, 4.7, 2966, ['Dairy-Free'], [], 'General Tso chicken'),
-  c('beef-and-broccoli', 'Beef and Broccoli', 'Chinese', 'Quick Meals', 'Easy', 15, 12, 4, 4.7, 3120, ['Dairy-Free'], [], 'Beef and broccoli'),
+  c('beef-and-broccoli', 'Beef and Broccoli', 'Chinese', 'Dinner', 'Easy', 15, 12, 4, 4.7, 3120, ['Dairy-Free'], [], 'Beef and broccoli'),
   c('egg-fried-rice', 'Egg Fried Rice', 'Chinese', 'Quick Meals', 'Easy', 10, 10, 4, 4.8, 4188, ['Vegetarian', 'Dairy-Free'], ['trending'], 'Egg fried rice'),
-  c('chow-mein', 'Chicken Chow Mein', 'Chinese', 'Quick Meals', 'Easy', 15, 15, 4, 4.6, 2311, ['Dairy-Free'], [], 'Chow mein'),
+  c('chow-mein', 'Chicken Chow Mein', 'Chinese', 'Dinner', 'Easy', 15, 15, 4, 4.6, 2311, ['Dairy-Free'], [], 'Chow mein'),
   c('dan-dan-noodles', 'Dan Dan Noodles', 'Chinese', 'Dinner', 'Medium', 15, 15, 4, 4.8, 1622, ['Dairy-Free'], [], 'Dan dan noodles'),
   c('peking-duck', 'Peking Duck', 'Chinese', 'Holiday Specials', 'Hard', 60, 90, 6, 4.8, 1044, ['Dairy-Free'], ['editors'], 'Peking duck'),
   c('char-siu', 'Char Siu Pork', 'Chinese', 'Dinner', 'Easy', 20, 40, 6, 4.8, 1866, ['Dairy-Free'], [], 'Char siu'),
@@ -160,7 +160,7 @@ module.exports = [
 
   /* ------------------------------------------------------------ Greek (8) */
   c('greek-salad', 'Horiatiki Greek Salad', 'Greek', 'Healthy', 'Easy', 15, 0, 4, 4.8, 2966, ['Vegetarian', 'Gluten-Free'], [], 'Greek salad'),
-  c('moussaka', 'Moussaka', 'Greek', 'Dinner', 'Hard', 40, 102, 8, 4.8, 1877, [], ['editors'], 'Moussaka'),
+  c('moussaka', 'Moussaka', 'Greek', 'Dinner', 'Hard', 40, 70, 8, 4.8, 1877, [], ['editors'], 'Moussaka'),
   c('chicken-souvlaki', 'Chicken Souvlaki', 'Greek', 'Dinner', 'Easy', 20, 15, 4, 4.8, 2544, ['Gluten-Free', 'Dairy-Free'], [], 'Souvlaki'),
   c('gyros', 'Pork Gyros', 'Greek', 'Lunch', 'Medium', 25, 30, 4, 4.7, 2133, [], [], 'Gyros'),
   c('spanakopita', 'Spanakopita', 'Greek', 'Appetizers', 'Medium', 30, 45, 8, 4.7, 1466, ['Vegetarian'], [], 'Spanakopita'),

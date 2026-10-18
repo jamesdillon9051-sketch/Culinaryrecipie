@@ -273,6 +273,12 @@ function loadRecipes() {
     if (detail.cookMax !== undefined && !(Number.isInteger(detail.cookMax) && detail.cookMax >= row.cook)) {
       throw new Error(`"${row.slug}" cookMax must be a whole number of minutes, at least the row's cook time`);
     }
+    /* Stages the method requires but gives no time for ("cool completely", "chill until set"),
+       named so the page can say the total is a floor rather than pretend it is complete. */
+    if (detail.untimed !== undefined && !(Array.isArray(detail.untimed) && detail.untimed.length
+      && detail.untimed.every(u => typeof u === 'string' && /^[a-z]/.test(u) && u.length <= 60))) {
+      throw new Error(`"${row.slug}" untimed must be a list of short lower-case stage names, e.g. ['cooling completely']`);
+    }
     if (detail.rest && (detail.rest.length !== 2 || !(detail.rest[0] > 0) || !detail.rest[1])) {
       throw new Error(`"${row.slug}" rest must be [minutes, label]`);
     }
@@ -290,6 +296,9 @@ function loadRecipes() {
     if (row.category === 'Quick Meals' && row.prep + row.cook + wait.min > QUICK_MEAL_MINUTES) {
       throw new Error(`"${row.slug}" is filed under Quick Meals but takes ${row.prep + row.cook + wait.min} `
         + `minutes start to finish, waiting included, over the ${QUICK_MEAL_MINUTES} the category promises`);
+    }
+    if (row.category === 'Quick Meals' && detail.untimed) {
+      throw new Error(`"${row.slug}" is filed under Quick Meals but needs time for ${detail.untimed.join(', ')} that the recipe does not give, so it cannot promise ${QUICK_MEAL_MINUTES} minutes`);
     }
 
     const image = validateImage(images[row.slug] || {}, row.slug);
@@ -329,7 +338,11 @@ function loadRecipes() {
          `rest` equal to the floor. */
       restTime: wait.min,
       restMax: wait.max,
-      restLabel: wait.min ? (detail.rest ? detail.rest[1] : waitLabel(detail)) : '',
+      restLabel: wait.max ? (detail.rest ? detail.rest[1] : waitLabel(detail)) : '',
+      /* A wait only some cooks need ("if the rice cakes are frozen, soak them") widens the range
+         without raising the floor. */
+      restConditional: !wait.min && wait.max > 0,
+      untimed: detail.untimed || null,
       /* Start to finish, waiting included. This is the time everything that
          promises speed reads — the card, the filters, the title, the search
          phrases and the Recipe JSON-LD's totalTime (the floor) — because a
@@ -532,6 +545,8 @@ function searchIndex(recipes) {
        thirty-minute dinners. */
     m: r.elapsedTime,
     x: r.elapsedMax > r.elapsedTime ? r.elapsedMax : undefined,
+    /* 1 where the method needs time it does not give: the times are a floor. */
+    u: r.untimed ? 1 : undefined,
     p: r.prep,
     o: r.cook,
     v: r.servings,

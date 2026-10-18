@@ -48,7 +48,7 @@ module.exports = {
   'dal-makhani': {
     cookMax: 220,
     rest: [480, 'soaking'],
-    d: 'Black urad lentils and kidney beans simmered overnight, then finished with butter and cream until the dal is almost black and thick enough to stand a spoon in. Punjabi restaurant cooking at its richest.',
+    d: 'Black urad lentils and kidney beans soaked overnight, simmered for hours, then finished with butter and cream until the dal is almost black and thick enough to stand a spoon in. Punjabi restaurant cooking at its richest.',
     meta: 'Dal makhani — black urad lentils simmered for hours and finished with butter and cream until thick and dark.',
     kw: ['dal makhani recipe', 'black dal', 'punjabi dal', 'creamy lentil curry'],
     why: 'The long, slow simmer is not about cooking the lentils through — that happens in an hour — but about breaking their starch down until it thickens the dal on its own, which is why restaurant versions cook overnight. Butter added in stages emulsifies into the starch rather than sitting on top.',
@@ -76,15 +76,15 @@ module.exports = {
       'Soak the urad dal and kidney beans together overnight in plenty of cold water.',
       'Drain, cover with fresh water by 5 cm, and simmer 90 minutes, or pressure cook 30 minutes, until completely soft. Do not drain — keep the cooking liquid.',
       'Mash about a quarter of the lentils against the side of the pot with a spoon.',
-      'In a separate heavy pan, heat the ghee and fry the cumin seeds, black cardamom and cinnamon for 30 seconds.',
-      'Add the onions and fry 12 minutes until deep golden, then the ginger-garlic paste for 2 minutes.',
+      'While the lentils simmer, heat the ghee in a separate heavy pan and fry the cumin seeds, black cardamom and cinnamon for 30 seconds.',
+      'Add the onions and fry 12 minutes until deep golden, then the ginger-garlic paste and slit green chillies for 2 minutes.',
       'Add the chilli powder and ground cumin, stir 20 seconds, then the tomato purée. Cook 12 minutes until the ghee separates.',
       'Tip in the lentils with all their liquid and the salt, and add water to a loose, soupy consistency.',
       'Simmer uncovered on the lowest heat for 90 minutes to 2 hours, stirring every 10 minutes. Add the butter 25 g at a time across that period.',
       'Stir in the cream, garam masala and crushed kasuri methi, simmer 10 minutes more, and finish with the last of the butter melted on top.'
     ],
     tips: [
-      'Two hours of slow simmering after the lentils are cooked. That is the whole difference from an ordinary dal.',
+      'Ninety minutes to two hours of slow simmering after the lentils are cooked. That is the whole difference from an ordinary dal.',
       'Add the butter in stages. All at once and it floats rather than emulsifying.',
       'Kasuri methi crushed between the palms at the end is what makes it taste like a restaurant.'
     ],
@@ -94,7 +94,7 @@ module.exports = {
   },
 
   'hyderabadi-biryani': {
-    rest: [270, 'marinating and soaking'],
+    rest: [285, 'marinating and soaking'],
     d: 'Marinated raw lamb layered under half-cooked rice and sealed with dough, so the meat and rice cook together in trapped steam. The kachchi method, and the seal is what makes it work.',
     meta: 'Hyderabadi kachchi biryani — raw marinated lamb layered under par-cooked rice and sealed for dum cooking.',
     kw: ['hyderabadi biryani recipe', 'kachchi biryani', 'lamb biryani', 'dum biryani'],
@@ -243,7 +243,7 @@ module.exports = {
   },
 
   'misal-pav': {
-    rest: [720, 'fermenting'],
+    rest: [1200, 'fermenting'],
     d: 'Sprouted moth beans in a thin, fiery gravy, topped with farsan, raw onion and coriander, with a slick of red rassa oil floating on top and soft pav to mop it up.',
     meta: 'Misal pav — Maharashtrian sprouted bean curry with crunchy farsan, raw onion and soft pav rolls.',
     kw: ['misal pav recipe', 'maharashtrian misal', 'sprouted moth bean curry', 'kolhapuri misal'],
@@ -299,7 +299,7 @@ module.exports = {
   },
 
   'naan': {
-    rest: [90, 'proving'],
+    rest: [105, 'proving'],
     d: 'A yoghurt-enriched flatbread slapped onto the wall of a tandoor, or in a home kitchen onto the underside of the hottest pan you own. Charred, blistered and brushed with garlic butter.',
     meta: 'Garlic naan — yoghurt-enriched flatbread cooked in a screaming pan until charred and blistered, with garlic butter.',
     kw: ['naan recipe', 'garlic naan', 'homemade naan bread', 'tandoori bread'],

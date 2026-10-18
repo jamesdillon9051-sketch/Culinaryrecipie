@@ -11,7 +11,7 @@
 module.exports = {
   'chilaquiles-rojos': {
     d: 'Crisp tortilla wedges tossed in a red salsa of guajillo chillies and tomatoes, topped with fried eggs, crema, queso fresco and red onion. The red version of the Mexican breakfast.',
-    meta: 'Chilaquiles rojos: crisp tortilla wedges tossed in a guajillo and tomato salsa, topped with fried eggs, crema, queso fresco and onion. Ready in 50 minutes.',
+    meta: 'Chilaquiles rojos: crisp tortilla wedges tossed in a guajillo and tomato salsa, topped with fried eggs, crema, queso fresco and onion. Ready in about 65 minutes.',
     kw: ['chilaquiles rojos', 'red chilaquiles', 'chilaquiles rojos recipe', 'chilaquiles with red salsa', 'how to make chilaquiles rojos'],
     why: 'Chilaquiles are a Mexican breakfast built from stale tortillas: corn tortilla wedges are fried until crisp, folded through a hot salsa for a moment so that the edges soften and the middles keep a bite, and finished with eggs, cream, cheese and onion. The rojos are the red version. Where the green kind is sharp and bright with tomatillos, this one is deeper and a little sweet, made with dried guajillo and ancho chillies and ripe tomatoes, and the chillies are toasted and soaked before they are blended. The salsa is then fried in a little oil, which cooks out its raw taste and darkens the colour. The chips go in last, and the plate goes to the table at once, because chilaquiles are the best in the first few minutes and turn to a soft mash if they stand. Shredded chicken is a common addition, and the eggs can be scrambled or left runny.',
     ing: [

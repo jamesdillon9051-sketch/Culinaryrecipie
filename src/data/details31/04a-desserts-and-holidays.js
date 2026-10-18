@@ -41,7 +41,7 @@ module.exports = {
     pair: ['Fresh strawberries', 'Iced tea', 'Barbecued chicken'],
     store: 'Keeps covered in the fridge for up to 3 days, but the crust softens over time, so it is best on the first day. Do not freeze.',
     nut: [347, 3, 32, 23, 1, 21, 310],
-    rest: [240, 'Chilling']
+    rest: [260, 'Chilling']
   },
 
   'dirt-cake': {

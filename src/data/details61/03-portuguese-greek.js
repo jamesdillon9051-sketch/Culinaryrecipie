@@ -802,7 +802,7 @@ module.exports = {
     ],
     pair: ['Feta', 'Greek coffee', 'Olives'],
     store: 'Best the day they are made. Freeze for 1 month.',
-    rest: [60, 'Rising'],
+    rest: [75, 'Rising'],
     nut: [400, 11, 53, 16, 5, 12, 810]
   },
 

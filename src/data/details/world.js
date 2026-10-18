@@ -2,7 +2,7 @@
 
 module.exports = {
   'feijoada': {
-    rest: [720, 'soaking'],
+    rest: [740, 'soaking'],
     d: 'Brazil\'s national dish: black beans slow-cooked with an armoury of smoked and salted pork, served with rice, collard greens, orange and toasted cassava flour. A whole-afternoon, whole-table affair.',
     meta: 'Brazilian feijoada with black beans and smoked pork, served with rice, collards, orange and farofa. A weekend feast.',
     kw: ['feijoada recipe', 'brazilian black bean stew', 'pork and beans', 'brazilian food'],
@@ -143,6 +143,7 @@ module.exports = {
   },
 
   'jerk-chicken': {
+    rest: [720, 'marinating'],
     d: 'Chicken marinated overnight in scotch bonnet, allspice and thyme, then cooked slowly over indirect heat until the skin is lacquered and the smoke has worked its way through.',
     meta: 'Jamaican jerk chicken with scotch bonnet, allspice and thyme, slow-cooked over indirect heat for smoky lacquered skin.',
     kw: ['jerk chicken recipe', 'jamaican jerk marinade', 'scotch bonnet chicken', 'caribbean bbq'],

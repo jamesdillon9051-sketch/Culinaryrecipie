@@ -294,7 +294,7 @@ module.exports = {
 
   'hortobagyi-palacsinta': {
     d: 'Thin pancakes filled with paprika veal or chicken stew and covered in a creamy paprika sauce, baked for 20 minutes.',
-    meta: 'Hortobágyi palacsinta, Hungarian pancakes filled with paprika meat in a cream sauce, baked for 20 minutes. Six servings, ready in 50 minutes.',
+    meta: 'Hortobágyi palacsinta, Hungarian pancakes filled with paprika meat in a cream sauce, baked for 20 minutes. Six servings, ready in 1 hour 5 minutes.',
     kw: ['hortobagyi palacsinta', 'hungarian meat filled pancakes', 'hortobagy pancakes with paprika sauce', 'savoury hungarian pancakes', 'hortobagyi palacsinta recipe'],
     why: 'Compare these with sweet pancakes and you find the same wrappers hiding a rich meat filling under a red paprika cream sauce. Hortobágyi palacsinta, named for the Hortobágy plain in eastern Hungary, is a savoury dish served at the start or end of the meal, and it is a way of using leftover stew.\n\nMake thin pancakes from flour, eggs, milk and a pinch of salt, and cook about 12 of them in a lightly oiled pan. For the filling, simmer chicken or veal with onion, paprika and stock until tender, then shred it and mix with a spoonful of its sauce. **Make the filling quite thick**, so it holds in the pancake and does not soak through. Add a little soured cream for richness.\n\nPut a spoonful of the filling in each pancake and roll it up. Lay the rolls side by side in a dish. For the sauce, whisk soured cream and a little paprika into the cooking liquid and simmer for 3 minutes. Pour over the pancakes and bake at 190C for 20 minutes, until bubbling and lightly browned. Serve hot, with a scatter of parsley and a spoonful of extra soured cream.',
     ing: [
@@ -758,7 +758,7 @@ module.exports = {
 
   'kebapche': {
     d: 'Bulgarian finger shaped grilled sausages of minced pork and beef seasoned with cumin and salt, cooked for 15 minutes.',
-    meta: 'Kebapche, Bulgarian grilled sausages of minced pork and beef with cumin, cooked for 15 minutes. Four servings, ready in 30 minutes.',
+    meta: 'Kebapche, Bulgarian grilled sausages of minced pork and beef with cumin, cooked for 15 minutes. Four servings, ready in 1 hour.',
     kw: ['kebapche', 'bulgarian grilled minced meat sausages', 'kebapche recipe', 'bulgarian kebab sausages', 'cumin minced meat grill'],
     why: 'Ground meat, cumin, salt: that is all the seasoning, and the finish is a grill and a pinch of patience. Kebapche is the Bulgarian grilled meat finger, one of the national dishes of grill houses and festivals, and the lack of spices is what lets the flavour of the meat show. They are not sausages and have no casing.\n\nMix minced pork and beef in a ratio of about 2 to 1, with a good proportion of fat, since lean meat comes out dry. Add salt, black pepper, cumin, a little sparkling water and baking soda. **Knead the mixture for 5 minutes and chill it for 30 minutes**, because the kneading binds the mince and the chilling makes it easier to shape. With wet hands, roll into fingers about 10 cm long and 3 cm thick.\n\nGrill over a medium high heat, or on a ridged pan, for 12 to 15 minutes, turning, until browned and cooked through. Serve with fries, a grilled pepper, sliced onion and a pinch of savory or cumin, and a bowl of lyutenitsa. They are best eaten as they come off the grill, with a glass of cold beer.',
     ing: [

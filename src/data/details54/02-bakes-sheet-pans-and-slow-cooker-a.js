@@ -52,7 +52,7 @@ module.exports = {
 
   'sausage-egg-bake': {
     d: 'Sausage, bread cubes, cheddar and eggs soaked in milk and baked for 35 minutes until puffed and golden, a make-ahead brunch for six.',
-    meta: 'Sausage egg bake with bread, cheddar and a mustard custard, baked for 35 minutes. Six servings, ready in 50 minutes.',
+    meta: 'Sausage egg bake with bread, cheddar and a mustard custard, baked for 35 minutes. Six servings, ready in 1 hour 20 minutes.',
     kw: ['sausage egg bake', 'sausage and egg breakfast casserole', 'make ahead breakfast bake', 'egg and sausage casserole', 'brunch egg bake'],
     why: 'Sausage and eggs have been breakfast partners in British and American kitchens for as long as either has had breakfast, and a bake is the way to feed a table of six without standing at the stove. Everything is assembled the night before, left to soak, and baked while you pour the coffee.\n\nThe structure is bread, sausage, cheese and an egg custard. Use day-old bread cut into 2 cm cubes, which holds its shape and soaks up the custard without turning to paste. Fresh bread collapses. Brown the sausage meat first, crumbling it into small pieces, and drain off any excess fat before layering.\n\n**Let it sit for at least 30 minutes before baking.** The bread needs time to absorb the custard, and in an overnight rest in the fridge it drinks in nearly all of it, giving a bake that is soft and set all the way through instead of eggy at the bottom.\n\nA spoonful of English mustard in the custard cuts through the richness of the cheese and sausage without tasting hot. Bake until puffed, golden at the edges and just firm in the middle, and rest for 5 minutes before cutting. Squares reheat well in the microwave.',
     ing: [
@@ -400,7 +400,7 @@ module.exports = {
 
   'sheet-pan-lemon-chicken': {
     d: 'Chicken thighs, lemon slices, red onion and baby potatoes roasted on one tray with oregano and garlic until crisp and golden.',
-    meta: 'Sheet pan lemon chicken with potatoes, onion and oregano, roasted for 35 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Sheet pan lemon chicken with potatoes, onion and oregano, roasted for 35 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['sheet pan lemon chicken', 'lemon chicken tray bake', 'greek style lemon chicken and potatoes', 'lemon oregano chicken', 'roast lemon chicken thighs'],
     why: 'This is what to make in late spring, when the evenings are long enough to eat at the table and the oven is the only thing you want to switch on. Lemon, garlic and oregano is the flavour of Greek roast chicken, and on a single tray it makes a dinner with almost no washing up.\n\nThe lemon plays two roles. The juice goes into the marinade, where it tenderises the chicken and carries the garlic and oregano into the meat. The sliced lemon goes on the tray, where it caramelises at the edges, softens and turns sweet. A roasted slice can be squeezed over everything at the table for a mellower flavour than raw juice.\n\n**Marinate for at least 30 minutes.** The acid does its work quickly on thigh meat, and a longer soak of up to 4 hours gives deeper flavour. Leave it longer, though, and the surface of the meat begins to go soft.\n\nRoast the chicken skin side up, with the potatoes and red onion wedges around it, so the fat renders over the vegetables. Turn the vegetables once halfway. The finished tray should have crisp chicken skin, golden potatoes and soft, sticky lemon.',
     ing: [
@@ -536,7 +536,7 @@ module.exports = {
 
   'sheet-pan-steak-and-vegetables': {
     d: 'Sirloin steak strips roasted on a tray with broccoli, peppers and red onion at 230C for 20 minutes with garlic and soy.',
-    meta: 'Sheet pan steak and vegetables with garlic and soy, roasted for 20 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Sheet pan steak and vegetables with garlic and soy, roasted for 20 minutes. Four servings, ready in 50 minutes.',
     kw: ['sheet pan steak and vegetables', 'steak and broccoli tray bake', 'roasted steak bites with vegetables', 'garlic soy steak sheet pan', 'one tray steak dinner'],
     why: 'Hot oven, hot tray. Those four words are the whole recipe, because steak and vegetables only brown properly if the tray is already searing when they go on. A cold tray steams them and gives you grey meat and limp broccoli.\n\nCut the sirloin into 3 cm cubes. Small pieces cook in a few minutes, so the steak and the vegetables finish together, and every cube gets a browned crust. Toss the beef with soy sauce, garlic, a spoonful of olive oil and black pepper, and leave it for 15 minutes while the oven heats.\n\n**Add the steak for the last 8 minutes only.** Broccoli florets, pepper chunks and red onion wedges go on the tray first and roast for 12 minutes. Then the beef is scattered over and everything returns to the oven. The steak cooks to medium in 8 minutes and stays tender.\n\nA squeeze of lime and a drizzle of honey and sesame oil over the finished tray add a glaze that clings to the vegetables. Serve with rice, or straight from the tray with chopsticks or a fork.',
     ing: [

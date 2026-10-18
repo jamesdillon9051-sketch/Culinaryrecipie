@@ -79,7 +79,7 @@ module.exports = {
     pair: ['Hot chocolate', 'Maple butter', 'Chocolate hazelnut spread'],
     store: 'Best eaten within minutes of frying. They keep in an airtight container for a day but turn chewy and are best reheated in a 180°C oven for 5 minutes. The dough can be shaped and frozen for 1 month.',
     nut: [387, 8, 55, 15, 3, 18, 290],
-    rest: [60, 'Rising']
+    rest: [75, 'Rising']
   },
 
   'cherry-ripe-slice': {

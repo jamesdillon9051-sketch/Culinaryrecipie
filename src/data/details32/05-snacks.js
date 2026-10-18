@@ -181,8 +181,8 @@ module.exports = {
   },
 
   'greek-yogurt-ranch-dip': {
-    d: 'A thick, tangy ranch-style dip made from plain Greek yogurt, garlic, dill, chives and parsley. Eight servings in 10 minutes.',
-    meta: 'Greek yogurt ranch dip: plain Greek yogurt, garlic, fresh dill, chives and parsley stirred together with no added sugar. Eight servings in 10 minutes.',
+    d: 'A thick, tangy ranch-style dip made from plain Greek yogurt, garlic, dill, chives and parsley. Eight servings in 40 minutes, chilling included.',
+    meta: 'Greek yogurt ranch dip: plain Greek yogurt, garlic, fresh dill, chives and parsley stirred together with no added sugar. Eight servings in 40 minutes, chilling included.',
     kw: ['greek yogurt ranch dip', 'gluten free ranch dip', 'vegetarian ranch dip with fresh herbs', 'easy greek yogurt ranch dressing'],
     why: 'Make it ahead. Ranch tastes flat when it is stirred together and eaten at once, and rounder after 30 minutes in the fridge, once the garlic and herbs have worked into the yogurt. Use the time to chop the vegetables for dipping.\n\nGreek yogurt gives the body and tang that buttermilk and mayonnaise usually supply, with far less fat and no added sugar. **Use plain, unsweetened yogurt**: a flavoured one ruins it. Thin it with milk. Add a spoonful at a time until it is as thick or loose as you like; a thick version suits vegetable sticks and a thinner one suits a salad.\n\nFresh herbs make it taste like ranch; dried ones only get you close. Serve with raw vegetables such as celery, cucumber, bell pepper and radish. Keep it covered in the fridge. It thickens as it stands. A spoonful is also good stirred into a salad as a dressing. Taste before serving and add salt in small pinches.',
     ing: [

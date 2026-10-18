@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/appetizers/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/quick-meals/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -675,7 +675,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/appetizers/american/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -764,6 +764,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://weeklydelight.com/categories/appetizers/argentinian/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://weeklydelight.com/categories/appetizers/indonesian/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -772,12 +778,6 @@
   <url>
     <loc>https://weeklydelight.com/categories/appetizers/peruvian/</loc>
     <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://weeklydelight.com/categories/appetizers/argentinian/</loc>
-    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1137,7 +1137,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/british/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1149,13 +1149,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/french/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/chinese/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1185,7 +1185,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/japanese/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1257,7 +1257,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/dinner/thai/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1773,7 +1773,7 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/quick-meals/american/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1785,13 +1785,13 @@
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/quick-meals/chinese/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/quick-meals/british/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1802,20 +1802,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/categories/quick-meals/japanese/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <loc>https://weeklydelight.com/categories/quick-meals/thai/</loc>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://weeklydelight.com/categories/quick-meals/thai/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://weeklydelight.com/categories/quick-meals/japanese/</loc>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://weeklydelight.com/categories/quick-meals/french/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

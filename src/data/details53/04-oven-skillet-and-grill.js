@@ -539,7 +539,7 @@ module.exports = {
 
   'dak-galbi': {
     d: 'Chicken thighs stir-fried in a gochujang sauce with cabbage, sweet potato and rice cakes in one pan until sticky and red.',
-    meta: 'Dak galbi: Korean spicy chicken with cabbage and sweet potato, stir-fried for 15 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Dak galbi: Korean spicy chicken with cabbage and sweet potato, stir-fried for 15 minutes. Four servings, ready in 55 minutes.',
     kw: ['dak galbi', 'korean spicy chicken stir fry', 'gochujang chicken', 'korean chicken and cabbage', 'chuncheon dak galbi'],
     why: 'Dak galbi is a dish from the city of Chuncheon in South Korea, and it is traditionally cooked at the table in a large flat pan, with everyone eating straight from it. The base is chicken, cabbage and sweet potato, coated in a red sauce that is spicy, sweet and deeply savoury.\n\nThe sauce is built on gochujang, the Korean fermented chilli paste, with soy sauce, garlic, ginger, a little sugar and a spoon of gochugaru, the coarse chilli flakes. It is sticky and dark red. Marinate the chicken in half of it for at least 20 minutes, which seasons the meat and tenderises it.\n\n**Cook the sweet potato first.** Sliced into thin rounds, it needs a few minutes of head start in the pan before the cabbage and chicken, or it will stay hard in the middle. The starch from it also thickens the sauce.\n\nStir-fry on a high heat, tossing often so the sauce caramelises without scorching. When the chicken is cooked through and the cabbage has wilted, add the rest of the sauce and the sliced spring onions. Finish with sesame seeds, and serve with rice and lettuce leaves for wrapping.',
     ing: [
@@ -777,7 +777,7 @@ module.exports = {
 
   'grilled-chicken-sandwich': {
     d: 'Marinated chicken breast grilled for about 6 minutes a side, then served in a toasted bun with lettuce, tomato and a garlic mayonnaise.',
-    meta: 'Grilled chicken sandwich with a lemon marinade, garlic mayo and toasted bun. Four servings, ready in 27 minutes.',
+    meta: 'Grilled chicken sandwich with a lemon marinade, garlic mayo and toasted bun. Four servings, ready in 57 minutes.',
     kw: ['grilled chicken sandwich', 'grilled chicken burger', 'chicken breast sandwich', 'lemon herb grilled chicken sandwich', 'chicken sandwich recipe'],
     why: 'The smell is the first sign: lemon, garlic and thyme hitting a hot grill. A grilled chicken sandwich should be juicy and a little charred, not the dry, grey slab that many versions turn out. Most of the work happens before the chicken meets the heat.\n\nA chicken breast is thick at one end and thin at the other, which means the thin end overcooks long before the thick end is done. Slice each breast in half horizontally into two thin cutlets, or pound the thick end flat with a rolling pin until the whole piece is an even 1.5 cm. Thin, even cutlets cook in about 6 minutes a side.\n\n**Marinate for at least 30 minutes.** A mix of lemon juice, olive oil, garlic and thyme tenderises the surface and flavours the meat. Do not leave it longer than 4 hours, because the acid starts to turn the outer layer mushy.\n\nGrill over a medium-high heat and avoid pressing down, which squeezes out the juices. The cutlets are done at 74C. Toast the cut sides of the buns on the grill for a minute, spread with garlic mayonnaise, and build the sandwich with lettuce and tomato.',
     ing: [

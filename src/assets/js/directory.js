@@ -97,7 +97,7 @@
         '<div class="card-foot">' + stars(r.r) +
           '<span class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true">' +
           '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>' +
-          esc(cardTime(r.m, r.x)) + ' <i>&middot;</i> ' + esc(r.d) + '</span>' +
+          esc(cardTime(r.m, r.x) + (r.u ? '+' : '')) + ' <i>&middot;</i> ' + esc(r.d) + '</span>' +
         '</div>' +
       '</div></article>';
   }
@@ -124,7 +124,8 @@
     if (state.category.length && state.category.indexOf(r.n) === -1) return false;
     if (state.cuisine.length && state.cuisine.indexOf(r.c) === -1) return false;
     if (state.difficulty.length && state.difficulty.indexOf(r.d) === -1) return false;
-    if (state.time && r.m > state.time) return false;
+    /* A recipe whose method needs time it does not give cannot promise to fit under a limit. */
+    if (state.time && (r.m > state.time || r.u)) return false;
     if (state.tag.length) {
       for (var i = 0; i < state.tag.length; i++) {
         if (r.f.indexOf(state.tag[i]) === -1 && !(state.swaps && r.h && r.h.indexOf(state.tag[i]) !== -1)) return false;

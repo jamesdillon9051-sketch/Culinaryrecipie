@@ -197,6 +197,7 @@ module.exports = {
   },
 
   'sorrel-drink': {
+    rest: [720, 'chilling'],
     d: 'Trinidadian Christmas in a glass: dried sorrel steeped with ginger, clove and orange peel, sweetened and usually spiked with rum.',
     meta: 'Sorrel drink — the Trinidadian Christmas hibiscus drink with ginger, clove and rum.',
     kw: ['sorrel drink recipe', 'trinidad sorrel', 'caribbean christmas drink', 'hibiscus rum drink'],
@@ -234,7 +235,7 @@ module.exports = {
   },
 
   'sobolo': {
-    rest: [180, 'steeping'],
+    rest: [200, 'steeping'],
     d: 'The Ghanaian hibiscus drink, steeped with pineapple skin, ginger and cloves and drunk cold from a bottle on any hot afternoon.',
     meta: 'Sobolo — the Ghanaian hibiscus drink with pineapple, ginger and cloves, served cold.',
     kw: ['sobolo recipe', 'ghana hibiscus drink', 'bissap', 'zobo drink'],
@@ -270,7 +271,7 @@ module.exports = {
   },
 
   'kvass': {
-    rest: [2640, 'fermenting'],
+    rest: [2655, 'fermenting'],
     d: 'Rye bread, water, sugar and yeast left to work for two days into a dark, faintly sour, barely alcoholic drink that Ukrainians have made from stale loaves for centuries.',
     meta: 'Bread kvass — the Ukrainian fermented rye drink, dark, faintly sour and lightly fizzy.',
     kw: ['kvass recipe', 'bread kvass', 'ukrainian fermented drink', 'rye drink'],

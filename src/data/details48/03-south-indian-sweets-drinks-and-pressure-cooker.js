@@ -385,7 +385,7 @@ module.exports = {
 
   'sol-kadhi': {
     d: 'A pink, cooling drink of coconut milk infused with dried kokum, garlic, green chilli and coriander, served chilled.',
-    meta: 'Sol kadhi: a pink, cooling coconut milk drink infused with kokum, garlic and green chilli. Four servings, ready in 15 minutes.',
+    meta: 'Sol kadhi: a pink, cooling coconut milk drink infused with kokum, garlic and green chilli. Four servings, ready in 45 minutes.',
     kw: ['sol kadhi', 'sol kadhi recipe', 'kokum coconut milk drink', 'konkani sol kadhi', 'coconut kokum digestive drink'],
     why: 'Soak the kokum first. Dried kokum is a sour, dark purple rind, and when it steeps in warm water for 10 minutes it gives up its colour and tang, turning the water a deep pink-purple that becomes the base of the drink.\n\nSol kadhi comes from the Konkan coast and is served with a seafood and rice meal. The sourness of the kokum, the richness of the coconut milk and the sharpness of raw garlic work together, and the drink cools the mouth after spicy food.\n\nUse fresh coconut milk if you can, or a good tinned one. **Do not boil the finished kadhi.** Coconut milk splits when it is heated hard, and the kokum loses its fresh colour. Everything here is mixed cold.\n\nBlend the coconut milk with the garlic, green chilli and cumin, then stir in the kokum water, salt and a pinch of sugar. Taste and adjust: it should be sour, mild and slightly sweet. Chill and serve in small glasses, with fresh coriander on top.',
     ing: [

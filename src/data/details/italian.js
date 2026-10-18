@@ -19,7 +19,7 @@
 
 module.exports = {
   'margherita-pizza': {
-    rest: [1560, 'chilling'],
+    rest: [1580, 'chilling'],
     d: 'The Neapolitan original: a blistered, cloud-edged crust under nothing more than San Marzano tomatoes, milky fior di latte and torn basil. This Margherita pizza recipe coaxes pizzeria char out of a standard home oven using a screaming-hot steel and a slow, cold-fermented dough.',
     meta: 'Authentic Margherita pizza with a blistered 24-hour dough, San Marzano sauce and fior di latte — pizzeria results from a home oven.',
     kw: ['margherita pizza recipe', 'neapolitan pizza dough', 'homemade pizza', 'san marzano pizza sauce'],
@@ -500,7 +500,7 @@ module.exports = {
 
   'bruschetta': {
     d: 'Charred bread rubbed hard with raw garlic, doused in olive oil, and piled with tomatoes that have been salted just long enough to concentrate. The Italian original is a lesson in how few ingredients a great appetiser needs.',
-    meta: 'Authentic tomato bruschetta with garlic-rubbed grilled bread and salted tomatoes. The classic Italian appetiser in 20 minutes.',
+    meta: 'Authentic tomato bruschetta with garlic-rubbed grilled bread and salted tomatoes. The classic Italian appetiser in about 35 minutes.',
     kw: ['bruschetta recipe', 'tomato bruschetta', 'italian appetizer', 'garlic bread topping'],
     why: 'Salting diced tomatoes and draining them for 15 minutes pulls out watery liquid that would otherwise turn the toast to mush, while concentrating the sugars and acids left behind. The bread must be grilled hard enough to form a rough, abrasive surface — that texture is what shreds the raw garlic clove into the crust.',
     ing: [
@@ -650,7 +650,7 @@ module.exports = {
   },
 
   'panna-cotta': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'A vanilla panna cotta set at the exact edge of collapse, so it wobbles under a spoon and melts on the tongue. Five ingredients, fifteen minutes of work, and the most elegant thing you can put in front of guests.',
     meta: 'Silky vanilla panna cotta with the perfect wobble: a five-ingredient Italian dessert, 20 minutes of work and at least 4 hours in the fridge.',
     kw: ['panna cotta recipe', 'vanilla panna cotta', 'italian dessert', 'gluten free dessert'],

@@ -460,7 +460,7 @@ module.exports = {
 
   'mustikkapiirakka': {
     d: 'A Finnish blueberry pie of a soft shortcrust base and a thick layer of fresh or frozen blueberries under a vanilla custard topping.',
-    meta: 'Mustikkapiirakka, Finnish blueberry pie with custard topping, baked for 35 minutes at 200C. Eight servings, ready in 50 minutes.',
+    meta: 'Mustikkapiirakka, Finnish blueberry pie with custard topping, baked for 35 minutes at 200C. Eight servings, ready in 1 hour 5 minutes.',
     kw: ['mustikkapiirakka', 'finnish blueberry pie', 'blueberry pie with custard topping', 'mustikkapiirakka recipe', 'finnish summer berry pie'],
     why: 'Finland is the land of blueberries, and this is the pie where they are the star, picked by the bucket in the forest in July and August and eaten warm with vanilla ice cream. Mustikkapiirakka is the simplest of the berry pies: a soft, short base, a heap of berries and a thin custard poured over before baking.\n\nThe base is flour, butter, sugar and an egg yolk, pressed into the tin without rolling. Bake it blind for 10 minutes to set it. Toss the blueberries with a spoonful of potato starch, which keeps their juice from soaking the pastry, and pile them in a thick layer. **Use blueberries straight from frozen**, not defrosted, because defrosted ones release juice and make the pie soggy.\n\nWhisk the custard from egg, sugar, soured cream and a little vanilla and pour it over the berries. Bake at 200C for 35 minutes, until the custard is set and golden at the edges. Cool for 15 minutes. Serve warm or cold, with a dollop of whipped cream or vanilla ice cream. The pie keeps for 2 days in the fridge and can also be made with bilberries.',
     ing: [
@@ -735,7 +735,7 @@ module.exports = {
     ],
     pair: ['Sima', 'Coffee', 'Hot chocolate'],
     store: 'Best the day they are made.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [245, 5, 36, 9, 1, 12, 160]
   },
 
@@ -837,7 +837,7 @@ module.exports = {
     ],
     pair: ['Irish coffee', 'Tea', 'Raspberries'],
     store: 'Keeps for 3 days in the fridge. Freeze for 1 month.',
-    rest: [360, 'Chilling'],
+    rest: [380, 'Chilling'],
     nut: [583, 6, 34, 47, 1, 23, 270]
   },
 

@@ -576,7 +576,7 @@ module.exports = {
     pair: ['Flatbread', 'Other meze', 'Rakı'],
     store: 'Keeps 4 days refrigerated and improves. Bring back to room temperature.',
     nut: [325, 5, 22, 25, 7, 13, 890],
-    rest: [60, 'cooling to room temperature']
+    rest: [80, 'cooling to room temperature']
   },
 
   'turkish-pilav': {

@@ -612,7 +612,7 @@ module.exports = {
       'Split each warm roll along one side without cutting through, and spread the inside with harissa.',
       'Pack in the crushed potato, tuna, egg slices, olives, capers and preserved lemon, and eat immediately.'
     ],
-    rest: [60, 'proving the dough'],
+    rest: [75, 'proving the dough'],
     tips: [
       'Moderate oil. Hot oil leaves the middle raw.',
       'Split them warm — cold rolls will not open.',

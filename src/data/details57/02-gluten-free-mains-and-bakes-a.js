@@ -180,7 +180,7 @@ module.exports = {
 
   'gluten-free-fried-chicken': {
     d: 'Boneless chicken thighs soaked in buttermilk and coated in a seasoned gluten-free flour crust, shallow fried for 25 minutes.',
-    meta: 'Gluten-free fried chicken in a buttermilk and seasoned flour crust, cooked for 25 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Gluten-free fried chicken in a buttermilk and seasoned flour crust, cooked for 25 minutes. Four servings, ready in 1 hour.',
     kw: ['gluten free fried chicken', 'buttermilk fried chicken without wheat', 'crispy gluten free chicken thighs', 'gluten free southern fried chicken', 'shallow fried chicken thighs'],
     why: 'It looks like a battered chicken and cooks like a roast, which is why the oil has to be hotter than you expect and the chicken has to be given room. Fried chicken is a simple method: a soak, a dredge and hot oil. Gluten-free flour does the dredging well, as long as it is seasoned properly.\n\nThe buttermilk does two jobs. Its acidity makes the meat tender, and its thickness gives the flour something to cling to. Leave the chicken in it for at least 15 minutes. Shake off the excess before dredging so the coating is thin and crisp rather than thick and pasty. A little cornflour in the blend improves the crunch.\n\n**Fry in batches and keep the oil near 170C.** Too hot and the crust burns before the chicken cooks; too cool and it soaks up oil. Thighs are forgiving, but cut the thick ones in half so they cook in the same time. Drain on a rack, not on paper, so the underside stays crisp.',
     ing: [

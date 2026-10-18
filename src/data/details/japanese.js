@@ -224,7 +224,7 @@ module.exports = {
 
   'yakitori': {
     d: 'Charcoal-grilled chicken skewers lacquered in a tare that gets richer every time you use it. The Japanese izakaya standard, and one of the best things you can do with chicken thighs and a hot grill.',
-    meta: 'Charred yakitori chicken skewers with a glossy homemade tare glaze. Izakaya-style, on the grill in 35 minutes.',
+    meta: 'Charred yakitori chicken skewers with a glossy homemade tare glaze. Izakaya-style, ready in about 65 minutes.',
     kw: ['yakitori recipe', 'japanese chicken skewers', 'tare sauce', 'grilled chicken skewers'],
     why: 'Tare is brushed on only in the last minutes of grilling because its sugars burn quickly over direct heat; applied in layers, each coat dries and concentrates into a lacquer. Threading skin between meat pieces means every skewer self-bastes as the fat renders down over the coals.',
     ing: [
@@ -305,8 +305,8 @@ module.exports = {
   },
 
   'miso-soup': {
-    d: 'The five-minute soup that anchors every Japanese meal: a clean dashi broth, silken tofu, wakame and miso whisked in off the heat. Restraint is the entire recipe.',
-    meta: 'Traditional Japanese miso soup with dashi, silken tofu and wakame. Ready in 15 minutes, and never boil the miso.',
+    d: 'The soup that anchors every Japanese meal: a clean dashi broth, silken tofu, wakame and miso whisked in off the heat. Restraint is the entire recipe.',
+    meta: 'Traditional Japanese miso soup with dashi, silken tofu and wakame. Ready in 35 minutes with the kombu soak, and never boil the miso.',
     kw: ['miso soup recipe', 'japanese dashi soup', 'tofu wakame soup', 'healthy japanese soup'],
     why: 'Miso is a living food full of enzymes and beneficial bacteria, and boiling it destroys both along with its delicate aroma compounds. Whisking it into broth held below 80°C keeps the flavour bright and the texture smooth, which is why the pan always comes off the heat first.',
     ing: [

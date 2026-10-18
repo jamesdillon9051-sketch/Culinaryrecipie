@@ -695,7 +695,7 @@ module.exports = {
     ],
     pair: ['Vanilla sauce', 'Mulled wine', 'Hot chocolate'],
     store: 'Best fresh.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [621, 13, 86, 25, 5, 21, 430]
   },
 

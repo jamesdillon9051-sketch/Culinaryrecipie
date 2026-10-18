@@ -50,7 +50,7 @@ module.exports = {
   },
 
   'trifle': {
-    rest: [360, 'chilling'],
+    rest: [380, 'chilling'],
     d: 'Sponge soaked in sherry, a layer of fruit, proper custard set over the top and a thick raft of whipped cream. Built in a glass bowl so the layers show.',
     meta: 'English trifle — sherry-soaked sponge, fruit, set custard and whipped cream, layered in a glass bowl.',
     kw: ['english trifle recipe', 'classic trifle', 'sherry trifle', 'custard trifle'],
@@ -96,7 +96,7 @@ module.exports = {
   },
 
   'crumpets': {
-    rest: [60, 'resting'],
+    rest: [80, 'resting'],
     d: 'Yeasted batter cooked in rings on a griddle until the tops are riddled with holes. Toasted, buttered, and eaten while the butter is still disappearing.',
     meta: 'Crumpets — yeasted batter cooked in rings on a griddle until the tops are full of holes.',
     kw: ['crumpet recipe', 'homemade crumpets', 'yeasted batter', 'british teatime'],

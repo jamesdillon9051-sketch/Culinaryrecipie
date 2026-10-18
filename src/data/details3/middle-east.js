@@ -274,7 +274,7 @@ module.exports = {
   },
 
   'joojeh-kabab': {
-    rest: [480, 'chilling'],
+    rest: [500, 'chilling'],
     d: 'Chicken marinated overnight in saffron, lemon and grated onion, grilled over coals and basted with saffron butter as it cooks.',
     meta: 'Joojeh kabab — Persian saffron chicken skewers marinated overnight and basted with saffron butter.',
     kw: ['joojeh kabab recipe', 'persian saffron chicken', 'chicken kabob', 'saffron marinade'],
@@ -596,7 +596,7 @@ module.exports = {
   },
 
   'knafeh-nabulsi': {
-    rest: [120, 'soaking'],
+    rest: [20, 'soaking'],
     d: 'Semolina-orange dough over a layer of fresh white cheese, baked until the base is crisp and the top is orange, then flooded with syrup.',
     meta: 'Knafeh nabulsi — orange semolina dough over fresh white cheese, baked and flooded with syrup.',
     kw: ['knafeh nabulsi recipe', 'palestinian knafeh', 'cheese knafeh', 'kunafa with semolina'],

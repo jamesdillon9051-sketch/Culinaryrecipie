@@ -160,7 +160,7 @@ module.exports = {
     pair: ['Flour tortillas', 'Refried beans', 'Mexican rice'],
     store: 'Keeps in the fridge for up to 5 days and improves with time. Freezes for 3 months. Reheat gently with a splash of water.',
     nut: [398, 34, 7, 26, 3, 1, 480],
-    rest: [480, 'Marinating overnight']
+    rest: [500, 'Marinating overnight']
   },
 
   'broccoli-cheese-casserole': {
@@ -336,6 +336,6 @@ module.exports = {
     pair: ['Yellow mustard', 'Ketchup', 'Dill pickles'],
     store: 'Keep in the fridge for up to 4 days. Reheat in a 160°C / 325°F (140°C fan) oven for 12 minutes. Freeze baked runzas for up to 3 months and reheat from frozen for 20 minutes.',
     nut: [500, 23, 57, 20, 4, 7, 540],
-    rest: [90, 'Rising and proving']
+    rest: [105, 'Rising and proving']
   }
 };

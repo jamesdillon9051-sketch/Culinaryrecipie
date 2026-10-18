@@ -470,7 +470,7 @@ module.exports = {
 
   'baci-di-dama': {
     d: 'Small hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes and chilled to set.',
-    meta: 'Baci di dama, tiny hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes. Thirty servings, ready in 45 minutes.',
+    meta: 'Baci di dama, tiny hazelnut shortbread rounds sandwiched with dark chocolate, baked for 15 minutes. Thirty servings, ready in 1 hour 25 minutes.',
     kw: ['baci di dama', 'italian hazelnut chocolate biscuits', 'lady kisses biscuits', 'hazelnut shortbread sandwiches', 'baci di dama recipe'],
     why: 'Flour, butter, sugar, ground hazelnuts: four things you may already own, and about forty five minutes. Baci di dama means lady\'s kisses, and the name fits: two small, crumbly biscuits joined by a dab of chocolate.\n\nThe biscuit is a shortbread made with ground hazelnuts, which gives it a nutty, sandy texture. Toast the hazelnuts first so they taste of something, cool them and grind them fine. Rub the butter into the flour, nuts and sugar, then press into a dough. **Roll the balls no bigger than a hazelnut**, about 8 g each, because they spread a little and need to stay small to sandwich neatly.\n\nBake at 170C for 15 minutes, until the bottoms are gold and the tops are pale. Cool completely, then spread half with melted dark chocolate and press the others on top. Leave the chocolate to set for 20 minutes. They keep well in a tin and make a good gift.',
     ing: [
@@ -600,7 +600,7 @@ module.exports = {
 
   'crostata-alla-nutella': {
     d: 'A crumbly sweet pastry tart filled with chocolate hazelnut spread and finished with a lattice, baked for 35 minutes at 180C.',
-    meta: 'Crostata alla Nutella, sweet pastry tart filled with chocolate hazelnut spread, baked for 35 minutes. Eight servings, ready in 55 minutes.',
+    meta: 'Crostata alla Nutella, sweet pastry tart filled with chocolate hazelnut spread, baked for 35 minutes. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['crostata alla nutella', 'chocolate hazelnut tart', 'nutella tart italian', 'crostata with chocolate hazelnut spread', 'italian nutella tart'],
     why: 'Most home versions come out with the filling bubbled over, and the fix is to spread it thin. Crostata alla Nutella is the Italian jam tart with a chocolate hazelnut spread instead of fruit, and the filling softens and runs in the oven.\n\nThe pastry is a pasta frolla, a sweet shortcrust made from butter, sugar, egg and flour, and it is deliberately crumbly. Mix it quickly and chill it for 30 minutes so it does not shrink. **Spread the filling only 1 cm thick** and leave a gap at the edge. A thin layer sets with a soft, fudgy texture, and a thick one turns oily.\n\nRoll out two thirds of the dough to line a 24 cm tin and cut the rest into strips for a lattice. Bake at 180C for 35 minutes, until the pastry is golden. Cool completely in the tin before you cut, since the spread is runny when hot and sets as it cools. Sprinkle with chopped hazelnuts for crunch.',
     ing: [

@@ -250,8 +250,8 @@ module.exports = {
   },
 
   'country-fried-chicken': {
-    d: 'Chicken pieces soaked in buttermilk, coated in seasoned flour and fried for 25 minutes until crisp, with a pan gravy. Four servings in 45 minutes.',
-    meta: 'Country fried chicken: chicken soaked in buttermilk, coated in seasoned flour and fried for 25 minutes, served with pan gravy. Four servings in 45 minutes.',
+    d: 'Chicken pieces soaked in buttermilk, coated in seasoned flour and fried for 25 minutes until crisp, with a pan gravy. Four servings in 1 hour 5 minutes.',
+    meta: 'Country fried chicken: chicken soaked in buttermilk, coated in seasoned flour and fried for 25 minutes, served with pan gravy. Four servings in 1 hour 5 minutes.',
     kw: ['country fried chicken', 'southern style fried chicken', 'buttermilk fried chicken with gravy', 'crispy fried chicken', 'fried chicken and gravy'],
     why: 'It looks like a fried chicken recipe and eats like a Sunday supper, because the pan gravy is half the dish. Both depend on a crust that sticks and a pan that stays at a steady heat.\n\nSoak the chicken in buttermilk with salt and pepper for 20 minutes while you prepare the flour. The acid softens the meat, and the thick liquid gives the coating something to cling to.\n\nSeason the flour well with paprika, garlic powder and pepper. Press each piece into it and shake off the extra. **Let the coated pieces sit for 10 minutes** so the flour hydrates and stays on in the pan.\n\nFry in about 2 cm of hot oil, turning once, for 25 minutes in total. The chicken is cooked when the juices run clear. If your oil runs hot, check at 18 minutes. Stir a little flour into the pan fat, whisk in milk and season for the gravy. A thermometer reads 75°C in the thickest part, which is the surest way to know a big piece is cooked through to the bone.',
     ing: [
@@ -551,8 +551,8 @@ module.exports = {
   },
 
   'yorkshire-pudding-wraps': {
-    d: 'Large Yorkshire puddings cooked for 25 minutes in a hot tin and filled with sliced roast beef, gravy and horseradish. Four servings in 40 minutes.',
-    meta: 'Yorkshire pudding wraps: large Yorkshire puddings cooked for 25 minutes and filled with roast beef, gravy and horseradish. Four servings in 40 minutes.',
+    d: 'Large Yorkshire puddings cooked for 25 minutes in a hot tin and filled with sliced roast beef, gravy and horseradish. Four servings in 1 hour.',
+    meta: 'Yorkshire pudding wraps: large Yorkshire puddings cooked for 25 minutes and filled with roast beef, gravy and horseradish. Four servings in 1 hour.',
     kw: ['yorkshire pudding wraps', 'beef yorkshire pudding wraps', 'yorkshire pudding wraps with roast beef', 'yorkshire wraps', 'giant yorkshire pudding wrap'],
     why: 'Keep the oven hot and the batter rested. That is most of the recipe, and the part people skip. A Yorkshire pudding rises because the batter hits very hot fat, so everything depends on the heat.\n\nMake the batter first: equal volumes of egg, flour and milk, with salt. Whisk until smooth and leave for 20 minutes, while the oven and tin heat up.\n\nPut a little oil in each hole of a tin and heat it at 220°C until it smokes. **Pour in the batter quickly** and shut the door at once. Opening it early lets the heat out and the puddings sink.\n\nThey are ready after 25 minutes, puffed, deep gold and crisp. If your oven runs hot, check at 20 minutes. While they cook, slice the beef and warm the gravy. Spread each pudding with horseradish, fill with beef and fold over like a wrap. They are a good way to use leftover roast beef, and the puddings can be cooked ahead and warmed for 5 minutes in a hot oven.',
     ing: [

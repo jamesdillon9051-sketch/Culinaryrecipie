@@ -209,7 +209,7 @@ module.exports = {
 
   'garlic-prawn-courgette-noodles': {
     d: 'Prawns cooked hard in garlic, chilli and olive oil, tossed through courgette ribbons that never see a pan — 45 g of protein and 17 g of carbohydrate.',
-    meta: 'Garlic prawns with courgette noodles — 45 g protein and 17 g carbohydrate, on the table in 25 minutes.',
+    meta: 'Garlic prawns with courgette noodles — 45 g protein and 17 g carbohydrate, on the table in 40 minutes.',
     kw: ['garlic prawns courgette noodles', 'low carb pasta alternative', 'high protein prawns', 'courgetti recipe'],
     why: 'Courgette noodles turn to water because people cook them. They do not need it — tossed raw through something hot they soften in about a minute and keep their bite, and any longer than that and you have soup. Salting and draining them first pulls out most of the water before it can reach the pan.',
     ing: [

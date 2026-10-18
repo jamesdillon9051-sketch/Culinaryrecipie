@@ -25,8 +25,15 @@
  *     on top of the preparation it hides.
  *   - Repeated intervals ("four sets of folds, 30 minutes apart") are the gaps
  *     between them: three gaps of thirty minutes.
- *   - Anything under half an hour is a pause rather than a plan and is left in
- *     the preparation time, where it already sits.
+ *   - A wait of a quarter of an hour or more that the method asks for ("rest
+ *     20 minutes before slicing", "marinate 15 minutes") is waiting, not
+ *     preparation, and counts. Until October 2026 anything under half an hour,
+ *     and any total under an hour, was left out on the theory that the
+ *     preparation time held it; nothing showed it did, and the 20-minute rest a
+ *     lasagne cannot be cut without was missing from its total. Under 15
+ *     minutes is a pause and stays in the preparation time.
+ *   - A wait set going while the cook does something else ("chill 15 minutes
+ *     while you make the filling") hides behind that work and is not added.
  *   - Storage notes, optional extras and "ideally" improvements are not part
  *     of making the dish.
  *
@@ -39,11 +46,17 @@ const COOKS = /\b(bake|bakes|baking|roast|roasts|roasting|fry|fries|frying|deep-
 /* Waiting the recipe requires, as opposed to working. "Relax" and "come to
    room temperature" were missing, which is how a focaccia's two to three
    hours on the counter went uncounted. */
-const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|mature|matured|maturing|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature)\b/i;
+const WAIT = /\b(chill|chilled|chilling|rest|rested|resting|refrigerate|refrigerated|marinate|marinated|marinating|prove|proved|proving|proof|proofed|proofing|rise|risen|rising|ferment|fermented|fermenting|soak|soaked|soaking|steep|steeped|brine|brined|cure|cured|curing|macerate|macerated|freeze|frozen|thaw|thawed|defrost|defrosted|leave|infuse|infused|hang|sprout|sprouted|mature|matured|maturing|stand|stands|standing|drain|drained|cool|cooled|cooling|relax|relaxed|relaxing|come to room temperature)\b/i;
 /* Shelf life, optional extras and make-ahead notes are not part of making it. */
-const STORAGE = /\b(keeps?|will keep|store[ds]?|storing|lasts?|up to|freezer|leftovers?|at this point|if you (?:can|have|want|like|prefer)|can (?:also|be)|no more than|within|serve|reheat)\b/i;
-const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook|grill|steam|poach|braise|toast|sear|smoke)\w*\b/i;
-const COOKED = new RegExp(HEATVERB.source + String.raw`\s+(?:\w+\s+){0,14}$`, 'i');
+/* "Serve" and "freezer" alone used to mark a storage note, which dropped "rest 15 minutes, then
+   serve" and "transfer to the freezer for 90 minutes until slushy"; they count as storage only
+   with a shelf-life word. */
+const STORAGE = /\b(keeps?|will keep|store[ds]?|storing|lasts?|up to|leftovers?|at this point|if you (?:can|have|want|like|prefer)|can (?:also|be)|no more than|within|serve (?:within|for up to)|in the freezer for up to|freezes? (?:well|for up to)|reheat)\b/i;
+/* "Cookies" and "slow cooker" are not cooking verbs. */
+const HEATVERB = /\b(bake|roast|fry|simmer|boil|cook(?!ies?\b|ers?\b)|grill|steam|poach|braise|toast|sear|smoke)\w*\b/i;
+/* "Cook it in 600 ml of water with a pinch of salt, covered, for 15 minutes": commas between the
+   cooking verb and the number do not hand the number to a wait. */
+const COOKED = new RegExp(HEATVERB.source + String.raw`\s+(?:[\w'’-]+[,;]?\s+){0,14}$`, 'i');
 
 const WORDS = { a: 1, an: 1, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, twelve: 12 };
 const NUM = String.raw`(\d+(?:\.\d+)?|a|an|one|two|three|four|five|six|seven|eight|nine|ten|twelve)`;
@@ -66,14 +79,25 @@ function waitIn(raw) {
   const floor = new RegExp(String.raw`at least\s+` + NUM + String.raw`\s*(minutes?|mins?|hours?|hrs?|days?|weeks?)\b`, 'i').exec(sentence);
   if (floor) {
     const m = toMinutes(value(floor[1]), floor[2]);
-    return { min: m + repeated, max: m + repeated };
+    /* "At least 30 minutes and up to 24 hours": the floor, and the ceiling the cook may choose. */
+    const ceiling = new RegExp(String.raw`\bup to\s+` + NUM + String.raw`(?:\s*(minutes?|mins?|hours?|hrs?|days?|weeks?))?\b`, 'i').exec(sentence.slice(floor.index));
+    const top = ceiling && value(ceiling[1]) ? toMinutes(value(ceiling[1]), ceiling[2] || floor[2]) : m;
+    return { min: m + repeated, max: Math.max(m, top) + repeated };
   }
   let best = { min: 0, max: 0 };
   let match;
   UNITS.lastIndex = 0;
   while ((match = UNITS.exec(sentence))) {
     const before = sentence.slice(0, match.index);
-    if (COOKED.test(before)) continue;
+    /* The verb nearest the number owns it: "dust with smoked paprika and chill 30 minutes" is a
+       chill, though a cooking word comes earlier in the sentence. */
+    const heatAt = Math.max(-1, ...[...before.matchAll(new RegExp(HEATVERB.source, 'gi'))].map(m => m.index));
+    /* …but only a waiting verb in use: "the soaked chickpeas" and "the cool side of the grill"
+       describe something; they do not ask the cook to wait. */
+    const waitAt = Math.max(-1, ...[...before.matchAll(new RegExp(WAIT.source, 'gi'))]
+      .filter(m => !/ed$|^frozen$|^risen$/i.test(m[0]) && !/^\s*(?:side|part|zone|end|spot|place|area)\b/i.test(before.slice(m.index + m[0].length)))
+      .map(m => m.index));
+    if (COOKED.test(before) && !(waitAt > heatAt)) continue;
     /* "Remove the brisket after 90 minutes" is time already spent. */
     if (/\bafter\s+$/i.test(before)) continue;
     /* "Cool completely, ideally overnight" promises the cooling, not the night. */
@@ -104,9 +128,11 @@ const SPAN = new RegExp(String.raw`\bevery\s+` + NUM + String.raw`\s*(?:minutes?
 
 /* The waiting verbs a sentence uses, reduced to a stem so that "soaked",
    "soaking" and "soak" are recognised as the same wait. */
-function waitVerbs(sentence) {
+function waitVerbs(sentence, { adjectives = true } = {}) {
   const found = new Set();
   for (const [word] of sentence.matchAll(new RegExp(WAIT.source, 'gi'))) {
+    /* In a method step, "the soaked chickpeas" names what was done, not a wait the step asks for. */
+    if (!adjectives && /ed$/i.test(word)) continue;
     found.add(word.toLowerCase().replace(/(?:ed|ing|s|d)$/, ''));
   }
   return found;
@@ -114,18 +140,31 @@ function waitVerbs(sentence) {
 
 /* A sentence that is not asking the cook to wait at all. */
 function notAWait(sentence) {
-  if (!WAIT.test(sentence) || STORAGE.test(sentence)) return true;
+  /* "Four sets of folds 30 minutes apart" waits between the folds, though no waiting verb says so. */
+  if (/\b(?:sets?|rounds?|times|turns|folds)\b[^.]*\bapart\b/i.test(sentence)) return false;
+  if (!WAIT.test(sentence)) return true;
+  /* "Rest it for at least 30 minutes and up to 24 hours" is a wait with a ceiling, not a storage
+     note, although it says "up to". */
+  if (STORAGE.test(sentence) && !/\bat least\b[^.]*\bup to\b/i.test(sentence)) return true;
+  /* "Skim the scum for the first 20 minutes, until it stops rising" is simmering. */
+  if (/\b(?:skim|scum)\b/i.test(sentence)) return true;
+  /* Chilling the glasses or bowls it is served in runs alongside the rest of the work. */
+  if (/\b(?:chill|freeze)\w*\s+(?:\w+\s+){0,3}(?:glasses|bowls|cups|mugs|coupes|plates)\b/i.test(sentence)
+    && !/\b(?:mixture|dough|beef|meat|fish|filling|batter)\b/i.test(sentence)) return true;
+  /* "Serve warm, or chill for 1 hour": the wait is one of two ways to serve it. */
+  if (/^\s*(?:serve|eat)\b[^.]*\bor\b/i.test(sentence)) return true;
   /* A whole instruction offered as an ideal is an improvement, not a step. */
   return /^\s*ideally\b/i.test(sentence);
 }
 
 /* A wait the cook spends doing something else: "While the dough rests, make
    the filling." The preparation time already holds that work. */
-const overlaps = sentence => /^\s*(?:while|meanwhile|in the meantime)\b/i.test(sentence);
+const overlaps = sentence => /^\s*(?:while|meanwhile|in the meantime)\b/i.test(sentence)
+  || /\bwhile (?:you\b|the (?:oven|grill|pan|water|oil|filling|sauce|dough|rice|pasta|meat|stock|syrup|custard|cream|batter|base)\b|it (?:heats|preheats))/i.test(sentence);
 
 /* "Leave 1 hour, or refrigerate up to 3 weeks" — the alternative is not part
    of the timing, so the clause after "or" is dropped. */
-const clause = raw => raw.split(/,\s*or\s+/i)[0];
+const clause = raw => raw.split(/,\s*or\s+|\s+(?:—|–|-)\s+or\b|\bor,? (?:better|ideally),?/i)[0];
 
 /** Unattended waiting the recipe describes, as { min, max, trace }. */
 function detectWait(recipe) {
@@ -135,7 +174,17 @@ function detectWait(recipe) {
   let min = 0;
   let max = 0;
   const waited = new Set();
-  for (const raw of (recipe.steps || recipe.st || []).join(' ').split(/(?<=[.!?])\s+/)) {
+  /* "Prove 1 hour, then refrigerate at least 8 hours" is two waits, one after the other. */
+  const sentences = (recipe.steps || recipe.st || []).join(' ').split(/(?<=[.!?])\s+/)
+    .flatMap(raw => {
+      if (/^\s*(?:while|meanwhile|in the meantime)\b/i.test(raw)) return [raw];
+      /* Split only where every clause has a waiting verb of its own: "…then on a rack for 20
+         minutes" and "over the next 150 minutes give it four folds, then leave it to rise" are one
+         wait each, read whole. */
+      const parts = raw.split(/,?\s+then\s+/i);
+      return parts.every(part => WAIT.test(part) || /\bapart\b/i.test(part)) ? parts : [raw];
+    });
+  for (const raw of sentences) {
     const sentence = clause(raw);
     const span = !overlaps(sentence) && SPAN.exec(sentence);
     if (span) {
@@ -149,11 +198,18 @@ function detectWait(recipe) {
     }
     if (notAWait(sentence) || overlaps(sentence)) continue;
     const w = waitIn(sentence);
-    /* Under half an hour is a pause, not a plan. */
-    if (w.min < 30) continue;
+    /* Under a quarter of an hour is a pause, not a plan. */
+    if (w.min < 15) continue;
+    /* "If the rice cakes are frozen, soak them for 20 minutes": a wait that only some cooks need
+       widens the range and leaves the floor alone. */
+    if (/^\s*if\b/i.test(sentence)) {
+      max += w.max;
+      trace.push(`conditional ${w.min}${w.max > w.min ? '–' + w.max : ''} — ${sentence}`);
+      continue;
+    }
     min += w.min;
     max += w.max;
-    for (const verb of waitVerbs(sentence)) waited.add(verb);
+    for (const verb of waitVerbs(sentence, { adjectives: false })) waited.add(verb);
     trace.push(`step ${w.min}${w.max > w.min ? '–' + w.max : ''} — ${sentence}`);
   }
 
@@ -166,14 +222,14 @@ function detectWait(recipe) {
     if (notAWait(sentence)) continue;
     if ([...waitVerbs(sentence)].some(verb => waited.has(verb))) continue;
     const w = waitIn(sentence);
-    if (w.min < 30 || w.min <= ing.min) continue;
+    if (w.min < 15 || w.min <= ing.min) continue;
     ing = w;
     trace.push(`prep ${w.min}${w.max > w.min ? '–' + w.max : ''} — ${sentence}`);
   }
 
   min += ing.min;
   max += ing.max;
-  return min >= 60 ? { min, max, trace } : { min: 0, max: 0, trace };
+  return { min, max, trace };
 }
 
 /* A label for the wait when the record does not name one. */

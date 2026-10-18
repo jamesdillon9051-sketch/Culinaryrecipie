@@ -585,7 +585,7 @@ module.exports = {
     pair: ['Samosa chaat', 'Masala chai', 'Extra tamarind chutney'],
     store: 'Keeps 2 days refrigerated in the yoghurt and improves overnight.',
     nut: [420, 18, 52, 16, 7, 22, 1150],
-    rest: [360, 'soaking the dal and chilling']
+    rest: [380, 'soaking the dal and chilling']
   },
 
   'rasgulla': {

@@ -258,7 +258,7 @@ module.exports = {
 
   'som-tam': {
     d: 'Green papaya pounded with garlic, chilli, lime, palm sugar and fish sauce in a clay mortar. Bruising rather than mixing is what makes the dressing soak into the shreds.',
-    meta: 'Fiery som tam green papaya salad pounded in a mortar. Crunchy, sour, sweet and salty in 20 minutes.',
+    meta: 'Fiery som tam green papaya salad pounded in a mortar. Crunchy, sour, sweet and salty in 35 minutes.',
     kw: ['som tam recipe', 'green papaya salad', 'thai salad', 'healthy thai recipe'],
     why: 'Pounding lightly in a mortar bruises the papaya shreds so their cells rupture just enough to absorb the dressing, without collapsing into mush the way tossing in a bowl would fail to achieve. Green papaya itself is unripe and starchy rather than sweet, which is why it stays crunchy under acid.',
     ing: [
@@ -342,7 +342,7 @@ module.exports = {
   },
 
   'mango-sticky-rice': {
-    rest: [240, 'soaking'],
+    rest: [265, 'soaking'],
     d: 'Warm coconut-soaked glutinous rice with cold ripe mango and a salty coconut sauce poured over. Naturally vegan, and one of the best desserts in the world.',
     meta: 'Thai mango sticky rice with coconut-soaked glutinous rice and salted coconut cream. Naturally vegan and gluten-free.',
     kw: ['mango sticky rice recipe', 'khao niaow ma muang', 'thai dessert', 'vegan dessert'],

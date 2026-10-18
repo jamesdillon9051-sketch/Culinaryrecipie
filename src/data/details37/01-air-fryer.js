@@ -192,8 +192,8 @@ module.exports = {
   },
 
   'air-fryer-roast-chicken': {
-    d: 'A whole small chicken rubbed with oil and paprika and cooked breast side down, then up, in the air fryer. Four servings in 65 minutes.',
-    meta: 'Air fryer roast chicken: a whole small chicken with a paprika rub, cooked in the air fryer until the skin is crisp. Four servings in 65 minutes.',
+    d: 'A whole small chicken rubbed with oil and paprika and cooked breast side down, then up, in the air fryer. Four servings in 1 hour 20 minutes.',
+    meta: 'Air fryer roast chicken: a whole small chicken with a paprika rub, cooked in the air fryer until the skin is crisp. Four servings in 1 hour 20 minutes.',
     kw: ['air fryer roast chicken', 'whole chicken in the air fryer', 'air fryer whole chicken', 'easy air fryer roast chicken', 'crispy skin air fryer chicken'],
     why: 'It has to be a small chicken, about 1.4 kg, because the whole bird must fit in the basket with room for air to move round it. A big bird touches the top element and burns before it cooks through.\n\nPat it very dry and rub the oil, salt and paprika right into the skin. Dry skin crisps; wet skin steams. Start it breast side down for the first half so the juices run into the breast, then turn it breast side up to brown.\n\n**Check the temperature, not the clock.** The thickest part of the thigh should read 75°C. Air fryers vary a lot, so look at 45 minutes if your machine runs hot.\n\nRest the bird for 15 minutes under foil before carving. The meat stays moist and the skin stays crisp. The carcass makes stock, and the juices in the base of the basket make a quick gravy. While the bird rests, the juices in the base of the basket can be poured off, skimmed and warmed to make a quick gravy with a spoon of flour and a splash of stock.',
     ing: [

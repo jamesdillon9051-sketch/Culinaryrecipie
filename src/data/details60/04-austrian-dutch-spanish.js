@@ -41,7 +41,7 @@ module.exports = {
 
   'serviettenknodel': {
     d: 'A large bread dumpling shaped into a log, wrapped in a cloth and simmered for 25 minutes, then sliced and served with gravy.',
-    meta: 'Serviettenknödel, Austrian napkin dumpling of bread, egg and parsley simmered in a cloth, cooked for 25 minutes. Six servings, ready in 55 minutes.',
+    meta: 'Serviettenknödel, Austrian napkin dumpling of bread, egg and parsley simmered in a cloth, cooked for 25 minutes. Six servings, ready in 1 hour 15 minutes.',
     kw: ['serviettenknodel', 'austrian napkin dumpling', 'bread dumpling log in a cloth', 'serviettenknoedel recipe', 'sliced bread dumpling with gravy'],
     why: 'Flour, butter, bread, eggs: four pantry things and a clean tea towel. Serviettenknödel is the Austrian napkin dumpling, a bread dumpling formed into one big log, wrapped in a cloth and simmered, which makes it easy to slice into neat rounds for a roast dinner.\n\nCut stale white rolls or white bread into small cubes. Fry chopped onion in butter, then pour milk, eggs, parsley, salt and nutmeg over the bread and add the onion. **Let the mixture stand for 20 minutes** so the bread swells and the dumpling holds together. If it is too wet, add a spoonful of breadcrumbs.\n\nShape the mix into a thick log on a buttered cloth, roll it up and tie the ends with string, leaving a little room for it to swell. Simmer in salted water for 25 minutes, turning once. Lift out, unwrap carefully and rest for 2 minutes before cutting into 2 cm slices. Serve with mushroom sauce or roast gravy. Leftover slices fry well in butter.',
     ing: [
@@ -74,7 +74,7 @@ module.exports = {
 
   'griessknodel': {
     d: 'Small soft dumplings of semolina, egg and butter poached for 15 minutes and served in beef broth with chives.',
-    meta: 'Grießknödel, soft Austrian semolina dumplings poached in broth, cooked for 15 minutes. Six servings, ready in 35 minutes.',
+    meta: 'Grießknödel, soft Austrian semolina dumplings poached in broth, cooked for 15 minutes. Six servings, ready in 55 minutes.',
     kw: ['griessknodel', 'austrian semolina dumplings', 'semolina dumplings in broth', 'griessnockerl soup', 'griessknoedel recipe'],
     why: 'The first sign they are ready is the sight of them floating: pale, plump little dumplings turning slowly in a pot of broth. Grießknödel are an Austrian soup dumpling made from semolina, egg and butter, and they are among the lightest of the dumplings.\n\nBeat the soft butter until creamy, then beat in the egg, a pinch of salt and nutmeg and fold in the semolina. The mixture will look loose at first. **Let it stand for 20 minutes**, when the semolina swells and the dough becomes firm enough to shape. Test one dumpling in simmering salted water: if it falls apart, add a spoonful of semolina.\n\nShape the mixture with two wet spoons or damp hands into small ovals and slip them into barely simmering salted water. Cook for 15 minutes, uncovered, until they have doubled in size and float. Lift them into bowls of hot beef broth and scatter with chives. They are very delicate, so handle gently and cook in the water, not the broth, to keep the soup clear.',
     ing: [
@@ -176,7 +176,7 @@ module.exports = {
 
   'kaspressknodel': {
     d: 'Flat Tyrolean cheese dumplings of bread, cheese and egg pan fried until crisp and served in broth or with salad.',
-    meta: 'Kaspressknödel, flat Tyrolean cheese dumplings pan fried until crisp, cooked for 10 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Kaspressknödel, flat Tyrolean cheese dumplings pan fried until crisp, cooked for 10 minutes. Four servings, ready in 50 minutes.',
     kw: ['kaspressknodel', 'tyrolean cheese dumplings', 'pressed cheese dumplings', 'kaspressknoedel recipe', 'fried cheese dumplings in broth'],
     why: 'Does a dumpling have to be round and boiled? Not in the Tyrol. Kaspressknödel are pressed flat and fried in butter until the outside is crisp and the inside is soft and cheesy, and they are served in beef broth or on a green salad with a dollop of soured cream.\n\nThe mixture is stale bread, milk, egg, strong mountain cheese, onion and chives. Soak the bread in the warm milk with the eggs for 15 minutes, then mix in the cheese and fried onion. **Press the mix firmly into rounds** about 2 cm thick with wet hands, so they hold together in the pan. If the mixture falls apart, add a few breadcrumbs.\n\nFry in butter over medium heat for 4 to 5 minutes on each side, until a deep golden crust forms. Do not turn them until the first side is set. Serve at once, in a bowl of hot broth for a soup, or on a plate with a green salad dressed with vinegar and pumpkin seed oil. The dish is tolerant of the cheese you have, as long as it is a strong, tasty one.',
     ing: [
@@ -306,7 +306,7 @@ module.exports = {
     ],
     pair: ['Mustard', 'Bread rolls', 'Beer'],
     store: 'Shaped croquettes keep for 1 day in the fridge or freeze for 2 months.',
-    rest: [240, 'Chilling'],
+    rest: [260, 'Chilling'],
     nut: [303, 14, 19, 19, 1, 1, 520]
   },
 
@@ -386,8 +386,8 @@ module.exports = {
   },
 
   'pannenkoeken': {
-    d: 'Large, thin Dutch pancakes fried in butter and eaten with syrup, bacon or apple, ready in 30 minutes.',
-    meta: 'Pannenkoeken, large thin Dutch pancakes with syrup, bacon or apple, cooked for 20 minutes. Four servings, ready in 30 minutes.',
+    d: 'Large, thin Dutch pancakes fried in butter and eaten with syrup, bacon or apple, ready in 45 minutes.',
+    meta: 'Pannenkoeken, large thin Dutch pancakes with syrup, bacon or apple, cooked for 20 minutes. Four servings, ready in 45 minutes.',
     kw: ['pannenkoeken', 'dutch pancakes', 'large thin dutch pancakes', 'pannenkoeken with syrup', 'pannenkoeken recipe'],
     why: 'It looks like a pancake and cooks like a crêpe, but it is larger, thicker and meant to be a full meal. Pannenkoeken are the Dutch pancakes, as wide as the pan and eaten for dinner as often as for breakfast, with sweet or savoury toppings.\n\nThe batter is flour, milk, eggs and a pinch of salt, whisked smooth and left to stand for 15 minutes. It should be the thickness of single cream. **Use a large, heavy non stick pan and a hot flame**, pouring in enough batter to cover the base in a thin layer, swirled quickly. Lay strips of bacon, slices of apple or cheese on top while the batter is still wet.\n\nCook for 2 minutes until the underside is golden and the top has just set, then flip with a wide spatula or a plate and cook for 1 minute more. Keep warm in a low oven. In the Netherlands, they are served flat on a plate and eaten with a knife and fork, with syrup, powdered sugar or ginger. The bacon version is a salty and sweet classic.',
     ing: [
@@ -509,7 +509,7 @@ module.exports = {
     st: [
       'Boil the potatoes in salted water for 20 minutes until soft. Drain.',
       'Warm the sauerkraut with the juniper in a pan for 10 minutes.',
-      'Bring water to the boil in a wide pan, take it off the heat, slide in the sausages, cover and leave for 15 minutes.',
+      'While the potatoes boil, bring water to the boil in a wide pan, take it off the heat, slide in the sausages, cover and let them poach off the heat for 15 minutes.',
       'Soften the onion in 20 g butter for 5 minutes, stir in the flour, then whisk in the stock and simmer for 5 minutes for gravy.',
       'Mash the potatoes with the remaining butter and milk, stir in the sauerkraut, and serve with the sliced sausage, gravy and mustard.'
     ],
@@ -525,7 +525,7 @@ module.exports = {
 
   'kapsalon': {
     d: 'Dutch fast food of chips topped with spiced chicken, melted cheese, salad and garlic sauce, baked in one tray for 25 minutes.',
-    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 45 minutes.',
+    meta: 'Kapsalon, Dutch tray of chips with spiced chicken, melted cheese, salad and garlic sauce, baked for 25 minutes. Four servings, ready in 1 hour.',
     kw: ['kapsalon', 'dutch kapsalon', 'chips with kebab meat and cheese', 'kapsalon with chicken', 'dutch fast food tray'],
     why: 'A table for four and a single tray: kapsalon started in a Rotterdam hairdresser\'s, the name means barber shop, and it has become the best known Dutch fast food. It is a heap of chips under spiced meat, melted cheese and a cold salad, with garlic sauce over the lot.\n\nThe meat here is chicken thighs marinated in cumin, paprika, garlic and yoghurt, then roasted until the edges char. Slice it thin. **Bake the chips first and the cheese last**, so the chips stay crisp and the cheese melts to a bubbling blanket. Use frozen oven chips or cut your own, tossed in oil and roasted for 25 minutes.\n\nSpread the hot chips in a tray, lay the sliced chicken on top, cover with grated Gouda and return to the oven for 5 minutes. Pile shredded lettuce, tomato and cucumber on the cheese and pour the garlic sauce over, with a drizzle of chilli sauce. Eat with a fork straight from the tray. It is a meal that works better with a cold drink at the side.',
     ing: [
@@ -562,7 +562,7 @@ module.exports = {
 
   'boterkoek': {
     d: 'A Dutch butter cake, dense and chewy with almond and lemon, baked for 30 minutes and cut into squares.',
-    meta: 'Boterkoek, dense chewy Dutch butter cake with almond and lemon, baked for 30 minutes at 180C. Twelve servings, ready in 45 minutes.',
+    meta: 'Boterkoek, dense chewy Dutch butter cake with almond and lemon, baked for 30 minutes at 180C. Twelve servings, ready in 1 hour.',
     kw: ['boterkoek', 'dutch butter cake', 'dutch almond butter cake', 'boterkoek recipe', 'dense dutch butter cake with almonds'],
     why: 'How can a cake made with so much butter stay firm? Because the dough has almost no liquid, only an egg, and it bakes more like shortbread than sponge. Boterkoek is the Dutch butter cake, a flat, golden, dense square with a chewy edge, and it is one of the simplest bakes in the Dutch kitchen.\n\nBeat the soft butter with the sugar until creamy, then add the egg yolk, lemon zest and a drop of almond essence, and finally the flour and a little salt. The dough will be soft and sticky. **Press it into the tin with floured fingers**, and smooth the top. Mark a criss cross pattern with a fork, brush with the egg yolk and press an almond into each piece.\n\nBake at 180C for 30 minutes until deep gold at the edges and a little pale in the centre. Cool in the tin for 15 minutes and cut into squares while still slightly warm, as the cake hardens as it cools. It keeps for a week in a tin, and the flavour improves with a day or two. Serve with coffee or tea.',
     ing: [
@@ -630,7 +630,7 @@ module.exports = {
 
   'tompouce': {
     d: 'Two layers of crisp puff pastry sandwiching thick vanilla pastry cream under a pink icing, the classic Dutch cake.',
-    meta: 'Tompouce, Dutch cake of puff pastry and vanilla cream under pink icing, baked for 15 minutes. Eight servings, ready in 55 minutes.',
+    meta: 'Tompouce, Dutch cake of puff pastry and vanilla cream under pink icing, baked for 15 minutes. Eight servings, ready in 1 hour 15 minutes.',
     kw: ['tompouce', 'dutch tompouce', 'pink iced puff pastry cake', 'dutch custard slice', 'tompouce recipe'],
     why: 'It looks like a pink brick and eats like a custard slice, which is what a tompouce is. This is the classic Dutch cake, a slab of crisp puff pastry on the bottom and top with a thick vanilla cream between, and the top is covered with pink icing and eaten on the Queen\'s Day, now King\'s Day, when it is dyed orange.\n\nBake the puff pastry between two trays so it rises evenly and stays flat. Cool it completely, then trim the edges and cut into rectangles. For the cream, cook milk, yolks, sugar and cornflour for 5 minutes until very thick, beat in vanilla and cool, then fold in whipped cream. **Make the cream stiff**, because a runny cream squirts out of the sides when you cut the slice.\n\nSpread the cream on the base layer in a thick slab and press the top layer on. Mix icing sugar with a little raspberry juice and water until it is thick enough to spread without running and ice the tops. Let the icing set for 20 minutes. Cut with a serrated knife using a sawing motion, and eat with a fork, as it will squeeze out when bitten.',
     ing: [

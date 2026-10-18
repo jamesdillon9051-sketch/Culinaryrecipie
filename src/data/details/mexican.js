@@ -2,7 +2,7 @@
 
 module.exports = {
   'tacos-al-pastor': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'Chilli-and-achiote-marinated pork, shaved off a vertical spit and served with pineapple, onion and coriander. This home version stacks the marinated pork on a skewer and roasts it, giving you the same charred edges without the trompo.',
     meta: 'Tacos al pastor with achiote-marinated pork, charred pineapple and salsa — the home-oven method for real spit-roast flavour.',
     kw: ['tacos al pastor recipe', 'mexican pork tacos', 'achiote marinade', 'authentic tacos'],
@@ -420,7 +420,7 @@ module.exports = {
 
   'tamales': {
     cookMax: 203,
-    rest: [60, 'soaking'],
+    rest: [75, 'soaking'],
     d: 'Masa whipped with lard until it floats, wrapped around chilli-braised pork in corn husks and steamed until it sets into something tender and fragrant. Making them is traditionally a group activity, and it should be.',
     meta: 'Pork tamales with light, whipped masa and chilli-braised filling, steamed in corn husks. The holiday classic, explained.',
     kw: ['tamales recipe', 'pork tamales', 'masa dough', 'mexican holiday food'],

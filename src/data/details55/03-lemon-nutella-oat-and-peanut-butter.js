@@ -266,7 +266,7 @@ module.exports = {
 
   'mexican-wedding-cookies': {
     d: 'Small, crumbly butter cookies with ground pecans, rolled twice in icing sugar, baked for 14 minutes at 175C.',
-    meta: 'Mexican wedding cookies with pecans rolled in icing sugar, baked for 14 minutes. 30 cookies, ready in 35 minutes.',
+    meta: 'Mexican wedding cookies with pecans rolled in icing sugar, baked for 14 minutes. 30 cookies, ready in 1 hour 4 minutes.',
     kw: ['mexican wedding cookies', 'pecan wedding cookies', 'polvorones', 'snowball cookies', 'pecan butter balls'],
     why: 'These small, round cookies are known by many names. In Mexico they are polvorones, in other places they are Russian tea cakes, snowballs or pecan butter balls, and they have been served at weddings, Christmas and Easter for generations. The common feature is a coat of icing sugar that makes each one look like a snowball.\n\nThe dough is made from butter, icing sugar, flour and a good quantity of finely chopped pecans, with no egg at all. That makes the cookies short and crumbly, almost sandy, and they melt rather than crunch. Toast the pecans first, for 6 minutes in the oven, to bring out their sweetness, and chop them finely in a food processor with a spoon of the flour to stop them turning to paste.\n\n**Roll them in the sugar twice.** First while warm, so that a thin layer melts into the surface, and again when cool, to build a thick snowy coat that stays dry. Skip the first roll and the sugar slides off; skip the second and the cookies look bare.\n\nChill the dough for 30 minutes so that the balls hold their shape, and bake until the bottoms are lightly gold. They are fragile when warm, so let them rest on the tray for 5 minutes before the first roll.',
     ing: [
@@ -434,7 +434,7 @@ module.exports = {
 
   'nutella-cookies': {
     d: 'Soft cookies made from Nutella, flour and an egg, baked for 10 minutes into chewy rounds with a crackled top.',
-    meta: 'Nutella cookies, soft and chewy with a crackled top, baked for 10 minutes. 16 cookies, ready in 20 minutes.',
+    meta: 'Nutella cookies, soft and chewy with a crackled top, baked for 10 minutes. 16 cookies, ready in 35 minutes.',
     kw: ['nutella cookies', 'soft nutella cookies', 'chocolate hazelnut cookies', 'nutella cookies with flour', 'chewy nutella cookie recipe'],
     why: 'Three ingredients is the bare minimum, but a pinch of salt and a splash of vanilla make the difference. Nutella cookies are the quickest cookie you can make, since the spread already contains the sugar, fat and flavour that other cookie doughs build up separately. All that is left to add is an egg to bind and flour to give some structure.\n\nThe dough comes together in a single bowl. It is soft and a little sticky, so chill it for 15 minutes before scooping, and the rounds will hold their shape in the oven. A tablespoon-sized scoop gives sixteen cookies. Flatten them slightly with the back of a spoon, because they do not spread much.\n\n**Pull them out when the tops look dull and cracked.** They will be very soft when they come out, almost raw in the middle, and will set as they cool on the tray. If you wait until they look done, they will be dry and hard by the time they are cold. Ten minutes is plenty.\n\nA pinch of flaky salt on top before baking adds a savoury edge that balances the sweetness. For a sandwich cookie, spread a spoonful of extra Nutella between two cooled cookies.',
     ing: [
@@ -499,7 +499,7 @@ module.exports = {
 
   'oatmeal-cranberry-cookies': {
     d: 'Chewy oatmeal cookies with dried cranberries and cinnamon, baked for 12 minutes until the edges are crisp and the centres soft.',
-    meta: 'Oatmeal cranberry cookies, chewy with cinnamon, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Oatmeal cranberry cookies, chewy with cinnamon, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['oatmeal cranberry cookies', 'chewy oatmeal cranberry cookies', 'cranberry oat cookies', 'oat cookies with dried cranberries', 'oatmeal cookie recipe'],
     why: 'Early autumn, when the leaves start to turn and the first jumper of the year comes out of the drawer, is when oatmeal cookies feel right. This one trades the traditional raisins for dried cranberries, which add a tart edge and a rich red colour and keep the cookie from tasting too sweet.\n\nThe chew comes from three things working together: rolled oats, brown sugar and a short bake. Use old-fashioned rolled oats, not instant, which turn pasty and soft. Light brown sugar is moister than white, and it holds moisture in the finished cookie. And pulling them from the oven while the centres still look soft keeps them tender once cool.\n\n**Let the dough rest for 30 minutes before baking.** The oats absorb moisture from the dough, which thickens it and stops the cookies spreading into thin, crisp discs. A rested dough bakes into thick, chewy, domed cookies with a pleasing, craggy surface.\n\nCinnamon and a pinch of nutmeg give the warmth that makes an oatmeal cookie smell like home. A handful of chopped walnuts or pecans adds crunch. Cool the cookies on the tray for 5 minutes; they are delicate until they have had a little time to firm up.',
     ing: [
@@ -572,7 +572,7 @@ module.exports = {
 
   'olive-oil-cake': {
     d: 'An Italian-style cake with olive oil and orange zest, with a soft, fragrant crumb and a crackled, sugared top, baked for 40 minutes.',
-    meta: 'Olive oil cake with orange zest and a sugared top, baked for 40 minutes. Ten servings, ready in 55 minutes.',
+    meta: 'Olive oil cake with orange zest and a sugared top, baked for 40 minutes. Ten servings, ready in 1 hour 10 minutes.',
     kw: ['olive oil cake', 'italian olive oil cake', 'orange olive oil cake', 'olive oil cake with citrus', 'olive oil cake recipe'],
     why: 'What does an olive oil cake taste like? Not of olives, if the oil is a good, mild extra virgin: the flavour is fruity and faintly peppery in the background, and mostly shows up as a deep, moist, tender crumb. Olive oil does a better job of keeping a cake soft than butter, since it stays liquid at room temperature.\n\nThe cake is among the simplest in the Italian repertoire, made with a single bowl and a whisk. Beat the eggs and sugar until pale and thick, about 3 minutes, then stream in the oil as though you were making mayonnaise. This emulsifies the oil into the egg mixture and gives a fine, even crumb. Add the orange zest and juice, then fold in the dry ingredients.\n\n**Choose the oil with care.** A harsh, grassy oil can taste bitter in a cake. Pick a mild, fruity one, and use the same you would for a salad. Taste a drop before you use it; if you would not eat it on bread, do not bake with it.\n\nSprinkle the top with coarse sugar before baking so that it forms a thin, crackly crust. The cake is done when a skewer comes out clean and the top is deep gold. It keeps beautifully, and is better the next day. Serve with berries, whipped cream or a spoonful of mascarpone.',
     ing: [
@@ -606,7 +606,7 @@ module.exports = {
 
   'orange-cookies': {
     d: 'Soft, cake-like orange cookies with fresh zest, finished with a thin orange glaze, baked for 12 minutes.',
-    meta: 'Orange cookies, soft and cake-like with an orange glaze, baked for 12 minutes. 24 cookies, ready in 40 minutes.',
+    meta: 'Orange cookies, soft and cake-like with an orange glaze, baked for 12 minutes. 24 cookies, ready in 1 hour 2 minutes.',
     kw: ['orange cookies', 'soft orange cookies', 'orange glazed cookies', 'orange zest cookies', 'orange cookie recipe'],
     why: 'Zest, not juice, is where the flavour of an orange lives. The skin contains oils that carry far more aroma than the fruit inside, and juice added to a dough dilutes it and makes it spread. For a cookie that tastes unmistakably of orange, use plenty of zest, rubbed into the sugar, and keep the juice for the glaze.\n\nRub the zest of two oranges into the sugar with your fingertips until it looks damp and smells strongly of citrus. This releases the oils and spreads them over the crystals, so they dissolve into the butter during creaming and flavour the whole dough. Take care to avoid the white pith, which is bitter.\n\n**Cream the butter and sugar until very pale.** Four minutes with an electric whisk gives a light, fluffy mixture that bakes into a soft, cakey cookie. Add the egg and a splash of milk, then fold in the flour. The dough should be soft and slightly sticky.\n\nBake until the edges are only just beginning to colour, or the delicate flavour browns and turns bitter. Glaze the cookies once cool with icing sugar and fresh orange juice, thick enough to cling. Leave them for 30 minutes for the glaze to set.',
     ing: [

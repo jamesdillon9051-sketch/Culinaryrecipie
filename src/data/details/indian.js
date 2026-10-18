@@ -154,7 +154,7 @@ module.exports = {
   },
 
   'lamb-vindaloo': {
-    rest: [360, 'marinating'],
+    rest: [375, 'marinating'],
     d: 'The Goan original, descended from a Portuguese pork dish preserved in wine and garlic. Vinegar, not just chilli, is the defining note — sharp, garlicky and deeply savoury rather than gratuitously hot.',
     meta: 'Authentic Goan lamb vindaloo with a vinegar and garlic marinade — sharp, garlicky and deep, not just fiercely hot.',
     kw: ['vindaloo recipe', 'goan curry', 'lamb vindaloo', 'spicy indian curry'],
@@ -204,7 +204,7 @@ module.exports = {
   },
 
   'chicken-biryani': {
-    rest: [150, 'marinating'],
+    rest: [165, 'marinating'],
     d: 'Hyderabadi dum biryani, where marinated chicken and part-cooked rice are layered raw and sealed to steam in their own aromatics. When you break the seal, the whole kitchen changes.',
     meta: 'Hyderabadi chicken dum biryani with saffron, fried onions and layered basmati sealed and steamed in its own aromatics.',
     kw: ['chicken biryani recipe', 'hyderabadi biryani', 'dum biryani', 'indian rice dish'],
@@ -638,7 +638,7 @@ module.exports = {
   },
 
   'garlic-naan': {
-    rest: [60, 'proving'],
+    rest: [75, 'proving'],
     d: 'Blistered, chewy naan cooked in a screaming-hot cast-iron pan and brushed with garlic butter. Yogurt in the dough is what gives it the characteristic soft chew and slight tang.',
     meta: 'Soft, blistered garlic naan made in a hot skillet — no tandoor required. Yogurt dough for authentic chew and tang.',
     kw: ['naan recipe', 'garlic naan', 'indian flatbread', 'homemade naan without tandoor'],
@@ -682,7 +682,7 @@ module.exports = {
   },
 
   'gulab-jamun': {
-    rest: [120, 'soaking'],
+    rest: [135, 'soaking'],
     d: 'Milk-solid dumplings fried to a deep bronze and steeped in cardamom-rose syrup until they double in size and turn to sponge. The definitive Indian celebration sweet.',
     meta: 'Soft, syrup-soaked gulab jamun with cardamom and rose. The low-temperature frying method that keeps the centres light.',
     kw: ['gulab jamun recipe', 'indian dessert', 'milk dumplings in syrup', 'diwali sweet'],

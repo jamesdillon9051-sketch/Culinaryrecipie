@@ -82,7 +82,7 @@ module.exports = {
 
   'brown-butter-rice-krispie-treats': {
     d: 'Marshmallow cereal bars made with nutty browned butter and a pinch of sea salt, set in a tin in 30 minutes.',
-    meta: 'Brown butter Rice Krispie treats with a nutty flavour and sea salt, made in 20 minutes. 16 bars, ready in 50 minutes.',
+    meta: 'Brown butter Rice Krispie treats with a nutty flavour and sea salt, made in 50 minutes. 16 bars, ready in 50 minutes.',
     kw: ['brown butter rice krispie treats', 'browned butter marshmallow treats', 'salted rice krispie treats', 'chewy rice krispie bars', 'brown butter rice cereal bars'],
     why: 'Browning the butter is the one move that makes these different from the childhood original. Butter that has been cooked past melting until the milk solids turn golden and smell of hazelnuts adds a deep, toasty, caramel flavour to the bars, without altering anything else about the recipe. It is a five-minute detour with a large payoff.\n\nMelt the butter over medium heat, stirring, as it foams and spits and then settles. Watch for the moment the white milk solids at the bottom turn the colour of a hazelnut and the smell changes from creamy to nutty. Pour it into a bowl at once, because it goes from brown to burnt in seconds, even off the heat. The marshmallows go into the warm butter and melt in minutes.\n\n**Use fresh marshmallows.** Old ones, which have dried and hardened, make rigid, tough treats. The bars should be soft and chewy. Fold in the cereal gently with a greased spatula, press lightly into the tin with greased fingers, and do not compact the mixture, or the bars will be hard.\n\nA generous pinch of flaky sea salt over the top makes the sweetness taste more complex. Cool for 30 minutes before cutting into squares with an oiled knife.',
     ing: [
@@ -440,7 +440,7 @@ module.exports = {
     ],
     pair: ['Fresh berries', 'Fruit compote', 'Coffee', 'Whipped cream'],
     store: 'Keeps in the fridge for 4 days.',
-    rest: [360, 'Cooling and chilling'],
+    rest: [420, 'Cooling and chilling'],
     nut: [376, 6, 25, 28, 0, 17, 240]
   },
 
@@ -672,7 +672,7 @@ module.exports = {
     ],
     pair: ['Hot fudge sauce', 'Fresh berries', 'Coffee', 'Cold milk'],
     store: 'Keeps in the freezer for 2 weeks, covered.',
-    rest: [240, 'Freezing'],
+    rest: [255, 'Freezing'],
     nut: [608, 7, 64, 36, 2, 47, 280]
   },
 

@@ -507,7 +507,7 @@ module.exports = {
     pair: ['Bajra roti or chapati', 'Steamed rice', 'Sliced onion with lemon', 'Cooling raita'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
     nut: [724, 40, 15, 56, 2, 6, 750],
-    rest: [60, 'Marinating']
+    rest: [80, 'Marinating']
   },
 
   'pyaaz-kachori': {

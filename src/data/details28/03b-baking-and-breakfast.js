@@ -117,10 +117,11 @@ module.exports = {
     pair: ['Salted butter', 'Strawberry jam', 'Mature cheddar'],
     store: 'Best on the day they are baked. Keep in a bag at room temperature for up to 2 days and warm in a 180°C oven for 5 minutes. Freeze for up to 2 months and reheat from frozen at 180°C for 10 minutes.',
     nut: [315, 5, 31, 19, 1, 1, 300],
-    rest: [105, 'Rising and proving']
+    rest: [125, 'Rising and proving']
   },
 
   'fondant-fancies': {
+    rest: [70, 'chilling'],
     d: 'Small squares of vanilla sponge filled with jam and buttercream and coated in pink, yellow and lilac fondant icing. The teatime cake of British childhood.',
     meta: 'Fondant fancies: small squares of vanilla sponge filled with jam and buttercream, coated in pink, yellow and lilac fondant icing and piped with chocolate.',
     kw: ['fondant fancies', 'homemade fondant fancies', 'french fancies', 'fondant fancies recipe', 'how to make fondant fancies'],

@@ -94,7 +94,7 @@ module.exports = {
   },
 
   'chia-pudding': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'Chia seeds left in milk overnight until they swell into a set, tapioca-like pudding. Two ingredients, five minutes of work, and it does the rest of the job while you sleep.',
     meta: 'Overnight chia pudding — chia seeds set in milk with vanilla and maple, topped with fruit and nuts.',
     kw: ['chia pudding recipe', 'make ahead chia', 'healthy breakfast pudding', 'chia seed dessert'],
@@ -473,7 +473,7 @@ module.exports = {
       'This short simmer is the only time anything gets near a boil, and it concentrates the spice.',
       'Turn the heat down low and pour in the remaining wine along with the orange and lemon slices.',
       'Bring it to about 70°C — steaming, with the occasional bubble at the edge, but never simmering. Use a thermometer if you have one.',
-      'Hold it there for 20 minutes so the spices infuse.',
+      'Keep it there over the lowest heat for 20 minutes so the spices give up their flavour.',
       'Stir in the brandy or port at the very end, off the heat.',
       'Ladle into heatproof glasses through a sieve, and garnish each with an orange slice and a cinnamon stick.'
     ],

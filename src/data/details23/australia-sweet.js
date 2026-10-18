@@ -483,7 +483,7 @@ module.exports = {
     pair: ['A cup of tea', 'Fresh strawberries', 'Coffee'],
     store: 'Keep in an airtight container up to 5 days. Freeze un-iced squares for 2 months.',
     nut: [229, 2, 26, 13, 2, 19, 110],
-    rest: [60, 'Cooling']
+    rest: [80, 'Cooling']
   },
 
   'boiled-fruit-cake': {

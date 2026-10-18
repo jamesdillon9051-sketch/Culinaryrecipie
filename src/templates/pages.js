@@ -119,7 +119,7 @@ function home(ctx) {
       <img src="${SITE.base}assets/img/recipes/${r.imageData.file}.jpg" alt="${esc(r.imageAlt)}"
            width="800" height="600" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     </picture>
-    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax)} &middot; ${esc(r.cuisine)}</span>` : ''}
+    ${i === 0 ? `<span class="hero-chip">${ICONS.clock}${compactTime(r.elapsedTime, r.elapsedMax, !!r.untimed)} &middot; ${esc(r.cuisine)}</span>` : ''}
   </a>`;
 
   const body = `

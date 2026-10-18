@@ -498,7 +498,7 @@ module.exports = {
     ],
     pair: ['Soup', 'Butter', 'Ham and cheese', 'Sausages'],
     store: 'Best on the day. Keep in a bread bin for up to 2 days. Freezes for up to 2 months.',
-    rest: [60, 'proving'],
+    rest: [80, 'proving'],
     nut: [144, 5, 22, 4, 1, 4, 510]
   },
 
@@ -619,7 +619,7 @@ module.exports = {
     ],
     pair: ['Pasta', 'Soup', 'Roast chicken', 'Salad'],
     store: 'Best on the day. Keep covered for up to 2 days and warm at 160°C for 8 minutes.',
-    rest: [60, 'proving'],
+    rest: [75, 'proving'],
     nut: [184, 5, 23, 8, 1, 4, 510]
   },
 
@@ -652,7 +652,7 @@ module.exports = {
     ],
     pair: ['Burger patties', 'Pickles', 'Coleslaw', 'Fries'],
     store: 'Best within 2 days. Keep in a bread bin. Freezes for up to 2 months.',
-    rest: [60, 'proving'],
+    rest: [80, 'proving'],
     nut: [257, 8, 36, 9, 2, 8, 770]
   },
 

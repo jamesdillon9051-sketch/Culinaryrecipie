@@ -108,7 +108,7 @@ module.exports = {
     pair: ['Ridged potato chips', 'Raw vegetable sticks', 'Pretzels'],
     store: 'Keeps in the fridge for up to 5 days. Stir before serving. It does not freeze well.',
     nut: [206, 2, 9, 18, 1, 5, 260],
-    rest: [120, 'Chilling']
+    rest: [135, 'Chilling']
   },
 
   'grape-jelly-meatballs': {

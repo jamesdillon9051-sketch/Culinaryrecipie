@@ -144,7 +144,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Fresh raspberries', 'Coffee', 'Cold milk'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [540, 8, 46, 36, 3, 28, 240]
   },
 
@@ -242,7 +242,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Fresh lime zest', 'Coffee', 'Sparkling wine'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [544, 7, 48, 36, 1, 34, 210]
   },
 
@@ -307,7 +307,7 @@ module.exports = {
     ],
     pair: ['Cold milk', 'Coffee', 'Hot chocolate', 'Fresh bananas'],
     store: 'Keeps in the fridge for 1 week.',
-    rest: [60, 'Chilling'],
+    rest: [75, 'Chilling'],
     nut: [328, 6, 31, 20, 3, 22, 60]
   },
 
@@ -344,7 +344,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Coffee', 'Hot tea', 'Spiced cider'],
     store: 'Keeps in the fridge for 3 days.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [492, 5, 37, 36, 2, 24, 280]
   },
 
@@ -378,7 +378,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Vanilla ice cream', 'Coffee', 'Sparkling wine'],
     store: 'Best the day it is made. Keeps in the fridge for 2 days.',
-    rest: [240, 'Chilling'],
+    rest: [270, 'Chilling'],
     nut: [391, 3, 43, 23, 3, 26, 140]
   },
 
@@ -605,7 +605,7 @@ module.exports = {
 
   'dairy-free-chocolate-chip-cookies': {
     d: 'Chewy chocolate chip cookies made with dairy-free butter and dairy-free chocolate chips, baked for 12 minutes.',
-    meta: 'Dairy-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 30 minutes.',
+    meta: 'Dairy-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['dairy-free chocolate chip cookies', 'dairy-free cookies', 'chocolate chip cookies without butter', 'chocolate chip cookies without dairy', 'dairy-free cookie recipe'],
     why: 'Keep the dough cold. That is the key to a dairy-free chocolate chip cookie, because the fat replacing butter melts at a lower temperature, and a warm dough spreads into flat, greasy discs. Dairy-free baking blocks are firmer than tub spreads and give better results, but even they benefit from 30 minutes in the fridge.\n\nUse a block of dairy-free baking spread or refined coconut oil, creamed with the sugar until light. Tub spreads contain water, which makes the cookies cakey and soft. A block holds more fat and creates the crisp edges and chewy middle of a classic cookie. Refined coconut oil has no coconut flavour, which is preferable here, but its melting point is low so chilling is vital.\n\n**Check the chocolate chips.** Many standard chocolate chips contain milk powder or are processed on shared equipment. Look for chips labelled dairy-free, or use a chopped bar of dark chocolate with no milk ingredients. The cookies are only as dairy-free as the chocolate that goes in them.\n\nBake until the edges are golden and the centres still look soft. Leave them on the tray for 10 minutes to finish setting. A pinch of flaky salt on top before baking sharpens the chocolate, and the cookies keep for 5 days in a tin, staying chewy.',
     ing: [

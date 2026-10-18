@@ -53,7 +53,7 @@ module.exports = {
     pair: ['Steamed rice', 'Pao', 'Cucumber and onion salad', 'Plain yoghurt'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months. Reheat gently.',
     nut: [439, 32, 17, 27, 3, 4, 510],
-    rest: [60, 'Marinating']
+    rest: [75, 'Marinating']
   },
 
   'goan-fish-curry': {
@@ -707,7 +707,7 @@ module.exports = {
     pair: ['Tamarind chutney', 'Aloo sabzi', 'Masala chai', 'Mint chutney'],
     store: 'Keeps in an airtight tin for 2 days. Warm in a low oven to crisp.',
     nut: [548, 6, 32, 44, 3, 1, 300],
-    rest: [120, 'Soaking the dal and resting the dough']
+    rest: [140, 'Soaking the dal and resting the dough']
   },
 
   'khandvi': {

@@ -183,8 +183,8 @@ module.exports = {
   },
 
   'oatmeal-bars': {
-    d: 'Rolled oats, banana, peanut butter and honey baked into soft bars for grab-and-go breakfasts. Makes nine in 35 minutes.',
-    meta: 'Oatmeal bars: rolled oats, mashed banana, peanut butter and honey baked into soft bars. A cheap grab-and-go breakfast, nine bars in 35 minutes.',
+    d: 'Rolled oats, banana, peanut butter and honey baked into soft bars for grab-and-go breakfasts. Makes nine in 50 minutes.',
+    meta: 'Oatmeal bars: rolled oats, mashed banana, peanut butter and honey baked into soft bars. A cheap grab-and-go breakfast, nine bars in 50 minutes.',
     kw: ['oatmeal bars', 'banana oat breakfast bars', 'budget oat bars', 'easy baked oatmeal squares', 'cheap grab and go breakfast'],
     why: 'Ripe bananas are the secret. The spotted ones at the bottom of the bowl are sweet and soft, and they act as both sugar and binder, so very little else is needed.\n\nMash them well with a fork until no lumps remain. Then stir in the peanut butter and honey, and finally the oats. The mixture should look like a thick, sticky porridge.\n\nPress it into the tin firmly with the back of a spoon. **A loose layer crumbles when cut.**\n\nBake until the top is golden and the edges pull away from the tin. The bars firm up as they cool, so let them cool for 15 minutes before slicing. They are soft, not crisp. Keep them in the fridge in a tin. These bars are not very sweet, so they suit breakfast rather than dessert. Replace the raisins with chopped apple, dried apricot or a handful of seeds if you prefer, keeping the total roughly the same so the mixture still holds.',
     ing: [

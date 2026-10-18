@@ -208,7 +208,7 @@ module.exports = {
   },
 
   'millionaire-shortbread': {
-    rest: [120, 'setting'],
+    rest: [140, 'setting'],
     d: 'Three layers that each need doing properly: a shortbread base baked until sandy, a caramel boiled to the right temperature so it sets, and tempered-enough chocolate that snaps rather than smears.',
     meta: "Millionaire's shortbread with a caramel boiled to 108°C so it actually sets, on a properly baked shortbread base.",
     kw: ['millionaires shortbread', 'caramel shortbread', 'billionaire shortbread', 'caramel slice recipe'],

@@ -51,7 +51,7 @@ module.exports = {
 
   'gluten-free-brownie-cookies': {
     d: 'Fudgy chocolate cookies made with a gluten-free flour blend, with a shiny crackled top and a brownie-like centre, baked for 12 minutes.',
-    meta: 'Gluten-free brownie cookies with a crackled top, baked for 12 minutes. 16 cookies, ready in 40 minutes.',
+    meta: 'Gluten-free brownie cookies with a crackled top, baked for 12 minutes. 16 cookies, ready in 57 minutes.',
     kw: ['gluten-free brownie cookies', 'gluten-free chocolate cookies', 'fudgy gluten-free cookies', 'crackled gluten-free brownie cookie', 'gluten-free brownie cookie recipe'],
     why: 'Gluten gives wheat flour its stretch and chew, and a brownie cookie needs neither. It relies on fat, sugar and chocolate for its structure, with the minimum of flour to hold them together, which is why it is one of the easiest kinds of cookie to make gluten-free. Almost any decent gluten-free flour blend works, and the result is indistinguishable from the original.\n\nUse a gluten-free flour blend that contains xanthan gum, or add a quarter teaspoon, because the gum replaces the binding that gluten would have provided. Check the labels on the cocoa powder and baking powder as well, as some brands are processed alongside wheat. For anyone with coeliac disease, a certified gluten-free mark is the safest guide.\n\n**Whisk the eggs and sugar for a full 3 minutes.** The shiny, papery crust on the top of a brownie cookie comes from dissolved sugar rising to the surface, and a short mix leaves the top dull. The mixture should be pale, thick and fall from the whisk in a ribbon. Then fold in the melted chocolate and the flour gently.\n\nThe dough is wet and needs 30 minutes in the fridge to become scoopable. Bake until the tops are cracked and glossy and the edges set. The centres should look slightly underdone. They firm up as they cool on the tray, leaving a fudgy middle. Dark chocolate chunks stirred in make them even better.',
     ing: [
@@ -85,7 +85,7 @@ module.exports = {
 
   'gluten-free-cookies': {
     d: 'Chewy chocolate chip cookies made with a gluten-free flour blend, with crisp edges and soft centres, baked for 12 minutes.',
-    meta: 'Gluten-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 45 minutes.',
+    meta: 'Gluten-free chocolate chip cookies, chewy with crisp edges, baked for 12 minutes. 24 cookies, ready in 57 minutes.',
     kw: ['gluten-free cookies', 'gluten-free chocolate chip cookies', 'chewy gluten-free cookies', 'gluten-free cookie recipe', 'cookies with gluten-free flour'],
     why: 'Gluten-free cookie doughs behave differently from wheat ones, and the main difference is time. Gluten-free flours, which are made of rice, tapioca, potato and corn starches, absorb liquid more slowly than wheat flour, so a dough that seems right when mixed turns dry and gritty after baking if it has not rested. Thirty minutes in the fridge before baking lets the starches hydrate fully and makes a dramatic difference to the texture.\n\nUse a flour blend that already contains xanthan gum, labelled as a one-to-one replacement for plain flour, and weigh it rather than measuring by volume. Gluten-free flours vary in density and a cup can differ by 30 g from brand to brand. The dough should feel like a standard cookie dough, soft and slightly sticky.\n\n**Underbake slightly and cool on the tray.** Gluten-free cookies are fragile when warm and set firm as they cool. Take them out when the edges are golden and the middle still looks pale and soft, and leave them on the hot tray for 10 minutes before moving. Overbaked, they turn sandy and crumbly.\n\nBrown sugar provides the moisture and chewiness that gluten-free baking tends to lack, so use more of it than white sugar. Check the chocolate chips for gluten too, since most brands are safe but a few add malt or are processed alongside wheat.',
     ing: [
@@ -118,7 +118,7 @@ module.exports = {
 
   'gluten-free-cupcakes': {
     d: 'Light vanilla cupcakes made with a gluten-free flour blend and a swirl of vanilla buttercream, baked for 22 minutes.',
-    meta: 'Gluten-free cupcakes with vanilla buttercream, baked for 22 minutes. Twelve servings, ready in 50 minutes.',
+    meta: 'Gluten-free cupcakes with vanilla buttercream, baked for 22 minutes. Twelve servings, ready in 57 minutes.',
     kw: ['gluten-free cupcakes', 'gluten-free vanilla cupcakes', 'cupcakes with gluten-free flour', 'gluten-free cupcake recipe', 'moist gluten-free cupcakes'],
     why: 'Cakes are in some ways easier to make gluten-free than bread, because they rely less on gluten structure and more on eggs, fat and sugar. The trick is moisture: gluten-free flours dry out quickly and produce crumbly, sandy cakes unless the batter is slightly wetter than usual. A good cupcake is soft, fine-grained and tender.\n\nUse a gluten-free flour blend with xanthan gum, and increase the liquid by a spoonful or two compared with a wheat recipe. Buttermilk or yogurt adds tenderness, and an extra egg yolk gives richness and binding. Beat the butter and sugar for a full 4 minutes until pale and fluffy, and add the eggs gradually, since the structure of these cakes depends on well-aerated batter.\n\n**Let the batter rest for 15 minutes before baking.** The starches in the flour blend need time to absorb the liquid, and a rested batter bakes into a finer, less gritty crumb. It will thicken noticeably as it stands. Give it a quick stir before spooning it into the cases, filling them two thirds full.\n\nBake until the tops spring back when pressed. Gluten-free cakes can dome and then sink if overbaked, so check at 20 minutes. Cool completely before frosting with vanilla buttercream, made from butter, icing sugar, cream and vanilla. Check that the icing sugar and baking powder are labelled gluten-free.',
     ing: [
@@ -291,7 +291,7 @@ module.exports = {
 
   'low-carb-cookies': {
     d: 'Chewy almond flour cookies sweetened with erythritol and dotted with sugar-free chocolate chips, baked for 12 minutes.',
-    meta: 'Low-carb cookies with almond flour and sugar-free chocolate chips, baked for 12 minutes. 16 cookies, ready in 30 minutes.',
+    meta: 'Low-carb cookies with almond flour and sugar-free chocolate chips, baked for 12 minutes. 16 cookies, ready in 1 hour 12 minutes.',
     kw: ['low-carb cookies', 'almond flour chocolate chip cookies', 'erythritol cookies', 'low carb cookie recipe'],
     why: 'A chocolate chip cookie with the wheat flour and sugar replaced is a surprisingly good thing, if you accept that it is its own cookie and not an imitation. The ground almonds give a tender, slightly crumbly crumb and a nutty richness, and the erythritol sweetens without raising blood sugar. The cookies come out buttery and chewy, with a distinctive almond flavour.\n\nBrowned butter is the secret to making them taste like the real thing. Melt the butter in a pan for about 5 minutes until the milk solids toast to hazelnut brown and smell nutty, then cool it for 10 minutes. This adds a deep caramel flavour that substitutes for the brown sugar absent from the recipe. Erythritol does not caramelise, so it needs a hand from somewhere.\n\n**Chill the dough for 30 minutes.** Almond flour dough is soft and sticky, and without a rest it spreads into flat, greasy discs. After chilling it holds together and bakes into thick cookies. Press each ball down gently with your palm, as the dough barely spreads.\n\nBake until the edges turn golden, leaving the centres soft. Cool on the tray for at least 15 minutes. These cookies are very fragile when warm and firm up considerably. The nutrition figures treat erythritol as carbohydrate-free, since it is mostly not absorbed.',
     ing: [
@@ -681,7 +681,7 @@ module.exports = {
     ],
     pair: ['Gingerbread', 'Christmas pudding', 'Mince pies', 'Hot coffee'],
     store: 'Keeps in the freezer for 2 weeks.',
-    rest: [480, 'Infusing, chilling and freezing'],
+    rest: [495, 'Infusing, chilling and freezing'],
     nut: [266, 7, 19, 18, 0, 18, 150]
   },
 
@@ -743,7 +743,7 @@ module.exports = {
     ],
     pair: ['Shortbread', 'Fresh berries', 'Espresso', 'Prosecco'],
     store: 'Best within 3 days. Keeps in the freezer for 1 week.',
-    rest: [420, 'Infusing, chilling and freezing'],
+    rest: [440, 'Infusing, chilling and freezing'],
     nut: [236, 7, 25, 12, 1, 23, 150]
   },
 

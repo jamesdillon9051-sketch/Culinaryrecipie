@@ -70,7 +70,7 @@ module.exports = {
     pair: ['Raspberry jam', 'Stewed fruit', 'Fresh berries'],
     store: 'Keeps in the fridge, covered, for up to 3 days. Turn out just before serving. Not suitable for freezing, as the texture turns watery when thawed.',
     nut: [147, 3, 27, 3, 0, 20, 40],
-    rest: [180, 'Chilling']
+    rest: [195, 'Chilling']
   },
 
   'chestnut-stuffing': {

@@ -257,5 +257,5 @@ module.exports = [
   c('pina-colada', 'Piña Colada', 'International', 'Drinks', 'Easy', 5, 0, 2, 4.7, 2044, ['Vegetarian', 'Gluten-Free'], [], 'Pina colada'),
   c('bloody-mary', 'Bloody Mary', 'International', 'Drinks', 'Easy', 8, 0, 1, 4.6, 1622, ['Dairy-Free'], [], 'Bloody mary cocktail'),
   c('bubble-tea', 'Brown Sugar Bubble Tea', 'International', 'Drinks', 'Medium', 15, 25, 2, 4.8, 2955, ['Vegetarian'], ['trending'], 'Bubble tea boba'),
-  c('mulled-wine', 'Mulled Wine', 'International', 'Drinks', 'Easy', 5, 20, 6, 4.7, 1533, ['Vegan', 'Gluten-Free'], [], 'Mulled wine')
+  c('mulled-wine', 'Mulled Wine', 'International', 'Drinks', 'Easy', 5, 25, 6, 4.7, 1533, ['Vegan', 'Gluten-Free'], [], 'Mulled wine')
 ];

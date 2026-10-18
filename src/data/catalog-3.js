@@ -47,7 +47,7 @@ module.exports = [
   c('miso-ramen', 'Miso Ramen', 'Japanese', 'Dinner', 'Hard', 40, 90, 4, 4.8, 3122, [], ['editors'], 'Miso ramen'),
   c('unagi-don', 'Unagi Don', 'Japanese', 'Dinner', 'Medium', 15, 20, 2, 4.7, 1044, ['Dairy-Free'], [], 'Unagi don eel rice'),
   c('nikujaga', 'Nikujaga', 'Japanese', 'Dinner', 'Easy', 15, 35, 4, 4.6, 866, ['Dairy-Free'], [], 'Nikujaga'),
-  c('gyudon', 'Gyudon', 'Japanese', 'Quick Meals', 'Easy', 10, 15, 4, 4.7, 1866, ['Dairy-Free'], [], 'Gyudon beef bowl'),
+  c('gyudon', 'Gyudon', 'Japanese', 'Dinner', 'Easy', 10, 15, 4, 4.7, 1866, ['Dairy-Free'], [], 'Gyudon beef bowl'),
   c('yakisoba', 'Yakisoba', 'Japanese', 'Quick Meals', 'Easy', 15, 12, 4, 4.7, 2144, ['Dairy-Free'], [], 'Yakisoba'),
   c('castella', 'Castella Cake', 'Japanese', 'Baking', 'Medium', 25, 50, 10, 4.7, 1188, ['Vegetarian'], [], 'Castella cake'),
 

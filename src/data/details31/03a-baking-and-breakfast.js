@@ -254,6 +254,6 @@ module.exports = {
     pair: ['Fried eggs', 'Apple butter', 'Maple syrup'],
     store: 'The unfried loaf keeps in the fridge for up to 5 days. Fried slices are best hot. The sliced loaf freezes for 3 months.',
     nut: [265, 13, 24, 13, 2, 0, 570],
-    rest: [480, 'Setting overnight']
+    rest: [510, 'Setting overnight']
   }
 };

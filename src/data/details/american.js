@@ -133,7 +133,7 @@ module.exports = {
   },
 
   'southern-fried-chicken': {
-    rest: [240, 'chilling'],
+    rest: [260, 'chilling'],
     d: 'Buttermilk-brined chicken in a craggy, well-seasoned crust, fried in a cast-iron skillet. The double dredge and a rest before frying are what give it those shattering ridges.',
     meta: 'Southern fried chicken with a buttermilk brine and craggy double-dredged crust. Cast-iron method, properly seasoned.',
     kw: ['fried chicken recipe', 'southern fried chicken', 'buttermilk fried chicken', 'crispy chicken'],

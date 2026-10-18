@@ -181,7 +181,7 @@ module.exports = {
     pair: ['Fresh fruit', 'Coquito', 'Coffee', 'Toasted coconut'],
     store: 'Keeps in the fridge for 3 days.',
     nut: [267, 2, 22, 19, 1, 15, 90],
-    rest: [180, 'Cooling and chilling']
+    rest: [200, 'Cooling and chilling']
   },
 
   'la-bandera-dominicana': {

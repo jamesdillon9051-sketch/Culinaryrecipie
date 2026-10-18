@@ -72,7 +72,7 @@ module.exports = {
       'Shape the dough into two flat rounds about 2 cm thick. Brush with oil and press the sesame and nigella seeds firmly into the tops.',
       'Bake on the hot tray 15 minutes, until risen, golden and hollow-sounding underneath. Cool under a cloth to keep the crust soft.'
     ],
-    rest: [75, 'the dough rising'],
+    rest: [95, 'the dough rising'],
     tips: [
       'Let the semolina hydrate for 20 minutes before kneading.',
       'Press the seeds in hard or they fall off.',

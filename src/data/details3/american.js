@@ -220,7 +220,7 @@ module.exports = {
   },
 
   'philly-soft-pretzel': {
-    rest: [60, 'proving'],
+    rest: [95, 'proving'],
     d: 'Philadelphia pretzels are oblong rather than fat, chewy rather than fluffy, sold in rows stuck together and eaten with a stripe of mustard.',
     meta: 'Philadelphia soft pretzels — oblong, chewy pretzels dipped in a soda bath and baked with coarse salt.',
     kw: ['soft pretzel recipe', 'philly pretzel', 'baking soda bath pretzel', 'homemade pretzels'],
@@ -262,7 +262,7 @@ module.exports = {
   },
 
   'boston-cream-pie': {
-    rest: [210, 'chilling'],
+    rest: [230, 'chilling'],
     d: 'Not a pie at all — two layers of sponge with vanilla pastry cream between them and a chocolate glaze poured over the top so it runs down the sides.',
     meta: 'Boston cream pie — vanilla sponge layered with pastry cream and finished with a poured chocolate glaze.',
     kw: ['boston cream pie recipe', 'vanilla pastry cream cake', 'chocolate glaze cake', 'classic american dessert'],
@@ -348,7 +348,7 @@ module.exports = {
   },
 
   'chicken-and-waffles': {
-    rest: [960, 'chilling'],
+    rest: [975, 'chilling'],
     d: 'Buttermilk-brined fried chicken on a yeasted waffle, with hot sauce and maple syrup poured over both. Sweet, salt, fat and heat in one plate.',
     meta: 'Chicken and waffles — buttermilk-brined fried chicken on yeasted waffles with hot sauce and maple syrup.',
     kw: ['chicken and waffles recipe', 'fried chicken waffles', 'southern brunch', 'buttermilk fried chicken'],

@@ -272,8 +272,8 @@ module.exports = {
   },
 
   'chilled-cucumber-soup': {
-    d: 'A cold, creamy soup of cucumber, Greek yogurt, dill and mint, blended in 10 minutes. Four servings.',
-    meta: 'Chilled cucumber soup: cucumber, Greek yogurt, dill, mint and lemon blended and served cold. Gluten free. Four servings in 10 minutes.',
+    d: 'A cold, creamy soup of cucumber, Greek yogurt, dill and mint, blended smooth and chilled. Four servings.',
+    meta: 'Chilled cucumber soup: cucumber, Greek yogurt, dill, mint and lemon blended and served cold. Gluten free. Four servings in 40 minutes, chilling included.',
     kw: ['chilled cucumber soup', 'cold soup under 400 calories', 'gluten free cucumber yogurt soup', 'no cook cucumber dill soup', 'easy chilled cucumber soup'],
     why: 'Peel the cucumbers and scoop out the seeds. That one step is the difference between a clean, sweet soup and a bitter, watery one. It takes a couple of minutes. A teaspoon does it neatly.\n\nBlend everything with the water until completely smooth. **Chill it for 30 minutes**, so the flavours settle and it is properly cold. Cold mutes flavour. Taste the soup again once it is chilled and add salt or lemon if it needs it. Add a few ice cubes if you want it colder. Greek yogurt gives it body and tang, and dill and mint make it taste fresh rather than merely wet.\n\nServe it in small glasses as a starter, or in bowls with a drizzle of olive oil and a few dill fronds. It is best on the day it is made, though it keeps for 2 days in the fridge. Stir before serving. Garnish with a little extra mint.',
     ing: [

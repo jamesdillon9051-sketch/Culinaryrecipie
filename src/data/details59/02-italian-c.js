@@ -399,7 +399,7 @@ module.exports = {
 
   'involtini-di-melanzane': {
     d: 'Slices of aubergine baked, rolled around ricotta and basil, and finished in tomato sauce under Parmesan, in 50 minutes.',
-    meta: 'Involtini di melanzane, aubergine rolls filled with ricotta and basil in tomato sauce, baked for 25 minutes. Six servings, ready in 50 minutes.',
+    meta: 'Involtini di melanzane, aubergine rolls filled with ricotta and basil in tomato sauce, baked for 25 minutes. Six servings, ready in 1 hour 20 minutes.',
     kw: ['involtini di melanzane', 'aubergine rolls with ricotta', 'italian eggplant rolls', 'baked aubergine involtini', 'eggplant involtini in tomato sauce'],
     why: 'Salt the aubergine first and leave it for half an hour: everything else in the recipe depends on that. Involtini di melanzane are thin slices of aubergine rolled around ricotta, baked in tomato sauce, and they are as tender as they are tidy.\n\nSlice the aubergines lengthways about 7 mm thick, salt them and leave them to sweat so they lose bitter liquid and absorb less oil. Pat them dry, brush with oil and bake at 220C for 15 minutes, turning once, until soft and lightly gold. **Cool them before rolling**, as hot slices tear. Mix the ricotta with Parmesan, basil and lemon zest.\n\nPut a spoonful of the filling at the narrow end of each slice and roll up. Pack them seam side down in a dish over a layer of tomato sauce, spoon more on top and sprinkle with Parmesan. Bake for 10 minutes more, until bubbling. They are served warm, as a starter or light main.',
     ing: [
@@ -604,7 +604,7 @@ module.exports = {
 
   'arrosticini': {
     d: 'Small skewers of cubed lamb from Abruzzo grilled over a high heat for 10 minutes and eaten hot, in 30 minutes.',
-    meta: 'Arrosticini, small lamb skewers from Abruzzo grilled for 10 minutes. Four servings, ready in 30 minutes.',
+    meta: 'Arrosticini, small lamb skewers from Abruzzo grilled for 10 minutes. Four servings, ready in 1 hour.',
     kw: ['arrosticini', 'abruzzo lamb skewers', 'italian lamb skewers', 'arrosticini abruzzesi', 'grilled lamb skewers recipe'],
     why: 'Arrosticini are small, thin skewers of lamb, a food of Abruzzo, grilled over charcoal and eaten by the dozen. The lamb is cut into cubes no bigger than a thumbnail, which is what makes them cook in minutes and stay juicy.\n\nThread the lamb onto short wooden skewers, tightly packed, and alternate lean pieces with a little fat. The fat bastes the meat as it cooks. **Soak the skewers in water for 30 minutes** or the ends will burn. Season only with salt and olive oil, and perhaps a little rosemary, since the flavour of the lamb carries the dish.\n\nGrill over very hot coals or on a hot griddle for about 5 minutes a side, turning often, until browned and still pink in the middle. Salt them as they come off. Eat them hot, straight from the skewer, with bread and a glass of red wine. Do not overcook, as lean lamb dries out quickly.',
     ing: [

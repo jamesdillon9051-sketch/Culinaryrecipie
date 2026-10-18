@@ -669,7 +669,7 @@ module.exports = {
 
   'smoked-salmon-dip': {
     d: 'Cream cheese blended with smoked salmon, lemon, dill and capers into a spreadable dip, chilled and served with crackers.',
-    meta: 'Smoked salmon dip with cream cheese, lemon and dill, made in 10 minutes. Eight servings, no cooking required.',
+    meta: 'Smoked salmon dip with cream cheese, lemon and dill, made in 40 minutes. Eight servings, no cooking required.',
     kw: ['smoked salmon dip', 'smoked salmon cream cheese dip', 'salmon dip with dill', 'smoked salmon pate', 'party dip with smoked salmon'],
     why: 'Why does smoked salmon dip taste better after a short wait? Because the salty fish and the lemon need a little time to soak into the cream cheese, and a dip made and served immediately tastes flat compared with one that has rested. Half an hour in the fridge is enough.\n\nSoften the cream cheese at room temperature before mixing so it blends smoothly without lumps. Fold in finely chopped smoked salmon rather than blending it to a paste, so you can see and taste the pink pieces. Offcuts or trimmings, sold cheaply in packs, are ideal for this.\n\n**Taste before you add salt.** Smoked salmon is salty, and so are capers, so most dips need none at all. Lemon juice and zest cut the richness and brighten the flavour. A spoonful of horseradish adds a gentle kick that complements the fish without overwhelming it.\n\nServe it in a bowl, topped with a few snipped chives and a swirl of olive oil, surrounded by crackers, cucumber slices and slices of toasted rye bread. It also works as a spread for bagels, or a filling for small cucumber cups at a party.',
     ing: [
@@ -769,8 +769,8 @@ module.exports = {
   },
 
   'spaghetti-alla-norma': {
-    d: 'Spaghetti with fried aubergine, tomato sauce, basil and ricotta salata, a Sicilian dish from Catania, ready in 50 minutes.',
-    meta: 'Spaghetti alla Norma with fried aubergine, tomato and ricotta salata. Four servings, ready in 50 minutes.',
+    d: 'Spaghetti with fried aubergine, tomato sauce, basil and ricotta salata, a Sicilian dish from Catania, ready in 1 hour 10 minutes.',
+    meta: 'Spaghetti alla Norma with fried aubergine, tomato and ricotta salata. Four servings, ready in 1 hour 10 minutes.',
     kw: ['spaghetti alla norma', 'pasta alla norma', 'sicilian aubergine pasta', 'aubergine and tomato spaghetti', 'norma pasta with ricotta salata'],
     why: 'Fry the aubergine until deeply golden. This is the main skill in the dish, because pale, spongy aubergine tastes of nothing, and properly browned cubes turn silky and nutty. The name comes from the opera Norma by Bellini, a Catania composer, and Sicilians describe a good dish by saying it is a Norma.\n\nCut the aubergines into 2 cm cubes, salt them, and leave them in a colander for 20 minutes. The salt draws out bitter liquid, which you pat away. Then fry them in a generous amount of olive oil, in batches, until all sides are browned. They absorb oil quickly at first and then release it again as they cook, so be patient.\n\n**Make the tomato sauce plain.** Garlic, a pinch of chilli, tinned tomatoes and basil are all it needs, simmered for 15 minutes. The aubergine brings richness, so the sauce can stay light. Stir the fried aubergine through at the end, so it keeps its texture.\n\nFinish with grated ricotta salata, a firm, salty cheese that does not melt and adds a savoury contrast. If you cannot find it, use feta or pecorino. Add torn basil on top and serve at once.',
     ing: [

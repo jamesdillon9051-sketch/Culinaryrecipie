@@ -176,7 +176,7 @@ module.exports = {
 
   'ravioli-di-ricotta-e-spinaci': {
     d: 'Fresh egg pasta squares filled with ricotta, spinach and nutmeg, boiled for 5 minutes and served with sage butter, in 55 minutes.',
-    meta: 'Ravioli di ricotta e spinaci, fresh pasta filled with ricotta and spinach, cooked for 5 minutes. Four servings, ready in 55 minutes.',
+    meta: 'Ravioli di ricotta e spinaci, fresh pasta filled with ricotta and spinach, cooked for 5 minutes. Four servings, ready in 1 hour 15 minutes.',
     kw: ['ravioli di ricotta e spinaci', 'ricotta and spinach ravioli', 'homemade spinach ravioli', 'fresh pasta with ricotta filling', 'ravioli with sage butter'],
     why: 'This is what to make in early spring, when spinach is young and sweet and you have an afternoon free. Ricotta and spinach is the most familiar ravioli filling in Italy, and it is also the easiest to get right at home.\n\nThe filling must be dry. Wilt the spinach, cool it, then squeeze it in a cloth until no more water comes out and chop it fine. Mix it with the ricotta, grated Parmesan, an egg yolk and a grating of nutmeg. **A wet filling will burst the pasta**, so drain the ricotta in a sieve for an hour first if it looks loose.\n\nRoll the dough thin enough to see your hand through, place teaspoons of filling in a row, brush the gaps with water, cover and press out the air before cutting. Boil for about 5 minutes in salted water that is only just bubbling. Lift them out gently and toss in sage butter with a little Parmesan.',
     ing: [
@@ -378,7 +378,7 @@ module.exports = {
     ],
     pair: ['Cappuccino', 'Espresso', 'Hot chocolate'],
     store: 'Best the day they are made. Keep unfilled for 1 day.',
-    rest: [90, 'Rising'],
+    rest: [110, 'Rising'],
     nut: [288, 7, 38, 12, 1, 18, 440]
   },
 
@@ -415,8 +415,8 @@ module.exports = {
   },
 
   'tajarin-al-tartufo': {
-    d: 'Thin ribbons of egg yolk pasta from Piedmont tossed in butter and finished with shaved truffle, made in 43 minutes.',
-    meta: 'Tajarin al tartufo, thin egg yolk pasta from Piedmont in butter with shaved truffle, cooked for 3 minutes. Four servings, ready in 43 minutes.',
+    d: 'Thin ribbons of egg yolk pasta from Piedmont tossed in butter and finished with shaved truffle, made in 1 hour 3 minutes.',
+    meta: 'Tajarin al tartufo, thin egg yolk pasta from Piedmont in butter with shaved truffle, cooked for 3 minutes. Four servings, ready in 1 hour 3 minutes.',
     kw: ['tajarin al tartufo', 'piedmont truffle pasta', 'egg yolk tagliolini', 'tajarin with butter', 'truffle tagliolini'],
     why: 'A Sunday dish for a table of four, and one where the extravagance is the truffle rather than the cooking. Tajarin are the thin ribbons of Piedmont, made with a lot of egg yolk, which gives a golden, rich dough.\n\nThe dough takes about 10 minutes of kneading. It will feel stiff at first, since there is little liquid beyond the yolks. Rest it for 20 minutes, then roll it out until it is nearly see through and cut it into ribbons about 2 mm wide. **Dust the ribbons with flour and loosen them into nests** so they do not stick together while you boil the water.\n\nThey cook in about 3 minutes. Drain, keeping a cup of the water, and toss them in melted butter with a splash of the water until glossy. Shave the truffle over the top at the table, because heat dulls the scent. A jar of truffle paste or a drizzle of truffle oil is a cheaper stand in for the fresh one.',
     ing: [
@@ -645,8 +645,8 @@ module.exports = {
   },
 
   'seadas': {
-    d: 'Sardinian pastry discs filled with fresh pecorino, fried until crisp and served with warm honey, ready in 50 minutes.',
-    meta: 'Seadas, Sardinian fried pastry filled with pecorino and served with honey, cooked for 10 minutes. Eight servings, ready in 50 minutes.',
+    d: 'Sardinian pastry discs filled with fresh pecorino, fried until crisp and served with warm honey, ready in 1 hour 10 minutes.',
+    meta: 'Seadas, Sardinian fried pastry filled with pecorino and served with honey, cooked for 10 minutes. Eight servings, ready in 1 hour 10 minutes.',
     kw: ['seadas', 'sardinian seadas', 'sardinian cheese pastry with honey', 'pecorino fritters with honey', 'sebadas recipe'],
     why: 'Flour, lard, water, cheese, honey: five things, and a dessert that tastes of salt and sweetness at once. Seadas are Sardinian pastries filled with young pecorino, fried and drizzled with honey, and they are eaten at the end of a meal or at festivals.\n\nThe dough is firm and plain, made with flour, a little lard, water and salt. Rest it for 20 minutes, then roll it thin. Put a slice or a spoonful of mild, fresh cheese in the middle, cover it with a second disc and press the edges well to seal. **A leaking seal will let the cheese escape into the oil**, so crimp it with a fork, and trim with a cutter.\n\nFry in hot oil for about 2 minutes a side until golden and puffed, and drain. Pour over the honey, which is traditionally bitter, such as strawberry tree or chestnut, but any dark honey will do. Eat them while the cheese is soft and stretchy.',
     ing: [

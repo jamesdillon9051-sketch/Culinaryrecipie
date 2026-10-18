@@ -41,7 +41,7 @@ module.exports = {
     pair: ['Pumpkin pie filling', 'Lemon meringue filling', 'Apple pie filling'],
     store: 'The unbaked discs keep in the fridge for 3 days or in the freezer for 3 months, wrapped tightly. Thaw in the fridge before rolling. The blind-baked crust keeps for 1 day at room temperature.',
     nut: [352, 4, 30, 24, 1, 2, 270],
-    rest: [60, 'Chilling']
+    rest: [75, 'Chilling']
   },
 
   'flour-tortillas': {

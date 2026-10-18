@@ -34,7 +34,7 @@ module.exports = {
       'Heat a covered casserole in the oven at 250°C / 480°F for 45 minutes. Tip the cold loaf in, score it deeply, and put the lid on.',
       'Bake 20 minutes covered, then lower to 220°C, remove the lid and bake 25 minutes more until very dark. Cool completely on a rack before cutting.'
     ],
-    rest: [910, 'the autolyse, bulk rise and cold overnight prove'],
+    rest: [930, 'the autolyse, bulk rise and cold overnight prove'],
     tips: [
       'Lid on for the first twenty minutes. It is the steam that lets it rise.',
       'Bake it darker than feels right — pale crust means flat flavour.',
@@ -274,7 +274,7 @@ module.exports = {
       'Wrap tightly, seal the seam and ends, and set it seam-side down in a lined loaf tin. Prove 90 minutes, until risen by half.',
       'Brush with beaten egg and bake at 180°C / 350°F for 45 minutes, until deep brown and 90°C at the centre. Cool 20 minutes before slicing.'
     ],
-    rest: [810, 'the cold prove and the second rise'],
+    rest: [830, 'the cold prove and the second rise'],
     tips: [
       'Cook and cool the sausage completely first.',
       'Cold dough, straight from the fridge, or it cannot be handled.',

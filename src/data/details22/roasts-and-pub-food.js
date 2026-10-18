@@ -79,7 +79,7 @@ module.exports = {
     pair: ['Roast potatoes in duck fat', 'Red cabbage', 'Orange sauce'],
     store: 'Refrigerate carved meat up to 4 days and reheat covered at 160°C for 15 minutes. Freeze for 3 months.',
     nut: [536, 42, 2, 40, 0, 1, 700],
-    rest: [240, 'drying the skin in the fridge']
+    rest: [260, 'drying the skin in the fridge']
   },
 
   'roast-turkey-crown': {

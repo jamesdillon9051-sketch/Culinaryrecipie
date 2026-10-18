@@ -96,11 +96,21 @@ function questions(recipe) {
      Asked only where there is waiting: without it the answer was the prep and
      cook times from the header read back, the same sentence on four thousand
      pages. */
+  const untimed = recipe.untimed && recipe.untimed.length
+    ? ` The method also needs time for ${recipe.untimed.length < 2 ? recipe.untimed[0] : `${recipe.untimed.slice(0, -1).join(', ')} and ${recipe.untimed[recipe.untimed.length - 1]}`}, which it does not time, so treat that as a minimum.`
+    : '';
   if (rest) {
     ask(`How long does ${name} take to make?`,
       total && `${work[0].toUpperCase()}${work.slice(1)}, plus `
         + `${span(rest, restMax)} of ${recipe.restLabel}, so allow `
-        + `${span(total + rest, totalMax + restMax)} from start to finish. The recipe serves ${recipe.servings}.`);
+        + `${span(total + rest, totalMax + restMax)} from start to finish.${untimed} The recipe serves ${recipe.servings}.`);
+  } else if (restMax) {
+    ask(`How long does ${name} take to make?`,
+      total && `${work[0].toUpperCase()}${work.slice(1)}, so ${span(total, totalMax)} in all, `
+        + `plus up to ${humanWaitWords(restMax)} of ${recipe.restLabel} if your ingredients need it (the method says when).${untimed} The recipe serves ${recipe.servings}.`);
+  } else if (untimed) {
+    ask(`How long does ${name} take to make?`,
+      total && `${work[0].toUpperCase()}${work.slice(1)}, so at least ${span(total, totalMax)}.${untimed} The recipe serves ${recipe.servings}.`);
   }
 
   /* What used to follow here — "What are the key tips", "What should I serve

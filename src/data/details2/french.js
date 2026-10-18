@@ -480,7 +480,7 @@ module.exports = {
   },
 
   'brioche': {
-    rest: [120, 'proving'],
+    rest: [660, 'proving'],
     d: 'The richest bread in the French repertoire: a dough carrying half its weight in butter, worked until it is silky, chilled overnight, and baked into something with the crumb of bread and the flavour of pastry.',
     meta: 'Classic French brioche with a rich buttery crumb, overnight cold prove and a glossy egg-washed crust.',
     kw: ['brioche recipe', 'french butter bread', 'brioche nanterre', 'enriched bread dough'],

@@ -371,7 +371,7 @@ module.exports = {
     ],
     pair: ['Pickled cucumber', 'Chilli sauce', 'Steamed greens', 'Green tea'],
     store: 'Keeps in the fridge for 3 days. Re-steam the buns for 5 minutes and reheat the pork in its liquid.',
-    rest: [60, 'Proving'],
+    rest: [80, 'Proving'],
     nut: [728, 15, 41, 56, 2, 9, 920]
   },
 

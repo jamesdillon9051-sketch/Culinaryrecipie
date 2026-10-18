@@ -743,7 +743,7 @@ module.exports = {
     pair: ['Llajua (hot sauce)', 'Fresh juice', 'Black tea', 'Salad'],
     store: 'Keeps in the fridge for 2 days. Reheat in a hot oven.',
     nut: [452, 19, 49, 20, 3, 7, 590],
-    rest: [120, 'Setting the filling']
+    rest: [140, 'Setting the filling']
   },
 
   'argentine-asado': {
@@ -890,6 +890,6 @@ module.exports = {
     pair: ['Black beans', 'White rice', 'Fried plantains', 'Yuca con mojo'],
     store: 'Keeps in the fridge for 4 days and freezes for up to 3 months.',
     nut: [715, 57, 7, 51, 1, 3, 780],
-    rest: [480, 'Marinating overnight']
+    rest: [500, 'Marinating overnight']
   }
 };

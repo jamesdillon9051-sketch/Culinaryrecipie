@@ -277,7 +277,7 @@ module.exports = {
 
   'pinchos-morunos': {
     d: 'Pork skewers marinated in cumin, paprika and thyme and grilled for 15 minutes until charred at the edges.',
-    meta: 'Pinchos morunos, Spanish pork skewers marinated in cumin, paprika and thyme, cooked for 15 minutes. Six servings, ready in 35 minutes.',
+    meta: 'Pinchos morunos, Spanish pork skewers marinated in cumin, paprika and thyme, cooked for 15 minutes. Six servings, ready in 1 hour 5 minutes.',
     kw: ['pinchos morunos', 'spanish pork skewers', 'moorish pork skewers', 'pinchos morunos recipe', 'spiced pork kebabs'],
     why: 'Short and sharp: marinate them, skewer them and grill them hot. That is all there is to pinchos morunos, the spiced pork skewers sold in tapas bars across southern Spain, whose name refers to the Moorish seasonings of cumin, coriander and paprika.\n\nCut pork shoulder or loin into 2.5 cm cubes. A bit of fat on each piece keeps the meat juicy, so choose shoulder. Mix a marinade of olive oil, garlic, smoked paprika, cumin, thyme, turmeric and sherry vinegar, and coat the pork. **Leave it to marinate for at least 30 minutes**, or overnight in the fridge. The vinegar softens the meat as it sits.\n\nThread the cubes onto skewers, leaving small gaps so that heat reaches every side. Grill over a hot barbecue or griddle pan for 12 to 15 minutes, turning, until charred at the edges and cooked through. Serve with lemon and a bowl of bread. They are small enough to eat in two bites and are best hot from the grill.',
     ing: [
@@ -601,7 +601,7 @@ module.exports = {
 
   'rosquillas': {
     d: 'Spanish ring doughnuts of aniseed and lemon dough, fried for 20 minutes in olive oil and rolled in sugar, a Madrid festival sweet.',
-    meta: 'Rosquillas, Spanish aniseed ring doughnuts fried in olive oil and rolled in sugar, cooked for 20 minutes. Twenty servings, ready in 45 minutes.',
+    meta: 'Rosquillas, Spanish aniseed ring doughnuts fried in olive oil and rolled in sugar, cooked for 20 minutes. Twenty servings, ready in 1 hour.',
     kw: ['rosquillas', 'spanish ring doughnuts', 'aniseed doughnuts', 'rosquillas fritas', 'rosquillas de san isidro'],
     why: 'The first sign they are ready is the smell: hot olive oil, lemon peel and anise drifting from the pan. Rosquillas are Spanish ring doughnuts, made in the days before Easter and at the spring festivals, and their dough is lighter than a yeast one because it is raised with baking powder and eggs.\n\nFlavour the olive oil by warming it with a strip of lemon peel and removing the peel when it is fragrant. Mix flour, sugar, baking powder, eggs, anise liqueur and lemon zest into a soft dough, adding more flour until it no longer sticks. **Rest the dough for 15 minutes**, then roll small pieces into ropes and join them into rings with wet fingers. They should be about 6 cm across, as they puff up.\n\nFry in oil at 170C, a few at a time, for about 3 minutes on each side until pale gold. They should not be dark. Drain on kitchen paper and roll in caster sugar while hot. They keep for several days in a tin and get more flavourful. Serve with coffee.',
     ing: [

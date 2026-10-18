@@ -288,7 +288,7 @@ module.exports = {
     ],
     pair: ['Fresh berries', 'Coconut yoghurt', 'Hot coffee', 'Mint tea'],
     store: 'Keeps in the freezer for 2 weeks.',
-    rest: [240, 'Freezing'],
+    rest: [290, 'Freezing'],
     nut: [455, 10, 34, 31, 5, 21, 10]
   },
 

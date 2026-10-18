@@ -164,7 +164,7 @@ module.exports = {
       'Stud the orange all over with the cloves and cut it in half.',
       'Put the cider, apple juice, sugar, studded orange, cinnamon, star anise, allspice and ginger in a large pan.',
       'Warm over a low heat, stirring until the sugar dissolves, until it steams — about 70°C. It should never simmer.',
-      'Hold it at that temperature for 20 minutes, then take off the heat, add the apple slices, cover and infuse 15 minutes.',
+      'Keep it at that temperature over the lowest heat for 20 minutes. Take off the heat, add the apple slices, cover and infuse 15 minutes.',
       'Taste and add a little more sugar if your cider was very dry.',
       'Stir in the rum or Calvados if using, warm through for a minute, and ladle into heatproof glasses with a slice of apple in each.'
     ],

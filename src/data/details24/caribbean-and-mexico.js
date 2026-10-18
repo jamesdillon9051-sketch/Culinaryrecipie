@@ -124,7 +124,7 @@ module.exports = {
     pair: ['Arroz con gandules', 'Tostones', 'A crisp green salad'],
     store: 'Keep in the fridge up to 4 days. Reheat pulled pork in a covered dish in a 160°C oven. Freezes for 3 months.',
     nut: [438, 40, 2, 30, 0, 1, 900],
-    rest: [720, 'Marinating']
+    rest: [740, 'Marinating']
   },
 
   'mofongo': {

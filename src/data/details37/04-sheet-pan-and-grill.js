@@ -311,8 +311,8 @@ module.exports = {
   },
 
   'grilled-chicken-breast': {
-    d: 'Chicken breasts flattened to an even thickness, marinated briefly and grilled until just cooked through. Four servings in 20 minutes.',
-    meta: 'Grilled chicken breast: breasts flattened to an even thickness, marinated briefly and grilled for 14 minutes until juicy. Four servings in 20 minutes.',
+    d: 'Chicken breasts flattened to an even thickness, marinated briefly and grilled until just cooked through. Four servings in 35 minutes.',
+    meta: 'Grilled chicken breast: breasts flattened to an even thickness, marinated briefly and grilled for 14 minutes until juicy. Four servings in 35 minutes.',
     kw: ['grilled chicken breast', 'juicy grilled chicken', 'chicken breast on the grill', 'easy grilled chicken', 'grilled chicken breast marinade'],
     why: 'Chicken breast dries out because it is thick at one end and thin at the other, so by the time the thick end is cooked, the thin end is leather. Flattening it to an even thickness cures that.\n\nPlace each breast between sheets of baking paper and bash it with a rolling pin until it is about 2 cm thick all over. It takes a minute and halves the cooking time. Marinate for 15 minutes in oil, lemon, garlic and paprika, since the acid starts to break down the surface and the oil carries the flavour.\n\n**Do not marinate for more than an hour**; the lemon turns the surface of the meat chalky.\n\nHeat the grill or barbecue until hot, and oil the rack. Cook for 6 or 7 minutes per side, turning once, until the juices run clear and a thermometer reads 75°C. If your grill runs hot, check at 5 minutes. Rest the chicken for 5 minutes before slicing. It is useful cold, too, in salads and sandwiches.',
     ing: [
@@ -372,8 +372,8 @@ module.exports = {
   },
 
   'grilled-pork-chops': {
-    d: 'Pork loin chops brined briefly, oiled and grilled for 7 minutes a side until just cooked through. Four servings in 24 minutes.',
-    meta: 'Grilled pork chops: loin chops brined briefly and grilled for 7 minutes a side until just cooked through and juicy. Four servings in 24 minutes.',
+    d: 'Pork loin chops brined briefly, oiled and grilled for 7 minutes a side until just cooked through. Four servings in 54 minutes.',
+    meta: 'Grilled pork chops: loin chops brined briefly and grilled for 7 minutes a side until just cooked through and juicy. Four servings in 54 minutes.',
     kw: ['grilled pork chops', 'juicy grilled pork chops', 'pork chops on the grill', 'easy grilled pork chops', 'barbecue pork chops'],
     why: 'Pork chops are lean, and a lean cut cooked too long goes dry and tough in minutes. Two things prevent it: a short brine, and taking them off the heat on time.\n\nA brine of water, salt and a little sugar, left for 30 minutes, makes the meat hold on to its juices as it cooks. It also seasons the meat all the way through. Dissolve 2 tablespoons of salt in a litre of water, put the chops in, and leave them on the side. **Rinse and pat them very dry afterwards**, or they steam instead of browning.\n\nChoose chops about 2.5 cm thick, with the bone in if you can. The bone slows the cooking at the edge and keeps the meat juicy.\n\nGrill on a hot, oiled rack for 7 minutes per side. A thermometer should read 63°C. If your grill runs hot, check at 5 minutes. They will carry on cooking as they rest, so take them off a degree or two early. Rest for 5 minutes before serving.',
     ing: [

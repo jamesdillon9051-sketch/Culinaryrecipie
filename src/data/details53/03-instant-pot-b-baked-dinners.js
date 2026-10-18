@@ -664,7 +664,7 @@ module.exports = {
 
   'baked-pork-chops': {
     d: 'Bone-in pork chops seasoned with paprika and garlic and baked at 200C for 25 minutes until juicy with a light crust.',
-    meta: 'Baked pork chops with paprika and garlic, juicy and tender after 25 minutes. Four servings, ready in 35 minutes.',
+    meta: 'Baked pork chops with paprika and garlic, juicy and tender after 25 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['baked pork chops', 'oven baked pork chops', 'juicy pork chops', 'bone in pork chops', 'pork chops with garlic'],
     why: 'Pork, an oven and 25 minutes: those are the three things this recipe needs, and the most important is the thermometer. Pork chops dry out the moment they pass 63C, which is the temperature at which they are safe and still juicy.\n\nChoose chops 2.5 to 3 cm thick, with the bone in. The bone slows the cooking at the edge and keeps the meat tender. Thin, boneless chops cook in seconds and tend to turn leathery. Take them out of the fridge 20 minutes ahead so that they cook evenly.\n\n**Salt them half an hour ahead for better moisture.** A teaspoon of salt rubbed over the chops and left for 30 minutes seasons the meat all the way through and helps it hold onto its juices. Pat away any beads of moisture before the rub goes on.\n\nA rub of paprika, garlic powder, brown sugar and thyme gives the chops a mahogany crust in the oven. Start them hot at 200C, then check at 20 minutes. Rest for 5 minutes under foil before serving, and spoon the pan juices over.',
     ing: [

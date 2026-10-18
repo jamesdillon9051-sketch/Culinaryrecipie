@@ -713,7 +713,7 @@ module.exports = {
 
   'chicken-meal-prep-bowls': {
     d: 'Grilled lemon herb chicken with quinoa, roasted peppers and green beans, divided into four boxes for lunches through the week.',
-    meta: 'Chicken meal prep bowls with quinoa, peppers and green beans, for four lunches. Four servings, ready in 40 minutes.',
+    meta: 'Chicken meal prep bowls with quinoa, peppers and green beans, for four lunches. Four servings, ready in 1 hour 25 minutes.',
     kw: ['chicken meal prep bowls', 'chicken and quinoa meal prep', 'lemon herb chicken bowls', 'meal prep lunch for the week', 'healthy chicken lunch bowls'],
     why: 'Salt the chicken the night before. This is the single most useful trick for meal prep chicken, because breast meat that has sat with salt for a few hours stays juicier through cooking and reheating than meat seasoned at the last minute. It also tastes more seasoned, even cold.\n\nSlice the breasts in half horizontally so that they cook evenly, then marinate in lemon juice, olive oil, garlic, oregano and thyme. The acid works fast on thin cutlets, so 30 minutes to a few hours is plenty. Grill or pan fry them over medium-high heat for 5 minutes a side, until a thermometer reads 74C, and no longer. Overcooked chicken goes tough in the microwave.\n\n**Cook the quinoa in stock, not water.** The extra flavour carries through the week. Rinse it first to remove bitterness, simmer for 12 minutes, rest it covered for 5, and fluff. The roasted peppers and green beans go on one tray at 220C for 20 minutes.\n\nLet everything cool for 15 minutes before dividing into containers, then slice the chicken so each box has a fan of pieces on top. A drizzle of tahini or yogurt sauce added at serving time brings the bowl back to life.',
     ing: [
@@ -749,7 +749,7 @@ module.exports = {
 
   'freezer-chili': {
     d: 'A big pot of beef and bean chili cooked in 40 minutes, cooled and frozen in portions for eight future dinners.',
-    meta: 'Freezer chili with beef and beans, frozen in portions for later. Eight servings, ready in 55 minutes.',
+    meta: 'Freezer chili with beef and beans, frozen in portions for later. Eight servings, ready in 1 hour 25 minutes.',
     kw: ['freezer chili', 'chili to freeze', 'frozen beef chili', 'freezer friendly chili recipe', 'batch cooking chili'],
     why: 'A big pot, a few freezer bags, and eight dinners ready when you need them: that is the logic of batch cooking, and chili is perhaps the best dish for it. The flavours deepen as it sits, the texture holds up beautifully to freezing, and a portion reheats from frozen in 10 minutes.\n\nThe recipe is a double batch, with a kilo of beef mince, two kinds of beans and plenty of spice. Brown the beef in two batches so that it caramelises rather than steams, then cook the onions and peppers in the same pot. Bloom the chili powder, cumin and smoked paprika in the oil for a minute before adding tomatoes and stock.\n\n**Cool it fast before freezing.** Hot chili in a sealed bag creates steam and takes hours to chill, which allows bacteria to multiply. Spread it in a wide dish or divide into shallow containers, cool for 30 minutes, then refrigerate until cold before freezing. Label the bags with the date.\n\nFreeze flat in zip-lock bags, so that they stack neatly and thaw quickly. Thaw overnight in the fridge, or reheat directly from frozen in a pan over low heat with a splash of water. Add fresh lime juice and coriander when you serve, to bring the flavours back to life.',
     ing: [

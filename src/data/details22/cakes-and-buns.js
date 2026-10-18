@@ -438,7 +438,7 @@ module.exports = {
     pair: ['A cup of tea', 'A flat white', 'Fresh strawberries'],
     store: 'Refrigerate up to 3 days. It is best on the day it is made, before the pastry softens. Not suitable for freezing.',
     nut: [388, 6, 46, 20, 1, 28, 170],
-    rest: [120, 'setting the custard']
+    rest: [135, 'setting the custard']
   },
 
   'jam-tarts': {

@@ -611,7 +611,7 @@ module.exports = {
 
   'sardinhas-assadas': {
     d: 'Whole fresh sardines grilled over a high heat for 12 minutes, served on bread with roasted peppers and boiled potatoes.',
-    meta: 'Sardinhas assadas, Portuguese grilled sardines with coarse salt, served on bread, cooked for 12 minutes. Four servings, ready in 22 minutes.',
+    meta: 'Sardinhas assadas, Portuguese grilled sardines with coarse salt, served on bread, cooked for 12 minutes. Four servings, ready in 37 minutes.',
     kw: ['sardinhas assadas', 'portuguese grilled sardines', 'grilled whole sardines with salt', 'santo antonio sardines', 'sardinhas na brasa'],
     why: 'Compare a grilled sardine to a tinned one and you will think they are different fish. Sardinhas assadas are the fresh sardines of Portugal, grilled whole over charcoal in June during the festivals of Saint Anthony, when the streets of Lisbon smell of smoke, and everyone eats them on a slice of bread.\n\nUse the freshest sardines you can find, with shiny skin and clear eyes. Do not gut or scale them: the guts are removed at the table, by running a thumb down the belly. Salt them with coarse salt 15 minutes before cooking, which firms the flesh and seasons the skin. **Grill them over a very hot fire**, 5 to 6 minutes on each side, until the skin blisters and blackens in places.\n\nServe on a thick slice of crusty bread, which soaks up the juices and the fat. Eat with a salad of roasted peppers, boiled potatoes and a drizzle of olive oil. Pull the flesh from the backbone with your fingers. They are best eaten the moment they leave the grill and are not good reheated.',
     ing: [
@@ -772,7 +772,7 @@ module.exports = {
 
   'queijadas-de-sintra': {
     d: 'Small Portuguese tartlets of crisp pastry filled with a sweet curd cheese, egg yolk and cinnamon filling, baked for 25 minutes.',
-    meta: 'Queijadas de Sintra, small Portuguese cheese tartlets with cinnamon, baked for 25 minutes. Twelve servings, ready in 50 minutes.',
+    meta: 'Queijadas de Sintra, small Portuguese cheese tartlets with cinnamon, baked for 25 minutes. Twelve servings, ready in 1 hour 5 minutes.',
     kw: ['queijadas de sintra', 'portuguese cheese tartlets', 'sintra cheese tarts', 'queijadas recipe', 'sweet cheese tartlets with cinnamon'],
     why: 'A treat for a table of twelve, and a Portuguese tradition from Sintra for centuries: queijadas de Sintra are small tartlets filled with fresh cheese, egg yolk, sugar and a pinch of cinnamon, with a thin, crisp, almost translucent pastry. The recipe is old, and it is simple.\n\nThe pastry is flour, a little butter, water and a pinch of salt, mixed to a soft dough and rolled very thin. Cut rounds and press them into a muffin tin, so the sides come up high. **Use fresh, mild cheese such as ricotta or fresh curd**, drained overnight if it is wet, as a wet cheese weeps in the oven. Mash it with sugar, yolks, flour and cinnamon until smooth.\n\nSpoon the filling into the cases to just below the rim, and bake at 200C for 25 minutes, until the tops are golden brown and spotted, and the pastry is crisp. Cool in the tin for 10 minutes, then turn out and dust with cinnamon. They keep for 2 days but are best on the day. Serve with strong coffee.',
     ing: [

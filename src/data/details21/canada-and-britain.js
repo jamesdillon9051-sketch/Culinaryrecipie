@@ -186,7 +186,7 @@ module.exports = {
     pair: ['Ketchup or chutney', 'Green beans', 'A dark beer or red wine'],
     store: 'Refrigerate up to 4 days and reheat at 170°C for 20 minutes. Freeze baked or unbaked for 3 months and bake from frozen, adding 25 minutes.',
     nut: [529, 24, 34, 33, 3, 3, 700],
-    rest: [120, 'chilling the dough and cooling the filling']
+    rest: [135, 'chilling the dough and cooling the filling']
   },
 
   'maple-glazed-salmon': {

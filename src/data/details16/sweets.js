@@ -53,7 +53,7 @@ module.exports = {
       'Bake at 190C fan / 210C / gas 6 for 30 minutes, until the leaves separate and the shells are deep gold.',
       'Dust heavily with icing sugar and eat warm.'
     ],
-    rest: [720, 'chilling the rolled dough log'],
+    rest: [740, 'chilling the rolled dough log'],
     tips: [
       'Thin enough to read through, or there are no leaves.',
       'Twelve hours in the fridge. A soft log cannot be cut into clean discs.',

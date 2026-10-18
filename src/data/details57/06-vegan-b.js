@@ -268,7 +268,7 @@ module.exports = {
     ],
     pair: ['Fresh berries', 'Mint', 'Plant cream', 'Crisp biscuits'],
     store: 'Keeps for 3 days in the fridge, covered.',
-    rest: [240, 'Chilling'],
+    rest: [255, 'Chilling'],
     nut: [192, 2, 19, 12, 2, 15, 60]
   },
 

@@ -511,7 +511,7 @@ module.exports = {
     pair: ['Wafers', 'Fresh fruit', 'Faloodeh', 'Black tea'],
     store: 'Keeps in the freezer for 1 month.',
     nut: [259, 4, 18, 19, 1, 16, 40],
-    rest: [360, 'Freezing']
+    rest: [375, 'Freezing']
   },
 
   'mantu': {

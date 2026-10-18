@@ -485,7 +485,7 @@ module.exports = {
     ],
     pair: ['Whipped cream', 'Fresh berries', 'Coffee'],
     store: 'Best on the day. Keeps for 1 day in the fridge once filled.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [470, 8, 60, 22, 2, 34, 190]
   },
 

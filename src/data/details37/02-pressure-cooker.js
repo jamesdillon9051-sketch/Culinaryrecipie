@@ -407,8 +407,8 @@ module.exports = {
   },
 
   'instant-pot-black-beans': {
-    d: 'Dried black beans cooked without soaking in the pressure cooker with onion, garlic and cumin. Six servings in 45 minutes.',
-    meta: 'Instant Pot black beans: dried black beans pressure cooked without soaking in 25 minutes with onion, garlic and cumin. Six servings in 45 minutes.',
+    d: 'Dried black beans cooked without soaking in the pressure cooker with onion, garlic and cumin. Six servings in 1 hour.',
+    meta: 'Instant Pot black beans: dried black beans pressure cooked without soaking in 25 minutes with onion, garlic and cumin. Six servings in 1 hour.',
     kw: ['instant pot black beans', 'pressure cooker black beans', 'black beans without soaking', 'dried black beans in the instant pot', 'easy black beans'],
     why: 'Dried beans cost a fraction of tinned, and a pressure cooker removes the two reasons people avoid them: the overnight soak and the long simmer. Black beans cook from dry in 25 minutes.\n\nRinse them and pick out any stones or odd beans. Put them in the pot with onion, garlic, cumin and a bay leaf, and cover with water by about 4 cm. **Add the salt now.** The old advice to hold salt until the end does not apply under pressure, and salted beans taste better.\n\nA spoon of oil in the pot stops the beans foaming and blocking the valve. Foaming is the usual reason a pot spits.\n\nLet the pressure release naturally for 15 minutes; a quick release bursts the skins. The beans should be creamy inside and hold their shape. Cook for a few minutes more if they are firm. They freeze well in their cooking liquid. Cooked beans are the base of burrito bowls, soups and rice and beans, so a double batch freezes in portions and saves a lot of time later.',
     ing: [

@@ -169,7 +169,7 @@ module.exports = {
 
   'semmelknodel': {
     d: 'Bread dumplings of stale rolls, milk, egg and parsley, simmered for 25 minutes and served with mushroom sauce or roast.',
-    meta: 'Semmelknödel, German bread dumplings with milk, egg and parsley, cooked for 25 minutes. Four servings, ready in 50 minutes.',
+    meta: 'Semmelknödel, German bread dumplings with milk, egg and parsley, cooked for 25 minutes. Four servings, ready in 1 hour 5 minutes.',
     kw: ['semmelknodel', 'german bread dumplings', 'bread dumplings with parsley', 'semmelknoedel recipe', 'dumplings from stale bread rolls'],
     why: 'The first sign it is ready is the smell: butter and onion softening in a pan and then the soft, yeasty steam of bread soaking in warm milk. Semmelknödel are the bread dumplings of Bavaria, made from stale rolls that would otherwise go in the bin.\n\nCut the rolls into small cubes, a day old or dried in a low oven, and pour warm milk over them. Fry chopped onion in butter until soft and add it with parsley, eggs and salt. **Let the mixture stand for 15 minutes** so the bread swells, and then test it: it should hold when pressed. If it is sticky, add a spoonful of breadcrumbs. If it is crumbly, add a splash of milk.\n\nShape into balls with wet hands. Lower them into barely simmering salted water and cook for 25 minutes, uncovered. Lift them out and serve with mushroom sauce, roast meat or gravy. Cold ones can be sliced and fried in butter the next day.',
     ing: [
@@ -346,7 +346,7 @@ module.exports = {
     ],
     st: [
       'Bring the water to the boil in a wide pan, then take it off the heat and leave for 2 minutes.',
-      'Lower in the sausages, cover and leave for 15 minutes.',
+      'Lower in the sausages, cover and let them poach off the heat for 15 minutes; the water should stay just below a simmer, never boiling, or the skins split.',
       'Lift out with a slotted spoon and serve in a bowl with a little of the hot water.',
       'Serve with the pretzels and the mustard.'
     ],
@@ -710,7 +710,7 @@ module.exports = {
     ],
     pair: ['Vanilla sauce', 'Stewed plums', 'Poppy seeds'],
     store: 'Best fresh.',
-    rest: [60, 'Rising'],
+    rest: [80, 'Rising'],
     nut: [558, 13, 86, 18, 3, 23, 80]
   },
 

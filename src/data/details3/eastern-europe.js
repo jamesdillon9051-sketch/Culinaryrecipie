@@ -283,7 +283,7 @@ module.exports = {
   },
 
   'langos': {
-    rest: [60, 'proving'],
+    rest: [80, 'proving'],
     d: 'Deep-fried yeasted flatbread, stretched thin in the middle, rubbed with raw garlic and covered with soured cream and grated cheese.',
     meta: 'Lángos — Hungarian deep-fried flatbread rubbed with garlic and topped with soured cream and cheese.',
     kw: ['langos recipe', 'hungarian fried bread', 'garlic fried dough', 'street food flatbread'],

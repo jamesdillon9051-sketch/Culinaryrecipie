@@ -94,7 +94,7 @@ module.exports = [
   c('salmon-loaf', 'Salmon Loaf', 'American', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'salmon loaf'),
   c('salmon-pasta', 'Salmon Pasta', 'British', 'Quick Meals', 'Easy', 5, 15, 4, 0, 0, [], ['new'], 'salmon pasta'),
   c('sardine-pasta', 'Sardine Pasta', 'Italian', 'Quick Meals', 'Easy', 5, 12, 2, 0, 0, [], ['new'], 'sardine pasta'),
-  c('mackerel-fishcakes', 'Mackerel Fishcakes', 'British', 'Quick Meals', 'Easy', 15, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'mackerel fishcakes'),
+  c('mackerel-fishcakes', 'Mackerel Fishcakes', 'British', 'Dinner', 'Easy', 15, 15, 4, 0, 0, ['Dairy-Free'], ['new'], 'mackerel fishcakes'),
   c('fish-stew', 'Fish Stew', 'American', 'Dinner', 'Easy', 15, 25, 4, 0, 0, ['Dairy-Free'], ['new'], 'fish stew'),
   c('fish-chowder', 'Fish Chowder', 'American', 'Dinner', 'Easy', 15, 25, 4, 0, 0, [], ['new'], 'fish chowder'),
   c('cod-and-potato-bake', 'Cod and Potato Bake', 'British', 'Dinner', 'Easy', 15, 40, 4, 0, 0, [], ['new'], 'cod and potato bake'),

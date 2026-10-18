@@ -115,7 +115,7 @@ module.exports = {
     pair: ['Olive oil and balsamic vinegar', 'Tomato bruschetta', 'A bowl of soup'],
     store: 'Best on the day it is baked. Keep in a paper bag for up to 2 days and re-crisp in a 200°C oven for 5 minutes. Freeze for up to 3 months.',
     nut: [225, 8, 46, 1, 2, 0, 440],
-    rest: [180, 'Rising and proving']
+    rest: [200, 'Rising and proving']
   },
 
   'english-muffins': {
@@ -191,7 +191,7 @@ module.exports = {
     pair: ['A glass of milk', 'Fresh strawberries', 'A cup of coffee'],
     store: 'Keep in an airtight tin for up to 3 days. Warm in a toaster or a 160°C oven for 5 minutes. Freeze unbaked and unglazed for up to 2 months and bake from frozen for 5 minutes longer.',
     nut: [500, 6, 65, 24, 1, 33, 170],
-    rest: [60, 'Chilling the dough']
+    rest: [75, 'Chilling the dough']
   },
 
   'johnnycakes': {
